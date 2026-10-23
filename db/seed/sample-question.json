@@ -1,0 +1,86 @@
+{
+  "_id": { "$oid": "66f1a2b3c4d5e6f708192a3b" },
+  "code": "QA-PL-000412",
+  "exam_targets": [
+    { "category": "SSC", "tier": "TIER_1" },
+    { "category": "BANK", "tier": "PRELIMS" },
+    { "category": "WB_POST", "tier": "SINGLE" }
+  ],
+  "subject": "quant",
+  "topic": "profit_loss",
+  "subtopic": "marked_price_discount",
+  "concept_tags": ["percentage", "successive_percentage_change"],
+  "difficulty": 2,
+  "expected_time_sec": 45,
+  "lang_set": "bn_en",
+  "stem": {
+    "en": "A shopkeeper marks his goods 40% above the cost price and allows a discount of 20% on the marked price. What is his profit percentage?",
+    "bn": "একজন দোকানদার তাঁর পণ্যের ধার্যমূল্য ক্রয়মূল্যের চেয়ে 40% বেশি রাখেন এবং ধার্যমূল্যের উপর 20% ছাড় দেন। তাঁর শতকরা লাভ কত?"
+  },
+  "options": [
+    { "oid": "opt_7c1e94a2", "text": { "en": "10%", "bn": "10%" } },
+    { "oid": "opt_3f9a1c2e", "text": { "en": "12%", "bn": "12%" } },
+    { "oid": "opt_b5d20e71", "text": { "en": "15%", "bn": "15%" } },
+    { "oid": "opt_e842c06d", "text": { "en": "20%", "bn": "20%" } }
+  ],
+  "correct_option_id": "opt_3f9a1c2e",
+  "solution": {
+    "steps": [
+      {
+        "en": "Let the cost price (CP) be ₹100.",
+        "bn": "ধরি, ক্রয়মূল্য (CP) = ₹100।"
+      },
+      {
+        "en": "Marked price (MP) is 40% above CP: $MP = 100 \\times \\frac{140}{100} = ₹140$.",
+        "bn": "ধার্যমূল্য (MP) ক্রয়মূল্যের চেয়ে 40% বেশি: $MP = 100 \\times \\frac{140}{100} = ₹140$।"
+      },
+      {
+        "en": "A 20% discount is given on MP: $SP = 140 \\times \\frac{80}{100} = ₹112$.",
+        "bn": "ধার্যমূল্যের উপর 20% ছাড়: $SP = 140 \\times \\frac{80}{100} = ₹112$।"
+      },
+      {
+        "en": "Profit $= SP - CP = 112 - 100 = ₹12$ on a CP of ₹100, so the profit is **12%**.",
+        "bn": "লাভ $= SP - CP = 112 - 100 = ₹12$, অর্থাৎ ₹100 ক্রয়মূল্যে লাভ **12%**।"
+      }
+    ],
+    "shortcut": {
+      "en": "Treat markup and discount as successive percentage changes, $a = +40$ and $b = -20$:\n\n$$a + b + \\frac{ab}{100} = 40 - 20 - \\frac{800}{100} = 12\\%$$",
+      "bn": "মার্কআপ ও ছাড়কে ক্রমিক শতকরা পরিবর্তন হিসেবে ধরুন, $a = +40$ এবং $b = -20$:\n\n$$a + b + \\frac{ab}{100} = 40 - 20 - \\frac{800}{100} = 12\\%$$"
+    },
+    "traps": [
+      {
+        "option_id": "opt_e842c06d",
+        "note": {
+          "en": "Subtracting directly (40 − 20 = 20%) is wrong: the discount is taken on the **marked price**, which is larger than the cost price, so it removes more than 20 rupees per ₹100 of cost.",
+          "bn": "সরাসরি বিয়োগ করা (40 − 20 = 20%) ভুল: ছাড় দেওয়া হয় **ধার্যমূল্যের** উপর, যা ক্রয়মূল্যের চেয়ে বেশি, তাই প্রতি ₹100 ক্রয়মূল্যে ছাড় 20 টাকার বেশি হয়।"
+        }
+      },
+      {
+        "note": {
+          "en": "Profit % is always calculated on the **cost price**, never on the marked or selling price.",
+          "bn": "শতকরা লাভ সর্বদা **ক্রয়মূল্যের** উপর হিসাব করা হয়, ধার্যমূল্য বা বিক্রয়মূল্যের উপর নয়।"
+        }
+      }
+    ]
+  },
+  "pyq": {
+    "is_pyq": true,
+    "refs": [
+      {
+        "exam_name": "SSC CGL",
+        "year": 2023,
+        "shift": "Shift 2",
+        "exam_date": { "$date": "2023-07-17T00:00:00.000Z" },
+        "question_code": "SSC-CGL-2023-T1-S2-Q62"
+      }
+    ]
+  },
+  "latest_pyq_year": 2023,
+  "stats": { "attempts": 1840, "correct": 1104, "total_time_ms": 75440000 },
+  "status": "PUBLISHED",
+  "version": 3,
+  "authored_by": "editor_quant_07",
+  "reviewed_by": "reviewer_bn_02",
+  "created_at": { "$date": "2026-03-11T06:20:00.000Z" },
+  "updated_at": { "$date": "2026-09-30T10:15:00.000Z" }
+}

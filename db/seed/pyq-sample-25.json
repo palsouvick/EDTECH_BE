@@ -1,0 +1,427 @@
+[
+  {
+    "category": "WBPSC_WBCS", "subject": "Mathematics", "topic": "Percentage", "difficulty": "Easy",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "A number is first increased by 20% and then the result is decreased by 20%. What is the net change in the original number?",
+        "options": [{"id": "A", "text": "No change"}, {"id": "B", "text": "2% decrease"}, {"id": "C", "text": "4% increase"}, {"id": "D", "text": "4% decrease"}],
+        "explanation": "Let the number be 100. After a 20% increase: 100 × 120/100 = 120. After a 20% decrease: 120 × 80/100 = 96. Net change = 96 − 100 = −4, i.e. a 4% decrease. Formula: net % = a + b + ab/100 = 20 − 20 − 400/100 = −4%. 10-second shortcut: an x% rise followed by an x% fall is always a loss of x²/100 % = 400/100 = 4%."
+      },
+      "bn": {
+        "question_text": "একটি সংখ্যাকে প্রথমে 20% বৃদ্ধি করা হল এবং তারপর প্রাপ্ত ফলকে 20% হ্রাস করা হল। মূল সংখ্যাটির মোট শতকরা পরিবর্তন কত?",
+        "options": [{"id": "A", "text": "কোনো পরিবর্তন নেই"}, {"id": "B", "text": "2% হ্রাস"}, {"id": "C", "text": "4% বৃদ্ধি"}, {"id": "D", "text": "4% হ্রাস"}],
+        "explanation": "ধরি সংখ্যাটি 100। 20% বৃদ্ধির পর: 100 × 120/100 = 120। 20% হ্রাসের পর: 120 × 80/100 = 96। মোট পরিবর্তন = 96 − 100 = −4, অর্থাৎ 4% হ্রাস। সূত্র: শতকরা পরিবর্তন = a + b + ab/100 = 20 − 20 − 400/100 = −4%। শর্টকাট: x% বৃদ্ধির পর x% হ্রাস হলে সর্বদা x²/100 % ক্ষতি হয় = 400/100 = 4%।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "Mathematics", "topic": "Profit & Loss", "difficulty": "Medium",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "A shopkeeper marks his goods 25% above the cost price and allows a discount of 12% on the marked price. His gain percent is:",
+        "options": [{"id": "A", "text": "13%"}, {"id": "B", "text": "10%"}, {"id": "C", "text": "12.5%"}, {"id": "D", "text": "8%"}],
+        "explanation": "Let CP = 100. Marked price = 125. SP = 125 × 88/100 = 110. Gain = 110 − 100 = 10, so gain% = 10%. Trap: 25 − 12 = 13% ignores that the discount is on the marked price. 10-second shortcut: gain% = 25 − 12 − (25 × 12)/100 = 13 − 3 = 10%."
+      },
+      "bn": {
+        "question_text": "একজন দোকানদার পণ্যের ধার্যমূল্য ক্রয়মূল্যের চেয়ে 25% বেশি রাখেন এবং ধার্যমূল্যের উপর 12% বাট্টা (ছাড়) দেন। তাঁর শতকরা লাভ কত?",
+        "options": [{"id": "A", "text": "13%"}, {"id": "B", "text": "10%"}, {"id": "C", "text": "12.5%"}, {"id": "D", "text": "8%"}],
+        "explanation": "ধরি ক্রয়মূল্য = 100 টাকা। ধার্যমূল্য = 125 টাকা। বিক্রয়মূল্য = 125 × 88/100 = 110 টাকা। লাভ = 110 − 100 = 10 টাকা, অতএব শতকরা লাভ = 10%। ভুল ফাঁদ: 25 − 12 = 13% ধরলে ভুল হবে, কারণ বাট্টা ধার্যমূল্যের উপর দেওয়া হয়। শর্টকাট: শতকরা লাভ = 25 − 12 − (25 × 12)/100 = 13 − 3 = 10%।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "Mathematics", "topic": "Time & Work", "difficulty": "Easy",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "A can complete a piece of work in 12 days and B can complete it in 18 days. In how many days will they complete the work working together?",
+        "options": [{"id": "A", "text": "7.2 days"}, {"id": "B", "text": "6 days"}, {"id": "C", "text": "7.5 days"}, {"id": "D", "text": "8 days"}],
+        "explanation": "Work per day: A = 1/12, B = 1/18. Together = 1/12 + 1/18 = (3 + 2)/36 = 5/36. Days = 36/5 = 7.2. Formula: days together = (a × b)/(a + b). 10-second shortcut: (12 × 18)/(12 + 18) = 216/30 = 7.2 days."
+      },
+      "bn": {
+        "question_text": "A একটি কাজ 12 দিনে এবং B সেই কাজ 18 দিনে সম্পন্ন করতে পারে। দুজনে একসঙ্গে কাজ করলে কাজটি কত দিনে শেষ হবে?",
+        "options": [{"id": "A", "text": "7.2 দিন"}, {"id": "B", "text": "6 দিন"}, {"id": "C", "text": "7.5 দিন"}, {"id": "D", "text": "8 দিন"}],
+        "explanation": "একদিনের কাজ: A = 1/12, B = 1/18। একসঙ্গে একদিনে = 1/12 + 1/18 = (3 + 2)/36 = 5/36। সুতরাং সময় = 36/5 = 7.2 দিন। সূত্র: একসঙ্গে সময় = (a × b)/(a + b)। শর্টকাট: (12 × 18)/(12 + 18) = 216/30 = 7.2 দিন।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "SSC_CGL", "subject": "Mathematics", "topic": "Simple & Compound Interest", "difficulty": "Medium",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "The difference between the compound interest and the simple interest on a certain sum for 2 years at 10% per annum is ₹25. The sum is:",
+        "options": [{"id": "A", "text": "₹2,000"}, {"id": "B", "text": "₹2,250"}, {"id": "C", "text": "₹2,500"}, {"id": "D", "text": "₹3,000"}],
+        "explanation": "For 2 years, CI − SI = P × (r/100)². So 25 = P × (10/100)² = P/100, giving P = ₹2,500. 10-second shortcut: sum = difference × 100 ÷ (r/100 × r) → 25 × 100 = 2,500 at 10%."
+      },
+      "bn": {
+        "question_text": "বার্ষিক 10% হারে কোনো মূলধনের 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য ₹25। মূলধনটি কত?",
+        "options": [{"id": "A", "text": "₹2,000"}, {"id": "B", "text": "₹2,250"}, {"id": "C", "text": "₹2,500"}, {"id": "D", "text": "₹3,000"}],
+        "explanation": "2 বছরের জন্য চক্রবৃদ্ধি সুদ − সরল সুদ = P × (r/100)²। অতএব 25 = P × (10/100)² = P/100, সুতরাং P = ₹2,500। শর্টকাট: 10% হারে 2 বছরে পার্থক্য মূলধনের 1/100 অংশ, তাই মূলধন = 25 × 100 = ₹2,500।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "SSC_CGL", "subject": "Mathematics", "topic": "Speed & Distance", "difficulty": "Medium",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "A train 120 m long crosses a pole in 6 seconds. How long will it take to cross a platform 280 m long?",
+        "options": [{"id": "A", "text": "14 seconds"}, {"id": "B", "text": "18 seconds"}, {"id": "C", "text": "22 seconds"}, {"id": "D", "text": "20 seconds"}],
+        "explanation": "Speed = 120/6 = 20 m/s. To cross the platform the train covers its own length plus the platform: 120 + 280 = 400 m. Time = 400/20 = 20 s. Trap: using only 280 m gives 14 s. 10-second shortcut: time ∝ distance, and 400 m is 400/120 × 6 = 20 s."
+      },
+      "bn": {
+        "question_text": "120 মিটার দীর্ঘ একটি ট্রেন একটি খুঁটিকে 6 সেকেন্ডে অতিক্রম করে। ট্রেনটি 280 মিটার দীর্ঘ একটি প্ল্যাটফর্ম অতিক্রম করতে কত সময় নেবে?",
+        "options": [{"id": "A", "text": "14 সেকেন্ড"}, {"id": "B", "text": "18 সেকেন্ড"}, {"id": "C", "text": "22 সেকেন্ড"}, {"id": "D", "text": "20 সেকেন্ড"}],
+        "explanation": "বেগ = 120/6 = 20 মিটার/সেকেন্ড। প্ল্যাটফর্ম অতিক্রম করতে ট্রেনকে নিজের দৈর্ঘ্য ও প্ল্যাটফর্মের দৈর্ঘ্য মিলিয়ে 120 + 280 = 400 মিটার যেতে হয়। সময় = 400/20 = 20 সেকেন্ড। ভুল ফাঁদ: শুধু 280 মিটার ধরলে 14 সেকেন্ড আসে। শর্টকাট: সময় দূরত্বের সমানুপাতিক, 400 মিটার = 400/120 × 6 = 20 সেকেন্ড।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "SSC_CGL", "subject": "Mathematics", "topic": "Averages", "difficulty": "Easy",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "The average of five numbers is 27. If one number is removed, the average of the remaining numbers becomes 25. The removed number is:",
+        "options": [{"id": "A", "text": "30"}, {"id": "B", "text": "32"}, {"id": "C", "text": "35"}, {"id": "D", "text": "40"}],
+        "explanation": "Sum of five numbers = 5 × 27 = 135. Sum of remaining four = 4 × 25 = 100. Removed number = 135 − 100 = 35. 10-second shortcut: removed number = new average + (old average − new average) × 5 = 25 + 2 × 5 = 35."
+      },
+      "bn": {
+        "question_text": "পাঁচটি সংখ্যার গড় 27। একটি সংখ্যা বাদ দিলে অবশিষ্ট সংখ্যাগুলির গড় 25 হয়। বাদ দেওয়া সংখ্যাটি কত?",
+        "options": [{"id": "A", "text": "30"}, {"id": "B", "text": "32"}, {"id": "C", "text": "35"}, {"id": "D", "text": "40"}],
+        "explanation": "পাঁচটি সংখ্যার যোগফল = 5 × 27 = 135। অবশিষ্ট চারটি সংখ্যার যোগফল = 4 × 25 = 100। বাদ দেওয়া সংখ্যা = 135 − 100 = 35। শর্টকাট: বাদ দেওয়া সংখ্যা = নতুন গড় + (পুরোনো গড় − নতুন গড়) × 5 = 25 + 2 × 5 = 35।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "SSC_CGL", "subject": "Mathematics", "topic": "Ratio & Proportion", "difficulty": "Medium",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Two numbers are in the ratio 3 : 5. If 10 is added to each of them, the ratio becomes 5 : 7. The larger of the original numbers is:",
+        "options": [{"id": "A", "text": "20"}, {"id": "B", "text": "30"}, {"id": "C", "text": "35"}, {"id": "D", "text": "25"}],
+        "explanation": "Let the numbers be 3x and 5x. (3x + 10)/(5x + 10) = 5/7 → 21x + 70 = 25x + 50 → 4x = 20 → x = 5. Numbers are 15 and 25; the larger is 25. 10-second shortcut: the larger number must be a multiple of 5 and the smaller a multiple of 3 in ratio 3 : 5; test 15 and 25: (15 + 10) : (25 + 10) = 25 : 35 = 5 : 7 ✓."
+      },
+      "bn": {
+        "question_text": "দুটি সংখ্যার অনুপাত 3 : 5। প্রতিটির সঙ্গে 10 যোগ করলে অনুপাত 5 : 7 হয়। মূল সংখ্যা দুটির মধ্যে বড়টি কত?",
+        "options": [{"id": "A", "text": "20"}, {"id": "B", "text": "30"}, {"id": "C", "text": "35"}, {"id": "D", "text": "25"}],
+        "explanation": "ধরি সংখ্যা দুটি 3x ও 5x। (3x + 10)/(5x + 10) = 5/7 → 21x + 70 = 25x + 50 → 4x = 20 → x = 5। সংখ্যা দুটি 15 ও 25, বড়টি 25। শর্টকাট: বিকল্প যাচাই করো — বড় সংখ্যা 25 হলে ছোটটি 15 (অনুপাত 3 : 5) এবং (15 + 10) : (25 + 10) = 25 : 35 = 5 : 7।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "BANK_PO", "subject": "Mathematics", "topic": "Number System", "difficulty": "Medium",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "What is the smallest number which, when divided by 12, 15 and 20, leaves a remainder of 5 in each case?",
+        "options": [{"id": "A", "text": "65"}, {"id": "B", "text": "60"}, {"id": "C", "text": "55"}, {"id": "D", "text": "125"}],
+        "explanation": "Required number = LCM(12, 15, 20) + 5. 12 = 2² × 3, 15 = 3 × 5, 20 = 2² × 5, so LCM = 2² × 3 × 5 = 60. Number = 60 + 5 = 65. Trap: 60 leaves remainder 0 and 125 is not the smallest. 10-second shortcut: same remainder r → LCM + r."
+      },
+      "bn": {
+        "question_text": "সবচেয়ে ছোট কোন সংখ্যাকে 12, 15 ও 20 দ্বারা ভাগ করলে প্রতিক্ষেত্রে ভাগশেষ 5 থাকে?",
+        "options": [{"id": "A", "text": "65"}, {"id": "B", "text": "60"}, {"id": "C", "text": "55"}, {"id": "D", "text": "125"}],
+        "explanation": "নির্ণেয় সংখ্যা = ল.সা.গু.(12, 15, 20) + 5। 12 = 2² × 3, 15 = 3 × 5, 20 = 2² × 5, তাই ল.সা.গু. = 2² × 3 × 5 = 60। সংখ্যা = 60 + 5 = 65। ভুল ফাঁদ: 60 ধরলে ভাগশেষ 0 হয়, আর 125 ক্ষুদ্রতম নয়। শর্টকাট: প্রতিক্ষেত্রে ভাগশেষ একই (r) হলে সংখ্যা = ল.সা.গু. + r।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "BANK_PO", "subject": "Mathematics", "topic": "Simple & Compound Interest", "difficulty": "Hard",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "A sum of money amounts to ₹9,600 in 2 years and to ₹10,400 in 3 years at simple interest. The rate of interest per annum is:",
+        "options": [{"id": "A", "text": "8%"}, {"id": "B", "text": "9%"}, {"id": "C", "text": "12%"}, {"id": "D", "text": "10%"}],
+        "explanation": "Simple interest for 1 year = 10,400 − 9,600 = ₹800. Principal = amount after 2 years − 2 years' interest = 9,600 − 1,600 = ₹8,000. Rate = (800 × 100)/(8,000 × 1) = 10% p.a. 10-second shortcut: rate = (one-year interest ÷ principal) × 100 = 800/8,000 × 100."
+      },
+      "bn": {
+        "question_text": "সরল সুদের হারে কোনো মূলধন 2 বছরে ₹9,600 এবং 3 বছরে ₹10,400 হয়। বার্ষিক সুদের হার কত?",
+        "options": [{"id": "A", "text": "8%"}, {"id": "B", "text": "9%"}, {"id": "C", "text": "12%"}, {"id": "D", "text": "10%"}],
+        "explanation": "1 বছরের সরল সুদ = 10,400 − 9,600 = ₹800। মূলধন = 2 বছরের সুদ-আসল − 2 বছরের সুদ = 9,600 − 1,600 = ₹8,000। সুদের হার = (800 × 100)/(8,000 × 1) = 10% বার্ষিক। শর্টকাট: হার = (এক বছরের সুদ ÷ মূলধন) × 100 = 800/8,000 × 100 = 10%।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "BANK_PO", "subject": "Mathematics", "topic": "Speed & Distance", "difficulty": "Hard",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "A boat's speed in still water is 12 km/h and the speed of the stream is 3 km/h. How long will it take to go 36 km downstream and come back to the starting point?",
+        "options": [{"id": "A", "text": "6 hours"}, {"id": "B", "text": "6 hours 24 minutes"}, {"id": "C", "text": "7 hours"}, {"id": "D", "text": "5 hours 24 minutes"}],
+        "explanation": "Downstream speed = 12 + 3 = 15 km/h; upstream speed = 12 − 3 = 9 km/h. Time = 36/15 + 36/9 = 2.4 + 4 = 6.4 hours = 6 h 24 min. Trap: using the still-water speed gives 72/12 = 6 h. 10-second shortcut: total time = 36 × (15 + 9)/(15 × 9) = 36 × 24/135 = 6.4 h."
+      },
+      "bn": {
+        "question_text": "স্থির জলে একটি নৌকার বেগ ঘণ্টায় 12 কিমি এবং স্রোতের বেগ ঘণ্টায় 3 কিমি। নৌকাটি স্রোতের অনুকূলে 36 কিমি গিয়ে আবার শুরুর স্থানে ফিরে আসতে কত সময় নেবে?",
+        "options": [{"id": "A", "text": "6 ঘণ্টা"}, {"id": "B", "text": "6 ঘণ্টা 24 মিনিট"}, {"id": "C", "text": "7 ঘণ্টা"}, {"id": "D", "text": "5 ঘণ্টা 24 মিনিট"}],
+        "explanation": "স্রোতের অনুকূলে বেগ = 12 + 3 = 15 কিমি/ঘণ্টা; স্রোতের প্রতিকূলে বেগ = 12 − 3 = 9 কিমি/ঘণ্টা। সময় = 36/15 + 36/9 = 2.4 + 4 = 6.4 ঘণ্টা = 6 ঘণ্টা 24 মিনিট। ভুল ফাঁদ: স্থির জলের বেগ ধরলে 72/12 = 6 ঘণ্টা আসে। শর্টকাট: মোট সময় = 36 × (15 + 9)/(15 × 9) = 6.4 ঘণ্টা।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "English", "topic": "Idioms & Phrases", "difficulty": "Easy",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Choose the correct meaning of the idiom: 'To beat about the bush'.",
+        "options": [{"id": "A", "text": "To search a place thoroughly"}, {"id": "B", "text": "To avoid coming to the main point"}, {"id": "C", "text": "To attack someone suddenly"}, {"id": "D", "text": "To hide from danger"}],
+        "explanation": "'To beat about the bush' means to talk around a subject without addressing it directly. The literal meaning (hitting bushes) is misleading. 10-second shortcut: idioms are never literal — eliminate options that describe the physical action."
+      },
+      "bn": {
+        "question_text": "'To beat about the bush' বাগধারাটির সঠিক অর্থ নির্বাচন করো।",
+        "options": [{"id": "A", "text": "কোনো জায়গা ভালোভাবে খোঁজা"}, {"id": "B", "text": "আসল কথা এড়িয়ে ঘুরিয়ে বলা"}, {"id": "C", "text": "হঠাৎ কাউকে আক্রমণ করা"}, {"id": "D", "text": "বিপদ থেকে লুকিয়ে থাকা"}],
+        "explanation": "'To beat about the bush' অর্থ — মূল বিষয়ে না এসে ঘুরিয়ে কথা বলা। আক্ষরিক অর্থ (ঝোপে আঘাত করা) ধরলে ভুল হবে। শর্টকাট: বাগধারার আক্ষরিক অর্থ হয় না — শারীরিক কাজ বোঝায় এমন বিকল্প বাদ দাও।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "English", "topic": "Synonyms/Antonyms", "difficulty": "Medium",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Choose the word most similar in meaning to 'EPHEMERAL'.",
+        "options": [{"id": "A", "text": "Eternal"}, {"id": "B", "text": "Fragile"}, {"id": "C", "text": "Beautiful"}, {"id": "D", "text": "Short-lived"}],
+        "explanation": "'Ephemeral' means lasting for a very short time, so 'Short-lived' is the synonym. 'Eternal' is the antonym (the trap); 'Fragile' relates to breakability, not duration. 10-second shortcut: Greek 'ephemeros' = 'for a day'."
+      },
+      "bn": {
+        "question_text": "'EPHEMERAL' শব্দটির সমার্থক শব্দ কোনটি?",
+        "options": [{"id": "A", "text": "চিরন্তন (Eternal)"}, {"id": "B", "text": "ভঙ্গুর (Fragile)"}, {"id": "C", "text": "সুন্দর (Beautiful)"}, {"id": "D", "text": "ক্ষণস্থায়ী (Short-lived)"}],
+        "explanation": "'Ephemeral' অর্থ খুব অল্প সময় স্থায়ী, তাই সমার্থক শব্দ 'Short-lived' (ক্ষণস্থায়ী)। 'Eternal' (চিরন্তন) বিপরীতার্থক শব্দ — এটিই ফাঁদ; 'Fragile' স্থায়িত্ব নয়, ভঙ্গুরতা বোঝায়। শর্টকাট: গ্রিক 'ephemeros' = 'এক দিনের জন্য'।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "English", "topic": "One Word Substitution", "difficulty": "Easy",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Choose the one word that can substitute: 'One who knows everything'.",
+        "options": [{"id": "A", "text": "Omniscient"}, {"id": "B", "text": "Omnipotent"}, {"id": "C", "text": "Omnivorous"}, {"id": "D", "text": "Omnipresent"}],
+        "explanation": "Omni = all; scient = knowing, so 'Omniscient' means all-knowing. Omnipotent = all-powerful, Omnivorous = eating everything, Omnipresent = present everywhere. 10-second shortcut: match the suffix — -scient (know), -potent (power), -vorous (eat), -present (be)."
+      },
+      "bn": {
+        "question_text": "এক কথায় প্রকাশ করো: 'One who knows everything' (যিনি সবকিছু জানেন)।",
+        "options": [{"id": "A", "text": "সর্বজ্ঞ (Omniscient)"}, {"id": "B", "text": "সর্বশক্তিমান (Omnipotent)"}, {"id": "C", "text": "সর্বভুক (Omnivorous)"}, {"id": "D", "text": "সর্বব্যাপী (Omnipresent)"}],
+        "explanation": "Omni = সব; scient = জানা, তাই 'Omniscient' = সর্বজ্ঞ। Omnipotent = সর্বশক্তিমান, Omnivorous = সর্বভুক, Omnipresent = সর্বব্যাপী। শর্টকাট: প্রত্যয় মিলিয়ে নাও — -scient (জানা), -potent (শক্তি), -vorous (খাওয়া), -present (উপস্থিত)।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "SSC_CGL", "subject": "English", "topic": "Error Detection", "difficulty": "Medium",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Find the part of the sentence that has an error: 'Neither of the two candidates (A) / were selected (B) / for the post. (C) / No error (D)'",
+        "options": [{"id": "A", "text": "Neither of the two candidates"}, {"id": "B", "text": "were selected"}, {"id": "C", "text": "for the post"}, {"id": "D", "text": "No error"}],
+        "explanation": "'Neither of' + plural noun takes a singular verb, so 'were selected' should be 'was selected'. The error is in part B. 10-second shortcut: Each / Either / Neither / One of + plural noun → singular verb."
+      },
+      "bn": {
+        "question_text": "বাক্যের কোন অংশে ভুল আছে তা চিহ্নিত করো: 'Neither of the two candidates (A) / were selected (B) / for the post. (C) / No error (D)'",
+        "options": [{"id": "A", "text": "Neither of the two candidates"}, {"id": "B", "text": "were selected"}, {"id": "C", "text": "for the post"}, {"id": "D", "text": "কোনো ত্রুটি নেই (No error)"}],
+        "explanation": "'Neither of' + বহুবচন বিশেষ্যের পর ক্রিয়া একবচন হয়, তাই 'were selected' হবে 'was selected'। ভুলটি B অংশে। শর্টকাট: Each / Either / Neither / One of + বহুবচন বিশেষ্য → একবচন ক্রিয়া।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "SSC_CGL", "subject": "English", "topic": "Prepositions", "difficulty": "Easy",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Fill in the blank with the correct preposition: 'Ravi is senior ___ me by two years.'",
+        "options": [{"id": "A", "text": "than"}, {"id": "B", "text": "from"}, {"id": "C", "text": "to"}, {"id": "D", "text": "over"}],
+        "explanation": "Senior, junior, superior, inferior and prefer take 'to', never 'than'. Correct sentence: 'Ravi is senior to me by two years.' 10-second shortcut: Latin-comparative words (senior, junior, superior, inferior, prior) → 'to'."
+      },
+      "bn": {
+        "question_text": "শূন্যস্থানে সঠিক Preposition বসাও: 'Ravi is senior ___ me by two years.'",
+        "options": [{"id": "A", "text": "than"}, {"id": "B", "text": "from"}, {"id": "C", "text": "to"}, {"id": "D", "text": "over"}],
+        "explanation": "Senior, junior, superior, inferior ও prefer-এর পর 'to' বসে, 'than' নয়। সঠিক বাক্য: 'Ravi is senior to me by two years.' শর্টকাট: senior, junior, superior, inferior, prior — এই শব্দগুলির পর সর্বদা 'to'।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "SSC_CGL", "subject": "English", "topic": "Synonyms/Antonyms", "difficulty": "Medium",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Choose the word opposite in meaning to 'FRUGAL'.",
+        "options": [{"id": "A", "text": "Extravagant"}, {"id": "B", "text": "Thrifty"}, {"id": "C", "text": "Careful"}, {"id": "D", "text": "Stingy"}],
+        "explanation": "'Frugal' means economical or sparing with money. Its opposite is 'Extravagant' (wasteful). Thrifty, Careful and Stingy are all similar in sense (traps). 10-second shortcut: first mark the synonyms of the word, eliminate them, and pick what remains."
+      },
+      "bn": {
+        "question_text": "'FRUGAL' শব্দটির বিপরীতার্থক শব্দ কোনটি?",
+        "options": [{"id": "A", "text": "অমিতব্যয়ী (Extravagant)"}, {"id": "B", "text": "মিতব্যয়ী (Thrifty)"}, {"id": "C", "text": "সতর্ক (Careful)"}, {"id": "D", "text": "কৃপণ (Stingy)"}],
+        "explanation": "'Frugal' অর্থ মিতব্যয়ী। এর বিপরীত 'Extravagant' (অমিতব্যয়ী)। Thrifty, Careful ও Stingy সমার্থক ধরনের — এগুলিই ফাঁদ। শর্টকাট: আগে সমার্থক শব্দগুলি চিহ্নিত করে বাদ দাও, যা বাকি থাকে সেটিই উত্তর।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "BANK_PO", "subject": "English", "topic": "Subject-Verb Agreement", "difficulty": "Medium",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Choose the correct option to fill in the blank: 'The number of unemployed youths ___ increasing every year.'",
+        "options": [{"id": "A", "text": "are"}, {"id": "B", "text": "were"}, {"id": "C", "text": "is"}, {"id": "D", "text": "have been"}],
+        "explanation": "'The number of' refers to a single total and takes a singular verb; 'A number of' takes a plural verb. Hence 'is increasing'. 10-second shortcut: THE number → singular; A number → plural."
+      },
+      "bn": {
+        "question_text": "শূন্যস্থানে সঠিক ক্রিয়াপদটি বসাও: 'The number of unemployed youths ___ increasing every year.'",
+        "options": [{"id": "A", "text": "are"}, {"id": "B", "text": "were"}, {"id": "C", "text": "is"}, {"id": "D", "text": "have been"}],
+        "explanation": "'The number of' একটি মোট সংখ্যা বোঝায়, তাই একবচন ক্রিয়া ('is') বসে; 'A number of'-এর পর বহুবচন ক্রিয়া বসে। শর্টকাট: THE number → একবচন; A number → বহুবচন।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "BANK_PO", "subject": "English", "topic": "Conjunctions & Correlatives", "difficulty": "Medium",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Fill in the blank: 'Hardly had he reached the station ___ the train left.'",
+        "options": [{"id": "A", "text": "than"}, {"id": "B", "text": "while"}, {"id": "C", "text": "when"}, {"id": "D", "text": "as"}],
+        "explanation": "The correlative pair is 'Hardly/Scarcely … when' (and 'No sooner … than'). So 'when' is correct. Trap: 'than' belongs to 'No sooner'. 10-second shortcut: Hardly/Scarcely → when; No sooner → than."
+      },
+      "bn": {
+        "question_text": "শূন্যস্থান পূরণ করো: 'Hardly had he reached the station ___ the train left.'",
+        "options": [{"id": "A", "text": "than"}, {"id": "B", "text": "while"}, {"id": "C", "text": "when"}, {"id": "D", "text": "as"}],
+        "explanation": "সঠিক জোড় হল 'Hardly/Scarcely … when' (এবং 'No sooner … than')। তাই 'when' সঠিক। ফাঁদ: 'than' বসে 'No sooner'-এর সঙ্গে। শর্টকাট: Hardly/Scarcely → when; No sooner → than।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "BANK_PO", "subject": "English", "topic": "Sentence Improvement", "difficulty": "Hard",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Select the best replacement for the underlined word: 'If I <u>was</u> you, I would accept the offer.'",
+        "options": [{"id": "A", "text": "No improvement"}, {"id": "B", "text": "am"}, {"id": "C", "text": "had been"}, {"id": "D", "text": "were"}],
+        "explanation": "The sentence is a hypothetical (unreal present) condition, which takes the subjunctive 'were' for all persons: 'If I were you…'. 'Had been' is used for unreal past conditions. 10-second shortcut: If + imaginary present → were (even with I/he/she)."
+      },
+      "bn": {
+        "question_text": "রেখাঙ্কিত শব্দটির জায়গায় সবচেয়ে উপযুক্ত বিকল্প নির্বাচন করো: 'If I <u>was</u> you, I would accept the offer.'",
+        "options": [{"id": "A", "text": "কোনো উন্নতির প্রয়োজন নেই (No improvement)"}, {"id": "B", "text": "am"}, {"id": "C", "text": "had been"}, {"id": "D", "text": "were"}],
+        "explanation": "বাক্যটি একটি কাল্পনিক (অবাস্তব বর্তমান) শর্ত, যেখানে সব পুরুষের জন্য 'were' বসে: 'If I were you…'। 'Had been' অবাস্তব অতীত শর্তে ব্যবহৃত হয়। শর্টকাট: If + কাল্পনিক বর্তমান → were (I/he/she-এর সঙ্গেও)।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "BANK_PO", "subject": "English", "topic": "Idioms & Phrases", "difficulty": "Easy",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Choose the correct meaning of the idiom: 'A bolt from the blue'.",
+        "options": [{"id": "A", "text": "A sudden and unexpected event"}, {"id": "B", "text": "A heavy thunderstorm"}, {"id": "C", "text": "A great blessing"}, {"id": "D", "text": "A clear sky"}],
+        "explanation": "'A bolt from the blue' is a lightning strike from a clear sky — used for a shocking, unforeseen event. 10-second shortcut: think 'thunder from a clear sky' → total surprise."
+      },
+      "bn": {
+        "question_text": "'A bolt from the blue' বাগধারাটির সঠিক অর্থ নির্বাচন করো।",
+        "options": [{"id": "A", "text": "আকস্মিক ও অপ্রত্যাশিত ঘটনা"}, {"id": "B", "text": "প্রবল বজ্রঝড়"}, {"id": "C", "text": "মহা আশীর্বাদ"}, {"id": "D", "text": "পরিষ্কার আকাশ"}],
+        "explanation": "'A bolt from the blue' অর্থ মেঘহীন আকাশ থেকে বজ্রপাত — অর্থাৎ হঠাৎ ঘটে যাওয়া অপ্রত্যাশিত ঘটনা (বিনা মেঘে বজ্রপাত)। শর্টকাট: 'বিনা মেঘে বজ্রপাত' মনে রাখলেই উত্তর মিলবে।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "Reasoning", "topic": "Coding-Decoding", "difficulty": "Easy",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "If COMPUTER is coded as DPNQVUFS, how will MONITOR be coded in the same language?",
+        "options": [{"id": "A", "text": "NPOJUPS"}, {"id": "B", "text": "NPOJUPQ"}, {"id": "C", "text": "MPOJUPS"}, {"id": "D", "text": "NPOHUPS"}],
+        "explanation": "C→D, O→P, M→N, P→Q, U→V, T→U, E→F, R→S: every letter moves one place forward (+1). MONITOR → N P O J U P S = NPOJUPS. 10-second shortcut: check the first and last letters (M→N, R→S); only option A satisfies both and the middle letters."
+      },
+      "bn": {
+        "question_text": "একটি সংকেত ভাষায় COMPUTER-কে DPNQVUFS লেখা হলে, ওই ভাষায় MONITOR-কে কীভাবে লেখা হবে?",
+        "options": [{"id": "A", "text": "NPOJUPS"}, {"id": "B", "text": "NPOJUPQ"}, {"id": "C", "text": "MPOJUPS"}, {"id": "D", "text": "NPOHUPS"}],
+        "explanation": "C→D, O→P, M→N, P→Q, U→V, T→U, E→F, R→S: প্রতিটি অক্ষর এক ঘর এগিয়েছে (+1)। MONITOR → N P O J U P S = NPOJUPS। শর্টকাট: প্রথম ও শেষ অক্ষর (M→N, R→S) মিলিয়ে দেখো; শুধু A বিকল্পটি সব মেলায়।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "Reasoning", "topic": "Blood Relations", "difficulty": "Medium",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Pointing to a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+        "options": [{"id": "A", "text": "Sister"}, {"id": "B", "text": "Mother"}, {"id": "C", "text": "Aunt"}, {"id": "D", "text": "Daughter"}],
+        "explanation": "'The only daughter of my mother' is the woman herself. So the man's mother is the woman, making the man her son and the woman his mother. 10-second shortcut: 'only daughter of my mother' = me."
+      },
+      "bn": {
+        "question_text": "একজন মহিলা একজন পুরুষকে দেখিয়ে বললেন, \"ওর মা আমার মায়ের একমাত্র মেয়ে।\" মহিলাটি ওই পুরুষের কী হন?",
+        "options": [{"id": "A", "text": "বোন"}, {"id": "B", "text": "মা"}, {"id": "C", "text": "পিসি/মাসি"}, {"id": "D", "text": "মেয়ে"}],
+        "explanation": "'আমার মায়ের একমাত্র মেয়ে' অর্থাৎ মহিলা নিজেই। সুতরাং পুরুষটির মা হলেন ওই মহিলা, অর্থাৎ পুরুষটি তাঁর ছেলে এবং মহিলা তাঁর মা। শর্টকাট: 'আমার মায়ের একমাত্র মেয়ে' = আমি নিজে।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_WBCS", "subject": "Reasoning", "topic": "Number Series", "difficulty": "Easy",
+    "previous_year_reference": "WBCS Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Find the missing term in the series: 2, 6, 12, 20, 30, ?",
+        "options": [{"id": "A", "text": "40"}, {"id": "B", "text": "44"}, {"id": "C", "text": "42"}, {"id": "D", "text": "36"}],
+        "explanation": "Terms follow n(n + 1): 1×2, 2×3, 3×4, 4×5, 5×6, so the next is 6×7 = 42. Differences are 4, 6, 8, 10, 12 → 30 + 12 = 42. 10-second shortcut: differences increase by 2 → next difference is 12."
+      },
+      "bn": {
+        "question_text": "সংখ্যাধারাটির শূন্যস্থানে কোন সংখ্যা বসবে: 2, 6, 12, 20, 30, ?",
+        "options": [{"id": "A", "text": "40"}, {"id": "B", "text": "44"}, {"id": "C", "text": "42"}, {"id": "D", "text": "36"}],
+        "explanation": "পদগুলি n(n + 1) নিয়মে: 1×2, 2×3, 3×4, 4×5, 5×6, তাই পরের পদ 6×7 = 42। ব্যবধান 4, 6, 8, 10, 12 → 30 + 12 = 42। শর্টকাট: ব্যবধান প্রতিবার 2 করে বাড়ছে, তাই পরের ব্যবধান 12।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "SSC_CGL", "subject": "Reasoning", "topic": "Direction Sense", "difficulty": "Medium",
+    "previous_year_reference": "SSC CGL Tier-1 pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "A man walks 5 km towards the North, turns right and walks 3 km, turns right again and walks 5 km, then turns left and walks 2 km. How far and in which direction is he from the starting point?",
+        "options": [{"id": "A", "text": "3 km East"}, {"id": "B", "text": "7 km East"}, {"id": "C", "text": "5 km West"}, {"id": "D", "text": "5 km East"}],
+        "explanation": "Path: 5 km N, right → 3 km E, right → 5 km S (cancels the northward 5 km), left (facing South, left is East) → 2 km E. Net displacement = 3 + 2 = 5 km East. 10-second shortcut: cancel opposite legs (5 N vs 5 S), then add the remaining eastward legs."
+      },
+      "bn": {
+        "question_text": "একজন ব্যক্তি উত্তর দিকে 5 কিমি হাঁটলেন, ডান দিকে ঘুরে 3 কিমি হাঁটলেন, আবার ডান দিকে ঘুরে 5 কিমি হাঁটলেন, তারপর বাঁ দিকে ঘুরে 2 কিমি হাঁটলেন। তিনি শুরুর স্থান থেকে কত দূরে এবং কোন দিকে আছেন?",
+        "options": [{"id": "A", "text": "3 কিমি পূর্ব"}, {"id": "B", "text": "7 কিমি পূর্ব"}, {"id": "C", "text": "5 কিমি পশ্চিম"}, {"id": "D", "text": "5 কিমি পূর্ব"}],
+        "explanation": "পথ: 5 কিমি উত্তর, ডানে ঘুরে 3 কিমি পূর্ব, ডানে ঘুরে 5 কিমি দক্ষিণ (উত্তরের 5 কিমি কাটা যায়), বাঁয়ে ঘুরে (দক্ষিণমুখী অবস্থায় বাঁ দিক = পূর্ব) 2 কিমি পূর্ব। মোট সরণ = 3 + 2 = 5 কিমি পূর্ব। শর্টকাট: বিপরীত দিকের দূরত্ব (5 উত্তর ও 5 দক্ষিণ) কেটে বাকি পূর্বমুখী দূরত্ব যোগ করো।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "BANK_PO", "subject": "Reasoning", "topic": "Syllogism", "difficulty": "Medium",
+    "previous_year_reference": "Bank PO Prelims pattern (exam-style, not verbatim)",
+    "content": {
+      "en": {
+        "question_text": "Statements: All pens are books. Some books are tables.\nConclusions: I. Some pens are tables. II. Some tables are books.\nWhich conclusion(s) follow?",
+        "options": [{"id": "A", "text": "Only conclusion I follows"}, {"id": "B", "text": "Only conclusion II follows"}, {"id": "C", "text": "Both conclusions I and II follow"}, {"id": "D", "text": "Neither conclusion I nor II follows"}],
+        "explanation": "Draw 'pens' fully inside 'books'; 'tables' overlaps 'books' but may lie entirely outside 'pens'. So I is only a possibility, not certain. II is the simple conversion of 'Some books are tables' and always holds. 10-second shortcut: Particular + Universal-in-wrong-order gives no conclusion; conversion of 'Some' is always valid."
+      },
+      "bn": {
+        "question_text": "বিবৃতি: সব কলম বই। কিছু বই টেবিল।\nসিদ্ধান্ত: I. কিছু কলম টেবিল। II. কিছু টেবিল বই।\nকোন সিদ্ধান্ত(গুলি) অনুসরণ করে?",
+        "options": [{"id": "A", "text": "শুধুমাত্র সিদ্ধান্ত I অনুসরণ করে"}, {"id": "B", "text": "শুধুমাত্র সিদ্ধান্ত II অনুসরণ করে"}, {"id": "C", "text": "সিদ্ধান্ত I ও II উভয়ই অনুসরণ করে"}, {"id": "D", "text": "সিদ্ধান্ত I বা II কোনোটিই অনুসরণ করে না"}],
+        "explanation": "ভেন চিত্রে 'কলম' সম্পূর্ণ 'বই'-এর ভিতরে আঁকো; 'টেবিল' 'বই'-কে ছেদ করে কিন্তু 'কলম' থেকে সম্পূর্ণ আলাদাও হতে পারে। তাই সিদ্ধান্ত I নিশ্চিত নয়, কেবল সম্ভাবনা। সিদ্ধান্ত II হল 'কিছু বই টেবিল'-এর সরল বিপরীতকরণ, যা সর্বদা সত্য। শর্টকাট: 'কিছু'-যুক্ত বিবৃতির স্থান বদল করলে সিদ্ধান্ত সর্বদা সঠিক হয়।"
+      }
+    },
+    "correct_option_id": "B"
+  }
+]
