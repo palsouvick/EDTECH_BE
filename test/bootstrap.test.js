@@ -47,11 +47,14 @@ test('fills an empty database and keeps admin edits on re-run', async () => {
   assert.equal(await TopicSummary.countDocuments({ 'title.en': 'Edited' }), 1);
 });
 
-test('generates the question bank only while none exists', async () => {
+test('tops the question bank up once, then only when the target or the sources change', async () => {
   await seedQuestionBank();
   const generated = await Question.countDocuments({ authored_by: 'seed_generator' });
   assert.ok(generated > 0);
   assert.equal(await mongoose.connection.db.collection('seed_locks').countDocuments(), 0);
+  const state = await mongoose.connection.db.collection('seed_state').findOne({ _id: 'question_bank' });
+  assert.equal(state.perTopic, 2);
+  assert.match(state.fingerprint, /^[0-9a-f]{40}$/);
 
   await seedQuestionBank();
   assert.equal(await Question.countDocuments({ authored_by: 'seed_generator' }), generated);

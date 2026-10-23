@@ -23,6 +23,13 @@
  * Reading comprehension uses `passages` instead of `items`:
  *   passages: [{ text: 'English passage', items: [ ...items as above... ] }]
  *
+ * Current affairs (topic 'current_affairs') are dated and sourced. One file per
+ * month, `month: 'YYYY-MM'`, and every item also carries
+ *   src: { date: 'YYYY-MM-DD', name: 'PIB', url: 'https://pib.gov.in/...' }
+ * (the event date, inside that month, and the page that confirms the fact).
+ * The source is shown to students under the explanation. A month file needs
+ * at least 30 questions rather than 100.
+ *
  * English-subject banks keep options in English (bn may equal en); the Bengali
  * stem is the instruction in Bengali plus the English sentence.
  *
@@ -53,9 +60,28 @@ function validateItems(items, { english, where }) {
   return errors;
 }
 
+const CA_MIN = 30;
+const isCurrentAffairs = (bank) => bank?.topic === 'current_affairs';
+
+/** Current-affairs items: a real https source and an event date inside the file's month. */
+function validateSources(bank, items, file) {
+  const errors = [];
+  if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(bank.month || '')) return [`${file}: current affairs needs month: 'YYYY-MM'`];
+  items.forEach((it, i) => {
+    const at = `${file} item ${i + 1}`;
+    const s = it.src;
+    if (!s || typeof s !== 'object') return errors.push(`${at}: src { date, name, url } is required`);
+    if (!/^https:\/\/[^\s/]+\.[^\s]+$/.test(s.url || '')) errors.push(`${at}: src.url must be an https link`);
+    if (typeof s.name !== 'string' || !s.name.trim()) errors.push(`${at}: src.name is required`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(s.date || '') || Number.isNaN(Date.parse(s.date))) errors.push(`${at}: src.date must be YYYY-MM-DD`);
+    else if (!s.date.startsWith(bank.month)) errors.push(`${at}: src.date ${s.date} is outside ${bank.month}`);
+  });
+  return errors;
+}
+
 function validateBank(bank, file = 'bank') {
   const errors = [];
-  if (!bank || typeof bank.subject !== 'string' || typeof bank.topic !== 'string') return [`${file}: missing subject/topic`];
+  if (!bank || typeof bank.subject !== 'string' || typeof bank.topic !== 'string') return { errors: [`${file}: missing subject/topic`], count: 0 };
   const english = bank.subject === 'english';
   let items = [];
   if (Array.isArray(bank.passages)) {
@@ -71,10 +97,14 @@ function validateBank(bank, file = 'bank') {
   const stems = items.map((it) => (Array.isArray(it.q) ? it.q[0].trim().toLowerCase() : ''));
   const dupes = stems.filter((s, i) => s && stems.indexOf(s) !== i);
   if (dupes.length) errors.push(`${file}: duplicate questions: ${[...new Set(dupes)].slice(0, 5).join(' | ')}`);
+  if (isCurrentAffairs(bank)) errors.push(...validateSources(bank, items, file));
   return { errors, count: items.length };
 }
 
-module.exports = { validateBank };
+/** Smallest file worth shipping: a month of current affairs is smaller than a topic bank. */
+const minCount = (bank) => (isCurrentAffairs(bank) ? CA_MIN : 100);
+
+module.exports = { validateBank, minCount };
 
 if (require.main === module) {
   let failed = false;
@@ -83,8 +113,9 @@ if (require.main === module) {
     const { errors, count } = validateBank(bank, path.basename(f));
     console.log(`${path.basename(f)}: ${count} questions, ${errors.length} problems`);
     errors.slice(0, 40).forEach((e) => console.log('  ' + e));
-    if (errors.length || count < 100) failed = true;
-    if (count < 100) console.log('  needs at least 100 questions');
+    const min = minCount(bank);
+    if (errors.length || count < min) failed = true;
+    if (count < min) console.log(`  needs at least ${min} questions`);
   }
   process.exit(failed ? 1 : 0);
 }

@@ -110,15 +110,25 @@ function validateSummaries(list, file = 'file') {
 module.exports = { validateSummaries, topicsOf };
 
 if (require.main === module) {
+  // A subject's sheets may be split across files (quant.js + quant_more_a.js):
+  // missing topics are checked per subject over all the files given.
   let failed = false;
+  const bySubject = new Map();
   for (const f of process.argv.slice(2)) {
     const list = require(path.resolve(f));
+    if (!Array.isArray(list)) continue; // index.js / validate.js when run on the whole folder
     const errors = validateSummaries(list, path.basename(f));
-    const subject = list[0]?.subject;
-    const missing = subject ? [...topicsOf(subject)].filter((t) => !list.some((s) => s.topic === t)) : [];
-    console.log(`${path.basename(f)}: ${list.length} topic sheets, ${errors.length} problems${missing.length ? `, missing topics: ${missing.join(', ')}` : ''}`);
+    console.log(`${path.basename(f)}: ${list.length} topic sheets, ${errors.length} problems`);
     errors.slice(0, 50).forEach((e) => console.log('  ' + e));
-    if (errors.length || missing.length) failed = true;
+    if (errors.length) failed = true;
+    for (const s of list) (bySubject.get(s.subject) ?? bySubject.set(s.subject, new Set()).get(s.subject)).add(s.topic);
+  }
+  for (const [subject, have] of bySubject) {
+    const missing = [...topicsOf(subject)].filter((t) => !have.has(t));
+    if (missing.length) {
+      console.log(`${subject}: missing topics: ${missing.join(', ')} (pass all of the subject's files together)`);
+      failed = true;
+    }
   }
   process.exit(failed ? 1 : 0);
 }

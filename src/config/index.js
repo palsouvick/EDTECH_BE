@@ -43,8 +43,8 @@ module.exports = Object.freeze({
   seed: {
     // On startup, build indexes and fill missing reference data (see src/db/bootstrap.js). Idempotent.
     auto: process.env.AUTO_SEED !== 'false',
-    // Generated questions per chapter when the database has none yet. 0 = skip.
-    questionsPerTopic: int(process.env.SEED_QUESTIONS_PER_TOPIC, 100),
+    // Every chapter is topped up to this many generated questions. 0 = skip.
+    questionsPerTopic: int(process.env.SEED_QUESTIONS_PER_TOPIC, 300),
   },
 
   stats: {

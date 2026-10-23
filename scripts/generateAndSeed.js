@@ -167,14 +167,30 @@ function generateBodies(spec, count, knownStems, perTopicNeed = null) {
     return got;
   };
 
+  if (perTopicNeed) {
+    // A chapter can draw on several sources (a generator, fact banks such as
+    // polity.js + polity_2.js). What one source runs out of, the chapter's other
+    // sources top up; nothing spills into other chapters.
+    const chapterOf = spec.topics.map((t) => normalizeTopic(spec.subject, t.topic).topic);
+    const missByChapter = {};
+    need.forEach((n, i) => {
+      const miss = n - fill(i, n);
+      if (miss > 0) missByChapter[chapterOf[i]] = (missByChapter[chapterOf[i]] || 0) + miss;
+    });
+    for (const chapter of Object.keys(missByChapter)) {
+      for (let i = 0; i < state.length && missByChapter[chapter] > 0; i++) {
+        if (chapterOf[i] === chapter && !state[i].done) missByChapter[chapter] -= fill(i, missByChapter[chapter]);
+      }
+      if (missByChapter[chapter] <= 0) delete missByChapter[chapter];
+    }
+    const shortfall = Object.values(missByChapter).reduce((a, b) => a + b, 0);
+    return { bodies, shortfall, shortByTopic: missByChapter };
+  }
+
   let shortfall = 0;
-  const shortByTopic = {};
   need.forEach((n, i) => {
-    const miss = n - fill(i, n);
-    shortfall += miss;
-    if (miss > 0) shortByTopic[spec.topics[i].topic] = (shortByTopic[spec.topics[i].topic] || 0) + miss;
+    shortfall += n - fill(i, n);
   });
-  if (perTopicNeed) return { bodies, shortfall, shortByTopic };
   // Redistribute what exhausted topics could not supply.
   while (shortfall > 0) {
     const live = state.map((s, i) => [s, i]).filter(([s]) => !s.done);

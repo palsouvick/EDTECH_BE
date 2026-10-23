@@ -8,9 +8,17 @@
  * Check content with:  node db/seed/topic-summaries/validate.js db/seed/topic-summaries/*.js
  */
 
+const fs = require('node:fs');
+const path = require('node:path');
 const catalog = require('../catalog');
 
-const SUBJECT_FILES = ['quant', 'reasoning', 'english', 'gs'];
+const SUBJECTS = ['quant', 'reasoning', 'english', 'gs'];
+// A subject's sheets may be split across files: quant.js, quant_more_a.js, ...
+const SUBJECT_FILES = fs
+  .readdirSync(__dirname)
+  .filter((f) => f.endsWith('.js') && SUBJECTS.some((s) => f === `${s}.js` || f.startsWith(`${s}_`)))
+  .sort()
+  .map((f) => path.basename(f, '.js'));
 // The first-stage paper each category's mocks and sheets are aimed at.
 const MAIN_TIER = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE' };
 

@@ -32,16 +32,22 @@ function toBody(bank, item, passage) {
   } else {
     stem = pairObj(item.q);
   }
+  // Current affairs: the event date and source under the explanation, and the month as subtopic.
+  const steps = [pairObj(item.e)];
+  if (item.src) {
+    const when = new Date(`${item.src.date}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+    steps.push(T(`📰 ${when} · Source: [${item.src.name}](${item.src.url})`, `📰 ${when} · সূত্র: [${item.src.name}](${item.src.url})`));
+  }
   return build({
     topic: bank.topic,
-    subtopic: bank.subtopic,
+    subtopic: bank.month ? `ca_${bank.month.replace('-', '_')}` : bank.subtopic,
     tags: ['factbank', bank.topic],
     difficulty: item.d,
     time: passage ? 75 : englishSubject ? 45 : 35,
     stem,
     correct: pairObj(item.a),
     wrong: item.w.map(pairObj),
-    steps: [pairObj(item.e)],
+    steps,
   });
 }
 

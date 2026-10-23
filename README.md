@@ -15,7 +15,7 @@ npm run dev                   # or: npm start
 
 - **Indexes.** In production, where `autoIndex` is off, it applies [db/indexes.mongo.js](db/indexes.mongo.js) without `mongosh`.
 - **Reference data.** It upserts the catalogue and cut-offs from code, and inserts concept sheets and sample questions that are missing. Rows edited in the database are kept.
-- **Question bank.** If the database has no generated questions, it generates `SEED_QUESTIONS_PER_TOPIC` (default 100) per chapter. This runs in the background after the server starts listening and takes about 15 seconds. A lock in `seed_locks` stops several instances from generating at once.
+- **Question bank.** It tops every chapter up to `SEED_QUESTIONS_PER_TOPIC` generated questions (default 300). It does this again whenever the target or the question files change (it compares a fingerprint stored in `seed_state`), so new fact banks reach the database on the next deploy. Existing questions are kept. This runs in the background after the server starts listening. A lock in `seed_locks` stops several instances from generating at once.
 - **Admin.** It creates the first admin account from `ADMIN_EMAILS` and `ADMIN_PASSWORD`.
 
 `AUTO_SEED=false` turns off everything except the admin step. The `db:indexes`, `db:seed` and `db:generate` scripts below still work for manual runs: importing more files, `--overwrite-summaries`, `--append`, `--reset`.
@@ -141,6 +141,7 @@ All responses are `{ success: true, data }` or `{ success: false, error: { code,
 | GET | `/api/v1/practice/topic-summary?category&subject&topic` | optional | Topic sheet with every language, plus localized breadcrumb names, for on-device language switching. |
 | GET | `/api/v1/practice/questions?category&subject&topic&language&cursor&limit` | optional | Practice Arena feed, keyset-paginated over the practice order. Returns `{ questions, nextCursor, hasMore }`, and a `bookmarked` flag per question when signed in. Questions published mid-session don't cause repeats or gaps. |
 | PUT / DELETE | `/api/v1/practice/bookmarks/:questionId` | required | Bookmark for revision. Idempotent. |
+| GET | `/api/v1/practice/bookmarks?subject&topic&offset&limit` | required | The revision list (frontend `/revision`): bookmarked questions, newest first, without answers, plus `groups` (count per chapter, with names) for filters. `offset` rather than a page number, because the client removes learnt questions as it goes. Answers are checked with `verify-answer`. |
 | POST | `/api/v1/practice/report-error` | optional | `{ questionId, reason, message?, language? }`. `reason` is `WRONG_ANSWER`, `WRONG_EXPLANATION`, `TRANSLATION`, `TYPO`, `UNCLEAR` or `OTHER`. A repeat from the same signed-in user returns `duplicate: true`. Limited to 10 per 10 minutes. |
 | POST | `/api/v1/mock/create-session` | required | Payload as specified, plus optional `language`. `questionCount`: 10, 20, 25, 50 or 100. Per-question mode: `perQuestionTimer: true` + `perQuestionSeconds` (10–600); `timeLimitMinutes` is then derived. `topicIds` are topic slugs (`profit_loss`). Returns questions without answers. |
 | POST | `/api/v1/mock/submit-session` | required | `{ sessionId, responses: [{ questionId, selectedOptionId \| null, timeSpentSec }] }`. Idempotent: a retried submit returns the stored result. |
