@@ -22,6 +22,9 @@ const { buildTopicSummaries } = require('../../db/seed/topic-summaries');
 const { convertExamStyleQuestion } = require('../services/importers/examStyleJson');
 
 const DEFAULT_QUESTION_FILE = path.join(__dirname, '../../db/seed/pyq-sample-25.json');
+// Real previous-year questions from official commission papers, one JSON file per paper (see db/pyq/README.md).
+const PYQ_DIR = path.join(__dirname, '../../db/pyq');
+const pyqFiles = () => (fs.existsSync(PYQ_DIR) ? fs.readdirSync(PYQ_DIR).filter((f) => f.endsWith('.json')).sort().map((f) => path.join(PYQ_DIR, f)) : []);
 
 /** Validates (runs pre('validate'), which derives lang_set etc.) then writes. Returns true if written. */
 async function upsertValidated(Model, filter, raw, { dryRun = false, onlyMissing = false } = {}) {
@@ -84,4 +87,4 @@ async function importQuestionFile(file, { status = 'PUBLISHED', dryRun = false, 
   return { written, total: items.length, errors };
 }
 
-module.exports = { DEFAULT_QUESTION_FILE, seedReferenceData, importQuestionFile };
+module.exports = { DEFAULT_QUESTION_FILE, PYQ_DIR, pyqFiles, seedReferenceData, importQuestionFile };

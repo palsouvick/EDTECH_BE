@@ -5,6 +5,7 @@ const config = require('../config');
 const { Question, MockSession } = require('../models');
 const AppError = require('../utils/AppError');
 const statsBuffer = require('./questionStats.buffer');
+const review = require('./review.service');
 const { scoreSession } = require('./scoring');
 const { PUBLIC_QUESTION_FIELDS, presentQuestion } = require('./presenters');
 const {
@@ -225,6 +226,10 @@ async function submitSession(userId, { sessionId, responses }) {
   for (const p of result.per_question) {
     if (p.outcome === 'CORRECT' || p.outcome === 'INCORRECT') {
       statsBuffer.record(p.qid, { correct: p.outcome === 'CORRECT', timeSpentSec: p.time_spent_sec });
+    }
+    // Wrong answers join the revision queue (skipped ones do not: nothing was learnt wrong).
+    if (p.outcome === 'INCORRECT') {
+      review.recordMistake(userId, { questionId: p.qid, subject: session.config.subject, topic: p.topic, selectedOptionId: p.selected_option_id, source: 'mock' });
     }
   }
 

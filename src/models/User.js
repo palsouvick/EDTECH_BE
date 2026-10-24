@@ -6,6 +6,8 @@ const { Schema, model } = require('mongoose');
 const UserSchema = new Schema(
   {
     name: { type: String, required: true, trim: true, maxlength: 80 },
+    // Weekly leaderboard: off unless the student turns it on (rankings can discourage weaker students).
+    leaderboard_opt_in: { type: Boolean, default: false },
     email: { type: String, required: true, trim: true, lowercase: true, maxlength: 200 },
     mobile: { type: String, trim: true, match: /^[6-9]\d{9}$/ },
     password_hash: { type: String, required: true, select: false },

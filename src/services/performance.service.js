@@ -42,6 +42,46 @@ function streakFrom(daysSet, todayKey) {
   return n;
 }
 
+/**
+ * Streak with protection. Walking the days in order: every FREEZE_EVERY active
+ * days in a row earn a freeze (at most MAX_FREEZES saved); a missed day uses
+ * one instead of breaking the streak. Today never breaks it (the day is not
+ * over). Stateless: the same activity always gives the same answer.
+ * @returns {{ days: number, freezes: number, protectedDays: string[] }}
+ */
+const FREEZE_EVERY = 7;
+const MAX_FREEZES = 2;
+function streakWithFreezes(daysSet, todayKey) {
+  if (!daysSet.size) return { days: 0, freezes: 0, protectedDays: [] };
+  const next = (k) => new Date(Date.parse(`${k}T00:00:00Z`) + 86400_000).toISOString().slice(0, 10);
+  let day = [...daysSet].sort()[0];
+  let days = 0;
+  let run = 0; // active days since the last freeze was earned
+  let freezes = 0;
+  let protectedDays = [];
+  for (; day <= todayKey; day = next(day)) {
+    if (daysSet.has(day)) {
+      days += 1;
+      run += 1;
+      if (run === FREEZE_EVERY) {
+        freezes = Math.min(MAX_FREEZES, freezes + 1);
+        run = 0;
+      }
+    } else if (day === todayKey) {
+      break; // not over yet
+    } else if (days > 0 && freezes > 0) {
+      freezes -= 1;
+      protectedDays.push(day);
+    } else {
+      days = 0;
+      run = 0;
+      freezes = 0;
+      protectedDays = [];
+    }
+  }
+  return { days, freezes, protectedDays };
+}
+
 const MIN_ATTEMPTS_FOR_WEAK = 5;
 
 /**
@@ -53,7 +93,7 @@ async function getPerformance(userId, tzOffsetMin = 330) {
   const tz = tzString(tzOffsetMin);
   const since = new Date(Date.now() - 60 * 86400_000);
 
-  const [byTopic, activity, mocks] = await Promise.all([
+  const [byTopic, activity, mocks, longActivity] = await Promise.all([
     PracticeAttempt.aggregate([
       { $match: { user_id: userId } },
       { $sort: { created_at: 1 } }, // so $last is the most recent category
@@ -76,6 +116,11 @@ async function getPerformance(userId, tzOffsetMin = 330) {
       .limit(50)
       .select('config.category config.subject config.question_count submitted_at result.score result.max_score result.accuracy_pct result.correct result.incorrect')
       .lean(),
+    // Active days over a longer window, for the streak.
+    PracticeAttempt.aggregate([
+      { $match: { user_id: userId, created_at: { $gte: new Date(Date.now() - 400 * 86400_000) } } },
+      { $group: { _id: { $dateToString: { format: '%Y-%m-%d', date: '$created_at', timezone: tz } } } },
+    ]),
   ]);
 
   // Practice, by subject and topic.
@@ -114,6 +159,9 @@ async function getPerformance(userId, tzOffsetMin = 330) {
     }
   }
   const today = dayKey(new Date(), tzOffsetMin);
+  const activeDays = new Set([...longActivity.map((d) => d._id), ...perDay.keys()]);
+  for (const m of mocks) activeDays.add(dayKey(m.submitted_at, tzOffsetMin));
+  const streak = streakWithFreezes(activeDays, today);
 
   const totalAttempts = subjectRows.reduce((n, s) => n + s.attempts, 0);
   const totalCorrect = subjectRows.reduce((n, s) => n + s.correct, 0);
@@ -127,7 +175,10 @@ async function getPerformance(userId, tzOffsetMin = 330) {
       avgMockScorePct: mockPcts.length ? round1(mockPcts.reduce((a, b) => a + b, 0) / mockPcts.length) : null,
       bestMockScorePct: mockPcts.length ? Math.max(...mockPcts) : null,
       attemptedToday: perDay.get(today) || 0,
-      streakDays: streakFrom(new Set(perDay.keys()), today),
+      streakDays: streak.days,
+      streakFreezes: streak.freezes,
+      streakProtectedDays: streak.protectedDays,
+      freezeEvery: FREEZE_EVERY,
     },
     subjects: subjectRows,
     weakTopics,
@@ -152,4 +203,4 @@ async function getPerformance(userId, tzOffsetMin = 330) {
   };
 }
 
-module.exports = { getPerformance, streakFrom, tzString };
+module.exports = { getPerformance, streakFrom, streakWithFreezes, tzString, dayKey };

@@ -14,6 +14,8 @@ const {
   presentTopicSummaryAllLanguages,
 } = require('./presenters');
 const { encodeCursor, decodeCursor, afterKey } = require('./practiceCursor');
+const { subjectName, topicName } = require('./catalogNames');
+const review = require('./review.service');
 
 // Easy first, then most recent PYQ, then a stable tiebreak. Matches the
 // trailing keys of qb_cat_subj_topic_lang_diff, so the planner merges the
@@ -98,6 +100,8 @@ async function verifyAnswer({ questionId, selectedOptionId, timeSpentSec, catego
     // Signed-in students: keep the attempt for "My performance". Never blocks the answer.
     PracticeAttempt.create({ user_id: userId, question_id: q._id, subject: q.subject, topic: q.topic, category, correct: isCorrect, time_spent_sec: timeSpentSec })
       .catch((err) => console.error('[practice] attempt not recorded:', err.message));
+    // A mistake joins the student's revision queue.
+    if (!isCorrect) review.recordMistake(userId, { questionId: q._id, subject: q.subject, topic: q.topic, selectedOptionId, source: 'practice' });
   }
 
   const traps = q.solution?.traps || [];
@@ -154,13 +158,14 @@ async function getTopicSummary({ category, subject, topic }) {
  * `language` filters to questions fully available in it; the cursor is a
  * position in the sort order, so the language may change between pages.
  */
-async function getQuestionStream({ category, subject, topic, language, cursor, limit }, userId) {
+async function getQuestionStream({ category, subject, topic, language, cursor, limit, pattern }, userId) {
   const filter = {
     status: 'PUBLISHED',
     'exam_targets.category': category,
     subject,
     topic,
     lang_set: { $in: langSetsContaining(language) },
+    ...(pattern && { pattern }),
   };
   if (cursor) {
     const key = decodeCursor(cursor);
@@ -206,26 +211,15 @@ async function addBookmark(userId, questionId) {
     { $setOnInsert: { subject: q.subject, topic: q.topic } },
     { upsert: true },
   );
+  await review.recordBookmark(userId, { questionId: q._id, subject: q.subject, topic: q.topic });
   return { questionId: String(q._id), bookmarked: true };
 }
 
 async function removeBookmark(userId, questionId) {
   await Bookmark.deleteOne({ user_id: userId, question_id: questionId });
+  await review.removeBookmark(userId, questionId);
   return { questionId: String(questionId), bookmarked: false };
 }
-
-// Subject and chapter names from the catalogue, for the revision list's filters.
-const NAMES = (() => {
-  const subjects = {};
-  const topics = {};
-  for (const c of require('../../db/seed/catalog')) {
-    for (const s of c.subjects) {
-      subjects[s.code] ||= s.name;
-      for (const t of s.topics) topics[`${s.code}.${t.code}`] ||= t.name;
-    }
-  }
-  return { subjects, topics };
-})();
 
 /**
  * The signed-in student's revision list: bookmarked questions, newest first,
@@ -255,8 +249,8 @@ async function listBookmarks(userId, { subject, topic, offset, limit }) {
     groups: groups.map(({ _id, count }) => ({
       subject: _id.subject,
       topic: _id.topic,
-      subjectName: NAMES.subjects[_id.subject] ?? { en: _id.subject },
-      topicName: NAMES.topics[`${_id.subject}.${_id.topic}`] ?? { en: _id.topic },
+      subjectName: subjectName(_id.subject),
+      topicName: topicName(_id.subject, _id.topic),
       count,
     })),
     items: rows
@@ -265,7 +259,7 @@ async function listBookmarks(userId, { subject, topic, offset, limit }) {
         bookmarkedAt: r.created_at,
         subject: r.subject,
         topic: r.topic,
-        topicName: NAMES.topics[`${r.subject}.${r.topic}`] ?? { en: r.topic },
+        topicName: topicName(r.subject, r.topic),
         question: presentQuestion(byId.get(String(r.question_id))),
       })),
   };

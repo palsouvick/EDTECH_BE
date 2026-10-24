@@ -83,6 +83,19 @@ db.bookmarks.createIndex({ user_id: 1, question_id: 1 }, { name: "uniq_user_ques
 // Revision list per topic, newest first.
 db.bookmarks.createIndex({ user_id: 1, subject: 1, topic: 1, created_at: -1 }, { name: "user_topic_recent" });
 
+// ---------------------------------------------------------------- review_items
+// Revision queue (spaced repetition) and mistake notebook. Mirrors src/models/ReviewItem.js.
+db.review_items.createIndex({ user_id: 1, question_id: 1 }, { name: "uniq_user_question", unique: true });
+db.review_items.createIndex({ user_id: 1, status: 1, due_at: 1 }, { name: "user_status_due" });
+db.review_items.createIndex({ user_id: 1, from_mistake: 1, subject: 1, topic: 1, last_wrong_at: -1 }, { name: "user_mistakes_topic" });
+
+// ---------------------------------------------------------------- motivation
+// Badges (src/models/UserBadge.js), daily challenge results (src/models/DailyChallenge.js),
+// and the weekly leaderboard's "correct answers in the last 7 days" over practice_attempts.
+db.user_badges.createIndex({ user_id: 1, key: 1 }, { name: "uniq_user_badge", unique: true });
+db.daily_challenge_results.createIndex({ user_id: 1, day: 1 }, { name: "uniq_user_day", unique: true });
+db.practice_attempts.createIndex({ created_at: -1 }, { name: "recent_attempts" });
+
 // --------------------------------------------------------- question_reports
 db.question_reports.createIndex({ status: 1, question_id: 1, created_at: -1 }, { name: "triage_queue" });
 // One open report per signed-in user, question and reason (anonymous reports are not deduplicated).

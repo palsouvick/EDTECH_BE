@@ -22,5 +22,7 @@ const PracticeAttemptSchema = new Schema(
 
 PracticeAttemptSchema.index({ user_id: 1, created_at: -1 }, { name: 'user_recent' });
 PracticeAttemptSchema.index({ user_id: 1, subject: 1, topic: 1 }, { name: 'user_topic' });
+// Weekly leaderboard: everyone's answers in the last 7 days.
+PracticeAttemptSchema.index({ created_at: -1 }, { name: 'recent_attempts' });
 
 module.exports = model('PracticeAttempt', PracticeAttemptSchema);

@@ -22,6 +22,8 @@ const questionStreamQuery = z.object({
   language: language.default('en'),
   cursor: z.string().max(200).regex(/^[A-Za-z0-9_-]+$/, 'malformed cursor').optional(),
   limit: z.coerce.number().int().min(1).max(20).default(5),
+  // Only questions of one pattern (db/patterns), for "practise this pattern".
+  pattern: slug.optional(),
 });
 
 const verifyAnswerBody = z.object({

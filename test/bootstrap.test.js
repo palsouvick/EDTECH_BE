@@ -35,14 +35,17 @@ test('fills an empty database and keeps admin edits on re-run', async () => {
   await bootstrapData();
   assert.equal(await ExamCategory.countDocuments(), catalog.length);
   assert.ok((await TopicSummary.countDocuments()) > 0);
-  assert.equal(await Question.countDocuments(), 25);
+  // 25 samples, plus whatever official papers db/pyq holds.
+  const samples = { 'pyq.is_pyq': { $ne: true } };
+  assert.equal(await Question.countDocuments(samples), 25);
+  const total = await Question.countDocuments();
 
-  const q = await Question.findOne().select('code');
+  const q = await Question.findOne(samples).select('code');
   await Question.updateOne({ _id: q._id }, { $set: { status: 'REJECTED' } });
   await TopicSummary.updateOne({}, { $set: { 'title.en': 'Edited' } });
 
   await bootstrapData();
-  assert.equal(await Question.countDocuments(), 25);
+  assert.equal(await Question.countDocuments(), total, 're-running adds nothing');
   assert.equal((await Question.findById(q._id).lean()).status, 'REJECTED');
   assert.equal(await TopicSummary.countDocuments({ 'title.en': 'Edited' }), 1);
 });

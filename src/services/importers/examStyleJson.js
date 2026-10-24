@@ -1,5 +1,7 @@
 'use strict';
 
+const { inCatalog } = require('../taxonomy');
+
 const crypto = require('node:crypto');
 
 /**
@@ -123,15 +125,57 @@ function buildSolution(content, langs) {
 /**
  * @returns {{ doc?: object, error?: string, warnings: string[] }}
  */
+// Real previous-year questions must come from the commission's own published
+// paper: these are the only hosts accepted as a PYQ source.
+const OFFICIAL_PAPER_HOSTS = [
+  'wbpsc.gov.in', 'psc.wb.gov.in', 'ssc.gov.in', 'ssc.nic.in', 'ibps.in', 'sbi.co.in', 'bank.sbi', 'indiapost.gov.in', 'wbssc.gov.in', 'wbsc.gov.in',
+];
+const isOfficialUrl = (u) => {
+  try {
+    const { protocol, hostname } = new URL(u);
+    return protocol === 'https:' && OFFICIAL_PAPER_HOSTS.some((h) => hostname === h || hostname.endsWith(`.${h}`));
+  } catch {
+    return false;
+  }
+};
+
+/**
+ * Real PYQ reference from the authoring JSON:
+ *   pyq: { exam_name, tier?, year, shift?, question_no, paper_url, answer_key_url? }
+ * paper_url (and answer_key_url) must be on an official commission host.
+ */
+function pyqRef(p, index) {
+  if (!p || typeof p !== 'object') return { error: `#${index}: pyq must be an object` };
+  if (!p.exam_name || !Number.isInteger(p.year) || !Number.isInteger(p.question_no)) {
+    return { error: `#${index}: pyq needs exam_name, year and question_no` };
+  }
+  if (!isOfficialUrl(p.paper_url)) return { error: `#${index}: pyq.paper_url must be an https link on an official commission site` };
+  if (p.answer_key_url && !isOfficialUrl(p.answer_key_url)) return { error: `#${index}: pyq.answer_key_url must be on an official commission site` };
+  const slug = (s) => String(s).toUpperCase().replace(/[^A-Z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const question_code = [slug(p.exam_name), p.year, p.tier && slug(p.tier), p.shift && slug(p.shift), `Q${p.question_no}`].filter(Boolean).join('-').slice(0, 80);
+  return {
+    ref: {
+      exam_name: p.exam_name,
+      ...(p.tier && { tier: p.tier }),
+      year: p.year,
+      ...(p.shift && { shift: p.shift }),
+      question_code,
+      source_url: p.paper_url,
+      ...(p.answer_key_url && { answer_key_url: p.answer_key_url }),
+    },
+  };
+}
+
 function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {}) {
   const warnings = [];
   const target = CATEGORY_MAP[raw.category];
-  const subject = SUBJECT_MAP[raw.subject];
-  const topicEntry = TOPIC_MAP[raw.topic];
+  // Catalogue codes (subject_code / topic_code) cover every chapter; the name maps only the common ones.
+  const subject = raw.subject_code ?? SUBJECT_MAP[raw.subject];
+  const topicEntry = raw.topic_code ? (inCatalog(subject, raw.topic_code) ? raw.topic_code : null) : TOPIC_MAP[raw.topic];
   const difficulty = DIFFICULTY_MAP[raw.difficulty];
   if (!target) return { error: `#${index}: unknown category "${raw.category}"`, warnings };
   if (!subject) return { error: `#${index}: unknown subject "${raw.subject}"`, warnings };
-  if (!topicEntry) return { error: `#${index}: unknown topic "${raw.topic}"`, warnings };
+  if (!topicEntry) return { error: `#${index}: unknown topic "${raw.topic_code ?? raw.topic}"`, warnings };
   if (!difficulty) return { error: `#${index}: unknown difficulty "${raw.difficulty}"`, warnings };
   const [topic, subtopic] = Array.isArray(topicEntry) ? topicEntry : [topicEntry, undefined];
 
@@ -160,7 +204,19 @@ function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {})
   // "... pattern (exam-style, not verbatim)" is NOT a previous-year question: no PYQ ref.
   const ref = raw.previous_year_reference || '';
   const isRealPyq = ref && !/pattern|exam-style|not verbatim/i.test(ref);
-  if (isRealPyq) warnings.push(`#${index} (${code}): looks like a real PYQ ("${ref}") but has no year/code; not tagged`);
+  if (isRealPyq && !raw.pyq) warnings.push(`#${index} (${code}): looks like a real PYQ ("${ref}") but has no pyq {} block; not tagged`);
+
+  // A real PYQ: tagged, and the official paper is cited under the explanation.
+  let pyq;
+  if (raw.pyq) {
+    const r = pyqRef(raw.pyq, index);
+    if (r.error) return { error: r.error, warnings };
+    pyq = { refs: [r.ref] };
+    const label = `${r.ref.exam_name} ${r.ref.year}${r.ref.shift ? `, ${r.ref.shift}` : ''}, Q${raw.pyq.question_no}`;
+    solution.steps.push(
+      Object.fromEntries(langs.map((l) => [l, l === 'bn' ? `📄 আসল প্রশ্ন: ${label} · [সরকারি প্রশ্নপত্র](${r.ref.source_url})` : `📄 Previous-year question: ${label} · [Official paper](${r.ref.source_url})`])),
+    );
+  }
 
   return {
     warnings,
@@ -178,6 +234,7 @@ function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {})
       })),
       correct_option_id: optionId(raw.correct_option_id),
       solution,
+      ...(pyq && { pyq }),
       status,
       authored_by: 'import:exam-style-json',
     },

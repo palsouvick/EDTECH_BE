@@ -50,7 +50,14 @@ Question sources per subject:
 
 Fact banks are authored, not generated: a fixed set of 112–171 bilingual questions per chapter. To grow a chapter, add items to its bank (`node scripts/generators/factbank/validate.js <file>` checks it).
 
-**Current Affairs has no source on purpose.** It needs dated, regularly refreshed content from a news-reviewed pipeline, so it shows "Coming soon".
+**Current Affairs comes in monthly, sourced packs:** `scripts/generators/factbank/current_affairs_YYYY_MM.js`, one file per month (`month: 'YYYY-MM'`). Each question also carries `src: { date, name, url }`:
+
+- `date` is the event date and must fall inside that month;
+- `url` is an https page that confirms the fact, preferably PIB, a ministry, RBI or ISRO, never a coaching site.
+
+The validator rejects items without a source. Students see "📰 date · Source" under the explanation, and the month is stored as the subtopic (`ca_2026_09`). **Adding a month:** write the file, run `node scripts/generators/factbank/validate.js <file>` (it needs at least 30 questions), and deploy. The startup top-up picks it up.
+
+**Previous-year questions come from official papers only.** Each paper is a JSON file in `db/pyq/`, imported on startup. See [db/pyq/README.md](db/pyq/README.md) for the format and rules; the importer rejects any source that is not a commission's own website.
 
 How it connects to the app:
 
@@ -112,6 +119,16 @@ The site opens on Math and English. Each chapter has a lesson and quizzes at thr
 | POST | `/api/v1/learn/quiz` | `{ subject, topic, level, exclude? }` returns 10 random questions with no answers, options shuffled, plus `timed` and `timeLimitSec`. |
 | POST | `/api/v1/learn/quiz/check` | `{ subject, topic, answers: [{ questionId, selectedOptionId \| null, timeSpentSec? }] }` returns, per question, `isCorrect`, `correctOptionId`, steps, shortcut and trap note, plus the score. Signed-in answers count towards "My performance". |
 
+## Revision queue and mistake notebook
+
+A signed-in student's wrong answers in practice, Learn Basics quizzes and mock tests, plus their bookmarks, go into `review_items` (one row per student and question). Each question comes back the next day. A right answer pushes the next review further out (1 → 3 → 7 → 21 days), and 2 right in a row retire it as mastered. A wrong answer starts it over. A new mistake brings a mastered question back. Un-bookmarking removes a question from the queue unless it was also a mistake. The frontend has three pages for this: `/revise` (today's session), `/mistakes` (the notebook) and a "Revise today" card on the home page.
+
+## Question patterns per question (weakness by pattern)
+
+Each bank question carries `pattern`, a key from its chapter's pattern file. Rules in `db/patterns/match/<subject>.js` decide it: a generator subtopic first, otherwise a regex on the English stem. Startup re-tags the bank whenever the rules or the question count change. Questions that fit no pattern stay untagged and still count for their chapter. To see coverage and untagged samples, run `node --env-file-if-exists=.env scripts/patternCoverage.js`; add `--write` to tag. The practice stream accepts `pattern=` (used by "Practise 10" on My performance). Coverage today: most Math and Reasoning chapters are 77–100% (number system, algebra and time & work are lower); English and GS are 1–100% because many bank questions are of types no pattern describes yet. Adding patterns for those types is the way to raise it.
+
+**Streak protection:** every 7 active days in a row earn a freeze (2 at most), and a missed day uses one instead of breaking the streak. It is worked out from the activity history (`streakWithFreezes`), so nothing is stored.
+
 ## Question patterns (study page)
 
 Each exam chapter has 3–6 **question patterns**, in `db/patterns/<subject>/<topic>.js`. A pattern is one common way the chapter is asked in exams. Each one has:
@@ -142,6 +159,14 @@ All responses are `{ success: true, data }` or `{ success: false, error: { code,
 | GET | `/api/v1/practice/questions?category&subject&topic&language&cursor&limit` | optional | Practice Arena feed, keyset-paginated over the practice order. Returns `{ questions, nextCursor, hasMore }`, and a `bookmarked` flag per question when signed in. Questions published mid-session don't cause repeats or gaps. |
 | PUT / DELETE | `/api/v1/practice/bookmarks/:questionId` | required | Bookmark for revision. Idempotent. |
 | GET | `/api/v1/practice/bookmarks?subject&topic&offset&limit` | required | The revision list (frontend `/revision`): bookmarked questions, newest first, without answers, plus `groups` (count per chapter, with names) for filters. `offset` rather than a page number, because the client removes learnt questions as it goes. Answers are checked with `verify-answer`. |
+| GET | `/api/v1/me/insights?tz` | required | Returns `mastery` (every chapter as `not_started`, `started`, `weak`, `improving` or `strong`, from its last 30 answers in practice, quizzes, revision and mock tests, with harder questions counted separately), `weakPatterns` (patterns well below their chapter), `badges` (earned once, kept), `streak` (`days`, `freezes`, `protectedDays`) and `today.answered`. |
+| GET / PUT | `/api/v1/me/leaderboard` | required | Weekly correct answers. Only opted-in students are listed, shown as "First L." `PUT { optIn }` turns it on or off (off by default). |
+| GET | `/api/v1/challenge/today?tz` | optional | Daily challenge: the same 5 mixed questions for everyone that day, one each from Math, Reasoning, English, GS and Current Affairs, without answers. Includes `done` when a signed-in student has already played. |
+| POST | `/api/v1/challenge/today` | optional | `{ tz, answers }`. Returns results with explanations. A signed-in student's first attempt of the day is saved; later ones return `firstAttempt: false`. |
+| GET | `/api/v1/review/summary?tz` | required | Revision queue counts: `dueToday` (due before the end of the student's day; `tz` = minutes east of UTC), `active`, `mastered`, `mistakesActive`, `nextDueAt`. |
+| GET | `/api/v1/review/due?tz&limit` | required | Today's revision: due questions without answers, each with `reason` (mistake / bookmark / both), `streak` and `wrongCount`. |
+| POST | `/api/v1/review/answer` | required | `{ questionId, selectedOptionId, timeSpentSec? }`. Marks the answer and reschedules the question. Right: the next review comes after 1, 3, 7 or 21 days, and 2 right in a row means mastered. Wrong: back to the start, due tomorrow. Returns the answer, the explanation and `review: { status, streak, nextDueAt }`. |
+| GET | `/api/v1/review/mistakes?status&subject&topic&offset&limit` | required | Mistake notebook. `status` is `active` (still wrong), `mastered` (fixed) or `all`. Each item has the student's last wrong option, the correct option, explanation steps and where the mistake was made (practice, learn, mock or review). Includes per-chapter `groups` and `counts`. |
 | POST | `/api/v1/practice/report-error` | optional | `{ questionId, reason, message?, language? }`. `reason` is `WRONG_ANSWER`, `WRONG_EXPLANATION`, `TRANSLATION`, `TYPO`, `UNCLEAR` or `OTHER`. A repeat from the same signed-in user returns `duplicate: true`. Limited to 10 per 10 minutes. |
 | POST | `/api/v1/mock/create-session` | required | Payload as specified, plus optional `language`. `questionCount`: 10, 20, 25, 50 or 100. Per-question mode: `perQuestionTimer: true` + `perQuestionSeconds` (10–600); `timeLimitMinutes` is then derived. `topicIds` are topic slugs (`profit_loss`). Returns questions without answers. |
 | POST | `/api/v1/mock/submit-session` | required | `{ sessionId, responses: [{ questionId, selectedOptionId \| null, timeSpentSec }] }`. Idempotent: a retried submit returns the stored result. |

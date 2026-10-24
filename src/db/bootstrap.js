@@ -6,10 +6,14 @@
  *
  *   1. indexes        db/indexes.mongo.js, when autoIndex is off (production)
  *   2. reference data catalogue + cut-offs (synced from code), missing concept sheets,
- *                     missing sample questions (db/seed/pyq-sample-25.json)
+ *                     missing sample questions (db/seed/pyq-sample-25.json) and
+ *                     official previous-year papers (db/pyq/*.json)
  *   3. question bank  tops every chapter up to SEED_QUESTIONS_PER_TOPIC generated questions
  *                     when the target or the question files changed; runs in the
  *                     background after the server is listening
+ *
+ *   4. patterns       tags questions with their question pattern (db/patterns/match)
+ *                     when the rules or the bank changed
  *
  * The first admin account is created by src/services/adminBootstrap.js.
  * Set AUTO_SEED=false to turn all of this off; SEED_QUESTIONS_PER_TOPIC=0 skips step 3.
@@ -22,7 +26,7 @@ const path = require('node:path');
 const mongoose = require('mongoose');
 const config = require('../config');
 const { ensureIndexes } = require('./ensureIndexes');
-const { DEFAULT_QUESTION_FILE, seedReferenceData, importQuestionFile } = require('./seedData');
+const { DEFAULT_QUESTION_FILE, pyqFiles, seedReferenceData, importQuestionFile } = require('./seedData');
 
 const log = (msg) => console.log(`[bootstrap] ${msg}`);
 const warn = (msg) => console.warn(`[bootstrap] ${msg}`);
@@ -31,8 +35,10 @@ async function bootstrapData() {
   if (!config.seed.auto) return;
   if (!mongoose.connection.config.autoIndex) await ensureIndexes(mongoose.connection, { log, warn });
   await seedReferenceData({ log });
-  const { errors } = await importQuestionFile(DEFAULT_QUESTION_FILE, { onlyMissing: true, log, warn: () => {} });
-  errors.forEach((e) => warn(`sample question skipped: ${e}`));
+  for (const file of [DEFAULT_QUESTION_FILE, ...pyqFiles()]) {
+    const { errors } = await importQuestionFile(file, { onlyMissing: true, log, warn: () => {} });
+    errors.forEach((e) => warn(`${path.basename(file)}: question skipped: ${e}`));
+  }
 }
 
 const LOCK_ID = 'question_bank';
@@ -102,9 +108,29 @@ async function seedQuestionBank() {
   }
 }
 
-/** Fire-and-forget: the API is already serving while the bank fills. */
-function startQuestionBankSeed() {
-  seedQuestionBank().catch((e) => warn(`question bank generation failed: ${e.message}`));
+/**
+ * Tags every question with its pattern (src/services/patternTagger.js) when the
+ * rules or the bank changed since the last run. Runs after the bank top-up.
+ */
+async function tagPatterns() {
+  if (!config.seed.auto) return;
+  const { rulesFingerprint, tagAll } = require('../services/patternTagger');
+  const state = mongoose.connection.db.collection('seed_state');
+  const fingerprint = `${rulesFingerprint()}:${await mongoose.connection.db.collection('questions').estimatedDocumentCount()}`;
+  if ((await state.findOne({ _id: 'patterns' }))?.fingerprint === fingerprint) return;
+  const coverage = await tagAll();
+  const tagged = coverage.reduce((a, c) => a + c.tagged, 0);
+  const total = coverage.reduce((a, c) => a + c.total, 0);
+  await state.updateOne({ _id: 'patterns' }, { $set: { fingerprint, at: new Date(), tagged, total } }, { upsert: true });
+  log(`question patterns: ${tagged}/${total} questions tagged`);
 }
 
-module.exports = { bootstrapData, seedQuestionBank, startQuestionBankSeed };
+/** Fire-and-forget: the API is already serving while the bank fills and gets tagged. */
+function startQuestionBankSeed() {
+  seedQuestionBank()
+    .catch((e) => warn(`question bank generation failed: ${e.message}`))
+    .then(() => tagPatterns())
+    .catch((e) => warn(`pattern tagging failed: ${e.message}`));
+}
+
+module.exports = { bootstrapData, seedQuestionBank, tagPatterns, startQuestionBankSeed };

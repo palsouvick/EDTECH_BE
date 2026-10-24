@@ -75,6 +75,9 @@ const PyqRefSchema = new Schema(
     shift: { type: String, trim: true, maxlength: 40 }, // "Shift 2" / "Morning"
     exam_date: { type: Date },
     question_code: { type: String, required: true, trim: true, maxlength: 80 }, // "SSC-CGL-2023-T1-S2-Q47"
+    // The commission's own published paper (and answer key) this question was taken from.
+    source_url: { type: String, trim: true, maxlength: 1024 },
+    answer_key_url: { type: String, trim: true, maxlength: 1024 },
   },
   { _id: false },
 );
@@ -95,6 +98,9 @@ const QuestionSchema = new Schema(
     subtopic: { type: String, match: SLUG_RE }, // "marked_price_discount"
     concept_tags: { type: [String], default: [] }, // "successive_percentage"
     difficulty: { type: Number, required: true, min: 1, max: 5, validate: Number.isInteger },
+    // Question pattern within the chapter (a key from db/patterns/<subject>/<topic>.js),
+    // set by src/services/patternTagger.js; absent when no pattern fits.
+    pattern: { type: String, match: SLUG_RE },
     expected_time_sec: { type: Number, min: 5, max: 600, default: 60 },
 
     // Derived in pre('validate'); never written by clients. See langSetKey().

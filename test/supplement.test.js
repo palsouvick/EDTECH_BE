@@ -17,7 +17,7 @@ const { MongoMemoryServer } = require('mongodb-memory-server');
 const common = require('../scripts/generators/common');
 const mixture = require('../scripts/generators/supplement/quant');
 const seating = require('../scripts/generators/supplement/reasoning');
-const { validateBank } = require('../scripts/generators/factbank/validate');
+const { validateBank, minCount } = require('../scripts/generators/factbank/validate');
 const { Question } = require('../src/models');
 const catalog = require('../db/seed/catalog');
 
@@ -101,14 +101,15 @@ test('seating arrangement: brute force confirms exactly one line-up fits the clu
   }
 });
 
-test('every fact bank is valid and holds at least 100 questions', () => {
+test('every fact bank is valid and big enough (100 questions; 30 for a month of current affairs)', () => {
   const dir = path.join(__dirname, '../scripts/generators/factbank');
   const files = fs.readdirSync(dir).filter((f) => f.endsWith('.js') && f !== 'validate.js');
   assert.ok(files.length > 0);
   for (const f of files) {
-    const { errors, count } = validateBank(require(path.join(dir, f)), f);
+    const bank = require(path.join(dir, f));
+    const { errors, count } = validateBank(bank, f);
     assert.deepEqual(errors, [], f);
-    assert.ok(count >= 100, `${f}: ${count} questions`);
+    assert.ok(count >= minCount(bank), `${f}: ${count} questions`);
   }
 });
 

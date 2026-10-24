@@ -17,13 +17,13 @@
  */
 
 const mongoose = require('mongoose');
-const { Question, PracticeAttempt } = require('../models');
+const { Question } = require('../models');
 const { langSetsContaining } = require('../models/schemas/localized');
 const catalog = require('../../db/seed/catalog');
 const { loadLessons } = require('../../db/lessons');
 const AppError = require('../utils/AppError');
-const statsBuffer = require('./questionStats.buffer');
-const { PUBLIC_QUESTION_FIELDS, compactLocalized, presentQuestion } = require('./presenters');
+const { gradeAnswers } = require('./grading');
+const { PUBLIC_QUESTION_FIELDS, presentQuestion } = require('./presenters');
 
 const SUBJECTS = [
   { code: 'quant', title: { en: 'Math', bn: 'গণিত', hi: 'गणित' }, emoji: '🔢' },
@@ -200,39 +200,8 @@ async function createQuiz({ subject, topic, level, exclude = [] }) {
 
 /** Marks a finished quiz and returns every question's answer and explanation. */
 async function checkQuiz({ subject, topic, answers }, userId) {
-  const ids = answers.map((a) => a.questionId);
-  const docs = await Question.find({ _id: { $in: ids }, status: 'PUBLISHED' })
-    .select('+correct_option_id +solution options.oid subject topic')
-    .lean();
-  const byId = new Map(docs.map((q) => [String(q._id), q]));
-
-  const results = [];
-  for (const { questionId, selectedOptionId, timeSpentSec } of answers) {
-    const q = byId.get(questionId);
-    if (!q) continue;
-    const answered = Boolean(selectedOptionId) && q.options.some((o) => o.oid === selectedOptionId);
-    const isCorrect = answered && selectedOptionId === q.correct_option_id;
-    if (answered) {
-      statsBuffer.record(q._id, { correct: isCorrect, timeSpentSec });
-      if (userId) {
-        PracticeAttempt.create({ user_id: userId, question_id: q._id, subject: q.subject, topic: q.topic, correct: isCorrect, time_spent_sec: timeSpentSec })
-          .catch((err) => console.error('[learn] attempt not recorded:', err.message));
-      }
-    }
-    const traps = q.solution?.traps || [];
-    const trap = answered && !isCorrect ? traps.find((t) => t.option_id === selectedOptionId) : null;
-    results.push({
-      questionId,
-      selectedOptionId: answered ? selectedOptionId : null,
-      isCorrect,
-      correctOptionId: q.correct_option_id,
-      steps: (q.solution?.steps || []).map(compactLocalized).filter(Boolean),
-      shortcut: compactLocalized(q.solution?.shortcut),
-      trapForSelected: trap ? compactLocalized(trap.note) : null,
-    });
-  }
-  const correct = results.filter((r) => r.isCorrect).length;
-  return { subject, topic, results, score: { correct, total: results.length } };
+  const { results, score } = await gradeAnswers(answers, { userId, source: 'learn' });
+  return { subject, topic, results, score };
 }
 
 module.exports = { SUBJECTS, QUIZ_SIZE, listSubjects, getSubject, getChapter, createQuiz, checkQuiz, levelPools, clearLearnCache };

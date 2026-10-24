@@ -10,4 +10,7 @@ module.exports = {
   ExamCutoff: require('./ExamCutoff'),
   User: require('./User'),
   PracticeAttempt: require('./PracticeAttempt'),
+  ReviewItem: require('./ReviewItem'),
+  UserBadge: require('./UserBadge'),
+  ...require('./DailyChallenge'),
 };
