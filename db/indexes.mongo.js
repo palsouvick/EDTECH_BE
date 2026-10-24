@@ -28,6 +28,15 @@ db.questions.createIndex(
 );
 
 db.questions.createIndex({ code: 1 }, { name: "uniq_code", unique: true });
+db.questions.createIndex(
+  { import_fingerprint: 1 },
+  {
+    name: "uniq_import_fingerprint",
+    unique: true,
+    partialFilterExpression: { import_fingerprint: { $type: "string" } },
+  },
+);
+db.questions.createIndex({ duplicate_keys: 1 }, { name: "question_duplicate_keys" });
 
 // A PYQ code identifies exactly one question across the bank.
 db.questions.createIndex(
@@ -107,6 +116,9 @@ db.question_reports.createIndex(
     partialFilterExpression: { status: "OPEN", user_id: { $type: "string" } },
   },
 );
+
+// ----------------------------------------------------- question import batches
+db.question_import_batches.createIndex({ created_at: -1 }, { name: "recent_import_batches" });
 
 // Result dashboard: peer percentile among submitted tests of the same kind.
 db.mock_sessions.createIndex(

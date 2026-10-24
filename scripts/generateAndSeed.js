@@ -45,7 +45,7 @@ const catalog = require('../db/seed/catalog');
 // Each subject merges Copilot's generators with supplements (chapters they don't
 // cover yet) and hand-authored fact banks. Topics with the same code are merged.
 const SUBJECTS = {
-  quant: { label: 'Math', prefix: 'QNT', mods: ['./generators/quant', './generators/supplement/quant', './generators/supplement/quant2'] },
+  quant: { label: 'Math', prefix: 'QNT', mods: ['./generators/quant', './generators/supplement/quant', './generators/supplement/quant2', './generators/supplement/quant_more'] },
   english: { label: 'English', prefix: 'ENG', mods: ['./generators/english'], factbanks: true },
   reasoning: { label: 'Reasoning', prefix: 'RSN', mods: ['./generators/reasoning', './generators/supplement/reasoning'] },
   gs: { label: 'General Studies', prefix: 'GS', mods: ['./generators/supplement/gs'], factbanks: true },

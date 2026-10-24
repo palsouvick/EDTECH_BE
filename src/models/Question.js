@@ -10,6 +10,7 @@ const {
   langSetKey,
 } = require('./schemas/localized');
 const { EXAM_CATEGORIES, TIERS, QUESTION_STATUS, SLUG_RE } = require('./constants');
+const { questionDuplicateKeys } = require('../utils/questionDuplicateKeys');
 
 /**
  * Option ids are stable random strings, not "A/B/C/D": options are shuffled per
@@ -97,6 +98,10 @@ const QuestionSchema = new Schema(
     topic: { type: String, required: true, match: SLUG_RE }, // "profit_loss"
     subtopic: { type: String, match: SLUG_RE }, // "marked_price_discount"
     concept_tags: { type: [String], default: [] }, // "successive_percentage"
+    source_reference: { type: String, trim: true, maxlength: 1024 },
+    source_year: { type: Number, min: 1990, max: 2100, validate: Number.isInteger },
+    import_fingerprint: { type: String, match: /^[a-f\d]{64}$/i, select: false },
+    duplicate_keys: { type: [String], default: undefined, select: false },
     difficulty: { type: Number, required: true, min: 1, max: 5, validate: Number.isInteger },
     // Question pattern within the chapter (a key from db/patterns/<subject>/<topic>.js),
     // set by src/services/patternTagger.js; absent when no pattern fits.
@@ -148,6 +153,7 @@ const QuestionSchema = new Schema(
 
 QuestionSchema.pre('validate', function deriveAndCheck() {
   const options = this.options || [];
+  this.duplicate_keys = questionDuplicateKeys(this.stem);
 
   if (options.length < 3 || options.length > 4) {
     this.invalidate('options', 'A question must have 3 or 4 options');
@@ -208,6 +214,11 @@ QuestionSchema.index(
 );
 
 QuestionSchema.index({ code: 1 }, { name: 'uniq_code', unique: true });
+QuestionSchema.index(
+  { import_fingerprint: 1 },
+  { name: 'uniq_import_fingerprint', unique: true, partialFilterExpression: { import_fingerprint: { $type: 'string' } } },
+);
+QuestionSchema.index({ duplicate_keys: 1 }, { name: 'question_duplicate_keys' });
 
 QuestionSchema.index(
   { 'pyq.refs.question_code': 1 },

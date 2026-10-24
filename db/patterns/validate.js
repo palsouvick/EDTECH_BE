@@ -14,7 +14,7 @@
  * module.exports = {
  *   subject: 'quant' | 'reasoning' | 'english' | 'gs',
  *   topic: '<catalogue topic code>',
- *   patterns: [                                   // 3 to 6
+ *   patterns: [                                   // 3 to 15
  *     {
  *       key: 'snake_case_id',                     // unique within the file
  *       emoji: '🎯',
@@ -77,7 +77,7 @@ function validatePatterns(doc, file = '') {
   if (file && path.basename(file, '.js') !== doc.topic) errors.push(`${at}: file name must be <topic>.js`);
   if (file && path.basename(path.dirname(file)) !== doc.subject) errors.push(`${at}: must sit in db/patterns/${doc.subject}/`);
   const list = doc.patterns || [];
-  if (list.length < 3 || list.length > 6) errors.push(`${at}: needs 3 to 6 patterns`);
+  if (list.length < 3 || list.length > 15) errors.push(`${at}: needs 3 to 15 patterns`);
   const keys = new Set();
   list.forEach((p, i) => {
     const w = `${at} pattern ${i + 1}${p?.key ? ` (${p.key})` : ''}`;

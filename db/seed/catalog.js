@@ -67,8 +67,43 @@ const GRAMMAR_SUBTOPICS = [
   { code: 'conjunctions', name: L('Conjunctions & Correlatives', 'সংযোজক অব্যয়', 'समुच्चयबोधक') },
 ];
 
+const PERCENTAGE_SUBTOPICS = [
+  { code: 'percentage_of_number', name: L('Percentage of a Number', 'কোনো সংখ্যার শতকরা অংশ', 'किसी संख्या का प्रतिशत') },
+  { code: 'what_percent', name: L('Finding What Percent', 'কত শতাংশ নির্ণয়', 'कितना प्रतिशत ज्ञात करना') },
+  { code: 'percentage_change', name: L('Reverse Percentage (Original Value)', 'বিপরীত শতকরা (মূল মান নির্ণয়)', 'उल्टा प्रतिशत (मूल मान)') },
+  { code: 'percentage_increase', name: L('Percentage Increase', 'শতকরা বৃদ্ধি', 'प्रतिशत वृद्धि') },
+  { code: 'percentage_decrease', name: L('Percentage Decrease', 'শতকরা হ্রাস', 'प्रतिशत कमी') },
+  { code: 'percentage_comparison', name: L('Percentage Comparison', 'শতকরা তুলনা', 'प्रतिशत तुलना') },
+  { code: 'successive_percentage_change', name: L('Successive Percentage Change', 'ক্রমিক শতকরা পরিবর্তন', 'क्रमिक प्रतिशत परिवर्तन') },
+  { code: 'compound_growth', name: L('Compound Growth', 'চক্রবৃদ্ধি বৃদ্ধি', 'चक्रवृद्धि वृद्धि') },
+  { code: 'population_growth', name: L('Population Growth', 'জনসংখ্যা বৃদ্ধি', 'जनसंख्या वृद्धि') },
+  { code: 'population_change', name: L('Population Percentage Change', 'জনসংখ্যার শতকরা পরিবর্তন', 'जनसंख्या में प्रतिशत परिवर्तन') },
+  { code: 'finding_whole_from_percentage', name: L('Finding the Whole from a Percentage', 'শতকরা থেকে সম্পূর্ণ মান নির্ণয়', 'प्रतिशत से पूर्ण मान ज्ञात करना') },
+  { code: 'marks_percentage', name: L('Percentage from Exam Marks', 'পরীক্ষার নম্বর থেকে শতকরা', 'परीक्षा अंकों से प्रतिशत') },
+  { code: 'income_expenditure_savings', name: L('Income, Expenditure & Savings', 'আয়, ব্যয় ও সঞ্চয়', 'आय, व्यय और बचत') },
+];
+
+const PROFIT_LOSS_SUBTOPICS = [
+  { code: 'profit_percent', name: L('Profit Percentage', 'লাভের শতকরা হার', 'लाभ प्रतिशत') },
+  { code: 'loss_percent', name: L('Loss Percentage', 'ক্ষতির শতকরা হার', 'हानि प्रतिशत') },
+  { code: 'find_cost_price', name: L('Find Cost Price', 'ক্রয়মূল্য নির্ণয়', 'क्रय मूल्य ज्ञात करना') },
+  { code: 'marked_price_discount', name: L('Marked Price & Discount', 'চিহ্নিত মূল্য ও ছাড়', 'अंकित मूल्य और छूट') },
+  { code: 'two_articles_same_price', name: L('Two Articles Sold at the Same Price', 'একই দামে দুটি জিনিস বিক্রি', 'एक ही मूल्य पर दो वस्तुओं की बिक्री') },
+  { code: 'cp_sp_articles', name: L('Cost Price and Selling Price of Articles', 'জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্য', 'वस्तुओं का क्रय मूल्य और विक्रय मूल्य') },
+];
+
 const topics = (...codes) =>
-  codes.map((code) => ({ code, name: T[code], subtopics: code === 'grammar' ? GRAMMAR_SUBTOPICS : [] }));
+  codes.map((code) => ({
+    code,
+    name: T[code],
+    subtopics: code === 'grammar'
+      ? GRAMMAR_SUBTOPICS
+      : code === 'percentage'
+        ? PERCENTAGE_SUBTOPICS
+        : code === 'profit_loss'
+          ? PROFIT_LOSS_SUBTOPICS
+          : [],
+  }));
 
 const QUANT = topics(
   'percentage', 'profit_loss', 'ratio_proportion', 'time_work', 'interest',

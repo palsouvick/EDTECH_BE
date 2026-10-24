@@ -8,7 +8,10 @@ const { objectId } = require('../validators/common');
 const { Question, QuestionReport, User } = require('../models');
 const { QUESTION_STATUS, TIERS } = require('../models/constants');
 const { compactLocalized } = require('../services/presenters');
+const { clearCatalogCache } = require('../services/catalog.service');
 const AppError = require('../utils/AppError');
+const multer = require('multer');
+const bulkImport = require('../services/questionBulkImport.service');
 
 /** Review portal API. Everything here requires an admin session (see middleware/admin.js). */
 const router = Router();
@@ -17,6 +20,21 @@ router.use(requireAdmin);
 const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const page = z.coerce.number().int().min(1).default(1);
 const idParams = z.object({ id: objectId });
+const batchParams = z.object({ batchId: objectId });
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: bulkImport.MAX_FILE_BYTES, files: 1, fields: 8, parts: 10 },
+});
+function parseImportUpload(req, res, next) {
+  upload.single('file')(req, res, (error) => {
+    if (!error) return next();
+    if (error instanceof multer.MulterError) {
+      const tooLarge = error.code === 'LIMIT_FILE_SIZE';
+      return next(new AppError(tooLarge ? 413 : 400, tooLarge ? 'FILE_TOO_LARGE' : 'INVALID_UPLOAD', tooLarge ? 'Upload must be 2 MB or smaller' : 'Upload must contain one .xlsx or .csv file'));
+    }
+    next(error);
+  });
+}
 
 function presentAdminQuestion(q) {
   return {
@@ -150,6 +168,100 @@ router.patch('/reports/:id', validate({ params: idParams, body: z.object({ statu
   const updated = await QuestionReport.findByIdAndUpdate(req.valid.params.id, { $set: { status: req.valid.body.status } }, { new: true }).select('status').lean();
   if (!updated) throw AppError.notFound('REPORT_NOT_FOUND', 'Report not found');
   res.json({ success: true, data: { id: req.valid.params.id, status: updated.status } });
+});
+
+router.get('/import/template.xlsx', async (_req, res) => {
+  const buffer = await bulkImport.createTemplate();
+  res.set({
+    'Content-Type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+    'Content-Disposition': 'attachment; filename="question-import-template.xlsx"',
+    'Cache-Control': 'private, no-store',
+  });
+  res.send(Buffer.from(buffer));
+});
+
+router.get('/import/template.csv', (_req, res) => {
+  res.set({
+    'Content-Type': 'text/csv; charset=utf-8',
+    'Content-Disposition': 'attachment; filename="question-import-template.csv"',
+    'Cache-Control': 'private, no-store',
+  });
+  res.send(bulkImport.createCsvTemplate());
+});
+
+router.get('/import/catalog.csv', async (_req, res) => {
+  res.set({
+    'Content-Type': 'text/csv; charset=utf-8',
+    'Content-Disposition': 'attachment; filename="question-import-catalog.csv"',
+    'Cache-Control': 'private, no-store',
+  });
+  res.send(await bulkImport.createCatalogCsv());
+});
+
+const previewBody = z.object({
+  category: z.enum(require('../models/constants').EXAM_CATEGORIES),
+  examCode: z.string().regex(/^[A-Z0-9_]{1,40}$/),
+  defaultSubject: z.string().regex(/^[a-z0-9]+(?:_[a-z0-9]+)*$/).optional().or(z.literal('')),
+  defaultTopic: z.string().regex(/^[a-z0-9]+(?:_[a-z0-9]+)*$/).optional().or(z.literal('')),
+});
+router.post('/import/preview', parseImportUpload, validate({ body: previewBody }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.status(201).json({
+    success: true,
+    data: await bulkImport.previewImport({
+      file: req.file,
+      ...req.valid.body,
+      userId: req.admin.id,
+    }),
+  });
+});
+
+const historyQuery = z.object({
+  page: z.coerce.number().int().min(1).max(10_000).default(1),
+  limit: z.coerce.number().int().min(1).max(50).default(10),
+});
+router.get('/import/batches', validate({ query: historyQuery }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await bulkImport.listHistory({ ...req.valid.query, userId: req.admin.id }) });
+});
+
+router.get('/import/batches/:batchId/errors.csv', validate({ params: batchParams }), async (req, res) => {
+  const report = await bulkImport.errorReport(req.valid.params.batchId, req.admin.id);
+  res.set({
+    'Content-Type': 'text/csv; charset=utf-8',
+    'Content-Disposition': `attachment; filename="${report.fileName.replace(/["\r\n]/g, '')}"`,
+    'Cache-Control': 'private, no-store',
+  });
+  res.send(report.csv);
+});
+
+const confirmBody = z.object({
+  duplicateDecisions: z.array(z.object({
+    rowNumber: z.number().int().min(2).max(bulkImport.MAX_ROWS + 1),
+    decision: z.enum(['IMPORT_AS_NEW', 'SKIP']),
+  }).strict()).max(bulkImport.MAX_ROWS).default([]),
+}).strict();
+router.post('/import/batches/:batchId/confirm', validate({ params: batchParams, body: confirmBody }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({
+    success: true,
+    data: await bulkImport.confirmImport({
+      batchId: req.valid.params.batchId,
+      userId: req.admin.id,
+      duplicateDecisions: req.valid.body.duplicateDecisions,
+    }),
+  });
+});
+
+router.post('/import/batches/:batchId/publish', validate({ params: batchParams, body: z.object({}).strict() }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  const result = await bulkImport.publishBatch({
+    batchId: req.valid.params.batchId,
+    userId: req.admin.id,
+    reviewedBy: req.admin.email,
+  });
+  if (result.publishedCount > 0) clearCatalogCache();
+  res.json({ success: true, data: result });
 });
 
 module.exports = router;

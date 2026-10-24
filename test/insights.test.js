@@ -14,7 +14,7 @@ const { createApp } = require('../src/app');
 const { Question, PracticeAttempt, User, UserBadge, DailyChallengeResult } = require('../src/models');
 const statsBuffer = require('../src/services/questionStats.buffer');
 const { masteryStatus } = require('../src/services/insights.service');
-const { classify, checkRules } = require('../src/services/patternTagger');
+const { classify, checkRules, loadRules } = require('../src/services/patternTagger');
 const { convertExamStyleQuestion } = require('../src/services/importers/examStyleJson');
 const samples = require('../db/seed/pyq-sample-25.json');
 
@@ -73,6 +73,38 @@ test('pattern rules: subtopic first, then the stem; every rule key is a real pat
   assert.equal(classify(rules, { stem: { en: 'Two successive discounts' } }), 'successive_change');
   assert.equal(classify(rules, { stem: { en: 'Something else' } }), null);
   assert.deepEqual(checkRules(), []);
+});
+
+test('percentage taxonomy subtopics map to existing question patterns', () => {
+  const rules = loadRules().quant.percentage;
+  const expected = {
+    percentage_increase: 'percentage_change',
+    percentage_decrease: 'percentage_change',
+    population_change: 'percentage_change',
+    marks_percentage: 'marks_percentage',
+    percentage_comparison: 'more_than_less_than',
+    compound_growth: 'population_growth',
+    income_expenditure_savings: 'savings_as_percent_income',
+    finding_whole_from_percentage: 'find_whole_from_percent',
+  };
+  for (const [subtopic, pattern] of Object.entries(expected)) {
+    assert.equal(classify(rules, { subtopic, stem: { en: '' } }), pattern, subtopic);
+  }
+});
+
+test('Profit & Loss taxonomy subtopics map to existing question patterns', () => {
+  const rules = loadRules().quant.profit_loss;
+  const expected = {
+    profit_percent: 'profit_loss_percent',
+    loss_percent: 'profit_loss_percent',
+    find_cost_price: 'find_cp_or_sp',
+    marked_price_discount: 'discount_on_marked_price',
+    two_articles_same_price: 'profit_loss_percent',
+    cp_sp_articles: 'profit_loss_percent',
+  };
+  for (const [subtopic, pattern] of Object.entries(expected)) {
+    assert.equal(classify(rules, { subtopic, stem: { en: '' } }), pattern, subtopic);
+  }
 });
 
 test('insights: weak pattern inside a good chapter, mastery tile, badges', async () => {

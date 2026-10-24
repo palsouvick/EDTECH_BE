@@ -88,6 +88,71 @@ The importer ([src/services/importers/examStyleJson.js](src/services/importers/e
 - **Not tagged as PYQs:** `previous_year_reference` values that say "pattern (exam-style, not verbatim)" are not real previous-year questions. They are imported without PYQ tags, so they never show a PYQ badge or count.
 - **Idempotent:** each question's code is a hash of its English stem, so re-running updates rather than duplicates.
 
+### Admin bulk question upload
+
+Admins can open **Admin → Bulk upload** to import question rows from an `.xlsx` workbook or UTF-8 `.csv`.
+Download either template from the page (or use `GET /api/v1/admin/import/template.xlsx` and
+`GET /api/v1/admin/import/template.csv`). The Excel workbook contains `Questions` and `Instructions`
+sheets; for CSV, use the first row as the column-header row.
+
+The required columns are `question_text`, `question_type`, `option_a`, `option_b`, `option_c`,
+`correct_answer`, and `difficulty`. The templates include the complete supported column list:
+
+- `question_text`, `question_text_bn`, `question_text_hi`
+- `question_type` (MCQ only)
+- `option_a`–`option_d`, with optional `_bn` and `_hi` translations for each option
+- `correct_answer` (`A`, `B`, `C`, or `D`), `explanation`, `explanation_bn`, `explanation_hi`
+- `subject`, `topic`, optional `subtopic`, and `exam_name`
+- `difficulty` (`Easy`, `Medium`, `Hard`, or 1–5), and `language`
+- `source` and `source_year` (metadata only; these do not verify or assign a PYQ tag)
+
+Select the category and exam before uploading. Subject/topic selectors provide row defaults; row values
+must still resolve to the selected category's configured taxonomy. The importer never creates taxonomy
+records. The current question schema does not store per-question marks or negative marks, so mock scoring
+continues to use the configured exam pattern.
+
+The workflow is preview first, then explicit confirmation. Existing questions are checked globally across
+categories, subjects, and topics using indexed, language-specific normalized question keys. The bounded
+text-index search also finds likely wording matches without loading the question bank into application
+memory. Options and the correct option are compared for exact matches and answer conflicts. The preview
+lists the existing question ID, code, taxonomy, status, and reason for each match:
+
+- `NEW` rows are imported as drafts by default.
+- `EXACT DUPLICATE` rows are not imported and show the existing database ID.
+- `POSSIBLE DUPLICATE` and `ANSWER CONFLICT` rows require an explicit per-row choice to import as a
+  separate draft or skip. Existing records are never changed.
+- `INVALID` rows show validation errors and are not imported.
+
+Confirmed imports remain drafts until an administrator explicitly selects **Review & publish** for that
+batch in import history. Publishing affects only draft questions created by that admin-owned batch,
+records the reviewing admin, assigns matching question patterns, and refreshes catalog counts. Published
+questions then appear in exam topic counts and practice.
+
+The admin can revisit recent import history and download a CSV error report. Preview batches are private
+to their creating admin and expire after 24 hours; completed confirms are safe to retry. Each database
+question receives language-specific duplicate keys. After deploying the index changes, backfill the
+existing question collection before enabling upload:
+
+```
+npm run db:indexes
+npm run db:duplicate-keys
+```
+
+The backfill streams questions in batches, adds only duplicate-key metadata, and is safe to rerun. Preview
+returns a service-unavailable error until the migration completes, rather than reporting false `NEW`
+results. The question schema maintains keys for subsequently authored/imported questions.
+
+Uploads are limited to 2 MB and 500 question rows. Only plain-text cell values are imported; spreadsheet
+formulas, macro-enabled workbooks, unsupported headers, invalid language/option combinations, and unknown
+taxonomy values are rejected or reported per row. The indexed question text is Unicode NFC normalized;
+line breaks and whitespace are standardized without discarding Bengali characters, numbers, or math
+operators. Import fingerprints and the unique fingerprint index prevent repeated/concurrent insertion of
+the same question content.
+
+The admin Excel template includes `Taxonomy` and `Exams` sheets generated from the active database
+catalog. Use the codes from those sheets in upload files; the admin page also provides a downloadable
+catalog CSV containing category, subject, topic, subtopic, and exam mappings.
+
 ## Layout
 
 ```

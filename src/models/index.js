@@ -7,6 +7,7 @@ module.exports = {
   MockSession: require('./MockSession'),
   Bookmark: require('./Bookmark'),
   QuestionReport: require('./QuestionReport'),
+  QuestionImportBatch: require('./QuestionImportBatch'),
   ExamCutoff: require('./ExamCutoff'),
   User: require('./User'),
   PracticeAttempt: require('./PracticeAttempt'),
