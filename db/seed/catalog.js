@@ -62,10 +62,38 @@ const T = {
 };
 
 const GRAMMAR_SUBTOPICS = [
+  { code: 'parts_of_speech', name: L('Parts of Speech', 'পদ-প্রকরণ', 'शब्द-भेद'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'nouns', name: L('Nouns', 'বিশেষ্য', 'संज्ञा'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'pronouns', name: L('Pronouns', 'সর্বনাম', 'सर्वनाम'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'verb_forms', name: L('Verb Forms', 'ক্রিয়ার রূপ', 'क्रिया के रूप'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'tenses', name: L('Tenses', 'কাল', 'काल'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'articles_determiners', name: L('Articles & Determiners', 'Article ও Determiner'), syllabus_status: 'SUPPLEMENTARY' },
   { code: 'prepositions', name: L('Prepositions', 'পদান্বয়ী অব্যয় (Preposition)', 'पूर्वसर्ग (Preposition)') },
   { code: 'subject_verb_agreement', name: L('Subject-Verb Agreement', 'কর্তা-ক্রিয়ার সঙ্গতি', 'कर्ता-क्रिया सामंजस्य') },
   { code: 'conjunctions', name: L('Conjunctions & Correlatives', 'সংযোজক অব্যয়', 'समुच्चयबोधक') },
+  { code: 'comparison', name: L('Degrees of Comparison', 'তুলনার মাত্রা', 'तुलना की अवस्थाएँ') },
+  { code: 'voice', name: L('Active & Passive Voice', 'Active ও Passive Voice', 'कर्तृवाच्य और कर्मवाच्य'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'direct_indirect_speech', name: L('Direct & Indirect Speech', 'Direct ও Indirect Speech', 'प्रत्यक्ष और अप्रत्यक्ष कथन'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'sentence_transformation', name: L('Sentence Transformation', 'বাক্য রূপান্তর', 'वाक्य रूपांतरण'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'conditional_sentences', name: L('Conditional Sentences', 'শর্তসূচক বাক্য', 'सशर्त वाक्य'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'modifiers', name: L('Modifiers', 'বর্ণনাকারী পদ', 'विशेषक'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'punctuation', name: L('Punctuation', 'বিরামচিহ্ন', 'विराम चिह्न'), syllabus_status: 'SUPPLEMENTARY' },
+  { code: 'question_tags', name: L('Question Tags', 'Question Tag', 'Question Tags'), syllabus_status: 'SUPPLEMENTARY' },
 ];
+
+const VOCABULARY_SUBTOPICS = {
+  synonyms_antonyms: [
+    { code: 'synonyms', name: L('Synonyms', 'সমার্থক শব্দ', 'पर्यायवाची शब्द') },
+    { code: 'antonyms', name: L('Antonyms', 'বিপরীত শব্দ', 'विलोम शब्द') },
+    { code: 'vocabulary_in_context', name: L('Vocabulary in Context', 'প্রসঙ্গ অনুযায়ী শব্দার্থ', 'संदर्भ में शब्दावली'), syllabus_status: 'SUPPLEMENTARY' },
+    { code: 'multiple_meanings', name: L('Multiple-Meaning Words', 'একাধিক অর্থের শব্দ', 'अनेक अर्थ वाले शब्द'), syllabus_status: 'SUPPLEMENTARY' },
+    { code: 'appropriate_word_usage', name: L('Appropriate Word Usage', 'উপযুক্ত শব্দের ব্যবহার', 'उचित शब्द प्रयोग'), syllabus_status: 'SUPPLEMENTARY' },
+    { code: 'spelling_confusables', name: L('Spelling & Commonly Confused Words', 'বানান ও বিভ্রান্তিকর শব্দ', 'वर्तनी और भ्रमित करने वाले शब्द'), syllabus_status: 'SUPPLEMENTARY' },
+  ],
+  idioms_phrases: [
+    { code: 'phrasal_verbs', name: L('Phrasal Verbs', 'Phrasal Verb', 'Phrasal Verbs'), syllabus_status: 'SUPPLEMENTARY' },
+  ],
+};
 
 const PERCENTAGE_SUBTOPICS = [
   { code: 'percentage_of_number', name: L('Percentage of a Number', 'কোনো সংখ্যার শতকরা অংশ', 'किसी संख्या का प्रतिशत') },
@@ -96,13 +124,14 @@ const topics = (...codes) =>
   codes.map((code) => ({
     code,
     name: T[code],
+    syllabus_status: 'UNVERIFIED',
     subtopics: code === 'grammar'
       ? GRAMMAR_SUBTOPICS
       : code === 'percentage'
         ? PERCENTAGE_SUBTOPICS
         : code === 'profit_loss'
           ? PROFIT_LOSS_SUBTOPICS
-          : [],
+          : VOCABULARY_SUBTOPICS[code] || [],
   }));
 
 const QUANT = topics(

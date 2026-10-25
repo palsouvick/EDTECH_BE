@@ -126,6 +126,11 @@ const QuestionSchema = new Schema(
       is_pyq: { type: Boolean, default: false },
       refs: { type: [PyqRefSchema], default: [] },
     },
+    provenance: {
+      type: String,
+      enum: ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ', 'ORIGINAL_PRACTICE', 'UNCLASSIFIED'],
+      default: 'UNCLASSIFIED',
+    },
     // Denormalised max(pyq.refs.year). Scalar, so it can sit in the compound index
     // and drive recency weighting in mock generation without unwinding refs.
     latest_pyq_year: { type: Number, default: null },

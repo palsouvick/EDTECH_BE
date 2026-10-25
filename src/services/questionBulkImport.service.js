@@ -413,6 +413,7 @@ function makeQuestion({ row, category, exam, categoryDoc, defaultSubject, defaul
     solution: { steps: Object.keys(explanationText).length ? [explanationText] : [] },
     ...(sourceReference && { source_reference: sourceReference }),
     ...(sourceYear && { source_year: sourceYear }),
+    provenance: 'ORIGINAL_PRACTICE',
     import_fingerprint: fingerprint,
     status: 'DRAFT',
     authored_by: `bulk-import:${batchId}`,

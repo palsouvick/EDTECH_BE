@@ -14,4 +14,10 @@ module.exports = {
   ReviewItem: require('./ReviewItem'),
   UserBadge: require('./UserBadge'),
   ...require('./DailyChallenge'),
+  VocabularyWord: require('./VocabularyWord'),
+  VocabularyProgress: require('./VocabularyProgress'),
+  VocabularySettings: require('./VocabularySettings'),
+  VocabularyDailyWord: require('./VocabularyDailyWord'),
+  VocabularyDailyActivity: require('./VocabularyDailyActivity'),
+  VocabularyPracticeSession: require('./VocabularyPracticeSession'),
 };

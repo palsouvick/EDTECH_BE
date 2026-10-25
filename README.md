@@ -64,6 +64,7 @@ How it connects to the app:
 - **Topic codes:** generator topic codes are mapped onto catalogue codes by [src/services/taxonomy.js](src/services/taxonomy.js) (`speed_distance` → `time_speed_distance`, `prepositions` → `grammar/prepositions`, …), so every question shows up in the funnel. Each run also moves questions stored by earlier runs under the old codes. Nothing is deleted.
 - **New generator topics:** `test/generators.test.js` fails if a generator produces a topic that is not in `db/seed/catalog.js`. Add the topic to the catalogue, or add an alias in `taxonomy.js`.
 - **PYQ tags:** no PYQ tags by default. Generated questions never appeared in a real paper, and the app shows any PYQ ref as a "PYQ · SSC CGL 2019" badge. `--untag-synthetic-pyq` removes such tags from questions already in the database. The questions stay.
+- **Question provenance:** `provenance` distinguishes `OFFICIAL_VERIFIED`, `ADAPTED_PYQ`, `ORIGINAL_PRACTICE`, and `UNCLASSIFIED`. Official counts require a non-synthetic PYQ reference with both paper and answer-key URLs on a configured commission domain. Existing records can be safely classified where evidence is reliable with `npm run db:question-provenance`; uncertain legacy rows remain `UNCLASSIFIED` for editorial review.
 - **`--reset`:** deletes generated questions (`authored_by: seed_generator`). Only use it when you mean to.
 
 ### Seeding and importing questions
@@ -219,7 +220,7 @@ All responses are `{ success: true, data }` or `{ success: false, error: { code,
 | POST | `/api/v1/practice/verify-answer` | optional | `{ questionId, selectedOptionId, timeSpentSec? }` → `isCorrect`, `correctOptionId`, steps per language, shortcut, trap note for the chosen wrong option, `stats.percentCorrect`. `percentCorrect` stays `null` until a question has 30 attempts. |
 | GET | `/api/v1/catalog/categories?language` | optional | Step 1 of the funnel: categories with exams and question counts. |
 | GET | `/api/v1/catalog/categories/:category?language` | optional | Step 2: subjects with question, PYQ and topic counts. Counts include only questions fully available in `language`. |
-| GET | `/api/v1/catalog/categories/:category/subjects/:subject?language` | optional | Step 3: syllabus topics with question count, PYQ count, difficulty (`EASY`/`MODERATE`/`HARD` from the average), and `hasSummary`. Topics with no content are still listed. Counts are cached for 5 minutes per category and language. |
+| GET | `/api/v1/catalog/categories/:category/subjects/:subject?language` | optional | Step 3: topics and subtopics with published-question and provenance counts, difficulty (`EASY`/`MODERATE`/`HARD` from the average), syllabus verification status, and `hasSummary`. `pyqCount` remains as a compatibility alias for `verifiedPyqCount`. WBPSC counts are category-wide; WBCS and other WBPSC PYQs are separately counted from verified source references, never inferred from a WBPSC-wide question total. A question is counted once per topic/subtopic even when it has multiple matching references. Counts are cached for 5 minutes per category and language. |
 | GET | `/api/v1/practice/topic-summary?category&subject&topic` | optional | Topic sheet with every language, plus localized breadcrumb names, for on-device language switching. |
 | GET | `/api/v1/practice/questions?category&subject&topic&language&cursor&limit` | optional | Practice Arena feed, keyset-paginated over the practice order. Returns `{ questions, nextCursor, hasMore }`, and a `bookmarked` flag per question when signed in. Questions published mid-session don't cause repeats or gaps. |
 | PUT / DELETE | `/api/v1/practice/bookmarks/:questionId` | required | Bookmark for revision. Idempotent. |
@@ -295,6 +296,47 @@ or under 50% attempt rate, each needing at least 2 questions.
 **Difficulty stats** are batched in memory and flushed every 5 s with one
 unordered `bulkWrite` of `$inc`. This avoids write hotspots on popular questions.
 It is safe across instances; a crash loses at most one interval of counts.
+
+## Vocabulary Mastery
+
+Vocabulary cards are stored separately from the MCQ `questions` collection, so
+existing question IDs, topics, and PYQ counts are unchanged. Public endpoints
+serve only `PUBLISHED` cards. Account progress lives in `vocabulary_progress`,
+`vocabulary_settings`, and daily activity collections. Practice answers remain
+server-side in short-lived sessions and are returned only after an answer is
+checked.
+
+| Method | Path | Notes |
+|---|---|---|
+| GET | `/api/v1/vocabulary/words` | Search `q` (English/Bengali), `category`, `difficulty`, personal `status`, `offset`, `limit`. |
+| GET | `/api/v1/vocabulary/word-of-day?tz=330` | Stable daily word for the supplied UTC offset. |
+| POST | `/api/v1/vocabulary/practice/sessions` | Creates a server-keyed set for `meaning`, `synonym`, `antonym`, `fill_blank`, `context`, `identify`, or `match`. |
+| POST | `/api/v1/vocabulary/practice/sessions/:token/answers` | Checks one displayed option and then returns the card explanation. |
+| GET | `/api/v1/vocabulary/progress/summary` | Authenticated daily target, learned/review counts and overall progress. |
+| PUT | `/api/v1/vocabulary/progress/settings` | Authenticated daily target (`10`, `15`, or `20`) and time zone. |
+| PATCH | `/api/v1/vocabulary/progress/words/:wordId` | Authenticated `learned`, `difficult`, or `favourite` state. |
+| GET | `/api/v1/vocabulary/progress/review?type=due\|missed` | Authenticated due or previously missed words. |
+| POST | `/api/v1/vocabulary/progress/review` | `{ wordId, known }`; correct intervals are 1/3/7/14/30 days, misses return tomorrow. |
+
+Vocabulary imports are UTF-8 JSONL: one complete learning card per line, with
+`word`, `meaningBn`, `definitionEn`, `partOfSpeech`, `synonyms`, `antonyms`,
+`exampleEn`, `exampleBn`, `difficulty`, `categories`, and optional
+`examRelevance`, `sources`, `collocations`, and `pronunciation`. Admins can
+`POST` multipart field `file` to `/api/v1/admin/vocabulary/import/preview`,
+then to `/import/commit`. Commit rejects the whole upload on invalid fields or
+duplicates and stores entries as drafts. Review drafts at
+`GET /api/v1/admin/vocabulary/drafts`; publish only after editorial review with
+`PATCH /api/v1/admin/vocabulary/words/:wordId/status` and
+`{ "status": "PUBLISHED" }`. `PYQ_VERIFIED` requires a year, question code,
+exam name, and HTTPS source hosted on a configured official commission domain.
+Unsourced entries remain visibly unverified and general practice.
+
+The starter set is intentionally small and unverified; it makes no claim that
+its words appeared in WBPSC/WBCS papers. To inspect the import without changes,
+run `npm run db:seed-vocabulary`. Applying it inserts the 12 starter cards as
+drafts (not public content): `npm run db:seed-vocabulary -- --apply`. Before
+deploying the new collections, run `npm run db:indexes`. The index update is
+additive; no existing collection is rewritten.
 
 ## Production notes
 

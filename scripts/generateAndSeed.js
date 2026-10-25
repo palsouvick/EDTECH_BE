@@ -233,6 +233,7 @@ function toDocument(body, subject, code, index, opts) {
     subtopic: tax.subtopic,
     concept_tags: [...new Set([...(body.concept_tags || []), ...tax.extraTags, primary.key.toLowerCase()])],
     status: 'PUBLISHED',
+    provenance: 'ORIGINAL_PRACTICE',
     version: 1,
     authored_by: AUTHOR,
   };

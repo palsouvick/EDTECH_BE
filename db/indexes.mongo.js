@@ -117,6 +117,72 @@ db.question_reports.createIndex(
   },
 );
 
+// ----------------------------------------------------------- vocabulary
+db.vocabulary_words.createIndex({ normalized_word: 1 }, { name: "uniq_vocabulary_word", unique: true });
+db.vocabulary_words.createIndex(
+  { status: 1, difficulty: 1, normalized_word: 1 },
+  { name: "published_vocabulary_level" },
+);
+db.vocabulary_words.createIndex(
+  { status: 1, categories: 1, normalized_word: 1 },
+  { name: "published_vocabulary_category" },
+);
+db.vocabulary_words.createIndex(
+  { status: 1, meaning_bn_normalized: 1 },
+  { name: "published_vocabulary_bengali" },
+);
+db.vocabulary_words.createIndex(
+  { status: 1, meaning_bn_tokens: 1 },
+  { name: "published_vocabulary_bengali_tokens" },
+);
+db.vocabulary_words.createIndex(
+  { import_batch_id: 1 },
+  {
+    name: "vocabulary_import_batch",
+    partialFilterExpression: { import_batch_id: { $type: "string" } },
+  },
+);
+db.vocabulary_progress.createIndex(
+  { user_id: 1, word_id: 1 },
+  { name: "uniq_vocabulary_user_word", unique: true },
+);
+db.vocabulary_progress.createIndex(
+  { user_id: 1, learned: 1, next_review_at: 1 },
+  { name: "vocabulary_user_due" },
+);
+db.vocabulary_progress.createIndex(
+  { user_id: 1, difficult: 1, favourite: 1, updated_at: -1 },
+  { name: "vocabulary_user_filters" },
+);
+db.vocabulary_settings.createIndex(
+  { user_id: 1 },
+  { name: "uniq_vocabulary_settings", unique: true },
+);
+db.vocabulary_daily_words.createIndex(
+  { user_id: 1, day: 1, word_id: 1 },
+  { name: "uniq_vocabulary_daily_word", unique: true },
+);
+db.vocabulary_daily_words.createIndex(
+  { user_id: 1, day: 1 },
+  { name: "vocabulary_daily_target" },
+);
+db.vocabulary_daily_activity.createIndex(
+  { user_id: 1, day: 1 },
+  { name: "uniq_vocabulary_daily_activity", unique: true },
+);
+db.vocabulary_daily_activity.createIndex(
+  { user_id: 1, day: -1 },
+  { name: "vocabulary_activity_history" },
+);
+db.vocabulary_practice_sessions.createIndex(
+  { token_hash: 1 },
+  { name: "uniq_vocabulary_session_token", unique: true },
+);
+db.vocabulary_practice_sessions.createIndex(
+  { expires_at: 1 },
+  { name: "vocabulary_session_expiry", expireAfterSeconds: 0 },
+);
+
 // ----------------------------------------------------- question import batches
 db.question_import_batches.createIndex({ created_at: -1 }, { name: "recent_import_batches" });
 

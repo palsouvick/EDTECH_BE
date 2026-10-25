@@ -17,6 +17,7 @@ const SubtopicSchema = new Schema(
   {
     code: { type: String, required: true, match: SLUG_RE },
     name: { type: LocalizedText, required: true, validate: hasAnyLanguage },
+    syllabus_status: { type: String, enum: ['UNVERIFIED', 'SUPPLEMENTARY'], default: 'UNVERIFIED' },
   },
   { _id: false },
 );
@@ -26,6 +27,7 @@ const TopicNodeSchema = new Schema(
     code: { type: String, required: true, match: SLUG_RE },
     name: { type: LocalizedText, required: true, validate: hasAnyLanguage },
     subtopics: { type: [SubtopicSchema], default: [] },
+    syllabus_status: { type: String, enum: ['UNVERIFIED', 'SUPPLEMENTARY'], default: 'UNVERIFIED' },
   },
   { _id: false },
 );

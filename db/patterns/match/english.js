@@ -80,7 +80,7 @@ module.exports = {
 
   error_spotting: {
     subject_verb_agreement: {
-      subtopics: ['subject_verb'],
+      subtopics: ['subject_verb_agreement'],
       stem: [/^Find the part of the sentence that has an error: '(?:Neither|Either|Each|One|Every) of\b/i],
     },
     uncountable_nouns: { subtopics: ['nouns'] },

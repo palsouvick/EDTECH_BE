@@ -235,6 +235,7 @@ function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {})
       correct_option_id: optionId(raw.correct_option_id),
       solution,
       ...(pyq && { pyq }),
+      provenance: pyq ? 'OFFICIAL_VERIFIED' : 'ORIGINAL_PRACTICE',
       status,
       authored_by: 'import:exam-style-json',
     },

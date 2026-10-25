@@ -15,6 +15,8 @@
     "admin:seed": "node --env-file-if-exists=.env scripts/seedAdmin.js",
     "db:indexes": "node --env-file-if-exists=.env -e \"require('node:child_process').execFileSync('mongosh',[process.env.MONGODB_URI,'db/indexes.mongo.js'],{stdio:'inherit'})\"",
     "db:duplicate-keys": "node --env-file-if-exists=.env scripts/backfillQuestionDuplicateKeys.js",
+    "db:question-provenance": "node --env-file-if-exists=.env scripts/backfillQuestionProvenance.js",
+    "db:seed-vocabulary": "node --env-file-if-exists=.env scripts/seedVocabularyStarter.js",
     "db:generate": "node --env-file-if-exists=.env scripts/generateAndSeed.js"
   },
   "dependencies": {

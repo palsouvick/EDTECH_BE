@@ -15,6 +15,22 @@ const { compactLocalized } = require('./presenters');
  * editors publish.
  */
 const cache = createTtlCache(5 * 60_000);
+const OFFICIAL_URL = '^https://([a-z0-9-]+\\.)*(psc\\.wb\\.gov\\.in|wbpsc\\.gov\\.in|ssc\\.gov\\.in|ssc\\.nic\\.in|ibps\\.in|sbi\\.co\\.in|bank\\.sbi|indiapost\\.gov\\.in|wbssc\\.gov\\.in|wbsc\\.gov\\.in)([:/?#]|$)';
+const WBPSC_EXAM = '^(WBCS\\b|WBPSC\\b|Clerkship\\b|Miscellaneous\\b)';
+const WBCS_EXAM = '^WBCS\\b';
+
+function countFor(value) {
+  return {
+    questionCount: value?.questions ?? 0,
+    pyqCount: value?.verifiedPyqs ?? 0,
+    verifiedPyqCount: value?.verifiedPyqs ?? 0,
+    wbcsPyqCount: value?.wbcsPyqs ?? 0,
+    otherWbpscPyqCount: value?.otherWbpscPyqs ?? 0,
+    adaptedPyqCount: value?.adaptedPyqs ?? 0,
+    originalPracticeCount: value?.originalPractice ?? 0,
+    unclassifiedCount: value?.unclassified ?? 0,
+  };
+}
 
 const loadCategories = () =>
   cache.get('categories', () => ExamCategory.find({ is_active: true }).sort({ display_order: 1 }).lean());
@@ -25,7 +41,7 @@ async function findCategory(code) {
   return cat;
 }
 
-/** Map "subject.topic" -> { questions, pyqs, avgDifficulty } for one category + language. */
+/** Map each topic and subtopic to distinct published-question provenance counts. */
 function topicCounts(category, language) {
   return cache.get(`counts:${category}:${language}`, async () => {
     const rows = await Question.aggregate([
@@ -37,16 +53,122 @@ function topicCounts(category, language) {
         },
       },
       {
+        $addFields: {
+          verifiedRefs: {
+            $filter: {
+              input: { $ifNull: ['$pyq.refs', []] },
+              as: 'ref',
+              cond: {
+                $and: [
+                  { $not: [{ $regexMatch: { input: { $ifNull: ['$$ref.question_code', ''] }, regex: '-SYN-', options: 'i' } }] },
+                  { $regexMatch: { input: { $ifNull: ['$$ref.source_url', ''] }, regex: OFFICIAL_URL, options: 'i' } },
+                  { $regexMatch: { input: { $ifNull: ['$$ref.answer_key_url', ''] }, regex: OFFICIAL_URL, options: 'i' } },
+                ],
+              },
+            },
+          },
+        },
+      },
+      {
+        $addFields: {
+          effectiveProvenance: {
+            $ifNull: [
+              '$provenance',
+              {
+                $switch: {
+                  branches: [
+                    { case: { $gt: [{ $size: '$verifiedRefs' }, 0] }, then: 'OFFICIAL_VERIFIED' },
+                    {
+                      case: {
+                        $or: [
+                          { $anyElementTrue: [{ $map: { input: { $ifNull: ['$pyq.refs', []] }, as: 'ref', in: { $regexMatch: { input: { $ifNull: ['$$ref.question_code', ''] }, regex: '-SYN-', options: 'i' } } } }] },
+                          { $eq: ['$authored_by', 'seed_generator'] },
+                          { $regexMatch: { input: { $ifNull: ['$authored_by', ''] }, regex: '^bulk-import:' } },
+                          { $eq: ['$authored_by', 'import:exam-style-json'] },
+                        ],
+                      },
+                      then: 'ORIGINAL_PRACTICE',
+                    },
+                  ],
+                  default: 'UNCLASSIFIED',
+                },
+              },
+            ],
+          },
+        },
+      },
+      {
         $group: {
-          _id: { subject: '$subject', topic: '$topic' },
+          _id: { subject: '$subject', topic: '$topic', subtopic: '$subtopic' },
           questions: { $sum: 1 },
-          // latest_pyq_year is set exactly when a question has PYQ refs, and it is an index key.
-          pyqs: { $sum: { $cond: [{ $isNumber: '$latest_pyq_year' }, 1, 0] } },
+          verifiedPyqs: { $sum: { $cond: [{ $gt: [{ $size: '$verifiedRefs' }, 0] }, 1, 0] } },
+          wbcsPyqs: {
+            $sum: {
+              $cond: [{
+                $gt: [{
+                  $size: {
+                    $filter: {
+                      input: '$verifiedRefs',
+                      as: 'ref',
+                      cond: { $regexMatch: { input: '$$ref.exam_name', regex: WBCS_EXAM, options: 'i' } },
+                    },
+                  },
+                }, 0],
+              }, 1, 0],
+            },
+          },
+          otherWbpscPyqs: {
+            $sum: {
+              $cond: [{
+                $gt: [{
+                  $size: {
+                    $filter: {
+                      input: '$verifiedRefs',
+                      as: 'ref',
+                      cond: {
+                        $and: [
+                          { $regexMatch: { input: '$$ref.exam_name', regex: WBPSC_EXAM, options: 'i' } },
+                          { $not: [{ $regexMatch: { input: '$$ref.exam_name', regex: WBCS_EXAM, options: 'i' } }] },
+                        ],
+                      },
+                    },
+                  },
+                }, 0],
+              }, 1, 0],
+            },
+          },
+          adaptedPyqs: { $sum: { $cond: [{ $eq: ['$effectiveProvenance', 'ADAPTED_PYQ'] }, 1, 0] } },
+          originalPractice: { $sum: { $cond: [{ $eq: ['$effectiveProvenance', 'ORIGINAL_PRACTICE'] }, 1, 0] } },
+          unclassified: { $sum: { $cond: [{ $eq: ['$effectiveProvenance', 'UNCLASSIFIED'] }, 1, 0] } },
           avgDifficulty: { $avg: '$difficulty' },
         },
       },
     ]);
-    return new Map(rows.map((r) => [`${r._id.subject}.${r._id.topic}`, r]));
+    const counts = new Map();
+    for (const row of rows) {
+      const topicKey = `${row._id.subject}.${row._id.topic}`;
+      const topicTotal = counts.get(topicKey) || {
+        questions: 0, verifiedPyqs: 0, wbcsPyqs: 0, otherWbpscPyqs: 0,
+        adaptedPyqs: 0, originalPractice: 0, unclassified: 0, difficultyTotal: 0,
+      };
+      topicTotal.questions += row.questions;
+      topicTotal.verifiedPyqs += row.verifiedPyqs;
+      topicTotal.wbcsPyqs += row.wbcsPyqs;
+      topicTotal.otherWbpscPyqs += row.otherWbpscPyqs;
+      topicTotal.adaptedPyqs += row.adaptedPyqs;
+      topicTotal.originalPractice += row.originalPractice;
+      topicTotal.unclassified += row.unclassified;
+      topicTotal.difficultyTotal += row.avgDifficulty * row.questions;
+      counts.set(topicKey, topicTotal);
+      if (row._id.subtopic) counts.set(`${topicKey}.${row._id.subtopic}`, row);
+    }
+    for (const value of counts.values()) {
+      if (value.difficultyTotal !== undefined) {
+        value.avgDifficulty = value.questions ? value.difficultyTotal / value.questions : null;
+        delete value.difficultyTotal;
+      }
+    }
+    return counts;
   });
 }
 
@@ -115,14 +237,15 @@ const presentExamDetail = (e) => ({
 });
 
 function subjectTotals(subject, counts) {
-  let questions = 0;
-  let pyqs = 0;
+  const totals = {
+    questions: 0, verifiedPyqs: 0, wbcsPyqs: 0, otherWbpscPyqs: 0,
+    adaptedPyqs: 0, originalPractice: 0, unclassified: 0,
+  };
   for (const t of subject.topics) {
     const c = counts.get(`${subject.code}.${t.code}`);
-    questions += c?.questions ?? 0;
-    pyqs += c?.pyqs ?? 0;
+    for (const key of Object.keys(totals)) totals[key] += c?.[key] ?? 0;
   }
-  return { questions, pyqs };
+  return totals;
 }
 
 async function listCategories(language) {
@@ -132,14 +255,18 @@ async function listCategories(language) {
     categories: await Promise.all(
       cats.map(async (c) => {
         const counts = await topicCounts(c.code, language);
-        const questionCount = c.subjects.reduce((n, s) => n + subjectTotals(s, counts).questions, 0);
+        const totals = c.subjects.reduce((acc, subject) => {
+          const subjectCount = subjectTotals(subject, counts);
+          for (const key of Object.keys(acc)) acc[key] += subjectCount[key];
+          return acc;
+        }, { questions: 0, verifiedPyqs: 0, wbcsPyqs: 0, otherWbpscPyqs: 0, adaptedPyqs: 0, originalPractice: 0, unclassified: 0 });
         return {
           code: c.code,
           name: compactLocalized(c.name),
           conductingBody: compactLocalized(c.conducting_body),
           exams: c.exams.filter((e) => e.is_active !== false).map(presentExam),
           subjectCount: c.subjects.length,
-          questionCount,
+          ...countFor(totals),
         };
       }),
     ),
@@ -165,7 +292,7 @@ async function getCategory(code, language) {
         name: compactLocalized(s.name),
         topicCount: s.topics.length,
         questionCount: totals.questions,
-        pyqCount: totals.pyqs,
+        ...countFor(totals),
       };
     }),
   };
@@ -186,11 +313,17 @@ async function getSubject(code, subjectCode, language) {
       return {
         code: t.code,
         name: compactLocalized(t.name),
-        questionCount: c?.questions ?? 0,
-        pyqCount: c?.pyqs ?? 0,
+        syllabusStatus: t.syllabus_status || 'UNVERIFIED',
+        ...countFor(c),
         avgDifficulty: c ? Math.round(c.avgDifficulty * 10) / 10 : null,
         difficulty: difficultyLevel(c?.avgDifficulty),
         hasSummary: summaries.has(`${subject.code}.${t.code}`),
+        subtopics: (t.subtopics || []).map((subtopic) => ({
+          code: subtopic.code,
+          name: compactLocalized(subtopic.name),
+          syllabusStatus: subtopic.syllabus_status || 'UNVERIFIED',
+          ...countFor(counts.get(`${subject.code}.${t.code}.${subtopic.code}`)),
+        })),
       };
     }),
   };
