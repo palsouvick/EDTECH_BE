@@ -59,6 +59,8 @@ The validator rejects items without a source. Students see "📰 date · Source"
 
 **Previous-year questions come from official papers only.** Each paper is a JSON file in `db/pyq/`, imported on startup. See [db/pyq/README.md](db/pyq/README.md) for the format and rules; the importer rejects any source that is not a commission's own website.
 
+**Profit & Loss Hard practice** uses the registry in [db/patterns/quant/profit_loss.js](db/patterns/quant/profit_loss.js) and its parameterized templates in [scripts/generators/profit_loss_hard.js](scripts/generators/profit_loss_hard.js). Startup tops up a separate pool of at least 100 validated questions through [scripts/seedProfitLossHard.js](scripts/seedProfitLossHard.js). These generated questions are always `ORIGINAL_PRACTICE`; the official Clerkship syllabus URL is recorded as pattern context, not as evidence that an item appeared in an exam. The Hard quiz uses a 2/5/3 difficulty mix (difficulty 3/4/5), at least seven patterns, at most two questions per pattern, and recent-pattern/fingerprint exclusions. Run `node --test test/profitLossHard.test.js test/learn.test.js` to validate the bank and selection rules.
+
 How it connects to the app:
 
 - **Topic codes:** generator topic codes are mapped onto catalogue codes by [src/services/taxonomy.js](src/services/taxonomy.js) (`speed_distance` → `time_speed_distance`, `prepositions` → `grammar/prepositions`, …), so every question shows up in the funnel. Each run also moves questions stored by earlier runs under the old codes. Nothing is deleted.

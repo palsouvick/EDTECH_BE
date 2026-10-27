@@ -35,6 +35,8 @@ const quizBody = z.object({
   level,
   // Ids this student has already seen at this level, so a repeat attempt gets new questions.
   exclude: z.array(objectId).max(500).default([]),
+  excludeFingerprints: z.array(z.string().regex(/^[a-f\d]{64}$/i)).max(500).default([]),
+  recentPatterns: z.array(slug).max(30).default([]),
 });
 router.post('/quiz', learnQuizLimiter, validate({ body: quizBody }), async (req, res) => {
   res.set('Cache-Control', 'no-store');

@@ -24,6 +24,7 @@ const { loadLessons } = require('../../db/lessons');
 const AppError = require('../utils/AppError');
 const { gradeAnswers } = require('./grading');
 const { PUBLIC_QUESTION_FIELDS, presentQuestion } = require('./presenters');
+const { registry: PROFIT_LOSS_PATTERNS } = require('../../db/patterns/quant/profit_loss');
 
 const SUBJECTS = [
   { code: 'quant', title: { en: 'Math', bn: 'গণিত', hi: 'गणित' }, emoji: '🔢' },
@@ -38,6 +39,8 @@ const QUIZ_SIZE = 10;
 const MIN_POOL = 2 * QUIZ_SIZE;
 const SECONDS_PER_ADVANCED_QUESTION = 60;
 const COUNTS_TTL_MS = 5 * 60_000;
+const PROFIT_LOSS_HARD_MIX = Object.freeze({ 3: 2, 4: 5, 5: 3 });
+const PROFIT_LOSS_PATTERN_IDS = PROFIT_LOSS_PATTERNS.map((pattern) => pattern.id);
 
 // Bengali is required: only questions available in both English and Bengali are served.
 const BILINGUAL_SETS = langSetsContaining('bn').filter((s) => s.split('_').includes('en'));
@@ -88,10 +91,11 @@ function clearLearnCache() {
 }
 
 /** Difficulties that make up each level's pool for one chapter, and the pool size. */
-function levelPools(counts = {}) {
+function levelPools(counts = {}, { subject, topic } = {}) {
   const sum = (ds) => ds.reduce((a, d) => a + (counts[d] || 0), 0);
   return LEVELS.map(({ level, difficulties, borrow, timed }) => {
-    const ds = sum(difficulties) < MIN_POOL ? [...borrow, ...difficulties] : difficulties;
+    const isProfitLossHard = subject === 'quant' && topic === 'profit_loss' && level === 'advanced';
+    const ds = isProfitLossHard ? [3, 4, 5] : sum(difficulties) < MIN_POOL ? [...borrow, ...difficulties] : difficulties;
     const count = sum(ds);
     return {
       level,
@@ -130,7 +134,7 @@ async function getSubject(subject) {
         emoji: lesson?.emoji ?? s.emoji,
         intro: lesson?.intro ?? null,
         hasLesson: Boolean(lesson),
-        levels: publicLevels(levelPools(counts[`${subject}.${topic}`])),
+        levels: publicLevels(levelPools(counts[`${subject}.${topic}`], { subject, topic })),
       };
     }),
   };
@@ -148,7 +152,7 @@ async function getChapter(subject, topic) {
     topic,
     title: TOPIC_TITLES[`${subject}.${topic}`],
     lesson: lessons().get(`${subject}.${topic}`) ?? null,
-    levels: publicLevels(levelPools(counts[`${subject}.${topic}`])),
+    levels: publicLevels(levelPools(counts[`${subject}.${topic}`], { subject, topic })),
     previous: neighbour(keys[i - 1]),
     next: neighbour(keys[i + 1]),
   };
@@ -171,19 +175,107 @@ async function sample(match, size) {
   return docs;
 }
 
-async function createQuiz({ subject, topic, level, exclude = [] }) {
+function selectHardProfitLoss(candidates, recentPatterns = []) {
+  const recent = new Map(recentPatterns.map((pattern, index) => [pattern, index]));
+  const fingerprintOf = (question) => question.duplicate_keys?.[0] ?? question.fingerprint ?? String(question._id);
+  const unique = new Map();
+  for (const question of candidates) {
+    if (!PROFIT_LOSS_PATTERN_IDS.includes(question.pattern)) continue;
+    const fingerprint = fingerprintOf(question);
+    if (!unique.has(fingerprint)) unique.set(fingerprint, question);
+  }
+
+  const selected = [];
+  const selectedFingerprints = new Set();
+  const perPattern = new Map();
+  for (const [difficulty, quota] of Object.entries(PROFIT_LOSS_HARD_MIX)) {
+    const byPattern = new Map();
+    for (const question of unique.values()) {
+      if (question.difficulty !== Number(difficulty)) continue;
+      if (!byPattern.has(question.pattern)) byPattern.set(question.pattern, []);
+      byPattern.get(question.pattern).push(question);
+    }
+    const groups = [...byPattern.entries()].sort(([a], [b]) => {
+      const recentA = recent.has(a) ? recent.get(a) : -1;
+      const recentB = recent.has(b) ? recent.get(b) : -1;
+      return recentA - recentB || a.localeCompare(b);
+    });
+    for (const [, questions] of groups) {
+      for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+      }
+    }
+
+    let remaining = quota;
+    while (remaining > 0) {
+      let added = 0;
+      for (const [pattern, questions] of groups) {
+        if (remaining === 0) break;
+        if ((perPattern.get(pattern) || 0) >= 2) continue;
+        const next = questions.find((question) => !selectedFingerprints.has(fingerprintOf(question)));
+        if (!next) continue;
+        selected.push(next);
+        selectedFingerprints.add(fingerprintOf(next));
+        perPattern.set(pattern, (perPattern.get(pattern) || 0) + 1);
+        remaining -= 1;
+        added += 1;
+      }
+      if (!added) break;
+    }
+  }
+
+  const distinctPatterns = new Set(selected.map((question) => question.pattern));
+  if (
+    selected.length !== QUIZ_SIZE ||
+    distinctPatterns.size < 7 ||
+    [...perPattern.values()].some((count) => count > 2) ||
+    Object.entries(PROFIT_LOSS_HARD_MIX).some(([difficulty, quota]) =>
+      selected.filter((question) => question.difficulty === Number(difficulty)).length !== quota)
+  ) return [];
+  return selected;
+}
+
+async function profitLossHardCandidates(match, excludedIds = [], excludedFingerprints = []) {
+  return Question.find({
+    ...match,
+    difficulty: { $in: Object.keys(PROFIT_LOSS_HARD_MIX).map(Number) },
+    pattern: { $in: PROFIT_LOSS_PATTERN_IDS },
+    ...(excludedIds.length && { _id: { $nin: excludedIds } }),
+    ...(excludedFingerprints.length && { duplicate_keys: { $nin: excludedFingerprints } }),
+  }).select(PUBLIC_QUESTION_FIELDS).lean();
+}
+
+async function createQuiz({ subject, topic, level, exclude = [], excludeFingerprints = [], recentPatterns = [] }) {
   topicOr404(subject, topic);
-  const pool = levelPools((await difficultyCounts())[`${subject}.${topic}`]).find((p) => p.level === level);
+  const pool = levelPools((await difficultyCounts())[`${subject}.${topic}`], { subject, topic }).find((p) => p.level === level);
   if (!pool.count) throw AppError.unprocessable('NO_QUESTIONS', 'This level has no questions yet');
 
   const match = { ...baseFilter(subject, topic), difficulty: { $in: pool.difficulties } };
   const seen = exclude.map((id) => new mongoose.Types.ObjectId(id));
-  const fresh = await sample({ ...match, _id: { $nin: seen } }, QUIZ_SIZE);
-  // Every question seen already: start the cycle again, still avoiding repeats within this quiz.
-  const restarted = fresh.length < Math.min(QUIZ_SIZE, pool.count);
-  const refill = restarted ? await sample({ ...match, _id: { $nin: fresh.map((q) => q._id) } }, QUIZ_SIZE - fresh.length) : [];
+  const isProfitLossHard = subject === 'quant' && topic === 'profit_loss' && level === 'advanced';
+  let selected;
+  let restarted = false;
+  if (isProfitLossHard) {
+    const freshCandidates = await profitLossHardCandidates(match, seen, excludeFingerprints);
+    selected = selectHardProfitLoss(freshCandidates, recentPatterns);
+    if (!selected.length) {
+      restarted = true;
+      const allCandidates = await profitLossHardCandidates(match);
+      selected = selectHardProfitLoss(allCandidates, recentPatterns);
+    }
+    if (!selected.length) {
+      throw AppError.unprocessable('HARD_POOL_NOT_READY', 'Profit & Loss Hard requires 10 validated questions across at least 7 patterns; the hard bank is not ready yet');
+    }
+  } else {
+    const fresh = await sample({ ...match, _id: { $nin: seen } }, QUIZ_SIZE);
+    // Every question seen already: start the cycle again, still avoiding repeats within this quiz.
+    restarted = fresh.length < Math.min(QUIZ_SIZE, pool.count);
+    const refill = restarted ? await sample({ ...match, _id: { $nin: fresh.map((q) => q._id) } }, QUIZ_SIZE - fresh.length) : [];
+    selected = [...fresh, ...refill];
+  }
 
-  const questions = shuffle([...fresh, ...refill]).map((q, i) => {
+  const questions = shuffle(selected).map((q, i) => {
     const p = presentQuestion(q, { index: i + 1 });
     return { ...p, options: shuffle(p.options) };
   });
@@ -204,4 +296,15 @@ async function checkQuiz({ subject, topic, answers }, userId) {
   return { subject, topic, results, score };
 }
 
-module.exports = { SUBJECTS, QUIZ_SIZE, listSubjects, getSubject, getChapter, createQuiz, checkQuiz, levelPools, clearLearnCache };
+module.exports = {
+  SUBJECTS,
+  QUIZ_SIZE,
+  listSubjects,
+  getSubject,
+  getChapter,
+  createQuiz,
+  checkQuiz,
+  levelPools,
+  selectHardProfitLoss,
+  clearLearnCache,
+};

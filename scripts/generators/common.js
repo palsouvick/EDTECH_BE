@@ -53,7 +53,7 @@ const newOid = () => `opt_${((rand() * 0x100000000) >>> 0).toString(16).padStart
  * correct / wrong[i] are { en, bn } (wrong[i].trap optional { en, bn } note).
  * Returns null when options collide, so callers can simply retry.
  */
-function build({ topic, subtopic, tags = [], difficulty, time = 60, stem, correct, wrong, steps, shortcut, traps = [] }) {
+function build({ topic, subtopic, pattern, tags = [], difficulty, time = 60, stem, correct, wrong, steps, shortcut, traps = [] }) {
   if (wrong.length < 2 || wrong.length > 3) return null;
   const all = [correct, ...wrong];
   const enSet = new Set(all.map((o) => o.en));
@@ -78,6 +78,7 @@ function build({ topic, subtopic, tags = [], difficulty, time = 60, stem, correc
   return {
     topic,
     subtopic,
+    ...(pattern && { pattern }),
     concept_tags: tags,
     difficulty,
     expected_time_sec: time,

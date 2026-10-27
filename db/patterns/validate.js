@@ -102,6 +102,26 @@ function validatePatterns(doc, file = '') {
     if (!(t.explanation?.length >= 2)) errors.push(`${w}: tryIt needs at least 2 explanation steps`);
     (t.explanation || []).forEach((s, j) => checkText(s, `${w} tryIt explanation ${j + 1}`, errors));
   });
+
+  if (doc.registry !== undefined) {
+    if (doc.subject === 'quant' && doc.topic === 'profit_loss' && doc.registry.length !== 15) {
+      errors.push(`${at}: Profit & Loss registry must contain exactly 15 patterns`);
+    }
+    const ids = new Set();
+    doc.registry.forEach((pattern, i) => {
+      const where = `${at} registry ${i + 1}`;
+      if (!/^[a-z0-9_]+$/.test(pattern.id || '')) errors.push(`${where}: id must be snake_case`);
+      if (ids.has(pattern.id)) errors.push(`${where}: duplicate id`);
+      ids.add(pattern.id);
+      if (![1, 2, 3, 4, 5].includes(pattern.difficulty)) errors.push(`${where}: difficulty must be an integer from 1 to 5`);
+      if (!Array.isArray(pattern.concepts) || pattern.concepts.length < 2 || pattern.concepts.some((concept) => typeof concept !== 'string' || !concept.trim())) {
+        errors.push(`${where}: at least two concepts are required`);
+      }
+      if (typeof pattern.generationRule !== 'string' || !pattern.generationRule.trim()) errors.push(`${where}: generationRule is required`);
+      if (typeof pattern.solutionMethod !== 'string' || !pattern.solutionMethod.trim()) errors.push(`${where}: solutionMethod is required`);
+      checkText(pattern.name, `${where} name`, errors);
+    });
+  }
   return errors;
 }
 

@@ -101,8 +101,10 @@ async function seedQuestionBank() {
     const generator = require('../../scripts/generateAndSeed');
     log(`topping every chapter up to ${perTopic} generated questions`);
     const totals = await generator.main(generator.parseArgs(['--per-topic', String(perTopic)]), { embedded: true });
+    const hardPool = await require('../../scripts/seedProfitLossHard').ensureHardProfitLossQuestions();
     await state.updateOne({ _id: 'question_bank' }, { $set: { perTopic, fingerprint, at: new Date(), inserted: totals.inserted } }, { upsert: true });
     log(`question bank ready: ${totals.inserted} new questions`);
+    log(`Profit & Loss hard bank ready: ${hardPool.total} questions (${hardPool.inserted} new)`);
   } finally {
     await locks.deleteOne({ _id: LOCK_ID });
   }

@@ -14,6 +14,7 @@ const { Question } = require('../src/models');
 const statsBuffer = require('../src/services/questionStats.buffer');
 const { clearLearnCache, levelPools } = require('../src/services/learn.service');
 const { convertExamStyleQuestion } = require('../src/services/importers/examStyleJson');
+const { ensureHardProfitLossQuestions } = require('../scripts/seedProfitLossHard');
 const samples = require('../db/seed/pyq-sample-25.json');
 
 let mongod;
@@ -46,6 +47,7 @@ test.before(async () => {
     // English only: never served, Bengali is required.
     ...percentageQuestions(3, 1, 'en-only').map((q) => ({ ...q, stem: { en: q.stem.en } })),
   ]);
+  await ensureHardProfitLossQuestions();
   clearLearnCache();
   server = createApp().listen(0);
   base = `http://127.0.0.1:${server.address().port}/api/v1/learn`;
@@ -65,11 +67,18 @@ test('levels borrow easier questions when a level is thin', () => {
   assert.deepEqual([advanced.difficulties, advanced.count, advanced.timed, advanced.timeLimitSec], [[3, 4, 5], 5, true, 300]);
 });
 
+test('Profit & Loss Hard keeps its intended difficulty band without easier fallback', () => {
+  const hard = levelPools({ 1: 40, 2: 30, 3: 5, 4: 1 }, { subject: 'quant', topic: 'profit_loss' })
+    .find((pool) => pool.level === 'advanced');
+  assert.deepEqual(hard.difficulties, [3, 4, 5]);
+  assert.equal(hard.count, 6);
+});
+
 test('GET /subjects: Math and English', async () => {
   const { status, body } = await call('/subjects');
   assert.equal(status, 200);
   assert.deepEqual(body.data.subjects.map((s) => s.code), ['quant', 'english']);
-  assert.equal(body.data.subjects[0].questionCount, 30, 'English-only questions are not counted');
+  assert.equal(body.data.subjects[0].questionCount, 130, 'English-only questions are not counted');
 });
 
 test('GET /subjects/:subject lists every chapter with level counts', async () => {
@@ -109,6 +118,30 @@ test('advanced quiz is timed', async () => {
   const quiz = (await call('/quiz', { subject: 'quant', topic: 'percentage', level: 'advanced' })).body.data;
   assert.equal(quiz.questions.length, 5);
   assert.deepEqual([quiz.timed, quiz.timeLimitSec], [true, 300]);
+});
+
+test('Profit & Loss Hard quiz uses 2/5/3 difficulty mix, seven patterns, and fresh fingerprints', async () => {
+  const first = (await call('/quiz', { subject: 'quant', topic: 'profit_loss', level: 'advanced' })).body.data;
+  assert.equal(first.questions.length, 10);
+  assert.deepEqual(
+    first.questions.reduce((counts, question) => ((counts[question.difficulty] = (counts[question.difficulty] || 0) + 1), counts), {}),
+    { 3: 2, 4: 5, 5: 3 },
+  );
+  const patterns = first.questions.map((question) => question.pattern);
+  assert.ok(new Set(patterns).size >= 7);
+  assert.ok(patterns.every((pattern) => patterns.filter((candidate) => candidate === pattern).length <= 2));
+  assert.ok(first.questions.every((question) => question.fingerprint && question.patternName?.bn && question.provenance === 'ORIGINAL_PRACTICE'));
+
+  const second = (await call('/quiz', {
+    subject: 'quant',
+    topic: 'profit_loss',
+    level: 'advanced',
+    exclude: first.questions.map((question) => question.questionId),
+    excludeFingerprints: first.questions.map((question) => question.fingerprint),
+    recentPatterns: patterns,
+  })).body.data;
+  assert.equal(second.restarted, false);
+  assert.ok(second.questions.every((question) => !first.questions.some((prior) => prior.fingerprint === question.fingerprint)));
 });
 
 test('check: marks every answer and returns explanations, skipped ones count as wrong', async () => {

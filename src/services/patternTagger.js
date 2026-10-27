@@ -47,7 +47,10 @@ function classify(chapterRules, q) {
 
 /** Rule keys must be real pattern keys of that chapter. Returns a list of problems. */
 function checkRules(rules = loadRules()) {
-  const known = new Map(loadPatterns().map(({ doc }) => [`${doc.subject}.${doc.topic}`, new Set(doc.patterns.map((p) => p.key))]));
+  const known = new Map(loadPatterns().map(({ doc }) => [
+    `${doc.subject}.${doc.topic}`,
+    new Set([...doc.patterns.map((p) => p.key), ...(doc.registry || []).map((p) => p.id)]),
+  ]));
   const problems = [];
   for (const [subject, chapters] of Object.entries(rules)) {
     for (const [topic, byKey] of Object.entries(chapters)) {
