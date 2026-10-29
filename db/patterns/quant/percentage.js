@@ -492,4 +492,6 @@ module.exports = {
       },
     },
   ],
+  // Hard-bank pattern matrix (Advanced quizzes): see ./hard/percentage.js.
+  registry: require('./hard/percentage'),
 };

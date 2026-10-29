@@ -119,6 +119,11 @@ db.question_reports.createIndex(
 
 // ----------------------------------------------------------- vocabulary
 db.vocabulary_words.createIndex({ normalized_word: 1 }, { name: "uniq_vocabulary_word", unique: true });
+// Admin queue: published words whose Bengali still needs review, most important first.
+db.vocabulary_words.createIndex(
+  { status: 1, "bengali_review.status": 1, review_priority: -1 },
+  { name: "vocabulary_bengali_review_queue" },
+);
 db.vocabulary_words.createIndex(
   { status: 1, difficulty: 1, normalized_word: 1 },
   { name: "published_vocabulary_level" },
@@ -200,6 +205,12 @@ db.exam_cutoffs.createIndex(
 
 // -------------------------------------------------------------------- users
 db.users.createIndex({ email: 1 }, { name: "uniq_email", unique: true });
+// Partial, so accounts without a mobile number do not collide on a missing value.
+// Existing data must be free of duplicates first: npm run db:check-mobile-index.
+db.users.createIndex(
+  { mobile: 1 },
+  { name: "uniq_mobile", unique: true, partialFilterExpression: { mobile: { $type: "string" } } },
+);
 
 // --------------------------------------------------------- practice_attempts
 // "My performance": per-user totals by topic, and recent activity for the streak.

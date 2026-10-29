@@ -17,6 +17,7 @@ const { loadPatterns } = require('../../db/patterns');
 const { PracticeAttempt, MockSession, Question, ReviewItem, User, UserBadge, DailyChallengeResult } = require('../models');
 const { subjectName, topicName } = require('./catalogNames');
 const { getPerformance } = require('./performance.service');
+const { HARD_BANKS } = require('./hardBanks');
 
 const RECENT = 30; // answers per chapter that count for its mastery
 const MIN_FOR_STATUS = 5;
@@ -59,6 +60,10 @@ function patternName(subject, topic, key) {
   if (!patternNames) {
     patternNames = new Map();
     for (const { doc } of loadPatterns()) for (const p of doc.patterns) patternNames.set(`${doc.subject}.${doc.topic}.${p.key}`, { name: p.name, emoji: p.emoji });
+    // Hard-bank patterns (Advanced quizzes) are named in their matrices.
+    for (const bank of Object.values(HARD_BANKS)) {
+      for (const p of bank.registry) patternNames.set(`${bank.subject}.${bank.topic}.${p.id}`, { name: p.name, emoji: null });
+    }
   }
   return patternNames.get(`${subject}.${topic}.${key}`) ?? null;
 }

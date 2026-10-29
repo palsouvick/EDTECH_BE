@@ -21,17 +21,11 @@ const createSessionBody = z
     // Per-question mode: seconds each question gets (e.g. 45). Overrides the even split of timeLimitMinutes.
     perQuestionSeconds: z.number().int().min(10).max(600).optional(),
     allowPause: z.boolean().default(false),
-    markingScheme: z
-      .object({
-        positive: z.number().positive().max(10),
-        negative: z.number().min(0).max(10),
-      })
-      .default({ positive: 1, negative: 0.25 }),
+    // Exam whose official marking applies (e.g. "WBPSC_CLERKSHIP"). Optional: the server
+    // picks the category's default. Marks are never taken from the client; an old
+    // client's `markingScheme` field is stripped (see services/markingScheme.js).
+    examCode: z.string().regex(/^[A-Z][A-Z0-9_]{1,39}$/).optional(),
     language: language.default('en'),
-  })
-  .refine((b) => b.markingScheme.negative <= b.markingScheme.positive, {
-    path: ['markingScheme', 'negative'],
-    message: 'negative marks cannot exceed positive marks',
   })
   .transform((b) =>
     b.perQuestionTimer && b.perQuestionSeconds && b.timeLimitMinutes === undefined

@@ -10,7 +10,7 @@ const {
   VocabularyPracticeSession,
 } = require('../models');
 const AppError = require('../utils/AppError');
-const { isDictionarySource, parseEntry } = require('./vocabularyImport');
+const { isDictionarySource, parseEntry, normalize, tokens } = require('./vocabularyImport');
 
 const REVIEW_INTERVALS = Object.freeze([1, 3, 7, 14, 30]);
 const SESSION_TTL_MS = 24 * 60 * 60 * 1000;
@@ -29,8 +29,17 @@ function presentWord(word, progress) {
     explanationBn: word.explanation_bn || null,
     partOfSpeech: word.part_of_speech,
     pronunciation: word.pronunciation || null,
+    // CMUDICT = derived from the CMU Pronouncing Dictionary (US English); shown with credit.
+    pronunciationSource: word.pronunciation_source || null,
     synonyms: word.synonyms,
+    nearSynonyms: word.near_synonyms || [],
     antonyms: word.antonyms,
+    confusables: (word.confusables || []).map((c) => ({ word: c.word, noteEn: c.note_en || null, noteBn: c.note_bn || null })),
+    // Students see whether a person has checked the Bengali meaning, never who did.
+    bengaliReview: {
+      status: word.bengali_review?.status || 'PENDING',
+      reviewedAt: word.bengali_review?.status === 'REVIEWED' ? word.bengali_review.reviewed_at || null : null,
+    },
     exampleEn: word.example_en,
     exampleBn: word.example_bn,
     collocations: word.collocations,
@@ -421,6 +430,7 @@ async function answerPractice({ token, questionId, selectedOptionId, userId }) {
       exampleBn: word.example_bn,
       synonyms: word.synonyms,
       antonyms: word.antonyms,
+      bengaliReview: { status: word.bengali_review?.status || 'PENDING' },
     },
   };
 }
@@ -515,7 +525,130 @@ async function setWordStatus(wordId, status, reviewedBy, sourceStatus) {
   return presentWord(word);
 }
 
+// ------------------------------------------------------------------ Bengali review (admin)
+
+const EDITABLE = Object.freeze({
+  meaningBn: 'meaning_bn',
+  explanationBn: 'explanation_bn',
+  definitionEn: 'definition_en',
+  exampleEn: 'example_en',
+  exampleBn: 'example_bn',
+});
+const BENGALI_FIELDS = new Set(['meaning_bn', 'explanation_bn', 'example_bn']);
+const HISTORY_LIMIT = 20;
+const IN_BANK = { $in: ['PUBLISHED', 'DRAFT'] };
+
+function presentForReview(word) {
+  return {
+    ...presentWord(word),
+    status: word.status,
+    authoredBy: word.authored_by || null,
+    reviewPriority: word.review_priority ?? 0,
+    bengaliReview: {
+      status: word.bengali_review?.status || 'PENDING',
+      reviewedBy: word.bengali_review?.reviewed_by || null,
+      reviewedAt: word.bengali_review?.reviewed_at || null,
+    },
+    lexicalChecks: word.lexical_checks ? {
+      wordnetFound: word.lexical_checks.wordnet_found ?? null,
+      confirmedSynonyms: word.lexical_checks.confirmed_synonyms || [],
+      confirmedAntonyms: word.lexical_checks.confirmed_antonyms || [],
+      unconfirmed: word.lexical_checks.unconfirmed || [],
+    } : null,
+    editHistory: (word.edit_history || []).map((e) => ({ at: e.at, by: e.by, changes: e.changes.map(({ field, from, to }) => ({ field, from, to })) })),
+  };
+}
+
+/** Bengali review queue: most important words first (official exam words, commonly tested, frequent). */
+async function bengaliReviewQueue({ status = 'PENDING', q, offset = 0, limit = 20 }) {
+  const filter = { status: IN_BANK, 'bengali_review.status': status === 'PENDING' ? { $ne: 'REVIEWED' } : 'REVIEWED' };
+  if (q) filter.normalized_word = { $regex: `^${escapeRegex(q.normalize('NFKC').trim().toLowerCase())}` };
+  const [words, total, pending, reviewed] = await Promise.all([
+    VocabularyWord.find(filter).sort({ review_priority: -1, normalized_word: 1 }).skip(offset).limit(limit).lean(),
+    VocabularyWord.countDocuments(filter),
+    VocabularyWord.countDocuments({ status: IN_BANK, 'bengali_review.status': { $ne: 'REVIEWED' } }),
+    VocabularyWord.countDocuments({ status: IN_BANK, 'bengali_review.status': 'REVIEWED' }),
+  ]);
+  return { words: words.map(presentForReview), total, offset, limit, counts: { pending, reviewed } };
+}
+
+/** The stored word as an import entry, so an edit is checked by the same rules as an import. */
+function asImportEntry(word) {
+  return {
+    word: word.word,
+    meaningBn: word.meaning_bn,
+    definitionEn: word.definition_en,
+    ...(word.explanation_bn && { explanationBn: word.explanation_bn }),
+    partOfSpeech: word.part_of_speech,
+    synonyms: word.synonyms || [],
+    nearSynonyms: word.near_synonyms || [],
+    antonyms: word.antonyms || [],
+    forms: word.forms || [],
+    confusables: (word.confusables || []).map((c) => ({ word: c.word, noteEn: c.note_en, noteBn: c.note_bn })),
+    exampleEn: word.example_en,
+    exampleBn: word.example_bn,
+    collocations: word.collocations || [],
+    difficulty: word.difficulty,
+    categories: word.categories,
+  };
+}
+
+/**
+ * An administrator corrects the meaning, explanation or examples. Each change is kept in
+ * edit_history (old and new value, who, when). With markReviewed the Bengali review is
+ * completed in the same step; otherwise changing Bengali text on a reviewed word returns
+ * it to PENDING, because the new text has not been reviewed.
+ */
+async function editWordContent(wordId, changes, adminEmail, { markReviewed = false } = {}) {
+  const current = await VocabularyWord.findById(wordId).lean();
+  if (!current) throw AppError.notFound('VOCABULARY_WORD_NOT_FOUND', 'Vocabulary word not found');
+  const set = {};
+  const diff = [];
+  for (const [input, field] of Object.entries(EDITABLE)) {
+    if (changes[input] === undefined) continue;
+    const value = changes[input].trim();
+    if (value === (current[field] || '')) continue;
+    set[field] = value;
+    diff.push({ field, from: current[field] || '', to: value });
+  }
+  if (diff.length) {
+    const { errors } = parseEntry(asImportEntry({ ...current, ...set }), 'edit');
+    const edited = new Set(Object.keys(changes));
+    const relevant = errors.filter((e) => edited.has(e.field) || e.code === 'EXAMPLE_MISSING_WORD');
+    if (relevant.length) throw AppError.unprocessable('VOCABULARY_EDIT_INVALID', relevant[0].message, { errors: relevant });
+    if (set.meaning_bn) {
+      set.meaning_bn_normalized = normalize(set.meaning_bn);
+      set.meaning_bn_tokens = tokens(set.meaning_bn);
+    }
+  }
+  if (!diff.length && !markReviewed) return presentForReview(current);
+  const update = { $set: set };
+  if (diff.length) update.$push = { edit_history: { $each: [{ at: new Date(), by: adminEmail, changes: diff }], $slice: -HISTORY_LIMIT } };
+  if (markReviewed) {
+    Object.assign(set, { 'bengali_review.status': 'REVIEWED', 'bengali_review.reviewed_by': adminEmail, 'bengali_review.reviewed_at': new Date() });
+  } else if (diff.some((d) => BENGALI_FIELDS.has(d.field)) && current.bengali_review?.status === 'REVIEWED') {
+    set['bengali_review.status'] = 'PENDING';
+    update.$unset = { 'bengali_review.reviewed_by': '', 'bengali_review.reviewed_at': '' };
+  }
+  const word = await VocabularyWord.findByIdAndUpdate(wordId, update, { returnDocument: 'after', runValidators: true }).lean();
+  return presentForReview(word);
+}
+
+/** Mark a word's Bengali text reviewed (recording who and when), or send it back to pending. */
+async function setBengaliReview(wordId, status, adminEmail) {
+  const update = status === 'REVIEWED'
+    ? { $set: { 'bengali_review.status': 'REVIEWED', 'bengali_review.reviewed_by': adminEmail, 'bengali_review.reviewed_at': new Date() } }
+    : { $set: { 'bengali_review.status': 'PENDING' }, $unset: { 'bengali_review.reviewed_by': '', 'bengali_review.reviewed_at': '' } };
+  const word = await VocabularyWord.findByIdAndUpdate(wordId, update, { returnDocument: 'after' }).lean();
+  if (!word) throw AppError.notFound('VOCABULARY_WORD_NOT_FOUND', 'Vocabulary word not found');
+  return presentForReview(word);
+}
+
 module.exports = {
+  bengaliReviewQueue,
+  editWordContent,
+  setBengaliReview,
+  presentForReview,
   REVIEW_INTERVALS,
   dayKey,
   listWords,

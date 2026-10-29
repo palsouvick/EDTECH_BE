@@ -15,6 +15,7 @@ const { createApp } = require('../src/app');
 const { Question, ReviewItem } = require('../src/models');
 const statsBuffer = require('../src/services/questionStats.buffer');
 const { endOfLocalDay } = require('../src/services/review.service');
+const { signToken } = require('../src/services/signedToken');
 const { convertExamStyleQuestion } = require('../src/services/importers/examStyleJson');
 const samples = require('../db/seed/pyq-sample-25.json');
 
@@ -138,7 +139,9 @@ test('bookmarks join the queue; un-bookmarking removes them unless they were mis
 test('Learn Basics quiz mistakes are queued too; everything needs sign-in', async () => {
   const q2doc = await Question.findById(q2).select('+correct_option_id').lean();
   const wrong2 = q2doc.options.find((o) => o.oid !== q2doc.correct_option_id).oid;
-  await api('POST', '/learn/quiz/check', { subject: q2doc.subject, topic: q2doc.topic, answers: [{ questionId: q2, selectedOptionId: wrong2 }] });
+  // Checking needs the token a real quiz carries; mint one for exactly this question.
+  const quizToken = signToken('learn-quiz', { s: q2doc.subject, t: q2doc.topic, q: [String(q2)] }, 600);
+  await api('POST', '/learn/quiz/check', { subject: q2doc.subject, topic: q2doc.topic, quizToken, answers: [{ questionId: q2, selectedOptionId: wrong2 }] });
   await settle();
   const item = await ReviewItem.findOne({ user_id: 'student_r', question_id: q2 }).lean();
   assert.deepEqual([item.from_mistake, item.last_wrong_source], [true, 'learn']);

@@ -23,6 +23,7 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 const { Question } = require('../models');
 const { loadPatterns } = require('../../db/patterns');
+const { hardBankFor } = require('./hardBanks');
 
 const MATCH_DIR = path.join(__dirname, '../../db/patterns/match');
 
@@ -78,7 +79,13 @@ async function tagAll({ rules = loadRules(), write = true } = {}) {
       const ops = [];
       const counts = {};
       const untagged = [];
+      const bank = hardBankFor(subject, topic);
       for (const q of qs) {
+        // Hard-bank questions carry their matrix pattern from the generator; rules never override it.
+        if (bank?.byId.has(q.pattern)) {
+          counts[q.pattern] = (counts[q.pattern] || 0) + 1;
+          continue;
+        }
         const key = classify(chapterRules, q);
         counts[key ?? '(none)'] = (counts[key ?? '(none)'] || 0) + 1;
         if (!key && untagged.length < 5) untagged.push(q.stem?.en?.slice(0, 120));

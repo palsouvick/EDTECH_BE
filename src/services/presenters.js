@@ -2,8 +2,8 @@
 
 const { LANGUAGES } = require('../models/constants');
 const { pickLanguage } = require('../models/schemas/localized');
-const { registry: PROFIT_LOSS_PATTERNS } = require('../../db/patterns/quant/profit_loss');
-const PROFIT_LOSS_BY_ID = new Map(PROFIT_LOSS_PATTERNS.map((pattern) => [pattern.id, pattern]));
+const { isVerifiedPaperRef } = require('./questionProvenance');
+const { hardPattern } = require('./hardBanks');
 const DIFFICULTY_LABELS = {
   1: { en: 'Easy', bn: 'সহজ' },
   2: { en: 'Easy', bn: 'সহজ' },
@@ -27,7 +27,7 @@ function compactLocalized(value) {
 
 /** Fields the exam-facing read needs. Contains nothing that reveals the answer. */
 const PUBLIC_QUESTION_FIELDS =
-  'code subject topic subtopic difficulty pattern provenance source_reference lang_set stem options media pyq.is_pyq pyq.refs.exam_name pyq.refs.year pyq.refs.shift pyq.refs.tier +duplicate_keys';
+  'code subject topic subtopic difficulty pattern provenance source_reference lang_set stem options media pyq.is_pyq pyq.refs.exam_name pyq.refs.year pyq.refs.shift pyq.refs.tier pyq.refs.question_code pyq.refs.source_url pyq.refs.answer_key_url +duplicate_keys';
 
 /**
  * Questions keep every available language so the client can toggle language
@@ -42,7 +42,10 @@ function presentQuestion(q, extra = {}) {
     difficulty: q.difficulty,
     difficultyLabel: DIFFICULTY_LABELS[q.difficulty] ?? null,
     pattern: q.pattern ?? null,
-    patternName: PROFIT_LOSS_BY_ID.get(q.pattern)?.name ?? null,
+    patternName: hardPattern(q.topic, q.pattern)?.name ?? null,
+    // Hard-bank patterns say whether they are inside the WBPSC Clerkship Part-I syllabus;
+    // null for questions without that information.
+    inClerkshipSyllabus: hardPattern(q.topic, q.pattern)?.clerkship ?? null,
     fingerprint: q.duplicate_keys?.[0] ?? null,
     provenance: q.provenance ?? 'UNCLASSIFIED',
     sourceReference: q.source_reference ?? null,
@@ -50,8 +53,10 @@ function presentQuestion(q, extra = {}) {
     stem: compactLocalized(q.stem),
     media: (q.media || []).map((m) => ({ url: m.url, kind: m.kind, alt: compactLocalized(m.alt) })),
     options: q.options.map((o) => ({ optionId: o.oid, text: compactLocalized(o.text) })),
+    // Students see a PYQ badge only for a reference backed by the commission's own
+    // paper and answer key (see questionProvenance.js); other refs stay editor-only.
     pyq: q.pyq?.is_pyq
-      ? q.pyq.refs.map((r) => ({ examName: r.exam_name, year: r.year, tier: r.tier ?? null, shift: r.shift ?? null }))
+      ? q.pyq.refs.filter(isVerifiedPaperRef).map((r) => ({ examName: r.exam_name, year: r.year, tier: r.tier ?? null, shift: r.shift ?? null, sourceUrl: r.source_url }))
       : [],
   };
 }

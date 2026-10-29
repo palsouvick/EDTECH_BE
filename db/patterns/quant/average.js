@@ -179,4 +179,6 @@ module.exports = {
       },
     },
   ],
+  // Hard-bank pattern matrix (Advanced quizzes): see ./hard/average.js.
+  registry: require('./hard/average'),
 };

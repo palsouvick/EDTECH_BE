@@ -182,4 +182,6 @@ module.exports = {
       },
     },
   ],
+  // Hard-bank pattern matrix (Advanced quizzes): see ./hard/ratio_proportion.js.
+  registry: require('./hard/ratio_proportion'),
 };

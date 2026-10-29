@@ -1,15 +1,27 @@
 'use strict';
 
-const env = process.env.NODE_ENV || 'development';
+// NODE_ENV must be stated. A missing value is treated as production (the safe
+// choice: no dev shortcuts, AUTH_SECRET required); an unknown value stops startup.
+const KNOWN_ENVS = ['development', 'test', 'production'];
+const env = process.env.NODE_ENV || 'production';
+if (!KNOWN_ENVS.includes(env)) {
+  throw new Error(`NODE_ENV must be one of ${KNOWN_ENVS.join(', ')} (got "${env}")`);
+}
+const isLocal = env === 'development' || env === 'test';
 
 const int = (v, d) => (v === undefined || v === '' ? d : Number.parseInt(v, 10));
 
-// Signs session tokens. Production must set a long random AUTH_SECRET: with a
-// guessable secret anyone could forge a login. Dev falls back to a fixed value.
-const authSecret = process.env.AUTH_SECRET || (env === 'production' ? null : 'dev-only-insecure-auth-secret');
-if (!authSecret || authSecret.length < 32) {
-  if (env === 'production') throw new Error('AUTH_SECRET (at least 32 characters) is required in production');
+// Signs session tokens. Outside development and test a long random AUTH_SECRET
+// is required: with a guessable secret anyone could forge a login.
+const authSecret = process.env.AUTH_SECRET || (isLocal ? 'dev-only-insecure-auth-secret' : null);
+if (!isLocal && (!authSecret || authSecret.length < 32)) {
+  throw new Error(`AUTH_SECRET (at least 32 characters) is required when NODE_ENV=${env}`);
 }
+
+// The x-user-id header lets tests and curl act as any user without logging in.
+// It needs both a local NODE_ENV and an explicit opt-in, so a mis-set
+// environment can never turn it on by accident.
+const devUserHeader = isLocal && process.env.ALLOW_DEV_USER_HEADER === 'true';
 
 module.exports = Object.freeze({
   env,
@@ -33,6 +45,7 @@ module.exports = Object.freeze({
     secret: authSecret,
     sessionDays: int(process.env.AUTH_SESSION_DAYS, 30),
     cookieName: 'edtech_session',
+    devUserHeader,
     // Comma-separated emails that may open the admin portal. Empty = nobody.
     adminEmails: (process.env.ADMIN_EMAILS || '')
       .split(',')

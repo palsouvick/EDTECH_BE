@@ -173,4 +173,6 @@ module.exports = {
       },
     },
   ],
+  // Hard-bank pattern matrix (Advanced quizzes): see ./hard/interest.js.
+  registry: require('./hard/interest'),
 };

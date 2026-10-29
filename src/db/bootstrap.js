@@ -39,6 +39,14 @@ async function bootstrapData() {
     const { errors } = await importQuestionFile(file, { onlyMissing: true, log, warn: () => {} });
     errors.forEach((e) => warn(`${path.basename(file)}: question skipped: ${e}`));
   }
+  // Vocabulary Bank (db/vocabulary): a bad file is reported, never fatal to startup.
+  try {
+    const v = await require('../../scripts/seedVocabularyBank').ensureVocabularyBank({ log: warn });
+    log(`vocabulary bank: ${v.total} entries (${v.inserted} new, ${v.updated} updated, ${v.protected} admin-edited kept), ${v.published} published`);
+    if (v.draft.length) warn(`vocabulary bank: held back as draft: ${v.draft.join(', ')}`);
+  } catch (e) {
+    warn(`vocabulary bank not loaded: ${e.message}`);
+  }
 }
 
 const LOCK_ID = 'question_bank';
@@ -102,9 +110,11 @@ async function seedQuestionBank() {
     log(`topping every chapter up to ${perTopic} generated questions`);
     const totals = await generator.main(generator.parseArgs(['--per-topic', String(perTopic)]), { embedded: true });
     const hardPool = await require('../../scripts/seedProfitLossHard').ensureHardProfitLossQuestions();
+    const hardBanks = await require('../../scripts/seedHardBanks').ensureHardBanks();
     await state.updateOne({ _id: 'question_bank' }, { $set: { perTopic, fingerprint, at: new Date(), inserted: totals.inserted } }, { upsert: true });
     log(`question bank ready: ${totals.inserted} new questions`);
     log(`Profit & Loss hard bank ready: ${hardPool.total} questions (${hardPool.inserted} new)`);
+    for (const b of hardBanks) log(`${b.topic} hard bank ready: ${b.total} questions (${b.inserted} new)`);
   } finally {
     await locks.deleteOne({ _id: LOCK_ID });
   }

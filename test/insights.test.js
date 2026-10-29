@@ -178,6 +178,11 @@ test('daily challenge: same set all day, anyone can play, first signed-in attemp
   assert.equal(again.firstAttempt, false);
   assert.deepEqual((await api('GET', '/challenge/today?tz=330')).body.data.done, first.score);
 
-  const bad = await api('POST', '/challenge/today', { tz: 330, answers: [{ questionId: String(succIds[0]), selectedOptionId: null }] });
+  // A question that is certainly not in today's set. (A fixed id was flaky: on some
+  // days the daily hash picked exactly that question.)
+  const outsider = await Question.findOne({ status: 'PUBLISHED', _id: { $nin: a.questions.map((q) => q.questionId) } }).select('_id').lean();
+  assert.ok(outsider, 'the test bank has questions outside the challenge');
+  const bad = await api('POST', '/challenge/today', { tz: 330, answers: [{ questionId: String(outsider._id), selectedOptionId: null }] });
   assert.equal(bad.status, 422);
+  assert.equal(bad.body.error.code, 'NOT_IN_CHALLENGE');
 });

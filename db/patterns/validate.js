@@ -120,7 +120,24 @@ function validatePatterns(doc, file = '') {
       if (typeof pattern.generationRule !== 'string' || !pattern.generationRule.trim()) errors.push(`${where}: generationRule is required`);
       if (typeof pattern.solutionMethod !== 'string' || !pattern.solutionMethod.trim()) errors.push(`${where}: solutionMethod is required`);
       checkText(pattern.name, `${where} name`, errors);
+      if (keys.has(pattern.id)) errors.push(`${where}: id clashes with a study-pattern key`);
+      // Hard-bank matrices (db/patterns/<subject>/hard/) also describe framings and syllabus scope.
+      if (pattern.variants !== undefined) {
+        if (!Array.isArray(pattern.variants) || pattern.variants.length < 2 || pattern.variants.some((v) => !/^[a-z0-9_]+$/.test(v))) {
+          errors.push(`${where}: variants must list at least two snake_case framings`);
+        }
+        if (typeof pattern.clerkship !== 'boolean') errors.push(`${where}: clerkship must be true or false`);
+        if (![3, 4, 5].includes(pattern.difficulty)) errors.push(`${where}: Hard-bank difficulty must be 3, 4 or 5`);
+        if (!Array.isArray(pattern.skills) || !pattern.skills.length) errors.push(`${where}: skills are required`);
+        if (typeof pattern.hardBecause !== 'string' || !pattern.hardBecause.trim()) errors.push(`${where}: hardBecause is required`);
+      }
     });
+    if (doc.registry.some((p) => p.variants !== undefined)) {
+      for (const d of [3, 4, 5]) {
+        if (doc.registry.filter((p) => p.difficulty === d).length < 2) errors.push(`${at}: the Hard matrix needs at least two patterns at difficulty ${d}`);
+      }
+      if (doc.registry.length < 10) errors.push(`${at}: the Hard matrix needs at least 10 patterns`);
+    }
   }
   return errors;
 }

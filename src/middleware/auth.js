@@ -19,14 +19,15 @@ function readCookie(req, name) {
  * Who is calling, in order:
  *  1. a session token: the httpOnly cookie set at login, or `Authorization: Bearer` (apps);
  *  2. req.user already set by an upstream gateway;
- *  3. non-production only: an `x-user-id` header, so tests and curl work without logging in.
+ *  3. development/test with ALLOW_DEV_USER_HEADER=true only: an `x-user-id` header,
+ *     so tests and curl work without logging in (see config.auth.devUserHeader).
  */
 function resolveUser(req) {
   const bearer = /^Bearer (.+)$/i.exec(req.get('authorization') || '')?.[1];
   const payload = verifyToken(bearer || readCookie(req, config.auth.cookieName));
   if (payload) return { id: payload.sub, viaSession: true };
   if (req.user?.id) return req.user;
-  if (!config.isProd) {
+  if (config.auth.devUserHeader) {
     const devId = req.get('x-user-id');
     if (devId && /^[\w-]{1,64}$/.test(devId)) return { id: devId };
   }

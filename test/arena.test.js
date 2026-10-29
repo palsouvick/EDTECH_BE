@@ -45,7 +45,8 @@ const Q = (i, extra = {}) => {
       steps: [{ en: 'Step one', bn: 'প্রথম ধাপ' }, { en: 'Step two', bn: 'দ্বিতীয় ধাপ' }],
       traps: [{ option_id: ids[1], note: { en: 'Inverted the ratio', bn: 'অনুপাত উল্টে ফেলেছেন' } }],
     },
-    pyq: year ? { refs: [{ exam_name: 'WBCS', tier: 'PRELIMS', year, question_code: `WBCS-${year}-Q${i}` }] } : {},
+    // Odd questions cite the commission's paper and key (a real PYQ); even ones do not, so they get no badge.
+    pyq: year ? { refs: [{ exam_name: 'WBCS', tier: 'PRELIMS', year, question_code: `WBCS-${year}-Q${i}`, ...(i % 2 && { source_url: 'https://psc.wb.gov.in/Download?param1=wbcs.pdf', answer_key_url: 'https://psc.wb.gov.in/Download?param1=wbcs-key.pdf' }) }] } : {},
     status: 'PUBLISHED',
     ...extra,
   };
@@ -96,8 +97,14 @@ test('cursor walk returns every question exactly once, in practice order', async
 test('stream payload: PYQ tier for badges, bookmark flags, no answers', async () => {
   const { body } = await api('GET', `${STREAM}&limit=20`);
   const withPyq = body.data.questions.find((q) => q.pyq.length);
-  assert.deepEqual(Object.keys(withPyq.pyq[0]).sort(), ['examName', 'shift', 'tier', 'year']);
+  assert.deepEqual(Object.keys(withPyq.pyq[0]).sort(), ['examName', 'shift', 'sourceUrl', 'tier', 'year']);
   assert.equal(withPyq.pyq[0].tier, 'PRELIMS');
+  assert.match(withPyq.pyq[0].sourceUrl, /^https:\/\/psc\.wb\.gov\.in\//);
+  // A ref without the official paper and answer key is never shown as a PYQ.
+  const unsourced = await Question.find({ 'pyq.is_pyq': true, 'pyq.refs.source_url': { $exists: false } }).select('_id').lean();
+  assert.ok(unsourced.length > 0);
+  const unsourcedIds = new Set(unsourced.map((q) => String(q._id)));
+  assert.ok(body.data.questions.filter((q) => unsourcedIds.has(q.questionId)).every((q) => q.pyq.length === 0));
   assert.ok(body.data.questions.every((q) => q.bookmarked === false));
   assert.doesNotMatch(JSON.stringify(body), /correct|solution|traps/);
 });

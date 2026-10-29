@@ -16,6 +16,7 @@ const { MongoMemoryServer } = require('mongodb-memory-server');
 const { createApp } = require('../src/app');
 const { Question, TopicSummary, MockSession } = require('../src/models');
 const statsBuffer = require('../src/services/questionStats.buffer');
+const { mockQuestionAlias } = require('../src/services/signedToken');
 const { buildMockGenerationPipeline } = require('../src/services/mockGenerator.pipeline');
 const { langSetsContaining } = require('../src/models/schemas/localized');
 const { PRACTICE_SORT } = require('../src/services/practice.service');
@@ -185,7 +186,8 @@ test('mock engine: create -> resume -> submit -> idempotent resubmit', async () 
     timeLimitMinutes: 20,
     perQuestionTimer: false,
     allowPause: false,
-    markingScheme: { positive: 2, negative: 0.5 },
+    // Ignored: marks are decided by the server from the exam pattern, never by the client.
+    markingScheme: { positive: 4, negative: 0 },
     language: 'bn',
   };
 
@@ -210,8 +212,18 @@ test('mock engine: create -> resume -> submit -> idempotent resubmit', async () 
   const other = await api('GET', `/mock/session/${s.sessionId}`, null, { 'x-user-id': 'someone_else' });
   assert.equal(other.status, 404, 'sessions are private to their owner');
 
-  // Answer 10 correctly, 6 wrong, leave 4 blank.
-  const key = (await MockSession.findById(s.sessionId).select('+answer_key').lean()).answer_key;
+  assert.deepEqual(s.config.markingScheme, {
+    positive: 2, negative: 0.5, basis: 'OFFICIAL', examCode: 'SSC_CGL',
+    sourceUrl: s.config.markingScheme.sourceUrl,
+  });
+  assert.match(s.config.markingScheme.sourceUrl, /^https:\/\/ssc\.gov\.in\//);
+
+  // Answer 10 correctly, 6 wrong, leave 4 blank. Live ids are aliases, never real question ids.
+  const doc = await MockSession.findById(s.sessionId).select('+answer_key').lean();
+  const realIds = new Set(doc.questions.map((q) => String(q.qid)));
+  assert.ok(s.questions.every((q) => !realIds.has(q.questionId)), 'live mock never exposes real question ids');
+  assert.deepEqual(resumed.body.data.questions.map((q) => q.questionId), s.questions.map((q) => q.questionId), 'aliases are stable across resume');
+  const key = Object.fromEntries(doc.questions.map((q) => [mockQuestionAlias(s.sessionId, String(q.qid)), doc.answer_key[String(q.qid)]]));
   const responses = s.questions.slice(0, 16).map((q, i) => ({
     questionId: q.questionId,
     selectedOptionId: i < 10 ? key[q.questionId] : q.options.find((o) => o.optionId !== key[q.questionId]).optionId,

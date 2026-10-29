@@ -10,6 +10,8 @@ const DICTIONARY_HOSTS = [
   'collinsdictionary.com',
 ];
 const slug = z.string().regex(/^[a-z0-9]+(?:_[a-z0-9]+)*$/);
+const BENGALI = /[ঀ-৿]/u;
+const term = z.string().trim().min(1).max(100);
 const reference = z.object({
   type: z.enum(['DICTIONARY', 'OFFICIAL_PAPER', 'EDITORIAL']),
   title: z.string().trim().max(200).optional(),
@@ -26,8 +28,20 @@ const entrySchema = z.object({
   explanationBn: z.string().trim().max(1000).optional(),
   partOfSpeech: z.enum(['NOUN', 'VERB', 'ADJECTIVE', 'ADVERB', 'PREPOSITION', 'CONJUNCTION', 'INTERJECTION', 'PHRASE']),
   pronunciation: z.string().trim().max(100).optional(),
-  synonyms: z.array(z.string().trim().min(1).max(100)).min(1).max(20),
-  antonyms: z.array(z.string().trim().min(1).max(100)).min(1).max(20),
+  // Close synonyms: usable in place of the word in its main sense.
+  synonyms: z.array(term).max(20).default([]),
+  // Similar meaning but not interchangeable in every context (shown separately).
+  nearSynonyms: z.array(term).max(20).default([]),
+  // Optional: many words have no true opposite, and none should be forced.
+  antonyms: z.array(term).max(20).default([]),
+  // Inflected forms the example may use instead of the headword ("gave up" for "give up").
+  forms: z.array(term).max(10).default([]),
+  // Words often confused with this one; each must be another entry in the bank.
+  confusables: z.array(z.object({
+    word: term,
+    noteEn: z.string().trim().min(5).max(300),
+    noteBn: z.string().trim().min(2).max(300),
+  }).strict()).max(5).default([]),
   exampleEn: z.string().trim().min(10).max(500),
   exampleBn: z.string().trim().min(1).max(500),
   collocations: z.array(z.string().trim().min(1).max(120)).max(20).default([]),
@@ -71,9 +85,32 @@ function parseEntry(input, row) {
   if (synonyms.some((value) => antonyms.includes(value))) {
     errors.push({ row, field: 'antonyms', code: 'SYNONYM_ANTONYM_CONFLICT', message: 'A word cannot be listed as both synonym and antonym' });
   }
-  const wordPattern = new RegExp(`\\b${escapeRegex(item.word)}\\b`, 'i');
-  if (!wordPattern.test(item.exampleEn)) {
-    errors.push({ row, field: 'exampleEn', code: 'EXAMPLE_MISSING_WORD', message: 'The example sentence must use the vocabulary word' });
+  const near = item.nearSynonyms.map(normalize);
+  if (new Set(near).size !== near.length) {
+    errors.push({ row, field: 'nearSynonyms', code: 'DUPLICATE_NEAR_SYNONYM', message: 'Near synonyms must not repeat' });
+  }
+  if (near.some((value) => synonyms.includes(value) || antonyms.includes(value))) {
+    errors.push({ row, field: 'nearSynonyms', code: 'RELATION_CONFLICT', message: 'A near synonym cannot also be a synonym or an antonym' });
+  }
+  const self = normalize(item.word);
+  if ([...synonyms, ...near, ...antonyms].includes(self) || item.confusables.some((c) => normalize(c.word) === self)) {
+    errors.push({ row, field: 'synonyms', code: 'SELF_REFERENCE', message: 'A word cannot be its own synonym, antonym or confusable' });
+  }
+  // Idioms often have no one-word equivalent; single words must be linked to something.
+  if (item.partOfSpeech !== 'PHRASE' && !item.synonyms.length && !item.nearSynonyms.length && !item.antonyms.length && !item.confusables.length) {
+    errors.push({ row, field: 'synonyms', code: 'NO_RELATIONS', message: 'Give at least one synonym, near synonym, antonym or confusable word' });
+  }
+  const shown = [item.word, ...item.forms];
+  if (!shown.some((form) => new RegExp(`(?<![\\p{L}])${escapeRegex(form)}(?![\\p{L}])`, 'iu').test(item.exampleEn))) {
+    errors.push({ row, field: 'exampleEn', code: 'EXAMPLE_MISSING_WORD', message: 'The example sentence must use the vocabulary word (or one of its listed forms)' });
+  }
+  for (const field of ['meaningBn', 'exampleBn', 'explanationBn']) {
+    if (item[field] !== undefined && !BENGALI.test(item[field])) {
+      errors.push({ row, field, code: 'BENGALI_TEXT_REQUIRED', message: `${field} must be written in Bengali` });
+    }
+  }
+  for (const field of ['word', 'definitionEn', 'exampleEn']) {
+    if (BENGALI.test(item[field])) errors.push({ row, field, code: 'ENGLISH_TEXT_REQUIRED', message: `${field} must be in English` });
   }
   if (item.sourceStatus === 'DICTIONARY_CHECKED' && !item.sources.some((source) => source.type === 'DICTIONARY' && source.url)) {
     errors.push({ row, field: 'sources', code: 'DICTIONARY_SOURCE_REQUIRED', message: 'Dictionary-checked entries require a dictionary source URL' });
@@ -120,7 +157,10 @@ function parseEntry(input, row) {
       part_of_speech: item.partOfSpeech,
       pronunciation: item.pronunciation,
       synonyms: item.synonyms,
+      near_synonyms: item.nearSynonyms,
       antonyms: item.antonyms,
+      forms: item.forms,
+      confusables: item.confusables.map((c) => ({ word: c.word, note_en: c.noteEn, note_bn: c.noteBn })),
       example_en: item.exampleEn,
       example_bn: item.exampleBn,
       collocations: item.collocations,
@@ -184,4 +224,33 @@ function parseJsonl(buffer) {
   return { entries, entryRows, errors };
 }
 
-module.exports = { entrySchema, parseEntry, parseJsonl, normalize, tokens, isDictionarySource };
+/**
+ * Checks that need the whole set of entries: duplicate words, and confusable words
+ * that point to no entry (broken references). `known` adds words already stored.
+ * Returns [{ row, field, code, message }].
+ */
+function validateBatch(parsed, { known = [], categories } = {}) {
+  const errors = [];
+  const seen = new Map();
+  for (const { entry, row } of parsed) {
+    if (seen.has(entry.normalized_word)) {
+      errors.push({ row, field: 'word', code: 'DUPLICATE_WORD', message: `"${entry.word}" already appears at row ${seen.get(entry.normalized_word)}` });
+    } else seen.set(entry.normalized_word, row);
+  }
+  const all = new Set([...seen.keys(), ...known.map(normalize)]);
+  for (const { entry, row } of parsed) {
+    for (const c of entry.confusables || []) {
+      if (!all.has(normalize(c.word))) {
+        errors.push({ row, field: 'confusables', code: 'BROKEN_REFERENCE', message: `Confusable "${c.word}" is not an entry in the bank` });
+      }
+    }
+    if (categories) {
+      for (const category of entry.categories) {
+        if (!categories.includes(category)) errors.push({ row, field: 'categories', code: 'UNKNOWN_CATEGORY', message: `Unknown category "${category}"` });
+      }
+    }
+  }
+  return errors;
+}
+
+module.exports = { entrySchema, parseEntry, parseJsonl, validateBatch, normalize, tokens, isDictionarySource };

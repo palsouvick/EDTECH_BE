@@ -57,6 +57,8 @@ Fact banks are authored, not generated: a fixed set of 112–171 bilingual quest
 
 The validator rejects items without a source. Students see "📰 date · Source" under the explanation, and the month is stored as the subtopic (`ca_2026_09`). **Adding a month:** write the file, run `node scripts/generators/factbank/validate.js <file>` (it needs at least 30 questions), and deploy. The startup top-up picks it up.
 
+**PYQ badges need official sources.** `PUT /api/v1/admin/questions/:id/pyq` requires `sourceUrl` (the question paper) and `answerKeyUrl`, both https links on a commission's own domain (`OFFICIAL_HOSTS` in [src/services/questionProvenance.js](src/services/questionProvenance.js)). Tagging sets `provenance: OFFICIAL_VERIFIED`; removing the last verified ref clears it. Students see a PYQ badge only for refs that pass this check, whatever older data contains.
+
 **Previous-year questions come from official papers only.** Each paper is a JSON file in `db/pyq/`, imported on startup. See [db/pyq/README.md](db/pyq/README.md) for the format and rules; the importer rejects any source that is not a commission's own website.
 
 **Profit & Loss Hard practice** uses the registry in [db/patterns/quant/profit_loss.js](db/patterns/quant/profit_loss.js) and its parameterized templates in [scripts/generators/profit_loss_hard.js](scripts/generators/profit_loss_hard.js). Startup tops up a separate pool of at least 100 validated questions through [scripts/seedProfitLossHard.js](scripts/seedProfitLossHard.js). These generated questions are always `ORIGINAL_PRACTICE`; the official Clerkship syllabus URL is recorded as pattern context, not as evidence that an item appeared in an exam. The Hard quiz uses a 2/5/3 difficulty mix (difficulty 3/4/5), at least seven patterns, at most two questions per pattern, and recent-pattern/fingerprint exclusions. Run `node --test test/profitLossHard.test.js test/learn.test.js` to validate the bank and selection rules.
@@ -176,7 +178,12 @@ db/
 The site opens on Math and English. Each chapter has a lesson and quizzes at three levels.
 
 - **Lessons** are in `db/lessons/<subject>/<topic>.js`, one file per chapter. Each one goes Basic → Intermediate → Advanced, with worked examples, formulas or rules, and tips, in both English and Bengali. Lessons ship with the code, so there is nothing to seed. Run `node db/lessons/validate.js` to check them; `test/lessons.test.js` fails if a chapter has no lesson.
-- **Quiz levels** come from question difficulty: Beginner is 1–2, Intermediate is 3 and Advanced is 4–5. Beginner and Intermediate have no timer; Advanced allows 60 s per question. If a level has fewer than 20 questions, it also uses the next easier difficulty. Only questions with both English and Bengali text are served.
+- **Quiz levels** come from question difficulty: Beginner is 1–2, Intermediate is 3 and Advanced is 4–5. Beginner and Intermediate have no timer; Advanced allows 60 s per question. If a level has fewer than 20 questions, it also uses the next easier difficulty, and the level and quiz report `borrowed: true` so the student is told. Only questions with both English and Bengali text are served.
+- **Hard banks (Advanced).** Profit & Loss, Percentage, Ratio & Proportion, Average, Interest and Time & Work serve Advanced only from a dedicated bank ([src/services/hardBanks.js](src/services/hardBanks.js)) and never borrow easier questions; if a bank is empty the quiz returns 422 `HARD_POOL_NOT_READY`. Each Advanced quiz has 10 questions at difficulty 3/4/5 in a 2/5/3 mix, at least 7 patterns, at most 2 per pattern, and a different framing (`pattern_variant`) for a pattern's second question when one exists. Bank questions never appear at Beginner or Intermediate.
+  - **Pattern matrices** live in `db/patterns/quant/hard/<topic>.js` (10–11 patterns per chapter, each with 2 framings, the skills it tests, why it is hard, and whether it is inside the WBPSC Clerkship Part-I syllabus). Per the Clerkship 2024 scheme, Time & Work and compound interest are marked outside it; quiz questions carry `inClerkshipSyllabus` and the app shows a badge.
+  - **Generators** (`scripts/generators/hard/<topic>.js`) choose numbers so every answer is exact, build four options from real mistakes (each with a bilingual trap note), and write steps with exact numbers (terminating decimals or fractions, never a rounded value).
+  - **Independent solvers** (`scripts/generators/hard/solvers/`) re-derive every answer by search or simulation from the numbers shown in the stem; [test/hardBanks.test.js](test/hardBanks.test.js) requires agreement on 300 questions per chapter, and also rejects ambiguous questions (more than one valid answer).
+  - **Seeding:** startup tops each of the five banks up to 200 questions ([scripts/seedHardBanks.js](scripts/seedHardBanks.js), `npm run db:hard-banks`, `-- --dry-run` to validate without writing). All are `ORIGINAL_PRACTICE`; none is labelled a previous-year question.
 - **Repeat attempts get new questions.** The client sends the question ids it has already seen (`exclude`). Once a level runs out of unseen questions, the cycle starts again and the response has `restarted: true`.
 
 | Method | Path | Notes |
@@ -184,8 +191,8 @@ The site opens on Math and English. Each chapter has a lesson and quizzes at thr
 | GET | `/api/v1/learn/subjects` | Math (`quant`) and English, with chapter and question counts. |
 | GET | `/api/v1/learn/subjects/:subject` | Chapters with title, emoji, intro, and pool size per level. |
 | GET | `/api/v1/learn/subjects/:subject/chapters/:topic` | The lesson, the levels, and the previous and next chapter. |
-| POST | `/api/v1/learn/quiz` | `{ subject, topic, level, exclude? }` returns 10 random questions with no answers, options shuffled, plus `timed` and `timeLimitSec`. |
-| POST | `/api/v1/learn/quiz/check` | `{ subject, topic, answers: [{ questionId, selectedOptionId \| null, timeSpentSec? }] }` returns, per question, `isCorrect`, `correctOptionId`, steps, shortcut and trap note, plus the score. Signed-in answers count towards "My performance". |
+| POST | `/api/v1/learn/quiz` | `{ subject, topic, level, exclude? }` returns 10 random questions with no answers, options shuffled, plus `timed`, `timeLimitSec` and a signed `quizToken` (valid 6 h) listing the quiz's question ids. |
+| POST | `/api/v1/learn/quiz/check` | `{ subject, topic, quizToken, answers: [{ questionId, selectedOptionId \| null, timeSpentSec? }] }` returns, per question, `isCorrect`, `correctOptionId`, steps, shortcut and trap note, plus the score. Only questions listed in that quiz's token are marked (otherwise 403 `QUIZ_TOKEN_INVALID` / `QUESTION_NOT_IN_QUIZ`), so this endpoint cannot be used to look up arbitrary answers. Signed-in answers count towards "My performance". |
 
 ## Revision queue and mistake notebook
 
@@ -236,7 +243,7 @@ All responses are `{ success: true, data }` or `{ success: false, error: { code,
 | POST | `/api/v1/review/answer` | required | `{ questionId, selectedOptionId, timeSpentSec? }`. Marks the answer and reschedules the question. Right: the next review comes after 1, 3, 7 or 21 days, and 2 right in a row means mastered. Wrong: back to the start, due tomorrow. Returns the answer, the explanation and `review: { status, streak, nextDueAt }`. |
 | GET | `/api/v1/review/mistakes?status&subject&topic&offset&limit` | required | Mistake notebook. `status` is `active` (still wrong), `mastered` (fixed) or `all`. Each item has the student's last wrong option, the correct option, explanation steps and where the mistake was made (practice, learn, mock or review). Includes per-chapter `groups` and `counts`. |
 | POST | `/api/v1/practice/report-error` | optional | `{ questionId, reason, message?, language? }`. `reason` is `WRONG_ANSWER`, `WRONG_EXPLANATION`, `TRANSLATION`, `TYPO`, `UNCLEAR` or `OTHER`. A repeat from the same signed-in user returns `duplicate: true`. Limited to 10 per 10 minutes. |
-| POST | `/api/v1/mock/create-session` | required | Payload as specified, plus optional `language`. `questionCount`: 10, 20, 25, 50 or 100. Per-question mode: `perQuestionTimer: true` + `perQuestionSeconds` (10–600); `timeLimitMinutes` is then derived. `topicIds` are topic slugs (`profit_loss`). Returns questions without answers. |
+| POST | `/api/v1/mock/create-session` | required | Payload as specified, plus optional `language` and `examCode` (e.g. `WBPSC_CLERKSHIP`). `questionCount`: 10, 20, 25, 50 or 100. Per-question mode: `perQuestionTimer: true` + `perQuestionSeconds` (10–600); `timeLimitMinutes` is then derived. `topicIds` are topic slugs (`profit_loss`). **Marks are decided by the server** ([src/services/markingScheme.js](src/services/markingScheme.js)) from the official pattern in `db/seed/exams.js`; a client `markingScheme` is ignored. `config.markingScheme.basis` is `OFFICIAL`, `OFFICIAL_NO_NEGATIVE` (the notice confirms negative marking but not the amount, so none is deducted) or `PRACTICE` (no verified pattern: +1, no negative). An `examCode` outside the category, or without that subject, is a 422. Returns questions without answers. Each `questionId` is a **per-session alias**, not the real question id, so nothing shown mid-test can be sent to `verify-answer` or a quiz check; results and analytics after submission use real ids. |
 | POST | `/api/v1/mock/submit-session` | required | `{ sessionId, responses: [{ questionId, selectedOptionId \| null, timeSpentSec }] }`. Idempotent: a retried submit returns the stored result. |
 | GET | `/api/v1/mock/session/:sessionId/analytics` | required | Result dashboard data, for **submitted** sessions only (409 before, so answers never leak mid-test). Returns:<br>• the result;<br>• a per-question review: question, options, your answer, the correct answer, time against target, marks lost, the marked-for-review flag, and EN/BN steps, shortcut and traps;<br>• a topic breakdown sorted by marks lost;<br>• `peers`: percentile and rank among submitted tests with the same category, subject and length, shown only once at least 5 such tests exist;<br>• `cutoffs`: official cut-offs from `exam_cutoffs`, each with its `source_url`. |
 | GET | `/api/v1/mock/session/:sessionId` | required | Resume an active session or fetch a finished result. |
@@ -254,7 +261,9 @@ Passwords are hashed with scrypt ([src/services/auth.service.js](src/services/au
 - Set `AUTH_SECRET` to at least 32 random characters. Production refuses to start without it; generate one with `node -e "console.log(require('crypto').randomBytes(48).toString('base64url'))"`.
 - The cookie is `Secure` whenever the request came over HTTPS. Behind a proxy that needs `TRUST_PROXY_HOPS`.
 - Signed-in practice answers are stored in `practice_attempts`; mock results are already per user. Anonymous practice still works, but it isn't tracked.
-- Outside production, an `x-user-id` header is also accepted for local testing ([src/middleware/auth.js](src/middleware/auth.js)).
+- `NODE_ENV` must be `development`, `test` or `production`. A missing value counts as production; any other value stops startup, as does a missing or short `AUTH_SECRET` outside development/test.
+- An `x-user-id` header is accepted as the signed-in user **only** when `NODE_ENV` is `development` or `test` **and** `ALLOW_DEV_USER_HEADER=true` ([src/middleware/auth.js](src/middleware/auth.js)). `npm test` sets both through [test/test.env](test/test.env).
+- `users.uniq_mobile` (unique mobile, partial on string values) is in `db/indexes.mongo.js`. Before deploying to an existing database, run `npm run db:check-mobile-index`: it lists numbers shared by several accounts (masked) and changes nothing. With no duplicates, `npm run db:check-mobile-index -- --create` builds the index. If duplicates exist, the startup index step logs and skips just this index; resolve those accounts by hand first.
 
 ## Design decisions
 
@@ -298,6 +307,36 @@ or under 50% attempt rate, each needing at least 2 questions.
 **Difficulty stats** are batched in memory and flushed every 5 s with one
 unordered `bulkWrite` of `$inc`. This avoids write hotspots on popular questions.
 It is safe across instances; a crash loses at most one interval of counts.
+
+## Vocabulary Bank (শব্দভাণ্ডার) content
+
+The bank lives in `db/vocabulary/*.jsonl`, one file per main category; the categories are listed in `db/vocabulary/categories.js`. Startup loads it idempotently through [scripts/seedVocabularyBank.js](scripts/seedVocabularyBank.js). You can also run it by hand: `npm run db:vocabulary-bank` to load, or add `-- --dry-run` to check without writing.
+
+- **Format.** Same JSONL as an admin import, plus:
+  - `nearSynonyms`: similar meaning, but not interchangeable everywhere.
+  - `forms`: inflected forms the example may use, e.g. "gave up".
+  - `confusables`: `{ word, noteEn, noteBn }`, each pointing to another entry.
+  - `antonyms` is optional; never force one.
+- **Validation** (whole bank, nothing loads if any rule fails):
+  - duplicate words;
+  - self-referential or conflicting relations;
+  - Bengali script required in Bengali fields, English only in English fields;
+  - the example must contain the word or a listed form;
+  - difficulty values must be valid;
+  - unknown categories;
+  - confusables that point to no entry;
+  - `PYQ_VERIFIED` only with an official paper URL, year and question code.
+- **Lexical checks** (`npm run vocab:check`, development only). WordNet 3.1 and CMUdict, both devDependencies, write `db/vocabulary/lexicon-checks.json`. A test fails if that file is stale.
+  - Entries whose word or part of speech is not in WordNet are kept as DRAFT. Prepositions are the exception, because WordNet has none.
+  - Relations WordNet cannot confirm are shown to students but never used as test answer keys.
+  - Pronunciations are IPA derived from CMUdict, or none at all; they are never guessed.
+  - Licences and attribution: [db/vocabulary/ATTRIBUTION.md](db/vocabulary/ATTRIBUTION.md).
+- **Bengali review.** Every Bengali meaning starts `bengali_review.status: PENDING`, and students see "Bengali meaning pending review".
+  - Admins use **Admin → Bengali review** (`GET /api/v1/admin/vocabulary/bengali-review`). It sorts official exam words first, then commonly tested and frequent words.
+  - They can correct the meaning, explanation, definition and examples (`PATCH /admin/vocabulary/words/:id/content`, with `markReviewed`) or just mark a word reviewed (`PUT /admin/vocabulary/words/:id/bengali-review`).
+  - The reviewer and date are recorded. Every edit is kept in `edit_history` (who, when, old and new value).
+  - Changing reviewed Bengali text without re-reviewing it returns the word to PENDING.
+  - Re-seeding never overwrites an admin-edited or reviewed word.
 
 ## Vocabulary Mastery
 

@@ -10,6 +10,7 @@ const { MongoMemoryServer } = require('mongodb-memory-server');
 const { createApp } = require('../src/app');
 const { Question, ExamCategory, ExamCutoff, MockSession } = require('../src/models');
 const statsBuffer = require('../src/services/questionStats.buffer');
+const { mockQuestionAlias } = require('../src/services/signedToken');
 const catalog = require('../db/seed/catalog');
 
 let mongod;
@@ -46,11 +47,14 @@ const Q = (i) => {
 async function takeTest(user, correctCount, { mark = [] } = {}) {
   const created = await api('POST', '/mock/create-session', {
     category: 'SSC', subject: 'quant', questionCount: 10, timeLimitMinutes: 10, language: 'en',
-    markingScheme: { positive: 2, negative: 0.5 },
   }, user);
   assert.equal(created.status, 201, JSON.stringify(created.body));
   const s = created.body.data;
-  const key = (await MockSession.findById(s.sessionId).select('+answer_key').lean()).answer_key;
+  // SSC Quant marks come from the server: SSC CGL Tier-I, +2 / -0.5.
+  assert.deepEqual([s.config.markingScheme.positive, s.config.markingScheme.negative, s.config.markingScheme.basis], [2, 0.5, 'OFFICIAL']);
+  // The live test shows per-session aliases; the stored key is by real id.
+  const doc = await MockSession.findById(s.sessionId).select('+answer_key').lean();
+  const key = Object.fromEntries(doc.questions.map((q) => [mockQuestionAlias(s.sessionId, String(q.qid)), doc.answer_key[String(q.qid)]]));
   const responses = s.questions.map((q, i) => ({
     questionId: q.questionId,
     selectedOptionId: i < correctCount ? key[q.questionId] : i < 8 ? q.options.find((o) => o.optionId !== key[q.questionId]).optionId : null,

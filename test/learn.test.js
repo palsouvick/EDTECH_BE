@@ -85,7 +85,10 @@ test('GET /subjects/:subject lists every chapter with level counts', async () =>
   const { body } = await call('/subjects/quant');
   const pct = body.data.chapters.find((c) => c.topic === 'percentage');
   assert.equal(body.data.chapters.length, 15);
-  assert.deepEqual(pct.levels.map((l) => l.count), [25, 5, 5]);
+  // Percentage has a Hard bank: Advanced counts only bank questions (none here) and
+  // never borrows Intermediate ones.
+  assert.deepEqual(pct.levels.map((l) => l.count), [25, 5, 0]);
+  assert.deepEqual(pct.levels.map((l) => [l.source, l.borrowed]), [['general', false], ['general', true], ['hard_bank', false]]);
   assert.equal((await call('/subjects/reasoning')).status, 400);
 });
 
@@ -114,10 +117,12 @@ test('quiz: 10 bilingual questions without answers; a repeat attempt gets differ
   assert.equal(new Set(third.questions.map((q) => q.questionId)).size, 10);
 });
 
-test('advanced quiz is timed', async () => {
-  const quiz = (await call('/quiz', { subject: 'quant', topic: 'percentage', level: 'advanced' })).body.data;
-  assert.equal(quiz.questions.length, 5);
-  assert.deepEqual([quiz.timed, quiz.timeLimitSec], [true, 300]);
+test('advanced quiz is timed; a bank chapter without bank questions gets no quiz', async () => {
+  const quiz = (await call('/quiz', { subject: 'quant', topic: 'profit_loss', level: 'advanced' })).body.data;
+  assert.equal(quiz.questions.length, 10);
+  assert.deepEqual([quiz.timed, quiz.timeLimitSec, quiz.source], [true, 600, 'hard_bank']);
+  const empty = await call('/quiz', { subject: 'quant', topic: 'percentage', level: 'advanced' });
+  assert.equal(empty.status, 422, 'never falls back to Intermediate questions');
 });
 
 test('Profit & Loss Hard quiz uses 2/5/3 difficulty mix, seven patterns, and fresh fingerprints', async () => {
@@ -145,14 +150,15 @@ test('Profit & Loss Hard quiz uses 2/5/3 difficulty mix, seven patterns, and fre
 });
 
 test('check: marks every answer and returns explanations, skipped ones count as wrong', async () => {
-  const quiz = (await call('/quiz', { subject: 'quant', topic: 'percentage', level: 'advanced' })).body.data;
+  const quiz = (await call('/quiz', { subject: 'quant', topic: 'percentage', level: 'intermediate' })).body.data;
+  assert.equal(quiz.borrowed, true, 'a thin level says it includes easier questions');
   const key = await Question.find({ _id: { $in: quiz.questions.map((q) => q.questionId) } }).select('+correct_option_id').lean();
   const correctOf = Object.fromEntries(key.map((q) => [String(q._id), q.correct_option_id]));
   const answers = quiz.questions.map((q, i) => ({
     questionId: q.questionId,
     selectedOptionId: i === 0 ? null : i === 1 ? q.options.find((o) => o.optionId !== correctOf[q.questionId]).optionId : correctOf[q.questionId],
   }));
-  const { status, body } = await call('/quiz/check', { subject: 'quant', topic: 'percentage', answers });
+  const { status, body } = await call('/quiz/check', { subject: 'quant', topic: 'percentage', quizToken: quiz.quizToken, answers });
   assert.equal(status, 200);
   assert.deepEqual(body.data.score, { correct: 3, total: 5 });
   assert.equal(body.data.results[0].selectedOptionId, null);

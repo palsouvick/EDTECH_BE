@@ -106,6 +106,9 @@ const QuestionSchema = new Schema(
     // Question pattern within the chapter (a key from db/patterns/<subject>/<topic>.js),
     // set by src/services/patternTagger.js; absent when no pattern fits.
     pattern: { type: String, match: SLUG_RE },
+    // Hard-bank questions only: "<pattern>.<framing>" from the pattern matrix, so a quiz can
+    // avoid two questions that differ only in their numbers.
+    pattern_variant: { type: String, match: /^[a-z0-9_]+\.[a-z0-9_]+$/ },
     expected_time_sec: { type: Number, min: 5, max: 600, default: 60 },
 
     // Derived in pre('validate'); never written by clients. See langSetKey().

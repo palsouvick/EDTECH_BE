@@ -478,10 +478,17 @@ module.exports = {
       L('Part-II (written: English + Bengali/Hindi/Urdu/Nepali/Santali)', 'পার্ট-II (লিখিত: ইংরেজি + বাংলা/হিন্দি/উর্দু/নেপালি/সাঁওতালি)', 'भाग-II (लिखित: अंग्रेज़ी + बांग्ला/हिन्दी/उर्दू/नेपाली/संथाली)'),
       L('Computer & typing test', 'কম্পিউটার ও টাইপিং টেস্ট', 'कंप्यूटर और टाइपिंग टेस्ट'),
     ],
+    // Checked 29 Oct 2026 against the detailed advertisement (dated 6 Oct 2026,
+    // https://psc.wb.gov.in/Download?param1=CLERKSHIP2024.pdf&param2=advertisement) and
+    // Important Announcement No. 351/PSC(I) of 25 Oct 2026, which moved the closing date
+    // from 26 Oct to 1 Nov 2026 and the edit window to 3–8 Nov 2026
+    // (https://psc.wb.gov.in/Download?param1=An_20261025234341_Important_Announcement_extension_Clerkship.pdf&param2=advertisement).
+    // The Part-I date is only "tentatively December 2026 or thereabout": it is not a
+    // scheduled date, so it is worded as tentative. Re-check before each release.
     notes: L(
-      'Clerkship 2024: applications 6–26 Oct 2026; Part-I is tentatively in December 2026. Eligibility: Madhyamik + typing.',
-      'ক্লার্কশিপ ২০২৪: আবেদন ৬–২৬ অক্টোবর ২০২৬; পার্ট-I সম্ভবত ডিসেম্বর ২০২৬-এ। যোগ্যতা: মাধ্যমিক + টাইপিং।',
-      'क्लर्कशिप 2024: आवेदन 6–26 अक्टूबर 2026; भाग-I संभवतः दिसंबर 2026 में। योग्यता: माध्यमिक + टाइपिंग।',
+      'Clerkship 2024 (Advt 12/2024): online applications closed 1 Nov 2026 (extended from 26 Oct by notice 351/PSC(I)); edit window 3–8 Nov 2026. The advertisement gives Part-I as tentative, "December 2026 or thereabout"; no exam date has been announced yet. Eligibility: Madhyamik + computer typing. Information as checked on 29 Oct 2026.',
+      'ক্লার্কশিপ ২০২৪ (বিজ্ঞাপন ১২/২০২৪): অনলাইন আবেদন ১ নভেম্বর ২০২৬ পর্যন্ত (বিজ্ঞপ্তি ৩৫১/PSC(I) অনুযায়ী ২৬ অক্টোবর থেকে বাড়ানো); এডিট উইন্ডো ৩–৮ নভেম্বর ২০২৬। বিজ্ঞাপনে পার্ট-I-এর সময় সম্ভাব্য "ডিসেম্বর ২০২৬ বা তার কাছাকাছি"; পরীক্ষার তারিখ এখনও ঘোষিত হয়নি। যোগ্যতা: মাধ্যমিক + কম্পিউটারে টাইপিং। তথ্য ২৯ অক্টোবর ২০২৬-এ যাচাই করা।',
+      'क्लर्कशिप 2024 (विज्ञापन 12/2024): ऑनलाइन आवेदन 1 नवंबर 2026 तक (सूचना 351/PSC(I) से 26 अक्टूबर से बढ़ाया गया); एडिट विंडो 3–8 नवंबर 2026। विज्ञापन में भाग-I संभावित "दिसंबर 2026 या आसपास"; परीक्षा तिथि अभी घोषित नहीं। योग्यता: माध्यमिक + कंप्यूटर टाइपिंग। जानकारी 29 अक्टूबर 2026 को जाँची गई।',
     ),
     cycles: [
       {

@@ -24,12 +24,16 @@ function isOfficialSource(url) {
   }
 }
 
-function hasVerifiedPaperReference(question) {
-  return (question.pyq?.refs || []).some((ref) => (
-    !/-SYN-/i.test(ref.question_code || '')
+/** A reference to a real paper: not synthetic, with the paper and answer key on a commission's own site. */
+function isVerifiedPaperRef(ref) {
+  return Boolean(ref)
+    && !/-SYN-/i.test(ref.question_code || '')
     && isOfficialSource(ref.source_url)
-    && isOfficialSource(ref.answer_key_url)
-  ));
+    && isOfficialSource(ref.answer_key_url);
+}
+
+function hasVerifiedPaperReference(question) {
+  return (question.pyq?.refs || []).some(isVerifiedPaperRef);
 }
 
 function classifyLegacyQuestion(question) {
@@ -52,4 +56,4 @@ function classifyLegacyQuestion(question) {
   return 'UNCLASSIFIED';
 }
 
-module.exports = { classifyLegacyQuestion, hasVerifiedPaperReference, isOfficialSource };
+module.exports = { classifyLegacyQuestion, hasVerifiedPaperReference, isOfficialSource, isVerifiedPaperRef };

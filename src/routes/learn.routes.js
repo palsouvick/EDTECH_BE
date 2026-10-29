@@ -46,10 +46,13 @@ router.post('/quiz', learnQuizLimiter, validate({ body: quizBody }), async (req,
 const checkBody = z.object({
   subject,
   topic: slug,
+  // Issued with the quiz by POST /quiz; only that quiz's questions can be checked.
+  quizToken: z.string().min(1).max(4096),
   answers: z
     .array(z.object({ questionId: objectId, selectedOptionId: optionId.nullable(), timeSpentSec: z.number().min(0).max(3600).optional() }))
     .min(1)
-    .max(learn.QUIZ_SIZE),
+    .max(learn.QUIZ_SIZE)
+    .refine((as) => new Set(as.map((a) => a.questionId)).size === as.length, { message: 'each questionId may appear only once' }),
 });
 router.post('/quiz/check', verifyAnswerLimiter, validate({ body: checkBody }), async (req, res) => {
   res.set('Cache-Control', 'no-store');

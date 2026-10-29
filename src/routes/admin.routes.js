@@ -12,6 +12,7 @@ const { clearCatalogCache } = require('../services/catalog.service');
 const AppError = require('../utils/AppError');
 const multer = require('multer');
 const bulkImport = require('../services/questionBulkImport.service');
+const { classifyLegacyQuestion, hasVerifiedPaperReference, isOfficialSource } = require('../services/questionProvenance');
 
 /** Review portal API. Everything here requires an admin session (see middleware/admin.js). */
 const router = Router();
@@ -102,28 +103,40 @@ router.patch('/questions/:id/status', validate({ params: idParams, body: z.objec
 });
 
 const slugPart = (s) => String(s).toUpperCase().replace(/[^A-Z0-9]+/g, '-').replace(/^-|-$/g, '');
+const officialUrl = z.string().trim().max(1024).refine(isOfficialSource, {
+  message: "must be an https link on a commission's own website (psc.wb.gov.in, ssc.gov.in, ...)",
+});
+// A PYQ tag must cite the commission's published question paper and its answer key:
+// without both, the question is not a verified previous-year question.
 const pyqBody = z.object({
   examName: z.string().trim().min(2).max(120),
   year: z.coerce.number().int().min(1990).max(2100),
   tier: z.enum(TIERS).optional(),
   shift: z.string().trim().max(40).optional(),
+  sourceUrl: officialUrl,
+  answerKeyUrl: officialUrl,
 });
 
+/** Keeps is_pyq, latest_pyq_year and provenance in step with the refs. */
 async function syncPyqFlags(id) {
-  const q = await Question.findById(id).select('pyq.refs').lean();
-  const refs = q?.pyq?.refs || [];
-  await Question.updateOne({ _id: id }, { $set: { 'pyq.is_pyq': refs.length > 0, latest_pyq_year: refs.length ? Math.max(...refs.map((r) => r.year)) : null } });
+  const q = await Question.findById(id).select('pyq.refs provenance authored_by').lean();
+  if (!q) return;
+  const refs = q.pyq?.refs || [];
+  let provenance = q.provenance;
+  if (hasVerifiedPaperReference(q)) provenance = 'OFFICIAL_VERIFIED';
+  else if (provenance === 'OFFICIAL_VERIFIED') provenance = classifyLegacyQuestion(q);
+  await Question.updateOne({ _id: id }, { $set: { 'pyq.is_pyq': refs.length > 0, latest_pyq_year: refs.length ? Math.max(...refs.map((r) => r.year)) : null, provenance } });
 }
 
 // Tag a question as a verified previous-year question. Only editors who checked the real paper should do this.
 router.put('/questions/:id/pyq', validate({ params: idParams, body: pyqBody }), async (req, res) => {
-  const { examName, year, tier, shift } = req.valid.body;
+  const { examName, year, tier, shift, sourceUrl, answerKeyUrl } = req.valid.body;
   const q = await Question.findById(req.valid.params.id).select('code').lean();
   if (!q) throw AppError.notFound('QUESTION_NOT_FOUND', 'Question not found');
   const question_code = [slugPart(examName), year, tier, shift && slugPart(shift), q.code].filter(Boolean).join('-').slice(0, 80);
   await Question.updateOne(
     { _id: q._id, 'pyq.refs.question_code': { $ne: question_code } },
-    { $push: { 'pyq.refs': { exam_name: examName, year, ...(tier && { tier }), ...(shift && { shift }), question_code } } },
+    { $push: { 'pyq.refs': { exam_name: examName, year, ...(tier && { tier }), ...(shift && { shift }), question_code, source_url: sourceUrl, answer_key_url: answerKeyUrl } } },
   );
   await syncPyqFlags(q._id);
   res.json({ success: true, data: { id: String(q._id), questionCode: question_code } });

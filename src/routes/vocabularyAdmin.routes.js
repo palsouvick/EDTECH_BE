@@ -97,4 +97,43 @@ router.patch('/words/:wordId/status', validate({
   });
 });
 
+// ------------------------------------------------------------------ Bengali review
+
+router.get('/bengali-review', validate({
+  query: z.object({
+    status: z.enum(['PENDING', 'REVIEWED']).default('PENDING'),
+    q: z.string().trim().max(100).optional(),
+    offset: z.coerce.number().int().min(0).max(100_000).default(0),
+    limit: z.coerce.number().int().min(1).max(50).default(20),
+  }),
+}), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await vocabulary.bengaliReviewQueue(req.valid.query) });
+});
+
+const text = (max) => z.string().trim().min(1).max(max);
+router.patch('/words/:wordId/content', validate({
+  params: z.object({ wordId: objectId }),
+  body: z.object({
+    meaningBn: text(300).optional(),
+    explanationBn: text(1000).optional(),
+    definitionEn: text(600).optional(),
+    exampleEn: text(500).optional(),
+    exampleBn: text(500).optional(),
+    markReviewed: z.boolean().default(false),
+  }).strict().refine((b) => b.markReviewed || Object.keys(b).some((k) => k !== 'markReviewed'), { message: 'Nothing to change' }),
+}), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  const { markReviewed, ...changes } = req.valid.body;
+  res.json({ success: true, data: await vocabulary.editWordContent(req.valid.params.wordId, changes, req.admin.email, { markReviewed }) });
+});
+
+router.put('/words/:wordId/bengali-review', validate({
+  params: z.object({ wordId: objectId }),
+  body: z.object({ status: z.enum(['REVIEWED', 'PENDING']) }).strict(),
+}), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await vocabulary.setBengaliReview(req.valid.params.wordId, req.valid.body.status, req.admin.email) });
+});
+
 module.exports = router;

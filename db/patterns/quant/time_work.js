@@ -207,4 +207,6 @@ module.exports = {
       },
     },
   ],
+  // Hard-bank pattern matrix (Advanced quizzes): see ./hard/time_work.js.
+  registry: require('./hard/time_work'),
 };

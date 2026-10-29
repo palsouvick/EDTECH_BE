@@ -53,7 +53,14 @@ const MockSessionSchema = new Schema(
       marking: {
         positive: { type: Number, required: true },
         negative: { type: Number, required: true },
+        // Where the marks came from (services/markingScheme.js): OFFICIAL, OFFICIAL_NO_NEGATIVE or PRACTICE.
+        basis: { type: String, enum: ['OFFICIAL', 'OFFICIAL_NO_NEGATIVE', 'PRACTICE'] },
+        exam_code: { type: String },
+        source_url: { type: String },
       },
+      // Live screens show per-session question aliases instead of real ids
+      // (signedToken.mockQuestionAlias). Unset on sessions created before aliases existed.
+      question_aliases: { type: Boolean, default: false },
     },
 
     questions: { type: [SessionQuestionSchema], required: true },
