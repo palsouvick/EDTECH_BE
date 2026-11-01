@@ -615,6 +615,73 @@ module.exports = {
         ],
       },
     },
+    {
+      key: 'fraction_percentage_conversion',
+      emoji: '🔀',
+      name: t('Fraction ↔ percentage conversion', 'ভগ্নাংশ ↔ শতাংশ রূপান্তর'),
+      difficulty: 'beginner',
+      typicalWording: t(r`Which fraction equals $37.5\%$? / Express $\frac{3}{8}$ as a percentage.`, r`কোন ভগ্নাংশটি $37.5\%$-এর সমান? / $\frac{3}{8}$-কে শতাংশে প্রকাশ করো।`),
+      formula: t(r`Fraction $\to$ percent: multiply by $100$. Percent $\to$ fraction: divide by $100$ and simplify. Memorise: $\frac{1}{8} = 12.5\%$, $\frac{1}{6} = 16\frac{2}{3}\%$, $\frac{3}{8} = 37.5\%$, $\frac{1}{7} \approx 14.28\%$.`, r`ভগ্নাংশ $\to$ শতাংশ: $100$ দিয়ে গুণ করো। শতাংশ $\to$ ভগ্নাংশ: $100$ দিয়ে ভাগ করে সরল করো। মনে রাখো: $\frac{1}{8} = 12.5\%$, $\frac{1}{6} = 16\frac{2}{3}\%$, $\frac{3}{8} = 37.5\%$, $\frac{1}{7} \approx 14.28\%$।`),
+      shortcut: t(r`Convert awkward percentages to fractions before multiplying: $37.5\%$ of $640 = \frac{3}{8} \times 640 = 240$ — far faster than decimals.`, r`গুণ করার আগে অসুবিধাজনক শতাংশকে ভগ্নাংশে বদলাও: $640$-এর $37.5\% = \frac{3}{8} \times 640 = 240$ — দশমিকের চেয়ে অনেক দ্রুত।`),
+      trap: t(r`$0.375$ as a percentage is $37.5\%$, not $0.375\%$ — converting shifts the decimal point two places.`, r`শতাংশ হিসেবে $0.375$ হল $37.5\%$, $0.375\%$ নয় — রূপান্তরে দশমিক বিন্দু দুই ঘর সরে।`),
+      spot: t('The question only converts between a fraction, a decimal and a percentage — no quantity is being increased or shared.', 'প্রশ্নটি শুধু ভগ্নাংশ, দশমিক ও শতাংশের মধ্যে রূপান্তর করে — কোনো পরিমাণ বাড়ানো বা ভাগ করা হচ্ছে না।'),
+      method: [
+        t('To turn a fraction into a percentage, multiply it by 100 and simplify.', 'ভগ্নাংশকে শতাংশে বদলাতে 100 দিয়ে গুণ করে সরল করো।'),
+        t('To turn a percentage into a fraction, write it over 100 and cancel common factors.', 'শতাংশকে ভগ্নাংশে বদলাতে 100-এর উপর লিখে সাধারণ উৎপাদক কাটো।'),
+        t('Use the memorised table (eighths, sixths, sevenths) to answer instantly.', 'মুখস্থ ছকটি (অষ্টমাংশ, ষষ্ঠাংশ, সপ্তমাংশ) ব্যবহার করে সঙ্গে সঙ্গে উত্তর দাও।'),
+      ],
+      example: {
+        question: t('Express 3/8 as a percentage.', '3/8-কে শতাংশে প্রকাশ করো।'),
+        steps: [
+          t('Multiply by 100: 3/8 × 100 = 300/8.', '100 দিয়ে গুণ করো: 3/8 × 100 = 300/8।'),
+          t('300 ÷ 8 = 37.5.', '300 ÷ 8 = 37.5, অর্থাৎ শতাংশে 37.5।'),
+        ],
+        answer: t('37.5 percent', '37.5 শতাংশ'),
+      },
+      tryIt: {
+        question: t('Which fraction is equal to 12.5%?', 'কোন ভগ্নাংশটি 12.5%-এর সমান?'),
+        options: [t('1/8', '1/8'), t('1/6', '1/6'), t('1/5', '1/5'), t('1/12', '1/12')],
+        correct: 0,
+        explanation: [
+          t('12.5/100 = 125/1000 = 1/8 after cancelling 125.', '12.5/100 = 125/1000 = 125 কেটে 1/8।'),
+          t('Check: 1/8 × 100 = 12.5%. (1/6 is 16⅔%, 1/5 is 20%, 1/12 is about 8.33%.)', 'যাচাই: 1/8 × 100 = 12.5%। (1/6 হল 16⅔%, 1/5 হল 20%, 1/12 প্রায় 8.33%।)'),
+        ],
+      },
+    },
+    {
+      key: 'dimension_change_compensation',
+      emoji: '▭',
+      name: t('One dimension changes — compensate the other (area fixed)', 'একটি মাত্রা বদলায় — অন্যটি পূরণ করো (ক্ষেত্রফল স্থির)'),
+      difficulty: 'advanced',
+      typicalWording: t('The length of a rectangle is increased by 25%. By what percent must the breadth be decreased so that the area remains the same?', 'একটি আয়তক্ষেত্রের দৈর্ঘ্য 25% বাড়ানো হল। ক্ষেত্রফল একই রাখতে প্রস্থ কত শতাংশ কমাতে হবে?'),
+      formula: t(r`If one dimension is multiplied by $k$, the other must be multiplied by $\frac{1}{k}$. For a $+x\%$ change, compensation $= \frac{x}{100 + x} \times 100\%$ decrease; for a $-x\%$ change, compensation $= \frac{x}{100 - x} \times 100\%$ increase.`, r`একটি মাত্রা $k$ গুণ হলে অন্যটিকে $\frac{1}{k}$ গুণ করতে হয়। $+x\%$ পরিবর্তনে পূরণ $= \frac{x}{100 + x} \times 100\%$ হ্রাস; $-x\%$ পরিবর্তনে পূরণ $= \frac{x}{100 - x} \times 100\%$ বৃদ্ধি।`),
+      shortcut: t(r`Take the rectangle as $100 \times 100$. Length $+25\% \to 125$; the breadth must become $\frac{10000}{125} = 80$, i.e. a $20\%$ decrease — read it straight off.`, r`আয়তক্ষেত্রটিকে $100 \times 100$ ধরো। দৈর্ঘ্য $+25\% \to 125$; প্রস্থ হতে হবে $\frac{10000}{125} = 80$, অর্থাৎ $20\%$ হ্রাস — সরাসরি পড়ে ফেলো।`),
+      trap: t(r`The compensation is never the same percentage back: $+25\%$ is cancelled by $-20\%$, not by $-25\%$, because the base has changed.`, r`পূরণ কখনোই একই শতাংশ ফিরিয়ে আনে না: $+25\%$ কাটে $-20\%$ দিয়ে, $-25\%$ দিয়ে নয়, কারণ ভিত্তি বদলে গেছে।`),
+      spot: t('One dimension (or factor) of a product changes, and the product itself — area, or price × quantity — must stay unchanged.', 'একটি গুণনীয়কের (মাত্রা বা উপাদান) একটি বদলায়, আর গুণফলটি নিজে — ক্ষেত্রফল, বা দাম × পরিমাণ — অপরিবর্তিত থাকতে হয়।'),
+      method: [
+        t('Write the change as a multiplier (for example +25% → 1.25).', 'পরিবর্তনটিকে গুণক হিসেবে লেখো (যেমন +25% → 1.25)।'),
+        t('The compensating multiplier is its reciprocal (1 ÷ 1.25 = 0.8).', 'পূরণকারী গুণক হল তার অন্যোন্যক (1 ÷ 1.25 = 0.8)।'),
+        t('Convert the reciprocal back to a percentage change (0.8 → 20% decrease).', 'অন্যোন্যকটিকে আবার শতাংশ পরিবর্তনে বদলাও (0.8 → 20% হ্রাস)।'),
+      ],
+      example: {
+        question: t('The length of a rectangle is increased by 25%. By what percent must the breadth be decreased so the area stays the same?', 'একটি আয়তক্ষেত্রের দৈর্ঘ্য 25% বাড়ানো হল। ক্ষেত্রফল একই রাখতে প্রস্থ কত শতাংশ কমাতে হবে?'),
+        steps: [
+          t('Length multiplier = 1.25, so the breadth multiplier must be 1 ÷ 1.25 = 0.8.', 'দৈর্ঘ্যের গুণক = 1.25, তাই প্রস্থের গুণক হতে হবে 1 ÷ 1.25 = 0.8।'),
+          t('0.8 means the breadth becomes 80% of before.', '0.8 মানে প্রস্থ আগের 80% হয়ে যায়।'),
+          t('Decrease = 100 − 80 = 20%.', 'হ্রাস = 100 − 80 = 20%।'),
+        ],
+        answer: t('Decrease the breadth by 20%', 'প্রস্থ 20% কমাতে হবে'),
+      },
+      tryIt: {
+        question: t('The length of a rectangle is increased by 20%. By what percent must the breadth be reduced to keep the area unchanged?', 'একটি আয়তক্ষেত্রের দৈর্ঘ্য 20% বাড়ানো হল। ক্ষেত্রফল অপরিবর্তিত রাখতে প্রস্থ কত শতাংশ কমাতে হবে?'),
+        options: [t('20%', '20%'), t('16⅔%', '16⅔%'), t('25%', '25%'), t('15%', '15%')],
+        correct: 1,
+        explanation: [
+          t('Compensating multiplier = 1 ÷ 1.2 = 5/6 ≈ 0.8333.', 'পূরণকারী গুণক = 1 ÷ 1.2 = 5/6 ≈ 0.8333।'),
+          t('Decrease = (1 − 5/6) × 100 = 16⅔%. (20% wrongly assumes the same percentage reverses it.)', 'হ্রাস = (1 − 5/6) × 100 = 16⅔%। (20% ভুল করে ধরে একই শতাংশই উল্টে দেয়।)'),
+        ],
+      },
+    },
   ],
   // Hard-bank pattern matrix (Advanced quizzes): see ./hard/percentage.js.
   registry: require('./hard/percentage'),

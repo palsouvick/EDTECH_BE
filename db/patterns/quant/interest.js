@@ -551,6 +551,40 @@ module.exports = {
         ],
       },
     },
+    {
+      key: 'ci_si_difference_3years',
+      emoji: '🧊',
+      name: t('Difference between CI and SI for 3 years', '3 বছরের জন্য CI ও SI-এর পার্থক্য'),
+      difficulty: 'advanced',
+      typicalWording: t('Find the difference between compound interest and simple interest on ₹10,000 at 10% per annum for 3 years.', 'বার্ষিক 10% হারে 3 বছরের জন্য ₹10,000-এর উপর চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য নির্ণয় করো।'),
+      formula: t(r`For 3 years: $CI - SI = P\left(\frac{R}{100}\right)^2\left(3 + \frac{R}{100}\right)$. The $2$-year shortcut $P\left(\frac{R}{100}\right)^2$ does NOT extend to 3 years.`, r`3 বছরের জন্য: $CI - SI = P\left(\frac{R}{100}\right)^2\left(3 + \frac{R}{100}\right)$। $2$ বছরের সংক্ষিপ্ত সূত্র $P\left(\frac{R}{100}\right)^2$ 3 বছরে খাটে না।`),
+      shortcut: t(r`Think of it as interest layers: SI earns $3PR'$; CI adds $3PR'^2$ on the first two years' interest plus $PR'^3$ interest-on-interest-on-interest, where $R' = \frac{R}{100}$.`, r`সুদের স্তর হিসেবে ভাবো: SI আয় করে $3PR'$; CI যোগ করে প্রথম দুই বছরের সুদের উপর $3PR'^2$ আর সুদের-উপর-সুদের-উপর-সুদ $PR'^3$, যেখানে $R' = \frac{R}{100}$।`),
+      trap: t(r`Using the 2-year formula $P\left(\frac{R}{100}\right)^2$ for a 3-year question: on ₹$10000$ at $10\%$ it gives ₹$100$, but the true difference is ₹$310$.`, r`3 বছরের প্রশ্নে 2 বছরের সূত্র $P\left(\frac{R}{100}\right)^2$ ব্যবহার করা: $10\%$ হারে ₹$10000$-এর উপর তা ₹$100$ দেয়, কিন্তু আসল পার্থক্য ₹$310$।`),
+      spot: t('A CI–SI difference is asked for a period of exactly 3 years (the 2-year case has its own pattern and formula).', 'ঠিক 3 বছরের মেয়াদের জন্য CI–SI পার্থক্য চাওয়া হয়েছে (2 বছরের ক্ষেত্রের নিজস্ব প্যাটার্ন ও সূত্র আছে)।'),
+      method: [
+        t('Confirm the period is 3 years — the formula changes with the period.', 'মেয়াদ 3 বছর কিনা নিশ্চিত করো — মেয়াদের সঙ্গে সূত্র বদলায়।'),
+        t(r`Compute $\left(\frac{R}{100}\right)^2$ and multiply by $P$.`, r`$\left(\frac{R}{100}\right)^2$ হিসাব করে $P$ দিয়ে গুণ করো।`),
+        t(r`Multiply by $\left(3 + \frac{R}{100}\right)$ — this extra factor is what distinguishes the 3-year case.`, r`$\left(3 + \frac{R}{100}\right)$ দিয়ে গুণ করো — এই অতিরিক্ত উৎপাদকটিই 3 বছরের ক্ষেত্রটিকে আলাদা করে।`),
+      ],
+      example: {
+        question: t('Find the difference between CI and SI on ₹10,000 at 10% p.a. for 3 years.', 'বার্ষিক 10% হারে 3 বছরের জন্য ₹10,000-এর উপর CI ও SI-এর পার্থক্য নির্ণয় করো।'),
+        steps: [
+          t('SI = 10000 × 10 × 3 ÷ 100 = ₹3000, so CI must exceed ₹3000.', 'SI = 10000 × 10 × 3 ÷ 100 = ₹3000, তাই CI ₹3000-এর বেশি হতে হবে।'),
+          t('(R/100)² = (0.1)² = 0.01 and (3 + R/100) = 3.1.', '(R/100)² = (0.1)² = 0.01 এবং (3 + R/100) = 3.1।'),
+          t('Difference = 10000 × 0.01 × 3.1 = ₹310.', 'পার্থক্য = 10000 × 0.01 × 3.1 = ₹310।'),
+        ],
+        answer: t('₹310', '310 টাকা'),
+      },
+      tryIt: {
+        question: t('The difference between CI and SI on ₹20,000 at 5% p.a. for 3 years is:', 'বার্ষিক 5% হারে 3 বছরের জন্য ₹20,000-এর উপর CI ও SI-এর পার্থক্য হল:'),
+        options: [t('₹50', '₹50'), t('₹152.50', '₹152.50'), t('₹150', '₹150'), t('₹3152.50', '₹3152.50')],
+        correct: 1,
+        explanation: [
+          t('Difference = 20000 × (0.05)² × (3 + 0.05) = 20000 × 0.0025 × 3.05.', 'পার্থক্য = 20000 × (0.05)² × (3 + 0.05) = 20000 × 0.0025 × 3.05।'),
+          t('= 50 × 3.05 = ₹152.50. (₹50 is the 2-year formula wrongly applied to 3 years.)', '= 50 × 3.05 = ₹152.50। (₹50 হল 3 বছরে ভুল করে লাগানো 2 বছরের সূত্র।)'),
+        ],
+      },
+    },
   ],
   // Hard-bank pattern matrix (Advanced quizzes): see ./hard/interest.js.
   registry: require('./hard/interest'),

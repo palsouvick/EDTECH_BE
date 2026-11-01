@@ -547,5 +547,39 @@ module.exports = {
         ],
       },
     },
+    {
+      key: 'hcf_lcm_of_fractions',
+      emoji: '🍕',
+      name: t('HCF and LCM of fractions', 'ভগ্নাংশের গ.সা.গু. ও ল.সা.গু.'),
+      difficulty: 'intermediate',
+      typicalWording: t(r`Find the LCM and HCF of $\frac{2}{3}, \frac{3}{4}$ and $\frac{5}{6}$.`, r`$\frac{2}{3}, \frac{3}{4}$ ও $\frac{5}{6}$-এর ল.সা.গু. ও গ.সা.গু. নির্ণয় করো।`),
+      formula: t(r`$LCM = \frac{LCM \text{ of numerators}}{HCF \text{ of denominators}}$; $HCF = \frac{HCF \text{ of numerators}}{LCM \text{ of denominators}}$. (First reduce every fraction to lowest terms.)`, r`$ল.সা.গু. = \frac{লবগুলির\ ল.সা.গু.}{হরগুলির\ গ.সা.গু.}$; $গ.সা.গু. = \frac{লবগুলির\ গ.সা.গু.}{হরগুলির\ ল.সা.গু.}$। (আগে প্রতিটি ভগ্নাংশকে লঘিষ্ঠ আকারে নাও।)`),
+      shortcut: t('Cross-check by division: the LCM divided by each fraction must be a whole number, and each fraction divided by the HCF must be a whole number.', 'ভাগ দিয়ে যাচাই করো: ল.সা.গু.-কে প্রতিটি ভগ্নাংশ দিয়ে ভাগ করলে পূর্ণসংখ্যা আসতে হবে, আর প্রতিটি ভগ্নাংশকে গ.সা.গু. দিয়ে ভাগ করলেও পূর্ণসংখ্যা আসতে হবে।'),
+      trap: t('Swapping the two rules — using LCM of denominators inside the LCM — and forgetting to reduce fractions like 6/8 to 3/4 first, which corrupts both numerator and denominator sets.', 'দুটি নিয়ম অদলবদল করা — ল.সা.গু.-এর ভিতরে হরগুলির ল.সা.গু. ব্যবহার করা — এবং 6/8-কে আগে 3/4-এ না নামানো, যা লব ও হর দুই সেটকেই নষ্ট করে।'),
+      spot: t('HCF or LCM is asked for numbers that are themselves fractions (or decimals, which become fractions).', 'যেসব সংখ্যা নিজেরাই ভগ্নাংশ (বা দশমিক, যা ভগ্নাংশে বদলায়), তাদের গ.সা.গু. বা ল.সা.গু. চাওয়া হয়েছে।'),
+      method: [
+        t('Reduce every fraction to its lowest terms.', 'প্রতিটি ভগ্নাংশকে লঘিষ্ঠ আকারে নামাও।'),
+        t('For the LCM: take LCM of all numerators over HCF of all denominators.', 'ল.সা.গু.-এর জন্য: সব লবের ল.সা.গু. নাও, সব হরের গ.সা.গু.-র উপর।'),
+        t('For the HCF: take HCF of all numerators over LCM of all denominators.', 'গ.সা.গু.-এর জন্য: সব লবের গ.সা.গু. নাও, সব হরের ল.সা.গু.-র উপর।'),
+      ],
+      example: {
+        question: t('Find the LCM of 2/3, 3/4 and 5/6.', '2/3, 3/4 ও 5/6-এর ল.সা.গু. নির্ণয় করো।'),
+        steps: [
+          t('Numerators are 2, 3, 5 — their LCM is 30.', 'লবগুলি 2, 3, 5 — তাদের ল.সা.গু. 30।'),
+          t('Denominators are 3, 4, 6 — their HCF is 1.', 'হরগুলি 3, 4, 6 — তাদের গ.সা.গু. 1।'),
+          t('LCM = 30 ÷ 1 = 30. Check: 30 ÷ (2/3) = 45, 30 ÷ (3/4) = 40, 30 ÷ (5/6) = 36 — all whole.', 'ল.সা.গু. = 30 ÷ 1 = 30। যাচাই: 30 ÷ (2/3) = 45, 30 ÷ (3/4) = 40, 30 ÷ (5/6) = 36 — সবই পূর্ণসংখ্যা।'),
+        ],
+        answer: t('30', '30 (ত্রিশ)'),
+      },
+      tryIt: {
+        question: t('The HCF of 4/9 and 8/15 is:', '4/9 ও 8/15-এর গ.সা.গু. হল:'),
+        options: [t('8/3', '8/3'), t('4/45', '4/45'), t('4/15', '4/15'), t('8/45', '8/45')],
+        correct: 1,
+        explanation: [
+          t('HCF = HCF of numerators (4, 8) = 4, over LCM of denominators (9, 15) = 45.', 'গ.সা.গু. = লবগুলির (4, 8) গ.সা.গু. = 4, হরগুলির (9, 15) ল.সা.গু. = 45-এর উপর।'),
+          t('So HCF = 4/45. Check: (4/9) ÷ (4/45) = 5 and (8/15) ÷ (4/45) = 6 — both whole. (8/3 is the LCM, not the HCF.)', 'তাই গ.সা.গু. = 4/45। যাচাই: (4/9) ÷ (4/45) = 5 এবং (8/15) ÷ (4/45) = 6 — দুটোই পূর্ণসংখ্যা। (8/3 হল ল.সা.গু., গ.সা.গু. নয়।)'),
+        ],
+      },
+    },
   ],
 };

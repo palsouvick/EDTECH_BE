@@ -646,6 +646,40 @@ module.exports = {
         ],
       },
     },
+    {
+      key: 'cp_sp_ratio',
+      emoji: '⚖️',
+      name: t('Profit or loss from the CP : SP ratio', 'CP : SP অনুপাত থেকে লাভ বা ক্ষতি'),
+      difficulty: 'intermediate',
+      typicalWording: t('The ratio of cost price to selling price of an article is 4 : 5. Find the profit percent.', 'একটি জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্যের অনুপাত 4 : 5। লাভের শতাংশ নির্ণয় করো।'),
+      formula: t(r`If $CP : SP = a : b$, gain % $= \frac{b - a}{a} \times 100$ (loss % if $b < a$). The percentage is always measured on the $CP$ part.`, r`$CP : SP = a : b$ হলে লাভ % $= \frac{b - a}{a} \times 100$ ($b < a$ হলে ক্ষতি %)। শতাংশ সবসময় $CP$ অংশের উপর মাপা হয়।`),
+      shortcut: t(r`Read the difference of the parts straight off: $4 : 5$ is $1$ part gained on $4$ parts of cost $= \frac{1}{4} = 25\%$ — no prices needed.`, r`অংশগুলির পার্থক্য সরাসরি পড়ো: $4 : 5$ মানে খরচের $4$ অংশের উপর $1$ অংশ লাভ $= \frac{1}{4} = 25\%$ — কোনো দাম লাগে না।`),
+      trap: t(r`Dividing the difference by the SP part instead of the CP part: for $4 : 5$ that gives $\frac{1}{5} = 20\%$, which is wrong.`, r`পার্থক্যকে CP অংশের বদলে SP অংশ দিয়ে ভাগ করা: $4 : 5$-এর জন্য তা $\frac{1}{5} = 20\%$ দেয়, যা ভুল।`),
+      spot: t('No prices or percentages are given — only the ratio of CP to SP (or SP to CP).', 'কোনো দাম বা শতাংশ দেওয়া নেই — শুধু CP ও SP-র (বা SP ও CP-র) অনুপাত দেওয়া।'),
+      method: [
+        t('Identify which part is CP and which is SP — the order in the question decides.', 'কোন অংশ CP আর কোনটি SP চিহ্নিত করো — প্রশ্নের ক্রমই তা ঠিক করে।'),
+        t('Take the difference of the parts (SP part − CP part).', 'অংশগুলির পার্থক্য নাও (SP অংশ − CP অংশ)।'),
+        t('Divide the difference by the CP part and multiply by 100.', 'পার্থক্যকে CP অংশ দিয়ে ভাগ করে 100 দিয়ে গুণ করো।'),
+      ],
+      example: {
+        question: t('The cost price and selling price of an article are in the ratio 4 : 5. Find the profit percent.', 'একটি জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্যের অনুপাত 4 : 5। লাভের শতাংশ নির্ণয় করো।'),
+        steps: [
+          t('Let CP = ₹4k and SP = ₹5k.', 'ধরো CP = ₹4k এবং SP = ₹5k।'),
+          t('Profit = ₹5k − ₹4k = ₹k.', 'লাভ = ₹5k − ₹4k = ₹k।'),
+          t('Profit % = (k ÷ 4k) × 100 = 25%.', 'লাভ % = (k ÷ 4k) × 100 = 25%।'),
+        ],
+        answer: t('25% profit', '25% লাভ'),
+      },
+      tryIt: {
+        question: t('For an article, CP : SP = 5 : 4. The transaction results in:', 'একটি জিনিসের ক্ষেত্রে CP : SP = 5 : 4। লেনদেনটির ফল:'),
+        options: [t('25% loss', '25% ক্ষতি'), t('20% loss', '20% ক্ষতি'), t('20% profit', '20% লাভ'), t('25% profit', '25% লাভ')],
+        correct: 1,
+        explanation: [
+          t('SP part (4) is smaller than CP part (5), so it is a loss of 1 part.', 'SP অংশ (4) CP অংশ (5)-এর চেয়ে ছোট, তাই 1 অংশের ক্ষতি।'),
+          t('Loss % = (1 ÷ 5) × 100 = 20%. (25% divides by the SP part — the classic trap.)', 'ক্ষতি % = (1 ÷ 5) × 100 = 20%। (25% SP অংশ দিয়ে ভাগ করে — চিরাচরিত ফাঁদ।)'),
+        ],
+      },
+    },
   ],
   registry: [
     { id: 'mixed_sales', difficulty: 4, band: 'hard', concepts: ['profit', 'loss', 'weighted_average'], generationRule: 'Split equal-cost articles across different profit and loss rates.', solutionMethod: 'Compute aggregate CP and aggregate SP, then compare once.', name: t('Mixed profit and loss sales', 'মিশ্র লাভ-ক্ষতিতে বিক্রি') },
