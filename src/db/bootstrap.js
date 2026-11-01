@@ -12,7 +12,9 @@
  *                     when the target or the question files changed; runs in the
  *                     background after the server is listening
  *
- *   4. patterns       tags questions with their question pattern (db/patterns/match)
+ *   4. GK library     db/gk/*.jsonl facts and their questions (scripts/seedGkFacts.js), after
+ *                     the bank so links to existing questions resolve; only when the files changed
+ *   5. patterns       tags questions with their question pattern (db/patterns/match)
  *                     when the rules or the bank changed
  *
  * The first admin account is created by src/services/adminBootstrap.js.
@@ -137,12 +139,31 @@ async function tagPatterns() {
   log(`question patterns: ${tagged}/${total} questions tagged`);
 }
 
+/**
+ * Loads the GK fact library when its files changed since the last load. A library
+ * that fails validation is reported and nothing from it is written.
+ */
+async function seedGkLibrary() {
+  if (!config.seed.auto) return;
+  const gk = require('../../scripts/seedGkFacts');
+  const state = mongoose.connection.db.collection('seed_state');
+  const fingerprint = gk.libraryFingerprint();
+  if ((await state.findOne({ _id: 'gk_library' }))?.fingerprint === fingerprint) return;
+  const s = await gk.ensureGkLibrary({ log: warn });
+  await state.updateOne({ _id: 'gk_library' }, { $set: { fingerprint, at: new Date(), facts: s.facts, published: s.published } }, { upsert: true });
+  log(`GK library: ${s.facts} facts (${s.published} published, ${s.draft} held for review), ${s.questionsInserted} new questions, ${s.linked} existing questions linked`);
+  if (s.duplicates.length) warn(`GK library: questions not inserted because they repeat existing ones: ${s.duplicates.join('; ')}`);
+  if (s.unmatchedLinks.length) warn(`GK library: ${s.unmatchedLinks.length} linked stems not found in this database`);
+}
+
 /** Fire-and-forget: the API is already serving while the bank fills and gets tagged. */
 function startQuestionBankSeed() {
   seedQuestionBank()
     .catch((e) => warn(`question bank generation failed: ${e.message}`))
+    .then(() => seedGkLibrary())
+    .catch((e) => warn(`GK library not loaded: ${e.message}`))
     .then(() => tagPatterns())
     .catch((e) => warn(`pattern tagging failed: ${e.message}`));
 }
 
-module.exports = { bootstrapData, seedQuestionBank, tagPatterns, startQuestionBankSeed };
+module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagPatterns, startQuestionBankSeed };

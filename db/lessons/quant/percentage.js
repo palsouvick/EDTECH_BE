@@ -323,3 +323,100 @@ The same idea solves **price and consumption** questions: if the price of rice r
     t('Find 10% first (move the decimal one place left), then build 5%, 20% or 30% from it.', 'আগে 10% বের করো (দশমিক এক ঘর বাঁদিকে সরিয়ে), তারপর তা থেকে 5%, 20% বা 30% বানাও।'),
   ],
 };
+
+const lesson = module.exports;
+const basic = lesson.levels[0].examples;
+[
+  {
+    given: t('20% and the base number 150.', '20% এবং ভিত্তি সংখ্যা 150।'),
+    find: t('20% of 150.', '150-এর 20%।'),
+    method: t('Convert percent to a fraction over 100 and multiply.', 'শতকরাকে 100 হরের ভগ্নাংশ করে গুণ করো।'),
+    why: t('Percent means per 100, so 20% is 20/100 of the base.', 'শতকরা মানে প্রতি 100-এ; তাই ভিত্তির 20/100 হল 20%।'),
+  },
+  {
+    given: t('18 marks scored out of 25.', '25-এর মধ্যে 18 নম্বর পেয়েছে।'),
+    find: t('Percentage score.', 'শতকরা নম্বর।'),
+    method: t('Divide part by whole and multiply by 100.', 'অংশকে পূর্ণমান দিয়ে ভাগ করে 100 দিয়ে গুণ করো।'),
+    why: t('The full 25 marks represent 100%, so the fraction 18/25 must be scaled to 100.', 'পূর্ণ 25 নম্বর 100%, তাই 18/25 ভগ্নাংশকে 100-এর মাপে নিতে হবে।'),
+  },
+  {
+    given: t('45% of 500.', '500-এর 45%।'),
+    find: t('The numerical value.', 'সংখ্যাগত মান।'),
+    method: t('Multiply 45/100 by 500.', '45/100-কে 500 দিয়ে গুণ করো।'),
+    why: t('Taking a percentage means taking that fraction of the base.', 'শতকরা বার করা মানে ভিত্তির ওই ভগ্নাংশ নেওয়া।'),
+  },
+].forEach((details, index) => Object.assign(basic[index], details));
+const example = (q, g, f, m, steps, a, w) => ({
+  question: t(q[0], q[1]), given: t(g[0], g[1]), find: t(f[0], f[1]),
+  method: t(m[0], m[1]), steps: steps.map((s) => t(s[0], s[1])),
+  answer: t(a[0], a[1]), why: t(w[0], w[1]),
+});
+basic.push(
+  example(
+    ['Find 15% of 240.', '240-এর 15% নির্ণয় করো।'],
+    ['Base 240; rate 15%.', 'ভিত্তি 240; হার 15%।'], ['15% value.', '15%-এর মান।'],
+    ['Split 15% into 10% and 5%.', '15%-কে 10% ও 5%-এ ভাগ করো।'],
+    [['10% of 240 = 24; 5% is half of 10%, so it is 12.', '240-এর 10% = 24; 5% হল 10%-এর অর্ধেক, তাই 12।'], ['15% = 24 + 12 = 36.', '15% = 24 + 12 = 36, এটাই মান।']],
+    ['36', 'উত্তর 36'], ['The parts 10% and 5% together make exactly 15%.', '10% ও 5% যোগে ঠিক 15% হয়।'],
+  ),
+  example(
+    ['What is 75% of 320?', '320-এর 75% কত?'],
+    ['Base 320; rate 75%.', 'ভিত্তি 320; হার 75%।'], ['75% value.', '75%-এর মান।'],
+    ['Use 75% = 3/4.', '75% = 3/4 ব্যবহার করো।'],
+    [['75/100 simplifies to 3/4.', '75/100 সরল করলে 3/4 হয়।'], ['320 ÷ 4 = 80; then 80 × 3 = 240.', '320 ÷ 4 = 80; তারপর 80 × 3 = 240, এটাই উত্তর।']],
+    ['240', 'উত্তর 240'], ['Three quarters of 320 are 240, leaving one quarter (80).', '320-এর তিন-চতুর্থাংশ 240; বাকি এক-চতুর্থাংশ 80।'],
+  ),
+  example(
+    ['18 is what percent of 72?', '18, 72-এর শতকরা কত?'],
+    ['Part 18; base 72.', 'অংশ 18; ভিত্তি 72।'], ['Percent.', 'শতকরা হার।'],
+    ['Use part ÷ base × 100%.', 'অংশ ÷ ভিত্তি × 100% ব্যবহার করো।'],
+    [['18/72 = 1/4.', '18/72 = 1/4, অর্থাৎ এক-চতুর্থাংশ।'], ['1/4 × 100% = 25%.', '1/4 × 100% = 25%, অর্থাৎ এক-চতুর্থাংশ।']],
+    ['25%', 'শতকরা 25%'], ['18 is one quarter of 72, and one quarter equals 25%.', '18 হল 72-এর এক-চতুর্থাংশ, আর এক-চতুর্থাংশ 25%।'],
+  ),
+  example(
+    ['A price rises from ₹400 to ₹460. Find the percentage increase.', 'একটি দাম ₹400 থেকে বেড়ে ₹460 হল। শতকরা বৃদ্ধি কত?'],
+    ['Old price ₹400; new price ₹460.', 'পুরোনো দাম ₹400; নতুন দাম ₹460।'], ['Percentage increase.', 'শতকরা বৃদ্ধি।'],
+    ['Divide the increase by the old value and multiply by 100.', 'বৃদ্ধির পরিমাণকে পুরোনো মান দিয়ে ভাগ করে 100 দিয়ে গুণ করো।'],
+    [['Increase = 460 − 400 = ₹60.', 'বৃদ্ধি = 460 − 400 = ₹60।'], ['Increase percent = 60/400 × 100% = 15%.', 'শতকরা বৃদ্ধি = 60/400 × 100% = 15%।']],
+    ['15%', 'শতকরা 15%'], ['The change is measured against the starting price, not the new price.', 'পরিবর্তনটি শুরুর দামের সঙ্গে তুলনা করা হয়, নতুন দামের সঙ্গে নয়।'],
+  ),
+  example(
+    ['A ₹800 shirt has a 10% discount. What is the sale price?', '₹800 দামের জামায় 10% ছাড় আছে। বিক্রয়মূল্য কত?'],
+    ['Marked price ₹800; discount 10%.', 'লেখা দাম ₹800; ছাড় 10%।'], ['Sale price.', 'বিক্রয়মূল্য।'],
+    ['Find discount, then subtract it from the marked price.', 'ছাড়ের অঙ্ক বার করে লেখা দাম থেকে বিয়োগ করো।'],
+    [['Discount = 10/100 × 800 = ₹80.', 'ছাড় = 10/100 × 800 = ₹80।'], ['Sale price = 800 − 80 = ₹720.', 'বিক্রয়মূল্য = 800 − 80 = ₹720।']],
+    ['₹720', 'বিক্রয়মূল্য ₹720'], ['The buyer pays the remaining 90%: 0.9 × 800 = ₹720.', 'ক্রেতা বাকি 90% দেয়: 0.9 × 800 = ₹720।'],
+  ),
+  example(
+    ['A number after a 20% increase is 240. What was the original number?', '20% বৃদ্ধির পরে একটি সংখ্যা 240 হয়েছে। আসল সংখ্যাটি কত?'],
+    ['New value 240 after a 20% increase.', '20% বৃদ্ধির পরে নতুন মান 240।'], ['Original value.', 'আসল মান।'],
+    ['The new value is 120% of the original; divide by 1.2.', 'নতুন মান আসলের 120%; তাই 1.2 দিয়ে ভাগ করো।'],
+    [['After a 20% rise, multiplier = 1 + 20/100 = 1.2.', '20% বৃদ্ধির পরে গুণক = 1 + 20/100 = 1.2।'], ['Original = 240 ÷ 1.2 = 200.', 'আসল মান = 240 ÷ 1.2 = 200, এটাই আসল সংখ্যা।']],
+    ['200', 'আসল সংখ্যা 200'], ['A 20% increase means the result is 120%, not 20%, of the original.', '20% বৃদ্ধি মানে ফল আসলের 120%, 20% নয়।'],
+  ),
+  example(
+    ['A student answers 42 questions correctly out of 60. What percentage is correct?', 'একজন ছাত্র 60টি প্রশ্নের মধ্যে 42টির উত্তর ঠিক দিয়েছে। শতকরা কতটি ঠিক?'],
+    ['Correct answers 42; total questions 60.', 'ঠিক উত্তর 42টি; মোট প্রশ্ন 60টি।'], ['Correct-answer percentage.', 'সঠিক উত্তরের শতকরা হার।'],
+    ['Use correct ÷ total × 100.', 'ঠিক উত্তর ÷ মোট প্রশ্ন × 100 ব্যবহার করো।'],
+    [['Fraction correct = 42/60 = 7/10.', 'সঠিকের ভগ্নাংশ = 42/60 = 7/10।'], ['7/10 × 100% = 70%.', '7/10 × 100% = 70%, এটাই শতকরা হার।']],
+    ['70%', 'শতকরা 70%'], ['42 is seven-tenths of 60, and seven-tenths of 100 is 70.', '42 হল 60-এর সাত-দশমাংশ, আর 100-এর সাত-দশমাংশ 70।'],
+  ),
+);
+lesson.strategy = {
+  heading: t('A beginner’s percentage guide', 'নতুনদের জন্য শতকরার কৌশল'),
+  sections: [
+    { heading: t('1. Ask “percent of what?”', '1. “কিসের শতকরা?” জিজ্ঞাসা করো'), body: t('The base is the whole being compared. In “20% of 150”, the base is 150.', 'যে সম্পূর্ণ মানের সঙ্গে তুলনা, সেটিই ভিত্তি। “150-এর 20%”-এ ভিত্তি 150।') },
+    { heading: t('2. Match the question type', '2. প্রশ্নের ধরন চেনো'), body: t('For “r% of N”, multiply r/100 by N. For “A is what percent of B”, use A/B × 100.', '“N-এর r%” হলে r/100-কে N দিয়ে গুণ করো। “A, B-এর শতকরা কত” হলে A/B × 100 করো।') },
+    { heading: t('3. Compare a change to the old value', '3. পরিবর্তনকে পুরোনো মানের সঙ্গে তুলনা করো'), body: t('Increase or decrease percentage = change ÷ original value × 100. Keep the old value in the denominator.', 'শতকরা বৃদ্ধি বা হ্রাস = পরিবর্তন ÷ আসল মান × 100। হরে পুরোনো মান রাখো।') },
+    { heading: t('4. Translate discount and increase', '4. ছাড় ও বৃদ্ধি অনুবাদ করো'), body: t('A 10% discount leaves 90% of the price. A 10% increase makes 110% of the starting value.', '10% ছাড়ে দামের 90% থাকে। 10% বৃদ্ধিতে শুরুর মানের 110% হয়।') },
+    { heading: t('5. Check with an estimate', '5. আনুমানিক হিসাব দিয়ে যাচাই করো'), body: t('A percentage below 100% gives a part smaller than the base; a percentage above 100% gives a larger value.', '100%-এর কম শতকরা ভিত্তির চেয়ে ছোট অংশ দেয়; 100%-এর বেশি হলে মান বড় হয়।') },
+  ],
+};
+lesson.practice = {
+  question: t('Find 12% of 250.', '250-এর 12% নির্ণয় করো।'),
+  steps: [
+    t('10% of 250 = 25 and 2% = 5.', '250-এর 10% = 25 এবং 2% = 5।'),
+    t('12% = 25 + 5 = 30.', '12% = 25 + 5 = 30, এটাই উত্তর।'),
+  ],
+  answer: t('30', 'উত্তর 30'),
+};

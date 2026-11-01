@@ -20,4 +20,7 @@ module.exports = {
   VocabularyDailyWord: require('./VocabularyDailyWord'),
   VocabularyDailyActivity: require('./VocabularyDailyActivity'),
   VocabularyPracticeSession: require('./VocabularyPracticeSession'),
+  GkFact: require('./GkFact'),
+  ContentRevision: require('./ContentRevision'),
+  LearnProgress: require('./LearnProgress'),
 };

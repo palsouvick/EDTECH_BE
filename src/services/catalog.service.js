@@ -314,6 +314,8 @@ async function getSubject(code, subjectCode, language) {
         code: t.code,
         name: compactLocalized(t.name),
         syllabusStatus: t.syllabus_status || 'UNVERIFIED',
+        syllabusNote: compactLocalized(t.syllabus_note) ?? null,
+        syllabusSourceUrl: t.syllabus_source_url ?? null,
         ...countFor(c),
         avgDifficulty: c ? Math.round(c.avgDifficulty * 10) / 10 : null,
         difficulty: difficultyLevel(c?.avgDifficulty),

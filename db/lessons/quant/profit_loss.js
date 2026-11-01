@@ -3,6 +3,15 @@
 // Chapter lesson: Profit, Loss & Discount. Format: see ../validate.js header.
 const r = String.raw;
 const t = (en, bn) => ({ en, bn });
+const solved = (question, given, find, method, steps, answer, why) => ({
+  question: t(question[0], question[1]),
+  given: t(given[0], given[1]),
+  find: t(find[0], find[1]),
+  method: t(method[0], method[1]),
+  steps: steps.map(([en, bn]) => t(en, bn)),
+  answer: t(answer[0], answer[1]),
+  why: t(why[0], why[1]),
+});
 
 module.exports = {
   subject: 'quant',
@@ -13,6 +22,25 @@ module.exports = {
     'Every shop in the market buys things at one price and sells them at another. This chapter shows how to tell whether the shopkeeper gained or lost money, by how much, and how a "sale" discount changes the picture.',
     'বাজারের প্রতিটি দোকান একটি দামে জিনিস কেনে আর অন্য দামে বেচে। দোকানদারের লাভ হল না ক্ষতি, কতটা হল, আর "সেল"-এর ছাড় দিলে হিসাব কেমন বদলায় — এই অধ্যায়ে আমরা তা-ই শিখব।',
   ),
+  strategy: {
+    heading: t('A beginner’s decision guide', 'নতুনদের সিদ্ধান্ত নেওয়ার সহজ কৌশল'),
+    sections: [
+      { heading: t('1. Name the prices first', '1. আগে দামগুলোর নাম লেখো'), body: t('Write CP for the buying cost, SP for the selling price, and MP for the marked price. Do not mix them up.', 'কেনার দামকে CP, বিক্রির দামকে SP এবং গায়ের দামকে MP লেখো। এগুলো গুলিয়ে ফেলো না।') },
+      { heading: t('2. Decide: profit or loss?', '2. লাভ না ক্ষতি ঠিক করো'), body: t('Compare SP with CP. SP > CP means profit; SP < CP means loss; equal prices mean neither.', 'SP ও CP তুলনা করো। SP > CP হলে লাভ, SP < CP হলে ক্ষতি, আর সমান হলে লাভ-ক্ষতি কোনোটিই নেই।') },
+      { heading: t('3. Use CP as the percent base', '3. শতকরার ভিত্তি CP ধরো'), body: t('For ordinary profit or loss percent, divide the profit or loss by CP, then multiply by 100. Check the denominator before calculating.', 'সাধারণ লাভ বা ক্ষতির শতকরা হার পেতে লাভ বা ক্ষতিকে CP দিয়ে ভাগ করে 100 দিয়ে গুণ করো। হিসাবের আগে হরটি ঠিক আছে কি না দেখো।') },
+      { heading: t('4. Work backward when SP is known', '4. SP জানা থাকলে উল্টো হিসাব করো'), body: t('At p% profit, SP is (100 + p)% of CP; at p% loss, SP is (100 − p)% of CP. Divide by that percentage factor to recover CP.', 'p% লাভে SP হল CP-এর (100 + p)% ; p% ক্ষতিতে SP হল CP-এর (100 − p)%। CP পেতে SP-কে ওই শতকরা গুণক দিয়ে ভাগ করো।') },
+      { heading: t('5. Handle discounts from MP', '5. MP থেকে ছাড় হিসাব করো'), body: t('Discount = MP − SP, and discount percent is based on MP. With successive discounts, apply each discount to the new price, not the original MP.', 'ছাড় = MP − SP, আর ছাড়ের শতকরা হার MP-এর উপর হিসাব হয়। পরপর ছাড় হলে প্রতিটি ছাড় নতুন দামের উপর দাও, আগের MP-এর উপর নয়।') },
+      { heading: t('6. Check whether the result makes sense', '6. উত্তরটি যুক্তিসঙ্গত কি না মিলিয়ে নাও'), body: t('A profit makes SP larger than CP; a loss makes it smaller. A discount lowers MP. Estimate the amount and include ₹ or % in the final answer.', 'লাভ হলে SP, CP-এর চেয়ে বড়; ক্ষতি হলে ছোট। ছাড়ে MP কমে। পরিমাণটি আনুমানিক মিলিয়ে শেষ উত্তরে ₹ বা % লিখো।') },
+    ],
+  },
+  practice: {
+    question: t('A book costs ₹640. Find its selling price at a profit of 12.5%.', 'একটি বইয়ের ক্রয়মূল্য ₹640। 12.5% লাভে বিক্রয়মূল্য কত?'),
+    steps: [
+      t('Profit = 12.5% of ₹640 = 640 ÷ 8 = ₹80.', 'লাভ = ₹640-এর 12.5% = 640 ÷ 8 = ₹80।'),
+      t('SP = CP + profit = 640 + 80 = ₹720.', 'SP = CP + লাভ = 640 + 80 = ₹720।'),
+    ],
+    answer: t('₹720', 'বিক্রয়মূল্য ₹720।'),
+  },
   levels: [
     // ───────────────────────────── BASIC ─────────────────────────────
     {
@@ -73,28 +101,103 @@ $$\text{SP} = \text{CP} \times \frac{100 + \text{profit \%}}{100} \quad \text{or
       examples: [
         {
           question: t('Ravi buys a pen for ₹20 and sells it for ₹25. Find his profit percent.', 'রবি ₹20 দিয়ে একটি কলম কিনে ₹25-এ বিক্রি করল। তার শতকরা লাভ কত?'),
+          given: t('CP = ₹20; SP = ₹25.', 'ক্রয়মূল্য CP = ₹20; বিক্রয়মূল্য SP = ₹25।'),
+          find: t('Profit percent.', 'শতকরা লাভ।'),
+          method: t('Find profit, then divide it by CP and multiply by 100.', 'লাভ বের করে CP দিয়ে ভাগ করে 100 দিয়ে গুণ করি।'),
           steps: [
             t('Profit = 25 − 20 = ₹5.', 'লাভ = 25 − 20 = ₹5।'),
             t(r`Profit % $= \frac{5}{20} \times 100 = 25$.`, r`শতকরা লাভ $= \frac{5}{20} \times 100 = 25$।`),
           ],
           answer: t('25% profit', '25% লাভ'),
+          why: t('The ₹5 gain is one quarter of the ₹20 cost.', '₹5 লাভ হল ₹20 ক্রয়মূল্যের এক-চতুর্থাংশ।'),
         },
         {
           question: t('A shopkeeper buys a toy for ₹80 and sells it for ₹68. Find the loss percent.', 'একজন দোকানদার ₹80 দিয়ে একটি খেলনা কিনে ₹68-এ বিক্রি করল। শতকরা ক্ষতি কত?'),
+          given: t('CP = ₹80; SP = ₹68.', 'ক্রয়মূল্য CP = ₹80; বিক্রয়মূল্য SP = ₹68।'),
+          find: t('Loss percent.', 'শতকরা ক্ষতি।'),
+          method: t('Find loss, then compare it with CP.', 'ক্ষতি বের করে CP-এর সঙ্গে তুলনা করি।'),
           steps: [
             t('Loss = 80 − 68 = ₹12.', 'ক্ষতি = 80 − 68 = ₹12।'),
             t(r`Loss % $= \frac{12}{80} \times 100 = 15$.`, r`শতকরা ক্ষতি $= \frac{12}{80} \times 100 = 15$।`),
           ],
           answer: t('15% loss', '15% ক্ষতি'),
+          why: t('The ₹12 loss is 12 out of every 80 rupees of cost.', '₹12 ক্ষতি হল প্রতি ₹80 ক্রয়মূল্যের মধ্যে ₹12।'),
         },
         {
           question: t('An article bought for ₹1200 is sold at a profit of 10%. Find the selling price.', '₹1200-এ কেনা একটি জিনিস 10% লাভে বিক্রি করা হল। বিক্রয়মূল্য কত?'),
+          given: t('CP = ₹1200; profit = 10%.', 'ক্রয়মূল্য CP = ₹1200; লাভ = 10%।'),
+          find: t('Selling price (SP).', 'বিক্রয়মূল্য (SP)।'),
+          method: t('Add the profit amount to CP.', 'লাভের পরিমাণ CP-এর সঙ্গে যোগ করি।'),
           steps: [
             t(r`$10\%$ of 1200 is 120.`, r`1200-এর $10\%$ হল 120।`),
             t('SP = 1200 + 120 = ₹1320.', 'বিক্রয়মূল্য = 1200 + 120 = ₹1320।'),
           ],
           answer: t('SP = ₹1320', 'বিক্রয়মূল্য ₹1320'),
+          why: t('A 10% gain adds one tenth of the cost to the cost.', '10% লাভ মানে ক্রয়মূল্যের এক-দশমাংশ ক্রয়মূল্যের সঙ্গে যোগ হয়।'),
         },
+        solved(
+          ['A bag costs ₹500 and sells for ₹575. Find the profit percent.', 'একটি ব্যাগের ক্রয়মূল্য ₹500 এবং বিক্রয়মূল্য ₹575। শতকরা লাভ কত?'],
+          ['CP = ₹500; SP = ₹575.', 'ক্রয়মূল্য CP = ₹500; বিক্রয়মূল্য SP = ₹575।'],
+          ['Profit percent.', 'শতকরা লাভ।'],
+          ['Subtract CP from SP, then use CP as the base.', 'SP থেকে CP বিয়োগ করে CP-কে ভিত্তি ধরি।'],
+          [['Profit = 575 − 500 = ₹75.', 'লাভ = 575 − 500 = ₹75।'], [r`Profit % $= \frac{75}{500}\times100=15\%$.`, r`লাভের হার $= \frac{75}{500}\times100=15\%$।`]],
+          ['15% profit.', '15% লাভ।'],
+          ['₹75 is 15 hundredths of the ₹500 cost.', '₹75 হল ₹500 ক্রয়মূল্যের 15 শতকাংশ।'],
+        ),
+        solved(
+          ['An item costs ₹800 and is sold at a 10% loss. Find its selling price.', 'একটি জিনিসের ক্রয়মূল্য ₹800 এবং 10% ক্ষতিতে বিক্রি হল। বিক্রয়মূল্য কত?'],
+          ['CP = ₹800; loss = 10%.', 'CP = ₹800; ক্ষতি = 10%।'],
+          ['Selling price (SP).', 'বিক্রয়মূল্য (SP)।'],
+          ['Find the loss amount and subtract it from CP.', 'ক্ষতির পরিমাণ বের করে CP থেকে বিয়োগ করি।'],
+          [['Loss = 10% of 800 = ₹80.', 'ক্ষতি = 800-এর 10% = ₹80।'], ['SP = 800 − 80 = ₹720.', 'বিক্রয়মূল্য SP = 800 − 80 = ₹720।']],
+          ['₹720.', 'বিক্রয়মূল্য ₹720।'],
+          ['After losing ₹80 from the ₹800 cost, ₹720 remains as the sale price.', '₹800 ক্রয়মূল্য থেকে ₹80 ক্ষতি বাদ দিলে বিক্রয়মূল্য ₹720 থাকে।'],
+        ),
+        solved(
+          ['An article sells for ₹990 at a profit of 10%. Find its cost price.', 'একটি জিনিস 10% লাভে ₹990-এ বিক্রি হয়। ক্রয়মূল্য কত?'],
+          ['SP = ₹990; profit = 10%.', 'SP = ₹990; লাভ = 10%।'],
+          ['Cost price (CP).', 'ক্রয়মূল্য (CP)।'],
+          ['At 10% profit, SP is 110% of CP; divide SP by 1.10.', '10% লাভে SP হল CP-এর 110%; SP-কে 1.10 দিয়ে ভাগ করি।'],
+          [['110% = 1.10, so CP = 990 ÷ 1.10.', '110% = 1.10, তাই CP = 990 ÷ 1.10।'], ['CP = ₹900; check: 10% of 900 is ₹90 and 900 + 90 = 990.', 'CP = ₹900; মিলিয়ে দেখি: 900-এর 10% হল ₹90 এবং 900 + 90 = 990।']],
+          ['₹900.', 'ক্রয়মূল্য ₹900।'],
+          ['Adding 10% to ₹900 gives the stated ₹990 selling price.', '₹900-এর সঙ্গে 10% যোগ করলে প্রশ্নের ₹990 বিক্রয়মূল্যই হয়।'],
+        ),
+        solved(
+          ['An item sells for ₹540 at a loss of 10%. Find its cost price.', 'একটি জিনিস 10% ক্ষতিতে ₹540-এ বিক্রি হয়। ক্রয়মূল্য কত?'],
+          ['SP = ₹540; loss = 10%.', 'SP = ₹540; ক্ষতি = 10%।'],
+          ['Cost price (CP).', 'ক্রয়মূল্য (CP)।'],
+          ['At 10% loss, SP is 90% of CP; divide by 0.90.', '10% ক্ষতিতে SP হল CP-এর 90%; 0.90 দিয়ে ভাগ করি।'],
+          [['90% = 0.90, so CP = 540 ÷ 0.90.', '90% = 0.90, তাই CP = 540 ÷ 0.90।'], ['CP = ₹600; the loss is 600 − 540 = ₹60, which is 10% of 600.', 'CP = ₹600; ক্ষতি 600 − 540 = ₹60, যা 600-এর 10%।']],
+          ['₹600.', 'ক্রয়মূল্য ₹600।'],
+          ['₹540 is 90% of ₹600, leaving exactly a 10% loss.', '₹540 হল ₹600-এর 90%, অর্থাৎ ঠিক 10% ক্ষতি হয়েছে।'],
+        ),
+        solved(
+          ['A shirt has a marked price of ₹200 and a discount of 15%. Find its selling price.', 'একটি জামার গায়ের দাম ₹200 এবং ছাড় 15%। বিক্রয়মূল্য কত?'],
+          ['MP = ₹200; discount = 15%.', 'MP = ₹200; ছাড় = 15%।'],
+          ['Selling price after discount.', 'ছাড়ের পর বিক্রয়মূল্য।'],
+          ['Subtract the discount, calculated on MP.', 'MP-এর উপর ছাড় হিসাব করে তা বিয়োগ করি।'],
+          [['Discount = 15% of 200 = ₹30.', 'ছাড় = 200-এর 15% = ₹30।'], ['SP = MP − discount = 200 − 30 = ₹170.', 'SP = MP − ছাড় = 200 − 30 = ₹170।']],
+          ['₹170.', 'বিক্রয়মূল্য ₹170।'],
+          ['The buyer pays the marked price less the ₹30 reduction.', 'ক্রেতা গায়ের দাম থেকে ₹30 কম দিয়ে, অর্থাৎ ₹170 দেয়।'],
+        ),
+        solved(
+          ['A marked price of ₹1500 receives successive discounts of 20% and 10%. Find the final price.', '₹1500 গায়ের দামে পরপর 20% ও 10% ছাড় দেওয়া হল। শেষ দাম কত?'],
+          ['MP = ₹1500; discounts = 20%, then 10%.', 'MP = ₹1500; ছাড় যথাক্রমে 20%, তারপর 10%।'],
+          ['Final selling price.', 'শেষ বিক্রয়মূল্য।'],
+          ['Apply each discount to the price remaining at that step.', 'প্রতিটি ধাপে যে দাম থাকে, তার উপর পরের ছাড় দিই।'],
+          [['After 20% off: 1500 × 80/100 = ₹1200.', '20% ছাড়ের পর: 1500 × 80/100 = ₹1200।'], ['After another 10% off: 1200 × 90/100 = ₹1080.', 'আরও 10% ছাড়ের পর: 1200 × 90/100 = ₹1080।']],
+          ['₹1080.', 'শেষ দাম ₹1080।'],
+          ['The second discount is 10% of ₹1200, not 10% of the original ₹1500.', 'দ্বিতীয় ছাড়টি ₹1200-এর 10%, মূল ₹1500-এর 10% নয়।'],
+        ),
+        solved(
+          ['An item costs ₹400. Find its selling price at a profit of 25%.', 'একটি জিনিসের ক্রয়মূল্য ₹400। 25% লাভে বিক্রয়মূল্য কত?'],
+          ['CP = ₹400; profit = 25%.', 'CP = ₹400; লাভ = 25%।'],
+          ['Selling price (SP).', 'বিক্রয়মূল্য (SP)।'],
+          ['Calculate 25% of CP and add it to CP.', 'CP-এর 25% বের করে CP-এর সঙ্গে যোগ করি।'],
+          [['Profit = 400 × 25/100 = ₹100.', 'লাভ = 400 × 25/100 = ₹100।'], ['SP = 400 + 100 = ₹500.', 'বিক্রয়মূল্য SP = 400 + 100 = ₹500।']],
+          ['₹500.', 'বিক্রয়মূল্য ₹500।'],
+          ['A 25% profit adds one quarter of ₹400, which is ₹100.', '25% লাভ মানে ₹400-এর এক-চতুর্থাংশ, অর্থাৎ ₹100 যোগ হয়।'],
+        ),
       ],
     },
     // ───────────────────────────── INTERMEDIATE ─────────────────────────────

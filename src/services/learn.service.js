@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Learn section: Math and English chapters, each with a lesson
+ * Learn section: Math, English and General Knowledge chapters. Math and English have a lesson
  * (db/lessons, basic -> advanced, English + Bengali) and quizzes at three levels.
  *
  * Quiz levels come from question difficulty (1-5):
@@ -31,6 +31,7 @@ const { Question } = require('../models');
 const { langSetsContaining } = require('../models/schemas/localized');
 const catalog = require('../../db/seed/catalog');
 const { loadLessons } = require('../../db/lessons');
+const { getPatterns } = require('./patterns.service');
 const AppError = require('../utils/AppError');
 const { gradeAnswers } = require('./grading');
 const { signToken, verifySignedToken } = require('./signedToken');
@@ -40,6 +41,8 @@ const { HARD_AUTHORS, MIX: HARD_MIX, MIN_PATTERNS_PER_QUIZ, MAX_PER_PATTERN, har
 const SUBJECTS = [
   { code: 'quant', title: { en: 'Math', bn: 'গণিত', hi: 'गणित' }, emoji: '🔢' },
   { code: 'english', title: { en: 'English', bn: 'ইংরেজি', hi: 'अंग्रेज़ी' }, emoji: '🔤' },
+  // General Knowledge: the GS chapters. Its dashboard (cards, facts) is served by gk.service.
+  { code: 'gs', title: { en: 'General Knowledge', bn: 'সাধারণ জ্ঞান', hi: 'सामान्य ज्ञान' }, emoji: '🌏' },
 ];
 const LEVELS = [
   { level: 'beginner', difficulties: [1, 2], borrow: [], timed: false },
@@ -302,8 +305,22 @@ async function hardCandidates(bank, match, excludedIds = [], excludedFingerprint
   }).select(`${PUBLIC_QUESTION_FIELDS} pattern_variant`).lean();
 }
 
-async function createQuiz({ subject, topic, level, exclude = [], excludeFingerprints = [], recentPatterns = [] }) {
+function selectPatternQuestions(candidates) {
+  const unique = new Map();
+  for (const question of candidates) {
+    const fingerprint = fingerprintOf(question);
+    if (!unique.has(fingerprint)) unique.set(fingerprint, question);
+  }
+  return shuffle([...unique.values()]).slice(0, QUIZ_SIZE);
+}
+
+async function createQuiz({ subject, topic, level, pattern, exclude = [], excludeFingerprints = [], recentPatterns = [] }) {
   topicOr404(subject, topic);
+  if (pattern) {
+    const bank = hardBankFor(subject, topic);
+    const known = getPatterns({ subject, topic }).patterns.some((item) => item.key === pattern) || bank?.byId.has(pattern);
+    if (!known) throw AppError.unprocessable('UNKNOWN_PATTERN', 'This question pattern is not available for the chapter.');
+  }
   const pool = levelPools((await difficultyCounts())[`${subject}.${topic}`], { subject, topic }).find((p) => p.level === level);
   if (!pool.count) throw AppError.unprocessable('NO_QUESTIONS', 'This level has no questions yet');
 
@@ -312,25 +329,39 @@ async function createQuiz({ subject, topic, level, exclude = [], excludeFingerpr
   let selected;
   let restarted = false;
   if (bank) {
-    const match = baseFilter(subject, topic);
-    selected = selectHard(bank, await hardCandidates(bank, match, seen, excludeFingerprints), recentPatterns);
+    const match = { ...baseFilter(subject, topic), ...(pattern && { pattern }) };
+    const candidates = await hardCandidates(bank, match, seen, excludeFingerprints);
+    selected = pattern ? selectPatternQuestions(candidates) : selectHard(bank, candidates, recentPatterns);
     if (!selected.length) {
       // Every bank question seen recently: start a new cycle over the whole bank.
       restarted = true;
-      selected = selectHard(bank, await hardCandidates(bank, match), recentPatterns);
+      const allCandidates = await hardCandidates(bank, match);
+      selected = pattern ? selectPatternQuestions(allCandidates) : selectHard(bank, allCandidates, recentPatterns);
     }
     if (!selected.length) {
+      if (pattern) {
+        throw AppError.unprocessable('NO_PATTERN_QUESTIONS', 'No questions for this pattern are available at this level yet.');
+      }
       // Never fall back to easier questions: Advanced here means the Hard bank or nothing.
       throw AppError.unprocessable('HARD_POOL_NOT_READY', 'The Advanced question bank for this chapter is still being prepared. Please try Intermediate for now.');
     }
   } else {
     // General pool; Hard-bank questions are reserved for Advanced in their own chapters.
-    const match = { ...baseFilter(subject, topic), difficulty: { $in: pool.difficulties }, authored_by: { $nin: HARD_AUTHORS } };
+    const match = {
+      ...baseFilter(subject, topic),
+      difficulty: { $in: pool.difficulties },
+      authored_by: { $nin: HARD_AUTHORS },
+      ...(pattern && { pattern }),
+    };
+    const targetCount = Math.min(QUIZ_SIZE, await Question.countDocuments(match));
     const fresh = await sample({ ...match, _id: { $nin: seen } }, QUIZ_SIZE);
     // Every question seen already: start the cycle again, still avoiding repeats within this quiz.
-    restarted = fresh.length < Math.min(QUIZ_SIZE, pool.count);
-    const refill = restarted ? await sample({ ...match, _id: { $nin: fresh.map((q) => q._id) } }, QUIZ_SIZE - fresh.length) : [];
+    restarted = fresh.length < targetCount;
+    const refill = restarted ? await sample({ ...match, _id: { $nin: fresh.map((q) => q._id) } }, targetCount - fresh.length) : [];
     selected = [...fresh, ...refill];
+    if (pattern && !selected.length) {
+      throw AppError.unprocessable('NO_PATTERN_QUESTIONS', 'No questions for this pattern are available at this level yet.');
+    }
   }
 
   const questions = shuffle(selected).map((q, i) => {
@@ -341,6 +372,7 @@ async function createQuiz({ subject, topic, level, exclude = [], excludeFingerpr
     subject,
     topic,
     level,
+    ...(pattern && { pattern }),
     timed: pool.timed,
     timeLimitSec: pool.timed ? questions.length * SECONDS_PER_ADVANCED_QUESTION : null,
     source: pool.source,

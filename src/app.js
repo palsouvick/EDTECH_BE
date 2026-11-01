@@ -17,6 +17,8 @@ function createApp() {
   app.use(helmet());
   // A 50-question bilingual mock is ~60-90 KB of JSON; gzip cuts it ~5x for mobile users.
   app.use(compression({ threshold: 1024 }));
+  // GK bulk import (admin only, checked by requireAdmin before use) carries up to 500 facts.
+  app.use('/api/v1/admin/gk/import', express.json({ limit: '2mb' }));
   app.use(express.json({ limit: '100kb' }));
 
   app.get('/healthz', (_req, res) => {

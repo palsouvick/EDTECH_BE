@@ -13,6 +13,7 @@
  */
 
 const EXAM_DETAILS = require('./exams');
+const { cardOf } = require('../../src/services/gkTaxonomy');
 
 const L = (en, bn, hi) => ({ en, bn, hi });
 
@@ -58,6 +59,12 @@ const T = {
   general_science: L('General Science', 'সাধারণ বিজ্ঞান', 'सामान्य विज्ञान'),
   current_affairs: L('Current Affairs', 'সাম্প্রতিক ঘটনাবলি', 'समसामयिकी'),
   banking_awareness: L('Banking Awareness', 'ব্যাংকিং সচেতনতা', 'बैंकिंग जागरूकता'),
+  // General Knowledge chapters added with the GK section (src/services/gkTaxonomy.js)
+  indian_gk: L('Indian GK', 'ভারত সাধারণ জ্ঞান', 'भारत सामान्य ज्ञान'),
+  static_gk: L('Static GK', 'স্থির সাধারণ জ্ঞান', 'स्थैतिक सामान्य ज्ञान'),
+  art_culture: L('Art & Culture', 'শিল্প ও সংস্কৃতি', 'कला और संस्कृति'),
+  environment: L('Environment & Ecology', 'পরিবেশ ও বাস্তুবিদ্যা', 'पर्यावरण और पारिस्थितिकी'),
+  computer_awareness: L('Computer Awareness', 'কম্পিউটার সচেতনতা', 'कंप्यूटर जागरूकता'),
   west_bengal_gk: L('West Bengal GK', 'পশ্চিমবঙ্গ সাধারণ জ্ঞান', 'पश्चिम बंगाल सामान्य ज्ञान'),
 };
 
@@ -120,6 +127,10 @@ const PROFIT_LOSS_SUBTOPICS = [
   { code: 'cp_sp_articles', name: L('Cost Price and Selling Price of Articles', 'জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্য', 'वस्तुओं का क्रय मूल्य और विक्रय मूल्य') },
 ];
 
+/** A GK chapter's subcategories, from the GK taxonomy (empty for other chapters). */
+const gkSubtopics = (code) =>
+  Object.entries(cardOf(code)?.subtopics || {}).map(([sub, name]) => ({ code: sub, name: { ...name, hi: name.en } }));
+
 const topics = (...codes) =>
   codes.map((code) => ({
     code,
@@ -131,7 +142,7 @@ const topics = (...codes) =>
         ? PERCENTAGE_SUBTOPICS
         : code === 'profit_loss'
           ? PROFIT_LOSS_SUBTOPICS
-          : VOCABULARY_SUBTOPICS[code] || [],
+          : VOCABULARY_SUBTOPICS[code] || gkSubtopics(code),
   }));
 
 const QUANT = topics(
@@ -151,7 +162,52 @@ const GS_CORE = ['indian_history', 'geography', 'polity', 'economy', 'general_sc
 const quant = { code: 'quant', name: L('Quantitative Aptitude', 'পরিমাণগত দক্ষতা', 'मात्रात्मक योग्यता'), topics: QUANT };
 const english = { code: 'english', name: L('English Language', 'ইংরেজি ভাষা', 'अंग्रेज़ी भाषा'), topics: ENGLISH };
 const reasoning = (name) => ({ code: 'reasoning', name, topics: REASONING });
-const gs = (name, extra = []) => ({ code: 'gs', name, topics: topics(...GS_CORE, ...extra) });
+const gs = (name, extra = [], syllabus = {}) => ({
+  code: 'gs',
+  name,
+  topics: topics(...GS_CORE, ...extra).map((t) => (syllabus[t.code] ? { ...t, ...syllabus[t.code] } : t)),
+});
+
+/**
+ * WBPSC General Studies: which official syllabus line covers each chapter.
+ * Quoted from the Commission's scheme-and-syllabus PDFs (read 31 Oct 2026):
+ *  - Clerkship 2024, Part-I GS: "Matters of everyday observation including everyday science,
+ *    current events and problems with special reference to India and elementary knowledge of
+ *    Indian History and Indian Geography."
+ *  - Miscellaneous Services 2024, GS: "Questions will be set to test General Knowledge of a
+ *    candidate in different spheres."
+ *  - WBCS 2024 Prelims sections (db/seed/exams.js): General Science; Current Events of National &
+ *    International Importance; History of India; Geography of India (with special reference to
+ *    West Bengal); Indian Polity & Economy; Indian National Movement.
+ * SSC, banking and WB Post keep their existing chapters until their syllabus text is checked.
+ */
+const WBPSC_SRC = {
+  clerkship: 'https://psc.wb.gov.in/Download?param1=Clerkship2024-SchemeSyllabus.pdf&param2=advertisement',
+  misc: 'https://psc.wb.gov.in/Download?param1=20260425210212_SCHEME_SYLLABUS_13_2024.pdf&param2=advertisement',
+  wbcs: 'https://psc.wb.gov.in/Download?param1=20251114121739_SCHEME_SYLLABUS-2024_Final.pdf&param2=advertisement',
+};
+const covered = (url, en, bn) => ({ syllabus_status: 'SYLLABUS', syllabus_source_url: url, syllabus_note: { en, bn } });
+const WBPSC_GS_SYLLABUS = {
+  indian_history: covered(WBPSC_SRC.clerkship, 'Clerkship: "elementary knowledge of Indian History"; WBCS: History of India, Indian National Movement.', 'ক্লার্কশিপ: "ভারতের ইতিহাসের প্রাথমিক জ্ঞান"; WBCS: ভারতের ইতিহাস, ভারতের জাতীয় আন্দোলন।'),
+  geography: covered(WBPSC_SRC.clerkship, 'Clerkship: "Indian Geography"; WBCS: Geography of India (with special reference to West Bengal).', 'ক্লার্কশিপ: "ভারতের ভূগোল"; WBCS: ভারতের ভূগোল (পশ্চিমবঙ্গের বিশেষ উল্লেখসহ)।'),
+  general_science: covered(WBPSC_SRC.clerkship, 'Clerkship: "everyday science"; WBCS: General Science.', 'ক্লার্কশিপ: "দৈনন্দিন বিজ্ঞান"; WBCS: সাধারণ বিজ্ঞান।'),
+  current_affairs: covered(WBPSC_SRC.clerkship, 'Clerkship: "current events"; WBCS: Current Events of National & International Importance.', 'ক্লার্কশিপ: "সাম্প্রতিক ঘটনা"; WBCS: জাতীয় ও আন্তর্জাতিক গুরুত্বপূর্ণ সাম্প্রতিক ঘটনা।'),
+  polity: covered(WBPSC_SRC.wbcs, 'WBCS: Indian Polity & Economy. Not named in the Clerkship syllabus.', 'WBCS: ভারতীয় রাষ্ট্রব্যবস্থা ও অর্থনীতি। ক্লার্কশিপ সিলেবাসে আলাদা করে উল্লেখ নেই।'),
+  economy: covered(WBPSC_SRC.wbcs, 'WBCS: Indian Polity & Economy. Not named in the Clerkship syllabus.', 'WBCS: ভারতীয় রাষ্ট্রব্যবস্থা ও অর্থনীতি। ক্লার্কশিপ সিলেবাসে আলাদা করে উল্লেখ নেই।'),
+  west_bengal_gk: covered(WBPSC_SRC.wbcs, 'WBCS: Geography of India "with special reference to West Bengal"; Miscellaneous: General Knowledge in different spheres.', 'WBCS: ভারতের ভূগোল "পশ্চিমবঙ্গের বিশেষ উল্লেখসহ"; মিসলেনিয়াস: বিভিন্ন ক্ষেত্রে সাধারণ জ্ঞান।'),
+  indian_gk: covered(WBPSC_SRC.clerkship, 'Clerkship: "matters of everyday observation … with special reference to India"; Miscellaneous: General Knowledge in different spheres.', 'ক্লার্কশিপ: "দৈনন্দিন পর্যবেক্ষণের বিষয় … ভারতের বিশেষ উল্লেখসহ"; মিসলেনিয়াস: বিভিন্ন ক্ষেত্রে সাধারণ জ্ঞান।'),
+  static_gk: covered(WBPSC_SRC.misc, 'Miscellaneous Services: "General Knowledge of a candidate in different spheres". Not named in the Clerkship or WBCS syllabus.', 'মিসলেনিয়াস সার্ভিসেস: "বিভিন্ন ক্ষেত্রে প্রার্থীর সাধারণ জ্ঞান"। ক্লার্কশিপ বা WBCS সিলেবাসে আলাদা করে উল্লেখ নেই।'),
+  art_culture: covered(WBPSC_SRC.misc, 'Miscellaneous Services: "General Knowledge of a candidate in different spheres". Not named in the Clerkship or WBCS syllabus.', 'মিসলেনিয়াস সার্ভিসেস: "বিভিন্ন ক্ষেত্রে প্রার্থীর সাধারণ জ্ঞান"। ক্লার্কশিপ বা WBCS সিলেবাসে আলাদা করে উল্লেখ নেই।'),
+  environment: covered(WBPSC_SRC.misc, 'Miscellaneous Services: "General Knowledge of a candidate in different spheres". Not named in the Clerkship or WBCS syllabus.', 'মিসলেনিয়াস সার্ভিসেস: "বিভিন্ন ক্ষেত্রে প্রার্থীর সাধারণ জ্ঞান"। ক্লার্কশিপ বা WBCS সিলেবাসে আলাদা করে উল্লেখ নেই।'),
+  computer_awareness: {
+    syllabus_status: 'SUPPLEMENTARY',
+    syllabus_source_url: WBPSC_SRC.clerkship,
+    syllabus_note: {
+      en: 'Clerkship tests "elementary knowledge in Computer operation" practically, after Part-I and Part-II; it is not part of the objective GS paper.',
+      bn: 'ক্লার্কশিপে "কম্পিউটার পরিচালনার প্রাথমিক জ্ঞান" পার্ট-I ও পার্ট-II-এর পরে হাতে-কলমে যাচাই হয়; এটি অবজেক্টিভ সাধারণ পাঠ পত্রের অংশ নয়।',
+    },
+  },
+};
 
 const exam = (code, en, bn = en, hi = en) => ({ code, name: L(en, bn, hi), stages: [], ...EXAM_DETAILS[code] });
 
@@ -198,7 +254,7 @@ module.exports = [
       quant,
       reasoning(L('Reasoning & Mental Ability', 'যুক্তি ও মানসিক দক্ষতা', 'तर्क और मानसिक क्षमता')),
       english,
-      gs(L('General Studies', 'সাধারণ পাঠ', 'सामान्य अध्ययन'), ['west_bengal_gk']),
+      gs(L('General Studies', 'সাধারণ পাঠ', 'सामान्य अध्ययन'), ['west_bengal_gk', 'indian_gk', 'static_gk', 'art_culture', 'environment', 'computer_awareness'], WBPSC_GS_SYLLABUS),
     ],
   },
   {

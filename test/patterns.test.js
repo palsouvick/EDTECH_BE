@@ -27,3 +27,19 @@ test('service returns a chapter\'s patterns, or an empty list', () => {
   assert.ok(getPatterns({ subject: 'quant', topic: 'percentage' }).patterns.length >= 3);
   assert.deepEqual(getPatterns({ subject: 'gs', topic: 'current_affairs' }).patterns, []);
 });
+
+test('Time & Work has a categorized pattern library linked to the question bank', () => {
+  const { doc } = docs.find(({ doc }) => doc.subject === 'quant' && doc.topic === 'time_work');
+  const keys = new Set(doc.patterns.map(({ key }) => key));
+  const registryIds = new Set(doc.registry.map(({ id }) => id));
+
+  assert.ok(doc.patterns.length >= 15);
+  for (const pattern of doc.patterns) {
+    assert.ok(pattern.name?.en && pattern.spot?.bn && pattern.typicalWording?.en);
+    assert.ok(pattern.formula?.en && pattern.method.length >= 2 && pattern.shortcut?.bn && pattern.trap?.en);
+    assert.ok(['beginner', 'intermediate', 'advanced'].includes(pattern.difficulty));
+    if (pattern.important) assert.ok((pattern.examples?.length ?? 1) >= 2 || pattern.tryIt);
+    if (pattern.registryLinked) assert.ok(registryIds.has(pattern.key));
+    if (pattern.practiceKey) assert.ok(keys.has(pattern.practiceKey) || registryIds.has(pattern.practiceKey));
+  }
+});

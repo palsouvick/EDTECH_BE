@@ -284,3 +284,102 @@ $$\frac{\text{সস্তার পরিমাণ}}{\text{দামির প�
     t('Simplify the ratio at the end, e.g. 8 : 30 = 4 : 15.', 'শেষে অনুপাতটা লঘিষ্ঠ আকারে আনো, যেমন 8 : 30 = 4 : 15।'),
   ],
 };
+
+const lesson = module.exports;
+const basic = lesson.levels[0].examples;
+[
+  {
+    given: t('3 kg at ₹20/kg and 1 kg at ₹40/kg.', '₹20/কেজি দামের 3 কেজি এবং ₹40/কেজি দামের 1 কেজি।'),
+    find: t('Mixture price per kg.', 'মিশ্রণের প্রতি কেজির দাম।'),
+    method: t('Use total cost divided by total weight.', 'মোট দামকে মোট ওজন দিয়ে ভাগ করো।'),
+    why: t('Every kilogram contributes its own cost, so total cost must be spread over all kilograms.', 'প্রতিটি কেজির নিজস্ব দাম আছে, তাই মোট দাম সব কেজির মধ্যে ভাগ করতে হবে।'),
+  },
+  {
+    given: t('8 kg at ₹45/kg and 2 kg at ₹61/kg.', '₹45/কেজি দামের 8 কেজি এবং ₹61/কেজি দামের 2 কেজি।'),
+    find: t('Mixture price per kg.', 'মিশ্রণের প্রতি কেজির দাম।'),
+    method: t('Find the weighted average using cost and weight.', 'দাম ও ওজন ব্যবহার করে ভারযুক্ত গড় বার করো।'),
+    why: t('The larger 8 kg amount should pull the mean closer to ₹45 than ₹61.', 'বেশি 8 কেজি পরিমাণের কারণে গড় দাম ₹61-এর চেয়ে ₹45-এর কাছে হবে।'),
+  },
+].forEach((details, index) => Object.assign(basic[index], details));
+
+const example = (q, g, f, m, steps, a, w) => ({
+  question: t(q[0], q[1]), given: t(g[0], g[1]), find: t(f[0], f[1]),
+  method: t(m[0], m[1]), steps: steps.map((s) => t(s[0], s[1])),
+  answer: t(a[0], a[1]), why: t(w[0], w[1]),
+});
+basic.push(
+  example(
+    ['2 kg of tea at ₹50/kg is mixed with 3 kg at ₹70/kg. Find the mean price per kg.', '₹50/কেজি দামের 2 কেজি চায়ের সঙ্গে ₹70/কেজি দামের 3 কেজি মেশানো হল। প্রতি কেজির গড় দাম কত?'],
+    ['2 kg at ₹50/kg; 3 kg at ₹70/kg.', '₹50/কেজি দামের 2 কেজি; ₹70/কেজি দামের 3 কেজি।'],
+    ['Mean price per kg.', 'প্রতি কেজির গড় দাম।'], ['Weighted average.', 'ভারযুক্ত গড়।'],
+    [['Total cost = 2 × 50 + 3 × 70 = ₹310.', 'মোট দাম = 2 × 50 + 3 × 70 = ₹310।'], ['Total weight = 2 + 3 = 5 kg; mean = 310 ÷ 5 = ₹62/kg.', 'মোট ওজন = 2 + 3 = 5 কেজি; গড় দাম = 310 ÷ 5 = ₹62/কেজি।']],
+    ['₹62/kg', '₹62/কেজি'], ['The result lies between ₹50 and ₹70 and is closer to ₹70 because more of the dearer tea was used.', 'উত্তর ₹50 ও ₹70-এর মাঝে এবং ₹70-এর কাছে, কারণ দামি চা বেশি নেওয়া হয়েছে।'],
+  ),
+  example(
+    ['Mix rice at ₹24/kg and ₹36/kg to get a mixture worth ₹30/kg. Find the cheaper-to-dearer ratio.', '₹24/কেজি ও ₹36/কেজি দামের চাল মিশিয়ে ₹30/কেজির মিশ্রণ বানাতে সস্তা ও দামি চালের অনুপাত কত হবে?'],
+    ['Cheaper ₹24/kg, dearer ₹36/kg, mean ₹30/kg.', 'সস্তা ₹24/কেজি, দামি ₹36/কেজি, গড় ₹30/কেজি।'],
+    ['Cheaper : dearer quantity.', 'সস্তা : দামি পরিমাণ।'], ['Use alligation cross-differences.', 'অ্যালিগেশনের আড়াআড়ি বিয়োগ ব্যবহার করো।'],
+    [['Cheaper quantity : dearer quantity = (36 − 30) : (30 − 24).', 'সস্তা পরিমাণ : দামি পরিমাণ = (36 − 30) : (30 − 24)।'], ['= 6 : 6 = 1 : 1; equal quantities give mean (24 + 36) ÷ 2 = ₹30.', '= 6 : 6 = 1 : 1; সমান পরিমাণে গড় (24 + 36) ÷ 2 = ₹30।']],
+    ['1 : 1', '1 : 1 অনুপাতে'], ['The mean is exactly halfway between the prices, so equal amounts balance.', 'গড় দাম দুই দামের ঠিক মাঝখানে, তাই সমান পরিমাণে ভারসাম্য হয়।'],
+  ),
+  example(
+    ['Mix ₹20/kg rice with ₹35/kg rice to get ₹29/kg. Find the ratio.', '₹20/কেজি ও ₹35/কেজি দামের চাল মিশিয়ে ₹29/কেজি পেতে অনুপাত কত?'],
+    ['Prices ₹20, ₹35, and target mean ₹29 per kg.', 'প্রতি কেজির দাম ₹20, ₹35 এবং কাঙ্ক্ষিত গড় ₹29।'],
+    ['Cheaper : dearer quantity.', 'সস্তা : দামি পরিমাণ।'], ['Alligation.', 'অ্যালিগেশন।'],
+    [['Cheaper : dearer = (35 − 29) : (29 − 20) = 6 : 9.', 'সস্তা : দামি = (35 − 29) : (29 − 20) = 6 : 9।'], ['Reduce both parts by 3: 6 : 9 = 2 : 3.', 'দুই অংশকে 3 দিয়ে ভাগ করো: 6 : 9 = 2 : 3।']],
+    ['2 : 3', '2 : 3 অনুপাতে'], ['More dearer rice is needed because the target ₹29 is nearer ₹35 than ₹20.', 'কাঙ্ক্ষিত ₹29, ₹20-এর চেয়ে ₹35-এর কাছে, তাই দামি চাল বেশি লাগবে।'],
+  ),
+  example(
+    ['A 40 L milk-water mixture has milk : water = 3 : 1. How much water is in it?', '40 লিটারের দুধ-জলের মিশ্রণে দুধ : জল = 3 : 1। তাতে জল কত লিটার?'],
+    ['Total 40 L; milk : water = 3 : 1.', 'মোট 40 লিটার; দুধ : জল = 3 : 1।'],
+    ['Water quantity.', 'জলের পরিমাণ।'], ['Split the total by ratio parts.', 'অনুপাতের অংশ অনুযায়ী মোট পরিমাণ ভাগ করো।'],
+    [['Total parts = 3 + 1 = 4; one part = 40 ÷ 4 = 10 L.', 'মোট অংশ = 3 + 1 = 4; এক অংশ = 40 ÷ 4 = 10 লিটার।'], ['Water is one part, so water = 1 × 10 = 10 L.', 'জল এক অংশ, তাই জল = 1 × 10 = 10 লিটার।']],
+    ['10 L', '10 লিটার'], ['A ratio describes equal-sized parts; the water occupies one of the four parts.', 'অনুপাত সমান মাপের অংশ বোঝায়; চারটি অংশের একটি হল জল।'],
+  ),
+  example(
+    ['A 50 L mixture has milk : water = 4 : 1. How much water must be added to make the ratio 2 : 1?', '50 লিটারের মিশ্রণে দুধ : জল = 4 : 1। অনুপাত 2 : 1 করতে কত জল যোগ করতে হবে?'],
+    ['50 L mixture; old ratio 4 : 1; new ratio 2 : 1.', '50 লিটারের মিশ্রণ; পুরোনো অনুপাত 4 : 1; নতুন অনুপাত 2 : 1।'],
+    ['Water to add.', 'কত জল যোগ করতে হবে।'], ['Keep milk fixed and compare old and new water.', 'দুধের পরিমাণ স্থির রেখে পুরোনো ও নতুন জলের পরিমাণ তুলনা করো।'],
+    [['Old milk = 4/5 × 50 = 40 L; old water = 1/5 × 50 = 10 L.', 'পুরোনো দুধ = 4/5 × 50 = 40 লিটার; পুরোনো জল = 1/5 × 50 = 10 লিটার।'], ['New water = 40 ÷ 2 = 20 L; add = 20 − 10 = 10 L.', 'নতুন জল = 40 ÷ 2 = 20 লিটার; যোগ করতে হবে = 20 − 10 = 10 লিটার।']],
+    ['10 L', '10 লিটার'], ['Adding water does not change the original 40 L of milk.', 'জল যোগ করলে আসল 40 লিটার দুধের পরিমাণ বদলায় না।'],
+  ),
+  example(
+    ['How many kg of ₹80/kg nuts and ₹50/kg nuts make 6 kg at ₹60/kg?', '₹80/কেজি ও ₹50/কেজি দামের বাদাম কত কেজি করে নিলে ₹60/কেজি দামের 6 কেজি মিশ্রণ হবে?'],
+    ['Prices ₹80 and ₹50/kg; total mixture 6 kg at ₹60/kg.', 'দাম ₹80 ও ₹50/কেজি; ₹60/কেজি দামের মোট মিশ্রণ 6 কেজি।'],
+    ['Quantity of each kind.', 'প্রতিটি ধরনের পরিমাণ।'], ['Alligation ratio, then divide the total quantity.', 'অ্যালিগেশন অনুপাত বার করে মোট পরিমাণ ভাগ করো।'],
+    [['₹50 quantity : ₹80 quantity = (80 − 60) : (60 − 50) = 20 : 10 = 2 : 1.', '₹50-এর পরিমাণ : ₹80-এর পরিমাণ = (80 − 60) : (60 − 50) = 20 : 10 = 2 : 1।'], ['Three parts = 6 kg, so one part = 2 kg; quantities are 4 kg and 2 kg.', 'তিন অংশ = 6 কেজি, তাই এক অংশ = 2 কেজি; পরিমাণ 4 কেজি ও 2 কেজি।']],
+    ['4 kg at ₹50/kg and 2 kg at ₹80/kg', '₹50/কেজির 4 কেজি ও ₹80/কেজির 2 কেজি'], ['The weighted price is (4 × 50 + 2 × 80) ÷ 6 = ₹60/kg.', 'ভারযুক্ত দাম (4 × 50 + 2 × 80) ÷ 6 = ₹60/কেজি।'],
+  ),
+  example(
+    ['A 20 L mixture is 25% water. How much milk does it contain?', '20 লিটারের মিশ্রণে 25% জল আছে। তাতে দুধ কত লিটার?'],
+    ['Total mixture 20 L; water 25%.', 'মোট মিশ্রণ 20 লিটার; জল 25%।'],
+    ['Milk quantity.', 'দুধের পরিমাণ।'], ['Find water as a percentage, then subtract from total.', 'শতকরা থেকে জলের পরিমাণ বার করে মোট থেকে বিয়োগ করো।'],
+    [['Water = 25/100 × 20 = 5 L.', 'জল = 25/100 × 20 = 5 লিটার।'], ['Milk = 20 − 5 = 15 L; ratio milk : water = 15 : 5 = 3 : 1.', 'দুধ = 20 − 5 = 15 লিটার; দুধ : জল = 15 : 5 = 3 : 1।']],
+    ['15 L', '15 লিটার'], ['Milk and water together make the full 20 L, so the remaining 75% is milk.', 'দুধ ও জল মিলে 20 লিটার; তাই বাকি 75% হল দুধ।'],
+  ),
+  example(
+    ['Mix 5 kg at ₹40/kg with 3 kg at ₹64/kg. Find the mixture price.', '₹40/কেজি দামের 5 কেজির সঙ্গে ₹64/কেজি দামের 3 কেজি মেশালে মিশ্রণের দাম কত?'],
+    ['5 kg at ₹40/kg and 3 kg at ₹64/kg.', '₹40/কেজি দামের 5 কেজি এবং ₹64/কেজি দামের 3 কেজি।'],
+    ['Mean price per kg.', 'প্রতি কেজির গড় দাম।'], ['Weighted average.', 'ভারযুক্ত গড়।'],
+    [['Total cost = 5 × 40 + 3 × 64 = 200 + 192 = ₹392.', 'মোট দাম = 5 × 40 + 3 × 64 = 200 + 192 = ₹392।'], ['Total weight = 8 kg; mean = 392 ÷ 8 = ₹49/kg.', 'মোট ওজন = 8 কেজি; গড় দাম = 392 ÷ 8 = ₹49/কেজি।']],
+    ['₹49/kg', '₹49/কেজি'], ['It lies between ₹40 and ₹64, and is closer to ₹40 because the cheaper amount is larger.', 'উত্তর ₹40 ও ₹64-এর মাঝে এবং ₹40-এর কাছে, কারণ সস্তা জিনিসের পরিমাণ বেশি।'],
+  ),
+);
+lesson.strategy = {
+  heading: t('A beginner’s mixture-solving guide', 'নতুনদের জন্য মিশ্রণ সমাধানের কৌশল'),
+  sections: [
+    { heading: t('1. Identify what is mixed', '1. কী মেশানো হয়েছে চেনো'), body: t('Name each ingredient and its price, strength, or percentage. Use the same unit for both.', 'প্রতিটি উপাদানের দাম, ঘনত্ব বা শতকরা হার চিহ্নিত করো। দুটির একক একই রাখো।') },
+    { heading: t('2. Find what the question asks', '2. প্রশ্নে কী চেয়েছে দেখো'), body: t('A mean price needs a weighted average; a required mixing ratio needs alligation; a water-addition question needs fixed milk.', 'গড় দামের জন্য ভারযুক্ত গড়, মেশানোর অনুপাতের জন্য অ্যালিগেশন, আর জল যোগের অঙ্কে দুধ স্থির রাখো।') },
+    { heading: t('3. Choose the matching rule', '3. উপযুক্ত নিয়ম বেছে নাও'), body: t('Use total cost ÷ total weight when amounts are known. Use cross-differences when the target mean and two prices are known.', 'পরিমাণ জানা থাকলে মোট দাম ÷ মোট ওজন করো। কাঙ্ক্ষিত গড় ও দুই দাম জানা থাকলে আড়াআড়ি বিয়োগ করো।') },
+    { heading: t('4. Keep quantities attached to prices', '4. পরিমাণকে দামের সঙ্গে মিলিয়ে রাখো'), body: t('In alligation, cheaper : dearer = (dearer − mean) : (mean − cheaper). Write the item names beside each ratio part.', 'অ্যালিগেশনে সস্তা : দামি = (দামি − গড়) : (গড় − সস্তা)। অনুপাতের প্রতিটি অংশের পাশে উপাদানের নাম লেখো।') },
+    { heading: t('5. Check the answer', '5. উত্তর যাচাই করো'), body: t('A mean must lie between the component values. Substitute the ratio or quantities back into the weighted average to confirm.', 'গড় মান উপাদানের মানগুলির মাঝে থাকবে। অনুপাত বা পরিমাণ ভারযুক্ত গড়ে বসিয়ে যাচাই করো।') },
+  ],
+};
+lesson.practice = {
+  question: t('Mix 1 kg at ₹30/kg with 2 kg at ₹45/kg. Find the mean price.', '₹30/কেজি দামের 1 কেজির সঙ্গে ₹45/কেজি দামের 2 কেজি মেশালে গড় দাম কত?'),
+  steps: [
+    t('Total cost = 1 × 30 + 2 × 45 = ₹120.', 'মোট দাম = 1 × 30 + 2 × 45 = ₹120।'),
+    t('Total weight = 3 kg; mean price = 120 ÷ 3 = ₹40/kg.', 'মোট ওজন = 3 কেজি; গড় দাম = 120 ÷ 3 = ₹40/কেজি।'),
+  ],
+  answer: t('₹40/kg', '₹40/কেজি'),
+};

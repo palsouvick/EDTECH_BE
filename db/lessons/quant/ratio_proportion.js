@@ -3,6 +3,15 @@
 // Chapter lesson: Ratio & Proportion. Format: see ../validate.js header.
 const r = String.raw;
 const t = (en, bn) => ({ en, bn });
+const solved = (question, given, find, method, steps, answer, why) => ({
+  question: t(question[0], question[1]),
+  given: t(given[0], given[1]),
+  find: t(find[0], find[1]),
+  method: t(method[0], method[1]),
+  steps: steps.map(([en, bn]) => t(en, bn)),
+  answer: t(answer[0], answer[1]),
+  why: t(why[0], why[1]),
+});
 
 module.exports = {
   subject: 'quant',
@@ -13,6 +22,25 @@ module.exports = {
     'A ratio compares two amounts, like "2 cups of rice for every 3 cups of water". We use ratios to share money fairly, follow recipes, read maps and mix colours.',
     'অনুপাত দুটি পরিমাণকে তুলনা করে, যেমন "প্রতি 2 কাপ চালে 3 কাপ জল"। টাকা ন্যায্যভাবে ভাগ করা, রান্নার মাপ, মানচিত্র পড়া বা রং মেশানো — সবেতেই অনুপাত লাগে।',
   ),
+  strategy: {
+    heading: t('A beginner’s decision guide', 'নতুনদের সিদ্ধান্ত নেওয়ার সহজ কৌশল'),
+    sections: [
+      { heading: t('1. Keep the order clear', '1. অনুপাতের ক্রম ঠিক রাখো'), body: t('Read the question carefully: boys:girls is not the same as girls:boys. Write the requested order before simplifying.', 'প্রশ্নটি ভালো করে পড়ো: ছেলে:মেয়ে আর মেয়ে:ছেলে এক নয়। সরল করার আগে চাওয়া ক্রমটি লেখো।') },
+      { heading: t('2. Match units before comparing', '2. তুলনার আগে একক মেলাও'), body: t('Convert both quantities to the same unit, such as centimetres or paise. Then write the ratio in the same order as the question.', 'দুটি পরিমাণকে একই এককে বদলাও, যেমন সেন্টিমিটার বা পয়সা। তারপর প্রশ্নের ক্রমে অনুপাত লেখো।') },
+      { heading: t('3. Simplify both terms together', '3. দুটি পদকেই একসঙ্গে সরল করো'), body: t('Find a common factor and divide both terms by it. Never divide just one term; that changes the comparison.', 'একটি সাধারণ গুণনীয়ক বের করে দুটি পদকেই তা দিয়ে ভাগ করো। শুধু একটি পদ ভাগ কোরো না; তাতে তুলনাটি বদলে যায়।') },
+      { heading: t('4. Share a total using parts', '4. মোট পরিমাণ অংশে ভাগ করো'), body: t('Add the ratio terms to get total parts. Divide the total amount by those parts, then multiply by each person’s number of parts.', 'মোট অংশ পেতে অনুপাতের পদগুলো যোগ করো। মোট পরিমাণকে মোট অংশ দিয়ে ভাগ করে প্রত্যেকের অংশসংখ্যা দিয়ে গুণ করো।') },
+      { heading: t('5. Set up a proportion for unknowns', '5. অজানা রাশি পেতে সমানুপাত লেখো'), body: t('When two ratios describe the same relationship, write them as equal fractions and cross-multiply. Keep corresponding quantities in matching positions.', 'দুটি অনুপাত একই সম্পর্ক বোঝালে সেগুলোকে সমান ভগ্নাংশ হিসেবে লেখো এবং আড়াআড়ি গুণ করো। একই ধরনের পরিমাণ একই পাশে রাখো।') },
+      { heading: t('6. Check the result', '6. উত্তর মিলিয়ে দেখো'), body: t('For a share, check that all shares add to the total. For a proportion, substitute the answer back and compare the two ratios.', 'ভাগের অঙ্কে সব ভাগ যোগ করে মোট পরিমাণ হচ্ছে কি না দেখো। সমানুপাতের অঙ্কে উত্তর বসিয়ে দুটি অনুপাত মেলে কি না যাচাই করো।') },
+    ],
+  },
+  practice: {
+    question: t('Divide ₹260 between A and B in the ratio 4 : 9.', 'A ও B-এর মধ্যে ₹260 টাকা 4 : 9 অনুপাতে ভাগ করো।'),
+    steps: [
+      t('Total parts = 4 + 9 = 13; one part = 260 ÷ 13 = ₹20.', 'মোট অংশ = 4 + 9 = 13; এক অংশ = 260 ÷ 13 = ₹20।'),
+      t('A gets 4 × 20 = ₹80; B gets 9 × 20 = ₹180. Check: 80 + 180 = 260.', 'A পায় 4 × 20 = ₹80; B পায় 9 × 20 = ₹180। মিল: 80 + 180 = 260।'),
+    ],
+    answer: t('A: ₹80; B: ₹180.', 'A-এর ভাগ ₹80; B-এর ভাগ ₹180।'),
+  },
   levels: [
     // ───────────────────────────── BASIC ─────────────────────────────
     {
@@ -71,29 +99,104 @@ Check: the shares must add up to the total amount.`,
       examples: [
         {
           question: t('A class has 12 boys and 18 girls. Find the ratio of boys to girls in its simplest form.', 'একটি ক্লাসে 12 জন ছেলে ও 18 জন মেয়ে আছে। ছেলে ও মেয়ের অনুপাত সরলতম রূপে লেখো।'),
+          given: t('Boys = 12; girls = 18.', 'ছেলে = 12 জন; মেয়ে = 18 জন।'),
+          find: t('Simplest boys-to-girls ratio.', 'ছেলে ও মেয়ের সরলতম অনুপাত।'),
+          method: t('Write in the requested order and divide both terms by their HCF.', 'চাওয়া ক্রমে লিখে দুটি পদকেই গ.সা.গু. দিয়ে ভাগ করি।'),
           steps: [
             t(r`Boys : girls $= 12 : 18$.`, r`ছেলে : মেয়ে $= 12 : 18$।`),
             t('The HCF of 12 and 18 is 6. Divide both by 6: 12 ÷ 6 = 2, 18 ÷ 6 = 3.', '12 ও 18-এর গ.সা.গু. 6। দুটিকেই 6 দিয়ে ভাগ করো: 12 ÷ 6 = 2, 18 ÷ 6 = 3।'),
           ],
           answer: t('2 : 3', 'অনুপাত 2 : 3'),
+          why: t('For every 2 boys there are 3 girls; multiplying both terms by 6 gives 12 : 18.', 'প্রতি 2 জন ছেলের জন্য 3 জন মেয়ে; উভয় পদকে 6 দিয়ে গুণ করলে 12 : 18 হয়।'),
         },
         {
           question: t('Riya and Tapu share 30 sweets in the ratio 2 : 3. How many does each get?', 'রিয়া আর তাপু 30টি মিষ্টি 2 : 3 অনুপাতে ভাগ করে নিল। কে কটি পেল?'),
+          given: t('Total = 30 sweets; ratio = 2 : 3.', 'মোট = 30টি মিষ্টি; অনুপাত = 2 : 3।'),
+          find: t('Each person’s share.', 'প্রত্যেকের ভাগ।'),
+          method: t('Find the value of one ratio part, then scale each share.', 'অনুপাতের এক অংশের মান বের করে প্রত্যেকের ভাগ হিসাব করি।'),
           steps: [
             t('Total parts = 2 + 3 = 5.', 'মোট অংশ = 2 + 3 = 5।'),
             t('One part = 30 ÷ 5 = 6 sweets.', 'এক অংশ = 30 ÷ 5 = 6টি মিষ্টি।'),
             t('Riya = 2 × 6 = 12, Tapu = 3 × 6 = 18. Check: 12 + 18 = 30.', 'রিয়া = 2 × 6 = 12টি, তাপু = 3 × 6 = 18টি। মিলিয়ে দেখো: 12 + 18 = 30।'),
           ],
           answer: t('Riya 12, Tapu 18', 'রিয়া 12টি, তাপু 18টি'),
+          why: t('The 5 equal parts make 30 sweets, so each part has 6 sweets.', '5টি সমান অংশে 30টি মিষ্টি, তাই প্রতিটি অংশে 6টি মিষ্টি।'),
         },
         {
           question: t('₹1600 is divided between two persons in the ratio 5 : 3. What is the larger share?', '₹1600 দুজনের মধ্যে 5 : 3 অনুপাতে ভাগ করা হল। বড় ভাগটি কত?'),
+          given: t('Total = ₹1600; ratio = 5 : 3.', 'মোট = ₹1600; অনুপাত = 5 : 3।'),
+          find: t('The larger share.', 'বড় ভাগটি।'),
+          method: t('Add the parts, find one part, and take 5 parts.', 'অংশগুলো যোগ করে এক অংশের মান বের করে 5 অংশ নিই।'),
           steps: [
             t('Total parts = 5 + 3 = 8. One part = 1600 ÷ 8 = ₹200.', 'মোট অংশ = 5 + 3 = 8। এক অংশ = 1600 ÷ 8 = ₹200।'),
             t('Larger share = 5 parts = 5 × 200 = ₹1000.', 'বড় ভাগ = 5 অংশ = 5 × 200 = ₹1000।'),
           ],
           answer: t('₹1000', 'বড় ভাগটি ₹1000'),
+          why: t('The larger ratio term is 5, so its share is five equal parts.', 'অনুপাতের বড় পদ 5, তাই বড় ভাগটি পাঁচটি সমান অংশ।'),
         },
+        solved(
+          ['Simplify the ratio 45 : 60.', '45 : 60 অনুপাতটি সরল করো।'],
+          ['The two quantities are 45 and 60.', 'দুটি পরিমাণ হল 45 ও 60।'],
+          ['The ratio in simplest form.', 'অনুপাতের সরলতম রূপ।'],
+          ['Divide both terms by their greatest common factor.', 'দুটি পদকেই তাদের গ.সা.গু. দিয়ে ভাগ করি।'],
+          [['The HCF of 45 and 60 is 15.', '45 ও 60-এর গ.সা.গু. 15।'], ['45 ÷ 15 : 60 ÷ 15 = 3 : 4.', 'দুটি পদ ভাগ করলে 45 ÷ 15 : 60 ÷ 15 = 3 : 4।']],
+          ['3 : 4.', 'সরল অনুপাত 3 : 4।'],
+          ['Both terms have been scaled by the same factor, so the comparison is unchanged.', 'দুটি পদকেই একই সংখ্যা দিয়ে ভাগ করা হয়েছে, তাই তুলনাটি অপরিবর্তিত।'],
+        ),
+        solved(
+          ['Write 2.5 metres : 150 centimetres in simplest form.', '2.5 মিটার : 150 সেন্টিমিটার অনুপাতটি সরলতম রূপে লেখো।'],
+          ['2.5 m and 150 cm.', '2.5 মিটার ও 150 সেন্টিমিটার।'],
+          ['The simplified ratio.', 'সরল অনুপাত।'],
+          ['Convert both lengths to centimetres, then simplify.', 'দুটি দৈর্ঘ্যকেই সেন্টিমিটারে বদলে সরল করি।'],
+          [['2.5 m = 250 cm, so the ratio is 250 : 150.', '2.5 মিটার = 250 সেমি, তাই অনুপাত 250 : 150।'], ['Divide both terms by 50: 250 : 150 = 5 : 3.', 'দুটি পদকেই 50 দিয়ে ভাগ করি: 250 : 150 = 5 : 3।']],
+          ['5 : 3.', 'সরল অনুপাত 5 : 3।'],
+          ['A ratio compares like units; converting first avoids comparing metres directly with centimetres.', 'অনুপাত একই একক তুলনা করে; আগে একক বদলালে মিটারকে সরাসরি সেন্টিমিটারের সঙ্গে তুলনা করতে হয় না।'],
+        ),
+        solved(
+          ['If 4 : 7 = 20 : x, find x.', 'যদি 4 : 7 = 20 : x হয়, তবে x কত?'],
+          ['4/7 = 20/x.', 'সমান অনুপাতটি 4/7 = 20/x।'],
+          ['The unknown value x.', 'অজানা রাশি x।'],
+          ['Use equal ratios and cross-multiply.', 'সমান অনুপাত লিখে আড়াআড়ি গুণ করি।'],
+          [['Cross-multiply: 4x = 7 × 20 = 140.', 'আড়াআড়ি গুণ: 4x = 7 × 20 = 140।'], ['x = 140 ÷ 4 = 35; check: 4 : 7 = 20 : 35.', 'x = 140 ÷ 4 = 35; মিলিয়ে দেখি: 4 : 7 = 20 : 35।']],
+          ['x = 35.', 'অজানা রাশি x = 35।'],
+          ['Both terms in the first ratio are multiplied by 5 to make the second ratio.', 'প্রথম অনুপাতের দুটি পদকে 5 দিয়ে গুণ করলেই দ্বিতীয় অনুপাতটি হয়।'],
+        ),
+        solved(
+          ['Divide ₹960 in the ratio 3 : 5.', '₹960 টাকা 3 : 5 অনুপাতে ভাগ করো।'],
+          ['Total = ₹960; ratio = 3 : 5.', 'মোট = ₹960; অনুপাত = 3 : 5।'],
+          ['The two shares.', 'দুটি ভাগ।'],
+          ['Find the value of one part, then multiply by 3 and 5.', 'এক অংশের মান বের করে 3 ও 5 দিয়ে গুণ করি।'],
+          [['Total parts = 3 + 5 = 8; one part = 960 ÷ 8 = ₹120.', 'মোট অংশ = 3 + 5 = 8; এক অংশ = 960 ÷ 8 = ₹120।'], ['Shares = 3 × 120 = ₹360 and 5 × 120 = ₹600; check: 360 + 600 = 960.', 'ভাগ = 3 × 120 = ₹360 এবং 5 × 120 = ₹600; মিল: 360 + 600 = 960।']],
+          ['₹360 and ₹600.', '₹360 ও ₹600।'],
+          ['The two shares use all 8 parts and add back to the full amount.', 'দুটি ভাগে 8টি অংশই ব্যবহৃত হয় এবং যোগফল পুরো টাকার সমান।'],
+        ),
+        solved(
+          ['A total of 56 marbles is shared in the ratio 3 : 5. Find the shares.', '56টি গুলি 3 : 5 অনুপাতে ভাগ করা হল। ভাগ দুটি বের করো।'],
+          ['Total = 56 marbles; ratio = 3 : 5.', 'মোট = 56টি গুলি; অনুপাত = 3 : 5।'],
+          ['Each share.', 'প্রত্যেকের ভাগ।'],
+          ['Use the total number of equal parts to find one part.', 'মোট সমান অংশ দিয়ে এক অংশের মান বের করি।'],
+          [['Total parts = 3 + 5 = 8; one part = 56 ÷ 8 = 7 marbles.', 'মোট অংশ = 3 + 5 = 8; এক অংশ = 56 ÷ 8 = 7টি গুলি।'], ['Shares = 3 × 7 = 21 and 5 × 7 = 35; 21 + 35 = 56.', 'ভাগ = 3 × 7 = 21টি এবং 5 × 7 = 35টি; 21 + 35 = 56।']],
+          ['21 marbles and 35 marbles.', '21টি ও 35টি গুলি।'],
+          ['The ratio parts total 8, and each marble belongs to one of those shares.', 'অনুপাতের মোট অংশ 8, আর প্রতিটি গুলি এই দুই ভাগের একটিতে পড়ে।'],
+        ),
+        solved(
+          ['A : B = 2 : 3 and B : C = 4 : 5. Find A : B : C.', 'A : B = 2 : 3 এবং B : C = 4 : 5। A : B : C নির্ণয় করো।'],
+          ['A : B = 2 : 3; B : C = 4 : 5.', 'দেওয়া আছে A : B = 2 : 3; B : C = 4 : 5।'],
+          ['The combined ratio A : B : C.', 'সম্মিলিত অনুপাত A : B : C।'],
+          ['Make the shared term B equal in both ratios, then combine.', 'দুটি অনুপাতেই সাধারণ পদ B সমান করে তারপর একত্র করি।'],
+          [['The B terms 3 and 4 have LCM 12. Multiply 2 : 3 by 4 to get 8 : 12.', 'B-এর 3 ও 4-এর ল.সা.গু. 12। 2 : 3-কে 4 দিয়ে গুণ করে 8 : 12 পাই।'], ['Multiply 4 : 5 by 3 to get 12 : 15; hence A : B : C = 8 : 12 : 15.', '4 : 5-কে 3 দিয়ে গুণ করে 12 : 15 পাই; তাই A : B : C = 8 : 12 : 15।']],
+          ['8 : 12 : 15.', 'সম্মিলিত অনুপাত 8 : 12 : 15।'],
+          ['Both expressions now represent the same 12 parts of B, so the ratios can join consistently.', 'এখন দুটি অনুপাতেই B-এর 12 অংশ বোঝায়, তাই অনুপাত দুটি সঠিকভাবে যুক্ত করা যায়।'],
+        ),
+        solved(
+          ['Three cups of flour make 12 cakes. How much flour is needed for 30 cakes at the same rate?', '3 কাপ ময়দায় 12টি কেক হয়। একই অনুপাতে 30টি কেকের জন্য কত ময়দা লাগবে?'],
+          ['3 cups for 12 cakes; the rate stays the same.', '12টি কেকের জন্য 3 কাপ ময়দা; অনুপাত একই থাকবে।'],
+          ['Flour for 30 cakes.', '30টি কেকের জন্য ময়দা।'],
+          ['Use direct proportion: more cakes need proportionally more flour.', 'সরাসরি সমানুপাত ব্যবহার করি: কেক বেশি হলে ময়দাও একই অনুপাতে বেশি লাগবে।'],
+          [['Flour per cake = 3 ÷ 12 = 1/4 cup.', 'প্রতি কেকে ময়দা = 3 ÷ 12 = 1/4 কাপ।'], ['For 30 cakes: 30 × 1/4 = 7.5 cups.', '30টি কেকের জন্য: 30 × 1/4 = 7.5 কাপ।']],
+          ['7.5 cups of flour.', '7.5 কাপ ময়দা।'],
+          ['30 cakes are 2.5 times 12 cakes, so the flour is also 2.5 times 3 cups.', '30টি কেক হল 12টির 2.5 গুণ, তাই ময়দাও 3 কাপের 2.5 গুণ।'],
+        ),
       ],
     },
     // ───────────────────────────── INTERMEDIATE ─────────────────────────────

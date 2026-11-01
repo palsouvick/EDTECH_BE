@@ -12,6 +12,7 @@ const { clearCatalogCache } = require('../services/catalog.service');
 const AppError = require('../utils/AppError');
 const multer = require('multer');
 const bulkImport = require('../services/questionBulkImport.service');
+const questionEdit = require('../services/questionEdit.service');
 const { classifyLegacyQuestion, hasVerifiedPaperReference, isOfficialSource } = require('../services/questionProvenance');
 
 /** Review portal API. Everything here requires an admin session (see middleware/admin.js). */
@@ -100,6 +101,52 @@ router.patch('/questions/:id/status', validate({ params: idParams, body: z.objec
   const updated = await Question.findByIdAndUpdate(req.valid.params.id, { $set: { status: req.valid.body.status, reviewed_by: req.admin.email } }, { new: true }).select('code status').lean();
   if (!updated) throw AppError.notFound('QUESTION_NOT_FOUND', 'Question not found');
   res.json({ success: true, data: { id: req.valid.params.id, code: updated.code, status: updated.status } });
+});
+
+// ---- Question editing, with history (content_revisions) -----------------------
+const editReason = z.string().trim().min(3).max(500);
+const locPartial = (max) => z.object({ en: z.string().trim().min(1).max(max).optional(), bn: z.string().trim().min(1).max(max).optional() })
+  .refine((v) => v.en || v.bn, { message: 'give en and/or bn' });
+
+router.get('/questions/:id', validate({ params: idParams }), async (req, res) => {
+  res.json({ success: true, data: await questionEdit.getQuestion(req.valid.params.id) });
+});
+
+router.patch('/questions/:id', validate({
+  params: idParams,
+  body: z.object({
+    reason: editReason,
+    changes: z.object({
+      stem: locPartial(1500).optional(),
+      options: z.array(z.object({ optionId: z.string().regex(/^opt_[a-z0-9]{4,16}$/), text: locPartial(600) })).min(1).max(4).optional(),
+      correctOptionId: z.string().regex(/^opt_[a-z0-9]{4,16}$/).optional(),
+      steps: z.array(z.object({ en: z.string().trim().min(1).max(2000), bn: z.string().trim().min(1).max(2000) })).min(1).max(12).optional(),
+      difficulty: z.number().int().min(1).max(5).optional(),
+      subtopic: z.string().regex(/^[a-z0-9]+(?:_[a-z0-9]+)*$/).nullable().optional(),
+    }).strict().refine((c) => Object.keys(c).length > 0, { message: 'nothing to change' }),
+  }),
+}), async (req, res) => {
+  res.json({ success: true, data: await questionEdit.editQuestion(req.valid.params.id, req.valid.body, req.admin.email) });
+});
+
+router.put('/questions/:id/source-check', validate({
+  params: idParams,
+  body: z.object({
+    status: z.enum(['SOURCE_VERIFIED', 'SOURCE_PENDING', 'NEEDS_REVIEW']),
+    sourceUrl: z.string().trim().max(1024).optional(),
+    sourceTitle: z.string().trim().max(300).optional(),
+    note: z.string().trim().min(3).max(1000),
+  }),
+}), async (req, res) => {
+  res.json({ success: true, data: await questionEdit.setSourceCheck(req.valid.params.id, req.valid.body, req.admin.email) });
+});
+
+router.post('/questions/:id/retire', validate({ params: idParams, body: z.object({ reason: editReason }) }), async (req, res) => {
+  res.json({ success: true, data: await questionEdit.retireQuestion(req.valid.params.id, req.valid.body, req.admin.email) });
+});
+
+router.post('/questions/:id/restore', validate({ params: idParams, body: z.object({ reason: editReason }) }), async (req, res) => {
+  res.json({ success: true, data: await questionEdit.restoreQuestion(req.valid.params.id, req.valid.body, req.admin.email) });
 });
 
 const slugPart = (s) => String(s).toUpperCase().replace(/[^A-Z0-9]+/g, '-').replace(/^-|-$/g, '');

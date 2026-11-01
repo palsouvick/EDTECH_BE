@@ -198,10 +198,10 @@ module.exports = {
     },
     {
       d: 3,
-      q: ['An electric fuse wire should have:', 'বৈদ্যুতিক ফিউজ তারের কোন বৈশিষ্ট্য থাকা উচিত?'],
-      a: ['Low melting point', 'নিম্ন গলনাঙ্ক'],
-      w: [['High melting point', 'উচ্চ গলনাঙ্ক'], ['Very low resistance', 'অত্যন্ত কম রোধ'], ['Strong magnetic property', 'তীব্র চৌম্বক ধর্ম']],
-      e: ['A fuse wire melts quickly when excess current flows, breaking the circuit; so it needs a low melting point.', 'অতিরিক্ত প্রবাহে ফিউজ তার দ্রুত গলে বর্তনী বিচ্ছিন্ন করে, তাই এর গলনাঙ্ক কম হওয়া প্রয়োজন।'],
+      q: ['According to NCERT, how is a fuse connected with the device it protects?', 'এনসিইআরটি অনুযায়ী, ফিউজকে সুরক্ষিত যন্ত্রের সঙ্গে কীভাবে যুক্ত করা হয়?'],
+      a: ['In series', 'শ্রেণি সমবায়ে'],
+      w: [['In parallel', 'সমান্তরাল সমবায়ে'], ['Across the device terminals', 'যন্ত্রের দুই প্রান্তের মধ্যে'], ['Between the earth wire and the device', 'আর্থ তার ও যন্ত্রের মধ্যে']],
+      e: ['NCERT states that a fuse is placed in series with the device. It describes the fuse wire as having an appropriate melting point, rather than specifying one universal low melting point.', 'এনসিইআরটি জানায়, ফিউজ যন্ত্রের সঙ্গে শ্রেণি সমবায়ে বসানো হয়। ফিউজ তারের গলনাঙ্ককে উপযুক্ত বলা হয়েছে; সবার জন্য একটি নির্দিষ্ট কম গলনাঙ্ক বলা হয়নি।'],
     },
     {
       d: 3,

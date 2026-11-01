@@ -138,6 +138,27 @@ const QuestionSchema = new Schema(
     // and drive recency weighting in mock generation without unwinding refs.
     latest_pyq_year: { type: Number, default: null },
 
+    // ---- Source check (General Studies) --------------------------------
+    // Whether the answer has been checked against a source that supports it.
+    // Separate from `provenance` (where the question came from): an original
+    // practice question can be SOURCE_VERIFIED, and passing the format validator
+    // is never a source check. Absent means not yet checked (shown as "source
+    // pending" for GS). A retired question is status ARCHIVED with retired_reason.
+    source_check: {
+      status: { type: String, enum: ['SOURCE_VERIFIED', 'SOURCE_PENDING', 'NEEDS_REVIEW'] },
+      source_url: { type: String, trim: true, maxlength: 1024 },
+      source_title: { type: String, trim: true, maxlength: 300 },
+      note: { type: String, trim: true, maxlength: 1000 },
+      checked_at: { type: Date },
+      checked_by: { type: String },
+    },
+    // GK facts this question tests (gk_facts); the fact holds the sources.
+    fact_ids: { type: [Schema.Types.ObjectId], ref: 'GkFact', default: undefined },
+    question_format: { type: String, enum: ['DIRECT', 'STATEMENT', 'MATCH', 'CHRONOLOGY', 'PAIRS', 'ASSERTION_REASON'] },
+    // Changing facts (office-holders, counts): after this date the question is listed for review.
+    review_by: { type: Date },
+    retired_reason: { type: String, trim: true, maxlength: 500 },
+
     // ---- Aggregated performance ----------------------------------------
     // Written only by the batched stats flusher ($inc), never per-request.
     stats: {
@@ -247,6 +268,10 @@ QuestionSchema.index(
   { status: 1, subject: 1, topic: 1, updated_at: -1 },
   { name: 'cms_status_subject_topic' },
 );
+
+// GK: questions linked to a fact, and the admin queue of GS questions by source-check status.
+QuestionSchema.index({ fact_ids: 1 }, { name: 'question_fact_ids', partialFilterExpression: { fact_ids: { $type: 'objectId' } } });
+QuestionSchema.index({ subject: 1, 'source_check.status': 1, topic: 1 }, { name: 'question_source_check' });
 
 // Basic dedupe/search for editors. default_language 'none' because MongoDB has
 // no Bengali/Hindi stemmer; use Atlas Search with a custom analyzer for real search.

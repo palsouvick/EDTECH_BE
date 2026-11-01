@@ -113,6 +113,19 @@ test('every fact bank is valid and big enough (100 questions; 30 for a month of 
   }
 });
 
+test('flagged NCERT General Science questions use source-supported wording', () => {
+  const fuse = require('../scripts/generators/factbank/general_science').items
+    .find((item) => item.q[0].includes('fuse'));
+  assert.equal(fuse.q[0], 'According to NCERT, how is a fuse connected with the device it protects?');
+  assert.equal(fuse.a[0], 'In series');
+
+  const bleachingPowder = require('../scripts/generators/factbank/general_science_2').items
+    .find((item) => item.q[0].includes('bleaching powder'));
+  assert.equal(bleachingPowder.a[0], 'Dry slaked lime [Ca(OH)2]');
+  assert.match(bleachingPowder.q[0], /produced by the action of chlorine on/);
+  assert.match(bleachingPowder.e[0], /actual composition is quite complex/);
+});
+
 let mongod;
 let uri;
 const run = (args) =>

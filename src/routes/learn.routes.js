@@ -6,6 +6,8 @@ const validate = require('../middleware/validate');
 const { slug, objectId, optionId } = require('../validators/common');
 const { learnQuizLimiter, verifyAnswerLimiter } = require('../middleware/rateLimiters');
 const learn = require('../services/learn.service');
+const learnProgress = require('../services/learnProgress.service');
+const { requireAuth } = require('../middleware/auth');
 
 // Open to everyone; a signed-in student's answers also feed "My performance".
 const router = Router();
@@ -33,6 +35,7 @@ const quizBody = z.object({
   subject,
   topic: slug,
   level,
+  pattern: slug.optional(),
   // Ids this student has already seen at this level, so a repeat attempt gets new questions.
   exclude: z.array(objectId).max(500).default([]),
   excludeFingerprints: z.array(z.string().regex(/^[a-f\d]{64}$/i)).max(500).default([]),
@@ -57,6 +60,29 @@ const checkBody = z.object({
 router.post('/quiz/check', verifyAnswerLimiter, validate({ body: checkBody }), async (req, res) => {
   res.set('Cache-Control', 'no-store');
   res.json({ success: true, data: await learn.checkQuiz(req.valid.body, req.user?.id) });
+});
+
+// A signed-in student's quiz progress, kept on the account so it follows them across devices.
+router.get('/progress', requireAuth, async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await learnProgress.getAll(req.user.id) });
+});
+
+const progressEntry = z.object({
+  subject,
+  topic: slug,
+  level,
+  best: z.object({ correct: z.number().int().min(0).max(100), total: z.number().int().min(1).max(100) })
+    .refine((b) => b.correct <= b.total, { message: 'correct cannot exceed total' })
+    .nullable()
+    .optional(),
+  seen: z.array(objectId).max(500).default([]),
+  fingerprints: z.array(z.string().regex(/^[a-f\d]{64}$/i)).max(500).default([]),
+  patterns: z.array(slug).max(30).default([]),
+});
+router.put('/progress', requireAuth, validate({ body: z.object({ entries: z.array(progressEntry).min(1).max(200) }) }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await learnProgress.merge(req.user.id, req.valid.body.entries) });
 });
 
 module.exports = router;

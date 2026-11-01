@@ -37,6 +37,12 @@ db.questions.createIndex(
   },
 );
 db.questions.createIndex({ duplicate_keys: 1 }, { name: "question_duplicate_keys" });
+// GK: questions linked to a fact, and the admin queue of GS questions by source-check status.
+db.questions.createIndex(
+  { fact_ids: 1 },
+  { name: "question_fact_ids", partialFilterExpression: { fact_ids: { $type: "objectId" } } },
+);
+db.questions.createIndex({ subject: 1, "source_check.status": 1, topic: 1 }, { name: "question_source_check" });
 
 // A PYQ code identifies exactly one question across the bank.
 db.questions.createIndex(
@@ -216,5 +222,34 @@ db.users.createIndex(
 // "My performance": per-user totals by topic, and recent activity for the streak.
 db.practice_attempts.createIndex({ user_id: 1, created_at: -1 }, { name: "user_recent" });
 db.practice_attempts.createIndex({ user_id: 1, subject: 1, topic: 1 }, { name: "user_topic" });
+
+// ----------------------------------------------------------------- gk_facts
+db.gk_facts.createIndex({ code: 1 }, { name: "uniq_gk_fact_code", unique: true });
+// Read & Learn: published facts of a card, by subcategory.
+db.gk_facts.createIndex({ status: 1, topic: 1, subtopic: 1, code: 1 }, { name: "gk_fact_topic" });
+// The West Bengal card also lists facts tagged west_bengal from other cards.
+db.gk_facts.createIndex({ status: 1, tags: 1, code: 1 }, { name: "gk_fact_tags" });
+// Admin queues: unverified facts, Bengali pending review, facts due for review.
+db.gk_facts.createIndex({ "verification.status": 1, topic: 1 }, { name: "gk_fact_verification" });
+db.gk_facts.createIndex({ "bengali_review.status": 1, topic: 1 }, { name: "gk_fact_bengali_review" });
+db.gk_facts.createIndex(
+  { "dates.review_by": 1 },
+  { name: "gk_fact_review_by", partialFilterExpression: { "dates.review_by": { $type: "date" } } },
+);
+
+// -------------------------------------------------------- content_revisions
+// Change history of admin edits to questions and GK facts (insert-only).
+db.content_revisions.createIndex({ entity: 1, entity_id: 1, created_at: -1 }, { name: "revision_entity_recent" });
+db.content_revisions.createIndex(
+  { answer_changed: 1, created_at: -1 },
+  { name: "revision_answer_changes", partialFilterExpression: { answer_changed: true } },
+);
+
+// ----------------------------------------------------------- learn_progress
+// A signed-in student's Learn quiz progress per chapter level (synced across devices).
+db.learn_progress.createIndex(
+  { user_id: 1, subject: 1, topic: 1, level: 1 },
+  { name: "uniq_user_learn_level", unique: true },
+);
 
 print("indexes ensured");

@@ -13,11 +13,19 @@ const { EXAM_CATEGORIES, TIERS, SLUG_RE } = require('./constants');
  * means the same thing under SSC and BANK, so questions can be shared.
  */
 
+/**
+ * Syllabus mapping of a chapter within one exam category:
+ *   SYLLABUS       an official syllabus of an exam in this category covers it (see syllabus_note/source)
+ *   SUPPLEMENTARY  useful background, not named in the official syllabus
+ *   UNVERIFIED     mapping not yet checked against the official syllabus
+ */
+const SYLLABUS_STATUS = Object.freeze(['UNVERIFIED', 'SUPPLEMENTARY', 'SYLLABUS']);
+
 const SubtopicSchema = new Schema(
   {
     code: { type: String, required: true, match: SLUG_RE },
     name: { type: LocalizedText, required: true, validate: hasAnyLanguage },
-    syllabus_status: { type: String, enum: ['UNVERIFIED', 'SUPPLEMENTARY'], default: 'UNVERIFIED' },
+    syllabus_status: { type: String, enum: SYLLABUS_STATUS, default: 'UNVERIFIED' },
   },
   { _id: false },
 );
@@ -27,7 +35,10 @@ const TopicNodeSchema = new Schema(
     code: { type: String, required: true, match: SLUG_RE },
     name: { type: LocalizedText, required: true, validate: hasAnyLanguage },
     subtopics: { type: [SubtopicSchema], default: [] },
-    syllabus_status: { type: String, enum: ['UNVERIFIED', 'SUPPLEMENTARY'], default: 'UNVERIFIED' },
+    syllabus_status: { type: String, enum: SYLLABUS_STATUS, default: 'UNVERIFIED' },
+    // Which official syllabus line covers the chapter (SYLLABUS) or why it is only supplementary.
+    syllabus_note: { type: LocalizedText, default: undefined },
+    syllabus_source_url: { type: String, trim: true, maxlength: 1024 },
   },
   { _id: false },
 );

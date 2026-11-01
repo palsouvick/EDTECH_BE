@@ -3,6 +3,15 @@
 // Lesson: Time, Speed & Distance. Format: see ../validate.js header.
 const r = String.raw;
 const t = (en, bn) => ({ en, bn });
+const solved = (question, given, find, method, steps, answer, why) => ({
+  question: t(question[0], question[1]),
+  given: t(given[0], given[1]),
+  find: t(find[0], find[1]),
+  method: t(method[0], method[1]),
+  steps: steps.map(([en, bn]) => t(en, bn)),
+  answer: t(answer[0], answer[1]),
+  why: t(why[0], why[1]),
+});
 
 module.exports = {
   subject: 'quant',
@@ -13,6 +22,25 @@ module.exports = {
     'This chapter is about how fast things move and how far they go. Every bus ride, train journey or cricket ball has a speed, a distance and a time, and if you know two of them you can find the third.',
     'কোনো কিছু কত জোরে চলে আর কত দূর যায়, এই অধ্যায় তা নিয়েই। প্রতিটি বাসযাত্রা, ট্রেনযাত্রা বা ক্রিকেট বলের একটা গতি, দূরত্ব আর সময় থাকে; এর যে-কোনো দুটো জানলে তৃতীয়টা বার করা যায়।',
   ),
+  strategy: {
+    heading: t('A beginner’s decision guide', 'নতুনদের সিদ্ধান্ত নেওয়ার সহজ কৌশল'),
+    sections: [
+      { heading: t('1. Mark the known quantities', '1. জানা পরিমাণগুলো চিহ্নিত করো'), body: t('Write distance (D), speed (S), and time (T), then mark what the question asks. This tells you which of the three formulas to use.', 'দূরত্ব (D), গতি (S) ও সময় (T) লিখে প্রশ্নে কোনটি চেয়েছে চিহ্নিত করো। এতে তিনটি সূত্রের কোনটি লাগবে বোঝা যায়।') },
+      { heading: t('2. Choose the matching formula', '2. উপযুক্ত সূত্র বেছে নাও'), body: t('Use D = S × T for distance, S = D ÷ T for speed, and T = D ÷ S for time. Check that the units fit the formula.', 'দূরত্বে D = S × T, গতিতে S = D ÷ T এবং সময়ে T = D ÷ S ব্যবহার করো। সূত্রের এককগুলো মিলছে কি না দেখো।') },
+      { heading: t('3. Convert units before calculating', '3. হিসাবের আগে একক বদলাও'), body: t('For km/h use kilometres and hours; for m/s use metres and seconds. Convert minutes to hours or km/h to m/s before substituting if needed.', 'কিমি/ঘণ্টার সঙ্গে কিলোমিটার ও ঘণ্টা, মি/সে-র সঙ্গে মিটার ও সেকেন্ড নাও। দরকার হলে বসানোর আগে মিনিটকে ঘণ্টায় বা কিমি/ঘণ্টাকে মি/সে-তে বদলাও।') },
+      { heading: t('4. Read the journey carefully', '4. যাত্রার বর্ণনা মন দিয়ে পড়ো'), body: t('For a whole trip, split it into parts when speed changes. Find each part’s time or distance separately, then combine the matching quantities.', 'পুরো যাত্রায় গতি বদলালে যাত্রাকে ভাগ করো। প্রতিটি অংশের সময় বা দূরত্ব আলাদা বের করে একই ধরনের পরিমাণ যোগ করো।') },
+      { heading: t('5. Take care with average speed', '5. গড় গতিতে সতর্ক থাকো'), body: t('Average speed is total distance divided by total time. Do not simply average two speeds unless the times spent at them are equal.', 'গড় গতি = মোট দূরত্ব ÷ মোট সময়। দুই গতিতে সময় সমান না হলে শুধু দুই গতির গড় নিও না।') },
+      { heading: t('6. Check units and reasonableness', '6. একক ও যুক্তি যাচাই করো'), body: t('Distance should have a distance unit, time a time unit and speed a distance-per-time unit. A faster speed over the same time should give a greater distance.', 'দূরত্বের একক দূরত্ব, সময়ের একক সময় এবং গতির একক দূরত্ব-প্রতি-সময় হবে। একই সময়ে বেশি গতিতে বেশি দূরত্ব যাওয়ার কথা।') },
+    ],
+  },
+  practice: {
+    question: t('A cyclist covers 96 km in 1.5 hours. Find the speed.', 'একজন সাইকেল আরোহী 1.5 ঘণ্টায় 96 কিমি যায়। তার গতি কত?'),
+    steps: [
+      t('Speed = distance ÷ time = 96 ÷ 1.5.', 'গতি = দূরত্ব ÷ সময় = 96 ÷ 1.5।'),
+      t('96 ÷ 1.5 = 960 ÷ 15 = 64 km/h.', '96 ÷ 1.5 = 960 ÷ 15 = 64 কিমি/ঘণ্টা।'),
+    ],
+    answer: t('64 km/h.', '64 কিমি/ঘণ্টা।'),
+  },
   levels: [
     {
       level: 'basic',
@@ -71,34 +99,109 @@ Move the parts around to get the other two:
             'Rahul cycles at 12 km/h for 2 hours. How far does he go?',
             'রাহুল ঘণ্টায় 12 কিমি বেগে 2 ঘণ্টা সাইকেল চালাল। সে কত দূর গেল?',
           ),
+          given: t('Speed = 12 km/h; time = 2 h.', 'গতি = 12 কিমি/ঘণ্টা; সময় = 2 ঘণ্টা।'),
+          find: t('Distance travelled.', 'অতিক্রান্ত দূরত্ব।'),
+          method: t('Multiply speed by time using D = S × T.', 'D = S × T সূত্রে গতি ও সময় গুণ করি।'),
           steps: [
             t(r`Distance $=$ Speed $\times$ Time.`, r`দূরত্ব $=$ গতি $\times$ সময়।`),
             t(r`$12 \times 2 = 24$ km.`, r`$12 \times 2 = 24$ কিমি।`),
           ],
           answer: t('24 km', '24 কিমি'),
+          why: t('At 12 km each hour for 2 hours, the cyclist covers two groups of 12 km.', 'প্রতি ঘণ্টায় 12 কিমি করে 2 ঘণ্টায় সাইকেল আরোহী 12 কিমির দুটি অংশ যায়।'),
         },
         {
           question: t(
             'A car travels at 25 km/h for 3.5 hours. What distance does it cover?',
             'একটা গাড়ি ঘণ্টায় 25 কিমি বেগে 3.5 ঘণ্টা চলল। গাড়িটা কত দূরত্ব গেল?',
           ),
+          given: t('Speed = 25 km/h; time = 3.5 h.', 'গতি = 25 কিমি/ঘণ্টা; সময় = 3.5 ঘণ্টা।'),
+          find: t('Distance travelled.', 'অতিক্রান্ত দূরত্ব।'),
+          method: t('Multiply speed by time, splitting the decimal time if helpful.', 'গতি ও সময় গুণ করি; দরকার হলে দশমিক সময়কে ভাগ করি।'),
           steps: [
             t(r`Distance $= 25 \times 3.5$.`, r`দূরত্ব $= 25 \times 3.5$।`),
             t(r`$25 \times 3 = 75$ and $25 \times 0.5 = 12.5$, so total $= 75 + 12.5 = 87.5$ km.`, r`$25 \times 3 = 75$ আর $25 \times 0.5 = 12.5$, তাই মোট $= 75 + 12.5 = 87.5$ কিমি।`),
           ],
           answer: t('87.5 km', '87.5 কিমি'),
+          why: t('The distance is the 25 km travelled in each hour added over 3.5 hours.', '3.5 ঘণ্টার প্রতিটি ঘণ্টায় যাওয়া 25 কিমি দূরত্ব যোগ করলেই মোট দূরত্ব হয়।'),
         },
         {
           question: t(
             'Mina walks 6 km to her grandmother\'s house in 2 hours. What is her speed?',
             'মিনা 2 ঘণ্টায় 6 কিমি হেঁটে দিদিমার বাড়ি গেল। তার গতি কত?',
           ),
+          given: t('Distance = 6 km; time = 2 h.', 'দূরত্ব = 6 কিমি; সময় = 2 ঘণ্টা।'),
+          find: t('Speed.', 'গতি।'),
+          method: t('Divide distance by time using S = D ÷ T.', 'S = D ÷ T সূত্রে দূরত্বকে সময় দিয়ে ভাগ করি।'),
           steps: [
             t(r`Speed $= \dfrac{\text{Distance}}{\text{Time}} = \dfrac{6}{2}$.`, r`গতি $= \dfrac{\text{দূরত্ব}}{\text{সময়}} = \dfrac{6}{2}$।`),
             t(r`$= 3$ km/h.`, r`অর্থাৎ $3$ কিমি/ঘণ্টা।`),
           ],
           answer: t('3 km/h', '3 কিমি/ঘণ্টা'),
+          why: t('The 6 km is shared equally across 2 hours, so 3 km is covered each hour.', '6 কিমি দূরত্ব 2 ঘণ্টায় সমানভাবে ভাগ হলে প্রতি ঘণ্টায় 3 কিমি হয়।'),
         },
+        solved(
+          ['A bus travels 150 km at 50 km/h. How long does the journey take?', 'একটি বাস ঘণ্টায় 50 কিমি বেগে 150 কিমি যায়। যাত্রায় কত সময় লাগে?'],
+          ['Distance = 150 km; speed = 50 km/h.', 'দূরত্ব = 150 কিমি; গতি = 50 কিমি/ঘণ্টা।'],
+          ['Travel time.', 'যাত্রার সময়।'],
+          ['Divide distance by speed: T = D ÷ S.', 'দূরত্বকে গতি দিয়ে ভাগ করি: T = D ÷ S।'],
+          [['Time = 150 ÷ 50 = 3.', 'সময় = 150 ÷ 50 = 3।'], ['The units are km ÷ (km/h) = h, so the time is 3 hours.', 'একক কিমি ÷ (কিমি/ঘণ্টা) = ঘণ্টা, তাই সময় 3 ঘণ্টা।']],
+          ['3 hours.', '3 ঘণ্টা।'],
+          ['At 50 km each hour, three hours cover 50 × 3 = 150 km.', 'প্রতি ঘণ্টায় 50 কিমি হলে 3 ঘণ্টায় 50 × 3 = 150 কিমি যায়।'],
+        ),
+        solved(
+          ['A train covers 180 km in 4 hours. Find its speed.', 'একটি ট্রেন 4 ঘণ্টায় 180 কিমি যায়। তার গতি কত?'],
+          ['Distance = 180 km; time = 4 h.', 'দূরত্ব = 180 কিমি; সময় = 4 ঘণ্টা।'],
+          ['Speed in km/h.', 'কিমি/ঘণ্টায় গতি।'],
+          ['Divide distance by time: S = D ÷ T.', 'দূরত্বকে সময় দিয়ে ভাগ করি: S = D ÷ T।'],
+          [['Speed = 180 ÷ 4.', 'গতি = 180 ÷ 4।'], ['Speed = 45 km/h.', 'গতি = 45 কিমি/ঘণ্টা।']],
+          ['45 km/h.', '45 কিমি/ঘণ্টা।'],
+          ['Four equal hours at 45 km/h give 4 × 45 = 180 km.', '45 কিমি/ঘণ্টা করে চার ঘণ্টায় 4 × 45 = 180 কিমি হয়।'],
+        ),
+        solved(
+          ['Convert 72 km/h to metres per second.', '72 কিমি/ঘণ্টাকে মিটার প্রতি সেকেন্ডে বদলাও।'],
+          ['Speed = 72 km/h.', 'গতি = 72 কিমি/ঘণ্টা।'],
+          ['Speed in m/s.', 'মি/সে-তে গতি।'],
+          ['Multiply km/h by 5/18 to convert to m/s.', 'কিমি/ঘণ্টাকে মি/সে-তে বদলাতে 5/18 দিয়ে গুণ করি।'],
+          [['Use 1 km = 1000 m and 1 h = 3600 s, so 1 km/h = 5/18 m/s.', '1 কিমি = 1000 মিটার এবং 1 ঘণ্টা = 3600 সেকেন্ড, তাই 1 কিমি/ঘণ্টা = 5/18 মি/সে।'], ['72 × 5/18 = 4 × 5 = 20 m/s.', '72 × 5/18 = 4 × 5 = 20 মি/সে।']],
+          ['20 m/s.', '20 মি/সে।'],
+          ['The conversion factor changes both the distance and time units while preserving the actual speed.', 'রূপান্তর গুণক দূরত্ব ও সময়ের একক বদলায়, কিন্তু প্রকৃত গতি একই রাখে।'],
+        ),
+        solved(
+          ['Convert 15 m/s to kilometres per hour.', '15 মি/সেকে কিলোমিটার প্রতি ঘণ্টায় বদলাও।'],
+          ['Speed = 15 m/s.', 'গতি = 15 মি/সে।'],
+          ['Speed in km/h.', 'কিমি/ঘণ্টায় গতি।'],
+          ['Multiply m/s by 18/5 to convert to km/h.', 'মি/সেকে 18/5 দিয়ে গুণ করে কিমি/ঘণ্টায় বদলাই।'],
+          [['Use 1 m/s = 18/5 km/h.', '1 মি/সে = 18/5 কিমি/ঘণ্টা ব্যবহার করি।'], ['15 × 18/5 = 3 × 18 = 54 km/h.', '15 × 18/5 = 3 × 18 = 54 কিমি/ঘণ্টা।']],
+          ['54 km/h.', '54 কিমি/ঘণ্টা।'],
+          ['The inverse conversion factor restores kilometres and hours as the units.', 'উল্টো রূপান্তর গুণকে একক কিলোমিটার ও ঘণ্টায় ফিরে আসে।'],
+        ),
+        solved(
+          ['A car travels at 60 km/h for 2 hours 30 minutes. Find the distance.', 'একটি গাড়ি ঘণ্টায় 60 কিমি বেগে 2 ঘণ্টা 30 মিনিট চলে। দূরত্ব কত?'],
+          ['Speed = 60 km/h; time = 2 h 30 min.', 'গতি = 60 কিমি/ঘণ্টা; সময় = 2 ঘণ্টা 30 মিনিট।'],
+          ['Distance travelled.', 'অতিক্রান্ত দূরত্ব।'],
+          ['Convert time to hours, then use D = S × T.', 'সময়কে ঘণ্টায় বদলে D = S × T ব্যবহার করি।'],
+          [['2 h 30 min = 2 + 30/60 = 2.5 h.', '2 ঘণ্টা 30 মিনিট = 2 + 30/60 = 2.5 ঘণ্টা।'], ['Distance = 60 × 2.5 = 150 km.', 'দূরত্ব = 60 × 2.5 = 150 কিমি।']],
+          ['150 km.', '150 কিমি।'],
+          ['The speed is per hour, so the time must be in hours for the units to match.', 'গতি ঘণ্টাপ্রতি, তাই একক মেলাতে সময় ঘণ্টায় নিতে হয়।'],
+        ),
+        solved(
+          ['A traveller goes 40 km at 40 km/h and returns the same 40 km at 60 km/h. Find the average speed.', 'একজন 40 কিমি পথ 40 কিমি/ঘণ্টায় যায় এবং একই 40 কিমি পথ 60 কিমি/ঘণ্টায় ফেরে। গড় গতি কত?'],
+          ['Outward: 40 km at 40 km/h; return: 40 km at 60 km/h.', 'যাওয়া: 40 কিমি, গতি 40 কিমি/ঘণ্টা; ফেরা: 40 কিমি, গতি 60 কিমি/ঘণ্টা।'],
+          ['Average speed for the complete trip.', 'পুরো যাত্রার গড় গতি।'],
+          ['Average speed = total distance ÷ total time.', 'গড় গতি = মোট দূরত্ব ÷ মোট সময়।'],
+          [['Total distance = 40 + 40 = 80 km; time = 40/40 + 40/60 = 1 + 2/3 = 5/3 h.', 'মোট দূরত্ব = 40 + 40 = 80 কিমি; সময় = 40/40 + 40/60 = 1 + 2/3 = 5/3 ঘণ্টা।'], ['Average speed = 80 ÷ (5/3) = 80 × 3/5 = 48 km/h.', 'গড় গতি = 80 ÷ (5/3) = 80 × 3/5 = 48 কিমি/ঘণ্টা।']],
+          ['48 km/h.', '48 কিমি/ঘণ্টা।'],
+          ['The average uses total distance and total time; it is not the simple mean of 40 and 60.', 'গড়ে মোট দূরত্ব ও মোট সময় লাগে; 40 ও 60-এর সাধারণ গড় নয়।'],
+        ),
+        solved(
+          ['A 180 m train moves at 18 m/s. How long does it take to pass a pole?', '180 মিটার লম্বা একটি ট্রেন 18 মি/সে বেগে চলে। একটি খুঁটি পার হতে কত সময় লাগে?'],
+          ['Train length = 180 m; speed = 18 m/s.', 'ট্রেনের দৈর্ঘ্য = 180 মিটার; গতি = 18 মি/সে।'],
+          ['Time to pass the pole.', 'খুঁটিটি পার হওয়ার সময়।'],
+          ['To clear a pole, the train travels its own length; use T = D ÷ S.', 'খুঁটি পুরো পার হতে ট্রেনটি নিজের দৈর্ঘ্যের সমান পথ যায়; T = D ÷ S ব্যবহার করি।'],
+          [['Distance to pass the pole = 180 m.', 'খুঁটি পার হওয়ার দূরত্ব = 180 মিটার।'], ['Time = 180 ÷ 18 = 10 s.', 'সময় = 180 ÷ 18 = 10 সেকেন্ড।']],
+          ['10 seconds.', '10 সেকেন্ড।'],
+          ['The pole is treated as a point, so the whole 180 m train must move past it.', 'খুঁটিকে একটি বিন্দু ধরা হয়, তাই 180 মিটার লম্বা পুরো ট্রেনটিকেই সেটি পার হতে হয়।'],
+        ),
       ],
     },
     {

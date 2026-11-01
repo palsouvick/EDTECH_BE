@@ -23,9 +23,14 @@
  *       examples: [{ question: T, steps: [T], answer: T }],  // >= 2 worked examples, >= 2 steps each
  *     },
  *   ],
+ *   strategy?: { heading: T, sections: [{ heading: T, body: T }] },
+ *   practice?: { question: T, steps: [T], answer: T },
  *   rules: [{ label: T, latex?: 'LaTeX', explain: T }],  // >= 3; formulas (math) or rules (English)
  *   tips: [T],                                // >= 3 "remember / common mistake" lines
  * };
+ *
+ * Mathematics additionally requires ten Basic examples with given/find/method/why
+ * fields, a bilingual problem-solving strategy, and a short independent exercise.
  */
 
 const path = require('node:path');
@@ -97,6 +102,26 @@ function validateLesson(lesson, file = '') {
       (ex.steps || []).forEach((st, j) => checkText(st, `${w} example ${i + 1} step ${j + 1}`, errors));
       checkText(ex.answer, `${w} example ${i + 1} answer`, errors);
     });
+  }
+
+  if (lesson.subject === 'quant') {
+    const basic = levels.find((lv) => lv.level === 'basic');
+    if (!(basic?.examples?.length >= 10)) errors.push(`${at}: Math Basic needs at least 10 solved examples`);
+    (basic?.examples || []).forEach((ex, i) => {
+      for (const field of ['given', 'find', 'method', 'why']) {
+        checkText(ex[field], `${at} basic example ${i + 1} ${field}`, errors);
+      }
+    });
+    checkText(lesson.strategy?.heading, `${at} strategy heading`, errors);
+    if (!(lesson.strategy?.sections?.length >= 5)) errors.push(`${at}: Math strategy needs at least 5 sections`);
+    (lesson.strategy?.sections || []).forEach((section, i) => {
+      checkText(section.heading, `${at} strategy section ${i + 1} heading`, errors);
+      checkText(section.body, `${at} strategy section ${i + 1} body`, errors);
+    });
+    checkText(lesson.practice?.question, `${at} quick practice question`, errors);
+    if (!(lesson.practice?.steps?.length >= 2)) errors.push(`${at}: quick practice needs at least 2 worked steps`);
+    (lesson.practice?.steps || []).forEach((step, i) => checkText(step, `${at} quick practice step ${i + 1}`, errors));
+    checkText(lesson.practice?.answer, `${at} quick practice answer`, errors);
   }
 
   if (!(lesson.rules?.length >= 3)) errors.push(`${at}: needs at least 3 rules/formulas`);

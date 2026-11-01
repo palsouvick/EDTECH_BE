@@ -3,6 +3,15 @@
 // Chapter lesson: Simplification & BODMAS. Format: see ../validate.js header.
 const r = String.raw;
 const t = (en, bn) => ({ en, bn });
+const solved = (question, given, find, method, steps, answer, why) => ({
+  question: t(question[0], question[1]),
+  given: t(given[0], given[1]),
+  find: t(find[0], find[1]),
+  method: t(method[0], method[1]),
+  steps: steps.map(([en, bn]) => t(en, bn)),
+  answer: t(answer[0], answer[1]),
+  why: t(why[0], why[1]),
+});
 
 module.exports = {
   subject: 'quant',
@@ -13,6 +22,25 @@ module.exports = {
     'Simplification means working out a long sum with many signs, step by step, to get one number. A fixed order of steps, called BODMAS, makes sure everyone gets the same answer.',
     'সরলীকরণ মানে অনেকগুলি চিহ্নযুক্ত একটি লম্বা অঙ্ককে ধাপে ধাপে কষে একটি সংখ্যায় পৌঁছানো। BODMAS নামের একটি নির্দিষ্ট ক্রম মেনে চললে সবাই একই উত্তর পায়।',
   ),
+  strategy: {
+    heading: t('A beginner’s decision guide', 'নতুনদের সিদ্ধান্ত নেওয়ার সহজ কৌশল'),
+    sections: [
+      { heading: t('1. Copy the expression carefully', '1. রাশিটি সাবধানে লেখো'), body: t('Keep every sign, bracket, fraction bar and decimal point. A small copying change can change the answer.', 'প্রতিটি চিহ্ন, বন্ধনী, ভগ্নাংশের রেখা ও দশমিক বিন্দু ঠিক রাখো। লেখায় সামান্য পরিবর্তনেও উত্তর বদলে যেতে পারে।') },
+      { heading: t('2. Start with brackets', '2. বন্ধনী দিয়ে শুরু করো'), body: t('Work inside the innermost brackets first. Replace that bracket with its value before moving outward.', 'সবচেয়ে ভিতরের বন্ধনীর কাজ আগে করো। বাইরের দিকে যাওয়ার আগে বন্ধনীর জায়গায় তার মান বসাও।') },
+      { heading: t('3. Do powers and roots next', '3. এরপর ঘাত ও বর্গমূল করো'), body: t('Evaluate orders such as squares, cubes and square roots after brackets, before ordinary multiplication or addition.', 'বন্ধনীর পরে এবং সাধারণ গুণ বা যোগের আগে বর্গ, ঘন ও বর্গমূলের মতো ঘাতের কাজ করো।') },
+      { heading: t('4. Treat division and multiplication equally', '4. ভাগ ও গুণকে সমান গুরুত্ব দাও'), body: t('Do division and multiplication from left to right. Do not assume multiplication always comes before division.', 'ভাগ ও গুণ বাঁদিক থেকে ডানদিকে করো। গুণ সবসময় ভাগের আগে হবে—এমন ধরে নিও না।') },
+      { heading: t('5. Then add and subtract left to right', '5. শেষে বাঁদিক থেকে যোগ-বিয়োগ করো'), body: t('Addition and subtraction have equal rank. Follow the written order from left to right after higher-priority operations are done.', 'যোগ ও বিয়োগের গুরুত্ব সমান। বেশি অগ্রাধিকারের কাজ শেষে লিখিত ক্রমে বাঁদিক থেকে ডানদিকে এগোও।') },
+      { heading: t('6. Check each line and the size', '6. প্রতিটি ধাপ ও উত্তরের মান যাচাই করো'), body: t('Write one clear line per stage and estimate the result. If the estimate is far away, check signs, order and arithmetic again.', 'প্রতি ধাপে একটি পরিষ্কার লাইন লেখো এবং উত্তরটি আনুমানিক যাচাই করো। আনুমানিক মানের সঙ্গে না মিললে চিহ্ন, ক্রম ও হিসাব আবার দেখো।') },
+    ],
+  },
+  practice: {
+    question: t('Simplify: 36 ÷ (3 × 2) + 5² − 4.', 'সরল করো: 36 ÷ (3 × 2) + 5² − 4।'),
+    steps: [
+      t('Bracket first: 3 × 2 = 6; power: 5² = 25. The expression is 36 ÷ 6 + 25 − 4.', 'আগে বন্ধনী: 3 × 2 = 6; ঘাত: 5² = 25। রাশিটি হল 36 ÷ 6 + 25 − 4।'),
+      t('Division, then left to right: 6 + 25 − 4 = 31 − 4 = 27.', 'ভাগ করে তারপর বাঁদিক থেকে: 6 + 25 − 4 = 31 − 4 = 27।'),
+    ],
+    answer: t('27', 'উত্তর 27'),
+  },
   levels: [
     // ───────────────────────────── BASIC ─────────────────────────────
     {
@@ -60,30 +88,105 @@ D and M are equal partners: do whichever comes first from the left. The same is 
       examples: [
         {
           question: t('Simplify: 35 + 5 × 6 − 20 ÷ 2', 'সরল করো: 35 + 5 × 6 − 20 ÷ 2'),
+          given: t('Expression: 35 + 5 × 6 − 20 ÷ 2.', 'রাশি: 35 + 5 × 6 − 20 ÷ 2।'),
+          find: t('The simplified value.', 'সরলীকৃত মান।'),
+          method: t('Do multiplication and division first, then addition and subtraction from left to right.', 'আগে গুণ ও ভাগ, তারপর বাঁদিক থেকে যোগ ও বিয়োগ করি।'),
           steps: [
             t('No brackets or powers. Do × and ÷ first: 5 × 6 = 30 and 20 ÷ 2 = 10.', 'বন্ধনী বা ঘাত নেই। আগে × ও ÷ করো: 5 × 6 = 30 এবং 20 ÷ 2 = 10।'),
             t('Now it is 35 + 30 − 10.', 'এখন হল 35 + 30 − 10।'),
             t('Left to right: 35 + 30 = 65, then 65 − 10 = 55.', 'বাঁদিক থেকে: 35 + 30 = 65, তারপর 65 − 10 = 55।'),
           ],
           answer: t('55', 'উত্তর 55'),
+          why: t('The two higher-priority operations become 30 and 10, leaving 35 + 30 − 10.', 'আগের অগ্রাধিকারের কাজ দুটি 30 ও 10 হয়; তখন থাকে 35 + 30 − 10।'),
         },
         {
           question: t('Simplify: 32 + 5 × 3 − 24 ÷ 2', 'সরল করো: 32 + 5 × 3 − 24 ÷ 2'),
+          given: t('Expression: 32 + 5 × 3 − 24 ÷ 2.', 'রাশি: 32 + 5 × 3 − 24 ÷ 2।'),
+          find: t('The simplified value.', 'সরলীকৃত মান।'),
+          method: t('Multiply and divide before adding or subtracting.', 'যোগ বা বিয়োগের আগে গুণ ও ভাগ করি।'),
           steps: [
             t('Multiplication and division first: 5 × 3 = 15 and 24 ÷ 2 = 12.', 'আগে গুণ ও ভাগ: 5 × 3 = 15 এবং 24 ÷ 2 = 12।'),
             t('32 + 15 − 12 = 47 − 12 = 35.', 'তারপর 32 + 15 − 12 = 47 − 12 = 35।'),
           ],
           answer: t('35', 'উত্তর 35'),
+          why: t('After the priority operations, 32 + 15 − 12 is evaluated from left to right.', 'অগ্রাধিকারের কাজের পর 32 + 15 − 12 বাঁদিক থেকে হিসাব হয়।'),
         },
         {
           question: t('Simplify: 24 ÷ 4 × 2', 'সরল করো: 24 ÷ 4 × 2'),
+          given: t('Expression: 24 ÷ 4 × 2.', 'রাশি: 24 ÷ 4 × 2।'),
+          find: t('The simplified value.', 'সরলীকৃত মান।'),
+          method: t('Division and multiplication have equal rank; proceed left to right.', 'ভাগ ও গুণের গুরুত্ব সমান; বাঁদিক থেকে এগোই।'),
           steps: [
             t('÷ and × have equal rank, so go from left to right. First 24 ÷ 4 = 6.', '÷ ও × সমান গুরুত্বের, তাই বাঁদিক থেকে ডানদিকে যাও। আগে 24 ÷ 4 = 6।'),
             t('Then 6 × 2 = 12.', 'তারপর 6 × 2 = 12।'),
             t('Common mistake: doing 4 × 2 = 8 first gives 24 ÷ 8 = 3, which is wrong.', 'সাধারণ ভুল: আগে 4 × 2 = 8 করলে 24 ÷ 8 = 3 আসে, যা ভুল।'),
           ],
           answer: t('12', 'উত্তর 12'),
+          why: t('The written order is (24 ÷ 4) × 2, not 24 ÷ (4 × 2).', 'লিখিত ক্রমটি (24 ÷ 4) × 2, 24 ÷ (4 × 2) নয়।'),
         },
+        solved(
+          ['Simplify: (18 + 6) ÷ 3.', 'সরল করো: (18 + 6) ÷ 3।'],
+          ['Expression: (18 + 6) ÷ 3.', 'রাশি: (18 + 6) ÷ 3।'],
+          ['The simplified value.', 'সরলীকৃত মান।'],
+          ['Evaluate the bracket, then divide.', 'আগে বন্ধনীর মান, তারপর ভাগ করি।'],
+          [['18 + 6 = 24.', '18 + 6 = 24, তাই যোগফল 24।'], ['24 ÷ 3 = 8.', '24 ÷ 3 = 8, তাই উত্তর 8।']],
+          ['8', 'উত্তর 8'],
+          ['The bracket groups the addition, so its total is divided by 3.', 'বন্ধনী যোগকে একসঙ্গে রাখে, তাই যোগফলকে 3 দিয়ে ভাগ করতে হয়।'],
+        ),
+        solved(
+          ['Simplify: 5² − 3 × 4.', 'সরল করো: 5² − 3 × 4।'],
+          ['Expression: 5² − 3 × 4.', 'রাশি: 5² − 3 × 4।'],
+          ['The simplified value.', 'সরলীকৃত মান।'],
+          ['Evaluate the power and multiplication before subtraction.', 'বিয়োগের আগে ঘাত ও গুণের কাজ করি।'],
+          [['5² = 25 and 3 × 4 = 12.', '5² = 25 এবং 3 × 4 = 12।'], ['25 − 12 = 13.', '25 − 12 = 13, তাই উত্তর 13।']],
+          ['13', 'উত্তর 13'],
+          ['Powers and multiplication come before subtraction in BODMAS.', 'BODMAS অনুযায়ী বিয়োগের আগে ঘাত ও গুণ হয়।'],
+        ),
+        solved(
+          ['Simplify: 48 ÷ (6 × 2) + 7.', 'সরল করো: 48 ÷ (6 × 2) + 7।'],
+          ['Expression: 48 ÷ (6 × 2) + 7.', 'রাশি: 48 ÷ (6 × 2) + 7।'],
+          ['The simplified value.', 'সরলীকৃত মান।'],
+          ['Solve the bracket first, then divide, then add.', 'আগে বন্ধনী, তারপর ভাগ, তারপর যোগ করি।'],
+          [['6 × 2 = 12, so the expression becomes 48 ÷ 12 + 7.', '6 × 2 = 12, তাই রাশিটি হয় 48 ÷ 12 + 7।'], ['48 ÷ 12 = 4; 4 + 7 = 11.', '48 ÷ 12 = 4; 4 + 7 = 11, তাই উত্তর 11।']],
+          ['11', 'উত্তর 11'],
+          ['The bracket makes 6 × 2 the divisor; it must be completed before division.', 'বন্ধনীতে 6 × 2-ই ভাজক; ভাগের আগে বন্ধনীর কাজ শেষ করতে হয়।'],
+        ),
+        solved(
+          ['Simplify: 3/4 + 1/2 × 2.', 'সরল করো: 3/4 + 1/2 × 2।'],
+          ['Expression: 3/4 + 1/2 × 2.', 'রাশি: 3/4 + 1/2 × 2।'],
+          ['The simplified value.', 'সরলীকৃত মান।'],
+          ['Multiply before adding, then express the result as a fraction.', 'যোগের আগে গুণ করি, তারপর ভগ্নাংশে উত্তর লিখি।'],
+          [['1/2 × 2 = 1.', '1/2 × 2 = 1, তাই গুণফল 1।'], ['3/4 + 1 = 3/4 + 4/4 = 7/4 = 1 3/4.', '3/4 + 1 = 3/4 + 4/4 = 7/4 = 1 3/4, তাই যোগফল 1 3/4।']],
+          ['7/4 (or 1 3/4).', '7/4 (অথবা 1 3/4)।'],
+          ['Multiplication is completed before addition, and equal denominators make the sum clear.', 'যোগের আগে গুণ হয়, আর সমান হর করলে যোগটি সহজে বোঝা যায়।'],
+        ),
+        solved(
+          ['Simplify: (2.5 + 1.5) × 3 − 4.', 'সরল করো: (2.5 + 1.5) × 3 − 4।'],
+          ['Expression: (2.5 + 1.5) × 3 − 4.', 'রাশি: (2.5 + 1.5) × 3 − 4।'],
+          ['The simplified value.', 'সরলীকৃত মান।'],
+          ['Add inside brackets, multiply, then subtract.', 'বন্ধনীর ভিতর যোগ, তারপর গুণ, শেষে বিয়োগ করি।'],
+          [['2.5 + 1.5 = 4; then 4 × 3 = 12.', '2.5 + 1.5 = 4; এরপর 4 × 3 = 12।'], ['12 − 4 = 8.', '12 − 4 = 8, তাই উত্তর 8।']],
+          ['8', 'উত্তর 8'],
+          ['Following the brackets first keeps the grouped sum together.', 'আগে বন্ধনী করলে একসঙ্গে রাখা যোগফলটি ঠিকভাবে গুণ হয়।'],
+        ),
+        solved(
+          ['Simplify: √81 + 2³ × 2.', 'সরল করো: √81 + 2³ × 2।'],
+          ['Expression: √81 + 2³ × 2.', 'রাশি: √81 + 2³ × 2।'],
+          ['The simplified value.', 'সরলীকৃত মান।'],
+          ['Find the root and power, multiply, and then add.', 'বর্গমূল ও ঘাত বের করে গুণ, তারপর যোগ করি।'],
+          [['√81 = 9 and 2³ = 8; then 8 × 2 = 16.', '√81 = 9 এবং 2³ = 8; এরপর 8 × 2 = 16।'], ['9 + 16 = 25.', '9 + 16 = 25, তাই উত্তর 25।']],
+          ['25', 'উত্তর 25'],
+          ['Orders are evaluated before multiplication, and multiplication before addition.', 'গুণের আগে ঘাতের কাজ এবং যোগের আগে গুণের কাজ হয়।'],
+        ),
+        solved(
+          ['Simplify: 72 ÷ 8 × 3 − 5.', 'সরল করো: 72 ÷ 8 × 3 − 5।'],
+          ['Expression: 72 ÷ 8 × 3 − 5.', 'রাশি: 72 ÷ 8 × 3 − 5।'],
+          ['The simplified value.', 'সরলীকৃত মান।'],
+          ['Do division and multiplication left to right, then subtract.', 'ভাগ ও গুণ বাঁদিক থেকে করে শেষে বিয়োগ করি।'],
+          [['72 ÷ 8 = 9; then 9 × 3 = 27.', '72 ÷ 8 = 9; এরপর 9 × 3 = 27।'], ['27 − 5 = 22.', '27 − 5 = 22, তাই উত্তর 22।']],
+          ['22', 'উত্তর 22'],
+          ['Division and multiplication share a rank, so the left operation is done first.', 'ভাগ ও গুণের গুরুত্ব সমান, তাই বাঁদিকের কাজটি আগে হয়।'],
+        ),
       ],
     },
     // ───────────────────────────── INTERMEDIATE ─────────────────────────────

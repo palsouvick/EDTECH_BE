@@ -324,3 +324,101 @@ $9$-এর ক্ষেত্রে সাধারণত একটাই উত
     t('The HCF always divides the LCM. If an option breaks this, it is wrong.', 'গ.সা.গু. সবসময় ল.সা.গু.-কে ভাগ করে। কোনো বিকল্পে তা না হলে সেটা ভুল।'),
   ],
 };
+
+const lesson = module.exports;
+const basic = lesson.levels[0].examples;
+[
+  {
+    given: t('Divisor 6, quotient 7, remainder 4.', 'ভাজক 6, ভাগফল 7, ভাগশেষ 4।'),
+    find: t('The dividend.', 'ভাজ্য সংখ্যাটি।'),
+    method: t('Use dividend = divisor × quotient + remainder.', 'ভাজ্য = ভাজক × ভাগফল + ভাগশেষ সূত্রটি ব্যবহার করো।'),
+    why: t('The dividend contains all complete groups and the leftover remainder.', 'ভাজ্য সংখ্যায় সব পূর্ণ দল ও অবশিষ্ট ভাগশেষ থাকে।'),
+  },
+  {
+    given: t('Natural numbers from 1 through 20.', '1 থেকে 20 পর্যন্ত স্বাভাবিক সংখ্যা।'),
+    find: t('Their sum.', 'তাদের যোগফল।'),
+    method: t('Use n(n + 1) ÷ 2.', 'n(n + 1) ÷ 2 সূত্রটি ব্যবহার করো।'),
+    why: t('Pairing first and last numbers gives equal pair sums.', 'প্রথম ও শেষ সংখ্যা জোড়া করলে প্রতিটি জোড়ার যোগফল সমান হয়।'),
+  },
+  {
+    given: t('The first 6 odd natural numbers.', 'প্রথম 6টি অযুগ্ম স্বাভাবিক সংখ্যা।'),
+    find: t('Their sum.', 'তাদের যোগফল।'),
+    method: t('Use the sum of first n odd numbers = n².', 'প্রথম nটি অযুগ্ম সংখ্যার যোগফল = n² সূত্রটি ব্যবহার করো।'),
+    why: t('Successive odd numbers build square totals.', 'পরপর অযুগ্ম সংখ্যা যোগ করলে পূর্ণবর্গ যোগফল তৈরি হয়।'),
+  },
+].forEach((details, index) => Object.assign(basic[index], details));
+const example = (q, g, f, m, steps, a, w) => ({
+  question: t(q[0], q[1]), given: t(g[0], g[1]), find: t(f[0], f[1]),
+  method: t(m[0], m[1]), steps: steps.map((s) => t(s[0], s[1])),
+  answer: t(a[0], a[1]), why: t(w[0], w[1]),
+});
+basic.push(
+  example(
+    ['Is 5,724 divisible by 9?', '5,724 কি 9 দিয়ে বিভাজ্য?'],
+    ['Number 5,724.', 'সংখ্যা 5,724।'], ['Whether 9 divides it exactly.', '9 দিয়ে নিঃশেষে ভাগ যায় কি না।'],
+    ['Apply the digit-sum divisibility rule for 9.', '9-এর বিভাজ্যতার অঙ্ক-যোগের নিয়ম ব্যবহার করো।'],
+    [['Digit sum = 5 + 7 + 2 + 4 = 18.', 'অঙ্কগুলির যোগফল = 5 + 7 + 2 + 4 = 18।'], ['18 is divisible by 9, so 5,724 is divisible by 9.', '18, 9 দিয়ে বিভাজ্য, তাই 5,724-ও 9 দিয়ে বিভাজ্য।']],
+    ['Yes; 5,724 ÷ 9 = 636.', 'হ্যাঁ; 5,724 ÷ 9 = 636।'],
+    ['The digit-sum test works because removing groups of 9 from place values leaves the same remainder.', 'স্থানীয় মান থেকে 9-এর দল বাদ দিলে একই ভাগশেষ থাকে, তাই অঙ্ক-যোগের নিয়মটি কাজ করে।'],
+  ),
+  example(
+    ['What is the smallest number to add to 347 to make it divisible by 5?', '347-কে 5 দিয়ে বিভাজ্য করতে সবচেয়ে ছোট কত যোগ করতে হবে?'],
+    ['Number 347; divisor 5.', 'সংখ্যা 347; ভাজক 5।'], ['Smallest addition.', 'সর্বনিম্ন যোগের পরিমাণ।'],
+    ['Use the remainder and complete the next multiple.', 'ভাগশেষ দেখে পরের গুণিতক পর্যন্ত পূরণ করো।'],
+    [['347 ÷ 5 leaves remainder 2.', '347-কে 5 দিয়ে ভাগ করলে ভাগশেষ 2।'], ['Next multiple needs 5 − 2 = 3; 347 + 3 = 350.', 'পরের গুণিতকে যেতে 5 − 2 = 3 দরকার; 347 + 3 = 350।']],
+    ['3', 'যোগ করতে হবে 3'], ['350 ends in 0 and is divisible by 5; adding 1 or 2 would not reach a multiple.', '350-এর শেষ অঙ্ক 0, তাই 5 দিয়ে বিভাজ্য; 1 বা 2 যোগ করলে গুণিতক হবে না।'],
+  ),
+  example(
+    ['Find the HCF of 24 and 36.', '24 ও 36-এর গ.সা.গু. নির্ণয় করো।'],
+    ['Numbers 24 and 36.', 'সংখ্যা 24 ও 36।'], ['Greatest common factor.', 'সর্বোচ্চ সাধারণ গুণনীয়ক।'],
+    ['List common factors and choose the greatest.', 'সাধারণ গুণনীয়কগুলি লিখে সবচেয়ে বড়টি নাও।'],
+    [['Factors of 24 include 1, 2, 3, 4, 6, 8, 12, 24; factors of 36 include 1, 2, 3, 4, 6, 9, 12, 18, 36.', '24-এর গুণনীয়ক 1, 2, 3, 4, 6, 8, 12, 24; 36-এর গুণনীয়ক 1, 2, 3, 4, 6, 9, 12, 18, 36।'], ['Common factors are 1, 2, 3, 4, 6, 12; greatest is 12.', 'সাধারণ গুণনীয়ক 1, 2, 3, 4, 6, 12; সবচেয়ে বড় 12।']],
+    ['12', '12 হলো গ.সা.গু.'], ['12 divides both 24 and 36, and no larger listed factor is common.', '12, 24 ও 36 দুটোকেই ভাগ করে এবং এর চেয়ে বড় সাধারণ গুণনীয়ক নেই।'],
+  ),
+  example(
+    ['Find the LCM of 8 and 12.', '8 ও 12-এর ল.সা.গু. নির্ণয় করো।'],
+    ['Numbers 8 and 12.', 'সংখ্যা 8 ও 12।'], ['Least common multiple.', 'লঘিষ্ঠ সাধারণ গুণিতক।'],
+    ['List multiples until the first common one.', 'প্রথম সাধারণ গুণিতক না পাওয়া পর্যন্ত গুণিতক লেখো।'],
+    [['Multiples of 8: 8, 16, 24, …; multiples of 12: 12, 24, …', '8-এর গুণিতক: 8, 16, 24, …; 12-এর গুণিতক: 12, 24, …'], ['The first shared positive multiple is 24.', 'প্রথম সাধারণ ধনাত্মক গুণিতক হল 24।']],
+    ['24', '24 হলো ল.সা.গু.'], ['24 is a multiple of both, and neither list has a smaller positive shared multiple.', '24 উভয়ের গুণিতক এবং এর চেয়ে ছোট কোনো সাধারণ ধনাত্মক গুণিতক নেই।'],
+  ),
+  example(
+    ['Is 29 prime or composite?', '29 মৌলিক না যৌগিক?'],
+    ['Number 29.', 'সংখ্যা 29।'], ['Its number family.', 'সংখ্যাটির ধরন।'],
+    ['Check divisibility by primes up to its square root.', 'বর্গমূল পর্যন্ত মৌলিক সংখ্যা দিয়ে বিভাজ্যতা পরীক্ষা করো।'],
+    [['√29 is between 5 and 6, so test 2, 3, and 5.', '√29, 5 ও 6-এর মধ্যে; তাই 2, 3 ও 5 দিয়ে পরীক্ষা করো।'], ['29 is odd, digit sum 11 is not divisible by 3, and last digit is not 0 or 5.', '29 অযুগ্ম, অঙ্ক-যোগ 11 তিন দিয়ে বিভাজ্য নয়, আর শেষ অঙ্ক 0 বা 5 নয়।']],
+    ['29 is prime.', '29 মৌলিক।'], ['It has no divisor other than 1 and itself.', '1 ও নিজেকে ছাড়া এর কোনো ভাজক নেই।'],
+  ),
+  example(
+    ['How many numbers from 1 to 50 are divisible by 7?', '1 থেকে 50 পর্যন্ত কতগুলি সংখ্যা 7 দিয়ে বিভাজ্য?'],
+    ['Range 1 through 50; divisor 7.', '1 থেকে 50 পর্যন্ত; ভাজক 7।'], ['Count of multiples.', 'গুণিতকের সংখ্যা।'],
+    ['Divide the upper limit and take the whole quotient.', 'সর্বোচ্চ সীমাকে ভাগ করে পূর্ণ ভাগফল নাও।'],
+    [['50 ÷ 7 = 7 remainder 1.', '50 ÷ 7 = 7, ভাগশেষ 1।'], ['The multiples are 7 × 1 through 7 × 7 = 49, so there are 7.', 'গুণিতকগুলি 7 × 1 থেকে 7 × 7 = 49 পর্যন্ত, তাই সংখ্যা 7টি।']],
+    ['7 numbers', '7টি সংখ্যা'], ['The eighth multiple is 56, which is outside the range.', 'অষ্টম গুণিতক 56, যা সীমার বাইরে।'],
+  ),
+  example(
+    ['Find the sum of natural numbers from 1 to 30.', '1 থেকে 30 পর্যন্ত স্বাভাবিক সংখ্যার যোগফল নির্ণয় করো।'],
+    ['First 30 natural numbers.', 'প্রথম 30টি স্বাভাবিক সংখ্যা।'], ['Their sum.', 'তাদের যোগফল।'],
+    ['Use n(n + 1) ÷ 2.', 'n(n + 1) ÷ 2 সূত্রটি ব্যবহার করো।'],
+    [['Set n = 30; sum = 30 × 31 ÷ 2.', 'n = 30; যোগফল = 30 × 31 ÷ 2।'], ['15 × 31 = 465.', '15 × 31 = 465, এটাই যোগফল।']],
+    ['465', 'যোগফল 465'], ['Pairing 1 with 30, 2 with 29, and so on gives 15 pairs of 31.', '1-এর সঙ্গে 30, 2-এর সঙ্গে 29 ইত্যাদি জুড়লে 31-এর 15টি জোড়া হয়।'],
+  ),
+);
+lesson.strategy = {
+  heading: t('A beginner’s number-system guide', 'নতুনদের জন্য সংখ্যা পদ্ধতির কৌশল'),
+  sections: [
+    { heading: t('1. Classify the number', '1. সংখ্যার ধরন চেনো'), body: t('Ask whether it is natural, whole, integer, even, odd, prime, or composite. Remember that 1 is not prime.', 'এটি স্বাভাবিক, পূর্ণ, অখণ্ড, যুগ্ম, অযুগ্ম, মৌলিক না যৌগিক জিজ্ঞাসা করো। মনে রেখো, 1 মৌলিক নয়।') },
+    { heading: t('2. Read division carefully', '2. ভাগের তথ্য ঠিকভাবে পড়ো'), body: t('For dividend, divisor, quotient, and remainder, use dividend = divisor × quotient + remainder.', 'ভাজ্য, ভাজক, ভাগফল ও ভাগশেষের জন্য ভাজ্য = ভাজক × ভাগফল + ভাগশেষ ব্যবহার করো।') },
+    { heading: t('3. Pick the quick divisibility test', '3. সহজ বিভাজ্যতার পরীক্ষা বেছে নাও'), body: t('Check the last digit for 2, 5, or 10; digit sum for 3 or 9; last two digits for 4.', '2, 5 বা 10-এর জন্য শেষ অঙ্ক; 3 বা 9-এর জন্য অঙ্ক-যোগ; 4-এর জন্য শেষ দুই অঙ্ক দেখো।') },
+    { heading: t('4. Find HCF or LCM', '4. গ.সা.গু. বা ল.সা.গু. বার করো'), body: t('HCF is the greatest shared factor; LCM is the smallest shared positive multiple. Do not mix up factor and multiple.', 'গ.সা.গু. সবচেয়ে বড় সাধারণ গুণনীয়ক; ল.সা.গু. সবচেয়ে ছোট সাধারণ ধনাত্মক গুণিতক। গুণনীয়ক ও গুণিতক গুলিয়ে ফেলো না।') },
+    { heading: t('5. Handle counting and sums', '5. গণনা ও যোগফল করো'), body: t('For multiples up to N, use the whole part of N ÷ k. For consecutive natural-number sums, use n(n + 1) ÷ 2.', 'N পর্যন্ত গুণিতক গুনতে N ÷ k-এর পূর্ণ ভাগফল নাও। ধারাবাহিক স্বাভাবিক সংখ্যার যোগে n(n + 1) ÷ 2 ব্যবহার করো।') },
+  ],
+};
+lesson.practice = {
+  question: t('What is the remainder when 53 is divided by 8?', '53-কে 8 দিয়ে ভাগ করলে ভাগশেষ কত?'),
+  steps: [
+    t('The greatest multiple of 8 not exceeding 53 is 8 × 6 = 48.', '53-এর বেশি নয় এমন 8-এর সবচেয়ে বড় গুণিতক 8 × 6 = 48।'),
+    t('Remainder = 53 − 48 = 5, which is less than the divisor 8.', 'ভাগশেষ = 53 − 48 = 5, যা ভাজক 8-এর চেয়ে ছোট।'),
+  ],
+  answer: t('5', 'ভাগশেষ 5'),
+};

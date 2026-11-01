@@ -14,20 +14,24 @@
  * module.exports = {
  *   subject: 'quant' | 'reasoning' | 'english' | 'gs',
  *   topic: '<catalogue topic code>',
- *   patterns: [                                   // 3 to 15
+ *   patterns: [                                   // 3 to 20
  *     {
  *       key: 'snake_case_id',                     // unique within the file
  *       emoji: '🎯',
  *       name: T,                                  // "Find x% of a number"
  *       spot: T,                                  // how to recognise this pattern in a question (1-2 sentences)
  *       method: [T],                              // 2-5 short steps of the approach
- *       example: { question: T, steps: [T], answer: T },        // worked example, >= 2 steps
- *       tryIt: {                                  // "your turn": a fresh question of the same pattern
+ *       example?: { question: T, steps: [T], answer: T },       // one worked example, >= 2 steps
+ *       examples?: [{ question: T, steps: [T], answer: T }],    // one or more worked examples; use either field
+ *       tryIt?: {                                 // "your turn": a fresh question of the same pattern
  *         question: T,
  *         options: [T, T, T, T],                  // exactly 4, all different
  *         correct: 0 | 1 | 2 | 3,                 // index into options
  *         explanation: [T],                       // >= 2 steps showing why
  *       },
+ *       typicalWording?: T, formula?: T, shortcut?: T, trap?: T,
+ *       difficulty?: 'beginner' | 'intermediate' | 'advanced',
+ *       practiceKey?: 'question_bank_pattern_key', practiceLevels?: ['beginner'],
  *     },
  *   ],
  * };
@@ -77,7 +81,7 @@ function validatePatterns(doc, file = '') {
   if (file && path.basename(file, '.js') !== doc.topic) errors.push(`${at}: file name must be <topic>.js`);
   if (file && path.basename(path.dirname(file)) !== doc.subject) errors.push(`${at}: must sit in db/patterns/${doc.subject}/`);
   const list = doc.patterns || [];
-  if (list.length < 3 || list.length > 15) errors.push(`${at}: needs 3 to 15 patterns`);
+  if (list.length < 3 || list.length > 20) errors.push(`${at}: needs 3 to 20 patterns`);
   const keys = new Set();
   list.forEach((p, i) => {
     const w = `${at} pattern ${i + 1}${p?.key ? ` (${p.key})` : ''}`;
@@ -89,18 +93,38 @@ function validatePatterns(doc, file = '') {
     checkText(p.spot, `${w} spot`, errors);
     if (!(p.method?.length >= 2 && p.method.length <= 5)) errors.push(`${w}: method needs 2-5 steps`);
     (p.method || []).forEach((s, j) => checkText(s, `${w} method ${j + 1}`, errors));
-    checkText(p.example?.question, `${w} example question`, errors);
-    if (!(p.example?.steps?.length >= 2)) errors.push(`${w}: example needs at least 2 steps`);
-    (p.example?.steps || []).forEach((s, j) => checkText(s, `${w} example step ${j + 1}`, errors));
-    checkText(p.example?.answer, `${w} example answer`, errors);
-    const t = p.tryIt || {};
-    checkText(t.question, `${w} tryIt question`, errors);
-    if (t.options?.length !== 4) errors.push(`${w}: tryIt needs exactly 4 options`);
-    (t.options || []).forEach((o, j) => checkOption(o, `${w} tryIt option ${j + 1}`, errors));
-    if (new Set((t.options || []).map((o) => o?.en)).size !== (t.options || []).length) errors.push(`${w}: tryIt options must all differ`);
-    if (![0, 1, 2, 3].includes(t.correct)) errors.push(`${w}: tryIt.correct must be 0-3`);
-    if (!(t.explanation?.length >= 2)) errors.push(`${w}: tryIt needs at least 2 explanation steps`);
-    (t.explanation || []).forEach((s, j) => checkText(s, `${w} tryIt explanation ${j + 1}`, errors));
+    const examples = p.examples ?? (p.example ? [p.example] : []);
+    if (!examples.length) errors.push(`${w}: needs at least one solved example`);
+    examples.forEach((example, exampleIndex) => {
+      const ew = `${w} example ${exampleIndex + 1}`;
+      checkText(example.question, `${ew} question`, errors);
+      if (!(example.steps?.length >= 2)) errors.push(`${ew}: needs at least 2 steps`);
+      (example.steps || []).forEach((s, j) => checkText(s, `${ew} step ${j + 1}`, errors));
+      checkText(example.answer, `${ew} answer`, errors);
+    });
+    if (p.tryIt) {
+      const t = p.tryIt;
+      checkText(t.question, `${w} tryIt question`, errors);
+      if (t.options?.length !== 4) errors.push(`${w}: tryIt needs exactly 4 options`);
+      (t.options || []).forEach((o, j) => checkOption(o, `${w} tryIt option ${j + 1}`, errors));
+      if (new Set((t.options || []).map((o) => o?.en)).size !== (t.options || []).length) errors.push(`${w}: tryIt options must all differ`);
+      if (![0, 1, 2, 3].includes(t.correct)) errors.push(`${w}: tryIt.correct must be 0-3`);
+      if (!(t.explanation?.length >= 2)) errors.push(`${w}: tryIt needs at least 2 explanation steps`);
+      (t.explanation || []).forEach((s, j) => checkText(s, `${w} tryIt explanation ${j + 1}`, errors));
+    }
+
+    for (const field of ['typicalWording', 'formula', 'shortcut', 'trap']) {
+      if (p[field]) checkText(p[field], `${w} ${field}`, errors);
+    }
+    if (p.difficulty && !['beginner', 'intermediate', 'advanced'].includes(p.difficulty)) errors.push(`${w}: invalid learning difficulty`);
+    if (p.syllabusNote) checkText(p.syllabusNote, `${w} syllabus note`, errors);
+    (p.examTags || []).forEach((tag, j) => checkText(tag, `${w} exam tag ${j + 1}`, errors));
+    if (p.registryLinked !== undefined && typeof p.registryLinked !== 'boolean') errors.push(`${w}: registryLinked must be boolean`);
+    if (p.practiceKey !== undefined && !/^[a-z0-9_]+$/.test(p.practiceKey)) errors.push(`${w}: practiceKey must be snake_case`);
+    if (p.practiceLevels !== undefined && (!Array.isArray(p.practiceLevels) || !p.practiceLevels.length || p.practiceLevels.some((level) => !['beginner', 'intermediate', 'advanced'].includes(level)))) {
+      errors.push(`${w}: practiceLevels must contain supported learning levels`);
+    }
+    if (p.important && examples.length < 2 && !p.tryIt) errors.push(`${w}: important patterns need two worked examples`);
   });
 
   if (doc.registry !== undefined) {
@@ -120,7 +144,8 @@ function validatePatterns(doc, file = '') {
       if (typeof pattern.generationRule !== 'string' || !pattern.generationRule.trim()) errors.push(`${where}: generationRule is required`);
       if (typeof pattern.solutionMethod !== 'string' || !pattern.solutionMethod.trim()) errors.push(`${where}: solutionMethod is required`);
       checkText(pattern.name, `${where} name`, errors);
-      if (keys.has(pattern.id)) errors.push(`${where}: id clashes with a study-pattern key`);
+      const linkedPattern = list.some((p) => p.key === pattern.id && p.registryLinked === true);
+      if (keys.has(pattern.id) && !linkedPattern) errors.push(`${where}: id clashes with a study-pattern key`);
       // Hard-bank matrices (db/patterns/<subject>/hard/) also describe framings and syllabus scope.
       if (pattern.variants !== undefined) {
         if (!Array.isArray(pattern.variants) || pattern.variants.length < 2 || pattern.variants.some((v) => !/^[a-z0-9_]+$/.test(v))) {

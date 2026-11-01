@@ -1,0 +1,16 @@
+[
+  {
+    "file": "scripts/generators/factbank/general_science_2.js",
+    "stem": "Bleaching powder is chemically known as:",
+    "problem": "Answer 'Calcium oxychloride' (CaOCl2) is older naming. Current NCERT Class X Science (Reprint 2026-27) represents bleaching powder as Ca(ClO)2 and says its actual composition is quite complex; it does not use the name 'calcium oxychloride'. The distractors are still wrong, so the key is not strictly wrong, but the stem/answer should be reworded (e.g. 'Bleaching powder is produced by the action of chlorine on:' -> 'Dry slaked lime') or the explanation should mention the NCERT representation.",
+    "source_url": "https://ncert.nic.in/textbook/pdf/jesc102.pdf",
+    "quote": "Bleaching powder is produced by the action of chlorine on dry slaked lime [Ca(OH)2]. Bleaching powder is represented as Ca(ClO)2, though the actual composition is quite complex."
+  },
+  {
+    "file": "scripts/generators/factbank/general_science.js",
+    "stem": "An electric fuse wire should have:",
+    "problem": "Key 'Low melting point' (distractor 'High melting point') is the conventional exam answer, but current NCERT Class X Science says the fuse wire is made of a metal or alloy of 'appropriate melting point' and gives aluminium, copper, iron and lead as examples. The stem is ambiguous against the official textbook; consider rewording (e.g. 'A fuse is connected to the appliance in:' -> 'Series') or explaining that the melting point must be appropriate (lower than the wiring it protects).",
+    "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+    "quote": "The fuse is placed in series with the device. It consists of a piece of wire made of a metal or an alloy of appropriate melting point, for example aluminium, copper, iron, lead etc."
+  }
+]

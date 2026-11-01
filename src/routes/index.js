@@ -13,6 +13,8 @@ router.use('/me', require('./me.routes'));
 router.use('/catalog', require('./catalog.routes'));
 router.use('/practice', require('./practice.routes'));
 router.use('/learn', require('./learn.routes'));
+router.use('/gk', require('./gk.routes'));
+router.use('/admin/gk', require('./gkAdmin.routes'));
 router.use('/vocabulary', require('./vocabulary.routes'));
 router.use('/review', require('./review.routes'));
 router.use('/challenge', require('./challenge.routes'));

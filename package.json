@@ -21,7 +21,9 @@
     "db:check-mobile-index": "node --env-file-if-exists=.env scripts/ensureMobileIndex.js",
     "db:hard-banks": "node --env-file-if-exists=.env scripts/seedHardBanks.js",
     "vocab:check": "node scripts/vocabulary/checkLexicon.mjs",
-    "db:vocabulary-bank": "node --env-file-if-exists=.env scripts/seedVocabularyBank.js"
+    "db:vocabulary-bank": "node --env-file-if-exists=.env scripts/seedVocabularyBank.js",
+    "db:gk-facts": "node --env-file-if-exists=.env scripts/seedGkFacts.js",
+    "gk:check": "node scripts/seedGkFacts.js --dry-run --dir db/gk/drafts"
   },
   "dependencies": {
     "compression": "^1.8.2",

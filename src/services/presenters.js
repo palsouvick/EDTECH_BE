@@ -27,12 +27,25 @@ function compactLocalized(value) {
 
 /** Fields the exam-facing read needs. Contains nothing that reveals the answer. */
 const PUBLIC_QUESTION_FIELDS =
-  'code subject topic subtopic difficulty pattern provenance source_reference lang_set stem options media pyq.is_pyq pyq.refs.exam_name pyq.refs.year pyq.refs.shift pyq.refs.tier pyq.refs.question_code pyq.refs.source_url pyq.refs.answer_key_url +duplicate_keys';
+  'code subject topic subtopic difficulty pattern provenance source_reference source_check question_format lang_set stem options media pyq.is_pyq pyq.refs.exam_name pyq.refs.year pyq.refs.shift pyq.refs.tier pyq.refs.question_code pyq.refs.source_url pyq.refs.answer_key_url +duplicate_keys';
 
 /**
  * Questions keep every available language so the client can toggle language
  * instantly; stems and options are small, so this costs little.
  */
+function presentSourceCheck(q) {
+  // Official-paper questions already show their PYQ badge and answer-key source.
+  if (q.subject !== 'gs' || q.provenance === 'OFFICIAL_VERIFIED') return null;
+  const c = q.source_check || {};
+  const status = c.status || 'SOURCE_PENDING';
+  return {
+    status,
+    sourceTitle: status === 'SOURCE_VERIFIED' ? c.source_title ?? null : null,
+    sourceUrl: status === 'SOURCE_VERIFIED' ? c.source_url ?? null : null,
+    checkedAt: status === 'SOURCE_VERIFIED' && c.checked_at ? new Date(c.checked_at).toISOString().slice(0, 10) : null,
+  };
+}
+
 function presentQuestion(q, extra = {}) {
   return {
     questionId: String(q._id),
@@ -49,6 +62,10 @@ function presentQuestion(q, extra = {}) {
     fingerprint: q.duplicate_keys?.[0] ?? null,
     provenance: q.provenance ?? 'UNCLASSIFIED',
     sourceReference: q.source_reference ?? null,
+    // General Studies only: has the answer been checked against a source? Never inferred from
+    // the format validator; an unchecked GS question is SOURCE_PENDING.
+    sourceCheck: presentSourceCheck(q),
+    questionFormat: q.question_format ?? null,
     languages: q.lang_set.split('_'),
     stem: compactLocalized(q.stem),
     media: (q.media || []).map((m) => ({ url: m.url, kind: m.kind, alt: compactLocalized(m.alt) })),

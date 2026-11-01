@@ -42,7 +42,9 @@ test.before(async () => {
   await mongoose.connect(mongod.getUri('learn_test'));
   await Question.init();
   await Question.insertMany([
-    ...percentageQuestions(25, 1, 'easy'),
+    ...percentageQuestions(25, 1, 'easy').map((question, index) => (
+      index === 0 ? { ...question, pattern: 'percent_of_number' } : question
+    )),
     ...percentageQuestions(5, 3, 'mid'),
     // English only: never served, Bengali is required.
     ...percentageQuestions(3, 1, 'en-only').map((q) => ({ ...q, stem: { en: q.stem.en } })),
@@ -77,7 +79,7 @@ test('Profit & Loss Hard keeps its intended difficulty band without easier fallb
 test('GET /subjects: Math and English', async () => {
   const { status, body } = await call('/subjects');
   assert.equal(status, 200);
-  assert.deepEqual(body.data.subjects.map((s) => s.code), ['quant', 'english']);
+  assert.deepEqual(body.data.subjects.map((s) => s.code), ['quant', 'english', 'gs']);
   assert.equal(body.data.subjects[0].questionCount, 130, 'English-only questions are not counted');
 });
 
@@ -115,6 +117,37 @@ test('quiz: 10 bilingual questions without answers; a repeat attempt gets differ
   const third = (await call('/quiz', { subject: 'quant', topic: 'percentage', level: 'beginner', exclude: [...seen, ...second.questions.map((q) => q.questionId)] })).body.data;
   assert.equal(third.restarted, true);
   assert.equal(new Set(third.questions.map((q) => q.questionId)).size, 10);
+});
+
+test('pattern quiz: selects only matching questions and reports unavailable patterns', async () => {
+  const matching = await call('/quiz', {
+    subject: 'quant',
+    topic: 'percentage',
+    level: 'beginner',
+    pattern: 'percent_of_number',
+  });
+  assert.equal(matching.status, 200);
+  assert.equal(matching.body.data.pattern, 'percent_of_number');
+  assert.ok(matching.body.data.questions.length > 0);
+  assert.ok(matching.body.data.questions.every((question) => question.pattern === 'percent_of_number'));
+
+  const unavailable = await call('/quiz', {
+    subject: 'quant',
+    topic: 'percentage',
+    level: 'beginner',
+    pattern: 'successive_change',
+  });
+  assert.equal(unavailable.status, 422);
+  assert.equal(unavailable.body.error.code, 'NO_PATTERN_QUESTIONS');
+
+  const unknown = await call('/quiz', {
+    subject: 'quant',
+    topic: 'percentage',
+    level: 'beginner',
+    pattern: 'not_a_known_pattern',
+  });
+  assert.equal(unknown.status, 422);
+  assert.equal(unknown.body.error.code, 'UNKNOWN_PATTERN');
 });
 
 test('advanced quiz is timed; a bank chapter without bank questions gets no quiz', async () => {

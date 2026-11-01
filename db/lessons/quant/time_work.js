@@ -3,6 +3,7 @@
 // Lesson: Time & Work. Format: see ../validate.js header.
 const r = String.raw;
 const t = (en, bn) => ({ en, bn });
+const { examples: basicExamples, practice, strategy } = require('./time_work/guide');
 
 module.exports = {
   subject: 'quant',
@@ -13,6 +14,8 @@ module.exports = {
     'Time & Work is about how long people take to finish a job, alone or together. We meet it every day: painting a wall, finishing homework with a friend, or workers building a house.',
     'সময় ও কার্য অধ্যায়ে আমরা শিখব, কেউ একা বা কয়েকজন মিলে একটা কাজ শেষ করতে কত সময় নেয়। দেয়াল রং করা, বন্ধুর সঙ্গে মিলে বাড়ির কাজ শেষ করা কিংবা মিস্ত্রিদের বাড়ি তৈরি করা — রোজকার জীবনে এমন হিসাব সবসময় লাগে।',
   ),
+  strategy,
+  practice,
   levels: [
     {
       level: 'basic',
@@ -62,44 +65,57 @@ module.exports = {
 - **দিনগুলো কখনো যোগ কোরো না!** A-র $3$ দিন আর B-র $6$ দিন লাগলে, একসঙ্গে $9$ দিন লাগতে পারে না। একসঙ্গে কাজ করলে সবসময় একা করার চেয়ে **কম** সময় লাগে।`,
           ),
         },
+        {
+          heading: t('Why do we learn this?', 'এই অধ্যায় কেন শিখব?'),
+          body: t(
+            'This topic helps us plan how long a job will take, compare workers fairly, and share a payment for the work actually done. In exams, the same idea is written as people, machines, taps, or teams.',
+            'কোনো কাজ শেষ করতে কত সময় লাগবে তা বুঝতে, শ্রমিকদের কাজ তুলনা করতে, আর কে কত কাজ করেছে সেই অনুযায়ী টাকা ভাগ করতে এই অধ্যায় কাজে লাগে। পরীক্ষায় একই ধারণা মানুষ, যন্ত্র, কল বা দলের গল্পে আসতে পারে।',
+          ),
+        },
+        {
+          heading: t('Everyday examples', 'দৈনন্দিন জীবনের উদাহরণ'),
+          body: t(
+            'Think of painting a wall, filling a water tank, finishing homework, or building a small house. If two people help, the job is shared; if one stops, only the remaining person’s work rate finishes what is left.',
+            'দেয়াল রং করা, পানির ট্যাংক ভরা, বাড়ির কাজ শেষ করা বা ছোট বাড়ি বানানোর কথা ভাবো। দুজন সাহায্য করলে কাজ ভাগ হয়; একজন থেমে গেলে যে থাকে তার কাজের হার দিয়ে বাকি কাজ শেষ হয়।',
+          ),
+        },
+        {
+          heading: t('Words we use', 'গুরুত্বপূর্ণ শব্দ'),
+          body: t(
+            '- **Whole work:** the complete job, called $1$ work.\n- **Rate:** how much work is done in one day or one hour.\n- **Efficiency:** a person’s work rate; a faster person has a higher rate.\n- **Remaining work:** total work minus work already completed.',
+            '- **পুরো কাজ:** সম্পূর্ণ কাজ, যাকে $1$ কাজ ধরি।\n- **কাজের হার:** এক দিনে বা এক ঘণ্টায় যতটা কাজ হয়।\n- **দক্ষতা:** কাজের হার; দ্রুত কাজ করা ব্যক্তির হার বেশি।\n- **বাকি কাজ:** মোট কাজ থেকে ইতিমধ্যে করা কাজ বাদ দিলে যা থাকে।',
+          ),
+        },
+        {
+          heading: t('Build the idea one step at a time', 'ধাপে ধাপে ধারণাটি শেখো'),
+          body: t(
+            'First find one person’s work in one time unit. Then multiply by how long that person works. For a team working at the same time, add the rates. For a person who stops, calculate the work already done and continue with the new team’s rate.',
+            'প্রথমে এক সময়ের এককে একজনের করা কাজ বের করো। তারপর সে যতক্ষণ কাজ করে তা দিয়ে গুণ করো। একই সময়ে দল কাজ করলে হারগুলো যোগ করো। কেউ থেমে গেলে, আগে করা কাজ বের করে নতুন দলের হার দিয়ে হিসাব চালাও।',
+          ),
+        },
+        {
+          heading: t('Basic formulas and symbols', 'মৌলিক সূত্র ও চিহ্ন'),
+          body: t(
+            r`If a whole job takes $T$ days, its steady rate is $1/T$ job per day. If the daily rate is $R$, time for $W$ jobs is $W/R$. For workers with equal efficiency on the same job, $M\times H\times D$ stays the same: $M$ = workers, $H$ = hours each day, and $D$ = days.`,
+            r`একটি পুরো কাজ $T$ দিনে হলে স্থির কাজের হার $1/T$ কাজ প্রতিদিন। দৈনিক হার $R$ হলে $W$ কাজের সময় $W/R$। একই কাজ ও সমান দক্ষতার শ্রমিক হলে $M\times H\times D$ সমান থাকে: $M$ = শ্রমিক, $H$ = প্রতিদিনের ঘণ্টা, $D$ = দিন।`,
+          ),
+        },
+        {
+          heading: t('Mistakes beginners can avoid', 'শুরুর দিকে যে ভুলগুলো এড়াবে'),
+          body: t(
+            '- Do not add the **days** of people working together; add their daily work.\n- Do not subtract two workers’ days to find one person’s time; subtract their rates.\n- Do not use the whole-team rate after someone leaves.\n- Do not treat more efficiency as more days: faster work means fewer days.',
+            '- একসঙ্গে কাজের **দিন** যোগ কোরো না; দৈনিক কাজ যোগ করো।\n- একজনের সময় পেতে দুইজনের দিন বিয়োগ কোরো না; কাজের হার বিয়োগ করো।\n- কেউ চলে গেলে বাকি সময়ে পুরো দলের হার ব্যবহার কোরো না।\n- দক্ষতা বেশি মানে দিনও বেশি—এমন নয়; দ্রুত কাজ মানে কম দিন।',
+          ),
+        },
+        {
+          heading: t('Quick rules to remember', 'দ্রুত মনে রাখার নিয়ম'),
+          body: t(
+            'One person’s daily work = $1/\\text{days}$. Together = add rates. A missing worker’s rate = team rate − known rate. Work remaining = total − completed. More equally skilled workers or more working hours means fewer days for the same job.',
+            'একজনের দৈনিক কাজ = $1/\\text{দিন}$। একসঙ্গে = হার যোগ। অজানা ব্যক্তির হার = দলের হার − জানা হার। বাকি কাজ = মোট কাজ − করা কাজ। সমান দক্ষতার শ্রমিক বা কাজের ঘণ্টা বাড়লে একই কাজে দিন কম লাগে।',
+          ),
+        },
       ],
-      examples: [
-        {
-          question: t(
-            'Raju paints a wall in 4 days. How much of the wall does he paint in 1 day? How much in 3 days?',
-            'রাজু 4 দিনে একটা দেয়াল রং করে। 1 দিনে সে দেয়ালের কতটা রং করে? 3 দিনে কতটা?',
-          ),
-          steps: [
-            t(r`Whole wall in $4$ days, so 1 day's work $= \frac{1}{4}$.`, r`পুরো দেয়াল $4$ দিনে, তাই 1 দিনের কাজ $= \frac{1}{4}$।`),
-            t(r`In $3$ days: $3 \times \frac{1}{4} = \frac{3}{4}$.`, r`$3$ দিনে: $3 \times \frac{1}{4} = \frac{3}{4}$।`),
-          ],
-          answer: t(r`$\frac{1}{4}$ of the wall in 1 day; $\frac{3}{4}$ of the wall in 3 days.`, r`1 দিনে দেয়ালের $\frac{1}{4}$ অংশ; 3 দিনে $\frac{3}{4}$ অংশ।`),
-        },
-        {
-          question: t(
-            'Mita can clean a room in 3 hours. Her brother can clean it in 6 hours. How long will they take together?',
-            'মিতা 3 ঘণ্টায় একটা ঘর পরিষ্কার করতে পারে। তার ভাই পারে 6 ঘণ্টায়। দুজনে একসঙ্গে করলে কত সময় লাগবে?',
-          ),
-          steps: [
-            t(r`Mita's 1 hour work $= \frac{1}{3}$, brother's 1 hour work $= \frac{1}{6}$.`, r`মিতার 1 ঘণ্টার কাজ $= \frac{1}{3}$, ভাইয়ের 1 ঘণ্টার কাজ $= \frac{1}{6}$।`),
-            t(r`Together in 1 hour: $\frac{1}{3} + \frac{1}{6} = \frac{2}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$.`, r`একসঙ্গে 1 ঘণ্টায়: $\frac{1}{3} + \frac{1}{6} = \frac{2}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$।`),
-            t(r`Half the room each hour, so the whole room takes $2$ hours.`, r`প্রতি ঘণ্টায় অর্ধেক ঘর, তাই পুরো ঘরে লাগবে $2$ ঘণ্টা।`),
-          ],
-          answer: t('2 hours', '2 ঘণ্টা'),
-        },
-        {
-          question: t(
-            'A can complete a work in 5 days and B in 20 days. In how many days will they finish it working together?',
-            'A একটা কাজ 5 দিনে এবং B 20 দিনে শেষ করতে পারে। দুজনে একসঙ্গে করলে কত দিনে কাজটা শেষ হবে?',
-          ),
-          steps: [
-            t(r`One day: A does $\frac{1}{5}$, B does $\frac{1}{20}$.`, r`এক দিনে: A করে $\frac{1}{5}$, B করে $\frac{1}{20}$।`),
-            t(r`Together: $\frac{1}{5} + \frac{1}{20} = \frac{4}{20} + \frac{1}{20} = \frac{5}{20} = \frac{1}{4}$.`, r`একসঙ্গে: $\frac{1}{5} + \frac{1}{20} = \frac{4}{20} + \frac{1}{20} = \frac{5}{20} = \frac{1}{4}$।`),
-            t(r`Flip $\frac{1}{4}$: they need $4$ days.`, r`$\frac{1}{4}$ উল্টে দিলে: $4$ দিন লাগবে।`),
-          ],
-          answer: t('4 days', '4 দিন'),
-        },
-      ],
+      examples: basicExamples,
     },
     {
       level: 'intermediate',
