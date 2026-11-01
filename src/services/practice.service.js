@@ -15,6 +15,8 @@ const {
 } = require('./presenters');
 const { encodeCursor, decodeCursor, afterKey } = require('./practiceCursor');
 const { subjectName, topicName } = require('./catalogNames');
+const { storedSubtopics } = require('./gkTaxonomy');
+const { DIFFICULTY_BANDS } = require('./gk.service');
 const review = require('./review.service');
 
 // Easy first, then most recent PYQ, then a stable tiebreak. Matches the
@@ -158,7 +160,7 @@ async function getTopicSummary({ category, subject, topic }) {
  * `language` filters to questions fully available in it; the cursor is a
  * position in the sort order, so the language may change between pages.
  */
-async function getQuestionStream({ category, subject, topic, language, cursor, limit, pattern }, userId) {
+async function getQuestionStream({ category, subject, topic, language, cursor, limit, pattern, subtopic, difficulty, verifiedOnly }, userId) {
   const filter = {
     status: 'PUBLISHED',
     'exam_targets.category': category,
@@ -166,6 +168,10 @@ async function getQuestionStream({ category, subject, topic, language, cursor, l
     topic,
     lang_set: { $in: langSetsContaining(language) },
     ...(pattern && { pattern }),
+    // GK filters. A subcategory also matches stored aliases (gkTaxonomy.storedSubtopics).
+    ...(subtopic && { subtopic: { $in: storedSubtopics(topic, subtopic) } }),
+    ...(difficulty && { difficulty: { $in: DIFFICULTY_BANDS[difficulty] } }),
+    ...(verifiedOnly && { 'source_check.status': 'SOURCE_VERIFIED' }),
   };
   if (cursor) {
     const key = decodeCursor(cursor);

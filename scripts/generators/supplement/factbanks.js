@@ -15,12 +15,14 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { shuffle, T, build } = require('../common');
 const { validateBank } = require('../factbank/validate');
+const { itemSubtopics } = require('../factbank/subtopics');
 
 const DIR = path.join(__dirname, '../factbank');
+const NOT_BANKS = new Set(['validate.js', 'subtopics.js']);
 
 const pairObj = ([en, bn]) => ({ en, bn });
 
-function toBody(bank, item, passage) {
+function toBody(bank, item, passage, itemSubtopic) {
   const englishSubject = bank.subject === 'english';
   let stem;
   if (passage) {
@@ -40,7 +42,7 @@ function toBody(bank, item, passage) {
   }
   return build({
     topic: bank.topic,
-    subtopic: bank.month ? `ca_${bank.month.replace('-', '_')}` : bank.subtopic,
+    subtopic: bank.month ? `ca_${bank.month.replace('-', '_')}` : itemSubtopic ?? bank.subtopic,
     tags: ['factbank', bank.topic],
     difficulty: item.d,
     time: passage ? 75 : englishSubject ? 45 : 35,
@@ -51,17 +53,19 @@ function toBody(bank, item, passage) {
   });
 }
 
-function bankSpec(bank) {
+function bankSpec(bank, file) {
+  // GK subcategory of each item, from the section headers in the bank file (null when unknown).
+  const subs = !Array.isArray(bank.passages) && file ? itemSubtopics(path.join(DIR, file), bank) : null;
   const entries = Array.isArray(bank.passages)
     ? bank.passages.flatMap((p) => p.items.map((item) => ({ item, passage: p.text })))
-    : bank.items.map((item) => ({ item, passage: null }));
+    : bank.items.map((item, i) => ({ item, passage: null, subtopic: subs?.[i] ?? undefined }));
   let order = null;
   let next = 0;
   const gen = () => {
     order ??= shuffle(entries); // seeded by the runner's PRNG at first use
     if (next >= order.length) return null;
-    const { item, passage } = order[next++];
-    return toBody(bank, item, passage);
+    const { item, passage, subtopic } = order[next++];
+    return toBody(bank, item, passage, subtopic);
   };
   return { topic: bank.topic, weight: 1, gens: [gen], capacity: entries.length };
 }
@@ -70,7 +74,7 @@ function bankSpec(bank) {
 function factbankSpec(subject) {
   const topics = [];
   if (!fs.existsSync(DIR)) return { subject, topics };
-  for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith('.js') && f !== 'validate.js').sort()) {
+  for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith('.js') && !NOT_BANKS.has(f)).sort()) {
     const bank = require(path.join(DIR, file));
     if (bank.subject !== subject) continue;
     const { errors, count } = validateBank(bank, file);
@@ -78,7 +82,7 @@ function factbankSpec(subject) {
       console.warn(`  ! factbank ${file}: ${errors.length} problems, skipped (run factbank/validate.js on it)`);
       continue;
     }
-    topics.push({ ...bankSpec(bank), file, count });
+    topics.push({ ...bankSpec(bank, file), file, count });
   }
   return { subject, topics };
 }

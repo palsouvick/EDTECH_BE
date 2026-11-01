@@ -10,6 +10,7 @@
  */
 
 const { shuffle, textOptions, build } = require('../common');
+const { generatorSubtopic } = require('../factbank/subtopics');
 
 const P = (en, bn) => ({ en, bn });
 
@@ -38,7 +39,8 @@ function family({ topic, subtopic, tags, d = 1, rows, forms }) {
     const { correct, wrong } = textOptions(answer, pool);
     return build({
       topic,
-      subtopic: subtopic.replace(/\s+/g, '_'),
+      // GK subcategory where one fits (factbank/subtopics.js); otherwise the family's own label.
+      subtopic: generatorSubtopic(topic, subtopic.replace(/\s+/g, '_')) ?? subtopic.replace(/\s+/g, '_'),
       tags: ['gs-pairs', ...(tags || [])],
       difficulty: form.d || d,
       time: 30,

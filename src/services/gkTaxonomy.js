@@ -15,9 +15,10 @@ const L = (en, bn) => ({ en, bn });
 const CARDS = Object.freeze([
   {
     code: 'indian_gk',
+    section: 'india',
     prefix: 'IGK',
-    emoji: '🇮🇳',
-    title: L('Indian GK', 'ভারত সাধারণ জ্ঞান'),
+    emoji: '🎖️',
+    title: L('National Symbols, Firsts & Institutions', 'জাতীয় প্রতীক, প্রথম ও প্রতিষ্ঠান'),
     description: L('National symbols, important firsts, states and capitals, institutions', 'জাতীয় প্রতীক, প্রথম ভারতীয়, রাজ্য ও রাজধানী, প্রতিষ্ঠান'),
     topics: ['indian_gk'],
     subtopics: {
@@ -32,6 +33,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'west_bengal_gk',
+    section: 'west_bengal',
     prefix: 'WBG',
     emoji: '🐅',
     title: L('West Bengal GK', 'পশ্চিমবঙ্গ সাধারণ জ্ঞান'),
@@ -56,6 +58,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'indian_history',
+    section: 'india',
     prefix: 'HIS',
     emoji: '🏛️',
     title: L('Indian History', 'ভারতের ইতিহাস'),
@@ -68,6 +71,7 @@ const CARDS = Object.freeze([
       mahajanapadas: L('Mahajanapadas', 'মহাজনপদ'),
       maurya_gupta: L('Mauryas and Guptas', 'মৌর্য ও গুপ্ত'),
       early_medieval: L('Early Medieval Kingdoms', 'আদি মধ্যযুগের রাজ্য'),
+      marathas: L('Marathas', 'মারাঠা'),
       sultanate: L('Delhi Sultanate', 'দিল্লি সুলতানি'),
       mughal: L('Mughal Empire', 'মুঘল সাম্রাজ্য'),
       vijayanagara: L('Vijayanagara and Bahmani', 'বিজয়নগর ও বাহমনি'),
@@ -82,6 +86,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'geography',
+    section: 'india',
     prefix: 'GEO',
     emoji: '🗺️',
     title: L('Geography', 'ভূগোল'),
@@ -89,6 +94,8 @@ const CARDS = Object.freeze([
     topics: ['geography'],
     subtopics: {
       physical_india: L('Physical Features of India', 'ভারতের প্রাকৃতিক বৈশিষ্ট্য'),
+      states_capitals: L('States and Capitals', 'রাজ্য ও রাজধানী'),
+      physical_geography: L('Physical Geography: Earth, Rocks, Oceans', 'প্রাকৃতিক ভূগোল: পৃথিবী, শিলা, মহাসাগর'),
       rivers: L('Rivers and Tributaries', 'নদী ও উপনদী'),
       mountains_plateaus: L('Mountains, Plateaus and Deserts', 'পর্বত, মালভূমি ও মরুভূমি'),
       climate_soil: L('Climate and Soil', 'জলবায়ু ও মৃত্তিকা'),
@@ -102,6 +109,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'general_science',
+    section: 'india',
     prefix: 'SCI',
     emoji: '🔬',
     title: L('General Science', 'সাধারণ বিজ্ঞান'),
@@ -112,6 +120,8 @@ const CARDS = Object.freeze([
       physics_mechanics: L('Physics: Motion, Force and Energy', 'পদার্থবিদ্যা: গতি, বল ও শক্তি'),
       physics_heat_light_sound: L('Physics: Heat, Light and Sound', 'পদার্থবিদ্যা: তাপ, আলো ও শব্দ'),
       physics_electricity: L('Physics: Electricity and Magnetism', 'পদার্থবিদ্যা: তড়িৎ ও চুম্বক'),
+      physics_modern: L('Physics: Modern Physics', 'পদার্থবিদ্যা: আধুনিক পদার্থবিদ্যা'),
+      discoveries: L('Discoveries and Inventions', 'আবিষ্কার ও উদ্ভাবন'),
       chemistry_matter: L('Chemistry: Elements, Compounds, Mixtures', 'রসায়ন: মৌল, যৌগ ও মিশ্রণ'),
       chemistry_acids_bases: L('Chemistry: Acids, Bases and Salts', 'রসায়ন: অ্যাসিড, ক্ষার ও লবণ'),
       chemistry_metals: L('Chemistry: Metals and Non-metals', 'রসায়ন: ধাতু ও অধাতু'),
@@ -125,6 +135,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'polity',
+    section: 'india',
     prefix: 'POL',
     emoji: '⚖️',
     title: L('Indian Polity and Constitution', 'ভারতের সংবিধান ও রাষ্ট্রব্যবস্থা'),
@@ -132,12 +143,14 @@ const CARDS = Object.freeze([
     topics: ['polity'],
     subtopics: {
       preamble: L('Preamble and Making of the Constitution', 'প্রস্তাবনা ও সংবিধান প্রণয়ন'),
+      union_citizenship: L('Union, Territory and Citizenship', 'ইউনিয়ন, ভূখণ্ড ও নাগরিকত্ব'),
       fundamental_rights: L('Fundamental Rights', 'মৌলিক অধিকার'),
       dpsp_duties: L('Directive Principles and Duties', 'নির্দেশমূলক নীতি ও মৌলিক কর্তব্য'),
       union_executive: L('President, Vice-President and PM', 'রাষ্ট্রপতি, উপরাষ্ট্রপতি ও প্রধানমন্ত্রী'),
       parliament: L('Parliament', 'সংসদ'),
       judiciary: L('Supreme Court and High Courts', 'সুপ্রিম কোর্ট ও হাইকোর্ট'),
       constitutional_bodies: L('Constitutional Bodies', 'সাংবিধানিক সংস্থা'),
+      federalism_emergency: L('Federalism, Emergency and Services', 'যুক্তরাষ্ট্রীয় কাঠামো, জরুরি অবস্থা ও চাকরি'),
       elections: L('Elections', 'নির্বাচন'),
       state_govt: L('Governor, CM and State Legislature', 'রাজ্যপাল, মুখ্যমন্ত্রী ও রাজ্য আইনসভা'),
       amendments: L('Constitutional Amendments', 'সংবিধান সংশোধন'),
@@ -147,6 +160,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'economy',
+    section: 'india',
     prefix: 'ECO',
     emoji: '💹',
     title: L('Indian Economy and Banking', 'ভারতীয় অর্থনীতি ও ব্যাংকিং'),
@@ -155,9 +169,12 @@ const CARDS = Object.freeze([
     subtopics: {
       basics: L('Basic Concepts', 'মৌলিক ধারণা'),
       rbi_banking: L('RBI and Banking', 'আরবিআই ও ব্যাংকিং'),
+      banking_operations: L('Banking Operations and Terms', 'ব্যাংকিং কার্যপ্রণালী ও পরিভাষা'),
       inflation_income: L('Inflation and National Income', 'মুদ্রাস্ফীতি ও জাতীয় আয়'),
       budget_tax: L('Budget and Taxation', 'বাজেট ও কর'),
       plans_reforms: L('Plans and Reforms', 'পরিকল্পনা ও সংস্কার'),
+      poverty_development: L('Poverty and Development', 'দারিদ্র্য ও উন্নয়ন'),
+      external_sector: L('External Sector and Trade', 'বৈদেশিক ক্ষেত্র ও বাণিজ্য'),
       agri_industry: L('Agriculture and Industry', 'কৃষি ও শিল্প'),
       schemes: L('Government Schemes', 'সরকারি প্রকল্প'),
       financial_institutions: L('Financial Institutions', 'আর্থিক প্রতিষ্ঠান'),
@@ -165,6 +182,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'current_affairs',
+    section: 'other',
     prefix: 'CA',
     emoji: '📰',
     title: L('Current Affairs', 'সাম্প্রতিক ঘটনাবলি'),
@@ -188,6 +206,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'computer_awareness',
+    section: 'other',
     prefix: 'CMP',
     emoji: '💻',
     title: L('Computer Awareness', 'কম্পিউটার সচেতনতা'),
@@ -204,6 +223,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'environment',
+    section: 'india',
     prefix: 'ENV',
     emoji: '🌱',
     title: L('Environment and Ecology', 'পরিবেশ ও বাস্তুবিদ্যা'),
@@ -220,6 +240,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'art_culture',
+    section: 'india',
     prefix: 'ART',
     emoji: '🎭',
     title: L('Art and Culture', 'শিল্প ও সংস্কৃতি'),
@@ -236,6 +257,7 @@ const CARDS = Object.freeze([
   },
   {
     code: 'static_gk',
+    section: 'india',
     prefix: 'SGK',
     emoji: '🏆',
     title: L('Static GK', 'স্থির সাধারণ জ্ঞান'),
@@ -253,6 +275,30 @@ const CARDS = Object.freeze([
   },
 ]);
 
+/** Dashboard sections: Indian GK (an umbrella over the India cards), West Bengal GK, Other. */
+const SECTIONS = Object.freeze([
+  { code: 'india', title: L('Indian GK', 'ভারত সাধারণ জ্ঞান'), description: L('History, geography, polity, economy, science, culture and static GK of India', 'ভারতের ইতিহাস, ভূগোল, রাষ্ট্রব্যবস্থা, অর্থনীতি, বিজ্ঞান, সংস্কৃতি ও স্থির সাধারণ জ্ঞান') },
+  { code: 'west_bengal', title: L('West Bengal GK', 'পশ্চিমবঙ্গ সাধারণ জ্ঞান'), description: L('Kept separate for WBPSC, WBCS and other West Bengal exams', 'WBPSC, WBCS ও পশ্চিমবঙ্গের অন্যান্য পরীক্ষার জন্য আলাদা রাখা') },
+  { code: 'other', title: L('Current Affairs and Computer', 'সাম্প্রতিক ঘটনা ও কম্পিউটার'), description: L('Dated current affairs and computer awareness', 'তারিখসহ সাম্প্রতিক ঘটনা ও কম্পিউটার সচেতনতা') },
+]);
+const cardsInSection = (code) => CARDS.filter((c) => c.section === code);
+
+/**
+ * Stored subtopic values that count as a GK subcategory without being renamed in the
+ * database. Polity's template questions keep 'articles' because the question-pattern
+ * rules (db/patterns/match/gs.js) match on it.
+ */
+const SUBTOPIC_ALIASES = Object.freeze({ polity: { articles: 'schedules_articles' } });
+/** Stored values that mean this subcategory: the code itself plus its aliases. */
+const storedSubtopics = (topic, code) => [code, ...Object.entries(SUBTOPIC_ALIASES[topic] || {}).filter(([, to]) => to === code).map(([from]) => from)];
+/** The GK subcategory a stored subtopic value counts as (null when it is not one). */
+const subtopicFor = (topic, value) => {
+  const card = cardForTopic(topic);
+  if (!card || !value) return null;
+  const v = SUBTOPIC_ALIASES[topic]?.[value] ?? value;
+  return card.subtopics[v] ? v : null;
+};
+
 /** Fact `topic` values: every card's own code (facts never use `banking_awareness`). */
 const FACT_TOPICS = Object.freeze(CARDS.map((c) => c.code));
 /** Question-bank chapters the GK section draws on. */
@@ -268,4 +314,4 @@ const SUBTOPICS = Object.freeze(Object.fromEntries(CARDS.map((c) => [c.code, Obj
 const EXAM_RELEVANCE = Object.freeze(['WBPSC_CLERKSHIP', 'WBCS', 'WBPSC_MISC', 'SSC', 'RAILWAY', 'BANK', 'WB_POST']);
 const QUESTION_FORMATS = Object.freeze(['DIRECT', 'STATEMENT', 'MATCH', 'CHRONOLOGY', 'PAIRS', 'ASSERTION_REASON']);
 
-module.exports = { CARDS, FACT_TOPICS, GK_TOPICS, NEW_TOPICS, SUBTOPICS, EXAM_RELEVANCE, QUESTION_FORMATS, cardOf, cardForTopic };
+module.exports = { SECTIONS, cardsInSection, SUBTOPIC_ALIASES, storedSubtopics, subtopicFor, CARDS, FACT_TOPICS, GK_TOPICS, NEW_TOPICS, SUBTOPICS, EXAM_RELEVANCE, QUESTION_FORMATS, cardOf, cardForTopic };

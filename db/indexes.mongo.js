@@ -252,4 +252,14 @@ db.learn_progress.createIndex(
   { name: "uniq_user_learn_level", unique: true },
 );
 
+// --------------------------------------------------------- gk_fact_progress
+// A student's GK fact bookmarks and fact revision (always queried by user_id).
+db.gk_fact_progress.createIndex({ user_id: 1, fact_id: 1 }, { name: "uniq_user_gk_fact", unique: true });
+db.gk_fact_progress.createIndex({ user_id: 1, status: 1, due_at: 1 }, { name: "user_gk_fact_due" });
+db.gk_fact_progress.createIndex({ user_id: 1, bookmarked: 1, updated_at: -1 }, { name: "user_gk_fact_bookmarks" });
+
+// ------------------------------------------------------------ gk_daily_sets
+// Daily GK: one set of facts per student per local day.
+db.gk_daily_sets.createIndex({ user_id: 1, day: 1 }, { name: "uniq_user_gk_day", unique: true });
+
 print("indexes ensured");

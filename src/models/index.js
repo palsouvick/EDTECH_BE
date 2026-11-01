@@ -23,4 +23,6 @@ module.exports = {
   GkFact: require('./GkFact'),
   ContentRevision: require('./ContentRevision'),
   LearnProgress: require('./LearnProgress'),
+  GkFactProgress: require('./GkFactProgress'),
+  GkDailySet: require('./GkDailySet'),
 };

@@ -24,6 +24,10 @@ const questionStreamQuery = z.object({
   limit: z.coerce.number().int().min(1).max(20).default(5),
   // Only questions of one pattern (db/patterns), for "practise this pattern".
   pattern: slug.optional(),
+  // GK practice filters (any subject): one subcategory, a difficulty band, source-verified only.
+  subtopic: slug.optional(),
+  difficulty: z.enum(['easy', 'medium', 'hard']).optional(),
+  verifiedOnly: z.enum(['true', 'false']).optional().transform((v) => v === 'true'),
 });
 
 const verifyAnswerBody = z.object({

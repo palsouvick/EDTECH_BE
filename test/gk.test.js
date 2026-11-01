@@ -263,7 +263,7 @@ test('API: cards count real content; progress only for the signed-in student', a
     { user_id: 'student_gk', question_id: q._id, subject: 'gs', topic: 'indian_gk', correct: true },
   ]);
   const mine = (await api('GET', '/gk/cards', null, { asAdmin: false, user: 'student_gk' })).body.data;
-  assert.deepEqual(mine.cards.find((c) => c.code === 'indian_gk').progress, { questionsAttempted: 1, answers: 2, correctAnswers: 1, accuracy: 50 });
+  assert.deepEqual(mine.cards.find((c) => c.code === 'indian_gk').progress, { questionsAttempted: 1, completedCorrectly: 1, answers: 2, correctAnswers: 1, accuracy: 50 });
   const other = (await api('GET', '/gk/cards', null, { asAdmin: false, user: 'someone_else' })).body.data;
   assert.equal(other.cards.find((c) => c.code === 'indian_gk').progress.questionsAttempted, 0, 'no one sees another student\'s progress');
 });
@@ -413,4 +413,92 @@ test('learn progress: merged per account, best score kept, never shared between 
   const other = (await api('GET', '/learn/progress', null, { asAdmin: false, user: 'learner_b' })).body.data;
   assert.deepEqual(other.progress, {});
   assert.equal((await put('learner_a', [{ subject: 'gs', topic: 'indian_gk', level: 'beginner', best: { correct: 11, total: 10 } }])).status, 400);
+});
+
+// ------------------------------------------------------------------ Indian GK expansion: sections, filters, fact revision
+
+test('dashboard: Indian GK is a section over the India cards; West Bengal stays separate; topic-wise progress per subcategory', async () => {
+  clearGkCache();
+  const data = (await api('GET', '/gk/cards', null, { asAdmin: false, user: 'student_gk' })).body.data;
+  const india = data.sections.find((s) => s.code === 'india');
+  const wb = data.sections.find((s) => s.code === 'west_bengal');
+  assert.ok(india.cards.includes('indian_gk') && india.cards.includes('indian_history') && !india.cards.includes('west_bengal_gk'));
+  assert.deepEqual(wb.cards, ['west_bengal_gk']);
+  const inIndia = data.cards.filter((c) => c.section === 'india');
+  assert.equal(india.questionCount, inIndia.reduce((a, c) => a + c.questionCount, 0), 'section total is the sum of its cards');
+  const igk = data.cards.find((c) => c.code === 'indian_gk');
+  const firsts = igk.subtopics.find((s) => s.code === 'important_firsts');
+  assert.equal(firsts.questionCount, 1);
+  assert.equal(firsts.progress.questionsAttempted, 1, 'the student answered that question');
+  assert.equal(firsts.progress.completedCorrectly, 1);
+  assert.equal(india.progress.questionsAttempted, igk.progress.questionsAttempted);
+  const guest = (await api('GET', '/gk/cards', null, { asAdmin: false })).body.data;
+  assert.equal(guest.sections[0].progress, null);
+  assert.equal(guest.cards[0].subtopics[0].progress, null, 'guests get no progress figures');
+});
+
+test('practice: filters by subcategory, difficulty and source-verified, with a matching count', async () => {
+  const stream = (qs) => api('GET', `/practice/questions?category=WBPSC&subject=gs&topic=indian_gk&language=en&limit=20&${qs}`, null, { asAdmin: false }).then((r) => r.body.data.questions.map((q) => q.questionId));
+  const count = (qs) => api('GET', `/gk/questions/count?category=WBPSC&topic=indian_gk&${qs}`, null, { asAdmin: false }).then((r) => r.body.data.count);
+  const all = await stream('');
+  const firsts = await stream('subtopic=important_firsts');
+  const symbols = await stream('subtopic=national_symbols');
+  assert.ok(firsts.length >= 1 && symbols.length >= 1 && firsts.length + symbols.length <= all.length);
+  assert.equal(firsts.length, await count('subtopic=important_firsts'));
+  assert.equal((await stream('difficulty=hard')).length, await count('difficulty=hard'));
+  assert.equal(await count('verifiedOnly=true'), (await stream('verifiedOnly=true')).length);
+  assert.equal((await api('GET', '/practice/questions?category=WBPSC&subject=gs&topic=indian_gk&difficulty=extreme', null, { asAdmin: false })).status, 400);
+});
+
+test('fact bookmarks, revision and Daily GK belong to the signed-in student', async () => {
+  const as = (user) => ({ asAdmin: false, user });
+  assert.equal((await api('PUT', '/gk/facts/GK-IGK-001/bookmark', { on: true }, { asAdmin: false })).status, 401);
+  assert.equal((await api('GET', '/gk/revision', null, { asAdmin: false })).status, 401);
+  assert.equal((await api('GET', '/gk/facts?mine=bookmarked', null, { asAdmin: false })).status, 401);
+
+  assert.equal((await api('PUT', '/gk/facts/GK-IGK-001/bookmark', { on: true }, as('reviser'))).body.data.bookmarked, true);
+  const marked = (await api('GET', '/gk/facts?mine=bookmarked', null, as('reviser'))).body.data.facts;
+  assert.deepEqual(marked.map((f) => f.code), ['GK-IGK-001']);
+  assert.equal(marked[0].mine.bookmarked, true);
+  assert.equal((await api('GET', '/gk/facts?mine=bookmarked', null, as('someone_else'))).body.data.facts.length, 0, 'not shared');
+
+  const known = (await api('POST', '/gk/facts/GK-WBG-001/review', { result: 'known' }, as('reviser'))).body.data;
+  assert.equal(known.status, 'learning');
+  assert.ok(new Date(known.dueAt) > new Date(), 'due again later');
+  const again = (await api('POST', '/gk/facts/GK-CA-001/review', { result: 'again' }, as('reviser'))).body.data;
+  assert.equal(again.lastResult, 'again');
+  const rev = (await api('GET', '/gk/revision', null, as('reviser'))).body.data;
+  assert.deepEqual([rev.counts.learning, rev.counts.bookmarked, rev.counts.due], [2, 1, 0], 'nothing is due today');
+  assert.equal((await api('POST', '/gk/facts/GK-IGK-002/review', { result: 'known' }, as('reviser'))).status, 404, 'held facts cannot be reviewed');
+
+  const day1 = (await api('GET', '/gk/daily?tz=330', null, as('daily_student'))).body.data;
+  assert.ok(day1.total >= 1 && day1.total <= 10);
+  const again1 = (await api('GET', '/gk/daily?tz=330', null, as('daily_student'))).body.data;
+  assert.deepEqual(again1.items.map((i) => i.fact.code), day1.items.map((i) => i.fact.code), 'the same set after a refresh');
+  const first = day1.items[0].fact.code;
+  await api('POST', `/gk/facts/${first}/review`, { result: 'known', tz: 330 }, as('daily_student'));
+  const after = (await api('GET', '/gk/daily?tz=330', null, as('daily_student'))).body.data;
+  assert.equal(after.done, 1);
+  assert.equal(after.items.find((i) => i.fact.code === first).done, true);
+});
+
+test('subcategory migration tags generated GS questions from the bank headers, leaves pattern-bound values alone', async () => {
+  const { tagGsSubtopics } = require('../scripts/tagGsSubtopics');
+  const base = {
+    exam_targets: [{ category: 'WBPSC', tier: 'PRELIMS' }], subject: 'gs', difficulty: 1, status: 'PUBLISHED', authored_by: 'seed_generator',
+    options: [{ oid: 'opt_aaaa', text: { en: 'A', bn: 'ক' } }, { oid: 'opt_bbbb', text: { en: 'B', bn: 'খ' } }, { oid: 'opt_cccc', text: { en: 'C', bn: 'গ' } }],
+    correct_option_id: 'opt_aaaa',
+  };
+  await Question.create([
+    { ...base, code: 'GS-TPL-CAP', topic: 'geography', subtopic: 'capitals', stem: { en: 'What is the capital of Odisha (test)?', bn: 'ওড়িশার রাজধানী (পরীক্ষা)?' } },
+    { ...base, code: 'GS-TPL-ART', topic: 'polity', subtopic: 'articles', stem: { en: 'Which Article deals with test?', bn: 'কোন অনুচ্ছেদ পরীক্ষা?' } },
+  ]);
+  const s = await tagGsSubtopics();
+  assert.ok(s.updated >= 2);
+  assert.equal((await Question.findOne({ code: 'GS-OLD-1' }).lean()).subtopic, 'geography_rivers', 'matched to its bank item under "Geography: rivers"');
+  assert.equal((await Question.findOne({ code: 'GS-TPL-CAP' }).lean()).subtopic, 'states_capitals');
+  assert.equal((await Question.findOne({ code: 'GS-TPL-ART' }).lean()).subtopic, 'articles', 'kept: the which_article pattern matches on it');
+  assert.equal((await tagGsSubtopics()).updated, 0, 'idempotent');
+  const { subtopicFor } = require('../src/services/gkTaxonomy');
+  assert.equal(subtopicFor('polity', 'articles'), 'schedules_articles', 'still counted under Schedules and Articles');
 });

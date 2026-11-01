@@ -1,0 +1,9 @@
+[
+  {
+    "file": "backend/scripts/generators/factbank/west_bengal_gk.js",
+    "stem": "The song \"Vande Mataram\" first appeared in which novel by Bankim Chandra Chattopadhyay?",
+    "problem": "Ambiguous/outdated wording: the stem says the song first appeared in a novel (answer Anandamath). The PIB backgrounder says Vande Mataram was first published in the literary journal Bangadarshan on 7 November 1875 and was LATER incorporated in the novel Anandamath (1882). Suggest rewording to \"From which novel by Bankim Chandra Chattopadhyay is the song Vande Mataram taken?\". Note the same PIB page also mentions a stand-alone appearance in the March-April 1881 issue of Bangadarshan, so the source is itself not fully consistent.",
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186984",
+    "quote": "Composed by Bankim Chandra Chatterjee, 'Vande Mataram' was first published in the literary journal Bangadarshan on 7 November 1875. Later, Bankim Chandra Chatterjee incorporated the hymn in his immortal novel 'Anandamath' which was published in 1882."
+  }
+]

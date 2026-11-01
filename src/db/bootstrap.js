@@ -156,14 +156,31 @@ async function seedGkLibrary() {
   if (s.unmatchedLinks.length) warn(`GK library: ${s.unmatchedLinks.length} linked stems not found in this database`);
 }
 
+/**
+ * Gives generated General Studies questions their GK subcategory (scripts/tagGsSubtopics.js)
+ * when the banks or the header map changed since the last run.
+ */
+async function tagGsSubtopics() {
+  if (!config.seed.auto) return;
+  const tagger = require('../../scripts/tagGsSubtopics');
+  const state = mongoose.connection.db.collection('seed_state');
+  const fingerprint = `${tagger.subtopicsFingerprint()}:${await mongoose.connection.db.collection('questions').estimatedDocumentCount()}`;
+  if ((await state.findOne({ _id: 'gs_subtopics' }))?.fingerprint === fingerprint) return;
+  const s = await tagger.tagGsSubtopics();
+  await state.updateOne({ _id: 'gs_subtopics' }, { $set: { fingerprint, at: new Date(), updated: s.updated } }, { upsert: true });
+  log(`GS subcategories: ${s.updated} questions tagged (${s.untagged} without a fitting subcategory)`);
+}
+
 /** Fire-and-forget: the API is already serving while the bank fills and gets tagged. */
 function startQuestionBankSeed() {
   seedQuestionBank()
     .catch((e) => warn(`question bank generation failed: ${e.message}`))
     .then(() => seedGkLibrary())
     .catch((e) => warn(`GK library not loaded: ${e.message}`))
+    .then(() => tagGsSubtopics())
+    .catch((e) => warn(`GS subcategory tagging failed: ${e.message}`))
     .then(() => tagPatterns())
     .catch((e) => warn(`pattern tagging failed: ${e.message}`));
 }
 
-module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagPatterns, startQuestionBankSeed };
+module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagGsSubtopics, tagPatterns, startQuestionBankSeed };

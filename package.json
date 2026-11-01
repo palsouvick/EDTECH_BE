@@ -23,7 +23,8 @@
     "vocab:check": "node scripts/vocabulary/checkLexicon.mjs",
     "db:vocabulary-bank": "node --env-file-if-exists=.env scripts/seedVocabularyBank.js",
     "db:gk-facts": "node --env-file-if-exists=.env scripts/seedGkFacts.js",
-    "gk:check": "node scripts/seedGkFacts.js --dry-run --dir db/gk/drafts"
+    "gk:check": "node scripts/seedGkFacts.js --dry-run --dir db/gk/drafts",
+    "db:gs-subtopics": "node --env-file-if-exists=.env scripts/tagGsSubtopics.js"
   },
   "dependencies": {
     "compression": "^1.8.2",

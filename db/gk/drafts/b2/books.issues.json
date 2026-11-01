@@ -1,0 +1,23 @@
+[
+  {
+    "file": "backend/scripts/generators/factbank/indian_history.js",
+    "stem": "Rabindranath Tagore won the Nobel Prize in Literature in 1913 for:",
+    "problem": "Answer 'Gitanjali' is not what the Nobel Foundation states. The official prize motivation names no book, only his verse. The ceremony speech says Gitanjali: Song Offerings (1912) was 'the one of his works that especially arrested the attention of the selecting critics', which is weaker than 'won the prize for Gitanjali'. Treat the stem as ambiguous; reword to 'Which work of Tagore especially attracted the selecting critics ...' or ask for the prize motivation.",
+    "source_url": "https://www.nobelprize.org/prizes/literature/1913/ceremony-speech/",
+    "quote": "Tagore's Gitanjali: Song Offerings (1912), a collection of religious poems, was the one of his works that especially arrested the attention of the selecting critics."
+  },
+  {
+    "file": "backend/scripts/generators/factbank/west_bengal_gk.js",
+    "stem": "Rabindranath Tagore won the Nobel Prize in Literature in 1913 for which work?",
+    "problem": "Same issue: the Nobel motivation does not name a work: 'because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West'. Gitanjali is only the work singled out in the ceremony speech.",
+    "source_url": "https://www.nobelprize.org/prizes/literature/1913/tagore/facts/",
+    "quote": "because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West"
+  },
+  {
+    "file": "backend/scripts/generators/factbank/indian_history_2.js",
+    "stem": "Al-Biruni, who came to India with Mahmud of Ghazni, wrote:",
+    "problem": "The answer (Kitab-ul-Hind) is supported by NCERT Class XII Theme Five, but the premise 'came to India with Mahmud of Ghazni' is not stated on that page (it says only that Al-Biruni came from Uzbekistan and that Mahmud invaded Khwarizm and took scholars away). Not wrong, but the stem premise is unsupported by the NCERT page used.",
+    "source_url": "https://ncert.nic.in/textbook/pdf/lehs201.pdf",
+    "quote": "Al-Biruni who came from Uzbekistan (eleventh century)"
+  }
+]
