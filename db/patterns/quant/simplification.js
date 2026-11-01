@@ -13,6 +13,12 @@ module.exports = {
       key: 'bodmas_order',
       emoji: '🧮',
       name: t('Simplify using the BODMAS order', 'BODMAS নিয়মে সরল করা'),
+      difficulty: 'beginner',
+      practiceLevels: ['beginner'],
+      typicalWording: t('“Simplify: $18 + 24 \\div 6 \\times 3 - 4$” or “Find the value of the expression.”', '“সরল করো: $18 + 24 \\div 6 \\times 3 - 4$” বা “রাশিটির মান নির্ণয় করো।”'),
+      formula: t(r`Order: Brackets $\to$ Of $\to$ Division/Multiplication (left to right) $\to$ Addition/Subtraction (left to right).`, r`ক্রম: বন্ধনী $\to$ "এর" (of) $\to$ ভাগ/গুণ (বাঁ দিক থেকে ডান দিকে) $\to$ যোগ/বিয়োগ (বাঁ দিক থেকে ডান দিকে)।`),
+      shortcut: t('Clear brackets and "of" first, then do all the ÷ and × in ONE left-to-right pass before touching any + or −.', 'আগে বন্ধনী ও "এর" শেষ করো, তারপর সব ÷ ও × একবারে বাঁ দিক থেকে ডান দিকে করে ফেলো, তারপর যোগ-বিয়োগ।'),
+      trap: t('× does NOT come before ÷ — they have equal rank, so $24 \\div 6 \\times 3 = 12$, not $24 \\div 18$.', '×, ÷-এর আগে আসে না — দুটোই সমান গুরুত্বের, তাই $24 \\div 6 \\times 3 = 12$, $24 \\div 18$ নয়।'),
       spot: t(
         'A long line with ÷, ×, + and − mixed together, and the question says "simplify" or "find the value".',
         'একটা লম্বা রাশিতে ÷, ×, + ও − একসঙ্গে থাকে, আর প্রশ্নে "সরল করো" বা "মান নির্ণয় করো" বলা থাকে।',
@@ -48,6 +54,11 @@ module.exports = {
       key: 'nested_brackets',
       emoji: '📦',
       name: t('Brackets inside brackets', 'বন্ধনীর ভিতরে বন্ধনী'),
+      difficulty: 'intermediate',
+      typicalWording: t('“Simplify: $50 - [20 - \\{12 - (8 - 3)\\}]$”', '“সরল করো: $50 - [20 - \\{12 - (8 - 3)\\}]$”'),
+      formula: t(r`Open brackets inside-out: $(\ ) \to \{\ \} \to [\ ]$; a minus before a bracket flips the bracket's effect: $a - (b - c) = a - b + c$.`, r`বন্ধনী ভিতর থেকে বাইরে খোলো: $(\ ) \to \{\ \} \to [\ ]$; বন্ধনীর আগের বিয়োগ চিহ্ন বন্ধনীর প্রভাব উল্টে দেয়: $a - (b - c) = a - b + c$।`),
+      shortcut: t('Replace each finished bracket by its single value and rewrite the line at once — never try to hold two open brackets in your head.', 'প্রতিটা বন্ধনী শেষ হলেই তার একক মান বসিয়ে রাশিটা আবার লেখো — দুটো খোলা বন্ধনী একসঙ্গে মাথায় রাখতে যেও না।'),
+      trap: t('Dropping all the brackets and subtracting everything in sight gives a much smaller, wrong answer — each minus only acts on the bracket right after it.', 'সব বন্ধনী তুলে দিয়ে চোখে পড়া সবকিছু বিয়োগ করলে অনেক ছোট ভুল উত্তর আসে — প্রতিটা বিয়োগ চিহ্ন শুধু তার ঠিক পরের বন্ধনীর উপরই কাজ করে।'),
       spot: t(
         'The expression has ( ), { } and [ ] one inside another.',
         'রাশিতে ( ), { } আর [ ] একটার ভিতরে আর একটা থাকে।',
@@ -83,6 +94,11 @@ module.exports = {
       key: 'find_missing_number',
       emoji: '❓',
       name: t('Find the value of ? in an equation', 'সমীকরণে ? -এর মান নির্ণয়'),
+      difficulty: 'beginner',
+      typicalWording: t('“25% of 480 + ? = $\\frac{3}{4}$ of 200. Find ?”', '“480-এর 25% + ? = 200-এর $\\frac{3}{4}$। ? কত?”'),
+      formula: t(r`If $a + ? = b$ then $? = b - a$; if $a - ? = b$ then $? = a - b$.`, r`যদি $a + ? = b$ হয় তবে $? = b - a$; যদি $a - ? = b$ হয় তবে $? = a - b$।`),
+      shortcut: t('Evaluate every "of" part on both sides first — the line collapses to one tiny equation like $120 + ? = 150$, which solves in one step.', 'আগে দুই দিকের সব "এর" অংশের মান বের করো — রাশিটা $120 + ? = 150$-এর মতো ছোট সমীকরণে পরিণত হবে, যা এক ধাপে মিলে যায়।'),
+      trap: t('When ? is being subtracted ($140 - ? = 100$), the answer is $140 - 100 = 40$, not $140 + 100$ — do not just add the two known numbers.', 'যখন ? বিয়োগ হচ্ছে ($140 - ? = 100$), উত্তর $140 - 100 = 40$, $140 + 100$ নয় — দুটো জানা সংখ্যা শুধু যোগ করে দিও না।'),
       spot: t(
         'A line with percentages or fractions has a "?" in it and an "=" sign: "25% of 480 + ? = 3/4 of 200".',
         'শতকরা বা ভগ্নাংশ মেশানো একটা লাইনে "?" আর "=" চিহ্ন থাকে: "480-এর 25% + ? = 200-এর 3/4"।',
@@ -118,6 +134,11 @@ module.exports = {
       key: 'approximation',
       emoji: '🎯',
       name: t('Approximate value (≈)', 'আসন্ন মান (≈)'),
+      difficulty: 'intermediate',
+      typicalWording: t('“What approximate value should come in place of ?”', '“? -এর জায়গায় আসন্ন কোন মান বসবে?”'),
+      formula: t(r`Round each number to a nearby friendly value, then apply BODMAS: answer $\approx$ the value of the rounded expression.`, r`প্রতিটা সংখ্যাকে কাছের সহজ সংখ্যায় নাও, তারপর BODMAS প্রয়োগ করো: উত্তর $\approx$ সহজ করা রাশিটির মান।`),
+      shortcut: t('Round to numbers that divide cleanly — $4999 \div 49.9 \approx 5000 \div 50 = 100$ turns the whole sum into mental maths.', 'এমন সংখ্যায় নাও যাতে ভাগ সহজে মিলে যায় — $4999 \div 49.9 \approx 5000 \div 50 = 100$ হলে পুরো অঙ্কটাই মুখে মুখে হয়ে যায়।'),
+      trap: t('Round to the NEAREST easy number, not always up; and never waste time calculating the exact value first — the options are far apart on purpose.', 'সবচেয়ে কাছের সহজ সংখ্যায় নাও, সবসময় বাড়িয়ে নয়; আর আগেভাগে সঠিক মান বের করে সময় নষ্ট করো না — অপশনগুলো ইচ্ছে করেই অনেক দূরে দূরে থাকে।'),
       spot: t(
         'The question asks "what approximate value should come in place of ?" and the numbers are awkward, like 399.8 or 7.99.',
         'প্রশ্নে বলা থাকে "? -এর জায়গায় আনুমানিক কোন মান বসবে", আর সংখ্যাগুলো অদ্ভুত, যেমন 399.8 বা 7.99।',
@@ -152,6 +173,12 @@ module.exports = {
       key: 'algebraic_identities',
       emoji: '🧩',
       name: t('Use algebra identities to simplify fast', 'বীজগাণিতিক সূত্র দিয়ে দ্রুত সরল করা'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“Simplify: $\\dfrac{856 \\times 856 - 144 \\times 144}{856 - 144}$”', '“সরল করো: $\\dfrac{856 \\times 856 - 144 \\times 144}{856 - 144}$”'),
+      formula: t(r`$a^2 - b^2 = (a + b)(a - b)$; $(a + b)^2 = a^2 + 2ab + b^2$; $(a - b)^2 = a^2 - 2ab + b^2$.`, r`সূত্রগুলি: $a^2 - b^2 = (a + b)(a - b)$; $(a + b)^2 = a^2 + 2ab + b^2$; $(a - b)^2 = a^2 - 2ab + b^2$।`),
+      shortcut: t('If the denominator equals one factor of the identity ($a - b$ or $a + b$), it cancels — the answer is simply the other factor, no big multiplication at all.', 'হর যদি সূত্রের একটি উৎপাদকের ($a - b$ বা $a + b$) সমান হয়, তা কেটে যায় — উত্তর হয় শুধু অন্য উৎপাদকটি, বড় গুণ করার দরকারই পড়ে না।'),
+      trap: t('$(a + b)^2$ is NOT $a^2 + b^2$ — forgetting the middle term $2ab$ gives 15.38 instead of 25 in the try-it below.', '$(a + b)^2$ মানে $a^2 + b^2$ নয় — মাঝের পদ $2ab$ ভুলে গেলে নিচের অনুশীলনীতে 25-এর বদলে 15.38 আসবে।'),
       spot: t(
         r`Big or decimal numbers appear as squares, like $856 \times 856 - 144 \times 144$ or $a \times a + 2 \times a \times b + b \times b$. Multiplying them out would take too long.`,
         r`বড় বা দশমিক সংখ্যা বর্গ হিসেবে থাকে, যেমন $856 \times 856 - 144 \times 144$ বা $a \times a + 2 \times a \times b + b \times b$। সোজা গুণ করলে অনেক সময় লাগবে।`,
@@ -177,6 +204,366 @@ module.exports = {
           t(r`This is $a^2 + 2ab + b^2 = (a + b)^2$ with $a = 3.7$, $b = 1.3$.`, r`এটা $a^2 + 2ab + b^2 = (a + b)^2$, যেখানে $a = 3.7$, $b = 1.3$।`),
           t(r`$(3.7 + 1.3)^2 = 5^2 = 25$.`, r`তাই মান $(3.7 + 1.3)^2 = 5^2 = 25$।`),
           t('5 forgets to square, and 15.38 leaves out the middle term 2ab.', '5 হয় বর্গ করতে ভুলে গেলে, আর 15.38 হয় মাঝের পদ 2ab বাদ দিলে।'),
+        ],
+      },
+    },
+
+    // 6 ─────────────────────────────────────────────
+    {
+      key: 'fraction_chain_of',
+      emoji: '🔗',
+      name: t('Chain of "of" with fractions', 'ভগ্নাংশের পরপর "এর" শৃঙ্খল'),
+      difficulty: 'beginner',
+      typicalWording: t('“Find $\\frac{2}{3}$ of $\\frac{3}{5}$ of 450.”', '“450-এর $\\frac{3}{5}$-এর $\\frac{2}{3}$ নির্ণয় করো।”'),
+      formula: t(r`$\frac{a}{b}$ of $\frac{c}{d}$ of $N = \frac{a}{b} \times \frac{c}{d} \times N$ — every "of" is a multiplication.`, r`$\frac{a}{b}$-এর $\frac{c}{d}$-এর $N = \frac{a}{b} \times \frac{c}{d} \times N$ — প্রতিটা "এর" মানেই গুণ।`),
+      shortcut: t('Cancel common factors across the WHOLE chain before multiplying anything (the 3 in 2/3 cancels the 3 in 3/5), so only small numbers are left to multiply.', 'কিছু গুণ করার আগেই পুরো শৃঙ্খল জুড়ে সাধারণ গুণনীয়ক কেটে দাও (2/3-এর 3, 3/5-এর 3-এর সঙ্গে কেটে যায়), ফলে গুণ করতে হয় শুধু ছোট সংখ্যা।'),
+      trap: t('Do not add the fractions or work out each "of" separately on the full number — cancelling first is both faster and safer.', 'ভগ্নাংশগুলো যোগ করো না, বা প্রতিটা "এর" আলাদা করে পুরো সংখ্যার উপর হিসাব করো না — আগে কাটাকাটি করাই দ্রুত ও নিরাপদ।'),
+      spot: t(
+        'The word "of" appears two or more times in a row with fractions, like "2/3 of 3/5 of 450".',
+        '"এর" শব্দটা ভগ্নাংশসহ পরপর দুই বা ততোধিকবার থাকে, যেমন "450-এর 3/5-এর 2/3"।',
+      ),
+      method: [
+        t('Replace every "of" by ×.', 'প্রতিটা "এর"-এর জায়গায় × বসাও।'),
+        t('Cancel any numerator with any denominator sharing a common factor.', 'কোনো লবের সঙ্গে কোনো হরের সাধারণ গুণনীয়ক থাকলে কেটে দাও।'),
+        t('Multiply what is left.', 'যা বাকি থাকে, গুণ করো।'),
+      ],
+      example: {
+        question: t(r`Find $\frac{2}{3}$ of $\frac{3}{5}$ of $450$.`, r`$450$-এর $\frac{3}{5}$-এর $\frac{2}{3}$ নির্ণয় করো।`),
+        steps: [
+          t(r`Write it as a product: $\frac{2}{3} \times \frac{3}{5} \times 450$.`, r`গুণ আকারে লেখো: $\frac{2}{3} \times \frac{3}{5} \times 450$।`),
+          t(r`Cancel the 3s: $\frac{2}{5} \times 450$.`, r`3 দুটি কেটে দাও: $\frac{2}{5} \times 450$।`),
+          t(r`$\frac{2}{5} \times 450 = 2 \times 90 = 180$.`, r`তাই $\frac{2}{5} \times 450 = 2 \times 90 = 180$।`),
+        ],
+        answer: t('180', 'মান 180'),
+      },
+      tryIt: {
+        question: t(r`Find $\frac{3}{4}$ of $\frac{4}{7}$ of $280$.`, r`$280$-এর $\frac{4}{7}$-এর $\frac{3}{4}$ নির্ণয় করো।`),
+        options: [t('210', '210'), t('120', '120'), t('160', '160'), t('90', '90')],
+        correct: 1,
+        explanation: [
+          t(r`As a product: $\frac{3}{4} \times \frac{4}{7} \times 280$. The 4s cancel.`, r`গুণ আকারে: $\frac{3}{4} \times \frac{4}{7} \times 280$। 4 দুটি কেটে যায়।`),
+          t(r`$\frac{3}{7} \times 280 = 3 \times 40 = 120$.`, r`তাই $\frac{3}{7} \times 280 = 3 \times 40 = 120$।`),
+          t(r`210 is only $\frac{3}{4}$ of 280 and 160 is only $\frac{4}{7}$ of 280 — both stop one "of" early.`, r`210 হল শুধু 280-এর $\frac{3}{4}$, আর 160 হল শুধু 280-এর $\frac{4}{7}$ — দুটোই একটা "এর" আগেই থেমে যায়।`),
+        ],
+      },
+    },
+
+    // 7 ─────────────────────────────────────────────
+    {
+      key: 'decimal_squares_cubes',
+      emoji: '🔢',
+      name: t('Squares and cubes of decimals', 'দশমিক সংখ্যার বর্গ ও ঘন'),
+      difficulty: 'beginner',
+      typicalWording: t('“Find the value of $1.2^2 + 0.8^3$.”', '“$1.2^2 + 0.8^3$-এর মান নির্ণয় করো।”'),
+      formula: t(r`Ignore the point, square/cube the digits, then place the point: a square has $2 \times$ the decimal places of the number, a cube has $3 \times$.`, r`দশমিক বিন্দু উপেক্ষা করে অঙ্কগুলির বর্গ/ঘন করো, তারপর বিন্দু বসাও: বর্গে দশমিক স্থান সংখ্যার $2 \times$ গুণ, ঘনে $3 \times$ গুণ হয়।`),
+      shortcut: t(r`For a difference of decimal squares use the identity: $2.5^2 - 1.5^2 = (2.5 + 1.5)(2.5 - 1.5) = 4 \times 1 = 4$ — no decimal squaring needed.`, r`দশমিক বর্গের বিয়োগের ক্ষেত্রে সূত্র ব্যবহার করো: $2.5^2 - 1.5^2 = (2.5 + 1.5)(2.5 - 1.5) = 4 \times 1 = 4$ — দশমিকের বর্গ করার দরকারই নেই।`),
+      trap: t(r`$0.8^3 = 0.512$, not 5.12 or 0.0512 — count the places: $3 \times 1 = 3$ decimal places in a cube of a 1-place decimal.`, r`$0.8^3 = 0.512$, 5.12 বা 0.0512 নয় — স্থান গুনে নাও: 1 দশমিক স্থানের সংখ্যার ঘনে $3 \times 1 = 3$টি দশমিক স্থান থাকে।`),
+      spot: t(
+        'Small decimals like 1.2, 0.8 or 2.5 are raised to the power 2 or 3.',
+        '1.2, 0.8 বা 2.5-এর মতো ছোট দশমিক সংখ্যার ঘাত 2 বা 3 থাকে।',
+      ),
+      method: [
+        t('Square or cube the digits as if they were whole numbers ($12^2 = 144$, $8^3 = 512$).', 'অঙ্কগুলিকে পূর্ণসংখ্যা ধরে বর্গ বা ঘন করো ($12^2 = 144$, $8^3 = 512$)।'),
+        t('Count the decimal places: double them for a square, triple them for a cube.', 'দশমিক স্থান গোনো: বর্গে দ্বিগুণ, ঘনে তিনগুণ করো।'),
+        t('Place the decimal point, then finish any + or − in the line.', 'দশমিক বিন্দু বসাও, তারপর রাশিতে থাকা + বা − শেষ করো।'),
+      ],
+      example: {
+        question: t(r`Find the value of $1.2^2 + 0.8^3$.`, r`$1.2^2 + 0.8^3$-এর মান নির্ণয় করো।`),
+        steps: [
+          t(r`$1.2^2$: $12^2 = 144$, with $2$ decimal places $= 1.44$.`, r`$1.2^2$: $12^2 = 144$, $2$টি দশমিক স্থান দিয়ে $= 1.44$।`),
+          t(r`$0.8^3$: $8^3 = 512$, with $3$ decimal places $= 0.512$.`, r`$0.8^3$: $8^3 = 512$, $3$টি দশমিক স্থান দিয়ে $= 0.512$।`),
+          t(r`Add: $1.44 + 0.512 = 1.952$.`, r`যোগ করো: $1.44 + 0.512 = 1.952$।`),
+        ],
+        answer: t('1.952', 'মান 1.952'),
+      },
+      tryIt: {
+        question: t(r`Find the value of $2.5^2 - 1.5^2$.`, r`$2.5^2 - 1.5^2$-এর মান নির্ণয় করো।`),
+        options: [t('8.5', '8.5'), t('1', '1'), t('4', '4'), t('2.25', '2.25')],
+        correct: 2,
+        explanation: [
+          t(r`$2.5^2 = 6.25$ and $1.5^2 = 2.25$.`, r`$2.5^2 = 6.25$ এবং $1.5^2 = 2.25$।`),
+          t(r`$6.25 - 2.25 = 4$. (Shortcut: $(2.5 + 1.5)(2.5 - 1.5) = 4 \times 1 = 4$.)`, r`তাই $6.25 - 2.25 = 4$। (শর্টকাট: $(2.5 + 1.5)(2.5 - 1.5) = 4 \times 1 = 4$।)`),
+          t(r`8.5 comes from adding the squares; 1 is $(2.5 - 1.5)^2$, a different question.`, r`বর্গদুটি যোগ করলে 8.5 আসে; 1 হল $(2.5 - 1.5)^2$, যা আলাদা প্রশ্ন।`),
+        ],
+      },
+    },
+
+    // 8 ─────────────────────────────────────────────
+    {
+      key: 'square_cube_roots',
+      emoji: '🌱',
+      name: t('Square roots and cube roots', 'বর্গমূল ও ঘনমূল'),
+      difficulty: 'beginner',
+      typicalWording: t('“Find $\\sqrt{729} + \\sqrt[3]{512}$.”', '“$\\sqrt{729} + \\sqrt[3]{512}$-এর মান নির্ণয় করো।”'),
+      formula: t(r`$\sqrt{a^2} = a$ and $\sqrt[3]{a^3} = a$: by prime factorisation, a square root takes one factor from each pair, a cube root one from each triple.`, r`$\sqrt{a^2} = a$ এবং $\sqrt[3]{a^3} = a$: মৌলিক উৎপাদকে বিশ্লেষণে বর্গমূলে প্রতিটি জোড়া থেকে একটি, ঘনমূলে প্রতিটি ত্রয়ী থেকে একটি উৎপাদক নেওয়া হয়।`),
+      shortcut: t('Learn squares up to 30 and cubes up to 10 by heart — nearly every exam root comes from those two lists, so you can read the answer off directly.', '30 পর্যন্ত বর্গ ও 10 পর্যন্ত ঘন মুখস্থ রাখো — পরীক্ষার প্রায় সব মূলই এই দুটি তালিকা থেকে আসে, তাই উত্তর সরাসরি পড়ে ফেলা যায়।'),
+      trap: t(r`$\sqrt{a + b}$ is NOT $\sqrt{a} + \sqrt{b}$: $\sqrt{25 + 144} = \sqrt{169} = 13$, not $5 + 12 = 17$. Add first, then take the root.`, r`$\sqrt{a + b}$ মানে $\sqrt{a} + \sqrt{b}$ নয়: $\sqrt{25 + 144} = \sqrt{169} = 13$, $5 + 12 = 17$ নয়। আগে যোগ করো, তারপর মূল নাও।`),
+      spot: t(
+        'The question has √ or ∛ signs over largish numbers like 729, 576 or 512.',
+        'প্রশ্নে 729, 576 বা 512-এর মতো বড় সংখ্যার উপর √ বা ∛ চিহ্ন থাকে।',
+      ),
+      method: [
+        t('Break the number into prime factors.', 'সংখ্যাটিকে মৌলিক উৎপাদকে ভাঙো।'),
+        t('For √ group the factors in pairs; for ∛ group them in triples.', '√-এর জন্য উৎপাদকগুলি জোড়ায়, ∛-এর জন্য ত্রয়ীতে ভাগ করো।'),
+        t('Take one factor from each group and multiply them — that is the root.', 'প্রতিটি দল থেকে একটি করে উৎপাদক নিয়ে গুণ করো — সেটাই মূল।'),
+      ],
+      example: {
+        question: t(r`Find $\sqrt{729} + \sqrt[3]{512}$.`, r`$\sqrt{729} + \sqrt[3]{512}$-এর মান নির্ণয় করো।`),
+        steps: [
+          t(r`$729 = 3^6$, three pairs, so $\sqrt{729} = 3^3 = 27$.`, r`$729 = 3^6$, তিনটি জোড়া, তাই $\sqrt{729} = 3^3 = 27$।`),
+          t(r`$512 = 2^9$, three triples, so $\sqrt[3]{512} = 2^3 = 8$.`, r`$512 = 2^9$, তিনটি ত্রয়ী, তাই $\sqrt[3]{512} = 2^3 = 8$।`),
+          t(r`Add: $27 + 8 = 35$.`, r`যোগ করো: $27 + 8 = 35$।`),
+        ],
+        answer: t('35', 'মান 35'),
+      },
+      tryIt: {
+        question: t(r`Find $\sqrt{576} + \sqrt[3]{343}$.`, r`$\sqrt{576} + \sqrt[3]{343}$-এর মান নির্ণয় করো।`),
+        options: [t('30', '30'), t('31', '31'), t('17', '17'), t('32', '32')],
+        correct: 1,
+        explanation: [
+          t(r`$576 = 24^2$, so $\sqrt{576} = 24$.`, r`$576 = 24^2$, তাই $\sqrt{576} = 24$।`),
+          t(r`$343 = 7^3$, so $\sqrt[3]{343} = 7$.`, r`$343 = 7^3$, তাই $\sqrt[3]{343} = 7$।`),
+          t(r`$24 + 7 = 31$. (17 comes from subtracting the roots instead of adding.)`, r`তাই $24 + 7 = 31$। (মূলদুটি বিয়োগ করলে 17 আসে।)`),
+        ],
+      },
+    },
+
+    // 9 ─────────────────────────────────────────────
+    {
+      key: 'surds_indices_laws',
+      emoji: '⚡',
+      name: t('Laws of indices and fractional powers', 'সূচকের নিয়ম ও ভগ্নাংশ ঘাত'),
+      difficulty: 'intermediate',
+      typicalWording: t('“Simplify: $27^{2/3} + 8^{2/3}$.”', '“সরল করো: $27^{2/3} + 8^{2/3}$।”'),
+      formula: t(r`$a^{p/q} = (\sqrt[q]{a})^p$; $a^m \times a^n = a^{m+n}$; $\frac{a^m}{a^n} = a^{m-n}$; $a^{-n} = \frac{1}{a^n}$.`, r`নিয়মগুলি: $a^{p/q} = (\sqrt[q]{a})^p$; $a^m \times a^n = a^{m+n}$; $\frac{a^m}{a^n} = a^{m-n}$; $a^{-n} = \frac{1}{a^n}$।`),
+      shortcut: t('Always take the ROOT first, then the power: $27^{2/3} = (\sqrt[3]{27})^2 = 3^2 = 9$. Doing the power first makes the numbers huge.', 'সবসময় আগে মূল, তারপর ঘাত নাও: $27^{2/3} = (\sqrt[3]{27})^2 = 3^2 = 9$। আগে ঘাত করলে সংখ্যা বিশাল হয়ে যায়।'),
+      trap: t(r`In $a^{p/q}$ the denominator $q$ is the root and the numerator $p$ is the power — swapping them gives a wrong value. Also $2^{-2} = \frac{1}{4}$, never $-4$.`, r`$a^{p/q}$-তে হর $q$ হল মূল আর লব $p$ হল ঘাত — উল্টে দিলে ভুল মান আসে। আর $2^{-2} = \frac{1}{4}$, কখনোই $-4$ নয়।`),
+      spot: t(
+        'Powers are fractions or negative numbers, like $27^{2/3}$, $32^{2/5}$ or $2^{-2}$.',
+        'ঘাতগুলি ভগ্নাংশ বা ঋণাত্মক সংখ্যা হয়, যেমন $27^{2/3}$, $32^{2/5}$ বা $2^{-2}$।',
+      ),
+      method: [
+        t('Read a fractional index as "root, then power": denominator = root, numerator = power.', 'ভগ্নাংশ সূচককে "আগে মূল, তারপর ঘাত" হিসেবে পড়ো: হর = মূল, লব = ঘাত।'),
+        t('Take the root first to keep the numbers small, then raise to the power.', 'সংখ্যা ছোট রাখতে আগে মূল নাও, তারপর ঘাত তোলো।'),
+        t('If bases match, finish with the index laws (add indices on ×, subtract on ÷).', 'ভিত্তি এক হলে সূচকের নিয়ম দিয়ে শেষ করো (গুণে সূচক যোগ, ভাগে বিয়োগ)।'),
+      ],
+      example: {
+        question: t(r`Simplify: $27^{2/3} + 8^{2/3}$.`, r`সরল করো: $27^{2/3} + 8^{2/3}$।`),
+        steps: [
+          t(r`$27^{2/3} = (\sqrt[3]{27})^2 = 3^2 = 9$.`, r`প্রথমটি: $27^{2/3} = (\sqrt[3]{27})^2 = 3^2 = 9$।`),
+          t(r`$8^{2/3} = (\sqrt[3]{8})^2 = 2^2 = 4$.`, r`দ্বিতীয়টি: $8^{2/3} = (\sqrt[3]{8})^2 = 2^2 = 4$।`),
+          t(r`Add: $9 + 4 = 13$.`, r`যোগ করো: $9 + 4 = 13$।`),
+        ],
+        answer: t('13', 'মান 13'),
+      },
+      tryIt: {
+        question: t(r`Simplify: $32^{2/5} \times 2^3$.`, r`সরল করো: $32^{2/5} \times 2^3$।`),
+        options: [t('16', '16'), t('32', '32'), t('64', '64'), t('8', '8')],
+        correct: 1,
+        explanation: [
+          t(r`$32^{2/5} = (\sqrt[5]{32})^2 = 2^2 = 4$.`, r`প্রথমে: $32^{2/5} = (\sqrt[5]{32})^2 = 2^2 = 4$।`),
+          t(r`$2^3 = 8$, so $4 \times 8 = 32$.`, r`$2^3 = 8$, তাই $4 \times 8 = 32$।`),
+          t(r`8 is just $2^3$ on its own — it forgets the first factor completely.`, r`8 হল শুধু $2^3$ — এতে প্রথম উৎপাদকটাই বাদ পড়ে যায়।`),
+        ],
+      },
+    },
+
+    // 10 ─────────────────────────────────────────────
+    {
+      key: 'recurring_decimal_arithmetic',
+      emoji: '🔁',
+      name: t('Adding recurring decimals', 'আবৃত্ত দশমিকের যোগ-বিয়োগ'),
+      difficulty: 'intermediate',
+      typicalWording: t('“Find the value of $0.\\overline{3} + 0.\\overline{6}$.”', '“$0.\\overline{3} + 0.\\overline{6}$-এর মান নির্ণয় করো।”'),
+      formula: t(r`$0.\overline{a} = \frac{a}{9}$ and $0.\overline{ab} = \frac{ab}{99}$ — the repeating digits over as many 9s as there are repeating digits.`, r`$0.\overline{a} = \frac{a}{9}$ এবং $0.\overline{ab} = \frac{ab}{99}$ — আবৃত্ত অঙ্কগুলি লবে, হরে আবৃত্ত অঙ্কের সংখ্যার সমান 9।`),
+      shortcut: t('Convert each recurring decimal to its fraction first and add the fractions — the arithmetic is exact and usually collapses to something clean like 1.', 'আগে প্রতিটা আবৃত্ত দশমিককে ভগ্নাংশে বদলে ভগ্নাংশগুলি যোগ করো — হিসাব একদম সঠিক হয় এবং সাধারণত 1-এর মতো পরিষ্কার উত্তরে মিলে যায়।'),
+      trap: t(r`$0.\overline{3}$ is exactly $\frac{1}{3}$, not 0.3 and not $\frac{3}{10}$ — adding the cut-off decimals $0.3 + 0.6 = 0.9$ misses the true answer 1.`, r`$0.\overline{3}$ ঠিক $\frac{1}{3}$, 0.3 নয়, $\frac{3}{10}$-ও নয় — কাটা দশমিক $0.3 + 0.6 = 0.9$ যোগ করলে আসল উত্তর 1 পাওয়া যায় না।`),
+      spot: t(
+        'Decimals carry a bar over the repeating digits, like $0.\\overline{3}$ or $0.\\overline{27}$.',
+        'দশমিক সংখ্যায় আবৃত্ত অঙ্কগুলির উপর রেখা (bar) থাকে, যেমন $0.\\overline{3}$ বা $0.\\overline{27}$।',
+      ),
+      method: [
+        t('Write each recurring decimal as a fraction: repeating digits over 9, 99, 999…', 'প্রতিটা আবৃত্ত দশমিককে ভগ্নাংশে লেখো: আবৃত্ত অঙ্ক লবে, হরে 9, 99, 999…'),
+        t('Add or subtract the fractions as usual.', 'ভগ্নাংশগুলি স্বাভাবিক নিয়মে যোগ বা বিয়োগ করো।'),
+        t('Give the result as the fraction or whole number it simplifies to.', 'ফলাফল যেই ভগ্নাংশ বা পূর্ণসংখ্যায় সরল হয়, সেটাই উত্তর।'),
+      ],
+      example: {
+        question: t(r`Find the value of $0.\overline{3} + 0.\overline{6}$.`, r`$0.\overline{3} + 0.\overline{6}$-এর মান নির্ণয় করো।`),
+        steps: [
+          t(r`$0.\overline{3} = \frac{3}{9} = \frac{1}{3}$.`, r`প্রথমটি: $0.\overline{3} = \frac{3}{9} = \frac{1}{3}$।`),
+          t(r`$0.\overline{6} = \frac{6}{9} = \frac{2}{3}$.`, r`দ্বিতীয়টি: $0.\overline{6} = \frac{6}{9} = \frac{2}{3}$।`),
+          t(r`$\frac{1}{3} + \frac{2}{3} = 1$.`, r`তাই $\frac{1}{3} + \frac{2}{3} = 1$।`),
+        ],
+        answer: t('1', 'মান 1'),
+      },
+      tryIt: {
+        question: t(r`$0.\overline{27}$ is equal to which fraction?`, r`$0.\overline{27}$ কোন ভগ্নাংশের সমান?`),
+        options: [t('27/100', '27/100'), t('3/11', '3/11'), t('1/3', '1/3'), t('11/27', '11/27')],
+        correct: 1,
+        explanation: [
+          t(r`Two digits repeat, so $0.\overline{27} = \frac{27}{99}$.`, r`দুটি অঙ্ক আবৃত্ত হয়, তাই $0.\overline{27} = \frac{27}{99}$।`),
+          t(r`Divide top and bottom by 9: $\frac{27}{99} = \frac{3}{11}$.`, r`লব ও হরকে 9 দিয়ে ভাগ করো: $\frac{27}{99} = \frac{3}{11}$।`),
+          t(r`27/100 is the value of the TERMINATING decimal 0.27 — the bar changes everything.`, r`27/100 হল সসীম দশমিক 0.27-এর মান — উপরের রেখাটাই সব বদলে দেয়।`),
+        ],
+      },
+    },
+
+    // 11 ─────────────────────────────────────────────
+    {
+      key: 'mixed_fraction_operations',
+      emoji: '🍰',
+      name: t('Mixed fraction operations', 'মিশ্র ভগ্নাংশের হিসাব'),
+      difficulty: 'intermediate',
+      typicalWording: t('“Simplify: $2\\frac{1}{2} + 3\\frac{1}{3} - 1\\frac{3}{4}$.”', '“সরল করো: $2\\frac{1}{2} + 3\\frac{1}{3} - 1\\frac{3}{4}$।”'),
+      formula: t(r`Convert to improper fractions first: $a\frac{b}{c} = \frac{ac + b}{c}$, then combine over the LCM of the denominators.`, r`আগে অপ্রকৃত ভগ্নাংশে বদলাও: $a\frac{b}{c} = \frac{ac + b}{c}$, তারপর হরগুলির ল.সা.গু. নিয়ে হিসাব করো।`),
+      shortcut: t('For pure + questions you may add whole parts and fraction parts separately; but the moment ×, ÷ or a borrowing − appears, improper fractions are the safe single route.', 'শুধু + থাকলে পূর্ণ অংশ ও ভগ্নাংশ অংশ আলাদা করে যোগ করা যায়; কিন্তু ×, ÷ বা ধার নেওয়ার − এলেই অপ্রকৃত ভগ্নাংশই একমাত্র নিরাপদ পথ।'),
+      trap: t(r`$2\frac{1}{2} \times 3\frac{1}{3}$ is NOT $6\frac{1}{6}$ — never multiply the whole parts and the fraction parts separately. Convert first: $\frac{5}{2} \times \frac{10}{3}$.`, r`$2\frac{1}{2} \times 3\frac{1}{3}$ মানে $6\frac{1}{6}$ নয় — পূর্ণ অংশ ও ভগ্নাংশ অংশ আলাদা করে গুণ করো না। আগে বদলাও: $\frac{5}{2} \times \frac{10}{3}$।`),
+      spot: t(
+        'Numbers are written as a whole part plus a fraction — $2\\frac{1}{2}$, $3\\frac{1}{3}$, $1\\frac{3}{4}$ — mixed with +, −, × or ÷.',
+        'সংখ্যাগুলি পূর্ণ অংশ ও ভগ্নাংশ মিলিয়ে লেখা থাকে — $2\\frac{1}{2}$, $3\\frac{1}{3}$, $1\\frac{3}{4}$ — সঙ্গে +, −, × বা ÷ থাকে।',
+      ),
+      method: [
+        t('Convert every mixed number to an improper fraction.', 'প্রতিটা মিশ্র সংখ্যাকে অপ্রকৃত ভগ্নাংশে বদলাও।'),
+        t('Take the LCM of the denominators and combine the numerators.', 'হরগুলির ল.সা.গু. নিয়ে লবগুলি মেলাও।'),
+        t('Simplify, and convert back to a mixed number if the answer needs one.', 'সরল করো, দরকার হলে আবার মিশ্র ভগ্নাংশে ফিরিয়ে নাও।'),
+      ],
+      example: {
+        question: t(r`Simplify: $2\frac{1}{2} + 3\frac{1}{3} - 1\frac{3}{4}$.`, r`সরল করো: $2\frac{1}{2} + 3\frac{1}{3} - 1\frac{3}{4}$।`),
+        steps: [
+          t(r`Improper fractions: $\frac{5}{2} + \frac{10}{3} - \frac{7}{4}$.`, r`অপ্রকৃত ভগ্নাংশে: $\frac{5}{2} + \frac{10}{3} - \frac{7}{4}$।`),
+          t(r`LCM of 2, 3, 4 is 12: $\frac{30}{12} + \frac{40}{12} - \frac{21}{12}$.`, r`2, 3, 4-এর ল.সা.গু. 12: $\frac{30}{12} + \frac{40}{12} - \frac{21}{12}$।`),
+          t(r`$= \frac{49}{12} = 4\frac{1}{12}$.`, r`তাই $= \frac{49}{12} = 4\frac{1}{12}$।`),
+        ],
+        answer: t(r`$4\frac{1}{12}$`, r`মান $4\frac{1}{12}$`),
+      },
+      tryIt: {
+        question: t(r`Simplify: $3\frac{1}{3} \times 1\frac{1}{2}$.`, r`সরল করো: $3\frac{1}{3} \times 1\frac{1}{2}$।`),
+        options: [t('29/6', '29/6'), t('5', '5'), t('2', '2'), t('10', '10')],
+        correct: 1,
+        explanation: [
+          t(r`Convert: $3\frac{1}{3} = \frac{10}{3}$ and $1\frac{1}{2} = \frac{3}{2}$.`, r`বদলাও: $3\frac{1}{3} = \frac{10}{3}$ এবং $1\frac{1}{2} = \frac{3}{2}$।`),
+          t(r`$\frac{10}{3} \times \frac{3}{2} = \frac{30}{6} = 5$ (the 3s cancel).`, r`তাই $\frac{10}{3} \times \frac{3}{2} = \frac{30}{6} = 5$ (3 দুটি কেটে যায়)।`),
+          t(r`29/6 comes from ADDING the two mixed numbers instead of multiplying them.`, r`দুটি মিশ্র সংখ্যা গুণের বদলে যোগ করলে 29/6 আসে।`),
+        ],
+      },
+    },
+
+    // 12 ─────────────────────────────────────────────
+    {
+      key: 'continued_fraction',
+      emoji: '🪜',
+      name: t('Continued fractions', 'অবিরত ভগ্নাংশ'),
+      difficulty: 'advanced',
+      typicalWording: t('“Simplify: $1 + \\dfrac{1}{2 + \\dfrac{1}{3}}$.”', '“সরল করো: $1 + \\dfrac{1}{2 + \\dfrac{1}{3}}$।”'),
+      formula: t(r`Work from the bottom up: simplify the deepest fraction to a single number, then climb one level at a time — each level is "add, then flip if it sits under a 1".`, r`নিচ থেকে উপরে ওঠো: সবচেয়ে গভীরের ভগ্নাংশটিকে একটিমাত্র সংখ্যায় পরিণত করো, তারপর এক ধাপ করে ওপরে ওঠো — প্রতিটি ধাপে "যোগ করো, 1-এর নিচে থাকলে উল্টে দাও"।`),
+      shortcut: t('Start at the innermost denominator and climb steadily: every step is just one small addition and one reciprocal, so nothing ever gets big.', 'সবচেয়ে ভিতরের হর থেকে শুরু করে ধীরে ধীরে ওঠো: প্রতিটি ধাপে শুধু একটি ছোট যোগ ও একটি অনোন্যক, তাই সংখ্যা কখনো বড় হয় না।'),
+      trap: t('Do NOT start from the top: $1 + \\frac{1}{2}$ first gives the wrong value. The deepest level must be settled before anything above it.', 'উপর থেকে শুরু করো না: আগে $1 + \\frac{1}{2}$ করলে ভুল মান আসে। সবচেয়ে গভীরের ধাপটা আগে মেটাতেই হবে।'),
+      spot: t(
+        'Fractions are stacked inside fractions: $1 + \\frac{1}{2 + \\frac{1}{3}}$ — a ladder of denominators.',
+        'ভগ্নাংশের ভিতরে ভগ্নাংশ সাজানো থাকে: $1 + \\frac{1}{2 + \\frac{1}{3}}$ — হরের একটা সিঁড়ির মতো।',
+      ),
+      method: [
+        t('Find the deepest (bottom-most) fraction and simplify it to a single number.', 'সবচেয়ে গভীরের (একদম নিচের) ভগ্নাংশটি খুঁজে একটিমাত্র সংখ্যায় পরিণত করো।'),
+        t('Move one level up: add the number above it, then take the reciprocal if a fraction bar demands it.', 'এক ধাপ উপরে যাও: উপরের সংখ্যাটি যোগ করো, ভগ্নাংশের দাগ চাইলে অনোন্যক নাও।'),
+        t('Repeat until a single number remains.', 'একটিমাত্র সংখ্যা না থাকা পর্যন্ত পুনরাবৃত্তি করো।'),
+      ],
+      example: {
+        question: t(r`Simplify: $1 + \frac{1}{2 + \frac{1}{3}}$.`, r`সরল করো: $1 + \frac{1}{2 + \frac{1}{3}}$।`),
+        steps: [
+          t(r`Deepest level: $2 + \frac{1}{3} = \frac{7}{3}$.`, r`সবচেয়ে গভীরে: $2 + \frac{1}{3} = \frac{7}{3}$।`),
+          t(r`It sits under a 1, so flip it: $\frac{1}{7/3} = \frac{3}{7}$.`, r`এটি 1-এর নিচে আছে, তাই উল্টে দাও: $\frac{1}{7/3} = \frac{3}{7}$।`),
+          t(r`Top level: $1 + \frac{3}{7} = \frac{10}{7}$.`, r`সবচেয়ে উপরে: $1 + \frac{3}{7} = \frac{10}{7}$।`),
+        ],
+        answer: t(r`$\frac{10}{7}$`, r`মান $\frac{10}{7}$`),
+      },
+      tryIt: {
+        question: t(r`Simplify: $2 + \frac{1}{1 + \frac{1}{2}}$.`, r`সরল করো: $2 + \frac{1}{1 + \frac{1}{2}}$।`),
+        options: [t('5/2', '5/2'), t('7/3', '7/3'), t('8/3', '8/3'), t('3', '3')],
+        correct: 2,
+        explanation: [
+          t(r`Deepest level: $1 + \frac{1}{2} = \frac{3}{2}$.`, r`সবচেয়ে গভীরে: $1 + \frac{1}{2} = \frac{3}{2}$।`),
+          t(r`Flip it: $\frac{1}{3/2} = \frac{2}{3}$.`, r`উল্টে দাও: $\frac{1}{3/2} = \frac{2}{3}$।`),
+          t(r`Top level: $2 + \frac{2}{3} = \frac{8}{3}$. (5/2 comes from wrongly adding $\frac{1}{2}$ at the top level.)`, r`সবচেয়ে উপরে: $2 + \frac{2}{3} = \frac{8}{3}$। (উপরের ধাপেই $\frac{1}{2}$ যোগ করে ফেললে 5/2 আসে।)`),
+        ],
+      },
+    },
+
+    // 13 ─────────────────────────────────────────────
+    {
+      key: 'rationalise_surd',
+      emoji: '🌟',
+      name: t('Rationalising a surd denominator', 'হরের করণীমুক্তকরণ'),
+      difficulty: 'advanced',
+      typicalWording: t('“Rationalise the denominator of $\\dfrac{6}{\\sqrt{3} - 1}$.”', '“$\\dfrac{6}{\\sqrt{3} - 1}$-এর হরের করণীমুক্ত করো।”'),
+      formula: t(r`Multiply top and bottom by the conjugate: $\frac{1}{\sqrt{a} - \sqrt{b}} = \frac{\sqrt{a} + \sqrt{b}}{a - b}$, using $(\sqrt{a} - \sqrt{b})(\sqrt{a} + \sqrt{b}) = a - b$.`, r`লব ও হরকে অনুবন্ধী দিয়ে গুণ করো: $\frac{1}{\sqrt{a} - \sqrt{b}} = \frac{\sqrt{a} + \sqrt{b}}{a - b}$, কারণ $(\sqrt{a} - \sqrt{b})(\sqrt{a} + \sqrt{b}) = a - b$।`),
+      shortcut: t(r`When the denominator is $\sqrt{a} + 1$ or $\sqrt{a} - 1$, the new denominator $a - 1$ often divides the numerator exactly, so the answer collapses to a single surd term like $\sqrt{5} - 1$.`, r`হর $\sqrt{a} + 1$ বা $\sqrt{a} - 1$ হলে নতুন হর $a - 1$ প্রায়ই লবকে ঠিকঠাক ভাগ করে, তাই উত্তর $\sqrt{5} - 1$-এর মতো একটি মাত্র করণী পদে মিলে যায়।`),
+      trap: t(r`The new denominator is $a - b$, the difference of the numbers UNDER the roots — not $(\sqrt{a} - \sqrt{b})^2$. And the conjugate flips only the MIDDLE sign.`, r`নতুন হর হয় $a - b$, মূলচিহ্নের নিচের সংখ্যাদুটির বিয়োগফল — $(\sqrt{a} - \sqrt{b})^2$ নয়। আর অনুবন্ধীতে শুধু মাঝের চিহ্নটাই বদলায়।`),
+      spot: t(
+        'A fraction has a √ in its denominator, like $\\frac{6}{\\sqrt{3} - 1}$, and the question says "rationalise" or "simplify".',
+        'কোনো ভগ্নাংশের হরে √ চিহ্ন থাকে, যেমন $\\frac{6}{\\sqrt{3} - 1}$, আর প্রশ্নে "করণীমুক্ত করো" বা "সরল করো" বলা থাকে।',
+      ),
+      method: [
+        t('Write the conjugate of the denominator: flip the sign in the middle ($\sqrt{3} - 1 \to \sqrt{3} + 1$).', 'হরের অনুবন্ধী লেখো: মাঝের চিহ্নটা উল্টে দাও ($\sqrt{3} - 1 \to \sqrt{3} + 1$)।'),
+        t('Multiply numerator AND denominator by that conjugate.', 'লব ও হর — দুটোকেই সেই অনুবন্ধী দিয়ে গুণ করো।'),
+        t('The denominator becomes a plain number ($a - b$); simplify and cancel.', 'হর হয়ে যায় একটি সরল সংখ্যা ($a - b$); সরল করে কাটাকাটি করো।'),
+      ],
+      example: {
+        question: t(r`Rationalise the denominator of $\frac{6}{\sqrt{3} - 1}$.`, r`$\frac{6}{\sqrt{3} - 1}$-এর হরের করণীমুক্ত করো।`),
+        steps: [
+          t(r`Multiply top and bottom by the conjugate $\sqrt{3} + 1$: $\frac{6(\sqrt{3} + 1)}{(\sqrt{3} - 1)(\sqrt{3} + 1)}$.`, r`লব ও হরকে অনুবন্ধী $\sqrt{3} + 1$ দিয়ে গুণ করো: $\frac{6(\sqrt{3} + 1)}{(\sqrt{3} - 1)(\sqrt{3} + 1)}$।`),
+          t(r`Denominator: $(\sqrt{3})^2 - 1^2 = 3 - 1 = 2$.`, r`হর: $(\sqrt{3})^2 - 1^2 = 3 - 1 = 2$।`),
+          t(r`So the value is $\frac{6(\sqrt{3} + 1)}{2} = 3(\sqrt{3} + 1) = 3\sqrt{3} + 3$.`, r`তাই মান $\frac{6(\sqrt{3} + 1)}{2} = 3(\sqrt{3} + 1) = 3\sqrt{3} + 3$।`),
+        ],
+        answer: t(r`$3\sqrt{3} + 3$`, r`মান $3\sqrt{3} + 3$`),
+      },
+      tryIt: {
+        question: t(r`Simplify: $\frac{4}{\sqrt{5} + 1}$.`, r`সরল করো: $\frac{4}{\sqrt{5} + 1}$।`),
+        options: [t(r`$\sqrt{5} + 1$`, r`$\sqrt{5} + 1$`), t(r`$\sqrt{5} - 1$`, r`$\sqrt{5} - 1$`), t(r`$2\sqrt{5} - 2$`, r`$2\sqrt{5} - 2$`), t(r`$4\sqrt{5} - 4$`, r`$4\sqrt{5} - 4$`)],
+        correct: 1,
+        explanation: [
+          t(r`Multiply top and bottom by the conjugate $\sqrt{5} - 1$: denominator $= 5 - 1 = 4$.`, r`লব ও হরকে অনুবন্ধী $\sqrt{5} - 1$ দিয়ে গুণ করো: হর $= 5 - 1 = 4$।`),
+          t(r`$\frac{4(\sqrt{5} - 1)}{4} = \sqrt{5} - 1$.`, r`তাই $\frac{4(\sqrt{5} - 1)}{4} = \sqrt{5} - 1$।`),
+          t(r`$2\sqrt{5} - 2$ comes from dividing by 2 instead of the correct new denominator 4.`, r`সঠিক নতুন হর 4-এর বদলে 2 দিয়ে ভাগ করলে $2\sqrt{5} - 2$ আসে।`),
+        ],
+      },
+    },
+
+    // 14 ─────────────────────────────────────────────
+    {
+      key: 'exponents_find_x',
+      emoji: '🔑',
+      name: t('Find x in an exponential equation', 'সূচকীয় সমীকরণে x-এর মান নির্ণয়'),
+      difficulty: 'advanced',
+      typicalWording: t('“If $2^{x + 1} = 32$, find the value of x.”', '“যদি $2^{x + 1} = 32$ হয়, তবে x-এর মান কত?”'),
+      formula: t(r`If $a^m = a^n$ with the same base $a$, then $m = n$ — so first write both sides as powers of ONE base.`, r`একই ভিত্তি $a$ হলে $a^m = a^n$ থেকে $m = n$ — তাই আগে দুই দিককেই একটি ভিত্তির ঘাতে লেখো।`),
+      shortcut: t('Memorise powers of 2 (up to $2^{10}$) and of 3 (up to $3^5$): then $32 = 2^5$ and $243 = 3^5$ are read off instantly, with no factorising.', '2-এর ঘাত ($2^{10}$ পর্যন্ত) ও 3-এর ঘাত ($3^5$ পর্যন্ত) মুখস্থ রাখো: তাহলে $32 = 2^5$ ও $243 = 3^5$ উৎপাদকে বিশ্লেষণ ছাড়াই চোখে পড়ে যাবে।'),
+      trap: t(r`The exponent is the WHOLE expression: $2^{x + 1} = 32$ gives $x + 1 = 5$, so $x = 4$ — do not stop at 5 and report the exponent itself.`, r`সূচক হল পুরো রাশিটা: $2^{x + 1} = 32$ থেকে $x + 1 = 5$, তাই $x = 4$ — 5-এ থেমে গিয়ে সূচকটাকেই উত্তর বোলো না।`),
+      spot: t(
+        'An equation has x up in the power, like $2^{x + 1} = 32$, and asks for the value of x.',
+        'সমীকরণে x থাকে ঘাতের জায়গায়, যেমন $2^{x + 1} = 32$, আর x-এর মান জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Write the plain number side as a power of the same base ($32 = 2^5$).', 'সরল সংখ্যার দিকটিকে একই ভিত্তির ঘাতে লেখো ($32 = 2^5$)।'),
+        t('Equate the exponents — equal bases with equal values have equal powers.', 'সূচকদুটিকে সমান ধরো — ভিত্তি ও মান সমান হলে ঘাতও সমান।'),
+        t('Solve the small linear equation that remains.', 'যে ছোট একঘাত সমীকরণটা বাকি থাকে, সেটা মেলাও।'),
+      ],
+      example: {
+        question: t(r`If $2^{x + 1} = 32$, find $x$.`, r`যদি $2^{x + 1} = 32$ হয়, তবে $x$-এর মান কত?`),
+        steps: [
+          t(r`Write 32 as a power of 2: $32 = 2^5$, so $2^{x + 1} = 2^5$.`, r`32-কে 2-এর ঘাতে লেখো: $32 = 2^5$, তাই $2^{x + 1} = 2^5$।`),
+          t(r`Same base, so the exponents are equal: $x + 1 = 5$.`, r`ভিত্তি এক, তাই সূচকদুটি সমান: $x + 1 = 5$।`),
+          t(r`$x = 5 - 1 = 4$. Check: $2^{4 + 1} = 2^5 = 32$. ✓`, r`তাই $x = 5 - 1 = 4$। যাচাই: $2^{4 + 1} = 2^5 = 32$। ✓`),
+        ],
+        answer: t('x = 4', 'x = 4 (উত্তর)'),
+      },
+      tryIt: {
+        question: t(r`If $3^{x + 2} = 243$, find $x$.`, r`যদি $3^{x + 2} = 243$ হয়, তবে $x$-এর মান কত?`),
+        options: [t('5', '5'), t('2', '2'), t('3', '3'), t('7', '7')],
+        correct: 2,
+        explanation: [
+          t(r`$243 = 3^5$, so $3^{x + 2} = 3^5$.`, r`$243 = 3^5$, তাই $3^{x + 2} = 3^5$।`),
+          t(r`Equate exponents: $x + 2 = 5$, so $x = 3$.`, r`সূচক সমান ধরো: $x + 2 = 5$, তাই $x = 3$।`),
+          t(r`5 is the exponent itself — the question asks for x, so the $+2$ still has to come off.`, r`5 হল সূচকটা নিজেই — প্রশ্নে x চাওয়া হয়েছে, তাই $+2$ এখনও বাদ দিতে হবে।`),
         ],
       },
     },
