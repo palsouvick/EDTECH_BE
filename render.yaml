@@ -1,0 +1,21 @@
+# Render Blueprint — EDTECH backend (Express + MongoDB)
+# Deploy: Render dashboard → New → Blueprint → connect this repo.
+# MONGODB_URI is asked for during setup (use a MongoDB Atlas connection string).
+services:
+  - type: web
+    name: edtech-be
+    runtime: node
+    branch: test
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      - key: MONGODB_URI
+        sync: false
+      - key: AUTH_SECRET
+        generateValue: true
