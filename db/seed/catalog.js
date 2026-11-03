@@ -66,6 +66,7 @@ const T = {
   environment: L('Environment & Ecology', 'পরিবেশ ও বাস্তুবিদ্যা', 'पर्यावरण और पारिस्थितिकी'),
   computer_awareness: L('Computer Awareness', 'কম্পিউটার সচেতনতা', 'कंप्यूटर जागरूकता'),
   west_bengal_gk: L('West Bengal GK', 'পশ্চিমবঙ্গ সাধারণ জ্ঞান', 'पश्चिम बंगाल सामान्य ज्ञान'),
+  important_days: L('Important Days', 'গুরুত্বপূর্ণ দিবস', 'महत्वपूर्ण दिवस'),
 };
 
 const GRAMMAR_SUBTOPICS = [
@@ -197,6 +198,7 @@ const WBPSC_GS_SYLLABUS = {
   west_bengal_gk: covered(WBPSC_SRC.wbcs, 'WBCS: Geography of India "with special reference to West Bengal"; Miscellaneous: General Knowledge in different spheres.', 'WBCS: ভারতের ভূগোল "পশ্চিমবঙ্গের বিশেষ উল্লেখসহ"; মিসলেনিয়াস: বিভিন্ন ক্ষেত্রে সাধারণ জ্ঞান।'),
   indian_gk: covered(WBPSC_SRC.clerkship, 'Clerkship: "matters of everyday observation … with special reference to India"; Miscellaneous: General Knowledge in different spheres.', 'ক্লার্কশিপ: "দৈনন্দিন পর্যবেক্ষণের বিষয় … ভারতের বিশেষ উল্লেখসহ"; মিসলেনিয়াস: বিভিন্ন ক্ষেত্রে সাধারণ জ্ঞান।'),
   static_gk: covered(WBPSC_SRC.misc, 'Miscellaneous Services: "General Knowledge of a candidate in different spheres". Not named in the Clerkship or WBCS syllabus.', 'মিসলেনিয়াস সার্ভিসেস: "বিভিন্ন ক্ষেত্রে প্রার্থীর সাধারণ জ্ঞান"। ক্লার্কশিপ বা WBCS সিলেবাসে আলাদা করে উল্লেখ নেই।'),
+  important_days: covered(WBPSC_SRC.misc, 'Miscellaneous Services: "General Knowledge of a candidate in different spheres". Not named in the Clerkship or WBCS syllabus.', 'মিসলেনিয়াস সার্ভিসেস: "বিভিন্ন ক্ষেত্রে প্রার্থীর সাধারণ জ্ঞান"। ক্লার্কশিপ বা WBCS সিলেবাসে আলাদা করে উল্লেখ নেই।'),
   art_culture: covered(WBPSC_SRC.misc, 'Miscellaneous Services: "General Knowledge of a candidate in different spheres". Not named in the Clerkship or WBCS syllabus.', 'মিসলেনিয়াস সার্ভিসেস: "বিভিন্ন ক্ষেত্রে প্রার্থীর সাধারণ জ্ঞান"। ক্লার্কশিপ বা WBCS সিলেবাসে আলাদা করে উল্লেখ নেই।'),
   environment: covered(WBPSC_SRC.misc, 'Miscellaneous Services: "General Knowledge of a candidate in different spheres". Not named in the Clerkship or WBCS syllabus.', 'মিসলেনিয়াস সার্ভিসেস: "বিভিন্ন ক্ষেত্রে প্রার্থীর সাধারণ জ্ঞান"। ক্লার্কশিপ বা WBCS সিলেবাসে আলাদা করে উল্লেখ নেই।'),
   computer_awareness: {
@@ -254,7 +256,7 @@ module.exports = [
       quant,
       reasoning(L('Reasoning & Mental Ability', 'যুক্তি ও মানসিক দক্ষতা', 'तर्क और मानसिक क्षमता')),
       english,
-      gs(L('General Studies', 'সাধারণ পাঠ', 'सामान्य अध्ययन'), ['west_bengal_gk', 'indian_gk', 'static_gk', 'art_culture', 'environment', 'computer_awareness'], WBPSC_GS_SYLLABUS),
+      gs(L('General Studies', 'সাধারণ পাঠ', 'सामान्य अध्ययन'), ['west_bengal_gk', 'indian_gk', 'static_gk', 'art_culture', 'environment', 'computer_awareness', 'important_days'], WBPSC_GS_SYLLABUS),
     ],
   },
   {

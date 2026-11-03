@@ -396,4 +396,56 @@ module.exports = [
       }
     ]
   },
+  {
+    subject: 'gs',
+    topic: 'important_days',
+    title: { en: 'Important National & International Days', bn: 'গুরুত্বপূর্ণ জাতীয় ও আন্তর্জাতিক দিবস', hi: 'महत्वपूर्ण राष्ट्रीय और अंतर्राष्ट्रीय दिवस' },
+    overview: {
+      en: 'This chapter collects the **national and international days** that competitive exams ask about again and again, arranged **month by month** so that revision follows the calendar. Almost every question is one of four shapes: a direct date, a correctly (or incorrectly) matched pair, a match-the-following table, or the person behind the day. The winning method is to learn every date **with its reason attached** — an event, a birthday, a founding — because examiners build their wrong options by swapping the dates of two real days. Two distinctions carry the most marks: **adopted vs in force** for the Constitution (26 November 1949 vs 26 January 1950) and the **Indian vs UN observance** pairs (Teachers\' Day 5 September vs World Teachers\' Day 5 October; Children\'s Day 14 November vs World Children\'s Day 20 November).',
+      bn: 'এই অধ্যায়ে আছে প্রতিযোগিতামূলক পরীক্ষায় বারবার আসা **জাতীয় ও আন্তর্জাতিক দিবস**, **মাস অনুযায়ী** সাজানো, যাতে রিভিশন ক্যালেন্ডার ধরে এগোয়। প্রায় প্রতিটি প্রশ্ন চারটি আকারের একটা: সরাসরি তারিখ, সঠিক (বা ভুল) মেলানো জোড়, মেলানোর ছক, অথবা দিবসের পেছনের মানুষ। জেতার উপায় হল প্রতিটি তারিখ **তার কারণসহ** শেখা — একটি ঘটনা, একটি জন্মদিন, একটি প্রতিষ্ঠা — কারণ পরীক্ষকেরা দুটি আসল দিবসের তারিখ বদলিয়ে ভুল বিকল্প বানান। সবচেয়ে বেশি নম্বর বহন করে দুটি পার্থক্য: সংবিধানের ক্ষেত্রে **গৃহীত বনাম কার্যকর** (২৬ নভেম্বর ১৯৪৯ বনাম ২৬ জানুয়ারি ১৯৫০) এবং **ভারতীয় বনাম রাষ্ট্রসংঘের পালন** জুটি (শিক্ষক দিবস ৫ সেপ্টেম্বর বনাম বিশ্ব শিক্ষক দিবস ৫ অক্টোবর; শিশু দিবস ১৪ নভেম্বর বনাম বিশ্ব শিশু দিবস ২০ নভেম্বর)।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'The January anchor chain', bn: 'জানুয়ারির মূল শৃঙ্খল' },
+        body: {
+          en: '- **9 January** Pravasi Bharatiya Divas: Gandhi returned from South Africa in 1915\n- **12 January** National Youth Day: Vivekananda\'s birthday\n- **25 January** National Voters\' Day: the Election Commission was founded in 1950\n- **26 January** Republic Day: the Constitution came into force in 1950\n- **30 January** Martyrs\' Day: Gandhi was assassinated in 1948',
+          bn: '- **৯ জানুয়ারি** প্রবাসী ভারতীয় দিবস: ১৯১৫-তে গান্ধী দক্ষিণ আফ্রিকা থেকে ফেরেন\n- **১২ জানুয়ারি** জাতীয় যুব দিবস: বিবেকানন্দের জন্মদিন\n- **২৫ জানুয়ারি** জাতীয় ভোটার দিবস: ১৯৫০-তে নির্বাচন কমিশন গঠিত হয়\n- **২৬ জানুয়ারি** প্রজাতন্ত্র দিবস: ১৯৫০-তে সংবিধান কার্যকর হয়\n- **৩০ জানুয়ারি** শহীদ দিবস: ১৯৪৮-তে গান্ধীকে হত্যা করা হয়',
+        },
+      },
+      {
+        title: { en: 'Birthdays that became national days', bn: 'জন্মদিন থেকে জাতীয় দিবস' },
+        body: {
+          en: '- **28 February** is an event, not a birthday: the Raman Effect (1928) → National Science Day\n- **29 August** Major Dhyan Chand → National Sports Day\n- **5 September** Dr Radhakrishnan → Teachers\' Day (India)\n- **31 October** Sardar Patel → National Unity Day\n- **26 November** is an event, not a birthday: the Constitution was adopted (1949) → Constitution Day',
+          bn: '- **২৮ ফেব্রুয়ারি** ঘটনা, জন্মদিন নয়: রামন প্রভাব (১৯২৮) → জাতীয় বিজ্ঞান দিবস\n- **২৯ আগস্ট** মেজর ধ্যানচাঁদ → জাতীয় ক্রীড়া দিবস\n- **৫ সেপ্টেম্বর** ড. রাধাকৃষ্ণন → শিক্ষক দিবস (ভারত)\n- **৩১ অক্টোবর** সর্দার পটেল → জাতীয় ঐক্য দিবস\n- **২৬ নভেম্বর** ঘটনা, জন্মদিন নয়: সংবিধান গৃহীত হয় (১৯৪৯) → সংবিধান দিবস',
+        },
+      },
+      {
+        title: { en: 'The December date chain', bn: 'ডিসেম্বরের তারিখ-শৃঙ্খল' },
+        body: {
+          en: '- **1 December** World AIDS Day; **4 December** Indian Navy Day (Operation Trident, 1971)\n- **10 December** Human Rights Day (UDHR adopted, 1948)\n- **16 December** Vijay Diwas (1971 victory)\n- **22 December** National Mathematics Day (Ramanujan) → **23 December** Kisan Diwas (Charan Singh) → **24 December** National Consumer Day → **25 December** Good Governance Day (Vajpayee)',
+          bn: '- **১ ডিসেম্বর** বিশ্ব এইডস দিবস; **৪ ডিসেম্বর** ভারতীয় নৌসেনা দিবস (অপারেশন ট্রাইডেন্ট, ১৯৭১)\n- **১০ ডিসেম্বর** মানবাধিকার দিবস (মানবাধিকার ঘোষণাপত্র গৃহীত, ১৯৪৮)\n- **১৬ ডিসেম্বর** বিজয় দিবস (১৯৭১-এর জয়)\n- **২২ ডিসেম্বর** জাতীয় গণিত দিবস (রামানুজন) → **২৩ ডিসেম্বর** কিষান দিবস (চরণ সিং) → **২৪ ডিসেম্বর** জাতীয় ভোক্তা দিবস → **২৫ ডিসেম্বর** সুশাসন দিবস (বাজপেয়ী)',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'One day before Republic Day', bn: 'প্রজাতন্ত্র দিবসের একদিন আগে' },
+        body: { en: 'The Election Commission was founded on **25 January 1950**, literally one day before the Republic — so Voters\' Day sits one day before Republic Day in the calendar, every year.', bn: 'নির্বাচন কমিশন গঠিত হয় **২৫ জানুয়ারি ১৯৫০**-তে, প্রজাতন্ত্রের ঠিক একদিন আগে — তাই ভোটার দিবস প্রতি বছর ক্যালেন্ডারে প্রজাতন্ত্র দিবসের ঠিক একদিন আগে বসে।' },
+      },
+      {
+        title: { en: '28-2 or 29-8: science in winter, sports in the rains', bn: '২৮-২ না ২৯-৮: শীতে বিজ্ঞান, বর্ষায় খেলা' },
+        body: { en: '**Science Day 28 February** comes in the cool season of the Raman Effect announcement; **Sports Day 29 August** comes in the monsoon, Dhyan Chand\'s birthday. If the month is February, the answer can never be Sports Day.', bn: '**বিজ্ঞান দিবস ২৮ ফেব্রুয়ারি** রামন প্রভাব ঘোষণার শীতের মরসুমে; **ক্রীড়া দিবস ২৯ আগস্ট** বর্ষায়, ধ্যানচাঁদের জন্মদিনে। মাস ফেব্রুয়ারি হলে উত্তর কখনোই ক্রীড়া দিবস হতে পারে না।' },
+      },
+      {
+        title: { en: 'Indian day = Indian birthday', bn: 'ভারতীয় দিবস = ভারতীয় জন্মদিন' },
+        body: { en: 'When an Indian and a UN observance share a theme, the Indian one is a great Indian\'s birthday: Teachers\' Day → Radhakrishnan (5 Sep), Children\'s Day → Nehru (14 Nov), Education Day → Azad (11 Nov). The UN one is a fixed General Assembly date.', bn: 'একই বিষয়ে ভারতীয় ও রাষ্ট্রসংঘের পালন থাকলে ভারতীয়টি কোনো মহান ভারতীয়ের জন্মদিন: শিক্ষক দিবস → রাধাকৃষ্ণন (৫ সেপ্টেম্বর), শিশু দিবস → নেহরু (১৪ নভেম্বর), শিক্ষা দিবস → আজাদ (১১ নভেম্বর)। রাষ্ট্রসংঘেরটি সাধারণ সভার নির্ধারিত তারিখ।' },
+      },
+    ],
+    common_traps: [
+      { en: '**Voters\' Day is not Republic Day.** National Voters\' Day is 25 January (Election Commission founded, 1950); Republic Day is 26 January (Constitution in force, 1950); Constitution Day is 26 November (Constitution adopted, 1949).', bn: '**ভোটার দিবস প্রজাতন্ত্র দিবস নয়।** জাতীয় ভোটার দিবস ২৫ জানুয়ারি (নির্বাচন কমিশন গঠিত, ১৯৫০); প্রজাতন্ত্র দিবস ২৬ জানুয়ারি (সংবিধান কার্যকর, ১৯৫০); সংবিধান দিবস ২৬ নভেম্বর (সংবিধান গৃহীত, ১৯৪৯)।' },
+      { en: '**Science Day and Sports Day swap.** National Science Day is 28 February (Raman Effect); National Sports Day is 29 August (Dhyan Chand). Wrong options in pair questions almost always exchange these two.', bn: '**বিজ্ঞান দিবস ও ক্রীড়া দিবসের বদল।** জাতীয় বিজ্ঞান দিবস ২৮ ফেব্রুয়ারি (রামন প্রভাব); জাতীয় ক্রীড়া দিবস ২৯ আগস্ট (ধ্যানচাঁদ)। জোড়ের প্রশ্নে ভুল বিকল্প প্রায় সবসময় এই দুটিকে বদলিয়ে দেয়।' },
+      { en: '**Two victory days.** Kargil Vijay Diwas is 26 July (1999); Vijay Diwas is 16 December (1971). The year in the stem decides which one is being asked.', bn: '**দুটি বিজয় দিবস।** কার্গিল বিজয় দিবস ২৬ জুলাই (১৯৯৯); বিজয় দিবস ১৬ ডিসেম্বর (১৯৭১)। প্রশ্নের সালই ঠিক করে কোনটি চাওয়া হচ্ছে।' },
+    ],
+  },
 ];

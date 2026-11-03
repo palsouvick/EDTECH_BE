@@ -273,6 +273,30 @@ const CARDS = Object.freeze([
       census_statistics: L('Census and Statistics', 'জনগণনা ও পরিসংখ্যান'),
     },
   },
+  {
+    code: 'important_days',
+    section: 'india',
+    prefix: 'DAY',
+    emoji: '📅',
+    title: L('Important National & International Days', 'গুরুত্বপূর্ণ জাতীয় ও আন্তর্জাতিক দিবস'),
+    description: L('Month-wise national and international days for competitive exams (WBPSC, SSC, Railways, WBCS), with the stories behind the dates and practice questions', 'প্রতিযোগিতামূলক পরীক্ষার (WBPSC, SSC, রেল, WBCS) জন্য মাসভিত্তিক জাতীয় ও আন্তর্জাতিক দিবস — তারিখের পেছনের গল্প ও অনুশীলন প্রশ্নসহ'),
+    topics: ['important_days'],
+    subtopics: {
+      january: L('January', 'জানুয়ারি'),
+      february: L('February', 'ফেব্রুয়ারি'),
+      march: L('March', 'মার্চ'),
+      april: L('April', 'এপ্রিল'),
+      may: L('May', 'মে'),
+      june: L('June', 'জুন'),
+      july: L('July', 'জুলাই'),
+      august: L('August', 'আগস্ট'),
+      september: L('September', 'সেপ্টেম্বর'),
+      october: L('October', 'অক্টোবর'),
+      november: L('November', 'নভেম্বর'),
+      december: L('December', 'ডিসেম্বর'),
+      mixed: L('Mixed Practice', 'মিশ্র অনুশীলন'),
+    },
+  },
 ]);
 
 /** Dashboard sections: Indian GK (an umbrella over the India cards), West Bengal GK, Other. */
@@ -304,7 +328,7 @@ const FACT_TOPICS = Object.freeze(CARDS.map((c) => c.code));
 /** Question-bank chapters the GK section draws on. */
 const GK_TOPICS = Object.freeze([...new Set(CARDS.flatMap((c) => c.topics))]);
 /** Chapters added to the catalogue for GK (the rest already existed). */
-const NEW_TOPICS = Object.freeze(['indian_gk', 'computer_awareness', 'environment', 'art_culture', 'static_gk']);
+const NEW_TOPICS = Object.freeze(['indian_gk', 'computer_awareness', 'environment', 'art_culture', 'static_gk', 'important_days']);
 
 const cardOf = (code) => CARDS.find((c) => c.code === code) || null;
 /** The card a question-bank topic belongs to (`banking_awareness` → economy). */
