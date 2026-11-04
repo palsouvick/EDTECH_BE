@@ -10,6 +10,7 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 |---|---|---|---|---|---|
 | `wbcs-prelims-2022.json` | WBCS (Exe.) etc. Preliminary Examination, 2022 (Advt. 2/2022, held 19.06.2022), General Studies, **Test Booklet Series B** | https://psc.wb.gov.in/Download?param1=20240318164932_WBCS(PRELI)-2022.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202208041745_FinalWBCSKey22.pdf&param2=advertisement | **Final (revised)**, notice No. 396 CON(Q), 4 Aug 2022 | 190 of 200 |
 | `wbpsc-clerkship-2023-session-1.json` | Clerkship (Part-I) Rectt. Examination, 2023, **Session I** (Advt. 13/2023, held 16.11.2024), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20241122165221_ClerkshipS-I.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202505191629_Session-I.pdf&param2=advertisement | **Final**, notice No. 725-PSC/CON(Q), 16 May 2025 | 93 of 100 |
+| `wbcs-prelims-2024.json` | WBCS (Exe.) etc. Preliminary Examination, 2024 (Advt. 08/2024, held 14.06.2026), General Studies, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20260728155644_WBCS_P-2024-A_merged_1_compressed.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement | **Final**, notice No. 1104-PSC(CON/Q), 27 Aug 2026 | 198 of 200 |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -44,6 +45,23 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
 - **Low-confidence explanation:** WBCS Q172 (Howrah's child sex ratio, Census 2011). The key
   answer is used, but we could not confirm the exact Census figures, so the explanation gives none.
 
+### Notes on WBCS Prelims 2024 (Series A)
+
+- The official paper PDF is a merged file of all four series; **Series A is PDF pages 1–43**
+  (booklet pages A-1 to A-44 plus rough-work pages). Transcribed page by page from rendered
+  images, like the earlier papers; every answer cross-checked against the final key's
+  Series A column (machine-parsed from the key PDF and verified 200/200).
+- The 2024 paper had appeared on the PYQ page after this file's 23 Oct 2026 check, which had
+  recorded "no official paper" for it; it was imported in the 4 Nov 2026 pass.
+- Q10 and Q192 were cancelled in the final key (`*`) and skipped. No time-sensitive skips
+  were needed: the examination was held in June 2026, and dated current-affairs questions
+  pinned to events inside the question were kept.
+- A few statement/logic and classification items have no exact catalogue topic; they were
+  mapped to the closest one (mostly `reasoning/analogy`, some `quant/number_system`,
+  `reasoning/coding_decoding`). Printed quirks were kept as printed (e.g. "Anne Besant",
+  "Versailles Conferrence", "Hundai"), and Q178's options (A) and (D) are near-duplicates
+  in the printed paper itself.
+
 ### Questions skipped
 
 **WBCS Prelims 2022 (Series B)**
@@ -69,7 +87,7 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
 |---|---|---|---|
 | Miscellaneous Services Rectt. Exam (Prelim) 2023, Advt. 11/2023, held 15.09.2024 (bilingual, Series A booklet) | https://psc.wb.gov.in/Download?param1=20250831234054_MISCELLANEOUS_SERVICES_RECRUITMENT_PRELI_EXM_2023_11_2023.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202503171627_Final_Ans_Key_Miscellaneous_Preli_2023.pdf&param2=advertisement (Final, 13.03.2025) | Scanned and legible; not imported this pass (kept to 2 papers for quality) |
 | Clerkship (Part-I) 2023, Sessions II, III, IV | `…20241122165330_ClerkshipS-II.pdf`, `…20241122165426_Clerkship-III.pdf`, `…20241122165548_ClerkshipS-IV.pdf` (all `&param2=PYQP`) | Final: `…202505191630_Session-II.pdf`, `…202505191631_Session-III.pdf`, `…202505191632_Session-IV.pdf` (all `&param2=advertisement`) | Scanned; not imported this pass. Many questions repeat across sessions |
-| WBCS (Exe.) Prelims 2024 | No question paper on the PYQ page | Final key: `…202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf` | Skipped: no official paper |
+| WBCS (Exe.) Prelims 2023 | No question paper on the PYQ page (checked again 4 Nov 2026: the WBCS (Preli) row lists 2015–2019, 2021, 2022 and 2024 only) | Final key: `…202405281450_AnsWbcs2023.pdf` (verified 4 Nov 2026) | Exception approved by the user 4 Nov 2026: import from a web compilation of the paper, with every answer verified against this official final key; the file must be marked as unofficial-question-source when imported |
 | Miscellaneous Prelims 2024 | No question paper on the PYQ page | Provisional key only: `…202610051802_Provisional_AK_Miscellaneous_Preli_2024.pdf` | Skipped: no paper, and the key is provisional |
 | Clerkship 2019 (FN/AN) and `CLERKSHIP_Q_compressed.pdf` | On the PYQ page | Not identified among the listed keys | Skipped: no matching official key found |
 | WBCS Main 2023 | `…20250409145828_WBCS_Main_2023.pdf` | Keys for compulsory Papers III-VI are listed (`…ANSWERKEYOFCOMPULSORY(PAPER-III…VI)WBCS(MAIN)-2023.pdf`) | Not checked; Mains is outside the prelims-style catalogue for now |
