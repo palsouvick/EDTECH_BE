@@ -16,6 +16,7 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 | `wbcs-prelims-2019.json` | WBCS (Exe.) etc. Preliminary Examination, 2019 (Advt. 29/2018, held 09.02.2019), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133523_WBCS(P)-2019_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations, disagreements adjudicated on merits (see below) | 193 of 200 |
 | `wbcs-prelims-2018.json` | WBCS (Exe.) etc. Preliminary Examination, 2018 (held 28.01.2018), **Test Booklet Series B** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133453_WBCS(P)-2018_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations matched by question text, disagreements adjudicated on merits (see below) | 198 of 200 |
 | `wbcs-prelims-2017.json` | WBCS (Exe.) etc. Preliminary Examination, 2017 (held 29.01.2017), **Test Booklet Series D** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133424_WBCS(P)-2017_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations matched by question text, disagreements adjudicated on merits (see below) | 199 of 200 |
+| `wbcs-prelims-2016.json` | WBCS (Exe.) etc. Preliminary Examination, 2016, **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133357_WBCS(P)-2016_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers taken from one full solved compilation cross-checked question-by-question against the transcription, disagreements adjudicated on merits (see below); **the PSC scan itself is missing 6 booklet pages, so 36 questions are not imported** | 163 of 200 |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -228,6 +229,38 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   Minister, whose approval is no constitutional step at all, while the Rajya
   Sabha does figure in the process).
 
+### Notes on WBCS Prelims 2016 (Series C)
+
+- The PSC scan of this booklet is **incomplete**: it has 30 PDF pages against
+  the booklet's 36, and booklet pages C-12–C-15 and C-20–C-21 are absent, so
+  **Q.74–97 and Q.122–133 do not exist in the official scan and are not
+  imported**. (Mirrors of the paper on other sites re-host the same PSC scan
+  with the same gaps.) The remaining 164 questions were transcribed from the
+  scan; one (Q.178) was then skipped as time-sensitive, leaving 163.
+- Cross-check sources are weaker for this year than for 2017–2019 and are
+  recorded honestly: (1) the jigasha-tradition solved paper in its Bengali
+  edition (bhugolshiksha.com), a full 200-answer compilation, matched by
+  question text (English stems for the English section, the booklet's printed
+  Bengali for the rest) — 128 of 164 matched confidently; (2) wbcsmadeeasy's
+  full 2016 key sits in their forum, which is currently broken server-side
+  (403 on the whole /wbcs4all/ directory, verified 2026-11-04), and no
+  archived copy exists; their yearwise topic pages survive but carry only
+  sample questions. Compilation-vs-transcription disagreements were therefore
+  adjudicated on merits with the compilation followed wherever the
+  transcription itself was uncertain: Q16 A "on" (compilation; "prevail upon"
+  also exists), Q23 D Amiable, Q112 A pseudo dominance (the phenomenon
+  described is strictly incomplete dominance, which is not among the printed
+  options), Q137 D none of the above (the top FDI recipient of 2014-15 was
+  the composite services sector, not printed). Kept against the compilation
+  on clear merits: Q12 A Despondency (compilation: Displeasure — too weak an
+  opposite for "ecstasy") and Q175 A Rs. 1,000 (compilation: Rs. 800 — the
+  simple-interest arithmetic gives 1,000 exactly).
+- Flawed item kept with the conventional key: Q28 asks how many Finance
+  Commissions had submitted reports "so far" — by 2016 the 13th and 14th had
+  also reported, so no printed option is literally right; D (Twelve), the
+  largest option and the figure the recycled question is conventionally
+  keyed to, is kept.
+
 ### Questions skipped
 
 **WBCS Prelims 2022 (Series B)**
@@ -246,6 +279,15 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   ("causation") fit no catalogue topic.
 - Q59 (livestock telemedicine guidelines) and Q65 (Bonn International badminton title) are
   recent current-affairs items. We could not write a reliable explanation for the key's answer.
+
+**WBCS Prelims 2016 (Series C)**
+
+- Q.74–97 and Q.122–133 — not skipped on content grounds: the booklet pages
+  carrying them (C-12–C-15, C-20–C-21) are missing from the PSC's own scan,
+  so the questions were never transcribed (see the 2016 notes above).
+- Q.178 — "Who is appointed as the Vice-Chairman of NITI Aayog?", present
+  tense, no date pinned inside the question (the 2016 incumbent has since
+  changed).
 
 **WBCS Prelims 2017 (Series D)**
 
