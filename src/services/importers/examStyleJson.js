@@ -130,6 +130,12 @@ function buildSolution(content, langs) {
 const OFFICIAL_PAPER_HOSTS = [
   'wbpsc.gov.in', 'psc.wb.gov.in', 'ssc.gov.in', 'ssc.nic.in', 'ibps.in', 'sbi.co.in', 'bank.sbi', 'indiapost.gov.in', 'wbssc.gov.in', 'wbsc.gov.in',
 ];
+// Documented exception (db/pyq/SOURCES.md): WBPSC never published the WBCS
+// Prelims 2023 paper, so that one paper is imported from a compilation of the
+// booklet on the host below. Such a source is accepted ONLY when the entry
+// also carries an official answer_key_url, so every answer still comes from
+// the commission's final key. Do not add hosts here without a SOURCES.md note.
+const EXCEPTION_PAPER_HOSTS = ['files.wbcs.in'];
 const isOfficialUrl = (u) => {
   try {
     const { protocol, hostname } = new URL(u);
@@ -149,8 +155,11 @@ function pyqRef(p, index) {
   if (!p.exam_name || !Number.isInteger(p.year) || !Number.isInteger(p.question_no)) {
     return { error: `#${index}: pyq needs exam_name, year and question_no` };
   }
-  if (!isOfficialUrl(p.paper_url)) return { error: `#${index}: pyq.paper_url must be an https link on an official commission site` };
+  const paperHost = (() => { try { return new URL(p.paper_url).hostname; } catch { return ''; } })();
+  const isExceptionPaper = EXCEPTION_PAPER_HOSTS.some((h) => paperHost === h || paperHost.endsWith(`.${h}`));
+  if (!isOfficialUrl(p.paper_url) && !isExceptionPaper) return { error: `#${index}: pyq.paper_url must be an https link on an official commission site` };
   if (p.answer_key_url && !isOfficialUrl(p.answer_key_url)) return { error: `#${index}: pyq.answer_key_url must be on an official commission site` };
+  if (isExceptionPaper && !isOfficialUrl(p.answer_key_url)) return { error: `#${index}: a compilation-sourced paper must cite the official answer key` };
   const slug = (s) => String(s).toUpperCase().replace(/[^A-Z0-9]+/g, '-').replace(/^-|-$/g, '');
   const question_code = [slug(p.exam_name), p.year, p.tier && slug(p.tier), p.shift && slug(p.shift), `Q${p.question_no}`].filter(Boolean).join('-').slice(0, 80);
   return {
