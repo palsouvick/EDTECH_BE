@@ -15,6 +15,7 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 | `wbcs-prelims-2021.json` | WBCS (Exe.) etc. Preliminary Examination, 2021 (Advt. 18/2020, held 22.08.2021), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=20210825121701_WBCS.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=wbcs%20preli%2021.pdf&param2=advertisement | **Final**, notice No. 628-PSC/Con(Q), 30 Sep 2021 | 197 of 200 |
 | `wbcs-prelims-2019.json` | WBCS (Exe.) etc. Preliminary Examination, 2019 (Advt. 29/2018, held 09.02.2019), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133523_WBCS(P)-2019_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations, disagreements adjudicated on merits (see below) | 193 of 200 |
 | `wbcs-prelims-2018.json` | WBCS (Exe.) etc. Preliminary Examination, 2018 (held 28.01.2018), **Test Booklet Series B** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133453_WBCS(P)-2018_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations matched by question text, disagreements adjudicated on merits (see below) | 198 of 200 |
+| `wbcs-prelims-2017.json` | WBCS (Exe.) etc. Preliminary Examination, 2017 (held 29.01.2017), **Test Booklet Series D** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133424_WBCS(P)-2017_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations matched by question text, disagreements adjudicated on merits (see below) | 199 of 200 |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -194,6 +195,39 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   all four options are past-tense forms; A (entered) is kept as the intended answer
   (both compilations give it) and the entry's explanation says so openly.
 
+### Notes on WBCS Prelims 2017 (Series D)
+
+- Same keyless situation as 2018/2019, so the entries carry no `answer_key_url`
+  and import as `ADAPTED_PYQ`. The official scan is a clean copy. Cross-check
+  sources: (1) the jigasha.com solved paper (197 answers with texts; their page
+  omits Q122/Q162/Q181 of their own numbering entirely, and two chemistry answers
+  were recovered from the raw HTML where the bolding carried formula tags);
+  (2) the wbcsmadeeasy.in **contemporary** answer key (PDF published January
+  2017, "Answer Key WBCS 2017 Prelims Set B", 200 answers parsed from the PDF's
+  text layer by column position; the key itself disclaims that its answers are
+  the site teachers', not the PSC's). Exam date 29.01.2017 per that key.
+  Neither source follows the Series D order, so both were matched by question
+  text (for wbcsmadeeasy, by its truncated question fragments) and their answer
+  texts mapped onto the booklet's options.
+- The three-way comparison agreed outright on 144 questions and on most of the
+  rest after matcher noise was discounted. Adjudicated disagreements (final ←
+  losing source): Q1 A Mortal (jigasha "Serious"), Q12 B "that, for"
+  (wbcsmadeeasy "whom, about"), Q22 C for (wbcsmadeeasy "in"), Q28 C Turner
+  syndrome (jigasha "sub-human mammalian female" — an XO individual forms no
+  Barr body), Q48 D 11/12 (transcriptions said 9/10 from the rounded 0.9
+  density; pure ice is 0.917, and both compilations give 11/12), Q123 D Captain
+  Mohan Singh (wbcsmadeeasy's "Rashbehari Ghosh"), Q126 D gap or pass (jigasha
+  "stair" — the literal meaning; the geographical sense was followed), Q135 C
+  excessive evapo-transpiration (transcriptions said lateritic soil), Q138 C
+  10–15 June (wbcsmadeeasy 5–10 June), Q142 C Centre + WB + Jharkhand
+  (wbcsmadeeasy's loose "central government organization"), Q148 A cotton
+  (transcription said sugarcane), Q165 C Music (jigasha Currency), Q183 C more
+  barter transactions (transcription said currency transactions), Q193 B
+  approval of the Finance Minister (both transcriptions covering it said the
+  Rajya Sabha — the classic trap reading; both compilations give the Finance
+  Minister, whose approval is no constitutional step at all, while the Rajya
+  Sabha does figure in the process).
+
 ### Questions skipped
 
 **WBCS Prelims 2022 (Series B)**
@@ -212,6 +246,13 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   ("causation") fit no catalogue topic.
 - Q59 (livestock telemedicine guidelines) and Q65 (Bonn International badminton title) are
   recent current-affairs items. We could not write a reliable explanation for the key's answer.
+
+**WBCS Prelims 2017 (Series D)**
+
+- Q.61 — the 2022 Commonwealth Games' scheduled host (Durban, correct when the
+  paper was set in January 2017): Durban was stripped of the Games in March
+  2017 and they were eventually held in Birmingham, so the item's answer has
+  since become wrong — the same class as the 2019 forthcoming-venue skip.
 
 **WBCS Prelims 2018 (Series B)**
 
