@@ -12,6 +12,7 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 | `wbpsc-clerkship-2023-session-1.json` | Clerkship (Part-I) Rectt. Examination, 2023, **Session I** (Advt. 13/2023, held 16.11.2024), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20241122165221_ClerkshipS-I.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202505191629_Session-I.pdf&param2=advertisement | **Final**, notice No. 725-PSC/CON(Q), 16 May 2025 | 93 of 100 |
 | `wbcs-prelims-2024.json` | WBCS (Exe.) etc. Preliminary Examination, 2024 (Advt. 08/2024, held 14.06.2026), General Studies, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20260728155644_WBCS_P-2024-A_merged_1_compressed.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement | **Final**, notice No. 1104-PSC(CON/Q), 27 Aug 2026 | 198 of 200 |
 | `wbcs-prelims-2023.json` | WBCS (Exe.) etc. Preliminary Examination, 2023 (Advt. 01/2023, held 16.12.2023), **Test Booklet Series A** | **UNOFFICIAL compilation** of the booklet: https://files.wbcs.in/wbcs-2023-question-prelims.pdf (the Commission never published this paper — see the exception note below) | https://psc.wb.gov.in/Download?param1=202405281450_AnsWbcs2023.pdf&param2=advertisement | **Final**, notice No. 254-PSC/CON(Q), 24 May 2024 | 197 of 200 |
+| `wbcs-prelims-2021.json` | WBCS (Exe.) etc. Preliminary Examination, 2021 (Advt. 18/2020, held 22.08.2021), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=20210825121701_WBCS.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=wbcs%20preli%2021.pdf&param2=advertisement | **Final**, notice No. 628-PSC/Con(Q), 30 Sep 2021 | 197 of 200 |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -84,6 +85,27 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   stability via centre of buoyancy vs centre of gravity), Q157 (key: Dr. Rajendra Prasad as
   first individual satyagrahi; Vinoba Bhave is not among the printed options), Q184 (the
   key's answer describes baking powder, though the question prints "Baking soda").
+
+### Notes on WBCS Prelims 2021 (Series C)
+
+- The official paper PDF contains Series C only (39 PDF pages; the booklet itself says
+  40 pages). The final key's text layer splits several rows across lines, so the key was
+  reconstructed from the PDF's word coordinates and cross-checked against every row that
+  the plain text extraction kept intact (25+ rows, all agreeing); Series C answers were
+  verified 200/200 before transcription.
+- Skipped: Q66 and Q183 (cancelled, `*` in the key) and Q155 (time-sensitive — a rolling
+  "how many new Government Medical Colleges in the last ten years" count).
+- Flagged items where the key is debatable but was followed: Q16 (interrogative
+  conversion; the key picks the wh-question over the plain yes/no form), Q77 (key: the
+  NRC is "None of the above" — not a draft, bill or Act), Q195 (exclusive proposition;
+  key reads it as "Many students are not genius"), Q198 (key gives Meghna's relation to
+  the girl as Grandmother; strictly she is the girl's mother-in-law, which is not among
+  the options — noted in the entry's explanation).
+- Four transcription batches initially used a wrong letter for Q57, Q77, Q195 and Q198;
+  the parent-side programmatic check against the parsed key caught all four and the
+  entries were corrected (letters and explanations) before import. Notably Q57's key
+  (B, Sushil Chandra) is the factually correct answer for June 2021 — an early flag
+  claiming the key named a wrong person was itself a misreading.
 
 ### Questions skipped
 
