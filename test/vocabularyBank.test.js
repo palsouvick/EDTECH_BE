@@ -53,7 +53,11 @@ test('every entry passes the publish rule; exam claims only with official paper 
     assert.deepEqual(verdict.failures, [], `${row} ${entry.word}`);
     for (const r of entry.exam_relevance.filter((x) => x.basis === 'PYQ_VERIFIED')) {
       const urls = r.references.map((ref) => ref.url);
-      assert.ok(urls.every((u) => u.startsWith('https://psc.wb.gov.in/')), row);
+      // Documented exception (db/pyq/SOURCES.md): the WBCS Prelims 2023 paper was
+      // never published by the Commission, so its question text is cited from the
+      // wbcs.in compilation — allowed only alongside the official answer key.
+      const hasOfficialKey = r.references.some((ref) => /answer key/i.test(ref.title) && ref.url.startsWith('https://psc.wb.gov.in/'));
+      assert.ok(urls.every((u) => u.startsWith('https://psc.wb.gov.in/') || (hasOfficialKey && u.startsWith('https://files.wbcs.in/'))), row);
       assert.ok(r.references.some((ref) => /answer key/i.test(ref.title)), `${row} cites the answer key`);
     }
   }

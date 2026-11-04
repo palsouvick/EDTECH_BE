@@ -78,7 +78,8 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
 - Skipped: Q45 and Q105 (cancelled, `*` in the key) and Q74 (time-sensitive — an unpinned
   "highest yield of pulses per hectare" ranking that changes year to year).
 - Flagged items where the key is debatable but was followed, with the explanation worded
-  accordingly: Q122 (key records the post-Partition provinces as "East Bengal and Bengal"),
+  accordingly: Q18 (key picks "Can" as the auxiliary verb, though "Do" is also one),
+  Q122 (key records the post-Partition provinces as "East Bengal and Bengal"),
   Q126 (key: W₁ > W₂ for the flying bird in a wire cage), Q139 (key frames floating-body
   stability via centre of buoyancy vs centre of gravity), Q157 (key: Dr. Rajendra Prasad as
   first individual satyagrahi; Vinoba Bhave is not among the printed options), Q184 (the

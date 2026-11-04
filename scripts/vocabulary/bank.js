@@ -85,6 +85,9 @@ function officialPairs() {
       const word = /'([A-Za-z-]+)'/.exec(text)?.[1];
       const answer = q.content.en.options.find((o) => o.id === q.correct_option_id)?.text;
       if (!word || !answer) continue;
+      // Only single-word answers are word relations; a definition-style answer
+      // ("a state of pain, distress or grief") cannot be a synonym/antonym pair.
+      if (!/^[A-Za-z-]+$/.test(answer.trim())) continue;
       const type = /antonym|opposite/i.test(text) ? 'antonym' : 'synonym';
       const list = pairs.get(normalize(word)) || [];
       list.push({ type, answer: normalize(answer), examName: q.pyq.exam_name, year: q.pyq.year, questionNo: q.pyq.question_no, paperUrl: q.pyq.paper_url, answerKeyUrl: q.pyq.answer_key_url });

@@ -12,7 +12,11 @@ Every definition, Bengali meaning, Bengali explanation and example sentence in
 - **Exam claims:** only entries citing an official commission paper *and* its answer
   key (`examRelevance.basis = PYQ_VERIFIED`) claim to have appeared in an exam. In
   batch 1 these come from the WBPSC Clerkship 2023 (Session I) and WBCS Prelims 2022
-  papers already imported in `db/pyq/`. Every other word is original practice
+  papers already imported in `db/pyq/`. Three later entries (Vicarious, Chide,
+  Adjunct) come from WBCS Prelims 2023: the Commission never published that paper,
+  so the question text is cited from the wbcs.in compilation of the booklet while
+  the answer is verified against the official final key — the documented exception
+  in `db/pyq/SOURCES.md`. Every other word is original practice
   material (`GENERAL`).
 
 ## Automatic checks (development only)
