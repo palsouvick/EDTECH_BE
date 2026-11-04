@@ -448,4 +448,56 @@ module.exports = [
       { en: '**Two victory days.** Kargil Vijay Diwas is 26 July (1999); Vijay Diwas is 16 December (1971). The year in the stem decides which one is being asked.', bn: '**দুটি বিজয় দিবস।** কার্গিল বিজয় দিবস ২৬ জুলাই (১৯৯৯); বিজয় দিবস ১৬ ডিসেম্বর (১৯৭১)। প্রশ্নের সালই ঠিক করে কোনটি চাওয়া হচ্ছে।' },
     ],
   },
+  {
+    subject: 'gs',
+    topic: 'organisations',
+    title: { en: 'Headquarters & Organisations', bn: 'সদর দপ্তর ও সংস্থা', hi: 'मुख्यालय और संगठन' },
+    overview: {
+      en: 'This chapter is the **master headquarters table** for competitive exams: the UN and its agencies, the world financial and trade bodies, global groups, and India\'s own institutions and regulators — each with its **headquarters city, founding year and, where it matters, its current head** (verified 4 November 2026). Do not learn it as sixty isolated facts. Learn it as **city clusters** (Geneva, New York, Washington, Rome, Vienna), **institution families** (the Bretton Woods twins, the five World Bank Group members, India\'s regulators) and a short list of **exceptions** (UNEP in Nairobi, the ICJ in The Hague, IRDAI in Hyderabad). Almost every exam question is one of four shapes: a direct city, a matched pair, a founding-year match, or the present head — and the wrong options are always built from this chapter\'s own traps: founded-in vs seated-in, and last year\'s office-holder.',
+      bn: 'এই অধ্যায় প্রতিযোগিতামূলক পরীক্ষার জন্য **সদর দপ্তরের মূল তালিকা**: রাষ্ট্রসংঘ ও তার সংস্থা, বিশ্ব আর্থিক ও বাণিজ্য সংস্থা, বিশ্ব গোষ্ঠী এবং ভারতের নিজস্ব প্রতিষ্ঠান ও নিয়ন্ত্রক — প্রতিটির **সদর দপ্তরের শহর, প্রতিষ্ঠার বছর এবং যেখানে প্রাসঙ্গিক, বর্তমান প্রধান** (৪ নভেম্বর ২০২৬-এ যাচাইকৃত)। এটাকে ষাটটি বিচ্ছিন্ন তথ্য হিসেবে শেখো না। শেখো **শহরের গুচ্ছ** (জেনেভা, নিউ ইয়র্ক, ওয়াশিংটন, রোম, ভিয়েনা), **প্রতিষ্ঠান-পরিবার** (ব্রেটন উডস যমজ, বিশ্ব ব্যাংক গোষ্ঠীর পাঁচ সদস্য, ভারতের নিয়ন্ত্রকগণ) এবং ছোট্ট **ব্যতিক্রমের তালিকা** (নাইরোবিতে UNEP, হেগে আন্তর্জাতিক বিচার আদালত, হায়দরাবাদে IRDAI) হিসেবে। প্রায় প্রতিটি পরীক্ষার প্রশ্ন চার আকারের একটা: সরাসরি শহর, মেলানো জোড়, প্রতিষ্ঠার বছর মেলানো, অথবা বর্তমান প্রধান — আর ভুল বিকল্প সবসময় এই অধ্যায়ের নিজের ফাঁদ থেকেই তৈরি: প্রতিষ্ঠা বনাম আসন, আর গত বছরের পদাধিকারী।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'The UN table, by city', bn: 'শহর অনুযায়ী রাষ্ট্রসংঘের তালিকা' },
+        body: {
+          en: '- **New York:** UN (1945), UNICEF (1946), UNDP (1965)\n- **Geneva:** ILO (1919), WHO (1948), UNHCR (1950), WMO (1950), ITU (1865), WTO (1995), ICRC (1863)\n- **Paris:** UNESCO (1945) · **Rome:** FAO (1945), WFP (1961)\n- **Vienna:** IAEA (1957), UNIDO (1966) · **Nairobi:** UNEP (1972)\n- **The Hague:** ICJ · **Montreal:** ICAO (1944) · **London:** IMO (1948) · **Bern:** UPU (1874) · **Lyon:** Interpol (1923)',
+          bn: '- **নিউ ইয়র্ক:** রাষ্ট্রসংঘ (১৯৪৫), UNICEF (১৯৪৬), UNDP (১৯৬৫)\n- **জেনেভা:** ILO (১৯১৯), WHO (১৯৪৮), UNHCR (১৯৫০), WMO (১৯৫০), ITU (১৮৬৫), WTO (১৯৯৫), ICRC (১৮৬৩)\n- **প্যারিস:** UNESCO (১৯৪৫) · **রোম:** FAO (১৯৪৫), WFP (১৯৬১)\n- **ভিয়েনা:** IAEA (১৯৫৭), UNIDO (১৯৬৬) · **নাইরোবি:** UNEP (১৯৭২)\n- **হেগ:** আন্তর্জাতিক বিচার আদালত · **মন্ট্রিয়ল:** ICAO (১৯৪৪) · **লন্ডন:** IMO (১৯৪৮) · **বার্ন:** UPU (১৮৭৪) · **লিয়ঁ:** Interpol (১৯২৩)',
+        },
+      },
+      {
+        title: { en: 'World money, trade and groups table', bn: 'বিশ্ব অর্থ, বাণিজ্য ও গোষ্ঠীর তালিকা' },
+        body: {
+          en: '- **Washington DC:** IMF (1944/45) and the World Bank Group — IBRD 1944, IFC 1956, IDA 1960, ICSID 1966, MIGA 1988\n- **Geneva:** WTO (1995), successor of GATT (1948)\n- **Manila:** ADB (1966) · **Beijing:** AIIB (2016) · **Shanghai:** NDB, the BRICS bank (2015)\n- **Brussels:** NATO (1949), EU Commission · **Strasbourg:** EU Parliament plenary · **Vienna:** OPEC (founded Baghdad, 1960)\n- **Jakarta:** ASEAN (1967) · **Kathmandu:** SAARC Secretariat (1985) · **BRICS:** no headquarters',
+          bn: '- **ওয়াশিংটন ডিসি:** IMF (১৯৪৪/৪৫) ও বিশ্ব ব্যাংক গোষ্ঠী — IBRD ১৯৪৪, IFC ১৯৫৬, IDA ১৯৬০, ICSID ১৯৬৬, MIGA ১৯৮৮\n- **জেনেভা:** WTO (১৯৯৫), GATT-এর (১৯৪৮) উত্তরসূরি\n- **ম্যানিলা:** ADB (১৯৬৬) · **বেইজিং:** AIIB (২০১৬) · **সাংহাই:** NDB, ব্রিকস ব্যাংক (২০১৫)\n- **ব্রাসেলস:** NATO (১৯৪৯), EU কমিশন · **স্ত্রাসবুর্গ:** EU পার্লামেন্টের অধিবেশন · **ভিয়েনা:** OPEC (প্রতিষ্ঠা বাগদাদ, ১৯৬০)\n- **জাকার্তা:** ASEAN (১৯৬৭) · **কাঠমান্ডু:** SAARC সচিবালয় (১৯৮৫) · **BRICS:** কোনো সদর দপ্তর নেই',
+        },
+      },
+      {
+        title: { en: 'The India table', bn: 'ভারতের তালিকা' },
+        body: {
+          en: '- **Mumbai:** RBI (1935, nationalised 1949), SEBI (1988; statutory 1992), NABARD (1982)\n- **New Delhi:** UPSC (1926), Election Commission (1950), CAG, NITI Aayog (2015), DRDO (1958)\n- **Bengaluru:** ISRO (1969) · **Hyderabad:** IRDAI (1999) · **Lucknow:** SIDBI (1990)\n- **Current heads (Nov 2026):** RBI Sanjay Malhotra · CEC Gyanesh Kumar · SEBI Tuhin Kanta Pandey · ISRO V. Narayanan · UPSC Ajay Kumar',
+          bn: '- **মুম্বই:** RBI (১৯৩৫, জাতীয়করণ ১৯৪৯), SEBI (১৯৮৮; বিধিবদ্ধ ১৯৯২), NABARD (১৯৮২)\n- **নয়াদিল্লি:** UPSC (১৯২৬), নির্বাচন কমিশন (১৯৫০), CAG, নীতি আয়োগ (২০১৫), DRDO (১৯৫৮)\n- **বেঙ্গালুরু:** ISRO (১৯৬৯) · **হায়দরাবাদ:** IRDAI (১৯৯৯) · **লখনউ:** SIDBI (১৯৯০)\n- **বর্তমান প্রধান (নভেম্বর ২০২৬):** RBI সঞ্জয় মালহোত্রা · CEC জ্ঞানেশ কুমার · SEBI তুহিন কান্ত পান্ডে · ISRO ভি. নারায়ণন · UPSC অজয় কুমার',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'Two twins in Washington, seven in Geneva', bn: 'ওয়াশিংটনে দুই যমজ, জেনেভায় সাত' },
+        body: { en: 'If a headquarters question offers Washington, the answer is one of exactly two: **IMF or World Bank**. If it offers Geneva, run the seven-name cluster — **ILO, WHO, UNHCR, WMO, ITU, WTO, ICRC** — before choosing; examiners swap names inside the same city so that a "Geneva" guess alone is not enough.', bn: 'সদর দপ্তরের প্রশ্নে ওয়াশিংটন বিকল্প থাকলে উত্তর ঠিক দুটির একটি: **IMF বা বিশ্ব ব্যাংক**। জেনেভা থাকলে সাত-নামের গুচ্ছটি — **ILO, WHO, UNHCR, WMO, ITU, WTO, ICRC** — চালিয়ে তবেই বাছাই করো; পরীক্ষকেরা একই শহরের ভেতরে নাম বদলান, তাই শুধু "জেনেভা" অনুমান যথেষ্ট নয়।' },
+      },
+      {
+        title: { en: 'Read the verb: founded ≠ headquartered', bn: 'ক্রিয়াপদ পড়ো: প্রতিষ্ঠা ≠ সদর দপ্তর' },
+        body: { en: '**FAO** founded Quebec City, sits Rome. **OPEC** founded Baghdad, sits Vienna. **NATO** treaty signed Washington, sits Brussels. **Interpol** founded Vienna, sits Lyon. **RBI** began Calcutta, sits Mumbai. Underline the verb in the stem — half the traps in this chapter die there.', bn: '**FAO** প্রতিষ্ঠা কেবেক সিটিতে, আসন রোমে। **OPEC** প্রতিষ্ঠা বাগদাদে, আসন ভিয়েনায়। **NATO** চুক্তি ওয়াশিংটনে, আসন ব্রাসেলসে। **Interpol** প্রতিষ্ঠা ভিয়েনায়, আসন লিয়ঁতে। **RBI** শুরু কলকাতায়, আসন মুম্বইয়ে। প্রশ্নের ক্রিয়াপদে দাগ দাও — এই অধ্যায়ের অর্ধেক ফাঁদ সেখানেই মরে।' },
+      },
+      {
+        title: { en: 'The 1944–45 founding burst', bn: '১৯৪৪–৪৫-এর প্রতিষ্ঠা-বিস্ফোরণ' },
+        body: { en: 'World War II\'s end created most of the map in two years: **1944** Bretton Woods designs the IMF and IBRD, Chicago designs ICAO; **1945** brings the UN, UNESCO, FAO and the IMF\'s legal birth. If a founding year question clusters around the war\'s end, start from 1944–45 and adjust.', bn: 'দ্বিতীয় বিশ্বযুদ্ধের সমাপ্তি দুই বছরে মানচিত্রের বেশিরভাগ তৈরি করে: **১৯৪৪** ব্রেটন উডসে IMF ও IBRD-র নকশা, শিকাগোতে ICAO-র নকশা; **১৯৪৫**-তে রাষ্ট্রসংঘ, UNESCO, FAO ও IMF-এর আইনি জন্ম। প্রতিষ্ঠার বছরের প্রশ্ন যুদ্ধ-সমাপ্তির আশপাশে ঘুরলে ১৯৪৪–৪৫ থেকে শুরু করে মেলাও।' },
+      },
+    ],
+    common_traps: [
+      { en: '**Outdated heads in old books.** UNESCO is now Khaled El-Enany (from 15 Nov 2025), not Audrey Azoulay; RBI is Sanjay Malhotra, not Shaktikanta Das; the CEC is Gyanesh Kumar, not Rajiv Kumar; ISRO is V. Narayanan, not S. Somanath.', bn: '**পুরনো বইয়ে পুরনো প্রধান।** UNESCO এখন খালেদ এল-এনানি (১৫ নভেম্বর ২০২৫ থেকে), অদ্রে আজুলে নন; RBI সঞ্জয় মালহোত্রা, শক্তিকান্ত দাস নন; CEC জ্ঞানেশ কুমার, রাজীব কুমার নন; ISRO ভি. নারায়ণন, এস. সোমনাথ নন।' },
+      { en: '**SEBI\'s two birthdays.** Formed 1988 (non-statutory), statutory under the SEBI Act 1992. "Established" usually wants 1988; "statutory status" wants 1992. The RBI has the same shape: Act 1934, Bank 1935, nationalisation 1949.', bn: '**SEBI-র দুটি জন্মদিন।** গঠন ১৯৮৮ (অবিধিবদ্ধ), বিধিবদ্ধ মর্যাদা SEBI আইন ১৯৯২-এ। "প্রতিষ্ঠিত" বললে সাধারণত ১৯৮৮; "বিধিবদ্ধ মর্যাদা" বললে ১৯৯২। RBI-রও একই আকার: আইন ১৯৩৪, ব্যাংক ১৯৩৫, জাতীয়করণ ১৯৪৯।' },
+      { en: '**BRICS has no headquarters.** Any option seating BRICS in a capital is false; only its bank, the NDB, has a seat — Shanghai. Likewise the ICJ is the UN\'s only principal organ outside New York (The Hague).', bn: '**BRICS-এর কোনো সদর দপ্তর নেই।** BRICS-কে কোনো রাজধানীতে বসানো বিকল্প মিথ্যা; শুধু এর ব্যাংক NDB-র আসন আছে — সাংহাই। তেমনি আন্তর্জাতিক বিচার আদালত রাষ্ট্রসংঘের একমাত্র প্রধান অঙ্গ যা নিউ ইয়র্কের বাইরে (হেগ)।' },
+    ],
+  },
 ];

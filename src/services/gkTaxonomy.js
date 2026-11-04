@@ -297,6 +297,23 @@ const CARDS = Object.freeze([
       mixed: L('Mixed Practice', 'মিশ্র অনুশীলন'),
     },
   },
+  {
+    code: 'organisations',
+    section: 'india',
+    prefix: 'ORG',
+    emoji: '🏛️',
+    title: L('Headquarters & Organisations', 'সদর দপ্তর ও সংস্থা'),
+    description: L('UN agencies, world financial bodies, global groups and Indian institutions — headquarters, founding years and current heads', 'রাষ্ট্রসংঘের সংস্থা, বিশ্ব আর্থিক সংস্থা, বিশ্ব গোষ্ঠী ও ভারতীয় প্রতিষ্ঠান — সদর দপ্তর, প্রতিষ্ঠার বছর ও বর্তমান প্রধান'),
+    topics: ['organisations'],
+    subtopics: {
+      un_system: L('UN & Specialised Agencies', 'রাষ্ট্রসংঘ ও বিশেষায়িত সংস্থা'),
+      financial_bodies: L('Financial & Trade Bodies', 'আর্থিক ও বাণিজ্য সংস্থা'),
+      global_groups: L('Global Groups & Alliances', 'বিশ্ব গোষ্ঠী ও জোট'),
+      indian_bodies: L('Indian Institutions & Regulators', 'ভারতীয় প্রতিষ্ঠান ও নিয়ন্ত্রক'),
+      current_heads: L('Current Heads', 'বর্তমান প্রধানগণ'),
+      mixed: L('Mixed Practice', 'মিশ্র অনুশীলন'),
+    },
+  },
 ]);
 
 /** Dashboard sections: Indian GK (an umbrella over the India cards), West Bengal GK, Other. */
@@ -328,7 +345,7 @@ const FACT_TOPICS = Object.freeze(CARDS.map((c) => c.code));
 /** Question-bank chapters the GK section draws on. */
 const GK_TOPICS = Object.freeze([...new Set(CARDS.flatMap((c) => c.topics))]);
 /** Chapters added to the catalogue for GK (the rest already existed). */
-const NEW_TOPICS = Object.freeze(['indian_gk', 'computer_awareness', 'environment', 'art_culture', 'static_gk', 'important_days']);
+const NEW_TOPICS = Object.freeze(['indian_gk', 'computer_awareness', 'environment', 'art_culture', 'static_gk', 'important_days', 'organisations']);
 
 const cardOf = (code) => CARDS.find((c) => c.code === code) || null;
 /** The card a question-bank topic belongs to (`banking_awareness` → economy). */
