@@ -14,6 +14,7 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 | `wbcs-prelims-2023.json` | WBCS (Exe.) etc. Preliminary Examination, 2023 (Advt. 01/2023, held 16.12.2023), **Test Booklet Series A** | **UNOFFICIAL compilation** of the booklet: https://files.wbcs.in/wbcs-2023-question-prelims.pdf (the Commission never published this paper — see the exception note below) | https://psc.wb.gov.in/Download?param1=202405281450_AnsWbcs2023.pdf&param2=advertisement | **Final**, notice No. 254-PSC/CON(Q), 24 May 2024 | 197 of 200 |
 | `wbcs-prelims-2021.json` | WBCS (Exe.) etc. Preliminary Examination, 2021 (Advt. 18/2020, held 22.08.2021), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=20210825121701_WBCS.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=wbcs%20preli%2021.pdf&param2=advertisement | **Final**, notice No. 628-PSC/Con(Q), 30 Sep 2021 | 197 of 200 |
 | `wbcs-prelims-2019.json` | WBCS (Exe.) etc. Preliminary Examination, 2019 (Advt. 29/2018, held 09.02.2019), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133523_WBCS(P)-2019_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations, disagreements adjudicated on merits (see below) | 193 of 200 |
+| `wbcs-prelims-2018.json` | WBCS (Exe.) etc. Preliminary Examination, 2018 (held 28.01.2018), **Test Booklet Series B** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133453_WBCS(P)-2018_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations matched by question text, disagreements adjudicated on merits (see below) | 198 of 200 |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -146,6 +147,53 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   A (Sam Rockwell, Best Supporting Actor) is kept as the only acting-award winner
   listed, and the entry's explanation says so openly.
 
+### Notes on WBCS Prelims 2018 (Series B)
+
+- Same keyless situation as 2019 (no official key published anywhere today), so the
+  entries carry no `answer_key_url` and import as `ADAPTED_PYQ`. The official scan is
+  a **clean copy** (no candidate ticks), so the two cross-check sources were both
+  editorial compilations: (1) the jigasha.com solved paper (200 answers with texts)
+  and (2) the wbcsmadeeasy.in Set A solved paper (200 answers). Neither follows the
+  Series B order, so both were matched to the booklet **by question text**, and their
+  answer *texts* were mapped onto the booklet's options (option order also shuffles
+  between series). Exam date 28.01.2018 as reported by wbcsmadeeasy.
+- The three-way comparison (transcription + both compilations) agreed outright on
+  the large majority. Adjudicated disagreements (final ← losing source): Q8 D
+  Sculpture (wbcsmadeeasy "Rock"), Q9 A recollect (wbcsmadeeasy "Invite"), Q10 A
+  will (both transcriptions said "may"; both compilations say "will"), Q12 A takes
+  after (wbcsmadeeasy "put by"), Q18 A occasionally (wbcsmadeeasy "merrily"),
+  Q26 C Archaean granite/gneiss (wbcsmadeeasy Gondwana), Q40 B Odisha
+  (wbcsmadeeasy Karnataka), Q43 D Tipu Sultan (wbcsmadeeasy Haidar Ali), Q46 D 9
+  (one transcription's doubling pattern), Q49 A Liluah/Kanchrapara/Dum Dum
+  (wbcsmadeeasy Chittaranjan set), Q53 C North & South 24 Parganas (transcription
+  said Sundarbans), Q56 A NWAP only (transcriptions said Both — Secure Himalaya was
+  a project launch, not a released document), Q60 B (wbcsmadeeasy A), Q64 D
+  (wbcsmadeeasy B), Q70 C Northern UP (wbcsmadeeasy's foothills reading), Q99 C
+  Friday (wbcsmadeeasy Saturday; calendar arithmetic verified), Q115 A 1% (jigasha
+  says 3% — genuinely split sources; the common textbook figure kept), Q120 C IADP
+  and IAAP (transcription + wbcsmadeeasy said IADP only), Q129 D Both (one
+  transcription said poverty only), Q132 A Kolkata (a four-way split — transcriptions
+  said Kolkata+Haldia+Digha / Kolkata+Haldia, jigasha Kolkata, wbcsmadeeasy Haldia;
+  the singular "Dry Port" and jigasha's answer carried it), Q137 C Kolkata Port
+  declining (transcription said the Padma), Q138 B Wavell (jigasha Mountbatten —
+  the Breakdown Plan was Wavell's), Q142 A White (wbcsmadeeasy Black), Q145 B
+  Australia (transcription said Germany), Q146 B Kolkata (transcription said
+  Farakka), Q149 B concave lens (wbcsmadeeasy convex), Q171 A 1500%
+  (wbcsmadeeasy "none"), Q182 B Malaviya (wbcsmadeeasy Lajpat Rai — the attribution
+  is genuinely contested; the transcription and jigasha agree on Malaviya),
+  Q183 A floats as before (wbcsmadeeasy lesser immersion — the immersed fraction
+  depends only on the density ratio), Q186 B C. R. Das (wbcsmadeeasy Motilal Nehru),
+  Q190 B Pune (transcription said Belgaum — the league was launched at the Belgaum
+  conference but centred at Pune; both compilations give Pune; recorded here as the
+  most debatable call in this paper), Q192 A word (jigasha byte), Q193 D Birbal
+  (wbcsmadeeasy Todarmal), Q194 B Congress Party in 1936 (transcriptions and
+  wbcsmadeeasy said Swaraj Party; the standard polity-textbook line — Congress's
+  official demand of the mid-1930s — was followed), Q196 D Aurangzeb (wbcsmadeeasy
+  Akbar).
+- Q11 is a **flawed printed question**: "had better" takes the bare infinitive, but
+  all four options are past-tense forms; A (entered) is kept as the intended answer
+  (both compilations give it) and the entry's explanation says so openly.
+
 ### Questions skipped
 
 **WBCS Prelims 2022 (Series B)**
@@ -164,6 +212,13 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   ("causation") fit no catalogue topic.
 - Q59 (livestock telemedicine guidelines) and Q65 (Bonn International badminton title) are
   recent current-affairs items. We could not write a reliable explanation for the key's answer.
+
+**WBCS Prelims 2018 (Series B)**
+
+- Q.94 and Q.131 — time-sensitive: the then-current Secretary to the President
+  ("Who has been appointed as secretary of Indian President…", no date pinned) and
+  India's position "as per the latest FIFA rankings" (a monthly-changing rank, no
+  date pinned).
 
 **WBCS Prelims 2019 (Series C)**
 
