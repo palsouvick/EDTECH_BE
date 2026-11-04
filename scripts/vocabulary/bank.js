@@ -77,10 +77,14 @@ function loadChecks() {
  * Selfish (antonym) from WBPSC Clerkship 2023 Q12. Keyed by normalized word.
  */
 function officialPairs() {
+  const { isOfficialSource } = require('../../src/services/questionProvenance');
   const pairs = new Map();
   for (const file of fs.readdirSync(PYQ_DIR).filter((f) => f.endsWith('.json'))) {
     for (const q of JSON.parse(fs.readFileSync(path.join(PYQ_DIR, file), 'utf8'))) {
       if (q.topic_code !== 'synonyms_antonyms') continue;
+      // Only papers whose answers come from an official commission key count as
+      // official pairs; keyless papers (WBCS Prelims 2015–2019) never do.
+      if (!isOfficialSource(q.pyq?.answer_key_url)) continue;
       const text = q.content.en.question_text;
       const word = /'([A-Za-z-]+)'/.exec(text)?.[1];
       const answer = q.content.en.options.find((o) => o.id === q.correct_option_id)?.text;

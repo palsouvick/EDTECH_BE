@@ -13,6 +13,7 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 | `wbcs-prelims-2024.json` | WBCS (Exe.) etc. Preliminary Examination, 2024 (Advt. 08/2024, held 14.06.2026), General Studies, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20260728155644_WBCS_P-2024-A_merged_1_compressed.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement | **Final**, notice No. 1104-PSC(CON/Q), 27 Aug 2026 | 198 of 200 |
 | `wbcs-prelims-2023.json` | WBCS (Exe.) etc. Preliminary Examination, 2023 (Advt. 01/2023, held 16.12.2023), **Test Booklet Series A** | **UNOFFICIAL compilation** of the booklet: https://files.wbcs.in/wbcs-2023-question-prelims.pdf (the Commission never published this paper — see the exception note below) | https://psc.wb.gov.in/Download?param1=202405281450_AnsWbcs2023.pdf&param2=advertisement | **Final**, notice No. 254-PSC/CON(Q), 24 May 2024 | 197 of 200 |
 | `wbcs-prelims-2021.json` | WBCS (Exe.) etc. Preliminary Examination, 2021 (Advt. 18/2020, held 22.08.2021), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=20210825121701_WBCS.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=wbcs%20preli%2021.pdf&param2=advertisement | **Final**, notice No. 628-PSC/Con(Q), 30 Sep 2021 | 197 of 200 |
+| `wbcs-prelims-2019.json` | WBCS (Exe.) etc. Preliminary Examination, 2019 (Advt. 29/2018, held 09.02.2019), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133523_WBCS(P)-2019_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations, disagreements adjudicated on merits (see below) | 193 of 200 |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -107,6 +108,44 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   (B, Sushil Chandra) is the factually correct answer for June 2021 — an early flag
   claiming the key named a wrong person was itself a misreading.
 
+### Notes on WBCS Prelims 2019 (Series C) — the keyless-papers rule
+
+- The Commission's answer key for this paper (and for the 2015–2018 Prelims) is **not
+  published anywhere on psc.wb.gov.in today**: the answer-key archive and the full
+  What's New listing were searched entry-by-entry (checked 4 Nov 2026), web search and
+  the Wayback Machine were tried, and only unofficial coaching keys survive. This is
+  why the 2019 entries carry **no `answer_key_url`** and why the importer stamps them
+  **`ADAPTED_PYQ`, never `OFFICIAL_VERIFIED`** (a deliberate product decision, taken
+  4 Nov 2026: import the keyless years with honestly-marked provenance rather than
+  leave 2015–2019 out of the bank).
+- Answer method for keyless papers: transcribe from the official paper; take answers
+  from **two independent compilations cross-checked against each other**; where they
+  disagree, adjudicate on the merits of the printed question and log it here; where
+  neither source has an answer, decide on merits and log it. For 2019 the two sources
+  were (1) the jigasha.com editorial solved paper (Series C order; 199 of 200 answers —
+  its list skips the number 151) and (2) the pen ticks of the candidate whose used
+  booklet the official scan is (the identical scan circulates via Testbook/Careers360;
+  196 answers legible — Q98, Q105 and Q156 are double-ticked, Q151 unticked). The two
+  sources agree on 179 questions. Examrace/DoorstepTutor's text of the paper (Q1–197,
+  no answers) served as a third check on question wording.
+- Adjudicated disagreements (final answer ← losing source): Q17 B (jigasha A), Q18 B
+  (jigasha C), Q20 A (ticks B), Q24 A (jigasha B), Q34 A Terai (jigasha B Duars),
+  Q35 C (ticks D), Q53 D Rahmat Ali (ticks B), Q71 D Bodh Gaya (ticks C), Q93 C
+  (jigasha A), Q101 C (jigasha D), Q110 A (ticks D), Q143 C 355 (jigasha A),
+  Q146 B (jigasha A), Q149 D accumulates excess fat (ticks C; a first-pass A —
+  "detoxify" — was rejected: detoxification is the liver's normal function, fatty
+  accumulation is the damage mechanism, and the editorial source agrees), Q152 B
+  IPC 497 (ticks A), Q153 A (ticks B — flawed question, see below), Q179 A 1945
+  (jigasha B 1946).
+- Decided on merits with one or no usable source letter: Q98 D (jigasha only, rule
+  independently verified), Q105 C (jigasha only), Q109 C (both agree — PCA = Prompt
+  Corrective Action), Q151 A (neither source: the 123rd Amendment Bill, 2017 gave
+  constitutional status to the NCBC), Q156 C (Article 154; ticks double-marked).
+- Q153 is a **flawed printed question**: it asks who won the Academy Award for Actor
+  in a Leading Role in 2018, but the winner (Gary Oldman) is not among the options.
+  A (Sam Rockwell, Best Supporting Actor) is kept as the only acting-award winner
+  listed, and the entry's explanation says so openly.
+
 ### Questions skipped
 
 **WBCS Prelims 2022 (Series B)**
@@ -125,6 +164,16 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   ("causation") fit no catalogue topic.
 - Q59 (livestock telemedicine guidelines) and Q65 (Bonn International badminton title) are
   recent current-affairs items. We could not write a reliable explanation for the key's answer.
+
+**WBCS Prelims 2019 (Series C)**
+
+- Q.155, Q.158, Q.159, Q.160, Q.161, Q.165 and Q.172 — time-sensitive: the
+  "forthcoming" G20 venue, a "newly appointed" UNICEF Goodwill Ambassador, and the
+  then-current holders of offices (Indian Ambassador to China, IMF President,
+  President of Maldives, President of South Korea, AIMIM leader) asked in Feb 2019
+  with no date pinned inside the question. (Questions pinned to a stated date or a
+  named past event — e.g. Q.163 "in January 2019", Q.164 "till April 2019", the 2018
+  award questions Q.153/Q.154 — were kept.)
 
 ## Found but not imported (official, usable in a later pass)
 

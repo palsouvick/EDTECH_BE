@@ -163,6 +163,10 @@ function pyqRef(p, index) {
   const slug = (s) => String(s).toUpperCase().replace(/[^A-Z0-9]+/g, '-').replace(/^-|-$/g, '');
   const question_code = [slug(p.exam_name), p.year, p.tier && slug(p.tier), p.shift && slug(p.shift), `Q${p.question_no}`].filter(Boolean).join('-').slice(0, 80);
   return {
+    // Answers count as official-key-verified only when an official key is cited.
+    // A real paper whose commission key is unavailable (WBCS Prelims 2015–2019,
+    // see db/pyq/SOURCES.md) imports as ADAPTED_PYQ instead — never OFFICIAL_VERIFIED.
+    keyVerified: isOfficialUrl(p.answer_key_url),
     ref: {
       exam_name: p.exam_name,
       ...(p.tier && { tier: p.tier }),
@@ -217,10 +221,12 @@ function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {})
 
   // A real PYQ: tagged, and the official paper is cited under the explanation.
   let pyq;
+  let pyqKeyVerified = false;
   if (raw.pyq) {
     const r = pyqRef(raw.pyq, index);
     if (r.error) return { error: r.error, warnings };
     pyq = { refs: [r.ref] };
+    pyqKeyVerified = r.keyVerified;
     const label = `${r.ref.exam_name} ${r.ref.year}${r.ref.shift ? `, ${r.ref.shift}` : ''}, Q${raw.pyq.question_no}`;
     solution.steps.push(
       Object.fromEntries(langs.map((l) => [l, l === 'bn' ? `📄 আসল প্রশ্ন: ${label} · [সরকারি প্রশ্নপত্র](${r.ref.source_url})` : `📄 Previous-year question: ${label} · [Official paper](${r.ref.source_url})`])),
@@ -244,7 +250,7 @@ function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {})
       correct_option_id: optionId(raw.correct_option_id),
       solution,
       ...(pyq && { pyq }),
-      provenance: pyq ? 'OFFICIAL_VERIFIED' : 'ORIGINAL_PRACTICE',
+      provenance: pyq ? (pyqKeyVerified ? 'OFFICIAL_VERIFIED' : 'ADAPTED_PYQ') : 'ORIGINAL_PRACTICE',
       status,
       authored_by: 'import:exam-style-json',
     },
