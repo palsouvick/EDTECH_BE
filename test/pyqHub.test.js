@@ -233,3 +233,22 @@ test('GET /me/pyq-progress: solved = latest answer correct, per chapter, own ans
   assert.equal((await fetch(`${root}/me/pyq-progress?subject=gs`)).status, 401);
   assert.equal((await fetch(`${root}/me/pyq-progress?subject=x`, { headers: { 'x-user-id': 'u_pyq' } })).status, 400);
 });
+
+test('an answer still checks after the question was left open for hours (time is capped, not rejected)', async () => {
+  const { body } = await get('/pyq?year=2022&limit=1');
+  const q = body.data.questions[0];
+  for (const timeSpentSec of [4000, 86_400 * 3]) {
+    const res = await fetch(`${root}/practice/verify-answer`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ questionId: q.questionId, selectedOptionId: q.options[0].optionId, category: 'WBPSC', timeSpentSec }),
+    });
+    assert.equal(res.status, 200, `${timeSpentSec}s`);
+  }
+  const negative = await fetch(`${root}/practice/verify-answer`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ questionId: q.questionId, selectedOptionId: q.options[0].optionId, timeSpentSec: -1 }),
+  });
+  assert.equal(negative.status, 400);
+});

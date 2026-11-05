@@ -6,7 +6,6 @@
 const INSTR = {
   F: ['Fill in the blank: ', 'শূন্যস্থান পূরণ করো: '],
   C: ['Choose the correct sentence. ', 'শুদ্ধ বাক্যটি বাছো। '],
-  E: ['Find the part with an error (A, B, C, or No error): ', 'ভুল অংশটি খোঁজো (A, B, C বা No error): '],
   I: ['Identify the tense of the sentence: ', 'বাক্যটির tense চিহ্নিত করো: '],
 };
 
@@ -20,7 +19,19 @@ const mk = (type, d, s, a, w, en, bn) => ({
 const F = (d, s, a, w, en, bn) => mk('F', d, s, a, w, en, bn);
 let cn = 0;
 const C = (d, a, w, en, bn) => mk('C', d, `(Set ${++cn})`, a, w, en, bn);
-const E = (d, s, a, en, bn) => mk('E', d, s, a, ['A', 'B', 'C', 'No error'].filter((x) => x !== a), en, bn);
+// Spot the error: the sentence is split into 3 parts; the options are the parts
+// themselves plus "No error". err is the index of the faulty part, or -1.
+const E = (d, parts, err, en, bn) => {
+  const s = parts.join(' ');
+  const ans = err < 0 ? 'No error' : parts[err];
+  return {
+    d,
+    q: [`Identify the part of the sentence that contains a grammatical error:\n"${s}"`, `বাক্যটির কোন অংশে ব্যাকরণগত ভুল আছে তা চিহ্নিত করো:\n"${s}"`],
+    a: [ans, ans],
+    w: [...parts, 'No error'].filter((x) => x !== ans).map((x) => [x, x]),
+    e: [en, bn],
+  };
+};
 const I = (d, s, a, w, en, bn) => mk('I', d, s, a, w, en, bn);
 const T = (d, enq, bnq, a, w, en, bn) => ({ d, q: [enq, bnq], a: [a, a], w: w.map((x) => [x, x]), e: [en, bn] });
 
@@ -128,25 +139,25 @@ module.exports = {
       'The verb "opened" is a finished action at a past time: simple past.',
       '"Opened" অতীতের নির্দিষ্ট সময়ে শেষ হওয়া কাজ: simple past।'),
 
-    E(2, 'She (A) have completed (B) her report (C) already.', 'A',
+    E(2, ['She have completed', 'her report', 'already.'], 0,
       'With "she" the helping verb must be "has": She has completed.',
       '"She"-এর সঙ্গে helping verb হবে "has": She has completed।'),
-    E(2, 'I (A) am knowing (B) the answer (C) to this question.', 'A',
+    E(2, ['I am knowing', 'the answer', 'to this question.'], 0,
       '"Know" is a stative verb and is not used in the continuous form. Correct: I know the answer.',
       '"Know" stative verb, continuous রূপে বসে না। শুদ্ধ: I know the answer।'),
-    E(2, 'He (A) has lived (B) in Howrah (C) since ten years.', 'C',
+    E(2, ['He has lived', 'in Howrah', 'since ten years.'], 2,
       '"Since" needs a starting point. For a length of time use "for": for ten years.',
       '"Since"-এর পরে শুরুর বিন্দু বসে। সময়ের দৈর্ঘ্যে "for": for ten years।'),
-    E(2, 'We (A) went (B) to Digha (C) last summer.', 'No error',
+    E(2, ['We went', 'to Digha', 'last summer.'], -1,
       '"Last summer" is finished time and "went" is simple past, so the sentence is correct.',
       '"Last summer" শেষ হওয়া সময়, "went" simple past, তাই বাক্যটি শুদ্ধ।'),
-    E(2, 'Yesterday I (A) have met (B) my old (C) teacher.', 'A',
+    E(2, ['Yesterday I have met', 'my old', 'teacher.'], 0,
       'With "yesterday" use simple past: I met my old teacher.',
       '"Yesterday"-এর সঙ্গে simple past: I met my old teacher।'),
-    E(2, 'Did you (A) saw (B) the match (C) last night?', 'A',
+    E(2, ['Did you saw', 'the match', 'last night?'], 0,
       'After "did" the verb is in its base form: Did you see the match?',
       '"Did"-এর পরে verb মূল রূপে: Did you see the match?'),
-    E(2, '(A) Look! The train (B) comes (C) towards us.', 'B',
+    E(2, ['Look!', 'The train comes', 'towards us.'], 1,
       '"Look!" shows an action happening now: the train is coming.',
       '"Look!" এখনই ঘটছে এমন কাজ বোঝায়: the train is coming।'),
 
@@ -237,16 +248,16 @@ module.exports = {
       'will have been + V-ing is future perfect continuous.',
       'will have been + V-ing হল future perfect continuous।'),
 
-    E(3, 'I (A) was waiting (B) for you (C) since morning.', 'A',
+    E(3, ['Since morning I was waiting', 'for you', 'at the bus stop.'], 0,
       '"Since morning" needs present perfect continuous: I have been waiting for you since morning.',
       '"Since morning"-এর সঙ্গে present perfect continuous: I have been waiting for you since morning।'),
-    E(3, 'If he (A) will come (B) tomorrow, I (C) will tell him.', 'A',
+    E(3, ['If he will come', 'tomorrow,', 'I will tell him.'], 0,
       'The "if" clause takes simple present: If he comes tomorrow.',
       '"If" clause-এ simple present: If he comes tomorrow।'),
-    E(3, 'I (A) have seen (B) this film (C) three times.', 'No error',
+    E(3, ['I have seen', 'this film', 'three times.'], -1,
       'Experience up to now with present perfect: the sentence is correct.',
       'এখন পর্যন্ত অভিজ্ঞতা, present perfect: বাক্যটি শুদ্ধ।'),
-    E(3, 'While I (A) was walking (B) home, it (C) has started to rain.', 'C',
+    E(3, ['While I was walking home,', 'it has started', 'to rain.'], 1,
       'The story is in the past, so use simple past: it started to rain.',
       'গল্পটি অতীতের, তাই simple past: it started to rain।'),
 
@@ -316,31 +327,31 @@ module.exports = {
       '"By 2040" is a future deadline, so future perfect: will have + V3.',
       '"By 2040" ভবিষ্যতের সময়সীমা, তাই future perfect: will have + V3।'),
 
-    E(4, 'He (A) is having (B) three cars (C) in his garage.', 'A',
+    E(4, ['He is having', 'three cars', 'in his garage.'], 0,
       '"Have" for possession is stative: He has three cars.',
       'মালিকানা অর্থে "have" stative: He has three cars।'),
-    E(4, 'She (A) is owning (B) a small (C) bakery in Bankura.', 'A',
+    E(4, ['She is owning', 'a small bakery', 'in Bankura.'], 0,
       '"Own" is a stative verb and is not used in the continuous form: She owns a small bakery.',
       '"Own" stative verb, continuous হয় না: She owns a small bakery।'),
-    E(4, 'The meeting (A) will begin (B) when the chairman (C) will arrive.', 'C',
+    E(4, ['The meeting will begin', 'when the chairman', 'will arrive.'], 2,
       'In a "when" clause about the future use simple present: when the chairman arrives.',
       'ভবিষ্যতের "when" clause-এ simple present: when the chairman arrives।'),
-    E(5, 'No sooner (A) had he (B) reached the office (C) when the phone rang.', 'C',
+    E(5, ['No sooner had he', 'reached the office', 'when the phone rang.'], 2,
       '"No sooner" pairs with "than", not "when".',
       '"No sooner"-এর জোড়া "than", "when" নয়।'),
-    E(4, 'He (A) had (B) finished the work (C) before I came.', 'No error',
+    E(4, ['He had finished', 'the work', 'before I came.'], -1,
       'Earlier action in past perfect (had finished), later action in simple past (came): correct.',
       'আগের কাজ past perfect (had finished), পরের কাজ simple past (came): শুদ্ধ।'),
-    E(4, 'The Prime Minister (A) has addressed (B) the nation (C) last night.', 'A',
+    E(4, ['Last night the Prime Minister has addressed', 'the nation', 'on television.'], 0,
       '"Last night" is a finished time, so use simple past: addressed.',
       '"Last night" শেষ হওয়া সময়, তাই simple past: addressed।'),
-    E(4, 'I (A) have written (B) to him (C) two days ago.', 'A',
+    E(4, ['Two days ago I have written', 'to him', 'about the job.'], 0,
       '"Ago" is a finished time, so simple past: I wrote to him two days ago.',
       '"Ago" শেষ হওয়া সময়, তাই simple past: I wrote to him two days ago।'),
-    E(5, 'If he (A) would have studied (B) harder, he (C) would have passed.', 'A',
+    E(5, ['If he would have studied', 'harder,', 'he would have passed.'], 0,
       'Past unreal condition: if + past perfect (had studied), not "would have".',
       'অতীতের অবাস্তব শর্ত: if + past perfect (had studied), "would have" নয়।'),
-    E(4, 'She (A) said that she (B) had been (C) to the doctor the day before.', 'No error',
+    E(4, ['She said', 'that she had been', 'to the doctor the day before.'], -1,
       'Reported speech: "the day before" goes with past perfect (had been), so the sentence is correct.',
       'Reported speech: "the day before"-এর সঙ্গে past perfect (had been), তাই বাক্যটি শুদ্ধ।'),
   ],

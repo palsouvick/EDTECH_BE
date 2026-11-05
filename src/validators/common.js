@@ -29,4 +29,11 @@ const objectId = z.string().regex(/^[a-f\d]{24}$/i, 'must be a 24-character hex 
 
 const optionId = z.string().regex(/^opt_[a-z0-9]{4,16}$/, 'must be an option id like opt_3f9a1c2e');
 
-module.exports = { language, category, slug, objectId, optionId };
+/**
+ * Seconds a student spent on a question. A question left open for hours (a break, another tab)
+ * must never make the answer fail to save, so any non-negative time is accepted and capped for
+ * the time statistics instead of rejected.
+ */
+const timeSpent = (cap = 3600) => z.number().min(0).transform((v) => Math.min(v, cap));
+
+module.exports = { language, category, slug, objectId, optionId, timeSpent };

@@ -47,6 +47,9 @@ const T = {
   parts_of_speech: L('Parts of Speech', 'পদ প্রকরণ (Parts of Speech)', 'शब्द भेद (Parts of Speech)'),
   articles: L('Articles', 'আর্টিকেল (Articles)', 'आर्टिकल (Articles)'),
   tenses: L('Tenses', 'কাল (Tenses)', 'काल (Tenses)'),
+  voice: L('Active & Passive Voice', 'বাচ্য (Active & Passive Voice)', 'वाच्य (Active & Passive Voice)'),
+  narration: L('Direct & Indirect Speech', 'উক্তি পরিবর্তন (Direct & Indirect Speech)', 'कथन (Direct & Indirect Speech)'),
+  modals_conditionals: L('Modals & Conditionals', 'মোডাল ও শর্তবাচক বাক্য (Modals & Conditionals)', 'मोडल और शर्तवाचक वाक्य (Modals & Conditionals)'),
   reading_comprehension: L('Reading Comprehension', 'পাঠ বোধগম্যতা', 'पठन बोध'),
   error_spotting: L('Error Spotting', 'ভুল শনাক্তকরণ', 'त्रुटि पहचान'),
   sentence_improvement: L('Sentence Improvement', 'বাক্য সংশোধন', 'वाक्य सुधार'),
@@ -160,7 +163,7 @@ const REASONING = topics(
   'analogy', 'coding_decoding', 'series', 'blood_relations', 'direction_sense', 'syllogism', 'seating_arrangement',
 );
 const ENGLISH = topics(
-  'parts_of_speech', 'articles', 'tenses',
+  'parts_of_speech', 'articles', 'tenses', 'voice', 'narration', 'modals_conditionals',
   'reading_comprehension', 'error_spotting', 'sentence_improvement', 'grammar',
   'fill_blanks', 'synonyms_antonyms', 'idioms_phrases', 'one_word_substitution',
 );

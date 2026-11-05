@@ -4,7 +4,7 @@ const { Router } = require('express');
 const { z } = require('zod');
 const validate = require('../middleware/validate');
 const { verifyAnswerLimiter } = require('../middleware/rateLimiters');
-const { objectId, optionId } = require('../validators/common');
+const { objectId, optionId, timeSpent } = require('../validators/common');
 const challenge = require('../services/challenge.service');
 
 // Open to everyone; a signed-in student's first attempt of the day is saved.
@@ -19,7 +19,7 @@ router.get('/today', validate({ query: z.object({ tz }) }), async (req, res) => 
 
 const submitBody = z.object({
   tz,
-  answers: z.array(z.object({ questionId: objectId, selectedOptionId: optionId.nullable(), timeSpentSec: z.number().min(0).max(3600).optional() })).min(1).max(5),
+  answers: z.array(z.object({ questionId: objectId, selectedOptionId: optionId.nullable(), timeSpentSec: timeSpent().optional() })).min(1).max(5),
 });
 router.post('/today', verifyAnswerLimiter, validate({ body: submitBody }), async (req, res) => {
   res.set('Cache-Control', 'no-store');

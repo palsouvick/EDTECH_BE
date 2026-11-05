@@ -56,6 +56,9 @@ function validateItems(items, { english, where }) {
     if (!BN.test(it.e[1])) errors.push(`${at}: e[1] has no Bengali text`);
     if (!english) for (const o of opts) if (!BN.test(o[1]) && /[a-z]{3,}/i.test(o[1])) errors.push(`${at}: option "${o[1]}" is not Bengali`);
     if (it.q[0].length > 600 || it.e[0].length > 900) errors.push(`${at}: text too long`);
+    // Options are shuffled at seed time, so "A"/"B"/"C"/"No error" options would show as e.g.
+    // "Option B: A". Error-spotting options must be the sentence parts themselves.
+    if (opts.every((o) => /^\(?[A-D]\)?$|^no error$/i.test(o[0].trim()))) errors.push(`${at}: options are only part labels (A/B/C/No error); use the sentence parts as options`);
   });
   return errors;
 }

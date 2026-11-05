@@ -1,7 +1,7 @@
 'use strict';
 
 const { z } = require('zod');
-const { language, category, slug, objectId, optionId } = require('./common');
+const { language, category, slug, objectId, optionId, timeSpent } = require('./common');
 const { REPORT_REASONS } = require('../models/QuestionReport');
 
 const topicViewQuery = z.object({
@@ -34,7 +34,7 @@ const verifyAnswerBody = z.object({
   questionId: objectId,
   selectedOptionId: optionId,
   // Optional; feeds the average-time metric when present.
-  timeSpentSec: z.number().min(0).max(3600).optional(),
+  timeSpentSec: timeSpent().optional(),
   // The category the student is practising under; lets "My performance" link back to the topic.
   category: category.optional(),
 });

@@ -3,7 +3,7 @@
 const { Router } = require('express');
 const { z } = require('zod');
 const validate = require('../middleware/validate');
-const { slug, objectId, optionId } = require('../validators/common');
+const { slug, objectId, optionId, timeSpent } = require('../validators/common');
 const { learnQuizLimiter, verifyAnswerLimiter } = require('../middleware/rateLimiters');
 const learn = require('../services/learn.service');
 const learnProgress = require('../services/learnProgress.service');
@@ -52,7 +52,7 @@ const checkBody = z.object({
   // Issued with the quiz by POST /quiz; only that quiz's questions can be checked.
   quizToken: z.string().min(1).max(4096),
   answers: z
-    .array(z.object({ questionId: objectId, selectedOptionId: optionId.nullable(), timeSpentSec: z.number().min(0).max(3600).optional() }))
+    .array(z.object({ questionId: objectId, selectedOptionId: optionId.nullable(), timeSpentSec: timeSpent().optional() }))
     .min(1)
     .max(learn.QUIZ_SIZE)
     .refine((as) => new Set(as.map((a) => a.questionId)).size === as.length, { message: 'each questionId may appear only once' }),

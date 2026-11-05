@@ -1,7 +1,7 @@
 'use strict';
 
 const { z } = require('zod');
-const { language, category, slug, objectId, optionId } = require('./common');
+const { language, category, slug, objectId, optionId, timeSpent } = require('./common');
 
 // 20 is kept for existing clients; the CBT setup offers 10 / 25 / 50 / 100.
 const QUESTION_COUNTS = [10, 20, 25, 50, 100];
@@ -49,7 +49,7 @@ const submitSessionBody = z.object({
       z.object({
         questionId: objectId,
         selectedOptionId: optionId.nullable().default(null),
-        timeSpentSec: z.number().min(0).max(3 * 3600).default(0),
+        timeSpentSec: timeSpent(3 * 3600).default(0),
         // CBT "Marked for Review" flag, kept for the review matrix filter. Does not affect scoring.
         markedForReview: z.boolean().default(false),
       }),

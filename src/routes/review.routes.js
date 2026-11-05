@@ -5,7 +5,7 @@ const { z } = require('zod');
 const validate = require('../middleware/validate');
 const { requireAuth } = require('../middleware/auth');
 const { verifyAnswerLimiter } = require('../middleware/rateLimiters');
-const { slug, objectId, optionId } = require('../validators/common');
+const { slug, objectId, optionId, timeSpent } = require('../validators/common');
 const review = require('../services/review.service');
 
 // The revision queue and mistake notebook belong to an account.
@@ -26,7 +26,7 @@ router.get('/due', validate({ query: z.object({ tz, limit: z.coerce.number().int
   res.json({ success: true, data: await review.due(req.user.id, req.valid.query) });
 });
 
-const answerBody = z.object({ questionId: objectId, selectedOptionId: optionId, timeSpentSec: z.number().min(0).max(3600).optional() });
+const answerBody = z.object({ questionId: objectId, selectedOptionId: optionId, timeSpentSec: timeSpent().optional() });
 router.post('/answer', verifyAnswerLimiter, validate({ body: answerBody }), async (req, res) => {
   noStore(res);
   res.json({ success: true, data: await review.answer(req.user.id, req.valid.body) });
