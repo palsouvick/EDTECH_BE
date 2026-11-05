@@ -1,6 +1,7 @@
 'use strict';
 
 const { inCatalog } = require('../taxonomy');
+const { isExceptionPaperSource } = require('../questionProvenance');
 
 const crypto = require('node:crypto');
 
@@ -130,12 +131,7 @@ function buildSolution(content, langs) {
 const OFFICIAL_PAPER_HOSTS = [
   'wbpsc.gov.in', 'psc.wb.gov.in', 'ssc.gov.in', 'ssc.nic.in', 'ibps.in', 'sbi.co.in', 'bank.sbi', 'indiapost.gov.in', 'wbssc.gov.in', 'wbsc.gov.in',
 ];
-// Documented exception (db/pyq/SOURCES.md): WBPSC never published the WBCS
-// Prelims 2023 paper, so that one paper is imported from a compilation of the
-// booklet on the host below. Such a source is accepted ONLY when the entry
-// also carries an official answer_key_url, so every answer still comes from
-// the commission's final key. Do not add hosts here without a SOURCES.md note.
-const EXCEPTION_PAPER_HOSTS = ['files.wbcs.in'];
+// The documented compilation-sourced paper (WBCS 2023): see questionProvenance.js.
 const isOfficialUrl = (u) => {
   try {
     const { protocol, hostname } = new URL(u);
@@ -155,8 +151,7 @@ function pyqRef(p, index) {
   if (!p.exam_name || !Number.isInteger(p.year) || !Number.isInteger(p.question_no)) {
     return { error: `#${index}: pyq needs exam_name, year and question_no` };
   }
-  const paperHost = (() => { try { return new URL(p.paper_url).hostname; } catch { return ''; } })();
-  const isExceptionPaper = EXCEPTION_PAPER_HOSTS.some((h) => paperHost === h || paperHost.endsWith(`.${h}`));
+  const isExceptionPaper = isExceptionPaperSource(p.paper_url);
   if (!isOfficialUrl(p.paper_url) && !isExceptionPaper) return { error: `#${index}: pyq.paper_url must be an https link on an official commission site` };
   if (p.answer_key_url && !isOfficialUrl(p.answer_key_url)) return { error: `#${index}: pyq.answer_key_url must be on an official commission site` };
   if (isExceptionPaper && !isOfficialUrl(p.answer_key_url)) return { error: `#${index}: a compilation-sourced paper must cite the official answer key` };
@@ -177,6 +172,27 @@ function pyqRef(p, index) {
       ...(p.answer_key_url && { answer_key_url: p.answer_key_url }),
     },
   };
+}
+
+/**
+ * The last explanation step: where the question and its answer come from, in words that
+ * match the answer basis (questionProvenance.pyqRefBasis), so a paper the Commission never
+ * published is never called "official" and a keyless answer never looks key-verified.
+ */
+function pyqSourceLine(ref, questionNo, langs) {
+  const label = `${ref.exam_name} ${ref.year}${ref.shift ? `, ${ref.shift}` : ''}, Q${questionNo}`;
+  const line = { en: `📄 Previous-year question: ${label} · `, bn: `📄 আসল প্রশ্ন: ${label} · ` };
+  if (isExceptionPaperSource(ref.source_url)) {
+    line.en += `[Unofficial copy of the paper](${ref.source_url}) (the Commission did not publish it) · answer from the [official answer key](${ref.answer_key_url})`;
+    line.bn += `[প্রশ্নপত্রের বেসরকারি প্রতিলিপি](${ref.source_url}) (কমিশন এটি প্রকাশ করেনি) · উত্তর [সরকারি উত্তরমালা](${ref.answer_key_url}) থেকে`;
+  } else if (!ref.answer_key_url) {
+    line.en += `[Official paper](${ref.source_url}) · the Commission's answer key for this paper is not available, so this answer was cross-checked independently`;
+    line.bn += `[সরকারি প্রশ্নপত্র](${ref.source_url}) · এই প্রশ্নপত্রের সরকারি উত্তরমালা পাওয়া যায় না, তাই উত্তরটি স্বাধীনভাবে মিলিয়ে দেখা হয়েছে`;
+  } else {
+    line.en += `[Official paper](${ref.source_url})`;
+    line.bn += `[সরকারি প্রশ্নপত্র](${ref.source_url})`;
+  }
+  return Object.fromEntries(langs.map((l) => [l, l === 'bn' ? line.bn : line.en]));
 }
 
 function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {}) {
@@ -227,10 +243,7 @@ function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {})
     if (r.error) return { error: r.error, warnings };
     pyq = { refs: [r.ref] };
     pyqKeyVerified = r.keyVerified;
-    const label = `${r.ref.exam_name} ${r.ref.year}${r.ref.shift ? `, ${r.ref.shift}` : ''}, Q${raw.pyq.question_no}`;
-    solution.steps.push(
-      Object.fromEntries(langs.map((l) => [l, l === 'bn' ? `📄 আসল প্রশ্ন: ${label} · [সরকারি প্রশ্নপত্র](${r.ref.source_url})` : `📄 Previous-year question: ${label} · [Official paper](${r.ref.source_url})`])),
-    );
+    solution.steps.push(pyqSourceLine(r.ref, raw.pyq.question_no, langs));
   }
 
   return {
@@ -257,4 +270,4 @@ function convertExamStyleQuestion(raw, { status = 'PUBLISHED', index = 0 } = {})
   };
 }
 
-module.exports = { convertExamStyleQuestion, CATEGORY_MAP, SUBJECT_MAP, TOPIC_MAP };
+module.exports = { convertExamStyleQuestion, pyqSourceLine, CATEGORY_MAP, SUBJECT_MAP, TOPIC_MAP };

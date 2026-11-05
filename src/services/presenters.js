@@ -2,7 +2,7 @@
 
 const { LANGUAGES } = require('../models/constants');
 const { pickLanguage } = require('../models/schemas/localized');
-const { isVerifiedPaperRef } = require('./questionProvenance');
+const { pyqRefBasis } = require('./questionProvenance');
 const { hardPattern } = require('./hardBanks');
 const DIFFICULTY_LABELS = {
   1: { en: 'Easy', bn: 'সহজ' },
@@ -34,8 +34,8 @@ const PUBLIC_QUESTION_FIELDS =
  * instantly; stems and options are small, so this costs little.
  */
 function presentSourceCheck(q) {
-  // Official-paper questions already show their PYQ badge and answer-key source.
-  if (q.subject !== 'gs' || q.provenance === 'OFFICIAL_VERIFIED') return null;
+  // Previous-year questions show their PYQ badge, which states the answer basis instead.
+  if (q.subject !== 'gs' || q.provenance === 'OFFICIAL_VERIFIED' || presentPyqRefs(q).length) return null;
   const c = q.source_check || {};
   const status = c.status || 'SOURCE_PENDING';
   return {
@@ -44,6 +44,30 @@ function presentSourceCheck(q) {
     sourceUrl: status === 'SOURCE_VERIFIED' ? c.source_url ?? null : null,
     checkedAt: status === 'SOURCE_VERIFIED' && c.checked_at ? new Date(c.checked_at).toISOString().slice(0, 10) : null,
   };
+}
+
+/**
+ * Students see a PYQ badge only for a real paper, and the badge says how far it can be
+ * trusted (questionProvenance.pyqRefBasis): official key, or answer cross-checked because
+ * no key survives, or an unofficial copy of a paper the Commission never published.
+ * Other refs stay editor-only.
+ */
+function presentPyqRefs(q) {
+  if (!q.pyq?.is_pyq) return [];
+  return q.pyq.refs.flatMap((r) => {
+    const basis = pyqRefBasis(r, q.provenance);
+    if (!basis) return [];
+    return [{
+      examName: r.exam_name,
+      year: r.year,
+      tier: r.tier ?? null,
+      shift: r.shift ?? null,
+      questionNo: Number(/-Q(\d+)$/.exec(r.question_code || '')?.[1]) || null,
+      sourceUrl: r.source_url,
+      answerKeyUrl: basis.answerBasis === 'OFFICIAL_KEY' ? r.answer_key_url : null,
+      ...basis,
+    }];
+  });
 }
 
 function presentQuestion(q, extra = {}) {
@@ -70,11 +94,7 @@ function presentQuestion(q, extra = {}) {
     stem: compactLocalized(q.stem),
     media: (q.media || []).map((m) => ({ url: m.url, kind: m.kind, alt: compactLocalized(m.alt) })),
     options: q.options.map((o) => ({ optionId: o.oid, text: compactLocalized(o.text) })),
-    // Students see a PYQ badge only for a reference backed by the commission's own
-    // paper and answer key (see questionProvenance.js); other refs stay editor-only.
-    pyq: q.pyq?.is_pyq
-      ? q.pyq.refs.filter(isVerifiedPaperRef).map((r) => ({ examName: r.exam_name, year: r.year, tier: r.tier ?? null, shift: r.shift ?? null, sourceUrl: r.source_url }))
-      : [],
+    pyq: presentPyqRefs(q),
   };
 }
 

@@ -13,15 +13,30 @@ const OFFICIAL_HOSTS = [
   'wbsc.gov.in',
 ];
 
-function isOfficialSource(url) {
+// Documented exception (db/pyq/SOURCES.md): WBPSC never published the WBCS
+// Prelims 2023 paper, so that one paper is imported from a compilation of the
+// booklet on the host below. Such a source is accepted ONLY when the entry
+// also carries an official answer_key_url, so every answer still comes from
+// the commission's final key. Do not add hosts here without a SOURCES.md note.
+const EXCEPTION_PAPER_HOSTS = ['files.wbcs.in'];
+
+const onHost = (url, hosts) => {
   try {
     const parsed = new URL(url);
-    return parsed.protocol === 'https:' && OFFICIAL_HOSTS.some(
+    return parsed.protocol === 'https:' && hosts.some(
       (host) => parsed.hostname === host || parsed.hostname.endsWith(`.${host}`),
     );
   } catch {
     return false;
   }
+};
+
+function isOfficialSource(url) {
+  return onHost(url, OFFICIAL_HOSTS);
+}
+
+function isExceptionPaperSource(url) {
+  return onHost(url, EXCEPTION_PAPER_HOSTS);
 }
 
 /** A reference to a real paper: not synthetic, with the paper and answer key on a commission's own site. */
@@ -30,6 +45,28 @@ function isVerifiedPaperRef(ref) {
     && !/-SYN-/i.test(ref.question_code || '')
     && isOfficialSource(ref.source_url)
     && isOfficialSource(ref.answer_key_url);
+}
+
+/**
+ * How far a real-paper reference can be trusted, for the student-facing label:
+ *   answerBasis  OFFICIAL_KEY  - the answer is the commission's final key
+ *                CROSS_CHECKED - no official key survives (WBCS Prelims 2015–2019); the answer
+ *                                was cross-checked against independent compilations
+ *   paperBasis   OFFICIAL_PAPER  - the question text is from the commission's own PDF
+ *                UNOFFICIAL_COPY - the commission never published the paper (WBCS 2023)
+ * Returns null for refs students must not see as a PYQ: synthetic refs, unknown hosts,
+ * and keyless refs on questions that were not imported as ADAPTED_PYQ.
+ */
+function pyqRefBasis(ref, provenance) {
+  if (!ref || /-SYN-/i.test(ref.question_code || '')) return null;
+  const officialKey = isOfficialSource(ref.answer_key_url);
+  if (isOfficialSource(ref.source_url)) {
+    if (officialKey) return { answerBasis: 'OFFICIAL_KEY', paperBasis: 'OFFICIAL_PAPER' };
+    if (!ref.answer_key_url && provenance === 'ADAPTED_PYQ') return { answerBasis: 'CROSS_CHECKED', paperBasis: 'OFFICIAL_PAPER' };
+    return null;
+  }
+  if (isExceptionPaperSource(ref.source_url) && officialKey) return { answerBasis: 'OFFICIAL_KEY', paperBasis: 'UNOFFICIAL_COPY' };
+  return null;
 }
 
 function hasVerifiedPaperReference(question) {
@@ -56,4 +93,6 @@ function classifyLegacyQuestion(question) {
   return 'UNCLASSIFIED';
 }
 
-module.exports = { classifyLegacyQuestion, hasVerifiedPaperReference, isOfficialSource, isVerifiedPaperRef };
+module.exports = {
+  EXCEPTION_PAPER_HOSTS, classifyLegacyQuestion, hasVerifiedPaperReference, isExceptionPaperSource, isOfficialSource, isVerifiedPaperRef, pyqRefBasis,
+};

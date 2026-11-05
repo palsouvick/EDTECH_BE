@@ -97,7 +97,7 @@ test('cursor walk returns every question exactly once, in practice order', async
 test('stream payload: PYQ tier for badges, bookmark flags, no answers', async () => {
   const { body } = await api('GET', `${STREAM}&limit=20`);
   const withPyq = body.data.questions.find((q) => q.pyq.length);
-  assert.deepEqual(Object.keys(withPyq.pyq[0]).sort(), ['examName', 'shift', 'sourceUrl', 'tier', 'year']);
+  assert.deepEqual(Object.keys(withPyq.pyq[0]).sort(), ['answerBasis', 'answerKeyUrl', 'examName', 'paperBasis', 'questionNo', 'shift', 'sourceUrl', 'tier', 'year']);
   assert.equal(withPyq.pyq[0].tier, 'PRELIMS');
   assert.match(withPyq.pyq[0].sourceUrl, /^https:\/\/psc\.wb\.gov\.in\//);
   // A ref without the official paper and answer key is never shown as a PYQ.
