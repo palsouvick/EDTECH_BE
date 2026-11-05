@@ -20,6 +20,7 @@ router.use('/review', require('./review.routes'));
 router.use('/challenge', require('./challenge.routes'));
 router.use('/mock', require('./mock.routes'));
 router.use('/pyq', require('./pyq.routes'));
+router.use('/plan', require('./plan.routes'));
 router.use('/admin/vocabulary', require('./vocabularyAdmin.routes'));
 router.use('/admin', require('./admin.routes'));
 

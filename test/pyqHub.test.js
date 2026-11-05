@@ -17,6 +17,7 @@ const { importQuestionFile, PYQ_DIR } = require('../src/db/seedData');
 const { pyqRefBasis } = require('../src/services/questionProvenance');
 const { pyqSourceLine } = require('../src/services/importers/examStyleJson');
 const { relabelPyqSourceLines } = require('../scripts/relabelPyqSourceLines');
+const { buildPriorities, levelFor, clearPriorityCache } = require('../src/services/priority.service');
 
 const PAPER = 'https://psc.wb.gov.in/Download?param1=paper.pdf&param2=PYQP';
 const KEY = 'https://psc.wb.gov.in/Download?param1=key.pdf&param2=advertisement';
@@ -177,4 +178,37 @@ test('relabel script fixes an old "Official paper" line on the 2023 copy and tou
   assert.deepEqual(after.solution.steps.slice(0, last), q.solution.steps.slice(0, last));
   assert.equal(after.stats.attempts, 7, 'stats kept');
   assert.equal((await relabelPyqSourceLines({ log: () => {} })).changed, 0, 'idempotent');
+});
+
+test('priority rule: must = >=10% AND >=80% of papers; important = >=4% OR >=50% of papers', () => {
+  assert.equal(levelFor({ share: 0.1, paperShare: 0.8 }), 'MUST');
+  assert.equal(levelFor({ share: 0.3, paperShare: 0.7 }), 'IMPORTANT', 'big share but in too few papers');
+  assert.equal(levelFor({ share: 0.04, paperShare: 0.1 }), 'IMPORTANT');
+  assert.equal(levelFor({ share: 0.01, paperShare: 0.5 }), 'IMPORTANT');
+  assert.equal(levelFor({ share: 0.039, paperShare: 0.49 }), 'ADDITIONAL');
+
+  const rows = [
+    ...Array.from({ length: 9 }, (_, i) => ({ subject: 'gs', topic: 'polity', paper: `P${i % 3}` })),
+    { subject: 'gs', topic: 'economy', paper: 'P0' },
+    { subject: 'quant', topic: 'percentage', paper: 'P1' },
+  ];
+  const p = buildPriorities(rows);
+  assert.equal(p.paperCount, 3);
+  assert.equal(p.subjects.gs.total, 10);
+  assert.deepEqual(p.subjects.gs.topics.polity, { name: { en: 'Indian Polity', bn: p.subjects.gs.topics.polity.name.bn, hi: p.subjects.gs.topics.polity.name.hi }, count: 9, share: 90, papers: 3, level: 'MUST' });
+  assert.equal(p.subjects.gs.topics.economy.level, 'IMPORTANT', '10% of GS but only 1 of 3 papers');
+  assert.equal(p.subjects.quant.topics.percentage.share, 100, 'shares are within a subject');
+});
+
+test('GET /pyq/priorities counts only the PYQs students can see', async () => {
+  clearPriorityCache();
+  const res = await fetch(`${root}/pyq/priorities`);
+  const { data } = await res.json();
+  assert.equal(res.status, 200);
+  assert.equal(data.paperCount, 3, 'the hidden legacy 2020 ref is not a paper');
+  const gs = data.subjects.gs;
+  assert.equal(Object.values(gs.topics).reduce((a, t) => a + t.count, 0), gs.total);
+  assert.equal(gs.topics.indian_history.level, 'MUST');
+  assert.equal(gs.topics.polity.papers, 3);
+  assert.deepEqual(data.rule, { mustPercent: 10, mustPaperPercent: 80, importantPercent: 4, importantPaperPercent: 50 });
 });

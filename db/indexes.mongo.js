@@ -263,3 +263,6 @@ db.gk_fact_progress.createIndex({ user_id: 1, bookmarked: 1, updated_at: -1 }, {
 db.gk_daily_sets.createIndex({ user_id: 1, day: 1 }, { name: "uniq_user_gk_day", unique: true });
 
 print("indexes ensured");
+
+// --------------------------------------------------------- study_plan_progress
+db.study_plan_progress.createIndex({ user_id: 1, plan: 1 }, { name: "uniq_user_study_plan", unique: true });

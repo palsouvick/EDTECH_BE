@@ -18,6 +18,7 @@ const router = Router();
 
 const { pyqRefBasis } = require('../services/questionProvenance');
 const { subjectName, topicName } = require('../services/catalogNames');
+const { getPriorities } = require('../services/priority.service');
 
 // Real papers only: the importer marks a question from a commission paper OFFICIAL_VERIFIED
 // (official key) or ADAPTED_PYQ (official paper, key unavailable); the presenter then shows
@@ -66,6 +67,12 @@ router.get('/filters', async (_req, res) => {
     .sort((a, b) => a.name.localeCompare(b.name));
   res.set('Cache-Control', 'public, max-age=60');
   res.json({ success: true, data: { exams: list, topics: [...topics.values()].sort((a, b) => b.count - a.count) } });
+});
+
+// Chapter priority (Must know / Important / Additional) from these papers, with the rule.
+router.get('/priorities', async (_req, res) => {
+  res.set('Cache-Control', 'public, max-age=300');
+  res.json({ success: true, data: await getPriorities() });
 });
 
 const listQuery = z.object({

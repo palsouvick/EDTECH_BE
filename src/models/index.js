@@ -25,4 +25,5 @@ module.exports = {
   LearnProgress: require('./LearnProgress'),
   GkFactProgress: require('./GkFactProgress'),
   GkDailySet: require('./GkDailySet'),
+  StudyPlanProgress: require('./StudyPlanProgress'),
 };

@@ -6,6 +6,7 @@ const validate = require('../middleware/validate');
 const { requireAuth } = require('../middleware/auth');
 const { category } = require('../validators/common');
 const gk = require('../services/gk.service');
+const importantDays = require('../services/importantDays.service');
 const { CARDS, SUBTOPICS, EXAM_RELEVANCE, GK_TOPICS } = require('../services/gkTaxonomy');
 
 // Open to everyone; a signed-in student also gets their own progress and fact state.
@@ -45,6 +46,12 @@ router.get('/facts', validate({
 router.get('/facts/:code', validate({ params: z.object({ code: factCode }) }), async (req, res) => {
   personal(req, res);
   res.json({ success: true, data: await gk.getFact(req.valid.params.code, req.user?.id) });
+});
+
+// Important Days, January to December in one table, from the verified month facts.
+router.get('/important-days', async (_req, res) => {
+  res.set('Cache-Control', 'public, max-age=300, stale-while-revalidate=900');
+  res.json({ success: true, data: await importantDays.yearCalendar() });
 });
 
 router.get('/current-affairs/months', async (_req, res) => {
