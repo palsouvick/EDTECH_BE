@@ -7,6 +7,8 @@ const { requireAuth } = require('../middleware/auth');
 const { category } = require('../validators/common');
 const gk = require('../services/gk.service');
 const importantDays = require('../services/importantDays.service');
+const topicPacks = require('../services/topicPacks.service');
+const { language } = require('../validators/common');
 const { CARDS, SUBTOPICS, EXAM_RELEVANCE, GK_TOPICS } = require('../services/gkTaxonomy');
 
 // Open to everyone; a signed-in student also gets their own progress and fact state.
@@ -52,6 +54,21 @@ router.get('/facts/:code', validate({ params: z.object({ code: factCode }) }), a
 router.get('/important-days', async (_req, res) => {
   res.set('Cache-Control', 'public, max-age=300, stale-while-revalidate=900');
   res.json({ success: true, data: await importantDays.yearCalendar() });
+});
+
+// Topic packs: a chapter's knowledge map, a fact's own questions, related real PYQs.
+router.get('/cards/:card/packs', validate({ params: z.object({ card }) }), async (req, res) => {
+  res.set('Cache-Control', 'public, max-age=120');
+  const info = CARDS.find((c) => c.code === req.valid.params.card);
+  res.json({ success: true, data: { packs: await topicPacks.packsForCard(info.topics) } });
+});
+router.get('/facts/:code/questions', validate({ params: z.object({ code: factCode }), query: z.object({ language: language.default('en') }) }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await topicPacks.factQuestions(req.valid.params.code, req.valid.query.language) });
+});
+router.get('/facts/:code/pyqs', validate({ params: z.object({ code: factCode }), query: z.object({ language: language.default('en') }) }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await topicPacks.relatedPyqs(req.valid.params.code, req.valid.query.language) });
 });
 
 router.get('/current-affairs/months', async (_req, res) => {

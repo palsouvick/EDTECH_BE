@@ -43,6 +43,10 @@ const T = {
   syllogism: L('Syllogism', 'সিলোজিজম (ন্যায় অনুমান)', 'न्याय निगमन (सिलोजिज्म)'),
   seating_arrangement: L('Seating Arrangement', 'বসার বিন্যাস', 'बैठक व्यवस्था'),
   // English
+  // Foundations for a beginner (added 2026-11-05), first in the Learn order.
+  parts_of_speech: L('Parts of Speech', 'পদ প্রকরণ (Parts of Speech)', 'शब्द भेद (Parts of Speech)'),
+  articles: L('Articles', 'আর্টিকেল (Articles)', 'आर्टिकल (Articles)'),
+  tenses: L('Tenses', 'কাল (Tenses)', 'काल (Tenses)'),
   reading_comprehension: L('Reading Comprehension', 'পাঠ বোধগম্যতা', 'पठन बोध'),
   error_spotting: L('Error Spotting', 'ভুল শনাক্তকরণ', 'त्रुटि पहचान'),
   sentence_improvement: L('Sentence Improvement', 'বাক্য সংশোধন', 'वाक्य सुधार'),
@@ -156,6 +160,7 @@ const REASONING = topics(
   'analogy', 'coding_decoding', 'series', 'blood_relations', 'direction_sense', 'syllogism', 'seating_arrangement',
 );
 const ENGLISH = topics(
+  'parts_of_speech', 'articles', 'tenses',
   'reading_comprehension', 'error_spotting', 'sentence_improvement', 'grammar',
   'fill_blanks', 'synonyms_antonyms', 'idioms_phrases', 'one_word_substitution',
 );

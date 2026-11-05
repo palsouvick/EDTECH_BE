@@ -82,3 +82,35 @@ mocks, bookmarks, the mistake notebook and revision work with no extra code.
 | CHRONOLOGY | "Arrange in chronological order (earliest first):\n\n1. …\n2. …\n3. …\n4. …" | "1, 2, 3, 4" style |
 | PAIRS | "Which of the following pairs is correctly matched?" or "…is NOT correctly matched?" | 4 pairs |
 | ASSERTION_REASON | "**Assertion (A):** …\n\n**Reason (R):** …" | the 4 standard A/R options |
+
+## Topic packs: one topic, complete revision
+
+A **topic pack** is an ordinary fact (same file, code, sources, verification, questions)
+with an extra `pack` block. It gathers everything an examiner can ask about one topic: the
+four Vedas, the three Battles of Panipat, the Mauryas and Ashoka. The fact's `statement` is the
+basic explanation; its `milestones` are the timeline. The app shows a pack as a full topic page
+(`/learn/gk/topic/<code>`), and offers it as "You should also learn" on every fact whose text
+contains one of its keywords.
+
+```jsonc
+"pack": {
+  "order": 20,                                  // position in the chapter's knowledge map (ascending)
+  "must_remember": [ { "en": "...", "bn": "..." } ],          // 1–5 lines: the facts that must not be missed
+  "table": {                                    // optional comparison table
+    "caption": { "en": "...", "bn": "..." },
+    "columns": [ { "en": "Battle", "bn": "যুদ্ধ" }, ... ],
+    "rows": [ [ { "en": "...", "bn": "..." }, ... ] ]          // every row has one cell per column
+  },
+  "dont_confuse": [ { "en": "First Panipat 1526 → Babur vs Ibrahim Lodi", "bn": "..." } ],  // 0–6 lines
+  "memory_trick": { "en": "...", "bn": "..." }, // optional; only a genuine mnemonic or pattern, never a made-up fact
+  "related": ["GK-HIS-008", "GK-HIS-021"],      // codes of existing facts or packs this topic connects
+  "keywords": { "en": ["Panipat"], "bn": ["পানিপথ"] },        // words that make other facts link here
+  "pyq_terms": ["Panipat"]                      // English words used to find related real PYQs (case-insensitive)
+}
+```
+
+Rules (validator): every text has en and bn (with Bengali script); 1–5 `must_remember`; at most 6
+`dont_confuse`; each table row has as many cells as there are columns; `keywords` has at least one
+en and one bn word; `pyq_terms` are words of 3+ letters; `related` are fact codes. **Every date,
+name and claim in the table, must_remember, dont_confuse and memory_trick must be supported by the
+quoted sources**, exactly like the statement and questions.

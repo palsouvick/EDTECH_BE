@@ -19,6 +19,7 @@ const router = Router();
 const { pyqRefBasis } = require('../services/questionProvenance');
 const { subjectName, topicName } = require('../services/catalogNames');
 const { getPriorities } = require('../services/priority.service');
+const { pyqFilterFor } = require('../services/topicPacks.service');
 
 // Real papers only: the importer marks a question from a commission paper OFFICIAL_VERIFIED
 // (official key) or ADAPTED_PYQ (official paper, key unavailable); the presenter then shows
@@ -80,19 +81,26 @@ const listQuery = z.object({
   year: z.coerce.number().int().min(1990).max(2100).optional(),
   subject: z.string().trim().toLowerCase().max(40).optional(),
   topic: z.string().trim().toLowerCase().regex(/^[a-z0-9_]+$/).max(60).optional(),
+  // A GK topic pack's code: the real PYQs its terms appear in.
+  pack: z.string().regex(/^gk-[a-z]{2,4}-\d{3,5}$/i).optional(),
   language: language.default('en'),
   page: z.coerce.number().int().min(1).max(500).default(1),
   limit: z.coerce.number().int().min(1).max(20).default(10),
 });
 
 router.get('/', validate({ query: listQuery }), async (req, res) => {
-  const { exam, year, subject, topic, language: lang, page, limit } = req.valid.query;
+  const { exam, year, subject, topic, pack, language: lang, page, limit } = req.valid.query;
   const ref = { question_code: { $not: /-SYN-/ } };
   if (exam) ref.exam_name = exam;
   if (year) ref.year = year;
   const filter = { ...base, 'pyq.refs': { $elemMatch: ref }, lang_set: { $in: langSetsContaining(lang) } };
   if (subject) filter.subject = subject;
   if (topic) filter.topic = topic;
+  if (pack) {
+    const byPack = await pyqFilterFor(pack);
+    if (!byPack) return res.json({ success: true, data: { questions: [], pagination: { page, limit, total: 0, totalPages: 0 } } });
+    filter.$or = byPack.$or;
+  }
 
   // Newest paper first; within a paper, import order, which is the paper's question order.
   const [rows, total] = await Promise.all([

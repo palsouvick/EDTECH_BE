@@ -81,6 +81,9 @@ const GkFactSchema = new Schema(
       reviewed_at: { type: Date, default: null },
     },
 
+    // Topic pack (db/gk/README.md "Topic packs"): table, must-remember, don't-confuse, memory trick,
+    // related codes, keywords and PYQ search terms. Shape checked by gkFacts.validate.validatePack.
+    pack: { type: Schema.Types.Mixed, default: undefined },
     question_ids: { type: [Schema.Types.ObjectId], ref: 'Question', default: [] },
     status: { type: String, enum: FACT_STATUS, default: 'DRAFT' },
     retired_reason: { type: String, maxlength: 500 },

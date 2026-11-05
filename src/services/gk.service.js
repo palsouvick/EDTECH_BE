@@ -17,6 +17,7 @@ const { langSetsContaining } = require('../models/schemas/localized');
 const { CARDS, SECTIONS, GK_TOPICS, cardOf, cardForTopic, storedSubtopics, subtopicFor } = require('./gkTaxonomy');
 const { compactLocalized } = require('./presenters');
 const AppError = require('../utils/AppError');
+const { relatedPacksFor, clearPackCache } = require('./topicPacks.service');
 
 const BILINGUAL_SETS = langSetsContaining(['en', 'bn']);
 const COUNTS_TTL_MS = 2 * 60_000;
@@ -29,6 +30,7 @@ const OTHER = '_other'; // questions whose subtopic is not a GK subcategory
 let countsCache = { at: 0, data: null };
 function clearGkCache() {
   countsCache = { at: 0, data: null };
+  clearPackCache();
 }
 
 const bump = (obj, key, n = 1) => {
@@ -164,7 +166,22 @@ function presentState(p) {
   return { bookmarked: Boolean(p.bookmarked), status: p.status, dueAt: p.due_at ? new Date(p.due_at).toISOString() : null, lastResult: p.last_result ?? null };
 }
 
-function presentFact(f, state) {
+/** A topic pack's revision sections (absent on ordinary facts). */
+function presentPack(p) {
+  if (!p) return null;
+  const list = (xs) => (xs || []).map(compactLocalized).filter(Boolean);
+  return {
+    order: p.order ?? 0,
+    mustRemember: list(p.must_remember),
+    table: p.table ? { caption: compactLocalized(p.table.caption), columns: list(p.table.columns), rows: (p.table.rows || []).map(list) } : null,
+    dontConfuse: list(p.dont_confuse),
+    memoryTrick: compactLocalized(p.memory_trick),
+    related: p.related || [],
+    hasPyqTerms: Boolean(p.pyq_terms?.length),
+  };
+}
+
+function presentFact(f, state, relatedPacks = []) {
   return {
     id: String(f._id),
     code: f.code,
@@ -190,6 +207,9 @@ function presentFact(f, state) {
     // PENDING means the Bengali wording has not been checked by a person yet.
     bengaliReview: f.bengali_review?.status ?? 'PENDING',
     questionCount: (f.question_ids || []).length,
+    pack: presentPack(f.pack),
+    // "You should also learn": topic packs this fact connects to.
+    relatedPacks,
     ...(state !== undefined && { mine: presentState(state) }),
   };
 }
@@ -239,9 +259,9 @@ async function listFacts({ card, subtopic, q, difficulty, exam, year, month, min
     GkFact.find(filter).sort(sort).skip(offset).limit(limit).lean(),
     GkFact.countDocuments(filter),
   ]);
-  const states = await statesFor(userId, rows.map((r) => r._id));
+  const [states, related] = await Promise.all([statesFor(userId, rows.map((r) => r._id)), relatedPacksFor(rows)]);
   return {
-    facts: rows.map((f) => presentFact(f, states ? states.get(String(f._id)) ?? null : undefined)),
+    facts: rows.map((f) => presentFact(f, states ? states.get(String(f._id)) ?? null : undefined, related.get(String(f._id)))),
     pagination: { offset, limit, total, hasMore: offset + rows.length < total },
   };
 }
@@ -249,8 +269,8 @@ async function listFacts({ card, subtopic, q, difficulty, exam, year, month, min
 async function getFact(code, userId) {
   const f = await GkFact.findOne({ code: code.toUpperCase(), status: 'PUBLISHED' }).lean();
   if (!f) throw AppError.notFound('GK_FACT_NOT_FOUND', 'Fact not found');
-  const states = await statesFor(userId, [f._id]);
-  return presentFact(f, states ? states.get(String(f._id)) ?? null : undefined);
+  const [states, related] = await Promise.all([statesFor(userId, [f._id]), relatedPacksFor([f])]);
+  return presentFact(f, states ? states.get(String(f._id)) ?? null : undefined, related.get(String(f._id)));
 }
 
 /** Months that have current-affairs facts, for the month/year filter. */

@@ -46,6 +46,49 @@ function validateQuestion(q, at) {
   return errors;
 }
 
+/**
+ * The optional topic-pack block (db/gk/README.md, "Topic packs"): a fact that gathers a whole
+ * topic for one-place revision. Every text is bilingual; the table is rectangular.
+ */
+function validatePack(p) {
+  const errors = [];
+  const err = (field, code, message) => errors.push({ field: `pack.${field}`, code, message });
+  if (!p || typeof p !== 'object' || Array.isArray(p)) return [{ field: 'pack', code: 'INVALID_PACK', message: 'pack must be an object' }];
+  const loc = (v, field, max = 600) => {
+    if (!isLoc(v, max)) err(field, 'MISSING_TEXT', `${field} needs non-empty en and bn`);
+    else if (!BN.test(v.bn)) err(field, 'BENGALI_MISSING', `${field}.bn has no Bengali text`);
+  };
+  const locList = (v, field, min, max) => {
+    if (!Array.isArray(v) || v.length < min || v.length > max) err(field, 'COUNT', `${field} needs ${min}–${max} entries`);
+    else v.forEach((x, i) => loc(x, `${field}[${i}]`));
+  };
+  if (!Number.isInteger(p.order) || p.order < 0 || p.order > 1000) err('order', 'INVALID_ORDER', 'order must be an integer 0–1000');
+  locList(p.must_remember, 'must_remember', 1, 5);
+  if (p.dont_confuse != null) locList(p.dont_confuse, 'dont_confuse', 0, 6);
+  if (p.memory_trick != null) loc(p.memory_trick, 'memory_trick');
+  if (p.table != null) {
+    const { caption, columns, rows } = p.table;
+    if (caption != null) loc(caption, 'table.caption');
+    if (!Array.isArray(columns) || columns.length < 2 || columns.length > 6) err('table.columns', 'COUNT', 'a table needs 2–6 columns');
+    else columns.forEach((c, i) => loc(c, `table.columns[${i}]`, 120));
+    if (!Array.isArray(rows) || !rows.length || rows.length > 20) err('table.rows', 'COUNT', 'a table needs 1–20 rows');
+    else rows.forEach((r, i) => {
+      if (!Array.isArray(r) || r.length !== (columns || []).length) err(`table.rows[${i}]`, 'ROW_WIDTH', 'each row needs one cell per column');
+      else r.forEach((c, j) => loc(c, `table.rows[${i}][${j}]`, 400));
+    });
+  }
+  if (!Array.isArray(p.related) || !p.related.every((c) => CODE_RE.test(c))) err('related', 'INVALID_RELATED', 'related must be a list of fact codes');
+  const kw = p.keywords || {};
+  for (const l of ['en', 'bn']) {
+    if (!Array.isArray(kw[l]) || !kw[l].length || !kw[l].every((w) => isStr(w, 60))) err(`keywords.${l}`, 'INVALID_KEYWORDS', `keywords.${l} needs at least one word`);
+  }
+  if (Array.isArray(kw.bn) && !kw.bn.every((w) => BN.test(w))) err('keywords.bn', 'BENGALI_MISSING', 'Bengali keywords must be in Bengali script');
+  if (!Array.isArray(p.pyq_terms) || !p.pyq_terms.every((w) => typeof w === 'string' && /^[A-Za-z][A-Za-z .'-]{2,40}$/.test(w))) {
+    err('pyq_terms', 'INVALID_TERMS', 'pyq_terms must be English words of 3+ letters');
+  }
+  return errors;
+}
+
 /** Errors for one record. Pure: no database access. */
 function validateFact(f) {
   const errors = [];
@@ -108,6 +151,7 @@ function validateFact(f) {
   const questions = Array.isArray(f.questions) ? f.questions : [];
   if (!questions.length && !(f.linked_existing || []).length) err('questions', 'NO_QUESTIONS', 'a fact needs at least one question or one linked existing question');
   questions.forEach((q, i) => errors.push(...validateQuestion(q, `questions[${i}]`)));
+  if (f.pack != null) errors.push(...validatePack(f.pack));
   return errors;
 }
 
@@ -133,4 +177,4 @@ function validateLibrary(records) {
   return { errors };
 }
 
-module.exports = { validateFact, validateQuestion, validateLibrary };
+module.exports = { validateFact, validateQuestion, validatePack, validateLibrary };

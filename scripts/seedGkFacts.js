@@ -85,6 +85,7 @@ function factDoc(rec, { origin = 'GK_LIBRARY', by = AUTHOR } = {}) {
     reference_year: rec.reference_year ?? null,
     difficulty: rec.difficulty,
     exam_relevance: rec.exam_relevance || [],
+    ...(rec.pack && { pack: rec.pack }),
     sources: (rec.sources || []).map((s) => ({ ...s, accessed_at: day(s.accessed_at) })),
     verification: {
       status: rec.verification.status,

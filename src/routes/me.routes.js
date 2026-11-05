@@ -6,6 +6,7 @@ const validate = require('../middleware/validate');
 const { requireAuth } = require('../middleware/auth');
 const { getPerformance } = require('../services/performance.service');
 const { getInsights, getLeaderboard, setLeaderboardOptIn } = require('../services/insights.service');
+const { pyqProgress } = require('../services/pyqProgress.service');
 
 const router = Router();
 router.use(requireAuth);
@@ -32,6 +33,12 @@ router.get('/leaderboard', async (req, res) => {
 router.put('/leaderboard', validate({ body: z.object({ optIn: z.boolean() }) }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');
   res.json({ success: true, data: await setLeaderboardOptIn(req.user.id, req.valid.body.optIn) });
+});
+
+// Past-paper questions answered per chapter of a subject (the Learn ladder's PYQ step).
+router.get('/pyq-progress', validate({ query: z.object({ subject: z.enum(['quant', 'english', 'gs', 'reasoning']) }) }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await pyqProgress(req.user.id, req.valid.query.subject) });
 });
 
 module.exports = router;

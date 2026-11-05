@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
 const { createApp } = require('../src/app');
-const { Question } = require('../src/models');
+const { Question, PracticeAttempt } = require('../src/models');
 const { importQuestionFile, PYQ_DIR } = require('../src/db/seedData');
 const { pyqRefBasis } = require('../src/services/questionProvenance');
 const { pyqSourceLine } = require('../src/services/importers/examStyleJson');
@@ -211,4 +211,25 @@ test('GET /pyq/priorities counts only the PYQs students can see', async () => {
   assert.equal(gs.topics.indian_history.level, 'MUST');
   assert.equal(gs.topics.polity.papers, 3);
   assert.deepEqual(data.rule, { mustPercent: 10, mustPaperPercent: 80, importantPercent: 4, importantPaperPercent: 50 });
+});
+
+test('GET /me/pyq-progress: solved = latest answer correct, per chapter, own answers only', async () => {
+  const pyqs = await Question.find({ subject: 'gs', topic: 'polity', 'pyq.is_pyq': true, provenance: { $in: ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'] } }).select('_id').limit(3).lean();
+  const legacy = await Question.findOne({ code: 'GS-LEGACY-1' }).lean();
+  const at = (s) => new Date(Date.UTC(2026, 10, 1, 0, 0, s));
+  await PracticeAttempt.create([
+    { user_id: 'u_pyq', question_id: pyqs[0]._id, subject: 'gs', topic: 'polity', correct: false, created_at: at(1) },
+    { user_id: 'u_pyq', question_id: pyqs[0]._id, subject: 'gs', topic: 'polity', correct: true, created_at: at(2) },
+    { user_id: 'u_pyq', question_id: pyqs[1]._id, subject: 'gs', topic: 'polity', correct: true, created_at: at(3) },
+    { user_id: 'u_pyq', question_id: pyqs[1]._id, subject: 'gs', topic: 'polity', correct: false, created_at: at(4) },
+    { user_id: 'u_pyq', question_id: legacy._id, subject: 'gs', topic: 'polity', correct: true, created_at: at(5) },
+    { user_id: 'someone_else', question_id: pyqs[2]._id, subject: 'gs', topic: 'polity', correct: true, created_at: at(6) },
+  ]);
+  const get = (user) => fetch(`${root}/me/pyq-progress?subject=gs`, { headers: { 'x-user-id': user } }).then((r) => r.json());
+  const mine = (await get('u_pyq')).data.topics.polity;
+  assert.equal(mine.attempted, 2, 'the legacy (not a real paper) question is not counted');
+  assert.equal(mine.solved, 1, 'latest answer decides');
+  assert.ok(mine.total >= 3);
+  assert.equal((await fetch(`${root}/me/pyq-progress?subject=gs`)).status, 401);
+  assert.equal((await fetch(`${root}/me/pyq-progress?subject=x`, { headers: { 'x-user-id': 'u_pyq' } })).status, 400);
 });
