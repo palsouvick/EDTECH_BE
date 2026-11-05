@@ -58,7 +58,7 @@ function validateItems(items, { english, where }) {
     if (it.q[0].length > 600 || it.e[0].length > 900) errors.push(`${at}: text too long`);
     // Options are shuffled at seed time, so "A"/"B"/"C"/"No error" options would show as e.g.
     // "Option B: A". Error-spotting options must be the sentence parts themselves.
-    if (opts.every((o) => /^\(?[A-D]\)?$|^no error$/i.test(o[0].trim()))) errors.push(`${at}: options are only part labels (A/B/C/No error); use the sentence parts as options`);
+    if (opts.every((o) => /^\(?[A-D]\)?$|^no error$/i.test(o[0].trim())) && opts.some((o) => /^no error$/i.test(o[0].trim()))) errors.push(`${at}: options are only part labels (A/B/C/No error); use the sentence parts as options`);
   });
   return errors;
 }

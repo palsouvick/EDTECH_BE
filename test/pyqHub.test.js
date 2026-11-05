@@ -252,3 +252,24 @@ test('an answer still checks after the question was left open for hours (time is
   });
   assert.equal(negative.status, 400);
 });
+
+test('retire script: archives error-spotting items whose options are only part labels, nothing else', async () => {
+  const { retireLetterOptionQuestions } = require('../scripts/retireLetterOptionQuestions');
+  const mk = (code, subject, topic, texts) => ({
+    code, exam_targets: [{ category: 'WBPSC', tier: 'PRELIMS' }], subject, topic, difficulty: 2,
+    stem: { en: `Stem ${code}` }, options: texts.map((x, i) => ({ oid: `opt_${code.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 10)}${i}`, text: { en: x } })),
+    correct_option_id: `opt_${code.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 10)}0`, status: 'PUBLISHED', provenance: 'ORIGINAL_PRACTICE',
+  });
+  await Question.create([
+    mk('ENG-LETTER1', 'english', 'tenses', ['A', 'B', 'C', 'No error']),
+    mk('RSN-PEOPLE1', 'reasoning', 'analogy', ['A', 'B', 'C', 'D']),
+    mk('ENG-PARTS01', 'english', 'tenses', ['I have went', 'to Delhi', 'last year.', 'No error']),
+  ]);
+  const dry = await retireLetterOptionQuestions({ log: () => {} });
+  assert.deepEqual(dry.byTopic, { 'english.tenses': 1 });
+  assert.equal((await Question.findOne({ code: 'ENG-LETTER1' }).lean()).status, 'PUBLISHED', 'dry run writes nothing');
+  await retireLetterOptionQuestions({ apply: true, log: () => {} });
+  const after = Object.fromEntries((await Question.find({ code: { $in: ['ENG-LETTER1', 'RSN-PEOPLE1', 'ENG-PARTS01'] } }).lean()).map((q) => [q.code, q.status]));
+  assert.deepEqual(after, { 'ENG-LETTER1': 'ARCHIVED', 'RSN-PEOPLE1': 'PUBLISHED', 'ENG-PARTS01': 'PUBLISHED' });
+  assert.equal((await retireLetterOptionQuestions({ log: () => {} })).count, 0, 'idempotent');
+});
