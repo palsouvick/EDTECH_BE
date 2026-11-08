@@ -63,6 +63,28 @@ const MockSessionSchema = new Schema(
       question_aliases: { type: Boolean, default: false },
     },
 
+    // Set only on a student-built chapter test (services/customTest.service.js). Standard
+    // mocks leave it unset, which is how the two are told apart (peers, history).
+    custom: {
+      type: new Schema(
+        {
+          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup'], required: true },
+          mode: { type: String, enum: ['exam', 'practice'], required: true },
+          difficulty: { type: String, enum: ['easy', 'moderate', 'hard', 'exam', 'mixed'], required: true },
+          distribution: { type: String, enum: ['balanced', 'smart', 'mistakes'], required: true },
+          topics: { type: [String], default: [] },
+          plan: { type: [new Schema({ topic: String, count: Number, reasons: [String] }, { _id: false })], default: [] },
+          recommended_min: Number,
+          follow_up_of: { type: Schema.Types.ObjectId, default: null },
+          // Practice mode: the first answer checked for each question (qid hex -> option id).
+          // Locked once checked, so seeing the explanation cannot change the score.
+          answers: { type: Map, of: String, default: undefined },
+        },
+        { _id: false },
+      ),
+      default: undefined,
+    },
+
     questions: { type: [SessionQuestionSchema], required: true },
     // Frozen answer key, qid (hex) -> correct option id. Never selected by default.
     answer_key: { type: Map, of: String, select: false },
@@ -108,6 +130,11 @@ MockSessionSchema.index({ user_id: 1, created_at: -1 }, { name: 'user_recent' })
 MockSessionSchema.index(
   { 'config.category': 1, 'config.subject': 1, 'config.question_count': 1, submitted_at: -1 },
   { name: 'peer_cohort', partialFilterExpression: { status: 'SUBMITTED' } },
+);
+// Custom practice history: a student's chapter tests, newest first.
+MockSessionSchema.index(
+  { user_id: 1, 'config.subject': 1, submitted_at: -1 },
+  { name: 'user_custom_history', partialFilterExpression: { status: 'SUBMITTED', 'custom.mode': { $exists: true } } },
 );
 // Sweeper for abandoned sessions.
 MockSessionSchema.index(

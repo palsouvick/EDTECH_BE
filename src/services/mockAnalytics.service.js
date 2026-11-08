@@ -17,8 +17,13 @@ const round1 = (x) => Math.round(x * 10) / 10;
  */
 async function peerStanding(session) {
   const c = session.config;
+  const basisOf = { category: c.category, subject: c.subject, questionCount: c.question_count };
+  // A student-built chapter test has no comparable cohort: no percentile.
+  if (session.custom) return { available: false, peers: 0, minPeers: MIN_PEERS, basis: basisOf, custom: true };
   const peers = await MockSession.find({
     status: 'SUBMITTED',
+    // Chapter tests built by students are not the same test, so they are not peers.
+    custom: { $exists: false },
     'config.category': c.category,
     'config.subject': c.subject,
     'config.question_count': c.question_count,
@@ -91,7 +96,8 @@ async function getAnalytics(userId, sessionId) {
       .lean(),
     ExamCategory.findOne({ code: session.config.category }).select('name subjects').lean(),
     peerStanding(session),
-    cutoffsFor(session.config.category),
+    // Official cut-offs are for the full paper, not for a few chapters.
+    session.custom ? [] : cutoffsFor(session.config.category),
   ]);
   const byId = new Map(docs.map((d) => [String(d._id), d]));
 

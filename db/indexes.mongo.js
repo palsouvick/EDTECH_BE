@@ -87,6 +87,11 @@ db.exam_categories.createIndex({ "exams.code": 1 }, { name: "uniq_exam_code", un
 // ------------------------------------------------------------ mock_sessions
 // User history and the "exclude recently served questions" lookup.
 db.mock_sessions.createIndex({ user_id: 1, created_at: -1 }, { name: "user_recent" });
+// Custom practice history (student-built chapter tests), per subject, newest first.
+db.mock_sessions.createIndex(
+  { user_id: 1, "config.subject": 1, submitted_at: -1 },
+  { name: "user_custom_history", partialFilterExpression: { status: "SUBMITTED", "custom.mode": { $exists: true } } },
+);
 // Sweeper for abandoned ACTIVE sessions.
 db.mock_sessions.createIndex(
   { expires_at: 1 },

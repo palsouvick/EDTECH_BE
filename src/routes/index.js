@@ -19,6 +19,7 @@ router.use('/vocabulary', require('./vocabulary.routes'));
 router.use('/review', require('./review.routes'));
 router.use('/challenge', require('./challenge.routes'));
 router.use('/mock', require('./mock.routes'));
+router.use('/custom-tests', require('./customTest.routes'));
 router.use('/pyq', require('./pyq.routes'));
 router.use('/plan', require('./plan.routes'));
 router.use('/admin/vocabulary', require('./vocabularyAdmin.routes'));

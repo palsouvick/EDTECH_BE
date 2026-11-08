@@ -161,12 +161,34 @@ function presentConfig(c) {
   };
 }
 
+/** The custom-test settings (preset, chapters, plan) of a student-built test, or null for a standard mock. */
+function presentCustom(session) {
+  const c = session.custom;
+  if (!c) return null;
+  const answers = c.answers instanceof Map ? Object.fromEntries(c.answers) : c.answers || {};
+  return {
+    preset: c.preset,
+    mode: c.mode,
+    difficulty: c.difficulty,
+    distribution: c.distribution,
+    topics: c.topics || [],
+    plan: (c.plan || []).map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons || [] })),
+    recommendedMinutes: c.recommended_min ?? null,
+    followUpOf: c.follow_up_of ? String(c.follow_up_of) : null,
+    // Practice mode: questions already checked, by the id the live screen uses.
+    checked: Object.fromEntries(
+      Object.entries(answers).map(([qid, opt]) => [session.config.question_aliases ? mockQuestionAlias(String(session._id), qid) : qid, opt]),
+    ),
+  };
+}
+
 function presentResult(session, { alreadySubmitted = false } = {}) {
   const r = session.result;
   return {
     sessionId: String(session._id),
     status: session.status,
     alreadySubmitted,
+    custom: presentCustom(session),
     submittedAt: session.submitted_at,
     score: r.score,
     maxScore: r.max_score,
@@ -232,6 +254,14 @@ async function submitSession(userId, { sessionId, responses: submitted }) {
     throw AppError.unprocessable('UNKNOWN_QUESTION', 'Responses include questions not in this session', { unknown });
   }
   responses = responses.map((r) => ({ ...r, questionId: toQid.get(r.questionId) }));
+  // Practice-mode custom test: an answer checked during the test is final.
+  const locked = session.custom?.answers ? Object.entries(session.custom.answers) : [];
+  if (locked.length) {
+    const lockedMap = new Map(locked);
+    responses = responses.map((r) => (lockedMap.has(r.questionId) ? { ...r, selectedOptionId: lockedMap.get(r.questionId) } : r));
+    const sent = new Set(responses.map((r) => r.questionId));
+    for (const [qid, opt] of lockedMap) if (!sent.has(qid)) responses.push({ questionId: qid, selectedOptionId: opt, timeSpentSec: 0, markedForReview: false });
+  }
   if (new Set(responses.map((r) => r.questionId)).size !== responses.length) {
     throw AppError.unprocessable('DUPLICATE_RESPONSE', 'A question was answered more than once');
   }
@@ -296,10 +326,23 @@ async function getSession(userId, sessionId) {
     startedAt: session.started_at,
     expiresAt: session.expires_at,
     remainingSec: session.config.allow_pause ? null : Math.max(0, Math.floor((session.expires_at - now) / 1000)),
+    custom: presentCustom(session),
     questions: session.questions
       .map((sq) => byId.get(String(sq.qid)) && presentLiveQuestion(session, byId.get(String(sq.qid)), sq.seq))
       .filter(Boolean),
   };
 }
 
-module.exports = { createSession, submitSession, getSession, presentResult };
+module.exports = {
+  createSession,
+  submitSession,
+  getSession,
+  presentResult,
+  // Shared with the custom chapter test (services/customTest.service.js).
+  presentLiveQuestion,
+  presentConfig,
+  presentCustom,
+  recentlyServedQuestionIds,
+  shuffle,
+  deadlinePassed,
+};

@@ -265,4 +265,4 @@ async function setLeaderboardOptIn(userId, optIn) {
   return getLeaderboard(userId);
 }
 
-module.exports = { getInsights, masteryStatus, getLeaderboard, setLeaderboardOptIn, displayName, BADGES };
+module.exports = { getInsights, masteryStatus, getLeaderboard, setLeaderboardOptIn, displayName, BADGES, answersOf, buildMastery, patternName };
