@@ -23,7 +23,8 @@ const { tagAll } = require('../src/services/patternTagger');
 const { validatePatterns } = require('../db/patterns/validate');
 const { generateBank, validateQuestion, makeOptions, KINDS, bnOf, clean, cents, ex } = require('../scripts/generators/hard/framework');
 const { bisect } = require('../scripts/generators/hard/solvers/util');
-const { ensureHardBanks, ensureHardBank, AUTHOR, TARGET_PER_CHAPTER } = require('../scripts/seedHardBanks');
+const { ensureHardBanks, ensureHardBank, AUTHOR, TARGET_PER_CHAPTER, TARGET_BY_TOPIC } = require('../scripts/seedHardBanks');
+const targetFor = (topic) => TARGET_BY_TOPIC[topic] ?? TARGET_PER_CHAPTER;
 const { convertExamStyleQuestion } = require('../src/services/importers/examStyleJson');
 const samples = require('../db/seed/pyq-sample-25.json');
 
@@ -213,7 +214,7 @@ test('API: Advanced comes only from the Hard bank and never borrows', async (t) 
     ...general('ages', 4, 4, 'ages-hard'),
   ]);
   const seeded = await ensureHardBanks();
-  assert.deepEqual(seeded.map((r) => [r.topic, r.total]), TOPICS.map((t2) => [t2, TARGET_PER_CHAPTER]));
+  assert.deepEqual(seeded.map((r) => [r.topic, r.total]), TOPICS.map((t2) => [t2, targetFor(t2)]));
   assert.deepEqual((await ensureHardBanks()).map((r) => r.inserted), [0, 0, 0, 0, 0], 'top-up is idempotent');
   clearLearnCache();
   server = createApp().listen(0);
@@ -221,7 +222,7 @@ test('API: Advanced comes only from the Hard bank and never borrows', async (t) 
 
   const chapter = (await call('/subjects/quant/chapters/percentage')).body.data;
   const adv = chapter.levels.find((l) => l.level === 'advanced');
-  assert.deepEqual([adv.source, adv.borrowed, adv.count, adv.timed], ['hard_bank', false, TARGET_PER_CHAPTER, true]);
+  assert.deepEqual([adv.source, adv.borrowed, adv.count, adv.timed], ['hard_bank', false, targetFor('percentage'), true]);
   const inter = chapter.levels.find((l) => l.level === 'intermediate');
   assert.equal(inter.count, 30, 'bank questions are not counted at Intermediate');
 
@@ -277,6 +278,6 @@ test('API: Advanced comes only from the Hard bank and never borrows', async (t) 
   // The startup pattern tagger keeps each bank question's matrix pattern.
   const before = await Question.countDocuments({ authored_by: AUTHOR, pattern: { $in: HARD_BANKS.percentage.ids } });
   await tagAll();
-  assert.equal(await Question.countDocuments({ authored_by: AUTHOR, topic: 'percentage', pattern: { $in: HARD_BANKS.percentage.ids } }), TARGET_PER_CHAPTER);
-  assert.ok(before >= TARGET_PER_CHAPTER);
+  assert.equal(await Question.countDocuments({ authored_by: AUTHOR, topic: 'percentage', pattern: { $in: HARD_BANKS.percentage.ids } }), targetFor('percentage'));
+  assert.ok(before >= targetFor('percentage'));
 });

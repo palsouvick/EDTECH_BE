@@ -32,12 +32,21 @@ module.exports = [
   },
   {
     id: 'pct_expenditure_consumption', difficulty: 3, band: 'medium_hard', clerkship: true,
-    skills: ['reverse', 'trap'], variants: ['same_spend', 'limited_rise'],
+    skills: ['reverse', 'trap'], variants: ['same_spend', 'limited_rise', 'price_fall'],
     concepts: ['price_consumption', 'expenditure'],
-    generationRule: 'A price rises; expenditure must stay the same or rise by less; ask the cut in consumption.',
+    generationRule: 'A price rises and expenditure must stay the same or rise by less, so consumption is cut; or a price falls with expenditure unchanged, so consumption can rise.',
     solutionMethod: 'Expenditure = price × consumption, so new consumption = new spend ÷ new price.',
     hardBecause: 'The cut is not equal to the rise; it is measured on the new price.',
     name: t('Price rise and consumption cut', 'দাম বৃদ্ধি ও ব্যবহার কমানো'),
+  },
+  {
+    id: 'pct_price_change_quantity', difficulty: 4, band: 'hard', clerkship: true,
+    skills: ['reverse', 'multi_step'], variants: ['fall_more', 'rise_less'],
+    concepts: ['price_consumption', 'reverse_percentage'],
+    generationRule: 'A price falls (or rises) by r%; for a fixed sum a buyer now gets some kg more (or less) than before; find the original price per kg.',
+    solutionMethod: 'For a fixed sum, quantity is inverse to price: the change in quantity is r/(100 ∓ r) of the old quantity, which recovers the old quantity; the sum divided by it is the original price.',
+    hardBecause: 'The original price is never stated and must be recovered from the change in quantity; answering with the new price is the trap.',
+    name: t('Original price from the change in quantity', 'পরিমাণের পরিবর্তন থেকে আসল দাম'),
   },
   {
     id: 'pct_reverse_successive', difficulty: 4, band: 'hard', clerkship: true,

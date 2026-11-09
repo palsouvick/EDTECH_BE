@@ -15,7 +15,10 @@ const f = (r) => 1 + r / 100;
 
 // Price rises whose matching consumption cut is exact to two decimals (25 -> 20, 60 -> 37.5, ...).
 const CLEAN_RISES = Array.from({ length: 300 }, (_, i) => i + 1).filter((a) => clean((a / (100 + a)) * 100));
+// Price falls whose matching consumption rise is exact to two decimals (20 -> 25, 50 -> 100, ...).
+const CLEAN_FALLS = Array.from({ length: 80 }, (_, i) => i + 1).filter((a) => clean((a / (100 - a)) * 100));
 const GOODS = [T('sugar', 'চিনি'), T('rice', 'চাল'), T('petrol', 'পেট্রোল'), T('mustard oil', 'সরষের তেল'), T('milk', 'দুধ')];
+const KG_GOODS = [T('sugar', 'চিনি'), T('rice', 'চাল'), T('wheat', 'গম')];
 
 const gens = {
   pct_three_step_net() {
@@ -94,8 +97,27 @@ const gens = {
   },
 
   pct_expenditure_consumption() {
-    const variant = pick(['same_spend', 'limited_rise']);
+    const variant = pick(['same_spend', 'limited_rise', 'price_fall']);
     const good = pick(GOODS);
+    if (variant === 'price_fall') {
+      const a = pick(CLEAN_FALLS);
+      const ans = (a / (100 - a)) * 100;
+      return q({
+        id: 'pct_expenditure_consumption', variant, kind: 'percent', answer: ans, given: { a },
+        stem: T(`The price of ${good.en} falls by ${a}%. By what percent can a family increase its consumption of ${good.en} so that its expenditure on it does not change?`,
+          `${bnOf(good)} দাম ${a}% কমেছে। এর জন্য খরচ একই রাখতে একটি পরিবার ${bnOf(good)} ব্যবহার শতকরা কত বাড়াতে পারে?`),
+        hints: [
+          [a, 'The rise in consumption is not equal to the fall: it is measured on the reduced price.', 'ব্যবহার বৃদ্ধি দাম কমার সমান নয়: তা কমে যাওয়া দামের উপর মাপা হয়।'],
+          [(a / (100 + a)) * 100, 'Used (100 + fall) as the base — that is the price-rise formula.', '(100 + হ্রাস)-কে ভিত্তি ধরা হয়েছে — এটি দাম বাড়ার সূত্র।'],
+        ],
+        steps: [
+          T('Let price = 100 and consumption = 100, so expenditure = 10000.', 'দাম = 100 ও ব্যবহার = 100 ধরি, তাহলে খরচ = 10000।'),
+          T(`New price = ${100 - a}; to keep expenditure 10000, consumption = 10000 ÷ ${100 - a} = ${ex(10000 / (100 - a))}.`, `নতুন দাম = ${100 - a}; খরচ 10000 রাখতে ব্যবহার = 10000 ÷ ${100 - a} = ${ex(10000 / (100 - a))}।`),
+          T(`Increase = ${ex(10000 / (100 - a) - 100)} on 100, i.e. ${ex(ans)}%.`, `বৃদ্ধি = 100-এর মধ্যে ${ex(10000 / (100 - a) - 100)}, অর্থাৎ ${ex(ans)}%।`),
+        ],
+        shortcut: T('Rise in consumption = fall ÷ (100 − fall) × 100.', 'ব্যবহার বৃদ্ধি = হ্রাস ÷ (100 − হ্রাস) × 100।'),
+      });
+    }
     if (variant === 'same_spend') {
       const a = pick(CLEAN_RISES);
       const ans = (a / (100 + a)) * 100;
@@ -134,6 +156,52 @@ const gens = {
         T(`Cut = 100 − ${ex((100 * (100 + b)) / (100 + a))} = ${ex(ans)}%.`, `কমানো = 100 − ${ex((100 * (100 + b)) / (100 + a))} = ${ex(ans)}%।`),
       ],
       shortcut: T('Cut % = (price rise − spending rise) ÷ (100 + price rise) × 100.', 'কমানোর % = (দাম বৃদ্ধি − খরচ বৃদ্ধি) ÷ (100 + দাম বৃদ্ধি) × 100।'),
+    });
+  },
+
+  pct_price_change_quantity() {
+    const variant = pick(['fall_more', 'rise_less']);
+    const good = pick(KG_GOODS);
+    const r = pick([10, 20, 25, 40, 50, 60, 75, 80]);
+    const P = pick([12, 15, 16, 20, 24, 25, 30, 32, 36, 40, 45, 48, 50, 60]);
+    const k = ri(4, 24); // kg bought for the sum at the original price
+    const extra = variant === 'fall_more' ? (k * r) / (100 - r) : (k * r) / (100 + r);
+    if (!clean(extra) || extra < 1 || extra > 3 * k) return null;
+    const M = P * k;
+    const newPrice = variant === 'fall_more' ? (P * (100 - r)) / 100 : (P * (100 + r)) / 100;
+    if (variant === 'fall_more') {
+      return q({
+        id: 'pct_price_change_quantity', variant, kind: 'money', answer: P, given: { r, M, extra },
+        stem: T(`The price of ${good.en} falls by ${r}%. A man can now buy ${ex(extra)} kg more ${good.en} than before for ₹${M}. What was the original price of ${good.en} per kg?`,
+          `${bnOf(good)} দাম ${r}% কমে গেছে। এখন এক ব্যক্তি ₹${M} টাকায় আগের চেয়ে ${ex(extra)} কেজি বেশি ${bnOf(good)} কিনতে পারেন। ${bnOf(good)} আসল দাম কেজি প্রতি কত ছিল?`),
+        hints: [
+          [newPrice, 'This is the reduced price per kg, not the original price.', 'এটি কমে যাওয়ার পরের দাম, আসল দাম নয়।'],
+          [(M * r) / ((100 + r) * extra), 'Used (100 + fall) in place of (100 − fall) when recovering the original price.', 'আসল দাম বের করতে (100 − হ্রাস)-এর বদলে (100 + হ্রাস) ব্যবহার করা হয়েছে।'],
+          [M / extra, 'Divided the whole sum by just the extra quantity; the sum also bought the old quantity.', 'পুরো টাকাকে শুধু অতিরিক্ত পরিমাণ দিয়ে ভাগ করা হয়েছে; ওই টাকায় পুরনো পরিমাণও কেনা হয়েছিল।'],
+        ],
+        steps: [
+          T(`Take the original price as 100 per kg; after a ${r}% fall the price is ${100 - r} per kg.`, `আসল দাম কেজি প্রতি 100 ধরি; ${r}% কমার পর দাম হয় ${100 - r}।`),
+          T(`For the same sum, quantity is inversely proportional to price, so the extra quantity is ${r}/${100 - r} of the old quantity.`, `একই টাকায় পরিমাণ দামের ব্যস্তানুপাতিক, তাই অতিরিক্ত পরিমাণ পুরনো পরিমাণের ${r}/${100 - r} অংশ।`),
+          T(`Old quantity = ${ex(extra)} × ${100 - r} ÷ ${r} = ${k} kg, so the original price = ₹${M} ÷ ${k} = ₹${P} per kg.`, `পুরনো পরিমাণ = ${ex(extra)} × ${100 - r} ÷ ${r} = ${k} কেজি, তাই আসল দাম = ₹${M} ÷ ${k} = কেজি প্রতি ₹${P}।`),
+        ],
+        shortcut: T('Original price = sum × r ÷ ((100 − r) × extra kg) after a fall.', 'দাম কমলে আসল দাম = টাকা × হ্রাস ÷ ((100 − হ্রাস) × অতিরিক্ত কেজি)।'),
+      });
+    }
+    return q({
+      id: 'pct_price_change_quantity', variant, kind: 'money', answer: P, given: { r, M, extra },
+      stem: T(`The price of ${good.en} rises by ${r}%. A man can now buy ${ex(extra)} kg less ${good.en} than before for ₹${M}. What was the original price of ${good.en} per kg?`,
+        `${bnOf(good)} দাম ${r}% বেড়ে গেছে। এখন এক ব্যক্তি ₹${M} টাকায় আগের চেয়ে ${ex(extra)} কেজি কম ${bnOf(good)} কিনতে পারেন। ${bnOf(good)} আসল দাম কেজি প্রতি কত ছিল?`),
+      hints: [
+        [newPrice, 'This is the increased price per kg, not the original price.', 'এটি বেড়ে যাওয়ার পরের দাম, আসল দাম নয়।'],
+        [(M * r) / ((100 - r) * extra), 'Used (100 − rise) in place of (100 + rise) when recovering the original price.', 'আসল দাম বের করতে (100 + বৃদ্ধি)-এর বদলে (100 − বৃদ্ধি) ব্যবহার করা হয়েছে।'],
+        [M / extra, 'Divided the whole sum by just the missing quantity; the sum also bought the remaining quantity.', 'পুরো টাকাকে শুধু কমে যাওয়া পরিমাণ দিয়ে ভাগ করা হয়েছে; ওই টাকায় বাকি পরিমাণও কেনা হয়েছিল।'],
+      ],
+      steps: [
+        T(`Take the original price as 100 per kg; after a ${r}% rise the price is ${100 + r} per kg.`, `আসল দাম কেজি প্রতি 100 ধরি; ${r}% বাড়ার পর দাম হয় ${100 + r}।`),
+        T(`For the same sum, quantity is inversely proportional to price, so the missing quantity is ${r}/${100 + r} of the old quantity.`, `একই টাকায় পরিমাণ দামের ব্যস্তানুপাতিক, তাই কমে যাওয়া পরিমাণ পুরনো পরিমাণের ${r}/${100 + r} অংশ।`),
+        T(`Old quantity = ${ex(extra)} × ${100 + r} ÷ ${r} = ${k} kg, so the original price = ₹${M} ÷ ${k} = ₹${P} per kg.`, `পুরনো পরিমাণ = ${ex(extra)} × ${100 + r} ÷ ${r} = ${k} কেজি, তাই আসল দাম = ₹${M} ÷ ${k} = কেজি প্রতি ₹${P}।`),
+      ],
+      shortcut: T('Original price = sum × r ÷ ((100 + r) × missing kg) after a rise.', 'দাম বাড়লে আসল দাম = টাকা × বৃদ্ধি ÷ ((100 + বৃদ্ধি) × কমে যাওয়া কেজি)।'),
     });
   },
 

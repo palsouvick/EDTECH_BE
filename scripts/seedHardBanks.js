@@ -20,6 +20,9 @@ const { HARD_BANKS } = require('../src/services/hardBanks');
 
 const AUTHOR = 'hard_bank_generator';
 const TARGET_PER_CHAPTER = 200;
+// Percentage grew new patterns (price fall with same spend; original price
+// from the change in quantity), so its bank tops up further to seed them.
+const TARGET_BY_TOPIC = { percentage: 280 };
 const TOPICS = Object.values(HARD_BANKS).filter((b) => b.author === AUTHOR).map((b) => b.topic);
 const TIER_BY_CATEGORY = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE' };
 const CLERKSHIP_SYLLABUS = 'https://psc.wb.gov.in/Download?param1=Clerkship2024-SchemeSyllabus.pdf&param2=advertisement';
@@ -73,7 +76,7 @@ async function ensureHardBank(topic, target = TARGET_PER_CHAPTER, { dryRun = fal
 
 async function ensureHardBanks(options) {
   const results = [];
-  for (const topic of TOPICS) results.push(await ensureHardBank(topic, TARGET_PER_CHAPTER, options));
+  for (const topic of TOPICS) results.push(await ensureHardBank(topic, TARGET_BY_TOPIC[topic] ?? TARGET_PER_CHAPTER, options));
   return results;
 }
 
@@ -92,4 +95,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { AUTHOR, TARGET_PER_CHAPTER, TOPICS, ensureHardBank, ensureHardBanks, toDocuments };
+module.exports = { AUTHOR, TARGET_PER_CHAPTER, TARGET_BY_TOPIC, TOPICS, ensureHardBank, ensureHardBanks, toDocuments };

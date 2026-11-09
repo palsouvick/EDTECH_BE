@@ -24,12 +24,21 @@ module.exports = {
     return ((rice - maize) / rice) * 100;
   },
 
-  pct_expenditure_consumption(_v, { a, b = 0 }) {
+  pct_expenditure_consumption(variant, { a, b = 0 }) {
     const price = 50;
     const qty = 40;
+    if (variant === 'price_fall') {
+      const newQty = (price * qty) / after(price, -a);
+      return ((newQty - qty) / qty) * 100;
+    }
     const allowed = after(price * qty, b);
     const newQty = allowed / after(price, a);
     return ((qty - newQty) / qty) * 100;
+  },
+
+  pct_price_change_quantity(variant, { r, M, extra }) {
+    if (variant === 'fall_more') return bisect((P) => M / after(P, -r) - M / P, extra, 0.01, 1e7);
+    return bisect((P) => M / P - M / after(P, r), extra, 0.01, 1e7);
   },
 
   pct_reverse_successive(variant, g) {
