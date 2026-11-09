@@ -10,7 +10,7 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 |---|---|---|---|---|---|
 | `wbcs-prelims-2022.json` | WBCS (Exe.) etc. Preliminary Examination, 2022 (Advt. 2/2022, held 19.06.2022), General Studies, **Test Booklet Series B** | https://psc.wb.gov.in/Download?param1=20240318164932_WBCS(PRELI)-2022.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202208041745_FinalWBCSKey22.pdf&param2=advertisement | **Final (revised)**, notice No. 396 CON(Q), 4 Aug 2022 | 190 of 200 |
 | `wbpsc-clerkship-2023-session-1.json` | Clerkship (Part-I) Rectt. Examination, 2023, **Session I** (Advt. 13/2023, held 16.11.2024), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20241122165221_ClerkshipS-I.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202505191629_Session-I.pdf&param2=advertisement | **Final**, notice No. 725-PSC/CON(Q), 16 May 2025 | 93 of 100 |
-| `ido-2019.json` | Industrial Development Officer, Preliminary Screening Test, 2019 (Advt. 10/2019, held 22.12.2019), **Test Booklet Series A** (booklet code SP/19) | https://psc.wb.gov.in/Download?param1=20200722152106_IDO2019_compressed.pdf&param2=PYQP | Official key exists (Notice No. 840-PSC/Con(Q), 27 Dec 2019) but no official-domain URL for it is stored, so entries carry no `answer_key_url` and import as **ADAPTED_PYQ** (see the IDO notes below) | **Official key, read via a mirror of the notice PDF** — Series A column machine-parsed and verified 100/100 | 97 of 100 |
+| `ido-2019.json` | Industrial Development Officer, Preliminary Screening Test, 2019 (Advt. 10/2019, held 22.12.2019), **Test Booklet Series A** (booklet code SP/19) | https://psc.wb.gov.in/Download?param1=20200722152106_IDO2019_compressed.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202001021749_2729621.pdf&param2=advertisement | **Official**, notice No. 840-PSC/Con(Q), 27 Dec 2019 (key as published; no revised-key notice found) — Series A column machine-parsed from the official PDF and verified 100/100 | 97 of 100 |
 | `wbcs-prelims-2024.json` | WBCS (Exe.) etc. Preliminary Examination, 2024 (Advt. 08/2024, held 14.06.2026), General Studies, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20260728155644_WBCS_P-2024-A_merged_1_compressed.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement | **Final**, notice No. 1104-PSC(CON/Q), 27 Aug 2026 | 198 of 200 |
 | `wbcs-prelims-2023.json` | WBCS (Exe.) etc. Preliminary Examination, 2023 (Advt. 01/2023, held 16.12.2023), **Test Booklet Series A** | **UNOFFICIAL compilation** of the booklet: https://files.wbcs.in/wbcs-2023-question-prelims.pdf (the Commission never published this paper — see the exception note below) | https://psc.wb.gov.in/Download?param1=202405281450_AnsWbcs2023.pdf&param2=advertisement | **Final**, notice No. 254-PSC/CON(Q), 24 May 2024 | 197 of 200 |
 | `wbcs-prelims-2021.json` | WBCS (Exe.) etc. Preliminary Examination, 2021 (Advt. 18/2020, held 22.08.2021), **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=20210825121701_WBCS.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=wbcs%20preli%2021.pdf&param2=advertisement | **Final**, notice No. 628-PSC/Con(Q), 30 Sep 2021 | 197 of 200 |
@@ -64,11 +64,12 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   real previous-year paper and states both facts wherever the difference matters.
 - The Bengali text is **our translation** throughout (the printed paper is
   English-only); the English stems and options are transcribed as printed.
-- Answers follow the Commission's key (Notice No. 840-PSC/Con(Q), 27 Dec 2019). The
-  key PDF was obtained from a mirror of the notice; its Series A column was
-  machine-parsed (100/100 values) and every imported entry's letter was checked
-  against it programmatically. Because no official-domain URL for the key is
-  stored in the entries, they import as **ADAPTED_PYQ**, never OFFICIAL_VERIFIED.
+- Answers follow the Commission's key (Notice No. 840-PSC/Con(Q), 27 Dec 2019).
+  The key was first read from a mirror of the notice PDF; the same notice was
+  then located on psc.wb.gov.in itself (What's New archive, Sl. No. 2462), its
+  Series A column machine-parsed from the official PDF (100/100 values) and
+  confirmed identical to the mirror parse, so the entries store the official
+  `answer_key_url` and import as **OFFICIAL_VERIFIED**.
 - Skipped (3): Q33 (time-sensitive — "largest trading partner of India"; the key's
   answer is pinned to its year and no longer true), Q38 (fill-in-the-blank whose
   printed options make the keyed answer nonsensical), Q90 (asks for an antonym of
