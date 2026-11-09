@@ -500,4 +500,109 @@ module.exports = [
       { en: '**BRICS has no headquarters.** Any option seating BRICS in a capital is false; only its bank, the NDB, has a seat — Shanghai. Likewise the ICJ is the UN\'s only principal organ outside New York (The Hague).', bn: '**BRICS-এর কোনো সদর দপ্তর নেই।** BRICS-কে কোনো রাজধানীতে বসানো বিকল্প মিথ্যা; শুধু এর ব্যাংক NDB-র আসন আছে — সাংহাই। তেমনি আন্তর্জাতিক বিচার আদালত রাষ্ট্রসংঘের একমাত্র প্রধান অঙ্গ যা নিউ ইয়র্কের বাইরে (হেগ)।' },
     ],
   },
+  {
+    subject: 'gs',
+    topic: 'industrial_safety',
+    title: { en: 'Industrial Safety & Pollution Control', bn: 'শিল্প নিরাপত্তা ও দূষণ নিয়ন্ত্রণ', hi: 'औद्योगिक सुरक्षा और प्रदूषण नियंत्रण' },
+    overview: {
+      en: 'This chapter exists for the WBPSC IDO paper (Advt 15/2024), where "Industrial Safety/Security Measures and Pollution Control Measures" carries 10 of 100 marks. It has two halves. The safety half is built on the **Factories Act, 1948** (when it applies, working hours, safety officers, hazardous processes), the **OSH Code, 2020**, fire classes and extinguisher matching, PPE and electrical safety. The pollution half is built on three Acts and the boards they created: **Water Act 1974 → CPCB and State Boards**, **Air Act 1981**, and the umbrella **Environment (Protection) Act, 1986**, plus consent, industry colour categories and the Bhopal disaster that rewrote the law. Learn each Act as a triple: year, what it controls, who enforces it.',
+      bn: 'এই অধ্যায় WBPSC IDO পরীক্ষার জন্য (বিজ্ঞাপন ১৫/২০২৪), যেখানে "শিল্প নিরাপত্তা/সুরক্ষা ব্যবস্থা ও দূষণ নিয়ন্ত্রণ ব্যবস্থা" ১০০-র মধ্যে ১০ নম্বর বহন করে। এর দুটি অর্ধেক। নিরাপত্তা অর্ধেক গড়ে উঠেছে **কারখানা আইন, ১৯৪৮** (কোথায় প্রযোজ্য, কাজের সময়, নিরাপত্তা আধিকারিক, বিপজ্জনক প্রক্রিয়া), **OSH কোড, ২০২০**, আগুনের শ্রেণি ও নির্বাপকের মিল, PPE এবং বৈদ্যুতিক নিরাপত্তা নিয়ে। দূষণ অর্ধেকে আছে তিনটি আইন ও তাদের তৈরি করা পর্ষদ: **জল আইন ১৯৭৪ → CPCB ও রাজ্য পর্ষদ**, **বায়ু আইন ১৯৮১** এবং ছত্রছায়া **পরিবেশ (সুরক্ষা) আইন, ১৯৮৬**, সঙ্গে সম্মতি (consent), শিল্পের রঙের শ্রেণি এবং ভোপাল বিপর্যয়, যা আইনকে বদলে দিয়েছিল। প্রতিটি আইন তিনটি জিনিস মিলিয়ে শেখো: সাল, কী নিয়ন্ত্রণ করে, কে প্রয়োগ করে।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'The Factories Act, 1948 in numbers', bn: 'সংখ্যায় কারখানা আইন, ১৯৪৮' },
+        body: {
+          en: '- **Applies**: premises with **10+ workers using power**, or **20+ without power**\n- **48 hours** a week maximum for an adult worker, with a weekly holiday\n- **Safety Officer**: required in factories with **1,000+ workers** (and in hazardous-process factories as notified)\n- **Chapter IVA** (hazardous processes) was inserted by the **1987 amendment**, after Bhopal',
+          bn: '- **প্রযোজ্য**: **বিদ্যুৎসহ ১০+ শ্রমিক** অথবা **বিদ্যুৎ ছাড়া ২০+ শ্রমিক** থাকা প্রাঙ্গণে\n- একজন প্রাপ্তবয়স্ক শ্রমিকের জন্য সপ্তাহে সর্বোচ্চ **৪৮ ঘণ্টা**, সঙ্গে সাপ্তাহিক ছুটি\n- **নিরাপত্তা আধিকারিক**: **১,০০০+ শ্রমিকের** কারখানায় আবশ্যক (এবং নির্ধারিত বিপজ্জনক-প্রক্রিয়ার কারখানায়)\n- **অধ্যায় IVA** (বিপজ্জনক প্রক্রিয়া) ভোপালের পরে **১৯৮৭-র সংশোধনীতে** যোগ হয়',
+        },
+      },
+      {
+        title: { en: 'Three pollution Acts, three jobs', bn: 'তিনটি দূষণ আইন, তিনটি কাজ' },
+        body: {
+          en: '- **Water (Prevention & Control of Pollution) Act, 1974**: created the **CPCB** and the **State Pollution Control Boards**; industries need their **consent** to establish and operate\n- **Air (Prevention & Control of Pollution) Act, 1981**: extends the same boards to air pollution and emission standards\n- **Environment (Protection) Act, 1986**: the umbrella law — the Centre can set standards and issue directions on any environmental matter',
+          bn: '- **জল (দূষণ প্রতিরোধ ও নিয়ন্ত্রণ) আইন, ১৯৭৪**: **CPCB** ও **রাজ্য দূষণ নিয়ন্ত্রণ পর্ষদ** তৈরি করে; শিল্প চালাতে ও স্থাপন করতে তাদের **সম্মতি (consent)** লাগে\n- **বায়ু (দূষণ প্রতিরোধ ও নিয়ন্ত্রণ) আইন, ১৯৮১**: একই পর্ষদের ক্ষমতা বায়ু দূষণ ও নিঃসরণ মানে প্রসারিত করে\n- **পরিবেশ (সুরক্ষা) আইন, ১৯৮৬**: ছত্রছায়া আইন — কেন্দ্র যেকোনো পরিবেশগত বিষয়ে মান নির্ধারণ ও নির্দেশ দিতে পারে',
+        },
+      },
+      {
+        title: { en: 'Fire: classes and the triangle', bn: 'আগুন: শ্রেণি ও ত্রিভুজ' },
+        body: {
+          en: '- Fire needs three things together: **fuel, oxygen and heat** — remove any one and the fire dies\n- **Class A**: solid materials (wood, paper); **Class B**: flammable liquids; **Class C**: gases; **Class D**: metals; **Class K**: cooking oils and fats\n- **Water** suits Class A only — never on electrical or oil fires; **CO₂ and dry powder** are the usual choices for electrical fires',
+          bn: '- আগুনে তিনটি জিনিস একসঙ্গে লাগে: **জ্বালানি, অক্সিজেন ও তাপ** — যেকোনো একটি সরালেই আগুন নেভে\n- **শ্রেণি A**: কঠিন পদার্থ (কাঠ, কাগজ); **শ্রেণি B**: দাহ্য তরল; **শ্রেণি C**: গ্যাস; **শ্রেণি D**: ধাতু; **শ্রেণি K**: রান্নার তেল ও চর্বি\n- **জল** শুধু শ্রেণি A-র জন্য — বৈদ্যুতিক বা তেলের আগুনে কখনও নয়; বৈদ্যুতিক আগুনে সাধারণত **CO₂ ও শুষ্ক গুঁড়ো** ব্যবহার হয়',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'Act years in one line', bn: 'এক লাইনে আইনের সাল' },
+        body: { en: 'Factories **1948** → Water **1974** → Air **1981** → Bhopal **1984** → Environment **1986**. The gaps shrink as the disasters pile up: 26, 7, 3, 2.', bn: 'কারখানা **১৯৪৮** → জল **১৯৭৪** → বায়ু **১৯৮১** → ভোপাল **১৯৮৪** → পরিবেশ **১৯৮৬**। বিপর্যয় বাড়ার সঙ্গে ব্যবধান কমে: ২৬, ৭, ৩, ২।' },
+      },
+      {
+        title: { en: '10–20–48–1000', bn: '১০–২০–৪৮–১০০০' },
+        body: { en: 'The Factories Act numbers in ascending order: **10** workers with power, **20** without, **48** hours a week, **1,000** workers for a Safety Officer.', bn: 'কারখানা আইনের সংখ্যা বাড়ার ক্রমে: বিদ্যুৎসহ **১০** শ্রমিক, বিদ্যুৎ ছাড়া **২০**, সপ্তাহে **৪৮** ঘণ্টা, নিরাপত্তা আধিকারিকের জন্য **১,০০০** শ্রমিক।' },
+      },
+      {
+        title: { en: 'Colour = how dirty', bn: 'রঙ = কতটা দূষণ' },
+        body: { en: 'CPCB industry categories run **Red → Orange → Green → White** as pollution falls; White-category industries need no consent, only intimation.', bn: 'CPCB-র শিল্প শ্রেণি দূষণ কমার ক্রমে **লাল → কমলা → সবুজ → সাদা**; সাদা শ্রেণির শিল্পে সম্মতি লাগে না, শুধু জানালেই হয়।' },
+      },
+    ],
+    common_traps: [
+      { en: '**Water Act came first.** Students often place the Environment (Protection) Act first because it is the umbrella law; in time the order is Water 1974, Air 1981, Environment 1986.', bn: '**জল আইন সবার আগে।** পরিবেশ (সুরক্ষা) আইন ছত্রছায়া বলে অনেকে সেটিকে প্রথমে রাখে; সময়ের ক্রমে জল ১৯৭৪, বায়ু ১৯৮১, পরিবেশ ১৯৮৬।' },
+      { en: '**CPCB vs SPCB consent.** Consent to Establish and Consent to Operate for a unit in a state come from the **State Board (WBPCB in West Bengal)**; the CPCB sets standards and coordinates.', bn: '**CPCB বনাম SPCB সম্মতি।** রাজ্যের কোনো এককের স্থাপন ও চালানোর সম্মতি দেয় **রাজ্য পর্ষদ (পশ্চিমবঙ্গে WBPCB)**; CPCB মান নির্ধারণ ও সমন্বয় করে।' },
+      { en: '**Bhopal gas was MIC.** The 1984 Bhopal leak was **methyl isocyanate** at a Union Carbide pesticide plant — not chlorine or ammonia, the two usual distractors.', bn: '**ভোপালের গ্যাস ছিল MIC।** ১৯৮৪-র ভোপাল ছিদ্র ছিল ইউনিয়ন কার্বাইডের কীটনাশক কারখানায় **মিথাইল আইসোসায়ানেট** — ক্লোরিন বা অ্যামোনিয়া নয়, যেগুলি সাধারণত বিভ্রান্তি তৈরি করে।' },
+    ],
+  },
+  {
+    subject: 'gs',
+    topic: 'wb_industry',
+    title: { en: 'Industrial Scenario of West Bengal', bn: 'পশ্চিমবঙ্গের শিল্প পরিস্থিতি', hi: 'पश्चिम बंगाल का औद्योगिक परिदृश्य' },
+    overview: {
+      en: 'This chapter exists for the WBPSC IDO paper (Advt 15/2024), where "Industrial Scenario and Industrial Potential in West Bengal" carries 15 of 100 marks — and the IDO works in the Directorate of MSME, so the **MSME sector is the centre of the chapter**: its official definition, the Udyam registration, and the state bodies that serve it (**WBIDC, WBSIDC, the Directorate of MSME, Silpasathi single window**). Around that core sit the state\'s industrial roots (the first jute mill at Rishra in 1855, Durgapur steel, Haldia), its famous clusters (Howrah foundries, the Kolkata Leather Complex, Sector V IT) and its support schemes. Figures that governments revise — MSME limits, scheme ceilings — are always stated with their year; check the latest notification before the exam.',
+      bn: 'এই অধ্যায় WBPSC IDO পরীক্ষার জন্য (বিজ্ঞাপন ১৫/২০২৪), যেখানে "পশ্চিমবঙ্গের শিল্প পরিস্থিতি ও শিল্প সম্ভাবনা" ১০০-র মধ্যে ১৫ নম্বর বহন করে — আর IDO কাজ করেন MSME অধিদপ্তরে, তাই **MSME খাতই এই অধ্যায়ের কেন্দ্র**: এর সরকারি সংজ্ঞা, উদ্যম নিবন্ধন, এবং যেসব রাজ্য সংস্থা এর সেবা দেয় (**WBIDC, WBSIDC, MSME অধিদপ্তর, শিল্পসাথী একক জানালা**)। এই কেন্দ্রের চারপাশে আছে রাজ্যের শিল্পের শিকড় (১৮৫৫-তে রিষড়ায় প্রথম পাট কল, দুর্গাপুর ইস্পাত, হলদিয়া), বিখ্যাত গুচ্ছগুলি (হাওড়ার ঢালাই কারখানা, কলকাতা লেদার কমপ্লেক্স, সেক্টর V-র IT) এবং সহায়তা প্রকল্পগুলি। যেসব সংখ্যা সরকার বদলায় — MSME-র সীমা, প্রকল্পের ঋণের ঊর্ধ্বসীমা — সেগুলি সবসময় সালসহ বলা হয়েছে; পরীক্ষার আগে সর্বশেষ বিজ্ঞপ্তি দেখে নাও।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'MSME: two numbers decide the class', bn: 'MSME: দুটি সংখ্যায় শ্রেণি ঠিক হয়' },
+        body: {
+          en: '- Classification uses **investment in plant & machinery/equipment** AND **annual turnover** together; crossing either ceiling moves the unit up\n- The limits were revised in **2020** (the Atmanirbhar revision) and again in **2025** — always quote the latest notification, never an old book\n- Registration is on the **Udyam** portal (free, online, Aadhaar-based); the older Udyog Aadhaar was replaced by Udyam in 2020',
+          bn: '- শ্রেণি ঠিক হয় **যন্ত্রপাতিতে বিনিয়োগ** ও **বার্ষিক লেনদেন** দুটি মিলিয়ে; যেকোনো একটির সীমা পেরোলেই একক উপরের শ্রেণিতে যায়\n- সীমা সংশোধিত হয়েছে **২০২০**-তে (আত্মনির্ভর সংশোধন) এবং আবার **২০২৫**-এ — সবসময় সর্বশেষ বিজ্ঞপ্তি অনুযায়ী বলো, পুরনো বই অনুযায়ী নয়\n- নিবন্ধন হয় **উদ্যম (Udyam)** পোর্টালে (বিনামূল্যে, অনলাইন, আধার-ভিত্তিক); পুরনো উদ্যোগ আধারের বদলে ২০২০ থেকে উদ্যম এসেছে',
+        },
+      },
+      {
+        title: { en: 'Who does what: the state industry bodies', bn: 'কে কী করে: রাজ্যের শিল্প সংস্থা' },
+        body: {
+          en: '- **WBIDC** (1967): promotes large and medium industries, industrial parks, single-window clearances through **Silpasathi**\n- **WBSIDC**: small industries — estates, sheds and infrastructure for small units\n- **Directorate of MSME** (under the MSME & Textiles Department): registration support, schemes and field offices — the IDO is its field officer\n- **District Industries Centre (DIC)**: the district-level door for entrepreneurs',
+          bn: '- **WBIDC** (১৯৬৭): বড় ও মাঝারি শিল্পের প্রসার, শিল্প পার্ক, **শিল্পসাথী**-র মাধ্যমে একক-জানালা ছাড়পত্র\n- **WBSIDC**: ছোট শিল্প — ছোট এককের জন্য এস্টেট, শেড ও পরিকাঠামো\n- **MSME অধিদপ্তর** (MSME ও বস্ত্র দপ্তরের অধীন): নিবন্ধন সহায়তা, প্রকল্প ও মাঠ-পর্যায়ের দপ্তর — IDO এই অধিদপ্তরেরই মাঠ আধিকারিক\n- **জেলা শিল্প কেন্দ্র (DIC)**: উদ্যোক্তাদের জন্য জেলা-স্তরের দরজা',
+        },
+      },
+      {
+        title: { en: 'Industrial roots in time order', bn: 'সময়ের ক্রমে শিল্পের শিকড়' },
+        body: {
+          en: '- **1855**: first jute mill at **Rishra** (Hooghly) — the industry that defined colonial Bengal\n- **Tea**: Darjeeling gardens from the **1840s–50s**; tea remains a signature export\n- **Steel**: IISCO at **Burnpur** (early 1900s) and the **Durgapur Steel Plant** (1950s, Second Plan) anchor the western steel belt\n- **Haldia**: port + petrochemicals (Haldia Petrochemicals, 2000) anchor the south',
+          bn: '- **১৮৫৫**: **রিষড়ায়** (হুগলি) প্রথম পাট কল — ঔপনিবেশিক বাংলাকে চেনানো শিল্প\n- **চা**: **১৮৪০–৫০-এর দশক** থেকে দার্জিলিং বাগান; চা এখনও অনন্য রপ্তানি\n- **ইস্পাত**: **বার্নপুরে** IISCO (১৯০০-এর দশকের শুরু) ও **দুর্গাপুর ইস্পাত কারখানা** (১৯৫০-এর দশক, দ্বিতীয় পরিকল্পনা) পশ্চিমের ইস্পাত বলয়ের ভিত্তি\n- **হলদিয়া**: বন্দর + পেট্রোরসায়ন (হলদিয়া পেট্রোকেমিক্যালস, ২০০০) দক্ষিণের ভিত্তি',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'Two IDs, two jobs', bn: 'দুটি সংস্থা, দুটি কাজ' },
+        body: { en: '**WBIDC** = big industry and parks; **WBSIDC** has an extra **S** for **Small** — small-industry estates and sheds. The S is the whole trick.', bn: '**WBIDC** = বড় শিল্প ও পার্ক; **WBSIDC**-তে অতিরিক্ত **S** মানে **Small** (ছোট) — ছোট শিল্পের এস্টেট ও শেড। এই S-ই পুরো কৌশল।' },
+      },
+      {
+        title: { en: 'Silpasathi = one window', bn: 'শিল্পসাথী = একটি জানালা' },
+        body: { en: 'Any question about a **single-window** system for industry clearances in West Bengal points to **Silpasathi**; questions about **registration** of a micro/small unit point to **Udyam**.', bn: 'পশ্চিমবঙ্গে শিল্প ছাড়পত্রের **একক জানালা** নিয়ে যেকোনো প্রশ্নের উত্তর **শিল্পসাথী**; ক্ষুদ্র/ছোট এককের **নিবন্ধন** নিয়ে প্রশ্ন হলে উত্তর **উদ্যম**।' },
+      },
+      {
+        title: { en: 'Howrah, the foundry town', bn: 'হাওড়া, ঢালাইয়ের শহর' },
+        body: { en: 'Howrah\'s foundry and engineering cluster is so old and dense it is called the **Sheffield of India** — if a cluster question names foundries or castings, think Howrah first; leather means **Bantala (Kolkata Leather Complex)**.', bn: 'হাওড়ার ঢালাই ও ইঞ্জিনিয়ারিং গুচ্ছ এত পুরনো ও ঘন যে একে **ভারতের শেফিল্ড** বলা হয় — গুচ্ছের প্রশ্নে ঢালাই বা castings এলে আগে হাওড়ার কথা ভাবো; চামড়া মানে **বানতলা (কলকাতা লেদার কমপ্লেক্স)**।' },
+      },
+    ],
+    common_traps: [
+      { en: '**MSME limits from old books.** The 2006 MSMED limits (₹25 lakh / ₹5 crore / ₹10 crore investment) are dead. The class limits were revised in 2020 and again in 2025 — an option quoting the 2006 figures is always wrong now.', bn: '**পুরনো বইয়ের MSME সীমা।** MSMED ২০০৬-এর সীমা (বিনিয়োগে ₹২৫ লক্ষ / ₹৫ কোটি / ₹১০ কোটি) এখন অচল। শ্রেণির সীমা ২০২০ ও আবার ২০২৫-এ বদলেছে — ২০০৬-এর সংখ্যা দেওয়া বিকল্প এখন সবসময় ভুল।' },
+      { en: '**Jute mill first, not cotton.** India\'s first cotton mill was in Bombay (1854), but West Bengal\'s signature first is the **jute mill at Rishra (1855)**; questions about Bengal industry expect jute.', bn: '**তুলো নয়, পাট কল প্রথম।** ভারতের প্রথম সুতি কল বোম্বাইতে (১৮৫৪), কিন্তু পশ্চিমবঙ্গের চেনা প্রথম হল **রিষড়ার পাট কল (১৮৫৫)**; বাংলার শিল্পের প্রশ্নে পাটই প্রত্যাশিত।' },
+      { en: '**The IDO is not a WBIDC officer.** The post sits in the **Directorate of MSME** under the MSME & Textiles Department (Advt 15/2024) — WBIDC and WBSIDC are corporations, not the recruiting cadre.', bn: '**IDO WBIDC-র আধিকারিক নন।** পদটি MSME ও বস্ত্র দপ্তরের অধীন **MSME অধিদপ্তরে** (বিজ্ঞাপন ১৫/২০২৪) — WBIDC ও WBSIDC হল নিগম, নিয়োগকারী ক্যাডার নয়।' },
+    ],
+  },
 ];
+

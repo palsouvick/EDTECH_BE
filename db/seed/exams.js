@@ -12,6 +12,11 @@
  *
  * When a new notification comes out, update pattern_as_of, the stage and the
  * source together, and add the cycle at the top of `cycles`.
+ *
+ * WBPSC_IDO (added 9 Nov 2026): pattern, eligibility, fee, qualifying marks and
+ * dates are from the detailed advertisement for Advt 15/2024 itself, published
+ * 5 Nov 2026 on psc.wb.gov.in (the source_url below). That advertisement prints
+ * no topic-wise syllabus — only the seven section headings and their marks.
  */
 
 const L = (en, bn, hi) => ({ en, bn: bn ?? en, hi: hi ?? en });
@@ -535,6 +540,68 @@ module.exports = {
         stage: PRELIMS,
         dates: '15 Sep 2024',
         source_url: 'https://psc.wb.gov.in/Download?param1=202503171627_Final_Ans_Key_Miscellaneous_Preli_2023.pdf&param2=advertisement',
+      },
+    ],
+  },
+
+  WBPSC_IDO: {
+    full_name: L('Industrial Development Officer (IDO), Directorate of Micro, Small & Medium Enterprises', 'শিল্প উন্নয়ন আধিকারিক (IDO), ক্ষুদ্র, ছোট ও মাঝারি উদ্যোগ অধিদপ্তর', 'औद्योगिक विकास अधिकारी (IDO), सूक्ष्म, लघु एवं मध्यम उद्यम निदेशालय'),
+    pattern_as_of: 'IDO detailed advertisement (Advt 15/2024, dated 5 Nov 2026)',
+    source_url: 'https://psc.wb.gov.in/Download?param1=Cur_20261105212424_DetailedAdvtIDO152024.pdf&param2=advertisement',
+    stages: [
+      {
+        tier: 'PRELIMS',
+        name: L('Part-I (Written Examination)', 'পার্ট-I (লিখিত পরীক্ষা)', 'भाग-I (लिखित परीक्षा)'),
+        mode: 'OMR',
+        duration_min: 90,
+        note: L(
+          '100 questions of 1 mark each. The final merit list is made on Part-I + Part-II (interview) together, out of 115 marks.',
+          '১ নম্বরের ১০০টি প্রশ্ন। চূড়ান্ত মেধা তালিকা পার্ট-I + পার্ট-II (ইন্টারভিউ) মিলিয়ে মোট ১১৫ নম্বরের ভিত্তিতে তৈরি হয়।',
+          '1 अंक के 100 प्रश्न। अंतिम मेरिट भाग-I + भाग-II (साक्षात्कार) मिलाकर कुल 115 अंकों पर बनती है।',
+        ),
+        sections: [
+          section('english', L('English', 'ইংরেজি', 'अंग्रेज़ी'), 15, 1, 0.25),
+          section('gs', L('Industrial Safety/Security Measures and Pollution Control Measures', 'শিল্প নিরাপত্তা/সুরক্ষা ব্যবস্থা ও দূষণ নিয়ন্ত্রণ ব্যবস্থা', 'औद्योगिक सुरक्षा उपाय और प्रदूषण नियंत्रण उपाय'), 10, 1, 0.25),
+          section('gs', L('Environmental Issue with Emphasis on Energy Conservation and Renewable Energy', 'পরিবেশগত বিষয় — শক্তি সংরক্ষণ ও নবায়নযোগ্য শক্তির উপর জোর', 'पर्यावरणीय विषय — ऊर्जा संरक्षण और नवीकरणीय ऊर्जा पर बल'), 15, 1, 0.25),
+          section('gs', L('Physical Science', 'ভৌত বিজ্ঞান', 'भौतिक विज्ञान'), 15, 1, 0.25),
+          section('gs', L('Elementary Computer Knowledge', 'প্রাথমিক কম্পিউটার জ্ঞান', 'प्राथमिक कंप्यूटर ज्ञान'), 10, 1, 0.25),
+          section('gs', L('Industrial Scenario and Industrial Potential in West Bengal', 'পশ্চিমবঙ্গের শিল্প পরিস্থিতি ও শিল্প সম্ভাবনা', 'पश्चिम बंगाल का औद्योगिक परिदृश्य और औद्योगिक क्षमता'), 15, 1, 0.25),
+          // One combined official section (Mental Ability + Arithmetic, 20). It is
+          // filed under 'quant' for marking resolution so the generic WBPSC
+          // reasoning marking stays with WBCS, its only pure-reasoning pattern;
+          // the IDO plan splits the 20 into 12 arithmetic + 8 mental ability as
+          // a preparation choice, not an official split.
+          section('quant', L('Mental Ability and Arithmetic', 'মানসিক দক্ষতা ও পাটিগণিত', 'मानसिक क्षमता और अंकगणित'), 20, 1, 0.25),
+        ],
+      },
+    ],
+    next_stages: [
+      L('Part-II: Interview (15 marks)', 'পার্ট-II: ইন্টারভিউ (১৫ নম্বর)', 'भाग-II: साक्षात्कार (15 अंक)'),
+      L('Document Verification', 'নথি যাচাই', 'दस्तावेज़ सत्यापन'),
+    ],
+    // Every figure below is from the detailed advertisement itself (Advt 15/2024,
+    // published 5 Nov 2026, read on psc.wb.gov.in on 9 Nov 2026). The advertisement
+    // prints only the seven section headings as the syllabus — no topic-wise syllabus
+    // exists, so none is claimed anywhere in the app.
+    notes: L(
+      'IDO 2024 (Advt 15/2024): 247 vacancies (temporary but likely to be permanent), Pay Level 10 (₹32,100–82,900). Qualification: a degree of a recognised university OR a diploma in Engineering/Technology. Age 18–44 on 01.01.2024 (relaxation: SC/ST of WB +5 years, OBC-NCL of WB +3 years, PwBD up to 45). Fee ₹160; SC/ST of West Bengal and PwBD (40%+) pay no fee. Ability to read, write and speak Bengali is essential and is tested at the interview. Aggregate qualifying marks: UR/EWS/MSP 40%, OBC 38%, SC 35%, ST 30%, PwBD 30%; no qualifying marks in the interview. Online applications: 6–26 Nov 2026 (up to 3 p.m.); edit window 27 Nov – 2 Dec 2026. The written exam date has NOT been announced yet — the advertisement says it will be notified later on the Commission\u2019s website.',
+      'IDO ২০২৪ (বিজ্ঞাপন ১৫/২০২৪): ২৪৭টি শূন্যপদ (অস্থায়ী তবে স্থায়ী হওয়ার সম্ভাবনা), পে লেভেল ১০ (₹৩২,১০০–৮২,৯০০)। যোগ্যতা: স্বীকৃত বিশ্ববিদ্যালয়ের ডিগ্রি অথবা ইঞ্জিনিয়ারিং/প্রযুক্তিতে ডিপ্লোমা। ০১.০১.২০২৪-এ বয়স ১৮–৪৪ (ছাড়: পশ্চিমবঙ্গের SC/ST +৫ বছর, OBC-NCL +৩ বছর, PwBD সর্বোচ্চ ৪৫)। ফি ₹১৬০; পশ্চিমবঙ্গের SC/ST ও PwBD (৪০%+) ফি-মুক্ত। বাংলা পড়া, লেখা ও বলা অপরিহার্য — ইন্টারভিউতে যাচাই হয়। সামগ্রিক যোগ্যতা-নম্বর: UR/EWS/MSP ৪০%, OBC ৩৮%, SC ৩৫%, ST ৩০%, PwBD ৩০%; ইন্টারভিউতে আলাদা যোগ্যতা-নম্বর নেই। অনলাইন আবেদন: ৬–২৬ নভেম্বর ২০২৬ (বেলা ৩টা পর্যন্ত); এডিট উইন্ডো ২৭ নভেম্বর – ২ ডিসেম্বর ২০২৬। লিখিত পরীক্ষার তারিখ এখনো ঘোষিত হয়নি — বিজ্ঞাপন অনুযায়ী কমিশনের ওয়েবসাইটে পরে জানানো হবে।',
+      'IDO 2024 (विज्ञापन 15/2024): 247 रिक्तियाँ (अस्थायी परंतु स्थायी होने की संभावना), वेतन स्तर 10 (₹32,100–82,900)। योग्यता: मान्यता प्राप्त विश्वविद्यालय की डिग्री अथवा इंजीनियरिंग/प्रौद्योगिकी में डिप्लोमा। 01.01.2024 को आयु 18–44 (छूट: प.बं. के SC/ST +5 वर्ष, OBC-NCL +3 वर्ष, PwBD अधिकतम 45)। शुल्क ₹160; पश्चिम बंगाल के SC/ST और PwBD (40%+) शुल्क-मुक्त। बांग्ला पढ़ना, लिखना और बोलना अनिवार्य है — साक्षात्कार में जाँचा जाएगा। कुल योग्यता अंक: UR/EWS/MSP 40%, OBC 38%, SC 35%, ST 30%, PwBD 30%; साक्षात्कार में अलग योग्यता अंक नहीं। ऑनलाइन आवेदन: 6–26 नवंबर 2026 (दोपहर 3 बजे तक); संपादन विंडो 27 नवंबर – 2 दिसंबर 2026। लिखित परीक्षा की तिथि अभी घोषित नहीं हुई है।',
+    ),
+    cycles: [
+      {
+        year: 2024,
+        stage: L('Part-I (Advt 15/2024)', 'পার্ট-I (বিজ্ঞাপন ১৫/২০২৪)', 'भाग-I (विज्ञापन 15/2024)'),
+        dates: 'Applications 6–26 Nov 2026; written exam date to be notified',
+        vacancies: 247,
+        vacancies_note: L('as advertised', 'বিজ্ঞাপন অনুযায়ী', 'विज्ञापन अनुसार'),
+        source_url: 'https://psc.wb.gov.in/Download?param1=Cur_20261105212424_DetailedAdvtIDO152024.pdf&param2=advertisement',
+      },
+      {
+        year: 2019,
+        stage: L('Preliminary Screening Test (Advt 10/2019)', 'প্রিলিমিনারি স্ক্রিনিং টেস্ট (বিজ্ঞাপন ১০/২০১৯)', 'प्रारंभिक स्क्रीनिंग परीक्षा (विज्ञापन 10/2019)'),
+        dates: '22 Dec 2019',
+        source_url: 'https://psc.wb.gov.in/Download?param1=20200722152106_IDO2019_compressed.pdf&param2=PYQP',
       },
     ],
   },

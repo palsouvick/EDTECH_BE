@@ -75,6 +75,9 @@ const T = {
   west_bengal_gk: L('West Bengal GK', 'পশ্চিমবঙ্গ সাধারণ জ্ঞান', 'पश्चिम बंगाल सामान्य ज्ञान'),
   important_days: L('Important Days', 'গুরুত্বপূর্ণ দিবস', 'महत्वपूर्ण दिवस'),
   organisations: L('Headquarters & Organisations', 'সদর দপ্তর ও সংস্থা', 'मुख्यालय और संगठन'),
+  // Chapters added for the WBPSC IDO examination (Advt 15/2024), where both are named sections.
+  industrial_safety: L('Industrial Safety & Pollution Control', 'শিল্প নিরাপত্তা ও দূষণ নিয়ন্ত্রণ', 'औद्योगिक सुरक्षा और प्रदूषण नियंत्रण'),
+  wb_industry: L('Industrial Scenario of West Bengal', 'পশ্চিমবঙ্গের শিল্প পরিস্থিতি', 'पश्चिम बंगाल का औद्योगिक परिदृश्य'),
 };
 
 const GRAMMAR_SUBTOPICS = [
@@ -195,6 +198,7 @@ const WBPSC_SRC = {
   clerkship: 'https://psc.wb.gov.in/Download?param1=Clerkship2024-SchemeSyllabus.pdf&param2=advertisement',
   misc: 'https://psc.wb.gov.in/Download?param1=20260425210212_SCHEME_SYLLABUS_13_2024.pdf&param2=advertisement',
   wbcs: 'https://psc.wb.gov.in/Download?param1=20251114121739_SCHEME_SYLLABUS-2024_Final.pdf&param2=advertisement',
+  ido: 'https://psc.wb.gov.in/Download?param1=Cur_20261105212424_DetailedAdvtIDO152024.pdf&param2=advertisement',
 };
 const covered = (url, en, bn) => ({ syllabus_status: 'SYLLABUS', syllabus_source_url: url, syllabus_note: { en, bn } });
 const WBPSC_GS_SYLLABUS = {
@@ -219,6 +223,8 @@ const WBPSC_GS_SYLLABUS = {
       bn: 'ক্লার্কশিপে "কম্পিউটার পরিচালনার প্রাথমিক জ্ঞান" পার্ট-I ও পার্ট-II-এর পরে হাতে-কলমে যাচাই হয়; এটি অবজেক্টিভ সাধারণ পাঠ পত্রের অংশ নয়।',
     },
   },
+  industrial_safety: covered(WBPSC_SRC.ido, 'IDO (Advt 15/2024), Part-I section: "Industrial Safety/Security Measures and Pollution Control Measures" — 10 of 100 marks. Not named in the Clerkship, Miscellaneous or WBCS syllabus.', 'IDO (বিজ্ঞাপন ১৫/২০২৪), পার্ট-I-এর বিভাগ: "শিল্প নিরাপত্তা/সুরক্ষা ব্যবস্থা ও দূষণ নিয়ন্ত্রণ ব্যবস্থা" — ১০০-র মধ্যে ১০ নম্বর। ক্লার্কশিপ, মিসলেনিয়াস বা WBCS সিলেবাসে উল্লেখ নেই।'),
+  wb_industry: covered(WBPSC_SRC.ido, 'IDO (Advt 15/2024), Part-I section: "Industrial Scenario and Industrial Potential in West Bengal" — 15 of 100 marks. Not named in the Clerkship, Miscellaneous or WBCS syllabus.', 'IDO (বিজ্ঞাপন ১৫/২০২৪), পার্ট-I-এর বিভাগ: "পশ্চিমবঙ্গের শিল্প পরিস্থিতি ও শিল্প সম্ভাবনা" — ১০০-র মধ্যে ১৫ নম্বর। ক্লার্কশিপ, মিসলেনিয়াস বা WBCS সিলেবাসে উল্লেখ নেই।'),
 };
 
 const exam = (code, en, bn = en, hi = en) => ({ code, name: L(en, bn, hi), stages: [], ...EXAM_DETAILS[code] });
@@ -261,12 +267,13 @@ module.exports = [
       exam('WBCS', 'WBCS'),
       exam('WBPSC_CLERKSHIP', 'Clerkship', 'ক্লার্কশিপ', 'क्लर्कशिप'),
       exam('WBPSC_MISC', 'Miscellaneous', 'মিসলেনিয়াস', 'मिसलेनियस'),
+      exam('WBPSC_IDO', 'IDO — Industrial Development Officer', 'IDO — শিল্প উন্নয়ন আধিকারিক', 'IDO — औद्योगिक विकास अधिकारी'),
     ],
     subjects: [
       quant,
       reasoning(L('Reasoning & Mental Ability', 'যুক্তি ও মানসিক দক্ষতা', 'तर्क और मानसिक क्षमता')),
       english,
-      gs(L('General Studies', 'সাধারণ পাঠ', 'सामान्य अध्ययन'), ['west_bengal_gk', 'indian_gk', 'static_gk', 'art_culture', 'environment', 'computer_awareness', 'important_days', 'organisations'], WBPSC_GS_SYLLABUS),
+      gs(L('General Studies', 'সাধারণ পাঠ', 'सामान्य अध्ययन'), ['west_bengal_gk', 'indian_gk', 'static_gk', 'art_culture', 'environment', 'computer_awareness', 'important_days', 'organisations', 'industrial_safety', 'wb_industry'], WBPSC_GS_SYLLABUS),
     ],
   },
   {

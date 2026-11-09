@@ -236,6 +236,7 @@ const CARDS = Object.freeze([
       climate_change: L('Climate Change', 'জলবায়ু পরিবর্তন'),
       conventions: L('Conventions and Protocols', 'আন্তর্জাতিক চুক্তি ও প্রোটোকল'),
       protected_areas: L('Protected Areas and Laws', 'সংরক্ষিত অঞ্চল ও আইন'),
+      energy: L('Energy Conservation & Renewable Energy', 'শক্তি সংরক্ষণ ও নবায়নযোগ্য শক্তি'),
     },
   },
   {
@@ -314,6 +315,48 @@ const CARDS = Object.freeze([
       mixed: L('Mixed Practice', 'মিশ্র অনুশীলন'),
     },
   },
+  {
+    // Added for the WBPSC IDO examination (Advt 15/2024): "Industrial Safety/Security
+    // Measures and Pollution Control Measures" is a named section of that paper.
+    code: 'industrial_safety',
+    section: 'india',
+    prefix: 'SAF',
+    emoji: '🦺',
+    title: L('Industrial Safety & Pollution Control', 'শিল্প নিরাপত্তা ও দূষণ নিয়ন্ত্রণ'),
+    description: L('Factory safety law, occupational health, fire and electrical safety, pollution-control Acts and boards', 'কারখানার নিরাপত্তা আইন, পেশাগত স্বাস্থ্য, অগ্নি ও বৈদ্যুতিক নিরাপত্তা, দূষণ-নিয়ন্ত্রণ আইন ও পর্ষদ'),
+    topics: ['industrial_safety'],
+    subtopics: {
+      factory_safety: L('Factory Safety & Law', 'কারখানার নিরাপত্তা ও আইন'),
+      occupational_health: L('Occupational Health & PPE', 'পেশাগত স্বাস্থ্য ও PPE'),
+      fire_safety: L('Fire Safety', 'অগ্নি নিরাপত্তা'),
+      electrical_safety: L('Electrical Safety', 'বৈদ্যুতিক নিরাপত্তা'),
+      pollution_control: L('Pollution Control', 'দূষণ নিয়ন্ত্রণ'),
+      chemical_safety: L('Chemical & Disaster Safety', 'রাসায়নিক ও বিপর্যয় নিরাপত্তা'),
+      mixed: L('Mixed Practice', 'মিশ্র অনুশীলন'),
+    },
+  },
+  {
+    // Added for the WBPSC IDO examination (Advt 15/2024): "Industrial Scenario and
+    // Industrial Potential in West Bengal" is a named section of that paper.
+    // Grouped under the India umbrella on the GK dashboard: the West Bengal
+    // section there is exactly the West Bengal GK card (test/gk.test.js).
+    code: 'wb_industry',
+    section: 'india',
+    prefix: 'IND',
+    emoji: '🏭',
+    title: L('Industrial Scenario of West Bengal', 'পশ্চিমবঙ্গের শিল্প পরিস্থিতি'),
+    description: L('Industrial roots, the MSME sector, industrial policy, industrial areas, key industries and support schemes of West Bengal', 'পশ্চিমবঙ্গের শিল্পের শিকড়, MSME খাত, শিল্প নীতি, শিল্পাঞ্চল, প্রধান শিল্প ও সহায়তা প্রকল্প'),
+    topics: ['wb_industry'],
+    subtopics: {
+      industrial_roots: L('Industrial Roots & Heritage', 'শিল্পের শিকড় ও ঐতিহ্য'),
+      msme_sector: L('MSME Sector', 'MSME খাত'),
+      industrial_policy: L('Industrial Policy & Bodies', 'শিল্প নীতি ও সংস্থা'),
+      industrial_areas: L('Industrial Areas & Parks', 'শিল্পাঞ্চল ও পার্ক'),
+      key_industries: L('Key Industries & Clusters', 'প্রধান শিল্প ও গুচ্ছ'),
+      support_schemes: L('Support Schemes & Services', 'সহায়তা প্রকল্প ও পরিষেবা'),
+      mixed: L('Mixed Practice', 'মিশ্র অনুশীলন'),
+    },
+  },
 ]);
 
 /** Dashboard sections: Indian GK (an umbrella over the India cards), West Bengal GK, Other. */
@@ -345,7 +388,7 @@ const FACT_TOPICS = Object.freeze(CARDS.map((c) => c.code));
 /** Question-bank chapters the GK section draws on. */
 const GK_TOPICS = Object.freeze([...new Set(CARDS.flatMap((c) => c.topics))]);
 /** Chapters added to the catalogue for GK (the rest already existed). */
-const NEW_TOPICS = Object.freeze(['indian_gk', 'computer_awareness', 'environment', 'art_culture', 'static_gk', 'important_days', 'organisations']);
+const NEW_TOPICS = Object.freeze(['indian_gk', 'computer_awareness', 'environment', 'art_culture', 'static_gk', 'important_days', 'organisations', 'industrial_safety', 'wb_industry']);
 
 const cardOf = (code) => CARDS.find((c) => c.code === code) || null;
 /** The card a question-bank topic belongs to (`banking_awareness` → economy). */

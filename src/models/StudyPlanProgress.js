@@ -10,9 +10,11 @@ const { Schema, model } = require('mongoose');
 const StudyPlanProgressSchema = new Schema(
   {
     user_id: { type: String, required: true },
-    plan: { type: String, required: true, enum: ['CLERKSHIP_60'] },
+    plan: { type: String, required: true, enum: ['CLERKSHIP_60', 'IDO'] },
     start_date: { type: String, required: true, match: /^\d{4}-\d{2}-\d{2}$/ }, // the student's local date
     done: { type: [String], default: [] }, // task ids, "d12-3"
+    // Chosen length of a variable-length plan (IDO: 30/45/60 days); null for fixed plans.
+    plan_days: { type: Number, enum: [30, 45, 60], default: null },
     // Layout version the ticks were made against (db/plans clerkship60 VERSION); older ticks are cleared.
     plan_version: { type: Number, default: 1 },
     daily_minutes: { type: Number, enum: [120, 180, 240, 360], default: 180 },
