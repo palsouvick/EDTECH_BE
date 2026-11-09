@@ -49,7 +49,7 @@ const MockSessionSchema = new Schema(
       time_limit_min: { type: Number, required: true },
       per_question_timer: { type: Boolean, default: false },
       per_question_limit_sec: { type: Number, default: null },
-      allow_pause: { type: Boolean, default: false },
+      allow_pause: { type: Boolean, default: true },
       marking: {
         positive: { type: Number, required: true },
         negative: { type: Number, required: true },

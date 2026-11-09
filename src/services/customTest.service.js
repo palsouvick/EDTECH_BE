@@ -343,10 +343,10 @@ async function createTest(userId, body) {
   const marking = practice ? PRACTICE_MARKING : resolveMarking({ category: CATEGORY, subject });
 
   const now = new Date();
-  // Practice can be paused and resumed (like a pausable mock); an exam runs on the clock.
-  const expiresAt = practice
-    ? new Date(now.getTime() + config.mock.pausableSessionTtlHours * 3600_000)
-    : new Date(now.getTime() + minutes * 60_000);
+  // Both modes can be paused and resumed (beginners need the pause even in
+  // exam mode), so the session lives for the pausable TTL; the countdown
+  // itself still ends the test when its time is up.
+  const expiresAt = new Date(now.getTime() + config.mock.pausableSessionTtlHours * 3600_000);
   const sessionId = new MockSession()._id;
   const session = await MockSession.create({
     _id: sessionId,
@@ -360,7 +360,7 @@ async function createTest(userId, body) {
       time_limit_min: minutes,
       per_question_timer: false,
       per_question_limit_sec: null,
-      allow_pause: practice,
+      allow_pause: true,
       marking: { positive: marking.positive, negative: marking.negative, basis: marking.basis, exam_code: marking.examCode ?? undefined, source_url: marking.sourceUrl ?? undefined },
       question_aliases: true,
     },

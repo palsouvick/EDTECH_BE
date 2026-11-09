@@ -278,6 +278,7 @@ test('exam mode: submit, mistakes go to the notebook, report with chapters, conc
   const user = 'exam_taker';
   const created = await api('POST', '/custom-tests', { subject: 'quant', topics: ['percentage', 'profit_loss'], questionCount: 10, distribution: 'balanced' }, user);
   const s = created.body.data;
+  assert.equal(s.config.allowPause, true); // exam mode can be paused too (beginners need it)
   const key = await keyOf(s.sessionId);
   // All percentage right, all profit_loss wrong.
   const responses = s.questions.map((q) => ({

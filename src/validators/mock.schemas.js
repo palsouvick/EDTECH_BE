@@ -20,7 +20,9 @@ const createSessionBody = z
     perQuestionTimer: z.boolean().default(false),
     // Per-question mode: seconds each question gets (e.g. 45). Overrides the even split of timeLimitMinutes.
     perQuestionSeconds: z.number().int().min(10).max(600).optional(),
-    allowPause: z.boolean().default(false),
+    // Pausing is the default (beginners need it); only an explicit false — the
+    // setup toggle switched off for real-exam practice — disables it.
+    allowPause: z.boolean().default(true),
     // Exam whose official marking applies (e.g. "WBPSC_CLERKSHIP"). Optional: the server
     // picks the category's default. Marks are never taken from the client; an old
     // client's `markingScheme` field is stripped (see services/markingScheme.js).
