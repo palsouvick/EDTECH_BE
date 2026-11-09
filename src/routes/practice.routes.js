@@ -16,6 +16,7 @@ const controller = require('../controllers/practice.controller');
 const { z } = require('zod');
 const { slug } = require('../validators/common');
 const { getPatterns } = require('../services/patterns.service');
+const { patternLevels } = require('../services/learn.service');
 
 // Practice is open to anonymous users; identity (if any) is resolved in routes/index.js.
 const router = Router();
@@ -24,9 +25,16 @@ router.get('/topic-view', validate({ query: topicViewQuery }), controller.topicV
 // All languages in one payload, for instant on-device language switching.
 router.get('/topic-summary', validate({ query: topicSummaryQuery }), controller.topicSummary);
 // Question patterns: worked example + "your turn" question per pattern (db/patterns).
-router.get('/patterns', validate({ query: z.object({ subject: slug, topic: slug }) }), (req, res) => {
+// practiceLevels is replaced by the levels that really have questions for the pattern.
+router.get('/patterns', validate({ query: z.object({ subject: slug, topic: slug }) }), async (req, res) => {
+  const { subject, topic } = req.valid.query;
+  const data = getPatterns({ subject, topic });
+  const levels = data.patterns.length ? await patternLevels(subject, topic) : {};
   res.set('Cache-Control', 'public, max-age=300, stale-while-revalidate=3600');
-  res.json({ success: true, data: getPatterns(req.valid.query) });
+  res.json({
+    success: true,
+    data: { ...data, patterns: data.patterns.map((p) => ({ ...p, practiceLevels: levels[p.practiceKey ?? p.key] ?? [] })) },
+  });
 });
 // Cursor-paginated stream for the one-question-at-a-time Practice Arena.
 router.get('/questions', validate({ query: questionStreamQuery }), controller.questionStream);

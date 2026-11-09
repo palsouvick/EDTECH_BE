@@ -150,6 +150,27 @@ test('pattern quiz: selects only matching questions and reports unavailable patt
   assert.equal(unknown.body.error.code, 'UNKNOWN_PATTERN');
 });
 
+test('pattern list offers only the levels that have questions for each pattern', async () => {
+  const res = await fetch(base.replace('/learn', '/practice/patterns?subject=quant&topic=percentage'));
+  const { patterns } = (await res.json()).data;
+  const levels = Object.fromEntries(patterns.map((p) => [p.key, p.practiceLevels]));
+  assert.deepEqual(levels.percent_of_number, ['beginner']);
+  assert.deepEqual(levels.successive_change, [], 'no questions: no practice buttons');
+
+  const hard = await fetch(base.replace('/learn', '/practice/patterns?subject=quant&topic=profit_loss'));
+  const hardPatterns = (await hard.json()).data.patterns;
+  assert.ok(hardPatterns.some((p) => p.practiceLevels.includes('advanced')), 'bank patterns are offered at Advanced');
+});
+
+test('Advanced pattern quiz in a bank chapter serves only that bank pattern', async () => {
+  const { Question: Q } = require('../src/models');
+  const [pattern] = await Q.distinct('pattern', { topic: 'profit_loss', difficulty: { $in: [3, 4, 5] }, authored_by: { $ne: null } });
+  const quiz = await call('/quiz', { subject: 'quant', topic: 'profit_loss', level: 'advanced', pattern });
+  assert.equal(quiz.status, 200);
+  assert.ok(quiz.body.data.questions.length > 0);
+  assert.ok(quiz.body.data.questions.every((q) => q.pattern === pattern), `only ${pattern}`);
+});
+
 test('advanced quiz is timed; a bank chapter without bank questions gets no quiz', async () => {
   const quiz = (await call('/quiz', { subject: 'quant', topic: 'profit_loss', level: 'advanced' })).body.data;
   assert.equal(quiz.questions.length, 10);

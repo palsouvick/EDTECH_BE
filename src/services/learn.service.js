@@ -91,6 +91,7 @@ const baseFilter = (subject, topic) => ({ status: 'PUBLISHED', subject, topic, l
 // { "quant.percentage": { 1: 40, 2: 44, 3: 17, hard: { 3: 54, 4: 90, 5: 56 } } }, cached briefly:
 // it backs every chapter list. Hard-bank questions are counted apart; they serve only Advanced.
 let countsCache = { at: 0, data: null };
+const patternLevelsCache = new Map();
 async function difficultyCounts() {
   if (countsCache.data && Date.now() - countsCache.at < COUNTS_TTL_MS) return countsCache.data;
   const rows = await Question.aggregate([
@@ -109,6 +110,7 @@ async function difficultyCounts() {
 
 function clearLearnCache() {
   countsCache = { at: 0, data: null };
+  patternLevelsCache.clear();
 }
 
 /**
@@ -197,6 +199,32 @@ async function getChapter(subject, topic) {
     previous: neighbour(keys[i - 1]),
     next: neighbour(keys[i + 1]),
   };
+}
+
+/**
+ * { pattern: ['beginner', 'advanced'] }: the levels at which a pattern quiz has
+ * questions, from the same pools createQuiz draws on. The pattern pages show
+ * only these, so a practice button never leads to an empty quiz (the
+ * hand-written practiceLevels in db/patterns drift as the bank changes).
+ */
+async function patternLevels(subject, topic) {
+  if (!SUBJECT_TOPICS[subject]?.includes(topic)) return {};
+  const key = `${subject}.${topic}`;
+  const cached = patternLevelsCache.get(key);
+  if (cached && Date.now() - cached.at < COUNTS_TTL_MS) return cached.data;
+  const pools = levelPools((await difficultyCounts())[key], { subject, topic });
+  const bank = hardBankFor(subject, topic);
+  const found = await Promise.all(pools.map(async (pool) => {
+    if (!pool.count) return [];
+    const match = pool.source === 'hard_bank'
+      ? { ...baseFilter(subject, topic), authored_by: bank.author, difficulty: { $in: HARD_DIFFICULTIES }, pattern: { $in: bank.ids } }
+      : { ...baseFilter(subject, topic), difficulty: { $in: pool.difficulties }, authored_by: { $nin: HARD_AUTHORS }, pattern: { $type: 'string' } };
+    return Question.distinct('pattern', match);
+  }));
+  const data = {};
+  pools.forEach((pool, i) => { for (const pattern of found[i]) (data[pattern] ||= []).push(pool.level); });
+  patternLevelsCache.set(key, { at: Date.now(), data });
+  return data;
 }
 
 function shuffle(list) {
@@ -299,7 +327,8 @@ async function hardCandidates(bank, match, excludedIds = [], excludedFingerprint
     ...match,
     authored_by: bank.author,
     difficulty: { $in: HARD_DIFFICULTIES },
-    pattern: { $in: bank.ids },
+    // A pattern quiz asks for one bank pattern; `match.pattern` must win over the whole bank.
+    pattern: match.pattern ?? { $in: bank.ids },
     ...(excludedIds.length && { _id: { $nin: excludedIds } }),
     ...(excludedFingerprints.length && { duplicate_keys: { $nin: excludedFingerprints } }),
   }).select(`${PUBLIC_QUESTION_FIELDS} pattern_variant`).lean();
@@ -407,6 +436,7 @@ module.exports = {
   createQuiz,
   checkQuiz,
   levelPools,
+  patternLevels,
   selectHard,
   selectHardProfitLoss,
   clearLearnCache,
