@@ -274,9 +274,12 @@ async function submitSession(userId, { sessionId, responses: submitted }) {
     marking: session.config.marking,
     perQuestionLimitSec: session.config.per_question_limit_sec,
     // Paused time is not observable server-side, so only non-pausable sessions get a wall-clock budget.
-    timeBudgetSec: session.config.allow_pause
-      ? session.config.time_limit_min * 60
-      : Math.min(elapsedSec, session.config.time_limit_min * 60) + config.mock.submitGraceSec,
+    // Untimed sessions (time_limit_min null) have no budget at all.
+    timeBudgetSec: session.config.time_limit_min == null
+      ? null
+      : session.config.allow_pause
+        ? session.config.time_limit_min * 60
+        : Math.min(elapsedSec, session.config.time_limit_min * 60) + config.mock.submitGraceSec,
   });
 
   // Conditional transition: of two concurrent submits, exactly one wins.

@@ -17,7 +17,8 @@ const testBody = z
     distribution: z.enum(['balanced', 'smart']).optional(),
     mode: z.enum(['exam', 'practice']).optional(),
     // Omitted = the smart time for the questions actually picked.
-    timeLimitMinutes: z.number().int().min(1).max(300).optional(),
+    // Explicit null = no time limit (an untimed test).
+    timeLimitMinutes: z.number().int().min(1).max(300).nullable().optional(),
     followUpOf: objectId.optional(),
     language: language.default('en'),
   })

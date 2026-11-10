@@ -337,8 +337,9 @@ async function createTest(userId, body) {
 
   const n = ordered.length;
   const recommended = L.smartMinutes(subject, req.difficulty, n);
-  const minutes = req.timeLimitMinutes ?? recommended;
-  if (minutes * 60 < n * 10) throw AppError.unprocessable('TIME_TOO_SHORT', 'The time must allow at least 10 seconds per question');
+  const untimed = req.timeLimitMinutes === null;
+  const minutes = untimed ? null : (req.timeLimitMinutes ?? recommended);
+  if (!untimed && minutes * 60 < n * 10) throw AppError.unprocessable('TIME_TOO_SHORT', 'The time must allow at least 10 seconds per question');
   const practice = req.mode === 'practice';
   const marking = practice ? PRACTICE_MARKING : resolveMarking({ category: CATEGORY, subject });
 

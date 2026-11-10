@@ -338,6 +338,19 @@ test('exam mode: submit, mistakes go to the notebook, report with chapters, conc
   assert.deepEqual(hist.body.data.mastery.map((m) => [m.topic, m.accuracy]), [['percentage', 100], ['profit_loss', 0]]);
 });
 
+test('untimed: timeLimitMinutes null creates a test with no time limit, and it submits normally', async () => {
+  const user = 'untimed_taker';
+  const created = await api('POST', '/custom-tests', { subject: 'quant', topics: ['percentage'], questionCount: 5, mode: 'exam', timeLimitMinutes: null }, user);
+  assert.equal(created.status, 201, JSON.stringify(created.body));
+  const s = created.body.data;
+  assert.equal(s.config.timeLimitMinutes, null);
+  const key = await keyOf(s.sessionId);
+  const responses = s.questions.map((q) => ({ questionId: q.questionId, selectedOptionId: key[q.questionId].right, timeSpentSec: 120 }));
+  const sub = await api('POST', '/mock/submit-session', { sessionId: s.sessionId, responses }, user);
+  assert.equal(sub.status, 200, JSON.stringify(sub.body));
+  assert.equal(sub.body.data.score, 5);
+});
+
 test('practice mode: instant check with explanation; the first answer is final', async () => {
   const user = 'practiser';
   const created = await api('POST', '/custom-tests', { subject: 'quant', topics: ['time_work'], questionCount: 5, mode: 'practice' }, user);

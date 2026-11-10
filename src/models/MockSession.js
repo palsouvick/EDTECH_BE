@@ -46,7 +46,8 @@ const MockSessionSchema = new Schema(
       topic_ids: { type: [String], default: [] },
       language: { type: String, enum: LANGUAGES, default: 'en' },
       question_count: { type: Number, required: true },
-      time_limit_min: { type: Number, required: true },
+      // Null only for untimed custom tests; every timed flow sets a number.
+      time_limit_min: { type: Number, default: null },
       per_question_timer: { type: Boolean, default: false },
       per_question_limit_sec: { type: Number, default: null },
       allow_pause: { type: Boolean, default: true },
