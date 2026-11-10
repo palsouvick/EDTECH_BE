@@ -63,7 +63,7 @@ function loadSpec(subject) {
  * main stage: a Percentage question is valid for SSC, Banking, WBPSC and WB Post
  * alike, while Banking Awareness belongs to Banking only.
  */
-const MAIN_TIER = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE' };
+const MAIN_TIER = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE', WB_POLICE: 'SINGLE' };
 function targetsFor(subject, topic) {
   return catalog
     .filter((c) => c.subjects.some((s) => s.code === subject && s.topics.some((t) => t.code === topic)))

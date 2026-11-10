@@ -157,6 +157,8 @@ async function getAnalytics(userId, sessionId) {
     weakestTopic: topicBreakdown[0]?.marksLost > 0 ? topicBreakdown[0] : null,
     peers,
     cutoffs,
+    // The student's own "why I lost these marks" tags, by seq. Likely reasons are worked out on the page.
+    lossReasons: session.loss_reasons ? Object.fromEntries(Object.entries(session.loss_reasons)) : {},
   };
 }
 

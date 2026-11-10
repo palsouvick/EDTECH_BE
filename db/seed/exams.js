@@ -606,6 +606,127 @@ module.exports = {
     ],
   },
 
+  // ----------------------------------------------------------- WB Police
+  // Added 10 Nov 2026. Read from the West Bengal Police Recruitment Board's own
+  // notices on prb.wb.gov.in (the 2024 recruitment pages list every notice):
+  //  - WBP: "Information to Applicants" (uploads/recruitment/170973908876971.pdf),
+  //    §5 Method of Recruitment and §6 Interview; vacancies from Notice No.
+  //    WBPRB/NOTICE-2026/06 (CONS._WBP_24) of 12.08.2026; written exam date from
+  //    Notice No. WBPRB/NOTICE-2025/19 of 06.11.2025; final result Notice No.
+  //    WBPRB/NOTICE-2026/13 of 24.09.2026.
+  //  - KP: "Information to Applicants" (uploads/recruitment/170903484048472.pdf),
+  //    §5–7; vacancies from Notice No. WBPRB/NOTICE-2026/10 (CONS._LC-KP-24) of
+  //    14.09.2026; prelim date from Notice No. WBPRB/NOTICE-2025/23 of 03.12.2025.
+  //    The 29.10.2026 notice on the tentative Final Written date is a scanned
+  //    image that could not be read, so no final-exam date is stated here.
+  // Both notices say the Board "will decide the prescribed scheme, syllabus":
+  // they print section headings and marks only, no topic-wise syllabus.
+  WBP_CONSTABLE: {
+    full_name: L('Constables in West Bengal Police', 'পশ্চিমবঙ্গ পুলিশে কনস্টেবল', 'पश्चिम बंगाल पुलिस में कांस्टेबल'),
+    pattern_as_of: 'WBP Constable 2024 notice (WBPRB)',
+    source_url: 'https://prb.wb.gov.in/uploads/recruitment/170973908876971.pdf',
+    stages: [
+      {
+        tier: 'SINGLE',
+        name: L('Written Examination', 'লিখিত পরীক্ষা', 'लिखित परीक्षा'),
+        mode: 'OMR',
+        duration_min: 60,
+        languages_note: L('Question paper in Bengali and Nepali.', 'প্রশ্নপত্র বাংলা ও নেপালি ভাষায়।', 'प्रश्नपत्र बांग्ला और नेपाली में।'),
+        note: L(
+          '85 MCQs of 1 mark each; ¼ of the marks of a question is deducted for each wrong answer. Written marks count in the final merit list together with the interview (15 marks).',
+          '১ নম্বরের ৮৫টি MCQ; প্রতিটি ভুল উত্তরে সেই প্রশ্নের নম্বরের ¼ কাটা যায়। লিখিত পরীক্ষার নম্বর ইন্টারভিউ (১৫ নম্বর)-এর সঙ্গে চূড়ান্ত মেধা তালিকায় যোগ হয়।',
+          '1 अंक के 85 MCQ; हर गलत उत्तर पर उस प्रश्न के अंकों का ¼ कटता है। लिखित अंक साक्षात्कार (15 अंक) के साथ अंतिम मेरिट में जुड़ते हैं।',
+        ),
+        sections: [
+          section('gs', L('General Awareness and General Knowledge', 'সাধারণ সচেতনতা ও সাধারণ জ্ঞান', 'सामान्य जागरूकता और सामान्य ज्ञान'), 25, 1, 0.25),
+          section('english', L('English', 'ইংরেজি', 'अंग्रेज़ी'), 10, 1, 0.25),
+          section('quant', L('Elementary Mathematics (Madhyamik standard)', 'প্রাথমিক গণিত (মাধ্যমিক মান)', 'प्रारंभिक गणित (माध्यमिक स्तर)'), 25, 1, 0.25),
+          section('reasoning', L('Reasoning and Logical Analysis', 'যুক্তি ও যৌক্তিক বিশ্লেষণ', 'तर्क और तार्किक विश्लेषण'), 25, 1, 0.25),
+        ],
+      },
+    ],
+    next_stages: [
+      L('Physical Measurement Test (qualifying)', 'শারীরিক মাপ পরীক্ষা (PMT, যোগ্যতামূলক)', 'शारीरिक माप परीक्षण (अर्हक)'),
+      L('Physical Efficiency Test (qualifying)', 'শারীরিক সক্ষমতা পরীক্ষা (PET, যোগ্যতামূলক)', 'शारीरिक दक्षता परीक्षण (अर्हक)'),
+      L('Interview (15 marks)', 'ইন্টারভিউ (১৫ নম্বর)', 'साक्षात्कार (15 अंक)'),
+    ],
+    notes: L(
+      'Eligibility in the 2024 notice: Madhyamik pass; age 18–30 years as on 1 Jan 2024 (relaxations as per the notice); able to speak, read and write Bengali (not applicable to permanent residents of the hill sub-divisions of Darjeeling and Kalimpong). The notice prints section marks only; the Board decides the detailed syllabus.',
+      '২০২৪-এর বিজ্ঞপ্তি অনুযায়ী যোগ্যতা: মাধ্যমিক পাস; ১ জানুয়ারি ২০২৪ তারিখে বয়স ১৮–৩০ বছর (বিজ্ঞপ্তি অনুযায়ী ছাড়); বাংলা বলতে, পড়তে ও লিখতে পারা (দার্জিলিং ও কালিম্পং জেলার পার্বত্য মহকুমার স্থায়ী বাসিন্দাদের ক্ষেত্রে প্রযোজ্য নয়)। বিজ্ঞপ্তিতে শুধু বিভাগভিত্তিক নম্বর আছে; বিস্তারিত সিলেবাস বোর্ড ঠিক করে।',
+      '2024 अधिसूचना के अनुसार पात्रता: माध्यमिक उत्तीर्ण; 1 जनवरी 2024 को आयु 18–30 वर्ष (अधिसूचना के अनुसार छूट); बांग्ला बोलना, पढ़ना और लिखना (दार्जिलिंग और कालिम्पोंग के पर्वतीय अनुमंडलों के स्थायी निवासियों पर लागू नहीं)। अधिसूचना में केवल खंडवार अंक हैं; विस्तृत पाठ्यक्रम बोर्ड तय करता है।',
+    ),
+    cycles: [
+      {
+        year: 2024,
+        stage: L('Written Examination', 'লিখিত পরীক্ষা', 'लिखित परीक्षा'),
+        dates: '30 Nov 2025; final result 24 Sep 2026',
+        vacancies: 11749,
+        vacancies_note: L('8,212 male + 3,537 female (revised notice of 12 Aug 2026)', '৮,২১২ পুরুষ + ৩,৫৩৭ মহিলা (১২ আগস্ট ২০২৬-এর সংশোধিত বিজ্ঞপ্তি)', '8,212 पुरुष + 3,537 महिला (12 अगस्त 2026 की संशोधित सूचना)'),
+        source_url: 'https://prb.wb.gov.in/recruitments/12bf94a84e003c37',
+      },
+    ],
+  },
+
+  KP_CONSTABLE: {
+    full_name: L('Constables / Lady Constables in Kolkata Police', 'কলকাতা পুলিশে কনস্টেবল / লেডি কনস্টেবল', 'कोलकाता पुलिस में कांस्टेबल / लेडी कांस्टेबल'),
+    pattern_as_of: 'KP Constable/Lady Constable 2024 notice (WBPRB)',
+    source_url: 'https://prb.wb.gov.in/uploads/recruitment/170903484048472.pdf',
+    stages: [
+      {
+        tier: 'PRELIMS',
+        name: L('Preliminary Written Test', 'প্রিলিমিনারি লিখিত পরীক্ষা', 'प्रारंभिक लिखित परीक्षा'),
+        mode: 'OMR',
+        duration_min: 60,
+        languages_note: L('Question paper in Bengali and Nepali.', 'প্রশ্নপত্র বাংলা ও নেপালি ভাষায়।', 'प्रश्नपत्र बांग्ला और नेपाली में।'),
+        note: L(
+          'Screening only: prelim marks do not count in the final merit list. 100 MCQs of 1 mark each; ¼ of the allotted marks is deducted for each wrong answer.',
+          'শুধু বাছাইয়ের জন্য: প্রিলিমের নম্বর চূড়ান্ত মেধা তালিকায় যোগ হয় না। ১ নম্বরের ১০০টি MCQ; প্রতিটি ভুল উত্তরে বরাদ্দ নম্বরের ¼ কাটা যায়।',
+          'केवल छँटनी: प्रारंभिक अंक अंतिम मेरिट में नहीं जुड़ते। 1 अंक के 100 MCQ; हर गलत उत्तर पर आवंटित अंकों का ¼ कटता है।',
+        ),
+        sections: [
+          section('gs', L('General Awareness and General Knowledge', 'সাধারণ সচেতনতা ও সাধারণ জ্ঞান', 'सामान्य जागरूकता और सामान्य ज्ञान'), 40, 1, 0.25),
+          section('quant', L('Elementary Mathematics (Madhyamik standard)', 'প্রাথমিক গণিত (মাধ্যমিক মান)', 'प्रारंभिक गणित (माध्यमिक स्तर)'), 30, 1, 0.25),
+          section('reasoning', L('Reasoning', 'যুক্তি', 'तर्क'), 30, 1, 0.25),
+        ],
+      },
+      {
+        tier: 'MAINS',
+        name: L('Final Written Examination', 'চূড়ান্ত লিখিত পরীক্ষা', 'अंतिम लिखित परीक्षा'),
+        mode: 'OMR',
+        duration_min: 60,
+        languages_note: L('Bengali and Nepali, except the English questions.', 'ইংরেজি প্রশ্ন ছাড়া বাংলা ও নেপালি ভাষায়।', 'अंग्रेज़ी प्रश्नों को छोड़कर बांग्ला और नेपाली में।'),
+        note: L(
+          'Held after PMT and PET. 85 MCQs of 1 mark each, ¼ negative marking; these marks count in the final merit list with the interview (15 marks).',
+          'PMT ও PET-এর পরে হয়। ১ নম্বরের ৮৫টি MCQ, ¼ নেগেটিভ মার্কিং; এই নম্বর ইন্টারভিউ (১৫ নম্বর)-এর সঙ্গে চূড়ান্ত মেধা তালিকায় যোগ হয়।',
+          'PMT और PET के बाद। 1 अंक के 85 MCQ, ¼ नकारात्मक अंकन; ये अंक साक्षात्कार (15 अंक) के साथ अंतिम मेरिट में जुड़ते हैं।',
+        ),
+        sections: [
+          section('gs', L('General Awareness and General Knowledge', 'সাধারণ সচেতনতা ও সাধারণ জ্ঞান', 'सामान्य जागरूकता और सामान्य ज्ञान'), 25, 1, 0.25),
+          section('english', L('English', 'ইংরেজি', 'अंग्रेज़ी'), 10, 1, 0.25),
+          section('quant', L('Elementary Mathematics (Madhyamik standard)', 'প্রাথমিক গণিত (মাধ্যমিক মান)', 'प्रारंभिक गणित (माध्यमिक स्तर)'), 25, 1, 0.25),
+          section('reasoning', L('Reasoning and Logical Analysis', 'যুক্তি ও যৌক্তিক বিশ্লেষণ', 'तर्क और तार्किक विश्लेषण'), 25, 1, 0.25),
+        ],
+      },
+    ],
+    next_stages: [L('Interview (15 marks)', 'ইন্টারভিউ (১৫ নম্বর)', 'साक्षात्कार (15 अंक)')],
+    notes: L(
+      'Order of stages in the 2024 notice: Preliminary Written Test → Physical Measurement Test → Physical Efficiency Test → Final Written Examination → Interview. Eligibility: Madhyamik pass; age 18–30 years as on 1 Jan 2024 (relaxations as per the notice); able to read, write and speak Bengali (hill sub-divisions as per the notice). The notice prints section marks only; the Board decides the detailed syllabus.',
+      '২০২৪-এর বিজ্ঞপ্তিতে ধাপের ক্রম: প্রিলিমিনারি লিখিত পরীক্ষা → শারীরিক মাপ পরীক্ষা → শারীরিক সক্ষমতা পরীক্ষা → চূড়ান্ত লিখিত পরীক্ষা → ইন্টারভিউ। যোগ্যতা: মাধ্যমিক পাস; ১ জানুয়ারি ২০২৪ তারিখে বয়স ১৮–৩০ বছর (বিজ্ঞপ্তি অনুযায়ী ছাড়); বাংলা পড়তে, লিখতে ও বলতে পারা (পার্বত্য মহকুমার জন্য বিজ্ঞপ্তি অনুযায়ী)। বিজ্ঞপ্তিতে শুধু বিভাগভিত্তিক নম্বর আছে; বিস্তারিত সিলেবাস বোর্ড ঠিক করে।',
+      '2024 अधिसूचना में चरणों का क्रम: प्रारंभिक लिखित परीक्षा → शारीरिक माप परीक्षण → शारीरिक दक्षता परीक्षण → अंतिम लिखित परीक्षा → साक्षात्कार। पात्रता: माध्यमिक उत्तीर्ण; 1 जनवरी 2024 को आयु 18–30 वर्ष (अधिसूचना के अनुसार छूट); बांग्ला पढ़ना, लिखना और बोलना (पर्वतीय अनुमंडल अधिसूचना के अनुसार)। अधिसूचना में केवल खंडवार अंक हैं; विस्तृत पाठ्यक्रम बोर्ड तय करता है।',
+    ),
+    cycles: [
+      {
+        year: 2024,
+        stage: L('Preliminary Written Test', 'প্রিলিমিনারি লিখিত পরীক্ষা', 'प्रारंभिक लिखित परीक्षा'),
+        dates: '21 Dec 2025; result 13 Oct 2026, PMT & PET under way',
+        vacancies: 3969,
+        vacancies_note: L('3,624 Constables + 345 Lady Constables (revised notice of 14 Sep 2026)', '৩,৬২৪ কনস্টেবল + ৩৪৫ লেডি কনস্টেবল (১৪ সেপ্টেম্বর ২০২৬-এর সংশোধিত বিজ্ঞপ্তি)', '3,624 कांस्टेबल + 345 लेडी कांस्टेबल (14 सितंबर 2026 की संशोधित सूचना)'),
+        note: L('A notice of 29 Oct 2026 gives the tentative Final Written date; see the Board site.', '২৯ অক্টোবর ২০২৬-এর বিজ্ঞপ্তিতে চূড়ান্ত লিখিত পরীক্ষার সম্ভাব্য তারিখ আছে; বোর্ডের সাইট দেখুন।', '29 अक्टूबर 2026 की सूचना में अंतिम लिखित परीक्षा की संभावित तिथि है; बोर्ड की साइट देखें।'),
+        source_url: 'https://prb.wb.gov.in/recruitments/6e50c07d61e0194f',
+      },
+    ],
+  },
+
   // ------------------------------------------------------------- WB Post
   WB_POST_GDS: {
     full_name: L('Gramin Dak Sevak (GDS) Engagement, West Bengal Circle', 'গ্রামীণ ডাক সেবক (GDS), পশ্চিমবঙ্গ সার্কেল', 'ग्रामीण डाक सेवक (GDS), पश्चिम बंगाल सर्कल'),

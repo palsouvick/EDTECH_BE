@@ -3,8 +3,8 @@
 const { Router } = require('express');
 const validate = require('../middleware/validate');
 const { requireAuth } = require('../middleware/auth');
-const { createSessionLimiter, submitSessionLimiter } = require('../middleware/rateLimiters');
-const { createSessionBody, submitSessionBody, sessionIdParams } = require('../validators/mock.schemas');
+const { createSessionLimiter, submitSessionLimiter, lossReasonLimiter } = require('../middleware/rateLimiters');
+const { createSessionBody, submitSessionBody, sessionIdParams, lossReasonBody } = require('../validators/mock.schemas');
 const controller = require('../controllers/mock.controller');
 
 const router = Router();
@@ -18,5 +18,7 @@ router.post('/submit-session', submitSessionLimiter, validate({ body: submitSess
 router.get('/session/:sessionId', validate({ params: sessionIdParams }), controller.getSession);
 // Result dashboard: review with answers + explanations, topic breakdown, percentile, cut-offs. Submitted sessions only.
 router.get('/session/:sessionId/analytics', validate({ params: sessionIdParams }), controller.getAnalytics);
+// "Why did I lose marks?": the student's own reason for one lost question (submitted tests only).
+router.put('/session/:sessionId/loss-reason', lossReasonLimiter, validate({ params: sessionIdParams, body: lossReasonBody }), controller.setLossReason);
 
 module.exports = router;

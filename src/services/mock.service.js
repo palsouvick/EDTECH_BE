@@ -336,7 +336,24 @@ async function getSession(userId, sessionId) {
   };
 }
 
+/**
+ * Saves (or clears, with null) the student's own reason for losing the marks on one question.
+ * Only on their own submitted test, and only for a question that did lose marks.
+ */
+async function setLossReason(userId, sessionId, { seq, reason }) {
+  const session = await MockSession.findOne({ _id: sessionId, user_id: userId }).select('status result.per_question.seq result.per_question.outcome').lean();
+  if (!session) throw AppError.notFound('SESSION_NOT_FOUND', 'Mock session not found');
+  if (session.status !== 'SUBMITTED') throw AppError.conflict('SESSION_NOT_SUBMITTED', 'Tag your mistakes after you submit the test');
+  const q = (session.result?.per_question || []).find((p) => p.seq === seq);
+  if (!q) throw AppError.unprocessable('UNKNOWN_QUESTION', `Question ${seq} is not in this test`);
+  if (q.outcome === 'CORRECT') throw AppError.unprocessable('NOT_A_LOSS', 'This question was answered correctly');
+  const update = reason ? { $set: { [`loss_reasons.${seq}`]: reason } } : { $unset: { [`loss_reasons.${seq}`]: 1 } };
+  const saved = await MockSession.findOneAndUpdate({ _id: sessionId, user_id: userId }, update, { returnDocument: 'after', projection: { loss_reasons: 1 } }).lean();
+  return { lossReasons: saved?.loss_reasons ? Object.fromEntries(Object.entries(saved.loss_reasons)) : {} };
+}
+
 module.exports = {
+  setLossReason,
   createSession,
   submitSession,
   getSession,

@@ -1,7 +1,7 @@
 'use strict';
 
 const { Schema, model } = require('mongoose');
-const { EXAM_CATEGORIES, LANGUAGES, SLUG_RE } = require('./constants');
+const { EXAM_CATEGORIES, LANGUAGES, LOSS_REASONS, SLUG_RE } = require('./constants');
 
 /**
  * One generated mock attempt. The question list and its answer key are frozen
@@ -118,6 +118,11 @@ const MockSessionSchema = new Schema(
       ),
       default: undefined,
     },
+
+    // The student's own reason for each lost question ("Why did I lose marks?"), keyed by seq.
+    // Only the student sets it; the page shows likely reasons inferred from time and traps
+    // until they do. Never changes the score.
+    loss_reasons: { type: Map, of: { type: String, enum: LOSS_REASONS }, default: undefined },
   },
   {
     collection: 'mock_sessions',

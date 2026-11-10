@@ -130,3 +130,30 @@ test('review, marks lost per topic, weakest topic, peers and cut-offs', async ()
   assert.equal(d.cutoffs[0].pct, 75);
   assert.equal(d.cutoffs[0].sourceUrl, 'https://ssc.gov.in/example-notice');
 });
+
+test('"Why did I lose marks?": the student tags lost questions; only their own, only losses, after submitting', async () => {
+  // takeTest(user, 5): seq 1-5 correct, 6-8 wrong, 9-10 unanswered.
+  const id = await takeTest('tagger', 5);
+  const put = (body, user = 'tagger') => api('PUT', `/mock/session/${id}/loss-reason`, body, user);
+
+  assert.deepEqual((await api('GET', `/mock/session/${id}/analytics`, null, 'tagger')).body.data.lossReasons, {}, 'nothing tagged yet');
+
+  assert.deepEqual((await put({ seq: 6, reason: 'calculation' })).body.data.lossReasons, { 6: 'calculation' });
+  assert.deepEqual((await put({ seq: 9, reason: 'time' })).body.data.lossReasons, { 6: 'calculation', 9: 'time' });
+  assert.deepEqual((await put({ seq: 6, reason: 'concept' })).body.data.lossReasons, { 6: 'concept', 9: 'time' }, 'retagging replaces');
+  assert.deepEqual((await put({ seq: 9, reason: null })).body.data.lossReasons, { 6: 'concept' }, 'null clears');
+
+  const correct = await put({ seq: 1, reason: 'guess' });
+  assert.equal(correct.status, 422);
+  assert.equal(correct.body.error.code, 'NOT_A_LOSS');
+  assert.equal((await put({ seq: 42, reason: 'guess' })).status, 422, 'not in this test');
+  assert.equal((await put({ seq: 7, reason: 'luck' })).status, 400, 'only the five reasons');
+  assert.equal((await put({ seq: 7, reason: 'guess' }, 'someone_else')).status, 404, "another student's test");
+
+  const d = (await api('GET', `/mock/session/${id}/analytics`, null, 'tagger')).body.data;
+  assert.deepEqual(d.lossReasons, { 6: 'concept' });
+  assert.equal(d.result.score, 5 * 2 - 3 * 0.5, 'tags never change the score');
+
+  const live = await api('POST', '/mock/create-session', { category: 'SSC', subject: 'quant', questionCount: 10, timeLimitMinutes: 10 }, 'tagger');
+  assert.equal((await api('PUT', `/mock/session/${live.body.data.sessionId}/loss-reason`, { seq: 1, reason: 'guess' }, 'tagger')).status, 409, 'not before submitting');
+});

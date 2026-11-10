@@ -2,7 +2,7 @@
 
 /** Shared enums. Kept in one place so models, validators and indexes never drift. */
 
-const EXAM_CATEGORIES = Object.freeze(['SSC', 'BANK', 'WBPSC', 'WB_POST']);
+const EXAM_CATEGORIES = Object.freeze(['SSC', 'BANK', 'WBPSC', 'WB_POST', 'WB_POLICE']);
 
 // Stage of an exam. SINGLE = one-stage recruitment exams (e.g. WB Postal MTS).
 const TIERS = Object.freeze(['TIER_1', 'TIER_2', 'TIER_3', 'PRELIMS', 'MAINS', 'SINGLE']);
@@ -23,7 +23,11 @@ const DIFFICULTY_BANDS = Object.freeze({
 // Taxonomy codes are stable lowercase slugs: "quant", "profit_loss", "marked_price_discount".
 const SLUG_RE = /^[a-z0-9]+(?:_[a-z0-9]+)*$/;
 
+// Why a student lost the marks on a mock question, as the student tags it on the result page.
+const LOSS_REASONS = Object.freeze(['concept', 'calculation', 'guess', 'misread', 'time']);
+
 module.exports = {
+  LOSS_REASONS,
   EXAM_CATEGORIES,
   TIERS,
   LANGUAGES,

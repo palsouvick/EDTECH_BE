@@ -26,7 +26,8 @@
     "gk:check": "node scripts/seedGkFacts.js --dry-run --dir db/gk/drafts",
     "db:gs-subtopics": "node --env-file-if-exists=.env scripts/tagGsSubtopics.js",
     "db:pyq-source-lines": "node --env-file-if-exists=.env scripts/relabelPyqSourceLines.js",
-    "db:retire-letter-options": "node --env-file-if-exists=.env scripts/retireLetterOptionQuestions.js"
+    "db:retire-letter-options": "node --env-file-if-exists=.env scripts/retireLetterOptionQuestions.js",
+    "db:category-targets": "node --env-file-if-exists=.env scripts/addCategoryTargets.js"
   },
   "dependencies": {
     "compression": "^1.8.2",

@@ -45,4 +45,6 @@ module.exports = {
   // Generation runs an aggregation over the question pool; the most expensive call we serve.
   createSessionLimiter: limiter({ windowMs: 10 * 60_000, limit: 10, code: 'MOCK_CREATE_RATE_LIMITED' }),
   submitSessionLimiter: limiter({ windowMs: 10 * 60_000, limit: 30, code: 'MOCK_SUBMIT_RATE_LIMITED' }),
+  // One tap per lost question on the result page; a 100-question test can need ~100.
+  lossReasonLimiter: limiter({ windowMs: 10 * 60_000, limit: 300, code: 'LOSS_REASON_RATE_LIMITED' }),
 };

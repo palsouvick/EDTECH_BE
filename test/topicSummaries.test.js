@@ -26,8 +26,8 @@ test('sheets pass the content checks (minimums, KaTeX, Bengali script)', () => {
 test('sheets pass TopicSummary model validation, with a syllabus map from the catalogue', async () => {
   for (const s of sheets) await new TopicSummary(s).validate();
   const pl = sheets.find((s) => s.slug === 'quant.profit_loss');
-  assert.deepEqual(pl.syllabus_map.map((m) => m.category), ['SSC', 'BANK', 'WBPSC', 'WB_POST']);
+  assert.deepEqual(pl.syllabus_map.map((m) => m.category), ['SSC', 'BANK', 'WBPSC', 'WB_POST', 'WB_POLICE']);
   assert.deepEqual(pl.syllabus_map[0], { category: 'SSC', tier: 'TIER_1', exam_codes: ['SSC_CGL', 'SSC_CHSL', 'SSC_MTS'] });
   const wb = sheets.find((s) => s.slug === 'gs.west_bengal_gk');
-  assert.deepEqual(wb.syllabus_map.map((m) => m.category), ['WBPSC', 'WB_POST']);
+  assert.deepEqual(wb.syllabus_map.map((m) => m.category), ['WBPSC', 'WB_POST', 'WB_POLICE']);
 });

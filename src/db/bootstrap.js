@@ -14,6 +14,8 @@
  *
  *   4. GK library     db/gk/*.jsonl facts and their questions (scripts/seedGkFacts.js), after
  *                     the bank so links to existing questions resolve; only when the files changed
+ *   4b. exam targets  tags existing questions for newly added exam categories (WB_POLICE),
+ *                     once, and again only when that category's syllabus changes
  *   5. patterns       tags questions with their question pattern (db/patterns/match)
  *                     when the rules or the bank changed
  *
@@ -259,6 +261,29 @@ async function seedGkLibrary() {
 }
 
 /**
+ * Exam categories added after the bank was built. Generation never re-tags existing
+ * questions, so each of these gets its syllabus chapters' existing questions tagged
+ * (scripts/addCategoryTargets.js) — once, and again only when its syllabus in
+ * db/seed/catalog.js changes. Older categories are not listed on purpose: their
+ * targets include admin imports made for one exam, which must not be widened.
+ */
+const AUTO_TAG_CATEGORIES = ['WB_POLICE'];
+
+async function tagCategoryTargets() {
+  if (!config.seed.auto) return;
+  const { addCategoryTargets, syllabusFingerprint } = require('../../scripts/addCategoryTargets');
+  const state = mongoose.connection.db.collection('seed_state');
+  for (const category of AUTO_TAG_CATEGORIES) {
+    const id = `category_targets:${category}`;
+    const fingerprint = syllabusFingerprint(category);
+    if ((await state.findOne({ _id: id }))?.fingerprint === fingerprint) continue;
+    const r = await addCategoryTargets({ category, apply: true, log: () => {} });
+    await state.updateOne({ _id: id }, { $set: { fingerprint, at: new Date(), tagged: r.modified } }, { upsert: true });
+    log(`${category}: ${r.modified} existing questions tagged for this exam category`);
+  }
+}
+
+/**
  * Gives generated General Studies questions their GK subcategory (scripts/tagGsSubtopics.js)
  * when the banks or the header map changed since the last run.
  */
@@ -292,6 +317,7 @@ async function runSyncChain({ force = false } = {}) {
     .catch((e) => warn(`question bank generation failed: ${e.message}`));
   noteQuestionBankState({ status: 'initializing' });
   await seedGkLibrary().catch((e) => warn(`GK library not loaded: ${e.message}`));
+  await tagCategoryTargets().catch((e) => warn(`exam category tagging failed: ${e.message}`));
   await tagGsSubtopics().catch((e) => warn(`GS subcategory tagging failed: ${e.message}`));
   await tagPatterns().catch((e) => warn(`pattern tagging failed: ${e.message}`));
   await refreshQuestionBankMemory().catch(() => {});
@@ -339,4 +365,4 @@ function requestQuestionBankSync() {
   return { started: true };
 }
 
-module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagGsSubtopics, tagPatterns, startQuestionBankSeed, requestQuestionBankSync, sourcesFingerprint };
+module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagCategoryTargets, tagGsSubtopics, tagPatterns, startQuestionBankSeed, requestQuestionBankSync, sourcesFingerprint };

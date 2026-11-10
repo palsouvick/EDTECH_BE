@@ -159,14 +159,14 @@ test('--per-topic tops every chapter up, targets every syllabus category, and re
 
   const quantTopics = catalog[0].subjects.find((s) => s.code === 'quant').topics.map((t) => t.code);
   for (const topic of quantTopics) {
-    for (const category of ['SSC', 'BANK', 'WBPSC', 'WB_POST']) {
+    for (const category of ['SSC', 'BANK', 'WBPSC', 'WB_POST', 'WB_POLICE']) {
       const n = await Question.countDocuments({ subject: 'quant', topic, 'exam_targets.category': category, status: 'PUBLISHED' });
       assert.ok(n >= 30, `quant.${topic} in ${category}: ${n}`);
     }
   }
   assert.ok((await Question.countDocuments({ topic: 'seating_arrangement' })) >= 30);
   const re = await Question.findOne({ code: 'QA-OLD-1' }).lean();
-  assert.deepEqual(re.exam_targets.map((t) => t.category).sort(), ['BANK', 'SSC', 'WBPSC', 'WB_POST']);
+  assert.deepEqual(re.exam_targets.map((t) => t.category).sort(), ['BANK', 'SSC', 'WBPSC', 'WB_POLICE', 'WB_POST']);
 
   // Second run: already topped up, inserts nothing, deletes nothing.
   const before = await Question.countDocuments();

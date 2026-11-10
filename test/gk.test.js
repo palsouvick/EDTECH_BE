@@ -221,7 +221,7 @@ test('seed: only verified facts publish; questions are original practice with th
   assert.equal(q.source_check.status, 'SOURCE_VERIFIED');
   assert.equal(q.source_check.source_url, SRC.url);
   assert.equal(q.question_format, 'DIRECT');
-  assert.deepEqual(q.exam_targets.map((t) => t.category), ['WBPSC'], 'new chapter: only the category whose syllabus covers it');
+  assert.deepEqual(q.exam_targets.map((t) => t.category), ['WBPSC', 'WB_POLICE'], 'new chapter: only the categories whose syllabus covers it');
   assert.equal(q.options.find((o) => o.oid === q.correct_option_id).text.en, 'Kolkata');
 
   const doubtful = await Question.findOne({ code: 'GKQ-IGK-002-1' }).lean();

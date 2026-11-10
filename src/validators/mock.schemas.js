@@ -2,6 +2,7 @@
 
 const { z } = require('zod');
 const { language, category, slug, objectId, optionId, timeSpent } = require('./common');
+const { LOSS_REASONS } = require('../models/constants');
 
 // 20 is kept for existing clients; the CBT setup offers 10 / 25 / 50 / 100.
 const QUESTION_COUNTS = [10, 20, 25, 50, 100];
@@ -64,4 +65,10 @@ const submitSessionBody = z.object({
 
 const sessionIdParams = z.object({ sessionId: objectId });
 
-module.exports = { createSessionBody, submitSessionBody, sessionIdParams, QUESTION_COUNTS };
+// "Why did I lose marks?": the student's reason for one lost question; null clears it.
+const lossReasonBody = z.object({
+  seq: z.number().int().min(1).max(Math.max(...QUESTION_COUNTS)),
+  reason: z.enum(LOSS_REASONS).nullable(),
+});
+
+module.exports = { createSessionBody, submitSessionBody, sessionIdParams, lossReasonBody, QUESTION_COUNTS };

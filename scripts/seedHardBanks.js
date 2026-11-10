@@ -24,7 +24,7 @@ const TARGET_PER_CHAPTER = 200;
 // from the change in quantity), so its bank tops up further to seed them.
 const TARGET_BY_TOPIC = { percentage: 280 };
 const TOPICS = Object.values(HARD_BANKS).filter((b) => b.author === AUTHOR).map((b) => b.topic);
-const TIER_BY_CATEGORY = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE' };
+const TIER_BY_CATEGORY = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE', WB_POLICE: 'SINGLE' };
 const CLERKSHIP_SYLLABUS = 'https://psc.wb.gov.in/Download?param1=Clerkship2024-SchemeSyllabus.pdf&param2=advertisement';
 
 function examTargets(topic) {

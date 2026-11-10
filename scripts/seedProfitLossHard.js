@@ -9,7 +9,7 @@ const { generateQuestions } = require('./generators/profit_loss_hard');
 const AUTHOR = 'profit_loss_hard_generator';
 const TARGET_COUNT = 100;
 const SOURCE_REFERENCE = 'Original practice informed by the WBPSC Clerkship arithmetic syllabus: https://psc.wb.gov.in/Download?param1=Clerkship2024-SchemeSyllabus.pdf&param2=advertisement';
-const TIER_BY_CATEGORY = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE' };
+const TIER_BY_CATEGORY = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE', WB_POLICE: 'SINGLE' };
 
 function examTargets() {
   return catalog

@@ -32,7 +32,7 @@ const catalog = require('../db/seed/catalog');
 
 const DIR = path.join(__dirname, '../db/gk');
 const AUTHOR = 'gk_library';
-const MAIN_TIER = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE' };
+const MAIN_TIER = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE', WB_POLICE: 'SINGLE' };
 
 const sha = (v) => crypto.createHash('sha256').update(typeof v === 'string' ? v : JSON.stringify(v)).digest('hex');
 const pair = ([en, bn]) => ({ en, bn });

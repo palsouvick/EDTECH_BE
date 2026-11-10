@@ -20,7 +20,7 @@ const SUBJECT_FILES = fs
   .sort()
   .map((f) => path.basename(f, '.js'));
 // The first-stage paper each category's mocks and sheets are aimed at.
-const MAIN_TIER = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE' };
+const MAIN_TIER = { SSC: 'TIER_1', BANK: 'PRELIMS', WBPSC: 'PRELIMS', WB_POST: 'SINGLE', WB_POLICE: 'SINGLE' };
 
 /** Categories whose syllabus has this subject.topic, with their exam codes. */
 function syllabusMapFor(subject, topic) {

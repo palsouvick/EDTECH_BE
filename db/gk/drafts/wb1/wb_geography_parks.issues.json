@@ -1,0 +1,30 @@
+[
+  {
+    "file": "scripts/generators/factbank/west_bengal_gk.js",
+    "stem": "Which is the highest peak in West Bengal?",
+    "problem": "Answer Sandakphu is the usual exam answer, but the official West Bengal Tourism page only calls Sandakphu and Phalut \"two of the highest peaks in West Bengal\"; it gives no height and does not say which is highest. The explanation figure (about 3,636 m) is not on the fetched page. Answer is plausible but not supported by an official source fetched here.",
+    "source_url": "https://www.wbtourism.gov.in/Wildlife/details?template_id=1&id=63d80f25e4bbd858c20633c6",
+    "quote": "Sandakphu and Phalut, two of the highest peaks in West Bengal, are located right inside the park."
+  },
+  {
+    "file": "scripts/generators/factbank/west_bengal_gk_2.js",
+    "stem": "Which is the second highest peak in West Bengal?",
+    "problem": "Answer Phalut is not supported: the official page lists Sandakphu and Phalut together as \"two of the highest peaks\" without ranking them.",
+    "source_url": "https://www.wbtourism.gov.in/Wildlife/details?template_id=1&id=63d80f25e4bbd858c20633c6",
+    "quote": "Sandakphu and Phalut, two of the highest peaks in West Bengal, are located right inside the park."
+  },
+  {
+    "file": "scripts/generators/factbank/west_bengal_gk_2.js",
+    "stem": "The Sundarbans delta is formed by which rivers?",
+    "problem": "Answer lists Ganga, Brahmaputra and Meghna. The official West Bengal Tourism page names only the Ganga and the Brahmaputra; the Meghna is not mentioned. The answer may be defensible in other texts but is not supported by this official source.",
+    "source_url": "https://www.wbtourism.gov.in/district/detail/South%2024%20Parganas",
+    "quote": "It is a delta of the two great Indian River - The Ganga and The Brahamputra which converges on the Bengal basin."
+  },
+  {
+    "file": "scripts/generators/factbank/west_bengal_gk.js",
+    "stem": "What is the main purpose of the Farakka Barrage?",
+    "problem": "The answer says the water is diverted \"to flush silt\". The official Farakka Barrage Project page says the Feeder Canal carries Ganga water into the Bhagirathi-Hooghly system \"mainly for the preservation of Kolkata Port\" and does not mention silt flushing. Core idea (Kolkata Port) is right; the \"flush silt\" detail is unsupported.",
+    "source_url": "https://fbp.gov.in/",
+    "quote": "The length of the Feeder canal is 38.38 km which originates in the upstream of the barrage to carry a discharge of 40,000 cusecs into the river Bhagirathi-Hooghly river system, mainly for the preservation of Kolkata Port."
+  }
+]

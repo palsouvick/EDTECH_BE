@@ -98,15 +98,16 @@ test('importer reports unknown taxonomy instead of guessing', () => {
   assert.match(r.error, /#7: unknown topic "Trigonometry"/);
 });
 
-test('GET /categories: four categories in display order with exams and counts', async () => {
+test('GET /categories: five categories in display order with exams and counts', async () => {
   const { status, body } = await get('/categories?language=bn');
   assert.equal(status, 200);
   const cats = body.data.categories;
-  assert.deepEqual(cats.map((c) => c.code), ['SSC', 'BANK', 'WBPSC', 'WB_POST']);
+  assert.deepEqual(cats.map((c) => c.code), ['SSC', 'BANK', 'WBPSC', 'WB_POST', 'WB_POLICE']);
   assert.deepEqual(cats[0].exams.map((e) => e.name.en), ['CGL', 'CHSL', 'MTS']);
   assert.deepEqual(cats.find((c) => c.code === 'WB_POST').exams.map((e) => e.name.en), ['GDS', 'Postman', 'MTS']);
   // 9 WBCS + 8 SSC CGL + 8 Bank PO in the sample file; the English-only PYQ is excluded in Bengali.
-  assert.deepEqual(cats.map((c) => c.questionCount), [8, 8, 9, 0]);
+  assert.deepEqual(cats.find((c) => c.code === 'WB_POLICE').exams.map((e) => e.name.en), ['WBP Constable', 'Kolkata Police Constable']);
+  assert.deepEqual(cats.map((c) => c.questionCount), [8, 8, 9, 0, 0]);
 });
 
 test('GET /categories/:category: subjects with language-aware question counts', async () => {
@@ -255,5 +256,22 @@ test('GET /categories/:category: exam details for the info panel, with sources',
 
   const gds = (await get('/categories/WB_POST?language=en')).body.data.category.exams.find((e) => e.code === 'WB_POST_GDS');
   assert.equal(gds.stages.length, 0);
+
+  // WB Police: patterns from the WBPRB 2024 notices (db/seed/exams.js).
+  const police = (await get('/categories/WB_POLICE?language=en')).body.data.category;
+  assert.equal(police.website, 'https://prb.wb.gov.in');
+  const wbp = police.exams.find((e) => e.code === 'WBP_CONSTABLE');
+  assert.equal(wbp.stages.length, 1);
+  assert.deepEqual(wbp.stages[0].sections.map((x) => [x.subject, x.marks]), [['gs', 25], ['english', 10], ['quant', 25], ['reasoning', 25]]);
+  assert.equal(wbp.stages[0].totalMarks, 85);
+  assert.equal(wbp.stages[0].durationMin, 60);
+  assert.ok(wbp.stages[0].sections.every((x) => x.negative === 0.25));
+  const kp = police.exams.find((e) => e.code === 'KP_CONSTABLE');
+  assert.deepEqual(kp.stages.map((st) => [st.tier, st.totalMarks]), [['PRELIMS', 100], ['MAINS', 85]]);
+  assert.ok(!kp.stages[0].sections.some((x) => x.subject === 'english'), 'the KP prelim has no English section');
+  for (const e of [wbp, kp]) {
+    assert.match(e.sourceUrl, /^https:\/\/prb\.wb\.gov\.in\//);
+    assert.ok(e.cycles.every((c) => /^https:\/\/prb\.wb\.gov\.in\//.test(c.sourceUrl)));
+  }
   assert.match(gds.selectionNote.en, /no written exam/i);
 });

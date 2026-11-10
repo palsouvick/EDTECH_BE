@@ -52,6 +52,7 @@ const CARDS = Object.freeze([
       heritage_tourism: L('Heritage and Tourism', 'ঐতিহ্য ও পর্যটন'),
       economy_industry: L('Economy and Industry', 'অর্থনীতি ও শিল্প'),
       government_institutions: L('Government Institutions', 'সরকারি প্রতিষ্ঠান'),
+      schemes: L('State Government Schemes', 'রাজ্য সরকারের প্রকল্প'),
       sports: L('Sports', 'খেলাধুলা'),
       firsts: L('Firsts and Milestones', 'প্রথম ও মাইলফলক'),
     },

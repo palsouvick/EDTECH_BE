@@ -293,4 +293,24 @@ module.exports = [
       gs(L('General Knowledge', 'সাধারণ জ্ঞান', 'सामान्य ज्ञान'), ['west_bengal_gk']),
     ],
   },
+  {
+    // Sections as the WBPRB 2024 notices name them (db/seed/exams.js). The notices print no
+    // topic-wise syllabus, so chapters are the standard ones for each section, with West
+    // Bengal GK added to General Awareness; no syllabus_status is claimed for them.
+    code: 'WB_POLICE',
+    name: L('WB Police', 'পশ্চিমবঙ্গ পুলিশ', 'पश्चिम बंगाल पुलिस'),
+    conducting_body: L('West Bengal Police Recruitment Board', 'পশ্চিমবঙ্গ পুলিশ রিক্রুটমেন্ট বোর্ড', 'पश्चिम बंगाल पुलिस भर्ती बोर्ड'),
+    website: 'https://prb.wb.gov.in',
+    display_order: 5,
+    exams: [
+      exam('WBP_CONSTABLE', 'WBP Constable', 'WBP কনস্টেবল', 'WBP कांस्टेबल'),
+      exam('KP_CONSTABLE', 'Kolkata Police Constable', 'কলকাতা পুলিশ কনস্টেবল', 'कोलकाता पुलिस कांस्टेबल'),
+    ],
+    subjects: [
+      { ...quant, name: L('Elementary Mathematics', 'প্রাথমিক গণিত', 'प्रारंभिक गणित') },
+      reasoning(L('Reasoning and Logical Analysis', 'যুক্তি ও যৌক্তিক বিশ্লেষণ', 'तर्क और तार्किक विश्लेषण')),
+      english,
+      gs(L('General Awareness and General Knowledge', 'সাধারণ সচেতনতা ও সাধারণ জ্ঞান', 'सामान्य जागरूकता और सामान्य ज्ञान'), ['west_bengal_gk', 'indian_gk', 'static_gk', 'important_days']),
+    ],
+  },
 ];

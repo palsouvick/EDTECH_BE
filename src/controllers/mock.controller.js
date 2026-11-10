@@ -27,4 +27,9 @@ async function getAnalytics(req, res) {
   res.json({ success: true, data });
 }
 
-module.exports = { createSession, submitSession, getSession, getAnalytics };
+async function setLossReason(req, res) {
+  const data = await mockService.setLossReason(req.user.id, req.valid.params.sessionId, req.valid.body);
+  res.json({ success: true, data });
+}
+
+module.exports = { createSession, submitSession, getSession, getAnalytics, setLossReason };

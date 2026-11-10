@@ -29,6 +29,8 @@ const CATEGORY_MAP = {
   WBPSC_CLERKSHIP: { category: 'WBPSC', tier: 'SINGLE' },
   WBPSC_IDO: { category: 'WBPSC', tier: 'SINGLE' },
   WB_POST: { category: 'WB_POST', tier: 'SINGLE' },
+  WBP_CONSTABLE: { category: 'WB_POLICE', tier: 'SINGLE' },
+  KP_CONSTABLE: { category: 'WB_POLICE', tier: 'SINGLE' },
 };
 
 const SUBJECT_MAP = {
