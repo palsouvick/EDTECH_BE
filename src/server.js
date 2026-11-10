@@ -5,11 +5,15 @@ const { connect, disconnect } = require('./db/connection');
 const { createApp } = require('./app');
 const { ensureAdmin } = require('./services/adminBootstrap');
 const { bootstrapData, startQuestionBankSeed } = require('./db/bootstrap');
+const { refreshQuestionBankMemory } = require('./services/questionBankStatus.service');
 const statsBuffer = require('./services/questionStats.buffer');
 
 async function main() {
   await connect();
   await bootstrapData().catch((e) => console.error('data bootstrap failed', e));
+  // Load the durable question-bank state so /healthz reports the real status
+  // (completed / initializing / not yet initialized) from the first request.
+  await refreshQuestionBankMemory().catch(() => {});
   await ensureAdmin().catch((e) => console.error('admin bootstrap failed', e.message));
   statsBuffer.start();
 

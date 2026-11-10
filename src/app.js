@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const config = require('./config');
 const apiRoutes = require('./routes');
 const { notFoundHandler, errorHandler } = require('./middleware/errorHandler');
+const { getQuestionBankMemory } = require('./services/questionBankStatus.service');
 
 function createApp() {
   const app = express();
@@ -23,7 +24,19 @@ function createApp() {
 
   app.get('/healthz', (_req, res) => {
     const up = mongoose.connection.readyState === 1;
-    res.status(up ? 200 : 503).json({ status: up ? 'ok' : 'degraded' });
+    // The question bank reports its own state alongside the app's: a bank that
+    // is still initializing on a fresh deploy must NOT fail the health check
+    // (the app serves normally while it fills), but the state is visible.
+    // Served from the in-memory mirror — no database query on the health path.
+    const bank = getQuestionBankMemory();
+    res.status(up ? 200 : 503).json({
+      status: up ? 'ok' : 'degraded',
+      questionBank: {
+        status: bank.status,
+        version: bank.version,
+        is_initialized: Boolean(bank.last_completed_at) || (bank.total_questions ?? 0) > 0,
+      },
+    });
   });
 
   app.use('/api/v1', apiRoutes);
