@@ -11,6 +11,7 @@ router.use(optionalAuth, apiLimiter);
 router.use('/auth', require('./auth.routes'));
 router.use('/me', require('./me.routes'));
 router.use('/catalog', require('./catalog.routes'));
+router.use('/question-bank', require('./questionBank.routes'));
 router.use('/practice', require('./practice.routes'));
 router.use('/learn', require('./learn.routes'));
 router.use('/gk', require('./gk.routes'));

@@ -12,6 +12,8 @@ const { clearCatalogCache } = require('../services/catalog.service');
 const AppError = require('../utils/AppError');
 const multer = require('multer');
 const bulkImport = require('../services/questionBulkImport.service');
+const { readQuestionBankState, presentAdminStatus } = require('../services/questionBankStatus.service');
+const { requestQuestionBankSync, sourcesFingerprint } = require('../db/bootstrap');
 const questionEdit = require('../services/questionEdit.service');
 const { classifyLegacyQuestion, hasVerifiedPaperReference, isOfficialSource } = require('../services/questionProvenance');
 
@@ -69,6 +71,32 @@ router.get('/overview', async (_req, res) => {
   const questions = Object.fromEntries(QUESTION_STATUS.map((s) => [s, 0]));
   for (const r of byStatus) questions[r._id] = r.n;
   res.json({ success: true, data: { questions, openReports, users, verifiedPyqs: pyq } });
+});
+
+/** Question Bank Health: full sync state for admins (version, status, totals, last run, live progress). */
+router.get('/question-bank/status', async (_req, res) => {
+  const state = await readQuestionBankState();
+  let source_current = null;
+  try {
+    source_current = state.source_fingerprint ? sourcesFingerprint() === state.source_fingerprint : false;
+  } catch { /* fingerprint unreadable — report unknown rather than fail the status */ }
+  res.json({ success: true, data: presentAdminStatus(state, { source_current }) });
+});
+
+/**
+ * Force Question Bank Sync (recovery/manual control only — normal deploys
+ * sync automatically at startup). Re-runs the existing startup synchronisation
+ * in the background with the fingerprint gate bypassed; the caller polls
+ * GET /question-bank/status for progress and the result. Admin-only: this
+ * router is behind requireAdmin, and the dev x-user-id header never qualifies.
+ */
+router.post('/question-bank/sync', async (_req, res) => {
+  const { started, reason } = requestQuestionBankSync();
+  if (!started) {
+    throw new AppError(409, 'SYNC_ALREADY_RUNNING', 'A question bank sync is already running; poll the status endpoint for its progress');
+  }
+  const state = await readQuestionBankState();
+  res.status(202).json({ success: true, data: { started: true, ...presentAdminStatus(state, {}) } });
 });
 
 const listQuery = z.object({

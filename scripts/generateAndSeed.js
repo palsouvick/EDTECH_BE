@@ -355,7 +355,7 @@ async function nextCodeNumber(prefix, dryRun) {
  * `embedded`: called from the running server (src/db/bootstrap.js), which owns
  * the connection and builds indexes itself.
  */
-async function main(opts = parseArgs(process.argv.slice(2)), { embedded = false } = {}) {
+async function main(opts = parseArgs(process.argv.slice(2)), { embedded = false, onProgress = null } = {}) {
   const started = Date.now();
   console.log(`Seeding ${opts.perTopic !== null ? `${opts.perTopic} questions/chapter` : `${opts.count} questions/subject`} [${opts.subjects.join(', ')}] seed=${opts.seed} batch=${opts.batch}${opts.dryRun ? ' (dry run)' : ''}`);
 
@@ -378,7 +378,7 @@ async function main(opts = parseArgs(process.argv.slice(2)), { embedded = false 
     }
   }
 
-  const totals = { generated: 0, inserted: 0, skipped: 0 };
+  const totals = { generated: 0, inserted: 0, skipped: 0, updated: 0, failed: 0 };
   for (const [si, subject] of opts.subjects.entries()) {
     const meta = SUBJECTS[subject];
     seed(opts.seed + si * 7919);
@@ -459,6 +459,15 @@ async function main(opts = parseArgs(process.argv.slice(2)), { embedded = false 
         totals.skipped += r.skipped;
       }
       console.log(`Seeded ${Math.min(i + batch.length, docs.length)}/${docs.length} ${meta.label} questions...`);
+      if (onProgress) {
+        onProgress({
+          subject,
+          subjectIndex: si,
+          subjectsTotal: opts.subjects.length,
+          doneInSubject: Math.min(i + batch.length, docs.length),
+          subjectTotal: docs.length,
+        });
+      }
     }
     console.log(`âœ” ${meta.label}: ${opts.dryRun ? `${docs.length} validated` : `${done} inserted`}`);
   }

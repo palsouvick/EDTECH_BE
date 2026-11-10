@@ -20,6 +20,8 @@ npm run dev                   # or: npm start
 
 `AUTO_SEED=false` turns off everything except the admin step. The `db:indexes`, `db:seed` and `db:generate` scripts below still work for manual runs: importing more files, `--overwrite-summaries`, `--append`, `--reset`.
 
+**Question bank versioning and sync status.** The dataset carries an explicit version (`QUESTION_BANK_VERSION` in [src/db/questionBankVersion.js](src/db/questionBankVersion.js)) alongside the source fingerprint. The `seed_state/question_bank` record tracks the sync lifecycle — `status` (`idle`/`initializing`/`completed`/`failed`), `total_questions`, `last_started_at`, `last_completed_at`, `last_error` and the last run's counters — and is safe across sleep/wake restarts: an interrupted run is reconciled on the next start, never duplicated. Question *files* (`db/seed`, `db/pyq`) are pre-flight validated as a whole and then synced, not just inserted when missing: a source edit updates the stored question in place (matched by `code`, or by its PYQ paper reference when the stem changed), while stats, status and admin edits (question `version > 1`) are never overwritten. Status is visible at `GET /healthz` (a compact `questionBank` block), `GET /api/v1/question-bank/status` (public, minimal) and `GET /api/v1/admin/question-bank/status` (admin detail, incl. live progress). An admin can also re-run the whole synchronisation with `POST /api/v1/admin/question-bank/sync` (202, background; poll the status endpoint) — a recovery control, never a deployment requirement.
+
 ### Generated question bank (Copilot generators)
 
 [scripts/generateAndSeed.js](scripts/generateAndSeed.js) builds bilingual EN+BN questions from the

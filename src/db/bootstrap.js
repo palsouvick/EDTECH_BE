@@ -31,8 +31,18 @@ const os = require('node:os');
 const path = require('node:path');
 const mongoose = require('mongoose');
 const config = require('../config');
+const { Question } = require('../models');
 const { ensureIndexes } = require('./ensureIndexes');
 const { DEFAULT_QUESTION_FILE, pyqFiles, seedReferenceData, importQuestionFile } = require('./seedData');
+const { QUESTION_BANK_VERSION } = require('./questionBankVersion');
+const {
+  writeQuestionBankState,
+  noteQuestionBankState,
+  noteSyncProgress,
+  clearSyncProgress,
+  getQuestionBankMemory,
+  refreshQuestionBankMemory,
+} = require('../services/questionBankStatus.service');
 
 const log = (msg) => console.log(`[bootstrap] ${msg}`);
 const warn = (msg) => console.warn(`[bootstrap] ${msg}`);
@@ -41,10 +51,24 @@ async function bootstrapData() {
   if (!config.seed.auto) return;
   if (!mongoose.connection.config.autoIndex) await ensureIndexes(mongoose.connection, { log, warn });
   await seedReferenceData({ log });
+  // File questions sync (not just insert-missing): a source edit to a question
+  // updates the stored record in place, admin edits are protected, and every
+  // file is pre-flight validated as a whole before anything from it is written.
+  const fileTotals = { inserted: 0, updated: 0, skipped: 0, protected: 0, failed: 0 };
   for (const file of [DEFAULT_QUESTION_FILE, ...pyqFiles()]) {
-    const { errors } = await importQuestionFile(file, { onlyMissing: true, log, warn: () => {} });
-    errors.forEach((e) => warn(`${path.basename(file)}: question skipped: ${e}`));
+    const r = await importQuestionFile(file, { sync: true, preflight: true, log, warn: () => {} });
+    r.errors.forEach((e) => warn(`${path.basename(file)}: question skipped: ${e}`));
+    (r.warnings || []).forEach((w) => warn(`${path.basename(file)}: ${w}`));
+    fileTotals.inserted += r.written;
+    fileTotals.updated += r.updated;
+    fileTotals.skipped += r.skipped;
+    fileTotals.protected += r.protected;
+    fileTotals.failed += r.errors.length;
   }
+  if (fileTotals.updated || fileTotals.inserted) {
+    log(`question files synced: ${fileTotals.inserted} new, ${fileTotals.updated} updated, ${fileTotals.skipped} unchanged, ${fileTotals.protected} admin-protected, ${fileTotals.failed} failed`);
+  }
+  noteQuestionBankState({ last_file_sync: fileTotals });
   // Vocabulary Bank (db/vocabulary): a bad file is reported, never fatal to startup.
   try {
     const v = await require('../../scripts/seedVocabularyBank').ensureVocabularyBank({ log: warn });
@@ -53,6 +77,7 @@ async function bootstrapData() {
   } catch (e) {
     warn(`vocabulary bank not loaded: ${e.message}`);
   }
+  return { fileTotals };
 }
 
 const LOCK_ID = 'question_bank';
@@ -100,32 +125,101 @@ function sourcesFingerprint() {
  * question files (see sourcesFingerprint). Otherwise it is a single read.
  * Top-up is idempotent: existing questions are kept, only the gap is added.
  */
-async function seedQuestionBank() {
+async function seedQuestionBank({ force = false } = {}) {
   const perTopic = config.seed.questionsPerTopic;
-  if (!config.seed.auto || perTopic <= 0) return;
+  if (!config.seed.auto || perTopic <= 0) return { skipped: 'disabled' };
   if (config.isProd && !config.seed.generationInProduction) {
     log('question bank generation skipped in production (offline step; the committed dataset is the source of truth — set SEED_GENERATION_IN_PROD=true to override)');
-    return;
+    return { skipped: 'production' };
   }
   const state = mongoose.connection.db.collection('seed_state');
   const fingerprint = sourcesFingerprint();
   const done = await state.findOne({ _id: 'question_bank' });
-  if (done?.perTopic === perTopic && done?.fingerprint === fingerprint) return;
+  // A run counts as complete when it stamped `status: 'completed'` — or, for
+  // records written before status existed, when it left a fingerprint stamp.
+  // An 'initializing'/'failed' stamp means a run was interrupted (e.g. the
+  // host slept mid-generation): fall through and reconcile, which is safe
+  // because generation only ever tops up and dedupes by code/stem.
+  const stampedComplete = done && (done.status === 'completed' || (!done.status && done.fingerprint && done.at));
+  const upToDate = stampedComplete && done.perTopic === perTopic && done.fingerprint === fingerprint
+    && done.question_bank_version === QUESTION_BANK_VERSION;
+  if (upToDate && !force) return { skipped: 'up-to-date' };
+  if (stampedComplete && !done.status && !force && done.perTopic === perTopic && done.fingerprint === fingerprint) {
+    // One-time backfill for pre-upgrade records: add the status fields once,
+    // without re-running generation for a bank that is already current.
+    await writeQuestionBankState({
+      status: 'completed',
+      question_bank_version: QUESTION_BANK_VERSION,
+      source_fingerprint: fingerprint,
+      total_questions: await Question.countDocuments(),
+      last_completed_at: done.at ?? null,
+    });
+    return { skipped: 'backfilled' };
+  }
 
   const locks = mongoose.connection.db.collection('seed_locks');
-  if (!(await acquireLock(locks))) return log('question bank is being generated by another instance');
+  if (!(await acquireLock(locks))) {
+    noteQuestionBankState({ status: 'initializing' });
+    log('question bank is being generated by another instance');
+    return { skipped: 'locked' };
+  }
+  await writeQuestionBankState({
+    status: 'initializing',
+    question_bank_version: QUESTION_BANK_VERSION,
+    source_fingerprint: fingerprint,
+    fingerprint,
+    perTopic,
+    last_started_at: new Date(),
+    last_error: null,
+  });
   try {
     // Required lazily: the generators are only needed when the bank changes.
     const generator = require('../../scripts/generateAndSeed');
-    log(`topping every chapter up to ${perTopic} generated questions`);
-    const totals = await generator.main(generator.parseArgs(['--per-topic', String(perTopic)]), { embedded: true });
+    log(`topping every chapter up to ${perTopic} generated questions (bank v${QUESTION_BANK_VERSION}${force ? ', forced sync' : ''})`);
+    const totals = await generator.main(generator.parseArgs(['--per-topic', String(perTopic)]), {
+      embedded: true,
+      onProgress: ({ subject, subjectIndex, subjectsTotal, doneInSubject, subjectTotal }) => {
+        noteSyncProgress({
+          percent: Math.min(100, Math.round((100 * (subjectIndex + doneInSubject / Math.max(1, subjectTotal))) / subjectsTotal)),
+          subject,
+          done: doneInSubject,
+          total: subjectTotal,
+        });
+      },
+    });
     const hardPool = await require('../../scripts/seedProfitLossHard').ensureHardProfitLossQuestions();
     const hardBanks = await require('../../scripts/seedHardBanks').ensureHardBanks();
-    await state.updateOne({ _id: 'question_bank' }, { $set: { perTopic, fingerprint, at: new Date(), inserted: totals.inserted } }, { upsert: true });
-    log(`question bank ready: ${totals.inserted} new questions`);
+    const last_run = {
+      inserted: totals.inserted,
+      updated: totals.updated ?? 0,
+      skipped: totals.skipped,
+      failed: totals.failed ?? 0,
+      protected: totals.protected ?? 0,
+    };
+    const total_questions = await Question.countDocuments();
+    await writeQuestionBankState({
+      status: 'completed',
+      question_bank_version: QUESTION_BANK_VERSION,
+      source_fingerprint: fingerprint,
+      fingerprint,
+      perTopic,
+      last_completed_at: new Date(),
+      last_error: null,
+      last_run,
+      total_questions,
+      // Legacy fields, kept so older readers of this record keep working.
+      at: new Date(),
+      inserted: totals.inserted,
+    });
+    log(`question bank ready: ${totals.inserted} new questions (${total_questions} total, v${QUESTION_BANK_VERSION})`);
     log(`Profit & Loss hard bank ready: ${hardPool.total} questions (${hardPool.inserted} new)`);
     for (const b of hardBanks) log(`${b.topic} hard bank ready: ${b.total} questions (${b.inserted} new)`);
+    return { ...last_run, total_questions };
+  } catch (e) {
+    await writeQuestionBankState({ status: 'failed', last_error: e.message }).catch(() => {});
+    throw e;
   } finally {
+    clearSyncProgress();
     await locks.deleteOne({ _id: LOCK_ID });
   }
 }
@@ -179,16 +273,70 @@ async function tagGsSubtopics() {
   log(`GS subcategories: ${s.updated} questions tagged (${s.untagged} without a fitting subcategory)`);
 }
 
-/** Fire-and-forget: the API is already serving while the bank fills and gets tagged. */
-function startQuestionBankSeed() {
-  seedQuestionBank()
-    .catch((e) => warn(`question bank generation failed: ${e.message}`))
-    .then(() => seedGkLibrary())
-    .catch((e) => warn(`GK library not loaded: ${e.message}`))
-    .then(() => tagGsSubtopics())
-    .catch((e) => warn(`GS subcategory tagging failed: ${e.message}`))
-    .then(() => tagPatterns())
-    .catch((e) => warn(`pattern tagging failed: ${e.message}`));
+/**
+ * The full background chain, shared by startup and the admin force-sync so
+ * there is only ever one synchronisation implementation. A single in-flight
+ * guard (plus the seed_locks document across instances) keeps a startup run
+ * and an admin-triggered run from ever overlapping.
+ */
+let syncInFlight = null;
+
+async function runSyncChain({ force = false } = {}) {
+  // The status stays 'initializing' for the whole chain, not just the bank
+  // generation: the GK stage can still be adding questions after the bank's
+  // own 'completed' stamp, and the status endpoints prefer this in-process
+  // state while it says initializing. The durable record is re-read at the
+  // end so the reported state settles on the truth.
+  noteQuestionBankState({ status: 'initializing' });
+  await seedQuestionBank({ force })
+    .catch((e) => warn(`question bank generation failed: ${e.message}`));
+  noteQuestionBankState({ status: 'initializing' });
+  await seedGkLibrary().catch((e) => warn(`GK library not loaded: ${e.message}`));
+  await tagGsSubtopics().catch((e) => warn(`GS subcategory tagging failed: ${e.message}`));
+  await tagPatterns().catch((e) => warn(`pattern tagging failed: ${e.message}`));
+  await refreshQuestionBankMemory().catch(() => {});
 }
 
-module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagGsSubtopics, tagPatterns, startQuestionBankSeed };
+/** Fire-and-forget: the API is already serving while the bank fills and gets tagged. */
+function startQuestionBankSeed() {
+  if (syncInFlight) return;
+  syncInFlight = runSyncChain().finally(() => { syncInFlight = null; });
+}
+
+/**
+ * Admin recovery action ("Force Question Bank Sync"): re-runs the exact
+ * startup synchronisation — reference/file sync with update-changed and
+ * pre-flight validation, then the bank top-up with the fingerprint check
+ * bypassed (force), then the taggers. It invents no second import path; all
+ * locks, dedupe and validation of the normal flow apply unchanged.
+ * Returns { started: false, reason } when a sync is already running.
+ */
+function requestQuestionBankSync() {
+  if (syncInFlight) return { started: false, reason: 'already_running' };
+  noteQuestionBankState({ status: 'initializing', last_started_at: new Date() });
+  syncInFlight = (async () => {
+    const { fileTotals } = (await bootstrapData().catch((e) => {
+      warn(`force sync: reference/file sync failed: ${e.message}`);
+      return { fileTotals: null };
+    })) ?? { fileTotals: null };
+    await runSyncChain({ force: true });
+    if (fileTotals) {
+      const { last_run } = getQuestionBankMemory();
+      if (last_run) {
+        await writeQuestionBankState({
+          last_run: {
+            inserted: (last_run.inserted ?? 0) + fileTotals.inserted,
+            updated: (last_run.updated ?? 0) + fileTotals.updated,
+            skipped: (last_run.skipped ?? 0) + fileTotals.skipped,
+            failed: (last_run.failed ?? 0) + fileTotals.failed,
+            protected: (last_run.protected ?? 0) + fileTotals.protected,
+          },
+          total_questions: await Question.countDocuments(),
+        }).catch(() => {});
+      }
+    }
+  })().finally(() => { syncInFlight = null; });
+  return { started: true };
+}
+
+module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagGsSubtopics, tagPatterns, startQuestionBankSeed, requestQuestionBankSync, sourcesFingerprint };

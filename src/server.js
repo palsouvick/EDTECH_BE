@@ -7,6 +7,7 @@ const { createApp } = require('./app');
 const { ensureAdmin } = require('./services/adminBootstrap');
 const { bootstrapData, startQuestionBankSeed } = require('./db/bootstrap');
 const { ensureIndexes } = require('./db/ensureIndexes');
+const { refreshQuestionBankMemory } = require('./services/questionBankStatus.service');
 const statsBuffer = require('./services/questionStats.buffer');
 
 async function main() {
@@ -18,6 +19,10 @@ async function main() {
     await ensureIndexes(mongoose.connection, { log: console.log, warn: console.warn })
       .catch((e) => console.error('index setup failed', e));
   }
+  // Load the durable question-bank state so /healthz reports the real status
+  // (completed / initializing / not yet initialized) from the first request.
+  // A single state read — cheap, unlike the data imports below.
+  await refreshQuestionBankMemory().catch(() => {});
 
   const server = createApp().listen(config.port, () => {
     console.log(`exam-engine listening on :${config.port} (${config.env})`);
