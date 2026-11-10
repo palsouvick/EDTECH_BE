@@ -19,6 +19,10 @@
  *
  * The first admin account is created by src/services/adminBootstrap.js.
  * Set AUTO_SEED=false to turn all of this off; SEED_QUESTIONS_PER_TOPIC=0 skips step 3.
+ * Step 3 (generation) additionally never runs in production unless
+ * SEED_GENERATION_IN_PROD=true: generation is an offline step, and on the web
+ * service it blocks the event loop and can OOM the instance. Production's
+ * source of truth is the committed dataset loaded in step 2.
  */
 
 const crypto = require('node:crypto');
@@ -99,6 +103,10 @@ function sourcesFingerprint() {
 async function seedQuestionBank() {
   const perTopic = config.seed.questionsPerTopic;
   if (!config.seed.auto || perTopic <= 0) return;
+  if (config.isProd && !config.seed.generationInProduction) {
+    log('question bank generation skipped in production (offline step; the committed dataset is the source of truth — set SEED_GENERATION_IN_PROD=true to override)');
+    return;
+  }
   const state = mongoose.connection.db.collection('seed_state');
   const fingerprint = sourcesFingerprint();
   const done = await state.findOne({ _id: 'question_bank' });

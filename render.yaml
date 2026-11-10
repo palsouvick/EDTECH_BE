@@ -13,6 +13,11 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      # The web service never generates questions: generation blocks the event
+      # loop and can OOM the free instance. The committed dataset loads
+      # automatically at startup; generate locally or in a one-off job instead.
+      - key: SEED_QUESTIONS_PER_TOPIC
+        value: "0"
       - key: NODE_VERSION
         value: "22"
       - key: MONGODB_URI

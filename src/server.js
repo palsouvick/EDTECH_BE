@@ -1,22 +1,38 @@
 'use strict';
 
+const mongoose = require('mongoose');
 const config = require('./config');
 const { connect, disconnect } = require('./db/connection');
 const { createApp } = require('./app');
 const { ensureAdmin } = require('./services/adminBootstrap');
 const { bootstrapData, startQuestionBankSeed } = require('./db/bootstrap');
+const { ensureIndexes } = require('./db/ensureIndexes');
 const statsBuffer = require('./services/questionStats.buffer');
 
 async function main() {
   await connect();
-  await bootstrapData().catch((e) => console.error('data bootstrap failed', e));
-  await ensureAdmin().catch((e) => console.error('admin bootstrap failed', e.message));
-  statsBuffer.start();
+  // Indexes only, before the port opens: cheap on an existing database, and it
+  // keeps the first requests off unindexed collections. (bootstrapData repeats
+  // this step later; it is idempotent.)
+  if (config.seed.auto && !mongoose.connection.config.autoIndex) {
+    await ensureIndexes(mongoose.connection, { log: console.log, warn: console.warn })
+      .catch((e) => console.error('index setup failed', e));
+  }
 
   const server = createApp().listen(config.port, () => {
     console.log(`exam-engine listening on :${config.port} (${config.env})`);
-    startQuestionBankSeed();
   });
+
+  // Everything else loads in the background AFTER the port is open, so a cold
+  // database can never keep /healthz (or the API) waiting on data imports:
+  // reference data + dataset first, then the admin account, then the
+  // background question-bank chain.
+  (async () => {
+    await bootstrapData().catch((e) => console.error('data bootstrap failed', e));
+    await ensureAdmin().catch((e) => console.error('admin bootstrap failed', e.message));
+    startQuestionBankSeed();
+  })();
+  statsBuffer.start();
 
   const shutdown = async (signal) => {
     console.log(`${signal} received, draining`);

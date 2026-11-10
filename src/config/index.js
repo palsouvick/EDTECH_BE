@@ -58,6 +58,11 @@ module.exports = Object.freeze({
     auto: process.env.AUTO_SEED !== 'false',
     // Every chapter is topped up to this many generated questions. 0 = skip.
     questionsPerTopic: int(process.env.SEED_QUESTIONS_PER_TOPIC, 300),
+    // Question GENERATION is an offline/build step: it runs on this process's
+    // main thread and can OOM a small instance, so it never runs when
+    // NODE_ENV=production unless explicitly enabled here. The committed
+    // dataset (db/question-bank) still loads in production either way.
+    generationInProduction: process.env.SEED_GENERATION_IN_PROD === 'true',
   },
 
   stats: {
