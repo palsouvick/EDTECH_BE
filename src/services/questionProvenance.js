@@ -20,6 +20,16 @@ const OFFICIAL_HOSTS = [
 // the commission's final key. Do not add hosts here without a SOURCES.md note.
 const EXCEPTION_PAPER_HOSTS = ['files.wbcs.in'];
 
+// Documented exception (db/pyq/SOURCES.md): the Commission never published the
+// Clerkship papers or answer keys for 2004–2009 at all — its own previous-year
+// page starts at 2019. Those papers survive only as unofficial reproductions on
+// the hosts below. Such a source is accepted ONLY with no answer_key_url cited
+// and only for questions imported as ADAPTED_PYQ whose answers were
+// cross-checked against independent sources; the student-facing label then
+// shows both UNOFFICIAL_COPY (paper) and CROSS_CHECKED (answer). Do not add
+// hosts here without a SOURCES.md note.
+const UNOFFICIAL_PAPER_HOSTS = ['wbpscupsc.com', 'englishsahayak.blogspot.com'];
+
 const onHost = (url, hosts) => {
   try {
     const parsed = new URL(url);
@@ -37,6 +47,10 @@ function isOfficialSource(url) {
 
 function isExceptionPaperSource(url) {
   return onHost(url, EXCEPTION_PAPER_HOSTS);
+}
+
+function isUnofficialPaperSource(url) {
+  return onHost(url, UNOFFICIAL_PAPER_HOSTS);
 }
 
 /** A reference to a real paper: not synthetic, with the paper and answer key on a commission's own site. */
@@ -66,6 +80,9 @@ function pyqRefBasis(ref, provenance) {
     return null;
   }
   if (isExceptionPaperSource(ref.source_url) && officialKey) return { answerBasis: 'OFFICIAL_KEY', paperBasis: 'UNOFFICIAL_COPY' };
+  if (isUnofficialPaperSource(ref.source_url) && !ref.answer_key_url && provenance === 'ADAPTED_PYQ') {
+    return { answerBasis: 'CROSS_CHECKED', paperBasis: 'UNOFFICIAL_COPY' };
+  }
   return null;
 }
 
@@ -94,5 +111,5 @@ function classifyLegacyQuestion(question) {
 }
 
 module.exports = {
-  EXCEPTION_PAPER_HOSTS, classifyLegacyQuestion, hasVerifiedPaperReference, isExceptionPaperSource, isOfficialSource, isVerifiedPaperRef, pyqRefBasis,
+  EXCEPTION_PAPER_HOSTS, UNOFFICIAL_PAPER_HOSTS, classifyLegacyQuestion, hasVerifiedPaperReference, isExceptionPaperSource, isOfficialSource, isUnofficialPaperSource, isVerifiedPaperRef, pyqRefBasis,
 };

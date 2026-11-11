@@ -39,23 +39,34 @@ router.get('/filters', async (_req, res) => {
     { $match: { 'pyq.refs.question_code': { $not: /-SYN-/ } } },
     {
       $group: {
-        _id: { exam: '$pyq.refs.exam_name', year: '$pyq.refs.year', subject: '$subject', topic: '$topic', provenance: '$provenance', src: '$pyq.refs.source_url', key: '$pyq.refs.answer_key_url' },
+        _id: { exam: '$pyq.refs.exam_name', year: '$pyq.refs.year', shift: '$pyq.refs.shift', subject: '$subject', topic: '$topic', provenance: '$provenance', src: '$pyq.refs.source_url', key: '$pyq.refs.answer_key_url' },
         n: { $sum: 1 },
       },
     },
   ]);
+  // A paper is one sitting of an exam: same year, same session/shift. Papers without a
+  // shift (single-sitting exams) keep shift null. Rank orders sittings within a year.
+  const shiftRank = (shift) => {
+    if (!shift) return -1;
+    if (/forenoon/i.test(shift)) return 0;
+    if (/afternoon/i.test(shift)) return 1;
+    const m = /session\s+(iv|iii|ii|i)\b/i.exec(shift);
+    if (m) return 10 + { i: 1, ii: 2, iii: 3, iv: 4 }[m[1].toLowerCase()];
+    return 5;
+  };
   const exams = new Map();
   const topics = new Map();
   for (const { _id: r, n } of rows) {
     const basis = pyqRefBasis({ question_code: '', source_url: r.src, answer_key_url: r.key }, r.provenance);
     if (!basis) continue;
     const exam = exams.get(r.exam) ?? { name: r.exam, count: 0, papers: new Map() };
-    const paper = exam.papers.get(r.year) ?? {
-      year: r.year, count: 0, paperUrl: r.src, answerKeyUrl: basis.answerBasis === 'OFFICIAL_KEY' ? r.key : null, ...basis,
+    const paperKey = `${r.year}|${r.shift ?? ''}`;
+    const paper = exam.papers.get(paperKey) ?? {
+      year: r.year, shift: r.shift ?? null, count: 0, paperUrl: r.src, answerKeyUrl: basis.answerBasis === 'OFFICIAL_KEY' ? r.key : null, ...basis,
     };
     paper.count += n;
     exam.count += n;
-    exam.papers.set(r.year, paper);
+    exam.papers.set(paperKey, paper);
     exams.set(r.exam, exam);
     const t = `${r.subject}.${r.topic}`;
     const topic = topics.get(t) ?? { subject: r.subject, subjectName: subjectName(r.subject), topic: r.topic, name: topicName(r.subject, r.topic), count: 0, byYear: {} };
@@ -64,7 +75,11 @@ router.get('/filters', async (_req, res) => {
     topics.set(t, topic);
   }
   const list = [...exams.values()]
-    .map(({ papers, ...e }) => ({ ...e, years: [...papers.keys()].sort((a, b) => b - a), papers: [...papers.values()].sort((a, b) => b.year - a.year) }))
+    .map(({ papers, ...e }) => ({
+      ...e,
+      years: [...new Set([...papers.values()].map((p) => p.year))].sort((a, b) => b - a),
+      papers: [...papers.values()].sort((a, b) => b.year - a.year || shiftRank(a.shift) - shiftRank(b.shift)),
+    }))
     .sort((a, b) => a.name.localeCompare(b.name));
   res.set('Cache-Control', 'public, max-age=60');
   res.json({ success: true, data: { exams: list, topics: [...topics.values()].sort((a, b) => b.count - a.count) } });
@@ -79,6 +94,7 @@ router.get('/priorities', async (_req, res) => {
 const listQuery = z.object({
   exam: z.string().trim().max(120).optional(),
   year: z.coerce.number().int().min(1990).max(2100).optional(),
+  shift: z.string().trim().max(40).optional(),
   subject: z.string().trim().toLowerCase().max(40).optional(),
   topic: z.string().trim().toLowerCase().regex(/^[a-z0-9_]+$/).max(60).optional(),
   // A GK topic pack's code: the real PYQs its terms appear in.
@@ -89,10 +105,11 @@ const listQuery = z.object({
 });
 
 router.get('/', validate({ query: listQuery }), async (req, res) => {
-  const { exam, year, subject, topic, pack, language: lang, page, limit } = req.valid.query;
+  const { exam, year, shift, subject, topic, pack, language: lang, page, limit } = req.valid.query;
   const ref = { question_code: { $not: /-SYN-/ } };
   if (exam) ref.exam_name = exam;
   if (year) ref.year = year;
+  if (shift) ref.shift = shift;
   const filter = { ...base, 'pyq.refs': { $elemMatch: ref }, lang_set: { $in: langSetsContaining(lang) } };
   if (subject) filter.subject = subject;
   if (topic) filter.topic = topic;

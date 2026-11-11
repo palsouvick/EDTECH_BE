@@ -1,0 +1,4191 @@
+[
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 1,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A factory produces 14,600 bulbs in 365 days. How many bulbs will be produced in the factory in 140 days?",
+        "options": [
+          {
+            "id": "A",
+            "text": "2,600"
+          },
+          {
+            "id": "B",
+            "text": "5,600"
+          },
+          {
+            "id": "C",
+            "text": "6,500"
+          },
+          {
+            "id": "D",
+            "text": "5,000"
+          }
+        ],
+        "explanation": "Step 1: Production is in direct proportion to days. First find production per day. Step 2: Per day = 14600 ÷ 365 = 40 bulbs. Step 3: In 140 days, production = 40 × 140. Step 4: Production = 5600 bulbs. Answer: 5,600"
+      },
+      "bn": {
+        "question_text": "একটি কারখানা 365 দিনে 14,600টি বাল্ব তৈরি করে। 140 দিনে কারখানাটিতে কতগুলি বাল্ব তৈরি হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "2,600"
+          },
+          {
+            "id": "B",
+            "text": "5,600"
+          },
+          {
+            "id": "C",
+            "text": "6,500"
+          },
+          {
+            "id": "D",
+            "text": "5,000"
+          }
+        ],
+        "explanation": "ধাপ 1: উৎপাদন দিনের সঙ্গে সরল অনুপাতে বাড়ে। প্রথমে প্রতিদিনের উৎপাদন বের করো। ধাপ 2: প্রতিদিন = 14600 ÷ 365 = 40টি বাল্ব। ধাপ 3: 140 দিনে উৎপাদন = 40 × 140। ধাপ 4: উৎপাদন = 5600টি বাল্ব। উত্তর: 5,600"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "time_work",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 2,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A alone can do a piece of work in 15 days and B alone in 30 days. They begin the work together. They will finish half of the work in",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 days"
+          },
+          {
+            "id": "B",
+            "text": "8 days"
+          },
+          {
+            "id": "C",
+            "text": "6 days"
+          },
+          {
+            "id": "D",
+            "text": "5 days"
+          }
+        ],
+        "explanation": "Step 1: A's daily work = 1/15. B's daily work = 1/30. Step 2: Together per day = 1/15 + 1/30 = (2 + 1)/30 = 3/30 = 1/10 of the work. Step 3: Full work would take 10 days, so half the work takes half as long. Step 4: Half work takes 10 ÷ 2 = 5 days. Answer: 5 days"
+      },
+      "bn": {
+        "question_text": "A একা একটি কাজ 15 দিনে এবং B একা 30 দিনে করতে পারে। তারা একসঙ্গে কাজ শুরু করল। তারা কাজটির অর্ধেক শেষ করবে",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 days"
+          },
+          {
+            "id": "B",
+            "text": "8 days"
+          },
+          {
+            "id": "C",
+            "text": "6 days"
+          },
+          {
+            "id": "D",
+            "text": "5 days"
+          }
+        ],
+        "explanation": "ধাপ 1: A-এর দৈনিক কাজ = 1/15। B-এর দৈনিক কাজ = 1/30। ধাপ 2: একসঙ্গে প্রতিদিন = 1/15 + 1/30 = (2 + 1)/30 = 3/30 = কাজের 1/10 অংশ। ধাপ 3: পুরো কাজে লাগত 10 দিন, তাই অর্ধেক কাজে লাগবে তার অর্ধেক সময়। ধাপ 4: অর্ধেক কাজে লাগে 10 ÷ 2 = 5 দিন। উত্তর: 5 days"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "profit_loss",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 3,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A trader marks an article 25% above its cost price but allows his customers a discount of 20% on the marked price. Then he has",
+        "options": [
+          {
+            "id": "A",
+            "text": "5% gain"
+          },
+          {
+            "id": "B",
+            "text": "4% gain"
+          },
+          {
+            "id": "C",
+            "text": "2% loss"
+          },
+          {
+            "id": "D",
+            "text": "no gain no loss"
+          }
+        ],
+        "explanation": "Step 1: Let the cost price be Rs. 100. Marked price = 25% above cost = 100 + 25 = Rs. 125. Step 2: Discount of 20% is given on the marked price: discount = 20% of 125 = Rs. 25. Step 3: Selling price = 125 − 25 = Rs. 100. Step 4: Selling price equals cost price exactly, so there is no gain and no loss. Answer: no gain no loss"
+      },
+      "bn": {
+        "question_text": "একজন ব্যবসায়ী একটি দ্রব্যের গায়ে ক্রয়মূল্যের 25% বেশি দাম লেখেন কিন্তু গ্রাহকদের লিখিত মূল্যের ওপর 20% ছাড় দেন। তাহলে তাঁর হয়",
+        "options": [
+          {
+            "id": "A",
+            "text": "5% gain"
+          },
+          {
+            "id": "B",
+            "text": "4% gain"
+          },
+          {
+            "id": "C",
+            "text": "2% loss"
+          },
+          {
+            "id": "D",
+            "text": "no gain no loss"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি ক্রয়মূল্য 100 টাকা। ধার্য মূল্য = ক্রয়মূল্যের 25% বেশি = 100 + 25 = 125 টাকা। ধাপ 2: ধার্য মূল্যের ওপর 20% ছাড় দেওয়া হয়: ছাড় = 125-এর 20% = 25 টাকা। ধাপ 3: বিক্রয়মূল্য = 125 − 25 = 100 টাকা। ধাপ 4: বিক্রয়মূল্য ঠিক ক্রয়মূল্যের সমান, তাই লাভও নয়, ক্ষতিও নয়। উত্তর: no gain no loss"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 4,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Of (0.2)², 1/100, (0.01)^½ and (0.008)^⅓, which one is the greatest?",
+        "options": [
+          {
+            "id": "A",
+            "text": "(0.2)²"
+          },
+          {
+            "id": "B",
+            "text": "1/100"
+          },
+          {
+            "id": "C",
+            "text": "(0.01)^½"
+          },
+          {
+            "id": "D",
+            "text": "(0.008)^⅓"
+          }
+        ],
+        "explanation": "Step 1: Evaluate each value: (0.2)² = 0.2 × 0.2 = 0.04, and 1/100 = 0.01. Step 2: (0.01)^½ means the square root of 0.01, which is 0.1, since 0.1² = 0.01. Step 3: (0.008)^⅓ means the cube root of 0.008, which is 0.2, since 0.2³ = 0.008. Step 4: Compare 0.04, 0.01, 0.1 and 0.2: the greatest is 0.2, i.e. (0.008)^⅓. Answer: (0.008)^⅓"
+      },
+      "bn": {
+        "question_text": "(0.2)², 1/100, (0.01)^½ ও (0.008)^⅓ — এদের মধ্যে কোনটি সবচেয়ে বড়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "(0.2)²"
+          },
+          {
+            "id": "B",
+            "text": "1/100"
+          },
+          {
+            "id": "C",
+            "text": "(0.01)^½"
+          },
+          {
+            "id": "D",
+            "text": "(0.008)^⅓"
+          }
+        ],
+        "explanation": "ধাপ 1: প্রতিটির মান বের করো: (0.2)² = 0.2 × 0.2 = 0.04, এবং 1/100 = 0.01। ধাপ 2: (0.01)^½ মানে 0.01-এর বর্গমূল, যা 0.1, কারণ 0.1² = 0.01। ধাপ 3: (0.008)^⅓ মানে 0.008-এর ঘনমূল, যা 0.2, কারণ 0.2³ = 0.008। ধাপ 4: 0.04, 0.01, 0.1 ও 0.2-এর তুলনায় সবচেয়ে বড় 0.2, অর্থাৎ (0.008)^⅓। উত্তর: (0.008)^⅓"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 5,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Fill up the missing term: 12 : 16 = ? : 20",
+        "options": [
+          {
+            "id": "A",
+            "text": "13"
+          },
+          {
+            "id": "B",
+            "text": "15"
+          },
+          {
+            "id": "C",
+            "text": "14"
+          },
+          {
+            "id": "D",
+            "text": "11"
+          }
+        ],
+        "explanation": "Step 1: In a proportion, both ratios must be equal: 12/16 = ?/20. Step 2: Simplify 12/16 by dividing by 4: 12/16 = 3/4. Step 3: Find the number over 20 equal to 3/4: (3/4) × 20 = 15. Step 4: Check: 15/20 = 3/4. Correct. Answer: 15"
+      },
+      "bn": {
+        "question_text": "লুপ্ত পদটি পূরণ করো: 12 : 16 = ? : 20",
+        "options": [
+          {
+            "id": "A",
+            "text": "13"
+          },
+          {
+            "id": "B",
+            "text": "15"
+          },
+          {
+            "id": "C",
+            "text": "14"
+          },
+          {
+            "id": "D",
+            "text": "11"
+          }
+        ],
+        "explanation": "ধাপ 1: অনুপাতে দুটি অনুপাতই সমান হতে হবে: 12/16 = ?/20। ধাপ 2: 12/16-কে 4 দিয়ে ভাগ করে ছোট করো: 12/16 = 3/4। ধাপ 3: 20 হরবিশিষ্ট যে সংখ্যা 3/4-এর সমান: (3/4) × 20 = 15। ধাপ 4: যাচাই: 15/20 = 3/4। সঠিক। উত্তর: 15"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 6,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The monthly salary including D.A. of a worker is Rs. 24,800. If D.A. is 55% of the basic pay, the D.A. is",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 8,400"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 8,600"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 8,000"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 8,800"
+          }
+        ],
+        "explanation": "Step 1: Total salary = basic pay + D.A., and D.A. = 55% of basic. Let basic pay = B. Step 2: Total = B + 0.55B = 1.55B = Rs. 24,800. Step 3: B = 24800 ÷ 1.55 = Rs. 16,000. Step 4: D.A. = 55% of 16,000 = (55/100) × 16000 = Rs. 8,800. Answer: Rs. 8,800"
+      },
+      "bn": {
+        "question_text": "D.A. সমেত একজন শ্রমিকের মাসিক বেতন 24,800 টাকা। D.A. যদি মূল বেতনের 55% হয়, তাহলে D.A. হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 8,400"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 8,600"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 8,000"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 8,800"
+          }
+        ],
+        "explanation": "ধাপ 1: মোট বেতন = মূল বেতন + মহার্ঘ ভাতা, এবং মহার্ঘ ভাতা = মূল বেতনের 55%। ধরি মূল বেতন = B। ধাপ 2: মোট = B + 0.55B = 1.55B = 24,800 টাকা। ধাপ 3: B = 24800 ÷ 1.55 = 16,000 টাকা। ধাপ 4: মহার্ঘ ভাতা = 16,000-এর 55% = (55/100) × 16000 = 8,800 টাকা। উত্তর: Rs. 8,800"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "average",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 7,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The average of 20 numbers is 30, and that of another 30 numbers is 20. The average of all the numbers is",
+        "options": [
+          {
+            "id": "A",
+            "text": "20"
+          },
+          {
+            "id": "B",
+            "text": "24"
+          },
+          {
+            "id": "C",
+            "text": "25"
+          },
+          {
+            "id": "D",
+            "text": "30"
+          }
+        ],
+        "explanation": "Step 1: Total of the first group = 20 × 30 = 600. Step 2: Total of the second group = 30 × 20 = 600. Step 3: Combined total = 600 + 600 = 1200, and combined count = 20 + 30 = 50. Step 4: Combined average = 1200 ÷ 50 = 24. Answer: 24"
+      },
+      "bn": {
+        "question_text": "20টি সংখ্যার গড় 30, এবং অন্য 30টি সংখ্যার গড় 20। সব সংখ্যার গড় হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "20"
+          },
+          {
+            "id": "B",
+            "text": "24"
+          },
+          {
+            "id": "C",
+            "text": "25"
+          },
+          {
+            "id": "D",
+            "text": "30"
+          }
+        ],
+        "explanation": "ধাপ 1: প্রথম দলের মোট যোগফল = 20 × 30 = 600। ধাপ 2: দ্বিতীয় দলের মোট যোগফল = 30 × 20 = 600। ধাপ 3: মিলিত যোগফল = 600 + 600 = 1200, এবং মিলিত সংখ্যা = 20 + 30 = 50। ধাপ 4: মিলিত গড় = 1200 ÷ 50 = 24। উত্তর: 24"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "number_system",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 8,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "What is the smallest 4-digit number that can be formed by the digits 2, 4, 0 and 7?",
+        "options": [
+          {
+            "id": "A",
+            "text": "2407"
+          },
+          {
+            "id": "B",
+            "text": "2470"
+          },
+          {
+            "id": "C",
+            "text": "0247"
+          },
+          {
+            "id": "D",
+            "text": "2047"
+          }
+        ],
+        "explanation": "Step 1: For the smallest number, digits should increase from left to right, but a 4-digit number cannot start with 0. Step 2: So the first digit is the smallest non-zero digit, 2. Step 3: Place the remaining digits 0, 4, 7 in increasing order after it: 0, then 4, then 7. Step 4: The number formed is 2047. Answer: 2047"
+      },
+      "bn": {
+        "question_text": "2, 4, 0 ও 7 অঙ্কগুলি দিয়ে গঠিত হতে পারে এমন ক্ষুদ্রতম 4 অঙ্কের সংখ্যা কোনটি?",
+        "options": [
+          {
+            "id": "A",
+            "text": "2407"
+          },
+          {
+            "id": "B",
+            "text": "2470"
+          },
+          {
+            "id": "C",
+            "text": "0247"
+          },
+          {
+            "id": "D",
+            "text": "2047"
+          }
+        ],
+        "explanation": "ধাপ 1: সবচেয়ে ছোট সংখ্যার জন্য অঙ্কগুলি বাম থেকে ডানে বাড়তে থাকে, কিন্তু 4-অঙ্কের সংখ্যা 0 দিয়ে শুরু হতে পারে না। ধাপ 2: তাই প্রথম অঙ্ক হবে সবচেয়ে ছোট অশূন্য অঙ্ক, 2। ধাপ 3: বাকি অঙ্ক 0, 4, 7-কে তার পরে বাড়তি ক্রমে বসাও: 0, তারপর 4, তারপর 7। ধাপ 4: গঠিত সংখ্যাটি 2047। উত্তর: 2047"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 9,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Three numbers are in the ratio 2 : 3 : 6, and their LCM is 72. Then their GCD (HCF) is",
+        "options": [
+          {
+            "id": "A",
+            "text": "12"
+          },
+          {
+            "id": "B",
+            "text": "18"
+          },
+          {
+            "id": "C",
+            "text": "24"
+          },
+          {
+            "id": "D",
+            "text": "36"
+          }
+        ],
+        "explanation": "Step 1: Let the numbers be 2k, 3k and 6k, where k is their HCF. Step 2: LCM of 2k, 3k, 6k = k × LCM(2, 3, 6) = k × 6 = 6k. Step 3: Given LCM = 72, so 6k = 72 and k = 72 ÷ 6 = 12. Step 4: Hence the HCF (GCD) is k = 12. Answer: 12"
+      },
+      "bn": {
+        "question_text": "তিনটি সংখ্যা 2 : 3 : 6 অনুপাতে আছে, এবং তাদের LCM 72। তাহলে তাদের GCD (HCF) হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "12"
+          },
+          {
+            "id": "B",
+            "text": "18"
+          },
+          {
+            "id": "C",
+            "text": "24"
+          },
+          {
+            "id": "D",
+            "text": "36"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি সংখ্যাগুলি 2k, 3k ও 6k, যেখানে k হল তাদের গ.সা.গু.। ধাপ 2: 2k, 3k, 6k-এর ল.সা.গু. = k × ল.সা.গু.(2, 3, 6) = k × 6 = 6k। ধাপ 3: দেওয়া আছে ল.সা.গু. = 72, তাই 6k = 72 এবং k = 72 ÷ 6 = 12। ধাপ 4: অতএব গ.সা.গু. হল k = 12। উত্তর: 12"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 10,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "If (2/3)A = 75% of B, then A : B is",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 : 11"
+          },
+          {
+            "id": "B",
+            "text": "8 : 9"
+          },
+          {
+            "id": "C",
+            "text": "9 : 8"
+          },
+          {
+            "id": "D",
+            "text": "1 : 1"
+          }
+        ],
+        "explanation": "Step 1: 75% of B means (75/100)B = (3/4)B. Given (2/3)A = (3/4)B. Step 2: Divide both sides to get A/B: A/B = (3/4) ÷ (2/3). Step 3: (3/4) × (3/2) = 9/8. Step 4: So A : B = 9 : 8. Answer: 9 : 8"
+      },
+      "bn": {
+        "question_text": "(2/3)A = B-এর 75% হলে, A : B হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 : 11"
+          },
+          {
+            "id": "B",
+            "text": "8 : 9"
+          },
+          {
+            "id": "C",
+            "text": "9 : 8"
+          },
+          {
+            "id": "D",
+            "text": "1 : 1"
+          }
+        ],
+        "explanation": "ধাপ 1: B-এর 75% মানে (75/100)B = (3/4)B। দেওয়া আছে (2/3)A = (3/4)B। ধাপ 2: A/B পেতে উভয় পক্ষকে সাজাও: A/B = (3/4) ÷ (2/3)। ধাপ 3: (3/4) × (3/2) = 9/8। ধাপ 4: তাই A : B = 9 : 8। উত্তর: 9 : 8"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "time_speed_distance",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 11,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A man standing on a railway platform notices that a train 80 metres long passes him in 8 seconds. The speed of the train is",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 km/hr"
+          },
+          {
+            "id": "B",
+            "text": "36 km/hr"
+          },
+          {
+            "id": "C",
+            "text": "40 km/hr"
+          },
+          {
+            "id": "D",
+            "text": "45 km/hr"
+          }
+        ],
+        "explanation": "Step 1: Passing a standing man, the train covers its own length, 80 m, in 8 seconds. Step 2: Speed in m/sec = distance ÷ time = 80 ÷ 8 = 10 m/sec. Step 3: Convert to km/hr by multiplying by 18/5: 10 × 18/5 = 180/5. Step 4: Speed = 36 km/hr. Answer: 36 km/hr"
+      },
+      "bn": {
+        "question_text": "রেলওয়ে প্ল্যাটফর্মে দাঁড়িয়ে থাকা একজন লোক লক্ষ করলেন যে 80 মিটার দীর্ঘ একটি ট্রেন 8 সেকেন্ডে তাঁকে অতিক্রম করে গেল। ট্রেনটির গতি হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 km/hr"
+          },
+          {
+            "id": "B",
+            "text": "36 km/hr"
+          },
+          {
+            "id": "C",
+            "text": "40 km/hr"
+          },
+          {
+            "id": "D",
+            "text": "45 km/hr"
+          }
+        ],
+        "explanation": "ধাপ 1: দাঁড়িয়ে থাকা মানুষকে পার হতে ট্রেন নিজের দৈর্ঘ্য 80 মিটার যায় 8 সেকেন্ডে। ধাপ 2: গতিবেগ মিটার/সেকেন্ডে = দূরত্ব ÷ সময় = 80 ÷ 8 = 10 মিটার/সেকেন্ড। ধাপ 3: কিমি/ঘণ্টায় বদলাতে 18/5 দিয়ে গুণ করো: 10 × 18/5 = 180/5। ধাপ 4: গতিবেগ = 36 কিমি/ঘণ্টা। উত্তর: 36 km/hr"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "mixture_alligation",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 12,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "In two blends of mixed tea, the ratios of Darjeeling and Assam tea are 2 : 7 and 1 : 5 respectively. In what ratio should these two blends be mixed so that the ratio of Darjeeling and Assam tea in the new blend is 1 : 4?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 : 5"
+          },
+          {
+            "id": "B",
+            "text": "2 : 3"
+          },
+          {
+            "id": "C",
+            "text": "3 : 2"
+          },
+          {
+            "id": "D",
+            "text": "5 : 1"
+          }
+        ],
+        "explanation": "Step 1: Work with the Darjeeling fraction in each blend. Blend 1: 2/(2 + 7) = 2/9. Blend 2: 1/(1 + 5) = 1/6. Target blend: 1/(1 + 4) = 1/5. Step 2: By alligation, mixing ratio = (target − lower) : (higher − target) for blends 1 and 2 in order (blend with 1/6 first in the difference for blend 1's share): share of blend 1 ∝ (1/5 − 1/6) and share of blend 2 ∝ (2/9 − 1/5). Step 3: 1/5 − 1/6 = 1/30 and 2/9 − 1/5 = (10 − 9)/45 = 1/45. Step 4: Ratio = 1/30 : 1/45 = 45 : 30 = 3 : 2. Answer: 3 : 2"
+      },
+      "bn": {
+        "question_text": "মিশ্র চায়ের দুটি মিশ্রণে, দার্জিলিং ও আসাম চায়ের অনুপাত যথাক্রমে 2 : 7 এবং 1 : 5। এই দুটি মিশ্রণ কোন অনুপাতে মেশালে নতুন মিশ্রণে দার্জিলিং ও আসাম চায়ের অনুপাত 1 : 4 হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 : 5"
+          },
+          {
+            "id": "B",
+            "text": "2 : 3"
+          },
+          {
+            "id": "C",
+            "text": "3 : 2"
+          },
+          {
+            "id": "D",
+            "text": "5 : 1"
+          }
+        ],
+        "explanation": "ধাপ 1: প্রতিটি মিশ্রণে দার্জিলিং চায়ের ভগ্নাংশ নিয়ে কাজ করো। মিশ্রণ 1: 2/(2 + 7) = 2/9। মিশ্রণ 2: 1/(1 + 5) = 1/6। লক্ষ্য মিশ্রণ: 1/(1 + 4) = 1/5। ধাপ 2: মিশ্রণ নিয়মে (alligation), মেশানোর অনুপাত: মিশ্রণ 1-এর অংশ ∝ (1/5 − 1/6) এবং মিশ্রণ 2-এর অংশ ∝ (2/9 − 1/5)। ধাপ 3: 1/5 − 1/6 = 1/30 এবং 2/9 − 1/5 = (10 − 9)/45 = 1/45। ধাপ 4: অনুপাত = 1/30 : 1/45 = 45 : 30 = 3 : 2। উত্তর: 3 : 2"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 13,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "How many workers are to be employed for the production of 125 machine parts per day if the ratio of the number of parts to the number of workers per day is 5 : 2?",
+        "options": [
+          {
+            "id": "A",
+            "text": "40"
+          },
+          {
+            "id": "B",
+            "text": "60"
+          },
+          {
+            "id": "C",
+            "text": "50"
+          },
+          {
+            "id": "D",
+            "text": "70"
+          }
+        ],
+        "explanation": "Step 1: Parts : workers = 5 : 2, a direct proportion: more parts need more workers in the same ratio. Step 2: Workers for 125 parts = 125 × (2/5). Step 3: 125 × 2 = 250, and 250 ÷ 5 = 50. Answer: 50"
+      },
+      "bn": {
+        "question_text": "প্রতিদিন যন্ত্রাংশের সংখ্যা ও শ্রমিকের সংখ্যার অনুপাত 5 : 2 হলে প্রতিদিন 125টি যন্ত্রাংশ উৎপাদনের জন্য কতজন শ্রমিক নিয়োগ করতে হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "40"
+          },
+          {
+            "id": "B",
+            "text": "60"
+          },
+          {
+            "id": "C",
+            "text": "50"
+          },
+          {
+            "id": "D",
+            "text": "70"
+          }
+        ],
+        "explanation": "ধাপ 1: যন্ত্রাংশ : শ্রমিক = 5 : 2, একটি সরল অনুপাত: যন্ত্রাংশ বাড়লে একই অনুপাতে শ্রমিক বাড়ে। ধাপ 2: 125টি যন্ত্রাংশের জন্য শ্রমিক = 125 × (2/5)। ধাপ 3: 125 × 2 = 250, এবং 250 ÷ 5 = 50। উত্তর: 50"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "time_speed_distance",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 14,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The speed of an electric train is 25% more than that of a steam-engine train. What is the time taken by the electric train to cover a distance which the steam-engine train takes 4 hours 25 minutes to cover?",
+        "options": [
+          {
+            "id": "A",
+            "text": "3 11/12 hours"
+          },
+          {
+            "id": "B",
+            "text": "3 8/15 hours"
+          },
+          {
+            "id": "C",
+            "text": "3 11/15 hours"
+          },
+          {
+            "id": "D",
+            "text": "3 1/10 hours"
+          }
+        ],
+        "explanation": "Step 1: For a fixed distance, time is inversely proportional to speed. Electric speed = 1.25 times the steam speed. Step 2: Steam train time = 4 hours 25 minutes = 4 × 60 + 25 = 265 minutes. Step 3: Electric train time = 265 ÷ 1.25 = 212 minutes. Step 4: 212 minutes = 3 hours 32 minutes = 3 + 32/60 hours = 3 8/15 hours. Answer: 3 8/15 hours"
+      },
+      "bn": {
+        "question_text": "একটি বৈদ্যুতিক ট্রেনের গতি একটি বাষ্পীয়-ইঞ্জিন ট্রেনের গতির চেয়ে 25% বেশি। বাষ্পীয়-ইঞ্জিন ট্রেন যে দূরত্ব অতিক্রম করতে 4 ঘণ্টা 25 মিনিট সময় নেয়, সেই দূরত্ব অতিক্রম করতে বৈদ্যুতিক ট্রেন কত সময় নেবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "3 11/12 hours"
+          },
+          {
+            "id": "B",
+            "text": "3 8/15 hours"
+          },
+          {
+            "id": "C",
+            "text": "3 11/15 hours"
+          },
+          {
+            "id": "D",
+            "text": "3 1/10 hours"
+          }
+        ],
+        "explanation": "ধাপ 1: নির্দিষ্ট দূরত্বের ক্ষেত্রে সময় গতির ব্যস্তানুপাতিক। বৈদ্যুতিক ট্রেনের গতি = বাষ্পীয় ট্রেনের গতির 1.25 গুণ। ধাপ 2: বাষ্পীয় ট্রেনের সময় = 4 ঘণ্টা 25 মিনিট = 4 × 60 + 25 = 265 মিনিট। ধাপ 3: বৈদ্যুতিক ট্রেনের সময় = 265 ÷ 1.25 = 212 মিনিট। ধাপ 4: 212 মিনিট = 3 ঘণ্টা 32 মিনিট = 3 + 32/60 ঘণ্টা = 3 8/15 ঘণ্টা। উত্তর: 3 8/15 hours"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "number_system",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 15,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The product of two consecutive even numbers is 528. Find the numbers.",
+        "options": [
+          {
+            "id": "A",
+            "text": "44, 42"
+          },
+          {
+            "id": "B",
+            "text": "52, 54"
+          },
+          {
+            "id": "C",
+            "text": "34, 32"
+          },
+          {
+            "id": "D",
+            "text": "22, 24"
+          }
+        ],
+        "explanation": "Step 1: Let the consecutive even numbers be n and n + 2, with n × (n + 2) = 528. Step 2: 528 lies between 22² = 484 and 24² = 576, so the numbers are near 23. Step 3: Try the even pair around 23: 22 and 24. Step 4: Check: 22 × 24 = 528. Correct. Answer: 22, 24"
+      },
+      "bn": {
+        "question_text": "দুটি পরপর জোড় সংখ্যার গুণফল 528। সংখ্যা দুটি নির্ণয় করো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "44, 42"
+          },
+          {
+            "id": "B",
+            "text": "52, 54"
+          },
+          {
+            "id": "C",
+            "text": "34, 32"
+          },
+          {
+            "id": "D",
+            "text": "22, 24"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি পরপর জোড় সংখ্যা দুটি n ও n + 2, যেখানে n × (n + 2) = 528। ধাপ 2: 528 সংখ্যাটি 22² = 484 ও 24² = 576-এর মাঝে, তাই সংখ্যা দুটি 23-এর কাছাকাছি। ধাপ 3: 23-এর আশেপাশের জোড় জুটিটি নাও: 22 ও 24। ধাপ 4: যাচাই: 22 × 24 = 528। সঠিক। উত্তর: 22, 24"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 16,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "If 20% of A = 50% of B, what percentage of A is B?",
+        "options": [
+          {
+            "id": "A",
+            "text": "30%"
+          },
+          {
+            "id": "B",
+            "text": "40%"
+          },
+          {
+            "id": "C",
+            "text": "50%"
+          },
+          {
+            "id": "D",
+            "text": "20%"
+          }
+        ],
+        "explanation": "Step 1: Given 20% of A = 50% of B. Write as fractions: (20/100)A = (50/100)B. Step 2: Simplify: 0.2A = 0.5B, i.e. 2A = 5B after multiplying by 10. Step 3: So B = (2/5)A = 0.4A. Step 4: 0.4 as a percentage of A is 40%. Answer: 40%"
+      },
+      "bn": {
+        "question_text": "A-এর 20% = B-এর 50% হলে, B, A-এর কত শতাংশ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "30%"
+          },
+          {
+            "id": "B",
+            "text": "40%"
+          },
+          {
+            "id": "C",
+            "text": "50%"
+          },
+          {
+            "id": "D",
+            "text": "20%"
+          }
+        ],
+        "explanation": "ধাপ 1: দেওয়া আছে A-এর 20% = B-এর 50%। ভগ্নাংশে লেখো: (20/100)A = (50/100)B। ধাপ 2: সরল করো: 0.2A = 0.5B, 10 দিয়ে গুণ করলে 2A = 5B। ধাপ 3: তাই B = (2/5)A = 0.4A। ধাপ 4: 0.4, A-এর শতকরা হিসেবে 40%। উত্তর: 40%"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 17,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The ratio of urea and potash in a mixed fertiliser is 7 : 3. Express the quantity of urea as a percentage of the total amount of fertiliser.",
+        "options": [
+          {
+            "id": "A",
+            "text": "30%"
+          },
+          {
+            "id": "B",
+            "text": "70%"
+          },
+          {
+            "id": "C",
+            "text": "60%"
+          },
+          {
+            "id": "D",
+            "text": "50%"
+          }
+        ],
+        "explanation": "Step 1: Urea : potash = 7 : 3, so total parts = 7 + 3 = 10. Step 2: Urea's share of the total = 7 out of 10 parts = 7/10. Step 3: As a percentage: (7/10) × 100 = 70%. Step 4: Example check: in 100 kg of fertiliser, urea = 70 kg and potash = 30 kg, which is in the ratio 7 : 3. Correct. Answer: 70%"
+      },
+      "bn": {
+        "question_text": "একটি মিশ্র সারে ইউরিয়া ও পটাশের অনুপাত 7 : 3। সারের মোট পরিমাণের শতকরা হিসাবে ইউরিয়ার পরিমাণ প্রকাশ করো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "30%"
+          },
+          {
+            "id": "B",
+            "text": "70%"
+          },
+          {
+            "id": "C",
+            "text": "60%"
+          },
+          {
+            "id": "D",
+            "text": "50%"
+          }
+        ],
+        "explanation": "ধাপ 1: ইউরিয়া : পটাশ = 7 : 3, তাই মোট অংশ = 7 + 3 = 10। ধাপ 2: মোটের মধ্যে ইউরিয়ার অংশ = 10 অংশের মধ্যে 7 অংশ = 7/10। ধাপ 3: শতকরায়: (7/10) × 100 = 70%। ধাপ 4: উদাহরণ দিয়ে যাচাই: 100 কেজি সারে ইউরিয়া = 70 কেজি ও পটাশ = 30 কেজি, যার অনুপাত 7 : 3। সঠিক। উত্তর: 70%"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 18,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Rs. 700 is divided among A, B and C so that the ratio of A’s and B’s amounts is 2 : 3 and that of B’s and C’s is 4 : 5. How much does A receive?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 100"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 160"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 240"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 300"
+          }
+        ],
+        "explanation": "Step 1: A : B = 2 : 3 and B : C = 4 : 5. Make B the same in both by using LCM 12: A : B = 8 : 12 and B : C = 12 : 15. Step 2: Combined ratio A : B : C = 8 : 12 : 15. Total parts = 8 + 12 + 15 = 35. Step 3: Value of 1 part = 700 ÷ 35 = Rs. 20. Step 4: A receives 8 parts = 8 × 20 = Rs. 160. Answer: Rs. 160"
+      },
+      "bn": {
+        "question_text": "700 টাকা A, B ও C-এর মধ্যে এমনভাবে ভাগ করা হল যাতে A ও B-এর টাকার অনুপাত 2 : 3 এবং B ও C-এর অনুপাত 4 : 5 হয়। A কত পায়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 100"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 160"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 240"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 300"
+          }
+        ],
+        "explanation": "ধাপ 1: A : B = 2 : 3 এবং B : C = 4 : 5। ল.সা.গু. 12 ব্যবহার করে দুটিতেই B-কে সমান করো: A : B = 8 : 12 এবং B : C = 12 : 15। ধাপ 2: মিলিত অনুপাত A : B : C = 8 : 12 : 15। মোট অংশ = 8 + 12 + 15 = 35। ধাপ 3: 1 অংশের মান = 700 ÷ 35 = 20 টাকা। ধাপ 4: A পায় 8 অংশ = 8 × 20 = 160 টাকা। উত্তর: Rs. 160"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "time_work",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 19,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "2 men and 7 boys can do a piece of work in 4 days; the same work is done in 3 days by 4 men and 4 boys. How long would 1 man alone take to do it?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 days"
+          },
+          {
+            "id": "B",
+            "text": "12 days"
+          },
+          {
+            "id": "C",
+            "text": "14 days"
+          },
+          {
+            "id": "D",
+            "text": "15 days"
+          }
+        ],
+        "explanation": "Step 1: Total work is the same in both cases: (2 men + 7 boys) × 4 days = (4 men + 4 boys) × 3 days. Step 2: Expand: 8M + 28B = 12M + 12B, so 16B = 4M, giving 1 man = 4 boys. Step 3: Total work using the first group in boy units: 2 men = 8 boys, so (8 + 7) boys × 4 days = 60 boy-days. Step 4: 1 man = 4 boys, so 1 man needs 60 ÷ 4 = 15 days. Answer: 15 days"
+      },
+      "bn": {
+        "question_text": "2 জন লোক ও 7 জন ছেলে একটি কাজ 4 দিনে করতে পারে; একই কাজ 4 জন লোক ও 4 জন ছেলে 3 দিনে করে। 1 জন লোক একা কাজটি করতে কত সময় নেবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 days"
+          },
+          {
+            "id": "B",
+            "text": "12 days"
+          },
+          {
+            "id": "C",
+            "text": "14 days"
+          },
+          {
+            "id": "D",
+            "text": "15 days"
+          }
+        ],
+        "explanation": "ধাপ 1: উভয় ক্ষেত্রে মোট কাজ একই: (2 জন পুরুষ + 7টি বালক) × 4 দিন = (4 জন পুরুষ + 4টি বালক) × 3 দিন। ধাপ 2: বিস্তার করো: 8M + 28B = 12M + 12B, তাই 16B = 4M, অর্থাৎ 1 জন পুরুষ = 4টি বালক। ধাপ 3: প্রথম দল দিয়ে বালক-এককে মোট কাজ: 2 জন পুরুষ = 8টি বালক, তাই (8 + 7) বালক × 4 দিন = 60 বালক-দিন। ধাপ 4: 1 জন পুরুষ = 4টি বালক, তাই 1 জন পুরুষের লাগবে 60 ÷ 4 = 15 দিন। উত্তর: 15 days"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "algebra",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 20,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The difference of the squares of two consecutive odd integers is 200. The smaller of them is",
+        "options": [
+          {
+            "id": "A",
+            "text": "49"
+          },
+          {
+            "id": "B",
+            "text": "51"
+          },
+          {
+            "id": "C",
+            "text": "53"
+          },
+          {
+            "id": "D",
+            "text": "55"
+          }
+        ],
+        "explanation": "Step 1: Let the smaller odd integer be x. The next odd integer is x + 2. Step 2: Difference of squares: (x + 2)² − x² = 200. Step 3: Expand: (x² + 4x + 4) − x² = 4x + 4 = 200, so 4x = 196. Step 4: x = 196 ÷ 4 = 49. Answer: 49"
+      },
+      "bn": {
+        "question_text": "দুটি পরপর বিজোড় পূর্ণসংখ্যার বর্গের পার্থক্য 200। তাদের মধ্যে ছোটটি হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "49"
+          },
+          {
+            "id": "B",
+            "text": "51"
+          },
+          {
+            "id": "C",
+            "text": "53"
+          },
+          {
+            "id": "D",
+            "text": "55"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি ছোট বিজোড় পূর্ণসংখ্যাটি x। পরের বিজোড় সংখ্যাটি x + 2। ধাপ 2: বর্গের পার্থক্য: (x + 2)² − x² = 200। ধাপ 3: বিস্তার করো: (x² + 4x + 4) − x² = 4x + 4 = 200, তাই 4x = 196। ধাপ 4: x = 196 ÷ 4 = 49। উত্তর: 49"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 21,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A panchayat samity spends 40% of its Government grant on health and 25% on education. If the expense on health is Rs. 2,100, what is the total amount of the grant?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 2,550"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 5,250"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 5,025"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 5,520"
+          }
+        ],
+        "explanation": "Step 1: Health expense = 40% of the total grant, and this equals Rs. 2,100. Step 2: Let the grant be G: (40/100) × G = 2100. Step 3: G = 2100 × 100/40 = 210000 ÷ 40. Step 4: G = Rs. 5,250. Answer: Rs. 5,250"
+      },
+      "bn": {
+        "question_text": "একটি পঞ্চায়েত সমিতি তার সরকারি অনুদানের 40% স্বাস্থ্য খাতে এবং 25% শিক্ষা খাতে ব্যয় করে। স্বাস্থ্য খাতে ব্যয় 2,100 টাকা হলে, অনুদানের মোট পরিমাণ কত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 2,550"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 5,250"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 5,025"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 5,520"
+          }
+        ],
+        "explanation": "ধাপ 1: স্বাস্থ্য খাতে খরচ = মোট অনুদানের 40%, এবং এটি 2,100 টাকার সমান। ধাপ 2: ধরি অনুদান G: (40/100) × G = 2100। ধাপ 3: G = 2100 × 100/40 = 210000 ÷ 40। ধাপ 4: G = 5,250 টাকা। উত্তর: Rs. 5,250"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 22,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The GCD (HCF) of a pair of natural numbers is 10 and their sum is 150. The number of such pairs is",
+        "options": [
+          {
+            "id": "A",
+            "text": "1"
+          },
+          {
+            "id": "B",
+            "text": "2"
+          },
+          {
+            "id": "C",
+            "text": "3"
+          },
+          {
+            "id": "D",
+            "text": "4"
+          }
+        ],
+        "explanation": "Step 1: HCF is 10, so write the numbers as 10a and 10b where a and b have no common factor (coprime). Step 2: Sum = 150 gives 10a + 10b = 150, so a + b = 15. Step 3: List pairs with a < b, a + b = 15 and coprime: (1, 14), (2, 13), (4, 11), (7, 8). Pairs like (3, 12), (5, 10), (6, 9) are rejected as they share a factor. Step 4: Number of valid pairs = 4. Answer: 4"
+      },
+      "bn": {
+        "question_text": "একজোড়া স্বাভাবিক সংখ্যার GCD (HCF) 10 এবং তাদের যোগফল 150। এরূপ জোড়ের সংখ্যা হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "1"
+          },
+          {
+            "id": "B",
+            "text": "2"
+          },
+          {
+            "id": "C",
+            "text": "3"
+          },
+          {
+            "id": "D",
+            "text": "4"
+          }
+        ],
+        "explanation": "ধাপ 1: গ.সা.গু. 10, তাই সংখ্যা দুটিকে 10a ও 10b লেখো, যেখানে a ও b-এর কোনো সাধারণ উৎপাদক নেই (সহ-মৌলিক)। ধাপ 2: যোগফল = 150 হলে 10a + 10b = 150, তাই a + b = 15। ধাপ 3: a < b, a + b = 15 ও সহ-মৌলিক জুটিগুলি: (1, 14), (2, 13), (4, 11), (7, 8)। (3, 12), (5, 10), (6, 9)-এর মতো জুটি বাদ, কারণ তাদের সাধারণ উৎপাদক আছে। ধাপ 4: বৈধ জুটির সংখ্যা = 4। উত্তর: 4"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 23,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The sum of the weights of A and B is 80 kg. Half of the weight of A is equal to 5/6 of the weight of B. Find the weight of B.",
+        "options": [
+          {
+            "id": "A",
+            "text": "50 kg"
+          },
+          {
+            "id": "B",
+            "text": "40 kg"
+          },
+          {
+            "id": "C",
+            "text": "30 kg"
+          },
+          {
+            "id": "D",
+            "text": "20 kg"
+          }
+        ],
+        "explanation": "Step 1: Given A + B = 80 and A/2 = (5/6)B. Step 2: From the second equation, A = 2 × (5/6)B = (5/3)B. Step 3: Substitute in the sum: (5/3)B + B = 80, so (8/3)B = 80. Step 4: B = 80 × 3/8 = 30 kg. Answer: 30 kg"
+      },
+      "bn": {
+        "question_text": "A ও B-এর ওজনের যোগফল 80 kg। A-এর ওজনের অর্ধেক B-এর ওজনের 5/6-এর সমান। B-এর ওজন নির্ণয় করো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "50 kg"
+          },
+          {
+            "id": "B",
+            "text": "40 kg"
+          },
+          {
+            "id": "C",
+            "text": "30 kg"
+          },
+          {
+            "id": "D",
+            "text": "20 kg"
+          }
+        ],
+        "explanation": "ধাপ 1: দেওয়া আছে A + B = 80 এবং A/2 = (5/6)B। ধাপ 2: দ্বিতীয় সমীকরণ থেকে A = 2 × (5/6)B = (5/3)B। ধাপ 3: যোগফলে বসালে: (5/3)B + B = 80, তাই (8/3)B = 80। ধাপ 4: B = 80 × 3/8 = 30 কেজি। উত্তর: 30 kg"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 24,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The ratio of bus and train fares from Kolkata to a certain place is 2 : 3. If the train fare increases by 20% and the bus fare by 10%, what will be the new ratio of bus fare to train fare?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 : 9"
+          },
+          {
+            "id": "B",
+            "text": "11 : 18"
+          },
+          {
+            "id": "C",
+            "text": "12 : 7"
+          },
+          {
+            "id": "D",
+            "text": "11 : 12"
+          }
+        ],
+        "explanation": "Step 1: Take bus fare = 2 units and train fare = 3 units. Step 2: Bus fare rises by 10%: new bus fare = 2 × 1.10 = 2.2 units. Step 3: Train fare rises by 20%: new train fare = 3 × 1.20 = 3.6 units. Step 4: New ratio = 2.2 : 3.6 = 22 : 36 = 11 : 18, dividing by 2. Answer: 11 : 18"
+      },
+      "bn": {
+        "question_text": "কলকাতা থেকে একটি নির্দিষ্ট জায়গায় বাস ও ট্রেন ভাড়ার অনুপাত 2 : 3। ট্রেন ভাড়া 20% এবং বাস ভাড়া 10% বাড়লে, বাস ভাড়া ও ট্রেন ভাড়ার নতুন অনুপাত কী হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 : 9"
+          },
+          {
+            "id": "B",
+            "text": "11 : 18"
+          },
+          {
+            "id": "C",
+            "text": "12 : 7"
+          },
+          {
+            "id": "D",
+            "text": "11 : 12"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি বাস ভাড়া = 2 একক এবং ট্রেন ভাড়া = 3 একক। ধাপ 2: বাস ভাড়া 10% বাড়লে: নতুন বাস ভাড়া = 2 × 1.10 = 2.2 একক। ধাপ 3: ট্রেন ভাড়া 20% বাড়লে: নতুন ট্রেন ভাড়া = 3 × 1.20 = 3.6 একক। ধাপ 4: নতুন অনুপাত = 2.2 : 3.6 = 22 : 36 = 2 দিয়ে ভাগ করে 11 : 18। উত্তর: 11 : 18"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 25,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "2 + 4 + 6 + … + 40 is equal to",
+        "options": [
+          {
+            "id": "A",
+            "text": "440"
+          },
+          {
+            "id": "B",
+            "text": "410"
+          },
+          {
+            "id": "C",
+            "text": "400"
+          },
+          {
+            "id": "D",
+            "text": "420"
+          }
+        ],
+        "explanation": "Step 1: The series is 2 + 4 + 6 + … + 40, even numbers. Number of terms = 40 ÷ 2 = 20. Step 2: Take out the common factor 2: sum = 2 × (1 + 2 + … + 20). Step 3: Sum of first 20 natural numbers = 20 × 21/2 = 210. Step 4: Required sum = 2 × 210 = 420. Answer: 420"
+      },
+      "bn": {
+        "question_text": "2 + 4 + 6 + … + 40 সমান হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "440"
+          },
+          {
+            "id": "B",
+            "text": "410"
+          },
+          {
+            "id": "C",
+            "text": "400"
+          },
+          {
+            "id": "D",
+            "text": "420"
+          }
+        ],
+        "explanation": "ধাপ 1: ধারাটি 2 + 4 + 6 + … + 40, জোড় সংখ্যার ধারা। পদের সংখ্যা = 40 ÷ 2 = 20। ধাপ 2: সাধারণ উৎপাদক 2 বাইরে নাও: যোগফল = 2 × (1 + 2 + … + 20)। ধাপ 3: প্রথম 20টি স্বাভাবিক সংখ্যার যোগফল = 20 × 21/2 = 210। ধাপ 4: নির্ণেয় যোগফল = 2 × 210 = 420। উত্তর: 420"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 26,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Iron and carbon are in the ratio of 49 : 1 in a particular type of steel. How many quintals of carbon are there in 250 quintals of that type of steel?",
+        "options": [
+          {
+            "id": "A",
+            "text": "4"
+          },
+          {
+            "id": "B",
+            "text": "5"
+          },
+          {
+            "id": "C",
+            "text": "6"
+          },
+          {
+            "id": "D",
+            "text": "9"
+          }
+        ],
+        "explanation": "Step 1: Iron : carbon = 49 : 1, so total parts = 49 + 1 = 50. Step 2: Carbon is 1 part out of 50 parts of the steel. Step 3: In 250 quintals, carbon = 250 × (1/50). Step 4: Carbon = 250 ÷ 50 = 5 quintals. Answer: 5"
+      },
+      "bn": {
+        "question_text": "একটি নির্দিষ্ট ধরনের ইস্পাতে লোহা ও কার্বনের অনুপাত 49 : 1। ওই ধরনের 250 কুইন্টাল ইস্পাতে কত কুইন্টাল কার্বন আছে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "4"
+          },
+          {
+            "id": "B",
+            "text": "5"
+          },
+          {
+            "id": "C",
+            "text": "6"
+          },
+          {
+            "id": "D",
+            "text": "9"
+          }
+        ],
+        "explanation": "ধাপ 1: লোহা : কার্বন = 49 : 1, তাই মোট অংশ = 49 + 1 = 50। ধাপ 2: কার্বন হল ইস্পাতের 50 অংশের মধ্যে 1 অংশ। ধাপ 3: 250 কুইন্টালে কার্বন = 250 × (1/50)। ধাপ 4: কার্বন = 250 ÷ 50 = 5 কুইন্টাল। উত্তর: 5"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 27,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "If A’s wage is 20% more than B’s wage, how much per cent less is B’s wage than A’s wage?",
+        "options": [
+          {
+            "id": "A",
+            "text": "20%"
+          },
+          {
+            "id": "B",
+            "text": "18%"
+          },
+          {
+            "id": "C",
+            "text": "17%"
+          },
+          {
+            "id": "D",
+            "text": "16⅔%"
+          }
+        ],
+        "explanation": "Step 1: Let B's wage be Rs. 100. Then A's wage = 100 + 20 = Rs. 120. Step 2: Difference = 120 − 100 = Rs. 20. Step 3: B's wage is less than A's, measured against A's wage of 120. Step 4: Percentage less = (20/120) × 100 = 16⅔%. Answer: 16⅔%"
+      },
+      "bn": {
+        "question_text": "A-এর মজুরি B-এর মজুরির চেয়ে 20% বেশি হলে, B-এর মজুরি A-এর মজুরির চেয়ে শতকরা কত কম?",
+        "options": [
+          {
+            "id": "A",
+            "text": "20%"
+          },
+          {
+            "id": "B",
+            "text": "18%"
+          },
+          {
+            "id": "C",
+            "text": "17%"
+          },
+          {
+            "id": "D",
+            "text": "16⅔%"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি B-এর মজুরি 100 টাকা। তাহলে A-এর মজুরি = 100 + 20 = 120 টাকা। ধাপ 2: পার্থক্য = 120 − 100 = 20 টাকা। ধাপ 3: B-এর মজুরি A-এর চেয়ে কম, যা A-এর মজুরি 120-এর সাপেক্ষে মাপতে হবে। ধাপ 4: শতকরা কম = (20/120) × 100 = 16⅔%। উত্তর: 16⅔%"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 28,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The least positive integer which must be subtracted from 11,100 to make it a perfect square is",
+        "options": [
+          {
+            "id": "A",
+            "text": "57"
+          },
+          {
+            "id": "B",
+            "text": "95"
+          },
+          {
+            "id": "C",
+            "text": "125"
+          },
+          {
+            "id": "D",
+            "text": "75"
+          }
+        ],
+        "explanation": "Step 1: Find the greatest perfect square not exceeding 11,100. 105² = 11,025. Step 2: Check the next square: 106² = 11,236, which is greater than 11,100, so 11,025 is the right square. Step 3: Amount to subtract = 11,100 − 11,025 = 75. Answer: 75"
+      },
+      "bn": {
+        "question_text": "11,100 থেকে বিয়োগ করতে হবে এমন ক্ষুদ্রতম ধনাত্মক পূর্ণসংখ্যা যাতে এটি একটি পূর্ণবর্গ হয়, তা হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "57"
+          },
+          {
+            "id": "B",
+            "text": "95"
+          },
+          {
+            "id": "C",
+            "text": "125"
+          },
+          {
+            "id": "D",
+            "text": "75"
+          }
+        ],
+        "explanation": "ধাপ 1: 11,100-কে ছাড়িয়ে না যাওয়া সবচেয়ে বড় পূর্ণ বর্গ বের করো। 105² = 11,025। ধাপ 2: পরের বর্গটি যাচাই করো: 106² = 11,236, যা 11,100-এর চেয়ে বড়, তাই 11,025-ই সঠিক বর্গ। ধাপ 3: বিয়োগ করতে হবে = 11,100 − 11,025 = 75। উত্তর: 75"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "profit_loss",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 29,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "An article is sold for Rs. 414 at a profit of 20%. The cost price of the article is",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 435"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 345"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 354"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 453"
+          }
+        ],
+        "explanation": "Step 1: Selling price = cost price + 20% profit, so SP = CP × (1 + 20/100) = CP × 1.2. Step 2: Given SP = Rs. 414, so CP × 1.2 = 414. Step 3: CP = 414 ÷ 1.2 = 4140 ÷ 12. Step 4: CP = Rs. 345. Answer: Rs. 345"
+      },
+      "bn": {
+        "question_text": "একটি দ্রব্য 20% লাভে 414 টাকায় বিক্রি করা হয়। দ্রব্যটির ক্রয়মূল্য হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 435"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 345"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 354"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 453"
+          }
+        ],
+        "explanation": "ধাপ 1: বিক্রয়মূল্য = ক্রয়মূল্য + 20% লাভ, তাই SP = CP × (1 + 20/100) = CP × 1.2। ধাপ 2: দেওয়া আছে SP = 414 টাকা, তাই CP × 1.2 = 414। ধাপ 3: CP = 414 ÷ 1.2 = 4140 ÷ 12। ধাপ 4: CP = 345 টাকা। উত্তর: Rs. 345"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 30,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "In a type of German silver the ratio of copper, zinc and nickel is 4 : 3 : 2. How much zinc should be added to 54 kg of such German silver to make the ratio 6 : 5 : 3?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 kg"
+          },
+          {
+            "id": "B",
+            "text": "2 kg"
+          },
+          {
+            "id": "C",
+            "text": "3 kg"
+          },
+          {
+            "id": "D",
+            "text": "⅔ kg"
+          }
+        ],
+        "explanation": "Step 1: Copper : zinc : nickel = 4 : 3 : 2, total parts = 9, in 54 kg. Step 2: Copper = (4/9) × 54 = 24 kg, zinc = (3/9) × 54 = 18 kg, nickel = (2/9) × 54 = 12 kg. Step 3: Only zinc is added, so copper stays 24 kg and nickel stays 12 kg. In target ratio 6 : 5 : 3, copper is 6 parts = 24 kg, so 1 part = 4 kg, and nickel check: 3 parts = 12 kg. Correct. Step 4: Target zinc = 5 parts = 5 × 4 = 20 kg. Zinc to add = 20 − 18 = 2 kg. Answer: 2 kg"
+      },
+      "bn": {
+        "question_text": "এক ধরনের জার্মান সিলভারে তামা, দস্তা ও নিকেলের অনুপাত 4 : 3 : 2। ঐরূপ 54 kg জার্মান সিলভারে কতটা দস্তা যোগ করলে অনুপাত 6 : 5 : 3 হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 kg"
+          },
+          {
+            "id": "B",
+            "text": "2 kg"
+          },
+          {
+            "id": "C",
+            "text": "3 kg"
+          },
+          {
+            "id": "D",
+            "text": "⅔ kg"
+          }
+        ],
+        "explanation": "ধাপ 1: তামা : দস্তা : নিকেল = 4 : 3 : 2, মোট অংশ = 9, মোট 54 কেজিতে। ধাপ 2: তামা = (4/9) × 54 = 24 কেজি, দস্তা = (3/9) × 54 = 18 কেজি, নিকেল = (2/9) × 54 = 12 কেজি। ধাপ 3: শুধু দস্তা যোগ করা হয়, তাই তামা 24 কেজি ও নিকেল 12 কেজিই থাকে। লক্ষ্য অনুপাত 6 : 5 : 3-এ তামা 6 অংশ = 24 কেজি, তাই 1 অংশ = 4 কেজি, এবং নিকেল যাচাই: 3 অংশ = 12 কেজি। সঠিক। ধাপ 4: লক্ষ্য দস্তা = 5 অংশ = 5 × 4 = 20 কেজি। যোগ করতে হবে দস্তা = 20 − 18 = 2 কেজি। উত্তর: 2 kg"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 31,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Of 132 examinees of a certain school, the ratio of successful to unsuccessful students is 9 : 2. If 4 more students had passed, what would have been the ratio of successful to unsuccessful students?",
+        "options": [
+          {
+            "id": "A",
+            "text": "5 : 28"
+          },
+          {
+            "id": "B",
+            "text": "28 : 5"
+          },
+          {
+            "id": "C",
+            "text": "4 : 25"
+          },
+          {
+            "id": "D",
+            "text": "25 : 4"
+          }
+        ],
+        "explanation": "Step 1: Successful : unsuccessful = 9 : 2, total parts = 11, out of 132 examinees. Step 2: Successful = (9/11) × 132 = 108. Unsuccessful = (2/11) × 132 = 24. Step 3: If 4 more had passed: successful = 108 + 4 = 112, unsuccessful = 24 − 4 = 20. Step 4: New ratio = 112 : 20 = 28 : 5, dividing by 4. Answer: 28 : 5"
+      },
+      "bn": {
+        "question_text": "একটি নির্দিষ্ট স্কুলের 132 জন পরীক্ষার্থীর মধ্যে কৃতকার্য ও অকৃতকার্য ছাত্রদের অনুপাত 9 : 2। আরও 4 জন ছাত্র পাস করলে, কৃতকার্য ও অকৃতকার্য ছাত্রদের অনুপাত কী হত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "5 : 28"
+          },
+          {
+            "id": "B",
+            "text": "28 : 5"
+          },
+          {
+            "id": "C",
+            "text": "4 : 25"
+          },
+          {
+            "id": "D",
+            "text": "25 : 4"
+          }
+        ],
+        "explanation": "ধাপ 1: সফল : অসফল = 9 : 2, মোট অংশ = 11, মোট পরীক্ষার্থী 132 জনের মধ্যে। ধাপ 2: সফল = (9/11) × 132 = 108। অসফল = (2/11) × 132 = 24। ধাপ 3: আরও 4 জন পাশ করলে: সফল = 108 + 4 = 112, অসফল = 24 − 4 = 20। ধাপ 4: নতুন অনুপাত = 112 : 20 = 4 দিয়ে ভাগ করে 28 : 5। উত্তর: 28 : 5"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 32,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A quantity of food provides for 24 men for 20 days. How long will it last if the number of men is 40?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 days"
+          },
+          {
+            "id": "B",
+            "text": "12 days"
+          },
+          {
+            "id": "C",
+            "text": "14 days"
+          },
+          {
+            "id": "D",
+            "text": "16 days"
+          }
+        ],
+        "explanation": "Step 1: Total food = 24 men × 20 days = 480 man-days of food. Step 2: The same food is now shared by 40 men, so it lasts fewer days (inverse proportion). Step 3: Days = total man-days ÷ number of men = 480 ÷ 40. Step 4: Days = 12. Answer: 12 days"
+      },
+      "bn": {
+        "question_text": "একটি পরিমাণ খাদ্য 24 জন লোকের 20 দিন চলে। লোকসংখ্যা 40 হলে তা কতদিন চলবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 days"
+          },
+          {
+            "id": "B",
+            "text": "12 days"
+          },
+          {
+            "id": "C",
+            "text": "14 days"
+          },
+          {
+            "id": "D",
+            "text": "16 days"
+          }
+        ],
+        "explanation": "ধাপ 1: মোট খাবার = 24 জন × 20 দিন = 480 জন-দিনের খাবার। ধাপ 2: একই খাবার এখন 40 জন ভাগ করে খেলে তা কম দিন চলবে (ব্যস্ত অনুপাত)। ধাপ 3: দিন = মোট জন-দিন ÷ লোকের সংখ্যা = 480 ÷ 40। ধাপ 4: দিন = 12। উত্তর: 12 days"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "pipes_cistern",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 33,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A tap can fill an empty reservoir in 45 minutes and another tap can empty it in 30 minutes. When the reservoir is already half full, both taps are opened together. The reservoir will be empty in",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 min"
+          },
+          {
+            "id": "B",
+            "text": "40 min"
+          },
+          {
+            "id": "C",
+            "text": "45 min"
+          },
+          {
+            "id": "D",
+            "text": "50 min"
+          }
+        ],
+        "explanation": "Step 1: Filling rate = 1/45 per minute. Emptying rate = 1/30 per minute. Step 2: Net rate with both open = 1/45 − 1/30 = (2 − 3)/90 = −1/90 per minute, so the reservoir empties at 1/90 per minute. Step 3: Amount to empty = half the reservoir = 1/2. Step 4: Time = (1/2) ÷ (1/90) = 45 minutes. Answer: 45 min"
+      },
+      "bn": {
+        "question_text": "একটি নল 45 মিনিটে একটি খালি জলাধার পূর্ণ করতে পারে এবং অন্য একটি নল 30 মিনিটে সেটি খালি করতে পারে। জলাধারটি ইতিমধ্যে অর্ধেক পূর্ণ থাকা অবস্থায় দুটি নলই একসঙ্গে খুলে দেওয়া হল। জলাধারটি খালি হবে",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 min"
+          },
+          {
+            "id": "B",
+            "text": "40 min"
+          },
+          {
+            "id": "C",
+            "text": "45 min"
+          },
+          {
+            "id": "D",
+            "text": "50 min"
+          }
+        ],
+        "explanation": "ধাপ 1: ভরার হার = প্রতি মিনিটে 1/45। খালি করার হার = প্রতি মিনিটে 1/30। ধাপ 2: দুটি কল খোলা থাকলে মোট হার = 1/45 − 1/30 = (2 − 3)/90 = −1/90 প্রতি মিনিটে, অর্থাৎ জলাধার প্রতি মিনিটে 1/90 হারে খালি হয়। ধাপ 3: খালি করতে হবে অর্ধেক জলাধার = 1/2। ধাপ 4: সময় = (1/2) ÷ (1/90) = 45 মিনিট। উত্তর: 45 min"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 34,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "If the sides of a square are doubled, find the percentage increase in area.",
+        "options": [
+          {
+            "id": "A",
+            "text": "200%"
+          },
+          {
+            "id": "B",
+            "text": "50%"
+          },
+          {
+            "id": "C",
+            "text": "100%"
+          },
+          {
+            "id": "D",
+            "text": "300%"
+          }
+        ],
+        "explanation": "Step 1: Let the side be 10 units, so area = 10 × 10 = 100 sq units. Step 2: Sides are doubled: new side = 20 units. Step 3: New area = 20 × 20 = 400 sq units. Step 4: Increase = 400 − 100 = 300. Percentage increase = (300/100) × 100 = 300%. Answer: 300%"
+      },
+      "bn": {
+        "question_text": "একটি বর্গক্ষেত্রের বাহুগুলি দ্বিগুণ করা হলে, ক্ষেত্রফলের শতকরা বৃদ্ধি নির্ণয় করো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "200%"
+          },
+          {
+            "id": "B",
+            "text": "50%"
+          },
+          {
+            "id": "C",
+            "text": "100%"
+          },
+          {
+            "id": "D",
+            "text": "300%"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি বাহু 10 একক, তাহলে ক্ষেত্রফল = 10 × 10 = 100 বর্গ একক। ধাপ 2: বাহু দ্বিগুণ হলে: নতুন বাহু = 20 একক। ধাপ 3: নতুন ক্ষেত্রফল = 20 × 20 = 400 বর্গ একক। ধাপ 4: বৃদ্ধি = 400 − 100 = 300। শতকরা বৃদ্ধি = (300/100) × 100 = 300%। উত্তর: 300%"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 35,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "180 oranges are distributed among 70 boys and girls such that each boy gets 2 oranges and each girl 3 oranges. The number of boys is",
+        "options": [
+          {
+            "id": "A",
+            "text": "20"
+          },
+          {
+            "id": "B",
+            "text": "25"
+          },
+          {
+            "id": "C",
+            "text": "30"
+          },
+          {
+            "id": "D",
+            "text": "40"
+          }
+        ],
+        "explanation": "Step 1: Let the number of boys be b. Then girls = 70 − b. Step 2: Oranges used = 2b + 3(70 − b), and this equals 180. Step 3: 2b + 210 − 3b = 180, so 210 − b = 180. Step 4: b = 210 − 180 = 30. Answer: 30"
+      },
+      "bn": {
+        "question_text": "70 জন ছেলে ও মেয়ের মধ্যে 180টি কমলালেবু এমনভাবে বিতরণ করা হল যাতে প্রতিটি ছেলে 2টি এবং প্রতিটি মেয়ে 3টি কমলালেবু পায়। ছেলেদের সংখ্যা হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "20"
+          },
+          {
+            "id": "B",
+            "text": "25"
+          },
+          {
+            "id": "C",
+            "text": "30"
+          },
+          {
+            "id": "D",
+            "text": "40"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি ছেলেদের সংখ্যা b। তাহলে মেয়েরা = 70 − b। ধাপ 2: ব্যবহৃত কমলালেবু = 2b + 3(70 − b), এবং এটি 180-এর সমান। ধাপ 3: 2b + 210 − 3b = 180, তাই 210 − b = 180। ধাপ 4: b = 210 − 180 = 30। উত্তর: 30"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ages",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 36,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Fourteen years ago, a man was six times as old as his son. The sum of their present ages is 70 years. The present age of the man is",
+        "options": [
+          {
+            "id": "A",
+            "text": "36 years"
+          },
+          {
+            "id": "B",
+            "text": "40 years"
+          },
+          {
+            "id": "C",
+            "text": "45 years"
+          },
+          {
+            "id": "D",
+            "text": "50 years"
+          }
+        ],
+        "explanation": "Step 1: Let the son's present age be S. The man's present age = 70 − S, since their ages sum to 70. Step 2: Fourteen years ago: man = 70 − S − 14 = 56 − S, son = S − 14. Step 3: Man was 6 times the son: 56 − S = 6(S − 14) = 6S − 84. Step 4: 56 + 84 = 6S + S, so 7S = 140 and S = 20. Man's age = 70 − 20 = 50. Answer: 50 years"
+      },
+      "bn": {
+        "question_text": "চৌদ্দ বছর আগে, একজন লোক তাঁর ছেলের বয়সের ছয়গুণ বয়সী ছিলেন। তাদের বর্তমান বয়সের যোগফল 70 বছর। লোকটির বর্তমান বয়স হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "36 years"
+          },
+          {
+            "id": "B",
+            "text": "40 years"
+          },
+          {
+            "id": "C",
+            "text": "45 years"
+          },
+          {
+            "id": "D",
+            "text": "50 years"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি ছেলের বর্তমান বয়স S। দুজনের বয়সের যোগফল 70 বলে পুরুষটির বর্তমান বয়স = 70 − S। ধাপ 2: চোদ্দ বছর আগে: পুরুষ = 70 − S − 14 = 56 − S, ছেলে = S − 14। ধাপ 3: পুরুষের বয়স ছেলের 6 গুণ ছিল: 56 − S = 6(S − 14) = 6S − 84। ধাপ 4: 56 + 84 = 6S + S, তাই 7S = 140 এবং S = 20। পুরুষটির বয়স = 70 − 20 = 50। উত্তর: 50 years"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "profit_loss",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 37,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A pen is purchased for Rs. 20 and sold for Rs. 24. What is the percentage of profit?",
+        "options": [
+          {
+            "id": "A",
+            "text": "24%"
+          },
+          {
+            "id": "B",
+            "text": "25%"
+          },
+          {
+            "id": "C",
+            "text": "26%"
+          },
+          {
+            "id": "D",
+            "text": "20%"
+          }
+        ],
+        "explanation": "Step 1: Cost price = Rs. 20, selling price = Rs. 24. Step 2: Profit = SP − CP = 24 − 20 = Rs. 4. Step 3: Profit % is on cost price: (4/20) × 100. Step 4: Profit % = 20%. Answer: 20%"
+      },
+      "bn": {
+        "question_text": "একটি কলম 20 টাকায় কেনা হয় এবং 24 টাকায় বিক্রি করা হয়। লাভের শতকরা হার কত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "24%"
+          },
+          {
+            "id": "B",
+            "text": "25%"
+          },
+          {
+            "id": "C",
+            "text": "26%"
+          },
+          {
+            "id": "D",
+            "text": "20%"
+          }
+        ],
+        "explanation": "ধাপ 1: ক্রয়মূল্য = 20 টাকা, বিক্রয়মূল্য = 24 টাকা। ধাপ 2: লাভ = SP − CP = 24 − 20 = 4 টাকা। ধাপ 3: লাভের শতকরা হার ক্রয়মূল্যের ওপর হয়: (4/20) × 100। ধাপ 4: লাভ % = 20%। উত্তর: 20%"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ages",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 38,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Arun is senior to Barun by 6 years. If the sum of their ages is 54 years, the age of Barun is",
+        "options": [
+          {
+            "id": "A",
+            "text": "18 years"
+          },
+          {
+            "id": "B",
+            "text": "20 years"
+          },
+          {
+            "id": "C",
+            "text": "24 years"
+          },
+          {
+            "id": "D",
+            "text": "30 years"
+          }
+        ],
+        "explanation": "Step 1: Let Barun's age be B years. Arun is 6 years senior, so Arun = B + 6. Step 2: Sum of ages = 54: B + (B + 6) = 54. Step 3: 2B + 6 = 54, so 2B = 48. Step 4: B = 48 ÷ 2 = 24. Answer: 24 years"
+      },
+      "bn": {
+        "question_text": "অরুণ বরুণের চেয়ে 6 বছরের বড়। তাদের বয়সের যোগফল 54 বছর হলে, বরুণের বয়স হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "18 years"
+          },
+          {
+            "id": "B",
+            "text": "20 years"
+          },
+          {
+            "id": "C",
+            "text": "24 years"
+          },
+          {
+            "id": "D",
+            "text": "30 years"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি বরুণের বয়স B বছর। অরুণ 6 বছরের বড়, তাই অরুণ = B + 6। ধাপ 2: বয়সের যোগফল = 54: B + (B + 6) = 54। ধাপ 3: 2B + 6 = 54, তাই 2B = 48। ধাপ 4: B = 48 ÷ 2 = 24। উত্তর: 24 years"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 39,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "In a certain assembly constituency election, 80% of voters exercised their voting right and the winning candidate got 65% of the votes polled. What per cent of the total voters did he poll?",
+        "options": [
+          {
+            "id": "A",
+            "text": "45%"
+          },
+          {
+            "id": "B",
+            "text": "52%"
+          },
+          {
+            "id": "C",
+            "text": "55%"
+          },
+          {
+            "id": "D",
+            "text": "57%"
+          }
+        ],
+        "explanation": "Step 1: Out of every 100 total voters, 80 cast votes (votes polled = 80). Step 2: The winner got 65% of the votes polled, i.e. 65% of 80. Step 3: 65% of 80 = (65/100) × 80 = 5200/100 = 52. Step 4: So the winner polled 52 out of every 100 total voters, i.e. 52%. Answer: 52%"
+      },
+      "bn": {
+        "question_text": "একটি নির্দিষ্ট বিধানসভা কেন্দ্রের নির্বাচনে, 80% ভোটার তাঁদের ভোটাধিকার প্রয়োগ করেন এবং জয়ী প্রার্থী প্রদত্ত ভোটের 65% পান। তিনি মোট ভোটারের শতকরা কত ভোট পেয়েছিলেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "45%"
+          },
+          {
+            "id": "B",
+            "text": "52%"
+          },
+          {
+            "id": "C",
+            "text": "55%"
+          },
+          {
+            "id": "D",
+            "text": "57%"
+          }
+        ],
+        "explanation": "ধাপ 1: প্রতি 100 জন মোট ভোটারের মধ্যে 80 জন ভোট দিয়েছেন (প্রদত্ত ভোট = 80)। ধাপ 2: বিজয়ী পেয়েছেন প্রদত্ত ভোটের 65%, অর্থাৎ 80-এর 65%। ধাপ 3: 80-এর 65% = (65/100) × 80 = 5200/100 = 52। ধাপ 4: তাই বিজয়ী প্রতি 100 জন মোট ভোটারের মধ্যে 52টি ভোট পেয়েছেন, অর্থাৎ 52%। উত্তর: 52%"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "partnership",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 40,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A and B jointly start a business. A invests Rs. 17,000 and B invests Rs. 20,000. Four months later, A invests a further Rs. 4,000. If the profit is Rs. 9,520 in one year, then A’s share of the profit is",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 4,700"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 4,800"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 4,720"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 4,750"
+          }
+        ],
+        "explanation": "Step 1: Profit is shared in the ratio of capital × months. B: 20,000 × 12 = 2,40,000 capital-months. Step 2: A: 17,000 for all 12 months plus extra 4,000 for the remaining 8 months: 17,000 × 12 + 4,000 × 8 = 2,04,000 + 32,000 = 2,36,000. Step 3: Ratio A : B = 2,36,000 : 2,40,000 = 59 : 60, total 119 parts. Step 4: A's share = 9520 × 59/119 = 80 × 59 = Rs. 4,720, since 9520 ÷ 119 = 80. Answer: Rs. 4,720"
+      },
+      "bn": {
+        "question_text": "A ও B যৌথভাবে একটি ব্যবসা শুরু করে। A 17,000 টাকা এবং B 20,000 টাকা বিনিয়োগ করে। চার মাস পরে, A আরও 4,000 টাকা বিনিয়োগ করে। এক বছরে লাভ 9,520 টাকা হলে, লাভে A-এর অংশ হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 4,700"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 4,800"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 4,720"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 4,750"
+          }
+        ],
+        "explanation": "ধাপ 1: লাভ মূলধন × মাসের অনুপাতে ভাগ হয়। B: 20,000 × 12 = 2,40,000 মূলধন-মাস। ধাপ 2: A: পুরো 12 মাস 17,000 এবং বাকি 8 মাস অতিরিক্ত 4,000: 17,000 × 12 + 4,000 × 8 = 2,04,000 + 32,000 = 2,36,000। ধাপ 3: অনুপাত A : B = 2,36,000 : 2,40,000 = 59 : 60, মোট 119 অংশ। ধাপ 4: A-এর অংশ = 9520 × 59/119 = 80 × 59 = 4,720 টাকা, কারণ 9520 ÷ 119 = 80। উত্তর: Rs. 4,720"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 41,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "In an examination, 60% of the examinees passed in English and 70% passed in Mathematics, but 20% failed in both. If 2,500 examinees passed in both subjects, the total number of examinees is",
+        "options": [
+          {
+            "id": "A",
+            "text": "4,000"
+          },
+          {
+            "id": "B",
+            "text": "3,000"
+          },
+          {
+            "id": "C",
+            "text": "5,000"
+          },
+          {
+            "id": "D",
+            "text": "3,500"
+          }
+        ],
+        "explanation": "Step 1: 20% failed in both subjects, so 100 − 20 = 80% passed in at least one subject. Step 2: By the sets rule: passed in English + passed in Maths − passed in both = passed in at least one. Step 3: 60 + 70 − passed in both = 80, so passed in both = 130 − 80 = 50%. Step 4: 50% of examinees = 2500, so total = 2500 × 100/50 = 5,000. Answer: 5,000"
+      },
+      "bn": {
+        "question_text": "একটি পরীক্ষায়, 60% পরীক্ষার্থী ইংরেজিতে এবং 70% অঙ্কে পাস করে, কিন্তু 20% উভয় বিষয়ে ফেল করে। 2,500 জন পরীক্ষার্থী উভয় বিষয়ে পাস করলে, মোট পরীক্ষার্থীর সংখ্যা হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "4,000"
+          },
+          {
+            "id": "B",
+            "text": "3,000"
+          },
+          {
+            "id": "C",
+            "text": "5,000"
+          },
+          {
+            "id": "D",
+            "text": "3,500"
+          }
+        ],
+        "explanation": "ধাপ 1: 20% দুটি বিষয়েই ফেল করেছে, তাই 100 − 20 = 80% অন্তত একটি বিষয়ে পাশ করেছে। ধাপ 2: সেটের নিয়মে: ইংরেজিতে পাশ + গণিতে পাশ − দুটিতে পাশ = অন্তত একটিতে পাশ। ধাপ 3: 60 + 70 − দুটিতে পাশ = 80, তাই দুটিতে পাশ = 130 − 80 = 50%। ধাপ 4: পরীক্ষার্থীর 50% = 2500, তাই মোট = 2500 × 100/50 = 5,000। উত্তর: 5,000"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "algebra",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 42,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A number when multiplied by 13 is increased by 180. The number is",
+        "options": [
+          {
+            "id": "A",
+            "text": "25"
+          },
+          {
+            "id": "B",
+            "text": "15"
+          },
+          {
+            "id": "C",
+            "text": "12"
+          },
+          {
+            "id": "D",
+            "text": "5"
+          }
+        ],
+        "explanation": "Step 1: Let the number be x. Multiplied by 13 it becomes 13x. Step 2: This equals the number increased by 180, i.e. x + 180. Step 3: 13x = x + 180, so 12x = 180. Step 4: x = 180 ÷ 12 = 15. Answer: 15"
+      },
+      "bn": {
+        "question_text": "একটি সংখ্যাকে 13 দিয়ে গুণ করলে তা 180 বৃদ্ধি পায়। সংখ্যাটি হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "25"
+          },
+          {
+            "id": "B",
+            "text": "15"
+          },
+          {
+            "id": "C",
+            "text": "12"
+          },
+          {
+            "id": "D",
+            "text": "5"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি সংখ্যাটি x। 13 দিয়ে গুণ করলে হয় 13x। ধাপ 2: এটি সংখ্যাটির সঙ্গে 180 যোগ করার সমান, অর্থাৎ x + 180। ধাপ 3: 13x = x + 180, তাই 12x = 180। ধাপ 4: x = 180 ÷ 12 = 15। উত্তর: 15"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "algebra",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 43,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The sum and difference of two numbers are 7.75 and 2.25 respectively. Then their product is",
+        "options": [
+          {
+            "id": "A",
+            "text": "10.75"
+          },
+          {
+            "id": "B",
+            "text": "12.25"
+          },
+          {
+            "id": "C",
+            "text": "13.75"
+          },
+          {
+            "id": "D",
+            "text": "13.25"
+          }
+        ],
+        "explanation": "Step 1: Let the numbers be a and b: a + b = 7.75 and a − b = 2.25. Step 2: Adding: 2a = 7.75 + 2.25 = 10, so a = 5. Step 3: Subtracting: 2b = 7.75 − 2.25 = 5.5, so b = 2.75. Step 4: Product = 5 × 2.75 = 13.75. Answer: 13.75"
+      },
+      "bn": {
+        "question_text": "দুটি সংখ্যার যোগফল ও পার্থক্য যথাক্রমে 7.75 ও 2.25। তাহলে তাদের গুণফল হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "10.75"
+          },
+          {
+            "id": "B",
+            "text": "12.25"
+          },
+          {
+            "id": "C",
+            "text": "13.75"
+          },
+          {
+            "id": "D",
+            "text": "13.25"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি সংখ্যা দুটি a ও b: a + b = 7.75 এবং a − b = 2.25। ধাপ 2: যোগ করলে: 2a = 7.75 + 2.25 = 10, তাই a = 5। ধাপ 3: বিয়োগ করলে: 2b = 7.75 − 2.25 = 5.5, তাই b = 2.75। ধাপ 4: গুণফল = 5 × 2.75 = 13.75। উত্তর: 13.75"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "time_speed_distance",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 44,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The distance between A and B is 14 km. Two persons start from A and B at the same time and walk towards each other at 4 km/hr and 3 km/hr respectively. If they meet at C, then",
+        "options": [
+          {
+            "id": "A",
+            "text": "AC = CB"
+          },
+          {
+            "id": "B",
+            "text": "AC < CB"
+          },
+          {
+            "id": "C",
+            "text": "AC > CB"
+          },
+          {
+            "id": "D",
+            "text": "None of the above"
+          }
+        ],
+        "explanation": "Step 1: Both persons walk for exactly the same time until they meet at C. Step 2: Distance covered = speed × time. With equal time, distances are in the ratio of speeds, 4 : 3. Step 3: The person from A walks at 4 km/hr, faster than the person from B at 3 km/hr, so in the same time he covers more distance. Step 4: Distance from A to C (AC) is therefore greater than distance from C to B (CB). Answer: AC > CB"
+      },
+      "bn": {
+        "question_text": "A ও B-এর মধ্যে দূরত্ব 14 km। দুজন ব্যক্তি একই সময়ে A ও B থেকে যথাক্রমে 4 km/hr ও 3 km/hr বেগে একে অপরের দিকে হাঁটতে শুরু করে। তারা C বিন্দুতে মিলিত হলে, তখন",
+        "options": [
+          {
+            "id": "A",
+            "text": "AC = CB"
+          },
+          {
+            "id": "B",
+            "text": "AC < CB"
+          },
+          {
+            "id": "C",
+            "text": "AC > CB"
+          },
+          {
+            "id": "D",
+            "text": "None of the above"
+          }
+        ],
+        "explanation": "ধাপ 1: দুজনেই C বিন্দুতে মিলিত হওয়া পর্যন্ত ঠিক একই সময় ধরে হাঁটে। ধাপ 2: অতিক্রান্ত দূরত্ব = গতি × সময়। সময় সমান হলে দূরত্ব গতির অনুপাতে হয়, 4 : 3। ধাপ 3: A থেকে আসা ব্যক্তি 4 কিমি/ঘণ্টা বেগে হাঁটেন, যা B থেকে আসা ব্যক্তির 3 কিমি/ঘণ্টার চেয়ে বেশি, তাই একই সময়ে তিনি বেশি দূরত্ব যান। ধাপ 4: অতএব A থেকে C পর্যন্ত দূরত্ব (AC), C থেকে B পর্যন্ত দূরত্বের (CB) চেয়ে বেশি। উত্তর: AC > CB"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "partnership",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 45,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A, B and C started a business with Rs. 1,500, Rs. 1,000 and Rs. 1,750 respectively as capital. At the end of the year there was a loss of Rs. 425. How much did C lose?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 150"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 175"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 100"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 125"
+          }
+        ],
+        "explanation": "Step 1: Loss is shared in the ratio of capitals: 1500 : 1000 : 1750. Step 2: Simplify by dividing by 250: 6 : 4 : 7. Total parts = 6 + 4 + 7 = 17. Step 3: C's share of the loss = 425 × (7/17). Step 4: 425 ÷ 17 = 25, so C loses 25 × 7 = Rs. 175. Answer: Rs. 175"
+      },
+      "bn": {
+        "question_text": "A, B ও C যথাক্রমে 1,500 টাকা, 1,000 টাকা ও 1,750 টাকা মূলধন নিয়ে একটি ব্যবসা শুরু করে। বছরের শেষে 425 টাকা ক্ষতি হয়। C-এর কত ক্ষতি হয়েছিল?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 150"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 175"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 100"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 125"
+          }
+        ],
+        "explanation": "ধাপ 1: ক্ষতি মূলধনের অনুপাতে ভাগ হয়: 1500 : 1000 : 1750। ধাপ 2: 250 দিয়ে ভাগ করে সরল করো: 6 : 4 : 7। মোট অংশ = 6 + 4 + 7 = 17। ধাপ 3: ক্ষতিতে C-এর অংশ = 425 × (7/17)। ধাপ 4: 425 ÷ 17 = 25, তাই C-এর ক্ষতি 25 × 7 = 175 টাকা। উত্তর: Rs. 175"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "partnership",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 46,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Jadu and Madhu purchased a car for Rs. 25,000 and sold it for Rs. 26,250. If at the time of purchase Jadu paid 1½ times as much as Madhu, how much did Madhu receive out of the profit?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 300"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 400"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 500"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 600"
+          }
+        ],
+        "explanation": "Step 1: Profit on the car = selling price − purchase price = 26,250 − 25,000 = Rs. 1,250. Step 2: Jadu paid 1½ times Madhu, so their payments are in ratio 1.5 : 1 = 3 : 2. Total parts = 5. Step 3: Profit is shared in the same ratio as payment. Madhu's share = 1250 × (2/5). Step 4: Madhu receives 1250 × 2 ÷ 5 = Rs. 500. Answer: Rs. 500"
+      },
+      "bn": {
+        "question_text": "যদু ও মধু 25,000 টাকায় একটি গাড়ি কিনে 26,250 টাকায় বিক্রি করে। কেনার সময় যদু মধুর চেয়ে 1½ গুণ টাকা দিলে, লাভ থেকে মধু কত পেয়েছিল?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 300"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 400"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 500"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 600"
+          }
+        ],
+        "explanation": "ধাপ 1: গাড়িতে লাভ = বিক্রয়মূল্য − ক্রয়মূল্য = 26,250 − 25,000 = 1,250 টাকা। ধাপ 2: যদু মধুর 1½ গুণ দিয়েছিল, তাই তাদের দেওয়া টাকার অনুপাত 1.5 : 1 = 3 : 2। মোট অংশ = 5। ধাপ 3: লাভ দেওয়া টাকার অনুপাতেই ভাগ হয়। মধুর অংশ = 1250 × (2/5)। ধাপ 4: মধু পায় 1250 × 2 ÷ 5 = 500 টাকা। উত্তর: Rs. 500"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "polity",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 47,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Which of the following is NOT a Fundamental Right?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Right against Exploitation"
+          },
+          {
+            "id": "B",
+            "text": "Equal Pay for Equal Work"
+          },
+          {
+            "id": "C",
+            "text": "Equality Before Law"
+          },
+          {
+            "id": "D",
+            "text": "Right to Freedom of Religion"
+          }
+        ],
+        "explanation": "Fact: 'Equal pay for equal work' is NOT a Fundamental Right; it is a Directive Principle of State Policy under Article 39(d). Context: Fundamental Rights (Part III) are enforceable by courts, while Directive Principles (Part IV) guide the government but cannot be enforced in court — that distinction is the key to this question. Why not Equality Before Law: Equality before law (Article 14) IS a Fundamental Right, so it cannot be the answer."
+      },
+      "bn": {
+        "question_text": "নিচের কোনটি মৌলিক অধিকার নয়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Right against Exploitation"
+          },
+          {
+            "id": "B",
+            "text": "Equal Pay for Equal Work"
+          },
+          {
+            "id": "C",
+            "text": "Equality Before Law"
+          },
+          {
+            "id": "D",
+            "text": "Right to Freedom of Religion"
+          }
+        ],
+        "explanation": "তথ্য: 'সমান কাজের জন্য সমান মজুরি' মৌলিক অধিকার নয়; এটি ধারা 39(d) অনুযায়ী রাষ্ট্রীয় নীতির নির্দেশমূলক নীতি। প্রেক্ষাপট: মৌলিক অধিকার (তৃতীয় খণ্ড) আদালতে বলবৎযোগ্য, অপরদিকে নির্দেশমূলক নীতি (চতুর্থ খণ্ড) সরকারকে পথ দেখায় কিন্তু আদালতে বলবৎ করা যায় না — এই পার্থক্যই প্রশ্নের চাবিকাঠি। কেন Equality Before Law নয়: আইনের চোখে সমতা (ধারা 14) একটি মৌলিক অধিকার, তাই এটি উত্তর হতে পারে না।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 48,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who was NOT a member of the Cabinet Mission?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pethick-Lawrence"
+          },
+          {
+            "id": "B",
+            "text": "John Simon"
+          },
+          {
+            "id": "C",
+            "text": "Stafford Cripps"
+          },
+          {
+            "id": "D",
+            "text": "A. V. Alexander"
+          }
+        ],
+        "explanation": "Fact: John Simon was NOT a member of the Cabinet Mission; its members were Pethick-Lawrence, Stafford Cripps and A. V. Alexander. Context: The Cabinet Mission came to India in 1946 to plan the transfer of power. John Simon is the trap — he chaired the all-white Simon Commission of 1928, a different body. Context: Remember: Cabinet Mission = 1946, three Cabinet ministers; Simon Commission = 1928, boycotted with 'Simon Go Back'."
+      },
+      "bn": {
+        "question_text": "কে মন্ত্রিসভা মিশনের (Cabinet Mission) সদস্য ছিলেন না?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pethick-Lawrence"
+          },
+          {
+            "id": "B",
+            "text": "John Simon"
+          },
+          {
+            "id": "C",
+            "text": "Stafford Cripps"
+          },
+          {
+            "id": "D",
+            "text": "A. V. Alexander"
+          }
+        ],
+        "explanation": "তথ্য: John Simon Cabinet Mission-এর সদস্য ছিলেন না; এর সদস্য ছিলেন Pethick-Lawrence, Stafford Cripps ও A. V. Alexander। প্রেক্ষাপট: Cabinet Mission 1946 সালে ক্ষমতা হস্তান্তরের পরিকল্পনা করতে ভারতে আসে। John Simon হল ফাঁদ — তিনি 1928 সালের শ্বেতাঙ্গ-মাত্র Simon Commission-এর সভাপতি ছিলেন, যা আলাদা সংস্থা। প্রেক্ষাপট: মনে রাখুন: Cabinet Mission = 1946, তিনজন মন্ত্রী; Simon Commission = 1928, 'Simon Go Back' বলে বয়কট করা হয়।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 49,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The earlier plays of Nandikar were directed by",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rudra Prasad Sengupta"
+          },
+          {
+            "id": "B",
+            "text": "Ajitesh Bandopadhyay"
+          },
+          {
+            "id": "C",
+            "text": "Arun Mukhopadhyay"
+          },
+          {
+            "id": "D",
+            "text": "Manoj Mitra"
+          }
+        ],
+        "explanation": "Fact: The earlier plays of the Kolkata theatre group Nandikar were directed by Ajitesh Bandopadhyay. Context: Ajitesh Bandopadhyay was a founding figure of Nandikar (founded 1960); Rudra Prasad Sengupta took over its direction later and led it for decades. Why not Rudra Prasad Sengupta: Sengupta is Nandikar's best-known director, but he came after the early Ajitesh period — the question asks about the earlier plays."
+      },
+      "bn": {
+        "question_text": "নান্দীকারের প্রথম দিকের নাটকগুলি পরিচালনা করেছিলেন",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rudra Prasad Sengupta"
+          },
+          {
+            "id": "B",
+            "text": "Ajitesh Bandopadhyay"
+          },
+          {
+            "id": "C",
+            "text": "Arun Mukhopadhyay"
+          },
+          {
+            "id": "D",
+            "text": "Manoj Mitra"
+          }
+        ],
+        "explanation": "তথ্য: কলকাতার নাট্যদল Nandikar-এর প্রথম দিকের নাটকগুলি পরিচালনা করেন Ajitesh Bandopadhyay। প্রেক্ষাপট: Ajitesh Bandopadhyay ছিলেন Nandikar-এর (প্রতিষ্ঠা 1960) প্রতিষ্ঠাতা-ব্যক্তিত্ব; Rudra Prasad Sengupta পরে এর পরিচালনার দায়িত্ব নেন এবং দশকের পর দশক নেতৃত্ব দেন। কেন Rudra Prasad Sengupta নয়: Sengupta Nandikar-এর সবচেয়ে পরিচিত পরিচালক হলেও তিনি Ajitesh-এর প্রথম যুগের পরে আসেন — প্রশ্নে প্রথম দিকের নাটকের কথা বলা হয়েছে।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "polity",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 50,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Panchayati Raj is organised at the",
+        "options": [
+          {
+            "id": "A",
+            "text": "Village level"
+          },
+          {
+            "id": "B",
+            "text": "Village and Block level"
+          },
+          {
+            "id": "C",
+            "text": "Village, Block and District level"
+          },
+          {
+            "id": "D",
+            "text": "Village, Block, District and State level"
+          }
+        ],
+        "explanation": "Fact: Panchayati Raj is organised at three levels — village, block and district. Context: Village = Gram Panchayat, Block = Panchayat Samiti, District = Zilla Parishad. This three-tier structure came from the Balwant Rai Mehta Committee (1957) and got constitutional status in 1992. Why not Village, Block, District and State level: There is no Panchayati Raj tier at the state level; the state only legislates and supervises."
+      },
+      "bn": {
+        "question_text": "পঞ্চায়েতি রাজ সংগঠিত হয়",
+        "options": [
+          {
+            "id": "A",
+            "text": "গ্রাম স্তর"
+          },
+          {
+            "id": "B",
+            "text": "গ্রাম ও ব্লক স্তর"
+          },
+          {
+            "id": "C",
+            "text": "গ্রাম, ব্লক ও জেলা স্তর"
+          },
+          {
+            "id": "D",
+            "text": "গ্রাম, ব্লক, জেলা ও রাজ্য স্তর"
+          }
+        ],
+        "explanation": "তথ্য: পঞ্চায়েতি রাজ তিনটি স্তরে সংগঠিত — গ্রাম, ব্লক ও জেলা। প্রেক্ষাপট: গ্রাম = Gram Panchayat, ব্লক = Panchayat Samiti, জেলা = Zilla Parishad। এই তিন-স্তরীয় কাঠামো Balwant Rai Mehta Committee (1957) থেকে আসে এবং 1992 সালে সাংবিধানিক মর্যাদা পায়। কেন Village, Block, District and State level নয়: রাজ্য স্তরে কোনো পঞ্চায়েতি রাজ স্তর নেই; রাজ্য শুধু আইন প্রণয়ন ও তদারকি করে।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "economy",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 51,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The subject matter of the recently published report of the Kelkar Committee is",
+        "options": [
+          {
+            "id": "A",
+            "text": "Agricultural Debt"
+          },
+          {
+            "id": "B",
+            "text": "Share Market Scam"
+          },
+          {
+            "id": "C",
+            "text": "Tax System of India"
+          },
+          {
+            "id": "D",
+            "text": "Foreign Trade"
+          }
+        ],
+        "explanation": "Fact: The Kelkar Committee report dealt with the tax system of India — reforms of direct and indirect taxes. Context: Vijay Kelkar chaired the Task Force on tax reforms (2002); its recommendations aimed at simpler tax laws, wider tax base and lower rates. Why not Share Market Scam: Share-market scams were probed by other committees (such as the Joint Parliamentary Committee), not by Kelkar."
+      },
+      "bn": {
+        "question_text": "সম্প্রতি প্রকাশিত Kelkar Committee-র প্রতিবেদনের বিষয়বস্তু হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "Agricultural Debt"
+          },
+          {
+            "id": "B",
+            "text": "Share Market Scam"
+          },
+          {
+            "id": "C",
+            "text": "Tax System of India"
+          },
+          {
+            "id": "D",
+            "text": "Foreign Trade"
+          }
+        ],
+        "explanation": "তথ্য: Kelkar Committee-র প্রতিবেদন ভারতের কর ব্যবস্থা — প্রত্যক্ষ ও পরোক্ষ করের সংস্কার — নিয়ে ছিল। প্রেক্ষাপট: Vijay Kelkar কর সংস্কার বিষয়ক Task Force-এর (2002) সভাপতি ছিলেন; এর সুপারিশের লক্ষ্য ছিল সরল কর আইন, বিস্তৃত কর ভিত্তি ও কম হার। কেন Share Market Scam নয়: শেয়ার বাজার কেলেঙ্কারি অন্য কমিটি (যেমন Joint Parliamentary Committee) তদন্ত করেছে, Kelkar নয়।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 52,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who wrote ‘Jara Brishtite Bhijechilo’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jaydev Basu"
+          },
+          {
+            "id": "B",
+            "text": "Ratneswar Hazra"
+          },
+          {
+            "id": "C",
+            "text": "Joy Goswami"
+          },
+          {
+            "id": "D",
+            "text": "Belal Choudhuri"
+          }
+        ],
+        "explanation": "Fact: Jara Brishtite Bhijechilo (Those Who Got Drenched in Rain) was written by poet Joy Goswami. Context: It is one of Joy Goswami's best-known poetry collections and a landmark of modern Bengali poetry. Context: Joy Goswami is among the most celebrated contemporary Bengali poets, so his famous titles are frequently asked in Bengal-focused exams."
+      },
+      "bn": {
+        "question_text": "‘Jara Brishtite Bhijechilo’ কে লিখেছেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jaydev Basu"
+          },
+          {
+            "id": "B",
+            "text": "Ratneswar Hazra"
+          },
+          {
+            "id": "C",
+            "text": "Joy Goswami"
+          },
+          {
+            "id": "D",
+            "text": "Belal Choudhuri"
+          }
+        ],
+        "explanation": "তথ্য: Jara Brishtite Bhijechilo কবি Joy Goswami-র লেখা। প্রেক্ষাপট: এটি Joy Goswami-র অন্যতম সুপরিচিত কাব্যগ্রন্থ এবং আধুনিক বাংলা কবিতার একটি মাইলফলক। প্রেক্ষাপট: Joy Goswami সমসাময়িক বাঙালি কবিদের মধ্যে অন্যতম খ্যাতিমান, তাই বাংলা-কেন্দ্রিক পরীক্ষায় তাঁর বিখ্যাত রচনা প্রায়ই জিজ্ঞাসা করা হয়।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "economy",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 53,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "As a result of outsourcing of services from the USA to India,",
+        "options": [
+          {
+            "id": "A",
+            "text": "Indian industries are benefitted"
+          },
+          {
+            "id": "B",
+            "text": "Employment in India is increasing"
+          },
+          {
+            "id": "C",
+            "text": "Scope for Research and Development in India is increasing"
+          },
+          {
+            "id": "D",
+            "text": "Pace of industrialisation in USA is decreasing"
+          }
+        ],
+        "explanation": "Fact: Outsourcing of services from the USA to India directly results in employment in India increasing. Context: US firms shifted IT and back-office (BPO) work to India for skilled, lower-cost labour, creating large numbers of jobs in Indian cities like Bengaluru, Hyderabad and Kolkata. Why not Pace of industrialisation in USA is decreasing: Outsourcing concerns services and jobs moving to India; it does not directly state anything about US industrialisation slowing."
+      },
+      "bn": {
+        "question_text": "USA থেকে ভারতে সেবা আউটসোর্সিংয়ের ফলে,",
+        "options": [
+          {
+            "id": "A",
+            "text": "ভারতীয় শিল্পগুলি উপকৃত হচ্ছে"
+          },
+          {
+            "id": "B",
+            "text": "ভারতে কর্মসংস্থান বাড়ছে"
+          },
+          {
+            "id": "C",
+            "text": "ভারতে Research and Development-এর সুযোগ বাড়ছে"
+          },
+          {
+            "id": "D",
+            "text": "USA-তে শিল্পায়নের গতি কমছে"
+          }
+        ],
+        "explanation": "তথ্য: USA থেকে ভারতে সেবা আউটসোর্সিংয়ের সরাসরি ফল হল ভারতে কর্মসংস্থান বৃদ্ধি। প্রেক্ষাপট: দক্ষ ও কম খরচের শ্রমের জন্য মার্কিন সংস্থাগুলি IT ও ব্যাক-অফিস (BPO) কাজ ভারতে সরিয়ে আনে, ফলে Bengaluru, Hyderabad ও Kolkata-র মতো শহরে প্রচুর চাকরি তৈরি হয়। কেন Pace of industrialisation in USA is decreasing নয়: আউটসোর্সিং সেবা ও চাকরি ভারতে যাওয়া নিয়ে; মার্কিন শিল্পায়ন কমে যাওয়ার কথা এটি সরাসরি বলে না।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 54,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The first Indian woman to conquer Mount Everest is",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dicky Dolma"
+          },
+          {
+            "id": "B",
+            "text": "Bachendri Pal"
+          },
+          {
+            "id": "C",
+            "text": "Santosh Yadav"
+          },
+          {
+            "id": "D",
+            "text": "Sudipta Sengupta"
+          }
+        ],
+        "explanation": "Fact: Bachendri Pal was the first Indian woman to conquer Mount Everest, summiting in 1984. Context: She climbed as part of India's fourth Everest expedition; her feat opened the way for later Indian women mountaineers. Why not Santosh Yadav: Santosh Yadav is famous for climbing Everest twice (1992, 1993), but Bachendri Pal was the first Indian woman, eight years earlier."
+      },
+      "bn": {
+        "question_text": "মাউন্ট এভারেস্ট জয়ী প্রথম ভারতীয় মহিলা হলেন",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dicky Dolma"
+          },
+          {
+            "id": "B",
+            "text": "Bachendri Pal"
+          },
+          {
+            "id": "C",
+            "text": "Santosh Yadav"
+          },
+          {
+            "id": "D",
+            "text": "Sudipta Sengupta"
+          }
+        ],
+        "explanation": "তথ্য: Bachendri Pal প্রথম ভারতীয় মহিলা হিসাবে Mount Everest জয় করেন, 1984 সালে শৃঙ্গে ওঠেন। প্রেক্ষাপট: তিনি ভারতের চতুর্থ Everest অভিযানের অংশ হিসাবে আরোহণ করেন; তাঁর কীর্তি পরবর্তী ভারতীয় মহিলা পর্বতারোহীদের পথ খুলে দেয়। কেন Santosh Yadav নয়: Santosh Yadav দুবার Everest আরোহণের (1992, 1993) জন্য বিখ্যাত, কিন্তু প্রথম ভারতীয় মহিলা Bachendri Pal, আট বছর আগে।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 55,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "‘Parshuram’ is the pen-name of",
+        "options": [
+          {
+            "id": "A",
+            "text": "Samaresh Basu"
+          },
+          {
+            "id": "B",
+            "text": "Rajsekhar Basu"
+          },
+          {
+            "id": "C",
+            "text": "Girindra Sekhar Basu"
+          },
+          {
+            "id": "D",
+            "text": "Buddhadev Basu"
+          }
+        ],
+        "explanation": "Fact: Parshuram was the pen name of Rajsekhar Basu. Context: Rajsekhar Basu, a chemist by profession, wrote much-loved Bengali humorous stories as Parshuram; his brother Girindra Sekhar Basu was a noted psychiatrist — do not mix them up. Why not Samaresh Basu: Samaresh Basu's pen name was Kalkut, not Parshuram."
+      },
+      "bn": {
+        "question_text": "‘Parshuram’ কার ছদ্মনাম?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Samaresh Basu"
+          },
+          {
+            "id": "B",
+            "text": "Rajsekhar Basu"
+          },
+          {
+            "id": "C",
+            "text": "Girindra Sekhar Basu"
+          },
+          {
+            "id": "D",
+            "text": "Buddhadev Basu"
+          }
+        ],
+        "explanation": "তথ্য: Parshuram ছিল Rajsekhar Basu-র ছদ্মনাম। প্রেক্ষাপট: পেশায় রসায়নবিদ Rajsekhar Basu Parshuram নামে প্রিয় বাংলা হাস্যরসের গল্প লিখেছেন; তাঁর ভাই Girindra Sekhar Basu ছিলেন খ্যাতনামা মনোরোগ চিকিৎসক — দুজনকে গুলিয়ে ফেলবেন না। কেন Samaresh Basu নয়: Samaresh Basu-র ছদ্মনাম ছিল Kalkut, Parshuram নয়।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "art_culture",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 56,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The film ‘Charulata’, directed by Satyajit Ray, is based on the story",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ghare Baire"
+          },
+          {
+            "id": "B",
+            "text": "Nashtaneer"
+          },
+          {
+            "id": "C",
+            "text": "Chokher Bali"
+          },
+          {
+            "id": "D",
+            "text": "Chaturanga"
+          }
+        ],
+        "explanation": "Fact: Satyajit Ray's film Charulata (1964) is based on Rabindranath Tagore's novella Nashtaneer (The Broken Nest). Context: Nashtaneer tells of Charu, the lonely wife of a newspaper editor, and her growing closeness to his cousin Amal — the core of Ray's acclaimed film. Why not Ghare Baire: Ghare Baire is a different Tagore novel; Ray filmed it separately in 1984 as Ghare Baire."
+      },
+      "bn": {
+        "question_text": "Satyajit Ray পরিচালিত ‘Charulata’ চলচ্চিত্রটি কোন গল্প অবলম্বনে তৈরি?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ghare Baire"
+          },
+          {
+            "id": "B",
+            "text": "Nashtaneer"
+          },
+          {
+            "id": "C",
+            "text": "Chokher Bali"
+          },
+          {
+            "id": "D",
+            "text": "Chaturanga"
+          }
+        ],
+        "explanation": "তথ্য: Satyajit Ray-এর ছবি Charulata (1964) Rabindranath Tagore-এর উপন্যাসিকা Nashtaneer অবলম্বনে তৈরি। প্রেক্ষাপট: Nashtaneer একটি সংবাদপত্র সম্পাদকের নিঃসঙ্গ স্ত্রী Charu ও তাঁর দেওর Amal-এর ক্রমবর্ধমান ঘনিষ্ঠতার গল্প — যা Ray-এর প্রশংসিত ছবির মূল। কেন Ghare Baire নয়: Ghare Baire Tagore-এর আলাদা উপন্যাস; Ray সেটি 1984 সালে আলাদাভাবে Ghare Baire নামে চিত্রায়িত করেন।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 57,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Lord Hanuman is symbolised with which sport?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Boxing"
+          },
+          {
+            "id": "B",
+            "text": "Wrestling"
+          },
+          {
+            "id": "C",
+            "text": "Rugby"
+          },
+          {
+            "id": "D",
+            "text": "Archery"
+          }
+        ],
+        "explanation": "Fact: Lord Hanuman is symbolised with wrestling (kushti) in India. Context: Traditional akharas (wrestling gymnasiums) keep an image of Hanuman as the patron deity of wrestlers, symbolising strength, celibacy and devotion. Why not Archery: Archery is associated with figures like Arjuna and Rama; Hanuman's emblematic sport in Indian tradition is wrestling."
+      },
+      "bn": {
+        "question_text": "Lord Hanuman কোন খেলার প্রতীক?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Boxing"
+          },
+          {
+            "id": "B",
+            "text": "Wrestling"
+          },
+          {
+            "id": "C",
+            "text": "Rugby"
+          },
+          {
+            "id": "D",
+            "text": "Archery"
+          }
+        ],
+        "explanation": "তথ্য: ভারতে Lord Hanuman কুস্তির (kushti) সঙ্গে প্রতীক হিসাবে যুক্ত। প্রেক্ষাপট: ঐতিহ্যবাহী আখড়ায় (কুস্তির ব্যায়ামাগার) Hanuman-এর মূর্তি কুস্তিগিরদের পৃষ্ঠপোষক দেবতা হিসাবে রাখা হয়, যা শক্তি, ব্রহ্মচর্য ও ভক্তির প্রতীক। কেন Archery নয়: ধনুর্বিদ্যা Arjuna ও Rama-র মতো চরিত্রের সঙ্গে যুক্ত; ভারতীয় ঐতিহ্যে Hanuman-এর প্রতীকী খেলা কুস্তি।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "general_science",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 58,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The name of the spacecraft which landed very near the planet Saturn is",
+        "options": [
+          {
+            "id": "A",
+            "text": "Genesis"
+          },
+          {
+            "id": "B",
+            "text": "Voyager 2"
+          },
+          {
+            "id": "C",
+            "text": "Cassini-Huygens"
+          },
+          {
+            "id": "D",
+            "text": "Pioneer 2"
+          }
+        ],
+        "explanation": "Fact: The spacecraft that reached Saturn was Cassini-Huygens, which arrived at Saturn in 2004. Context: It was a NASA-ESA mission: the Cassini orbiter studied Saturn and its rings, and its Huygens probe landed on the moon Titan in 2005. Why not Voyager 2: Voyager 2 flew past Saturn in 1981 on its grand tour, but Cassini-Huygens is the mission that went to orbit and land near Saturn."
+      },
+      "bn": {
+        "question_text": "শনি গ্রহের খুব কাছাকাছি অবতরণ করা মহাকাশযানটির নাম হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "Genesis"
+          },
+          {
+            "id": "B",
+            "text": "Voyager 2"
+          },
+          {
+            "id": "C",
+            "text": "Cassini-Huygens"
+          },
+          {
+            "id": "D",
+            "text": "Pioneer 2"
+          }
+        ],
+        "explanation": "তথ্য: শনির কাছে পৌঁছানো মহাকাশযান হল Cassini-Huygens, যা 2004 সালে শনিতে পৌঁছায়। প্রেক্ষাপট: এটি ছিল NASA-ESA যৌথ অভিযান: Cassini orbiter শনি ও তার বলয় অধ্যয়ন করে এবং এর Huygens probe 2005 সালে Titan চাঁদে অবতরণ করে। কেন Voyager 2 নয়: Voyager 2 1981 সালে শনির পাশ দিয়ে উড়ে গেলেও Saturn-এর কক্ষপথে গিয়ে অবতরণের অভিযান Cassini-Huygens।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "polity",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 59,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Which of the following courts is/are responsible for the enforcement of Fundamental Rights?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Supreme Court"
+          },
+          {
+            "id": "B",
+            "text": "High Court"
+          },
+          {
+            "id": "C",
+            "text": "District Court"
+          },
+          {
+            "id": "D",
+            "text": "Both (A) and (B) above"
+          }
+        ],
+        "explanation": "Fact: Both the Supreme Court and the High Courts enforce Fundamental Rights — the Supreme Court under Article 32 and High Courts under Article 226. Context: Both can issue writs like habeas corpus and mandamus. Article 226 is actually wider, as High Courts can issue writs for other purposes too; hence 'Both (A) and (B)'. Why not District Court: District courts cannot issue writs for enforcing Fundamental Rights."
+      },
+      "bn": {
+        "question_text": "মৌলিক অধিকার কার্যকর করার জন্য নিচের কোন আদালত দায়বদ্ধ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Supreme Court"
+          },
+          {
+            "id": "B",
+            "text": "High Court"
+          },
+          {
+            "id": "C",
+            "text": "District Court"
+          },
+          {
+            "id": "D",
+            "text": "Both (A) and (B) above"
+          }
+        ],
+        "explanation": "তথ্য: সুপ্রিম কোর্ট ও হাইকোর্ট উভয়েই মৌলিক অধিকার বলবৎ করে — সুপ্রিম কোর্ট ধারা 32 অনুযায়ী এবং হাইকোর্ট ধারা 226 অনুযায়ী। প্রেক্ষাপট: উভয়েই habeas corpus ও mandamus-এর মতো রিট জারি করতে পারে। ধারা 226 আসলে আরও বিস্তৃত, কারণ হাইকোর্ট অন্য উদ্দেশ্যেও রিট দিতে পারে; তাই উত্তর 'Both (A) and (B)'। কেন District Court নয়: জেলা আদালত মৌলিক অধিকার বলবৎ করার জন্য রিট জারি করতে পারে না।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "polity",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 60,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The Indian Constitution declares India a Secular State. This means that",
+        "options": [
+          {
+            "id": "A",
+            "text": "religious worship is not allowed"
+          },
+          {
+            "id": "B",
+            "text": "religions are patronised by the State"
+          },
+          {
+            "id": "C",
+            "text": "the State regards religion as a private affair of the citizen and does not discriminate on this basis"
+          },
+          {
+            "id": "D",
+            "text": "None of the above"
+          }
+        ],
+        "explanation": "Fact: India being a secular state means the State treats religion as a private affair of the citizen and does not discriminate on the basis of religion. Context: Indian secularism is equal respect/distance for all religions — the State has no official religion, but worship is fully allowed and protected as a Fundamental Right. Why not religious worship is not allowed: Secularism does not ban worship; Articles 25-28 guarantee freedom of religion."
+      },
+      "bn": {
+        "question_text": "ভারতীয় সংবিধান ভারতকে একটি ধর্মনিরপেক্ষ রাষ্ট্র হিসাবে ঘোষণা করে। এর অর্থ হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "ধর্মীয় উপাসনা অনুমোদিত নয়"
+          },
+          {
+            "id": "B",
+            "text": "ধর্মগুলি রাষ্ট্রের পৃষ্ঠপোষকতা পায়"
+          },
+          {
+            "id": "C",
+            "text": "রাষ্ট্র ধর্মকে নাগরিকের ব্যক্তিগত বিষয় হিসাবে গণ্য করে এবং এই ভিত্তিতে বৈষম্য করে না"
+          },
+          {
+            "id": "D",
+            "text": "উপরের কোনোটিই নয়"
+          }
+        ],
+        "explanation": "তথ্য: ভারত ধর্মনিরপেক্ষ রাষ্ট্র হওয়ার অর্থ রাষ্ট্র ধর্মকে নাগরিকের ব্যক্তিগত বিষয় হিসাবে দেখে এবং ধর্মের ভিত্তিতে বৈষম্য করে না। প্রেক্ষাপট: ভারতীয় ধর্মনিরপেক্ষতা হল সব ধর্মের প্রতি সমান সম্মান/দূরত্ব — রাষ্ট্রের কোনো সরকারি ধর্ম নেই, কিন্তু উপাসনা সম্পূর্ণ অনুমোদিত ও মৌলিক অধিকার হিসাবে সুরক্ষিত। কেন religious worship is not allowed নয়: ধর্মনিরপেক্ষতা উপাসনা নিষিদ্ধ করে না; ধারা 25-28 ধর্মীয় স্বাধীনতার নিশ্চয়তা দেয়।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 61,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "For which game is the ‘Indira Gandhi Gold Cup’ awarded?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Women’s hockey"
+          },
+          {
+            "id": "B",
+            "text": "Women’s football"
+          },
+          {
+            "id": "C",
+            "text": "Women’s basketball"
+          },
+          {
+            "id": "D",
+            "text": "Women’s badminton"
+          }
+        ],
+        "explanation": "Fact: The Indira Gandhi Gold Cup is awarded in women's hockey. Context: It was an international women's hockey tournament held in India, named after former Prime Minister Indira Gandhi. Why not Women's football: Women's football tournaments in India have different trophies; the Indira Gandhi Gold Cup belongs to hockey."
+      },
+      "bn": {
+        "question_text": "‘Indira Gandhi Gold Cup’ কোন খেলার জন্য প্রদান করা হয়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Women’s hockey"
+          },
+          {
+            "id": "B",
+            "text": "Women’s football"
+          },
+          {
+            "id": "C",
+            "text": "Women’s basketball"
+          },
+          {
+            "id": "D",
+            "text": "Women’s badminton"
+          }
+        ],
+        "explanation": "তথ্য: Indira Gandhi Gold Cup মহিলা হকিতে প্রদান করা হয়। প্রেক্ষাপট: এটি ছিল ভারতে অনুষ্ঠিত একটি আন্তর্জাতিক মহিলা হকি টুর্নামেন্ট, প্রাক্তন প্রধানমন্ত্রী Indira Gandhi-র নামে নামকরণ করা। কেন Women's football নয়: ভারতে মহিলা ফুটবলের টুর্নামেন্টের ট্রফি আলাদা; Indira Gandhi Gold Cup হকির।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 62,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who was the founder of the Atmiya Sabha?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raja Rammohan Roy"
+          },
+          {
+            "id": "B",
+            "text": "Swami Dayananda Saraswati"
+          },
+          {
+            "id": "C",
+            "text": "Swami Vivekananda"
+          },
+          {
+            "id": "D",
+            "text": "Aurobindo Ghosh"
+          }
+        ],
+        "explanation": "Fact: The Atmiya Sabha was founded by Raja Rammohan Roy in 1815. Context: The Calcutta circle discussed monotheistic worship and social questions, and is seen as the seed from which the Brahmo Samaj grew in 1828. Context: The same fact is repeated in the 2006 paper — evidence of its exam importance."
+      },
+      "bn": {
+        "question_text": "Atmiya Sabha-র প্রতিষ্ঠাতা কে ছিলেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raja Rammohan Roy"
+          },
+          {
+            "id": "B",
+            "text": "Swami Dayananda Saraswati"
+          },
+          {
+            "id": "C",
+            "text": "Swami Vivekananda"
+          },
+          {
+            "id": "D",
+            "text": "Aurobindo Ghosh"
+          }
+        ],
+        "explanation": "তথ্য: Atmiya Sabha Raja Rammohan Roy 1815 সালে প্রতিষ্ঠা করেন। প্রেক্ষাপট: Calcutta-র এই চক্র একেশ্বরবাদী উপাসনা ও সামাজিক প্রশ্ন নিয়ে আলোচনা করত এবং এটিকে 1828 সালে Brahmo Samaj গড়ে ওঠার বীজ হিসাবে দেখা হয়। প্রেক্ষাপট: একই তথ্য 2006 সালের পেপারেও পুনরাবৃত্ত — যা এর পরীক্ষাগত গুরুত্বের প্রমাণ।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 63,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who wrote the song ‘Sare Jahan Se Accha’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ghalib"
+          },
+          {
+            "id": "B",
+            "text": "Iqbal"
+          },
+          {
+            "id": "C",
+            "text": "Kaifi Azmi"
+          },
+          {
+            "id": "D",
+            "text": "Sahir Ludhianvi"
+          }
+        ],
+        "explanation": "Fact: The song 'Sare Jahan Se Accha' was written by Muhammad Iqbal in 1904. Context: Iqbal, the Urdu-Persian poet-philosopher, wrote it as a patriotic anthem for Indian children; its opening line praises Hindustan above the whole world. Why not Ghalib: Ghalib was the great earlier Urdu-Persian poet of Delhi (died 1869), a generation before Iqbal's 1904 song."
+      },
+      "bn": {
+        "question_text": "‘Sare Jahan Se Accha’ গানটি কে লিখেছেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ghalib"
+          },
+          {
+            "id": "B",
+            "text": "Iqbal"
+          },
+          {
+            "id": "C",
+            "text": "Kaifi Azmi"
+          },
+          {
+            "id": "D",
+            "text": "Sahir Ludhianvi"
+          }
+        ],
+        "explanation": "তথ্য: 'Sare Jahan Se Accha' গানটি Muhammad Iqbal 1904 সালে লেখেন। প্রেক্ষাপট: উর্দু-ফার্সি কবি-দার্শনিক Iqbal এটি ভারতীয় শিশুদের জন্য দেশাত্মবোধক সংগীত হিসাবে লেখেন; এর প্রথম পঙ্‌ক্তি সমগ্র বিশ্বের ওপরে Hindustan-এর প্রশংসা করে। কেন Ghalib নয়: Ghalib ছিলেন Delhi-র মহান আগের উর্দু-ফার্সি কবি (মৃত্যু 1869), Iqbal-এর 1904 সালের গানের এক প্রজন্ম আগে।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 64,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who was the founder of the Prarthana Samaj?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raja Rammohan Roy"
+          },
+          {
+            "id": "B",
+            "text": "Debendranath Tagore"
+          },
+          {
+            "id": "C",
+            "text": "Atmaram Pandurang"
+          },
+          {
+            "id": "D",
+            "text": "Dayananda Saraswati"
+          }
+        ],
+        "explanation": "Fact: The Prarthana Samaj was founded by Dr. Atmaram Pandurang in Bombay in 1867. Context: Modelled partly on the Brahmo Samaj, this Maharashtra reform body promoted monotheism, widow remarriage and opposition to caste discrimination. Why not Raja Rammohan Roy: Roy founded Bengal's Brahmo Samaj (1828); the Bombay counterpart four decades later was Pandurang's Prarthana Samaj."
+      },
+      "bn": {
+        "question_text": "Prarthana Samaj-এর প্রতিষ্ঠাতা কে ছিলেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raja Rammohan Roy"
+          },
+          {
+            "id": "B",
+            "text": "Debendranath Tagore"
+          },
+          {
+            "id": "C",
+            "text": "Atmaram Pandurang"
+          },
+          {
+            "id": "D",
+            "text": "Dayananda Saraswati"
+          }
+        ],
+        "explanation": "তথ্য: Prarthana Samaj Bombay-তে 1867 সালে Dr. Atmaram Pandurang প্রতিষ্ঠা করেন। প্রেক্ষাপট: আংশিক Brahmo Samaj-এর আদলে গড়া Maharashtra-র এই সংস্কার সংস্থা একেশ্বরবাদ, বিধবা পুনর্বিবাহ ও জাতি বৈষম্যের বিরোধিতা প্রচার করে। কেন Raja Rammohan Roy নয়: Roy বাংলার Brahmo Samaj (1828) প্রতিষ্ঠা করেন; চার দশক পরে Bombay-র প্রতিরূপ ছিল Pandurang-এর Prarthana Samaj।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 65,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who abolished the ‘Iqta’ system?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Balban"
+          },
+          {
+            "id": "B",
+            "text": "Muhammad bin Tughlaq"
+          },
+          {
+            "id": "C",
+            "text": "Iltutmish"
+          },
+          {
+            "id": "D",
+            "text": "Alauddin Khilji"
+          }
+        ],
+        "explanation": "Fact: Alauddin Khilji abolished the iqta (land assignment) system for his soldiers in the core territories, paying cash salaries instead. Context: The verified explanation notes Iltutmish had introduced the iqta system; Alauddin replaced assignments around Delhi with direct cash payment to keep tighter control of his army. Why not Iltutmish: Iltutmish introduced iqta — the exact opposite act, making him the distractor, not the abolisher."
+      },
+      "bn": {
+        "question_text": "‘Iqta’ ব্যবস্থা কে বিলুপ্ত করেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Balban"
+          },
+          {
+            "id": "B",
+            "text": "Muhammad bin Tughlaq"
+          },
+          {
+            "id": "C",
+            "text": "Iltutmish"
+          },
+          {
+            "id": "D",
+            "text": "Alauddin Khilji"
+          }
+        ],
+        "explanation": "তথ্য: Alauddin Khilji মূল অঞ্চলে তাঁর সৈন্যদের জন্য iqta (ভূমি বরাদ্দ) ব্যবস্থা বিলুপ্ত করে পরিবর্তে নগদ বেতন দেন। প্রেক্ষাপট: যাচাইকৃত ব্যাখ্যায় উল্লেখ আছে Iltutmish iqta ব্যবস্থা চালু করেছিলেন; Alauddin সেনাবাহিনীর ওপর কঠোর নিয়ন্ত্রণ রাখতে Delhi-র চারপাশে বরাদ্দের বদলে সরাসরি নগদ অর্থ দেন। কেন Iltutmish নয়: Iltutmish iqta চালু করেন — ঠিক বিপরীত কাজ, যা তাঁকে বিলোপকারী নয়, বিভ্রান্তিকর বিকল্প করে।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 66,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who was conferred the title of ‘Gunaraj Khan’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bipradas Pipilai"
+          },
+          {
+            "id": "B",
+            "text": "Maladhar Basu"
+          },
+          {
+            "id": "C",
+            "text": "Kavi Jayadeva"
+          },
+          {
+            "id": "D",
+            "text": "Sri Chaitanya"
+          }
+        ],
+        "explanation": "Fact: The title 'Gunaraj Khan' was conferred on the poet Maladhar Basu. Context: Author of 'Srikrishna Vijaya', an early Bengali rendering of Krishna legends, he received the title from Sultan Ruknuddin Barbak Shah of Bengal. Context: Anchor: Srikrishna Vijaya's poet + a Sultan's title = Maladhar Basu, 'Gunaraj Khan'."
+      },
+      "bn": {
+        "question_text": "‘Gunaraj Khan’ উপাধি কাকে প্রদান করা হয়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bipradas Pipilai"
+          },
+          {
+            "id": "B",
+            "text": "Maladhar Basu"
+          },
+          {
+            "id": "C",
+            "text": "Kavi Jayadeva"
+          },
+          {
+            "id": "D",
+            "text": "Sri Chaitanya"
+          }
+        ],
+        "explanation": "তথ্য: 'Gunaraj Khan' উপাধি কবি Maladhar Basu-কে প্রদান করা হয়। প্রেক্ষাপট: কৃষ্ণ কিংবদন্তির প্রাথমিক বাংলা রূপান্তর 'Srikrishna Vijaya'-র রচয়িতা তিনি বাংলার Sultan Ruknuddin Barbak Shah-এর কাছ থেকে এই উপাধি পান। প্রেক্ষাপট: এভাবে মনে রাখুন: Srikrishna Vijaya-র কবি + সুলতানের উপাধি = Maladhar Basu, 'Gunaraj Khan'।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 67,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who founded the ‘Anushilan Samiti’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pulin Behari Das"
+          },
+          {
+            "id": "B",
+            "text": "Pramatha Nath Mitra"
+          },
+          {
+            "id": "C",
+            "text": "Swami Saradananda"
+          },
+          {
+            "id": "D",
+            "text": "Barindra Kumar Ghosh"
+          }
+        ],
+        "explanation": "Fact: The Anushilan Samiti was founded in 1902 by Pramatha Nath Mitra. Context: The Calcutta-based revolutionary society trained youth in physical culture and later in armed resistance; Pulin Behari Das later led its Dhaka branch. Why not Pulin Behari Das: Das organised the Dhaka Anushilan Samiti, but the original 1902 founding in Calcutta is Mitra's."
+      },
+      "bn": {
+        "question_text": "‘Anushilan Samiti’ কে প্রতিষ্ঠা করেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pulin Behari Das"
+          },
+          {
+            "id": "B",
+            "text": "Pramatha Nath Mitra"
+          },
+          {
+            "id": "C",
+            "text": "Swami Saradananda"
+          },
+          {
+            "id": "D",
+            "text": "Barindra Kumar Ghosh"
+          }
+        ],
+        "explanation": "তথ্য: Anushilan Samiti 1902 সালে Pramatha Nath Mitra প্রতিষ্ঠা করেন। প্রেক্ষাপট: Calcutta-ভিত্তিক বিপ্লবী সমিতিটি যুবকদের শারীরিক সংস্কৃতি ও পরে সশস্ত্র প্রতিরোধে প্রশিক্ষণ দেয়; Pulin Behari Das পরে এর Dhaka শাখার নেতৃত্ব দেন। কেন Pulin Behari Das নয়: Das Dhaka Anushilan Samiti সংগঠিত করেন, কিন্তু Calcutta-তে 1902 সালের মূল প্রতিষ্ঠা Mitra-র।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 68,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who was called ‘Vindhya Adhipati’ (Lord of the Vindhyas)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Simuka"
+          },
+          {
+            "id": "B",
+            "text": "Gautamiputra Satakarni"
+          },
+          {
+            "id": "C",
+            "text": "Ashoka"
+          },
+          {
+            "id": "D",
+            "text": "Chandragupta Maurya"
+          }
+        ],
+        "explanation": "Fact: Gautamiputra Satakarni was called 'Vindhya Adhipati' (Lord of the Vindhyas). Context: The greatest Satavahana king restored his dynasty's power in the Deccan in the 1st-2nd century CE, with dominions reaching the Vindhya region. Why not Simuka: Simuka founded the Satavahana dynasty much earlier; the Vindhya-lord fame belongs to Gautamiputra."
+      },
+      "bn": {
+        "question_text": "‘Vindhya Adhipati’ (বিন্ধ্যের অধিপতি) কাকে বলা হত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Simuka"
+          },
+          {
+            "id": "B",
+            "text": "Gautamiputra Satakarni"
+          },
+          {
+            "id": "C",
+            "text": "Ashoka"
+          },
+          {
+            "id": "D",
+            "text": "Chandragupta Maurya"
+          }
+        ],
+        "explanation": "তথ্য: Gautamiputra Satakarni-কে 'Vindhya Adhipati' (বিন্ধ্যের অধিপতি) বলা হত। প্রেক্ষাপট: Satavahana-দের শ্রেষ্ঠ রাজা তিনি 1ম-2য় শতাব্দীতে দাক্ষিণাত্যে তাঁর বংশের ক্ষমতা পুনরুদ্ধার করেন, রাজ্য Vindhya অঞ্চল পর্যন্ত বিস্তৃত হয়। কেন Simuka নয়: Simuka অনেক আগে Satavahana বংশ প্রতিষ্ঠা করেন; Vindhya-অধিপতির খ্যাতি Gautamiputra-র।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "current_affairs",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 69,
+      "paper_url": "https://wbpscupsc.com/current-affairs-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Which Indian cricketer first scored more than 300 runs in one innings in Test matches?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sunil Gavaskar"
+          },
+          {
+            "id": "B",
+            "text": "Sachin Tendulkar"
+          },
+          {
+            "id": "C",
+            "text": "V. V. S. Laxman"
+          },
+          {
+            "id": "D",
+            "text": "Virender Sehwag"
+          }
+        ],
+        "explanation": "Fact: Virender Sehwag was the first Indian cricketer to score more than 300 runs in one Test innings. Context: His 309 against Pakistan at Multan in 2004 earned him the nickname 'Multan ka Sultan'; no Indian had reached a Test triple century before him. Why not Sachin Tendulkar: Tendulkar's highest Test score was 248 not out — he never crossed 300, Sehwag did it first."
+      },
+      "bn": {
+        "question_text": "কোন ভারতীয় ক্রিকেটার প্রথম Test match-এ এক innings-এ 300-র বেশি রান করেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sunil Gavaskar"
+          },
+          {
+            "id": "B",
+            "text": "Sachin Tendulkar"
+          },
+          {
+            "id": "C",
+            "text": "V. V. S. Laxman"
+          },
+          {
+            "id": "D",
+            "text": "Virender Sehwag"
+          }
+        ],
+        "explanation": "তথ্য: Virender Sehwag প্রথম ভারতীয় ক্রিকেটার হিসাবে একটি Test ইনিংসে 300-র বেশি রান করেন। প্রেক্ষাপট: 2004 সালে Multan-এ Pakistan-এর বিরুদ্ধে তাঁর 309 তাঁকে 'Multan ka Sultan' ডাকনাম এনে দেয়; তাঁর আগে কোনো ভারতীয় Test triple century করতে পারেননি। কেন Sachin Tendulkar নয়: Tendulkar-এর সর্বোচ্চ Test স্কোর ছিল 248 অপরাজিত — তিনি কখনও 300 পেরোননি, Sehwag প্রথম করেন।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "current_affairs",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 70,
+      "paper_url": "https://wbpscupsc.com/current-affairs-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Why did the Iranian town of Bam come into the limelight in late 2003?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It was subject to terrorist attacks"
+          },
+          {
+            "id": "B",
+            "text": "A severe earthquake took place here"
+          },
+          {
+            "id": "C",
+            "text": "The capital of Iran was shifted here"
+          },
+          {
+            "id": "D",
+            "text": "Some new oil wells started supplying oil"
+          }
+        ],
+        "explanation": "Fact: The Iranian town of Bam came into the limelight in late 2003 because a severe earthquake took place there. Context: The 26 December 2003 Bam earthquake devastated the ancient Iranian city and its historic citadel, killing tens of thousands. Context: Note the date symmetry: Bam quake 26 Dec 2003, Indian Ocean tsunami exactly a year later, 26 Dec 2004."
+      },
+      "bn": {
+        "question_text": "2003 সালের শেষের দিকে Iranian শহর Bam কেন আলোচনায় আসে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "এটি সন্ত্রাসী হামলার শিকার হয়েছিল"
+          },
+          {
+            "id": "B",
+            "text": "এখানে একটি প্রবল ভূমিকম্প হয়েছিল"
+          },
+          {
+            "id": "C",
+            "text": "ইরানের রাজধানী এখানে স্থানান্তরিত হয়েছিল"
+          },
+          {
+            "id": "D",
+            "text": "কিছু নতুন তেলের কূপ তেল সরবরাহ শুরু করেছিল"
+          }
+        ],
+        "explanation": "তথ্য: ইরানি শহর Bam 2003 সালের শেষদিকে নজরে আসে কারণ সেখানে ভয়াবহ ভূমিকম্প ঘটে। প্রেক্ষাপট: 26 December 2003-এর Bam ভূমিকম্প প্রাচীন ইরানি শহর ও তার ঐতিহাসিক দুর্গ বিধ্বস্ত করে, হাজার হাজার মানুষ নিহত হন। প্রেক্ষাপট: তারিখের মিল লক্ষ্য করুন: Bam ভূমিকম্প 26 Dec 2003, ভারত মহাসাগরের সুনামি ঠিক এক বছর পরে, 26 Dec 2004।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "current_affairs",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2004,
+      "question_no": 71,
+      "paper_url": "https://wbpscupsc.com/current-affairs-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "On the basis of performance in the 100 m run at the Athens Olympic Games 2004, the fastest man in the world was",
+        "options": [
+          {
+            "id": "A",
+            "text": "Maurice Greene"
+          },
+          {
+            "id": "B",
+            "text": "Shawn Crawford"
+          },
+          {
+            "id": "C",
+            "text": "Justin Gatlin"
+          },
+          {
+            "id": "D",
+            "text": "Francis Obikwelu"
+          }
+        ],
+        "explanation": "Fact: Justin Gatlin was the fastest man at Athens 2004, winning the 100 m gold. Context: The American sprinter won the Olympic 100 m final in Athens, earning the informal 'world's fastest man' tag attached to Olympic 100 m champions. Why not Maurice Greene: Greene, the Sydney 2000 champion, was the defending star but finished behind Gatlin in Athens."
+      },
+      "bn": {
+        "question_text": "Athens Olympic Games 2004-এ 100 m দৌড়ে পারফরম্যান্সের ভিত্তিতে, বিশ্বের দ্রুততম মানুষ ছিলেন",
+        "options": [
+          {
+            "id": "A",
+            "text": "Maurice Greene"
+          },
+          {
+            "id": "B",
+            "text": "Shawn Crawford"
+          },
+          {
+            "id": "C",
+            "text": "Justin Gatlin"
+          },
+          {
+            "id": "D",
+            "text": "Francis Obikwelu"
+          }
+        ],
+        "explanation": "তথ্য: Justin Gatlin Athens 2004-এ দ্রুততম মানুষ ছিলেন, 100 m স্বর্ণ জিতে। প্রেক্ষাপট: মার্কিন স্প্রিন্টার Athens-এ Olympic 100 m ফাইনাল জেতেন, Olympic 100 m চ্যাম্পিয়নদের সঙ্গে যুক্ত অনানুষ্ঠানিক 'বিশ্বের দ্রুততম মানুষ' পরিচিতি অর্জন করে। কেন Maurice Greene নয়: Greene, Sydney 2000 চ্যাম্পিয়ন, ছিলেন আগের তারকা কিন্তু Athens-এ Gatlin-এর পিছনে শেষ করেন।"
+      }
+    },
+    "correct_option_id": "C"
+  }
+]

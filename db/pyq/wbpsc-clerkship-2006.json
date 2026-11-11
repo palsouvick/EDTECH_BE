@@ -1,0 +1,2185 @@
+[
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 1,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The ratio of the amounts of A and B is 4 : 3 and the sum of their amounts is Rs. 700. What amount (in rupees) should A give B to make the ratio 1 : 1?",
+        "options": [
+          {
+            "id": "A",
+            "text": "100"
+          },
+          {
+            "id": "B",
+            "text": "200"
+          },
+          {
+            "id": "C",
+            "text": "150"
+          },
+          {
+            "id": "D",
+            "text": "50"
+          }
+        ],
+        "explanation": "Step 1: Given ratio A : B = 4 : 3 and total = Rs. 700. Total parts = 4 + 3 = 7. Step 2: A's amount = (4/7) × 700 = Rs. 400. B's amount = (3/7) × 700 = Rs. 300. Step 3: Let A give Rs. x to B. Then A has 400 − x and B has 300 + x. For ratio 1 : 1, both must be equal. Step 4: 400 − x = 300 + x, so 2x = 100 and x = 50. Answer: 50"
+      },
+      "bn": {
+        "question_text": "A ও B-এর টাকার পরিমাণের অনুপাত 4 : 3 এবং তাদের টাকার মোট পরিমাণ 700 টাকা। অনুপাত 1 : 1 করতে হলে A-কে B-কে কত টাকা (টাকায়) দিতে হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "100"
+          },
+          {
+            "id": "B",
+            "text": "200"
+          },
+          {
+            "id": "C",
+            "text": "150"
+          },
+          {
+            "id": "D",
+            "text": "50"
+          }
+        ],
+        "explanation": "ধাপ 1: দেওয়া আছে A : B = 4 : 3 এবং মোট = 700 টাকা। মোট অংশ = 4 + 3 = 7। ধাপ 2: A-এর টাকা = (4/7) × 700 = 400 টাকা। B-এর টাকা = (3/7) × 700 = 300 টাকা। ধাপ 3: ধরি A, B-কে x টাকা দিল। তখন A-এর কাছে 400 − x টাকা এবং B-এর কাছে 300 + x টাকা থাকবে। অনুপাত 1 : 1 হতে হলে দুটি সমান হতে হবে। ধাপ 4: 400 − x = 300 + x, তাই 2x = 100 এবং x = 50। উত্তর: 50"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 2,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "If each side of a square is increased by 10%, what is the percentage increase of the area?",
+        "options": [
+          {
+            "id": "A",
+            "text": "21%"
+          },
+          {
+            "id": "B",
+            "text": "10%"
+          },
+          {
+            "id": "C",
+            "text": "20%"
+          },
+          {
+            "id": "D",
+            "text": "100%"
+          }
+        ],
+        "explanation": "Step 1: Let the side of the square be 10 units, so area = 10 × 10 = 100 sq units. Step 2: Each side increases by 10%, so new side = 10 + 1 = 11 units. Step 3: New area = 11 × 11 = 121 sq units. Step 4: Increase in area = 121 − 100 = 21. Percentage increase = (21/100) × 100 = 21%. Answer: 21% Shortcut: For two equal increases of x%, net increase = 2x + x²/100 = 20 + 1 = 21%."
+      },
+      "bn": {
+        "question_text": "একটি বর্গক্ষেত্রের প্রতিটি বাহু 10% বাড়ানো হলে, ক্ষেত্রফলের শতকরা বৃদ্ধি কত হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "21%"
+          },
+          {
+            "id": "B",
+            "text": "10%"
+          },
+          {
+            "id": "C",
+            "text": "20%"
+          },
+          {
+            "id": "D",
+            "text": "100%"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি বর্গক্ষেত্রের বাহু 10 একক, তাহলে ক্ষেত্রফল = 10 × 10 = 100 বর্গ একক। ধাপ 2: প্রতিটি বাহু 10% বাড়লে নতুন বাহু = 10 + 1 = 11 একক। ধাপ 3: নতুন ক্ষেত্রফল = 11 × 11 = 121 বর্গ একক। ধাপ 4: ক্ষেত্রফল বৃদ্ধি = 121 − 100 = 21। শতকরা বৃদ্ধি = (21/100) × 100 = 21%। উত্তর: 21% শর্টকাট: দুটি সমান x% বৃদ্ধির ক্ষেত্রে মোট বৃদ্ধি = 2x + x²/100 = 20 + 1 = 21%।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "profit_loss",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 3,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A shopkeeper purchased two cycles for Rs. 1,600 in total and sold the first at 10% profit and the second at 20% profit. If he had sold the first at 20% profit and the second at 10% profit, he could have got Rs. 5 more. What are the cost prices of the two cycles (in rupees)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "925, 675"
+          },
+          {
+            "id": "B",
+            "text": "1000, 600"
+          },
+          {
+            "id": "C",
+            "text": "825, 775"
+          },
+          {
+            "id": "D",
+            "text": "900, 700"
+          }
+        ],
+        "explanation": "Step 1: Let the cost prices be Rs. x and Rs. y. Given x + y = 1600. Step 2: First case selling total = 1.10x + 1.20y. Second case = 1.20x + 1.10y. Step 3: Second case gives Rs. 5 more: (1.20x + 1.10y) − (1.10x + 1.20y) = 5, so 0.10x − 0.10y = 5, giving x − y = 50. Step 4: Solving x + y = 1600 and x − y = 50: adding gives 2x = 1650, so x = 825 and y = 1600 − 825 = 775. Answer: 825, 775"
+      },
+      "bn": {
+        "question_text": "একজন দোকানদার মোট 1,600 টাকায় দুটি সাইকেল কিনে প্রথমটি 10% লাভে এবং দ্বিতীয়টি 20% লাভে বিক্রি করলেন। তিনি যদি প্রথমটি 20% লাভে এবং দ্বিতীয়টি 10% লাভে বিক্রি করতেন, তাহলে তিনি আরও 5 টাকা বেশি পেতেন। দুটি সাইকেলের ক্রয়মূল্য (টাকায়) কত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "925, 675"
+          },
+          {
+            "id": "B",
+            "text": "1000, 600"
+          },
+          {
+            "id": "C",
+            "text": "825, 775"
+          },
+          {
+            "id": "D",
+            "text": "900, 700"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি ক্রয়মূল্য দুটি x টাকা ও y টাকা। দেওয়া আছে x + y = 1600। ধাপ 2: প্রথম ক্ষেত্রে মোট বিক্রয়মূল্য = 1.10x + 1.20y। দ্বিতীয় ক্ষেত্রে = 1.20x + 1.10y। ধাপ 3: দ্বিতীয় ক্ষেত্রে 5 টাকা বেশি পাওয়া যায়: (1.20x + 1.10y) − (1.10x + 1.20y) = 5, তাই 0.10x − 0.10y = 5, অর্থাৎ x − y = 50। ধাপ 4: x + y = 1600 এবং x − y = 50 সমাধান করে যোগ করলে 2x = 1650, তাই x = 825 এবং y = 1600 − 825 = 775। উত্তর: 825, 775"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 4,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "By what percentage should the use of coal be reduced to keep the family budget the same when the price of coal is increased by 25%?",
+        "options": [
+          {
+            "id": "A",
+            "text": "25%"
+          },
+          {
+            "id": "B",
+            "text": "20%"
+          },
+          {
+            "id": "C",
+            "text": "30%"
+          },
+          {
+            "id": "D",
+            "text": "15%"
+          }
+        ],
+        "explanation": "Step 1: Let the original price be Rs. 100 per unit and use be 100 units, so spending = Rs. 10,000. Step 2: Price rises by 25%, so new price = Rs. 125 per unit. Step 3: To keep spending at Rs. 10,000, new use = 10000 ÷ 125 = 80 units. Step 4: Reduction in use = 100 − 80 = 20 units, i.e. (20/100) × 100 = 20%. Answer: 20% Shortcut: Reduction % = increase ÷ (100 + increase) × 100 = 25/125 × 100 = 20%."
+      },
+      "bn": {
+        "question_text": "কয়লার দাম 25% বাড়লে, পরিবারের বাজেট একই রাখতে কয়লার ব্যবহার শতকরা কত কমাতে হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "25%"
+          },
+          {
+            "id": "B",
+            "text": "20%"
+          },
+          {
+            "id": "C",
+            "text": "30%"
+          },
+          {
+            "id": "D",
+            "text": "15%"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি আগের দাম একক প্রতি 100 টাকা এবং ব্যবহার 100 একক, তাহলে খরচ = 10,000 টাকা। ধাপ 2: দাম 25% বাড়লে নতুন দাম = একক প্রতি 125 টাকা। ধাপ 3: খরচ 10,000 টাকাই রাখতে হলে নতুন ব্যবহার = 10000 ÷ 125 = 80 একক। ধাপ 4: ব্যবহার কমল = 100 − 80 = 20 একক, অর্থাৎ (20/100) × 100 = 20%। উত্তর: 20% শর্টকাট: হ্রাস % = বৃদ্ধি ÷ (100 + বৃদ্ধি) × 100 = 25/125 × 100 = 20%।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "time_work",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 5,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "If 80 persons can finish a work in 16 days by working 6 hours a day, how many hours per day should 64 persons work to complete the same work in 15 days?",
+        "options": [
+          {
+            "id": "A",
+            "text": "7 hrs"
+          },
+          {
+            "id": "B",
+            "text": "8 hrs"
+          },
+          {
+            "id": "C",
+            "text": "6 hrs"
+          },
+          {
+            "id": "D",
+            "text": "5 hrs"
+          }
+        ],
+        "explanation": "Step 1: Total work is fixed. Work = men × days × hours per day. Step 2: Total work = 80 × 16 × 6 = 7680 man-hours. Step 3: With 64 persons for 15 days, hours per day h satisfies 64 × 15 × h = 7680. Step 4: h = 7680 ÷ (64 × 15) = 7680 ÷ 960 = 8. Answer: 8 hrs"
+      },
+      "bn": {
+        "question_text": "80 জন লোক দিনে 6 ঘণ্টা করে কাজ করে 16 দিনে একটি কাজ শেষ করতে পারলে, একই কাজ 15 দিনে শেষ করতে 64 জন লোককে দিনে কত ঘণ্টা করে কাজ করতে হবে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "7 hrs"
+          },
+          {
+            "id": "B",
+            "text": "8 hrs"
+          },
+          {
+            "id": "C",
+            "text": "6 hrs"
+          },
+          {
+            "id": "D",
+            "text": "5 hrs"
+          }
+        ],
+        "explanation": "ধাপ 1: মোট কাজ নির্দিষ্ট। কাজ = লোক × দিন × প্রতিদিনের ঘণ্টা। ধাপ 2: মোট কাজ = 80 × 16 × 6 = 7680 জন-ঘণ্টা। ধাপ 3: 64 জন 15 দিন কাজ করলে প্রতিদিন h ঘণ্টা ধরে 64 × 15 × h = 7680 হবে। ধাপ 4: h = 7680 ÷ (64 × 15) = 7680 ÷ 960 = 8। উত্তর: 8 hrs"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 6,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "0.1% of Rs. 5,000 is Rs.",
+        "options": [
+          {
+            "id": "A",
+            "text": "50"
+          },
+          {
+            "id": "B",
+            "text": "500"
+          },
+          {
+            "id": "C",
+            "text": "5"
+          },
+          {
+            "id": "D",
+            "text": "10"
+          }
+        ],
+        "explanation": "Step 1: Percent means per hundred, so 0.1% = 0.1/100 = 0.001 as a fraction. Step 2: Find 0.001 of Rs. 5,000. Step 3: 5000 × 0.001 = 5. Step 4: Check: 5 out of 5000 is 5/5000 = 0.001 = 0.1%. Correct. Answer: 5"
+      },
+      "bn": {
+        "question_text": "5,000 টাকার 0.1% হল কত টাকা?",
+        "options": [
+          {
+            "id": "A",
+            "text": "50"
+          },
+          {
+            "id": "B",
+            "text": "500"
+          },
+          {
+            "id": "C",
+            "text": "5"
+          },
+          {
+            "id": "D",
+            "text": "10"
+          }
+        ],
+        "explanation": "ধাপ 1: শতকরা মানে প্রতি শতে, তাই 0.1% = 0.1/100 = ভগ্নাংশে 0.001। ধাপ 2: 5,000 টাকার 0.001 অংশ বের করতে হবে। ধাপ 3: 5000 × 0.001 = 5। ধাপ 4: যাচাই: 5000-এর মধ্যে 5 হল 5/5000 = 0.001 = 0.1%। সঠিক। উত্তর: 5"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "percentage",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 7,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Write down the percentage equivalent to the fraction 3/4.",
+        "options": [
+          {
+            "id": "A",
+            "text": "75%"
+          },
+          {
+            "id": "B",
+            "text": "25%"
+          },
+          {
+            "id": "C",
+            "text": "60%"
+          },
+          {
+            "id": "D",
+            "text": "80%"
+          }
+        ],
+        "explanation": "Step 1: To change a fraction into a percentage, multiply the fraction by 100. Step 2: (3/4) × 100 = 300/4. Step 3: 300 ÷ 4 = 75, so the value is 75%. Step 4: Check: 75% means 75/100, and 75/100 simplifies to 3/4 on dividing by 25. Correct. Answer: 75%"
+      },
+      "bn": {
+        "question_text": "3/4 ভগ্নাংশের সমতুল্য শতকরা মানটি লেখো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "75%"
+          },
+          {
+            "id": "B",
+            "text": "25%"
+          },
+          {
+            "id": "C",
+            "text": "60%"
+          },
+          {
+            "id": "D",
+            "text": "80%"
+          }
+        ],
+        "explanation": "ধাপ 1: ভগ্নাংশকে শতকরায় বদলাতে ভগ্নাংশটিকে 100 দিয়ে গুণ করতে হয়। ধাপ 2: (3/4) × 100 = 300/4। ধাপ 3: 300 ÷ 4 = 75, তাই মানটি 75%। ধাপ 4: যাচাই: 75% মানে 75/100, এবং 75/100-কে 25 দিয়ে ভাগ করে সরল করলে 3/4 হয়। সঠিক। উত্তর: 75%"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ages",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 8,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A father is older than his first son by 30 years, and the first son is older than the second son by 10 years. If the sum of their ages is 95 years, find the age of the father.",
+        "options": [
+          {
+            "id": "A",
+            "text": "65 years"
+          },
+          {
+            "id": "B",
+            "text": "55 years"
+          },
+          {
+            "id": "C",
+            "text": "45 years"
+          },
+          {
+            "id": "D",
+            "text": "50 years"
+          }
+        ],
+        "explanation": "Step 1: Let the father's age be F years. First son = F − 30, second son = (F − 30) − 10 = F − 40. Step 2: Sum of ages = 95, so F + (F − 30) + (F − 40) = 95. Step 3: 3F − 70 = 95, so 3F = 165. Step 4: F = 165 ÷ 3 = 55. Answer: 55 years"
+      },
+      "bn": {
+        "question_text": "একজন বাবা তাঁর বড় ছেলের চেয়ে 30 বছর বড়, এবং বড় ছেলে ছোট ছেলের চেয়ে 10 বছর বড়। তাদের বয়সের যোগফল 95 বছর হলে, বাবার বয়স নির্ণয় করো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "65 years"
+          },
+          {
+            "id": "B",
+            "text": "55 years"
+          },
+          {
+            "id": "C",
+            "text": "45 years"
+          },
+          {
+            "id": "D",
+            "text": "50 years"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি পিতার বয়স F বছর। প্রথম ছেলে = F − 30, দ্বিতীয় ছেলে = (F − 30) − 10 = F − 40। ধাপ 2: বয়সের যোগফল = 95, তাই F + (F − 30) + (F − 40) = 95। ধাপ 3: 3F − 70 = 95, তাই 3F = 165। ধাপ 4: F = 165 ÷ 3 = 55। উত্তর: 55 years"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "simplification",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 9,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Find the greatest number of 5 digits which is divisible by 7, 11 and 13.",
+        "options": [
+          {
+            "id": "A",
+            "text": "99900"
+          },
+          {
+            "id": "B",
+            "text": "99099"
+          },
+          {
+            "id": "C",
+            "text": "99909"
+          },
+          {
+            "id": "D",
+            "text": "99990"
+          }
+        ],
+        "explanation": "Step 1: A number divisible by 7, 11 and 13 must be divisible by their LCM. LCM = 7 × 11 × 13 = 1001, as they share no common factor. Step 2: The greatest 5-digit number is 99999. Divide: 99999 ÷ 1001 = 99.89…, so take 99 full multiples. Step 3: 99 × 1001 = 99099, which is a 5-digit number. Answer: 99099"
+      },
+      "bn": {
+        "question_text": "7, 11 ও 13 দ্বারা বিভাজ্য সবচেয়ে বড় 5 অঙ্কের সংখ্যাটি নির্ণয় করো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "99900"
+          },
+          {
+            "id": "B",
+            "text": "99099"
+          },
+          {
+            "id": "C",
+            "text": "99909"
+          },
+          {
+            "id": "D",
+            "text": "99990"
+          }
+        ],
+        "explanation": "ধাপ 1: 7, 11 ও 13 দিয়ে বিভাজ্য সংখ্যা তাদের ল.সা.গু. দিয়েও বিভাজ্য হবে। কোনো সাধারণ উৎপাদক না থাকায় ল.সা.গু. = 7 × 11 × 13 = 1001। ধাপ 2: সবচেয়ে বড় 5-অঙ্কের সংখ্যা 99999। ভাগ করলে 99999 ÷ 1001 = 99.89…, তাই পূর্ণ গুণিতক নিতে হবে 99টি। ধাপ 3: 99 × 1001 = 99099, যা একটি 5-অঙ্কের সংখ্যা। উত্তর: 99099"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "profit_loss",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 10,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "A sold a watch to B at a loss of 10%. B sold it to C at a gain of 10%. If A had sold it at the same price which C paid for it, what would have been his gain/loss %?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1% loss"
+          },
+          {
+            "id": "B",
+            "text": "10% gain"
+          },
+          {
+            "id": "C",
+            "text": "12% gain"
+          },
+          {
+            "id": "D",
+            "text": "11% loss"
+          }
+        ],
+        "explanation": "Step 1: Let A's cost price be Rs. 100. A sells at 10% loss, so B pays 100 − 10 = Rs. 90. Step 2: B sells at 10% gain on Rs. 90, so C pays 90 + 9 = Rs. 99. Step 3: If A had sold directly at Rs. 99 instead of Rs. 100, the change = 99 − 100 = −1. Step 4: Loss percentage = (1/100) × 100 = 1% loss. Answer: 1% loss"
+      },
+      "bn": {
+        "question_text": "A একটি ঘড়ি B-এর কাছে 10% ক্ষতিতে বিক্রি করল। B সেটি C-এর কাছে 10% লাভে বিক্রি করল। A যদি সেই দামেই বিক্রি করত যে দামে C কিনেছিল, তাহলে তার লাভ/ক্ষতি % কত হত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1% loss"
+          },
+          {
+            "id": "B",
+            "text": "10% gain"
+          },
+          {
+            "id": "C",
+            "text": "12% gain"
+          },
+          {
+            "id": "D",
+            "text": "11% loss"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি A-এর ক্রয়মূল্য 100 টাকা। A 10% ক্ষতিতে বেচলে B দেয় 100 − 10 = 90 টাকা। ধাপ 2: B 90 টাকার ওপর 10% লাভে বেচলে C দেয় 90 + 9 = 99 টাকা। ধাপ 3: A সরাসরি 99 টাকায় বেচলে পরিবর্তন = 99 − 100 = −1। ধাপ 4: ক্ষতির শতকরা হার = (1/100) × 100 = 1% ক্ষতি। উত্তর: 1% loss"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "quant",
+    "topic_code": "ages",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 11,
+      "paper_url": "https://wbpscupsc.com/arithmetic-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The present age of a father is 34 years more than that of his son. Twelve years ago, the father’s age was 18 times the age of his son. What is the present age of the son (in years)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "16"
+          },
+          {
+            "id": "B",
+            "text": "14"
+          },
+          {
+            "id": "C",
+            "text": "12"
+          },
+          {
+            "id": "D",
+            "text": "18"
+          }
+        ],
+        "explanation": "Step 1: Let the son's present age be S years. Father's present age = S + 34. Step 2: Twelve years ago: son = S − 12, father = S + 34 − 12 = S + 22. Step 3: Father was 18 times the son: S + 22 = 18(S − 12) = 18S − 216. Step 4: 22 + 216 = 18S − S, so 17S = 238 and S = 238 ÷ 17 = 14. Answer: 14"
+      },
+      "bn": {
+        "question_text": "একজন বাবার বর্তমান বয়স তাঁর ছেলের বয়সের চেয়ে 34 বছর বেশি। বারো বছর আগে, বাবার বয়স ছেলের বয়সের 18 গুণ ছিল। ছেলের বর্তমান বয়স (বছরে) কত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "16"
+          },
+          {
+            "id": "B",
+            "text": "14"
+          },
+          {
+            "id": "C",
+            "text": "12"
+          },
+          {
+            "id": "D",
+            "text": "18"
+          }
+        ],
+        "explanation": "ধাপ 1: ধরি ছেলের বর্তমান বয়স S বছর। পিতার বর্তমান বয়স = S + 34। ধাপ 2: বারো বছর আগে: ছেলে = S − 12, পিতা = S + 34 − 12 = S + 22। ধাপ 3: পিতার বয়স ছেলের 18 গুণ ছিল: S + 22 = 18(S − 12) = 18S − 216। ধাপ 4: 22 + 216 = 18S − S, তাই 17S = 238 এবং S = 238 ÷ 17 = 14। উত্তর: 14"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 12,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Wimbledon, known for lawn tennis courts, is in",
+        "options": [
+          {
+            "id": "A",
+            "text": "Washington D.C."
+          },
+          {
+            "id": "B",
+            "text": "Paris"
+          },
+          {
+            "id": "C",
+            "text": "Rome"
+          },
+          {
+            "id": "D",
+            "text": "London"
+          }
+        ],
+        "explanation": "Fact: Wimbledon, known for lawn tennis, is in London. Context: Wimbledon is a district in south-west London hosting The Championships, the oldest and most prestigious tennis tournament, played on grass courts. Why not Paris: Paris hosts the French Open (Roland Garros) on clay, not the grass courts of Wimbledon."
+      },
+      "bn": {
+        "question_text": "Wimbledon, যা lawn tennis court-এর জন্য পরিচিত, অবস্থিত",
+        "options": [
+          {
+            "id": "A",
+            "text": "Washington D.C."
+          },
+          {
+            "id": "B",
+            "text": "Paris"
+          },
+          {
+            "id": "C",
+            "text": "Rome"
+          },
+          {
+            "id": "D",
+            "text": "London"
+          }
+        ],
+        "explanation": "তথ্য: লন টেনিসের জন্য পরিচিত Wimbledon London-এ অবস্থিত। প্রেক্ষাপট: Wimbledon দক্ষিণ-পশ্চিম London-এর একটি জেলা, যেখানে ঘাসের কোর্টে খেলা প্রাচীনতম ও সবচেয়ে মর্যাদাপূর্ণ টেনিস টুর্নামেন্ট The Championships অনুষ্ঠিত হয়। কেন Paris নয়: Paris-এ হয় French Open (Roland Garros) মাটির কোর্টে, Wimbledon-এর ঘাসের কোর্ট নয়।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 13,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "In which field did Kumar Gandharva earn distinction?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dance"
+          },
+          {
+            "id": "B",
+            "text": "Literature"
+          },
+          {
+            "id": "C",
+            "text": "Music"
+          },
+          {
+            "id": "D",
+            "text": "Cinema"
+          }
+        ],
+        "explanation": "Fact: Kumar Gandharva earned distinction in music. Context: He was a celebrated Hindustani classical vocalist from Maharashtra, admired for his original style and for creating new ragas, despite losing the use of one lung early in his career. Context: Among the options, his field is singing within music — not dance, literature or cinema."
+      },
+      "bn": {
+        "question_text": "Kumar Gandharva কোন ক্ষেত্রে খ্যাতি অর্জন করেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dance"
+          },
+          {
+            "id": "B",
+            "text": "Literature"
+          },
+          {
+            "id": "C",
+            "text": "Music"
+          },
+          {
+            "id": "D",
+            "text": "Cinema"
+          }
+        ],
+        "explanation": "তথ্য: Kumar Gandharva সংগীতে খ্যাতি অর্জন করেন। প্রেক্ষাপট: তিনি Maharashtra-র প্রখ্যাত হিন্দুস্তানি শাস্ত্রীয় কণ্ঠশিল্পী ছিলেন, ক্যারিয়ারের শুরুতে একটি ফুসফুসের কার্যক্ষমতা হারিয়েও তাঁর স্বতন্ত্র শৈলী ও নতুন রাগ সৃষ্টির জন্য প্রশংসিত। প্রেক্ষাপট: বিকল্পগুলির মধ্যে তাঁর ক্ষেত্র সংগীতের মধ্যে গায়কী — নৃত্য, সাহিত্য বা চলচ্চিত্র নয়।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "general_science",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 14,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Sunita Williams is a",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tennis player"
+          },
+          {
+            "id": "B",
+            "text": "Novelist"
+          },
+          {
+            "id": "C",
+            "text": "Politician"
+          },
+          {
+            "id": "D",
+            "text": "NASA scientist (astronaut)"
+          }
+        ],
+        "explanation": "Fact: Sunita Williams is a NASA astronaut. Context: The Indian-origin American astronaut flew long missions to the International Space Station and set records for spacewalks by a woman at the time. Why not Tennis player: Her field is spaceflight with NASA, not any sport."
+      },
+      "bn": {
+        "question_text": "Sunita Williams একজন",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tennis player"
+          },
+          {
+            "id": "B",
+            "text": "Novelist"
+          },
+          {
+            "id": "C",
+            "text": "Politician"
+          },
+          {
+            "id": "D",
+            "text": "NASA scientist (astronaut)"
+          }
+        ],
+        "explanation": "তথ্য: Sunita Williams একজন NASA নভশ্চর। প্রেক্ষাপট: ভারতীয় বংশোদ্ভূত মার্কিন এই নভশ্চর International Space Station-এ দীর্ঘ অভিযানে যান এবং সেই সময় নারী হিসাবে spacewalk-এর রেকর্ড গড়েন। কেন Tennis player নয়: তাঁর ক্ষেত্র NASA-র সঙ্গে মহাকাশযাত্রা, কোনো খেলা নয়।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 15,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The tsunami hit Tamil Nadu and the Andaman Islands on",
+        "options": [
+          {
+            "id": "A",
+            "text": "15th August, 2004"
+          },
+          {
+            "id": "B",
+            "text": "11th September, 2004"
+          },
+          {
+            "id": "C",
+            "text": "26th December, 2004"
+          },
+          {
+            "id": "D",
+            "text": "26th January, 2005"
+          }
+        ],
+        "explanation": "Fact: The tsunami hit Tamil Nadu and the Andaman Islands on 26 December 2004. Context: Triggered by a massive undersea earthquake off Sumatra, the Indian Ocean tsunami struck coasts on Boxing Day 2004, devastating Nagapattinam and the Andaman & Nicobar Islands. Context: The date 26 December 2004 is the fixed anchor for all Indian Ocean tsunami questions."
+      },
+      "bn": {
+        "question_text": "সুনামি Tamil Nadu ও Andaman দ্বীপপুঞ্জে আঘাত হানে",
+        "options": [
+          {
+            "id": "A",
+            "text": "15th August, 2004"
+          },
+          {
+            "id": "B",
+            "text": "11th September, 2004"
+          },
+          {
+            "id": "C",
+            "text": "26th December, 2004"
+          },
+          {
+            "id": "D",
+            "text": "26th January, 2005"
+          }
+        ],
+        "explanation": "তথ্য: সুনামি 26 December 2004 তারিখে Tamil Nadu ও Andaman Islands-এ আঘাত হানে। প্রেক্ষাপট: Sumatra-র কাছে সমুদ্রগর্ভে বিশাল ভূমিকম্পে সৃষ্ট ভারত মহাসাগরের সুনামি 2004 সালের Boxing Day-তে উপকূলে আঘাত হানে, Nagapattinam ও Andaman & Nicobar Islands বিধ্বস্ত হয়। প্রেক্ষাপট: 26 December 2004 তারিখটি সব ভারত মহাসাগর সুনামি প্রশ্নের জন্য নির্দিষ্ট সূত্র।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 16,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who among the following is NOT a tabla player?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Zakir Hussain"
+          },
+          {
+            "id": "B",
+            "text": "Bikram Ghosh"
+          },
+          {
+            "id": "C",
+            "text": "Shiv Kumar Sharma"
+          },
+          {
+            "id": "D",
+            "text": "Alla Rakha"
+          }
+        ],
+        "explanation": "Fact: Shiv Kumar Sharma is NOT a tabla player — he is a santoor maestro. Context: Pt. Shiv Kumar Sharma popularised the santoor in Hindustani classical music; Zakir Hussain and Alla Rakha are the famous tabla names in the options. Why not Zakir Hussain: Zakir Hussain is arguably the world's best-known tabla player, so he cannot be the 'NOT tabla' answer."
+      },
+      "bn": {
+        "question_text": "নিচের কে তবলা বাদক নন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Zakir Hussain"
+          },
+          {
+            "id": "B",
+            "text": "Bikram Ghosh"
+          },
+          {
+            "id": "C",
+            "text": "Shiv Kumar Sharma"
+          },
+          {
+            "id": "D",
+            "text": "Alla Rakha"
+          }
+        ],
+        "explanation": "তথ্য: Shiv Kumar Sharma তবলা বাদক নন — তিনি সন্তুর শিক্ষক। প্রেক্ষাপট: Pt. Shiv Kumar Sharma হিন্দুস্তানি শাস্ত্রীয় সংগীতে সন্তুরকে জনপ্রিয় করেন; Zakir Hussain ও Alla Rakha বিকল্পগুলির মধ্যে বিখ্যাত তবলা নাম। কেন Zakir Hussain নয়: Zakir Hussain সম্ভবত বিশ্বের সবচেয়ে পরিচিত তবলা বাদক, তাই তিনি 'তবলা নয়' উত্তর হতে পারেন না।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 17,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Feroz Shah Kotla Ground is situated at",
+        "options": [
+          {
+            "id": "A",
+            "text": "Delhi"
+          },
+          {
+            "id": "B",
+            "text": "Hyderabad"
+          },
+          {
+            "id": "C",
+            "text": "Lucknow"
+          },
+          {
+            "id": "D",
+            "text": "Mumbai"
+          }
+        ],
+        "explanation": "Fact: Feroz Shah Kotla Ground is situated in Delhi. Context: One of India's oldest cricket venues, it is now known as the Arun Jaitley Stadium; it stands near the historic Feroz Shah Kotla fort in Delhi. Why not Mumbai: Mumbai's famous cricket grounds are Wankhede and Brabourne, not Feroz Shah Kotla."
+      },
+      "bn": {
+        "question_text": "Feroz Shah Kotla Ground অবস্থিত",
+        "options": [
+          {
+            "id": "A",
+            "text": "Delhi"
+          },
+          {
+            "id": "B",
+            "text": "Hyderabad"
+          },
+          {
+            "id": "C",
+            "text": "Lucknow"
+          },
+          {
+            "id": "D",
+            "text": "Mumbai"
+          }
+        ],
+        "explanation": "তথ্য: Feroz Shah Kotla Ground Delhi-তে অবস্থিত। প্রেক্ষাপট: ভারতের প্রাচীনতম ক্রিকেট ভেন্যুগুলির একটি, এটি এখন Arun Jaitley Stadium নামে পরিচিত; এটি Delhi-র ঐতিহাসিক Feroz Shah Kotla দুর্গের কাছে অবস্থিত। কেন Mumbai নয়: Mumbai-র বিখ্যাত ক্রিকেট মাঠ Wankhede ও Brabourne, Feroz Shah Kotla নয়।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "art_culture",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 18,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Which akademi is responsible for the development of dance, drama and music in India?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sangeet Natak Akademi"
+          },
+          {
+            "id": "B",
+            "text": "Lalit Kala Akademi"
+          },
+          {
+            "id": "C",
+            "text": "Sahitya Akademi"
+          },
+          {
+            "id": "D",
+            "text": "National School of Drama"
+          }
+        ],
+        "explanation": "Fact: The Sangeet Natak Akademi is responsible for the development of dance, drama and music in India. Context: Set up in 1953, it is India's national academy for performing arts; compare its sister akademis — Sahitya Akademi for literature and Lalit Kala Akademi for visual arts. Why not Sahitya Akademi: 'Sahitya' itself means literature, so that akademi covers letters, not the performing arts."
+      },
+      "bn": {
+        "question_text": "ভারতে নৃত্য, নাটক ও সংগীতের উন্নয়নের দায়িত্বে কোন akademi আছে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sangeet Natak Akademi"
+          },
+          {
+            "id": "B",
+            "text": "Lalit Kala Akademi"
+          },
+          {
+            "id": "C",
+            "text": "Sahitya Akademi"
+          },
+          {
+            "id": "D",
+            "text": "National School of Drama"
+          }
+        ],
+        "explanation": "তথ্য: Sangeet Natak Akademi ভারতে নৃত্য, নাটক ও সংগীতের বিকাশের জন্য দায়ী। প্রেক্ষাপট: 1953 সালে স্থাপিত এটি পরিবেশন শিল্পের জন্য ভারতের জাতীয় অ্যাকাডেমি; এর সহোদর অ্যাকাডেমিগুলি তুলনা করুন — সাহিত্যের জন্য Sahitya Akademi ও দৃশ্যশিল্পের জন্য Lalit Kala Akademi। কেন Sahitya Akademi নয়: 'Sahitya' মানেই সাহিত্য, তাই সেই অ্যাকাডেমি অক্ষরশিল্প নিয়ে, পরিবেশন শিল্প নয়।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "polity",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 19,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The Constitution of India came into force on",
+        "options": [
+          {
+            "id": "A",
+            "text": "26.01.1950"
+          },
+          {
+            "id": "B",
+            "text": "15.08.1947"
+          },
+          {
+            "id": "C",
+            "text": "26.11.1949"
+          },
+          {
+            "id": "D",
+            "text": "15.06.1952"
+          }
+        ],
+        "explanation": "Fact: The Constitution of India came into force on 26 January 1950. Context: It was adopted earlier, on 26 November 1949 (now Constitution Day); 26 January was chosen for enforcement to honour Purna Swaraj Day (1930) — hence Republic Day on 26 January. Why not 26.11.1949: That is the adoption date; 'came into force' means 26.01.1950 — the exact word trap."
+      },
+      "bn": {
+        "question_text": "ভারতের সংবিধান কার্যকর হয়",
+        "options": [
+          {
+            "id": "A",
+            "text": "26.01.1950"
+          },
+          {
+            "id": "B",
+            "text": "15.08.1947"
+          },
+          {
+            "id": "C",
+            "text": "26.11.1949"
+          },
+          {
+            "id": "D",
+            "text": "15.06.1952"
+          }
+        ],
+        "explanation": "তথ্য: ভারতের সংবিধান 26 January 1950 তারিখে কার্যকর হয়। প্রেক্ষাপট: এটি আগে, 26 November 1949 তারিখে গৃহীত হয় (বর্তমানে সংবিধান দিবস); Purna Swaraj Day (1930)-কে সম্মান জানাতে কার্যকরের জন্য 26 January বেছে নেওয়া হয় — তাই 26 January প্রজাতন্ত্র দিবস। কেন 26.11.1949 নয়: সেটি গ্রহণের তারিখ; 'কার্যকর হওয়া' মানে 26.01.1950 — ঠিক শব্দের ফাঁদ।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 20,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The first Bangladeshi citizen to win a Nobel Prize (in 2006) was",
+        "options": [
+          {
+            "id": "A",
+            "text": "Khaleda Zia"
+          },
+          {
+            "id": "B",
+            "text": "Muhammad Yunus"
+          },
+          {
+            "id": "C",
+            "text": "Sheikh Hasina"
+          },
+          {
+            "id": "D",
+            "text": "Taslima Nasrin"
+          }
+        ],
+        "explanation": "Fact: Muhammad Yunus was the first Bangladeshi citizen to win a Nobel Prize, in 2006. Context: He shared the Nobel Peace Prize with the Grameen Bank he founded, for microcredit — small loans that helped poor borrowers, especially women, start livelihoods. Why not Taslima Nasrin: Taslima Nasrin is a writer in exile, not a Nobel laureate."
+      },
+      "bn": {
+        "question_text": "প্রথম বাংলাদেশি নাগরিক যিনি Nobel Prize (2006 সালে) জেতেন",
+        "options": [
+          {
+            "id": "A",
+            "text": "Khaleda Zia"
+          },
+          {
+            "id": "B",
+            "text": "Muhammad Yunus"
+          },
+          {
+            "id": "C",
+            "text": "Sheikh Hasina"
+          },
+          {
+            "id": "D",
+            "text": "Taslima Nasrin"
+          }
+        ],
+        "explanation": "তথ্য: Muhammad Yunus প্রথম Bangladeshi নাগরিক হিসাবে Nobel Prize জেতেন, 2006 সালে। প্রেক্ষাপট: তিনি তাঁর প্রতিষ্ঠিত Grameen Bank-এর সঙ্গে Nobel Peace Prize ভাগ করে নেন ক্ষুদ্রঋণের জন্য — ছোট ঋণ যা দরিদ্র ঋণগ্রহীতাদের, বিশেষ করে নারীদের জীবিকা শুরু করতে সাহায্য করে। কেন Taslima Nasrin নয়: Taslima Nasrin নির্বাসিত লেখিকা, Nobel laureate নন।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 21,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Medha Patkar is famous for leading which movement?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Anti-dowry Movement"
+          },
+          {
+            "id": "B",
+            "text": "Tebhaga Movement"
+          },
+          {
+            "id": "C",
+            "text": "Chipko Movement"
+          },
+          {
+            "id": "D",
+            "text": "Narmada Bachao Andolan"
+          }
+        ],
+        "explanation": "Fact: Medha Patkar is famous for leading the Narmada Bachao Andolan. Context: The movement, from the 1980s, protested large dams like Sardar Sarovar on the Narmada and demanded fair rehabilitation for displaced people. Why not Chipko Movement: Chipko (tree-hugging to save forests) is associated chiefly with Sunderlal Bahuguna and Gaura Devi, not Medha Patkar."
+      },
+      "bn": {
+        "question_text": "Medha Patkar কোন আন্দোলনের নেতৃত্ব দেওয়ার জন্য বিখ্যাত?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Anti-dowry Movement"
+          },
+          {
+            "id": "B",
+            "text": "Tebhaga Movement"
+          },
+          {
+            "id": "C",
+            "text": "Chipko Movement"
+          },
+          {
+            "id": "D",
+            "text": "Narmada Bachao Andolan"
+          }
+        ],
+        "explanation": "তথ্য: Medha Patkar Narmada Bachao Andolan-এর নেতৃত্বের জন্য বিখ্যাত। প্রেক্ষাপট: 1980-এর দশক থেকে এই আন্দোলন Narmada-র ওপর Sardar Sarovar-এর মতো বড় বাঁধের প্রতিবাদ করে এবং বাস্তুচ্যুতদের ন্যায্য পুনর্বাসন দাবি করে। কেন Chipko Movement নয়: Chipko (বন বাঁচাতে গাছ জড়িয়ে ধরা) মূলত Sunderlal Bahuguna ও Gaura Devi-র সঙ্গে যুক্ত, Medha Patkar-এর সঙ্গে নয়।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 22,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The three words of the Olympic motto “Citius, Altius, Fortius” mean respectively",
+        "options": [
+          {
+            "id": "A",
+            "text": "Faster, Stronger, Higher"
+          },
+          {
+            "id": "B",
+            "text": "Faster, Higher, Stronger"
+          },
+          {
+            "id": "C",
+            "text": "Stronger, Faster, Higher"
+          },
+          {
+            "id": "D",
+            "text": "Stronger, Higher, Faster"
+          }
+        ],
+        "explanation": "Fact: The Olympic motto words Citius, Altius, Fortius mean respectively Faster, Higher, Stronger. Context: The Latin order itself gives the answer — Citius (faster) first, Altius (higher) second, Fortius (stronger) third; the motto was later extended with 'Together' (Communiter). Why not Faster, Stronger, Higher: That swaps the second and third words; Altius (higher) must come before Fortius (stronger)."
+      },
+      "bn": {
+        "question_text": "অলিম্পিক motto “Citius, Altius, Fortius”-এর তিনটি শব্দের অর্থ যথাক্রমে",
+        "options": [
+          {
+            "id": "A",
+            "text": "Faster, Stronger, Higher"
+          },
+          {
+            "id": "B",
+            "text": "Faster, Higher, Stronger"
+          },
+          {
+            "id": "C",
+            "text": "Stronger, Faster, Higher"
+          },
+          {
+            "id": "D",
+            "text": "Stronger, Higher, Faster"
+          }
+        ],
+        "explanation": "তথ্য: Olympic মূলমন্ত্রের শব্দ Citius, Altius, Fortius-এর অর্থ যথাক্রমে Faster, Higher, Stronger। প্রেক্ষাপট: Latin ক্রমটিই উত্তর দেয় — Citius (দ্রুততর) প্রথম, Altius (উচ্চতর) দ্বিতীয়, Fortius (শক্তিশালী) তৃতীয়; মূলমন্ত্রটি পরে 'Together' (Communiter) যোগ করে সম্প্রসারিত হয়। কেন Faster, Stronger, Higher নয়: এটি দ্বিতীয় ও তৃতীয় শব্দ অদলবদল করে; Altius (higher) অবশ্যই Fortius (stronger)-এর আগে আসবে।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 23,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Match the players with their games: (a) Vishwanathan Anand, (b) Yasin Merchant, (c) Sania Mirza, (d) Vijay Merchant — (1) Tennis, (2) Cricket, (3) Snooker, (4) Chess",
+        "options": [
+          {
+            "id": "A",
+            "text": "1, 3, 2, 4"
+          },
+          {
+            "id": "B",
+            "text": "4, 3, 1, 2"
+          },
+          {
+            "id": "C",
+            "text": "3, 4, 1, 2"
+          },
+          {
+            "id": "D",
+            "text": "4, 2, 1, 3"
+          }
+        ],
+        "explanation": "Fact: The correct matching is Anand-Chess (4), Yasin Merchant-Snooker (3), Sania Mirza-Tennis (1), Vijay Merchant-Cricket (2) — i.e. 4, 3, 1, 2. Context: Viswanathan Anand is India's chess world champion, Yasin Merchant a snooker player, Sania Mirza a tennis star and Vijay Merchant a legendary cricketer — each pairing is a well-known fact. Context: The stored key here is the factually correct matching, as noted in the paper's verified explanation."
+      },
+      "bn": {
+        "question_text": "খেলোয়াড়দের তাদের খেলার সঙ্গে মেলান: (a) Vishwanathan Anand, (b) Yasin Merchant, (c) Sania Mirza, (d) Vijay Merchant — (1) Tennis, (2) Cricket, (3) Snooker, (4) Chess",
+        "options": [
+          {
+            "id": "A",
+            "text": "1, 3, 2, 4"
+          },
+          {
+            "id": "B",
+            "text": "4, 3, 1, 2"
+          },
+          {
+            "id": "C",
+            "text": "3, 4, 1, 2"
+          },
+          {
+            "id": "D",
+            "text": "4, 2, 1, 3"
+          }
+        ],
+        "explanation": "তথ্য: সঠিক মিল হল Anand-Chess (4), Yasin Merchant-Snooker (3), Sania Mirza-Tennis (1), Vijay Merchant-Cricket (2) — অর্থাৎ 4, 3, 1, 2। প্রেক্ষাপট: Viswanathan Anand ভারতের দাবা বিশ্ব চ্যাম্পিয়ন, Yasin Merchant snooker খেলোয়াড়, Sania Mirza টেনিস তারকা ও Vijay Merchant কিংবদন্তি ক্রিকেটার — প্রতিটি জুটিই সুপরিচিত তথ্য। প্রেক্ষাপট: এখানে সংরক্ষিত উত্তরটিই তথ্যগতভাবে সঠিক মিল, যা পেপারের যাচাইকৃত ব্যাখ্যায় উল্লেখ আছে।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "economy",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 24,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "SEZ stands for",
+        "options": [
+          {
+            "id": "A",
+            "text": "Special Economic Zone"
+          },
+          {
+            "id": "B",
+            "text": "South East Zone"
+          },
+          {
+            "id": "C",
+            "text": "Small Economic Zone"
+          },
+          {
+            "id": "D",
+            "text": "None of the above"
+          }
+        ],
+        "explanation": "Fact: SEZ stands for Special Economic Zone. Context: SEZs are specially demarcated areas with liberal tax and trade rules to attract investment and boost exports and employment. Why not South East Zone: That is a geographically plausible-sounding expansion, but the economic-policy full form is Special Economic Zone."
+      },
+      "bn": {
+        "question_text": "SEZ-এর পূর্ণরূপ হল",
+        "options": [
+          {
+            "id": "A",
+            "text": "Special Economic Zone"
+          },
+          {
+            "id": "B",
+            "text": "South East Zone"
+          },
+          {
+            "id": "C",
+            "text": "Small Economic Zone"
+          },
+          {
+            "id": "D",
+            "text": "None of the above"
+          }
+        ],
+        "explanation": "তথ্য: SEZ-র পুরো অর্থ Special Economic Zone। প্রেক্ষাপট: SEZ হল বিনিয়োগ আকর্ষণ ও রপ্তানি-কর্মসংস্থান বাড়াতে উদার কর ও বাণিজ্য নিয়মসহ বিশেষভাবে চিহ্নিত এলাকা। কেন South East Zone নয়: সেটি ভৌগোলিকভাবে যুক্তিসংগত শোনালেও অর্থনৈতিক-নীতির পুরো রূপ Special Economic Zone।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 25,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who is the author of the book ‘Dwikhandito’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sunil Gangopadhyay"
+          },
+          {
+            "id": "B",
+            "text": "Suchitra Bhattacharya"
+          },
+          {
+            "id": "C",
+            "text": "Taslima Nasrin"
+          },
+          {
+            "id": "D",
+            "text": "Salman Rushdie"
+          }
+        ],
+        "explanation": "Fact: 'Dwikhandito' (Split in Two) is the autobiographical work of Taslima Nasrin. Context: It is the third volume of her autobiographical writings, which were controversial and faced bans; Taslima Nasrin is the Bangladeshi author living in exile. Why not Sunil Gangopadhyay: Sunil was a leading Bengali novelist-poet, but Dwikhandito is Taslima's autobiography."
+      },
+      "bn": {
+        "question_text": "‘Dwikhandito’ বইটির লেখক কে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sunil Gangopadhyay"
+          },
+          {
+            "id": "B",
+            "text": "Suchitra Bhattacharya"
+          },
+          {
+            "id": "C",
+            "text": "Taslima Nasrin"
+          },
+          {
+            "id": "D",
+            "text": "Salman Rushdie"
+          }
+        ],
+        "explanation": "তথ্য: 'Dwikhandito' Taslima Nasrin-এর আত্মজীবনীমূলক রচনা। প্রেক্ষাপট: এটি তাঁর আত্মজীবনীমূলক লেখার তৃতীয় খণ্ড, যা বিতর্কিত হয় ও নিষেধাজ্ঞার মুখে পড়ে; Taslima Nasrin নির্বাসনে থাকা Bangladeshi লেখিকা। কেন Sunil Gangopadhyay নয়: Sunil ছিলেন প্রধান বাঙালি ঔপন্যাসিক-কবি, কিন্তু Dwikhandito Taslima-র আত্মজীবনী।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 26,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The term “Double Fault” is associated with",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lawn Tennis"
+          },
+          {
+            "id": "B",
+            "text": "Football"
+          },
+          {
+            "id": "C",
+            "text": "Cricket"
+          },
+          {
+            "id": "D",
+            "text": "Hockey"
+          }
+        ],
+        "explanation": "Fact: The term 'Double Fault' is associated with lawn tennis. Context: A double fault is two consecutive serving faults, which loses the point; serving exists in this form only in tennis among the options. Why not Football: Football has fouls and free kicks but no serves, hence no double fault."
+      },
+      "bn": {
+        "question_text": "“Double Fault” পরিভাষাটি যার সঙ্গে যুক্ত",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lawn Tennis"
+          },
+          {
+            "id": "B",
+            "text": "Football"
+          },
+          {
+            "id": "C",
+            "text": "Cricket"
+          },
+          {
+            "id": "D",
+            "text": "Hockey"
+          }
+        ],
+        "explanation": "তথ্য: 'Double Fault' পরিভাষাটি lawn tennis-এর সঙ্গে যুক্ত। প্রেক্ষাপট: Double fault হল পরপর দুটি সার্ভের ত্রুটি, যাতে পয়েন্ট হারাতে হয়; বিকল্পগুলির মধ্যে এই আকারে সার্ভ শুধু টেনিসেই আছে। কেন Football নয়: ফুটবলে foul ও free kick আছে কিন্তু সার্ভ নেই, তাই double fault-ও নেই।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "art_culture",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 27,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "The film ‘Netaji: The Forgotten Hero’ was directed by",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rituparno Ghosh"
+          },
+          {
+            "id": "B",
+            "text": "Shyam Benegal"
+          },
+          {
+            "id": "C",
+            "text": "Mani Ratnam"
+          },
+          {
+            "id": "D",
+            "text": "Aparna Sen"
+          }
+        ],
+        "explanation": "Fact: 'Netaji Subhas Chandra Bose: The Forgotten Hero' (2004) was directed by Shyam Benegal. Context: Benegal, a pioneer of India's parallel cinema, made this biographical film on Netaji's later years and the INA. Why not Rituparno Ghosh: Ghosh was a Bengali filmmaker of intimate dramas; the Netaji epic is Benegal's work."
+      },
+      "bn": {
+        "question_text": "‘Netaji: The Forgotten Hero’ চলচ্চিত্রটি পরিচালনা করেন",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rituparno Ghosh"
+          },
+          {
+            "id": "B",
+            "text": "Shyam Benegal"
+          },
+          {
+            "id": "C",
+            "text": "Mani Ratnam"
+          },
+          {
+            "id": "D",
+            "text": "Aparna Sen"
+          }
+        ],
+        "explanation": "তথ্য: 'Netaji Subhas Chandra Bose: The Forgotten Hero' (2004) Shyam Benegal পরিচালনা করেন। প্রেক্ষাপট: ভারতের সমান্তরাল চলচ্চিত্রের পথিকৃৎ Benegal Netaji-র শেষ জীবন ও INA নিয়ে এই জীবনীমূলক ছবিটি তৈরি করেন। কেন Rituparno Ghosh নয়: Ghosh ছিলেন অন্তরঙ্গ নাটকের বাঙালি চলচ্চিত্রকার; Netaji মহাকাব্য Benegal-এর কাজ।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_gk",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 28,
+      "paper_url": "https://wbpscupsc.com/general-knowledge-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who wrote ‘Pather Dabi’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bankim Chandra Chattopadhyay"
+          },
+          {
+            "id": "B",
+            "text": "Sarat Chandra Chattopadhyay"
+          },
+          {
+            "id": "C",
+            "text": "Rabindranath Tagore"
+          },
+          {
+            "id": "D",
+            "text": "Banaphul"
+          }
+        ],
+        "explanation": "Fact: 'Pather Dabi' (1926) was written by Sarat Chandra Chattopadhyay. Context: This revolutionary-themed novel about the fictional organisation Pather Dabi was banned by the British government for its anti-colonial message. Why not Bankim Chandra Chattopadhyay: Both share the Chattopadhyay surname, but Pather Dabi is Sarat Chandra's, a generation later than Bankim."
+      },
+      "bn": {
+        "question_text": "‘Pather Dabi’ কে লিখেছেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bankim Chandra Chattopadhyay"
+          },
+          {
+            "id": "B",
+            "text": "Sarat Chandra Chattopadhyay"
+          },
+          {
+            "id": "C",
+            "text": "Rabindranath Tagore"
+          },
+          {
+            "id": "D",
+            "text": "Banaphul"
+          }
+        ],
+        "explanation": "তথ্য: 'Pather Dabi' (1926) Sarat Chandra Chattopadhyay-এর লেখা। প্রেক্ষাপট: কাল্পনিক সংগঠন Pather Dabi নিয়ে এই বিপ্লব-ভাবের উপন্যাসটি উপনিবেশ-বিরোধী বার্তার জন্য ব্রিটিশ সরকার নিষিদ্ধ করে। কেন Bankim Chandra Chattopadhyay নয়: দুজনেরই পদবি Chattopadhyay হলেও Pather Dabi Sarat Chandra-র, Bankim-এর এক প্রজন্ম পরের।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 29,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who is called the ‘Frontier Gandhi’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Abdul Ghaffar Khan"
+          },
+          {
+            "id": "B",
+            "text": "Maulana Azad"
+          },
+          {
+            "id": "C",
+            "text": "Satish Chandra Dasgupta"
+          },
+          {
+            "id": "D",
+            "text": "Mahatma Gandhi"
+          }
+        ],
+        "explanation": "Fact: Khan Abdul Ghaffar Khan is called the 'Frontier Gandhi'. Context: The Pashtun leader from the North-West Frontier founded the non-violent Khudai Khidmatgar (Red Shirts) movement and worked closely with Gandhi — hence the title. Why not Maulana Azad: Azad was a senior Congress leader and scholar, but the 'Frontier' title belongs to Ghaffar Khan of the NWFP."
+      },
+      "bn": {
+        "question_text": "‘Frontier Gandhi’ কাকে বলা হয়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Abdul Ghaffar Khan"
+          },
+          {
+            "id": "B",
+            "text": "Maulana Azad"
+          },
+          {
+            "id": "C",
+            "text": "Satish Chandra Dasgupta"
+          },
+          {
+            "id": "D",
+            "text": "Mahatma Gandhi"
+          }
+        ],
+        "explanation": "তথ্য: Khan Abdul Ghaffar Khan-কে 'Frontier Gandhi' বলা হয়। প্রেক্ষাপট: উত্তর-পশ্চিম সীমান্তের এই পশতুন নেতা অহিংস Khudai Khidmatgar (Red Shirts) আন্দোলন প্রতিষ্ঠা করেন ও Gandhi-র সঙ্গে ঘনিষ্ঠভাবে কাজ করেন — তাই এই উপাধি। কেন Maulana Azad নয়: Azad ছিলেন জ্যেষ্ঠ Congress নেতা ও পণ্ডিত, কিন্তু 'Frontier' উপাধি NWFP-র Ghaffar Khan-এর।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 30,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "From which year did the counting of the Saka Era start?",
+        "options": [
+          {
+            "id": "A",
+            "text": "78 AD"
+          },
+          {
+            "id": "B",
+            "text": "58 BC"
+          },
+          {
+            "id": "C",
+            "text": "320 AD"
+          },
+          {
+            "id": "D",
+            "text": "327 BC"
+          }
+        ],
+        "explanation": "Fact: The counting of the Saka Era starts from 78 AD. Context: The era is traditionally associated with the accession of the Kushana emperor Kanishka; the Indian national calendar is based on the Saka Era beginning in 78 AD. Why not 320 AD: 320 AD marks the start of the Gupta Era, a different Indian era."
+      },
+      "bn": {
+        "question_text": "কোন বছর থেকে Saka Era-র গণনা শুরু হয়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "78 AD"
+          },
+          {
+            "id": "B",
+            "text": "58 BC"
+          },
+          {
+            "id": "C",
+            "text": "320 AD"
+          },
+          {
+            "id": "D",
+            "text": "327 BC"
+          }
+        ],
+        "explanation": "তথ্য: Saka Era-র গণনা 78 AD থেকে শুরু। প্রেক্ষাপট: এই অব্দ ঐতিহ্যগতভাবে কুষাণ সম্রাট Kanishka-র সিংহাসনারোহণের সঙ্গে যুক্ত; ভারতের জাতীয় পঞ্জিকা 78 AD থেকে শুরু Saka Era-র ওপর ভিত্তি করে। কেন 320 AD নয়: 320 AD Gupta Era-র শুরু বোঝায়, যা আলাদা ভারতীয় অব্দ।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 31,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who founded the ‘Atmiya Sabha’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Vidyasagar"
+          },
+          {
+            "id": "B",
+            "text": "Rammohan Roy"
+          },
+          {
+            "id": "C",
+            "text": "Shibnath Shastri"
+          },
+          {
+            "id": "D",
+            "text": "Keshab Chandra Sen"
+          }
+        ],
+        "explanation": "Fact: The Atmiya Sabha was founded by Rammohan Roy (Raja Rammohan Roy) in 1815. Context: This Calcutta discussion circle on monotheism and social reform was a precursor of the Brahmo Sabha/Samaj he founded in 1828. Context: The same founder fact appears in the 2004 paper as well — Roy and Atmiya Sabha (1815) is a repeated pair."
+      },
+      "bn": {
+        "question_text": "‘Atmiya Sabha’ কে প্রতিষ্ঠা করেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Vidyasagar"
+          },
+          {
+            "id": "B",
+            "text": "Rammohan Roy"
+          },
+          {
+            "id": "C",
+            "text": "Shibnath Shastri"
+          },
+          {
+            "id": "D",
+            "text": "Keshab Chandra Sen"
+          }
+        ],
+        "explanation": "তথ্য: Atmiya Sabha Rammohan Roy (Raja Rammohan Roy) 1815 সালে প্রতিষ্ঠা করেন। প্রেক্ষাপট: একেশ্বরবাদ ও সমাজ সংস্কার নিয়ে Calcutta-র এই আলোচনা চক্রটি 1828 সালে তাঁর প্রতিষ্ঠিত Brahmo Sabha/Samaj-এর পূর্বসূরি ছিল। প্রেক্ষাপট: একই প্রতিষ্ঠাতা-তথ্য 2004 সালের পেপারেও আছে — Roy ও Atmiya Sabha (1815) একটি পুনরাবৃত্ত জুটি।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 32,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Which emperor’s achievements are described in the Allahabad Prasasti?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ashoka"
+          },
+          {
+            "id": "B",
+            "text": "Harshavardhan"
+          },
+          {
+            "id": "C",
+            "text": "Kanishka"
+          },
+          {
+            "id": "D",
+            "text": "Samudragupta"
+          }
+        ],
+        "explanation": "Fact: The Allahabad Prasasti describes the achievements of Samudragupta. Context: Composed by his court poet Harishena and inscribed on the Allahabad pillar, it lists Samudragupta's conquests across northern and southern India. Why not Ashoka: The same pillar also carries Ashokan edicts from centuries earlier, but the Prasasti (eulogy) portion is about Samudragupta."
+      },
+      "bn": {
+        "question_text": "Allahabad Prasasti-তে কোন সম্রাটের কৃতিত্ব বর্ণিত হয়েছে?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ashoka"
+          },
+          {
+            "id": "B",
+            "text": "Harshavardhan"
+          },
+          {
+            "id": "C",
+            "text": "Kanishka"
+          },
+          {
+            "id": "D",
+            "text": "Samudragupta"
+          }
+        ],
+        "explanation": "তথ্য: Allahabad Prasasti-তে Samudragupta-র কীর্তি বর্ণিত আছে। প্রেক্ষাপট: তাঁর সভাকবি Harishena রচিত ও Allahabad স্তম্ভে খোদিত এতে উত্তর ও দক্ষিণ ভারতজুড়ে Samudragupta-র বিজয়ের তালিকা আছে। কেন Ashoka নয়: একই স্তম্ভে শতাব্দীর পর শতাব্দী আগের Ashoka-র ফরমানও আছে, কিন্তু Prasasti (প্রশস্তি) অংশ Samudragupta নিয়ে।"
+      }
+    },
+    "correct_option_id": "D"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 33,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who composed ‘Vande Mataram’?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bankim Chandra Chattopadhyay"
+          },
+          {
+            "id": "B",
+            "text": "Aurobindo Ghosh"
+          },
+          {
+            "id": "C",
+            "text": "Rabindranath Tagore"
+          },
+          {
+            "id": "D",
+            "text": "Mukunda Das"
+          }
+        ],
+        "explanation": "Fact: 'Vande Mataram' was composed by Bankim Chandra Chattopadhyay. Context: The song appears in his 1882 novel Anandamath and became the rallying cry of the freedom movement; it is India's national song. Why not Rabindranath Tagore: Tagore wrote the national anthem Jana Gana Mana — song versus anthem is the precise distinction tested."
+      },
+      "bn": {
+        "question_text": "‘Vande Mataram’ কে রচনা করেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bankim Chandra Chattopadhyay"
+          },
+          {
+            "id": "B",
+            "text": "Aurobindo Ghosh"
+          },
+          {
+            "id": "C",
+            "text": "Rabindranath Tagore"
+          },
+          {
+            "id": "D",
+            "text": "Mukunda Das"
+          }
+        ],
+        "explanation": "তথ্য: 'Vande Mataram' Bankim Chandra Chattopadhyay রচনা করেন। প্রেক্ষাপট: গানটি তাঁর 1882 সালের উপন্যাস Anandamath-এ আছে এবং মুক্তি আন্দোলনের সমরধ্বনি হয়ে ওঠে; এটি ভারতের জাতীয় সংগীত (national song)। কেন Rabindranath Tagore নয়: Tagore জাতীয় সংগীত (anthem) Jana Gana Mana লেখেন — গান বনাম anthem-এর সুনির্দিষ্ট পার্থক্যই এখানে যাচাই করা হয়।"
+      }
+    },
+    "correct_option_id": "A"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "art_culture",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 34,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Portrait painting is the most significant contribution of",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ajanta Paintings"
+          },
+          {
+            "id": "B",
+            "text": "Mughal Paintings"
+          },
+          {
+            "id": "C",
+            "text": "Rajput Paintings"
+          },
+          {
+            "id": "D",
+            "text": "Paintings of the Calcutta School"
+          }
+        ],
+        "explanation": "Fact: Portrait painting is regarded as the most significant contribution of Mughal paintings. Context: Mughal court ateliers, especially under Jahangir, raised individual and court portraiture to a peak of lifelike detail, alongside illustrated manuscripts. Why not Ajanta Paintings: Ajanta is famed for Buddhist narrative murals and frescoes, not portraiture."
+      },
+      "bn": {
+        "question_text": "Portrait painting যার সবচেয়ে উল্লেখযোগ্য অবদান",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ajanta Paintings"
+          },
+          {
+            "id": "B",
+            "text": "Mughal Paintings"
+          },
+          {
+            "id": "C",
+            "text": "Rajput Paintings"
+          },
+          {
+            "id": "D",
+            "text": "Paintings of the Calcutta School"
+          }
+        ],
+        "explanation": "তথ্য: প্রতিকৃতি (portrait) চিত্রকলাকে Mughal চিত্রকলার সবচেয়ে উল্লেখযোগ্য অবদান হিসাবে বিবেচনা করা হয়। প্রেক্ষাপট: Mughal রাজদরবারের শিল্পশালা, বিশেষত Jahangir-এর আমলে, ব্যক্তিগত ও দরবারি প্রতিকৃতিকে জীবন্ত খুঁটিনাটির শীর্ষে তোলে, চিত্রিত পুঁথির পাশাপাশি। কেন Ajanta Paintings নয়: Ajanta বৌদ্ধ কাহিনিমূলক mural ও fresco-র জন্য বিখ্যাত, প্রতিকৃতির জন্য নয়।"
+      }
+    },
+    "correct_option_id": "B"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 35,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who was the famous general (senapati) of Sher Shah?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jai Singh"
+          },
+          {
+            "id": "B",
+            "text": "Diler Khan"
+          },
+          {
+            "id": "C",
+            "text": "Brahmajit Gaur"
+          },
+          {
+            "id": "D",
+            "text": "Shaista Khan"
+          }
+        ],
+        "explanation": "Fact: Brahmajit Gaur was a famous general (senapati) of Sher Shah Suri. Context: He served Sher Shah, the Afghan ruler who briefly displaced the Mughals (1540-45) and is remembered for administrative reforms like the Grand Trunk Road and land revenue system. Context: The name is obscure, so anchor it as: Sher Shah's noted Hindu general = Brahmajit Gaur."
+      },
+      "bn": {
+        "question_text": "Sher Shah-র বিখ্যাত সেনাপতি কে ছিলেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jai Singh"
+          },
+          {
+            "id": "B",
+            "text": "Diler Khan"
+          },
+          {
+            "id": "C",
+            "text": "Brahmajit Gaur"
+          },
+          {
+            "id": "D",
+            "text": "Shaista Khan"
+          }
+        ],
+        "explanation": "তথ্য: Brahmajit Gaur ছিলেন Sher Shah Suri-র বিখ্যাত সেনাপতি। প্রেক্ষাপট: তিনি Sher Shah-এর সেবা করেন, সেই আফগান শাসক যিনি সংক্ষিপ্ত সময়ের জন্য Mughal-দের উৎখাত করেন (1540-45) এবং Grand Trunk Road ও ভূমি রাজস্ব ব্যবস্থার মতো প্রশাসনিক সংস্কারের জন্য স্মরণীয়। প্রেক্ষাপট: নামটি অপরিচিত, তাই এভাবে মনে রাখুন: Sher Shah-এর খ্যাতনামা হিন্দু সেনাপতি = Brahmajit Gaur।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 36,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "Who was the prime leader of the Chittagong Armoury Raid?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Khudiram Bose"
+          },
+          {
+            "id": "B",
+            "text": "Satish Basu"
+          },
+          {
+            "id": "C",
+            "text": "Surya Sen"
+          },
+          {
+            "id": "D",
+            "text": "Ashwini Dutta"
+          }
+        ],
+        "explanation": "Fact: The prime leader of the Chittagong Armoury Raid was Surya Sen, known as 'Masterda'. Context: In April 1930 his revolutionary group raided the police and auxiliary armouries in Chittagong, aiming to cut the town off and spark an uprising. Why not Khudiram Bose: Khudiram belongs to the earlier Muzaffarpur episode (1908), a generation before the 1930 Chittagong raid."
+      },
+      "bn": {
+        "question_text": "Chittagong Armoury Raid-এর প্রধান নেতা কে ছিলেন?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Khudiram Bose"
+          },
+          {
+            "id": "B",
+            "text": "Satish Basu"
+          },
+          {
+            "id": "C",
+            "text": "Surya Sen"
+          },
+          {
+            "id": "D",
+            "text": "Ashwini Dutta"
+          }
+        ],
+        "explanation": "তথ্য: Chittagong Armoury Raid-এর প্রধান নেতা ছিলেন Surya Sen, 'Masterda' নামে পরিচিত। প্রেক্ষাপট: April 1930-এ তাঁর বিপ্লবী দল Chittagong-এ পুলিশ ও সহায়ক বাহিনীর অস্ত্রাগারে হামলা চালায়, শহরটিকে বিচ্ছিন্ন করে বিদ্রোহ জাগানোর লক্ষ্যে। কেন Khudiram Bose নয়: Khudiram আগের Muzaffarpur ঘটনার (1908) সঙ্গে যুক্ত, 1930 সালের Chittagong হামলার এক প্রজন্ম আগে।"
+      }
+    },
+    "correct_option_id": "C"
+  },
+  {
+    "category": "WBPSC_CLERKSHIP",
+    "subject_code": "gs",
+    "topic_code": "indian_history",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBPSC Clerkship (Part-I)",
+      "year": 2006,
+      "question_no": 37,
+      "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/"
+    },
+    "content": {
+      "en": {
+        "question_text": "In which year was the Third Battle of Panipat fought?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1761"
+          },
+          {
+            "id": "B",
+            "text": "1757"
+          },
+          {
+            "id": "C",
+            "text": "1526"
+          },
+          {
+            "id": "D",
+            "text": "1556"
+          }
+        ],
+        "explanation": "Fact: The Third Battle of Panipat was fought in 1761. Context: On 14 January 1761 the Marathas were defeated by Ahmad Shah Abdali (Durrani) at Panipat, one of the largest battles of the 18th century; remember the Panipat series — 1526, 1556, 1761. Why not 1757: 1757 is Plassey, four years before Third Panipat — two epochal battles often confused."
+      },
+      "bn": {
+        "question_text": "কোন বছরে Third Battle of Panipat সংঘটিত হয়?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1761"
+          },
+          {
+            "id": "B",
+            "text": "1757"
+          },
+          {
+            "id": "C",
+            "text": "1526"
+          },
+          {
+            "id": "D",
+            "text": "1556"
+          }
+        ],
+        "explanation": "তথ্য: Third Battle of Panipat 1761 সালে সংঘটিত হয়। প্রেক্ষাপট: 1761 সালের 14 January Panipat-এ Maratha-রা Ahmad Shah Abdali (Durrani)-র কাছে পরাজিত হয়, 18শ শতাব্দীর বৃহত্তম যুদ্ধগুলির একটি; Panipat ধারাটি মনে রাখুন — 1526, 1556, 1761। কেন 1757 নয়: 1757 হল Plassey, Third Panipat-এর চার বছর আগে — দুটি যুগান্তকারী যুদ্ধ প্রায়ই গুলিয়ে যায়।"
+      }
+    },
+    "correct_option_id": "A"
+  }
+]

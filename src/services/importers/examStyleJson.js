@@ -1,7 +1,7 @@
 'use strict';
 
 const { inCatalog } = require('../taxonomy');
-const { isExceptionPaperSource } = require('../questionProvenance');
+const { isExceptionPaperSource, isUnofficialPaperSource } = require('../questionProvenance');
 
 const crypto = require('node:crypto');
 
@@ -155,9 +155,14 @@ function pyqRef(p, index) {
     return { error: `#${index}: pyq needs exam_name, year and question_no` };
   }
   const isExceptionPaper = isExceptionPaperSource(p.paper_url);
-  if (!isOfficialUrl(p.paper_url) && !isExceptionPaper) return { error: `#${index}: pyq.paper_url must be an https link on an official commission site` };
+  const isUnofficialPaper = isUnofficialPaperSource(p.paper_url);
+  if (!isOfficialUrl(p.paper_url) && !isExceptionPaper && !isUnofficialPaper) return { error: `#${index}: pyq.paper_url must be an https link on an official commission site` };
   if (p.answer_key_url && !isOfficialUrl(p.answer_key_url)) return { error: `#${index}: pyq.answer_key_url must be on an official commission site` };
   if (isExceptionPaper && !isOfficialUrl(p.answer_key_url)) return { error: `#${index}: a compilation-sourced paper must cite the official answer key` };
+  // Papers the commission never published (Clerkship 2004–2009, see
+  // questionProvenance.js) may cite an unofficial reproduction ONLY when no
+  // answer key is cited at all — they import as ADAPTED_PYQ, cross-checked.
+  if (isUnofficialPaper && p.answer_key_url) return { error: `#${index}: an unofficially reproduced paper must not cite an answer key` };
   const slug = (s) => String(s).toUpperCase().replace(/[^A-Z0-9]+/g, '-').replace(/^-|-$/g, '');
   const question_code = [slug(p.exam_name), p.year, p.tier && slug(p.tier), p.shift && slug(p.shift), `Q${p.question_no}`].filter(Boolean).join('-').slice(0, 80);
   return {
@@ -188,6 +193,9 @@ function pyqSourceLine(ref, questionNo, langs) {
   if (isExceptionPaperSource(ref.source_url)) {
     line.en += `[Unofficial copy of the paper](${ref.source_url}) (the Commission did not publish it) · answer from the [official answer key](${ref.answer_key_url})`;
     line.bn += `[প্রশ্নপত্রের বেসরকারি প্রতিলিপি](${ref.source_url}) (কমিশন এটি প্রকাশ করেনি) · উত্তর [সরকারি উত্তরমালা](${ref.answer_key_url}) থেকে`;
+  } else if (isUnofficialPaperSource(ref.source_url)) {
+    line.en += `[Unofficial copy of the paper](${ref.source_url}) (the Commission did not publish it) · the Commission's answer key for this paper is not available, so this answer was cross-checked independently`;
+    line.bn += `[প্রশ্নপত্রের বেসরকারি প্রতিলিপি](${ref.source_url}) (কমিশন এটি প্রকাশ করেনি) · এই প্রশ্নপত্রের সরকারি উত্তরমালা পাওয়া যায় না, তাই উত্তরটি স্বাধীনভাবে মিলিয়ে দেখা হয়েছে`;
   } else if (!ref.answer_key_url) {
     line.en += `[Official paper](${ref.source_url}) · the Commission's answer key for this paper is not available, so this answer was cross-checked independently`;
     line.bn += `[সরকারি প্রশ্নপত্র](${ref.source_url}) · এই প্রশ্নপত্রের সরকারি উত্তরমালা পাওয়া যায় না, তাই উত্তরটি স্বাধীনভাবে মিলিয়ে দেখা হয়েছে`;

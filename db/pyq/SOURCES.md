@@ -1,8 +1,11 @@
-# PYQ sources (official papers only)
+# PYQ sources (official papers only — two documented exceptions)
 
-Last checked 23 October 2026. Every imported question comes from a question paper and an
+Last checked 11 November 2026. Every imported question comes from a question paper and an
 answer key that the commission itself publishes. Every answer is the one in the official key.
 Questions that the key marks `*` (marks awarded to all candidates) were skipped.
+Exceptions, both documented in the notes below: the WBCS 2023 paper (unofficial compilation,
+official key) and the Clerkship 2004–2009 papers (never published by the Commission at all;
+unofficial reproductions, answers cross-checked — owner-approved 11 Nov 2026).
 
 ## Imported
 
@@ -10,6 +13,17 @@ Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 |---|---|---|---|---|---|
 | `wbcs-prelims-2022.json` | WBCS (Exe.) etc. Preliminary Examination, 2022 (Advt. 2/2022, held 19.06.2022), General Studies, **Test Booklet Series B** | https://psc.wb.gov.in/Download?param1=20240318164932_WBCS(PRELI)-2022.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202208041745_FinalWBCSKey22.pdf&param2=advertisement | **Final (revised)**, notice No. 396 CON(Q), 4 Aug 2022 | 190 of 200 |
 | `wbpsc-clerkship-2023-session-1.json` | Clerkship (Part-I) Rectt. Examination, 2023, **Session I** (Advt. 13/2023, held 16.11.2024), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20241122165221_ClerkshipS-I.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202505191629_Session-I.pdf&param2=advertisement | **Final**, notice No. 725-PSC/CON(Q), 16 May 2025 | 93 of 100 |
+| `wbpsc-clerkship-2023-session-2.json` | Clerkship (Part-I) Rectt. Examination, 2023, **Session II** (Advt. 13/2023, held 16.11.2024), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20241122165330_ClerkshipS-II.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202505191630_Session-II.pdf&param2=advertisement | **Final**, notice No. 726-PSC/CON(Q), 16 May 2025 | 98 of 100 (2 skipped: key marks `*`) |
+| `wbpsc-clerkship-2023-session-3.json` | Clerkship (Part-I) Rectt. Examination, 2023, **Session III** (Advt. 13/2023, held 17.11.2024), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20241122165426_Clerkship-III.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202505191631_Session-III.pdf&param2=advertisement | **Final**, notice No. 727-PSC/CON(Q), 16 May 2025 | 99 of 100 (1 skipped: key marks `*`) |
+| `wbpsc-clerkship-2023-session-4.json` | Clerkship (Part-I) Rectt. Examination, 2023, **Session IV** (Advt. 13/2023, held 17.11.2024), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20241122165548_ClerkshipS-IV.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202505191632_Session-IV.pdf&param2=advertisement | **Final**, notice No. 728-PSC/CON(Q), 16 May 2025 | 99 of 100 (1 skipped: key marks `*`) |
+| `wbpsc-clerkship-2019-forenoon.json` | Clerkship Examination (Preli.), 2019, **Forenoon** (Advt. 05/2019, held 25.01.2020), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20200722145425_CLERKSHIP2019FN.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202002051225_2739923.pdf&param2=advertisement | **Final**, notice No. 72-PSC/Con(Q), 5 Feb 2020 (Forenoon table, p.1 of the key) | 99 of 100 (1 excluded: the official key is factually wrong — see the 2019 note below) |
+| `wbpsc-clerkship-2019-afternoon.json` | Clerkship Examination (Preli.), 2019, **Afternoon** (Advt. 05/2019, held 25.01.2020), English, GS & Arithmetic, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20200722145313_CLERKSHIP2019AN.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202002051225_2739923.pdf&param2=advertisement | **Final**, notice No. 72-PSC/Con(Q), 5 Feb 2020 (Afternoon table, p.2 of the key) | 99 of 100 (1 excluded: the official key is factually wrong — see the 2019 note below) |
+| `wbpsc-clerkship-2009-session-1.json` | Clerkship (Part-I) Examination, 2009, **Session I**, English, GS & Arithmetic | **UNOFFICIAL reproduction** — wbpscupsc.com subject pages (see the 2004–2009 note below); the Commission never published this paper | **NONE — no official key exists** | **Not official-key verified** — answers cross-checked (see the 2004–2009 note below) | 62 imported |
+| `wbpsc-clerkship-2009-session-2.json` | Clerkship (Part-I) Examination, 2009, **Session II**, English, GS & Arithmetic | **UNOFFICIAL reproduction** — wbpscupsc.com subject pages (see the 2004–2009 note below) | **NONE — no official key exists** | **Not official-key verified** — answers cross-checked (see the 2004–2009 note below) | 38 imported |
+| `wbpsc-clerkship-2007.json` | Clerkship (Part-I) Examination, 2007, English, GS & Arithmetic | **UNOFFICIAL reproduction** — wbpscupsc.com subject pages (see the 2004–2009 note below) | **NONE — no official key exists** | **Not official-key verified** — answers cross-checked (see the 2004–2009 note below) | 30 imported |
+| `wbpsc-clerkship-2006.json` | Clerkship (Part-I) Examination, 2006, GS & Arithmetic | **UNOFFICIAL reproduction** — wbpscupsc.com subject pages (see the 2004–2009 note below) | **NONE — no official key exists** | **Not official-key verified** — answers cross-checked (see the 2004–2009 note below) | 37 imported |
+| `wbpsc-clerkship-2005.json` | Clerkship (Part-I) Examination, 2005, GS & Arithmetic | **UNOFFICIAL reproduction** — wbpscupsc.com subject pages (see the 2004–2009 note below) | **NONE — no official key exists** | **Not official-key verified** — answers cross-checked (see the 2004–2009 note below) | 72 imported |
+| `wbpsc-clerkship-2004.json` | Clerkship (Part-I) Examination, 2004, GS & Arithmetic | **UNOFFICIAL reproduction** — wbpscupsc.com subject pages (see the 2004–2009 note below) | **NONE — no official key exists** | **Not official-key verified** — answers cross-checked (see the 2004–2009 note below) | 71 imported |
 | `ido-2019.json` | Industrial Development Officer, Preliminary Screening Test, 2019 (Advt. 10/2019, held 22.12.2019), **Test Booklet Series A** (booklet code SP/19) | https://psc.wb.gov.in/Download?param1=20200722152106_IDO2019_compressed.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202001021749_2729621.pdf&param2=advertisement | **Official**, notice No. 840-PSC/Con(Q), 27 Dec 2019 (key as published; no revised-key notice found) — Series A column machine-parsed from the official PDF and verified 100/100 | 97 of 100 |
 | `wbcs-prelims-2024.json` | WBCS (Exe.) etc. Preliminary Examination, 2024 (Advt. 08/2024, held 14.06.2026), General Studies, **Test Booklet Series A** | https://psc.wb.gov.in/Download?param1=20260728155644_WBCS_P-2024-A_merged_1_compressed.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement | **Final**, notice No. 1104-PSC(CON/Q), 27 Aug 2026 | 198 of 200 |
 | `wbcs-prelims-2023.json` | WBCS (Exe.) etc. Preliminary Examination, 2023 (Advt. 01/2023, held 16.12.2023), **Test Booklet Series A** | **UNOFFICIAL compilation** of the booklet: https://files.wbcs.in/wbcs-2023-question-prelims.pdf (the Commission never published this paper — see the exception note below) | https://psc.wb.gov.in/Download?param1=202405281450_AnsWbcs2023.pdf&param2=advertisement | **Final**, notice No. 254-PSC/CON(Q), 24 May 2024 | 197 of 200 |
@@ -29,6 +43,38 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   page by page from rendered images, and every question was cross-checked against the key
   letter for its booklet series. Each key letter was also checked to be a sensible answer, which
   confirms that the series matches (B for WBCS 2022, A for Clerkship 2023 Session I).
+- **Clerkship 2019 — two questions excluded because the official key is factually wrong**
+  (11 Nov 2026). Forenoon Q39 ("Who was not a famous sculptor?") — the key marks
+  Ramkinkar Baij, who was a celebrated sculptor; the factually correct option is
+  Tarasankar Bandyopadhyay (a novelist). Afternoon Q13 ("India's 'Look East' policy was
+  launched by") — the key marks Narendra Modi; it was launched under P. V. Narasimha Rao.
+  Both were left out rather than teach a wrong fact or break fidelity to the official
+  key; including either (with the factually correct answer, flagged) is the project
+  owner's decision.
+- **Clerkship 2004–2009 — unofficial reproductions, owner-approved exception** (11 Nov 2026).
+  The Commission never published these papers or any answer key for them (its previous-year
+  page starts at 2019), so the standing official-only rule cannot be met for these years.
+  With the project owner's approval they were imported anyway, labelled in the app as
+  "Paper text from an unofficial copy" + "Answer cross-checked · no official key"
+  (provenance ADAPTED_PYQ; the importer's unofficial-host allowance is restricted to
+  wbpscupsc.com and englishsahayak.blogspot.com with no key cited — see
+  `src/services/questionProvenance.js`). Question text comes from the wbpscupsc.com
+  subject-wise reproductions; part of the 2009 Bengali text comes via
+  englishsahayak.blogspot.com. Verification before import: every 2007/2009 item that an
+  independent carrier (pyqarena.com) also lists was matched by question text and its
+  answer compared (103 agreements); all remaining items (204) were independently
+  re-solved (arithmetic) or fact-checked (GS/English), with era current-affairs items
+  checked against contemporary reports — no recorded answer failed. Four disagreements
+  were adjudicated on objective grounds and the reproduction's answer kept: 2007
+  "Drain of Wealth" (Dadabhai Naoroji — the standard attribution; a second carrier's key
+  says R. C. Dutt), 2009 "aware ___ his motive" (of), 2009 synonym of "Wrap" (cover),
+  2009 "portable" (movable; the other carrier's answer belongs to its "potable" twin).
+  One item was dropped because two unofficial keys directly conflict and the fact is
+  genuinely debatable: 2009 Session I, "India's oldest civilisation" (Harappan vs
+  Mehrgarh). Caveats: these are partial collections, not complete papers (the 2007 file
+  does not preserve the sitting split — the exam was held in two sittings — and
+  `pyq.question_no` is collection order, not the printed booklet number); 2009 Session I
+  merges two reproduction batches of the same sitting.
 - **Question numbers** (`pyq.question_no`) follow the series used: WBCS Series B and Clerkship
   Series A. The Clerkship PDF contains all four series (A to D); Series A is pages 1-20.
 - **WBCS 2022 cover.** The booklet cover is printed "2021", but the site lists it as "WBCS(PRELI)-2022".
@@ -377,10 +423,10 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
 | Exam | Paper | Answer key | Status |
 |---|---|---|---|
 | Miscellaneous Services Rectt. Exam (Prelim) 2023, Advt. 11/2023, held 15.09.2024 (bilingual, Series A booklet) | https://psc.wb.gov.in/Download?param1=20250831234054_MISCELLANEOUS_SERVICES_RECRUITMENT_PRELI_EXM_2023_11_2023.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202503171627_Final_Ans_Key_Miscellaneous_Preli_2023.pdf&param2=advertisement (Final, 13.03.2025) | Scanned and legible; not imported this pass (kept to 2 papers for quality) |
-| Clerkship (Part-I) 2023, Sessions II, III, IV | `…20241122165330_ClerkshipS-II.pdf`, `…20241122165426_Clerkship-III.pdf`, `…20241122165548_ClerkshipS-IV.pdf` (all `&param2=PYQP`) | Final: `…202505191630_Session-II.pdf`, `…202505191631_Session-III.pdf`, `…202505191632_Session-IV.pdf` (all `&param2=advertisement`) | Scanned; not imported this pass. Many questions repeat across sessions |
+| Clerkship (Part-I) 2023, Sessions II, III, IV | `…20241122165330_ClerkshipS-II.pdf`, `…20241122165426_Clerkship-III.pdf`, `…20241122165548_ClerkshipS-IV.pdf` (all `&param2=PYQP`) | Final: `…202505191630_Session-II.pdf`, `…202505191631_Session-III.pdf`, `…202505191632_Session-IV.pdf` (all `&param2=advertisement`) | **Imported 11 Nov 2026** (see the Imported table) |
 | — (imported; see the Imported table) WBCS (Exe.) Prelims 2023 | — | — | Imported 4 Nov 2026 under the user's exception, from the wbcs.in compilation, answers verified against the official final key |
 | Miscellaneous Prelims 2024 | No question paper on the PYQ page | Provisional key only: `…202610051802_Provisional_AK_Miscellaneous_Preli_2024.pdf` | Skipped: no paper, and the key is provisional |
-| Clerkship 2019 (FN/AN) and `CLERKSHIP_Q_compressed.pdf` | On the PYQ page | Not identified among the listed keys | Skipped: no matching official key found |
+| Clerkship 2019 (FN/AN) | On the PYQ page | Final key found on What's New: notice No. 72-PSC/Con(Q), 5 Feb 2020 | **Imported 11 Nov 2026** (see the Imported table). The Part-II files (`CLERKSHIP_Q_compressed.pdf`, FCP/SFCP) are descriptive papers and stay out of the MCQ catalogue |
 | WBCS Main 2023 | `…20250409145828_WBCS_Main_2023.pdf` | Keys for compulsory Papers III-VI are listed (`…ANSWERKEYOFCOMPULSORY(PAPER-III…VI)WBCS(MAIN)-2023.pdf`) | Not checked; Mains is outside the prelims-style catalogue for now |
 
 The base URL for the shortened entries is `https://psc.wb.gov.in/Download?param1=`.
