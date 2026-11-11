@@ -1,0 +1,513 @@
+[
+ {
+  "ref": "GK-HIS-001#statement",
+  "q": "(fact statement)",
+  "answer": "Alexander Cunningham reported on a Harappan seal in 1875; Daya Ram Sahni began excavations at Harappa in 1921; excavations began at Mohenjodaro in 1922; R.E.M. Wheeler excavated at Harappa in 1946 and S.R. Rao began excavations at Lothal in 1955.",
+  "wrong": [],
+  "explanation": "Dates are from the NCERT timeline of Harappan archaeology. Harappa (1921, Daya Ram Sahni) and Mohenjodaro (1922) are separate events: NCERT says Rakhal Das Banerji found similar seals at Mohenjodaro, which led to the conjecture that both sites belonged to a single archaeological culture."
+ },
+ {
+  "ref": "GK-HIS-001#q0",
+  "q": "Arrange in chronological order (earliest first):\n\n1. R.E.M. Wheeler excavates at Harappa\n2. Excavations begin at Mohenjodaro\n3. Alexander Cunningham reports on a Harappan seal\n4. S.R. Rao begins excavations at Lothal",
+  "answer": "3, 2, 1, 4",
+  "wrong": [
+   "3, 1, 2, 4",
+   "2, 3, 1, 4",
+   "3, 2, 4, 1"
+  ],
+  "explanation": "Cunningham (1875) < Mohenjodaro (1922) < Wheeler at Harappa (1946) < Lothal (1955), per the NCERT timeline."
+ },
+ {
+  "ref": "GK-HIS-001#q1",
+  "q": "According to the NCERT timeline of Harappan archaeology, excavations at Mohenjodaro began in:",
+  "answer": "1922",
+  "wrong": [
+   "1875",
+   "1946",
+   "1955"
+  ],
+  "explanation": "Excavations began at Mohenjodaro in 1922, a year after Sahni began at Harappa (1921)."
+ },
+ {
+  "ref": "GK-HIS-002#statement",
+  "q": "(fact statement)",
+  "answer": "The Rigveda, the earliest known text in the subcontinent, was compiled c. 1500-1000 BCE; NCERT dates early Vedic traditions to c. 1500-1000 BCE and later Vedic traditions to c. 1000-500 BCE.",
+  "wrong": [],
+  "explanation": "Dates are approximate. The Rigveda belongs to the early Vedic phase, not the later Vedic phase."
+ },
+ {
+  "ref": "GK-HIS-002#q0",
+  "q": "NCERT dates the compilation of the Rigveda to about:",
+  "answer": "c. 1500-1000 BCE",
+  "wrong": [
+   "c. 1000-500 BCE",
+   "c. 600-300 BCE",
+   "c. 200 BCE-200 CE"
+  ],
+  "explanation": "The Rigveda was compiled c. 1500-1000 BCE."
+ },
+ {
+  "ref": "GK-HIS-002#q1",
+  "q": "Consider the following statements:\n\n1. The Rigveda is the earliest known text in the subcontinent.\n2. NCERT places the Rigveda in the Later Vedic phase (c. 1000-500 BCE).\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "Statement 1 is correct. The Rigveda (c. 1500-1000 BCE) belongs to the early Vedic phase, so statement 2 is wrong."
+ },
+ {
+  "ref": "GK-HIS-003#statement",
+  "q": "(fact statement)",
+  "answer": "NCERT places the early Upanishads, Jainism and Buddhism in about the sixth century BCE and the first stupas in about the third century BCE; Sanchi was declared a World Heritage Site in 1989.",
+  "wrong": [],
+  "explanation": "From the timeline of major religious developments in NCERT Theme 4. Mahavira and the Buddha both questioned the authority of the Vedas."
+ },
+ {
+  "ref": "GK-HIS-003#q0",
+  "q": "NCERT's timeline of major religious developments places the emergence of Jainism and Buddhism in about the:",
+  "answer": "sixth century BCE",
+  "wrong": [
+   "third century BCE",
+   "first century BCE",
+   "third century CE"
+  ],
+  "explanation": "Early Upanishads, Jainism and Buddhism are dated c. sixth century BCE; the first stupas c. third century BCE."
+ },
+ {
+  "ref": "GK-HIS-003#q1",
+  "q": "Arrange in chronological order (earliest first):\n\n1. First stupas\n2. Sanchi declared a World Heritage Site\n3. Early Vedic traditions\n4. Emergence of Jainism and Buddhism",
+  "answer": "3, 4, 1, 2",
+  "wrong": [
+   "4, 3, 1, 2",
+   "3, 4, 2, 1",
+   "3, 1, 4, 2"
+  ],
+  "explanation": "Early Vedic (c. 1500-1000 BCE) < Jainism and Buddhism (c. sixth century BCE) < first stupas (c. third century BCE) < Sanchi World Heritage Site (1989)."
+ },
+ {
+  "ref": "GK-HIS-004#statement",
+  "q": "(fact statement)",
+  "answer": "Between the sixth and fourth centuries BCE, Magadha (in present-day Bihar) became the most powerful mahajanapada. Most mahajanapadas were ruled by kings, but some (ganas or sanghas) were oligarchies, and Mahavira and the Buddha belonged to such ganas.",
+  "wrong": [],
+  "explanation": "NCERT lists agricultural productivity and the iron mines of present-day Jharkhand among the explanations for Magadha's rise. The Vajji sangha is its example of a gana."
+ },
+ {
+  "ref": "GK-HIS-004#q0",
+  "q": "According to NCERT, which mahajanapada became the most powerful between the sixth and the fourth centuries BCE?",
+  "answer": "Magadha",
+  "wrong": [
+   "Avanti",
+   "Kosala",
+   "Vajji"
+  ],
+  "explanation": "Magadha, in present-day Bihar, became the most powerful mahajanapada."
+ },
+ {
+  "ref": "GK-HIS-004#q1",
+  "q": "Consider the following statements:\n\n1. Some mahajanapadas, known as ganas or sanghas, were oligarchies in which power was shared by a number of rajas.\n2. Most mahajanapadas were ruled by ganas or sanghas rather than by kings.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "NCERT: most mahajanapadas were ruled by kings; only some were ganas or sanghas."
+ },
+ {
+  "ref": "GK-HIS-005#statement",
+  "q": "(fact statement)",
+  "answer": "James Prinsep, an officer in the mint of the East India Company, deciphered Asokan Brahmi in 1838. The Asiatic Society (Bengal) had been founded in 1784.",
+  "wrong": [],
+  "explanation": "NCERT dates the decipherment of Asokan Brahmi to 1838 (timeline) and to \"the 1830s\" (text). Many sources say 1837; follow 1838 only when quoting NCERT."
+ },
+ {
+  "ref": "GK-HIS-005#q0",
+  "q": "Asokan Brahmi was deciphered in 1838 by:",
+  "answer": "James Prinsep",
+  "wrong": [
+   "Alexander Cunningham",
+   "Colin Mackenzie",
+   "John Marshall"
+  ],
+  "explanation": "NCERT: Decipherment of Asokan Brahmi by James Prinsep (1838)."
+ },
+ {
+  "ref": "GK-HIS-005#q1",
+  "q": "Which of the following pairs relating to epigraphy and early archaeology is correctly matched?",
+  "answer": "Founding of the Asiatic Society (Bengal) - 1784",
+  "wrong": [
+   "Decipherment of Asokan Brahmi by James Prinsep - 1784",
+   "Colin Mackenzie collects over 8,000 inscriptions - 1877",
+   "Founding of the Indian Museum, Calcutta - 1838"
+  ],
+  "explanation": "NCERT timelines: Asiatic Society (Bengal) 1784; Prinsep 1838; Mackenzie 1810s; Indian Museum, Calcutta 1814."
+ },
+ {
+  "ref": "GK-HIS-006#statement",
+  "q": "(fact statement)",
+  "answer": "The Prayaga Prashasti (Allahabad Pillar Inscription) was composed in Sanskrit by Harishena, court poet of Samudragupta, arguably the most powerful of the Gupta rulers. NCERT dates the beginning of Gupta rule to c. 320 CE and Samudragupta to c. 335-375 CE.",
+  "wrong": [],
+  "explanation": "NCERT cautions that such court compositions were treasured as poetry and are not always literally true accounts. Chandragupta Maurya (c. 321 BCE) and Chandragupta II (c. 375-415 CE) are different rulers."
+ },
+ {
+  "ref": "GK-HIS-006#q0",
+  "q": "The Prayaga Prashasti (Allahabad Pillar Inscription) was composed in Sanskrit by:",
+  "answer": "Harishena",
+  "wrong": [
+   "Kalidasa",
+   "Banabhatta",
+   "Xuan Zang"
+  ],
+  "explanation": "Harishena, the court poet of Samudragupta, composed the Prayaga Prashasti."
+ },
+ {
+  "ref": "GK-HIS-006#q1",
+  "q": "Match List I with List II:\n\n| List I | List II |\n|---|---|\n| A. Beginning of Gupta rule | 1. c. 335-375 CE |\n| B. Samudragupta | 2. c. 320 CE |\n| C. Accession of Chandragupta Maurya | 3. c. 321 BCE |\n| D. Harshavardhana, king of Kanauj | 4. c. 606-647 CE |",
+  "answer": "A-2, B-1, C-3, D-4",
+  "wrong": [
+   "A-1, B-2, C-3, D-4",
+   "A-2, B-1, C-4, D-3",
+   "A-3, B-1, C-2, D-4"
+  ],
+  "explanation": "NCERT timeline: Gupta rule c. 320 CE; Samudragupta c. 335-375 CE; Chandragupta Maurya c. 321 BCE; Harshavardhana c. 606-647 CE."
+ },
+ {
+  "ref": "GK-HIS-007#statement",
+  "q": "(fact statement)",
+  "answer": "NCERT dates the establishment of the Delhi Sultanate to 1206. Babur's defeat of Ibrahim Lodi at Panipat in 1526 put a final end to the Delhi Sultanate.",
+  "wrong": [],
+  "explanation": "The 1206 date is the one NCERT gives in its timelines; the end came with the First Battle of Panipat (1526)."
+ },
+ {
+  "ref": "GK-HIS-007#q0",
+  "q": "According to NCERT, the Delhi Sultanate was established in:",
+  "answer": "1206",
+  "wrong": [
+   "1290",
+   "1320",
+   "1526"
+  ],
+  "explanation": "NCERT timeline: Establishment of the Delhi Sultanate (1206)."
+ },
+ {
+  "ref": "GK-HIS-007#q1",
+  "q": "**Assertion (A):** The First Battle of Panipat (1526) marked the end of the Delhi Sultanate.\n\n**Reason (R):** Babur defeated Ibrahim Lodi in that battle, a defeat that put a final end to the Delhi Sultanate.",
+  "answer": "Both A and R are true, and R is the correct explanation of A",
+  "wrong": [
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "explanation": "Both statements are true; R explains A."
+ },
+ {
+  "ref": "GK-HIS-008#statement",
+  "q": "(fact statement)",
+  "answer": "Babur, a descendant of Timur, defeated Ibrahim Lodi at the First Battle of Panipat in 1526, which established the Mughal Empire. The last Mughal ruler, Bahadur Shah II, was deposed by the British and exiled to Rangoon in 1857.",
+  "wrong": [],
+  "explanation": "Part of the 1739/1761/1765/1857 timeline in NCERT Theme 8 is printed in two aligned columns, so the dates are matched to events by order."
+ },
+ {
+  "ref": "GK-HIS-008#q0",
+  "q": "Arrange in chronological order (earliest first):\n\n1. Nadir Shah invades India and sacks Delhi\n2. Babur wins the First Battle of Panipat\n3. Bahadur Shah II is deposed and exiled to Rangoon\n4. Battle of Talikota",
+  "answer": "2, 4, 1, 3",
+  "wrong": [
+   "2, 1, 4, 3",
+   "4, 2, 1, 3",
+   "2, 4, 3, 1"
+  ],
+  "explanation": "Panipat (1526) < Talikota (1565) < Nadir Shah's invasion (1739) < Bahadur Shah II deposed (1857)."
+ },
+ {
+  "ref": "GK-HIS-009#statement",
+  "q": "(fact statement)",
+  "answer": "According to tradition and epigraphic evidence, the brothers Harihara and Bukka founded the Vijayanagara Empire in 1336 (NCERT's timeline marks this date with a question mark). Krishnadevaraya died in 1529, and in 1565 the Deccan Sultanates defeated the Vijayanagara forces led by Ramaraya at Talikota.",
+  "wrong": [],
+  "explanation": "The 1336 date is uncertain in NCERT. After Talikota the city was sacked and the empire fragmented."
+ },
+ {
+  "ref": "GK-HIS-009#q0",
+  "q": "Consider the following statements:\n\n1. The Battle of Talikota (1565) saw the Vijayanagara forces led by Ramaraya defeated by a coalition of the Deccan Sultanates.\n2. Krishnadevaraya died in 1565, the year of the Battle of Talikota.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "Krishnadevaraya died of illness in 1529; the Battle of Talikota was fought in 1565 under his son-in-law Ramaraya."
+ },
+ {
+  "ref": "GK-HIS-009#q1",
+  "q": "At the Battle of Talikota (1565), the Vijayanagara forces were led by:",
+  "answer": "Ramaraya",
+  "wrong": [
+   "Krishnadevaraya",
+   "Harihara",
+   "Bukka"
+  ],
+  "explanation": "Ramaraya, Krishnadevaraya's son-in-law, led the Vijayanagara forces."
+ },
+ {
+  "ref": "GK-HIS-010#statement",
+  "q": "(fact statement)",
+  "answer": "Of the sufi groups that migrated to India in the late twelfth century, the Chishtis were the most influential. Kabir lived in about the fourteenth-fifteenth centuries; Baba Guru Nanak (1469-1539) was born in a village called Nankana Sahib near the river Ravi in Punjab.",
+  "wrong": [],
+  "explanation": "NCERT notes that sufi silsilas began to crystallise in different parts of the Islamic world around the twelfth century."
+ },
+ {
+  "ref": "GK-HIS-010#q0",
+  "q": "Of the sufi groups that migrated to India in the late twelfth century, which was the most influential, according to NCERT?",
+  "answer": "Chishti",
+  "wrong": [
+   "Qadiri",
+   "Malang",
+   "Haidari"
+  ],
+  "explanation": "NCERT: of the sufi groups that migrated to India in the late twelfth century, the Chishtis were the most influential because they adapted successfully to the local environment."
+ },
+ {
+  "ref": "GK-HIS-010#q1",
+  "q": "Consider the following statements:\n\n1. Baba Guru Nanak (1469-1539) was born in a Hindu merchant family in a village called Nankana Sahib near the river Ravi.\n2. Kabir lived in the eighteenth century.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "NCERT dates Kabir to c. fourteenth-fifteenth centuries, so statement 2 is wrong."
+ },
+ {
+  "ref": "GK-HIS-011#statement",
+  "q": "(fact statement)",
+  "answer": "In the Battle of Plassey (1757), fought at Palashi about 150 km north of present-day Kolkata, East India Company officials led by Robert Clive defeated Siraj-ud-daulah, the Nawab of Bengal, after conspiring with his commander Mir Jafar. The Permanent Settlement came into operation in 1793.",
+  "wrong": [],
+  "explanation": "NCERT stresses that Mir Jafar's forces, the majority of the Nawab's army, stood aside. The diwani of Bengal passed to the Company in 1765, between the two events."
+ },
+ {
+  "ref": "GK-HIS-011#q0",
+  "q": "Consider the following statements:\n\n1. Before the Battle of Plassey, Robert Clive conspired with Mir Jafar, the Nawab's military commander, promising to install him as the new Nawab.\n2. The Battle of Plassey was fought between the East India Company and the Nawab of Awadh.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "The Nawab of Bengal, Siraj-ud-daulah, was the Company's opponent at Plassey."
+ },
+ {
+  "ref": "GK-HIS-011#q1",
+  "q": "Arrange in chronological order (earliest first):\n\n1. Permanent Settlement comes into operation\n2. Diwani of Bengal transferred to the East India Company\n3. Battle of Plassey\n4. Mutiny starts at Meerut",
+  "answer": "3, 2, 1, 4",
+  "wrong": [
+   "3, 1, 2, 4",
+   "2, 3, 1, 4",
+   "3, 2, 4, 1"
+  ],
+  "explanation": "Plassey (1757) < diwani of Bengal (1765) < Permanent Settlement (1793) < Meerut (1857)."
+ },
+ {
+  "ref": "GK-HIS-012#statement",
+  "q": "(fact statement)",
+  "answer": "On the afternoon of 10 May 1857 the sepoys of the Meerut cantonment mutinied; they reached the Red Fort in Delhi early on 11 May and appealed to the old Mughal emperor, Bahadur Shah. A prophecy had foretold the end of British rule on the centenary of Plassey, 23 June 1857.",
+  "wrong": [],
+  "explanation": "Meerut (10 May) and Delhi (11 May) are different days. After the revolt Bahadur Shah II was deposed and exiled to Rangoon."
+ },
+ {
+  "ref": "GK-HIS-012#q0",
+  "q": "The prophecy circulating before the Revolt of 1857 said that British rule would end on the centenary of the Battle of Plassey, which NCERT gives as:",
+  "answer": "23 June 1857",
+  "wrong": [
+   "10 May 1857",
+   "11 May 1857",
+   "25 September 1857"
+  ],
+  "explanation": "NCERT: the prophecy was that British rule would end on the centenary of Plassey, on 23 June 1857."
+ },
+ {
+  "ref": "GK-HIS-012#q1",
+  "q": "Consider the following statements:\n\n1. The sepoys who mutinied at Meerut arrived at the gates of the Red Fort, Delhi, early in the morning on 11 May 1857.\n2. The Revolt of 1857 began at Delhi on 10 May 1857.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "The mutiny began at Meerut on 10 May; Delhi followed on 11 May."
+ },
+ {
+  "ref": "GK-HIS-013#statement",
+  "q": "(fact statement)",
+  "answer": "NCERT lists the Brahmo Samaj as founded by Raja Ram Mohan Roy in Calcutta in 1828 and the Arya Samaj as founded by Swami Dayananda Saraswati in Bombay in 1875.",
+  "wrong": [],
+  "explanation": "The table also records that the Brahmo Samaj was earlier the Brahmo Sabha and that the Arya Samaj emphasised a return to the Vedas."
+ },
+ {
+  "ref": "GK-HIS-013#q0",
+  "q": "Match List I with List II:\n\n| List I | List II |\n|---|---|\n| A. Place where the Brahmo Samaj was founded (1828) | 1. Raja Ram Mohan Roy |\n| B. Place where the Arya Samaj was founded (1875) | 2. Bombay |\n| C. Founder of the Brahmo Samaj | 3. Swami Dayananda Saraswati |\n| D. Founder of the Arya Samaj | 4. Calcutta |",
+  "answer": "A-4, B-2, C-1, D-3",
+  "wrong": [
+   "A-2, B-4, C-1, D-3",
+   "A-4, B-2, C-3, D-1",
+   "A-2, B-4, C-3, D-1"
+  ],
+  "explanation": "Brahmo Samaj: Raja Ram Mohan Roy, Calcutta, 1828. Arya Samaj: Swami Dayananda Saraswati, Bombay, 1875."
+ },
+ {
+  "ref": "GK-HIS-013#q1",
+  "q": "The Arya Samaj, which emphasised a return to the Vedas, was founded in 1875 by:",
+  "answer": "Swami Dayananda Saraswati",
+  "wrong": [
+   "Raja Ram Mohan Roy",
+   "Jyotirao Phule",
+   "Syed Ahmad Khan"
+  ],
+  "explanation": "NCERT table: Arya Samaj, Swami Dayananda Saraswati, 1875, Bombay."
+ },
+ {
+  "ref": "GK-HIS-014#statement",
+  "q": "(fact statement)",
+  "answer": "The first session of the Indian National Congress was held in Bombay in 1885 with 72 delegates; Womesh Chunder Bonnerjee was elected its first president, and A.O. Hume and Dadabhai Naoroji played leading roles. The Congress split at Surat in 1907 and the factions were reunited at Lucknow in 1916.",
+  "wrong": [],
+  "explanation": "Hume and Naoroji were leading figures but Bonnerjee was elected president. NCERT calls the 1907 factions Moderates and Nationalists."
+ },
+ {
+  "ref": "GK-HIS-014#q0",
+  "q": "Who was elected the first president of the Indian National Congress at its first session in Bombay (1885)?",
+  "answer": "Womesh Chunder Bonnerjee",
+  "wrong": [
+   "Allan Octavian Hume",
+   "Dadabhai Naoroji",
+   "Bal Gangadhar Tilak"
+  ],
+  "explanation": "Hume and Naoroji played leading roles, but Womesh Chunder Bonnerjee was elected the first president."
+ },
+ {
+  "ref": "GK-HIS-014#q1",
+  "q": "Arrange in chronological order (earliest first):\n\n1. Congress session at Lucknow reunites the two factions\n2. Congress splits at Surat\n3. First session of the Indian National Congress in Bombay\n4. Jallianwala Bagh massacre",
+  "answer": "3, 2, 1, 4",
+  "wrong": [
+   "2, 3, 1, 4",
+   "3, 1, 2, 4",
+   "3, 2, 4, 1"
+  ],
+  "explanation": "First session (1885) < Surat split (1907) < Lucknow (1916) < Jallianwala Bagh (13 April 1919)."
+ },
+ {
+  "ref": "GK-HIS-015#statement",
+  "q": "(fact statement)",
+  "answer": "Jallianwala Bagh massacre: 13 April 1919. Gandhi called off the Non-Cooperation Movement after Chauri Chaura in February 1922. The Civil Disobedience Movement began with the Salt March (a 380-km march to Dandi, Gujarat) in March-April 1930. The Quit India Movement was launched in August 1942 with the call \"Do or Die\".",
+  "wrong": [],
+  "explanation": "Civil Disobedience was launched to implement the demand for Purna Swaraj (Lahore session, 1929). The exact day of the Dandi march is not given in this NCERT text, only \"March-April 1930\"."
+ },
+ {
+  "ref": "GK-HIS-015#q0",
+  "q": "Arrange in chronological order (earliest first):\n\n1. Quit India Movement is launched\n2. Salt March to Dandi\n3. Jallianwala Bagh massacre\n4. Chauri Chaura incident",
+  "answer": "3, 4, 2, 1",
+  "wrong": [
+   "4, 3, 2, 1",
+   "3, 4, 1, 2",
+   "3, 2, 4, 1"
+  ],
+  "explanation": "Jallianwala Bagh (1919) < Chauri Chaura (1922) < Salt March (1930) < Quit India (1942)."
+ },
+ {
+  "ref": "GK-HIS-015#q1",
+  "q": "**Assertion (A):** Mahatma Gandhi began the Civil Disobedience Movement in 1930 with the Salt March to Dandi.\n\n**Reason (R):** The movement was launched to implement the demand for Purna Swaraj (complete independence).",
+  "answer": "Both A and R are true, and R is the correct explanation of A",
+  "wrong": [
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "explanation": "NCERT: \"To implement the demand for Purna Swaraj, Mahatma Gandhi launched the Civil Disobedience Movement.\""
+ },
+ {
+  "ref": "GK-HIS-016#statement",
+  "q": "(fact statement)",
+  "answer": "The Rowlatt Act (1919) enabled the police to detain anyone without trial. Viceroy Irwin made an agreement with Gandhi in 1931. In 1935 the British conceded some provincial autonomy (Government of India Act), but retained control of foreign affairs, defence and internal security.",
+  "wrong": [],
+  "explanation": "Under the 1935 reform elected governments ran the provinces, yet the British-appointed governors could take over provincial administration indefinitely."
+ },
+ {
+  "ref": "GK-HIS-016#q0",
+  "q": "Consider the following statements:\n\n1. The Rowlatt Act (1919) enabled the police to detain anyone without trial.\n2. Under the 1935 reform the British handed over foreign affairs, defence and internal security to the provincial governments.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "NCERT: the colonial powers retained much control, including foreign affairs, defence and internal security."
+ },
+ {
+  "ref": "GK-HIS-016#q1",
+  "q": "Which of the following pairs relating to British rule and the national movement is correctly matched?",
+  "answer": "Gandhi-Irwin Pact - 1931",
+  "wrong": [
+   "Rowlatt Act - 1935",
+   "Cripps Mission - 1919",
+   "Government of India Act (provincial autonomy) - 1931"
+  ],
+  "explanation": "Rowlatt Act 1919; Gandhi-Irwin Pact 1931; Government of India Act 1935; Cripps Mission 1942."
+ },
+ {
+  "ref": "GK-HIS-017#statement",
+  "q": "(fact statement)",
+  "answer": "Viceroy Curzon announced the partition of the Bengal presidency in 1905; the official motive was efficient administration, but NCERT describes it as an application of the colonial \"divide and rule\" policy. The partition was annulled in 1911, when the capital was shifted from Calcutta to Delhi.",
+  "wrong": [],
+  "explanation": "The Bengal presidency then extended to regions now in Bihar, Jharkhand, Odisha and Assam. The partition split largely Muslim eastern Bengal from largely Hindu western Bengal and set off the Swadeshi and boycott movements."
+ },
+ {
+  "ref": "GK-HIS-017#q0",
+  "q": "Consider the following statements:\n\n1. The Bengal presidency that Curzon planned to partition extended in those days to regions now in Bihar, Jharkhand, Odisha and Assam.\n2. The Partition of Bengal was annulled in 1911 and the capital was shifted from Delhi to Calcutta.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "The capital was shifted from Calcutta to Delhi in 1911, not the reverse."
+ },
+ {
+  "ref": "GK-HIS-017#q1",
+  "q": "NCERT describes the real purpose of the Partition of Bengal (1905) as a faithful application of which colonial policy?",
+  "answer": "\"Divide and rule\"",
+  "wrong": [
+   "Doctrine of Lapse",
+   "Subsidiary Alliance",
+   "Permanent Settlement"
+  ],
+  "explanation": "The division was between Bengal's largely Muslim eastern part and largely Hindu western part."
+ },
+ {
+  "ref": "GK-HIS-018#statement",
+  "q": "(fact statement)",
+  "answer": "In Bengal the Anushilan Samiti was set up in 1902. In April 1908 Khudiram Bose and Prafulla Chaki tried to assassinate the British judge Douglas Kingsford; Khudiram was captured, tried and hanged a few months later.",
+  "wrong": [],
+  "explanation": "NCERT links the attempt to Swadeshi activists whom Kingsford had sentenced severely. Aurobindo Ghose, Barindra Kumar Ghose and others were then arrested in the Alipore bomb case."
+ },
+ {
+  "ref": "GK-HIS-018#q0",
+  "q": "In Bengal, the Anushilan Samiti was set up in:",
+  "answer": "1902",
+  "wrong": [
+   "1885",
+   "1905",
+   "1911"
+  ],
+  "explanation": "NCERT: \"In Bengal, the Anushilan Samiti was set up in 1902\"."
+ },
+ {
+  "ref": "GK-HIS-018#q1",
+  "q": "Consider the following statements:\n\n1. In April 1908 Khudiram Bose and Prafulla Chaki tried to assassinate the British judge Douglas Kingsford.\n2. Khudiram Bose was acquitted and released after the trial.\n\nWhich of the statements given above is/are correct?",
+  "answer": "1 only",
+  "wrong": [
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "explanation": "Khudiram, aged 18, was captured, put on trial and hanged a few months later."
+ }
+]

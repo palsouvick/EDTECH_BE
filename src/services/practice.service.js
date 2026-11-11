@@ -86,8 +86,12 @@ function presentStats(stats) {
   };
 }
 
-async function verifyAnswer({ questionId, selectedOptionId, timeSpentSec, category }, userId) {
-  const q = await Question.findOne({ _id: questionId, status: 'PUBLISHED' })
+/**
+ * Checks one answer. `preview` (admin preview of unpublished study-book chapters only) also accepts DRAFT
+ * questions and records nothing: no stats, attempts or mistakes.
+ */
+async function verifyAnswer({ questionId, selectedOptionId, timeSpentSec, category }, userId, { preview = false } = {}) {
+  const q = await Question.findOne({ _id: questionId, status: preview ? { $in: ['PUBLISHED', 'DRAFT'] } : 'PUBLISHED' })
     .select('+correct_option_id +solution options.oid stats subject topic')
     .lean();
   if (!q) throw AppError.notFound('QUESTION_NOT_FOUND', 'Question not found');
@@ -97,8 +101,8 @@ async function verifyAnswer({ questionId, selectedOptionId, timeSpentSec, catego
   }
 
   const isCorrect = selectedOptionId === q.correct_option_id;
-  statsBuffer.record(q._id, { correct: isCorrect, timeSpentSec });
-  if (userId) {
+  if (!preview) statsBuffer.record(q._id, { correct: isCorrect, timeSpentSec });
+  if (userId && !preview) {
     // Signed-in students: keep the attempt for "My performance". Never blocks the answer.
     PracticeAttempt.create({ user_id: userId, question_id: q._id, subject: q.subject, topic: q.topic, category, correct: isCorrect, time_spent_sec: timeSpentSec })
       .catch((err) => console.error('[practice] attempt not recorded:', err.message));

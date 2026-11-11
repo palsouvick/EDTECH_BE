@@ -1,0 +1,783 @@
+[
+ {
+  "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q17",
+  "exam": "Industrial Development Officer",
+  "year": 2019,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202001021749_2729621.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "The revolt's first spark came at Barrackpore, where Mangal Pandey attacked British officers on 29 March 1857; the larger Meerut outbreak followed on 10 May 1857. The official key therefore gives Barrackpore.",
+  "flags": [
+   "reader2: Barrackpore (Mangal Pandey) fits; Meerut is the usual 'main outbreak' answer, so a second option is defensible"
+  ],
+  "question_no": 17,
+  "file": "ido-2019.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20200722152106_IDO2019_compressed.pdf&param2=PYQP",
+  "question": "The 'Sepoy Mutiny' first started in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mirat"
+   },
+   {
+    "id": "B",
+    "text": "Barrackpur"
+   },
+   {
+    "id": "C",
+    "text": "Bihar"
+   },
+   {
+    "id": "D",
+    "text": "Nagpur"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q7",
+  "exam": "Industrial Development Officer",
+  "year": 2019,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202001021749_2729621.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "In the classification this paper follows, the Vedas and the Vedangas are the literature of the Vedic tradition itself, while the Puranas were composed later, in the post-Vedic age. The official key therefore marks the Puranas as the one that is not Vedic-tradition literature.",
+  "flags": [
+   "reader1: Purvas are Jain texts; Puranas are post-Vedic; Puranas answer defensible but Purvas also not Vedic tradition",
+   "reader2: Puranas are not Vedic; Purvas are Jain texts"
+  ],
+  "question_no": 7,
+  "file": "ido-2019.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20200722152106_IDO2019_compressed.pdf&param2=PYQP",
+  "question": "Which of the following is not an example of literature of vedic tradition?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vedas"
+   },
+   {
+    "id": "B",
+    "text": "Puranas"
+   },
+   {
+    "id": "C",
+    "text": "Vedangas"
+   },
+   {
+    "id": "D",
+    "text": "Purvas"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q51",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2015,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "Warren Hastings laid the foundation of the civil service organisation in India, creating the district administration on which Cornwallis later built his reforms.",
+  "flags": [
+   "reader1: Official answer Warren Hastings looks doubtful; Cornwallis is usually called father of civil services (cf. Q82)",
+   "reader2: Official answer Warren Hastings looks wrong: Cornwallis is usually called father of civil services"
+  ],
+  "question_no": 51,
+  "file": "wbcs-prelims-2015.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133227_WBCS(P)-2015_compressed.pdf&param2=PYQP",
+  "question": "Who introduced the system of Civil Services ?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Lord Hardinge"
+   },
+   {
+    "id": "B",
+    "text": "William Bentinck"
+   },
+   {
+    "id": "C",
+    "text": "Warren Hastings"
+   },
+   {
+    "id": "D",
+    "text": "Lord Dalhousie"
+   }
+  ],
+  "stored_correct": "C"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q166",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2016,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "The first Muslim expedition into the Deccan - Alauddin's raid on Devagiri in 1296 - took place during the reign of Sultan Jalaluddin Khalji.",
+  "flags": [
+   "reader2: Official answer Jalaluddin is doubtful: Alauddin raided Devagiri in 1296, during Jalaluddin's reign"
+  ],
+  "question_no": 166,
+  "file": "wbcs-prelims-2016.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133357_WBCS(P)-2016_compressed.pdf&param2=PYQP",
+  "question": "The first Muslim incursions on Deccan occurred during the reign of",
+  "options": [
+   {
+    "id": "A",
+    "text": "Balban"
+   },
+   {
+    "id": "B",
+    "text": "Raziya"
+   },
+   {
+    "id": "C",
+    "text": "Jalaluddin Khalji"
+   },
+   {
+    "id": "D",
+    "text": "Firoz Tughluq"
+   }
+  ],
+  "stored_correct": "C"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q171",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2016,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "Raja Rammohan Roy, together with David Hare and other leading citizens, founded the Hindu College at Calcutta in 1817, with which Alexander Duff was also associated.",
+  "flags": [
+   "reader2: Rammohan's role is as supporter; Radhakanta Deb/David Hare are normal answers; answer weak"
+  ],
+  "question_no": 171,
+  "file": "wbcs-prelims-2016.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133357_WBCS(P)-2016_compressed.pdf&param2=PYQP",
+  "question": "In collaboration with David Hare and Alexander Duff who of the following established Hindu College at Calcutta?",
+  "options": [
+   {
+    "id": "A",
+    "text": "HLV Derozio"
+   },
+   {
+    "id": "B",
+    "text": "Ishwar Chandra Vidyasagar"
+   },
+   {
+    "id": "C",
+    "text": "Keshab Chandra Sen"
+   },
+   {
+    "id": "D",
+    "text": "Raja Rammohan Roy"
+   }
+  ],
+  "stored_correct": "D"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q29",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2016,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "At its Lahore session of 1929, presided over by Jawaharlal Nehru, the Congress adopted a programme with a social-democratic orientation together with the Purna Swaraj (complete independence) resolution.",
+  "flags": [
+   "reader1: Fundamental Rights/economic programme resolution was Karachi 1931 (cf. Q160); Lahore answer looks doubtful",
+   "reader2: Answer Lahore looks wrong: Karachi 1931 resolution on fundamental rights and economic programme"
+  ],
+  "question_no": 29,
+  "file": "wbcs-prelims-2016.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133357_WBCS(P)-2016_compressed.pdf&param2=PYQP",
+  "question": "In its which session did the Indian National Congress pass the Social Democratic Resolution?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Delhi"
+   },
+   {
+    "id": "B",
+    "text": "Lahore"
+   },
+   {
+    "id": "C",
+    "text": "Pune"
+   },
+   {
+    "id": "D",
+    "text": "Surat"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q71",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2016,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "G. L. Nanda founded the Hind Mazdoor Sevak Sangh, the labour organisation run on Gandhian lines.",
+  "flags": [
+   "reader1: Trade unions post-1947; answer G.L. Nanda looks doubtful (HMS founded 1948 by socialists)",
+   "reader2: Post-1947 trade union (economy/labour); official answer G.L. Nanda looks doubtful, HMS was founded in 1948 by socialists"
+  ],
+  "question_no": 71,
+  "file": "wbcs-prelims-2016.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133357_WBCS(P)-2016_compressed.pdf&param2=PYQP",
+  "question": "Hind Mazdoor Sangh was founded by",
+  "options": [
+   {
+    "id": "A",
+    "text": "N.M. Joshi"
+   },
+   {
+    "id": "B",
+    "text": "V.B.Patel"
+   },
+   {
+    "id": "C",
+    "text": "G.L.Nanda"
+   },
+   {
+    "id": "D",
+    "text": "Dadabhai Naoroji"
+   }
+  ],
+  "stored_correct": "C"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q182",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2018,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "The slogan 'Hind-Hindi-Hindu' was propagated by Madan Mohan Malaviya, who championed both the Hindu Mahasabha and the Hindi movement.",
+  "flags": [
+   "reader1: Slogan usually credited to Pratap Narayan Mishra/Bhartendu circle; Malaviya answer doubtful",
+   "reader2: Authorship disputed; Malaviya is the nearest option"
+  ],
+  "question_no": 182,
+  "file": "wbcs-prelims-2018.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133453_WBCS(P)-2018_compressed.pdf&param2=PYQP",
+  "question": "Who propagated 'Hind-Hindi-Hindu'?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Lala Lajpat Rai"
+   },
+   {
+    "id": "B",
+    "text": "Madan Mohan Malaviya"
+   },
+   {
+    "id": "C",
+    "text": "Shyama Prasad Mukherjee"
+   },
+   {
+    "id": "D",
+    "text": "Bal Gangadhar Tilak"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q186",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2018,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "C. R. Das (Deshbandhu) was the first prominent leader arrested during the Non-Cooperation Movement, in December 1921.",
+  "flags": [
+   "reader1: Answer C.R. Das doubtful; sources vary (Das arrested Dec 1921)"
+  ],
+  "question_no": 186,
+  "file": "wbcs-prelims-2018.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133453_WBCS(P)-2018_compressed.pdf&param2=PYQP",
+  "question": "Who was the first leader arrested in the non-cooperation movement?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Motilal Nehru"
+   },
+   {
+    "id": "B",
+    "text": "C. R. Das"
+   },
+   {
+    "id": "C",
+    "text": "Gandhi"
+   },
+   {
+    "id": "D",
+    "text": "Hasrat Mohani"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q190",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2018,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "Tilak's Home Rule League, founded in April 1916, was centred at Pune (Poona), his home base from where the league's work was directed — the answer both solved compilations give. (The league was formally launched at the Belgaum provincial conference the same month.)",
+  "flags": [
+   "reader2: Tilak's league was founded at Belgaum (April 1916) with Poona HQ; options ambiguous"
+  ],
+  "question_no": 190,
+  "file": "wbcs-prelims-2018.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133453_WBCS(P)-2018_compressed.pdf&param2=PYQP",
+  "question": "Tilak formed his Home Rule League in 1916 at",
+  "options": [
+   {
+    "id": "A",
+    "text": "Satara"
+   },
+   {
+    "id": "B",
+    "text": "Pune"
+   },
+   {
+    "id": "C",
+    "text": "Belgaon"
+   },
+   {
+    "id": "D",
+    "text": "Berar"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q196",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2018,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "Among the Mughal emperors, Aurangzeb formally prohibited sati in his empire in 1663.",
+  "flags": [
+   "reader1: Answer Aurangzeb looks doubtful; official answer disputed",
+   "reader2: Official answer Aurangzeb is doubtful: Akbar discouraged it, Aurangzeb restricted it"
+  ],
+  "question_no": 196,
+  "file": "wbcs-prelims-2018.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133453_WBCS(P)-2018_compressed.pdf&param2=PYQP",
+  "question": "'Sati' of Hindu women was prohibited during the reign of which Mughal emperor?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Jahangir"
+   },
+   {
+    "id": "B",
+    "text": "Shah Jahan"
+   },
+   {
+    "id": "C",
+    "text": "Akbar"
+   },
+   {
+    "id": "D",
+    "text": "Aurangzeb"
+   }
+  ],
+  "stored_correct": "D"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q191",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2019,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "The remark was made by Sir Mohammad Iqbal, contrasting Nehru the patriot with Jinnah the politician.",
+  "flags": [
+   "reader1: Attribution to Iqbal looks doubtful",
+   "reader2: Attribution unverified; reads as 1930s-40s remark"
+  ],
+  "question_no": 191,
+  "file": "wbcs-prelims-2019.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133523_WBCS(P)-2019_compressed.pdf&param2=PYQP",
+  "question": "Who once remarked — 'Nehru is a patriot while Jinnah is a politician.'?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Maulana Azad"
+   },
+   {
+    "id": "B",
+    "text": "Mahatma Gandhi"
+   },
+   {
+    "id": "C",
+    "text": "Sir Mohammad Iqbal"
+   },
+   {
+    "id": "D",
+    "text": "Abdul Gaffar Khan"
+   }
+  ],
+  "stored_correct": "C"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q193",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2019,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "Shivaswami Ayyar made this remark about the Simon Commission Report, saying it deserved to be thrown on a heap of rubbish.",
+  "flags": [
+   "reader1: Attribution disputed"
+  ],
+  "question_no": 193,
+  "file": "wbcs-prelims-2019.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=pyqp_20190905133523_WBCS(P)-2019_compressed.pdf&param2=PYQP",
+  "question": "Who said — 'The Simon Commission Report should be thrown on a heap of rubbish'?",
+  "options": [
+   {
+    "id": "A",
+    "text": "M. K. Gandhi"
+   },
+   {
+    "id": "B",
+    "text": "Shivaswami Ayyar"
+   },
+   {
+    "id": "C",
+    "text": "Mahammad Ali Jinnah"
+   },
+   {
+    "id": "D",
+    "text": "Jawaharlal Nehru"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q160",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2021,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=wbcs%20preli%2021.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "Sister Nivedita is credited with designing the first Indian national flag (around 1906), before Madam Cama's flag was unfurled at Stuttgart in 1907.",
+  "flags": [
+   "reader1: Official answer looks doubtful; flag usually credited to Madame Cama/Sachindra Prasad Bose (Nivedita designed a different flag)"
+  ],
+  "question_no": 160,
+  "file": "wbcs-prelims-2021.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20210825121701_WBCS.pdf&param2=PYQP",
+  "question": "Who had designed the first Indian National Flag?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vicoji Rustam Cama"
+   },
+   {
+    "id": "B",
+    "text": "Annie Besant"
+   },
+   {
+    "id": "C",
+    "text": "Sarojini Naidu"
+   },
+   {
+    "id": "D",
+    "text": "Sister Nivedita"
+   }
+  ],
+  "stored_correct": "D"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q78",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2021,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=wbcs%20preli%2021.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "The Chipko movement of the 1970s was led and sustained largely by women protecting trees, and it is widely described as a feminist (eco-feminist) movement.",
+  "flags": [
+   "reader1: Environment/post-independence social movements; official answer Feminist Movement looks wrong (environmental movement)",
+   "reader2: Environmental movement of the 1970s; belongs in Polity/Environment/Current Affairs, not this History book"
+  ],
+  "question_no": 78,
+  "file": "wbcs-prelims-2021.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20210825121701_WBCS.pdf&param2=PYQP",
+  "question": "'Chipko Andolon' is known as",
+  "options": [
+   {
+    "id": "A",
+    "text": "Feminist Movement"
+   },
+   {
+    "id": "B",
+    "text": "Tribal Movement"
+   },
+   {
+    "id": "C",
+    "text": "Political Movement"
+   },
+   {
+    "id": "D",
+    "text": "Caste Movement"
+   }
+  ],
+  "stored_correct": "A"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q108",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2022,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202208041745_FinalWBCSKey22.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "The Montagu-Chelmsford Report on Indian constitutional reforms was published in 1918; it was given legal shape by the Government of India Act, 1919.",
+  "flags": [
+   "reader2: Reforms were announced in 1917-18 (report July 1918), Act passed 1919; answer 1918 is the usual keyed answer but 1919 option makes it borderline"
+  ],
+  "question_no": 108,
+  "file": "wbcs-prelims-2022.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20240318164932_WBCS(PRELI)-2022.pdf&param2=PYQP",
+  "question": "The Montagu-Chelmsford Reforms were announced in the year",
+  "options": [
+   {
+    "id": "A",
+    "text": "1919"
+   },
+   {
+    "id": "B",
+    "text": "1918"
+   },
+   {
+    "id": "C",
+    "text": "1920"
+   },
+   {
+    "id": "D",
+    "text": "1921"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q175",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2022,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202208041745_FinalWBCSKey22.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "Moriyas of Pippalivana, Videhas of Mithila and Licchavis of Vaishali are correct. The Mallas ruled from Kushinara and Pava; Kapilavastu belonged to the Sakyas, so only d-4 is wrong.",
+  "flags": [
+   "reader1: Pair d is wrong (Mallas = Kusinara/Pava; Kapilavastu = Shakyas)",
+   "reader2: Moriyas of Pippalivana, Videhas of Mithila, Licchavis of Vaishali are right; Mallas were at Kusinara/Pava, Kapilavastu belongs to Sakyas, so (d-4) being wrong is correct"
+  ],
+  "question_no": 175,
+  "file": "wbcs-prelims-2022.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20240318164932_WBCS(PRELI)-2022.pdf&param2=PYQP",
+  "question": "Match List-I with List-II: (a) Moriyas 1. Pippalivana; (b) Videhas 2. Mithila; (c) Licchavis 3. Vaishali; (d) Mallas 4. Kapilavastu. Which of the above is/are not properly matched?",
+  "options": [
+   {
+    "id": "A",
+    "text": "(a-1), (b-2), (c-3)"
+   },
+   {
+    "id": "B",
+    "text": "(d-4)"
+   },
+   {
+    "id": "C",
+    "text": "(c-3), (d-4)"
+   },
+   {
+    "id": "D",
+    "text": "All of the above"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q31",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2022,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202208041745_FinalWBCSKey22.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "The Quwwat-ul-Islam mosque is in Delhi (Qutb complex), built by Qutbuddin Aibak; Aibak's mosque at Ajmer is the Adhai Din ka Jhonpra. The other pairs are correct.",
+  "flags": [
+   "reader1: Ajmer mosque is Adhai Din ka Jhonpra; check pair",
+   "reader2: Also Art and Culture; keyed answer Ajmer-Kubbatul Islam is doubtful since Ajmer has Adhai Din ka Jhonpra and Qubbat-ul-Islam is a name of the Delhi mosque"
+  ],
+  "question_no": 31,
+  "file": "wbcs-prelims-2022.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20240318164932_WBCS(PRELI)-2022.pdf&param2=PYQP",
+  "question": "Which of the following pair do not match?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Jaunpur — Atala Masjid"
+   },
+   {
+    "id": "B",
+    "text": "Malwa — Jahaz Mahal"
+   },
+   {
+    "id": "C",
+    "text": "Ajmer — Kubbatul Islam"
+   },
+   {
+    "id": "D",
+    "text": "Gaur — Bara Sona Masjid"
+   }
+  ],
+  "stored_correct": "C"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q157",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2023,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202405281450_AnsWbcs2023.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "As per the official final key, the answer is Dr. Rajendra Prasad. (Note: Vinoba Bhave, conventionally regarded as the first individual satyagrahi chosen by Gandhi in October 1940, is not among the printed options.)",
+  "flags": [
+   "reader1: Official answer looks wrong; Vinoba Bhave was first (Q169 gives that)",
+   "reader2: Answer looks wrong: Vinoba Bhave was the first Individual Satyagrahi (Oct 1940), Nehru second; Rajendra Prasad was not first"
+  ],
+  "question_no": 157,
+  "file": "wbcs-prelims-2023.json",
+  "paper_url": "https://files.wbcs.in/wbcs-2023-question-prelims.pdf",
+  "question": "The first Satyagrahi selected by Mahatma Gandhi to launch the Individual Satyagraha in October 1940, was",
+  "options": [
+   {
+    "id": "A",
+    "text": "C. Rajagopalachari"
+   },
+   {
+    "id": "B",
+    "text": "Vallabhbhai Patel"
+   },
+   {
+    "id": "C",
+    "text": "Dr. Rajendra Prasad"
+   },
+   {
+    "id": "D",
+    "text": "J. B. Kripalani"
+   }
+  ],
+  "stored_correct": "C"
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q168",
+  "exam": "WBCS (Exe.) Prelims",
+  "year": 2024,
+  "shift": null,
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "Bal Gangadhar Tilak founded the Congress Democratic Party in 1920 to contest the council elections.",
+  "flags": [
+   "reader1: Official answer doubtful; check"
+  ],
+  "question_no": 168,
+  "file": "wbcs-prelims-2024.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20260728155644_WBCS_P-2024-A_merged_1_compressed.pdf&param2=PYQP",
+  "question": "Congress Democratic Party was founded by—",
+  "options": [
+   {
+    "id": "A",
+    "text": "Anne Besant"
+   },
+   {
+    "id": "B",
+    "text": "B.G. Tilak"
+   },
+   {
+    "id": "C",
+    "text": "Muhammad Ali Jinnah"
+   },
+   {
+    "id": "D",
+    "text": "Motilal Nehru"
+   }
+  ],
+  "stored_correct": "B"
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q65",
+  "exam": "WBPSC Clerkship (Part-I)",
+  "year": 2004,
+  "shift": null,
+  "answer_key_url": null,
+  "answer_basis": null,
+  "stored_explanation": "Fact: Alauddin Khilji abolished the iqta (land assignment) system for his soldiers in the core territories, paying cash salaries instead. Context: The verified explanation notes Iltutmish had introduced the iqta system; Alauddin replaced assignments around Delhi with direct cash payment to keep tighter control of his army. Why not Iltutmish: Iltutmish introduced iqta — the exact opposite act, making him the distractor, not the abolisher.",
+  "flags": [
+   "reader2: Doubtful: Alauddin is the usual key (he reduced/abolished iqta grants), but see Q34/54 where Iltutmish is credited with iqta"
+  ],
+  "question_no": 65,
+  "file": "wbpsc-clerkship-2004.json",
+  "paper_url": "https://wbpscupsc.com/history-wbpsc-clerkship-previous-year-question-paper/",
+  "question": "Who abolished the ‘Iqta’ system?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Balban"
+   },
+   {
+    "id": "B",
+    "text": "Muhammad bin Tughlaq"
+   },
+   {
+    "id": "C",
+    "text": "Iltutmish"
+   },
+   {
+    "id": "D",
+    "text": "Alauddin Khilji"
+   }
+  ],
+  "stored_correct": "D"
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q91",
+  "exam": "WBPSC Clerkship (Part-I)",
+  "year": 2023,
+  "shift": "Session III",
+  "answer_key_url": "https://psc.wb.gov.in/Download?param1=202505191631_Session-III.pdf&param2=advertisement",
+  "answer_basis": null,
+  "stored_explanation": "Fact: Hindu College, Calcutta (1817) was founded through the efforts of Raja Rammohan Roy with David Hare and others. Context: One of India's oldest modern educational institutions, it later became Presidency College and then Presidency University. Why not William Jones: Jones founded the Asiatic Society (1784), a different institution of an earlier generation.",
+  "flags": [
+   "reader1: Official answer (Rammohan) is disputed; David Hare/Radhakanta Deb involved"
+  ],
+  "question_no": 91,
+  "file": "wbpsc-clerkship-2023-session-3.json",
+  "paper_url": "https://psc.wb.gov.in/Download?param1=20241122165426_Clerkship-III.pdf&param2=PYQP",
+  "question": "Who founded the Hindu College of Calcutta in 1817?",
+  "options": [
+   {
+    "id": "A",
+    "text": "William Carey"
+   },
+   {
+    "id": "B",
+    "text": "William Jones"
+   },
+   {
+    "id": "C",
+    "text": "Raja Rammohan Roy"
+   },
+   {
+    "id": "D",
+    "text": "Henry Louis Vivian Derozio"
+   }
+  ],
+  "stored_correct": "C"
+ }
+]

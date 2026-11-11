@@ -1,0 +1,1587 @@
+[
+ {
+  "ref": "indian_history.js#0",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 Timeline 2",
+  "quote": "Daya Ram Sahni begins excavations at Harappa 1921",
+  "searched": "Daya Ram Sahni, Harappa 1921, Wheeler, Rao, Marshall in lehs101"
+ },
+ {
+  "ref": "indian_history.js#1",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT: excavations at Mohenjodaro begin 1922; Rakhal Das Banerji found similar seals there. It does not use the word \"discovered\" but nothing contradicts it.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 Timeline 2",
+  "quote": "Excavations begin at Mohenjodaro 1922",
+  "searched": "Rakhal/Banerji, Mohenjodaro, Cunningham in lehs101"
+ },
+ {
+  "ref": "indian_history.js#2",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 sec.3 (Mohenjodaro)",
+  "quote": "The Great Bath was a large rectangular tank in a courtyard surrounded by a corridor on all four sides.",
+  "searched": "Great Bath in lehs101, fees106"
+ },
+ {
+  "ref": "indian_history.js#3",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/fees106.pdf",
+  "page": "Ch.6 Fig. 6.12",
+  "quote": "The huge dockyard at Lothal",
+  "searched": "dockyard in fees106, lehs101, hess201"
+ },
+ {
+  "ref": "indian_history.js#4",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 sec.2",
+  "quote": "Archaeologists have also found evidence of a ploughed field at Kalibangan (Rajasthan), associated with Early Harappan levels",
+  "searched": "ploughed, Kalibangan in lehs101"
+ },
+ {
+  "ref": "indian_history.js#5",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/fees107.pdf",
+  "page": "Ch.7 The Vedas and Vedic Culture",
+  "quote": "the ig Veda, the most ancient of the four",
+  "searched": "oldest/earliest Veda in fees107, lehs101, lehs104"
+ },
+ {
+  "ref": "indian_history.js#6",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees105.pdf",
+  "page": "Ch.5 (Mauryan art, national emblem)",
+  "quote": "The motto comes from the Mundaka Upanihad",
+  "searched": "Satyameva, Mundaka in gees105, fees110"
+ },
+ {
+  "ref": "indian_history.js#7",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says only that Mahavira was preceded by 23 other tirthankaras; it never names Rishabhanatha/Adinatha as the first.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 sec.3",
+  "quote": "According to Jaina tradition, Mahavira was preceded by 23 other teachers or tirthankaras",
+  "searched": "Rishabha, Adinatha, first tirthankara in all downloaded NCERT texts"
+ },
+ {
+  "ref": "indian_history.js#8",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 Source 8",
+  "quote": "where he attained enlightenment (Bodh Gaya)",
+  "searched": "Bodh Gaya, enlightenment in lehs104, fees107"
+ },
+ {
+  "ref": "indian_history.js#9",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "No NCERT text on the Fourth Buddhist Council in Kashmir or Kanishka convening it (Kanishka appears only as a coin issuer / date marker).",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Kanishka, council, Kashmir, Fourth in gees106, lehs102, lehs104, fees107, gees104"
+ },
+ {
+  "ref": "indian_history.js#10",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT names Porus and shows Hydaspes on Alexander's route map, but does not state 326 BCE or that the battle was on the Jhelum.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees105.pdf",
+  "page": "Ch.5 The Arrival of the Greeks",
+  "quote": "the Pauravas, led by their king, Porus",
+  "searched": "Hydaspes, Jhelum, Porus, 326 in gees105"
+ },
+ {
+  "ref": "indian_history.js#11",
+  "verdict": "CONFIRMED",
+  "problem": "lehs102 says parts of the Arthashastra were probably composed by Kautilya/Chanakya; fine for the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 sec.3.1",
+  "quote": "Arthashastra, parts of which were probably composed by Kautilya or Chanakya, traditionally believed to be the minister of Chandragupta",
+  "searched": "Kautilya, Arthashastra in gees105, lehs102"
+ },
+ {
+  "ref": "indian_history.js#12",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT says \"one of his edicts\" and does not number it as the 13th Major Rock Edict; harmless.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees105.pdf",
+  "page": "Ch.5 Ashoka",
+  "quote": "where he waged a ferocious war",
+  "searched": "Kalinga in gees105, lehs102"
+ },
+ {
+  "ref": "indian_history.js#13",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT says Prinsep deciphered Brahmi (and Kharosthi) \"in the 1830s\"; it does not give 1837 or the Asiatic Society.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 sec.1 Prinsep and Piyadassi",
+  "quote": "This was when James Prinsep, an officer in the mint of the East India Company, deciphered Brahmi and Kharosthi",
+  "searched": "Prinsep, 1837 in lehs102, gees105, lehs101"
+ },
+ {
+  "ref": "indian_history.js#14",
+  "verdict": "CONFIRMED",
+  "problem": "The date 26 January 1950 is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees105.pdf",
+  "page": "Ch.5 Fig. 5.28",
+  "quote": "this capital was chosen as India's national emblem",
+  "searched": "national emblem, Sarnath in gees105, lehs102"
+ },
+ {
+  "ref": "indian_history.js#15",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+  "page": "Ch.6 Coming of the Chedis",
+  "quote": "displays the Hathigumpha inscription, written in Brahmi script, which records King Kharavela's accomplishments",
+  "searched": "Hathigumpha, Kharavela in gees106, lehs102"
+ },
+ {
+  "ref": "indian_history.js#16",
+  "verdict": "CONFIRMED",
+  "problem": "The extracted NCERT text is interleaved with figure captions but reads: the Gandhara style blended Greco-Roman elements with Indian features.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+  "page": "Ch.6 Art (Gandhara and Mathura)",
+  "quote": "blended Greco-",
+  "searched": "Gandhara, Greco-Roman, Mathura in gees106, lehs104"
+ },
+ {
+  "ref": "indian_history.js#17",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "\"Napoleon of India\" (V. A. Smith) is not in NCERT; NCERT only calls Samudragupta \"arguably the most powerful of the Gupta rulers\".",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Napoleon in all texts; Samudragupta in gees107, lehs102"
+ },
+ {
+  "ref": "indian_history.js#18",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "Ch.7 The warrior king",
+  "quote": "According to the author of the inscription--the court poet Harisena",
+  "searched": "Harisena/Harishena, Prayaga prashasti in gees107, lehs102"
+ },
+ {
+  "ref": "indian_history.js#19",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Faxian visited in the early 5th century CE (Gupta era) but does not tie him to Chandragupta II by name; lehs102 dates Chandragupta II c. 375-415 CE.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "Ch.7 A Traveller's Account",
+  "quote": "visited India in the early 5th century CE",
+  "searched": "Faxian/Fa Xian + Chandragupta II in gees107, lehs102, lehs103"
+ },
+ {
+  "ref": "indian_history.js#20",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Guptas patronised Nalanda but never names Kumaragupta I as its founder.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "Ch.7 New Ideas and Wonders",
+  "quote": "They patronised Buddhist institutions, including the renowned Nland university",
+  "searched": "Nalanda, Kumaragupta in gees107, gees203, gees204, lehs102"
+ },
+ {
+  "ref": "indian_history.js#21",
+  "verdict": "CONFIRMED",
+  "problem": "Studying at Nalanda and attending Harsha's court are not in this passage (Nalanda study is in gees204); the answer is supported.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "c. 606-647 CE Harshavardhana king of Kanauj; Chinese pilgrim Xuan Zang comes in search of Buddhist texts",
+  "searched": "Xuan Zang/Xuanzang, Harsha in lehs102, gees203, gees204"
+ },
+ {
+  "ref": "indian_history.js#22",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees203.pdf",
+  "page": "Ch.3 Chalukyas",
+  "quote": "poet Ravikrti, records Pulakehin II's victories",
+  "searched": "Ravikirti, Aihole, Pulakeshin in gees203"
+ },
+ {
+  "ref": "indian_history.js#23",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "No NCERT text on Shashanka, Gauda's king or Karnasuvarna.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Shashanka, Karnasuvarna, Gauda in gees203, gees204, gess101 and all texts"
+ },
+ {
+  "ref": "indian_history.js#24",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the Palas only in passing and never names Gopala as founder.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees203.pdf",
+  "page": "Ch.3 intro",
+  "quote": "in Bengal, the Plas are supporting great universities such as Vikramahil",
+  "searched": "Gopala, Pala dynasty founder, matsyanyaya in gees203, gees204, gess102"
+ },
+ {
+  "ref": "indian_history.js#25",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Palas supported Vikramashila but never names Dharmapala as its founder.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees203.pdf",
+  "page": "Ch.3 intro",
+  "quote": "in Bengal, the Plas are supporting great universities such as Vikramahil",
+  "searched": "Vikramashila, Dharmapala in gees203, gees204"
+ },
+ {
+  "ref": "indian_history.js#26",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Senas hosted poets such as Jayadeva, but not which Sena king; Ballala Sena and Vijaya Sena are also Sena kings, so NCERT cannot discriminate among the options.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees204.pdf",
+  "page": "Ch.4 Eastern India",
+  "quote": "the Senas promoted Hindu thought and literature, hosting poets such as Jayadeva",
+  "searched": "Jayadeva, Lakshmana Sena in gees204 and all texts"
+ },
+ {
+  "ref": "indian_history.js#27",
+  "verdict": "CONFIRMED",
+  "problem": "Cave 16 is not in NCERT; the Rashtrakuta attribution and Krishna I are.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees203.pdf",
+  "page": "Ch.3 The Rashtrakutas",
+  "quote": "The Rhraka king Krishna I got the magnificent Kailahantha temple, the largest rock-cut temple in India",
+  "searched": "Kailasa, Ellora, Rashtrakuta in gees203, lehs104, gess102"
+ },
+ {
+  "ref": "indian_history.js#28",
+  "verdict": "CONFIRMED",
+  "problem": "\"Around 1010\" matches the explanation.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees203.pdf",
+  "page": "Ch.3 Temple architecture",
+  "quote": "Temple (Fig. 3.20) was built by Rjarja Chola I around 1010",
+  "searched": "Brihadeeswara/Brihadishvara, Rajaraja in hees203, gess102, lehs203"
+ },
+ {
+  "ref": "indian_history.js#29",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Tolkappiyam / earliest Tamil grammar is not mentioned in NCERT (Sangam literature is described only in general).",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Tolkappiyam, Tamil grammar in gees106, gees203, gees204, lehs102, hees203"
+ },
+ {
+  "ref": "indian_history.js#30",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT retells the Silappadikaram story but does not name its author (Ilango Adigal); Manimekalai/Sattanar not mentioned either.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+  "page": "Ch.6 Sangam Age",
+  "quote": "Silappadikram: The Tale of the Anklet This famous epic",
+  "searched": "Ilango, Silappadikaram author, Manimekalai in gees106, lehs102"
+ },
+ {
+  "ref": "indian_history.js#31",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT lists Qutbuddin Aybak (1206-1210) first under Early Turkish rulers and names the Mamluks (Slave dynasty) as the first of five Sultanate dynasties; \"slave-general of Ghori\" is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gess103.pdf",
+  "page": "Ch.3 Table 1 (Rulers of Delhi)",
+  "quote": "EARLY TURKISH RULERS 1206 1210 Qutbuddin Aybak",
+  "searched": "Aibak/Aybak, Mamluk, Slave dynasty in gess103, hees102"
+ },
+ {
+  "ref": "indian_history.js#32",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says construction of the Qutub Minar complex began in Aibak's time and \"was completed by later sultans\"; Iltutmish is not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "Ch.2 Fig. 2.5",
+  "quote": "its construction began in Qutub-ud-din Aibak's time (early 13th century) and was completed by later sultans",
+  "searched": "Qutub Minar, Iltutmish in hees102, gess103"
+ },
+ {
+  "ref": "indian_history.js#33",
+  "verdict": "CONFIRMED",
+  "problem": "The claim \"only\" woman ruler of Delhi is not stated in NCERT; the answer is supported.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gess103.pdf",
+  "page": "Ch.3 Women rulers",
+  "quote": "In 1236 Sultan Iltutmish's daughter, Raziyya, became Sultan.",
+  "searched": "Raziyya in gess103, hees102"
+ },
+ {
+  "ref": "indian_history.js#34",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Sijda and paibos are not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "sijda, paibos, Balban in gess103, hees102"
+ },
+ {
+  "ref": "indian_history.js#35",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Alauddin Khalji brought land-revenue assessment and collection under state control but does not describe his market/price controls.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gess103.pdf",
+  "page": "Ch.3 Under the Sultans",
+  "quote": "Under Alauddin Khalji the state brought the assessment and collection of land revenue under its own control.",
+  "searched": "market control, price control Alauddin in gess103, hees102"
+ },
+ {
+  "ref": "indian_history.js#36",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT mentions only cheap copper coins (not brass) and says people counterfeited them.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "Ch.2 Fig. 2.7",
+  "quote": "cheap copper coins were declared to be tokens and have the value of silver or gold coins",
+  "searched": "token currency in hees102, gess103"
+ },
+ {
+  "ref": "indian_history.js#37",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT: Ibn Battuta reached Sind in 1333 and was appointed qazi of Delhi by the Sultan.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs201.pdf",
+  "page": "Ch.5 sec.2.1",
+  "quote": "Battuta reached Sind in 1333. He had heard about Muhammad bin Tughlaq, the Sultan of Delhi",
+  "searched": "Ibn Battuta in lehs201, gess103"
+ },
+ {
+  "ref": "indian_history.js#38",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT records \"1526: First Battle of Panipat; Babur's victory\" but never names Ibrahim Lodi as the defeated ruler (Rana Sanga was defeated at Khanwa).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "1526: First Battle of Panipat; Babur's victory establishes the Mughal Empire",
+  "searched": "Ibrahim Lodi, Panipat in hees102, gess104"
+ },
+ {
+  "ref": "indian_history.js#39",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "Ch.2 Rajput kingdoms",
+  "quote": "ultimately meeting defeat against Babur at the Battle of",
+  "searched": "Khanwa, Rana Sanga in hees102"
+ },
+ {
+  "ref": "indian_history.js#40",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says only that Sher Shah Suri \"introduced many lasting reforms\"; the silver rupiya is not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "Ch.2",
+  "quote": "established the Sur Empire over large parts of north India and introduced many lasting reforms",
+  "searched": "rupiya, rupee, Sher Shah in hees102, gess103, gess104"
+ },
+ {
+  "ref": "indian_history.js#41",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Buland Darwaza and Akbar's Gujarat conquest are not in NCERT (Fatehpur Sikri appears only as Akbar's city).",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Buland Darwaza, Fatehpur Sikri in hees102, gess104, lehs202, lehs204"
+ },
+ {
+  "ref": "indian_history.js#42",
+  "verdict": "CONFIRMED",
+  "problem": "Man Singh is not named in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "1576: Battle of Haldighati; Maharana Pratap forced to retreat",
+  "searched": "Haldighati in hees102"
+ },
+ {
+  "ref": "indian_history.js#43",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT describes Todar Mal's survey of crop yields, prices and areas for a 10-year period; the terms Zabti/Dahsala are not both used.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+  "page": "Ch.4 Zabt and Zamindars",
+  "quote": "Akbar's revenue minister, Todar Mal, carried out a careful survey of crop yields, prices and areas cultivated for a 10-year period",
+  "searched": "Todar Mal, zabt in gess104, hees102"
+ },
+ {
+  "ref": "indian_history.js#44",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Sir Thomas Roe is not mentioned in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Thomas Roe, Roe, James I in all texts"
+ },
+ {
+  "ref": "indian_history.js#45",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Nadir Shah sacked Delhi in 1739 but does not name Muhammad Shah as the reigning emperor.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gess108.pdf",
+  "page": "Ch.8",
+  "quote": "the ruler of Iran, Nadir Shah, sacked and plundered the city of Delhi in 1739",
+  "searched": "Nadir Shah, Muhammad Shah in gess108, hees103"
+ },
+ {
+  "ref": "indian_history.js#46",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Guru Tegh Bahadur appears in NCERT only as a contributor to the Adi Granth / father of Guru Gobind Singh; his execution in 1675 is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gess106.pdf",
+  "page": "Ch.6",
+  "quote": "authenticated by Guru Tegh Bahadur's son and successor",
+  "searched": "Tegh Bahadur, Arjan Dev execution, 1675 in all texts"
+ },
+ {
+  "ref": "indian_history.js#47",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs203.pdf",
+  "page": "Ch.7 sec.2",
+  "quote": "brothers, Harihara and Bukka, founded the",
+  "searched": "Harihara, Bukka in lehs203, hees102"
+ },
+ {
+  "ref": "indian_history.js#48",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT also says Krishnadeva Raya belonged to the Tuluva dynasty.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs203.pdf",
+  "page": "Ch.7 sec.2.2",
+  "quote": "on statecraft in Telugu known They were supplanted by the Saluvas, military as the Amuktamalyada.",
+  "searched": "Amuktamalyada in lehs203, hees102"
+ },
+ {
+  "ref": "indian_history.js#49",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs203.pdf",
+  "page": "Ch.7 sec.2.2",
+  "quote": "at Rakshasi-Tangadi (also known as Talikota), where his forces were routed by the combined armies of Bijapur, Ahmadnagar and Golconda",
+  "searched": "Talikota in lehs203, hees102"
+ },
+ {
+  "ref": "indian_history.js#50",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT gives 1347 as the Bahmani Sultanate's founding year but names no founder (Alauddin Hasan / Hasan Gangu / Bahman Shah).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "1347: Establishment of the Bahmani Sultanate",
+  "searched": "Bahman Shah, Hasan Gangu, Gulbarga in hees102, lehs203, gess107"
+ },
+ {
+  "ref": "indian_history.js#51",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+  "page": "Ch.3 Fig. 3.1",
+  "quote": "where Chhatrapati Shivaji Maharaj was crowned in 1674",
+  "searched": "Raigad, coronation in hees103"
+ },
+ {
+  "ref": "indian_history.js#52",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT: \"ashta pradhana mandala, or council of eight ministers\" (Fig. 3.13 lists the Prime Minister first).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+  "page": "Ch.3",
+  "quote": "also had an aha pradhna manala, or council of eight ministers (Fig. 3.13)",
+  "searched": "Ashtapradhan in hees103"
+ },
+ {
+  "ref": "indian_history.js#53",
+  "verdict": "PARTLY_WRONG",
+  "problem": "NCERT says Kabir \"was initiated into bhakti by a guru, perhaps Ramananda\", but his verses name no preceptor and historians find it very difficult to establish that Ramananda and Kabir were contemporaries. So \"Who was the guru of Kabir?\" is stated as fact while NCERT treats it as uncertain tradition.",
+  "fix": {
+   "q": "According to tradition, who was the guru of the Bhakti saint Kabir?",
+   "explanation": "Tradition links Kabir to Ramananda, but Kabir's own verses name no preceptor and historians say the link cannot be established."
+  },
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+  "page": "Ch.6 sec.8.1",
+  "quote": "it is very difficult to establish that Ramananda and Kabir were contemporaries",
+  "searched": "Kabir, Ramananda in lehs202, gess106"
+ },
+ {
+  "ref": "indian_history.js#54",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT places Chaitanya in Bengal; Nabadwip, 1486 and sankirtan are not in NCERT. Sankardev (Assam), Namdev and Tukaram (Maharashtra) are different regions in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+  "page": "Ch.6 table of saints",
+  "quote": "Sri Chaitanya in Bengal",
+  "searched": "Chaitanya in gess106, lehs202, hees208"
+ },
+ {
+  "ref": "indian_history.js#55",
+  "verdict": "CONFIRMED",
+  "problem": "Ekasarana, Sattriya and Neo-Vaishnavite are not named; NCERT says the saint set up satras emphasising devotion to Vishnu and wrote Kirtana-ghosha and plays in Assamese.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+  "page": "Ch.6 table of saints",
+  "quote": "Shankaradeva in Assam; Tukaram in Maharashtra",
+  "searched": "Sankardev, Shankaradeva, Ekasarana in lehs202, gess106"
+ },
+ {
+  "ref": "indian_history.js#56",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions Amir Khusro and Nizamuddin Auliya separately but does not say Khusro was Nizamuddin's disciple.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees208.pdf",
+  "page": "Ch.8",
+  "quote": "Amir Khusro (also spelt Amir Khusrau) was an Indo-Persian Sufi poet and singer",
+  "searched": "Khusrau, Nizamuddin disciple in hees208, lehs202, gess106"
+ },
+ {
+  "ref": "indian_history.js#57",
+  "verdict": "CONFIRMED",
+  "problem": "Mir Jafar's betrayal is in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "Ch.4",
+  "quote": "tensions arose between Siraj-ud-daulah, the Nawab of Bengal, and the East India Company officials led by Robert Clive",
+  "searched": "Plassey, Siraj in hees104, hess202"
+ },
+ {
+  "ref": "indian_history.js#58",
+  "verdict": "CONFIRMED",
+  "problem": "The explanation's Shuja-ud-Daula, Shah Alam II and Hector Munro are not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+  "page": "Ch.2",
+  "quote": "was defeated in a battle fought at Buxar (1764)",
+  "searched": "Mir Qasim, Buxar in hess202"
+ },
+ {
+  "ref": "indian_history.js#59",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT: \"in 1765 the Mughal emperor appointed the Company as the Diwan\"; it does not name the emperor, but gess108 gives Shah Alam II as emperor 1759-1816 (Akbar II and Farrukh Siyar do not fit). Treaty of Allahabad not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+  "page": "Ch.2",
+  "quote": "Finally, in 1765 the Mughal emperor appointed the",
+  "searched": "Diwani, Shah Alam in hess202, gess108"
+ },
+ {
+  "ref": "indian_history.js#60",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Dual Government of Bengal is not mentioned in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "dual government in hess202, hess203, hees104, lehs301"
+ },
+ {
+  "ref": "indian_history.js#61",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Charter Act of 1833 and Bentinck as first Governor-General of India are not in NCERT (Bentinck is quoted as Governor-General in 1834 only).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "Ch.4",
+  "quote": "As William Bentinck, then Governor-General of India, observed in 1834",
+  "searched": "Charter Act, Bentinck in hess202, hess205, hess206, hees104"
+ },
+ {
+  "ref": "indian_history.js#62",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess203.pdf",
+  "page": "Ch.3",
+  "quote": "the Company finally introduced the Permanent Settlement in 1793",
+  "searched": "Permanent Settlement in hess203, lehs301, hees104"
+ },
+ {
+  "ref": "indian_history.js#63",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the Carnatic Wars (1746-1763) and French decline but not the Battle of Wandiwash.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "Ch.4",
+  "quote": "The French colonial ambitions in India were ultimately checked during the Carnatic Wars (17461763)",
+  "searched": "Wandiwash, Eyre Coote in hess202, hees104"
+ },
+ {
+  "ref": "indian_history.js#64",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+  "page": "Ch.2",
+  "quote": "He devised a policy that came to be known as the Doctrine of Lapse.",
+  "searched": "Doctrine of Lapse in hess202, hees104"
+ },
+ {
+  "ref": "indian_history.js#65",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+  "page": "Ch.2",
+  "quote": "Satara (1848), Sambalpur (1850), Udaipur (1852), Nagpur (1853) and Jhansi (1854). Finally, in 1856, the Company also took over Awadh.",
+  "searched": "Satara in hess202, hess203, hees104"
+ },
+ {
+  "ref": "indian_history.js#66",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "Ch.4",
+  "quote": "was led by two brothers, Sidhu and Kanhu Murmu",
+  "searched": "Santhal, Sidhu, Kanhu in hees104, hess204"
+ },
+ {
+  "ref": "indian_history.js#67",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT gives no year (1828).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+  "page": "Ch.7",
+  "quote": "He founded a reform association known as the Brahmo Sabha (later known as the Brahmo Samaj) in Calcutta.",
+  "searched": "Brahmo, Rammohun in hess207, hees202"
+ },
+ {
+  "ref": "indian_history.js#68",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+  "page": "Ch.7",
+  "quote": "His suggestion was adopted by British officials, and a law was passed in 1856",
+  "searched": "Vidyasagar, widow remarriage in hess207, hees202"
+ },
+ {
+  "ref": "indian_history.js#69",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+  "page": "Ch.7",
+  "quote": "a teacher at Hindu College, Calcutta, in the 1820s, promoted radical ideas and encouraged his pupils to question all",
+  "searched": "Derozio, Young Bengal in hess207"
+ },
+ {
+  "ref": "indian_history.js#70",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Tattvabodhini Sabha is not mentioned in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Tattvabodhini, Debendranath in all texts"
+ },
+ {
+  "ref": "indian_history.js#71",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Prarthana Samaj was established in 1867 at Bombay but does not name Atmaram Pandurang.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+  "page": "Ch.7",
+  "quote": "Established in 1867 at Bombay, the Prarthana Samaj sought to remove caste restrictions",
+  "searched": "Prarthana Samaj, Atmaram Pandurang in all texts"
+ },
+ {
+  "ref": "indian_history.js#72",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT gives no year (1873) and does not mention Pune.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+  "page": "Ch.7",
+  "quote": "The Satyashodhak Samaj, an association Phule founded, propagated caste equality.",
+  "searched": "Satyashodhak, Phule in hess207, hees202, jess305"
+ },
+ {
+  "ref": "indian_history.js#73",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT describes Wood's Despatch (1854) and the 1857 universities but never calls it the \"Magna Carta of English education\".",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess206.pdf",
+  "page": "Ch.6",
+  "quote": "it has come to be known as Wood's Despatch",
+  "searched": "Magna Carta, Wood's Despatch in hess206, hees104"
+ },
+ {
+  "ref": "indian_history.js#74",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Satyendranath Tagore / the first Indian in the ICS is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Satyendranath, Indian Civil Service in all texts"
+ },
+ {
+  "ref": "indian_history.js#75",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT says the sepoys at Meerut killed officers and marched to Delhi; it gives no day (10 May). Mangal Pandey's attack at Barrackpore is noted as earlier discontent.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "Ch.4",
+  "quote": "marched to nearby Delhi, where they proclaimed",
+  "searched": "Meerut, 10 May in hees104, hess205, hees202"
+ },
+ {
+  "ref": "indian_history.js#76",
+  "verdict": "CONFIRMED",
+  "problem": "Nana Saheb's role at Kanpur was not checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+  "page": "Ch.5",
+  "quote": "His mother Begum Hazrat Mahal took an active part in organising the uprising against the British.",
+  "searched": "Hazrat Mahal in hess205, hees104"
+ },
+ {
+  "ref": "indian_history.js#77",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says \"In Bihar, an old zamindar, Kunwar Singh, joined the rebel sepoys\"; Jagdishpur is not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+  "page": "Ch.5",
+  "quote": "In Bihar, an old zamindar, Kunwar Singh, joined the rebel sepoys",
+  "searched": "Kunwar Singh, Jagdishpur in hess205, hees104"
+ },
+ {
+  "ref": "indian_history.js#78",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Nil Darpan / Dinabandhu Mitra is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Nil Darpan, Dinabandhu in all texts"
+ },
+ {
+  "ref": "indian_history.js#79",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "Ch.4",
+  "quote": "novel Anandamath (1882); it contained the song `Vande Mtaram'",
+  "searched": "Anandamath, Vande Mataram in hees104, hees202, jess302"
+ },
+ {
+  "ref": "indian_history.js#80",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT describes the Ilbert Bill furore of 1883 but does not name the viceroy (Lord Ripon).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "Ch.8",
+  "quote": "In 1883, there was a furore over the attempt by the government to introduce the Ilbert Bill.",
+  "searched": "Ripon, Ilbert in hess208"
+ },
+ {
+  "ref": "indian_history.js#81",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 Indian National Congress",
+  "quote": "Womesh Chunder Bonnerjee, who was elected as the first president",
+  "searched": "Bonnerjee, Hume in hees202, hess208"
+ },
+ {
+  "ref": "indian_history.js#82",
+  "verdict": "AMBIGUOUS",
+  "problem": "NCERT says Sarojini Naidu \"was the first Indian woman president of the Congress in 1925\" and never says Annie Besant presided. On NCERT alone Sarojini Naidu is defensible if \"first woman President\" is read as \"first Indian woman\". The item itself is right outside NCERT (Besant presided in 1917).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 Women in the national movement",
+  "quote": "was the first Indian woman president of the Congress in 1925",
+  "searched": "woman president, Besant in hees202, hess208, lehs303"
+ },
+ {
+  "ref": "indian_history.js#83",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 1905 Partition",
+  "quote": "Curzon announced the partition of",
+  "searched": "Curzon in hess208, hees202"
+ },
+ {
+  "ref": "indian_history.js#84",
+  "verdict": "CONFIRMED",
+  "problem": "The announcement \"at the Delhi Durbar\" is not in NCERT; NCERT also records the capital shifted from Calcutta to Delhi in 1911.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2",
+  "quote": "the colonial government finally decided to withdraw it in 1911",
+  "searched": "1911 in hees202"
+ },
+ {
+  "ref": "indian_history.js#85",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says people tied rakhis as a symbol of unity but does not credit Tagore with suggesting it (Tagore, Banerjee and Pal are listed together as leaders).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2",
+  "quote": "People also tied rakhis on each other's wrists as a symbol of unity, especially between Hindus and Muslims",
+  "searched": "Raksha Bandhan, rakhi, Tagore in hees202, hess208, jess302"
+ },
+ {
+  "ref": "indian_history.js#86",
+  "verdict": "CONFIRMED",
+  "problem": "Nawab Salimullah is not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "Ch.8",
+  "quote": "nawabs formed the All India Muslim League at Dacca in 1906.",
+  "searched": "Muslim League, Dacca in hess208, hees202"
+ },
+ {
+  "ref": "indian_history.js#87",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "1907: Congress split at Surat between Moderates and Nationalists",
+  "searched": "Surat in hees202"
+ },
+ {
+  "ref": "indian_history.js#88",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT gives 1909 and the demand; the act name (Indian Councils Act / Morley-Minto) is not stated.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "Ch.8",
+  "quote": "Muslims, a demand conceded by the government in",
+  "searched": "separate electorates 1909 in hess208, jess302"
+ },
+ {
+  "ref": "indian_history.js#89",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs303.pdf",
+  "page": "Ch.11 sec.2",
+  "quote": "Mahatma Gandhi was to spend much of 1917 in Champaran, seeking to obtain for the peasants security of tenure",
+  "searched": "Champaran in lehs303, jess302, hess208"
+ },
+ {
+  "ref": "indian_history.js#90",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Gandhi led a successful millworkers' strike in Ahmedabad in 1918 but does not say it was his first fast.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "Ch.8",
+  "quote": "he led a successful millworkers' strike in 1918",
+  "searched": "hunger strike, fast, Ahmedabad in hess208, hees202, jess302, lehs303"
+ },
+ {
+  "ref": "indian_history.js#91",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2",
+  "quote": "In February 1922, at Chauri Chaura, a town in present-day Uttar Pradesh, protesters killed policemen by setting a station on fire.",
+  "searched": "Chauri Chaura in hess208, hees202, jess302, lehs303"
+ },
+ {
+  "ref": "indian_history.js#92",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT gives no year (1923).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/jess302.pdf",
+  "page": "Ch.2",
+  "quote": "C. R. Das and Motilal Nehru formed the Swaraj Party within the Congress",
+  "searched": "Swaraj Party in hees202, jess302"
+ },
+ {
+  "ref": "indian_history.js#93",
+  "verdict": "PARTLY_WRONG",
+  "problem": "NCERT says Gandhi bestowed the title \"Sardar\" on Patel after the Bardoli peasant movement of 1928. The explanation says the women of Bardoli gave the title, which NCERT does not say.",
+  "fix": {
+   "explanation": "After the successful Bardoli peasant movement of 1928, Mahatma Gandhi bestowed the title \"Sardar\" on Vallabhbhai Patel."
+  },
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2",
+  "quote": "This led Mahatma Gandhi to bestow on him the title of `Sardar'.",
+  "searched": "Sardar, Bardoli in hees202, hess208, jess302"
+ },
+ {
+  "ref": "indian_history.js#94",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs303.pdf",
+  "page": "Ch.11",
+  "quote": "In the end of December 1929, the Congress held its annual session in the city of Lahore. The meeting was significant for two things: the election of Jawaharlal Nehru as President",
+  "searched": "Purna Swaraj, Lahore in lehs303, jess302, hees202"
+ },
+ {
+  "ref": "indian_history.js#95",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2",
+  "quote": "In August 1942, Mahatma Gandhi launched the Quit India Movement with a simple call to Indians",
+  "searched": "Do or Die in hees202, hess208, jess302"
+ },
+ {
+  "ref": "indian_history.js#96",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT names Matangini Hazra only as a woman participant in Quit India (Bengal); the Tamluk shooting and her nickname are not given.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/jess302.pdf",
+  "page": "Ch.2",
+  "quote": "many women such as Matangini Hazra in Bengal",
+  "searched": "Matangini Hazra, Tamluk in hees202, jess302"
+ },
+ {
+  "ref": "indian_history.js#97",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Discovery of India and Nehru's Ahmednagar imprisonment are not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Discovery of India, Ahmednagar Fort in all texts"
+ },
+ {
+  "ref": "indian_history.js#98",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT only lists \"1908: Alipore Bomb Case; Khudiram Bose executed\"; Muzaffarpur, Prafulla Chaki and Kingsford are not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "1908: Alipore Bomb Case; Khudiram Bose executed",
+  "searched": "Muzaffarpur, Kingsford, Khudiram in all texts"
+ },
+ {
+  "ref": "indian_history.js#99",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists the Alipore Bomb Case in a timeline but does not mention Aurobindo as an accused or his acquittal.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "1908: Alipore Bomb Case; Khudiram Bose executed",
+  "searched": "Alipore, Aurobindo in hees202, others"
+ },
+ {
+  "ref": "indian_history.js#100",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT dates the Ghadar Movement 1914-15 and does not mention founding in 1913 at San Francisco.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2",
+  "quote": "Behind the movement was the Ghadar Party, founded by Indian migrants in North America, including Lala Hardayal and Sohan Singh Bhakna",
+  "searched": "Ghadar, Har Dayal in hees202"
+ },
+ {
+  "ref": "indian_history.js#101",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2",
+  "quote": "a group, led by Ram Prasad Bismil, Ashfaqulla Khan and Chandrashekhar Azad, robbed a train that carried government money",
+  "searched": "Kakori, Bismil in hees202"
+ },
+ {
+  "ref": "indian_history.js#102",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "Ch.8",
+  "quote": "On 8 April, 1929, Bhagat Singh and B.K. Dutt threw a bomb in the Central Legislative Assembly.",
+  "searched": "Central Legislative Assembly, Dutt in hess208, hees202"
+ },
+ {
+  "ref": "indian_history.js#103",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Writers' Building attack by Benoy, Badal and Dinesh is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Writers Building, Benoy, Badal, Dinesh in all texts"
+ },
+ {
+  "ref": "indian_history.js#104",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT only lists Pritilata Waddedar among freedom fighters; her 1932 Pahartali attack is not described.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 list of freedom fighters",
+  "quote": "Pritilata Waddedar, Rajendra Prasad",
+  "searched": "Pritilata, Pahartali, Surya Sen in hees202 and all texts"
+ },
+ {
+  "ref": "indian_history.js#105",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The slogan \"Delhi Chalo\" is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Delhi Chalo in all texts"
+ },
+ {
+  "ref": "indian_history.js#106",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "\"Jana Gana Mana\" first sung in 1911 is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Jana Gana Mana in all texts"
+ },
+ {
+  "ref": "indian_history.js#107",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "Ch.2 Swadeshi",
+  "quote": "In 1901, the great Indian chemist Prafulla Chandra Ray founded the Bengal Chemicals and Pharmaceuticals Ltd.",
+  "searched": "Bengal Chemicals, Prafulla in hees202"
+ },
+ {
+  "ref": "indian_history.js#108",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT does not mention Tagore's 1913 Nobel Prize or Gitanjali.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Nobel, Gitanjali in all texts"
+ },
+ {
+  "ref": "indian_history.js#109",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT says the Chandellas built Khajuraho temples \"during these two centuries\" (11th-12th); the explanation's 950-1050 CE and Bundelkhand are not NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees204.pdf",
+  "page": "Ch.4",
+  "quote": "architectural marvels among dozens of temples constructed at Khajuraho by the Chandellas during these two centuries",
+  "searched": "Khajuraho, Chandella in gees204, gess105, gess107, hees203"
+ },
+ {
+  "ref": "indian_history.js#110",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees204.pdf",
+  "page": "Ch.4 Eastern India",
+  "quote": "in the mid-13th century, of the grand Sun temple at Konark",
+  "searched": "Konark, Eastern Ganga in gees204, hees102"
+ },
+ {
+  "ref": "indian_history.js#111",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists the Dilwara temple (11th-13th centuries) in a timeline but does not say it is Jain.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Dilwara in hees203, gees204"
+ },
+ {
+  "ref": "indian_history_2.js#0",
+  "verdict": "CONFIRMED",
+  "problem": "The Rann of Kachchh location is also in hees203; \"Khadir island\" is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 sec.2",
+  "quote": "water reservoirs found in Dholavira (Gujarat)",
+  "searched": "Dholavira in lehs101, fees106, hees203"
+ },
+ {
+  "ref": "indian_history_2.js#1",
+  "verdict": "CONFIRMED",
+  "problem": "\"Ghaggar basin\" is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 (Harappan genetics box)",
+  "quote": "The site, located in Hisar district of Haryana, is the biggest Harappan city",
+  "searched": "Rakhigarhi in lehs101, hees207"
+ },
+ {
+  "ref": "indian_history_2.js#2",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT does not state \"iron unknown\" outright, but its metal list for Harappan beads/tools is copper, bronze and gold and its timeline puts early iron c. 1000 BCE, after the Harappan civilisation (2600 BCE).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 sec.5 and Timeline",
+  "quote": "metals like copper, bronze and gold",
+  "searched": "iron, silver, bronze in lehs101, fees106"
+ },
+ {
+  "ref": "indian_history_2.js#3",
+  "verdict": "CONFIRMED",
+  "problem": "Lost-wax method is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/fees106.pdf",
+  "page": "Ch.6 Fig. 6.15",
+  "quote": "The `Dancing Girl', a bronze figurine from Mohenjo-daro",
+  "searched": "Dancing Girl in fees106, lehs101"
+ },
+ {
+  "ref": "indian_history_2.js#4",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 sec.5",
+  "quote": "almost exclusively devoted to craft production, including be",
+  "searched": "Chanhudaro in lehs101"
+ },
+ {
+  "ref": "indian_history_2.js#5",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Kalibangan is in NCERT but its river (Ghaggar/Saraswati) is not stated.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Ghaggar, Hakra, Kalibangan river in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#6",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 intro",
+  "quote": "Made of a stone called steatite, seals like this one often contain animal motifs",
+  "searched": "steatite in lehs101, fees106"
+ },
+ {
+  "ref": "indian_history_2.js#7",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs101.pdf",
+  "page": "Ch.1 sec.7.1",
+  "quote": "It is apparent that the script was written from right to left",
+  "searched": "right to left in lehs101"
+ },
+ {
+  "ref": "indian_history_2.js#8",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT does not give the number of Rigveda mandalas or hymns.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/fees107.pdf",
+  "page": "Ch.7",
+  "quote": "The Vedas consist of thousands of hymns",
+  "searched": "mandala, 1028 in fees107, lehs104, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#9",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Gayatri Mantra is not in the downloaded NCERT texts.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Gayatri, Savitri in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#10",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists the Atharva Veda as one of four Vedas but does not describe its content (spells, charms).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/fees107.pdf",
+  "page": "Ch.7",
+  "quote": "there are four Vedas -- the ig Veda, the Yajur Veda, the Sma Veda and the Atharva Veda",
+  "searched": "spell, charm, magic, Atharvaveda in fees107, fees103"
+ },
+ {
+  "ref": "indian_history_2.js#11",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT does not link the Samaveda with music or Indian classical music.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/fees107.pdf",
+  "page": "Ch.7",
+  "quote": "there are four Vedas -- the ig Veda, the Yajur Veda, the Sma Veda and the Atharva Veda",
+  "searched": "Samaveda, music, chant in fees107, hees208"
+ },
+ {
+  "ref": "indian_history_2.js#12",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the Purusha Sukta (lehs103 exercise) but not its Mandala.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs103.pdf",
+  "page": "Ch.3 exercise 4",
+  "quote": "derived from the Purusha sukta",
+  "searched": "Purusha Sukta, tenth mandala in lehs103, lehs104"
+ },
+ {
+  "ref": "indian_history_2.js#13",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the nadistuti sukta (hymn to 19 rivers) but not \"Naditama\" or the Saraswati as best of rivers.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees108.pdf",
+  "page": "Ch.8 Rivers",
+  "quote": "is a hymn (skta) in praise of (stuti) rivers (nad) that invokes 19 major rivers of ancient northwest India",
+  "searched": "Naditama, Saraswati in gees108, lehs101"
+ },
+ {
+  "ref": "indian_history_2.js#14",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Battle of Ten Kings / Parushni is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Dasarajna, Sudas, Parushni, Ten Kings in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#15",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the words sabha and samiti first appear in the Vedas; \"twin daughters of Prajapati\" is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees104.pdf",
+  "page": "Ch.4 Early Democratic Traditions",
+  "quote": "the words sabh and samiti first appear in the Vedas",
+  "searched": "Prajapati, sabha, samiti in gees104, fees107"
+ },
+ {
+  "ref": "indian_history_2.js#16",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Mahavira was preceded by 23 other tirthankaras (so he was the 24th) but does not name Parshvanatha as the 23rd.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 sec.3",
+  "quote": "According to Jaina tradition, Mahavira was preceded by 23 other teachers or tirthankaras",
+  "searched": "Parshvanatha, Neminatha in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#17",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Kundagrama and Mahavira's birthplace are not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Kundagrama, Mahavira born, Jnatrika in lehs104, fees107"
+ },
+ {
+  "ref": "indian_history_2.js#18",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT shows \"Pava\" only as a map label (lehs103 Map 1); Mahavira's death at Pavapuri is not stated.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Pavapuri, Mahavira nirvana in lehs103, lehs104, fees107"
+ },
+ {
+  "ref": "indian_history_2.js#19",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT has no text on Jain councils at Pataliputra or Vallabhi.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Vallabhi, Jain council, Devardhi in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#20",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Chandragupta Maurya's last days / Shravanabelagola is not in NCERT (Shravanabelagola appears only as a Jain temple site).",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Chandragupta Jain, Bhadrabahu, Shravanabelagola in gees105, lehs102, lehs104, hees208"
+ },
+ {
+  "ref": "indian_history_2.js#21",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 Source 8",
+  "quote": "where he was born (Lumbini), where he attained enlightenment (Bodh Gaya)",
+  "searched": "Lumbini in lehs104, fees107, lehs103"
+ },
+ {
+  "ref": "indian_history_2.js#22",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 Source 8",
+  "quote": "gave his first sermon (Sarnath)",
+  "searched": "Sarnath in lehs104, gees105"
+ },
+ {
+  "ref": "indian_history_2.js#23",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 Source 8",
+  "quote": "and where he attained nibbana (Kusinagara)",
+  "searched": "Kusinagara in lehs104, lehs103"
+ },
+ {
+  "ref": "indian_history_2.js#24",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 sec.4",
+  "quote": "of the Sakya clan. He had a sheltered upbringing",
+  "searched": "Sakya in lehs104, lehs103"
+ },
+ {
+  "ref": "indian_history_2.js#25",
+  "verdict": "AMBIGUOUS",
+  "problem": "NCERT lehs104 says the Buddha's teachings were first compiled after his death \"at a council of elders or senior monks at Vesali (Pali for Vaishali)\". The item gives Rajagriha as the First Council with Vaishali as a distractor, which is the usual convention outside NCERT. On NCERT alone Vaishali is also defensible. NCERT never names Rajagriha as a council site or Ajatashatru as patron.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 sec.2.3 (Buddhist texts)",
+  "quote": "or senior monks at Vesali (Pali for Vaishali in present-day Bihar)",
+  "searched": "council, Rajagriha, Vesali in lehs104, lehs102, gees104"
+ },
+ {
+  "ref": "indian_history_2.js#26",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT has no text on a Second Buddhist Council or Kalashoka.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Second Council, Kalashoka in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#27",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT has no text on a Third Buddhist Council or Moggaliputta Tissa.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Third Council, Moggaliputta Tissa in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#28",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the compilations were known as Tipitaka and that \"some of the oldest texts are in Pali\", but does not state the language of the Tripitaka outright.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+  "page": "Ch.4 sec.2.3",
+  "quote": "These compilations were known as Tipitaka literally, three baskets",
+  "searched": "Tripitaka, Pali in lehs104"
+ },
+ {
+  "ref": "indian_history_2.js#29",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT shows sixteen mahajanapadas; the Anguttara Nikaya is not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 sec.2.1",
+  "quote": "2.1 The sixteen mahajanapadas",
+  "searched": "sixteen mahajanapadas, Anguttara in lehs102, gees104"
+ },
+ {
+  "ref": "indian_history_2.js#30",
+  "verdict": "CONFIRMED",
+  "problem": "The capital is shown on NCERT's map of the sixteen mahajanapadas (Avanti with Ujjayini); the Vatsa/Kosala/Anga capital statements are not separately checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 Map 1",
+  "quote": "CHEDI AVANTI Ujjayini",
+  "searched": "Avanti, Ujjayini in lehs102, gees104"
+ },
+ {
+  "ref": "indian_history_2.js#31",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT names Bimbisara but not the Haryanka dynasty.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 sec.2.1",
+  "quote": "ruthlessly ambitious kings of whom Bimbisara, Ajatasattu and Mahapadma Nanda are the best known",
+  "searched": "Haryanka, Shishunaga in lehs102, gees104, gees105"
+ },
+ {
+  "ref": "indian_history_2.js#32",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the capital was shifted from Rajagaha to Pataliputra \"in the fourth century BCE\" and does not name Udayin; the item attributes it to Udayin.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 sec.2.1",
+  "quote": "Later, in the fourth century BCE, the capital was shifted to Pataliputra, present-day Patna",
+  "searched": "Udayin, Pataliputra founded in lehs102, gees104, gees105"
+ },
+ {
+  "ref": "indian_history_2.js#33",
+  "verdict": "CONFIRMED",
+  "problem": null,
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees105.pdf",
+  "page": "Ch.5 sec. Nandas",
+  "quote": "prominence in Magadha and founded the Nanda dynasty",
+  "searched": "Mahapadma Nanda in gees105, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#34",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT calls Megasthenes \"a Greek ambassador to the court of Chandragupta Maurya\" but does not say Seleucus sent him.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 sec.3.1",
+  "quote": "the account of Megasthenes (a Greek ambassador to the court of Chandragupta Maurya)",
+  "searched": "Megasthenes, Seleucus in gees105, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#35",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Bindusara and \"Amitraghata\" are not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Bindusara, Amitraghata in gees105, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#36",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Ashoka marched on Kalinga \"according to one of his edicts\" but gives no edict number.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees105.pdf",
+  "page": "Ch.5 Ashoka",
+  "quote": "he once marched on Kalinga (modern-day Odisha)",
+  "searched": "Rock Edict XIII, thirteenth edict in gees105, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#37",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the last Maurya emperor was assassinated about 185 BCE by Pushyamitra Shunga but does not name Brihadratha.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+  "page": "Ch.6",
+  "quote": "the last Maurya emperor was assassinated around 185 BCE",
+  "searched": "Brihadratha in gees105, gees106, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#38",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT only has the caption \"The Heliodorus pillar near Vidisha\". Besnagar, the Greek envoy Heliodorus honouring Vasudeva and Antialcidas are not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+  "page": "Ch.6 Fig. 6.19",
+  "quote": "Fig. 6.19. The Heliodorus pillar near Vidisha",
+  "searched": "Heliodorus, Besnagar, Vidisha in gees106, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#39",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT shows a coin of the Indo-Greek king Menander but not the Milindapanho or Nagasena.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 Fig. 2.12",
+  "quote": "A coin of the Indo-Greek king Menander",
+  "searched": "Milindapanho, Nagasena in lehs102, gees106, lehs104"
+ },
+ {
+  "ref": "indian_history_2.js#40",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists \"c. 78 CE ? Accession of Kanishka\" with a question mark but does not mention a Saka era or the Indian national calendar.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "c. 78 CE? Accession of Kanishka",
+  "searched": "Saka era, Shaka era in lehs102, gees106"
+ },
+ {
+  "ref": "indian_history_2.js#41",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Vikram Samvat / 57 BCE is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Vikram Samvat, 57 BCE in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#42",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Purushapura / Peshawar as Kanishka's capital is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Purushapura, Peshawar in gees106, lehs102"
+ },
+ {
+  "ref": "indian_history_2.js#43",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT has no text on the Nasik inscription or Gautami Balashri.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": null,
+  "searched": "Gautamiputra, Gautami Balashri, Nasik inscription in all texts"
+ },
+ {
+  "ref": "indian_history_2.js#44",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT says Mathura used red sandstone (not \"spotted\"), contrasting Gandhara's grey-black schist; \"white marble for Amaravati\" is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+  "page": "Ch.6 Mathura style",
+  "quote": "primarily used red sandstone",
+  "searched": "Mathura red sandstone, schist in gees106"
+ },
+ {
+  "ref": "indian_history_2.js#45",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT gives \"c. 320 CE Beginning of Gupta rule\" (not the era name or 319-320); consistent with the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "Ch.2 timeline",
+  "quote": "c. 320 CE Beginning of Gupta rule",
+  "searched": "Gupta era, 319 in lehs102, gees107"
+ }
+]

@@ -261,6 +261,40 @@ async function seedGkLibrary() {
 }
 
 /**
+ * Applies the content-quality log (db/corrections/*.json, scripts/applyContentCorrections.js) to questions already
+ * in the database, in place, when the log changed or the bank grew since the last run. The generator never
+ * updates existing questions, so this is how a corrected factbank question reaches existing databases.
+ */
+async function applyContentCorrections() {
+  if (!config.seed.auto) return;
+  const c = require('../../scripts/applyContentCorrections');
+  const state = mongoose.connection.db.collection('seed_state');
+  const fingerprint = `${c.correctionsFingerprint()}:${await mongoose.connection.db.collection('questions').estimatedDocumentCount()}`;
+  if ((await state.findOne({ _id: 'content_corrections' }))?.fingerprint === fingerprint) return;
+  const s = await c.applyCorrections({ log: warn });
+  await state.updateOne({ _id: 'content_corrections' }, { $set: { fingerprint, at: new Date(), applied: s.applied } }, { upsert: true });
+  log(`content corrections: ${s.applied} question(s) corrected in place (${s.entries} logged)`);
+}
+
+/**
+ * Loads the study-book chapters' practice questions (scripts/seedBooks.js) when a chapter file or a PYQ map
+ * changed since the last run. Invalid chapter files are reported and skipped.
+ */
+async function seedBooks() {
+  if (!config.seed.auto) return;
+  // Admin publish decisions first, so the questions follow them.
+  await require('../services/bookAdmin.service').refreshStates();
+  const seeder = require('../../scripts/seedBooks');
+  const state = mongoose.connection.db.collection('seed_state');
+  const fingerprint = seeder.booksFingerprint();
+  if ((await state.findOne({ _id: 'books' }))?.fingerprint === fingerprint) return;
+  const s = await seeder.ensureBooks({ log: warn });
+  await state.updateOne({ _id: 'books' }, { $set: { fingerprint, at: new Date(), chapters: s.chapters, published: s.published } }, { upsert: true });
+  log(`study books: ${s.chapters} chapters (${s.published} published), ${s.inserted} new and ${s.updated} updated questions${s.invalid ? `, ${s.invalid} invalid file(s) skipped` : ''}`);
+  if (s.clashes.length) warn(`study books: questions not inserted because they repeat existing ones: ${s.clashes.join('; ')}`);
+}
+
+/**
  * Exam categories added after the bank was built. Generation never re-tags existing
  * questions, so each of these gets its syllabus chapters' existing questions tagged
  * (scripts/addCategoryTargets.js) — once, and again only when its syllabus in
@@ -317,6 +351,8 @@ async function runSyncChain({ force = false } = {}) {
     .catch((e) => warn(`question bank generation failed: ${e.message}`));
   noteQuestionBankState({ status: 'initializing' });
   await seedGkLibrary().catch((e) => warn(`GK library not loaded: ${e.message}`));
+  await seedBooks().catch((e) => warn(`study books not loaded: ${e.message}`));
+  await applyContentCorrections().catch((e) => warn(`content corrections not applied: ${e.message}`));
   await tagCategoryTargets().catch((e) => warn(`exam category tagging failed: ${e.message}`));
   await tagGsSubtopics().catch((e) => warn(`GS subcategory tagging failed: ${e.message}`));
   await tagPatterns().catch((e) => warn(`pattern tagging failed: ${e.message}`));
@@ -365,4 +401,4 @@ function requestQuestionBankSync() {
   return { started: true };
 }
 
-module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, tagCategoryTargets, tagGsSubtopics, tagPatterns, startQuestionBankSeed, requestQuestionBankSync, sourcesFingerprint };
+module.exports = { bootstrapData, seedQuestionBank, seedGkLibrary, seedBooks, applyContentCorrections, tagCategoryTargets, tagGsSubtopics, tagPatterns, startQuestionBankSeed, requestQuestionBankSync, sourcesFingerprint };

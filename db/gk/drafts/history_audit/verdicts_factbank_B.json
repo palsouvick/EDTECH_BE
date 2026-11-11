@@ -1,0 +1,1584 @@
+[
+ {
+  "ref": "indian_history_2.js#46",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT shows a Gupta coin of Chandragupta I with his queen Kumaradevi but never names her clan. 'Lichchhavi' appears only for the Vajji mahajanapada, with no link to the Guptas. The Licchavi answer cannot be checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 5",
+  "quote": "Fig. 7.4. Gold coin featuring King Chandragupta I with his queen",
+  "searched": "Licchavi/Lichchhavi, Kumaradevi, Chandragupta I marriage in Class 7 Part 1 ch7, Class 12 Themes I-III"
+ },
+ {
+  "ref": "indian_history_2.js#47",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists Kalidasa among Gupta-period writers and says Chandragupta II kept poets around him, but never states that Kalidasa was at Chandragupta II's court. The Navaratnas are not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 13",
+  "quote": "Chandragupta II kept himself surrounded by many learned men, poets and artists",
+  "searched": "Kalidasa, Navaratna, Vikramaditya court, Chandragupta II patronage"
+ },
+ {
+  "ref": "indian_history_2.js#48",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Not in NCERT but not contradicted: the Aryabhatiya date 499 CE (NCERT says around 500 CE) and the satellite remark.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 14",
+  "quote": "proposed that the Earth spins on its axis, which explains the alternation of day and night",
+  "searched": "Aryabhata, Earth spins on axis"
+ },
+ {
+  "ref": "indian_history_2.js#49",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 5",
+  "quote": "`Chandra', who has been identified with Chandragupta II",
+  "searched": "Iron Pillar Mehrauli Chandra"
+ },
+ {
+  "ref": "indian_history_2.js#50",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Gupta rulers issued very fine gold coins but never uses the name 'dinara'. The tanka, jital and karshapana claims in the explanation are also not explained in the NCERT texts searched.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "PDF page 18",
+  "quote": "Some of the most spectacular gold coins were issued by the Gupta rulers.",
+  "searched": "dinara, Gupta gold coins, tanka, jital, karshapana"
+ },
+ {
+  "ref": "indian_history_2.js#51",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Hunas repeatedly attacked and weakened the Gupta empire; it names no Gupta ruler who repelled them. Skandagupta and the Bhitari inscription are absent.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 17",
+  "quote": "The fierce Huna tribe from central Asia repeatedly attacked the empire, weakening its control over north India.",
+  "searched": "Skandagupta, Hunas, Bhitari, Kumaragupta, Budhagupta"
+ },
+ {
+  "ref": "indian_history_2.js#52",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports Kannauj as Harsha's seat. The shift from Thanesar is not in NCERT (Thanesar is not mentioned).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "PDF page 23",
+  "quote": "c. 606-647 CE Harshavardhana king of Kanauj",
+  "searched": "Harsha Thanesar Kannauj capital"
+ },
+ {
+  "ref": "indian_history_2.js#53",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Pulakeshin II and the Narmada battle do not appear in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Pulakeshin, Pulakesi, Narmada Harsha, Chalukya Harsha"
+ },
+ {
+  "ref": "indian_history_2.js#54",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Harsha's plays Nagananda, Ratnavali, Priyadarshika do not appear in NCERT. Only the Harshacharita (a biography of Harsha) is mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "PDF page 13",
+  "quote": "The Harshacharita is a biography",
+  "searched": "Nagananda, Ratnavali, Priyadarshika, Harsha plays"
+ },
+ {
+  "ref": "indian_history_2.js#55",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Tripartite Struggle and the Gurjara-Pratihara/Rashtrakuta/Pala contest for Kannauj are not described in the NCERT texts checked (the Pratiharas are mentioned only in passing).",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Tripartite, Rashtrakuta, Pala Pratihara Kannauj"
+ },
+ {
+  "ref": "indian_history_2.js#56",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Kavirajamarga and Amoghavarsha do not appear in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Kavirajamarga, Amoghavarsha, earliest Kannada work"
+ },
+ {
+  "ref": "indian_history_2.js#57",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Pallavas built rock-cut caves and temples, but there is no mention of the Pancha Rathas, Narasimhavarman I or Mamallapuram.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 17",
+  "quote": "The Pallavas were also great patrons of art and architecture.",
+  "searched": "Pancha Rathas, Mahabalipuram rathas, Narasimhavarman, Mamalla"
+ },
+ {
+  "ref": "indian_history_2.js#58",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees204.pdf",
+  "page": "PDF page 15",
+  "quote": "who also ruled for nearly 30 years, expanded the empire further, conquering parts of present-day Odisha and Bengal. ... the Chola who seized (or brought)",
+  "searched": "Gangaikonda Chola title Rajendra"
+ },
+ {
+  "ref": "indian_history_2.js#59",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. 'Parantaka I' is not in NCERT (it says 10th century). Palm-leaf names drawn at random is in the Class 8 Part 2 text. Hathigumpha belongs to Kharavela (Class 7), so that distractor is wrong.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees109.pdf",
+  "page": "PDF page 13",
+  "quote": "the Uttaramerur inscriptions from the 10th century CE in Tamil Nadu, which provide us with details about the election of members to the village",
+  "searched": "Uttaramerur"
+ },
+ {
+  "ref": "indian_history_2.js#60",
+  "verdict": "AMBIGUOUS",
+  "problem": "NCERT says Sangam poetry refers to three crowned kings, the Cholas, Cheras and Pandyas, and calls Madurai the Pandya capital. It does not say the poets' assemblies were held under the Pandyas or describe three Sangams. On NCERT's text Cholas and Cheras are also defensible. Recommend dropping or rewording the item against a source that states the three-Sangam tradition.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+  "page": "PDF page 14",
+  "quote": "The Sangams refer to three `crowned kings'--the Cholas, Cheras and Pandyas.",
+  "searched": "Sangam patronage Pandya, three Sangams Madurai"
+ },
+ {
+  "ref": "indian_history_2.js#61",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Aurangabad district and the UNESCO remark are not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 16",
+  "quote": "the awe-inspiring Ajanta caves (in present-day Maharashtra)",
+  "searched": "Ajanta Maharashtra"
+ },
+ {
+  "ref": "indian_history_2.js#62",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. 'Near Vidisha' is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees203.pdf",
+  "page": "PDF page 8",
+  "quote": "main stupa at Sanchi (Figs. 3.8 and 3.10) in Madhya Pradesh",
+  "searched": "Sanchi Madhya Pradesh"
+ },
+ {
+  "ref": "indian_history_2.js#63",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The count '34 caves' and the Ajanta remark are not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/fees107.pdf",
+  "page": "PDF page 15",
+  "quote": "Caves cut into the rock at Ellora (Maharashtra) between the 6th and the 10th centuries CE. Some of the caves are Hindu, others are Buddhist and Jain.",
+  "searched": "Ellora religions"
+ },
+ {
+  "ref": "indian_history_2.js#64",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer (Ashtadhyayi, rules of Sanskrit grammar). 'Eight chapters' is not stated in NCERT but is not contradicted.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees105.pdf",
+  "page": "PDF page 13",
+  "quote": "The famed Sanskrit grammarian Panini lived around the 5th ... He is known for composing the Ashtadhyayi, an ancient text that lists the rules of Sanskrit grammar",
+  "searched": "Panini Ashtadhyayi"
+ },
+ {
+  "ref": "indian_history_2.js#65",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT names the Charaka and Sushruta Samhitas together and says they cover diagnosis, treatment, medicines and surgical techniques. It does not say that Sushruta deals 'mainly' with surgery or that Charaka is general medicine.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees107.pdf",
+  "page": "PDF page 16",
+  "quote": "and surgical techniques advanced for their time",
+  "searched": "Sushruta Samhita surgery, Charaka"
+ },
+ {
+  "ref": "indian_history_2.js#66",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports 712 (the Class 12 Part 1 timeline). Disagreement inside NCERT: Class 12 Part II (Bhakti-Sufi) says 'In 711 an Arab general named Muhammad Qasim conquered Sind'. 711 is not an option, so the answer stands. Raja Dahir is not named in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+  "page": "PDF page 23",
+  "quote": "c. 712 Arabs conquer Sind",
+  "searched": "Muhammad bin Qasim, Sind 711/712, Dahir"
+ },
+ {
+  "ref": "indian_history_2.js#67",
+  "verdict": "CONTRADICTED",
+  "problem": "NCERT's Class 7 Part 2 timeline dates the destruction and plundering of Somnath by Mahmud to 1026, not 1025 (the timeline is in three columns, so the extracted words are interleaved: '1026: Mahmud destroys and plunders the Somnath temple'). Many other references give late 1025 / early 1026 for the raid, so the owner may prefer to keep both ideas out of the question. Fix follows NCERT.",
+  "fix": {
+   "answer": "1026 CE",
+   "wrong": [
+    "1001 CE",
+    "1018 CE",
+    "1030 CE"
+   ],
+   "explanation": "According to NCERT, Mahmud of Ghazni destroyed and plundered the Somnath temple in Gujarat in 1026 CE, one of his many raids on India."
+  },
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees204.pdf",
+  "page": "PDF page 2",
+  "quote": "1026: Mahmd ... destroys and ... Somnath temple",
+  "searched": "Somnath, Mahmud Ghazni year"
+ },
+ {
+  "ref": "indian_history_2.js#68",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. 'Tahqiq-i-Hind' is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs201.pdf",
+  "page": "PDF page 2, 3",
+  "quote": "Kitab-ul-Hind, written in Arabic ... Al-Biruni was one of them. He arrived in Ghazni as",
+  "searched": "Al-Biruni, Kitab-ul-Hind, Ghazni"
+ },
+ {
+  "ref": "indian_history_2.js#69",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer, including Prithviraj's earlier win in 1191.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/gees204.pdf",
+  "page": "PDF page 19",
+  "quote": "In this Second Battle of Tarain, which witnessed fierce fighting, Muhammad defeated ... In 1191, he also defeated Muhammad",
+  "searched": "Tarain, Muhammad Ghori, Prithviraj"
+ },
+ {
+  "ref": "indian_history_2.js#70",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Qutb-ud-din Aibak is mentioned only as a general who later founded the Delhi Sultanate and as the starter of the Quwwat-ul-Islam mosque. His death while playing chaugan is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 5",
+  "quote": "its construction began in Qutub-ud-din Aibak's time (early 13th century)",
+  "searched": "Aibak death polo chaugan Lahore"
+ },
+ {
+  "ref": "indian_history_2.js#71",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Iltutmish is not mentioned in the NCERT texts checked, so the tanka/jital claim cannot be checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Iltutmish, tanka, jital"
+ },
+ {
+  "ref": "indian_history_2.js#72",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Turkan-i-Chahalgani and Iltutmish do not appear in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Chahalgani, Turkan, forty nobles, Iltutmish"
+ },
+ {
+  "ref": "indian_history_2.js#73",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Balban and the Diwan-i-Arz do not appear in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Balban, Diwan-i-Arz"
+ },
+ {
+  "ref": "indian_history_2.js#74",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists the Khiljis as a Sultanate dynasty but never names Jalal-ud-din Khalji or his founding date.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 5",
+  "quote": "the Mamluks (or `Slave dynasty'), the Khiljis (or Khaljis)",
+  "searched": "Jalal-ud-din Khalji, Khalji founder 1290"
+ },
+ {
+  "ref": "indian_history_2.js#75",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The named campaigns in the explanation (Devagiri, Warangal) are not in NCERT; NCERT names Srirangam, Madurai, Chidambaram.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 6",
+  "quote": "His slave-general Malik Kafur expanded the Sultanate's reach southward",
+  "searched": "Malik Kafur"
+ },
+ {
+  "ref": "indian_history_2.js#76",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Alai Darwaza is not mentioned in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Alai Darwaza, Qutub complex Alauddin"
+ },
+ {
+  "ref": "indian_history_2.js#77",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The year 1327 is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 7",
+  "quote": "One such was moving his capital from Delhi to Daulatabad (then called `Devagiri'",
+  "searched": "Muhammad bin Tughlaq capital Daulatabad"
+ },
+ {
+  "ref": "indian_history_2.js#78",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the Topra Ashokan pillar standing at Feroz Shah Kotla but does not say Firoz Shah Tughlaq moved it, and does not mention the Meerut pillar.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Firoz Shah Tughlaq pillars Topra Meerut"
+ },
+ {
+  "ref": "indian_history_2.js#79",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Diwan-i-Khairat and Firoz Shah's charity department are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Diwan-i-Khairat, Firoz Shah"
+ },
+ {
+  "ref": "indian_history_2.js#80",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT dates Timur's attack on Delhi to 1398 but does not name the Tughlaq ruler. Nasir-ud-din Mahmud is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 8",
+  "quote": "Timur soon withdrew from India with huge plunder",
+  "searched": "Timur 1398 Nasir-ud-din Mahmud"
+ },
+ {
+  "ref": "indian_history_2.js#81",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT names the Sayyids as a Sultanate dynasty only. Khizr Khan and 1414 are not mentioned.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Khizr Khan, Sayyid dynasty founder"
+ },
+ {
+  "ref": "indian_history_2.js#82",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Lodis emerged after Timur and formed the last dynasty. Bahlul Lodi and 1451 are not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 8",
+  "quote": "In the aftermath, the Lodis emerged and established the last dynasty of the Delhi Sultanate.",
+  "searched": "Bahlul Lodi, Lodi founder"
+ },
+ {
+  "ref": "indian_history_2.js#83",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The founding of Agra by Sikandar Lodi in 1504 is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Agra founded Sikandar Lodi 1504"
+ },
+ {
+  "ref": "indian_history_2.js#84",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Amir Khusrau appears in Class 12 only as a Chishti disciple and poet. The title 'Tuti-e-Hind' is not in NCERT.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Tuti-e-Hind, Amir Khusrau"
+ },
+ {
+  "ref": "indian_history_2.js#85",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the Baburnama as Babur's memoirs but never gives the language (Turki/Chagatai).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 17",
+  "quote": "Babur left a candid autobiography of great historical value, Baburnama (`Babur's Memoirs').",
+  "searched": "Baburnama language Turki"
+ },
+ {
+  "ref": "indian_history_2.js#86",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Sher Shah established the Sur empire after Humayun's weakness but does not name Chausa, Kannauj or Bilgram.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 17",
+  "quote": "Sher Shah Suri, a",
+  "searched": "Chausa, Kannauj 1540, Bilgram"
+ },
+ {
+  "ref": "indian_history_2.js#87",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Sher Shah's tomb at Sasaram is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Sasaram, Sher Shah tomb"
+ },
+ {
+  "ref": "indian_history_2.js#88",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. NCERT calls Hemu the chief minister (wazir) under one of the last Suri rulers; Bairam Khan is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 17",
+  "quote": "he was injured on the battlefield (the Second Battle of Panipat) when confronted by Babur's grandson, Akbar.",
+  "searched": "Second Panipat Hemu"
+ },
+ {
+  "ref": "indian_history_2.js#89",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions Akbar's doctrine of sulh-i-kul but not the Din-i-Ilahi or the year 1582.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Din-i-Ilahi, Tauhid-i-Ilahi 1582"
+ },
+ {
+  "ref": "indian_history_2.js#90",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Ibadat Khana is not mentioned in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Ibadat Khana, 1575"
+ },
+ {
+  "ref": "indian_history_2.js#91",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Akbar abolished the jizya but gives no year, so 1564 cannot be checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 18",
+  "quote": "abolished the jizya, and when Akbar finally broke into the",
+  "searched": "Akbar jizya 1564"
+ },
+ {
+  "ref": "indian_history_2.js#92",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Aurangzeb reimposed the jizya but gives no year, so 1679 cannot be checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 23",
+  "quote": "reimposed the jizya tax on non-Muslims as well as a pilgrimage tax on Hindus travelling to their sacred places",
+  "searched": "Aurangzeb jizya 1679"
+ },
+ {
+  "ref": "indian_history_2.js#93",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Zat and sawar are not named in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 34",
+  "quote": "Akbar also instituted the mansabdari system.",
+  "searched": "mansabdari Akbar"
+ },
+ {
+  "ref": "indian_history_2.js#94",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Zanjir-i-Adl (chain of justice) is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "chain of justice, Zanjir-i-Adl, Jahangir"
+ },
+ {
+  "ref": "indian_history_2.js#95",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Shah Jahan built the Taj Mahal but does not name an architect.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees203.pdf",
+  "page": "PDF page 31",
+  "quote": "In the mid 17th century, Shah Jahan built the Taj Mahal",
+  "searched": "Ustad Ahmad Lahori, Taj Mahal architect"
+ },
+ {
+  "ref": "indian_history_2.js#96",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Peacock Throne is not in NCERT (Nadir Shah's invasion of 1739 is listed on a Class 12 timeline).",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Peacock Throne, Takht-i-Taus"
+ },
+ {
+  "ref": "indian_history_2.js#97",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the Red Forts of Delhi and Agra among Mughal buildings of the period but does not say who built the Delhi one.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 22",
+  "quote": "the building of Humayun's tomb in Delhi and the Red Forts in Delhi and Agra",
+  "searched": "Red Fort Delhi builder Shah Jahan"
+ },
+ {
+  "ref": "indian_history_2.js#98",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Bibi ka Maqbara is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Bibi ka Maqbara, Dilras Banu"
+ },
+ {
+  "ref": "indian_history_2.js#99",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Dara Shikoh appears in NCERT only as the eldest son of Shah Jahan and a patron. Sirr-i-Akbar is not mentioned.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Sirr-i-Akbar, Dara Shikoh Upanishads"
+ },
+ {
+  "ref": "indian_history_2.js#100",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Aurangzeb defeated Dara in a series of battles and crowned himself in 1658, but does not name Samugarh.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 23",
+  "quote": "Aurangzeb crowned himself emperor in 1658",
+  "searched": "Samugarh 1658"
+ },
+ {
+  "ref": "indian_history_2.js#101",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer: it names Nankana Sahib as his birthplace. 'Talwandi' is not used in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+  "page": "PDF page 24",
+  "quote": "was born in a Hindu merchant family in a village called Nankana Sahib near the river Ravi",
+  "searched": "Guru Nanak birthplace"
+ },
+ {
+  "ref": "indian_history_2.js#102",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The year 1604 and the Harmandir Sahib remark are not in NCERT. NCERT also uses the name 'Adi Granth Sahib' in Class 12.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 30",
+  "quote": "was first compiled by Guru Arjan",
+  "searched": "Adi Granth compiled Guru Arjan"
+ },
+ {
+  "ref": "indian_history_2.js#103",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Anandpur and Baisakhi are not in NCERT; the year 1699 is on a Class 8 timeline.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 30",
+  "quote": "established the Khalsa -- a martial brotherhood",
+  "searched": "Khalsa Guru Gobind Singh 1699"
+ },
+ {
+  "ref": "indian_history_2.js#104",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+  "page": "PDF page 25",
+  "quote": "instead recognising Krishna, the avatar of Vishnu, as her lover.",
+  "searched": "Mirabai Krishna"
+ },
+ {
+  "ref": "indian_history_2.js#105",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Surdas is only named in a Class 12 list of bhakti teachers. Sursagar is not mentioned.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Sursagar, Surdas"
+ },
+ {
+  "ref": "indian_history_2.js#106",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists Shaikh Muinuddin Sijzi first among Chishti teachers (died 1235, Ajmer) but does not say he founded the Chishti order in India.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+  "page": "PDF page 15",
+  "quote": "Shaikh Muinuddin Sijzi 1235 Ajmer (Rajasthan)",
+  "searched": "Chishti order founder India Moinuddin"
+ },
+ {
+  "ref": "indian_history_2.js#107",
+  "verdict": "PARTLY_WRONG",
+  "problem": "The answer Multan fits NCERT (Zakariya's dargah is at Multan), but NCERT does not say he founded the order. The explanation 'unlike the Chishtis, they accepted state grants' is not what NCERT says: it says sufis in general, including the Suhrawardi, accepted grants, and that the Chishtis accepted donations too but kept their distance from power.",
+  "fix": {
+   "explanation": "Bahauddin Zakariya's dargah is at Multan. The Suhrawardi sufis accepted grants and donations from the state, sometimes even courtly offices, while the Chishtis kept a distance from worldly power."
+  },
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+  "page": "PDF page 20",
+  "quote": "accepted unsolicited grants and donations from the ... The Chishtis accepted donations in cash and kind.",
+  "searched": "Suhrawardi, Bahauddin Zakariya, Multan"
+ },
+ {
+  "ref": "indian_history_2.js#108",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Karnataka and UNESCO are not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs203.pdf",
+  "page": "PDF page 15",
+  "quote": "We now move to the rocky northern end of the city on the banks of the Tungabhadra.",
+  "searched": "Hampi Tungabhadra"
+ },
+ {
+  "ref": "indian_history_2.js#109",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Krishnadevaraya patronised poets in Sanskrit, Telugu and Kannada but never mentions the Ashtadiggajas or Allasani Peddana.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+  "page": "PDF page 14",
+  "quote": "He patronised poets and scholars in Sanskrit, Telugu and Kannada",
+  "searched": "Ashtadiggaja, Peddana"
+ },
+ {
+  "ref": "indian_history_2.js#110",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Abdur Razzaq visited south India in the 1440s but does not name the Vijayanagara king. Deva Raya II is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs201.pdf",
+  "page": "PDF page 7",
+  "quote": "Abdur Razzaq Samarqandi, who visited south India in the 1440s",
+  "searched": "Abdur Razzaq Deva Raya II"
+ },
+ {
+  "ref": "indian_history_2.js#111",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer: Paes is a sixteenth-century visitor who describes Krishnadeva Raya's works and the king himself. The year 1520 is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs203.pdf",
+  "page": "PDF page 8, 23",
+  "quote": "Krishnadeva Raya, Paes wrote: ... And this is how Paes describes the king:",
+  "searched": "Domingo Paes Krishnadeva Raya"
+ },
+ {
+  "ref": "indian_history_2.js#112",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Mahmud Gawan and his Bidar madrasa are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Mahmud Gawan, Bidar madrasa"
+ },
+ {
+  "ref": "indian_history_2.js#113",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Gol Gumbaz is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Gol Gumbaz, Muhammad Adil Shah"
+ },
+ {
+  "ref": "indian_history_2.js#114",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Charminar and Muhammad Quli Qutb Shah are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Charminar, Quli Qutb Shah"
+ },
+ {
+  "ref": "indian_history_2.js#115",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Sadashivrao Bhau is not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs204.pdf",
+  "page": "PDF page 26",
+  "quote": "Ahmad Shah Abdali defeats the Marathas in the third battle of Panipat",
+  "searched": "Third Panipat Abdali"
+ },
+ {
+  "ref": "indian_history_2.js#116",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+  "page": "PDF page 13",
+  "quote": "chauth (25 per cent) and sardeshmukhi (an additional 10 per cent to chauth)",
+  "searched": "chauth sardeshmukhi"
+ },
+ {
+  "ref": "indian_history_2.js#117",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The year 1665 and '23 forts' are not in NCERT (it says Shivaji gave up a sizeable part of his kingdom).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+  "page": "PDF page 6",
+  "quote": "Aurangzeb sent Jai Singh, a distinguished Rajput general ... Chhatrapati Shivaji had to concede defeat at Purandar Fort (near Pune) and enter into a treaty.",
+  "searched": "Purandar Jai Singh"
+ },
+ {
+  "ref": "indian_history_2.js#118",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The month May is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 2",
+  "quote": "1498: Vasco da Gama's arrival at Calicut (Kozhikode)",
+  "searched": "Vasco da Gama 1498"
+ },
+ {
+  "ref": "indian_history_2.js#119",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Portuguese captured Goa in 1510 but does not name Albuquerque.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 6",
+  "quote": "(in 1510), which became the",
+  "searched": "Albuquerque Goa 1510"
+ },
+ {
+  "ref": "indian_history_2.js#120",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The date 31 December 1600 is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 10",
+  "quote": "was granted a royal charter by Queen Elizabeth I",
+  "searched": "East India Company charter Elizabeth"
+ },
+ {
+  "ref": "indian_history_2.js#121",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Bombay as Catherine of Braganza's dowry is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Bombay dowry Catherine of Braganza"
+ },
+ {
+  "ref": "indian_history_2.js#122",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the French set up Pondicherry in 1674 but does not name Francois Martin.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 8",
+  "quote": "subsequently at Pondicherry (presentday Puducherry) in 1674",
+  "searched": "Pondicherry Francois Martin"
+ },
+ {
+  "ref": "indian_history_2.js#123",
+  "verdict": "PARTLY_WRONG",
+  "problem": "The answer is right. The explanation says Hastings became Governor-General 'in 1774'; NCERT says he was Governor-General from 1773 to 1785. Other references give 1774 (when he took office), so the safest fix removes the year.",
+  "fix": {
+   "explanation": "Warren Hastings became the first Governor-General of Bengal (Fort William) under the Regulating Act of 1773."
+  },
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+  "page": "PDF page 13",
+  "quote": "Warren Hastings (Governor-General from 1773 to 1785)",
+  "searched": "Warren Hastings first Governor-General"
+ },
+ {
+  "ref": "indian_history_2.js#124",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Elijah Impey is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+  "page": "PDF page 14",
+  "quote": "Act of 1773, a new Supreme Court was established",
+  "searched": "Regulating Act Supreme Court"
+ },
+ {
+  "ref": "indian_history_2.js#125",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Pitt's India Act and the Board of Control's creation are not in NCERT. The Board of Control appears only as the body whose president issued Wood's Despatch.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Pitt's India Act 1784, Board of Control"
+ },
+ {
+  "ref": "indian_history_2.js#126",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Charter Act of 1813 and its Rs 1 lakh for education are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Charter Act 1813, one lakh education"
+ },
+ {
+  "ref": "indian_history_2.js#127",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Charter Act of 1853 and open competition for civil services are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Charter Act 1853, competitive examination civil service"
+ },
+ {
+  "ref": "indian_history_2.js#128",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT says the British Crown under Queen Victoria took direct control from the Company in 1858 and ruled through a Secretary of State. It does not name the 'Government of India Act, 1858' itself; the other options are other years, so the answer stands.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 5",
+  "quote": "Queen Victoria took direct control of India from the East India Company.",
+  "searched": "Government of India Act 1858, Crown takes over"
+ },
+ {
+  "ref": "indian_history_2.js#129",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions subsidiary alliance in general but does not say Hyderabad accepted it first or give 1798.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Subsidiary Alliance Hyderabad Nizam 1798"
+ },
+ {
+  "ref": "indian_history_2.js#130",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+  "page": "PDF page 9",
+  "quote": "Tipu Sultan was killed defending ... his capital Shrirangapatnam",
+  "searched": "Tipu Sultan death 1799"
+ },
+ {
+  "ref": "indian_history_2.js#131",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Treaty of Amritsar (1809) is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Treaty of Amritsar 1809, Ranjit Singh Metcalfe Sutlej"
+ },
+ {
+  "ref": "indian_history_2.js#132",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer; it credits Alexander Read's trial and Munro's development of the ryotwari system.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess203.pdf",
+  "page": "PDF page 4",
+  "quote": "Subsequently developed by Thomas Munro, this system was gradually extended all over south India.",
+  "searched": "Ryotwari Munro"
+ },
+ {
+  "ref": "indian_history_2.js#133",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess203.pdf",
+  "page": "PDF page 4",
+  "quote": "an Englishman called Holt Mackenzie devised the new system which came into effect in 1822.",
+  "searched": "Mahalwari Holt Mackenzie"
+ },
+ {
+  "ref": "indian_history_2.js#134",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The date 29 March is not in NCERT (NCERT gives 8 April 1857 for his hanging).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 27",
+  "quote": "At Barrackpore (in present-day West Bengal), the sepoy Mangal Pandey attacked British officers.",
+  "searched": "Mangal Pandey Barrackpore"
+ },
+ {
+  "ref": "indian_history_2.js#135",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. 'First Viceroy in 1858' is not stated in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs302.pdf",
+  "page": "PDF page 25",
+  "quote": "When Governor General Canning declared that a gesture of leniency",
+  "searched": "Canning 1857"
+ },
+ {
+  "ref": "indian_history_2.js#136",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer (Nana Saheb, adopted son of Baji Rao II).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 28",
+  "quote": "At Kanpur, rebel forces under Nana Saheb",
+  "searched": "Nana Saheb Kanpur"
+ },
+ {
+  "ref": "indian_history_2.js#137",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+  "page": "PDF page 9",
+  "quote": "were sent to prison in Rangoon in October",
+  "searched": "Bahadur Shah Zafar Rangoon"
+ },
+ {
+  "ref": "indian_history_2.js#138",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Lakshmibai conquered the Gwalior fort and was killed on 18 June 1858 on the battlefield, but does not say where she died. Kalpi is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 29",
+  "quote": "to conquer the Gwalior fort, seizing the treasury and the arsenal. She was killed on 18 June 1858 on the battlefield.",
+  "searched": "Lakshmibai death place Gwalior Kalpi"
+ },
+ {
+  "ref": "indian_history_2.js#139",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT calls Tantia Tope Nana Saheb's military adviser but gives no birth name.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 29",
+  "quote": "Tatia (or Tantia) Tope, Nana Saheb's military adviser",
+  "searched": "Tantia Tope real name Ramachandra Pandurang"
+ },
+ {
+  "ref": "indian_history_2.js#140",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+  "page": "PDF page 12",
+  "quote": "The hereditary Military Commander of the deposed king, Jagabandhu Bidyadhar Mahapatra Bhramarabar Rai or Buxi Jagabandhu as he was popularly known",
+  "searched": "Paika rebellion Jagabandhu"
+ },
+ {
+  "ref": "indian_history_2.js#141",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Ranchi and 15 November are not in the text checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 13",
+  "quote": "In 18991900, Birsa led a widespread uprising known",
+  "searched": "Ulgulan Birsa Munda"
+ },
+ {
+  "ref": "indian_history_2.js#142",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. It says Baba Ram Singh was exiled to Burma (Rangoon is in Burma).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 11",
+  "quote": "Baba Ram Singh took up and amplified in Punjab the socio-religious and political movement known as the Kuka Movement ... Baba Ram Singh was arrested and exiled to Burma",
+  "searched": "Kuka Namdhari movement"
+ },
+ {
+  "ref": "indian_history_2.js#143",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Moplah/Mappila rebellion is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Moplah, Mappila, Malabar 1921"
+ },
+ {
+  "ref": "indian_history_2.js#144",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 7",
+  "quote": "Arya Samaj Swami Dayananda 1875,",
+  "searched": "Arya Samaj Dayananda 1875"
+ },
+ {
+  "ref": "indian_history_2.js#145",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Satyarth Prakash is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Satyarth Prakash"
+ },
+ {
+  "ref": "indian_history_2.js#146",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The year 1897 is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 9",
+  "quote": "He also founded the Ramakrishna Mission, which aimed to combine spiritual practice with social service.",
+  "searched": "Ramakrishna Mission founder"
+ },
+ {
+  "ref": "indian_history_2.js#147",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Theosophical Society and Adyar are not in the NCERT texts checked (Annie Besant is mentioned only for Home Rule).",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Theosophical Society, Adyar"
+ },
+ {
+  "ref": "indian_history_2.js#148",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The 1920 date in the explanation is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+  "page": "PDF page 14",
+  "quote": "The Mohammedan Anglo-Oriental College, founded by Sayyid Ahmed Khan in 1875 at Aligarh, later became the Aligarh Muslim University.",
+  "searched": "MAO College Aligarh Syed Ahmad Khan"
+ },
+ {
+  "ref": "indian_history_2.js#149",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT names E.V. Ramaswamy Naicker as a caste-reform leader in the south but does not mention the Self-Respect Movement or 1925.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Self-Respect Movement Periyar 1925"
+ },
+ {
+  "ref": "indian_history_2.js#150",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions Narayana Guru preaching unity among the Ezhavas but not the SNDP Yogam or 1903.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+  "page": "PDF page 9",
+  "quote": "a guru from Ezhava caste, Shri Narayana Guru, proclaimed the ideals of",
+  "searched": "SNDP Yogam 1903"
+ },
+ {
+  "ref": "indian_history_2.js#151",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Poona and 1905 are not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 19",
+  "quote": "Gopal Krishna Gokhale (an educationist and founder of the Servants of India Society)",
+  "searched": "Servants of India Society"
+ },
+ {
+  "ref": "indian_history_2.js#152",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports Hume as the central figure behind the Congress; it also says Naoroji and W.C. Bonnerjee (first president) 'played leading roles', so the distractors are leaders but not 'the founder' in NCERT's telling.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 10",
+  "quote": "Ultimately, he resigned in 1882 and worked to bring together a group of like-minded Indians.",
+  "searched": "Hume founder Congress"
+ },
+ {
+  "ref": "indian_history_2.js#153",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The venue (Gokuldas Tejpal Sanskrit College) is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 10",
+  "quote": "Seventy-two delegates from diverse regions and religions attended",
+  "searched": "first session Congress delegates"
+ },
+ {
+  "ref": "indian_history_2.js#154",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT lists Badruddin Tyabji among early Congress leaders but does not say he was the first Muslim president or give 1887.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "PDF page 3",
+  "quote": "Dadabhai Naoroji, Pherozeshah Mehta, Badruddin Tyabji, W.C. Bonnerji",
+  "searched": "first Muslim President Congress Tyabji"
+ },
+ {
+  "ref": "indian_history_2.js#155",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Kanpur is not named in NCERT; the Annie Besant comment is not contradicted.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 36",
+  "quote": "was the first Indian woman president of the Congress in 1925",
+  "searched": "Sarojini Naidu Congress president"
+ },
+ {
+  "ref": "indian_history_2.js#156",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees104.pdf",
+  "page": "PDF page 16",
+  "quote": "Naoroji, a respected political figure, authored in 1901 Poverty ... Un-British Rule in India, in which he compiled from British reports the wealth estimated to have been drained out of India.",
+  "searched": "Drain theory Naoroji"
+ },
+ {
+  "ref": "indian_history_2.js#157",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 17",
+  "quote": "the Congress session at Calcutta, with Dadabhai Naoroji as president, declared Swaraj",
+  "searched": "Calcutta 1906 Naoroji Swaraj"
+ },
+ {
+  "ref": "indian_history_2.js#158",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer; the evidence is a table entry in the Class 8 Part 2 timeline (garbled by the PDF layout) saying the Lucknow Pact promotes Congress-Muslim League cooperation. The Moderates-Extremists reunion in the explanation is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 3",
+  "quote": "Annie Besant; Lucknow Muslim- ... Pact promotes Congress",
+  "searched": "Lucknow Pact 1916"
+ },
+ {
+  "ref": "indian_history_2.js#159",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 22",
+  "quote": "Tilak famously declared, \"Swaraj is my birthright and I shall have it.\"",
+  "searched": "Swaraj is my birthright"
+ },
+ {
+  "ref": "indian_history_2.js#160",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Tilak launched the Home Rule Movement with Annie Besant but gives no place or month for his League.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 26",
+  "quote": "Tilak launched the Home Rule Movement",
+  "searched": "Home Rule League Belgaum"
+ },
+ {
+  "ref": "indian_history_2.js#161",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says Gandhi returned to India in 1915 but does not give 9 January. One distractor (15 August 1915) is also in 1915, so the year alone cannot decide.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 26",
+  "quote": "returned to India in 1915 and, at Gopal Krishna Gokhale's advice, joined",
+  "searched": "Gandhi return 9 January 1915"
+ },
+ {
+  "ref": "indian_history_2.js#162",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs303.pdf",
+  "page": "PDF page 2",
+  "quote": "Gandhiji's acknowledged political mentor, Gopal Krishna Gokhale",
+  "searched": "Gandhi political guru Gokhale"
+ },
+ {
+  "ref": "indian_history_2.js#163",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer (excessive land revenue at Kheda; indigo is Bihar, mill-workers' wages Ahmedabad). 'Crop failure' is not stated in the NCERT text checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 27",
+  "quote": "impoverished peasants in Kheda (Gujarat), from whom British officials demanded excessive land revenue",
+  "searched": "Kheda Satyagraha 1918"
+ },
+ {
+  "ref": "indian_history_2.js#164",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. O'Dwyer is described as Punjab's then lieutenant governor.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 28",
+  "quote": "Brigadier-General Dyer and his troops sealed the main exit and opened fire on the unarmed crowd.",
+  "searched": "Dyer Jallianwala Bagh"
+ },
+ {
+  "ref": "indian_history_2.js#165",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 29",
+  "quote": "In the same letter, Tagore returned the knighthood he had received from the British.",
+  "searched": "Tagore knighthood"
+ },
+ {
+  "ref": "indian_history_2.js#166",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions a British-dominated inquiry committee that condemned Dyer but does not name it or its chairman.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 29",
+  "quote": "proudly defended his action before a British-dominated inquiry committee",
+  "searched": "Hunter Committee, Lord Hunter"
+ },
+ {
+  "ref": "indian_history_2.js#167",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 30",
+  "quote": "Muslim leaders such as Muhammad Ali and Shaukat Ali, also known as the Ali brothers, and Maulana Abul Kalam Azad launched in 1919 the Khilafat Movement",
+  "searched": "Khilafat Ali brothers"
+ },
+ {
+  "ref": "indian_history_2.js#168",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Lahore and November 1928 are not in NCERT (timeline says 1927-28).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 3",
+  "quote": "Simon Commission boycotted; Lala Lajpat Rai dies after police lathi charge",
+  "searched": "Lajpat Rai Simon Commission lathi"
+ },
+ {
+  "ref": "indian_history_2.js#169",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 3",
+  "quote": "the Motilal Nehru Report calls for dominion status",
+  "searched": "Nehru Report 1928"
+ },
+ {
+  "ref": "indian_history_2.js#170",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Jinnah's Fourteen Points are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Fourteen Points Jinnah 1929"
+ },
+ {
+  "ref": "indian_history_2.js#171",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The start date 12 March is not in NCERT (NCERT says March-April 1930).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "PDF page 13",
+  "quote": "marched for over 240 miles from Sabarmati to the coastal town of Dandi",
+  "searched": "Dandi March Sabarmati"
+ },
+ {
+  "ref": "indian_history_2.js#172",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer; it places Gandhi at the second Round Table Conference with Ambedkar. The 'sole Congress representative' remark is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/jess302.pdf",
+  "page": "PDF page 16",
+  "quote": "clashed with Mahatma Gandhi at the second Round Table Conference",
+  "searched": "Gandhi Round Table Conference"
+ },
+ {
+  "ref": "indian_history_2.js#173",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/jess302.pdf",
+  "page": "PDF page 16",
+  "quote": "Ambedkar ultimately accepted Gandhiji's position and the result was the Poona Pact of September 1932.",
+  "searched": "Poona Pact"
+ },
+ {
+  "ref": "indian_history_2.js#174",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Karachi session of 1931, Patel's presidency and the Fundamental Rights resolution are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Karachi session 1931 Patel Fundamental Rights"
+ },
+ {
+  "ref": "indian_history_2.js#175",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 3",
+  "quote": "1935: Government of India Act of ... introduces provincial autonomy",
+  "searched": "GOI Act 1935 provincial autonomy"
+ },
+ {
+  "ref": "indian_history_2.js#176",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions the Government of India Act of 1919 and provincial councils but never uses the word dyarchy or the reserved/transferred split.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/jess302.pdf",
+  "page": "PDF page 10",
+  "quote": "provincial councils that had been set up by the Government of India Act of 1919",
+  "searched": "dyarchy 1919"
+ },
+ {
+  "ref": "indian_history_2.js#177",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Tripuri session of 1939 and Pattabhi Sitaramayya do not appear in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Tripuri 1939, Pattabhi Sitaramayya"
+ },
+ {
+  "ref": "indian_history_2.js#178",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Forward Bloc as Bose's party is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Forward Bloc Subhas Bose 1939"
+ },
+ {
+  "ref": "indian_history_2.js#179",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The August Offer of 1940 is not in the NCERT texts checked. Linlithgow appears only for the 1939 meeting and for the Quit India remark.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "August Offer 1940 Linlithgow"
+ },
+ {
+  "ref": "indian_history_2.js#180",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the Congress organised individual satyagrahas in 1940-41 but names no participants, so Vinoba Bhave as the first cannot be checked.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/lehs303.pdf",
+  "page": "PDF page 17",
+  "quote": "the Congress organised a series of individual satyagrahas to pressure the rulers",
+  "searched": "Vinoba Bhave first individual satyagrahi"
+ },
+ {
+  "ref": "indian_history_2.js#181",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the AICC endorsed the Quit India resolution on 8 August 1942 in Bombay. It names Gowalia Tank Maidan only for Aruna Asaf Ali's flag hoisting, not as the venue of the resolution.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/jess302.pdf",
+  "page": "PDF page 21",
+  "quote": "On 8 August 1942 in Bombay, the All India Congress Committee endorsed the resolution",
+  "searched": "Gowalia Tank Quit India resolution"
+ },
+ {
+  "ref": "indian_history_2.js#182",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions INA trials but not the defence lawyers, so Bhulabhai Desai cannot be checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Bhulabhai Desai INA trials defence"
+ },
+ {
+  "ref": "indian_history_2.js#183",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. HMIS Talwar is not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 42",
+  "quote": "The next month, a mutiny started in the Royal Indian Navy in Bombay, when naval ratings (sailors) rebelled",
+  "searched": "Royal Indian Navy mutiny 1946"
+ },
+ {
+  "ref": "indian_history_2.js#184",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT describes the Cabinet Mission of 1946 but does not name its members or its head.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 42",
+  "quote": "Finally, the Cabinet Mission of 1946 sought to plan a peaceful transfer of power",
+  "searched": "Cabinet Mission Pethick-Lawrence"
+ },
+ {
+  "ref": "indian_history_2.js#185",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. 'Great Calcutta Killings' is not NCERT's phrase (it says riots broke out in Calcutta).",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "PDF page 17",
+  "quote": "It announced 16 August 1946 as \"Direct Action Day\". On this day riots broke out in Calcutta",
+  "searched": "Direct Action Day 1946"
+ },
+ {
+  "ref": "indian_history_2.js#186",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT discusses the partition plan only in general; the 3 June 1947 announcement and the Mountbatten Plan are not named.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 43",
+  "quote": "The partition plan was widely opposed even by the Indian National Congress.",
+  "searched": "3 June 1947 Mountbatten Plan"
+ },
+ {
+  "ref": "indian_history_2.js#187",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. 'Boundary commissions' (plural) is not NCERT's wording; it speaks of the Radcliffe Line.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 43",
+  "quote": "chose Cyril Radcliffe, a British lawyer unfamiliar with India",
+  "searched": "Radcliffe Line"
+ },
+ {
+  "ref": "indian_history_2.js#188",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Dates 1948-1950 are not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "PDF page 16",
+  "quote": "as free India's first Indian Governor-General",
+  "searched": "Rajaji Governor-General"
+ },
+ {
+  "ref": "indian_history_2.js#189",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Vasudeo Balwant Phadke appears in NCERT only in a list of freedom fighters; the 1879 uprising and the title are not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 46",
+  "quote": "Vasudeo Balwant Phadke",
+  "searched": "Phadke 1879 armed rebellion"
+ },
+ {
+  "ref": "indian_history_2.js#190",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says the three Chapekar brothers shot dead the British Plague Commissioner of Poona but does not name W.C. Rand. The explanation names Damodar and Balkrishna; NCERT says 'three brothers'.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 12",
+  "quote": "the three Chapekar brothers shot dead the British Plague Commissioner of Poona",
+  "searched": "W.C. Rand Chapekar"
+ },
+ {
+  "ref": "indian_history_2.js#191",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. Ganesh Savarkar and the Nasik founding are not stated.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 23",
+  "quote": "Abhinav Bharat secret society, founded by the revolutionary V.D. Savarkar",
+  "searched": "Abhinav Bharat Savarkar"
+ },
+ {
+  "ref": "indian_history_2.js#192",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "India House in London and Shyamji Krishna Varma are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "India House London, Shyamji Krishna Varma"
+ },
+ {
+  "ref": "indian_history_2.js#193",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Madan Lal Dhingra appears in NCERT only in a list of names; the assassination of Curzon Wyllie is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 46",
+  "quote": "Madan Lal Dhingra",
+  "searched": "Dhingra Curzon Wyllie"
+ },
+ {
+  "ref": "indian_history_2.js#194",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "The Komagata Maru incident is not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Komagata Maru Budge Budge"
+ },
+ {
+  "ref": "indian_history_2.js#195",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "PDF page 12",
+  "quote": "they founded the Hindustan Socialist Republican Association (HSRA) in 1928 at Ferozeshah Kotla in Delhi",
+  "searched": "HSRA 1928"
+ },
+ {
+  "ref": "indian_history_2.js#196",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. It credits Bhagat Singh, Azad and Rajguru; the 'mistaken for Scott' detail is not in NCERT.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "PDF page 12",
+  "quote": "On 17 December, 1928, Bhagat Singh, Azad and Rajguru assassinated Saunders, a police officer",
+  "searched": "Saunders Bhagat Singh Rajguru"
+ },
+ {
+  "ref": "indian_history_2.js#197",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+  "page": "PDF page 12",
+  "quote": "Bhagat Singh, Sukhdev and Rajguru were executed on March 23, 1931.",
+  "searched": "Bhagat Singh hanged 23 March 1931"
+ },
+ {
+  "ref": "indian_history_2.js#198",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT mentions Chandrashekhar Azad (Kakori, HSRA) but not his death at Alfred Park, Allahabad.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Chandrashekhar Azad death Alfred Park"
+ },
+ {
+  "ref": "indian_history_2.js#199",
+  "verdict": "CONFIRMED",
+  "problem": "NCERT supports the answer. The exact month (March 1940) is not in NCERT; it says two decades after the massacre.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 29",
+  "quote": "Udham Singh, an Indian revolutionary and member of the Ghadar Party, tracked O'Dwyer in London and shot him dead.",
+  "searched": "Udham Singh O'Dwyer"
+ },
+ {
+  "ref": "indian_history_2.js#200",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Surya Sen appears in NCERT only in a list of names; the Chittagong Armoury Raid is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 46",
+  "quote": "Surya Sen",
+  "searched": "Chittagong Armoury Raid Surya Sen"
+ },
+ {
+  "ref": "indian_history_2.js#201",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "NCERT says a Vernacular Press Act was passed in 1878 but does not name the Viceroy for it; Lytton appears elsewhere only as Viceroy during the 1876-78 famine, and Ripon's repeal is not mentioned.",
+  "fix": null,
+  "source_url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+  "page": "PDF page 6",
+  "quote": "The same year, a `Vernacular Press Act' was passed",
+  "searched": "Vernacular Press Act Lytton Ripon repeal"
+ },
+ {
+  "ref": "indian_history_2.js#202",
+  "verdict": "NOT_IN_NCERT",
+  "problem": "Lord Ripon and local self-government under him are not in the NCERT texts checked.",
+  "fix": null,
+  "source_url": null,
+  "page": null,
+  "quote": "",
+  "searched": "Ripon father of local self-government"
+ }
+]

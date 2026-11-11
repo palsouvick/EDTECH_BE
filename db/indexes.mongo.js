@@ -271,3 +271,9 @@ print("indexes ensured");
 
 // --------------------------------------------------------- study_plan_progress
 db.study_plan_progress.createIndex({ user_id: 1, plan: 1 }, { name: "uniq_user_study_plan", unique: true });
+
+// --------------------------------------------------------- book_progress
+db.book_progress.createIndex({ user_id: 1, book: 1 }, { name: "uniq_user_book", unique: true });
+
+// --------------------------------------------------------- book_chapter_state
+db.book_chapter_state.createIndex({ book: 1, code: 1 }, { name: "uniq_book_chapter", unique: true });

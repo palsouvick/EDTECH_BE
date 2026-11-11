@@ -1,0 +1,1584 @@
+[
+ {
+  "id": "HIS-GK-001",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-019"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The Third Battle of Panipat (1761), against Ahmad Shah Abdali, broke Maratha power for a generation.",
+  "new": "In the Third Battle of Panipat (1761) the Marathas, who had fought the Afghans (Ahmad Shah Abdali), suffered a disastrous defeat but quickly recovered during the time of Peshwa Madhavrao I; under Mahadji Shinde they recaptured Delhi in 1771.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 10",
+   "quote": "They fought with the Afghans, and despite suffering a disastrous defeat at Panipat in 1761, they quickly recovered during the time of Peshwa Madhavrao I. Under the leadership of Mahadji Shinde (also known as Mahadji Scindia), they went on to recapture Delhi in 1771, which remained under their control till the British captured it three decades later."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-002",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-019"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "His council, the Ashtapradhan, had eight ministers; the Peshwa was the chief minister.",
+  "new": "He had a council of eight ministers to assist him with administration; later the Peshwa (a Persian term for 'prime minister') wielded great influence, even over the Chhatrapati himself. (The statement that the Peshwa was Shivaji's chief minister in the council is not in NCERT and was removed.)",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 10",
+   "quote": "In particular, the Peshwa (a Persian term for 'prime minister') wielded great influence, even over the Chhatrapati himself."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-003",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-019"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Chauth (one-fourth) and Sardeshmukhi (one-tenth) were Maratha taxes collected outside their kingdom.",
+  "new": "The Marathas levied chauth (25 per cent) and sardeshmukhi (an additional 10 per cent to chauth) from provinces that were not directly under them.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 13",
+   "quote": "The Marathas often levied taxes called chauth (25 per cent) and sardeshmukhi (an additional 10 per cent to chauth) from provinces that were not directly under them, including places in the Deccan and north India."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-004",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-019"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "After the Peshwas rose, the Maratha Confederacy had five centres: Pune (Peshwa), Gwalior (Scindia), Indore (Holkar), Baroda (Gaekwad) and Nagpur (Bhonsle).",
+  "new": "Removed. NCERT gives no list of five Maratha Confederacy centres (it mentions only individual houses such as the Holkars around Indore and the Bhonsles of Nagpur).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 17",
+   "quote": "Ahilyabai Holkar was a scion of the Holkar dynasty, one of the chief families instrumental for the Maratha expansion in north India"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-005",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-019"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Shivaji was crowned at Raigad in 1674 and took the title Chhatrapati.",
+  "new": "Shivaji was coronated with full Vedic rites at Raigad in 1674; his formal title after the coronation was 'Shri Raja Shiva Chhatrapati'.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 7",
+   "quote": "A few years later, in 1674, Chhatrapati Shivaji was coronated with full Vedic rites at the strong mountain fortress of Raigad. His formal title after the coronation was 'Shri Raja Shiva Chhatrapati'"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-006",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-019-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Shivaji's coronation at Raigad was in 1674. He was born in 1630 and died in 1680 — both are used as distractors. (options 1630, 1664, 1680)",
+  "new": "Distractor 1664 replaced by 1666 (NCERT timeline: imprisonment at, and escape from, Agra); 1630 is his birth and 1680 his death in the same timeline.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 2",
+   "quote": "1630: Birth of Chhatrapati Shivaji 1674: Chhatrapati Shivaji's coronation at Raigad"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-007",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-019-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "In the Third Battle of Panipat (1761), the Marathas were defeated by: Ahmad Shah Abdali (explanation: Abdali (Durrani) defeated the Marathas in 1761)",
+  "new": "Stem now asks about the 'disastrous defeat'; explanation cites NCERT: Ahmad Shah Abdali defeated the Marathas in the third battle of Panipat; the Marathas had fought the Afghans. ('Durrani' is not in NCERT and was removed.)",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs204.pdf",
+   "page": "PDF page 26",
+   "quote": "Ahmad Shah Abdali defeats the Marathas in the third battle of Panipat"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-008",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-019-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Match the Maratha house with its centre: Peshwa-Pune, Scindia-Gwalior, Holkar-Indore, Gaekwad-Baroda (and Bhonsle-Nagpur completes the five).",
+  "new": "Question rewritten (slot kept): match events with years: coronation at Raigad 1674; Panipat defeat 1761; recapture of Delhi under Mahadji Shinde 1771; Third Anglo-Maratha War (end of Maratha power) 1818. The house-to-centre pairs Scindia-Gwalior and Gaekwad-Baroda are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 10",
+   "quote": "Under the leadership of Mahadji Shinde (also known as Mahadji Scindia), they went on to recapture Delhi in 1771"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-009",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-019"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Third Panipat — fought against Abdali, NOT against the Mughals or the British ... (explanation, 1761 'broke Maratha power for a generation' implied)",
+  "new": "Explanation now states NCERT's point that the Marathas quickly recovered, retook Delhi in 1771, and that their power ended with the Third Anglo-Maratha War (1818).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees103.pdf",
+   "page": "PDF page 10",
+   "quote": "they succeeded in ending the Maratha power."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-010",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-020"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Ashoka fought the Kalinga war in about 261 BCE; its bloodshed turned him towards Buddhism and his policy of Dhamma.",
+  "new": "Ashoka conquered Kalinga (present-day coastal Orissa); his inscription says this happened when he had been ruling for eight years, and that afterwards he devoted himself to the study of Dhamma. NCERT gives no calendar year (261 BCE) and does not say he turned to Buddhism.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "page": "PDF page 21",
+   "quote": "When the king Devanampiya Piyadassi had been ruling for eight years, the (country of the) Kalingas"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-011",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-020"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "His edicts — the earliest decipherable inscriptions of India — are mostly in Prakrit written in the Brahmi script; in the north-west they also appear in Greek and Aramaic.",
+  "new": "Most Asokan inscriptions are in the Prakrit language, mostly in Brahmi; those in the north-west are in Aramaic and Greek, and some Prakrit ones in the north-west are in Kharosthi. ('Earliest decipherable inscriptions of India' is not in NCERT and was removed.)",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "page": "PDF page 5",
+   "quote": "Most Asokan inscriptions were in the Prakrit language while those in the northwest of the subcontinet were in Aramaic and Greek. Most Prakrit inscriptions were written in the Brahmi script; however, some, in the northwest, were written in Kharosthi."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-012",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-020"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The Lion Capital of his pillar at Sarnath became India's National Emblem, adopted on 26 January 1950.",
+  "new": "Removed. NCERT's Ashoka chapter shows the lion capital (Fig. 2.3) with the question 'Why is the lion capital considered important today?' but does not state that it became the National Emblem or give an adoption date.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "page": "PDF page 5",
+   "quote": "Fig. 2.3 The lion capital Why is the lion capital considered important today?"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-013",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-020"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "His inscriptions were placed on rocks and polished sandstone pillars across the empire, from Kandahar to Karnataka.",
+  "new": "Ashoka was the first ruler to inscribe his messages to his subjects and officials on stone surfaces: natural rocks as well as polished pillars. ('Sandstone' and 'from Kandahar to Karnataka' are not in NCERT and were removed.)",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "page": "PDF page 5",
+   "quote": "Asoka was the first ruler who inscribed his messages to his subjects and officials on stone surfaces"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-014",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-020-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The Kalinga war, which changed Ashoka's life, was fought in about: 261 BCE (explanation: in the eighth year of Ashoka's reign; 326 BCE is Alexander's invasion)",
+  "new": "Question rewritten (slot kept): per the Asokan inscription in NCERT the Kalingas were conquered when Ashoka had been ruling for eight years. 261 BCE and 326 BCE (Alexander) do not appear in the NCERT text.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "page": "PDF page 21",
+   "quote": "When the king Devanampiya Piyadassi had been ruling for eight years, the (country of the) Kalingas"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-015",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-020-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Kharosthi and Greek/Aramaic appear only in the north-western edicts.",
+  "new": "Kharosthi appears in some Prakrit inscriptions in the north-west; Aramaic and Greek were used for inscriptions in Afghanistan (and Aramaic and Greek in the north-west).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "page": "PDF page 5",
+   "quote": "The Aramaic and Greek scripts were used for inscriptions in Afghanistan."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-016",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-020-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1. The National Emblem of India is taken from his Sarnath pillar. 2. His edicts are the earliest decipherable written records of India. 3. He sent his son Mahinda and daughter Sanghamitta to Sri Lanka. (answer: 1, 2 and 3)",
+  "new": "Statements replaced (answer still '1, 2 and 3'): 1. He conquered Kalinga; 2. He was the first ruler to inscribe messages on stone surfaces, including polished pillars; 3. James Prinsep deciphered Asokan Brahmi in 1838. The emblem, 'earliest decipherable records' and Mahinda/Sanghamitta claims are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "page": "PDF page 19",
+   "quote": "James Prinsep was able to decipher Asokan Brahmi in 1838."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-017",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-021"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Akbar became emperor in 1556; the Second Battle of Panipat that year defeated Hemu.",
+  "new": "Akbar was declared emperor at 13 on Humayun's death; his reign lasted almost 50 years (1556-1605). In the Second Battle of Panipat (1556) Himu (Hemu) was injured when confronted by Akbar, then captured and beheaded.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+   "page": "PDF page 17",
+   "quote": "he was injured on the battlefield (the Second Battle of Panipat) when confronted by Babur's grandson, Akbar. Captured, Himu was brought to Akbar, who had him beheaded. Akbar soon reclaimed Delhi for the Mughals."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-018",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-021"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "He abolished the jizya tax in 1564 and built the Ibadat Khana at Fatehpur Sikri in 1575 for religious discussions.",
+  "new": "Akbar abolished the jizya and promoted sulh-i-kul ('peace with all'). NCERT gives no year (1564) for the abolition and does not mention the Ibadat Khana (1575); both were removed.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+   "page": "PDF page 18",
+   "quote": "welcomed Rajput and regional leaders into his court, abolished the jizya,"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-019",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-021"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Fatehpur Sikri, his new capital, was founded in 1571; the Buland Darwaza there celebrates his Gujarat victory.",
+  "new": "Fatehpur Sikri is a city built by Akbar near Agra, where he established a 'house of translation'. NCERT gives no founding year (1571) and does not mention the Buland Darwaza or the Gujarat victory.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+   "page": "PDF page 21",
+   "quote": "He established a 'house of translation' at Fatehpur Sikri where he had major Sanskrit texts translated into Persian"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-020",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-021"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "His revenue system (Zabt) was organised by Todar Mal, ranks were given through the Mansabdari system, and in 1582 he propounded Tauhid-i-Ilahi (Din-i Ilahi).",
+  "new": "Todar Mal, Akbar's finance minister, introduced an efficient revenue system based on detailed surveys; Akbar instituted the mansabdari system. NCERT does not name the 'Zabt' system and does not mention Tauhid-i-Ilahi (Din-i Ilahi) or 1582; those were removed.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+   "page": "PDF page 35",
+   "quote": "Todar Mal, Akbar's finance minister, introduced an efficient revenue system. He made detailed surveys for crop yields and prices"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-021",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-021-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Akbar's regent Bairam Khan defeated Hemu in 1556.",
+  "new": "Explanation now follows NCERT: Himu was injured in the battle when confronted by Akbar, then captured and beheaded; Bairam Khan is not mentioned in NCERT and was removed.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+   "page": "PDF page 17",
+   "quote": "Captured, Himu was brought to Akbar, who had him beheaded."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-022",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-021-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Fatehpur Sikri, Akbar's capital city, was founded in: 1571 (options 1556, 1582, 1601)",
+  "new": "Question rewritten (slot kept): asks which Akbar-built city near Agra had the 'house of translation' (Fatehpur Sikri). The year 1571 is not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+   "page": "PDF page 21",
+   "quote": "He established a 'house of translation' at Fatehpur Sikri where he had major Sanskrit texts translated into Persian"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-023",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-021-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Tauhid-i-Ilahi (Din-i Ilahi) – 1582 (explanation: Jizya was abolished in 1564, the Ibadat Khana built in 1575 and Sikri founded in 1571)",
+  "new": "Question rewritten (slot kept): pairs of battle and year, from NCERT's timeline: First Panipat 1526, Second Panipat 1556, Talikota 1565, Haldighati 1576. None of the 1564/1571/1575/1582 Akbar dates is in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees102.pdf",
+   "page": "PDF page 3",
+   "quote": "1556: Second Battle of Panipat; Akbar's decisive victory"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-024",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-022"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "First Council: Rajgir, soon after the Buddha's death (patron Ajatashatru; presided by Mahakashyapa) — the teachings were recited and collected.",
+  "new": "After the Buddha's death his teachings were compiled by his disciples at a council of 'elders' or senior monks at Vesali (Vaishali); the compilations were known as Tipitaka. NCERT names no Rajgir council, no patron Ajatashatru and no president Mahakashyapa for it.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 5",
+   "quote": "After his death (c. fifth-fourth century BCE) his teachings were compiled by his disciples at a council of \"elders\" or senior monks at Vesali (Pali for Vaishali in present-day Bihar)."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-025",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-022"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Second Council: Vaishali, about a century later (patron Kalashoka).",
+  "new": "Removed. NCERT mentions one council of elders at Vaishali (Vesali), after the Buddha's death; it gives no 'second council', no 'a century later' and no patron Kalashoka.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 5",
+   "quote": "After his death (c. fifth-fourth century BCE) his teachings were compiled by his disciples at a council of \"elders\" or senior monks at Vesali (Pali for Vaishali in present-day Bihar)."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-026",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-022"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Third Council: Pataliputra, in Ashoka's reign (Moggaliputta Tissa).",
+  "new": "Removed. NCERT does not describe a Buddhist council at Pataliputra or mention Moggaliputta Tissa.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 15",
+   "quote": "Asoka erected a pillar at Lumbini to mark the fact that he had visited the place."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-027",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-022"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Fourth Council: Kundalvana, Kashmir, under Kanishka (Vasumitra) — Buddhism's Mahayana–Hinayana division is linked with this period.",
+  "new": "Removed. NCERT does not describe a council at Kundalvana or name Vasumitra, and does not link Kanishka to a council. It says that by the first century CE new ideas (Mahayana) emerged, and that Mahayana followers called the older tradition Hinayana.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 22",
+   "quote": "This new way of thinking was called Mahayana"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-028",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-022"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The Buddha's four places: Lumbini (birth), Bodh Gaya (enlightenment), Sarnath (first sermon), Kushinagar (mahaparinirvana).",
+  "new": "Supported by NCERT (spelling Kusinagara, 'nibbana'): Lumbini (born), Bodh Gaya (enlightenment), Sarnath (first sermon), Kusinagara (nibbana). Wording aligned to NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 15",
+   "quote": "where he was born (Lumbini), where he attained enlightenment (Bodh Gaya), where he gave his first sermon (Sarnath) and where he attained nibbana (Kusinagara)."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-029",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-022-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Match the Buddhist Council with its venue: First-Rajgir, Second-Vaishali, Third-Pataliputra, Fourth-Kundalvana in Kashmir.",
+  "new": "Question rewritten (slot kept): match Lumbini, Bodh Gaya, Sarnath and Kusinagara with birth, enlightenment, first sermon and nibbana. The council venues are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 15",
+   "quote": "where he was born (Lumbini), where he attained enlightenment (Bodh Gaya), where he gave his first sermon (Sarnath) and where he attained nibbana (Kusinagara)."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-030",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-022-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The first sermon was at Sarnath (the deer park).",
+  "new": "The first sermon was at Sarnath. 'The deer park' was removed as it is not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 15",
+   "quote": "where he gave his first sermon (Sarnath)"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-031",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-022-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The Fourth Buddhist Council was held under the patronage of: Kanishka (explanation: Kanishka patronised the Fourth Council in Kashmir. Ashoka belongs to the Third (Pataliputra) and Ajatashatru to the First (Rajgir).)",
+  "new": "Question rewritten (slot kept): per NCERT, the Buddha's teachings were compiled after his death at a council of elders at Vaishali (Vesali). The Fourth Council, Kanishka's patronage and the other councils are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "PDF page 5",
+   "quote": "After his death (c. fifth-fourth century BCE) his teachings were compiled by his disciples at a council of \"elders\" or senior monks at Vesali (Pali for Vaishali in present-day Bihar)."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-032",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-023"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Lord William Bentinck — Governor-General 1828–35, and from 1833 the first Governor-General of India:",
+  "new": "Removed. NCERT's Class 8 text names Bentinck only in a list of Governors-General and does not give his term, or say he was the first Governor-General of India from 1833.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+   "page": "PDF page 11",
+   "quote": "The final wave of annexations occurred under Lord Dalhousie who was the Governor-General from 1848 to 1856."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-033",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-023"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Abolished sati in 1829 (Regulation XVII), with Raja Rammohun Roy's support.",
+  "new": "Rammohun Roy began a campaign against sati and in 1829 sati was banned. NCERT does not name Bentinck or 'Regulation XVII' as the agent or the law.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+   "page": "PDF page 3",
+   "quote": "In 1829, sati was banned."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-034",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-023"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "English education decision of 1835 followed Macaulay's Minute.",
+  "new": "Following Macaulay's minute, the English Education Act of 1835 was introduced (English the medium of instruction for higher education). NCERT does not link it to Bentinck.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess206.pdf",
+   "page": "PDF page 4",
+   "quote": "Following Macaulay's minute, the English Education Act of 1835 was introduced. The decision was to make English the medium of instruction for higher education"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-035",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-023"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Doctrine of Lapse annexed states without a natural heir, beginning with Satara (1848); Jhansi and Nagpur followed.",
+  "new": "The doctrine declared that if an Indian ruler died without a male heir his kingdom would 'lapse'; Satara (1848), Sambalpur (1850), Udaipur (1852), Nagpur (1853) and Jhansi (1854) were annexed. ('Natural heir' replaced by NCERT's 'male heir'; order of Nagpur 1853 before Jhansi 1854.)",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+   "page": "PDF page 11",
+   "quote": "The doctrine declared that if an Indian ruler died without a male heir his kingdom would \"lapse\", that is, become a part of Company territory."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-036",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-023"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "First railway: Bombay to Thane, 1853; telegraph and cheap postage (Post Office Act 1854) also belong to his tenure, as does Wood's Despatch on education (1854).",
+  "new": "Railway (Bombay-Thane 1853), telegraph and Post Office Act 1854 removed: not in the NCERT books checked. Wood's Despatch (1854), issued by Charles Wood, is in NCERT but NCERT does not connect it to Dalhousie's tenure, so it is stated separately.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess206.pdf",
+   "page": "PDF page 4",
+   "quote": "Issued by Charles Wood, the President of the Board of Control of the Company, it has come to be known as Wood's Despatch."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-037",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-023-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The practice of sati was abolished by Lord William Bentinck in the year: 1829 (explanation: Sati was abolished by Regulation XVII of 1829 ... 1856 the Widow Remarriage Act)",
+  "new": "Stem now reads 'The practice of sati was banned in the year' (Bentinck and Regulation XVII not in NCERT). 1856: NCERT says a law was passed permitting widow remarriage (the Act's name is not given).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+   "page": "PDF page 3",
+   "quote": "In 1829, sati was banned."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-038",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-023-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The first railway in India ran from Bombay to Thane in: 1853 (34 km, Dalhousie's tenure)",
+  "new": "Question rewritten (slot kept): Satara was annexed under Dalhousie's Doctrine of Lapse in 1848 (NCERT). The Bombay-Thane railway of 1853 and its 34 km length are not in the NCERT books checked.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+   "page": "PDF page 11",
+   "quote": "Satara (1848), Sambalpur (1850), Udaipur (1852), Nagpur (1853) and Jhansi (1854)."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-039",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-023-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Bentinck – Doctrine of Lapse / Dalhousie – Abolition of sati / Bentinck – Partition of Bengal (distractors); explanation: sati abolition was Bentinck's (1829); the Partition of Bengal was Curzon's (1905)",
+  "new": "Distractors replaced with pairs checkable from NCERT (Warren Hastings 1773-85, the Regulating Act 1773, the English Education Act 1835); the claim that Bentinck abolished sati is not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+   "page": "PDF page 13",
+   "quote": "Warren Hastings (Governor-General from 1773 to 1785)"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-040",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-024"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The Indian National Army was first raised in 1942 in Singapore under Captain Mohan Singh, with Rash Behari Bose's Indian Independence League behind it.",
+  "new": "Subhas Chandra Bose formed the INA from Indian prisoners of war and volunteers in Singapore in 1943 and declared the Azad Hind government. NCERT does not mention Mohan Singh, a 1942 raising or Rash Behari Bose.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 40",
+   "quote": "to Indonesia, Japan, and finally Singapore in 1943, where he formed the Indian National Army (INA) from Indian prisoners of war and volunteers, and declared the formation of the Azad Hind ('free India') government."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-041",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-024"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Subhas Chandra Bose took command in July 1943 and proclaimed the Provisional Government of Azad Hind at Singapore on 21 October 1943; its slogans were 'Jai Hind' and 'Delhi Chalo'.",
+  "new": "NCERT: in 1943 at Singapore Bose formed the INA and declared the formation of the Azad Hind government. The month (July), the date 21 October and the slogans are not in NCERT and were removed.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 40",
+   "quote": "to Indonesia, Japan, and finally Singapore in 1943, where he formed the Indian National Army (INA) from Indian prisoners of war and volunteers, and declared the formation of the Azad Hind ('free India') government."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-042",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-024"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "After the war, INA officers Shah Nawaz Khan, Prem Sahgal and Gurbaksh Singh Dhillon were tried at the Red Fort in November 1945 — the public uproar forced leniency.",
+  "new": "INA members were imprisoned and tried, and people across the country took part in the movement against the INA trials. NCERT does not name the three officers, the Red Fort or November 1945 (its timeline places the INA trials in 1946), and does not say leniency was forced.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "page": "PDF page 15",
+   "quote": "The INA members were imprisoned and tried. People across the country, from all walks of life, participated in the movement against the INA trials."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-043",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-024"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The Royal Indian Navy mutiny followed in February 1946 in Bombay.",
+  "new": "Supported: January 1946 saw a mutiny in the Royal Indian Air Force; the next month a mutiny started in the Royal Indian Navy in Bombay.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 42",
+   "quote": "The next month, a mutiny started in the Royal Indian Navy in Bombay"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-044",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-024-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Azad Hind's government was proclaimed at Singapore on 21 October 1943. Bose had travelled via Berlin earlier, which is the trap.",
+  "new": "Stem now says 'in 1943' (no 21 October). NCERT: Bose spent almost two years in Germany, then travelled to Indonesia, Japan and finally Singapore in 1943. Berlin as a city is not named in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 39",
+   "quote": "Escaping house arrest in India in early 1941, he travelled through Afghanistan and Russia to reach Germany, where he spent almost two years and sought support from the anti-British forces."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-045",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-024-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The INA was first raised in 1942 under: Captain Mohan Singh (options: Subhas Chandra Bose, Rash Behari Bose, Shah Nawaz Khan)",
+  "new": "Question rewritten (slot kept): who formed the INA in Singapore in 1943 (Subhas Chandra Bose, per NCERT). Mohan Singh and the 1942 raising are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 40",
+   "quote": "to Indonesia, Japan, and finally Singapore in 1943, where he formed the Indian National Army (INA) from Indian prisoners of war and volunteers"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-046",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-024-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1. Its famous slogans included 'Jai Hind' and 'Delhi Chalo'. 2. The first INA trials were held at the Red Fort in 1945. 3. The INA was formed in Berlin in 1941. (answer: 1 and 2 only; explanation: raised in Singapore in 1942, Bose's Free India Centre in Berlin was a separate, earlier effort)",
+  "new": "Statements replaced (answer still '1 and 2 only'): 1. formed from Indian POWs and volunteers in Singapore in 1943; 2. fought alongside the Japanese army in Burma and north-eastern India; 3. (false) formed in Berlin in 1941. Slogans, Red Fort 1945, the 1942 raising and the Free India Centre are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 40",
+   "quote": "the INA fought alongside the Japanese army in Burma and northeastern India, particularly Manipur and Nagaland."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-047",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-025"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1907 Surat — the Congress split into Moderates and Extremists.",
+  "new": "1907 Surat: the Congress split between Moderates and Nationalists (NCERT's term; 'Extremists' is not used).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 2",
+   "quote": "1907: Congress split at Surat between Moderates and Nationalists"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-048",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-025"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1916 Lucknow — the two wings reunited, and Congress signed a pact with the Muslim League.",
+  "new": "1916 Lucknow: the Congress and the All-India Muslim League reached the Lucknow Pact; the Congress accepted separate electorates for Muslims. The date of reunion of the two factions is not stated as 1916 here because NCERT's two Class 8 books differ (Class 8 Part 2 Exploring Society: the first task, reunion, was achieved in 1916 at Lucknow; Our Pasts III: the two groups reunited in December 1915).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 26",
+   "quote": "The first task was achieved in 1916 at the Lucknow session of the Congress. A step towards the second objective was taken at the same session, where an agreement (the so-called 'Lucknow Pact') was reached between the Indian National Congress and the All-India Muslim League."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-049",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-025"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1920 Nagpur — the Congress adopted the Non-Cooperation programme and reorganised under Gandhi's leadership.",
+  "new": "After Tilak's death (August 1920) Gandhi became the undisputed mass leader, and the Congress formally launched the Non-Cooperation Movement at its Nagpur session in December 1920. 'Reorganised' is not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 28",
+   "quote": "With Tilak's death in August 1920, Gandhi became the undisputed mass leader of the Indian National Congress, which formally launched the Non-Cooperation Movement at its Nagpur session in December the same year."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-050",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-025"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1929 Lahore — presided by Jawaharlal Nehru, it passed the Purna Swaraj (complete independence) resolution; 26 January 1930 was observed as Independence Day.",
+  "new": "Supported: the Congress resolved to fight for Purna Swaraj in 1929 under Jawaharlal Nehru's presidentship; Independence Day was observed on 26 January 1930. (Lahore as the venue is in NCERT's timeline: 1929 Demand for Purna Swaraj at the Lahore session.) Wording aligned to NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "page": "PDF page 12",
+   "quote": "The decade closed with the Congress resolving to fight for Purna Swaraj (complete independence) in 1929 under the presidentship of Jawaharlal Nehru."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-051",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-025"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1931 Karachi — presided by Sardar Patel; it adopted the resolution on Fundamental Rights and Economic Policy.",
+  "new": "Removed. NCERT's Class 8 and Class 12 history books checked do not describe the 1931 Karachi session, its president or its Fundamental Rights resolution.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 3",
+   "quote": "1929: Demand for Purna Swaraj at the Lahore session of the Congress"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-052",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-025"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "1885 Bombay — the first session, presided by W. C. Bonnerjee, with 72 delegates.",
+  "new": "Supported: first session in Bombay, Womesh Chunder Bonnerjee elected first president, seventy-two delegates. Wording aligned to NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 10",
+   "quote": "Womesh Chunder Bonnerjee, who was elected as the first president, played leading roles. Seventy-two delegates from diverse regions and religions attended"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-053",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-025-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The split happened at Surat in 1907. Lucknow 1916 was the REUNION — the exact opposite event, used as the main trap. (distractor: Madras, 1927)",
+  "new": "Stem now says 'between Moderates and Nationalists' (NCERT's term); Lucknow 1916 described as the Lucknow Pact session rather than 'the reunion'; distractor Madras 1927 (not in NCERT) replaced by Nagpur 1920.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 2",
+   "quote": "1907: Congress split at Surat between Moderates and Nationalists"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-054",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-025-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Nehru presided at Lahore (1929). Patel presided at Karachi (1931) — the two are routinely swapped.",
+  "new": "Explanation now cites only NCERT: under Nehru's presidentship the Congress resolved to fight for Purna Swaraj in 1929; Independence Day 26 January 1930. Patel/Karachi 1931 removed.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "page": "PDF page 12",
+   "quote": "The decade closed with the Congress resolving to fight for Purna Swaraj (complete independence) in 1929 under the presidentship of Jawaharlal Nehru."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-055",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-025-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "D. Karachi 1931 -> 2. Fundamental Rights resolution (answer A-3, B-4, C-1, D-2; Lucknow: 'Reunion and Congress-League Pact')",
+  "new": "Row D changed to 'Lahore 1929 -> Resolution to fight for Purna Swaraj'; row 4 changed from 'Reunion and Congress-League Pact' to 'Lucknow Pact with the Muslim League'; answer letters unchanged (A-3, B-4, C-1, D-2).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "PDF page 3",
+   "quote": "1929: Demand for Purna Swaraj at the Lahore session of the Congress"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-056",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-026"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Regulating Act 1773 — the first step of parliamentary control; Warren Hastings became Governor-General of Bengal; a Supreme Court was set up at Calcutta (1774).",
+  "new": "Under the Regulating Act of 1773 a new Supreme Court was established; Warren Hastings (Governor-General 1773-85) was the first Governor-General, the supreme head of the administration. NCERT does not say 'first step of parliamentary control', 'of Bengal', 'Calcutta' or '1774' for the Court.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+   "page": "PDF page 14",
+   "quote": "Under the Regulating Act of 1773, a new Supreme Court was established"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-057",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-026"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Pitt's India Act 1784 — dual control: a Board of Control (Crown) over the Court of Directors (Company).",
+  "new": "Removed. NCERT does not describe Pitt's India Act 1784 or 'dual control'.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess206.pdf",
+   "page": "PDF page 4",
+   "quote": "Issued by Charles Wood, the President of the Board of Control of the Company"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-058",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-026"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Charter Act 1833 — the Governor-General of Bengal became the Governor-General of India; Bentinck was the first.",
+  "new": "Removed. The Charter Act of 1833 and Bentinck as the first Governor-General of India are not in the NCERT books checked.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+   "page": "PDF page 10",
+   "quote": "The Governor-General of India was given the title of Viceroy, that is, a personal representative of the Crown."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-059",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-026"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Act of 1858 — the Crown took over after the Revolt; the Governor-General became the Viceroy.",
+  "new": "Supported: a new Act in 1858 transferred the Company's powers to the Crown; a Secretary of State for India with an India Council was appointed; the Governor-General of India was given the title of Viceroy.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+   "page": "PDF page 10",
+   "quote": "The British Parliament passed a new Act in 1858 and transferred the powers of the East India Company to the British Crown in order to ensure a more responsible management of Indian affairs."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-060",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-026"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Indian Councils Act 1909 (Morley–Minto) — separate electorates for Muslims.",
+  "new": "The Muslim League desired separate electorates for Muslims, a demand conceded by the government in 1909. NCERT does not name the 'Indian Councils Act' or 'Morley-Minto'.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "page": "PDF page 6",
+   "quote": "It desired separate electorates for Muslims, a demand conceded by the government in 1909."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-061",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-026"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Government of India Act 1919 (Montagu–Chelmsford) — dyarchy in the provinces and a bicameral legislature at the centre.",
+  "new": "The Montague-Chelmsford Reforms of 1919 allowed some form of representation in provincial legislative assemblies. 'Dyarchy' and the 'bicameral legislature at the centre' are not in NCERT and were removed.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs304.pdf",
+   "page": "PDF page 11",
+   "quote": "the Montague-Chelmsford Reforms of 1919 which allowed some form of representation in provincial legislative assemblies."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-062",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-026"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "The 1935 Act (provincial autonomy, federation) is in this chapter's earlier card with the Rowlatt Act. (explanation)",
+  "new": "Government of India Act of 1935 prescribed provincial autonomy and elections to the provincial legislatures were announced in 1937 (NCERT); 'federation' is not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "page": "PDF page 14",
+   "quote": "the Government of India Act of 1935 prescribed provincial autonomy and the government announced elections to the provincial legislatures in 1937."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-063",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-026-0"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Separate electorates for Muslims were introduced by the: Indian Councils Act, 1909 (options: Government of India Act 1919, Government of India Act 1935, Indian Councils Act 1892)",
+  "new": "Question rewritten (slot kept): in which year the government conceded the Muslim League's demand for separate electorates (1909). NCERT does not name the Indian Councils Act 1909 or the 1892 Act.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "page": "PDF page 6",
+   "quote": "It desired separate electorates for Muslims, a demand conceded by the government in 1909."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-064",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-026-1"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "Dyarchy (double government) in the provinces was introduced by the: Government of India Act, 1919 (explanation: The 1935 Act abolished provincial dyarchy and proposed it at the centre instead.)",
+  "new": "Question rewritten (slot kept): what the Government of India Act of 1935 prescribed (provincial autonomy). Dyarchy and its abolition/proposal at the centre are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "page": "PDF page 14",
+   "quote": "the Government of India Act of 1935 prescribed provincial autonomy and the government announced elections to the provincial legislatures in 1937."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-065",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-026-2"
+  },
+  "verdict": "WRONG_SOURCE_OR_UNSUPPORTED",
+  "old": "A. Regulating Act 1773 -> 2. First Governor-General of Bengal; B. Pitt's India Act 1784 -> 1. Dual control of Company affairs; C. Charter Act 1833 -> 4. Governor-General of India created; D. Act of 1858 -> 3. Crown rule begins; Viceroy replaces Governor-General",
+  "new": "Match rewritten (slot kept): Regulating Act 1773 -> new Supreme Court; Act of 1858 -> Company's powers to the Crown, Viceroy; concession of 1909 -> separate electorates; Act of 1935 -> provincial autonomy. Pitt's India Act 1784 and the Charter Act 1833 are not in NCERT.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+   "page": "PDF page 10",
+   "quote": "A member of the British Cabinet was appointed Secretary of State for India and made responsible for all matters related to the governance of India."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11: NCERT rewrite + blind check (24/24 answers, all claims supported)"
+ },
+ {
+  "id": "HIS-GK-066",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-005"
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Explanation: \"Many sources say 1837\".",
+  "new": "Removed; NCERT gives 1838 (timeline) and \"the 1830s\" (text).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+   "quote": "Decipherment of Asokan Brahmi by James Prinsep"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT reader; quotes string-checked)"
+ },
+ {
+  "id": "HIS-GK-067",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-011"
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Plassey \"about 150 km north of present-day Kolkata\"; Mir Jafar's forces were \"the majority of the Nawab's army\".",
+  "new": "Both removed (not in NCERT); NCERT: Mir Jafar's forces never fought, and Clive secured his support by promising to make him nawab.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+   "quote": "the defeat of the Nawab was that the forces led by Mir Jafar, one of Sirajuddaulah's commanders, never fought the battle."
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT reader; quotes string-checked)"
+ },
+ {
+  "id": "HIS-GK-068",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-013"
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Brahmo Samaj 1828, given without the other NCERT date.",
+  "new": "1828 attributed to Exploring Society Grade 8; Our Pasts III gives 1830.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+   "quote": "The Brahmo Samaj, formed in 1830"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT reader; quotes string-checked)"
+ },
+ {
+  "id": "HIS-GK-069",
+  "target": {
+   "kind": "gk_fact",
+   "code": "GK-HIS-014"
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "The factions \"were reunited at Lucknow in 1916\".",
+  "new": "NCERT Our Pasts III: reunited December 1915; Lucknow Pact (Congress and Muslim League) 1916.",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "quote": "The two groups reunited in December 1915. Next year, the Congress and the Muslim League signed the historic Lucknow Pact"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT reader; quotes string-checked)"
+ },
+ {
+  "id": "HIS-GK-070",
+  "target": {
+   "kind": "gk_question",
+   "code": "GK-HIS-014-1"
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Chronology option 1: \"Congress session at Lucknow reunites the two factions\".",
+  "new": "Option 1 is now \"Congress and the Muslim League sign the Lucknow Pact\"; the answer is unchanged (3, 2, 1, 4).",
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+   "quote": "The two groups reunited in December 1915. Next year, the Congress and the Muslim League signed the historic Lucknow Pact"
+  },
+  "status": "FIXED",
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT reader; quotes string-checked)"
+ },
+ {
+  "id": "HIS-FB-A-053",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history.js",
+   "index": 53,
+   "stem_en": "Who was the guru of the Bhakti saint Kabir?"
+  },
+  "old_item": {
+   "answer": "Ramananda",
+   "wrong": [
+    "Ramanuja",
+    "Chaitanya",
+    "Vallabhacharya"
+   ]
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Stated as fact that Ramananda was Kabir's guru.",
+  "new": "NCERT: Kabir was initiated \"perhaps\" by Ramananda, and it is very difficult to establish that they were contemporaries. The question now asks for the tradition.",
+  "fix": {
+   "stem": {
+    "en": "According to tradition, who was the guru of the Bhakti saint Kabir?",
+    "bn": "ঐতিহ্য অনুযায়ী ভক্তি সাধক কবীরের গুরু কে ছিলেন?"
+   },
+   "explanation": {
+    "en": "Tradition links Kabir to Ramananda, but Kabir's own verses name no preceptor, and NCERT says it is very difficult to establish that the two were contemporaries.",
+    "bn": "ঐতিহ্য কবীরকে রামানন্দের শিষ্য বলে; তবে কবীরের নিজের রচনায় কোনও গুরুর নাম নেই, এবং এনসিইআরটি বলেছে দুজনে সমসাময়িক ছিলেন কি না তা প্রমাণ করা খুব কঠিন।"
+   }
+  },
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+   "page": "Ch. 6",
+   "quote": "it is very difficult to establish that Ramananda and Kabir were contemporaries",
+   "title": "NCERT textbook"
+  },
+  "status": "FIXED",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ },
+ {
+  "id": "HIS-FB-A-093",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history.js",
+   "index": 93,
+   "stem_en": "Vallabhbhai Patel received the title \"Sardar\" after leading the:"
+  },
+  "old_item": {
+   "answer": "Bardoli Satyagraha",
+   "wrong": [
+    "Kheda Satyagraha",
+    "Champaran Satyagraha",
+    "Vaikom Satyagraha"
+   ]
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Explanation: the women of Bardoli gave Patel the title \"Sardar\".",
+  "new": "NCERT: after the Bardoli movement of 1928, Mahatma Gandhi bestowed the title \"Sardar\" on Patel.",
+  "fix": {
+   "explanation": {
+    "en": "After the successful Bardoli peasant movement of 1928, Mahatma Gandhi bestowed the title \"Sardar\" on Vallabhbhai Patel (NCERT Class 8).",
+    "bn": "1928 সালের সফল বারদৌলি কৃষক আন্দোলনের পর মহাত্মা গান্ধী বল্লভভাই প্যাটেলকে \"সর্দার\" উপাধি দেন (এনসিইআরটি, অষ্টম শ্রেণি)।"
+   }
+  },
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "Ch. 2",
+   "quote": "This led Mahatma Gandhi to bestow on him the title of `Sardar'.",
+   "title": "NCERT textbook"
+  },
+  "status": "FIXED",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ },
+ {
+  "id": "HIS-FB-A-082",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history.js",
+   "index": 82,
+   "stem_en": "Who was the first woman President of the Indian National Congress?"
+  },
+  "old_item": {
+   "answer": "Annie Besant",
+   "wrong": [
+    "Sarojini Naidu",
+    "Nellie Sengupta",
+    "Vijaya Lakshmi Pandit"
+   ]
+  },
+  "verdict": "AMBIGUOUS",
+  "old": "First woman Congress President: Annie Besant.",
+  "new": "Kept unchanged: correct, and the explanation already separates Annie Besant (1917) from Sarojini Naidu, whom NCERT calls the first Indian woman president (1925). NCERT does not mention Besant presiding.",
+  "fix": null,
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hees202.pdf",
+   "page": "Ch. 2",
+   "quote": "was the first Indian woman president of the Congress in 1925",
+   "title": "NCERT textbook"
+  },
+  "status": "KEPT",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ },
+ {
+  "id": "HIS-FB-A-025",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history_2.js",
+   "index": 25,
+   "stem_en": "The First Buddhist Council was held at:"
+  },
+  "old_item": {
+   "answer": "Rajagriha",
+   "wrong": [
+    "Vaishali",
+    "Pataliputra",
+    "Kashmir"
+   ]
+  },
+  "verdict": "AMBIGUOUS",
+  "old": "Explanation: First Council at Rajagriha under Ajatashatru, with the R-V-P-K council scheme (not in NCERT).",
+  "new": "Answer kept (usual exam convention) pending the owner's decision; the explanation now also gives NCERT's account (compilation at a council at Vesali/Vaishali), which corrected fact GK-HIS-022 teaches.",
+  "fix": {
+   "explanation": {
+    "en": "Exam keys usually place the First Buddhist Council at Rajagriha. NCERT (Class 12) does not use the four-council scheme: it says the Buddha's teachings were compiled after his death at a council of senior monks at Vesali (Vaishali).",
+    "bn": "পরীক্ষার উত্তরমালায় সাধারণত প্রথম বৌদ্ধ সংগীতির স্থান রাজগৃহ ধরা হয়। এনসিইআরটি (দ্বাদশ শ্রেণি) চারটি সংগীতির তালিকা দেয় না; সেখানে বলা হয়েছে বুদ্ধের মৃত্যুর পর বেসালিতে (বৈশালী) প্রবীণ ভিক্ষুদের এক সভায় তাঁর উপদেশ সংকলিত হয়।"
+   }
+  },
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs104.pdf",
+   "page": "Ch. 4",
+   "quote": "or senior monks at Vesali (Pali for Vaishali in present-day Bihar)",
+   "title": "NCERT textbook"
+  },
+  "status": "PENDING_OWNER",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ },
+ {
+  "id": "HIS-FB-B-067",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history_2.js",
+   "index": 67,
+   "stem_en": "Mahmud of Ghazni plundered the Somnath temple in which year?"
+  },
+  "old_item": {
+   "answer": "1025 CE",
+   "wrong": [
+    "1001 CE",
+    "1018 CE",
+    "1030 CE"
+   ]
+  },
+  "verdict": "CONTRADICTED",
+  "old": "Mahmud of Ghazni plundered Somnath in 1025 CE.",
+  "new": "NCERT dates the destruction and plunder of the Somnath temple by Mahmud of Ghazni to 1026.",
+  "fix": {
+   "answer": {
+    "en": "1026 CE",
+    "bn": "1026 খ্রিস্টাব্দ"
+   },
+   "wrong": [
+    {
+     "en": "1001 CE",
+     "bn": "1001 খ্রিস্টাব্দ"
+    },
+    {
+     "en": "1018 CE",
+     "bn": "1018 খ্রিস্টাব্দ"
+    },
+    {
+     "en": "1030 CE",
+     "bn": "1030 খ্রিস্টাব্দ"
+    }
+   ],
+   "explanation": {
+    "en": "According to NCERT (Class 7), Mahmud of Ghazni destroyed and plundered the Somnath temple in Gujarat in 1026 CE.",
+    "bn": "এনসিইআরটি (সপ্তম শ্রেণি) অনুযায়ী গজনির সুলতান মাহমুদ 1026 খ্রিস্টাব্দে গুজরাটের সোমনাথ মন্দির ধ্বংস ও লুট করেন।"
+   }
+  },
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/gees204.pdf",
+   "page": "PDF page 2",
+   "quote": "1026: Mahmd ... destroys and ... Somnath temple",
+   "title": "NCERT textbook"
+  },
+  "status": "FIXED",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ },
+ {
+  "id": "HIS-FB-B-107",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history_2.js",
+   "index": 107,
+   "stem_en": "The Suhrawardi Sufi order in India was established by Bahauddin Zakariya at:"
+  },
+  "old_item": {
+   "answer": "Multan",
+   "wrong": [
+    "Ajmer",
+    "Delhi",
+    "Gulbarga"
+   ]
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Explanation: unlike the Chishtis, the Suhrawardis accepted state grants.",
+  "new": "Explanation no longer contrasts the two orders; NCERT says the Chishtis also accepted donations in cash and kind.",
+  "fix": {
+   "explanation": {
+    "en": "Bahauddin Zakariya established the Suhrawardi order at Multan.",
+    "bn": "বাহাউদ্দিন জাকারিয়া মুলতানে সুহরাওয়ার্দি সম্প্রদায় প্রতিষ্ঠা করেন।"
+   }
+  },
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/lehs202.pdf",
+   "page": "PDF page 20",
+   "quote": "The Chishtis accepted donations in cash and kind.",
+   "title": "NCERT textbook"
+  },
+  "status": "FIXED",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ },
+ {
+  "id": "HIS-FB-B-123",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history_2.js",
+   "index": 123,
+   "stem_en": "Who became the first Governor-General of Bengal under the Regulating Act of 1773?"
+  },
+  "old_item": {
+   "answer": "Warren Hastings",
+   "wrong": [
+    "Robert Clive",
+    "Lord Cornwallis",
+    "John Shore"
+   ]
+  },
+  "verdict": "PARTLY_WRONG",
+  "old": "Explanation: Hastings became Governor-General in 1774.",
+  "new": "NCERT: Warren Hastings was Governor-General from 1773 to 1785; the explanation no longer gives 1774.",
+  "fix": {
+   "explanation": {
+    "en": "Under the Regulating Act of 1773, Warren Hastings became the first Governor-General of Bengal (Fort William); NCERT gives his term as 1773 to 1785.",
+    "bn": "1773 সালের রেগুলেটিং অ্যাক্ট অনুসারে ওয়ারেন হেস্টিংস বাংলার (ফোর্ট উইলিয়ামের) প্রথম গভর্নর-জেনারেল হন; এনসিইআরটি তাঁর কার্যকাল 1773 থেকে 1785 বলেছে।"
+   }
+  },
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+   "page": "PDF page 13",
+   "quote": "Warren Hastings (Governor-General from 1773 to 1785)",
+   "title": "NCERT textbook"
+  },
+  "status": "FIXED",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ },
+ {
+  "id": "HIS-FB-B-060",
+  "target": {
+   "kind": "factbank",
+   "file": "indian_history_2.js",
+   "index": 60,
+   "stem_en": "The Sangam assemblies of Tamil poets were held under the patronage of which dynasty?"
+  },
+  "old_item": {
+   "answer": "Pandyas",
+   "wrong": [
+    "Cholas",
+    "Cheras",
+    "Pallavas"
+   ]
+  },
+  "verdict": "AMBIGUOUS",
+  "old": "The Sangam assemblies were held under the Pandyas (NCERT names no patron dynasty; Cholas and Cheras are also defensible).",
+  "new": "Reworded to what NCERT supports: the Sangam poems refer to three crowned kings, the Cholas, Cheras and Pandyas.",
+  "fix": {
+   "stem": {
+    "en": "Sangam literature refers to three 'crowned kings'. Which of the following was NOT one of them?",
+    "bn": "সঙ্গম সাহিত্যে তিন 'মুকুটধারী রাজা'-র উল্লেখ আছে। নিচের কোনটি তাঁদের একজন নন?"
+   },
+   "answer": {
+    "en": "Pallavas",
+    "bn": "পল্লব"
+   },
+   "wrong": [
+    {
+     "en": "Cholas",
+     "bn": "চোল"
+    },
+    {
+     "en": "Cheras",
+     "bn": "চের"
+    },
+    {
+     "en": "Pandyas",
+     "bn": "পাণ্ড্য"
+    }
+   ],
+   "explanation": {
+    "en": "NCERT: the Sangam texts refer to three 'crowned kings', the Cholas, Cheras and Pandyas. The Pallavas are not among them.",
+    "bn": "এনসিইআরটি: সঙ্গম সাহিত্যে তিন 'মুকুটধারী রাজা'-র কথা আছে: চোল, চের ও পাণ্ড্য। পল্লবরা তাঁদের মধ্যে নেই।"
+   }
+  },
+  "source": {
+   "url": "https://ncert.nic.in/textbook/pdf/gees106.pdf",
+   "page": "PDF page 14",
+   "quote": "The Sangams refer to three `crowned kings'--the Cholas, Cheras and Pandyas.",
+   "title": "NCERT textbook"
+  },
+  "status": "FIXED",
+  "source_verified": false,
+  "date": "2026-11-11",
+  "checked_by": "History audit 2026-11-11 (NCERT-only reader + owner-session review)"
+ }
+]

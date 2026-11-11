@@ -1,0 +1,3113 @@
+{
+ "_about": "Chapter of every History PYQ (db/pyq), from two independent readers on 2026-11-11: BOTH = same chapter, ONE_AS_ALT = one reader's first choice is the other's second, RESOLVED = settled by the owner session. Chapter writers use it as their PYQ candidate list; pyq_map.json then records the section that teaches each one.",
+ "pyqs": {
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q17": {
+   "chapter": "HIS-19",
+   "alt": null,
+   "topic": "Barrackpore, start of 1857",
+   "agreement": "BOTH"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q24": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Buddha, Pali language",
+   "agreement": "BOTH"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q27": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Harappan seals, trade",
+   "agreement": "BOTH"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q43": {
+   "chapter": "HIS-20",
+   "alt": "HIS-17",
+   "topic": "Gita translation, Wilkins",
+   "agreement": "BOTH"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q54": {
+   "chapter": "HIS-27",
+   "alt": "HIS-28",
+   "topic": "First Indian Governor-General",
+   "agreement": "ONE_AS_ALT"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q60": {
+   "chapter": "HIS-24",
+   "alt": "HIS-27",
+   "topic": "Rowlatt Act year",
+   "agreement": "BOTH"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q7": {
+   "chapter": "HIS-03",
+   "alt": "HIS-05",
+   "topic": "Vedic literature",
+   "agreement": "BOTH"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q75": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Hiuen Tsang, Harsha",
+   "agreement": "BOTH"
+  },
+  "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q78": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Chauri Chaura, withdrawal",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q107": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Inquilab Zindabad, Bhagat Singh",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q113": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "First woman Congress president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q137": {
+   "chapter": "HIS-25",
+   "alt": "HIS-27",
+   "topic": "Simon Commission purpose",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q141": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Annulment of Bengal partition",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q159": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Capital shift to Delhi",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q189": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Lothal port",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q193": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Dipavamsa Buddhist chronicle",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q194": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "Tripuri session 1939",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q196": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Slave dynasty sultans",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q199": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Zabt system, Akbar",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q200": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Pakistan Resolution 1940",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q26": {
+   "chapter": "OUT_OF_SCOPE",
+   "alt": "HIS-13",
+   "topic": "Mughal painters, Ain-i-Akbari",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q27": {
+   "chapter": "HIS-27",
+   "alt": "HIS-17",
+   "topic": "Pitt India Act 1784",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q29": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Cabinet Mission 1946",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q31": {
+   "chapter": "HIS-17",
+   "alt": "HIS-20",
+   "topic": "English replaces Persian 1835",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q33": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Partition of Bengal date",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q34": {
+   "chapter": "HIS-16",
+   "alt": "HIS-14",
+   "topic": "Treaty of Bassein 1802",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q37": {
+   "chapter": "HIS-19",
+   "alt": null,
+   "topic": "Regions unaffected in 1857",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q38": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Ghadar Party founding",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q40": {
+   "chapter": "HIS-20",
+   "alt": "HIS-27",
+   "topic": "Widow Remarriage Act",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q42": {
+   "chapter": "HIS-27",
+   "alt": "HIS-21",
+   "topic": "Vernacular Press Act, Lytton",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q44": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Surat split 1907",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q47": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Home Rule movement members",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q48": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Muslim League founding",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q51": {
+   "chapter": "HIS-27",
+   "alt": "HIS-17",
+   "topic": "Civil Services origin",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q54": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "INA trials defence lawyers",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q55": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Titumir, Wahabi movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q58": {
+   "chapter": "HIS-16",
+   "alt": "HIS-17",
+   "topic": "Dalhousie, railways and telegraph",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q61": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Gandhi, Mountbatten, Punjab/Noakhali",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q62": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Vivekananda writings",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q64": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Indigo Rebellion timing",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q66": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Dandi March date",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q68": {
+   "chapter": "HIS-16",
+   "alt": "HIS-14",
+   "topic": "First Anglo-Maratha War",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q71": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Tattwabodhini Sabha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q72": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Indian Association founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q75": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Azad Hind Fauj formation",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q76": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Kadambari, Banabhatta",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q78": {
+   "chapter": "HIS-27",
+   "alt": "HIS-21",
+   "topic": "Lord Mayo murdered",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q79": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Jallianwala Bagh date",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q84": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Lucknow Pact 1916",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q87": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "INA founder commander",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q89": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Arya Samaj Bombay",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q93": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Cripps Mission, post-dated cheque",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2015-PRELIMS-Q95": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Indian Independence League",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q104": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Harappan rice site",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q106": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Swaraj Party elections",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q107": {
+   "chapter": "HIS-20",
+   "alt": "HIS-21",
+   "topic": "Som Prakash, Vidyasagar",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q110": {
+   "chapter": "HIS-00",
+   "alt": null,
+   "topic": "Father of Indian archaeology",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q113": {
+   "chapter": "HIS-24",
+   "alt": "HIS-18",
+   "topic": "Moplah rebellion 1921",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q115": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Buddhism, cause of sorrow",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q119": {
+   "chapter": "HIS-26",
+   "alt": "HIS-28",
+   "topic": "Congress president 1947",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q135": {
+   "chapter": "HIS-07",
+   "alt": null,
+   "topic": "Indo-Greek Menander",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q140": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Stafford Cripps party",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q143": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Barani, Balban period",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q146": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Curzon Wyllie murder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q149": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Vikramashila founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q151": {
+   "chapter": "HIS-26",
+   "alt": "HIS-27",
+   "topic": "Viceroy at Quit India",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q155": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Tripartite struggle",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q158": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "Congress ministries 1937",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q161": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Earliest contact with Islam",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q166": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "First Deccan incursion",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q171": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Hindu College founding",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q173": {
+   "chapter": "HIS-11",
+   "alt": null,
+   "topic": "Hampi, Vijayanagara",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q174": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Dandi March, Civil Disobedience",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q177": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Din-i-Ilahi member",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q180": {
+   "chapter": "HIS-26",
+   "alt": "HIS-25",
+   "topic": "Partition remark, Kitchlew",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q185": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Mughal official language",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q186": {
+   "chapter": "HIS-20",
+   "alt": "HIS-21",
+   "topic": "Reform movements and nationalism",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q190": {
+   "chapter": "HIS-17",
+   "alt": "HIS-13",
+   "topic": "Taccavi loans",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q196": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Todar Mal, Zabti",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q26": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Do-aspah Sih-aspah, Jahangir",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q29": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Congress social democratic resolution",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q31": {
+   "chapter": "HIS-15",
+   "alt": null,
+   "topic": "English first factory Surat",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q32": {
+   "chapter": "HIS-17",
+   "alt": "HIS-27",
+   "topic": "ICS, Cornwallis",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q40": {
+   "chapter": "HIS-16",
+   "alt": "HIS-14",
+   "topic": "Ranjit Singh, Sukerchakia misl",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q42": {
+   "chapter": "HIS-17",
+   "alt": "HIS-21",
+   "topic": "Drain of Wealth",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q45": {
+   "chapter": "HIS-16",
+   "alt": null,
+   "topic": "Tipu final defeat",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q51": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Andaman, Shaheed and Swaraj",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q55": {
+   "chapter": "HIS-28",
+   "alt": "HIS-26",
+   "topic": "Princely states count",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q59": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "Servants of India Society",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q60": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "INA organisation 1942",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q63": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Communal Award 1932",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q66": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Subhas Bose Great Escape",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q67": {
+   "chapter": "HIS-14",
+   "alt": null,
+   "topic": "Barabhai council, Nana Phadnavis",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q71": {
+   "chapter": "HIS-28",
+   "alt": "OUT_OF_SCOPE",
+   "topic": "Hind Mazdoor Sangh founder",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2016-PRELIMS-Q72": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "Rise of Extremism cause",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q100": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Munda Ulgulan, Birsa",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q101": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Congress founding year",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q102": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "Swaraj birthright, Tilak",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q103": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Party founded 1906",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q104": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Santhal rebellion leaders",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q105": {
+   "chapter": "HIS-19",
+   "alt": "HIS-27",
+   "topic": "Governor-General in 1857",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q106": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Non-cooperation withdrawal",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q107": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Lucknow Pact year",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q108": {
+   "chapter": "HIS-20",
+   "alt": "HIS-21",
+   "topic": "Aligarh movement centre",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q109": {
+   "chapter": "HIS-22",
+   "alt": "HIS-27",
+   "topic": "Morley-Minto reforms year",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q110": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Jallianwala Bagh",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q111": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "First Congress president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q112": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Moderate phase of Congress",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q113": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Bengal partition annulled",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q114": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Do or Die, Quit India",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q115": {
+   "chapter": "HIS-26",
+   "alt": "HIS-25",
+   "topic": "Forward Bloc founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q116": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "1946 Cabinet Mission",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q117": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Chittagong Armoury Raid",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q118": {
+   "chapter": "HIS-27",
+   "alt": "HIS-26",
+   "topic": "Indian Independence Act 1947",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q119": {
+   "chapter": "HIS-27",
+   "alt": "HIS-26",
+   "topic": "First GG of independent India",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q120": {
+   "chapter": "HIS-28",
+   "alt": "HIS-26",
+   "topic": "First GG of Pakistan",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q121": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Pakistan Resolution, Lahore",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q122": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Lahore 1929 Purna Swaraj",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q123": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Azad Hind Fauz founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q124": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Cripps post-dated cheque",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q125": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Direct Action Day",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q182": {
+   "chapter": "HIS-17",
+   "alt": "HIS-16",
+   "topic": "First railway line 1853",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q76": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Kadambari, Banabhatta",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q77": {
+   "chapter": "HIS-06",
+   "alt": null,
+   "topic": "Ashoka, Piyadasi",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q78": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Hiuen Tsang, Harsha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q79": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Tughlaq capital transfer",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q80": {
+   "chapter": "HIS-13",
+   "alt": "HIS-00",
+   "topic": "Mughal historian Jadunath Sarkar",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q81": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Babur autobiography",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q82": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Sulh-i-Kul, Akbar",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q83": {
+   "chapter": "HIS-13",
+   "alt": "HIS-09",
+   "topic": "Rana Pratap, Sisodia",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q84": {
+   "chapter": "HIS-11",
+   "alt": null,
+   "topic": "Ashtadiggajas, Krishnadevaraya",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q85": {
+   "chapter": "HIS-04",
+   "alt": null,
+   "topic": "Bimbisara, Seniya",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q86": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Kalibangan, Rajasthan",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q87": {
+   "chapter": "HIS-05",
+   "alt": "HIS-04",
+   "topic": "Jivaka, Buddha physician",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q88": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Harijan Sevak Sangh",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q89": {
+   "chapter": "HIS-16",
+   "alt": "HIS-18",
+   "topic": "Velu Thampi, Travancore",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q90": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Poona Sarvajanik Sabha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q91": {
+   "chapter": "HIS-20",
+   "alt": "HIS-27",
+   "topic": "Sati abolition 1829",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q92": {
+   "chapter": "HIS-12",
+   "alt": "HIS-13",
+   "topic": "Guru Tegh Bahadur execution",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q93": {
+   "chapter": "HIS-13",
+   "alt": "HIS-18",
+   "topic": "Satnami rebellion",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q94": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "First Congress session venue",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q95": {
+   "chapter": "HIS-27",
+   "alt": "HIS-21",
+   "topic": "Younghusband Mission, Curzon",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q96": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Ram Mohan Roy, Raja title",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q97": {
+   "chapter": "HIS-18",
+   "alt": "HIS-20",
+   "topic": "Neel Darpan author",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q98": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Razmnama, Mahabharata",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2017-PRELIMS-Q99": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Ain-i-Akbari author",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q112": {
+   "chapter": "HIS-20",
+   "alt": "HIS-18",
+   "topic": "Hindoo Patriot editor",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q118": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Buddha first sermon",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q126": {
+   "chapter": "HIS-06",
+   "alt": null,
+   "topic": "Sandrocottus, Chandragupta",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q138": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Breakdown Plan 1946",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q140": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Quit India as rebellion",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q143": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Kitab-ul-Hind, Al-Biruni",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q147": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Brihatsamhita, Varahamihira",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q152": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Skandagupta, Huna repulse",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q156": {
+   "chapter": "HIS-16",
+   "alt": "HIS-17",
+   "topic": "Dalhousie, railway",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q160": {
+   "chapter": "HIS-00",
+   "alt": null,
+   "topic": "Ancient India historian",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q163": {
+   "chapter": "HIS-24",
+   "alt": "HIS-25",
+   "topic": "AITUC first president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q164": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Gangaikondachola, Rajendra I",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q166": {
+   "chapter": "HIS-21",
+   "alt": "HIS-22",
+   "topic": "New Lamps for Old",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q168": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Satyashodhak Samaj",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q169": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Karachi Fundamental Rights",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q170": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Chahalgani, Balban",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q172": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Microscopic minority, Dufferin",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q175": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "National Planning Committee",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q176": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Market control, Alauddin",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q177": {
+   "chapter": "HIS-15",
+   "alt": null,
+   "topic": "First European traders",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q178": {
+   "chapter": "HIS-20",
+   "alt": "HIS-25",
+   "topic": "Periyar, Self-Respect",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q181": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Akbar contemporaries Rajput",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q182": {
+   "chapter": "HIS-21",
+   "alt": "HIS-20",
+   "topic": "Hindi-Hindu-Hindustan slogan",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q184": {
+   "chapter": "HIS-10",
+   "alt": "OUT_OF_SCOPE",
+   "topic": "Qutub Minar completion",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q185": {
+   "chapter": "HIS-16",
+   "alt": null,
+   "topic": "Buxar, Mir Qasim",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q186": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "First arrest, non-cooperation",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q189": {
+   "chapter": "HIS-14",
+   "alt": null,
+   "topic": "Shivaji, Haindava Dharmoddharak",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q190": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Tilak Home Rule League",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q193": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Din-i-Ilahi, Birbal",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q196": {
+   "chapter": "HIS-13",
+   "alt": "HIS-20",
+   "topic": "Sati prohibition, Mughals",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q197": {
+   "chapter": "HIS-25",
+   "alt": "HIS-27",
+   "topic": "Simon Commission boycott",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q199": {
+   "chapter": "HIS-12",
+   "alt": "HIS-14",
+   "topic": "Khalsa founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q27": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Abhinav Bharat, Savarkar",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q32": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Ghadar Party leader",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q34": {
+   "chapter": "HIS-18",
+   "alt": "HIS-20",
+   "topic": "Neel Darpan, indigo",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q39": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "Krishak Praja Party, Fazlul Haq",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q43": {
+   "chapter": "HIS-16",
+   "alt": "HIS-15",
+   "topic": "Tipu Sultan, French ally",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q45": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Back to Vedas, Dayananda",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q48": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Harappan sites, Gujarat",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q50": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Ghulamgiri, Jyotiba Phule",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q54": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "First Muslim Congress president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q58": {
+   "chapter": "HIS-26",
+   "alt": "HIS-25",
+   "topic": "Forward Bloc, Bose",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q62": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Lahore Resolution significance",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q66": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "League acceptance of Mountbatten Plan",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q67": {
+   "chapter": "HIS-07",
+   "alt": "HIS-05",
+   "topic": "Buddhacharita, Ashvaghosha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q69": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Dacca Anushilan Samiti",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q73": {
+   "chapter": "HIS-19",
+   "alt": null,
+   "topic": "Lucknow leader 1857",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q77": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Indian Independence League",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q81": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Congress president 1947",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q84": {
+   "chapter": "HIS-06",
+   "alt": null,
+   "topic": "Megasthenes, Chandragupta Maurya",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2018-PRELIMS-Q93": {
+   "chapter": "HIS-04",
+   "alt": null,
+   "topic": "Magadha territory",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q114": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "United Sovereign Bengal",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q166": {
+   "chapter": "OUT_OF_SCOPE",
+   "alt": "HIS-28",
+   "topic": "Sikkim last king",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q176": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Harijan Samaj, Gandhi 1932",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q177": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Ghadar Party founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q178": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Azad Hind provisional government",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q179": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "INA trials Red Fort",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q180": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Quit India, Wardha CWC",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q181": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Tilak death 1920",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q182": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Vande Mataram 1896",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q183": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Non-cooperation suspended",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q184": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "First Congress president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q185": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Indian Independence League",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q186": {
+   "chapter": "HIS-22",
+   "alt": "HIS-27",
+   "topic": "Separate electorate, Morley-Minto",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q187": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Purna Swaraj Lahore 1929",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q188": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Rowlatt Act before Jallianwala",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q189": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Pakistan resolution venue",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q190": {
+   "chapter": "HIS-24",
+   "alt": "HIS-27",
+   "topic": "Rowlatt Act, Black Bill",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q191": {
+   "chapter": "HIS-26",
+   "alt": "HIS-25",
+   "topic": "Nehru-Jinnah remark",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q192": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Khilafat movement leaders",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q193": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Simon Commission Report remark",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q194": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Direct Action Day",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q195": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Dandi March date",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q196": {
+   "chapter": "HIS-16",
+   "alt": null,
+   "topic": "Buxar established supremacy",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q197": {
+   "chapter": "HIS-18",
+   "alt": "HIS-20",
+   "topic": "Kuka movement, Punjab",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q198": {
+   "chapter": "HIS-26",
+   "alt": "HIS-25",
+   "topic": "Idea of Pakistan, Iqbal",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q199": {
+   "chapter": "HIS-24",
+   "alt": "HIS-27",
+   "topic": "Rowlatt Act year",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q200": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Swadeshi after Partition",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q51": {
+   "chapter": "HIS-26",
+   "alt": "HIS-28",
+   "topic": "Tryst with destiny",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q52": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Microscopic minority, Dufferin",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q53": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Rahmat Ali, Pakistan",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q54": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Cripps, post-dated cheque",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q55": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Jallianwala Bagh place",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q56": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Annulment, Lord Hardinge",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q57": {
+   "chapter": "HIS-16",
+   "alt": "HIS-15",
+   "topic": "Carnatic Wars parties",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q58": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Gandhi first mass movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q59": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Surya Sen, Chittagong",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q60": {
+   "chapter": "HIS-19",
+   "alt": null,
+   "topic": "Kanpur 1857 leader",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q61": {
+   "chapter": "HIS-20",
+   "alt": "HIS-17",
+   "topic": "Asiatic Society founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q62": {
+   "chapter": "HIS-26",
+   "alt": "HIS-28",
+   "topic": "Radcliffe boundary",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q63": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Swaraj Party leaders",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q64": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "First woman Congress president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q65": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Congress founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q66": {
+   "chapter": "HIS-16",
+   "alt": null,
+   "topic": "Buxar year",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q67": {
+   "chapter": "HIS-15",
+   "alt": "HIS-13",
+   "topic": "English Surat factory permission",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q68": {
+   "chapter": "HIS-15",
+   "alt": null,
+   "topic": "Vasco da Gama 1498",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q69": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Ibadat Khana, Akbar",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q70": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Malik Kafur, Alauddin",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q71": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Buddha enlightenment place",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q72": {
+   "chapter": "HIS-08",
+   "alt": "HIS-07",
+   "topic": "Mrichhakatika, Shudraka",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q73": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Samudragupta successor",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q74": {
+   "chapter": "HIS-00",
+   "alt": "HIS-06",
+   "topic": "Prinsep, Ashokan Brahmi decipherment",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2019-PRELIMS-Q75": {
+   "chapter": "HIS-01",
+   "alt": "HIS-02",
+   "topic": "Mehrgarh earliest agriculture",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q100": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Ibn Battuta, Tughlaq",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q102": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Ulgulan, Munda",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q103": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Gandhi influenced by Tolstoy",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q105": {
+   "chapter": "HIS-23",
+   "alt": "HIS-26",
+   "topic": "Women revolutionaries, Bengal",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q114": {
+   "chapter": "HIS-25",
+   "alt": "HIS-27",
+   "topic": "Viceroy at Civil Disobedience",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q116": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Partition annulled 1911",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q118": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Grand Old Man, Naoroji",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q122": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Pakistan Resolution date",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q123": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Titumir original name",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q124": {
+   "chapter": "HIS-25",
+   "alt": "HIS-22",
+   "topic": "New Delhi inauguration 1931",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q125": {
+   "chapter": "HIS-07",
+   "alt": "HIS-00",
+   "topic": "Saka era beginning",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q129": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Allahabad Prasasti author",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q137": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Mansab system",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q142": {
+   "chapter": "HIS-26",
+   "alt": "HIS-23",
+   "topic": "India Independence League",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q144": {
+   "chapter": "HIS-24",
+   "alt": "HIS-25",
+   "topic": "Gandhi charkha symbol",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q151": {
+   "chapter": "HIS-00",
+   "alt": null,
+   "topic": "Aligarh School historiography",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q154": {
+   "chapter": "HIS-17",
+   "alt": "HIS-21",
+   "topic": "Drain of wealth book",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q156": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Santhal rebellion leaders",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q160": {
+   "chapter": "HIS-22",
+   "alt": "HIS-23",
+   "topic": "First Indian national flag",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q168": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Carlyle Circular",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q172": {
+   "chapter": "HIS-18",
+   "alt": "HIS-24",
+   "topic": "Rampa rebellion",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q175": {
+   "chapter": "HIS-11",
+   "alt": null,
+   "topic": "Nayankara system",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q27": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Sandhyakar Nandi Pala poet",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q28": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Delhi Sultans non-slave",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q30": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "Tilak Swaraj slogan",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q35": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Rand assassination Chapekars",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q36": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Vikramsila founder Dharmapala",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q37": {
+   "chapter": "HIS-24",
+   "alt": "HIS-25",
+   "topic": "Gandhi quotation",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q42": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "INA flag symbol",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q47": {
+   "chapter": "HIS-18",
+   "alt": "HIS-24",
+   "topic": "Eka movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q48": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Pather Dabi novel",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q55": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Asiatic Society founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q56": {
+   "chapter": "HIS-11",
+   "alt": null,
+   "topic": "Amuktamalyada author",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q63": {
+   "chapter": "HIS-09",
+   "alt": "HIS-10",
+   "topic": "Khajuraho Chandela Alberuni",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q64": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Irish revolutionary influence",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q67": {
+   "chapter": "HIS-19",
+   "alt": null,
+   "topic": "Bahadur Shah II 1857",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q70": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Dandi March",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q71": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Khilafat agenda",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q78": {
+   "chapter": "OUT_OF_SCOPE",
+   "alt": null,
+   "topic": "Chipko movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q79": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Ain-i-Dahsala Akbar",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q81": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Savarkar mercy petitions",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q82": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Safety valve theory",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q84": {
+   "chapter": "HIS-10",
+   "alt": "HIS-13",
+   "topic": "Khutba",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q87": {
+   "chapter": "HIS-12",
+   "alt": "HIS-13",
+   "topic": "Ramcharitmanas Tulsidas",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q90": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Iqta Iltutmish",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q95": {
+   "chapter": "HIS-22",
+   "alt": "HIS-23",
+   "topic": "Sandhya newspaper Upadhyay",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q98": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Bakhtiyar Khalji Bengal conquest",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2021-PRELIMS-Q99": {
+   "chapter": "HIS-00",
+   "alt": null,
+   "topic": "Subaltern school historiography",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q103": {
+   "chapter": "HIS-24",
+   "alt": "HIS-22",
+   "topic": "Hind Swaraj",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q104": {
+   "chapter": "HIS-25",
+   "alt": "HIS-24",
+   "topic": "Churchill seditious fakir",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q108": {
+   "chapter": "HIS-27",
+   "alt": "HIS-22",
+   "topic": "Montagu-Chelmsford Reforms",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q110": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Grand Old Man Naoroji",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q115": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Buland Darwaza",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q116": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Tulughma tactic Babur",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q125": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Gandhi-Irwin Pact year",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q126": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "All India Kisan Sabha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q136": {
+   "chapter": "HIS-08",
+   "alt": "HIS-06",
+   "topic": "Bisthi unpaid labour",
+   "agreement": "RESOLVED"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q137": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Philosophy of the Bomb",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q144": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Balhara Rashtrakuta",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q148": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "Servants of India Society",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q151": {
+   "chapter": "HIS-23",
+   "alt": "HIS-22",
+   "topic": "Gadar Party",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q154": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Bismil Kakori case",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q157": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Chandragupta II vs Sakas",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q161": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Navjivan editor",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q173": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Iqta Iltutmish organiser",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q175": {
+   "chapter": "HIS-04",
+   "alt": "HIS-05",
+   "topic": "Mahajanapada clans matching",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q176": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Bardoli Satyagraha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q177": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Chauri Chaura location",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q179": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Abul Fazl assassination",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q180": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Poona Pact",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q182": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Tattwabodhini Sabha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q185": {
+   "chapter": "HIS-08",
+   "alt": "HIS-06",
+   "topic": "Foreign travellers chronology",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q186": {
+   "chapter": "HIS-06",
+   "alt": null,
+   "topic": "Megasthenes on slavery",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q189": {
+   "chapter": "HIS-06",
+   "alt": null,
+   "topic": "Asokan edict Antiochus",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q191": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Buddha first sermon",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q192": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Nagpur non-cooperation",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q193": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Dara Shukoh Upanishads",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q197": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Rajaraja Chola",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q198": {
+   "chapter": "HIS-17",
+   "alt": "HIS-21",
+   "topic": "Drain theory",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q200": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Allahabad Prasasti composer",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q31": {
+   "chapter": "HIS-10",
+   "alt": "HIS-13",
+   "topic": "Delhi Sultanate monuments pair",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q33": {
+   "chapter": "HIS-25",
+   "alt": "HIS-20",
+   "topic": "Self-Respect Movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q34": {
+   "chapter": "HIS-11",
+   "alt": "HIS-13",
+   "topic": "Chand Bibi Ahmednagar",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q37": {
+   "chapter": "HIS-22",
+   "alt": "HIS-20",
+   "topic": "Bharat Mata painting",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q39": {
+   "chapter": "HIS-27",
+   "alt": "HIS-21",
+   "topic": "Ripon repealed VPA",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q46": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Harappan sites excavators",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q54": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Rakhi Bandhan Bengal partition",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q56": {
+   "chapter": "HIS-01",
+   "alt": null,
+   "topic": "Mehrgarh early agriculture",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q62": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Bipin Chandra Pal Aurobindo",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q69": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Humayunnama author",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q77": {
+   "chapter": "HIS-24",
+   "alt": "HIS-27",
+   "topic": "Rowlatt Act",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q79": {
+   "chapter": "HIS-28",
+   "alt": "HIS-26",
+   "topic": "First Indian Governor-General",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q80": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Anushilan Samiti founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q82": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Delhi Sultanate dynasties order",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q88": {
+   "chapter": "HIS-01",
+   "alt": null,
+   "topic": "Archaic Homo sapiens Narmada",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q91": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "C R Das swaraj masses",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q95": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Earliest sati evidence Eran",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2022-PRELIMS-Q97": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Carlyle Circular year",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q100": {
+   "chapter": "HIS-11",
+   "alt": null,
+   "topic": "Amuktamalyada author",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q109": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Congress 1918 split",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q113": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Chandragupta II second capital",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q117": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Amir Khusrau Parrot of India",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q122": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Partition of Bengal provinces",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q123": {
+   "chapter": "HIS-21",
+   "alt": "HIS-20",
+   "topic": "Nabagopal Mitra national",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q127": {
+   "chapter": "HIS-06",
+   "alt": null,
+   "topic": "First historical emperor",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q128": {
+   "chapter": "HIS-08",
+   "alt": "HIS-09",
+   "topic": "Pulakeshin II vs Harsha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q137": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Adina Mosque builder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q143": {
+   "chapter": "HIS-16",
+   "alt": "HIS-14",
+   "topic": "Farrukhsiyar farman 1717",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q144": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Mihirakula Huna",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q145": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Rajendra Chola Gangaikonda",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q157": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "First Individual Satyagrahi",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q158": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Madan Lal Dhingra",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q169": {
+   "chapter": "HIS-22",
+   "alt": "HIS-24",
+   "topic": "Ehrar League WWI",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q173": {
+   "chapter": "HIS-07",
+   "alt": null,
+   "topic": "Nanaghat inscription",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q176": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Origin of word Congress",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q181": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Bombay Triumvirate",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q182": {
+   "chapter": "HIS-20",
+   "alt": "HIS-22",
+   "topic": "Aligarh college founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q187": {
+   "chapter": "HIS-21",
+   "alt": "HIS-22",
+   "topic": "Shivaji festival",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q191": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Balban frontier policy",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q192": {
+   "chapter": "HIS-13",
+   "alt": "HIS-12",
+   "topic": "Last Sikh Guru",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q196": {
+   "chapter": "HIS-25",
+   "alt": "HIS-18",
+   "topic": "Gaidinliu Rani title",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q199": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Hardinge bomb Delhi 1912",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q27": {
+   "chapter": "HIS-21",
+   "alt": "HIS-20",
+   "topic": "First Indian newspaper",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q31": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Faraizi movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q32": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "British Committee of Congress",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q36": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Vaikkom Satyagraha",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q37": {
+   "chapter": "HIS-17",
+   "alt": "HIS-16",
+   "topic": "First cotton mill",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q38": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Azad six-year president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q40": {
+   "chapter": "HIS-04",
+   "alt": null,
+   "topic": "Magadha mahajanapada",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q41": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "Youngest Congress president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q42": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Calcutta Congress 1886",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q44": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Alamgir Aurangzeb",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q46": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "National Planning Committee",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q47": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Last Sultan of Delhi",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q49": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Ilbert Bill",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q54": {
+   "chapter": "HIS-07",
+   "alt": null,
+   "topic": "Kanishka capital",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q57": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Nalanda founder",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q60": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "First Battle of Panipat",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q61": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "First Buddhist Council",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q66": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "Naoroji House of Commons",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q71": {
+   "chapter": "HIS-21",
+   "alt": "HIS-20",
+   "topic": "Syed Ahmad on Congress",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q78": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Nehru Report Congress session",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q81": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Kumarasambhavam author",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q82": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Alauddin Deccan expeditions",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q84": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Din-i-Ilahi",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2023-PRELIMS-Q95": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Tilak Lokmanya epithet",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q100": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Skandagupta vs Hunas",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q103": {
+   "chapter": "HIS-16",
+   "alt": null,
+   "topic": "Subsidiary Alliance first ally",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q104": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Tagore on foreign cloth burning",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q112": {
+   "chapter": "HIS-07",
+   "alt": "OUT_OF_SCOPE",
+   "topic": "Thiruvalluvar Tamil poet",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q121": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Congress Jallianwala inquiry",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q122": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Alauddin cash pay",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q126": {
+   "chapter": "HIS-18",
+   "alt": "HIS-24",
+   "topic": "Eka movement leader",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q136": {
+   "chapter": "HIS-20",
+   "alt": "HIS-17",
+   "topic": "Governor-General at Asiatic Society",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q144": {
+   "chapter": "HIS-28",
+   "alt": null,
+   "topic": "Operation Polo Hyderabad",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q147": {
+   "chapter": "HIS-00",
+   "alt": null,
+   "topic": "Numismatics",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q151": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Sapru mediator Gandhi-Irwin",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q153": {
+   "chapter": "HIS-17",
+   "alt": null,
+   "topic": "Ryotwari Munro",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q160": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Baburnama translation",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q161": {
+   "chapter": "HIS-03",
+   "alt": null,
+   "topic": "Rigveda hymns count",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q162": {
+   "chapter": "HIS-04",
+   "alt": null,
+   "topic": "Anguttara Nikaya mahajanapadas",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q164": {
+   "chapter": "HIS-22",
+   "alt": "HIS-23",
+   "topic": "Karmayogin editor",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q165": {
+   "chapter": "OUT_OF_SCOPE",
+   "alt": null,
+   "topic": "Gandhi biographer",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q167": {
+   "chapter": "HIS-26",
+   "alt": "HIS-25",
+   "topic": "Khaksar movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q168": {
+   "chapter": "HIS-24",
+   "alt": "HIS-22",
+   "topic": "Congress Democratic Party",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q170": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Buribalam battle Bagha Jatin",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q171": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Hunter Committee",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q174": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Congress president after Bose",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q175": {
+   "chapter": "HIS-03",
+   "alt": null,
+   "topic": "Tamaso Ma Jyotirgamaya Upanishad",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q176": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Parallel governments 1942",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q182": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Malabari Infant Marriage notes",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q186": {
+   "chapter": "HIS-24",
+   "alt": "HIS-25",
+   "topic": "Gandhi versus Lenin",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q187": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Harappan seal animals",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q194": {
+   "chapter": "HIS-18",
+   "alt": "HIS-24",
+   "topic": "Tana Bhagat movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q26": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Irwin Gandhi Two Mahatmas",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q38": {
+   "chapter": "HIS-19",
+   "alt": null,
+   "topic": "Chapati 1857 symbol",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q41": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Azad Hind Radio",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q42": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "First Buddhist Council president",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q44": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Red Fort trials INA",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q46": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "First Individual Satyagrahi",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q50": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Birsa Munda",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q53": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Interim government 1946",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q60": {
+   "chapter": "HIS-07",
+   "alt": null,
+   "topic": "Indo-Greek coins Agathocles",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q61": {
+   "chapter": "HIS-24",
+   "alt": "HIS-27",
+   "topic": "Rowlatt Act",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q63": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Kohinoor Shah Jahan",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q65": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Sher Shah Sadak-e-Azam",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q67": {
+   "chapter": "HIS-18",
+   "alt": null,
+   "topic": "Kherwar movement",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q73": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Firoz Tughlaq cities",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q75": {
+   "chapter": "HIS-25",
+   "alt": null,
+   "topic": "Iqbal Round Table Conference",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q78": {
+   "chapter": "HIS-27",
+   "alt": "HIS-24",
+   "topic": "Chamber of Princes",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q86": {
+   "chapter": "HIS-22",
+   "alt": "HIS-24",
+   "topic": "Congress delegate Versailles",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q89": {
+   "chapter": "HIS-26",
+   "alt": "HIS-18",
+   "topic": "Reang uprising Tripura",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q92": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Akbar pilgrimage tax",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q95": {
+   "chapter": "HIS-12",
+   "alt": "HIS-10",
+   "topic": "Roop Sanatan Hussain Shah",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q96": {
+   "chapter": "HIS-13",
+   "alt": "HIS-12",
+   "topic": "Padmavat Jaisi",
+   "agreement": "BOTH"
+  },
+  "WBCS-EXE-PRELIMS-2024-PRELIMS-Q97": {
+   "chapter": "HIS-21",
+   "alt": "HIS-20",
+   "topic": "Age of Consent opposition",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q48": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "Cabinet Mission members",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q62": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Atmiya Sabha",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q63": {
+   "chapter": "HIS-21",
+   "alt": "HIS-22",
+   "topic": "Sare Jahan Se Accha",
+   "agreement": "RESOLVED"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q64": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Prarthana Samaj",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q65": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Alauddin Iqta abolition",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q66": {
+   "chapter": "HIS-10",
+   "alt": "HIS-12",
+   "topic": "Gunaraj Khan Maladhar Basu",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q67": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Anushilan Samiti",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2004-Q68": {
+   "chapter": "HIS-07",
+   "alt": null,
+   "topic": "Gautamiputra Satakarni",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2005-Q62": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Gopala Pala founder",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2005-Q63": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Meghaduta Kalidasa",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2005-Q64": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Akbar Assam unconquered",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2005-Q65": {
+   "chapter": "HIS-09",
+   "alt": "HIS-08",
+   "topic": "Kamarupa Assam",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2005-Q66": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Muslim League founding",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2005-Q67": {
+   "chapter": "HIS-16",
+   "alt": "HIS-27",
+   "topic": "Doctrine of Lapse",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q29": {
+   "chapter": "HIS-25",
+   "alt": "HIS-26",
+   "topic": "Frontier Gandhi",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q30": {
+   "chapter": "HIS-07",
+   "alt": "HIS-00",
+   "topic": "Saka era start",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q31": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Atmiya Sabha",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q32": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Allahabad Prasasti subject",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q33": {
+   "chapter": "HIS-20",
+   "alt": "HIS-22",
+   "topic": "Vande Mataram Bankim",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q35": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Sher Shah general",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q36": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Chittagong Armoury Raid",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2006-Q37": {
+   "chapter": "HIS-14",
+   "alt": null,
+   "topic": "Third Battle of Panipat",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q10": {
+   "chapter": "HIS-13",
+   "alt": null,
+   "topic": "Fatehpur Sikri",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q11": {
+   "chapter": "HIS-12",
+   "alt": null,
+   "topic": "Guru Nanak",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q12": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "First Congress president",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q13": {
+   "chapter": "HIS-22",
+   "alt": null,
+   "topic": "Capital shifted to Delhi",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q14": {
+   "chapter": "HIS-17",
+   "alt": "HIS-21",
+   "topic": "Drain of Wealth theory",
+   "agreement": "ONE_AS_ALT"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q15": {
+   "chapter": "HIS-10",
+   "alt": "HIS-12",
+   "topic": "Amir Khusrau sitar",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q5": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Asiatic Society founder",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q6": {
+   "chapter": "HIS-03",
+   "alt": null,
+   "topic": "Vedic women scholars",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q7": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Chandragupta II vs Sakas",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q8": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Mahabalipuram Pallava rathas",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2007-Q9": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Jayadeva Lakshmana Sena",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q2": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Anandamath author",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q3": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Adina Mosque Pandua",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q4": {
+   "chapter": "HIS-20",
+   "alt": "HIS-27",
+   "topic": "Widow Remarriage Act 1856",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q2": {
+   "chapter": "HIS-09",
+   "alt": null,
+   "topic": "Rajatarangini Kalhana",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q3": {
+   "chapter": "HIS-28",
+   "alt": "HIS-26",
+   "topic": "Last Governor-General",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q4": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Gupta Shakari title",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q5": {
+   "chapter": "HIS-14",
+   "alt": null,
+   "topic": "Murshid Quli Khan",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q6": {
+   "chapter": "HIS-16",
+   "alt": "HIS-27",
+   "topic": "First Doctrine of Lapse state",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q10": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "First Congress president",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q16": {
+   "chapter": "HIS-28",
+   "alt": "HIS-26",
+   "topic": "First Indian Governor-General",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q17": {
+   "chapter": "HIS-04",
+   "alt": "HIS-06",
+   "topic": "Alexander invasion date",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q20": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Tagore renounced knighthood",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q33": {
+   "chapter": "HIS-26",
+   "alt": null,
+   "topic": "INA flag Moirang",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q37": {
+   "chapter": "HIS-15",
+   "alt": null,
+   "topic": "Portuguese colonies in India",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q39": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Vivekananda Chicago address",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q1": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Gandhi first satyagraha",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q27": {
+   "chapter": "HIS-16",
+   "alt": null,
+   "topic": "Battle of Plassey",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q32": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Khudiram Bose",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q4": {
+   "chapter": "HIS-28",
+   "alt": "HIS-26",
+   "topic": "Gandhi assassination date",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q6": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Buddha birthplace Lumbini",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q7": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Vidyasagar birthplace",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q40": {
+   "chapter": "HIS-08",
+   "alt": null,
+   "topic": "Nalanda founder",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q42": {
+   "chapter": "HIS-10",
+   "alt": null,
+   "topic": "Alauddin market control",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q54": {
+   "chapter": "HIS-00",
+   "alt": null,
+   "topic": "Numismatics",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q82": {
+   "chapter": "HIS-22",
+   "alt": "HIS-20",
+   "topic": "Life Divine Aurobindo",
+   "agreement": "RESOLVED"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q90": {
+   "chapter": "HIS-22",
+   "alt": "HIS-21",
+   "topic": "First woman Congress president",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q64": {
+   "chapter": "OUT_OF_SCOPE",
+   "alt": null,
+   "topic": "Mandela anti-apartheid",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q83": {
+   "chapter": "HIS-24",
+   "alt": null,
+   "topic": "Khilafat Movement dates",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q88": {
+   "chapter": "HIS-17",
+   "alt": "HIS-18",
+   "topic": "Bengal Tenancy Act 1885",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q92": {
+   "chapter": "HIS-21",
+   "alt": null,
+   "topic": "First Muslim Congress president",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q97": {
+   "chapter": "HIS-19",
+   "alt": "HIS-27",
+   "topic": "Governor-General during 1857",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q98": {
+   "chapter": "HIS-15",
+   "alt": null,
+   "topic": "Vasco da Gama Calicut",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q79": {
+   "chapter": "HIS-20",
+   "alt": "HIS-17",
+   "topic": "Calcutta University founding",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q85": {
+   "chapter": "HIS-23",
+   "alt": null,
+   "topic": "Hindusthan Republican Association",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q86": {
+   "chapter": "HIS-05",
+   "alt": null,
+   "topic": "Jataka tales",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q87": {
+   "chapter": "HIS-28",
+   "alt": null,
+   "topic": "Sikkim statehood 1975",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q91": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Hindu College Calcutta",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q69": {
+   "chapter": "HIS-02",
+   "alt": null,
+   "topic": "Harappan metals",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q93": {
+   "chapter": "HIS-20",
+   "alt": null,
+   "topic": "Asiatic Society founder",
+   "agreement": "BOTH"
+  },
+  "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q99": {
+   "chapter": "HIS-03",
+   "alt": null,
+   "topic": "Yoga root Rig Veda",
+   "agreement": "BOTH"
+  }
+ }
+}

@@ -25,4 +25,14 @@ function requireAdmin(req, res, next) {
   });
 }
 
-module.exports = { requireAdmin };
+/**
+ * True when the request comes from a signed-in admin (same rule as requireAdmin), without rejecting anyone.
+ * Used for previews of unpublished content.
+ */
+async function isAdminRequest(req) {
+  if (!req.user?.viaSession || !/^[a-fd]{24}$/i.test(req.user.id)) return false;
+  const user = await User.findById(req.user.id).select('email').lean();
+  return Boolean(user && isAdminEmail(user.email));
+}
+
+module.exports = { requireAdmin, isAdminRequest };
