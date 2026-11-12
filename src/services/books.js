@@ -72,6 +72,16 @@ function loadBook(book, { dir = ROOT, fresh = false } = {}) {
     }
     chapters.set(ch.code, { ...ch, file });
   }
+  // The question bank de-duplicates by stem, so the same stem in two chapters would silently drop one question.
+  const stemOwner = new Map();
+  for (const ch of chapters.values()) {
+    for (const q of ch.questions) {
+      const key = q.q.replace(/\s+/g, ' ').trim();
+      const owner = stemOwner.get(key);
+      if (owner && owner !== ch.code) errors.push({ file: ch.file, field: `questions.${q.id}`, code: 'DUPLICATE_STEM_ACROSS_CHAPTERS', message: `same question text as a question in ${owner}` });
+      else stemOwner.set(key, ch.code);
+    }
+  }
   const mapFile = path.join(bookDir, 'pyq_map.json');
   const pyqMap = fs.existsSync(mapFile) ? readJson(mapFile) : {};
   if (fs.existsSync(mapFile)) hash.update(`pyq_map:${crypto.createHash('sha256').update(fs.readFileSync(mapFile)).digest('hex')}`);
