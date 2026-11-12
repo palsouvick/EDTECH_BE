@@ -1,0 +1,641 @@
+{
+ "chapter": "HIS-13",
+ "chapter_file": "/home/hatch/workspace/edtech/bookwork/his13/HIS-13.json",
+ "checker_role": "independent blind key-check (checker did not write the chapter)",
+ "evidence_sources_only": [
+  "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+  "https://ncert.nic.in/textbook/pdf/lehs205.pdf"
+ ],
+ "method": "Each question was read with its four options shuffled and the stored key withheld; the answer was derived from gess104.txt and lehs205.txt alone, with the deciding sentence quoted, and only then compared with the stored key and explanation.",
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "ইব্রাহিম লোদি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In 1526 he defeated Ibrahim Lodi at Panipat and captured Delhi and Agra.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 40",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q02",
+   "answer": "তৈমুরি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "They referred to themselves as Timurids, as descendants of the Turkish ruler Timur on the paternal side.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §1",
+   "notes": "gess104 p. 39 agrees: Mughals proud of Timurid ancestry, disliked the Mongol name.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q03",
+   "answer": "শের শাহ শূর",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "His successor, Nasiruddin Humayun (1530-40, 1555-56) expanded the frontiers of the empire, but lost it to the Afghan leader Sher Shah Sur, who drove him into exile.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §1",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q04",
+   "answer": "আকবর",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Many consider Jalaluddin Akbar (1556-1605) the greatest of all the Mughal emperors, for he not only expanded but also consolidated his empire, making it the largest, strongest and richest kingdom of his time.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §1",
+   "notes": "Question wording tracks this sentence almost word for word.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q05",
+   "answer": "পদ বা পদমর্যাদা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The term mansabdar refers to an individual who holds a mansab, meaning a position or rank.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 42",
+   "notes": "lehs205 §8.1 agrees (mansab = rank comprising zat and sawar).",
+   "status": "MATCH"
+  },
+  {
+   "id": "q06",
+   "answer": "দরবারে অবস্থান ও বেতন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The rank and salary were determined by a numerical value called zat. The higher the zat, the more prestigious was the noble's position in court and the larger his salary.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 42",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q07",
+   "answer": "টোডর মল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Akbar's revenue minister, Todar Mal, carried out a careful survey of crop yields, prices and areas cultivated for a 10-year period, 1570-1580.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 43",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q08",
+   "answer": "আকবর",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "His interaction with them led him to promote the idea of sulh-i kul or \"universal peace\".",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 44",
+   "notes": "lehs205 §5.2: Abu'l Fazl describes the ideal, but its implementation (abolitions, grants, composite nobility) is Akbar's; Abu'l Fazl is not among the options, so Akbar is the only source-supported choice.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q09",
+   "answer": "আবুল ফজল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Abul Fazl wrote a three-volume history of Akbar's reign, titled Akbar Nama. ... The third volume is the Ain-i Akbari.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 43",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q10",
+   "answer": "ঔরঙ্গজীব",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "their titles, such as the Akbar Nama, Shahjahan Nama, Alamgir Nama, that is, the story of Akbar, Shah Jahan and Alamgir (a title of the Mughal ruler Aurangzeb)",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §1",
+   "notes": "Timeline in lehs205 confirms: Alamgir Nama = first ten years of Aurangzeb's reign.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q11",
+   "answer": "উত্তরাধিকার সব ছেলের মধ্যে ভাগ হওয়ার প্রথায় সিংহাসন নিয়ে ভ্রাতৃঘাতী যুদ্ধ ঘটত",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In the Mughal empire there was no law laying down which of the emperor's sons would succeed to the throne. This meant that every dynastic change was accompanied and decided by a fratricidal war.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §5.1",
+   "notes": "gess104 p. 41 supplies the coparcenary half: 'they followed the Mughal and Timurid custom of coparcenary inheritance, or a division of the inheritance amongst all the sons.'",
+   "status": "MATCH"
+  },
+  {
+   "id": "q12",
+   "answer": "কাবুল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "He first established himself at Kabul and then in 1526 pushed further into the Indian subcontinent in search of territories and resources",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §1",
+   "notes": "gess104 p. 40: 'After years of wandering he seized Kabul in 1504.'",
+   "status": "MATCH"
+  },
+  {
+   "id": "q13",
+   "answer": "১৫৫৫",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In 1555 Humayun defeated the Surs, but died a year later.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §1",
+   "notes": "gess104 p. 41 agrees (recaptured Delhi in 1555).",
+   "status": "MATCH"
+  },
+  {
+   "id": "q14",
+   "answer": "অম্বরের রাজা ভারমল কছওয়াহা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The first to join was a Rajput chief, Raja Bharmal Kachhwaha of Amber, to whose daughter Akbar got married.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §8.1",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q15",
+   "answer": "পরাজিত শাসকের নিজ ভূমি তাঁকেই জায়গির হিসেবে ফিরিয়ে দেওয়া",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Once defeated, however, they were honourably treated by the Mughals, and their lands (watan) were given back to them as assignments (watan jagirs).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 41",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q16",
+   "answer": "তাঁকে রাখতে হবে এমন অশ্বারোহীর সংখ্যা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "sawar which indicated the number of horsemen he was required to maintain in service",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §8.1",
+   "notes": "gess104 p. 42 agrees.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q17",
+   "answer": "মির বখশি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The mir bakhshi (paymaster general) stood in open court on the right of the emperor and presented all candidates for appointment or promotion",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §8.1",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q18",
+   "answer": "কানুনগো",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the qanungo (keeper of revenue records), the chaudhuri (in charge of revenue collection) and the qazi",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §8.3",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q19",
+   "answer": "১৫৭০–১৫৮০",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "carried out a careful survey of crop yields, prices and areas cultivated for a 10-year period, 1570-1580",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 43",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q20",
+   "answer": "গুজরাট ও বাংলা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "This revenue system was prevalent in the areas where Mughal administration could survey the land and keep very careful accounts. This was not possible in provinces such as Gujarat and Bengal.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 43",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q21",
+   "answer": "গ্রামের মোড়ল থেকে শক্তিশালী সর্দার — সব ভূমি-মধ্যস্বত্বভোগীকে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The term \"zamindars\" was employed by the Mughals to denote all intermediaries, from local headmen of villages to powerful chieftains.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 43",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q22",
+   "answer": "১৫৬৩",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Further, Akbar abolished the tax on pilgrimage in 1563 and jizya in 1564 as the two were based on religious discrimination.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §5.2",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q23",
+   "answer": "মুসলিম, হিন্দু, জৈন, পারসি ও খ্রিস্টান",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Akbar's quest for religious knowledge led to interfaith debates in the ibadat khana at Fatehpur Sikri between learned Muslims, Hindus, Jainas, Parsis and Christians.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §9.3",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q24",
+   "answer": "গুজরাট বিজয়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The enormous arched gateway (Buland Darwaza) was meant to remind visitors of the Mughal victory in Gujarat.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §6.1",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q25",
+   "answer": "কান্দাহার",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In the winter of 1622 a Persian army besieged Qandahar. The ill-prepared Mughal garrison was defeated and had to surrender the fortress and the city to the Safavids.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §9.1",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q26",
+   "answer": "চেঙ্গিস খাঁর নামের সঙ্গে অগণিত মানুষের গণহত্যার স্মৃতি জড়িত ছিল বলে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the Mughals did not like to be called Mongol or Mughal. This is because Genghis Khan's memory was associated with the massacre of innumerable people.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 39",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q27",
+   "answer": "ইরান থেকে তাঁর সঙ্গেই আসেন চিত্রশিল্পী মির সৈয়দ আলি ও আবদুস সামদ, যাঁদের হাতে মুঘল চিত্রকলার সূত্রপাত",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Some were brought to the Mughal court, as in the case of Mir Sayyid Ali and Abdus Samad, who were made to accompany Emperor Humayun to Delhi.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §2.2",
+   "notes": "The option's closing flourish — Mughal painting 'began' through them — is an inference beyond the literal text, but the deciding fact (both painters came with Humayun from Iran) is stated, and every other option is contradicted or absurd against the texts. See prose_issues.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q28",
+   "answer": "যশবন্ত সিংহ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The title Mirza Raja was accorded by Aurangzeb to his two highest-ranking nobles, Jai Singh and Jaswant Singh.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §6.3",
+   "notes": "Elimination is source-based: Bharmal, Todar Mal and Abul Fazl are all placed in Akbar's reign by the texts; Jaswant Singh appears only as Aurangzeb's noble. General knowledge agrees (Jaswant Singh, 1626-1678) — recorded as outside-source agreement, not needed for the verdict.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q29",
+   "answer": "বিশাল আত্মীয়-জাল গড়ে বিশাল সাম্রাজ্যকে একসূত্রে বেঁধে রাখতে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "It was through the link of marriage and the relationships that developed as a result that the Mughals were able to form a vast kinship network that linked them to important groups and helped to hold a vast empire together.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §7",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q30",
+   "answer": "অধিকাংশ মনসবদার নিজের জায়গিরে থাকতেন না বা তা শাসন করতেন না; কর্মচারীরা রাজস্ব আদায় করে পাঠাত",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "But unlike muqtis, most mansabdars did not actually reside in or administer their jagirs. They only had rights to the revenue of their assignments which was collected for them by their servants while the mansabdars themselves served elsewhere in the country.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 42",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q31",
+   "answer": "মনসবদারের সংখ্যা বিশাল বাড়ায় জায়গিরের ঘাটতি দেখা দেয়; প্রকৃত আদায় ধার্য অঙ্কের চেয়ে কম হওয়ায় জায়গিরদাররা সর্বোচ্চ আদায়ের চেষ্টা করেন, কৃষক ক্ষতিগ্রস্ত হয়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "There was also a huge increase in the number of mansabdars which meant a long wait before they received a jagir. These and other factors created a shortage in the number of jagirs. As a result, many jagirdars tried to extract as much revenue as possible while they had a jagir.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 42",
+   "notes": "Full chain incl. 'the actual revenue collected was often less than the granted sum' and 'the peasantry therefore suffered tremendously' is on the same page.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q32",
+   "answer": "জমিদাররা কৃষকদের সমর্থন জোগাড় করে রাষ্ট্রের বিরুদ্ধেও দাঁড়াতে পারতেন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the relationship between local landed magnates, the zamindars, and the representatives of the Mughal emperor was sometimes marked by conflicts over authority and a share of the resources. The zamindars often succeeded in mobilising peasant support against the state.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §8.3",
+   "notes": "gess104 p. 43 agrees (some zamindars rebelled from the late seventeenth century).",
+   "status": "MATCH"
+  },
+  {
+   "id": "q33",
+   "answer": "আকবর বাতিল করেন (১৫৬৪) → ঔরঙ্গজীব আবার চালু করেন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Akbar abolished the tax on pilgrimage in 1563 and jizya in 1564 ... However, during the reign of the latter [Aurangzeb], the jizya was reimposed on non-Muslim subjects.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §5.2",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q34",
+   "answer": "বাবরের কন্যা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Gulbadan was the daughter of Babur, Humayun's sister and Akbar's aunt.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §7",
+   "notes": "",
+   "status": "MATCH"
+  },
+  {
+   "id": "q35",
+   "answer": "নিপীড়িত প্রজা সরাসরি সম্রাটের কাছে বিচার চাইতে পারবেন — ন্যায়ই রাজতন্ত্রের সর্বোচ্চ গুণ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "\"After my accession, the first order that I gave was for the fastening up of the Chain of Justice, so that if those engaged in the administration of justice should delay or practise hypocrisy in the matter of those seeking justice, the oppressed might come to this chain and shake it so that its noise might attract attention.\"",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §5.3",
+   "notes": "lehs205 adds that justice 'came to stand for the highest virtue of Mughal monarchy'.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q36",
+   "answer": "১ ও ২ উভয়ই",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In the seventeenth century, mansabdars of 1,000 zat or above ranked as nobles (umara, which is the plural of amir). ... The troopers maintained superior horses branded on the flank by the imperial mark (dagh).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §8.1",
+   "notes": "Both statements verbatim-supported; gess104 pp. 42/46-48 agrees on branding.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q37",
+   "answer": "১ ও ২ উভয়ই",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In sulh-i kul all religions and schools of thought had freedom of expression but on condition that they did not undermine the authority of the state or fight among themselves. ... Further, Akbar abolished the tax on pilgrimage in 1563 and jizya in 1564",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §5.2",
+   "notes": "The passage explicitly frames the abolitions as implementation of sulh-i kul ('The ideal of sulh-i kul was implemented through state policies').",
+   "status": "MATCH"
+  },
+  {
+   "id": "q38",
+   "answer": "A-৩, B-৪, C-২, D-১",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Babur: 'In 1526 he defeated Ibrahim Lodi at Panipat' (gess104 p. 40). Akbar: 'In the 1570s he decided to build a new capital, Fatehpur Sikri' (lehs205 §6.1). Jahangir: Chain of Justice passage (lehs205 §5.3). Aurangzeb: 'during the reign of the latter, the jizya was reimposed' (lehs205 §5.2).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §§5.2/5.3/6.1 + gess104 p. 40",
+   "notes": "All four pairings individually sourced, so the combination A-৩, B-৪, C-২, D-১ is forced.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q39",
+   "answer": "A-৩, B-৪, C-১, D-২",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "zat which was an indicator of position in the imperial hierarchy and the salary of the official (mansabdar), and sawar which indicated the number of horsemen he was required to maintain in service ... horses branded on the flank by the imperial mark (dagh) ... court writers (waqia nawis) who recorded all applications and documents presented to the court",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §§8.1-8.2",
+   "notes": "All four pairings sourced, forcing A-৩, B-৪, C-১, D-২.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q40",
+   "answer": "২, ৪, ১, ৩",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "1526-1530 Babur's reign; 1605-1627 Jahangir's reign; 1658-1707 Aurangzeb's reign (gess104 timeline, pp. 46-48); Akbar (1556-1605) (lehs205 §1).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "pp. 46-48 (timeline)",
+   "notes": "Order Babur → Akbar → Jahangir → Aurangzeb.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q41",
+   "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Aurangzeb was unable to control these developments in the last years of his reign and the peasantry therefore suffered tremendously. ... the actual revenue collected was often less than the granted sum ... many jagirdars tried to extract as much revenue as possible while they had a jagir",
+   "source_url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+   "page": "p. 42",
+   "notes": "The text presents the extraction directly as the cause of the peasantry's suffering, so R is the correct explanation of A, not merely a co-true statement.",
+   "status": "MATCH"
+  },
+  {
+   "id": "q42",
+   "answer": "৩",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "A pupil of Abu'l Fazl, Abdul Hamid Lahori is known as the author of the Badshah Nama.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "page": "Theme 9, §3 (Akbar Nama and Badshah Nama)",
+   "notes": "Pairs 1, 2 and 4 are all confirmed in lehs205 (Akbar Nama–Abu'l Fazl; Humayun Nama–Gulbadan Begum §7; Babur Nama as the 1589 Persian translation, timeline), leaving pair 3 as the only wrong pair.",
+   "status": "MATCH"
+  }
+ ],
+ "problems": [],
+ "prose_issues": [
+  {
+   "section": "q03 explanation",
+   "text": "বৈরাম খাঁ ছিলেন আকবরের অভিভাবক — তাঁর নাম এই ঘটনার সঙ্গে যুক্ত নয়।",
+   "problem": "Bairam Khan is not mentioned anywhere in gess104 or lehs205, so his role as Akbar's guardian cannot be verified from the allowed sources. Explanation-only gloss; the stored key does not depend on it. Outside-source note: the statement is standard general knowledge and is not contradicted by the texts.",
+   "quote": "",
+   "source_url": "",
+   "severity": "MINOR — outside-source gloss in explanation, key unaffected"
+  },
+  {
+   "section": "q04 explanation",
+   "text": "ঔরঙ্গজীবের আমলে বিস্তার সর্বাধিক হলেও সংগঠনের ভিত্তি আকবরেরই গড়া",
+   "problem": "lehs205 says territorial expansion 'continued, though at a much reduced pace' under Jahangir, Shah Jahan and Aurangzeb; it does not state that the empire reached its greatest extent under Aurangzeb. That is a general-knowledge gloss used only as a contrast in the explanation; the key (Akbar) is fixed by the lehs205 sentence the question tracks. Outside-source note: the gloss is the conventional textbook view and does not conflict with the sources.",
+   "quote": "Under them the territorial expansion continued, though at a much reduced pace.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "severity": "MINOR — outside-source gloss in explanation, key unaffected"
+  },
+  {
+   "section": "q27 correct option wording",
+   "text": "যাঁদের হাতে মুঘল চিত্রকলার সূত্রপাত (through whom Mughal painting began)",
+   "problem": "lehs205 states that Mir Sayyid Ali and Abdus Samad accompanied Humayun to Delhi and that Iranian artists spread the Safavid court's fame, but it does not literally say Mughal painting 'began' through these two. The deciding fact of the question (the two painters came with Humayun from Iran) is verbatim-supported, and all three distractors are contradicted by the texts, so the key stands; only the option's flourish is an inference.",
+   "quote": "Some were brought to the Mughal court, as in the case of Mir Sayyid Ali and Abdus Samad, who were made to accompany Emperor Humayun to Delhi.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "severity": "MINOR — option flourish beyond literal text, key unaffected"
+  },
+  {
+   "section": "q36 explanation",
+   "text": "ঘোড়ায় সাম্রাজ্যিক দাগ (দাঘ) দেওয়া হত যাতে পরীক্ষায় ভুয়ো ঘোড়া দেখানো না যায়",
+   "problem": "The texts say horses were branded with the imperial mark (dagh) and brought for review/registration; the stated motive (preventing fraudulent horses at review) is a reasonable gloss but is not spelled out in either text. Both statements of the question itself are verbatim-supported; key unaffected.",
+   "quote": "The troopers maintained superior horses branded on the flank by the imperial mark (dagh).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/lehs205.pdf",
+   "severity": "MINOR — motive gloss in explanation, key unaffected"
+  }
+ ],
+ "special_checks": [
+  {
+   "check": "(a) s6 exam_note on Birbal and Din-i-Ilahi",
+   "verdict": "PASS — no unsupported settled assertion",
+   "detail": "The only Din-i-Ilahi / Birbal content in the chapter is the s6 exam_note box 'দীন-ই-ইলাহি প্রসঙ্গে'. It (i) gives the standard exam answer (founder: Akbar) explicitly as exam guidance, (ii) states that what the chapter actually teaches from the sources is Akbar's murid (disciple) circle and his light/sun-centred eclectic worship, and (iii) expressly refuses to claim 'Birbal was the first member', saying that popular fact is absent from the chapter's two NCERT sources and is therefore not claimed. The two claims attached to the note, c25 (murid) and c48 (eclectic worship focused on light and the sun), were both verified verbatim against lehs205 in the page_checks below. The name 'Birbal' occurs nowhere in gess104.txt or lehs205.txt (full-text search), and elsewhere in the chapter Birbal appears only as a distractor in q07. The chapter never presents the name 'Din-i-Ilahi' itself as a sourced fact — only as the label used in exam questions.",
+   "quotes": [
+    "Akbar, who designed the mansab system, also established spiritual relationships with a select band of his nobility by treating them as his disciples (murid).",
+    "Increasingly, he moved away from the orthodox Islamic ways of understanding religions towards a self-conceived eclectic form of divine worship focused on light and the sun."
+   ]
+  },
+  {
+   "check": "(b) WBCS-2018-Q196 — sati prohibition under Aurangzeb (official key: Aurangzeb)",
+   "verdict": "PASS — chapter neither teaches nor contradicts the key",
+   "detail": "Full-text search of HIS-13.json finds ZERO occurrences of সতী / সতীদাহ or any discussion of sati. pyq_map_HIS-13.json marks the item taught=false with the note that neither gess104 nor lehs205 discusses a prohibition of sati. That is accurate: neither source text mentions sati at all. The chapter's silence matches its evidence base; nothing in the prose could lead a student to a different answer, and nothing endorses the key either.",
+   "quotes": []
+  },
+  {
+   "check": "(c1) 'Taught with caveats' — Din-i-Ilahi founder (WBCS-2023-Q84, mapped to s6)",
+   "verdict": "SUPPORTED, with the stated caveat",
+   "detail": "Section s6's prose teaches, from lehs205, Akbar's interfaith debates, his murid circle (c25) and his move to a self-conceived eclectic divine worship centred on light and the sun (c48), and the s6 exam_note openly maps the exam term 'Din-i-Ilahi (Tauhid-i-Ilahi)' onto that sourced material while disclosing that the label itself comes from the exam question, not from the NCERT texts. A student who reads s6 can answer 'Akbar' and can justify it from taught content. The 'with caveats' mark in pyq_map is honest and accurate.",
+   "quotes": [
+    "Akbar's religious views matured as he queried scholars of different religions and sects... Increasingly, he moved away from the orthodox Islamic ways of understanding religions towards a self-conceived eclectic form of divine worship focused on light and the sun."
+   ]
+  },
+  {
+   "check": "(c2) 'Taught with caveats' — English factory at Surat (WBCS-2019-Q67, mapped to s8)",
+   "verdict": "SUPPORTED ONLY BY CONTEXT + EXAM FRAMING — caveat is necessary and is honestly disclosed",
+   "detail": "Section s8 teaches Thomas Roe's embassy to Jahangir's court from lehs205, and s7 teaches Jahanara's revenues from the port city of Surat, also from lehs205. The s8 prose sentence about the Surat factory is explicitly framed as exam guidance ('পরীক্ষায় ইংরেজদের সুরাটে প্রথম কারখানার অনুমতিও জাহাঙ্গিরের নামেই আসে'). The deciding fact itself — Jahangir's farman permitting the first English factory at Surat (1613) — appears in NEITHER gess104 nor lehs205 (verified by full-text search: Surat occurs in lehs205 only in the Jahanara passage; no factory or farman is mentioned). So the chapter points a student to the official answer (Jahangir) through context and a transparent exam note, not through a sourced statement of the fact. pyq_map's note and REPORT.md disclose exactly this. Judgement: the 'taught with caveats' mark is fair, but this is the weaker of the two caveats — the underlying fact remains uncorroborated by the allowed sources.",
+   "quotes": [
+    "Jahanara, in addition, received revenues from the port city of Surat, which was a lucrative centre of overseas trade.",
+    "Thomas Roe, the English envoy of James I, simply bowed before Jahangir according to European custom"
+   ]
+  }
+ ],
+ "page_checks": [
+  {
+   "id": "c25",
+   "source": "lehs205 (Themes II, Theme 9)",
+   "page_label": "Theme 9, PDF p. 22",
+   "matches": true,
+   "quote": "Akbar, who designed the mansab system, also established spiritual relationships with a select band of his nobility by treating them as his disciples (murid).",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. PAGE LABEL FLAGGED: the page given ('Theme 9, PDF p. 22') is one of the drafter's PDF-page estimates (the saved lehs205 transcription itself declares its page refs to be estimates from footer positions). The label falls inside the transcription's own section range for this passage, so it is plausible, but it is NOT a verified printed page number — Themes II printed pagination differs from PDF pagination and cannot be confirmed from the saved text alone."
+  },
+  {
+   "id": "c48",
+   "source": "lehs205 (Themes II, Theme 9)",
+   "page_label": "Theme 9, PDF p. 27",
+   "matches": true,
+   "quote": "Increasingly, he moved away from the orthodox Islamic ways of understanding religions towards a self-conceived eclectic form of divine worship focused on light and the sun.",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. PAGE LABEL FLAGGED: the page given ('Theme 9, PDF p. 27') is one of the drafter's PDF-page estimates (the saved lehs205 transcription itself declares its page refs to be estimates from footer positions). The label falls inside the transcription's own section range for this passage, so it is plausible, but it is NOT a verified printed page number — Themes II printed pagination differs from PDF pagination and cannot be confirmed from the saved text alone."
+  },
+  {
+   "id": "c27",
+   "source": "gess104 (Our Pasts II, The Mughals)",
+   "page_label": "p. 42",
+   "matches": true,
+   "quote": "In Akbar's reign these jagirs were carefully assessed so that their revenues were roughly equal to the salary of the mansabdar. By Aurangzeb's reign this was no longer the case and the actual revenue collected was often less than the granted sum.",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. Page label is a printed page of Our Pasts II and matches the transcription's page markers."
+  },
+  {
+   "id": "c06",
+   "source": "gess104 (Our Pasts II, The Mughals)",
+   "page_label": "p. 40",
+   "matches": true,
+   "quote": "Cannons were an important addition in sixteenth-century warfare. Babur used them effectively in the First Battle of Panipat.",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. Page label is a printed page of Our Pasts II and matches the transcription's page markers."
+  },
+  {
+   "id": "c29",
+   "source": "gess104 (Our Pasts II, The Mughals)",
+   "page_label": "p. 42",
+   "matches": true,
+   "quote": "Aurangzeb was unable to control these developments in the last years of his reign and the peasantry therefore suffered tremendously.",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. Page label is a printed page of Our Pasts II and matches the transcription's page markers."
+  },
+  {
+   "id": "c75",
+   "source": "gess104 (Our Pasts II, The Mughals)",
+   "page_label": "p. 44",
+   "matches": true,
+   "quote": "Mehrunnisa married the Emperor Jahangir in 1611 and received the title Nur Jahan.",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. Page label is a printed page of Our Pasts II and matches the transcription's page markers."
+  },
+  {
+   "id": "c03",
+   "source": "gess104 (Our Pasts II, The Mughals)",
+   "page_label": "p. 39",
+   "matches": true,
+   "quote": "the Mughals were proud of their Timurid ancestry, not least of all because their great ancestor had captured Delhi in 1398",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. Page label is a printed page of Our Pasts II and matches the transcription's page markers."
+  },
+  {
+   "id": "c19",
+   "source": "lehs205 (Themes II, Theme 9)",
+   "page_label": "Theme 9, PDF p. 11",
+   "matches": true,
+   "quote": "the nobility under the Mughals was a composite one comprising Iranis, Turanis, Afghans, Rajputs, Deccanis — all of whom were given positions and awards purely on the basis of their service and loyalty to the king",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. PAGE LABEL FLAGGED: the page given ('Theme 9, PDF p. 11') is one of the drafter's PDF-page estimates (the saved lehs205 transcription itself declares its page refs to be estimates from footer positions). The label falls inside the transcription's own section range for this passage, so it is plausible, but it is NOT a verified printed page number — Themes II printed pagination differs from PDF pagination and cannot be confirmed from the saved text alone."
+  },
+  {
+   "id": "c95",
+   "source": "lehs205 (Themes II, Theme 9)",
+   "page_label": "Theme 9, PDF p. 4",
+   "matches": true,
+   "quote": "A new language, Urdu, sprang from the interaction of Persian with Hindavi.",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. PAGE LABEL FLAGGED: the page given ('Theme 9, PDF p. 4') is one of the drafter's PDF-page estimates (the saved lehs205 transcription itself declares its page refs to be estimates from footer positions). The label falls inside the transcription's own section range for this passage, so it is plausible, but it is NOT a verified printed page number — Themes II printed pagination differs from PDF pagination and cannot be confirmed from the saved text alone."
+  },
+  {
+   "id": "c22",
+   "source": "lehs205 (Themes II, Theme 9)",
+   "page_label": "Theme 9, PDF p. 22",
+   "matches": true,
+   "quote": "All holders of government offices held ranks (mansabs) comprising two numerical designations: zat which was an indicator of position in the imperial hierarchy and the salary of the official (mansabdar), and sawar which indicated the number of horsemen he was required to maintain in service.",
+   "notes": "Exact substring of the saved source text after whitespace normalisation (square-bracket italic restorations and curly apostrophes normalised). Quote text VERIFIED. PAGE LABEL FLAGGED: the page given ('Theme 9, PDF p. 22') is one of the drafter's PDF-page estimates (the saved lehs205 transcription itself declares its page refs to be estimates from footer positions). The label falls inside the transcription's own section range for this passage, so it is plausible, but it is NOT a verified printed page number — Themes II printed pagination differs from PDF pagination and cannot be confirmed from the saved text alone."
+  }
+ ],
+ "page_label_issue": "For all lehs205 claims the chapter labels pages as 'Theme 9, PDF p. N'. The saved source transcription's own header states these refs are PDF-page estimates taken from footer positions. Every sampled quote TEXT was verified verbatim (10/10), and each sampled label falls within the transcription's section page-range for its passage, so the labels are plausible — but they are estimates, not verified printed page numbers, and the printed Themes in Indian History Part II pagination is different. Recommend either relabelling as 'Theme 9 (PDF p. N, est.)' or dropping page numbers for s2 claims and citing section numbers instead. This does not affect any fact or answer key. gess104 (s1) labels are printed pages and match the transcription's page markers.",
+ "outside_source_disagreements": [],
+ "counts": {
+  "questions_total": 42,
+  "MATCH": 42,
+  "MISMATCH": 0,
+  "UNSUPPORTED": 0,
+  "AMBIGUOUS": 0,
+  "confidence_SURE": 42,
+  "confidence_UNSURE": 0,
+  "claims_sampled": 10,
+  "claims_verbatim_exact": 10,
+  "special_checks": 4,
+  "special_checks_passed": 4,
+  "prose_issues_minor": 4
+ }
+}

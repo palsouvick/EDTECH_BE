@@ -1,0 +1,660 @@
+{
+ "chapter": "HIS-20",
+ "chapter_title": "সমাজ ও ধর্মসংস্কার: বাংলার নবজাগরণ (Social & Religious Reform: Bengal Renaissance)",
+ "check": "Independent blind key-check. Each question was answered from the two allowed source texts BEFORE the stored key was consulted; stored keys were compared afterwards. Stored explanations were also read and checked against the sources.",
+ "allowed_sources": [
+  {
+   "id": "s1",
+   "file": "sources/hess207.txt",
+   "title": "NCERT Our Pasts III, Chapter 7: Women, Caste and Reform",
+   "url": "https://ncert.nic.in/textbook/pdf/hess207.pdf",
+   "printed_pages": "78-92"
+  },
+  {
+   "id": "s2",
+   "file": "sources/hess206.txt",
+   "title": "NCERT Our Pasts III, Chapter 6: Civilising the Native, Educating the Nation",
+   "url": "https://ncert.nic.in/textbook/pdf/hess206.pdf",
+   "printed_pages": "65-77"
+  }
+ ],
+ "answers": [
+  {
+   "id": "q01",
+   "derived_answer": "সতী",
+   "stored_answer": "সতী",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Women who died in this manner, whether willingly or otherwise, were called \"sati\", meaning virtuous women.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 78",
+   "notes": ""
+  },
+  {
+   "id": "q02",
+   "derived_answer": "ছাপা বই, সংবাদপত্র ও পুস্তিকা সস্তা ও সহজলভ্য হয়ে ওঠা",
+   "stored_answer": "ছাপা বই, সংবাদপত্র ও পুস্তিকা সস্তা ও সহজলভ্য হয়ে ওঠা",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "One important reason for this was the development of new forms of communication. For the first time, books, newspapers, magazines, leaflets and pamphlets were printed. These were far cheaper and far more accessible than the manuscripts",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 79",
+   "notes": ""
+  },
+  {
+   "id": "q03",
+   "derived_answer": "যাঁরা মনে করতেন সমাজে বদল দরকার এবং অন্যায় প্রথাগুলি দূর করা উচিত",
+   "stored_answer": "যাঁরা মনে করতেন সমাজে বদল দরকার এবং অন্যায় প্রথাগুলি দূর করা উচিত",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "People such as Rammohun Roy are described as reformers because they felt that changes were necessary in society, and unjust practices needed to be done away with.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 79",
+   "notes": ""
+  },
+  {
+   "id": "q04",
+   "derived_answer": "ব্যবসায়ী ও মহাজনরা (বৈশ্য)",
+   "stored_answer": "ব্যবসায়ী ও মহাজনরা (বৈশ্য)",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Brahmans and Kshatriyas considered themselves as \"upper castes\". Others, such as traders and moneylenders (often referred to as Vaishyas) were placed after them.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 79",
+   "notes": "Shudras come next in the same passage, so the order is unambiguous."
+  },
+  {
+   "id": "q05",
+   "derived_answer": "মন্দিরে প্রবেশ এবং উচ্চ জাতের কুয়ো ও পুকুর ব্যবহার নিষিদ্ধ ছিল",
+   "stored_answer": "মন্দিরে প্রবেশ এবং উচ্চ জাতের কুয়ো ও পুকুর ব্যবহার নিষিদ্ধ ছিল",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "They were not allowed to enter temples, draw water from the wells used by the upper castes, or bathe in ponds where upper castes bathed.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 79",
+   "notes": ""
+  },
+  {
+   "id": "q06",
+   "derived_answer": "১৮২৯",
+   "stored_answer": "১৮২৯",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In 1829, sati was banned.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 80",
+   "notes": ""
+  },
+  {
+   "id": "q07",
+   "derived_answer": "প্রাচীন গ্রন্থে বিধবা-দহনের কোনো অনুমোদন নেই",
+   "stored_answer": "প্রাচীন গ্রন্থে বিধবা-দহনের কোনো অনুমোদন নেই",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "He tried to show through his writings that the practice of widow burning had no sanction in ancient texts.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 80",
+   "notes": ""
+  },
+  {
+   "id": "q08",
+   "derived_answer": "পাশ্চাত্য শিক্ষার প্রসার এবং নারীদের অধিক স্বাধীনতা ও সমতা",
+   "stored_answer": "পাশ্চাত্য শিক্ষার প্রসার এবং নারীদের অধিক স্বাধীনতা ও সমতা",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Rammohun Roy was keen to spread the knowledge of Western education in the country and bring about greater freedom and equality for women.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 80",
+   "notes": ""
+  },
+  {
+   "id": "q09",
+   "derived_answer": "রাজা রামমোহন রায়, কলকাতায়",
+   "stored_answer": "রাজা রামমোহন রায়, কলকাতায়",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "He founded a reform association known as the Brahmo Sabha (later known as the Brahmo Samaj) in Calcutta.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 79",
+   "notes": "The question asks founder + city only, so the disputed founding year (1828 vs 1830) is not tested."
+  },
+  {
+   "id": "q10",
+   "derived_answer": "অনেক কর্মকর্তা নিজেরাও তখন ভারতীয় ঐতিহ্য ও প্রথার সমালোচনা শুরু করেছিলেন",
+   "stored_answer": "অনেক কর্মকর্তা নিজেরাও তখন ভারতীয় ঐতিহ্য ও প্রথার সমালোচনা শুরু করেছিলেন",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "By the early nineteenth century, as you have read in Chapter 6, many British officials had also begun to criticise Indian traditions and customs. They were therefore, more than willing to listen to Rammohun who was reputed to be a learned man.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 80",
+   "notes": ""
+  },
+  {
+   "id": "q11",
+   "derived_answer": "রাজা রামমোহন রায়",
+   "stored_answer": "রাজা রামমোহন রায়",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Rammohun Roy translated an old Buddhist text that was critical of caste.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 84",
+   "notes": ""
+  },
+  {
+   "id": "q12",
+   "derived_answer": "“তোমরা কবে তাদের স্বাভাবিক ক্ষমতা দেখানোর ন্যায্য সুযোগ দিয়েছ?”",
+   "stored_answer": "“তোমরা কবে তাদের স্বাভাবিক ক্ষমতা দেখানোর ন্যায্য সুযোগ দিয়েছ?”",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "OPPONENT OF SATI: When did you ever afford them a fair opportunity of exhibiting their natural capacity?",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 81",
+   "notes": "Source 1 dialogue on sati."
+  },
+  {
+   "id": "q13",
+   "derived_answer": "শুধুমাত্র ১",
+   "stored_answer": "শুধুমাত্র ১",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Rammohun Roy was well versed in Sanskrit, Persian and several other Indian and European languages. // He tried to show through his writings that the practice of widow burning had no sanction in ancient texts.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 80",
+   "notes": "Statement 1 true; statement 2 inverts the text (he showed NO sanction), so only 1."
+  },
+  {
+   "id": "q14",
+   "derived_answer": "১৮৫৬",
+   "stored_answer": "১৮৫৬",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "His suggestion was adopted by British officials, and a law was passed in 1856 permitting widow remarriage.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 81",
+   "notes": ""
+  },
+  {
+   "id": "q15",
+   "derived_answer": "প্রাচীন গ্রন্থের সাহায্যে দেখান, বিধবারা পুনরায় বিয়ে করতে পারেন",
+   "stored_answer": "প্রাচীন গ্রন্থের সাহায্যে দেখান, বিধবারা পুনরায় বিয়ে করতে পারেন",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "For instance, one of the most famous reformers, Ishwarchandra Vidyasagar, used the ancient texts to suggest that widows could remarry.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 81",
+   "notes": ""
+  },
+  {
+   "id": "q16",
+   "derived_answer": "তাঁর বিরোধিতা করেন, এমনকি তাঁকে বয়কট করেন",
+   "stored_answer": "তাঁর বিরোধিতা করেন, এমনকি তাঁকে বয়কট করেন",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Those who were against the remarriage of widows opposed Vidyasagar, and even boycotted him.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 81",
+   "notes": ""
+  },
+  {
+   "id": "q17",
+   "derived_answer": "মাদ্রাজ প্রেসিডেন্সির তেলুগু-ভাষী অঞ্চলে",
+   "stored_answer": "মাদ্রাজ প্রেসিডেন্সির তেলুগু-ভাষী অঞ্চলে",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In the Telugu-speaking areas of the Madras Presidency, Veerasalingam Pantulu formed an association for widow remarriage.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 81",
+   "notes": ""
+  },
+  {
+   "id": "q18",
+   "derived_answer": "পুনরায় বিয়ে করা বিধবার সংখ্যা কম থেকে যায় এবং তাঁরা সমাজে সহজে গৃহীত হননি",
+   "stored_answer": "পুনরায় বিয়ে করা বিধবার সংখ্যা কম থেকে যায় এবং তাঁরা সমাজে সহজে গৃহীত হননি",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Yet, the number of widows who actually remarried remained low. Those who married were not easily accepted in society and conservative groups continued to oppose the new law.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 81",
+   "notes": ""
+  },
+  {
+   "id": "q19",
+   "derived_answer": "২, ৪, ১, ৩",
+   "stored_answer": "২, ৪, ১, ৩",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In 1829, sati was banned. (p. 80) // a law was passed in 1856 permitting widow remarriage (p. 81) // Dayanand founded the Arya Samaj in 1875 (p. 81, Fig. 4 caption) // In 1929, the Child Marriage Restraint Act was passed (p. 84)",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 80-84",
+   "notes": "Order 1829 < 1856 < 1875 < 1929 = 2, 4, 1, 3."
+  },
+  {
+   "id": "q20",
+   "derived_answer": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+   "stored_answer": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Vidyasagar in Calcutta and many other reformers in Bombay set up schools for girls.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 82",
+   "notes": ""
+  },
+  {
+   "id": "q21",
+   "derived_answer": "স্কুল মেয়েদের ঘরের কাজ থেকে দূরে সরিয়ে নেবে এবং প্রকাশ্য পথে যাতায়াতের “খারাপ” প্রভাব পড়বে",
+   "stored_answer": "স্কুল মেয়েদের ঘরের কাজ থেকে দূরে সরিয়ে নেবে এবং প্রকাশ্য পথে যাতায়াতের “খারাপ” প্রভাব পড়বে",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "They feared that schools would take girls away from home, prevent them from doing their domestic duties. Moreover, girls had to travel through public places in order to reach school. Many people felt that this would have a corrupting influence on them.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 82",
+   "notes": ""
+  },
+  {
+   "id": "q22",
+   "derived_answer": "রাতে মোমবাতির আলোয় গোপনে, নিজে নিজে",
+   "stored_answer": "রাতে মোমবাতির আলোয় গোপনে, নিজে নিজে",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "She was one of those who secretly learned to read and write in the flickering light of candles at night.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 82",
+   "notes": ""
+  },
+  {
+   "id": "q23",
+   "derived_answer": "এটি ছিল মেয়েদের ছেলেদের মতো শিক্ষা দেওয়ার প্রথম দিকের প্রতিষ্ঠানগুলির একটি",
+   "stored_answer": "এটি ছিল মেয়েদের ছেলেদের মতো শিক্ষা দেওয়ার প্রথম দিকের প্রতিষ্ঠানগুলির একটি",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Hindu Mahila Vidyalaya was one of the first institutions to provide girls with the kind of learning that was usual for boys at the time.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 82",
+   "notes": "Box on the same page: the general belief was that the girls’ curriculum ought to be less taxing than boys’."
+  },
+  {
+   "id": "q24",
+   "derived_answer": "প্রতিটি ধর্মের ধর্মীয় নেতারাই নারীকে নিকৃষ্ট স্থান দিয়েছেন",
+   "stored_answer": "প্রতিটি ধর্মের ধর্মীয় নেতারাই নারীকে নিকৃষ্ট স্থান দিয়েছেন",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "She was a fearless critic of conservative ideas, arguing that religious leaders of every faith accorded an inferior place to women.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 83",
+   "notes": ""
+  },
+  {
+   "id": "q25",
+   "derived_answer": "তারাবাই শিন্ডে — স্ত্রীপুরুষতুলনা",
+   "stored_answer": "তারাবাই শিন্ডে — স্ত্রীপুরুষতুলনা",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Tarabai Shinde, a woman educated at home at Poona, published a book, Stripurushtulna, (A Comparison between Women and Men), criticising the social differences between men and women.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 83",
+   "notes": "Other pairs are contradicted: widows’ home at Poona = Pandita Ramabai (p. 83); Gulamgiri = Phule (p. 87); Mumtaz Ali reinterpreted the Koran for women’s education (p. 82)."
+  },
+  {
+   "id": "q26",
+   "derived_answer": "উইলিয়াম জোন্স",
+   "stored_answer": "উইলিয়াম জোন্স",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Together with them, Jones set up the Asiatic Society of Bengal, and started a journal called Asiatick Researches.",
+   "source": "hess206 (Our Pasts III, Ch. 6: Civilising the Native, Educating the Nation)",
+   "page": "p. 66",
+   "notes": "Jones acted with Colebrooke and Halhed, but neither is among the options, so Jones is the only defensible answer. Hastings (a distractor) set up the Calcutta Madrasa (p. 67)."
+  },
+  {
+   "id": "q27",
+   "derived_answer": "একটি ভালো ইউরোপীয় গ্রন্থাগারের একটি তাক ভারত ও আরবের সমস্ত দেশীয় সাহিত্যের সমমূল্য",
+   "stored_answer": "একটি ভালো ইউরোপীয় গ্রন্থাগারের একটি তাক ভারত ও আরবের সমস্ত দেশীয় সাহিত্যের সমমূল্য",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Who could deny, declared Macaulay, that \"a single shelf of a good European library was worth the whole native literature of India and Arabia\".",
+   "source": "hess206 (Our Pasts III, Ch. 6: Civilising the Native, Educating the Nation)",
+   "page": "p. 68",
+   "notes": ""
+  },
+  {
+   "id": "q28",
+   "derived_answer": "এটি ভারতীয়দের বাণিজ্যের সুবিধা চিনতে শেখাবে এবং ব্রিটিশ পণ্যের চাহিদা তৈরি করবে",
+   "stored_answer": "এটি ভারতীয়দের বাণিজ্যের সুবিধা চিনতে শেখাবে এবং ব্রিটিশ পণ্যের চাহিদা তৈরি করবে",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "European learning, it said, would enable Indians to recognise the advantages that flow from the expansion of trade and commerce, and make them see the importance of developing the resources of the country. Introducing them to European ways of life, would change their tastes and desires, and create a demand for British goods",
+   "source": "hess206 (Our Pasts III, Ch. 6: Civilising the Native, Educating the Nation)",
+   "page": "p. 68",
+   "notes": ""
+  },
+  {
+   "id": "q29",
+   "derived_answer": "কলকাতা, মাদ্রাজ ও বোম্বাই",
+   "stored_answer": "কলকাতা, মাদ্রাজ ও বোম্বাই",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In 1857, while the sepoys rose in revolt in Meerut and Delhi, universities were being established in Calcutta, Madras and Bombay.",
+   "source": "hess206 (Our Pasts III, Ch. 6: Civilising the Native, Educating the Nation)",
+   "page": "p. 69",
+   "notes": ""
+  },
+  {
+   "id": "q30",
+   "derived_answer": "১ লক্ষের বেশি পাঠশালায় ২০ লক্ষের বেশি শিশু পড়ত",
+   "stored_answer": "১ লক্ষের বেশি পাঠশালায় ২০ লক্ষের বেশি শিশু পড়ত",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Adam found that there were over 1 lakh pathshalas in Bengal and Bihar. These were small institutions with no more than 20 students each. But the total number of children being taught in these pathshalas was considerable - over 20 lakh.",
+   "source": "hess206 (Our Pasts III, Ch. 6: Civilising the Native, Educating the Nation)",
+   "page": "p. 70",
+   "notes": "The \"fixed fee / annual examination\" distractor contradicts p. 71 (no fixed fee, no annual examinations)."
+  },
+  {
+   "id": "q31",
+   "derived_answer": "শুধুমাত্র ১",
+   "stored_answer": "শুধুমাত্র ১",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Following Macaulay’s minute, the English Education Act of 1835 was introduced. The decision was to make English the medium of instruction for higher education (p. 68) // Wood’s Despatch of 1854 marked the final triumph of those who opposed Oriental learning (p. 69)",
+   "source": "hess206 (Our Pasts III, Ch. 6: Civilising the Native, Educating the Nation)",
+   "page": "p. 68-69",
+   "notes": "Statement 1 true; statement 2 false - the Despatch promoted European learning as opposed to Oriental knowledge, so only 1."
+  },
+  {
+   "id": "q32",
+   "derived_answer": "জ্যোতিরাও ফুলে",
+   "stored_answer": "জ্যোতিরাও ফুলে",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Satyashodhak Samaj, an association Phule founded, propagated caste equality.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 87",
+   "notes": ""
+  },
+  {
+   "id": "q33",
+   "derived_answer": "আমেরিকায় দাসদের মুক্তির জন্য যাঁরা লড়েছিলেন",
+   "stored_answer": "আমেরিকায় দাসদের মুক্তির জন্য যাঁরা লড়েছিলেন",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Phule dedicated his book to all those Americans who had fought to free slaves, thus establishing a link between the conditions of the \"lower\" castes in India and the black slaves in America.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 88",
+   "notes": ""
+  },
+  {
+   "id": "q34",
+   "derived_answer": "জাতীয়তাবাদীদের আয়োজিত ভোজে বসার ব্যবস্থায় জাতের পার্থক্য মানা হয়েছিল",
+   "stored_answer": "জাতীয়তাবাদীদের আয়োজিত ভোজে বসার ব্যবস্থায় জাতের পার্থক্য মানা হয়েছিল",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Later, he became a member of the Congress, only to leave it in disgust when he found that at a feast organised by nationalists, seating arrangements followed caste distinctions - that is, the lower castes were made to sit at a distance from the upper castes.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 89",
+   "notes": ""
+  },
+  {
+   "id": "q35",
+   "derived_answer": "মানবজাতির জন্য এক জাত, এক ধর্ম, এক ঈশ্বর",
+   "stored_answer": "মানবজাতির জন্য এক জাত, এক ধর্ম, এক ঈশ্বর",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "One of his famous statements was: \"oru jati, oru matam, oru daivam manushyanu\" (one caste, one religion, one god for humankind).",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 86",
+   "notes": ""
+  },
+  {
+   "id": "q36",
+   "derived_answer": "তিনি এমন তিনটি আন্দোলন নেন; উদ্দেশ্য ছিল জাতের কুসংস্কারের ক্ষমতা সবাইকে দেখানো",
+   "stored_answer": "তিনি এমন তিনটি আন্দোলন নেন; উদ্দেশ্য ছিল জাতের কুসংস্কারের ক্ষমতা সবাইকে দেখানো",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Ambedkar led three such movements for temple entry between 1927 and 1935. His aim was to make everyone see the power of caste prejudices within society.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 88",
+   "notes": ""
+  },
+  {
+   "id": "q37",
+   "derived_answer": "A ও R উভয়ই সত্য এবং R হলো A-এর সঠিক ব্যাখ্যা",
+   "stored_answer": "A ও R উভয়ই সত্য এবং R হলো A-এর সঠিক ব্যাখ্যা",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Phule claimed that before Aryan rule, there existed a golden age when warrior-peasants tilled the land and ruled the Maratha countryside in just and fair ways. // Phule argued that the Aryans were foreigners, who came from outside the subcontinent, and defeated and subjugated the true children of the country",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 87",
+   "notes": "Both A and R state Phule’s own argument; R (Aryans as foreign conquerors who degraded the natives) is the premise on which the golden-age claim rests, so R explains A."
+  },
+  {
+   "id": "q38",
+   "derived_answer": "বোম্বাই, ১৮৬৭",
+   "stored_answer": "বোম্বাই, ১৮৬৭",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Prarthana Samaj: Established in 1867 at Bombay, the Prarthana Samaj sought to remove caste restrictions, abolish child marriage, encourage the education of women, and end the ban on widow remarriage.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 90",
+   "notes": ""
+  },
+  {
+   "id": "q39",
+   "derived_answer": "ব্রাহ্ম সমাজ",
+   "stored_answer": "ব্রাহ্ম সমাজ",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Veda Samaj: Established in Madras (Chennai) in 1864, the Veda Samaj was inspired by the Brahmo Samaj.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 90",
+   "notes": ""
+  },
+  {
+   "id": "q40",
+   "derived_answer": "নরেন্দ্রনাথ দত্ত",
+   "stored_answer": "নরেন্দ্রনাথ দত্ত",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Swami Vivekananda (1863-1902), whose original name was Narendra Nath Dutta",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 90",
+   "notes": ""
+  },
+  {
+   "id": "q41",
+   "derived_answer": "A-৩, B-৪, C-১, D-২",
+   "stored_answer": "A-৩, B-৪, C-১, D-২",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Brahmo Sabha founded in Calcutta (p. 79) // Prarthana Samaj established in 1867 at Bombay (p. 90) // Veda Samaj established in Madras (Chennai) in 1864 (p. 90) // The Mohammedan Anglo-Oriental College, founded by Sayyid Ahmed Khan in 1875 at Aligarh (p. 91)",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 79-91",
+   "notes": "A-3, B-4, C-1, D-2. The match uses cities only, so the disputed Brahmo year is not engaged."
+  },
+  {
+   "id": "q42",
+   "derived_answer": "২, ৩, ১, ৪",
+   "stored_answer": "২, ৩, ১, ৪",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Veda Samaj 1864 (p. 90) // Prarthana Samaj 1867 (p. 90) // the first Singh Sabhas were formed at Amritsar in 1873 (p. 91) // Khalsa College, Amritsar, established in 1892 (p. 91, Fig. 20 caption)",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 90-91",
+   "notes": "1864 < 1867 < 1873 < 1892 = 2, 3, 1, 4."
+  },
+  {
+   "id": "q43",
+   "derived_answer": "সৈয়দ আহমদ খান — মোহামেডান অ্যাংলো-ওরিয়েন্টাল কলেজ",
+   "stored_answer": "সৈয়দ আহমদ খান — মোহামেডান অ্যাংলো-ওরিয়েন্টাল কলেজ",
+   "verdict": "MATCH",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Aligarh Movement: The Mohammedan Anglo-Oriental College, founded by Sayyid Ahmed Khan in 1875 at Aligarh, later became the Aligarh Muslim University.",
+   "source": "hess207 (Our Pasts III, Ch. 7: Women, Caste and Reform)",
+   "page": "p. 91",
+   "notes": "Other pairs contradicted: Derozio taught at Hindu College, Calcutta (p. 90); Keshub Chunder Sen was a Brahmo Samaj leader (p. 90); Dayanand founded the Arya Samaj (p. 81)."
+  }
+ ],
+ "problems": [],
+ "prose_issues": [
+  {
+   "section": "caste_movements (quick and standard prose)",
+   "text": "১৮৪০ সালে বোম্বাইয়ে পরমহংস মণ্ডলী গড়ে ওঠে জাত বিলোপের লক্ষ্যে (quick); বোম্বাইয়ে ১৮৪০ সালে প্রতিষ্ঠিত হয় পরমহংস মণ্ডলী (standard)",
+   "problem": "The prose states 1840 without the \"(পাঠ্য অনুযায়ী / as per this textbook)\" qualifier that the chapter itself attaches to the same date in the timeline (\"১৮৪০ (পাঠ্য অনুযায়ী)\"), the events row, exam_focus and q38’s explanation. The dispute (many other sources give 1849) is disclosed only in the exam_note box within the same section. Inconsistent qualification discipline compared with the Brahmo year, which the prose withholds altogether. No question key depends on the Mandali year, and 1840 is exactly what the allowed source says (p. 84), so this is a presentation issue, not a key error.",
+   "quote": "In Bombay, the Paramhans Mandali was founded in 1840 to work for the abolition of caste.",
+   "source": "hess207",
+   "page": "p. 84",
+   "severity": "MINOR"
+  },
+  {
+   "section": "rammohun_brahmo (exam_note) and timeline row for Brahmo Samaj",
+   "text": "NCERT-র নতুন বই (Exploring Society) অনুযায়ী প্রতিষ্ঠা ১৮২৮ সালে",
+   "problem": "The exam_note attributes the 1828 date to NCERT’s Exploring Society. That book is outside the two sources this check was allowed to use, so the attribution can neither be confirmed nor refuted from the allowed evidence: within hess207 the Sabha’s founding carries no year (p. 79) and the Samaj is dated 1830 (p. 90); hess206 does not mention it. Recommend the attribution be page-checked against Exploring Society before publication. Separately, the timeline row’s sort_year is 1830 while its label foregrounds 1828 - cosmetic only; both the \"when\" field and label carry the two qualified values.",
+   "quote": "The Brahmo Samaj: The Brahmo Samaj, formed in 1830, prohibited all forms of idolatry and sacrifice",
+   "source": "hess207",
+   "page": "p. 90",
+   "severity": "UNSUPPORTED (by the two allowed sources; not an error by itself)"
+  }
+ ],
+ "disputed_facts_check": {
+  "brahmo_samaj_1828_vs_1830": {
+   "verdict": "HANDLED CORRECTLY",
+   "detail": "exam_note in section rammohun_brahmo quotes the hess207 p. 90 figure (1830), names 1828 as the conventional exam answer, and states the chapter prose deliberately omits the year. Verified across the whole chapter: no prose, timeline, event, exam_focus or question asserts a single founding year as settled - timeline and events rows carry both values with qualifiers; q09 asks only founder + city; q41 matches only the city; q42’s chronology does not include the Brahmo Samaj. Note: the 1828 attribution to Exploring Society is outside the allowed evidence (see prose_issues)."
+  },
+  "paramhans_mandali_1840": {
+   "verdict": "DISCLOSED, WITH ONE MINOR PROSE LAPSE",
+   "detail": "hess207 p. 84 itself states 1840. The exam_note in section caste_movements discloses that many other sources give 1849 and says the chapter teaches the textbook figure. Timeline, events, exam_focus and q38’s explanation all qualify 1840 with \"(পাঠ্য অনুযায়ী)\". Only the section’s quick/standard prose states 1840 bare (see prose_issues). No question asks the Mandali year; q38 tests Prarthana Samaj (1867, Bombay), which is directly supported (p. 90)."
+  }
+ },
+ "claims_quote_check": {
+  "method": "Each sampled claim’s quote was tested as an exact substring of the cited source text after whitespace normalisation (all whitespace runs collapsed to single spaces). Sample: every 11th claim (c01, c12, c23, ...). As a stronger check the same test was also run over all 110 claims.",
+  "sample": [
+   {
+    "id": "c01",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c12",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c23",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c34",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c45",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c56",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c67",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c78",
+    "source": "s1",
+    "verbatim": true
+   },
+   {
+    "id": "c89",
+    "source": "s2",
+    "verbatim": true
+   },
+   {
+    "id": "c100",
+    "source": "s2",
+    "verbatim": true
+   }
+  ],
+  "targeted": [
+   {
+    "id": "c43",
+    "claim": "Paramhans Mandali founded in Bombay in 1840",
+    "source": "s1",
+    "page": "p. 84",
+    "verbatim": true
+   },
+   {
+    "id": "c67",
+    "claim": "Brahmo Samaj, formed in 1830, prohibited idolatry and sacrifice...",
+    "source": "s1",
+    "page": "p. 90",
+    "verbatim": true
+   }
+  ],
+  "full_run": "110 of 110 claims quotes are verbatim substrings of their cited source texts after whitespace normalisation."
+ },
+ "outside_source_disagreements": [
+  "General knowledge dates the founding of the Brahmo Sabha/Samaj to 1828 (20 August 1828), whereas the allowed source hess207 dates \"the Brahmo Samaj\" to 1830 (p. 90) and gives no year for the Sabha (p. 79). Noted only; not counted as an error, and no key depends on it.",
+  "Many general references date the Paramhans Mandali to 1849, whereas hess207 (p. 84) states 1840. Noted only; not counted as an error, and no key depends on it."
+ ],
+ "explanations_check": "All 43 stored explanations were read. None contradicts its key or the sources; several correctly reinforce the disputed-date qualifiers (e.g. q38). No unsupported factual assertion found in any explanation.",
+ "counts": {
+  "questions_total": 43,
+  "MATCH": 43,
+  "MISMATCH": 0,
+  "UNSUPPORTED": 0,
+  "AMBIGUOUS": 0,
+  "claims_sampled": 10,
+  "claims_sample_verbatim": 10,
+  "claims_total_checked": 110,
+  "claims_total_verbatim": 110,
+  "prose_issues": 2,
+  "verdict": "All 43 answer keys are correct and source-supported. Chapter can proceed, with two minor prose recommendations (qualify the Paramhans Mandali year in running prose; page-check the Exploring Society 1828 attribution)."
+ }
+}
