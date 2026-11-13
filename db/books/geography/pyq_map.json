@@ -300,5 +300,811 @@
    "taught": false,
    "note": "Belongs to GEO-02 (islands: Lakshadweep)."
   }
+ ],
+ "GEO-11": [
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q67",
+   "section": "tropic_time",
+   "taught": true,
+   "note": "Taught: chapter lists the eight states the Tropic of Cancer crosses (Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram); Odisha is not among them, so the student answers by elimination."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q117",
+   "section": "rivers",
+   "taught": true,
+   "note": "Taught: chapter states Farakka sends Ganga water into the Bhagirathi-Hugli to raise the Hugli's flow and save Kolkata Port's navigability; the paper's 'Lower Ganges flow' is that Bhagirathi-Hugli flow."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q138",
+   "section": "tropic_time",
+   "taught": true,
+   "note": "Partly taught: chapter teaches IST is taken from 82°30' E, 5h 30m ahead of GMT, but does not name Allahabad; the student answers from the longitude."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q188",
+   "section": "population",
+   "taught": true,
+   "note": "Taught with a SOURCE CONFLICT, written up in an exam_note. The chapter teaches Bihar is actually densest (1,102), WB second (1,028), and flags the 2015 key naming WB as wrong; but with Bihar absent from the options, WB (1,028, against UP 828) is the densest of the four listed, so the student still picks it."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q198",
+   "section": "wb_in_india",
+   "taught": true,
+   "note": "Partly taught: chapter names Punjab, Haryana and western UP as the Green Revolution heartland (not WB) but does not name wheat; the student answers from the states."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q116",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never discusses irrigation types. Belongs to GEO-07 (agriculture)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q159",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names Kolkata and Haldia as the state's ports but no shipbuilding yard. Belongs to GEO-10 (transport)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q139",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter does not discuss rainfall variation by state. Belongs to GEO-04 (climate)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q143",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives no urban agglomeration ranking. Belongs to GEO-10 (population)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q144",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter does not discuss ports or harbours. Belongs to GEO-10 (transport)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q146",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions shifting cultivation (jhum). Belongs to GEO-07 (agriculture)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q33",
+   "section": "wb_in_india",
+   "taught": true,
+   "note": "Eastern Railway HQ is in Kolkata (Fairlie Place, formed 1952)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q53",
+   "section": "physiography",
+   "taught": true,
+   "note": "The active delta of the Ganga lies in North and South 24 Parganas, still being built by deposited silt."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q61",
+   "section": "districts",
+   "taught": true,
+   "note": "Partly taught: chapter teaches North 24 Parganas is the state's most populous district (about 1 crore) but does not state its all-India rank; the student answers from that figure."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q106",
+   "section": null,
+   "taught": false,
+   "note": "Not taught here: chapter never mentions karst landforms. Belongs to GEO-13 (soils), which teaches Buxa and Jainti hills in Jalpaiguri."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q137",
+   "section": "rivers",
+   "taught": true,
+   "note": "Taught as cause-effect: the Kosi's course change reduced Bhagirathi-Hugli flow and so Kolkata Port declined."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q150",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions NH-3 or the Kolkata-Mumbai highway. Belongs to GEO-14 (transport_road_rail), which teaches Kolkata-Mumbai via Agra is NH-3."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q31",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions coal. Belongs to GEO-14 (minerals_coal)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q34",
+   "section": "physiography",
+   "taught": true,
+   "note": "The land west of the Teesta is the Terai; east of it is the Duars."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q46",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions the Chambal. Belongs to GEO-03 (already mapped there as taught: Chambal ravines / badland topography)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q106",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter does not discuss rainfall variability. Belongs to GEO-04 (climate)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q107",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter does not discuss cyclones. Belongs to GEO-04 (climate)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q150",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never names Punarbhaba or Atrai. Belongs to GEO-12 (north_bengal), which teaches them as old Teesta distributaries."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q133",
+   "section": null,
+   "taught": false,
+   "note": "SOURCE CONFLICT, not taught here: chapter teaches the Son is the main right-bank tributary and the Damodar joins the Hugli, not the Ganga, so a student following this chapter would not pick the key option (Yamuna, Son and Damodar). The conflict is written up in GEO-12 (ganga_bhagirathi), not here."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q166",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions Rourkela or steel plants. Belongs to GEO-09 (industries)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q33",
+   "section": "tropic_time",
+   "taught": true,
+   "note": "Krishnanagar is the town closest to the Tropic of Cancer."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q71",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter mentions Sundarbans mangroves but not carbon storage per hectare. Belongs to GEO-13 (sundarbans)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q91",
+   "section": "rivers",
+   "taught": true,
+   "note": "Partly taught: chapter teaches Massanjore Dam is in Jharkhand (Dumka), not WB, so pair (II) is wrong, which eliminates every option except (I) and (III); Rihand and Rana Pratap Sagar themselves are not covered."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q26",
+   "section": "wb_in_india",
+   "taught": true,
+   "note": "WB is the second-largest tea producer after Assam, so Assam is first."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q21",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches WB is second in tea after Assam but does not list tea-growing states, so Tripura vs Madhya Pradesh cannot be settled. Belongs to GEO-14 (cash_crops), which states MP is not a tea state."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q24",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches the Damodar is a Chotanagpur plateau river and the north Bengal rivers are Himalayan, but never says the Brahmaputra itself rises in the Himalayas, and never mentions the Narmada or Cauvery. Belongs to GEO-03 (already mapped there as taught)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q10",
+   "section": "rivers",
+   "taught": true,
+   "note": "Partly taught: chapter teaches the Damodar joins the Hugli (stays in India) while the Teesta joins the Brahmaputra in Bangladesh and the Padma goes to Bangladesh; the student answers by elimination (the Atrai is not mentioned)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q80",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions Bhitarkanika. Belongs to GEO-05 (national parks)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q84",
+   "section": "rivers",
+   "taught": true,
+   "note": "Ganga water is shared with Bangladesh under the 1996 treaty via Farakka."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q47",
+   "section": "rivers",
+   "taught": true,
+   "note": "Barakar is the Damodar's main tributary."
+  }
+ ],
+ "GEO-12": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q114",
+   "section": "overview",
+   "taught": true,
+   "note": "Taught in an exam_note: WBCS 2015 asked for WB's north-flowing rivers — Teesta, Jaldhaka, Raidak."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q117",
+   "section": "dams_barrages",
+   "taught": true,
+   "note": "Taught: Farakka's purpose is to save Kolkata Port by increasing Ganga water in the Bhagirathi-Hugli; the paper's 'Lower Ganges flow' is that flow."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q33",
+   "section": "south_plateau",
+   "taught": true,
+   "note": "Damodar is the longest river of western West Bengal."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q184",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions the Sutlej or antecedent rivers. Belongs to GEO-03 (already mapped there as not taught: no allowed source defines 'antecedent')."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q189",
+   "section": "dams_barrages",
+   "taught": true,
+   "note": "DVC was modelled on the Tennessee Valley Authority (TVA)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q132",
+   "section": "dams_barrages",
+   "taught": true,
+   "note": "Farakka's primary objective is augmentation of water supply in the Hugli river."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q134",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never discusses what is mined in the delta region. Belongs to GEO-08 / GEO-14 (minerals)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q142",
+   "section": "dams_barrages",
+   "taught": true,
+   "note": "DVC is a joint venture of the central government and the West Bengal and Jharkhand (then Bihar) state governments, formed 7 July 1948."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q53",
+   "section": "delta_sundarbans",
+   "taught": true,
+   "note": "The active delta lies in North and South 24 Parganas."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q137",
+   "section": "floods_problems",
+   "taught": true,
+   "note": "Taught: the Kosi's course change shifted the Ganga's main flow towards the Padma, reducing Bhagirathi-Hugli water and causing Kolkata Port's decline."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q141",
+   "section": "ganga_bhagirathi",
+   "taught": true,
+   "note": "The Bhagirathi bisects Murshidabad district into two halves."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q31",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter mentions coal in the Damodar valley industrial belt but gives no reserve share and never names Jharia; the 80% figure is not taught. Belongs to GEO-14 (minerals_coal)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q34",
+   "section": "north_bengal",
+   "taught": true,
+   "note": "The land west of the Teesta is the Terai; east is the Duars."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q35",
+   "section": "delta_sundarbans",
+   "taught": true,
+   "note": "The Sundarbans is on the World Heritage list for its mangrove forest."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q36",
+   "section": "north_bengal",
+   "taught": true,
+   "note": "Jalpaiguri town stands on the banks of the Teesta and Karala rivers."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q54",
+   "section": "delta_sundarbans",
+   "taught": true,
+   "note": "The Sundarbans boundary was demarcated by Dampier and Hodges."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q68",
+   "section": "delta_sundarbans",
+   "taught": true,
+   "note": "The Sundarban Wetland became a Ramsar site on 30 January 2019, India's largest Ramsar site."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q89",
+   "section": "north_bengal",
+   "taught": true,
+   "note": "The Sankosh flows along the West Bengal-Assam border."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q97",
+   "section": "ganga_bhagirathi",
+   "taught": true,
+   "note": "The Bhagirathi meets the Alakananda at Devprayag, after which the river is called the Ganga."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q150",
+   "section": "north_bengal",
+   "taught": true,
+   "note": "Punarbhaba and Atrai are old distributaries of the Teesta, now detached from its main flow."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q161",
+   "section": "south_plateau",
+   "taught": true,
+   "note": "Mukutmanipur Dam stands at the confluence of the Kangsabati and the Kumari."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q164",
+   "section": "floods_problems",
+   "taught": true,
+   "note": "Partly taught: chapter teaches Namami Gange was approved in June 2014 to abate pollution and conserve/rejuvenate the Ganga, but does not name the National Mission for Clean Ganga; the student reaches it by elimination."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q75",
+   "section": "south_plateau",
+   "taught": true,
+   "note": "The Kumari is a tributary of the Kangsabati."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q117",
+   "section": "ganga_bhagirathi",
+   "taught": true,
+   "note": "The Alakananda and Bhagirathi meet at Devprayag."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q127",
+   "section": "north_bengal",
+   "taught": true,
+   "note": "The land west of the Teesta is the Terai."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q128",
+   "section": "south_plateau",
+   "taught": true,
+   "note": "The Kangsabati (Kasai) and Keleghai join to form the Haldi."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q133",
+   "section": "ganga_bhagirathi",
+   "taught": true,
+   "note": "Taught with a SOURCE CONFLICT, written up in an exam_note. NCERT: the Son is the main right-bank tributary and the Damodar joins the Hugli, not the Ganga; the 2022 official key still counts Yamuna, Son and Damodar as right-bank tributaries. Students are told to pick the least-mismatching option."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q91",
+   "section": "dams_barrages",
+   "taught": true,
+   "note": "Taught: chapter states the WBCS 2024 answer directly — (I) and (III) are correct, and (II) is wrong because Massanjore is in Jharkhand's Dumka, not West Bengal."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q24",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches the Damodar is a Chotanagpur plateau river and the north Bengal rivers are Himalayan, but never says the Brahmaputra itself rises in the Himalayas, and never mentions the Narmada or Cauvery. Belongs to GEO-03 (already mapped there as taught)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q10",
+   "section": "south_plateau",
+   "taught": true,
+   "note": "Partly taught: chapter teaches the Damodar joins the Hugli (stays in India) while the Teesta enters Bangladesh to join the Brahmaputra; the student answers by elimination."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-3-Q84",
+   "section": "floods_problems",
+   "taught": true,
+   "note": "Ganga water is shared with Bangladesh under the 1996 treaty via Farakka."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-4-Q47",
+   "section": "south_plateau",
+   "taught": true,
+   "note": "Barakar is the Damodar's main tributary."
+  }
+ ],
+ "GEO-13": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q171",
+   "section": "forests",
+   "taught": true,
+   "note": "Taught: social forestry covers planting eucalyptus, planting firewood-yielding trees, and selling forest produce — all three, so 'All of the above'."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q41",
+   "section": "parks",
+   "taught": true,
+   "note": "Singalila National Park is in Darjeeling district (the state's highest national park)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q195",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives WB's ISFR 2023 cover figures only and never says which states' forest cover increased. Belongs to GEO-05 (forest survey)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q135",
+   "section": "monsoon_rainfall",
+   "taught": true,
+   "note": "Taught, citing WBCS 2017: drought in the plateau region is due to excessive evapo-transpiration — low rain, high evaporation in the heat."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q138",
+   "section": "monsoon_rainfall",
+   "taught": true,
+   "note": "Partly taught: chapter teaches the monsoon reaches Kolkata during 10-13 June, which falls inside the 10-15 June option."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q139",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter contrasts Mawsynram (over 1,080 cm) with Jaisalmer (under 9 cm) but never ranks states by annual variation of rainfall. Belongs to GEO-04 (climate)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q140",
+   "section": "soils",
+   "taught": true,
+   "note": "Alluvial soil is India's most extensive and important soil."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q53",
+   "section": "sundarbans",
+   "taught": true,
+   "note": "The Ganga's active delta lies in North and South 24 Parganas."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q106",
+   "section": "soils",
+   "taught": true,
+   "note": "Karst landforms occur in the Buxa and Jainti hills of Jalpaiguri district (citing WBCS 2018)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q191",
+   "section": "soils",
+   "taught": true,
+   "note": "Partly taught: chapter teaches World Soil Day is observed on 5 December (citing WBCS 2018) but does not name the FAO; the student answers from the date."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q34",
+   "section": "soils",
+   "taught": true,
+   "note": "Terai is west of the Teesta (Darjeeling-Jalpaiguri foothills); Duars is east."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q35",
+   "section": "sundarbans",
+   "taught": true,
+   "note": "Sundarbans National Park became a UNESCO World Heritage Site in 1987, and the chapter teaches the Sundarbans as mangrove forest."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q48",
+   "section": null,
+   "taught": false,
+   "note": "Not taught as asked: chapter teaches deciduous forest is India's most extensive and describes moist deciduous (100-200 cm, sal/teak), but never says tropical moist deciduous — as against dry deciduous — occupies the largest area. Belongs to GEO-05."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q45",
+   "section": "kalbaisakhi_cyclones",
+   "taught": true,
+   "note": "Cyclone Yaas was named by Oman (Yaas and Remal both)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q54",
+   "section": "sundarbans",
+   "taught": true,
+   "note": "The Sundarbans boundary was first marked by the Dampier-Hodges line."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q68",
+   "section": "sundarbans",
+   "taught": true,
+   "note": "The Sundarban Wetland was declared a Ramsar site on 30 January 2019."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q50",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions Kari or Kerala's peaty soils. Belongs to GEO-05 (soils)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q68",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never mentions Loringa mangrove or Andhra Pradesh. Belongs to GEO-05."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q127",
+   "section": "soils",
+   "taught": true,
+   "note": "Terai is west of the Teesta."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q156",
+   "section": "forests",
+   "taught": true,
+   "note": "Reserved Forest is the most valuable class, with no entry without permission — i.e. no free entry."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q29",
+   "section": "forests",
+   "taught": true,
+   "note": "Joint Forest Management (from 1988) is a partnership of local communities and the Forest Department to restore degraded forest."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q71",
+   "section": "sundarbans",
+   "taught": true,
+   "note": "Mangroves store the most carbon per hectare of any forest."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q82",
+   "section": "sundarbans",
+   "taught": true,
+   "note": "Pneumatophores are breathing roots that rise above the mud to take in air."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q150",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never links any of these trees to these districts (Bankura-Sal, S. 24 Parganas-Sundari, Coochbehar-Pine, Purba Medinipur-Baobab); it teaches sal only as a moist-deciduous tree and the Sundarbans as mangrove. No GEO chapter covers these pairings."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q155",
+   "section": "parks",
+   "taught": true,
+   "note": "Jaldapara National Park is in Alipurduar district."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q185",
+   "section": "monsoon_rainfall",
+   "taught": true,
+   "note": "The retreating monsoon brings rain to the eastern part of peninsular India."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q188",
+   "section": "parks",
+   "taught": true,
+   "note": "Manas Biosphere Reserve is in Assam, not West Bengal."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q74",
+   "section": "monsoon_rainfall",
+   "taught": true,
+   "note": "Orographic rainfall is rain caused by mountains (shailotkshep brishti)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q100",
+   "section": "kalbaisakhi_cyclones",
+   "taught": true,
+   "note": "Cyclone Remal was named by Oman."
+  },
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q16",
+   "section": "soils",
+   "taught": true,
+   "note": "Regur (black soil) is the fertile black soil most suitable for cotton."
+  }
+ ],
+ "GEO-14": [
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q20",
+   "section": "rice_foodgrains",
+   "taught": true,
+   "note": "Partly taught: chapter lists jute and cotton among kharif/cash crops and treats wheat as a rabi foodgrain, so wheat is the odd one out; the term 'commercial crop' itself is not defined."
+  },
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q61",
+   "section": "cash_crops",
+   "taught": true,
+   "note": "Tea Board HQ is in Kolkata."
+  },
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q65",
+   "section": "agri_overview",
+   "taught": true,
+   "note": "Partly taught: chapter lists rice, maize and cotton as kharif crops; barley is not in the kharif list (it is a rabi crop, though the chapter does not name barley)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q117",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "Taught: chapter states Farakka's main purpose was to increase water in the Hugli so Kolkata Port stays open (citing WBCS 2015 and 2017); the paper's 'Lower Ganges flow' is that Hugli flow."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q154",
+   "section": "minerals_coal",
+   "taught": true,
+   "note": "Taught, citing the WBCS 2015 key: coal mine disasters in WB are due to inadequate stowing (not filling empty mines)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q158",
+   "section": "minerals_coal",
+   "taught": true,
+   "note": "WB's superior industrial coal is of the bituminous variety (citing WBCS 2015)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q198",
+   "section": "agri_overview",
+   "taught": true,
+   "note": "The Green Revolution was confined to wheat in Punjab and Haryana (citing WBCS 2015)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q33",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter mentions the Damodar only for its valley coal and DVC canals, never as the longest river of western WB. Belongs to GEO-12 (south_plateau)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q56",
+   "section": "cash_crops",
+   "taught": true,
+   "note": "Cooch Bihar is first in tobacco production (citing WBCS 2016)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q132",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "Taught: Farakka's main purpose was to increase water in the Hugli so Kolkata Port stays open (citing WBCS 2015 and 2017)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q142",
+   "section": "minerals_coal",
+   "taught": true,
+   "note": "DVC is a joint venture of the Centre and the West Bengal and Jharkhand governments (citing WBCS 2017)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q147",
+   "section": "agri_overview",
+   "taught": true,
+   "note": "Production increased most for wheat due to the Green Revolution (citing WBCS 2017)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q182",
+   "section": "transport_road_rail",
+   "taught": true,
+   "note": "India's first train ran in 1853, Bombay to Thane, 34 km."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q30",
+   "section": "transport_road_rail",
+   "taught": true,
+   "note": "Bongaon-Kolkata is NH-35 (citing WBCS 2018)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q33",
+   "section": "transport_road_rail",
+   "taught": true,
+   "note": "Eastern Railway HQ is in Kolkata (citing WBCS 2018)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q49",
+   "section": "industries",
+   "taught": true,
+   "note": "Rail wagons are made at Liluah, Kanchrapara and Dum Dum (citing WBCS 2018)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q132",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "WB's 'Dry Port' is in Kolkata (citing WBCS 2018)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q137",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "The Kosi's course change contributed to Kolkata Port's decline, per geographers (citing WBCS 2018)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q150",
+   "section": "transport_road_rail",
+   "taught": true,
+   "note": "Kolkata-Mumbai via Agra is NH-3 (citing WBCS 2018)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q29",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "Central Inland Water Transport Corporation HQ is in Kolkata (citing WBCS 2019)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q30",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "Metro rail started in Kolkata in 1984 (citing WBCS 2019)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q31",
+   "section": "minerals_coal",
+   "taught": true,
+   "note": "Partly taught: chapter teaches Jharia (largest) and Raniganj (second) coalfields are both in the Damodar valley, but does not state the 80% figure; the student picks Damodar from the ranking."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q33",
+   "section": "cash_crops",
+   "taught": true,
+   "note": "Dhanekhali is famous for the tant (handloom) industry (citing WBCS 2019)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q39",
+   "section": "transport_road_rail",
+   "taught": true,
+   "note": "WB's first railway ran in 1854, Howrah to Hooghly."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q112",
+   "section": "industries",
+   "taught": true,
+   "note": "The Falta Export Processing Zone started functioning in 1984 (citing WBCS 2021)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q98",
+   "section": "transport_road_rail",
+   "taught": true,
+   "note": "Taught: chapter states the NH-34-Sevok-Gangtok pairing is the wrong one (citing WBCS 2022)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q59",
+   "section": "industries",
+   "taught": true,
+   "note": "Haldia's two main industries are petroleum refinery and chemical fertilizer production (citing WBCS 2023)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q88",
+   "section": "agri_overview",
+   "taught": true,
+   "note": "Aman rice is sown in the SW monsoon season and harvested in winter (citing WBCS 2023)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q110",
+   "section": "agri_overview",
+   "taught": true,
+   "note": "Paddy fields are the main source of methane gas in India (citing WBCS 2023)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q112",
+   "section": "cash_crops",
+   "taught": true,
+   "note": "India's first paper mill was set up at Srirampur (citing WBCS 2023)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q166",
+   "section": "industries",
+   "taught": true,
+   "note": "Rourkela steel plant is located in an iron ore mining area (citing WBCS 2023)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q39",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "The Golden Quadrilateral is a National Highway Development Project (citing WBCS 2024)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q110",
+   "section": "cash_crops",
+   "taught": true,
+   "note": "The silk industry is famous in Murshidabad (citing WBCS 2024)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q116",
+   "section": "ports_water_air",
+   "taught": true,
+   "note": "The Wind Energy Project in WB is at Frezerganj (citing WBCS 2024)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q26",
+   "section": "cash_crops",
+   "taught": true,
+   "note": "Assam produces the most tea in India (more than half); WB is second."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q21",
+   "section": "cash_crops",
+   "taught": true,
+   "note": "Taught: chapter states Madhya Pradesh is not a tea-growing state (citing Clerkship 2019); the tea states listed are Assam, WB, Tamil Nadu and Kerala."
+  }
  ]
 }
