@@ -1314,5 +1314,881 @@
    "taught": false,
    "note": "Space (NASA Lucy spacecraft), not earth geography. Not taught."
   }
+ ],
+ "GEO-01": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q106",
+   "section": "size",
+   "taught": true,
+   "note": "Partly taught: chapter teaches the peninsula is bordered by the Indian Ocean and its two arms, the Bay of Bengal and the Arabian Sea (c14), but does not give the three directions; the student answers from the seas."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q127",
+   "section": "states_capitals",
+   "taught": true,
+   "note": "Taught: chapter lists Amaravati as the capital of Andhra Pradesh (states_capitals)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q136",
+   "section": "size",
+   "taught": true,
+   "note": "Taught: chapter gives India's area as 3.28 million sq. km, 2.4% of the world's land surface (c08)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q137",
+   "section": "location",
+   "taught": true,
+   "note": "Taught: chapter states the mainland extends from Arunachal Pradesh in the east to Gujarat in the west (c01); Arunachal is the easternmost state."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q176",
+   "section": "size",
+   "taught": true,
+   "note": "Partly taught: chapter teaches India ranks seventh in area (c08); the population rank (second) is stated in the stem, not taught in the chapter."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q143",
+   "section": "borders",
+   "taught": false,
+   "note": "Not taught: chapter lists Pakistan among India's land neighbours and the border states (borders) but never names the Radcliffe Line."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q46",
+   "section": "borders",
+   "taught": true,
+   "note": "Taught: chapter lists Arunachal Pradesh, Nagaland, Manipur and Mizoram as the Myanmar-border states (borders); Assam is the only option not in that list."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q35",
+   "section": "neighbours",
+   "taught": false,
+   "note": "Not taught: current-affairs location; chapter names Pakistan as a neighbour but says nothing about Balakot."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q15",
+   "section": "location",
+   "taught": true,
+   "note": "Taught: chapter gives the tsunami of 26 December 2004 that submerged Indira Point in the Andaman and Nicobar Islands (c17)."
+  }
+ ],
+ "GEO-02": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q147",
+   "section": "plateau",
+   "taught": false,
+   "note": "Not taught: chapter teaches the Shillong plateau is the Meghalaya plateau (c12) but never says who named it Meghalaya."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q126",
+   "section": "plateau",
+   "taught": false,
+   "note": "Not taught: chapter names the Western and Eastern Ghats but never defines the word 'Ghat'."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q44",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: K2 is not named anywhere in the chapter; the chapter teaches only that Everest is the world's highest peak (c25)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q65",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: chapter teaches the Purvachal hills and north-south ranges in Nagaland, Manipur and Mizoram (c05) but never names the Lushai hills."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q70",
+   "section": "plains",
+   "taught": false,
+   "note": "Not taught: the Rohilkhand region is not named in the chapter."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q101",
+   "section": "coast_islands",
+   "taught": true,
+   "note": "Taught: chapter lists Saddle Peak (738 m) in North Andaman as the highest Andaman peak (c20)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q27",
+   "section": "plains",
+   "taught": false,
+   "note": "Not taught: 'Bhur' is not in any allowed source (NCERT kegy102 gives Bhabar, Tarai, Bhangar, Khadar)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q47",
+   "section": "coast_islands",
+   "taught": true,
+   "note": "Taught: chapter teaches Lakshadweep is built of coral (c21)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q50",
+   "section": "plateau",
+   "taught": false,
+   "note": "Not taught: chapter teaches the Khasi Hills are one of the three hills of the Meghalaya plateau (c16) but never places the town of Shillong in the Khasi Hills."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q32",
+   "section": "himalaya",
+   "taught": true,
+   "note": "Partly taught: chapter places the Jhelum's source at the foot of the Pir Panjal in the Kashmir valley and the Indus between the Ladakh and Zaskar ranges (c24); it does not state the valley lies between Zaskar and Pir Panjal as a pair, but Pir Panjal is the only option-range tied to the Kashmir valley."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q38",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: Siachen glacier is not named in the chapter; the Karakoram is taught only as the range north of Ladakh (c22)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q76",
+   "section": "plateau",
+   "taught": false,
+   "note": "Not taught: chapter lists the Eastern Ghats hills (Javadi, Palconda, Nallamala, Mahendragiri, c14) but gives no highest peak and never names Jindhagada."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q85",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: Siachen is not named in the chapter, so the largest glacier of India is not taught."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q158",
+   "section": "himalaya",
+   "taught": true,
+   "note": "Partly taught: chapter gives the pieces — Pir Panjal at the Kashmir valley foot, the Indus between the Ladakh and Zaskar ranges (c24), the Karakoram north of Ladakh (c22) — but never states the four-range south-to-north order as one sequence; the student assembles it."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q52",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: chapter calls the Himalayas young parallel fold ranges and the Great Himalaya the central axial range (c05, c06) but never says which range is the oldest."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q66",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: the term 'Molassis basin' does not appear in the chapter."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q130",
+   "section": "coast_islands",
+   "taught": true,
+   "note": "Taught: chapter teaches the Ten Degree Channel separates the Andaman and Nicobar islands (c20)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q195",
+   "section": "plateau",
+   "taught": true,
+   "note": "Taught: chapter teaches the Eastern and Western Ghats meet at the Nilgiri hills (c14)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q124",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: the Main Central Thrust is not named in the chapter; the chapter states the Himadri-Himachal-Shiwalik divisions are not in its sources."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q135",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: 'Dun' (a valley between Lesser Himalaya and Shivalik) is not in any allowed source."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q152",
+   "section": "coast_islands",
+   "taught": true,
+   "note": "Taught: chapter teaches the Ten Degree Channel separates the Andaman and Nicobar islands (c20)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q156",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: K2 is not named in the chapter, so the fact that it lies in the Karakoram and not the Himalaya is not taught."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q27",
+   "section": "plateau",
+   "taught": false,
+   "note": "Not taught: Amarkantak is not named in the chapter (the Maikal range is, c13); the state is not stated."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q36",
+   "section": "coast_islands",
+   "taught": true,
+   "note": "Taught: chapter lists Saddle Peak (738 m) as the highest of the named Andaman-Nicobar peaks (c20)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q99",
+   "section": "himalaya",
+   "taught": false,
+   "note": "Not taught: the Parkachik Glacier is not named in the chapter; no glacier is named."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q74",
+   "section": "himalaya",
+   "taught": true,
+   "note": "Taught: chapter lists Nathula among the passes of the Himalayas (c23)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q98",
+   "section": "coast_islands",
+   "taught": false,
+   "note": "Not taught: chapter teaches Lakshadweep is built of coral (c21) but never uses the name Amindivi, so the link from Amindivi to Lakshadweep is not in the chapter."
+  }
+ ],
+ "GEO-04": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q139",
+   "section": "rainfall",
+   "taught": false,
+   "note": "Not taught: chapter contrasts Mawsynram (over 1,080 cm) with Jaisalmer (under 9 cm) and gives rainfall bands (c29) but never ranks states by annual variation of rainfall."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q106",
+   "section": "rainfall",
+   "taught": false,
+   "note": "Not taught: chapter teaches monsoon variability brings droughts or floods (c30) but never ranks places by August rainfall variability."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q107",
+   "section": "sw_retreat",
+   "taught": false,
+   "note": "Not taught: chapter teaches retreating-monsoon cyclones from the Andaman Sea strike the Godavari, Krishna and Kaveri deltas (c27) but never names Hudhud or its landfall coast."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q89",
+   "section": "rainfall",
+   "taught": false,
+   "note": "Not taught: 'cloud burst' as a rainfall type does not appear in the chapter; Ladakh is taught only through its temperature and low-rainfall extremes (c02, c03)."
+  }
+ ],
+ "GEO-05": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q99",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches soil erosion and its remedies but never gives wasteland area by state."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q138",
+   "section": "forests",
+   "taught": true,
+   "note": "Taught: chapter places evergreen forest on the Western Ghats' western slope and moist deciduous on its eastern slope."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q154",
+   "section": "forests",
+   "taught": true,
+   "note": "Partly taught: chapter teaches tropical thorn forests in low-rainfall areas including Gujarat, but never names xerophytic vegetation or Kutch."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q195",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: current-affairs item — ISFR 2015 state-wise forest-cover gains (Tamil Nadu and Kerala); chapter gives no forest-cover figures by state."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q154",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names Chipko, Beej Bachao and joint forest management, but never mentions the Apicco movement or Pandu Rao Hegde."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q38",
+   "section": "parks_reserves",
+   "taught": true,
+   "note": "Partly taught: chapter teaches Kaziranga = one-horned rhino and Gir = Asiatic lion, so Dachigam: Asiatic lions is the mismatch; Bhitarkanika and Dalma pairings are not in the chapter."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q41",
+   "section": "forests",
+   "taught": true,
+   "note": "Taught: chapter calls the temperate forests of the Nilgiris, Anaimalai and Palani hills Sholas."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q48",
+   "section": null,
+   "taught": false,
+   "note": "Not taught as asked: chapter says tropical deciduous is India's most widespread forest and defines moist (100-200 cm) and dry (70-100 cm) subtypes, but never says moist deciduous specifically occupies the largest area."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q168",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: Vansda National Park is never named in the chapter."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q78",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter only names Chipko among community-conservation examples; it never characterises the movement (the key's 'Feminist Movement' label is not in any source used)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q50",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter's soil types are alluvial, black, red, laterite, arid and forest soils; peaty/Kari soils of Kerala are never mentioned."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q68",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter lists mangroves in the Sunderbans, Andaman and Nicobar and the Mahanadi/Godavari/Krishna deltas, but never names the Coringa ('Loringa' in the paper) mangrove of Andhra Pradesh."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q129",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter places Sariska in Rajasthan, but never names Alwar district — and all four options are Rajasthan towns, so state knowledge cannot answer it."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q33",
+   "section": "parks_reserves",
+   "taught": true,
+   "note": "Partly taught: chapter's NTCA list places the Rajaji tiger reserve in Uttarakhand; the question's 'Rajaji Raghati Biosphere Reserve' is a garbled name — Rajaji is a tiger reserve/national park, not a biosphere reserve."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q80",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: Bhitarkanika National Park is never named in the chapter."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q51",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: current-affairs item — Gandhi Sagar sanctuary and the cheetah reintroduction project are not in the chapter."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q61",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: Vansda National Park is never named in the chapter (same question as WBCS 2019 Q168, different paper)."
+  }
+ ],
+ "GEO-06": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q70",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter's only inter-state water dispute is Krishna–Godavari (Koyna); the Mullaperiyar dam and the Tamil Nadu–Kerala dispute are never mentioned."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q34",
+   "section": "opposition",
+   "taught": true,
+   "note": "Taught: opposition section names the Narmada Bachao Andolan against the Sardar Sarovar dam and its leader Medha Patkar (chapter text, not in NCERT sources)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q126",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: the Sharavati hydroelectric project is never named in the chapter."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q139",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter's table lists the Tungabhadra project on the Tungabhadra, but the Kurnool–Cuddapah canal itself is never mentioned."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q43",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: the Dulhasti hydroelectric project is never named in the chapter."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q152",
+   "section": "projects",
+   "taught": true,
+   "note": "Taught: chapter's summary table lists Mettur on the Kaveri in Tamil Nadu."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q184",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never names Sivasamudram (or Bhavani Sagar/Krishna Raja Sagar); only Bhakra Nangal's hydel-plus-irrigation use is taught."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q117",
+   "section": "projects",
+   "taught": true,
+   "note": "Partly taught: chapter's table lists Mettur on the Kaveri; Krishna Raja Sagar itself is not in the chapter."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q21",
+   "section": "opposition",
+   "taught": true,
+   "note": "Taught: opposition section names the Narmada Bachao Andolan and its leader Medha Patkar (chapter text, not in NCERT sources)."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q41",
+   "section": "projects",
+   "taught": true,
+   "note": "Taught: chapter's summary table lists Nagarjuna Sagar on the Krishna (Telangana–Andhra Pradesh border); the section prose notes the NCERT books themselves do not give the river."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q48",
+   "section": "projects",
+   "taught": true,
+   "note": "Partly taught: chapter's canal examples are all northern — Bhakra's canal system fed by the Sutlej in Punjab and the perennial Indira Gandhi Canal in Rajasthan — but it never states the general rule that perennial canals are found in North India."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q53",
+   "section": "projects",
+   "taught": true,
+   "note": "Taught: chapter's summary table places Bhakra-Nangal on the Sutlej in Himachal Pradesh and Punjab."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q46",
+   "section": "projects",
+   "taught": true,
+   "note": "Taught: chapter's summary table lists Ukai on the Tapi in Gujarat."
+  }
+ ],
+ "GEO-07": [
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q36",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches primitive subsistence, intensive subsistence, commercial and plantation farming, but never defines mixed farming."
+  },
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q80",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches rubber as a crop of Kerala, Tamil Nadu, Karnataka and the Garo hills; the world's major rubber plantations (Malaysia) are not covered."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q57",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: 'peasant farming' is not defined in the chapter; its farming types say nothing about the cultivator owning the land."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q134",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter defines dryland farming by rainfall (under 75 cm) and lists its crops, but never gives the reasons dry farming is possible (groundwater, resistant varieties, technology)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q105",
+   "section": "types",
+   "taught": true,
+   "note": "Partly taught: chapter teaches slash-and-burn (jhumming) cultivation in the north-eastern hills including Nagaland and that farmers shift when fertility falls, but never states it leaves mountains barren."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q116",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter mentions canals and tubewells only in passing; it never gives tank-irrigation shares by state."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q146",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter's shifting-cultivation table names Jhumming (Assam/Nagaland etc.) and Podu (Andhra Pradesh) but never mentions Odisha either, so it cannot show West Bengal is the odd one out."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q148",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter lists cotton as a major fibre/cash crop but never ranks cash crops by value of production."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q120",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches the Green Revolution's HYV/fertiliser/irrigation package and its regions, but never names the IADA/IAAP district programmes."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q173",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter mentions organic farming only via PKVY; Sikkim as the first fully organic state is never stated."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q140",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: crop research institutes are not in the chapter; the Central Rice Research Institute (Cuttack) is never named."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q35",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches coffee in Karnataka (Baba Budan Hills, Nilgiri region) but never names a coffee research centre."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q97",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter's horticulture examples give oranges of Nagpur and Cherrapunjee; fruit cultivation of the Eastern Himalayas is never described."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q111",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches tea in Assam (Brahmaputra valley) but never names a tea research centre (Jorhat)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q121",
+   "section": "fibres",
+   "taught": true,
+   "note": "Partly taught: chapter lists cotton first among the four major fibre crops and treats it as the leading fibre crop, though it does not use the words 'main textile fibre crop'."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q131",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: animal husbandry is not covered in the chapter (only the name White Revolution/Operation Flood); cattle-rearing rankings are never given."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q87",
+   "section": "reforms",
+   "taught": true,
+   "note": "Taught: chapter names the White Revolution (Operation Flood) as a 1960s–70s agricultural strategy."
+  }
+ ],
+ "GEO-08": [
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q69",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers Mumbai High's discovery (1973) and production (1976) (c32) but not the 2005 fire; current-affairs item."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q155",
+   "section": "power",
+   "taught": true,
+   "note": "Taught: chapter's nuclear table lists Kudankulam (Tamil Nadu), added beyond the NCERT six (c37)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q161",
+   "section": "coal",
+   "taught": true,
+   "note": "Partly taught: chapter calls coal the most abundantly available fossil fuel and groups coal, petroleum and natural gas as conventional energy (c23, c24), but never labels the three together as fossil fuels."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q164",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter says refineries are field-based (Digboi) or market-based (Barauni) (c33); it never says most are at port locations."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q134",
+   "section": "petroleum",
+   "taught": true,
+   "note": "Partly taught: chapter locates natural-gas reserves at Mumbai High, Cambay and the Krishna-Godavari basin (c34), so none in the Bengal delta; it never discusses delta-region mining directly."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q149",
+   "section": "petroleum",
+   "taught": true,
+   "note": "Partly taught: chapter calls Assam the oldest oil-producing state and names Digboi among its fields (c31), but never states oil was first discovered at Digboi."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q150",
+   "section": "nonconventional",
+   "taught": true,
+   "note": "Taught: chapter names Tamil Nadu as the state with the largest wind-farm cluster (c38)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q40",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives manganese's use in steel (c16) but no state ranking for production or reserves."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q37",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names only Bhakra Nangal, Damodar Valley Corporation and Kopili as hydroelectric examples (c35); Rammam (Darjeeling) is never mentioned."
+  },
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q22",
+   "section": "nonferrous",
+   "taught": true,
+   "note": "Taught: chapter names Khetri (Rajasthan) among the leading copper producers (c17)."
+  },
+  {
+   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q49",
+   "section": "power",
+   "taught": true,
+   "note": "Taught: chapter lists Kalpakkam (Tamil Nadu) among the nuclear power projects (c37)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q26",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names tin only among the metals from veins and lodes (c02); no tin-producing state is given."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q86",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names the Koderma-Gaya-Hazaribagh belt, Ajmer and Nellore for mica (c20); no West Bengal mica district is given."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q110",
+   "section": "nonconventional",
+   "taught": true,
+   "note": "Taught: chapter names Tamil Nadu as the state with the largest wind-farm cluster (c38)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q72",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers tidal energy sites (Gulf of Khambhat, Gulf of Kuchchh, Sundarbans) (c41) but never mentions ocean thermal energy conversion."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q45",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter teaches photovoltaic technology and western India's solar potential (c39) but gives no efficiency figure for commercial cells."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q119",
+   "section": "power",
+   "taught": true,
+   "note": "Taught: chapter lists thorium (with uranium) as a nuclear fuel and Kerala monazite sands as thorium-rich (c36)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q163",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names Gua and Noamundi as the Singhbhum iron mines (c12, c45) but never mentions Notuburu."
+  }
+ ],
+ "GEO-09": [
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q86",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers industrial concentration (Chhotanagpur, Hugli) but never discusses vertical or horizontal linkages."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q109",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers industrial location factors but never mentions Weber or isodapanes."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q145",
+   "section": "mineral",
+   "taught": true,
+   "note": "Taught: chapter's steel-plant table lists the Bhilai steel plant in Chhattisgarh."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q139",
+   "section": "mineral",
+   "taught": true,
+   "note": "Taught: chapter lists limestone as the bulky raw material cement needs (c23)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q37",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the first successful textile mill as Mumbai 1854 (c10); the 1818 mill is never mentioned."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q75",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers agro-based industries (cotton, jute, sugar) but never discusses the food-processing industry or its leading state."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q79",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the first successful textile mill as Mumbai 1854 (c10); the 1818 Ghusuri mill is never mentioned."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q175",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names paper only as a consumer-industry example and a water-pollution culprit; no paper-industry centres (Ballarpur, Nepanagar) are given."
+  }
+ ],
+ "GEO-10": [
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q5",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the 2011 Census population (1,210 million) (c34) but no 2009 estimate."
+  },
+  {
+   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q58",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers railway history to the Konkan Railway (1998) (c15) but no private trains; Tejas is a current-affairs item."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q130",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the village count (640,867) (c40) but never defines Mouza/revenue village."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q167",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter lists Chennai and Tuticorin as Tamil Nadu's major ports (c27), but never states why Tamil Nadu alone has two (the inlets-and-bays reason)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q182",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the urban share (31.16%, 2011) (c40) but never defines what counts as urban."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q192",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the worker share and composition (c43) but never defines main/marginal workers or the 183-day rule."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q121",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the all-India 1911–21 negative-growth phase (c38) but gives no West Bengal figure."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q159",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter names ports including Kochi but no shipbuilding yard; Cochin Shipyard is never mentioned."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q165",
+   "section": "pop_density",
+   "taught": true,
+   "note": "Taught: chapter gives Arunachal Pradesh as the lowest-density state (17 per sq km, 2011) (c36)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q170",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the all-India urban share but no state-wise urbanisation ranking."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q179",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the all-India growth phases and Kerala's lowest decadal growth (1991–2001) (c38, c39) but never mentions Nagaland's negative 2001–11 growth."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q141",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives no age-structure figures."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q143",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the urban share but no urban-agglomeration ranking."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q144",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter calls Tuticorin (and Cochin) the natural-harbour ports and Visakhapatnam only the deepest landlocked, well-protected port (c26–c28), so the chapter points at Tuticorin, not the key (Visakhapatnam)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q184",
+   "section": "pop_growth",
+   "taught": true,
+   "note": "Taught: chapter states 54.6% of workers are cultivators and agricultural labourers (c43)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q110",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter calls Visakhapatnam the deepest landlocked, well-protected port (c28) but never mentions Dolphin's Nose."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q124",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter mentions ring roads only in passing (NHDP bypasses/flyovers to ease city congestion) and never discusses New Delhi's Ring Road or its purpose."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q156",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the first train (Bombay–Thane, 1853) (c11) but never names the Governor-General who promoted railway construction."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q43",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers population composition by language, religion and workers (c41–c43), but never defines demographic dividend or gives age-structure shares."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q45",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives no literacy figures at all."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q131",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives no sex-ratio figures at all (state or UT)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q172",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives no sex-ratio figures, district or state."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q63",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter defines physiological and agricultural density (c37) but never defines the man–land ratio."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q171",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives the population-explosion phase as 1951–81 (c38), but the paper key is 1961–81 — the chapter's figure contradicts the key."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q174",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter explicitly notes the Diamond Quadrilateral is not in the NCERT sources and must not be confused with the Golden Quadrilateral (road) project."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q30",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter covers census history to 2011 (c34); the 2026–27 digital census is a current-affairs item outside it."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q65",
+   "section": "roads",
+   "taught": true,
+   "note": "Taught: chapter names Sher Shah Suri's Shahi road, renamed the Grand Trunk road (c10)."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q70",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter never defines sex ratio."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q101",
+   "section": "ports",
+   "taught": true,
+   "note": "Taught: chapter places Kandla (Deendayal Port) in Kuchchh, Gujarat (c24), so the Kandla–Maharashtra pair is the wrong match."
+  },
+  {
+   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q198",
+   "section": null,
+   "taught": false,
+   "note": "Not taught: chapter gives no age-structure figures and never defines dependency ratio."
+  }
  ]
 }
