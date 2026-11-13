@@ -560,11 +560,32 @@ function smartQuizPlan(chapters, count) {
 
 /* ----------------------------------------------------------------- subject */
 
+/**
+ * The last 7 days, from the same answers: how many answered, how many solving minutes
+ * (timed answers only — reading time has no per-day record, so it is not in here),
+ * and on how many days the student answered at all. Nulls when `now` is not passed.
+ */
+function weekActivity(answers, now, tzMin) {
+  if (!now) return { answered: null, minutes: null, activeDays: null };
+  const since = now.getTime() - 7 * DAY;
+  const recent = answers.filter((a) => a.at && a.at.getTime() >= since);
+  const days = new Set(recent.map((a) => new Date(a.at.getTime() + tzMin * 60_000).toISOString().slice(0, 10)));
+  return {
+    answered: recent.length,
+    minutes: Math.round(recent.reduce((sum, a) => sum + secOf(a), 0) / 60),
+    activeDays: days.size,
+  };
+}
+
 /** Subject-level numbers and the ranked focus list. */
-function subjectSummary(chapters, answers) {
+function subjectSummary(chapters, answers, opts = {}) {
   const started = chapters.filter((c) => c.started);
   const withMastery = started.filter((c) => c.mastery != null);
   const recent = answers.slice(0, 200);
+  const week = weekActivity(answers, opts.now ?? null, opts.tzMin ?? 330);
+  const remainingQuestions = chapters.reduce((a, c) => a + (c.remaining ?? 0), 0);
+  const last14 = opts.now ? answers.filter((a) => a.at && a.at.getTime() >= opts.now.getTime() - 14 * DAY) : [];
+  const answersPerDay = last14.length ? Math.round((last14.length / 14) * 10) / 10 : 0;
   return {
     chapters: chapters.length,
     started: started.length,
@@ -580,6 +601,14 @@ function subjectSummary(chapters, answers) {
     openSkips: chapters.reduce((a, c) => a + c.openSkips, 0),
     revisionDue: chapters.filter((c) => c.revision.due).length,
     totalSec: chapters.reduce((a, c) => a + c.time.totalSec, 0),
+    pyqSolved: chapters.reduce((a, c) => a + (c.pyqSolved ?? 0), 0),
+    pyqTotal: chapters.reduce((a, c) => a + (c.pyqTotal ?? 0), 0),
+    weekAnswered: week.answered,
+    weekMinutes: week.minutes,
+    weekActiveDays: week.activeDays,
+    remainingQuestions,
+    answersPerDay: opts.now ? answersPerDay : null,
+    paceDays: remainingQuestions > 0 && answersPerDay > 0 ? Math.ceil(remainingQuestions / answersPerDay) : null,
   };
 }
 

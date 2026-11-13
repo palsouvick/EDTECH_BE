@@ -16,7 +16,9 @@
  */
 
 const mongoose = require('mongoose');
-const { PracticeAttempt, MockSession, Question, ReviewItem, ChapterStudy } = require('../models');
+const { PracticeAttempt, MockSession, Question, ReviewItem, ChapterStudy, StudyPlanProgress } = require('../models');
+const plan = require('../../db/plans/clerkship60');
+const { streakDaysFor } = require('./performance.service');
 const { MAX_SECTIONS } = require('../models/ChapterStudy');
 const { compactLocalized } = require('./presenters');
 const { availability, REAL_PAPER } = require('./bankAvailability');
@@ -169,7 +171,7 @@ async function analyseSubject(userId, subject, { language = 'en', tz = 330, now 
     return c;
   });
 
-  const summary = A.subjectSummary(chapters, d.answers);
+  const summary = A.subjectSummary(chapters, d.answers, { now, tzMin: tz });
   const focus = A.focusList(chapters);
   const result = {
     subject,
@@ -264,16 +266,46 @@ async function skippedQuestionList(d, titleOf, limit = 30) {
   }));
 }
 
+/** One row of the overview's all-chapters list: enough to rank and show it, nothing more. */
+const chapterBrief = (c) => ({
+  topic: c.topic,
+  title: c.title,
+  emoji: c.emoji,
+  mastery: c.mastery,
+  accuracy: c.recentAccuracy,
+  band: c.focus.band,
+  score: c.focus.score,
+  started: c.started,
+  practicePct: c.practicePct,
+  weakestSkill: c.weakestSkill ? { name: c.weakestSkill.name, accuracy: c.weakestSkill.accuracyPct } : null,
+});
+
 /** Both subjects side by side, with the current focus across them (#21 "learning health"). */
 async function overview(userId, { language = 'en', tz = 330, now = new Date() } = {}) {
   const subjects = await Promise.all(A.ANALYSIS_SUBJECTS.map((s) => analyseSubject(userId, s, { language, tz, now, detail: false })));
+  // The streak is user-level (same days and freeze rules as /me), and the target exam comes from
+  // the 60-day plan: the exam is fixed (WBPSC Clerkship), only the date depends on the student.
+  const [streakDays, planDoc] = await Promise.all([
+    streakDaysFor(userId, tz, now).catch(() => 0),
+    StudyPlanProgress.findOne({ user_id: userId, plan: plan.code }).select('exam_date start_date').lean().catch(() => null),
+  ]);
   const focus = subjects
     .flatMap((s) => s.studyNow.filter((c) => c.band === 'high' || c.band === 'medium').slice(0, 3).map((c) => ({ subject: s.subject, ...c })))
     .sort((a, b) => b.score - a.score)
     .slice(0, 5);
   return {
-    subjects: subjects.map((s) => ({ subject: s.subject, summary: s.summary, trend: { direction: s.trend.direction, recentDelta: s.trend.recentDelta }, month: s.month, nextTask: s.nextTask, areas: s.areas })),
+    subjects: subjects.map((s) => ({
+      subject: s.subject,
+      summary: s.summary,
+      trend: { direction: s.trend.direction, recentDelta: s.trend.recentDelta, weeks: s.trend.weeks },
+      month: s.month,
+      nextTask: s.nextTask,
+      areas: s.areas,
+      chapters: s.chapters.map(chapterBrief),
+    })),
     focus,
+    streakDays,
+    plan: { exam: plan.exam, examDate: planDoc?.exam_date ?? null, startDate: planDoc?.start_date ?? null },
   };
 }
 

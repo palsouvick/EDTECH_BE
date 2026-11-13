@@ -85,6 +85,25 @@ function streakWithFreezes(daysSet, todayKey) {
 const MIN_ATTEMPTS_FOR_WEAK = 5;
 
 /**
+ * The study streak alone (same days, same freeze rules as getPerformance, so the
+ * number on the learning analysis matches the one on /me): distinct practice days
+ * over the last 400 days plus mock-submission days.
+ */
+async function streakDaysFor(userId, tzOffsetMin = 330, now = new Date()) {
+  const tz = tzString(tzOffsetMin);
+  const [longActivity, mocks] = await Promise.all([
+    PracticeAttempt.aggregate([
+      { $match: { user_id: userId, created_at: { $gte: new Date(now.getTime() - 400 * 86400_000) } } },
+      { $group: { _id: { $dateToString: { format: '%Y-%m-%d', date: '$created_at', timezone: tz } } } },
+    ]),
+    MockSession.find({ user_id: userId, status: 'SUBMITTED' }).sort({ submitted_at: -1 }).limit(50).select('submitted_at').lean(),
+  ]);
+  const days = new Set(longActivity.map((d) => d._id));
+  for (const m of mocks) days.add(dayKey(m.submitted_at, tzOffsetMin));
+  return streakWithFreezes(days, dayKey(now, tzOffsetMin)).days;
+}
+
+/**
  * "My performance": practice accuracy by subject and topic, weak topics, mock
  * history and trend, daily activity and streak.
  * @param {number} tzOffsetMin  the student's UTC offset in minutes (India: 330), for "today"
@@ -203,4 +222,4 @@ async function getPerformance(userId, tzOffsetMin = 330) {
   };
 }
 
-module.exports = { getPerformance, streakFrom, streakWithFreezes, tzString, dayKey };
+module.exports = { getPerformance, streakDaysFor, streakFrom, streakWithFreezes, tzString, dayKey };

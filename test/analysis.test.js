@@ -15,7 +15,7 @@ const A = require('../src/services/analysis.logic');
 const { likelyReason, mergeSkips } = require('../src/services/skips.service');
 const L = require('../src/services/customTest.logic');
 const { createApp } = require('../src/app');
-const { Question, ExamCategory, MockSession, ReviewItem, PracticeAttempt, QuestionSkip, ChapterStudy } = require('../src/models');
+const { Question, ExamCategory, MockSession, ReviewItem, PracticeAttempt, QuestionSkip, ChapterStudy, StudyPlanProgress } = require('../src/models');
 const statsBuffer = require('../src/services/questionStats.buffer');
 const { gradeAnswers } = require('../src/services/grading');
 const catalog = require('../db/seed/catalog');
@@ -52,6 +52,37 @@ test('subject summary: needs-attention counts medium and high chapters, weak cou
   assert.equal(s.needsAttentionChapters, 2);
   assert.equal(s.masteryPct, Math.round((40 + 55 + 70 + 90) / 4));
   assert.equal(s.syllabusMasteryPct, Math.round((40 + 55 + 70 + 90) / 5));
+});
+
+test('subject summary: PYQ totals, last-7-days activity and the practice-bank pace', () => {
+  const ch = (extra = {}) => ({ started: true, mastery: 50, focus: { band: 'low' }, complete: false, openMistakes: 0, openSkips: 0, revision: { due: false }, time: { totalSec: 0 }, remaining: 0, pyqSolved: 0, pyqTotal: 0, ...extra });
+  const now = new Date('2026-11-13T06:00:00Z');
+  const ans = (agoDays, timeSec) => ({ at: new Date(now.getTime() - agoDays * DAY), timeSec, correct: true });
+  const answers = [
+    ...Array.from({ length: 14 }, () => ans(1, 60)), // yesterday: 14 answers, 14 solving minutes
+    ...Array.from({ length: 7 }, () => ans(6, 30)), // 6 days ago: 7 answers, 3.5 solving minutes
+    ans(20, 60), // outside the 14-day pace window
+  ];
+  const s = A.subjectSummary(
+    [ch({ remaining: 40, pyqSolved: 5, pyqTotal: 10 }), ch({ remaining: 20, pyqSolved: 0, pyqTotal: 5 })],
+    answers,
+    { now, tzMin: 330 },
+  );
+  assert.equal(s.pyqSolved, 5);
+  assert.equal(s.pyqTotal, 15);
+  assert.equal(s.weekAnswered, 21);
+  assert.equal(s.weekMinutes, 18); // 14×60s + 7×30s = 1050s ≈ 18 min
+  assert.equal(s.weekActiveDays, 2);
+  assert.equal(s.remainingQuestions, 60);
+  assert.equal(s.answersPerDay, 1.5); // 21 answers in the last 14 days
+  assert.equal(s.paceDays, 40); // 60 remaining at 1.5/day
+  // Without `now` there is no week or pace, but the totals still hold.
+  const noNow = A.subjectSummary([ch({ remaining: 40 })], answers);
+  assert.equal(noNow.weekMinutes, null);
+  assert.equal(noNow.weekActiveDays, null);
+  assert.equal(noNow.answersPerDay, null);
+  assert.equal(noNow.paceDays, null);
+  assert.equal(noNow.remainingQuestions, 40);
 });
 
 test('why reasons carry the facts, and the action plan follows the accuracy', () => {
@@ -224,7 +255,7 @@ const byTopic = {};
 test.before(async () => {
   mongod = await MongoMemoryServer.create({ instance: { launchTimeout: 90_000 } });
   await mongoose.connect(mongod.getUri('analysis_test'));
-  await Promise.all([Question.init(), ExamCategory.init(), MockSession.init(), ReviewItem.init(), PracticeAttempt.init(), QuestionSkip.init(), ChapterStudy.init()]);
+  await Promise.all([Question.init(), ExamCategory.init(), MockSession.init(), ReviewItem.init(), PracticeAttempt.init(), QuestionSkip.init(), ChapterStudy.init(), StudyPlanProgress.init()]);
   await ExamCategory.insertMany(catalog);
   const docs = [];
   for (const topic of ['percentage', 'time_work', 'average']) for (let i = 0; i < 30; i++) docs.push(Q('quant', topic, (i % 5) + 1));
@@ -381,4 +412,41 @@ test('English uses the same framework with its own areas', async () => {
   assert.equal(o.subjects[1].summary.answered, 20);
   assert.equal(o.focus[0].subject, 'english');
   assert.equal(o.focus[0].topic, 'tenses');
+});
+
+test('overview: weekly trend, all chapters, streak, pace and the plan exam', async () => {
+  const user = 'overview_student';
+  for (const [i, q] of byTopic.percentage.slice(0, 10).entries()) await answer(user, q, i % 2 === 0, 0);
+  for (const [i, q] of byTopic.percentage.slice(10, 20).entries()) await answer(user, q, i % 2 === 0, 1);
+  for (const [i, q] of byTopic.average.slice(0, 10).entries()) await answer(user, q, true, 1);
+  const r = await api('GET', '/me/analysis?tz=330', null, user);
+  assert.equal(r.status, 200, JSON.stringify(r.body));
+  const d = r.body.data;
+  assert.equal(d.streakDays, 2, 'today + yesterday');
+  assert.deepEqual(d.plan, { exam: 'WBPSC_CLERKSHIP', examDate: null, startDate: null }, 'no plan started yet');
+  const math = d.subjects.find((s) => s.subject === 'quant');
+  assert.equal(math.trend.weeks.length, 8);
+  assert.ok(math.trend.weeks.some((w) => w.answered > 0), 'this week has answers');
+  assert.ok(math.chapters.length >= 15, 'every Math chapter is listed');
+  const pct = math.chapters.find((c) => c.topic === 'percentage');
+  assert.equal(pct.accuracy, 50);
+  assert.ok(pct.mastery != null);
+  assert.equal(pct.band, 'medium', '50% accuracy and a middling score: medium, not high');
+  assert.equal(math.summary.weekAnswered, 30);
+  assert.equal(math.summary.weekMinutes, 20); // 30 answers × 40s
+  assert.equal(math.summary.weekActiveDays, 2);
+  assert.equal(math.summary.answersPerDay, 2.1); // 30 answers in the last 14 days
+  assert.ok(math.summary.remainingQuestions > 0);
+  assert.equal(math.summary.paceDays, Math.ceil(math.summary.remainingQuestions / math.summary.answersPerDay));
+  assert.equal(math.summary.pyqSolved, 0);
+  assert.equal(math.summary.pyqTotal, 0);
+});
+
+test('overview: the plan exam date comes from the 60-day plan progress', async () => {
+  const user = 'plan_student';
+  await StudyPlanProgress.create({ user_id: user, plan: 'CLERKSHIP_60', plan_version: 2, start_date: '2026-10-01', exam_date: '2026-12-20', done: [], tests: {} });
+  const d = (await api('GET', '/me/analysis?tz=330', null, user)).body.data;
+  assert.equal(d.plan.exam, 'WBPSC_CLERKSHIP');
+  assert.equal(d.plan.examDate, '2026-12-20');
+  assert.equal(d.plan.startDate, '2026-10-01');
 });
