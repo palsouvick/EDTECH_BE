@@ -1,0 +1,1665 @@
+{
+ "book": "geography",
+ "code": "GEO-16",
+ "number": 16,
+ "part": "earth_world",
+ "title": "বিশ্ব: মহাদেশ, দেশ, প্রণালী, খাল, হ্রদ ও শৃঙ্গ",
+ "subtitle": "সাত মহাদেশ, চার মহাসাগর, বিশ্বের বড়ো নদী-হ্রদ-মরুভূমি ও বিখ্যাত খাল — WBCS/ক্লার্কশিপের জন্য",
+ "subtopics": [
+  "world_geography",
+  "world_features"
+ ],
+ "prerequisites": [
+  "GEO-15"
+ ],
+ "reading_minutes": {
+  "quick": 10,
+  "standard": 35,
+  "deep": 60
+ },
+ "status": "DRAFT",
+ "verification": {
+  "status": "VERIFIED",
+  "checked_at": "2026-11-13",
+  "notes": "Key check (owner rule 2026-11-13, no word-by-word check): 40/40 keys confirmed; fixed: none. Source notes: NCERT lists four major oceans (Southern Ocean not counted — see exam_note in oceans section); Al Azizia 57.7°C (1922) is NCERT's figure, later disputed — taught as NCERT's figure; fess106 page numbers approximate (chapter spans pp. 38-45); WBBSE Class VIII আমাদের পৃথিবী text not accessible from this environment — no WBBSE claim cited; NCERT quotes verified via search reproductions of NCERT text as ncert.nic.in PDFs were unreachable from this VM."
+ },
+ "overview": {
+  "intro": "এই অধ্যায়ে পৃথিবীর বড়ো ছবিটা শিখবে — সাতটি মহাদেশ, চারটি মহাসাগর, উচ্চতম শৃঙ্গ ও গভীরতম খাত, দীর্ঘতম ও বৃহত্তম নদী, বৃহত্তম হ্রদ ও মরুভূমি, আর সুয়েজ ও পানামা খালের মতো বিশ্ববাণিজ্যের প্রাণরেখা। শেষে পরীক্ষার প্রশ্নের ধরন অনুযায়ী কোন তথ্যগুলি মুখস্থ করতেই হবে, তার তালিকা আছে।",
+  "you_will_learn": [
+   "সাত মহাদেশের নাম, আয়তনের ক্রম ও প্রধান বৈশিষ্ট্য",
+   "চারটি প্রধান মহাসাগরের নাম, ক্রম ও বাণিজ্যিক গুরুত্ব",
+   "পর্বত, মালভূমি ও শৃঙ্গ — নবীন বনাম প্রাচীন ভাঁজ পর্বতের পার্থক্য",
+   "বিশ্বের বড়ো নদী ও জলপথের নাম, দৈর্ঘ্য ও গুরুত্ব",
+   "বৃহত্তম হ্রদ, লবণাক্ত জল ও সাহারা মরুভূমির তথ্য",
+   "প্রণালী ও খাল — সুয়েজ বনাম পানামার তুলনা",
+   "পরীক্ষায় আসা বিশ্ব ভূগোলের প্রশ্ন ও রাজধানীর তথ্য"
+  ]
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "title": "NCERT Class VI, The Earth: Our Habitat, Chapter 5: Major Domains of the Earth",
+   "url": "https://ncert.nic.in/textbook/pdf/fess105.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "title": "NCERT Class VI, The Earth: Our Habitat, Chapter 6: Major Landforms of the Earth",
+   "url": "https://ncert.nic.in/textbook/pdf/fess106.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "title": "NCERT Class VII, Our Environment, Chapter 5: Water",
+   "url": "https://ncert.nic.in/textbook/pdf/gess205.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "title": "NCERT Class VII, Our Environment, Chapter 8: Human Environment Interactions: The Tropical and the Subtropical Region",
+   "url": "https://ncert.nic.in/textbook/pdf/gess208.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "title": "NCERT Class VII, Our Environment, Chapter 9: Life in the Deserts",
+   "url": "https://ncert.nic.in/textbook/pdf/gess209.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s6",
+   "title": "NCERT Class XII, Fundamentals of Human Geography, Chapter 8: Transport and Communication",
+   "url": "https://ncert.nic.in/textbook/pdf/legy208.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s7",
+   "title": "High Commission of India, Canberra: S. Muthiah, 'Tale of two capitals' (Time Oz Diaries)",
+   "url": "https://hcicanberra.gov.in/docs/1528097642tale-of-2capitals.pdf",
+   "accessed_at": "2026-11-13"
+  }
+ ],
+ "claims": [
+  {
+   "id": "c01",
+   "claim": "There are seven major continents: Asia, Europe, Africa, North America, South America, Australia and Antarctica.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "There are seven major continents. These are separated by large water bodies. These continents are – Asia, Europe, Africa, North America, South America, Australia and Antarctica."
+  },
+  {
+   "id": "c02",
+   "claim": "Asia is the largest continent, covering about one-third of the total land area of the earth; the Tropic of Cancer passes through it.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "Asia is the largest continent. It covers about one third of the total land area of the earth. The continent lies in the Eastern Hemisphere. The Tropic of Cancer passes through this continent."
+  },
+  {
+   "id": "c03",
+   "claim": "Asia is separated from Europe by the Ural mountains on the west; the combined landmass of Europe and Asia is called Eurasia.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "Asia is separated from Europe by the Ural mountains on the west (Figure 5.1). The combined landmass of Europe and Asia is called the Eurasia (Europe + Asia)."
+  },
+  {
+   "id": "c04",
+   "claim": "Africa is the second largest continent; the Equator runs almost through its middle and it is the only continent through which the Tropic of Cancer, the Equator and the Tropic of Capricorn all pass.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "Africa is the second largest continent after Asia. The Equator or 0° latitude runs almost through the middle of the continent. It is the only continent through which the Tropic of Cancer, the Equator and the Tropic of Capricorn pass."
+  },
+  {
+   "id": "c05",
+   "claim": "North America is the third largest continent and is linked to South America by the Isthmus of Panama.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "North America is the third largest continent of the world. It is linked to South America by a very narrow strip of land called the Isthmus of Panama."
+  },
+  {
+   "id": "c06",
+   "claim": "The Andes, the world's longest mountain range, runs through South America from north to south.",
+   "source": "s1",
+   "page": "p. 32",
+   "quote": "The Andes, world’s longest mountain range, runs through its length from north to south (Figure 5.1)."
+  },
+  {
+   "id": "c07",
+   "claim": "South America has the world's largest river, the Amazon.",
+   "source": "s1",
+   "page": "p. 32",
+   "quote": "South America has the world’s largest river, the Amazon."
+  },
+  {
+   "id": "c08",
+   "claim": "Australia is the smallest continent, lies entirely in the Southern Hemisphere, and is called an island continent.",
+   "source": "s1",
+   "page": "p. 32",
+   "quote": "Australia is the smallest continent that lies entirely in the Southern Hemisphere. It is surrounded on all sides by the oceans and seas. It is called an island continent."
+  },
+  {
+   "id": "c09",
+   "claim": "Antarctica lies completely in the Southern Hemisphere, the South Pole lies almost at its centre, it is permanently covered with thick ice sheets, there are no permanent human settlements, and India has research stations there named Maitri and Dakshin Gangotri.",
+   "source": "s1",
+   "page": "p. 32",
+   "quote": "Antarctica, completely in the Southern Hemisphere, is a huge continent. The South Pole lies almost at the centre of this continent. As it is located in the South Polar Region, it is permanently covered with thick ice sheets. There are no permanent human settlements. Many countries have research stations in Antarctica. India also has research stations there. These are named as Maitri and Dakshin Gangotri."
+  },
+  {
+   "id": "c10",
+   "claim": "Mount Everest, 8,848 metres above sea level, is the highest mountain peak; the greatest depth, 11,022 metres, is recorded at the Mariana Trench in the Pacific Ocean.",
+   "source": "s1",
+   "page": "p. 32",
+   "quote": "The highest mountain peak Mt. Everest is 8,848 metres above the sea level. The greatest depth of 11,022 metres is recorded at Mariana Trench in the Pacific Ocean."
+  },
+  {
+   "id": "c11",
+   "claim": "Edmund Hillary and Tenzing Norgay were the first men to climb Everest (29 May 1953); Junko Tabei was the first woman (16 May 1975); Bachendri Pal was the first Indian woman (23 May 1984).",
+   "source": "s1",
+   "page": "p. 32",
+   "quote": "Edmund Hillary (New Zealand) and Tenzing Norgay Sherpa (India) were the first men to climb the highest mountain peak Mt. Everest on the planet earth on 29th May, 1953. Junko Tabei (Japan) was the first woman to reach the summit on 16th May, 1975. The first Indian woman to climb the highest peak on 23rd May, 1984 was Bachendri Pal."
+  },
+  {
+   "id": "c12",
+   "claim": "The Sahara Desert, the world's largest hot desert, is located in Africa.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "The Sahara Desert, the world’s largest hot desert, is located in Africa."
+  },
+  {
+   "id": "c13",
+   "claim": "The Nile, the world's longest river, flows through Africa.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "you will notice that the world’s longest river the Nile, flows through Africa."
+  },
+  {
+   "id": "c14",
+   "claim": "The earth is called the blue planet: more than 71 per cent of it is covered with water and 29 per cent is land.",
+   "source": "s1",
+   "page": "p. 33",
+   "quote": "The earth is called the blue planet. More than 71 per cent of the earth is covered with water and 29 per cent is with land."
+  },
+  {
+   "id": "c15",
+   "claim": "More than 97% of the Earth's water is found in the oceans and is too salty for human use.",
+   "source": "s1",
+   "page": "p. 33",
+   "quote": "More than 97% of the Earth’s water is found in the oceans and is too salty for human use."
+  },
+  {
+   "id": "c16",
+   "claim": "The four major oceans, in order of size, are the Pacific Ocean, the Atlantic Ocean, the Indian Ocean and the Arctic Ocean.",
+   "source": "s1",
+   "page": "p. 34",
+   "quote": "The four major oceans are the Pacific Ocean, the Atlantic Ocean, the Indian Ocean and the Arctic Ocean, in order of their size (Figure 5.1)."
+  },
+  {
+   "id": "c17",
+   "claim": "The Pacific Ocean is the largest ocean, spread over one-third of the earth; the Mariana Trench, the deepest part of the earth, lies in it.",
+   "source": "s1",
+   "page": "p. 34",
+   "quote": "The Pacific Ocean is the largest ocean. It is spread over one-third of the earth. Mariana Trench, the deepest part of the earth, lies in the Pacific Ocean."
+  },
+  {
+   "id": "c18",
+   "claim": "The Atlantic Ocean is the second largest ocean, 'S' shaped; its highly indented coastline provides ideal locations for natural harbours and ports, and commercially it is the busiest ocean.",
+   "source": "s1",
+   "page": "pp. 34-35",
+   "quote": "The Atlantic Ocean is the second largest Ocean in the world. It is ‘S’ shaped. The coastline of Atlantic Ocean is highly indented. This irregular and indented coastline provides ideal location for natural harbours and ports. From the point of view of commerce, it is the busiest Ocean."
+  },
+  {
+   "id": "c19",
+   "claim": "The Indian Ocean is the only ocean named after a country, India; it is almost triangular, bound by Asia in the north, Africa in the west and Australia in the east.",
+   "source": "s1",
+   "page": "p. 35",
+   "quote": "The Indian Ocean is the only ocean named after a country, that is, India. The shape of ocean is almost triangular. In the north, it is bound by Asia, in the west by Africa and in the east by Australia."
+  },
+  {
+   "id": "c20",
+   "claim": "The Arctic Ocean lies within the Arctic Circle and surrounds the North Pole; it is connected with the Pacific Ocean by the Bering strait.",
+   "source": "s1",
+   "page": "p. 35",
+   "quote": "The Arctic Ocean is located within the Arctic Circle and surrounds the North Pole. It is connected with the Pacific Ocean by a narrow stretch of shallow water known as Berring strait."
+  },
+  {
+   "id": "c21",
+   "claim": "NCERT's world map of major seas, lakes and rivers asks students to name the strait between India and Sri Lanka (the Palk Strait).",
+   "source": "s1",
+   "page": "Fig. 5.2, p. 32",
+   "quote": "Figure 5.2 : World – Major Seas, Lakes and Rivers. Name the Strait between India and Sri Lanka."
+  },
+  {
+   "id": "c22",
+   "claim": "Mountains are of three types: fold mountains, block mountains and volcanic mountains.",
+   "source": "s2",
+   "page": "p. 39",
+   "quote": "Mountains are of three types— Fold Mountains, Block Mountains and the Volcanic Mountains."
+  },
+  {
+   "id": "c23",
+   "claim": "The Himalayan Mountains and the Alps are young fold mountains with rugged relief and high conical peaks; the Aravali range in India is one of the oldest fold mountain systems in the world; the Appalachians in North America and the Ural mountains in Russia are very old fold mountains.",
+   "source": "s2",
+   "page": "p. 39",
+   "quote": "The Himalayan Mountains and the Alps are young fold mountains with rugged relief and high conical peaks. The Aravali range in India is one of the oldest fold mountain systems in the world. The Appalachians in North America and the Ural mountains in Russia have rounded features and low elevation. They are very old fold mountains."
+  },
+  {
+   "id": "c24",
+   "claim": "The Himalayas, the Alps and the Andes are mountain ranges of Asia, Europe and South America respectively.",
+   "source": "s2",
+   "page": "p. 38",
+   "quote": "The Himalayas, the Alps and the Andes are mountain ranges of Asia, Europe and South America, respectively."
+  },
+  {
+   "id": "c25",
+   "claim": "A mountain is any natural elevation of the earth's surface.",
+   "source": "s2",
+   "page": "p. 38",
+   "quote": "A mountain is any natural elevation of the earth’s surface."
+  },
+  {
+   "id": "c26",
+   "claim": "A plateau is an elevated flat land, a flat-topped table land standing above the surrounding area.",
+   "source": "s2",
+   "page": "p. 40",
+   "quote": "A plateau is an elevated flat land. It is a flat-topped table land standing above the surrounding area."
+  },
+  {
+   "id": "c27",
+   "claim": "The Tibet plateau is the highest plateau in the world, with a height of 4,000 to 6,000 metres above the mean sea level.",
+   "source": "s2",
+   "page": "p. 40",
+   "quote": "The Tibet plateau is the highest plateau in the world with a height of 4,000 to 6,000 metres above the mean sea level."
+  },
+  {
+   "id": "c28",
+   "claim": "The Deccan plateau in India is one of the oldest plateaus.",
+   "source": "s2",
+   "page": "p. 40",
+   "quote": "The Deccan plateau in India is one of the oldest plateaus."
+  },
+  {
+   "id": "c29",
+   "claim": "Plateaus are rich in mineral deposits.",
+   "source": "s2",
+   "page": "p. 40",
+   "quote": "Plateaus are rich in mineral deposits."
+  },
+  {
+   "id": "c30",
+   "claim": "Of the earth's water, oceans hold 97.3%, ice-caps 2.0% and groundwater 0.68%.",
+   "source": "s3",
+   "page": "p. 31",
+   "quote": "The following table gives the distribution of water in percentage. Oceans : 97.3. Ice-caps : 02.0. Ground water : 0.68."
+  },
+  {
+   "id": "c31",
+   "claim": "Salinity is the amount of salt in grams present in 1000 grams of water; the average salinity of the oceans is 35 parts per thousand.",
+   "source": "s3",
+   "page": "p. 31",
+   "quote": "Salinity is the amount of salt in grams present in 1000 grams of water. The average salinity of the oceans is 35 parts per thousand."
+  },
+  {
+   "id": "c32",
+   "claim": "The Dead Sea in Israel has a salinity of 340 grams per litre of water, and swimmers can float in it because the increased salt content makes the water dense.",
+   "source": "s3",
+   "page": "p. 31",
+   "quote": "Dead Sea in Israel has salinity of 340 grams per litre of water. Swimmers can float in it because the increased salt content makes it dense."
+  },
+  {
+   "id": "c33",
+   "claim": "The Caspian Sea is the largest lake.",
+   "source": "s3",
+   "page": "p. 33",
+   "quote": "Match the following. (i) Caspian Sea — (a) Largest lake."
+  },
+  {
+   "id": "c34",
+   "claim": "The Amazon Basin is the largest river basin in the world; it drains portions of Brazil, parts of Peru, Bolivia, Ecuador, Columbia and a small part of Venezuela.",
+   "source": "s4",
+   "page": "p. 56",
+   "quote": "The Amazon Basin is the largest river basin in the world. The river basin drains portions of Brazil, parts of Peru, Bolivia, Ecuador, Columbia and a small part of Venezuela."
+  },
+  {
+   "id": "c35",
+   "claim": "The Amazon basin lies very close to the equator, between 10°N and 10°S; the Amazon flows from the mountains in the west and reaches the Atlantic Ocean in the east.",
+   "source": "s4",
+   "page": "p. 56",
+   "quote": "The tropical region lies very close to the equator; between 10°N and 10°S. The river Amazon flows through this region. Notice how it flows from the mountains to the west and reaches the Atlantic Ocean to the east."
+  },
+  {
+   "id": "c36",
+   "claim": "The Sahara is the world's largest desert, with an area of around 8.54 million sq. km; it touches eleven countries: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia and Western Sahara.",
+   "source": "s5",
+   "page": "p. 60",
+   "quote": "Sahara is the world’s largest desert. It has an area of around 8.54 million sq. km. The Sahara desert touches eleven countries. These are Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia and Western Sahara."
+  },
+  {
+   "id": "c37",
+   "claim": "The Sahara's climate is scorching hot and parch dry; days may be as high as 50°C while nights may be freezing cold with temperatures nearing 0°C.",
+   "source": "s5",
+   "page": "p. 60",
+   "quote": "The climate of the Sahara desert is scorching hot and parch dry. It has a short rainy season. Days are unbelievably hot, it may be as high as 50°C while nights may be freezing cold with temperatures nearing 0°C."
+  },
+  {
+   "id": "c38",
+   "claim": "Al Azizia in the Sahara desert, south of Tripoli, Libya recorded the highest temperature of 57.7°C in 1922 (NCERT's figure).",
+   "source": "s5",
+   "page": "p. 60",
+   "quote": "Al Azizia in the Sahara desert, south of Tripoli, Libya recorded the highest temperature of 57.7°C in 1922."
+  },
+  {
+   "id": "c39",
+   "claim": "The Suez Canal was constructed in 1869 in Egypt between Port Said in the north and Port Suez in the south, linking the Mediterranean Sea and the Red Sea; it gives Europe a new gateway to the Indian Ocean and reduces the sea-route distance between Liverpool and Colombo compared to the Cape of Good Hope route.",
+   "source": "s6",
+   "page": "p. 78",
+   "quote": "This canal had been constructed in 1869 in Egypt between Port Said in the north and Port Suez in the south linking the Mediterranean Sea and the Red Sea. It gives Europe a new gateway to the Indian Ocean and reduces direct sea-route distance between Liverpool and Colombo compared to the Cape of Good Hope route."
+  },
+  {
+   "id": "c40",
+   "claim": "The Suez Canal is about 160 km long and 11 to 15 m deep, a sea-level canal without locks; about 100 ships travel daily and each ship takes 10-12 hours to cross it.",
+   "source": "s6",
+   "page": "p. 78",
+   "quote": "It is about 160 km long and 11 to 15 m deep. It is a sea-level canal without locks. About 100 ships travel daily and each ship takes 10-12 hours to cross this canal."
+  },
+  {
+   "id": "c41",
+   "claim": "The Panama Canal connects the Atlantic Ocean in the east to the Pacific Ocean in the west; it was constructed across the Panama Isthmus between Panama City and Colon, and shortens the distance between New York and San Francisco by 13,000 km by sea.",
+   "source": "s6",
+   "page": "p. 78",
+   "quote": "This canal connects the Atlantic Ocean in the east to the Pacific Ocean in the west. It has been constructed across the Panama Isthmus between Panama City and Colon by the U.S. government. It shortens the distance between New York and San Francisco by 13,000 km by sea."
+  },
+  {
+   "id": "c42",
+   "claim": "The Panama Canal is 72 km long, involves a deep cutting for 12 km, and has 6 locks.",
+   "source": "s6",
+   "page": "p. 78",
+   "quote": "It is 72 km long and involves a deep cutting for a length of 12 km and has 6 locks."
+  },
+  {
+   "id": "c43",
+   "claim": "The Rhine waterway flows through Germany and the Netherlands, is navigable for 700 km from Rotterdam to Basel, and is the world's most heavily used inland waterway.",
+   "source": "s6",
+   "page": "p. 79",
+   "quote": "The Rhine waterway flows through Germany and the Netherlands. It is navigable for 700 km from Rotterdam to Basel. It is the world’s most heavily used inland waterway."
+  },
+  {
+   "id": "c44",
+   "claim": "The Danube waterway serves Eastern Europe; it rises in the Black Forest and its chief exports are wheat, maize, timber and machinery.",
+   "source": "s6",
+   "page": "p. 79",
+   "quote": "The Danube waterway serves Eastern Europe. It rises in the Black Forest. Its chief exports are wheat, maize, timber and machinery."
+  },
+  {
+   "id": "c45",
+   "claim": "The Volga waterway is one of the most important waterways of Russia, navigable for 11,200 km, draining into the Caspian Sea.",
+   "source": "s6",
+   "page": "p. 79",
+   "quote": "The Volga waterway is one of the most important waterways of Russia. It is navigable for 11,200 km and drains into the Caspian Sea."
+  },
+  {
+   "id": "c46",
+   "claim": "The Great Lakes (Superior, Huron, Erie and Ontario) are connected by the Soo and Welland Canals; with the St. Lawrence River they form a commercial waterway in northern North America, and large ocean vessels reach Montreal.",
+   "source": "s6",
+   "page": "p. 79",
+   "quote": "The Great Lakes (Superior, Huron, Erie and Ontario) are connected by Soo and Welland Canals. With the St. Lawrence River, they form a unique commercial waterway in northern North America. Large ocean vessels reach Montreal."
+  },
+  {
+   "id": "c47",
+   "claim": "The Northern Atlantic Sea Route links North-eastern U.S.A. and North-western Europe and is the busiest sea route in the world, also called the Big Trunk Route.",
+   "source": "s6",
+   "page": "p. 77",
+   "quote": "The Northern Atlantic Sea Route links North-eastern U.S.A. and North-western Europe. It is the busiest sea route in the world, also called the Big Trunk Route."
+  },
+  {
+   "id": "c48",
+   "claim": "The Mediterranean-Indian Ocean Sea Route passes through the heart of the Old World; Port Said, Aden, Mumbai, Colombo and Singapore are some of the important ports on this route.",
+   "source": "s6",
+   "page": "p. 77",
+   "quote": "The Mediterranean-Indian Ocean Sea Route passes through the heart of the Old World. Port Said, Aden, Mumbai, Colombo and Singapore are some of the important ports on this route."
+  },
+  {
+   "id": "c49",
+   "claim": "The Mississippi-Ohio waterway connects the interior of the U.S.A. with the Gulf of Mexico; large steamers reach up to Minneapolis.",
+   "source": "s6",
+   "page": "p. 79",
+   "quote": "The Mississippi-Ohio waterway connects the interior of the U.S.A. with the Gulf of Mexico. Large steamers reach up to Minneapolis."
+  },
+  {
+   "id": "c50",
+   "claim": "Canberra is the capital of Australia; the Canberra Valley was handed over for the development of a capital for the Australian federation.",
+   "source": "s7",
+   "page": "p. 1",
+   "quote": "Australia’s capital got the land on which it was to develop. It was on January 1, 1911, he said, that New South Wales handed over to the Federal Government of Australia the Canberra Valley for the development of a capital for what had become a federation of six British colonies."
+  },
+  {
+   "id": "c51",
+   "claim": "The greater part of the land mass of the earth lies in the Northern Hemisphere.",
+   "source": "s1",
+   "page": "p. 31",
+   "quote": "Look at the map of the world (Figure 5.1) and notice that the greater part of the land mass lies in the Northern Hemisphere."
+  },
+  {
+   "id": "c52",
+   "claim": "The three chief movements of ocean waters are the waves, the tides and the ocean currents.",
+   "source": "s1",
+   "page": "p. 34",
+   "quote": "The three chief movements of ocean waters are the waves, the tides and the ocean currents."
+  },
+  {
+   "id": "c53",
+   "claim": "The major landforms of the earth are mountains, plateaus and plains.",
+   "source": "s2",
+   "page": "p. 38",
+   "quote": "The major landforms are mountains, plateaus and plains."
+  }
+ ],
+ "sections": [
+  {
+   "id": "continents",
+   "heading": "সাত মহাদেশ: এক নজরে",
+   "quick": "পৃথিবীতে সাতটি মহাদেশ: এশিয়া, ইউরোপ, আফ্রিকা, উত্তর আমেরিকা, দক্ষিণ আমেরিকা, অস্ট্রেলিয়া ও অ্যান্টার্কটিকা। এশিয়া বৃহত্তম, অস্ট্রেলিয়া ক্ষুদ্রতম। আফ্রিকাই একমাত্র মহাদেশ যার মধ্য দিয়ে কর্কটক্রান্তি, নিরক্ষরেখা ও মকরক্রান্তি — তিনটি রেখাই গেছে।",
+   "standard": "পৃথিবীর স্থলভাগের বড়ো বড়ো খণ্ডগুলিকে **মহাদেশ (Continent)** বলে। মোট সাতটি মহাদেশ আছে: **এশিয়া, ইউরোপ, আফ্রিকা, উত্তর আমেরিকা, দক্ষিণ আমেরিকা, অস্ট্রেলিয়া ও অ্যান্টার্কটিকা**। মহাদেশগুলি বিশাল জলভাগ দিয়ে পরস্পর থেকে বিচ্ছিন্ন। স্থলভাগের বেশির ভাগই উত্তর গোলার্ধে অবস্থিত — বিশ্ব মানচিত্রে চোখ বুলালেই তা ধরা পড়ে।\n\n**এশিয়া** বৃহত্তম মহাদেশ; পৃথিবীর মোট স্থলভাগের প্রায় এক-তৃতীয়াংশ জুড়ে আছে। কর্কটক্রান্তি রেখা এশিয়ার মধ্য দিয়ে গেছে। পশ্চিমে **ইউরাল পর্বতমালা** এশিয়াকে ইউরোপ থেকে আলাদা করেছে। ইউরোপ ও এশিয়ার মিলিত স্থলভাগকে **ইউরেশিয়া (Eurasia)** বলে। ইউরোপ এশিয়ার চেয়ে অনেক ছোটো; এর মধ্য দিয়ে সুমেরুবৃত্ত গেছে।\n\n**আফ্রিকা** দ্বিতীয় বৃহত্তম মহাদেশ। নিরক্ষরেখা (০° অক্ষাংশ) প্রায় এর মাঝখান দিয়ে গেছে, আর আফ্রিকাই একমাত্র মহাদেশ যার মধ্য দিয়ে কর্কটক্রান্তি রেখা, নিরক্ষরেখা ও মকরক্রান্তি রেখা — তিনটিই গেছে। আফ্রিকাতেই আছে বিশ্বের বৃহত্তম উষ্ণ মরুভূমি **সাহারা** এবং বিশ্বের দীর্ঘতম নদী **নীল নদ**।\n\n**উত্তর আমেরিকা** তৃতীয় বৃহত্তম মহাদেশ। এটি **পানামা যোজক** নামের সরু স্থলভাগ দিয়ে দক্ষিণ আমেরিকার সঙ্গে যুক্ত। মহাদেশটি সম্পূর্ণ উত্তর ও পশ্চিম গোলার্ধে অবস্থিত। **দক্ষিণ আমেরিকা** বেশির ভাগই দক্ষিণ গোলার্ধে; এর দৈর্ঘ্য বরাবর উত্তর থেকে দক্ষিণে বিস্তৃত **আন্দিজ** — বিশ্বের দীর্ঘতম পর্বতমালা। দক্ষিণ আমেরিকাতেই আছে বিশ্বের বৃহত্তম নদী **আমাজন**।\n\n**অস্ট্রেলিয়া** ক্ষুদ্রতম মহাদেশ; এটি সম্পূর্ণ দক্ষিণ গোলার্ধে অবস্থিত। চারদিকে মহাসাগর ও সাগর দিয়ে ঘেরা বলে একে **দ্বীপ-মহাদেশ** বলে। **অ্যান্টার্কটিকা** সম্পূর্ণ দক্ষিণ গোলার্ধের বিশাল মহাদেশ; দক্ষিণ মেরু প্রায় এর কেন্দ্রে অবস্থিত। দক্ষিণ মেরু অঞ্চলে বলে এটি স্থায়ীভাবে পুরু বরফের চাদরে ঢাকা; এখানে কোনো স্থায়ী মানব বসতি নেই, তবে অনেক দেশের গবেষণা কেন্দ্র আছে — ভারতের কেন্দ্র দুটির নাম **মৈত্রী ও দক্ষিণ গঙ্গোত্রী**।\n\n**ইউরোপ** আয়তনে ছোটো হলেও জনসংখ্যা ও দেশের সংখ্যায় অনেক এগিয়ে। এর মধ্য দিয়ে সুমেরুবৃত্ত গেছে, আর এর উপকূল খুবই খাঁজকাটা — তাই ইউরোপে অনেক প্রাকৃতিক বন্দর গড়ে উঠেছে। ইউরোপের পশ্চিম উপকূল আটলান্টিক মহাসাগরের ধারে, আর পূর্বে ইউরাল পর্বতমালা একে এশিয়া থেকে আলাদা করেছে।\n\nপরীক্ষার প্রশ্নে মহাদেশের আকারের ক্রমটি বারবার আসে, তাই আরেকবার দেখে নাও: এশিয়া সবচেয়ে বড়ো, তারপর আফ্রিকা, উত্তর আমেরিকা, দক্ষিণ আমেরিকা, অ্যান্টার্কটিকা, ইউরোপ, আর সবচেয়ে ছোটো অস্ট্রেলিয়া। মনে রাখবে, অ্যান্টার্কটিকা আয়তনে ইউরোপের চেয়ে বড়ো — মানচিত্রে ইউরোপকে বড়ো মনে হলেও আসলে তা নয়। আরেকটি বিষয়: স্থলভাগের বেশির ভাগ উত্তর গোলার্ধে থাকায় বিশ্বের বেশির ভাগ মানুষ ও দেশও উত্তর গোলার্ধেই আছে; দক্ষিণ গোলার্ধে স্থল কম, জল বেশি। তাই দক্ষিণ গোলার্ধের মহাদেশগুলির (অস্ট্রেলিয়া, অ্যান্টার্কটিকা) কথা আলাদা করে মনে রাখতে হয়।",
+   "deep": "পরীক্ষার জন্য মহাদেশগুলির আয়তনের ক্রম মুখস্থ রাখো: **এশিয়া > আফ্রিকা > উত্তর আমেরিকা > দক্ষিণ আমেরিকা > অ্যান্টার্কটিকা > ইউরোপ > অস্ট্রেলিয়া**। এই ক্রমটি NCERT-এর মানচিত্র (চিত্র ৫.৩, মহাদেশগুলির তুলনামূলক আকার) থেকে বোঝা যায়। মনে রাখবে — আয়তনে ইউরোপ অ্যান্টার্কটিকার চেয়েও ছোটো, যদিও জনসংখ্যা ও দেশের সংখ্যায় ইউরোপ অনেক এগিয়ে। আরেকটি প্রিয় প্রশ্ন: কোন মহাদেশের মধ্য দিয়ে তিনটি প্রধান রেখাই গেছে? উত্তর — আফ্রিকা। কর্কটক্রান্তি রেখা উত্তর আফ্রিকা (সাহারার মধ্য দিয়ে), নিরক্ষরেখা মধ্য আফ্রিকা (কঙ্গো অববাহিকা) ও মকরক্রান্তি রেখা দক্ষিণ আফ্রিকার মধ্য দিয়ে গেছে।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "পরীক্ষায় যেভাবে আসে",
+     "body": "মহাদেশ নিয়ে WBCS/ক্লার্কশিপে সরাসরি প্রশ্ন আসে: বৃহত্তম/ক্ষুদ্রতম মহাদেশ, কোন মহাদেশের মধ্য দিয়ে তিনটি রেখাই গেছে, পানামা যোজক, ইউরাল পর্বত। আয়তনের ক্রমটি এই অধ্যায়ের সবচেয়ে গুরুত্বপূর্ণ মুখস্থের বিষয়।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "ইউরেশিয়া বনাম ইউরোপ-এশিয়া",
+     "body": "ইউরোপ ও এশিয়া আলাদা দুটি মহাদেশ হলেও এদের মিলিত স্থলভাগকে ইউরেশিয়া বলে — ইউরেশিয়া নিজে কোনো মহাদেশ নয়। ইউরাল পর্বতমালা দুই মহাদেশের সীমানা।"
+    }
+   ],
+   "claims": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c12",
+    "c13",
+    "c51",
+    "c53"
+   ]
+  },
+  {
+   "id": "oceans",
+   "heading": "মহাসাগর ও জলভাগ",
+   "quick": "পৃথিবীকে নীল গ্রহ বলে — ৭১ শতাংশের বেশি জল, ২৯ শতাংশ স্থল। চারটি প্রধান মহাসাগর: প্রশান্ত (বৃহত্তম), আটলান্টিক (দ্বিতীয়), ভারত ও সুমেরু। মহাসাগরের জলে পৃথিবীর মোট জলের ৯৭ শতাংশের বেশি আছে, কিন্তু তা লবণাক্ত বলে পানের অযোগ্য।",
+   "standard": "পৃথিবীকে **নীল গ্রহ** বলে, কারণ এর ৭১ শতাংশের বেশি জলে ঢাকা, স্থল মাত্র ২৯ শতাংশ। কিন্তু এই জলের বেশির ভাগই আমাদের কাজে লাগে না: পৃথিবীর মোট জলের **৯৭ শতাংশের বেশি মহাসাগরে** আছে, আর তা এত লবণাক্ত যে মানুষের ব্যবহারের অযোগ্য। বাকি জলের বড়ো অংশ বরফের চাদর ও হিমবাহে আটকে আছে বা মাটির নীচে আছে; পানের উপযোগী মিষ্টি জল খুবই সামান্য।\n\nআকারের ক্রমে চারটি প্রধান মহাসাগর: **প্রশান্ত মহাসাগর, আটলান্টিক মহাসাগর, ভারত মহাসাগর ও সুমেরু মহাসাগর**। সব মহাসাগর পরস্পরের সঙ্গে যুক্ত।\n\n**প্রশান্ত মহাসাগর** বৃহত্তম; এটি পৃথিবীর এক-তৃতীয়াংশ জুড়ে বিস্তৃত। পৃথিবীর গভীরতম স্থান **মারিয়ানা খাত** (১১,০২২ মিটার) এই মহাসাগরেই। প্রশান্ত মহাসাগর প্রায় গোলাকার; এর চারদিকে এশিয়া, অস্ট্রেলিয়া, উত্তর ও দক্ষিণ আমেরিকা।\n\n**আটলান্টিক মহাসাগর** দ্বিতীয় বৃহত্তম। এটি ইংরেজি 'S' অক্ষরের আকারের। পশ্চিমে উত্তর ও দক্ষিণ আমেরিকা, পূর্বে ইউরোপ ও আফ্রিকা। এর উপকূল খুবই খাঁজকাটা — এই অনিয়মিত উপকূলই প্রাকৃতিক পোতাশ্রয় ও বন্দরের জন্য আদর্শ স্থান দেয়। বাণিজ্যের দিক থেকে এটিই **ব্যস্ততম মহাসাগর**।\n\n**ভারত মহাসাগর** একমাত্র মহাসাগর যার নাম একটি দেশের নামে — ভারত। এর আকার প্রায় ত্রিভুজের মতো। উত্তরে এশিয়া, পশ্চিমে আফ্রিকা ও পূর্বে অস্ট্রেলিয়া দিয়ে ঘেরা। **সুমেরু মহাসাগর** সুমেরুবৃত্তের ভিতরে, উত্তর মেরুকে ঘিরে আছে। এটি অগভীর সরু জলভাগ **বেরিং প্রণালী** দিয়ে প্রশান্ত মহাসাগরের সঙ্গে যুক্ত; উত্তর আমেরিকা ও ইউরেশিয়ার উত্তর উপকূল একে ঘিরে রেখেছে।\n\nমহাসাগরের জল সব সময় চলমান। সমুদ্রজলের তিনটি প্রধান চলন: **ঢেউ, জোয়ার-ভাটা ও সমুদ্রস্রোত**। ঢেউ বাতাসের ধাক্কায় তৈরি হয়, জোয়ার-ভাটা চাঁদ ও সূর্যের আকর্ষণে হয়, আর সমুদ্রস্রোত হল জলের নিয়মিত প্রবাহ — গরম ও ঠান্ডা স্রোত উপকূলের জলবায়ু বদলে দেয়।\n\nআরেকটি গুরুত্বপূর্ণ কথা: মহাসাগরের জল লবণাক্ত। জলে দ্রবীভূত লবণ — মূলত সোডিয়াম ক্লোরাইড — থেকেই এই লবণতা আসে। সমুদ্রের জলের গড় লবণতা প্রতি হাজারে ৩৫ ভাগ; মৃত সাগরের মতো কিছু জলাশয়ে তা অনেক বেশি (বিস্তারিত পঞ্চম অংশে)। মনে রাখবে, মহাসাগরের জলের এই লবণতাই কারণ যে 'নীল গ্রহে' জল অফুরন্ত মনে হলেও পানের জল খুবই সামান্য — ব্যবহারের উপযোগী মিষ্টি জলের বেশির ভাগই বরফের টুপিতে আটকে আছে বা মাটির নীচে আছে।\n\nভারত মহাসাগরের কথা আলাদা করে মনে রাখো: উত্তরে এশিয়া, পশ্চিমে আফ্রিকা ও পূর্বে অস্ট্রেলিয়া দিয়ে ঘেরা এই মহাসাগর ভারতের বাণিজ্যের প্রাণরেখা। সুয়েজ খাল খোলার পর ভূমধ্যসাগর–ভারত মহাসাগর সমুদ্রপথে পোর্ট সৈয়দ, এডেন, মুম্বই, কলম্বো ও সিঙ্গাপুরের মতো বন্দরগুলি আরও গুরুত্বপূর্ণ হয়ে উঠেছে — এই পথের বিস্তারিত ষষ্ঠ অংশে আছে।",
+   "deep": "পৃথিবীর জলের বণ্টন (NCERT-এর সারণি): মহাসাগর **৯৭.৩%**, বরফের টুপি **২.০%**, ভূগর্ভস্থ জল **০.৬৮%**, মিষ্টি জলের হ্রদ **০.০০৯%**, নদী **০.০০০১%**। অর্থাৎ 'নীল গ্রহ' হয়েও পানের জল প্রায় নেই বললেই চলে — পরীক্ষায় '৯৭.৩%' সংখ্যাটি বারবার আসে। আরেকটি মুখস্থের বিষয়: আটলান্টিকের খাঁজকাটা উপকূল কেন গুরুত্বপূর্ণ — কারণ সেখানেই প্রাকৃতিক পোতাশ্রয় গড়ে ওঠে, আর তাই আটলান্টিক বাণিজ্যে ব্যস্ততম।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "চারটি না পাঁচটি মহাসাগর?",
+     "body": "NCERT-এ চারটি প্রধান মহাসাগরের কথা আছে: প্রশান্ত, আটলান্টিক, ভারত ও সুমেরু। আধুনিক অনেক বই অ্যান্টার্কটিকার চারদিকের দক্ষিণ মহাসাগরকে পঞ্চম ধরে। WBCS/WBPSC-র প্রশ্নে NCERT-এর চারটিই উত্তর — 'প্রধান মহাসাগর কয়টি' জিজ্ঞাসা করলে ৪ লিখবে।"
+    },
+    {
+     "kind": "remember",
+     "title": "মনে রাখার ছক",
+     "body": "বৃহত্তম মহাসাগর — প্রশান্ত; দ্বিতীয় — আটলান্টিক; দেশের নামে — ভারত; উত্তর মেরু ঘিরে — সুমেরু। গভীরতম স্থান — মারিয়ানা খাত (প্রশান্ত মহাসাগরে, ১১,০২২ মিটার)।"
+    }
+   ],
+   "claims": [
+    "c14",
+    "c15",
+    "c16",
+    "c17",
+    "c18",
+    "c19",
+    "c20",
+    "c30",
+    "c52"
+   ]
+  },
+  {
+   "id": "mountains_peaks",
+   "heading": "পর্বত, মালভূমি ও শৃঙ্গ",
+   "quick": "পৃথিবীর উচ্চতম শৃঙ্গ মাউন্ট এভারেস্ট (৮,৮৪৮ মিটার)। হিমালয় ও আল্পস নবীন ভাঁজ পর্বত; আরাবল্লী, অ্যাপালেচিয়ান ও ইউরাল প্রাচীন ভাঁজ পর্বত। আন্দিজ বিশ্বের দীর্ঘতম পর্বতমালা। তিব্বত বিশ্বের উচ্চতম মালভূমি।",
+   "standard": "ভূমির উচ্চতা ও ঢালের ভিত্তিতে ভূমিরূপকে তিন ভাগে ভাগ করা যায়: **পর্বত, মালভূমি ও সমভূমি**। **পর্বত** হল ভূপৃষ্ঠের যেকোনো প্রাকৃতিক উঁচু অংশ। পর্বতগুলি সারিবদ্ধভাবে থাকলে তাকে **পর্বতমালা (Range)** বলে — হিমালয়, আল্পস ও আন্দিজ যথাক্রমে এশিয়া, ইউরোপ ও দক্ষিণ আমেরিকার পর্বতমালা।\n\nপর্বত তিন ধরনের: **ভাঁজ পর্বত, স্তূপ পর্বত (Block Mountain) ও আগ্নেয় পর্বত**। ভাঁজ পর্বতের মধ্যে **হিমালয় ও আল্পস নবীন ভাঁজ পর্বত** — এদের ভূপ্রকৃতি এবড়ো-খেবড়ো, শৃঙ্গ উঁচু ও সূচালো। অন্যদিকে **আরাবল্লী** ভারতের অন্যতম প্রাচীন ভাঁজ পর্বতশ্রেণি; ক্ষয়ে ক্ষয়ে এর উচ্চতা কমে গেছে। উত্তর আমেরিকার **অ্যাপালেচিয়ান** ও রাশিয়ার **ইউরাল** পর্বতের বৈশিষ্ট্য গোলাকার ও নিচু — এরা খুবই প্রাচীন ভাঁজ পর্বত।\n\nপৃথিবীর উচ্চতম শৃঙ্গ **মাউন্ট এভারেস্ট**, সমুদ্রপৃষ্ঠ থেকে ৮,৮৪৮ মিটার উঁচু। ১৯৫৩ সালের ২৯ মে নিউজিল্যান্ডের **এডমন্ড হিলারি** ও ভারতের **তেনজিং নোরগে শেরপা** প্রথম এভারেস্টের চূড়ায় ওঠেন। প্রথম মহিলা হিসেবে ১৯৭৫ সালের ১৬ মে চূড়ায় ওঠেন জাপানের **জুনকো তাবেই**, আর প্রথম ভারতীয় মহিলা হিসেবে ১৯৮৪ সালের ২৩ মে চূড়ায় ওঠেন **বাচেন্দ্রী পাল** — ক্লার্কশিপ পরীক্ষায় এই নামটি এসেছে।\n\nএভারেস্টের তিনটি তারিখ একসঙ্গে মুখস্থ করো: **১৯৫৩ সালের ২৯ মে** — হিলারি ও তেনজিং (প্রথম অভিযান); **১৯৭৫ সালের ১৬ মে** — জুনকো তাবেই (প্রথম মহিলা); **১৯৮৪ সালের ২৩ মে** — বাচেন্দ্রী পাল (প্রথম ভারতীয় মহিলা)। পরীক্ষায় সাধারণত 'প্রথম ভারতীয় মহিলা কে' জিজ্ঞাসা করা হয়, আর ভুল বিকল্প হিসেবে সন্তোষ যাদবের নাম দেওয়া হয় — সন্তোষ যাদব দুবার এভারেস্টে উঠেছেন, কিন্তু প্রথম নন।\n\n**মালভূমি** হল উঁচু সমতল ভূমি — চারদিকের তুলনায় উঁচু, উপরটা চ্যাপ্টা, যেন টেবিলের মতো। মালভূমি নবীন বা প্রাচীন হতে পারে। ভারতের **দাক্ষিণাত্য মালভূমি** অন্যতম প্রাচীন মালভূমি। **তিব্বত মালভূমি** বিশ্বের উচ্চতম মালভূমি — গড় উচ্চতা সমুদ্রপৃষ্ঠ থেকে ৪,০০০ থেকে ৬,০০০ মিটার। মালভূমি খনিজ সম্পদে সমৃদ্ধ হয়।\n\nপর্বত ও মালভূমির পাশাপাশি তৃতীয় ভূমিরূপ **সমভূমি** — নিচু, সমতল ভূমি, যেখানে নদীর পলি জমে উর্বর মাটি তৈরি হয়। পৃথিবীর বেশির ভাগ মানুষ সমভূমিতেই বাস করে, কারণ সেখানে চাষাবাদ সহজ ও পরিবহন সুবিধাজনক। পর্বতের গুরুত্বও কম নয়: পর্বত থেকে বড়ো নদীগুলির উৎপত্তি, পর্বত বাতাসের পথে বাধা হয়ে বৃষ্টিপাত ঘটায়, আর পর্বতের বরফ গলে নদীতে জল জোগায়। তাই 'পর্বত, মালভূমি ও সমভূমি' — এই তিন ভূমিরূপের তালিকাটি মুখস্থ রাখো; পরীক্ষায় 'প্রধান ভূমিরূপ কয়টি ও কী কী' জিজ্ঞাসা করলে এই তিনটির নামই লিখতে হবে।",
+   "deep": "নবীন বনাম প্রাচীন ভাঁজ পর্বত — পরীক্ষার প্রিয় তুলনা। **নবীন:** হিমালয়, আল্পস (আর আন্দিজ ও রকিও নবীন ভাঁজ পর্বত হিসেবে ধরা হয়) — বৈশিষ্ট্য: এবড়ো-খেবড়ো ভূপ্রকৃতি, উঁচু সূচালো শৃঙ্গ। **প্রাচীন:** আরাবল্লী, অ্যাপালেচিয়ান, ইউরাল — বৈশিষ্ট্য: গোলাকার আকৃতি, কম উচ্চতা, ক্ষয়ে যাওয়া। মনে রাখার কৌশল: যা উঁচু ও ধারালো, তা নবীন; যা গোল ও নিচু, তা প্রাচীন। আর আন্দিজের বিশেষ পরিচয় — এটি শুধু দক্ষিণ আমেরিকার নয়, **বিশ্বের দীর্ঘতম পর্বতমালা**, উত্তর থেকে দক্ষিণে মহাদেশের দৈর্ঘ্য বরাবর বিস্তৃত।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "PYQ: বাচেন্দ্রী পাল",
+     "body": "ক্লার্কশিপ ২০০৪-এ প্রশ্ন এসেছিল — এভারেস্ট জয়ী প্রথম ভারতীয় মহিলা কে? উত্তর: বাচেন্দ্রী পাল (১৯৮৪ সালের ২৩ মে)। সন্তোষ যাদব দুবার এভারেস্টে উঠেছেন (১৯৯২, ১৯৯৩), কিন্তু প্রথম নন — এই ভুল জোড়টি পরীক্ষায় বারবার আসে।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "উচ্চতম শৃঙ্গ বনাম দীর্ঘতম পর্বতমালা",
+     "body": "উচ্চতম শৃঙ্গ — এভারেস্ট (হিমালয়); দীর্ঘতম পর্বতমালা — আন্দিজ। হিমালয় দীর্ঘতম নয়, আন্দিজ উচ্চতম নয়। দুটি প্রশ্ন গুলিয়ে ফেললে নম্বর যাবে।"
+    }
+   ],
+   "claims": [
+    "c06",
+    "c10",
+    "c11",
+    "c22",
+    "c23",
+    "c24",
+    "c25",
+    "c26",
+    "c27",
+    "c28",
+    "c29",
+    "c53"
+   ]
+  },
+  {
+   "id": "rivers",
+   "heading": "বিশ্বের বড়ো নদী",
+   "quick": "বিশ্বের দীর্ঘতম নদী নীল নদ (আফ্রিকা), বৃহত্তম নদী আমাজন (দক্ষিণ আমেরিকা)। আমাজন অববাহিকা বিশ্বের বৃহত্তম নদী-অববাহিকা। রাইন বিশ্বের সবচেয়ে বেশি ব্যবহৃত অন্তর্দেশীয় জলপথ; ভোলগা ১১,২০০ কিমি নাব্য হয়ে কাস্পিয়ান সাগরে পড়েছে।",
+   "standard": "নদী নিয়ে পরীক্ষায় দুটি 'বিশ্বের' প্রশ্ন সবচেয়ে বেশি আসে — দীর্ঘতম ও বৃহত্তম। **দীর্ঘতম নদী নীল নদ**, আফ্রিকার মধ্য দিয়ে প্রবাহিত। **বৃহত্তম নদী আমাজন**, দক্ষিণ আমেরিকার — আয়তনে ও জলের পরিমাণে এর ধারেকাছে কোনো নদী নেই।\n\nআমাজন শুধু নদী হিসেবেই বড়ো নয়, এর **অববাহিকাও বিশ্বের বৃহত্তম**। নিরক্ষরেখার খুব কাছে, ১০° উত্তর থেকে ১০° দক্ষিণ অক্ষাংশের মধ্যে এই অববাহিকা। আমাজন পশ্চিমের পর্বত থেকে উৎপন্ন হয়ে পূর্বে **আটলান্টিক মহাসাগরে** পড়েছে। এর অববাহিকা ব্রাজিলের বড়ো অংশ এবং পেরু, বলিভিয়া, ইকুয়েডর, কলম্বিয়া ও ভেনেজুয়েলার ছোটো অংশ নিয়ে গঠিত।\n\nইউরোপ ও উত্তর আমেরিকার নদীগুলি জলপথ হিসেবে বিখ্যাত। **রাইন জলপথ** জার্মানি ও নেদারল্যান্ডসের মধ্য দিয়ে প্রবাহিত; রটারডাম থেকে বাসেল পর্যন্ত ৭০০ কিমি নাব্য। এটিই **বিশ্বের সবচেয়ে বেশি ব্যবহৃত অন্তর্দেশীয় জলপথ**। **দানিউব জলপথ** পূর্ব ইউরোপের সেবা করে; এটি জার্মানির ব্ল্যাক ফরেস্ট থেকে উৎপন্ন হয়ে কৃষ্ণ সাগরে পড়েছে, আর এর মাধ্যমে গম, ভুট্টা, কাঠ ও যন্ত্রপাতি রপ্তানি হয়। **ভোলগা জলপথ** রাশিয়ার অন্যতম গুরুত্বপূর্ণ জলপথ — ১১,২০০ কিমি নাব্য হয়ে এটি **কাস্পিয়ান সাগরে** পড়েছে।\n\nদানিউবের রপ্তানির তালিকাটি মনে রাখো — **গম, ভুট্টা, কাঠ ও যন্ত্রপাতি**। পরীক্ষায় 'দানিউব দিয়ে কী রপ্তানি হয়' জিজ্ঞাসা করলে এই চারটির নামই আসে। আর রাইনের ক্ষেত্রে মনে রাখো দুটি কথা: এটি জার্মানি ও নেদারল্যান্ডসের মধ্য দিয়ে প্রবাহিত, এবং রটারডাম–বাসেল অংশটি (৭০০ কিমি) নাব্য। রটারডাম ইউরোপের বৃহত্তম বন্দরগুলির একটি — রাইন জলপথের কারণেই এর গুরুত্ব।\n\nউত্তর আমেরিকায় **গ্রেট লেকস–সেন্ট লরেন্স জলপথ**: সুপিরিয়র, হুরন, ইরি ও অন্টারিও — এই চারটি বড়ো হ্রদ **সু ও ওয়েল্যান্ড খাল** দিয়ে যুক্ত, আর সেন্ট লরেন্স নদীর সঙ্গে মিলে উত্তর আমেরিকার উত্তরে এক অনন্য বাণিজ্যিক জলপথ তৈরি করেছে — বড়ো সমুদ্রগামী জাহাজ মন্ট্রিল পর্যন্ত পৌঁছোয়। **মিসিসিপি-ওহাইও জলপথ** মার্কিন যুক্তরাষ্ট্রের অভ্যন্তরকে মেক্সিকো উপসাগরের সঙ্গে যুক্ত করেছে; বড়ো স্টিমার মিনিয়াপলিস পর্যন্ত যায়।\n\nনদী নিয়ে মনে রাখার আরেকটি বিষয়: নদীর গুরুত্ব শুধু জলপথেই নয় — নদী-অববাহিকাতেই সভ্যতা গড়ে উঠেছে। আমাজন অববাহিকা তারই সবচেয়ে বড়ো উদাহরণ: নিরক্ষরেখার কাছাকাছি, ১০° উত্তর থেকে ১০° দক্ষিণ অক্ষাংশের মধ্যে ছড়িয়ে থাকা এই অববাহিকায় পৃথিবীর সবচেয়ে বড়ো বৃষ্টি-অরণ্য আছে। আর নীল নদ আফ্রিকার মরু অঞ্চলের মধ্য দিয়ে বয়ে গিয়ে মিশরের কৃষি ও সভ্যতাকে বাঁচিয়ে রেখেছে — তাই 'দীর্ঘতম নদী' শুধু একটি সংখ্যা নয়, একটি সভ্যতার প্রাণরেখা। পরীক্ষায় নদীর প্রশ্ন সাধারণত তিনভাবে আসে: দীর্ঘতম/বৃহত্তম কোনটি, কোন নদী কোথায় পড়েছে, আর জলপথ হিসেবে কোনটি কতটা ব্যবহৃত হয়।",
+   "deep": "নদীর ছকটি মুখস্থ করো:\n\n| নদী/জলপথ | পরিচয় |\n|---|---|\n| নীল নদ | বিশ্বের দীর্ঘতম নদী (আফ্রিকা) |\n| আমাজন | বিশ্বের বৃহত্তম নদী ও বৃহত্তম অববাহিকা |\n| রাইন | সবচেয়ে বেশি ব্যবহৃত জলপথ, ৭০০ কিমি (রটারডাম–বাসেল) |\n| দানিউব | পূর্ব ইউরোপের জলপথ, ব্ল্যাক ফরেস্ট থেকে কৃষ্ণ সাগর |\n| ভোলগা | রাশিয়ার প্রধান জলপথ, ১১,২০০ কিমি, কাস্পিয়ান সাগরে পতন |\n| মিসিসিপি-ওহাইও | মার্কিন অভ্যন্তর থেকে মেক্সিকো উপসাগর |\n\n'দীর্ঘতম' (নীল) বনাম 'বৃহত্তম' (আমাজন) — এই জোড়া প্রশ্ন WBCS-এ বহুবার এসেছে।",
+   "boxes": [
+    {
+     "kind": "dont_confuse",
+     "title": "দীর্ঘতম বনাম বৃহত্তম নদী",
+     "body": "দীর্ঘতম নদী — নীল নদ (দৈর্ঘ্যে প্রথম)। বৃহত্তম নদী — আমাজন (জলের পরিমাণে ও অববাহিকায় প্রথম)। 'বৃহত্তম নদী' বললে আমাজন, 'দীর্ঘতম নদী' বললে নীল — দুটো এক নয়।"
+    },
+    {
+     "kind": "exam_note",
+     "title": "ভোলগার সংখ্যাটি",
+     "body": "ভোলগা জলপথ ১১,২০০ কিমি নাব্য — এই সংখ্যাটি রাইনের ৭০০ কিমির সঙ্গে গুলিয়ে ফেলো না। পরীক্ষায় 'কোন জলপথটি ১১,২০০ কিমি নাব্য' জিজ্ঞাসা করলে উত্তর ভোলগা।"
+    }
+   ],
+   "claims": [
+    "c07",
+    "c13",
+    "c34",
+    "c35",
+    "c43",
+    "c44",
+    "c45",
+    "c46",
+    "c49"
+   ]
+  },
+  {
+   "id": "lakes_deserts",
+   "heading": "হ্রদ, লবণাক্ত জল ও মরুভূমি",
+   "quick": "বিশ্বের বৃহত্তম হ্রদ কাস্পিয়ান সাগর। মৃত সাগরের লবণতা প্রতি লিটারে ৩৪০ গ্রাম — তাই সাঁতারুরা ভাসে। সাহারা বিশ্বের বৃহত্তম মরুভূমি (৮.৫৪ মিলিয়ন বর্গ কিমি, ১১টি দেশ ছুঁয়ে আছে)। সমুদ্রের জলের গড় লবণতা প্রতি হাজারে ৩৫ ভাগ।",
+   "standard": "হ্রদ নিয়ে প্রথম মুখস্থের বিষয়: **কাস্পিয়ান সাগর বিশ্বের বৃহত্তম হ্রদ**। নামে 'সাগর' হলেও এটি আসলে একটি আবদ্ধ জলাশয় — চারদিক স্থল দিয়ে ঘেরা, তাই হ্রদ হিসেবেই ধরা হয়।\n\nসমুদ্রের জল লবণাক্ত কেন? জলে দ্রবীভূত লবণ থাকে — মূলত সোডিয়াম ক্লোরাইড বা খাবার লবণ। **লবণতা** হল ১,০০০ গ্রাম জলে কত গ্রাম লবণ আছে তার পরিমাণ। সমুদ্রের জলের গড় লবণতা **প্রতি হাজারে ৩৫ ভাগ**। কিন্তু কিছু জলাশয়ে লবণতা অনেক বেশি। ইজরায়েলের **মৃত সাগরে** লবণতা প্রতি লিটারে **৩৪০ গ্রাম** — জল এত ঘন যে সাঁতারুরা ডোবে না, ভেসে থাকে। তাই এর নাম 'মৃত' সাগর — এত লবণাক্ত জলে প্রায় কোনো প্রাণ বাঁচে না।\n\nমরুভূমি মানে শুধু বালি নয় — মরুভূমি হল এমন শুষ্ক অঞ্চল যেখানে বৃষ্টি প্রায় হয় না। **সাহারা বিশ্বের বৃহত্তম মরুভূমি** (আরও নির্দিষ্ট করে বললে বৃহত্তম উষ্ণ মরুভূমি)। এর আয়তন প্রায় **৮.৫৪ মিলিয়ন বর্গ কিমি** — ভারতের মোট আয়তনের আড়াই গুণেরও বেশি। সাহারা উত্তর আফ্রিকার বড়ো অংশ জুড়ে আছে এবং **১১টি দেশ** ছুঁয়েছে: আলজেরিয়া, চাদ, মিশর, লিবিয়া, মালি, মরিতানিয়া, মরক্কো, নাইজার, সুদান, তিউনিসিয়া ও পশ্চিম সাহারা।\n\nসাহারার জলবায়ু প্রচণ্ড গরম ও শুষ্ক। দিনে তাপমাত্রা ৫০° সেলসিয়াস পর্যন্ত উঠতে পারে, আর রাতে হিমাঙ্কের কাছাকাছি নেমে যায়। NCERT-এ বলা হয়েছে, লিবিয়ার ত্রিপোলির দক্ষিণে সাহারার **আল আজিজিয়া** ১৯২২ সালে **৫৭.৭° সেলসিয়াস** তাপমাত্রা রেকর্ড করেছিল — বইয়ের হিসেবে সেটিই সর্বোচ্চ তাপমাত্রা।\n\nএই অংশের সংখ্যাগুলি একসঙ্গে মুখস্থ করো: মহাসাগরে জলের ৯৭.৩%, বরফের টুপিতে ২.০%, ভূগর্ভস্থ জলে ০.৬৮% — অর্থাৎ ব্যবহারের জল প্রায় নেই বললেই চলে। আর লবণতার দুটি সংখ্যা: সমুদ্রের গড় ৩৫‰, মৃত সাগরে ৩৪০ গ্রাম/লিটার। সাহারার দুটি সংখ্যা: আয়তন ৮.৫৪ মিলিয়ন বর্গ কিমি, দেশ ১১টি। পরীক্ষায় এই সংখ্যাগুলি বিকল্প হিসেবে পাশাপাশি সাজিয়ে দেওয়া হয় — যেমন 'সাহারা কত দেশ ছুঁয়েছে' প্রশ্নে ৭, ৯, ১১, ১৩ — তাই ঠিক সংখ্যাটি মনে রাখা জরুরি। আর মনে রাখবে, মরুভূমি মানেই শুধু বালিয়াড়ি নয়: সাহারায় পাথুরে মরু, লবণাক্ত সমতল ও মরূদ্যানও আছে, আর দিনে-রাতে তাপমাত্রার বিশাল ফারাকই এর জলবায়ুর সবচেয়ে বড়ো বৈশিষ্ট্য।",
+   "deep": "সাহারার ১১টি দেশের নাম মনে রাখার কৌশল: উত্তর থেকে দক্ষিণে মানচিত্রে সাজাও — ভূমধ্যসাগরের ধারে **মরক্কো, আলজেরিয়া, তিউনিসিয়া, লিবিয়া, মিশর** (৫টি); তার দক্ষিণে **মরিতানিয়া, মালি, নাইজার, চাদ, সুদান** (৫টি); আর পশ্চিমে **পশ্চিম সাহারা** (১টি)। মোট ৫ + ৫ + ১ = ১১। আর লবণাক্ত জলের ছক: সমুদ্রের গড় লবণতা ৩৫‰, মৃত সাগর ৩৪০ গ্রাম/লিটার। '৩৫' ও '৩৪০' — দুটি সংখ্যাই মুখস্থ রাখো, দুটিই প্রশ্নে আসে।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "আল আজিজিয়ার ৫৭.৭° — NCERT-এর সংখ্যাই লিখবে",
+     "body": "NCERT-এ আল আজিজিয়ার ৫৭.৭° সেলসিয়াস (১৯২২) সর্বোচ্চ তাপমাত্রা হিসেবে আছে; পরীক্ষায় এই সংখ্যাটিই উত্তর। মনে রাখবে, এই রেকর্ড নিয়ে পরে প্রশ্ন উঠেছে — তাই 'বর্তমানে বিশ্বের সর্বোচ্চ তাপমাত্রা' হিসেবে নয়, 'NCERT-এ যা আছে' হিসেবে শিখবে।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "কাস্পিয়ান: সাগর না হ্রদ?",
+     "body": "নামে 'সাগর' হলেও কাস্পিয়ান বিশ্বের বৃহত্তম হ্রদ — কারণ এটি স্থলবেষ্টিত, কোনো মহাসাগরের সঙ্গে যুক্ত নয়। পরীক্ষায় 'বিশ্বের বৃহত্তম হ্রদ' জিজ্ঞাসা করলে উত্তর কাস্পিয়ান সাগর, বৈকাল হ্রদ নয় (বৈকাল গভীরতম)।"
+    }
+   ],
+   "claims": [
+    "c12",
+    "c30",
+    "c31",
+    "c32",
+    "c33",
+    "c36",
+    "c37",
+    "c38"
+   ]
+  },
+  {
+   "id": "straits_canals",
+   "heading": "প্রণালী, যোজক ও খাল",
+   "quick": "প্রণালী হল দুটি জলভাগের সংযোগকারী সরু জলপথ; যোজক হল দুটি স্থলভাগের সংযোগকারী সরু স্থলভাগ। সুয়েজ খাল (১৮৬৯) ভূমধ্যসাগর ও লোহিত সাগরকে যুক্ত করেছে; পানামা খাল আটলান্টিক ও প্রশান্ত মহাসাগরকে যুক্ত করেছে। বেরিং প্রণালী সুমেরু ও প্রশান্ত মহাসাগরের সংযোগ।",
+   "standard": "প্রথমে দুটি শব্দের পার্থক্য পরিষ্কার করো। **প্রণালী (Strait)** হল দুটি বড়ো জলভাগকে যুক্ত করা সরু জলপথ। **যোজক (Isthmus)** ঠিক উল্টো — দুটি বড়ো স্থলভাগকে যুক্ত করা সরু স্থলভাগ। পানামা যোজক উত্তর ও দক্ষিণ আমেরিকাকে যুক্ত করেছে; আর **বেরিং প্রণালী** সুমেরু মহাসাগরকে প্রশান্ত মহাসাগরের সঙ্গে যুক্ত করেছে। ভারত ও শ্রীলঙ্কার মাঝে আছে **পাক প্রণালী**।\n\nপাক প্রণালীর নামটি ভারতের পরীক্ষায় বারবার আসে, কারণ এটি ভারতের একেবারে কাছের প্রণালী — ভারত ও শ্রীলঙ্কার মাঝে, তামিলনাড়ু উপকূলের কাছে। আর বেরিং প্রণালীর বিশেষত্ব: এটি অগভীর সরু জলভাগ, আর এর দুই পারে দুটি মহাদেশ — একদিকে এশিয়া (রাশিয়া), অন্যদিকে উত্তর আমেরিকা (আলাস্কা)। তাই বেরিং প্রণালী শুধু দুটি মহাসাগরের সংযোগ নয়, দুটি মহাদেশের মাঝের সীমানাও বটে।\n\nমানুষের তৈরি দুটি খাল বিশ্ববাণিজ্য বদলে দিয়েছে। **সুয়েজ খাল** ১৮৬৯ সালে মিশরে নির্মিত হয় — উত্তরে পোর্ট সৈয়দ ও দক্ষিণে পোর্ট সুয়েজের মধ্যে, **ভূমধ্যসাগর ও লোহিত সাগরকে** যুক্ত করে। এটি প্রায় ১৬০ কিমি লম্বা, ১১ থেকে ১৫ মিটার গভীর, এবং সমুদ্রপৃষ্ঠের সমান উচ্চতায় বলে এতে কোনো **লক নেই** — জাহাজ সরাসরি পার হতে পারে। প্রতিদিন প্রায় ১০০টি জাহাজ যায়, প্রতিটি জাহাজের পার হতে ১০–১২ ঘণ্টা লাগে। সুয়েজ খাল ইউরোপকে ভারত মহাসাগরের নতুন প্রবেশদ্বার দিয়েছে; উত্তমাশা অন্তরীপ ঘুরে যাওয়ার তুলনায় লিভারপুল–কলম্বো সমুদ্রপথ অনেক ছোটো হয়ে গেছে।\n\n**পানামা খাল** পানামা যোজকের মধ্য দিয়ে **আটলান্টিক মহাসাগরকে (পূর্বে) প্রশান্ত মহাসাগরের (পশ্চিমে)** সঙ্গে যুক্ত করেছে — পানামা সিটি ও কোলোনের মধ্যে। এটি ৭২ কিমি লম্বা, ১২ কিমি গভীর কাটা অংশ আছে, আর **৬টি লক** আছে — লক হল জলসিঁড়ি, যা জাহাজকে উঁচু-নিচু জলস্তরের মধ্যে ওঠানামা করায়। পানামা খাল নিউ ইয়র্ক–সান ফ্রান্সিসকো সমুদ্রপথ ১৩,০০০ কিমি ছোটো করেছে।\n\nখাল শুধু এই দুটিই নয়: উত্তর আমেরিকার গ্রেট লেকস–সেন্ট লরেন্স জলপথে **সু ও ওয়েল্যান্ড খাল** চারটি বড়ো হ্রদকে যুক্ত করেছে। আর সমুদ্রপথের মধ্যে **উত্তর আটলান্টিক সমুদ্রপথ** বিশ্বের ব্যস্ততম — একে **বিগ ট্রাঙ্ক রুট** বলে; এটি উত্তর-পূর্ব মার্কিন যুক্তরাষ্ট্র ও উত্তর-পশ্চিম ইউরোপকে যুক্ত করেছে। **ভূমধ্যসাগর–ভারত মহাসাগর সমুদ্রপথ** পুরোনো বিশ্বের হৃদয় দিয়ে যায়; পোর্ট সৈয়দ, এডেন, মুম্বই, কলম্বো ও সিঙ্গাপুর এই পথের গুরুত্বপূর্ণ বন্দর।\n\nএই অংশের সবচেয়ে গুরুত্বপূর্ণ তুলনা সুয়েজ বনাম পানামা। দুটি খালই দুটি মহাসাগর/সাগরকে যুক্ত করেছে, কিন্তু গঠনে একেবারে আলাদা: সুয়েজ সমুদ্রপৃষ্ঠের সমান উচ্চতায় কাটা, তাই জাহাজ সরাসরি পার হতে পারে — প্রতিদিন প্রায় ১০০টি জাহাজ, প্রতিটির ১০–১২ ঘণ্টা সময় লাগে। পানামা খাল পাহাড়ি যোজকের মধ্য দিয়ে কাটা, তাই জাহাজকে ৬টি লকের জলসিঁড়ি দিয়ে ওঠানামা করতে হয়। আর মনে রাখবে, এই দুটি খালের আগে ইউরোপ থেকে এশিয়া বা আমেরিকার এক উপকূল থেকে অন্য উপকূলে যেতে হাজার হাজার কিমি বেশি পথ ঘুরতে হত — সুয়েজ উত্তমাশা অন্তরীপের ঘোরা পথ বাঁচিয়েছে, পানামা দক্ষিণ আমেরিকার দক্ষিণ প্রান্তের ঘোরা পথ বাঁচিয়েছে। তাই দুটি খালই বিশ্ববাণিজ্যের প্রাণরেখা।",
+   "deep": "সুয়েজ বনাম পানামা — তুলনার ছক:\n\n| বিষয় | সুয়েজ খাল | পানামা খাল |\n|---|---|---|\n| নির্মাণ | ১৮৬৯, মিশর | মার্কিন সরকার, পানামা যোজক |\n| যুক্ত করেছে | ভূমধ্যসাগর–লোহিত সাগর | আটলান্টিক–প্রশান্ত মহাসাগর |\n| দৈর্ঘ্য | প্রায় ১৬০ কিমি | ৭২ কিমি |\n| লক | কোনো লক নেই (সমুদ্রপৃষ্ঠের খাল) | ৬টি লক |\n| সুফল | লিভারপুল–কলম্বো পথ ছোটো | নিউ ইয়র্ক–সান ফ্রান্সিসকো ১৩,০০০ কিমি ছোটো |\n\nপরীক্ষায় 'কোন খালে লক নেই' জিজ্ঞাসা করলে উত্তর সুয়েজ; '৬টি লক আছে' বললে পানামা।",
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "সংখ্যার ছক",
+     "body": "সুয়েজ: ১৮৬৯ সাল, ১৬০ কিমি, লক নেই, দিনে ~১০০ জাহাজ। পানামা: ৭২ কিমি, ৬টি লক, ১৩,০০০ কিমি পথ সংক্ষেপ। রাইন: ৭০০ কিমি। ভোলগা: ১১,২০০ কিমি।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "প্রণালী বনাম যোজক",
+     "body": "প্রণালী = জল দিয়ে স্থলকে ভাগ করা সরু জলপথ (বেরিং, পাক)। যোজক = স্থল দিয়ে জলকে ভাগ করা সরু স্থলভাগ (পানামা)। পানামা খাল কাটা হয়েছে পানামা যোজকের মধ্য দিয়ে — নাম দুটি একসঙ্গে মনে রাখো।"
+    }
+   ],
+   "claims": [
+    "c05",
+    "c20",
+    "c21",
+    "c39",
+    "c40",
+    "c41",
+    "c42",
+    "c43",
+    "c46",
+    "c47",
+    "c48"
+   ]
+  },
+  {
+   "id": "countries_exam",
+   "heading": "বিশ্বের দেশ ও পরীক্ষার প্রশ্ন",
+   "quick": "WBCS ও ক্লার্কশিপে বিশ্ব ভূগোল থেকে রাজধানী, প্রণালী, খাল ও শৃঙ্গের প্রশ্ন আসে। অস্ট্রেলিয়ার রাজধানী ক্যানবেরা (সিডনি নয়)। সাহারার ১১টি দেশ ও আমাজন অববাহিকার ৬টি দেশের নাম মুখস্থ রাখো।",
+   "standard": "বিশ্ব ভূগোলের প্রশ্নে পশ্চিমবঙ্গের পরীক্ষাগুলি (WBCS প্রিলিমিনারি, ক্লার্কশিপ, IDO) মূলত চার ধরনের তথ্য চায়: **রাজধানী, প্রণালী, খাল ও শৃঙ্গ**। এই অধ্যায়ের NCERT-ভিত্তিক তথ্য দিয়েই তার বেশির ভাগের উত্তর দেওয়া যায় — তবে সব প্রশ্নের নয়, সেটা সৎভাবে জানিয়ে রাখা দরকার।\n\nরাজধানীর প্রশ্নে সবচেয়ে পরিচিত ভুলটি: অস্ট্রেলিয়ার রাজধানী **সিডনি নয়, ক্যানবেরা**। সিডনি অস্ট্রেলিয়ার বৃহত্তম শহর, কিন্তু রাজধানী ক্যানবেরা — ১৯১১ সালের ১ জানুয়ারি নিউ সাউথ ওয়েলস ক্যানবেরা উপত্যকা ফেডারেল সরকারের হাতে তুলে দেয় রাজধানী গড়ার জন্য। ক্লার্কশিপ ২০১৯-এ এই প্রশ্ন এসেছিল, আর সঠিক উত্তর ক্যানবেরাই।\n\nদেশের নাম মুখস্থ করার সবচেয়ে ভালো উপায় হল এই অধ্যায়ের দুটি তালিকা: সাহারার **১১টি দেশ** (আলজেরিয়া, চাদ, মিশর, লিবিয়া, মালি, মরিতানিয়া, মরক্কো, নাইজার, সুদান, তিউনিসিয়া, পশ্চিম সাহারা) এবং আমাজন অববাহিকার দেশগুলি (**ব্রাজিল, পেরু, বলিভিয়া, ইকুয়েডর, কলম্বিয়া ও ভেনেজুয়েলার অংশ**)। এই দুটি তালিকা থেকেই 'কোন দেশটি সাহারা ছোঁয়নি' বা 'আমাজন অববাহিকায় কোন দেশ নেই' ধরনের প্রশ্ন তৈরি হয়।\n\nশৃঙ্গের প্রশ্নে এভারেস্টের প্রথম অভিযাত্রীদের নাম মুখস্থ রাখো — হিলারি ও তেনজিং (১৯৫৩), জুনকো তাবেই (১৯৭৫), বাচেন্দ্রী পাল (১৯৮৪)। আর মনে রাখবে, কর্কটক্রান্তি রেখা এশিয়ার মধ্য দিয়ে গেছে — আর পশ্চিমবঙ্গের মধ্য দিয়েও গেছে, যার বিস্তারিত আছে GEO-11 অধ্যায়ে।\n\nএকটি সৎ সতর্কতা: ক্লার্কশিপ ২০২৩-এ নাইজেরিয়া, জর্ডান ও মার্কিন যুক্তরাষ্ট্রের রাজধানী নিয়ে প্রশ্ন এসেছিল। NCERT-এর বইয়ে সেই রাজধানীগুলির নাম নেই, তাই এই অধ্যায়ে সেগুলি শেখানো হয়নি — বিশ্ব মানচিত্র/অ্যাটলাস থেকে সেগুলি আলাদা করে মুখস্থ করো। একই কথা IDO ২০১৯-এর ইস্তানবুল প্রশ্নের ক্ষেত্রেও খাটে: দুই মহাদেশে বিস্তৃত শহরের ধারণাটি NCERT-এ নেই।\n\nশেষ কথা: বিশ্ব ভূগোলের প্রস্তুতিতে মানচিত্রই আসল বই। এই অধ্যায়ের প্রতিটি তথ্য মানচিত্রে খুঁজে দেখো — সাহারা কোথায়, আমাজন কোন দিকে বয়, সুয়েজ ও পানামা খাল কোন দুটি জলভাগকে যুক্ত করেছে, বেরিং প্রণালী কোথায়। নাম মুখস্থ করার চেয়ে মানচিত্রে জায়গাটা চেনা অনেক বেশি কাজে দেয়, কারণ পরীক্ষায় অনেক সময় মানচিত্র-ভিত্তিক প্রশ্নও আসে। আর কর্কটক্রান্তি রেখার কথা মনে রাখো: এটি এশিয়ার মধ্য দিয়ে গেছে, আর পশ্চিমবঙ্গের মধ্য দিয়েও গেছে — এই একটিমাত্র রেখাই বিশ্ব ভূগোলকে পশ্চিমবঙ্গের ভূগোলের সঙ্গে জুড়ে দেয়।",
+   "deep": "পরীক্ষার আগের রাতে এই তালিকাটি একবার চোখ বুলিয়ে নাও: (১) সাত মহাদেশ ও আকারের ক্রম; (২) চার মহাসাগর ও ক্রম; (৩) এভারেস্ট ৮,৮৪৮ মিটার, মারিয়ানা খাত ১১,০২২ মিটার; (৪) নীল দীর্ঘতম, আমাজন বৃহত্তম; (৫) কাস্পিয়ান বৃহত্তম হ্রদ, মৃত সাগর ৩৪০ গ্রাম/লিটার; (৬) সাহারা ৮.৫৪ মিলিয়ন বর্গ কিমি, ১১ দেশ; (৭) সুয়েজ ১৮৬৯/১৬০ কিমি/লক নেই, পানামা ৭২ কিমি/৬ লক; (৮) রাইন ৭০০ কিমি, ভোলগা ১১,২০০ কিমি; (৯) ক্যানবেরা, বাচেন্দ্রী পাল ১৯৮৪। এই নয়টি বিন্দুই এই অধ্যায়ের 'নম্বরের খনি'।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "কোন PYQ এখানে শেখানো হল",
+     "body": "এই অধ্যায়ে শেখানো আসল প্রশ্ন: ক্লার্কশিপ ২০১৯ — অস্ট্রেলিয়ার রাজধানী (ক্যানবেরা); ক্লার্কশিপ ২০০৪ — এভারেস্ট জয়ী প্রথম ভারতীয় মহিলা (বাচেন্দ্রী পাল)। বাকি বিশ্ব-ভূগোলের PYQ (ইস্তানবুল, ভ্যাটিকান, আবুজা, আম্মান, ওয়াশিংটন ডি.সি., বন্দর আব্বাস) NCERT/সরকারি উৎসে নেই বলে এখানে শেখানো হয়নি — সেগুলি pyq_map-এ 'not taught' হিসেবে লেখা আছে।"
+    },
+    {
+     "kind": "bengal",
+     "title": "পশ্চিমবঙ্গের সঙ্গে যোগ",
+     "body": "কর্কটক্রান্তি রেখা পশ্চিমবঙ্গের উপর দিয়ে যায় (বিস্তারিত GEO-11-এ); WBCS ২০২৪-এ কৃষ্ণনগরের কাছে কর্কটক্রান্তি নিয়ে প্রশ্ন এসেছিল। আর সুয়েজ খাল খোলার পর ইউরোপ–ভারত সমুদ্রপথ ছোটো হওয়ার সুফল কলকাতা বন্দরের বাণিজ্যেও পৌঁছেছিল।"
+    }
+   ],
+   "claims": [
+    "c02",
+    "c08",
+    "c11",
+    "c34",
+    "c36",
+    "c39",
+    "c50"
+   ]
+  }
+ ],
+ "locate": [
+  {
+   "place": "মাউন্ট এভারেস্ট",
+   "where": "নেপাল–চীন সীমান্তে, হিমালয় পর্বতমালায়",
+   "about": "পৃথিবীর উচ্চতম শৃঙ্গ (৮,৮৪৮ মিটার); ১৯৫৩ সালের ২৯ মে প্রথম অভিযান সফল হয়",
+   "section": "mountains_peaks",
+   "claims": [
+    "c10",
+    "c11"
+   ]
+  },
+  {
+   "place": "মারিয়ানা খাত",
+   "where": "প্রশান্ত মহাসাগরে",
+   "about": "পৃথিবীর গভীরতম স্থান (১১,০২২ মিটার)",
+   "section": "oceans",
+   "claims": [
+    "c10",
+    "c17"
+   ]
+  },
+  {
+   "place": "সাহারা মরুভূমি",
+   "where": "উত্তর আফ্রিকায়",
+   "about": "বিশ্বের বৃহত্তম উষ্ণ মরুভূমি (৮.৫৪ মিলিয়ন বর্গ কিমি); ১১টি দেশ ছুঁয়েছে",
+   "section": "lakes_deserts",
+   "claims": [
+    "c12",
+    "c36"
+   ]
+  },
+  {
+   "place": "নীল নদ",
+   "where": "আফ্রিকার মধ্য দিয়ে, ভূমধ্যসাগরে পতন",
+   "about": "বিশ্বের দীর্ঘতম নদী",
+   "section": "rivers",
+   "claims": [
+    "c13"
+   ]
+  },
+  {
+   "place": "আমাজন নদী ও অববাহিকা",
+   "where": "দক্ষিণ আমেরিকায়, আটলান্টিক মহাসাগরে পতন",
+   "about": "বিশ্বের বৃহত্তম নদী ও বৃহত্তম নদী-অববাহিকা",
+   "section": "rivers",
+   "claims": [
+    "c07",
+    "c34"
+   ]
+  },
+  {
+   "place": "কাস্পিয়ান সাগর",
+   "where": "ইউরোপ ও এশিয়ার মাঝে",
+   "about": "বিশ্বের বৃহত্তম হ্রদ; ভোলগা নদী এতে পড়েছে",
+   "section": "lakes_deserts",
+   "claims": [
+    "c33",
+    "c45"
+   ]
+  },
+  {
+   "place": "মৃত সাগর",
+   "where": "ইজরায়েলে",
+   "about": "লবণতা প্রতি লিটারে ৩৪০ গ্রাম; সাঁতারুরা ভাসে",
+   "section": "lakes_deserts",
+   "claims": [
+    "c32"
+   ]
+  },
+  {
+   "place": "সুয়েজ খাল",
+   "where": "মিশরে, পোর্ট সৈয়দ ও পোর্ট সুয়েজের মধ্যে",
+   "about": "১৮৬৯ সালে নির্মিত; ভূমধ্যসাগর ও লোহিত সাগরকে যুক্ত করেছে; কোনো লক নেই",
+   "section": "straits_canals",
+   "claims": [
+    "c39",
+    "c40"
+   ]
+  },
+  {
+   "place": "পানামা খাল",
+   "where": "পানামা যোজকে, পানামা সিটি ও কোলোনের মধ্যে",
+   "about": "আটলান্টিক ও প্রশান্ত মহাসাগরকে যুক্ত করেছে; ৬টি লক; ৭২ কিমি",
+   "section": "straits_canals",
+   "claims": [
+    "c41",
+    "c42"
+   ]
+  },
+  {
+   "place": "আন্দিজ পর্বতমালা",
+   "where": "দক্ষিণ আমেরিকার দৈর্ঘ্য বরাবর, উত্তর থেকে দক্ষিণে",
+   "about": "বিশ্বের দীর্ঘতম পর্বতমালা",
+   "section": "continents",
+   "claims": [
+    "c06"
+   ]
+  },
+  {
+   "place": "তিব্বত মালভূমি",
+   "where": "হিমালয়ের উত্তরে",
+   "about": "বিশ্বের উচ্চতম মালভূমি (৪,০০০–৬,০০০ মিটার)",
+   "section": "mountains_peaks",
+   "claims": [
+    "c27"
+   ]
+  },
+  {
+   "place": "ক্যানবেরা",
+   "where": "অস্ট্রেলিয়ায়",
+   "about": "অস্ট্রেলিয়ার রাজধানী (সিডনি নয়); ১৯১১ সালে ক্যানবেরা উপত্যকা রাজধানী গড়ার জন্য হস্তান্তরিত হয়",
+   "section": "countries_exam",
+   "claims": [
+    "c50"
+   ]
+  },
+  {
+   "place": "বেরিং প্রণালী",
+   "where": "সুমেরু মহাসাগর ও প্রশান্ত মহাসাগরের মধ্যে",
+   "about": "অগভীর সরু জলভাগ; দুই মহাসাগরের সংযোগ",
+   "section": "oceans",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "place": "রাইন নদী",
+   "where": "জার্মানি ও নেদারল্যান্ডসের মধ্য দিয়ে",
+   "about": "বিশ্বের সবচেয়ে বেশি ব্যবহৃত অন্তর্দেশীয় জলপথ (রটারডাম–বাসেল ৭০০ কিমি)",
+   "section": "rivers",
+   "claims": [
+    "c43"
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "term": "মহাদেশ (Continent)",
+   "meaning": "পৃথিবীর স্থলভাগের বড়ো বড়ো খণ্ড; মোট সাতটি মহাদেশ আছে",
+   "section": "continents"
+  },
+  {
+   "term": "মহাসাগর (Ocean)",
+   "meaning": "পৃথিবীর বিশাল লবণাক্ত জলভাগ; NCERT-এ চারটি প্রধান মহাসাগর: প্রশান্ত, আটলান্টিক, ভারত, সুমেরু",
+   "section": "oceans"
+  },
+  {
+   "term": "যোজক (Isthmus)",
+   "meaning": "দুটি বড়ো স্থলভাগকে যুক্ত করা সরু স্থলভাগ; যেমন পানামা যোজক উত্তর ও দক্ষিণ আমেরিকাকে যুক্ত করেছে",
+   "section": "continents"
+  },
+  {
+   "term": "প্রণালী (Strait)",
+   "meaning": "দুটি বড়ো জলভাগকে যুক্ত করা সরু জলপথ; যেমন বেরিং প্রণালী, পাক প্রণালী",
+   "section": "straits_canals"
+  },
+  {
+   "term": "ভাঁজ পর্বত (Fold Mountain)",
+   "meaning": "ভূত্বকের ভাঁজ পড়ে তৈরি পর্বত; নবীন উদাহরণ হিমালয় ও আল্পস, প্রাচীন উদাহরণ আরাবল্লী, অ্যাপালেচিয়ান, ইউরাল",
+   "section": "mountains_peaks"
+  },
+  {
+   "term": "মালভূমি (Plateau)",
+   "meaning": "চারদিকের তুলনায় উঁচু, উপরটা চ্যাপ্টা সমতল ভূমি; যেমন তিব্বত মালভূমি (বিশ্বের উচ্চতম), দাক্ষিণাত্য মালভূমি",
+   "section": "mountains_peaks"
+  },
+  {
+   "term": "শৃঙ্গ (Peak)",
+   "meaning": "পর্বতের সর্বোচ্চ বিন্দু; বিশ্বের উচ্চতম শৃঙ্গ মাউন্ট এভারেস্ট (৮,৮৪৮ মিটার)",
+   "section": "mountains_peaks"
+  },
+  {
+   "term": "নদী-অববাহিকা (River Basin)",
+   "meaning": "যে সমগ্র অঞ্চলের জল একটি নদী ও তার শাখা-উপনদীতে এসে মেশে; আমাজন অববাহিকা বিশ্বের বৃহত্তম",
+   "section": "rivers"
+  },
+  {
+   "term": "লবণতা (Salinity)",
+   "meaning": "১,০০০ গ্রাম জলে দ্রবীভূত লবণের গ্রাম পরিমাণ; সমুদ্রের জলের গড় লবণতা প্রতি হাজারে ৩৫ ভাগ",
+   "section": "lakes_deserts"
+  },
+  {
+   "term": "খাল (Canal)",
+   "meaning": "মানুষের খনন করা জলপথ; যেমন সুয়েজ খাল, পানামা খাল, সু ও ওয়েল্যান্ড খাল",
+   "section": "straits_canals"
+  },
+  {
+   "term": "অন্তর্দেশীয় জলপথ (Inland Waterway)",
+   "meaning": "দেশের ভিতরে নদী-খাল দিয়ে চলা নৌপথ; রাইন বিশ্বের সবচেয়ে বেশি ব্যবহৃত অন্তর্দেশীয় জলপথ",
+   "section": "rivers"
+  },
+  {
+   "term": "মরুভূমি (Desert)",
+   "meaning": "খুব কম বৃষ্টির শুষ্ক অঞ্চল; সাহারা বিশ্বের বৃহত্তম উষ্ণ মরুভূমি",
+   "section": "lakes_deserts"
+  },
+  {
+   "term": "লক (Lock)",
+   "meaning": "খালের জলসিঁড়ি — জাহাজকে উঁচু-নিচু জলস্তরের মধ্যে ওঠানামা করায়; পানামা খালে ৬টি লক আছে, সুয়েজ খালে কোনো লক নেই",
+   "section": "straits_canals"
+  },
+  {
+   "term": "দ্বীপ-মহাদেশ (Island Continent)",
+   "meaning": "চারদিকে জল দিয়ে ঘেরা মহাদেশ; অস্ট্রেলিয়া ক্ষুদ্রতম মহাদেশ ও দ্বীপ-মহাদেশ",
+   "section": "continents"
+  }
+ ],
+ "cause_effect": [
+  {
+   "title": "আটলান্টিকের খাঁজকাটা উপকূল ও বাণিজ্য",
+   "causes": [
+    "আটলান্টিক মহাসাগরের উপকূল খুবই খাঁজকাটা",
+    "খাঁজকাটা উপকূলে প্রাকৃতিক পোতাশ্রয় ও বন্দর গড়ে ওঠে"
+   ],
+   "event": "আটলান্টিক মহাসাগর বাণিজ্যের দিক থেকে ব্যস্ততম মহাসাগর হয়ে ওঠে",
+   "results": [
+    "উত্তর-পূর্ব মার্কিন যুক্তরাষ্ট্র ও উত্তর-পশ্চিম ইউরোপের মধ্যে বিশ্বের ব্যস্ততম সমুদ্রপথ (বিগ ট্রাঙ্ক রুট) গড়ে ওঠে"
+   ],
+   "section": "oceans",
+   "claims": [
+    "c18",
+    "c47"
+   ]
+  },
+  {
+   "title": "সুয়েজ খাল ও ইউরোপ–ভারত সমুদ্রপথের সংক্ষেপ",
+   "causes": [
+    "সুয়েজ খাল ভূমধ্যসাগর ও লোহিত সাগরকে যুক্ত করেছে",
+    "আগে ইউরোপ থেকে ভারত মহাসাগরে যেতে উত্তমাশা অন্তরীপ ঘুরে যেতে হত"
+   ],
+   "event": "ইউরোপ ভারত মহাসাগরের নতুন প্রবেশদ্বার পায়",
+   "results": [
+    "লিভারপুল–কলম্বো সমুদ্রপথ অনেক ছোটো হয়",
+    "ভূমধ্যসাগর–ভারত মহাসাগর সমুদ্রপথে পোর্ট সৈয়দ, এডেন, মুম্বই, কলম্বো ও সিঙ্গাপুর গুরুত্বপূর্ণ বন্দর হয়ে ওঠে"
+   ],
+   "section": "straits_canals",
+   "claims": [
+    "c39",
+    "c48"
+   ]
+  }
+ ],
+ "exam_focus": [
+  {
+   "point": "মহাদেশের আয়তনের ক্রম: এশিয়া > আফ্রিকা > উত্তর আমেরিকা > দক্ষিণ আমেরিকা > অ্যান্টার্কটিকা > ইউরোপ > অস্ট্রেলিয়া।",
+   "section": "continents"
+  },
+  {
+   "point": "আফ্রিকাই একমাত্র মহাদেশ যার মধ্য দিয়ে কর্কটক্রান্তি, নিরক্ষরেখা ও মকরক্রান্তি — তিনটি রেখাই গেছে।",
+   "section": "continents"
+  },
+  {
+   "point": "চারটি প্রধান মহাসাগর: প্রশান্ত (বৃহত্তম), আটলান্টিক (দ্বিতীয়, ব্যস্ততম), ভারত (দেশের নামে), সুমেরু।",
+   "section": "oceans"
+  },
+  {
+   "point": "এভারেস্ট ৮,৮৪৮ মিটার (উচ্চতম শৃঙ্গ); মারিয়ানা খাত ১১,০২২ মিটার (গভীরতম স্থান); আন্দিজ দীর্ঘতম পর্বতমালা।",
+   "section": "mountains_peaks"
+  },
+  {
+   "point": "নীল দীর্ঘতম নদী, আমাজন বৃহত্তম নদী ও বৃহত্তম অববাহিকা; কাস্পিয়ান বৃহত্তম হ্রদ; সাহারা বৃহত্তম উষ্ণ মরুভূমি।",
+   "section": "rivers"
+  },
+  {
+   "point": "সমুদ্রের জলের গড় লবণতা ৩৫‰; মৃত সাগরে ৩৪০ গ্রাম/লিটার — তাই সাঁতারুরা ভাসে।",
+   "section": "lakes_deserts"
+  },
+  {
+   "point": "সুয়েজ খাল ১৮৬৯, ১৬০ কিমি, লক নেই, ভূমধ্যসাগর–লোহিত সাগর; পানামা খাল ৭২ কিমি, ৬ লক, আটলান্টিক–প্রশান্ত।",
+   "section": "straits_canals"
+  },
+  {
+   "point": "ক্যানবেরা অস্ট্রেলিয়ার রাজধানী; বাচেন্দ্রী পাল এভারেস্ট জয়ী প্রথম ভারতীয় মহিলা (১৯৮৪)।",
+   "section": "countries_exam"
+  }
+ ],
+ "bengal_connection": {
+  "body": "বিশ্ব ভূগোল থেকে WBCS প্রিলিমিনারি ও ক্লার্কশিপে প্রায় প্রতি বছরই ১–২টি প্রশ্ন আসে — মূলত রাজধানী (ক্যানবেরা, ক্লার্কশিপ ২০১৯), শৃঙ্গের অভিযাত্রী (বাচেন্দ্রী পাল, ক্লার্কশিপ ২০০৪), প্রণালী ও খাল, এবং সাহারা/আমাজনের মতো 'বিশ্বের বৃহত্তম' তথ্য। এই অধ্যায়ের NCERT-ভিত্তিক তথ্যগুলিই তার মূল ভাণ্ডার। কর্কটক্রান্তি রেখা এশিয়ার মধ্য দিয়ে গেছে — আর পশ্চিমবঙ্গের মধ্য দিয়েও গেছে (নদিয়া জেলার উপর দিয়ে); WBCS ২০২৪-এ কর্কটক্রান্তি নিয়ে প্রশ্ন এসেছিল, যার বিস্তারিত আছে GEO-11 অধ্যায়ে। সুয়েজ খাল খোলার পর ইউরোপ–ভারত সমুদ্রপথ ছোটো হওয়ার সুফল কলকাতা বন্দরের বাণিজ্যেও পৌঁছেছিল — তাই সুয়েজ খালের প্রশ্ন শুধু বিশ্ব ভূগোল নয়, ভারতের বাণিজ্য ইতিহাসের সঙ্গেও জড়িত। মনে রাখবে: ক্লার্কশিপ ২০২৩-এ নাইজেরিয়া, জর্ডান ও মার্কিন যুক্তরাষ্ট্রের রাজধানী নিয়ে প্রশ্ন এসেছিল — NCERT-এ সেগুলি নেই, তাই বিশ্ব মানচিত্র/অ্যাটলাস থেকে আলাদা করে মুখস্থ করতে হবে।",
+  "claims": [
+   "c50",
+   "c11",
+   "c39"
+  ]
+ },
+ "quick_revision": [
+  "বৃহত্তম মহাদেশ এশিয়া; ক্ষুদ্রতম অস্ট্রেলিয়া; আফ্রিকায় তিনটি প্রধান রেখা (কর্কটক্রান্তি, নিরক্ষরেখা, মকরক্রান্তি) গেছে।",
+  "প্রশান্ত বৃহত্তম মহাসাগর; আটলান্টিক দ্বিতীয় ও বাণিজ্যে ব্যস্ততম; ভারত মহাসাগর একমাত্র দেশের নামে; সুমেরু উত্তর মেরু ঘিরে।",
+  "এভারেস্ট ৮,৮৪৮ মি; মারিয়ানা খাত ১১,০২২ মি; আন্দিজ দীর্ঘতম পর্বতমালা; তিব্বত উচ্চতম মালভূমি।",
+  "হিমালয় ও আল্পস নবীন ভাঁজ পর্বত; আরাবল্লী, অ্যাপালেচিয়ান, ইউরাল প্রাচীন ভাঁজ পর্বত।",
+  "নীল দীর্ঘতম নদী; আমাজন বৃহত্তম নদী ও বৃহত্তম অববাহিকা; রাইন সবচেয়ে বেশি ব্যবহৃত জলপথ; ভোলগা ১১,২০০ কিমি নাব্য।",
+  "কাস্পিয়ান বৃহত্তম হ্রদ; মৃত সাগরে লবণতা ৩৪০ গ্রাম/লিটার; সমুদ্রের গড় লবণতা ৩৫‰।",
+  "সাহারা ৮.৫৪ মিলিয়ন বর্গ কিমি, ১১ দেশ; আল আজিজিয়ায় NCERT-এর ৫৭.৭° সেলসিয়াস (১৯২২)।",
+  "সুয়েজ খাল ১৮৬৯, ১৬০ কিমি, লক নেই (ভূমধ্যসাগর–লোহিত সাগর); পানামা খাল ৭২ কিমি, ৬ লক (আটলান্টিক–প্রশান্ত)।",
+  "বেরিং প্রণালী সুমেরু–প্রশান্ত সংযোগ; পাক প্রণালী ভারত–শ্রীলঙ্কার মাঝে; পানামা যোজক দুই আমেরিকার সংযোগ।",
+  "ক্যানবেরা অস্ট্রেলিয়ার রাজধানী; বাচেন্দ্রী পাল এভারেস্ট জয়ী প্রথম ভারতীয় মহিলা (১৯৮৪ সালের ২৩ মে)।",
+  "মহাসাগরে পৃথিবীর জলের ৯৭.৩%; বরফের টুপিতে ২.০%; ভূগর্ভস্থ জল ০.৬৮%।",
+  "উত্তর আটলান্টিক সমুদ্রপথ বিশ্বের ব্যস্ততম (বিগ ট্রাঙ্ক রুট); ভূমধ্যসাগর–ভারত মহাসাগর পথের বন্দর: পোর্ট সৈয়দ, এডেন, মুম্বই, কলম্বো, সিঙ্গাপুর।"
+ ],
+ "questions": [
+  {
+   "id": "q01",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "continents",
+   "claims": [
+    "c01",
+    "c02"
+   ],
+   "q": "আয়তনে বিশ্বের বৃহত্তম মহাদেশ কোনটি?",
+   "a": "এশিয়া",
+   "w": [
+    "আফ্রিকা",
+    "উত্তর আমেরিকা",
+    "ইউরোপ"
+   ],
+   "e": "এশিয়া বৃহত্তম মহাদেশ; পৃথিবীর মোট স্থলভাগের প্রায় এক-তৃতীয়াংশ জুড়ে আছে।"
+  },
+  {
+   "id": "q02",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "continents",
+   "claims": [
+    "c08"
+   ],
+   "q": "ক্ষুদ্রতম মহাদেশ কোনটি, যা সম্পূর্ণ দক্ষিণ গোলার্ধে অবস্থিত?",
+   "a": "অস্ট্রেলিয়া",
+   "w": [
+    "অ্যান্টার্কটিকা",
+    "ইউরোপ",
+    "আফ্রিকা"
+   ],
+   "e": "অস্ট্রেলিয়া ক্ষুদ্রতম মহাদেশ; এটি সম্পূর্ণ দক্ষিণ গোলার্ধে অবস্থিত।"
+  },
+  {
+   "id": "q03",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "oceans",
+   "claims": [
+    "c16",
+    "c17"
+   ],
+   "q": "বিশ্বের বৃহত্তম মহাসাগর কোনটি?",
+   "a": "প্রশান্ত মহাসাগর",
+   "w": [
+    "আটলান্টিক মহাসাগর",
+    "ভারত মহাসাগর",
+    "সুমেরু মহাসাগর"
+   ],
+   "e": "প্রশান্ত মহাসাগর বৃহত্তম; এটি পৃথিবীর এক-তৃতীয়াংশ জুড়ে বিস্তৃত।"
+  },
+  {
+   "id": "q04",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "oceans",
+   "claims": [
+    "c19"
+   ],
+   "q": "কোন মহাসাগরের নাম একটি দেশের নামে?",
+   "a": "ভারত মহাসাগর",
+   "w": [
+    "প্রশান্ত মহাসাগর",
+    "আটলান্টিক মহাসাগর",
+    "সুমেরু মহাসাগর"
+   ],
+   "e": "ভারত মহাসাগর একমাত্র মহাসাগর যার নাম একটি দেশের নামে।"
+  },
+  {
+   "id": "q05",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "mountains_peaks",
+   "claims": [
+    "c10"
+   ],
+   "q": "পৃথিবীর উচ্চতম শৃঙ্গ কোনটি?",
+   "a": "মাউন্ট এভারেস্ট",
+   "w": [
+    "কে-২",
+    "কাঞ্চনজঙ্ঘা",
+    "মাউন্ট ব্ল্যাঁ"
+   ],
+   "e": "মাউন্ট এভারেস্ট পৃথিবীর উচ্চতম শৃঙ্গ, সমুদ্রপৃষ্ঠ থেকে ৮,৮৪৮ মিটার উঁচু।"
+  },
+  {
+   "id": "q06",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "mountains_peaks",
+   "claims": [
+    "c06"
+   ],
+   "q": "বিশ্বের দীর্ঘতম পর্বতমালা কোনটি?",
+   "a": "আন্দিজ",
+   "w": [
+    "হিমালয়",
+    "আল্পস",
+    "রকি"
+   ],
+   "e": "আন্দিজ বিশ্বের দীর্ঘতম পর্বতমালা; দক্ষিণ আমেরিকার দৈর্ঘ্য বরাবর উত্তর থেকে দক্ষিণে বিস্তৃত।"
+  },
+  {
+   "id": "q07",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "rivers",
+   "claims": [
+    "c13"
+   ],
+   "q": "বিশ্বের দীর্ঘতম নদী কোনটি?",
+   "a": "নীল নদ",
+   "w": [
+    "আমাজন",
+    "মিসিসিপি",
+    "ইয়াংসি"
+   ],
+   "e": "নীল নদ বিশ্বের দীর্ঘতম নদী।"
+  },
+  {
+   "id": "q08",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "rivers",
+   "claims": [
+    "c34"
+   ],
+   "q": "বিশ্বের বৃহত্তম নদী-অববাহিকা কোনটি?",
+   "a": "আমাজন",
+   "w": [
+    "নীল নদ",
+    "মিসিসিপি",
+    "ইয়াংসি"
+   ],
+   "e": "আমাজন অববাহিকা বিশ্বের বৃহত্তম নদী-অববাহিকা।"
+  },
+  {
+   "id": "q09",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "lakes_deserts",
+   "claims": [
+    "c33"
+   ],
+   "q": "বিশ্বের বৃহত্তম হ্রদ কোনটি?",
+   "a": "কাস্পিয়ান সাগর",
+   "w": [
+    "বৈকাল হ্রদ",
+    "সুপিরিয়র হ্রদ",
+    "টাঙ্গানিকা হ্রদ"
+   ],
+   "e": "কাস্পিয়ান সাগর বিশ্বের বৃহত্তম হ্রদ।"
+  },
+  {
+   "id": "q10",
+   "level": "basic",
+   "format": "DIRECT",
+   "section": "lakes_deserts",
+   "claims": [
+    "c12"
+   ],
+   "q": "বিশ্বের বৃহত্তম উষ্ণ মরুভূমি কোনটি?",
+   "a": "সাহারা মরুভূমি",
+   "w": [
+    "গোবি মরুভূমি",
+    "কালাহারি মরুভূমি",
+    "থর মরুভূমি"
+   ],
+   "e": "সাহারা বিশ্বের বৃহত্তম উষ্ণ মরুভূমি।"
+  },
+  {
+   "id": "q11",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "continents",
+   "claims": [
+    "c03"
+   ],
+   "q": "কোন পর্বতমালা এশিয়াকে ইউরোপ থেকে আলাদা করেছে?",
+   "a": "ইউরাল",
+   "w": [
+    "আল্পস",
+    "ককেশাস",
+    "আরাবল্লী"
+   ],
+   "e": "পশ্চিমে ইউরাল পর্বতমালা এশিয়াকে ইউরোপ থেকে আলাদা করেছে।"
+  },
+  {
+   "id": "q12",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "continents",
+   "claims": [
+    "c05"
+   ],
+   "q": "উত্তর ও দক্ষিণ আমেরিকাকে যুক্ত করা সরু স্থলভাগটির নাম কী?",
+   "a": "পানামা যোজক",
+   "w": [
+    "সিনাই যোজক",
+    "ক্রা যোজক",
+    "কোরিন্থ যোজক"
+   ],
+   "e": "উত্তর আমেরিকা পানামা যোজক দিয়ে দক্ষিণ আমেরিকার সঙ্গে যুক্ত।"
+  },
+  {
+   "id": "q13",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "oceans",
+   "claims": [
+    "c10",
+    "c17"
+   ],
+   "q": "পৃথিবীর গভীরতম স্থান মারিয়ানা খাত কোন মহাসাগরে?",
+   "a": "প্রশান্ত মহাসাগর",
+   "w": [
+    "আটলান্টিক মহাসাগর",
+    "ভারত মহাসাগর",
+    "সুমেরু মহাসাগর"
+   ],
+   "e": "মারিয়ানা খাত (১১,০২২ মিটার) প্রশান্ত মহাসাগরে অবস্থিত।"
+  },
+  {
+   "id": "q14",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "oceans",
+   "claims": [
+    "c18"
+   ],
+   "q": "বাণিজ্যের দিক থেকে বিশ্বের ব্যস্ততম মহাসাগর কোনটি?",
+   "a": "আটলান্টিক মহাসাগর",
+   "w": [
+    "প্রশান্ত মহাসাগর",
+    "ভারত মহাসাগর",
+    "সুমেরু মহাসাগর"
+   ],
+   "e": "খাঁজকাটা উপকূল ও প্রাকৃতিক বন্দরের কারণে আটলান্টিক বাণিজ্যে ব্যস্ততম মহাসাগর।"
+  },
+  {
+   "id": "q15",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "mountains_peaks",
+   "claims": [
+    "c23"
+   ],
+   "q": "নীচের কোন জোড়াটি নবীন ভাঁজ পর্বত?",
+   "a": "হিমালয় ও আল্পস",
+   "w": [
+    "আরাবল্লী ও অ্যাপালেচিয়ান",
+    "ইউরাল ও আরাবল্লী",
+    "অ্যাপালেচিয়ান ও ইউরাল"
+   ],
+   "e": "হিমালয় ও আল্পস নবীন ভাঁজ পর্বত; বাকি জোড়াগুলির পর্বতগুলি প্রাচীন ভাঁজ পর্বত।"
+  },
+  {
+   "id": "q16",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "mountains_peaks",
+   "claims": [
+    "c27"
+   ],
+   "q": "বিশ্বের উচ্চতম মালভূমি কোনটি?",
+   "a": "তিব্বত মালভূমি",
+   "w": [
+    "দাক্ষিণাত্য মালভূমি",
+    "মঙ্গোলিয়া মালভূমি",
+    "ইরান মালভূমি"
+   ],
+   "e": "তিব্বত মালভূমি বিশ্বের উচ্চতম মালভূমি (গড় উচ্চতা ৪,০০০–৬,০০০ মিটার)।"
+  },
+  {
+   "id": "q17",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "rivers",
+   "claims": [
+    "c35"
+   ],
+   "q": "আমাজন নদী কোন মহাসাগরে পড়েছে?",
+   "a": "আটলান্টিক মহাসাগর",
+   "w": [
+    "প্রশান্ত মহাসাগর",
+    "ভারত মহাসাগর",
+    "সুমেরু মহাসাগর"
+   ],
+   "e": "আমাজন পশ্চিমের পর্বত থেকে উৎপন্ন হয়ে পূর্বে আটলান্টিক মহাসাগরে পড়েছে।"
+  },
+  {
+   "id": "q18",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "rivers",
+   "claims": [
+    "c43"
+   ],
+   "q": "বিশ্বের সবচেয়ে বেশি ব্যবহৃত অন্তর্দেশীয় জলপথ কোনটি?",
+   "a": "রাইন জলপথ",
+   "w": [
+    "ভোলগা জলপথ",
+    "দানিউব জলপথ",
+    "মিসিসিপি-ওহাইও জলপথ"
+   ],
+   "e": "রাইন জলপথ (রটারডাম–বাসেল ৭০০ কিমি) বিশ্বের সবচেয়ে বেশি ব্যবহৃত অন্তর্দেশীয় জলপথ।"
+  },
+  {
+   "id": "q19",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "lakes_deserts",
+   "claims": [
+    "c31"
+   ],
+   "q": "সমুদ্রের জলের গড় লবণতা কত?",
+   "a": "প্রতি হাজারে ৩৫ ভাগ",
+   "w": [
+    "প্রতি হাজারে ২০ ভাগ",
+    "প্রতি হাজারে ৫০ ভাগ",
+    "প্রতি হাজারে ৫ ভাগ"
+   ],
+   "e": "সমুদ্রের জলের গড় লবণতা প্রতি হাজারে ৩৫ ভাগ।"
+  },
+  {
+   "id": "q20",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "lakes_deserts",
+   "claims": [
+    "c32"
+   ],
+   "q": "মৃত সাগরে সাঁতারুরা ভেসে থাকে কেন?",
+   "a": "লবণতা প্রতি লিটারে ৩৪০ গ্রাম — জল খুব ঘন বলে",
+   "w": [
+    "জল খুব ঠান্ডা বলে",
+    "জলে কোনো লবণ নেই বলে",
+    "সাগর খুব গভীর বলে"
+   ],
+   "e": "মৃত সাগরে লবণতা প্রতি লিটারে ৩৪০ গ্রাম; জল এত ঘন যে সাঁতারুরা ভাসে।"
+  },
+  {
+   "id": "q21",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "straits_canals",
+   "claims": [
+    "c20"
+   ],
+   "q": "বেরিং প্রণালী কোন দুটি মহাসাগরকে যুক্ত করেছে?",
+   "a": "সুমেরু ও প্রশান্ত",
+   "w": [
+    "আটলান্টিক ও ভারত",
+    "প্রশান্ত ও ভারত",
+    "আটলান্টিক ও প্রশান্ত"
+   ],
+   "e": "সুমেরু মহাসাগর বেরিং প্রণালী দিয়ে প্রশান্ত মহাসাগরের সঙ্গে যুক্ত।"
+  },
+  {
+   "id": "q22",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "straits_canals",
+   "claims": [
+    "c39"
+   ],
+   "q": "সুয়েজ খাল কোন দুটি সাগরকে যুক্ত করেছে?",
+   "a": "ভূমধ্যসাগর ও লোহিত সাগর",
+   "w": [
+    "আটলান্টিক ও প্রশান্ত",
+    "কৃষ্ণ সাগর ও কাস্পিয়ান সাগর",
+    "উত্তর সাগর ও বাল্টিক সাগর"
+   ],
+   "e": "সুয়েজ খাল ভূমধ্যসাগর ও লোহিত সাগরকে যুক্ত করেছে।"
+  },
+  {
+   "id": "q23",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "straits_canals",
+   "claims": [
+    "c41"
+   ],
+   "q": "পানামা খাল কোন দুটি মহাসাগরকে যুক্ত করেছে?",
+   "a": "আটলান্টিক ও প্রশান্ত",
+   "w": [
+    "ভূমধ্যসাগর ও লোহিত সাগর",
+    "আটলান্টিক ও ভারত",
+    "প্রশান্ত ও ভারত"
+   ],
+   "e": "পানামা খাল আটলান্টিক মহাসাগরকে (পূর্বে) প্রশান্ত মহাসাগরের (পশ্চিমে) সঙ্গে যুক্ত করেছে।"
+  },
+  {
+   "id": "q24",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "countries_exam",
+   "claims": [
+    "c50"
+   ],
+   "q": "অস্ট্রেলিয়ার রাজধানী কোনটি?",
+   "a": "ক্যানবেরা",
+   "w": [
+    "সিডনি",
+    "মেলবোর্ন",
+    "পার্থ"
+   ],
+   "e": "অস্ট্রেলিয়ার রাজধানী ক্যানবেরা; সিডনি বৃহত্তম শহর হলেও রাজধানী নয়।"
+  },
+  {
+   "id": "q25",
+   "level": "moderate",
+   "format": "DIRECT",
+   "section": "countries_exam",
+   "claims": [
+    "c11"
+   ],
+   "q": "এভারেস্ট জয়ী প্রথম ভারতীয় মহিলা কে?",
+   "a": "বাচেন্দ্রী পাল",
+   "w": [
+    "সন্তোষ যাদব",
+    "ডিকি ডোলমা",
+    "সুদীপ্তা সেনগুপ্ত"
+   ],
+   "e": "বাচেন্দ্রী পাল প্রথম ভারতীয় মহিলা হিসেবে ১৯৮৪ সালের ২৩ মে এভারেস্টের চূড়ায় ওঠেন।"
+  },
+  {
+   "id": "q26",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "continents",
+   "claims": [
+    "c04"
+   ],
+   "q": "কোন মহাদেশের মধ্য দিয়ে কর্কটক্রান্তি, নিরক্ষরেখা ও মকরক্রান্তি — তিনটি রেখাই গেছে?",
+   "a": "আফ্রিকা",
+   "w": [
+    "এশিয়া",
+    "দক্ষিণ আমেরিকা",
+    "অস্ট্রেলিয়া"
+   ],
+   "e": "আফ্রিকাই একমাত্র মহাদেশ যার মধ্য দিয়ে তিনটি রেখাই গেছে।"
+  },
+  {
+   "id": "q27",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "oceans",
+   "claims": [
+    "c15",
+    "c30"
+   ],
+   "q": "পৃথিবীর মোট জলের কত শতাংশ মহাসাগরে আছে?",
+   "a": "৯৭.৩ শতাংশ",
+   "w": [
+    "৭১ শতাংশ",
+    "২.০ শতাংশ",
+    "০.৬৮ শতাংশ"
+   ],
+   "e": "পৃথিবীর মোট জলের ৯৭.৩% মহাসাগরে আছে; ৭১% হল জলে ঢাকা ভূপৃষ্ঠের অংশ, ২.০% বরফের টুপিতে।"
+  },
+  {
+   "id": "q28",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "mountains_peaks",
+   "claims": [
+    "c23"
+   ],
+   "q": "নীচের কোন জোড়াটি প্রাচীন ভাঁজ পর্বতের?",
+   "a": "আরাবল্লী ও অ্যাপালেচিয়ান",
+   "w": [
+    "হিমালয় ও আল্পস",
+    "আন্দিজ ও রকি",
+    "আল্পস ও ইউরাল"
+   ],
+   "e": "আরাবল্লী ও অ্যাপালেচিয়ান খুবই প্রাচীন ভাঁজ পর্বত — গোলাকার ও নিচু।"
+  },
+  {
+   "id": "q29",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "rivers",
+   "claims": [
+    "c34"
+   ],
+   "q": "আমাজন অববাহিকায় কোন দেশগুলি আছে?",
+   "a": "ব্রাজিল, পেরু, বলিভিয়া, ইকুয়েডর, কলম্বিয়া ও ভেনেজুয়েলার ছোটো অংশ",
+   "w": [
+    "শুধু ব্রাজিল ও পেরু",
+    "শুধু ব্রাজিল, কলম্বিয়া ও ভেনেজুয়েলা",
+    "ব্রাজিল, আর্জেন্টিনা, চিলি ও উরুগুয়ে"
+   ],
+   "e": "আমাজন অববাহিকা ব্রাজিলের বড়ো অংশ এবং পেরু, বলিভিয়া, ইকুয়েডর, কলম্বিয়া ও ভেনেজুয়েলার ছোটো অংশ নিয়ে গঠিত।"
+  },
+  {
+   "id": "q30",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "lakes_deserts",
+   "claims": [
+    "c36"
+   ],
+   "q": "সাহারা মরুভূমির আয়তন প্রায় কত?",
+   "a": "৮.৫৪ মিলিয়ন বর্গ কিমি",
+   "w": [
+    "৫.৫ মিলিয়ন বর্গ কিমি",
+    "১১.২ মিলিয়ন বর্গ কিমি",
+    "৩.৩ মিলিয়ন বর্গ কিমি"
+   ],
+   "e": "সাহারার আয়তন প্রায় ৮.৫৪ মিলিয়ন বর্গ কিমি।"
+  },
+  {
+   "id": "q31",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "lakes_deserts",
+   "claims": [
+    "c36"
+   ],
+   "q": "সাহারা মরুভূমি কতগুলি দেশ ছুঁয়েছে?",
+   "a": "১১টি",
+   "w": [
+    "৭টি",
+    "৯টি",
+    "১৩টি"
+   ],
+   "e": "সাহারা ১১টি দেশ ছুঁয়েছে: আলজেরিয়া, চাদ, মিশর, লিবিয়া, মালি, মরিতানিয়া, মরক্কো, নাইজার, সুদান, তিউনিসিয়া ও পশ্চিম সাহারা।"
+  },
+  {
+   "id": "q32",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "straits_canals",
+   "claims": [
+    "c39"
+   ],
+   "q": "সুয়েজ খাল কোন সালে নির্মিত হয়?",
+   "a": "১৮৬৯",
+   "w": [
+    "১৮৫৯",
+    "১৯১৪",
+    "১৯২০"
+   ],
+   "e": "সুয়েজ খাল ১৮৬৯ সালে নির্মিত হয়; ১৯১৪ সালে পানামা খাল খোলা হয়।"
+  },
+  {
+   "id": "q33",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "straits_canals",
+   "claims": [
+    "c40",
+    "c42"
+   ],
+   "q": "সুয়েজ ও পানামা খালের মূল পার্থক্য কী?",
+   "a": "সুয়েজে কোনো লক নেই, পানামায় ৬টি লক আছে",
+   "w": [
+    "সুয়েজে ৬টি লক আছে, পানামায় কোনো লক নেই",
+    "দুটি খালেই ৬টি করে লক আছে",
+    "দুটি খালেই কোনো লক নেই"
+   ],
+   "e": "সুয়েজ খাল সমুদ্রপৃষ্ঠের সমান উচ্চতায় বলে এতে কোনো লক নেই; পানামা খালে ৬টি লক আছে।"
+  },
+  {
+   "id": "q34",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "straits_canals",
+   "claims": [
+    "c45"
+   ],
+   "q": "ভোলগা জলপথ কত কিমি নাব্য এবং কোথায় পড়েছে?",
+   "a": "১১,২০০ কিমি; কাস্পিয়ান সাগরে",
+   "w": [
+    "৭০০ কিমি; কৃষ্ণ সাগরে",
+    "১১,২০০ কিমি; কৃষ্ণ সাগরে",
+    "৭০০ কিমি; কাস্পিয়ান সাগরে"
+   ],
+   "e": "ভোলগা জলপথ ১১,২০০ কিমি নাব্য হয়ে কাস্পিয়ান সাগরে পড়েছে।"
+  },
+  {
+   "id": "q35",
+   "level": "difficult",
+   "format": "DIRECT",
+   "section": "countries_exam",
+   "claims": [
+    "c09"
+   ],
+   "q": "অ্যান্টার্কটিকা সম্পর্কে কোনটি সঠিক?",
+   "a": "দক্ষিণ মেরু প্রায় এর কেন্দ্রে অবস্থিত ও এটি স্থায়ীভাবে বরফে ঢাকা",
+   "w": [
+    "এখানে অনেক স্থায়ী মানব বসতি আছে",
+    "এটি সম্পূর্ণ উত্তর গোলার্ধে অবস্থিত",
+    "এর মধ্য দিয়ে কর্কটক্রান্তি গেছে"
+   ],
+   "e": "দক্ষিণ মেরু অ্যান্টার্কটিকার প্রায় কেন্দ্রে অবস্থিত; মহাদেশটি স্থায়ীভাবে পুরু বরফে ঢাকা; এখানে কোনো স্থায়ী মানব বসতি নেই।"
+  },
+  {
+   "id": "q36",
+   "level": "exam",
+   "format": "STATEMENT",
+   "section": "continents",
+   "claims": [
+    "c02",
+    "c08"
+   ],
+   "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. এশিয়া বৃহত্তম মহাদেশ; পৃথিবীর মোট স্থলভাগের প্রায় এক-তৃতীয়াংশ জুড়ে আছে।\n২. অস্ট্রেলিয়া ক্ষুদ্রতম মহাদেশ এবং সম্পূর্ণ দক্ষিণ গোলার্ধে অবস্থিত।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "১ ও ২ উভয়ই",
+   "w": [
+    "শুধুমাত্র ১",
+    "শুধুমাত্র ২",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "দুটি বিবৃতিই সঠিক: এশিয়া বৃহত্তম মহাদেশ (স্থলভাগের প্রায় এক-তৃতীয়াংশ), অস্ট্রেলিয়া ক্ষুদ্রতম মহাদেশ ও সম্পূর্ণ দক্ষিণ গোলার্ধে।"
+  },
+  {
+   "id": "q37",
+   "level": "exam",
+   "format": "MATCH",
+   "section": "straits_canals",
+   "claims": [
+    "c39",
+    "c41",
+    "c43",
+    "c45"
+   ],
+   "q": "নীচের তালিকা দুটি মেলান:\n\nতালিকা A:\nক. সুয়েজ খাল\nখ. পানামা খাল\nগ. রাইন জলপথ\nঘ. ভোলগা জলপথ\n\nতালিকা B:\n১. আটলান্টিক ও প্রশান্ত মহাসাগরের সংযোগ\n২. ভূমধ্যসাগর ও লোহিত সাগরের সংযোগ\n৩. বিশ্বের সবচেয়ে বেশি ব্যবহৃত অন্তর্দেশীয় জলপথ\n৪. কাস্পিয়ান সাগরে পতন",
+   "a": "ক-২, খ-১, গ-৩, ঘ-৪",
+   "w": [
+    "ক-১, খ-২, গ-৪, ঘ-৩",
+    "ক-২, খ-১, গ-৪, ঘ-৩",
+    "ক-১, খ-২, গ-৩, ঘ-৪"
+   ],
+   "e": "সুয়েজ: ভূমধ্যসাগর–লোহিত সাগর (২); পানামা: আটলান্টিক–প্রশান্ত (১); রাইন: সবচেয়ে বেশি ব্যবহৃত জলপথ (৩); ভোলগা: কাস্পিয়ান সাগরে পতন (৪)।"
+  },
+  {
+   "id": "q38",
+   "level": "exam",
+   "format": "PAIRS",
+   "section": "oceans",
+   "claims": [
+    "c16",
+    "c17",
+    "c18",
+    "c19"
+   ],
+   "q": "মহাসাগর সম্পর্কে নীচের কোন জোড়টি সঠিকভাবে মেলানো?",
+   "a": "ভারত মহাসাগর — একমাত্র মহাসাগর যার নাম একটি দেশের নামে",
+   "w": [
+    "প্রশান্ত মহাসাগর — 'S' আকৃতির, দ্বিতীয় বৃহত্তম",
+    "আটলান্টিক মহাসাগর — পৃথিবীর এক-তৃতীয়াংশ জুড়ে আছে",
+    "সুমেরু মহাসাগর — ভূমধ্যসাগর ও লোহিত সাগরকে যুক্ত করেছে"
+   ],
+   "e": "সঠিক জোড়: ভারত মহাসাগর — একমাত্র মহাসাগর যার নাম একটি দেশের নামে। 'S' আকৃতি ও দ্বিতীয় বৃহত্তম — আটলান্টিক; এক-তৃতীয়াংশ জুড়ে — প্রশান্ত; ভূমধ্যসাগর–লোহিত সাগর সংযোগ — সুয়েজ খাল।"
+  },
+  {
+   "id": "q39",
+   "level": "exam",
+   "format": "ASSERTION_REASON",
+   "section": "lakes_deserts",
+   "claims": [
+    "c32"
+   ],
+   "q": "**বক্তব্য (A):** মৃত সাগরে সাঁতারুরা ভেসে থাকে।\n\n**কারণ (R):** মৃত সাগরের লবণতা প্রতি লিটারে ৩৪০ গ্রাম, তাই এর জল খুব ঘন।",
+   "a": "A ও R উভয়ই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+   "w": [
+    "A ও R উভয়ই সঠিক কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+    "A সঠিক কিন্তু R ভুল",
+    "A ভুল কিন্তু R সঠিক"
+   ],
+   "e": "A ও R উভয়ই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা — উচ্চ লবণতার কারণে জল এত ঘন যে সাঁতারুরা ভেসে থাকে।"
+  },
+  {
+   "id": "q40",
+   "level": "exam",
+   "format": "STATEMENT",
+   "section": "mountains_peaks",
+   "claims": [
+    "c23"
+   ],
+   "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. হিমালয় ও আল্পস নবীন ভাঁজ পর্বত।\n২. আরাবল্লী ভারতের অন্যতম প্রাচীন ভাঁজ পর্বতশ্রেণি।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "১ ও ২ উভয়ই",
+   "w": [
+    "শুধুমাত্র ১",
+    "শুধুমাত্র ২",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "দুটি বিবৃতিই সঠিক: হিমালয় ও আল্পস নবীন ভাঁজ পর্বত; আরাবল্লী অন্যতম প্রাচীন ভাঁজ পর্বতশ্রেণি।"
+  }
+ ]
+}
