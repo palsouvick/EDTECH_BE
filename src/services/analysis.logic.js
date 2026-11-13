@@ -573,6 +573,7 @@ function subjectSummary(chapters, answers) {
     accuracyPct: recent.length >= MIN_ANSWERS ? groupStats(recent).accuracyPct : null,
     answered: answers.length,
     weakChapters: chapters.filter((c) => c.focus.band === 'high').length,
+    needsAttentionChapters: chapters.filter((c) => c.focus.band === 'medium' || c.focus.band === 'high').length,
     incompleteChapters: started.filter((c) => !c.complete).length,
     strongChapters: chapters.filter((c) => c.focus.band === 'strong').length,
     openMistakes: chapters.reduce((a, c) => a + c.openMistakes, 0),

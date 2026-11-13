@@ -45,6 +45,15 @@ test('focus weights sum to 100 and a weak, skipped, mistake-heavy chapter outran
   assert.equal(A.focusScore({ answers: 0, skipped: 0, practicePct: 0, readingPct: 0 }).band, 'not_started');
 });
 
+test('subject summary: needs-attention counts medium and high chapters, weak counts high only', () => {
+  const ch = (band, mastery = null, started = true) => ({ started, mastery, focus: { band }, complete: false, openMistakes: 0, openSkips: 0, revision: { due: false }, time: { totalSec: 0 } });
+  const s = A.subjectSummary([ch('high', 40), ch('medium', 55), ch('low', 70), ch('strong', 90), ch('not_started', null, false)], []);
+  assert.equal(s.weakChapters, 1);
+  assert.equal(s.needsAttentionChapters, 2);
+  assert.equal(s.masteryPct, Math.round((40 + 55 + 70 + 90) / 4));
+  assert.equal(s.syllabusMasteryPct, Math.round((40 + 55 + 70 + 90) / 5));
+});
+
 test('why reasons carry the facts, and the action plan follows the accuracy', () => {
   const c = { answers: 35, wrong: 14, skipped: 6, recentAccuracy: 50, openMistakes: 5, repeatedMistakes: 3, readingPct: 100, practicePct: 60, unique: 36, practiceGoal: 60, pyqPct: 35, pyqSolved: 7, pyqTotal: 20, revisionPct: 20, daysSinceRevision: 18, daysSinceTouched: 18, priority: 'MUST', trend: {}, hardAccuracy: null, mastery: 45 };
   const why = A.whyReasons(c, A.focusScore(c));
@@ -295,6 +304,8 @@ test('Mathematics: weak chapter, skips, mistakes, reading gap and the study-now 
   assert.ok(pct.focus.score > avg.focus.score);
   assert.equal(d.studyNow[0].topic, 'percentage');
   assert.equal(d.nextTask.topic, 'percentage');
+  assert.equal(d.summary.weakChapters, 1);
+  assert.equal(d.summary.needsAttentionChapters, 1, 'percentage (high) needs attention; average does not');
   assert.equal(d.summary.openSkips, 3);
   assert.ok(d.skippedQuestions.every((s) => s.likelyReason === 'did_not_understand' && s.timeBeforeSkipSec === 4));
   assert.equal(d.weakQuestions[0].wrongCount, 2);
