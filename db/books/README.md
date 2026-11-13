@@ -140,3 +140,25 @@ The text is written in our own words: explain, do not translate NCERT paragraphs
   present. STATEMENT and MATCH options follow the formats in `db/gk/README.md`.
 - A question's distractors must be definitely wrong according to the claims. "All of the above" and "None of these" are not allowed.
 - `status: PUBLISHED` requires `verification.status: VERIFIED`. Questions reach students only from a PUBLISHED chapter.
+
+## The Geography book (`db/books/geography/`, codes `GEO-NN`)
+
+Plan, table of contents and owner decisions: `docs/GEOGRAPHY_BOOK_PLAN.md` (TOC in `geography/toc.js`, chapters 1–16).
+The record is the same as History's, with these differences (the validator's `PROFILES.geography`):
+
+- `book: "geography"`, `code: "GEO-03"`, `part`: `india_land | india_resources | west_bengal | earth_world`;
+  `subtopics` from the Geography GK card (`rivers`, `west_bengal_geography`, …).
+- `events`, `people` and `timeline` are optional (leave them out, or use them only where a date really matters,
+  for example a dam's year of completion).
+- **`locate` is required** (at least 6 rows): the "Locate it" table, place → where → what to remember.
+  ```jsonc
+  "locate": [{ "place": "গঙ্গোত্রী হিমবাহ", "where": "উত্তরাখণ্ড", "about": "ভাগীরথীর উৎস", "section": "himalayan", "claims": ["c04"] }]
+  ```
+- `cause_effect` reads as cause → effect (for example why the peninsular rivers are seasonal).
+- `bengal_connection` is the **West Bengal connection** of the chapter.
+- Sources: NCERT and WBBSE, as for History, **plus official Government of India / West Bengal pages**
+  (`https://…gov.in/…`, `https://…nic.in/…`) for list facts the textbooks do not carry: districts, dams, national
+  parks (owner decision of 2026-11-13). Quote the page verbatim like any other source and record the date you read it
+  (`accessed_at`). A news site, Wikipedia or a coaching site is never a source.
+- Maps are not drawn yet (owner decision of 2026-11-13): use the `locate` table, and where a figure helps, say which
+  textbook figure to look at (for example "NCERT XI ভারত: প্রাকৃতিক পরিবেশ, চিত্র ৩.১").

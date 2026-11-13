@@ -141,6 +141,37 @@ test('validator: the fixture is valid; missing parts, bad sources and bad questi
   assert.ok(codes(chapter({ subtopics: ['dinosaurs'] })).includes('UNKNOWN_SUBTOPIC'));
 });
 
+test('validator: Geography has a "locate it" table instead of a timeline, and may cite official government pages', () => {
+  const codes = (ch) => validateChapter(ch).map((e) => e.code);
+  const row = (i) => ({ place: `স্থান ${i}`, where: 'উত্তরাখণ্ড', about: 'নদীর উৎস', section: 'discovery', claims: ['c01'] });
+  const geo = (overrides = {}) => {
+    const ch = chapter({ book: 'geography', code: 'GEO-03', number: 3, part: 'india_land', subtopics: ['rivers'], locate: Array.from({ length: 6 }, (_, i) => row(i)), ...overrides });
+    delete ch.timeline;
+    delete ch.events;
+    delete ch.people;
+    return ch;
+  };
+  assert.deepEqual(validateChapter(geo()), [], 'no timeline, events or people needed');
+  assert.ok(codes(geo({ locate: [row(1)] })).includes('REQUIRED'), 'too few locate rows');
+  assert.ok(codes(geo({ locate: [...geo().locate.slice(1), { ...row(9), where: 'Uttarakhand' }] })).includes('NOT_BENGALI'));
+  assert.ok(codes(geo({ part: 'ancient' })).includes('BAD_PART'));
+  assert.ok(codes(geo({ code: 'HIS-03' })).includes('BAD_CODE'));
+  assert.ok(codes(geo({ subtopics: ['ivc'] })).includes('UNKNOWN_SUBTOPIC'));
+  const govt = [{ id: 's1', title: 'District list', url: 'https://wb.gov.in/districts.aspx' }];
+  assert.deepEqual(validateChapter(geo({ sources: govt })), [], 'official *.gov.in pages are allowed for Geography');
+  assert.ok(codes(chapter({ sources: govt })).includes('SOURCE_NOT_ALLOWED'), 'but not for History');
+  assert.ok(codes(geo({ sources: [{ id: 's1', title: 'x', url: 'https://example.com/a' }] })).includes('SOURCE_NOT_ALLOWED'));
+  assert.ok(codes({ ...geo(), book: 'polity' }).includes('BAD_BOOK'));
+});
+
+test('the real Geography folder: table of contents 1-16 in four parts, every chapter file valid', () => {
+  const toc = require('../db/books/geography/toc.js');
+  assert.deepEqual(toc.CHAPTERS.map((c) => c.number), Array.from({ length: 16 }, (_, i) => i + 1));
+  assert.ok(toc.CHAPTERS.every((c) => toc.PARTS.some((p) => p.code === c.part)));
+  const real = books.loadBook('geography', { dir: path.join(__dirname, '../db/books'), fresh: true });
+  assert.deepEqual(real.errors, [], 'every chapter file in db/books/geography passes the validator');
+});
+
 test('the real book folder: table of contents has chapters 0-28 and every chapter file is valid', () => {
   const toc = require('../db/books/history/toc.js');
   assert.deepEqual(toc.CHAPTERS.map((c) => c.number), Array.from({ length: 29 }, (_, i) => i));
@@ -166,7 +197,8 @@ test('table of contents: published chapters are available, drafts and unwritten 
   assert.equal(byCode['HIS-22'].available, false, 'a DRAFT chapter is hidden from students');
   assert.equal(byCode['HIS-03'].available, false);
   assert.equal((await get('/books/history?preview=1')).body.data.chapters.find((c) => c.code === 'HIS-22').available, false, 'preview needs an admin');
-  assert.equal((await get('/books/geography')).status, 400);
+  assert.equal((await get('/books/polity')).status, 400);
+  assert.equal((await get('/books/geography')).status, 404, 'a known book whose folder is not there yet');
 });
 
 test('chapter view: sections with depths, no claim quotes, PYQ evidence on sections and exam focus, neighbours', async () => {

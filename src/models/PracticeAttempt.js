@@ -16,6 +16,8 @@ const PracticeAttemptSchema = new Schema(
     category: { type: String }, // exam category the student practised under, when the client sent it
     correct: { type: Boolean, required: true },
     time_spent_sec: { type: Number, min: 0 },
+    // Where it was answered (learning analysis: time on practice vs revision). Unset on older attempts = practice.
+    source: { type: String, enum: ['practice', 'learn', 'review'] },
   },
   { collection: 'practice_attempts', timestamps: { createdAt: 'created_at', updatedAt: false } },
 );

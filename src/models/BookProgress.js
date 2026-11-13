@@ -12,7 +12,7 @@ const { Schema, model } = require('mongoose');
 const BookProgressSchema = new Schema(
   {
     user_id: { type: String, required: true },
-    book: { type: String, required: true, enum: ['history'] },
+    book: { type: String, required: true, enum: ['history', 'geography'] },
     depth: { type: String, enum: ['quick', 'standard', 'deep'], default: 'standard' },
     last: {
       chapter: { type: String, default: null },

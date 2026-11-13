@@ -1,0 +1,1526 @@
+{
+ "book": "geography",
+ "code": "GEO-02",
+ "number": 2,
+ "part": "india_land",
+ "title": "ভারতের প্রাকৃতিক বিভাগ: হিমালয়, সমভূমি, মালভূমি, মরুভূমি, উপকূল ও দ্বীপ",
+ "subtitle": "ছয়টি ভূপ্রাকৃতিক বিভাগ ও তাদের প্রধান শৃঙ্গ, সমভূমি, ঘাট, দ্বীপ",
+ "subtopics": [
+  "physical_india",
+  "mountains_plateaus"
+ ],
+ "related_facts": [],
+ "prerequisites": [],
+ "reading_minutes": {
+  "quick": 8,
+  "standard": 35,
+  "deep": 42
+ },
+ "status": "DRAFT",
+ "verification": {
+  "status": "VERIFIED",
+  "checked_at": "2026-11-13",
+  "notes": "Key check (owner rule 2026-11-13, no word-by-word check): 41/41 keys confirmed; fixed: none. Prose reworded for geographic clarity: Khyber/Bolan not Himalayan passes; Shiwalik vs Great Himalaya separate ranges; Ladakh location."
+ },
+ "overview": {
+  "intro": "ভারতের মানচিত্রে উত্তরে হিমালয়, মাঝে গঙ্গা-ব্রহ্মপুত্রের সমভূমি, দক্ষিণে মালভূমি, পশ্চিমে মরুভূমি আর দুই পাশে উপকূল ও দ্বীপ। পরীক্ষায় প্রশ্ন আসে কোন পর্বতশ্রেণি কোথায়, কোন শৃঙ্গ কত উঁচু, ভাবর-তরাই-ভাঙর-খাদারের ক্রম, দুই ঘাটের নাম ও শৃঙ্গ, মরুভূমির বৈশিষ্ট্য এবং আন্দামান-লাক্ষাদ্বীপের খুঁটিনাটি। এই অধ্যায়ে প্রথমে ভূগঠনের তিন ভাগ ও ছয়টি ভূপ্রাকৃতিক বিভাগ বুঝে, তারপর এক এক করে প্রতিটি বিভাগ পড়া হবে। নদনদী নিয়ে আলাদা অধ্যায় আছে, এখানে শুধু ভূমিরূপ।",
+  "you_will_learn": [
+   "ভূগঠনের তিন ভাগ ও ভূপ্রকৃতির ছয় ভাগ",
+   "হিমালয়ের শ্রেণি, মাপ ও গিরিপথ",
+   "ভাবর, তরাই, ভাঙর, খাদার",
+   "দাক্ষিণাত্য, মধ্য উচ্চভূমি, মেঘালয় ও ছোটনাগপুর মালভূমি",
+   "পশ্চিমঘাট, পূর্বঘাট, আনাইমুদি, ডোডাবেট্টা",
+   "থর মরুভূমি ও লাদাখের শীতল মরুভূমি",
+   "পশ্চিম ও পূর্ব উপকূল, আন্দামান-নিকোবর ও লাক্ষাদ্বীপ"
+  ]
+ },
+ "sections": [
+  {
+   "id": "divisions",
+   "heading": "ভারতের ভূগঠন ও ছয়টি প্রাকৃতিক বিভাগ",
+   "quick": "ভূগঠনের দিক থেকে ভারত তিন ভাগে বিভক্ত: কঠিন উপদ্বীপীয় ভূখণ্ড, নবীন হিমালয় ও অন্যান্য পর্বত, আর গাঙ্গেয়-ব্রহ্মপুত্র সমভূমি। ভূপ্রকৃতির দিক থেকে ভারতের ছয়টি বিভাগ: উত্তর ও উত্তর-পূর্বের পর্বত, উত্তরের সমভূমি, উপদ্বীপীয় মালভূমি, মরুভূমি, উপকূলীয় সমভূমি ও দ্বীপপুঞ্জ।",
+   "standard": "ভারতের মানচিত্রে চোখ বোলালে দেখা যায়, উত্তরে উঁচু পর্বতের সারি, তার নীচে বিস্তীর্ণ সমভূমি, আরও দক্ষিণে মালভূমি, আর দুই পাশে সাগর। এই বৈচিত্র্য এক দিনে তৈরি হয়নি। পৃথিবীর ভেতরের শক্তি (অন্তর্জাত শক্তি) আর বাইরের শক্তি (নদী, বায়ু, হিমবাহ, সমুদ্রতরঙ্গ) কোটি কোটি বছর ধরে ভূমিরূপ গড়েছে। এনসিইআরটি বলছে, লক্ষ লক্ষ বছর আগে ভারতীয় পাত আজকের চেয়ে অনেক দক্ষিণে ছিল; সে উত্তর দিকে সরে এসেছে, আর সেই সরণ এখনও চলছে। পশ্চিমবঙ্গের পাঠ্যবই বলে, ভারতীয় ও ইউরেশীয় পাতের মাঝের **টেথিস সাগর (Tethys Sea)**-এর পলি ভাঁজ খেয়ে হিমালয় তৈরি হয়েছে।\n\n**ভূগঠন অনুযায়ী তিন ভাগ (Geological divisions).** এনসিইআরটি ভারতকে তিন ভাগে ভাগ করেছে:\n\n১. **উপদ্বীপীয় ভূখণ্ড (Peninsular Block):** অতি প্রাচীন নাইস ও গ্রানাইট শিলায় গড়া শক্ত, স্থির ভূখণ্ড। এর উত্তর সীমা কচ্ছ থেকে দিল্লির কাছে আরাবল্লীর পাশ ধরে যমুনা ও গঙ্গার সমান্তরালে রাজমহল পাহাড় ও গঙ্গার বদ্বীপ পর্যন্ত টানা একটি আঁকাবাঁকা রেখা। এখানে নর্মদা, তাপ্তী ও মহানদীর **ফাটল উপত্যকা (Rift valley)** আছে, আছে সাতপুরা স্তূপ পর্বত। বেশিরভাগ পাহাড়ই প্রাচীন, ক্ষয়ে যাওয়া অবশেষ, যেমন আরাবল্লী।\n২. **হিমালয় ও অন্যান্য পর্বত:** নবীন, দুর্বল ও নমনীয় গঠন। তাই এখানে এখনও ভাঁজ, চ্যুতি ও ঠেলা-চ্যুতি তৈরি হচ্ছে। দ্রুতগামী নদী কেটে গিরিখাত, V-আকৃতির উপত্যকা, দ্রুতধারা ও জলপ্রপাত গড়েছে।\n৩. **গাঙ্গেয়-ব্রহ্মপুত্র সমভূমি:** আগে এটি একটি গভীর নিম্নভূমি ছিল; হিমালয় ও উপদ্বীপের নদীর বয়ে আনা পলিতে ক্রমশ ভরাট হয়েছে। পলির গভীরতা গড়ে ১,০০০–২,০০০ মিটার।\n\n**ভূপ্রকৃতি অনুযায়ী ছয় ভাগ (Physiographic divisions).** পরীক্ষায় এই ছয় ভাগই বেশি আসে:\n\n| ক্রম | বিভাগ |\n|---|---|\n| ১ | উত্তর ও উত্তর-পূর্বের পর্বতমালা (হিমালয় ও উত্তর-পূর্বের পাহাড়) |\n| ২ | উত্তরের সমভূমি |\n| ৩ | উপদ্বীপীয় মালভূমি |\n| ৪ | ভারতীয় মরুভূমি |\n| ৫ | উপকূলীয় সমভূমি |\n| ৬ | দ্বীপপুঞ্জ |\n\nমনে রাখুন, তিন ভাগ হল ভূগঠনের হিসাব, ছয় ভাগ ভূপ্রকৃতির হিসাব। প্রশ্নে \"প্রাকৃতিক বিভাগ\" বা \"ভূপ্রাকৃতিক বিভাগ\" লেখা থাকলে ছয় ভাগই ধরতে হয়। নদী ও হ্রদের বিস্তারিত আলোচনা পরের অধ্যায়ে আছে; এখানে আমরা শুধু ভূমিরূপ দেখব।\n\n**ভারতের আকার ও সীমানা.** ভারতের মূল ভূখণ্ড উত্তরে কাশ্মীর থেকে দক্ষিণে কন্যাকুমারী পর্যন্ত। মূল ভূখণ্ডের উপকূলরেখা ৬,১০০ কিমি, দ্বীপগুলি ধরলে ৭,৫১৭ কিমি। শ্রীলঙ্কাকে ভারত থেকে আলাদা করেছে মান্নার উপসাগর ও পক প্রণালী।",
+   "deep": "পরীক্ষার জন্য একটি তুলনা মনে রাখুন। এনসিইআরটি হিমালয়কে নবীন ও নমনীয়, আর উপদ্বীপকে প্রাচীন ও শক্ত বলে। তাই হিমালয়ে ভাঁজ ও চ্যুতি এখনও সক্রিয়, আর উপদ্বীপের নদীর উপত্যকা অগভীর ও ঢাল কম। ভূখণ্ডের উত্তর-পূর্ব অংশ (মেঘালয় ও কার্বি অ্যাংলং) পশ্চিমবঙ্গের **মালদা চ্যুতি (Malda fault)** দিয়ে ছোটনাগপুর মালভূমি থেকে আলাদা, যদিও দুটিই উপদ্বীপীয় ভূখণ্ডের অংশ।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "তিন ভাগ বনাম ছয় ভাগ",
+     "body": "ভূগঠন অনুযায়ী **৩ ভাগ**; ভূপ্রকৃতি (physiography) অনুযায়ী **৬ ভাগ**। \"ভারতের প্রাকৃতিক বিভাগ কয়টি\" প্রশ্নে সাধারণত ৬ উত্তর।"
+    },
+    {
+     "kind": "remember",
+     "title": "ছয় বিভাগের ক্রম",
+     "body": "পর্বত → সমভূমি → মালভূমি → মরুভূমি → উপকূল → দ্বীপ। উত্তর থেকে দক্ষিণে এগোলে এই ক্রমেই আসে।"
+    }
+   ],
+   "claims": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c28",
+    "c30",
+    "c34"
+   ]
+  },
+  {
+   "id": "himalaya",
+   "heading": "উত্তর ও উত্তর-পূর্বের পর্বতমালা: হিমালয় ও গিরিপথ",
+   "quick": "হিমালয় অনেকগুলি সমান্তরাল পর্বতশ্রেণির সমষ্টি; মহা হিমালয় (Great Himalayan range) প্রায় ২,৫০০ কিমি লম্বা। সবচেয়ে দক্ষিণে শিবালিক। হিমালয় জলবায়ু, নদী ও সংস্কৃতির বিভাজক, আর হাতে-গোনা কয়েকটি গিরিপথই পার হওয়ার উপায়।",
+   "standard": "উত্তর ও উত্তর-পূর্বের পর্বতমালা বলতে হিমালয় আর উত্তর-পূর্বের পাহাড় বোঝায়। **হিমালয় (Himalaya)** কোনও একটি পর্বতশ্রেণি নয়, বরং **সমান্তরাল অনেকগুলি পর্বতশ্রেণির** মালা। এনসিইআরটি যে প্রধান শ্রেণিগুলির নাম করেছে তার মধ্যে আছে মহা হিমালয় (Great Himalayas) এবং শিবালিক (Shiwalik)। এই দুটি নিয়ে গড়া অংশকে বইতে \"Greater Himalayan range\" বলা হয়েছে। তবে দুটি আলাদা শ্রেণি: শিবালিক সমভূমির পাশে সবচেয়ে দক্ষিণের শ্রেণি, আর মহা হিমালয় কেন্দ্রীয় অক্ষ।\n\n**দিক ও মাপ.** উত্তর-পশ্চিম ভারতে এই শ্রেণিগুলি উত্তর-পশ্চিম থেকে দক্ষিণ-পূর্বে চলে গেছে। দার্জিলিং ও সিকিম অঞ্চলে হিমালয় পূর্ব-পশ্চিমে বিস্তৃত। নাগাল্যান্ড, মণিপুর ও মিজোরামে পাহাড়ের সারি উত্তর-দক্ষিণমুখী। মহা হিমালয়কে **কেন্দ্রীয় অক্ষীয় পর্বতশ্রেণি (Central axial range)**-ও বলা হয়; এর দৈর্ঘ্য পূর্ব থেকে পশ্চিমে প্রায় ২,৫০০ কিমি, আর উত্তর-দক্ষিণে প্রস্থ ১৬০–৪০০ কিমি।\n\n**হিমালয় একটি প্রাচীর.** ভারতীয় উপমহাদেশ আর মধ্য ও পূর্ব এশিয়ার মাঝে হিমালয় উঁচু দেওয়ালের মতো দাঁড়িয়ে। এনসিইআরটি তাই একে শুধু ভৌগোলিক বাধা নয়, **জলবায়ু, নিষ্কাশন ও সংস্কৃতির বিভাজক** বলেছে। হাতে-গোনা কয়েকটি **গিরিপথ (Mountain pass)** ছাড়া এই প্রাচীর পেরোনো কঠিন ছিল। এনসিইআরটি-র নাম করা পথগুলি হল খাইবার, বোলান, শিপকিলা, নাথুলা ও বোমডিলা। খেয়াল রাখুন, খাইবার ও বোলান ভারতের হিমালয়ের পথ নয়; সেগুলি উত্তর-পশ্চিমে বর্তমান পাকিস্তান-আফগানিস্তান অঞ্চলের পথ। ভারতের উত্তর-পূর্বে সীমানা ঘিরে আছে পূর্বাচল পাহাড়।\n\n**শৃঙ্গ.** হিমালয়ের মাউন্ট এভারেস্ট (৮,৮৪৮ মিটার) পৃথিবীর সর্বোচ্চ শৃঙ্গ; পশ্চিমবঙ্গের পাঠ্যবইয়ে তা-ই লেখা আছে। দার্জিলিং থেকে দেখা বরফঢাকা কাঞ্চনজঙ্ঘার কথাও বইয়ে আছে। মনে রাখুন, সংজ্ঞা অনুযায়ী ৯০০ মিটারের বেশি উঁচু, বিস্তৃত শিলাগঠিত ভূমিরূপকে পর্বত বলে, আর আশপাশ থেকে হঠাৎ উঁচু (সাধারণত ৩০০ মিটারের বেশি) সমতল-উপরিভাগ ভূমিকে মালভূমি বলে।\n\n**কাশ্মীর, লাদাখ ও হিমাচল অঞ্চলের শ্রেণি.** নদীর প্রসঙ্গে এনসিইআরটি কয়েকটি শ্রেণির নাম করেছে। সিন্ধু নদ লাদাখ ও জাস্কর শ্রেণির মাঝ দিয়ে বয়ে যায়। ঝিলমের উৎস কাশ্মীর উপত্যকার দক্ষিণ-পূর্বে পীর পাঞ্জাল শ্রেণির পাদদেশে ভেরিনাগ ঝরনা। রাভি রোহতাং গিরিপথের পশ্চিমে হিমাচলপ্রদেশের কুলু পাহাড়ে জন্মে পীর পাঞ্জাল ও ধৌলাধর শ্রেণির মাঝের অঞ্চল নিষ্কাশন করে। লাদাখ একটি **শীতল মরুভূমি (Cold desert)**: এর উত্তরে কারাকোরাম আর দক্ষিণে জাস্কর পর্বত। এনসিইআরটি (সপ্তম শ্রেণি) একে \"মহা হিমালয়ে\" বলেছে; ভূগোলের হিসাবে এটি জাস্কর ও কারাকোরামের মাঝের উঁচু, শুষ্ক অঞ্চল।\n\n**উত্তর-পূর্বের পাহাড়.** মেঘালয়ের গারো, খাসি ও জয়ন্তিয়া পাহাড় আসলে উপদ্বীপীয় মালভূমির বিচ্ছিন্ন অংশ; সেগুলি মালভূমির অংশে আলোচিত হবে।",
+   "deep": "এই বইয়ের উৎস এনসিইআরটি ও পশ্চিমবঙ্গের পাঠ্যবইয়ে হিমালয়ের হিমাদ্রি-হিমাচল-শিবালিক নামের ভাগ, কাঞ্চনজঙ্ঘা বা নন্দাদেবীর উচ্চতা, বা কোন গিরিপথ কোন রাজ্যে, এসবের বিবরণ নেই। তাই এগুলি আমরা এখানে সংখ্যা দিয়ে লিখছি না; পরীক্ষার প্রস্তুতিতে এই অংশগুলি আলাদা করে ঝালিয়ে নেবেন।",
+   "boxes": [
+    {
+     "kind": "dont_confuse",
+     "title": "শিবালিক ও মহা হিমালয়",
+     "body": "শিবালিক হল সমভূমির পাশের শ্রেণি, যার পাদদেশে ভাবর বলয়। মহা হিমালয় হল কেন্দ্রীয় অক্ষীয় শ্রেণি, যার দৈর্ঘ্য প্রায় ২,৫০০ কিমি।"
+    },
+    {
+     "kind": "exam_note",
+     "title": "এভারেস্ট ও কারাকোরাম",
+     "body": "এভারেস্ট হিমালয়ে হলেও পশ্চিমবঙ্গের বই শুধু বলে সেটি পৃথিবীর সর্বোচ্চ শৃঙ্গ; ভারতের সর্বোচ্চ শৃঙ্গ কোনটি, তা এই উৎসগুলিতে নেই। কারাকোরাম লাদাখের উত্তরের শ্রেণি।"
+    },
+    {
+     "kind": "bengal",
+     "title": "দার্জিলিং ও কাঞ্চনজঙ্ঘা",
+     "body": "দার্জিলিং-সিকিম অঞ্চলে হিমালয় পূর্ব-পশ্চিমে বিস্তৃত। দার্জিলিং থেকে বরফঢাকা কাঞ্চনজঙ্ঘা দেখা যায়।"
+    }
+   ],
+   "claims": [
+    "c05",
+    "c06",
+    "c22",
+    "c23",
+    "c24",
+    "c25",
+    "c32",
+    "c03"
+   ]
+  },
+  {
+   "id": "plains",
+   "heading": "উত্তরের সমভূমি: ভাবর, তরাই, ভাঙর ও খাদার",
+   "quick": "সিন্ধু, গঙ্গা ও ব্রহ্মপুত্রের পলিতে গড়া এই সমভূমি প্রায় ৩,২০০ কিমি লম্বা। উত্তর থেকে দক্ষিণে এর অঞ্চলগুলি: ভাবর, তরাই, তারপর ভাঙর (পুরনো পলি) ও খাদার (নতুন পলি)।",
+   "standard": "হিমালয় আর উপদ্বীপীয় মালভূমির মাঝে যে সমতল ভূমি, তা তৈরি হয়েছে **সিন্ধু, গঙ্গা ও ব্রহ্মপুত্র** এবং তাদের উপনদীর বয়ে আনা **পলি (Alluvium)** জমে। পূর্ব থেকে পশ্চিমে এর দৈর্ঘ্য প্রায় ৩,২০০ কিমি। গড় প্রস্থ ১৫০–৩০০ কিমি। পলির স্তর সবচেয়ে বেশি ১,০০০–২,০০০ মিটার গভীর। সমভূমিটি প্রায় সমতল, সমুদ্রতল থেকে উচ্চতা ৫০–১৫০ মিটার।\n\n**উত্তর থেকে দক্ষিণে তিনটি বড় অঞ্চল:**\n\n- **ভাবর (Bhabar):** শিবালিকের পাদদেশ বরাবর ৮–১০ কিমি চওড়া সরু বলয়। পাহাড় থেকে নেমে আসা নদী ঢাল কমে যাওয়ায় এখানে বড় নুড়ি ও পাথর ফেলে রাখে; কখনও নদী মাটির নীচে অদৃশ্য হয়ে যায়।\n- **তরাই (Tarai):** ভাবরের দক্ষিণে, প্রস্থ আনুমানিক ১০–২০ কিমি। ভাবরে হারিয়ে যাওয়া নদীগুলি এখানে আবার ওপরে উঠে আসে, কিন্তু নির্দিষ্ট খাত থাকে না। তাই এটি জলাভূমির মতো স্যাঁতসেঁতে। এখানে ঘন প্রাকৃতিক উদ্ভিদ ও নানা বন্যপ্রাণী।\n- **পলিভূমি:** তরাইয়ের দক্ষিণে। পুরনো পলির অংশ **ভাঙর (Bhangar)**, নতুন পলির অংশ **খাদার (Khadar)**।\n\nভাঙর ও খাদার অঞ্চলে নদীর পরিণত অবস্থার ভূমিরূপ দেখা যায়: বালির চর, নদীর বাঁক (মিয়েন্ডার), অশ্বক্ষুরাকৃতি হ্রদ (Ox-bow lake) ও বিনুনি-আকৃতির খাত (Braided channel)। ব্রহ্মপুত্র সমভূমি নদীবক্ষের দ্বীপ ও চরের জন্য বিখ্যাত। এই অঞ্চলে বারবার বন্যা হয়, নদীও গতিপথ বদলায়।\n\n**আরও কয়েকটি মনে রাখার কথা:**\n\n- হরিয়ানা ও দিল্লি **সিন্ধু ও গঙ্গা নদী ব্যবস্থার জলবিভাজিকা**।\n- ব্রহ্মপুত্র উত্তর-পূর্ব থেকে দক্ষিণ-পশ্চিমে বয়ে ধুবড়িতে প্রায় ৯০° দক্ষিণে বাঁক নিয়ে বাংলাদেশে ঢোকে।\n- এই নদীগুলির মোহনায় পৃথিবীর বৃহত্তম বদ্বীপগুলির একটি, বিখ্যাত **সুন্দরবন (Sundarbans)**।\n- উর্বর পলিমাটিতে গম, ধান, আখ ও পাট ভালো হয়, ফলে ঘনবসতি।",
+   "deep": "ক্রম মনে রাখার সহজ উপায়: পাহাড় থেকে নামুন, পাবেন ভাবর (পাথর-নুড়ি, নদী অদৃশ্য), তরাই (নদী পুনরায় ওপরে, জলাজমি), তারপর ভাঙর (পুরনো পলি), খাদার (নতুন পলি)। \"ভাবরে নদী লুকোয়, তরাইয়ে ওঠে\" এভাবে মনে রাখুন।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "ভাবর ও তরাইয়ের ক্রম ও মাপ",
+     "body": "পাহাড়ের কাছে ভাবর (৮–১০ কিমি), তারপর তরাই (১০–২০ কিমি)। ক্রম উল্টে দিলে ভুল।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "ভাঙর ও খাদার",
+     "body": "ভাঙর = পুরনো পলি; খাদার = নতুন পলি। দুটিই তরাইয়ের দক্ষিণে।"
+    },
+    {
+     "kind": "bengal",
+     "title": "সুন্দরবন",
+     "body": "গঙ্গা-ব্রহ্মপুত্রের বদ্বীপ সুন্দরবন; এটি পশ্চিমবঙ্গের একটি জীবমণ্ডল সংরক্ষিত এলাকাও (বায়োস্ফিয়ার রিজার্ভ)।"
+    }
+   ],
+   "claims": [
+    "c07",
+    "c08",
+    "c09",
+    "c10",
+    "c11",
+    "c35"
+   ]
+  },
+  {
+   "id": "plateau",
+   "heading": "উপদ্বীপীয় মালভূমি: দাক্ষিণাত্য, মধ্য উচ্চভূমি ও উত্তর-পূর্ব মালভূমি",
+   "quick": "উপদ্বীপীয় মালভূমি ৬০০–৯০০ মিটার উঁচু ত্রিভুজাকৃতি প্রাচীন ভূখণ্ড। এর তিনটি ভাগ: দাক্ষিণাত্য মালভূমি (পশ্চিমঘাট ও পূর্বঘাটের মাঝে), মধ্য উচ্চভূমি (আরাবল্লী, বিন্ধ্য, সাতপুরা), উত্তর-পূর্ব মালভূমি (মেঘালয়)। উপদ্বীপের সর্বোচ্চ শৃঙ্গ আনাইমুদি।",
+   "standard": "নদী-সমভূমির দক্ষিণে ১৫০ মিটার থেকে ঢাল উঠতে উঠতে ৬০০–৯০০ মিটার উচ্চতায় পৌঁছায় **উপদ্বীপীয় মালভূমি (Peninsular Plateau)**। আকারে এটি অনিয়মিত ত্রিভুজ। এর বাইরের সীমানা: উত্তর-পশ্চিমে দিল্লি রিজ (আরাবল্লীর প্রসার), পূর্বে রাজমহল পাহাড়, পশ্চিমে গির শ্রেণি, দক্ষিণে এলাচ পাহাড় (Cardamom hills)। উত্তর-পূর্বে শিলং ও কার্বি অ্যাংলং মালভূমি এরই বিস্তার। ভারতের অন্যতম প্রাচীন ও স্থির ভূখণ্ড এটি। এর মধ্যে ছোট ছোট মালভূমি আছে: হাজারিবাগ, পালামৌ, রাঁচি, মালব, কোয়েম্বাটোর ও কর্ণাটক মালভূমি। সামগ্রিক ঢাল পশ্চিম থেকে পূর্বে, নদীর প্রবাহ থেকেই তা বোঝা যায়।\n\nপশ্চিমবঙ্গের পাঠ্যবই বলে, দাক্ষিণাত্য ও মালব মালভূমি লাভা জমে গঠিত **লাভা মালভূমি**।\n\n**তিন ভাগ.** এনসিইআরটি উপদ্বীপীয় মালভূমিকে তিন ভাগে ভাগ করেছে।\n\n**১. দাক্ষিণাত্য মালভূমি (Deccan Plateau).** পশ্চিমে পশ্চিমঘাট, পূর্বে পূর্বঘাট, উত্তরে সাতপুরা, মাইকাল ও মহাদেও পাহাড় দিয়ে ঘেরা।\n\n- **পশ্চিমঘাট (Western Ghats)** স্থানভেদে বিভিন্ন নামে পরিচিত: মহারাষ্ট্রে **সহ্যাদ্রি**, কর্ণাটক ও তামিলনাড়ুতে **নীলগিরি**, কেরলে **আনাইমালাই** ও **এলাচ পাহাড়**। এটি পূর্বঘাটের চেয়ে উঁচু ও বেশি অবিচ্ছিন্ন; গড় উচ্চতা প্রায় ১,৫০০ মিটার, উত্তর থেকে দক্ষিণে বাড়ে। উপদ্বীপের বেশিরভাগ নদী এখানে জন্মেছে।\n- **আনাইমুদি (Anaimudi, ২,৬৯৫ মিটার)** আনাইমালাই পাহাড়ে, উপদ্বীপীয় মালভূমির সর্বোচ্চ শৃঙ্গ। দ্বিতীয় **ডোডাবেট্টা (Dodabetta, ২,৬৩৭ মিটার)** নীলগিরি পাহাড়ে।\n- **পূর্বঘাট (Eastern Ghats)** বিচ্ছিন্ন, নীচু পাহাড়ের সারি, মহানদী, গোদাবরী, কৃষ্ণা, কাবেরী প্রভৃতি নদী একে ক্ষয় করে কেটে দিয়েছে। প্রধান শ্রেণি: জাভাদি, পালকোন্ডা, নল্লামালা, মহেন্দ্রগিরি। পূর্ব ও পশ্চিমঘাট **নীলগিরি পাহাড়ে** মিলিত হয়েছে।\n- পশ্চিমঘাটে বাধা পেয়ে আরব সাগরের মৌসুমি বায়ু পশ্চিম ঢালে প্রচুর বৃষ্টি ঢালে; পূর্ব ঢালের দাক্ষিণাত্যের অংশ বৃষ্টিচ্ছায় অঞ্চল।\n\n**২. মধ্য উচ্চভূমি (Central Highlands).** পশ্চিমে আরাবল্লী শ্রেণি। দক্ষিণে সাতপুরা, ৬০০–৯০০ মিটার উঁচু ধাপযুক্ত মালভূমির সারি, যা দাক্ষিণাত্যের উত্তর সীমা। সাতপুরাকে এনসিইআরটি ক্ষয়প্রাপ্ত অবশিষ্ট পর্বত বলেছে। যমুনার অনেক উপনদী বিন্ধ্য ও কৈমুর শ্রেণিতে জন্মায়। চম্বলের একমাত্র উল্লেখযোগ্য উপনদী বানাস আরাবল্লী থেকে এসেছে। চম্বল, ভিন্ড ও মোরেনার খাদ-গিরিখাত বিখ্যাত। মধ্য উচ্চভূমির পূর্ব প্রসার রাজমহল পাহাড়, তার দক্ষিণে খনিজসমৃদ্ধ ছোটনাগপুর মালভূমি।\n\n**৩. উত্তর-পূর্ব মালভূমি (Northeastern Plateau).** হিমালয় উৎপত্তির সময় ভারতীয় পাতের চাপে রাজমহল পাহাড় ও মেঘালয় মালভূমির মাঝে বড় ফাটল তৈরি হয়, পরে নদীর পলিতে ভরাট হয়। ফলে মেঘালয় ও কার্বি অ্যাংলং মালভূমি মূল ভূখণ্ড থেকে বিচ্ছিন্ন। মেঘালয় মালভূমির তিন ভাগ: **গারো, খাসি ও জয়ন্তিয়া পাহাড়**, জনজাতির নামে। এখানে কয়লা, লোহা, সিলিমানাইট, চুনাপাথর, ইউরেনিয়াম আছে। দক্ষিণ-পশ্চিম মৌসুমি বায়ুতে সর্বাধিক বৃষ্টির ফলে ক্ষয় বেশি; চেরাপুঞ্জিতে নগ্ন পাথুরে ভূমি।\n\n**ছোটনাগপুর.** পশ্চিমবঙ্গের পাঠ্যবই বলে, ছোটনাগপুর অঞ্চল প্রধানত গ্রানাইট শিলায় গঠিত, মাটির উর্বরতা কম; লোহা, তামা, বক্সাইট, ম্যাঙ্গানিজ, ডলোমাইট, মাইকা প্রচুর মেলে বলে একে ভারতের **খনিজ ভাণ্ডার** বলে।",
+   "deep": "আরাবল্লী নিয়ে দুই পাঠ্যবইয়ের ভাষা আলাদা: এনসিইআরটি বলে উপদ্বীপের ক্ষয়ে যাওয়া অবশেষ (relict) পর্বত; পশ্চিমবঙ্গের বই বলে প্রাচীন ভঙ্গিল পর্বত। দুই কথাই প্রাচীন ও বহু ক্ষয়ে নীচু পর্বত বোঝায়। আর সাতপুরা: পশ্চিমবঙ্গের বই বলে স্তূপ (ব্লক) পর্বত; এনসিইআরটি একই অধ্যায়ে সাতপুরাকে স্তূপ পর্বতও বলেছে, আবার ক্ষয়প্রাপ্ত অবশিষ্ট পর্বতও বলেছে।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "কোন শৃঙ্গ কোথায়",
+     "body": "**আনাইমুদি ২,৬৯৫ মিটার, আনাইমালাই (পশ্চিমঘাট)**, উপদ্বীপের সর্বোচ্চ। **ডোডাবেট্টা ২,৬৩৭ মিটার, নীলগিরি।** পূর্ব ও পশ্চিমঘাট মিলেছে **নীলগিরি** পাহাড়ে।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "পশ্চিমঘাটের নাম",
+     "body": "মহারাষ্ট্রে সহ্যাদ্রি; কর্ণাটক-তামিলনাড়ুতে নীলগিরি; কেরলে আনাইমালাই ও এলাচ পাহাড়।"
+    },
+    {
+     "kind": "bengal",
+     "title": "রাজমহল ও ছোটনাগপুর",
+     "body": "রাজমহল পাহাড় উপদ্বীপীয় মালভূমির পূর্ব সীমা; পশ্চিমবঙ্গের মালদা চ্যুতি উত্তর-পূর্বের মালভূমিকে ছোটনাগপুর থেকে আলাদা করেছে।"
+    }
+   ],
+   "claims": [
+    "c02",
+    "c12",
+    "c13",
+    "c14",
+    "c15",
+    "c16",
+    "c26",
+    "c27",
+    "c31",
+    "c33",
+    "c34"
+   ]
+  },
+  {
+   "id": "desert",
+   "heading": "ভারতীয় মরুভূমি: থর বা মরুস্থলী",
+   "quick": "আরাবল্লীর উত্তর-পশ্চিমে মরুস্থলী (Marusthali), বার্ষিক বৃষ্টি ১৫০ মিমির কম। এখানে বালিয়াড়ি ও বারখান আছে, নদী মরসুমি, দক্ষিণের উল্লেখযোগ্য নদী লুনি।",
+   "standard": "**ভারতীয় মরুভূমি (Great Indian Desert)** আরাবল্লী পাহাড়ের উত্তর-পশ্চিমে। দেশি নাম **মরুস্থলী (Marusthali)**। এখানে বার্ষিক বৃষ্টি ১৫০ মিমির কম, তাই জলবায়ু শুষ্ক আর গাছপালা বিরল। ভূমি ঢেউ খেলানো, তার ওপর লম্বা বালিয়াড়ি (**Longitudinal dune**) ও অর্ধচন্দ্রাকার বালিয়াড়ি **বারখান (Barchan)**।\n\n**ভূমিরূপ.** মরুভূমির নীচের শিলা আসলে উপদ্বীপীয় মালভূমিরই অংশ, কিন্তু চরম শুষ্কতার জন্য ভূপৃষ্ঠ গড়ে উঠেছে ভৌত আবহবিকার ও বায়ুর কাজে। সুপরিচিত ভূমিরূপ: ব্যাঙের ছাতা-আকৃতির শিলা (**Mushroom rock**), সরণশীল বালিয়াড়ি, আর (বিশেষত দক্ষিণে) মরূদ্যান।\n\n**ঢাল.** অভিমুখ অনুযায়ী এর উত্তর অংশ সিন্ধের দিকে, দক্ষিণ অংশ কচ্ছের রণের দিকে ঢালু।\n\n**নদী ও হ্রদ.** এখানকার বেশিরভাগ নদী মরসুমি। দক্ষিণ অংশের নদী লুনি কিছুটা গুরুত্বপূর্ণ। বেশ কিছু স্রোত কিছুদূর গিয়ে হারিয়ে যায় বা হ্রদ-প্লায়ায় পড়ে (**অন্তর্দেশীয় নিষ্কাশন**)। এই হ্রদগুলির জল লবণাক্ত, লবণ উৎপাদনের উৎস। বৃষ্টি কম, বাষ্পীভবন বেশি, তাই অঞ্চলটি জলের ঘাটতিতে ভোগে।\n\n**অতীতের সাগর.** মনে করা হয় মেসোজোয়িক যুগে এই অঞ্চল সাগরের নীচে ছিল। তার প্রমাণ জয়সলমেরের কাছে আকালের উদ্ভিদ-জীবাশ্ম উদ্যান (Wood fossils park) এবং ব্রহ্মসরের আশেপাশের সামুদ্রিক সঞ্চয়। আকালের জীবাশ্মের বয়স আনুমানিক ১৮ কোটি বছর।\n\n**শীতল মরুভূমি.** ভারতে আরেক ধরনের মরুভূমি আছে: **লাদাখ**, হিমালয় অঞ্চলের উঁচু শুষ্ক ভূমি (এনসিইআরটি সপ্তম শ্রেণি: মহা হিমালয়ে)। উত্তরে কারাকোরাম, দক্ষিণে জাস্কর পর্বত এর সীমানা। বৃষ্টিপাত বছরে ১০ সেমি পর্যন্ত কম হতে পারে, শীতকালে তাপমাত্রা -৪০° সে.-এর নীচে নামতে পারে।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "উষ্ণ ও শীতল মরুভূমি",
+     "body": "উষ্ণ মরুভূমি: থর (মরুস্থলী), আরাবল্লীর উত্তর-পশ্চিমে। শীতল মরুভূমি: লাদাখ, হিমালয়ে।"
+    },
+    {
+     "kind": "remember",
+     "title": "মরুভূমির তিন চিহ্ন",
+     "body": "বৃষ্টি < ১৫০ মিমি; বারখান ও লম্বা বালিয়াড়ি; দক্ষিণের নদী লুনি।"
+    }
+   ],
+   "claims": [
+    "c17",
+    "c22"
+   ]
+  },
+  {
+   "id": "coast_islands",
+   "heading": "উপকূলীয় সমভূমি ও দ্বীপপুঞ্জ",
+   "quick": "পশ্চিম উপকূল ডুবন্ত, সংকীর্ণ ও বদ্বীপহীন; পূর্ব উপকূল উত্থিত, চওড়া ও বদ্বীপময়। বঙ্গোপসাগরে আন্দামান-নিকোবর (টেন ডিগ্রি চ্যানেল দিয়ে আলাদা, ব্যারেন দ্বীপে একমাত্র সক্রিয় আগ্নেয়গিরি), আরব সাগরে প্রবালগঠিত লাক্ষাদ্বীপ।",
+   "standard": "ভারতের দীর্ঘ উপকূলকে অবস্থান ও ভূমিরূপ-প্রক্রিয়া অনুযায়ী দুই ভাগে ভাগ করা হয়: **পশ্চিম উপকূলীয় সমভূমি** ও **পূর্ব উপকূলীয় সমভূমি**।\n\n**পশ্চিম উপকূল.** এটি **নিমজ্জিত উপকূল (Submerged coast)**। বলা হয়, দ্বারকা শহর একসময় মূল ভূখণ্ডে ছিল, এখন জলের নীচে। নিমজ্জনের ফলে সমভূমি সংকীর্ণ, তবে প্রাকৃতিক বন্দর গড়ার সুবিধা আছে: কান্ডলা, মাজাগাঁও, জওহরলাল নেহরু বন্দর (নভা শেভা), মর্মুগাঁও, ম্যাঙ্গালুরু, কোচি। গুজরাট থেকে কেরল পর্যন্ত এই উপকূলের ভাগ:\n\n| অঞ্চল | অবস্থান |\n|---|---|\n| কচ্ছ ও কাথিয়াওয়াড় উপকূল | গুজরাট |\n| কোঙ্কন উপকূল | মহারাষ্ট্র |\n| গোয়া উপকূল | গোয়া |\n| মালাবার উপকূল | কর্ণাটক ও কেরল |\n\nসমভূমি মাঝের দিকে সরু, উত্তরে ও দক্ষিণে চওড়া। এই উপকূলের নদী বদ্বীপ গড়ে না। মালাবার উপকূলের বিশেষ বৈশিষ্ট্য **কায়াল (Kayal)** বা উপহ্রদ, মাছ ধরা, অন্তর্দেশীয় জলপথ ও পর্যটনে ব্যবহৃত। কেরলের পুন্নামাডা কায়ালে প্রতি বছর নেহরু ট্রফি বাচ্খেলা (ভালামকালি) হয়।\n\n**পূর্ব উপকূল.** পশ্চিমের তুলনায় চওড়া, **উত্থিত উপকূল (Emergent coast)**। মহানদী, গোদাবরী, কৃষ্ণা ও কাবেরীর **বদ্বীপ** এখানেই। উত্থিত বলে বন্দর ও পোতাশ্রয় কম; মহীসোপান সাগরের ভেতরে ৫০০ কিমি পর্যন্ত বিস্তৃত থাকায় ভালো বন্দর গড়া কঠিন।\n\n**দ্বীপপুঞ্জ.** ভারতের প্রধান দ্বীপগোষ্ঠী দুটি।\n\n**১. বঙ্গোপসাগরের দ্বীপ (আন্দামান ও নিকোবর).** প্রায় ৫৭২টি দ্বীপ ও ক্ষুদ্র দ্বীপ, আনুমানিক ৬°–১৪° উত্তর ও ৯২°–৯৪° পূর্বের মধ্যে। উত্তরে **আন্দামান**, দক্ষিণে **নিকোবর**; তাদের আলাদা করেছে **টেন ডিগ্রি চ্যানেল (Ten Degree Channel)**। মনে করা হয় এই দ্বীপগুলি সমুদ্রের নীচের পর্বতের উঁচু অংশ; কিছু ছোট দ্বীপ আগ্নেয়। **ব্যারেন দ্বীপ (Barren Island)**, ভারতের একমাত্র সক্রিয় আগ্নেয়গিরি, এখানেই। উল্লেখযোগ্য শৃঙ্গ:\n\n| শৃঙ্গ | অবস্থান | উচ্চতা |\n|---|---|---|\n| স্যাডল পিক | উত্তর আন্দামান | ৭৩৮ মিটার |\n| মাউন্ট ডিয়াভোলো | মধ্য আন্দামান | ৫১৫ মিটার |\n| মাউন্ট কোয়োব | দক্ষিণ আন্দামান | ৪৬০ মিটার |\n| মাউন্ট থুলিয়ার | গ্রেট নিকোবর | ৬৪২ মিটার |\n\nএখানে পরিচলন বৃষ্টি হয়, উদ্ভিদ বিষুবীয় ধরনের। ২০০৪ সালের ডিসেম্বরের সুনামিতে আন্দামান-নিকোবর ক্ষতিগ্রস্ত হয়; **ইন্দিরা পয়েন্ট** (এনসিইআরটি-র ভাষায় ভারতের দক্ষিণতম বিন্দু, আন্দামান-নিকোবরে) তখন জলে ডুবে যায়।\n\n**২. আরব সাগরের দ্বীপ (লাক্ষাদ্বীপ ও মিনিকয়).** ৮°–১২° উত্তর ও ৭১°–৭৪° পূর্বে, কেরল উপকূল থেকে ২২০–৪৪০ কিমি দূরে। পুরো দ্বীপগোষ্ঠী **প্রবাল** জমে তৈরি। প্রায় ৩৬টি দ্বীপের ১১টিতে মানুষ থাকে। **মিনিকয়** (৪৫৩ বর্গকিমি) সবচেয়ে বড়। **নাইন ডিগ্রি চ্যানেল** উত্তরের আমিনি ও দক্ষিণের ক্যানানোর দ্বীপকে ভাগ করেছে। পূর্ব দিকের তীরে নুড়ি-পাথর জমে ঝড়ের বেলাভূমি (storm beach) আছে।\n\n**শ্রীলঙ্কা.** ভারত থেকে শ্রীলঙ্কাকে আলাদা করেছে মান্নার উপসাগর ও পক প্রণালী।",
+   "deep": "টেন ডিগ্রি চ্যানেল (আন্দামান-নিকোবর) আর নাইন ডিগ্রি চ্যানেল (লাক্ষাদ্বীপের আমিনি-ক্যানানোর) গুলিয়ে ফেললে ভুল হবে। এই বইয়ের উৎসে কোরোমণ্ডল উপকূল, উত্তর সরকার (Northern Circars) বা ডানকান প্যাসেজের নাম নেই, তাই সেগুলি লেখা হল না।",
+   "boxes": [
+    {
+     "kind": "dont_confuse",
+     "title": "দুই চ্যানেল",
+     "body": "**টেন ডিগ্রি চ্যানেল:** আন্দামান | নিকোবর। **নাইন ডিগ্রি চ্যানেল:** লাক্ষাদ্বীপের আমিনি | ক্যানানোর।"
+    },
+    {
+     "kind": "exam_note",
+     "title": "পশ্চিম বনাম পূর্ব উপকূল",
+     "body": "পশ্চিম: নিমজ্জিত, সংকীর্ণ, বদ্বীপ নেই, কায়াল (মালাবার)। পূর্ব: উত্থিত, চওড়া, বদ্বীপ (মহানদী, গোদাবরী, কৃষ্ণা, কাবেরী), বন্দর কম।"
+    },
+    {
+     "kind": "remember",
+     "title": "দ্বীপের সংখ্যা",
+     "body": "আন্দামান-নিকোবর ≈ ৫৭২; লাক্ষাদ্বীপে ≈ ৩৬টি, বসতি ১১টিতে; ব্যারেন = একমাত্র সক্রিয় আগ্নেয়গিরি।"
+    }
+   ],
+   "claims": [
+    "c18",
+    "c19",
+    "c20",
+    "c21",
+    "c29",
+    "c30"
+   ]
+  }
+ ],
+ "locate": [
+  {
+   "place": "মহা হিমালয় (কেন্দ্রীয় অক্ষীয় শ্রেণি)",
+   "where": "উত্তর ভারত, পূর্ব-পশ্চিমে ~২,৫০০ কিমি",
+   "about": "প্রস্থ ১৬০–৪০০ কিমি",
+   "section": "himalaya",
+   "claims": [
+    "c06"
+   ]
+  },
+  {
+   "place": "পীর পাঞ্জাল",
+   "where": "কাশ্মীর উপত্যকার দক্ষিণ-পূর্ব",
+   "about": "ঝিলমের উৎস ভেরিনাগ এর পাদদেশে",
+   "section": "himalaya",
+   "claims": [
+    "c24"
+   ]
+  },
+  {
+   "place": "লাদাখ",
+   "where": "জম্মু ও কাশ্মীরের পূর্বে, জাস্কর ও কারাকোরামের মাঝে",
+   "about": "শীতল মরুভূমি; উত্তরে কারাকোরাম, দক্ষিণে জাস্কর",
+   "section": "himalaya",
+   "claims": [
+    "c22"
+   ]
+  },
+  {
+   "place": "ভাবর ও তরাই",
+   "where": "শিবালিক পাদদেশ, উত্তরের সমভূমির উত্তর প্রান্ত",
+   "about": "ভাবর ৮–১০ কিমি; তরাই ১০–২০ কিমি, জলাজমি",
+   "section": "plains",
+   "claims": [
+    "c08",
+    "c09"
+   ]
+  },
+  {
+   "place": "আনাইমুদি",
+   "where": "আনাইমালাই পাহাড়, পশ্চিমঘাট",
+   "about": "২,৬৯৫ মি; উপদ্বীপের সর্বোচ্চ শৃঙ্গ",
+   "section": "plateau",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "place": "ডোডাবেট্টা",
+   "where": "নীলগিরি পাহাড়",
+   "about": "২,৬৩৭ মি; দুই ঘাট এখানে মিলেছে",
+   "section": "plateau",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "place": "সাতপুরা",
+   "where": "মধ্য উচ্চভূমির দক্ষিণ",
+   "about": "দাক্ষিণাত্যের উত্তর সীমা; ৬০০–৯০০ মি",
+   "section": "plateau",
+   "claims": [
+    "c15"
+   ]
+  },
+  {
+   "place": "মেঘালয় মালভূমি",
+   "where": "উত্তর-পূর্ব ভারত",
+   "about": "গারো, খাসি, জয়ন্তিয়া পাহাড়; খনিজসমৃদ্ধ",
+   "section": "plateau",
+   "claims": [
+    "c16"
+   ]
+  },
+  {
+   "place": "ছোটনাগপুর মালভূমি",
+   "where": "রাজমহল পাহাড়ের দক্ষিণ",
+   "about": "গ্রানাইট; ভারতের খনিজ ভাণ্ডার",
+   "section": "plateau",
+   "claims": [
+    "c15",
+    "c27"
+   ]
+  },
+  {
+   "place": "মরুস্থলী (থর)",
+   "where": "আরাবল্লীর উত্তর-পশ্চিম",
+   "about": "বৃষ্টি < ১৫০ মিমি; বারখান; লুনি নদী",
+   "section": "desert",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "place": "মালাবার উপকূল",
+   "where": "কর্ণাটক ও কেরল",
+   "about": "কায়াল (উপহ্রদ); নেহরু ট্রফি ভালামকালি",
+   "section": "coast_islands",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "place": "ব্যারেন দ্বীপ",
+   "where": "আন্দামান ও নিকোবর",
+   "about": "ভারতের একমাত্র সক্রিয় আগ্নেয়গিরি",
+   "section": "coast_islands",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "place": "টেন ডিগ্রি চ্যানেল",
+   "where": "আন্দামান ও নিকোবরের মাঝে",
+   "about": "দুই দ্বীপগোষ্ঠীকে আলাদা করেছে",
+   "section": "coast_islands",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "place": "মিনিকয়",
+   "where": "লাক্ষাদ্বীপ, আরব সাগর",
+   "about": "৪৫৩ বর্গকিমি; সবচেয়ে বড় দ্বীপ",
+   "section": "coast_islands",
+   "claims": [
+    "c21"
+   ]
+  },
+  {
+   "place": "ইন্দিরা পয়েন্ট",
+   "where": "আন্দামান ও নিকোবর দ্বীপপুঞ্জ",
+   "about": "ভারতের দক্ষিণতম বিন্দু (এনসিইআরটি); ২০০৪-এর সুনামিতে নিমজ্জিত",
+   "section": "coast_islands",
+   "claims": [
+    "c29"
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "term": "টেথিস সাগর (Tethys Sea)",
+   "meaning": "ভারতীয় ও ইউরেশীয় পাতের মাঝের প্রাচীন সাগর; এর পলি ভাঁজ খেয়ে হিমালয় তৈরি।",
+   "section": "divisions"
+  },
+  {
+   "term": "ফাটল উপত্যকা (Rift valley)",
+   "meaning": "দুই ফাটলের মাঝের নীচু ভূমি; যেমন নর্মদা, তাপ্তী, মহানদীর উপত্যকা।",
+   "section": "divisions"
+  },
+  {
+   "term": "গিরিপথ (Mountain pass)",
+   "meaning": "পর্বতশ্রেণি পার হওয়ার নীচু পথ; যেমন নাথুলা, শিপকিলা, বোমডিলা।",
+   "section": "himalaya"
+  },
+  {
+   "term": "ভাবর (Bhabar)",
+   "meaning": "শিবালিকের পাদদেশে পাথর-নুড়ির সরু বলয়।",
+   "section": "plains"
+  },
+  {
+   "term": "তরাই (Tarai)",
+   "meaning": "ভাবরের দক্ষিণে জলাজমির বলয়।",
+   "section": "plains"
+  },
+  {
+   "term": "ভাঙর ও খাদার",
+   "meaning": "যথাক্রমে পুরনো ও নতুন পলি।",
+   "section": "plains"
+  },
+  {
+   "term": "মরুস্থলী (Marusthali)",
+   "meaning": "থর মরুভূমির নাম।",
+   "section": "desert"
+  },
+  {
+   "term": "বারখান (Barchan)",
+   "meaning": "অর্ধচন্দ্রাকার বালিয়াড়ি।",
+   "section": "desert"
+  },
+  {
+   "term": "কায়াল (Kayal)",
+   "meaning": "মালাবার উপকূলের উপহ্রদ (ব্যাকওয়াটার)।",
+   "section": "coast_islands"
+  },
+  {
+   "term": "নিমজ্জিত উপকূল / উত্থিত উপকূল",
+   "meaning": "সাগরে ডুবে যাওয়া উপকূল (পশ্চিম) / সাগর সরে গিয়ে জেগে ওঠা উপকূল (পূর্ব)।",
+   "section": "coast_islands"
+  }
+ ],
+ "cause_effect": [
+  {
+   "title": "পশ্চিম উপকূল কেন সংকীর্ণ ও বদ্বীপহীন",
+   "causes": [
+    "উপকূল নিমজ্জিত"
+   ],
+   "event": "সমভূমি সরু ও বন্দর গড়ার সুবিধা",
+   "results": [
+    "নদী বদ্বীপ গড়ে না",
+    "প্রাকৃতিক বন্দর (কান্ডলা, কোচি ইত্যাদি)"
+   ],
+   "section": "coast_islands",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "title": "পূর্ব উপকূলে বন্দর কম কেন",
+   "causes": [
+    "উত্থিত উপকূল",
+    "মহীসোপান ৫০০ কিমি পর্যন্ত বিস্তৃত"
+   ],
+   "event": "ভালো বন্দর গড়া কঠিন",
+   "results": [
+    "পূর্ব উপকূলে বন্দর কম",
+    "বদ্বীপ প্রচুর"
+   ],
+   "section": "coast_islands",
+   "claims": [
+    "c19"
+   ]
+  }
+ ],
+ "exam_focus": [
+  {
+   "point": "ছয় ভূপ্রাকৃতিক বিভাগ ও তাদের ক্রম",
+   "section": "divisions"
+  },
+  {
+   "point": "মহা হিমালয় ~২,৫০০ কিমি; নাথুলা, শিপকিলা, বোমডিলা গিরিপথ; লাদাখ = শীতল মরুভূমি",
+   "section": "himalaya"
+  },
+  {
+   "point": "ভাবর (৮–১০ কিমি) → তরাই (১০–২০ কিমি) → ভাঙর (পুরনো) ও খাদার (নতুন)",
+   "section": "plains"
+  },
+  {
+   "point": "আনাইমুদি ২,৬৯৫ (আনাইমালাই), ডোডাবেট্টা ২,৬৩৭ (নীলগিরি); দুই ঘাট মেলে নীলগিরিতে",
+   "section": "plateau"
+  },
+  {
+   "point": "মরুস্থলী: আরাবল্লীর উত্তর-পশ্চিম, বৃষ্টি < ১৫০ মিমি, নদী লুনি",
+   "section": "desert"
+  },
+  {
+   "point": "ব্যারেন দ্বীপ, টেন ডিগ্রি চ্যানেল, নাইন ডিগ্রি চ্যানেল, স্যাডল পিক, মিনিকয়",
+   "section": "coast_islands"
+  }
+ ],
+ "bengal_connection": {
+  "body": "পশ্চিমবঙ্গের সঙ্গে এই অধ্যায়ের সম্পর্ক:\n\n- **দার্জিলিং-সিকিম হিমালয়** পূর্ব-পশ্চিমে বিস্তৃত; দার্জিলিং থেকে বরফঢাকা কাঞ্চনজঙ্ঘা দেখা যায়।\n- **রাজমহল পাহাড়** উপদ্বীপীয় মালভূমির পূর্ব সীমা। **মালদা চ্যুতি** উত্তর-পূর্বের মালভূমি (মেঘালয়) আর ছোটনাগপুরকে আলাদা করেছে।\n- **ছোটনাগপুর** গ্রানাইট-শিলার খনিজসমৃদ্ধ মালভূমি।\n- **গঙ্গা-ব্রহ্মপুত্রের বদ্বীপ সুন্দরবন** পশ্চিমবঙ্গে।",
+  "claims": [
+   "c05",
+   "c32",
+   "c34",
+   "c27",
+   "c11",
+   "c35"
+  ]
+ },
+ "quick_revision": [
+  "ভূগঠনে ৩ ভাগ, ভূপ্রকৃতিতে ৬ ভাগ।",
+  "মহা হিমালয় প্রায় ২,৫০০ কিমি লম্বা; উত্তরের সমভূমি প্রায় ৩,২০০ কিমি।",
+  "গিরিপথ (এনসিইআরটি): খাইবার, বোলান (উত্তর-পশ্চিমে, হিমালয়ের পথ নয়), শিপকিলা, নাথুলা, বোমডিলা।",
+  "ভাবর (৮–১০ কিমি) → তরাই (১০–২০ কিমি) → ভাঙর (পুরনো) / খাদার (নতুন)।",
+  "পশ্চিমঘাট: সহ্যাদ্রি (মহারাষ্ট্র), নীলগিরি, আনাইমালাই, এলাচ পাহাড়; গড় ~১,৫০০ মি।",
+  "আনাইমুদি ২,৬৯৫ মি (উপদ্বীপের সর্বোচ্চ); ডোডাবেট্টা ২,৬৩৭ মি।",
+  "মেঘালয় মালভূমি = গারো, খাসি, জয়ন্তিয়া; ছোটনাগপুর = খনিজ ভাণ্ডার।",
+  "মরুস্থলী: বৃষ্টি < ১৫০ মিমি; লুনি; লাদাখ = শীতল মরুভূমি।",
+  "পশ্চিম উপকূল = নিমজ্জিত, সংকীর্ণ, কায়াল; পূর্ব = উত্থিত, বদ্বীপ।",
+  "আন্দামান-নিকোবর ~৫৭২ দ্বীপ; টেন ডিগ্রি চ্যানেল; ব্যারেন = একমাত্র সক্রিয় আগ্নেয়গিরি।",
+  "লাক্ষাদ্বীপ প্রবালগঠিত; মিনিকয় বৃহত্তম (৪৫৩ বর্গকিমি); নাইন ডিগ্রি চ্যানেল।"
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "India: Physical Environment (Class XI), Chapter 2: Structure and Physiography",
+   "class": "XI",
+   "url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "title": "India: Physical Environment (Class XI), Chapter 1: India - Location",
+   "class": "XI",
+   "url": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "title": "India: Physical Environment (Class XI), Chapter 3: Drainage System",
+   "class": "XI",
+   "url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "title": "Our Environment (Class VII), Chapter 7: Life in the Deserts",
+   "class": "VII",
+   "url": "https://ncert.nic.in/textbook/pdf/gess207.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "title": "Our Environment (Class VII), Chapter 5: Water",
+   "class": "VII",
+   "url": "https://ncert.nic.in/textbook/pdf/gess205.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s6",
+   "title": "West Bengal Board, Amader Prithibi (আমাদের পৃথিবী), Class VII (Bengali)",
+   "class": "VII",
+   "url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s7",
+   "title": "West Bengal Board, Amader Prithibi (আমাদের পৃথিবী), Class VIII (Bengali)",
+   "class": "VIII",
+   "url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s8",
+   "title": "India: Physical Environment (Class XI), Chapter 5: Natural Vegetation, Table 5.1",
+   "class": "XI",
+   "url": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+   "accessed_at": "2026-11-13"
+  }
+ ],
+ "claims": [
+  {
+   "id": "c01",
+   "claim": "India has three geological divisions: the Peninsular Block, the Himalayas and other Peninsular Mountains, and the Indo-Ganga-Brahmaputra Plain.",
+   "source": "s1",
+   "page": "p. 8",
+   "quote": "India can be divided into three geological divisions. (i) The Peninsular Block (ii) The Himalayas and other Peninsular Mountains (iii) Indo-Ganga-Brahmaputra Plain."
+  },
+  {
+   "id": "c02",
+   "claim": "The Peninsula is a rigid block of ancient gneiss and granite; rift valleys of the Narmada, Tapi, Mahanadi and the Satpura block mountains are in it; it mostly has relict and residual mountains such as the Aravali.",
+   "source": "s1",
+   "page": "pp. 8-9",
+   "quote": "The rift valleys of the Narmada, the Tapi and the Mahanadi and the Satpura block mountains are some examples of it. The Peninsula mostly consists of relict and residual mountains like the Aravali hills"
+  },
+  {
+   "id": "c03",
+   "claim": "The Himalayas are young, weak and flexible, tectonic in origin, cut by youthful rivers (gorges, V-shaped valleys, waterfalls).",
+   "source": "s1",
+   "page": "p. 9",
+   "quote": "The Himalayas along with other Peninsular mountains are young, weak and flexible in their geological structure unlike the rigid and stable Peninsular Block."
+  },
+  {
+   "id": "c04",
+   "claim": "India has six physiographic divisions: Northern and North-eastern Mountains, Northern Plain, Peninsular Plateau, Indian Desert, Coastal Plains, Islands.",
+   "source": "s1",
+   "page": "pp. 9-11",
+   "quote": "India can be divided into the following physiographic divisions: (1) The Northern and North-eastern Mountains (2) The Northern Plain (3) The Peninsular Plateau (4) The Indian Desert (5) The Coastal Plains (6) The Islands."
+  },
+  {
+   "id": "c05",
+   "claim": "The Himalayas are a series of parallel ranges, including the Great Himalayas and the Shiwalik; northwest-southeast in the northwest, east-west in Darjiling and Sikkim, north-south in Nagaland, Manipur and Mizoram.",
+   "source": "s1",
+   "page": "p. 11",
+   "quote": "The Himalayas consist of a series of parallel mountain ranges. Some of the important ranges are the Greater Himalayan range, which includes the Great Himalayas and the Shiwalik."
+  },
+  {
+   "id": "c06",
+   "claim": "The Great Himalayan range (central axial range) is about 2,500 km long and 160-400 km wide; the Himalayas are a physical, climatic, drainage and cultural divide.",
+   "source": "s1",
+   "page": "p. 11",
+   "quote": "The approximate length of the Great Himalayan range, also known as the central axial range, is 2,500 km from east to west, and their width varies between 160-400 km from north to south."
+  },
+  {
+   "id": "c07",
+   "claim": "The northern plains are alluvial plains of the Indus, Ganga and Brahmaputra, about 3,200 km long, 150-300 km wide, alluvium 1,000-2,000 m deep; zones are Bhabar, Tarai, alluvial plains (Khadar and Bhangar).",
+   "source": "s1",
+   "page": "p. 11",
+   "quote": "These plains extend approximately 3,200 km from the east to the west. The average width of these plains varies between 150-300 km."
+  },
+  {
+   "id": "c08",
+   "claim": "Bhabar is a narrow belt of 8-10 km along the Shiwalik foothills where streams deposit boulders and sometimes disappear.",
+   "source": "s1",
+   "page": "p. 11",
+   "quote": "Bhabar is a narrow belt ranging between 8-10 km parallel to the Shiwalik foothills"
+  },
+  {
+   "id": "c09",
+   "claim": "South of Bhabar is the Tarai belt, 10-20 km wide, where streams re-emerge to make marshy, swampy conditions with luxuriant vegetation and wildlife.",
+   "source": "s1",
+   "page": "p. 11",
+   "quote": "South of the Bhabar is the Tarai belt, with an approximate width of 10-20 km"
+  },
+  {
+   "id": "c10",
+   "claim": "South of the Tarai are old alluvium (Bhangar) and new alluvium (Khadar).",
+   "source": "s1",
+   "page": "p. 11",
+   "quote": "a belt consisting of old and new alluvial deposits known as the Bhangar and Khadar respectively"
+  },
+  {
+   "id": "c11",
+   "claim": "The plains have sand bars, meanders, ox-bow lakes, braided channels; the Brahmaputra plains have riverine islands; Sunderbans delta; elevation 50-150 m; Haryana and Delhi are the water divide of Indus and Ganga; Brahmaputra turns almost 90 degrees south at Dhubri; crops wheat, rice, sugarcane, jute.",
+   "source": "s1",
+   "page": "pp. 11-12",
+   "quote": "The states of Haryana and Delhi form a water divide between the Indus and the Ganga river systems."
+  },
+  {
+   "id": "c12",
+   "claim": "The Peninsular plateau is an irregular triangle 600-900 m high, bounded by the Delhi ridge, Rajmahal hills, Gir range and Cardamom hills, extended by the Shillong and Karbi-Anglong plateaus; it includes Hazaribagh, Palamu, Ranchi, Malwa, Coimbatore and Karnataka plateaus.",
+   "source": "s1",
+   "page": "p. 12",
+   "quote": "Delhi ridge in the northwest, the Rajmahal hills in the east, Gir range in the west and the Cardamom hills in the south constitute the outer extent of the Peninsular plateau."
+  },
+  {
+   "id": "c13",
+   "claim": "The Peninsular plateau has three groups: Deccan Plateau, Central Highlands, Northeastern Plateau; the Deccan is bordered by Western Ghats, Eastern Ghats and the Satpura, Maikal range and Mahadeo hills; Western Ghats are called Sahyadri (Maharashtra), Nilgiri, Anaimalai and Cardamom hills; higher and more continuous than Eastern Ghats.",
+   "source": "s1",
+   "page": "pp. 12-13",
+   "quote": "Western Ghats are locally known by different names such as Sahyadri in Maharashtra, Nilgiri hills in Karnataka and Tamil Nadu and Anaimalai hills and Cardamom hills in Kerala."
+  },
+  {
+   "id": "c14",
+   "claim": "Anaimudi (2,695 m) on the Anaimalai hills is the highest peak of the Peninsular plateau, followed by Dodabetta (2,637 m) on the Nilgiri hills; Eastern Ghats are discontinuous low hills cut by rivers (Javadi, Palconda, Nallamala, Mahendragiri); the two Ghats meet at the Nilgiri hills.",
+   "source": "s1",
+   "page": "p. 13",
+   "quote": "'Anaimudi' (2,695 m), the highest peak of Peninsular plateau is located on the Anaimalai hills of the Western Ghats followed by Dodabetta (2,637 m) on the Nilgiri hills."
+  },
+  {
+   "id": "c15",
+   "claim": "Central Highlands: bounded west by the Aravali; the Satpura is a series of scarped plateaus at 600-900 m forming the northern boundary of the Deccan, a relict mountain; Yamuna tributaries rise in the Vindhyan and Kaimur ranges; Banas, from the Aravalli, is the only significant tributary of the Chambal; Rajmahal hills are the eastern extension, south of which lies the Chotanagpur plateau.",
+   "source": "s1",
+   "page": "p. 13",
+   "quote": "They are bounded to the west by the Aravali range. The Satpura range is formed by a series of scarped plateaus on the south"
+  },
+  {
+   "id": "c16",
+   "claim": "The Meghalaya plateau (Garo, Khasi, Jaintia hills) with the Karbi Anglong plateau is detached from the Peninsular block by a fault; rich in coal, iron ore, sillimanite, limestone, uranium; Cherrapunji is bare rock.",
+   "source": "s1",
+   "page": "p. 13",
+   "quote": "The Meghalaya plateau is further sub-divided into three: (i) The Garo Hills; (ii) The Khasi Hills; (iii) The Jaintia Hills"
+  },
+  {
+   "id": "c17",
+   "claim": "The Great Indian Desert (Marusthali) lies northwest of the Aravali with rainfall below 150 mm, longitudinal dunes and barchans, mushroom rocks, oasis; rivers ephemeral; the Luni is significant; brackish lakes give salt; it was under the sea in the Mesozoic (Aakal wood fossil park, Brahmsar).",
+   "source": "s1",
+   "page": "pp. 13-14",
+   "quote": "To the northwest of the Aravali hills lies the Great Indian desert. ... This region receives low rainfall below 150 mm per year"
+  },
+  {
+   "id": "c18",
+   "claim": "Western coastal plains are a submerged coast, narrow in the middle and broader to the north and south, with no deltas; divisions Kachchh and Kathiawar, Konkan, Goan, Malabar; the Malabar coast has Kayals (backwaters).",
+   "source": "s1",
+   "page": "p. 14",
+   "quote": "The western coastal plains are an example of submerged coastal plain."
+  },
+  {
+   "id": "c19",
+   "claim": "The eastern coastal plain is broader, an emergent coast with deltas of Mahanadi, Godavari, Krishna, Kaveri; it has fewer ports because the continental shelf extends up to 500 km.",
+   "source": "s1",
+   "page": "p. 14",
+   "quote": "the eastern coastal plain is broader and is an example of an emergent coast."
+  },
+  {
+   "id": "c20",
+   "claim": "The Bay of Bengal islands are about 572 islands/islets (6-14 N, 92-94 E), Andaman in the north and Nicobar in the south separated by the Ten degree channel; Barren island, the only active volcano in India; peaks Saddle (738 m), Diavolo (515 m), Koyob (460 m), Thuiller (642 m).",
+   "source": "s1",
+   "page": "p. 15",
+   "quote": "They are separated by a waterbody which is called the Ten degree channel. ... Barren island, the only active volcano in India is also situated in the Andaman and Nicobar islands."
+  },
+  {
+   "id": "c21",
+   "claim": "Lakshadweep and Minicoy in the Arabian Sea (8-12 N, 71-74 E), 220-440 km off Kerala, built of coral, about 36 islands (11 inhabited), Minicoy the largest (453 sq km), Nine degree channel divides Amini and Canannore islands.",
+   "source": "s1",
+   "page": "p. 15",
+   "quote": "The entire group of islands is broadly divided by the Nine degree channel, north of which is the Amini Island and to the south of the Canannore Island."
+  },
+  {
+   "id": "c22",
+   "claim": "Ladakh is a cold desert in the Great Himalayas enclosed by the Karakoram in the north and Zanskar in the south; Indus is the most important river; rainfall as low as 10 cm.",
+   "source": "s4",
+   "page": "pp. 51-52",
+   "quote": "Ladakh is a cold desert lying in the Great Himalayas, on the eastern side of Jammu and Kashmir. The Karakoram Range in the north and the Zanskar mountains in the south enclose it."
+  },
+  {
+   "id": "c23",
+   "claim": "Except for a few passes such as the Khyber, Bolan, Shipkila, Nathula and Bomdila, the Himalayas were hard to cross; Purvachal hills in the north-east.",
+   "source": "s2",
+   "page": "p. 5",
+   "quote": "Except for a few mountain passes such as the Khyber, the Bolan, the Shipkila, the Nathula, the Bomdila, etc. it was difficult to cross it."
+  },
+  {
+   "id": "c24",
+   "claim": "The Indus flows between the Ladakh and Zaskar ranges; the Jhelum rises at Verinag at the foot of the Pir Panjal in the valley of Kashmir; the Ravi rises west of the Rohtang pass in the Kullu hills of Himachal Pradesh and drains the area between the Pir Panjal and the Dhauladhar ranges.",
+   "source": "s3",
+   "page": "Himalayan drainage: Indus system",
+   "quote": "The Jhelum, an important tributary of the Indus, rises from a spring at Verinag situated at the foot of the Pir Panjal in the south-eastern part of the valley of Kashmir."
+  },
+  {
+   "id": "c25",
+   "claim": "Mount Everest (8,848 m), in the Himalaya, is the world's highest peak; a mountain is generally over 900 m; a plateau over 300 m.",
+   "source": "s6",
+   "page": "p. 39",
+   "quote": "হিমালয় পর্বতের মাউন্ট এভারেস্ট (৮,৮৪৮ মিটার উঁচু) পৃথিবীর সবথেকে উঁচু পর্বতশৃঙ্গ।"
+  },
+  {
+   "id": "c26",
+   "claim": "WBBSE: Deccan and Malwa plateaus are lava plateaus; Satpura is a block (horst) mountain.",
+   "source": "s6",
+   "page": "pp. 39-40",
+   "quote": "ভারতের সাতপুরা পর্বত, জার্মানির ব্লাক ফরেস্ট এবং ফ্রান্সের ভোজ এরকম স্তূপ পর্বত। ... ভারতের দাক্ষিণাত্য মালভূমি, মালব মালভূমি এরকম লাভাগঠিত মালভূমি।"
+  },
+  {
+   "id": "c27",
+   "claim": "WBBSE: the Chotanagpur region is mainly granite, poor in fertility, rich in iron, copper, bauxite, manganese, dolomite, mica, so called India's mineral store.",
+   "source": "s7",
+   "page": "p. 115",
+   "quote": "ভারতের ছোটনাগপুর মালভূমি অঞ্চলে বিভিন্ন খনিজ সম্পদ যেমন লোহা, তামা, বক্সাইট, ম্যাঙ্গানিজ, ডলোমাইট, মাইকা প্রভৃতি প্রচুর পরিমাণে পাওয়া যায় বলে একে ভারতের খনিজ ভাণ্ডার বলে।"
+  },
+  {
+   "id": "c28",
+   "claim": "WBBSE: the Himalaya formed when the Tethys sea sediments between the Eurasian and Indian plates were folded.",
+   "source": "s7",
+   "page": "p. 49",
+   "quote": "ইউরেশিয় ও ভারতীয় এই দুই মহাদেশীয় পাতের মাঝের টেথিস সাগরের পলি ভাজ খেয়ে হিমালয় পর্বতের সৃষ্টি করেছে।"
+  },
+  {
+   "id": "c29",
+   "claim": "Indira Point in the Andaman and Nicobar islands marked the southernmost point of India and was submerged by the 2004 tsunami.",
+   "source": "s5",
+   "page": "pp. 34-35",
+   "quote": "The Indira point in the Andaman and Nicobar islands that marked the southernmost point of India got completely submerged."
+  },
+  {
+   "id": "c30",
+   "claim": "Sri Lanka is separated from India by the Gulf of Mannar and Palk Strait; India's coastline is 6,100 km on the mainland and 7,517 km in all.",
+   "source": "s2",
+   "page": "p. 5",
+   "quote": "Sri Lanka is separated from India by the Gulf of Mannar and Palk Strait."
+  },
+  {
+   "id": "c31",
+   "claim": "WBBSE: the Arabian Sea branch of the monsoon is blocked by the Western Ghats and gives heavy rain on the western slope; part of the Deccan plateau on the eastern slope is a rain-shadow area.",
+   "source": "s7",
+   "page": "p. 208",
+   "quote": "দক্ষিণ-পশ্চিম মৌসুমি বায়ুর আরব সাগরীয় শাখা পশ্চিমঘাট পর্বতে বাধা পেয়ে পর্বতের পশ্চিমঢালে প্রচুর পরিমাণে বৃষ্টিপাত ঘটায়।"
+  },
+  {
+   "id": "c32",
+   "claim": "WBBSE: Kanchenjunga is a snow-capped peak seen from Darjeeling.",
+   "source": "s6",
+   "page": "p. 38",
+   "quote": "আমাদের দার্জিলিং খুব সুন্দর, চারদিকে কত উঁচু উঁচু পর্বতের চূড়া। কাঞ্চনজঙ্ঘার চূড়ায় তো বরফ জমে থাকে।"
+  },
+  {
+   "id": "c33",
+   "claim": "WBBSE lists the Aravalli among ancient fold mountains (while NCERT calls it relict).",
+   "source": "s7",
+   "page": "p. 51",
+   "quote": "প্রাচীন ভঙ্গিল পর্বত। যেমন অ্যাপেলেশিয়ান, আরাবল্লী প্রভৃতি।"
+  },
+  {
+   "id": "c34",
+   "claim": "The Malda fault in West Bengal separates the northeastern parts (Karbi Anglong, Meghalaya) of the Peninsular Block from the Chotanagpur plateau.",
+   "source": "s1",
+   "page": "p. 8",
+   "quote": "The northeastern parts are separated by the Malda fault in West Bengal from the Chotanagpur plateau."
+  },
+  {
+   "id": "c35",
+   "claim": "Sunderban is a biosphere reserve in West Bengal.",
+   "source": "s8",
+   "page": "Table 5.1",
+   "quote": "5. Sunderban 1989 West Bengal."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q01",
+   "section": "divisions",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভূপ্রকৃতি অনুযায়ী ভারতকে কয়টি প্রাকৃতিক বিভাগে ভাগ করা হয়?",
+   "a": "৬টি",
+   "w": [
+    "৪টি",
+    "৫টি",
+    "৭টি"
+   ],
+   "e": "এনসিইআরটি ছয়টি বিভাগ দিয়েছে: পর্বত, সমভূমি, মালভূমি, মরুভূমি, উপকূলীয় সমভূমি ও দ্বীপপুঞ্জ। অন্য সংখ্যাগুলি কোনও ভাগেই মেলে না।",
+   "claims": [
+    "c04"
+   ]
+  },
+  {
+   "id": "q02",
+   "section": "himalaya",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "মহা হিমালয় (কেন্দ্রীয় অক্ষীয় শ্রেণি) পূর্ব থেকে পশ্চিমে আনুমানিক কত কিমি লম্বা?",
+   "a": "প্রায় ২,৫০০ কিমি",
+   "w": [
+    "প্রায় ১,৫০০ কিমি",
+    "প্রায় ৩,২০০ কিমি",
+    "প্রায় ৪,০০০ কিমি"
+   ],
+   "e": "এনসিইআরটি-র মতে মহা হিমালয় প্রায় ২,৫০০ কিমি লম্বা। ৩,২০০ কিমি হল উত্তরের সমভূমির দৈর্ঘ্য।",
+   "claims": [
+    "c06",
+    "c07"
+   ]
+  },
+  {
+   "id": "q03",
+   "section": "plains",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "শিবালিকের পাদদেশে নুড়ি-পাথর জমা সংকীর্ণ বলয়, যেখানে নদী মাঝে মাঝে মাটির নীচে হারিয়ে যায়, তার নাম কী?",
+   "a": "ভাবর",
+   "w": [
+    "তরাই",
+    "খাদার",
+    "ভাঙর"
+   ],
+   "e": "ভাবরে নদী পাথর ফেলে ও অদৃশ্য হয়। তরাইয়ে নদী আবার ওপরে আসে, তাই তরাই ভুল।",
+   "claims": [
+    "c08",
+    "c09"
+   ]
+  },
+  {
+   "id": "q04",
+   "section": "plains",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "উত্তরের সমভূমির নতুন পলিতে গঠিত অংশকে কী বলে?",
+   "a": "খাদার",
+   "w": [
+    "ভাঙর",
+    "ভাবর",
+    "তরাই"
+   ],
+   "e": "নতুন পলির নাম খাদার, পুরনো পলির নাম ভাঙর।",
+   "claims": [
+    "c10"
+   ]
+  },
+  {
+   "id": "q05",
+   "section": "plateau",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "উপদ্বীপীয় মালভূমির সর্বোচ্চ শৃঙ্গ কোনটি?",
+   "a": "আনাইমুদি",
+   "w": [
+    "ডোডাবেট্টা",
+    "স্যাডল পিক",
+    "মাউন্ট থুলিয়ার"
+   ],
+   "e": "আনাইমুদি (২,৬৯৫ মি) সর্বোচ্চ। ডোডাবেট্টা (২,৬৩৭ মি) দ্বিতীয়; স্যাডল পিক ও থুলিয়ার দ্বীপের শৃঙ্গ।",
+   "claims": [
+    "c14",
+    "c20"
+   ]
+  },
+  {
+   "id": "q06",
+   "section": "coast_islands",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "আন্দামান ও নিকোবর দ্বীপপুঞ্জকে আলাদা করেছে কোন জলপথ?",
+   "a": "টেন ডিগ্রি চ্যানেল",
+   "w": [
+    "নাইন ডিগ্রি চ্যানেল",
+    "পক প্রণালী",
+    "মান্নার উপসাগর"
+   ],
+   "e": "টেন ডিগ্রি চ্যানেল আন্দামান ও নিকোবরকে আলাদা করে। নাইন ডিগ্রি চ্যানেল লাক্ষাদ্বীপের আমিনি ও ক্যানানোর দ্বীপকে ভাগ করে।",
+   "claims": [
+    "c20",
+    "c21"
+   ]
+  },
+  {
+   "id": "q07",
+   "section": "coast_islands",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের একমাত্র সক্রিয় আগ্নেয়গিরি কোন দ্বীপে?",
+   "a": "ব্যারেন দ্বীপ",
+   "w": [
+    "মিনিকয় দ্বীপ",
+    "স্যাডল পিক",
+    "কার্বি অ্যাংলং"
+   ],
+   "e": "এনসিইআরটি ব্যারেন দ্বীপকে ভারতের একমাত্র সক্রিয় আগ্নেয়গিরি বলেছে; আন্দামান-নিকোবরে এটি। মিনিকয় প্রবালদ্বীপ।",
+   "claims": [
+    "c20",
+    "c21"
+   ]
+  },
+  {
+   "id": "q08",
+   "section": "coast_islands",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "লাক্ষাদ্বীপের দ্বীপগুলি কী দিয়ে গঠিত?",
+   "a": "প্রবাল",
+   "w": [
+    "আগ্নেয় লাভা",
+    "নদীর পলি",
+    "গ্রানাইট ও নাইস"
+   ],
+   "e": "এনসিইআরটি-র মতে সমস্ত দ্বীপগোষ্ঠী প্রবাল জমে তৈরি।",
+   "claims": [
+    "c21"
+   ]
+  },
+  {
+   "id": "q09",
+   "section": "desert",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের থর মরুভূমি কোন পর্বতের উত্তর-পশ্চিমে?",
+   "a": "আরাবল্লী",
+   "w": [
+    "সাতপুরা",
+    "বিন্ধ্য",
+    "পশ্চিমঘাট"
+   ],
+   "e": "এনসিইআরটি বলে, আরাবল্লী পাহাড়ের উত্তর-পশ্চিমে মহা ভারতীয় মরুভূমি।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q10",
+   "section": "coast_islands",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "কায়াল (উপহ্রদ) কোন উপকূলের বিশেষ বৈশিষ্ট্য?",
+   "a": "মালাবার উপকূল",
+   "w": [
+    "কোঙ্কন উপকূল",
+    "কচ্ছ ও কাথিয়াওয়াড় উপকূল",
+    "গোয়া উপকূল"
+   ],
+   "e": "এনসিইআরটি মালাবার উপকূলকে কায়ালের জন্য চিহ্নিত করেছে।",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "id": "q11",
+   "section": "plateau",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "পূর্বঘাট ও পশ্চিমঘাট কোন পাহাড়ে মিলিত হয়েছে?",
+   "a": "নীলগিরি পাহাড়",
+   "w": [
+    "আনাইমালাই",
+    "নল্লামালা",
+    "এলাচ পাহাড়"
+   ],
+   "e": "এনসিইআরটি বলে দুই ঘাট নীলগিরিতে মেলে। নল্লামালা পূর্বঘাটের শ্রেণি, তাই মিলনস্থল নয়।",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "id": "q12",
+   "section": "plateau",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "মহারাষ্ট্রে পশ্চিমঘাট কী নামে পরিচিত?",
+   "a": "সহ্যাদ্রি",
+   "w": [
+    "নীলগিরি",
+    "আনাইমালাই",
+    "এলাচ পাহাড়"
+   ],
+   "e": "মহারাষ্ট্রে সহ্যাদ্রি; নীলগিরি কর্ণাটক-তামিলনাড়ুতে; আনাইমালাই ও এলাচ পাহাড় কেরলে।",
+   "claims": [
+    "c13"
+   ]
+  },
+  {
+   "id": "q13",
+   "section": "plateau",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ডোডাবেট্টা শৃঙ্গ কোন পাহাড়ে?",
+   "a": "নীলগিরি পাহাড়",
+   "w": [
+    "আনাইমালাই পাহাড়",
+    "এলাচ পাহাড়",
+    "নল্লামালা পাহাড়"
+   ],
+   "e": "ডোডাবেট্টা (২,৬৩৭ মি) নীলগিরিতে; আনাইমুদি আনাইমালাইয়ে।",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "id": "q14",
+   "section": "plateau",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "পশ্চিমে পশ্চিমঘাট, পূর্বে পূর্বঘাট এবং উত্তরে সাতপুরা, মাইকাল ও মহাদেও পাহাড় দিয়ে ঘেরা উপদ্বীপীয় মালভূমির অংশটি কোনটি?",
+   "a": "দাক্ষিণাত্য মালভূমি",
+   "w": [
+    "মধ্য উচ্চভূমি",
+    "উত্তর-পূর্ব মালভূমি",
+    "মরুস্থলী"
+   ],
+   "e": "এই সীমানা এনসিইআরটি দাক্ষিণাত্য মালভূমির জন্য দিয়েছে। মধ্য উচ্চভূমি আরাবল্লী দ্বারা পশ্চিমে সীমাবদ্ধ।",
+   "claims": [
+    "c13",
+    "c15"
+   ]
+  },
+  {
+   "id": "q15",
+   "section": "plateau",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "মধ্য উচ্চভূমির পশ্চিম সীমায় কোন শ্রেণি?",
+   "a": "আরাবল্লী",
+   "w": [
+    "সাতপুরা",
+    "পশ্চিমঘাট",
+    "রাজমহল"
+   ],
+   "e": "মধ্য উচ্চভূমি পশ্চিমে আরাবল্লী দিয়ে সীমাবদ্ধ। সাতপুরা তার দক্ষিণে; রাজমহল তার পূর্ব প্রসার।",
+   "claims": [
+    "c15"
+   ]
+  },
+  {
+   "id": "q16",
+   "section": "plateau",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "চম্বলের একমাত্র উল্লেখযোগ্য উপনদী বানাস কোন শ্রেণি থেকে এসেছে?",
+   "a": "আরাবল্লী",
+   "w": [
+    "বিন্ধ্য",
+    "কৈমুর",
+    "সাতপুরা"
+   ],
+   "e": "এনসিইআরটি বলে বানাস আরাবল্লী থেকে এসেছে। বিন্ধ্য ও কৈমুর থেকে যমুনার উপনদী আসে।",
+   "claims": [
+    "c15"
+   ]
+  },
+  {
+   "id": "q17",
+   "section": "plateau",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "নিচের কোনটি মেঘালয় মালভূমির অংশ নয়?",
+   "a": "মহাদেও পাহাড়",
+   "w": [
+    "গারো পাহাড়",
+    "খাসি পাহাড়",
+    "জয়ন্তিয়া পাহাড়"
+   ],
+   "e": "মেঘালয় মালভূমির তিন ভাগ গারো, খাসি ও জয়ন্তিয়া। মহাদেও পাহাড় দাক্ষিণাত্যের উত্তর সীমা।",
+   "claims": [
+    "c13",
+    "c16"
+   ]
+  },
+  {
+   "id": "q18",
+   "section": "plains",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভাবর বলয়ের আনুমানিক প্রস্থ কত?",
+   "a": "৮–১০ কিমি",
+   "w": [
+    "১০–২০ কিমি",
+    "১৫০–৩০০ কিমি",
+    "৫০–১৫০ কিমি"
+   ],
+   "e": "ভাবর ৮–১০ কিমি। ১০–২০ কিমি তরাইয়ের প্রস্থ; ১৫০–৩০০ কিমি সমভূমির গড় প্রস্থ।",
+   "claims": [
+    "c07",
+    "c08",
+    "c09"
+   ]
+  },
+  {
+   "id": "q19",
+   "section": "plains",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "হরিয়ানা ও দিল্লি কোন দুই নদী ব্যবস্থার জলবিভাজিকা?",
+   "a": "সিন্ধু ও গঙ্গা",
+   "w": [
+    "গঙ্গা ও ব্রহ্মপুত্র",
+    "সিন্ধু ও ব্রহ্মপুত্র",
+    "গঙ্গা ও মহানদী"
+   ],
+   "e": "এনসিইআরটি-র মতে হরিয়ানা ও দিল্লি সিন্ধু ও গঙ্গা ব্যবস্থার জলবিভাজিকা।",
+   "claims": [
+    "c11"
+   ]
+  },
+  {
+   "id": "q20",
+   "section": "desert",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতীয় মরুভূমিতে বার্ষিক বৃষ্টিপাত সম্পর্কে এনসিইআরটি কী বলে?",
+   "a": "১৫০ মিমির কম",
+   "w": [
+    "৫০০ মিমি",
+    "৮০০ মিমি",
+    "১,২০০ মিমি"
+   ],
+   "e": "মরুভূমির বার্ষিক বৃষ্টি ১৫০ মিমির নীচে, তাই শুষ্ক জলবায়ু।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q21",
+   "section": "desert",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "মরুভূমির দক্ষিণ অংশের উল্লেখযোগ্য নদী কোনটি?",
+   "a": "লুনি",
+   "w": [
+    "চম্বল",
+    "বানাস",
+    "ঝিলম"
+   ],
+   "e": "এনসিইআরটি লুনিকে মরুভূমির দক্ষিণ অংশের গুরুত্বপূর্ণ নদী বলে। চম্বল ও ঝিলম মরুভূমির নদী নয়।",
+   "claims": [
+    "c17",
+    "c15",
+    "c24"
+   ]
+  },
+  {
+   "id": "q22",
+   "section": "coast_islands",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের পূর্ব উপকূলীয় সমভূমি কোন ধরনের উপকূল?",
+   "a": "উত্থিত উপকূল",
+   "w": [
+    "নিমজ্জিত উপকূল",
+    "আগ্নেয় উপকূল",
+    "প্রবাল উপকূল"
+   ],
+   "e": "পূর্ব উপকূল উত্থিত ও চওড়া; পশ্চিম উপকূল নিমজ্জিত।",
+   "claims": [
+    "c18",
+    "c19"
+   ]
+  },
+  {
+   "id": "q23",
+   "section": "coast_islands",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "লাক্ষাদ্বীপ গোষ্ঠীর সবচেয়ে বড় দ্বীপ কোনটি?",
+   "a": "মিনিকয়",
+   "w": [
+    "আমিনি",
+    "ক্যানানোর",
+    "মাউন্ট ডিয়াভোলো"
+   ],
+   "e": "মিনিকয় (৪৫৩ বর্গকিমি) সবচেয়ে বড়। আমিনি ও ক্যানানোর নাইন ডিগ্রি চ্যানেলের দুই পাশের দ্বীপ; ডিয়াভোলো আন্দামানের শৃঙ্গ।",
+   "claims": [
+    "c21",
+    "c20"
+   ]
+  },
+  {
+   "id": "q24",
+   "section": "coast_islands",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "স্যাডল পিক (৭৩৮ মি) কোথায় অবস্থিত?",
+   "a": "উত্তর আন্দামান",
+   "w": [
+    "মধ্য আন্দামান",
+    "দক্ষিণ আন্দামান",
+    "গ্রেট নিকোবর"
+   ],
+   "e": "স্যাডল পিক উত্তর আন্দামানে। ডিয়াভোলো মধ্যে, কোয়োব দক্ষিণে, থুলিয়ার গ্রেট নিকোবরে।",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "id": "q25",
+   "section": "coast_islands",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "২০০৪ সালের সুনামিতে এনসিইআরটি-বর্ণিত ভারতের দক্ষিণতম বিন্দু কোনটি ডুবে যায়?",
+   "a": "ইন্দিরা পয়েন্ট",
+   "w": [
+    "ব্যারেন দ্বীপ",
+    "মিনিকয়",
+    "সাগরদ্বীপ"
+   ],
+   "e": "এনসিইআরটি-র বর্ণনায় আন্দামান-নিকোবরের ইন্দিরা পয়েন্ট সুনামিতে সম্পূর্ণ ডুবে যায়।",
+   "claims": [
+    "c29"
+   ]
+  },
+  {
+   "id": "q26",
+   "section": "coast_islands",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "শ্রীলঙ্কাকে ভারত থেকে কোন দুটি জলভাগ আলাদা করেছে?",
+   "a": "মান্নার উপসাগর ও পক প্রণালী",
+   "w": [
+    "টেন ডিগ্রি ও নাইন ডিগ্রি চ্যানেল",
+    "আন্দামান সাগর ও মান্নার উপসাগর",
+    "পক প্রণালী ও নাইন ডিগ্রি চ্যানেল"
+   ],
+   "e": "এনসিইআরটি বলে মান্নার উপসাগর ও পক প্রণালী শ্রীলঙ্কাকে আলাদা করে। ডিগ্রি চ্যানেলগুলি দ্বীপগোষ্ঠীর ভেতরে।",
+   "claims": [
+    "c30",
+    "c20",
+    "c21"
+   ]
+  },
+  {
+   "id": "q27",
+   "section": "himalaya",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "নিচের কোনটি এনসিইআরটি-র তালিকাভুক্ত একটি গিরিপথ?",
+   "a": "নাথুলা",
+   "w": [
+    "ডোডাবেট্টা",
+    "কৈমুর",
+    "সাতপুরা"
+   ],
+   "e": "নাথুলা এনসিইআরটি-র উল্লিখিত গিরিপথ। বাকিগুলি শৃঙ্গ বা পর্বতশ্রেণি।",
+   "claims": [
+    "c23",
+    "c14",
+    "c15"
+   ]
+  },
+  {
+   "id": "q28",
+   "section": "himalaya",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ঝিলম নদীর উৎস ভেরিনাগ ঝরনা কোন শ্রেণির পাদদেশে?",
+   "a": "পীর পাঞ্জাল",
+   "w": [
+    "ধৌলাধর",
+    "জাস্কর",
+    "কারাকোরাম"
+   ],
+   "e": "এনসিইআরটি বলে ঝিলম পীর পাঞ্জালের পাদদেশে কাশ্মীর উপত্যকার দক্ষিণ-পূর্বে জন্মায়। ধৌলাধর রাভির সঙ্গে যুক্ত।",
+   "claims": [
+    "c24"
+   ]
+  },
+  {
+   "id": "q29",
+   "section": "himalaya",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "লাদাখ অঞ্চলের উত্তরে কোন পর্বতশ্রেণি?",
+   "a": "কারাকোরাম",
+   "w": [
+    "জাস্কর",
+    "পীর পাঞ্জাল",
+    "ধৌলাধর"
+   ],
+   "e": "এনসিইআরটি-র মতে লাদাখের উত্তরে কারাকোরাম, দক্ষিণে জাস্কর।",
+   "claims": [
+    "c22"
+   ]
+  },
+  {
+   "id": "q30",
+   "section": "plateau",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "পশ্চিমবঙ্গের পাঠ্যবই অনুযায়ী ভারতের কোন পর্বত স্তূপ (ব্লক) পর্বতের উদাহরণ?",
+   "a": "সাতপুরা",
+   "w": [
+    "হিমালয়",
+    "আরাবল্লী",
+    "আন্দিজ"
+   ],
+   "e": "পশ্চিমবঙ্গের বইয়ে সাতপুরা স্তূপ পর্বতের উদাহরণ। হিমালয় ও আন্দিজ ভঙ্গিল; আরাবল্লী প্রাচীন ভঙ্গিল পর্বত বলা হয়েছে।",
+   "claims": [
+    "c26",
+    "c33",
+    "c28"
+   ]
+  },
+  {
+   "id": "q31",
+   "section": "plains",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ব্রহ্মপুত্র উত্তর-পূর্ব থেকে দক্ষিণ-পশ্চিমে বয়ে কোথায় প্রায় ৯০° দক্ষিণে বাঁক নিয়ে বাংলাদেশে ঢোকে?",
+   "a": "ধুবড়ি",
+   "w": [
+    "ডিব্রুগড়",
+    "গুয়াহাটি",
+    "শিলিগুড়ি"
+   ],
+   "e": "এনসিইআরটি ধুবড়িকে এই বাঁকের স্থান বলেছে।",
+   "claims": [
+    "c11"
+   ]
+  },
+  {
+   "id": "q32",
+   "section": "plateau",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ছোটনাগপুর অঞ্চল প্রধানত কোন শিলায় গঠিত?",
+   "a": "গ্রানাইট",
+   "w": [
+    "চুনাপাথর",
+    "প্রবাল",
+    "পলি"
+   ],
+   "e": "পশ্চিমবঙ্গের বই বলে এটি প্রধানত গ্রানাইটে গঠিত প্রাচীন ভূমিরূপ।",
+   "claims": [
+    "c27"
+   ]
+  },
+  {
+   "id": "q33",
+   "section": "plateau",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "দাক্ষিণাত্য মালভূমির পূর্ব অংশ বৃষ্টিচ্ছায় অঞ্চল হয়েছে কেন?",
+   "a": "আরব সাগরের মৌসুমি বায়ু পশ্চিমঘাটে বাধা পেয়ে পশ্চিম ঢালে বৃষ্টি ঘটায়",
+   "w": [
+    "পূর্বঘাটে সারা বছর তুষারপাত হয়",
+    "থর মরুভূমির শুষ্ক বায়ুর প্রভাবে",
+    "সাতপুরার উত্তরের উঁচু ঢালের জন্য"
+   ],
+   "e": "পশ্চিমবঙ্গের বই এভাবেই বলেছে।",
+   "claims": [
+    "c31"
+   ]
+  },
+  {
+   "id": "q34",
+   "section": "plateau",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "মেঘালয় মালভূমির ভূপৃষ্ঠ অত্যন্ত ক্ষয়প্রাপ্ত হওয়ার কারণ এনসিইআরটি-র মতে কী?",
+   "a": "দক্ষিণ-পশ্চিম মৌসুমি বায়ু থেকে সর্বাধিক বৃষ্টিপাত",
+   "w": [
+    "মরুভূমির বায়ুক্ষয়",
+    "সক্রিয় আগ্নেয়গিরি",
+    "চরম তুষারপাত"
+   ],
+   "e": "বৃষ্টির ফলেই ক্ষয়; চেরাপুঞ্জিতে নগ্ন পাথুরে ভূমি।",
+   "claims": [
+    "c16"
+   ]
+  },
+  {
+   "id": "q35",
+   "section": "coast_islands",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "পূর্ব উপকূলে ভালো বন্দর কম হওয়ার কারণ কী?",
+   "a": "উত্থিত উপকূল ও ৫০০ কিমি পর্যন্ত বিস্তৃত মহীসোপান",
+   "w": [
+    "উপকূল ডুবে যাওয়া",
+    "অত্যন্ত সংকীর্ণ সমভূমি",
+    "বদ্বীপের অভাব"
+   ],
+   "e": "পূর্ব উপকূল উত্থিত আর মহীসোপান ৫০০ কিমি পর্যন্ত গেছে; পূর্বে বদ্বীপ প্রচুর, আর সমভূমি চওড়া।",
+   "claims": [
+    "c19"
+   ]
+  },
+  {
+   "id": "q36",
+   "section": "plains",
+   "level": "exam",
+   "format": "STATEMENT",
+   "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. ভাবর শিবালিকের পাদদেশ বরাবর সংকীর্ণ বলয়, যেখানে নদী পাথর জমায়।\n২. তরাই ভাবরের উত্তরে অবস্থিত।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "শুধুমাত্র ১",
+   "w": [
+    "শুধুমাত্র ২",
+    "১ ও ২ উভয়ই",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "ভাবর শিবালিকের পাদদেশে; তরাই ভাবরের দক্ষিণে, উত্তরে নয়। তাই ২ ভুল।",
+   "claims": [
+    "c08",
+    "c09"
+   ]
+  },
+  {
+   "id": "q37",
+   "section": "plateau",
+   "level": "exam",
+   "format": "MATCH",
+   "q": "শৃঙ্গের সঙ্গে উচ্চতা মেলান:\n\nA. আনাইমুদি\nB. ডোডাবেট্টা\nC. স্যাডল পিক\nD. মাউন্ট থুলিয়ার\n\n১. ২,৬৯৫ মি\n২. ২,৬৩৭ মি\n৩. ৭৩৮ মি\n৪. ৬৪২ মি",
+   "a": "A-১, B-২, C-৩, D-৪",
+   "w": [
+    "A-২, B-১, C-৩, D-৪",
+    "A-১, B-২, C-৪, D-৩",
+    "A-১, B-৩, C-২, D-৪"
+   ],
+   "e": "আনাইমুদি ২,৬৯৫; ডোডাবেট্টা ২,৬৩৭; স্যাডল পিক ৭৩৮; থুলিয়ার ৬৪২। অন্য বিকল্পে অন্তত দুটি জোড় উল্টেছে।",
+   "claims": [
+    "c14",
+    "c20"
+   ]
+  },
+  {
+   "id": "q38",
+   "section": "coast_islands",
+   "level": "exam",
+   "format": "PAIRS",
+   "q": "নিচের কোন জোড়টি সঠিকভাবে মেলানো?",
+   "a": "টেন ডিগ্রি চ্যানেল: আন্দামান ও নিকোবরের মাঝে",
+   "w": [
+    "নাইন ডিগ্রি চ্যানেল: আন্দামান ও নিকোবরের মাঝে",
+    "ব্যারেন দ্বীপ: লাক্ষাদ্বীপ",
+    "মিনিকয়: আন্দামান দ্বীপপুঞ্জ"
+   ],
+   "e": "টেন ডিগ্রি চ্যানেলই আন্দামান-নিকোবরের মাঝে। নাইন ডিগ্রি লাক্ষাদ্বীপে; ব্যারেন ও মিনিকয় ভিন্ন গোষ্ঠীতে।",
+   "claims": [
+    "c20",
+    "c21"
+   ]
+  },
+  {
+   "id": "q39",
+   "section": "coast_islands",
+   "level": "exam",
+   "format": "ASSERTION_REASON",
+   "q": "**বক্তব্য (A):** ভারতের পশ্চিম উপকূলীয় সমভূমি সংকীর্ণ।\n\n**কারণ (R):** এটি একটি নিমজ্জিত উপকূল।",
+   "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "w": [
+    "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+    "A সত্য, কিন্তু R মিথ্যা",
+    "A মিথ্যা, কিন্তু R সত্য"
+   ],
+   "e": "এনসিইআরটি বলে নিমজ্জনের ফলেই সমভূমি সংকীর্ণ, তাই R-ই A-এর ব্যাখ্যা।",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "id": "q40",
+   "section": "himalaya",
+   "level": "exam",
+   "format": "STATEMENT",
+   "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. মহা হিমালয়ের দৈর্ঘ্য প্রায় ২,৫০০ কিমি।\n২. উত্তরের সমভূমির দৈর্ঘ্য পূর্ব-পশ্চিমে প্রায় ৩,২০০ কিমি।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "১ ও ২ উভয়ই",
+   "w": [
+    "শুধুমাত্র ১",
+    "শুধুমাত্র ২",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "দুটি মাপই এনসিইআরটি-র।",
+   "claims": [
+    "c06",
+    "c07"
+   ]
+  },
+  {
+   "id": "q41",
+   "section": "plateau",
+   "level": "exam",
+   "format": "ASSERTION_REASON",
+   "q": "**বক্তব্য (A):** দাক্ষিণাত্য মালভূমির পূর্ব অংশ বৃষ্টিচ্ছায় অঞ্চল।\n\n**কারণ (R):** আরব সাগরের মৌসুমি বায়ু পশ্চিমঘাটে বাধা পেয়ে পশ্চিম ঢালে বৃষ্টি ঘটায়।",
+   "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "w": [
+    "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+    "A সত্য, কিন্তু R মিথ্যা",
+    "A মিথ্যা, কিন্তু R সত্য"
+   ],
+   "e": "পশ্চিমবঙ্গের বই বলে পশ্চিমঘাটে বাধা পাওয়া বায়ু পশ্চিমে বৃষ্টি দেয়, তাই পূর্ব অংশ বৃষ্টিচ্ছায়ায় পড়ে।",
+   "claims": [
+    "c31"
+   ]
+  }
+ ]
+}

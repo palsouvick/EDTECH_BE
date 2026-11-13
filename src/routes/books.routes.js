@@ -22,7 +22,7 @@ router.use(async (_req, _res, next) => {
 });
 
 const bookParam = z.enum(Object.keys(books.BOOKS));
-const chapterCode = z.string().regex(/^HIS-\d{2}$/);
+const chapterCode = z.string().regex(books.CHAPTER_CODE);
 const sectionId = z.string().regex(/^[a-z][a-z0-9_]{1,40}$/);
 const previewQuery = z.object({ preview: z.enum(['0', '1']).optional() });
 
@@ -38,7 +38,9 @@ function noStoreIfPreview(res, preview) {
 router.get('/:book', validate({ params: z.object({ book: bookParam }), query: previewQuery }), async (req, res) => {
   const preview = await previewOf(req);
   noStoreIfPreview(res, preview);
-  res.json({ success: true, data: books.getBook(req.valid.params.book, { preview }) });
+  const data = books.getBook(req.valid.params.book, { preview });
+  if (!data) throw AppError.notFound('BOOK_NOT_FOUND', 'This book has not been started yet');
+  res.json({ success: true, data });
 });
 
 router.get('/:book/progress', requireAuth, validate({ params: z.object({ book: bookParam }) }), async (req, res) => {

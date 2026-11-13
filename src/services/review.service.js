@@ -118,7 +118,7 @@ async function answer(userId, { questionId, selectedOptionId, timeSpentSec }, no
 
   const isCorrect = selectedOptionId === q.correct_option_id;
   statsBuffer.record(q._id, { correct: isCorrect, timeSpentSec });
-  PracticeAttempt.create({ user_id: userId, question_id: q._id, subject: q.subject, topic: q.topic, correct: isCorrect, time_spent_sec: timeSpentSec }).catch(logFailure('attempt'));
+  PracticeAttempt.create({ user_id: userId, question_id: q._id, subject: q.subject, topic: q.topic, correct: isCorrect, time_spent_sec: timeSpentSec, source: 'review' }).catch(logFailure('attempt'));
 
   let next;
   if (isCorrect) {

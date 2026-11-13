@@ -27,9 +27,10 @@ const packet = {
     ...ch.sections.map((s) => ({ section: s.id, heading: s.heading, quick: s.quick, standard: s.standard, deep: s.deep, boxes: s.boxes })),
     {
       section: '_blocks',
-      events: ch.events,
-      people: ch.people,
-      timeline: ch.timeline.map(({ claims, ...t }) => t),
+      events: ch.events || [],
+      people: ch.people || [],
+      timeline: (ch.timeline || []).map(({ claims, ...t }) => t),
+      locate: (ch.locate || []).map(({ claims, ...t }) => t), // Geography's "Locate it" table
       terms: ch.terms,
       cause_effect: ch.cause_effect.map(({ claims, ...t }) => t),
       bengal: ch.bengal_connection.body,

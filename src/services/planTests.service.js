@@ -12,7 +12,7 @@
 const { Question } = require('../models');
 const { langSetsContaining } = require('../models/schemas/localized');
 const { PUBLIC_QUESTION_FIELDS, presentQuestion } = require('./presenters');
-const { gradeAnswers } = require('./grading');
+const { gradeAnswers, peekAnswer } = require('./grading');
 const { signToken, verifySignedToken } = require('./signedToken');
 const { topicName } = require('./catalogNames');
 const studyPlan = require('./studyPlan.service');
@@ -162,4 +162,18 @@ async function hasPlan(userId) {
   }
 }
 
-module.exports = { createTest, checkTest, WEAK_BELOW, STRONG_FROM };
+/**
+ * "Check answer" for one question of an issued test: its answer and explanation, not recorded
+ * (the test is recorded when submitted). Not offered in a full mock, which runs like the exam.
+ */
+async function peekTest(day, { testToken, questionId, selectedOptionId }) {
+  const issued = verifySignedToken(PURPOSE, testToken);
+  if (!issued || issued.d !== day) throw new AppError(403, 'TEST_TOKEN_INVALID', 'This test has expired or was not issued by the server. Start it again.');
+  if (issued.k === 'full_mock') throw new AppError(403, 'CHECK_NOT_IN_MOCK', 'Answers are shown after a full mock is submitted.');
+  if (!issued.q.includes(questionId)) throw new AppError(403, 'QUESTION_NOT_IN_TEST', 'This question is not part of this test');
+  const result = await peekAnswer({ questionId, selectedOptionId });
+  if (!result) throw new AppError(404, 'QUESTION_NOT_FOUND', 'Question not found');
+  return result;
+}
+
+module.exports = { createTest, checkTest, peekTest, WEAK_BELOW, STRONG_FROM };

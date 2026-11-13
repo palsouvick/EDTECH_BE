@@ -218,3 +218,22 @@ test('check: marks every answer and returns explanations, skipped ones count as 
   assert.equal(body.data.results[0].selectedOptionId, null);
   assert.ok(body.data.results.every((r) => r.correctOptionId && r.steps.length && r.steps[0].bn));
 });
+
+test('peek: "Check answer" returns one answer and explanation, records nothing, and only for this quiz', async () => {
+  const { PracticeAttempt } = require('../src/models');
+  const quiz = (await call('/quiz', { subject: 'quant', topic: 'percentage', level: 'beginner' })).body.data;
+  const q = quiz.questions[0];
+  const before = await PracticeAttempt.countDocuments();
+  const { status, body } = await call('/quiz/peek', { subject: 'quant', topic: 'percentage', quizToken: quiz.quizToken, questionId: q.questionId, selectedOptionId: q.options[0].optionId });
+  assert.equal(status, 200);
+  assert.ok(body.data.correctOptionId);
+  assert.equal(body.data.isCorrect, body.data.correctOptionId === q.options[0].optionId);
+  assert.ok(body.data.steps.length);
+  assert.equal(await PracticeAttempt.countDocuments(), before, 'a check is not an attempt');
+
+  const unanswered = await call('/quiz/peek', { subject: 'quant', topic: 'percentage', quizToken: quiz.quizToken, questionId: q.questionId });
+  assert.equal(unanswered.status, 200);
+  assert.equal(unanswered.body.data.selectedOptionId, null);
+  assert.equal((await call('/quiz/peek', { subject: 'quant', topic: 'percentage', quizToken: quiz.quizToken, questionId: '0'.repeat(24) })).status, 403);
+  assert.equal((await call('/quiz/peek', { subject: 'quant', topic: 'percentage', quizToken: 'forged', questionId: q.questionId })).status, 403);
+});

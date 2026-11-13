@@ -182,6 +182,22 @@ test('daily test: sections in paper order, no answers, graded on the server, res
   assert.equal((await call('POST', '/plan/clerkship-60/days/60/test', {})).status, 404, 'Day 60 has no test');
 });
 
+test('check answer mid-test: one answer + explanation for a daily test, never in a full mock', async () => {
+  const daily = (await call('POST', '/plan/clerkship-60/days/1/test', {}, null)).body.data;
+  const q = daily.sections[0].questions[0];
+  const peek = await call('POST', '/plan/clerkship-60/days/1/test/peek', { testToken: daily.testToken, questionId: q.questionId, selectedOptionId: q.options[0].optionId }, null);
+  assert.equal(peek.status, 200);
+  assert.ok(peek.body.data.correctOptionId);
+  assert.equal((await call('POST', '/plan/clerkship-60/days/2/test/peek', { testToken: daily.testToken, questionId: q.questionId }, null)).status, 403, 'token is for day 1');
+  assert.equal((await call('POST', '/plan/clerkship-60/days/1/test/peek', { testToken: daily.testToken, questionId: '0'.repeat(24) }, null)).status, 403);
+
+  const mock = (await call('POST', '/plan/clerkship-60/days/56/test', {}, null)).body.data;
+  const mq = mock.sections[0].questions[0];
+  const refused = await call('POST', '/plan/clerkship-60/days/56/test/peek', { testToken: mock.testToken, questionId: mq.questionId }, null);
+  assert.equal(refused.status, 403);
+  assert.equal(refused.body.error.code, 'CHECK_NOT_IN_MOCK');
+});
+
 test('full mock: 100-question pattern where the pool allows, negative marking applied', async () => {
   const t = (await call('POST', '/plan/clerkship-60/days/56/test', {}, null)).body.data;
   assert.equal(t.kind, 'full_mock');

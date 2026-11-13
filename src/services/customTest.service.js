@@ -17,7 +17,9 @@
  *
  * Presets: custom, weak (my weak chapters), mistakes (retry my mistakes: mostly NEW questions
  * on the same patterns), quick10, mastery (one chapter, exam level), challenge (hard),
- * followup (practice again: same chapters, weak ones weighted, no repeated questions).
+ * followup (practice again: same chapters, weak ones weighted, no repeated questions),
+ * smart (Smart Quiz, Math/English: questions per chapter from the learning analysis, preferring
+ * skipped questions and new questions on mistaken concepts; analysis.service.js smartPlan).
  * Questions come only from the published bank; nothing is generated.
  */
 
@@ -29,11 +31,15 @@ const { mockQuestionAlias } = require('./signedToken');
 const { topicName } = require('./catalogNames');
 const { getPriorities } = require('./priority.service');
 const insights = require('./insights.service');
+const analysis = require('./analysis.service');
+const skips = require('./skips.service');
+const { ANALYSIS_SUBJECTS } = require('./analysis.logic');
 const learn = require('./learn.service');
 const mock = require('./mock.service');
 const config = require('../config');
 const AppError = require('../utils/AppError');
 const L = require('./customTest.logic');
+const { availability } = require('./bankAvailability');
 
 const CATEGORY = 'WBPSC';
 const PRACTICE_MARKING = Object.freeze({ positive: 1, negative: 0, basis: 'PRACTICE', examCode: null, sourceUrl: null });
@@ -49,37 +55,20 @@ async function chaptersOf(subject) {
   return chapters.map((c) => ({ topic: c.topic, title: c.title ?? topicName(subject, c.topic), emoji: c.emoji }));
 }
 
-/** Published questions per chapter in the student's language: total, per band, real PYQs. */
-async function availability(subject, language) {
-  const rows = await Question.aggregate([
-    { $match: { status: 'PUBLISHED', subject, lang_set: { $in: langSetsContaining(language) } } },
-    {
-      $group: {
-        _id: { t: '$topic', d: '$difficulty', p: { $and: [{ $eq: ['$pyq.is_pyq', true] }, { $in: ['$provenance', L.REAL_PAPER] }] } },
-        n: { $sum: 1 },
-      },
-    },
-  ]);
-  const out = new Map();
-  for (const { _id, n } of rows) {
-    const a = out.get(_id.t) || { total: 0, easy: 0, moderate: 0, hard: 0, pyq: 0 };
-    a.total += n;
-    a[{ EASY: 'easy', MEDIUM: 'moderate', HARD: 'hard' }[L.bandOf(_id.d)]] += n;
-    if (_id.p) a.pyq += n;
-    out.set(_id.t, a);
-  }
-  return out;
-}
-
 /** What the generator knows about this student in one subject. */
 async function loadSignals(userId, subject) {
-  const [all, open, recent, priorities] = await Promise.all([
+  const [all, open, recent, priorities, skipped] = await Promise.all([
     insights.answersOf(userId),
     ReviewItem.find({ user_id: userId, subject, from_mistake: true, status: 'active' }).select('question_id topic').lean(),
     mock.recentlyServedQuestionIds(userId),
     getPriorities().catch(() => ({ subjects: {} })),
+    skips.skipEvents(userId, subject).catch((err) => {
+      console.error('[custom-test] skips not loaded:', err.message);
+      return { events: [] };
+    }),
   ]);
   const answers = all.filter((a) => a.subject === subject);
+  const openSkips = [...skips.mergeSkips(skipped.events, answers).values()].filter((s) => s.open);
   const mastery = new Map(insights.buildMastery(answers).filter((m) => m.subject === subject).map((m) => [m.topic, m]));
 
   const byPattern = new Map();
@@ -103,6 +92,7 @@ async function loadSignals(userId, subject) {
     seen: new Set(answers.map((a) => a.qid)),
     recent: new Set(recent.map(String)),
     mistakeQids: new Set(open.map((m) => String(m.question_id))),
+    skipQids: new Set(openSkips.map((s) => s.qid)),
     mistakePatterns: new Set(mistakeQs.filter((q) => q.pattern).map((q) => `${q.topic}.${q.pattern}`)),
     mistakeSubtopics: new Set(mistakeQs.filter((q) => q.subtopic).map((q) => `${q.topic}.${q.subtopic}`)),
     weakPatterns,
@@ -232,6 +222,17 @@ async function resolveRequest(userId, body, signals, allTopics) {
       r.followUp = { sessionId: String(prev._id), accuracy: acc };
       break;
     }
+    case 'smart': {
+      if (!ANALYSIS_SUBJECTS.includes(body.subject)) throw AppError.unprocessable('SMART_QUIZ_SUBJECT', 'Smart Quiz is for Mathematics and English');
+      r.questionCount = body.questionCount ?? 15;
+      r.difficulty = body.difficulty ?? 'mixed';
+      r.mode = body.mode ?? 'practice';
+      r.distribution = 'smart';
+      r.smartPlan = await analysis.smartPlan(userId, body.subject, { language: body.language, count: r.questionCount, topics: chosen });
+      r.topics = r.smartPlan.map((p) => p.topic);
+      if (!r.topics.length) throw AppError.unprocessable('INSUFFICIENT_QUESTIONS', 'No questions are available for a Smart Quiz yet', { available: 0, requested: r.questionCount });
+      break;
+    }
     default:
       r.topics = chosen;
   }
@@ -240,6 +241,12 @@ async function resolveRequest(userId, body, signals, allTopics) {
 }
 
 function planFor(req, avail, signals) {
+  if (req.smartPlan) {
+    // Smart Quiz: the learning analysis already decided the share of every chapter.
+    const plan = req.smartPlan.map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons }));
+    const total = plan.reduce((a, p) => a + p.count, 0);
+    return { plan, total, shortBy: Math.max(0, req.questionCount - total) };
+  }
   const chapters = req.topics.map((t) => {
     const m = signals.mastery.get(t);
     return {
@@ -306,7 +313,7 @@ async function createTest(userId, body) {
   }
 
   const picked = [];
-  const notes = { borrowed: 0, pyq: 0, siblings: 0, originals: 0, mix: { EASY: 0, MEDIUM: 0, HARD: 0 } };
+  const notes = { borrowed: 0, pyq: 0, siblings: 0, originals: 0, skipped: 0, mix: { EASY: 0, MEDIUM: 0, HARD: 0 } };
   const finalPlan = [];
   const dupSeen = new Set();
   for (const p of plan) {
@@ -324,6 +331,7 @@ async function createTest(userId, body) {
     notes.pyq += res.pyq;
     notes.siblings += res.siblings;
     notes.originals += res.originals;
+    notes.skipped += res.skipped;
     for (const b of Object.keys(notes.mix)) notes.mix[b] += res.mix[b];
   }
   if (picked.length < L.MIN_QUESTIONS) {

@@ -12,6 +12,8 @@ module.exports = {
   User: require('./User'),
   PracticeAttempt: require('./PracticeAttempt'),
   ReviewItem: require('./ReviewItem'),
+  QuestionSkip: require('./QuestionSkip'),
+  ChapterStudy: require('./ChapterStudy'),
   UserBadge: require('./UserBadge'),
   ...require('./DailyChallenge'),
   VocabularyWord: require('./VocabularyWord'),

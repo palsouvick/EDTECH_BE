@@ -11,7 +11,7 @@ const { Schema, model } = require('mongoose');
 const BookChapterStateSchema = new Schema(
   {
     book: { type: String, required: true },
-    code: { type: String, required: true, match: /^HIS-\d{2}$/ },
+    code: { type: String, required: true, match: /^[A-Z]{3}-\d{2}$/ },
     status: { type: String, enum: ['PUBLISHED', 'DRAFT'], required: true },
     set_by: { type: String, default: null }, // admin email
     set_at: { type: Date, default: null },

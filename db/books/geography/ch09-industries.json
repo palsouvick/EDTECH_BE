@@ -1,0 +1,1412 @@
+{
+ "book": "geography",
+ "code": "GEO-09",
+ "number": 9,
+ "part": "india_resources",
+ "title": "ভারতের শিল্প",
+ "subtitle": "সুতি, পাট, ইস্পাত, সার, সিমেন্ট, আইটি আর শিল্পদূষণ",
+ "subtopics": [
+  "minerals_resources"
+ ],
+ "related_facts": [],
+ "prerequisites": [],
+ "reading_minutes": {
+  "quick": 8,
+  "standard": 30,
+  "deep": 34
+ },
+ "status": "DRAFT",
+ "verification": {
+  "status": "VERIFIED",
+  "checked_at": "2026-11-13",
+  "notes": "Key check (owner rule 2026-11-13, no word-by-word check): 40/40 keys confirmed; fixed: none. Steel-plant table added from standard knowledge (reviewed by the main session, no question depends on it)."
+ },
+ "overview": {
+  "intro": "শিল্প কাকে বলে, কত ভাগে ভাগ করা যায়, আর কোন শিল্প কোথায় বসে, পরীক্ষায় এই তিনটি প্রশ্নই বারবার ফিরে আসে। এই অধ্যায়ে প্রথমে শিল্পের শ্রেণিবিভাগ দেখব, বিশেষ করে মালিকানার ভাগ। তারপর কৃষিভিত্তিক শিল্প (সুতিবস্ত্র, পাট, চিনি), খনিজভিত্তিক শিল্প (লোহা-ইস্পাত, অ্যালুমিনিয়াম, সিমেন্ট), রাসায়নিক ও সার শিল্প, অটোমোবাইল ও তথ্যপ্রযুক্তি এবং শেষে শিল্পদূষণ পড়ব। প্রথম সুতিকল, প্রথম পাটকল বা প্রথম সিমেন্ট কারখানার মতো তথ্য মুখস্থের জন্য \"কোথায়\" ছক আছে। খনিজ সম্পদ নিজে GEO-08 অধ্যায়ে আছে।",
+  "you_will_learn": [
+   "শিল্পের পাঁচ রকম শ্রেণিবিভাগ ও মালিকানার উদাহরণ",
+   "সুতিবস্ত্র শিল্প: প্রথম সফল কল (মুম্বই, ১৮৫৪), কাটাই ও বয়ন",
+   "পাটশিল্প: হুগলি বেষ্টনী, প্রথম কল (রিষড়া, ১৮৫৫), দেশভাগের প্রভাব",
+   "চিনিশিল্পের অবস্থান ও দক্ষিণ-পশ্চিমে সরে যাওয়ার কারণ",
+   "লোহা-ইস্পাত, অ্যালুমিনিয়াম ও সিমেন্টের কাঁচামাল ও অবস্থান",
+   "রাসায়নিক ও সার শিল্প; পটাশের আমদানি",
+   "অটোমোবাইল ও আইটি শিল্পকেন্দ্র; বেঙ্গালুরু",
+   "শিল্পদূষণের চার ধরন ও নিয়ন্ত্রণের উপায়"
+  ]
+ },
+ "sections": [
+  {
+   "id": "classification",
+   "heading": "শিল্প ও তার শ্রেণিবিভাগ",
+   "quick": "কাঁচামাল প্রক্রিয়াজাত করে বেশি দামের পণ্য বানানোকে ম্যানুফ্যাকচারিং বলে। শিল্পকে কাঁচামালের উৎস, ভূমিকা, মূলধন, মালিকানা ও ওজন অনুযায়ী ভাগ করা হয়। পরীক্ষায় মালিকানার উদাহরণ (SAIL, TISCO, OIL, সমবায় চিনিকল) বারবার আসে।",
+   "standard": "**শিল্প** বলতে এখানে আমরা **ম্যানুফ্যাকচারিং (Manufacturing)** বা কারখানাজাত উৎপাদন বুঝব। কাঁচামালকে প্রক্রিয়াজাত করে বেশি মূল্যের পণ্যে বদলে বড় পরিমাণে তৈরি করাই এর কাজ: আখ থেকে চিনি, বক্সাইট থেকে অ্যালুমিনিয়াম, আকরিক লোহা থেকে ইস্পাত। কারখানার শ্রমিক, রুটি-কারখানার কর্মী, গাড়ি-নির্মাতা সবাই **দ্বিতীয় স্তরের (secondary)** কাজের মধ্যে পড়েন।\n\nএনসিইআরটি ম্যানুফ্যাকচারিংকে উন্নয়নের মেরুদণ্ড বলেছে। কারণ এই ক্ষেত্র কৃষির আধুনিকীকরণে সাহায্য করে, কৃষি-আয়ের ওপর মানুষের নির্ভরতা কমিয়ে নতুন কাজ দেয়, রপ্তানির মাধ্যমে বৈদেশিক মুদ্রা আনে এবং উপজাতি ও পিছিয়ে-পড়া এলাকায় শিল্প বসিয়ে আঞ্চলিক বৈষম্য কমাতে চায়। কৃষি ও শিল্প হাত ধরাধরি করে চলে: কৃষি-ভিত্তিক শিল্প কৃষি থেকে কাঁচামাল নেয়, আবার চাষিকে সেচ-পাম্প, সার, কীটনাশক, যন্ত্রপাতি বিক্রি করে।\n\n### শ্রেণিবিভাগ\n\nএনসিইআরটি শিল্পকে পাঁচ দিক থেকে ভাগ করেছে। নীচের ছকটি মুখস্থ করুন।\n\n| ভিত্তি | ভাগ | উদাহরণ |\n|---|---|---|\n| কাঁচামালের উৎস | **কৃষিভিত্তিক** | সুতি, পশম, পাট, রেশম, রবার, চিনি, চা, কফি, ভোজ্য তেল |\n| | **খনিজভিত্তিক** | লোহা-ইস্পাত, সিমেন্ট, অ্যালুমিনিয়াম, যন্ত্রপাতি, পেট্রোরসায়ন |\n| প্রধান ভূমিকা | **মৌলিক বা মূল (basic/key)** | লোহা-ইস্পাত, তামা ও অ্যালুমিনিয়াম গলানো (এদের পণ্য অন্য শিল্পের কাঁচামাল) |\n| | **ভোগ্যপণ্য (consumer)** | চিনি, টুথপেস্ট, কাগজ, সেলাই কল, পাখা |\n| মূলধন | **ক্ষুদ্র শিল্প** | সম্পদে সর্বোচ্চ বিনিয়োগের সীমা আছে; এখন এক কোটি টাকা |\n| মালিকানা | **সরকারি ক্ষেত্র** | BHEL, SAIL |\n| | **বেসরকারি ক্ষেত্র** | TISCO, বাজাজ অটো, ডাবর |\n| | **যৌথ ক্ষেত্র** | অয়েল ইন্ডিয়া লিমিটেড (OIL) |\n| | **সমবায় ক্ষেত্র** | মহারাষ্ট্রের চিনি শিল্প, কেরলের নারকেল-ছোবড়া (coir) শিল্প |\n| কাঁচামাল ও পণ্যের ওজন | **ভারী শিল্প** | লোহা-ইস্পাত |\n| | **হালকা শিল্প** | বৈদ্যুতিক সামগ্রী |\n\n**সমবায় ক্ষেত্রে** উৎপাদক, কাঁচামালের জোগানদার বা শ্রমিকরা মিলে পুঁজি দেন এবং লাভ-ক্ষতি ভাগ করে নেন। **যৌথ ক্ষেত্রে** সরকার ও ব্যক্তি বা গোষ্ঠী একসঙ্গে শিল্প চালায়।\n\n### শিল্প কোথায় বসে\n\nকোনো শিল্পের অবস্থান নির্ভর করে কাঁচামাল, বাজার, পরিবহণ ও বন্দর, শ্রমিক, জল ও বিদ্যুতের মতো বিষয়ের ওপর। যেমন বস্ত্রশিল্পের শুরুর দিকে কাঁচা তুলো, বাজার, বন্দর, শ্রমিক ও আর্দ্র আবহাওয়া কাজ করেছিল; ভারী শিল্পে কাঁচামালের কাছাকাছি থাকাটা জরুরি, কারণ ওজনদার জিনিস বয়ে আনার খরচ বেশি। পরের অংশগুলিতে প্রতিটি শিল্পের নির্দিষ্ট কারণ আলাদাভাবে দেওয়া আছে।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "মালিকানার জোড় মনে রাখুন",
+     "body": "সরকারি = **BHEL, SAIL**; বেসরকারি = **TISCO, বাজাজ অটো, ডাবর**; যৌথ = **OIL**; সমবায় = **মহারাষ্ট্রের চিনি, কেরলের coir**। প্রশ্নে সাধারণত এই জোড়গুলি উল্টে দেওয়া হয়।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "মৌলিক শিল্প বনাম ভোগ্যপণ্য শিল্প",
+     "body": "**মৌলিক শিল্পের** পণ্য অন্য শিল্পের কাঁচামাল (ইস্পাত, অ্যালুমিনিয়াম)। **ভোগ্যপণ্য শিল্পের** পণ্য সরাসরি ক্রেতা ব্যবহার করে (চিনি, কাগজ, পাখা)।"
+    }
+   ],
+   "claims": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08"
+   ]
+  },
+  {
+   "id": "agro",
+   "heading": "কৃষিভিত্তিক শিল্প: সুতি বস্ত্র, পাট ও চিনি",
+   "quick": "সুতিবস্ত্রের প্রথম সফল কল মুম্বইয়ে (১৮৫৪), প্রথম পাটকল রিষড়ায় (১৮৫৫)। পাটকল হুগলি নদীর ধারে সরু এলাকায়, কারণ পাট, জলপথ, জল ও শ্রমিক সহজে মেলে। চিনিতে ভারত বিশ্বে দ্বিতীয়, আর গুড়-খাণ্ডসারিতে প্রথম।",
+   "standard": "### বস্ত্রশিল্প\n\nবস্ত্রশিল্প ভারতের অর্থনীতিতে বিশেষ জায়গা নিয়ে আছে, কারণ এটি শিল্প-উৎপাদন, কর্মসংস্থান ও বিদেশি মুদ্রা তিন দিকেই বড় অবদান রাখে। এনসিইআরটির মতে এটিই দেশের একমাত্র শিল্প যা কাঁচামাল থেকে সর্বোচ্চ মূল্যের পণ্য পর্যন্ত **সম্পূর্ণ মূল্য-শৃঙ্খলে (value chain) স্বয়ংসম্পূর্ণ**। এই শিল্প রাসায়নিক ও রং, মোড়ক এবং ইঞ্জিনিয়ারিং কারখানার মতো আরও অনেক শিল্পকে চাহিদা জোগায়।\n\n### সুতিবস্ত্র (Cotton Textile)\n\nপ্রাচীন ভারতে হাতে সুতো কেটে তাঁতে কাপড় বোনা হত। অষ্টাদশ শতকের পর যন্ত্রচালিত তাঁত এল। ঔপনিবেশিক আমলে বিলেতের মিলের কাপড়ের সঙ্গে পাল্লা দিতে না পেরে দেশি ঐতিহ্যবাহী শিল্প ধাক্কা খায়।\n\n- **ভারতের প্রথম সফল বস্ত্রকল গড়ে ওঠে মুম্বইয়ে, ১৮৫৪ সালে।**\n- দুই বিশ্বযুদ্ধের সময় ব্রিটেনে কাপড়ের চাহিদা বাড়ায় ভারতের সুতিবস্ত্র শিল্প উৎসাহ পায়।\n- শুরুর দিকে শিল্প কেন্দ্রীভূত ছিল মহারাষ্ট্র ও গুজরাটের তুলোচাষ এলাকায়। কাঁচা তুলোর জোগান, বাজার, বন্দরসহ পরিবহণ, শ্রমিক এবং আর্দ্র আবহাওয়া এখানে এর অবস্থান ঠিক করেছিল।\n\nসুতো কাটা (spinning) মূলত **মহারাষ্ট্র, গুজরাট ও তামিলনাড়ুতে কেন্দ্রীভূত**; কিন্তু কাপড় বোনা (weaving) **বিকেন্দ্রীভূত**, যাতে সুতি, রেশম, জরি, সূচিকর্মের ঐতিহ্যবাহী দক্ষতা কাজে লাগানো যায়। বোনা হয় তাঁতে, যন্ত্রচালিত তাঁতে ও মিলে। হাতে-কাটা সুতোর খাদি কুটির শিল্প হিসেবে ঘরে ঘরে তাঁতিদের কাজ দেয়। কাঁচামাল তুলো একটি খারিফ ফসল, দাক্ষিণাত্যের শুকনো কালো মাটিতে ভালো হয়; ভারত তুলো উৎপাদনে চিনের পরে দ্বিতীয়।\n\n### পাটশিল্প (Jute)\n\n**ভারত কাঁচা পাট ও পাটজাত পণ্য উৎপাদনে বিশ্বে প্রথম** এবং রপ্তানিতে বাংলাদেশের পরে দ্বিতীয়। বেশির ভাগ কল **পশ্চিমবঙ্গে, হুগলি নদীর দুই তীরে একটি সরু ফালিতে**। **ভারতের প্রথম পাটকল ১৮৫৫ সালে কলকাতার কাছে রিষড়ায় বসে।** ১৯৪৭ সালে দেশভাগের পর কলগুলি ভারতেই থেকে যায়, কিন্তু পাট-চাষের এলাকার প্রায় তিন-চতুর্থাংশ পূর্ব পাকিস্তানে (এখনকার বাংলাদেশ) চলে যায়।\n\n**হুগলি অববাহিকায় কেন?** এনসিইআরটি যে কারণগুলি দিয়েছে:\n1. পাটচাষ এলাকার কাছাকাছি;\n2. সস্তা জলপথ-পরিবহণ, সঙ্গে রেল, সড়ক ও জলপথের ভালো জাল;\n3. কাঁচা পাট ধোয়া-প্রক্রিয়ার জন্য প্রচুর জল;\n4. পশ্চিমবঙ্গ এবং পাশের বিহার, ওড়িশা, উত্তরপ্রদেশ থেকে সস্তা শ্রমিক;\n5. বড় নগর কলকাতা থেকে ব্যাংক, বিমা ও বন্দরের সুবিধা, রপ্তানির জন্য।\n\n### চিনিশিল্প (Sugar)\n\nভারত বিশ্বে **চিনি উৎপাদনে দ্বিতীয়**, কিন্তু **গুড় ও খাণ্ডসারি উৎপাদনে প্রথম**। কাঁচামাল আখ স্থূল, আর পরিবহণে সময় লাগলে তার সুক্রোজ কমে যায়, তাই কল আখের খেতের কাছে বসে। উত্তরপ্রদেশ, বিহার, মহারাষ্ট্র, কর্ণাটক, তামিলনাড়ু, অন্ধ্রপ্রদেশ, গুজরাট, পাঞ্জাব, হরিয়ানা ও মধ্যপ্রদেশে কল আছে; **ষাট শতাংশ কল উত্তরপ্রদেশ ও বিহারে**। শিল্পটি **মরসুমি**, তাই সমবায় ক্ষেত্রের উপযুক্ত।\n\nসাম্প্রতিক কালে কলগুলি দক্ষিণ ও পশ্চিমের রাজ্যে, বিশেষ করে মহারাষ্ট্রে সরে যাচ্ছে। কারণ: সেখানকার আখে সুক্রোজ বেশি, ঠান্ডা আবহাওয়ায় আখ-পেষাইয়ের মরসুম লম্বা এবং সমবায়গুলি বেশি সফল।",
+   "deep": "**বস্ত্র-শিল্পের ঝুঁকি ও আজকের ছবি:** এনসিইআরটি বলেছে ভারত সুতো কাটায় বিশ্বমানের, কিন্তু বয়নে নিম্নমানের কাপড় বের হয়, কারণ দেশে তৈরি ভালো সুতোর বড় অংশ বয়নশিল্প ব্যবহার করতে পারে না। মিল-ক্ষেত্রের তাঁতসংখ্যা যন্ত্রচালিত ও হস্তচালিত তাঁতের চেয়ে কম রাখা কেন জরুরি, এই প্রশ্ন ধরে বইটি গান্ধিজির খাদি-জোরের দিকে ইঙ্গিত করেছে: কুটির-শিল্প ঘরে বসেই বহু মানুষকে কাজ দেয়।\n\n**চিনিতে ভৌগোলিক পরিবর্তন:** উত্তরের (উত্তরপ্রদেশ-বিহার) আখে সুক্রোজ কম, আর দক্ষিণ-পশ্চিমে বেশি। ফলে ভবিষ্যতে মহারাষ্ট্র-কর্ণাটক-তামিলনাড়ুর ভাগ বাড়ছে, যদিও এখনও উত্তরপ্রদেশ-বিহারে ষাট শতাংশ কল।",
+   "boxes": [
+    {
+     "kind": "bengal",
+     "title": "পাট ও হুগলি",
+     "body": "পাটকল-বেষ্টনী পশ্চিমবঙ্গের হুগলি নদীর দুই তীরে। প্রথম পাটকল **রিষড়ায়**, ১৮৫৫ সালে। দেশভাগে কল রইল ভারতে, কিন্তু চাষের জমির প্রায় তিন-চতুর্থাংশ গেল বাংলাদেশে।"
+    },
+    {
+     "kind": "remember",
+     "title": "দুটি প্রথম",
+     "body": "প্রথম সফল সুতিকল: **মুম্বই, ১৮৫৪**। প্রথম পাটকল: **রিষড়া, ১৮৫৫** (১ বছর পর)।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "চিনি বনাম গুড়-খাণ্ডসারি",
+     "body": "চিনিতে ভারত **দ্বিতীয়**; গুড় ও খাণ্ডসারিতে **প্রথম**।"
+    }
+   ],
+   "claims": [
+    "c09",
+    "c10",
+    "c11",
+    "c12",
+    "c13",
+    "c14",
+    "c15",
+    "c16",
+    "c17"
+   ]
+  },
+  {
+   "id": "mineral",
+   "heading": "খনিজভিত্তিক শিল্প: লোহা-ইস্পাত, অ্যালুমিনিয়াম ও সিমেন্ট",
+   "quick": "লোহা-ইস্পাত মৌলিক ও ভারী শিল্প; ছোটনাগপুর মালভূমিতে এর সবচেয়ে বেশি কেন্দ্রীভবন। অ্যালুমিনিয়ামের জন্য নিয়মিত বিদ্যুৎ ও কাঁচামাল দরকার। প্রথম সিমেন্ট কারখানা চেন্নাইয়ে (১৯০৪)।",
+   "standard": "যে শিল্পে খনিজ ও ধাতু কাঁচামাল, তাকে **খনিজভিত্তিক শিল্প** বলে। খনিজগুলি কোথায় পাওয়া যায় তা GEO-08 অধ্যায়ে আছে; এখানে শুধু শিল্পের দিকটা দেখব।\n\n### লোহা ও ইস্পাত শিল্প\n\nএটি একটি **মৌলিক শিল্প**, কারণ ভারী, মাঝারি ও হালকা সব শিল্পই যন্ত্রপাতির জন্য এর ওপর নির্ভরশীল। ইস্পাত লাগে নানা ইঞ্জিনিয়ারিং সামগ্রী, নির্মাণ, প্রতিরক্ষা, চিকিৎসা, টেলিফোন, বৈজ্ঞানিক যন্ত্র ও ভোগ্যপণ্যে। ইস্পাতের উৎপাদন ও ব্যবহারকে প্রায়ই দেশের উন্নয়নের সূচক ধরা হয়।\n\nএটি একটি **ভারী শিল্প**: কাঁচামাল ও তৈরি পণ্য দুটোই ভারী ও স্থূল, তাই পরিবহণ-খরচ বেশি। **আকরিক লোহা, কোকিং কয়লা ও চুনাপাথর লাগে প্রায় ৪ : ২ : ১ অনুপাতে**; ইস্পাত শক্ত করতে কিছু ম্যাঙ্গানিজও লাগে। তৈরি পণ্য বাজারে পৌঁছনোর জন্য ভালো পরিবহণ-জালও দরকার।\n\n**ছোটনাগপুর মালভূমি অঞ্চলে লোহা-ইস্পাত শিল্পের কেন্দ্রীভবন সবচেয়ে বেশি।** কারণ: সস্তা আকরিক লোহা, কাছেই উচ্চমানের কাঁচামাল, সস্তা শ্রমিক এবং দেশীয় বাজারে বৃদ্ধির বিপুল সম্ভাবনা। পাঠ্যবইয়ের মতে উত্তর-পূর্ব মালভূমি অঞ্চল (ছোটনাগপুর, ওড়িশা মালভূমি, পশ্চিমবঙ্গ ও ছত্তিশগড়ের অংশ) লোহা, কয়লা, ম্যাঙ্গানিজ, বক্সাইট ও অভ্রে সমৃদ্ধ। শিল্পনগরী হিসেবে জামশেদপুর আধুনিক শিল্পভিত্তিক শহরের উদাহরণ (১৮৫০-এর পরে গড়া), আর স্বাধীনতার পর গড়ে ওঠা শিল্পকেন্দ্রের মধ্যে আছে দুর্গাপুর, ভিলাই, সিন্ধ্রি ও বারাউনি।\n\n**ভারতের প্রধান লৌহ-ইস্পাত কারখানা**\n\n| কারখানা | রাজ্য | সহযোগী দেশ / মালিকানা |\n|---|---|---|\n| টাটা আয়রন অ্যান্ড স্টিল কোম্পানি (TISCO), জামশেদপুর | ঝাড়খণ্ড | বেসরকারি (টাটা গোষ্ঠী) |\n| ইন্ডিয়ান আয়রন অ্যান্ড স্টিল কোম্পানি (IISCO), বার্নপুর | পশ্চিমবঙ্গ | বেসরকারি হিসেবে শুরু, এখন SAIL-এর অধীন |\n| ভিলাই ইস্পাত কারখানা | ছত্তিশগড় | সোভিয়েত ইউনিয়ন (USSR) |\n| রৌরকেলা ইস্পাত কারখানা | ওড়িশা | পশ্চিম জার্মানি |\n| দুর্গাপুর ইস্পাত কারখানা | পশ্চিমবঙ্গ | যুক্তরাজ্য (ব্রিটেন) |\n| বোকারো ইস্পাত কারখানা | ঝাড়খণ্ড | সোভিয়েত ইউনিয়ন (USSR) |\n| বিশাখাপত্তনম ইস্পাত কারখানা (RINL) | অন্ধ্রপ্রদেশ | ভারতের প্রথম উপকূলবর্তী সংহত ইস্পাত কারখানা |\n\n### অ্যালুমিনিয়াম গলানো (Aluminium Smelting)\n\nলোহা-ইস্পাতের পরে এটি ভারতের **দ্বিতীয় গুরুত্বপূর্ণ ধাতুশিল্প**। অ্যালুমিনিয়াম হালকা, মরচে-প্রতিরোধী, তাপ-পরিবাহী, পিটিয়ে পাত করা যায় এবং অন্য ধাতুর সঙ্গে মিশলে শক্ত হয়। বিমান, বাসনপত্র ও তারে এর ব্যবহার; ইস্পাত, তামা, দস্তা ও সীসার বদলেও চলছে। কাঁচামাল **বক্সাইট**, একটি ভারী, গাঢ় লালচে পাথর। স্মেল্টার আছে **ওড়িশা, পশ্চিমবঙ্গ, কেরল, উত্তরপ্রদেশ, ছত্তিশগড়, মহারাষ্ট্র ও তামিলনাড়ুতে**। অবস্থানের দুটি প্রধান শর্ত: **নিয়মিত বিদ্যুৎ এবং সবচেয়ে কম খরচে নিশ্চিত কাঁচামাল**।\n\n### সিমেন্ট শিল্প\n\nবাড়ি, কারখানা, সেতু, রাস্তা, বিমানবন্দর ও বাঁধ বানাতে সিমেন্ট লাগে। কাঁচামাল **চুনাপাথর, সিলিকা ও জিপসাম**, সবই ভারী; এছাড়া কয়লা, বিদ্যুৎ ও রেলপথ চাই। গুজরাটের কারখানাগুলি উপসাগরীয় দেশের বাজারে সহজে পৌঁছনোর সুবিধা পায়। **ভারতের প্রথম সিমেন্ট কারখানা বসে চেন্নাইয়ে, ১৯০৪ সালে**; স্বাধীনতার পর শিল্পের প্রসার ঘটে।",
+   "deep": "**মৌলিক শিল্পের যুক্তি:** ইস্পাত ও অ্যালুমিনিয়ামের পণ্য অন্য শিল্পের কাঁচামাল। তাই এনসিইআরটি এদের মৌলিক (basic/key) শিল্প বলেছে; সিমেন্ট ও পেট্রোরসায়নের মতোই এরা সবাই খনিজভিত্তিক।",
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "৪ : ২ : ১",
+     "body": "ইস্পাত তৈরিতে **আকরিক লোহা : কোকিং কয়লা : চুনাপাথর = ৪ : ২ : ১** (প্রায়)।"
+    },
+    {
+     "kind": "bengal",
+     "title": "বাংলায় লোহা-ইস্পাত ও অ্যালুমিনিয়াম",
+     "body": "এনসিইআরটির তালিকায় পশ্চিমবঙ্গে অ্যালুমিনিয়াম স্মেল্টার আছে; আর দুর্গাপুর স্বাধীনতার পরের শিল্পকেন্দ্র।"
+    },
+    {
+     "kind": "remember",
+     "title": "অ্যালুমিনিয়ামের দুই শর্ত",
+     "body": "নিয়মিত **বিদ্যুৎ** ও নিশ্চিত **কাঁচামাল (বক্সাইট)** সবচেয়ে কম খরচে।"
+    }
+   ],
+   "claims": [
+    "c18",
+    "c19",
+    "c20",
+    "c23",
+    "c31",
+    "c32"
+   ]
+  },
+  {
+   "id": "chemical",
+   "heading": "রাসায়নিক ও সার শিল্প",
+   "quick": "রাসায়নিক শিল্পের দুটি ভাগ: অজৈব (সালফিউরিক অ্যাসিড, সোডা অ্যাশ), যা সারা দেশে ছড়ানো; আর জৈব (পেট্রোরসায়ন), যার কারখানা শোধনাগারের কাছে। সারে ইউরিয়া, ফসফেট, DAP ও জটিল সার তৈরি হয়; পটাশ পুরোটাই আমদানি।",
+   "standard": "### রাসায়নিক শিল্প\n\nরাসায়নিক শিল্প ভারতে দ্রুত বাড়ছে ও নানা দিকে ছড়াচ্ছে; বড় ও ছোট দুই ধরনের কারখানাই আছে। এর দুটি ভাগ:\n\n- **অজৈব (inorganic):** সালফিউরিক অ্যাসিড (সার, কৃত্রিম তন্তু, প্লাস্টিক, আঠা, রং-এ লাগে), নাইট্রিক অ্যাসিড, ক্ষার, **সোডা অ্যাশ** (কাচ, সাবান-ডিটারজেন্ট, কাগজে লাগে) ও কস্টিক সোডা। এই কারখানাগুলি সারা দেশে ছড়ানো।\n- **জৈব (organic):** পেট্রোরসায়ন, যা থেকে কৃত্রিম তন্তু, কৃত্রিম রবার, প্লাস্টিক, রং, ওষুধ তৈরি হয়। জৈব রাসায়নিকের কারখানা বসে **তেল-শোধনাগার বা পেট্রোরসায়ন কারখানার কাছে**।\n\nরাসায়নিক শিল্প নিজেই নিজের সবচেয়ে বড় ক্রেতা: মৌলিক রাসায়নিক আরও প্রক্রিয়া করে অন্য রাসায়নিক হয়, যা শিল্প, কৃষি বা সরাসরি ভোক্তার কাজে লাগে।\n\n### সার শিল্প\n\nসার শিল্প গড়ে উঠেছে চার ধরনের সার ঘিরে:\n1. **নাইট্রোজেনঘটিত সার**, প্রধানত **ইউরিয়া**;\n2. **ফসফেটঘটিত সার**;\n3. **অ্যামোনিয়াম ফসফেট (DAP)**;\n4. **জটিল সার**, যাতে নাইট্রোজেন (N), ফসফেট (P) ও পটাশ (K) মেশানো থাকে।\n\n**পটাশ পুরোপুরি আমদানি করতে হয়**, কারণ দেশে বাণিজ্যিকভাবে ব্যবহারযোগ্য পটাশ বা পটাশিয়াম-যৌগের মজুত নেই। সবুজ বিপ্লবের পর শিল্প দেশের আরও নানা জায়গায় ছড়ায়। **গুজরাট, তামিলনাড়ু, উত্তরপ্রদেশ, পাঞ্জাব ও কেরল মিলে প্রায় অর্ধেক সার উৎপাদন করে।** অন্য উল্লেখযোগ্য উৎপাদক: অন্ধ্রপ্রদেশ, ওড়িশা, রাজস্থান, বিহার, মহারাষ্ট্র, অসম, পশ্চিমবঙ্গ, গোয়া, দিল্লি, মধ্যপ্রদেশ ও কর্ণাটক।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "সারের পাঁচ রাজ্য",
+     "body": "প্রায় অর্ধেক উৎপাদন: **গুজরাট, তামিলনাড়ু, উত্তরপ্রদেশ, পাঞ্জাব, কেরল**। পশ্চিমবঙ্গ, অসম, ওড়িশা \"অন্য উল্লেখযোগ্য\" তালিকায়।"
+    },
+    {
+     "kind": "remember",
+     "title": "পটাশ = আমদানি",
+     "body": "NPK-র তিনটির মধ্যে **পটাশ (K)** সম্পূর্ণ আমদানি-নির্ভর।"
+    }
+   ],
+   "claims": [
+    "c21",
+    "c22"
+   ]
+  },
+  {
+   "id": "auto_it",
+   "heading": "অটোমোবাইল ও তথ্যপ্রযুক্তি শিল্প",
+   "quick": "গাড়ি শিল্পের কেন্দ্র দিল্লি-গুরুগ্রাম থেকে বেঙ্গালুরু পর্যন্ত ছড়ানো, তাতে জামশেদপুর ও কলকাতাও আছে। বেঙ্গালুরু ভারতের ইলেকট্রনিক রাজধানী; হার্ডওয়্যার ও সফটওয়্যারের বৃদ্ধি আইটি-র সাফল্যের চাবিকাঠি।",
+   "standard": "### অটোমোবাইল শিল্প\n\nট্রাক, বাস, গাড়ি, মোটরবাইক, স্কুটার, তিন-চাকার গাড়ি ও বহু-ব্যবহারযোগ্য যান ভারতের নানা কেন্দ্রে তৈরি হয়। উদারীকরণের পর নতুন আধুনিক মডেল আসায় যানবাহনের চাহিদা বাড়ে এবং যাত্রী-গাড়ি, দু-চাকা ও তিন-চাকার শিল্প ভালো বাড়ে। শিল্প বসেছে **দিল্লি, গুরুগ্রাম, মুম্বই, পুনে, চেন্নাই, কলকাতা, লখনউ, ইন্দোর, হায়দরাবাদ, জামশেদপুর ও বেঙ্গালুরু** ঘিরে।\n\n### তথ্যপ্রযুক্তি ও ইলেকট্রনিক্স শিল্প\n\nইলেকট্রনিক্স শিল্পের পরিধি ট্রানজিস্টর থেকে টেলিভিশন, টেলিফোন, মোবাইল টেলিকম, টেলিফোন এক্সচেঞ্জ, রাডার, কম্পিউটার ও টেলিযোগাযোগের যন্ত্রপাতি পর্যন্ত। **বেঙ্গালুরু ভারতের ইলেকট্রনিক রাজধানী** হিসেবে উঠে এসেছে। অন্য কেন্দ্র: মুম্বই, দিল্লি, হায়দরাবাদ, পুনে, চেন্নাই, কলকাতা, লখনউ ও কোয়েম্বাতুর। সবচেয়ে ঘন কেন্দ্রীভবন বেঙ্গালুরু, নয়ডা, মুম্বই, চেন্নাই, হায়দরাবাদ ও পুনেতে। কলকাতার কাছে পশ্চিমবঙ্গের রূপনারায়ণপুরে HCL-এর তার-তৈরির কারখানা আছে। এই শিল্পের বড় প্রভাব কর্মসংস্থানে। **হার্ডওয়্যার ও সফটওয়্যার দুই ক্ষেত্রেই ক্রমাগত বৃদ্ধি** আইটি শিল্পের সাফল্যের চাবিকাঠি। (সফটওয়্যার টেকনোলজি পার্কের মানচিত্র দেখুন: NCERT X সমকালীন ভারত II, অধ্যায় ৬, মানচিত্র)",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "বেঙ্গালুরু",
+     "body": "বেঙ্গালুরু = **ইলেকট্রনিক রাজধানী**। বেঙ্গালুরু অটোমোবাইল কেন্দ্রের তালিকাতেও আছে।"
+    },
+    {
+     "kind": "bengal",
+     "title": "পশ্চিমবঙ্গের নাম",
+     "body": "গাড়ি শিল্পে কলকাতা, ইলেকট্রনিক্সে কলকাতা, আর রূপনারায়ণপুরে HCL-এর তার-কারখানা।"
+    }
+   ],
+   "claims": [
+    "c24",
+    "c25",
+    "c26"
+   ]
+  },
+  {
+   "id": "pollution",
+   "heading": "শিল্পদূষণ ও তার নিয়ন্ত্রণ",
+   "quick": "শিল্প বায়ু, জল, মাটি ও শব্দ এই চার ধরনের দূষণ ঘটায়। প্রতি লিটার শিল্পবর্জ্য জল আট গুণ মিষ্টি জল দূষিত করে। নিয়ন্ত্রণের উপায় জল পুনর্ব্যবহার, বর্জ্য-শোধন, ধোঁয়া-ছাঁকনি ও নীরব যন্ত্র।",
+   "standard": "শিল্প দেশের অর্থনীতিতে বড় অবদান রাখলেও জমি, জল, বাতাস ও শব্দের দূষণ এবং পরিবেশের ক্ষতিও করেছে। শিল্প **চার ধরনের দূষণের** জন্য দায়ী: **বায়ু, জল, মাটি ও শব্দ**। তাপবিদ্যুৎ কেন্দ্রও দূষণকারী শিল্পের মধ্যে পড়ে।\n\n**বায়ুদূষণ:** বাতাসে সালফার ডাই-অক্সাইড ও কার্বন মনোক্সাইডের মতো অনাকাঙ্ক্ষিত গ্যাস বেড়ে গেলে ঘটে। রাসায়নিক ও কাগজ কারখানা, ইটভাটা, শোধনাগার ও গলানো-কারখানা ধোঁয়া ছাড়ে; দূষণবিধি না মানা ছোট-বড় কারখানায় জীবাশ্ম জ্বালানি পোড়ানোতেও ধোঁয়া হয়। বিষাক্ত গ্যাস ফাঁসের দীর্ঘমেয়াদি ক্ষতি ভয়ানক, যেমন **ভোপাল গ্যাস দুর্ঘটনা**।\n\n**জলদূষণ:** জৈব ও অজৈব শিল্পবর্জ্য নদীতে ফেললে ঘটে। প্রধান দোষী: কাগজ ও মণ্ড, রাসায়নিক, বস্ত্র ও রং, পেট্রোলিয়াম শোধনাগার, চামড়া-শোধনাগার (ট্যানারি) ও ইলেকট্রোপ্লেটিং কারখানা। এরা রং, ডিটারজেন্ট, অ্যাসিড, লবণ এবং সীসা-পারদের মতো ভারী ধাতু জলে ফেলে। ফ্লাই অ্যাশ, ফসফো-জিপসাম ও লোহা-ইস্পাতের স্ল্যাগ ভারতের প্রধান কঠিন বর্জ্য। **তাপীয় দূষণ (thermal pollution)** ঘটে কারখানা ও তাপবিদ্যুৎ কেন্দ্রের গরম জল ঠান্ডা না করেই নদী বা পুকুরে ফেললে।\n\n**মাটিদূষণ:** কাচ, ক্ষতিকর রাসায়নিক, বর্জ্য জল, মোড়ক, লবণ ও আবর্জনা ফেললে মাটি অকেজো হয়; বৃষ্টির জল দূষক বয়ে মাটির নীচে ঢুকে ভূগর্ভস্থ জলও দূষিত করে।\n\n**শব্দদূষণ:** বিরক্তি, রাগ, শ্রবণশক্তির ক্ষতি, হৃৎস্পন্দন ও রক্তচাপ বৃদ্ধি ঘটাতে পারে। কারখানা, নির্মাণকাজ, জেনারেটর, করাত ও বায়ুচালিত বা বৈদ্যুতিক ড্রিল বেশি শব্দ করে।\n\n### নিয়ন্ত্রণের উপায়\n\n**প্রতি লিটার শিল্প-বর্জ্য জল আট গুণ মিষ্টি জলকে দূষিত করে।** তাই:\n1. একাধিক ধাপে জল পুনর্ব্যবহার ও পুনঃচক্রে ব্যবহার করে প্রক্রিয়াকরণে জলের ব্যবহার কমানো;\n2. বৃষ্টির জল সংরক্ষণ;\n3. গরম জল ও বর্জ্য নদী-পুকুরে ফেলার আগে শোধন।\n\nবর্জ্য-শোধন হয় তিন ধাপে: **প্রাথমিক** (যান্ত্রিক: ছাঁকা, গুঁড়ো করা, ফ্লকুলেশন, থিতানো), **দ্বিতীয় স্তর** (জৈব প্রক্রিয়া) এবং **তৃতীয় স্তর** (জৈব, রাসায়নিক ও ভৌত প্রক্রিয়া, যাতে বর্জ্য জল পুনর্ব্যবহার হয়)। বাতাসের কণা কমাতে কারখানার চিমনিতে ইলেকট্রোস্ট্যাটিক প্রেসিপিটেটর, ফ্যাব্রিক ফিল্টার, স্ক্রাবার বসানো হয়; কয়লার বদলে তেল বা গ্যাস ব্যবহার করলে ধোঁয়া কমে। জেনারেটরে সাইলেন্সার লাগিয়ে এবং শব্দশোষক উপাদান ব্যবহার করে শব্দ কমানো যায়। টেকসই উন্নয়নের চ্যালেঞ্জ হল অর্থনৈতিক উন্নয়নের সঙ্গে পরিবেশের ভাবনা মেলানো।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "৪ ধরনের দূষণ, ৮ গুণ জল",
+     "body": "বায়ু, জল, মাটি, শব্দ। প্রতি লিটার শিল্প-বর্জ্য জল **৮ গুণ** মিষ্টি জল নষ্ট করে।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "জলদূষণ বনাম তাপীয় দূষণ",
+     "body": "তাপীয় দূষণ হল জলদূষণেরই একটি রূপ: **গরম জল** ঠান্ডা না করে নদীতে ফেলা। জলজ প্রাণীর ওপর এর প্রভাব পড়ে।"
+    }
+   ],
+   "claims": [
+    "c27",
+    "c28",
+    "c29",
+    "c30"
+   ]
+  }
+ ],
+ "locate": [
+  {
+   "place": "মুম্বই",
+   "where": "মহারাষ্ট্র",
+   "about": "ভারতের প্রথম সফল সুতিবস্ত্রকল (১৮৫৪)",
+   "section": "agro",
+   "claims": [
+    "c10"
+   ]
+  },
+  {
+   "place": "রিষড়া",
+   "where": "কলকাতার কাছে, পশ্চিমবঙ্গ",
+   "about": "ভারতের প্রথম পাটকল (১৮৫৫)",
+   "section": "agro",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "place": "হুগলি অববাহিকা",
+   "where": "পশ্চিমবঙ্গ",
+   "about": "পাটকলের সরু বেষ্টনী; সস্তা জলপথ, জল ও শ্রমিক",
+   "section": "agro",
+   "claims": [
+    "c13",
+    "c15"
+   ]
+  },
+  {
+   "place": "ছোটনাগপুর মালভূমি",
+   "where": "ঝাড়খণ্ড ও আশপাশ",
+   "about": "লোহা-ইস্পাত শিল্পের সবচেয়ে বেশি কেন্দ্রীভবন",
+   "section": "mineral",
+   "claims": [
+    "c19",
+    "c32"
+   ]
+  },
+  {
+   "place": "চেন্নাই",
+   "where": "তামিলনাড়ু",
+   "about": "ভারতের প্রথম সিমেন্ট কারখানা (১৯০৪)",
+   "section": "mineral",
+   "claims": [
+    "c23"
+   ]
+  },
+  {
+   "place": "জামশেদপুর",
+   "where": "ঝাড়খণ্ড",
+   "about": "আধুনিক শিল্পভিত্তিক শহর; গাড়ি-শিল্পকেন্দ্র",
+   "section": "mineral",
+   "claims": [
+    "c31",
+    "c24"
+   ]
+  },
+  {
+   "place": "দুর্গাপুর",
+   "where": "পশ্চিমবঙ্গ",
+   "about": "স্বাধীনতার পর গড়া শিল্পকেন্দ্র",
+   "section": "mineral",
+   "claims": [
+    "c31"
+   ]
+  },
+  {
+   "place": "বেঙ্গালুরু",
+   "where": "কর্ণাটক",
+   "about": "ভারতের ইলেকট্রনিক রাজধানী",
+   "section": "auto_it",
+   "claims": [
+    "c25"
+   ]
+  },
+  {
+   "place": "রূপনারায়ণপুর",
+   "where": "পশ্চিমবঙ্গ",
+   "about": "HCL-এর তার-তৈরির কারখানা",
+   "section": "auto_it",
+   "claims": [
+    "c26"
+   ]
+  },
+  {
+   "place": "গুজরাট",
+   "where": "ভারতের পশ্চিম",
+   "about": "সারে অগ্রণী পাঁচ রাজ্যের একটি; সিমেন্ট কারখানা উপসাগরীয় বাজারের জন্য",
+   "section": "chemical",
+   "claims": [
+    "c22",
+    "c23"
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "term": "ম্যানুফ্যাকচারিং (Manufacturing)",
+   "meaning": "কাঁচামালকে প্রক্রিয়াজাত করে বেশি মূল্যের পণ্য বড় পরিমাণে তৈরি করা।",
+   "section": "classification"
+  },
+  {
+   "term": "মৌলিক শিল্প (Basic industry)",
+   "meaning": "যে শিল্পের পণ্য অন্য শিল্পের কাঁচামাল, যেমন ইস্পাত।",
+   "section": "classification"
+  },
+  {
+   "term": "সমবায় শিল্প (Cooperative sector)",
+   "meaning": "উৎপাদক, জোগানদার বা শ্রমিকদের মিলিত মালিকানার শিল্প; লাভ-ক্ষতি ভাগ হয়।",
+   "section": "classification"
+  },
+  {
+   "term": "গুড় ও খাণ্ডসারি",
+   "meaning": "আখ থেকে তৈরি দেশি মিষ্টি; উৎপাদনে ভারত বিশ্বে প্রথম।",
+   "section": "agro"
+  },
+  {
+   "term": "স্মেল্টার (Smelter)",
+   "meaning": "আকরিক গলিয়ে ধাতু বের করার কারখানা।",
+   "section": "mineral"
+  },
+  {
+   "term": "কোকিং কয়লা (Coking coal)",
+   "meaning": "ইস্পাত তৈরির জ্বালানি ও বিজারক কয়লা।",
+   "section": "mineral"
+  },
+  {
+   "term": "ইউরিয়া (Urea)",
+   "meaning": "প্রধান নাইট্রোজেনঘটিত সার।",
+   "section": "chemical"
+  },
+  {
+   "term": "তাপীয় দূষণ (Thermal pollution)",
+   "meaning": "গরম জল ঠান্ডা না করে জলাশয়ে ফেলার ফলে দূষণ।",
+   "section": "pollution"
+  }
+ ],
+ "cause_effect": [
+  {
+   "title": "হুগলি তীরে পাটকল কেন",
+   "causes": [
+    "কাছেই পাটচাষ",
+    "সস্তা জলপথ ও রেল-সড়ক",
+    "প্রচুর জল ও সস্তা শ্রমিক",
+    "কলকাতার ব্যাংক-বন্দর"
+   ],
+   "event": "হুগলির দুই তীরে সরু ফালিতে পাটকল-বেষ্টনী",
+   "results": [
+    "ভারত পাটে বিশ্বে প্রথম"
+   ],
+   "section": "agro",
+   "claims": [
+    "c13",
+    "c15"
+   ]
+  },
+  {
+   "title": "চিনিকল দক্ষিণ-পশ্চিমে কেন সরছে",
+   "causes": [
+    "সেখানকার আখে সুক্রোজ বেশি",
+    "ঠান্ডা আবহাওয়ায় লম্বা পেষাই-মরসুম",
+    "সমবায়ের সাফল্য"
+   ],
+   "event": "মহারাষ্ট্রসহ দক্ষিণ-পশ্চিমে কলের কেন্দ্রীভবন",
+   "results": [
+    "উত্তরের (UP, বিহার) আধিপত্য ধীরে কমছে"
+   ],
+   "section": "agro",
+   "claims": [
+    "c16",
+    "c17"
+   ]
+  },
+  {
+   "title": "ছোটনাগপুরে ইস্পাত কেন",
+   "causes": [
+    "সস্তা আকরিক",
+    "কাছে ভালো কাঁচামাল",
+    "সস্তা শ্রমিক",
+    "ঘরোয়া বাজার"
+   ],
+   "event": "ইস্পাত শিল্পের সর্বোচ্চ কেন্দ্রীভবন",
+   "results": [
+    "পূর্ব ভারতে শিল্পনগরী গড়ে ওঠে"
+   ],
+   "section": "mineral",
+   "claims": [
+    "c19",
+    "c31"
+   ]
+  }
+ ],
+ "exam_focus": [
+  {
+   "point": "প্রথম: সুতিকল মুম্বই ১৮৫৪; পাটকল রিষড়া ১৮৫৫; সিমেন্ট চেন্নাই ১৯০৪",
+   "section": "agro"
+  },
+  {
+   "point": "মালিকানা: সরকারি SAIL/BHEL, বেসরকারি TISCO, যৌথ OIL, সমবায় মহারাষ্ট্রের চিনি",
+   "section": "classification"
+  },
+  {
+   "point": "পাটকল হুগলি অববাহিকায় কেন; দেশভাগের প্রভাব",
+   "section": "agro"
+  },
+  {
+   "point": "চিনিতে দ্বিতীয়, গুড়-খাণ্ডসারিতে প্রথম; ৬০% কল উত্তরপ্রদেশ-বিহারে",
+   "section": "agro"
+  },
+  {
+   "point": "ইস্পাত: ৪:২:১ অনুপাত; ছোটনাগপুরে সর্বাধিক কেন্দ্রীভবন",
+   "section": "mineral"
+  },
+  {
+   "point": "পটাশ সম্পূর্ণ আমদানি; সারের পাঁচ রাজ্য",
+   "section": "chemical"
+  },
+  {
+   "point": "বেঙ্গালুরু = ইলেকট্রনিক রাজধানী",
+   "section": "auto_it"
+  },
+  {
+   "point": "শিল্পদূষণের ৪ ধরন; ৮ গুণ জল; তাপীয় দূষণ",
+   "section": "pollution"
+  }
+ ],
+ "bengal_connection": {
+  "body": "- **পাট:** ভারতের প্রথম পাটকল (১৮৫৫) পশ্চিমবঙ্গের রিষড়ায়; পাটকলের সরু বেষ্টনী হুগলি নদীর দুই তীরে। কলকাতা ব্যাংক, বিমা ও বন্দরের সুবিধা দেয়।\n- **অ্যালুমিনিয়াম:** স্মেল্টারের তালিকায় পশ্চিমবঙ্গ আছে।\n- **ইস্পাত:** দুর্গাপুর স্বাধীনতার পর গড়ে ওঠা শিল্পকেন্দ্র; উত্তর-পূর্ব মালভূমি অঞ্চলে পশ্চিমবঙ্গও পড়ে।\n- **অন্যান্য:** সারে, অটোমোবাইল ও ইলেকট্রনিক্সে কলকাতা; রূপনারায়ণপুরে HCL-এর তার-কারখানা।\n\nপশ্চিমবঙ্গের শিল্পাঞ্চলের বিস্তারিত GEO-12-তে।",
+  "claims": [
+   "c13",
+   "c14",
+   "c15",
+   "c20",
+   "c24",
+   "c26",
+   "c31",
+   "c32"
+  ]
+ },
+ "quick_revision": [
+  "ম্যানুফ্যাকচারিং: কাঁচামাল প্রক্রিয়া করে বেশি দামের পণ্য বড় পরিমাণে তৈরি।",
+  "শ্রেণিবিভাগ: কাঁচামাল (কৃষি/খনিজ), ভূমিকা (মৌলিক/ভোগ্য), মালিকানা (সরকারি/বেসরকারি/যৌথ/সমবায়), ওজন (ভারী/হালকা)।",
+  "সরকারি: SAIL, BHEL; বেসরকারি: TISCO, বাজাজ, ডাবর; যৌথ: OIL; সমবায়: মহারাষ্ট্রের চিনি, কেরলের coir।",
+  "বস্ত্র একমাত্র শিল্প যা সম্পূর্ণ মূল্য-শৃঙ্খলে স্বয়ংসম্পূর্ণ।",
+  "প্রথম সফল সুতিকল: মুম্বই, ১৮৫৪। কাটাই কেন্দ্রীভূত, বয়ন বিকেন্দ্রীভূত।",
+  "পাটে ভারত প্রথম; রপ্তানিতে বাংলাদেশের পরে দ্বিতীয়। প্রথম পাটকল রিষড়া, ১৮৫৫।",
+  "চিনিতে দ্বিতীয়, গুড়-খাণ্ডসারিতে প্রথম; ৬০% কল উত্তরপ্রদেশ ও বিহারে; কল সরছে দক্ষিণ-পশ্চিমে।",
+  "ইস্পাতে আকরিক : কোকিং কয়লা : চুনাপাথর = ৪ : ২ : ১; ছোটনাগপুরে সর্বাধিক কেন্দ্রীভবন।",
+  "অ্যালুমিনিয়াম: দ্বিতীয় ধাতুশিল্প; কাঁচামাল বক্সাইট; শর্ত বিদ্যুৎ ও কাঁচামাল।",
+  "সিমেন্ট: প্রথম কারখানা চেন্নাই, ১৯০৪; গুজরাট থেকে উপসাগরীয় বাজার।",
+  "সার: পটাশ পুরোপুরি আমদানি; গুজরাট, তামিলনাড়ু, উত্তরপ্রদেশ, পাঞ্জাব, কেরল প্রায় অর্ধেক।",
+  "বেঙ্গালুরু ইলেকট্রনিক রাজধানী; আইটি-র চাবিকাঠি হার্ডওয়্যার ও সফটওয়্যার।",
+  "শিল্পদূষণ চার ধরনের: বায়ু, জল, মাটি, শব্দ; প্রতি লিটার বর্জ্য জল ৮ গুণ মিষ্টি জল নষ্ট করে।"
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Contemporary India II (Class X), Chapter 6: Manufacturing Industries",
+   "class": "X",
+   "url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "title": "India: People and Economy (Class XII), Chapter 2: Human Settlements",
+   "class": "XII",
+   "url": "https://ncert.nic.in/textbook/pdf/legy202.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "title": "India: People and Economy (Class XII), Chapter 5: Mineral and Energy Resources",
+   "class": "XII",
+   "url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "title": "Contemporary India II (Class X), Chapter 4: Agriculture",
+   "class": "X",
+   "url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+   "accessed_at": "2026-11-13"
+  }
+ ],
+ "claims": [
+  {
+   "id": "c01",
+   "claim": "Manufacturing means producing goods in large quantities by processing raw materials into more valuable products.",
+   "source": "s1",
+   "page": "p. 58",
+   "quote": "Production of goods in large quantities after processing from raw materials to more valuable products is called manufacturing."
+  },
+  {
+   "id": "c02",
+   "claim": "Manufacturing is the backbone of development: it gives jobs, helps agriculture, earns foreign exchange.",
+   "source": "s1",
+   "page": "p. 58",
+   "quote": "Manufacturing sector is considered the backbone of development in general and economic development in particular"
+  },
+  {
+   "id": "c03",
+   "claim": "Agriculture and industry move hand in hand; agro-industries depend on agriculture for raw materials and sell fertilisers, pumps etc. to farmers.",
+   "source": "s1",
+   "page": "p. 58",
+   "quote": "Agriculture and industry are not exclusive of each other. They move hand in hand."
+  },
+  {
+   "id": "c04",
+   "claim": "Classification by raw material: agro-based (cotton, woollen, jute, silk, rubber, sugar, tea, coffee, edible oil) and mineral-based (iron and steel, cement, aluminium, machine tools, petrochemicals).",
+   "source": "s1",
+   "page": "p. 59",
+   "quote": "Agro based: cotton, woollen, jute, silk textile, rubber and sugar, tea, coffee, edible oil. Mineral based: iron and steel, cement, aluminium, machine tools, petrochemicals."
+  },
+  {
+   "id": "c05",
+   "claim": "Classification by role: basic or key industries (iron and steel, copper and aluminium smelting) and consumer industries (sugar, toothpaste, paper, sewing machines, fans).",
+   "source": "s1",
+   "page": "p. 59",
+   "quote": "Basic or key industries are those which supply their products as raw materials to manufacture other goods e.g. iron and steel and copper smelting, aluminum smelting."
+  },
+  {
+   "id": "c06",
+   "claim": "A small scale industry is defined by a maximum investment on assets of a unit; at present rupees one crore.",
+   "source": "s1",
+   "page": "p. 59",
+   "quote": "At present the maximum investment allowed is rupees one crore."
+  },
+  {
+   "id": "c07",
+   "claim": "Classification by ownership: public (BHEL, SAIL), private (TISCO, Bajaj Auto, Dabur), joint (Oil India Ltd), cooperative (sugar in Maharashtra, coir in Kerala).",
+   "source": "s1",
+   "page": "p. 59",
+   "quote": "Public sector, owned and operated by government agencies – BHEL, SAIL etc."
+  },
+  {
+   "id": "c08",
+   "claim": "By bulk and weight: heavy industries such as iron and steel; light industries such as electrical goods.",
+   "source": "s1",
+   "page": "p. 59",
+   "quote": "Heavy industries such as iron and steel. Light industries that use light raw materials and produce light goods such as electrical goods industries."
+  },
+  {
+   "id": "c09",
+   "claim": "Textile is the only industry in India self-reliant and complete in the value chain, from raw material to highest value-added products.",
+   "source": "s1",
+   "page": "p. 60",
+   "quote": "It is the only industry in the country, which is self-reliant and complete in the value chain"
+  },
+  {
+   "id": "c10",
+   "claim": "The first successful textile mill was established in Mumbai in 1854; early mills concentrated in the cotton belt of Maharashtra and Gujarat for raw cotton, market, transport and port, labour and moist climate.",
+   "source": "s1",
+   "page": "p. 60",
+   "quote": "The first successful textile mill was established in Mumbai in 1854."
+  },
+  {
+   "id": "c11",
+   "claim": "Spinning is centralised in Maharashtra, Gujarat and Tamil Nadu, while weaving is decentralised (handloom, powerloom, mills); khadi is a cottage industry.",
+   "source": "s1",
+   "page": "p. 60",
+   "quote": "While spinning continues to be centralised in Maharashtra, Gujarat and Tamil Nadu, weaving is highly decentralised"
+  },
+  {
+   "id": "c12",
+   "claim": "Cotton is a kharif crop of the drier black soil of the Deccan; India is believed to be the original home of the cotton plant and is the second largest producer after China.",
+   "source": "s4",
+   "page": "p. 38",
+   "quote": "Cotton grows well in drier parts of the black cotton soil of the Deccan plateau."
+  },
+  {
+   "id": "c13",
+   "claim": "India is the largest producer of raw jute and jute goods and second exporter after Bangladesh; most mills are in West Bengal in a narrow belt along the Hugli.",
+   "source": "s1",
+   "page": "p. 60",
+   "quote": "India is the largest producer of raw jute and jute goods and stands at second place as an exporter after Bangladesh."
+  },
+  {
+   "id": "c14",
+   "claim": "The first jute mill was set up near Kolkata in 1855 at Rishra; after 1947 three-fourths of the jute-growing area went to Bangladesh.",
+   "source": "s1",
+   "page": "p. 60",
+   "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra."
+  },
+  {
+   "id": "c15",
+   "claim": "Hugli basin location factors: proximity of jute areas, cheap water transport, railways/roads/waterways, abundant water, cheap labour from WB, Bihar, Odisha, UP; Kolkata gives banking, insurance and port.",
+   "source": "s1",
+   "page": "p. 62",
+   "quote": "proximity of the jute producing areas, inexpensive water transport, supported by a good network of railways, roadways and waterways"
+  },
+  {
+   "id": "c16",
+   "claim": "India is second in sugar production but first in gur and khandsari; raw material is bulky and loses sucrose in haulage; 60 per cent of mills are in Uttar Pradesh and Bihar; the industry is seasonal, suited to cooperatives.",
+   "source": "s1",
+   "page": "p. 62",
+   "quote": "India stands second as a world producer of sugar but occupies the first place in the production of gur and khandsari."
+  },
+  {
+   "id": "c17",
+   "claim": "Sugar mills are shifting to the south and west, especially Maharashtra, because cane there has higher sucrose, cooler climate gives a longer crushing season, and cooperatives are more successful.",
+   "source": "s1",
+   "page": "p. 62",
+   "quote": "there is a tendency for the mills to shift and concentrate in the southern and western states, especially in Maharashtra"
+  },
+  {
+   "id": "c18",
+   "claim": "Iron and steel is the basic and a heavy industry; iron ore, coking coal and limestone are needed in the ratio about 4:2:1, plus some manganese.",
+   "source": "s1",
+   "page": "p. 62",
+   "quote": "Iron ore, coking coal and lime stone are required in the ratio of approximately 4 : 2 : 1."
+  },
+  {
+   "id": "c19",
+   "claim": "Chhotanagpur plateau region has the maximum concentration of iron and steel industries: low cost iron ore, high grade raw materials nearby, cheap labour, home market.",
+   "source": "s1",
+   "page": "p. 64",
+   "quote": "Chhotanagpur plateau region has the maximum concentration of iron and steel industries."
+  },
+  {
+   "id": "c20",
+   "claim": "Aluminium smelting is the second most important metallurgical industry; smelters are in Odisha, West Bengal, Kerala, Uttar Pradesh, Chhattisgarh, Maharashtra and Tamil Nadu; bauxite is the raw material; regular electricity and assured raw material are the prime location factors.",
+   "source": "s1",
+   "page": "p. 64",
+   "quote": "Aluminium smelting is the second most important metallurgical industry in India."
+  },
+  {
+   "id": "c21",
+   "claim": "Chemical industry has inorganic (sulphuric acid, nitric acid, alkalies, soda ash, caustic soda; widely spread) and organic parts (petrochemicals; plants near oil refineries or petrochemical plants); it is its own largest consumer.",
+   "source": "s1",
+   "page": "p. 64",
+   "quote": "Organic chemical plants are located near oil refineries or petrochemical plants."
+  },
+  {
+   "id": "c22",
+   "claim": "Fertiliser industry: nitrogenous (mainly urea), phosphatic, ammonium phosphate (DAP) and complex fertilisers; potash is entirely imported; Gujarat, Tamil Nadu, Uttar Pradesh, Punjab and Kerala give about half the production; Andhra, Odisha, Rajasthan, Bihar, Maharashtra, Assam, West Bengal etc. are other significant producers.",
+   "source": "s1",
+   "page": "p. 65",
+   "quote": "The third, i.e. potash is entirely imported as the country does not have any reserves of commercially usable potash"
+  },
+  {
+   "id": "c23",
+   "claim": "Cement needs bulky limestone, silica, gypsum, coal, power and rail; plants in Gujarat have access to the Gulf market; the first cement plant was set up in Chennai in 1904.",
+   "source": "s1",
+   "page": "p. 65",
+   "quote": "The first cement plant was set-up in Chennai in 1904."
+  },
+  {
+   "id": "c24",
+   "claim": "Automobile industry is located around Delhi, Gurugram, Mumbai, Pune, Chennai, Kolkata, Lucknow, Indore, Hyderabad, Jamshedpur and Bengaluru.",
+   "source": "s1",
+   "page": "p. 65",
+   "quote": "The industry is located around Delhi, Gurugram, Mumbai, Pune, Chennai, Kolkata, Lucknow, Indore, Hyderabad, Jamshedpur and Bengaluru."
+  },
+  {
+   "id": "c25",
+   "claim": "Bengaluru has emerged as the electronic capital of India; other centres Mumbai, Delhi, Hyderabad, Pune, Chennai, Kolkata, Lucknow, Coimbatore; growth of hardware and software is the key to IT.",
+   "source": "s1",
+   "page": "p. 65",
+   "quote": "Bengaluru has emerged as the electronic capital of India."
+  },
+  {
+   "id": "c26",
+   "claim": "HCL cable manufacturing facility is at Rupnarainpur, West Bengal.",
+   "source": "s1",
+   "page": "p. 65",
+   "quote": "Fig. 6.6: Cable manufacturing facilities at HCL, Rupnarainpur (West Bengal)"
+  },
+  {
+   "id": "c27",
+   "claim": "Industries cause four types of pollution: air, water, land, noise; thermal power plants also pollute; air pollution from sulphur dioxide and carbon monoxide; Bhopal gas tragedy.",
+   "source": "s1",
+   "page": "p. 66",
+   "quote": "Industries are responsible for four types of pollution: (a) Air (b) Water (c) Land (d) Noise."
+  },
+  {
+   "id": "c28",
+   "claim": "Water pollution culprits: paper, pulp, chemical, textile and dyeing, refineries, tanneries, electroplating; thermal pollution is hot water drained before cooling; fly ash, phospho-gypsum and steel slags are major solid wastes.",
+   "source": "s1",
+   "page": "p. 66",
+   "quote": "Thermal pollution of water occurs when hot water from factories and thermal plants is drained into rivers and ponds before cooling."
+  },
+  {
+   "id": "c29",
+   "claim": "Every litre of industrial waste water pollutes eight times the quantity of freshwater; effluent treatment has primary (mechanical), secondary (biological) and tertiary (recycling) phases.",
+   "source": "s1",
+   "page": "p. 66",
+   "quote": "Every litre of waste water discharged by our industry pollutes eight times the quantity of freshwater."
+  },
+  {
+   "id": "c30",
+   "claim": "Noise causes irritation and hearing impairment; smoke stacks with electrostatic precipitators, scrubbers, oil or gas instead of coal, silencers reduce air and noise pollution.",
+   "source": "s1",
+   "page": "p. 66",
+   "quote": "Noise pollution not only results in irritation and anger, it can also cause hearing impairment"
+  },
+  {
+   "id": "c31",
+   "claim": "Jamshedpur is a town based on modern industry (after 1850); Durgapur, Bhilai, Sindri and Barauni are industrial centres developed after independence.",
+   "source": "s2",
+   "page": "Chapter 2",
+   "quote": "Towns based on modern industries also evolved after 1850. Jamshedpur can be cited as an example."
+  },
+  {
+   "id": "c32",
+   "claim": "The North-Eastern Plateau region (Chhotanagpur, Odisha plateau, West Bengal, parts of Chhattisgarh) has iron ore, coal, manganese, bauxite, mica, and major iron and steel industry.",
+   "source": "s3",
+   "page": "Chapter 5",
+   "quote": "This belt covers Chhotanagpur (Jharkhand), Odisha Plateau, West Bengal and parts of Chhattisgarh."
+  }
+ ],
+ "questions": [
+  {
+   "id": "q01",
+   "section": "classification",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্প অধ্যায় অনুযায়ী ম্যানুফ্যাকচারিং (manufacturing) বলতে কী বোঝায়?",
+   "a": "কাঁচামালকে প্রক্রিয়াজাত করে বেশি মূল্যের পণ্য বড় পরিমাণে তৈরি করা",
+   "w": [
+    "মাটি থেকে খনিজ তুলে আনা",
+    "খেতে ফসল ফলানো",
+    "তৈরি পণ্য শুধু বিক্রি ও পরিবহণ করা"
+   ],
+   "e": "কাঁচামালকে প্রক্রিয়াজাত করে বেশি মূল্যের পণ্যে বদলানোই ম্যানুফ্যাকচারিং। খনিজ তোলা ও চাষ প্রাথমিক কাজ; বিক্রি-পরিবহণ সেবা।",
+   "claims": [
+    "c01"
+   ]
+  },
+  {
+   "id": "q02",
+   "section": "agro",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের সুতিবস্ত্র শিল্পে প্রথম সফল বস্ত্রকল কোথায়, কোন সালে গড়ে ওঠে?",
+   "a": "মুম্বই, ১৮৫৪",
+   "w": [
+    "কলকাতা, ১৮৫৫",
+    "চেন্নাই, ১৯০৪",
+    "আহমেদাবাদ, ১৮৫৪"
+   ],
+   "e": "প্রথম সফল বস্ত্রকল মুম্বইয়ে, ১৮৫৪ সালে। ১৮৫৫ রিষড়ার পাটকলের সাল, ১৯০৪ চেন্নাইয়ের সিমেন্ট কারখানার সাল; আহমেদাবাদ-১৮৫৪ জোড়টি ভুল, কারণ প্রথম কল মুম্বইয়ে।",
+   "claims": [
+    "c10",
+    "c14",
+    "c23"
+   ]
+  },
+  {
+   "id": "q03",
+   "section": "agro",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের পাটশিল্পে প্রথম পাটকল কোথায় বসে?",
+   "a": "রিষড়া (কলকাতার কাছে), ১৮৫৫",
+   "w": [
+    "মুম্বই, ১৮৫৪",
+    "চেন্নাই, ১৯০৪",
+    "বেঙ্গালুরু, ১৮৫৫"
+   ],
+   "e": "প্রথম পাটকল ১৮৫৫ সালে কলকাতার কাছে রিষড়ায়। ১৮৫৪-র মুম্বই সুতিকলের জায়গা-সাল।",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "id": "q04",
+   "section": "agro",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের পাটকলগুলি বেশির ভাগ কোন নদীর ধারে সরু বেষ্টনীতে গড়ে উঠেছে?",
+   "a": "হুগলি",
+   "w": [
+    "গোদাবরী",
+    "কৃষ্ণা",
+    "নর্মদা"
+   ],
+   "e": "এনসিইআরটি অনুযায়ী বেশির ভাগ কল পশ্চিমবঙ্গে হুগলির তীরে। অন্য তিনটি দাক্ষিণাত্য ও পশ্চিম ভারতের নদী।",
+   "claims": [
+    "c13"
+   ]
+  },
+  {
+   "id": "q05",
+   "section": "mineral",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্প অধ্যায় অনুযায়ী কোন শিল্পের কাঁচামাল বক্সাইট?",
+   "a": "অ্যালুমিনিয়াম গলানো",
+   "w": [
+    "সিমেন্ট",
+    "কাগজ",
+    "লোহা ও ইস্পাত"
+   ],
+   "e": "বক্সাইট থেকে অ্যালুমিনিয়াম তৈরি হয়। সিমেন্টে লাগে চুনাপাথর-সিলিকা-জিপসাম, ইস্পাতে আকরিক লোহা-কোকিং কয়লা-চুনাপাথর।",
+   "claims": [
+    "c20",
+    "c23",
+    "c18"
+   ]
+  },
+  {
+   "id": "q06",
+   "section": "auto_it",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের তথ্যপ্রযুক্তি ও ইলেকট্রনিক্স শিল্পে কোন শহরকে ভারতের ইলেকট্রনিক রাজধানী বলা হয়েছে?",
+   "a": "বেঙ্গালুরু",
+   "w": [
+    "মুম্বই",
+    "হায়দরাবাদ",
+    "পুনে"
+   ],
+   "e": "এনসিইআরটি বেঙ্গালুরুকে ইলেকট্রনিক রাজধানী বলেছে। অন্য তিনটি গুরুত্বপূর্ণ কেন্দ্র, কিন্তু এই উপাধি পায়নি।",
+   "claims": [
+    "c25"
+   ]
+  },
+  {
+   "id": "q07",
+   "section": "mineral",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের সিমেন্ট শিল্পে প্রথম সিমেন্ট কারখানা কোথায় বসেছিল?",
+   "a": "চেন্নাই, ১৯০৪",
+   "w": [
+    "মুম্বই, ১৮৫৪",
+    "কলকাতা, ১৮৫৫",
+    "বেঙ্গালুরু, ১৯০৪"
+   ],
+   "e": "প্রথম সিমেন্ট কারখানা চেন্নাইয়ে, ১৯০৪ সালে। অন্য জোড়গুলি সুতিকল ও পাটকলের।",
+   "claims": [
+    "c23"
+   ]
+  },
+  {
+   "id": "q08",
+   "section": "classification",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্প শ্রেণিবিভাগে কোন শিল্পটি মৌলিক বা মূল (basic/key) শিল্প?",
+   "a": "লোহা ও ইস্পাত",
+   "w": [
+    "চিনি",
+    "কাগজ",
+    "সেলাই কল"
+   ],
+   "e": "ইস্পাতের পণ্য অন্য শিল্পের কাঁচামাল, তাই মৌলিক। চিনি, কাগজ ও সেলাই কল ভোগ্যপণ্য শিল্প।",
+   "claims": [
+    "c05"
+   ]
+  },
+  {
+   "id": "q09",
+   "section": "pollution",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্পদূষণ অধ্যায় অনুযায়ী শিল্প কত ধরনের দূষণের জন্য দায়ী?",
+   "a": "চার",
+   "w": [
+    "দুই",
+    "তিন",
+    "পাঁচ"
+   ],
+   "e": "বায়ু, জল, মাটি ও শব্দ: চার ধরনের।",
+   "claims": [
+    "c27"
+   ]
+  },
+  {
+   "id": "q10",
+   "section": "chemical",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের সার শিল্পে ইউরিয়া কোন ধরনের সার?",
+   "a": "নাইট্রোজেনঘটিত",
+   "w": [
+    "ফসফেটঘটিত",
+    "পটাশঘটিত",
+    "জটিল সার"
+   ],
+   "e": "ইউরিয়া প্রধান নাইট্রোজেনঘটিত সার। জটিল সারে N, P, K মেশানো থাকে।",
+   "claims": [
+    "c22"
+   ]
+  },
+  {
+   "id": "q11",
+   "section": "classification",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্প শ্রেণিবিভাগে কাঁচামালের উৎস অনুযায়ী পাট শিল্প কোন ধরনের?",
+   "a": "কৃষিভিত্তিক",
+   "w": [
+    "খনিজভিত্তিক",
+    "মৌলিক শিল্প",
+    "সমবায় শিল্প"
+   ],
+   "e": "পাট কৃষিজ কাঁচামালে তৈরি, তাই কৃষিভিত্তিক। মৌলিক ও সমবায় অন্য ভিত্তির শ্রেণি।",
+   "claims": [
+    "c04"
+   ]
+  },
+  {
+   "id": "q12",
+   "section": "classification",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্প শ্রেণিবিভাগে মালিকানার দিক থেকে SAIL কোন ক্ষেত্রের উদাহরণ?",
+   "a": "সরকারি ক্ষেত্র",
+   "w": [
+    "বেসরকারি ক্ষেত্র",
+    "যৌথ ক্ষেত্র",
+    "সমবায় ক্ষেত্র"
+   ],
+   "e": "এনসিইআরটির তালিকায় BHEL ও SAIL সরকারি ক্ষেত্রের। যৌথ ক্ষেত্রের উদাহরণ OIL।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q13",
+   "section": "classification",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্প শ্রেণিবিভাগে মালিকানার দিক থেকে TISCO কোন ক্ষেত্রের উদাহরণ?",
+   "a": "বেসরকারি ক্ষেত্র",
+   "w": [
+    "সরকারি ক্ষেত্র",
+    "যৌথ ক্ষেত্র",
+    "সমবায় ক্ষেত্র"
+   ],
+   "e": "TISCO, বাজাজ অটো ও ডাবর বেসরকারি ক্ষেত্রের উদাহরণ।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q14",
+   "section": "classification",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের শিল্পে মহারাষ্ট্রের চিনি শিল্প কোন ক্ষেত্রের উদাহরণ হিসেবে দেওয়া হয়েছে?",
+   "a": "সমবায় ক্ষেত্র",
+   "w": [
+    "যৌথ ক্ষেত্র",
+    "সরকারি ক্ষেত্র",
+    "বেসরকারি ক্ষেত্র"
+   ],
+   "e": "মহারাষ্ট্রের চিনি ও কেরলের coir শিল্প সমবায় ক্ষেত্রের উদাহরণ। যৌথ ক্ষেত্রের উদাহরণ OIL।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q15",
+   "section": "agro",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের চিনিশিল্পকে সমবায় ক্ষেত্রের উপযোগী বলার কারণ কী?",
+   "a": "শিল্পটি মরসুমি",
+   "w": [
+    "কাঁচামাল আমদানি করতে হয়",
+    "শিল্পটি সারা বছর সমান চলে",
+    "কাঁচামাল অত্যন্ত হালকা"
+   ],
+   "e": "শিল্পটি মরসুমি বলে সমবায় ক্ষেত্রের উপযোগী। আখ আমদানি নয়, স্থূল।",
+   "claims": [
+    "c16"
+   ]
+  },
+  {
+   "id": "q16",
+   "section": "agro",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের চিনিশিল্পে ষাট শতাংশ কল কোন দুটি রাজ্যে?",
+   "a": "উত্তরপ্রদেশ ও বিহার",
+   "w": [
+    "মহারাষ্ট্র ও কর্ণাটক",
+    "তামিলনাড়ু ও অন্ধ্রপ্রদেশ",
+    "গুজরাট ও পাঞ্জাব"
+   ],
+   "e": "ষাট শতাংশ কল উত্তরপ্রদেশ ও বিহারে। মহারাষ্ট্র-কর্ণাটকে কল বাড়ছে, কিন্তু ভাগ এত নয়।",
+   "claims": [
+    "c16",
+    "c17"
+   ]
+  },
+  {
+   "id": "q17",
+   "section": "agro",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের চিনিকল সাম্প্রতিক কালে দক্ষিণ ও পশ্চিমের রাজ্যে সরে যাওয়ার একটি কারণ কী?",
+   "a": "সেখানকার আখে সুক্রোজ বেশি",
+   "w": [
+    "সেখানে সমুদ্র-বন্দর কাছে",
+    "সেখানে কয়লা বেশি",
+    "সেখানে শ্রমিক সংখ্যা বেশি"
+   ],
+   "e": "বেশি সুক্রোজ, ঠান্ডা আবহাওয়ায় লম্বা পেষাই-মরসুম ও সমবায়ের সাফল্য কারণ। বন্দর, কয়লা বা শ্রমিক কারণ হিসেবে দেওয়া নেই।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q18",
+   "section": "mineral",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ইস্পাত শিল্পে আকরিক লোহা, কোকিং কয়লা ও চুনাপাথরের আনুমানিক অনুপাত কত?",
+   "a": "৪ : ২ : ১",
+   "w": [
+    "১ : ২ : ৪",
+    "২ : ৪ : ১",
+    "৪ : ১ : ২"
+   ],
+   "e": "এনসিইআরটি অনুপাত দিয়েছে আকরিক : কোকিং কয়লা : চুনাপাথর = ৪ : ২ : ১। অন্য বিকল্পে ক্রম উল্টেছে।",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "id": "q19",
+   "section": "mineral",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতে লোহা-ইস্পাত শিল্পের সবচেয়ে বেশি কেন্দ্রীভবন কোন অঞ্চলে?",
+   "a": "ছোটনাগপুর মালভূমি অঞ্চল",
+   "w": [
+    "গাঙ্গেয় সমভূমির পশ্চিম অংশ",
+    "থর মরুভূমি অঞ্চল",
+    "পশ্চিম উপকূলীয় সমভূমি"
+   ],
+   "e": "ছোটনাগপুর অঞ্চলে সস্তা আকরিক, কাছে ভালো কাঁচামাল, সস্তা শ্রমিক ও বাজারের সুবিধা আছে। অন্যগুলিকে এনসিইআরটি এই কেন্দ্র বলেনি।",
+   "claims": [
+    "c19"
+   ]
+  },
+  {
+   "id": "q20",
+   "section": "mineral",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "অ্যালুমিনিয়াম গলানো শিল্পের অবস্থানের দুটি প্রধান শর্ত কী?",
+   "a": "নিয়মিত বিদ্যুৎ এবং সবচেয়ে কম খরচে নিশ্চিত কাঁচামাল",
+   "w": [
+    "সমুদ্রবন্দর ও সস্তা জলপথ",
+    "ঠান্ডা আবহাওয়া ও প্রচুর জল",
+    "আখের খেতের নৈকট্য ও মরসুমি শ্রম"
+   ],
+   "e": "এনসিইআরটির মতে দুটি প্রধান শর্ত: বিদ্যুতের নিয়মিত জোগান ও কম খরচে নিশ্চিত কাঁচামাল (বক্সাইট)।",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "id": "q21",
+   "section": "mineral",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "গুজরাটের সিমেন্ট কারখানাগুলি কোন বিশেষ সুবিধা পায়?",
+   "a": "উপসাগরীয় দেশের বাজারে সহজে পৌঁছনো",
+   "w": [
+    "সুন্দরবনের কাছে থাকা",
+    "সরাসরি পাটচাষের জমি",
+    "ছোটনাগপুরের কয়লা"
+   ],
+   "e": "গুজরাটের কারখানাগুলি উপসাগরীয় (Gulf) দেশের বাজারে সহজে পৌঁছতে পারে।",
+   "claims": [
+    "c23"
+   ]
+  },
+  {
+   "id": "q22",
+   "section": "chemical",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "এনসিইআরটির মতে প্রায় অর্ধেক সার উৎপাদনকারী পাঁচ রাজ্যের একটি কোনটি?",
+   "a": "কেরল",
+   "w": [
+    "অসম",
+    "ওড়িশা",
+    "পশ্চিমবঙ্গ"
+   ],
+   "e": "গুজরাট, তামিলনাড়ু, উত্তরপ্রদেশ, পাঞ্জাব ও কেরল মিলে প্রায় অর্ধেক। অসম, ওড়িশা, পশ্চিমবঙ্গ \"অন্য উল্লেখযোগ্য উৎপাদক\"।",
+   "claims": [
+    "c22"
+   ]
+  },
+  {
+   "id": "q23",
+   "section": "auto_it",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের অটোমোবাইল শিল্পকেন্দ্রের এনসিইআরটি-তালিকায় নীচের কোন শহর আছে?",
+   "a": "জামশেদপুর",
+   "w": [
+    "গুয়াহাটি",
+    "ভুবনেশ্বর",
+    "জয়পুর"
+   ],
+   "e": "অটোমোবাইল শিল্প দিল্লি, গুরুগ্রাম, মুম্বই, পুনে, চেন্নাই, কলকাতা, লখনউ, ইন্দোর, হায়দরাবাদ, জামশেদপুর ও বেঙ্গালুরু ঘিরে। বাকি তিনটি এই তালিকায় নেই।",
+   "claims": [
+    "c24"
+   ]
+  },
+  {
+   "id": "q24",
+   "section": "auto_it",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "এনসিইআরটি-র চিত্র অনুযায়ী HCL-এর তার-তৈরির কারখানা রূপনারায়ণপুর কোন রাজ্যে?",
+   "a": "পশ্চিমবঙ্গ",
+   "w": [
+    "ঝাড়খণ্ড",
+    "ওড়িশা",
+    "বিহার"
+   ],
+   "e": "চিত্র ৬.৬-এর ক্যাপশনে রূপনারায়ণপুরকে পশ্চিমবঙ্গে দেখানো হয়েছে।",
+   "claims": [
+    "c26"
+   ]
+  },
+  {
+   "id": "q25",
+   "section": "agro",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতের পাটশিল্পে হুগলি অববাহিকায় পাটকল গড়ে ওঠার একটি কারণ কোনটি?",
+   "a": "সস্তা জলপথ-পরিবহণ ও রেল-সড়কের ভালো জাল",
+   "w": [
+    "কালো মাটির তুলোচাষ-অঞ্চলের নৈকট্য",
+    "উচ্চ পার্বত্য ঠান্ডা আবহাওয়া",
+    "কোকিং কয়লা-খনির নৈকট্য"
+   ],
+   "e": "এনসিইআরটি-র কারণ: পাটচাষের নৈকট্য, সস্তা জলপথ, পরিবহণ-জাল, প্রচুর জল, সস্তা শ্রমিক, কলকাতার ব্যাংক-বন্দর। অন্য তিনটি কারণ দেওয়া নেই।",
+   "claims": [
+    "c15"
+   ]
+  },
+  {
+   "id": "q26",
+   "section": "agro",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতের পাটশিল্পে ১৯৪৭ সালের দেশভাগের ফল কী হয়েছিল?",
+   "a": "কল ভারতে থাকলেও পাটচাষ-এলাকার প্রায় তিন-চতুর্থাংশ পূর্ব পাকিস্তানে চলে যায়",
+   "w": [
+    "সব কল ও চাষ-এলাকা ভারতে থাকে",
+    "সব কল পূর্ব পাকিস্তানে চলে যায়",
+    "কলের তিন-চতুর্থাংশ বাংলাদেশে যায়, চাষ-এলাকা ভারতে থাকে"
+   ],
+   "e": "কল ভারতেই থাকে; কিন্তু পাট-উৎপাদন এলাকার তিন-চতুর্থাংশ পূর্ব পাকিস্তানে যায়। শেষ বিকল্পটি উল্টো।",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "id": "q27",
+   "section": "agro",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "চিনিশিল্পে ভারতের বিশ্ব-অবস্থান কোনটি?",
+   "a": "চিনিতে দ্বিতীয়, গুড় ও খাণ্ডসারিতে প্রথম",
+   "w": [
+    "চিনিতে প্রথম, গুড় ও খাণ্ডসারিতে দ্বিতীয়",
+    "চিনি ও গুড় দুটিতেই প্রথম, খাণ্ডসারিতে দ্বিতীয়",
+    "চিনিতে প্রথম, গুড় ও খাণ্ডসারিতে তৃতীয়"
+   ],
+   "e": "এনসিইআরটি: চিনিতে দ্বিতীয়, গুড় ও খাণ্ডসারিতে প্রথম।",
+   "claims": [
+    "c16"
+   ]
+  },
+  {
+   "id": "q28",
+   "section": "agro",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতের সুতিবস্ত্র শিল্পে কাটাই (spinning) ও বয়নের (weaving) অবস্থা সম্পর্কে কোনটি সঠিক?",
+   "a": "কাটাই মহারাষ্ট্র-গুজরাট-তামিলনাড়ুতে কেন্দ্রীভূত, বয়ন বিকেন্দ্রীভূত",
+   "w": [
+    "কাটাই ও বয়ন দুটোই বিকেন্দ্রীভূত",
+    "কাটাই বিকেন্দ্রীভূত, বয়ন কেন্দ্রীভূত",
+    "কাটাই ও বয়ন দুটোই শুধু মহারাষ্ট্রে সীমাবদ্ধ"
+   ],
+   "e": "কাটাই কেন্দ্রীভূত; বয়ন বিকেন্দ্রীভূত, যাতে ঐতিহ্যবাহী দক্ষতা কাজে লাগে।",
+   "claims": [
+    "c11"
+   ]
+  },
+  {
+   "id": "q29",
+   "section": "agro",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতে পাট উৎপাদন ও রপ্তানির অবস্থান সম্পর্কে কোনটি সঠিক?",
+   "a": "উৎপাদনে প্রথম, রপ্তানিতে বাংলাদেশের পর দ্বিতীয়",
+   "w": [
+    "উৎপাদনে দ্বিতীয়, রপ্তানিতে প্রথম",
+    "উৎপাদন ও রপ্তানি দুটিতেই প্রথম",
+    "উৎপাদনে প্রথম, রপ্তানিতে চিনের পর দ্বিতীয়"
+   ],
+   "e": "ভারত কাঁচা পাট ও পাটজাত পণ্যের বৃহত্তম উৎপাদক; রপ্তানিতে বাংলাদেশের পরে দ্বিতীয়।",
+   "claims": [
+    "c13"
+   ]
+  },
+  {
+   "id": "q30",
+   "section": "agro",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতের কোন শিল্পকে এনসিইআরটি একমাত্র শিল্প বলেছে যা কাঁচামাল থেকে সর্বোচ্চ মূল্যের পণ্য পর্যন্ত মূল্য-শৃঙ্খলে স্বয়ংসম্পূর্ণ?",
+   "a": "বস্ত্রশিল্প",
+   "w": [
+    "লোহা ও ইস্পাত শিল্প",
+    "সিমেন্ট শিল্প",
+    "অ্যালুমিনিয়াম শিল্প"
+   ],
+   "e": "বস্ত্রশিল্পই দেশের একমাত্র এমন শিল্প। অন্যগুলিকে এনসিইআরটি এই অর্থে স্বয়ংসম্পূর্ণ বলেনি।",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "id": "q31",
+   "section": "pollution",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "শিল্প-বর্জ্য জল সম্পর্কে এনসিইআরটি-র তথ্য অনুযায়ী প্রতি লিটার বর্জ্য জল কতগুণ মিষ্টি জল দূষিত করে?",
+   "a": "আট গুণ",
+   "w": [
+    "দুই গুণ",
+    "চার গুণ",
+    "দশ গুণ"
+   ],
+   "e": "এনসিইআরটি: প্রতি লিটার বর্জ্য জল আট গুণ মিষ্টি জল দূষিত করে।",
+   "claims": [
+    "c29"
+   ]
+  },
+  {
+   "id": "q32",
+   "section": "pollution",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "শিল্প-বর্জ্য জল শোধনের কোন ধাপে ছাঁকা, গুঁড়ো করা, ফ্লকুলেশন ও থিতানো হয়?",
+   "a": "প্রাথমিক (যান্ত্রিক) ধাপ",
+   "w": [
+    "দ্বিতীয় স্তরের জৈব ধাপ",
+    "তৃতীয় স্তরের রাসায়নিক-ভৌত ধাপ",
+    "বৃষ্টির জল সংরক্ষণের ধাপ"
+   ],
+   "e": "প্রাথমিক শোধন যান্ত্রিক: ছাঁকা, গুঁড়ো, ফ্লকুলেশন, থিতানো। দ্বিতীয় স্তর জৈব, তৃতীয় স্তরে পুনর্ব্যবহার।",
+   "claims": [
+    "c29"
+   ]
+  },
+  {
+   "id": "q33",
+   "section": "pollution",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "শিল্পজনিত তাপীয় দূষণ (thermal pollution) কীভাবে ঘটে?",
+   "a": "কারখানা ও তাপবিদ্যুৎ কেন্দ্রের গরম জল ঠান্ডা না করে নদী-পুকুরে ফেললে",
+   "w": [
+    "বিষাক্ত গ্যাস ফাঁস হলে",
+    "কারখানার যন্ত্র অতিরিক্ত শব্দ করলে",
+    "মাটিতে কাচ ও লবণ ফেললে"
+   ],
+   "e": "গরম জল ঠান্ডা না করে ফেলাই তাপীয় দূষণ। গ্যাস ফাঁস বায়ুদূষণ, শব্দ শব্দদূষণ, কাচ-লবণ মাটিদূষণ।",
+   "claims": [
+    "c28",
+    "c27"
+   ]
+  },
+  {
+   "id": "q34",
+   "section": "chemical",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "জৈব (organic) রাসায়নিকের কারখানা সাধারণত কোথায় বসে?",
+   "a": "তেল-শোধনাগার বা পেট্রোরসায়ন কারখানার কাছে",
+   "w": [
+    "কয়লাখনির কাছে",
+    "আখের খেতের কাছে",
+    "চুনাপাথর-খনির কাছে"
+   ],
+   "e": "জৈব রাসায়নিক কারখানা শোধনাগার বা পেট্রোরসায়ন কারখানার কাছে; অজৈব কারখানা দেশজুড়ে ছড়ানো।",
+   "claims": [
+    "c21"
+   ]
+  },
+  {
+   "id": "q35",
+   "section": "agro",
+   "level": "exam",
+   "format": "STATEMENT",
+   "q": "ভারতের শিল্প সম্পর্কে নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. ভারতের প্রথম সফল বস্ত্রকল ১৮৫৪ সালে মুম্বইয়ে গড়ে ওঠে।\n২. ভারতের প্রথম পাটকল ১৮৫৫ সালে রিষড়ায় বসে।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "১ ও ২ উভয়ই",
+   "w": [
+    "শুধুমাত্র ১",
+    "শুধুমাত্র ২",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "দুটি বিবৃতিই এনসিইআরটি-র তথ্য: সুতিকল মুম্বই ১৮৫৪; পাটকল রিষড়া ১৮৫৫।",
+   "claims": [
+    "c10",
+    "c14"
+   ]
+  },
+  {
+   "id": "q36",
+   "section": "chemical",
+   "level": "exam",
+   "format": "STATEMENT",
+   "q": "ভারতের সার ও অ্যালুমিনিয়াম শিল্প সম্পর্কে নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. সারের উপাদান পটাশ পুরোপুরি আমদানি করতে হয়।\n২. ভারতের অ্যালুমিনিয়াম স্মেল্টার শুধুমাত্র ওড়িশায় আছে।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "শুধুমাত্র ১",
+   "w": [
+    "শুধুমাত্র ২",
+    "১ ও ২ উভয়ই",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "১ সঠিক: পটাশ পুরোপুরি আমদানি। ২ ভুল: স্মেল্টার ওড়িশা, পশ্চিমবঙ্গ, কেরল, উত্তরপ্রদেশ, ছত্তিশগড়, মহারাষ্ট্র ও তামিলনাড়ুতে।",
+   "claims": [
+    "c22",
+    "c20"
+   ]
+  },
+  {
+   "id": "q37",
+   "section": "agro",
+   "level": "exam",
+   "format": "MATCH",
+   "q": "ভারতের শিল্পের স্থান ও তার বৈশিষ্ট্য মেলান:\n\nA. বেঙ্গালুরু\nB. রিষড়া\nC. চেন্নাই\nD. মুম্বই\n\n১. প্রথম সিমেন্ট কারখানা (১৯০৪)\n২. প্রথম সফল সুতিবস্ত্রকল (১৮৫৪)\n৩. ইলেকট্রনিক রাজধানী\n৪. প্রথম পাটকল (১৮৫৫)",
+   "a": "A-৩, B-৪, C-১, D-২",
+   "w": [
+    "A-৩, B-১, C-৪, D-২",
+    "A-১, B-৪, C-৩, D-২",
+    "A-৩, B-৪, C-২, D-১"
+   ],
+   "e": "বেঙ্গালুরু: ইলেকট্রনিক রাজধানী (৩); রিষড়া: প্রথম পাটকল (৪); চেন্নাই: প্রথম সিমেন্ট (১); মুম্বই: প্রথম সুতিকল (২)। অন্য বিকল্পে চেন্নাই-মুম্বই বা রিষড়া-চেন্নাই জোড় উল্টেছে।",
+   "claims": [
+    "c25",
+    "c14",
+    "c23",
+    "c10"
+   ]
+  },
+  {
+   "id": "q38",
+   "section": "agro",
+   "level": "exam",
+   "format": "PAIRS",
+   "q": "ভারতের শিল্প ও তার শ্রেণি সম্পর্কে নীচের কোন জোড়টি সঠিকভাবে মেলানো?",
+   "a": "চিনি: কৃষিভিত্তিক শিল্প",
+   "w": [
+    "সিমেন্ট: কৃষিভিত্তিক শিল্প",
+    "পাট: খনিজভিত্তিক শিল্প",
+    "অ্যালুমিনিয়াম: কৃষিভিত্তিক শিল্প"
+   ],
+   "e": "চিনি কৃষিভিত্তিক। সিমেন্ট ও অ্যালুমিনিয়াম খনিজভিত্তিক; পাট কৃষিভিত্তিক।",
+   "claims": [
+    "c04"
+   ]
+  },
+  {
+   "id": "q39",
+   "section": "classification",
+   "level": "exam",
+   "format": "PAIRS",
+   "q": "ভারতের শিল্পের মালিকানা অনুযায়ী নীচের কোন জোড়টি সঠিকভাবে মেলানো?",
+   "a": "BHEL: সরকারি ক্ষেত্র",
+   "w": [
+    "বাজাজ অটো: সরকারি ক্ষেত্র",
+    "OIL: সমবায় ক্ষেত্র",
+    "TISCO: যৌথ ক্ষেত্র"
+   ],
+   "e": "BHEL সরকারি। বাজাজ অটো ও TISCO বেসরকারি; OIL যৌথ।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q40",
+   "section": "mineral",
+   "level": "exam",
+   "format": "ASSERTION_REASON",
+   "q": "**বক্তব্য (A):** ভারতের লোহা-ইস্পাত শিল্প একটি ভারী শিল্প।\n\n**কারণ (R):** এই শিল্পের কাঁচামাল ও তৈরি পণ্য দুটোই ভারী ও স্থূল, ফলে পরিবহণ-খরচ বেশি।",
+   "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "w": [
+    "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+    "A সত্য, কিন্তু R মিথ্যা",
+    "A মিথ্যা, কিন্তু R সত্য"
+   ],
+   "e": "দুটিই সত্য। এনসিইআরটি ঠিক এই কারণেই লোহা-ইস্পাতকে ভারী শিল্প বলেছে, তাই R হল A-এর ব্যাখ্যা।",
+   "claims": [
+    "c18",
+    "c08"
+   ]
+  }
+ ]
+}

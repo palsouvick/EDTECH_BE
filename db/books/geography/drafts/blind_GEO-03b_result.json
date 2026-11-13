@@ -1,0 +1,106 @@
+{
+ "answers": [
+  {
+   "id": "q04",
+   "answer": "গোদাবরী",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Godavari is the largest Peninsular river system. It is also called the Dakshin Ganga.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "24",
+   "notes": ""
+  },
+  {
+   "id": "q07",
+   "answer": "যমুনা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Yamuna, the western most and the longest tributary of the Ganga",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "22",
+   "notes": ""
+  },
+  {
+   "id": "q27",
+   "answer": "১ ও ২ উভয়ই",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Ravi ... rises west of the Rohtang pass in the Kullu hills of Himachal Pradesh ... [Satluj] is a very important tributary as it feeds the canal system of the Bhakra Nangal project.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "21",
+   "notes": "Both statements are verbatim from NCERT. Stem uses Bengali name ইরাবতী for Ravi (as the book prose does); fine."
+  },
+  {
+   "id": "q45",
+   "answer": "উত্তরাখণ্ড, উত্তরপ্রদেশ, বিহার ও পশ্চিমবঙ্গ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The river has a length of 2,525 km. It is shared by Uttarakhand (110 km) and Uttar Pradesh (1,450 km), Bihar (445 km) and West Bengal (520 km).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "21",
+   "notes": ""
+  },
+  {
+   "id": "q46",
+   "answer": "পাটনার কাছে সোনপুরে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "It enters the Ganga plain in Champaran district of Bihar and joins the Ganga at Sonpur near Patna.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "22",
+   "notes": "Distractors are other rivers' confluences (Ghaghara-Chhapra, Son-Arrah, Yamuna-Prayag); no ambiguity."
+  },
+  {
+   "id": "q47",
+   "answer": "কচ্ছের রণে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "From here, the river comes out of Aravali and is known as Luni. It flows towards the west till Telwara and then takes a southwest direction to join the Rann of Kuchchh.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "24",
+   "notes": ""
+  },
+  {
+   "id": "q48",
+   "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "SURE",
+   "also_defensible": [
+    "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়"
+   ],
+   "quote": "Most of the major Peninsular rivers except Narmada and Tapi flow from west to east. ... (iii) Slight tilting of the Peninsular block from northwest to the southeastern direction gave orientation to the entire drainage system towards the Bay of Bengal",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "23",
+   "notes": "A and R both true; source states the causal link (tilting gave orientation to drainage towards Bay of Bengal). Western Ghats as water divide is a further cause but R is still a valid explanation. Option 'R not correct explanation' is slightly defensible only if one insists the Western Ghats is the sole cause; unlikely."
+  },
+  {
+   "id": "q49",
+   "answer": "A সত্য, কিন্তু R মিথ্যা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "River Kosi, also know as the 'sorrow of Bihar', has been notorious for frequently changing its course.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "20",
+   "notes": "A true. R false: source says Kosi frequently changes course (course gets blocked by sediments). Stem of q49 does not leak other answers."
+  },
+  {
+   "id": "q50",
+   "answer": "মানস",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the important right bank tributaries are the Subansiri, Kameng, Manas and Sankosh.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "23",
+   "notes": "Kabini (Kaveri tributary), Bhima (Krishna tributary), Betwa (Yamuna tributary) are all unrelated to Brahmaputra per the same chapter."
+  },
+  {
+   "id": "q51",
+   "answer": "চম্বল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "It is joined by the Chambal, the Sind, the Betwa and the Ken on its right bank",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "page": "22",
+   "notes": "Ghaghara, Gandak and Son are described as Ganga tributaries. Note the Ghaghara/Gandak/Son answers in q07 distractors are fine."
+  }
+ ]
+}

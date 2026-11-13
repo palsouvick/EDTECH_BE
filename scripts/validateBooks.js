@@ -29,6 +29,7 @@ if (files.length) {
 } else {
   for (const name of Object.keys(books.BOOKS)) {
     const b = books.loadBook(name, { fresh: true });
+    if (!b) continue;
     console.log(`${name}: ${b.chapters.size} valid chapter(s)`);
     for (const e of b.errors) console.log(`  ${e.file} ${e.field} ${e.code}: ${e.message}`);
     if (b.errors.length) failed += 1;

@@ -13,7 +13,7 @@ const { DIFFICULTY_BANDS } = require('../models/constants');
 
 const SUBJECTS = Object.freeze(['quant', 'english', 'gs']);
 const DIFFICULTIES = Object.freeze(['easy', 'moderate', 'hard', 'exam', 'mixed']);
-const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup']);
+const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart']);
 const MIN_QUESTIONS = 5;
 const MAX_QUESTIONS = 100;
 const REAL_PAPER = Object.freeze(['OFFICIAL_VERIFIED', 'ADAPTED_PYQ']);
@@ -172,6 +172,11 @@ function planDistribution({ chapters, questionCount, distribution }) {
  *   the exact question got wrong          only in "Retry my mistakes" (+1), capped at 30% of the chapter
  *   pattern the student is weak at        +1
  *   real previous-year question           +boost x (1..2 by recency)
+ * Smart Quiz ("smart") also uses:
+ *   a question the student skipped        (w + 5) x 4  (still open: nearly always comes back)
+ *   same pattern/sub-topic as a mistake   +3 more (same concept, a DIFFERENT question)
+ *   the exact question got wrong          +1, capped at 15% of the chapter: it may come back for
+ *                                         revision, but a new question on the concept is preferred
  */
 function scoreCandidate(q, s, { preset, pyqBoost, currentYear = new Date().getUTCFullYear() }) {
   const id = String(q._id);
@@ -181,14 +186,19 @@ function scoreCandidate(q, s, { preset, pyqBoost, currentYear = new Date().getUT
   const original = s.mistakeQids.has(id);
   const sibling = !original && ((q.pattern && s.mistakePatterns.has(key(q.pattern))) || (q.subtopic && s.mistakeSubtopics.has(key(q.subtopic))));
   if (sibling) w = preset === 'mistakes' ? (w + 4) * 3 : w + 1.5;
-  if (original && preset === 'mistakes') w += 1;
+  if (original && (preset === 'mistakes' || preset === 'smart')) w += 1;
+  const skipped = Boolean(s.skipQids?.has(id));
+  if (preset === 'smart') {
+    if (skipped) w = (w + 5) * 4;
+    if (sibling) w += 3;
+  }
   if (q.pattern && s.weakPatterns.has(key(q.pattern))) w += 1;
   if (q.realPyq) {
     const age = q.latest_pyq_year ? Math.max(0, currentYear - q.latest_pyq_year) : 10;
     w += pyqBoost * (1 + Math.max(0, 1 - age / 10));
   }
   if (s.recent.has(id)) w *= 0.15;
-  return { w, original, sibling };
+  return { w, original, sibling, skipped };
 }
 
 const BACKFILL = { EASY: ['MEDIUM', 'HARD'], MEDIUM: ['HARD', 'EASY'], HARD: ['MEDIUM', 'EASY'] };
@@ -216,14 +226,14 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
   const dups = new Set();
   const perPattern = new Map();
   const patternCap = Math.max(2, Math.ceil(count / 3));
-  const originalsCap = preset === 'mistakes' ? Math.max(1, Math.floor(count * 0.3)) : 0;
+  const originalsCap = preset === 'mistakes' ? Math.max(1, Math.floor(count * 0.3)) : preset === 'smart' ? Math.floor(count * 0.15) : 0;
   let originals = 0;
   const bandCount = { EASY: 0, MEDIUM: 0, HARD: 0 };
 
   const ok = (r, { strictPattern, lastResort = false }) => {
     if (ids.has(String(r.q._id))) return false;
     if ((r.q.duplicate_keys || []).some((d) => dups.has(d))) return false;
-    if (r.original && !lastResort && (preset !== 'mistakes' || originals >= originalsCap)) return false;
+    if (r.original && !lastResort && ((preset !== 'mistakes' && preset !== 'smart') || originals >= originalsCap)) return false;
     // Retry my mistakes is meant to repeat the mistaken patterns, so they are not capped there.
     const retrying = preset === 'mistakes' && (r.sibling || r.original);
     if (strictPattern && !retrying && r.q.pattern && (perPattern.get(r.q.pattern) || 0) >= patternCap) return false;
@@ -279,6 +289,7 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
     borrowed,
     pyq: picked.filter((r) => r.q.realPyq).length,
     siblings: picked.filter((r) => r.sibling).length,
+    skipped: picked.filter((r) => r.skipped).length,
     originals,
   };
 }

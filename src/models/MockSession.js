@@ -69,7 +69,7 @@ const MockSessionSchema = new Schema(
     custom: {
       type: new Schema(
         {
-          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup'], required: true },
+          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart'], required: true },
           mode: { type: String, enum: ['exam', 'practice'], required: true },
           difficulty: { type: String, enum: ['easy', 'moderate', 'hard', 'exam', 'mixed'], required: true },
           distribution: { type: String, enum: ['balanced', 'smart', 'mistakes'], required: true },

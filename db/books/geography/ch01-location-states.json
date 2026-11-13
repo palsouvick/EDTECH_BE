@@ -1,0 +1,1455 @@
+{
+ "book": "geography",
+ "code": "GEO-01",
+ "number": 1,
+ "part": "india_land",
+ "title": "ভারত: অবস্থান, আয়তন, প্রতিবেশী দেশ, রাজ্য ও রাজধানী",
+ "subtitle": "অক্ষাংশ-দ্রাঘিমাংশ, আদর্শ সময়, আয়তন, উপকূল ও প্রতিবেশী",
+ "subtopics": [
+  "physical_india",
+  "states_capitals"
+ ],
+ "related_facts": [],
+ "prerequisites": [],
+ "reading_minutes": {
+  "quick": 6,
+  "standard": 16,
+  "deep": 18
+ },
+ "status": "DRAFT",
+ "verification": {
+  "status": "VERIFIED",
+  "checked_at": "2026-11-13",
+  "notes": "Key check (owner rule 2026-11-13, no word-by-word check): 41/41 keys confirmed; fixed: none; GEO-01 extended 2026-11-13: +4 questions (q42-q45, only on previously cited claims c18/c19/c20-c23), keys checked; uncited: Tropic of Cancer 8 states, state-wise land borders and longest border (Bangladesh), 28 states/8 UTs list with capitals, 2019/2020 changes (official pages 403/unreachable) Uncited (no official site reachable 2026-11-13), reviewed by the main session: Tropic of Cancer 8 states, land borders by neighbour, 28 states/8 UTs with capitals; no question depends on them."
+ },
+ "overview": {
+  "intro": "ভারত পৃথিবীর কোথায় আছে, কতটা বড়, কোন কোন দেশ তার প্রতিবেশী, কোন সময় ধরে সারা দেশ চলে, এই প্রশ্নগুলি দিয়েই ভারতের ভূগোল শুরু। এই অধ্যায়ে আমরা দেখব ভারতের অক্ষাংশ-দ্রাঘিমাংশের বিস্তার, কর্কটক্রান্তি রেখা, আদর্শ দ্রাঘিমা ও ভারতীয় প্রমাণ সময়, আয়তন ও উপকূলরেখা, প্রতিবেশী দেশ এবং কয়েকটি রাজ্য-রাজধানী। সংখ্যাগুলি (৩,২১৪ কিমি, ২,৯৩৩ কিমি, ৮২°৩০´, ৬,১০০ ও ৭,৫১৭ কিমি) পরীক্ষায় বারবার আসে, তাই ছকে সাজিয়ে মুখস্থ করার ব্যবস্থা আছে।",
+  "you_will_learn": [
+   "ভারতের অক্ষাংশ-দ্রাঘিমাংশের বিস্তার ও সর্বদক্ষিণ বিন্দু",
+   "কর্কটক্রান্তি রেখা ও তার ফল",
+   "আদর্শ দ্রাঘিমা ৮২°৩০´ পূর্ব ও IST",
+   "আয়তন, বিশ্বে স্থান ও উপকূলরেখার দৈর্ঘ্য",
+   "প্রতিবেশী দেশ, মান্নার উপসাগর ও পক প্রণালী",
+   "কয়েকটি রাজ্য-রাজধানী ও কেন্দ্রশাসিত অঞ্চলের ধারণা"
+  ]
+ },
+ "sections": [
+  {
+   "id": "location",
+   "heading": "অবস্থান: অক্ষাংশ, দ্রাঘিমাংশ ও কর্কটক্রান্তি রেখা",
+   "quick": "ভারতের মূল ভূখণ্ড উত্তরে কাশ্মীর থেকে দক্ষিণে কন্যাকুমারী এবং পূর্বে অরুণাচলপ্রদেশ থেকে পশ্চিমে গুজরাত পর্যন্ত বিস্তৃত। দক্ষিণের সীমা বঙ্গোপসাগরে ৬°৪৫´ উত্তর অক্ষাংশ পর্যন্ত যায়। কর্কটক্রান্তি রেখা দেশের মাঝখান দিয়ে পূর্ব-পশ্চিমে গেছে, তাই দক্ষিণ ভাগ ক্রান্তীয় আর উত্তর ভাগ উপক্রান্তীয় বা নাতিশীতোষ্ণ।",
+   "standard": "কোনো দেশকে চিনতে হলে প্রথমে জানতে হয় সে পৃথিবীর কোথায় আছে। এই অবস্থান বোঝানোর জন্য আমরা অক্ষাংশ ও দ্রাঘিমাংশের সাহায্য নিই। **অক্ষাংশ (Latitude)** হল নিরক্ষরেখার উত্তরে বা দক্ষিণে কোনো স্থানের কৌণিক দূরত্ব; **দ্রাঘিমাংশ (Longitude)** হল প্রাইম মেরিডিয়ান থেকে পূর্বে বা পশ্চিমে কৌণিক দূরত্ব।\n\n**ভারতের বিস্তার.** মানচিত্র দেখলে বোঝা যায়, ভারতের মূল ভূখণ্ড উত্তরে **কাশ্মীর** থেকে দক্ষিণে **কন্যাকুমারী** পর্যন্ত এবং পূর্বে **অরুণাচলপ্রদেশ** থেকে পশ্চিমে **গুজরাত** পর্যন্ত ছড়িয়ে আছে। কিন্তু ভারতের নিজস্ব সীমা এখানেই শেষ নয়। দক্ষিণে বঙ্গোপসাগরের ভেতর পর্যন্ত, অর্থাৎ **৬°৪৫´ উত্তর অক্ষাংশ** পর্যন্ত ভারতের দক্ষিণ সীমা গেছে। এই বিস্তারের শেষ প্রান্তে আছে আন্দামান ও নিকোবর দ্বীপপুঞ্জের **ইন্দিরা পয়েন্ট (Indira Point)**, যাকে ভারতের সর্বদক্ষিণ বিন্দু বলা হয়। ২০০৪ সালের ২৬ ডিসেম্বরের সুনামিতে এই বিন্দুটি জলে ডুবে গিয়েছিল।\n\n**৩০ ডিগ্রি, তবু দুই রকম দূরত্ব.** অক্ষাংশ ও দ্রাঘিমাংশ, দুই দিকেই ভারতের বিস্তার মোটামুটি ৩০ ডিগ্রি। অথচ উত্তর-দক্ষিণে দূরত্ব ৩,২১৪ কিমি, আর পূর্ব-পশ্চিমে মাত্র ২,৯৩৩ কিমি। কারণ হল, দুটি অক্ষাংশের মধ্যে দূরত্ব সব জায়গায় সমান থাকে, কিন্তু দুটি দ্রাঘিমাংশের মধ্যে দূরত্ব মেরুর দিকে এগোলে কমতে থাকে।\n\n**কর্কটক্রান্তি রেখা (Tropic of Cancer).** এটি ২৩½° উত্তর অক্ষাংশের কাল্পনিক রেখা। ২১ জুন সূর্যের লম্বরশ্মি এই রেখার ওপর পড়ে, আর ২২ ডিসেম্বর পড়ে মকরক্রান্তি রেখায় (২৩½° দক্ষিণ)। এনসিইআরটি-র কথায়, কর্কটক্রান্তি রেখা ভারতের মধ্যভাগ দিয়ে পূর্ব-পশ্চিমে গেছে। তাই এই রেখার দক্ষিণের অংশ **ক্রান্তীয় (Tropical)** অঞ্চলে পড়ে, আর উত্তরের অংশ **উপক্রান্তীয় (Sub-tropical)** বা **নাতিশীতোষ্ণ (Warm temperate)** অঞ্চলে। উত্তরের অংশ নিরক্ষরেখা থেকে দূরে বলে সেখানে তাপমাত্রার তারতম্য বেশি।\n\n**অবস্থানের ফল.** এই লম্বা অক্ষাংশ বিস্তারের জন্যই ভারতে ভূমিরূপ, জলবায়ু, মাটি ও স্বাভাবিক উদ্ভিদে এত বৈচিত্র্য দেখা যায়। এর বিস্তারিত পরের অধ্যায়গুলিতে আসবে।",
+   "deep": "**কর্কটক্রান্তি রেখা যে ৮টি রাজ্যের ওপর দিয়ে গেছে** (পশ্চিম থেকে পূর্বে): **গুজরাত, রাজস্থান, মধ্যপ্রদেশ, ছত্তিশগড়, ঝাড়খণ্ড, পশ্চিমবঙ্গ, ত্রিপুরা ও মিজোরাম**। মনে রাখার উপায়: পশ্চিমের গুজরাত দিয়ে ঢুকে পূর্বের মিজোরামে শেষ। উত্তরপ্রদেশ, বিহার, ওড়িশা, মহারাষ্ট্র, অন্ধ্রপ্রদেশ, অসম বা মেঘালয় দিয়ে রেখাটি যায় না। রেখাটি ভারতের মধ্যভাগ দিয়ে যায়, ফলে দেশের দক্ষিণ ভাগের সবটাই ক্রান্তীয়।",
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "মুখস্থ করো",
+     "body": "কাশ্মীর → কন্যাকুমারী (উত্তর-দক্ষিণ ৩,২১৪ কিমি); অরুণাচল → গুজরাত (পূর্ব-পশ্চিম ২,৯৩৩ কিমি); দক্ষিণ সীমা ৬°৪৫´ উত্তর; সর্বদক্ষিণ বিন্দু ইন্দিরা পয়েন্ট।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "কন্যাকুমারী বনাম ইন্দিরা পয়েন্ট",
+     "body": "কন্যাকুমারী হল **মূল ভূখণ্ডের** দক্ষিণ প্রান্ত। এনসিইআরটি **ইন্দিরা পয়েন্টকে** ভারতের সর্বদক্ষিণ বিন্দু বলেছে। প্রশ্নে \"মূল ভূখণ্ডের\" কথা আছে কি না দেখে নেবে।"
+    },
+    {
+     "kind": "remember",
+     "title": "কর্কটক্রান্তি রেখা: ৮ রাজ্য",
+     "body": "গুজরাত → রাজস্থান → মধ্যপ্রদেশ → ছত্তিশগড় → ঝাড়খণ্ড → পশ্চিমবঙ্গ → ত্রিপুরা → মিজোরাম।"
+    }
+   ],
+   "claims": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c15",
+    "c16",
+    "c17"
+   ]
+  },
+  {
+   "id": "time",
+   "heading": "আদর্শ দ্রাঘিমা ও ভারতীয় প্রমাণ সময়",
+   "quick": "ভারতের আদর্শ দ্রাঘিমা ৮২°৩০´ পূর্ব। ভারতীয় প্রমাণ সময় (IST) গ্রিনিচ মান সময় (GMT) থেকে ৫ ঘণ্টা ৩০ মিনিট এগিয়ে। পূর্ব ও পশ্চিম প্রান্তের মধ্যে সূর্যোদয়ে প্রায় দু ঘণ্টার ফারাক, তবু সারা দেশে ঘড়ি একই সময় দেখায়।",
+   "standard": "পৃথিবী নিজের অক্ষে ঘোরে বলে পূর্বের দেশে সূর্য আগে ওঠে, পশ্চিমের দেশে পরে। ভারতের পূর্ব-পশ্চিম বিস্তার প্রায় ৩০ ডিগ্রি, তাই এনসিইআরটি জানাচ্ছে পূর্বতম আর পশ্চিমতম অংশের মধ্যে প্রায় **দু ঘণ্টার** সময়ের ফারাক। উত্তর-পূর্বের রাজ্যগুলিতে রাজস্থানের জয়সলমেরের চেয়ে প্রায় দু ঘণ্টা আগে সূর্য ওঠে।\n\nকিন্তু ডিব্রুগড়, ইম্ফল, জয়সলমের, ভোপাল বা চেন্নাই, সব জায়গাতেই ঘড়ি একই সময় দেখায়। এর কারণ হল, পুরো দেশের জন্য একটিই **আদর্শ দ্রাঘিমা (Standard Meridian)** বেছে নেওয়া হয়েছে এবং সেই দ্রাঘিমার স্থানীয় সময়ই সারা দেশের সময়।\n\n**কীভাবে ৮২°৩০´ পূর্ব?** পৃথিবীর দেশগুলির মধ্যে সাধারণ বোঝাপড়া আছে যে আদর্শ দ্রাঘিমা হবে **৭°৩০´-এর গুণিতক**। সেই কারণেই ভারত ৮২°৩০´ পূর্ব দ্রাঘিমাকে আদর্শ দ্রাঘিমা হিসেবে নিয়েছে। **ভারতীয় প্রমাণ সময় (Indian Standard Time, IST)** গ্রিনিচ মান সময়ের (GMT) চেয়ে **৫ ঘণ্টা ৩০ মিনিট** এগিয়ে থাকে।\n\n**একাধিক সময় অঞ্চল.** যেসব দেশ পূর্ব-পশ্চিমে খুব বিশাল, সেখানে একাধিক আদর্শ দ্রাঘিমা থাকে। যেমন যুক্তরাষ্ট্রে **সাতটি** সময় অঞ্চল আছে। ভারত একটিই আদর্শ দ্রাঘিমা ব্যবহার করে।\n\n**নাগাল্যান্ডের কোহিমা বনাম নতুন দিল্লি.** এনসিইআরটি-র একটি অনুশীলনী প্রশ্নে জানতে চাওয়া হয়েছে, পূর্বে সূর্য আগে ওঠে ও আগে ডোবে, তবু কোহিমা ও নতুন দিল্লির ঘড়ি একই সময় দেখায় কীভাবে। উত্তর ওই একই আদর্শ দ্রাঘিমার ব্যবহার।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "তিনটি সংখ্যা",
+     "body": "আদর্শ দ্রাঘিমা **৮২°৩০´ পূর্ব**; গুণিতকের হিসাব **৭°৩০´**; IST = GMT + **৫ ঘণ্টা ৩০ মিনিট**।"
+    },
+    {
+     "kind": "exam_note",
+     "title": "পূর্ব-পশ্চিমের সময়ের ফারাক",
+     "body": "এনসিইআরটি-র হিসাবে পূর্ব ও পশ্চিম প্রান্তের মধ্যে সময়ের ফারাক \"প্রায় দু ঘণ্টা\"। এটি আদর্শ দ্রাঘিমার (৮২°৩০´) সঙ্গে গুলিয়ে ফেলো না।"
+    }
+   ],
+   "claims": [
+    "c06",
+    "c07",
+    "c22"
+   ]
+  },
+  {
+   "id": "size",
+   "heading": "আয়তন, উপকূলরেখা ও রাষ্ট্রসীমা",
+   "quick": "ভারতের আয়তন ৩.২৮ মিলিয়ন বর্গ কিমি; এটি বিশ্বের স্থলভাগের ২.৪ শতাংশ ও আয়তনে সপ্তম বৃহত্তম দেশ। মূল ভূখণ্ডের উপকূল ৬,১০০ কিমি আর দ্বীপসহ মোট ৭,৫১৭ কিমি। ভারতের রাষ্ট্রসীমা সমুদ্রের দিকে উপকূল থেকে ১২ নটিক্যাল মাইল (প্রায় ২১.৯ কিমি) পর্যন্ত।",
+   "standard": "**আয়তন.** ভারতের মোট আয়তন ৩.২৮ মিলিয়ন (৩২.৮ লক্ষ) বর্গ কিমি। এটি পৃথিবীর মোট স্থলভাগের **২.৪ শতাংশ**, আর আয়তনের হিসাবে ভারত বিশ্বের **সপ্তম বৃহত্তম** দেশ। এনসিইআরটি-র একটি অনুশীলনীতে চিন, মিশর, ফ্রান্স ও ইরানের মধ্যে ভারতের চেয়ে বড় দেশ কোনটি জানতে চাওয়া হয়েছে; পাঠ্যাংশে ভারতের সপ্তম স্থানটি আছে, কিন্তু তার চেয়ে বড় ছয়টি দেশের নাম দেওয়া নেই।\n\n**আয়তনের সুফল.** দেশ বড় বলেই এখানে উত্তরে উঁচু পর্বতমালা, গঙ্গা-ব্রহ্মপুত্র-মহানদী-কৃষ্ণা-গোদাবরী-কাবেরীর মতো বড় নদী, উত্তর-পূর্ব ও দক্ষিণের সবুজ পাহাড়, আর মরুস্থলীর বিস্তীর্ণ বালির এলাকা, সবই একসঙ্গে আছে।\n\n**উপকূলরেখা.** ভারতের উপদ্বীপ ভারত মহাসাগরের দিকে এগিয়ে আছে। মূল ভূখণ্ডের উপকূলরেখা **৬,১০০ কিমি**। বঙ্গোপসাগরের আন্দামান ও নিকোবর দ্বীপপুঞ্জ এবং আরব সাগরের লাক্ষাদ্বীপ ধরলে মোট উপকূলরেখা **৭,৫১৭ কিমি**।\n\n**রাষ্ট্রসীমা সমুদ্রে.** ভারতের আঞ্চলিক জলসীমা উপকূল থেকে সাগরের দিকে ১২ **নটিক্যাল মাইল (Nautical mile)** পর্যন্ত। এনসিইআরটি একে প্রায় ২১.৯ কিমি বলেছে। এক নটিক্যাল মাইল প্রায় ১.৮৫২ কিমি, আর এক **স্ট্যাটিউট মাইল (Statute mile)** প্রায় ১.৬ কিমি।\n\n**ভারতের অবস্থান এশিয়ায়.** ভারত এশিয়া মহাদেশের দক্ষিণ-মধ্য অংশে, ভারত মহাসাগর ও তার দুই বাহু, বঙ্গোপসাগর ও আরব সাগরের গায়ে। এই সমুদ্র-অবস্থানের ফলে উপদ্বীপীয় ভারতের সঙ্গে প্রতিবেশী অঞ্চলগুলির সমুদ্র ও আকাশপথে যোগাযোগ গড়ে উঠেছে।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "dont_confuse",
+     "title": "৬,১০০ বনাম ৭,৫১৭",
+     "body": "**৬,১০০ কিমি** = শুধু মূল ভূখণ্ডের উপকূল। **৭,৫১৭ কিমি** = মূল ভূখণ্ড + আন্দামান-নিকোবর + লাক্ষাদ্বীপ। প্রশ্নে \"দ্বীপসহ\" আছে কি না মিলিয়ে দেখো।"
+    },
+    {
+     "kind": "remember",
+     "title": "আয়তনের সংখ্যা",
+     "body": "৩.২৮ মিলিয়ন বর্গ কিমি; বিশ্বের স্থলভাগের ২.৪%; আয়তনে সপ্তম।"
+    }
+   ],
+   "claims": [
+    "c01",
+    "c08",
+    "c09",
+    "c10",
+    "c14"
+   ]
+  },
+  {
+   "id": "neighbours",
+   "heading": "প্রতিবেশী দেশ ও ভারতীয় উপমহাদেশ",
+   "quick": "ভারত, পাকিস্তান, নেপাল, ভুটান ও বাংলাদেশ মিলে ভারতীয় উপমহাদেশ, যা হিমালয়, হিন্দুকুশ, সুলেমান, পূর্বাচল ও ভারত মহাসাগরে ঘেরা। শ্রীলঙ্কা ও মালদ্বীপ দ্বীপরাষ্ট্র। শ্রীলঙ্কা ভারত থেকে মান্নার উপসাগর ও পক প্রণালী দিয়ে আলাদা।",
+   "standard": "**প্রতিবেশী দেশ** বলতে ভারতের আশেপাশের দেশগুলিকে বোঝায়। পশ্চিমবঙ্গের আমাদের পৃথিবী (অষ্টম শ্রেণি) নেপাল, ভুটান, বাংলাদেশ, শ্রীলঙ্কা, পাকিস্তান, মায়ানমার, চিন ও আফগানিস্তানের নাম করেছে। এনসিইআরটি আরও যোগ করেছে **মালদ্বীপ**। আয়তন ও জনসংখ্যা, দুই বিচারেই এই অঞ্চলে ভারত সবচেয়ে বড়।\n\n**ভারতীয় উপমহাদেশ (Indian Subcontinent).** উত্তরে হিমালয়, উত্তর-পশ্চিমে হিন্দুকুশ ও সুলেমান পর্বতমালা, উত্তর-পূর্বে পূর্বাচল পাহাড় এবং দক্ষিণে ভারত মহাসাগর দিয়ে ঘেরা এই অঞ্চল একটি বিশাল ভৌগোলিক একক। এনসিইআরটি-র মতে এই উপমহাদেশে আছে পাকিস্তান, নেপাল, ভুটান, বাংলাদেশ ও ভারত। পশ্চিমবঙ্গের পাঠ্যবইও এই পুরো অঞ্চলকে ভারতীয় উপমহাদেশ বলেছে।\n\n**হিমালয় একটি বাধা.** অতীতে হিমালয় ছিল বড় প্রাকৃতিক বাধা। **খাইবার, বোলান, শিপকি লা, নাথুলা ও বমডিলা** এই কয়েকটি গিরিপথ ছাড়া এটি পেরোনো কঠিন ছিল। এই বিচ্ছিন্নতাই উপমহাদেশের একটি স্বতন্ত্র আঞ্চলিক পরিচয় গড়তে সাহায্য করেছে।\n\n**দ্বীপরাষ্ট্র.** শ্রীলঙ্কা ও মালদ্বীপ ভারত মহাসাগরের দুটি দ্বীপরাষ্ট্র। **শ্রীলঙ্কা** ভারত থেকে **মান্নার উপসাগর (Gulf of Mannar)** ও **পক প্রণালী (Palk Strait)** দিয়ে বিচ্ছিন্ন। উপসাগর (Gulf) হল সাগরের স্থলভাগের ভেতরে ঢোকা অংশ, আর প্রণালী (Strait) দুটি বড় জলভাগকে জুড়ে দেওয়া সরু জলপথ।\n\n**সার্ক (SAARC).** দক্ষিণ এশীয় আঞ্চলিক সহযোগিতা সংস্থা ১৯৮৫ সালে গড়া হয়। ভারত, বাংলাদেশ, নেপাল, ভুটান, শ্রীলঙ্কা, পাকিস্তান, মালদ্বীপ ও আফগানিস্তান, এই আটটি দেশ এর সদস্য। সদর দপ্তর নেপালের রাজধানী **কাঠমান্ডুতে**। ভুটানের রাজধানী **থিম্পু**।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "কোন দেশের সঙ্গে কোন রাজ্যের সীমান্ত?",
+     "body": "পরীক্ষায় \"কোন রাজ্য কোন প্রতিবেশীর সঙ্গে সীমানা ভাগ করে\" প্রশ্ন বারবার আসে। এর তালিকা পরের \"স্থলসীমান্ত ও সীমান্তবর্তী রাজ্য\" অংশে দেওয়া হয়েছে।"
+    },
+    {
+     "kind": "remember",
+     "title": "প্রণালী ও উপসাগর",
+     "body": "ভারত-শ্রীলঙ্কার মাঝে **মান্নার উপসাগর** ও **পক প্রণালী**।"
+    }
+   ],
+   "claims": [
+    "c11",
+    "c12",
+    "c13",
+    "c18",
+    "c19",
+    "c23"
+   ]
+  },
+  {
+   "id": "admin",
+   "heading": "রাজ্য, কেন্দ্রশাসিত অঞ্চল ও কয়েকটি রাজধানী",
+   "quick": "ভারত রাজ্য ও কেন্দ্রশাসিত অঞ্চলে ভাগ করা। বর্তমানে ২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল; সম্পূর্ণ তালিকা ও রাজধানী পরের অংশের ছকে। শিলং মেঘালয়ের, লেহ লাদাখের, কোহিমা নাগাল্যান্ডের রাজধানী, নতুন দিল্লি দেশের রাজধানী।",
+   "standard": "ভারতের প্রশাসনিক ভাগ **রাজ্য (State)** ও **কেন্দ্রশাসিত অঞ্চল (Union Territory)**। এনসিইআরটি-র ভারত: অবস্থান অধ্যায়ের চিত্র ১.১-এ ভারতের প্রশাসনিক বিভাগ দেখানো আছে; সেই মানচিত্রটি খুলে দেখে নাও।\n\n**কয়েকটি রাজধানী, যা পাঠ্যবই থেকে নিশ্চিত.**\n\n| শহর | কোথায় |\n|---|---|\n| শিলং | মেঘালয়ের রাজধানী |\n| লেহ | লাদাখের রাজধানী |\n| কোহিমা | নাগাল্যান্ড |\n| নতুন দিল্লি | দেশের রাজধানী (NCT দিল্লি এলাকায়) |\n\n**সম্পূর্ণ তালিকা.** সব রাজ্য ও কেন্দ্রশাসিত অঞ্চলের রাজধানীর ছক পরের অংশে (\"রাজ্য ও কেন্দ্রশাসিত অঞ্চলের তালিকা ও রাজধানী\") দেওয়া আছে।\n\n**কেন এটি জরুরি.** আন্দামান ও নিকোবর এবং NCT দিল্লির মতো কেন্দ্রশাসিত অঞ্চলের আয়তন ও জনসংখ্যায় বিরাট তফাত, এ নিয়ে এনসিইআরটি-ও প্রশ্ন করেছে।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "তালিকা মুখস্থের উপায়",
+     "body": "রাজ্যগুলি অঞ্চল ধরে (উত্তর, পূর্ব, উত্তর-পূর্ব, পশ্চিম, দক্ষিণ) ভাগ করে মানচিত্রে আঙুল রেখে রাজধানী মেলাও।"
+    }
+   ],
+   "claims": [
+    "c20",
+    "c21",
+    "c22"
+   ]
+  },
+  {
+   "id": "borders",
+   "heading": "স্থলসীমান্ত ও সীমান্তবর্তী রাজ্য",
+   "quick": "ভারতের সবচেয়ে লম্বা স্থলসীমান্ত বাংলাদেশের সঙ্গে (পশ্চিমবঙ্গ, অসম, মেঘালয়, ত্রিপুরা, মিজোরাম)। চিনের সঙ্গে সীমান্ত লাদাখ, হিমাচল, উত্তরাখণ্ড, সিকিম, অরুণাচলে; নেপালের সঙ্গে উত্তরাখণ্ড, উত্তরপ্রদেশ, বিহার, পশ্চিমবঙ্গ, সিকিমে; ভুটানের সঙ্গে সিকিম, পশ্চিমবঙ্গ, অসম, অরুণাচলে; মায়ানমারের সঙ্গে অরুণাচল, নাগাল্যান্ড, মণিপুর, মিজোরামে।",
+   "standard": "ভারতের সঙ্গে স্থলপথে সীমানা আছে সাতটি দেশের। কোন দেশের সঙ্গে কোন রাজ্য বা কেন্দ্রশাসিত অঞ্চলের সীমানা, তা ছকে দেখো।\n\n| প্রতিবেশী | সীমান্তবর্তী রাজ্য / কেন্দ্রশাসিত অঞ্চল |\n|---|---|\n| পাকিস্তান | গুজরাত, রাজস্থান, পাঞ্জাব, জম্মু ও কাশ্মীর, লাদাখ |\n| আফগানিস্তান | লাদাখ (ভারতের সরকারি মানচিত্র অনুযায়ী; এই সীমান্ত পাক-অধিকৃত গিলগিট-বালতিস্তান অঞ্চলে, যা ভারত লাদাখের অংশ বলে দাবি করে) |\n| চিন | লাদাখ, হিমাচলপ্রদেশ, উত্তরাখণ্ড, সিকিম, অরুণাচলপ্রদেশ |\n| নেপাল | উত্তরাখণ্ড, উত্তরপ্রদেশ, বিহার, পশ্চিমবঙ্গ, সিকিম |\n| ভুটান | সিকিম, পশ্চিমবঙ্গ, অসম, অরুণাচলপ্রদেশ |\n| মায়ানমার | অরুণাচলপ্রদেশ, নাগাল্যান্ড, মণিপুর, মিজোরাম |\n| বাংলাদেশ | পশ্চিমবঙ্গ, অসম, মেঘালয়, ত্রিপুরা, মিজোরাম |\n\n**সবচেয়ে লম্বা স্থলসীমান্ত** বাংলাদেশের সঙ্গে, আর এই সীমান্তের সবচেয়ে বড় অংশ পড়েছে পশ্চিমবঙ্গে। পাঁচটি রাজ্য বাংলাদেশের সীমানা ছুঁয়ে আছে।\n\n**পশ্চিমবঙ্গ তিনটি দেশের সঙ্গে সীমানা ভাগ করে:** নেপাল, ভুটান ও বাংলাদেশ। **সিকিম** তিনটি দেশের সঙ্গে সীমানা ভাগ করে: নেপাল, চিন ও ভুটান। **অরুণাচলপ্রদেশ**-ও তিনটি: ভুটান, চিন ও মায়ানমার।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "বাংলাদেশের সীমান্তের পাঁচ রাজ্য",
+     "body": "পশ্চিমবঙ্গ, অসম, মেঘালয়, ত্রিপুরা, মিজোরাম; ভারতের দীর্ঘতম স্থলসীমান্ত।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "আফগানিস্তান",
+     "body": "পরীক্ষায় জিজ্ঞাসা করা হয়, আফগানিস্তানের সঙ্গে কোন রাজ্য বা কেন্দ্রশাসিত অঞ্চলের সীমানা? উত্তর **লাদাখ** (২০১৯-এর আগে জম্মু ও কাশ্মীর রাজ্য)। ভারতের সরকারি মানচিত্রে এই সীমান্ত লাদাখের অংশ, যদিও অঞ্চলটি বাস্তবে পাক-অধিকৃত গিলগিট-বালতিস্তানে।"
+    }
+   ],
+   "claims": [
+    "c11",
+    "c18"
+   ]
+  },
+  {
+   "id": "states_capitals",
+   "heading": "রাজ্য ও কেন্দ্রশাসিত অঞ্চলের তালিকা ও রাজধানী",
+   "quick": "ভারতে এখন ২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল। ২০১৯-এ জম্মু ও কাশ্মীর রাজ্য ভেঙে জম্মু ও কাশ্মীর এবং লাদাখ কেন্দ্রশাসিত অঞ্চল হয়; ২০২০-তে দাদরা ও নগর হাভেলি এবং দমন ও দিউ মিলে একটি কেন্দ্রশাসিত অঞ্চল হয়। চণ্ডীগড় হরিয়ানা ও পাঞ্জাব, দুই রাজ্যেরই রাজধানী।",
+   "standard": "**রাজ্য (২৮টি).**\n\n| রাজ্য | রাজধানী |\n|---|---|\n| অন্ধ্রপ্রদেশ | অমরাবতী |\n| অরুণাচলপ্রদেশ | ইটানগর |\n| অসম | দিসপুর |\n| বিহার | পাটনা |\n| ছত্তিশগড় | রায়পুর |\n| গোয়া | পানাজি |\n| গুজরাত | গান্ধীনগর |\n| হরিয়ানা | চণ্ডীগড় |\n| হিমাচলপ্রদেশ | সিমলা |\n| ঝাড়খণ্ড | রাঁচি |\n| কর্ণাটক | বেঙ্গালুরু |\n| কেরল | তিরুবনন্তপুরম |\n| মধ্যপ্রদেশ | ভোপাল |\n| মহারাষ্ট্র | মুম্বই |\n| মণিপুর | ইম্ফল |\n| মেঘালয় | শিলং |\n| মিজোরাম | আইজল |\n| নাগাল্যান্ড | কোহিমা |\n| ওড়িশা | ভুবনেশ্বর |\n| পাঞ্জাব | চণ্ডীগড় |\n| রাজস্থান | জয়পুর |\n| সিকিম | গ্যাংটক |\n| তামিলনাড়ু | চেন্নাই |\n| তেলঙ্গানা | হায়দরাবাদ |\n| ত্রিপুরা | আগরতলা |\n| উত্তরপ্রদেশ | লখনউ |\n| উত্তরাখণ্ড | দেহরাদুন |\n| পশ্চিমবঙ্গ | কলকাতা |\n\n**কেন্দ্রশাসিত অঞ্চল (৮টি).**\n\n| কেন্দ্রশাসিত অঞ্চল | রাজধানী |\n|---|---|\n| জম্মু ও কাশ্মীর | শ্রীনগর (গ্রীষ্মে), জম্মু (শীতে) |\n| লাদাখ | লেহ |\n| চণ্ডীগড় | চণ্ডীগড় |\n| দাদরা ও নগর হাভেলি এবং দমন ও দিউ | দমন |\n| দিল্লি (NCT) | নতুন দিল্লি |\n| লাক্ষাদ্বীপ | কাভারত্তি |\n| পুদুচেরি | পুদুচেরি |\n| আন্দামান ও নিকোবর দ্বীপপুঞ্জ | পোর্ট ব্লেয়ার (নতুন নাম শ্রী বিজয়পুরম) |\n\n**সাম্প্রতিক পরিবর্তন.** ২০১৯ সালে জম্মু ও কাশ্মীর রাজ্য পুনর্গঠিত হয়ে জম্মু ও কাশ্মীর এবং লাদাখ, দুটি কেন্দ্রশাসিত অঞ্চল তৈরি হয়। ২০২০ সালে দাদরা ও নগর হাভেলি এবং দমন ও দিউ একত্র হয়ে একটি কেন্দ্রশাসিত অঞ্চল হয়। এর ফলে রাজ্য ২৮, কেন্দ্রশাসিত অঞ্চল ৮।",
+   "deep": "**বিশেষ ক্ষেত্র.** চণ্ডীগড় একই সঙ্গে হরিয়ানা ও পাঞ্জাবের রাজধানী এবং নিজেও কেন্দ্রশাসিত অঞ্চল। জম্মু ও কাশ্মীরের দুটি রাজধানী: গ্রীষ্মে শ্রীনগর, শীতে জম্মু। দিল্লি দেশের রাজধানী অঞ্চল (NCT), আর নতুন দিল্লি তার ভেতরের রাজধানী শহর। অন্ধ্রপ্রদেশের রাজধানী অমরাবতী ও তেলঙ্গানার রাজধানী হায়দরাবাদ, যা আগে দুই রাজ্যের যৌথ রাজধানী ছিল। উত্তরাখণ্ডের অস্থায়ী রাজধানী দেহরাদুন।",
+   "boxes": [
+    {
+     "kind": "dont_confuse",
+     "title": "ভুল হয় যেখানে",
+     "body": "মুম্বই (মহারাষ্ট্র), কলকাতা (পশ্চিমবঙ্গ), বেঙ্গালুরু (কর্ণাটক), চেন্নাই (তামিলনাড়ু); গান্ধীনগর (গুজরাত) আহমেদাবাদ নয়; দিসপুর (অসম) গুয়াহাটি নয়।"
+    }
+   ],
+   "claims": [
+    "c20",
+    "c21",
+    "c22",
+    "c23"
+   ]
+  }
+ ],
+ "locate": [
+  {
+   "place": "কাশ্মীর",
+   "where": "উত্তর প্রান্ত",
+   "about": "মূল ভূখণ্ডের উত্তরের শেষ; এখান থেকে কন্যাকুমারী ৩,২১৪ কিমি",
+   "section": "location",
+   "claims": [
+    "c01",
+    "c03"
+   ]
+  },
+  {
+   "place": "কন্যাকুমারী",
+   "where": "দক্ষিণ প্রান্ত",
+   "about": "মূল ভূখণ্ডের দক্ষিণের শেষ",
+   "section": "location",
+   "claims": [
+    "c01"
+   ]
+  },
+  {
+   "place": "অরুণাচলপ্রদেশ",
+   "where": "পূর্ব প্রান্ত",
+   "about": "পূর্বতম রাজ্য; পূর্ব-পশ্চিম দূরত্ব ২,৯৩৩ কিমি",
+   "section": "location",
+   "claims": [
+    "c01",
+    "c03"
+   ]
+  },
+  {
+   "place": "গুজরাত",
+   "where": "পশ্চিম প্রান্ত",
+   "about": "পশ্চিম প্রান্তের রাজ্য",
+   "section": "location",
+   "claims": [
+    "c01"
+   ]
+  },
+  {
+   "place": "ইন্দিরা পয়েন্ট",
+   "where": "আন্দামান ও নিকোবর দ্বীপপুঞ্জ",
+   "about": "ভারতের সর্বদক্ষিণ বিন্দু; ২০০৪-এর সুনামিতে ডুবেছিল",
+   "section": "location",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "place": "কর্কটক্রান্তি রেখা",
+   "where": "ভারতের মধ্যভাগ, পূর্ব-পশ্চিমে",
+   "about": "২১ জুন সূর্যের লম্বরশ্মি; দক্ষিণে ক্রান্তীয়, উত্তরে উপক্রান্তীয়",
+   "section": "location",
+   "claims": [
+    "c15",
+    "c16"
+   ]
+  },
+  {
+   "place": "৮২°৩০´ পূর্ব দ্রাঘিমা",
+   "where": "আদর্শ দ্রাঘিমা",
+   "about": "IST = GMT + ৫ ঘণ্টা ৩০ মিনিট",
+   "section": "time",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "place": "মান্নার উপসাগর ও পক প্রণালী",
+   "where": "ভারত ও শ্রীলঙ্কার মাঝে",
+   "about": "শ্রীলঙ্কাকে ভারত থেকে আলাদা করেছে",
+   "section": "neighbours",
+   "claims": [
+    "c13"
+   ]
+  },
+  {
+   "place": "আন্দামান ও নিকোবর",
+   "where": "বঙ্গোপসাগর",
+   "about": "উপকূলরেখা ৭,৫১৭ কিমির হিসেবে ধরা হয়",
+   "section": "size",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "place": "লাক্ষাদ্বীপ",
+   "where": "আরব সাগর",
+   "about": "৭,৫১৭ কিমির হিসেবে ধরা হয়",
+   "section": "size",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "place": "শিলং",
+   "where": "মেঘালয়",
+   "about": "রাজ্যের রাজধানী",
+   "section": "admin",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "place": "লেহ",
+   "where": "লাদাখ",
+   "about": "লাদাখের রাজধানী",
+   "section": "admin",
+   "claims": [
+    "c21"
+   ]
+  },
+  {
+   "place": "কাঠমান্ডু",
+   "where": "নেপাল",
+   "about": "সার্ক-এর সদর দপ্তর",
+   "section": "neighbours",
+   "claims": [
+    "c19"
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "term": "অক্ষাংশ (Latitude)",
+   "meaning": "নিরক্ষরেখার উত্তরে বা দক্ষিণে কৌণিক দূরত্ব; দুটি অক্ষাংশের মধ্যে দূরত্ব সব জায়গায় সমান।",
+   "section": "location"
+  },
+  {
+   "term": "দ্রাঘিমাংশ (Longitude)",
+   "meaning": "পূর্ব-পশ্চিমে কৌণিক দূরত্ব; মেরুর দিকে দুটি দ্রাঘিমার ফারাক কমে।",
+   "section": "location"
+  },
+  {
+   "term": "কর্কটক্রান্তি রেখা (Tropic of Cancer)",
+   "meaning": "২৩½° উত্তর অক্ষাংশ; ২১ জুন এখানে সূর্য লম্বভাবে কিরণ দেয়।",
+   "section": "location"
+  },
+  {
+   "term": "আদর্শ দ্রাঘিমা (Standard Meridian)",
+   "meaning": "যে দ্রাঘিমার স্থানীয় সময় পুরো দেশের সময়; ভারতের ৮২°৩০´ পূর্ব।",
+   "section": "time"
+  },
+  {
+   "term": "নটিক্যাল মাইল (Nautical Mile)",
+   "meaning": "সমুদ্রে দূরত্বের একক, প্রায় ১.৮৫২ কিমি।",
+   "section": "size"
+  },
+  {
+   "term": "ভারতীয় উপমহাদেশ (Indian Subcontinent)",
+   "meaning": "হিমালয় ও সমুদ্রে ঘেরা দক্ষিণ এশিয়ার বিশাল ভৌগোলিক একক।",
+   "section": "neighbours"
+  },
+  {
+   "term": "উপসাগর (Gulf) ও প্রণালী (Strait)",
+   "meaning": "উপসাগর স্থলভাগের ভেতরে ঢোকা সাগর; প্রণালী দুটি জলভাগের মাঝের সরু পথ।",
+   "section": "neighbours"
+  }
+ ],
+ "cause_effect": [
+  {
+   "title": "৩০ ডিগ্রি বিস্তার, তবু ভিন্ন দূরত্ব",
+   "causes": [
+    "দ্রাঘিমাংশের মধ্যে দূরত্ব মেরুর দিকে কমে",
+    "অক্ষাংশের মধ্যে দূরত্ব সর্বত্র সমান"
+   ],
+   "event": "উত্তর-দক্ষিণে ৩,২১৪ কিমি, পূর্ব-পশ্চিমে ২,৯৩৩ কিমি",
+   "results": [
+    "দুই দিকের ডিগ্রি সমান হলেও কিমি আলাদা"
+   ],
+   "section": "location",
+   "claims": [
+    "c03",
+    "c04"
+   ]
+  },
+  {
+   "title": "একটি আদর্শ দ্রাঘিমা",
+   "causes": [
+    "পূর্ব-পশ্চিমে প্রায় ৩০° বিস্তার",
+    "প্রায় দু ঘণ্টার সময়ের ফারাক"
+   ],
+   "event": "সারা দেশের জন্য ৮২°৩০´ পূর্বকে আদর্শ দ্রাঘিমা নেওয়া",
+   "results": [
+    "কোহিমা ও নতুন দিল্লির ঘড়ি একই সময় দেখায়"
+   ],
+   "section": "time",
+   "claims": [
+    "c06",
+    "c07",
+    "c22"
+   ]
+  }
+ ],
+ "exam_focus": [
+  {
+   "point": "বিস্তার: কাশ্মীর-কন্যাকুমারী ৩,২১৪ কিমি; পূর্ব-পশ্চিম ২,৯৩৩ কিমি; দক্ষিণ সীমা ৬°৪৫´ উ.",
+   "section": "location"
+  },
+  {
+   "point": "আদর্শ দ্রাঘিমা ৮২°৩০´ পূর্ব; IST = GMT + ৫:৩০; ৭°৩০´-এর গুণিতক",
+   "section": "time"
+  },
+  {
+   "point": "আয়তন ৩.২৮ মিলিয়ন বর্গ কিমি, ২.৪%, সপ্তম; উপকূল ৬,১০০ ও ৭,৫১৭ কিমি",
+   "section": "size"
+  },
+  {
+   "point": "মান্নার উপসাগর ও পক প্রণালী; প্রতিবেশী দেশ; সার্ক ১৯৮৫",
+   "section": "neighbours"
+  },
+  {
+   "point": "কর্কটক্রান্তি রেখার ৮ রাজ্য; সীমান্তবর্তী রাজ্য (বাংলাদেশ সবচেয়ে লম্বা); ২৮ রাজ্য ও ৮ কেন্দ্রশাসিত অঞ্চলের রাজধানী",
+   "section": "states_capitals"
+  },
+  {
+   "point": "সীমান্ত: বাংলাদেশ (৫ রাজ্য, দীর্ঘতম), চিন (৫), নেপাল (৫), ভুটান (৪), মায়ানমার (৪)",
+   "section": "borders"
+  }
+ ],
+ "bengal_connection": {
+  "body": "- **পশ্চিমবঙ্গ ও প্রতিবেশী.** পশ্চিমবঙ্গ তিনটি দেশের সঙ্গে সীমানা ভাগ করে: নেপাল, ভুটান ও বাংলাদেশ। কর্কটক্রান্তি রেখাও এই রাজ্যের ওপর দিয়ে গেছে।\n- **কোহিমা ও কলকাতা.** পূর্বে সূর্য আগে ওঠে, তবু কোহিমা, নতুন দিল্লি ও কলকাতা, সব জায়গায় সময় একই (৮২°৩০´ পূর্বের IST)।\n- **কলকাতা বন্দর.** পশ্চিমবঙ্গের বইয়ে প্রশ্ন আছে, কোন দুটি প্রতিবেশী দেশ কলকাতা বন্দরের ওপর নির্ভরশীল। সূত্রে উত্তর নেই, তাই এখানে বলা হল না।",
+  "claims": [
+   "c07",
+   "c22",
+   "c18"
+  ]
+ },
+ "quick_revision": [
+  "মূল ভূখণ্ড: কাশ্মীর থেকে কন্যাকুমারী এবং অরুণাচল থেকে গুজরাত।",
+  "দক্ষিণ সীমা বঙ্গোপসাগরে ৬°৪৫´ উত্তর; সর্বদক্ষিণ বিন্দু ইন্দিরা পয়েন্ট।",
+  "উত্তর-দক্ষিণ দূরত্ব ৩,২১৪ কিমি; পূর্ব-পশ্চিম ২,৯৩৩ কিমি।",
+  "কর্কটক্রান্তি রেখা ভারতের মধ্যভাগ দিয়ে পূর্ব-পশ্চিমে; দক্ষিণে ক্রান্তীয়, উত্তরে উপক্রান্তীয়।",
+  "আদর্শ দ্রাঘিমা ৮২°৩০´ পূর্ব, ৭°৩০´-এর গুণিতক; IST = GMT + ৫ ঘণ্টা ৩০ মিনিট।",
+  "পূর্ব-পশ্চিম প্রান্তের সময়ের ফারাক প্রায় দু ঘণ্টা; যুক্তরাষ্ট্রে সাতটি সময় অঞ্চল।",
+  "আয়তন ৩.২৮ মিলিয়ন বর্গ কিমি; স্থলভাগের ২.৪%; বিশ্বে সপ্তম।",
+  "উপকূলরেখা: মূল ভূখণ্ড ৬,১০০ কিমি; দ্বীপসহ ৭,৫১৭ কিমি।",
+  "রাষ্ট্রসীমা সমুদ্রে ১২ নটিক্যাল মাইল (প্রায় ২১.৯ কিমি)।",
+  "শ্রীলঙ্কা ও ভারতের মাঝে মান্নার উপসাগর ও পক প্রণালী।",
+  "সার্ক ১৯৮৫ সালে; সদর দপ্তর কাঠমান্ডু।",
+  "শিলং = মেঘালয়; লেহ = লাদাখ।",
+  "কর্কটক্রান্তি রেখা: গুজরাত, রাজস্থান, মধ্যপ্রদেশ, ছত্তিশগড়, ঝাড়খণ্ড, পশ্চিমবঙ্গ, ত্রিপুরা, মিজোরাম।",
+  "দীর্ঘতম স্থলসীমান্ত বাংলাদেশের সঙ্গে; পশ্চিমবঙ্গ নেপাল, ভুটান ও বাংলাদেশের সীমান্তে।",
+  "২৮ রাজ্য ও ৮ কেন্দ্রশাসিত অঞ্চল; ২০১৯-এ লাদাখ আলাদা, ২০২০-তে দাদরা-নগর হাভেলি ও দমন-দিউ একত্র।"
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "India: Physical Environment (Class XI), Chapter 1: India – Location",
+   "class": "XI",
+   "url": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "title": "India: Physical Environment (Class XI), Chapter 4: Climate",
+   "class": "XI",
+   "url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "title": "Our Environment (Class VII), Chapter 5: Water",
+   "class": "VII",
+   "url": "https://ncert.nic.in/textbook/pdf/gess205.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "title": "আমাদের পৃথিবী (Class VIII), ভারতের প্রতিবেশী দেশসমূহ ও তাদের সঙ্গে সম্পর্ক",
+   "class": "VIII",
+   "url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/Amader%20Prithibi%20Class%20VIII.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "title": "আমাদের পৃথিবী (Class VII), পৃথিবীর পরিক্রমণ",
+   "class": "VII",
+   "url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/Amader%20Prithibi%20Class%20VII.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s6",
+   "title": "Contemporary India II (Class X), Chapter 3: Water Resources",
+   "class": "X",
+   "url": "https://ncert.nic.in/textbook/pdf/jess103.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s7",
+   "title": "Our Environment (Class VII), Chapter 7: Human Environment Interactions: Settlement, Transport and Communication",
+   "class": "VII",
+   "url": "https://ncert.nic.in/textbook/pdf/gess207.pdf",
+   "accessed_at": "2026-11-13"
+  }
+ ],
+ "claims": [
+  {
+   "id": "c01",
+   "claim": "The mainland extends from Kashmir in the north to Kanniyakumari in the south and from Arunachal Pradesh in the east to Gujarat in the west; territorial limit is 12 nautical miles (about 21.9 km) from the coast.",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "The mainland of India, extends from Kashmir in the north to Kanniyakumari in the south and Arunachal Pradesh in the east to Gujarat in the west. India’s territorial limit further extends towards the sea upto 12 nautical miles (about 21.9 km) from the coast."
+  },
+  {
+   "id": "c02",
+   "claim": "India's southern boundary extends up to 6°45' N latitude in the Bay of Bengal.",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "Our southern boundary extends upto 6°45' N latitude in the Bay of Bengal."
+  },
+  {
+   "id": "c03",
+   "claim": "Latitudinal and longitudinal extent are each roughly 30 degrees, but the actual distance is 3,214 km north to south and 2,933 km east to west.",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "the latitudinal and longitudinal extent of India, they are roughly about 30 degrees, whereas the actual distance measured from north to south extremity is 3,214 km, and that from east to west is only 2,933 km."
+  },
+  {
+   "id": "c04",
+   "claim": "The distance between two longitudes decreases towards the poles whereas the distance between two latitudes remains the same everywhere.",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "the distance between two longitudes decreases towards the poles whereas the distance between two latitudes remains the same everywhere."
+  },
+  {
+   "id": "c05",
+   "claim": "The southern part lies within the tropics and the northern part in the sub-tropical or warm temperate zone; this causes large variations in landforms, climate, soil and natural vegetation.",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "the southern part of the country lies within the tropics and the northern part lies in the sub-tropical zone or the warm temperate zone. This location is responsible for large variations in land forms, climate, soil types and natural vegetation"
+  },
+  {
+   "id": "c06",
+   "claim": "Longitude varies by nearly 30 degrees, causing a time difference of nearly two hours between the easternmost and westernmost parts; the sun rises in the north-eastern states about two hours earlier than at Jaisalmer, yet watches show the same time.",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "there is a variation of nearly 30 degrees, which causes a time difference of nearly two hours between the easternmost and the westernmost parts of our country. While the sun rises in the northeastern states about two hours earlier as compared to Jaisalmer, the watches in Dibrugarh, Imphal ... show the same time."
+  },
+  {
+   "id": "c07",
+   "claim": "Standard meridians are chosen in multiples of 7°30' of longitude, so 82°30' E is India's standard meridian; IST is ahead of GMT by 5 hours 30 minutes; the USA has seven time zones.",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "select the standard meridian in multiples of 7°30' of longitude. That is why 82°30' E has been selected as the ‘standard meridian’ of India. Indian Standard Time is ahead of Greenwich Mean Time by 5 hours and 30 minutes. ... the USA has seven time zones."
+  },
+  {
+   "id": "c08",
+   "claim": "India's area is 3.28 million sq. km, 2.4 per cent of the world's land surface, and the seventh largest country.",
+   "source": "s1",
+   "page": "p. 5",
+   "quote": "India with its area of 3.28 million sq. km accounts for 2.4 per cent of the world’s land surface area and stands as the seventh largest country in the world."
+  },
+  {
+   "id": "c09",
+   "claim": "India has a coastline of 6,100 km on the mainland and 7,517 km in all, including the Andaman and Nicobar group (Bay of Bengal) and Lakshadweep (Arabian Sea).",
+   "source": "s1",
+   "page": "p. 5",
+   "quote": "a coastline of 6,100 km in the mainland and 7,517 km in the entire geographical coast of the mainland plus the island groups Andaman and Nicobar located in the Bay of Bengal and the Lakshadweep in the Arabian Sea."
+  },
+  {
+   "id": "c10",
+   "claim": "One nautical mile is about 1.852 km; one statute mile is about 1.6 km (1.584 km).",
+   "source": "s1",
+   "page": "p. 2",
+   "quote": "1 Statute mile = about 1.6 km (1.584 km)  1 Nautical mile = about 1.8 km (1.852 km)"
+  },
+  {
+   "id": "c11",
+   "claim": "The Himalayas, Hindukush and Sulaiman ranges (north-west), Purvachal hills (north-east) and the Indian Ocean bound India, forming the Indian subcontinent, which includes Pakistan, Nepal, Bhutan, Bangladesh and India.",
+   "source": "s1",
+   "page": "p. 5",
+   "quote": "bounded by the Himalayas in the north, Hindukush and Sulaiman ranges in the north-west, Purvachal hills in the north-east and by the large expanse of the Indian ocean in the south, it forms a great geographic entity known as the Indian subcontinent. It includes the countries — Pakistan, Nepal, Bhutan, Bangladesh and India."
+  },
+  {
+   "id": "c12",
+   "claim": "The Himalayas were a physical barrier, difficult to cross except for a few passes such as the Khyber, Bolan, Shipkila, Nathula and Bomdila.",
+   "source": "s1",
+   "page": "p. 5",
+   "quote": "Except for a few mountain passes such as the Khyber, the Bolan, the Shipkila, the Nathula, the Bomdila, etc. it was difficult to cross it."
+  },
+  {
+   "id": "c13",
+   "claim": "Sri Lanka and Maldives are island countries in the Indian Ocean; Sri Lanka is separated from India by the Gulf of Mannar and Palk Strait.",
+   "source": "s1",
+   "page": "p. 5",
+   "quote": "Sri Lanka and Maldives are the two island countries located in the Indian Ocean, which are our neighbours. Sri Lanka is separated from India by the Gulf of Mannar and Palk Strait."
+  },
+  {
+   "id": "c14",
+   "claim": "India lies in the south-central part of Asia, bordering the Indian Ocean and its two arms, the Bay of Bengal and the Arabian Sea.",
+   "source": "s1",
+   "page": "p. 5",
+   "quote": "India is located in the south-central part of the continent of Asia, bordering the Indian ocean and its two arms extending in the form of Bay of Bengal and the Arabian Sea."
+  },
+  {
+   "id": "c15",
+   "claim": "The Tropic of Cancer passes through the central part of India in an east-west direction; the north is sub-tropical/temperate and the south lies in the tropical zone.",
+   "source": "s2",
+   "page": "p. 5",
+   "quote": "the Tropic of Cancer passes through the central part of India in east-west direction. Thus, northern part of the India lies in sub-tropical and temperate zone and the part lying south of the Tropic of Cancer falls in the tropical zone."
+  },
+  {
+   "id": "c16",
+   "claim": "On 21 June the sun's vertical rays fall on the Tropic of Cancer and on 22 December on the Tropic of Capricorn.",
+   "source": "s5",
+   "page": "p. 12",
+   "quote": "২১ জুন কর্কটক্রান্তিরেখায় এবং ২২ ডিসেম্বর মকরক্রান্তিরেখায় সূর্যের লম্বরশ্মি পড়ে।"
+  },
+  {
+   "id": "c17",
+   "claim": "The Indira Point in the Andaman and Nicobar Islands marked the southernmost point of India and was submerged after the tsunami of 26 December 2004.",
+   "source": "s3",
+   "page": "p. 34",
+   "quote": "The Indira point in the Andaman and Nicobar islands that marked the southernmost point of India got completely submerged."
+  },
+  {
+   "id": "c18",
+   "claim": "WBBSE lists Nepal, Bhutan, Bangladesh, Sri Lanka, Pakistan, Myanmar, China and Afghanistan among India's neighbours; India is the largest by area and population; the region is the Indian subcontinent.",
+   "source": "s4",
+   "page": "p. 314",
+   "quote": "নেপাল, ভুটান, বাংলাদেশ, শ্রীলঙ্কা, পাকিস্তান, মায়ানমার, চিন, আফগানিস্তান প্রভৃতির ... আয়তন ও জনসংখ্যার বিচারে ভারত বৃহত্তম ... তাই এই অঞ্চলকে ভারতীয় উপমহাদেশ বলে।"
+  },
+  {
+   "id": "c19",
+   "claim": "SAARC was formed in 1985 by eight countries (India, Bangladesh, Nepal, Bhutan, Sri Lanka, Pakistan, Maldives, Afghanistan), with its headquarters in Kathmandu, capital of Nepal.",
+   "source": "s4",
+   "page": "p. 315",
+   "quote": "১৯৮৫ সালে ভারত, বাংলাদেশ, নেপাল, ভুটান, শ্রীলঙ্কা, পাকিস্তান, মালদ্বীপ ও আফগানিস্তান এই ৮টি দেশ SAARC সংস্থা গঠন করেছে। এর সদর দপ্তর নেপালের রাজধানী কাঠমান্ডু।"
+  },
+  {
+   "id": "c20",
+   "claim": "Shillong is the state capital of Meghalaya.",
+   "source": "s6",
+   "page": "p. 3",
+   "quote": "yet the state capital Shillong faces acute shortage of water."
+  },
+  {
+   "id": "c21",
+   "claim": "Leh is the capital of Ladakh.",
+   "source": "s7",
+   "page": "p. 6",
+   "quote": "Leh, the capital of Ladakh is well connected"
+  },
+  {
+   "id": "c22",
+   "claim": "The Kohima–New Delhi watch question places Kohima in Nagaland and asks why watches there and in New Delhi show the same time.",
+   "source": "s1",
+   "page": "p. 6",
+   "quote": "While the sun rises earlier in the east, say Nagaland and also sets earlier, how do the watches at Kohima and New Delhi show the same time?"
+  },
+  {
+   "id": "c23",
+   "claim": "Thimphu is the capital of Bhutan.",
+   "source": "s4",
+   "page": "p. 318",
+   "quote": "এক নজরে ভুটান ... রাজধানী : থিম্পু"
+  }
+ ],
+ "questions": [
+  {
+   "id": "q01",
+   "section": "location",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের মূল ভূখণ্ড উত্তরের কাশ্মীর থেকে দক্ষিণে কোথায় পর্যন্ত বিস্তৃত?",
+   "a": "কন্যাকুমারী",
+   "w": [
+    "মুম্বই",
+    "কলকাতা",
+    "দিল্লি"
+   ],
+   "e": "এনসিইআরটি-র মতে মূল ভূখণ্ড কাশ্মীর থেকে কন্যাকুমারী পর্যন্ত। বাকি তিনটি শহর ওই উত্তর-দক্ষিণ প্রান্তের নাম নয়।",
+   "claims": [
+    "c01"
+   ]
+  },
+  {
+   "id": "q02",
+   "section": "time",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের আদর্শ দ্রাঘিমা কোনটি?",
+   "a": "৮২°৩০´ পূর্ব",
+   "w": [
+    "৬৯°৩০´ পূর্ব",
+    "৭৫°৩০´ পূর্ব",
+    "৯০°৩০´ পূর্ব"
+   ],
+   "e": "ভারত ৮২°৩০´ পূর্বকে আদর্শ দ্রাঘিমা নিয়েছে। অন্য মানগুলি আদর্শ দ্রাঘিমা নয়।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q03",
+   "section": "time",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতীয় প্রমাণ সময় (IST) গ্রিনিচ মান সময়ের (GMT) চেয়ে কত এগিয়ে?",
+   "a": "৫ ঘণ্টা ৩০ মিনিট",
+   "w": [
+    "৪ ঘণ্টা ৩০ মিনিট",
+    "৬ ঘণ্টা ৩০ মিনিট",
+    "৫ ঘণ্টা"
+   ],
+   "e": "IST, GMT-র চেয়ে ৫ ঘণ্টা ৩০ মিনিট এগিয়ে। ৫ ঘণ্টা বা ৬ ঘণ্টা ৩০ মিনিট এনসিইআরটি-র তথ্যের সঙ্গে মেলে না।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q04",
+   "section": "size",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "আয়তনে ভারতের স্থান বিশ্বে কত?",
+   "a": "সপ্তম",
+   "w": [
+    "পঞ্চম",
+    "তৃতীয়",
+    "দশম"
+   ],
+   "e": "এনসিইআরটি ভারতকে বিশ্বের সপ্তম বৃহত্তম দেশ বলেছে।",
+   "claims": [
+    "c08"
+   ]
+  },
+  {
+   "id": "q05",
+   "section": "size",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারত পৃথিবীর মোট স্থলভাগের প্রায় কত শতাংশ জুড়ে আছে?",
+   "a": "২.৪ শতাংশ",
+   "w": [
+    "৫.৮ শতাংশ",
+    "১২.৫ শতাংশ",
+    "০.৮ শতাংশ"
+   ],
+   "e": "ভারতের আয়তন ৩.২৮ মিলিয়ন বর্গ কিমি, যা বিশ্বের স্থলভাগের ২.৪ শতাংশ।",
+   "claims": [
+    "c08"
+   ]
+  },
+  {
+   "id": "q06",
+   "section": "neighbours",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "কোন দুটি জলভাগ শ্রীলঙ্কাকে ভারত থেকে আলাদা করেছে?",
+   "a": "মান্নার উপসাগর ও পক প্রণালী",
+   "w": [
+    "মালাক্কা প্রণালী ও বেরিং প্রণালী",
+    "হরমুজ প্রণালী ও জিব্রাল্টার প্রণালী",
+    "লোহিত সাগর ও ভূমধ্যসাগর"
+   ],
+   "e": "এনসিইআরটি-র মতে শ্রীলঙ্কা ভারত থেকে মান্নার উপসাগর ও পক প্রণালী দিয়ে বিচ্ছিন্ন। অন্যগুলি অন্য অঞ্চলের জলপথ।",
+   "claims": [
+    "c13"
+   ]
+  },
+  {
+   "id": "q07",
+   "section": "location",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "এনসিইআরটি ভারতের সর্বদক্ষিণ বিন্দু হিসেবে কোনটির নাম করেছে?",
+   "a": "ইন্দিরা পয়েন্ট",
+   "w": [
+    "রামেশ্বরম",
+    "পোর্ট ব্লেয়ার",
+    "মিনিকয়"
+   ],
+   "e": "আন্দামান ও নিকোবরের ইন্দিরা পয়েন্টকে ভারতের সর্বদক্ষিণ বিন্দু বলা হয়েছে।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q08",
+   "section": "size",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "দ্বীপসহ ভারতের মোট উপকূলরেখা কত?",
+   "a": "৭,৫১৭ কিমি",
+   "w": [
+    "৬,১০০ কিমি",
+    "৫,০০০ কিমি",
+    "৮,৯০০ কিমি"
+   ],
+   "e": "আন্দামান-নিকোবর ও লাক্ষাদ্বীপ ধরলে মোট ৭,৫১৭ কিমি। ৬,১০০ কিমি শুধু মূল ভূখণ্ডের।",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "id": "q09",
+   "section": "size",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "লাক্ষাদ্বীপ কোন সাগরে অবস্থিত?",
+   "a": "আরব সাগর",
+   "w": [
+    "বঙ্গোপসাগর",
+    "লোহিত সাগর",
+    "দক্ষিণ চিন সাগর"
+   ],
+   "e": "লাক্ষাদ্বীপ আরব সাগরে; আন্দামান-নিকোবর বঙ্গোপসাগরে।",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "id": "q10",
+   "section": "neighbours",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারত মহাসাগরে অবস্থিত ভারতের দুটি দ্বীপরাষ্ট্র প্রতিবেশী কারা?",
+   "a": "শ্রীলঙ্কা ও মালদ্বীপ",
+   "w": [
+    "নেপাল ও ভুটান",
+    "পাকিস্তান ও বাংলাদেশ",
+    "মায়ানমার ও আফগানিস্তান"
+   ],
+   "e": "এনসিইআরটি শ্রীলঙ্কা ও মালদ্বীপকে দুটি দ্বীপরাষ্ট্র বলেছে। বাকি জোড়গুলির দেশ স্থলভাগের দেশ।",
+   "claims": [
+    "c13"
+   ]
+  },
+  {
+   "id": "q11",
+   "section": "location",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "উত্তর থেকে দক্ষিণ প্রান্ত পর্যন্ত ভারতের প্রকৃত দূরত্ব কত?",
+   "a": "৩,২১৪ কিমি",
+   "w": [
+    "২,৯৩৩ কিমি",
+    "৩,৫০০ কিমি",
+    "২,৪০০ কিমি"
+   ],
+   "e": "উত্তর-দক্ষিণে দূরত্ব ৩,২১৪ কিমি। ২,৯৩৩ কিমি পূর্ব-পশ্চিমের দূরত্ব।",
+   "claims": [
+    "c03"
+   ]
+  },
+  {
+   "id": "q12",
+   "section": "location",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "পূর্ব থেকে পশ্চিম প্রান্ত পর্যন্ত ভারতের প্রকৃত দূরত্ব কত?",
+   "a": "২,৯৩৩ কিমি",
+   "w": [
+    "৩,২১৪ কিমি",
+    "২,১০০ কিমি",
+    "৪,০০০ কিমি"
+   ],
+   "e": "পূর্ব-পশ্চিমে দূরত্ব ২,৯৩৩ কিমি; ৩,২১৪ কিমি উত্তর-দক্ষিণের।",
+   "claims": [
+    "c03"
+   ]
+  },
+  {
+   "id": "q13",
+   "section": "location",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "অক্ষাংশ ও দ্রাঘিমাংশে ভারতের বিস্তার প্রায় সমান (৩০ ডিগ্রি) হলেও কিমিতে দূরত্ব আলাদা কেন?",
+   "a": "মেরুর দিকে দুটি দ্রাঘিমার মধ্যে দূরত্ব কমে, কিন্তু অক্ষাংশের মধ্যে দূরত্ব সব জায়গায় সমান",
+   "w": [
+    "মেরুর দিকে দুটি অক্ষাংশের মধ্যে দূরত্ব কমে, কিন্তু দ্রাঘিমার মধ্যে দূরত্ব সমান থাকে",
+    "ভারতের পূর্ব-পশ্চিমে বেশি সমুদ্র আছে",
+    "পৃথিবীর অক্ষ হেলে থাকার কারণে"
+   ],
+   "e": "এনসিইআরটি-র ব্যাখ্যা: দ্রাঘিমার মধ্যে দূরত্ব মেরুর দিকে কমে, অক্ষাংশের মধ্যে সমান থাকে। প্রথম ভুল বিকল্পে ব্যাপারটা উল্টে বলা হয়েছে।",
+   "claims": [
+    "c03",
+    "c04"
+   ]
+  },
+  {
+   "id": "q14",
+   "section": "time",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের পূর্বতম ও পশ্চিমতম অংশের মধ্যে সময়ের ফারাক প্রায় কত?",
+   "a": "প্রায় দুই ঘণ্টা",
+   "w": [
+    "প্রায় আধ ঘণ্টা",
+    "প্রায় পাঁচ ঘণ্টা",
+    "প্রায় বারো ঘণ্টা"
+   ],
+   "e": "প্রায় ৩০ ডিগ্রি দ্রাঘিমার বিস্তারের ফলে এনসিইআরটি প্রায় দু ঘণ্টার ফারাক বলেছে।",
+   "claims": [
+    "c06"
+   ]
+  },
+  {
+   "id": "q15",
+   "section": "time",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "আদর্শ দ্রাঘিমা বাছাই করা হয় কত ডিগ্রির গুণিতকে?",
+   "a": "৭°৩০´",
+   "w": [
+    "১০°",
+    "১৫°",
+    "৫°"
+   ],
+   "e": "দেশগুলির সাধারণ বোঝাপড়া অনুযায়ী ৭°৩০´-এর গুণিতক নেওয়া হয়; তাই ৮২°৩০´।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q16",
+   "section": "time",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "পূর্ব-পশ্চিমে বিশাল বিস্তারের কারণে যুক্তরাষ্ট্রে কয়টি সময় অঞ্চল আছে?",
+   "a": "সাতটি",
+   "w": [
+    "দুটি",
+    "তিনটি",
+    "চারটি"
+   ],
+   "e": "এনসিইআরটি-র মতে যুক্তরাষ্ট্রে সাতটি সময় অঞ্চল।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q17",
+   "section": "size",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতের রাষ্ট্রসীমা সমুদ্রের দিকে উপকূল থেকে কত দূর পর্যন্ত?",
+   "a": "১২ নটিক্যাল মাইল",
+   "w": [
+    "৫০ নটিক্যাল মাইল",
+    "২০০ নটিক্যাল মাইল",
+    "৩ নটিক্যাল মাইল"
+   ],
+   "e": "এনসিইআরটি অনুযায়ী ১২ নটিক্যাল মাইল (প্রায় ২১.৯ কিমি)।",
+   "claims": [
+    "c01"
+   ]
+  },
+  {
+   "id": "q18",
+   "section": "neighbours",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "নীচের কোনটি একটি হিমালয়ের গিরিপথ?",
+   "a": "শিপকি লা",
+   "w": [
+    "কোরাপুট",
+    "সাংপো",
+    "ডাল"
+   ],
+   "e": "এনসিইআরটি-র তালিকায় খাইবার, বোলান, শিপকি লা, নাথুলা, বমডিলা আছে। বাকিগুলি এই তালিকায় নেই।",
+   "claims": [
+    "c12"
+   ]
+  },
+  {
+   "id": "q19",
+   "section": "neighbours",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "সার্ক (SAARC) কোন সালে গঠিত হয়?",
+   "a": "১৯৮৫",
+   "w": [
+    "১৯৪৭",
+    "১৯৬৫",
+    "১৯৯২"
+   ],
+   "e": "আমাদের পৃথিবী অষ্টম শ্রেণি অনুযায়ী ১৯৮৫ সালে।",
+   "claims": [
+    "c19"
+   ]
+  },
+  {
+   "id": "q20",
+   "section": "location",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "কর্কটক্রান্তি রেখার দক্ষিণে থাকা ভারতের অংশ কোন তাপীয় অঞ্চলে পড়ে?",
+   "a": "ক্রান্তীয় অঞ্চল",
+   "w": [
+    "উপক্রান্তীয় অঞ্চল",
+    "নাতিশীতোষ্ণ অঞ্চল",
+    "মেরু অঞ্চল"
+   ],
+   "e": "এনসিইআরটি-র মতে এই রেখার দক্ষিণে ক্রান্তীয় অঞ্চল; উত্তরে উপক্রান্তীয় ও নাতিশীতোষ্ণ।",
+   "claims": [
+    "c15"
+   ]
+  },
+  {
+   "id": "q21",
+   "section": "location",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "২১ জুন সূর্যের লম্বরশ্মি কোন রেখার ওপর পড়ে?",
+   "a": "কর্কটক্রান্তি রেখা",
+   "w": [
+    "মকরক্রান্তি রেখা",
+    "নিরক্ষরেখা",
+    "প্রাইম মেরিডিয়ান"
+   ],
+   "e": "২১ জুন কর্কটক্রান্তি রেখায়, ২২ ডিসেম্বর মকরক্রান্তি রেখায় লম্বরশ্মি পড়ে।",
+   "claims": [
+    "c16"
+   ]
+  },
+  {
+   "id": "q22",
+   "section": "neighbours",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "সার্ক-এর সদর দপ্তর কোথায়?",
+   "a": "কাঠমান্ডু",
+   "w": [
+    "থিম্পু",
+    "ঢাকা",
+    "কলম্বো"
+   ],
+   "e": "সার্ক-এর সদর দপ্তর নেপালের রাজধানী কাঠমান্ডুতে। থিম্পু ভুটানের রাজধানী।",
+   "claims": [
+    "c19",
+    "c23"
+   ]
+  },
+  {
+   "id": "q23",
+   "section": "admin",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "মেঘালয়ের রাজধানী কোনটি?",
+   "a": "শিলং",
+   "w": [
+    "ইম্ফল",
+    "কোহিমা",
+    "আইজল"
+   ],
+   "e": "এনসিইআরটি শিলংকে মেঘালয়ের রাজ্য-রাজধানী বলেছে। বাকিগুলি অন্য রাজ্যের রাজধানী।",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "id": "q24",
+   "section": "admin",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "লাদাখের রাজধানী কোনটি?",
+   "a": "লেহ",
+   "w": [
+    "শ্রীনগর",
+    "জম্মু",
+    "দেরাদুন"
+   ],
+   "e": "এনসিইআরটি লেহকে লাদাখের রাজধানী বলেছে।",
+   "claims": [
+    "c21"
+   ]
+  },
+  {
+   "id": "q25",
+   "section": "location",
+   "level": "difficult",
+   "format": "STATEMENT",
+   "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. দুটি অক্ষাংশের মধ্যে দূরত্ব সব জায়গায় সমান থাকে।\n২. দুটি দ্রাঘিমার মধ্যে দূরত্ব সব জায়গায় সমান থাকে।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "শুধুমাত্র ১",
+   "w": [
+    "শুধুমাত্র ২",
+    "১ ও ২ উভয়ই",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "১ সঠিক। ২ ভুল, কারণ দ্রাঘিমার মধ্যে দূরত্ব মেরুর দিকে কমে।",
+   "claims": [
+    "c04"
+   ]
+  },
+  {
+   "id": "q26",
+   "section": "location",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতের দক্ষিণ সীমা বঙ্গোপসাগরে কত অক্ষাংশ পর্যন্ত গেছে?",
+   "a": "৬°৪৫´ উত্তর",
+   "w": [
+    "১৫°৩০´ উত্তর",
+    "২৩°৩০´ উত্তর",
+    "৩৫°০´ উত্তর"
+   ],
+   "e": "এনসিইআরটি-র মতে ৬°৪৫´ উত্তর পর্যন্ত। ২৩°৩০´ উত্তর কর্কটক্রান্তি রেখার অক্ষাংশ, ভারতের দক্ষিণ সীমা নয়।",
+   "claims": [
+    "c02",
+    "c16"
+   ]
+  },
+  {
+   "id": "q27",
+   "section": "size",
+   "level": "difficult",
+   "format": "STATEMENT",
+   "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. ভারতের মূল ভূখণ্ডের উপকূলরেখা ৬,১০০ কিমি।\n২. আন্দামান-নিকোবর ও লাক্ষাদ্বীপ সহ উপকূলরেখাও ৬,১০০ কিমি।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "শুধুমাত্র ১",
+   "w": [
+    "শুধুমাত্র ২",
+    "১ ও ২ উভয়ই",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "১ সঠিক। ২ ভুল, কারণ দ্বীপসহ মোট ৭,৫১৭ কিমি।",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "id": "q28",
+   "section": "time",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "নীচের কোন দ্রাঘিমাটি ৭°৩০´-এর গুণিতক?",
+   "a": "৮২°৩০´ পূর্ব",
+   "w": [
+    "৮০°০´ পূর্ব",
+    "৮৫°০´ পূর্ব",
+    "৭৮°৩০´ পূর্ব"
+   ],
+   "e": "৮২°৩০´ = ১১ × ৭°৩০´। ৮০°, ৮৫° বা ৭৮°৩০´ কোনোটিই ৭°৩০´ দিয়ে ভাগ যায় না।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q29",
+   "section": "time",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "কোহিমা ও নতুন দিল্লির ঘড়ি একই সময় দেখায় কেন?",
+   "a": "দুই জায়গাই একই আদর্শ দ্রাঘিমা (৮২°৩০´ পূর্ব) অনুসরণ করে",
+   "w": [
+    "কোহিমায় সূর্য দেরিতে ওঠে",
+    "দুটি শহর একই দ্রাঘিমায়",
+    "দিল্লি ও কোহিমার মধ্যে সময়ের ফারাক নেই বলে"
+   ],
+   "e": "ভারতে একটিই আদর্শ দ্রাঘিমা, তাই সব জায়গায় ঘড়ি একই। আসলে কোহিমায় সূর্য আগে ওঠে ও আগে ডোবে, আর দুটি শহর একই দ্রাঘিমায় নয়।",
+   "claims": [
+    "c06",
+    "c07",
+    "c22"
+   ]
+  },
+  {
+   "id": "q30",
+   "section": "size",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "এনসিইআরটি-র মতে ভারত এশিয়া মহাদেশের কোন অংশে অবস্থিত?",
+   "a": "দক্ষিণ-মধ্য অংশে",
+   "w": [
+    "উত্তর-পূর্ব অংশে",
+    "পশ্চিম অংশে",
+    "উত্তর-মধ্য অংশে"
+   ],
+   "e": "এনসিইআরটি ভারতকে এশিয়ার দক্ষিণ-মধ্য অংশে বলেছে।",
+   "claims": [
+    "c14"
+   ]
+  },
+  {
+   "id": "q31",
+   "section": "neighbours",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "নীচের কোন দেশটি আমাদের পৃথিবী (অষ্টম শ্রেণি) ও এনসিইআরটি-র উল্লেখ করা ভারতের প্রতিবেশী দেশগুলির মধ্যে নেই?",
+   "a": "ইরান",
+   "w": [
+    "নেপাল",
+    "ভুটান",
+    "মায়ানমার"
+   ],
+   "e": "নেপাল, ভুটান ও মায়ানমার ওই তালিকায় আছে; ইরানের নাম প্রতিবেশী হিসেবে নেই।",
+   "claims": [
+    "c11",
+    "c18"
+   ]
+  },
+  {
+   "id": "q32",
+   "section": "location",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতের সর্বদক্ষিণ বিন্দু কোন বছরের সুনামিতে ডুবে যায়, বলা হয়েছে?",
+   "a": "২০০৪",
+   "w": [
+    "১৯৯৩",
+    "২০০১",
+    "২০১১"
+   ],
+   "e": "এনসিইআরটি-র মতে ২০০৪ সালের ২৬ ডিসেম্বরের সুনামিতে ইন্দিরা পয়েন্ট ডুবে যায়।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q33",
+   "section": "size",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "এনসিইআরটি-র হিসাবে ১২ নটিক্যাল মাইল প্রায় কত কিমি?",
+   "a": "২১.৯ কিমি",
+   "w": [
+    "১২ কিমি",
+    "৩৭ কিমি",
+    "১৯.২ কিমি"
+   ],
+   "e": "এনসিইআরটি ১২ নটিক্যাল মাইলকে প্রায় ২১.৯ কিমি বলেছে। ১২ কিমি ভুল: নটিক্যাল মাইল সাধারণ কিলোমিটারের চেয়ে লম্বা।",
+   "claims": [
+    "c01",
+    "c10"
+   ]
+  },
+  {
+   "id": "q34",
+   "section": "neighbours",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "উত্তর-পূর্বে ভারতীয় উপমহাদেশের সীমানা কোন পাহাড় দিয়ে চিহ্নিত?",
+   "a": "পূর্বাচল",
+   "w": [
+    "সুলেমান",
+    "হিন্দুকুশ",
+    "বিন্ধ্য"
+   ],
+   "e": "এনসিইআরটি-র মতে উত্তর-পূর্বে পূর্বাচল, উত্তর-পশ্চিমে হিন্দুকুশ ও সুলেমান।",
+   "claims": [
+    "c11"
+   ]
+  },
+  {
+   "id": "q35",
+   "section": "size",
+   "level": "exam",
+   "format": "MATCH",
+   "q": "মান ও তার অর্থ মেলান:\n\nA. উত্তর-দক্ষিণে দূরত্ব\nB. পূর্ব-পশ্চিমে দূরত্ব\nC. মূল ভূখণ্ডের উপকূলরেখা\nD. দ্বীপসহ মোট উপকূলরেখা\n\n১. ২,৯৩৩ কিমি\n২. ৬,১০০ কিমি\n৩. ৩,২১৪ কিমি\n৪. ৭,৫১৭ কিমি",
+   "a": "A-৩, B-১, C-২, D-৪",
+   "w": [
+    "A-১, B-৩, C-২, D-৪",
+    "A-৩, B-১, C-৪, D-২",
+    "A-২, B-৪, C-৩, D-১"
+   ],
+   "e": "উত্তর-দক্ষিণ ৩,২১৪ (৩); পূর্ব-পশ্চিম ২,৯৩৩ (১); মূল ভূখণ্ড ৬,১০০ (২); দ্বীপসহ ৭,৫১৭ (৪)। অন্য বিকল্পে অন্তত একটি জোড় উল্টে গেছে।",
+   "claims": [
+    "c03",
+    "c09"
+   ]
+  },
+  {
+   "id": "q36",
+   "section": "time",
+   "level": "exam",
+   "format": "MATCH",
+   "q": "তথ্য ও মান মেলান:\n\nA. আদর্শ দ্রাঘিমা\nB. IST ও GMT-র ফারাক\nC. রাষ্ট্রসীমা সমুদ্রে\nD. বিশ্বের স্থলভাগে ভারতের ভাগ\n\n১. ২.৪ শতাংশ\n২. ৫ ঘণ্টা ৩০ মিনিট\n৩. ১২ নটিক্যাল মাইল\n৪. ৮২°৩০´ পূর্ব",
+   "a": "A-৪, B-২, C-৩, D-১",
+   "w": [
+    "A-২, B-৪, C-৩, D-১",
+    "A-৪, B-২, C-১, D-৩",
+    "A-৩, B-২, C-৪, D-১"
+   ],
+   "e": "আদর্শ দ্রাঘিমা ৮২°৩০´ (৪); ফারাক ৫:৩০ (২); সমুদ্রসীমা ১২ নটিক্যাল মাইল (৩); স্থলভাগের ২.৪% (১)।",
+   "claims": [
+    "c07",
+    "c01",
+    "c08"
+   ]
+  },
+  {
+   "id": "q37",
+   "section": "admin",
+   "level": "exam",
+   "format": "PAIRS",
+   "q": "নীচের কোন জোড়টি সঠিকভাবে মেলানো?",
+   "a": "লেহ: লাদাখ",
+   "w": [
+    "শিলং: নাগাল্যান্ড",
+    "কাঠমান্ডু: ভুটান",
+    "থিম্পু: নেপাল"
+   ],
+   "e": "লেহ লাদাখের রাজধানী। শিলং মেঘালয়ের, কাঠমান্ডু নেপালের, থিম্পু ভুটানের।",
+   "claims": [
+    "c21",
+    "c20",
+    "c19",
+    "c23"
+   ]
+  },
+  {
+   "id": "q38",
+   "section": "size",
+   "level": "exam",
+   "format": "PAIRS",
+   "q": "নীচের কোন জোড়টি সঠিকভাবে মেলানো নয়?",
+   "a": "এক নটিক্যাল মাইল: প্রায় ১.৬ কিমি",
+   "w": [
+    "এক স্ট্যাটিউট মাইল: প্রায় ১.৬ কিমি",
+    "ভারতের আয়তন: ৩.২৮ মিলিয়ন বর্গ কিমি",
+    "আদর্শ দ্রাঘিমা: ৮২°৩০´ পূর্ব"
+   ],
+   "e": "এক নটিক্যাল মাইল প্রায় ১.৮৫২ কিমি; ১.৬ কিমি হল স্ট্যাটিউট মাইল। বাকি জোড়গুলি এনসিইআরটি-র সঙ্গে মেলে।",
+   "claims": [
+    "c10",
+    "c08",
+    "c07"
+   ]
+  },
+  {
+   "id": "q39",
+   "section": "neighbours",
+   "level": "exam",
+   "format": "ASSERTION_REASON",
+   "q": "**বক্তব্য (A):** অতীতে উত্তরের পর্বতমালা পেরিয়ে প্রতিবেশী অঞ্চলে যাওয়া কঠিন ছিল।\n\n**কারণ (R):** উত্তরের পর্বতমালায় খাইবার, বোলান, শিপকি লা, নাথুলা, বমডিলার মতো মাত্র কয়েকটি গিরিপথ ছিল।",
+   "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "w": [
+    "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+    "A সত্য, কিন্তু R মিথ্যা",
+    "A মিথ্যা, কিন্তু R সত্য"
+   ],
+   "e": "এনসিইআরটি বলে, কয়েকটি গিরিপথ ছাড়া উত্তরের পাহাড় পেরোনো কঠিন ছিল; তাই R-ই A-এর ব্যাখ্যা। (খাইবার ও বোলান আসলে হিমালয়ের পশ্চিমের পাহাড়ে, এখনকার পাকিস্তানে।)",
+   "claims": [
+    "c12"
+   ]
+  },
+  {
+   "id": "q40",
+   "section": "time",
+   "level": "exam",
+   "format": "ASSERTION_REASON",
+   "q": "**বক্তব্য (A):** পূর্বে সূর্য আগে ওঠে, তবু ডিব্রুগড় ও জয়সলমেরের ঘড়ি একই সময় দেখায়।\n\n**কারণ (R):** সারা ভারতে একটিই আদর্শ দ্রাঘিমা (৮২°৩০´ পূর্ব) ব্যবহার করা হয়।",
+   "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "w": [
+    "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+    "A সত্য, কিন্তু R মিথ্যা",
+    "A মিথ্যা, কিন্তু R সত্য"
+   ],
+   "e": "দুটিই সত্য। একটিই আদর্শ দ্রাঘিমার ফলে সারা দেশে একই সময়, তাই R হল A-এর ব্যাখ্যা।",
+   "claims": [
+    "c06",
+    "c07"
+   ]
+  },
+  {
+   "id": "q41",
+   "section": "location",
+   "level": "exam",
+   "format": "STATEMENT",
+   "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. কর্কটক্রান্তি রেখা ভারতের মধ্যভাগ দিয়ে পূর্ব-পশ্চিমে গেছে।\n২. এই রেখার দক্ষিণের ভারতীয় অংশ উপক্রান্তীয় অঞ্চলে পড়ে।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "শুধুমাত্র ১",
+   "w": [
+    "শুধুমাত্র ২",
+    "১ ও ২ উভয়ই",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "১ সঠিক। ২ ভুল, কারণ রেখার দক্ষিণের অংশ ক্রান্তীয়; উত্তরের অংশ উপক্রান্তীয় ও নাতিশীতোষ্ণ।",
+   "claims": [
+    "c15"
+   ]
+  },
+  {
+   "id": "q42",
+   "section": "borders",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "স্থলসীমান্ত বিষয়ে: নীচের কোন দেশটি আমাদের পৃথিবী (অষ্টম শ্রেণি) অনুযায়ী ভারতের প্রতিবেশী?",
+   "a": "মায়ানমার",
+   "w": [
+    "থাইল্যান্ড",
+    "ভিয়েতনাম",
+    "তুরস্ক"
+   ],
+   "e": "আমাদের পৃথিবীর তালিকায় মায়ানমার আছে। বাকি তিনটি দেশের নাম ওই তালিকায় নেই।",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "id": "q43",
+   "section": "borders",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "প্রতিবেশী দেশের সূত্রে: আফগানিস্তান ভারতের কোন আঞ্চলিক সংস্থায় ভারতের সঙ্গে সদস্য?",
+   "a": "সার্ক (SAARC)",
+   "w": [
+    "আসিয়ান (ASEAN)",
+    "ন্যাটো (NATO)",
+    "ওপেক (OPEC)"
+   ],
+   "e": "১৯৮৫-র সার্ক গঠনকারী আটটি দেশের মধ্যে আফগানিস্তান আছে। বাকি সংস্থাগুলি অন্য অঞ্চলের।",
+   "claims": [
+    "c19"
+   ]
+  },
+  {
+   "id": "q44",
+   "section": "states_capitals",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "রাজ্য ও রাজধানী বিষয়ে: নাগাল্যান্ডের কোন শহরের ঘড়ি নতুন দিল্লির সঙ্গে একই সময় দেখায়, বলে এনসিইআরটি-র প্রশ্নে এসেছে?",
+   "a": "কোহিমা",
+   "w": [
+    "শিলং",
+    "ইম্ফল",
+    "আইজল"
+   ],
+   "e": "এনসিইআরটি-র প্রশ্নে নাগাল্যান্ডের কোহিমার কথা আছে। বাকিগুলি অন্য রাজ্যের শহর।",
+   "claims": [
+    "c22"
+   ]
+  },
+  {
+   "id": "q45",
+   "section": "states_capitals",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "কেন্দ্রশাসিত অঞ্চলের রাজধানী বিষয়ে: নীচের কোন শহর এনসিইআরটি-র মতে লাদাখের রাজধানী?",
+   "a": "লেহ",
+   "w": [
+    "কোহিমা",
+    "শিলং",
+    "থিম্পু"
+   ],
+   "e": "এনসিইআরটি লেহকে লাদাখের রাজধানী বলেছে; শিলং মেঘালয়ের, কোহিমা নাগাল্যান্ডের, থিম্পু ভুটানের।",
+   "claims": [
+    "c21",
+    "c20",
+    "c23"
+   ]
+  }
+ ]
+}

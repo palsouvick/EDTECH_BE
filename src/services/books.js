@@ -17,7 +17,12 @@ const { validateChapter, publisherOf } = require('./books.validate');
 
 // BOOKS_DIR lets tests point at a fixture folder.
 const ROOT = process.env.BOOKS_DIR || path.join(__dirname, '../../db/books');
-const BOOKS = Object.freeze({ history: { dir: 'history', topic: 'indian_history', prefix: 'HIS' } });
+const BOOKS = Object.freeze({
+  history: { dir: 'history', topic: 'indian_history', prefix: 'HIS' },
+  geography: { dir: 'geography', topic: 'geography', prefix: 'GEO' },
+});
+/** Any book's chapter code (HIS-02, GEO-03). */
+const CHAPTER_CODE = /^[A-Z]{3}-\d{2}$/;
 
 const questionCode = (chapterCode, qid) => `BK-${chapterCode}-${qid.toUpperCase()}`; // BK-HIS-02-Q01
 const sectionTag = (chapterCode, sectionId) => `book:${chapterCode}:${sectionId}`;
@@ -47,7 +52,9 @@ function loadBook(book, { dir = ROOT, fresh = false } = {}) {
   const key = `${dir}:${book}`;
   if (!fresh && cache.has(key)) return cache.get(key);
   const bookDir = path.join(dir, meta.dir);
-  const toc = require(path.join(bookDir, 'toc.js'));
+  const tocFile = path.join(bookDir, 'toc.js');
+  if (!fs.existsSync(tocFile)) return null;
+  const toc = require(tocFile);
   const chapters = new Map();
   const errors = [];
   // Chapter files only (chNN-*.json); pyq_map.json and pyq_chapters.json are data files.
@@ -63,7 +70,7 @@ function loadBook(book, { dir = ROOT, fresh = false } = {}) {
       errors.push({ file, field: '', code: 'INVALID_JSON', message: e.message });
       continue;
     }
-    const errs = validateChapter(ch);
+    const errs = ch && ch.book !== book ? [{ field: 'book', code: 'WRONG_BOOK', message: `this folder holds the ${book} book` }] : validateChapter(ch);
     if (!toc.CHAPTERS.some((c) => c.code === ch.code)) errs.push({ field: 'code', code: 'NOT_IN_TOC', message: `${ch.code} is not in the table of contents` });
     if (chapters.has(ch.code)) errs.push({ field: 'code', code: 'DUPLICATE_CHAPTER', message: `${ch.code} appears twice` });
     if (errs.length) {
@@ -214,9 +221,10 @@ async function getChapter(book, code, { preview = false } = {}) {
       pyq: summarise(evidence.bySection[s.id]),
       questionCount: ch.questions.filter((q) => q.section === s.id).length,
     })),
-    events: ch.events,
-    people: ch.people,
-    timeline: ch.timeline.map(({ claims, ...t }) => t),
+    events: ch.events || [],
+    people: ch.people || [],
+    timeline: (ch.timeline || []).map(({ claims, ...t }) => t),
+    locate: (ch.locate || []).map(({ claims, ...x }) => x),
     terms: ch.terms,
     causeEffect: ch.cause_effect.map(({ claims, ...x }) => x),
     examFocus: ch.exam_focus.map((x) => ({ ...x, pyq: summarise(evidence.bySection[x.section]) })),
@@ -233,6 +241,7 @@ async function getChapter(book, code, { preview = false } = {}) {
 
 module.exports = {
   BOOKS,
+  CHAPTER_CODE,
   ROOT,
   loadBook,
   getBook,

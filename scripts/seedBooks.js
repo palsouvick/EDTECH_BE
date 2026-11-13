@@ -63,6 +63,7 @@ async function ensureBooks({ dryRun = false, log = console.log } = {}) {
   const stats = { chapters: 0, published: 0, draft: 0, invalid: 0, questions: 0, inserted: 0, updated: 0, retired: 0, protected: 0, clashes: [] };
   for (const name of Object.keys(books.BOOKS)) {
     const book = books.loadBook(name, { fresh: true });
+    if (!book) continue; // a book whose folder is not there yet
     for (const e of book.errors.slice(0, 30)) log(`book ${name}: ${e.file} ${e.field} ${e.code}: ${e.message}`);
     stats.invalid += new Set(book.errors.map((e) => e.file)).size;
     for (const ch of book.chapters.values()) {
@@ -111,7 +112,7 @@ async function ensureBooks({ dryRun = false, log = console.log } = {}) {
 
 /** Changes when any chapter file or PYQ map changes. */
 function booksFingerprint() {
-  return Object.keys(books.BOOKS).map((b) => books.loadBook(b, { fresh: true }).fingerprint).join(':');
+  return Object.keys(books.BOOKS).map((b) => books.loadBook(b, { fresh: true })?.fingerprint ?? 'none').join(':');
 }
 
 module.exports = { ensureBooks, booksFingerprint, questionDoc, AUTHOR };

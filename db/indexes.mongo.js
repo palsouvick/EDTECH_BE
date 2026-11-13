@@ -228,6 +228,13 @@ db.users.createIndex(
 db.practice_attempts.createIndex({ user_id: 1, created_at: -1 }, { name: "user_recent" });
 db.practice_attempts.createIndex({ user_id: 1, subject: 1, topic: 1 }, { name: "user_topic" });
 
+// ----------------------------------------------------------- question_skips
+// Questions left unanswered in Learn quizzes (the Math/English tracker). Mirrors src/models/QuestionSkip.js.
+db.question_skips.createIndex({ user_id: 1, question_id: 1 }, { name: "uniq_user_question", unique: true });
+db.question_skips.createIndex({ user_id: 1, subject: 1, last_skipped_at: -1 }, { name: "user_subject_recent" });
+// Lesson reading and study time per Math/English chapter. Mirrors src/models/ChapterStudy.js.
+db.chapter_study.createIndex({ user_id: 1, subject: 1, topic: 1 }, { name: "uniq_user_chapter", unique: true });
+
 // ----------------------------------------------------------------- gk_facts
 db.gk_facts.createIndex({ code: 1 }, { name: "uniq_gk_fact_code", unique: true });
 // Read & Learn: published facts of a card, by subcategory.

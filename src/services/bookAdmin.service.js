@@ -39,6 +39,7 @@ async function listChapters() {
   const errors = [];
   for (const name of Object.keys(books.BOOKS)) {
     const book = books.loadBook(name, { fresh: true });
+    if (!book) continue; // a book whose folder is not there yet
     errors.push(...book.errors.map((e) => ({ book: name, file: e.file, problem: `${e.field} ${e.code}: ${e.message}` })));
     const counts = await Question.aggregate([
       { $match: { authored_by: 'book_library', code: { $regex: `^BK-${books.BOOKS[name].prefix}-` } } },

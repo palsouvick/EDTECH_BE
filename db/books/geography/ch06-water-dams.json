@@ -1,0 +1,1421 @@
+{
+ "book": "geography",
+ "code": "GEO-06",
+ "number": 6,
+ "part": "india_resources",
+ "title": "জলসম্পদ, বাঁধ ও বহুমুখী নদী পরিকল্পনা",
+ "subtitle": "বাঁধ, প্রকল্প, বৃষ্টির জল সংরক্ষণ ও জলবিবাদ",
+ "subtopics": [
+  "dams_projects"
+ ],
+ "related_facts": [],
+ "prerequisites": [
+  "GEO-03"
+ ],
+ "reading_minutes": {
+  "quick": 8,
+  "standard": 30,
+  "deep": 30
+ },
+ "status": "DRAFT",
+ "verification": {
+  "status": "VERIFIED",
+  "checked_at": "2026-11-13",
+  "notes": "Key check (owner rule 2026-11-13, no word-by-word check): 40/40 keys confirmed against NCERT jess103/kegy103/legy204 and DVC page; fixed: q09 explanation (wrong figure number removed). Dam/project table, Farakka purpose, DVC model and dams, Narmada Bachao Andolan added from standard knowledge (reviewed by the main session, no question depends on them)."
+ },
+ "overview": {
+  "intro": "ভারতের জল কোথায় কীভাবে জমিয়ে রাখা হয়, আর কোন বাঁধ কোন নদীতে, এই প্রশ্ন প্রতিযোগিতামূলক পরীক্ষায় প্রায়ই আসে। এই অধ্যায়ে প্রথমে দেখব ভারতে জলের অভাব কেন হয় আর সেচই কেন সবচেয়ে বড় ভোক্তা। তারপর পড়ব বহুমুখী নদী পরিকল্পনা কী, জওহরলাল নেহরু বাঁধকে কেন \"আধুনিক ভারতের মন্দির\" বলেছিলেন, আর ভাকরা-নাঙ্গাল, হীরাকুদ ও সর্দার সরোবরের মতো প্রকল্প। পশ্চিমবঙ্গের পাঠকের জন্য আলাদা অংশ দামোদর উপত্যকা নিগম নিয়ে। শেষে বড় বাঁধের বিরোধিতা, আন্তঃরাজ্য জলবিবাদ এবং রাজস্থান, শিলং ও মেঘালয়ের বৃষ্টির জল সংরক্ষণের পদ্ধতি। নদীগুলির বর্ণনা GEO-03 অধ্যায়ে আছে।",
+  "you_will_learn": [
+   "ভারতে জলের অভাবের কারণ ও কৃষির ভূমিকা",
+   "বহুমুখী প্রকল্প কী এবং নেহরুর \"আধুনিক ভারতের মন্দির\" উক্তি",
+   "ভাকরা-নাঙ্গাল, হীরাকুদ, সর্দার সরোবর: নদী ও রাজ্য",
+   "দামোদর উপত্যকা নিগম (১৯৪৮) ও মাইথন",
+   "বড় বাঁধের অসুবিধা ও কৃষ্ণা–গোদাবরী বিবাদ",
+   "টাঙ্কা, খাদিন, শিলংয়ে ছাদের জল, মেঘালয়ের বাঁশের নল"
+  ]
+ },
+ "sections": [
+  {
+   "id": "scarcity",
+   "heading": "জলের অভাব ও জল ব্যবস্থাপনার প্রয়োজন",
+   "quick": "পৃথিবীর তিন-চতুর্থাংশ জলে ঢাকা হলেও ব্যবহারযোগ্য মিষ্টি জল সামান্য। ভারতে জলের অভাবের মূল কারণ অতিরিক্ত ব্যবহার ও অসম বণ্টন। সবচেয়ে বেশি জল খরচ হয় সেচে (কৃষিতে প্রায় ৮৯ শতাংশ ভূপৃষ্ঠের জল), তাই জল সঞ্চয় ও বাঁধের কথা ওঠে।",
+   "standard": "জল **নবীকরণযোগ্য সম্পদ (Renewable Resource)**: জলচক্রের মধ্য দিয়ে বৃষ্টি, নদীর প্রবাহ ও ভূগর্ভস্থ জল বারবার ফিরে আসে। তবু অনেক জায়গায় জলের অভাব দেখা দেয়। কারণ কী? এনসিইআরটি বলছে, বৃষ্টির পরিমাণ ঋতু ও বছর ভেদে বদলায় ঠিকই, কিন্তু বেশিরভাগ ক্ষেত্রে জলের অভাব তৈরি হয় **অতিরিক্ত শোষণ, অপচয় এবং বিভিন্ন গোষ্ঠীর মধ্যে জল পাওয়ার অসমতা** থেকে।\n\n**কেন চাহিদা বাড়ছে**\n\n- **জনসংখ্যা ও খাদ্য:** বেশি মানুষের জন্য বেশি খাবার চাই, আর খাবার ফলাতে চাই বেশি জল। শুকনো মরসুমেও চাষ করতে গিয়ে সেচের এলাকা বাড়ানো হচ্ছে। **সেচ-নির্ভর কৃষি সবচেয়ে বেশি জল খায়।** দ্বাদশ শ্রেণির এনসিইআরটি-র হিসাবে ভূপৃষ্ঠের জলের প্রায় ৮৯ শতাংশ এবং ভূগর্ভের জলের প্রায় ৯২ শতাংশ কৃষিতে লাগে; শিল্পে লাগে যথাক্রমে ২ ও ৫ শতাংশ, আর গৃহস্থালিতে ভূপৃষ্ঠের জলের ৯ শতাংশ।\n- **নলকূপ ও পাম্প:** চাষি নিজের জমিতে কুয়ো বা নলকূপ বসায়। এতে ভূগর্ভের জলস্তর নেমে যায়, ফলে জলের জোগান ও খাদ্যনিরাপত্তা দুটোই ঝুঁকিতে পড়ে।\n- **শিল্প ও নগর:** স্বাধীনতার পর শিল্প ও শহর দ্রুত বেড়েছে। কারখানা নিজে প্রচুর জল খায়, আবার চালাতে বিদ্যুৎও লাগে; সেই বিদ্যুতের অনেকটা আসে জলবিদ্যুৎ থেকে। ঘনবসতির শহরেও জল ও বিদ্যুতের চাহিদা বাড়ে।\n\n**জল থাকলেও অভাব:** জল যথেষ্ট থাকলেও তা দূষিত হলে ব্যবহার করা যায় না। গৃহস্থালি ও শিল্পের বর্জ্য, রাসায়নিক, কীটনাশক ও সার জলকে ক্ষতিকর করে তোলে। গ্রামের প্রতিটি ঘরে নলের জল পৌঁছে দেওয়ার জন্য সরকার **জল জীবন মিশন (Jal Jeevan Mission)** চালাচ্ছে; লক্ষ্য, প্রতিদিন জনপ্রতি ৫৫ লিটার নলবাহিত জল। আবার ভূগর্ভের জল রক্ষায় **অটল ভূজল যোজনা (Atal Bhujal Yojana)** চলছে সাতটি রাজ্যের জলসংকটাপন্ন গ্রাম পঞ্চায়েতে: গুজরাট, হরিয়ানা, কর্ণাটক, মধ্যপ্রদেশ, মহারাষ্ট্র, রাজস্থান ও উত্তরপ্রদেশ।\n\n**জলের ব্যবহার কেমন দেখতে পাই:** ভারতের জলসম্পদের বিতরণও অসম। গঙ্গা, ব্রহ্মপুত্র ও বরাক অববাহিকা দেশের মোট আয়তনের প্রায় এক-তৃতীয়াংশ, অথচ ভূপৃষ্ঠের জলের ৬০ শতাংশ এই নদীগুলিতে। দক্ষিণ ভারতের গোদাবরী, কৃষ্ণা ও কাবেরীর জলের বড় অংশ ইতিমধ্যে কাজে লাগানো হয়ে গেছে। (এই নদীগুলির পরিচয় GEO-03 অধ্যায়ে আছে।)\n\nজল ধরে রাখা ও বুদ্ধি করে খরচ করাই এই অধ্যায়ের মূল কথা। দুটি পথ আছে: বড় আকারে নদীতে **বাঁধ দেওয়া** (পরের অংশগুলি) আর ছোট আকারে **বৃষ্টির জল ধরে রাখা** (শেষ অংশ)।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "মনে রাখুন",
+     "body": "জলের অভাবের মূল কারণ (এনসিইআরটি): অতিরিক্ত শোষণ + অতিব্যবহার + অসম বণ্টন। জলের সবচেয়ে বড় ভোক্তা: **কৃষি (সেচ)**।"
+    }
+   ],
+   "claims": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c30",
+    "c31"
+   ]
+  },
+  {
+   "id": "multipurpose",
+   "heading": "বহুমুখী নদী পরিকল্পনা ও \"আধুনিক ভারতের মন্দির\"",
+   "quick": "নদীতে বাঁধ দিয়ে জল আটকে সেচ, বিদ্যুৎ, বন্যা নিয়ন্ত্রণ ইত্যাদি একসঙ্গে পাওয়াকে বহুমুখী নদী পরিকল্পনা বলে। জওহরলাল নেহরু বাঁধকে \"আধুনিক ভারতের মন্দির\" বলেছিলেন। প্রাচীন ভারতেও বাঁধ ও সেচের ব্যবস্থা ছিল।",
+   "standard": "**বাঁধ (Dam)** হল প্রবাহিত জলের পথে একটি প্রতিবন্ধক, যা জলকে আটকায় বা দিক বদলায়, আর প্রায়ই পিছনে একটি **জলাধার (Reservoir)** তৈরি করে। কাঠামো ও উপাদান অনুযায়ী বাঁধ কাঠের, মাটির-পাথরের বাঁধ (Embankment) বা গাঁথনির (Masonry) হতে পারে; উচ্চতা অনুযায়ী নীচু, মাঝারি বা উঁচু বাঁধ; আবার উদ্দেশ্য অনুযায়ীও ভাগ করা হয়।\n\n**প্রাচীন ঐতিহ্য.** ভারতে জল ধরে রাখার চল নতুন নয়। এনসিইআরটি-র তালিকায় আছে: খ্রিস্টপূর্ব প্রথম শতকে এলাহাবাদের কাছে শৃঙ্গভেরপুরে গঙ্গার বন্যার জল নালা দিয়ে ধরে রাখার উন্নত ব্যবস্থা; চন্দ্রগুপ্ত মৌর্যের সময় বাঁধ, হ্রদ ও সেচব্যবস্থা; কলিঙ্গ (ওড়িশা), নাগার্জুনকোণ্ডা (অন্ধ্রপ্রদেশ), বেন্নুর (কর্ণাটক), কোলহাপুর (মহারাষ্ট্র)-এ সেচের চিহ্ন; একাদশ শতকে ভোপাল হ্রদ; আর ত্রয়োদশ-চতুর্দশ শতকে আলাউদ্দিন খলজির তৈরি দিল্লির হাউজ খাস জলাশয়, সিরি দুর্গ এলাকায় জল দেওয়ার জন্য।\n\n**বহুমুখী প্রকল্প কাকে বলে.** আগে বাঁধ হত নদী ও বৃষ্টির জল আটকে পরে জমিতে সেচ দেওয়ার জন্য। আজ বাঁধের কাজ অনেক:\n\n- সেচ\n- বিদ্যুৎ উৎপাদন\n- ঘরোয়া ও শিল্পের জল জোগান\n- বন্যা নিয়ন্ত্রণ\n- বিনোদন\n- অভ্যন্তরীণ নৌচলাচল\n- মাছচাষ\n\nএতগুলি উদ্দেশ্য যখন এক জলাধারের জলে একসঙ্গে মেটানো হয়, তখন তাকে **বহুমুখী প্রকল্প (Multi-purpose Project)** বলে। পশ্চিমবঙ্গ বোর্ডের সপ্তম শ্রেণির *আমাদের পৃথিবী* বইও একই কথা বলে: বহু উদ্দেশ্য সামনে রেখে নদীতে বাঁধ তৈরি হলে তাকে বহুমুখী নদী পরিকল্পনা বলা হয়। বইটির উদাহরণ মিশরের নীলনদের আসোয়ান বাঁধ (বন্যা নিয়ন্ত্রণ ও সেচ), আর আমাদের রাজ্যের মাইথন জলাধার।\n\n**\"আধুনিক ভারতের মন্দির\".** স্বাধীনতার পর বহুমুখী প্রকল্পকে ভাবা হয়েছিল এমন বাহন হিসেবে, যা দেশকে ঔপনিবেশিক অতীতের বাধা পেরিয়ে উন্নয়নের পথে নেবে। জওহরলাল নেহরু সগর্বে বাঁধকে বলেছিলেন **\"আধুনিক ভারতের মন্দির (Temples of Modern India)\"**। কারণ, বাঁধ কৃষি ও গ্রামীণ অর্থনীতির উন্নয়নকে দ্রুত শিল্পায়ন ও শহরের অর্থনীতির বৃদ্ধির সঙ্গে জুড়ে দেবে। দ্বাদশ শ্রেণির এনসিইআরটি জানায়, সেচের উন্নয়নকে পঞ্চবার্ষিক পরিকল্পনায় খুব গুরুত্ব দেওয়া হয় এবং তাই ভাকরা-নাঙ্গাল, হীরাকুদ, দামোদর উপত্যকা, নাগার্জুন সাগর, ইন্দিরা গান্ধি খাল প্রকল্প প্রভৃতি হাতে নেওয়া হয়েছিল।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "পরীক্ষায় যা আসে",
+     "body": "নেহরুর উক্তি: বাঁধ = **\"আধুনিক ভারতের মন্দির\"**। যে প্রকল্পগুলি এনসিইআরটি নাম করেছে: ভাকরা-নাঙ্গাল, হীরাকুদ, দামোদর উপত্যকা, নাগার্জুন সাগর, ইন্দিরা গান্ধি খাল।"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "বাঁধ বনাম জলাধার",
+     "body": "এনসিইআরটি লিখেছে, \"Dam\" শব্দটি দিয়ে অনেক সময় কাঠামো নয়, **জলাধারটিকেই** বোঝানো হয়। প্রশ্নে \"বাঁধ\" ও \"জলাধার\" প্রায় সমার্থকভাবে চলে।"
+    }
+   ],
+   "claims": [
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c29",
+    "c32",
+    "c33"
+   ]
+  },
+  {
+   "id": "projects",
+   "heading": "প্রধান বাঁধ ও প্রকল্প: ভাকরা-নাঙ্গাল, হীরাকুদ, সর্দার সরোবর",
+   "quick": "ভাকরা-নাঙ্গাল শতদ্রু–বিয়াস অববাহিকায় (জলবিদ্যুৎ ও সেচ), হীরাকুদ মহানদী অববাহিকায় (বন্যা নিয়ন্ত্রণ ও জলসংরক্ষণ), সর্দার সরোবর গুজরাটে নর্মদা নদীর উপর। নাগার্জুন সাগর ও ইন্দিরা গান্ধি খালও বহুমুখী প্রকল্পের তালিকায় আছে।",
+   "standard": "পরীক্ষায় বাঁধ-নদী-রাজ্য জোড় মেলানো প্রশ্ন খুব আসে। প্রথমে সেই জোড়গুলি, যা আমাদের উৎসে নিশ্চিত আছে; শেষে এক নজরে সারণি।\n\n**ভাকরা-নাঙ্গাল প্রকল্প (Bhakra-Nangal Project).** এটি **শতদ্রু–বিয়াস অববাহিকায়** অবস্থিত। এনসিইআরটি-র উদাহরণ অনুযায়ী প্রকল্পের জল একসঙ্গে **জলবিদ্যুৎ (hydel power)** উৎপাদন ও **সেচে** লাগে, এটাই বহুমুখী প্রকল্পের চেনা উদাহরণ। একাদশ শ্রেণির বই বলে, শতদ্রু পাঞ্জাবের সমভূমিতে ঢোকার আগে রুপারের কাছে গিরিখাত দিয়ে বেরিয়ে আসে এবং ভাকরা-নাঙ্গাল প্রকল্পের খালব্যবস্থায় জল জোগায়। (শতদ্রুর উৎস ও পথ GEO-03-এ আছে।)\n\n**হীরাকুদ প্রকল্প (Hirakud Project).** এটি **মহানদী অববাহিকায়**। এনসিইআরটি-র ভাষায় হীরাকুদ প্রকল্প **জলসংরক্ষণকে বন্যা নিয়ন্ত্রণের সঙ্গে যুক্ত** করেছে। দশম শ্রেণির বইয়ের চিত্র ৩.২-এ হীরাকুদ বাঁধের ছবি আছে।\n\n**সর্দার সরোবর বাঁধ (Sardar Sarovar Dam).** এটি **গুজরাটে নর্মদা নদীর** উপর তৈরি। এনসিইআরটি এটিকে ভারতের অন্যতম বৃহৎ জলসম্পদ প্রকল্প বলেছে, যা **চারটি রাজ্য**: মহারাষ্ট্র, মধ্যপ্রদেশ, গুজরাট ও রাজস্থান জুড়ে। প্রকল্পের লক্ষ্য খরাপ্রবণ ও মরু অঞ্চলে জল পৌঁছানো:\n\n| রাজ্য | সেচের লক্ষ্য |\n|---|---|\n| গুজরাট | ১৮.৪৫ লক্ষ হেক্টর জমি; ১৫টি জেলার ৩,১১২টি গ্রাম |\n| রাজস্থান | ২,৪৬,০০০ হেক্টর; মরু অঞ্চলের বারমের ও জালোর জেলা |\n| মহারাষ্ট্র | ৩৭,৫০০ হেক্টর; আদিবাসী পাহাড়ি অঞ্চল, লিফট (উত্তোলন) পদ্ধতিতে |\n\nগুজরাটের কমান্ড এলাকার প্রায় ৭৫ শতাংশ খরাপ্রবণ, আর রাজস্থানের পুরো কমান্ড এলাকা খরাপ্রবণ; নিশ্চিত জল পেলে এই এলাকা খরামুক্ত হবে বলে আশা।\n\n**অন্যান্য প্রকল্প.** নাগার্জুন সাগর ও ইন্দিরা গান্ধি খাল প্রকল্পকেও দ্বাদশ শ্রেণির এনসিইআরটি বহুমুখী/সেচ প্রকল্পের তালিকায় রেখেছে। ইন্দিরা গান্ধি খালকে এনসিইআরটি-র দশম শ্রেণির বই \"বারোমাসি (perennial)\" বলেছে এবং জানিয়েছে যে এর জলের কারণে পশ্চিম রাজস্থানে ছাদের জল ধরার চল কমছে। (এই বইগুলিতে নাগার্জুন সাগরের নদী বা রাজ্য লেখা নেই, তাই এখানে দেওয়া হল না।)\n\n**কীভাবে মনে রাখবেন.** তিনটি প্রকল্পকে তিনটি আলাদা \"চাবিশব্দ\" দিয়ে মনে রাখুন। ভাকরা-নাঙ্গাল বললেই মনে আনুন শতদ্রু ও জলবিদ্যুৎ-সেচ; হীরাকুদ বললেই মহানদী ও বন্যা নিয়ন্ত্রণ; সর্দার সরোবর বললেই নর্মদা, গুজরাট ও চার রাজ্য। প্রতিটি নামের সঙ্গে নদী ও রাজ্যের জোড় একবার করে মুখে বলে নিলে বিকল্প-প্রশ্নে ভুল জোড়ের ফাঁদ এড়ানো সহজ হয়। মনে রাখবেন, বাঁধের নাম দিয়ে প্রশ্ন করলে অনেক সময় নদীর নাম নয়, **অববাহিকার** নাম জানতে চাওয়া হয়; তাই ভাকরা-নাঙ্গালের ক্ষেত্রে শতদ্রু ও বিয়াস দুটি নদীই মনে রাখা ভালো।\n\n**ভারতের প্রধান বাঁধ ও নদী প্রকল্প: এক নজরে**\n\n| বাঁধ / প্রকল্প | নদী | রাজ্য |\n|---|---|---|\n| ভাকরা-নাঙ্গাল | শতদ্রু (Sutlej) | হিমাচলপ্রদেশ ও পাঞ্জাব |\n| হিরাকুদ | মহানদী | ওড়িশা (ভারতের দীর্ঘতম মাটির বাঁধগুলির একটি) |\n| সর্দার সরোবর | নর্মদা | গুজরাত |\n| ইন্দিরা সাগর | নর্মদা | মধ্যপ্রদেশ |\n| তেহরি | ভাগীরথী | উত্তরাখণ্ড (ভারতের উচ্চতম বাঁধ) |\n| নাগার্জুন সাগর | কৃষ্ণা | তেলেঙ্গানা ও অন্ধ্রপ্রদেশের সীমানায় |\n| তুঙ্গভদ্রা | তুঙ্গভদ্রা | কর্ণাটক |\n| মেট্টুর | কাবেরী | তামিলনাড়ু |\n| উকাই | তাপি | গুজরাত |\n| ফরাক্কা ব্যারেজ | গঙ্গা | পশ্চিমবঙ্গ |\n\nফরাক্কা ব্যারেজের উদ্দেশ্য: গঙ্গার জলের একাংশ ভাগীরথী-হুগলিতে পাঠিয়ে নদীতে পলি জমা কমানো এবং কলকাতা বন্দরের নাব্যতা বজায় রাখা।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "জোড় মনে রাখুন",
+     "body": "- ভাকরা-নাঙ্গাল: শতদ্রু–বিয়াস অববাহিকা\n- হীরাকুদ: মহানদী অববাহিকা\n- সর্দার সরোবর: নর্মদা, গুজরাট; লাভবান চার রাজ্য: মহারাষ্ট্র, মধ্যপ্রদেশ, গুজরাট, রাজস্থান\n- মাইথন: বরাকর নদী, পশ্চিমবঙ্গ–ঝাড়খণ্ড সীমান্ত"
+    },
+    {
+     "kind": "exam_note",
+     "title": "\"সবচেয়ে বড়/উঁচু বাঁধ\" প্রশ্ন",
+     "body": "উৎস বইগুলিতে কোনও বাঁধকে \"ভারতের সবচেয়ে উঁচু\" বা \"সবচেয়ে লম্বা\" বলা হয়নি, তাই উপরের উৎস-নিশ্চিত পাঠে সেই দাবি করা হয়নি; শেষের সারণির তথ্য আলাদা সাধারণ জ্ঞান হিসেবে দেওয়া। এনসিইআরটি শুধু সর্দার সরোবরকে \"অন্যতম বৃহৎ জলসম্পদ প্রকল্প\" বলেছে।"
+    }
+   ],
+   "claims": [
+    "c09",
+    "c10",
+    "c16",
+    "c17",
+    "c22",
+    "c27",
+    "c29"
+   ]
+  },
+  {
+   "id": "dvc",
+   "heading": "দামোদর উপত্যকা নিগম (DVC) ও পশ্চিমবঙ্গ",
+   "quick": "দামোদর বন্যার জন্য একসময় \"বাংলার দুঃখ\" নামে পরিচিত ছিল। ১৯৪৮ সালের ৭ জুলাই গঠিত দামোদর উপত্যকা নিগম (DVC) ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প; এটি পশ্চিমবঙ্গ ও ঝাড়খণ্ডে কাজ করে। মাইথন বরাকর নদীর বাঁধ।",
+   "standard": "পশ্চিমবঙ্গের পরীক্ষায় এই অংশটি সবচেয়ে গুরুত্বপূর্ণ।\n\n**দামোদর: \"বাংলার দুঃখ\".** দামোদর ছোটনাগপুর মালভূমির পূর্ব প্রান্ত দিয়ে একটি **চ্যুতি উপত্যকা (Rift Valley)** ধরে বয়ে হুগলি নদীতে মিশেছে। **বরাকর** এর প্রধান উপনদী। বর্ষায় প্রায়ই দামোদরে বন্যা হত বলে একে **\"বাংলার দুঃখ (Sorrow of Bengal)\"** বলা হত। দামোদর উপত্যকার লোকগান **ভাদু গানে** এই কষ্টের কথা আছে: বন্যায় দামোদর ফুলে উঠেছে, নৌকো চলে না, তাই গানের মানুষেরা নদীর পায়ে পড়ে বলে, বন্যা একটু কমাও।\n\n**দামোদর উপত্যকা নিগম.** নদীকে বশে আনতেই গড়া হয় **দামোদর উপত্যকা নিগম (Damodar Valley Corporation, DVC)**। নিগমের নিজস্ব ওয়েবসাইট অনুযায়ী এটি **ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প**, প্রতিষ্ঠা **১৯৪৮ সালের ৭ জুলাই**; কাজের এলাকা পশ্চিমবঙ্গ ও ঝাড়খণ্ড। এনসিইআরটি লিখেছে, একসময়ের \"বাংলার দুঃখ\" দামোদরকে এখন এই বহুমুখী প্রকল্প বশে এনেছে। ওয়েবসাইটে DVC-র মাইথন ও পাঞ্চেত বাঁধের উল্লেখ আছে, আর তিলাইয়া বাঁধের জলবিদ্যুৎ কেন্দ্রের কথাও আছে।\n\n**মাইথন.** পশ্চিমবঙ্গ বোর্ডের বই অনুযায়ী মাইথন জলাধারটি **পশ্চিমবঙ্গ ও ঝাড়খণ্ডের সীমান্তে বরাকর নদীতে** তৈরি। বইয়ে বাঁধের কাজ সম্পর্কে বলা হয়েছে, বাঁধ বন্যার বাড়তি জল আটকে রাখে এবং প্রয়োজন মতো ছেড়ে দেয়।\n\nদামোদর উপত্যকা পরিকল্পনা (DVC) গড়া হয়েছে আমেরিকার টেনেসি ভ্যালি অথরিটির (TVA) আদলে। এর প্রধান বাঁধগুলি: তিলাইয়া ও মাইথন (বরাকর নদীতে), কোনার (কোনার নদীতে) এবং পাঞ্চেত (দামোদর নদীতে)।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "bengal",
+     "title": "পশ্চিমবঙ্গের সঙ্গে সংযোগ",
+     "body": "দামোদর → বাংলার দুঃখ → DVC (১৯৪৮, ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প) → মাইথন (বরাকর) ও পাঞ্চেত বাঁধ। কাজের রাজ্য: পশ্চিমবঙ্গ ও ঝাড়খণ্ড।"
+    },
+    {
+     "kind": "exam_note",
+     "title": "পরীক্ষায় যা আসে",
+     "body": "পরীক্ষায় প্রায়ই জিজ্ঞাসা করা হয়: DVC কোন বিদেশি প্রকল্পের আদলে গড়া (উত্তর: আমেরিকার টেনেসি ভ্যালি অথরিটি, TVA), আর DVC-র চারটি প্রধান বাঁধ কোনগুলি (তিলাইয়া, কোনার, মাইথন, পাঞ্চেত)।"
+    }
+   ],
+   "claims": [
+    "c11",
+    "c28",
+    "c33",
+    "c34"
+   ]
+  },
+  {
+   "id": "opposition",
+   "heading": "বড় বাঁধের বিরোধিতা ও আন্তঃরাজ্য জলবিবাদ",
+   "quick": "বড় বাঁধের জন্য নদীর স্বাভাবিক প্রবাহ ও পলির চলাচল ব্যাহত হয়, জলাধারে পলি জমে, বন্যা কমার বদলে বাড়তেও পারে। রাজ্যের মধ্যে নদীর জল নিয়ে বিবাদের একটি উদাহরণ কৃষ্ণা–গোদাবরী।",
+   "standard": "কয়েক দশক ধরে বহুমুখী প্রকল্প ও বড় বাঁধ কঠোর পর্যালোচনা ও বিরোধিতার মুখে পড়েছে। এনসিইআরটি-র দশম শ্রেণির বইয়ে কারণগুলি পাওয়া যায়:\n\n**১. নদীর প্রাকৃতিক ব্যবস্থার ক্ষতি.** নদীতে বাঁধ দিলে স্বাভাবিক প্রবাহ ও পলির চলাচল ব্যাহত হয়। জলাধারের তলায় পলি বেশি জমে, নদীখাত পাথুরে হয়ে যায় এবং জলজ প্রাণীর আবাস খারাপ হয়। বাঁধ নদীকে টুকরো করে দেয়, ফলে জলজ প্রাণীর (বিশেষত ডিম পাড়ার সময়) চলাচল কঠিন হয়। জলাধার বন্যাভূমিতে তৈরি হলে সেখানকার গাছপালা ও মাটি জলের নীচে ডুবে পচে যায়।\n\n**২. বন্যার সমস্যা.** ইংরেজিতে একে **irony** বলা চলে: যে বাঁধ বন্যা ঠেকাতে তৈরি, জলাধারে পলি জমে তার ফলেই কখনও বন্যা হয়েছে। অতিরিক্ত বৃষ্টির সময় বড় বাঁধ বেশিরভাগ ক্ষেত্রে বন্যা আটকাতে ব্যর্থ। বন্যা প্রাণ ও সম্পত্তি নষ্ট করে, মাটিক্ষয় ঘটায়; আবার পলি আটকে যাওয়ায় বন্যাভূমি তার প্রাকৃতিক সার (পলি) হারিয়ে জমির মান খারাপ হয়।\n\n**৩. অন্যান্য ক্ষতি.** এনসিইআরটি লিখেছে, বহুমুখী প্রকল্প ভূমিকম্প ঘটিয়েছে বলে লক্ষ করা গেছে; জলবাহিত রোগ, পোকামাকড় আর অতিরিক্ত জলব্যবহারে দূষণও বেড়েছে। সেচের ফলে চাষিরা বেশি জল লাগে এমন বাণিজ্যিক ফসলের দিকে ঝুঁকেছে, যার ফলে মাটিতে **লবণাক্ততা (Salinisation)** বাড়ে।\n\nনর্মদা বাঁচাও আন্দোলন সর্দার সরোবর বাঁধের বিরুদ্ধে গড়ে ওঠা আন্দোলন; এর পরিচিত নেত্রী মেধা পাটকর। (এনসিইআরটি-র বইগুলিতে এই আন্দোলনের উল্লেখ নেই।) নর্মদা অববাহিকার সর্দার সরোবর যে এনসিইআরটি-র আলোচ্য বৃহৎ প্রকল্প, তা আগের অংশে দেখেছেন।\n\n**আন্তঃরাজ্য জলবিবাদ.** ভারতের সব বড় নদী অববাহিকা এবং কয়েকটি মাঝারি অববাহিকা একাধিক রাজ্যের মধ্য দিয়ে গেছে (কেন্দ্রীয় জল কমিশনের ওয়েবসাইটে \"আন্তঃরাজ্য প্রকৃতির\" বলা হয়েছে), তাই জল ভাগ নিয়ে সংঘাত স্বাভাবিক। এনসিইআরটি-র উদাহরণ **কৃষ্ণা–গোদাবরী বিবাদ**: মহারাষ্ট্র সরকার কোয়নায় বহুমুখী প্রকল্পের জন্য বেশি জল সরাতে চায়। এতে কর্ণাটক ও অন্ধ্রপ্রদেশের নিম্নপ্রবাহে জল কমবে, কৃষি ও শিল্পে বিরূপ প্রভাব পড়বে, তাই দুই রাজ্য আপত্তি তুলেছে।\n\n**পক্ষ ও বিপক্ষ পাশাপাশি.** বাঁধের পক্ষে যুক্তি: খরাপ্রবণ এলাকায় জল পৌঁছানো, বিদ্যুৎ জোগান, বন্যা নিয়ন্ত্রণের চেষ্টা। বিপক্ষে যুক্তি: জলাধারে পলি জমা, নদীর জীববৈচিত্র্যের ক্ষতি, মাটির লবণাক্ততা, বন্যাভূমি সার-পলি না পাওয়া। দুই দিকই এনসিইআরটি-র বইয়ে আছে, আর পরীক্ষায় কোনটি কোন দিকের যুক্তি, সেটাই প্রশ্ন হয়ে আসে।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "exam_note",
+     "title": "সতর্কতা",
+     "body": "এনসিইআরটি নিজে বলেছে, বাঁধের পক্ষে যুক্তি (সেচ, বিদ্যুৎ, বন্যা নিয়ন্ত্রণ) আর বিপক্ষে যুক্তি (পলি জমা, লবণাক্ততা, নদীর প্রবাহে বাধা) দুটোই জানা দরকার। \"কোনটি বাঁধের পক্ষে যুক্তি নয়?\" ধরনের প্রশ্নে বিপক্ষের যুক্তিটিই উত্তর।"
+    }
+   ],
+   "claims": [
+    "c12",
+    "c13",
+    "c14",
+    "c15",
+    "c16",
+    "c18",
+    "c35"
+   ]
+  },
+  {
+   "id": "harvesting",
+   "heading": "বৃষ্টির জল সংরক্ষণ (Rainwater Harvesting)",
+   "quick": "বড় বাঁধের অসুবিধার কারণে বৃষ্টির জল ধরে রাখাকে বিকল্প ভাবা হয়। রাজস্থানে ছাদের জল ধরে মাটির নীচের টাঙ্কায়, মেঘালয়ে শিলংয়ে ছাদের জল ও বাঁশের নলে ফোঁটা সেচ, পশ্চিম হিমালয়ে গুল বা কুল, বাংলায় বন্যার সমভূমিতে প্লাবন খাল।",
+   "standard": "বহুমুখী প্রকল্পের অসুবিধা ও বিরোধিতা বাড়ায় অনেকে মনে করেন, **জল সংরক্ষণ ব্যবস্থা (Water Harvesting)** সামাজিক ও পরিবেশগত দিক থেকে ভালো বিকল্প। প্রাচীন ভারতের মানুষ বৃষ্টির ধরন ও মাটির প্রকৃতি ভালো বুঝত, আর স্থানীয় পরিবেশ ও চাহিদা অনুযায়ী বৃষ্টি, ভূগর্ভ, নদী ও বন্যার জল ধরে রাখার নানা কৌশল গড়েছিল।\n\n**অঞ্চল অনুযায়ী পদ্ধতি**\n\n- **পশ্চিম হিমালয়ের পাহাড়ি অঞ্চল:** চাষের জন্য জল সরানোর নালা, নাম **গুল** বা **কুল (Guls/Kuls)**।\n- **বাংলার বন্যার সমভূমি:** মানুষ জমিতে সেচের জন্য **প্লাবন খাল (Inundation Channel)** বানিয়েছে।\n- **জয়সলমের:** শুষ্ক ও আধা-শুষ্ক এলাকায় চাষের জমিকেই বৃষ্টির জল জমানোর পাত্র বানানো হয়, জল দাঁড়িয়ে থেকে মাটি ভেজায়: এর নাম **খাদিন (Khadin)**। রাজস্থানের অন্য জায়গায় একই ধরনের ব্যবস্থার নাম **জোহাদ (Johad)**।\n- **রাজস্থানের ছাদের জল:** পশ্চিম রাজস্থানের বিকানের, ফলোদি ও বারমেরে প্রায় সব বাড়িতেই মাটির নীচে **টাঙ্কা (Tanka)** থাকত, পানীয় জল জমানোর জন্য।\n\n**টাঙ্কা কীভাবে কাজ করে.** টাঙ্কা বড় ঘরের সমান হতে পারে। ফলোদির একটি বাড়ির টাঙ্কা ৬.১ মিটার গভীর, ৪.২৭ মিটার লম্বা, ২.৪৪ মিটার চওড়া। টাঙ্কা বাড়ির ভিতরে বা উঠোনে থাকে, ঢালু ছাদের সঙ্গে নল দিয়ে যুক্ত। ছাদে পড়া বৃষ্টির জল নল বেয়ে টাঙ্কায় জমে। **প্রথম বৃষ্টির জল জমানো হয় না**, কারণ তা ছাদ ও নল ধুয়ে পরিষ্কার করে দেয়; পরের বৃষ্টির জল জমানো হয়। ওই অঞ্চলে বৃষ্টির জলকে বলে **পালার পানি (Palar Pani)**, যাকে প্রাকৃতিক জলের শুদ্ধতম রূপ মনে করা হয়। টাঙ্কার জল পরের বৃষ্টি পর্যন্ত থাকে, তাই গরমে অন্য সব উৎস শুকোলেও এটি নির্ভরযোগ্য। অনেকে টাঙ্কার পাশে ভূগর্ভের ঘর বানাত, গরমে ঘর ঠান্ডা রাখতে। আজ পশ্চিম রাজস্থানে এই চল কমছে, কারণ বারোমাসি ইন্দিরা গান্ধি খাল থেকে প্রচুর জল মেলে; কিন্তু কিছু বাড়ি টাঙ্কা রেখেছে, কারণ কলের জলের স্বাদ তাদের পছন্দ নয়।\n\n**শিলং, মেঘালয়.** চেরাপুঞ্জি ও মৌসিনরাম শিলং থেকে মাত্র ৫৫ কিমি দূরে এবং পৃথিবীর সবচেয়ে বেশি বৃষ্টি পায়, অথচ রাজ্যের রাজধানী **শিলংয়ে জলের তীব্র অভাব**। তাই শিলংয়ে ছাদের জল ধরার চল সবচেয়ে বেশি; প্রায় প্রতিটি বাড়িতে এই ব্যবস্থা আছে, আর বাড়ির মোট জলের প্রয়োজনের ১৫-২৫ শতাংশ এভাবে মেটে।\n\n**বাঁশের নলে ফোঁটা সেচ (Bamboo Drip Irrigation), মেঘালয়.** মেঘালয়ে প্রায় ২০০ বছরের পুরোনো এক ব্যবস্থায় ঝরনা ও স্রোতের জল বাঁশের নল দিয়ে ধরা হয়। প্রায় ১৮-২০ লিটার জল নলে ঢোকে, শত শত মিটার বয়ে গিয়ে গাছের গোড়ায় পৌঁছতে পৌঁছতে মিনিটে ২০ থেকে ৮০ ফোঁটায় নেমে আসে। পাহাড়ের চূড়ার বারোমাসি ঝরনার জল অভিকর্ষের টানে নীচে আনা হয়।\n\n**আধুনিক রূপ.** দক্ষিণের রাজ্য **তামিলনাড়ু** ভারতে প্রথম, যেখানে সব বাড়িতে ছাদের জল সংরক্ষণ বাধ্যতামূলক; না মানলে শাস্তির আইন আছে। কর্ণাটকের মাইসুরুর **গেন্ডাথুর** গ্রামের প্রায় ২০০টি বাড়িতে ছাদের জল ধরার ব্যবস্থা বসেছে, ফলে গ্রামটি বৃষ্টির জলে সমৃদ্ধ বলে খ্যাতি পেয়েছে।\n\n**বড় বাঁধ ও ছোট জল সংরক্ষণের পার্থক্য.** বাঁধ নদীর জল বড় জলাধারে আটকায় এবং খাল দিয়ে দূরে নিয়ে যায়; বৃষ্টির জল সংরক্ষণে জল সেখানেই ধরা হয়, যেখানে সে পড়ে, ছাদে, জমিতে বা পাহাড়ের ঢালে। তাই প্রথমটিতে পরিবেশের ঝুঁকি বেশি, দ্বিতীয়টি স্থানীয় বুদ্ধি ও স্থানীয় পরিবেশের উপর নির্ভর করে।",
+   "deep": null,
+   "boxes": [
+    {
+     "kind": "remember",
+     "title": "জোড় মেলান",
+     "body": "- টাঙ্কা: বিকানের, ফলোদি, বারমের (রাজস্থান)\n- খাদিন: জয়সলমের; জোহাদ: রাজস্থান\n- গুল/কুল: পশ্চিম হিমালয়\n- ছাদের জল: শিলং (মেঘালয়); বাঁশের নল: মেঘালয়\n- বাধ্যতামূলক ছাদ-সংরক্ষণে প্রথম: তামিলনাড়ু"
+    },
+    {
+     "kind": "dont_confuse",
+     "title": "বিকল্প, না পরিপূরক?",
+     "body": "এনসিইআরটি বলেছে, অনেকে মনে করেন বৃষ্টির জল সংরক্ষণ বড় প্রকল্পের **বিকল্প**। এই মত লেখকদের নয়, \"অনেকের\" মত বলে উদ্ধৃত হয়েছে। পরীক্ষায় এভাবেই প্রশ্ন আসে।"
+    }
+   ],
+   "claims": [
+    "c19",
+    "c20",
+    "c21",
+    "c22",
+    "c23",
+    "c24",
+    "c25",
+    "c26"
+   ]
+  }
+ ],
+ "locate": [
+  {
+   "place": "ভাকরা-নাঙ্গাল প্রকল্প",
+   "where": "শতদ্রু–বিয়াস অববাহিকা",
+   "about": "জলবিদ্যুৎ ও সেচ; শতদ্রু এর খালে জল জোগায়",
+   "section": "projects",
+   "claims": [
+    "c09",
+    "c27"
+   ]
+  },
+  {
+   "place": "হীরাকুদ প্রকল্প",
+   "where": "মহানদী অববাহিকা",
+   "about": "জলসংরক্ষণ ও বন্যা নিয়ন্ত্রণ একসঙ্গে",
+   "section": "projects",
+   "claims": [
+    "c10"
+   ]
+  },
+  {
+   "place": "সর্দার সরোবর বাঁধ",
+   "where": "নর্মদা নদী, গুজরাট",
+   "about": "চার রাজ্যের প্রকল্প; বারমের-জালোর পর্যন্ত জল",
+   "section": "projects",
+   "claims": [
+    "c16",
+    "c17"
+   ]
+  },
+  {
+   "place": "দামোদর উপত্যকা নিগম (DVC)",
+   "where": "পশ্চিমবঙ্গ ও ঝাড়খণ্ড",
+   "about": "১৯৪৮, ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প",
+   "section": "dvc",
+   "claims": [
+    "c34",
+    "c28"
+   ]
+  },
+  {
+   "place": "মাইথন জলাধার",
+   "where": "বরাকর নদী; পশ্চিমবঙ্গ–ঝাড়খণ্ড সীমান্ত",
+   "about": "DVC-র বাঁধ; বন্যার জল ধরে রাখে",
+   "section": "dvc",
+   "claims": [
+    "c33",
+    "c34"
+   ]
+  },
+  {
+   "place": "পাঞ্চেত বাঁধ",
+   "where": "DVC এলাকা (পশ্চিমবঙ্গ–ঝাড়খণ্ড)",
+   "about": "DVC-র ওয়েবসাইটে উল্লিখিত বাঁধ",
+   "section": "dvc",
+   "claims": [
+    "c34"
+   ]
+  },
+  {
+   "place": "কোয়না",
+   "where": "মহারাষ্ট্র",
+   "about": "কৃষ্ণা–গোদাবরী বিবাদের কেন্দ্র: বেশি জল সরানো",
+   "section": "opposition",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "place": "বিকানের, ফলোদি, বারমের",
+   "where": "পশ্চিম রাজস্থান",
+   "about": "বাড়ির নীচে টাঙ্কা (ছাদের জল)",
+   "section": "harvesting",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "place": "জয়সলমের",
+   "where": "রাজস্থান",
+   "about": "খাদিন (জমিতেই বৃষ্টির জল জমানো)",
+   "section": "harvesting",
+   "claims": [
+    "c19"
+   ]
+  },
+  {
+   "place": "শিলং",
+   "where": "মেঘালয়",
+   "about": "ছাদের জল ধরার চল সবচেয়ে বেশি; চেরাপুঞ্জি ৫৫ কিমি দূরে",
+   "section": "harvesting",
+   "claims": [
+    "c23"
+   ]
+  },
+  {
+   "place": "গেন্ডাথুর গ্রাম",
+   "where": "মাইসুরু, কর্ণাটক",
+   "about": "প্রায় ২০০ বাড়িতে ছাদের জল সংরক্ষণ",
+   "section": "harvesting",
+   "claims": [
+    "c25"
+   ]
+  },
+  {
+   "place": "শৃঙ্গভেরপুর",
+   "where": "এলাহাবাদের কাছে",
+   "about": "খ্রিস্টপূর্ব প্রথম শতকে গঙ্গার বন্যার জল ধরার ব্যবস্থা",
+   "section": "multipurpose",
+   "claims": [
+    "c05"
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "term": "বহুমুখী প্রকল্প (Multi-purpose Project)",
+   "meaning": "একই বাঁধ ও জলাধারের জল দিয়ে সেচ, বিদ্যুৎ, বন্যা নিয়ন্ত্রণ ইত্যাদি একসঙ্গে মেটানো।",
+   "section": "multipurpose"
+  },
+  {
+   "term": "জলাধার (Reservoir)",
+   "meaning": "বাঁধের পিছনে আটকানো জলের হ্রদ।",
+   "section": "multipurpose"
+  },
+  {
+   "term": "জলবিদ্যুৎ (Hydel Power)",
+   "meaning": "বাঁধের জলের শক্তিতে তৈরি বিদ্যুৎ।",
+   "section": "projects"
+  },
+  {
+   "term": "কমান্ড এলাকা (Command Area)",
+   "meaning": "যে এলাকায় প্রকল্পের জল সেচে পৌঁছায়।",
+   "section": "projects"
+  },
+  {
+   "term": "টাঙ্কা (Tanka)",
+   "meaning": "ছাদের বৃষ্টির জল জমানোর মাটির নীচের চৌবাচ্চা (রাজস্থান)।",
+   "section": "harvesting"
+  },
+  {
+   "term": "খাদিন (Khadin)",
+   "meaning": "চাষের জমিকে বৃষ্টির জল দাঁড় করানোর পাত্রে পরিণত করার ব্যবস্থা (জয়সলমের)।",
+   "section": "harvesting"
+  },
+  {
+   "term": "গুল/কুল (Guls/Kuls)",
+   "meaning": "পশ্চিম হিমালয়ের পাহাড়ি অঞ্চলে জল সরানোর নালা।",
+   "section": "harvesting"
+  },
+  {
+   "term": "লবণাক্ততা (Salinisation)",
+   "meaning": "সেচের ফলে মাটিতে লবণ জমে যাওয়া।",
+   "section": "opposition"
+  }
+ ],
+ "cause_effect": [
+  {
+   "title": "বাঁধ কেন বন্যা বাড়াতেও পারে",
+   "causes": [
+    "নদীর স্বাভাবিক প্রবাহ ও পলির চলাচল আটকে যায়",
+    "জলাধারের তলায় পলি জমে"
+   ],
+   "event": "বন্যা ঠেকাতে তৈরি বাঁধেই পলি জমা বাড়ে",
+   "results": [
+    "জলাধার কিছু ক্ষেত্রে নতুন বন্যা ঘটায়",
+    "অতিরিক্ত বৃষ্টিতে বড় বাঁধ বেশিরভাগ ক্ষেত্রে বন্যা আটকাতে পারে না",
+    "বন্যাভূমি পলি (প্রাকৃতিক সার) থেকে বঞ্চিত হয়"
+   ],
+   "section": "opposition",
+   "claims": [
+    "c12",
+    "c13",
+    "c14"
+   ]
+  },
+  {
+   "title": "শিলংয়ে ছাদের জল সংরক্ষণ কেন জরুরি",
+   "causes": [
+    "চেরাপুঞ্জি-মৌসিনরাম কাছে থেকেও শিলংয়ে জলের তীব্র অভাব"
+   ],
+   "event": "প্রায় প্রতিটি বাড়িতে ছাদের বৃষ্টির জল ধরার ব্যবস্থা",
+   "results": [
+    "বাড়ির জলের ১৫-২৫ শতাংশ এভাবে মেটে"
+   ],
+   "section": "harvesting",
+   "claims": [
+    "c23"
+   ]
+  }
+ ],
+ "exam_focus": [
+  {
+   "point": "বাঁধ–নদী/অববাহিকা: ভাকরা-নাঙ্গাল (শতদ্রু–বিয়াস), হীরাকুদ (মহানদী), সর্দার সরোবর (নর্মদা, গুজরাট), মাইথন (বরাকর)",
+   "section": "projects"
+  },
+  {
+   "point": "নেহরু: বাঁধ = আধুনিক ভারতের মন্দির; বহুমুখী প্রকল্পের কাজের তালিকা",
+   "section": "multipurpose"
+  },
+  {
+   "point": "দামোদর = বাংলার দুঃখ; DVC ১৯৪৮, ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প, পশ্চিমবঙ্গ ও ঝাড়খণ্ড",
+   "section": "dvc"
+  },
+  {
+   "point": "বড় বাঁধের বিরুদ্ধে যুক্তি: পলি, প্রবাহ ব্যাহত, লবণাক্ততা; কৃষ্ণা–গোদাবরী বিবাদ (কোয়না)",
+   "section": "opposition"
+  },
+  {
+   "point": "বৃষ্টির জল: টাঙ্কা (রাজস্থান), শিলংয়ে ছাদ, মেঘালয়ে বাঁশের নল, তামিলনাড়ু প্রথম বাধ্যতামূলক",
+   "section": "harvesting"
+  }
+ ],
+ "bengal_connection": {
+  "body": "পশ্চিমবঙ্গের সঙ্গে এই অধ্যায়ের প্রধান যোগ **দামোদর ও DVC**।\n\n- দামোদর একসময় বন্যার জন্য **\"বাংলার দুঃখ\"** নামে পরিচিত ছিল এবং হুগলি নদীতে মিশেছে।\n- **দামোদর উপত্যকা নিগম** ১৯৪৮ সালে গঠিত, ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প; কাজের এলাকা পশ্চিমবঙ্গ ও ঝাড়খণ্ড।\n- **মাইথন জলাধার** বরাকর নদীতে পশ্চিমবঙ্গ–ঝাড়খণ্ড সীমান্তে (WBBSE সপ্তম শ্রেণির বইয়ে আছে)।\n- বাংলার বন্যার সমভূমিতে মানুষ সেচের জন্য **প্লাবন খাল** বানিয়েছিল।\n\nগঙ্গার উপর ফরাক্কা ব্যারেজ পশ্চিমবঙ্গে; এর উদ্দেশ্য গঙ্গার জলের একাংশ ভাগীরথী-হুগলিতে পাঠিয়ে পলি জমা কমানো ও কলকাতা বন্দরের নাব্যতা বজায় রাখা (সাধারণ জ্ঞান)।",
+  "claims": [
+   "c11",
+   "c19",
+   "c28",
+   "c33",
+   "c34"
+  ]
+ },
+ "quick_revision": [
+  "জলের অভাবের মূল কারণ: অতিরিক্ত শোষণ, অতিব্যবহার ও অসম বণ্টন; সবচেয়ে বড় ভোক্তা কৃষি (সেচ)।",
+  "বহুমুখী প্রকল্প: এক বাঁধের জলে সেচ, বিদ্যুৎ, বন্যা নিয়ন্ত্রণ, নৌচলাচল, মাছচাষ ইত্যাদি।",
+  "নেহরু বাঁধকে বলেছিলেন \"আধুনিক ভারতের মন্দির\"।",
+  "ভাকরা-নাঙ্গাল: শতদ্রু–বিয়াস অববাহিকা, জলবিদ্যুৎ ও সেচ।",
+  "হীরাকুদ: মহানদী অববাহিকা, বন্যা নিয়ন্ত্রণ ও জলসংরক্ষণ।",
+  "সর্দার সরোবর: গুজরাটে নর্মদা নদীতে; চার রাজ্য: মহারাষ্ট্র, মধ্যপ্রদেশ, গুজরাট, রাজস্থান।",
+  "DVC: ৭ জুলাই ১৯৪৮, ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প; পশ্চিমবঙ্গ ও ঝাড়খণ্ড।",
+  "দামোদর = বাংলার দুঃখ; মাইথন বাঁধ বরাকর নদীতে।",
+  "বড় বাঁধের অসুবিধা: পলি জমা, প্রবাহ ব্যাহত, বন্যা, লবণাক্ততা।",
+  "কৃষ্ণা–গোদাবরী বিবাদ: কোয়নায় মহারাষ্ট্রের বেশি জল সরানো; আপত্তি কর্ণাটক ও অন্ধ্রপ্রদেশের।",
+  "টাঙ্কা: বিকানের, ফলোদি, বারমের; প্রথম বৃষ্টির জল জমানো হয় না।",
+  "শিলংয়ে ছাদের জল সংরক্ষণ; মেঘালয়ে ২০০ বছরের পুরোনো বাঁশের নলে ফোঁটা সেচ।",
+  "তামিলনাড়ু ভারতে প্রথম ছাদের জল সংরক্ষণ বাধ্যতামূলক করেছে।"
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Contemporary India II (Class X), Chapter 3: Water Resources",
+   "class": "X",
+   "url": "https://ncert.nic.in/textbook/pdf/jess103.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "title": "India: Physical Environment (Class XI), Chapter 3: Drainage System",
+   "class": "XI",
+   "url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "title": "India: People and Economy (Class XII), Chapter 4: Water Resources",
+   "class": "XII",
+   "url": "https://ncert.nic.in/textbook/pdf/legy204.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "title": "আমাদের পৃথিবী, সপ্তম শ্রেণি (WBBSE), বহুমুখী নদী পরিকল্পনা অংশ",
+   "class": "VII",
+   "url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/Amader%20Prithibi%20Class%20VII.pdf",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "title": "Damodar Valley Corporation (official website, home page)",
+   "class": "GOVT",
+   "url": "https://www.dvc.gov.in/",
+   "accessed_at": "2026-11-13"
+  },
+  {
+   "id": "s6",
+   "title": "Central Water Commission (official website, home page)",
+   "class": "GOVT",
+   "url": "https://cwc.gov.in/",
+   "accessed_at": "2026-11-13"
+  }
+ ],
+ "claims": [
+  {
+   "id": "c01",
+   "claim": "Water scarcity in most cases is caused by over-exploitation, excessive use and unequal access to water among social groups; availability also varies with seasonal and annual precipitation.",
+   "source": "s1",
+   "page": "pp. 19-20",
+   "quote": "water scarcity in most cases is caused by over-exploitation, excessive use and unequal access to water among different social groups."
+  },
+  {
+   "id": "c02",
+   "claim": "Irrigated agriculture is the largest consumer of water; private wells and tube-wells lower groundwater levels.",
+   "source": "s1",
+   "page": "p. 20",
+   "quote": "Irrigated agriculture is the largest consumer of water."
+  },
+  {
+   "id": "c03",
+   "claim": "Water can be unusable because of pollution from domestic and industrial wastes, chemicals, pesticides and fertilisers; Jal Jeevan Mission aims at 55 litres per capita per day of piped water for rural households.",
+   "source": "s1",
+   "page": "p. 21",
+   "quote": "much of it may be polluted by domestic and industrial wastes, chemicals, pesticides and fertilisers used in agriculture"
+  },
+  {
+   "id": "c04",
+   "claim": "Atal Bhujal Yojana (Atal Jal) is implemented in water-stressed Gram Panchayats of 80 districts in seven states: Gujarat, Haryana, Karnataka, Madhya Pradesh, Maharashtra, Rajasthan and Uttar Pradesh.",
+   "source": "s1",
+   "page": "p. 21",
+   "quote": "Atal Bhujal Yojana (Atal Jal) is being implemented in 8220 water stressed Gram Panchayats of 229 administrative blocks/ talukas in 80 districts of seven states"
+  },
+  {
+   "id": "c05",
+   "claim": "Ancient India had hydraulic structures: Sringaverapura (near Allahabad) flood-water harvesting in the first century BC; dams and irrigation works under Chandragupta Maurya; Bhopal Lake in the 11th century; the Hauz Khas tank by Allauddin Khilji in the 13th-14th century.",
+   "source": "s1",
+   "page": "pp. 21-22",
+   "quote": "In the first century B.C., Sringaverapura near Allahabad had sophisticated water harvesting system channelling the flood water of the river Ganga."
+  },
+  {
+   "id": "c06",
+   "claim": "A dam is a barrier across flowing water, often creating a reservoir; dams are classified by structure, purpose or height.",
+   "source": "s1",
+   "page": "p. 22",
+   "quote": "A dam is a barrier across flowing water that obstructs, directs or retards the flow, often creating a reservoir, lake or impoundment."
+  },
+  {
+   "id": "c07",
+   "claim": "Jawaharlal Nehru called dams the 'temples of modern India' because they would integrate agriculture and the village economy with industrialisation and the urban economy; multi-purpose projects were launched after Independence.",
+   "source": "s1",
+   "page": "p. 22",
+   "quote": "Jawaharlal Nehru proudly proclaimed the dams as the 'temples of modern India'"
+  },
+  {
+   "id": "c08",
+   "claim": "Dams are now built for irrigation, electricity, water supply, flood control, recreation, inland navigation and fish breeding, hence called multi-purpose projects.",
+   "source": "s1",
+   "page": "p. 22",
+   "quote": "Hence, dams are now referred to as multi-purpose projects where the many uses of the impounded water are integrated with one another."
+  },
+  {
+   "id": "c09",
+   "claim": "In the Sutluj-Beas basin the Bhakra-Nangal project water is used for both hydel power and irrigation.",
+   "source": "s1",
+   "page": "p. 22",
+   "quote": "in the Sutluj-Beas river basin, the Bhakra - Nangal project water is being used both for hydel power production and irrigation."
+  },
+  {
+   "id": "c10",
+   "claim": "The Hirakud project in the Mahanadi basin integrates conservation of water with flood control.",
+   "source": "s1",
+   "page": "p. 22",
+   "quote": "the Hirakud project in the Mahanadi basin integrates conservation of water with flood control."
+  },
+  {
+   "id": "c11",
+   "claim": "The Damodar is known as the river of sorrow because of floods; the Bhadu song of the Damodar valley tells of the troubles.",
+   "source": "s1",
+   "page": "p. 22",
+   "quote": "flooding of Damodar river known as the river of sorrow."
+  },
+  {
+   "id": "c12",
+   "claim": "Large dams face opposition: damming affects natural flow, causes sedimentation, harms aquatic life and fragments rivers; reservoirs submerge vegetation and soil.",
+   "source": "s1",
+   "page": "p. 23",
+   "quote": "multi-purpose projects and large dams have come under great scrutiny and opposition for a variety of reasons."
+  },
+  {
+   "id": "c13",
+   "claim": "Dams built to control floods have triggered floods through sedimentation, and big dams have mostly been unsuccessful in controlling floods at the time of excessive rainfall.",
+   "source": "s1",
+   "page": "p. 23",
+   "quote": "the dams that were constructed to control floods have triggered floods due to sedimentation in the reservoir."
+  },
+  {
+   "id": "c14",
+   "claim": "Sedimentation deprives flood plains of silt, a natural fertiliser; multi-purpose projects induced earthquakes, water-borne diseases, pests and pollution.",
+   "source": "s1",
+   "page": "p. 23",
+   "quote": "the flood plains were deprived of silt, a natural fertiliser, further adding on to the problem of land degradation."
+  },
+  {
+   "id": "c15",
+   "claim": "Irrigation changed cropping patterns toward water-intensive and commercial crops, causing ecological problems such as salinisation of soil.",
+   "source": "s1",
+   "page": "p. 23",
+   "quote": "Irrigation has also changed the cropping pattern of many regions with farmers shifting to water intensive and commercial crops."
+  },
+  {
+   "id": "c16",
+   "claim": "Sardar Sarovar Dam is built on the Narmada River in Gujarat; one of the largest water resource projects of India covering four states: Maharashtra, Madhya Pradesh, Gujarat and Rajasthan.",
+   "source": "s1",
+   "page": "p. 23",
+   "quote": "Sardar Sarovar Dam has been built over the Narmada River in Gujarat."
+  },
+  {
+   "id": "c17",
+   "claim": "Sardar Sarovar will irrigate 18.45 lakh hectare covering 3112 villages in 15 districts of Gujarat, 2,46,000 hectare in the desert districts of Barmer and Jalore in Rajasthan, and 37,500 hectare in the tribal hilly tract of Maharashtra through lift.",
+   "source": "s1",
+   "page": "p. 23",
+   "quote": "Sardar Sarovar project will provide irrigation facilities to 18.45 lakh hectare of land, covering 3112 villages in 15 districts of Gujarat."
+  },
+  {
+   "id": "c18",
+   "claim": "The Krishna-Godavari dispute is due to objections by Karnataka and Andhra Pradesh to Maharashtra diverting more water at Koyna for a multipurpose project.",
+   "source": "s1",
+   "page": "p. 23",
+   "quote": "the Krishna-Godavari dispute is due to the objections raised by Karnataka and Andhra Pradesh governments. It is regarding the diversion of more water at Koyna by the Maharashtra government"
+  },
+  {
+   "id": "c19",
+   "claim": "Rainwater harvesting was seen as an alternative to multipurpose projects; traditional methods include guls/kuls in the Western Himalayas, rooftop harvesting in Rajasthan, inundation channels in the flood plains of Bengal, khadins in Jaisalmer and johads in Rajasthan.",
+   "source": "s1",
+   "page": "p. 25",
+   "quote": "In hill and mountainous regions, people built diversion channels like the 'guls' or 'kuls' of the Western Himalayas for agriculture."
+  },
+  {
+   "id": "c20",
+   "claim": "In Bikaner, Phalodi and Barmer almost all houses traditionally had underground tanks (tankas) for storing drinking water.",
+   "source": "s1",
+   "page": "p. 25",
+   "quote": "almost all the houses traditionally had underground tanks or tankas for storing drinking water."
+  },
+  {
+   "id": "c21",
+   "claim": "Rooftop rain flows through a pipe into an underground tanka; the first spell of rain is not collected so that roofs and pipes are cleaned.",
+   "source": "s1",
+   "page": "p. 26",
+   "quote": "The first spell of rain was usually not collected as this would clean the roofs and the pipes."
+  },
+  {
+   "id": "c22",
+   "claim": "Rainwater (palar pani) in tankas is a reliable drinking-water source in summer; the practice is declining in western Rajasthan because of the perennial Indira Gandhi Canal.",
+   "source": "s1",
+   "page": "p. 26",
+   "quote": "the practice of rooftop rainwater harvesting is on the decline as plenty of water is available due to the perennial Indira Gandhi Canal"
+  },
+  {
+   "id": "c23",
+   "claim": "Rooftop rainwater harvesting is most common in Shillong, Meghalaya; Cherrapunjee and Mawsynram, 55 km away, get the highest rainfall yet Shillong faces acute water shortage; 15-25 per cent of household water comes from rooftop harvesting.",
+   "source": "s1",
+   "page": "p. 27",
+   "quote": "Rooftop rainwater harvesting is the most common practice in Shillong, Meghalaya."
+  },
+  {
+   "id": "c24",
+   "claim": "Tamil Nadu is the first state to make rooftop rainwater harvesting compulsory for all houses.",
+   "source": "s1",
+   "page": "p. 27",
+   "quote": "Tamil Nadu is the first state in India which has made rooftop rainwater harvesting structure compulsory to all the houses across the state."
+  },
+  {
+   "id": "c25",
+   "claim": "Gendathur, a village in Mysuru, Karnataka, has about 200 households with rooftop rainwater harvesting.",
+   "source": "s1",
+   "page": "p. 27",
+   "quote": "In Gendathur, a remote backward village in Mysuru, Karnataka, villagers have installed, in their household's rooftop, rainwater harvesting system"
+  },
+  {
+   "id": "c26",
+   "claim": "In Meghalaya a 200-year-old system uses bamboo pipes to tap stream and spring water; water reaches the plant at 20-80 drops per minute.",
+   "source": "s1",
+   "page": "p. 28",
+   "quote": "In Meghalaya, a 200-year-old system of tapping stream and spring water by using bamboo pipes, is prevalent."
+  },
+  {
+   "id": "c27",
+   "claim": "The Satluj feeds the canal system of the Bhakra Nangal project; it comes out of a gorge at Rupar and enters the Punjab plains.",
+   "source": "s2",
+   "page": "p. 21",
+   "quote": "It is a very important tributary as it feeds the canal system of the Bhakra Nangal project."
+  },
+  {
+   "id": "c28",
+   "claim": "The Damodar flows through a rift valley on the eastern margin of the Chotanagpur Plateau and joins the Hugli; the Barakar is its main tributary; once the 'sorrow of Bengal', it has been tamed by the Damodar Valley Corporation, a multipurpose project.",
+   "source": "s2",
+   "page": "p. 22",
+   "quote": "Once known as the 'sorrow of Bengal', the Damodar has been now tamed by the Damodar Valley corporation, a multipurpose project."
+  },
+  {
+   "id": "c29",
+   "claim": "Multipurpose river valley projects such as Bhakra-Nangal, Hirakud, Damodar Valley, Nagarjuna Sagar and Indira Gandhi Canal Project were taken up to develop irrigation.",
+   "source": "s3",
+   "page": "p. 42",
+   "quote": "multipurpose river valleys projects, like the Bhakra-Nangal, Hirakud, Damodar Valley, Nagarjuna Sagar, Indira Gandhi Canal Project, etc., have been taken up."
+  },
+  {
+   "id": "c30",
+   "claim": "Agriculture accounts for 89 per cent of surface water and 92 per cent of groundwater utilisation; industry 2 and 5 per cent; domestic 9 per cent of surface water.",
+   "source": "s3",
+   "page": "p. 42",
+   "quote": "it accounts for 89 per cent of the surface water and 92 per cent of the groundwater utilisation."
+  },
+  {
+   "id": "c31",
+   "claim": "The Ganga, Brahmaputra and Barak basins cover about one-third of India's area but have 60 per cent of surface water resources; south Indian rivers (Godavari, Krishna, Kaveri) are largely harnessed.",
+   "source": "s3",
+   "page": "p. 42",
+   "quote": "have 60 per cent of the total surface water resources."
+  },
+  {
+   "id": "c32",
+   "claim": "When a river is dammed for many purposes together it is called a multipurpose river project (WBBSE); its example is the Aswan dam on the Nile in Egypt.",
+   "source": "s4",
+   "page": "p. 124 (printed 114)",
+   "quote": "যখন বহু উদ্দেশ্যকে সামনে রেখে নদীতে বাঁধ তৈরি করা হয় তখন তাকে বলে বহুমুখী নদী পরিকল্পনা।"
+  },
+  {
+   "id": "c33",
+   "claim": "Maithon reservoir (dam) is on the Barakar river on the West Bengal-Jharkhand border; dams hold flood water and release it as needed (WBBSE).",
+   "source": "s4",
+   "page": "p. 124 (printed 114)",
+   "quote": "রাজর্ষি মাইথন জলাধার (Dam) দেখেছে। পশ্চিমবঙ্গ ও ঝাড়খণ্ড সীমান্তে বরাকর নদীতে বাঁধ তৈরি করা হয়েছে।"
+  },
+  {
+   "id": "c34",
+   "claim": "Damodar Valley Corporation was established on 7 July 1948 as India's first multipurpose river valley project; it operates in West Bengal and Jharkhand; its site mentions the Maithon and Panchet dams and the Tilaiya hydro power station.",
+   "source": "s5",
+   "page": "home page",
+   "quote": "दामोदर घाटी निगम (DVC) भारत की पहली बहुउद्देशीय नदी घाटी परियोजना है, जिसकी स्थापना 7 जुलाई 1948 को हुई थी।"
+  },
+  {
+   "id": "c35",
+   "claim": "Central Water Commission page: all the major river basins and some of the medium river basins are of inter-state nature (water disputes resolution).",
+   "source": "s6",
+   "page": "home page",
+   "quote": "All the major river basins and some among the medium river basins"
+  }
+ ],
+ "questions": [
+  {
+   "id": "q01",
+   "section": "scarcity",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতে জলসম্পদ ও জলের অভাব সম্পর্কে এনসিইআরটি অনুযায়ী, বেশিরভাগ ক্ষেত্রে জলের অভাবের মূল কারণ কোনটি?",
+   "a": "অতিরিক্ত শোষণ ও জলের অসম বণ্টন",
+   "w": [
+    "পৃথিবীর মোট জলের পরিমাণ কমে যাওয়া",
+    "জলচক্র বন্ধ হয়ে যাওয়া",
+    "সমুদ্রের জল আর বাষ্প না হওয়া"
+   ],
+   "e": "এনসিইআরটি-র মতে জল নবীকরণযোগ্য, জলচক্র চালু আছে; অভাব মূলত অতিরিক্ত শোষণ, অতিব্যবহার ও গোষ্ঠীভেদে অসম প্রাপ্তি থেকে। বাকি তিনটি কারণ বইয়ে নেই।",
+   "claims": [
+    "c01"
+   ]
+  },
+  {
+   "id": "q02",
+   "section": "multipurpose",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের বহুমুখী নদী পরিকল্পনা প্রসঙ্গে জওহরলাল নেহরু বাঁধকে কী বলে অভিহিত করেছিলেন?",
+   "a": "আধুনিক ভারতের মন্দির",
+   "w": [
+    "আধুনিক ভারতের দুর্গ",
+    "নতুন ভারতের তোরণ",
+    "উন্নয়নের স্তম্ভ"
+   ],
+   "e": "এনসিইআরটি-র দশম শ্রেণির বই অনুযায়ী নেহরু বাঁধকে 'temples of modern India' বলেছিলেন। অন্য তিনটি নাম বইয়ে নেই।",
+   "claims": [
+    "c07"
+   ]
+  },
+  {
+   "id": "q03",
+   "section": "projects",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভাকরা-নাঙ্গাল বহুমুখী প্রকল্পটি কোন অববাহিকায় অবস্থিত?",
+   "a": "শতদ্রু–বিয়াস অববাহিকা",
+   "w": [
+    "মহানদী অববাহিকা",
+    "নর্মদা অববাহিকা",
+    "দামোদর অববাহিকা"
+   ],
+   "e": "এনসিইআরটি বলেছে ভাকরা-নাঙ্গাল শতদ্রু–বিয়াস অববাহিকায়। মহানদী অববাহিকায় আছে হীরাকুদ, নর্মদায় সর্দার সরোবর।",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "id": "q04",
+   "section": "projects",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "হীরাকুদ প্রকল্পটি ভারতের কোন নদীর অববাহিকায় অবস্থিত?",
+   "a": "মহানদী",
+   "w": [
+    "শতদ্রু",
+    "নর্মদা",
+    "গঙ্গা"
+   ],
+   "e": "এনসিইআরটি অনুযায়ী হীরাকুদ প্রকল্প মহানদী অববাহিকায়। শতদ্রু ভাকরা-নাঙ্গালের নদী, নর্মদা সর্দার সরোবরের।",
+   "claims": [
+    "c10"
+   ]
+  },
+  {
+   "id": "q05",
+   "section": "projects",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "সর্দার সরোবর বাঁধ ভারতের কোন নদীর উপর তৈরি হয়েছে?",
+   "a": "নর্মদা",
+   "w": [
+    "মহানদী",
+    "শতদ্রু",
+    "দামোদর"
+   ],
+   "e": "সর্দার সরোবর বাঁধ নর্মদা নদীর উপর, গুজরাটে। মহানদীতে হীরাকুদ, শতদ্রুতে ভাকরা-নাঙ্গালের জল-ব্যবস্থা এবং দামোদরে DVC।",
+   "claims": [
+    "c16"
+   ]
+  },
+  {
+   "id": "q06",
+   "section": "dvc",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "দামোদর উপত্যকা নিগম (DVC) কত সালে প্রতিষ্ঠিত হয়েছিল?",
+   "a": "১৯৪৮",
+   "w": [
+    "১৯৩৫",
+    "১৯৫২",
+    "১৯৬০"
+   ],
+   "e": "DVC-র নিজস্ব ওয়েবসাইট অনুযায়ী প্রতিষ্ঠা ৭ জুলাই ১৯৪৮। অন্য সালগুলি ওই পাতায় নেই।",
+   "claims": [
+    "c34"
+   ]
+  },
+  {
+   "id": "q07",
+   "section": "harvesting",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "বাড়ির নীচে 'টাঙ্কা' নামের ভূগর্ভস্থ চৌবাচ্চায় ছাদের বৃষ্টির জল জমানোর ঐতিহ্য কোন রাজ্যের?",
+   "a": "রাজস্থান",
+   "w": [
+    "মেঘালয়",
+    "কর্ণাটক",
+    "পশ্চিমবঙ্গ"
+   ],
+   "e": "এনসিইআরটি-র মতে বিকানের, ফলোদি ও বারমের (রাজস্থান) প্রায় সব বাড়িতেই টাঙ্কা থাকত। মেঘালয়ের উদাহরণ শিলং ও বাঁশের নল, কর্ণাটকের গেন্ডাথুর।",
+   "claims": [
+    "c20"
+   ]
+  },
+  {
+   "id": "q08",
+   "section": "harvesting",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের কোন রাজ্য প্রথম সব বাড়িতে ছাদের বৃষ্টির জল সংরক্ষণ কাঠামো বাধ্যতামূলক করেছে?",
+   "a": "তামিলনাড়ু",
+   "w": [
+    "রাজস্থান",
+    "মেঘালয়",
+    "গুজরাট"
+   ],
+   "e": "এনসিইআরটি বলেছে তামিলনাড়ু প্রথম রাজ্য, যে আইনি শাস্তির ব্যবস্থাসহ এটি বাধ্যতামূলক করেছে। রাজস্থান ও মেঘালয় ঐতিহ্যবাহী পদ্ধতির উদাহরণ হিসেবে এসেছে, বাধ্যতার জন্য নয়।",
+   "claims": [
+    "c24"
+   ]
+  },
+  {
+   "id": "q09",
+   "section": "harvesting",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "জল সংরক্ষণ প্রসঙ্গে 'বাঁশের নলে ফোঁটা সেচ' ব্যবস্থাটি ভারতের কোন রাজ্যে প্রচলিত?",
+   "a": "মেঘালয়",
+   "w": [
+    "রাজস্থান",
+    "তামিলনাড়ু",
+    "হিমাচলপ্রদেশ"
+   ],
+   "e": "এনসিইআরটি-র 'Bamboo Drip Irrigation System' অংশ অনুযায়ী মেঘালয়ে প্রায় ২০০ বছরের পুরোনো এই ব্যবস্থা চালু। রাজস্থানের পরিচিত ব্যবস্থা টাঙ্কা, খাদিন; হিমাচলের মতো পশ্চিম হিমালয়ে গুল/কুল।",
+   "claims": [
+    "c26"
+   ]
+  },
+  {
+   "id": "q10",
+   "section": "dvc",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "পশ্চিমবঙ্গ–ঝাড়খণ্ড সীমান্তের মাইথন জলাধারটি কোন নদীতে তৈরি?",
+   "a": "বরাকর",
+   "w": [
+    "মহানদী",
+    "নর্মদা",
+    "শতদ্রু"
+   ],
+   "e": "পশ্চিমবঙ্গ বোর্ডের সপ্তম শ্রেণির বই অনুযায়ী মাইথন বরাকর নদীতে। বরাকর দামোদরের উপনদী; বাকি তিনটি অন্য অঞ্চলের নদী।",
+   "claims": [
+    "c33",
+    "c28"
+   ]
+  },
+  {
+   "id": "q11",
+   "section": "harvesting",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ছাদের বৃষ্টির জল সংরক্ষণের আধুনিক রূপ প্রসঙ্গে, প্রায় ২০০টি বাড়িতে এই ব্যবস্থা বসিয়ে বৃষ্টির জলে সমৃদ্ধ হিসেবে খ্যাতি পাওয়া গেন্ডাথুর গ্রামটি কোন রাজ্যে?",
+   "a": "কর্ণাটক",
+   "w": [
+    "তামিলনাড়ু",
+    "মেঘালয়",
+    "রাজস্থান"
+   ],
+   "e": "এনসিইআরটি অনুযায়ী গেন্ডাথুর কর্ণাটকের মাইসুরু জেলায়। তামিলনাড়ু বাধ্যতামূলক করার জন্য উল্লিখিত, মেঘালয় ও রাজস্থান অন্য উদাহরণ।",
+   "claims": [
+    "c25",
+    "c24"
+   ]
+  },
+  {
+   "id": "q12",
+   "section": "projects",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "হীরাকুদ বহুমুখী প্রকল্পে জলসংরক্ষণকে কোন কাজের সঙ্গে যুক্ত করা হয়েছে, এনসিইআরটি অনুযায়ী?",
+   "a": "বন্যা নিয়ন্ত্রণ",
+   "w": [
+    "লবণ উৎপাদন",
+    "বায়ুবিদ্যুৎ উৎপাদন",
+    "সমুদ্রের জল মিষ্টি করা"
+   ],
+   "e": "এনসিইআরটি-র মতে মহানদী অববাহিকার হীরাকুদ জলসংরক্ষণ ও বন্যা নিয়ন্ত্রণ একসঙ্গে ঘটায়। অন্য কাজগুলি বইয়ে নেই।",
+   "claims": [
+    "c10"
+   ]
+  },
+  {
+   "id": "q13",
+   "section": "projects",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "শতদ্রু–বিয়াস অববাহিকার ভাকরা-নাঙ্গাল প্রকল্পের জল কোন দুই কাজে ব্যবহৃত হয়, এনসিইআরটি-র উদাহরণ অনুযায়ী?",
+   "a": "জলবিদ্যুৎ উৎপাদন ও সেচ",
+   "w": [
+    "মাছচাষ ও লবণ উৎপাদন",
+    "শুধু নৌচলাচল ও বিনোদন",
+    "শুধু গৃহস্থালির পানীয় জল ও শিল্প"
+   ],
+   "e": "বইয়ে বলা হয়েছে ভাকরা-নাঙ্গালের জল জলবিদ্যুৎ ও সেচ দুটোতেই লাগে। অন্য বিকল্পগুলি সেই উদাহরণের কথা নয়।",
+   "claims": [
+    "c09"
+   ]
+  },
+  {
+   "id": "q14",
+   "section": "dvc",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "দামোদর নদী একসময় 'বাংলার দুঃখ' নামে পরিচিত ছিল কেন?",
+   "a": "বারবার বন্যার জন্য",
+   "w": [
+    "দীর্ঘ খরার জন্য",
+    "ভূমিকম্পের জন্য",
+    "মোহনায় জাহাজ চলাচল বন্ধ থাকার জন্য"
+   ],
+   "e": "এনসিইআরটি ও ভাদু গানের উল্লেখ অনুযায়ী দামোদরের বন্যার ক্ষতি থেকেই এই নাম। খরা বা ভূমিকম্পের কথা বইয়ে নেই।",
+   "claims": [
+    "c11",
+    "c28"
+   ]
+  },
+  {
+   "id": "q15",
+   "section": "projects",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভাকরা-নাঙ্গাল প্রকল্পের খালব্যবস্থায় জল জোগায় কোন নদী?",
+   "a": "শতদ্রু",
+   "w": [
+    "যমুনা",
+    "চম্বল",
+    "মহানদী"
+   ],
+   "e": "একাদশ শ্রেণির এনসিইআরটি বলে শতদ্রু ভাকরা-নাঙ্গাল প্রকল্পের খালব্যবস্থায় জল দেয়। যমুনা ও চম্বল গঙ্গা ব্যবস্থার নদী; মহানদী হীরাকুদের।",
+   "claims": [
+    "c27"
+   ]
+  },
+  {
+   "id": "q16",
+   "section": "projects",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "এনসিইআরটি অনুযায়ী সর্দার সরোবর প্রকল্পের সুবিধা পায় যে চারটি রাজ্য, তার মধ্যে কোনটি নেই?",
+   "a": "পাঞ্জাব",
+   "w": [
+    "মহারাষ্ট্র",
+    "গুজরাট",
+    "রাজস্থান"
+   ],
+   "e": "চারটি রাজ্য মহারাষ্ট্র, মধ্যপ্রদেশ, গুজরাট ও রাজস্থান। পাঞ্জাব এই তালিকায় নেই (সেটি শতদ্রু–বিয়াস অঞ্চলের রাজ্য)।",
+   "claims": [
+    "c16"
+   ]
+  },
+  {
+   "id": "q17",
+   "section": "opposition",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "বড় বাঁধ ও বহুমুখী প্রকল্পের বিরুদ্ধে এনসিইআরটি-র উল্লিখিত যুক্তির মধ্যে কোনটি সঠিক?",
+   "a": "জলাধারে পলি জমে নদীর প্রবাহ ও জলজ প্রাণীর আবাস ক্ষতিগ্রস্ত হয়",
+   "w": [
+    "বাঁধের ফলে বন্যাভূমি আগের চেয়ে বেশি পলি পায় বলে জমি অতিরিক্ত উর্বর হয়",
+    "বাঁধ নদীর স্বাভাবিক প্রবাহে কোনও প্রভাব ফেলে না",
+    "বাঁধ জলজ প্রাণীর চলাচল সহজ করে"
+   ],
+   "e": "বইয়ে আছে নদী ও পলির প্রবাহ ব্যাহত হয়, জলাধারে পলি জমে, জলজ আবাস ও চলাচল ক্ষতিগ্রস্ত হয়। বন্যাভূমি বরং পলি থেকে বঞ্চিত হয়, তাই প্রথম ভুল বিকল্পটি উল্টো কথা বলে।",
+   "claims": [
+    "c12",
+    "c14"
+   ]
+  },
+  {
+   "id": "q18",
+   "section": "opposition",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "কৃষ্ণা–গোদাবরী বিবাদে মহারাষ্ট্র সরকারের বেশি জল সরানোর বিরুদ্ধে আপত্তি জানিয়েছিল কোন দুই রাজ্য?",
+   "a": "কর্ণাটক ও অন্ধ্রপ্রদেশ",
+   "w": [
+    "ওড়িশা ও ঝাড়খণ্ড",
+    "গুজরাট ও রাজস্থান",
+    "পাঞ্জাব ও হরিয়ানা"
+   ],
+   "e": "এনসিইআরটি অনুযায়ী কোয়নায় মহারাষ্ট্রের বাড়তি জল সরানোয় আপত্তি তুলেছে কর্ণাটক ও অন্ধ্রপ্রদেশ, কারণ নিম্নপ্রবাহে কৃষি ও শিল্পে জল কমবে।",
+   "claims": [
+    "c18"
+   ]
+  },
+  {
+   "id": "q19",
+   "section": "harvesting",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "রাজস্থানের টাঙ্কায় জল জমানোর সময় প্রথম বৃষ্টির জল কেন জমানো হত না?",
+   "a": "কারণ তা ছাদ ও নল ধুয়ে পরিষ্কার করে দেয়",
+   "w": [
+    "কারণ তা খুব কম পরিমাণে থাকে",
+    "কারণ তা লবণাক্ত",
+    "কারণ টাঙ্কা তখন ভরা থাকে"
+   ],
+   "e": "এনসিইআরটি বলেছে প্রথম বৃষ্টি ছাদ ও নল পরিষ্কার করে, তাই বাদ দিয়ে পরের বৃষ্টির জল জমানো হত। লবণাক্ততা বা ভরা থাকার কথা বইয়ে নেই।",
+   "claims": [
+    "c21"
+   ]
+  },
+  {
+   "id": "q20",
+   "section": "harvesting",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "পশ্চিম রাজস্থানে ছাদের বৃষ্টির জল সংরক্ষণের চল কমছে কেন, এনসিইআরটি অনুযায়ী?",
+   "a": "বারোমাসি ইন্দিরা গান্ধি খাল থেকে প্রচুর জল পাওয়া যাচ্ছে বলে",
+   "w": [
+    "বৃষ্টি পুরোপুরি বন্ধ হয়ে গেছে বলে",
+    "টাঙ্কা তৈরি আইনত নিষিদ্ধ হয়েছে বলে",
+    "গেন্ডাথুরের মতো গ্রামে সরে গেছে বলে"
+   ],
+   "e": "বইয়ে বলা হয়েছে ইন্দিরা গান্ধি খালের জলের প্রাচুর্যই কারণ। আইনি নিষেধ বা বৃষ্টি বন্ধের কথা নেই; তামিলনাড়ুতে বরং বাধ্যতামূলক করা হয়েছে।",
+   "claims": [
+    "c22",
+    "c24"
+   ]
+  },
+  {
+   "id": "q21",
+   "section": "harvesting",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ছাদের জল সংরক্ষণে শিলং শহরের বাড়িগুলি প্রয়োজনের প্রায় কত অংশ এভাবে মেটায়, এনসিইআরটি অনুযায়ী?",
+   "a": "১৫–২৫ শতাংশ",
+   "w": [
+    "৫–১০ শতাংশ",
+    "৫০–৬০ শতাংশ",
+    "৮০–৯০ শতাংশ"
+   ],
+   "e": "এনসিইআরটি-র তথ্য: পরিবারের মোট জলের প্রয়োজনের ১৫–২৫ শতাংশ ছাদের জল থেকে আসে। বাকি পরিসরগুলি বইয়ে নেই।",
+   "claims": [
+    "c23"
+   ]
+  },
+  {
+   "id": "q22",
+   "section": "harvesting",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "মেঘালয়ের বাঁশের নল সেচ ব্যবস্থায় গাছের গোড়ায় জল পৌঁছয় মিনিটে কত ফোঁটায়?",
+   "a": "২০ থেকে ৮০ ফোঁটা",
+   "w": [
+    "২ থেকে ৮ ফোঁটা",
+    "২০০ থেকে ৮০০ ফোঁটা",
+    "১,০০০ থেকে ২,০০০ ফোঁটা"
+   ],
+   "e": "বইয়ে আছে নলে ১৮–২০ লিটার ঢোকে এবং গাছের কাছে পৌঁছে হয় মিনিটে ২০–৮০ ফোঁটা। অন্য সংখ্যাগুলি ভুল।",
+   "claims": [
+    "c26"
+   ]
+  },
+  {
+   "id": "q23",
+   "section": "projects",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "এনসিইআরটি (দ্বাদশ শ্রেণি) সেচ উন্নয়নের জন্য হাতে নেওয়া বহুমুখী নদী উপত্যকা প্রকল্পের উদাহরণ হিসেবে কোনটির নাম করেছে?",
+   "a": "নাগার্জুন সাগর",
+   "w": [
+    "চিল্কা",
+    "উলার",
+    "কোলেরু"
+   ],
+   "e": "তালিকায় আছে ভাকরা-নাঙ্গাল, হীরাকুদ, দামোদর উপত্যকা, নাগার্জুন সাগর, ইন্দিরা গান্ধি খাল। বাকি তিনটি হ্রদ।",
+   "claims": [
+    "c29"
+   ]
+  },
+  {
+   "id": "q24",
+   "section": "scarcity",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "ভারতে ভূপৃষ্ঠের জলের সবচেয়ে বড় অংশ কোন ক্ষেত্রে ব্যবহৃত হয়?",
+   "a": "কৃষি (সেচ)",
+   "w": [
+    "শিল্প",
+    "গৃহস্থালি",
+    "জলবিদ্যুৎ কেন্দ্র"
+   ],
+   "e": "দ্বাদশ শ্রেণির এনসিইআরটি-র মতে ভূপৃষ্ঠের জলের ৮৯ শতাংশ কৃষিতে লাগে; শিল্পে ২ শতাংশ, গৃহস্থালিতে ৯ শতাংশ।",
+   "claims": [
+    "c30"
+   ]
+  },
+  {
+   "id": "q25",
+   "section": "dvc",
+   "level": "moderate",
+   "format": "DIRECT",
+   "q": "দামোদর উপত্যকা নিগম (DVC) ভারতের কোন দুই রাজ্যে কাজ করে?",
+   "a": "পশ্চিমবঙ্গ ও ঝাড়খণ্ড",
+   "w": [
+    "ওড়িশা ও ছত্তিশগড়",
+    "পাঞ্জাব ও হরিয়ানা",
+    "গুজরাট ও রাজস্থান"
+   ],
+   "e": "DVC-র ওয়েবসাইট অনুযায়ী নিগম পশ্চিমবঙ্গ ও ঝাড়খণ্ডে কাজ করে।",
+   "claims": [
+    "c34"
+   ]
+  },
+  {
+   "id": "q26",
+   "section": "multipurpose",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভারতের প্রাচীন জলসংরক্ষণ ঐতিহ্য প্রসঙ্গে, খ্রিস্টপূর্ব প্রথম শতকে গঙ্গার বন্যার জল নালা দিয়ে ধরে রাখার উন্নত ব্যবস্থা কোথায় ছিল?",
+   "a": "শৃঙ্গভেরপুর (এলাহাবাদের কাছে)",
+   "w": [
+    "হাউজ খাস, দিল্লি",
+    "বেন্নুর, কর্ণাটক",
+    "কোলহাপুর, মহারাষ্ট্র"
+   ],
+   "e": "এনসিইআরটি-র তালিকা: শৃঙ্গভেরপুর খ্রিস্টপূর্ব প্রথম শতকে। হাউজ খাস ত্রয়োদশ-চতুর্দশ শতকের (আলাউদ্দিন খলজি); বেন্নুর ও কোলহাপুরে সেচের চিহ্ন পাওয়া গেছে, তবে গঙ্গার বন্যার জল নয়।",
+   "claims": [
+    "c05"
+   ]
+  },
+  {
+   "id": "q27",
+   "section": "projects",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "সর্দার সরোবর প্রকল্প গুজরাটের কতগুলি গ্রামে (১৫টি জেলায়) সেচ দেবে, এনসিইআরটি অনুযায়ী?",
+   "a": "৩,১১২টি",
+   "w": [
+    "১,৫০০টি",
+    "৫,০০০টি",
+    "১০,০০০টি"
+   ],
+   "e": "বইয়ে আছে ১৮.৪৫ লক্ষ হেক্টর জমি, ১৫টি জেলার ৩,১১২টি গ্রাম।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q28",
+   "section": "projects",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "সর্দার সরোবর প্রকল্পের জলে ২,৪৬,০০০ হেক্টর জমিতে সেচ পাবে কোন রাজ্যের বারমের ও জালোর জেলা?",
+   "a": "রাজস্থান",
+   "w": [
+    "মহারাষ্ট্র",
+    "মধ্যপ্রদেশ",
+    "গুজরাট"
+   ],
+   "e": "এনসিইআরটি: রাজস্থানের মরু জেলা বারমের ও জালোরে ২,৪৬,০০০ হেক্টর। মহারাষ্ট্রে লিফট পদ্ধতিতে ৩৭,৫০০ হেক্টর; গুজরাটে ১৮.৪৫ লক্ষ হেক্টর।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q29",
+   "section": "projects",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "সর্দার সরোবর প্রকল্প থেকে লিফট পদ্ধতিতে ৩৭,৫০০ হেক্টর জমি সেচ পাবে কোন রাজ্যের আদিবাসী পাহাড়ি অঞ্চল?",
+   "a": "মহারাষ্ট্র",
+   "w": [
+    "রাজস্থান",
+    "ওড়িশা",
+    "ঝাড়খণ্ড"
+   ],
+   "e": "বইয়ে আছে মহারাষ্ট্রের আদিবাসী পাহাড়ি এলাকায় ৩৭,৫০০ হেক্টর। রাজস্থানের অংশ ২,৪৬,০০০ হেক্টর; ওড়িশা ও ঝাড়খণ্ড প্রকল্পের তালিকাতেই নেই।",
+   "claims": [
+    "c17"
+   ]
+  },
+  {
+   "id": "q30",
+   "section": "opposition",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "বন্যা নিয়ন্ত্রণের জন্য তৈরি বাঁধ নিয়ে এনসিইআরটি যে বৈপরীত্যের কথা বলেছে, তা কোনটি?",
+   "a": "জলাধারে পলি জমার ফলে বাঁধই কখনও বন্যা ঘটিয়েছে",
+   "w": [
+    "বাঁধ সবসময় বন্যা সম্পূর্ণ রোধ করেছে",
+    "বাঁধের ফলে বন্যাভূমি বেশি পলি পেয়েছে",
+    "বাঁধ বন্যার সময় নদীর প্রবাহ বাড়িয়ে দিয়েছে"
+   ],
+   "e": "বইয়ে আছে বন্যা ঠেকাতে তৈরি বাঁধ জলাধারে পলির কারণে বন্যা ঘটিয়েছে, আর অতিরিক্ত বৃষ্টিতে বেশিরভাগ বড় বাঁধ ব্যর্থ। সবসময় রোধ করার কথা ভুল।",
+   "claims": [
+    "c13",
+    "c14"
+   ]
+  },
+  {
+   "id": "q31",
+   "section": "scarcity",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "অটল ভূজল যোজনা (Atal Jal) এনসিইআরটি অনুযায়ী ভারতের কতগুলি রাজ্যের জলসংকটাপন্ন গ্রাম পঞ্চায়েতে চলছে?",
+   "a": "৭টি",
+   "w": [
+    "৩টি",
+    "১২টি",
+    "২৫টি"
+   ],
+   "e": "বইয়ে ৮,২২০টি গ্রাম পঞ্চায়েত, ৮০টি জেলা, সাতটি রাজ্যের কথা আছে (গুজরাট, হরিয়ানা, কর্ণাটক, মধ্যপ্রদেশ, মহারাষ্ট্র, রাজস্থান, উত্তরপ্রদেশ)।",
+   "claims": [
+    "c04"
+   ]
+  },
+  {
+   "id": "q32",
+   "section": "dvc",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "ভূগোলে দামোদর নদী সম্পর্কে এনসিইআরটি-র বর্ণনা অনুযায়ী দামোদর শেষে কোন নদীতে মিশেছে?",
+   "a": "হুগলি",
+   "w": [
+    "ব্রহ্মপুত্র",
+    "মহানদী",
+    "বরাকর"
+   ],
+   "e": "দামোদর ছোটনাগপুরের প্রান্তে চ্যুতি উপত্যকা দিয়ে বয়ে হুগলিতে পড়ে। বরাকর এর উপনদী, তাই বরাকরে মেশার কথা ভুল।",
+   "claims": [
+    "c28"
+   ]
+  },
+  {
+   "id": "q33",
+   "section": "dvc",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "DVC নিজের ওয়েবসাইটে নিজেকে কী বলে পরিচয় দেয়?",
+   "a": "ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প",
+   "w": [
+    "ভারতের একমাত্র আন্তর্জাতিক নদী প্রকল্প",
+    "ভারতের প্রথম সৌর প্রকল্প",
+    "ভারতের বৃহত্তম জলবিদ্যুৎ প্রকল্প"
+   ],
+   "e": "ওয়েবসাইটে লেখা: ভারতের প্রথম বহুমুখী নদী উপত্যকা প্রকল্প, ১৯৪৮ সালের ৭ জুলাই প্রতিষ্ঠিত। 'বৃহত্তম' দাবি ওই পাতায় নেই।",
+   "claims": [
+    "c34"
+   ]
+  },
+  {
+   "id": "q34",
+   "section": "opposition",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "কেন্দ্রীয় জল কমিশনের (CWC) ওয়েবসাইটের জলবিবাদ-সংক্রান্ত বর্ণনা অনুযায়ী ভারতের বড় নদী অববাহিকাগুলির প্রকৃতি কী?",
+   "a": "আন্তঃরাজ্য প্রকৃতির",
+   "w": [
+    "একটি রাজ্যের ভিতরেই সীমাবদ্ধ",
+    "শুধু আন্তর্জাতিক সীমানাবর্তী",
+    "বিবাদমুক্ত ও অভিন্ন"
+   ],
+   "e": "CWC পাতায় লেখা, সব বড় এবং কিছু মাঝারি অববাহিকা আন্তঃরাজ্য প্রকৃতির, তাই জলবিবাদ তৈরি হয়।",
+   "claims": [
+    "c35"
+   ]
+  },
+  {
+   "id": "q35",
+   "section": "scarcity",
+   "level": "difficult",
+   "format": "DIRECT",
+   "q": "গঙ্গা, ব্রহ্মপুত্র ও বরাক অববাহিকা দেশের মোট ভূপৃষ্ঠের জলসম্পদের প্রায় কত অংশের ধারক, এনসিইআরটি (দ্বাদশ) অনুযায়ী?",
+   "a": "৬০ শতাংশ",
+   "w": [
+    "১০ শতাংশ",
+    "৩০ শতাংশ",
+    "৯০ শতাংশ"
+   ],
+   "e": "বইয়ে আছে দেশের আয়তনের প্রায় এক-তৃতীয়াংশ হলেও এই নদীগুলিতে ৬০ শতাংশ জল। ৮৯ শতাংশ হল কৃষির ব্যবহারের অংশ, তাই ৯০ ভুল।",
+   "claims": [
+    "c31",
+    "c30"
+   ]
+  },
+  {
+   "id": "q36",
+   "section": "projects",
+   "level": "exam",
+   "format": "MATCH",
+   "q": "বাঁধ/প্রকল্পের সঙ্গে নদী বা অববাহিকা মেলান:\n\nA. ভাকরা-নাঙ্গাল\nB. হীরাকুদ\nC. সর্দার সরোবর\nD. মাইথন\n\n১. নর্মদা\n২. বরাকর\n৩. মহানদী\n৪. শতদ্রু–বিয়াস",
+   "a": "A-৪, B-৩, C-১, D-২",
+   "w": [
+    "A-৩, B-৪, C-১, D-২",
+    "A-৪, B-১, C-৩, D-২",
+    "A-৪, B-৩, C-২, D-১"
+   ],
+   "e": "ভাকরা-নাঙ্গাল: শতদ্রু–বিয়াস (৪); হীরাকুদ: মহানদী (৩); সর্দার সরোবর: নর্মদা (১); মাইথন: বরাকর (২)। অন্য বিকল্পে অন্তত দুটি জোড় উল্টে গেছে।",
+   "claims": [
+    "c09",
+    "c10",
+    "c16",
+    "c33"
+   ]
+  },
+  {
+   "id": "q37",
+   "section": "harvesting",
+   "level": "exam",
+   "format": "MATCH",
+   "q": "জলসংরক্ষণের ঐতিহ্যবাহী পদ্ধতির সঙ্গে অঞ্চল মেলান:\n\nA. টাঙ্কা\nB. খাদিন\nC. গুল/কুল\nD. বাঁশের নলে সেচ\n\n১. পশ্চিম হিমালয়\n২. বিকানের, ফলোদি, বারমের\n৩. জয়সলমের\n৪. মেঘালয়",
+   "a": "A-২, B-৩, C-১, D-৪",
+   "w": [
+    "A-৩, B-২, C-১, D-৪",
+    "A-২, B-৩, C-৪, D-১",
+    "A-১, B-৩, C-২, D-৪"
+   ],
+   "e": "টাঙ্কা: বিকানের, ফলোদি, বারমের (২); খাদিন: জয়সলমের (৩); গুল/কুল: পশ্চিম হিমালয় (১); বাঁশের নল: মেঘালয় (৪)।",
+   "claims": [
+    "c19",
+    "c20",
+    "c26"
+   ]
+  },
+  {
+   "id": "q38",
+   "section": "projects",
+   "level": "exam",
+   "format": "STATEMENT",
+   "q": "ভারতের বহুমুখী প্রকল্প সম্পর্কে নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. হীরাকুদ প্রকল্প মহানদী অববাহিকায় জলসংরক্ষণকে বন্যা নিয়ন্ত্রণের সঙ্গে যুক্ত করেছে।\n২. ভাকরা-নাঙ্গাল প্রকল্পের জল শুধু সেচে ব্যবহৃত হয়, জলবিদ্যুৎ উৎপাদনে নয়।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+   "a": "শুধুমাত্র ১",
+   "w": [
+    "শুধুমাত্র ২",
+    "১ ও ২ উভয়ই",
+    "১ বা ২ কোনোটিই নয়"
+   ],
+   "e": "প্রথম বিবৃতি সঠিক। দ্বিতীয়টি ভুল: এনসিইআরটি অনুযায়ী ভাকরা-নাঙ্গালের জল জলবিদ্যুৎ ও সেচ দুটোতেই লাগে।",
+   "claims": [
+    "c09",
+    "c10"
+   ]
+  },
+  {
+   "id": "q39",
+   "section": "harvesting",
+   "level": "exam",
+   "format": "ASSERTION_REASON",
+   "q": "ভারতের বৃষ্টির জল সংরক্ষণ প্রসঙ্গে:\n\n**বক্তব্য (A):** মেঘালয়ের রাজধানী শিলংয়ে প্রায় প্রতিটি বাড়িতে ছাদের বৃষ্টির জল ধরার ব্যবস্থা আছে।\n\n**কারণ (R):** শিলংয়ের কাছে চেরাপুঞ্জি ও মৌসিনরাম পৃথিবীর সবচেয়ে বেশি বৃষ্টি পায়, তবু শিলং শহরে জলের তীব্র অভাব রয়েছে।",
+   "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "w": [
+    "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+    "A সত্য, কিন্তু R মিথ্যা",
+    "A মিথ্যা, কিন্তু R সত্য"
+   ],
+   "e": "দুটিই সত্য। এনসিইআরটি বলেছে এই জলাভাবের কারণেই শিলংয়ে ঘরে ঘরে ছাদের জল ধরা হয়, তাই R হল A-এর ব্যাখ্যা।",
+   "claims": [
+    "c23"
+   ]
+  },
+  {
+   "id": "q40",
+   "section": "projects",
+   "level": "exam",
+   "format": "PAIRS",
+   "q": "ভারতের বাঁধ ও প্রকল্প সম্পর্কে নীচের কোন জোড়টি সঠিকভাবে মেলানো?",
+   "a": "সর্দার সরোবর: নর্মদা নদী, গুজরাট",
+   "w": [
+    "হীরাকুদ: শতদ্রু–বিয়াস অববাহিকা",
+    "ভাকরা-নাঙ্গাল: মহানদী অববাহিকা",
+    "মাইথন: নর্মদা নদী"
+   ],
+   "e": "সর্দার সরোবর নর্মদায়, গুজরাটে। হীরাকুদ মহানদী অববাহিকায়, ভাকরা-নাঙ্গাল শতদ্রু–বিয়াসে, মাইথন বরাকরে।",
+   "claims": [
+    "c16",
+    "c09",
+    "c10",
+    "c33"
+   ]
+  }
+ ]
+}

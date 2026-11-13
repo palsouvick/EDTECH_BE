@@ -104,7 +104,7 @@ async function verifyAnswer({ questionId, selectedOptionId, timeSpentSec, catego
   if (!preview) statsBuffer.record(q._id, { correct: isCorrect, timeSpentSec });
   if (userId && !preview) {
     // Signed-in students: keep the attempt for "My performance". Never blocks the answer.
-    PracticeAttempt.create({ user_id: userId, question_id: q._id, subject: q.subject, topic: q.topic, category, correct: isCorrect, time_spent_sec: timeSpentSec })
+    PracticeAttempt.create({ user_id: userId, question_id: q._id, subject: q.subject, topic: q.topic, category, correct: isCorrect, time_spent_sec: timeSpentSec, source: 'practice' })
       .catch((err) => console.error('[practice] attempt not recorded:', err.message));
     // A mistake joins the student's revision queue.
     if (!isCorrect) review.recordMistake(userId, { questionId: q._id, subject: q.subject, topic: q.topic, selectedOptionId, source: 'practice' });

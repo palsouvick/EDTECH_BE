@@ -8,10 +8,8 @@
 const { CARDS } = require('./gkTaxonomy');
 
 const SLUG = /^[a-z][a-z0-9_]{1,40}$/;
-const CODE = /^HIS-\d{2}$/;
 const QID = /^q\d{2}$/;
 const CLAIM = /^c\d{2,3}$/;
-const PARTS = ['intro', 'ancient', 'medieval', 'modern_company', 'modern_national', 'post_independence'];
 const LEVELS = ['basic', 'moderate', 'difficult', 'exam'];
 const FORMATS = ['DIRECT', 'STATEMENT', 'MATCH', 'CHRONOLOGY', 'PAIRS', 'ASSERTION_REASON'];
 const BOX_KINDS = ['exam_note', 'dont_confuse', 'did_you_know', 'bengal', 'remember'];
@@ -25,10 +23,38 @@ const BANNED_OPTIONS = /^(all of the above|none of (the above|these)|উপর�
 const SOURCE_PUBLISHERS = Object.freeze({
   NCERT: /^https:\/\/ncert\.nic\.in\/textbook\/pdf\/[a-z0-9]+\.pdf$/i,
   WBBSE: /^https:\/\/(banglarshiksha\.wb\.gov\.in\/readwrite\/etextbook\/[^?#]+\.pdf|wbbse\.wb\.gov\.in\/\S+)$/i,
+  // Official Government of India / West Bengal sites (*.gov.in, *.nic.in), Geography only (owner decision of
+  // 2026-11-13): for list facts textbooks do not carry, such as districts, dams and national parks.
+  GOVT: /^https:\/\/([a-z0-9-]+\.)+(gov\.in|nic\.in)\/\S*$/i,
 });
 const publisherOf = (url = '') => Object.keys(SOURCE_PUBLISHERS).find((p) => SOURCE_PUBLISHERS[p].test(url)) || null;
 
-const HISTORY_SUBTOPICS = new Set(Object.keys(CARDS.find((c) => c.code === 'indian_history').subtopics));
+const subtopicsOf = (card) => new Set(Object.keys(CARDS.find((c) => c.code === card).subtopics));
+
+/**
+ * What differs between books. `dated` books (History) must have events, people and a timeline; Geography has
+ * no timeline and instead must have a "Locate it" table (`locate`: place → where → what it is known for).
+ */
+const PROFILES = Object.freeze({
+  history: {
+    prefix: 'HIS',
+    maxNumber: 28,
+    parts: ['intro', 'ancient', 'medieval', 'modern_company', 'modern_national', 'post_independence'],
+    subtopics: subtopicsOf('indian_history'),
+    publishers: ['NCERT', 'WBBSE'],
+    dated: true,
+  },
+  geography: {
+    prefix: 'GEO',
+    maxNumber: 16,
+    parts: ['india_land', 'india_resources', 'west_bengal', 'earth_world'],
+    subtopics: subtopicsOf('geography'),
+    publishers: ['NCERT', 'WBBSE', 'GOVT'],
+    dated: false,
+  },
+});
+const MIN_LOCATE = 6;
+const codePattern = (prefix) => new RegExp(`^${prefix}-\\d{2}$`);
 
 const str = (v) => typeof v === 'string' && v.trim().length > 0;
 
@@ -37,13 +63,15 @@ function validateChapter(ch) {
   const err = (field, code, message) => errors.push({ field, code, message });
   if (!ch || typeof ch !== 'object') return [{ field: '', code: 'NOT_OBJECT', message: 'chapter must be an object' }];
 
-  if (ch.book !== 'history') err('book', 'BAD_BOOK', 'book must be "history"');
-  if (!CODE.test(ch.code || '')) err('code', 'BAD_CODE', 'code must look like HIS-02');
-  if (!Number.isInteger(ch.number) || ch.number < 0 || ch.number > 28) err('number', 'BAD_NUMBER', 'number must be 0-28');
+  const profile = PROFILES[ch.book];
+  if (!profile) return [{ field: 'book', code: 'BAD_BOOK', message: `book must be one of ${Object.keys(PROFILES).join(', ')}` }];
+  const CODE = codePattern(profile.prefix);
+  if (!CODE.test(ch.code || '')) err('code', 'BAD_CODE', `code must look like ${profile.prefix}-02`);
+  if (!Number.isInteger(ch.number) || ch.number < 0 || ch.number > profile.maxNumber) err('number', 'BAD_NUMBER', `number must be 0-${profile.maxNumber}`);
   else if (CODE.test(ch.code || '') && Number(ch.code.slice(4)) !== ch.number) err('number', 'CODE_MISMATCH', 'number must match the code');
-  if (!PARTS.includes(ch.part)) err('part', 'BAD_PART', `part must be one of ${PARTS.join(', ')}`);
+  if (!profile.parts.includes(ch.part)) err('part', 'BAD_PART', `part must be one of ${profile.parts.join(', ')}`);
   for (const f of ['title', 'subtitle']) if (!str(ch[f]) || !BENGALI.test(ch[f])) err(f, 'NOT_BENGALI', `${f} must be Bengali text`);
-  for (const s of ch.subtopics || []) if (!HISTORY_SUBTOPICS.has(s)) err('subtopics', 'UNKNOWN_SUBTOPIC', `unknown History subtopic "${s}"`);
+  for (const s of ch.subtopics || []) if (!profile.subtopics.has(s)) err('subtopics', 'UNKNOWN_SUBTOPIC', `unknown ${ch.book} subtopic "${s}"`);
   if (!Array.isArray(ch.subtopics) || !ch.subtopics.length) err('subtopics', 'REQUIRED', 'at least one subtopic');
   for (const p of ch.prerequisites || []) if (!CODE.test(p)) err('prerequisites', 'BAD_CODE', `"${p}" is not a chapter code`);
   for (const k of ['quick', 'standard']) if (!(ch.reading_minutes?.[k] > 0)) err(`reading_minutes.${k}`, 'REQUIRED', 'reading time in minutes');
@@ -58,7 +86,11 @@ function validateChapter(ch) {
   for (const [i, s] of (ch.sources || []).entries()) {
     if (!str(s.id) || sources.has(s.id)) err(`sources[${i}].id`, 'BAD_ID', 'unique source id required');
     const publisher = publisherOf(s.url);
-    if (!publisher) err(`sources[${i}].url`, 'SOURCE_NOT_ALLOWED', 'sources must be NCERT textbook PDFs (https://ncert.nic.in/textbook/pdf/…) or WBBSE / Banglar Shiksha e-Text Books (https://banglarshiksha.wb.gov.in/readwrite/etextbook/…)');
+    if (!publisher || !profile.publishers.includes(publisher)) {
+      err(`sources[${i}].url`, 'SOURCE_NOT_ALLOWED', profile.publishers.includes('GOVT')
+        ? 'sources must be NCERT textbook PDFs, WBBSE / Banglar Shiksha e-Text Books or official *.gov.in / *.nic.in pages'
+        : 'sources must be NCERT textbook PDFs (https://ncert.nic.in/textbook/pdf/…) or WBBSE / Banglar Shiksha e-Text Books (https://banglarshiksha.wb.gov.in/readwrite/etextbook/…)');
+    }
     else if (s.publisher && s.publisher !== publisher) err(`sources[${i}].publisher`, 'PUBLISHER_MISMATCH', `the URL is a ${publisher} book`);
     if (!str(s.title)) err(`sources[${i}].title`, 'REQUIRED', 'title required');
     sources.set(s.id, s);
@@ -114,6 +146,7 @@ function validateChapter(ch) {
     ['exam_focus', ['point'], false],
   ];
   for (const [key, fields, hasClaims] of blocks) {
+    if (!profile.dated && ['events', 'people'].includes(key) && ch[key] === undefined) continue;
     if (!Array.isArray(ch[key])) {
       err(key, 'REQUIRED', `${key} must be a list`);
       continue;
@@ -125,8 +158,19 @@ function validateChapter(ch) {
       if (key === 'cause_effect' && (!x.causes?.length || !x.results?.length)) err(`${key}[${i}]`, 'REQUIRED', 'causes and results required');
     }
   }
-  for (const key of ['events', 'people', 'terms', 'exam_focus']) if (Array.isArray(ch[key]) && !ch[key].length) err(key, 'EMPTY', `${key} must not be empty`);
-  if (!Array.isArray(ch.timeline) || !ch.timeline.length) err('timeline', 'REQUIRED', 'timeline required');
+  for (const key of profile.dated ? ['events', 'people', 'terms', 'exam_focus'] : ['terms', 'exam_focus']) if (Array.isArray(ch[key]) && !ch[key].length) err(key, 'EMPTY', `${key} must not be empty`);
+  if (!profile.dated) {
+    // "Locate it": place → where → what it is known for.
+    if (!Array.isArray(ch.locate) || ch.locate.length < MIN_LOCATE) err('locate', 'REQUIRED', `at least ${MIN_LOCATE} "locate it" rows`);
+    for (const [i, x] of (Array.isArray(ch.locate) ? ch.locate : []).entries()) {
+      for (const k of ['place', 'where', 'about']) if (!str(x[k]) || !BENGALI.test(x[k])) err(`locate[${i}].${k}`, 'NOT_BENGALI', `Bengali ${k} required`);
+      if (x.section !== undefined) sectionRef(`locate[${i}].section`, x.section);
+      checkClaims(`locate[${i}].claims`, x.claims, { required: true });
+    }
+  }
+  if (!profile.dated && (ch.timeline === undefined || (Array.isArray(ch.timeline) && !ch.timeline.length))) {
+    // A Geography chapter may have no timeline.
+  } else if (!Array.isArray(ch.timeline) || !ch.timeline.length) err('timeline', 'REQUIRED', 'timeline required');
   else {
     for (const [i, t] of ch.timeline.entries()) {
       if (!Number.isFinite(t.sort_year)) err(`timeline[${i}].sort_year`, 'REQUIRED', 'numeric sort_year required');
@@ -173,4 +217,4 @@ function validateChapter(ch) {
   return errors;
 }
 
-module.exports = { validateChapter, publisherOf, SOURCE_PUBLISHERS, MIN_QUESTIONS, LEVELS };
+module.exports = { validateChapter, publisherOf, SOURCE_PUBLISHERS, PROFILES, MIN_QUESTIONS, LEVELS };

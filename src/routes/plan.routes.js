@@ -4,7 +4,7 @@ const { Router } = require('express');
 const { z } = require('zod');
 const validate = require('../middleware/validate');
 const { requireAuth } = require('../middleware/auth');
-const { learnQuizLimiter } = require('../middleware/rateLimiters');
+const { learnQuizLimiter, verifyAnswerLimiter } = require('../middleware/rateLimiters');
 const { language, objectId, optionId, timeSpent } = require('../validators/common');
 const studyPlan = require('../services/studyPlan.service');
 const planTests = require('../services/planTests.service');
@@ -61,6 +61,13 @@ router.post('/clerkship-60/days/:day/test/check', learnQuizLimiter, validate({
 }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');
   res.json({ success: true, data: await planTests.checkTest(req.valid.params.day, req.valid.body, req.user?.id) });
+});
+
+// "Check answer" for one question mid-test (not in a full mock): its answer and explanation, not recorded.
+const peekBody = z.object({ testToken: z.string().min(10).max(8000), questionId: objectId, selectedOptionId: optionId.nullable().default(null) });
+router.post('/clerkship-60/days/:day/test/peek', verifyAnswerLimiter, validate({ params: dayParam, body: peekBody }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await planTests.peekTest(req.valid.params.day, req.valid.body) });
 });
 
 // ------------------------------------------------------------- IDO plan
@@ -123,6 +130,11 @@ router.post('/ido/test/section/:section', learnQuizLimiter, validate({
 router.post('/ido/test/check', learnQuizLimiter, validate({ body: idoAnswers }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');
   res.json({ success: true, data: await idoTest.checkTest(req.valid.body, req.user?.id) });
+});
+
+router.post('/ido/test/peek', verifyAnswerLimiter, validate({ body: peekBody }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await idoTest.peekTest(req.valid.body) });
 });
 
 module.exports = router;

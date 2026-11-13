@@ -62,6 +62,13 @@ router.post('/quiz/check', verifyAnswerLimiter, validate({ body: checkBody }), a
   res.json({ success: true, data: await learn.checkQuiz(req.valid.body, req.user?.id) });
 });
 
+// "Check answer" for one question mid-quiz: its answer and explanation, not recorded.
+const peekBody = z.object({ subject, topic: slug, quizToken: z.string().min(1).max(4096), questionId: objectId, selectedOptionId: optionId.nullable().default(null) });
+router.post('/quiz/peek', verifyAnswerLimiter, validate({ body: peekBody }), async (req, res) => {
+  res.set('Cache-Control', 'no-store');
+  res.json({ success: true, data: await learn.peekQuiz(req.valid.body) });
+});
+
 // A signed-in student's quiz progress, kept on the account so it follows them across devices.
 router.get('/progress', requireAuth, async (req, res) => {
   res.set('Cache-Control', 'private, no-store');

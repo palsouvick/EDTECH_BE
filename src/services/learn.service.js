@@ -33,7 +33,7 @@ const catalog = require('../../db/seed/catalog');
 const { loadLessons } = require('../../db/lessons');
 const { getPatterns } = require('./patterns.service');
 const AppError = require('../utils/AppError');
-const { gradeAnswers } = require('./grading');
+const { gradeAnswers, peekAnswer } = require('./grading');
 const { signToken, verifySignedToken } = require('./signedToken');
 const { PUBLIC_QUESTION_FIELDS, presentQuestion } = require('./presenters');
 const { HARD_AUTHORS, MIX: HARD_MIX, MIN_PATTERNS_PER_QUIZ, MAX_PER_PATTERN, hardBankFor } = require('./hardBanks');
@@ -427,6 +427,18 @@ async function checkQuiz({ subject, topic, quizToken, answers }, userId) {
   return { subject, topic, results, score };
 }
 
+/** "Check answer" for one question of an issued quiz: its answer and explanation, not recorded. */
+async function peekQuiz({ subject, topic, quizToken, questionId, selectedOptionId }) {
+  const issued = verifySignedToken(QUIZ_TOKEN_PURPOSE, quizToken);
+  if (!issued || issued.s !== subject || issued.t !== topic) {
+    throw new AppError(403, 'QUIZ_TOKEN_INVALID', 'This quiz has expired or was not issued by the server. Start a new quiz.');
+  }
+  if (!issued.q.includes(questionId)) throw new AppError(403, 'QUESTION_NOT_IN_QUIZ', 'This question is not part of this quiz');
+  const result = await peekAnswer({ questionId, selectedOptionId });
+  if (!result) throw new AppError(404, 'QUESTION_NOT_FOUND', 'Question not found');
+  return result;
+}
+
 module.exports = {
   SUBJECTS,
   QUIZ_SIZE,
@@ -435,6 +447,7 @@ module.exports = {
   getChapter,
   createQuiz,
   checkQuiz,
+  peekQuiz,
   levelPools,
   patternLevels,
   selectHard,

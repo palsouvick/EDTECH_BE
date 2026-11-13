@@ -11,7 +11,7 @@ const bookAdmin = require('../services/bookAdmin.service');
 const router = Router();
 router.use(requireAdmin);
 
-const params = z.object({ book: z.enum(Object.keys(books.BOOKS)), code: z.string().regex(/^HIS-\d{2}$/) });
+const params = z.object({ book: z.enum(Object.keys(books.BOOKS)), code: z.string().regex(books.CHAPTER_CODE) });
 
 router.get('/', async (_req, res) => {
   res.json({ success: true, data: await bookAdmin.listChapters() });

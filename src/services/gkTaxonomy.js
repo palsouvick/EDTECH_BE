@@ -111,6 +111,9 @@ const CARDS = Object.freeze([
       dams_projects: L('Dams and Projects', 'বাঁধ ও প্রকল্প'),
       world_geography: L('World Geography', 'বিশ্ব ভূগোল'),
       world_features: L('Straits, Canals, Lakes and Peaks', 'প্রণালী, খাল, হ্রদ ও শৃঙ্গ'),
+      // Added for the Geography book (2026-11-13); additive, existing tags keep their meaning.
+      west_bengal_geography: L('Geography of West Bengal', 'পশ্চিমবঙ্গের ভূগোল'),
+      transport_population: L('Transport and Population', 'পরিবহণ ও জনসংখ্যা'),
     },
   },
   {
