@@ -128,8 +128,8 @@ function validatePatterns(doc, file = '') {
   });
 
   if (doc.registry !== undefined) {
-    if (doc.subject === 'quant' && doc.topic === 'profit_loss' && doc.registry.length !== 15) {
-      errors.push(`${at}: Profit & Loss registry must contain exactly 15 patterns`);
+    if (doc.subject === 'quant' && doc.topic === 'profit_loss' && doc.registry.length !== 16) {
+      errors.push(`${at}: Profit & Loss registry must contain exactly 16 patterns`);
     }
     const ids = new Set();
     doc.registry.forEach((pattern, i) => {

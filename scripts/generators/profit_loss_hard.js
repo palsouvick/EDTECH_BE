@@ -295,6 +295,52 @@ const gens = {
       shortcut: T('Count transport in the effective CP before measuring profit; discounts apply to MP, not CP.', 'লাভ হিসাবের আগে পরিবহন খরচ কার্যকর CP-তে যোগ করো; ছাড় MP-এর উপর, CP-এর উপর নয়।'),
     });
   },
+  expenses_target_markup: () => {
+    // Clean numbers only: the net result and the actual SP must have at most
+    // two decimal places. The fallback combo is the reported case (CP 1200,
+    // 15% overhead, 30% target profit, 50% markup, 50% discount -> 2.5% loss).
+    const clean = (v) => Math.abs(v * 100 - Math.round(v * 100)) < 1e-9;
+    let params = { cp: 1200, overheadPct: 15, targetProfitPct: 30, markupPct: 50, discountPct: 50 };
+    for (let attempt = 0; attempt < 50; attempt += 1) {
+      const cand = {
+        cp: pick([800, 1000, 1200, 1500]),
+        overheadPct: pick([5, 10, 15, 20]),
+        targetProfitPct: pick([10, 20, 25, 30]),
+        markupPct: pick([20, 25, 40, 50]),
+        discountPct: pick([10, 20, 25, 40, 50]),
+      };
+      const tc = cand.cp * (100 + cand.overheadPct) / 100;
+      const tsp = tc * (100 + cand.targetProfitPct) / 100;
+      const mp = tsp * (100 + cand.markupPct) / 100;
+      const sp = mp * (100 - cand.discountPct) / 100;
+      if (clean((sp - tc) / tc * 100) && clean(sp)) { params = cand; break; }
+    }
+    const { cp, overheadPct, targetProfitPct, markupPct, discountPct } = params;
+    const totalCost = cp * (100 + overheadPct) / 100;
+    const targetSP = totalCost * (100 + targetProfitPct) / 100;
+    const markedPrice = targetSP * (100 + markupPct) / 100;
+    const actualSP = markedPrice * (100 - discountPct) / 100;
+    const net = (actualSP - totalCost) / totalCost * 100;
+    return q('expenses_target_markup', {
+      stem: T(
+        `A trader buys an article for ₹${cp} and pays transport equal to ${overheadPct}% of CP. To earn ${targetProfitPct}% on the total cost he marks the price ${markupPct}% above the price needed for that profit, then gives a ${discountPct}% discount on it. What is his actual profit or loss percent?`,
+        `একজন ব্যবসায়ী ₹${cp}-এ একটি জিনিস কিনে CP-এর ${overheadPct}% পরিবহন খরচ দেন। মোট খরচে ${targetProfitPct}% লাভের জন্য প্রয়োজনীয় দামের চেয়ে তিনি ধার্যমূল্য ${markupPct}% বেশি রাখেন, তারপর ওই দামে ${discountPct}% ছাড় দেন। প্রকৃত লাভ বা ক্ষতি কত শতাংশ?`,
+      ),
+      answer: net,
+      format: (v) => (v === 0 ? T('No profit or loss (0%)', 'কোনো লাভ বা ক্ষতি নেই (0%)') : outcome(v)),
+      hints: [
+        [targetProfitPct, 'This treats the target selling price as the final price, ignoring the markup and the discount.', 'লক্ষ্য বিক্রয়দামকেই শেষ দাম ধরা হয়েছে; মার্কআপ ও ছাড় ধরা হয়নি।'],
+        [(actualSP - cp) / cp * 100, 'Profit was measured on the purchase price instead of the total cost including transport.', 'লাভ পরিবহনসহ মোট খরচের বদলে শুধু কেনা দামের উপর মাপা হয়েছে।'],
+      ],
+      steps: [
+        T(`Total cost = ₹${cp} + ${overheadPct}% of ₹${cp} = ₹${n2(totalCost)}.`, `মোট খরচ = ₹${cp} + ₹${cp}-এর ${overheadPct}% = ₹${n2(totalCost)}।`),
+        T(`Target SP for ${targetProfitPct}% profit on total cost = ₹${n2(totalCost)} × ${100 + targetProfitPct}/100 = ₹${n2(targetSP)}.`, `মোট খরচে ${targetProfitPct}% লাভের জন্য প্রয়োজনীয় দাম = ₹${n2(totalCost)} × ${100 + targetProfitPct}/100 = ₹${n2(targetSP)}।`),
+        T(`Marked price = ₹${n2(targetSP)} × ${100 + markupPct}/100 = ₹${n2(markedPrice)}; actual SP after ${discountPct}% discount = ₹${n2(markedPrice)} × ${100 - discountPct}/100 = ₹${n2(actualSP)}.`, `ধার্যমূল্য = ₹${n2(targetSP)} × ${100 + markupPct}/100 = ₹${n2(markedPrice)}; ${discountPct}% ছাড়ের পর প্রকৃত SP = ₹${n2(markedPrice)} × ${100 - discountPct}/100 = ₹${n2(actualSP)}।`),
+        T(`Net result on total cost = (₹${n2(actualSP)} − ₹${n2(totalCost)}) / ₹${n2(totalCost)} × 100 = ${n2(net)}%.`, `মোট খরচের উপর শেষ ফল = (₹${n2(actualSP)} − ₹${n2(totalCost)}) / ₹${n2(totalCost)} × 100 = ${n2(net)}%।`),
+      ],
+      shortcut: T('Add the transport cost to CP first, then follow the price chain: target SP → marked price → discounted SP. Profit or loss is always on the total cost.', 'আগে পরিবহন খরচ CP-তে যোগ করো, তারপর দামের শৃঙ্খল ধরো: লক্ষ্য SP → ধার্যমূল্য → ছাড়ের পর SP। লাভ বা ক্ষতি সবসময় মোট খরচের উপর।'),
+    });
+  },
   target_price: () => {
     const cp = pick([600, 800, 1000, 1200]);
     const expense = pick([5, 10, 15]);

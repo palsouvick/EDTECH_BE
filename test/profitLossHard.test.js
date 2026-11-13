@@ -7,10 +7,10 @@ const patternDoc = require('../db/patterns/quant/profit_loss');
 const { generateQuestions, validateQuestion } = require('../scripts/generators/profit_loss_hard');
 const { levelPools, selectHardProfitLoss } = require('../src/services/learn.service');
 
-test('Profit & Loss registry defines 15 patterns with valid difficulty and methods', () => {
-  assert.equal(patternDoc.registry.length, 15);
+test('Profit & Loss registry defines 16 patterns with valid difficulty and methods', () => {
+  assert.equal(patternDoc.registry.length, 16);
   assert.deepEqual(validatePatterns(patternDoc), []);
-  assert.equal(new Set(patternDoc.registry.map((pattern) => pattern.id)).size, 15);
+  assert.equal(new Set(patternDoc.registry.map((pattern) => pattern.id)).size, 16);
   assert.ok(patternDoc.registry.every((pattern) => pattern.concepts.length >= 2 && pattern.generationRule && pattern.solutionMethod));
 });
 
@@ -29,11 +29,11 @@ test('every registered generator produces a valid bilingual four-option question
   }
 });
 
-test('100 generated hard questions are unique and cover all 15 patterns', () => {
+test('100 generated hard questions are unique and cover all 16 patterns', () => {
   const questions = generateQuestions(100, { seed: 20261027 });
   assert.equal(questions.length, 100);
   assert.equal(new Set(questions.map((question) => question.fingerprint)).size, 100);
-  assert.equal(new Set(questions.map((question) => question.pattern)).size, 15);
+  assert.equal(new Set(questions.map((question) => question.pattern)).size, 16);
   for (const question of questions) {
     assert.deepEqual(validateQuestion(question), []);
     assert.ok(question.solution.steps.length >= 3);

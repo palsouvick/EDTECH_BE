@@ -680,6 +680,49 @@ module.exports = {
         ],
       },
     },
+
+    // 16 ─────────────────────────────────────────────
+    {
+      key: 'expenses_target_markup',
+      registryLinked: true,
+      emoji: '🎯',
+      name: t('Markup on the target price', 'লক্ষ্য দামের উপর মার্কআপ'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“Pays transport equal to x% of CP, marks the price y% above the price needed for a target profit on total cost, then gives a z% discount. Find the actual profit or loss %.”', '“CP-এর x% পরিবহন খরচ দেন, মোট খরচে লক্ষ্য লাভের জন্য প্রয়োজনীয় দামের চেয়ে y% বেশি ধার্যমূল্য রাখেন, তারপর z% ছাড় দেন। প্রকৃত লাভ বা ক্ষতি % কত?”'),
+      formula: t(r`Total cost $= CP + \text{overheads}$; target $SP = \text{total cost} \times \frac{100 + p}{100}$; $MP = \text{target } SP \times \frac{100 + m}{100}$; actual $SP = MP \times \frac{100 - d}{100}$; result % $= \frac{\text{actual } SP - \text{total cost}}{\text{total cost}} \times 100$.`, r`মোট খরচ $= CP + \text{অতিরিক্ত খরচ}$; লক্ষ্য $SP = \text{মোট খরচ} \times \frac{100 + p}{100}$; $MP = \text{লক্ষ্য } SP \times \frac{100 + m}{100}$; প্রকৃত $SP = MP \times \frac{100 - d}{100}$; ফল % $= \frac{\text{প্রকৃত } SP - \text{মোট খরচ}}{\text{মোট খরচ}} \times 100$।`),
+      shortcut: t(r`Follow the price chain in order: total cost → target SP → MP → discounted SP, and measure the result once against the total cost.`, r`দামের শৃঙ্খলটি ক্রমে ধরো: মোট খরচ → লক্ষ্য SP → ধার্যমূল্য → ছাড়ের পর SP, এবং ফলটি একবার মোট খরচের সঙ্গে মাপো।`),
+      trap: t('The target SP is not the final SP: the markup is applied on top of it, and the discount is taken off the marked price. Stopping at the target SP reports the target profit instead of the actual result.', 'লক্ষ্য SP-ই শেষ SP নয়: তার উপর মার্কআপ যোগ হয়, আর ছাড় কাটা হয় ধার্যমূল্য থেকে। লক্ষ্য SP-তে থেমে গেলে লক্ষ্য লাভকেই আসল ফল বলে মনে হয়।'),
+      spot: t(
+        'The question first fixes a **target profit on the total cost** (including transport), then marks the price **above that target price** — not above CP — and finally gives a discount.',
+        'প্রশ্নে প্রথমে মোট খরচের (পরিবহনসহ) উপর একটি **লক্ষ্য লাভ** ঠিক করা হয়, তারপর দাম লেখা হয় সেই **লক্ষ্য দামের চেয়ে বেশি** — CP-এর চেয়ে বেশি নয় — এবং শেষে ছাড় দেওয়া হয়।',
+      ),
+      method: [
+        t('Add the overhead to CP first: this total is the effective CP and the base for profit %.', 'আগে CP-তে অতিরিক্ত খরচ যোগ করো: এই মোটই কার্যকর CP এবং লাভ %-এর ভিত্তি।'),
+        t('Find the target SP for the stated profit on the total cost.', 'মোট খরচের উপর বলা লাভের জন্য লক্ষ্য SP বের করো।'),
+        t('Mark up the target SP, then apply the discount to the marked price to get the actual SP.', 'লক্ষ্য SP-এর উপর মার্কআপ যোগ করো, তারপর ধার্যমূল্যে ছাড় প্রয়োগ করে প্রকৃত SP বের করো।'),
+        t('Result % = (actual SP − total cost) ÷ total cost × 100; a negative result is a loss.', 'ফল % = (প্রকৃত SP − মোট খরচ) ÷ মোট খরচ × 100; ঋণাত্মক ফল মানে ক্ষতি।'),
+      ],
+      example: {
+        question: t('A trader buys an article for ₹1200 and pays transport equal to 15% of CP. To earn 30% on the total cost he marks the price 50% above the price needed for that profit, then gives a 50% discount on it. What is his actual profit or loss percent?', 'একজন ব্যবসায়ী ₹1200-এ একটি জিনিস কিনে CP-এর 15% পরিবহন খরচ দেন। মোট খরচে 30% লাভের জন্য প্রয়োজনীয় দামের চেয়ে তিনি ধার্যমূল্য 50% বেশি রাখেন, তারপর ওই দামে 50% ছাড় দেন। প্রকৃত লাভ বা ক্ষতি কত শতাংশ?'),
+        steps: [
+          t('Total cost = 1200 + 15% of 1200 = ₹1380.', 'মোট খরচ = 1200 + 1200-এর 15% = ₹1380।'),
+          t('Target SP = 1380 × 130/100 = ₹1794.', 'লক্ষ্য SP = 1380 × 130/100 = ₹1794।'),
+          t('Marked price = 1794 × 150/100 = ₹2691; actual SP after 50% discount = 2691 × 50/100 = ₹1345.50.', 'ধার্যমূল্য = 1794 × 150/100 = ₹2691; 50% ছাড়ের পর প্রকৃত SP = 2691 × 50/100 = ₹1345.50।'),
+          t(r`Result % $= \frac{1345.50 - 1380}{1380} \times 100 = -2.5\%$, a loss of 2.5%.`, r`ফল % $= \frac{1345.50 - 1380}{1380} \times 100 = -2.5\%$, অর্থাৎ 2.5% ক্ষতি।`),
+        ],
+        answer: t('2.5% loss', '2.5% ক্ষতি'),
+      },
+      tryIt: {
+        question: t('A trader buys an article for ₹800 and pays transport equal to 10% of CP. To earn 25% on the total cost he marks the price 40% above the price needed for that profit, then gives a 25% discount on it. What is his actual profit or loss percent?', 'একজন ব্যবসায়ী ₹800-এ একটি জিনিস কিনে CP-এর 10% পরিবহন খরচ দেন। মোট খরচে 25% লাভের জন্য প্রয়োজনীয় দামের চেয়ে তিনি ধার্যমূল্য 40% বেশি রাখেন, তারপর ওই দামে 25% ছাড় দেন। প্রকৃত লাভ বা ক্ষতি কত শতাংশ?'),
+        options: [t('31.25% profit', '31.25% লাভ'), t('25% profit', '25% লাভ'), t('40% profit', '40% লাভ'), t('31.25% loss', '31.25% ক্ষতি')],
+        correct: 0,
+        explanation: [
+          t('Total cost = 800 + 10% of 800 = ₹880. Target SP = 880 × 125/100 = ₹1100.', 'মোট খরচ = 800 + 800-এর 10% = ₹880। লক্ষ্য SP = 880 × 125/100 = ₹1100।'),
+          t('Marked price = 1100 × 140/100 = ₹1540; actual SP = 1540 × 75/100 = ₹1155, so result = (1155 − 880) / 880 × 100 = 31.25% profit.', 'ধার্যমূল্য = 1100 × 140/100 = ₹1540; প্রকৃত SP = 1540 × 75/100 = ₹1155, তাই ফল = (1155 − 880) / 880 × 100 = 31.25% লাভ।'),
+        ],
+      },
+    },
   ],
   registry: [
     { id: 'mixed_sales', difficulty: 4, band: 'hard', concepts: ['profit', 'loss', 'weighted_average'], generationRule: 'Split equal-cost articles across different profit and loss rates.', solutionMethod: 'Compute aggregate CP and aggregate SP, then compare once.', name: t('Mixed profit and loss sales', 'মিশ্র লাভ-ক্ষতিতে বিক্রি') },
@@ -692,6 +735,7 @@ module.exports = {
     { id: 'reverse_conditions', difficulty: 5, band: 'advanced_hard', concepts: ['reverse_cost_price', 'discount', 'profit_loss'], generationRule: 'Recover CP from an MP, a discount, and a realized profit; recompute under a second selling condition.', solutionMethod: 'Reverse the first condition to find CP, then apply the alternative discount and compare.', name: t('Reverse CP under two conditions', 'দুই শর্তে উল্টো CP নির্ণয়') },
     { id: 'combined_articles', difficulty: 5, band: 'advanced_hard', concepts: ['multiple_articles', 'different_cost_prices', 'combined_profit_loss'], generationRule: 'Combine two batches with different unit costs and different selling rates.', solutionMethod: 'Find each batch’s total CP and SP, then compare the grand totals.', name: t('Combined batches', 'একাধিক দলের সম্মিলিত হিসাব') },
     { id: 'expenses', difficulty: 4, band: 'hard', concepts: ['additional_expenses', 'marked_price', 'discount'], generationRule: 'Include overhead in effective CP, then account for markup and discount.', solutionMethod: 'Add expenses to CP before measuring gain or loss; apply discount to MP.', name: t('Profit after expenses', 'অতিরিক্ত খরচের পর লাভ') },
+    { id: 'expenses_target_markup', difficulty: 4, band: 'hard', concepts: ['additional_expenses', 'target_profit', 'marked_price', 'discount'], generationRule: 'Mark up the price needed for a target profit on total cost, then discount it.', solutionMethod: 'Work the price chain total cost → target SP → marked price → discounted SP, then compare with total cost.', name: t('Markup on the target price', 'লক্ষ্য দামের উপর মার্কআপ') },
     { id: 'target_price', difficulty: 3, band: 'medium_hard', concepts: ['target_profit', 'additional_expenses', 'discount'], generationRule: 'Find the MP required to earn a target rate after overhead and a discount.', solutionMethod: 'Work forward from total cost to target SP, then reverse the discount.', name: t('MP for a target profit', 'লক্ষ্য লাভের জন্য MP') },
     { id: 'price_changes', difficulty: 4, band: 'hard', concepts: ['price_change', 'successive_percentage', 'profit_loss'], generationRule: 'Recompute gain or loss after changes to both CP and SP, including a discount.', solutionMethod: 'Represent each sequential price change as a multiplier and compare final SP to new CP.', name: t('Changing CP and SP', 'CP ও SP-র পরিবর্তন') },
     { id: 'ratio_based', difficulty: 5, band: 'advanced_hard', concepts: ['ratio', 'weighted_average', 'profit_loss'], generationRule: 'Combine unequal gain/loss rates using a ratio of total cost prices.', solutionMethod: 'Scale CPs by the stated ratio, calculate signed profit amounts, and divide by total CP.', name: t('Ratio-based combined result', 'অনুপাতভিত্তিক সম্মিলিত ফল') },
