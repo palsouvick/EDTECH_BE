@@ -9,6 +9,23 @@ const apiRoutes = require('./routes');
 const { notFoundHandler, errorHandler } = require('./middleware/errorHandler');
 const { getQuestionBankMemory } = require('./services/questionBankStatus.service');
 
+const DB_STATES = { 0: 'disconnected', 1: 'connected', 2: 'connecting', 3: 'disconnecting' };
+
+/**
+ * While the database is not connected (start-up, or a dropped connection the
+ * driver is restoring), API calls get an immediate, explicit 503 with
+ * Retry-After instead of queueing inside Mongoose for 10 s and then failing
+ * as a 500 — and the frontend knows it can simply retry.
+ */
+function requireDatabase(_req, res, next) {
+  if (mongoose.connection.readyState === 1) return next();
+  res.set('Retry-After', '5');
+  res.status(503).json({
+    success: false,
+    error: { code: 'DB_UNAVAILABLE', message: 'The server is starting up. Please try again in a moment.' },
+  });
+}
+
 function createApp() {
   const app = express();
 
@@ -22,15 +39,20 @@ function createApp() {
   app.use('/api/v1/admin/gk/import', express.json({ limit: '2mb' }));
   app.use(express.json({ limit: '100kb' }));
 
+  // Liveness, not readiness: HTTP 200 whenever this process can answer at all.
+  // The hosting platform restarts a service whose health check fails, and a
+  // restart never helps a database that is unreachable or still connecting —
+  // it only adds a cold start and a burst of 502s. So the database state is
+  // reported in the body ("degraded"), never as a failing status code. The
+  // question bank likewise reports its own state: a bank still initializing on
+  // a fresh deploy must not fail the check. Served from memory, no DB query.
   app.get('/healthz', (_req, res) => {
     const up = mongoose.connection.readyState === 1;
-    // The question bank reports its own state alongside the app's: a bank that
-    // is still initializing on a fresh deploy must NOT fail the health check
-    // (the app serves normally while it fills), but the state is visible.
-    // Served from the in-memory mirror — no database query on the health path.
     const bank = getQuestionBankMemory();
-    res.status(up ? 200 : 503).json({
+    res.status(200).json({
       status: up ? 'ok' : 'degraded',
+      db: DB_STATES[mongoose.connection.readyState] || 'unknown',
+      uptime_s: Math.round(process.uptime()),
       questionBank: {
         status: bank.status,
         version: bank.version,
@@ -39,7 +61,7 @@ function createApp() {
     });
   });
 
-  app.use('/api/v1', apiRoutes);
+  app.use('/api/v1', requireDatabase, apiRoutes);
 
   app.use(notFoundHandler);
   app.use(errorHandler);

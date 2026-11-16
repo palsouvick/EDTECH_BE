@@ -383,6 +383,8 @@ additive; no existing collection is rewritten.
 
 ## Production notes
 
+**Restarts and 502s.** The HTTP port opens before the database connects, and the process never exits because of the database: `connectWithRetry` ([src/db/connection.js](src/db/connection.js)) keeps trying with exponential back-off (1 s → 30 s) and logs every attempt as `[db] …`. While the database is not connected, `GET /healthz` still answers **200** with `"status":"degraded","db":"connecting|disconnected"` (a restart cannot fix an unreachable database, so the health check must not trigger one), and every `/api/v1` call gets an immediate `503 DB_UNAVAILABLE` with `Retry-After: 5` instead of a proxy 502; the frontend retries reads on 502/503/504 by itself. The only exits are a configuration error at start-up (missing `AUTH_SECRET`, unknown `NODE_ENV`, port in use: logged as `[fatal] startup error`) and an uncaught exception (`[fatal] uncaught exception`); unhandled promise rejections are logged and do not stop the server. `KEEP_ALIVE_TIMEOUT_MS` (default 65 s) keeps Node's idle keep-alive above the proxy's, which otherwise causes sporadic 502s on a healthy server. On Render's free plan the service still sleeps after 15 minutes without traffic and needs roughly a minute to wake; that is the one 502 this code cannot prevent.
+
 - Rate limiters use the in-process MemoryStore. Behind a load balancer with several instances, give each limiter a shared store (`rate-limit-redis`).
 - Set `TRUST_PROXY_HOPS` to the real number of proxies, or IP-based limits will key on the proxy.
 - Practice retries count towards `stats`. If you want first-attempt-only difficulty, track per-user attempts and only record the first.
