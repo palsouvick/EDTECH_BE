@@ -161,7 +161,7 @@ test('validator: Geography has a "locate it" table instead of a timeline, and ma
   assert.deepEqual(validateChapter(geo({ sources: govt })), [], 'official *.gov.in pages are allowed for Geography');
   assert.ok(codes(chapter({ sources: govt })).includes('SOURCE_NOT_ALLOWED'), 'but not for History');
   assert.ok(codes(geo({ sources: [{ id: 's1', title: 'x', url: 'https://example.com/a' }] })).includes('SOURCE_NOT_ALLOWED'));
-  assert.ok(codes({ ...geo(), book: 'polity' }).includes('BAD_BOOK'));
+  assert.ok(codes({ ...geo(), book: 'polity' }).includes('BAD_CODE'), 'a Geography chapter is not a Polity chapter');
 });
 
 test('the real Geography folder: table of contents 1-16 in four parts, every chapter file valid', () => {
@@ -170,6 +170,18 @@ test('the real Geography folder: table of contents 1-16 in four parts, every cha
   assert.ok(toc.CHAPTERS.every((c) => toc.PARTS.some((p) => p.code === c.part)));
   const real = books.loadBook('geography', { dir: path.join(__dirname, '../db/books'), fresh: true });
   assert.deepEqual(real.errors, [], 'every chapter file in db/books/geography passes the validator');
+});
+
+test('the real Polity folder: table of contents 1-22 in seven parts, empty PYQ map, no chapters written yet', () => {
+  const toc = require('../db/books/polity/toc.js');
+  assert.deepEqual(toc.CHAPTERS.map((c) => c.number), Array.from({ length: 22 }, (_, i) => i + 1));
+  assert.deepEqual(toc.PARTS.map((p) => p.code), ['foundation', 'rights_duties', 'union_govt', 'judiciary', 'state_federal', 'bodies_elections_local', 'revision']);
+  assert.ok(toc.CHAPTERS.every((c) => toc.PARTS.some((p) => p.code === c.part)));
+  const real = books.loadBook('polity', { dir: path.join(__dirname, '../db/books'), fresh: true });
+  assert.deepEqual(real.errors, []);
+  assert.equal(real.chapters.size, 0, 'no Polity chapter file written yet');
+  assert.deepEqual(Object.keys(real.pyqMap).sort(), toc.CHAPTERS.map((c) => c.code).sort());
+  assert.ok(Object.values(real.pyqMap).every((v) => Array.isArray(v) && v.length === 0), 'PYQ map is an empty skeleton');
 });
 
 test('the real book folder: table of contents has chapters 0-28 and every chapter file is valid', () => {
@@ -197,7 +209,7 @@ test('table of contents: published chapters are available, drafts and unwritten 
   assert.equal(byCode['HIS-22'].available, false, 'a DRAFT chapter is hidden from students');
   assert.equal(byCode['HIS-03'].available, false);
   assert.equal((await get('/books/history?preview=1')).body.data.chapters.find((c) => c.code === 'HIS-22').available, false, 'preview needs an admin');
-  assert.equal((await get('/books/polity')).status, 400);
+  assert.equal((await get('/books/polity')).status, 404, 'a known book whose folder is not there yet');
   assert.equal((await get('/books/geography')).status, 404, 'a known book whose folder is not there yet');
 });
 

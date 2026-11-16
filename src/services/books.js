@@ -20,6 +20,7 @@ const ROOT = process.env.BOOKS_DIR || path.join(__dirname, '../../db/books');
 const BOOKS = Object.freeze({
   history: { dir: 'history', topic: 'indian_history', prefix: 'HIS' },
   geography: { dir: 'geography', topic: 'geography', prefix: 'GEO' },
+  polity: { dir: 'polity', topic: 'polity', prefix: 'POL' },
 });
 /** Any book's chapter code (HIS-02, GEO-03). */
 const CHAPTER_CODE = /^[A-Z]{3}-\d{2}$/;

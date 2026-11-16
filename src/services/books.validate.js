@@ -34,6 +34,7 @@ const subtopicsOf = (card) => new Set(Object.keys(CARDS.find((c) => c.code === c
 /**
  * What differs between books. `dated` books (History) must have events, people and a timeline; Geography has
  * no timeline and instead must have a "Locate it" table (`locate`: place → where → what it is known for).
+ * Polity is Geography-style (`dated: false`, GOVT publishers allowed) but has no `locate` table.
  */
 const PROFILES = Object.freeze({
   history: {
@@ -49,6 +50,15 @@ const PROFILES = Object.freeze({
     maxNumber: 16,
     parts: ['india_land', 'india_resources', 'west_bengal', 'earth_world'],
     subtopics: subtopicsOf('geography'),
+    publishers: ['NCERT', 'WBBSE', 'GOVT'],
+    dated: false,
+    locate: true,
+  },
+  polity: {
+    prefix: 'POL',
+    maxNumber: 22,
+    parts: ['foundation', 'rights_duties', 'union_govt', 'judiciary', 'state_federal', 'bodies_elections_local', 'revision'],
+    subtopics: subtopicsOf('polity'),
     publishers: ['NCERT', 'WBBSE', 'GOVT'],
     dated: false,
   },
@@ -159,8 +169,8 @@ function validateChapter(ch) {
     }
   }
   for (const key of profile.dated ? ['events', 'people', 'terms', 'exam_focus'] : ['terms', 'exam_focus']) if (Array.isArray(ch[key]) && !ch[key].length) err(key, 'EMPTY', `${key} must not be empty`);
-  if (!profile.dated) {
-    // "Locate it": place → where → what it is known for.
+  if (profile.locate) {
+    // "Locate it": place → where → what it is known for (Geography only).
     if (!Array.isArray(ch.locate) || ch.locate.length < MIN_LOCATE) err('locate', 'REQUIRED', `at least ${MIN_LOCATE} "locate it" rows`);
     for (const [i, x] of (Array.isArray(ch.locate) ? ch.locate : []).entries()) {
       for (const k of ['place', 'where', 'about']) if (!str(x[k]) || !BENGALI.test(x[k])) err(`locate[${i}].${k}`, 'NOT_BENGALI', `Bengali ${k} required`);
