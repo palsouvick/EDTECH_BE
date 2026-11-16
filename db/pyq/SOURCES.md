@@ -1,6 +1,6 @@
 # PYQ sources (official papers only — two documented exceptions)
 
-Last checked 11 November 2026. Every imported question comes from a question paper and an
+Last checked 16 November 2026. Every imported question comes from a question paper and an
 answer key that the commission itself publishes. Every answer is the one in the official key.
 Questions that the key marks `*` (marks awarded to all candidates) were skipped.
 Exceptions, both documented in the notes below: the WBCS 2023 paper (unofficial compilation,
@@ -33,6 +33,7 @@ unofficial reproductions, answers cross-checked — owner-approved 11 Nov 2026).
 | `wbcs-prelims-2017.json` | WBCS (Exe.) etc. Preliminary Examination, 2017 (held 29.01.2017), **Test Booklet Series D** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133424_WBCS(P)-2017_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers cross-checked across two independent compilations matched by question text, disagreements adjudicated on merits (see below) | 199 of 200 |
 | `wbcs-prelims-2016.json` | WBCS (Exe.) etc. Preliminary Examination, 2016, **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133357_WBCS(P)-2016_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers taken from one full solved compilation cross-checked question-by-question against the transcription, disagreements adjudicated on merits (see below); **the PSC scan itself is missing 6 booklet pages, so 36 questions are not imported** | 163 of 200 |
 | `wbcs-prelims-2015.json` | WBCS (Exe.) etc. Preliminary Examination, 2015, **Test Booklet Series D** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133227_WBCS(P)-2015_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers taken from one full solved compilation cross-checked question-by-question against the transcription, disagreements adjudicated on merits (see below); **the PSC scan itself is missing 6 booklet pages, so 34 questions are not imported** | 166 of 200 |
+| `misc-2023.json` | Miscellaneous Services Recruitment (Prelims) Examination, 2023 (Advt. 11/2023, held 15.09.2024), GS, Arithmetic, English & Reasoning, **Test Booklet Series A** (bilingual: English + Bengali) | https://psc.wb.gov.in/Download?param1=20250831234054_MISCELLANEOUS_SERVICES_RECRUITMENT_PRELI_EXM_2023_11_2023.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202503171627_Final_Ans_Key_Miscellaneous_Preli_2023.pdf&param2=advertisement | **Final**, notice No. 651-PSC/CON(Q), 13 Mar 2025 — Series A column machine-parsed from the official PDF and verified 97/97 | 97 of 100 transcribed (3 skipped: key marks `*`); **96 appear under this exam in the bank** — Q88 shares its stem with WBCS 2023 Q27 (same answer, Bengal Gazette) and the later file's ref wins (see the Miscellaneous notes below) |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -98,6 +99,53 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
 - **Explanations** (English and Bengali) are ours, written to agree with the official key.
 - **Low-confidence explanation:** WBCS Q172 (Howrah's child sex ratio, Census 2011). The key
   answer is used, but we could not confirm the exact Census figures, so the explanation gives none.
+
+### Notes on Miscellaneous 2023 (Series A) — imported 16 Nov 2026
+
+- **Scanned PDF.** The paper is an image scan with no text layer (PaperStream
+  Capture). Questions were transcribed page by page from rendered images (200 dpi),
+  English from the left column and Bengali from the right column, exactly as printed.
+  The final key (Notice 651-PSC/CON(Q)) is a text PDF; its Series A column was
+  machine-parsed from the PDF (bbox coordinates) and every one of the 97 imported
+  answers was checked against it. Spot checks against known facts also agree
+  (Q1 V. Gordon Childe, Q4 Ashoka, Q100 Vikram Sarabhai).
+- **Q35 (clock angle at 9:15).** The exact angle is 187.5°, which is not among the
+  options (100°, 115°, 360°, 180°); the key's 180° is the closest option, and the
+  paper instructs candidates to pick the "correct or the best" answer. Kept, with an
+  explanation that states the exact value and that 180° is the closest option the key
+  marks. This is not a wrong-key case (contrast Clerkship 2019 below).
+- **Printed as printed.** Q31 English is ungrammatical in the paper ("After going
+  enlightenment…"); Q43 prints "Noble Prize" in English (Bengali correctly says
+  নোবেল); Q48 option D carries a Bengali gloss "(দশমিক)" the English lacks; Q76
+  ends mid-sentence in both languages ("is a famous Indian" / "বিখ্যাত ভারতীয়") with
+  the options supplying the missing word. All transcribed verbatim, not fixed.
+- **Q88 stem collision.** "Name the first newspaper in India." is word-for-word the
+  stem of WBCS Prelims 2023 Q27. Both keys point to Bengal Gazette (Misc option A,
+  WBCS option C), so the collision is benign — but the importer's stem identity means
+  the bank keeps one document under the later file's (WBCS 2023) ref, and Misc shows
+  96 questions in the bank rather than 97. Nothing was changed to work around it.
+- **Assistant Engineer (Electrical) 2020 — NOT imported; the key does not answer the
+  paper.** The paper AEM/20, Series B (Group A Electrical, Group B Mechanical) and the
+  final key for AE (Electrical) PWD Rectt. Exam-2020 (Notice 490-PSC/CON(Q), 12 Dec
+  2024, exam date 30.06.2024) were both downloaded, but the key contradicts this
+  paper throughout Series B — verified against the printed options: Q1 oil cooling
+  (key A, should be C), Q2 half-wave efficiency (key D, should be A 40.60%), Q5 damped
+  frequency (key A, should be D 8.8 rad/s), Q6 auto-transformer starting torque (key B,
+  should be C 50 N-m), Q7 greenhouse gas (key B, should be A CO₂), Q73 donor band
+  (key C Acceptor, should be D Donor), Q77 captive generation (key D §20, should be
+  B §9), Q78 impedance matrix (key D, should be B [[1,−1],[−1,2]]), Q79 relay pickup
+  (key D 10 A, should be C 7.5 A), Q80 power-transformer efficiency (key A No load,
+  should be D Full load), Q94 rural-electrification section (key D §9, should be
+  B §4), Q96 Poise (key B Mass Density, should be C Dynamic Viscosity), Q97 matrix
+  with an inverse (key D, should be A Non-singular), Q99 Laplace of unit impulse
+  (key B s, should be C 1), Q100 domestic wiring (key A series, should be B parallel).
+  For Q73, Q78, Q79, Q96, Q99 and Q100 **no series column at all** gives the textbook
+  answer, so this is not a column mix-up — the key belongs to a different sitting/paper
+  than AEM/20 (the key's exam date is 30.06.2024; the paper file was posted Dec 2021).
+  Nothing from AE 2020 was imported. A faithful transcription of Group A (89 of the 91
+  answerable questions; Q72 fell between transcription ranges and Q57 is unaccounted)
+  is kept as a draft in `~/workspace/pyq-work/ae2020/` for reuse if the matching key is
+  ever found. Group B (Mechanical) has no key in hand at all.
 
 ### Notes on IDO 2019 (Series A)
 
@@ -418,14 +466,27 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   named past event — e.g. Q.163 "in January 2019", Q.164 "till April 2019", the 2018
   award questions Q.153/Q.154 — were kept.)
 
+**Miscellaneous 2023 (Series A)**
+
+- Q29, Q59 and Q64 were cancelled in the key (`*`).
+- Q88 — not skipped on content grounds: its stem collides with WBCS 2023 Q27 (see
+  the Miscellaneous notes above); the bank keeps the WBCS ref for that document.
+- Q35 — kept; see the Miscellaneous notes above (exact angle 187.5°, key's 180° is the
+  closest option).
+
 ## Found but not imported (official, usable in a later pass)
 
 | Exam | Paper | Answer key | Status |
 |---|---|---|---|
-| Miscellaneous Services Rectt. Exam (Prelim) 2023, Advt. 11/2023, held 15.09.2024 (bilingual, Series A booklet) | https://psc.wb.gov.in/Download?param1=20250831234054_MISCELLANEOUS_SERVICES_RECRUITMENT_PRELI_EXM_2023_11_2023.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202503171627_Final_Ans_Key_Miscellaneous_Preli_2023.pdf&param2=advertisement (Final, 13.03.2025) | Scanned and legible; not imported this pass (kept to 2 papers for quality) |
+| Miscellaneous Services Rectt. Exam (Prelim) 2023, Advt. 11/2023, held 15.09.2024 (bilingual, Series A booklet) | https://psc.wb.gov.in/Download?param1=20250831234054_MISCELLANEOUS_SERVICES_RECRUITMENT_PRELI_EXM_2023_11_2023.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202503171627_Final_Ans_Key_Miscellaneous_Preli_2023.pdf&param2=advertisement (Final, 13.03.2025) | **Imported 16 Nov 2026** (see the Imported table) |
+| Assistant Engineer (Electrical) PWD Rectt. Exam 2020, Advt. 21/2020, held 30.06.2024 | Paper AEM/20, Series B — Group A Electrical + Group B Mechanical, 100 MCQ each (file `…20211223143428_ASSTENGINEERELECTRIALMECHANICAL.pdf`) | Final key Notice 490-PSC/CON(Q), 12 Dec 2024, Q1–100 Series A–D (file `…20241213164144_AE_PWD_FAK.pdf`) | **HELD — the key does not answer this paper** (see the Miscellaneous notes above): Series B contradicts the printed options throughout, and no series column gives the right answer for Q73/Q78/Q79/Q96/Q99/Q100. Transcription drafted in `~/workspace/pyq-work/ae2020/`; import only if the matching key is found. Group B (Mechanical) has no key at all |
+| Assistant Engineer (Civil) 2020, Series A, 100 MCQ (CEA/20) | File `…20210302121645_ASSTTENGR-CIVIL-2020.pdf` | No final key in hand | Held — no key |
+| Assistant Engineer (Electrical/Mechanical) 2022, Series D, 200 Q (100 per group) | File `…20240318165623_ASTTENGGMECELEC-2022.pdf` | No final key in hand | Held — no key |
+| Junior Engineer (Civil/Electrical/Mechanical) Rectt. Exam 2022, Advt. 9/2022, Series A, 100 MCQ each | Files `…20231106130311_JrEngg2022_Civil_.pdf`, `…20231106130342_JrEngg2022_Elect_.pdf`, `…20231106130417_JrEngg2022_Mech_.pdf` | **No final key in hand** — only a corrigendum to key Notice 1099-PSC/Con(Q) dt. 19.12.2023 (file `…20231221170519_CorriJE.pdf`), which names no question or series | Held — the Notice 1099 key itself is still missing |
+| Audit & Accounts Service, Prelim 2022, Series C, 200 MCQ | File `…20231106125919_Audit_account_P_-2022.pdf` (downloaded twice under two names; one paper) | No final key in hand | Held — no key. The Main papers (Macroeconomics & Public Finance 2021, Compulsory English 2022, Business Management 2020, Advanced Accountancy 2020) are descriptive and stay out of the MCQ bank; English Composition (Prelim) 2020/2021, Series B, 200 Q, is also held for lack of a key |
 | Clerkship (Part-I) 2023, Sessions II, III, IV | `…20241122165330_ClerkshipS-II.pdf`, `…20241122165426_Clerkship-III.pdf`, `…20241122165548_ClerkshipS-IV.pdf` (all `&param2=PYQP`) | Final: `…202505191630_Session-II.pdf`, `…202505191631_Session-III.pdf`, `…202505191632_Session-IV.pdf` (all `&param2=advertisement`) | **Imported 11 Nov 2026** (see the Imported table) |
 | — (imported; see the Imported table) WBCS (Exe.) Prelims 2023 | — | — | Imported 4 Nov 2026 under the user's exception, from the wbcs.in compilation, answers verified against the official final key |
-| Miscellaneous Prelims 2024 | No question paper on the PYQ page | Provisional key only: `…202610051802_Provisional_AK_Miscellaneous_Preli_2024.pdf` | Skipped: no paper, and the key is provisional |
+| Miscellaneous Prelims 2024 | No question paper on the PYQ page | **Final key downloaded 16 Nov 2026**: Notice 1250-PSC/CON(Q), 6 Nov 2026, Q1–100 Series A–D (file `…20261106170023_MSRE24_Preli_FAK.pdf`); supersedes the older "provisional key only" note | Skipped: still no paper to pair the key with |
 | Clerkship 2019 (FN/AN) | On the PYQ page | Final key found on What's New: notice No. 72-PSC/Con(Q), 5 Feb 2020 | **Imported 11 Nov 2026** (see the Imported table). The Part-II files (`CLERKSHIP_Q_compressed.pdf`, FCP/SFCP) are descriptive papers and stay out of the MCQ catalogue |
 | WBCS Main 2023 | `…20250409145828_WBCS_Main_2023.pdf` | Keys for compulsory Papers III-VI are listed (`…ANSWERKEYOFCOMPULSORY(PAPER-III…VI)WBCS(MAIN)-2023.pdf`) | Not checked; Mains is outside the prelims-style catalogue for now |
 
@@ -457,13 +518,13 @@ PDFs through the live browser and place them where the importer can read them.
 
 | Exam | Verdict | Evidence / reason |
 |---|---|---|
-| WBPSC Miscellaneous 2023 (Prelims, 15 Sep 2024) | SOURCED-BUT-UNREACHABLE | Final key Notice No. 651-PSC/CON(Q), 13 Mar 2025. Paper + key URLs already held (see "Found but not imported" above). Closest gap; needs browser download. |
-| WBPSC Miscellaneous 2024 (Prelims, 4 Oct 2026) | SOURCED-BUT-UNREACHABLE | Final key Notice No. 1250-PSC/CON(Q), 6 Nov 2026. Supersedes the older "provisional key only" row above. Paper URL not captured. |
+| WBPSC Miscellaneous 2023 (Prelims, 15 Sep 2024) | **IMPORTED 16 Nov 2026** | Paper + final key downloaded via the browser; 97 transcribed, 96 in the bank under this exam (see the Imported table). |
+| WBPSC Miscellaneous 2024 (Prelims, 4 Oct 2026) | SOURCED — KEY ONLY | Final key Notice No. 1250-PSC/CON(Q), 6 Nov 2026, downloaded 16 Nov 2026. Paper still missing — import becomes possible only if the 2024 paper is obtained. |
 | WBPSC Miscellaneous 2019 | PARTIAL | Paper exists; provisional key No. 138-PSC/Con.(Q), 11 Mar 2020. A revised key was reported Oct 2020 but its notice/URL could not be captured. |
 | WBPSC Miscellaneous 2018 | UNSOURCED | No official final/revised key located. |
-| WBPSC Audit & Accounts Service 2020/2021/2022 | SOURCED-BUT-UNREACHABLE | Final/revised keys: 2020 cycle 26 Aug 2021; 2021 cycle 19 Sep 2022 (No. 436 CON(Q)); 2022 cycle 15 Dec 2023. Papers on the PSC PYQ page. 2019 cycle: provisional key only. |
-| WBPSC Junior Engineer 2022 cycle (exam 30 Jul 2023) | SOURCED-BUT-UNREACHABLE | Final keys: Civil No. 1099-PSC/Con.(Q), 19 Dec 2023; Electrical 12 Mar 2024. Mechanical final key unconfirmed — verify before importing Mechanical. |
-| WBPSC Assistant Engineer | SOURCED-BUT-UNREACHABLE | Civil 2020 final key 22 Feb 2021; Mech/Elec 2020 (revised) 6 Jan 2022; Mech/Elec 2022 final keys No. 170/171, 8 Apr 2024. |
+| WBPSC Audit & Accounts Service 2020/2021/2022 | PAPERS DOWNLOADED 16 Nov 2026 — STILL HELD | Main papers are descriptive (out of scope for the MCQ bank). Prelim 2022 (Series C, 200 MCQ) and English Composition (Series B, 200 Q) held: no final key in hand. |
+| WBPSC Junior Engineer 2022 cycle (exam 30 Jul 2023) | PAPERS DOWNLOADED 16 Nov 2026 — STILL HELD | Civil/Electrical/Mechanical papers (Series A, 100 MCQ each) in hand; final key Notice 1099-PSC/Con.(Q), 19 Dec 2023, still missing — only its corrigendum was downloaded. |
+| WBPSC Assistant Engineer | MIXED — SEE NOTES | Civil 2020 paper and Mech/Elec 2022 paper downloaded 16 Nov 2026, no keys in hand (held). **Electrical 2020: paper + key both downloaded, but the key does not answer the paper** — held, see the Miscellaneous notes above. The earlier "final key" citations (Civil 2020, Mech/Elec 2020 revised 6 Jan 2022, Mech/Elec 2022 No. 170/171) were not the files downloaded. |
 | WB Judicial Service (Prelims only; Mains descriptive) | SOURCED-BUT-UNREACHABLE | Final keys: 2021 (29 Sep 2021); 2023 (archive entry 1); 2024 No. 1193-PSC/CON(Q), 12 Oct 2026. Papers 2016–2023 on the PSC PYQ page. 2020: provisional key only. Law-heavy; fit for the bank is the owner's call. |
 | WBPSC Food Sub-Inspector | UNSOURCED | Papers exist (2024, 2019, 2014); keys provisional only, no final key found. |
 | WBPSC ICDS Supervisor | UNSOURCED | Keys provisional only (2019 and 2024 cycles); no final key found. |

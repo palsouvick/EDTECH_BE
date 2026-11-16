@@ -27,6 +27,7 @@ const CATEGORY_MAP = {
   BANK_CLERK: { category: 'BANK', tier: 'PRELIMS' },
   WBPSC_WBCS: { category: 'WBPSC', tier: 'PRELIMS' },
   WBPSC_CLERKSHIP: { category: 'WBPSC', tier: 'SINGLE' },
+  WBPSC_MISCELLANEOUS: { category: 'WBPSC', tier: 'PRELIMS' },
   WBPSC_IDO: { category: 'WBPSC', tier: 'SINGLE' },
   WB_POST: { category: 'WB_POST', tier: 'SINGLE' },
   WBP_CONSTABLE: { category: 'WB_POLICE', tier: 'SINGLE' },
