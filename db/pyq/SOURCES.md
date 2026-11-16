@@ -443,3 +443,46 @@ The base URL for the shortened entries is `https://psc.wb.gov.in/Download?param1
   in this pass.
 - Coaching and news sites (careers360, aglasem, amarujala, etc.) appeared in searches, but they
   were used only to locate official pages. No content was taken from them.
+
+## All-West-Bengal survey, 16 Nov 2026 (nothing imported this pass)
+
+Surveyed every plausible WB state exam for an official paper + official final key.
+**Result: zero new papers imported.** The blocker is access, not existence:
+`psc.wb.gov.in` is unreachable from this environment (text-fetch fails with a
+network error; direct curl is known to fail), so every PSC-hosted paper/key
+below could be confirmed only from the search index and notice numbers, never
+read. No question was transcribed from a coaching PDF, and none was invented.
+To import any "SOURCED-BUT-UNREACHABLE" exam, fetch its paper + final-key
+PDFs through the live browser and place them where the importer can read them.
+
+| Exam | Verdict | Evidence / reason |
+|---|---|---|
+| WBPSC Miscellaneous 2023 (Prelims, 15 Sep 2024) | SOURCED-BUT-UNREACHABLE | Final key Notice No. 651-PSC/CON(Q), 13 Mar 2025. Paper + key URLs already held (see "Found but not imported" above). Closest gap; needs browser download. |
+| WBPSC Miscellaneous 2024 (Prelims, 4 Oct 2026) | SOURCED-BUT-UNREACHABLE | Final key Notice No. 1250-PSC/CON(Q), 6 Nov 2026. Supersedes the older "provisional key only" row above. Paper URL not captured. |
+| WBPSC Miscellaneous 2019 | PARTIAL | Paper exists; provisional key No. 138-PSC/Con.(Q), 11 Mar 2020. A revised key was reported Oct 2020 but its notice/URL could not be captured. |
+| WBPSC Miscellaneous 2018 | UNSOURCED | No official final/revised key located. |
+| WBPSC Audit & Accounts Service 2020/2021/2022 | SOURCED-BUT-UNREACHABLE | Final/revised keys: 2020 cycle 26 Aug 2021; 2021 cycle 19 Sep 2022 (No. 436 CON(Q)); 2022 cycle 15 Dec 2023. Papers on the PSC PYQ page. 2019 cycle: provisional key only. |
+| WBPSC Junior Engineer 2022 cycle (exam 30 Jul 2023) | SOURCED-BUT-UNREACHABLE | Final keys: Civil No. 1099-PSC/Con.(Q), 19 Dec 2023; Electrical 12 Mar 2024. Mechanical final key unconfirmed — verify before importing Mechanical. |
+| WBPSC Assistant Engineer | SOURCED-BUT-UNREACHABLE | Civil 2020 final key 22 Feb 2021; Mech/Elec 2020 (revised) 6 Jan 2022; Mech/Elec 2022 final keys No. 170/171, 8 Apr 2024. |
+| WB Judicial Service (Prelims only; Mains descriptive) | SOURCED-BUT-UNREACHABLE | Final keys: 2021 (29 Sep 2021); 2023 (archive entry 1); 2024 No. 1193-PSC/CON(Q), 12 Oct 2026. Papers 2016–2023 on the PSC PYQ page. 2020: provisional key only. Law-heavy; fit for the bank is the owner's call. |
+| WBPSC Food Sub-Inspector | UNSOURCED | Papers exist (2024, 2019, 2014); keys provisional only, no final key found. |
+| WBPSC ICDS Supervisor | UNSOURCED | Keys provisional only (2019 and 2024 cycles); no final key found. |
+| WBPSC Motor Vehicles Inspector (Non-Tech) | UNSOURCED | Papers 2018–2020 on the PSC PYQ page; keys provisional only, no final key found. |
+| WBPSC Clerkship | NO NEW YEARS | No cycle after 2023. Correction: the bank already holds 2023 Sessions I–IV (93+98+99+99 = 389 Q); there is no Sessions II–IV gap. |
+| WBCS Main Papers III–VI (MCQ) | RECORDED ONLY | Final keys confirmed 2020/2022/2023 cycles, but Mains is outside the prelims-style catalogue for now — do not import without the owner's say-so. |
+| WBP Constable / Lady Constable | UNSOURCED | WBPRB publishes keys only, never a paper; keys live 5–7 days then are removed. Latest final key 27 Dec 2025 (Notice WBPRB/NOTICE-2025/30) — window expired. |
+| WBP Sub-Inspector | UNSOURCED | Same key-only, short-window policy. Latest final key 30 Oct 2025 — expired. Mains has no official key for any year. |
+| Kolkata Police Constable | UNSOURCED | Final key 8 Oct 2026 (Notice WBPRB/NOTICE-2026/15) — window expired 13 Oct 2026. No paper published. |
+| Kolkata Police SI / Sergeant | UNSOURCED | Keys expired (2023 cycle key 29 Feb 2024, 7 days). No paper published. |
+| WBP Jail Police / Warder | UNSOURCED | No official answer-key notice found for any cycle. Papers coaching-only. |
+| Excise Constable 2019 (FWT 2 Jan 2022) | UNSOURCED | Notice WBPRB/NOTICE-2022/06 says question + key were uploaded for 7 days from 23 Feb 2022; the official PDF at wbpolice.gov.in now holds only the notice text. Expired. |
+| WBSSC (School Service) Group C/D 1st SLST 2025 | PARTIAL | Final Model Answer Keys 2 Apr 2026 on westbengalssc.com; papers coaching-mirrors only. |
+| WBSSC SLST Assistant Teacher 2025 | PARTIAL | Final keys XI–XII 8 Nov 2025, IX–X 12 Dec 2025 on westbengalssc.com; papers coaching-mirrors only. |
+| WB Primary TET 2023 | PARTIAL | Final key 24 Sep 2025 on wbbpe.wb.gov.in; papers coaching-only. |
+| WB Municipal Service Commission | PARTIAL | Revised final keys exist for the 2022 SAE cycle; 2025 cycle provisional so far. Papers mirrors only (official site mscwb.org, not wbmunicipal.gov.in). |
+| WB Health Recruitment Board | PARTIAL | Combined paper+key PDFs on hrb.wb.gov.in, but keys provisional only (e.g. Staff Nurse GNM Memo 26, 6 Jan 2026); final keys unverified, response sheets login-gated; content is subject-specific (nursing/pharmacy/med-tech) and fits no subject in the bank's taxonomy. |
+| WB Madrasah Service Commission 7th SLST 2024 | PARTIAL | Keys on wbmsc.com, effectively final; papers not found there. |
+| WBSSC (Staff Selection Commission, defunct) Group B/C | UNSOURCED | Body merged into WBPSC ~2017; wbssc.gov.in unresolvable; no official archive found. |
+| WB Group D Recruitment Board 2017 | UNSOURCED | Single 2017 cycle; no retrievable official paper/key today. |
+| WB Forest Service (WBPSC) 2018 | PARTIAL | Official paper on the PSC PYQ page; final key not confirmed. |
+| WB Forest Guard 2024 | UNSOURCED | No answer key published; papers coaching-only. |
