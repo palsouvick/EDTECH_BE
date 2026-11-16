@@ -34,6 +34,8 @@ unofficial reproductions, answers cross-checked — owner-approved 11 Nov 2026).
 | `wbcs-prelims-2016.json` | WBCS (Exe.) etc. Preliminary Examination, 2016, **Test Booklet Series C** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133357_WBCS(P)-2016_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers taken from one full solved compilation cross-checked question-by-question against the transcription, disagreements adjudicated on merits (see below); **the PSC scan itself is missing 6 booklet pages, so 36 questions are not imported** | 163 of 200 |
 | `wbcs-prelims-2015.json` | WBCS (Exe.) etc. Preliminary Examination, 2015, **Test Booklet Series D** | https://psc.wb.gov.in/Download?param1=pyqp_20190905133227_WBCS(P)-2015_compressed.pdf&param2=PYQP | **NONE — no official key survives** (see the keyless-papers note below) | **Not official-key verified** — answers taken from one full solved compilation cross-checked question-by-question against the transcription, disagreements adjudicated on merits (see below); **the PSC scan itself is missing 6 booklet pages, so 34 questions are not imported** | 166 of 200 |
 | `misc-2023.json` | Miscellaneous Services Recruitment (Prelims) Examination, 2023 (Advt. 11/2023, held 15.09.2024), GS, Arithmetic, English & Reasoning, **Test Booklet Series A** (bilingual: English + Bengali) | https://psc.wb.gov.in/Download?param1=20250831234054_MISCELLANEOUS_SERVICES_RECRUITMENT_PRELI_EXM_2023_11_2023.pdf&param2=PYQP | https://psc.wb.gov.in/Download?param1=202503171627_Final_Ans_Key_Miscellaneous_Preli_2023.pdf&param2=advertisement | **Final**, notice No. 651-PSC/CON(Q), 13 Mar 2025 — Series A column machine-parsed from the official PDF and verified 97/97 | 97 of 100 transcribed (3 skipped: key marks `*`); **96 appear under this exam in the bank** — Q88 shares its stem with WBCS 2023 Q27 (same answer, Bengal Gazette) and the later file's ref wins (see the Miscellaneous notes below) |
+| `wbp-constable-2021.json` | West Bengal Police Constable (Prelims), 26 Sep 2021, 100 Q, 1 hr / 100 marks, booklet **RB/CN_LC(P)/2020**, bilingual English + Bengali (**and Nepali** — the booklet's second language is Nepali, not Hindi) | **UNOFFICIAL scan** — https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf (WBPRB never publishes the paper; see the police notes below) | **NONE cited — no official key in hand** (the board did publish a provisional key in early Dec 2021, but the key table is no longer retrievable; notice PDFs hold only the notice text) | **Not official-key verified** — answers cross-checked against the GSCE solved paper + Testbook/Prepp per-question keys, recomputed (quant/reasoning) or fact-checked (GK) | 100 of 100 |
+| `kp-constable-2023.json` | Kolkata Police Constable (Prelims), 04 Jun 2023, 100 Q, 1 hr / 100 marks, booklet **RB/CN_LC/KP(Prlm)/2022**, bilingual English + Bengali (and Nepali) | **UNOFFICIAL scan** — https://teachingninja.in/wp-content/uploads/2025/11/Kolkata-Police-Constable-Prelims-Exam-Official-Paper-Held-On_-04-Jun-2023-1.pdf (WBPRB never publishes the paper; see the police notes below) | **NONE cited — no official key in hand** (the board did publish a provisional key 2 Aug 2023, Notice WBPRB/NOTICE-2023/25, and a final key 13 Sep 2023, but the key tables are no longer retrievable; notice PDFs hold only the notice text) | **Not official-key verified** — answers cross-checked against Testbook/Prepp per-question keys + wbpscupsc solved key, recomputed (quant/reasoning) or fact-checked (GK) | 99 of 100 (Q62 held: print error — correct value 98,989 not among the options) |
 
 Both papers are listed on the WBPSC page "Previous Year Question Paper" (https://psc.wb.gov.in/previous_year_question_paper.jsp).
 Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
@@ -147,6 +149,70 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   to neither chunk — and Q57 was held because the exponent in its stem is unreadable
   in the scan) is kept as a draft in `~/workspace/pyq-work/ae2020/` for reuse if the
   matching key is ever found. Group B (Mechanical) has no key in hand at all.
+
+### Notes on WBP Constable 2021 and KP Constable 2023 — imported 16 Nov 2026 (unofficial papers, owner-approved exception)
+
+- **Why unofficial.** WBPRB never publishes the question paper — only the answer key, live
+  5–7 days then removed. The owner explicitly authorised collecting these two papers from
+  non-official archives after the official route failed. Provenance is ADAPTED_PYQ
+  (cross-checked); the app labels them exactly as it does the cross-checked WBCS/Clerkship
+  items, and no police question is OFFICIAL_VERIFIED. `teachingninja.in` was added to
+  `UNOFFICIAL_PAPER_HOSTS` in `src/services/questionProvenance.js` (same precedent as the
+  Clerkship 2004–2009 exception); the papers cite NO `answer_key_url`.
+- **Correction to the survey premise.** The survey said WBPRB publishes keys only and
+  none survive. That is wrong for these two cycles: the board DID publish a provisional
+  key for WBP Constable 2021 (early Dec 2021, objections by 2 Dec 2021) and a provisional
+  key for KP Constable 2023 (2 Aug 2023, Notice WBPRB/NOTICE-2023/25) plus a final key
+  (13 Sep 2023). But the key TABLES are no longer retrievable — the notice PDFs on
+  wbpolice.gov.in contain only the notice text, no web search found a direct link to
+  either key table, and prb.wb.gov.in is unreachable from this environment. If the board
+  key tables are ever obtained (live-browser attempt on the PRB archive), the two
+  flagged items below (WBP Q50/Q61/Q67/Q95, KP Q22/Q23) should be re-checked against
+  them; the import proceeds as cross-checked in the meantime.
+- **Papers.** Both are image scans from teachingninja.in, transcribed from page renders
+  (pdftotext yields nothing). WBP Constable Prelims 26 Sep 2021, booklet
+  RB/CN_LC(P)/2020, 27 pp, 100 Q (GS 50, quant 25, reasoning 25; 83 Easy / 17 Medium).
+  KP Constable Prelims 04 Jun 2023, booklet RB/CN_LC/KP(Prlm)/2022, 25 pp, 100 Q
+  (GS 41, quant 29, reasoning 29; 78 Easy / 21 Medium). Neither paper carries a key
+  inside. Both booklets are bilingual English + Bengali **and Nepali** — the earlier
+  assumption of Hindi as the second language is wrong; the Bengali column was
+  transcribed throughout, the Nepali column used only as a tiebreaker.
+- **Verification.** Every answer was cross-checked against a second independent source
+  where one existed: the GSCE solved paper (teachmint PDF, full answers with
+  explanations — agreed with every independently checked WBP answer) for WBP 2021, and
+  Testbook / Prepp per-question solved pages plus the wbpscupsc solved key for KP 2023;
+  all quant/reasoning answers were recomputed; GK items were fact-checked. No answer
+  was taken from a single key without a second check or a recomputation.
+- **Held.** KP Q62 — print error (correct value 98,989, not among the options; booklet
+  option D 98,999 is a misprint, confirmed by Testbook). Held out, not imported.
+- **Flagged (imported, kept with explicit reasoning in the explanation).**
+  WBP Q61 (odd word: paper-specific GSCE key "Big" vs generic sites "Trivial" —
+  paper-specific key followed); WBP Q67 (organ not ANS-controlled: GSCE/Testbook "Eye"
+  vs Prepp "Glands", Prepp internally contradictory — paper-specific key followed);
+  WBP Q95 (age puzzle: Testbook "Shravani" vs Prepp "undetermined"); WBP Q50 (figure
+  completion: GSCE key D vs a symmetry reading suggesting A — worth re-checking if the
+  board key is ever found); KP Q58 (premise factually wrong — 25 Jan 2008 was a Friday,
+  not a Monday — but the answer follows the question's own logic); KP Q78 (odd one out)
+  and Q99 (ranking) are judgement calls, kept with reasoning; KP Q23 (relation: kept
+  B ভগ্নীপতি — studyzone's key says C শালা, which is the reverse relation; wbpscupsc
+  agrees with B); KP Q22 (pyramid puzzle: answer value 4 confirmed by the wbpscupsc
+  solved key, but no clean derived pattern was found — the explanation states the
+  checkable relations and rests on the independent key).
+- **Transcription quirks.** WBP Q23 mirror-image options use Unicode mirrored glyphs
+  (Ǝ U+018E, Ɔ U+0186, ꟻ U+A7FB) — a visual render check is still worthwhile.
+  WBP Q84 and KP Q72 are diagram questions; the options are transcribed as text
+  descriptions. Q7 of KP spells "দিল্লী" as printed; KP Q16/Q21 use mixed fractions
+  ("12 1/2%", "83 1/3%"). Topic-code compromises (no finer codes exist in the bank):
+  `series` as the catch-all for misc reasoning (analogy, dice, weekday,
+  triangle-counting, figure completion), `coding_decoding` for letter manipulation,
+  quant geometry under `number_system`, seating under `direction_sense`.
+- **Downloaded but not yet transcribed (round 2, a follow-up, not this import).**
+  KP SI & Sergeant Prelims 27 Mar 2022 (testbook CDN scan + pesha.in re-typeset text
+  PDF — two sources for the same paper); KP Constable Prelims 2025 (21 Dec 2025,
+  pesha.in re-typeset text PDF). WBP SI papers (2021, 2025) identified on pesha.in
+  but not yet downloaded. pesha.in papers are re-typeset from the original booklets
+  (searchable text); if used, pesha.in needs adding to UNOFFICIAL_PAPER_HOSTS with a
+  note here. Tutorialsduniya's KP SI product costs ₹60 — do NOT pay; avoid.
 
 ### Notes on IDO 2019 (Series A)
 
@@ -516,6 +582,8 @@ below could be confirmed only from the search index and notice numbers, never
 read. No question was transcribed from a coaching PDF, and none was invented.
 To import any "SOURCED-BUT-UNREACHABLE" exam, fetch its paper + final-key
 PDFs through the live browser and place them where the importer can read them.
+Police papers were imported later the same day from unofficial archives (owner-approved)
+— the WBP Constable and Kolkata Police Constable rows below carry that verdict.
 
 | Exam | Verdict | Evidence / reason |
 |---|---|---|
@@ -532,9 +600,9 @@ PDFs through the live browser and place them where the importer can read them.
 | WBPSC Motor Vehicles Inspector (Non-Tech) | UNSOURCED | Papers 2018–2020 on the PSC PYQ page; keys provisional only, no final key found. |
 | WBPSC Clerkship | NO NEW YEARS | No cycle after 2023. Correction: the bank already holds 2023 Sessions I–IV (93+98+99+99 = 389 Q); there is no Sessions II–IV gap. |
 | WBCS Main Papers III–VI (MCQ) | RECORDED ONLY | Final keys confirmed 2020/2022/2023 cycles, but Mains is outside the prelims-style catalogue for now — do not import without the owner's say-so. |
-| WBP Constable / Lady Constable | UNSOURCED | WBPRB publishes keys only, never a paper; keys live 5–7 days then are removed. Latest final key 27 Dec 2025 (Notice WBPRB/NOTICE-2025/30) — window expired. |
+| WBP Constable / Lady Constable | **IMPORTED 16 Nov 2026 (Prelims 2021 only)** | Prelims 26 Sep 2021 imported from an unofficial teachingninja.in scan, cross-checked (ADAPTED_PYQ) — see the Imported table and police notes. WBPRB publishes keys only, never a paper; keys live 5–7 days then are removed. Lady Constable papers not yet transcribed (Prelims 10 Sep 2023 + Mains 21 Jan 2024 scans downloaded). |
 | WBP Sub-Inspector | UNSOURCED | Same key-only, short-window policy. Latest final key 30 Oct 2025 — expired. Mains has no official key for any year. |
-| Kolkata Police Constable | UNSOURCED | Final key 8 Oct 2026 (Notice WBPRB/NOTICE-2026/15) — window expired 13 Oct 2026. No paper published. |
+| Kolkata Police Constable | **IMPORTED 16 Nov 2026 (Prelims 2023 only)** | Prelims 04 Jun 2023 imported from an unofficial teachingninja.in scan, cross-checked (ADAPTED_PYQ) — see the Imported table and police notes. The board's final key for the 2025 cycle (8 Oct 2026, Notice WBPRB/NOTICE-2026/15) expired 13 Oct 2026; the 2025 paper (21 Dec 2025, pesha.in re-typeset) is downloaded but not yet transcribed. |
 | Kolkata Police SI / Sergeant | UNSOURCED | Keys expired (2023 cycle key 29 Feb 2024, 7 days). No paper published. |
 | WBP Jail Police / Warder | UNSOURCED | No official answer-key notice found for any cycle. Papers coaching-only. |
 | Excise Constable 2019 (FWT 2 Jan 2022) | UNSOURCED | Notice WBPRB/NOTICE-2022/06 says question + key were uploaded for 7 days from 23 Feb 2022; the official PDF at wbpolice.gov.in now holds only the notice text. Expired. |

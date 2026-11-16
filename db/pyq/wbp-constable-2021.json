@@ -1,0 +1,5902 @@
+[
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "শ্রীরামপুর ছিল পশ্চিমবঙ্গে দিনেমারদের উপনিবেশ; চুঁচুড়া ছিল ওলন্দাজদের এবং চন্দননগর ছিল ফরাসিদের উপনিবেশ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "চুঁচুড়া, হুগলি"
+          },
+          {
+            "id": "B",
+            "text": "চন্দননগর, হুগলি"
+          },
+          {
+            "id": "C",
+            "text": "শ্রীরামপুর, হুগলি"
+          },
+          {
+            "id": "D",
+            "text": "ব্যারাকপুর, উত্তর 24 পরগনা"
+          }
+        ],
+        "question_text": "নিম্নলিখিতের মধ্যে কোনটি পশ্চিমবঙ্গে দিনেমার (Denmark) উপনিবেশ ছিল?"
+      },
+      "en": {
+        "explanation": "Serampore was the Danish colony in West Bengal; Chinsurah was Dutch and Chandernagore was French.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Chinsurah, Hooghly"
+          },
+          {
+            "id": "B",
+            "text": "Chandernagore, Hooghly"
+          },
+          {
+            "id": "C",
+            "text": "Serampore, Hooghly"
+          },
+          {
+            "id": "D",
+            "text": "Barrackpore, North 24 Parganas"
+          }
+        ],
+        "question_text": "Which of the following was a Danish (Denmark) colony in West Bengal?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 1,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "20 বছরে সুদ হয় আসলের 2 গুণ, তাই সুদের হার 10%; আসল দ্বিগুণ হতে সুদ হবে আসলের সমান, সময় লাগবে 10 বছর।",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 বছর"
+          },
+          {
+            "id": "B",
+            "text": "8 বছর"
+          },
+          {
+            "id": "C",
+            "text": "14 বছর"
+          },
+          {
+            "id": "D",
+            "text": "12 বছর"
+          }
+        ],
+        "question_text": "কোনো আসল (principal) সরল সুদে (simple interest) 20 বছরে 3 গুণ (times) হলে, ওই আসল একই সুদের হারে (rate of interest) কত বছরে দ্বিগুণ (double) হবে?"
+      },
+      "en": {
+        "explanation": "In 20 years the interest is twice the principal, so the rate is 10%; to double, the interest must equal the principal, which takes 10 years.",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 years"
+          },
+          {
+            "id": "B",
+            "text": "8 years"
+          },
+          {
+            "id": "C",
+            "text": "14 years"
+          },
+          {
+            "id": "D",
+            "text": "12 years"
+          }
+        ],
+        "question_text": "If a principal becomes 3 times itself in 20 years at simple interest, in how many years will the same principal double itself at the same rate of interest?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 2,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "interest"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "‘137’ বিন্যাসটি সিরিজে মোট 3 বার আছে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "9"
+          },
+          {
+            "id": "B",
+            "text": "3"
+          },
+          {
+            "id": "C",
+            "text": "5"
+          },
+          {
+            "id": "D",
+            "text": "4"
+          }
+        ],
+        "question_text": "নীচের সংখ্যার সিরিজে, কতবার 1, 3 এবং 7 একসাথে আছে যেখানে 7 মাঝখানে এবং 1 ও 3 তার দুপাশে বসেছে? 2973173771331738571377173906"
+      },
+      "en": {
+        "explanation": "The pattern '137' occurs 3 times in the series.",
+        "options": [
+          {
+            "id": "A",
+            "text": "9"
+          },
+          {
+            "id": "B",
+            "text": "3"
+          },
+          {
+            "id": "C",
+            "text": "5"
+          },
+          {
+            "id": "D",
+            "text": "4"
+          }
+        ],
+        "question_text": "In the number series below, how many times do 1, 3 and 7 occur together with 7 in the middle and 1 and 3 on its two sides? 2973173771331738571377173906"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 3,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "হলুদ রিং এশিয়ার প্রতিনিধিত্ব করে; নীল ইউরোপ, কালো আফ্রিকা, সবুজ অস্ট্রেলিয়া এবং লাল আমেরিকার প্রতিনিধিত্ব করে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "কালো"
+          },
+          {
+            "id": "B",
+            "text": "নীল"
+          },
+          {
+            "id": "C",
+            "text": "সবুজ"
+          },
+          {
+            "id": "D",
+            "text": "হলুদ"
+          }
+        ],
+        "question_text": "অলিম্পিক-এর প্রতীকে পাঁচটি রঙের রিংয়ের কোনটি এশিয়া মহাদেশের প্রতিনিধিত্ব স্বরূপ?"
+      },
+      "en": {
+        "explanation": "The yellow ring represents Asia; blue is Europe, black is Africa, green is Australia and red is America.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Black"
+          },
+          {
+            "id": "B",
+            "text": "Blue"
+          },
+          {
+            "id": "C",
+            "text": "Green"
+          },
+          {
+            "id": "D",
+            "text": "Yellow"
+          }
+        ],
+        "question_text": "Which of the five coloured rings in the Olympic symbol represents the continent of Asia?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 4,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "static_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "SVEEP-এর পূর্ণরূপ Systematic Voters' Education and Electoral Participation Program, ভারতের নির্বাচন কমিশনের ভোটার শিক্ষা কর্মসূচি।",
+        "options": [
+          {
+            "id": "A",
+            "text": "Senior Voters' Education and Electoral Participation Program"
+          },
+          {
+            "id": "B",
+            "text": "Systematic Voters' Education and Electoral Participation Program"
+          },
+          {
+            "id": "C",
+            "text": "Senior Voters' Encouragement and Electoral Participation Program"
+          },
+          {
+            "id": "D",
+            "text": "Systematic Voters' Encouragement and Electoral Participation Program"
+          }
+        ],
+        "question_text": "SVEEP Program কী?"
+      },
+      "en": {
+        "explanation": "SVEEP stands for Systematic Voters' Education and Electoral Participation Program, the Election Commission of India's voter education programme.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Senior Voters' Education and Electoral Participation Program"
+          },
+          {
+            "id": "B",
+            "text": "Systematic Voters' Education and Electoral Participation Program"
+          },
+          {
+            "id": "C",
+            "text": "Senior Voters' Encouragement and Electoral Participation Program"
+          },
+          {
+            "id": "D",
+            "text": "Systematic Voters' Encouragement and Electoral Participation Program"
+          }
+        ],
+        "question_text": "What is SVEEP Program?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 5,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "polity"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "1857 সালের মহাবিদ্রোহে কানপুরে বিদ্রোহীদের নেতা ছিলেন নানা সাহিব।",
+        "options": [
+          {
+            "id": "A",
+            "text": "নানা সাহিব"
+          },
+          {
+            "id": "B",
+            "text": "দ্বিতীয় বাহাদুর শাহ"
+          },
+          {
+            "id": "C",
+            "text": "রাণী লক্ষ্মী বাঈ"
+          },
+          {
+            "id": "D",
+            "text": "বেগম হজরত মহল"
+          }
+        ],
+        "question_text": "1857 সালের মহাবিদ্রোহের সময় কানপুরে কে বিদ্রোহীদের নেতৃত্ব দিয়েছিলেন?"
+      },
+      "en": {
+        "explanation": "Nana Sahib led the rebels at Kanpur during the revolt of 1857.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Nana Sahib"
+          },
+          {
+            "id": "B",
+            "text": "Bahadur Shah II"
+          },
+          {
+            "id": "C",
+            "text": "Rani Lakshmibai"
+          },
+          {
+            "id": "D",
+            "text": "Begum Hazrat Mahal"
+          }
+        ],
+        "question_text": "Who led the rebels at Kanpur during the great revolt of 1857?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 6,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "কুকুরের 3 লাফ = বিড়ালের 4 লাফ; একই সময়ে বিড়াল যায় 5 লাফ ও কুকুর যায় 4 লাফ, অর্থাৎ 16/3 বিড়াল-লাফ, তাই দ্রুতির অনুপাত 5 : 16/3 = 15 : 16।",
+        "options": [
+          {
+            "id": "A",
+            "text": "15 : 11"
+          },
+          {
+            "id": "B",
+            "text": "15 : 16"
+          },
+          {
+            "id": "C",
+            "text": "16 : 15"
+          },
+          {
+            "id": "D",
+            "text": "11 : 15"
+          }
+        ],
+        "question_text": "একটি বিড়ালের 5 লাফ যেতে যে সময় লাগে সেই সময়ে একটি কুকুর 4 লাফ যায়, কিন্তু কুকুরের 3 লাফ বিড়ালের 4 লাফের সমান। বিড়াল ও কুকুরটির দ্রুতির (speed) অনুপাত (ratio) কত?"
+      },
+      "en": {
+        "explanation": "3 leaps of the dog equal 4 leaps of the cat; in the same time the cat covers 5 leaps and the dog covers 4 leaps, i.e. 16/3 cat-leaps, so the speed ratio is 5 : 16/3 = 15 : 16.",
+        "options": [
+          {
+            "id": "A",
+            "text": "15 : 11"
+          },
+          {
+            "id": "B",
+            "text": "15 : 16"
+          },
+          {
+            "id": "C",
+            "text": "16 : 15"
+          },
+          {
+            "id": "D",
+            "text": "11 : 15"
+          }
+        ],
+        "question_text": "A cat takes 5 leaps in the time a dog takes 4 leaps, but 3 leaps of the dog are equal to 4 leaps of the cat. What is the ratio of the speeds of the cat and the dog?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 7,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "2023 সালের পুরুষদের ক্রিকেট বিশ্বকাপ ভারতে অনুষ্ঠিত হয়েছিল।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ভারতবর্ষ"
+          },
+          {
+            "id": "B",
+            "text": "অস্ট্রেলিয়া"
+          },
+          {
+            "id": "C",
+            "text": "দক্ষিণ আফ্রিকা"
+          },
+          {
+            "id": "D",
+            "text": "ইংল্যান্ড"
+          }
+        ],
+        "question_text": "2023 সালের পুরুষদের ক্রিকেট বিশ্বকাপ (ICC Mens Cricket World Cup, 2023) কোন দেশে অনুষ্ঠিত হবে?"
+      },
+      "en": {
+        "explanation": "The 2023 Men's Cricket World Cup was held in India.",
+        "options": [
+          {
+            "id": "A",
+            "text": "India"
+          },
+          {
+            "id": "B",
+            "text": "Australia"
+          },
+          {
+            "id": "C",
+            "text": "South Africa"
+          },
+          {
+            "id": "D",
+            "text": "England"
+          }
+        ],
+        "question_text": "In which country will the 2023 ICC Men's Cricket World Cup be held?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 8,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "লাভ ও ক্ষতির পরিমাণ সমান হলে ক্রয়মূল্য দুই বিক্রয়মূল্যের গড়, অর্থাৎ (1754 + 1492) ÷ 2 = 1623 টাকা।",
+        "options": [
+          {
+            "id": "A",
+            "text": "1695 টাকা"
+          },
+          {
+            "id": "B",
+            "text": "1523 টাকা"
+          },
+          {
+            "id": "C",
+            "text": "1623 টাকা"
+          },
+          {
+            "id": "D",
+            "text": "1589 টাকা"
+          }
+        ],
+        "question_text": "একটি দ্রব্য 1754 টাকায় বিক্রি করলে যে টাকা লাভ (profit) হয়, 1492 টাকায় বিক্রি করলে সেই পরিমাণ টাকাই ক্ষতি (loss) হয়। তাহলে দ্রব্যটির ক্রয়মূল্য (cost price) কত?"
+      },
+      "en": {
+        "explanation": "When the profit and the loss are equal, the cost price is the average of the two selling prices, i.e. (1754 + 1492) ÷ 2 = ₹1623.",
+        "options": [
+          {
+            "id": "A",
+            "text": "₹1695"
+          },
+          {
+            "id": "B",
+            "text": "₹1523"
+          },
+          {
+            "id": "C",
+            "text": "₹1623"
+          },
+          {
+            "id": "D",
+            "text": "₹1589"
+          }
+        ],
+        "question_text": "By selling an article for ₹1754 there is the same amount of profit as the loss incurred by selling it for ₹1492. What is the cost price of the article?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 9,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "profit_loss"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "পশ্চিমে 15 কিমি ও পূর্বে 25 কিমি গেলে নিট 10 কিমি পূর্বে থাকে; উত্তর-দক্ষিণের 20 কিমি দুটি পরস্পরকে বাতিল করে, তাই দূরত্ব 10 কিমি।",
+        "options": [
+          {
+            "id": "A",
+            "text": "80 কিমি"
+          },
+          {
+            "id": "B",
+            "text": "5 কিমি"
+          },
+          {
+            "id": "C",
+            "text": "40 কিমি"
+          },
+          {
+            "id": "D",
+            "text": "10 কিমি"
+          }
+        ],
+        "question_text": "লক্ষ্মণ আমার বাড়ি থেকে 15 কিমি পশ্চিমে গেল। তারপর বাঁ দিকে ঘুরে 20 কিমি হাঁটল। সে এরপর পূর্বদিকে 25 কিমি গেল এবং শেষে বাঁ দিকে ঘুরে 20 কিমি গেল। বর্তমানে লক্ষ্মণ আমার বাড়ি থেকে কতদূরে রয়েছে?"
+      },
+      "en": {
+        "explanation": "Going 15 km west and then 25 km east leaves him 10 km east of the start; the two 20 km legs in opposite directions cancel out, so the distance is 10 km.",
+        "options": [
+          {
+            "id": "A",
+            "text": "80 km"
+          },
+          {
+            "id": "B",
+            "text": "5 km"
+          },
+          {
+            "id": "C",
+            "text": "40 km"
+          },
+          {
+            "id": "D",
+            "text": "10 km"
+          }
+        ],
+        "question_text": "Lakshman went 15 km west from my house. Then he turned left and walked 20 km. Then he went 25 km east and finally turned left and walked 20 km. How far is Lakshman now from my house?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 10,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "direction_sense"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "বিক্রয়মূল্য 16.50 টাকা ও লাভ 20% হলে মিশ্রণের ক্রয়মূল্য 13.75 টাকা; মিশ্রণ-নিয়মে অনুপাত (13.75 − 12) : (15 − 13.75) = 7 : 5।",
+        "options": [
+          {
+            "id": "A",
+            "text": "7 : 3"
+          },
+          {
+            "id": "B",
+            "text": "3 : 7"
+          },
+          {
+            "id": "C",
+            "text": "7 : 5"
+          },
+          {
+            "id": "D",
+            "text": "5 : 7"
+          }
+        ],
+        "question_text": "কোনো দোকানদার কী অনুপাতে (ratio) প্রতি কেজি 15 টাকা ও প্রতি কেজি 12 টাকা দামের ডাল মিশ্রণ করে প্রতি কেজি ডাল 16.50 টাকায় বিক্রি করলে তার 20% লাভ হবে?"
+      },
+      "en": {
+        "explanation": "With a selling price of ₹16.50 and 20% profit, the cost price of the mixture is ₹13.75; by alligation the ratio is (13.75 − 12) : (15 − 13.75) = 7 : 5.",
+        "options": [
+          {
+            "id": "A",
+            "text": "7 : 3"
+          },
+          {
+            "id": "B",
+            "text": "3 : 7"
+          },
+          {
+            "id": "C",
+            "text": "7 : 5"
+          },
+          {
+            "id": "D",
+            "text": "5 : 7"
+          }
+        ],
+        "question_text": "In what ratio should a shopkeeper mix dal priced at ₹15 per kg and ₹12 per kg so that by selling the mixture at ₹16.50 per kg he makes a 20% profit?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 11,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "অশোক কুমার হিন্দি সিনেমা জগতে ‘দাদামণি’ নামে পরিচিত ছিলেন।",
+        "options": [
+          {
+            "id": "A",
+            "text": "রাজেশ খান্না"
+          },
+          {
+            "id": "B",
+            "text": "দেব আনন্দ"
+          },
+          {
+            "id": "C",
+            "text": "উৎপল দত্ত"
+          },
+          {
+            "id": "D",
+            "text": "অশোক কুমার"
+          }
+        ],
+        "question_text": "হিন্দি সিনেমা জগতে কোন অভিনেতা ‘দাদামণি’ নামে জনপ্রিয় ছিলেন?"
+      },
+      "en": {
+        "explanation": "Ashok Kumar was popularly known as 'Dadamoni' in Hindi cinema.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rajesh Khanna"
+          },
+          {
+            "id": "B",
+            "text": "Dev Anand"
+          },
+          {
+            "id": "C",
+            "text": "Utpal Dutt"
+          },
+          {
+            "id": "D",
+            "text": "Ashok Kumar"
+          }
+        ],
+        "question_text": "Which actor was popularly known as 'Dadamoni' in the Hindi film world?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 12,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "art_culture"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "কেন্দ্রস্থ কোণ ∠BOC = 2 × ∠BAC = 100°; OB = OC বলে ∠OBC = (180° − 100°) ÷ 2 = 40°।",
+        "options": [
+          {
+            "id": "A",
+            "text": "50°"
+          },
+          {
+            "id": "B",
+            "text": "60°"
+          },
+          {
+            "id": "C",
+            "text": "40°"
+          },
+          {
+            "id": "D",
+            "text": "30°"
+          }
+        ],
+        "question_text": "ABC ত্রিভুজের (triangle) O পরিবৃত্তের কেন্দ্র (circumcentre) এবং ∠BAC = 50° হলে, ∠OBC = ?"
+      },
+      "en": {
+        "explanation": "The angle at the centre ∠BOC = 2 × ∠BAC = 100°; since OB = OC, ∠OBC = (180° − 100°) ÷ 2 = 40°.",
+        "options": [
+          {
+            "id": "A",
+            "text": "50°"
+          },
+          {
+            "id": "B",
+            "text": "60°"
+          },
+          {
+            "id": "C",
+            "text": "40°"
+          },
+          {
+            "id": "D",
+            "text": "30°"
+          }
+        ],
+        "question_text": "O is the circumcentre of triangle ABC and ∠BAC = 50°. What is ∠OBC?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 13,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "আকবর 1582 সালে দীন-ই-ইলাহি প্রচলন করেন।",
+        "options": [
+          {
+            "id": "A",
+            "text": "শাহজাহান"
+          },
+          {
+            "id": "B",
+            "text": "হুমায়ুন"
+          },
+          {
+            "id": "C",
+            "text": "জাহাঙ্গীর"
+          },
+          {
+            "id": "D",
+            "text": "আকবর"
+          }
+        ],
+        "question_text": "কোন মোগল সম্রাট দীন-ই-ইলাহি প্রচলন করেন?"
+      },
+      "en": {
+        "explanation": "Akbar introduced Din-i-Ilahi in 1582.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Shah Jahan"
+          },
+          {
+            "id": "B",
+            "text": "Humayun"
+          },
+          {
+            "id": "C",
+            "text": "Jahangir"
+          },
+          {
+            "id": "D",
+            "text": "Akbar"
+          }
+        ],
+        "question_text": "Which Mughal emperor introduced Din-i-Ilahi?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 14,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "অক্ষরগুলির অবস্থানের পার্থক্য 8, 7, 6, 5, 4, 3 — E-এর পরে 5 + 3 = 8, অর্থাৎ H।",
+        "options": [
+          {
+            "id": "A",
+            "text": "H"
+          },
+          {
+            "id": "B",
+            "text": "E"
+          },
+          {
+            "id": "C",
+            "text": "G"
+          },
+          {
+            "id": "D",
+            "text": "F"
+          }
+        ],
+        "question_text": "প্রশ্নবোধক স্থানে কী বসবে? A, I, P, V, A, E, ?"
+      },
+      "en": {
+        "explanation": "The gaps between the letter positions are 8, 7, 6, 5, 4, 3 — after E (5), 5 + 3 = 8, i.e. H.",
+        "options": [
+          {
+            "id": "A",
+            "text": "H"
+          },
+          {
+            "id": "B",
+            "text": "E"
+          },
+          {
+            "id": "C",
+            "text": "G"
+          },
+          {
+            "id": "D",
+            "text": "F"
+          }
+        ],
+        "question_text": "What will come in place of the question mark? A, I, P, V, A, E, ?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 15,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "P→M, O→B, R→N, T→Z, E→Q — এই সংকেত ব্যবহার করলে REPORT হয় NQMBNZ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "NQBMNZ"
+          },
+          {
+            "id": "B",
+            "text": "NQMNBZ"
+          },
+          {
+            "id": "C",
+            "text": "NBQMNZ"
+          },
+          {
+            "id": "D",
+            "text": "NQMBNZ"
+          }
+        ],
+        "question_text": "PORTER শব্দটিকে যদি কোনো সাংকেতিক ভাষায় MBNZQN লেখা হয়, তবে REPORT কীভাবে লেখা হবে?"
+      },
+      "en": {
+        "explanation": "With the code P→M, O→B, R→N, T→Z, E→Q, REPORT becomes NQMBNZ.",
+        "options": [
+          {
+            "id": "A",
+            "text": "NQBMNZ"
+          },
+          {
+            "id": "B",
+            "text": "NQMNBZ"
+          },
+          {
+            "id": "C",
+            "text": "NBQMNZ"
+          },
+          {
+            "id": "D",
+            "text": "NQMBNZ"
+          }
+        ],
+        "question_text": "If the word PORTER is written as MBNZQN in a code language, how will REPORT be written?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 16,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "coding_decoding"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "লাভের অনুপাত = 8000 × 8 : অনিলের মূলধন × 4; অনিলের ভাগ 20% হলে তার মূলধন 4000 টাকা।",
+        "options": [
+          {
+            "id": "A",
+            "text": "5400 টাকা"
+          },
+          {
+            "id": "B",
+            "text": "2000 টাকা"
+          },
+          {
+            "id": "C",
+            "text": "3000 টাকা"
+          },
+          {
+            "id": "D",
+            "text": "4000 টাকা"
+          }
+        ],
+        "question_text": "অজয় ও অনিল একটি যৌথ ব্যবসার অংশীদার। অজয় ব্যবসায় 8000 টাকা 8 মাসের জন্য নিয়োগ করে এবং অনিল বাকি 4 মাসের জন্য টাকা নিয়োগ করে। বৎসরান্তে অনিল যদি লাভের (profit) 20% পায় তবে অনিল কত টাকা নিয়োগ (invest) করেছিল?"
+      },
+      "en": {
+        "explanation": "The profit ratio is 8000 × 8 : Anil's capital × 4; since Anil's share is 20%, his capital works out to ₹4000.",
+        "options": [
+          {
+            "id": "A",
+            "text": "₹5400"
+          },
+          {
+            "id": "B",
+            "text": "₹2000"
+          },
+          {
+            "id": "C",
+            "text": "₹3000"
+          },
+          {
+            "id": "D",
+            "text": "₹4000"
+          }
+        ],
+        "question_text": "Ajay and Anil are partners in a joint business. Ajay invests ₹8000 for 8 months and Anil invests money for the remaining 4 months. If Anil gets 20% of the profit at the end of the year, how much money did Anil invest?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 17,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "গোলকের সংখ্যা = (বড়ো গোলকের ব্যাসার্ধ ÷ ছোটো গোলকের ব্যাসার্ধ)³ = (8 ÷ 1)³ = 512।",
+        "options": [
+          {
+            "id": "A",
+            "text": "321"
+          },
+          {
+            "id": "B",
+            "text": "418"
+          },
+          {
+            "id": "C",
+            "text": "512"
+          },
+          {
+            "id": "D",
+            "text": "614"
+          }
+        ],
+        "question_text": "8 cm ব্যাসার্ধ (radius) বিশিষ্ট একটি লোহার গোলক (sphere)-কে গলিয়ে কতগুলি 1 cm ব্যাসার্ধের গোলক পাওয়া যাবে?"
+      },
+      "en": {
+        "explanation": "The number of spheres = (radius of big sphere ÷ radius of small sphere)³ = (8 ÷ 1)³ = 512.",
+        "options": [
+          {
+            "id": "A",
+            "text": "321"
+          },
+          {
+            "id": "B",
+            "text": "418"
+          },
+          {
+            "id": "C",
+            "text": "512"
+          },
+          {
+            "id": "D",
+            "text": "614"
+          }
+        ],
+        "question_text": "How many spheres of radius 1 cm can be obtained by melting an iron sphere of radius 8 cm?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 18,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "C++ একটি প্রোগ্রামিং ল্যাঙ্গুয়েজ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "একটি ইনপুট ডিভাইস"
+          },
+          {
+            "id": "B",
+            "text": "একটি অপারেটিং সিস্টেম"
+          },
+          {
+            "id": "C",
+            "text": "একটি অ্যাসেম্বলি ল্যাঙ্গুয়েজ"
+          },
+          {
+            "id": "D",
+            "text": "একটি প্রোগ্রামিং ল্যাঙ্গুয়েজ"
+          }
+        ],
+        "question_text": "C++ কী?"
+      },
+      "en": {
+        "explanation": "C++ is a programming language.",
+        "options": [
+          {
+            "id": "A",
+            "text": "An input device"
+          },
+          {
+            "id": "B",
+            "text": "An operating system"
+          },
+          {
+            "id": "C",
+            "text": "An assembly language"
+          },
+          {
+            "id": "D",
+            "text": "A programming language"
+          }
+        ],
+        "question_text": "What is C++?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 19,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "নীরজ চোপড়া হরিয়ানার পানিপথ জেলার খান্দ্রা গ্রামের বাসিন্দা।",
+        "options": [
+          {
+            "id": "A",
+            "text": "গুরুগ্রাম"
+          },
+          {
+            "id": "B",
+            "text": "সোনপথ"
+          },
+          {
+            "id": "C",
+            "text": "পানিপথ"
+          },
+          {
+            "id": "D",
+            "text": "আম্বালা"
+          }
+        ],
+        "question_text": "2020 টোকিও অলিম্পিকে জ্যাভলিনে স্বর্ণপদকজয়ী নীরজ চোপড়া নিম্নোক্ত কোন স্থানের অধিবাসী?"
+      },
+      "en": {
+        "explanation": "Neeraj Chopra is from Khandra village in Panipat district, Haryana.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gurugram"
+          },
+          {
+            "id": "B",
+            "text": "Sonipat"
+          },
+          {
+            "id": "C",
+            "text": "Panipat"
+          },
+          {
+            "id": "D",
+            "text": "Ambala"
+          }
+        ],
+        "question_text": "Neeraj Chopra, the gold medallist in javelin at the Tokyo 2020 Olympics, is a resident of which of the following places?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 20,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "বক্সা ব্যাঘ্র সংরক্ষণ প্রকল্প পশ্চিমবঙ্গের আলিপুরদুয়ার জেলায় অবস্থিত।",
+        "options": [
+          {
+            "id": "A",
+            "text": "জলপাইগুড়ি"
+          },
+          {
+            "id": "B",
+            "text": "আলিপুরদুয়ার"
+          },
+          {
+            "id": "C",
+            "text": "দার্জিলিং"
+          },
+          {
+            "id": "D",
+            "text": "দক্ষিণ 24 পরগনা"
+          }
+        ],
+        "question_text": "বক্সা ব্যাঘ্র সংরক্ষণ প্রকল্প (Buxa Tiger Reserve) পশ্চিমবঙ্গের কোন জেলায় অবস্থিত?"
+      },
+      "en": {
+        "explanation": "The Buxa Tiger Reserve is located in Alipurduar district of West Bengal.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Jalpaiguri"
+          },
+          {
+            "id": "B",
+            "text": "Alipurduar"
+          },
+          {
+            "id": "C",
+            "text": "Darjeeling"
+          },
+          {
+            "id": "D",
+            "text": "South 24 Parganas"
+          }
+        ],
+        "question_text": "In which district of West Bengal is the Buxa Tiger Reserve (Buxa Tiger Reserve) located?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 21,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "west_bengal_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "কলমকারি চিত্রশৈলী অন্ধ্রপ্রদেশে উৎপত্তি হয়েছিল।",
+        "options": [
+          {
+            "id": "A",
+            "text": "রাজস্থান"
+          },
+          {
+            "id": "B",
+            "text": "অন্ধ্রপ্রদেশ"
+          },
+          {
+            "id": "C",
+            "text": "গুজরাট"
+          },
+          {
+            "id": "D",
+            "text": "মধ্যপ্রদেশ"
+          }
+        ],
+        "question_text": "কলমকারি চিত্রশৈলী (painting) কোন রাজ্যে উৎপত্তি হয়েছিল?"
+      },
+      "en": {
+        "explanation": "The Kalamkari painting originated in Andhra Pradesh.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rajasthan"
+          },
+          {
+            "id": "B",
+            "text": "Andhra Pradesh"
+          },
+          {
+            "id": "C",
+            "text": "Gujarat"
+          },
+          {
+            "id": "D",
+            "text": "Madhya Pradesh"
+          }
+        ],
+        "question_text": "In which state did the Kalamkari painting originate?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 22,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "art_culture"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "দর্পণে ডান-বাম উল্টে যায়: EFFECTIVE-এর প্রতিবিম্ব হল ƎVITƆƎꟻꟻƎ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ƎVITƆƎFꟻƎ"
+          },
+          {
+            "id": "B",
+            "text": "ƎVITƆƎꟻꟻƎ"
+          },
+          {
+            "id": "C",
+            "text": "ƎꟻꟻƎƆTIVƎ"
+          },
+          {
+            "id": "D",
+            "text": "EVITCEFFE"
+          }
+        ],
+        "question_text": "নীচের কোনটি প্রদত্ত শব্দের প্রতিবিম্ব (Image)? EFFECTIVE"
+      },
+      "en": {
+        "explanation": "In a mirror, left and right are reversed: the mirror image of EFFECTIVE is ƎVITƆƎꟻꟻƎ.",
+        "options": [
+          {
+            "id": "A",
+            "text": "ƎVITƆƎFꟻƎ"
+          },
+          {
+            "id": "B",
+            "text": "ƎVITƆƎꟻꟻƎ"
+          },
+          {
+            "id": "C",
+            "text": "ƎꟻꟻƎƆTIVƎ"
+          },
+          {
+            "id": "D",
+            "text": "EVITCEFFE"
+          }
+        ],
+        "question_text": "Which of the following is the mirror image of the given word? EFFECTIVE"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 23,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "coding_decoding"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "অজাতশত্রু মগধের হর্য্যঙ্ক বংশের রাজা ছিলেন।",
+        "options": [
+          {
+            "id": "A",
+            "text": "অঙ্গ"
+          },
+          {
+            "id": "B",
+            "text": "কোশল"
+          },
+          {
+            "id": "C",
+            "text": "মগধ"
+          },
+          {
+            "id": "D",
+            "text": "অবন্তী"
+          }
+        ],
+        "question_text": "অজাতশত্রু কোন মহাজনপদের অধিপতি ছিলেন?"
+      },
+      "en": {
+        "explanation": "Ajatashatru was a king of the Haryanka dynasty of Magadha.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Anga"
+          },
+          {
+            "id": "B",
+            "text": "Kosala"
+          },
+          {
+            "id": "C",
+            "text": "Magadha"
+          },
+          {
+            "id": "D",
+            "text": "Avanti"
+          }
+        ],
+        "question_text": "Ajatashatru was the ruler of which mahajanapada?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 24,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "মাথাপিছু গড় খরচ x টাকা ধরলে 42(x − 1) − 35x = 42, অর্থাৎ x = 12; প্রথমে মেসের মোট দৈনিক খরচ ছিল 35 × 12 = 420 টাকা।",
+        "options": [
+          {
+            "id": "A",
+            "text": "420 টাকা"
+          },
+          {
+            "id": "B",
+            "text": "400 টাকা"
+          },
+          {
+            "id": "C",
+            "text": "433 টাকা"
+          },
+          {
+            "id": "D",
+            "text": "430 টাকা"
+          }
+        ],
+        "question_text": "একটি হোস্টেলে 35 জন ছাত্র ছিল। যদি ছাত্রের সংখ্যা আরও 7 জন বৃদ্ধি (increase) পায় তবে হোস্টেলের মেসের খরচ প্রতিদিন 42 টাকা বৃদ্ধি পায়, কিন্তু মাথাপিছু খরচের গড় (average) 1 টাকা করে কমে (decrease) যায়। তাহলে প্রথমে প্রতিদিনের গড় খরচ কত ছিল?"
+      },
+      "en": {
+        "explanation": "Let the per-head average be ₹x: 42(x − 1) − 35x = 42 gives x = 12, so the original total daily mess expenditure was 35 × 12 = ₹420.",
+        "options": [
+          {
+            "id": "A",
+            "text": "₹420"
+          },
+          {
+            "id": "B",
+            "text": "₹400"
+          },
+          {
+            "id": "C",
+            "text": "₹433"
+          },
+          {
+            "id": "D",
+            "text": "₹430"
+          }
+        ],
+        "question_text": "There were 35 students in a hostel. If the number of students increases by 7 more, the daily mess expenditure increases by ₹42, but the per-head average expenditure decreases by ₹1. What was the original average daily expenditure?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 25,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "average"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "Tiger ও Wolf দুটোই Carnivorous (মাংসাশী); সেই মতো Student-এর দুটি উদাহরণ হল Boy ও Girl — বিভাগটি আগে, উদাহরণ দুটি পরে। Mango : Banana : Fruit-এ বিভাগটি (Fruit) শেষে আছে, তাই ক্রমটি মেলে না।",
+        "options": [
+          {
+            "id": "A",
+            "text": "Player : Master : Manager"
+          },
+          {
+            "id": "B",
+            "text": "Mango : Banana : Fruit"
+          },
+          {
+            "id": "C",
+            "text": "Student : Boy : Girl"
+          },
+          {
+            "id": "D",
+            "text": "Cat : Cow : Milk"
+          }
+        ],
+        "question_text": "সঠিক বিকল্পকে চিহ্নিত করুন : Carnivorous : Tiger : Wolf"
+      },
+      "en": {
+        "explanation": "Both the tiger and the wolf are carnivorous, so the matching set has the category first and two examples after it: Student : Boy : Girl. In Mango : Banana : Fruit the category (Fruit) comes last, so the order does not match.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Player : Master : Manager"
+          },
+          {
+            "id": "B",
+            "text": "Mango : Banana : Fruit"
+          },
+          {
+            "id": "C",
+            "text": "Student : Boy : Girl"
+          },
+          {
+            "id": "D",
+            "text": "Cat : Cow : Milk"
+          }
+        ],
+        "question_text": "Identify the correct option: Carnivorous : Tiger : Wolf"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 26,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ধর্মেন্দ্র তিওয়ারি 2020 সালে তিরন্দাজিতে (আজীবন বিভাগে) দ্রোণাচার্য পুরস্কার পান।",
+        "options": [
+          {
+            "id": "A",
+            "text": "শিব সিংহ"
+          },
+          {
+            "id": "B",
+            "text": "যশপাল রাণা"
+          },
+          {
+            "id": "C",
+            "text": "ধর্মেন্দ্র তিওয়ারি"
+          },
+          {
+            "id": "D",
+            "text": "নরেশ কুমার"
+          }
+        ],
+        "question_text": "2020 সালে তিরন্দাজিতে দ্রোণাচার্য পুরস্কার কে লাভ করেন?"
+      },
+      "en": {
+        "explanation": "Dharmendra Tiwari received the Dronacharya Award (lifetime category) for archery in 2020.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Shiv Singh"
+          },
+          {
+            "id": "B",
+            "text": "Jaspal Rana"
+          },
+          {
+            "id": "C",
+            "text": "Dharmendra Tiwari"
+          },
+          {
+            "id": "D",
+            "text": "Naresh Kumar"
+          }
+        ],
+        "question_text": "Who won the Dronacharya Award in archery in 2020?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 27,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "6-এর পাশে 1, 4, 5 ও 3 আছে, তাই 6-এর বিপরীতে 2; অর্থাৎ 2-এর বিপরীতে আসবে 6।",
+        "options": [
+          {
+            "id": "A",
+            "text": "5"
+          },
+          {
+            "id": "B",
+            "text": "3"
+          },
+          {
+            "id": "C",
+            "text": "6"
+          },
+          {
+            "id": "D",
+            "text": "4"
+          }
+        ],
+        "question_text": "একটি ছক্কার তিনটি অবস্থান নীচে দেওয়া আছে। এর উপর ভিত্তি করে 2 নম্বর-এর বিপরীতে কী আসবে তা নির্ণয় করুন : [তিনটি অবস্থান: (উপরে 6, বামে 1, ডানে 4), (উপরে 5, বামে 3, ডানে 6), (উপরে 4, বামে 1, ডানে 2)]"
+      },
+      "en": {
+        "explanation": "The faces adjacent to 6 are 1, 4, 5 and 3, so 2 is opposite 6 — hence the number opposite 2 is 6.",
+        "options": [
+          {
+            "id": "A",
+            "text": "5"
+          },
+          {
+            "id": "B",
+            "text": "3"
+          },
+          {
+            "id": "C",
+            "text": "6"
+          },
+          {
+            "id": "D",
+            "text": "4"
+          }
+        ],
+        "question_text": "Three positions of a dice are shown below. Based on these, determine what will come opposite the number 2: [Three positions: (top 6, left 1, right 4), (top 5, left 3, right 6), (top 4, left 1, right 2)]"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 28,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "রাজা রামমোহন রায়কে বাংলার রেনেসাঁসের জনক বলা হয়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "রাজা রামমোহন রায়"
+          },
+          {
+            "id": "B",
+            "text": "পণ্ডিত ঈশ্বরচন্দ্র বিদ্যাসাগর"
+          },
+          {
+            "id": "C",
+            "text": "মাইকেল মধুসূদন দত্ত"
+          },
+          {
+            "id": "D",
+            "text": "প্রিন্স দ্বারকানাথ ঠাকুর"
+          }
+        ],
+        "question_text": "বাংলার রেনেসাঁসের জনক বলে কাকে অভিহিত করা হয়?"
+      },
+      "en": {
+        "explanation": "Raja Rammohun Roy is called the father of the Bengal Renaissance.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Raja Rammohun Roy"
+          },
+          {
+            "id": "B",
+            "text": "Pandit Ishwar Chandra Vidyasagar"
+          },
+          {
+            "id": "C",
+            "text": "Michael Madhusudan Dutt"
+          },
+          {
+            "id": "D",
+            "text": "Prince Dwarkanath Tagore"
+          }
+        ],
+        "question_text": "Who is called the father of the Bengal Renaissance?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 29,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "যোগফল = গড় × সংখ্যা = 17 × 6 = 102।",
+        "options": [
+          {
+            "id": "A",
+            "text": "112"
+          },
+          {
+            "id": "B",
+            "text": "102"
+          },
+          {
+            "id": "C",
+            "text": "132"
+          },
+          {
+            "id": "D",
+            "text": "122"
+          }
+        ],
+        "question_text": "6টি সংখ্যার গড় (average) যদি 17 হয় তবে সংখ্যাগুলির যোগফল (sum) কত?"
+      },
+      "en": {
+        "explanation": "Sum = average × count = 17 × 6 = 102.",
+        "options": [
+          {
+            "id": "A",
+            "text": "112"
+          },
+          {
+            "id": "B",
+            "text": "102"
+          },
+          {
+            "id": "C",
+            "text": "132"
+          },
+          {
+            "id": "D",
+            "text": "122"
+          }
+        ],
+        "question_text": "If the average of 6 numbers is 17, what is their sum?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 30,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "average"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ক্লোরোফিল অণুর কেন্দ্রে ম্যাগনেশিয়াম থাকে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "বেরিয়াম"
+          },
+          {
+            "id": "B",
+            "text": "বেরিলিয়াম"
+          },
+          {
+            "id": "C",
+            "text": "ম্যাগনেশিয়াম"
+          },
+          {
+            "id": "D",
+            "text": "ক্যালশিয়াম"
+          }
+        ],
+        "question_text": "ক্লোরোফিলে (chlorophyll) নিম্নোক্ত কোন ধাতুটি বর্তমান?"
+      },
+      "en": {
+        "explanation": "Magnesium sits at the centre of the chlorophyll molecule.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Barium"
+          },
+          {
+            "id": "B",
+            "text": "Beryllium"
+          },
+          {
+            "id": "C",
+            "text": "Magnesium"
+          },
+          {
+            "id": "D",
+            "text": "Calcium"
+          }
+        ],
+        "question_text": "Which of the following metals is present in chlorophyll?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 31,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "50 ÷ 7 = 7 সপ্তাহ ও 1 দিন বাকি থাকে; বুধবারের 1 দিন পর বৃহস্পতিবার।",
+        "options": [
+          {
+            "id": "A",
+            "text": "শনিবার"
+          },
+          {
+            "id": "B",
+            "text": "মঙ্গলবার"
+          },
+          {
+            "id": "C",
+            "text": "বৃহস্পতিবার"
+          },
+          {
+            "id": "D",
+            "text": "শুক্রবার"
+          }
+        ],
+        "question_text": "রবির জন্মদিন বুধবার। গোপালের জন্মদিন রবির জন্মদিনের 50 দিন পর হলে, গোপালের জন্মদিন কবে?"
+      },
+      "en": {
+        "explanation": "50 ÷ 7 leaves 7 weeks and 1 day; one day after Wednesday is Thursday.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Saturday"
+          },
+          {
+            "id": "B",
+            "text": "Tuesday"
+          },
+          {
+            "id": "C",
+            "text": "Thursday"
+          },
+          {
+            "id": "D",
+            "text": "Friday"
+          }
+        ],
+        "question_text": "Ravi's birthday is on Wednesday. If Gopal's birthday is 50 days after Ravi's birthday, on which day is Gopal's birthday?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 32,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "নতুন বাহু 0.9 গুণ; ক্ষেত্রফল 0.9² = 0.81 গুণ হয়, অর্থাৎ 19% কমে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "15%"
+          },
+          {
+            "id": "B",
+            "text": "19%"
+          },
+          {
+            "id": "C",
+            "text": "16%"
+          },
+          {
+            "id": "D",
+            "text": "21%"
+          }
+        ],
+        "question_text": "কোনো ঘনকের (cube) প্রতিটি বাহু (side) যদি 10% করে কমানো (decrease) হয়, তবে তার পার্শ্বতল (surface area) কত শতাংশ (per cent) কমবে?"
+      },
+      "en": {
+        "explanation": "The new side is 0.9 times the old one, so the area is 0.9² = 0.81 times — a decrease of 19%.",
+        "options": [
+          {
+            "id": "A",
+            "text": "15%"
+          },
+          {
+            "id": "B",
+            "text": "19%"
+          },
+          {
+            "id": "C",
+            "text": "16%"
+          },
+          {
+            "id": "D",
+            "text": "21%"
+          }
+        ],
+        "question_text": "If each side of a cube is decreased by 10%, by what per cent will its surface area decrease?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 33,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "percentage"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সর্বভারতীয় কিষান সভা 1936 সালে প্রতিষ্ঠিত হয়েছিল।",
+        "options": [
+          {
+            "id": "A",
+            "text": "1916"
+          },
+          {
+            "id": "B",
+            "text": "1926"
+          },
+          {
+            "id": "C",
+            "text": "1936"
+          },
+          {
+            "id": "D",
+            "text": "1946"
+          }
+        ],
+        "question_text": "কত সালে সর্বভারতীয় কিষান সভা প্রতিষ্ঠিত হয়েছিল?"
+      },
+      "en": {
+        "explanation": "The All India Kisan Sabha was founded in 1936.",
+        "options": [
+          {
+            "id": "A",
+            "text": "1916"
+          },
+          {
+            "id": "B",
+            "text": "1926"
+          },
+          {
+            "id": "C",
+            "text": "1936"
+          },
+          {
+            "id": "D",
+            "text": "1946"
+          }
+        ],
+        "question_text": "In which year was the All India Kisan Sabha founded?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 34,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "পিথাগোরাসের উপপাদ্য অনুযায়ী x² = 20² + (50 − x)², অর্থাৎ 100x = 2900, তাই x = 29 মিটার।",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 মিটার"
+          },
+          {
+            "id": "B",
+            "text": "29 মিটার"
+          },
+          {
+            "id": "C",
+            "text": "25 মিটার"
+          },
+          {
+            "id": "D",
+            "text": "27 মিটার"
+          }
+        ],
+        "question_text": "নীচের ত্রিভুজে (triangle), যদি AC = 20 মিটার, AB = x মিটার এবং BC = (50 − x) মিটার হয়, তবে AB = ? [সমকোণী ত্রিভুজ: C সমকোণ, AC = 20 মিটার, AB = x মিটার, BC = (50 − x) মিটার]"
+      },
+      "en": {
+        "explanation": "By Pythagoras, x² = 20² + (50 − x)², so 100x = 2900 and x = 29 m.",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 m"
+          },
+          {
+            "id": "B",
+            "text": "29 m"
+          },
+          {
+            "id": "C",
+            "text": "25 m"
+          },
+          {
+            "id": "D",
+            "text": "27 m"
+          }
+        ],
+        "question_text": "In the triangle below, if AC = 20 m, AB = x m and BC = (50 − x) m, then AB = ? [Right-angled triangle, right angle at C, AC = 20 m, AB = x m, BC = (50 − x) m]"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 35,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "2020 সালে সাহিত্যে নোবেল পুরস্কার পান মার্কিন কবি লুইস গ্লাক (Louise Glück)।",
+        "options": [
+          {
+            "id": "A",
+            "text": "লুইস গ্লাক (Louis Gluck)"
+          },
+          {
+            "id": "B",
+            "text": "বব ডিলান (Bob Dylan)"
+          },
+          {
+            "id": "C",
+            "text": "পিটার হান্ডকে (Peter Handke)"
+          },
+          {
+            "id": "D",
+            "text": "কাজুও ইশিগুরো (Kazuo Ishiguro)"
+          }
+        ],
+        "question_text": "2020 সালে সাহিত্যে নোবেল পুরস্কার কে জিতেছিলেন?"
+      },
+      "en": {
+        "explanation": "The American poet Louise Glück won the Nobel Prize in Literature in 2020.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Louis Gluck"
+          },
+          {
+            "id": "B",
+            "text": "Bob Dylan"
+          },
+          {
+            "id": "C",
+            "text": "Peter Handke"
+          },
+          {
+            "id": "D",
+            "text": "Kazuo Ishiguro"
+          }
+        ],
+        "question_text": "Who won the Nobel Prize in Literature in 2020?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 36,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "FACTOR লিখতে O দরকার, কিন্তু TRANSFERENCE-এ O নেই।",
+        "options": [
+          {
+            "id": "A",
+            "text": "TENSE"
+          },
+          {
+            "id": "B",
+            "text": "FRANCE"
+          },
+          {
+            "id": "C",
+            "text": "FACTOR"
+          },
+          {
+            "id": "D",
+            "text": "ENTRANCE"
+          }
+        ],
+        "question_text": "TRANSFERENCE শব্দটির বর্ণগুলির সাহায্যে নীচের শব্দগুলির মধ্যে কোন শব্দটি তৈরি করা যাবে না?"
+      },
+      "en": {
+        "explanation": "FACTOR needs the letter O, which does not occur in TRANSFERENCE.",
+        "options": [
+          {
+            "id": "A",
+            "text": "TENSE"
+          },
+          {
+            "id": "B",
+            "text": "FRANCE"
+          },
+          {
+            "id": "C",
+            "text": "FACTOR"
+          },
+          {
+            "id": "D",
+            "text": "ENTRANCE"
+          }
+        ],
+        "question_text": "Which of the following words CANNOT be formed using the letters of the word TRANSFERENCE?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 37,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "coding_decoding"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "10° চ্যানেল আন্দামান দ্বীপপুঞ্জকে নিকোবর দ্বীপপুঞ্জ থেকে আলাদা করেছে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "রামেশ্বরম এবং জাফনা উপদ্বীপ"
+          },
+          {
+            "id": "B",
+            "text": "আন্দামান ও নিকোবর দ্বীপপুঞ্জ"
+          },
+          {
+            "id": "C",
+            "text": "গ্রেট নিকোবর এবং সুমাত্রা দ্বীপপুঞ্জ"
+          },
+          {
+            "id": "D",
+            "text": "দক্ষিণ আন্দামান ও লিটল্ আন্দামান দ্বীপপুঞ্জ"
+          }
+        ],
+        "question_text": "10° চ্যানেল (10° channel) নিম্নোক্ত কোন দুটির মাঝখান দিয়ে গেছে?"
+      },
+      "en": {
+        "explanation": "The 10° Channel separates the Andaman Islands from the Nicobar Islands.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rameswaram and Jaffna peninsula"
+          },
+          {
+            "id": "B",
+            "text": "Andaman and Nicobar Islands"
+          },
+          {
+            "id": "C",
+            "text": "Great Nicobar and Sumatra Islands"
+          },
+          {
+            "id": "D",
+            "text": "South Andaman and Little Andaman Islands"
+          }
+        ],
+        "question_text": "Between which two does the 10° Channel pass?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 38,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "geography"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "2 বছরে পার্থক্য = P(r/100)², অর্থাৎ 15000 × (r/100)² = 96, তাই r = 8%।",
+        "options": [
+          {
+            "id": "A",
+            "text": "6%"
+          },
+          {
+            "id": "B",
+            "text": "10%"
+          },
+          {
+            "id": "C",
+            "text": "12%"
+          },
+          {
+            "id": "D",
+            "text": "8%"
+          }
+        ],
+        "question_text": "15,000 টাকার 2 বছরে একই সুদের হারে (rate of interest) যৌগিক সুদ (compound interest) এবং সরল সুদের (simple interest) অন্তর (difference) হল 96 টাকা। সুদের হার বার্ষিক কত ছিল?"
+      },
+      "en": {
+        "explanation": "For 2 years the difference is P(r/100)², so 15000 × (r/100)² = 96, giving r = 8%.",
+        "options": [
+          {
+            "id": "A",
+            "text": "6%"
+          },
+          {
+            "id": "B",
+            "text": "10%"
+          },
+          {
+            "id": "C",
+            "text": "12%"
+          },
+          {
+            "id": "D",
+            "text": "8%"
+          }
+        ],
+        "question_text": "The difference between the compound interest and the simple interest on ₹15,000 for 2 years at the same rate of interest is ₹96. What was the annual rate of interest?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 39,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "interest"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "মহিলা বক্সার লভলীনা বরগোহাঁই আসামের বাসিন্দা; তিনি টোকিও অলিম্পিকে ব্রোঞ্জ জিতেছিলেন।",
+        "options": [
+          {
+            "id": "A",
+            "text": "মিজোরাম"
+          },
+          {
+            "id": "B",
+            "text": "ত্রিপুরা"
+          },
+          {
+            "id": "C",
+            "text": "আসাম"
+          },
+          {
+            "id": "D",
+            "text": "মণিপুর"
+          }
+        ],
+        "question_text": "টোকিও অলিম্পিকে পদকজয়ী লভলীনা বরগোহাঁই কোন রাজ্যের বাসিন্দা?"
+      },
+      "en": {
+        "explanation": "Boxer Lovlina Borgohain is from Assam; she won bronze at the Tokyo Olympics.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mizoram"
+          },
+          {
+            "id": "B",
+            "text": "Tripura"
+          },
+          {
+            "id": "C",
+            "text": "Assam"
+          },
+          {
+            "id": "D",
+            "text": "Manipur"
+          }
+        ],
+        "question_text": "Tokyo Olympics medallist Lovlina Borgohain belongs to which state?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 40,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "13 + 14 = 27 এবং 13 × 14 = 182, তাই ছোট সংখ্যাটি 13।",
+        "options": [
+          {
+            "id": "A",
+            "text": "16"
+          },
+          {
+            "id": "B",
+            "text": "12"
+          },
+          {
+            "id": "C",
+            "text": "14"
+          },
+          {
+            "id": "D",
+            "text": "13"
+          }
+        ],
+        "question_text": "দুটি সংখ্যার যোগফল (sum) 27 এবং গুণফল (product) 182 হলে, ছোট (smaller) সংখ্যাটি কত?"
+      },
+      "en": {
+        "explanation": "13 + 14 = 27 and 13 × 14 = 182, so the smaller number is 13.",
+        "options": [
+          {
+            "id": "A",
+            "text": "16"
+          },
+          {
+            "id": "B",
+            "text": "12"
+          },
+          {
+            "id": "C",
+            "text": "14"
+          },
+          {
+            "id": "D",
+            "text": "13"
+          }
+        ],
+        "question_text": "If the sum of two numbers is 27 and their product is 182, what is the smaller number?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 41,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "পশ্চিমবঙ্গ সরকার 2013 সালে কন্যাশ্রী প্রকল্প চালু করে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "2014"
+          },
+          {
+            "id": "B",
+            "text": "2012"
+          },
+          {
+            "id": "C",
+            "text": "2013"
+          },
+          {
+            "id": "D",
+            "text": "2011"
+          }
+        ],
+        "question_text": "কোন বছর পশ্চিমবঙ্গে ‘কন্যাশ্রী’ প্রকল্প চালু হয়েছিল?"
+      },
+      "en": {
+        "explanation": "The Government of West Bengal launched the Kanyashree scheme in 2013.",
+        "options": [
+          {
+            "id": "A",
+            "text": "2014"
+          },
+          {
+            "id": "B",
+            "text": "2012"
+          },
+          {
+            "id": "C",
+            "text": "2013"
+          },
+          {
+            "id": "D",
+            "text": "2011"
+          }
+        ],
+        "question_text": "In which year was the 'Kanyashree' scheme launched in West Bengal?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 42,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "west_bengal_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সিন্ধু সভ্যতার শহরগুলিতে (মহেঞ্জোদাড়ো, হরপ্পা) ঢাকা নিকাশি ব্যবস্থা ছিল — বিশ্বের প্রথম সুপরিকল্পিত নিকাশি ব্যবস্থাগুলির একটি।",
+        "options": [
+          {
+            "id": "A",
+            "text": "মেসোপটেমিয়া সভ্যতা"
+          },
+          {
+            "id": "B",
+            "text": "মিশরীয় সভ্যতা"
+          },
+          {
+            "id": "C",
+            "text": "সিন্ধু সভ্যতা"
+          },
+          {
+            "id": "D",
+            "text": "চৈনিক সভ্যতা"
+          }
+        ],
+        "question_text": "কোন সভ্যতার অধিবাসীরা প্রথম নিকাশি ব্যবস্থার প্রচলন করেন?"
+      },
+      "en": {
+        "explanation": "The cities of the Indus Valley Civilization (Mohenjo-daro, Harappa) had covered drains — among the world's first planned drainage systems.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mesopotamian civilization"
+          },
+          {
+            "id": "B",
+            "text": "Egyptian civilization"
+          },
+          {
+            "id": "C",
+            "text": "Indus Valley civilization"
+          },
+          {
+            "id": "D",
+            "text": "Chinese civilization"
+          }
+        ],
+        "question_text": "The inhabitants of which civilization first introduced a drainage system?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 43,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "5x × 0.50 + 8x × 0.25 + 3x × 0.10 = 4.8x = 144, তাই x = 30 এবং 50 পয়সার মুদ্রা 5 × 30 = 150টি।",
+        "options": [
+          {
+            "id": "A",
+            "text": "150"
+          },
+          {
+            "id": "B",
+            "text": "140"
+          },
+          {
+            "id": "C",
+            "text": "200"
+          },
+          {
+            "id": "D",
+            "text": "175"
+          }
+        ],
+        "question_text": "একটি ব্যাগে থাকা 50 পয়সা, 25 পয়সা ও 10 পয়সার মুদ্রার সংখ্যার অনুপাত 5 : 8 : 3 এবং মোট টাকার পরিমাণ 144 টাকা। 50 পয়সার মুদ্রার সংখ্যা কয়টি?"
+      },
+      "en": {
+        "explanation": "5x × 0.50 + 8x × 0.25 + 3x × 0.10 = 4.8x = 144, so x = 30 and the 50 paise coins number 5 × 30 = 150.",
+        "options": [
+          {
+            "id": "A",
+            "text": "150"
+          },
+          {
+            "id": "B",
+            "text": "140"
+          },
+          {
+            "id": "C",
+            "text": "200"
+          },
+          {
+            "id": "D",
+            "text": "175"
+          }
+        ],
+        "question_text": "The numbers of 50 paise, 25 paise and 10 paise coins in a bag are in the ratio 5 : 8 : 3, and their total value is ₹144. How many 50 paise coins are there?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 44,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ভারতের পরিকল্পনা কমিশন 1950 সালের 15 মার্চ গঠিত হয়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "1949"
+          },
+          {
+            "id": "B",
+            "text": "1951"
+          },
+          {
+            "id": "C",
+            "text": "1948"
+          },
+          {
+            "id": "D",
+            "text": "1950"
+          }
+        ],
+        "question_text": "জাতীয় প্ল্যানিং কমিশন (Planning Commission) কোন সালে স্থাপিত হয়?"
+      },
+      "en": {
+        "explanation": "The Planning Commission of India was set up on 15 March 1950.",
+        "options": [
+          {
+            "id": "A",
+            "text": "1949"
+          },
+          {
+            "id": "B",
+            "text": "1951"
+          },
+          {
+            "id": "C",
+            "text": "1948"
+          },
+          {
+            "id": "D",
+            "text": "1950"
+          }
+        ],
+        "question_text": "In which year was the Planning Commission of India established?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 45,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "polity"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ছোটো, মাঝারি ও বড়ো মিলিয়ে মোট 13টি ত্রিভুজ আছে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "14"
+          },
+          {
+            "id": "B",
+            "text": "11"
+          },
+          {
+            "id": "C",
+            "text": "13"
+          },
+          {
+            "id": "D",
+            "text": "12"
+          }
+        ],
+        "question_text": "নীচের ছবিটিতে কতগুলি ত্রিভুজ (triangle) আছে? [বড়ো ত্রিভুজ: শীর্ষ থেকে ভূমির মধ্যবিন্দু পর্যন্ত মধ্যমা, দুই বাহুর মধ্যবিন্দু যোগ করা অনুভূমিক রেখা এবং সেই মধ্যবিন্দুগুলি থেকে ভূমির মধ্যবিন্দু পর্যন্ত দুটি রেখা]"
+      },
+      "en": {
+        "explanation": "Counting the small, medium and large triangles together, there are 13 in all.",
+        "options": [
+          {
+            "id": "A",
+            "text": "14"
+          },
+          {
+            "id": "B",
+            "text": "11"
+          },
+          {
+            "id": "C",
+            "text": "13"
+          },
+          {
+            "id": "D",
+            "text": "12"
+          }
+        ],
+        "question_text": "How many triangles are there in the figure below? [Large triangle with a median from the apex to the midpoint of the base, a horizontal line joining the midpoints of the two sides, and two lines from those midpoints to the midpoint of the base]"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 46,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "মায়ের মা অর্থাৎ দিদিমার একমাত্র পুত্র হলেন মহিলার মামা; তাই মহিলা তাঁর বোনঝি।",
+        "options": [
+          {
+            "id": "A",
+            "text": "বোনঝি (Niece)"
+          },
+          {
+            "id": "B",
+            "text": "মা (Mother)"
+          },
+          {
+            "id": "C",
+            "text": "বোন (Sister)"
+          },
+          {
+            "id": "D",
+            "text": "কাকিমা/মাসিমা (Aunt)"
+          }
+        ],
+        "question_text": "ভদ্রলোককে দেখিয়ে মহিলা বললেন, “উনি আমার মায়ের মার একমাত্র পুত্র।” ভদ্রমহিলা ভদ্রলোকের কে হন?"
+      },
+      "en": {
+        "explanation": "The mother's mother is the maternal grandmother, whose only son is the lady's maternal uncle — so the lady is his niece.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Niece"
+          },
+          {
+            "id": "B",
+            "text": "Mother"
+          },
+          {
+            "id": "C",
+            "text": "Sister"
+          },
+          {
+            "id": "D",
+            "text": "Aunt"
+          }
+        ],
+        "question_text": "Pointing to a gentleman, a lady said, 'He is the only son of my mother's mother.' How is the lady related to the gentleman?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 47,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "blood_relations"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "বর্ণমালা অনুযায়ী ক্রম: Elect, Elector, Electric, Electrode, Electron; মাঝখানে (তৃতীয়) Electric।",
+        "options": [
+          {
+            "id": "A",
+            "text": "Elect"
+          },
+          {
+            "id": "B",
+            "text": "Electric"
+          },
+          {
+            "id": "C",
+            "text": "Electron"
+          },
+          {
+            "id": "D",
+            "text": "Elector"
+          }
+        ],
+        "question_text": "নীচের শব্দগুলিকে যদি অভিধানগতভাবে (dictionary) বর্ণমালা অনুযায়ী সাজানো হয়, তাহলে কোন শব্দটি মাঝখানে থাকবে? Electric, Elector, Electrode, Elect, Electron"
+      },
+      "en": {
+        "explanation": "In alphabetical order: Elect, Elector, Electric, Electrode, Electron — the middle (third) word is Electric.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Elect"
+          },
+          {
+            "id": "B",
+            "text": "Electric"
+          },
+          {
+            "id": "C",
+            "text": "Electron"
+          },
+          {
+            "id": "D",
+            "text": "Elector"
+          }
+        ],
+        "question_text": "If the following words are arranged in dictionary (alphabetical) order, which word will be in the middle? Electric, Elector, Electrode, Elect, Electron"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 48,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "HIDCO হল West Bengal Housing Infrastructure Development Corporation।",
+        "options": [
+          {
+            "id": "A",
+            "text": "Housing Infrastructure Development Construction Officer"
+          },
+          {
+            "id": "B",
+            "text": "Housing Improvement Development Corporation"
+          },
+          {
+            "id": "C",
+            "text": "Housing Infrastructure Development Corporation"
+          },
+          {
+            "id": "D",
+            "text": "Housing Interest Deduction Controlling Officer"
+          }
+        ],
+        "question_text": "HIDCO-র সম্পূর্ণ রূপ কী?"
+      },
+      "en": {
+        "explanation": "HIDCO is the West Bengal Housing Infrastructure Development Corporation.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Housing Infrastructure Development Construction Officer"
+          },
+          {
+            "id": "B",
+            "text": "Housing Improvement Development Corporation"
+          },
+          {
+            "id": "C",
+            "text": "Housing Infrastructure Development Corporation"
+          },
+          {
+            "id": "D",
+            "text": "Housing Interest Deduction Controlling Officer"
+          }
+        ],
+        "question_text": "What is the full form of HIDCO?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 49,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "west_bengal_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সঠিক টুকরোটিতে উপরের-বামে ছোটো বর্গ, সঠিক দিকে বাঁকা বৃত্তচাপ ও তারকার কর্ণরেখাগুলি থাকে এবং ∇ চিহ্নটি নকশাটি সম্পূর্ণ করে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ছোটো বর্গ উপরের-বামে, বৃত্তচাপ, কর্ণরেখা ও Δ"
+          },
+          {
+            "id": "B",
+            "text": "ছোটো বর্গ উপরের-বামে, বিপরীত বক্ররেখা, কর্ণরেখা ও ∇"
+          },
+          {
+            "id": "C",
+            "text": "ছোটো বর্গ নেই, বৃত্তচাপ, কর্ণরেখা ও ∇"
+          },
+          {
+            "id": "D",
+            "text": "ছোটো বর্গ উপরের-বামে, বৃত্তচাপ, কর্ণরেখা ও ∇"
+          }
+        ],
+        "question_text": "নীচের কোন ছবিটি প্রশ্নবোধক স্থানে বসলে মূল ছবিটি সম্পূর্ণ হবে? [বর্গাকার ছবি: উপরের-বাম চতুর্থাংশে ‘?’; মাঝখানে চার-মাথা তারকা, বৃত্ত ও ছোটো বর্গ; উপরের-ডান কোণে Δ, নীচের দুই কোণে ∇]"
+      },
+      "en": {
+        "explanation": "Only the correct piece has the small square at the top-left, the circle arc curving the right way and the star's diagonal lines meeting the top-right corner, completing the pattern.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Small square at top-left, circle arc, diagonal lines and Δ"
+          },
+          {
+            "id": "B",
+            "text": "Small square at top-left, oppositely curved arc, diagonal lines and ∇"
+          },
+          {
+            "id": "C",
+            "text": "No small square, circle arc, diagonal lines and ∇"
+          },
+          {
+            "id": "D",
+            "text": "Small square at top-left, circle arc, diagonal lines and ∇"
+          }
+        ],
+        "question_text": "Which of the following figures, placed in the question-mark space, will complete the original figure? [Square figure with a '?' in the top-left quarter; a four-pointed star, a circle and a small square at the centre; a Δ in the top-right corner and ∇ in the two bottom corners]"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 50,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "কমলা হ্যারিস 2021 সালের জানুয়ারিতে মার্কিন যুক্তরাষ্ট্রের উপরাষ্ট্রপতি হন; ডিক চেনি ও মাইক পেন্স প্রাক্তন উপরাষ্ট্রপতি এবং জো বাইডেন ছিলেন রাষ্ট্রপতি।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ডিক চেনি"
+          },
+          {
+            "id": "B",
+            "text": "মাইক পেন্স"
+          },
+          {
+            "id": "C",
+            "text": "কমলা হ্যারিস"
+          },
+          {
+            "id": "D",
+            "text": "জো বাইডেন"
+          }
+        ],
+        "question_text": "মার্কিন যুক্তরাষ্ট্রের উপরাষ্ট্রপতির নাম কী?"
+      },
+      "en": {
+        "explanation": "Kamala Harris became the Vice President of the United States in January 2021; Dick Cheney and Mike Pence were former vice-presidents, and Joe Biden was the President.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dick Cheney"
+          },
+          {
+            "id": "B",
+            "text": "Mike Pence"
+          },
+          {
+            "id": "C",
+            "text": "Kamala Harris"
+          },
+          {
+            "id": "D",
+            "text": "Joe Biden"
+          }
+        ],
+        "question_text": "What is the name of the Vice President of the United States of America?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 51,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "11 × 14 = 154 (মাঝখানে); 11² = 121 (নীচে) এবং 14² = 196 (ডানে), তাই উপরের সংখ্যাটি 11।",
+        "options": [
+          {
+            "id": "A",
+            "text": "17"
+          },
+          {
+            "id": "B",
+            "text": "11"
+          },
+          {
+            "id": "C",
+            "text": "15"
+          },
+          {
+            "id": "D",
+            "text": "13"
+          }
+        ],
+        "question_text": "প্রশ্নবোধক স্থানে কী বসবে? [ক্রস চিত্র: উপরে ?, মাঝখানে 154, বামে 14, ডানে 196, নীচে 121]"
+      },
+      "en": {
+        "explanation": "11 × 14 = 154 (centre); 11² = 121 (bottom) and 14² = 196 (right), so the top number is 11.",
+        "options": [
+          {
+            "id": "A",
+            "text": "17"
+          },
+          {
+            "id": "B",
+            "text": "11"
+          },
+          {
+            "id": "C",
+            "text": "15"
+          },
+          {
+            "id": "D",
+            "text": "13"
+          }
+        ],
+        "question_text": "What will come in place of the question mark? [Cross figure: ? at the top, 154 in the centre, 14 on the left, 196 on the right, 121 at the bottom]"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 52,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "জয়ী সেতু (তিস্তা নদীর উপর, 2.709 কিমি, 1 ফেব্রুয়ারি 2021 চালু) পশ্চিমবঙ্গের দীর্ঘতম নদী-সেতু; ফরাক্কা বাঁধ (2.24 কিমি) এর চেয়ে ছোটো।",
+        "options": [
+          {
+            "id": "A",
+            "text": "রবীন্দ্র সেতু (Howrah Bridge)"
+          },
+          {
+            "id": "B",
+            "text": "ফরাক্কা সেতু"
+          },
+          {
+            "id": "C",
+            "text": "ভূতনি সেতু"
+          },
+          {
+            "id": "D",
+            "text": "জয়ী সেতু"
+          }
+        ],
+        "question_text": "পশ্চিমবঙ্গের দীর্ঘতম সেতু কোনটি?"
+      },
+      "en": {
+        "explanation": "Joyee Setu (2.709 km across the Teesta, opened 1 February 2021) is the longest river bridge in West Bengal, longer than the Farakka Barrage (2.24 km).",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rabindra Setu (Howrah Bridge)"
+          },
+          {
+            "id": "B",
+            "text": "Farakka Setu"
+          },
+          {
+            "id": "C",
+            "text": "Bhutni Setu"
+          },
+          {
+            "id": "D",
+            "text": "Joyee Setu"
+          }
+        ],
+        "question_text": "Which is the longest bridge in West Bengal?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 53,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "west_bengal_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ভারতের সংবিধান 26 নভেম্বর 1949 গৃহীত হয় এবং 26 জানুয়ারি 1950 কার্যকর হয়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ডিসেম্বর 31, 1950"
+          },
+          {
+            "id": "B",
+            "text": "নভেম্বর 26, 1949"
+          },
+          {
+            "id": "C",
+            "text": "জানুয়ারি 26, 1949"
+          },
+          {
+            "id": "D",
+            "text": "জানুয়ারি 26, 1950"
+          }
+        ],
+        "question_text": "নিম্নোক্ত কোন তারিখে ভারতের সংবিধান গৃহীত (adopted) হয়েছিল?"
+      },
+      "en": {
+        "explanation": "The Constitution of India was adopted on 26 November 1949 and came into force on 26 January 1950.",
+        "options": [
+          {
+            "id": "A",
+            "text": "31 December 1950"
+          },
+          {
+            "id": "B",
+            "text": "26 November 1949"
+          },
+          {
+            "id": "C",
+            "text": "26 January 1949"
+          },
+          {
+            "id": "D",
+            "text": "26 January 1950"
+          }
+        ],
+        "question_text": "On which of the following dates was the Constitution of India adopted?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 54,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "polity"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "tan 45° = 1 এবং sin 30° = 1/2, তাই বামপক্ষ = x/2; cos 30° tan 30° = (√3/2) × (1/√3) = 1/2, তাই x = 1।",
+        "options": [
+          {
+            "id": "A",
+            "text": "1"
+          },
+          {
+            "id": "B",
+            "text": "√3"
+          },
+          {
+            "id": "C",
+            "text": "√3/2"
+          },
+          {
+            "id": "D",
+            "text": "1/√2"
+          }
+        ],
+        "question_text": "যদি x tan 45° sin 30° = cos 30° tan 30° হয় তবে x-এর মান কত?"
+      },
+      "en": {
+        "explanation": "tan 45° = 1 and sin 30° = 1/2, so the left side is x/2; cos 30° tan 30° = (√3/2) × (1/√3) = 1/2, so x = 1.",
+        "options": [
+          {
+            "id": "A",
+            "text": "1"
+          },
+          {
+            "id": "B",
+            "text": "√3"
+          },
+          {
+            "id": "C",
+            "text": "√3/2"
+          },
+          {
+            "id": "D",
+            "text": "1/√2"
+          }
+        ],
+        "question_text": "If x tan 45° sin 30° = cos 30° tan 30°, what is the value of x?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 55,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "মহাত্মা গান্ধী কংগ্রেসের একমাত্র একটি অধিবেশনে সভাপতিত্ব করেছিলেন — 1924 সালের বেলগাঁও অধিবেশনে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "করাচি"
+          },
+          {
+            "id": "B",
+            "text": "অমরাবতী"
+          },
+          {
+            "id": "C",
+            "text": "নাগপুর"
+          },
+          {
+            "id": "D",
+            "text": "বেলগাঁও"
+          }
+        ],
+        "question_text": "ভারতীয় জাতীয় কংগ্রেসের একমাত্র কোন অধিবেশনে মহাত্মা গান্ধী সভাপতিত্ব করেছিলেন?"
+      },
+      "en": {
+        "explanation": "Mahatma Gandhi presided over only one session of the Congress — the Belgaum session of 1924.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Karachi"
+          },
+          {
+            "id": "B",
+            "text": "Amravati"
+          },
+          {
+            "id": "C",
+            "text": "Nagpur"
+          },
+          {
+            "id": "D",
+            "text": "Belgaum"
+          }
+        ],
+        "question_text": "At which sole session of the Indian National Congress did Mahatma Gandhi preside?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 56,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ধারাটিতে পর্যায়ক্রমে ÷2 ও ×4 হচ্ছে: 48÷2=24, 24×4=96, 96÷2=48, 48×4=192, 192÷2=96।",
+        "options": [
+          {
+            "id": "A",
+            "text": "98"
+          },
+          {
+            "id": "B",
+            "text": "76"
+          },
+          {
+            "id": "C",
+            "text": "96"
+          },
+          {
+            "id": "D",
+            "text": "90"
+          }
+        ],
+        "question_text": "প্রশ্নবোধক স্থানে কী বসবে? 48, 24, 96, 48, 192, ?"
+      },
+      "en": {
+        "explanation": "The series alternates ÷2 and ×4: 48÷2=24, 24×4=96, 96÷2=48, 48×4=192, 192÷2=96.",
+        "options": [
+          {
+            "id": "A",
+            "text": "98"
+          },
+          {
+            "id": "B",
+            "text": "76"
+          },
+          {
+            "id": "C",
+            "text": "96"
+          },
+          {
+            "id": "D",
+            "text": "90"
+          }
+        ],
+        "question_text": "What will come in place of the question mark? 48, 24, 96, 48, 192, ?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 57,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "কুচিপুড়ি নৃত্য-নাট্য ঐতিহ্যের উৎপত্তিস্থল অন্ধ্রপ্রদেশের কুচিপুড়ি গ্রামের নামে নামকরণ করা হয়েছে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "মোহিনীআট্টম"
+          },
+          {
+            "id": "B",
+            "text": "কুচিপুড়ি"
+          },
+          {
+            "id": "C",
+            "text": "ভারতনাট্যম"
+          },
+          {
+            "id": "D",
+            "text": "কথাকলি"
+          }
+        ],
+        "question_text": "নিম্নোক্ত কোন শাস্ত্রীয় নৃত্যশৈলীর (Dance form) নাম যে গ্রাম থেকে তার সৃষ্টি তার নামে নামকরণ করা হয়েছে?"
+      },
+      "en": {
+        "explanation": "Kuchipudi is named after Kuchipudi village in Andhra Pradesh, where the dance-drama tradition originated.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mohiniyattam"
+          },
+          {
+            "id": "B",
+            "text": "Kuchipudi"
+          },
+          {
+            "id": "C",
+            "text": "Bharatanatyam"
+          },
+          {
+            "id": "D",
+            "text": "Kathakali"
+          }
+        ],
+        "question_text": "Which of the following classical dance forms is named after the village where it originated?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 58,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "art_culture"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সিনেমা হলে প্রোজেক্টরে উত্তল লেন্স ব্যবহার করা হয়, যা ফিল্মের বিবর্ধিত প্রতিবিম্ব পর্দায় ফেলে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "মেনিসকাস লেন্স (Meniscus lens)"
+          },
+          {
+            "id": "B",
+            "text": "উত্তল লেন্স (Convex lens)"
+          },
+          {
+            "id": "C",
+            "text": "জুম লেন্স (Zoom lens)"
+          },
+          {
+            "id": "D",
+            "text": "অবতল লেন্স (Concave lens)"
+          }
+        ],
+        "question_text": "সিনেমা হলে প্রোজেক্টর (Projector) রূপে কোন লেন্স ব্যবহৃত হয়?"
+      },
+      "en": {
+        "explanation": "A cinema projector uses a convex lens, which forms a magnified real image of the film on the screen.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Meniscus lens"
+          },
+          {
+            "id": "B",
+            "text": "Convex lens"
+          },
+          {
+            "id": "C",
+            "text": "Zoom lens"
+          },
+          {
+            "id": "D",
+            "text": "Concave lens"
+          }
+        ],
+        "question_text": "Which lens is used as a projector in a cinema hall?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 59,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "দুজনে একসাথে প্রতিদিন কাজের 1/20 + 1/30 = 1/12 অংশ করে, তাই কাজটি শেষ হতে 12 দিন লাগবে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 দিন"
+          },
+          {
+            "id": "B",
+            "text": "16 দিন"
+          },
+          {
+            "id": "C",
+            "text": "15 দিন"
+          },
+          {
+            "id": "D",
+            "text": "12 দিন"
+          }
+        ],
+        "question_text": "X একাকী একটি কাজ 20 দিনে করতে পারে। আবার B একা সেই কাজ 30 দিনে সম্পূর্ণ করে। দুজনে একসাথে কাজ করলে ওই কাজ কতদিনে সম্পন্ন হবে?"
+      },
+      "en": {
+        "explanation": "Together they do 1/20 + 1/30 = 1/12 of the work per day, so the work takes 12 days.",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 days"
+          },
+          {
+            "id": "B",
+            "text": "16 days"
+          },
+          {
+            "id": "C",
+            "text": "15 days"
+          },
+          {
+            "id": "D",
+            "text": "12 days"
+          }
+        ],
+        "question_text": "X alone can do a work in 20 days. B alone can complete the same work in 30 days. If both work together, in how many days will the work be completed?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 60,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "time_work"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "Tiny, Trivial ও Small — তিনটিই ক্ষুদ্রতা বা তুচ্ছতা বোঝায়; Big অর্থ বড়ো, তাই এটিই অসম শব্দ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tiny"
+          },
+          {
+            "id": "B",
+            "text": "Big"
+          },
+          {
+            "id": "C",
+            "text": "Trivial"
+          },
+          {
+            "id": "D",
+            "text": "Small"
+          }
+        ],
+        "question_text": "অসম (odd) শব্দটি চিহ্নিত করুন :"
+      },
+      "en": {
+        "explanation": "Tiny, Trivial and Small all convey smallness or insignificance, while Big means large, so Big is the odd word.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tiny"
+          },
+          {
+            "id": "B",
+            "text": "Big"
+          },
+          {
+            "id": "C",
+            "text": "Trivial"
+          },
+          {
+            "id": "D",
+            "text": "Small"
+          }
+        ],
+        "question_text": "Identify the odd word:"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 61,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "L.P.G. মূলত বিউটেন (C4H10) ও প্রোপেন (C3H8) — এই দুটি হাইড্রোকার্বনের মিশ্রণ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "আইসোবিউটেন ও প্রোপেন"
+          },
+          {
+            "id": "B",
+            "text": "বিউটেন এবং আইসোবিউটেন"
+          },
+          {
+            "id": "C",
+            "text": "বিউটেন ও প্রোপেন"
+          },
+          {
+            "id": "D",
+            "text": "বিউটেন, আইসোবিউটেন এবং প্রোপেন"
+          }
+        ],
+        "question_text": "L.P.G. সিলিন্ডারে নিম্নোক্ত কোন গ্যাস থাকে?"
+      },
+      "en": {
+        "explanation": "LPG consists mainly of the two hydrocarbons butane (C4H10) and propane (C3H8).",
+        "options": [
+          {
+            "id": "A",
+            "text": "Isobutane and propane"
+          },
+          {
+            "id": "B",
+            "text": "Butane and isobutane"
+          },
+          {
+            "id": "C",
+            "text": "Butane and propane"
+          },
+          {
+            "id": "D",
+            "text": "Butane, isobutane and propane"
+          }
+        ],
+        "question_text": "Which of the following gases is present in an L.P.G. cylinder?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 62,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "প্রথম অক্ষর 2 করে বাড়ছে (B, D, F, H), দ্বিতীয় অক্ষর 1 করে বাড়ছে (M, N, O, P), তৃতীয় অক্ষর 1 করে কমছে (X, W, V, U) — তাই পরেরটি HPU।",
+        "options": [
+          {
+            "id": "A",
+            "text": "HPT"
+          },
+          {
+            "id": "B",
+            "text": "GHO"
+          },
+          {
+            "id": "C",
+            "text": "HPU"
+          },
+          {
+            "id": "D",
+            "text": "GPS"
+          }
+        ],
+        "question_text": "প্রশ্নবোধক স্থানে কী বসবে? BMX, DNW, FOV, ?"
+      },
+      "en": {
+        "explanation": "The first letters increase by 2 (B, D, F, H), the second by 1 (M, N, O, P), and the third decrease by 1 (X, W, V, U) — so the next term is HPU.",
+        "options": [
+          {
+            "id": "A",
+            "text": "HPT"
+          },
+          {
+            "id": "B",
+            "text": "GHO"
+          },
+          {
+            "id": "C",
+            "text": "HPU"
+          },
+          {
+            "id": "D",
+            "text": "GPS"
+          }
+        ],
+        "question_text": "What will come in place of the question mark? BMX, DNW, FOV, ?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 63,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "বায়ুমণ্ডল না থাকলে গ্রিনহাউস প্রভাব থাকত না, তাপ ধরে রাখা যেত না; পৃথিবীর গড় তাপমাত্রা প্রায় −18°C-এ নেমে যেত — অত্যাধিক শীতল।",
+        "options": [
+          {
+            "id": "A",
+            "text": "অত্যাধিক উষ্ণ"
+          },
+          {
+            "id": "B",
+            "text": "সামান্য উষ্ণ"
+          },
+          {
+            "id": "C",
+            "text": "সামান্য শীতল"
+          },
+          {
+            "id": "D",
+            "text": "অত্যাধিক শীতল"
+          }
+        ],
+        "question_text": "যদি পৃথিবীর চারিদিকে বায়ুমণ্ডল না থাকত, তবে পৃথিবী কেমন হত?"
+      },
+      "en": {
+        "explanation": "Without the atmosphere there would be no greenhouse effect to trap heat, so the Earth's average temperature would fall to about −18°C — extremely cold.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Extremely hot"
+          },
+          {
+            "id": "B",
+            "text": "Slightly hot"
+          },
+          {
+            "id": "C",
+            "text": "Slightly cold"
+          },
+          {
+            "id": "D",
+            "text": "Extremely cold"
+          }
+        ],
+        "question_text": "If there were no atmosphere around the Earth, what would the Earth be like?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 64,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সংখ্যাগুলি 3, 5, 7 করে বাড়ছে, তারপর 9 বাড়বে (18+9=27); অক্ষরগুলি 1, 2, 3 করে এগোচ্ছে, তারপর 4 এগোবে (L+4=P) — তাই 27P।",
+        "options": [
+          {
+            "id": "A",
+            "text": "27Q"
+          },
+          {
+            "id": "B",
+            "text": "27P"
+          },
+          {
+            "id": "C",
+            "text": "25P"
+          },
+          {
+            "id": "D",
+            "text": "25N"
+          }
+        ],
+        "question_text": "প্রশ্নবোধক স্থানে কী বসবে? 3F, 6G, 11I, 18L, ?"
+      },
+      "en": {
+        "explanation": "The numbers increase by 3, 5, 7, then 9 (18+9=27); the letters advance by 1, 2, 3, then 4 (L+4=P) — so the next term is 27P.",
+        "options": [
+          {
+            "id": "A",
+            "text": "27Q"
+          },
+          {
+            "id": "B",
+            "text": "27P"
+          },
+          {
+            "id": "C",
+            "text": "25P"
+          },
+          {
+            "id": "D",
+            "text": "25N"
+          }
+        ],
+        "question_text": "What will come in place of the question mark? 3F, 6G, 11I, 18L, ?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 65,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "বৌদ্ধ ধর্মের মূল ধর্মগ্রন্থ ত্রিপিটক পালি ভাষায় সংকলিত হয়েছিল।",
+        "options": [
+          {
+            "id": "A",
+            "text": "হিন্দি"
+          },
+          {
+            "id": "B",
+            "text": "পালি"
+          },
+          {
+            "id": "C",
+            "text": "সংস্কৃত"
+          },
+          {
+            "id": "D",
+            "text": "প্রাকৃত"
+          }
+        ],
+        "question_text": "বৌদ্ধ ধর্মগ্রন্থ ‘ত্রিপিটক’ কোন লিপিতে লেখা?"
+      },
+      "en": {
+        "explanation": "The Tripitaka, the Buddhist canon, was compiled in the Pali language.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hindi"
+          },
+          {
+            "id": "B",
+            "text": "Pali"
+          },
+          {
+            "id": "C",
+            "text": "Sanskrit"
+          },
+          {
+            "id": "D",
+            "text": "Prakrit"
+          }
+        ],
+        "question_text": "In which language is the Buddhist scripture 'Tripitaka' written?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 66,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "art_culture"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "চোখের নড়াচড়া প্রধানত স্বেচ্ছাধীন (সোমাটিক) স্নায়ুতন্ত্রের নিয়ন্ত্রণে; হৃদযন্ত্র, গ্রন্থি ও জরায়ু স্বয়ংক্রিয় স্নায়ুতন্ত্র দ্বারা নিয়ন্ত্রিত হয়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "গ্রন্থি (Glands)"
+          },
+          {
+            "id": "B",
+            "text": "হৃদযন্ত্র (Heart)"
+          },
+          {
+            "id": "C",
+            "text": "চক্ষু (Eye)"
+          },
+          {
+            "id": "D",
+            "text": "জরায়ু (Uterus)"
+          }
+        ],
+        "question_text": "নিম্নোক্ত কোন অঙ্গটি স্বয়ংক্রিয় (Autonomous) স্নায়ুতন্ত্রের (Nervous System) দ্বারা নিয়ন্ত্রিত নয়?"
+      },
+      "en": {
+        "explanation": "The eye's movements are mainly under voluntary (somatic) nervous control, while the heart, glands and uterus are regulated by the autonomic nervous system.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Glands"
+          },
+          {
+            "id": "B",
+            "text": "Heart"
+          },
+          {
+            "id": "C",
+            "text": "Eye"
+          },
+          {
+            "id": "D",
+            "text": "Uterus"
+          }
+        ],
+        "question_text": "Which of the following organs is not controlled by the Autonomous Nervous System?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 67,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "দুটি সংখ্যার গুণফল = ল.সা.গু. × গ.সা.গু. = 315 × 7 = 2205; 2205 ÷ 35 = 63।",
+        "options": [
+          {
+            "id": "A",
+            "text": "35"
+          },
+          {
+            "id": "B",
+            "text": "55"
+          },
+          {
+            "id": "C",
+            "text": "63"
+          },
+          {
+            "id": "D",
+            "text": "105"
+          }
+        ],
+        "question_text": "দুটি সংখ্যার ল.সা.গু. (LCM) এবং গ.সা.গু. (HCF) হল যথাক্রমে 315 এবং 7। যদি একটি সংখ্যা 35 হয় তবে অপর সংখ্যাটি কত?"
+      },
+      "en": {
+        "explanation": "The product of two numbers = LCM × HCF = 315 × 7 = 2205; 2205 ÷ 35 = 63.",
+        "options": [
+          {
+            "id": "A",
+            "text": "35"
+          },
+          {
+            "id": "B",
+            "text": "55"
+          },
+          {
+            "id": "C",
+            "text": "63"
+          },
+          {
+            "id": "D",
+            "text": "105"
+          }
+        ],
+        "question_text": "The LCM and HCF of two numbers are 315 and 7 respectively. If one number is 35, what is the other number?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 68,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "মূল টাকা x হলে, x + x/7 = 40, অর্থাৎ 8x/7 = 40, তাই x = 35।",
+        "options": [
+          {
+            "id": "A",
+            "text": "37 টাকা"
+          },
+          {
+            "id": "B",
+            "text": "35 টাকা"
+          },
+          {
+            "id": "C",
+            "text": "25 টাকা"
+          },
+          {
+            "id": "D",
+            "text": "30 টাকা"
+          }
+        ],
+        "question_text": "কোনো টাকা তার 1/7 অংশ (part) বৃদ্ধি (increase) পেয়ে 40 টাকা হলে, মূল টাকার পরিমাণ কত ছিল?"
+      },
+      "en": {
+        "explanation": "If the original sum is x, then x + x/7 = 40, i.e. 8x/7 = 40, so x = 35.",
+        "options": [
+          {
+            "id": "A",
+            "text": "37 rupees"
+          },
+          {
+            "id": "B",
+            "text": "35 rupees"
+          },
+          {
+            "id": "C",
+            "text": "25 rupees"
+          },
+          {
+            "id": "D",
+            "text": "30 rupees"
+          }
+        ],
+        "question_text": "If a sum of money increases by 1/7 part of itself to become 40 rupees, what was the original amount?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 69,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "মেছো বিড়াল (fishing cat) পশ্চিমবঙ্গের রাজ্য পশু; রয়্যাল বেঙ্গল টাইগার ভারতের জাতীয় পশু।",
+        "options": [
+          {
+            "id": "A",
+            "text": "গন্ধগোকুল"
+          },
+          {
+            "id": "B",
+            "text": "রয়্যাল বেঙ্গল টাইগার"
+          },
+          {
+            "id": "C",
+            "text": "মেছো বিড়াল"
+          },
+          {
+            "id": "D",
+            "text": "মেছো কুমির"
+          }
+        ],
+        "question_text": "পশ্চিমবঙ্গের রাজ্য পশু (State animal) কী?"
+      },
+      "en": {
+        "explanation": "The fishing cat is the state animal of West Bengal; the Royal Bengal Tiger is the national animal of India.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Civet cat"
+          },
+          {
+            "id": "B",
+            "text": "Royal Bengal Tiger"
+          },
+          {
+            "id": "C",
+            "text": "Fishing cat"
+          },
+          {
+            "id": "D",
+            "text": "Fishing crocodile"
+          }
+        ],
+        "question_text": "What is the state animal of West Bengal?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 70,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "west_bengal_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "A ও B ভাই-বোন; D তাদের পিতা এবং C, B-এর মা, তাই C হলেন D-এর স্ত্রী।",
+        "options": [
+          {
+            "id": "A",
+            "text": "নাতনি"
+          },
+          {
+            "id": "B",
+            "text": "স্বামী"
+          },
+          {
+            "id": "C",
+            "text": "ঠাকুরদা"
+          },
+          {
+            "id": "D",
+            "text": "স্ত্রী"
+          }
+        ],
+        "question_text": "A, B-এর ভাই। B, C-এর কন্যা এবং D হল A-র পিতা। তাহলে C, D-এর কে হন?"
+      },
+      "en": {
+        "explanation": "A and B are siblings; D is their father and C is B's mother, so C is D's wife.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Granddaughter"
+          },
+          {
+            "id": "B",
+            "text": "Husband"
+          },
+          {
+            "id": "C",
+            "text": "Grandfather"
+          },
+          {
+            "id": "D",
+            "text": "Wife"
+          }
+        ],
+        "question_text": "A is the brother of B. B is the daughter of C and D is the father of A. Then who is C to D?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 71,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "blood_relations"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "গুজরাটের লোথাল ছিল সিন্ধু সভ্যতার বিখ্যাত বন্দর-নগরী, যেখানে পোতাশ্রয় (dockyard) পাওয়া গেছে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "লোথাল"
+          },
+          {
+            "id": "B",
+            "text": "কালিবঙ্গান"
+          },
+          {
+            "id": "C",
+            "text": "সুরকোটারা"
+          },
+          {
+            "id": "D",
+            "text": "ঢোলাভিরা"
+          }
+        ],
+        "question_text": "সিন্ধু সভ্যতার উল্লেখযোগ্য বন্দর কোনটি ছিল?"
+      },
+      "en": {
+        "explanation": "Lothal in Gujarat was the famous port town of the Indus Civilization, where a dockyard has been found.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lothal"
+          },
+          {
+            "id": "B",
+            "text": "Kalibangan"
+          },
+          {
+            "id": "C",
+            "text": "Surkotada"
+          },
+          {
+            "id": "D",
+            "text": "Dholavira"
+          }
+        ],
+        "question_text": "Which was the notable port of the Indus Civilization?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 72,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "চিহ্ন বসিয়ে: 117 ÷ 3 − 5 + 12 × 8 = 39 − 5 + 96 = 130।",
+        "options": [
+          {
+            "id": "A",
+            "text": "93.6"
+          },
+          {
+            "id": "B",
+            "text": "368"
+          },
+          {
+            "id": "C",
+            "text": "130"
+          },
+          {
+            "id": "D",
+            "text": "256"
+          }
+        ],
+        "question_text": "যদি K মানে ‘-’ হয়, L মানে ‘÷’ হয়, M মানে ‘+’ হয় এবং D মানে ‘×’ হয়, তবে 117 L 3 K 5 M 12 D 8 = ?"
+      },
+      "en": {
+        "explanation": "Substituting the symbols: 117 ÷ 3 − 5 + 12 × 8 = 39 − 5 + 96 = 130.",
+        "options": [
+          {
+            "id": "A",
+            "text": "93.6"
+          },
+          {
+            "id": "B",
+            "text": "368"
+          },
+          {
+            "id": "C",
+            "text": "130"
+          },
+          {
+            "id": "D",
+            "text": "256"
+          }
+        ],
+        "question_text": "If K means '−', L means '÷', M means '+', and D means '×', then 117 L 3 K 5 M 12 D 8 = ?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 73,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "coding_decoding"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "লেন্সের ক্ষমতার একক ডায়প্টার; ওয়াট ক্ষমতার (power) একক, তবে লেন্সের ক্ষেত্রে নয়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ওয়াট"
+          },
+          {
+            "id": "B",
+            "text": "মিটার"
+          },
+          {
+            "id": "C",
+            "text": "ডায়প্টার"
+          },
+          {
+            "id": "D",
+            "text": "সেন্টিমিটার"
+          }
+        ],
+        "question_text": "লেন্সের ক্ষমতার (power) একক কী?"
+      },
+      "en": {
+        "explanation": "The power of a lens is measured in dioptres; watt is a unit of power in general, but not for lenses.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Watt"
+          },
+          {
+            "id": "B",
+            "text": "Metre"
+          },
+          {
+            "id": "C",
+            "text": "Dioptre"
+          },
+          {
+            "id": "D",
+            "text": "Centimetre"
+          }
+        ],
+        "question_text": "What is the unit of power of a lens?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 74,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "2020 সালের ঘূর্ণিঝড় ‘আমফান’ নামটি দিয়েছিল থাইল্যান্ড; আমফান অর্থ আকাশ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "পাকিস্তান"
+          },
+          {
+            "id": "B",
+            "text": "বাংলাদেশ"
+          },
+          {
+            "id": "C",
+            "text": "থাইল্যান্ড"
+          },
+          {
+            "id": "D",
+            "text": "নেপাল"
+          }
+        ],
+        "question_text": "‘Amphan’ নামটি কোন দেশ দিয়েছিল?"
+      },
+      "en": {
+        "explanation": "The name 'Amphan' (meaning 'sky') for the 2020 cyclone was contributed by Thailand.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pakistan"
+          },
+          {
+            "id": "B",
+            "text": "Bangladesh"
+          },
+          {
+            "id": "C",
+            "text": "Thailand"
+          },
+          {
+            "id": "D",
+            "text": "Nepal"
+          }
+        ],
+        "question_text": "Which country gave the name 'Amphan'?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 75,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "‘adbbad’ বসালে সিরিজটি হয় aabcd, abbcd, abccd, abcdd — প্রতি পাঁচটি অক্ষরের গুচ্ছে দ্বিগুণ অক্ষরটি এক ঘর করে ডানদিকে সরে যায়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "adbcad"
+          },
+          {
+            "id": "B",
+            "text": "abddbd"
+          },
+          {
+            "id": "C",
+            "text": "adbbad"
+          },
+          {
+            "id": "D",
+            "text": "acbdbb"
+          }
+        ],
+        "question_text": "নীচের সিরিজটির শূন্যস্থানগুলি পর পর কোন বর্ণমালা দিয়ে পূর্ণ করলে তা একটি নির্দিষ্ট নিয়ম মেনে চলবে? a __ bc __ a __ bcda __ ccd __ bcd __"
+      },
+      "en": {
+        "explanation": "Filling in 'adbbad' gives aabcd, abbcd, abccd, abcdd — in each block of five letters the doubled letter moves one place to the right.",
+        "options": [
+          {
+            "id": "A",
+            "text": "adbcad"
+          },
+          {
+            "id": "B",
+            "text": "abddbd"
+          },
+          {
+            "id": "C",
+            "text": "adbbad"
+          },
+          {
+            "id": "D",
+            "text": "acbdbb"
+          }
+        ],
+        "question_text": "Which set of letters, filled into the blanks in order, will make the following series follow a definite rule? a __ bc __ a __ bcda __ ccd __ bcd __"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 76,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "‘প্রথম প্রতিশ্রুতি’ (1964) আশাপূর্ণা দেবীর বিখ্যাত উপন্যাস, তাঁর সত্যবতী ত্রয়ীর প্রথম খণ্ড।",
+        "options": [
+          {
+            "id": "A",
+            "text": "সুনীল গঙ্গোপাধ্যায়"
+          },
+          {
+            "id": "B",
+            "text": "লীলা মজুমদার"
+          },
+          {
+            "id": "C",
+            "text": "আশাপূর্ণা দেবী"
+          },
+          {
+            "id": "D",
+            "text": "মহাশ্বেতা দেবী"
+          }
+        ],
+        "question_text": "প্রখ্যাত বাংলা উপন্যাস ‘প্রথম প্রতিশ্রুতি’ কার লেখা?"
+      },
+      "en": {
+        "explanation": "'Pratham Pratishruti' (1964) is Ashapurna Devi's acclaimed novel, the first of her Satyabati trilogy.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sunil Gangopadhyay"
+          },
+          {
+            "id": "B",
+            "text": "Leela Majumdar"
+          },
+          {
+            "id": "C",
+            "text": "Ashapurna Devi"
+          },
+          {
+            "id": "D",
+            "text": "Mahasweta Devi"
+          }
+        ],
+        "question_text": "Who wrote the famous Bengali novel 'Pratham Pratishruti'?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 77,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "art_culture"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ওরাকল একটি ডেটাবেস ম্যানেজমেন্ট সিস্টেম, আর ডস, উইন্ডোজ ও লিনাক্স হল অপারেটিং সিস্টেম।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ডস (DOS)"
+          },
+          {
+            "id": "B",
+            "text": "উইন্ডোজ (Windows)"
+          },
+          {
+            "id": "C",
+            "text": "ওরাকল (Oracle)"
+          },
+          {
+            "id": "D",
+            "text": "লিনাক্স (Linux)"
+          }
+        ],
+        "question_text": "নিম্নোক্ত কোনটি একটি Operating System (OS) নয়?"
+      },
+      "en": {
+        "explanation": "Oracle is a database management system, while DOS, Windows and Linux are operating systems.",
+        "options": [
+          {
+            "id": "A",
+            "text": "DOS"
+          },
+          {
+            "id": "B",
+            "text": "Windows"
+          },
+          {
+            "id": "C",
+            "text": "Oracle"
+          },
+          {
+            "id": "D",
+            "text": "Linux"
+          }
+        ],
+        "question_text": "Which of the following is not an Operating System (OS)?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 78,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "static_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "6 × 999 = 5994, এবং (1+2+3+4+5+6)/7 = 21/7 = 3, তাই মোট 5994 + 3 = 5997।",
+        "options": [
+          {
+            "id": "A",
+            "text": "5999"
+          },
+          {
+            "id": "B",
+            "text": "5997"
+          },
+          {
+            "id": "C",
+            "text": "5799"
+          },
+          {
+            "id": "D",
+            "text": "5979"
+          }
+        ],
+        "question_text": "(999 1/7 + 999 2/7 + 999 3/7 + 999 4/7 + 999 5/7 + 999 6/7) = ?"
+      },
+      "en": {
+        "explanation": "6 × 999 = 5994, and (1+2+3+4+5+6)/7 = 21/7 = 3, so the total is 5994 + 3 = 5997.",
+        "options": [
+          {
+            "id": "A",
+            "text": "5999"
+          },
+          {
+            "id": "B",
+            "text": "5997"
+          },
+          {
+            "id": "C",
+            "text": "5799"
+          },
+          {
+            "id": "D",
+            "text": "5979"
+          }
+        ],
+        "question_text": "(999 1/7 + 999 2/7 + 999 3/7 + 999 4/7 + 999 5/7 + 999 6/7) = ?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 79,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ভারত 2007 সালে প্রথম ICC T-20 বিশ্বকাপ জেতে, ফাইনালে পাকিস্তানকে হারিয়ে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "2003"
+          },
+          {
+            "id": "B",
+            "text": "2007"
+          },
+          {
+            "id": "C",
+            "text": "2009"
+          },
+          {
+            "id": "D",
+            "text": "2005"
+          }
+        ],
+        "question_text": "কোন সালে ভারত প্রথম T-20 বিশ্বকাপ জয়ী হয়েছিল?"
+      },
+      "en": {
+        "explanation": "India won the first ICC T20 World Cup in 2007, beating Pakistan in the final.",
+        "options": [
+          {
+            "id": "A",
+            "text": "2003"
+          },
+          {
+            "id": "B",
+            "text": "2007"
+          },
+          {
+            "id": "C",
+            "text": "2009"
+          },
+          {
+            "id": "D",
+            "text": "2005"
+          }
+        ],
+        "question_text": "In which year did India win the T-20 World Cup for the first time?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 80,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "static_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "পশ্চিমবঙ্গ সরকার 1 সেপ্টেম্বর দিনটিকে পুলিশ দিবস রূপে পালন করে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 সেপ্টেম্বর"
+          },
+          {
+            "id": "B",
+            "text": "30 সেপ্টেম্বর"
+          },
+          {
+            "id": "C",
+            "text": "15 আগস্ট"
+          },
+          {
+            "id": "D",
+            "text": "31 আগস্ট"
+          }
+        ],
+        "question_text": "কোন দিনটি পশ্চিমবঙ্গে পুলিশ দিবস (Police Day) রূপে পালিত হয়?"
+      },
+      "en": {
+        "explanation": "The West Bengal government observes 1 September as Police Day.",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 September"
+          },
+          {
+            "id": "B",
+            "text": "30 September"
+          },
+          {
+            "id": "C",
+            "text": "15 August"
+          },
+          {
+            "id": "D",
+            "text": "31 August"
+          }
+        ],
+        "question_text": "On which day is Police Day observed in West Bengal?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 81,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "west_bengal_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "B পায় x টাকা ধরলে, A পায় (x + 40) টাকা এবং C পায় (x + 70) টাকা; 3x + 110 = 710 থেকে x = 200, তাই C পায় 270 টাকা।",
+        "options": [
+          {
+            "id": "A",
+            "text": "235 টাকা"
+          },
+          {
+            "id": "B",
+            "text": "300 টাকা"
+          },
+          {
+            "id": "C",
+            "text": "135 টাকা"
+          },
+          {
+            "id": "D",
+            "text": "270 টাকা"
+          }
+        ],
+        "question_text": "710 টাকা এমনভাবে A, B ও C-এর মধ্যে ভাগ (divide) করা হল, যাতে A, B-এর থেকে 40 টাকা বেশি পায় এবং C, A-এর থেকে 30 টাকা বেশি পায়, তবে C কত টাকা পাবে?"
+      },
+      "en": {
+        "explanation": "If B gets ₹x, A gets ₹(x + 40) and C gets ₹(x + 70); 3x + 110 = 710 gives x = 200, so C gets ₹270.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 235"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 300"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 135"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 270"
+          }
+        ],
+        "question_text": "Rs. 710 is divided among A, B and C in such a way that A gets Rs. 40 more than B and C gets Rs. 30 more than A. How much does C get?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 82,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "‘উইংস অফ ফায়ার’ (1999) ড. এ. পি. জে. আব্দুল কালামের আত্মজীবনী।",
+        "options": [
+          {
+            "id": "A",
+            "text": "প্রণব মুখার্জী"
+          },
+          {
+            "id": "B",
+            "text": "ইন্দিরা গান্ধী"
+          },
+          {
+            "id": "C",
+            "text": "সুভাষ চন্দ্র বোস"
+          },
+          {
+            "id": "D",
+            "text": "এ পি জে আব্দুল কালাম"
+          }
+        ],
+        "question_text": "উইংস অফ ফায়ার (Wings of Fire) কার আত্মজীবনী?"
+      },
+      "en": {
+        "explanation": "'Wings of Fire' (1999) is the autobiography of Dr A. P. J. Abdul Kalam.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pranab Mukherjee"
+          },
+          {
+            "id": "B",
+            "text": "Indira Gandhi"
+          },
+          {
+            "id": "C",
+            "text": "Subhas Chandra Bose"
+          },
+          {
+            "id": "D",
+            "text": "A. P. J. Abdul Kalam"
+          }
+        ],
+        "question_text": "Whose autobiography is 'Wings of Fire'?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 83,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "art_culture"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সব মা-ই মহিলা, তাই মায়ের বৃত্তটি মহিলার বৃত্তের ভিতরে থাকে; কিছু মহিলা ও কিছু মা ইঞ্জিনিয়ারও হন, তাই ইঞ্জিনিয়ারের বৃত্তটি দুটি বৃত্তকেই ছেদ করে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "তিনটি সমকেন্দ্রিক বৃত্ত"
+          },
+          {
+            "id": "B",
+            "text": "একটি বড় বৃত্তের ভিতরে একটি ছোট বৃত্ত, এবং একটি তৃতীয় বৃত্ত বড় বৃত্তটিকে ছেদ করে"
+          },
+          {
+            "id": "C",
+            "text": "তিনটি পৃথক বৃত্ত"
+          },
+          {
+            "id": "D",
+            "text": "একটি বড় বৃত্তের ভিতরে দুটি পৃথক ছোট বৃত্ত"
+          }
+        ],
+        "question_text": "নীচের কোন ছবিটি মহিলা, মা ও ইঞ্জিনিয়ারদের সম্পর্ক নির্দেশ করবে?"
+      },
+      "en": {
+        "explanation": "All mothers are women, so the mother circle lies inside the women circle; some women and some mothers are engineers, so the engineer circle overlaps both.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Three concentric circles"
+          },
+          {
+            "id": "B",
+            "text": "A small circle inside a large circle, with a third circle overlapping the large circle"
+          },
+          {
+            "id": "C",
+            "text": "Three separate circles"
+          },
+          {
+            "id": "D",
+            "text": "Two separate small circles inside a large circle"
+          }
+        ],
+        "question_text": "Which of the following diagrams indicates the relationship among women, mothers and engineers?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 84,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "syllogism"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "150-এর 30% হল 45, তাই সংখ্যাটির 25% হল 75 − 45 = 30, অর্থাৎ সংখ্যাটি 120।",
+        "options": [
+          {
+            "id": "A",
+            "text": "102"
+          },
+          {
+            "id": "B",
+            "text": "120"
+          },
+          {
+            "id": "C",
+            "text": "210"
+          },
+          {
+            "id": "D",
+            "text": "220"
+          }
+        ],
+        "question_text": "কোনো সংখ্যার 25%-এর সাথে 150-এর 30% যোগ (sum) করলে 75 হয়। সংখ্যাটি কত?"
+      },
+      "en": {
+        "explanation": "30% of 150 is 45, so 25% of the number is 75 − 45 = 30, giving the number 120.",
+        "options": [
+          {
+            "id": "A",
+            "text": "102"
+          },
+          {
+            "id": "B",
+            "text": "120"
+          },
+          {
+            "id": "C",
+            "text": "210"
+          },
+          {
+            "id": "D",
+            "text": "220"
+          }
+        ],
+        "question_text": "If 30% of 150 is added to 25% of a number, the sum is 75. What is the number?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 85,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "percentage"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "তুলা বর্ষাকালে বোনা খরিফ শস্য, আর গম, সর্ষে ও ডাল (ছোলা, মসুর) রবি শস্য।",
+        "options": [
+          {
+            "id": "A",
+            "text": "গম"
+          },
+          {
+            "id": "B",
+            "text": "সর্ষে"
+          },
+          {
+            "id": "C",
+            "text": "তুলা"
+          },
+          {
+            "id": "D",
+            "text": "ডাল"
+          }
+        ],
+        "question_text": "নিম্নোক্ত কোনটি রবিশস্য নয়?"
+      },
+      "en": {
+        "explanation": "Cotton is a kharif crop sown in the monsoon season, while wheat, mustard and pulses (gram, lentil) are rabi crops.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Wheat"
+          },
+          {
+            "id": "B",
+            "text": "Mustard"
+          },
+          {
+            "id": "C",
+            "text": "Cotton"
+          },
+          {
+            "id": "D",
+            "text": "Pulses"
+          }
+        ],
+        "question_text": "Which of the following is not a rabi crop?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 86,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "geography"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "2021 সালের আগস্ট মাসে ভারত রাষ্ট্রসংঘের নিরাপত্তা পরিষদের ঘূর্ণায়মান সভাপতির দায়িত্বে ছিল।",
+        "options": [
+          {
+            "id": "A",
+            "text": "নরওয়ে"
+          },
+          {
+            "id": "B",
+            "text": "আমেরিকা যুক্তরাষ্ট্র"
+          },
+          {
+            "id": "C",
+            "text": "ভারতবর্ষ"
+          },
+          {
+            "id": "D",
+            "text": "চীন"
+          }
+        ],
+        "question_text": "কোন দেশ রাষ্ট্রসংঘের নিরাপত্তা পরিষদে 2021 সালের আগস্ট মাসে সভাপতি রূপে নির্বাচিত হয়েছে?"
+      },
+      "en": {
+        "explanation": "India held the rotating presidency of the UN Security Council in August 2021.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Norway"
+          },
+          {
+            "id": "B",
+            "text": "USA"
+          },
+          {
+            "id": "C",
+            "text": "India"
+          },
+          {
+            "id": "D",
+            "text": "China"
+          }
+        ],
+        "question_text": "Which country was elected president of the UN Security Council for August 2021?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 87,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "current_affairs"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "3 মিনিটে জলাধারের এক-তৃতীয়াংশ খালি হয়, তাই প্রতি মিনিটে খালি হয় 1/9 অংশ; 7.5 মিনিটে খালি হবে 7.5/9 = 5/6 অংশ।",
+        "options": [
+          {
+            "id": "A",
+            "text": "1/2"
+          },
+          {
+            "id": "B",
+            "text": "2/3"
+          },
+          {
+            "id": "C",
+            "text": "5/6"
+          },
+          {
+            "id": "D",
+            "text": "5/7"
+          }
+        ],
+        "question_text": "কোনো নল দিয়ে একটি জলাধারের এক তৃতীয়াংশ (one third) 3 মিনিটে খালি করা যায়। 7 1/2 মিনিটে ওই জলাধারটির কত অংশ খালি করা যাবে?"
+      },
+      "en": {
+        "explanation": "One-third of the tank empties in 3 minutes, so the rate is 1/9 of the tank per minute; in 7.5 minutes, 7.5/9 = 5/6 of the tank empties.",
+        "options": [
+          {
+            "id": "A",
+            "text": "1/2"
+          },
+          {
+            "id": "B",
+            "text": "2/3"
+          },
+          {
+            "id": "C",
+            "text": "5/6"
+          },
+          {
+            "id": "D",
+            "text": "5/7"
+          }
+        ],
+        "question_text": "One-third of a tank can be emptied by a pipe in 3 minutes. What part of the tank will be emptied in 7 1/2 minutes?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 88,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "time_work"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "শর্তগুলি থেকে বৃত্তাকার বসার ক্রমটি বের করলে R-এর বাঁদিক থেকে দ্বিতীয় স্থানে Q বসে আছে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "P"
+          },
+          {
+            "id": "B",
+            "text": "Q"
+          },
+          {
+            "id": "C",
+            "text": "T"
+          },
+          {
+            "id": "D",
+            "text": "S"
+          }
+        ],
+        "question_text": "P, Q, R, S এবং T একটি বৃত্তাকার টেবিলকে ঘিরে বসে আছে। R, P-এর ডানদিকে এবং S-এর বাঁদিক থেকে দ্বিতীয় স্থানে বসে আছে। T, P ও S-এর মাঝখানে বসেনি। তাহলে কে R-এর বাঁদিক থেকে দ্বিতীয় স্থানে বসে আছে?"
+      },
+      "en": {
+        "explanation": "Working out the circular seating order from the clues, Q sits second to the left of R.",
+        "options": [
+          {
+            "id": "A",
+            "text": "P"
+          },
+          {
+            "id": "B",
+            "text": "Q"
+          },
+          {
+            "id": "C",
+            "text": "T"
+          },
+          {
+            "id": "D",
+            "text": "S"
+          }
+        ],
+        "question_text": "P, Q, R, S and T are sitting around a circular table. R sits to the right of P and second to the left of S. T does not sit between P and S. Who is sitting second to the left of R?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 89,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "direction_sense"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ডেঙ্গি ছড়ায় সংক্রমিত স্ত্রী এডিস মশার (Aedes aegypti) কামড়ে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ম্যানসোনিয়া"
+          },
+          {
+            "id": "B",
+            "text": "এডিস"
+          },
+          {
+            "id": "C",
+            "text": "কিউলেক্স"
+          },
+          {
+            "id": "D",
+            "text": "অ্যানোফিলিস"
+          }
+        ],
+        "question_text": "কোন মশা ডেঙ্গি (Dengue) রোগ ছড়ায়?"
+      },
+      "en": {
+        "explanation": "Dengue is spread by the bite of an infected female Aedes mosquito (Aedes aegypti).",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mansonia"
+          },
+          {
+            "id": "B",
+            "text": "Aedes"
+          },
+          {
+            "id": "C",
+            "text": "Culex"
+          },
+          {
+            "id": "D",
+            "text": "Anopheles"
+          }
+        ],
+        "question_text": "Which mosquito spreads dengue?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 90,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "প্রদত্ত বিকল্পগুলির মধ্যে ROM-ই স্থায়ী (non-volatile) স্মৃতি; RAM ও Cache Memory সাময়িকভাবে তথ্য রাখে এবং ALU হিসাবের কাজ করে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "ROM"
+          },
+          {
+            "id": "B",
+            "text": "A.L.U."
+          },
+          {
+            "id": "C",
+            "text": "RAM"
+          },
+          {
+            "id": "D",
+            "text": "Cache Memory"
+          }
+        ],
+        "question_text": "নিম্নোক্ত কোনটি কম্পিউটারে স্থায়ীভাবে তথ্য সংরক্ষণ (Data Store) করে?"
+      },
+      "en": {
+        "explanation": "Of the options given, ROM is the permanent (non-volatile) memory; RAM and cache memory hold data only temporarily, and the ALU performs calculations.",
+        "options": [
+          {
+            "id": "A",
+            "text": "ROM"
+          },
+          {
+            "id": "B",
+            "text": "A.L.U."
+          },
+          {
+            "id": "C",
+            "text": "RAM"
+          },
+          {
+            "id": "D",
+            "text": "Cache Memory"
+          }
+        ],
+        "question_text": "Which of the following stores data permanently in a computer?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 91,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "static_gk"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "A মূলধনের 1/3 দেন এবং B দেন A ও C-এর মোটের সমান, তাই C-এর অংশ মোট মূলধনের 1/6; 900 টাকার 1/6 হল 150 টাকা।",
+        "options": [
+          {
+            "id": "A",
+            "text": "300 টাকা"
+          },
+          {
+            "id": "B",
+            "text": "100 টাকা"
+          },
+          {
+            "id": "C",
+            "text": "200 টাকা"
+          },
+          {
+            "id": "D",
+            "text": "150 টাকা"
+          }
+        ],
+        "question_text": "A, B ও C একটি যৌথ ব্যবসার অংশীদার। A মূলধনের (capital) এক-তৃতীয়াংশ (one-third) দেন, B দেন A এবং C-এর দেওয়া মূলধনের সমান মূলধন। যদি বৎসরান্তে লাভের (profit) পরিমাণ 900 টাকা হয় তবে C কত টাকা লভ্যাংশ পাবেন?"
+      },
+      "en": {
+        "explanation": "A gives 1/3 of the capital and B gives as much as A and C together, so C's share is 1/6 of the capital; 1/6 of ₹900 is ₹150.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rs. 300"
+          },
+          {
+            "id": "B",
+            "text": "Rs. 100"
+          },
+          {
+            "id": "C",
+            "text": "Rs. 200"
+          },
+          {
+            "id": "D",
+            "text": "Rs. 150"
+          }
+        ],
+        "question_text": "A, B and C are partners in a joint business. A contributes one-third of the capital, and B contributes as much as A and C together. If the profit at the end of the year is Rs. 900, how much profit will C get?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 92,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "profit_loss"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "ওনাম কেরালার নতুন ফসল তোলার উৎসব, ধান কাটার আনন্দে পালিত হয়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "বিহু"
+          },
+          {
+            "id": "B",
+            "text": "ওনাম"
+          },
+          {
+            "id": "C",
+            "text": "বৈশাখী"
+          },
+          {
+            "id": "D",
+            "text": "ওচিরা কালি"
+          }
+        ],
+        "question_text": "কেরালায় নতুন ফসল তোলার উৎসবের নাম কী?"
+      },
+      "en": {
+        "explanation": "Onam is Kerala's harvest festival, celebrating the rice harvest.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bihu"
+          },
+          {
+            "id": "B",
+            "text": "Onam"
+          },
+          {
+            "id": "C",
+            "text": "Baisakhi"
+          },
+          {
+            "id": "D",
+            "text": "Ochira Kali"
+          }
+        ],
+        "question_text": "What is the name of the harvest festival of Kerala?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 93,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "art_culture"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "অনুপাতের 3 অংশের পার্থক্য 69, তাই এক অংশ 23 এবং বড় সংখ্যাটি 8 × 23 = 184।",
+        "options": [
+          {
+            "id": "A",
+            "text": "115"
+          },
+          {
+            "id": "B",
+            "text": "128"
+          },
+          {
+            "id": "C",
+            "text": "184"
+          },
+          {
+            "id": "D",
+            "text": "112"
+          }
+        ],
+        "question_text": "দুটি সংখ্যার অনুপাত (ratio) 5 : 8 এবং তাদের অন্তর (difference) 69 হলে, বড় (greater) সংখ্যাটি কত?"
+      },
+      "en": {
+        "explanation": "The difference of 3 ratio parts is 69, so one part is 23 and the greater number is 8 × 23 = 184.",
+        "options": [
+          {
+            "id": "A",
+            "text": "115"
+          },
+          {
+            "id": "B",
+            "text": "128"
+          },
+          {
+            "id": "C",
+            "text": "184"
+          },
+          {
+            "id": "D",
+            "text": "112"
+          }
+        ],
+        "question_text": "The ratio of two numbers is 5 : 8 and their difference is 69. What is the greater number?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 94,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "ratio_proportion"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সুনীতা শ্রাবণীর থেকে ছোট, আর শ্রাবণী কাকলীর (শ্রাবণীর দ্বিগুণ বয়স) থেকে ছোট, তাই বয়সের ক্রমে শ্রাবণী মধ্যস্থানে থাকে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "কাকলী"
+          },
+          {
+            "id": "B",
+            "text": "রীনা"
+          },
+          {
+            "id": "C",
+            "text": "শ্রাবণী"
+          },
+          {
+            "id": "D",
+            "text": "সুনীতা"
+          }
+        ],
+        "question_text": "রীনার বয়স সুনীতার বয়সের দ্বিগুণ। নমিতা শ্রাবণীর থেকে বয়সে ছোট, আবার শ্রাবণী সুনীতার থেকে বয়সে বড়। কাকলীর বয়স শ্রাবণীর বয়সের দ্বিগুণ হলে, কে বয়সের হিসাবে মধ্যস্থানে আছে?"
+      },
+      "en": {
+        "explanation": "Sunita is younger than Shravani, who is younger than Kakali (twice Shravani's age), placing Shravani in the middle of the age order.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Kakali"
+          },
+          {
+            "id": "B",
+            "text": "Reena"
+          },
+          {
+            "id": "C",
+            "text": "Shravani"
+          },
+          {
+            "id": "D",
+            "text": "Sunita"
+          }
+        ],
+        "question_text": "Reena's age is twice Sunita's age. Namita is younger than Shravani, and Shravani is older than Sunita. If Kakali's age is twice Shravani's age, who is in the middle according to age?"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Medium",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 95,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "syllogism"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "কংগ্রেস লাহোর অধিবেশনে পূর্ণ স্বরাজের প্রস্তাব পাস করে এবং 26 জানুয়ারি 1930 স্বাধীনতা দিবস হিসেবে ঘোষণা করে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "লাহোর (1930)"
+          },
+          {
+            "id": "B",
+            "text": "মাদ্রাজ (1927)"
+          },
+          {
+            "id": "C",
+            "text": "হরিপুরা (1938)"
+          },
+          {
+            "id": "D",
+            "text": "কলকাতা (1928)"
+          }
+        ],
+        "question_text": "ভারতীয় জাতীয় কংগ্রেসের কোন অধিবেশনে ‘পূর্ণ স্বরাজ’-এর অঙ্গীকার নেওয়া হয়েছিল?"
+      },
+      "en": {
+        "explanation": "The Congress passed the Purna Swaraj resolution at its Lahore session and declared 26 January 1930 as Independence Day.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lahore (1930)"
+          },
+          {
+            "id": "B",
+            "text": "Madras (1927)"
+          },
+          {
+            "id": "C",
+            "text": "Haripura (1938)"
+          },
+          {
+            "id": "D",
+            "text": "Calcutta (1928)"
+          }
+        ],
+        "question_text": "In which session of the Indian National Congress was the 'Purna Swaraj' resolution adopted?"
+      }
+    },
+    "correct_option_id": "A",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 96,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "পুত্রের বয়স x ধরলে পিতার বয়স 6x; 6x + 6 = 3(x + 6) থেকে x = 4, তাই পিতার বয়স 24 বছর।",
+        "options": [
+          {
+            "id": "A",
+            "text": "48 বছর"
+          },
+          {
+            "id": "B",
+            "text": "24 বছর"
+          },
+          {
+            "id": "C",
+            "text": "36 বছর"
+          },
+          {
+            "id": "D",
+            "text": "30 বছর"
+          }
+        ],
+        "question_text": "পিতার বর্তমান বয়স পুত্রের বয়সের 6 গুণ। 6 বছর পরে পিতার বয়স যদি পুত্রের বয়সের 3 গুণ হয়, তবে পিতার বর্তমান বয়স কত?"
+      },
+      "en": {
+        "explanation": "If the son is x, the father is 6x; 6x + 6 = 3(x + 6) gives x = 4, so the father is 24 years old.",
+        "options": [
+          {
+            "id": "A",
+            "text": "48 years"
+          },
+          {
+            "id": "B",
+            "text": "24 years"
+          },
+          {
+            "id": "C",
+            "text": "36 years"
+          },
+          {
+            "id": "D",
+            "text": "30 years"
+          }
+        ],
+        "question_text": "A father's present age is 6 times his son's age. After 6 years, if the father's age becomes 3 times his son's age, what is the father's present age?"
+      }
+    },
+    "correct_option_id": "B",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 97,
+      "year": 2021
+    },
+    "subject_code": "quant",
+    "topic_code": "number_system"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "আর্গ, জুল ও ক্যালরি সবই শক্তির একক; পাস্কাল চাপের একক।",
+        "options": [
+          {
+            "id": "A",
+            "text": "আর্গ (erg)"
+          },
+          {
+            "id": "B",
+            "text": "জুল (Joule)"
+          },
+          {
+            "id": "C",
+            "text": "ক্যালরি (Calorie)"
+          },
+          {
+            "id": "D",
+            "text": "পাস্কাল (Pascal)"
+          }
+        ],
+        "question_text": "নিম্নোক্ত কোনটি শক্তির (energy) একক নয়?"
+      },
+      "en": {
+        "explanation": "Erg, joule and calorie are all units of energy; pascal is the unit of pressure.",
+        "options": [
+          {
+            "id": "A",
+            "text": "erg"
+          },
+          {
+            "id": "B",
+            "text": "Joule"
+          },
+          {
+            "id": "C",
+            "text": "Calorie"
+          },
+          {
+            "id": "D",
+            "text": "Pascal"
+          }
+        ],
+        "question_text": "Which of the following is not a unit of energy?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 98,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "general_science"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "16 ÷ 4 × 5 = 20 এবং 14 + 6 = 20, তাই ÷, ×, = ও + বসালে সমীকরণটি সত্য হয়।",
+        "options": [
+          {
+            "id": "A",
+            "text": "÷ + = −"
+          },
+          {
+            "id": "B",
+            "text": "÷ − = ×"
+          },
+          {
+            "id": "C",
+            "text": "÷ × = +"
+          },
+          {
+            "id": "D",
+            "text": "− × + ="
+          }
+        ],
+        "question_text": "প্রদত্ত সমীকরণে ‘*’ স্থানে কী বসবে? 16 * 4 * 5 * 14 * 6"
+      },
+      "en": {
+        "explanation": "16 ÷ 4 × 5 = 20 and 14 + 6 = 20, so ÷, ×, = and + make the equation true.",
+        "options": [
+          {
+            "id": "A",
+            "text": "÷ + = −"
+          },
+          {
+            "id": "B",
+            "text": "÷ − = ×"
+          },
+          {
+            "id": "C",
+            "text": "÷ × = +"
+          },
+          {
+            "id": "D",
+            "text": "− × + ="
+          }
+        ],
+        "question_text": "What should come in place of '*' in the given equation? 16 * 4 * 5 * 14 * 6"
+      }
+    },
+    "correct_option_id": "C",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 99,
+      "year": 2021
+    },
+    "subject_code": "reasoning",
+    "topic_code": "series"
+  },
+  {
+    "category": "WBP_CONSTABLE",
+    "content": {
+      "bn": {
+        "explanation": "সংস্কৃত ছিল গুপ্ত সাম্রাজ্যের সরকারি ভাষা এবং রাজদরবার ও সাহিত্যের ভাষা হিসেবে এর বিকাশ ঘটে।",
+        "options": [
+          {
+            "id": "A",
+            "text": "হিন্দি"
+          },
+          {
+            "id": "B",
+            "text": "পালি"
+          },
+          {
+            "id": "C",
+            "text": "প্রাকৃত"
+          },
+          {
+            "id": "D",
+            "text": "সংস্কৃত"
+          }
+        ],
+        "question_text": "গুপ্ত সাম্রাজ্যের সরকারি ভাষা কী ছিল?"
+      },
+      "en": {
+        "explanation": "Sanskrit was the official language of the Gupta empire and flourished as the language of its court and literature.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hindi"
+          },
+          {
+            "id": "B",
+            "text": "Pali"
+          },
+          {
+            "id": "C",
+            "text": "Prakrit"
+          },
+          {
+            "id": "D",
+            "text": "Sanskrit"
+          }
+        ],
+        "question_text": "What was the official language of the Gupta empire?"
+      }
+    },
+    "correct_option_id": "D",
+    "difficulty": "Easy",
+    "pyq": {
+      "exam_name": "WBP Constable (Prelims)",
+      "paper_url": "https://teachingninja.in/wp-content/uploads/2025/11/WBP-Constable-Prelims-26-Sept-2021-English.pdf",
+      "question_no": 100,
+      "year": 2021
+    },
+    "subject_code": "gs",
+    "topic_code": "indian_history"
+  }
+]

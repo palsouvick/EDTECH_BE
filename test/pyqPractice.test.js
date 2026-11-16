@@ -20,7 +20,7 @@ const catalog = require('../db/seed/catalog');
 const { importQuestionFile, PYQ_DIR } = require('../src/db/seedData');
 const { pyqRefBasis } = require('../src/services/questionProvenance');
 
-const FILES = ['wbcs-prelims-2022.json', 'wbcs-prelims-2023.json', 'wbcs-prelims-2024.json', 'wbpsc-clerkship-2023-session-1.json', 'ido-2019.json', 'misc-2023.json'];
+const FILES = ['wbcs-prelims-2022.json', 'wbcs-prelims-2023.json', 'wbcs-prelims-2024.json', 'wbpsc-clerkship-2023-session-1.json', 'ido-2019.json', 'misc-2023.json', 'wbp-constable-2021.json', 'kp-constable-2023.json'];
 const REAL_PAPER = ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'];
 const quiet = { log: () => {}, warn: () => {} };
 
@@ -88,7 +88,7 @@ test('preview: Mathematics, all West Bengal exams, counts the real pool', async 
   assert.equal(d.questionCount, 10);
   assert.equal(d.shortBy, 0);
   assert.equal(d.recommendedMinutes, 12, '10 mixed Math questions at 70s each');
-  assert.deepEqual(d.pyq.years, [2024, 2023, 2022, 2019]);
+  assert.deepEqual(d.pyq.years, [2024, 2023, 2022, 2021, 2019]);
   assert.ok(d.plan.length > 0 && d.plan.reduce((a, p) => a + p.count, 0) === 10);
 });
 
@@ -216,6 +216,54 @@ test('exam filter: Miscellaneous-only quant, setup → test → submit → resul
   }
 });
 
+test('exam filter: WBP Constable-only quant, setup → test → submit → result', async () => {
+  const user = 'wbp_flow';
+  const prev = await api('POST', '/custom-tests/preview', pyqBody({ pyqExam: 'WBP Constable (Prelims)' }), 'wbp_prev');
+  assert.equal(prev.status, 200, JSON.stringify(prev.body));
+  assert.equal(prev.body.data.pyq.available, 25, 'WBP Constable Prelims 2021 quant: 25 questions, no collisions in them');
+  assert.deepEqual(prev.body.data.pyq.years, [2021]);
+  const created = await api('POST', '/custom-tests', pyqBody({ pyqExam: 'WBP Constable (Prelims)' }), user);
+  assert.equal(created.status, 201, JSON.stringify(created.body));
+  const s = created.body.data;
+  assert.equal(s.questions.length, 10);
+  assert.equal(s.custom.pyq.exam, 'WBP Constable (Prelims)');
+  for (const q of s.questions) {
+    assert.ok(q.pyq.some((r) => r.examName === 'WBP Constable (Prelims)'), JSON.stringify(q.pyq));
+  }
+  // 7 right, 2 wrong, 1 unattempted.
+  const key = await keyOf(s.sessionId);
+  const responses = s.questions.map((q, i) => {
+    if (i === 9) return { questionId: q.questionId, selectedOptionId: null, timeSpentSec: 0 };
+    const right = key[q.questionId].right;
+    return {
+      questionId: q.questionId,
+      selectedOptionId: i < 7 ? right : q.options.find((o) => o.optionId !== right).optionId,
+      timeSpentSec: 30,
+    };
+  });
+  const sub = await api('POST', '/mock/submit-session', { sessionId: s.sessionId, responses }, user);
+  assert.equal(sub.status, 200, JSON.stringify(sub.body));
+  assert.equal(sub.body.data.counts.correct, 7);
+  assert.equal(sub.body.data.counts.incorrect, 2);
+  assert.equal(sub.body.data.counts.unattempted, 1);
+  assert.equal(sub.body.data.score, 7);
+  const analytics = await api('GET', `/mock/session/${s.sessionId}/analytics`, null, user);
+  assert.equal(analytics.status, 200, JSON.stringify(analytics.body));
+  assert.equal(analytics.body.data.review.length, 10);
+  for (const item of analytics.body.data.review) {
+    assert.ok(item.pyq.some((r) => r.examName === 'WBP Constable (Prelims)'), 'result names the WBP paper');
+    assert.ok(item.explanation.steps.length > 0, 'every WBP PYQ has a stored explanation');
+    assert.ok(item.explanation.steps[0].en && item.explanation.steps[0].bn, 'explanation in English and Bengali');
+  }
+});
+
+test('exam filter: KP Constable-only quant preview counts 29', async () => {
+  const prev = await api('POST', '/custom-tests/preview', pyqBody({ pyqExam: 'Kolkata Police Constable (Prelims)' }), 'kp_prev');
+  assert.equal(prev.status, 200, JSON.stringify(prev.body));
+  assert.equal(prev.body.data.pyq.available, 29, 'KP Constable Prelims 2023 quant: 29 questions, no collisions in them');
+  assert.deepEqual(prev.body.data.pyq.years, [2023]);
+});
+
 test('year filter: 2022 quant draws only 2022 papers', async () => {
   const prev = await api('POST', '/custom-tests/preview', pyqBody({ pyqYear: 2022 }), 'year_prev');
   assert.equal(prev.status, 200, JSON.stringify(prev.body));
@@ -232,7 +280,7 @@ test('year filter: 2022 quant draws only 2022 papers', async () => {
 test('recent years: the 5 most recent years in the pool', async () => {
   const prev = await api('POST', '/custom-tests/preview', pyqBody({ pyqYear: 'recent' }), 'recent_prev');
   assert.equal(prev.status, 200, JSON.stringify(prev.body));
-  assert.deepEqual(prev.body.data.pyq.years, [2024, 2023, 2022, 2019]);
+  assert.deepEqual(prev.body.data.pyq.years, [2024, 2023, 2022, 2021, 2019]);
   assert.equal(prev.body.data.pyq.available, (await poolDocs('quant')).length);
 });
 

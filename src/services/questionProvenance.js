@@ -28,7 +28,11 @@ const EXCEPTION_PAPER_HOSTS = ['files.wbcs.in'];
 // cross-checked against independent sources; the student-facing label then
 // shows both UNOFFICIAL_COPY (paper) and CROSS_CHECKED (answer). Do not add
 // hosts here without a SOURCES.md note.
-const UNOFFICIAL_PAPER_HOSTS = ['wbpscupsc.com', 'englishsahayak.blogspot.com'];
+// Same exception, owner-approved 16 Nov 2026 (see SOURCES.md "Police papers"):
+// WBPRB never publishes police question papers and its answer keys vanish after
+// 5–7 days, so WBP/KP Constable papers survive only as unofficial reproductions
+// on teachingninja.in. Same rules: no answer_key_url, ADAPTED_PYQ only.
+const UNOFFICIAL_PAPER_HOSTS = ['wbpscupsc.com', 'englishsahayak.blogspot.com', 'teachingninja.in'];
 
 const onHost = (url, hosts) => {
   try {

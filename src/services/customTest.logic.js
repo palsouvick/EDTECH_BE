@@ -23,7 +23,7 @@ const REAL_PAPER = Object.freeze(['OFFICIAL_VERIFIED', 'ADAPTED_PYQ']);
  * Anything else (WBP Constable, WBP SI, Kolkata Police, Assistant Engineer)
  * has zero PYQs and must never be offered. 'recent' = the 5 most recent years in the pool.
  */
-const PYQ_EXAMS = Object.freeze(['WBCS (Exe.) Prelims', 'WBPSC Clerkship (Part-I)', 'WBPSC Miscellaneous (Prelims)', 'Industrial Development Officer']);
+const PYQ_EXAMS = Object.freeze(['WBCS (Exe.) Prelims', 'WBPSC Clerkship (Part-I)', 'WBPSC Miscellaneous (Prelims)', 'Industrial Development Officer', 'WBP Constable (Prelims)', 'Kolkata Police Constable (Prelims)']);
 const PYQ_REPEAT_MODES = Object.freeze(['all', 'unattempted', 'wrong', 'bookmarked']);
 const PYQ_RECENT_YEARS = 5;
 /** Stored difficulty values (1-5) behind each PYQ difficulty choice; null = no filter. */
