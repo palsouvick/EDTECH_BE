@@ -20,7 +20,7 @@ const catalog = require('../db/seed/catalog');
 const { importQuestionFile, PYQ_DIR } = require('../src/db/seedData');
 const { pyqRefBasis } = require('../src/services/questionProvenance');
 
-const FILES = ['wbcs-prelims-2022.json', 'wbcs-prelims-2023.json', 'wbcs-prelims-2024.json', 'wbpsc-clerkship-2023-session-1.json', 'ido-2019.json'];
+const FILES = ['wbcs-prelims-2022.json', 'wbcs-prelims-2023.json', 'wbcs-prelims-2024.json', 'wbpsc-clerkship-2023-session-1.json', 'ido-2019.json', 'misc-2023.json'];
 const REAL_PAPER = ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'];
 const quiet = { log: () => {}, warn: () => {} };
 
@@ -172,6 +172,47 @@ test('exam filter: Clerkship-only quant draws only Clerkship papers', async () =
   assert.equal(created.status, 201, JSON.stringify(created.body));
   for (const q of created.body.data.questions) {
     assert.ok(q.pyq.some((r) => r.examName === 'WBPSC Clerkship (Part-I)'), JSON.stringify(q.pyq));
+  }
+});
+
+test('exam filter: Miscellaneous-only quant, setup → test → submit → result', async () => {
+  const user = 'misc_flow';
+  const prev = await api('POST', '/custom-tests/preview', pyqBody({ pyqExam: 'WBPSC Miscellaneous (Prelims)' }), 'misc_prev');
+  assert.equal(prev.status, 200, JSON.stringify(prev.body));
+  assert.equal(prev.body.data.pyq.available, 21, 'Misc 2023 quant: 21 questions, no collisions in them');
+  assert.deepEqual(prev.body.data.pyq.years, [2023]);
+  const created = await api('POST', '/custom-tests', pyqBody({ pyqExam: 'WBPSC Miscellaneous (Prelims)' }), user);
+  assert.equal(created.status, 201, JSON.stringify(created.body));
+  const s = created.body.data;
+  assert.equal(s.questions.length, 10);
+  assert.equal(s.custom.pyq.exam, 'WBPSC Miscellaneous (Prelims)');
+  for (const q of s.questions) {
+    assert.ok(q.pyq.some((r) => r.examName === 'WBPSC Miscellaneous (Prelims)'), JSON.stringify(q.pyq));
+  }
+  // 7 right, 2 wrong, 1 unattempted.
+  const key = await keyOf(s.sessionId);
+  const responses = s.questions.map((q, i) => {
+    if (i === 9) return { questionId: q.questionId, selectedOptionId: null, timeSpentSec: 0 };
+    const right = key[q.questionId].right;
+    return {
+      questionId: q.questionId,
+      selectedOptionId: i < 7 ? right : q.options.find((o) => o.optionId !== right).optionId,
+      timeSpentSec: 30,
+    };
+  });
+  const sub = await api('POST', '/mock/submit-session', { sessionId: s.sessionId, responses }, user);
+  assert.equal(sub.status, 200, JSON.stringify(sub.body));
+  assert.equal(sub.body.data.counts.correct, 7);
+  assert.equal(sub.body.data.counts.incorrect, 2);
+  assert.equal(sub.body.data.counts.unattempted, 1);
+  assert.equal(sub.body.data.score, 7);
+  const analytics = await api('GET', `/mock/session/${s.sessionId}/analytics`, null, user);
+  assert.equal(analytics.status, 200, JSON.stringify(analytics.body));
+  assert.equal(analytics.body.data.review.length, 10);
+  for (const item of analytics.body.data.review) {
+    assert.ok(item.pyq.some((r) => r.examName === 'WBPSC Miscellaneous (Prelims)'), 'result names the Misc paper');
+    assert.ok(item.explanation.steps.length > 0, 'every Misc PYQ has a stored explanation');
+    assert.ok(item.explanation.steps[0].en && item.explanation.steps[0].bn, 'explanation in English and Bengali');
   }
 });
 
