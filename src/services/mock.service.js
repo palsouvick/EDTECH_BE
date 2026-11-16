@@ -175,6 +175,14 @@ function presentCustom(session) {
     plan: (c.plan || []).map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons || [] })),
     recommendedMinutes: c.recommended_min ?? null,
     followUpOf: c.follow_up_of ? String(c.follow_up_of) : null,
+    // PYQ-only tests: the filters the test was built from (exam, year, repeat mode).
+    pyq: c.pyq ? {
+      exam: c.pyq.exam ?? null,
+      year: c.pyq.year ?? 'all',
+      yearFrom: c.pyq.yearFrom ?? null,
+      yearTo: c.pyq.yearTo ?? null,
+      repeatMode: c.pyq.repeatMode ?? 'all',
+    } : null,
     // Practice mode: questions already checked, by the id the live screen uses.
     checked: Object.fromEntries(
       Object.entries(answers).map(([qid, opt]) => [session.config.question_aliases ? mockQuestionAlias(String(session._id), qid) : qid, opt]),

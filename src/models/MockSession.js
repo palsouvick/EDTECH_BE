@@ -69,11 +69,27 @@ const MockSessionSchema = new Schema(
     custom: {
       type: new Schema(
         {
-          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart'], required: true },
+          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq'], required: true },
           mode: { type: String, enum: ['exam', 'practice'], required: true },
           difficulty: { type: String, enum: ['easy', 'moderate', 'hard', 'exam', 'mixed'], required: true },
           distribution: { type: String, enum: ['balanced', 'smart', 'mistakes'], required: true },
           topics: { type: [String], default: [] },
+          // PYQ-only tests (preset 'pyq'): the filters the test was built from, so
+          // "Practice again" can rebuild the same kind of test. year is 'all',
+          // 'recent' or a single year; a custom range uses yearFrom/yearTo.
+          pyq: {
+            type: new Schema(
+              {
+                exam: { type: String, default: null },
+                year: { type: String, default: 'all' },
+                yearFrom: { type: Number, default: null },
+                yearTo: { type: Number, default: null },
+                repeatMode: { type: String, enum: ['all', 'unattempted', 'wrong', 'bookmarked'], default: 'all' },
+              },
+              { _id: false },
+            ),
+            default: undefined,
+          },
           plan: { type: [new Schema({ topic: String, count: Number, reasons: [String] }, { _id: false })], default: [] },
           recommended_min: Number,
           follow_up_of: { type: Schema.Types.ObjectId, default: null },

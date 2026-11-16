@@ -13,10 +13,22 @@ const { DIFFICULTY_BANDS } = require('../models/constants');
 
 const SUBJECTS = Object.freeze(['quant', 'english', 'gs']);
 const DIFFICULTIES = Object.freeze(['easy', 'moderate', 'hard', 'exam', 'mixed']);
-const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart']);
+const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq']);
 const MIN_QUESTIONS = 5;
 const MAX_QUESTIONS = 100;
 const REAL_PAPER = Object.freeze(['OFFICIAL_VERIFIED', 'ADAPTED_PYQ']);
+
+/**
+ * PYQ-only tests (preset 'pyq'): the only exams with real papers in the bank.
+ * Anything else (WBP Constable, WBP SI, Kolkata Police, WBPSC Miscellaneous) has
+ * zero PYQs and must never be offered. 'recent' = the 5 most recent years in the pool.
+ */
+const PYQ_EXAMS = Object.freeze(['WBCS (Exe.) Prelims', 'WBPSC Clerkship (Part-I)', 'Industrial Development Officer']);
+const PYQ_REPEAT_MODES = Object.freeze(['all', 'unattempted', 'wrong', 'bookmarked']);
+const PYQ_RECENT_YEARS = 5;
+/** Stored difficulty values (1-5) behind each PYQ difficulty choice; null = no filter. */
+const PYQ_DIFFICULTY_VALUES = Object.freeze({ easy: DIFFICULTY_BANDS.EASY, moderate: DIFFICULTY_BANDS.MEDIUM, hard: DIFFICULTY_BANDS.HARD, mixed: null });
+const pyqDifficultyValues = (difficulty) => PYQ_DIFFICULTY_VALUES[difficulty] ?? null;
 
 /**
  * Band shares per difficulty choice, and how strongly real previous-year questions are preferred.
@@ -361,6 +373,11 @@ module.exports = {
   SUBJECTS,
   DIFFICULTIES,
   PRESETS,
+  PYQ_EXAMS,
+  PYQ_REPEAT_MODES,
+  PYQ_RECENT_YEARS,
+  PYQ_DIFFICULTY_VALUES,
+  pyqDifficultyValues,
   MIN_QUESTIONS,
   MAX_QUESTIONS,
   REAL_PAPER,

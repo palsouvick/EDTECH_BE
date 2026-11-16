@@ -6,6 +6,14 @@ const L = require('../services/customTest.logic');
 
 const subject = z.enum(L.SUBJECTS);
 
+// PYQ-only tests (preset 'pyq'): exam is one of the three exams with real papers
+// (or omitted = all West Bengal exams); year is 'all', 'recent' (5 most recent years
+// in the pool), one year, or a from/to range; repeatMode is how already-seen PYQs
+// are treated. These fields are ignored by every other preset.
+const pyqExam = z.enum(L.PYQ_EXAMS).optional();
+const pyqYear = z.union([z.literal('all'), z.literal('recent'), z.number().int().min(1990).max(2100)]).optional();
+const pyqYearBound = z.number().int().min(1990).max(2100).optional();
+
 // Settings left out take the service's defaults (20 questions, exam level, smart split, exam mode).
 const testBody = z
   .object({
@@ -21,6 +29,11 @@ const testBody = z
     timeLimitMinutes: z.number().int().min(1).max(300).nullable().optional(),
     followUpOf: objectId.optional(),
     language: language.default('en'),
+    pyqExam,
+    pyqYear,
+    pyqYearFrom: pyqYearBound,
+    pyqYearTo: pyqYearBound,
+    repeatMode: z.enum(L.PYQ_REPEAT_MODES).optional(),
   })
   .transform((b) => ({ ...b, topics: [...new Set(b.topics)] }));
 

@@ -23,9 +23,10 @@
  * Questions come only from the published bank; nothing is generated.
  */
 
-const { Question, MockSession, ReviewItem } = require('../models');
+const { Question, MockSession, ReviewItem, PracticeAttempt, Bookmark } = require('../models');
 const { langSetsContaining } = require('../models/schemas/localized');
 const { PUBLIC_QUESTION_FIELDS, compactLocalized } = require('./presenters');
+const { pyqRefBasis } = require('./questionProvenance');
 const { resolveMarking } = require('./markingScheme');
 const { mockQuestionAlias } = require('./signedToken');
 const { topicName } = require('./catalogNames');
@@ -174,6 +175,16 @@ async function resolveRequest(userId, body, signals, allTopics) {
   };
   const chosen = body.topics.filter((t) => allTopics.includes(t));
   switch (body.preset) {
+    case 'pyq': {
+      // PYQ-only test: no chapters — the pool is real past-paper questions in the subject.
+      // 'exam' difficulty has no meaning here (PYQ choices are Easy / Medium / Hard / Mixed).
+      r.topics = [];
+      r.difficulty = body.difficulty && body.difficulty !== 'exam' ? body.difficulty : 'mixed';
+      r.mode = body.mode ?? 'exam';
+      r.distribution = 'balanced';
+      r.pyq = normalizePyq(body);
+      break;
+    }
     case 'weak': {
       r.topics = weakChapters(chosen.length ? chosen : allTopics, signals);
       if (!r.topics.length) throw AppError.unprocessable('NO_WEAK_TOPICS', 'No weak chapters yet: answer at least 5 questions in a chapter first');
@@ -204,6 +215,26 @@ async function resolveRequest(userId, body, signals, allTopics) {
       if (!body.followUpOf) throw AppError.unprocessable('FOLLOW_UP_REQUIRED', 'followUpOf is required to practise again');
       const prev = await customSessionOr404(userId, body.followUpOf, 'status custom config result.per_question result.score result.max_score result.correct');
       if (prev.status !== 'SUBMITTED') throw AppError.conflict('SESSION_NOT_SUBMITTED', 'Finish that test first');
+      if (prev.custom.preset === 'pyq') {
+        // Practise again after a PYQ test: another PYQ-only test with the same filters,
+        // new questions (the previous test's questions are left out), same difficulty.
+        r.preset = 'pyq';
+        r.topics = [];
+        r.pyq = normalizePyq({
+          pyqExam: prev.custom.pyq?.exam ?? undefined,
+          pyqYear: prev.custom.pyq?.year ?? 'all',
+          pyqYearFrom: prev.custom.pyq?.yearFrom ?? undefined,
+          pyqYearTo: prev.custom.pyq?.yearTo ?? undefined,
+          repeatMode: prev.custom.pyq?.repeatMode ?? 'all',
+        });
+        r.difficulty = prev.custom.difficulty;
+        r.mode = body.mode ?? prev.custom.mode;
+        r.questionCount = body.questionCount ?? prev.result.per_question.length;
+        r.distribution = 'balanced';
+        for (const p of prev.result.per_question) r.exclude.add(String(p.qid));
+        r.followUp = { sessionId: String(prev._id), accuracy: accuracyOf(prev.result) };
+        break;
+      }
       const byTopic = new Map();
       for (const p of prev.result.per_question) {
         const t = byTopic.get(p.topic) || { c: 0, n: 0 };
@@ -236,8 +267,124 @@ async function resolveRequest(userId, body, signals, allTopics) {
     default:
       r.topics = chosen;
   }
-  if (!r.topics.length) throw AppError.unprocessable('NO_CHAPTERS', 'Choose at least one chapter');
+  if (!r.topics.length && r.preset !== 'pyq') throw AppError.unprocessable('NO_CHAPTERS', 'Choose at least one chapter');
   return r;
+}
+
+/** The PYQ filters of a request, in the shape stored on the session. A single year wins over a range. */
+function normalizePyq(body) {
+  const year = typeof body.pyqYear === 'number' ? String(body.pyqYear) : (body.pyqYear ?? 'all');
+  const from = year === 'all' || year === 'recent' ? body.pyqYearFrom ?? null : null;
+  const to = year === 'all' || year === 'recent' ? body.pyqYearTo ?? null : null;
+  if (from != null && to != null && from > to) throw AppError.unprocessable('INVALID_YEAR_RANGE', 'The year range starts after it ends');
+  return { exam: body.pyqExam ?? null, year, yearFrom: from, yearTo: to, repeatMode: body.repeatMode ?? 'all' };
+}
+
+/** The years a PYQ filter covers: one year, a range, the 5 most recent years, or all years. */
+async function pyqYearsFor({ subject, language, exam, year, yearFrom, yearTo }) {
+  if (typeof year === 'string' && /^\d+$/.test(year)) return [Number(year)];
+  if (yearFrom != null || yearTo != null) {
+    return [yearFrom ?? 1990, yearTo ?? 2100];
+  }
+  if (year !== 'recent') return null; // all years
+  const ref = { question_code: { $not: /-SYN-/ } };
+  if (exam) ref.exam_name = exam;
+  const years = await Question.distinct('pyq.refs.year', {
+    status: 'PUBLISHED', subject, provenance: { $in: L.REAL_PAPER }, 'pyq.is_pyq': true,
+    'pyq.refs': { $elemMatch: ref }, lang_set: { $in: langSetsContaining(language) },
+  });
+  return years.sort((a, b) => b - a).slice(0, L.PYQ_RECENT_YEARS);
+}
+
+/**
+ * The real past-paper questions a PYQ test can draw from, for one student and one filter
+ * combination. Counts documents, never file rows (a stem printed in two papers is one
+ * document, and the importer overwrites cross-file collisions). Only refs that
+ * pyqRefBasis accepts count: a question is in the pool when at least one of its refs
+ * matches the exam/year filter AND can be shown as a PYQ.
+ */
+async function pyqPool(userId, req) {
+  const { subject, language } = req;
+  const { exam, year, yearFrom, yearTo, repeatMode } = req.pyq;
+  const years = await pyqYearsFor({ subject, language, exam, year, yearFrom, yearTo });
+  const ref = { question_code: { $not: /-SYN-/ } };
+  if (exam) ref.exam_name = exam;
+  if (years) ref.year = years.length === 2 && (yearFrom != null || yearTo != null) ? { $gte: years[0], $lte: years[1] } : { $in: years };
+  const filter = {
+    status: 'PUBLISHED',
+    subject,
+    provenance: { $in: L.REAL_PAPER },
+    'pyq.is_pyq': true,
+    'pyq.refs': { $elemMatch: ref },
+    lang_set: { $in: langSetsContaining(language) },
+  };
+  const diffValues = L.pyqDifficultyValues(req.difficulty);
+  if (diffValues) filter.difficulty = { $in: diffValues };
+  if (repeatMode === 'unattempted') {
+    const attempted = await PracticeAttempt.distinct('question_id', { user_id: userId, subject });
+    filter._id = { $nin: [...attempted.map(String), ...req.exclude] };
+  } else if (repeatMode === 'wrong') {
+    const wrong = await ReviewItem.distinct('question_id', { user_id: userId, subject, from_mistake: true, status: 'active' });
+    filter._id = { $in: wrong.map(String) };
+  } else if (repeatMode === 'bookmarked') {
+    const saved = await Bookmark.distinct('question_id', { user_id: userId, subject });
+    filter._id = { $in: saved.map(String) };
+  } else if (req.exclude.size) {
+    filter._id = { $nin: [...req.exclude] };
+  }
+
+  const candidates = await Question.find(filter).select(`${CANDIDATE_FIELDS} pyq.refs.exam_name pyq.refs.year pyq.refs.shift pyq.refs.tier pyq.refs.question_code pyq.refs.source_url pyq.refs.answer_key_url`).lean();
+  const inYears = (y) => {
+    if (!years) return true;
+    if (yearFrom != null || yearTo != null) return y >= (yearFrom ?? 1990) && y <= (yearTo ?? 2100);
+    return years.includes(y);
+  };
+  const matches = (r) =>
+    !/-SYN-/i.test(r.question_code || '') && (!exam || r.exam_name === exam) && inYears(r.year);
+  // One document per stem: the same printed question in two papers must not appear twice.
+  const seenKeys = new Set();
+  const pool = [];
+  for (const q of candidates) {
+    if (req.exclude.has(String(q._id))) continue; // "Practise again" never repeats a question
+    if (!q.pyq.refs.some((r) => matches(r) && pyqRefBasis(r, q.provenance))) continue;
+    const key = q.duplicate_keys?.[0] ?? String(q._id);
+    if (seenKeys.has(key)) continue;
+    seenKeys.add(key);
+    pool.push(q);
+  }
+  const poolYears = [...new Set(pool.flatMap((q) => q.pyq.refs.filter(matches).map((r) => r.year)))].sort((a, b) => b - a);
+  return { pool, years: poolYears };
+}
+
+/** How a PYQ test's questions split across chapters (for the setup summary). */
+function pyqPlan(pool, count) {
+  const byTopic = new Map();
+  for (const q of pool) byTopic.set(q.topic, (byTopic.get(q.topic) || 0) + 1);
+  const topics = [...byTopic.entries()].sort((a, b) => b[1] - a[1]);
+  const split = L.splitByWeight(Math.min(count, pool.length), Object.fromEntries(topics));
+  return topics.map(([topic, available]) => ({ topic, count: split[topic] ?? 0, reasons: available <= (split[topic] ?? 0) ? [`limited:${available}`] : [] }));
+}
+
+/** The plan without creating a test: how many PYQs match, and the shortfall, if any. */
+async function previewPyq(userId, req) {
+  const { pool, years } = await pyqPool(userId, req);
+  const available = pool.length;
+  const questionCount = Math.min(req.questionCount, available);
+  return {
+    subject: req.subject,
+    preset: 'pyq',
+    topics: [],
+    questionCount,
+    requested: req.questionCount,
+    shortBy: Math.max(0, req.questionCount - available),
+    difficulty: req.difficulty,
+    distribution: 'balanced',
+    mode: req.mode,
+    plan: pyqPlan(pool, req.questionCount),
+    recommendedMinutes: L.smartMinutes(req.subject, req.difficulty, Math.max(questionCount, 1)),
+    followUp: req.followUp ?? null,
+    pyq: { ...req.pyq, available, years },
+  };
 }
 
 function planFor(req, avail, signals) {
@@ -266,6 +413,7 @@ function planFor(req, avail, signals) {
 async function previewTest(userId, body) {
   const [chapters, avail, signals] = await Promise.all([chaptersOf(body.subject), availability(body.subject, body.language), loadSignals(userId, body.subject)]);
   const req = await resolveRequest(userId, body, signals, chapters.map((c) => c.topic));
+  if (req.preset === 'pyq') return previewPyq(userId, req);
   const { plan, total, shortBy } = planFor(req, avail, signals);
   return {
     subject: body.subject,
@@ -287,10 +435,115 @@ async function previewTest(userId, body) {
 
 const CANDIDATE_FIELDS = '_id topic subtopic difficulty pattern provenance pyq.is_pyq latest_pyq_year +duplicate_keys';
 
+/**
+ * Stores a built test as a MockSession. Shared by the chapter path and the PYQ path:
+ * the question list and answer key are frozen at creation, and both modes can be paused,
+ * so the session lives for the pausable TTL while the countdown itself still ends the test.
+ */
+async function insertSession(userId, { subject, language, ordered, custom, marking, minutes, recommended }) {
+  const now = new Date();
+  const expiresAt = new Date(now.getTime() + config.mock.pausableSessionTtlHours * 3600_000);
+  const sessionId = new MockSession()._id;
+  const session = await MockSession.create({
+    _id: sessionId,
+    user_id: userId,
+    config: {
+      category: CATEGORY,
+      subject,
+      topic_ids: [...new Set(ordered.map((q) => q.topic))],
+      language,
+      question_count: ordered.length,
+      time_limit_min: minutes,
+      per_question_timer: false,
+      per_question_limit_sec: null,
+      allow_pause: true,
+      marking: { positive: marking.positive, negative: marking.negative, basis: marking.basis, exam_code: marking.examCode ?? undefined, source_url: marking.sourceUrl ?? undefined },
+      question_aliases: true,
+    },
+    custom: {
+      ...custom,
+      recommended_min: recommended,
+    },
+    questions: ordered.map((q, i) => ({ qid: q._id, seq: i + 1, topic: q.topic, difficulty: q.difficulty })),
+    answer_key: Object.fromEntries(ordered.map((q) => [String(q._id), q.correct_option_id])),
+    started_at: now,
+    expires_at: expiresAt,
+  });
+  return { session, now, expiresAt };
+}
+
+/**
+ * A PYQ-only test: only real past-paper questions (provenance OFFICIAL_VERIFIED or
+ * ADAPTED_PYQ, with a showable ref), in the requested subject, exam, year(s) and
+ * difficulty band, honouring the repeat mode. Never padded with generated questions:
+ * when fewer match than requested, the test starts with what matched (at least 5).
+ * Marking is always practice marking (+1, no negative): one test can mix WBCS
+ * (−⅓) and Clerkship (−0.25) papers, which share no official scheme.
+ */
+async function createPyqTest(userId, req) {
+  const { subject, language } = req;
+  const { pool } = await pyqPool(userId, req);
+  if (pool.length < L.MIN_QUESTIONS) {
+    throw AppError.unprocessable('INSUFFICIENT_QUESTIONS', `Only ${pool.length} previous-year questions match these filters`, { available: pool.length, requested: req.questionCount });
+  }
+  // Prefer questions not served in a recent test; a small pool falls back to everything.
+  const recent = new Set((await mock.recentlyServedQuestionIds(userId)).map(String));
+  const fresh = pool.filter((q) => !recent.has(String(q._id)));
+  const usable = fresh.length >= Math.min(req.questionCount, pool.length) ? fresh : pool;
+  const n = Math.min(req.questionCount, usable.length);
+  const picked = mock.shuffle([...usable]).slice(0, n);
+
+  const docs = await Question.find({ _id: { $in: picked.map((q) => q._id) } }).select(`${PUBLIC_QUESTION_FIELDS} +correct_option_id`).lean();
+  const byId = new Map(docs.map((d) => [String(d._id), d]));
+  const ordered = mock.shuffle(picked.map((q) => byId.get(String(q._id))).filter(Boolean));
+  if (ordered.length < picked.length) throw new AppError(503, 'GENERATION_RACE', 'Question bank changed during generation, please retry');
+
+  const recommended = L.smartMinutes(subject, req.difficulty, ordered.length);
+  const untimed = req.timeLimitMinutes === null;
+  const minutes = untimed ? null : (req.timeLimitMinutes ?? recommended);
+  if (!untimed && minutes * 60 < ordered.length * 10) throw AppError.unprocessable('TIME_TOO_SHORT', 'The time must allow at least 10 seconds per question');
+
+  const byTopic = new Map();
+  for (const q of ordered) byTopic.set(q.topic, (byTopic.get(q.topic) || 0) + 1);
+  const plan = [...byTopic.entries()].map(([topic, count]) => ({ topic, count, reasons: [] }));
+  const { session, now, expiresAt } = await insertSession(userId, {
+    subject,
+    language,
+    ordered,
+    marking: PRACTICE_MARKING,
+    minutes,
+    recommended,
+    custom: {
+      preset: 'pyq',
+      mode: req.mode,
+      difficulty: req.difficulty,
+      distribution: 'balanced',
+      topics: [],
+      plan,
+      follow_up_of: req.followUp?.sessionId ?? null,
+      pyq: req.pyq,
+    },
+  });
+  const lean = session.toObject();
+  const mix = { EASY: 0, MEDIUM: 0, HARD: 0 };
+  for (const q of ordered) mix[L.bandOf(q.difficulty)] += 1;
+  return {
+    sessionId: String(session._id),
+    status: session.status,
+    config: mock.presentConfig(lean.config),
+    custom: mock.presentCustom(lean),
+    startedAt: now,
+    expiresAt,
+    notes: { borrowed: 0, pyq: ordered.length, siblings: 0, originals: 0, skipped: 0, mix, requested: req.questionCount, shortBy: Math.max(0, req.questionCount - ordered.length) },
+    questions: ordered.map((q, i) => mock.presentLiveQuestion(lean, q, i + 1)),
+  };
+}
+
 async function createTest(userId, body) {
   const { subject, language } = body;
   const [chapters, avail, signals] = await Promise.all([chaptersOf(subject), availability(subject, language), loadSignals(userId, subject)]);
   const req = await resolveRequest(userId, body, signals, chapters.map((c) => c.topic));
+  if (req.preset === 'pyq') return createPyqTest(userId, req);
   const { plan, total } = planFor(req, avail, signals);
   if (total < L.MIN_QUESTIONS) {
     throw AppError.unprocessable('INSUFFICIENT_QUESTIONS', `Only ${total} questions are available in these chapters; choose more chapters`, { available: total, requested: req.questionCount });
@@ -351,28 +604,13 @@ async function createTest(userId, body) {
   const practice = req.mode === 'practice';
   const marking = practice ? PRACTICE_MARKING : resolveMarking({ category: CATEGORY, subject });
 
-  const now = new Date();
-  // Both modes can be paused and resumed (beginners need the pause even in
-  // exam mode), so the session lives for the pausable TTL; the countdown
-  // itself still ends the test when its time is up.
-  const expiresAt = new Date(now.getTime() + config.mock.pausableSessionTtlHours * 3600_000);
-  const sessionId = new MockSession()._id;
-  const session = await MockSession.create({
-    _id: sessionId,
-    user_id: userId,
-    config: {
-      category: CATEGORY,
-      subject,
-      topic_ids: req.topics,
-      language,
-      question_count: n,
-      time_limit_min: minutes,
-      per_question_timer: false,
-      per_question_limit_sec: null,
-      allow_pause: true,
-      marking: { positive: marking.positive, negative: marking.negative, basis: marking.basis, exam_code: marking.examCode ?? undefined, source_url: marking.sourceUrl ?? undefined },
-      question_aliases: true,
-    },
+  const { session, now, expiresAt } = await insertSession(userId, {
+    subject,
+    language,
+    ordered,
+    marking,
+    minutes,
+    recommended,
     custom: {
       preset: req.preset,
       mode: req.mode,
@@ -380,13 +618,8 @@ async function createTest(userId, body) {
       distribution: req.distribution,
       topics: req.topics,
       plan: finalPlan,
-      recommended_min: recommended,
       follow_up_of: req.followUp?.sessionId ?? null,
     },
-    questions: ordered.map((q, i) => ({ qid: q._id, seq: i + 1, topic: q.topic, difficulty: q.difficulty })),
-    answer_key: Object.fromEntries(ordered.map((q) => [String(q._id), q.correct_option_id])),
-    started_at: now,
-    expires_at: expiresAt,
   });
   const lean = session.toObject();
   return {
@@ -547,8 +780,9 @@ async function getReport(userId, sessionId) {
       preset: 'followup',
       followUpOf: String(session._id),
       focusTopics: focus.map((c) => ({ topic: c.topic, name: c.name })),
-      difficulty: accuracy >= 85 ? L.stepUp(session.custom.difficulty) : session.custom.difficulty,
-      harder: accuracy >= 85,
+      // A PYQ test stays a PYQ test: there is no harder PYQ difficulty to step up to.
+      difficulty: session.custom.preset === 'pyq' ? session.custom.difficulty : (accuracy >= 85 ? L.stepUp(session.custom.difficulty) : session.custom.difficulty),
+      harder: accuracy >= 85 && session.custom.preset !== 'pyq',
     },
     challenge: { unlocked: L.challengeUnlocked(scores), lastScores: scores, threshold: L.CHALLENGE_FROM },
   };
