@@ -143,9 +143,10 @@ Both keys are listed under "What's New" (https://psc.wb.gov.in/whats_new.jsp).
   answer, so this is not a column mix-up — the key belongs to a different sitting/paper
   than AEM/20 (the key's exam date is 30.06.2024; the paper file was posted Dec 2021).
   Nothing from AE 2020 was imported. A faithful transcription of Group A (89 of the 91
-  answerable questions; Q72 fell between transcription ranges and Q57 is unaccounted)
-  is kept as a draft in `~/workspace/pyq-work/ae2020/` for reuse if the matching key is
-  ever found. Group B (Mechanical) has no key in hand at all.
+  answerable questions; Q72 fell between transcription ranges — top of p-10, assigned
+  to neither chunk — and Q57 was held because the exponent in its stem is unreadable
+  in the scan) is kept as a draft in `~/workspace/pyq-work/ae2020/` for reuse if the
+  matching key is ever found. Group B (Mechanical) has no key in hand at all.
 
 ### Notes on IDO 2019 (Series A)
 
