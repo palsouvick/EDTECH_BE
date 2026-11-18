@@ -75,6 +75,14 @@ module.exports = {
   number_system: {
     missing_digit_divisibility: { subtopics: ['divisibility_by_9', 'divisibility'] },
     hcf_lcm_product: { subtopics: ['hcf_lcm'] },
+    ratio_hcf_find_numbers: { subtopics: ['hcf_lcm'] },
+    ratio_lcm_find_hcf: { subtopics: ['hcf_lcm'] },
+    lcm_exactly_divisible: { subtopics: ['hcf_lcm'] },
+    lcm_with_same_remainder: { subtopics: ['hcf_lcm'] },
+    hcf_exact_divisor: { subtopics: ['hcf_lcm'] },
+    hcf_with_remainders: { subtopics: ['hcf_lcm'] },
+    hcf_lcm_of_fractions: { subtopics: ['hcf_lcm'] },
+    bells_together_again: { subtopics: ['hcf_lcm'] },
     unit_digit_power: { stem: [/unit('?s)? digit/i] },
   },
   partnership: {

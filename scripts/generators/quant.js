@@ -1,6 +1,6 @@
 'use strict';
 
-const { ri, pick, gcd, n2, T, numOptions, textOptions, build } = require('./common');
+const { ri, pick, sample, gcd, n2, T, numOptions, textOptions, build } = require('./common');
 
 const rs = (v) => T(`₹${n2(v)}`, `₹${n2(v)}`);
 const pc = (v) => T(`${n2(v)}%`, `${n2(v)}%`);
@@ -665,6 +665,178 @@ function nsHcfLcm() {
   });
 }
 
+const lcm2 = (a, b) => (a * b) / gcd(a, b);
+const lcm3 = (a, b, c) => lcm2(lcm2(a, b), c);
+
+function nsRatioHcf() {
+  const a = ri(2, 9), b = pick([2, 3, 4, 5, 6, 7, 8, 9].filter((x) => x !== a && gcd(a, x) === 1));
+  const h = ri(2, 12);
+  const l = a * b * h;
+  const o = numOptions(l, plain, [
+    hint(a * b, 'That is only the product of the ratio terms — multiply by the HCF too.', 'এটি শুধু অনুপাতের পদগুলির গুণফল — গসাগু দিয়েও গুণ করতে হবে।'),
+    hint(a * b * h * h, 'The HCF was multiplied twice.', 'গসাগু দুবার গুণ করা হয়েছে।'),
+  ]);
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 2, time: 50,
+    stem: T(`Two numbers are in the ratio ${a} : ${b} and their HCF is ${h}. What is their LCM?`, `দুটি সংখ্যার অনুপাত ${a} : ${b} এবং তাদের গসাগু ${h}। সংখ্যা দুটির লসাগু কত?`),
+    ...o,
+    steps: [T(`The numbers are ${a} × ${h} = ${a * h} and ${b} × ${h} = ${b * h}`, `সংখ্যা দুটি ${a} × ${h} = ${a * h} এবং ${b} × ${h} = ${b * h}`), T(`LCM = ${a} × ${b} × ${h} = ${l}`, `লসাগু = ${a} × ${b} × ${h} = ${l}`)],
+    shortcut: T('LCM = (product of the ratio terms) × HCF.', 'লসাগু = (অনুপাতের পদগুলির গুণফল) × গসাগু।'),
+  });
+}
+
+function nsRatioLcm() {
+  const a = ri(2, 9), b = pick([2, 3, 4, 5, 6, 7, 8, 9].filter((x) => x !== a && gcd(a, x) === 1));
+  const h = ri(2, 12);
+  const l = a * b * h;
+  const o = numOptions(h, plain, [
+    hint(a * b, 'That is the product of the ratio terms, not the HCF — divide the LCM by it.', 'এটি অনুপাতের পদগুলির গুণফল, গসাগু নয় — লসাগুকে এ দিয়ে ভাগ করো।'),
+    hint(l / a, 'That is the larger number, not the HCF.', 'এটি বড় সংখ্যাটি, গসাগু নয়।'),
+  ]);
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 2, time: 50,
+    stem: T(`Two numbers are in the ratio ${a} : ${b} and their LCM is ${l}. What is their HCF?`, `দুটি সংখ্যার অনুপাত ${a} : ${b} এবং তাদের লসাগু ${l}। সংখ্যা দুটির গসাগু কত?`),
+    ...o,
+    steps: [T(`HCF = LCM ÷ (product of the ratio terms) = ${l} ÷ ${a * b}`, `গসাগু = লসাগু ÷ (অনুপাতের পদগুলির গুণফল) = ${l} ÷ ${a * b}`), T(`= ${h}`, `= ${h}`)],
+    shortcut: T('HCF = LCM / (a × b).', 'গসাগু = লসাগু / (a × b)।'),
+  });
+}
+
+function nsLcmExact() {
+  const d1 = pick([6, 8, 9, 10, 12]), d2 = pick([12, 15, 18, 20]), d3 = pick([15, 18, 20, 24, 30]);
+  if (d1 === d2 || d2 === d3 || d1 === d3) return null;
+  const L = lcm3(d1, d2, d3);
+  if (L > 720) return null;
+  const o = numOptions(L, plain, [
+    hint(lcm2(d1, d2), 'That is the LCM of only the first two numbers — the third divisor is missed.', 'এটি শুধু প্রথম দুটি সংখ্যার লসাগু — তৃতীয় ভাজকটি বাদ পড়ে গেছে।'),
+    hint(d1 * d2 * d3, 'Multiplying all the divisors gives a multiple, not the least one.', 'সব ভাজক গুণ করলে একটি গুণিতক পাওয়া যায়, ক্ষুদ্রতমটি নয়।'),
+  ]);
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 1, time: 45,
+    stem: T(`Find the least number which is exactly divisible by ${d1}, ${d2} and ${d3}.`, `কোন ক্ষুদ্রতম সংখ্যা ${d1}, ${d2} ও ${d3} দ্বারা নিঃশেষে বিভাজ্য?`),
+    ...o,
+    steps: [T(`Least such number = LCM of ${d1}, ${d2} and ${d3}`, `এমন ক্ষুদ্রতম সংখ্যা = ${d1}, ${d2} ও ${d3}-এর লসাগু`), T(`= ${L}`, `= ${L}`)],
+    shortcut: T('“Least” + “exactly divisible” = LCM.', '“ক্ষুদ্রতম” + “নিঃশেষে বিভাজ্য” = লসাগু।'),
+  });
+}
+
+function nsLcmRemainder() {
+  const d1 = pick([6, 8, 9, 10, 12]), d2 = pick([12, 15, 18, 20]), d3 = pick([15, 18, 20, 24, 30]);
+  if (d1 === d2 || d2 === d3 || d1 === d3) return null;
+  const L = lcm3(d1, d2, d3);
+  if (L > 600) return null;
+  const r = ri(1, Math.min(d1, d2, d3) - 1);
+  const ans = L + r;
+  const o = numOptions(ans, plain, [
+    hint(L, 'That is the LCM itself — the remainder must still be added.', 'এটি শুধু লসাগু — ভাগশেষ এখনও যোগ করতে হবে।'),
+    hint(L - r, 'The remainder must be added, not subtracted.', 'ভাগশেষ যোগ করতে হবে, বিয়োগ নয়।'),
+  ]);
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 2, time: 50,
+    stem: T(`Find the least number which, when divided by ${d1}, ${d2} and ${d3}, leaves remainder ${r} in each case.`, `কোন ক্ষুদ্রতম সংখ্যাকে ${d1}, ${d2} ও ${d3} দিয়ে ভাগ করলে প্রতিবার ভাগশেষ ${r} থাকে?`),
+    ...o,
+    steps: [T(`LCM of ${d1}, ${d2} and ${d3} is ${L}`, `${d1}, ${d2} ও ${d3}-এর লসাগু ${L}`), T(`Answer = ${L} + ${r} = ${ans}`, `উত্তর = ${L} + ${r} = ${ans}`)],
+    shortcut: T('Answer = LCM + remainder.', 'উত্তর = লসাগু + ভাগশেষ।'),
+  });
+}
+
+function nsHcfExact() {
+  const g = ri(4, 30);
+  const [m1, m2, m3] = sample([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 3);
+  if (gcd(gcd(m1, m2), m3) !== 1) return null;
+  const N1 = g * m1, N2 = g * m2, N3 = g * m3;
+  if (Math.max(N1, N2, N3) > 360) return null;
+  const o = numOptions(g, plain, [
+    hint(Math.min(N1, N2, N3), 'That is the smallest of the numbers, not their HCF.', 'এটি সংখ্যাগুলির মধ্যে সবচেয়ে ছোটটি, তাদের গসাগু নয়।'),
+    hint(g * 2, 'That is twice the HCF — check whether it divides all three numbers.', 'এটি গসাগুর দ্বিগুণ — এটি তিনটি সংখ্যাকেই ভাগ করে কি না যাচাই করো।'),
+  ]);
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 1, time: 45,
+    stem: T(`Find the greatest number which divides ${N1}, ${N2} and ${N3} exactly.`, `কোন বৃহত্তম সংখ্যা ${N1}, ${N2} ও ${N3}-কে নিঃশেষে ভাগ করে?`),
+    ...o,
+    steps: [T(`Greatest such number = HCF of ${N1}, ${N2} and ${N3}`, `এমন বৃহত্তম সংখ্যা = ${N1}, ${N2} ও ${N3}-এর গসাগু`), T(`= ${g}`, `= ${g}`)],
+    shortcut: T('“Greatest” + “divides exactly” = HCF.', '“বৃহত্তম” + “নিঃশেষে ভাগ করে” = গসাগু।'),
+  });
+}
+
+function nsHcfRemainders() {
+  const g = ri(12, 48);
+  const [m1, m2, m3] = sample([2, 3, 4, 5, 6, 7, 8, 9], 3);
+  if (gcd(gcd(m1, m2), m3) !== 1) return null;
+  const r = ri(1, Math.min(9, g - 1));
+  const N1 = g * m1 + r, N2 = g * m2 + r, N3 = g * m3 + r;
+  if (Math.max(N1, N2, N3) > 999) return null;
+  const o = numOptions(g, plain, [
+    hint(gcd(gcd(N1, N2), N3), 'That is the HCF of the original numbers — subtract the remainder first.', 'এটি আসল সংখ্যাগুলির গসাগু — আগে ভাগশেষ বিয়োগ করো।'),
+    hint(r, 'The remainder itself is not the divisor.', 'ভাগশেষ নিজে ভাজক নয়।'),
+  ]);
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 3, time: 60,
+    stem: T(`Find the greatest number which divides ${N1}, ${N2} and ${N3} leaving remainder ${r} in each case.`, `কোন বৃহত্তম সংখ্যা ${N1}, ${N2} ও ${N3}-কে ভাগ করলে প্রতিবার ভাগশেষ ${r} থাকে?`),
+    ...o,
+    steps: [T(`Subtract the remainder: ${N1} − ${r} = ${N1 - r}, ${N2} − ${r} = ${N2 - r}, ${N3} − ${r} = ${N3 - r}`, `ভাগশেষ বিয়োগ করো: ${N1} − ${r} = ${N1 - r}, ${N2} − ${r} = ${N2 - r}, ${N3} − ${r} = ${N3 - r}`), T(`HCF of ${N1 - r}, ${N2 - r} and ${N3 - r} is ${g}`, `${N1 - r}, ${N2 - r} ও ${N3 - r}-এর গসাগু ${g}`)],
+    shortcut: T('Subtract the remainder first, then take one HCF.', 'আগে ভাগশেষ বিয়োগ করো, তারপর একবারে গসাগু নাও।'),
+  });
+}
+
+const BELL_SETS = [[10, 15, 20], [12, 18, 30], [15, 20, 30], [12, 15, 20], [20, 30, 40], [10, 12, 15]];
+function nsBells() {
+  const [i1, i2, i3] = pick(BELL_SETS);
+  const L = lcm3(i1, i2, i3);
+  const hours = L / 60;
+  if (!Number.isInteger(hours)) return null;
+  const start = ri(6, 9);
+  const end = start + hours;
+  if (end > 12) return null;
+  const fmt = (h) => T(`${h} a.m.`, `সকাল ${h}টা`);
+  const pool = [1, 2, 3, 4].map((d) => fmt(start + d)).filter((t) => t.en !== fmt(end).en);
+  const o = textOptions(fmt(end), pool);
+  if (o.wrong.length < 3) return null;
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 2, time: 50,
+    stem: T(`Three bells ring at intervals of ${i1}, ${i2} and ${i3} minutes. They ring together at ${start} a.m. When will they ring together again?`, `তিনটি ঘণ্টা যথাক্রমে ${i1}, ${i2} ও ${i3} মিনিট অন্তর বাজে। সকাল ${start}টায় একসঙ্গে বাজার পর আবার কখন একসঙ্গে বাজবে?`),
+    ...o,
+    steps: [T(`LCM of ${i1}, ${i2} and ${i3} is ${L} minutes = ${hours} hour${hours > 1 ? 's' : ''}`, `${i1}, ${i2} ও ${i3}-এর লসাগু ${L} মিনিট = ${hours} ঘণ্টা`), T(`${start} a.m. + ${hours} hour${hours > 1 ? 's' : ''} = ${end} a.m.`, `সকাল ${start}টা + ${hours} ঘণ্টা = সকাল ${end}টা`)],
+    shortcut: T('Next meeting = start time + LCM of the intervals.', 'পরের বার একসঙ্গে = শুরুর সময় + ব্যবধানগুলির লসাগু।'),
+  });
+}
+
+function nsFractionsHcfLcm() {
+  const coprimePair = () => {
+    const x = ri(2, 9);
+    return [x, pick([2, 3, 4, 5, 6, 7, 8, 9].filter((y) => gcd(x, y) === 1))];
+  };
+  const [a, b] = coprimePair();
+  const [c, d] = coprimePair();
+  if (a === c && b === d) return null;
+  const askLcm = rand01();
+  const red = (n, m) => { const g = gcd(n, m); return [n / g, m / g]; };
+  const frac = (n, m) => (m === 1 ? `${n}` : `${n}/${m}`);
+  let num, den;
+  if (askLcm) [num, den] = red(lcm2(a, c), gcd(b, d));
+  else [num, den] = red(gcd(a, c), lcm2(b, d));
+  const correct = T(frac(num, den), frac(num, den));
+  const cands = [
+    red(lcm2(a, c), lcm2(b, d)),
+    red(gcd(a, c), gcd(b, d)),
+    askLcm ? red(gcd(a, c), lcm2(b, d)) : red(lcm2(a, c), gcd(b, d)),
+    [den, num],
+  ].map(([n, m]) => T(frac(n, m), frac(n, m)));
+  const o = textOptions(correct, cands);
+  if (o.wrong.length < 3) return null;
+  return build({
+    topic: 'number_system', subtopic: 'hcf_lcm', tags: ['number_system', 'hcf_lcm'], difficulty: 2, time: 60,
+    stem: askLcm
+      ? T(`Find the LCM of ${a}/${b} and ${c}/${d}.`, `${a}/${b} ও ${c}/${d}-এর লসাগু নির্ণয় করো।`)
+      : T(`Find the HCF of ${a}/${b} and ${c}/${d}.`, `${a}/${b} ও ${c}/${d}-এর গসাগু নির্ণয় করো।`),
+    ...o,
+    steps: askLcm
+      ? [T(`LCM of numerators ${a} and ${c} is ${lcm2(a, c)}; HCF of denominators ${b} and ${d} is ${gcd(b, d)}`, `লব ${a} ও ${c}-এর লসাগু ${lcm2(a, c)}; হর ${b} ও ${d}-এর গসাগু ${gcd(b, d)}`), T(`So the LCM is ${frac(lcm2(a, c), gcd(b, d))} = ${frac(num, den)}`, `তাই লসাগু ${frac(lcm2(a, c), gcd(b, d))} = ${frac(num, den)}`)]
+      : [T(`HCF of numerators ${a} and ${c} is ${gcd(a, c)}; LCM of denominators ${b} and ${d} is ${lcm2(b, d)}`, `লব ${a} ও ${c}-এর গসাগু ${gcd(a, c)}; হর ${b} ও ${d}-এর লসাগু ${lcm2(b, d)}`), T(`So the HCF is ${frac(gcd(a, c), lcm2(b, d))} = ${frac(num, den)}`, `তাই গসাগু ${frac(gcd(a, c), lcm2(b, d))} = ${frac(num, den)}`)],
+    shortcut: T('LCM: LCM on top, HCF below. HCF: HCF on top, LCM below.', 'লসাগু: উপরে লসাগু, নিচে গসাগু। গসাগু: উপরে গসাগু, নিচে লসাগু।'),
+  });
+}
+
 function nsDividend() {
   const d = ri(7, 49), q = ri(11, 99), r = ri(1, d - 1);
   const N = d * q + r;
@@ -735,6 +907,6 @@ module.exports = {
     { topic: 'time_work', weight: 1, gens: [twTogether, twFindOther, twLeaves, twEfficiency, twWages] },
     { topic: 'speed_distance', weight: 1, gens: [sdDistance, sdAverageSpeed, sdTrainLength, sdPlatform, sdOppositeTrains, sdMeeting] },
     { topic: 'averages', weight: 1, gens: [avgNatural, avgNewNumber, avgTeacherAge, avgGroups, avgConsecutive] },
-    { topic: 'number_system', weight: 1, gens: [nsOddSum, nsNaturalSum, nsHcfLcm, nsDividend, nsLeastAdd, nsMultiples, nsMissingDigit] },
+    { topic: 'number_system', weight: 1, gens: [nsOddSum, nsNaturalSum, nsHcfLcm, nsRatioHcf, nsRatioLcm, nsLcmExact, nsLcmRemainder, nsHcfExact, nsHcfRemainders, nsBells, nsFractionsHcfLcm, nsDividend, nsLeastAdd, nsMultiples, nsMissingDigit] },
   ],
 };

@@ -581,5 +581,200 @@ module.exports = {
         ],
       },
     },
+    // 16 ─────────────────────────────────────────────
+    {
+      key: 'ratio_hcf_find_numbers',
+      emoji: '📐',
+      name: t('Ratio and HCF give the two numbers', 'অনুপাত ও গসাগু থেকে সংখ্যা দুটি'),
+      difficulty: 'beginner',
+      practiceLevels: ['beginner'],
+      typicalWording: t('“Two numbers are in the ratio 3 : 4 and their HCF is 5. Find the numbers (or their LCM).”', '“দুটি সংখ্যার অনুপাত 3 : 4 এবং তাদের গসাগু 5। সংখ্যা দুটি (বা তাদের লসাগু) বের করো।”'),
+      formula: t(r`If the ratio is $a : b$ and the HCF is $h$, the numbers are $ah$ and $bh$, and their LCM is $abh$.`, r`অনুপাত $a : b$ এবং গসাগু $h$ হলে সংখ্যা দুটি $ah$ ও $bh$, আর তাদের লসাগু $abh$।`),
+      shortcut: t('Multiply each ratio term by the HCF — no factorisation of the numbers themselves is needed.', 'অনুপাতের প্রতিটি পদকে গসাগু দিয়ে গুণ করো — সংখ্যাগুলোকে নিজে উৎপাদকে ভাঙার দরকার নেই।'),
+      trap: t('The ratio terms must be co-prime; if they share a factor, divide it out first or the “HCF” you use is not the real one.', 'অনুপাতের পদ দুটি পরস্পর মৌলিক হতে হবে; তাদের মধ্যে সাধারণ উৎপাদক থাকলে আগে সেটা ভাগ করে বাদ দাও, নইলে যে “গসাগু” ব্যবহার করছ তা আসল গসাগু নয়।'),
+      spot: t(
+        'Two numbers are described only by their ratio and their HCF, and the numbers themselves (or their LCM) are asked.',
+        'দুটি সংখ্যাকে শুধু তাদের অনুপাত ও গসাগু দিয়ে বর্ণনা করা হয়েছে, আর সংখ্যা দুটি (বা তাদের লসাগু) জানতে চাওয়া হয়েছে।',
+      ),
+      method: [
+        t('Multiply the first ratio term by the HCF to get the smaller number.', 'ছোট সংখ্যাটি পেতে অনুপাতের প্রথম পদকে গসাগু দিয়ে গুণ করো।'),
+        t('Multiply the second ratio term by the HCF to get the larger number.', 'বড় সংখ্যাটি পেতে অনুপাতের দ্বিতীয় পদকে গসাগু দিয়ে গুণ করো।'),
+        t(r`For the LCM, multiply the two ratio terms and then the HCF: $\text{LCM} = a \times b \times h$.`, r`লসাগুর জন্য দুটি অনুপাত পদ গুণ করে তারপর গসাগু দিয়ে গুণ করো: $\text{লসাগু} = a \times b \times h$।`),
+      ],
+      example: {
+        question: t('Two numbers are in the ratio $3 : 4$ and their HCF is $6$. Find the numbers.', 'দুটি সংখ্যার অনুপাত $3 : 4$ এবং তাদের গসাগু $6$। সংখ্যা দুটি কত?'),
+        steps: [
+          t(r`Smaller number $= 3 \times 6 = 18$.`, r`ছোট সংখ্যা $= 3 \times 6 = 18$।`),
+          t(r`Larger number $= 4 \times 6 = 24$.`, r`বড় সংখ্যা $= 4 \times 6 = 24$।`),
+          t(r`Check: HCF of $18$ and $24$ is $6$, and their LCM is $3 \times 4 \times 6 = 72$.`, r`যাচাই: $18$ ও $24$-এর গসাগু $6$, আর লসাগু $3 \times 4 \times 6 = 72$।`),
+        ],
+        answer: t('The numbers are $18$ and $24$.', 'সংখ্যা দুটি $18$ ও $24$।'),
+      },
+      tryIt: {
+        question: t('Two numbers are in the ratio $5 : 7$ and their HCF is $4$. What is their LCM?', 'দুটি সংখ্যার অনুপাত $5 : 7$ এবং তাদের গসাগু $4$। তাদের লসাগু কত?'),
+        options: [t('105', '105'), t('140', '140'), t('70', '70'), t('35', '35')],
+        correct: 1,
+        explanation: [
+          t(r`The numbers are $5 \times 4 = 20$ and $7 \times 4 = 28$.`, r`সংখ্যা দুটি $5 \times 4 = 20$ এবং $7 \times 4 = 28$।`),
+          t(r`LCM $= 5 \times 7 \times 4 = 140$. ($35$ is only $5 \times 7$ — the HCF was left out.)`, r`লসাগু $= 5 \times 7 \times 4 = 140$। ($35$ শুধু $5 \times 7$ — গসাগু বাদ পড়ে গেছে।)`),
+        ],
+      },
+    },
+    // 17 ─────────────────────────────────────────────
+    {
+      key: 'ratio_lcm_find_hcf',
+      emoji: '🧩',
+      name: t('Ratio and LCM give the HCF', 'অনুপাত ও লসাগু থেকে গসাগু'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“Two numbers are in the ratio 4 : 5 and their LCM is 160. Find their HCF.”', '“দুটি সংখ্যার অনুপাত 4 : 5 এবং তাদের লসাগু 160। গসাগু কত?”'),
+      formula: t(r`$\text{HCF} = \dfrac{\text{LCM}}{a \times b}$ when the ratio is $a : b$.`, r`অনুপাত $a : b$ হলে $\text{গসাগু} = \dfrac{\text{লসাগু}}{a \times b}$।`),
+      shortcut: t('Divide the LCM by the product of the ratio terms — one division gives the HCF directly.', 'লসাগুকে অনুপাতের পদগুলির গুণফল দিয়ে ভাগ করো — একটাই ভাগে গসাগু পাওয়া যায়।'),
+      trap: t('Do not divide by the sum of the ratio terms, and do not forget that the ratio terms must be co-prime for this to work.', 'অনুপাতের পদগুলির যোগফল দিয়ে ভাগ করো না, আর মনে রেখো এই নিয়ম খাটে শুধু যখন অনুপাতের পদ দুটি পরস্পর মৌলিক।'),
+      spot: t(
+        'The ratio and the LCM are given, and the HCF (or the numbers themselves) is asked — the reverse of the ratio–HCF pattern.',
+        'অনুপাত ও লসাগু দেওয়া থাকে, আর গসাগু (বা সংখ্যা দুটি) জানতে চাওয়া হয় — অনুপাত–গসাগু ধরনের উল্টো প্রশ্ন।',
+      ),
+      method: [
+        t('Multiply the two ratio terms.', 'অনুপাতের দুটি পদ গুণ করো।'),
+        t('Divide the LCM by that product to get the HCF.', 'লসাগুকে ওই গুণফল দিয়ে ভাগ করে গসাগু বের করো।'),
+        t('Multiply each ratio term by the HCF if the numbers themselves are asked.', 'সংখ্যা দুটি চাইলে অনুপাতের প্রতিটি পদকে গসাগু দিয়ে গুণ করো।'),
+      ],
+      example: {
+        question: t('Two numbers are in the ratio $4 : 5$ and their LCM is $160$. Find their HCF.', 'দুটি সংখ্যার অনুপাত $4 : 5$ এবং তাদের লসাগু $160$। গসাগু কত?'),
+        steps: [
+          t(r`Product of the ratio terms $= 4 \times 5 = 20$.`, r`অনুপাতের পদগুলির গুণফল $= 4 \times 5 = 20$।`),
+          t(r`HCF $= 160 \div 20 = 8$.`, r`গসাগু $= 160 \div 20 = 8$।`),
+          t(r`Check: the numbers are $4 \times 8 = 32$ and $5 \times 8 = 40$, and LCM of $32$ and $40$ is $160$.`, r`যাচাই: সংখ্যা দুটি $4 \times 8 = 32$ এবং $5 \times 8 = 40$, আর $32$ ও $40$-এর লসাগু $160$।`),
+        ],
+        answer: t('The HCF is $8$ (the numbers are $32$ and $40$).', 'গসাগু $8$ (সংখ্যা দুটি $32$ ও $40$)।'),
+      },
+      tryIt: {
+        question: t('Two numbers are in the ratio $3 : 5$ and their LCM is $150$. What is their HCF?', 'দুটি সংখ্যার অনুপাত $3 : 5$ এবং তাদের লসাগু $150$। গসাগু কত?'),
+        options: [t('6', '6'), t('10', '10'), t('15', '15'), t('30', '30')],
+        correct: 1,
+        explanation: [
+          t(r`Product of the ratio terms $= 3 \times 5 = 15$.`, r`অনুপাতের পদগুলির গুণফল $= 3 \times 5 = 15$।`),
+          t(r`HCF $= 150 \div 15 = 10$. ($15$ is the product of the ratio terms, not the HCF.)`, r`গসাগু $= 150 \div 15 = 10$। ($15$ অনুপাতের পদগুলির গুণফল, গসাগু নয়।)`),
+        ],
+      },
+    },
+    // 18 ─────────────────────────────────────────────
+    {
+      key: 'lcm_exactly_divisible',
+      emoji: '📏',
+      name: t('Least number exactly divisible by several numbers', 'কয়েকটি সংখ্যা দিয়ে নিঃশেষে বিভাজ্য ক্ষুদ্রতম সংখ্যা'),
+      difficulty: 'beginner',
+      practiceLevels: ['beginner'],
+      typicalWording: t('“Find the least number which is exactly divisible by 12, 15 and 20.”', '“কোন ক্ষুদ্রতম সংখ্যা 12, 15 ও 20 দ্বারা নিঃশেষে বিভাজ্য?”'),
+      formula: t(r`Least such number $= \text{LCM of the divisors}$.`, r`এমন ক্ষুদ্রতম সংখ্যা $= \text{ভাজকগুলির লসাগু}$।`),
+      shortcut: t('The word “least” with “exactly divisible” always means LCM — take it directly, no trial multiples needed.', '“ক্ষুদ্রতম” আর “নিঃশেষে বিভাজ্য” একসঙ্গে থাকলেই লসাগু — সরাসরি নাও, গুণিতক ধরে ধরে পরীক্ষা করতে হয় না।'),
+      trap: t('Do not multiply the divisors together — the LCM is usually much smaller than the product (here 60, not 3600).', 'ভাজকগুলোকে গুণ করে ফেলো না — লসাগু সাধারণত গুণফলের চেয়ে অনেক ছোট হয় (এখানে 60, 3600 নয়)।'),
+      spot: t(
+        'The question asks for the **least number** that is **exactly divisible** by two or three given numbers, with no remainder mentioned.',
+        'প্রশ্নে দুটি বা তিনটি দেওয়া সংখ্যা দিয়ে **নিঃশেষে বিভাজ্য** এমন **ক্ষুদ্রতম সংখ্যা** জানতে চাওয়া হয়, কোনো ভাগশেষের উল্লেখ ছাড়া।',
+      ),
+      method: [
+        t('Find the LCM of the given divisors.', 'দেওয়া ভাজকগুলির লসাগু বের করো।'),
+        t('That LCM is the least number divisible by all of them.', 'ওই লসাগুই সবগুলি দিয়ে বিভাজ্য ক্ষুদ্রতম সংখ্যা।'),
+        t('Check by dividing it by each divisor — every division must come out exact.', 'প্রতিটি ভাজক দিয়ে ভাগ করে যাচাই করো — প্রতিটি ভাগেই নিঃশেষে মিলতে হবে।'),
+      ],
+      example: {
+        question: t('Find the least number which is exactly divisible by $12$, $15$ and $20$.', 'কোন ক্ষুদ্রতম সংখ্যা $12$, $15$ ও $20$ দ্বারা নিঃশেষে বিভাজ্য?'),
+        steps: [
+          t(r`$12 = 2^2 \times 3$, $15 = 3 \times 5$, $20 = 2^2 \times 5$.`, r`উৎপাদকে ভাঙলে: $12 = 2^2 \times 3$, $15 = 3 \times 5$, $20 = 2^2 \times 5$।`),
+          t(r`LCM $= 2^2 \times 3 \times 5 = 60$.`, r`লসাগু $= 2^2 \times 3 \times 5 = 60$।`),
+          t(r`Check: $60 \div 12 = 5$, $60 \div 15 = 4$, $60 \div 20 = 3$ — all exact.`, r`যাচাই: $60 \div 12 = 5$, $60 \div 15 = 4$, $60 \div 20 = 3$ — সব নিঃশেষে মেলে।`),
+        ],
+        answer: t('The least number is $60$.', 'ক্ষুদ্রতম সংখ্যাটি $60$।'),
+      },
+      tryIt: {
+        question: t('Find the least number which is exactly divisible by $8$, $12$ and $18$.', 'কোন ক্ষুদ্রতম সংখ্যা $8$, $12$ ও $18$ দ্বারা নিঃশেষে বিভাজ্য?'),
+        options: [t('36', '36'), t('144', '144'), t('24', '24'), t('72', '72')],
+        correct: 3,
+        explanation: [
+          t(r`$8 = 2^3$, $12 = 2^2 \times 3$, $18 = 2 \times 3^2$, so LCM $= 2^3 \times 3^2 = 72$.`, r`$8 = 2^3$, $12 = 2^2 \times 3$, $18 = 2 \times 3^2$, তাই লসাগু $= 2^3 \times 3^2 = 72$।`),
+          t(r`Check: $72 \div 8 = 9$, $72 \div 12 = 6$, $72 \div 18 = 4$. ($36$ is the LCM of $12$ and $18$ only — it misses $8$.)`, r`যাচাই: $72 \div 8 = 9$, $72 \div 12 = 6$, $72 \div 18 = 4$। ($36$ শুধু $12$ ও $18$-এর লসাগু — $8$ বাদ পড়ে যায়।)`),
+        ],
+      },
+    },
+    // 19 ─────────────────────────────────────────────
+    {
+      key: 'hcf_exact_divisor',
+      emoji: '🏆',
+      name: t('Greatest number dividing several numbers exactly', 'কয়েকটি সংখ্যাকে নিঃশেষে ভাগ করে এমন বৃহত্তম সংখ্যা'),
+      difficulty: 'beginner',
+      practiceLevels: ['beginner'],
+      typicalWording: t('“Find the greatest number which divides 24, 36 and 60 exactly (leaves no remainder).”', '“কোন বৃহত্তম সংখ্যা 24, 36 ও 60-কে নিঃশেষে ভাগ করে (কোনো ভাগশেষ থাকে না)?”'),
+      formula: t(r`Greatest such number $= \text{HCF of the given numbers}$.`, r`এমন বৃহত্তম সংখ্যা $= \text{দেওয়া সংখ্যাগুলির গসাগু}$।`),
+      shortcut: t('The word “greatest” with “divides exactly” always means HCF — take it directly, no trial divisors needed.', '“বৃহত্তম” আর “নিঃশেষে ভাগ করে” একসঙ্গে থাকলেই গসাগু — সরাসরি নাও, ভাজক ধরে ধরে পরীক্ষা করতে হয় না।'),
+      trap: t('Do not take the smallest of the numbers, and do not take the LCM — the answer must divide every number, so it cannot be larger than the smallest one.', 'সবচেয়ে ছোট সংখ্যাটিকে উত্তর ভেবো না, আর লসাগুও নয় — উত্তর প্রতিটি সংখ্যাকে ভাগ করে, তাই তা সবচেয়ে ছোট সংখ্যার চেয়ে বড়ো হতে পারে না।'),
+      spot: t(
+        'The question asks for the **greatest number** that divides two or three given numbers **exactly**, with no remainder.',
+        'প্রশ্নে দুটি বা তিনটি দেওয়া সংখ্যাকে **নিঃশেষে** ভাগ করে এমন **বৃহত্তম সংখ্যা** জানতে চাওয়া হয়, কোনো ভাগশেষ ছাড়া।',
+      ),
+      method: [
+        t('Find the HCF of the given numbers, two at a time.', 'দেওয়া সংখ্যাগুলির গসাগু বের করো, দুটি করে নিয়ে।'),
+        t('That HCF is the greatest number dividing all of them exactly.', 'ওই গসাগুই সবগুলিকে নিঃশেষে ভাগ করে এমন বৃহত্তম সংখ্যা।'),
+        t('Check by dividing each number by it — every division must come out exact.', 'প্রতিটি সংখ্যাকে এ দিয়ে ভাগ করে যাচাই করো — প্রতিটি ভাগেই নিঃশেষে মিলতে হবে।'),
+      ],
+      example: {
+        question: t('Find the greatest number which divides $24$, $36$ and $60$ exactly.', 'কোন বৃহত্তম সংখ্যা $24$, $36$ ও $60$-কে নিঃশেষে ভাগ করে?'),
+        steps: [
+          t(r`HCF of $24$ and $36$ is $12$.`, r`$24$ ও $36$-এর গসাগু $12$।`),
+          t(r`HCF of $12$ and $60$ is $12$.`, r`$12$ ও $60$-এর গসাগু $12$।`),
+          t(r`Check: $24 \div 12 = 2$, $36 \div 12 = 3$, $60 \div 12 = 5$ — all exact.`, r`যাচাই: $24 \div 12 = 2$, $36 \div 12 = 3$, $60 \div 12 = 5$ — সব নিঃশেষে মেলে।`),
+        ],
+        answer: t('The greatest number is $12$.', 'বৃহত্তম সংখ্যাটি $12$।'),
+      },
+      tryIt: {
+        question: t('Find the greatest number which divides $48$, $72$ and $120$ exactly.', 'কোন বৃহত্তম সংখ্যা $48$, $72$ ও $120$-কে নিঃশেষে ভাগ করে?'),
+        options: [t('12', '12'), t('48', '48'), t('8', '8'), t('24', '24')],
+        correct: 3,
+        explanation: [
+          t(r`HCF of $48$ and $72$ is $24$, and HCF of $24$ and $120$ is $24$.`, r`$48$ ও $72$-এর গসাগু $24$, আর $24$ ও $120$-এর গসাগু $24$।`),
+          t(r`Check: $48 \div 24 = 2$, $72 \div 24 = 3$, $120 \div 24 = 5$. ($48$ divides $48$ but not $72$.)`, r`যাচাই: $48 \div 24 = 2$, $72 \div 24 = 3$, $120 \div 24 = 5$। ($48$ দিয়ে $48$ ভাগ যায়, কিন্তু $72$ যায় না।)`),
+        ],
+      },
+    },
+    // 20 ─────────────────────────────────────────────
+    {
+      key: 'bells_together_again',
+      emoji: '🔔',
+      name: t('Bells (or lights) ringing together again', 'ঘণ্টা (বা আলো) আবার একসঙ্গে বাজবে কখন'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“Three bells ring at intervals of 10, 15 and 20 minutes. They ring together at 9 a.m. When will they ring together again?”', '“তিনটি ঘণ্টা যথাক্রমে 10, 15 ও 20 মিনিট অন্তর বাজে। সকাল 9টায় একসঙ্গে বাজার পর আবার কখন একসঙ্গে বাজবে?”'),
+      formula: t(r`Time until they meet again $= \text{LCM of the intervals}$; add it to the start time.`, r`আবার একসঙ্গে বাজতে সময় লাগবে $= \text{ব্যবধানগুলির লসাগু}$; শুরুর সময়ের সঙ্গে তা যোগ করো।`),
+      shortcut: t('Only the LCM of the intervals matters — the start time just shifts the answer forward by the same amount.', 'শুধু ব্যবধানগুলির লসাগুই দরকার — শুরুর সময় শুধু উত্তরটিকে ততটাই এগিয়ে দেয়।'),
+      trap: t('Do not add the intervals (10 + 15 + 20 = 45 is not the answer), and do not forget to add the LCM to the start time — the LCM alone is a duration, not a clock time.', 'ব্যবধানগুলো যোগ করো না (10 + 15 + 20 = 45 উত্তর নয়), আর লসাগুকে শুরুর সময়ের সঙ্গে যোগ করতে ভুলো না — লসাগু শুধু সময়ের ব্যবধান, ঘড়ির সময় নয়।'),
+      spot: t(
+        'Several bells, lights or machines repeat at fixed intervals, they start **together**, and the question asks when they will next be **together again**.',
+        'কয়েকটি ঘণ্টা, আলো বা যন্ত্র নির্দিষ্ট ব্যবধানে বাজে/জ্বলে, তারা **একসঙ্গে** শুরু করে, আর জানতে চাওয়া হয় আবার **একসঙ্গে** কখন হবে।',
+      ),
+      method: [
+        t('Find the LCM of the given intervals — that is the gap between two meetings.', 'দেওয়া ব্যবধানগুলির লসাগু বের করো — সেটাই দুবার একসঙ্গে হওয়ার মাঝের ব্যবধান।'),
+        t('Convert the LCM into hours and minutes if it is 60 or more.', 'লসাগু 60 বা তার বেশি হলে তাকে ঘণ্টা ও মিনিটে বদলাও।'),
+        t('Add that gap to the start time to get the clock time.', 'শুরুর সময়ের সঙ্গে ওই ব্যবধান যোগ করে ঘড়ির সময় বের করো।'),
+      ],
+      example: {
+        question: t('Three bells ring at intervals of $10$, $15$ and $20$ minutes. They ring together at $9$ a.m. When will they ring together again?', 'তিনটি ঘণ্টা যথাক্রমে $10$, $15$ ও $20$ মিনিট অন্তর বাজে। সকাল $9$টায় একসঙ্গে বাজার পর আবার কখন একসঙ্গে বাজবে?'),
+        steps: [
+          t(r`LCM of $10, 15, 20$ is $60$ minutes.`, r`$10, 15, 20$-এর লসাগু $60$ মিনিট।`),
+          t('60 minutes = 1 hour.', '60 মিনিট = 1 ঘণ্টা।'),
+          t('9 a.m. + 1 hour = 10 a.m.', 'সকাল 9টা + 1 ঘণ্টা = সকাল 10টা।'),
+        ],
+        answer: t('They will ring together again at $10$ a.m.', 'সকাল $10$টায় আবার একসঙ্গে বাজবে।'),
+      },
+      tryIt: {
+        question: t('Three bells ring at intervals of $12$, $18$ and $30$ minutes. They ring together at $7$ a.m. When will they ring together again?', 'তিনটি ঘণ্টা যথাক্রমে $12$, $18$ ও $30$ মিনিট অন্তর বাজে। সকাল $7$টায় একসঙ্গে বাজার পর আবার কখন একসঙ্গে বাজবে?'),
+        options: [t('9 a.m.', 'সকাল 9টা'), t('8:30 a.m.', 'সকাল 8:30'), t('10 a.m.', 'সকাল 10টা'), t('11 a.m.', 'সকাল 11টা')],
+        correct: 2,
+        explanation: [
+          t(r`LCM of $12, 18, 30$ is $180$ minutes $= 3$ hours.`, r`$12, 18, 30$-এর লসাগু $180$ মিনিট $= 3$ ঘণ্টা।`),
+          t('7 a.m. + 3 hours = 10 a.m. (9 a.m. would be only 2 hours later.)', 'সকাল 7টা + 3 ঘণ্টা = সকাল 10টা। (9টা মানে মাত্র 2 ঘণ্টা পরে।)'),
+        ],
+      },
+    },
   ],
 };
