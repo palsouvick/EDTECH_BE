@@ -86,9 +86,17 @@ router.get('/filters', async (_req, res) => {
 });
 
 // Chapter priority (Must know / Important / Additional) from these papers, with the rule.
-router.get('/priorities', async (_req, res) => {
+// ?exam=<catalogue code> scopes it to one exam's papers; an unknown code is a
+// 422, and an exam with no papers in the bank returns empty subjects with a
+// note instead of an error. Without it, every paper is pooled (as before).
+const prioritiesQuery = z.object({ exam: z.string().trim().max(40).optional() });
+router.get('/priorities', validate({ query: prioritiesQuery }), async (req, res) => {
   res.set('Cache-Control', 'public, max-age=300');
-  res.json({ success: true, data: await getPriorities() });
+  const { exam } = req.valid.query;
+  if (!exam) return res.json({ success: true, data: await getPriorities() });
+  const { getPrioritiesForExam } = require('../services/targetExam.service');
+  const { examCode, examName, priorities, note } = await getPrioritiesForExam(exam.toUpperCase());
+  res.json({ success: true, data: { ...priorities, exam: examCode, examName, ...(note ? { note } : {}) } });
 });
 
 const listQuery = z.object({

@@ -24,6 +24,7 @@ const { compactLocalized } = require('./presenters');
 const { availability, REAL_PAPER } = require('./bankAvailability');
 const { pyqProgress } = require('./pyqProgress.service');
 const { getPriorities } = require('./priority.service');
+const { targetExamOf } = require('./targetExam.service');
 const { patternName } = require('./insights.service');
 const skips = require('./skips.service');
 const learn = require('./learn.service');
@@ -83,6 +84,16 @@ async function questionFacts(ids, extra = '') {
   return new Map(qs.map((q) => [String(q._id), q]));
 }
 
+/** Chapter priorities for this student: their target exam's papers when one is set, else every paper pooled. */
+async function prioritiesFor(userId) {
+  const target = await targetExamOf(userId).catch(() => null);
+  if (target?.examName) {
+    const scoped = await getPriorities(target.examName).catch(() => null);
+    if (scoped && scoped.questionCount > 0) return scoped;
+  }
+  return getPriorities().catch(() => ({ subjects: {} }));
+}
+
 /** Everything the analysis of one subject needs, loaded in parallel. */
 async function loadSubject(userId, subject, language) {
   const [{ chapters }, avail, { answers, latestTest }, mistakes, { events, reasons }, pyq, study, priorities] = await Promise.all([
@@ -93,7 +104,7 @@ async function loadSubject(userId, subject, language) {
     skips.skipEvents(userId, subject),
     pyqProgress(userId, subject),
     ChapterStudy.find({ user_id: userId, subject }).lean(),
-    getPriorities().catch(() => ({ subjects: {} })),
+    prioritiesFor(userId),
   ]);
   const facts = await questionFacts([...new Set([...answers.map((a) => a.qid), ...events.map((e) => e.qid)])]);
   for (const a of answers) {

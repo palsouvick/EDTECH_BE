@@ -69,6 +69,14 @@ const presentUser = (u) => ({
   mobile: u.mobile ?? null,
   isAdmin: isAdminEmail(u.email),
   createdAt: u.created_at,
+  // The exam the student is preparing for, or null when none is picked yet.
+  targetExam: u.target_exam
+    ? {
+      code: u.target_exam,
+      date: u.target_exam_date ? new Date(u.target_exam_date).toISOString().slice(0, 10) : null,
+      setAt: u.target_exam_set_at ? new Date(u.target_exam_set_at).toISOString() : null,
+    }
+    : null,
 });
 
 // ---- Use cases ------------------------------------------------------------------------
@@ -106,4 +114,4 @@ async function getUser(userId) {
   return user ? presentUser(user) : null;
 }
 
-module.exports = { register, login, getUser, verifyToken, issueToken, hashPassword, verifyPassword, isAdminEmail };
+module.exports = { register, login, getUser, verifyToken, issueToken, hashPassword, verifyPassword, isAdminEmail, presentUser };

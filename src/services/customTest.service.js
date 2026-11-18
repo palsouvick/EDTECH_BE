@@ -31,6 +31,7 @@ const { resolveMarking } = require('./markingScheme');
 const { mockQuestionAlias } = require('./signedToken');
 const { topicName } = require('./catalogNames');
 const { getPriorities } = require('./priority.service');
+const { targetExamOf } = require('./targetExam.service');
 const insights = require('./insights.service');
 const analysis = require('./analysis.service');
 const skips = require('./skips.service');
@@ -56,13 +57,21 @@ async function chaptersOf(subject) {
   return chapters.map((c) => ({ topic: c.topic, title: c.title ?? topicName(subject, c.topic), emoji: c.emoji }));
 }
 
-/** What the generator knows about this student in one subject. */
+/** What the generator knows about this student in one subject. Priorities are the target exam's papers when one is set, else every paper pooled. */
 async function loadSignals(userId, subject) {
+  const target = await targetExamOf(userId).catch(() => null);
+  const prioritiesPromise = (async () => {
+    if (target?.examName) {
+      const scoped = await getPriorities(target.examName).catch(() => null);
+      if (scoped && scoped.questionCount > 0) return scoped;
+    }
+    return getPriorities().catch(() => ({ subjects: {} }));
+  })();
   const [all, open, recent, priorities, skipped] = await Promise.all([
     insights.answersOf(userId),
     ReviewItem.find({ user_id: userId, subject, from_mistake: true, status: 'active' }).select('question_id topic').lean(),
     mock.recentlyServedQuestionIds(userId),
-    getPriorities().catch(() => ({ subjects: {} })),
+    prioritiesPromise,
     skips.skipEvents(userId, subject).catch((err) => {
       console.error('[custom-test] skips not loaded:', err.message);
       return { events: [] };

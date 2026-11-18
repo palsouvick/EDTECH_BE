@@ -12,6 +12,12 @@ const UserSchema = new Schema(
     mobile: { type: String, trim: true, match: /^[6-9]\d{9}$/ },
     password_hash: { type: String, required: true, select: false },
     last_login_at: { type: Date },
+    // The exam the student is preparing for (a catalogue code such as
+    // 'WBPSC_CLERKSHIP', or null). Changing it never deletes progress,
+    // attempts, mistakes or plans — it only re-scopes what is shown.
+    target_exam: { type: String, default: null },
+    target_exam_date: { type: Date, default: null },
+    target_exam_set_at: { type: Date, default: null },
   },
   { collection: 'users', timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } },
 );

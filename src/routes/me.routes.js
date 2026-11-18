@@ -7,6 +7,9 @@ const { requireAuth } = require('../middleware/auth');
 const { getPerformance } = require('../services/performance.service');
 const { getInsights, getLeaderboard, setLeaderboardOptIn } = require('../services/insights.service');
 const { pyqProgress } = require('../services/pyqProgress.service');
+const { getUser } = require('../services/auth.service');
+const targetExam = require('../services/targetExam.service');
+const AppError = require('../utils/AppError');
 const analysis = require('../services/analysis.service');
 const skips = require('../services/skips.service');
 const { ANALYSIS_SUBJECTS } = require('../services/analysis.logic');
@@ -14,6 +17,39 @@ const { language, slug, objectId } = require('../validators/common');
 
 const router = Router();
 router.use(requireAuth);
+
+// The signed-in student's own profile, including their target exam.
+router.get('/', async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  const user = await getUser(req.user.id);
+  if (!user) throw AppError.notFound('USER_NOT_FOUND', 'Account not found');
+  res.json({ success: true, data: { user } });
+});
+
+// ---- Target exam ----
+// examCode null clears the exam and its date. Changing it never deletes
+// progress, attempts, mistakes or plans — it only re-scopes what is shown.
+const targetExamBody = z.object({
+  examCode: z.string().trim().max(40).nullable(),
+  examDate: z.string().trim().max(40).nullable(),
+});
+router.put('/target-exam', validate({ body: targetExamBody }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: { user: await targetExam.setTargetExam(req.user.id, req.valid.body) } });
+});
+
+const targetExamQuery = z.object({ language: language.default('en') });
+router.get('/target-exam/options', validate({ query: targetExamQuery }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await targetExam.listTargetExams(req.valid.query.language) });
+});
+
+router.get('/target-exam/syllabus', validate({ query: targetExamQuery }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  const current = await targetExam.targetExamOf(req.user.id);
+  if (!current) throw AppError.unprocessable('NO_TARGET_EXAM', 'Pick a target exam first');
+  res.json({ success: true, data: await targetExam.getSyllabus(req.user.id, current.code, req.valid.query.language) });
+});
 
 // tz = minutes east of UTC, for "today" and the streak (India: 330).
 const performanceQuery = z.object({ tz: z.coerce.number().int().min(-720).max(840).default(330) });

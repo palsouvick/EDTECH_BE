@@ -16,9 +16,12 @@ const RULE = Object.freeze({
   important: { minShare: 0.04, minPaperShare: 0.5 }, // ≥4% OR in ≥50% of papers
 });
 const TTL_MS = 5 * 60_000;
-let cache = { at: 0, data: null };
+// One cache entry per scope: 'ALL' for the pooled (every paper) result, one per
+// exam_name for a single exam's papers. Scoped results must never leak into
+// the pooled one, or a student would see another exam's priorities.
+let caches = new Map();
 const clearPriorityCache = () => {
-  cache = { at: 0, data: null };
+  caches = new Map();
 };
 
 function levelFor({ share, paperShare }) {
@@ -53,19 +56,30 @@ function buildPriorities(rows) {
   };
 }
 
-async function getPriorities() {
-  if (cache.data && Date.now() - cache.at < TTL_MS) return cache.data;
+/**
+ * Chapter priorities from real papers. With no exam_name, every published PYQ
+ * is pooled (the existing behaviour). With one, only refs carrying that exam
+ * name count — so a WBCS student sees WBCS chapter weights, not a blend of
+ * every paper in the bank. An exam with no PYQs yields empty subjects, not an
+ * error; callers say so honestly.
+ */
+async function getPriorities(examName = null) {
+  const key = examName || 'ALL';
+  const cached = caches.get(key);
+  if (cached && Date.now() - cached.at < TTL_MS) return cached.data;
   const docs = await Question.find({ status: 'PUBLISHED', provenance: { $in: ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'] }, 'pyq.is_pyq': true })
     .select('subject topic provenance pyq.refs')
     .lean();
   const rows = [];
   for (const q of docs) {
     for (const ref of q.pyq.refs) {
+      if (examName && ref.exam_name !== examName) continue;
       if (pyqRefBasis(ref, q.provenance)) rows.push({ subject: q.subject, topic: q.topic, paper: `${ref.exam_name}|${ref.year}|${ref.shift ?? ''}` });
     }
   }
-  cache = { at: Date.now(), data: buildPriorities(rows) };
-  return cache.data;
+  const data = buildPriorities(rows);
+  caches.set(key, { at: Date.now(), data });
+  return data;
 }
 
 module.exports = { getPriorities, buildPriorities, levelFor, clearPriorityCache, RULE };
