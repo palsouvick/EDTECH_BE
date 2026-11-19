@@ -1,0 +1,20 @@
+[
+  {
+    "pyq_code": "GK-IND-001",
+    "section": "jute_hooghly",
+    "taught": true,
+    "note": "GK bank item (db/gk/wb_industry.jsonl, subtopic industrial_roots): first jute mill at Rishra, 1855. Taught from NCERT jess106 verbatim ('The first jute mill was set up near Kolkata in 1855 at Rishra'). The bank item's founder detail (George Acland, Bengali partner, Dundee machinery) is NOT taught: it appears only on non-gov.in sources (GIPE report/Banglapedia) and no allowed GOVT/NCERT source fetched in this run states it — disclosed as a gap in REPORT.md."
+  },
+  {
+    "pyq_code": "GK-IND-002",
+    "section": "steel_damodar",
+    "taught": false,
+    "note": "GK bank item (db/gk/wb_industry.jsonl, subtopic industrial_roots): Durgapur Steel Plant set up with British collaboration in 1959 (1 MTPA) and IISCO Burnpur set up in 1918, merged into SAIL in 2006. Only partially covered: this chapter teaches from the Ministry of Steel Annual Report 2005-06 that SAIL runs the Durgapur plant, IISCO owned Burnpur, and IISCO merged with SAIL on 16-1-2006 — but the 1959/British-collaboration and 1918 founding specifics are NOT taught because no allowed gov.in/NCERT source fetched in this run states them (the bank item itself cites sail.co.in and Wikipedia, outside this book's publisher profile). Marked untaught for those specifics; see REPORT.md gaps."
+  },
+  {
+    "pyq_code": "IDO-2019-Q61",
+    "section": "tea_board",
+    "taught": true,
+    "note": "Real PYQ from db/pyq/ido-2019.json (WBPSC Industrial Development Officer 2019, question_no 61; the corpus file carries no code field, so it is identified here by exam-year-question number): 'Where is the Headquarter of Tea Board located?' — answer Kolkata. Taught verbatim from teaboard.gov.in ('With Head Office located in Kolkata, West Bengal')."
+  }
+]

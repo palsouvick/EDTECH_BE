@@ -1,0 +1,1467 @@
+{
+  "book": "wb_industry",
+  "code": "WBI-06",
+  "number": 6,
+  "part": "policy_support",
+  "title": "সহায়তা প্রকল্প ও পরিষেবা",
+  "subtitle": "ভবিষ্যৎ ক্রেডিট কার্ড, শিল্পসাথী সিঙ্গল উইন্ডো, প্রণোদনার ঝুড়ি ও শিল্পের সমাধানে — উদ্যোক্তার জন্য রাজ্যের সহায়তা-ব্যবস্থা",
+  "subtopics": [
+    "support_schemes"
+  ],
+  "related_facts": [
+    "GK-IND-012",
+    "GK-IND-013"
+  ],
+  "prerequisites": [
+    "WBI-05"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (36 SURE, 4 LIKELY, 2 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 2 of 2 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_WBI-06.json and drafts/WBI-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/WBI-06_REPORT.md.",
+    "checked_claims": 44,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "শিল্প গড়তে শুধু জমি আর কারখানা লাগে না — লাগে ঋণ, ভর্তুকি আর দ্রুত ছাড়পত্র। এই অধ্যায়ে আমরা পড়ব পশ্চিমবঙ্গের উদ্যোক্তা-সহায়তার পুরো ব্যবস্থাটি: তরুণ উদ্যোক্তার জন্য ভবিষ্যৎ ক্রেডিট কার্ডের ভর্তুকিযুক্ত ঋণ, একটি আবেদনে সব লাইসেন্সের শিল্পসাথী সিঙ্গল উইন্ডো, মূলধন থেকে পেটেন্ট পর্যন্ত প্রণোদনার ঝুড়ি, এবং শিল্পের সমাধানে শিবির ও জেলা সহায়তা কেন্দ্রের মাধ্যমে দোরগোড়ায় পৌঁছে যাওয়া পরিষেবা। প্রতিটি তথ্য নেওয়া হয়েছে রাজ্য সরকারের নিজের পোর্টাল ও পৃষ্ঠা থেকে।",
+    "you_will_learn": [
+      "সহায়তার তিন স্তম্ভ — ঋণ-সহায়তা, অনুদান-ভর্তুকি ও পরিষেবা — আলাদা করে চিনতে পারা",
+      "ভবিষ্যৎ ক্রেডিট কার্ড: যোগ্যতা (১৮–৫৫ বছর, স্থায়ী বাসিন্দা), ₹৫ লক্ষ সীমা, ৪% ভর্তুকিযুক্ত সুদ, জামানতবিহীন শর্ত ও কর্মসাথীর সঙ্গে সম্পর্ক",
+      "শিল্পসাথী সিঙ্গল উইন্ডো: CAF ও CAF ID, WBIDC-র ভূমিকা, প্রথম পর্যায়ের পাঁচ জেলা ও সিঙ্গল উইন্ডো সেলের ঠিকানা",
+      "MSME প্রণোদনার তালিকা (মূলধন, সুদ, বিদ্যুৎ, SGST, স্ট্যাম্প ডিউটি, পেটেন্ট) এবং পর্যটন তালিকার সঙ্গে তার পার্থক্য",
+      "শিল্পের সমাধানে উদ্যোগের প্রধান লক্ষ্য (২ লক্ষ / ৫ লক্ষ / ৫ লক্ষ / ছাড়পত্র নিষ্পত্তি)",
+      "আবেদনের ধাপ ও নথি, এবং জেলার MFC (MSME Facilitation Centre) থেকে মিলবে এমন হাতে-কলমে সাহায্য"
+    ]
+  },
+  "sections": [
+    {
+      "id": "support_map",
+      "heading": "সহায়তার মানচিত্র: ঋণ, ভর্তুকি ও পরিষেবা — তিন স্তম্ভ",
+      "quick": "পশ্চিমবঙ্গের শিল্প-সহায়তা তিনটি স্তম্ভে দাঁড়িয়ে: (১) ঋণ-সহায়তা — ভবিষ্যৎ ক্রেডিট কার্ডের মতো প্রকল্পে ব্যাংকের মাধ্যমে ভর্তুকিযুক্ত ঋণ; (২) অনুদান-ভর্তুকি — মূলধন, সুদ, বিদ্যুৎ, SGST ইত্যাদিতে প্রণোদনা; (৩) পরিষেবা — শিল্পসাথী সিঙ্গল উইন্ডো ও জেলা সহায়তা কেন্দ্রের মাধ্যমে ছাড়পত্র ও হাতে-কলমে সাহায্য। রাজ্যের প্রায় ৯৯% শিল্প প্রতিষ্ঠানই MSME, তাই এই কাঠামোর কেন্দ্রে ক্ষুদ্র উদ্যোক্তা।",
+      "standard": "এই অধ্যায় পড়ার আগে পুরো ছবিটা পরিষ্কার করে নেওয়া জরুরি, কারণ পরীক্ষায় সবচেয়ে বেশি গুলিয়ে ফেলা হয় কোনটি ঋণ, কোনটি ভর্তুকি আর কোনটি শুধু পরিষেবা।\n\nপ্রথম স্তম্ভ — **ঋণ-সহায়তা**। রাজ্য নিজে ঋণ দেয় না; শিল্পসাথীর প্রণোদনা-পৃষ্ঠায় স্পষ্ট বলা আছে, ব্যবসার জন্য রাজ্যের বর্তমানে কোনো ঋণ-প্রকল্প নেই এবং তালিকাভুক্ত প্রকল্পগুলির মাধ্যমে অনুদান (grant) দেওয়া হয়। ঋণ আসে ব্যাংক থেকে — ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্পে রাজ্য মার্জিন মানি ভর্তুকি ও সুদের ভর্তুকি দিয়ে সেই ব্যাংক-ঋণকে সস্তা ও জামানতবিহীন করে তোলে, কিন্তু মঞ্জুরি দেয় নির্ধারিত ব্যাংকই।\n\nদ্বিতীয় স্তম্ভ — **অনুদান-ভর্তুকি বা প্রণোদনা**। শিল্পসাথীর তালিকায় MSME-দের জন্য আছে রাজ্য মূলধন বিনিয়োগ ভর্তুকি, মেয়াদি ঋণের সুদ ভর্তুকি, বিদ্যুৎ ভর্তুকি, স্ট্যাম্প ডিউটি ও SGST ভর্তুকি, পেটেন্ট নিবন্ধন ভর্তুকি ইত্যাদি। এগুলি ঋণ নয় — শর্ত পূরণ হলে ফেরত দিতে হয় না এমন আর্থিক সহায়তা।\n\nতৃতীয় স্তম্ভ — **পরিষেবা ও ছাড়পত্র**। শিল্পসাথী পোর্টাল হল ডিজিটাল প্রবেশপথ: একটি সাধারণ আবেদনপত্রে (CAF) বহু দপ্তরের লাইসেন্স ও অনুমোদন। আর যাঁরা অনলাইনে স্বচ্ছন্দ নন, তাঁদের জন্য প্রতি জেলায় আছে শিল্প সহায়তা কেন্দ্র (IFC) ও MSME Facilitation Centre (MFC) — যেখানে ফর্ম পূরণ থেকে সার্টিফিকেট সংগ্রহ পর্যন্ত হাতে-কলমে সাহায্য মেলে। 'শিল্পের সমাধানে' শিবির এই পরিষেবাকেই উদ্যোক্তার কাছে নিয়ে যায়।\n\nকেন এই আলাদা কাঠামো? দপ্তরের নিজের পরিসংখ্যান বলছে, রাজ্যের প্রায় ৯৯% শিল্প প্রতিষ্ঠান MSME ক্ষেত্রের এবং তার ৯৮% অতি ক্ষুদ্র উদ্যোগ। শিক্ষিত যুবকদের প্রাতিষ্ঠানিক অর্থ পাওয়ার অসুবিধার কথা প্রকল্প-পৃষ্ঠায় আলাদা করে বলা আছে — সহায়তা-ব্যবস্থাটি ঠিক সেই ফাঁক পূরণের জন্যই।",
+      "deep": "পরীক্ষার কৌশল: প্রশ্নে 'রাজ্য সরকার ঋণ দেয়' জাতীয় বক্তব্য থাকলে সতর্ক হও — উৎস অনুযায়ী ঋণ মঞ্জুর করে ব্যাংক, রাজ্যের ভূমিকা ভর্তুকি ও সুবিধা-প্রদান। একইভাবে 'শিল্পসাথী ঋণ দেয়' বক্তব্যটি ভুল; শিল্পসাথী ছাড়পত্র ও প্রণোদনার আবেদনের পোর্টাল। এই দুটি পার্থক্যই Clerkship, WBCS, IDO ও WBP-র মতো পরীক্ষায় বিবৃতি-ভিত্তিক প্রশ্নে সবচেয়ে বেশি কাজে লাগে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "ঋণ বনাম অনুদান",
+          "body": "ভবিষ্যৎ = ব্যাংক-ঋণ + রাজ্যের ভর্তুকি (ঋণ ফেরত দিতে হয়)। প্রণোদনা-ভর্তুকি = অনুদান (শর্ত পূরণে ফেরত নয়)। শিল্পসাথী = আবেদনের পোর্টাল, অর্থের উৎস নয়।",
+          "claims": [
+            "c31",
+            "c14"
+          ]
+        }
+      ],
+      "claims": [
+        "c03",
+        "c31",
+        "c21",
+        "c25",
+        "c40"
+      ]
+    },
+    {
+      "id": "bhabishyat",
+      "heading": "ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্প: তরুণ উদ্যোক্তার জন্য ভর্তুকিযুক্ত ঋণ",
+      "quick": "ভবিষ্যৎ ক্রেডিট কার্ড MSME ও বস্ত্র দপ্তরের প্রকল্প — কর্মসাথী প্রকল্পের পরিবর্তে চালু। ১৮–৫৫ বছর বয়সী, পশ্চিমবঙ্গের স্থায়ী বাসিন্দা উদ্যোক্তারা নতুন উৎপাদন, পরিষেবা, ব্যবসা বা কৃষিভিত্তিক উদ্যোগের জন্য জামানতবিহীন, ভর্তুকিযুক্ত ব্যাংক-ঋণ পান সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত; সুদের ভর্তুকিতে কার্যকর হার বার্ষিক প্রায় ৪%।",
+      "standard": "**কেন এই প্রকল্প?** দপ্তর বলছে, রাজ্যের শিল্প প্রায় পুরোটাই MSME-নির্ভর, কিন্তু অনেক শিক্ষিত যুবকের উদ্যোক্তা-দক্ষতা থাকলেও প্রাতিষ্ঠানিক অর্থ (institutional finance) পেতে অসুবিধা হয়। ভবিষ্যৎ ক্রেডিট কার্ডের লক্ষ্য — আত্মকর্মসংস্থান ও আয় সৃষ্টিকে উৎসাহিত করা, গ্রাম ও শহরে সম্পদ ও কর্মসংস্থান তৈরি করা এবং ক্ষুদ্র উদ্যোগগুলিকে শক্তিশালী করা।\n\n**কারা পাবেন?** বয়স ১৮–৫৫ বছর; পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে; উদ্যোক্তা, ব্যবসায়ী, কারিগর, স্বনিযুক্ত ব্যক্তি বা ছোট পরিষেবাদাতা — সবাই আবেদন করতে পারেন। তবে বিদ্যমান ঋণখেলাপিরা (loan defaulters) যোগ্য নন। কার্যক্ষেত্র চারটি: উৎপাদন (manufacturing), পরিষেবা (service), ব্যবসা (trading) ও কৃষিভিত্তিক (agro-based) নতুন উদ্যোগ।\n\n**কী সুবিধা মেলে?** (১) প্রতি সুবিধাভোগী সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত ঋণ; (২) সরকারের মার্জিন মানি ভর্তুকি; (৩) সুদের ভর্তুকি — ব্যাংকের মাধ্যমে ঋণ মেলে বার্ষিক ৪% ভর্তুকিযুক্ত হারে; (৪) ঋণ সম্পূর্ণ জামানতবিহীন — জামিনদার বা নিরাপত্তা (security) লাগে না।\n\n**মনে রাখার ফাঁদ:** ₹৫ লক্ষ হল ঋণের ঊর্ধ্বসীমা। বয়সসীমা ১৮–৫৫ — অনেক বেসরকারি ওয়েবসাইটে ভুল অঙ্ক ছাপা থাকে, দপ্তরের প্রকল্প-পৃষ্ঠাই চূড়ান্ত। আর প্রকল্পটি এসেছে কর্মসাথী প্রকল্পের পরিবর্তে — দুটি প্রকল্প একসঙ্গে চলছে না।",
+      "deep": "WBCS ও IDO-স্তরের প্রশ্নে প্রকল্পের নকশাটি বোঝা জরুরি: এটি 'ক্রেডিট কার্ড' নাম হলেও আসলে একটি ভর্তুকি-সংযুক্ত ঋণ-সুবিধা — ব্যাংক ঋণ মঞ্জুর করে, অনুমোদনের পর কার্ড ইস্যু হয়। রাজ্যের খরচ যায় দুই জায়গায়: মার্জিন মানি ভর্তুকি (উদ্যোক্তার নিজের অংশের বোঝা কমায়) ও সুদের ভর্তুকি (ঋণের খরচ কমিয়ে ৪%-এ নামায়)। জামানত না লাগায় প্রথম প্রজন্মের উদ্যোক্তা — যার কাছে জামিন দেওয়ার সম্পত্তি নেই — তিনিই এই প্রকল্পের আসল লক্ষ্য।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "দুটি অঙ্ক আলাদা রাখো",
+          "body": "ঋণের সীমা ₹৫ লক্ষ; সুদের হার বার্ষিক ৪% (ভর্তুকিযুক্ত)। প্রশ্নে এই দুটি অঙ্ক বদলাবদলি করে দেওয়া সবচেয়ে সাধারণ ফাঁদ।",
+          "claims": [
+            "c05",
+            "c06"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c15"
+      ]
+    },
+    {
+      "id": "silpasathi",
+      "heading": "শিল্পসাথী: একটিমাত্র জানালায় সব ছাড়পত্র",
+      "quick": "শিল্পসাথী (Silpasathi) হল রাজ্য সরকারের অনলাইন সিঙ্গল-উইন্ডো পোর্টাল — একটি সাধারণ আবেদনপত্র (CAF) জমা দিয়ে অনন্য CAF ID-তে বহু দপ্তরের লাইসেন্স, অনুমোদন ও প্রণোদনার আবেদন করা যায়। ব্যবস্থাটি WBIDC-র অধীনে নিবেদিত কাঠামো হিসেবে চলে; প্রতি জেলার শিল্প সহায়তা কেন্দ্রে (IFC) এর কিয়স্ক আছে।",
+      "standard": "**সমস্যা যা থেকে শুরু:** আগে বিনিয়োগকারীকে নানা দপ্তরে আলাদা আলাদা ফর্ম জমা দিতে হত এবং আন্তঃদপ্তর সমন্বয়ের অভাবে অযথা দেরি হত। এই সমস্যার উত্তরে রাজ্য সরকার শিল্পসাথী চালু করে — যেখানে বিনিয়োগকারী WBIDC-র সিঙ্গল উইন্ডো সেলে একটি সাধারণ আবেদনপত্র (CAF) জমা দিতে পারেন।\n\n**ধাপে ধাপে বিস্তার:** প্রথম পর্যায়ে (Phase-I) সুবিধাটি ছিল কলকাতা, হাওড়া, হুগলি, দক্ষিণ ২৪ পরগনা ও উত্তর ২৪ পরগনা — এই পাঁচ জেলার মাঝারি ও বড় শিল্পের জন্য। সিঙ্গল উইন্ডো সেল কাজ শুরু করে কলকাতার ক্যামাক স্ট্রিটে WBIDC-র 'প্রতীতি' ভবনের নিচতলায়, যেখানে নির্দিষ্ট দিনে নানা দপ্তরের আধিকারিকরা বসতেন। পরের ধাপে আবেদন অনলাইনে চলে আসে।\n\n**আজকের রূপ:** NIC-র বিবরণ অনুযায়ী শিল্পসাথী উদ্যোক্তা, MSME ও কারিগরদের জন্য একটি পূর্ণাঙ্গ সমাধান — আবেদনকারী পান একটি অনন্য CAF ID, যার মাধ্যমে নথি আপলোড, অনলাইন পেমেন্ট ও তথ্য যাচাই করে চূড়ান্ত সার্টিফিকেট বা লাইসেন্স পাওয়া যায়। পোর্টালটি সরকারের আইন, বিধি, নীতি ও প্রকল্প অনুযায়ী বিধিবদ্ধ আনুষ্ঠানিকতার ডিজিটাল প্রবেশপথ — বিনিয়োগকারীকে কোনো দপ্তরে সশরীরে যেতে হয় না, পরিষেবা মেলে মসৃণ ও সময়বদ্ধভাবে। NIC-র হিসাব অনুযায়ী (প্রকাশের আগের ১২ মাসে) ২.৫ লক্ষের বেশি উদ্যোগ সরলীকৃত ছাড়পত্রে উপকৃত হয় এবং ৮০০-র বেশি বোঝাস্বরূপ আনুষ্ঠানিকতা (compliance) যুক্তিসংগত করা হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "CAF ID",
+          "body": "এক আবেদন, এক ID — শিল্পসাথীর প্রাণ হল Common Application Form ও তার অনন্য CAF ID। প্রশ্নে 'CAF-এর পূর্ণরূপ' প্রায়ই আসে।",
+          "claims": [
+            "c21"
+          ]
+        }
+      ],
+      "claims": [
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c32",
+        "c33",
+        "c35",
+        "c36",
+        "c37",
+        "c38"
+      ]
+    },
+    {
+      "id": "incentives",
+      "heading": "প্রণোদনার ঝুড়ি: মূলধন, সুদ, বিদ্যুৎ, SGST ও আরও",
+      "quick": "শিল্পসাথীর প্রণোদনা-পৃষ্ঠা অনুযায়ী MSME-রা পাওয়ার অধিকারী: রাজ্য মূলধন বিনিয়োগ ভর্তুকি, মেয়াদি ঋণের সুদ ভর্তুকি, বিদ্যুৎ ভর্তুকি, শক্তি-দক্ষতা ভর্তুকি, স্ট্যাম্প ডিউটি ও রেজিস্ট্রেশন ফি ভর্তুকি, SGST ভর্তুকি, জল সংরক্ষণ/পরিবেশ মান্যতা ভর্তুকি, মান্যতা ভর্তুকি, শ্রমিক কল্যাণ সহায়তা ও পেটেন্ট নিবন্ধন ভর্তুকি। পর্যটন ইউনিটের জন্য আলাদা তালিকা আছে।",
+      "standard": "প্রণোদনা মানে শর্তসাপেক্ষ আর্থিক সহায়তা যা উদ্যোগের খরচ কমায়। এই অধ্যায়ে আমরা শুধু সেই তালিকাটিই শিখব যা শিল্পসাথীর সরকারি প্রণোদনা-পৃষ্ঠায় ছাপা আছে — কোনো হার বা শতাংশ এখানে দেওয়া হয়নি, কারণ পৃষ্ঠাটি শুধু ভর্তুকির **ধরনগুলি** তালিকাভুক্ত করে।\n\n**MSME তালিকা** (পৃষ্ঠা অনুযায়ী): রাজ্য মূলধন বিনিয়োগ ভর্তুকি; মেয়াদি ঋণের ওপর সুদ ভর্তুকি; বিদ্যুৎ ভর্তুকি; শক্তি-দক্ষতার জন্য ভর্তুকি; স্ট্যাম্প ডিউটি ও রেজিস্ট্রেশন ফি-র ওপর ভর্তুকি; SGST-র ওপর ভর্তুকি; জল সংরক্ষণ/পরিবেশ মান্যতার জন্য ভর্তুকি; মান-মানের মান্যতার (Standard Quality Compliance) জন্য ভর্তুকি; শ্রমশক্তি কল্যাণ সহায়তার জন্য ভর্তুকি; এবং পেটেন্ট নিবন্ধনের জন্য ভর্তুকি।\n\n**পর্যটন ইউনিটের তালিকা** আলাদা: সেখানে মূলধন ও সুদ ভর্তুকির পাশাপাশি আছে বিদ্যুৎ শুল্ক (Electricity Duty) মওকুফ, কর্মসংস্থান সৃষ্টির অতিরিক্ত প্রণোদনা, স্ট্যাম্প ডিউটি ফেরত ইত্যাদি। পরীক্ষায় MSME তালিকা আর পর্যটন তালিকা বদলাবদলি করে দেওয়া হয় — কোন ভর্তুকি কোন তালিকায়, তা আলাদা করে মনে রাখো।\n\nসবচেয়ে গুরুত্বপূর্ণ মন্তব্যটি পৃষ্ঠার শেষে: রাজ্যের বর্তমানে ব্যবসার জন্য কোনো ঋণ-প্রকল্প নেই; এই তালিকাভুক্ত প্রকল্পগুলির মাধ্যমে শুধু অনুদান দেওয়া হয়। অর্থাৎ প্রণোদনা-ব্যবস্থা আর ঋণ-ব্যবস্থা (ভবিষ্যৎ) দুটি আলাদা পথ।",
+      "deep": "কেন এত রকমের ভর্তুকি? প্রতিটি ভর্তুকি উদ্যোগের জীবনচক্রের একটি খরচ-বিন্দুকে লক্ষ্য করে: শুরুতে মূলধন ও স্ট্যাম্প ডিউটি, ঋণ নিলে সুদ, চালু হলে বিদ্যুৎ ও SGST, বাড়তে চাইলে মান-মান্যতা, জল-পরিবেশ মান্যতা ও পেটেন্ট। WBCS-স্তরে এই যুক্তিটা জানলে তালিকা মুখস্থ না করেও বিবৃতি-প্রশ্নে ভুল বিকল্প চেনা যায়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "হার নয়, ধরন",
+          "body": "এই অধ্যায়ের উৎস-পৃষ্ঠা ভর্তুকির শতকরা হার দেয় না — তাই এই অধ্যায়ে কোনো শতাংশ শেখানো হয়নি। পরীক্ষায় নির্দিষ্ট হার জানতে চাইলে তা এই অধ্যায়ের বাইরের তথ্য; এখানে ধরন ও তালিকা-পার্থক্যই পরীক্ষণীয়।",
+          "claims": [
+            "c25",
+            "c31"
+          ]
+        }
+      ],
+      "claims": [
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31"
+      ]
+    },
+    {
+      "id": "outreach",
+      "heading": "উদ্যোক্তার দোরগোড়ায়: শিল্পের সমাধানে শিবির ও জেলা কেন্দ্র",
+      "quick": "'শিল্পের সমাধানে' হল সরকারের প্রচার-উদ্যোগ যা পরিষেবাকে উদ্যোক্তার কাছে নিয়ে যায়: ভবিষ্যতের কমপক্ষে ২ লক্ষ আবেদন ব্যাংকে পাঠানো, কমপক্ষে ৫ লক্ষ কারিগর-তাঁতি তালিকাভুক্ত করা, কমপক্ষে ৫ লক্ষ MSME-কে উদ্যম নিবন্ধনে উৎসাহিত করা এবং আটকে থাকা ছাড়পত্রগুলির সর্বোচ্চ নিষ্পত্তি — এই চারটি প্রধান লক্ষ্য। পাশাপাশি প্রতি জেলায় IFC ও MFC হাতে-কলমে সহায়তা দেয়।",
+      "standard": "অনলাইন পোর্টাল থাকলেই সব উদ্যোক্তার কাছে পৌঁছোনো যায় না — অনেকের দরকার সামনাসামনি সাহায্য। সেই কারণেই দুটি মাঠ-কাঠামো আছে।\n\n**শিল্পের সমাধানে:** সরকারি পোর্টালে প্রকাশিত লক্ষ্য-তালিকা অনুযায়ী এই উদ্যোগের কাজ: (১) ভবিষ্যৎ ক্রেডিট কার্ডের কমপক্ষে ২ লক্ষ আবেদন ব্যাংকে পাঠানো (sponsor করা); (২) কমপক্ষে ৫ লক্ষ কারিগর ও তাঁতিকে রাজ্য সরকারের কাছে তালিকাভুক্ত করা; (৩) কমপক্ষে ৫ লক্ষ বিদ্যমান MSME-কে উদ্যম (Udyam) নিবন্ধন পেতে উৎসাহিত করা; (৪) মিউটেশন, রূপান্তর, বিদ্যুৎ সংযোগ, WBPCB ছাড়পত্র, অগ্নি ছাড়পত্র, SWID ছাড়পত্রসহ আটকে থাকা ছাড়পত্রগুলির সর্বোচ্চ নিষ্পত্তি নিশ্চিত করা; (৫) TET&SD, BCW, MAME ও P&RD দপ্তরের মাধ্যমে দক্ষতা, ঋণ ও প্রকল্পগত হাতে-কলমে সহায়তা দেওয়া। লক্ষ্য করো — এটি একটি বহু-দপ্তরীয় উদ্যোগ, শুধু MSME দপ্তরের নয়।\n\n**জেলা-স্তরের স্থায়ী কাঠামো:** শিল্পসাথী কিয়স্ক আছে প্রতি জেলার ২৩টি শিল্প সহায়তা কেন্দ্রে (IFC) — সেখানে বিনিয়োগকারীরা হাতে-কলমে সহায়তা পান। একইভাবে MSME Facilitation Centre (MFC) হল বিধিবদ্ধ আনুষ্ঠানিকতার জন্য নিবেদিত পরিষেবাদাতা। শিবির হল পর্যায়ক্রমিক অভিযান, আর IFC/MFC হল স্থায়ী কাঠামো — এই পার্থক্যটি পরীক্ষায় কাজে লাগে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "শিবির বনাম পোর্টাল",
+          "body": "শিল্পসাথী = স্থায়ী অনলাইন পোর্টাল। শিল্পের সমাধানে = পর্যায়ক্রমিক প্রচার-শিবির। দুটিকে উত্তরে বদলাবদলি কোরো না।",
+          "claims": [
+            "c21",
+            "c16"
+          ]
+        }
+      ],
+      "claims": [
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c34"
+      ]
+    },
+    {
+      "id": "apply_steps",
+      "heading": "আবেদন থেকে সুবিধা: ধাপ, নথি ও সাহায্য কোথায় মিলবে",
+      "quick": "ভবিষ্যতের ধাপ: অনলাইনে আবেদন (আধার, বাসস্থান প্রমাণ, আয়ের শংসাপত্র, ব্যবসায়িক প্রস্তাব) → নির্ধারিত ব্যাংকের মঞ্জুরি → অনুমোদনের পর ক্রেডিট কার্ড ইস্যু। ফর্ম বা আনুষ্ঠানিকতায় আটকালে জেলার MFC দেয় তথ্য, ফর্ম-পূরণে সাহায্য, যাচাই, অফিসে জমা এবং এমনকি সার্টিফিকেট সংগ্রহ পর্যন্ত — MFC যুক্ত আছে Single Application Gateway (SAG)-এর সঙ্গে।",
+      "standard": "**ভবিষ্যতের আবেদন-ধাপ:** প্রকল্প-পৃষ্ঠা অনুযায়ী আবেদন হয় অনলাইনে, সরকারি পোর্টালের মাধ্যমে। প্রয়োজনীয় নথি: আধার, বাসস্থান প্রমাণ (domicile proof), আয়ের শংসাপত্র (income certificate) ও ব্যবসায়িক প্রস্তাব (business proposal)। এরপর ঋণ মঞ্জুর করে নির্ধারিত ব্যাংক; অনুমোদনের পর ক্রেডিট কার্ড ইস্যু হয়। ক্রমটি মনে রাখো: আবেদন → ব্যাংক-মঞ্জুরি → কার্ড — কার্ড আগে আসে না।\n\n**আটকালে কোথায় যাবে?** দপ্তরের বিবরণ অনুযায়ী অনেক MSME উদ্যোক্তা প্রাসঙ্গিক আইন-বিধি, আনুষ্ঠানিকতা, ফর্ম ও অফিসের অবস্থান সম্পর্কে পরিচিত নন — সেই ফাঁক পূরণ করে MSME Facilitation Centre (MFC)। MFC হল বিধিবদ্ধ আনুষ্ঠানিকতার জন্য নিবেদিত পরিষেবাদাতা, এবং এটি যুক্ত আছে অনলাইন Single Application Gateway (SAG)-এর সঙ্গে — বিভিন্ন সরকারি সংস্থায় উদ্যোক্তার করা সব আবেদন গ্রহণের একক বিন্দু হিসেবে।\n\n**MFC ঠিক কী কী করে?** (১) উদ্যোগ স্থাপন বা সরকারি প্রণোদনা পেতে প্রয়োজনীয় বিধিবদ্ধ আনুষ্ঠানিকতার সব তথ্য দেওয়া; (২) প্রয়োজনীয় সার্টিফিকেট, লাইসেন্স ও অনুমতির সব ধরনের আবেদন ফর্ম দেওয়া; (৩) ফর্ম পূরণে হাতে-কলমে সহায়তা; (৪) ফর্মগুলি সব দিক থেকে সঠিক কিনা ভালো করে যাচাই করা; (৫) আবেদনটি সরকারি অফিসে MFC-র নিজের জমা দেওয়া; (৬) সরকারি অফিসের প্রশ্নের উত্তর দেওয়া; (৭) আবেদনকারীর হয়ে সার্টিফিকেট/লাইসেন্স সংগ্রহ করা — সশরীরে বা ইলেকট্রনিক মাধ্যমে। অর্থাৎ MFC শুধু তথ্যকেন্দ্র নয়, পুরো আবেদন-যাত্রার সঙ্গী।",
+      "deep": "পরীক্ষার জন্য একটি সূক্ষ্ম পার্থক্য: শিল্পসাথীর মূল চাবিকাঠি CAF ID, আর MFC-র মাধ্যম হল SAG (Single Application Gateway)। দুটোই 'একক বিন্দু' ধারণার রূপ, কিন্তু কোনটি কোন ব্যবস্থার সঙ্গে যুক্ত — এই জোড়-মেলানো প্রশ্ন IDO ও Clerkship-এ আসতে পারে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "ধাপের ক্রম",
+          "body": "ভবিষ্যৎ: আবেদন → ব্যাংক মঞ্জুরি → কার্ড ইস্যু। MFC: তথ্য → ফর্ম সাহায্য → যাচাই → জমা → সার্টিফিকেট সংগ্রহ।",
+          "claims": [
+            "c14",
+            "c41",
+            "c42"
+          ]
+        }
+      ],
+      "claims": [
+        "c13",
+        "c14",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "শিল্পসাথী সিঙ্গল উইন্ডো সেলের সূচনা",
+      "when": "প্রথম পর্যায় (Phase-I)",
+      "what": "WBIDC-র 'প্রতীতি' ভবনে সিঙ্গল উইন্ডো সেল কাজ শুরু করে; প্রথমে কলকাতা, হাওড়া, হুগলি ও দুই ২৪ পরগনার মাঝারি ও বড় শিল্পের জন্য CAF জমা নেওয়া হয়।",
+      "why_it_matters": "একটিমাত্র আবেদনে বহু দপ্তরের লাইসেন্স — এই মডেলটাই পরে অনলাইন শিল্পসাথী পোর্টালের ভিত্তি হয়।",
+      "section": "silpasathi",
+      "claims": [
+        "c36",
+        "c37",
+        "c38"
+      ]
+    },
+    {
+      "title": "ভবিষ্যৎ ক্রেডিট কার্ডের প্রবর্তন",
+      "when": "কর্মসাথী প্রকল্পের পরিবর্তে",
+      "what": "MSME ও বস্ত্র দপ্তর ১৮–৫৫ বছর বয়সী উদ্যোক্তাদের জন্য ভর্তুকিযুক্ত, জামানতবিহীন ব্যাংক-ঋণের প্রকল্প চালু করে।",
+      "why_it_matters": "প্রথম প্রজন্মের উদ্যোক্তার জন্য জামানত ছাড়া প্রাতিষ্ঠানিক ঋণের পথ খুলে যায় — এই অধ্যায়ের কেন্দ্রীয় প্রকল্প।",
+      "section": "bhabishyat",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 2025,
+      "when": "২০২৫ (পোর্টালে প্রদর্শিত সংস্করণ)",
+      "label": "শিল্পের সমাধানে: ভবিষ্যতের ২ লক্ষ আবেদন ও ৫ লক্ষ কারিগর-তাঁতি তালিকাভুক্তির লক্ষ্য",
+      "claims": [
+        "c16",
+        "c17"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "সিঙ্গল উইন্ডো (Single Window)",
+      "meaning": "একটিমাত্র পোর্টাল বা কেন্দ্র থেকে বহু দপ্তরের লাইসেন্স, অনুমোদন ও পরিষেবা পাওয়ার ব্যবস্থা।",
+      "section": "support_map"
+    },
+    {
+      "term": "CAF (Common Application Form)",
+      "meaning": "শিল্পসাথীতে জমা দেওয়া সাধারণ আবেদনপত্র; আবেদনকারী একটি অনন্য CAF ID পান।",
+      "section": "silpasathi"
+    },
+    {
+      "term": "মার্জিন মানি ভর্তুকি (Margin Money Subsidy)",
+      "meaning": "প্রকল্প ব্যয়ে উদ্যোক্তার নিজের অংশের (margin) ওপর সরকারের দেওয়া ভর্তুকি; ভবিষ্যৎ প্রকল্পে সরকার এটি দেয়।",
+      "section": "bhabishyat"
+    },
+    {
+      "term": "জামানতবিহীন ঋণ (Collateral-free loan)",
+      "meaning": "যে ঋণে জামিনদার বা সম্পত্তি-নিরাপত্তা (security) দিতে হয় না।",
+      "section": "bhabishyat"
+    },
+    {
+      "term": "উদ্যম নিবন্ধন (Udyam Registration)",
+      "meaning": "বিদ্যমান MSME-দের সরকারি নিবন্ধন; শিল্পের সমাধানে কমপক্ষে ৫ লক্ষ MSME-কে এটি নিতে উৎসাহিত করার লক্ষ্য আছে।",
+      "section": "outreach"
+    },
+    {
+      "term": "MFC (MSME Facilitation Centre)",
+      "meaning": "জেলা-স্তরে বিধিবদ্ধ আনুষ্ঠানিকতার জন্য নিবেদিত সহায়তা কেন্দ্র; SAG-এর সঙ্গে যুক্ত।",
+      "section": "apply_steps"
+    },
+    {
+      "term": "IFC (Industry Facilitation Centre)",
+      "meaning": "প্রতি জেলায় অবস্থিত শিল্প সহায়তা কেন্দ্র, যেখানে শিল্পসাথী কিয়স্ক ও হাতে-কলমে সহায়তা মেলে।",
+      "section": "outreach"
+    },
+    {
+      "term": "SAG (Single Application Gateway)",
+      "meaning": "MFC যুক্ত অনলাইন প্রবেশপথ, যার মাধ্যমে বিভিন্ন সরকারি সংস্থায় করা আবেদন এক বিন্দুতে গৃহীত হয়।",
+      "section": "apply_steps"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "জামানত-সমস্যা থেকে ভবিষ্যৎ প্রকল্প",
+      "causes": [
+        "শিক্ষিত যুবকদের উদ্যোক্তা-দক্ষতা থাকলেও প্রাতিষ্ঠানিক অর্থ পেতে অসুবিধা",
+        "প্রথম প্রজন্মের উদ্যোক্তার কাছে জামিন দেওয়ার মতো সম্পত্তি থাকে না"
+      ],
+      "event": "ভবিষ্যৎ ক্রেডিট কার্ড: মার্জিন মানি ও সুদের ভর্তুকিসহ জামানতবিহীন ব্যাংক-ঋণ",
+      "results": [
+        "সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত ঋণ বার্ষিক প্রায় ৪% ভর্তুকিযুক্ত হারে",
+        "আত্মকর্মসংস্থান ও গ্রাম-শহরে কর্মসংস্থান সৃষ্টির লক্ষ্য"
+      ],
+      "section": "bhabishyat",
+      "claims": [
+        "c02",
+        "c05",
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "title": "বহু-দপ্তরে ঘোরাঘুরি থেকে সিঙ্গল উইন্ডো",
+      "causes": [
+        "আলাদা আলাদা দপ্তরে ফর্ম জমা ও আন্তঃদপ্তর সমন্বয়ের অভাবে দেরি",
+        "উদ্যোক্তাদের আইন-বিধি ও ফর্ম সম্পর্কে অপরিচিতি"
+      ],
+      "event": "শিল্পসাথী সিঙ্গল উইন্ডো (CAF) এবং জেলায় IFC/MFC হাতে-কলমে সহায়তা",
+      "results": [
+        "এক আবেদনে বহু দপ্তরের লাইসেন্স ও প্রণোদনার আবেদন",
+        "দপ্তরে না গিয়ে সময়বদ্ধভাবে সার্টিফিকেট ও লাইসেন্স পাওয়া"
+      ],
+      "section": "silpasathi",
+      "claims": [
+        "c36",
+        "c21",
+        "c33",
+        "c40"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "ভবিষ্যতের তিনটি অঙ্ক একসঙ্গে মনে রাখো: বয়স ১৮–৫৫, ঋণের সীমা ₹৫ লক্ষ, ভর্তুকিযুক্ত সুদ বার্ষিক ৪% (Clerkship/WBCS/IDO-তে সরাসরি আসে)।",
+      "section": "bhabishyat"
+    },
+    {
+      "point": "জোড় মেলাও: ভবিষ্যৎ–কর্মসাথীর পরিবর্তে; শিল্পসাথী–CAF/CAF ID ও WBIDC; শিল্পের সমাধানে–২ লক্ষ ভবিষ্যৎ আবেদন; MFC–SAG।",
+      "section": "silpasathi"
+    },
+    {
+      "point": "বিবৃতি-ফাঁদ: 'রাজ্য নিজে ঋণ দেয়' ও 'শিল্পসাথী ঋণ দেয়' — দুটোই ভুল; ঋণ দেয় ব্যাংক, শিল্পসাথী পোর্টাল মাত্র।",
+      "section": "support_map"
+    },
+    {
+      "point": "MSME প্রণোদনা তালিকা বনাম পর্যটন তালিকা: বিদ্যুৎ শুল্ক মওকুফ পর্যটনের, বিদ্যুৎ ভর্তুকি MSME-র — বদলাবদলি হয় প্রশ্নে।",
+      "section": "incentives"
+    },
+    {
+      "point": "শিল্পের সমাধানের লক্ষ্য-ত্রয়ী: ২ লক্ষ (ভবিষ্যৎ আবেদন), ৫ লক্ষ (কারিগর-তাঁতি), ৫ লক্ষ (উদ্যম নিবন্ধন)।",
+      "section": "outreach"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই পুরো বইটিই পশ্চিমবঙ্গ নিয়ে, আর এই অধ্যায় তার সবচেয়ে ব্যবহারিক অংশ: রাজ্যের নিজের প্রকল্প ও পোর্টাল। WBPSC Clerkship, WBCS, IDO (Industrial Development Officer) ও WBP-র মতো পরীক্ষায় রাজ্য-প্রকল্পভিত্তিক প্রশ্নে ভবিষ্যৎ ক্রেডিট কার্ড, শিল্পসাথী ও শিল্পের সমাধানে বারবার ঘুরে আসে — বিশেষ করে IDO পদের জন্য এই সহায়তা-ব্যবস্থা সরাসরি পাঠ্য। অঙ্কগুলি (₹৫ লক্ষ, ৪%, ১৮–৫৫ বছর, ২/৫/৫ লক্ষ লক্ষ্য) মুখস্থ রাখলে এই অংশ থেকে পূর্ণ নম্বর তোলা যায়।",
+    "claims": [
+      "c01",
+      "c16"
+    ]
+  },
+  "quick_revision": [
+    "ভবিষ্যৎ ক্রেডিট কার্ড: কর্মসাথীর পরিবর্তে; দপ্তর — MSME ও বস্ত্র।",
+    "যোগ্যতা: ১৮–৫৫ বছর, পশ্চিমবঙ্গের স্থায়ী বাসিন্দা; ঋণখেলাপি হলে নয়।",
+    "সুবিধা: সর্বোচ্চ ₹৫ লক্ষ জামানতবিহীন ঋণ, মার্জিন মানি ভর্তুকি, সুদ বার্ষিক প্রায় ৪%।",
+    "ক্ষেত্র: উৎপাদন, পরিষেবা, ব্যবসা, কৃষিভিত্তিক নতুন উদ্যোগ।",
+    "নথি: আধার, বাসস্থান প্রমাণ, আয়ের শংসাপত্র, ব্যবসায়িক প্রস্তাব; মঞ্জুরি দেয় ব্যাংক, তারপর কার্ড।",
+    "শিল্পসাথী: সিঙ্গল উইন্ডো পোর্টাল; CAF = Common Application Form, অনন্য CAF ID।",
+    "শিল্পসাথী WBIDC-র নিবেদিত ব্যবস্থা; SWC — প্রতীতি, ক্যামাক স্ট্রিট, কলকাতা; Phase-I-তে ৫ জেলা।",
+    "MSME প্রণোদনা: মূলধন, সুদ (মেয়াদি ঋণ), বিদ্যুৎ, স্ট্যাম্প ডিউটি, SGST, পেটেন্ট ভর্তুকি ইত্যাদি।",
+    "রাজ্যের নিজের কোনো ঋণ-প্রকল্প নেই — প্রণোদনা অনুদান হিসেবে; ঋণ আসে ব্যাংক-মাধ্যমে।",
+    "শিল্পের সমাধানে লক্ষ্য: ভবিষ্যৎ আবেদন ২ লক্ষ+, কারিগর-তাঁতি ৫ লক্ষ+, উদ্যম ৫ লক্ষ+, আটকে থাকা ছাড়পত্র নিষ্পত্তি।",
+    "IFC: প্রতি জেলায় ২৩টি কেন্দ্রে শিল্পসাথী কিয়স্ক; MFC: SAG-যুক্ত, ফর্ম থেকে সার্টিফিকেট সংগ্রহ পর্যন্ত সাহায্য।",
+    "রাজ্যের প্রায় ৯৯% শিল্প প্রতিষ্ঠান MSME, তার ৯৮% অতি ক্ষুদ্র — তাই সহায়তার কেন্দ্রে ক্ষুদ্র উদ্যোক্তা।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Bhabishyat Credit Card Scheme — Department of MSME & Textiles scheme page, Government of West Bengal (wb.gov.in)",
+      "url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Shilper Samadhane — official outreach portal, Duare Sarkar (MSME), Government of West Bengal",
+      "url": "https://ds.wb.gov.in/MSME/Portal_New_Default.aspx",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "ICT Initiatives in the State — West Bengal (SilpaSathi), Informatics, National Informatics Centre",
+      "url": "https://informatics.nic.in/files/websites/jan-2024/west-bengal.php",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Incentives/ Subsidies/ Schemes — Silpasathi, State Online Single Window Services, Government of West Bengal",
+      "url": "https://silpasathi.wb.gov.in/node/10",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "About Silpa Sathi — Silpasathi, State Online Single Window Services, Government of West Bengal",
+      "url": "https://silpasathi.wb.gov.in/node/7",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Shilpasathi — Government of West Bengal scheme page (wb.gov.in)",
+      "url": "https://wb.gov.in/government-schemes-details-shilpasathi.aspx",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "MSME Facilitation Centre — Department of MSME, Government of West Bengal (msme.wb.gov.in)",
+      "url": "https://msme.wb.gov.in/node/3",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Bhabishyat Credit Card Scheme was introduced in supersession of Karmasathi Prakalpa for entrepreneurs aged 18-55",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "In supersession of \"Karmasathi Prakalpa\", this scheme has been introduced for young entrepreneurs in the age group of 18 - 55 years."
+    },
+    {
+      "id": "c02",
+      "claim": "Bhabishyat offers subsidy-linked, collateral-free loans for new ventures in manufacturing, service, trading and agro-based activities",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "It offers subsidy-linked and collateral-free loans for setting up new ventures, projects, or micro-enterprises in manufacturing, service, trading, and agro-based activities."
+    },
+    {
+      "id": "c03",
+      "claim": "Almost 99% of industrial undertakings in West Bengal are MSME, and 98% of those are micro-enterprises (scheme page, as accessed 2026-11-19)",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Almost 99% of industrial undertakings in the state belong to the MSME sector, with 98% of these being micro-enterprises."
+    },
+    {
+      "id": "c04",
+      "claim": "A stated aim of Bhabishyat is to encourage self-employment and income generation",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Encourage self-employment and income generation."
+    },
+    {
+      "id": "c05",
+      "claim": "Bhabishyat loan amount is up to INR 5 lakh per beneficiary",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Loan Amount: Up to INR 5 lakh per beneficiary."
+    },
+    {
+      "id": "c06",
+      "claim": "Under Bhabishyat, loans are available at a subsidised interest rate of 4% per annum through banks",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Interest Subsidy: Loans available at a subsidized interest rate of 4% per annum through banks."
+    },
+    {
+      "id": "c07",
+      "claim": "Bhabishyat loans are collateral-free: no guarantor or security required",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Collateral-Free: No guarantor or security required."
+    },
+    {
+      "id": "c08",
+      "claim": "The Government provides Margin Money Subsidy under Bhabishyat",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Subsidy: Government provides Margin Money Subsidy."
+    },
+    {
+      "id": "c09",
+      "claim": "Bhabishyat applicant must be a permanent resident of West Bengal",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Domicile: Must be a permanent resident of West Bengal."
+    },
+    {
+      "id": "c10",
+      "claim": "Bhabishyat age eligibility is 18 to 55 years",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Age: 18 to 55 years."
+    },
+    {
+      "id": "c11",
+      "claim": "Existing loan defaulters are not eligible for Bhabishyat",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Exclusion: Existing loan defaulters are not eligible."
+    },
+    {
+      "id": "c12",
+      "claim": "Bhabishyat covers entrepreneurs, traders, artisans, self-employed individuals and small service providers",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Occupation: Entrepreneurs, traders, artisans, self-employed individuals, or small service providers."
+    },
+    {
+      "id": "c13",
+      "claim": "Bhabishyat application documents: Aadhaar, domicile proof, income certificate and business proposal",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Required Documents: Aadhaar, domicile proof, income certificate, and business proposal."
+    },
+    {
+      "id": "c14",
+      "claim": "Bhabishyat loans are sanctioned by designated banks; credit cards are issued post-approval",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Bank Processing: Loans are sanctioned by designated banks; credit cards issued post-approval."
+    },
+    {
+      "id": "c15",
+      "claim": "Bhabishyat is a scheme of the Department of Micro, Small & Medium Enterprises & Textiles (MSME & T)",
+      "source": "s1",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "(Department of Micro, Small & Medium Enterprises & Textiles - MSME & T)"
+    },
+    {
+      "id": "c16",
+      "claim": "Shilper Samadhane target: sponsoring at least 2 lakh Bhabishyat Credit Card applications to banks (edition shown on portal, accessed 2026-11-19)",
+      "source": "s2",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Sponsoring at least 2 Lacs applications under Bhabishyat Credit Card scheme to the banks"
+    },
+    {
+      "id": "c17",
+      "claim": "Shilper Samadhane target: enlisting at least 5 lakh artisans and weavers with the state government",
+      "source": "s2",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Enlisting at least 5 Lacs artisans and weavers with the state government"
+    },
+    {
+      "id": "c18",
+      "claim": "Shilper Samadhane target: encouraging at least 5 lakh existing MSMEs to obtain Udyam Registrations",
+      "source": "s2",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Encouraging at least 5 Lacs existing MSMEs to obtain Udyam Registrations"
+    },
+    {
+      "id": "c19",
+      "claim": "Shilper Samadhane seeks disposal of pending clearances such as Mutation, Conversion, Power Connection, WBPCB, Fire and SWID clearances",
+      "source": "s2",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Ensuring disposals of maximum pending clearances like Mutation, Conversion, Power Connection, WBPCB clearance, Fire clearance, SWID clearance etc"
+    },
+    {
+      "id": "c20",
+      "claim": "Shilper Samadhane provides support in skilling, credit and schematic hand-holding from TET&SD, BCW, MAME and P&RD departments",
+      "source": "s2",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Provide support in the form of Skilling, Credit and schematic hand-holding from TET&SD, BCW, MAME, P& RD departments"
+    },
+    {
+      "id": "c21",
+      "claim": "SilpaSathi is a single-window system where applicants receive a unique Common Application Form (CAF) ID",
+      "source": "s3",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "This portal offers a single-window system where applicants receive a unique Common Application Form (CAF) ID"
+    },
+    {
+      "id": "c22",
+      "claim": "SilpaSathi allows document uploads, online payments and verification, leading to Final Certificates or Licenses",
+      "source": "s3",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "It allows document uploads, online payments, and verification of details, enabling the acquisition of Final Certificates or Licenses through the pull API from the Legacy system."
+    },
+    {
+      "id": "c23",
+      "claim": "Over 2.5 lakh enterprises benefitted in 12 months through SilpaSathi simplified clearances, including auto-renewal and deemed approval (NIC Informatics, Jan 2024 issue)",
+      "source": "s3",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Over 2.5 Lac enterprises benefitted in the past 12 months through simplified clearance processes, including real-time, auto-renewal, and deemed approval of applications."
+    },
+    {
+      "id": "c24",
+      "claim": "800+ burdensome compliances for businesses were rationalised within 12 months (NIC Informatics, Jan 2024 issue)",
+      "source": "s3",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Rationalization of 800+ burdensome compliances for businesses within the last 12 months."
+    },
+    {
+      "id": "c25",
+      "claim": "MSMEs are entitled to State Capital Investment Subsidy (Silpasathi incentives page)",
+      "source": "s4",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "State Capital Investiment Subsidy"
+    },
+    {
+      "id": "c26",
+      "claim": "MSMEs are entitled to Interest subsidy on Term Loan (Silpasathi incentives page)",
+      "source": "s4",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Interest subsidy on Term Loan"
+    },
+    {
+      "id": "c27",
+      "claim": "MSMEs are entitled to Power Subsidy (Silpasathi incentives page)",
+      "source": "s4",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Power Subsidy"
+    },
+    {
+      "id": "c28",
+      "claim": "MSMEs are entitled to Subsidy on SGST (Silpasathi incentives page)",
+      "source": "s4",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Subsidy on SGST"
+    },
+    {
+      "id": "c29",
+      "claim": "MSMEs are entitled to Subsidy on Stamp Duty and Registration Fee (Silpasathi incentives page)",
+      "source": "s4",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Subsidy on Stamp Duty and Registration Fee"
+    },
+    {
+      "id": "c30",
+      "claim": "MSMEs are entitled to Subsidy for Patent Registration (Silpasathi incentives page)",
+      "source": "s4",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Subsidy for Patent Registration"
+    },
+    {
+      "id": "c31",
+      "claim": "The Silpasathi incentives page states the State has no credit schemes at present for business; only grants are provided through the listed schemes",
+      "source": "s4",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "The State has no credit schemes at present for business. Only grants are provided to Business through the above two schemes."
+    },
+    {
+      "id": "c32",
+      "claim": "Silpa Sathi serves as a digital gateway for statutory compliances under the Acts, Rules, Policies and Schemes of the Govt of West Bengal",
+      "source": "s5",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "It serves as a digital gateway for providing the necessary statutory compliances under the applicable Acts, Rules, Policies and Schemes of the Govt of West Bengal."
+    },
+    {
+      "id": "c33",
+      "claim": "Through Silpa Sathi, investors can get certificates and licences in a smooth and time-bound manner without visiting any government office",
+      "source": "s5",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Investors can get certificates and licences required for setting up and operating business in the State in a smooth and time-bound manner, without the need to visit any government department or office."
+    },
+    {
+      "id": "c34",
+      "claim": "SilpaSathi Kiosks are available at 23 Industry Facilitation Centres (IFCs), one in every district",
+      "source": "s5",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "SilpaSathi Kiosks are available at 23 Industry Facilitation Centres (IFCs) located in every district of the State."
+    },
+    {
+      "id": "c35",
+      "claim": "Silpa Sathi is a dedicated set up in West Bengal Industrial Development Corporation Ltd. (WBIDC)",
+      "source": "s5",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Silpa Sathi is a dedicated set up in West Bengal Industrial Development Corporation Ltd. (WBIDCL) to facilitate investors in obtaining services required for setting up and operate business in the State in smooth and time bound manner"
+    },
+    {
+      "id": "c36",
+      "claim": "Under Shilpa Sathi an investor can submit a Common Application Form in the Single Window Cell at WBIDC",
+      "source": "s6",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "the Government of West Bengal has launched Shilpa Sathi where an investor can submit a Common Application Form in the Single Window Cell at WBIDC."
+    },
+    {
+      "id": "c37",
+      "claim": "In Phase-I, Shilpa Sathi covered medium and large industries in Kolkata, Howrah, Hooghly, South 24-Parganas and North 24-Parganas",
+      "source": "s6",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Initially, in Phase-I, the facility of Shilpa Sathi is available to investors, who want to set up medium and large industries in Kolkata, Howrah, Hooghly, South24-Parganas and North 24-Parganas districts."
+    },
+    {
+      "id": "c38",
+      "claim": "The Single Window Cell functions at Protiti, WBIDC, 23 Abanindranath Thakur Sarani (Camac Street), Kolkata-700017",
+      "source": "s6",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "a Single Window Cell (SWC) has started functioning at the Ground Floor, \"Protiti\", West Bengal Industrial Development Corporation Ltd (WBIDC), 23. Abanindranath Thakur Sarani (Camac Street), Kolkata -700017."
+    },
+    {
+      "id": "c39",
+      "claim": "The MFCs are dedicated service providers on statutory compliances for an MSME entrepreneur",
+      "source": "s7",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "The MFCs are dedicated service providers on statutory compliances for an MSME entrepreneur."
+    },
+    {
+      "id": "c40",
+      "claim": "MFCs provide hand-holding support to fill out the forms",
+      "source": "s7",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Hand-holding support to fill out the forms."
+    },
+    {
+      "id": "c41",
+      "claim": "The MFC submits the application to the government office on behalf of the entrepreneur",
+      "source": "s7",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Submitting the application to the government office by the MFC."
+    },
+    {
+      "id": "c42",
+      "claim": "The MFC collects the certificate/license on behalf of the applicant",
+      "source": "s7",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "Collecting the certificate/license on behalf of the applicant either in person or through single application / electronics mode."
+    },
+    {
+      "id": "c43",
+      "claim": "The MFC is tagged to the online Single Application Gateway (SAG) and acts as a single point to receive applications to various government entities",
+      "source": "s7",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "The MFC is tagged to the online Single Application Gateway(SAG) through http://myenterprisewb.in and act as a single piont to receive all applications made by an entrepreneur to various government entities"
+    },
+    {
+      "id": "c44",
+      "claim": "MFCs give all information on statutory compliances needed to set up an enterprise or to avail government incentives",
+      "source": "s7",
+      "page": "web page (accessed 2026-11-19)",
+      "quote": "All information on statutory compliances needed to set up an enterprise or to avail government incentives."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "support_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পশ্চিমবঙ্গের শিল্প-সহায়তা ব্যবস্থায় 'সিঙ্গল উইন্ডো' বলতে মূলত কী বোঝায়?",
+      "a": "একটি মাত্র প্রবেশপথ থেকে অনেক দপ্তরের পরিষেবা পাওয়া",
+      "w": [
+        "প্রতিটি দপ্তরে আলাদা করে ঘুরে আবেদন করা",
+        "শুধুমাত্র ব্যাংক থেকে ঋণ নেওয়ার ব্যবস্থা",
+        "কেবল বড় শিল্পের জন্য জমি বরাদ্দের ব্যবস্থা"
+      ],
+      "e": "সিঙ্গল উইন্ডো মানে একটিমাত্র পোর্টাল বা কেন্দ্র থেকে বহু দপ্তরের লাইসেন্স, অনুমোদন ও প্রণোদনার আবেদন করা যায়। শিল্পসাথী পোর্টাল ও জেলার সহায়তা কেন্দ্রগুলি এই ধারণারই বাস্তব রূপ।",
+      "claims": [
+        "c21",
+        "c32"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "support_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাজ্যের শিল্প প্রতিষ্ঠানগুলির মধ্যে MSME ক্ষেত্রের অংশ কতটা (দপ্তরের প্রকল্প-পৃষ্ঠা অনুযায়ী)?",
+      "a": "প্রায় ৯৯% শিল্প প্রতিষ্ঠানই MSME, যার ৯৮% অতি ক্ষুদ্র (micro) উদ্যোগ",
+      "w": [
+        "প্রায় ৫০% প্রতিষ্ঠান MSME",
+        "প্রায় ৯৯% প্রতিষ্ঠানই বড় শিল্প",
+        "MSME-র অংশ মাত্র ১০%"
+      ],
+      "e": "দপ্তরের ভবিষ্যৎ প্রকল্প-পৃষ্ঠায় বলা আছে, রাজ্যের প্রায় ৯৯% শিল্প প্রতিষ্ঠান MSME ক্ষেত্রের এবং তার ৯৮% অতি ক্ষুদ্র উদ্যোগ — তাই সহায়তা প্রকল্পের মূল লক্ষ্যই এই ক্ষুদ্র উদ্যোক্তারা।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "support_map",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি রাজ্য সরকারের সরাসরি ঋণ-প্রকল্প নয়, বরং ছাড়পত্র ও প্রণোদনার পোর্টাল?",
+      "a": "শিল্পসাথী",
+      "w": [
+        "ভবিষ্যৎ ক্রেডিট কার্ড",
+        "ব্যাংকের মেয়াদি ঋণ",
+        "শিল্পের সমাধানে শিবিরের ব্যাংক-প্রেরিত আবেদন"
+      ],
+      "e": "শিল্পসাথী হল লাইসেন্স, অনুমোদন ও প্রণোদনার আবেদনের সিঙ্গল-উইন্ডো পোর্টাল; এটি নিজে ঋণ দেয় না। ঋণ-সহায়তা আসে ভবিষ্যৎ ক্রেডিট কার্ডের মতো প্রকল্পে ব্যাংকের মাধ্যমে।",
+      "claims": [
+        "c21",
+        "c31"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "support_map",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. রাজ্যের প্রণোদনা-তালিকায় (শিল্পসাথী) বলা আছে, ব্যবসার জন্য রাজ্যের বর্তমানে কোনো ঋণ-প্রকল্প নেই; তালিকাভুক্ত প্রকল্পগুলির মাধ্যমে অনুদান (grant) দেওয়া হয়।\n২. ভবিষ্যৎ ক্রেডিট কার্ডে ঋণ মঞ্জুর করে নির্ধারিত ব্যাংক।\nকোন বিবৃতি(গুলি) সঠিক?",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "দুটোই সঠিক। শিল্পসাথীর প্রণোদনা-পৃষ্ঠা অনুদান-ভিত্তিক ভর্তুকির কথা বলে, আর ভবিষ্যৎ প্রকল্পে ঋণ মঞ্জুরির কাজটি করে নির্ধারিত ব্যাংক — রাজ্য ভর্তুকি দিয়ে ঋণের শর্ত সহজ করে।",
+      "claims": [
+        "c31",
+        "c14"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "support_map",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিল্প-সহায়তার ক্ষেত্রে MSME ও বস্ত্র দপ্তরের (MSME & T) ভূমিকা কোনটি?",
+      "a": "ভবিষ্যৎ ক্রেডিট কার্ডের মতো উদ্যোক্তা-সহায়তা প্রকল্প পরিচালনা করা",
+      "w": [
+        "শুধু বড় শিল্পপার্কের জমি বিক্রি করা",
+        "কেবল রপ্তানি শুল্ক আদায় করা",
+        "শুধু তাঁতিদের প্রশিক্ষণ দেওয়া"
+      ],
+      "e": "ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্পটি MSME ও বস্ত্র দপ্তরের প্রকল্প — প্রকল্প-পৃষ্ঠাতেই দপ্তরের নাম উল্লেখ আছে।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "support_map",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "একজন নতুন উদ্যোক্তার জন্য সঠিক ক্রম কোনটি?",
+      "a": "প্রথমে তথ্য ও ফর্ম-সহায়তা (MFC/IFC) → শিল্পসাথীতে CAF আবেদন → সংশ্লিষ্ট প্রকল্পে (যেমন ভবিষ্যৎ) ব্যাংক-মঞ্জুরি",
+      "w": [
+        "প্রথমে ব্যাংক-মঞ্জুরি → তারপর উদ্যোগের পরিকল্পনা → শেষে তথ্য সংগ্রহ",
+        "প্রথমে জমি কেনা → তারপর লাইসেন্স → শেষে নিবন্ধন",
+        "প্রথমে পণ্য বিক্রি → তারপর উদ্যোগ নিবন্ধন → শেষে লাইসেন্স"
+      ],
+      "e": "সহায়তা-ব্যবস্থাটি ধাপে ধাপে সাজানো: জেলা কেন্দ্রে তথ্য ও হাতে-কলমে সহায়তা, শিল্পসাথীতে একটিমাত্র সাধারণ আবেদনপত্র (CAF), এবং প্রকল্পভিত্তিক সুবিধার ক্ষেত্রে ব্যাংক বা দপ্তরের মঞ্জুরি।",
+      "claims": [
+        "c40",
+        "c21",
+        "c14"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "support_map",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): পশ্চিমবঙ্গে ক্ষুদ্র উদ্যোক্তাদের জন্য আলাদা সহায়তা-কাঠামো জরুরি।\nকারণ (R): রাজ্যের প্রায় ৯৯% শিল্প প্রতিষ্ঠানই MSME ক্ষেত্রের এবং তার ৯৮% অতি ক্ষুদ্র উদ্যোগ।",
+      "a": "A ও R দুটোই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য",
+        "A ও R দুটোই মিথ্যা"
+      ],
+      "e": "দপ্তরের নিজের পরিসংখ্যানই দেখায় শিল্প-কাঠামো প্রায় পুরোটাই ক্ষুদ্র উদ্যোগনির্ভর — তাই ঋণ, ভর্তুকি ও হাতে-কলমে সহায়তার আলাদা ব্যবস্থা যুক্তিসংগত।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "bhabishyat",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্পে প্রতি সুবিধাভোগীর সর্বোচ্চ ঋণ কত?",
+      "a": "₹৫ লক্ষ",
+      "w": [
+        "₹২৫,০০০",
+        "₹১০ লক্ষ",
+        "₹২ লক্ষ"
+      ],
+      "e": "ঋণের ঊর্ধ্বসীমা প্রতি সুবিধাভোগী ₹৫ লক্ষ।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "bhabishyat",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্প কোন আগের প্রকল্পের পরিবর্তে চালু হয়?",
+      "a": "কর্মসাথী প্রকল্প",
+      "w": [
+        "বাংলাশ্রী",
+        "গতিধারা",
+        "যুবশ্রী"
+      ],
+      "e": "দপ্তরের প্রকল্প-পৃষ্ঠায় স্পষ্ট লেখা আছে, প্রকল্পটি কর্মসাথী প্রকল্পের পরিবর্তে (supersession) চালু হয়েছে।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "bhabishyat",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভবিষ্যৎ ক্রেডিট কার্ডে যোগ্য বয়সসীমা কত?",
+      "a": "১৮–৫৫ বছর",
+      "w": [
+        "১৮–৪৫ বছর",
+        "২১–৬০ বছর",
+        "১৮–৩৫ বছর"
+      ],
+      "e": "প্রকল্প-পৃষ্ঠায় যোগ্যতার শর্তে বয়স ১৮ থেকে ৫৫ বছর নির্দিষ্ট আছে। অনেক অপ্রাতিষ্ঠানিক ওয়েবসাইটে ভুল বয়সসীমা ছাপা থাকে — দপ্তরের পৃষ্ঠাই নির্ভরযোগ্য।",
+      "claims": [
+        "c10",
+        "c01"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "bhabishyat",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভবিষ্যৎ প্রকল্পে ঋণগ্রহীতার জন্য ভর্তুকিযুক্ত সুদের হার কত?",
+      "a": "বার্ষিক প্রায় ৪%",
+      "w": [
+        "বার্ষিক ১০%",
+        "বার্ষিক ৭%",
+        "সুদমুক্ত"
+      ],
+      "e": "সুদের ভর্তুকির ফলে ব্যাংকের মাধ্যমে ঋণ মেলে বার্ষিক ৪% ভর্তুকিযুক্ত হারে।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "bhabishyat",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "ভবিষ্যৎ ক্রেডিট কার্ড সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. ঋণ জামানতবিহীন — জামিনদার বা নিরাপত্তা (security) লাগে না।\n২. ঋণ মঞ্জুর করে রাজ্য সরকার নিজে।\nকোনটি সঠিক?",
+      "a": "শুধু ১ সঠিক",
+      "w": [
+        "শুধু ২ সঠিক",
+        "১ ও ২ দুটোই সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক: প্রকল্পে জামিনদার বা নিরাপত্তা লাগে না। বিবৃতি ২ ভুল: ঋণ মঞ্জুর করে নির্ধারিত ব্যাংক; অনুমোদনের পর ক্রেডিট কার্ড ইস্যু হয়।",
+      "claims": [
+        "c07",
+        "c14"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "bhabishyat",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোন ব্যক্তি ভবিষ্যৎ প্রকল্পের জন্য যোগ্য নন?",
+      "a": "আগের ঋণে খেলাপি (defaulter) থাকা আবেদনকারী",
+      "w": [
+        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা ৩০ বছর বয়সী তাঁতি",
+        "নতুন পরিষেবা-উদ্যোগ শুরু করতে চাওয়া স্বনিযুক্ত যুবক",
+        "কৃষিভিত্তিক নতুন উদ্যোগের পরিকল্পনা থাকা ব্যবসায়ী"
+      ],
+      "e": "প্রকল্প-পৃষ্ঠার বর্জন-শর্ত অনুযায়ী বিদ্যমান ঋণখেলাপিরা যোগ্য নন। বাকি তিনজনই বয়স, বাসস্থান ও কার্যক্ষেত্রের শর্ত পূরণ করেন।",
+      "claims": [
+        "c11",
+        "c09",
+        "c12",
+        "c02"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "bhabishyat",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "ভবিষ্যৎ ক্রেডিট কার্ড সম্পর্কে সঠিক জোড়টি বেছে নাও:",
+      "a": "ভবিষ্যৎ ক্রেডিট কার্ড — মার্জিন মানি ভর্তুকি ও ৪% ভর্তুকিযুক্ত সুদ",
+      "w": [
+        "ভবিষ্যৎ ক্রেডিট কার্ড — বিনামূল্যে শিল্প জমি",
+        "ভবিষ্যৎ ক্রেডিট কার্ড — শুধুমাত্র বড় শিল্পের জন্য",
+        "ভবিষ্যৎ ক্রেডিট কার্ড — কর্মসাথীর সঙ্গে যুগ্মভাবে চালু দুটি আলাদা প্রকল্প"
+      ],
+      "e": "সরকার এই প্রকল্পে মার্জিন মানি ভর্তুকি দেয় এবং সুদের ভর্তুকিতে ঋণের হার দাঁড়ায় বার্ষিক ৪%। প্রকল্পটি কর্মসাথীর পরিবর্তে এসেছে, যুগ্মভাবে নয়।",
+      "claims": [
+        "c08",
+        "c06",
+        "c01"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "silpasathi",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শিল্পসাথীতে 'CAF' বলতে কী বোঝায়?",
+      "a": "Common Application Form (সাধারণ আবেদনপত্র)",
+      "w": [
+        "Central Approval File",
+        "Combined Application Format",
+        "Corporate Application Form"
+      ],
+      "e": "শিল্পসাথীতে আবেদনকারী একটি সাধারণ আবেদনপত্র (CAF) জমা দেন এবং একটি অনন্য CAF ID পান — একই আবেদনে বহু দপ্তরের পরিষেবা মেলে।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "silpasathi",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শিল্পসাথী মূলত কোন ধরনের ব্যবস্থা?",
+      "a": "অনলাইন সিঙ্গল-উইন্ডো পোর্টাল — লাইসেন্স, অনুমোদন ও প্রণোদনার আবেদনের জন্য",
+      "w": [
+        "ব্যাংক ঋণ দেওয়ার প্রকল্প",
+        "শিল্প জমি নিলামের পোর্টাল",
+        "শুধু তাঁতিদের তালিকাভুক্তির শিবির"
+      ],
+      "e": "NIC-র বিবরণ অনুযায়ী শিল্পসাথী উদ্যোক্তা, MSME ও কারিগরদের জন্য একটি সিঙ্গল-উইন্ডো ব্যবস্থা, যেখানে CAF ID দিয়ে নানা পরিষেবা পাওয়া যায়।",
+      "claims": [
+        "c21",
+        "c32"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "silpasathi",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিল্পসাথীর সিঙ্গল উইন্ডো সেল (SWC) কোথায় কাজ শুরু করে?",
+      "a": "কলকাতার ক্যামাক স্ট্রিটে WBIDC-র 'প্রতীতি' ভবনের নিচতলায়",
+      "w": [
+        "নবান্নে",
+        "শিল্প ভবন, সল্টলেকে",
+        "হাওড়া জেলা শিল্প কেন্দ্রে"
+      ],
+      "e": "সরকারি পৃষ্ঠা অনুযায়ী সিঙ্গল উইন্ডো সেল কাজ করে WBIDC-র 'প্রতীতি' ভবনে, ২৩ অবনীন্দ্রনাথ ঠাকুর সরণি (ক্যামাক স্ট্রিট), কলকাতা-৭০০০১৭।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "silpasathi",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রথম পর্যায়ে (Phase-I) শিল্পসাথী সুবিধা কোন জেলাগুলির মাঝারি ও বড় শিল্পের জন্য ছিল?",
+      "a": "কলকাতা, হাওড়া, হুগলি, দক্ষিণ ২৪ পরগনা ও উত্তর ২৪ পরগনা",
+      "w": [
+        "শুধু কলকাতা",
+        "পুরুলিয়া, বাঁকুড়া ও বীরভূম",
+        "দার্জিলিং, জলপাইগুড়ি ও কোচবিহার"
+      ],
+      "e": "wb.gov.in-এর পৃষ্ঠা অনুযায়ী প্রথম পর্যায়ে এই পাঁচটি জেলার মাঝারি ও বড় শিল্পের জন্য সুবিধাটি চালু হয়েছিল।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "silpasathi",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "শিল্পসাথী সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. পোর্টালে নথি আপলোড, অনলাইন পেমেন্ট ও তথ্য যাচাই করা যায়।\n২. চূড়ান্ত সার্টিফিকেট বা লাইসেন্স পেতে প্রতিটি দপ্তরে সশরীরে যেতেই হয়।\nকোনটি সঠিক?",
+      "a": "শুধু ১ সঠিক",
+      "w": [
+        "শুধু ২ সঠিক",
+        "১ ও ২ দুটোই সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল: শিল্পসাথীর উদ্দেশ্যই হল দপ্তরে না গিয়ে মসৃণ ও সময়বদ্ধভাবে সার্টিফিকেট ও লাইসেন্স পাওয়া।",
+      "claims": [
+        "c22",
+        "c33"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "silpasathi",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "NIC-র Informatics বিবরণ অনুযায়ী শিল্পসাথীর মাধ্যমে গত ১২ মাসে (প্রকাশকালীন হিসাব) কত উদ্যোগ উপকৃত হয়েছিল?",
+      "a": "২.৫ লক্ষের বেশি উদ্যোগ",
+      "w": [
+        "২৫ হাজার উদ্যোগ",
+        "২৫ লক্ষ উদ্যোগ",
+        "মাত্র ২,৫০০ উদ্যোগ"
+      ],
+      "e": "NIC-র বিবরণে বলা আছে, সরলীকৃত ছাড়পত্র প্রক্রিয়ায় — রিয়েল-টাইম, অটো-রিনিউয়াল ও ডিমড অনুমোদনসহ — গত ১২ মাসে ২.৫ লক্ষের বেশি উদ্যোগ উপকৃত হয়।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "silpasathi",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা মেলাও:\nক. শিল্পসাথী — ১. WBIDC-তে অবস্থিত নিবেদিত ব্যবস্থা\nখ. CAF — ২. সাধারণ আবেদনপত্র\nগ. IFC — ৩. প্রতি জেলায় শিল্প সহায়তা কেন্দ্র\nসঠিক মিল কোনটি?",
+      "a": "ক-১, খ-২, গ-৩",
+      "w": [
+        "ক-২, খ-১, গ-৩",
+        "ক-৩, খ-২, গ-১",
+        "ক-১, খ-৩, গ-২"
+      ],
+      "e": "শিল্পসাথী WBIDC-র নিবেদিত ব্যবস্থা; CAF মানে Common Application Form; আর IFC (Industry Facilitation Centre) প্রতি জেলায় হাতে-কলমে সহায়তা দেয়।",
+      "claims": [
+        "c35",
+        "c21",
+        "c34"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "incentives",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শিল্পসাথীর প্রণোদনা-তালিকা অনুযায়ী MSME-রা কোন ভর্তুকিটি পাওয়ার অধিকারী?",
+      "a": "রাজ্য মূলধন বিনিয়োগ ভর্তুকি (State Capital Investment Subsidy)",
+      "w": [
+        "বিনামূল্যে কাঁচামাল",
+        "আয়কর সম্পূর্ণ মওকুফ",
+        "বিনা সুদে ব্যক্তিগত ঋণ"
+      ],
+      "e": "প্রণোদনা-পৃষ্ঠার তালিকার প্রথমেই আছে রাজ্য মূলধন বিনিয়োগ ভর্তুকি।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "incentives",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি MSME প্রণোদনার তালিকায় আছে?",
+      "a": "মেয়াদি ঋণের ওপর সুদ ভর্তুকি",
+      "w": [
+        "বিদেশ ভ্রমণ ভর্তুকি",
+        "কর্মীদের বেতন সম্পূর্ণ সরকারের দেওয়া",
+        "পণ্য পরিবহণ সম্পূর্ণ বিনামূল্যে"
+      ],
+      "e": "তালিকায় 'Interest subsidy on Term Loan' অর্থাৎ মেয়াদি ঋণের সুদ ভর্তুকি স্পষ্টভাবে আছে।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "incentives",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিদ্যুৎ-সংক্রান্ত সহায়তা হিসেবে তালিকায় কোনটি আছে?",
+      "a": "বিদ্যুৎ ভর্তুকি (Power Subsidy)",
+      "w": [
+        "জীবনব্যাপী বিনামূল্যে বিদ্যুৎ",
+        "ডিজেল ভর্তুকি",
+        "সৌর প্যানেল বাধ্যতামূলক ক্রয়"
+      ],
+      "e": "প্রণোদনা-তালিকায় Power Subsidy আলাদা করে উল্লেখ আছে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "incentives",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SGST-সংক্রান্ত প্রণোদনা বলতে তালিকায় কী বোঝানো হয়েছে?",
+      "a": "SGST-র ওপর ভর্তুকি",
+      "w": [
+        "SGST সম্পূর্ণ বাতিল",
+        "SGST শুধু বড় শিল্পের জন্য",
+        "SGST-র বদলে নগদ পুরস্কার"
+      ],
+      "e": "তালিকায় 'Subsidy on SGST' আছে — অর্থাৎ নির্ধারিত শর্তে SGST-র ওপর ভর্তুকি, কর বাতিল নয়।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "incentives",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "প্রণোদনা-তালিকা সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. স্ট্যাম্প ডিউটি ও রেজিস্ট্রেশন ফি-র ওপর ভর্তুকি তালিকায় আছে।\n২. পেটেন্ট নিবন্ধনের জন্য ভর্তুকি তালিকায় আছে।\nকোনটি সঠিক?",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "দুটোই তালিকাভুক্ত: 'Subsidy on Stamp Duty and Registration Fee' এবং 'Subsidy for Patent Registration'।",
+      "claims": [
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "incentives",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "শিল্পসাথীর প্রণোদনা-পৃষ্ঠার শেষ মন্তব্য অনুযায়ী ব্যবসার জন্য রাজ্যের অবস্থান কোনটি?",
+      "a": "বর্তমানে রাজ্যের কোনো ঋণ-প্রকল্প নেই; তালিকাভুক্ত প্রকল্পগুলির মাধ্যমে অনুদান দেওয়া হয়",
+      "w": [
+        "রাজ্য নিজে সব MSME-কে সরাসরি ঋণ দেয়",
+        "শুধু পর্যটন ইউনিটই সব সুবিধা পায়",
+        "কোনো ভর্তুকিই আর দেওয়া হয় না"
+      ],
+      "e": "পৃষ্ঠায় স্পষ্ট বলা আছে: রাজ্যের বর্তমানে ব্যবসার জন্য কোনো ঋণ-প্রকল্প নেই, শুধু অনুদান দেওয়া হয় — তাই ঋণ আসে ব্যাংক-মাধ্যম প্রকল্পে (যেমন ভবিষ্যৎ), প্রণোদনা আসে অনুদান-ভর্তুকি হিসেবে।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "incentives",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "পর্যটন ইউনিটের প্রণোদনা সম্পর্কে সঠিক জোড়টি বেছে নাও:",
+      "a": "পর্যটন ইউনিট — বিদ্যুৎ শুল্ক (Electricity Duty) মওকুফের সুবিধা",
+      "w": [
+        "MSME — শুধুমাত্র পেটেন্ট ভর্তুকি",
+        "পর্যটন ইউনিট — কোনো প্রণোদনাই নেই",
+        "MSME — মূলধন ভর্তুকি তালিকায় নেই"
+      ],
+      "e": "প্রণোদনা-পৃষ্ঠায় পর্যটন ইউনিটের তালিকায় 'Waiver of Electricity Duty' আছে; MSME তালিকায় মূলধন ভর্তুকিসহ অনেকগুলি ভর্তুকি আছে, শুধু পেটেন্ট নয়।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "outreach",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'শিল্পের সমাধানে' উদ্যোগের একটি লক্ষ্য কোনটি?",
+      "a": "ভবিষ্যৎ ক্রেডিট কার্ডের কমপক্ষে ২ লক্ষ আবেদন ব্যাংকে পাঠানো (sponsor করা)",
+      "w": [
+        "২ লক্ষ নতুন শিল্পপার্ক তৈরি",
+        "সব MSME-র ঋণ মওকুফ",
+        "২ লক্ষ সরকারি চাকরি দেওয়া"
+      ],
+      "e": "সরকারি পোর্টালের লক্ষ্য-তালিকার প্রথমেই আছে ভবিষ্যৎ ক্রেডিট কার্ডের কমপক্ষে ২ লক্ষ আবেদন ব্যাংকে পাঠানোর লক্ষ্য।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "outreach",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শিল্পের সমাধানে শিবিরে কারিগর ও তাঁতিদের ক্ষেত্রে লক্ষ্য কত?",
+      "a": "কমপক্ষে ৫ লক্ষ কারিগর ও তাঁতিকে রাজ্য সরকারের কাছে তালিকাভুক্ত করা",
+      "w": [
+        "৫ হাজার কারিগর",
+        "৫০ লক্ষ কারিগর",
+        "শুধু রপ্তানিকারক তাঁতিদের তালিকাভুক্তি"
+      ],
+      "e": "পোর্টাল অনুযায়ী লক্ষ্য হল কমপক্ষে ৫ লক্ষ কারিগর ও তাঁতির তালিকাভুক্তি।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "outreach",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিল্পের সমাধানে উদ্যোগে উদ্যম (Udyam) নিবন্ধন সম্পর্কে লক্ষ্য কোনটি?",
+      "a": "কমপক্ষে ৫ লক্ষ বিদ্যমান MSME-কে উদ্যম নিবন্ধন নিতে উৎসাহিত করা",
+      "w": [
+        "সব উদ্যম নিবন্ধন বাতিল করা",
+        "উদ্যম নিবন্ধন শুধু বড় শিল্পের জন্য রাখা",
+        "উদ্যমের বদলে নতুন রাজ্য নিবন্ধন চালু করা"
+      ],
+      "e": "লক্ষ্য-তালিকায় আছে কমপক্ষে ৫ লক্ষ বিদ্যমান MSME-কে উদ্যম নিবন্ধন পেতে উৎসাহিত করা।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "outreach",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিল্পের সমাধানে শিবিরে কোন ধরনের আটকে থাকা ছাড়পত্র নিষ্পত্তির লক্ষ্য আছে?",
+      "a": "মিউটেশন, রূপান্তর (Conversion), বিদ্যুৎ সংযোগ, WBPCB ও অগ্নি ছাড়পত্র",
+      "w": [
+        "শুধু পাসপোর্ট ছাড়পত্র",
+        "শুধু ড্রাইভিং লাইসেন্স",
+        "কেবল জন্ম শংসাপত্র"
+      ],
+      "e": "পোর্টালের তালিকায় Mutation, Conversion, Power Connection, WBPCB clearance, Fire clearance, SWID clearance-সহ সর্বোচ্চ সংখ্যক আটকে থাকা ছাড়পত্র নিষ্পত্তির কথা বলা আছে।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "outreach",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "শিল্পের সমাধানে সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. এতে দক্ষতা (skilling), ঋণ ও প্রকল্পগত হাতে-কলমে সহায়তা অন্যান্য দপ্তর থেকেও আসে।\n২. এটি শুধুমাত্র MSME দপ্তরের একক উদ্যোগ, অন্য কোনো দপ্তর যুক্ত নয়।\nকোনটি সঠিক?",
+      "a": "শুধু ১ সঠিক",
+      "w": [
+        "শুধু ২ সঠিক",
+        "১ ও ২ দুটোই সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক: TET&SD, BCW, MAME ও P&RD দপ্তর থেকে দক্ষতা, ঋণ ও প্রকল্পগত সহায়তা আসে — তাই বিবৃতি ২ ভুল।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "outreach",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "শিল্পসাথী কিয়স্ক কোথায় পাওয়া যায়?",
+      "a": "প্রতি জেলায় অবস্থিত ২৩টি শিল্প সহায়তা কেন্দ্রে (IFC)",
+      "w": [
+        "শুধু কলকাতার WBIDC সদর দপ্তরে",
+        "প্রতিটি ব্যাংক শাখায়",
+        "শুধু অনলাইনে, কোনো ভৌত কেন্দ্র নেই"
+      ],
+      "e": "সরকারি বিবরণ অনুযায়ী রাজ্যের প্রতি জেলায় থাকা ২৩টি Industry Facilitation Centre-এ শিল্পসাথী কিয়স্ক আছে এবং সেখানে হাতে-কলমে সহায়তা মেলে।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "outreach",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): শিল্পের সমাধানে একটি বহু-দপ্তরীয় প্রচার উদ্যোগ।\nকারণ (R): এর লক্ষ্যের মধ্যে ভবিষ্যৎ আবেদন ব্যাংকে পাঠানো, কারিগর-তাঁতি তালিকাভুক্তি, উদ্যম নিবন্ধন ও আটকে থাকা ছাড়পত্র নিষ্পত্তি — সবই একসঙ্গে আছে।",
+      "a": "A ও R দুটোই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য",
+        "A ও R দুটোই মিথ্যা"
+      ],
+      "e": "লক্ষ্য-তালিকাটাই দেখায় উদ্যোগটি ঋণ, তালিকাভুক্তি, নিবন্ধন ও ছাড়পত্র — একাধিক দপ্তরের কাজ এক ছাতার তলায় এনেছে।",
+      "claims": [
+        "c16",
+        "c17",
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "apply_steps",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভবিষ্যৎ প্রকল্পে আবেদনের জন্য কোন নথিগুলি প্রয়োজন?",
+      "a": "আধার, বাসস্থান প্রমাণ, আয়ের শংসাপত্র ও ব্যবসায়িক প্রস্তাব",
+      "w": [
+        "শুধু প্যান কার্ড",
+        "শুধু ভোটার কার্ড",
+        "জমির দলিল বাধ্যতামূলক"
+      ],
+      "e": "প্রকল্প-পৃষ্ঠায় প্রয়োজনীয় নথি হিসেবে Aadhaar, domicile proof, income certificate ও business proposal-এর কথা বলা আছে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "apply_steps",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জেলায় MSME সহায়তা কেন্দ্র (MFC) উদ্যোক্তাকে কোন কাজে সাহায্য করে?",
+      "a": "ফর্ম পূরণে হাতে-কলমে সহায়তা দেওয়া",
+      "w": [
+        "উদ্যোক্তার হয়ে ব্যবসা চালানো",
+        "ব্যাংক ঋণের সুদ নিজে মেটানো",
+        "পণ্য বিক্রির গ্যারান্টি দেওয়া"
+      ],
+      "e": "MFC-র পরিষেবা-তালিকায় ফর্ম পূরণে hand-holding support স্পষ্টভাবে আছে।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "apply_steps",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MFC সম্পর্কে কোন বক্তব্যটি সঠিক?",
+      "a": "MFC আবেদনটি সরকারি অফিসে জমা দেয় এবং আবেদনকারীর হয়ে সার্টিফিকেট/লাইসেন্স সংগ্রহও করতে পারে",
+      "w": [
+        "MFC শুধু তথ্য দেয়, আর কিছু করে না",
+        "MFC নিজে লাইসেন্স ইস্যু করে",
+        "MFC শুধু বড় শিল্পের জন্য"
+      ],
+      "e": "MFC-র তালিকাভুক্ত কাজের মধ্যে আবেদন জমা দেওয়া এবং আবেদনকারীর পক্ষে সার্টিফিকেট/লাইসেন্স সংগ্রহ দুটোই আছে।",
+      "claims": [
+        "c41",
+        "c42"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "apply_steps",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MFC কোন অনলাইন ব্যবস্থার সঙ্গে যুক্ত?",
+      "a": "Single Application Gateway (SAG)",
+      "w": [
+        "শিল্পসাথী CAF ID ব্যবস্থা",
+        "উদ্যম পোর্টাল",
+        "দুয়ারে সরকার পোর্টাল"
+      ],
+      "e": "msme.wb.gov.in-এর বিবরণ অনুযায়ী MFC যুক্ত আছে অনলাইন Single Application Gateway (SAG)-এর সঙ্গে এবং বিভিন্ন সরকারি সংস্থায় করা সব আবেদন গ্রহণের একক বিন্দু হিসেবে কাজ করে।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "apply_steps",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "আবেদন-প্রক্রিয়া সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. ভবিষ্যৎ প্রকল্পে আবেদন অনলাইনে করা যায়।\n২. অনুমোদনের পর নির্ধারিত ব্যাংক ক্রেডিট কার্ড ইস্যু করে।\nকোনটি সঠিক?",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "প্রকল্প-পৃষ্ঠায় অনলাইন আবেদনের কথা আছে এবং বলা আছে ঋণ মঞ্জুর করে নির্ধারিত ব্যাংক, অনুমোদনের পর ক্রেডিট কার্ড ইস্যু হয়।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "apply_steps",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "একজন উদ্যোক্তা MFC থেকে কোন তথ্যটি পাবেন?",
+      "a": "উদ্যোগ স্থাপন বা সরকারি প্রণোদনা পেতে প্রয়োজনীয় সব বিধিবদ্ধ আনুষ্ঠানিকতার (statutory compliance) তথ্য",
+      "w": [
+        "প্রতিযোগীদের ব্যবসায়িক গোপন তথ্য",
+        "শেয়ার বাজারের পূর্বাভাস",
+        "বিদেশি ক্রেতাদের ব্যক্তিগত তথ্য"
+      ],
+      "e": "MFC-র প্রথম পরিষেবাই হল উদ্যোগ স্থাপন বা প্রণোদনা পাওয়ার জন্য প্রয়োজনীয় বিধিবদ্ধ আনুষ্ঠানিকতা সম্পর্কে সব তথ্য দেওয়া।",
+      "claims": [
+        "c44",
+        "c39"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "apply_steps",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "সঠিক ক্রমটি বেছে নাও (ভবিষ্যৎ প্রকল্পের ক্ষেত্রে):",
+      "a": "অনলাইন আবেদন ও নথি জমা → ব্যাংকের মঞ্জুরি → ক্রেডিট কার্ড ইস্যু",
+      "w": [
+        "ক্রেডিট কার্ড ইস্যু → অনলাইন আবেদন → ব্যাংকের মঞ্জুরি",
+        "ব্যাংকের মঞ্জুরি → ক্রেডিট কার্ড ইস্যু → অনলাইন আবেদন",
+        "অনলাইন আবেদন → ক্রেডিট কার্ড ইস্যু → ব্যাংকের মঞ্জুরি"
+      ],
+      "e": "প্রকল্প-পৃষ্ঠার ধাপ অনুযায়ী প্রথমে অনলাইন আবেদন ও নথি, তারপর নির্ধারিত ব্যাংকের মঞ্জুরি, এবং অনুমোদনের পরেই ক্রেডিট কার্ড ইস্যু হয়।",
+      "claims": [
+        "c13",
+        "c14"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "কাঁচামালকে প্রক্রিয়াজাত করে বেশি মূল্যের পণ্য বিপুল পরিমাণে তৈরি করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Production of goods in large quantities after processing from raw materials to more valuable products is called manufacturing.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 58",
+      "notes": "c02"
+    },
+    {
+      "id": "q02",
+      "answer": "উৎপাদন ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Manufacturing sector is considered the backbone of development in general and economic development in particular",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 58",
+      "notes": "c01"
+    },
+    {
+      "id": "q03",
+      "answer": "পাট বস্ত্রশিল্প",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Agro based: cotton, woollen, jute, silk textile, rubber and sugar, tea, coffee, edible oil.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 59",
+      "notes": "c03: jute textile listed as agro-based"
+    },
+    {
+      "id": "q04",
+      "answer": "সরকারি ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Public sector, owned and operated by government agencies – BHEL, SAIL etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 59",
+      "notes": "c05: SAIL given as public sector example"
+    },
+    {
+      "id": "q05",
+      "answer": "অ্যালুমিনিয়াম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Mineral based: iron and steel, cement, aluminium, machine tools, petrochemicals.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 59",
+      "notes": "c04"
+    },
+    {
+      "id": "q06",
+      "answer": "১ ও ২ দুটোই",
+      "confidence": "GUESS",
+      "also_defensible": "শুধু ২",
+      "quote": "Manufacturing sector is considered the backbone of development in general and economic development in particular",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 58",
+      "notes": "not covered by claims: statement 1 (manufacturing reduces dependence on agriculture) has no supporting claim; only statement 2 is supported by c01. Best answer given as GUESS; strictly from claims alone 'only 2' is also defensible."
+    },
+    {
+      "id": "q07",
+      "answer": "চা — কৃষিভিত্তিক শিল্প",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Agro based: cotton, woollen, jute, silk textile, rubber and sugar, tea, coffee, edible oil.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 59",
+      "notes": "c03: tea listed as agro-based"
+    },
+    {
+      "id": "q08",
+      "answer": "রানিগঞ্জ কয়লাক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "India has a long history of commercial coal mining covering nearly 220 years starting from 1774 by M/s Sumner and Heatly of East India Company in the Raniganj Coalfield along the Western bank of river Damodar.",
+      "source_url": "https://coal.nic.in/about-us/history-background",
+      "page": "Coal Mining in India: The Past",
+      "notes": "c16"
+    },
+    {
+      "id": "q09",
+      "answer": "১৭৭৪ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "India has a long history of commercial coal mining covering nearly 220 years starting from 1774 by M/s Sumner and Heatly of East India Company in the Raniganj Coalfield along the Western bank of river Damodar.",
+      "source_url": "https://coal.nic.in/about-us/history-background",
+      "page": "Coal Mining in India: The Past",
+      "notes": "c16: 1774"
+    },
+    {
+      "id": "q10",
+      "answer": "ইস্ট ইন্ডিয়া কোম্পানির সামনার ও হিটলি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "India has a long history of commercial coal mining covering nearly 220 years starting from 1774 by M/s Sumner and Heatly of East India Company in the Raniganj Coalfield along the Western bank of river Damodar.",
+      "source_url": "https://coal.nic.in/about-us/history-background",
+      "page": "Coal Mining in India: The Past",
+      "notes": "c16: Sumner and Heatly of East India Company"
+    },
+    {
+      "id": "q11",
+      "answer": "বাষ্পীয় লোকোমোটিভ চালু হওয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the introduction of steam locomotives in 1853 gave a fillip to it. Within a short span, production rose to an annual average of 1 million tonne (mt) and India could produce 6.12 mts. per year by 1900 and 18 mts per year by 1920.",
+      "source_url": "https://coal.nic.in/about-us/history-background",
+      "page": "Coal Mining in India: The Past",
+      "notes": "c17: steam locomotives 1853"
+    },
+    {
+      "id": "q12",
+      "answer": "১৯৫৬ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Setting up of the National Coal Development Corporation (NCDC), a Government of India Undertaking in 1956 with the collieries owned by the railways as its nucleus was the first major step towards planned development of Indian Coal Industry.",
+      "source_url": "https://coal.nic.in/about-us/history-background",
+      "page": "Coal Mining in India: The Past",
+      "notes": "c18: NCDC set up 1956"
+    },
+    {
+      "id": "q13",
+      "answer": "১ ও ২ দুটোই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The nationalisation was done in two phases, the first with the coking coal mines in 1971-72 and then with the non-coking coal mines in 1973.",
+      "source_url": "https://coal.nic.in/about-us/history-background",
+      "page": "Nationalisation of Coal Mines",
+      "notes": "c19: two-phase nationalisation"
+    },
+    {
+      "id": "q14",
+      "answer": "২, ৩, ১, ৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "India has a long history of commercial coal mining covering nearly 220 years starting from 1774 by M/s Sumner and Heatly of East India Company in the Raniganj Coalfield along the Western bank of river Damodar.",
+      "source_url": "https://coal.nic.in/about-us/history-background",
+      "page": "Coal Mining in India: The Past",
+      "notes": "Order from c16 (1774), c17 (1853), c18 (1956), c19 (1973)"
+    },
+    {
+      "id": "q15",
+      "answer": "রিশরায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra. After Partition in 1947, the jute mills remained in India but threefourth of the jute producing area went to Bangladesh (erstwhile East Pakistan).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": "c06: Rishra 1855"
+    },
+    {
+      "id": "q16",
+      "answer": "হুগলি নদী",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Most of the mills are located in West Bengal, mainly along the banks of the Hugli river, in a narrow belt.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": "c08: Hugli river"
+    },
+    {
+      "id": "q17",
+      "answer": "প্রথম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "India is the largest producer of raw jute and jute goods and stands at second place as an exporter after Bangladesh.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": "c07: largest producer"
+    },
+    {
+      "id": "q18",
+      "answer": "মিলগুলি ভারতে থাকে, কিন্তু পাট উৎপাদন এলাকার তিন-চতুর্থাংশ পূর্ব পাকিস্তানে চলে যায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra. After Partition in 1947, the jute mills remained in India but threefourth of the jute producing area went to Bangladesh (erstwhile East Pakistan).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": "c06: mills remained, three-fourths of area to Bangladesh/East Pakistan"
+    },
+    {
+      "id": "q19",
+      "answer": "কাছাকাছি লোহা আকরিকের খনি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Factors responsible for their location in the Hugli basin are: proximity of the jute producing areas, inexpensive water transport, supported by a good network of railways, roadways and waterways to facilitate movement of raw material to the mills, abundant water for processing raw jute, cheap labour from West Bengal and adjoining states of Bihar, Odisha and Uttar Pradesh. Kolkata as a large urban centre provides banking, insurance and port facilities for export of jute goods.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "pp. 60-61",
+      "notes": "c09 lists Hugli-basin factors; iron ore proximity is not among them"
+    },
+    {
+      "id": "q20",
+      "answer": "১ ও ২ দুটোই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The first successful textile mill was established in Mumbai in 1854.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": "c10 (Mumbai 1854) and c06 (Rishra 1855)"
+    },
+    {
+      "id": "q21",
+      "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Our traditional industries suffered a setback during the colonial period because they could not compete with the millmade cloth from England.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": "c11: reason directly explains the setback"
+    },
+    {
+      "id": "q22",
+      "answer": "লোহা-ইস্পাত শিল্প",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The iron and steel industry is the basic industry since all the other industries — heavy, medium and light, depend on it for their machinery.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 62",
+      "notes": "c12"
+    },
+    {
+      "id": "q23",
+      "answer": "দুর্গাপুরে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It operates and manages four integrated steel plants at Bhilai (Chhattisgarh), Bokaro (Jharkhand), Durgapur (West Bengal) and Rourkela (Orissa). Besides, another integrated Steel Plant at Burnpur is owned by Indian Iron and Steel Co. Ltd., which was earlier a wholly owned subsidiary of SAIL.",
+      "source_url": "https://steel.gov.in/sites/default/files/Annual%20Report%20%282005-06%29.pdf",
+      "page": "Annual Report 2005-06, Chapter III, SAIL section",
+      "notes": "c33: Durgapur West Bengal"
+    },
+    {
+      "id": "q24",
+      "answer": "৪ : ২ : ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Iron ore, coking coal and lime stone are required in the ratio of approximately 4 : 2 : 1.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 62",
+      "notes": "c14: 4:2:1"
+    },
+    {
+      "id": "q25",
+      "answer": "ইন্ডিয়ান আয়রন অ্যান্ড স্টিল কোম্পানি (IISCO)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It operates and manages four integrated steel plants at Bhilai (Chhattisgarh), Bokaro (Jharkhand), Durgapur (West Bengal) and Rourkela (Orissa). Besides, another integrated Steel Plant at Burnpur is owned by Indian Iron and Steel Co. Ltd., which was earlier a wholly owned subsidiary of SAIL.",
+      "source_url": "https://steel.gov.in/sites/default/files/Annual%20Report%20%282005-06%29.pdf",
+      "page": "Annual Report 2005-06, Chapter III, SAIL section",
+      "notes": "c33: Burnpur owned by IISCO"
+    },
+    {
+      "id": "q26",
+      "answer": "১৬ জানুয়ারি ২০০৬",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "IISCO has been merged with SAIL with effect from 16-1-2006.SAIL has three Special and Alloy Steels units at Durgapur (West Bengal), Salem (Tamil Nadu) and Bhadravati (Karnataka).",
+      "source_url": "https://steel.gov.in/sites/default/files/Annual%20Report%20%282005-06%29.pdf",
+      "page": "Annual Report 2005-06, Chapter III, SAIL section",
+      "notes": "c34: merged with effect from 16-1-2006"
+    },
+    {
+      "id": "q27",
+      "answer": "১ ও ২ দুটোই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Chhotanagpur plateau region has the maximum concentration of iron and steel industries. It is largely, because of the relative advantages this region has for the development of this industry. These include, low cost of iron ore, high grade raw materials in proximity, cheap labour and vast growth potential in the home market.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 63",
+      "notes": "c15"
+    },
+    {
+      "id": "q28",
+      "answer": "A-২, B-১, C-৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It operates and manages four integrated steel plants at Bhilai (Chhattisgarh), Bokaro (Jharkhand), Durgapur (West Bengal) and Rourkela (Orissa). Besides, another integrated Steel Plant at Burnpur is owned by Indian Iron and Steel Co. Ltd., which was earlier a wholly owned subsidiary of SAIL.",
+      "source_url": "https://steel.gov.in/sites/default/files/Annual%20Report%20%282005-06%29.pdf",
+      "page": "Annual Report 2005-06, Chapter III, SAIL section",
+      "notes": "c33 (Durgapur SAIL, Burnpur IISCO) and c16 (Raniganj first mining)"
+    },
+    {
+      "id": "q29",
+      "answer": "দেশবন্ধু চিত্তরঞ্জন দাশ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The first President of India, Dr. Rajendra Prasad dedicated the first steam locomotive to the nation on 1st November, 1950 and on the same day the Loco Building Factory was rechristened and named after the great Patriot, Deshbandhu Chittaranjan Das and became Chittaranjan Locomotive Works.",
+      "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+      "page": "About Us",
+      "notes": "c24: named after Deshbandhu Chittaranjan Das"
+    },
+    {
+      "id": "q30",
+      "answer": "২৬ জানুয়ারি ১৯৫০",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The locoworks originally called Loco Building Works was initially established for production of 120 average sized steam locomotives with the capacity to manufacture 50 spare boilers. Production of steam loco commenced on 26th January, 1950.",
+      "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+      "page": "About Us",
+      "notes": "c23: steam loco production commenced 26 Jan 1950"
+    },
+    {
+      "id": "q31",
+      "answer": "রাষ্ট্রপতি ড. রাজেন্দ্র প্রসাদ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The first President of India, Dr. Rajendra Prasad dedicated the first steam locomotive to the nation on 1st November, 1950 and on the same day the Loco Building Factory was rechristened and named after the great Patriot, Deshbandhu Chittaranjan Das and became Chittaranjan Locomotive Works.",
+      "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+      "page": "About Us",
+      "notes": "c24: Dr Rajendra Prasad dedicated first steam locomotive"
+    },
+    {
+      "id": "q32",
+      "answer": "কাঁচরাপাড়ার কাছে চাঁদমারিতে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The initial project, at Chandmari, a place near Kanchrapara, in the state of West Bengal, could not mature due to partition, which inevitably necessitated a change of site.",
+      "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+      "page": "About Us",
+      "notes": "c21: Chandmari near Kanchrapara"
+    },
+    {
+      "id": "q33",
+      "answer": "লোকমান্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The production of Electric Locomotives commenced in 1961. Pandit Jawaharlal Nehru, the first Prime Minister of India, commissioned the first 1500 V dc Locomotive named LOKMANYA on 14th October, 1961.",
+      "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+      "page": "About Us",
+      "notes": "c25: first 1500V DC locomotive named LOKMANYA"
+    },
+    {
+      "id": "q34",
+      "answer": "১ ও ২ দুটোই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It is the only major Electric Locomotive manufacturer in the country. It is situated at the Border of West Bengal and Jharkhand and is at about 32 km from Asansol and 237 kms from Kolkata.",
+      "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+      "page": "About Us",
+      "notes": "c26: only major electric loco manufacturer; 32 km from Asansol"
+    },
+    {
+      "id": "q35",
+      "answer": "২, ৩, ৪, ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "in December, 1947, the Railway Board decided to locate the factory at Chittaranjan, near Mihijam. On the 9thof January 1948, survey of the proposed area was commenced.",
+      "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+      "page": "About Us",
+      "notes": "Order from c22 (Dec 1947 decision), c23 (26 Jan 1950), c24 (1 Nov 1950 renaming), c25 (1961 electric)"
+    },
+    {
+      "id": "q36",
+      "answer": "কলকাতায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "With Head Office located in Kolkata, West Bengal it has twenty three offices which include Zonal, Regional and Sub-Regional Offices located at various cities/towns.",
+      "source_url": "https://www.teaboard.gov.in/TEABOARDCSM/NA==",
+      "page": "About Tea Board India",
+      "notes": "c31: Head Office Kolkata"
+    },
+    {
+      "id": "q37",
+      "answer": "১ এপ্রিল ১৯৫৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The present Tea Board set up under section 4 of the Tea Act 1953 was constituted on 1st April 1954.",
+      "source_url": "https://www.teaboard.gov.in/TEABOARDCSM/NA==",
+      "page": "About Tea Board India",
+      "notes": "c29: constituted 1 April 1954"
+    },
+    {
+      "id": "q38",
+      "answer": "চা আইন, ১৯৫৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The present Tea Board set up under section 4 of the Tea Act 1953 was constituted on 1st April 1954.",
+      "source_url": "https://www.teaboard.gov.in/TEABOARDCSM/NA==",
+      "page": "About Tea Board India",
+      "notes": "c29: set up under section 4 of Tea Act 1953"
+    },
+    {
+      "id": "q39",
+      "answer": "বাণিজ্য মন্ত্রক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The present Tea Board is functioning as a statutory body of the Central Government under the Ministry of Commerce. The Board is constituted of 31 members (including Chairman)",
+      "source_url": "https://www.teaboard.gov.in/TEABOARDCSM/NA==",
+      "page": "About Tea Board India",
+      "notes": "c30: Ministry of Commerce"
+    },
+    {
+      "id": "q40",
+      "answer": "৩১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The present Tea Board is functioning as a statutory body of the Central Government under the Ministry of Commerce. The Board is constituted of 31 members (including Chairman)",
+      "source_url": "https://www.teaboard.gov.in/TEABOARDCSM/NA==",
+      "page": "About Tea Board India",
+      "notes": "c30: 31 members including Chairman"
+    },
+    {
+      "id": "q41",
+      "answer": "১ ও ২ দুটোই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The genesis of the Tea Board India dates back to 1903 when the Indian Tea Cess Bill was passed. The Bill provided for levying a cess on tea exports - the proceeds of which were to be used for the promotion of Indian tea both within and outside India.",
+      "source_url": "https://www.teaboard.gov.in/TEABOARDCSM/NA==",
+      "page": "About Tea Board India",
+      "notes": "c28: 1903 Tea Cess Bill, cess for promotion of Indian tea"
+    },
+    {
+      "id": "q42",
+      "answer": "টি বোর্ড — সদর দপ্তর কলকাতা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "With Head Office located in Kolkata, West Bengal it has twenty three offices which include Zonal, Regional and Sub-Regional Offices located at various cities/towns.",
+      "source_url": "https://www.teaboard.gov.in/TEABOARDCSM/NA==",
+      "page": "About Tea Board India",
+      "notes": "c31 (HQ Kolkata); other pairs contradict c29/c30"
+    }
+  ]
+}

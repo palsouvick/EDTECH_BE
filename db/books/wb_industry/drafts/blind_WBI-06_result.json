@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "একটি মাত্র প্রবেশপথ থেকে অনেক দপ্তরের পরিষেবা পাওয়া",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "This portal offers a single-window system where applicants receive a unique Common Application Form (CAF) ID",
+      "source_url": "https://informatics.nic.in/files/websites/jan-2024/west-bengal.php",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Single-window system per claim; one-entry meaning follows from c21/c32/c33."
+    },
+    {
+      "id": "q02",
+      "answer": "প্রায় ৯৯% শিল্প প্রতিষ্ঠানই MSME, যার ৯৮% অতি ক্ষুদ্র (micro) উদ্যোগ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Almost 99% of industrial undertakings in the state belong to the MSME sector, with 98% of these being micro-enterprises.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q03",
+      "answer": "শিল্পসাথী",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It serves as a digital gateway for providing the necessary statutory compliances under the applicable Acts, Rules, Policies and Schemes of the Govt of West Bengal.",
+      "source_url": "https://silpasathi.wb.gov.in/node/7",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "SilpaSathi is a digital gateway/portal, not a loan scheme."
+    },
+    {
+      "id": "q04",
+      "answer": "১ ও ২ দুটোই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The State has no credit schemes at present for business. Only grants are provided to Business through the above two schemes.",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Stmt1 c31; stmt2 c14 (banks sanction)."
+    },
+    {
+      "id": "q05",
+      "answer": "ভবিষ্যৎ ক্রেডিট কার্ডের মতো উদ্যোক্তা-সহায়তা প্রকল্প পরিচালনা করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "(Department of Micro, Small & Medium Enterprises & Textiles - MSME & T)",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Bhabishyat is a scheme of MSME & T dept."
+    },
+    {
+      "id": "q06",
+      "answer": "প্রথমে তথ্য ও ফর্ম-সহায়তা (MFC/IFC) → শিল্পসাথীতে CAF আবেদন → সংশ্লিষ্ট প্রকল্পে (যেমন ভবিষ্যৎ) ব্যাংক-মঞ্জুরি",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "This portal offers a single-window system where applicants receive a unique Common Application Form (CAF) ID",
+      "source_url": "https://informatics.nic.in/files/websites/jan-2024/west-bengal.php",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Components covered: MFC hand-holding c40, CAF c21, bank sanction c14; order is synthesis."
+    },
+    {
+      "id": "q07",
+      "answer": "A ও R দুটোই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Almost 99% of industrial undertakings in the state belong to the MSME sector, with 98% of these being micro-enterprises.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "R verbatim c03; A follows from R."
+    },
+    {
+      "id": "q08",
+      "answer": "₹৫ লক্ষ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Loan Amount: Up to INR 5 lakh per beneficiary.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q09",
+      "answer": "কর্মসাথী প্রকল্প",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In supersession of \"Karmasathi Prakalpa\", this scheme has been introduced for young entrepreneurs in the age group of 18 - 55 years.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q10",
+      "answer": "১৮–৫৫ বছর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Age: 18 to 55 years.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q11",
+      "answer": "বার্ষিক প্রায় ৪%",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Interest Subsidy: Loans available at a subsidized interest rate of 4% per annum through banks.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match (option says approx. 4%)."
+    },
+    {
+      "id": "q12",
+      "answer": "শুধু ১ সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Collateral-Free: No guarantor or security required.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Stmt1 c07; stmt2 false per c14 banks sanction."
+    },
+    {
+      "id": "q13",
+      "answer": "আগের ঋণে খেলাপি (defaulter) থাকা আবেদনকারী",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Exclusion: Existing loan defaulters are not eligible.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Defaulters excluded; others covered by c09/c10/c12/c02."
+    },
+    {
+      "id": "q14",
+      "answer": "ভবিষ্যৎ ক্রেডিট কার্ড — মার্জিন মানি ভর্তুকি ও ৪% ভর্তুকিযুক্ত সুদ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Subsidy: Government provides Margin Money Subsidy.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Margin Money Subsidy c08 and 4% rate c06."
+    },
+    {
+      "id": "q15",
+      "answer": "Common Application Form (সাধারণ আবেদনপত্র)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the Government of West Bengal has launched Shilpa Sathi where an investor can submit a Common Application Form in the Single Window Cell at WBIDC.",
+      "source_url": "https://wb.gov.in/government-schemes-details-shilpasathi.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Common Application Form per c36/c21."
+    },
+    {
+      "id": "q16",
+      "answer": "অনলাইন সিঙ্গল-উইন্ডো পোর্টাল — লাইসেন্স, অনুমোদন ও প্রণোদনার আবেদনের জন্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Investors can get certificates and licences required for setting up and operating business in the State in a smooth and time-bound manner, without the need to visit any government department or office.",
+      "source_url": "https://silpasathi.wb.gov.in/node/7",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Single-window portal for certificates/licences without office visits."
+    },
+    {
+      "id": "q17",
+      "answer": "কলকাতার ক্যামাক স্ট্রিটে WBIDC-র 'প্রতীতি' ভবনের নিচতলায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "a Single Window Cell (SWC) has started functioning at the Ground Floor, \"Protiti\", West Bengal Industrial Development Corporation Ltd (WBIDC), 23. Abanindranath Thakur Sarani (Camac Street), Kolkata -700017.",
+      "source_url": "https://wb.gov.in/government-schemes-details-shilpasathi.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q18",
+      "answer": "কলকাতা, হাওড়া, হুগলি, দক্ষিণ ২৪ পরগনা ও উত্তর ২৪ পরগনা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Initially, in Phase-I, the facility of Shilpa Sathi is available to investors, who want to set up medium and large industries in Kolkata, Howrah, Hooghly, South24-Parganas and North 24-Parganas districts.",
+      "source_url": "https://wb.gov.in/government-schemes-details-shilpasathi.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q19",
+      "answer": "শুধু ১ সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It allows document uploads, online payments, and verification of details, enabling the acquisition of Final Certificates or Licenses through the pull API from the Legacy system.",
+      "source_url": "https://informatics.nic.in/files/websites/jan-2024/west-bengal.php",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Stmt1 c22; stmt2 false per c33."
+    },
+    {
+      "id": "q20",
+      "answer": "২.৫ লক্ষের বেশি উদ্যোগ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Over 2.5 Lac enterprises benefitted in the past 12 months through simplified clearance processes, including real-time, auto-renewal, and deemed approval of applications.",
+      "source_url": "https://informatics.nic.in/files/websites/jan-2024/west-bengal.php",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q21",
+      "answer": "ক-১, খ-২, গ-৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Silpa Sathi is a dedicated set up in West Bengal Industrial Development Corporation Ltd. (WBIDCL) to facilitate investors in obtaining services required for setting up and operate business in the State in smooth and time bound manner",
+      "source_url": "https://silpasathi.wb.gov.in/node/7",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "SilpaSathi-WBIDC c35, CAF c36, IFC c34."
+    },
+    {
+      "id": "q22",
+      "answer": "রাজ্য মূলধন বিনিয়োগ ভর্তুকি (State Capital Investment Subsidy)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "State Capital Investiment Subsidy",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q23",
+      "answer": "মেয়াদি ঋণের ওপর সুদ ভর্তুকি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Interest subsidy on Term Loan",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q24",
+      "answer": "বিদ্যুৎ ভর্তুকি (Power Subsidy)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Power Subsidy",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q25",
+      "answer": "SGST-র ওপর ভর্তুকি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Subsidy on SGST",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q26",
+      "answer": "১ ও ২ দুটোই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Subsidy on Stamp Duty and Registration Fee",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Stmt1 c29; stmt2 c30 patent subsidy."
+    },
+    {
+      "id": "q27",
+      "answer": "বর্তমানে রাজ্যের কোনো ঋণ-প্রকল্প নেই; তালিকাভুক্ত প্রকল্পগুলির মাধ্যমে অনুদান দেওয়া হয়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The State has no credit schemes at present for business. Only grants are provided to Business through the above two schemes.",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q28",
+      "answer": "পর্যটন ইউনিট — বিদ্যুৎ শুল্ক (Electricity Duty) মওকুফের সুবিধা",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "Power Subsidy",
+      "source_url": "https://silpasathi.wb.gov.in/node/10",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "not covered by claims — no claim mentions tourism units or Electricity Duty waiver; nearest claim is Power Subsidy c27."
+    },
+    {
+      "id": "q29",
+      "answer": "ভবিষ্যৎ ক্রেডিট কার্ডের কমপক্ষে ২ লক্ষ আবেদন ব্যাংকে পাঠানো (sponsor করা)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Sponsoring at least 2 Lacs applications under Bhabishyat Credit Card scheme to the banks",
+      "source_url": "https://ds.wb.gov.in/MSME/Portal_New_Default.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q30",
+      "answer": "কমপক্ষে ৫ লক্ষ কারিগর ও তাঁতিকে রাজ্য সরকারের কাছে তালিকাভুক্ত করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Enlisting at least 5 Lacs artisans and weavers with the state government",
+      "source_url": "https://ds.wb.gov.in/MSME/Portal_New_Default.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q31",
+      "answer": "কমপক্ষে ৫ লক্ষ বিদ্যমান MSME-কে উদ্যম নিবন্ধন নিতে উৎসাহিত করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Encouraging at least 5 Lacs existing MSMEs to obtain Udyam Registrations",
+      "source_url": "https://ds.wb.gov.in/MSME/Portal_New_Default.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q32",
+      "answer": "মিউটেশন, রূপান্তর (Conversion), বিদ্যুৎ সংযোগ, WBPCB ও অগ্নি ছাড়পত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Ensuring disposals of maximum pending clearances like Mutation, Conversion, Power Connection, WBPCB clearance, Fire clearance, SWID clearance etc",
+      "source_url": "https://ds.wb.gov.in/MSME/Portal_New_Default.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match (option lists subset incl. Mutation, Conversion, Power, WBPCB, Fire)."
+    },
+    {
+      "id": "q33",
+      "answer": "শুধু ১ সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Provide support in the form of Skilling, Credit and schematic hand-holding from TET&SD, BCW, MAME, P& RD departments",
+      "source_url": "https://ds.wb.gov.in/MSME/Portal_New_Default.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Stmt1 c20; stmt2 false as other depts involved per c20."
+    },
+    {
+      "id": "q34",
+      "answer": "প্রতি জেলায় অবস্থিত ২৩টি শিল্প সহায়তা কেন্দ্রে (IFC)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "SilpaSathi Kiosks are available at 23 Industry Facilitation Centres (IFCs) located in every district of the State.",
+      "source_url": "https://silpasathi.wb.gov.in/node/7",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q35",
+      "answer": "A ও R দুটোই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Sponsoring at least 2 Lacs applications under Bhabishyat Credit Card scheme to the banks",
+      "source_url": "https://ds.wb.gov.in/MSME/Portal_New_Default.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Targets c16-c19 together support multi-part outreach; dept support c20."
+    },
+    {
+      "id": "q36",
+      "answer": "আধার, বাসস্থান প্রমাণ, আয়ের শংসাপত্র ও ব্যবসায়িক প্রস্তাব",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Required Documents: Aadhaar, domicile proof, income certificate, and business proposal.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q37",
+      "answer": "ফর্ম পূরণে হাতে-কলমে সহায়তা দেওয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Hand-holding support to fill out the forms.",
+      "source_url": "https://msme.wb.gov.in/node/3",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q38",
+      "answer": "MFC আবেদনটি সরকারি অফিসে জমা দেয় এবং আবেদনকারীর হয়ে সার্টিফিকেট/লাইসেন্স সংগ্রহও করতে পারে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Submitting the application to the government office by the MFC.",
+      "source_url": "https://msme.wb.gov.in/node/3",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "MFC submits application c41 and collects certificate c42."
+    },
+    {
+      "id": "q39",
+      "answer": "Single Application Gateway (SAG)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The MFC is tagged to the online Single Application Gateway(SAG) through http://myenterprisewb.in and act as a single piont to receive all applications made by an entrepreneur to various government entities",
+      "source_url": "https://msme.wb.gov.in/node/3",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q40",
+      "answer": "১ ও ২ দুটোই সঠিক",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "Bank Processing: Loans are sanctioned by designated banks; credit cards issued post-approval.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "not covered by claims — stmt2 covered by c14 (cards issued post-approval by banks) but no claim states Bhabishyat application can be made online; best answer given."
+    },
+    {
+      "id": "q41",
+      "answer": "উদ্যোগ স্থাপন বা সরকারি প্রণোদনা পেতে প্রয়োজনীয় সব বিধিবদ্ধ আনুষ্ঠানিকতার (statutory compliance) তথ্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "All information on statutory compliances needed to set up an enterprise or to avail government incentives.",
+      "source_url": "https://msme.wb.gov.in/node/3",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Direct match."
+    },
+    {
+      "id": "q42",
+      "answer": "অনলাইন আবেদন ও নথি জমা → ব্যাংকের মঞ্জুরি → ক্রেডিট কার্ড ইস্যু",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Bank Processing: Loans are sanctioned by designated banks; credit cards issued post-approval.",
+      "source_url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+      "page": "web page (accessed 2026-11-19)",
+      "notes": "Sanction before card issue per c14."
+    }
+  ]
+}

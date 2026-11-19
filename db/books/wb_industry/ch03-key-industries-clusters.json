@@ -1,0 +1,1400 @@
+{
+  "book": "wb_industry",
+  "code": "WBI-03",
+  "number": 3,
+  "part": "present",
+  "title": "প্রধান শিল্প ও ক্লাস্টার",
+  "subtitle": "পাট, চা, ইস্পাত, চামড়া, তাঁত ও নতুন শিল্পের মানচিত্র",
+  "subtopics": [
+    "key_industries"
+  ],
+  "related_facts": [
+    "GK-IND-009",
+    "GK-IND-010",
+    "GK-IND-011"
+  ],
+  "prerequisites": [
+    "WBI-02"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 30,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 2 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 1 of 5 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_WBI-03.json and drafts/WBI-03_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/WBI-03_REPORT.md. Duplicate-stem fix after install: WBI-03 q02 duplicated WBI-01 q16 and WBI-07 q02 duplicated WBI-01 q15 verbatim; both stems in the later chapters were reworded with keys, options and claims unchanged, and a fresh independent blind check of both replacements matched every key (2/2, both SURE).",
+    "checked_claims": 38,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "পশ্চিমবঙ্গের শিল্প-পরিচিতি গড়ে উঠেছে কয়েকটি বড় শিল্প আর অসংখ্য ছোট ক্লাস্টারের জালে। এই অধ্যায়ে আমরা রাজ্যের প্রধান শিল্পগুলিকে একে একে চিনব: হুগলি বেল্টের পাট, উত্তরবঙ্গের চা ও দার্জিলিং GI, বার্নপুরের ইস্পাত ও হাওড়ার ফাউন্ড্রি, বাঁতলার চামড়া, মুর্শিদাবাদের তাঁত-ক্লাস্টার, আর ইলেকট্রনিক্স-অটোমোবাইলের মতো নতুন শিল্পে কলকাতার জায়গা। প্রতিটি শিল্পের সঙ্গে মনে রাখতে হবে তার অবস্থানের কারণ — কারণ পরীক্ষায় প্রশ্ন আসে 'কোথায়' নয়, 'কেন সেখানে'।",
+    "you_will_learn": [
+      "হুগলি বেল্টে পাটকল গড়ে ওঠার ছয়টি কারণ ও দেশভাগের প্রভাব",
+      "দার্জিলিং চা কেন ভারতের প্রথম GI, আর GI-র মালিক কেন চা পর্ষদ",
+      "ইস্পাত কেন মূল শিল্প, আর বার্নপুর IISCO-র বর্তমান চিত্র",
+      "বাঁতলার কলকাতা লেদার কমপ্লেক্স ও CETP-র ভূমিকা",
+      "তাঁত গণনার (২০১৯-২০) প্রধান সংখ্যা ও ২৯২টি MSME ক্লাস্টারের ধারণা",
+      "শিল্পের শ্রেণিবিন্যাস (কৃষিভিত্তিক/খনিজভিত্তিক, মূল/ভোক্তা) ও নতুন শিল্পে কলকাতার স্থান"
+    ]
+  },
+  "sections": [
+    {
+      "id": "jute_textile",
+      "heading": "পাট ও বস্ত্রশিল্প: হুগলি বেল্ট",
+      "quick": "পশ্চিমবঙ্গের সবচেয়ে পরিচিত শিল্প হল পাটশিল্প। ভারত কাঁচা পাট ও পাটজাত পণ্যের বৃহত্তম উৎপাদক, আর অধিকাংশ পাটকলই পশ্চিমবঙ্গে, হুগলি নদীর দুই পাড়ের সরু বেল্টে ছড়িয়ে আছে। প্রথম পাটকল বসেছিল ১৮৫৫ সালে রিশরায়।",
+      "standard": "শিল্প মানে কাঁচামাল প্রক্রিয়াজাত করে বেশি মূল্যের পণ্য বিপুল পরিমাণে তৈরি করা। কাঁচামালের উৎস অনুযায়ী শিল্প দুই ভাগে ভাগ হয় — কৃষিভিত্তিক (agro-based) ও খনিজভিত্তিক (mineral-based)। পাট, তুলো, রেশম, চা, চিনি হল কৃষিভিত্তিক শিল্পের উদাহরণ। বস্ত্রশিল্পের একটি বিশেষ মর্যাদা আছে: NCERT-র ভাষায় এটিই দেশের একমাত্র শিল্প যা কাঁচামাল থেকে সর্বোচ্চ মূল্য-সংযোজিত পণ্য পর্যন্ত পুরো মূল্য-শৃঙ্খলে (value chain) আত্মনির্ভর ও সম্পূর্ণ।\n\nপাটশিল্পে ভারতের অবস্থান দ্বৈত: ভারত কাঁচা পাট ও পাটজাত পণ্যের বিশ্বের বৃহত্তম উৎপাদক, কিন্তু রপ্তানিতে বাংলাদেশের পরে দ্বিতীয়। অধিকাংশ পাটকল পশ্চিমবঙ্গে, প্রধানত হুগলি নদীর তীরে একটি সরু বেল্টে অবস্থিত — রিশরা, শ্রীরামপুর, জগদ্দল, কাঁকিনাড়া, বজবজ, হাওড়া প্রভৃতি কেন্দ্র এই বেল্টেরই অংশ।\n\nকেন হুগলি অববাহিকাতেই মিলগুলি জমল? NCERT ছয়টি সুবিধা গুনেছে: (১) পাট-উৎপাদক অঞ্চলের নৈকট্য; (২) সস্তা জলপথ পরিবহণ, সঙ্গে রেল, সড়ক ও জলপথের ভালো জাল; (৩) কাঁচা পাট প্রক্রিয়াকরণের জন্য প্রচুর জল; (৪) পশ্চিমবঙ্গ ও প্রতিবেশী বিহার, ওড়িশা ও উত্তরপ্রদেশ থেকে সস্তা শ্রমিক; (৫) বড় শহর কলকাতার ব্যাংক, বিমা ও বন্দর-সুবিধা, যা পাটপণ্য রপ্তানিতে কাজে লাগে। কাঁচামাল, জল, শ্রম, পরিবহণ ও বন্দর — এই পাঁচটির মিলনই হুগলি বেল্টকে পাটের রাজধানী করেছে।\n\n১৯৪৭ সালের দেশভাগ এই শিল্পের ভূগোল বদলে দেয়: পাটকলগুলি ভারতেই থেকে গেল, কিন্তু পাট-উৎপাদক এলাকার তিন-চতুর্থাংশ চলে গেল বাংলাদেশে (তৎকালীন পূর্ব পাকিস্তান)। অর্থাৎ মিল এক দেশে, কাঁচামালের বড় অংশ আরেক দেশে — এই বিভাজনই পাটশিল্পের দীর্ঘমেয়াদি সমস্যার মূল।\n\nপাটশিল্পকে টিকিয়ে রাখতে সরকার আইনি চাহিদা তৈরি করেছে: পাট প্যাকেজিং উপকরণ (বাধ্যতামূলক ব্যবহার) আইন, ১৯৮৭ চালু রাখা হয়েছে কাঁচা-পাট চাষি ও পাটশ্রমিকদের স্বার্থে। ৩০-১১-২০১৮-র আদেশে খাদ্যশস্যের ১০০% এবং চিনির ২০% বাধ্যতামূলকভাবে পাটের প্যাকেজিংয়ে মোড়কজাত করতে হয় — ফলে বস্তার (sacking) স্থায়ী বাজার তৈরি হয়েছে।",
+      "deep": "পরীক্ষার জন্য মনে রাখো: 'প্রথম পাটকল — রিশরা, ১৮৫৫' আর 'হুগলি বেল্টের ছয় সুবিধা' — এই দুটি প্রশ্ন Clerkship ও WBCS-এ বারবার ঘুরে আসে। দেশভাগের পরিসংখ্যান (মিল ভারতে, জমির তিন-চতুর্থাংশ বাংলাদেশে) বিবৃতি-ভিত্তিক (STATEMENT) প্রশ্নে প্রায়ই দেওয়া হয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "উৎপাদকে প্রথম, রপ্তানিতে দ্বিতীয়",
+          "body": "ভারত কাঁচা পাট ও পাটপণ্যের বৃহত্তম **উৎপাদক**, কিন্তু **রপ্তানিতে** বাংলাদেশের পরে দ্বিতীয়। দুটিকে গুলিয়ে ফেললেই ভুল উত্তর হবে।",
+          "claims": [
+            "c05"
+          ]
+        }
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c25",
+        "c26"
+      ]
+    },
+    {
+      "id": "tea_industry",
+      "heading": "চা শিল্প: দার্জিলিং ও GI সুরক্ষা",
+      "quick": "উত্তরবঙ্গের পাহাড়ি বাগানের দার্জিলিং চা বিশ্বখ্যাত। এই চায়ের নাম ও লোগোই ভারতে নিবন্ধিত প্রথম ভৌগোলিক নির্দেশক (GI); মালিক ও রক্ষক চা পর্ষদ (Tea Board)। নির্ধারিত এলাকার ৮৭টি বাগানের চা-ই আইনত 'দার্জিলিং' নাম পায়।",
+      "standard": "কৃষিভিত্তিক শিল্পের তালিকায় চা একটি প্রধান নাম। কিন্তু পশ্চিমবঙ্গের চা-আলোচনায় সবচেয়ে পরীক্ষণীয় অংশটি হল দার্জিলিং চায়ের ভৌগোলিক নির্দেশক (Geographical Indication, GI) সুরক্ষা। GI মানে এমন চিহ্ন, যা বোঝায় পণ্যটির গুণ, খ্যাতি বা বৈশিষ্ট্য মূলত তার ভৌগোলিক উৎসের কারণেই। চা পর্ষদের ভাষায়, দার্জিলিং চায়ের গুণ, খ্যাতি ও বৈশিষ্ট্য মূলত তার ভৌগোলিক উৎসের সঙ্গেই যুক্ত।\n\nনিয়মটি কঠোর: কেবল পশ্চিমবঙ্গের দার্জিলিং জেলার নির্ধারিত এলাকায় উৎপাদিত চা-ই 'দার্জিলিং' নামে ডাকা যায়; একই জাতের চা-গাছ অন্য কোথাও লাগালেও সেই চা দার্জিলিং হবে না। এই নির্ধারিত এলাকায় আছে ৮৭টি চা বাগান, ছড়িয়ে প্রায় ১৭,৫০০ হেক্টর জমি জুড়ে।\n\nআইনি মর্যাদার দিক থেকে দার্জিলিং সবার আগে: 'দার্জিলিং' শব্দ ও লোগোই ভারতে নিবন্ধিত প্রথম GI, এবং তা নিবন্ধিত হয়েছে চা পর্ষদের নামে। অর্থাৎ নামটির মালিক কোনো একক বাগান বা কোম্পানি নয় — মালিক সরকারি চা পর্ষদ, যারা লাইসেন্স দিয়ে আসল দার্জিলিং চা চেনার ব্যবস্থা করে।\n\nপ্রশাসনিক কাঠামোও মনে রাখার মতো: ভারতের সব চা-উৎপাদক এলাকার চা, দার্জিলিংসহ, পরিচালিত হয় চা পর্ষদ (Tea Board, India) দ্বারা, চা আইন, ১৯৫৩-এর অধীনে। তাই 'দার্জিলিং GI-র মালিক কে' আর 'চা শিল্প কোন আইনে চলে' — দুটি প্রশ্নের উত্তরই একই প্রতিষ্ঠানের দিকে ইঙ্গিত করে।",
+      "deep": "GI প্রশ্নে তিনটি তথ্য একসঙ্গে মনে রাখো: প্রথম GI = দার্জিলিং (শব্দ ও লোগো), মালিক = চা পর্ষদ, বাগান = ৮৭টি। WBCS ও Clerkship-এ 'ভারতের প্রথম GI পণ্য কোনটি' প্রশ্নটি সরাসরি আসে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "কোন চা 'দার্জিলিং' হতে পারে",
+          "body": "একই চা-গাছ অন্য রাজ্যে লাগালেও সেই চা দার্জিলিং নাম পাবে না — নামটি জায়গার, গাছের নয়। GI-র পুরো ধারণাটাই এই জায়গা-নির্ভরতার ওপর দাঁড়িয়ে।",
+          "claims": [
+            "c17"
+          ]
+        }
+      ],
+      "claims": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "steel_engineering",
+      "heading": "ইস্পাত ও ইঞ্জিনিয়ারিং: বার্নপুর–দুর্গাপুর ও হাওড়া",
+      "quick": "লোহা ও ইস্পাত হল মূল বা ভিত্তি শিল্প (basic industry), কারণ সব শিল্পের যন্ত্রপাতি ইস্পাত দিয়েই তৈরি। পশ্চিমবঙ্গের ইস্পাত-কেন্দ্র বার্নপুরের IISCO কারখানা (SAIL-এর অধীনে), আর হাওড়ায় আছে লিলুয়ার ধাতব-ঢালাই (foundry) ক্লাস্টার।",
+      "standard": "খনিজভিত্তিক শিল্পের প্রধান উদাহরণ লোহা ও ইস্পাত। একে 'মূল শিল্প' (basic/key industry) বলা হয়, কারণ ভারী, মাঝারি ও হালকা — সব শিল্পই তাদের যন্ত্রপাতির জন্য এর ওপর নির্ভরশীল। যেসব শিল্প নিজের পণ্যকে অন্য পণ্য তৈরির কাঁচামাল হিসেবে জোগায়, তারাই মূল শিল্প; ইস্পাত ছাড়াও তামা-গলন ও অ্যালুমিনিয়াম-গলন এই শ্রেণির। ইস্পাতের উৎপাদন ও ব্যবহারকে প্রায়ই একটি দেশের উন্নয়নের সূচক ধরা হয়। ইস্পাত ভারী শিল্পও বটে: কাঁচামাল লৌহ আকরিক, কোকিং কয়লা ও চুনাপাথর লাগে প্রায় ৪ : ২ : ১ অনুপাতে, সঙ্গে ইস্পাত শক্ত করতে কিছু ম্যাঙ্গানিজ।\n\nভারতে ইস্পাত কারখানার সর্বাধিক ঘনত্ব ছোটনাগপুর মালভূমি অঞ্চলে, কারণ সেখানে সস্তা লৌহ আকরিক, কাছাকাছি উচ্চমানের কাঁচামাল, সস্তা শ্রমিক আর দেশীয় বাজারের বিশাল বৃদ্ধির সম্ভাবনা একসঙ্গে মেলে। পশ্চিমবঙ্গের পশ্চিমের আসানসোল–দুর্গাপুর বেল্ট এই অঞ্চলেরই ধারাবাহিকতা।\n\nবার্নপুরের IISCO ইস্পাত কারখানা (ISP) দেশের প্রাচীনতম ও সবচেয়ে গুরুত্বপূর্ণ সংযুক্ত (integrated) ইস্পাত কারখানাগুলির একটি, এবং এটি ভারতীয় ইস্পাত কর্তৃপক্ষ SAIL-এর অধীনে চলে। সাম্প্রতিক সরকারি তথ্যে (অর্থবছর ২০২৫-২৬) কারখানাটি ২.৯ মিলিয়ন টন হট মেটাল উৎপাদন করেছে, এবং সেখানে ভবিষ্যতে ৪.০৮ MTPA সম্প্রসারণ প্রকল্পের পরিকল্পনা আছে — অর্থাৎ পুরনো কারখানাটি আজও বাড়ছে। একই বেল্টে দুর্গাপুরে গড়ে উঠেছে ফ্লাই অ্যাশ ইটের মতো সহায়ক MSME ক্লাস্টারও।\n\nইঞ্জিনিয়ারিংয়ের অপর প্রাণকেন্দ্র হাওড়া। রাজ্য MSME অধিদপ্তরের ক্লাস্টার-তালিকায় হাওড়ার লিলুয়ায় আছে ধাতব-ঢালাই (metal casting) ক্লাস্টার, যেখানে ফাউন্ড্রি পণ্য তৈরি হয় এবং যা MSE-CDP কর্মসূচির আওতায় নেওয়া হয়েছে; জগৎবল্লভপুরের বারগাছিয়ায় আছে যন্ত্রপাতির ধাতব খুচরা যন্ত্রাংশের (metal spare parts) ক্লাস্টার। বড় কারখানার পাশে ছোট ঢালাই ও যন্ত্রাংশ-ইউনিটের এই জালই হাওড়ার ইঞ্জিনিয়ারিং চরিত্র।",
+      "deep": "অনুপাতটি মুখস্থ রাখো: লৌহ আকরিক : কোকিং কয়লা : চুনাপাথর = ৪ : ২ : ১। আর 'ইস্পাত কেন মূল শিল্প' — উত্তর: সব শিল্পের যন্ত্রপাতি ইস্পাতনির্ভর।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মূল শিল্পের সহজ পরীক্ষা",
+          "body": "যে শিল্পের পণ্য অন্য শিল্পের কাঁচামাল বা যন্ত্র হয়, সেটাই মূল শিল্প। ইস্পাত দিয়ে যন্ত্র তৈরি হয় বলেই ইস্পাত মূল শিল্প; জুতা বা পোশাক সরাসরি ভোক্তার কাছে যায় বলে সেগুলি ভোক্তা শিল্প।",
+          "claims": [
+            "c03"
+          ]
+        }
+      ],
+      "claims": [
+        "c03",
+        "c10",
+        "c11",
+        "c12",
+        "c28",
+        "c29",
+        "c30",
+        "c34",
+        "c35",
+        "c38"
+      ]
+    },
+    {
+      "id": "leather",
+      "heading": "চামড়া শিল্প: বাঁতলার কলকাতা লেদার কমপ্লেক্স",
+      "quick": "কলকাতার চামড়া শিল্পের প্রাণকেন্দ্র পূর্ব কলকাতার বাঁতলার কলকাতা লেদার কমপ্লেক্স (CLC)। সেখানে মেগা লেদার, ফুটওয়্যার ও অ্যাক্সেসরিজ ক্লাস্টার গড়তে নীতিগত অনুমোদন মিলেছে, আর চামড়া ক্ষেত্রটি 'মেক ইন ইন্ডিয়া'-র অন্যতম অগ্রাধিকার (focus) ক্ষেত্র।",
+      "standard": "ট্যানারি বা চর্ম-প্রক্রিয়াকরণ শিল্পের একটি পরিবেশগত দিক পরীক্ষায় গুরুত্বপূর্ণ: শিল্প চার ধরনের দূষণ ঘটায় — বায়ু, জল, ভূমি ও শব্দ — এবং জলাশয়ে বর্জ্য ফেলা শিল্পগুলির মধ্যে ট্যানারি অন্যতম প্রধান। তাই চামড়া শিল্পে যৌথ বর্জ্যজল শোধনাগার (Common Effluent Treatment Plant, CETP) কেন্দ্রীয় বিষয়: কেন্দ্রীয় IFLADP কর্মসূচিতে CETP উন্নয়ন/স্থাপনে প্রকল্প-ব্যয়ের ৭০% পর্যন্ত সহায়তা দেওয়া হয়, সর্বোচ্চ ২০০ কোটি টাকা।\n\nকলকাতার ক্ষেত্রে এই যুক্তিই বড় আকার নিয়েছে বাঁতলায়। ভারতীয় ফুটওয়্যার, লেদার ও অ্যাক্সেসরিজ উন্নয়ন কর্মসূচির (IFLADP) মেগা ক্লাস্টার উপ-প্রকল্পে বাঁতলার কলকাতা লেদার কমপ্লেক্সে মেগা লেদার ফুটওয়্যার ও অ্যাক্সেসরিজ ক্লাস্টার স্থাপনের প্রকল্পে নীতিগত (in-principle) অনুমোদন দেওয়া হয়েছে। অর্থাৎ ট্যানারির পাশাপাশি জুতা ও চামড়াজাত পণ্যের বড় ক্লাস্টার গড়াই লক্ষ্য।\n\nজাতীয় স্তরেও চামড়ার মর্যাদা স্পষ্ট: চামড়া ক্ষেত্রকে 'মেক ইন ইন্ডিয়া' কর্মসূচির অন্যতম অগ্রাধিকার ক্ষেত্র (focus sector) হিসেবে চিহ্নিত করা হয়েছে। পরীক্ষায় 'কোন ক্ষেত্রটি মেক ইন ইন্ডিয়ার focus sector' ধরনের প্রশ্নে চামড়া একটি সঠিক উত্তর।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "বাঁতলা কেন মনে রাখবে",
+          "body": "কলকাতা লেদার কমপ্লেক্সের নামের সঙ্গে জায়গাটি জুড়ে মনে রাখো: CLC = বাঁতলা, পূর্ব কলকাতা। জায়গা-ভিত্তিক প্রশ্নে এই জুটিটিই আসে।",
+          "claims": [
+            "c31"
+          ]
+        }
+      ],
+      "claims": [
+        "c16",
+        "c31",
+        "c32",
+        "c33"
+      ]
+    },
+    {
+      "id": "handloom_clusters",
+      "heading": "তাঁত, হস্তশিল্প ও MSME ক্লাস্টার",
+      "quick": "চতুর্থ সর্বভারতীয় তাঁত গণনা (২০১৯-২০) অনুযায়ী পশ্চিমবঙ্গে তাঁতের সংখ্যা ২,৮৩,৪০৪ এবং তাঁতশিল্পী ৩,৬৬,৬৫৬ জন (২০১৯ সালে প্রকাশিত তথ্য)। মুর্শিদাবাদ জেলায় অনুমোদিত হয়েছে একটি মেগা হ্যান্ডলুম ক্লাস্টার, আর রাজ্যজুড়ে MSME অধিদপ্তর ২৯২টি ক্লাস্টার চিহ্নিত করেছে।",
+      "standard": "বড় কারখানার বাইরে পশ্চিমবঙ্গের শিল্পের আসল বিস্তার তাঁত ও ক্ষুদ্র ক্লাস্টারে। চতুর্থ সর্বভারতীয় তাঁত গণনা (২০১৯-২০) অনুযায়ী রাজ্যে তাঁত আছে ২,৮৩,৪০৪টি এবং তাঁতশিল্পী ৩,৬৬,৬৫৬ জন। এই বিপুল শ্রমশক্তিকে সংগঠিত করতে মুর্শিদাবাদ জেলায় একটি মেগা হ্যান্ডলুম ক্লাস্টার অনুমোদিত হয়েছে। তাঁতিদের সুতো জোগানে রাজ্যে চালু আছে ৪৯টি সুতো ডিপো (Yarn Depot) ও ৩টি গুদাম, যেখানে ভর্তুকি-মূল্যে সুতো মেলে।\n\n'ক্লাস্টার' মানে একই পণ্যের বহু ছোট ইউনিটের ভৌগোলিক গুচ্ছ। রাজ্যের MSME অধিদপ্তর মোট ২৯২টি MSME ক্লাস্টার চিহ্নিত করে তালিকাভুক্ত করেছে — প্রতিটির জন্য জেলা শিল্প কেন্দ্রের (DIC) নির্দিষ্ট কর্মীও বরাদ্দ আছে। উদাহরণ দেখলেই ধারণাটি পরিষ্কার হয়: হাওড়ার ডোমজুড়ে রত্ন ও গহনা (gems and jewellery) ক্লাস্টার, লিলুয়ায় ধাতব-ঢালাই, দুর্গাপুরে ফ্লাই অ্যাশ ইট। একেক জেলায় একেক পণ্যের গুচ্ছ — এটাই বাংলার ক্লাস্টার-ভূগোল।\n\nপরীক্ষার দৃষ্টিতে এই অংশ থেকে সংখ্যাগুলিই প্রধান: তাঁত ২,৮৩,৪০৪, তাঁতশিল্পী ৩,৬৬,৬৫৬, ক্লাস্টার ২৯২, সুতো ডিপো ৪৯। সংখ্যাগুলি সময়-নির্ভর, তাই উত্তরে সালসহ মনে রাখো — গণনার বছর ২০১৯-২০।",
+      "deep": "সংখ্যা মনে রাখার কৌশল: তাঁত ≈ ২.৮৩ লক্ষ, তাঁতশিল্পী ≈ ৩.৬৭ লক্ষ — শিল্পীর সংখ্যা তাঁতের চেয়ে বেশি, কারণ এক তাঁতে একাধিক জন কাজ করেন।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সংখ্যাগুলি সালসহ",
+          "body": "তাঁত-সংখ্যাগুলি চতুর্থ সর্বভারতীয় তাঁত গণনা (২০১৯-২০)-র; নতুন গণনা এলে অঙ্ক বদলাতে পারে। পরীক্ষায় সাল উল্লেখ থাকলে সেই অনুযায়ী উত্তর বাছো।",
+          "claims": [
+            "c23"
+          ]
+        }
+      ],
+      "claims": [
+        "c23",
+        "c24",
+        "c27",
+        "c36",
+        "c37"
+      ]
+    },
+    {
+      "id": "concepts_new",
+      "heading": "শিল্পের ধারণা ও নতুন শিল্প: ইলেকট্রনিক্স ও অটোমোবাইল",
+      "quick": "শিল্প বুঝতে প্রথমে দরকার শ্রেণিবিন্যাস: কাঁচামালের উৎসে কৃষিভিত্তিক/খনিজভিত্তিক, ভূমিকায় মূল/ভোক্তা, মালিকানায় সরকারি/বেসরকারি। নতুন শিল্পের মানচিত্রেও কলকাতা আছে — NCERT কলকাতাকে ইলেকট্রনিক পণ্য ও অটোমোবাইলের অন্যতম কেন্দ্র হিসেবে গুনেছে।",
+      "standard": "প্রথমে সংজ্ঞাটি গুছিয়ে নাও: কাঁচামাল প্রক্রিয়াজাত করে বেশি মূল্যের পণ্য বিপুল পরিমাণে উৎপাদন করাই ম্যানুফ্যাকচারিং বা শিল্পোৎপাদন — কাঠ থেকে কাগজ, আখ থেকে চিনি, লৌহ আকরিক থেকে ইস্পাত, বক্সাইট থেকে অ্যালুমিনিয়াম। NCERT-র শ্রেণিবিন্যাসের প্রধান ভিত্তিগুলি হল: (১) কাঁচামালের উৎস — কৃষিভিত্তিক (পাট, তুলো, রেশম, চা, চিনি) বনাম খনিজভিত্তিক (ইস্পাত, সিমেন্ট, অ্যালুমিনিয়াম, পেট্রোরসায়ন); (২) প্রধান ভূমিকা — মূল শিল্প বনাম ভোক্তা শিল্প; (৩) মালিকানা — সরকারি, বেসরকারি, যৌথ ও সমবায়; (৪) কাঁচামাল ও পণ্যের ওজন — ভারী (ইস্পাত) বনাম হালকা (বৈদ্যুতিক পণ্য)।\n\nএই কাঠামোতে পশ্চিমবঙ্গের জায়গা কোথায়? অ্যালুমিনিয়াম-গলন কেন্দ্রের তালিকায় NCERT পশ্চিমবঙ্গের নাম রেখেছে ওড়িশা, কেরল, উত্তরপ্রদেশ, ছত্তিশগড়, মহারাষ্ট্র ও তামিলনাড়ুর সঙ্গে। ইলেকট্রনিক পণ্যের গুরুত্বপূর্ণ কেন্দ্রগুলির মধ্যে আছে কলকাতা — মুম্বই, দিল্লি, হায়দরাবাদ, পুনে, চেন্নাই, লখনউ ও কোয়েম্বাটুরের পাশাপাশি। অটোমোবাইল শিল্পের কেন্দ্রের তালিকাতেও কলকাতা আছে দিল্লি, গুরুগ্রাম, মুম্বই, পুনে, চেন্নাই, লখনউ, ইন্দোর, হায়দরাবাদ, জামশেদপুর ও বেঙ্গালুরুর সঙ্গে।\n\nঅর্থাৎ পুরনো শিল্পের (পাট, চা, ইস্পাত) পাশাপাশি নতুন শিল্পের জাতীয় মানচিত্রেও কলকাতা একটি স্বীকৃত কেন্দ্র — এই তিনটি তালিকা (অ্যালুমিনিয়ামে রাজ্য, ইলেকট্রনিক্সে শহর, অটোমোবাইলে শহর) একসঙ্গে মনে রাখলে মানচিত্র-ভিত্তিক প্রশ্ন সহজ হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "বেঙ্গালুরু বনাম কলকাতা",
+          "body": "ইলেকট্রনিক্সের রাজধানী বলা হয় বেঙ্গালুরুকে; কলকাতা 'অন্যান্য গুরুত্বপূর্ণ কেন্দ্র'-এর একটি। দুটিকে অদলবদল করো না।",
+          "claims": [
+            "c14"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c13",
+        "c14",
+        "c15"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "প্রথম পাটকল স্থাপন",
+      "when": "১৮৫৫",
+      "what": "কলকাতার কাছে রিশরায় ভারতের প্রথম পাটকল বসে।",
+      "why_it_matters": "এখান থেকেই হুগলি বেল্টের পাট-কেন্দ্রিক শিল্প-ভূগোলের শুরু।",
+      "section": "jute_textile",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "title": "দেশভাগ ও পাটশিল্পের বিভাজন",
+      "when": "১৯৪৭",
+      "what": "পাটকলগুলি ভারতে থেকে যায়, কিন্তু পাট-উৎপাদক এলাকার তিন-চতুর্থাংশ চলে যায় বাংলাদেশে (তৎকালীন পূর্ব পাকিস্তান)।",
+      "why_it_matters": "মিল ও কাঁচামাল দুই দেশে ভাগ হয়ে যাওয়াই পাটশিল্পের দীর্ঘমেয়াদি সংকটের ভিত্তি।",
+      "section": "jute_textile",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "title": "পাট প্যাকেজিং আইন",
+      "when": "১৯৮৭",
+      "what": "পাট প্যাকেজিং উপকরণ (বাধ্যতামূলক ব্যবহার) আইন প্রণীত হয়; পরে তা চালু রাখার সিদ্ধান্ত হয় চাষি ও শ্রমিকের স্বার্থে।",
+      "why_it_matters": "আইনি বাধ্যতামূলক চাহিদাই পাটের বস্তার স্থায়ী বাজার ধরে রেখেছে।",
+      "section": "jute_textile",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "title": "দার্জিলিং — ভারতের প্রথম GI নিবন্ধন",
+      "when": "GI আইন, ১৯৯৯-এর অধীনে প্রথম নিবন্ধন",
+      "what": "'দার্জিলিং' শব্দ ও লোগো ভারতে নিবন্ধিত প্রথম ভৌগোলিক নির্দেশক হয়, চা পর্ষদের নামে।",
+      "why_it_matters": "GI প্রশ্নে এটিই সবচেয়ে বেশি জিজ্ঞাসিত তথ্য; মালিকানা চা পর্ষদের হাতে থাকাটাও পরীক্ষণীয়।",
+      "section": "tea_industry",
+      "claims": [
+        "c20"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [],
+  "terms": [
+    {
+      "term": "মূল শিল্প (Basic/Key Industry)",
+      "meaning": "যে শিল্পের পণ্য অন্য শিল্পের কাঁচামাল বা যন্ত্র হিসেবে ব্যবহৃত হয়; যেমন লোহা ও ইস্পাত।",
+      "section": "steel_engineering"
+    },
+    {
+      "term": "কৃষিভিত্তিক শিল্প (Agro-based Industry)",
+      "meaning": "কৃষি থেকে কাঁচামাল পাওয়া শিল্প; যেমন পাট, চা, চিনি, রেশম বস্ত্র।",
+      "section": "concepts_new"
+    },
+    {
+      "term": "খনিজভিত্তিক শিল্প (Mineral-based Industry)",
+      "meaning": "খনিজ ও ধাতু কাঁচামাল হিসেবে ব্যবহার করা শিল্প; যেমন ইস্পাত, সিমেন্ট, অ্যালুমিনিয়াম।",
+      "section": "concepts_new"
+    },
+    {
+      "term": "ভৌগোলিক নির্দেশক (Geographical Indication, GI)",
+      "meaning": "এমন চিহ্ন যা বোঝায় পণ্যের গুণ, খ্যাতি বা বৈশিষ্ট্য মূলত তার ভৌগোলিক উৎসের কারণে; যেমন দার্জিলিং চা।",
+      "section": "tea_industry"
+    },
+    {
+      "term": "ক্লাস্টার (Cluster)",
+      "meaning": "একই পণ্যের বহু ছোট ইউনিটের ভৌগোলিক গুচ্ছ; যেমন লিলুয়ার ধাতব-ঢালাই ক্লাস্টার।",
+      "section": "handloom_clusters"
+    },
+    {
+      "term": "CETP",
+      "meaning": "যৌথ বর্জ্যজল শোধনাগার (Common Effluent Treatment Plant) — ক্লাস্টারের সব ইউনিটের বর্জ্যজল একসঙ্গে শোধনের ব্যবস্থা।",
+      "section": "leather"
+    },
+    {
+      "term": "সংযুক্ত ইস্পাত কারখানা (Integrated Steel Plant)",
+      "meaning": "যে কারখানায় আকরিক থেকে ইস্পাত পর্যন্ত সব ধাপ একই চত্বরে হয়; যেমন বার্নপুরের IISCO।",
+      "section": "steel_engineering"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "হুগলি বেল্টে পাটকলের কেন্দ্রীভবন",
+      "causes": [
+        "পাট-উৎপাদক অঞ্চলের নৈকট্য",
+        "সস্তা জলপথ ও রেল-সড়ক জাল",
+        "প্রক্রিয়াকরণের জন্য প্রচুর জল",
+        "সস্তা শ্রমিক",
+        "কলকাতার ব্যাংক, বিমা ও বন্দর-সুবিধা"
+      ],
+      "event": "পাটকলগুলি হুগলি নদীর তীরের সরু বেল্টে কেন্দ্রীভূত হয়",
+      "results": [
+        "পশ্চিমবঙ্গ ভারতের পাটশিল্পের প্রাণকেন্দ্র হয়ে ওঠে",
+        "কলকাতা-হুগলি অঞ্চল শিল্প-শ্রমিকের ঘন বসতি গড়ে তোলে"
+      ],
+      "section": "jute_textile",
+      "claims": [
+        "c09",
+        "c06"
+      ]
+    },
+    {
+      "title": "দেশভাগের পর পাটশিল্পের কাঠামোগত সমস্যা",
+      "causes": [
+        "পাটকলগুলি ভারতে থেকে যাওয়া",
+        "পাট-জমির তিন-চতুর্থাংশ বাংলাদেশে চলে যাওয়া"
+      ],
+      "event": "মিল ও কাঁচামালের ভৌগোলিক বিভাজন",
+      "results": [
+        "কাঁচা পাটের জোগানে দীর্ঘমেয়াদি অনিশ্চয়তা",
+        "সরকারি আইনি চাহিদা (প্যাকেজিং আইন) দিয়ে শিল্পকে ধরে রাখার প্রয়োজন"
+      ],
+      "section": "jute_textile",
+      "claims": [
+        "c08",
+        "c25"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "প্রথম পাটকল: রিশরা, ১৮৫৫ — Clerkship/WBCS-এ সরাসরি প্রশ্ন",
+      "section": "jute_textile"
+    },
+    {
+      "point": "হুগলি বেল্টের ছয় সুবিধা — বিবৃতি-ভিত্তিক প্রশ্নের প্রিয় বিষয়",
+      "section": "jute_textile"
+    },
+    {
+      "point": "দার্জিলিং চা = ভারতের প্রথম GI; মালিক চা পর্ষদ; বাগান ৮৭টি — IDO/WBCS-এ আসে",
+      "section": "tea_industry"
+    },
+    {
+      "point": "ইস্পাত মূল শিল্প কেন + কাঁচামালের অনুপাত ৪:২:১",
+      "section": "steel_engineering"
+    },
+    {
+      "point": "তাঁত গণনার সংখ্যা (তাঁত ২,৮৩,৪০৪; শিল্পী ৩,৬৬,৬৫৬) সালসহ মনে রাখা",
+      "section": "handloom_clusters"
+    },
+    {
+      "point": "শিল্পের শ্রেণিবিন্যাস — কোন শিল্প কৃষিভিত্তিক, কোনটি খনিজভিত্তিক",
+      "section": "concepts_new"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই পুরো অধ্যায়টিই পশ্চিমবঙ্গের শিল্প-ভূগোল। Clerkship, WBCS, IDO ও WBP — সব WBPSC পরীক্ষাতেই রাজ্যের শিল্প থেকে প্রশ্ন আসে: পাট ও রিশরা, দার্জিলিং GI, বার্নপুর-দুর্গাপুর ইস্পাত বেল্ট, বাঁতলার লেদার কমপ্লেক্স আর তাঁত-ক্লাস্টারের সংখ্যা। বিশেষ করে IDO পরীক্ষার পাঠ্যক্রমে পশ্চিমবঙ্গের শিল্প পরিস্থিতি সরাসরি আছে — তাই এই অধ্যায়ের প্রতিটি অবস্থান-তথ্য (কোন শিল্প কোথায়, কেন সেখানে) সেই পরীক্ষার জন্য দ্বিগুণ গুরুত্বপূর্ণ।",
+    "claims": [
+      "c06",
+      "c17",
+      "c28",
+      "c31"
+    ]
+  },
+  "quick_revision": [
+    "প্রথম পাটকল: রিশরা, ১৮৫৫।",
+    "অধিকাংশ পাটকল হুগলি নদীর তীরের সরু বেল্টে।",
+    "ভারত পাট উৎপাদনে প্রথম, রপ্তানিতে বাংলাদেশের পরে দ্বিতীয়।",
+    "দেশভাগে পাট-জমির তিন-চতুর্থাংশ বাংলাদেশে যায়, মিল থাকে ভারতে।",
+    "পাট প্যাকেজিং আইন ১৯৮৭; খাদ্যশস্যে পাট-মোড়ক ১০০%, চিনিতে ২০%।",
+    "দার্জিলিং চা = ভারতের প্রথম GI; মালিক চা পর্ষদ; বাগান ৮৭টি, এলাকা প্রায় ১৭,৫০০ হেক্টর।",
+    "চা শিল্প চলে চা আইন, ১৯৫৩-এ, চা পর্ষদের অধীনে।",
+    "ইস্পাত মূল শিল্প; কাঁচামালের অনুপাত ৪ : ২ : ১।",
+    "বার্নপুর IISCO (ISP) SAIL-এর সংযুক্ত কারখানা; ২০২৫-২৬-এ হট মেটাল উৎপাদন ২.৯ মিলিয়ন টন।",
+    "লিলুয়া (হাওড়া) = ধাতব-ঢালাই ক্লাস্টার; ডোমজুড় = রত্ন ও গহনা ক্লাস্টার।",
+    "কলকাতা লেদার কমপ্লেক্স বাঁতলায়; চামড়া মেক ইন ইন্ডিয়ার focus sector।",
+    "তাঁত গণনা ২০১৯-২০: তাঁত ২,৮৩,৪০৪, তাঁতশিল্পী ৩,৬৬,৬৫৬; মেগা হ্যান্ডলুম ক্লাস্টার মুর্শিদাবাদে।",
+    "রাজ্যে চিহ্নিত MSME ক্লাস্টার ২৯২টি।",
+    "কলকাতা ইলেকট্রনিক পণ্য ও অটোমোবাইলের অন্যতম কেন্দ্র (NCERT)।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "NCERT Class X, Contemporary India II, Chapter 6: Manufacturing Industries",
+      "class": "X",
+      "url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Tea Board India — Darjeeling Tea: Country Regulations (Geographical Indication protection)",
+      "url": "https://teaboard.gov.in/TEABOARDCSM/NzI=",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "PIB — Status of Textile Sector in West Bengal (Ministry of Textiles, Lok Sabha reply)",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=195470&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB — Union Minister's review of IISCO Steel Plant, Burnpur (Ministry of Steel)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283924&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB — Implementation of IFLADP (Ministry of Commerce and Industry, Lok Sabha reply)",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=190805&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Department of MSME & Textiles, Govt. of West Bengal — Cluster Section (292 MSME clusters list)",
+      "url": "https://msme.wb.gov.in/cluster/softIntervention",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Manufacturing means producing goods in large quantities after processing raw materials into more valuable products",
+      "source": "s1",
+      "page": "p. 57",
+      "quote": "Production of goods in large quantities after processing from raw materials to more valuable products is called manufacturing."
+    },
+    {
+      "id": "c02",
+      "claim": "Industries are classified by raw-material source: agro-based (cotton, woollen, jute, silk textile, rubber, sugar, tea, coffee, edible oil) and mineral-based (iron and steel, cement, aluminium, machine tools, petrochemicals)",
+      "source": "s1",
+      "page": "p. 58",
+      "quote": "Agro based: cotton, woollen, jute, silk textile, rubber and sugar, tea, coffee, edible oil. Mineral based: iron and steel, cement, aluminium, machine tools, petrochemicals."
+    },
+    {
+      "id": "c03",
+      "claim": "Basic or key industries supply their products as raw materials to manufacture other goods, e.g. iron and steel, copper smelting, aluminium smelting",
+      "source": "s1",
+      "page": "p. 58",
+      "quote": "Basic or key industries are those which supply their products as raw materials to manufacture other goods e.g. iron and steel and copper smelting, aluminum smelting."
+    },
+    {
+      "id": "c04",
+      "claim": "The textile industry is the only industry in India that is self-reliant and complete in the value chain, from raw material to the highest value-added products",
+      "source": "s1",
+      "page": "p. 59",
+      "quote": "It is the only industry in the country, which is selfreliant and complete in the value chain i.e., from raw material to the highest value added products."
+    },
+    {
+      "id": "c05",
+      "claim": "India is the largest producer of raw jute and jute goods and the second-largest exporter after Bangladesh",
+      "source": "s1",
+      "page": "p. 60",
+      "quote": "India is the largest producer of raw jute and jute goods and stands at second place as an exporter after Bangladesh."
+    },
+    {
+      "id": "c06",
+      "claim": "Most jute mills are located in West Bengal, mainly along the banks of the Hugli river in a narrow belt",
+      "source": "s1",
+      "page": "p. 60",
+      "quote": "Most of the mills are located in West Bengal, mainly along the banks of the Hugli river, in a narrow belt."
+    },
+    {
+      "id": "c07",
+      "claim": "The first jute mill was set up near Kolkata in 1855 at Rishra",
+      "source": "s1",
+      "page": "p. 60",
+      "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra."
+    },
+    {
+      "id": "c08",
+      "claim": "After Partition in 1947 the jute mills remained in India but three-fourths of the jute-producing area went to Bangladesh (erstwhile East Pakistan)",
+      "source": "s1",
+      "page": "p. 60",
+      "quote": "After Partition in 1947, the jute mills remained in India but threefourth of the jute producing area went to Bangladesh (erstwhile East Pakistan)."
+    },
+    {
+      "id": "c09",
+      "claim": "Jute mills localised in the Hugli basin because of proximity to jute areas, inexpensive water transport with rail/road/waterway networks, abundant water for processing, cheap labour from West Bengal, Bihar, Odisha and UP, and Kolkata's banking, insurance and port facilities",
+      "source": "s1",
+      "page": "p. 61",
+      "quote": "Factors responsible for their location in the Hugli basin are: proximity of the jute producing areas, inexpensive water transport, supported by a good network of railways, roadways and waterways to facilitate movement of raw material to the mills, abundant water for processing raw jute, cheap labour from West Bengal and adjoining states of Bihar, Odisha and Uttar Pradesh. Kolkata as a large urban centre provides banking, insurance and port facilities for export of jute goods."
+    },
+    {
+      "id": "c10",
+      "claim": "The iron and steel industry is the basic industry because all other industries — heavy, medium and light — depend on it for their machinery",
+      "source": "s1",
+      "page": "p. 62",
+      "quote": "The iron and steel industry is the basic industry since all the other industries — heavy, medium and light, depend on it for their machinery."
+    },
+    {
+      "id": "c11",
+      "claim": "Production and consumption of steel is often regarded as the index of a country's development; iron ore, coking coal and limestone are required in the approximate ratio 4:2:1",
+      "source": "s1",
+      "page": "p. 62",
+      "quote": "Production and consumption of steel is often regarded as the index of a country's development. Iron ore, coking coal and lime stone are required in the ratio of approximately 4 : 2 : 1."
+    },
+    {
+      "id": "c12",
+      "claim": "The Chhotanagpur plateau region has the maximum concentration of iron and steel industries because of low-cost iron ore, high-grade raw materials in proximity, cheap labour and vast home-market growth potential",
+      "source": "s1",
+      "page": "p. 63",
+      "quote": "Chhotanagpur plateau region has the maximum concentration of iron and steel industries. It is largely, because of the relative advantages this region has for the development of this industry. These include, low cost of iron ore, high grade raw materials in proximity, cheap labour and vast growth potential in the home market."
+    },
+    {
+      "id": "c13",
+      "claim": "Aluminium smelting plants in India are located in Odisha, West Bengal, Kerala, Uttar Pradesh, Chhattisgarh, Maharashtra and Tamil Nadu",
+      "source": "s1",
+      "page": "p. 63",
+      "quote": "Aluminium smelting plants in the country are located in Odisha, West Bengal, Kerala, Uttar Pradesh, Chhattisgarh, Maharashtra and Tamil Nadu."
+    },
+    {
+      "id": "c14",
+      "claim": "Kolkata is one of the important centres for electronic goods in India",
+      "source": "s1",
+      "page": "p. 65",
+      "quote": "Other important centres for electronic goods are Mumbai, Delhi, Hyderabad, Pune, Chennai, Kolkata, Lucknow and Coimbatore."
+    },
+    {
+      "id": "c15",
+      "claim": "Kolkata is one of the centres where automobiles are manufactured in India",
+      "source": "s1",
+      "page": "p. 65",
+      "quote": "The industry is located around Delhi, Gurugram, Mumbai, Pune, Chennai, Kolkata, Lucknow, Indore, Hyderabad, Jamshedpur and Bengaluru."
+    },
+    {
+      "id": "c16",
+      "claim": "Industries cause four types of pollution — air, water, land and noise — and tanneries are among the main industries discharging wastes into water bodies",
+      "source": "s1",
+      "page": "pp. 65-66",
+      "quote": "Industries are responsible for four types of pollution: (a) Air (b) Water (c) Land (d) Noise. The main culprits in this regard are paper, pulp, chemical, textile and dyeing, petroleum refineries, tanneries and electroplating industries"
+    },
+    {
+      "id": "c17",
+      "claim": "Only tea grown and produced in the defined area of the Darjeeling district in West Bengal can be called Darjeeling tea",
+      "source": "s2",
+      "page": "",
+      "quote": "only tea grown and produced in the defined area of the Darjeeling District in State of West Bengal, India can be called DARJEELING tea."
+    },
+    {
+      "id": "c18",
+      "claim": "87 tea gardens grow Darjeeling tea",
+      "source": "s2",
+      "page": "",
+      "quote": "87 Tea gardens grow this fabled tea"
+    },
+    {
+      "id": "c19",
+      "claim": "The Darjeeling tea gardens are spread over 17,500 hectares of land",
+      "source": "s2",
+      "page": "",
+      "quote": "spread over 17,500 hectares of land"
+    },
+    {
+      "id": "c20",
+      "claim": "The Darjeeling word and logo were the first Geographical Indications to be registered in India, in the name of the Tea Board",
+      "source": "s2",
+      "page": "",
+      "quote": "DARJEELING word and logo were the first Geographical Indications to be registered in India in the name of the Tea Board"
+    },
+    {
+      "id": "c21",
+      "claim": "All teas produced in India's tea-growing areas, including Darjeeling, are administered by the Tea Board, India under the Tea Act, 1953",
+      "source": "s2",
+      "page": "",
+      "quote": "All teas produced in the tea growing areas of India, including Darjeeling, are administered by the Tea Board, India under the Tea Act, 1953."
+    },
+    {
+      "id": "c22",
+      "claim": "The quality, reputation and characteristics of Darjeeling tea are essentially attributable to its geographical origin",
+      "source": "s2",
+      "page": "",
+      "quote": "The quality, reputation and characteristics of Darjeeling tea are essentially attributable to its geographical origin"
+    },
+    {
+      "id": "c23",
+      "claim": "As per the 4th All India Handloom Census (2019-20), West Bengal has 283404 handlooms and 366656 handloom weavers (as reported in 2019)",
+      "source": "s3",
+      "page": "",
+      "quote": "As per 4th All India Handloom Census (2019-20), there are 283404 handlooms and 366656 handloom weavers in the State."
+    },
+    {
+      "id": "c24",
+      "claim": "One Mega Handloom Cluster has been sanctioned for Murshidabad district of West Bengal",
+      "source": "s3",
+      "page": "",
+      "quote": "One Mega Handloom Cluster has been sanctioned for Murshidabad district of the State."
+    },
+    {
+      "id": "c25",
+      "claim": "The Government of India decided to continue the Jute Packaging Materials (Compulsory Use in Packing Commodities) Act, 1987 to protect raw jute growers and workers",
+      "source": "s3",
+      "page": "",
+      "quote": "Government of India has decided to continue Jute Packaging Material (Compulsory Use in Packing Commodities) Act, 1987 keeping in view the interest of raw jute growers and workers involved in the jute industry."
+    },
+    {
+      "id": "c26",
+      "claim": "Under the 30-11-2018 order under the Jute Packaging Act, 100% of foodgrains and 20% of sugar must be compulsorily packed in jute packaging material",
+      "source": "s3",
+      "page": "",
+      "quote": "stipulating 100% foodgrains and 20% sugar are required to be compulsorily packed in jute packaging material"
+    },
+    {
+      "id": "c27",
+      "claim": "49 Yarn Depots and 3 Warehouses are functional in West Bengal for supply of yarn at subsidised rates to handloom weavers (as reported in 2019)",
+      "source": "s3",
+      "page": "",
+      "quote": "49 Yarn Depots and 3 Warehouses are functional in the State for supply of yarn at subsidized rates."
+    },
+    {
+      "id": "c28",
+      "claim": "IISCO Steel Plant (ISP) at Burnpur is one of India's oldest and most significant integrated steel plants, under SAIL",
+      "source": "s4",
+      "page": "",
+      "quote": "extensive review of the IISCO Steel Plant (ISP), Burnpur, one of the country's oldest and most significant integrated steel plants under the Steel Authority of India Limited (SAIL)"
+    },
+    {
+      "id": "c29",
+      "claim": "IISCO Steel Plant, Burnpur achieved 2.9 million tonnes of hot metal production during FY 2025-26",
+      "source": "s4",
+      "page": "",
+      "quote": "the plant had achieved 2.9 million tonnes of hot metal production during FY 2025-26"
+    },
+    {
+      "id": "c30",
+      "claim": "A future 4.08 MTPA expansion project is planned at IISCO Steel Plant, Burnpur",
+      "source": "s4",
+      "page": "",
+      "quote": "also supporting the future 4.08 MTPA Expansion Project at IISCO Steel Plant"
+    },
+    {
+      "id": "c31",
+      "claim": "In-principle approval has been accorded for setting up a Mega Leather Footwear and Accessories Cluster at Calcutta Leather Complex, Bantala, Kolkata",
+      "source": "s5",
+      "page": "",
+      "quote": "Under Mega Leather Footwear and Accessories Cluster sub-scheme of IFLADP, In-principle approval has been accorded to the project Setting up of Mega Leather Footwear and Accessories Cluster at Calcutta Leather Complex, Bantala, Kolkata."
+    },
+    {
+      "id": "c32",
+      "claim": "The leather sector has been identified as one of the focus sectors under the Make in India programme",
+      "source": "s5",
+      "page": "",
+      "quote": "Leather sector has been identified as one of the focus sectors under Make in India programme of the Government of India."
+    },
+    {
+      "id": "c33",
+      "claim": "Under IFLADP, assistance is provided for upgradation/installation of Common Effluent Treatment Plants (CETPs) at 70% of project cost, subject to a limit of Rs. 200 crore",
+      "source": "s5",
+      "page": "",
+      "quote": "assistance is provided for upgradation/installation of Common Effluent Treatment Plants (CETPs) @ 70% of the project cost subject to a limit of Rs. 200 crore"
+    },
+    {
+      "id": "c34",
+      "claim": "The West Bengal MSME cluster list includes a metal casting (foundry items) cluster at Liluah, Howrah, taken up under MSE-CDP",
+      "source": "s6",
+      "page": "",
+      "quote": "Metal casting, Liluah (MSE-CDP)"
+    },
+    {
+      "id": "c35",
+      "claim": "The West Bengal MSME cluster list includes a metal spare parts cluster at Bargachia, Jagatballavpur, Howrah, producing machinery metal spare parts",
+      "source": "s6",
+      "page": "",
+      "quote": "Metal spare parts, Bargachia"
+    },
+    {
+      "id": "c36",
+      "claim": "West Bengal's MSME Directorate lists 292 identified MSME clusters across the State",
+      "source": "s6",
+      "page": "",
+      "quote": "Name of the Cluster identified and listed in 292 Nos. of MSME Cluster"
+    },
+    {
+      "id": "c37",
+      "claim": "The West Bengal MSME cluster list includes a gems and jewellery cluster at Domjur, Howrah",
+      "source": "s6",
+      "page": "",
+      "quote": "Gems and Jewellery, Domjur"
+    },
+    {
+      "id": "c38",
+      "claim": "The West Bengal MSME cluster list includes a fly ash bricks cluster at Durgapur, Paschim Bardhaman",
+      "source": "s6",
+      "page": "",
+      "quote": "Durgapur Fly Ash Bricks Cluster"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "jute_textile",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম পাটকল কোথায় স্থাপিত হয়?",
+      "a": "রিশরায়, ১৮৫৫ সালে",
+      "w": [
+        "মুম্বইয়ে, ১৮৫৪ সালে",
+        "হাওড়ায়, ১৯০৫ সালে",
+        "ঢাকায়, ১৯৪৭ সালে"
+      ],
+      "e": "প্রথম পাটকল বসে কলকাতার কাছে রিশরায়, ১৮৫৫ সালে। মুম্বই ১৮৫৪ হল প্রথম সফল সুতি বস্ত্রকলের তথ্য — পাটের সঙ্গে গুলিয়ো না।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "jute_textile",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পাটকলগুলির বেশিরভাগই কোন নদীর দুই তীর জুড়ে গড়ে উঠেছে?",
+      "a": "হুগলি নদীর তীরে",
+      "w": [
+        "দামোদর নদীর তীরে",
+        "গঙ্গার মোহনা থেকে দূরে পশ্চিম মালভূমিতে",
+        "তিস্তা নদীর তীরে"
+      ],
+      "e": "NCERT অনুযায়ী অধিকাংশ পাটকল পশ্চিমবঙ্গে, প্রধানত হুগলি নদীর তীরের সরু বেল্টে অবস্থিত।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "jute_textile",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কাঁচা পাট ও পাটজাত পণ্যের উৎপাদনে বিশ্বে ভারতের স্থান কোনটি?",
+      "a": "প্রথম",
+      "w": [
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "e": "ভারত কাঁচা পাট ও পাটপণ্যের বৃহত্তম উৎপাদক; রপ্তানিতে দ্বিতীয়, বাংলাদেশের পরে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "jute_textile",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পাট রপ্তানিতে ভারতের চেয়ে এগিয়ে কোন দেশ?",
+      "a": "বাংলাদেশ",
+      "w": [
+        "চিন",
+        "পাকিস্তান",
+        "নেপাল"
+      ],
+      "e": "উৎপাদনে ভারত প্রথম হলেও রপ্তানিতে বাংলাদেশ প্রথম, ভারত দ্বিতীয়।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "jute_textile",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "পাটশিল্প সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n\n১. ১৯৪৭-এর দেশভাগের পর পাটকলগুলি ভারতে থেকে যায়।\n২. দেশভাগে পাট-উৎপাদক এলাকার তিন-চতুর্থাংশ বাংলাদেশে চলে যায়।\n\nকোনটি সঠিক?",
+      "a": "১ ও ২ উভয়ই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "১ বা ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "দুটিই NCERT-সমর্থিত: মিল ভারতে থাকলেও জমির তিন-চতুর্থাংশ তৎকালীন পূর্ব পাকিস্তান (বাংলাদেশে) চলে যায়।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "jute_textile",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি হুগলি অববাহিকায় পাটকল গড়ে ওঠার কারণ **নয়**?",
+      "a": "সস্তা কয়লার জন্য ছোটনাগপুরের নৈকট্য",
+      "w": [
+        "পাট-উৎপাদক অঞ্চলের নৈকট্য",
+        "প্রক্রিয়াকরণের জন্য প্রচুর জল",
+        "কলকাতার ব্যাংক, বিমা ও বন্দর-সুবিধা"
+      ],
+      "e": "NCERT-র ছয় সুবিধার তালিকায় কয়লা-নৈকট্য নেই; বাকি তিনটিই তালিকায় আছে। কয়লা-যুক্তিটি ইস্পাত শিল্পের অবস্থানের সঙ্গে যুক্ত।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "jute_textile",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "পাট প্যাকেজিং আইন সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n\n১. পাট প্যাকেজিং উপকরণ (বাধ্যতামূলক ব্যবহার) আইনটি ১৯৮৭ সালের।\n২. আদেশ অনুযায়ী খাদ্যশস্যের ১০০% পাটের মোড়কে প্যাক করা বাধ্যতামূলক।\n৩. চিনির ক্ষেত্রে বাধ্যতামূলক পাট-মোড়কের হার ৫০%।\n\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ২ ও ৩",
+        "শুধু ১ ও ৩",
+        "১, ২ ও ৩ সবগুলিই"
+      ],
+      "e": "আইনটি ১৯৮৭ সালের এবং খাদ্যশস্যে হার ১০০% ঠিক; কিন্তু চিনির হার ২০%, ৫০% নয়।",
+      "claims": [
+        "c25",
+        "c26"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "tea_industry",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে নিবন্ধিত প্রথম ভৌগোলিক নির্দেশক (GI) কোনটি?",
+      "a": "দার্জিলিং চা (শব্দ ও লোগো)",
+      "w": [
+        "আসাম চা",
+        "বানারসি রেশম",
+        "আলফানসো আম"
+      ],
+      "e": "চা পর্ষদের তথ্য অনুযায়ী 'দার্জিলিং' শব্দ ও লোগোই ভারতে নিবন্ধিত প্রথম GI।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "tea_industry",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দার্জিলিং চায়ের GI-র মালিক কোন সংস্থা?",
+      "a": "চা পর্ষদ (Tea Board)",
+      "w": [
+        "দার্জিলিং টি অ্যাসোসিয়েশন",
+        "পশ্চিমবঙ্গ সরকার",
+        "একটি বেসরকারি চা কোম্পানি"
+      ],
+      "e": "GI নিবন্ধিত হয়েছে চা পর্ষদের নামে; পর্ষদই নাম ও লোগোর মালিক ও রক্ষক।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "tea_industry",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দার্জিলিং চায়ের নির্ধারিত এলাকায় কয়টি চা বাগান আছে?",
+      "a": "৮৭টি",
+      "w": [
+        "৮০টি",
+        "৯৭টি",
+        "১০৮টি"
+      ],
+      "e": "চা পর্ষদের সার্টিফিকেশন অনুযায়ী নির্ধারিত এলাকায় ৮৭টি বাগানের চা-ই দার্জিলিং নাম পায়।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "tea_industry",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দার্জিলিং চা বাগানগুলি প্রায় কত হেক্টর জমি জুড়ে ছড়িয়ে আছে?",
+      "a": "প্রায় ১৭,৫০০ হেক্টর",
+      "w": [
+        "প্রায় ১,৭৫০ হেক্টর",
+        "প্রায় ৫০,০০০ হেক্টর",
+        "প্রায় ১,৭৫,০০০ হেক্টর"
+      ],
+      "e": "চা পর্ষদের পৃষ্ঠা অনুযায়ী বাগানগুলি ছড়িয়ে আছে প্রায় ১৭,৫০০ হেক্টর জমিতে।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "tea_industry",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের চা শিল্প কোন আইনের অধীনে চা পর্ষদ দ্বারা পরিচালিত হয়?",
+      "a": "চা আইন, ১৯৫৩",
+      "w": [
+        "চা আইন, ১৯৯৯",
+        "GI আইন, ১৯৯৯",
+        "কোম্পানি আইন, ১৯৫৬"
+      ],
+      "e": "দার্জিলিংসহ সব চা-এলাকার চা চা পর্ষদ পরিচালনা করে চা আইন, ১৯৫৩-এর অধীনে। GI আইন, ১৯৯৯ নাম-সুরক্ষার আইন, শিল্প-পরিচালনার নয়।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "tea_industry",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন চা আইনত 'দার্জিলিং চা' নামে বিক্রি করা যায়?",
+      "a": "কেবল দার্জিলিং জেলার নির্ধারিত এলাকায় উৎপাদিত চা",
+      "w": [
+        "ভারতের যেকোনো পাহাড়ি বাগানের চা",
+        "দার্জিলিং জাতের গাছ থেকে তৈরি যেকোনো চা",
+        "চা পর্ষদের অফিসে কেনা যেকোনো চা"
+      ],
+      "e": "নামটি জায়গার সঙ্গে বাঁধা: একই গাছ অন্য কোথাও হলেও সেই চা দার্জিলিং হবে না।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "tea_industry",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "ধারণা (A): দার্জিলিং চা বিশ্বের অন্য কোথাও হুবহু তৈরি করা যায় না।\nকারণ (R): দার্জিলিং চায়ের গুণ, খ্যাতি ও বৈশিষ্ট্য মূলত তার ভৌগোলিক উৎসের কারণেই।\n\nসঠিক বিকল্পটি বেছে নাও:",
+      "a": "A ও R উভয়ই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সত্য কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য"
+      ],
+      "e": "চা পর্ষদ নিজেই বলেছে গুণ ও খ্যাতি ভৌগোলিক উৎসের সঙ্গেই যুক্ত — তাই অন্য জায়গায় হুবহু প্রতিরূপ সম্ভব নয়।",
+      "claims": [
+        "c22",
+        "c17"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "steel_engineering",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "লোহা ও ইস্পাত শিল্পকে কোন শ্রেণির শিল্প বলা হয়?",
+      "a": "মূল বা ভিত্তি শিল্প (basic industry)",
+      "w": [
+        "ভোক্তা শিল্প",
+        "কুটির শিল্প",
+        "হালকা শিল্প"
+      ],
+      "e": "সব শিল্প যন্ত্রপাতির জন্য ইস্পাতের ওপর নির্ভরশীল বলেই এটি মূল শিল্প।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "steel_engineering",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "IISCO ইস্পাত কারখানা (ISP) কোন সংস্থার অধীনে চলে?",
+      "a": "SAIL",
+      "w": [
+        "TISCO",
+        "BHEL",
+        "NTPC"
+      ],
+      "e": "বার্নপুরের IISCO কারখানা ভারতীয় ইস্পাত কর্তৃপক্ষ SAIL-এর অধীনস্থ সংযুক্ত কারখানা।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "steel_engineering",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ইস্পাত তৈরিতে লৌহ আকরিক : কোকিং কয়লা : চুনাপাথরের আনুমানিক অনুপাত কত?",
+      "a": "৪ : ২ : ১",
+      "w": [
+        "১ : ২ : ৪",
+        "২ : ১ : ৪",
+        "৪ : ১ : ২"
+      ],
+      "e": "NCERT অনুযায়ী অনুপাত প্রায় ৪:২:১, সঙ্গে কিছু ম্যাঙ্গানিজ লাগে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "steel_engineering",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতে ইস্পাত কারখানার সর্বাধিক ঘনত্ব কোন অঞ্চলে?",
+      "a": "ছোটনাগপুর মালভূমি অঞ্চলে",
+      "w": [
+        "হুগলি নদীর তীরে",
+        "মালাবার উপকূলে",
+        "গঙ্গা-ব্রহ্মপুত্র বদ্বীপে"
+      ],
+      "e": "সস্তা আকরিক, কাছের উচ্চমানের কাঁচামাল, সস্তা শ্রম ও বাজারের সম্ভাবনা — এই মিলন ছোটনাগপুরেই সবচেয়ে বেশি।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "steel_engineering",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অর্থবছর ২০২৫-২৬-এ বার্নপুরের IISCO কারখানার হট মেটাল উৎপাদন কত ছিল?",
+      "a": "২.৯ মিলিয়ন টন",
+      "w": [
+        "২.৯ লক্ষ টন",
+        "৪.০৮ মিলিয়ন টন",
+        "১.৮৬ মিলিয়ন টন"
+      ],
+      "e": "সরকারি (PIB) তথ্য অনুযায়ী উৎপাদন ২.৯ মিলিয়ন টন; ৪.০৮ MTPA হল ভবিষ্যৎ সম্প্রসারণের লক্ষ্য, বর্তমান উৎপাদন নয়।",
+      "claims": [
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "steel_engineering",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "লিলুয়া (হাওড়া) MSME ক্লাস্টারে কোন পণ্য তৈরি হয়?",
+      "a": "ফাউন্ড্রি পণ্য (ধাতব ঢালাই)",
+      "w": [
+        "চামড়াজাত পণ্য",
+        "রত্ন ও গহনা",
+        "তাঁতের কাপড়"
+      ],
+      "e": "রাজ্য MSME তালিকায় লিলুয়ার ক্লাস্টারটি 'Metal casting' — পণ্য ফাউন্ড্রি আইটেম। রত্ন ও গহনার ক্লাস্টার ডোমজুড়ে।",
+      "claims": [
+        "c34",
+        "c37"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "steel_engineering",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও:\nA. বার্নপুর\nB. লিলুয়া\nC. বারগাছিয়া\n\n১. ধাতব ঢালাই (foundry) ক্লাস্টার\n২. IISCO ইস্পাত কারখানা\n৩. যন্ত্রপাতির ধাতব খুচরা যন্ত্রাংশের ক্লাস্টার",
+      "a": "A-২, B-১, C-৩",
+      "w": [
+        "A-১, B-২, C-৩",
+        "A-২, B-৩, C-১",
+        "A-৩, B-১, C-২"
+      ],
+      "e": "বার্নপুর = IISCO (SAIL), লিলুয়া = ধাতব ঢালাই, বারগাছিয়া = ধাতব খুচরা যন্ত্রাংশ।",
+      "claims": [
+        "c28",
+        "c34",
+        "c35"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "leather",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কলকাতা লেদার কমপ্লেক্স (CLC) কোথায় অবস্থিত?",
+      "a": "বাঁতলা, পূর্ব কলকাতা",
+      "w": [
+        "রাজারহাট",
+        "হলদিয়া",
+        "শিলিগুড়ি"
+      ],
+      "e": "মেগা লেদার ক্লাস্টারের অনুমোদন-তথ্যে CLC-র অবস্থান দেওয়া হয়েছে বাঁতলা, কলকাতা।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "leather",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "চামড়া ক্ষেত্রকে কোন কর্মসূচির অগ্রাধিকার (focus) ক্ষেত্র হিসেবে চিহ্নিত করা হয়েছে?",
+      "a": "মেক ইন ইন্ডিয়া",
+      "w": [
+        "ডিজিটাল ইন্ডিয়া",
+        "স্টার্টআপ ইন্ডিয়া",
+        "স্কিল ইন্ডিয়া"
+      ],
+      "e": "PIB অনুযায়ী চামড়া ক্ষেত্র মেক ইন ইন্ডিয়া কর্মসূচির অন্যতম focus sector।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "leather",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিল্পের দূষণ কয় ধরনের?",
+      "a": "চার ধরনের — বায়ু, জল, ভূমি ও শব্দ",
+      "w": [
+        "দুই ধরনের — বায়ু ও জল",
+        "তিন ধরনের — বায়ু, জল ও ভূমি",
+        "পাঁচ ধরনের"
+      ],
+      "e": "NCERT অনুযায়ী শিল্প চার ধরনের দূষণ ঘটায়: বায়ু, জল, ভূমি ও শব্দ।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "leather",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জলদূষণের জন্য দায়ী প্রধান শিল্পগুলির মধ্যে কোনটি আছে?",
+      "a": "ট্যানারি (চর্ম-প্রক্রিয়াকরণ)",
+      "w": [
+        "তথ্যপ্রযুক্তি",
+        "খাদ্য-প্রক্রিয়াকরণ",
+        "হস্তশিল্প"
+      ],
+      "e": "কাগজ, রসায়ন, বস্ত্র-রঞ্জন ও শোধনাগারের পাশাপাশি ট্যানারিও জলে বর্জ্য ফেলা প্রধান শিল্পগুলির একটি।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "leather",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "IFLADP-তে CETP উন্নয়ন/স্থাপনে সহায়তার হার ও সর্বোচ্চ সীমা কত?",
+      "a": "ব্যয়ের ৭০%, সর্বোচ্চ ২০০ কোটি টাকা",
+      "w": [
+        "ব্যয়ের ৫০%, সর্বোচ্চ ১২৫ কোটি টাকা",
+        "ব্যয়ের ৩০%, সর্বোচ্চ ১০০ কোটি টাকা",
+        "ব্যয়ের ৯০%, সর্বোচ্চ ৫০ কোটি টাকা"
+      ],
+      "e": "উপ-প্রকল্প অনুযায়ী CETP-তে সহায়তা প্রকল্প-ব্যয়ের ৭০%, সর্বোচ্চ ২০০ কোটি টাকা। ৫০%/১২৫ কোটি হল মেগা ক্লাস্টার উপ-প্রকল্পের অঙ্ক — গুলিয়ো না।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "leather",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাঁতলায় অনুমোদিত মেগা ক্লাস্টার প্রকল্পটি কোন উপ-প্রকল্পের আওতায়?",
+      "a": "মেগা লেদার, ফুটওয়্যার ও অ্যাক্সেসরিজ ক্লাস্টার (MLFAC)",
+      "w": [
+        "মানবসম্পদ উন্নয়ন উপ-প্রকল্প",
+        "ব্র্যান্ড প্রচার উপ-প্রকল্প",
+        "অতিরিক্ত কর্মসংস্থান প্রণোদনা উপ-প্রকল্প"
+      ],
+      "e": "PIB জানিয়েছে MLFAC উপ-প্রকল্পেই CLC বাঁতলায় মেগা ক্লাস্টার স্থাপনে নীতিগত অনুমোদন মিলেছে।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "leather",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "চামড়া শিল্পের প্রসঙ্গে কোন জোড়টি সঠিকভাবে মেলানো?",
+      "a": "CLC – বাঁতলা",
+      "w": [
+        "CLC – হলদিয়া",
+        "CETP – বায়ুদূষণ নিয়ন্ত্রণ যন্ত্র",
+        "IFLADP – বস্ত্র মন্ত্রকের কর্মসূচি"
+      ],
+      "e": "CLC বাঁতলায় অবস্থিত — এটিই সঠিক জোড়। CETP জল-শোধনের ব্যবস্থা, বায়ুর নয়।",
+      "claims": [
+        "c31",
+        "c33"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "handloom_clusters",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মেগা হ্যান্ডলুম ক্লাস্টার পশ্চিমবঙ্গের কোন জেলায় অনুমোদিত হয়েছে?",
+      "a": "মুর্শিদাবাদ",
+      "w": [
+        "নদিয়া",
+        "বীরভূম",
+        "মালদা"
+      ],
+      "e": "বস্ত্র মন্ত্রকের তথ্য অনুযায়ী মেগা হ্যান্ডলুম ক্লাস্টার অনুমোদিত হয়েছে মুর্শিদাবাদ জেলায়।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "handloom_clusters",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাজ্য MSME অধিদপ্তরের তালিকায় মোট কয়টি MSME ক্লাস্টার চিহ্নিত আছে?",
+      "a": "২৯২টি",
+      "w": [
+        "৯২টি",
+        "১৯২টি",
+        "৩৯২টি"
+      ],
+      "e": "অধিদপ্তরের ক্লাস্টার-পৃষ্ঠা অনুযায়ী চিহ্নিত ও তালিকাভুক্ত ক্লাস্টারের সংখ্যা ২৯২।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "handloom_clusters",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চতুর্থ সর্বভারতীয় তাঁত গণনা (২০১৯-২০) অনুযায়ী পশ্চিমবঙ্গে তাঁতশিল্পীর সংখ্যা কত?",
+      "a": "৩,৬৬,৬৫৬ জন",
+      "w": [
+        "২,৮৩,৪০৪ জন",
+        "৩,৬৬,৫৬৬ জন",
+        "১,৬৬,৬৫৬ জন"
+      ],
+      "e": "তাঁতশিল্পী ৩,৬৬,৬৫৬ জন; ২,৮৩,৪০৪ হল তাঁতের সংখ্যা — দুটি অঙ্ক অদলবদল করো না।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "handloom_clusters",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একই গণনা অনুযায়ী রাজ্যে তাঁতের সংখ্যা কত?",
+      "a": "২,৮৩,৪০৪টি",
+      "w": [
+        "৩,৬৬,৬৫৬টি",
+        "২,৩৮,৪০৪টি",
+        "৪,৮৩,২০৪টি"
+      ],
+      "e": "তাঁত ২,৮৩,৪০৪টি, তাঁতশিল্পী ৩,৬৬,৬৫৬ জন — শিল্পী বেশি, কারণ এক তাঁতে একাধিক জন কাজ করেন।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "handloom_clusters",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "তাঁতিদের ভর্তুকি-মূল্যে সুতো জোগাতে রাজ্যে কয়টি সুতো ডিপো চালু আছে?",
+      "a": "৪৯টি",
+      "w": [
+        "২৫টি",
+        "৩৭টি",
+        "৯৭টি"
+      ],
+      "e": "বস্ত্র মন্ত্রকের প্রতিবেদন অনুযায়ী ৪৯টি সুতো ডিপো ও ৩টি গুদাম চালু আছে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "handloom_clusters",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ডোমজুড় (হাওড়া) ক্লাস্টারটি কোন পণ্যের জন্য পরিচিত?",
+      "a": "রত্ন ও গহনা",
+      "w": [
+        "ফাউন্ড্রি পণ্য",
+        "জরি সূচিকর্ম",
+        "কাঠের আসবাব"
+      ],
+      "e": "MSME তালিকায় ডোমজুড়ের ক্লাস্টার 'Gems and Jewellery'। ফাউন্ড্রি ক্লাস্টার লিলুয়ায়।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "handloom_clusters",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "তাঁত ক্ষেত্র সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n\n১. চতুর্থ সর্বভারতীয় তাঁত গণনা হয়েছিল ২০১৯-২০ সালে।\n২. ওই গণনায় রাজ্যে তাঁতের চেয়ে তাঁতশিল্পীর সংখ্যা বেশি।\n৩. মেগা হ্যান্ডলুম ক্লাস্টার অনুমোদিত হয়েছে নদিয়া জেলায়।\n\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ২ ও ৩",
+        "শুধু ১ ও ৩",
+        "১, ২ ও ৩ সবগুলিই"
+      ],
+      "e": "গণনা ২০১৯-২০-র এবং শিল্পী (৩,৬৬,৬৫৬) তাঁতের (২,৮৩,৪০৪) চেয়ে বেশি — দুটিই ঠিক; কিন্তু মেগা ক্লাস্টার মুর্শিদাবাদে, নদিয়ায় নয়।",
+      "claims": [
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "concepts_new",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'ম্যানুফ্যাকচারিং' বলতে কী বোঝায়?",
+      "a": "কাঁচামাল প্রক্রিয়াজাত করে বেশি মূল্যের পণ্য বিপুল পরিমাণে উৎপাদন",
+      "w": [
+        "কাঁচামাল সরাসরি বিক্রি করা",
+        "শুধু হাতে তৈরি কুটির পণ্য",
+        "খনি থেকে আকরিক তোলা"
+      ],
+      "e": "NCERT-র সংজ্ঞা: প্রক্রিয়াকরণের মাধ্যমে কাঁচামালকে বেশি মূল্যের পণ্যে রূপান্তর করে বিপুল পরিমাণে উৎপাদনই ম্যানুফ্যাকচারিং।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "concepts_new",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পাট শিল্প কোন শ্রেণির শিল্প?",
+      "a": "কৃষিভিত্তিক শিল্প",
+      "w": [
+        "খনিজভিত্তিক শিল্প",
+        "মূল শিল্প",
+        "ভারী শিল্প"
+      ],
+      "e": "পাটের কাঁচামাল কৃষি থেকে আসে বলে এটি কৃষিভিত্তিক; ইস্পাত, সিমেন্ট খনিজভিত্তিক।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "concepts_new",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি খনিজভিত্তিক শিল্পের উদাহরণ?",
+      "a": "অ্যালুমিনিয়াম",
+      "w": [
+        "চিনি",
+        "চা",
+        "ভোজ্য তেল"
+      ],
+      "e": "অ্যালুমিনিয়াম বক্সাইট (খনিজ) থেকে তৈরি; চিনি, চা ও ভোজ্য তেল কৃষিভিত্তিক।",
+      "claims": [
+        "c02",
+        "c01"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "concepts_new",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অ্যালুমিনিয়াম-গলন কেন্দ্র আছে এমন রাজ্যের তালিকায় কোনটি আছে?",
+      "a": "পশ্চিমবঙ্গ",
+      "w": [
+        "পাঞ্জাব",
+        "হরিয়ানা",
+        "আসাম"
+      ],
+      "e": "NCERT-র তালিকায় ওড়িশা, পশ্চিমবঙ্গ, কেরল, উত্তরপ্রদেশ, ছত্তিশগড়, মহারাষ্ট্র ও তামিলনাড়ু আছে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "concepts_new",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ইলেকট্রনিক পণ্যের গুরুত্বপূর্ণ কেন্দ্রগুলির মধ্যে কোনটি আছে?",
+      "a": "কলকাতা",
+      "w": [
+        "পাটনা",
+        "ভুবনেশ্বর",
+        "জয়পুর"
+      ],
+      "e": "NCERT কলকাতাকে মুম্বই, দিল্লি, হায়দরাবাদ, পুনে, চেন্নাই, লখনউ ও কোয়েম্বাটুরের সঙ্গে ইলেকট্রনিক পণ্যের কেন্দ্র হিসেবে গুনেছে।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "concepts_new",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অটোমোবাইল শিল্পের কেন্দ্রের NCERT-তালিকায় কোন শহরটি **নেই**?",
+      "a": "কানপুর",
+      "w": [
+        "কলকাতা",
+        "জামশেদপুর",
+        "ইন্দোর"
+      ],
+      "e": "তালিকায় আছে দিল্লি, গুরুগ্রাম, মুম্বই, পুনে, চেন্নাই, কলকাতা, লখনউ, ইন্দোর, হায়দরাবাদ, জামশেদপুর ও বেঙ্গালুরু; কানপুর নেই।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "concepts_new",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "শিল্পের সঙ্গে শ্রেণি মেলাও:\nA. পাট বস্ত্র\nB. লোহা ও ইস্পাত\nC. চা\n\n১. খনিজভিত্তিক\n২. কৃষিভিত্তিক",
+      "a": "A-২, B-১, C-২",
+      "w": [
+        "A-১, B-২, C-২",
+        "A-২, B-২, C-১",
+        "A-১, B-১, C-২"
+      ],
+      "e": "পাট ও চা কৃষিভিত্তিক (কাঁচামাল কৃষি থেকে), লোহা ও ইস্পাত খনিজভিত্তিক।",
+      "claims": [
+        "c02"
+      ]
+    }
+  ]
+}

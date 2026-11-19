@@ -1,1 +1,208 @@
-{}
+{
+  "WBI-01": [
+    {
+      "pyq_code": "GK-IND-001",
+      "section": "jute_hooghly",
+      "taught": true,
+      "note": "GK bank item (db/gk/wb_industry.jsonl, subtopic industrial_roots): first jute mill at Rishra, 1855. Taught from NCERT jess106 verbatim ('The first jute mill was set up near Kolkata in 1855 at Rishra'). The bank item's founder detail (George Acland, Bengali partner, Dundee machinery) is NOT taught: it appears only on non-gov.in sources (GIPE report/Banglapedia) and no allowed GOVT/NCERT source fetched in this run states it — disclosed as a gap in REPORT.md."
+    },
+    {
+      "pyq_code": "GK-IND-002",
+      "section": "steel_damodar",
+      "taught": false,
+      "note": "GK bank item (db/gk/wb_industry.jsonl, subtopic industrial_roots): Durgapur Steel Plant set up with British collaboration in 1959 (1 MTPA) and IISCO Burnpur set up in 1918, merged into SAIL in 2006. Only partially covered: this chapter teaches from the Ministry of Steel Annual Report 2005-06 that SAIL runs the Durgapur plant, IISCO owned Burnpur, and IISCO merged with SAIL on 16-1-2006 — but the 1959/British-collaboration and 1918 founding specifics are NOT taught because no allowed gov.in/NCERT source fetched in this run states them (the bank item itself cites sail.co.in and Wikipedia, outside this book's publisher profile). Marked untaught for those specifics; see REPORT.md gaps."
+    },
+    {
+      "pyq_code": "IDO-2019-Q61",
+      "section": "tea_board",
+      "taught": true,
+      "note": "Real PYQ from db/pyq/ido-2019.json (WBPSC Industrial Development Officer 2019, question_no 61; the corpus file carries no code field, so it is identified here by exam-year-question number): 'Where is the Headquarter of Tea Board located?' — answer Kolkata. Taught verbatim from teaboard.gov.in ('With Head Office located in Kolkata, West Bengal')."
+    }
+  ],
+  "WBI-02": [
+    {
+      "pyq_code": "GK-IND-003",
+      "section": "definition",
+      "taught": true,
+      "note": "GK bank item (subtopic msme_sector): revised MSME limits from April 2025. Taught in full in the definition section from the Udyam portal's own criteria and Pre & Post 01-04-2025 table (claims c01-c04) and the Budget 2025-26 PIB release (c09)."
+    },
+    {
+      "pyq_code": "GK-IND-004",
+      "section": "field_machinery",
+      "taught": true,
+      "note": "GK bank item (subtopic msme_sector): Directorate of MSME -> DIC (General Manager) -> IDO in each block. Taught in the field_machinery section from the WB RAMP Strategic Investment Plan (claims c28-c30). Note: the bank item's original source wbmsmet.gov.in could not be fetched from this machine; the chapter teaches the same structure from the RAMP SIP document instead."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q43",
+      "section": null,
+      "taught": false,
+      "note": "Real WBCS Prelims 2016 Q43 (db/pyq/wbcs-prelims-2016.json): MoU between the Ministry of Textiles and the Ministry of MSME for a Technology Centre at Kanpur. Not taught: the fact exists only in the question's own explanation; no fetched *.gov.in/*.nic.in source in this chapter's source set verifies the Kanpur Technology Centre MoU, and it is a one-off 2015 current-affairs item outside this chapter's WB MSME scope."
+    }
+  ],
+  "WBI-03": [
+    {
+      "note": "Howrah foundry belt: the chapter teaches the Liluah metal-casting (foundry) cluster from the WB MSME Directorate list (msme.wb.gov.in), but the bank item's specifics — the 'Sheffield of the East' nickname, ~500 foundry/forging units and the ~95% Howrah share — rest on Business Standard / industry sources, not on any *.gov.in / *.nic.in source fetched for this chapter, so they are not taught. Partial coverage only.",
+      "pyq_code": "GK-IND-009",
+      "section": "steel_engineering",
+      "taught": false
+    },
+    {
+      "note": "Kolkata Leather Complex, Bantala: the chapter teaches CLC Bantala as the site of the approved Mega Leather Footwear and Accessories Cluster (PIB/IFLADP) and the CETP logic, but the bank item's specifics — ~1,150 acres, ~500 units, 30 July 2005 inauguration, Supreme Court relocation directive — come from Wikipedia/Business Standard sources in the bank record, not from a fetched gov.in source, so the item as a whole is not taught. Partial coverage only.",
+      "pyq_code": "GK-IND-010",
+      "section": "leather",
+      "taught": false
+    },
+    {
+      "note": "Darjeeling tea: first GI registered in India, word and logo owned by the Tea Board, 87 gardens over ~17,500 hectares in the defined Darjeeling area — all taught from the Tea Board India page (teaboard.gov.in). The bank item's 2004 registration year and the GI Act 1999 citation are not dated on the fetched Tea Board page, so the year itself is not asserted in the chapter text.",
+      "pyq_code": "GK-IND-011",
+      "section": "tea_industry",
+      "taught": true
+    },
+    {
+      "note": "Rourkela Iron and Steel Plant location (Odisha, between coal and iron-ore areas): outside this chapter's West Bengal scope; the chapter teaches the WB plants (Burnpur IISCO) and the Chhotanagpur concentration principle only. Not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q166",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Tea Board headquarters (Kolkata): the chapter teaches that all Indian tea is administered by the Tea Board under the Tea Act, 1953 (teaboard.gov.in), but no fetched gov.in page stated the Board's headquarters city, so the HQ fact itself is not taught. Source gap, disclosed.",
+      "pyq_code": "WBPSC-IDO-2019-Q61",
+      "section": "tea_industry",
+      "taught": false
+    }
+  ],
+  "WBI-04": [
+    {
+      "pyq_code": "GK-IND-007",
+      "section": "haldia_area",
+      "taught": false,
+      "note": "Bank item on Haldia as port-cum-petrochemical hub. This chapter teaches Haldia's port-side location and chemical/petrochemical identity from WBIIDC, but NOT the item's two specific facts: the two dock systems of Syama Prasad Mookerjee Port (KDS/HDC) and HPL's commercial production start in 2000 — neither appears in the allowed gov.in sources fetched for this chapter. Marked untaught rather than asserted."
+    },
+    {
+      "pyq_code": "GK-IND-008",
+      "section": null,
+      "taught": false,
+      "note": "Bank item on Sector V / New Town IT corridor (SALTLEC 1989 by Webel, NDITA, Bengal Silicon Valley). No allowed *.gov.in / *.nic.in source for these specifics could be fetched (NDITA and Webel publish on non-gov.in domains), so the chapter does not teach them. Disclosed gap — see REPORT.md."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q112",
+      "section": "falta_sez",
+      "taught": true,
+      "note": "WBCS 2021: West Bengal's export processing zone began at Falta (South 24 Parganas). Taught: PIB states Falta SEZ was established in 1984 as an export processing zone and later categorised as an SEZ."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q59",
+      "section": "haldia_area",
+      "taught": false,
+      "note": "WBCS 2023: Haldia industrial region's two main industries per the official key are mineral-oil refining and chemical fertiliser production. This chapter teaches Haldia's chemicals/petrochemicals identity from WBIIDC, but the fetched park page does not name a refinery or fertiliser unit; not asserted."
+    },
+    {
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q18",
+      "section": "haldia_area",
+      "taught": false,
+      "note": "Miscellaneous 2023: Haldia port stands at the confluence of the Haldi and Hooghly rivers. The fetched WBIIDC page places Haldia near the Hooghly's transition to the Bay of Bengal but does not state the Haldi-Hooghly confluence; river-confluence detail not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q144",
+      "section": "haldia_area",
+      "taught": false,
+      "note": "WBCS 2017: Haldia is a riverine port (against natural/artificial harbour options). The chapter teaches Haldia's port and Hooghly-side location, but the fetched sources do not classify it as a riverine port; not asserted."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q128",
+      "section": "haldia_area",
+      "taught": false,
+      "note": "WBCS 2022: the Haldi river is formed by the Kansabati (Kansai) and Keleghai and joins the Hooghly near Haldia. River-formation detail is not in the fetched industrial-park sources; not taught in this chapter."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q24",
+      "section": "falta_sez",
+      "taught": true,
+      "note": "Clerkship 2006: SEZ stands for Special Economic Zone. Taught in terms and in the Falta section (বিশেষ অর্থনৈতিক অঞ্চল)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q188",
+      "section": "falta_sez",
+      "taught": false,
+      "note": "WBCS 2017: SEZ Act 2005 came into force on 10 February 2006. The Act's commencement date is not in the fetched sources (PIB/WBIIDC pages used); not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q132",
+      "section": null,
+      "taught": false,
+      "note": "WBCS 2018: West Bengal's dry port / inland container depot is at Kolkata. Not covered by the fetched park sources; outside this chapter's taught scope."
+    }
+  ],
+  "WBI-05": [
+    {
+      "pyq_code": "GK-IND-005",
+      "section": "wbidc",
+      "taught": true,
+      "note": "WBIDC formed 1967 (wb.gov.in Doing Business page) and its nodal role taught in wbidc; WBSIDC's estate/plot-shed role for small entrepreneurs taught in wbsidc_dic (Silpasathi service list; Directorate of MSME assistances). Caveat: WBSIDC's founding year 1961, part of this item's title, appears only on wbsidcl.in — outside this book's allowed GOVT/NCERT publishers — so the year itself is not asserted in the chapter."
+    },
+    {
+      "pyq_code": "GK-IND-006",
+      "section": "sector_policies",
+      "taught": false,
+      "note": "Only the policy's existence and year (2021) are taught, from par.wb.gov.in Administrative Calendar 2022. The item's tested details — fuel-grade standalone green-field units as the incentivised category, Cabinet decision of 2 Sep 2021 and Notification No. 140-ICE dated 7 Sep 2021 — appear only in the notification PDF hosted on wbidc.com, which is outside this book's allowed publishers (GOVT *.gov.in/*.nic.in + NCERT), so they are not taught. Source gap, disclosed."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q28",
+      "section": "wbidc",
+      "taught": true,
+      "note": "WBIDC established 1967 — taught in wbidc from wb.gov.in ('formed in 1967 under the Companies Act'); matches the official key (option A)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q134",
+      "section": "policy_foundations",
+      "taught": true,
+      "note": "First Industrial Policy Resolution 1948 — taught in policy_foundations from NCERT Class XI Indian Economic Development ch. 2, which names 'The Industrial Policy Resolution of 1948'; matches the official key (option C)."
+    }
+  ],
+  "WBI-06": [
+    {
+      "note": "Bank item (GK wb_industry, subtopic support_schemes), not a corpus PYQ. Taught: supersession of Karmasathi Prakalpa, age 18-55, loan ceiling Rs 5 lakh, collateral-free, 4% subsidised interest, margin money subsidy (wb.gov.in scheme page, fetched 2026-11-19). NOT taught: the margin-money rate (10% of project cost, cap Rs 25,000) stated in the bank item — no gov.in page fetched in this run stated the rate or cap, so it is disclosed as a gap, not asserted.",
+      "pyq_code": "GK-IND-012",
+      "section": "bhabishyat",
+      "taught": true
+    },
+    {
+      "note": "Bank item (GK wb_industry, subtopic support_schemes), not a corpus PYQ. Taught: Silpasathi single-window portal, Common Application Form (CAF) and unique CAF ID (NIC Informatics + silpasathi.wb.gov.in, fetched 2026-11-19); Shilper Samadhane targets — 2 lakh Bhabishyat applications, 5 lakh artisan/weaver enlistments, 5 lakh Udyam registrations (ds.wb.gov.in, fetched 2026-11-19) taught in section 'outreach'. Partial: the bank item's camp venues (blocks, municipalities, KMC wards) were not stated on the fetched ds.wb.gov.in page, so venue detail is not asserted in the chapter.",
+      "pyq_code": "GK-IND-013",
+      "section": "silpasathi",
+      "taught": true
+    }
+  ],
+  "WBI-07": [
+    {
+      "note": "Bank item (subtopic mixed): Bengal Global Business Summit — flagship summit, WBIDC nodal body, 8th edition 5–6 Feb 2025. NOT taught in WBI-07: the only official BGBS source found is WBIDC's page on wbidc.com, which is outside this book's allowed publishers (GOVT *.gov.in/*.nic.in and NCERT only). No gov.in/nic.in page carrying these facts could be fetched, so the facts are disclosed as a gap rather than cited from a non-allowed source.",
+      "pyq_code": "GK-IND-014",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Asks the district of Chittaranjan Locomotive Works (options include Paschim Bardhaman). WBI-07 teaches CLW's location only as sourced from CLW's own page: WB–Jharkhand border, about 32 km from Asansol, 237 km from Kolkata (claims c38). The district name does not appear in any fetched allowed source, so the exact district answer is not taught.",
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q66",
+      "section": "heritage_mix",
+      "taught": false
+    },
+    {
+      "note": "Asks which rivers' confluence Haldia Port stands on (Haldi + Hooghly). WBI-07 teaches Haldia's port as about 145 km southwest of Calcutta near the Hooghly's transition to the Bay of Bengal (claim c29, WBIIDC), but the Haldi river confluence is not stated in any fetched allowed source, so this item is not taught.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q18",
+      "section": "areas_mix",
+      "taught": false
+    },
+    {
+      "note": "Asks the two main industries of the Haldia Industrial Region (petroleum refinery combinations). WBI-07 teaches Haldia's chemicals/petrochemicals character and the park's battery unit (claims c29, c30), but a petroleum refinery at Haldia is not stated in the fetched WBIIDC pages, so the exact pairing is not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-Q59",
+      "section": "areas_mix",
+      "taught": false
+    },
+    {
+      "note": "MoU between Ministry of Textiles and Ministry of MSME for a Technology Centre — the options are all outside West Bengal (Jaipur, Pune, Kanpur, Lucknow). Outside this book's West Bengal scope and not covered by any fetched source; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-Q43",
+      "section": null,
+      "taught": false
+    }
+  ]
+}

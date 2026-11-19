@@ -1,0 +1,424 @@
+{
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "১৭৭৪ সালে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "India has a long history of commercial coal mining covering nearly 220 years starting from 1774 by M/s Sumner and Heatly of East India Company in the Raniganj Coalfield along the Western bank of river Damodar.",
+   "source_url": "https://coal.nic.in/about-us/history-background",
+   "page": "History and Background page",
+   "notes": "claim c01"
+  },
+  {
+   "id": "q02",
+   "answer": "রিশরায়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 60 (Contemporary India II)",
+   "notes": "claim c06"
+  },
+  {
+   "id": "q03",
+   "answer": "আগে কোকিং খনি (১৯৭১–৭২), পরে অ-কোকিং খনি (১৯৭৩)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The nationalisation was done in two phases, the first with the coking coal mines in 1971-72 and then with the non-coking coal mines in 1973.",
+   "source_url": "https://coal.nic.in/about-us/history-background",
+   "page": "Nationalisation of Coal Mines section",
+   "notes": "claim c03"
+  },
+  {
+   "id": "q04",
+   "answer": "ভারত কোকিং কোল লিমিটেড (BCCL)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "were nationalised on 1.5.1972 and brought under the Bharat Coking Coal Limited (BCCL), a new Central Government Undertaking",
+   "source_url": "https://coal.nic.in/about-us/history-background",
+   "page": "Nationalisation of Coal Mines section",
+   "notes": "claim c04"
+  },
+  {
+   "id": "q05",
+   "answer": "১, ২ ও ৩ সবকটিই সঠিক",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Production of steam loco commenced on 26th January, 1950. The first President of India, Dr. Rajendra Prasad dedicated the first steam locomotive to the nation on 1st November, 1950 and on the same day the Loco Building Factory was rechristened and named after the great Patriot, Deshbandhu Chittaranjan Das and became Chittaranjan Locomotive Works.",
+   "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+   "page": "About Us",
+   "notes": "claims c37 (statements 1-2) and c38 (statement 3)"
+  },
+  {
+   "id": "q06",
+   "answer": "২, ১, ৩, ৪",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "India has a long history of commercial coal mining covering nearly 220 years starting from 1774 by M/s Sumner and Heatly of East India Company in the Raniganj Coalfield along the Western bank of river Damodar.",
+   "source_url": "https://coal.nic.in/about-us/history-background",
+   "page": "History and Background page",
+   "notes": "1774 (c01), 1855 (c06), 1950 (c37), 1973 (c05)"
+  },
+  {
+   "id": "q07",
+   "answer": "বাষ্পীয় লোকোমোটিভের প্রবর্তন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the introduction of steam locomotives in 1853 gave a fillip to it",
+   "source_url": "https://coal.nic.in/about-us/history-background",
+   "page": "History and Background page",
+   "notes": "claim c02"
+  },
+  {
+   "id": "q08",
+   "answer": "₹২.৫ কোটি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Micro Enterprises | 1 | 2.5 | 5 | 10",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Figure 1 table",
+   "notes": "claim c18"
+  },
+  {
+   "id": "q09",
+   "answer": "₹১০০ কোটি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Small Enterprises | 10 | 25 | 50 | 100",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Figure 1 table",
+   "notes": "claim c19"
+  },
+  {
+   "id": "q10",
+   "answer": "২.৫ গুণ ও ২ গুণ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the investment and turnover limits for classification of all MSMEs will be enhanced to 2.5 and 2 times respectively",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Revision in classification criteria section",
+   "notes": "claim c21"
+  },
+  {
+   "id": "q11",
+   "answer": "₹৫ কোটি থেকে বাড়িয়ে ₹১০ কোটি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "For Micro and Small Enterprises, from 5 crore to 10 crore, leading to additional credit of 1.5 lakh crore in the next 5 years",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Credit availability section",
+   "notes": "claim c22"
+  },
+  {
+   "id": "q12",
+   "answer": "শুধু ১ ও ২ সঠিক",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "customized Credit Cards with a 5 lakh limit for micro enterprises registered on Udyam portal will be introduced. She further remarked that in the first year, 10 lakh such cards will be issued.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Credit Cards section",
+   "notes": "statements 1-2 from c23; statement 3 false per c20 (medium turnover Rs 500 crore, not 250)"
+  },
+  {
+   "id": "q13",
+   "answer": "মাঝারি উদ্যোগ — বিনিয়োগ ₹১২৫ কোটি, টার্নওভার ₹৫০০ কোটি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Medium Enterprises | 50 | 125 | 250 | 500",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Figure 1 table",
+   "notes": "claim c20"
+  },
+  {
+   "id": "q14",
+   "answer": "৩৬ শতাংশ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "currently, over 1 crore registered MSMEs, employing 7.5 crore people, and generating 36 per cent of our manufacturing, have come together to position India as a global manufacturing hub",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Budget speech report",
+   "notes": "claim c24"
+  },
+  {
+   "id": "q15",
+   "answer": "কৃষিভিত্তিক শিল্প",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Agro based: cotton, woollen, jute, silk textile, rubber and sugar, tea, coffee, edible oil.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "pp. 58-59",
+   "notes": "claim c16"
+  },
+  {
+   "id": "q16",
+   "answer": "পশ্চিমবঙ্গে, হুগলি নদীর তীরের সরু বেল্টে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Most of the mills are located in West Bengal, mainly along the banks of the Hugli river, in a narrow belt.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 60",
+   "notes": "claim c07"
+  },
+  {
+   "id": "q17",
+   "answer": "সব শিল্পই তাদের যন্ত্রপাতির জন্য এর ওপর নির্ভরশীল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The iron and steel industry is the basic industry since all the other industries — heavy, medium and light, depend on it for their machinery.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 61",
+   "notes": "claim c12"
+  },
+  {
+   "id": "q18",
+   "answer": "৪ : ২ : ১",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Iron and steel is a heavy industry because all the raw materials as well as finished goods are heavy and bulky entailing heavy transportation costs. Iron ore, coking coal and lime stone are required in the ratio of approximately 4 : 2 : 1.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 61",
+   "notes": "claim c13"
+  },
+  {
+   "id": "q19",
+   "answer": "শুধু ১ সঠিক",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "India is the largest producer of raw jute and jute goods and stands at second place as an exporter after Bangladesh.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 60",
+   "notes": "statement 2 reversed per c08; statement 3 reversed per c09"
+  },
+  {
+   "id": "q20",
+   "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "proximity of the jute producing areas, inexpensive water transport, supported by a good network of railways, roadways and waterways to facilitate movement of raw material to the mills, abundant water for processing raw jute, cheap labour from West Bengal and adjoining states of Bihar, Odisha and Uttar Pradesh. Kolkata as a large urban centre provides banking, insurance and port facilities for export of jute goods.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 61",
+   "notes": "A from c07, R from c10"
+  },
+  {
+   "id": "q21",
+   "answer": "ইস্পাতের উৎপাদন ও ভোগ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Production and consumption of steel is often regarded as the index of a country's development.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 61",
+   "notes": "claim c14"
+  },
+  {
+   "id": "q22",
+   "answer": "১৯৭৪ সালের XXIV নম্বর আইন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "WBIIDC, a statutory organization of Govt. of West Bengal, established under Act XXIV of 1974 for provision of requisite industrial infrastructure spread over West Bengal to ensure balanced and well-planned industrial development in the State.",
+   "source_url": "https://wbiidc.wb.gov.in/profile",
+   "page": "Profile",
+   "notes": "claim c25"
+  },
+  {
+   "id": "q23",
+   "answer": "পূর্ব মেদিনীপুর, ১৯৭৭ সালে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Haldia Industrial Park was developed in 1977 in the Purba Midnapur District of West Bengal.",
+   "source_url": "https://wbiidc.wb.gov.in/haldia",
+   "page": "Park introduction",
+   "notes": "claim c28"
+  },
+  {
+   "id": "q24",
+   "answer": "৯৯ বছর",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Lands / Sheds have been allotted to various industrial units on 99 years lease.",
+   "source_url": "https://wbiidc.wb.gov.in/profile",
+   "page": "Infrastructure row",
+   "notes": "claim c27"
+  },
+  {
+   "id": "q25",
+   "answer": "২,১১৯ একর জমিতে ১৭টি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Seventeen Functional Industrial Park have been developed and one Industrial Park is under development over 2119 acres of land covering nine districts of the State of West Bengal.",
+   "source_url": "https://wbiidc.wb.gov.in/profile",
+   "page": "Industrial Park section",
+   "notes": "claim c26"
+  },
+  {
+   "id": "q26",
+   "answer": "১, ২ ও ৩ সবকটিই সঠিক",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Haldia also has a major port located approximately 145 kilometers southwest of Calcutta near the transition of the Hooghly River to Bay of Bengal. Haldia is one of the industrial hubs of West Bengal with prominent industrial activity based on chemicals, petrochemicals etc.",
+   "source_url": "https://wbiidc.wb.gov.in/haldia",
+   "page": "Park introduction",
+   "notes": "statements 1-2 from c29, statement 3 from c30"
+  },
+  {
+   "id": "q27",
+   "answer": "ক-৩, খ-১, গ-২",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "WBIIDC, a statutory organization of Govt. of West Bengal, established under Act XXIV of 1974 for provision of requisite industrial infrastructure spread over West Bengal to ensure balanced and well-planned industrial development in the State.",
+   "source_url": "https://wbiidc.wb.gov.in/profile",
+   "page": "Profile",
+   "notes": "Act 1974 (c25), park 1977 (c28), lease 99 yrs (c27)"
+  },
+  {
+   "id": "q28",
+   "answer": "রাসায়নিক ও পেট্রোরসায়ন-ভিত্তিক",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Haldia also has a major port located approximately 145 kilometers southwest of Calcutta near the transition of the Hooghly River to Bay of Bengal. Haldia is one of the industrial hubs of West Bengal with prominent industrial activity based on chemicals, petrochemicals etc.",
+   "source_url": "https://wbiidc.wb.gov.in/haldia",
+   "page": "Park introduction",
+   "notes": "claim c29"
+  },
+  {
+   "id": "q29",
+   "answer": "রাজ্যের অনলাইন সিঙ্গল-উইন্ডো পরিষেবা পোর্টাল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Online Single Window Services Portal for Ease of Doing Business.",
+   "source_url": "https://msme.wb.gov.in/",
+   "page": "Our Services — Silpa Sathi",
+   "notes": "claim c34"
+  },
+  {
+   "id": "q30",
+   "answer": "১৪২টি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Silpasathi Portal is now LIVE with 142 Industrial related Licenses / Approvals / NoCs and Renewals",
+   "source_url": "https://silpasathi.wb.gov.in/",
+   "page": "Portal notice",
+   "notes": "claim c35"
+  },
+  {
+   "id": "q31",
+   "answer": "One District One Product — আঞ্চলিক বাণিজ্য ও উৎপাদন-বাস্তুতন্ত্রের প্রচার",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Promoting regional trade and manufacturing ecosystem with ODOP(One District One Product)",
+   "source_url": "https://msme.wb.gov.in/",
+   "page": "Our Services — ODOP",
+   "notes": "claim c33"
+  },
+  {
+   "id": "q32",
+   "answer": "২০২২",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "WEST BENGAL TEXTILE INCENTIVE SCHEME, 2022",
+   "source_url": "https://msme.wb.gov.in/",
+   "page": "Our Services",
+   "notes": "claim c32"
+  },
+  {
+   "id": "q33",
+   "answer": "শুধু ১ ও ২ সঠিক",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "West Bengal Bhabishyat Credit Card Scheme",
+   "source_url": "https://msme.wb.gov.in/",
+   "page": "Our Services",
+   "notes": "statement 1 from c31, statement 2 from c41; statement 3 false — c36 describes camps, not a park"
+  },
+  {
+   "id": "q34",
+   "answer": "শিল্পসাথী — সিঙ্গল-উইন্ডো পোর্টাল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Online Single Window Services Portal for Ease of Doing Business.",
+   "source_url": "https://msme.wb.gov.in/",
+   "page": "Our Services — Silpa Sathi",
+   "notes": "claim c34"
+  },
+  {
+   "id": "q35",
+   "answer": "MSME ও বস্ত্র দপ্তর",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "GI Product of West Bengal [MSME & T]",
+   "source_url": "https://msme.wb.gov.in/",
+   "page": "Our Services — GI Products",
+   "notes": "claim c42"
+  },
+  {
+   "id": "q36",
+   "answer": "কাঁচামাল প্রক্রিয়াজাত করে আরও মূল্যবান পণ্য বড় পরিমাণে উৎপাদন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Production of goods in large quantities after processing from raw materials to more valuable products is called manufacturing.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 58",
+   "notes": "claim c15"
+  },
+  {
+   "id": "q37",
+   "answer": "সরকারি ক্ষেত্র",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Public sector, owned and operated by government agencies – BHEL, SAIL etc.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 58",
+   "notes": "claim c17"
+  },
+  {
+   "id": "q38",
+   "answer": "রিশরা — প্রথম পাটকল (১৮৫৫)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+   "page": "p. 60 (Contemporary India II)",
+   "notes": "claim c06"
+  },
+  {
+   "id": "q39",
+   "answer": "কয়লা উত্তোলন (১৭৭৪) → পাটকল (১৮৫৫) → CLW (১৯৫০) → WBIIDC আইন (১৯৭৪)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "India has a long history of commercial coal mining covering nearly 220 years starting from 1774 by M/s Sumner and Heatly of East India Company in the Raniganj Coalfield along the Western bank of river Damodar.",
+   "source_url": "https://coal.nic.in/about-us/history-background",
+   "page": "History and Background page",
+   "notes": "dates from c01, c06, c37, c25"
+  },
+  {
+   "id": "q40",
+   "answer": "শুধু ১ ও ২ সঠিক",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Micro Enterprises | 1 | 2.5 | 5 | 10",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Figure 1 table",
+   "notes": "statement 1 supported by old/new columns in c18-c20 quotes and c21; statement 2 by c25; statement 3 (port also 1977) not covered by claims — only park year 1977 in c28"
+  },
+  {
+   "id": "q41",
+   "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "the investment and turnover limits for classification of all MSMEs will be enhanced to 2.5 and 2 times respectively",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098389",
+   "page": "Revision in classification criteria section",
+   "notes": "R verbatim from c21; A is an exam-strategy inference from the revision, not a standalone claim"
+  },
+  {
+   "id": "q42",
+   "answer": "এটি পশ্চিমবঙ্গ–ঝাড়খণ্ড সীমান্তে, আসানসোল থেকে প্রায় ৩২ কিমি দূরে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "It is the only major Electric Locomotive manufacturer in the country. It is situated at the Border of West Bengal and Jharkhand and is at about 32 km from Asansol and 237 kms from Kolkata.",
+   "source_url": "https://clw.indianrailways.gov.in/ministry/about-us",
+   "page": "About Us",
+   "notes": "claim c38"
+  }
+ ]
+}

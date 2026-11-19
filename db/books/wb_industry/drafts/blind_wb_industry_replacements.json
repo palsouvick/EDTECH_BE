@@ -1,0 +1,34 @@
+{
+ "questions": [
+  {
+   "chapter": "WBI-03",
+   "chapter_file": "BE/db/books/wb_industry/ch03-key-industries-clusters.json",
+   "id": "q02",
+   "section": "jute_textile",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "পাটকলগুলির বেশিরভাগই কোন নদীর দুই তীর জুড়ে গড়ে উঠেছে?",
+   "options": [
+    "দামোদর নদীর তীরে",
+    "তিস্তা নদীর তীরে",
+    "হুগলি নদীর তীরে",
+    "গঙ্গার মোহনা থেকে দূরে পশ্চিম মালভূমিতে"
+   ]
+  },
+  {
+   "chapter": "WBI-07",
+   "chapter_file": "BE/db/books/wb_industry/ch07-mixed-practice.json",
+   "id": "q02",
+   "section": "heritage_mix",
+   "level": "basic",
+   "format": "DIRECT",
+   "q": "ভারতের প্রথম পাটকলটি কোন শহরে গড়ে ওঠে?",
+   "options": [
+    "মুম্বইয়ে",
+    "রিশরায়",
+    "চিত্তরঞ্জনে",
+    "হলদিয়ায়"
+   ]
+  }
+ ]
+}
