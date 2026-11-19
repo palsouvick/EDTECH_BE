@@ -26,6 +26,11 @@ const SOURCE_PUBLISHERS = Object.freeze({
   // Official Government of India / West Bengal sites (*.gov.in, *.nic.in), Geography only (owner decision of
   // 2026-11-13): for list facts textbooks do not carry, such as districts, dams and national parks.
   GOVT: /^https:\/\/([a-z0-9-]+\.)+(gov\.in|nic\.in)\/\S*$/i,
+  // Government of India educational platforms (owner decision of 2026-11-19, admitted for the HIS-10
+  // completion): IGNOU eGyanKosh course PDFs, NIOS study material and e-PG Pathshala (INFLIBNET).
+  IGNOU: /^https:\/\/egyankosh\.ac\.in\/\S+$/i,
+  NIOS: /^https:\/\/([a-z0-9-]+\.)*nios\.ac\.in\/\S+$/i,
+  EPG: /^https:\/\/([a-z0-9-]+\.)*inflibnet\.ac\.in\/\S+$/i,
 });
 const publisherOf = (url = '') => Object.keys(SOURCE_PUBLISHERS).find((p) => SOURCE_PUBLISHERS[p].test(url)) || null;
 
@@ -42,7 +47,7 @@ const PROFILES = Object.freeze({
     maxNumber: 28,
     parts: ['intro', 'ancient', 'medieval', 'modern_company', 'modern_national', 'post_independence'],
     subtopics: subtopicsOf('indian_history'),
-    publishers: ['NCERT', 'WBBSE'],
+    publishers: ['NCERT', 'WBBSE', 'IGNOU', 'NIOS', 'EPG'],
     dated: true,
   },
   geography: {
