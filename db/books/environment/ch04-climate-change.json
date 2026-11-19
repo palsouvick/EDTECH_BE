@@ -1,0 +1,1517 @@
+{
+  "book": "environment",
+  "code": "ENV-04",
+  "number": 4,
+  "part": "threats",
+  "title": "জলবায়ু পরিবর্তন",
+  "subtitle": "গ্রিনহাউস প্রভাব ও বৈশ্বিক উষ্ণায়ন, তার প্রভাব, এবং UNFCCC–প্যারিস চুক্তি থেকে NAPCC–NDC পর্যন্ত বিশ্ব ও ভারতের প্রতিক্রিয়া",
+  "subtopics": [
+    "climate_change"
+  ],
+  "related_facts": [
+    "GK-ENV-007"
+  ],
+  "prerequisites": [
+    "ENV-03"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (42 SURE, 0 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 4 of 6 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ENV-04.json and drafts/ENV-04_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ENV-04_REPORT.md.",
+    "checked_claims": 40,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "পৃথিবীর জলবায়ু বদলাচ্ছে — আর এবারের বদলে মানুষের হাত বড়। এই অধ্যায়ে আমরা প্রথমে আবহাওয়া ও জলবায়ুর পার্থক্য থেকে শুরু করে গ্রিনহাউস প্রভাব ও বৈশ্বিক উষ্ণায়নের কারিগরি বুঝব, তারপর দেখব এর প্রভাবগুলি: বরফ গলা, সমুদ্রপৃষ্ঠ ওঠা, বন্যা, রোগ ও কৃষির বদল। শেষে থাকছে বিশ্বের ও ভারতের জবাব — UNFCCC ও প্যারিস চুক্তির তাপমাত্রা-লক্ষ্য, ভারতের NAPCC-র আটটি মিশন, NDC-র ধাপে ধাপে বাড়তে থাকা লক্ষ্য এবং ২০৭০ সালের নেট-জিরো প্রতিশ্রুতি।",
+    "you_will_learn": [
+      "আবহাওয়া ও জলবায়ুর পার্থক্য এবং কেন জলবায়ুর বদল বুঝতে ৫০ বছর বা তার বেশি সময় লাগে",
+      "গ্রিনহাউস গ্যাসগুলির নাম ও কেন মিথেন, CFC ও নাইট্রাস অক্সাইড CO₂-র চেয়েও শক্তিশালী শোষক",
+      "বৈশ্বিক উষ্ণায়নের প্রাকৃতিক ও মানবিক কারণ — শিল্পায়ন, জীবাশ্ম জ্বালানি ও ভারতের শক্তি ক্ষেত্রের ৭৫.৬৬% অংশ",
+      "প্রভাবগুলি: সমুদ্রপৃষ্ঠ ৪৮ সেমি ওঠার পূর্বাভাস, বন্যা, ম্যালেরিয়া, জলবায়ুগত সীমানার সরণ ও কৃষির বদল",
+      "UNFCCC (কার্যকর ১৯৯৪) থেকে প্যারিস চুক্তি (২০১৫): ২°C-এর অনেক নিচে ও ১.৫°C-এর লক্ষ্য, NDC-র ধারণা",
+      "ভারতের পদক্ষেপ: NAPCC (২০০৮) ও তার আটটি মিশন, NDC-র লক্ষ্যগুলি এবং নেট-জিরো ২০৭০"
+    ]
+  },
+  "sections": [
+    {
+      "id": "basic_concepts",
+      "heading": "আবহাওয়া, জলবায়ু ও জলবায়ু পরিবর্তন কাকে বলে",
+      "quick": "আবহাওয়া হল বায়ুমণ্ডলের ক্ষণস্থায়ী অবস্থা, আর জলবায়ু হল দীর্ঘ সময়ের আবহাওয়ার গড়। আবহাওয়া দিনে-সপ্তাহে বদলায়, কিন্তু জলবায়ুর বদল এত ধীরে হয় যে তা বোঝা যায় ৫০ বছর বা তারও বেশি সময় পরে। ভূতাত্ত্বিক প্রমাণ বলছে, একসময় পৃথিবীর বড় অংশ বরফে ঢাকা ছিল — অর্থাৎ জলবায়ু অতীতেও বদলেছে, এখনও বদলাচ্ছে।",
+      "standard": "**আবহাওয়া বনাম জলবায়ু** — এই পার্থক্যটাই এই অধ্যায়ের ভিত্তি। NCERT-র সংজ্ঞা অনুযায়ী, আবহাওয়া (Weather) হল বায়ুমণ্ডলের ক্ষণস্থায়ী অবস্থা — আজ বৃষ্টি হল কি রোদ উঠল, তা আবহাওয়া। আর জলবায়ু (Climate) হল দীর্ঘ সময় ধরে আবহাওয়ার অবস্থার গড় — কোনো জায়গা সাধারণত গরম না ঠান্ডা, বৃষ্টিবহুল না শুষ্ক, তা জলবায়ু।\n\nবদলের গতিতেও তফাত আছে। আবহাওয়া দ্রুত বদলায় — এক দিন বা এক সপ্তাহের মধ্যেই। কিন্তু জলবায়ু বদলায় প্রায় অদৃশ্যভাবে (imperceptibly); সেই বদল লক্ষ করা যায় ৫০ বছর বা তারও বেশি সময় পরে। তাই দু-একটা গরম গ্রীষ্ম দেখেই 'জলবায়ু বদলে গেছে' বলা যায় না — দীর্ঘ ধারাবাহিক গড়ের বদলই জলবায়ু পরিবর্তন।\n\n**অতীতেও বদলেছে** — জলবায়ু পরিবর্তন নতুন ঘটনা নয়। ভূতাত্ত্বিক প্রমাণ থেকে জানা যায়, একসময় পৃথিবীর বড় একটি অংশ বরফের আবরণে ঢাকা ছিল। অর্থাৎ প্রাকৃতিক কারণে পৃথিবীর জলবায়ু যুগে যুগে বদলেছে। বর্তমান বিতর্কের কেন্দ্রে যে প্রশ্নটি আছে, তা হল — এখনকার বদলের পেছনে মানুষের ভূমিকা কতটা, আর বদলের গতি কতটা দ্রুত। পরের অংশগুলিতে আমরা ঠিক এই প্রশ্নটিই ধাপে ধাপে দেখব: গ্রিনহাউস প্রভাব কী, মানুষের কোন কাজগুলি তা বাড়িয়ে দিচ্ছে, এবং তার ফল কী হতে পারে।",
+      "deep": "পরীক্ষার জন্য একটি সূক্ষ্ম বিষয় মনে রাখো: 'জলবায়ু পরিবর্তন' বলতে শুধু উষ্ণতা বাড়া বোঝায় না — বৃষ্টিপাতের ধরন, ঋতুর সীমানা ও চরম আবহাওয়ার ঘটনার বদলও এর অংশ। NCERT এই অধ্যায়ের শেষে দেখিয়েছে, জলবায়ুগত সীমানা সরে গেলে কোনো অঞ্চল আর্দ্রতর আবার কোনো অঞ্চল শুষ্কতর হতে পারে এবং কৃষির ধরনও বদলে যেতে পারে। অর্থাৎ পরিবর্তন মানে একমুখী 'সব জায়গায় সমান গরম' নয়; অঞ্চলভেদে ফল আলাদা — এই ধারণাটি WBCS-স্তরের উত্তরে কাজে লাগে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "আবহাওয়া ≠ জলবায়ু",
+          "body": "একদিনের ঠান্ডা বা এক বছরের বেশি বৃষ্টি দিয়ে জলবায়ু পরিবর্তন প্রমাণ বা খণ্ডন করা যায় না। জলবায়ু মানে দীর্ঘ সময়ের গড়; তার বদল বোঝা যায় দশকের পর দশক ধরে।"
+        },
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "আবহাওয়া = ক্ষণস্থায়ী অবস্থা; জলবায়ু = দীর্ঘ সময়ের গড়। জলবায়ুর বদল লক্ষ করা যায় ৫০ বছর বা তারও বেশি সময়ে।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "id": "greenhouse_effect",
+      "heading": "গ্রিনহাউস প্রভাব ও বৈশ্বিক উষ্ণায়ন",
+      "quick": "কার্বন ডাইঅক্সাইড, মিথেন, ক্লোরোফ্লুরোকার্বন ও নাইট্রাস অক্সাইড — এগুলিই গ্রিনহাউস গ্যাস। এরা দীর্ঘ-তরঙ্গ বিকিরণ শোষণ করে পৃথিবীকে উষ্ণ রাখে; ঘনত্ব বাড়লে এই প্রভাব জোরালো হয় এবং পৃথিবীর তাপমাত্রা বাড়ে — এটাই বৈশ্বিক উষ্ণায়ন (Global Warming)। গত ১৫০ বছরে পৃথিবীর গড় পৃষ্ঠ-তাপমাত্রা বেড়েছে এবং ২১০০ সাল নাগাদ আরও প্রায় ২°C বাড়তে পারে বলে অনুমান।",
+      "standard": "**গ্রিনহাউস গ্যাস কারা** — NCERT চারটি গ্যাসের নাম একসঙ্গে বলেছে: কার্বন ডাইঅক্সাইড (CO₂), মিথেন (CH₄), ক্লোরোফ্লুরোকার্বন (CFC) এবং নাইট্রাস অক্সাইড (N₂O)। শেষ তিনটি বায়ুমণ্ডলে অনেক কম ঘনত্বে থাকলেও, কার্বন ডাইঅক্সাইডের সঙ্গে মিলে এরাই 'গ্রিনহাউস গ্যাস' নামে পরিচিত।\n\n**কীভাবে উষ্ণ করে** — এই গ্যাসগুলি দীর্ঘ-তরঙ্গ বিকিরণের (long-wave radiation) ভালো শোষক। লক্ষণীয় বিষয়: মিথেন, CFC ও নাইট্রাস অক্সাইড কার্বন ডাইঅক্সাইডের চেয়েও ভালো শোষক, তাই গ্রিনহাউস প্রভাব বাড়াতে এরা আরও বেশি কার্যকর। অর্থাৎ শুধু পরিমাণ নয়, শোষণ-ক্ষমতাও গুরুত্বপূর্ণ — কম ঘনত্বের গ্যাসও শক্তিশালী ভূমিকা রাখতে পারে।\n\n**কার্বন ডাইঅক্সাইড কেন উদ্বেগের কেন্দ্রে** — মানুষের কার্যকলাপে তৈরি কার্বন ডাইঅক্সাইডই সবচেয়ে বড় উদ্বেগের বিষয়। জীবাশ্ম জ্বালানি (কয়লা, পেট্রোলিয়াম) পোড়ালে এই গ্যাস বিপুল পরিমাণে বায়ুমণ্ডলে ছাড়া হয় এবং তার ঘনত্ব ধীরে ধীরে বাড়ছে।\n\n**উষ্ণায়নের মাপ** — গত ১৫০ বছরে পৃথিবীর গড় বার্ষিক পৃষ্ঠ-তাপমাত্রা বেড়েছে। অনুমান অনুযায়ী, ২১০০ সাল নাগাদ বৈশ্বিক তাপমাত্রা আরও প্রায় ২°C বাড়বে। এই বাড়তি উষ্ণতাই পরের অংশের প্রভাবগুলির — বরফ গলা, সমুদ্রপৃষ্ঠ ওঠা, রোগ ও কৃষির বদল — মূল চালিকাশক্তি।",
+      "deep": "একটি সাধারণ ভুল ধারণা ভাঙা জরুরি: গ্রিনহাউস প্রভাব নিজে ক্ষতিকর নয় — এই প্রভাব ছাড়া পৃথিবী প্রাণের পক্ষে অতিরিক্ত শীতল হত। সমস্যা হল প্রভাবটির **অতিরিক্ত জোরালো হওয়া**। WBP Constable ২০২১-এর প্রশ্নে ঠিক এই ধারণাটিই এসেছিল: বায়ুমণ্ডল না থাকলে পৃথিবী হত 'অত্যাধিক শীতল'। পরীক্ষায় তাই 'গ্রিনহাউস প্রভাব ভালো না খারাপ' জাতীয় প্রশ্নে উত্তর হবে — প্রাকৃতিক মাত্রায় প্রয়োজনীয়, মানবিক কারণে বেড়ে যাওয়াই সমস্যা।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "গ্রিনহাউস গ্যাসের তালিকা মুখস্থ করো: CO₂, মিথেন, CFC, নাইট্রাস অক্সাইড। আর মনে রাখো — মিথেন/CFC/N₂O, CO₂-র চেয়ে ভালো দীর্ঘ-তরঙ্গ শোষক।"
+        },
+        {
+          "kind": "remember",
+          "title": "দুটি সংখ্যা",
+          "body": "গত ১৫০ বছরে গড় পৃষ্ঠ-তাপমাত্রা বেড়েছে; ২১০০ সাল নাগাদ আরও প্রায় ২°C বৃদ্ধির অনুমান (NCERT)।"
+        }
+      ],
+      "claims": [
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "causes",
+      "heading": "কারণ: প্রাকৃতিক ও মানবিক",
+      "quick": "জলবায়ু পরিবর্তনের প্রাকৃতিক কারণ যেমন আছে, তেমনি মানুষের কার্যকলাপও এখন গুরুত্বপূর্ণ কারণ — বৃহৎ মাত্রার শিল্পায়ন ও বায়ুমণ্ডলে দূষক গ্যাসের উপস্থিতি বৈশ্বিক উষ্ণায়নের জন্য দায়ী বলে NCERT বলেছে। ভারতের নির্গমনের সবচেয়ে বড় উৎস শক্তি ক্ষেত্র (Energy sector) — মোট নির্গমনের ৭৫.৬৬%।",
+      "standard": "**দুই ধরনের কারণ** — NCERT স্পষ্ট করে বলেছে: প্রাকৃতিক কারণের পাশাপাশি মানুষের কার্যকলাপও বৈশ্বিক উষ্ণায়নের গুরুত্বপূর্ণ কারণ। মানবিক কারণগুলির মধ্যে নাম করা হয়েছে বৃহৎ মাত্রার শিল্পায়ন (large-scale industrialisation) এবং বায়ুমণ্ডলে দূষক গ্যাসের উপস্থিতি।\n\n**জীবাশ্ম জ্বালানির ভূমিকা** — আগের অংশে দেখেছি, জীবাশ্ম জ্বালানি পোড়ানো থেকেই কার্বন ডাইঅক্সাইড বিপুল পরিমাণে বায়ুমণ্ডলে যায়। বিদ্যুৎ উৎপাদন, পরিবহন, শিল্প — সব ক্ষেত্রেই এই জ্বালানির ব্যবহার নির্গমনের প্রধান উৎস।\n\n**ভারতের ছবি** — ভারতের চতুর্থ Biennial Update Report (BUR-4) অনুযায়ী, দেশের মোট গ্রিনহাউস গ্যাস নির্গমনের সবচেয়ে বড় অংশ আসে শক্তি ক্ষেত্র থেকে — ৭৫.৬৬%। অর্থাৎ ভারতের ক্ষেত্রে জলবায়ু-নীতির কেন্দ্রে থাকবে শক্তি ক্ষেত্রের রূপান্তর: জীবাশ্ম-নির্ভরতা কমিয়ে অ-জীবাশ্ম (non-fossil) উৎস বাড়ানো — যা আমরা শেষ অংশে ভারতের লক্ষ্যগুলিতে দেখব।\n\n**ন্যায্যতার প্রশ্ন** — কারণ আলোচনায় একটি তথ্য প্রায়ই আসে: ১৮৫০–২০১৯ সময়ে বিশ্বের মোট সঞ্চিত (cumulative) নির্গমনে ভারতের ঐতিহাসিক অংশ মাত্র ৪%, অথচ এই সময়ে বিশ্ব জনসংখ্যার প্রায় ১৭% ছিল ভারতের। এই বৈষম্যই 'সাধারণ কিন্তু পৃথক দায়িত্ব' (CBDR) নীতির ভিত্তি, যা আন্তর্জাতিক আলোচনায় ভারতের অবস্থান নির্ধারণ করে।",
+      "deep": "কারণ ও দায়িত্বের মধ্যে পার্থক্য রাখো। বৈজ্ঞানিক প্রশ্ন — 'নির্গমন কোথা থেকে আসে' (শক্তি ক্ষেত্র ৭৫.৬৬%); রাজনৈতিক প্রশ্ন — 'কে কতটা কমাবে'। দ্বিতীয় প্রশ্নে ভারতের যুক্তি ঐতিহাসিক সঞ্চিত নির্গমনের হিসাব: জনসংখ্যার ১৭% নিয়ে সঞ্চিত নির্গমনে অংশ ৪%। NAPCC-তে ভারত আশ্বাস দিয়েছে, দেশের মাথাপিছু গ্রিনহাউস গ্যাস নির্গমন উন্নত দেশগুলির মাথাপিছু নির্গমনের বেশি হবে না। এই দুটি তথ্য একসঙ্গে মনে রাখলে CBDR-ভিত্তিক যেকোনো প্রশ্নের উত্তর সহজ হয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "ভারতের নির্গমনে শক্তি ক্ষেত্রের অংশ ৭৫.৬৬% (BUR-4) — এই সংখ্যাটি সরাসরি প্রশ্নে আসতে পারে।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "৪% হল ভারতের **সঞ্চিত ঐতিহাসিক** নির্গমনের অংশ (১৮৫০–২০১৯), বার্ষিক নির্গমনের অংশ নয়।"
+        }
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c30",
+        "c31",
+        "c19"
+      ]
+    },
+    {
+      "id": "impacts",
+      "heading": "প্রভাব: সমুদ্র, আবহাওয়া, কৃষি ও স্বাস্থ্য",
+      "quick": "উষ্ণায়নে মেরু বরফ ও পর্বতের হিমবাহ গলবে, সমুদ্রের জল বাড়বে — একবিংশ শতকের শেষ নাগাদ সমুদ্রপৃষ্ঠ গড়ে ৪৮ সেমি উঠতে পারে, ফলে বার্ষিক বন্যা বাড়বে। ম্যালেরিয়ার মতো পতঙ্গবাহিত রোগ ছড়াবে, জলবায়ুগত সীমানা সরে কোনো অঞ্চল আর্দ্রতর আবার কোনো অঞ্চল শুষ্কতর হবে, কৃষির ধরন বদলাবে। বৈচিত্র্যময় ভূগোলের কারণে ভারত জলবায়ু পরিবর্তনের প্রভাবে অত্যন্ত ঝুঁকিপ্রবণ।",
+      "standard": "**বরফ গলা ও সমুদ্রপৃষ্ঠ** — বৈশ্বিক উষ্ণায়নে মেরু অঞ্চলের বরফ-আবরণ (polar ice caps) ও পর্বতের হিমবাহ গলবে এবং মহাসাগরে জলের পরিমাণ বাড়বে। বর্তমান পূর্বাভাস অনুযায়ী, একবিংশ শতকের শেষ নাগাদ সমুদ্রপৃষ্ঠ গড়ে ৪৮ সেমি উঠবে। এর সরাসরি ফল — বার্ষিক বন্যার ঘটনা বাড়বে, বিশেষ করে নিচু উপকূলীয় অঞ্চলে।\n\n**স্বাস্থ্যের ওপর প্রভাব** — জলবায়ুগত পরিবর্তন ম্যালেরিয়ার মতো পতঙ্গবাহিত (insect-borne) রোগের প্রসার ঘটাবে। উষ্ণতর ও আর্দ্রতর পরিবেশে রোগবাহক পতঙ্গের বিস্তার বাড়ে বলেই এই ঝুঁকি। NAPCC-তেও জলবায়ু পরিবর্তনের কারণে বাহকবাহিত (vector-borne) রোগের বোঝা বাড়ার মূল্যায়নকে আলাদা উদ্যোগ হিসেবে রাখা হয়েছে।\n\n**বৃষ্টি ও কৃষির বদল** — জলবায়ুগত সীমানা সরে যাবে: কিছু অঞ্চল হবে আর্দ্রতর, কিছু হবে শুষ্কতর। এর সঙ্গে বদলাবে কৃষির ধরন (agricultural pattern) — কোন ফসল কোথায় হবে, সেই মানচিত্রই পাল্টে যেতে পারে। মানব জনসংখ্যা ও বাস্তুতন্ত্র — দুটোই এই বদলের মুখোমুখি হবে।\n\n**ভারতের ঝুঁকি** — সরকারি মূল্যায়ন অনুযায়ী, বৈচিত্র্যময় ভূগোলের কারণে ভারত জলবায়ু পরিবর্তনের প্রভাবে অত্যন্ত ঝুঁকিপ্রবণ (highly vulnerable) দেশ। হিমালয়ের হিমবাহ, দীর্ঘ উপকূলরেখা, বর্ষানির্ভর কৃষি — প্রতিটি ক্ষেত্রেই ঝুঁকি আলাদা ধরনের, তাই অভিযোজন (adaptation) ভারতের নীতিতে প্রশমনের (mitigation) পাশাপাশি সমান গুরুত্ব পায়।",
+      "deep": "NCERT নিজেই একটি চিন্তার প্রশ্ন রেখেছে: সমুদ্রপৃষ্ঠ বর্তমানের চেয়ে ৫০ সেমি উঠলে ভারতের সমুদ্র-উপকূলে কী হবে? উত্তরটি ভেবে দেখো — গঙ্গা-বদ্বীপসহ নিচু উপকূলীয় অঞ্চলে লবণাক্ত জলের প্রবেশ, বন্যার প্রকোপ ও জনবসতির ঝুঁকি বাড়বে। এই প্রশ্নটি দেখায়, পরীক্ষক শুধু সংখ্যা নয়, সংখ্যার **তাৎপর্য** বোঝাটাও যাচাই করতে চান। ৪৮ সেমি সংখ্যাটি তাই 'উপকূলীয় বন্যা বাড়বে' ফলটির সঙ্গে জোড়া দিয়ে মনে রাখো।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "সমুদ্রপৃষ্ঠ বৃদ্ধি: গড়ে ৪৮ সেমি (একবিংশ শতকের শেষ নাগাদ, NCERT পূর্বাভাস) → বার্ষিক বন্যা বাড়বে।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "প্রভাবের তালিকা: বরফ গলা → সমুদ্রপৃষ্ঠ ওঠা → বন্যা; পতঙ্গবাহিত রোগ (ম্যালেরিয়া); জলবায়ুগত সীমানার সরণ; কৃষির ধরন বদল।"
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12",
+        "c21",
+        "c32"
+      ]
+    },
+    {
+      "id": "global_response",
+      "heading": "আন্তর্জাতিক প্রতিক্রিয়া: UNFCCC থেকে প্যারিস চুক্তি",
+      "quick": "জলবায়ু নিয়ে বিশ্বের কাঠামোগত চুক্তি হল UNFCCC — কার্যকর হয় ২১ মার্চ ১৯৯৪ থেকে; লক্ষ্য গ্রিনহাউস গ্যাসের ঘনত্ব স্থিতিশীল রাখা। ২০১৫ সালে প্যারিসে COP21-এ ১৯৫টি দেশ প্যারিস চুক্তি গ্রহণ করে: লক্ষ্য তাপমাত্রা বৃদ্ধি ২°C-এর অনেক নিচে রাখা ও ১.৫°C-এ সীমিত রাখার চেষ্টা। চুক্তি কার্যকর হয় ৪ নভেম্বর ২০১৬; ভারত অনুমোদন দেয় ২ অক্টোবর ২০১৬। প্রতিটি দেশ নিজের লক্ষ্য নিজে ঠিক করে — এটাই NDC।",
+      "standard": "**UNFCCC — মূল কাঠামো** — United Nations Framework Convention on Climate Change (UNFCCC) কার্যকর হয় ১৯৯৪ সালের ২১ মার্চ থেকে। এর লক্ষ্য হল গ্রিনহাউস গ্যাসের ঘনত্ব এমন স্তরে স্থিতিশীল রাখা, যাতে জলবায়ু ব্যবস্থায় বিপজ্জনক মানবিক হস্তক্ষেপ এড়ানো যায়, এবং জলবায়ু বিষয়ে বৈশ্বিক সহযোগিতা এগিয়ে নেওয়া। এই কাঠামোর অধীনেই প্রতি বছর পক্ষগুলির সম্মেলন — Conference of the Parties (COP) — বসে।\n\n**প্যারিস চুক্তি (২০১৫)** — UNFCCC-র ২১তম পক্ষ-সম্মেলন (COP21) বসে প্যারিসে, ২০১৫ সালে; সেখানে ১৯৫টি দেশ প্যারিস চুক্তি গ্রহণ করে। এই চুক্তির বিশেষত্ব: প্রথমবারের মতো সব দেশ এক সাধারণ লক্ষ্যে এসেছে — জলবায়ু পরিবর্তনের বিরুদ্ধে উচ্চাকাঙ্ক্ষী প্রচেষ্টা ও তার প্রভাবের সঙ্গে অভিযোজন, যেখানে উন্নয়নশীল দেশগুলির জন্য বর্ধিত সহায়তার ব্যবস্থাও আছে।\n\n**তাপমাত্রার লক্ষ্য** — চুক্তির কেন্দ্রীয় লক্ষ্য: এই শতকে বৈশ্বিক তাপমাত্রা বৃদ্ধি শিল্পবিপ্লব-পূর্ব স্তরের তুলনায় ২°C-এর **অনেক নিচে** রাখা এবং বৃদ্ধি ১.৫°C-এ সীমিত রাখার প্রচেষ্টা চালানো। WBCS ২০১৬ ও Clerkship-সহ প্রায় সব পরীক্ষায় এই দুটি সংখ্যা ঘুরে ফিরে আসে।\n\n**NDC — নিজের লক্ষ্য নিজের** — প্যারিস চুক্তি অনুযায়ী প্রতিটি পক্ষকে নিজের সর্বোত্তম প্রচেষ্টা 'জাতীয়ভাবে নির্ধারিত অবদান' (Nationally Determined Contribution, NDC) আকারে জমা দিতে হয় এবং সময়ের সঙ্গে সেই প্রচেষ্টা জোরদার করতে হয়। চুক্তিটি কার্যকর হয় ২০১৬ সালের ৪ নভেম্বর; ভারত অনুমোদন (ratify) করে ২০১৬ সালের ২ অক্টোবর — মহাত্মা গান্ধীর জন্মবার্ষিকীতে।\n\n**ন্যায্যতার নীতি** — এই পুরো কাঠামোতে ভারতের অবস্থানের ভিত্তি হল 'সাধারণ কিন্তু পৃথক দায়িত্ব ও নিজ নিজ সক্ষমতা' (Common But Differentiated Responsibilities and Respective Capabilities, CBDR-RC) নীতি — সবার দায়িত্ব সাধারণ, কিন্তু ঐতিহাসিক নির্গমন ও সক্ষমতা অনুযায়ী দায়িত্বের মাত্রা আলাদা।",
+      "deep": "GK ব্যাংকের GK-ENV-007 আইটেমটি ঠিক এই অংশের ওপর: প্যারিস চুক্তি COP21-এ, ২০১৫ সালের ১২ ডিসেম্বর। একটি গুলিয়ে-ফেলা বিষয় পরিষ্কার রাখো — চুক্তি **গৃহীত** হওয়া (২০১৫) আর **কার্যকর** হওয়া (৪ নভেম্বর ২০১৬) দুটি আলাদা ঘটনা; পরীক্ষায় দুটোই আলাদা করে আসে। আরেকটি: WBCS ২০১৬-র প্রশ্নে '২০০টি দেশের প্রতিনিধিত্ব' বিকল্পটি ভুল ছিল — সঠিক সংখ্যা ১৯৫টি দেশের গ্রহণ (PIB)। সংখ্যাগুলি তাই জোড়া দিয়ে মনে রাখো: ১৯৫ দেশ, COP21, ২০১৫ গ্রহণ, ২০১৬ কার্যকর।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "প্যারিস চুক্তি = COP21, প্যারিস, ২০১৫; লক্ষ্য ২°C-এর অনেক নিচে, চেষ্টা ১.৫°C; কার্যকর ৪ নভেম্বর ২০১৬; ভারতের অনুমোদন ২ অক্টোবর ২০১৬।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "UNFCCC হল মূল কাঠামো-চুক্তি (কার্যকর ১৯৯৪); প্যারিস চুক্তি তার অধীনে ২০১৫ সালে গৃহীত পরবর্তী চুক্তি। দুটো এক নয়।"
+        }
+      ],
+      "claims": [
+        "c27",
+        "c28",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c18"
+      ]
+    },
+    {
+      "id": "india_response",
+      "heading": "ভারতের পদক্ষেপ: NAPCC, NDC ও নেট-জিরো ২০৭০",
+      "quick": "ভারতের ঘরোয়া কাঠামো NAPCC (২০০৮) — আটটি জাতীয় মিশন এর প্রাণকেন্দ্র। আন্তর্জাতিক প্রতিশ্রুতি NDC আকারে: ২০১৫-র লক্ষ্য ছিল ২০৩০ নাগাদ GDP-র নির্গমন-তীব্রতা ৩৩–৩৫% কমানো ও অ-জীবাশ্ম বিদ্যুৎ-ক্ষমতা ৪০%; ২০৩১–৩৫ পর্যায়ের নতুন লক্ষ্য — তীব্রতা ৪৭% কমানো, অ-জীবাশ্ম ক্ষমতা ৬০%, বন-আবরণে ৩.৫–৪.০ বিলিয়ন টন কার্বন সিঙ্ক। দীর্ঘমেয়াদি লক্ষ্য: ২০৭০ সালে নেট-জিরো, ঘোষিত হয় COP26-এ (২০২১)।",
+      "standard": "**NAPCC (২০০৮)** — ভারতের জাতীয় জলবায়ু কর্মপরিকল্পনা (National Action Plan on Climate Change) প্রকাশ করেন প্রধানমন্ত্রী, ২০০৮ সালের ৩০ জুন। পরিকল্পনার দুটি স্তম্ভ: জলবায়ু পরিবর্তনের সঙ্গে অভিযোজন (adaptation) এবং ভারতের উন্নয়ন-পথের পরিবেশগত টেকসইতা আরও বাড়ানো।\n\n**আটটি জাতীয় মিশন** — পরিকল্পনার প্রাণকেন্দ্র আটটি জাতীয় মিশন, যারা বহুমুখী, দীর্ঘমেয়াদি ও সমন্বিত কৌশলের প্রতিনিধিত্ব করে। এই অধ্যায়ের জন্য বিশেষভাবে মনে রাখো: (১) **সবুজ ভারত মিশন** (National Mission for a Green India) — ক্ষয়প্রাপ্ত বনভূমিতে বনায়নের মাধ্যমে বাস্তুতন্ত্র-সেবা ও কার্বন সিঙ্ক বাড়ানো, দেশের ভূমির ৩৩% বন ও বৃক্ষ-আবরণের জাতীয় নীতির সঙ্গে মিলিয়ে; (২) **হিমালয় বাস্তুতন্ত্র রক্ষা মিশন** — হিমালয়ের হিমবাহ ও পর্বত-বাস্তুতন্ত্র রক্ষার ব্যবস্থাপনা গড়া; (৩) **টেকসই কৃষি মিশন** — তাপ-সহনশীল নতুন ফসল-জাতসহ কৌশলে ভারতীয় কৃষিকে জলবায়ু-সহনশীল করা। বাকি মিশনগুলি সৌরশক্তি, শক্তি-দক্ষতা, টেকসই বাসস্থান, জল ও কৌশলগত জ্ঞান নিয়ে কাজ করে।\n\n**NDC-র ধাপগুলি** — প্যারিস চুক্তির অধীনে ভারতের প্রথম NDC (২০১৫) ২০৩০ সালের জন্য দুটি পরিমাণগত লক্ষ্য দেয়: GDP-র নির্গমন-তীব্রতা ৩৩–৩৫% কমানো এবং বিদ্যুতের স্থাপিত ক্ষমতায় অ-জীবাশ্ম উৎসের অংশ ৪০% করা। এরপরের ধাপে (২০৩১–৩৫ পর্যায়ের অনুমোদিত NDC) লক্ষ্য আরও বাড়ানো হয়েছে: ২০০৫-এর স্তর থেকে নির্গমন-তীব্রতা ৪৭% কমানো (২০৩৫ নাগাদ), অ-জীবাশ্ম উৎস থেকে স্থাপিত বিদ্যুৎ-ক্ষমতা ৬০%, এবং বন ও বৃক্ষ-আবরণে ৩.৫–৪.০ বিলিয়ন টন CO₂-সমতুল্য অতিরিক্ত কার্বন সিঙ্ক তৈরি। অগ্রগতির নমুনা: ২০২৬ সালের ফেব্রুয়ারি নাগাদ ভারত অ-জীবাশ্ম ক্ষমতায় ৫২.৫৭% পৌঁছেছে — হালনাগাদ লক্ষ্যটি সময়ের পাঁচ বছর আগেই পূরণ হয়েছে।\n\n**নেট-জিরো ২০৭০** — দীর্ঘমেয়াদি লক্ষ্য হিসেবে ভারত ২০২১ সালে COP26-এ প্রতিশ্রুতি দেয়: ২০৭০ সাল নাগাদ নেট-জিরো (net-zero) নির্গমন। অভিযোজনের দিক থেকে উপকূলীয় পদক্ষেপের মধ্যে আছে ম্যানগ্রোভ পুনরুদ্ধার, উপকূলীয় নিয়ন্ত্রণ ও জলবায়ু-সহনশীল পরিকাঠামোর মাধ্যমে ঝুঁকিপ্রবণ উপকূল রক্ষা।",
+      "deep": "দুটি শব্দের অর্থ পরিষ্কার রাখো। **প্রশমন (Mitigation)** = নির্গমন কমানো বা কার্বন সিঙ্ক বাড়ানো (যেমন অ-জীবাশ্ম বিদ্যুৎ, বনায়ন)। **অভিযোজন (Adaptation)** = প্রভাবের সঙ্গে খাপ খাওয়ানো (যেমন তাপ-সহনশীল ফসল, উপকূল রক্ষা, ম্যানগ্রোভ পুনরুদ্ধার)। NAPCC-র কৌশল দুটোই একসঙ্গে চালায় — পরিকল্পনার ফোকাস হিসেবে নাম করা হয়েছে জলবায়ু পরিবর্তন বোঝা, অভিযোজন ও প্রশমন, শক্তি-দক্ষতা এবং প্রাকৃতিক সম্পদ সংরক্ষণ। পরীক্ষায় 'কোনটি অভিযোজন-মূলক পদক্ষেপ' জাতীয় প্রশ্নে এই পার্থক্যই কাজে লাগে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "NAPCC = ৩০ জুন ২০০৮, আটটি জাতীয় মিশন। নেট-জিরো লক্ষ্য = ২০৭০, ঘোষণা COP26 (২০২১)। NDC ২০৩১–৩৫: তীব্রতা −৪৭%, অ-জীবাশ্ম ক্ষমতা ৬০%, সিঙ্ক ৩.৫–৪.০ বিলিয়ন টন।"
+        },
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "সবুজ ভারত মিশনের লক্ষ্য-সংযোগ: বন ও বৃক্ষ-আবরণ দেশের ভূমির ৩৩%।"
+        }
+      ],
+      "claims": [
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c20",
+        "c29",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "UNFCCC কার্যকর হল",
+      "when": "১৯৯৪",
+      "what": "জলবায়ু বিষয়ক মূল কাঠামো-চুক্তি UNFCCC ২১ মার্চ ১৯৯৪ থেকে কার্যকর হয়।",
+      "why_it_matters": "এই কাঠামোর অধীনেই পরবর্তী সব জলবায়ু আলোচনা, COP সম্মেলন ও প্যারিস চুক্তি গড়ে ওঠে।",
+      "section": "global_response",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "title": "ভারতের NAPCC প্রকাশ",
+      "when": "২০০৮",
+      "what": "প্রধানমন্ত্রী ৩০ জুন ২০০৮ ভারতের জাতীয় জলবায়ু কর্মপরিকল্পনা (NAPCC) প্রকাশ করেন।",
+      "why_it_matters": "আটটি জাতীয় মিশনের এই পরিকল্পনাই ভারতের ঘরোয়া জলবায়ু-কর্মের মূল কাঠামো।",
+      "section": "india_response",
+      "claims": [
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "title": "প্যারিস চুক্তি গৃহীত",
+      "when": "২০১৫",
+      "what": "প্যারিসে COP21-এ ১৯৫টি দেশ প্যারিস চুক্তি গ্রহণ করে।",
+      "why_it_matters": "প্রথমবার সব দেশ এক সাধারণ জলবায়ু-লক্ষ্যে এল; তাপমাত্রা বৃদ্ধি ২°C-এর অনেক নিচে রাখার লক্ষ্য ঠিক হল।",
+      "section": "global_response",
+      "claims": [
+        "c28",
+        "c24"
+      ]
+    },
+    {
+      "title": "প্যারিস চুক্তি কার্যকর; ভারতের অনুমোদন",
+      "when": "২০১৬",
+      "what": "ভারত ২ অক্টোবর ২০১৬ চুক্তি অনুমোদন করে; চুক্তি কার্যকর হয় ৪ নভেম্বর ২০১৬।",
+      "why_it_matters": "এই তারিখ থেকেই NDC-ভিত্তিক প্রতিশ্রুতির যুগ আনুষ্ঠানিকভাবে শুরু হয়।",
+      "section": "global_response",
+      "claims": [
+        "c22",
+        "c23"
+      ]
+    },
+    {
+      "title": "ভারতের নেট-জিরো প্রতিশ্রুতি",
+      "when": "২০২১",
+      "what": "COP26-এ ভারত ২০৭০ সাল নাগাদ নেট-জিরো নির্গমনের প্রতিশ্রুতি দেয়।",
+      "why_it_matters": "এটি ভারতের দীর্ঘমেয়াদি জলবায়ু-লক্ষ্য; পরবর্তী NDC-গুলির ধাপ এই লক্ষ্যের দিকেই সাজানো।",
+      "section": "india_response",
+      "claims": [
+        "c29"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1994,
+      "when": "১৯৯৪",
+      "label": "UNFCCC কার্যকর (২১ মার্চ) — গ্রিনহাউস গ্যাসের ঘনত্ব স্থিতিশীল রাখার বৈশ্বিক কাঠামো",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "sort_year": 2008,
+      "when": "২০০৮",
+      "label": "ভারতের NAPCC প্রকাশ (৩০ জুন) — আটটি জাতীয় মিশন",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "sort_year": 2015,
+      "when": "২০১৫",
+      "label": "প্যারিসে COP21-এ ১৯৫টি দেশের প্যারিস চুক্তি গ্রহণ",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "sort_year": 2016,
+      "when": "২০১৬",
+      "label": "ভারতের অনুমোদন (২ অক্টোবর); প্যারিস চুক্তি কার্যকর (৪ নভেম্বর)",
+      "claims": [
+        "c23",
+        "c22"
+      ]
+    },
+    {
+      "sort_year": 2021,
+      "when": "২০২১",
+      "label": "COP26-এ ভারতের নেট-জিরো ২০৭০ প্রতিশ্রুতি",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "sort_year": 2035,
+      "when": "২০৩৫ (লক্ষ্য)",
+      "label": "ভারতের NDC ২০৩১–৩৫-র লক্ষ্যের শেষ বছর: নির্গমন-তীব্রতা −৪৭%, অ-জীবাশ্ম ক্ষমতা ৬০%",
+      "claims": [
+        "c36",
+        "c37"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "জলবায়ু (Climate)",
+      "meaning": "দীর্ঘ সময় ধরে কোনো অঞ্চলের আবহাওয়ার অবস্থার গড়",
+      "section": "basic_concepts"
+    },
+    {
+      "term": "গ্রিনহাউস গ্যাস (Greenhouse Gas)",
+      "meaning": "দীর্ঘ-তরঙ্গ বিকিরণ শোষণ করে গ্রিনহাউস প্রভাব বাড়ায় এমন গ্যাস — CO₂, মিথেন, CFC, নাইট্রাস অক্সাইড",
+      "section": "greenhouse_effect"
+    },
+    {
+      "term": "বৈশ্বিক উষ্ণায়ন (Global Warming)",
+      "meaning": "গ্রিনহাউস গ্যাসের ঘনত্ব বাড়ায় পৃথিবীর গড় তাপমাত্রার ক্রমবর্ধমান বৃদ্ধি",
+      "section": "greenhouse_effect"
+    },
+    {
+      "term": "কার্বন সিঙ্ক (Carbon Sink)",
+      "meaning": "বায়ুমণ্ডল থেকে কার্বন ডাইঅক্সাইড শোষণ করে সঞ্চয় করে এমন ব্যবস্থা — যেমন বন ও বৃক্ষ-আবরণ",
+      "section": "india_response"
+    },
+    {
+      "term": "NDC (Nationally Determined Contribution)",
+      "meaning": "প্যারিস চুক্তির অধীনে প্রতিটি দেশের নিজে নির্ধারণ করা জলবায়ু-প্রতিশ্রুতি",
+      "section": "global_response"
+    },
+    {
+      "term": "CBDR-RC",
+      "meaning": "সাধারণ কিন্তু পৃথক দায়িত্ব ও নিজ নিজ সক্ষমতা — জলবায়ু আলোচনার ন্যায্যতা-নীতি",
+      "section": "global_response"
+    },
+    {
+      "term": "নেট-জিরো (Net Zero)",
+      "meaning": "নির্গমন ও শোষণের ভারসাম্যে মোট গ্রিনহাউস গ্যাস নির্গমন শূন্যে নামিয়ে আনা; ভারতের লক্ষ্য ২০৭০",
+      "section": "india_response"
+    },
+    {
+      "term": "প্রশমন (Mitigation)",
+      "meaning": "নির্গমন কমানো বা কার্বন সিঙ্ক বাড়িয়ে জলবায়ু পরিবর্তনের কারণ দূর করার পদক্ষেপ",
+      "section": "india_response"
+    },
+    {
+      "term": "অভিযোজন (Adaptation)",
+      "meaning": "জলবায়ু পরিবর্তনের অনিবার্য প্রভাবের সঙ্গে খাপ খাওয়ানোর পদক্ষেপ — যেমন তাপ-সহনশীল ফসল",
+      "section": "india_response"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "জীবাশ্ম জ্বালানি থেকে উষ্ণায়ন",
+      "causes": [
+        "জীবাশ্ম জ্বালানি পোড়ানোয় কার্বন ডাইঅক্সাইড বিপুল পরিমাণে বায়ুমণ্ডলে ছাড়া হয়",
+        "বৃহৎ মাত্রার শিল্পায়ন ও দূষক গ্যাসের উপস্থিতি"
+      ],
+      "event": "গ্রিনহাউস গ্যাসের ঘনত্ব বেড়ে গ্রিনহাউস প্রভাব জোরালো হয়",
+      "results": [
+        "পৃথিবীর গড় পৃষ্ঠ-তাপমাত্রা বৃদ্ধি (গত ১৫০ বছরে বেড়েছে)",
+        "২১০০ সাল নাগাদ আরও প্রায় ২°C বৃদ্ধির অনুমান"
+      ],
+      "section": "causes",
+      "claims": [
+        "c05",
+        "c04",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "title": "উষ্ণায়ন থেকে সমুদ্রপৃষ্ঠ ও বন্যা",
+      "causes": [
+        "বৈশ্বিক তাপমাত্রা বৃদ্ধি"
+      ],
+      "event": "মেরু বরফ-আবরণ ও পর্বতের হিমবাহ গলে মহাসাগরে জলের পরিমাণ বাড়ে",
+      "results": [
+        "সমুদ্রপৃষ্ঠ গড়ে ৪৮ সেমি ওঠার পূর্বাভাস (একবিংশ শতকের শেষ নাগাদ)",
+        "বার্ষিক বন্যার ঘটনা বৃদ্ধি"
+      ],
+      "section": "impacts",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "title": "উষ্ণায়ন থেকে রোগ ও কৃষির বদল",
+      "causes": [
+        "জলবায়ুগত সীমানার সরণ",
+        "কিছু অঞ্চল আর্দ্রতর, কিছু শুষ্কতর হওয়া"
+      ],
+      "event": "পতঙ্গবাহিত রোগের অনুকূল পরিবেশ বিস্তৃত হয় এবং বৃষ্টি-তাপমাত্রার ধরন বদলায়",
+      "results": [
+        "ম্যালেরিয়ার মতো পতঙ্গবাহিত রোগের প্রসার",
+        "কৃষির ধরনের বদল"
+      ],
+      "section": "impacts",
+      "claims": [
+        "c12"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "গ্রিনহাউস গ্যাসের তালিকা (CO₂, মিথেন, CFC, নাইট্রাস অক্সাইড) ও কোনগুলি CO₂-র চেয়ে ভালো শোষক",
+      "section": "greenhouse_effect"
+    },
+    {
+      "point": "প্যারিস চুক্তি: COP21, ২০১৫, ১৯৫ দেশ, ২°C-এর অনেক নিচে ও ১.৫°C-এর লক্ষ্য, কার্যকর ২০১৬",
+      "section": "global_response"
+    },
+    {
+      "point": "NAPCC: ৩০ জুন ২০০৮ ও আটটি জাতীয় মিশন; সবুজ ভারত মিশন ও ৩৩% বন-আবরণ",
+      "section": "india_response"
+    },
+    {
+      "point": "ভারতের NDC-র সংখ্যাগুলি: ২০১৫ (৩৩–৩৫%, ৪০%), ২০৩১–৩৫ (৪৭%, ৬০%, সিঙ্ক ৩.৫–৪.০ বিলিয়ন টন)",
+      "section": "india_response"
+    },
+    {
+      "point": "নেট-জিরো ২০৭০ — COP26 (২০২১)-এ ঘোষিত",
+      "section": "india_response"
+    },
+    {
+      "point": "প্রভাবের সংখ্যা: সমুদ্রপৃষ্ঠ ৪৮ সেমি, তাপমাত্রা +২°C (২১০০), শক্তি ক্ষেত্রের অংশ ৭৫.৬৬%",
+      "section": "impacts"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের জন্য জলবায়ু পরিবর্তন বিমূর্ত বিষয় নয় — এর সবচেয়ে ঝুঁকিপ্রবণ মুখটি হল গঙ্গা-বদ্বীপ ও সুন্দরবন উপকূল। NCERT বলেছে, গঙ্গা বদ্বীপ ও ওড়িশার উপকূলীয় সমভূমি জুলাই-আগস্টে প্রায় প্রতি তৃতীয় বা পঞ্চম দিনেই প্রবল বৃষ্টিবাহী ঝড়ের মুখে পড়ে। সমুদ্রপৃষ্ঠ উঠলে (NCERT-র পূর্বাভাস: গড়ে ৪৮ সেমি) এই নিচু বদ্বীপ অঞ্চলেই বন্যা ও লবণাক্ততার ঝুঁকি সবচেয়ে বেশি। সেই কারণেই কেন্দ্রীয় পদক্ষেপে বাংলার নাম সরাসরি এসেছে: উপকূলীয় বাস্তুতন্ত্র রক্ষায় Gujarat ও Odisha-র সঙ্গে West Bengal-এর জন্যও Integrated Coastal Zone Management Plan তৈরি হয়েছে, এবং ম্যানগ্রোভ পুনরুদ্ধারের MISHTI কর্মসূচিতে ২০২৪–২৫ অর্থবর্ষে পশ্চিমবঙ্গসহ চারটি রাজ্য/কেন্দ্রশাসিত অঞ্চলে ৩,০৪৬ হেক্টর ম্যানগ্রোভ পুনরুদ্ধারের জন্য অর্থ ছাড়া হয়েছে। ম্যানগ্রোভ পুনরুদ্ধারই উপকূল রক্ষার অন্যতম অভিযোজন-পদক্ষেপ হিসেবে ভারতের NDC-নথিতেও উল্লেখিত।",
+    "claims": [
+      "c13",
+      "c11",
+      "c34",
+      "c33",
+      "c40"
+    ]
+  },
+  "quick_revision": [
+    "আবহাওয়া = ক্ষণস্থায়ী অবস্থা; জলবায়ু = দীর্ঘ সময়ের গড়; জলবায়ুর বদল বোঝা যায় ৫০+ বছরে।",
+    "গ্রিনহাউস গ্যাস: CO₂, মিথেন, CFC, নাইট্রাস অক্সাইড — শেষ তিনটি CO₂-র চেয়ে ভালো দীর্ঘ-তরঙ্গ শোষক।",
+    "জীবাশ্ম জ্বালানি পোড়ানোই CO₂ বৃদ্ধির প্রধান মানবিক উৎস; ভারতের নির্গমনে শক্তি ক্ষেত্রের অংশ ৭৫.৬৬%।",
+    "গত ১৫০ বছরে গড় পৃষ্ঠ-তাপমাত্রা বেড়েছে; ২১০০ নাগাদ আরও প্রায় ২°C বৃদ্ধির অনুমান।",
+    "সমুদ্রপৃষ্ঠ গড়ে ৪৮ সেমি উঠতে পারে (একবিংশ শতকের শেষে) → বার্ষিক বন্যা বাড়বে।",
+    "প্রভাব: ম্যালেরিয়ার মতো পতঙ্গবাহিত রোগ, জলবায়ুগত সীমানার সরণ, কৃষির ধরন বদল।",
+    "UNFCCC কার্যকর ২১ মার্চ ১৯৯৪; লক্ষ্য গ্রিনহাউস গ্যাসের ঘনত্ব স্থিতিশীল রাখা।",
+    "প্যারিস চুক্তি: COP21 (২০১৫), ১৯৫ দেশ; লক্ষ্য ২°C-এর অনেক নিচে, চেষ্টা ১.৫°C; কার্যকর ৪ নভেম্বর ২০১৬।",
+    "ভারত প্যারিস চুক্তি অনুমোদন করে ২ অক্টোবর ২০১৬; প্রতিটি দেশের নিজস্ব প্রতিশ্রুতিই NDC।",
+    "NAPCC প্রকাশ ৩০ জুন ২০০৮ — আটটি জাতীয় মিশন; সবুজ ভারত মিশন ↔ ৩৩% বন-আবরণ।",
+    "ভারতের NDC ২০৩১–৩৫: নির্গমন-তীব্রতা −৪৭%, অ-জীবাশ্ম বিদ্যুৎ-ক্ষমতা ৬০%, কার্বন সিঙ্ক ৩.৫–৪.০ বিলিয়ন টন।",
+    "নেট-জিরো লক্ষ্য ২০৭০ — ঘোষিত COP26-এ (২০২১)।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "NCERT Class XI Geography: India — Physical Environment, Chapter: Climate",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "PIB (MoEFCC): India's National Action Plan on Climate Change (NAPCC) release",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=41277&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "PIB (MoEFCC): Paris Climate Agreement Comes into Force Today, 4 November 2016",
+      "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=153285",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB (MoEFCC): India's Progress Towards Climate Resilience, 12 January 2025",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2092311",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PM India: Cabinet approves India's Nationally Determined Contribution (2031-2035) to be communicated to the UNFCCC",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-indias-nationally-determined-contribution-2031-2035-to-be-communicated-to-the-united-nations-framework-convention-on-climate-change/?comment=disable",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Weather is the momentary state of the atmosphere; climate is the average of weather conditions over a longer period",
+      "source": "s1",
+      "page": "p. 28",
+      "quote": "Weather is the momentary state of the atmosphere while climate refers to the average of the weather conditions over a longer period of time."
+    },
+    {
+      "id": "c02",
+      "claim": "Weather changes quickly (within a day or week) but climate changes imperceptibly and may be noted only after 50 years or more",
+      "source": "s1",
+      "page": "p. 28",
+      "quote": "Weather changes quickly, may be within a day or week but climate changes imperceptively and may be noted after 50 years or even more."
+    },
+    {
+      "id": "c03",
+      "claim": "Geological evidence suggests a large part of the earth was once under ice cover, so climate has changed in the past",
+      "source": "s1",
+      "page": "p. 39",
+      "quote": "A number of geological evidences suggest that once upon a time, large part of the earth was under ice cover."
+    },
+    {
+      "id": "c04",
+      "claim": "Besides natural causes, human activities such as large-scale industrialisation and polluting gases in the atmosphere are important factors responsible for global warming",
+      "source": "s1",
+      "page": "p. 39",
+      "quote": "Besides the natural causes, human activities such as large scale industrialisation and presence of polluting gas in the atmosphere are also important factors responsible for global warming."
+    },
+    {
+      "id": "c05",
+      "claim": "Carbon dioxide produced by human activities, released in large quantities by burning fossil fuel, is increasing gradually and is a major source of concern",
+      "source": "s1",
+      "page": "p. 39",
+      "quote": "Carbon dioxide produced by human activities is a major source of concern. This gas, released to the atmosphere in large quantities by burning of fossil fuel, is increasing gradually."
+    },
+    {
+      "id": "c06",
+      "claim": "Methane, chlorofluorocarbons and nitrous oxide, together with carbon dioxide, are known as greenhouse gases",
+      "source": "s1",
+      "page": "p. 39",
+      "quote": "Other gases like methane, chlorofluorocarbons, and nitrous oxide which are present in much smaller concentrations in the atmosphere, together with carbon dioxide are known as green house gases."
+    },
+    {
+      "id": "c07",
+      "claim": "Methane, CFCs and nitrous oxide are better absorbers of long-wave radiation than carbon dioxide and so are more effective at enhancing the greenhouse effect",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "These gases are better absorbers of long wave radiations than carbon dioxide, and so, are more effective at enhancing the green house effect."
+    },
+    {
+      "id": "c08",
+      "claim": "The mean annual surface temperature of the earth has increased over the past 150 years",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "The mean annual surface temperature of the earth in the past 150 years has increased."
+    },
+    {
+      "id": "c09",
+      "claim": "Global temperature is projected to increase by about 2 degrees Celsius by the year 2100",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "It is projected that by the year 2,100, global temperature will increase by about 2° C."
+    },
+    {
+      "id": "c10",
+      "claim": "Due to global warming the polar ice caps and mountain glaciers would melt and the amount of water in the oceans would increase",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "It is said that due to global warming the polar ice caps and mountain glaciers would melt and the amount of water in the oceans would increase."
+    },
+    {
+      "id": "c11",
+      "claim": "Sea level is predicted to rise on average 48 cm by the end of the twenty-first century, increasing the incidence of annual flooding",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "According to the current prediction, on an average, the sea level will rise 48 cm by the end of twenty first century. This would increase the incidence of annual flooding."
+    },
+    {
+      "id": "c12",
+      "claim": "Climatic change would promote insect-borne diseases like malaria, shift climatic boundaries (some regions wetter, others drier) and shift agricultural patterns",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "Climatic change would promote insect-borne diseases like malaria, and lead to shift in climatic boundaries, making some regions wetter and others drier. Agricultural pattern would shift"
+    },
+    {
+      "id": "c13",
+      "claim": "The Ganga delta and the coastal plains of Odisha are hit by strong rain-bearing storms almost every third or fifth day in July and August",
+      "source": "s1",
+      "page": "p. 29",
+      "quote": "The Ganga delta and the coastal plains of Odisha are hit by strong rain-bearing storms almost every third or fifth day in July and August"
+    },
+    {
+      "id": "c14",
+      "claim": "India's National Action Plan on Climate Change (NAPCC) was released by the Prime Minister on 30 June 2008",
+      "source": "s2",
+      "page": "release text",
+      "quote": "India’s National Action Plan on Climate Change (NAPCC) was released by the Prime Minister on 30th June 2008."
+    },
+    {
+      "id": "c15",
+      "claim": "Eight National Missions form the core of the NAPCC, as multi-pronged, long-term and integrated strategies",
+      "source": "s2",
+      "page": "release text",
+      "quote": "Eight National Missions which form the core of the National Action Plan represent multi-pronged, long term and integrated strategies for achieving key goals in the context of climate change."
+    },
+    {
+      "id": "c16",
+      "claim": "The National Mission for a Green India enhances ecosystem services and carbon sinks through afforestation, in line with the policy of expanding forest and tree cover to 33% of the country's land area",
+      "source": "s2",
+      "page": "release text",
+      "quote": "The National Mission for a Green India focusses on enhancing eco-system services and carbon sinks through afforestation on degraded forest land in line with the national policy of expanding the forest and tree cover to 33% of the total land area of the country."
+    },
+    {
+      "id": "c17",
+      "claim": "The National Mission for Sustaining the Himalayan Ecosystem aims at measures for sustaining and safeguarding the Himalayan glacier and mountain ecosystem",
+      "source": "s2",
+      "page": "release text",
+      "quote": "The National Mission for sustaining the Himalayan Ecosystem is aimed at evolving management measures for sustaining and safeguarding the Himalayan glacier and mountain eco-system."
+    },
+    {
+      "id": "c18",
+      "claim": "India's climate cooperation under the UNFCCC rests on the principle of common but differentiated responsibilities and respective capabilities",
+      "source": "s2",
+      "page": "release text",
+      "quote": "It renews India’s pledge to play an active role in multilateral cooperation in addressing climate change based on the principle of ‘common but differentiated responsibilities and respective capabilities’."
+    },
+    {
+      "id": "c19",
+      "claim": "The NAPCC assures that India's per capita GHG emissions would not exceed the per capita GHG emissions of developed countries",
+      "source": "s2",
+      "page": "release text",
+      "quote": "The Action Plan assures the international community that India’s per capita GHG emissions would not exceed the per capita GHG emissions of developed countries"
+    },
+    {
+      "id": "c20",
+      "claim": "The National Mission for Sustainable Agriculture would make Indian agriculture more resilient to climate change, including through new varieties of thermal resistant crops",
+      "source": "s2",
+      "page": "release text",
+      "quote": "The National Mission for Sustainable Agriculture would develop strategies to make Indian agriculture more resilient to climate change through development of new varieties of thermal resistant crops"
+    },
+    {
+      "id": "c21",
+      "claim": "The NAPCC's other initiatives include protection of coastal areas and assessment of the increased burden of vector-borne diseases due to climate change",
+      "source": "s2",
+      "page": "release text",
+      "quote": "protection of coastal areas, provision of enhanced public health care services, and assessment of increased burden of vector-borne diseases due to climate change"
+    },
+    {
+      "id": "c22",
+      "claim": "The Paris Climate Agreement came into force on 4 November 2016",
+      "source": "s3",
+      "page": "release text",
+      "quote": "The “Paris Climate Agreement”, comes into force on 4th November 2016."
+    },
+    {
+      "id": "c23",
+      "claim": "India ratified the Paris Agreement on 2 October 2016, the birth anniversary of Mahatma Gandhi",
+      "source": "s3",
+      "page": "release text",
+      "quote": "India ratified the Paris Agreement on 2nd October 2016, the birth anniversary of Mahatma Gandhi"
+    },
+    {
+      "id": "c24",
+      "claim": "The Paris Agreement's central aim is to keep the global temperature rise this century well below 2 degrees Celsius above pre-industrial levels and to pursue efforts to limit it to 1.5 degrees Celsius",
+      "source": "s3",
+      "page": "release text",
+      "quote": "keeping a global temperature rise this century well below 2 degrees Celsius above pre-industrial levels and to pursue efforts to limit the temperature increase even further to 1.5 degrees Celsius"
+    },
+    {
+      "id": "c25",
+      "claim": "The Paris Agreement requires all Parties to put forward their best efforts through nationally determined contributions (NDCs)",
+      "source": "s3",
+      "page": "release text",
+      "quote": "The Paris Agreement requires all Parties to put forward their best efforts through “nationally determined contributions” (NDCs)"
+    },
+    {
+      "id": "c26",
+      "claim": "The Paris Agreement for the first time brings all nations into a common cause to combat climate change and adapt to its effects",
+      "source": "s3",
+      "page": "release text",
+      "quote": "brings all nations into a common cause to undertake ambitious efforts to combat climate change and adapt to its effects"
+    },
+    {
+      "id": "c27",
+      "claim": "The UNFCCC, effective from 21 March 1994, aims to stabilize greenhouse gas concentrations and promote global cooperation on climate change",
+      "source": "s4",
+      "page": "release text",
+      "quote": "The UNFCCC effective from March 21, 1994, aims to stabilize greenhouse gas concentrations and promote global cooperation on climate change"
+    },
+    {
+      "id": "c28",
+      "claim": "At COP21 in Paris in 2015, 195 countries adopted the Paris Agreement",
+      "source": "s4",
+      "page": "release text",
+      "quote": "The 21st session of the UNFCCC's Conference of the Parties (COP21) took place in Paris in 2015, where 195 countries adopted the Paris Agreement."
+    },
+    {
+      "id": "c29",
+      "claim": "India pledged to achieve net-zero emissions by 2070 at COP26 in 2021",
+      "source": "s4",
+      "page": "release text",
+      "quote": "India pledged to achieve net-zero emissions by 2070 at the 26th Conference of the Parties (COP 26) in 2021."
+    },
+    {
+      "id": "c30",
+      "claim": "India's historical share of cumulative global GHG emissions was 4% between 1850 and 2019, despite having around 17% of the world's population",
+      "source": "s4",
+      "page": "release text",
+      "quote": "India’s historical share of cumulative global GHG emissions is annual 4%, despite having around 17% of the world’s population between 1850 and 2019."
+    },
+    {
+      "id": "c31",
+      "claim": "In India's BUR-4, the energy sector was the largest contributor, accounting for 75.66% of emissions",
+      "source": "s4",
+      "page": "release text",
+      "quote": "The energy sector was the largest contributoraccounting for75.66% of emissions"
+    },
+    {
+      "id": "c32",
+      "claim": "With its diverse geography, India is highly vulnerable to climate change impacts",
+      "source": "s4",
+      "page": "release text",
+      "quote": "With its diverse geography, India is highly vulnerable to climate change impacts."
+    },
+    {
+      "id": "c33",
+      "claim": "Under the MISHTI mangrove programme, funds were released to Gujarat, West Bengal, Kerala and Puducherry for restoration of 3,046 hectares of mangroves in FY 2024-25",
+      "source": "s4",
+      "page": "release text",
+      "quote": "₹ 12.55 crores has been released to the states of Gujarat, West Bengal, Kerala and UT of Puducherry for the restoration of 3,046 ha. of mangroves in FY 2024-25."
+    },
+    {
+      "id": "c34",
+      "claim": "Integrated Coastal Zone Management Plans were prepared for Gujarat, Odisha and West Bengal for coastal ecosystem protection",
+      "source": "s4",
+      "page": "release text",
+      "quote": "Integrated Coastal Zone Management Plans (ICZMP) Plans for Coastal States: Prepared for Gujarat, Odisha, and West Bengal for coastal ecosystem protection."
+    },
+    {
+      "id": "c35",
+      "claim": "India's 2015 NDC set 2030 targets of a 33-35% reduction in the emissions intensity of GDP and 40% share of non-fossil sources in electric power installed capacity",
+      "source": "s5",
+      "page": "page text",
+      "quote": "targets by 2030 of 33–35% reduction in the emissions intensity of GDP and 40% share of non-fossil resources based electric power installed capacity"
+    },
+    {
+      "id": "c36",
+      "claim": "India's NDC for 2031-35 commits to reduce the emissions intensity of GDP by 47 percent by 2035 from the 2005 level",
+      "source": "s5",
+      "page": "page headline",
+      "quote": "India commits to reduce Emissions Intensity of its GDP by 47 percent by 2035 from 2005 level"
+    },
+    {
+      "id": "c37",
+      "claim": "India's NDC for 2031-35 commits to 60 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2035",
+      "source": "s5",
+      "page": "page headline",
+      "quote": "India to achieve 60 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2035"
+    },
+    {
+      "id": "c38",
+      "claim": "India's NDC for 2031-35 commits to create a carbon sink of 3.5 to 4.0 billion tonnes of CO2 equivalent through forest and tree cover by 2035",
+      "source": "s5",
+      "page": "page headline",
+      "quote": "India to create Carbon Sink of 3.5 to 4.0 billion tonnes of CO₂ eq. through Forest and Tree Cover by 2035 from 2005 level"
+    },
+    {
+      "id": "c39",
+      "claim": "India achieved 52.57% non-fossil capacity by February 2026, meeting the updated NDC target five years ahead of the timeline",
+      "source": "s5",
+      "page": "page text",
+      "quote": "the country has achieved 52.57 % non-fossil capacity (February 2026), successfully meeting the target five years ahead of the timeline"
+    },
+    {
+      "id": "c40",
+      "claim": "India's adaptation measures include protection of vulnerable coastlines through mangrove restoration, coastal regulation and climate-resilient infrastructure",
+      "source": "s5",
+      "page": "page text",
+      "quote": "protection of vulnerable coastlines through mangrove restoration, coastal regulation, and climate-resilient infrastructure"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "basic_concepts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আবহাওয়া কাকে বলে?",
+      "a": "বায়ুমণ্ডলের ক্ষণস্থায়ী অবস্থা",
+      "w": [
+        "দীর্ঘ সময়ের আবহাওয়ার গড়",
+        "কোনো অঞ্চলের বার্ষিক বৃষ্টিপাতের পরিমাণ",
+        "বায়ুর চাপের দৈনিক পরিবর্তন"
+      ],
+      "e": "আবহাওয়া হল বায়ুমণ্ডলের ক্ষণস্থায়ী (momentary) অবস্থা; দীর্ঘ সময়ের গড় হল জলবায়ু।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "basic_concepts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জলবায়ু বলতে কী বোঝায়?",
+      "a": "দীর্ঘ সময় ধরে আবহাওয়ার অবস্থার গড়",
+      "w": [
+        "এক দিনের তাপমাত্রা ও বৃষ্টির অবস্থা",
+        "এক সপ্তাহের বায়ুপ্রবাহের ধরন",
+        "কোনো একটি ঝড়ের গতিপথ"
+      ],
+      "e": "জলবায়ু হল দীর্ঘ সময়ের আবহাওয়ার গড়; ক্ষণস্থায়ী অবস্থা হল আবহাওয়া।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "basic_concepts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জলবায়ুর পরিবর্তন সাধারণত কত সময় পরে লক্ষ করা যায়?",
+      "a": "৫০ বছর বা তারও বেশি সময় পরে",
+      "w": [
+        "এক দিন বা এক সপ্তাহ পরে",
+        "এক ঋতু পরে",
+        "এক বছর পরে"
+      ],
+      "e": "আবহাওয়া বদলায় দিনে-সপ্তাহে, কিন্তু জলবায়ু বদলায় প্রায় অদৃশ্যভাবে — তা লক্ষ করা যায় ৫০ বছর বা তারও বেশি সময় পরে।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "basic_concepts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পৃথিবীর বড় অংশ একসময় বরফে ঢাকা ছিল — এই ধারণার ভিত্তি কী?",
+      "a": "ভূতাত্ত্বিক প্রমাণ",
+      "w": [
+        "উপগ্রহ চিত্র",
+        "আবহাওয়া দপ্তরের নথি",
+        "সমুদ্রের জোয়ার-ভাটার হিসাব"
+      ],
+      "e": "NCERT অনুযায়ী, ভূতাত্ত্বিক প্রমাণ থেকে জানা যায় একসময় পৃথিবীর বড় অংশ বরফের আবরণে ঢাকা ছিল — অর্থাৎ জলবায়ু অতীতেও বদলেছে।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "basic_concepts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন বক্তব্যটি সঠিক?",
+      "a": "জলবায়ু পরিবর্তন অতীতেও ঘটেছে এবং এখনও ঘটছে, তবে বর্তমান বদলে মানবিক কারণও গুরুত্বপূর্ণ",
+      "w": [
+        "জলবায়ু কখনোই বদলায় না",
+        "জলবায়ু শুধু মানুষের কারণেই বদলায়, প্রাকৃতিক কারণে নয়",
+        "আবহাওয়া ও জলবায়ু একই জিনিস"
+      ],
+      "e": "অতীতে বরফ-আবরণের ভূতাত্ত্বিক প্রমাণ দেখায় জলবায়ু আগেও বদলেছে; NCERT বর্তমান উষ্ণায়নে প্রাকৃতিক কারণের পাশাপাশি মানবিক কার্যকলাপকেও গুরুত্বপূর্ণ বলেছে।",
+      "claims": [
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "basic_concepts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আবহাওয়া কত দ্রুত বদলাতে পারে?",
+      "a": "এক দিন বা এক সপ্তাহের মধ্যেই",
+      "w": [
+        "৫০ বছরে",
+        "শতাব্দীতে একবার",
+        "শুধু যুগ পরিবর্তন হলে"
+      ],
+      "e": "আবহাওয়া দ্রুত বদলায় — দিনে বা সপ্তাহে; জলবায়ুর বদল সেখানে দশকের পর দশক সময় নেয়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "basic_concepts",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. আবহাওয়া হল বায়ুমণ্ডলের ক্ষণস্থায়ী অবস্থা।\n২. জলবায়ুর পরিবর্তন এক সপ্তাহের মধ্যেই স্পষ্টভাবে লক্ষ করা যায়।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — আবহাওয়া ক্ষণস্থায়ী অবস্থা। বিবৃতি ২ ভুল — জলবায়ু বদলায় প্রায় অদৃশ্যভাবে, লক্ষ করা যায় ৫০ বছর বা তারও বেশি সময় পরে; সপ্তাহে বদলায় আবহাওয়া।",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "greenhouse_effect",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি গ্রিনহাউস গ্যাস?",
+      "a": "মিথেন",
+      "w": [
+        "অক্সিজেন",
+        "নাইট্রোজেন",
+        "আর্গন"
+      ],
+      "e": "NCERT-র তালিকায় গ্রিনহাউস গ্যাস হল কার্বন ডাইঅক্সাইড, মিথেন, ক্লোরোফ্লুরোকার্বন ও নাইট্রাস অক্সাইড।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "greenhouse_effect",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মানুষের কার্যকলাপে তৈরি কোন গ্যাসটি সবচেয়ে বড় উদ্বেগের বিষয় বলে NCERT বলেছে?",
+      "a": "কার্বন ডাইঅক্সাইড",
+      "w": [
+        "মিথেন",
+        "নাইট্রাস অক্সাইড",
+        "ক্লোরোফ্লুরোকার্বন"
+      ],
+      "e": "মানুষের কার্যকলাপে তৈরি কার্বন ডাইঅক্সাইডই প্রধান উদ্বেগ — জীবাশ্ম জ্বালানি পোড়ালে তা বিপুল পরিমাণে বায়ুমণ্ডলে ছাড়া হয়।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "greenhouse_effect",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কার্বন ডাইঅক্সাইড বায়ুমণ্ডলে বিপুল পরিমাণে ছাড়া হয় প্রধানত কীসের মাধ্যমে?",
+      "a": "জীবাশ্ম জ্বালানি পোড়ানোর মাধ্যমে",
+      "w": [
+        "আগ্নেয়গিরির অগ্ন্যুৎপাতে",
+        "সমুদ্রের বাষ্পীভবনে",
+        "উদ্ভিদের সালোকসংশ্লেষণে"
+      ],
+      "e": "NCERT অনুযায়ী, জীবাশ্ম জ্বালানি পোড়ালে কার্বন ডাইঅক্সাইড বিপুল পরিমাণে বায়ুমণ্ডলে ছাড়া হয় এবং তার ঘনত্ব ধীরে ধীরে বাড়ছে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "greenhouse_effect",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দীর্ঘ-তরঙ্গ বিকিরণ শোষণে কার্বন ডাইঅক্সাইডের চেয়ে বেশি কার্যকর কোনগুলি?",
+      "a": "মিথেন, CFC ও নাইট্রাস অক্সাইড",
+      "w": [
+        "অক্সিজেন ও নাইট্রোজেন",
+        "জলীয় বাষ্প ও ধুলিকণা",
+        "আর্গন ও হিলিয়াম"
+      ],
+      "e": "মিথেন, ক্লোরোফ্লুরোকার্বন ও নাইট্রাস অক্সাইড CO₂-র চেয়ে ভালো দীর্ঘ-তরঙ্গ শোষক, তাই গ্রিনহাউস প্রভাব বাড়াতে এরা আরও কার্যকর।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "greenhouse_effect",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "গত ১৫০ বছর সম্পর্কে NCERT কী বলেছে?",
+      "a": "পৃথিবীর গড় বার্ষিক পৃষ্ঠ-তাপমাত্রা বেড়েছে",
+      "w": [
+        "পৃথিবীর গড় তাপমাত্রা কমেছে",
+        "সমুদ্রপৃষ্ঠ ৪৮ সেমি নেমে গেছে",
+        "গ্রিনহাউস গ্যাসের ঘনত্ব অপরিবর্তিত আছে"
+      ],
+      "e": "NCERT অনুযায়ী গত ১৫০ বছরে পৃথিবীর গড় বার্ষিক পৃষ্ঠ-তাপমাত্রা বেড়েছে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "greenhouse_effect",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২১০০ সাল নাগাদ বৈশ্বিক তাপমাত্রা কতটা বাড়তে পারে বলে অনুমান করা হয়েছে?",
+      "a": "প্রায় ২°C",
+      "w": [
+        "প্রায় ০.৫°C",
+        "প্রায় ৫°C",
+        "প্রায় ১০°C"
+      ],
+      "e": "অনুমান অনুযায়ী ২১০০ সাল নাগাদ বৈশ্বিক তাপমাত্রা প্রায় ২°C বাড়বে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "greenhouse_effect",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): মিথেন ও নাইট্রাস অক্সাইড বায়ুমণ্ডলে কম ঘনত্বে থাকলেও গ্রিনহাউস প্রভাবে এদের ভূমিকা শক্তিশালী।\nকারণ (R): এই গ্যাসগুলি কার্বন ডাইঅক্সাইডের চেয়ে ভালো দীর্ঘ-তরঙ্গ বিকিরণ শোষক।",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "NCERT বলেছে, এই গ্যাসগুলি কম ঘনত্বে থাকলেও CO₂-র চেয়ে ভালো দীর্ঘ-তরঙ্গ শোষক বলেই গ্রিনহাউস প্রভাব বাড়াতে আরও কার্যকর — অর্থাৎ R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "causes",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী বৈশ্বিক উষ্ণায়নের মানবিক কারণ কোনটি?",
+      "a": "বৃহৎ মাত্রার শিল্পায়ন",
+      "w": [
+        "পৃথিবীর অক্ষের হেলানো অবস্থান",
+        "চন্দ্রের মহাকর্ষ",
+        "সৌরকলঙ্কের চক্র"
+      ],
+      "e": "প্রাকৃতিক কারণের পাশাপাশি বৃহৎ মাত্রার শিল্পায়ন ও বায়ুমণ্ডলে দূষক গ্যাসের উপস্থিতি বৈশ্বিক উষ্ণায়নের গুরুত্বপূর্ণ মানবিক কারণ।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "causes",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের মোট গ্রিনহাউস গ্যাস নির্গমনের সবচেয়ে বড় উৎস কোন ক্ষেত্র?",
+      "a": "শক্তি ক্ষেত্র",
+      "w": [
+        "কৃষি ক্ষেত্র",
+        "বর্জ্য ক্ষেত্র",
+        "বনভূমি ক্ষেত্র"
+      ],
+      "e": "BUR-4 অনুযায়ী শক্তি ক্ষেত্রই সবচেয়ে বড় অবদানকারী — মোট নির্গমনের ৭৫.৬৬%।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "causes",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের নির্গমনে শক্তি ক্ষেত্রের অংশ কত?",
+      "a": "৭৫.৬৬%",
+      "w": [
+        "৪০%",
+        "৫২.৫৭%",
+        "১৭%"
+      ],
+      "e": "ভারতের চতুর্থ Biennial Update Report অনুযায়ী শক্তি ক্ষেত্রের অংশ ৭৫.৬৬%। বাকি সংখ্যাগুলি অন্য প্রসঙ্গের: ৫২.৫৭% অ-জীবাশ্ম ক্ষমতার অর্জন, ১৭% বিশ্ব জনসংখ্যায় ভারতের অংশ।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "causes",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "১৮৫০–২০১৯ সময়ে বিশ্বের সঞ্চিত গ্রিনহাউস গ্যাস নির্গমনে ভারতের ঐতিহাসিক অংশ কত ছিল?",
+      "a": "৪%",
+      "w": [
+        "১৭%",
+        "২৫%",
+        "৩৩%"
+      ],
+      "e": "বিশ্ব জনসংখ্যার প্রায় ১৭% ভারতের হলেও, ১৮৫০–২০১৯-এ সঞ্চিত বৈশ্বিক নির্গমনে ভারতের ঐতিহাসিক অংশ মাত্র ৪%।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "causes",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বায়ুমণ্ডলে কার্বন ডাইঅক্সাইডের ঘনত্ব সম্পর্কে কী বলা হয়েছে?",
+      "a": "তা ধীরে ধীরে বাড়ছে",
+      "w": [
+        "তা দ্রুত কমছে",
+        "তা সম্পূর্ণ স্থির আছে",
+        "তা শুধু শীতকালে বাড়ে"
+      ],
+      "e": "জীবাশ্ম জ্বালানি পোড়ানো থেকে ছাড়া পাওয়া কার্বন ডাইঅক্সাইডের ঘনত্ব বায়ুমণ্ডলে ধীরে ধীরে বাড়ছে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "causes",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NAPCC-তে ভারত আন্তর্জাতিক সম্প্রদায়কে কোন আশ্বাস দিয়েছে?",
+      "a": "ভারতের মাথাপিছু গ্রিনহাউস গ্যাস নির্গমন উন্নত দেশগুলির মাথাপিছু নির্গমনের বেশি হবে না",
+      "w": [
+        "ভারত ২০৩০ সালেই সব নির্গমন বন্ধ করে দেবে",
+        "ভারত কোনো আন্তর্জাতিক জলবায়ু আলোচনায় যোগ দেবে না",
+        "ভারত শুধু উন্নত দেশগুলির লক্ষ্যই অনুসরণ করবে"
+      ],
+      "e": "NAPCC-র আশ্বাস: উন্নয়নের প্রয়োজন সত্ত্বেও ভারতের মাথাপিছু নির্গমন উন্নত দেশগুলির মাথাপিছু নির্গমনের বেশি হবে না।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "causes",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি সঠিকভাবে মেলানো?\n১. শক্তি ক্ষেত্র — ভারতের নির্গমনের ৭৫.৬৬%\n২. ভারতের ঐতিহাসিক সঞ্চিত নির্গমন — বিশ্বের ১৭%\n৩. বিশ্ব জনসংখ্যায় ভারতের অংশ (১৮৫০–২০১৯) — প্রায় ১৭%",
+      "a": "১ ও ৩",
+      "w": [
+        "শুধু ২",
+        "১ ও ২",
+        "২ ও ৩"
+      ],
+      "e": "জোড় ১ সঠিক (শক্তি ক্ষেত্র ৭৫.৬৬%) এবং জোড় ৩ সঠিক (জনসংখ্যার অংশ প্রায় ১৭%)। জোড় ২ ভুল — সঞ্চিত নির্গমনে ভারতের অংশ ৪%, ১৭% নয়।",
+      "claims": [
+        "c31",
+        "c30"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "impacts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বৈশ্বিক উষ্ণায়নে কোনটি ঘটবে বলে বলা হয়েছে?",
+      "a": "মেরু বরফ-আবরণ ও পর্বতের হিমবাহ গলবে",
+      "w": [
+        "মহাসাগরের জল কমে যাবে",
+        "নতুন হিমযুগ শুরু হবে",
+        "বৃষ্টিপাত সম্পূর্ণ বন্ধ হয়ে যাবে"
+      ],
+      "e": "উষ্ণায়নে মেরু বরফ ও পর্বতের হিমবাহ গলবে এবং মহাসাগরে জলের পরিমাণ বাড়বে।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "impacts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একবিংশ শতকের শেষ নাগাদ সমুদ্রপৃষ্ঠ গড়ে কতটা উঠতে পারে?",
+      "a": "৪৮ সেমি",
+      "w": [
+        "৪৮ মিটার",
+        "৫ সেমি",
+        "২ মিটার"
+      ],
+      "e": "বর্তমান পূর্বাভাস অনুযায়ী সমুদ্রপৃষ্ঠ গড়ে ৪৮ সেমি উঠবে, ফলে বার্ষিক বন্যা বাড়বে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "impacts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সমুদ্রপৃষ্ঠ ওঠার সরাসরি ফল কী হবে?",
+      "a": "বার্ষিক বন্যার ঘটনা বাড়বে",
+      "w": [
+        "খরা সম্পূর্ণ দূর হবে",
+        "উপকূলে জনবসতি নিরাপদ হবে",
+        "নদীর প্রবাহ বন্ধ হবে"
+      ],
+      "e": "সমুদ্রপৃষ্ঠ ৪৮ সেমি উঠলে বার্ষিক বন্যার প্রকোপ বাড়বে — বিশেষ করে নিচু উপকূলীয় অঞ্চলে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "impacts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জলবায়ুগত পরিবর্তনে কোন রোগের প্রসার ঘটবে বলে বলা হয়েছে?",
+      "a": "ম্যালেরিয়া",
+      "w": [
+        "যক্ষ্মা",
+        "কলেরা",
+        "ডায়াবেটিস"
+      ],
+      "e": "জলবায়ুগত পরিবর্তন ম্যালেরিয়ার মতো পতঙ্গবাহিত রোগের প্রসার ঘটাবে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "impacts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জলবায়ুগত সীমানা সরে গেলে কী ঘটবে?",
+      "a": "কিছু অঞ্চল আর্দ্রতর ও কিছু অঞ্চল শুষ্কতর হবে এবং কৃষির ধরন বদলাবে",
+      "w": [
+        "সব অঞ্চলে সমান বৃষ্টি হবে",
+        "কৃষি সর্বত্র বন্ধ হয়ে যাবে",
+        "ঋতুচক্র সম্পূর্ণ উল্টে যাবে"
+      ],
+      "e": "সীমানা সরলে কিছু অঞ্চল আর্দ্রতর, কিছু শুষ্কতর হবে; কৃষির ধরনও বদলে যাবে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "impacts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জলবায়ু পরিবর্তনের প্রভাবে ভারতের অবস্থা সম্পর্কে সরকারি মূল্যায়ন কী?",
+      "a": "বৈচিত্র্যময় ভূগোলের কারণে ভারত অত্যন্ত ঝুঁকিপ্রবণ",
+      "w": [
+        "ভারত সম্পূর্ণ নিরাপদ",
+        "ভারতে কোনো প্রভাব পড়বে না",
+        "ভারতের ঝুঁকি শুধু হিমালয়েই সীমাবদ্ধ"
+      ],
+      "e": "বৈচিত্র্যময় ভূগোলের কারণে ভারত জলবায়ু পরিবর্তনের প্রভাবে অত্যন্ত ঝুঁকিপ্রবণ দেশ।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "impacts",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. সমুদ্রপৃষ্ঠ ওঠায় বার্ষিক বন্যা বাড়বে।\n২. জলবায়ু পরিবর্তনে কৃষির ধরন অপরিবর্তিত থাকবে।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — ৪৮ সেমি সমুদ্রপৃষ্ঠ বৃদ্ধিতে বার্ষিক বন্যা বাড়বে। বিবৃতি ২ ভুল — জলবায়ুগত সীমানা সরলে কৃষির ধরনও বদলাবে।",
+      "claims": [
+        "c11",
+        "c12"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "global_response",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "UNFCCC কবে থেকে কার্যকর হয়?",
+      "a": "২১ মার্চ ১৯৯৪",
+      "w": [
+        "৪ নভেম্বর ২০১৬",
+        "৩০ জুন ২০০৮",
+        "২ অক্টোবর ২০১৬"
+      ],
+      "e": "UNFCCC কার্যকর হয় ১৯৯৪ সালের ২১ মার্চ থেকে। বাকি তারিখগুলি যথাক্রমে প্যারিস চুক্তি কার্যকর, NAPCC প্রকাশ ও ভারতের প্যারিস অনুমোদনের।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "global_response",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "UNFCCC-র মূল লক্ষ্য কী?",
+      "a": "গ্রিনহাউস গ্যাসের ঘনত্ব স্থিতিশীল রাখা ও বৈশ্বিক সহযোগিতা এগিয়ে নেওয়া",
+      "w": [
+        "সব দেশের জন্য একই নির্গমন-কর বসানো",
+        "জীবাশ্ম জ্বালানি নিষিদ্ধ করা",
+        "শুধু উন্নত দেশগুলির জন্য তহবিল তৈরি করা"
+      ],
+      "e": "UNFCCC-র লক্ষ্য গ্রিনহাউস গ্যাসের ঘনত্ব স্থিতিশীল রাখা এবং জলবায়ু বিষয়ে বৈশ্বিক সহযোগিতা বাড়ানো।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "global_response",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্যারিস চুক্তি কোন সম্মেলনে গৃহীত হয়?",
+      "a": "COP21, প্যারিস (২০১৫)",
+      "w": [
+        "COP26, গ্লাসগো (২০২১)",
+        "COP1, বার্লিন (১৯৯৫)",
+        "COP27, শার্ম এল-শেখ (২০২২)"
+      ],
+      "e": "UNFCCC-র ২১তম পক্ষ-সম্মেলন COP21 বসে প্যারিসে ২০১৫ সালে; সেখানেই চুক্তি গৃহীত হয়। COP26 (২০২১) পরিচিত ভারতের নেট-জিরো প্রতিশ্রুতির জন্য।",
+      "claims": [
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "global_response",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্যারিস চুক্তিতে কতগুলি দেশ চুক্তিটি গ্রহণ করে?",
+      "a": "১৯৫টি",
+      "w": [
+        "২০০টি",
+        "৯৪টি",
+        "৫৫টি"
+      ],
+      "e": "PIB অনুযায়ী COP21-এ ১৯৫টি দেশ প্যারিস চুক্তি গ্রহণ করে। '২০০টি দেশ' বিকল্পটিই WBCS ২০১৬-র প্রশ্নে ভুল বিবৃতি ছিল।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "global_response",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্যারিস চুক্তির তাপমাত্রা-লক্ষ্য কোনটি?",
+      "a": "বৃদ্ধি ২°C-এর অনেক নিচে রাখা এবং ১.৫°C-এ সীমিত রাখার চেষ্টা করা",
+      "w": [
+        "বৃদ্ধি ঠিক ২°C-এ থামানো",
+        "বৃদ্ধি ৩°C পর্যন্ত মেনে নেওয়া",
+        "তাপমাত্রা শিল্পবিপ্লব-পূর্ব স্তরে নামিয়ে আনা"
+      ],
+      "e": "চুক্তির কেন্দ্রীয় লক্ষ্য: এই শতকে তাপমাত্রা বৃদ্ধি শিল্পবিপ্লব-পূর্ব স্তরের তুলনায় ২°C-এর অনেক নিচে রাখা ও ১.৫°C-এ সীমিত রাখার প্রচেষ্টা।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "global_response",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারত কবে প্যারিস চুক্তি অনুমোদন করে?",
+      "a": "২ অক্টোবর ২০১৬",
+      "w": [
+        "৪ নভেম্বর ২০১৬",
+        "১২ ডিসেম্বর ২০১৫",
+        "৩০ জুন ২০০৮"
+      ],
+      "e": "ভারত অনুমোদন করে ২০১৬ সালের ২ অক্টোবর — মহাত্মা গান্ধীর জন্মবার্ষিকীতে; চুক্তি কার্যকর হয় ৪ নভেম্বর ২০১৬।",
+      "claims": [
+        "c23",
+        "c22"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "global_response",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলি কালানুক্রমে সাজাও (আগে থেকে পরে):\n১. প্যারিস চুক্তি কার্যকর\n২. UNFCCC কার্যকর\n৩. প্যারিস চুক্তি গৃহীত (COP21)\n৪. ভারতের প্যারিস চুক্তি অনুমোদন",
+      "a": "২, ৩, ৪, ১",
+      "w": [
+        "২, ৩, ১, ৪",
+        "৩, ২, ৪, ১",
+        "২, ৪, ৩, ১"
+      ],
+      "e": "ক্রম: UNFCCC কার্যকর ১৯৯৪ → প্যারিস চুক্তি গৃহীত ২০১৫ → ভারতের অনুমোদন ২ অক্টোবর ২০১৬ → চুক্তি কার্যকর ৪ নভেম্বর ২০১৬।",
+      "claims": [
+        "c27",
+        "c28",
+        "c23",
+        "c22"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "india_response",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের জাতীয় জলবায়ু কর্মপরিকল্পনা (NAPCC) কবে প্রকাশিত হয়?",
+      "a": "৩০ জুন ২০০৮",
+      "w": [
+        "২১ মার্চ ১৯৯৪",
+        "৪ নভেম্বর ২০১৬",
+        "১ জানুয়ারি ২০১৫"
+      ],
+      "e": "NAPCC প্রকাশ করেন প্রধানমন্ত্রী, ২০০৮ সালের ৩০ জুন।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "india_response",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NAPCC-র প্রাণকেন্দ্র কী?",
+      "a": "আটটি জাতীয় মিশন",
+      "w": [
+        "একটি জাতীয় জলবায়ু কর",
+        "একটি আন্তর্জাতিক তহবিল",
+        "একটি নতুন মন্ত্রক"
+      ],
+      "e": "আটটি জাতীয় মিশনই NAPCC-র প্রাণকেন্দ্র — এগুলি বহুমুখী, দীর্ঘমেয়াদি ও সমন্বিত কৌশল।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "india_response",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সবুজ ভারত মিশন (Green India Mission) কোন লক্ষ্যের সঙ্গে যুক্ত?",
+      "a": "বন ও বৃক্ষ-আবরণ দেশের ভূমির ৩৩% করা",
+      "w": [
+        "হিমবাহের গলন রোধ করা",
+        "তাপ-সহনশীল ফসলের জাত তৈরি",
+        "বিদ্যুৎ-ক্ষমতায় অ-জীবাশ্ম অংশ ৬০% করা"
+      ],
+      "e": "সবুজ ভারত মিশন বনায়নে কার্বন সিঙ্ক বাড়ায়, দেশের ভূমির ৩৩% বন ও বৃক্ষ-আবরণের জাতীয় নীতির সঙ্গে মিলিয়ে। হিমবাহ-রক্ষা হিমালয় মিশনের, তাপ-সহনশীল ফসল টেকসই কৃষি মিশনের কাজ।",
+      "claims": [
+        "c16",
+        "c17",
+        "c20"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "india_response",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতের ২০১৫ সালের NDC-তে ২০৩০ সালের লক্ষ্য ছিল —",
+      "a": "GDP-র নির্গমন-তীব্রতা ৩৩–৩৫% কমানো ও অ-জীবাশ্ম বিদ্যুৎ-ক্ষমতা ৪০%",
+      "w": [
+        "নির্গমন-তীব্রতা ৪৭% কমানো ও অ-জীবাশ্ম ক্ষমতা ৬০%",
+        "মোট নির্গমন শূন্য করা",
+        "কার্বন সিঙ্ক ৩.৫–৪.০ বিলিয়ন টন তৈরি"
+      ],
+      "e": "২০১৫ NDC-র লক্ষ্য: তীব্রতা ৩৩–৩৫% হ্রাস ও অ-জীবাশ্ম ক্ষমতা ৪০% (২০৩০ নাগাদ)। ৪৭%/৬০%/সিঙ্ক ৩.৫–৪.০ বিলিয়ন টন হল ২০৩১–৩৫ পর্যায়ের পরের ধাপের লক্ষ্য।",
+      "claims": [
+        "c35",
+        "c36",
+        "c37",
+        "c38"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "india_response",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতের NDC (২০৩১–৩৫) অনুযায়ী ২০৩৫ নাগাদ অ-জীবাশ্ম উৎস থেকে স্থাপিত বিদ্যুৎ-ক্ষমতার লক্ষ্য কত?",
+      "a": "৬০%",
+      "w": [
+        "৪০%",
+        "৫০%",
+        "৫২.৫৭%"
+      ],
+      "e": "২০৩১–৩৫ NDC-র লক্ষ্য ৬০%। ৪০% ছিল ২০১৫ NDC-র ২০৩০-লক্ষ্য; ৫২.৫৭% হল ফেব্রুয়ারি ২০২৬ পর্যন্ত প্রকৃত অর্জন।",
+      "claims": [
+        "c37",
+        "c35",
+        "c39"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "india_response",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারত কোন সাল নাগাদ নেট-জিরো নির্গমনের প্রতিশ্রুতি দিয়েছে এবং কোথায়?",
+      "a": "২০৭০ সাল; COP26 (২০২১)",
+      "w": [
+        "২০৫০ সাল; COP21 (২০১৫)",
+        "২০৩০ সাল; COP26 (২০২১)",
+        "২০৭০ সাল; COP21 (২০১৫)"
+      ],
+      "e": "ভারত COP26-এ (২০২১) প্রতিশ্রুতি দেয় ২০৭০ সাল নাগাদ নেট-জিরো নির্গমনের।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "india_response",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মিশন ও কাজের সঠিক মিল বাছাই করো:\nA. সবুজ ভারত মিশন\nB. হিমালয় বাস্তুতন্ত্র মিশন\nC. টেকসই কৃষি মিশন\nD. NAPCC (সামগ্রিক)\n১. তাপ-সহনশীল ফসলের জাতসহ কৃষিকে জলবায়ু-সহনশীল করা\n২. হিমবাহ ও পর্বত-বাস্তুতন্ত্র রক্ষার ব্যবস্থাপনা\n৩. বনায়নে কার্বন সিঙ্ক বাড়ানো; ৩৩% বন-আবরণের নীতি\n৪. আটটি জাতীয় মিশনের কর্মপরিকল্পনা (২০০৮)",
+      "a": "A-৩, B-২, C-১, D-৪",
+      "w": [
+        "A-২, B-৩, C-১, D-৪",
+        "A-৩, B-১, C-২, D-৪",
+        "A-১, B-২, C-৩, D-৪"
+      ],
+      "e": "সবুজ ভারত → বনায়ন ও কার্বন সিঙ্ক (৩); হিমালয় মিশন → হিমবাহ রক্ষা (২); টেকসই কৃষি → তাপ-সহনশীল ফসল (১); NAPCC → ২০০৮-এর আট-মিশনের পরিকল্পনা (৪)।",
+      "claims": [
+        "c16",
+        "c17",
+        "c20",
+        "c14",
+        "c15"
+      ]
+    }
+  ]
+}

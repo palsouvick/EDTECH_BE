@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "১,০১৪টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "India has a network of 1014 Protected Areas including 106 National Parks, 573 Wildlife Sanctuaries, 115 Conservation Reserves and 220 Community Reserves covering a total of 1,75,169.42 km2 of geographical area of the country which is approximately 5.32%.",
+      "source_url": "https://v1.wii.gov.in/nwdc_aboutus",
+      "page": "About Us page",
+      "notes": "WII network total in c40."
+    },
+    {
+      "id": "q02",
+      "answer": "সংরক্ষিত অরণ্য (Reserved Forest)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "More than half of the total forest land has been declared reserved forests. Reserved forests are regarded as the most valuable as far as the conservation of forest and wildlife resources are concerned.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 15",
+      "notes": "More than half of forest land is reserved forest."
+    },
+    {
+      "id": "q03",
+      "answer": "প্রায় ৫.৩২%",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "India has a network of 1014 Protected Areas including 106 National Parks, 573 Wildlife Sanctuaries, 115 Conservation Reserves and 220 Community Reserves covering a total of 1,75,169.42 km2 of geographical area of the country which is approximately 5.32%.",
+      "source_url": "https://v1.wii.gov.in/nwdc_aboutus",
+      "page": "About Us page",
+      "notes": "PA network covers ~5.32% per c40."
+    },
+    {
+      "id": "q04",
+      "answer": "মধ্যপ্রদেশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Madhya Pradesh has the largest area under permanent forests, constituting 75 per cent of its total forest area.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 15",
+      "notes": "MP has largest permanent forest area, 75%."
+    },
+    {
+      "id": "q05",
+      "answer": "সরকারি ও বেসরকারি ব্যক্তি-সম্প্রদায়ের মালিকানাধীন অন্যান্য বন ও পতিত জমি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "These are other forests and wastelands belonging to both government and private individuals and communities.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 15",
+      "notes": "Definition matches c15 verbatim."
+    },
+    {
+      "id": "q06",
+      "answer": "পাঠ্যবইয়ের সংখ্যাটি বই ছাপার সময়ের হিসাব; সংরক্ষিত এলাকার জাল পরে আরও বেড়েছে বলে হালনাগাদ ডেটাবেসে সংখ্যা বেশি",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "India has a network of 1014 Protected Areas including 106 National Parks, 573 Wildlife Sanctuaries, 115 Conservation Reserves and 220 Community Reserves covering a total of 1,75,169.42 km2 of geographical area of the country which is approximately 5.32%.",
+      "source_url": "https://v1.wii.gov.in/nwdc_aboutus",
+      "page": "About Us page",
+      "notes": "Claims give textbook figure c26 (90 NPs) and updated WII 2023 figure c40 (106 NPs) but do not state this explanation verbatim; it is the only option consistent with both dated figures."
+    },
+    {
+      "id": "q07",
+      "answer": "১ ও ২ উভয়ই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Almost onethird of the total forest area is protected forest, as declared by the Forest Department.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 15",
+      "notes": "Statement 1 from c14 (~one-third protected); statement 2 from c13 (reserved most valuable). Both true."
+    },
+    {
+      "id": "q08",
+      "answer": "ইন-সিটু সংরক্ষণ (In situ)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "When we conserve and protect the whole ecosystem, its biodiversity at all levels is protected - we save the entire forest to save the tiger. This approach is called in situ (on site) conservation.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "page": "p. 223",
+      "notes": "Saving entire forest to save tiger is in situ per c22."
+    },
+    {
+      "id": "q09",
+      "answer": "চিড়িয়াখানা (Zoological Park)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Zoological parks, botanical gardens and wildlife safari parks serve this purpose.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "page": "p. 224",
+      "notes": "Zoological parks serve ex situ purpose per c27."
+    },
+    {
+      "id": "q10",
+      "answer": "৩৪টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Initially 25 biodiversity hotspots were identified but subsequently nine more have been added to the list, bringing the total number of biodiversity hotspots in the world to 34.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "page": "p. 223",
+      "notes": "25 + 9 more = 34 hotspots."
+    },
+    {
+      "id": "q11",
+      "answer": "পশ্চিমঘাট ও শ্রীলঙ্কা, ইন্দো-বর্মা এবং হিমালয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Three of these hotspots – Western Ghats and Sri Lanka, Indo-Burma and Himalaya – cover our country’s exceptionally high biodiversity regions.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "page": "p. 224",
+      "notes": "Three hotspots listed in c25."
+    },
+    {
+      "id": "q12",
+      "answer": "বাণিজ্যিকভাবে গুরুত্বপূর্ণ উদ্ভিদের বিভিন্ন জিন-ধারার বীজ দীর্ঘদিনের জন্য",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Now gametes of threatened species can be preserved in viable and fertile condition for long periods using cryopreservation techniques, eggs can be fertilised in vitro, and plants can be propagated using tissue culture methods. Seeds of different genetic strains of commercially important plants can be kept for long periods in seed banks.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "page": "p. 224",
+      "notes": "Seed banks keep seeds of genetic strains of commercially important plants."
+    },
+    {
+      "id": "q13",
+      "answer": "প্রজাতি বিপন্ন হয়ে বন্য পরিবেশে অদূর ভবিষ্যতে বিলুপ্তির উচ্চ ঝুঁকিতে থাকলে এবং জরুরি ব্যবস্থা দরকার হলে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "However, when there are situations where an animal or plant is endangered or threatened (organisms facing a very high risk of extinction in the wild in the near future) and needs urgent measures to save it from extinction, ex situ (off site) conservation is the desirable approach.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "page": "p. 223",
+      "notes": "Ex situ desirable when endangered/threatened and urgent measures needed."
+    },
+    {
+      "id": "q14",
+      "answer": "১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Such sacred groves are found in Khasi and Jaintia Hills in Meghalaya, Aravalli Hills of Rajasthan, Western Ghat regions of Karnataka and Maharashtra and the Sarguja, Chanda and Bastar areas of Madhya Pradesh.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "page": "p. 224",
+      "notes": "Pairs 1 (Khasi/Jaintia, Meghalaya) and 3 (Sarguja/Chanda/Bastar, MP) match c29; pair 2 wrong - Rajasthan site is Aravalli Hills, not Thar."
+    },
+    {
+      "id": "q15",
+      "answer": "১৯৭৩ সালে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "\"Project Tiger\", one of the wellpublicised wildlife campaigns in the world, was launched in 1973.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 14",
+      "notes": "Project Tiger launched 1973."
+    },
+    {
+      "id": "q16",
+      "answer": "পশ্চিমবঙ্গ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Corbett National Park in Uttarakhand, Sunderbans National Park in West Bengal, Bandhavgarh National Park in Madhya Pradesh, Sariska Wildlife Sanctuary in Rajasthan, Manas Tiger Reserve in Assam and Periyar Tiger Reserve in Kerala are some of the tiger reserves of India.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 14",
+      "notes": "Sunderbans NP in West Bengal per c10."
+    },
+    {
+      "id": "q17",
+      "answer": "১,৮২৭",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In 1973, the authorities realised that the tiger population had dwindled to 1,827 from an estimated 55,000 at the turn of the century.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 14",
+      "notes": "Tiger population dwindled to 1,827 in 1973."
+    },
+    {
+      "id": "q18",
+      "answer": "বাঘের জন্য অতিরিক্ত সংরক্ষিত এলাকা ঘোষণা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The major threats to tiger population are numerous, such as poaching for trade, shrinking habitat, depletion of prey base species, growing human population, etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 14",
+      "notes": "Threats in c07 are poaching, shrinking habitat, prey depletion, growing population; extra PAs not listed."
+    },
+    {
+      "id": "q19",
+      "answer": "হাঙ্গুল (Hangul)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The central government also announced several projects for protecting specific animals, which were gravely threatened, including the tiger, the onehorned rhinoceros, the Kashmir stag or hangul, three types of crocodiles – fresh water crocodile, saltwater crocodile and the Gharial, the Asiatic lion, and others.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 13",
+      "notes": "Kashmir stag or hangul in c05."
+    },
+    {
+      "id": "q20",
+      "answer": "শুধু বিপন্ন প্রজাতি বাঁচানো নয়, বড় মাত্রার জীব-অঞ্চল (biotype) সংরক্ষণ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Tiger conservation has been viewed not only as an effort to save an endangered species, but with equal importance as a means of preserving biotypes of sizeable magnitude.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 14",
+      "notes": "Preserving biotypes of sizeable magnitude per c09."
+    },
+    {
+      "id": "q21",
+      "answer": "A-৩, B-৪, C-২, D-১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Corbett National Park in Uttarakhand, Sunderbans National Park in West Bengal, Bandhavgarh National Park in Madhya Pradesh, Sariska Wildlife Sanctuary in Rajasthan, Manas Tiger Reserve in Assam and Periyar Tiger Reserve in Kerala are some of the tiger reserves of India.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 14",
+      "notes": "Corbett-Uttarakhand, Bandhavgarh-MP, Manas-Assam, Periyar-Kerala per c10."
+    },
+    {
+      "id": "q22",
+      "answer": "UNESCO-র Man and Biosphere (MAB) কর্মসূচি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Biosphere Reserves are areas of terrestrial and coastal / marine ecosystems or a combination thereof, which are internationally recognized within the framework of UNESCO’s flagship programme on Man and Biosphere (MAB)",
+      "source_url": "https://moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+      "page": "p. 1",
+      "notes": "Recognised within UNESCO MAB framework per c41."
+    },
+    {
+      "id": "q23",
+      "answer": "সুন্দরবন জলাভূমি, পশ্চিমবঙ্গ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Sundarban Wetland in West Bengal, designated on 30 January 2019, is India’s largest Ramsar Site at 4,23,000 hectares.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10255_20261025_09460901.pdf",
+      "page": "Did You Know box",
+      "notes": "Sundarban Wetland largest Ramsar site per c51."
+    },
+    {
+      "id": "q24",
+      "answer": "১৮টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the Ministry of Environment, Forest and Climate Change has, as on December 2023, established 18 Biosphere Reserves.",
+      "source_url": "https://moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+      "page": "p. 2",
+      "notes": "18 BRs as on Dec 2023 per c43."
+    },
+    {
+      "id": "q25",
+      "answer": "চিলিকা হ্রদ ও কেওলাদেও জাতীয় উদ্যান",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Chilika Lake in Odisha and Keoladeo National Park in Rajasthan became India’s first Ramsar Sites on 1 October 1981.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10255_20261025_09460901.pdf",
+      "page": "Did You Know box",
+      "notes": "Chilika and Keoladeo first Ramsar sites per c50."
+    },
+    {
+      "id": "q26",
+      "answer": "১৯৭১ সালে, ইরানের রামসার শহরে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It was adopted at Ramsar, Iran, on 2 February 1971 and entered into force in 1975.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10255_20261025_09460901.pdf",
+      "page": "p. 1",
+      "notes": "Adopted at Ramsar, Iran, 2 Feb 1971 per c47."
+    },
+    {
+      "id": "q27",
+      "answer": "যেসব রামসার স্থানের বাস্তুতান্ত্রিক চরিত্র বদলেছে, বদলাচ্ছে বা বদলানোর আশঙ্কা আছে, তাদের নথি (register)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It is a register of Ramsar Sites where changes in ecological character have occurred, are occurring or are likely to occur.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10255_20261025_09460901.pdf",
+      "page": "What is Montreux Record",
+      "notes": "Montreux Record definition matches c55."
+    },
+    {
+      "id": "q28",
+      "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Biosphere Reserves thus are meant to represent characteristic ecosystems in different biogeographic regions and consider human communities as their integral component.",
+      "source_url": "https://moef.gov.in/uploads/pdf/Approved%20copy%20of%20Website%20note%20of%20BR.pdf",
+      "page": "p. 1",
+      "notes": "A from c42 (humans integral component); R also supported by c46 (livelihood support in buffer/transition reduces core pressure) and explains A."
+    },
+    {
+      "id": "q29",
+      "answer": "১৯৭২ সালে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Indian Wildlife (Protection) Act was implemented in 1972, with various provisions for protecting habitats.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 13",
+      "notes": "WPA implemented 1972 per c02."
+    },
+    {
+      "id": "q30",
+      "answer": "১৯৮০ সাল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The forest (Conservation) Act,1980was adopted to protect and conserve forests. The Act restricts the power of the state in respect of de-reservation of forests and use of forestland for non-forest purposes.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51884&reg=3&lang=2",
+      "page": "Backgrounder",
+      "notes": "Forest (Conservation) Act, 1980 per c34."
+    },
+    {
+      "id": "q31",
+      "answer": "যে কোনো এলাকাকে অভয়ারণ্য, জাতীয় উদ্যান বা বদ্ধ এলাকা ঘোষণা করার ক্ষমতা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It empowers the central and state governments to declare any area a wildlife sanctuary, national park or closed area. The Act prohibits hunting of animals except with permission of authorized officer when animal has become dangerous to human life or property or so disabled or diseased as to be beyond recovery.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51884&reg=3&lang=2",
+      "page": "Backgrounder",
+      "notes": "Power to declare sanctuary/NP/closed area per c33."
+    },
+    {
+      "id": "q32",
+      "answer": "শিকার নিষিদ্ধ করা, আবাসকে আইনি সুরক্ষা দেওয়া, বন্যপ্রাণীর বাণিজ্য সীমিত করা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The thrust of the programme was towards protecting the remaining population of certain endangered species by banning hunting, giving legal protection to their habitats, and restricting trade in wildlife.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 13",
+      "notes": "Thrust: banning hunting, legal protection to habitats, restricting trade per c03."
+    },
+    {
+      "id": "q33",
+      "answer": "১৯৯১ সালে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In 1991, for the first time plants were also added to the list, starting with six species.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 14",
+      "notes": "Plants first added 1991 per c12."
+    },
+    {
+      "id": "q34",
+      "answer": "বনের সংরক্ষিত মর্যাদা বাতিল করা এবং বনভূমি অবন-উদ্দেশ্যে ব্যবহারের ক্ষমতা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The forest (Conservation) Act,1980was adopted to protect and conserve forests. The Act restricts the power of the state in respect of de-reservation of forests and use of forestland for non-forest purposes.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51884&reg=3&lang=2",
+      "page": "Backgrounder",
+      "notes": "Restricts de-reservation and non-forest use per c34."
+    },
+    {
+      "id": "q35",
+      "answer": "১ ও ২ উভয়ই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Wildlife (Protection) Act (WPA),1972 provides protection to listed flora and fauna and establishes a network of ecologically important protected areas.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51884&reg=3&lang=2",
+      "page": "Backgrounder",
+      "notes": "Both statements in c32."
+    },
+    {
+      "id": "q36",
+      "answer": "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Environment (Protection) Act, 1986 is an umbrella legislation under which various rules and notifications have been framed and issued to take care of the different dimensions of environment challenges.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51884&reg=3&lang=2",
+      "page": "Backgrounder",
+      "notes": "EPA 1986 is umbrella legislation per c30."
+    },
+    {
+      "id": "q37",
+      "answer": "১৯৮৮ সাল থেকে; ওড়িশা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The programme has been in formal existence since 1988 when the state of Odisha passed the first resolution for joint forest management.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 16",
+      "notes": "JFM formal since 1988, Odisha first resolution per c19."
+    },
+    {
+      "id": "q38",
+      "answer": "জাতিসংঘের জীববৈচিত্র্য কনভেনশন (CBD)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Biological diversity Act, 2002 was enacted under the United Nations Convention on Biological Diversity.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51884&reg=3&lang=2",
+      "page": "Backgrounder",
+      "notes": "Enacted under UN Convention on Biological Diversity per c35."
+    },
+    {
+      "id": "q39",
+      "answer": "বন্যপ্রাণী সুরক্ষা আইন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In Sariska Tiger Reserve, Rajasthan, villagers have fought against mining by citing the Wildlife Protection Act.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 16",
+      "notes": "Villagers cited Wildlife Protection Act per c17."
+    },
+    {
+      "id": "q40",
+      "answer": "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Notified under the Environment (Protection) Act, 1986, these Rules provide the regulatory framework for wetland conservation. They establish State/UT Wetlands Authorities and prohibit activities such as encroachment, waste dumping and untreated effluent discharge.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10255_20261025_09460901.pdf",
+      "page": "Government Initiatives",
+      "notes": "Wetlands Rules 2017 notified under EPA 1986 per c53."
+    },
+    {
+      "id": "q41",
+      "answer": "জাতীয় উদ্যান ঘোষণা করে রাজ্যের বনভূমি অধিগ্রহণ করা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Under this Act, the Central government is empowered to take measures necessary to protect and improve the quality of the environment by setting standards for emissions and discharges; regulating the location of industries; management of hazardous wastes, and protection of public health and welfare.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=51884&reg=3&lang=2",
+      "page": "Backgrounder",
+      "notes": "EPA powers in c31 are standards, industry location, hazardous waste, public health; NP declaration is a WPA power per c33, not EPA."
+    },
+    {
+      "id": "q42",
+      "answer": "২, ৪, ৩, ১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Indian Wildlife (Protection) Act was implemented in 1972, with various provisions for protecting habitats.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+      "page": "p. 13",
+      "notes": "Years: WPA 1972 (c02), FCA 1980 (c34), EPA 1986 (c30), BDA 2002 (c35/c36) -> 2,4,3,1."
+    }
+  ]
+}

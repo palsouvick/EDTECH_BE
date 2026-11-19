@@ -1,0 +1,1598 @@
+{
+  "book": "environment",
+  "code": "ENV-07",
+  "number": 7,
+  "part": "protection",
+  "title": "শক্তি সংরক্ষণ ও নবায়নযোগ্য শক্তি",
+  "subtitle": "শক্তির উৎস, সংরক্ষণ আইন ও ভারতের জাতীয় লক্ষ্য",
+  "subtopics": [
+    "energy"
+  ],
+  "related_facts": [
+    "GK-ENV-014",
+    "GK-ENV-015",
+    "GK-ENV-016",
+    "GK-ENV-017",
+    "GK-ENV-018"
+  ],
+  "prerequisites": [
+    "ENV-04"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 1 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 9 of 15 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ENV-07.json and drafts/ENV-07_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ENV-07_REPORT.md.",
+    "checked_claims": 54,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এই অধ্যায়ে আমরা জানব শক্তির উৎসগুলিকে কীভাবে ভাগ করা হয়, ভালো উৎসের গুণ কী, জীবাশ্ম জ্বালানির সীমাবদ্ধতা কোথায়, এবং জলবিদ্যুৎ, বায়ু, সৌর, সমুদ্র, ভূ-তাপীয় ও পারমাণবিক শক্তি কীভাবে কাজ করে। শেষ অংশে থাকছে ভারতের শক্তি সংরক্ষণের আইনি ও প্রাতিষ্ঠানিক কাঠামো — শক্তি সংরক্ষণ আইন, BEE, জাতীয় সৌর মিশন, উজালা এবং COP26-এর পঞ্চামৃত লক্ষ্য।",
+    "you_will_learn": [
+      "ভালো শক্তি উৎসের চারটি গুণ ও শক্তি সংকটের আসল কারণ",
+      "নবায়নযোগ্য ও অনবায়নযোগ্য উৎসের পার্থক্য",
+      "জীবাশ্ম জ্বালানির ক্ষতি: অ্যাসিড বৃষ্টি ও সীমিত মজুত",
+      "জলবিদ্যুৎ, বায়োগ্যাস ও কাঠকয়লার মূল তথ্য",
+      "বায়ু খামার, সৌর ধ্রুবক ও সৌর কোষের মূল সংখ্যা",
+      "জোয়ার, তরঙ্গ, OTEC, ভূ-তাপীয় ও পারমাণবিক শক্তির ধারণা",
+      "BEE, ECBC, PAT, উজালা ও পঞ্চামৃতের সাল ও লক্ষ্য"
+    ]
+  },
+  "sections": [
+    {
+      "id": "energy_basics",
+      "heading": "শক্তির ধারণা, ভালো উৎস ও নবায়নযোগ্যতা",
+      "quick": "শক্তি ধ্বংস হয় না, কিন্তু ব্যবহারের সময় তা কম-ব্যবহারযোগ্য রূপে ছড়িয়ে পড়ে — তাই শক্তি সংকট হয়। ভালো উৎস হবে বেশি কাজদায়ী, সহজলভ্য, সংরক্ষণ-পরিবহণে সহজ ও সস্তা। যা পুনরুৎপাদিত হয় তা নবায়নযোগ্য, যা ফুরিয়ে যাবে তা ক্ষয়িষ্ণু।",
+      "standard": "শক্তি সংরক্ষণের সূত্র বলে, কোনো প্রক্রিয়ায় মোট শক্তি একই থাকে। তাহলে সংকট কেন? কারণ কাজ করার সময় শক্তি **ব্যবহারযোগ্য রূপ** থেকে পরিবেশে **কম-ব্যবহারযোগ্য রূপে** ছড়িয়ে পড়ে; একবার ব্যবহৃত উৎস আর ফিরে পাওয়া যায় না।\n\n**ভালো শক্তি উৎসের গুণ:** (১) একক ভর বা আয়তনে বেশি কাজ করবে, (২) সহজে পাওয়া যাবে, (৩) সংরক্ষণ ও পরিবহণ সহজ হবে, (৪) সস্তা হবে।\n\n**শ্রেণিবিভাগ:** যেসব উৎস একদিন ফুরিয়ে যাবে, তারা **ক্ষয়িষ্ণু বা অনবায়নযোগ্য** (যেমন কয়লা)। যেসব উৎস পুনরুৎপাদিত বা পুনর্ভরিত হতে পারে, তারা **নবায়নযোগ্য** (যেমন সৌর, বায়ু, জলবিদ্যুৎ)। আমাদের ব্যবহৃত বেশিরভাগ শক্তিই শেষ পর্যন্ত সঞ্চিত সৌরশক্তি — তবে ভূ-তাপীয় শক্তি এর ব্যতিক্রম।",
+      "deep": "পরীক্ষায় প্রায়ই জিজ্ঞাসা করা হয় কোন উৎসটি সূর্য থেকে উদ্ভূত নয়। বায়ু (অসম তাপের ফল), জৈবভর (সালোকসংশ্লেষ), জলবিদ্যুৎ (জলচক্র) ও তরঙ্গ — সবই সৌর-উদ্ভূত। ভূ-তাপীয় শক্তি আসে পৃথিবীর অভ্যন্তরীণ তাপ থেকে এবং পারমাণবিক শক্তি আসে নিউক্লিয়াস থেকে — এই দুটি সৌর-উদ্ভূত নয়। NCERT-র অনুশীলনী প্রশ্নে ভূ-তাপীয় শক্তিকেই উত্তর ধরা হয়েছে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "ভালো উৎসের চার গুণ: বেশি কাজ, সহজলভ্য, সহজ সংরক্ষণ-পরিবহণ, সস্তা।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c28",
+        "c51"
+      ]
+    },
+    {
+      "id": "fossil_thermal",
+      "heading": "জীবাশ্ম জ্বালানি ও তাপবিদ্যুৎ",
+      "quick": "কয়লা ও পেট্রোলিয়াম লক্ষ লক্ষ বছরে তৈরি জীবাশ্ম জ্বালানি; মজুত সীমিত বলে এরা অনবায়নযোগ্য। পোড়ালে আম্লিক অক্সাইড বেরিয়ে অ্যাসিড বৃষ্টি হয়। তাপবিদ্যুৎ কেন্দ্রে জ্বালানি পুড়িয়ে বাষ্প তৈরি করে টারবাইন ঘোরানো হয়।",
+      "standard": "শিল্পবিপ্লব সম্ভব হয়েছিল কয়লার ব্যবহারে। কিন্তু জীবাশ্ম জ্বালানি তৈরি হতে **লক্ষ লক্ষ বছর** লেগেছে এবং মজুত সীমিত — বর্তমান হারে ব্যবহার চললে তা ফুরিয়ে যাবে, তাই এদের **সংরক্ষণ** করা জরুরি।\n\n**ক্ষতি:** জীবাশ্ম জ্বালানি পোড়ালে কার্বন, নাইট্রোজেন ও সালফারের **আম্লিক অক্সাইড** নির্গত হয়, যা **অ্যাসিড বৃষ্টি** ঘটিয়ে জল ও মাটির সম্পদের ক্ষতি করে; কার্বন ডাই অক্সাইড গ্রিনহাউস প্রভাব বাড়ায়।\n\n**তাপবিদ্যুৎ কেন্দ্র:** জ্বালানি পুড়িয়ে জল ফুটিয়ে বাষ্প তৈরি করা হয়, বাষ্প টারবাইন ঘুরিয়ে বিদ্যুৎ তৈরি করে। বিদ্যুৎ পরিবহণ জ্বালানি পরিবহণের চেয়ে দক্ষ বলে অনেক কেন্দ্র কয়লা বা তেলক্ষেত্রের কাছেই গড়া হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষা-নোট",
+          "body": "‘কেন তাপবিদ্যুৎ কেন্দ্র কয়লাক্ষেত্রের কাছে?’ — উত্তর: বিদ্যুৎ পরিবহণ, জ্বালানি পরিবহণের চেয়ে বেশি দক্ষ।"
+        }
+      ],
+      "claims": [
+        "c03",
+        "c04",
+        "c05",
+        "c52"
+      ]
+    },
+    {
+      "id": "hydro_biomass",
+      "heading": "জলবিদ্যুৎ, জৈবভর ও বায়োগ্যাস",
+      "quick": "জলবিদ্যুৎ কেন্দ্রে পতনশীল জলের স্থিতি শক্তি বিদ্যুতে রূপান্তরিত হয়; বৃষ্টিতে জলাধার পুনর্ভরিত হয় বলে এটি নবায়নযোগ্য। উদ্ভিদ ও প্রাণীজ উৎসের জ্বালানিই জৈবভর। বায়োগ্যাসে সর্বোচ্চ ৭৫% মিথেন থাকে এবং অবশিষ্ট স্লারি উৎকৃষ্ট সার।",
+      "standard": "**জলবিদ্যুৎ:** বাঁধ দিয়ে নদীর জল আটকে উঁচু জলাধার তৈরি করা হয়। উঁচু থেকে পড়া জলের **স্থিতি শক্তি** টারবাইন ঘুরিয়ে বিদ্যুতে রূপান্তরিত হয়। NCERT-র চিত্র অনুযায়ী ভারতের শক্তি চাহিদার প্রায় এক-চতুর্থাংশ জলবিদ্যুৎ থেকে মেটে। বৃষ্টি হলেই জলাধার পূর্ণ হয় বলে এটি **নবায়নযোগ্য**। তবে বড় বাঁধে কৃষিজমি ও বসতি ডুবে যায়, বাস্তুতন্ত্র ধ্বংস হয় এবং বাস্তুচ্যুতদের পুনর্বাসনের সমস্যা তৈরি হয়।\n\n**জৈবভর:** কাঠ, গোবরের ঘুঁটে ইত্যাদি উদ্ভিদ ও প্রাণীজ জ্বালানির উৎসই জৈবভর। কাঠকে সীমিত অক্সিজেনে পোড়ালে **কাঠকয়লা** পাওয়া যায় — শিখাহীন, ধোঁয়া কম, তাপদায়ী বেশি।\n\n**বায়োগ্যাস:** অক্সিজেনহীন পরিবেশে গোবর ও জৈব বর্জ্য পচে বায়োগ্যাস তৈরি হয়, যাতে **সর্বোচ্চ ৭৫% মিথেন** থাকে। এটি ধোঁয়াহীনভাবে পোড়ে, ছাই থাকে না, আর অবশিষ্ট স্লারি নাইট্রোজেন ও ফসফরাসসমৃদ্ধ সার।",
+      "deep": "বায়োগ্যাস একসঙ্গে তিনটি সমস্যার সমাধান দেয়: জ্বালানি, বর্জ্য নিষ্পত্তি এবং সার। পরীক্ষায় ‘বায়োগ্যাসের প্রধান উপাদান’ (মিথেন) এবং ‘স্লারির ব্যবহার’ (সার) — এই দুটি প্রশ্ন বারবার আসে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "জলবিদ্যুৎ নবায়নযোগ্য হলেও বড় বাঁধ পরিবেশের ক্ষতি করে — ‘নবায়নযোগ্য’ মানেই ‘ক্ষতিহীন’ নয়।"
+        }
+      ],
+      "claims": [
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c30",
+        "c53"
+      ]
+    },
+    {
+      "id": "wind_solar",
+      "heading": "বায়ু শক্তি ও সৌরশক্তি",
+      "quick": "অনেক বায়ুকলের ক্ষেত্রই বায়ু শক্তি খামার; টারবাইনের জন্য বাতাসের গতি ১৫ km/h-এর বেশি চাই। ভারত বছরে ৫,০০০ লক্ষ কোটি kWh-এর বেশি সৌরশক্তি পায়; সৌর ধ্রুবক প্রায় ১.৪ kW/m²। একটি সৌর কোষ দেয় ০.৫–১ V।",
+      "standard": "**বায়ু শক্তি:** সূর্যের অসম তাপে সৃষ্ট বাতাসের গতি শক্তি বায়ুকল ঘোরায়। একটি বায়ুকলের উৎপাদন কম, তাই বিস্তীর্ণ এলাকায় অনেক কল বসিয়ে **বায়ু শক্তি খামার** তৈরি করা হয়। ডেনমার্ককে ‘বাতাসের দেশ’ বলা হয় — সেখানে বিদ্যুতের ২৫%-এর বেশি বায়ুকল থেকে আসে। NCERT অনুযায়ী ভারতের বৃহত্তম বায়ু খামার **কন্যাকুমারীর কাছে (তামিলনাড়ু)**, উৎপাদন ৩৮০ MW। সীমাবদ্ধতা: বাতাসের গতি **১৫ km/h-এর বেশি** থাকা চাই, বিশাল জমি লাগে ও রক্ষণাবেক্ষণ ব্যয়বহুল।\n\n**সৌরশক্তি:** ভারতের ভূখণ্ডে বছরে প্রায় **৫,০০০ লক্ষ কোটি kWh** সৌরশক্তি পড়ে; বেশিরভাগ অঞ্চলে দৈনিক ৪–৭ kWh/m²। কালো পৃষ্ঠ সাদা বা প্রতিফলক পৃষ্ঠের চেয়ে বেশি তাপ শোষণ করে — এই নীতিতেই সৌর কুকার ও সৌর জল-উনুন চলে; কুকারে কাচের পাত **গ্রিনহাউস প্রভাবে** তাপ আটকে রাখে। **সৌর কোষ** আলোকে সরাসরি বিদ্যুতে বদলায়: একটি কোষ ০.৫–১ V ও প্রায় ০.৭ W দেয়।",
+      "deep": "MNRE অনুযায়ী NISE ভারতের সৌর সম্ভাবনা প্রায় **৭৪৮ GW** হিসেব করেছে (বর্জ্য জমির ৩% সৌর প্যানেলে ঢাকার ভিত্তিতে)। সৌর কোষের সুবিধা: চলমান অংশ নেই, রক্ষণাবেক্ষণ কম, দুর্গম এলাকায় বসানো যায়। অসুবিধা: বিশেষ গ্রেডের সিলিকন সীমিত ও উৎপাদন ব্যয়বহুল বলে ঘরোয়া ব্যবহার সীমিত।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষা-নোট",
+          "body": "সৌর কুকার কোন নীতিতে চলে — WBCS-এ দুবার (২০১৫, ২০২১) এসেছে: উত্তর গ্রিনহাউস প্রভাব।"
+        }
+      ],
+      "claims": [
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c31",
+        "c32",
+        "c54"
+      ]
+    },
+    {
+      "id": "sea_geo_nuclear",
+      "heading": "সমুদ্র শক্তি, ভূ-তাপীয় ও পারমাণবিক শক্তি",
+      "quick": "জোয়ার শক্তি পাওয়া যায় সমুদ্রের সরু মুখে বাঁধ দিয়ে; তরঙ্গ শক্তি আসে উপকূলের বড় ঢেউ থেকে; OTEC-এর জন্য চাই কমপক্ষে ২০ K তাপমাত্রার পার্থক্য। ভূ-তাপীয় শক্তির উৎস ‘হট স্পট’। পারমাণবিক বিদ্যুৎ আসে ভারী নিউক্লিয়াসের বিভাজন থেকে, আর সূর্যের শক্তি সংযোজন থেকে।",
+      "standard": "**জোয়ার শক্তি:** চাঁদের আকর্ষণে সমুদ্রের জলস্তর ওঠানামা করে। সরু মুখে বাঁধ দিলে সেই পার্থক্যে টারবাইন ঘুরে বিদ্যুৎ হয়; তবে এমন জায়গা সীমিত। **তরঙ্গ শক্তি:** উপকূলের প্রবল ঢেউয়ের গতি শক্তি আটকে বিদ্যুৎ তৈরি করা যায় — শুধু যেখানে ঢেউ খুব শক্তিশালী, সেখানেই এটি কার্যকর। **OTEC:** সমুদ্রের উষ্ণ উপরিতলের জল ও ২ km গভীরের ঠান্ডা জলের তাপমাত্রার পার্থক্য **২০ K বা বেশি** হলে এই প্ল্যান্ট চলতে পারে।\n\n**ভূ-তাপীয় শক্তি:** ভূগর্ভের গলিত শিলা যেসব অঞ্চলে আটকে থাকে, সেগুলি **‘হট স্পট’**; ভূগর্ভস্থ জল তার সংস্পর্শে বাষ্প হয়ে টারবাইন ঘোরায়।\n\n**পারমাণবিক শক্তি:** কম-শক্তির নিউট্রনের আঘাতে ইউরেনিয়ামের মতো ভারী নিউক্লিয়াস ভেঙে (**বিভাজন**) প্রচুর শক্তি বের হয়। সবচেয়ে বড় ঝুঁকি ব্যয়িত জ্বালানির সংরক্ষণ ও নিষ্পত্তি। সূর্য ও নক্ষত্রে শক্তি আসে হালকা নিউক্লিয়াসের **সংযোজন** থেকে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "বিভাজন = ভারী নিউক্লিয়াস ভাঙা (পারমাণবিক কেন্দ্র); সংযোজন = হালকা নিউক্লিয়াস মেলা (সূর্য)।"
+        }
+      ],
+      "claims": [
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27"
+      ]
+    },
+    {
+      "id": "conservation_policy",
+      "heading": "শক্তি সংরক্ষণ: আইন, BEE, মিশন ও জাতীয় লক্ষ্য",
+      "quick": "শক্তি সংরক্ষণ আইন, ২০০১-এর অধীনে ১ মার্চ ২০০২ গঠিত হয় BEE। জাতীয় সৌর মিশন চালু হয় ২০১০ সালে, উজালা ২০১৫ সালে। COP26-এর ‘পঞ্চামৃত’: ২০৩০-এর মধ্যে ৫০০ GW অ-জীবাশ্ম ক্ষমতা এবং ২০৭০-এর মধ্যে নেট জিরো।",
+      "standard": "**আইনি কাঠামো:** **শক্তি সংরক্ষণ আইন, ২০০১**-এর অধীনে বিদ্যুৎ মন্ত্রকের বিধিবদ্ধ সংস্থা **ব্যুরো অফ এনার্জি এফিশিয়েন্সি (BEE)** গঠিত হয় **১ মার্চ ২০০২**। আইন অনুযায়ী কেন্দ্রে BEE এবং রাজ্য/কেন্দ্রশাসিত অঞ্চলে **রাজ্য মনোনীত সংস্থা (SDA)** — এই দ্বিস্তর কাঠামো কাজ করে।\n\n**BEE-র কর্মসূচি:** NMEEE (NAPCC-র আটটি মিশনের একটি, ২০০৮) ও তার অধীনে **PAT** প্রকল্প শক্তি-নিবিড় শিল্পে দক্ষতার লক্ষ্য বেঁধে দেয়। **ECBC** বড় বাণিজ্যিক ভবনের (সংযুক্ত লোড ১০০ kW+) জন্য শক্তি-দক্ষ নকশার ন্যূনতম মান ঠিক করে। **স্ট্যান্ডার্ডস ও লেবেলিং** প্রকল্পে যন্ত্রপাতির তারা-লেবেল দেখে ভোক্তা সাশ্রয় বুঝতে পারে। **উজালা (২০১৫)** প্রকল্পে ৩৬.৮৭ কোটির বেশি LED বাল্ব বিতরণ হয়েছে (৬ জানুয়ারি ২০২৫ পর্যন্ত); ৭W LED, ৬০W সাধারণ বাল্বের সমান আলো দিয়ে প্রায় ৯০% শক্তি বাঁচায়।\n\n**জাতীয় লক্ষ্য:** **জাতীয় সৌর মিশন** চালু হয় **১১ জানুয়ারি ২০১০**। হালনাগাদ NDC অনুযায়ী ২০৩০-এর মধ্যে অ-জীবাশ্ম উৎস থেকে প্রায় ৫০% স্থাপিত বিদ্যুৎ ক্ষমতা ও নির্গমন তীব্রতা ৪৫% হ্রাসের লক্ষ্য। COP26-এ (২০২১) ঘোষিত **পঞ্চামৃত**: (১) ৫০০ GW অ-জীবাশ্ম ক্ষমতা, (২) শক্তি চাহিদার ৫০% নবায়নযোগ্য থেকে, (৩) প্রকল্পিত কার্বন নির্গমন ১০০ কোটি টন হ্রাস, (৪) কার্বন তীব্রতা ৪৫%-এর কম হ্রাস — সবই ২০৩০-এর মধ্যে; (৫) **২০৭০-এর মধ্যে নেট জিরো**। ভারত সৌরশক্তিতে **আন্তর্জাতিক সৌর জোট (ISA)**-এর সূচনা করেছে।\n\n**পরিবেশগত দিক:** কোনো শক্তি উৎসই সম্পূর্ণ দূষণমুক্ত নয় — সৌর কোষ চালনায় দূষণ না হলেও তা তৈরিতে পরিবেশের ক্ষতি হয়। তাই সংরক্ষণ ও দক্ষতাই সবচেয়ে পরিষ্কার ‘উৎস’।",
+      "deep": "পরীক্ষার জন্য সাল-ত্রয়ী মনে রাখো: ২০০১ (আইন) → ২০০২ (BEE) → ২০১০ (সৌর মিশন) → ২০১৫ (উজালা) → ২০২১ (পঞ্চামৃত)। NDC-র ‘৫০%’ হল স্থাপিত ক্ষমতার অংশ, আর পঞ্চামৃতের ‘৫০%’ হল শক্তি চাহিদার অংশ — এই পার্থক্য প্রায়ই গুলিয়ে দেওয়া হয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "শক্তি সংরক্ষণ আইন ২০০১ সালের, কিন্তু BEE গঠিত হয় ২০০২ সালের ১ মার্চ।"
+        }
+      ],
+      "claims": [
+        "c29",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48",
+        "c49",
+        "c50"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "শক্তি সংরক্ষণ আইন প্রণয়ন",
+      "when": "২০০১",
+      "what": "শক্তির দক্ষ ব্যবহার ও সংরক্ষণের জন্য আইনি কাঠামো তৈরি হয়।",
+      "why_it_matters": "এই আইনের অধীনেই BEE গঠিত হয় — ভারতের শক্তি সংরক্ষণ ব্যবস্থার ভিত্তি।",
+      "section": "conservation_policy",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "title": "BEE গঠিত",
+      "when": "১ মার্চ ২০০২",
+      "what": "বিদ্যুৎ মন্ত্রকের অধীনে বিধিবদ্ধ সংস্থা ব্যুরো অফ এনার্জি এফিশিয়েন্সি গঠিত হয়।",
+      "why_it_matters": "কেন্দ্রীয় স্তরে শক্তি দক্ষতার নোডাল সংস্থা হিসেবে BEE কাজ শুরু করে।",
+      "section": "conservation_policy",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "title": "NAPCC প্রকাশ ও NMEEE",
+      "when": "জুন ২০০৮",
+      "what": "জলবায়ু পরিবর্তন সংক্রান্ত জাতীয় কর্মপরিকল্পনা প্রকাশিত হয়; NMEEE তার আটটি মিশনের একটি।",
+      "why_it_matters": "শক্তি দক্ষতা জাতীয় জলবায়ু নীতির আনুষ্ঠানিক অংশ হয়।",
+      "section": "conservation_policy",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "title": "জাতীয় সৌর মিশন চালু",
+      "when": "১১ জানুয়ারি ২০১০",
+      "what": "সৌরশক্তির প্রসারে ভারতের জাতীয় মিশন শুরু হয়।",
+      "why_it_matters": "ভারতের সৌর বিস্তারের নীতিগত সূচনা।",
+      "section": "conservation_policy",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "title": "উজালা চালু",
+      "when": "৫ জানুয়ারি ২০১৫",
+      "what": "সাশ্রয়ী LED বাল্ব সবার কাছে পৌঁছে দেওয়ার প্রকল্প শুরু হয়।",
+      "why_it_matters": "গৃহস্থালির আলোয় শক্তি সাশ্রয়ের সবচেয়ে বড় কর্মসূচি।",
+      "section": "conservation_policy",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "title": "COP26-এ পঞ্চামৃত ঘোষণা",
+      "when": "২০২১",
+      "what": "গ্লাসগো সম্মেলনে ভারত পাঁচটি জলবায়ু-শক্তি অঙ্গীকার ঘোষণা করে।",
+      "why_it_matters": "৫০০ GW অ-জীবাশ্ম ক্ষমতা ও ২০৭০-এর নেট জিরো লক্ষ্য নির্ধারিত হয়।",
+      "section": "conservation_policy",
+      "claims": [
+        "c41",
+        "c45"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 2001,
+      "when": "২০০১",
+      "label": "শক্তি সংরক্ষণ আইন প্রণয়ন",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "sort_year": 2002,
+      "when": "২০০২",
+      "label": "BEE গঠিত (১ মার্চ)",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "sort_year": 2008,
+      "when": "২০০৮",
+      "label": "NAPCC প্রকাশ; NMEEE আটটি মিশনের একটি",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "sort_year": 2010,
+      "when": "২০১০",
+      "label": "জাতীয় সৌর মিশন চালু (১১ জানুয়ারি)",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "sort_year": 2015,
+      "when": "২০১৫",
+      "label": "উজালা প্রকল্প চালু (৫ জানুয়ারি)",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "sort_year": 2021,
+      "when": "২০২১",
+      "label": "COP26-এ পঞ্চামৃত ঘোষণা",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "sort_year": 2030,
+      "when": "২০৩০",
+      "label": "লক্ষ্য: ৫০০ GW অ-জীবাশ্ম ক্ষমতা",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "sort_year": 2070,
+      "when": "২০৭০",
+      "label": "লক্ষ্য: নেট জিরো",
+      "claims": [
+        "c45"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "নবায়নযোগ্য শক্তি (Renewable energy)",
+      "meaning": "যে উৎস পুনরুৎপাদিত বা পুনর্ভরিত হতে পারে, যেমন সৌর ও জলবিদ্যুৎ।",
+      "section": "energy_basics"
+    },
+    {
+      "term": "ক্ষয়িষ্ণু উৎস (Exhaustible source)",
+      "meaning": "যে উৎস একদিন ফুরিয়ে যাবে, যেমন কয়লা।",
+      "section": "energy_basics"
+    },
+    {
+      "term": "জৈবভর (Biomass)",
+      "meaning": "উদ্ভিদ ও প্রাণীজ উৎসের জ্বালানির উৎস, যেমন কাঠ ও গোবর।",
+      "section": "hydro_biomass"
+    },
+    {
+      "term": "বায়ু শক্তি খামার (Wind energy farm)",
+      "meaning": "বিস্তীর্ণ এলাকায় বসানো অনেকগুলি বায়ুকলের সম্মিলিত ক্ষেত্র।",
+      "section": "wind_solar"
+    },
+    {
+      "term": "সৌর ধ্রুবক (Solar constant)",
+      "meaning": "বায়ুমণ্ডলের বাইরের প্রান্তে লম্বভাবে পড়া সৌরশক্তির হার, প্রায় ১.৪ kW/m²।",
+      "section": "wind_solar"
+    },
+    {
+      "term": "হট স্পট (Hot spot)",
+      "meaning": "ভূগর্ভে গলিত শিলা আটকে থাকা অঞ্চল, ভূ-তাপীয় শক্তির উৎস।",
+      "section": "sea_geo_nuclear"
+    },
+    {
+      "term": "OTEC",
+      "meaning": "সমুদ্রের উপরিতল ও গভীর জলের তাপমাত্রার পার্থক্য থেকে বিদ্যুৎ তৈরির পদ্ধতি।",
+      "section": "sea_geo_nuclear"
+    },
+    {
+      "term": "নেট জিরো (Net Zero)",
+      "meaning": "নির্গমন ও শোষণের ভারসাম্য; ভারতের লক্ষ্য ২০৭০।",
+      "section": "conservation_policy"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "জীবাশ্ম জ্বালানির অতিরিক্ত ব্যবহার → পরিবেশ ক্ষতি",
+      "causes": [
+        "লক্ষ লক্ষ বছরে তৈরি সীমিত মজুতের জ্বালানি দ্রুত পোড়ানো",
+        "পোড়ালে আম্লিক অক্সাইড ও কার্বন ডাই অক্সাইড নির্গমন"
+      ],
+      "event": "জীবাশ্ম জ্বালানির ব্যাপক ব্যবহার",
+      "results": [
+        "অ্যাসিড বৃষ্টিতে জল ও মাটির ক্ষতি",
+        "মজুত ফুরিয়ে যাওয়ার আশঙ্কা ও বিকল্প উৎসের খোঁজ"
+      ],
+      "section": "fossil_thermal",
+      "claims": [
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "title": "বড় বাঁধ → জলবিদ্যুৎ ও বাস্তুচ্যুতি",
+      "causes": [
+        "জলবিদ্যুতের জন্য উঁচু বাঁধ ও বড় জলাধার নির্মাণ"
+      ],
+      "event": "বড় বাঁধ নির্মাণ",
+      "results": [
+        "স্থিতি শক্তি থেকে বিদ্যুৎ উৎপাদন",
+        "কৃষিজমি ও বসতি জলমগ্ন, বাস্তুতন্ত্র ধ্বংস, পুনর্বাসনের সমস্যা"
+      ],
+      "section": "hydro_biomass",
+      "claims": [
+        "c06",
+        "c07"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "BEE গঠনের সাল (২০০২) ও আইনের সাল (২০০১) আলাদা করে মনে রাখো",
+      "section": "conservation_policy"
+    },
+    {
+      "point": "পঞ্চামৃতের পাঁচটি অঙ্গীকার ও সাল: ২০৩০ ও ২০৭০",
+      "section": "conservation_policy"
+    },
+    {
+      "point": "সৌর কুকারের নীতি: গ্রিনহাউস প্রভাব (WBCS-এ পুনরাবৃত্ত)",
+      "section": "wind_solar"
+    },
+    {
+      "point": "বায়োগ্যাসে মিথেন সর্বোচ্চ ৭৫% ও স্লারি = সার",
+      "section": "hydro_biomass"
+    },
+    {
+      "point": "সৌর ধ্রুবক ১.৪ kW/m², সৌর কোষ ০.৫–১ V, বাতাসের গতি ১৫ km/h",
+      "section": "wind_solar"
+    },
+    {
+      "point": "OTEC-এর শর্ত ২০ K তাপমাত্রার পার্থক্য",
+      "section": "sea_geo_nuclear"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গও এই জাতীয় কাঠামোর অংশ: শক্তি সংরক্ষণ আইন অনুযায়ী প্রতিটি রাজ্যে একটি **রাজ্য মনোনীত সংস্থা (SDA)** থাকে, কেন্দ্রে থাকে BEE। অর্থাৎ রাজ্যের শক্তি দক্ষতার কর্মসূচি এই দ্বিস্তর কাঠামোর মাধ্যমেই চলে। এছাড়া উজালার মতো জাতীয় প্রকল্প রাজ্যের ঘরে ঘরেও LED বাল্ব পৌঁছে দিয়েছে। উপকূলীয় রাজ্য হিসেবে পশ্চিমবঙ্গের প্রসঙ্গে জোয়ার ও তরঙ্গ শক্তির ধারণাটিও প্রাসঙ্গিক, যদিও NCERT বলছে এমন বাঁধ বসানোর জায়গা সীমিত।",
+    "claims": [
+      "c40",
+      "c21"
+    ]
+  },
+  "quick_revision": [
+    "ভালো উৎস: বেশি কাজ, সহজলভ্য, সহজ সংরক্ষণ-পরিবহণ, সস্তা।",
+    "জীবাশ্ম জ্বালানি অনবায়নযোগ্য; পোড়ালে অ্যাসিড বৃষ্টি হয়।",
+    "জলবিদ্যুৎ: স্থিতি শক্তি → বিদ্যুৎ; বড় বাঁধে জমি ও বসতি ডোবে।",
+    "বায়োগ্যাসে মিথেন সর্বোচ্চ ৭৫%; স্লারি উৎকৃষ্ট সার।",
+    "বায়ু খামার: টারবাইনের জন্য বাতাসের গতি ১৫ km/h+ চাই।",
+    "সৌর ধ্রুবক প্রায় ১.৪ kW/m²; সৌর কোষ ০.৫–১ V।",
+    "OTEC-এর শর্ত: তাপমাত্রার পার্থক্য ২০ K+।",
+    "শক্তি সংরক্ষণ আইন ২০০১; BEE গঠিত ১ মার্চ ২০০২।",
+    "জাতীয় সৌর মিশন: ১১ জানুয়ারি ২০১০; সৌর সম্ভাবনা প্রায় ৭৪৮ GW।",
+    "উজালা: ৫ জানুয়ারি ২০১৫; ৭W LED = ৬০W সাধারণ বাল্বের আলো।",
+    "পঞ্চামৃত: ৫০০ GW (২০৩০), নেট জিরো (২০৭০)।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Science, Class X, Chapter 14: Sources of Energy",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc114.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Solar Overview, Ministry of New and Renewable Energy",
+      "publisher": "GOVT",
+      "url": "https://mnre.gov.in/en/solar-overview/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "FAQs, Bureau of Energy Efficiency, Ministry of Power",
+      "publisher": "GOVT",
+      "url": "https://beeindia.gov.in/show_content.php?lang=1&level=0&ls_id=147&lid=311",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "National Statement by Prime Minister at COP26 Summit in Glasgow, PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1768712&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "UJALA: 10 Years of Energy-Efficient Lighting, PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153633&ModuleId=3&reg=3&lang=1",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Usable energy is dissipated to the surroundings in less usable forms, so a source used for work is consumed and cannot be used again",
+      "source": "s1",
+      "page": "p. 242",
+      "quote": "In any example that we consider, we will see that energy, in the usable form, is dissipated to the surroundings in less usable forms. Hence, any source of energy we use, to do work, is consumed and cannot be used again."
+    },
+    {
+      "id": "c02",
+      "claim": "A good source of energy does a large amount of work per unit volume or mass, is easily accessible, easy to store and transport, and economical",
+      "source": "s1",
+      "page": "p. 243",
+      "quote": "We could then say that a good source of energy would be one which would do a large amount of work per unit volume or mass, be easily accessible, be easy to store and transport, and perhaps most importantly, be economical."
+    },
+    {
+      "id": "c03",
+      "claim": "Fossil fuels (coal and petroleum) were formed millions of years ago, have limited reserves and are non-renewable",
+      "source": "s1",
+      "page": "p. 244",
+      "quote": "The growing demand for energy was largely met by the fossil fuels – coal and petroleum. But these fuels were formed over millions of years ago and there are only limited reserves. The fossil fuels are nonrenewable sources of energy, so we need to conserve them."
+    },
+    {
+      "id": "c04",
+      "claim": "Burning fossil fuels releases acidic oxides of carbon, nitrogen and sulphur which lead to acid rain",
+      "source": "s1",
+      "page": "p. 244",
+      "quote": "The oxides of carbon, nitrogen and sulphur that are released on burning fossil fuels are acidic oxides. These lead to acid rain which affects our water and soil resources."
+    },
+    {
+      "id": "c05",
+      "claim": "In thermal power plants fossil fuel is burnt to heat water into steam which runs the turbine to generate electricity",
+      "source": "s1",
+      "page": "p. 245",
+      "quote": "Large amount of fossil fuels are burnt every day in power stations to heat up water to produce steam which further runs the turbine to generate electricity."
+    },
+    {
+      "id": "c06",
+      "claim": "Hydro power plants convert the potential energy of falling water into electricity",
+      "source": "s1",
+      "page": "p. 245",
+      "quote": "Hydro power plants convert the potential energy of falling water into electricity."
+    },
+    {
+      "id": "c07",
+      "claim": "Big dams submerge agricultural land and habitation and destroy large ecosystems",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "Large areas of agricultural land and human habitation are to be sacrificed as they get submerged. Large ecosystems are destroyed when submerged under the water in dams."
+    },
+    {
+      "id": "c08",
+      "claim": "Fuels that are plant and animal products have biomass as their source",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "Since these fuels are plant and animal products, the source of these fuels is said to be biomass."
+    },
+    {
+      "id": "c09",
+      "claim": "Charcoal burns without flames, is comparatively smokeless and has higher heat generation efficiency",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "Charcoal burns without flames, is comparatively smokeless and has a higher heat generation efficiency."
+    },
+    {
+      "id": "c10",
+      "claim": "Biogas contains up to 75% methane, burns without smoke and leaves no ash residue",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "Biogas is an excellent fuel as it contains up to 75% methane. It burns without smoke, leaves no residue like ash in wood, charcoal and coal burning."
+    },
+    {
+      "id": "c11",
+      "claim": "The slurry left behind in a biogas plant is used as manure rich in nitrogen and phosphorus",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "The slurry left behind is removed periodically and used as excellent manure, rich in nitrogen and phosphorous."
+    },
+    {
+      "id": "c12",
+      "claim": "A number of windmills erected over a large area is known as a wind energy farm",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "a number of windmills are erected over a large area, which is known as wind energy farm. The energy output of each windmill in a farm is coupled together to get electricity on a commercial scale."
+    },
+    {
+      "id": "c13",
+      "claim": "Wind speed should be higher than 15 km/h to maintain the required speed of the turbine",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "The wind speed should also be higher than 15 km/h to maintain the required speed of the turbine."
+    },
+    {
+      "id": "c14",
+      "claim": "The largest wind energy farm (NCERT) is near Kanyakumari in Tamil Nadu and generates 380 MW",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "The largest wind energy farm has been established near Kanyakumari in Tamil Nadu and it generates 380 MW of electricity."
+    },
+    {
+      "id": "c15",
+      "claim": "Denmark is called the country of winds; more than 25% of its electricity comes through windmills",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "Denmark is called the country of ‘winds’. More than 25% of their electricity needs are generated through a vast network of windmills."
+    },
+    {
+      "id": "c16",
+      "claim": "India receives solar energy equivalent to more than 5,000 trillion kWh in a year",
+      "source": "s1",
+      "page": "p. 249",
+      "quote": "It is estimated that during a year India receives the energy equivalent to more than 5,000 trillion kWh."
+    },
+    {
+      "id": "c17",
+      "claim": "The solar constant is approximately 1.4 kW per square metre",
+      "source": "s1",
+      "page": "p. 249",
+      "quote": "It is estimated to be approximately 1.4 kJ per second per square metre or 1.4 kW/m2."
+    },
+    {
+      "id": "c18",
+      "claim": "A black surface absorbs more heat than a white or reflecting surface; solar cookers and water heaters use this property",
+      "source": "s1",
+      "page": "p. 249",
+      "quote": "A black surface absorbs more heat as compared to a white or a reflecting surface under identical conditions. Solar cookers and solar water heaters use this property in their working."
+    },
+    {
+      "id": "c19",
+      "claim": "A typical solar cell develops 0.5-1 V and can produce about 0.7 W of electricity in sunlight",
+      "source": "s1",
+      "page": "p. 250",
+      "quote": "A typical cell develops a voltage of 0.5–1 V and can produce about 0.7 W of electricity when exposed to the Sun."
+    },
+    {
+      "id": "c20",
+      "claim": "Silicon used for solar cells is abundant but special-grade silicon availability is limited and manufacture is expensive",
+      "source": "s1",
+      "page": "p. 250",
+      "quote": "Silicon, which is used for making solar cells, is abundant in nature but availability of the special grade silicon for making solar cells is limited."
+    },
+    {
+      "id": "c21",
+      "claim": "Tidal energy is harnessed by a dam across a narrow opening to the sea; a turbine at the opening converts it to electricity",
+      "source": "s1",
+      "page": "p. 250",
+      "quote": "Tidal energy is harnessed by constructing a dam across a narrow opening to the sea. A turbine fixed at the opening of the dam converts tidal energy to electricity."
+    },
+    {
+      "id": "c22",
+      "claim": "The kinetic energy of huge waves near the seashore can be trapped to generate electricity",
+      "source": "s1",
+      "page": "p. 250",
+      "quote": "Similarly, the kinetic energy possessed by huge waves near the seashore can be trapped in a similar manner to generate electricity."
+    },
+    {
+      "id": "c23",
+      "claim": "OTEC plants can operate if the temperature difference between surface water and water at depths up to 2 km is 20 K or more",
+      "source": "s1",
+      "page": "p. 251",
+      "quote": "These plants can operate if the temperature difference between the water at the surface and water at depths up to 2 km is 20 K (20°C) or more."
+    },
+    {
+      "id": "c24",
+      "claim": "Geothermal energy comes from molten rocks trapped in regions called hot spots in the earth's crust",
+      "source": "s1",
+      "page": "p. 251",
+      "quote": "Due to geological changes, molten rocks formed in the deeper hot regions of earth’s crust are pushed upward and trapped in certain regions called ‘hot spots’."
+    },
+    {
+      "id": "c25",
+      "claim": "In nuclear fission the nucleus of a heavy atom such as uranium, plutonium or thorium splits into lighter nuclei when bombarded with low-energy neutrons",
+      "source": "s1",
+      "page": "p. 251",
+      "quote": "In a process called nuclear fission, the nucleus of a heavy atom (such as uranium, plutonium or thorium), when bombarded with lowenergy neutrons, can be split apart into lighter nuclei."
+    },
+    {
+      "id": "c26",
+      "claim": "The major hazard of nuclear power is storage and disposal of spent fuel whose uranium keeps decaying into harmful radiations",
+      "source": "s1",
+      "page": "p. 251",
+      "quote": "The major hazard of nuclear power generation is the storage and disposal of spent or used fuels – the uranium still decaying into harmful subatomic particles (radiations)."
+    },
+    {
+      "id": "c27",
+      "claim": "Nuclear fusion reactions are the source of energy in the Sun and other stars",
+      "source": "s1",
+      "page": "p. 252",
+      "quote": "Such nuclear fusion reactions are the source of energy in the Sun and other stars."
+    },
+    {
+      "id": "c28",
+      "claim": "Sources that will get depleted some day are exhaustible/non-renewable; sources that can be regenerated are renewable",
+      "source": "s1",
+      "page": "p. 253",
+      "quote": "Such sources that will get depleted some day are said to be exhaustible sources or nonrenewable sources of energy. Such energy sources that can be regenerated are called renewable sources of energy."
+    },
+    {
+      "id": "c29",
+      "claim": "No source is completely pollution-free: a solar cell's operation is pollution-free but assembling the device causes environmental damage",
+      "source": "s1",
+      "page": "p. 253",
+      "quote": "In some cases, the actual operation of a device like the solar cell may be pollutionfree, but the assembly of the device would have caused some environmental damage."
+    },
+    {
+      "id": "c30",
+      "claim": "According to the NCERT figure, a quarter of India's energy requirement is met by hydro power plants",
+      "source": "s1",
+      "page": "p. 245",
+      "quote": "As we can see from Fig. 14.1, a quarter of our energy requirement in India is met by hydro power plants."
+    },
+    {
+      "id": "c31",
+      "claim": "About 5,000 trillion kWh per year is incident over India's land area, most parts receiving 4-7 kWh per sqm per day",
+      "source": "s2",
+      "page": "Solar Overview",
+      "quote": "About 5,000 trillion kWh per year energy is incident over India’s land area with most parts receiving 4-7 kWh per sqm per day."
+    },
+    {
+      "id": "c32",
+      "claim": "NISE has assessed India's solar potential at about 748 GW assuming 3% of wasteland covered by solar PV modules",
+      "source": "s2",
+      "page": "Solar Overview",
+      "quote": "National Institute of Solar Energy (NISE) has assessed the country’s solar potential of about 748 GW assuming 3% of the waste land area to be covered by Solar PV modules."
+    },
+    {
+      "id": "c33",
+      "claim": "The National Solar Mission was launched on 11 January 2010",
+      "source": "s2",
+      "page": "Solar Overview",
+      "quote": "NSM was launched on 11 th January, 2010."
+    },
+    {
+      "id": "c34",
+      "claim": "India's NDC target: about 50 percent cumulative electric power installed capacity from non-fossil sources and 45 percent reduction in emission intensity of GDP from 2005 level by 2030",
+      "source": "s2",
+      "page": "Solar Overview",
+      "quote": "target to achieve about 50 percent cumulative electric power installed capacity from non-fossil fuel-based energy resources and to reduce the emission intensity of its GDP by 45 percent from 2005 level by 2030"
+    },
+    {
+      "id": "c35",
+      "claim": "BEE is a statutory body under the Ministry of Power set up on 1 March 2002 under the Energy Conservation Act, 2001",
+      "source": "s3",
+      "page": "FAQ 1",
+      "quote": "Bureau of Energy Efficiency (BEE) is a statutory body under the Ministry of Power, Government of India established under provisions of the Energy Conservation Act 2001, to promote efficient use of energy and its conservation. The Government of India set up Bureau of Energy Efficiency (BEE) on 1st March 2002"
+    },
+    {
+      "id": "c36",
+      "claim": "NMEEE is one of the eight national missions under NAPCC, released in June 2008",
+      "source": "s3",
+      "page": "FAQ 6",
+      "quote": "National Mission for Enhanced Energy Efficiency (NMEEE) is one of the eight national missions under the National Action Plan on Climate Change (NAPCC) that was released in June 2008 by the Government of India."
+    },
+    {
+      "id": "c37",
+      "claim": "PAT is a mechanism designed to achieve the required energy efficiency in energy-intensive sectors",
+      "source": "s3",
+      "page": "FAQ 8",
+      "quote": "PAT is a mechanism designed to achieve the required energy efficiency in energy intensive sectors."
+    },
+    {
+      "id": "c38",
+      "claim": "ECBC applies to large commercial buildings with connected load of 100 kW and above or 120 kVA and above",
+      "source": "s3",
+      "page": "FAQ 11",
+      "quote": "The purpose of the Code is to provide minimum requirements for the energy-efficient design and construction of buildings and it applies to large commercial buildings with connected load of 100 kW and above or 120 kVA and above."
+    },
+    {
+      "id": "c39",
+      "claim": "The Standards and Labelling programme gives consumers an informed choice about energy and cost savings of appliances",
+      "source": "s3",
+      "page": "FAQ 13",
+      "quote": "Standards and Labeling (S&L) program was initiated in the XIth five year plan with the key objective of providing consumers an informed choice regarding the energy savings and the cost saving potential of various energy consuming appliances."
+    },
+    {
+      "id": "c40",
+      "claim": "The EC Act mandates a two-tier structure: BEE as nodal agency at central level and SDAs at State/UT level",
+      "source": "s3",
+      "page": "FAQ 21",
+      "quote": "The Energy Conservation Act (EC Act) mandates creation of a two-tier organization structure to promote the efficient use of energy and its conservation in the country with BEE as the nodal agency at central level and SDAs as nodal agencies at State / Union Territory (UT) level"
+    },
+    {
+      "id": "c41",
+      "claim": "Panchamrit 1: India will reach its non-fossil energy capacity to 500 GW by 2030",
+      "source": "s4",
+      "page": "COP26 statement",
+      "quote": "First- India will reach its non-fossil energy capacity to 500 GW by 2030."
+    },
+    {
+      "id": "c42",
+      "claim": "Panchamrit 2: India will meet 50 percent of its energy requirements from renewable energy by 2030",
+      "source": "s4",
+      "page": "COP26 statement",
+      "quote": "Second- India will meet 50 percent of its energy requirements from renewable energy by 2030."
+    },
+    {
+      "id": "c43",
+      "claim": "Panchamrit 3: India will reduce total projected carbon emissions by one billion tonnes till 2030",
+      "source": "s4",
+      "page": "COP26 statement",
+      "quote": "Third- India will reduce the total projected carbon emissions by one billion tonnes from now onwards till 2030."
+    },
+    {
+      "id": "c44",
+      "claim": "Panchamrit 4: By 2030 India will reduce the carbon intensity of its economy by less than 45 percent",
+      "source": "s4",
+      "page": "COP26 statement",
+      "quote": "Fourth- By 2030, India will reduce the carbon intensity of its economy by less than 45 percent."
+    },
+    {
+      "id": "c45",
+      "claim": "Panchamrit 5: By 2070 India will achieve the target of Net Zero",
+      "source": "s4",
+      "page": "COP26 statement",
+      "quote": "And fifth- by the year 2070, India will achieve the target of Net Zero."
+    },
+    {
+      "id": "c46",
+      "claim": "India initiated the International Solar Alliance as a step in solar power",
+      "source": "s4",
+      "page": "COP26 statement",
+      "quote": "As a revolutionary step in solar power, we initiated the International Solar Alliance."
+    },
+    {
+      "id": "c47",
+      "claim": "India's LED bulb campaign is reducing emissions by 40 million tonnes annually (PM statement at COP26)",
+      "source": "s4",
+      "page": "COP26 statement",
+      "quote": "our massive LED bulb campaign is reducing emissions by 40 million tonnes annually."
+    },
+    {
+      "id": "c48",
+      "claim": "The UJALA scheme was launched on 5 January 2015",
+      "source": "s5",
+      "page": "UJALA explainer",
+      "quote": "The UJALA scheme, launched on 5th January 2015 by Prime Minister Narendra Modi, marked its 10th anniversary as a groundbreaking initiative in energy efficiency."
+    },
+    {
+      "id": "c49",
+      "claim": "A 7W LED bulb gives the same light as a 14W CFL and a 60W incandescent lamp, saving nearly 90% energy compared to ICLs",
+      "source": "s5",
+      "page": "UJALA explainer",
+      "quote": "A 7W LED bulb provides the same amount of light as a 14W Compact Fluorescent Lamp (CFL) and a 60W Incandescent Lamp (ICL), thereby saving nearly 90% energy compared to ICLs and 50% in the case of CFLs."
+    },
+    {
+      "id": "c50",
+      "claim": "As of 6 January 2025, UJALA has distributed 36.87 crore LED bulbs",
+      "source": "s5",
+      "page": "UJALA explainer",
+      "quote": "As of 6th January 2025, the UJALA scheme has distributed 36.87 crore LED bulbs"
+    },
+    {
+      "id": "c51",
+      "claim": "Geothermal energy is not ultimately derived from the Sun's energy, unlike wind, nuclear-source classification exercise in NCERT",
+      "source": "s1",
+      "page": "p. 255",
+      "quote": "Most of the sources of energy we use represent stored solar energy. Which of the following is not ultimately derived from the Sun’s energy? (a) geothermal energy (b) wind energy (c) nuclear energy (d) biomass."
+    },
+    {
+      "id": "c52",
+      "claim": "Electricity transmission is more efficient than transporting coal or petroleum, so many thermal plants are set up near coal or oil fields",
+      "source": "s1",
+      "page": "p. 245",
+      "quote": "The transmission of electricity is more efficient than transporting coal or petroleum over the same distance. Therefore, many thermal power plants are set up near coal or oil fields."
+    },
+    {
+      "id": "c53",
+      "claim": "Reservoir water is refilled each time it rains, so hydro power is a renewable source of energy",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "Since the water in the reservoir would be refilled each time it rains (hydro power is a renewable source of energy) we would not have to worry about hydro electricity sources getting used up the way fossil fuels would get finished one day."
+    },
+    {
+      "id": "c54",
+      "claim": "Solar cookers are covered with a glass plate, explained by the greenhouse effect",
+      "source": "s1",
+      "page": "p. 249",
+      "quote": "Solar cookers are covered with a glass plate. Recall what we have learnt about the greenhouse effect."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "energy_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শক্তি সংরক্ষণের সূত্র অনুযায়ী শক্তি ধ্বংস হয় না, তবু ‘শক্তি সংকট’ হয় কেন?",
+      "a": "ব্যবহারযোগ্য রূপের শক্তি পরিবেশে কম-ব্যবহারযোগ্য রূপে ছড়িয়ে পড়ে",
+      "w": [
+        "শক্তি আসলে ধ্বংস হয়ে যায়",
+        "সূর্যের শক্তি ফুরিয়ে গেছে",
+        "মানুষ শক্তি তৈরি করতে পারে না বলে"
+      ],
+      "e": "কাজ করার সময় শক্তি ব্যবহারযোগ্য রূপ থেকে কম-ব্যবহারযোগ্য রূপে ছড়িয়ে পড়ে; তাই একবার ব্যবহৃত উৎস আবার ব্যবহার করা যায় না — এটাই সংকটের মূল কারণ।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "energy_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি ‘ভালো শক্তি উৎস’-এর গুণ নয়?",
+      "a": "খুব দামি ও দুর্লভ হওয়া",
+      "w": [
+        "একক ভর বা আয়তনে বেশি কাজ করা",
+        "সহজে পাওয়া যাওয়া",
+        "সহজে সংরক্ষণ ও পরিবহণ করা যাওয়া"
+      ],
+      "e": "ভালো উৎস হবে বেশি কাজদায়ী, সহজলভ্য, সংরক্ষণ-পরিবহণে সহজ এবং সস্তা। দামি ও দুর্লভ হওয়া তাই গুণ নয়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "energy_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "যে শক্তি উৎস পুনরায় তৈরি বা পুনর্ভরণ হয়, তাকে বলে —",
+      "a": "নবায়নযোগ্য উৎস",
+      "w": [
+        "ক্ষয়িষ্ণু উৎস",
+        "অনবায়নযোগ্য উৎস",
+        "জীবাশ্ম উৎস"
+      ],
+      "e": "যে উৎস পুনরুৎপাদিত (regenerated) হতে পারে, তাই নবায়নযোগ্য; যা একদিন ফুরিয়ে যাবে তা ক্ষয়িষ্ণু বা অনবায়নযোগ্য।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "energy_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কয়লা কোন শ্রেণির শক্তি উৎস?",
+      "a": "ক্ষয়িষ্ণু ও অনবায়নযোগ্য",
+      "w": [
+        "নবায়নযোগ্য",
+        "অক্ষয়",
+        "সৌর-উদ্ভূত প্রত্যক্ষ উৎস"
+      ],
+      "e": "কয়লা লক্ষ লক্ষ বছরে তৈরি জীবাশ্ম জ্বালানি; মজুত সীমিত, তাই এটি ক্ষয়িষ্ণু ও অনবায়নযোগ্য।",
+      "claims": [
+        "c28",
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "energy_basics",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n\n১. নবায়নযোগ্য উৎস পুনরুৎপাদিত হতে পারে।\n২. জীবাশ্ম জ্বালানি নবায়নযোগ্য উৎস।\n৩. ক্ষয়িষ্ণু উৎস একদিন ফুরিয়ে যাবে।",
+      "a": "১ ও ৩ সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "২ ও ৩ সঠিক",
+        "১, ২ ও ৩ সঠিক"
+      ],
+      "e": "বিবৃতি ১ ও ৩ সঠিক। জীবাশ্ম জ্বালানি সীমিত মজুতের অনবায়নযোগ্য উৎস, তাই বিবৃতি ২ ভুল।",
+      "claims": [
+        "c28",
+        "c03"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "energy_basics",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোন শক্তি উৎসটি শেষ পর্যন্ত সূর্যের শক্তি থেকে উদ্ভূত নয়?",
+      "a": "ভূ-তাপীয় শক্তি",
+      "w": [
+        "বায়ু শক্তি",
+        "জৈবভর শক্তি",
+        "তরঙ্গ শক্তি"
+      ],
+      "e": "বায়ু, জৈবভর ও তরঙ্গ — সবই সূর্যের শক্তির রূপান্তর। ভূ-তাপীয় শক্তি আসে পৃথিবীর অভ্যন্তরের তাপ থেকে, সূর্য থেকে নয়।",
+      "claims": [
+        "c51",
+        "c24"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "energy_basics",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): শক্তি তৈরি বা ধ্বংস করা যায় না, তবু শক্তি সংকট দেখা দেয়।\nকারণ (R): ব্যবহারের সময় শক্তি কম-ব্যবহারযোগ্য রূপে পরিবেশে ছড়িয়ে পড়ে।",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "মোট শক্তি এক থাকলেও ব্যবহারযোগ্য রূপ নষ্ট হয়ে ছড়িয়ে পড়ে বলেই সংকট — R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "fossil_thermal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জীবাশ্ম জ্বালানির উদাহরণ হল —",
+      "a": "কয়লা ও পেট্রোলিয়াম",
+      "w": [
+        "কাঠ ও গোবর",
+        "সৌরশক্তি ও বায়ুশক্তি",
+        "জলবিদ্যুৎ ও জোয়ার শক্তি"
+      ],
+      "e": "কয়লা ও পেট্রোলিয়ামই জীবাশ্ম জ্বালানি; কাঠ-গোবর জৈবভর, বাকিগুলি অন্যান্য নবায়নযোগ্য উৎস।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "fossil_thermal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তাপবিদ্যুৎ কেন্দ্রে টারবাইন ঘোরানো হয় —",
+      "a": "জল ফুটিয়ে তৈরি বাষ্প দিয়ে",
+      "w": [
+        "সরাসরি কয়লা পুড়িয়ে",
+        "বায়ুপ্রবাহ দিয়ে",
+        "জোয়ারের জল দিয়ে"
+      ],
+      "e": "তাপবিদ্যুৎ কেন্দ্রে জ্বালানি পুড়িয়ে জলকে বাষ্পে পরিণত করা হয়, সেই বাষ্প টারবাইন ঘুরিয়ে বিদ্যুৎ তৈরি করে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "fossil_thermal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অ্যাসিড বৃষ্টির জন্য দায়ী গ্যাসীয় অক্সাইডগুলি নির্গত হয় —",
+      "a": "জীবাশ্ম জ্বালানি পোড়ালে",
+      "w": [
+        "সৌর কোষ চালালে",
+        "বায়ুকল চালালে",
+        "জলবিদ্যুৎ কেন্দ্র থেকে"
+      ],
+      "e": "জীবাশ্ম জ্বালানি পোড়ালে কার্বন, নাইট্রোজেন ও সালফারের আম্লিক অক্সাইড বের হয়, যা অ্যাসিড বৃষ্টি ঘটিয়ে জল ও মাটির ক্ষতি করে।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "fossil_thermal",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জীবাশ্ম জ্বালানিকে অনবায়নযোগ্য বলা হয়, কারণ —",
+      "a": "এগুলি লক্ষ লক্ষ বছরে তৈরি এবং মজুত সীমিত",
+      "w": [
+        "এগুলি পোড়ালে ধোঁয়া হয়",
+        "এগুলি পরিবহণ করা কঠিন",
+        "এগুলির দাম বেশি"
+      ],
+      "e": "তৈরি হতে লক্ষ লক্ষ বছর লেগেছে এবং মজুত সীমিত — ফুরিয়ে গেলে মানুষের সময়সীমায় তা আর তৈরি হবে না।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "fossil_thermal",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অনেক তাপবিদ্যুৎ কেন্দ্র কয়লা বা তেলক্ষেত্রের কাছেই গড়া হয়, কারণ —",
+      "a": "বিদ্যুৎ পরিবহণ, জ্বালানি পরিবহণের চেয়ে বেশি দক্ষ",
+      "w": [
+        "সেখানে জমি সস্তা",
+        "সেখানে শ্রমিক বেশি পাওয়া যায়",
+        "সেখানে বৃষ্টি বেশি হয়"
+      ],
+      "e": "একই দূরত্বে বিদ্যুৎ পাঠানো কয়লা-পেট্রোলিয়াম বয়ে নেওয়ার চেয়ে দক্ষ, তাই কেন্দ্র ক্ষেত্রের কাছেই বসে।",
+      "claims": [
+        "c52"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "fossil_thermal",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n\n১. জীবাশ্ম জ্বালানি পোড়ালে আম্লিক অক্সাইড নির্গত হয়।\n২. জীবাশ্ম জ্বালানির মজুত অসীম।\n৩. জীবাশ্ম জ্বালানি সংরক্ষণ করা প্রয়োজন।",
+      "a": "১ ও ৩ সঠিক",
+      "w": [
+        "শুধু ২ সঠিক",
+        "১ ও ২ সঠিক",
+        "১, ২ ও ৩ সঠিক"
+      ],
+      "e": "মজুত সীমিত বলেই সংরক্ষণ জরুরি — বিবৃতি ২ ভুল; ১ ও ৩ সঠিক।",
+      "claims": [
+        "c04",
+        "c03"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "hydro_biomass",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জলবিদ্যুৎ কেন্দ্রে কোন শক্তির রূপান্তর ঘটে?",
+      "a": "পতনশীল জলের স্থিতি শক্তি → বিদ্যুৎ শক্তি",
+      "w": [
+        "জলের গতি শক্তি → তাপ শক্তি",
+        "রাসায়নিক শক্তি → বিদ্যুৎ শক্তি",
+        "পারমাণবিক শক্তি → বিদ্যুৎ শক্তি"
+      ],
+      "e": "বাঁধে আটকে থাকা উঁচু জলের স্থিতি শক্তি পতনের সময় বিদ্যুতে রূপান্তরিত হয়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "hydro_biomass",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বায়োগ্যাসের প্রধান জ্বালানি উপাদান কোনটি?",
+      "a": "মিথেন",
+      "w": [
+        "কার্বন ডাই অক্সাইড",
+        "হাইড্রোজেন সালফাইড",
+        "নাইট্রোজেন"
+      ],
+      "e": "বায়োগ্যাসে সর্বোচ্চ ৭৫% পর্যন্ত মিথেন থাকে; মিথেনই এর প্রধান জ্বালানি উপাদান।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "hydro_biomass",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বায়োগ্যাস প্ল্যান্টের অবশিষ্ট তরল বর্জ্য (স্লারি) কাজে লাগে —",
+      "a": "নাইট্রোজেন ও ফসফরাসসমৃদ্ধ সার হিসেবে",
+      "w": [
+        "জ্বালানি তেল হিসেবে",
+        "পানীয় জল হিসেবে",
+        "সিমেন্ট তৈরিতে"
+      ],
+      "e": "অবশিষ্ট স্লারি নাইট্রোজেন ও ফসফরাসসমৃদ্ধ উৎকৃষ্ট সার — তাই বায়োগ্যাস শক্তি ও সার দুটোই দেয়।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "hydro_biomass",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বড় বাঁধ নির্মাণের সমস্যা কোনটি?",
+      "a": "কৃষিজমি ও বসতি জলমগ্ন হয়ে যায়",
+      "w": [
+        "বিদ্যুৎ উৎপাদন বন্ধ হয়ে যায়",
+        "নদীর জল শুকিয়ে যায়",
+        "বৃষ্টিপাত বেড়ে যায়"
+      ],
+      "e": "বাঁধের জলাধারে বিস্তীর্ণ কৃষিজমি ও জনবসতি ডুবে যায় এবং বড় বাস্তুতন্ত্র ধ্বংস হয় — এটাই বড় বাঁধের প্রধান সমস্যা।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "hydro_biomass",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কাঠকয়লা (চারকোল) সাধারণ কাঠের চেয়ে ভালো জ্বালানি, কারণ —",
+      "a": "এটি শিখাহীন, তুলনামূলক ধোঁয়াহীন ও বেশি তাপদায়ী",
+      "w": [
+        "এটি জলে ভেজে না",
+        "এটি কাঠের চেয়ে হালকা",
+        "এটি বিনামূল্যে পাওয়া যায়"
+      ],
+      "e": "সীমিত অক্সিজেনে কাঠ পোড়ালে তৈরি কাঠকয়লা শিখা ছাড়া পোড়ে, ধোঁয়া কম এবং তাপ উৎপাদনের দক্ষতা বেশি।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "hydro_biomass",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জলবিদ্যুৎকে নবায়নযোগ্য বলা হয়, কারণ —",
+      "a": "বৃষ্টি হলেই জলাধার আবার পূর্ণ হয়",
+      "w": [
+        "বাঁধ কখনো ভাঙে না",
+        "জল বিদ্যুৎ পরিবহণ করে",
+        "এতে টারবাইন লাগে না"
+      ],
+      "e": "জলাধারের জল প্রতিবার বৃষ্টিতে পুনর্ভরিত হয়, তাই জলবিদ্যুতের উৎস জীবাশ্ম জ্বালানির মতো ফুরিয়ে যায় না।",
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "hydro_biomass",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক জোড় মেলাও:\n\nক. বায়োগ্যাস — ১. মিথেন সর্বোচ্চ ৭৫%\nখ. কাঠকয়লা — ২. ধোঁয়াহীন ও শিখাহীন\nগ. স্লারি — ৩. নাইট্রোজেনসমৃদ্ধ সার\nঘ. জলবিদ্যুৎ — ৪. স্থিতি শক্তির রূপান্তর",
+      "a": "ক-১, খ-২, গ-৩, ঘ-৪",
+      "w": [
+        "ক-২, খ-১, গ-৪, ঘ-৩",
+        "ক-১, খ-৩, গ-২, ঘ-৪",
+        "ক-৪, খ-২, গ-৩, ঘ-১"
+      ],
+      "e": "বায়োগ্যাসে মিথেনই প্রধান (৭৫% পর্যন্ত), কাঠকয়লা ধোঁয়াহীন-শিখাহীন, স্লারি সার, আর জলবিদ্যুৎ স্থিতি শক্তির রূপান্তর।",
+      "claims": [
+        "c10",
+        "c09",
+        "c11",
+        "c06"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "wind_solar",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিস্তীর্ণ এলাকাজুড়ে অনেকগুলি বায়ুকল বসানো হলে তাকে বলে —",
+      "a": "বায়ু শক্তি খামার (Wind energy farm)",
+      "w": [
+        "সৌর উদ্যান",
+        "তাপবিদ্যুৎ কেন্দ্র",
+        "জলাধার"
+      ],
+      "e": "অনেক বায়ুকলের সম্মিলিত ক্ষেত্রই বায়ু শক্তি খামার; প্রতিটি কলের উৎপাদন যুক্ত করে বাণিজ্যিক মাত্রায় বিদ্যুৎ পাওয়া যায়।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "wind_solar",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সৌর ধ্রুবক (Solar constant)-এর মান প্রায় —",
+      "a": "১.৪ kW/m²",
+      "w": [
+        "০.৭ kW/m²",
+        "৪.৭ kW/m²",
+        "১৪ kW/m²"
+      ],
+      "e": "পৃথিবীর বায়ুমণ্ডলের বাইরের প্রান্তে লম্বভাবে পড়া সৌরশক্তির হার প্রায় ১.৪ kW/m² — এটাই সৌর ধ্রুবক।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "wind_solar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একটি সাধারণ সৌর কোষ সূর্যের আলোয় কত ভোল্টেজ তৈরি করে?",
+      "a": "০.৫–১ V",
+      "w": [
+        "৫–১০ V",
+        "১২–২৪ V",
+        "০.০৫ V"
+      ],
+      "e": "একটি সৌর কোষ ০.৫–১ V ভোল্টেজ ও প্রায় ০.৭ W বিদ্যুৎ দেয়; অনেক কোষ যুক্ত করে প্যানেল তৈরি হয়।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "wind_solar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বায়ুকলের টারবাইন চালু রাখতে বাতাসের গতি কমপক্ষে কত হওয়া দরকার?",
+      "a": "১৫ km/h-এর বেশি",
+      "w": [
+        "৫ km/h-এর বেশি",
+        "৫০ km/h-এর বেশি",
+        "১০০ km/h-এর বেশি"
+      ],
+      "e": "টারবাইনের প্রয়োজনীয় গতি বজায় রাখতে বাতাসের গতি ১৫ km/h-এর বেশি হতে হয় — এটাই বায়ুশক্তির অন্যতম সীমাবদ্ধতা।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "wind_solar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী ভারতের বৃহত্তম বায়ু শক্তি খামার কোথায়?",
+      "a": "তামিলনাড়ুর কন্যাকুমারীর কাছে",
+      "w": [
+        "গুজরাটের কচ্ছে",
+        "রাজস্থানের জয়সলমেরে",
+        "মহারাষ্ট্রের সাতারায়"
+      ],
+      "e": "NCERT অনুযায়ী বৃহত্তম বায়ু খামার কন্যাকুমারীর কাছে, যার উৎপাদন ৩৮০ MW।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "wind_solar",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সৌর কুকারে কাচের পাত ব্যবহারের কারণ —",
+      "a": "গ্রিনহাউস প্রভাবে তাপ ভিতরে আটকে থাকে",
+      "w": [
+        "কাচ সূর্যের আলো বাড়িয়ে দেয়",
+        "কাচ খাবারকে জীবাণুমুক্ত করে",
+        "কাচ বাতাস ঢুকতে দেয়"
+      ],
+      "e": "কাচের পাত আলো ঢুকতে দেয় কিন্তু তাপ বেরিয়ে যেতে বাধা দেয় — গ্রিনহাউস প্রভাবেই কুকার গরম থাকে।",
+      "claims": [
+        "c54",
+        "c18"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "wind_solar",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সৌর কোষের ব্যাপক ঘরোয়া ব্যবহার সীমিত, কারণ —",
+      "a": "বিশেষ গ্রেডের সিলিকন সীমিত ও তৈরির খরচ বেশি",
+      "w": [
+        "সিলিকন প্রকৃতিতে পাওয়া যায় না",
+        "সৌর কোষ রাতে ভেঙে যায়",
+        "সৌর কোষে চলমান অংশ বেশি"
+      ],
+      "e": "সিলিকন প্রচুর থাকলেও কোষ-উপযোগী বিশেষ গ্রেড সীমিত, আর উৎপাদন প্রক্রিয়া ব্যয়বহুল — তাই ঘরোয়া ব্যবহার সীমিত।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "wind_solar",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n\n১. ডেনমার্ককে ‘বাতাসের দেশ’ বলা হয়।\n২. ডেনমার্কের বিদ্যুতের ২৫%-এর বেশি বায়ুকল থেকে আসে।\n৩. ভারতের বৃহত্তম বায়ু খামার কন্যাকুমারীতে।",
+      "a": "১, ২ ও ৩ সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "১ ও ৩ সঠিক, ২ ভুল",
+        "২ ও ৩ সঠিক, ১ ভুল"
+      ],
+      "e": "তিনটি বিবৃতিই NCERT-সমর্থিত: ডেনমার্ক ‘বাতাসের দেশ’, সেখানে ২৫%-এর বেশি বিদ্যুৎ বায়ুকল থেকে, আর ভারতের বৃহত্তম খামার কন্যাকুমারীতে।",
+      "claims": [
+        "c15",
+        "c14"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "sea_geo_nuclear",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জোয়ার-ভাটা শক্তি আহরণ করা হয় —",
+      "a": "সমুদ্রের সরু মুখে বাঁধ দিয়ে",
+      "w": [
+        "খোলা সমুদ্রে জাহাজ চালিয়ে",
+        "উপকূলে বায়ুকল বসিয়ে",
+        "গভীর সমুদ্রে খনন করে"
+      ],
+      "e": "সমুদ্রের সরু প্রবেশমুখে বাঁধ দিলে জোয়ার-ভাটার জলস্তরের পার্থক্যে টারবাইন ঘুরে বিদ্যুৎ তৈরি হয়।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "sea_geo_nuclear",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভূ-তাপীয় শক্তির উৎস অঞ্চলকে বলে —",
+      "a": "হট স্পট (Hot spot)",
+      "w": [
+        "কোল্ড স্পট",
+        "সান স্পট",
+        "ডেড জোন"
+      ],
+      "e": "ভূগর্ভের গলিত শিলা যেসব অঞ্চলে আটকে থাকে, সেগুলিই ‘হট স্পট’ — সেখানকার বাষ্প দিয়ে বিদ্যুৎ তৈরি হয়।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "sea_geo_nuclear",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "OTEC প্ল্যান্ট চালাতে সমুদ্রের উপরিতল ও ২ km গভীরের জলের তাপমাত্রার পার্থক্য কমপক্ষে কত চাই?",
+      "a": "২০ K (২০°C)",
+      "w": [
+        "২ K",
+        "১০ K",
+        "৫০ K"
+      ],
+      "e": "পৃষ্ঠজল ও গভীর জলের তাপমাত্রার পার্থক্য ২০ K বা তার বেশি হলেই OTEC প্ল্যান্ট চলতে পারে।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "sea_geo_nuclear",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পারমাণবিক বিভাজনে কোন পরমাণুর নিউক্লিয়াস ভাঙা হয়?",
+      "a": "ইউরেনিয়ামের মতো ভারী পরমাণুর",
+      "w": [
+        "হাইড্রোজেনের",
+        "হিলিয়ামের",
+        "কার্বনের"
+      ],
+      "e": "কম-শক্তির নিউট্রন দিয়ে আঘাত করলে ইউরেনিয়াম, প্লুটোনিয়াম বা থোরিয়ামের মতো ভারী নিউক্লিয়াস হালকা নিউক্লিয়াসে ভেঙে যায়।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "sea_geo_nuclear",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পারমাণবিক বিদ্যুতের সবচেয়ে বড় ঝুঁকি কোনটি?",
+      "a": "ব্যয়িত জ্বালানির সংরক্ষণ ও নিষ্পত্তি",
+      "w": [
+        "টারবাইনের শব্দ",
+        "বাষ্পের পরিমাণ কম হওয়া",
+        "জলের অভাব"
+      ],
+      "e": "ব্যয়িত জ্বালানিতে ইউরেনিয়াম ক্ষতিকর বিকিরণ ছড়াতে থাকে — তার নিরাপদ সংরক্ষণ ও নিষ্পত্তিই সবচেয়ে বড় বিপদ।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "sea_geo_nuclear",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): সূর্য ও অন্যান্য নক্ষত্রের শক্তির উৎস পারমাণবিক সংযোজন।\nকারণ (R): সংযোজনে হালকা নিউক্লিয়াস মিলে ভারী নিউক্লিয়াস তৈরি হয় ও প্রচুর শক্তি নির্গত হয়।",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক",
+        "A ও R দুটোই ভুল"
+      ],
+      "e": "সূর্যের ভিতরে হাইড্রোজেন নিউক্লিয়াসের সংযোজনেই শক্তি তৈরি হয় — R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "conservation_policy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ব্যুরো অফ এনার্জি এফিশিয়েন্সি (BEE) গঠিত হয় —",
+      "a": "১ মার্চ ২০০২",
+      "w": [
+        "১ মার্চ ২০০১",
+        "১১ জানুয়ারি ২০১০",
+        "৫ জানুয়ারি ২০১৫"
+      ],
+      "e": "শক্তি সংরক্ষণ আইন, ২০০১-এর বিধান অনুযায়ী ১ মার্চ ২০০২ BEE গঠিত হয়; এটি বিদ্যুৎ মন্ত্রকের অধীন বিধিবদ্ধ সংস্থা।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "conservation_policy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "BEE কোন আইনের অধীনে গঠিত?",
+      "a": "শক্তি সংরক্ষণ আইন, ২০০১",
+      "w": [
+        "বিদ্যুৎ আইন, ২০০৩",
+        "পরিবেশ সুরক্ষা আইন, ১৯৮৬",
+        "বায়ু দূষণ আইন, ১৯৮১"
+      ],
+      "e": "BEE শক্তি সংরক্ষণ আইন, ২০০১-এর অধীনে গঠিত বিধিবদ্ধ সংস্থা।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "conservation_policy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় সৌর মিশন (National Solar Mission) চালু হয় —",
+      "a": "১১ জানুয়ারি ২০১০",
+      "w": [
+        "১ মার্চ ২০০২",
+        "৩০ নভেম্বর ২০১৫",
+        "১ নভেম্বর ২০২১"
+      ],
+      "e": "জাতীয় সৌর মিশন চালু হয় ১১ জানুয়ারি ২০১০ — এটি জলবায়ু পরিবর্তন সংক্রান্ত জাতীয় কর্মপরিকল্পনার অন্যতম মিশন।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "conservation_policy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "‘পঞ্চামৃত’ অঙ্গীকার অনুযায়ী ভারত নেট জিরো লক্ষ্য পূরণ করবে —",
+      "a": "২০৭০ সালের মধ্যে",
+      "w": [
+        "২০৩০ সালের মধ্যে",
+        "২০৪৭ সালের মধ্যে",
+        "২০৫০ সালের মধ্যে"
+      ],
+      "e": "COP26-এ ঘোষিত পঞ্চামৃতের পঞ্চম অঙ্গীকার: ২০৭০ সালের মধ্যে নেট জিরো।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "conservation_policy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "উজালা (UJALA) প্রকল্প সম্পর্কে সঠিক কোনটি?",
+      "a": "২০১৫ সালে চালু; ৭W LED বাল্ব ৬০W সাধারণ বাল্বের সমান আলো দেয়",
+      "w": [
+        "২০১০ সালে চালু সৌর প্রকল্প",
+        "এটি শুধু রাস্তার আলোর প্রকল্প",
+        "এতে CFL বাল্ব বিতরণ হয়"
+      ],
+      "e": "উজালা চালু হয় ৫ জানুয়ারি ২০১৫; ৭W LED, ১৪W CFL ও ৬০W সাধারণ বাল্বের সমান আলো দিয়ে সাধারণ বাল্বের তুলনায় প্রায় ৯০% শক্তি বাঁচায়।",
+      "claims": [
+        "c48",
+        "c49"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "conservation_policy",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "শক্তি সংরক্ষণ ভবন কোড (ECBC) প্রযোজ্য —",
+      "a": "সংযুক্ত লোড ১০০ kW বা তার বেশি বড় বাণিজ্যিক ভবনে",
+      "w": [
+        "সব আবাসিক বাড়িতে",
+        "শুধু সরকারি অফিসে",
+        "১০ kW-এর বেশি সব দোকানে"
+      ],
+      "e": "ECBC ২০১৭ প্রযোজ্য সংযুক্ত লোড ১০০ kW ও তদূর্ধ্ব অথবা ১২০ kVA ও তদূর্ধ্ব বড় বাণিজ্যিক ভবনে।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "conservation_policy",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতের হালনাগাদ NDC অনুযায়ী ২০৩০ সালের লক্ষ্য —",
+      "a": "অ-জীবাশ্ম উৎস থেকে প্রায় ৫০% স্থাপিত বিদ্যুৎ ক্ষমতা ও GDP-র নির্গমন তীব্রতা ৪৫% হ্রাস",
+      "w": [
+        "নবায়নযোগ্য ক্ষমতা ৫০০ GW ও নেট জিরো",
+        "শুধু সৌর ক্ষমতা ৭৪৮ GW",
+        "নির্গমন তীব্রতা ২৫% হ্রাস"
+      ],
+      "e": "NDC-তে দুটি সংখ্যাই আছে: অ-জীবাশ্ম উৎস থেকে প্রায় ৫০% স্থাপিত ক্ষমতা এবং ২০০৫-এর তুলনায় নির্গমন তীব্রতা ৪৫% হ্রাস, দুটোই ২০৩০ সালের মধ্যে।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "conservation_policy",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "কালানুক্রমে সাজাও (আগেরটি আগে):\n\n১. উজালা চালু\n২. BEE গঠিত\n৩. পঞ্চামৃত ঘোষণা\n৪. জাতীয় সৌর মিশন চালু",
+      "a": "২, ৪, ১, ৩",
+      "w": [
+        "৪, ২, ১, ৩",
+        "২, ১, ৪, ৩",
+        "৪, ১, ২, ৩"
+      ],
+      "e": "BEE (২০০২), জাতীয় সৌর মিশন (২০১০), উজালা (২০১৫), পঞ্চামৃত (২০২১) — এই ক্রমই সঠিক।",
+      "claims": [
+        "c35",
+        "c33",
+        "c48",
+        "c41"
+      ]
+    }
+  ]
+}

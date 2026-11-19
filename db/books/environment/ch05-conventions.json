@@ -1,0 +1,1752 @@
+{
+  "book": "environment",
+  "code": "ENV-05",
+  "number": 5,
+  "part": "protection",
+  "title": "আন্তর্জাতিক চুক্তি ও সম্মেলন",
+  "subtitle": "স্টকহোম থেকে প্যারিস: রামসার, CITES, মন্ট্রিল, কিয়োটো ও বাসেল — কোন চুক্তি কোন সমস্যার জন্য",
+  "subtopics": [
+    "conventions"
+  ],
+  "related_facts": [
+    "GK-ENV-008",
+    "GK-ENV-009",
+    "GK-ENV-010",
+    "GK-ENV-011",
+    "GK-ENV-012"
+  ],
+  "prerequisites": [
+    "ENV-02",
+    "ENV-04"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 30,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 2 LIKELY, 0 GUESS); 1 item(s) had a second option the checker found also defensible from the claims.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 9 of 12 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ENV-05.json and drafts/ENV-05_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ENV-05_REPORT.md.",
+    "checked_claims": 54,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "পরিবেশ-সমস্যা কোনো একটি দেশের সীমানায় আটকে থাকে না — ওজোন স্তরের ছিদ্র, জলবায়ু পরিবর্তন, পরিযায়ী পাখির পথ, বিপজ্জনক বর্জ্যের চালান, সবই আন্তঃসীমান্ত। তাই দেশগুলিকে একসঙ্গে বসে চুক্তি করতে হয়েছে। এই অধ্যায়ে আমরা সেই চুক্তিগুলিকেই গল্পের ক্রমে পড়ব: ১৯৭২-এর স্টকহোম সম্মেলন থেকে ১৯৯২-এর রিও আর্থ সামিট, রামসার-CITES-CBD-র মতো সংরক্ষণ চুক্তি, ওজোনের জন্য ভিয়েনা-মন্ট্রিল-কিগালি শৃঙ্খল, জলবায়ুর জন্য UNFCCC-কিয়োটো-প্যারিস, আর বর্জ্য-রাসায়নিকের জন্য বাসেল-রটারডাম-স্টকহোম-মিনামাটা। পরীক্ষার প্রায় প্রতিটি প্রশ্নই একটি মেলানো: চুক্তি ↔ বছর ↔ বিষয় ↔ ভারতের ভূমিকা।",
+    "you_will_learn": [
+      "স্টকহোম (১৯৭২), রিও (১৯৯২) ও জোহানেসবার্গ (২০০২) সম্মেলনের ফল ও পার্থক্য",
+      "রামসার কনভেনশন: জলাভূমি, ভারতের প্রথম ও বৃহত্তম ক্ষেত্র, পশ্চিমবঙ্গের দুটি ক্ষেত্র",
+      "CITES ও CMS: বন্যপ্রাণী-বাণিজ্য ও পরিযায়ী প্রজাতির চুক্তি, গান্ধীনগর COP13",
+      "CBD (১৯৯২) ও কার্টাজেনা প্রোটোকলের বিষয়",
+      "ভিয়েনা → মন্ট্রিল → কিগালি: ওজোন-শৃঙ্খলের ধাপ ও ভারতের HFC সূচি",
+      "UNFCCC, CBDR নীতি, কিয়োটো ও প্যারিসে ভারতের অবস্থান",
+      "বাসেল, রটারডাম, স্টকহোম (POPs) ও মিনামাটা — চার রাসায়নিক চুক্তির মিল-অমিল"
+    ]
+  },
+  "sections": [
+    {
+      "id": "conferences",
+      "heading": "বড় সম্মেলন: স্টকহোম (১৯৭২), রিও (১৯৯২) ও জোহানেসবার্গ (২০০২)",
+      "quick": "পরিবেশ নিয়ে প্রথম বড় আন্তর্জাতিক সম্মেলন হয় ১৯৭২ সালে স্টকহোমে। কুড়ি বছর পর ১৯৯২ সালে রিওতে হয় 'আর্থ সামিট', যেখান থেকে আসে Agenda 21, UNFCCC ও জীববৈচিত্র্য কনভেনশন। ২০০২ সালে জোহানেসবার্গে হয় তার দশ-বছরের পর্যালোচনা (Rio+10)।",
+      "standard": "আন্তর্জাতিক পরিবেশ-রাজনীতির সূচনা ধরা হয় ১৯৭২ সালকে। সুইডেনের স্টকহোমে সেই বছর বসে United Nations Conference on the Human Environment — জাতিসংঘের পৃষ্ঠপোষকতায় আন্তর্জাতিক পরিবেশ-প্রশ্নে এটাই ছিল প্রথম ব্যাপক সম্মেলন। সম্মেলনে গৃহীত হয় ২৬টি নীতির একটি ঘোষণা (Declaration) এবং ১০৯টি সুপারিশের একটি কর্মপরিকল্পনা। এই সম্মেলনের পথ ধরেই পরে গড়ে ওঠে জাতিসংঘের পরিবেশ কর্মসূচি UNEP, যা আন্তর্জাতিক সম্মেলন ও গবেষণার মাধ্যমে পরিবেশ-সমস্যার সমন্বিত উত্তর খোঁজার কাজ শুরু করে। তবে একটি সীমা মনে রাখতে হবে: স্টকহোমে রাষ্ট্রগুলির জন্য কোনো বাধ্যতামূলক আইনি দায়িত্ব (binding obligations) গৃহীত হয়নি — এটি ছিল নীতি ও দিশা দেওয়ার সম্মেলন, আইন বানানোর নয়।\n\nকুড়ি বছর পর, ১৯৯২ সালের জুনে, ব্রাজিলের রিও দে জানেইরোতে বসে United Nations Conference on Environment and Development (UNCED), যা 'আর্থ সামিট' নামে পরিচিত; এতে ১৭২টি সরকারের প্রতিনিধি ছিলেন। এর আগেই ব্রান্টল্যান্ড কমিশন 'টেকসই উন্নয়ন' (sustainable development) ধারণাটি সামনে আনে — এমন উন্নয়ন, যা বর্তমান প্রজন্মের চাহিদা মেটায় কিন্তু ভবিষ্যৎ প্রজন্মের নিজেদের চাহিদা মেটানোর ক্ষমতাকে ক্ষতিগ্রস্ত করে না। রিও থেকে আসে Agenda 21 — ২১ শতকের জন্য কর্মপরিকল্পনা, যা ১৭৮টির বেশি সরকার গ্রহণ করে — এবং দুটি বাধ্যতামূলক চুক্তি: জলবায়ু পরিবর্তনের রূপরেখা কনভেনশন (UNFCCC) ও জীববৈচিত্র্য কনভেনশন (CBD)। রিও ঘোষণাতেই স্বীকৃত হয় 'সাধারণ কিন্তু পৃথক দায়িত্ব' (common but differentiated responsibilities) নীতি — পরিবেশ রক্ষার দায় সবার, কিন্তু ক্ষতির ঐতিহাসিক অংশ অনুযায়ী ধনী দেশগুলির দায় বেশি।\n\n২০০২ সালে দক্ষিণ আফ্রিকার জোহানেসবার্গে বসে World Summit on Sustainable Development (২৬ আগস্ট–৪ সেপ্টেম্বর), রিওর দশ বছর পূর্তিতে বলে যাকে Rio+10 বলা হয়। সেখানে ১৯০টি দেশ প্রতিশ্রুতি দেয়, ২০১০ সালের মধ্যে জীববৈচিত্র্য হারানোর হার উল্লেখযোগ্যভাবে কমিয়ে আনা হবে।",
+      "deep": "পরীক্ষার জন্য তিনটি সম্মেলনের 'ত্রয়ী' মুখস্থ রাখো: স্টকহোম ১৯৭২ (প্রথম সম্মেলন, ২৬ নীতি, UNEP-এর পথ), রিও ১৯৯২ (Agenda 21, UNFCCC, CBD, CBDR নীতি), জোহানেসবার্গ ২০০২ (Rio+10, জীববৈচিত্র্য-হ্রাসের লক্ষ্য)। স্টকহোম সম্মেলন (১৯৭২) আর স্টকহোম কনভেনশন (২০০১, POPs) সম্পূর্ণ আলাদা — এই গুলিয়ে ফেলাটাই পরীক্ষার সবচেয়ে চেনা ফাঁদ।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "স্টকহোম সম্মেলন বনাম স্টকহোম কনভেনশন",
+          "body": "স্টকহোম সম্মেলন (১৯৭২) হল মানব পরিবেশ নিয়ে প্রথম জাতিসংঘ সম্মেলন। স্টকহোম কনভেনশন (২০০১) হল স্থায়ী জৈব দূষক (POPs) নিয়ে একটি চুক্তি। শহর এক, বিষয় ও বছর সম্পূর্ণ আলাদা।",
+          "claims": [
+            "c01",
+            "c18"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c09",
+        "c24",
+        "c35"
+      ]
+    },
+    {
+      "id": "wetlands_species",
+      "heading": "জলাভূমি, বন্যপ্রাণী-বাণিজ্য ও পরিযায়ী প্রজাতি: রামসার, CITES ও CMS",
+      "quick": "রামসার কনভেনশন (১৯৭১) জলাভূমি সংরক্ষণের চুক্তি — আন্তর্জাতিক গুরুত্বের জলাভূমিগুলিকে বলা হয় রামসার ক্ষেত্র। CITES (১৯৭৩) বিপন্ন বন্যপ্রাণী ও উদ্ভিদের আন্তর্জাতিক বাণিজ্য নিয়ন্ত্রণ করে। CMS হল পরিযায়ী প্রজাতির জন্য একমাত্র বিশ্ব চুক্তি; এর COP13 হয় গান্ধীনগরে (২০২০)।",
+      "standard": "সবচেয়ে পুরনো আধুনিক পরিবেশ-চুক্তিগুলির একটি হল রামসার কনভেনশন। ইরানের রামসার শহরে ১৯৭১ সালে গৃহীত এই আন্তঃসরকারি চুক্তি কার্যকর হয় ১৯৭৫ সালে। এর কাজ হল জলাভূমি ও তার সম্পদের সংরক্ষণ এবং 'বিচক্ষণ ব্যবহার' (wise use)-এর কাঠামো দেওয়া। চুক্তিতে যোগ দেওয়া প্রতিটি দেশকে অন্তত একটি জলাভূমিকে 'আন্তর্জাতিক গুরুত্বের জলাভূমির তালিকা'য় (Ramsar sites) অন্তর্ভুক্ত করতে হয়। রামসার গৃহীত হওয়ার দিনটি স্মরণে প্রতি বছর ২ ফেব্রুয়ারি পালিত হয় বিশ্ব জলাভূমি দিবস। ভারতে এই কনভেনশন কার্যকর হয় ১ ফেব্রুয়ারি ১৯৮২ সালে; ভারতের প্রথম দুটি রামসার ক্ষেত্র ছিল রাজস্থানের কেওলাদেও জাতীয় উদ্যান এবং ওড়িশার চিলিকা। ২০২৩ সালের হিসাব অনুযায়ী ভারতে রামসার ক্ষেত্র ছিল ৭৫টি, মোট আয়তন ১.৩৩ মিলিয়ন হেক্টর।\n\nবন্যপ্রাণীর আন্তর্জাতিক বাণিজ্য ছিল জীববৈচিত্র্য ধ্বংসের বড় কারণ। তা রুখতে ১৯৭৩ সালে আহূত হয় CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora), যা কার্যকর হয় ১ জুলাই ১৯৭৫ সালে। এর উদ্দেশ্য: বন্য প্রাণী ও উদ্ভিদের নমুনার আন্তর্জাতিক বাণিজ্য কমিয়ে প্রজাতিগুলির বন্য অস্তিত্ব রক্ষা করা। CITES পক্ষগুলির জন্য আইনত বাধ্যতামূলক, তবে এটি জাতীয় আইনের বিকল্প নয় — প্রতিটি দেশকে নিজের আইন দিয়ে তা কার্যকর করতে হয়। এর সচিবালয় UNEP পরিচালনা করে এবং তা সুইজারল্যান্ডের জেনেভায় অবস্থিত।\n\nপরিযায়ী প্রজাতিরা দেশের সীমানা মানে না — বাসস্থান খণ্ডিত হলে পরিযায়ী অভ্যাসের প্রাণীরা বিশেষভাবে ক্ষতিগ্রস্ত হয়। Convention on Migratory Species (CMS) হল বিশ্ব পর্যায়ে পরিযায়ী প্রজাতি ও তাদের বাসস্থানের প্রয়োজন নিয়ে একমাত্র বহুপাক্ষিক চুক্তি। এর ত্রয়োদশ পক্ষ-সম্মেলন (COP13) ২০২০ সালে গান্ধীনগরে বসে এবং ভারত পরের তিন বছরের জন্য COP সভাপতিত্ব গ্রহণ করে। তুষার চিতা, আমুর বাজপাখি, বার-মাথা রাজহাঁস, কালো-ঘাড় সারস, সামুদ্রিক কচ্ছপ, ডুগং ও কুঁজো তিমি — এই পরিযায়ী প্রজাতিগুলির অনেকগুলিরই ঘর ভারত।",
+      "deep": "পশ্চিমবঙ্গের জন্য এই পরিচ্ছেদ সবচেয়ে গুরুত্বপূর্ণ: রাজ্যের দুটি রামসার ক্ষেত্র — পূর্ব কলকাতা জলাভূমি ও সুন্দরবন জলাভূমি। সুন্দরবন ভারতের বৃহত্তম রামসার ক্ষেত্র (০.৪২ মিলিয়ন হেক্টর)। WBCS-এ পূর্ব কলকাতা জলাভূমি নিয়ে প্রশ্ন এসেছে ২০১৯ ও ২০২৪ — দুবারই।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "রামসার: বছরগুলি গুলিয়ো না",
+          "body": "কনভেনশন গৃহীত ১৯৭১ (রামসার, ইরান), কার্যকর ১৯৭৫; ভারতে কার্যকর ১৯৮২। প্রথম ভারতীয় ক্ষেত্র: কেওলাদেও ও চিলিকা। বিশ্ব জলাভূমি দিবস: ২ ফেব্রুয়ারি।",
+          "claims": [
+            "c36",
+            "c39",
+            "c37"
+          ]
+        }
+      ],
+      "claims": [
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c25",
+        "c52",
+        "c53",
+        "c54"
+      ]
+    },
+    {
+      "id": "biodiversity",
+      "heading": "জীববৈচিত্র্য কনভেনশন (CBD) ও কার্টাজেনা প্রোটোকল",
+      "quick": "জীববৈচিত্র্য কনভেনশন (CBD) রিও আর্থ সামিটের (১৯৯২) ফসল: সব দেশকে জীববৈচিত্র্য সংরক্ষণ ও তার সুফলের টেকসই ব্যবহারের আহ্বান জানায়। কার্টাজেনা প্রোটোকল (কার্যকর ২০০৩) হল CBD-র পরিপূরক — জিনগতভাবে পরিবর্তিত জীব (GMO/LMO) থেকে জীববৈচিত্র্য রক্ষাই এর কাজ।",
+      "standard": "জীববৈচিত্র্যের কোনো রাজনৈতিক সীমানা নেই, তাই তার সংরক্ষণ সব জাতির যৌথ দায়িত্ব — এই ভাবনা থেকেই ১৯৯২ সালে রিও দে জানেইরোতে অনুষ্ঠিত আর্থ সামিটে গৃহীত হয় Convention on Biological Diversity (CBD)। এটি সব জাতিকে আহ্বান জানায় জীববৈচিত্র্য সংরক্ষণ এবং তার সুফলের টেকসই ব্যবহারের জন্য উপযুক্ত ব্যবস্থা নিতে। রিও সম্মেলনের বাধ্যতামূলক ফসলগুলির মধ্যে CBD একটি; অন্যটি UNFCCC। মনে রাখবে, রিওতে বন (forestry) নিয়েও কনভেনশন-আলোচনা হয় এবং Agenda 21 সুপারিশ করা হয়।\n\nCBD-র পরিপূরক হিসেবে আসে Cartagena Protocol on Biosafety — জীব-নিরাপত্তা নিয়ে একটি আন্তর্জাতিক চুক্তি, যা ২০০৩ সাল থেকে কার্যকর। আধুনিক জৈবপ্রযুক্তিতে তৈরি জিনগতভাবে পরিবর্তিত জীব (genetically modified organisms) জীববৈচিত্র্যের জন্য সম্ভাব্য ঝুঁকি তৈরি করতে পারে; কার্টাজেনা প্রোটোকলের লক্ষ্য সেই ঝুঁকি থেকে জীববৈচিত্র্যকে রক্ষা করা, বিশেষ করে এমন জীবের সীমান্ত-পেরোনো চলাচলের ক্ষেত্রে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "রিওর দুই বাধ্যতামূলক ফসল",
+          "body": "UNFCCC (জলবায়ু) আর CBD (জীববৈচিত্র্য) — দুটোই ১৯৯২-এর রিও আর্থ সামিট থেকে। Agenda 21 বাধ্যতামূলক নয়, এটি কর্মপরিকল্পনা।",
+          "claims": [
+            "c08",
+            "c07"
+          ]
+        }
+      ],
+      "claims": [
+        "c23",
+        "c08",
+        "c26",
+        "c22"
+      ]
+    },
+    {
+      "id": "ozone",
+      "heading": "ওজোন স্তর: ভিয়েনা কনভেনশন, মন্ট্রিল প্রোটোকল ও কিগালি সংশোধনী",
+      "quick": "স্ট্র্যাটোস্ফিয়ারের ওজোন স্তর সূর্যের ক্ষতিকর অতিবেগুনি রশ্মি থেকে আমাদের বাঁচায়। ভিয়েনা কনভেনশন (১৯৮৫) সহযোগিতার কাঠামো দেয়; মন্ট্রিল প্রোটোকল (১৯৮৭) ওজোন-ক্ষয়কারী পদার্থ (ODS) ধাপে ধাপে বন্ধের বাধ্যতামূলক সূচি দেয়; কিগালি সংশোধনী (২০১৬) তাতে যুক্ত করে HFC ধাপে-কমানো।",
+      "standard": "পৃথিবীর স্ট্র্যাটোস্ফিয়ারে ওজোনের মোট পরিমাণ ক্রমাগত কমে যাওয়া — যাকে 'ওজোন ছিদ্র' বলা হয় — বাস্তুতন্ত্র ও মানবস্বাস্থ্যের জন্য প্রকৃত বিপদ। এই স্তরটিই মানুষ ও পরিবেশকে সূর্যের ক্ষতিকর মাত্রার অতিবেগুনি বিকিরণ থেকে রক্ষা করে। ওজোন ক্ষয়ের প্রধান রাসায়নিক কারণ হল CFC জাতীয় যৌগ।\n\nপ্রথম ধাপ ছিল Vienna Convention (১৯৮৫): ওজোন স্তর রক্ষার এই কনভেনশন কার্যকর হয় ১৯৮৮ সালে। এটি গবেষণা ও তথ্য-বিনিময়ের সহযোগিতার কাঠামো — কিন্তু এতে CFC ব্যবহার কমানোর কোনো আইনত বাধ্যতামূলক লক্ষ্য ছিল না। সেই বাধ্যতামূলক কাজটি করে Montreal Protocol — ভিয়েনা কনভেনশনেরই একটি প্রোটোকল। ১৯৮৭ সালের ১৬ সেপ্টেম্বর গৃহীত এই প্রোটোকল কার্যকর হয় ১ জানুয়ারি ১৯৮৯ সালে। এর উদ্দেশ্য ওজোন-ক্ষয়কারী পদার্থগুলির (ODS) উৎপাদন ও ব্যবহার ধাপে ধাপে সম্পূর্ণ বন্ধ করা। ভারত মন্ট্রিল প্রোটোকলের পক্ষ হয় ১৯ জুন ১৯৯২ সালে। বিশ্ব-সাধারণ সম্পদ (global commons) রক্ষার পথিকৃৎ চুক্তিগুলির মধ্যে ১৯৫৯-এর অ্যান্টার্কটিক চুক্তি ও ১৯৯১-এর অ্যান্টার্কটিক পরিবেশ প্রোটোকলের পাশাপাশি ১৯৮৭-এর মন্ট্রিল প্রোটোকলের নাম NCERT বিশেষভাবে করেছে।\n\nগল্প এখানেই শেষ নয়। CFC-র বদলে ব্যবহৃত HFC গ্যাসগুলি ওজোন স্তরের ক্ষতি করে না, কিন্তু এগুলির বৈশ্বিক উষ্ণায়ন ক্ষমতা (GWP) ১২ থেকে ১৪,০০০ পর্যন্ত — অর্থাৎ এরা শক্তিশালী গ্রিনহাউস গ্যাস। তাই ২০১৬ সালের অক্টোবরে রুয়ান্ডার কিগালিতে পক্ষগুলির ২৮তম বৈঠকে গৃহীত হয় Kigali Amendment, যাতে HFC উৎপাদন ও ব্যবহার ধাপে ধাপে কমানোর সিদ্ধান্ত হয়। ভারত তার HFC-কমানো সম্পূর্ণ করবে ২০৩২ থেকে চার ধাপে: ২০৩২-এ ১০%, ২০৩৭-এ ২০%, ২০৪২-এ ৩০% এবং ২০৪৭-এ ৮৫% ক্রমবর্ধমান হ্রাস। এই কমানো সফল হলে ২১০০ সালের মধ্যে বৈশ্বিক তাপমাত্রা বৃদ্ধি ০.৫ ডিগ্রি সেলসিয়াস পর্যন্ত এড়ানো সম্ভব বলে PIB জানিয়েছে।",
+      "deep": "ক্রমটি মনে রাখো: ভিয়েনা (কাঠামো, ১৯৮৫) → মন্ট্রিল (বাধ্যতামূলক বন্ধের সূচি, ১৯৮৭) → কিগালি (HFC, ২০১৬)। পরীক্ষায় 'কোন চুক্তি CFC বন্ধ করে?' — উত্তর মন্ট্রিল, ভিয়েনা নয়; 'কোনটি HFC নিয়ে?' — উত্তর কিগালি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "১৬ সেপ্টেম্বর",
+          "body": "মন্ট্রিল প্রোটোকল গৃহীত হয় ১৯৮৭ সালের ১৬ সেপ্টেম্বর — আন্তর্জাতিক ওজোন স্তর সংরক্ষণ দিবসের (১৬ সেপ্টেম্বর) প্রশ্নে এই তারিখটিই চাবিকাঠি; WBCS ২০১৭-তে এই প্রশ্ন এসেছে।",
+          "claims": [
+            "c16"
+          ]
+        }
+      ],
+      "claims": [
+        "c34",
+        "c44",
+        "c15",
+        "c14",
+        "c16",
+        "c33",
+        "c45",
+        "c46",
+        "c47",
+        "c48",
+        "c49"
+      ]
+    },
+    {
+      "id": "climate",
+      "heading": "জলবায়ু চুক্তি: UNFCCC, কিয়োটো প্রোটোকল ও প্যারিস চুক্তি",
+      "quick": "UNFCCC (১৯৯২) হল জলবায়ু-ব্যবস্থার রূপরেখা কনভেনশন, যার প্রাণে আছে CBDR নীতি। কিয়োটো প্রোটোকল (১৯৯৭) শুধু শিল্পোন্নত দেশগুলির জন্য নির্গমন-কমানোর লক্ষ্য বেঁধে দেয় — ভারত ও চীন ছাড় পায়। প্যারিস চুক্তিতে ভারত অনুমোদন দেয় ২ অক্টোবর ২০১৬।",
+      "standard": "জলবায়ু নিয়ে বিশ্ব-কাঠামোর ভিত্তি হল United Nations Framework Convention on Climate Change (UNFCCC), রিও সম্মেলনের (১৯৯২) ফসল। UNFCCC বলে, পক্ষগুলি ন্যায়ের ভিত্তিতে এবং 'সাধারণ কিন্তু পৃথক দায়িত্ব ও নিজ নিজ সক্ষমতা' (common but differentiated responsibilities and respective capabilities, CBDR-RC) অনুযায়ী জলবায়ু-ব্যবস্থা রক্ষায় কাজ করবে। এই নীতির যুক্তি: ঐতিহাসিক ও বর্তমান গ্রিনহাউস গ্যাস নির্গমনের সবচেয়ে বড় অংশ এসেছে উন্নত দেশগুলি থেকে, আর উন্নয়নশীল দেশগুলির মাথাপিছু নির্গমন এখনও তুলনামূলক কম।\n\nএই কাঠামোর প্রথম বাস্তব চুক্তি Kyoto Protocol (১৯৯৭, জাপানের কিয়োটো শহরে গৃহীত)। এটি শিল্পোন্নত দেশগুলির জন্য গ্রিনহাউস গ্যাস নির্গমন কমানোর লক্ষ্য নির্ধারণ করে — কার্বন ডাই-অক্সাইড, মিথেন, হাইড্রোফ্লুরোকার্বন জাতীয় গ্যাসগুলিকেই বৈশ্বিক উষ্ণায়নের জন্য আংশিক দায়ী ধরা হয়। CBDR নীতি অনুযায়ী চীন, ভারত ও অন্যান্য উন্নয়নশীল দেশ কিয়োটোর বাধ্যবাধকতা থেকে ছাড় পায়। তবু ভারত ১৯৯৭-এর কিয়োটো প্রোটোকলে স্বাক্ষর করে এবং ২০০২ সালের আগস্টে তা অনুমোদন (ratify) করে। ভারতের আন্তর্জাতিক আলোচনার অবস্থান ঐতিহাসিক দায়িত্বের নীতির ওপরই ভারীভাবে নির্ভর করে, যা UNFCCC-তেই অন্তর্ভুক্ত।\n\nপরের বড় ধাপ Paris Agreement। ভারত প্যারিস জলবায়ু চুক্তি অনুমোদন করে ২ অক্টোবর ২০১৬ — গান্ধী জয়ন্তীর দিনে। NCERT-র পর্যবেক্ষণ অনুযায়ী, ভারতের বিশ্বের অন্যতম বৃহত্তম নবায়নযোগ্য শক্তি কর্মসূচি রয়েছে। কিয়োটো থেকে প্যারিসে যাত্রার মূল পার্থক্য মনে রাখো: কিয়োটোতে লক্ষ্য ছিল শুধু শিল্পোন্নত দেশগুলির; প্যারিস-কাঠামোয় প্রতিটি দেশ নিজের জাতীয় প্রতিশ্রুতি (NDC) দেয় — যদিও CBDR-এর ভাবনা সেখানেও থেকে যায়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "কিয়োটো বনাম প্যারিস",
+          "body": "কিয়োটো (১৯৯৭): বাধ্যতামূলক লক্ষ্য শুধু শিল্পোন্নত দেশগুলির; ভারত-চীন ছাড়প্রাপ্ত। প্যারিস: সব পক্ষের জাতীয় প্রতিশ্রুতির কাঠামো; ভারতের অনুমোদন ২ অক্টোবর ২০১৬।",
+          "claims": [
+            "c29",
+            "c30",
+            "c32"
+          ]
+        }
+      ],
+      "claims": [
+        "c28",
+        "c27",
+        "c29",
+        "c30",
+        "c31",
+        "c32"
+      ]
+    },
+    {
+      "id": "chemicals_waste",
+      "heading": "বিপজ্জনক বর্জ্য ও রাসায়নিক: বাসেল, রটারডাম, স্টকহোম (POPs) ও মিনামাটা",
+      "quick": "বাসেল কনভেনশন (১৯৮৯) বিপজ্জনক বর্জ্যের আন্তঃসীমান্ত চলাচল নিয়ন্ত্রণ করে। রটারডাম কনভেনশনের প্রাণ 'পূর্ব-জ্ঞাত সম্মতি' (PIC) — আমদানিকারক দেশের সিদ্ধান্তই চূড়ান্ত। স্টকহোম কনভেনশন (২০০১) স্থায়ী জৈব দূষক (POPs) দূর করার চুক্তি। মিনামাটা কনভেনশন পারদ নিয়ে; ভারত তা অনুমোদন করে ২০১৮ সালে।",
+      "standard": "রাসায়নিক ও বর্জ্য নিয়ে চারটি চুক্তিকে একসঙ্গে পড়লে পরীক্ষায় মেলানো সহজ হয়। প্রথমটি Basel Convention: বিপজ্জনক বর্জ্যের আন্তঃসীমান্ত চলাচল ও নিষ্পত্তি নিয়ন্ত্রণের চুক্তি। ১৯৮৯ সালের ২২ মার্চ স্বাক্ষরের জন্য উন্মুক্ত এই কনভেনশন কার্যকর হয় ৫ মে ১৯৯২ সালে। এর প্রধান উদ্দেশ্য দেশগুলির মধ্যে বিপজ্জনক বর্জ্যের চলাচল কমানো, এবং বিশেষ করে উন্নত দেশ থেকে কম-উন্নত দেশে সেই চলাচল রোধ করা; পাশাপাশি বর্জ্য উৎপাদনের পরিমাণ ও বিষাক্ততা কমানো এবং উৎপত্তিস্থলের কাছাকাছি নিরাপদ নিষ্পত্তি নিশ্চিত করা। তেজস্ক্রিয় বর্জ্য এই কনভেনশনের আওতার বাইরে।\n\nদ্বিতীয়টি Rotterdam Convention — বিপজ্জনক রাসায়নিক ও কীটনাশকের আন্তর্জাতিক বাণিজ্যে 'পূর্ব-জ্ঞাত সম্মতি' (Prior Informed Consent, PIC) পদ্ধতির চুক্তি। এর মূল কথা: কোনো তালিকাভুক্ত বিপজ্জনক রাসায়নিক নিজের দেশে ঢুকতে দেবে কি না, সেই সিদ্ধান্ত নেওয়ার ক্ষমতা জাতীয় সরকারগুলির হাতে; রপ্তানিকারকদের যথাযথ লেবেল ও নিরাপদ ব্যবহারের নির্দেশ দিতে হয়।\n\nতৃতীয়টি Stockholm Convention on Persistent Organic Pollutants (২০০১): স্থায়ী জৈব দূষক (POPs) উৎপাদন ও ব্যবহার দূর করা বা সীমিত করাই এর উদ্দেশ্য; এটি কার্যকর হয় ২০০৪ সালের মে মাসে। POPs হল এমন রাসায়নিক, যা পরিবেশে দীর্ঘদিন থেকে যায় এবং খাদ্যশৃঙ্খলে জমতে থাকে (bio-accumulation)। আন্তর্জাতিকভাবে মূল্যায়িত বারোটি POPs 'dirty dozen' নামে পরিচিত; পক্ষগুলি তার নয়টি ধাপে ধাপে বন্ধে সম্মত হয়, তবে ম্যালেরিয়া নিয়ন্ত্রণে DDT ব্যবহারের সিদ্ধান্ত বহাল থাকে।\n\nচতুর্থটি Minamata Convention — বিষয় পারদ (mercury)। ভারত এই কনভেনশনের পক্ষ এবং ১৮ জুন ২০১৮ সালে তা অনুমোদন করে। কনভেনশনের Annex A-তে পারদ-যুক্ত পণ্যের তালিকা আছে, যেগুলির উৎপাদন, আমদানি ও রপ্তানি ২০২০ সালের মধ্যে ধাপে ধাপে বন্ধ করার কথা।",
+      "deep": "মেলানোর ছন্দ: বাসেল = বর্জ্য (Waste), রটারডাম = সম্মতি (PIC), স্টকহোম = POPs, মিনামাটা = পারদ (Mercury)। বছর: ১৯৮৯ → ২০০১ → ২০১৩ (মিনামাটা অনুমোদন ভারতে ২০১৮)। রটারডামের গৃহীত-বছরটি এই অধ্যায়ের উৎসে নির্ভরযোগ্যভাবে পাওয়া যায়নি বলে এখানে বছর দাবি করা হয়নি — REPORT-এ তা গ্যাপ হিসেবে লেখা আছে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "চার রাসায়নিক চুক্তি এক নজরে",
+          "body": "বাসেল ১৯৮৯ — বিপজ্জনক বর্জ্যের সীমান্ত-চলাচল। রটারডাম — বিপজ্জনক রাসায়নিকে পূর্ব-জ্ঞাত সম্মতি। স্টকহোম ২০০১ — POPs। মিনামাটা — পারদ; ভারতের অনুমোদন ২০১৮।",
+          "claims": [
+            "c20",
+            "c17",
+            "c18",
+            "c50"
+          ]
+        }
+      ],
+      "claims": [
+        "c20",
+        "c21",
+        "c17",
+        "c18",
+        "c19",
+        "c50",
+        "c51"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "স্টকহোম সম্মেলন",
+      "when": "জুন ১৯৭২",
+      "what": "সুইডেনের স্টকহোমে প্রথম ব্যাপক জাতিসংঘ পরিবেশ সম্মেলন; ২৬ নীতির ঘোষণা ও ১০৯ সুপারিশের কর্মপরিকল্পনা গৃহীত হয়।",
+      "why_it_matters": "আন্তর্জাতিক পরিবেশ-রাজনীতির সূচনা; এর পথ ধরেই UNEP গড়ে ওঠে।",
+      "section": "conferences",
+      "claims": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "title": "রিও আর্থ সামিট (UNCED)",
+      "when": "জুন ১৯৯২",
+      "what": "রিও দে জানেইরোতে ১৭২টি সরকারের অংশগ্রহণে সম্মেলন; Agenda 21, UNFCCC ও CBD এর ফসল।",
+      "why_it_matters": "টেকসই উন্নয়ন ও CBDR নীতি বিশ্ব-রাজনীতির কেন্দ্রে আসে।",
+      "section": "conferences",
+      "claims": [
+        "c05",
+        "c07",
+        "c27"
+      ]
+    },
+    {
+      "title": "রামসার কনভেনশন গৃহীত",
+      "when": "১৯৭১",
+      "what": "ইরানের রামসার শহরে জলাভূমি কনভেনশন গৃহীত হয়; কার্যকর ১৯৭৫ সালে।",
+      "why_it_matters": "জলাভূমি সংরক্ষণের প্রথম বিশ্ব-কাঠামো; রামসার ক্ষেত্রের ধারণা এখান থেকেই।",
+      "section": "wetlands_species",
+      "claims": [
+        "c36",
+        "c38"
+      ]
+    },
+    {
+      "title": "মন্ট্রিল প্রোটোকল গৃহীত",
+      "when": "১৬ সেপ্টেম্বর ১৯৮৭",
+      "what": "ওজোন-ক্ষয়কারী পদার্থ ধাপে ধাপে বন্ধের প্রোটোকল গৃহীত; কার্যকর ১ জানুয়ারি ১৯৮৯।",
+      "why_it_matters": "সবচেয়ে সফল পরিবেশ-চুক্তিগুলির একটি; ভারত পক্ষ হয় ১৯৯২ সালে।",
+      "section": "ozone",
+      "claims": [
+        "c16",
+        "c45"
+      ]
+    },
+    {
+      "title": "কিয়োটো প্রোটোকল গৃহীত",
+      "when": "১৯৯৭",
+      "what": "জাপানের কিয়োটোতে শিল্পোন্নত দেশগুলির জন্য নির্গমন-কমানোর লক্ষ্য নির্ধারিত হয়।",
+      "why_it_matters": "UNFCCC-র প্রথম বাধ্যতামূলক ধাপ; ভারত অনুমোদন করে আগস্ট ২০০২-এ।",
+      "section": "climate",
+      "claims": [
+        "c29",
+        "c31"
+      ]
+    },
+    {
+      "title": "CMS COP13, গান্ধীনগর",
+      "when": "ফেব্রুয়ারি ২০২০",
+      "what": "পরিযায়ী প্রজাতি কনভেনশনের ত্রয়োদশ পক্ষ-সম্মেলন গান্ধীনগরে বসে; ভারত তিন বছরের জন্য সভাপতিত্ব পায়।",
+      "why_it_matters": "ভারতের পরিযায়ী-প্রজাতি কূটনীতির বড় মুহূর্ত; Central Asian Flyway নিয়ে ভারতের জাতীয় কর্মপরিকল্পনা ঘোষিত হয়।",
+      "section": "wetlands_species",
+      "claims": [
+        "c53",
+        "c52"
+      ]
+    },
+    {
+      "title": "কিগালি সংশোধনী গৃহীত",
+      "when": "অক্টোবর ২০১৬",
+      "what": "রুয়ান্ডার কিগালিতে মন্ট্রিল পক্ষগুলির ২৮তম বৈঠকে HFC ধাপে-কমানোর সংশোধনী গৃহীত হয়।",
+      "why_it_matters": "ওজোন চুক্তি জলবায়ু-লড়াইয়েও যুক্ত হয়; সফল হলে ২১০০ সালের মধ্যে ০.৫°C উষ্ণায়ন এড়ানো সম্ভব।",
+      "section": "ozone",
+      "claims": [
+        "c46",
+        "c49"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1971,
+      "when": "১৯৭১",
+      "label": "রামসার কনভেনশন গৃহীত (ইরান); কার্যকর ১৯৭৫",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "sort_year": 1972,
+      "when": "১৯৭২",
+      "label": "স্টকহোম সম্মেলন — প্রথম জাতিসংঘ পরিবেশ সম্মেলন",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1973,
+      "when": "১৯৭৩",
+      "label": "CITES আহূত; কার্যকর ১ জুলাই ১৯৭৫",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "sort_year": 1982,
+      "when": "১৯৮২",
+      "label": "ভারতে রামসার কনভেনশন কার্যকর; প্রথম ক্ষেত্র কেওলাদেও ও চিলিকা",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "sort_year": 1985,
+      "when": "১৯৮৫",
+      "label": "ভিয়েনা কনভেনশন (ওজোন স্তর); কার্যকর ১৯৮৮",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "sort_year": 1987,
+      "when": "১৯৮৭",
+      "label": "মন্ট্রিল প্রোটোকল গৃহীত (১৬ সেপ্টেম্বর); কার্যকর ১৯৮৯",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 1989,
+      "when": "১৯৮৯",
+      "label": "বাসেল কনভেনশন স্বাক্ষরের জন্য উন্মুক্ত (২২ মার্চ); কার্যকর ১৯৯২",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "sort_year": 1992,
+      "when": "১৯৯২",
+      "label": "রিও আর্থ সামিট: UNFCCC ও CBD; ভারত মন্ট্রিল প্রোটোকলের পক্ষ (১৯ জুন)",
+      "claims": [
+        "c05",
+        "c23",
+        "c45"
+      ]
+    },
+    {
+      "sort_year": 1997,
+      "when": "১৯৯৭",
+      "label": "কিয়োটো প্রোটোকল গৃহীত",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "sort_year": 2001,
+      "when": "২০০১",
+      "label": "স্টকহোম কনভেনশন (POPs) স্বাক্ষরিত; কার্যকর মে ২০০৪",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 2002,
+      "when": "২০০২",
+      "label": "জোহানেসবার্গ সম্মেলন (Rio+10); ভারতের কিয়োটো অনুমোদন (আগস্ট)",
+      "claims": [
+        "c09",
+        "c31"
+      ]
+    },
+    {
+      "sort_year": 2003,
+      "when": "২০০৩",
+      "label": "কার্টাজেনা জীব-নিরাপত্তা প্রোটোকল কার্যকর",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "sort_year": 2016,
+      "when": "২০১৬",
+      "label": "কিগালি সংশোধনী (অক্টোবর); ভারতের প্যারিস চুক্তি অনুমোদন (২ অক্টোবর)",
+      "claims": [
+        "c46",
+        "c32"
+      ]
+    },
+    {
+      "sort_year": 2018,
+      "when": "২০১৮",
+      "label": "ভারতের মিনামাটা কনভেনশন অনুমোদন (১৮ জুন)",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "sort_year": 2020,
+      "when": "২০২০",
+      "label": "CMS COP13 গান্ধীনগরে; ভারত সভাপতিত্ব গ্রহণ করে",
+      "claims": [
+        "c53"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "রামসার ক্ষেত্র (Ramsar Site)",
+      "meaning": "রামসার কনভেনশনের অধীনে তালিকাভুক্ত আন্তর্জাতিক গুরুত্বের জলাভূমি।",
+      "section": "wetlands_species"
+    },
+    {
+      "term": "বিচক্ষণ ব্যবহার (Wise Use)",
+      "meaning": "রামসার কাঠামোয় জলাভূমি ও তার সম্পদের সংরক্ষণের পাশাপাশি টেকসই ব্যবহারের নীতি।",
+      "section": "wetlands_species"
+    },
+    {
+      "term": "ODS (Ozone Depleting Substances)",
+      "meaning": "ওজোন স্তর ক্ষয়কারী মানবসৃষ্ট রাসায়নিক, যেমন CFC; মন্ট্রিল প্রোটোকল এগুলির উৎপাদন ও ব্যবহার ধাপে বন্ধ করে।",
+      "section": "ozone"
+    },
+    {
+      "term": "HFC",
+      "meaning": "হাইড্রোফ্লুরোকার্বন — ওজোন ক্ষয় করে না, কিন্তু উচ্চ বৈশ্বিক উষ্ণায়ন ক্ষমতাসম্পন্ন গ্যাস; কিগালি সংশোধনীর বিষয়।",
+      "section": "ozone"
+    },
+    {
+      "term": "CBDR",
+      "meaning": "সাধারণ কিন্তু পৃথক দায়িত্ব — পরিবেশ রক্ষার দায় সবার, কিন্তু ঐতিহাসিক অবদান অনুযায়ী উন্নত দেশগুলির দায় বেশি; রিও ঘোষণা (১৯৯২) ও UNFCCC-র নীতি।",
+      "section": "climate"
+    },
+    {
+      "term": "POPs",
+      "meaning": "স্থায়ী জৈব দূষক — পরিবেশে দীর্ঘদিন টিকে থাকা ও খাদ্যশৃঙ্খলে জমতে থাকা রাসায়নিক; স্টকহোম কনভেনশনের (২০০১) বিষয়।",
+      "section": "chemicals_waste"
+    },
+    {
+      "term": "PIC (Prior Informed Consent)",
+      "meaning": "পূর্ব-জ্ঞাত সম্মতি — রটারডাম কনভেনশনে আমদানিকারক দেশের সরকারের সিদ্ধান্ত ছাড়া তালিকাভুক্ত বিপজ্জনক রাসায়নিক প্রবেশ করতে পারে না।",
+      "section": "chemicals_waste"
+    },
+    {
+      "term": "Agenda 21",
+      "meaning": "রিও সম্মেলনে (১৯৯২) গৃহীত ২১ শতকের জন্য ব্যাপক কর্মপরিকল্পনা বা ব্লুপ্রিন্ট।",
+      "section": "conferences"
+    },
+    {
+      "term": "টেকসই উন্নয়ন (Sustainable Development)",
+      "meaning": "ব্রান্টল্যান্ড সংজ্ঞা: বর্তমানের চাহিদা মেটানো, ভবিষ্যৎ প্রজন্মের চাহিদা মেটানোর ক্ষমতা নষ্ট না করে।",
+      "section": "conferences"
+    },
+    {
+      "term": "LMO/GMO",
+      "meaning": "আধুনিক জৈবপ্রযুক্তিতে তৈরি জীবন্ত পরিবর্তিত জীব; কার্টাজেনা প্রোটোকলের নিয়ন্ত্রণের বিষয়।",
+      "section": "biodiversity"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "ওজোন ছিদ্র থেকে মন্ট্রিল প্রোটোকল",
+      "causes": [
+        "CFC জাতীয় ওজোন-ক্ষয়কারী রাসায়নিকের ব্যাপক ব্যবহার ও বায়ুমণ্ডলে নির্গমন",
+        "স্ট্র্যাটোস্ফিয়ারে ওজোনের পরিমাণ ক্রমাগত কমে যাওয়া (ওজোন ছিদ্র)"
+      ],
+      "event": "ভিয়েনা কনভেনশন (১৯৮৫) কাঠামো দেয় এবং মন্ট্রিল প্রোটোকল (১৯৮৭) ODS ধাপে বন্ধের বাধ্যতামূলক সূচি আনে।",
+      "results": [
+        "ODS উৎপাদন ও ব্যবহার ধাপে ধাপে বন্ধের আন্তর্জাতিক সূচি চালু হয়",
+        "পরে কিগালি সংশোধনীতে (২০১৬) HFC-ও ধাপে কমানোর আওতায় আসে"
+      ],
+      "section": "ozone",
+      "claims": [
+        "c15",
+        "c34",
+        "c16",
+        "c46"
+      ]
+    },
+    {
+      "title": "বিপজ্জনক বর্জ্যের আন্তঃসীমান্ত চালান থেকে বাসেল",
+      "causes": [
+        "উন্নত দেশ থেকে কম-উন্নত দেশে বিপজ্জনক বর্জ্য পাঠানোর প্রবণতা",
+        "বর্জ্যের পরিমাণ ও বিষাক্ততা বৃদ্ধি"
+      ],
+      "event": "বাসেল কনভেনশন (১৯৮৯) বিপজ্জনক বর্জ্যের আন্তঃসীমান্ত চলাচল নিয়ন্ত্রণের চুক্তি হিসেবে আসে।",
+      "results": [
+        "বর্জ্যের চলাচল কমানো ও উন্নত→কম-উন্নত দেশে চলাচল রোধের লক্ষ্য নির্ধারিত হয়",
+        "উৎপত্তিস্থলের কাছাকাছি নিরাপদ নিষ্পত্তির নীতি গৃহীত হয়"
+      ],
+      "section": "chemicals_waste",
+      "claims": [
+        "c21",
+        "c20"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "চুক্তি ↔ বছর ↔ বিষয় ত্রয়ী: রামসার ১৯৭১ জলাভূমি, CITES ১৯৭৩ বাণিজ্য, মন্ট্রিল ১৯৮৭ ওজোন, বাসেল ১৯৮৯ বর্জ্য, CBD ১৯৯২ জীববৈচিত্র্য, স্টকহোম ২০০১ POPs, মিনামাটা পারদ",
+      "section": "wetlands_species"
+    },
+    {
+      "point": "স্টকহোম সম্মেলন (১৯৭২) বনাম স্টকহোম কনভেনশন (২০০১) — সবচেয়ে চেনা ফাঁদ",
+      "section": "conferences"
+    },
+    {
+      "point": "ভিয়েনা (কাঠামো, বাধ্যতামূলক লক্ষ্য নেই) বনাম মন্ট্রিল (বাধ্যতামূলক ODS-বন্ধ) বনাম কিগালি (HFC)",
+      "section": "ozone"
+    },
+    {
+      "point": "কিয়োটোতে ভারত-চীনের ছাড় ও CBDR নীতি; ভারতের কিয়োটো অনুমোদন আগস্ট ২০০২",
+      "section": "climate"
+    },
+    {
+      "point": "পশ্চিমবঙ্গের রামসার ক্ষেত্র: পূর্ব কলকাতা জলাভূমি ও সুন্দরবন (বৃহত্তম); WBCS-এ পুনরাবৃত্ত প্রশ্ন",
+      "section": "wetlands_species"
+    },
+    {
+      "point": "ভারত-তারিখ: রামসার কার্যকর ১৯৮২, মন্ট্রিল পক্ষ ১৯ জুন ১৯৯২, প্যারিস অনুমোদন ২ অক্টোবর ২০১৬, মিনামাটা অনুমোদন ১৮ জুন ২০১৮",
+      "section": "climate"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের সঙ্গে এই অধ্যায়ের যোগ সরাসরি: রাজ্যের দুটি রামসার ক্ষেত্র — পূর্ব কলকাতা জলাভূমি এবং সুন্দরবন জলাভূমি — PIB-র রাজ্যভিত্তিক রামসার তালিকায় পশ্চিমবঙ্গের নামে লিপিবদ্ধ। সুন্দরবন শুধু রাজ্যের নয়, ভারতের বৃহত্তম রামসার ক্ষেত্র (০.৪২ মিলিয়ন হেক্টর)। পূর্ব কলকাতা জলাভূমি নিয়ে WBCS প্রিলিমসে প্রশ্ন এসেছে ২০১৯ ও ২০২৪ — দুবারই জিজ্ঞাসা ছিল ক্ষেত্রটি কী হিসেবে ঘোষিত। আবার পরিযায়ী পাখিদের Central Asian Flyway পথে পশ্চিমবঙ্গের জলাভূমিগুলি গুরুত্বপূর্ণ বিরতিস্থল — CMS-র আলোচনায় ভারত এই flyway সংরক্ষণকেই অগ্রাধিকার দিয়েছে।",
+    "claims": [
+      "c42",
+      "c40",
+      "c53"
+    ]
+  },
+  "quick_revision": [
+    "স্টকহোম সম্মেলন ১৯৭২: প্রথম জাতিসংঘ পরিবেশ সম্মেলন; ২৬ নীতি, ১০৯ সুপারিশ; বাধ্যতামূলক দায়িত্ব নয়; UNEP-এর পথ তৈরি হয়।",
+    "রিও আর্থ সামিট ১৯৯২: Agenda 21, UNFCCC, CBD; CBDR নীতি রিও ঘোষণায় স্বীকৃত।",
+    "জোহানেসবার্গ ২০০২ = Rio+10; ১৯০ দেশের জীববৈচিত্র্য-হ্রাস কমানোর প্রতিশ্রুতি (লক্ষ্য ২০১০)।",
+    "রামসার ১৯৭১ (ইরান), কার্যকর ১৯৭৫; ভারতে কার্যকর ১৯৮২; প্রথম ক্ষেত্র কেওলাদেও ও চিলিকা; বিশ্ব জলাভূমি দিবস ২ ফেব্রুয়ারি।",
+    "সুন্দরবন ভারতের বৃহত্তম রামসার ক্ষেত্র; পশ্চিমবঙ্গের অপর ক্ষেত্র পূর্ব কলকাতা জলাভূমি।",
+    "CITES ১৯৭৩, কার্যকর ১ জুলাই ১৯৭৫; সচিবালয় জেনেভায়, পরিচালনায় UNEP; আইনত বাধ্যতামূলক কিন্তু জাতীয় আইনের বিকল্প নয়।",
+    "CMS পরিযায়ী প্রজাতির একমাত্র বিশ্ব চুক্তি; COP13 গান্ধীনগর ২০২০, ভারত সভাপতি।",
+    "CBD ১৯৯২ রিও থেকে; কার্টাজেনা প্রোটোকল (জীব-নিরাপত্তা) কার্যকর ২০০৩।",
+    "ভিয়েনা ১৯৮৫ (কাঠামো, বাধ্যতামূলক CFC-লক্ষ্য নেই) → মন্ট্রিল ১৯৮৭ (ODS বন্ধ; ১৬ সেপ্টেম্বর গৃহীত) → কিগালি ২০১৬ (HFC)।",
+    "ভারত মন্ট্রিলের পক্ষ ১৯ জুন ১৯৯২; HFC কমানোর সূচি ২০৩২–২০৪৭, শেষ ধাপে ৮৫% হ্রাস।",
+    "কিয়োটো ১৯৯৭: লক্ষ্য শুধু শিল্পোন্নত দেশগুলির; ভারত অনুমোদন আগস্ট ২০০২। প্যারিসে ভারতের অনুমোদন ২ অক্টোবর ২০১৬।",
+    "বাসেল ১৯৮৯ বর্জ্য; রটারডাম PIC; স্টকহোম ২০০১ POPs ('dirty dozen'); মিনামাটা পারদ, ভারতের অনুমোদন ২০১৮।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Biology, Class XII, Chapter 13: Biodiversity and Conservation",
+      "class": "XII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Contemporary World Politics, Class XII, Chapter 6: Environment and Natural Resources",
+      "class": "XII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/leps106.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "IGNOU, Environmental Acts, Laws and Policies, Unit 1: International Environmental Policies, Agreements and Treaties",
+      "publisher": "IGNOU",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/86560/1/Unit-1.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB, Ministry of Environment, Forest and Climate Change: Cabinet approval for ratification of the Kigali Amendment to the Montreal Protocol (18 August 2021)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/pressreleasepage.aspx?prid=1746948",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB Backgrounder, MoEFCC: World Wetlands Day — With 75 Ramsar sites India has the largest network in South Asia (1 February 2023)",
+      "publisher": "GOVT",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/feb/doc202321156601.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "PIB, MoEFCC: Ramsar Sites — Up from 26 in 2014 to 75 in 2023",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1919921&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "Department of Chemicals and Petrochemicals, Government of India: Minamata Convention page",
+      "publisher": "GOVT",
+      "url": "https://chemicals.gov.in/minamata-convention",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "PIB, MoEFCC: CMS COP13 kicks off in Gandhinagar; India assumes COP Presidency (17 February 2020)",
+      "publisher": "GOVT",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1603392",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Stockholm hosted the UN Conference on the Human Environment in June 1972; it was the first comprehensive UN-backed conference on international environmental issues.",
+      "source": "s3",
+      "page": "Unit p. 7",
+      "quote": "Stockholm, Sweden hosted the United Nations Conference on the Human Environment in June 1972. It was the first comprehensive conference on international environmental issues with the backing of the UN."
+    },
+    {
+      "id": "c02",
+      "claim": "The Stockholm Conference agreed a Declaration with 26 principles and an action plan with 109 recommendations.",
+      "source": "s3",
+      "page": "Unit p. 7",
+      "quote": "The conference agreed upon the following: 1. A Declaration about environment and development (26 principles); 2. An clear cut plan of action (109 recommendations), and 3. Resolutions relating to the financial and Institutional arrangements."
+    },
+    {
+      "id": "c03",
+      "claim": "Stockholm led towards the formation of an international environmental organisation through UNEP.",
+      "source": "s3",
+      "page": "Unit p. 8",
+      "quote": "It led to the development of a precursor to the formation of an International Environmental Organization through the United Nations Environment Programme."
+    },
+    {
+      "id": "c04",
+      "claim": "The Stockholm Conference did not adopt binding legal obligations for states.",
+      "source": "s3",
+      "page": "Unit p. 8",
+      "quote": "However, the Stockholm conference did not result in the adoption of binding legal obligations for the State parties."
+    },
+    {
+      "id": "c05",
+      "claim": "UNCED (Rio Conference) was held at Rio de Janeiro, Brazil in June 1992, represented by 172 governments.",
+      "source": "s3",
+      "page": "Unit p. 9",
+      "quote": "UNCED was held at Rio De Janeiro, Brazil in June, 1992 represented by 172 governments."
+    },
+    {
+      "id": "c06",
+      "claim": "The Brundtland Commission defined sustainable development as development meeting present needs without compromising future generations' ability to meet their own needs.",
+      "source": "s3",
+      "page": "Unit p. 9",
+      "quote": "This is defined as “the development which meets the needs of the present generation without compromising the ability of the future generations to meet their own needs”."
+    },
+    {
+      "id": "c07",
+      "claim": "Agenda 21 was adopted by more than 178 governments at the Rio Conference; it is a blueprint for action in the 21st century.",
+      "source": "s3",
+      "page": "Unit p. 10",
+      "quote": "It was adopted by more than 178 Governments at the Rio Conference."
+    },
+    {
+      "id": "c08",
+      "claim": "The legally binding agreements that came from Rio include the UNFCCC and the Convention on Biological Diversity.",
+      "source": "s3",
+      "page": "Unit p. 10",
+      "quote": "Some legally binding agreements (Rio Convention) came into force. They are given below. Framework Convention on Climate Change (UNFCCC) Convention on Biological Diversity"
+    },
+    {
+      "id": "c09",
+      "claim": "The World Summit on Sustainable Development was held at Johannesburg, South Africa from 26 August to 4 September 2002, ten years after Rio (Rio+10).",
+      "source": "s3",
+      "page": "Unit p. 11",
+      "quote": "The World Summit on Sustainable Development, also referred to as the Earth Summit was held at Johannesburg, SouthAfrica from 26August to 4 September 2002."
+    },
+    {
+      "id": "c10",
+      "claim": "CITES was convened in 1973 and came into existence on 1 July 1975; its objective is to curb international trade in specimens of wild animals and plants to protect species survival.",
+      "source": "s3",
+      "page": "Unit p. 13",
+      "quote": "in the year 1973, CITES (the Convention on International Trade in Endangered Species of Wild Fauna and Flora) was convened."
+    },
+    {
+      "id": "c11",
+      "claim": "CITES came into existence on 1 July 1975.",
+      "source": "s3",
+      "page": "Unit p. 13",
+      "quote": "The convention was opened for signature in 1973. CITES came into existence on 1 st July 1975."
+    },
+    {
+      "id": "c12",
+      "claim": "The CITES Secretariat is administered by UNEP and located at Geneva, Switzerland.",
+      "source": "s3",
+      "page": "Unit p. 13",
+      "quote": "CITES Secretariat is administered by UNEP and is located at Geneva, Switzerland and all activities relating to the convention are co-ordinated."
+    },
+    {
+      "id": "c13",
+      "claim": "CITES is legally binding on the Parties but does not replace national laws.",
+      "source": "s3",
+      "page": "Unit p. 13",
+      "quote": "CITES is legally binding on the Parties, but does not replace the existing national laws."
+    },
+    {
+      "id": "c14",
+      "claim": "The Vienna Convention for the Protection of the Ozone Layer was agreed in 1985 and came into force in 1988.",
+      "source": "s3",
+      "page": "Unit p. 14",
+      "quote": "In the Vienna Conference, 1985, the Vienna Convention for the Protection of the Ozone Layer was agreed upon. It is a multilateral environmental agreement and came into force in 1988."
+    },
+    {
+      "id": "c15",
+      "claim": "The Vienna Convention does not include legally binding reduction goals for CFCs; CFCs are the main chemical agents responsible for ozone depletion.",
+      "source": "s3",
+      "page": "Unit p. 14",
+      "quote": "CFCs are the main chemical agents responsible for ozone depletion. This treaty does not include legally binding reduction goals regarding the use of CFCs."
+    },
+    {
+      "id": "c16",
+      "claim": "The Montreal Protocol was agreed on 16 September 1987 and entered into force on 1 January 1989; its objectives include phasing out production of ozone-depleting substances.",
+      "source": "s3",
+      "page": "Unit p. 14",
+      "quote": "The Montreal Protocol on Substances that Deplete the Ozone Layer (a protocol to the Vienna Convention for the Protection of the Ozone Layer) is an international treaty for the protection of the ozone layer. Its objectives include phasing out the production of ozone depleting substances. It was agreed on 16 September 1987. It entered into force on 1 January 1989"
+    },
+    {
+      "id": "c17",
+      "claim": "The Rotterdam Convention empowers national governments to decide on the entry of hazardous chemicals into their country (prior informed consent).",
+      "source": "s3",
+      "page": "Unit p. 14",
+      "quote": "The Convention empowers the national governments to decide on the entry of such hazardous chemicals into their country."
+    },
+    {
+      "id": "c18",
+      "claim": "The Stockholm Convention on POPs was signed in 2001 and became effective from May 2004; its objective is to eliminate or restrict production and use of POPs.",
+      "source": "s3",
+      "page": "Unit p. 15",
+      "quote": "Another important international environmental treaty is the Stockholm Convention on Persistent Organic Pollutants signed in 2001. The objective of this treaty is to eliminate or restrict the production and use of persistent organic pollutants (POPs) and became effective from May, 2004."
+    },
+    {
+      "id": "c19",
+      "claim": "Twelve POPs assessed internationally are popularly known as the 'dirty dozen'; parties decided to use DDT for malaria control.",
+      "source": "s3",
+      "page": "Unit p. 15",
+      "quote": "The Intergovernmental Forum on Chemical Safety and the International Programme on Chemical Safety assessed the impact of twelve POPs popularly known as the dirty dozen. The parties agreed to phase out nine of the dirty dozen chemicals. They decided to use DDT for malaria control"
+    },
+    {
+      "id": "c20",
+      "claim": "The Basel Convention was opened for signature on 22 March 1989 and entered into force on 5 May 1992.",
+      "source": "s3",
+      "page": "Unit p. 15",
+      "quote": "The Convention was opened for signature on 22nd March 1989, and entered into force on 5th May 1992."
+    },
+    {
+      "id": "c21",
+      "claim": "The Basel Convention's primary objective is to reduce movements of hazardous waste between nations, specifically preventing movement from developed to less developed countries.",
+      "source": "s3",
+      "page": "Unit p. 15",
+      "quote": "The primary objective is to reduce the movements of hazardous waste between nations. Further, it specifically prevents the movement of hazardous wastes from developed to the lesser developed countries."
+    },
+    {
+      "id": "c22",
+      "claim": "The Cartagena Protocol on Biosafety is a supplement to the CBD, effective since 2003, aiming to protect biodiversity from threats from genetically modified organisms.",
+      "source": "s3",
+      "page": "Unit p. 15",
+      "quote": "The Cartagena Protocol on Biosafety to the Convention on Biological Diversity is an international agreement on biosafety. It is a supplement to the Convention on Biological Diversity effective since 2003. This Protocol aims to protect biodiversity from the potential threats resulting from genetically modified organisms."
+    },
+    {
+      "id": "c23",
+      "claim": "The Convention on Biological Diversity (Earth Summit) held in Rio de Janeiro in 1992 called on all nations to take measures for conservation of biodiversity and sustainable use of its benefits.",
+      "source": "s1",
+      "page": "p. 224",
+      "quote": "The historic Convention on Biological Diversity (‘The Earth Summit’) held in Rio de Janeiro in 1992, called upon all nations to take appropriate measures for conservation of biodiversity and sustainable utilisation of its benefits."
+    },
+    {
+      "id": "c24",
+      "claim": "At the 2002 Johannesburg World Summit on Sustainable Development, 190 countries pledged to achieve by 2010 a significant reduction in the rate of biodiversity loss.",
+      "source": "s1",
+      "page": "p. 224",
+      "quote": "In a followup, the World Summit on Sustainable Development held in 2002 in Johannesburg, South Africa, 190 countries pledged their commitment to achieve by 2010, a significant reduction in the current rate of biodiversity loss at global, regional and local levels."
+    },
+    {
+      "id": "c25",
+      "claim": "Habitat fragmentation badly affects mammals and birds requiring large territories and animals with migratory habits.",
+      "source": "s1",
+      "page": "p. 222",
+      "quote": "When large habitats are broken up into small fragments due to various human activities, mammals and birds requiring large territories and certain animals with migratory habits are badly affected, leading to population declines."
+    },
+    {
+      "id": "c26",
+      "claim": "The Rio Summit produced conventions on climate change, biodiversity and forestry, and recommended Agenda 21.",
+      "source": "s2",
+      "page": "p. 84",
+      "quote": "The Rio Summit produced conventions dealing with climate change, biodiversity, forestry, and recommended a list of development practices called ‘Agenda 21’."
+    },
+    {
+      "id": "c27",
+      "claim": "The principle of 'common but differentiated responsibilities' was accepted in the Rio Declaration at the 1992 Earth Summit.",
+      "source": "s2",
+      "page": "p. 87",
+      "quote": "This argument was accepted in the Rio Declaration at the Earth Summit in 1992 and is called the principle of ‘common but differentiated responsibilities’."
+    },
+    {
+      "id": "c28",
+      "claim": "The UNFCCC (1992) provides that parties should protect the climate system on the basis of equity and common but differentiated responsibilities and respective capabilities.",
+      "source": "s2",
+      "page": "p. 87",
+      "quote": "The 1992 United Nations Framework Convention on Climate Change (UNFCCC) also provides that the parties should act to protect the climate system “on the basis of equity and in accordance with their common but differentiated responsibilities and respective capabilities.”"
+    },
+    {
+      "id": "c29",
+      "claim": "The Kyoto Protocol is an international agreement setting targets for industrialised countries to cut greenhouse gas emissions.",
+      "source": "s2",
+      "page": "p. 87",
+      "quote": "The Kyoto Protocol is an international agreement setting targets for industrialised countries to cut their greenhouse gas emissions."
+    },
+    {
+      "id": "c30",
+      "claim": "China, India and other developing countries were exempted from the requirements of the Kyoto Protocol.",
+      "source": "s2",
+      "page": "p. 87",
+      "quote": "China, India, and other developing countries were, therefore, exempted from the requirements of the Kyoto Protocol."
+    },
+    {
+      "id": "c31",
+      "claim": "India signed and ratified the 1997 Kyoto Protocol in August 2002.",
+      "source": "s2",
+      "page": "p. 88",
+      "quote": "India signed and ratified the 1997 Kyoto Protocol in August 2002."
+    },
+    {
+      "id": "c32",
+      "claim": "India ratified the Paris Climate Agreement on 2 October 2016.",
+      "source": "s2",
+      "page": "p. 90",
+      "quote": "India ratified the Paris Climate Agreement on 2 October 2016."
+    },
+    {
+      "id": "c33",
+      "claim": "Pathbreaking global-commons agreements include the 1959 Antarctic Treaty, the 1987 Montreal Protocol and the 1991 Antarctic Environmental Protocol.",
+      "source": "s2",
+      "page": "p. 85",
+      "quote": "There have been many pathbreaking agreements such as the 1959 Antarctic Treaty, the 1987 Montreal Protocol, and the 1991 Antarctic Environmental Protocol."
+    },
+    {
+      "id": "c34",
+      "claim": "The decline of ozone in the stratosphere (the ozone hole) poses a real danger to ecosystems and human health.",
+      "source": "s2",
+      "page": "p. 82",
+      "quote": "A steady decline in the total amount of ozone in the Earth’s stratosphere (commonly referred to as the ozone hole) poses a real danger to ecosystems and human health."
+    },
+    {
+      "id": "c35",
+      "claim": "UNEP began holding international conferences and promoting studies for a coordinated response to environmental problems.",
+      "source": "s2",
+      "page": "p. 83",
+      "quote": "International agencies, including the United Nations Environment Programme (UNEP), began holding international conferences and promoting detailed studies to get a more coordinated and effective response to environmental problems."
+    },
+    {
+      "id": "c36",
+      "claim": "The Convention on Wetlands was adopted in the Iranian city of Ramsar in 1971 and came into force in 1975.",
+      "source": "s5",
+      "page": "Backgrounder, Background section",
+      "quote": "This intergovernmental treaty, called the Convention on Wetlands, was adopted in the Iranian city of Ramsar in 1971 and came into force in 1975."
+    },
+    {
+      "id": "c37",
+      "claim": "World Wetlands Day is celebrated each year on 2 February.",
+      "source": "s5",
+      "page": "Backgrounder, Background section",
+      "quote": "World Wetlands Day is celebrated each year on 2 nd February to raise awareness about wetlands."
+    },
+    {
+      "id": "c38",
+      "claim": "The Ramsar Convention provides the framework for the conservation and wise use of wetlands and their resources.",
+      "source": "s5",
+      "page": "Backgrounder, Background section",
+      "quote": "It provides the framework for the conservation and wise use of wetlands and their resources."
+    },
+    {
+      "id": "c39",
+      "claim": "The Ramsar Convention entered into force in India on 1 February 1982; Keoladeo National Park and Chilika were the first two Indian sites on the Ramsar List.",
+      "source": "s5",
+      "page": "Backgrounder, Wetlands in India section",
+      "quote": "The Ramsar convention entered into force in India on February 01, 1982. Keoladeo National Park (in Rajasthan) and Chilika (in Odisha) were the first two sites to be placed on the Ramsar List by the Government of India."
+    },
+    {
+      "id": "c40",
+      "claim": "The Sundarbans is India's largest Ramsar site, spanning 0.42 million hectares.",
+      "source": "s5",
+      "page": "Backgrounder, Wetlands in India section",
+      "quote": "the largest, the Sunderbans, spans 0.42 million ha."
+    },
+    {
+      "id": "c41",
+      "claim": "Each country joining the Ramsar Convention must designate at least one wetland for the List of Wetlands of International Importance.",
+      "source": "s5",
+      "page": "Backgrounder, Background section",
+      "quote": "Each country joining the Convention must designate at least one wetland to be included in the list of Wetlands of International Importance (Ramsar sites)."
+    },
+    {
+      "id": "c42",
+      "claim": "East Kolkata Wetlands appears in the PIB backgrounder's state-wise list of India's Ramsar sites under West Bengal.",
+      "source": "s5",
+      "page": "Backgrounder, state-wise list of 75 Ramsar sites",
+      "quote": "East Kolkata Wetlands"
+    },
+    {
+      "id": "c43",
+      "claim": "By 2023 India had 75 Wetlands of International Importance designated as Ramsar sites covering 1.33 million hectares; 26 sites were added from 1982 to 2013 and 49 new wetlands from 2014 to 2023.",
+      "source": "s6",
+      "page": "PIB release text",
+      "quote": "India now has 75 Wetlands of International Importance designated as Ramsar sites covering an area of 1.33 million ha across the country."
+    },
+    {
+      "id": "c44",
+      "claim": "The Montreal Protocol is an international environmental treaty to protect the ozone layer by phasing out production and consumption of ozone-depleting substances; the stratospheric ozone layer protects humans and the environment from harmful ultraviolet radiation.",
+      "source": "s4",
+      "page": "Background section",
+      "quote": "The Montreal Protocol on Substances that Deplete the Ozone Layer, is an international environmental treaty for protection of the Ozone Layer by phasing out the production and consumption of man-made chemicals referred to as ozone depleting substances (ODS). The stratospheric ozone layer protects humans and the environment from harmful levels of ultraviolet radiation from the sun."
+    },
+    {
+      "id": "c45",
+      "claim": "India became a Party to the Montreal Protocol on 19 June 1992.",
+      "source": "s4",
+      "page": "Background section",
+      "quote": "India became a Party to the Montreal Protocol on Substances that Deplete the Ozone Layer on 19 June 1992"
+    },
+    {
+      "id": "c46",
+      "claim": "The Kigali Amendment was adopted by the Parties to the Montreal Protocol in October 2016 at the 28th Meeting of the Parties held at Kigali, Rwanda.",
+      "source": "s4",
+      "page": "Opening paragraph",
+      "quote": "adopted by the Parties to the Montreal Protocol on October, 2016 at 28th Meeting of the Parties to the Montreal Protocol held at Kigali, Rwanda."
+    },
+    {
+      "id": "c47",
+      "claim": "HFCs do not deplete the stratospheric ozone layer but have high global warming potential ranging from 12 to 14,000.",
+      "source": "s4",
+      "page": "Details, point 2",
+      "quote": "While HFCs do not deplete the stratospheric ozone layer, they have high global warming potential ranging from 12 to 14,000, which have adverse impact on climate."
+    },
+    {
+      "id": "c48",
+      "claim": "India will complete its HFC phase-down in 4 steps from 2032, with cumulative reduction of 10% in 2032, 20% in 2037, 30% in 2042 and 85% in 2047.",
+      "source": "s4",
+      "page": "Details, point 4",
+      "quote": "India will complete its phase down of HFCs in 4 steps from 2032 onwards with cumulative reduction of 10% in 2032, 20% in 2037, 30% in 2042 and 85% in 2047."
+    },
+    {
+      "id": "c49",
+      "claim": "HFC phase-down under the Kigali Amendment is expected to help avoid up to 0.5 degree Celsius of global temperature rise by 2100.",
+      "source": "s4",
+      "page": "Major Impact section",
+      "quote": "helping to avoid up to 0.5 degree Celsius of global temperature rise by 2100, while continuing to protect the ozone layer."
+    },
+    {
+      "id": "c50",
+      "claim": "India is a party to the Minamata Convention on Mercury and ratified it on 18 June 2018.",
+      "source": "s7",
+      "page": "Minamata Convention page",
+      "quote": "India is a party to the Minamata Convention on Mercury and ratified the convention on 18.06.2018."
+    },
+    {
+      "id": "c51",
+      "claim": "Annex A of the Minamata Convention lists mercury-added products to be phased out for manufacture, import and export by 2020.",
+      "source": "s7",
+      "page": "Minamata Convention page",
+      "quote": "The Annex A of the Convention provides the list of Mercury added products to be phased out for manufacture, import and export by 2020"
+    },
+    {
+      "id": "c52",
+      "claim": "The Convention on Migratory Species is the only multilateral treaty dedicated to the needs of migratory species and their habitats on a global scale.",
+      "source": "s8",
+      "page": "PIB release text",
+      "quote": "The Convention on Migratory Species is the only multilateral treaty dedicated to addressing the needs of migratory species and their habitats on a global scale."
+    },
+    {
+      "id": "c53",
+      "claim": "CMS COP13 was held at Gandhinagar and India assumed the COP Presidency for the next three years.",
+      "source": "s8",
+      "page": "PIB release text",
+      "quote": "India today assumed COP Presidency for the next three years with a focus on Collaborative Approach to tackle Biodiversity Issues."
+    },
+    {
+      "id": "c54",
+      "claim": "India is home to migratory species including snow leopard, Amur falcons, bar-headed geese, black-necked cranes, marine turtles, dugongs and humpbacked whales.",
+      "source": "s8",
+      "page": "PIB release text",
+      "quote": "India is home to several migratory species of wildlife including snow leopard, Amur falcons, bar headed Geese, black necked cranes, marine turtles, dugongs, humpbacked whales, etc."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "conferences",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রথম ব্যাপক আন্তর্জাতিক পরিবেশ সম্মেলন (United Nations Conference on the Human Environment) কোথায় ও কবে অনুষ্ঠিত হয়?",
+      "a": "স্টকহোম, ১৯৭২",
+      "w": [
+        "রিও দে জানেইরো, ১৯৯২",
+        "জোহানেসবার্গ, ২০০২",
+        "কিয়োটো, ১৯৯৭"
+      ],
+      "e": "স্টকহোম (সুইডেন) ১৯৭২ সালের জুনে এই সম্মেলনের আয়োজন করে; জাতিসংঘের সমর্থনে আন্তর্জাতিক পরিবেশ-প্রশ্নে এটাই ছিল প্রথম ব্যাপক সম্মেলন।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "conferences",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'আর্থ সামিট' (UNCED) ১৯৯২ সালে কোন শহরে অনুষ্ঠিত হয়?",
+      "a": "রিও দে জানেইরো",
+      "w": [
+        "স্টকহোম",
+        "জোহানেসবার্গ",
+        "বন"
+      ],
+      "e": "UNCED অনুষ্ঠিত হয় ব্রাজিলের রিও দে জানেইরোতে, ১৯৯২ সালের জুনে; ১৭২টি সরকার এতে প্রতিনিধিত্ব করে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "wetlands_species",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রামসার কনভেনশন কোন বিষয় নিয়ে?",
+      "a": "জলাভূমি সংরক্ষণ",
+      "w": [
+        "ওজোন স্তর রক্ষা",
+        "বিপজ্জনক বর্জ্যের চলাচল",
+        "গ্রিনহাউস গ্যাস নির্গমন"
+      ],
+      "e": "রামসার কনভেনশন জলাভূমি ও তার সম্পদের সংরক্ষণ এবং বিচক্ষণ ব্যবহারের কাঠামো দেয়।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "wetlands_species",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব জলাভূমি দিবস পালিত হয় কোন তারিখে?",
+      "a": "২ ফেব্রুয়ারি",
+      "w": [
+        "৫ জুন",
+        "১৬ সেপ্টেম্বর",
+        "২২ এপ্রিল"
+      ],
+      "e": "রামসার কনভেনশন গৃহীত হওয়ার স্মরণে প্রতি বছর ২ ফেব্রুয়ারি বিশ্ব জলাভূমি দিবস পালিত হয়।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "biodiversity",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জীববৈচিত্র্য কনভেনশন (CBD) কোন সম্মেলন থেকে আসে?",
+      "a": "রিও আর্থ সামিট, ১৯৯২",
+      "w": [
+        "স্টকহোম সম্মেলন, ১৯৭২",
+        "কিয়োটো সম্মেলন, ১৯৯৭",
+        "জোহানেসবার্গ সম্মেলন, ২০০২"
+      ],
+      "e": "CBD রিও দে জানেইরোর আর্থ সামিটের (১৯৯২) ফসল; সেখানেই সব জাতিকে জীববৈচিত্র্য সংরক্ষণের আহ্বান জানানো হয়।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "ozone",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ওজোন-ক্ষয়কারী পদার্থ (ODS) ধাপে ধাপে বন্ধের বাধ্যতামূলক চুক্তি কোনটি?",
+      "a": "মন্ট্রিল প্রোটোকল",
+      "w": [
+        "ভিয়েনা কনভেনশন",
+        "রামসার কনভেনশন",
+        "বাসেল কনভেনশন"
+      ],
+      "e": "মন্ট্রিল প্রোটোকলের (১৯৮৭) উদ্দেশ্যই ODS-এর উৎপাদন ধাপে ধাপে বন্ধ করা; ভিয়েনা কনভেনশনে এমন বাধ্যতামূলক হ্রাস-লক্ষ্য ছিল না।",
+      "claims": [
+        "c16",
+        "c15"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "ozone",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মন্ট্রিল প্রোটোকল গৃহীত হয় কবে?",
+      "a": "১৬ সেপ্টেম্বর ১৯৮৭",
+      "w": [
+        "২ ফেব্রুয়ারি ১৯৭১",
+        "৫ জুন ১৯৭২",
+        "২২ মার্চ ১৯৮৯"
+      ],
+      "e": "প্রোটোকলটি গৃহীত হয় ১৬ সেপ্টেম্বর ১৯৮৭ এবং কার্যকর হয় ১ জানুয়ারি ১৯৮৯।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "climate",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কিয়োটো প্রোটোকল কোন সালে গৃহীত হয়?",
+      "a": "১৯৯৭",
+      "w": [
+        "১৯৯২",
+        "২০০২",
+        "২০১৫"
+      ],
+      "e": "কিয়োটো প্রোটোকল ১৯৯৭ সালে জাপানের কিয়োটোতে গৃহীত হয়; ভারত তা অনুমোদন করে ২০০২ সালের আগস্টে।",
+      "claims": [
+        "c29",
+        "c31"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "chemicals_waste",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাসেল কনভেনশনের বিষয় কী?",
+      "a": "বিপজ্জনক বর্জ্যের আন্তঃসীমান্ত চলাচল ও নিষ্পত্তি",
+      "w": [
+        "পরিযায়ী পাখির সংরক্ষণ",
+        "জলাভূমির তালিকাভুক্তি",
+        "ওজোন-ক্ষয়কারী পদার্থ"
+      ],
+      "e": "বাসেল কনভেনশনের প্রধান উদ্দেশ্য দেশগুলির মধ্যে বিপজ্জনক বর্জ্যের চলাচল কমানো, বিশেষ করে উন্নত থেকে কম-উন্নত দেশে চলাচল রোধ করা।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "chemicals_waste",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মিনামাটা কনভেনশন কোন পদার্থ নিয়ে?",
+      "a": "পারদ (Mercury)",
+      "w": [
+        "সীসা",
+        "অ্যাসবেস্টস",
+        "কার্বন ডাই-অক্সাইড"
+      ],
+      "e": "ভারত পারদ-বিষয়ক মিনামাটা কনভেনশনের পক্ষ; এর Annex A-তে পারদ-যুক্ত পণ্য ধাপে বন্ধের তালিকা আছে।",
+      "claims": [
+        "c50",
+        "c51"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "conferences",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্টকহোম সম্মেলনে (১৯৭২) কতগুলি নীতির ঘোষণা গৃহীত হয়?",
+      "a": "২৬টি নীতি",
+      "w": [
+        "২৭টি নীতি",
+        "১০৯টি নীতি",
+        "২১টি নীতি"
+      ],
+      "e": "ঘোষণায় ছিল ২৬টি নীতি; ১০৯ সংখ্যাটি হল কর্মপরিকল্পনার সুপারিশের সংখ্যা — দুটি গুলিয়ো না।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "conferences",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Agenda 21 কী?",
+      "a": "রিও সম্মেলনে গৃহীত ২১ শতকের জন্য কর্মপরিকল্পনা (ব্লুপ্রিন্ট)",
+      "w": [
+        "জলবায়ু নির্গমন-লক্ষ্যের বাধ্যতামূলক চুক্তি",
+        "জলাভূমির আন্তর্জাতিক তালিকা",
+        "ওজোন তহবিলের নাম"
+      ],
+      "e": "Agenda 21 হল স্থানীয় থেকে বৈশ্বিক স্তরে কর্মের ব্যাপক ব্লুপ্রিন্ট, যা রিওতে ১৭৮টির বেশি সরকার গ্রহণ করে; এটি নিজে বাধ্যতামূলক চুক্তি নয়।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "conferences",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'টেকসই উন্নয়ন' ধারণাটির ব্রান্টল্যান্ড-সংজ্ঞা কোনটি?",
+      "a": "বর্তমানের চাহিদা মেটানো, ভবিষ্যৎ প্রজন্মের চাহিদা মেটানোর ক্ষমতা নষ্ট না করে",
+      "w": [
+        "শুধু অর্থনৈতিক প্রবৃদ্ধি বাড়ানো",
+        "শিল্পায়ন সম্পূর্ণ বন্ধ করা",
+        "শুধু বন সংরক্ষণ করা"
+      ],
+      "e": "ব্রান্টল্যান্ড কমিশনের সংজ্ঞা: এমন উন্নয়ন যা বর্তমান প্রজন্মের চাহিদা মেটায়, কিন্তু ভবিষ্যৎ প্রজন্মের নিজেদের চাহিদা মেটানোর ক্ষমতাকে ক্ষতিগ্রস্ত করে না।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "wetlands_species",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতে রামসার কনভেনশন কার্যকর হয় কবে এবং প্রথম দুটি ক্ষেত্র কোনগুলি?",
+      "a": "১ ফেব্রুয়ারি ১৯৮২; কেওলাদেও ও চিলিকা",
+      "w": [
+        "২ ফেব্রুয়ারি ১৯৭১; সুন্দরবন ও পূর্ব কলকাতা",
+        "১ জুলাই ১৯৭৫; লোকটাক ও ভিতরকণিকা",
+        "১ জানুয়ারি ১৯৮৯; হরিকে ও পং বাঁধ"
+      ],
+      "e": "PIB অনুযায়ী কনভেনশন ভারতে কার্যকর হয় ১ ফেব্রুয়ারি ১৯৮২; প্রথম দুটি তালিকাভুক্ত ক্ষেত্র রাজস্থানের কেওলাদেও জাতীয় উদ্যান ও ওড়িশার চিলিকা।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "wetlands_species",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের বৃহত্তম রামসার ক্ষেত্র কোনটি?",
+      "a": "সুন্দরবন জলাভূমি",
+      "w": [
+        "চিলিকা হ্রদ",
+        "কেওলাদেও জাতীয় উদ্যান",
+        "লোকটাক হ্রদ"
+      ],
+      "e": "PIB ব্যাকগ্রাউন্ডার অনুযায়ী বৃহত্তম ক্ষেত্র সুন্দরবন, আয়তন ০.৪২ মিলিয়ন হেক্টর।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "wetlands_species",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "CITES সচিবালয় কোথায় অবস্থিত এবং কে তা পরিচালনা করে?",
+      "a": "জেনেভা; UNEP",
+      "w": [
+        "বন; জাতিসংঘ সদর দপ্তর",
+        "নাইরোবি; IUCN",
+        "রামসার; UNESCO"
+      ],
+      "e": "CITES সচিবালয় UNEP পরিচালনা করে এবং তা সুইজারল্যান্ডের জেনেভায় অবস্থিত।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "wetlands_species",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "CMS (পরিযায়ী প্রজাতি কনভেনশন)-এর COP13 কোথায় হয় এবং সভাপতিত্ব কে পায়?",
+      "a": "গান্ধীনগর; ভারত (তিন বছরের জন্য)",
+      "w": [
+        "পানামা; ফিলিপাইন",
+        "বন; জার্মানি",
+        "রিও; ব্রাজিল"
+      ],
+      "e": "CMS COP13 গান্ধীনগরে বসে (২০২০) এবং ভারত পরের তিন বছরের জন্য COP সভাপতিত্ব গ্রহণ করে।",
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "biodiversity",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কার্টাজেনা প্রোটোকলের বিষয় কী?",
+      "a": "জীব-নিরাপত্তা: জিনগতভাবে পরিবর্তিত জীব থেকে জীববৈচিত্র্য রক্ষা",
+      "w": [
+        "বিপজ্জনক বর্জ্যের বাণিজ্য",
+        "পরিযায়ী প্রজাতির শিকার নিয়ন্ত্রণ",
+        "জলাভূমির বিচক্ষণ ব্যবহার"
+      ],
+      "e": "কার্টাজেনা প্রোটোকল CBD-র পরিপূরক (কার্যকর ২০০৩); এর লক্ষ্য GMO/LMO-র সম্ভাব্য ঝুঁকি থেকে জীববৈচিত্র্য রক্ষা।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "ozone",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভিয়েনা কনভেনশন (১৯৮৫) সম্পর্কে কোনটি সঠিক?",
+      "a": "এতে CFC কমানোর আইনত বাধ্যতামূলক লক্ষ্য ছিল না",
+      "w": [
+        "এটি CFC সম্পূর্ণ নিষিদ্ধ করে",
+        "এটি HFC ধাপে কমানোর সূচি দেয়",
+        "এটি শুধু উন্নয়নশীল দেশগুলির জন্য"
+      ],
+      "e": "ভিয়েনা কনভেনশন সহযোগিতার কাঠামো; CFC ব্যবহারে বাধ্যতামূলক হ্রাস-লক্ষ্য এতে ছিল না — সেই কাজ মন্ট্রিল প্রোটোকলের।",
+      "claims": [
+        "c15",
+        "c14"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "ozone",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কিগালি সংশোধনী (২০১৬) কোন গ্যাসগুলি নিয়ে?",
+      "a": "HFC (হাইড্রোফ্লুরোকার্বন)",
+      "w": [
+        "CFC",
+        "মিথেন",
+        "নাইট্রাস অক্সাইড"
+      ],
+      "e": "কিগালি সংশোধনী HFC উৎপাদন ও ব্যবহার ধাপে কমানোর জন্য; HFC ওজোন ক্ষয় করে না, কিন্তু এর GWP ১২–১৪,০০০।",
+      "claims": [
+        "c46",
+        "c47"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "climate",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'সাধারণ কিন্তু পৃথক দায়িত্ব' (CBDR) নীতিটি প্রথম কোথায় স্বীকৃত হয়?",
+      "a": "রিও ঘোষণা, ১৯৯২",
+      "w": [
+        "কিয়োটো প্রোটোকল, ১৯৯৭",
+        "প্যারিস চুক্তি, ২০১৫",
+        "স্টকহোম ঘোষণা, ১৯৭২"
+      ],
+      "e": "NCERT অনুযায়ী এই যুক্তি ১৯৯২-এর আর্থ সামিটের রিও ঘোষণায় গৃহীত হয় এবং UNFCCC-তেও তা প্রতিফলিত।",
+      "claims": [
+        "c27",
+        "c28"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "climate",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কিয়োটো প্রোটোকলের বাধ্যতামূলক নির্গমন-লক্ষ্য কাদের জন্য ছিল?",
+      "a": "শিল্পোন্নত দেশগুলির জন্য",
+      "w": [
+        "সব দেশের জন্য সমানভাবে",
+        "শুধু উন্নয়নশীল দেশগুলির জন্য",
+        "শুধু এশিয়ার দেশগুলির জন্য"
+      ],
+      "e": "কিয়োটো শিল্পোন্নত দেশগুলির জন্য লক্ষ্য বেঁধে দেয়; চীন, ভারতসহ উন্নয়নশীল দেশগুলি এর বাধ্যবাধকতা থেকে ছাড় পায়।",
+      "claims": [
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "climate",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারত প্যারিস জলবায়ু চুক্তি অনুমোদন করে কবে?",
+      "a": "২ অক্টোবর ২০১৬",
+      "w": [
+        "২২ এপ্রিল ২০১৬",
+        "১২ ডিসেম্বর ২০১৫",
+        "আগস্ট ২০০২"
+      ],
+      "e": "ভারত প্যারিস চুক্তি অনুমোদন করে ২ অক্টোবর ২০১৬ — গান্ধী জয়ন্তীর দিনে।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "chemicals_waste",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্টকহোম কনভেনশন (২০০১) কোন দূষকগুলি নিয়ে?",
+      "a": "স্থায়ী জৈব দূষক (POPs)",
+      "w": [
+        "পারদ",
+        "ওজোন-ক্ষয়কারী পদার্থ",
+        "তেজস্ক্রিয় বর্জ্য"
+      ],
+      "e": "স্টকহোম কনভেনশনের উদ্দেশ্য POPs-এর উৎপাদন ও ব্যবহার দূর করা বা সীমিত করা; কার্যকর হয় মে ২০০৪ থেকে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "chemicals_waste",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রটারডাম কনভেনশনের 'PIC' পদ্ধতির মূল কথা কী?",
+      "a": "বিপজ্জনক রাসায়নিক ঢুকতে দেবে কি না, সিদ্ধান্ত আমদানিকারক দেশের সরকারের",
+      "w": [
+        "সব রাসায়নিক বাণিজ্য সম্পূর্ণ নিষিদ্ধ",
+        "রপ্তানিকারক দেশ একতরফা সিদ্ধান্ত নেয়",
+        "শুধু কীটনাশকের দাম নিয়ন্ত্রণ"
+      ],
+      "e": "PIC অর্থাৎ পূর্ব-জ্ঞাত সম্মতি: জাতীয় সরকারই সিদ্ধান্ত নেয় কোনো বিপজ্জনক রাসায়নিক তার দেশে প্রবেশ করবে কি না।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "conferences",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জোহানেসবার্গ সম্মেলনকে 'Rio+10' বলা হয় কেন?",
+      "a": "রিও আর্থ সামিটের দশ বছর পর (২০০২) তা অনুষ্ঠিত হয় বলে",
+      "w": [
+        "এতে দশটি দেশ অংশ নেয় বলে",
+        "এর ঘোষণায় দশটি নীতি ছিল বলে",
+        "এটি দশ দিন ধরে চলে বলে"
+      ],
+      "e": "WSSD (২০০২) ছিল রিও UNCED-এর দশ-বছরের পর্যালোচনা; IGNOU একে অনানুষ্ঠানিকভাবে 'Rio+10' বলেছে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "conferences",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "স্টকহোম সম্মেলনের সীমাবদ্ধতা কোনটি ছিল?",
+      "a": "এতে রাষ্ট্রগুলির জন্য বাধ্যতামূলক আইনি দায়িত্ব গৃহীত হয়নি",
+      "w": [
+        "এতে কোনো ঘোষণা গৃহীত হয়নি",
+        "এতে উন্নয়নশীল দেশ ছিল না",
+        "এটি জাতিসংঘের বাইরে হয়"
+      ],
+      "e": "IGNOU স্পষ্ট বলেছে: স্টকহোম সম্মেলন থেকে পক্ষ-রাষ্ট্রগুলির জন্য বাধ্যতামূলক আইনি দায়িত্ব আসেনি।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "wetlands_species",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "রামসার কনভেনশনে যোগ দেওয়া দেশের ন্যূনতম বাধ্যবাধকতা কী?",
+      "a": "অন্তত একটি জলাভূমিকে আন্তর্জাতিক গুরুত্বের তালিকায় অন্তর্ভুক্ত করা",
+      "w": [
+        "সব জলাভূমি জাতীয় উদ্যান ঘোষণা করা",
+        "জলাভূমিতে মাছ ধরা সম্পূর্ণ বন্ধ করা",
+        "প্রতি বছর একটি নতুন ক্ষেত্র যোগ করা"
+      ],
+      "e": "প্রতিটি যোগদানকারী দেশকে অন্তত একটি জলাভূমি Ramsar তালিকায় অন্তর্ভুক্ত করতেই হয়।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "wetlands_species",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "CITES সম্পর্কে কোন বিবৃতিটি সঠিক?",
+      "a": "এটি পক্ষগুলির জন্য আইনত বাধ্যতামূলক, কিন্তু জাতীয় আইনের বিকল্প নয়",
+      "w": [
+        "এটি জাতীয় আইনকে বাতিল করে দেয়",
+        "এটি শুধু সামুদ্রিক প্রজাতি নিয়ে",
+        "এটি বাধ্যতামূলক নয়, শুধু সুপারিশ"
+      ],
+      "e": "CITES আইনত বাধ্যতামূলক হলেও জাতীয় আইনের জায়গা নেয় না; প্রতিটি দেশ নিজের আইন দিয়ে তা কার্যকর করে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "biodiversity",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "রিও সম্মেলনের ফসল সম্পর্কে কোনটি সঠিক নয়?",
+      "a": "মন্ট্রিল প্রোটোকল রিও সম্মেলন থেকে আসে",
+      "w": [
+        "UNFCCC রিও থেকে আসে",
+        "CBD রিও থেকে আসে",
+        "Agenda 21 রিওতে সুপারিশ করা হয়"
+      ],
+      "e": "মন্ট্রিল প্রোটোকল ১৯৮৭-এর — রিওর (১৯৯২) পাঁচ বছর আগের। রিওর ফসল: জলবায়ু, জীববৈচিত্র্য ও বন নিয়ে কনভেনশন এবং Agenda 21।",
+      "claims": [
+        "c26",
+        "c16"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "ozone",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারত মন্ট্রিল প্রোটোকলের পক্ষ হয় কবে?",
+      "a": "১৯ জুন ১৯৯২",
+      "w": [
+        "১৬ সেপ্টেম্বর ১৯৮৭",
+        "১ জানুয়ারি ১৯৮৯",
+        "২ অক্টোবর ২০১৬"
+      ],
+      "e": "PIB অনুযায়ী ভারত মন্ট্রিল প্রোটোকলের পক্ষ হয় ১৯ জুন ১৯৯২ সালে।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "ozone",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতের HFC ধাপে-কমানোর সূচি (কিগালি) কোনটি?",
+      "a": "২০৩২: ১০%, ২০৩৭: ২০%, ২০৪২: ৩০%, ২০৪৭: ৮৫% হ্রাস",
+      "w": [
+        "২০২৫-এর মধ্যে ১০০% বন্ধ",
+        "২০৩০: ৫০%, ২০৪০: ১০০%",
+        "শুধু ২০৪৭-এ একবারে ৮৫%"
+      ],
+      "e": "PIB: ভারত চার ধাপে কমানো সম্পূর্ণ করবে — ২০৩২-এ ১০%, ২০৩৭-এ ২০%, ২০৪২-এ ৩০%, ২০৪৭-এ ৮৫% ক্রমবর্ধমান হ্রাস।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "climate",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারত কিয়োটো প্রোটোকলে স্বাক্ষর ও অনুমোদন করে কবে?",
+      "a": "আগস্ট ২০০২",
+      "w": [
+        "ডিসেম্বর ১৯৯৭",
+        "জুন ১৯৯২",
+        "অক্টোবর ২০১৬"
+      ],
+      "e": "NCERT: ভারত ১৯৯৭-এর কিয়োটো প্রোটোকলে স্বাক্ষর করে এবং আগস্ট ২০০২-এ অনুমোদন করে — যদিও উন্নয়নশীল দেশ হিসেবে তার বাধ্যতামূলক লক্ষ্য ছিল না।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "chemicals_waste",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাসেল কনভেনশন স্বাক্ষরের জন্য উন্মুক্ত হয় ও কার্যকর হয় যথাক্রমে—",
+      "a": "২২ মার্চ ১৯৮৯; ৫ মে ১৯৯২",
+      "w": [
+        "২ ফেব্রুয়ারি ১৯৭১; ১৯৭৫",
+        "১৬ সেপ্টেম্বর ১৯৮৭; ১ জানুয়ারি ১৯৮৯",
+        "২০০১; মে ২০০৪"
+      ],
+      "e": "বাসেল কনভেনশন উন্মুক্ত হয় ২২ মার্চ ১৯৮৯, কার্যকর হয় ৫ মে ১৯৯২।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "chemicals_waste",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'Dirty dozen' বলতে কী বোঝায়?",
+      "a": "আন্তর্জাতিকভাবে মূল্যায়িত বারোটি POPs",
+      "w": [
+        "বারোটি ওজোন-ক্ষয়কারী গ্যাস",
+        "বারোটি রামসার ক্ষেত্র",
+        "বারোটি পরিযায়ী প্রজাতি"
+      ],
+      "e": "POPs-বিষয়ক আন্তর্জাতিক মূল্যায়নে বারোটি স্থায়ী জৈব দূষক 'dirty dozen' নামে পরিচিত; নয়টি ধাপে বন্ধে সম্মতি হয়, ম্যালেরিয়া নিয়ন্ত্রণে DDT বহাল থাকে।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "conferences",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. স্টকহোম সম্মেলনে ২৬টি নীতির ঘোষণা ও ১০৯টি সুপারিশের কর্মপরিকল্পনা গৃহীত হয়।\n২. স্টকহোম সম্মেলন থেকেই রাষ্ট্রগুলির জন্য বাধ্যতামূলক আইনি দায়িত্ব চালু হয়।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "১ ও ২ উভয়ই",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সত্য; বিবৃতি ২ ভুল — স্টকহোম থেকে বাধ্যতামূলক আইনি দায়িত্ব আসেনি, এটি ছিল নীতি-নির্দেশনার সম্মেলন।",
+      "claims": [
+        "c02",
+        "c04"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "wetlands_species",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "চুক্তি ও বিষয়ের সঠিক মিল বাছাই করো:\nA. রামসার\nB. CITES\nC. CMS\nD. CBD\n১. পরিযায়ী প্রজাতি\n২. জলাভূমি\n৩. বন্যপ্রাণীর আন্তর্জাতিক বাণিজ্য\n৪. জীববৈচিত্র্য সংরক্ষণ",
+      "a": "A-২, B-৩, C-১, D-৪",
+      "w": [
+        "A-৩, B-২, C-৪, D-১",
+        "A-২, B-১, C-৩, D-৪",
+        "A-৪, B-৩, C-২, D-১"
+      ],
+      "e": "রামসার–জলাভূমি, CITES–বন্যপ্রাণী-বাণিজ্য, CMS–পরিযায়ী প্রজাতি (একমাত্র বিশ্ব চুক্তি), CBD–জীববৈচিত্র্য।",
+      "claims": [
+        "c38",
+        "c10",
+        "c52",
+        "c23"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "ozone",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলি কালানুক্রমে সাজাও (আগে থেকে পরে):\n১. কিগালি সংশোধনী\n২. মন্ট্রিল প্রোটোকল\n৩. ভিয়েনা কনভেনশন\n৪. রামসার কনভেনশন",
+      "a": "৪, ৩, ২, ১",
+      "w": [
+        "৩, ৪, ২, ১",
+        "৪, ২, ৩, ১",
+        "২, ৩, ৪, ১"
+      ],
+      "e": "ক্রম: রামসার ১৯৭১ → ভিয়েনা ১৯৮৫ → মন্ট্রিল ১৯৮৭ → কিগালি ২০১৬।",
+      "claims": [
+        "c36",
+        "c14",
+        "c16",
+        "c46"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "climate",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): কিয়োটো প্রোটোকলের বাধ্যতামূলক নির্গমন-লক্ষ্য ভারতের জন্য প্রযোজ্য ছিল না।\nকারণ (R): CBDR নীতি অনুযায়ী চীন, ভারতসহ উন্নয়নশীল দেশগুলি কিয়োটোর বাধ্যবাধকতা থেকে ছাড় পেয়েছিল।",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "কিয়োটোর লক্ষ্য ছিল শিল্পোন্নত দেশগুলির জন্য; ঐতিহাসিক নির্গমনের দায় বিবেচনায় উন্নয়নশীল দেশগুলি ছাড় পায় — এটাই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c29",
+        "c30",
+        "c27"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "chemicals_waste",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি ভুল?\n১. বাসেল — বিপজ্জনক বর্জ্য\n২. স্টকহোম — স্থায়ী জৈব দূষক (POPs)\n৩. মিনামাটা — পারদ\n৪. রটারডাম — ওজোন-ক্ষয়কারী পদার্থ",
+      "a": "৪",
+      "w": [
+        "১",
+        "২",
+        "৩"
+      ],
+      "e": "রটারডাম ওজোন নিয়ে নয় — এটি বিপজ্জনক রাসায়নিকে পূর্ব-জ্ঞাত সম্মতি (PIC) নিয়ে। বাকি তিনটি জোড়ই সঠিক।",
+      "claims": [
+        "c21",
+        "c18",
+        "c50",
+        "c17"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "ozone",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. HFC গ্যাস ওজোন স্তর ক্ষয় করে না, কিন্তু এদের বৈশ্বিক উষ্ণায়ন ক্ষমতা অনেক বেশি।\n২. কিগালি সংশোধনী গৃহীত হয় মন্ট্রিল প্রোটোকলের পক্ষগুলির বৈঠকে, কিগালি (রুয়ান্ডা) শহরে।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটোই সত্য: HFC-র GWP ১২–১৪,০০০ হলেও তা ODS নয়; কিগালি সংশোধনী গৃহীত হয় অক্টোবর ২০১৬-তে, পক্ষগুলির ২৮তম বৈঠকে।",
+      "claims": [
+        "c47",
+        "c46"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "wetlands_species",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "স্থান/ক্ষেত্র ও রাজ্যের সঠিক মিল বাছাই করো:\nA. কেওলাদেও জাতীয় উদ্যান\nB. চিলিকা\nC. সুন্দরবন জলাভূমি\nD. পূর্ব কলকাতা জলাভূমি\n১. ওড়িশা\n২. রাজস্থান\n৩. পশ্চিমবঙ্গ (বৃহত্তম রামসার ক্ষেত্র)\n৪. পশ্চিমবঙ্গ (রামসার ক্ষেত্র, কলকাতা)",
+      "a": "A-২, B-১, C-৩, D-৪",
+      "w": [
+        "A-১, B-২, C-৩, D-৪",
+        "A-২, B-১, C-৪, D-৩",
+        "A-৩, B-৪, C-১, D-২"
+      ],
+      "e": "কেওলাদেও–রাজস্থান ও চিলিকা–ওড়িশা ভারতের প্রথম দুটি রামসার ক্ষেত্র; সুন্দরবন (পশ্চিমবঙ্গ) বৃহত্তম, পূর্ব কলকাতা জলাভূমিও পশ্চিমবঙ্গের রামসার ক্ষেত্র।",
+      "claims": [
+        "c39",
+        "c40",
+        "c42"
+      ]
+    }
+  ]
+}

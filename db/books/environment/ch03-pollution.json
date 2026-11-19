@@ -1,0 +1,1819 @@
+{
+  "book": "environment",
+  "code": "ENV-03",
+  "number": 3,
+  "part": "threats",
+  "title": "দূষণ",
+  "subtitle": "বায়ু, জল, মাটি ও শব্দ: দূষকের উৎস, প্রভাব এবং নিয়ন্ত্রণের আইন ও চুক্তি",
+  "subtopics": [
+    "pollution"
+  ],
+  "related_facts": [
+    "GK-ENV-006"
+  ],
+  "prerequisites": [
+    "ENV-01"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 30,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 50/50 answers matched the key (49 SURE, 1 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 4 of 7 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ENV-03.json and drafts/ENV-03_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ENV-03_REPORT.md.",
+    "checked_claims": 55,
+    "checked_questions": 50,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "খাদ্য, বাসস্থান, বিদ্যুৎ ও যানবাহনের চাহিদা বাড়ার সঙ্গে সঙ্গে বাড়ছে দূষণ — বায়ু, জল, মাটি ও শব্দের এই অবাঞ্ছিত পরিবর্তন আজ পরীক্ষার পরিবেশ অংশের সবচেয়ে প্রশ্ন-সমৃদ্ধ বিষয়। এই অধ্যায়ে আমরা পড়ব প্রধান দূষকগুলির উৎস ও স্বাস্থ্যপ্রভাব, অ্যাসিড বৃষ্টি ও তাজমহলের 'মার্বেল ক্যানসার', CFC ও ওজোন স্তরের ক্ষয়, গঙ্গা দূষণ ও তাকে বাঁচানোর পরিকল্পনা, বর্জ্য ও জৈব বিবর্ধন, এবং নিয়ন্ত্রণের দুটি বড় হাতিয়ার — শব্দ দূষণ বিধি, ২০০০ ও স্টকহোম কনভেনশন।",
+    "you_will_learn": [
+      "দূষণ ও দূষকের সংজ্ঞা এবং প্রাকৃতিক বনাম মানবসৃষ্ট উৎসের পার্থক্য",
+      "প্রধান বায়ু দূষকগুলি — CO, SO₂, NOx, ধোঁয়া, স্মগ ও ঝুলন্ত কণা — এবং তাদের স্বাস্থ্যপ্রভাব",
+      "অ্যাসিড বৃষ্টির রসায়ন, তাজমহলের 'মার্বেল ক্যানসার' ও সুপ্রিম কোর্টের নির্দেশ",
+      "ওজোন স্তর (স্ট্র্যাটোস্ফিয়ার, ১০–৫০ কিমি), UV রশ্মির ক্ষতি ও CFC নিয়ন্ত্রণে ১৯৮৭ সালের UNEP চুক্তি",
+      "জল দূষণের তিন উৎস — পয়ঃবর্জ্য, শিল্প-বর্জ্য, কৃষি-বর্জ্য — এবং গঙ্গা অ্যাকশন প্ল্যান (১৯৮৫) ও NMCG (২০১৬)",
+      "জৈব-বিয়োজ্য বনাম অজৈব-বিয়োজ্য বর্জ্য, জৈব বিবর্ধন ও পয়ঃশোধনের ধাপগুলি",
+      "শব্দ দূষণ বিধি, ২০০০-এর মূল বিধান এবং স্টকহোম কনভেনশন (২০০৪/২০০৬) ও POPs"
+    ]
+  },
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "দূষণ কী: ধারণা, দূষক ও প্রকারভেদ",
+      "quick": "দূষণ হল পরিবেশের বায়ু, জল বা মাটিতে এমন অবাঞ্ছিত পদার্থের মিশ্রণ, যা জীবন্ত ও নির্জীব উভয়ের ক্ষতি করে। যে পদার্থ দূষণ ঘটায় তাকে দূষক বলে। মাধ্যম অনুযায়ী দূষণ প্রধানত বায়ু দূষণ, জল দূষণ, মাটি দূষণ ও শব্দ দূষণ — এই অধ্যায়ে আমরা প্রতিটির উৎস, প্রভাব ও নিয়ন্ত্রণ পড়ব।",
+      "standard": "আমরা যে বায়ু শ্বাস নিই, তা গ্যাসের একটি মিশ্রণ: আয়তন অনুযায়ী প্রায় ৭৮% নাইট্রোজেন, ২১% অক্সিজেন, আর খুব অল্প পরিমাণে কার্বন ডাই-অক্সাইড, আর্গন, মিথেন, ওজোন ও জলীয় বাষ্প। এই ভারসাম্যে বিঘ্ন ঘটলেই সমস্যা শুরু হয়। NCERT-র সংজ্ঞা অনুযায়ী, বায়ু যখন এমন অবাঞ্ছিত পদার্থে দূষিত হয় যার ক্ষতিকর প্রভাব জীবন্ত ও নির্জীব — দুয়ের ওপরই পড়ে, তখন তাকে **বায়ু দূষণ** বলে। একইভাবে পয়ঃবর্জ্য, বিষাক্ত রাসায়নিক বা পলির মতো ক্ষতিকর পদার্থ জলে মিশলে হয় **জল দূষণ**।\n\nযেসব পদার্থ দূষণ ঘটায়, তাদের বলে **দূষক (pollutant)**। দূষকের উৎস দুই রকমের হতে পারে। কিছু দূষক আসে প্রাকৃতিক উৎস থেকে — যেমন বনাগ্নি বা আগ্নেয়গিরির অগ্ন্যুৎপাতের ধোঁয়া ও ধুলো। কিন্তু আজকের দূষণের বড় অংশই মানবসৃষ্ট: কারখানা, বিদ্যুৎকেন্দ্র, যানবাহনের ধোঁয়া, জ্বালানি কাঠ ও ঘুটে পোড়ানো।\n\nপরীক্ষার জন্য দূষণকে মাধ্যম অনুযায়ী ভাগ করে মনে রাখা সুবিধাজনক: (১) বায়ু দূষণ, (২) জল দূষণ, (৩) মাটি/ভূমি দূষণ ও বর্জ্য, (৪) শব্দ দূষণ। এর পাশাপাশি দুটি বিশ্বব্যাপী ঘটনা এই অধ্যায়ের সঙ্গে জড়িত — ওজোন স্তরের ক্ষয় এবং স্থায়ী জৈব দূষক (POPs)। পরের অংশগুলিতে আমরা একে একে প্রতিটি মাধ্যমের উৎস, প্রভাব ও নিয়ন্ত্রণের উপায় দেখব।",
+      "deep": "লক্ষ্য করো, NCERT-র সংজ্ঞায় 'নির্জীব' বস্তুর ক্ষতির কথাও আছে — তাজমহলের মার্বেলের ক্ষয় তারই উদাহরণ (অংশ s3)। অর্থাৎ দূষণ শুধু স্বাস্থ্যের সমস্যা নয়, ঐতিহ্য ও অর্থনীতিরও সমস্যা। আরেকটি বিষয়: দূষক মাত্রেই মানবসৃষ্ট নয় — আগ্নেয়গিরির ছাই প্রাকৃতিক দূষক; তবে পরীক্ষায় প্রশ্ন সাধারণত মানবসৃষ্ট উৎস নিয়েই আসে, কারণ নিয়ন্ত্রণযোগ্য দূষণ সেটাই।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সংজ্ঞা দুটি একসঙ্গে",
+          "body": "বায়ু দূষণ = ক্ষতিকর অবাঞ্ছিত পদার্থে বায়ুর দূষণ (জীবন্ত + নির্জীব উভয়ের ক্ষতি)। দূষক = যে পদার্থ দূষণ ঘটায়। দুটি সংজ্ঞাই NCERT অষ্টম শ্রেণির বিজ্ঞান বইয়ের ১৮ নম্বর অধ্যায়ের।",
+          "claims": [
+            "c01",
+            "c02"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c15",
+        "c27"
+      ]
+    },
+    {
+      "id": "s2",
+      "heading": "বায়ু দূষণ: প্রধান দূষক, উৎস ও স্বাস্থ্যপ্রভাব",
+      "quick": "যানবাহন, কারখানা ও বিদ্যুৎকেন্দ্র বায়ু দূষণের প্রধান উৎস। গুরুত্বপূর্ণ দূষক: কার্বন মনোক্সাইড (রক্তের অক্সিজেন-বহন ক্ষমতা কমায়), সালফার ডাই-অক্সাইড (ফুসফুসের ক্ষতি), নাইট্রোজেন অক্সাইড, ধোঁয়া ও ঝুলন্ত সূক্ষ্ম কণা। শীতের ধোঁয়া ও কুয়াশা মিলে তৈরি হয় স্মগ, যা শিশুদের হাঁপানি-কাশি ঘটায়।",
+      "standard": "বায়ু ছাড়া আমরা কয়েক মিনিটও বাঁচতে পারি না — তাই পরিষ্কার বায়ু অপরিহার্য। কিন্তু শহরে যানবাহনের সংখ্যা যেভাবে বাড়ছে, তাতে বায়ু দূষণ বাড়ছেই। যানবাহন থেকে উচ্চ মাত্রায় নির্গত হয় **কার্বন মনোক্সাইড (CO), কার্বন ডাই-অক্সাইড, নাইট্রোজেন অক্সাইড ও ধোঁয়া**। এর মধ্যে CO সবচেয়ে ছলনাময়: পেট্রোল-ডিজেলের অসম্পূর্ণ দহনে তৈরি এই বিষাক্ত গ্যাস রক্তের অক্সিজেন বহন করার ক্ষমতা কমিয়ে দেয়।\n\nশিল্পও বড় উৎস। পেট্রোলিয়াম শোধনাগার থেকে প্রচুর **সালফার ডাই-অক্সাইড (SO₂) ও নাইট্রোজেন ডাই-অক্সাইড (NO₂)** বেরোয়; SO₂ তৈরি হয় বিদ্যুৎকেন্দ্রে কয়লা পোড়ালে এবং এটি শ্বাসযন্ত্রের সমস্যা, এমনকি ফুসফুসের স্থায়ী ক্ষতি করতে পারে। ডিজেল-পেট্রোল যান আবার সূক্ষ্ম কণাও ছাড়ে, যা দীর্ঘক্ষণ বায়ুতে ভেসে থেকে দৃশ্যমানতা কমায় এবং শ্বাসের সঙ্গে শরীরে ঢুকে রোগ ঘটায়; ইস্পাত-শিল্প, খনি ও বিদ্যুৎকেন্দ্রের ছাই-কণাও একই ধরনের দূষক।\n\nশীতকালে শহরে যে ঘন কুয়াশার মতো স্তর দেখা যায়, তা হল **স্মগ (smog)** — ধোঁয়া (smoke) ও কুয়াশার (fog) মিশ্রণ। ধোঁয়ার নাইট্রোজেন অক্সাইড অন্য দূষকের সঙ্গে মিশে স্মগ গড়ে; এটি শিশুদের মধ্যে হাঁপানি, কাশি ও শ্বাসকষ্টের কারণ হয়। পরীক্ষায় 'স্মগ কী দিয়ে তৈরি' প্রশ্নটি প্রায়ই আসে — উত্তর: ধোঁয়া + কুয়াশা।",
+      "deep": "দূষকগুলিকে উৎস অনুযায়ী জোড়া বেঁধে মনে রাখো: CO — অসম্পূর্ণ দহন (যানবাহন); SO₂ — কয়লার দহন (বিদ্যুৎকেন্দ্র) ও শোধনাগার; NOx — যানবাহন ও শোধনাগার; সূক্ষ্ম কণা — ডিজেল যান, ইস্পাত, খনি, ছাই। স্বাস্থ্যপ্রভাবের দিক থেকে CO রক্তে, SO₂ ফুসফুসে, কণা শ্বাসনালিতে আঘাত করে — এই ত্রয়ী মিলিয়ে পড়লে MATCH ধরনের প্রশ্ন সহজ হয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "CO বনাম CO₂",
+          "body": "কার্বন মনোক্সাইড (CO) অসম্পূর্ণ দহনের বিষাক্ত গ্যাস — রক্তের অক্সিজেন-বহন ক্ষমতা কমায়। কার্বন ডাই-অক্সাইড (CO₂) স্বাভাবিক দহনের উৎপাদ; অতিরিক্ত হলে এটি গ্রিনহাউস গ্যাস হিসেবে বিশ্ব উষ্ণায়ন ঘটায় (অংশ s3)। দুটিকে গুলিয়ো না।",
+          "claims": [
+            "c04",
+            "c13"
+          ]
+        }
+      ],
+      "claims": [
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c08"
+      ]
+    },
+    {
+      "id": "s3",
+      "heading": "অ্যাসিড বৃষ্টি, তাজমহল ও গ্রিনহাউস প্রভাব",
+      "quick": "SO₂ ও NO₂ জলীয় বাষ্পের সঙ্গে মিশে সালফিউরিক ও নাইট্রিক অ্যাসিড তৈরি করে — বৃষ্টির সঙ্গে নেমে এলে তা অ্যাসিড বৃষ্টি, যা তাজমহলের মার্বেল ক্ষয় করে ('মার্বেল ক্যানসার')। অন্যদিকে CO₂, মিথেন প্রভৃতি গ্রিনহাউস গ্যাস তাপ আটকে বিশ্ব উষ্ণায়ন ঘটায়। দিল্লিতে CNG-তে রূপান্তর বায়ু পরিষ্কার করেছে।",
+      "standard": "আগ্রার তাজমহল — সাদা মার্বেলের এই বিশ্ববিখ্যাত সৌধ আজ বায়ু দূষণের হুমকিতে। NCERT-র কেস স্টাডি অনুযায়ী, আগ্রার আশেপাশের রাবার প্রক্রিয়াকরণ, অটোমোবাইল ও রাসায়নিক শিল্প এবং বিশেষ করে **মথুরা তেল শোধনাগার** থেকে নির্গত SO₂ ও NO₂-ই প্রধান অভিযুক্ত। এই গ্যাসগুলি বায়ুর জলীয় বাষ্পের সঙ্গে বিক্রিয়া করে **সালফিউরিক অ্যাসিড ও নাইট্রিক অ্যাসিড** তৈরি করে; অ্যাসিড বৃষ্টির সঙ্গে নেমে মার্বেল ক্ষয় করে। এই ঘটনারই নাম **'মার্বেল ক্যানসার'**। শোধনাগারের কালি-কণা মার্বেল হলুদ হওয়ারও কারণ। তাজ রক্ষায় সুপ্রিম কোর্ট শিল্পগুলিকে CNG ও LPG-এর মতো পরিষ্কার জ্বালানি এবং যানবাহনকে সিসাহীন পেট্রোল ব্যবহারের নির্দেশ দেয়।\n\nএকই অধ্যায়ে NCERT গ্রিনহাউস প্রভাবের কথাও বলে: CO₂ তাপ আটকে রাখে, ফলে বায়ুমণ্ডলের গড় তাপমাত্রা ধীরে ধীরে বাড়ে — এটাই **বিশ্ব উষ্ণায়ন (global warming)**। CO₂ ছাড়া মিথেন, নাইট্রাস অক্সাইড ও জলীয় বাষ্পও গ্রিনহাউস গ্যাস। জীবাশ্ম জ্বালানি পোড়ানো বাড়ায় CO₂ বেড়েই চলেছে — একাদশ শ্রেণির ভূগোলও একই কথা বলেছে। জলবায়ু পরিবর্তনের বিস্তারিত আলোচনা পরের অধ্যায় ENV-04-এর বিষয়; এখানে শুধু দূষণ-সংযোগটুকু মনে রাখো।\n\nনিয়ন্ত্রণের সফল উদাহরণ দিল্লি: একসময় বিশ্বের অন্যতম দূষিত শহর হলেও CNG ও সিসাহীন পেট্রোলে রূপান্তরের পর সেখানকার বায়ু পরিষ্কার হয় — NCERT এই ঘটনাকে বায়ু দূষণ নিয়ন্ত্রণের সাফল্যের গল্প হিসেবে তুলে ধরেছে।",
+      "deep": "Clerkship ২০২৩-তে সরাসরি প্রশ্ন এসেছিল: 'অ্যাসিড বৃষ্টি হয় বায়ুমণ্ডলে কোন গ্যাসগুলির ঘনত্ব বাড়লে?' — সঠিক উত্তর SO₂ ও NO₂ (CO₂ ও CO নয়)। এই অধ্যায়ের তথ্য দিয়েই সেই প্রশ্নের উত্তর দেওয়া যায়। অ্যাসিড বৃষ্টির শৃঙ্খলটি মুখস্থ রাখো: SO₂/NO₂ → সালফিউরিক/নাইট্রিক অ্যাসিড → অ্যাসিড বৃষ্টি → মার্বেল ক্ষয় (মার্বেল ক্যানসার)।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষায় এসেছে",
+          "body": "WBPSC Clerkship ২০২৩ (Session-III, Q96): অ্যাসিড বৃষ্টির কারণ — বায়ুমণ্ডলে SO₂ ও NO₂-এর ঘনত্ব বৃদ্ধি। ভুল বিকল্পে ছিল Ozone and Dust, CO₂ and CO, SO₂ and CO — শেষ জোড়াটি সবচেয়ে কাছের ফাঁদ।",
+          "claims": [
+            "c09"
+          ]
+        }
+      ],
+      "claims": [
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c46"
+      ]
+    },
+    {
+      "id": "s4",
+      "heading": "ওজোন স্তর ও CFC: ঢাল যখন ফুটো হয়",
+      "quick": "ওজোন (O₃) স্ট্র্যাটোস্ফিয়ারে ১০–৫০ কিমি উচ্চতায় থেকে সূর্যের ক্ষতিকর অতিবেগুনি (UV) রশ্মি শোষণ করে — UV ত্বকের ক্যানসার ঘটাতে পারে। রেফ্রিজারেটর-এসিতে ব্যবহৃত CFC এই স্তরের ক্ষতি করে; ১৯৮০-এর দশকে ওজোন দ্রুত কমতে থাকে, ১৯৮৭ সালে UNEP চুক্তিতে CFC উৎপাদন ১৯৮৬-এর স্তরে স্থগিত করা হয়।",
+      "standard": "ওজোন হল তিনটি অক্সিজেন পরমাণু দিয়ে গঠিত অণু (O₃)। মাটির কাছাকাছি ওজোন বিষাক্ত হলেও বায়ুমণ্ডলের উপরের স্তরে এটি অপরিহার্য কাজ করে — সূর্যের **অতিবেগুনি (UV) রশ্মি** শোষণ করে পৃথিবীর পৃষ্ঠকে রক্ষা করে। এই রশ্মি জীবের পক্ষে অত্যন্ত ক্ষতিকর; মানুষের ক্ষেত্রে এটি **ত্বকের ক্যানসার** ঘটায় বলে জানা যায়। ভূগোলের NCERT অনুযায়ী ওজোন থাকে ভূপৃষ্ঠের **১০ থেকে ৫০ কিমি** উচ্চতায়, এবং স্তরটি যে বায়ুস্তরে অবস্থিত তার নাম **স্ট্র্যাটোস্ফিয়ার** — ট্রপোপজের ওপরে ৫০ কিমি পর্যন্ত বিস্তৃত এই স্তরের প্রধান বৈশিষ্ট্যই ওজোন স্তর।\n\nসমস্যা শুরু হয় কৃত্রিম রাসায়নিক **ক্লোরোফ্লুরোকার্বন (CFC)** দিয়ে। রেফ্রিজারেটর, এয়ার কন্ডিশনার, অ্যারোসল স্প্রে ও অগ্নিনির্বাপকে ব্যবহৃত CFC ওজোন স্তরের ক্ষতি করে। ১৯৮০-এর দশকে বায়ুমণ্ডলে ওজোনের পরিমাণ তীব্রভাবে কমতে শুরু করে এবং গবেষণায় এর সঙ্গে CFC-র সম্পর্ক প্রমাণিত হয়।\n\nপ্রতিক্রিয়া হিসেবে ১৯৮৭ সালে জাতিসংঘ পরিবেশ কর্মসূচি (UNEP) একটি আন্তর্জাতিক চুক্তি সম্পাদন করে, যাতে **CFC উৎপাদন ১৯৮৬ সালের স্তরে স্থগিত (freeze)** রাখা হয়। বর্তমানে সারা বিশ্বে সব প্রস্তুতকারক সংস্থার জন্য **CFC-মুক্ত রেফ্রিজারেটর** তৈরি করা বাধ্যতামূলক এবং CFC-র বদলে কম ক্ষতিকর রাসায়নিক ব্যবহৃত হচ্ছে।",
+      "deep": "এই অংশ থেকে পরীক্ষায় তিন ধরনের প্রশ্ন আসে: (১) ওজোন কোন স্তরে — স্ট্র্যাটোস্ফিয়ার (Clerkship ২০২৩, Session-II Q53-এ এসেছে: 'কোন স্তর UV রশ্মি পৃথিবীতে আসতে বাধা দেয়?' উত্তর স্ট্র্যাটোস্ফিয়ার); (২) CFC কোথায় ব্যবহৃত হয় — রেফ্রিজারেটরে (WBCS ২০২২ Q142); (৩) ওজোন দিবস ১৬ সেপ্টেম্বর (WBCS ২০১৭ Q63) — এই তারিখটি আমাদের উৎস-বইগুলিতে নেই, তাই এটি আলাদা করে মনে রাখতে হবে; তবে ১৯৮৭ সালের চুক্তির বছরটি উৎস থেকেই শেখানো হল।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "ওজোন দিবস: উৎসের সীমা",
+          "body": "আন্তর্জাতিক ওজোন স্তর সংরক্ষণ দিবস পালিত হয় ১৬ সেপ্টেম্বর — WBCS ২০১৭-তে এই প্রশ্ন এসেছিল। আমাদের ভিত্তি-উৎস NCERT বইগুলিতে এই তারিখটি নেই বলে অধ্যায়ের মূল পাঠে তা দাবি করা হয়নি; পরীক্ষার জন্য তারিখটি আলাদা করে মনে রাখার পরামর্শ দেওয়া হল।",
+          "claims": [
+            "c31"
+          ]
+        }
+      ],
+      "claims": [
+        "c07",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c44",
+        "c45"
+      ]
+    },
+    {
+      "id": "s5",
+      "heading": "জল দূষণ: পয়ঃবর্জ্য, শিল্প-বর্জ্য ও গঙ্গার গল্প",
+      "quick": "পয়ঃবর্জ্য, বিষাক্ত শিল্প-রাসায়নিক ও খেতের সার-কীটনাশক জল দূষণের প্রধান উৎস। পয়ঃমিশ্রিত জল কলেরা-টাইফয়েড-জন্ডিস ছড়ায়; শিল্প-বর্জ্যের আর্সেনিক-সিসা-ফ্লুরাইড বিষাক্ত। গঙ্গা বিশ্বের দশটি বিপন্ন নদীর একটি — তাকে বাঁচাতে ১৯৮৫ সালে গঙ্গা অ্যাকশন প্ল্যান ও ২০১৬ সালে NMCG চালু হয়।",
+      "standard": "জল আমাদের জীবনরেখা, অথচ নদী-পুকুর-হ্রদে সব ধরনের বর্জ্য ফেলে আমরা তাকেই দূষিত করছি। পয়ঃবর্জ্য হল বাড়ি, শিল্প, হাসপাতাল ও অফিস থেকে নির্গত বর্জ্য জল — এতে ঝুলন্ত কঠিন পদার্থ, জৈব-অজৈব অশুদ্ধি, পুষ্টি উপাদান ও রোগসৃষ্টিকারী ব্যাকটেরিয়াসহ নানা জীবাণু থাকে। পয়ঃমিশ্রিত জলে থাকা ব্যাকটেরিয়া, ভাইরাস, ছত্রাক ও পরজীবী **কলেরা, টাইফয়েড ও জন্ডিসের** মতো রোগ ঘটায়। বিশ্বে এখনও একশো কোটির বেশি মানুষ নিরাপদ পানীয় জল পায় না।\n\nশিল্প-বর্জ্য আরও বিষাক্ত: তেল শোধনাগার, কাগজ, বস্ত্র, চিনি ও রাসায়নিক কারখানা ক্ষতিকর রাসায়নিক নদীতে ফেলে। এই রাসায়নিকের মধ্যে **আর্সেনিক, সিসা ও ফ্লুরাইড** উদ্ভিদ ও প্রাণীর দেহে বিষাক্ততা ঘটায়। কৃষিক্ষেত্রের কীটনাশক ও আগাছানাশক জলে দ্রবীভূত হয়ে জলাশয়ে ধুয়ে যায়, আবার মাটি ভেদ করে **ভূগর্ভস্থ জলও** দূষিত করে। খেত থেকে আসা অতিরিক্ত সার জলাশয়ে শৈবালের অতিবৃদ্ধি ঘটায়; শৈবাল মরলে বিয়োজক ব্যাকটেরিয়া জলের অক্সিজেন শেষ করে ফেলে, ফলে মাছসহ জলজ প্রাণী মারা যেতে পারে। এমনকি বিদ্যুৎকেন্দ্রের **গরম জলও** দূষক — নদীর তাপমাত্রা বাড়িয়ে জলজ জীবের ক্ষতি করে।\n\nগঙ্গার অবস্থা এই সমস্যার সবচেয়ে বড় ছবি। WWF-এর সমীক্ষায় গঙ্গা বিশ্বের **দশটি সবচেয়ে বিপন্ন নদীর** একটি; অনেক জায়গায় দূষণ এত বেশি যে নদী 'মৃত' — জলজ প্রাণী বাঁচতে পারে না। তীরের শহরগুলি আবর্জনা, অপরিশোধিত পয়ঃবর্জ্যসহ নানা ক্ষতিকর জিনিস সরাসরি নদীতে ফেলে। কানপুর অংশটি সবচেয়ে দূষিতগুলির একটি — সেখানে ৫০০০-এর বেশি শিল্প (সার, ডিটারজেন্ট, চামড়া, রং) বিষাক্ত বর্জ্য ফেলে। নদীকে বাঁচাতে ১৯৮৫ সালে চালু হয় **গঙ্গা অ্যাকশন প্ল্যান** এবং ২০১৬ সালে নতুন উদ্যোগ **জাতীয় স্বচ্ছ গঙ্গা মিশন (NMCG)**।",
+      "deep": "জল দূষণের উৎসগুলিকে তিন ভাগে মনে রাখো: (১) পয়ঃবর্জ্য — রোগজীবাণু ও জৈব বর্জ্য; (২) শিল্প-বর্জ্য — আর্সেনিক, সিসা, ফ্লুরাইডের মতো বিষাক্ত রাসায়নিক; (৩) কৃষি-বর্জ্য — সার ও কীটনাশক, যা শৈবাল-অতিবৃদ্ধি ও ভূগর্ভস্থ জলদূষণ ঘটায়। তাপ-দূষণ (গরম জল) চতুর্থ, কম পরিচিত ভাগ — পরীক্ষায় 'কোনটি দূষক নয়' ধরনের প্রশ্নে এটি ফাঁদ হিসেবে আসে।",
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "পানীয় জল",
+          "body": "পান করার উপযোগী জলকে বলে potable water। দেখতে পরিষ্কার ও গন্ধহীন জলেও রোগজীবাণু থাকতে পারে, তাই পান করার আগে জল শুদ্ধ করা জরুরি — ফোটানো বা ক্লোরিনেশন (অংশ s6) তার উপায়।",
+          "claims": [
+            "c26",
+            "c22"
+          ]
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c37",
+        "c38",
+        "c43"
+      ]
+    },
+    {
+      "id": "s6",
+      "heading": "বর্জ্য, শব্দ দূষণ ও স্থায়ী দূষক: নিয়ন্ত্রণের উপায়",
+      "quick": "বর্জ্য দুই ভাগের — জৈব-বিয়োজ্য ও অজৈব-বিয়োজ্য (যেমন প্লাস্টিক, যা ব্যাকটেরিয়া ভাঙতে পারে না)। অবিয়োজ্য কীটনাশক খাদ্যশৃঙ্খলে জমে জৈব বিবর্ধন ঘটায়। শব্দ দূষণ নিয়ন্ত্রণে আছে ২০০০ সালের বিধি (নীরব অঞ্চল, রাতে লাউডস্পিকার নিষেধ), আর স্থায়ী জৈব দূষক (POPs) নিয়ন্ত্রণে স্টকহোম কনভেনশন (কার্যকর ২০০৪; ভারতের অনুমোদন ২০০৬)।",
+      "standard": "আমাদের তৈরি বর্জ্যের বড় অংশই এখন অজৈব-বিয়োজ্য। যেসব পদার্থ জৈবিক প্রক্রিয়ায় ভেঙে যায় তারা **জৈব-বিয়োজ্য (biodegradable)**; যারা ভাঙে না তারা **অজৈব-বিয়োজ্য**। প্লাস্টিকের মতো মানবসৃষ্ট পদার্থ ব্যাকটেরিয়া বা মৃতজীবীরা ভাঙতে পারে না, তাই পরিবেশে দীর্ঘদিন টিকে থাকে। কীটনাশকের ক্ষেত্রে সমস্যা আরও গভীর: এই রাসায়নিক মাটি ও জল থেকে উদ্ভিদের মাধ্যমে খাদ্যশৃঙ্খলে ঢোকে এবং অবিয়োজ্য বলে প্রতিটি পুষ্টিস্তরে ক্রমশ জমতে থাকে; মানুষ শীর্ষ স্তরে থাকায় তার দেহেই ঘনত্ব সর্বাধিক — এই ঘটনার নাম **জৈব বিবর্ধন (biological magnification)**। এ কারণেই ধোয়ার পরও শস্য-শাকসবজিতে কীটনাশকের অবশেষ থেকে যেতে পারে।\n\nবর্জ্য জলের ক্ষেত্রে সমাধান হল শোধন। পয়ঃশোধনাগারে (WWTP) জল প্রথমে **বার স্ক্রিনের** মধ্য দিয়ে যায় — ন্যাকড়া, লাঠি, ক্যান, প্লাস্টিকের প্যাকেটের মতো বড় বস্তু সরে যায়। পরে বালি-নুড়ি বসে যায়, থিতানো কাদা (sludge) সরিয়ে জল পরিষ্কার করা হয়; বায়ু চালিয়ে বায়বীয় ব্যাকটেরিয়া অবশিষ্ট জৈব বর্জ্য খেয়ে ফেলে। শুকনো কাদা **সার** হিসেবে ব্যবহৃত হয়, আর অবায়বীয় ব্যাকটেরিয়া দিয়ে পচানো কাদা থেকে তৈরি **বায়োগ্যাস** জ্বালানি বা বিদ্যুতের কাজে লাগে। প্রয়োজনে ছাড়ার আগে জল ক্লোরিন বা ওজোন দিয়ে জীবাণুমুক্ত করা হয়; পানীয় জলের ক্ষেত্রে ক্লোরিন ট্যাবলেট বা ব্লিচিং পাউডার দিয়ে **ক্লোরিনেশন** প্রচলিত পদ্ধতি।\n\n**শব্দ দূষণও** আইনের আওতায় আছে। শিল্প, নির্মাণ, জেনারেটর, লাউডস্পিকার ও যানবাহনের হর্ন থেকে বাড়তে থাকা শব্দ মানুষের স্বাস্থ্য ও মানসিক সুস্থতার ক্ষতি করে — এই পর্যবেক্ষণ থেকেই পরিবেশ (সুরক্ষা) আইন, ১৯৮৬-এর অধীনে তৈরি হয় **শব্দ দূষণ (নিয়ন্ত্রণ ও প্রতিরোধ) বিধি, ২০০০**। এই বিধিতে হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারপাশে কমপক্ষে **১০০ মিটার** এলাকা **নীরব অঞ্চল** ঘোষণা করা যায়; রাত **১০টা থেকে সকাল ৬টা** পর্যন্ত বদ্ধ প্রাঙ্গণ ছাড়া লাউডস্পিকার চালানো নিষিদ্ধ; আর নির্ধারিত মানের চেয়ে **১০ dB(A)** বেশি শব্দ হলে কর্তৃপক্ষের কাছে অভিযোগ করা যায়।\n\nসবশেষে, বিশ্বব্যাপী নিয়ন্ত্রণের উদাহরণ **স্টকহোম কনভেনশন**। **স্থায়ী জৈব দূষক (POPs)** হল সেইসব রাসায়নিক, যা পরিবেশে দীর্ঘদিন অক্ষত থাকে, দূরদূরান্তে ছড়িয়ে পড়ে, জীবের চর্বিযুক্ত কলায় জমা হয় এবং মানুষ ও বন্যপ্রাণীর পক্ষে বিষাক্ত। ১৭ মে **২০০৪** সালে কার্যকর হওয়া এই চুক্তিতে সরকারগুলিকে POPs-এর নির্গমন নির্মূল বা হ্রাস করতে হয়। ভারত চুক্তিটি অনুমোদন করে ১৩ জানুয়ারি **২০০৬**; ভারতে DDT কৃষিক্ষেত্রে নিষিদ্ধ হলেও রোগবাহক নিয়ন্ত্রণের ছাড়ের ভিত্তিতে সীমিতভাবে উৎপাদিত হয়।",
+      "deep": "দুটি তারিখ-জোড়া পরীক্ষায় বারবার গুলিয়ে দেওয়া হয়: স্টকহোম কনভেনশন কার্যকর ২০০৪, ভারতের অনুমোদন ২০০৬। একইভাবে গঙ্গা অ্যাকশন প্ল্যান ১৯৮৫ বনাম NMCG ২০১৬। আরেকটি সীমা স্বীকার করা জরুরি: WBCS ২০১৯-তে এসেছিল 'কত dB-এর বেশি শব্দ হলে শব্দ দূষণ হয়?' (সরকারি উত্তর ৮০–৯৯ dB) — আমাদের উৎসগুলিতে এই নির্দিষ্ট সংখ্যাটি নেই; বিধির জোনভিত্তিক মান (আবাসিক ৫৫/৪৫ dB ইত্যাদি) এই অধ্যায়ে শেখানো হয়নি, কারণ CPCB-র পৃষ্ঠায় পাওয়া বিধির মূল পাঠে তালিকাটি (Schedule) উদ্ধৃত হয়নি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "শব্দের সীমা: উৎসের সীমা",
+          "body": "WBCS ২০১৯ (Q148)-এ শব্দ দূষণের সীমা হিসেবে ৮০–৯৯ dB গৃহীত হয়েছিল। এই অধ্যায়ের উৎসে (CPCB-তে প্রকাশিত বিধির পাঠ) সেই সংখ্যাটি নেই বলে এখানে তা দাবি করা হয়নি; বিধির যেসব বিধান উৎসে আছে — নীরব অঞ্চল (১০০ মিটার), রাতে লাউডস্পিকার নিষেধ, ১০ dB(A) বেশি হলে অভিযোগ — সেগুলিই শেখানো হয়েছে।",
+          "claims": [
+            "c48",
+            "c50"
+          ]
+        }
+      ],
+      "claims": [
+        "c26",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c47",
+        "c48",
+        "c49",
+        "c50",
+        "c51",
+        "c52",
+        "c53",
+        "c54",
+        "c55"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "গঙ্গা অ্যাকশন প্ল্যান চালু",
+      "when": "১৯৮৫",
+      "what": "গঙ্গার দূষণ কমানোর লক্ষ্যে উচ্চাভিলাষী পরিকল্পনা চালু হয়।",
+      "why_it_matters": "ভারতের প্রথম বড় নদী-পরিষ্কার কর্মসূচি; বছরটি পরীক্ষায় বারবার আসে।",
+      "section": "s5",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "title": "UNEP-এর CFC-স্থগিতকরণ চুক্তি",
+      "when": "১৯৮৭",
+      "what": "UNEP-এর উদ্যোগে CFC উৎপাদন ১৯৮৬ সালের স্তরে স্থগিত রাখার আন্তর্জাতিক চুক্তি হয়।",
+      "why_it_matters": "ওজোন-ক্ষয়কারী পদার্থ নিয়ন্ত্রণের বিশ্বব্যাপী পদক্ষেপের সূচনা (মন্ট্রিল প্রোটোকলের যুগ)।",
+      "section": "s4",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "title": "শব্দ দূষণ বিধি প্রণয়ন",
+      "when": "২০০০",
+      "what": "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬-এর অধীনে শব্দ দূষণ (নিয়ন্ত্রণ ও প্রতিরোধ) বিধি, ২০০০ তৈরি হয়।",
+      "why_it_matters": "ভারতে শব্দ দূষণের প্রথম পূর্ণাঙ্গ আইনি কাঠামো — নীরব অঞ্চল ও রাতে লাউডস্পিকার নিষেধ এরই অংশ।",
+      "section": "s6",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "title": "স্টকহোম কনভেনশন কার্যকর",
+      "when": "২০০৪",
+      "what": "স্থায়ী জৈব দূষক (POPs) সংক্রান্ত স্টকহোম কনভেনশন ১৭ মে ২০০৪ কার্যকর হয়।",
+      "why_it_matters": "POPs নির্গমন নির্মূল/হ্রাসে সরকারগুলির বাধ্যবাধকতা শুরু; ভারত অনুমোদন করে ২০০৬ সালে।",
+      "section": "s6",
+      "claims": [
+        "c53",
+        "c54"
+      ]
+    },
+    {
+      "title": "জাতীয় স্বচ্ছ গঙ্গা মিশন (NMCG) চালু",
+      "when": "২০১৬",
+      "what": "গঙ্গা পরিষ্কারে ভারত সরকার নতুন উদ্যোগ NMCG চালু করে।",
+      "why_it_matters": "১৯৮৫-র গঙ্গা অ্যাকশন প্ল্যানের পরের প্রজন্মের কর্মসূচি — দুটি বছর জোড়ায় মনে রাখা হয়।",
+      "section": "s5",
+      "claims": [
+        "c19"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1985,
+      "when": "১৯৮৫",
+      "label": "গঙ্গা অ্যাকশন প্ল্যান চালু",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 1987,
+      "when": "১৯৮৭",
+      "label": "UNEP চুক্তিতে CFC উৎপাদন ১৯৮৬-এর স্তরে স্থগিত",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "sort_year": 2000,
+      "when": "২০০০",
+      "label": "শব্দ দূষণ (নিয়ন্ত্রণ ও প্রতিরোধ) বিধি প্রণয়ন",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "sort_year": 2004,
+      "when": "২০০৪",
+      "label": "স্টকহোম কনভেনশন কার্যকর (১৭ মে)",
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "sort_year": 2006,
+      "when": "২০০৬",
+      "label": "ভারত স্টকহোম কনভেনশন অনুমোদন করে (১৩ জানুয়ারি)",
+      "claims": [
+        "c54"
+      ]
+    },
+    {
+      "sort_year": 2016,
+      "when": "২০১৬",
+      "label": "জাতীয় স্বচ্ছ গঙ্গা মিশন (NMCG) চালু",
+      "claims": [
+        "c19"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "দূষক (Pollutant)",
+      "meaning": "যে পদার্থ বায়ু, জল বা মাটিকে দূষিত করে।",
+      "section": "s1"
+    },
+    {
+      "term": "স্মগ (Smog)",
+      "meaning": "ধোঁয়া ও কুয়াশার মিশ্রণে তৈরি ঘন স্তর; শিশুদের হাঁপানি, কাশি ও শ্বাসকষ্ট ঘটায়।",
+      "section": "s2"
+    },
+    {
+      "term": "অ্যাসিড বৃষ্টি (Acid rain)",
+      "meaning": "SO₂ ও NO₂ থেকে তৈরি সালফিউরিক ও নাইট্রিক অ্যাসিড বৃষ্টির সঙ্গে নেমে আসা।",
+      "section": "s3"
+    },
+    {
+      "term": "মার্বেল ক্যানসার (Marble cancer)",
+      "meaning": "অ্যাসিড বৃষ্টিতে মার্বেল পাথরের ক্ষয় — তাজমহলের ক্ষেত্রে ব্যবহৃত পরিভাষা।",
+      "section": "s3"
+    },
+    {
+      "term": "গ্রিনহাউস গ্যাস",
+      "meaning": "CO₂, মিথেন, নাইট্রাস অক্সাইড ও জলীয় বাষ্প — যারা তাপ আটকে গ্রিনহাউস প্রভাব ঘটায়।",
+      "section": "s3"
+    },
+    {
+      "term": "ওজোন স্তর",
+      "meaning": "স্ট্র্যাটোস্ফিয়ারে ১০–৫০ কিমি উচ্চতায় ওজোনের স্তর, যা UV রশ্মি শোষণ করে।",
+      "section": "s4"
+    },
+    {
+      "term": "CFC (ক্লোরোফ্লুরোকার্বন)",
+      "meaning": "রেফ্রিজারেটর, এসি ও অ্যারোসল স্প্রেতে ব্যবহৃত কৃত্রিম রাসায়নিক, যা ওজোন স্তরের ক্ষতি করে।",
+      "section": "s4"
+    },
+    {
+      "term": "পয়ঃবর্জ্য (Sewage)",
+      "meaning": "বাড়ি, শিল্প, হাসপাতাল ও অফিস থেকে নির্গত বর্জ্য জল।",
+      "section": "s5"
+    },
+    {
+      "term": "পানীয় জল (Potable water)",
+      "meaning": "পান করার উপযোগী শুদ্ধ জল।",
+      "section": "s5"
+    },
+    {
+      "term": "জৈব-বিয়োজ্য (Biodegradable)",
+      "meaning": "জৈবিক প্রক্রিয়ায় ভেঙে যায় এমন পদার্থ; বিপরীতটি অজৈব-বিয়োজ্য, যেমন প্লাস্টিক।",
+      "section": "s6"
+    },
+    {
+      "term": "জৈব বিবর্ধন (Biological magnification)",
+      "meaning": "অবিয়োজ্য রাসায়নিকের খাদ্যশৃঙ্খলের প্রতিটি পুষ্টিস্তরে ক্রমবর্ধমান জমা, শীর্ষে সর্বাধিক।",
+      "section": "s6"
+    },
+    {
+      "term": "নীরব অঞ্চল (Silence zone)",
+      "meaning": "হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারপাশে কমপক্ষে ১০০ মিটার এলাকা, যেখানে শব্দের কড়া নিয়ন্ত্রণ থাকে।",
+      "section": "s6"
+    },
+    {
+      "term": "POPs (স্থায়ী জৈব দূষক)",
+      "meaning": "পরিবেশে দীর্ঘদিন অক্ষত থাকা, জীবের চর্বিতে জমা হওয়া বিষাক্ত জৈব রাসায়নিক; স্টকহোম কনভেনশনের বিষয়।",
+      "section": "s6"
+    },
+    {
+      "term": "ক্লোরিনেশন (Chlorination)",
+      "meaning": "ক্লোরিন ট্যাবলেট বা ব্লিচিং পাউডার দিয়ে জল শুদ্ধ করার রাসায়নিক পদ্ধতি।",
+      "section": "s6"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "জ্বালানি দহন থেকে অ্যাসিড বৃষ্টি",
+      "causes": [
+        "বিদ্যুৎকেন্দ্রে কয়লার দহন ও শোধনাগার থেকে SO₂ ও NO₂ নির্গমন"
+      ],
+      "event": "গ্যাসগুলি জলীয় বাষ্পের সঙ্গে মিশে সালফিউরিক ও নাইট্রিক অ্যাসিড তৈরি করে এবং বৃষ্টির সঙ্গে নেমে আসে",
+      "results": [
+        "তাজমহলের মার্বেলের ক্ষয় ('মার্বেল ক্যানসার')",
+        "সুপ্রিম কোর্টের নির্দেশে তাজ অঞ্চলে CNG/LPG ও সিসাহীন পেট্রোল চালু"
+      ],
+      "section": "s3",
+      "claims": [
+        "c09",
+        "c11"
+      ]
+    },
+    {
+      "title": "CFC থেকে ওজোন ক্ষয়",
+      "causes": [
+        "রেফ্রিজারেটর, এসি ও স্প্রেতে CFC-র ব্যাপক ব্যবহার"
+      ],
+      "event": "১৯৮০-এর দশকে বায়ুমণ্ডলে ওজোনের পরিমাণ তীব্রভাবে কমতে থাকে",
+      "results": [
+        "UV রশ্মির ঝুঁকি বৃদ্ধি (ত্বকের ক্যানসারসহ)",
+        "১৯৮৭ সালে UNEP চুক্তিতে CFC উৎপাদন স্থগিত; পরে CFC-মুক্ত রেফ্রিজারেটর বাধ্যতামূলক"
+      ],
+      "section": "s4",
+      "claims": [
+        "c30",
+        "c31",
+        "c32"
+      ]
+    },
+    {
+      "title": "সার-কীটনাশক থেকে জলজ প্রাণীর মৃত্যু",
+      "causes": [
+        "খেত থেকে অতিরিক্ত সার ও কীটনাশক ধুয়ে জলাশয়ে যাওয়া"
+      ],
+      "event": "শৈবালের অতিবৃদ্ধি; শৈবাল মরলে বিয়োজক ব্যাকটেরিয়া জলের অক্সিজেন শেষ করে",
+      "results": [
+        "দ্রবীভূত অক্সিজেন কমে জলজ প্রাণীর মৃত্যু",
+        "কীটনাশক ভূগর্ভস্থ জলও দূষিত করে"
+      ],
+      "section": "s5",
+      "claims": [
+        "c24",
+        "c23"
+      ]
+    },
+    {
+      "title": "অবিয়োজ্য রাসায়নিক থেকে জৈব বিবর্ধন",
+      "causes": [
+        "কীটনাশকের মতো অবিয়োজ্য রাসায়নিক মাটি ও জল থেকে খাদ্যশৃঙ্খলে প্রবেশ"
+      ],
+      "event": "রাসায়নিক প্রতিটি পুষ্টিস্তরে ক্রমশ বেশি ঘনত্বে জমা হয়",
+      "results": [
+        "শীর্ষ স্তরে থাকা মানুষের দেহে সর্বাধিক ঘনত্ব",
+        "ধোয়ার পরও খাদ্যে কীটনাশকের অবশেষ থেকে যাওয়া"
+      ],
+      "section": "s6",
+      "claims": [
+        "c33",
+        "c36"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "অ্যাসিড বৃষ্টি = SO₂ + NO₂ (Clerkship ২০২৩-তে এসেছে) — CO₂/CO জোড়াটি ফাঁদ।",
+      "section": "s3"
+    },
+    {
+      "point": "ওজোন স্তর স্ট্র্যাটোস্ফিয়ারে, ১০–৫০ কিমি (Clerkship ২০২৩-তে এসেছে)।",
+      "section": "s4"
+    },
+    {
+      "point": "CFC রেফ্রিজারেটরে ব্যবহৃত হয় (WBCS ২০২২) এবং ওজোন ক্ষয় করে; ১৯৮৭ UNEP চুক্তি।",
+      "section": "s4"
+    },
+    {
+      "point": "কার্বন মনোক্সাইড: অসম্পূর্ণ দহন + রক্তের অক্সিজেন-বহন ক্ষমতা হ্রাস — জোড়ায় মনে রাখো।",
+      "section": "s2"
+    },
+    {
+      "point": "বছরের জোড়া: গঙ্গা অ্যাকশন প্ল্যান ১৯৮৫ / NMCG ২০১৬; স্টকহোম কার্যকর ২০০৪ / ভারতের অনুমোদন ২০০৬।",
+      "section": "s5"
+    },
+    {
+      "point": "শব্দ দূষণ বিধি ২০০০: নীরব অঞ্চল ১০০ মিটার, রাত ১০টা–সকাল ৬টা লাউডস্পিকার নিষেধ, ১০ dB(A) বেশি হলে অভিযোগ।",
+      "section": "s6"
+    },
+    {
+      "point": "জৈব বিবর্ধন বনাম শৈবাল-অতিবৃদ্ধি: প্রথমটি খাদ্যশৃঙ্খলে বিষ জমা, দ্বিতীয়টি সারে অক্সিজেন-শূন্যতা।",
+      "section": "s6"
+    },
+    {
+      "point": "স্মগ = ধোঁয়া + কুয়াশা; 'মার্বেল ক্যানসার' = অ্যাসিড বৃষ্টিতে মার্বেল ক্ষয়।",
+      "section": "s2"
+    }
+  ],
+  "bengal_connection": {
+    "body": "গঙ্গা পশ্চিমবঙ্গের প্রাণরেখা: উত্তর, মধ্য ও পূর্ব ভারতের বিশাল জনগোষ্ঠীর জীবিকা এই নদীর ওপর নির্ভরশীল, আর নদীটি পশ্চিমবঙ্গের মধ্য দিয়ে প্রবাহিত হয়ে বঙ্গোপসাগরে মেশে — NCERT-র গঙ্গা-মানচিত্রে কলকাতার অবস্থানও চিহ্নিত। তাই গঙ্গা দূষণ ও NMCG-র মতো কর্মসূচি বাংলার ছাত্রের কাছে শুধু পরীক্ষার বিষয় নয়, নিজের রাজ্যের প্রশ্নও। পাশাপাশি মনে রাখা দরকার, বাংলার শিল্পাঞ্চলগুলির বর্জ্যও একই নদীতে মেশে — কানপুরের মতো শিল্প-বর্জ্যের সমস্যা হুগলি নদীর ক্ষেত্রেও প্রাসঙ্গিক, যদিও আমাদের উৎসে হুগলির আলাদা বিবরণ নেই বলে এখানে তা দাবি করা হয়নি।",
+    "claims": [
+      "c16",
+      "c17"
+    ]
+  },
+  "quick_revision": [
+    "দূষক = যে পদার্থ দূষণ ঘটায়; উৎস প্রাকৃতিক (বনাগ্নি, আগ্নেয়গিরি) ও মানবসৃষ্ট (কারখানা, যান)।",
+    "CO: অসম্পূর্ণ দহনের বিষাক্ত গ্যাস — রক্তের অক্সিজেন-বহন ক্ষমতা কমায়।",
+    "SO₂: কয়লার দহন ও শোধনাগার থেকে — ফুসফুসের স্থায়ী ক্ষতি করতে পারে।",
+    "স্মগ = ধোঁয়া + কুয়াশা; শিশুদের হাঁপানি-কাশির কারণ।",
+    "অ্যাসিড বৃষ্টি: SO₂ + NO₂ → সালফিউরিক ও নাইট্রিক অ্যাসিড; তাজমহলে 'মার্বেল ক্যানসার'।",
+    "ওজোন স্তর স্ট্র্যাটোস্ফিয়ারে (১০–৫০ কিমি); UV শোষণ করে, ত্বকের ক্যানসার থেকে রক্ষা করে।",
+    "CFC (ফ্রিজ-এসি-স্প্রে) ওজোন ক্ষয় করে; ১৯৮৭ UNEP চুক্তিতে উৎপাদন ১৯৮৬-এর স্তরে স্থগিত।",
+    "পয়ঃমিশ্রিত জল: কলেরা, টাইফয়েড, জন্ডিস; শিল্প-বর্জ্যে আর্সেনিক, সিসা, ফ্লুরাইড।",
+    "গঙ্গা: বিশ্বের দশটি বিপন্ন নদীর একটি; গঙ্গা অ্যাকশন প্ল্যান ১৯৮৫, NMCG ২০১৬।",
+    "জৈব বিবর্ধন: অবিয়োজ্য রাসায়নিক খাদ্যশৃঙ্খলে জমে মানুষের দেহে সর্বাধিক।",
+    "শব্দ দূষণ বিধি ২০০০: নীরব অঞ্চল ১০০ মিটার; রাত ১০টা–৬টা লাউডস্পিকার নিষেধ।",
+    "স্টকহোম কনভেনশন: POPs নিয়ন্ত্রণ; কার্যকর ২০০৪, ভারতের অনুমোদন ২০০৬; DDT কৃষিতে নিষিদ্ধ।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Science, Class VIII, Chapter 18: Pollution of Air and Water",
+      "class": "VIII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/hesc118.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Science, Class X, Chapter 15: Our Environment",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc115.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Science, Class VII, Chapter 18: Wastewater Story",
+      "class": "VII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/gesc118.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Fundamentals of Physical Geography, Class XI, Chapter 7: Composition and Structure of Atmosphere",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/kegy207.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "CPCB: Noise Pollution (Regulation and Control) Rules, 2000",
+      "publisher": "GOVT",
+      "url": "https://cpcb.nic.in/noise-pollution-rules/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Department of Chemicals and Petrochemicals: Stockholm Convention",
+      "publisher": "GOVT",
+      "url": "https://chemicals.gov.in/index.php/stockholm_convention",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Air pollution is the contamination of air by unwanted substances harmful to living and non-living things.",
+      "source": "s1",
+      "page": "p. 240",
+      "quote": "When air is contaminated by unwanted substances which have a harmful effect on both the living and the nonliving, it is referred to as air pollution."
+    },
+    {
+      "id": "c02",
+      "claim": "Substances that contaminate air are air pollutants; some come from natural sources like forest fires and volcanic eruptions.",
+      "source": "s1",
+      "page": "p. 240",
+      "quote": "The substances which contaminate the air are called air pollutants. Sometimes, such substances may come from natural sources like smoke and dust arising from forest fires or volcanic eruptions."
+    },
+    {
+      "id": "c03",
+      "claim": "Human sources of air pollutants include factories, power plants, automobile exhausts and burning of firewood and dung cakes.",
+      "source": "s1",
+      "page": "p. 240",
+      "quote": "The sources of air pollutants are factories, power plants, automobile exhausts and burning of firewood and dung cakes."
+    },
+    {
+      "id": "c04",
+      "claim": "Vehicles produce carbon monoxide, carbon dioxide, nitrogen oxides and smoke; CO from incomplete burning of petrol/diesel is poisonous and reduces the oxygen-carrying capacity of blood.",
+      "source": "s1",
+      "page": "p. 240",
+      "quote": "Vehicles produce high levels of pollutants like carbon monoxide, carbon dioxide, nitrogen oxides and smoke. Carbon monoxide is produced from incomplete burning of fuels such as petrol and diesel. It is a poisonous gas. It reduces the oxygen-carrying capacity of the blood."
+    },
+    {
+      "id": "c05",
+      "claim": "Smog is smoke plus fog; nitrogen oxides in smoke combine with other pollutants and fog to form smog, causing asthma, cough and wheezing in children.",
+      "source": "s1",
+      "page": "p. 241",
+      "quote": "This is smog which is made up of smoke and fog. Smoke may contain oxides of nitrogen which combine with other air pollutants and fog to form smog. The smog causes breathing difficulties such as asthma, cough and wheezing in children."
+    },
+    {
+      "id": "c06",
+      "claim": "Petroleum refineries are a major source of sulphur dioxide and nitrogen dioxide; SO2 from burning coal in power plants can cause respiratory problems including permanent lung damage.",
+      "source": "s1",
+      "page": "p. 241",
+      "quote": "Petroleum refineries are a major source of gaseous pollutants like sulphur dioxide and nitrogen dioxide. Sulphur dioxide is produced by combustion of fuels like coal in power plants. It can cause respiratory problems, including permanent lung damage."
+    },
+    {
+      "id": "c07",
+      "claim": "CFCs are used in refrigerators, air conditioners and aerosol sprays, and they damage the ozone layer.",
+      "source": "s1",
+      "page": "p. 241",
+      "quote": "Other kinds of pollutants are chlorofluorocarbons (CFCs) which are used in refrigerators, air conditioners and aerosol sprays. CFCs damage the ozone layer of the atmosphere."
+    },
+    {
+      "id": "c08",
+      "claim": "Diesel and petrol automobiles produce tiny suspended particles that reduce visibility and cause diseases when inhaled.",
+      "source": "s1",
+      "page": "p. 241",
+      "quote": "automobiles which burn diesel and petrol, also produce tiny particles which remain suspended in air for long periods. They reduce visibility. When inhaled, they cause diseases."
+    },
+    {
+      "id": "c09",
+      "claim": "SO2 and NO2 react with atmospheric water vapour to form sulphuric and nitric acid; acid rain corrodes marble, a phenomenon called marble cancer.",
+      "source": "s1",
+      "page": "p. 241",
+      "quote": "These gases react with the water vapour present in the atmosphere to form sulphuric acid and nitric acid. The acids drop down with rain, making the rain acidic. This is called acid rain. Acid rain corrodes the marble of the monument. The phenomenon is also called “Marble cancer”."
+    },
+    {
+      "id": "c10",
+      "claim": "Industries around Agra, especially the Mathura oil refinery, produce SO2 and NO2 that threaten the Taj Mahal.",
+      "source": "s1",
+      "page": "p. 241",
+      "quote": "The industries located in and around Agra like rubber processing, automobile, chemicals and especially the Mathura oil refinery, have been responsible for producing pollutants like sulphur dioxide and nitrogen dioxide."
+    },
+    {
+      "id": "c11",
+      "claim": "The Supreme Court ordered industries near the Taj to switch to cleaner fuels like CNG and LPG, and automobiles to unleaded petrol in the Taj zone.",
+      "source": "s1",
+      "page": "p. 241",
+      "quote": "The Supreme Court has taken several steps to save the Taj. It has ordered industries to switch to cleaner fuels like CNG (Compressed Natural Gas) and LPG (Liquefied Petroleum Gas). Moreover, the automobiles should switch over to unleaded petrol in the Taj zone."
+    },
+    {
+      "id": "c12",
+      "claim": "Methane, nitrous oxide and water vapour, like CO2, are greenhouse gases contributing to the greenhouse effect.",
+      "source": "s1",
+      "page": "p. 243",
+      "quote": "Other gases like methane, nitrous oxide and water vapour also contribute towards this effect. Like CO2, they are also called greenhouse gases."
+    },
+    {
+      "id": "c13",
+      "claim": "Global warming is the gradual increase in the average temperature of the earth's atmosphere because CO2 traps heat.",
+      "source": "s1",
+      "page": "p. 243",
+      "quote": "CO2 traps heat and does not allow it to escape into space. As a result, the average temperature of the earth's atmosphere is gradually increasing. This is called global warming."
+    },
+    {
+      "id": "c14",
+      "claim": "Delhi was one of the most polluted cities in the world; switching to CNG and unleaded petrol resulted in cleaner air for the city.",
+      "source": "s1",
+      "page": "p. 243",
+      "quote": "a few years ago, Delhi was one of the most polluted cities in the world. A decision was taken to switch to fuels like CNG and unleaded petrol. These measures have resulted in cleaner air for the city."
+    },
+    {
+      "id": "c15",
+      "claim": "Water becomes polluted when harmful substances such as sewage, toxic chemicals and silt get mixed with it; those substances are water pollutants.",
+      "source": "s1",
+      "page": "p. 245",
+      "quote": "Whenever harmful substances such as sewage, toxic chemicals, silt, etc., get mixed with water, the water becomes polluted. The substances that pollute water are called water pollutants."
+    },
+    {
+      "id": "c16",
+      "claim": "A WWF study found the Ganga among the ten most endangered rivers; at many places the river is 'dead' where aquatic life cannot survive.",
+      "source": "s1",
+      "page": "p. 245",
+      "quote": "found that Ganga is one of the ten most endangered rivers in the world. The river is ‘dead’ at many places where the pollution levels are so high that aquatic life cannot survive."
+    },
+    {
+      "id": "c17",
+      "claim": "Towns and cities on the Ganga throw garbage, untreated sewage, dead bodies and other harmful things directly into the river.",
+      "source": "s1",
+      "page": "p. 245",
+      "quote": "because the towns and cities, through which the river flows, throw large quantities of garbage, untreated sewage, dead bodies, and many other harmful things, directly into the river."
+    },
+    {
+      "id": "c18",
+      "claim": "The Ganga Action Plan was launched in 1985 to reduce pollution levels in the river.",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "An ambitious plan to save the river, called the Ganga Action Plan was launched in 1985. It aimed to reduce the pollution levels in the river."
+    },
+    {
+      "id": "c19",
+      "claim": "The Government of India launched the National Mission for Clean Ganga (NMCG) in 2016.",
+      "source": "s1",
+      "page": "p. 246",
+      "quote": "the Government of India has launched a new initiative known as National Mission for Clean Ganga (NMCG) in 2016."
+    },
+    {
+      "id": "c20",
+      "claim": "Kanpur has more than 5000 industries including fertiliser, detergent, leather and paint units that discharge toxic chemical wastes into the Ganga.",
+      "source": "s1",
+      "page": "pp. 245-246",
+      "quote": "Kanpur has more than 5000 industries. These include fertiliser, detergent, leather and paint industries. These industrial units discharge toxic chemical wastes into the river."
+    },
+    {
+      "id": "c21",
+      "claim": "Industrial chemicals released into water include arsenic, lead and fluorides, which cause toxicity in plants and animals.",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "The chemicals released include arsenic, lead and fluorides which lead to toxicity in plants and animals."
+    },
+    {
+      "id": "c22",
+      "claim": "Sewage-contaminated water may contain bacteria, viruses, fungi and parasites causing cholera, typhoid and jaundice.",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "Water contaminated with sewage may contain bacteria, viruses, fungi and parasites which cause diseases like cholera, typhoid and jaundice."
+    },
+    {
+      "id": "c23",
+      "claim": "Pesticides and weedicides dissolve in water, wash into water bodies from fields and seep into the ground to pollute groundwater.",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "all these chemicals dissolve in water and are washed into water bodies from the fields. They also seep into the ground to pollute ground water."
+    },
+    {
+      "id": "c24",
+      "claim": "Excess field chemicals act as nutrients for algae; when algae die, decomposers use up much of the water's oxygen, which may kill aquatic organisms.",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "These act as nutrients for algae to flourish. Once these algae die, they serve as food for decomposers like bacteria. A lot of oxygen in the water body gets used up. This results in a decrease in the oxygen level which may kill aquatic organisms."
+    },
+    {
+      "id": "c25",
+      "claim": "Hot water from power plants and industries is a pollutant: released into rivers it raises water temperature and harms aquatic plants and animals.",
+      "source": "s1",
+      "page": "p. 247",
+      "quote": "Hot water can also be a pollutant ! This is usually water from power plants and industries. It is released into the rivers. It raises the temperature of the waterbody, adversely affecting the animals and plants living in it."
+    },
+    {
+      "id": "c26",
+      "claim": "Water suitable for drinking is potable water; chlorination with chlorine tablets or bleaching powder is a common chemical purification method.",
+      "source": "s1",
+      "page": "p. 248",
+      "quote": "Water which is suitable for drinking is called potable water. Chlorination is a commonly used chemical method for purifying water. It is done by adding chlorine tablets or bleaching powder to the water."
+    },
+    {
+      "id": "c27",
+      "claim": "Air by volume is about 78% nitrogen and about 21% oxygen.",
+      "source": "s1",
+      "page": "p. 239",
+      "quote": "By volume, about 78% of this mixture is nitrogen and about 21% is oxygen. Carbon dioxide, argon, methane, ozone and water vapour are also present in very small quantities."
+    },
+    {
+      "id": "c28",
+      "claim": "Ozone at higher levels of the atmosphere shields the earth's surface from ultraviolet (UV) radiation from the Sun.",
+      "source": "s2",
+      "page": "p. 260",
+      "quote": "at the higher levels of the atmosphere, ozone performs an essential function. It shields the surface of the earth from ultraviolet (UV) radiation from the Sun."
+    },
+    {
+      "id": "c29",
+      "claim": "UV radiation is highly damaging to organisms and is known to cause skin cancer in human beings.",
+      "source": "s2",
+      "page": "p. 260",
+      "quote": "This radiation is highly damaging to organisms, for example, it is known to cause skin cancer in human beings."
+    },
+    {
+      "id": "c30",
+      "claim": "Atmospheric ozone began to drop sharply in the 1980s, linked to CFCs used as refrigerants and in fire extinguishers.",
+      "source": "s2",
+      "page": "p. 261",
+      "quote": "The amount of ozone in the atmosphere began to drop sharply in the 1980s. This decrease has been linked to synthetic chemicals like chlorofluorocarbons (CFCs) which are used as refrigerants and in fire extinguishers."
+    },
+    {
+      "id": "c31",
+      "claim": "In 1987 UNEP forged an agreement to freeze CFC production at 1986 levels.",
+      "source": "s2",
+      "page": "p. 261",
+      "quote": "In 1987, the United Nations Environment Programme (UNEP) succeeded in forging an agreement to freeze CFC production at 1986 levels."
+    },
+    {
+      "id": "c32",
+      "claim": "It is now mandatory for all manufacturing companies to make CFC-free refrigerators throughout the world.",
+      "source": "s2",
+      "page": "p. 261",
+      "quote": "It is now mandatory for all the manufacturing companies to make CFC-free refrigerators throughout the world."
+    },
+    {
+      "id": "c33",
+      "claim": "Biological magnification: non-degradable chemicals accumulate progressively at each trophic level, reaching maximum concentration in humans at the top of the food chain.",
+      "source": "s2",
+      "page": "p. 259",
+      "quote": "As these chemicals are not degradable, these get accumulated progressively at each trophic level. As human beings occupy the top level in any food chain, the maximum concentration of these chemicals get accumulated in our bodies. This phenomenon is known as biological magnification."
+    },
+    {
+      "id": "c34",
+      "claim": "Substances broken down by biological processes are biodegradable; those not broken down this way are non-biodegradable.",
+      "source": "s2",
+      "page": "p. 262",
+      "quote": "Substances that are broken down by biological processes are said to be biodegradable. Substances that are not broken down in this manner are said to be nonbiodegradable."
+    },
+    {
+      "id": "c35",
+      "claim": "Plastics are not broken down by bacteria or saprophytes and persist for a long time under ambient environmental conditions.",
+      "source": "s2",
+      "page": "p. 262",
+      "quote": "many human-made materials like plastics will not be broken down by the action of bacteria or other saprophytes. These materials will be acted upon by physical processes like heat and pressure, but under the ambient conditions found in our environment, these persist for a long time."
+    },
+    {
+      "id": "c36",
+      "claim": "Pesticides enter the food chain when washed into soil and water bodies and absorbed by plants along with water and minerals.",
+      "source": "s2",
+      "page": "p. 259",
+      "quote": "These chemicals are either washed down into the soil or into the water bodies. From the soil, these are absorbed by the plants along with water and minerals, and from the water bodies these are taken up by aquatic plants and animals."
+    },
+    {
+      "id": "c37",
+      "claim": "Sewage is wastewater released by homes, industries, hospitals, offices and other users; cleaning water by removing pollutants before reuse or release is sewage treatment.",
+      "source": "s3",
+      "page": "p. 221",
+      "quote": "Sewage is wastewater released by homes, industries, hospitals, offices and other users."
+    },
+    {
+      "id": "c38",
+      "claim": "Sewage is a complex mixture containing suspended solids, organic and inorganic impurities, nutrients, saprophytes and disease-causing bacteria and other microbes.",
+      "source": "s3",
+      "page": "p. 221",
+      "quote": "We know that sewage is a complex mixture containing suspended solids, organic and inorganic impurities, nutrients, saprophytes and disease causing bacteria and other microbes."
+    },
+    {
+      "id": "c39",
+      "claim": "In wastewater treatment, water is first passed through bar screens where large objects like rags, sticks, cans and plastic packets are removed.",
+      "source": "s3",
+      "page": "p. 223",
+      "quote": "Wastewater is passed through bar screens. Large objects like rags, sticks, cans, plastic packets, napkins are removed."
+    },
+    {
+      "id": "c40",
+      "claim": "Dried sludge from wastewater treatment is used as manure, returning organic matter and nutrients to the soil.",
+      "source": "s3",
+      "page": "p. 224",
+      "quote": "Dried sludge is used as manure, returning organic matter and nutrients to the soil."
+    },
+    {
+      "id": "c41",
+      "claim": "Sludge decomposed by anaerobic bacteria produces biogas, which can be used as fuel or to produce electricity.",
+      "source": "s3",
+      "page": "p. 224",
+      "quote": "The sludge is transferred to a separate tank where it is decomposed by the anaerobic bacteria. The biogas produced in the process can be used as fuel or can be used to produce electricity."
+    },
+    {
+      "id": "c42",
+      "claim": "Treated water may need disinfection with chemicals like chlorine and ozone before release into the distribution system.",
+      "source": "s3",
+      "page": "p. 224",
+      "quote": "Sometimes it may be necessary to disinfect water with chemicals like chlorine and ozone before releasing it into the distribution system."
+    },
+    {
+      "id": "c43",
+      "claim": "More than one billion people have no access to safe drinking water.",
+      "source": "s3",
+      "page": "p. 220",
+      "quote": "It has been reported that more than one billion of people have no access to safe drinking water."
+    },
+    {
+      "id": "c44",
+      "claim": "Ozone is found between 10 and 50 km above the earth's surface and absorbs UV rays, preventing them from reaching the surface.",
+      "source": "s4",
+      "page": "p. 64",
+      "quote": "Ozone is another important component of the atmosphere found between 10 and 50 km above the earth’s surface and acts as a filter and absorbs the ultraviolet rays radiating from the sun and prevents them from reaching the surface of the earth."
+    },
+    {
+      "id": "c45",
+      "claim": "The stratosphere extends up to 50 km and contains the ozone layer, which absorbs ultraviolet radiation and shields life on earth.",
+      "source": "s4",
+      "page": "pp. 65-66",
+      "quote": "The stratosphere is found above the tropopause and extends up to a height of 50 km. One important feature of the stratosphere is that it contains the ozone layer. This layer absorbs ultraviolet radiation and shields life on the earth from intense, harmful form of energy."
+    },
+    {
+      "id": "c46",
+      "claim": "The volume of carbon dioxide has been rising in past decades mainly because of burning of fossil fuels, increasing air temperature.",
+      "source": "s4",
+      "page": "p. 64",
+      "quote": "the volume of carbon dioxide has been rising in the past few decades mainly because of the burning of fossil fuels. This has also increased the temperature of the air."
+    },
+    {
+      "id": "c47",
+      "claim": "Rising ambient noise from industrial activity, construction, generator sets, loudspeakers, vehicular horns etc. has deleterious effects on human health and psychological well-being (Noise Rules preamble).",
+      "source": "s5",
+      "page": "Notification preamble",
+      "quote": "the increasing ambient noise levels in public places from various sources, inter-alia, industrial activity, construction activity, generator sets, loud speakers, public address systems, music systems, vehicular horns and other mechanical devices have deleterious effects on human health and the psychological well being of the people"
+    },
+    {
+      "id": "c48",
+      "claim": "An area of not less than 100 metres around hospitals, educational institutions and courts may be declared a silence area/zone.",
+      "source": "s5",
+      "page": "Rule 3(5)",
+      "quote": "An area comprising not less than 100 metres around hospitals, educational institutions and courts may be declared as silence area / zone for the purpose of these rules."
+    },
+    {
+      "id": "c49",
+      "claim": "A loudspeaker or public address system shall not be used at night between 10:00 p.m. and 6:00 a.m. except in closed premises.",
+      "source": "s5",
+      "page": "Rule 5(2)",
+      "quote": "A loud speaker or a public address system shall not be used at night (between 10:00 p.m. to 6:00 a.m.) except in closed premises for communication within, e.g. auditoria, conference rooms, community halls and banquet halls."
+    },
+    {
+      "id": "c50",
+      "claim": "A person may complain to the authority if the noise level exceeds the ambient noise standards by 10 dB(A) or more.",
+      "source": "s5",
+      "page": "Rule 7(1)",
+      "quote": "A person may, if the noise level exceeds the ambient noise standards by 10 dB (A) or more given in the corresponding columns against any area / zone, make a complaint to the authority."
+    },
+    {
+      "id": "c51",
+      "claim": "The Noise Pollution (Regulation and Control) Rules, 2000 were made by the Central Government under the Environment (Protection) Act, 1986.",
+      "source": "s5",
+      "page": "Rule 1 / preamble",
+      "quote": "These rules may be called the 'Noise Pollution (Regulation and Control) Rules, 2000."
+    },
+    {
+      "id": "c52",
+      "claim": "POPs remain intact in the environment for long periods, spread geographically, accumulate in the fatty tissue of living organisms and are toxic to humans and wildlife.",
+      "source": "s6",
+      "page": "Stockholm Convention page",
+      "quote": "POPs are chemicals that remain intact in the environment for long periods, become widely distributed geographically, accumulate in the fatty tissue of living organisms and are toxic to human beings and wildlife."
+    },
+    {
+      "id": "c53",
+      "claim": "The Stockholm Convention entered into force on 17 May 2004; governments must take measures to eliminate or reduce the release of POPs into the environment.",
+      "source": "s6",
+      "page": "Stockholm Convention page",
+      "quote": "The Convention that entered into force of 17th May, 2004, lays down that in its implementation, Governments will take measures to eliminate or reduce the release of POPs into the environment."
+    },
+    {
+      "id": "c54",
+      "claim": "India ratified the Stockholm Convention on 13 January 2006.",
+      "source": "s6",
+      "page": "Stockholm Convention page",
+      "quote": "The Stockholm Convention, ratified by India on 13.01.2006, is a global treaty to protect human health and environment from Persistent Organic Pollutants (POPs)."
+    },
+    {
+      "id": "c55",
+      "claim": "In India DDT use is banned for agricultural purposes; it is produced in a restricted manner for vector control only, under an exemption.",
+      "source": "s6",
+      "page": "Stockholm Convention page",
+      "quote": "Use of DDT is banned for agricultural purposes; it is produced in a restricted manner for use in vector control only, as India has obtained exemption for use of DDT for vector control."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "s1",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বায়ু দূষণ কাকে বলে?",
+      "a": "বায়ু জীবন্ত ও নির্জীব উভয়ের পক্ষে ক্ষতিকর অবাঞ্ছিত পদার্থ দ্বারা দূষিত হলে তাকে বায়ু দূষণ বলে",
+      "w": [
+        "বায়ুতে অক্সিজেনের পরিমাণ বেড়ে গেলে তাকে বায়ু দূষণ বলে",
+        "বায়ুতে জলীয় বাষ্প থাকলেই তাকে বায়ু দূষণ বলে",
+        "বায়ু প্রবাহিত হলেই তাকে বায়ু দূষণ বলে"
+      ],
+      "e": "NCERT-র সংজ্ঞা অনুযায়ী, বায়ু যখন এমন অবাঞ্ছিত পদার্থে দূষিত হয় যার ক্ষতিকর প্রভাব জীবন্ত ও নির্জীব দুয়ের ওপরই পড়ে, তখনই তা বায়ু দূষণ। অক্সিজেন বা জলীয় বাষ্প বায়ুর স্বাভাবিক উপাদান, দূষক নয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "s1",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বায়ু দূষক (air pollutant) কাকে বলে?",
+      "a": "যেসব পদার্থ বায়ুকে দূষিত করে",
+      "w": [
+        "যেসব পদার্থ বায়ুকে শুদ্ধ করে",
+        "যেসব গ্যাস শ্বাসের জন্য অপরিহার্য",
+        "বায়ুর স্বাভাবিক উপাদানগুলিকে"
+      ],
+      "e": "যে পদার্থগুলি বায়ুকে দূষিত করে, সেগুলিকেই বায়ু দূষক বলে। অক্সিজেনের মতো জীবনদায়ী গ্যাস দূষক নয়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "s1",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি বায়ু দূষকের প্রাকৃতিক উৎস?",
+      "a": "বনাগ্নি ও আগ্নেয়গিরির অগ্ন্যুৎপাত থেকে ওঠা ধোঁয়া ও ধুলো",
+      "w": [
+        "কারখানার চিমনির ধোঁয়া",
+        "মোটরগাড়ির নির্গত ধোঁয়া",
+        "জ্বালানি কাঠ পোড়ানো"
+      ],
+      "e": "NCERT বলেছে, কিছু দূষক প্রাকৃতিক উৎস থেকেও আসে — যেমন বনাগ্নি বা আগ্নেয়গিরির অগ্ন্যুৎপাতের ধোঁয়া ও ধুলো। বাকি তিনটি মানবসৃষ্ট উৎস।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "s1",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আয়তন অনুযায়ী বায়ুতে নাইট্রোজেন ও অক্সিজেনের পরিমাণ যথাক্রমে প্রায় কত?",
+      "a": "নাইট্রোজেন প্রায় ৭৮%, অক্সিজেন প্রায় ২১%",
+      "w": [
+        "নাইট্রোজেন প্রায় ২১%, অক্সিজেন প্রায় ৭৮%",
+        "নাইট্রোজেন প্রায় ৫০%, অক্সিজেন প্রায় ৫০%",
+        "নাইট্রোজেন প্রায় ৯০%, অক্সিজেন প্রায় ১০%"
+      ],
+      "e": "বায়ুর মিশ্রণে আয়তন অনুযায়ী নাইট্রোজেন প্রায় ৭৮% এবং অক্সিজেন প্রায় ২১%; কার্বন ডাই-অক্সাইড, আর্গন, মিথেন, ওজোন ও জলীয় বাষ্প খুব অল্প পরিমাণে থাকে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "s2",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কার্বন মনোক্সাইড (CO) কীভাবে উৎপন্ন হয়?",
+      "a": "পেট্রোল ও ডিজেলের মতো জ্বালানির অসম্পূর্ণ দহনে",
+      "w": [
+        "উদ্ভিদের সালোকসংশ্লেষে",
+        "সমুদ্রের জল বাষ্পীভূত হলে",
+        "মাটিতে ব্যাকটেরিয়ার ক্রিয়ায়"
+      ],
+      "e": "পেট্রোল ও ডিজেলের মতো জ্বালানির অসম্পূর্ণ দহন থেকে বিষাক্ত গ্যাস কার্বন মনোক্সাইড তৈরি হয়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "s2",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কার্বন মনোক্সাইড মানবদেহে কী ক্ষতি করে?",
+      "a": "রক্তের অক্সিজেন বহন করার ক্ষমতা কমিয়ে দেয়",
+      "w": [
+        "হাড়ের ঘনত্ব বাড়িয়ে দেয়",
+        "রক্তে শর্করার পরিমাণ বাড়ায়",
+        "চোখের দৃষ্টিশক্তি বাড়িয়ে দেয়"
+      ],
+      "e": "CO একটি বিষাক্ত গ্যাস; এটি রক্তের অক্সিজেন-বহন ক্ষমতা হ্রাস করে, তাই উচ্চ ঘনত্বে এটি প্রাণঘাতী হতে পারে।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "s2",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "স্মগ (smog) কী দিয়ে তৈরি?",
+      "a": "ধোঁয়া ও কুয়াশার মিশ্রণে",
+      "w": [
+        "শুধু বৃষ্টির জল ও ধুলোয়",
+        "ওজোন ও অক্সিজেনের মিশ্রণে",
+        "বালি ও বাতাসের মিশ্রণে"
+      ],
+      "e": "শীতকালে দেখা যাওয়া ঘন কুয়াশার মতো স্তরটিই স্মগ — এটি ধোঁয়া (smoke) ও কুয়াশা (fog) দিয়ে গঠিত। ধোঁয়ার নাইট্রোজেন অক্সাইড অন্য দূষকের সঙ্গে মিশে স্মগ তৈরি করে, যা শিশুদের হাঁপানি, কাশি ও শ্বাসকষ্ট ঘটায়।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "s2",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সালফার ডাই-অক্সাইড (SO₂) প্রধানত কীভাবে উৎপন্ন হয়?",
+      "a": "বিদ্যুৎকেন্দ্রে কয়লা জাতীয় জ্বালানির দহনে",
+      "w": [
+        "গাছের পাতা পচনে",
+        "নদীর জল বাষ্পীভূত হলে",
+        "সৌর প্যানেল থেকে"
+      ],
+      "e": "তাপবিদ্যুৎ কেন্দ্রে কয়লার দহনে SO₂ উৎপন্ন হয়; পেট্রোলিয়াম শোধনাগারও SO₂ ও NO₂-এর বড় উৎস। SO₂ শ্বাসযন্ত্রের সমস্যা, এমনকি ফুসফুসের স্থায়ী ক্ষতি করতে পারে।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "s2",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ঝুলন্ত কণিকা-দূষক (suspended particles) সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "ডিজেল-পেট্রোল যান থেকে নির্গত সূক্ষ্ম কণা দীর্ঘক্ষণ বায়ুতে ভেসে থাকে, দৃশ্যমানতা কমায় এবং শ্বাসের সঙ্গে ঢুকে রোগ ঘটায়",
+      "w": [
+        "এই কণাগুলি সঙ্গে সঙ্গে মাটিতে পড়ে যায় ও কোনো ক্ষতি করে না",
+        "এই কণাগুলি শুধু সমুদ্রের ওপরে দেখা যায়",
+        "এই কণাগুলি বায়ুকে শুদ্ধ করে"
+      ],
+      "e": "যানবাহন, ইস্পাত-তৈরি ও খনির মতো শিল্পপ্রক্রিয়া থেকে সূক্ষ্ম কণা বায়ুতে দীর্ঘক্ষণ ভেসে থাকে; এরা দৃশ্যমানতা কমায় এবং শ্বাসের মাধ্যমে শরীরে ঢুকে রোগ সৃষ্টি করে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "s2",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "যানবাহন-দূষণ সম্পর্কে বিবৃতিগুলি বিচার করো:\n১. যানবাহন থেকে কার্বন মনোক্সাইড, কার্বন ডাই-অক্সাইড, নাইট্রোজেন অক্সাইড ও ধোঁয়া নির্গত হয়।\n২. কার্বন মনোক্সাইড রক্তের অক্সিজেন-বহন ক্ষমতা বাড়িয়ে দেয়।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সত্য — যানবাহন এই চারটি দূষকই উচ্চ মাত্রায় নির্গত করে। বিবৃতি ২ ভুল — CO রক্তের অক্সিজেন-বহন ক্ষমতা বাড়ায় না, কমিয়ে দেয়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "s2",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "দূষক ও উৎসের সঠিক মিল বাছাই করো:\nA. কার্বন মনোক্সাইড\nB. সালফার ডাই-অক্সাইড\nC. CFC\nD. ঝুলন্ত সূক্ষ্ম কণা\n১. রেফ্রিজারেটর ও এয়ার কন্ডিশনার\n২. জ্বালানির অসম্পূর্ণ দহন\n৩. বিদ্যুৎকেন্দ্রে কয়লার দহন\n৪. ডিজেল-পেট্রোল যানের ধোঁয়া",
+      "a": "A-২, B-৩, C-১, D-৪",
+      "w": [
+        "A-৩, B-২, C-৪, D-১",
+        "A-২, B-১, C-৩, D-৪",
+        "A-১, B-৪, C-২, D-৩"
+      ],
+      "e": "CO আসে অসম্পূর্ণ দহন থেকে (২), SO₂ কয়লার দহন থেকে (৩), CFC ব্যবহৃত হয় রেফ্রিজারেটর-এসি-অ্যারোসল স্প্রেতে (১), আর সূক্ষ্ম কণা আসে ডিজেল-পেট্রোল যান থেকে (৪)।",
+      "claims": [
+        "c04",
+        "c06",
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "s3",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অ্যাসিড বৃষ্টি (acid rain) কোন দুটি গ্যাসের কারণে হয়?",
+      "a": "সালফার ডাই-অক্সাইড ও নাইট্রোজেন ডাই-অক্সাইড",
+      "w": [
+        "অক্সিজেন ও নাইট্রোজেন",
+        "কার্বন মনোক্সাইড ও মিথেন",
+        "ওজোন ও আর্গন"
+      ],
+      "e": "SO₂ ও NO₂ বায়ুর জলীয় বাষ্পের সঙ্গে বিক্রিয়া করে সালফিউরিক অ্যাসিড ও নাইট্রিক অ্যাসিড তৈরি করে; সেই অ্যাসিড বৃষ্টির সঙ্গে নেমে এলে তাকে অ্যাসিড বৃষ্টি বলে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "s3",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'মার্বেল ক্যানসার' (Marble cancer) বলতে কী বোঝায়?",
+      "a": "অ্যাসিড বৃষ্টিতে মার্বেল পাথরের ক্ষয়",
+      "w": [
+        "মার্বেলে ছত্রাক জন্মানো",
+        "মার্বেলের রং বদলে হলুদ হওয়ার রোগজীবাণু",
+        "মার্বেল খনিতে ধস নামা"
+      ],
+      "e": "অ্যাসিড বৃষ্টি স্মৃতিসৌধের মার্বেল ক্ষয় করে — তাজমহলের ক্ষেত্রে এই ঘটনাকেই 'মার্বেল ক্যানসার' বলা হয়। মথুরা তেল শোধনাগারের কালি-কণা মার্বেল হলুদ হওয়ারও কারণ।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "s3",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তাজমহলের সাদা মার্বেলের জন্য হুমকি হিসেবে NCERT কোন শিল্পপ্রতিষ্ঠানকে বিশেষভাবে চিহ্নিত করেছে?",
+      "a": "মথুরা তেল শোধনাগার",
+      "w": [
+        "ভোপাল গ্যাস প্ল্যান্ট",
+        "কানপুরের চামড়া শিল্প",
+        "দিল্লির তাপবিদ্যুৎ কেন্দ্র"
+      ],
+      "e": "আগ্রার আশেপাশের রাবার প্রক্রিয়াকরণ, অটোমোবাইল ও রাসায়নিক শিল্প এবং বিশেষ করে মথুরা তেল শোধনাগার SO₂ ও NO₂ নির্গত করে, যা তাজমহলের মার্বেলের জন্য হুমকি।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "s3",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তাজমহল রক্ষায় সুপ্রিম কোর্ট শিল্পগুলিকে কী নির্দেশ দিয়েছিল?",
+      "a": "CNG ও LPG-এর মতো পরিষ্কার জ্বালানিতে রূপান্তরিত হতে",
+      "w": [
+        "কয়লার ব্যবহার বাড়াতে",
+        "কারখানা আগ্রা শহরের ভেতরে সরিয়ে আনতে",
+        "রাতে কারখানা চালাতে"
+      ],
+      "e": "সুপ্রিম কোর্ট তাজ অঞ্চলের শিল্পগুলিকে CNG ও LPG-এর মতো পরিষ্কার জ্বালানি ব্যবহারের এবং যানবাহনকে সিসাহীন (unleaded) পেট্রোলে চলার নির্দেশ দেয়।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "s3",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনগুলি গ্রিনহাউস গ্যাস?",
+      "a": "কার্বন ডাই-অক্সাইড, মিথেন, নাইট্রাস অক্সাইড ও জলীয় বাষ্প",
+      "w": [
+        "শুধুমাত্র অক্সিজেন",
+        "নাইট্রোজেন ও আর্গন",
+        "হাইড্রোজেন ও হিলিয়াম"
+      ],
+      "e": "CO₂-র মতো মিথেন, নাইট্রাস অক্সাইড ও জলীয় বাষ্পও গ্রিনহাউস প্রভাবে অবদান রাখে, তাই এগুলিকেও গ্রিনহাউস গ্যাস বলা হয়।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "s3",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিশ্ব উষ্ণায়ন (global warming) বলতে কী বোঝায়?",
+      "a": "CO₂ তাপ আটকে রাখায় পৃথিবীর বায়ুমণ্ডলের গড় তাপমাত্রা ধীরে ধীরে বাড়া",
+      "w": [
+        "পৃথিবীর তাপমাত্রা ধীরে ধীরে কমে যাওয়া",
+        "শুধু গ্রীষ্মকালে তাপমাত্রা বাড়া",
+        "মরুভূমিতে বালির তাপমাত্রা বাড়া"
+      ],
+      "e": "CO₂ তাপকে মহাকাশে পালাতে দেয় না; ফলে বায়ুমণ্ডলের গড় তাপমাত্রা ধীরে ধীরে বাড়তে থাকে — এটাই বিশ্ব উষ্ণায়ন।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "s3",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দিল্লির বায়ুর মান উন্নতিতে কোন পদক্ষেপটি NCERT-তে উল্লেখ আছে?",
+      "a": "CNG ও সিসাহীন পেট্রোলে রূপান্তর",
+      "w": [
+        "ডিজেল যানের সংখ্যা বাড়ানো",
+        "সব গাছ কেটে ফেলা",
+        "কয়লা-চালিত বাস চালু করা"
+      ],
+      "e": "একসময় বিশ্বের অন্যতম দূষিত শহর দিল্লিতে CNG ও সিসাহীন পেট্রোলে রূপান্তরের সিদ্ধান্ত নেওয়া হয়, যার ফলে শহরের বায়ু পরিষ্কার হয়।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "s3",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): তাজমহলের সাদা মার্বেল অ্যাসিড বৃষ্টিতে ক্ষয় হচ্ছে।\nকারণ (R): মথুরা শোধনাগারসহ আগ্রার শিল্পগুলি থেকে নির্গত SO₂ ও NO₂ জলীয় বাষ্পের সঙ্গে মিশে সালফিউরিক ও নাইট্রিক অ্যাসিড তৈরি করে।",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "SO₂ ও NO₂ থেকে তৈরি অ্যাসিড বৃষ্টির সঙ্গে নেমে মার্বেল ক্ষয় করে — এটাই 'মার্বেল ক্যানসার'। অর্থাৎ R-ই A-এর সঠিক ব্যাখ্যা।",
+      "claims": [
+        "c09",
+        "c10"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "s4",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ওজোন স্তরের প্রধান কাজ কী?",
+      "a": "সূর্যের অতিবেগুনি (UV) রশ্মি থেকে পৃথিবীর পৃষ্ঠকে রক্ষা করা",
+      "w": [
+        "বৃষ্টি ঘটানো",
+        "বায়ুতে অক্সিজেন তৈরি করা",
+        "মেঘ তৈরি করা"
+      ],
+      "e": "বায়ুমণ্ডলের উপরের স্তরে ওজোন সূর্যের অতিবেগুনি রশ্মি শোষণ করে পৃথিবীর পৃষ্ঠকে ঢালের মতো রক্ষা করে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "s4",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অতিবেগুনি (UV) রশ্মি মানুষের কী রোগ ঘটাতে পারে বলে NCERT বলেছে?",
+      "a": "ত্বকের ক্যানসার (skin cancer)",
+      "w": [
+        "ডায়াবেটিস",
+        "ম্যালেরিয়া",
+        "যক্ষ্মা"
+      ],
+      "e": "UV রশ্মি জীবের পক্ষে অত্যন্ত ক্ষতিকর; মানুষের ক্ষেত্রে এটি ত্বকের ক্যানসার ঘটায় বলে জানা যায়।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "s4",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "CFC (ক্লোরোফ্লুরোকার্বন) কোথায় ব্যবহৃত হয়?",
+      "a": "রেফ্রিজারেটর, এয়ার কন্ডিশনার ও অ্যারোসল স্প্রেতে",
+      "w": [
+        "সার ও কীটনাশকে",
+        "পেট্রোল ও ডিজেলে",
+        "রং ও বার্নিশে"
+      ],
+      "e": "CFC রেফ্রিজারেটর, এয়ার কন্ডিশনার ও অ্যারোসল স্প্রেতে ব্যবহৃত হয় এবং এটি ওজোন স্তরের ক্ষতি করে। দ্বাদশ শ্রেণির বইয়ে অগ্নিনির্বাপক যন্ত্রেও CFC-র ব্যবহারের কথা আছে।",
+      "claims": [
+        "c07",
+        "c30"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "s4",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ওজোন বায়ুমণ্ডলের কোন উচ্চতার মধ্যে পাওয়া যায়?",
+      "a": "পৃথিবীর পৃষ্ঠ থেকে ১০ থেকে ৫০ কিমি উচ্চতায়",
+      "w": [
+        "ভূপৃষ্ঠ থেকে ১ থেকে ৫ কিমি উচ্চতায়",
+        "১০০ থেকে ২০০ কিমি উচ্চতায়",
+        "শুধুমাত্র ভূপৃষ্ঠের ঠিক ওপরে"
+      ],
+      "e": "ভূগোলের NCERT অনুযায়ী ওজোন ভূপৃষ্ঠের ১০–৫০ কিমি ওপরে থাকে এবং ছাঁকনির মতো কাজ করে UV রশ্মি শোষণ করে।",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "s4",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ওজোন স্তর বায়ুমণ্ডলের কোন স্তরে অবস্থিত?",
+      "a": "স্ট্র্যাটোস্ফিয়ার (stratosphere)",
+      "w": [
+        "ট্রপোস্ফিয়ার",
+        "মেসোস্ফিয়ার",
+        "এক্সোস্ফিয়ার"
+      ],
+      "e": "স্ট্র্যাটোস্ফিয়ার ট্রপোপজের ওপরে ৫০ কিমি পর্যন্ত বিস্তৃত এবং এর একটি গুরুত্বপূর্ণ বৈশিষ্ট্য হল এতে ওজোন স্তর রয়েছে — এই প্রশ্নটিই Clerkship ২০২৩-তে এসেছিল।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "s4",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১৯৮৭ সালের UNEP চুক্তিতে CFC উৎপাদন সম্পর্কে কী সিদ্ধান্ত হয়?",
+      "a": "CFC উৎপাদন ১৯৮৬ সালের স্তরে স্থগিত (freeze) রাখা",
+      "w": [
+        "CFC উৎপাদন দ্বিগুণ করা",
+        "CFC উৎপাদন সম্পূর্ণ নতুন করে শুরু করা",
+        "CFC শুধু এশিয়ায় নিষিদ্ধ করা"
+      ],
+      "e": "১৯৮৭ সালে UNEP একটি চুক্তি সম্পাদন করে যাতে CFC উৎপাদন ১৯৮৬ সালের মাত্রায় স্থির রাখা হয় — এটিই মন্ট্রিল প্রোটোকলের যুগের সূচনা।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "s4",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "CFC নিয়ন্ত্রণে বর্তমানে প্রস্তুতকারক সংস্থাগুলির জন্য কোন নিয়ম বাধ্যতামূলক?",
+      "a": "সারা বিশ্বে CFC-মুক্ত রেফ্রিজারেটর তৈরি করা",
+      "w": [
+        "প্রতি বছর CFC উৎপাদন বাড়ানো",
+        "শুধু পুরনো রেফ্রিজারেটর বিক্রি করা",
+        "CFC শুধু স্প্রেতে ব্যবহার করা"
+      ],
+      "e": "NCERT অনুযায়ী এখন সব প্রস্তুতকারক সংস্থার জন্য বিশ্বজুড়ে CFC-মুক্ত রেফ্রিজারেটর তৈরি করা বাধ্যতামূলক।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "s4",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বায়ুমণ্ডলে ওজোনের পরিমাণ তীব্রভাবে কমতে শুরু করে কোন দশকে?",
+      "a": "১৯৮০-এর দশকে",
+      "w": [
+        "১৯৫০-এর দশকে",
+        "২০০০-এর দশকে",
+        "১৯২০-এর দশকে"
+      ],
+      "e": "১৯৮০-এর দশকে ওজোনের পরিমাণ দ্রুত কমতে শুরু করে এবং এর সঙ্গে রেফ্রিজারেন্ট হিসেবে ব্যবহৃত CFC-র সম্পর্ক পাওয়া যায়।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "s4",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "ওজোন স্তর সম্পর্কে বিবৃতিগুলি বিচার করো:\n১. ওজোন (O₃) তিনটি অক্সিজেন পরমাণু দিয়ে গঠিত অণু এবং উপরের বায়ুমণ্ডলে এটি UV রশ্মি থেকে পৃষ্ঠকে রক্ষা করে।\n২. CFC ওজোন স্তরের কোনো ক্ষতি করে না।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সত্য — ওজোন UV রশ্মি শোষণ করে জীবজগৎকে রক্ষা করে। বিবৃতি ২ ভুল — CFC-ই ওজোন ক্ষয়ের প্রধান কারণ হিসেবে চিহ্নিত।",
+      "claims": [
+        "c28",
+        "c07"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "s5",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জল দূষণ কখন ঘটে?",
+      "a": "পয়ঃপ্রণালীর বর্জ্য, বিষাক্ত রাসায়নিক, পলি ইত্যাদি ক্ষতিকর পদার্থ জলে মিশলে",
+      "w": [
+        "জলে মাছ বাস করলে",
+        "বৃষ্টির জল নদীতে পড়লে",
+        "জল প্রবাহিত হলে"
+      ],
+      "e": "ক্ষতিকর পদার্থ — যেমন পয়ঃবর্জ্য, বিষাক্ত রাসায়নিক বা পলি — জলে মিশলেই জল দূষিত হয়; সেই পদার্থগুলিকে জল দূষক বলে।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "s5",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WWF-এর সমীক্ষা অনুযায়ী গঙ্গা নদী সম্পর্কে কী বলা হয়েছে?",
+      "a": "এটি বিশ্বের দশটি সবচেয়ে বিপন্ন নদীর একটি",
+      "w": [
+        "এটি বিশ্বের সবচেয়ে পরিষ্কার নদী",
+        "এতে কোনো দূষণ নেই",
+        "এটি ভারতের সবচেয়ে ছোট নদী"
+      ],
+      "e": "WWF-এর সমীক্ষায় গঙ্গা বিশ্বের দশটি সবচেয়ে বিপন্ন নদীর তালিকায় এসেছে; অনেক জায়গায় দূষণ এত বেশি যে নদীকে 'মৃত' বলা হয়েছে, কারণ সেখানে জলজ প্রাণী বাঁচতে পারে না।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "s5",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "গঙ্গা অ্যাকশন প্ল্যান (Ganga Action Plan) কবে চালু হয়?",
+      "a": "১৯৮৫ সালে",
+      "w": [
+        "১৯৭৪ সালে",
+        "২০১৬ সালে",
+        "২০০০ সালে"
+      ],
+      "e": "গঙ্গার দূষণ কমানোর লক্ষ্যে উচ্চাভিলাষী গঙ্গা অ্যাকশন প্ল্যান চালু হয় ১৯৮৫ সালে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় স্বচ্ছ গঙ্গা মিশন (NMCG) কবে চালু হয়?",
+      "a": "২০১৬ সালে",
+      "w": [
+        "১৯৮৫ সালে",
+        "২০০৪ সালে",
+        "২০১০ সালে"
+      ],
+      "e": "গঙ্গা অ্যাকশন প্ল্যানের (১৯৮৫) পর ভারত সরকার ২০১৬ সালে নতুন উদ্যোগ হিসেবে National Mission for Clean Ganga (NMCG) চালু করে।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কানপুরে গঙ্গা দূষণের একটি বড় কারণ কী?",
+      "a": "৫০০০-এর বেশি শিল্পকারখানার বিষাক্ত রাসায়নিক বর্জ্য নদীতে ফেলা",
+      "w": [
+        "শুধুমাত্র বৃষ্টির জল",
+        "নদীতে নৌকা চলাচল",
+        "তীরে গাছ লাগানো"
+      ],
+      "e": "কানপুরে সার, ডিটারজেন্ট, চামড়া ও রং শিল্পসহ ৫০০০-এর বেশি কারখানা রয়েছে, যারা বিষাক্ত রাসায়নিক বর্জ্য নদীতে ফেলে; কানপুর অংশটি গঙ্গার অন্যতম দূষিত অংশ।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিল্প-বর্জ্য থেকে জলে মেশা কোন রাসায়নিকগুলি উদ্ভিদ ও প্রাণীর ক্ষেত্রে বিষাক্ততা ঘটায়?",
+      "a": "আর্সেনিক, সিসা ও ফ্লুরাইড",
+      "w": [
+        "অক্সিজেন ও নাইট্রোজেন",
+        "ক্যালসিয়াম ও ম্যাগনেসিয়াম",
+        "সোডিয়াম ও পটাশিয়াম"
+      ],
+      "e": "শিল্প থেকে নির্গত আর্সেনিক, সিসা ও ফ্লুরাইড জলে মিশে উদ্ভিদ ও প্রাণীর দেহে বিষাক্ততা সৃষ্টি করে।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পয়ঃদূষিত জল পান করলে কোন রোগগুলি হতে পারে?",
+      "a": "কলেরা, টাইফয়েড ও জন্ডিস",
+      "w": [
+        "ডেঙ্গু, ম্যালেরিয়া ও চিকুনগুনিয়া",
+        "ডায়াবেটিস ও উচ্চ রক্তচাপ",
+        "হাঁপানি ও ব্রংকাইটিস"
+      ],
+      "e": "পয়ঃমিশ্রিত জলে ব্যাকটেরিয়া, ভাইরাস, ছত্রাক ও পরজীবী থাকে, যা কলেরা, টাইফয়েড ও জন্ডিসের মতো রোগ ঘটায়। ডেঙ্গু-ম্যালেরিয়া মশাবাহিত, জলবাহিত নয়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "s5",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "খেত থেকে ধুয়ে আসা অতিরিক্ত রাসায়নিক সার জলাশয়ে কী পরিণতি ঘটায়?",
+      "a": "শৈবালের অতিবৃদ্ধি ঘটে; শৈবাল মরলে বियोजক ব্যাকটেরিয়া জলের অক্সিজেন শেষ করে ফেলে, ফলে জলজ প্রাণী মারা যেতে পারে",
+      "w": [
+        "জলের অক্সিজেন বেড়ে সব মাছ বড় হয়",
+        "জল সম্পূর্ণ শুদ্ধ হয়ে যায়",
+        "জলাশয় স্থায়ীভাবে বরফে ঢেকে যায়"
+      ],
+      "e": "অতিরিক্ত সার শৈবালের পুষ্টি হিসেবে কাজ করে; শৈবাল মারা গেলে ব্যাকটেরিয়া তা পচাতে গিয়ে জলের দ্রবীভূত অক্সিজেন প্রচুর পরিমাণে খরচ করে, ফলে অক্সিজেন কমে জলজ প্রাণী মারা যেতে পারে।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "s5",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'গরম জলও দূষক হতে পারে' — এই বক্তব্যের অর্থ কী?",
+      "a": "বিদ্যুৎকেন্দ্র ও শিল্প থেকে নদীতে ছাড়া গরম জল জলাশয়ের তাপমাত্রা বাড়িয়ে জলজ উদ্ভিদ ও প্রাণীর ক্ষতি করে",
+      "w": [
+        "পানীয় জল ফোটালে তা দূষিত হয়",
+        "গরম জলে স্নান করলে রোগ হয়",
+        "গরম জল বাষ্প হয়ে বায়ু দূষণ করে"
+      ],
+      "e": "তাপ-দূষণ (thermal pollution): বিদ্যুৎকেন্দ্র ও শিল্পের গরম জল নদীতে মিশলে তাপমাত্রা বেড়ে জলজ জীবের ক্ষতি হয়।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "s5",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "কালানুক্রমে সাজাও (আগে থেকে পরে):\n১. জাতীয় স্বচ্ছ গঙ্গা মিশন (NMCG) চালু\n২. গঙ্গা অ্যাকশন প্ল্যান চালু\n৩. UNEP-এর CFC-স্থগিতকরণ চুক্তি\n৪. শব্দ দূষণ (নিয়ন্ত্রণ ও প্রতিরোধ) বিধি প্রণয়ন",
+      "a": "২, ৩, ৪, ১",
+      "w": [
+        "৩, ২, ৪, ১",
+        "২, ৪, ৩, ১",
+        "৪, ২, ৩, ১"
+      ],
+      "e": "ক্রম: গঙ্গা অ্যাকশন প্ল্যান ১৯৮৫ → UNEP চুক্তি ১৯৮৭ → শব্দ দূষণ বিধি ২০০০ → NMCG ২০১৬।",
+      "claims": [
+        "c18",
+        "c31",
+        "c51",
+        "c19"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "s6",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জৈব-বিয়োজ্য (biodegradable) পদার্থ কাকে বলে?",
+      "a": "যেসব পদার্থ জৈবিক প্রক্রিয়ায় ভেঙে যায়",
+      "w": [
+        "যেসব পদার্থ কখনো ভাঙে না",
+        "যেসব পদার্থ শুধু আগুনে পোড়ে",
+        "যেসব পদার্থ জলে দ্রবীভূত হয়"
+      ],
+      "e": "জৈব প্রক্রিয়ায় ভেঙে যাওয়া পদার্থই জৈব-বিয়োজ্য; যেগুলি এভাবে ভাঙে না সেগুলি অজৈব-বিয়োজ্য (non-biodegradable)।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "s6",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পানীয় জল (potable water) শুদ্ধ করার একটি প্রচলিত রাসায়নিক পদ্ধতি কোনটি?",
+      "a": "ক্লোরিনেশন — ক্লোরিন ট্যাবলেট বা ব্লিচিং পাউডার মেশানো",
+      "w": [
+        "জলে বালি মেশানো",
+        "জল সূর্যের আলোয় রেখে দেওয়া",
+        "জলে লবণ মেশানো"
+      ],
+      "e": "পানীয় উপযোগী জলকে potable water বলে; ক্লোরিন ট্যাবলেট বা ব্লিচিং পাউডার দিয়ে ক্লোরিনেশন জল শুদ্ধ করার প্রচলিত রাসায়নিক পদ্ধতি।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "s6",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জৈব বিবর্ধন (biological magnification) বলতে কী বোঝায়?",
+      "a": "অবিয়োজ্য রাসায়নিক প্রতিটি পুষ্টিস্তরে ক্রমশ জমা হয় এবং শীর্ষ স্তরে (মানুষের দেহে) সর্বাধিক ঘনত্বে পৌঁছায়",
+      "w": [
+        "উদ্ভিদের বৃদ্ধি ত্বরান্বিত হওয়া",
+        "জলাশয়ে শৈবাল বেড়ে যাওয়া",
+        "মাটির উর্বরতা বেড়ে যাওয়া"
+      ],
+      "e": "কীটনাশকের মতো অবিয়োজ্য রাসায়নিক খাদ্যশৃঙ্খলের প্রতিটি স্তরে জমতে থাকে; মানুষ শীর্ষ স্তরে থাকায় তার দেহেই সর্বাধিক ঘনত্ব জমা হয় — এটাই জৈব বিবর্ধন।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "s6",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্লাস্টিক পরিবেশে দীর্ঘদিন টিকে থাকে কেন?",
+      "a": "ব্যাকটেরিয়া বা মৃতজীবীরা প্লাস্টিক ভাঙতে পারে না",
+      "w": [
+        "প্লাস্টিক জলে দ্রবীভূত হয় না বলে",
+        "প্লাস্টিক খুব হালকা বলে",
+        "প্লাস্টিক পুনর্ব্যবহার করা যায় বলে"
+      ],
+      "e": "প্লাস্টিকের মতো মানবসৃষ্ট পদার্থ ব্যাকটেরিয়া বা অন্য মৃতজীবীর ক্রিয়ায় ভাঙে না; স্বাভাবিক পরিবেশগত অবস্থায় এগুলি দীর্ঘদিন অপরিবর্তিত থাকে।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "s6",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শব্দ দূষণ বিধি, ২০০০ অনুযায়ী 'নীরব অঞ্চল' (silence zone) ঘোষণা করা যায় কোন এলাকাকে?",
+      "a": "হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারপাশে কমপক্ষে ১০০ মিটার এলাকা",
+      "w": [
+        "শিল্পাঞ্চলের ৫০০ মিটার এলাকা",
+        "বাজারের চারপাশের ৫০ মিটার এলাকা",
+        "রেলস্টেশনের প্ল্যাটফর্ম এলাকা"
+      ],
+      "e": "বিধি অনুযায়ী হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারদিকে কমপক্ষে ১০০ মিটার এলাকা নীরব অঞ্চল ঘোষণা করা যায়।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q44",
+      "section": "s6",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "লাউডস্পিকার ব্যবহার সম্পর্কে শব্দ দূষণ বিধির নিয়ম কোনটি?",
+      "a": "রাত ১০টা থেকে সকাল ৬টা পর্যন্ত বদ্ধ প্রাঙ্গণ ছাড়া লাউডস্পিকার ব্যবহার করা যাবে না",
+      "w": [
+        "দিনের বেলা লাউডস্পিকার সম্পূর্ণ নিষিদ্ধ",
+        "লাউডস্পিকারের জন্য কোনো নিয়ম নেই",
+        "শুধু রবিবার লাউডস্পিকার চালানো যাবে"
+      ],
+      "e": "বিধি ৫ অনুযায়ী কর্তৃপক্ষের লিখিত অনুমতি ছাড়া লাউডস্পিকার চালানো যায় না এবং রাত ১০টা–সকাল ৬টা বদ্ধ প্রাঙ্গণ (অডিটোরিয়াম, সম্মেলন কক্ষ ইত্যাদি) ছাড়া তা নিষিদ্ধ।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q45",
+      "section": "s6",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্টকহোম কনভেনশন কবে কার্যকর হয়?",
+      "a": "১৭ মে ২০০৪",
+      "w": [
+        "১৩ জানুয়ারি ২০০৬",
+        "২২ মে ২০০১",
+        "১৬ সেপ্টেম্বর ১৯৮৭"
+      ],
+      "e": "স্থায়ী জৈব দূষক (POPs) সংক্রান্ত স্টকহোম কনভেনশন কার্যকর হয় ১৭ মে ২০০৪; ভারত এটি অনুমোদন (ratify) করে ১৩ জানুয়ারি ২০০৬ — দুটি তারিখ গুলিয়ে ফেলা চলবে না।",
+      "claims": [
+        "c53",
+        "c54"
+      ]
+    },
+    {
+      "id": "q46",
+      "section": "s6",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "POPs (স্থায়ী জৈব দূষক) কাকে বলে?",
+      "a": "যেসব রাসায়নিক পরিবেশে দীর্ঘদিন অক্ষত থাকে, জীবের চর্বিযুক্ত কলায় জমা হয় এবং মানুষ ও বন্যপ্রাণীর পক্ষে বিষাক্ত",
+      "w": [
+        "যেসব রাসায়নিক দ্রুত ভেঙে যায়",
+        "শুধুমাত্র গ্যাসীয় দূষক",
+        "শুধুমাত্র ধাতব দূষক"
+      ],
+      "e": "POPs পরিবেশে দীর্ঘদিন টিকে থাকে, ভৌগোলিকভাবে ছড়িয়ে পড়ে, জীবের চর্বিযুক্ত কলায় জমা হয় এবং বিষাক্ত — তাই এদের নিয়ন্ত্রণে স্টকহোম কনভেনশন।",
+      "claims": [
+        "c52"
+      ]
+    },
+    {
+      "id": "q47",
+      "section": "s6",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতে DDT ব্যবহারের বর্তমান অবস্থা কী?",
+      "a": "কৃষিক্ষেত্রে DDT নিষিদ্ধ; ছাড়পত্রের ভিত্তিতে শুধু রোগবাহক (vector) নিয়ন্ত্রণের জন্য সীমিতভাবে উৎপাদিত হয়",
+      "w": [
+        "DDT সব ক্ষেত্রে অবাধে ব্যবহৃত হয়",
+        "DDT সম্পূর্ণরূপে সব ক্ষেত্রে নিষিদ্ধ ও উৎপাদন বন্ধ",
+        "DDT শুধু রপ্তানির জন্য উৎপাদিত হয়"
+      ],
+      "e": "ভারত কৃষিতে DDT নিষিদ্ধ করেছে; তবে vector নিয়ন্ত্রণের জন্য ছাড় (exemption) পেয়ে সীমিতভাবে এর উৎপাদন চলে।",
+      "claims": [
+        "c55"
+      ]
+    },
+    {
+      "id": "q48",
+      "section": "s6",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পয়ঃশোধনাগারে (WWTP) প্রথম ধাপে বার স্ক্রিন (bar screen) দিয়ে কী করা হয়?",
+      "a": "ন্যাকড়া, লাঠি, ক্যান, প্লাস্টিকের প্যাকেটের মতো বড় বস্তু সরানো হয়",
+      "w": [
+        "জলে ক্লোরিন মেশানো হয়",
+        "জল ফোটানো হয়",
+        "জলে বাতাস পাম্প করা হয়"
+      ],
+      "e": "বর্জ্য জল প্রথমে বার স্ক্রিনের মধ্য দিয়ে যায়, যেখানে বড় বস্তুগুলি আটকে সরিয়ে ফেলা হয়; ক্লোরিন দিয়ে জীবাণুমুক্তকরণ আসে শেষের ধাপে।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q49",
+      "section": "s6",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি ভুল?\n১. গঙ্গা অ্যাকশন প্ল্যান — ১৯৮৫\n২. NMCG — ২০১৬\n৩. স্টকহোম কনভেনশন কার্যকর — ২০০৬\n৪. শব্দ দূষণ বিধি — ২০০০",
+      "a": "৩",
+      "w": [
+        "১",
+        "২",
+        "৪"
+      ],
+      "e": "স্টকহোম কনভেনশন কার্যকর হয় ২০০৪ সালে; ২০০৬ সালে ভারত তা অনুমোদন করে। বাকি তিনটি জোড়ই সঠিক।",
+      "claims": [
+        "c18",
+        "c19",
+        "c53",
+        "c54",
+        "c51"
+      ]
+    },
+    {
+      "id": "q50",
+      "section": "s6",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "শব্দ দূষণ বিধি, ২০০০ সম্পর্কে বিবৃতিগুলি বিচার করো:\n১. এই বিধি পরিবেশ (সুরক্ষা) আইন, ১৯৮৬-এর অধীনে কেন্দ্রীয় সরকার প্রণয়ন করেছে।\n২. শব্দের মাত্রা নির্ধারিত মানের চেয়ে ১০ dB(A) বা তার বেশি ছাড়ালে কর্তৃপক্ষের কাছে অভিযোগ করা যায়।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটি বিবৃতিই সত্য: বিধিটি ১৯৮৬-এর আইনের ক্ষমতাবলে তৈরি, এবং মানের চেয়ে ১০ dB(A) বেশি শব্দ হলে অভিযোগের বিধান রয়েছে।",
+      "claims": [
+        "c51",
+        "c50"
+      ]
+    }
+  ]
+}

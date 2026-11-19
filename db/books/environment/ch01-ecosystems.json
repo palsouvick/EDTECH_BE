@@ -1,0 +1,1534 @@
+{
+  "book": "environment",
+  "code": "ENV-01",
+  "number": 1,
+  "part": "ecology",
+  "title": "বাস্তুতন্ত্র",
+  "subtitle": "বাস্তুতন্ত্রের গঠন, উৎপাদনশীলতা, পচন, শক্তিপ্রবাহ, খাদ্যশৃঙ্খল ও বাস্তুসংস্থানিক পিরামিড",
+  "subtopics": [
+    "ecosystems"
+  ],
+  "related_facts": [
+    "GK-ENV-001",
+    "GK-ENV-002"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 1 LIKELY, 2 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 2 of 5 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ENV-01.json and drafts/ENV-01_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ENV-01_REPORT.md.",
+    "checked_claims": 48,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "একটি পুকুর, একটি বন কিংবা গোটা পৃথিবী — প্রতিটিই একটি বাস্তুতন্ত্র: জীব ও তার চারপাশের জড় পরিবেশের পারস্পরিক ক্রিয়ায় গড়ে ওঠা প্রকৃতির একটি কার্যকরী একক। এই অধ্যায়ে আমরা NCERT-র দ্বাদশ শ্রেণির জীববিজ্ঞান বইয়ের 'Ecosystem' অধ্যায় ধরে পড়ব বাস্তুতন্ত্রের গঠন ও উপাদান, উৎপাদনশীলতা (GPP ও NPP), পচনের ধাপগুলি, শক্তির একমুখী প্রবাহ ও ১০ শতাংশ সূত্র, খাদ্যশৃঙ্খল-খাদ্যজাল, এবং সংখ্যা-জৈবভর-শক্তির পিরামিড। পরিবেশ-বিষয়ক প্রায় প্রতিটি প্রতিযোগিতামূলক পরীক্ষায় এই অধ্যায় থেকে সরাসরি প্রশ্ন আসে — বিশেষ করে ১০ শতাংশ সূত্র ও শক্তির পিরামিড নিয়ে।",
+    "you_will_learn": [
+      "বাস্তুতন্ত্র কাকে বলে, এর আকারের পরিসর এবং স্থলজ, জলজ ও মনুষ্যসৃষ্ট প্রকারভেদ",
+      "বাস্তুতন্ত্রের গঠন: প্রজাতি-গঠন, স্তরবিন্যাস এবং জৈব-অজৈব উপাদান — পুকুরের উদাহরণে",
+      "উৎপাদনশীলতা: প্রাথমিক ও গৌণ উৎপাদন, GPP, NPP এবং GPP − R = NPP সূত্র",
+      "পচন প্রক্রিয়ার পাঁচটি ধাপ — খণ্ডীভবন, নিষ্কাশন, অপচয়, হিউমাস-গঠন ও খনিজীভবন — এবং পচনের গতি নিয়ন্ত্রণকারী শর্তগুলি",
+      "শক্তিপ্রবাহ: উৎপাদক থেকে খাদক, চারণ ও ডেট্রিটাস খাদ্যশৃঙ্খল, খাদ্যজাল, পুষ্টিস্তর ও স্থায়ী ফসল",
+      "১০ শতাংশ সূত্র এবং কেন চারণ খাদ্যশৃঙ্খলে পুষ্টিস্তরের সংখ্যা সীমিত থাকে",
+      "বাস্তুসংস্থানিক পিরামিড: সংখ্যা, জৈবভর ও শক্তি — কোনটি সোজা, কোনটি উল্টানো হতে পারে এবং কেন",
+      "পুষ্টিচক্রের দুই প্রকার (গ্যাসীয় ও পাললিক) এবং বাস্তুতন্ত্রের সেবা"
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Biology, Class XII, Chapter 12: Ecosystem",
+      "class": "XII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/lebo112.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "An ecosystem is a functional unit of nature where living organisms interact among themselves and with the surrounding physical environment.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "An ecosystem can be visualised as a functional unit of nature, where living organisms interact among themselves and also with the surrounding physical environment."
+    },
+    {
+      "id": "c02",
+      "claim": "Ecosystems vary in size from a small pond to a large forest or a sea; forest, grassland and desert are terrestrial ecosystems; pond, lake, wetland, river and estuary are aquatic; crop fields and an aquarium are manmade ecosystems.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "Ecosystem varies greatly in size from a small pond to a large forest or a sea. Forest, grassland and desert are some examples of terrestrial ecosystems; pond, lake, wetland, river and estuary are some examples of aquatic ecosystems. Crop fields and an aquarium may also be considered as manmade ecosystems."
+    },
+    {
+      "id": "c03",
+      "claim": "Many ecologists regard the entire biosphere as a global ecosystem, a composite of all local ecosystems on Earth.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "Many ecologists regard the entire biosphere as a global ecosystem, as a composite of all local ecosystems on Earth."
+    },
+    {
+      "id": "c04",
+      "claim": "Stratification is the vertical distribution of different species occupying different levels; in a forest trees occupy the top layer, shrubs the second, herbs and grasses the bottom.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "Vertical distribution of different species occupying different levels is called stratification. For example, trees occupy top vertical strata or layer of a forest, shrubs the second and herbs and grasses occupy the bottom layers."
+    },
+    {
+      "id": "c05",
+      "claim": "Identification and enumeration of the plant and animal species of an ecosystem gives its species composition.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "Identification and enumeration of plant and animal species of an ecosystem gives its species composition."
+    },
+    {
+      "id": "c06",
+      "claim": "The components of an ecosystem function as a unit in terms of four aspects: productivity, decomposition, energy flow and nutrient cycling.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "The components of the ecosystem are seen to function as a unit when you consider the following aspects: (i) Productivity; (ii) Decomposition; (iii) Energy flow; and (iv) Nutrient cycling."
+    },
+    {
+      "id": "c07",
+      "claim": "In a pond, the autotrophs are phytoplankton, some algae and floating, submerged and marginal plants; consumers are zooplankton and free-swimming and bottom-dwelling forms; decomposers are fungi, bacteria and flagellates, abundant at the pond bottom.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "The autotrophic components include the phytoplankton, some algae and the floating, submerged and marginal plants found at the edges. The consumers are represented by the zooplankton, the free swimming and bottom dwelling forms. The decomposers are the fungi, bacteria and flagellates especially abundant in the bottom of the pond."
+    },
+    {
+      "id": "c08",
+      "claim": "The abiotic component of a pond is the water with dissolved inorganic and organic substances and the rich soil deposit at the bottom.",
+      "source": "s1",
+      "page": "§12.1 (p. 205 approx.)",
+      "quote": "The abiotic component is the water with all the dissolved inorganic and organic substances and the rich soil deposit at the bottom of the pond."
+    },
+    {
+      "id": "c09",
+      "claim": "Primary production is the amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis, expressed in weight (gm-2) or energy (kcal m-2).",
+      "source": "s1",
+      "page": "§12.2 (p. 206 approx.)",
+      "quote": "Primary production is defined as the amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis. It is expressed in terms of weight (gm–2 ) or energy (kcal m–2 )."
+    },
+    {
+      "id": "c10",
+      "claim": "The rate of biomass production is called productivity.",
+      "source": "s1",
+      "page": "§12.2 (p. 206 approx.)",
+      "quote": "The rate of biomass production is called productivity."
+    },
+    {
+      "id": "c11",
+      "claim": "GPP is the rate of production of organic matter during photosynthesis; a considerable part is used in respiration; GPP minus respiration losses (R) is NPP: GPP - R = NPP.",
+      "source": "s1",
+      "page": "§12.2 (p. 206 approx.)",
+      "quote": "Gross primary productivity of an ecosystem is the rate of production of organic matter during photosynthesis. A considerable amount of GPP is utilised by plants in respiration. Gross primary productivity minus respiration losses (R), is the net primary productivity (NPP). GPP – R = NPP"
+    },
+    {
+      "id": "c12",
+      "claim": "NPP is the available biomass for consumption by heterotrophs (herbivores and decomposers); secondary productivity is the rate of formation of new organic matter by consumers.",
+      "source": "s1",
+      "page": "§12.2 (p. 206 approx.)",
+      "quote": "Net primary productivity is the available biomass for the consumption to heterotrophs (herbiviores and decomposers). Secondary productivity is defined as the rate of formation of new organic matter by consumers."
+    },
+    {
+      "id": "c13",
+      "claim": "The annual net primary productivity of the whole biosphere is approximately 170 billion tons (dry weight); the oceans, despite occupying about 70 per cent of the surface, contribute only 55 billion tons.",
+      "source": "s1",
+      "page": "§12.2 (p. 206 approx.)",
+      "quote": "The annual net primary productivity of the whole biosphere is approximately 170 billion tons (dry weight) of organic matter. Of this, despite occupying about 70 per cent of the surface, the productivity of the oceans are only 55 billion tons."
+    },
+    {
+      "id": "c14",
+      "claim": "Decomposers break down complex organic matter into inorganic substances like carbon dioxide, water and nutrients; the process is called decomposition.",
+      "source": "s1",
+      "page": "§12.3 (p. 207 approx.)",
+      "quote": "Similarly, decomposers break down complex organic matter into inorganic substances like carbon dioxide, water and nutrients and the process is called decomposition."
+    },
+    {
+      "id": "c15",
+      "claim": "Dead plant remains (leaves, bark, flowers) and dead remains of animals, including faecal matter, constitute detritus, the raw material for decomposition.",
+      "source": "s1",
+      "page": "§12.3 (p. 207 approx.)",
+      "quote": "Dead plant remains such as leaves, bark, flowers and dead remains of animals, including fecal matter, constitute detritus, which is the raw material for decomposition."
+    },
+    {
+      "id": "c16",
+      "claim": "The important steps of decomposition are fragmentation, leaching, catabolism, humification and mineralisation.",
+      "source": "s1",
+      "page": "§12.3 (p. 207 approx.)",
+      "quote": "The important steps in the process of decomposition are fragmentation, leaching, catabolism, humification and mineralisation."
+    },
+    {
+      "id": "c17",
+      "claim": "Detritivores such as the earthworm break down detritus into smaller particles; this process is called fragmentation.",
+      "source": "s1",
+      "page": "§12.3 (p. 207 approx.)",
+      "quote": "Detritivores (e.g., earthworm) break down detritus into smaller particles. This process is called fragmentation."
+    },
+    {
+      "id": "c18",
+      "claim": "By leaching, water-soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts.",
+      "source": "s1",
+      "page": "§12.3 (p. 207 approx.)",
+      "quote": "By the process of leaching, watersoluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts."
+    },
+    {
+      "id": "c19",
+      "claim": "Bacterial and fungal enzymes degrade detritus into simpler inorganic substances; this process is called catabolism.",
+      "source": "s1",
+      "page": "§12.3 (p. 207 approx.)",
+      "quote": "Bacterial and fungal enzymes degrade detritus into simpler inorganic substances. This process is called as catabolism."
+    },
+    {
+      "id": "c20",
+      "claim": "Humification leads to accumulation of humus, a dark-coloured amorphous substance highly resistant to microbial action; being colloidal, it serves as a reservoir of nutrients.",
+      "source": "s1",
+      "page": "§12.3 (p. 208 approx.)",
+      "quote": "Humification leads to accumulation of a dark coloured amorphous substance called humus that is highly resistant to microbial action and undergoes decomposition at an extremely slow rate. Being colloidal in nature it serves as a reservoir of nutrients."
+    },
+    {
+      "id": "c21",
+      "claim": "Humus is further degraded by some microbes and the release of inorganic nutrients from it is called mineralisation.",
+      "source": "s1",
+      "page": "§12.3 (p. 208 approx.)",
+      "quote": "The humus is further degraded by some microbes and release of inorganic nutrients occur by the process known as mineralisation."
+    },
+    {
+      "id": "c22",
+      "claim": "Decomposition rate is slower if detritus is rich in lignin and chitin and quicker if rich in nitrogen and water-soluble substances like sugars; temperature and soil moisture are the most important climatic regulators; warm and moist conditions favour decomposition, low temperature and anaerobiosis inhibit it.",
+      "source": "s1",
+      "page": "§12.3 (p. 208 approx.)",
+      "quote": "In a particular climatic condition, decomposition rate is slower if detritus is rich in lignin and chitin, and quicker, if detritus is rich in nitrogen and watersoluble substances like sugars. Temperature and soil moisture are the most important climatic factors that regulate decomposition through their effects on the activities of soil microbes. Warm and moist environment favour decomposition whereas low temperature and anaerobiosis inhibit decomposition resulting in build up of organic materials."
+    },
+    {
+      "id": "c23",
+      "claim": "Except for the deep-sea hydrothermal ecosystem, the sun is the only source of energy for all ecosystems on Earth; less than 50 per cent of incident solar radiation is PAR, and plants capture only 2-10 per cent of the PAR.",
+      "source": "s1",
+      "page": "§12.4 (p. 208 approx.)",
+      "quote": "Except for the deep sea hydrothermal ecosystem, sun is the only source of energy for all ecosystems on Earth. Of the incident solar radiation less than 50 per cent of it is photosynthetically active radiation (PAR). Plants capture only 2-10 per cent of the PAR and this small amount of energy sustains the entire living world."
+    },
+    {
+      "id": "c24",
+      "claim": "Energy flow is unidirectional, from the sun to producers and then to consumers; ecosystems are not exempt from the second law of thermodynamics and need a constant supply of energy.",
+      "source": "s1",
+      "page": "§12.4 (p. 208-209 approx.)",
+      "quote": "So you find unidirectional flow of energy from the sun to producers and then to consumers. Further, ecosystems are not exempt from the Second Law of thermodynamics. They need a constant supply of energy to synthesise the molecules they require, to counteract the universal tendency toward increasing disorderliness."
+    },
+    {
+      "id": "c25",
+      "claim": "Green plants are the producers; in terrestrial ecosystems the major producers are herbaceous and woody plants, and in aquatic ecosystems phytoplankton, algae and higher plants.",
+      "source": "s1",
+      "page": "§12.4 (p. 209 approx.)",
+      "quote": "The green plant in the ecosystem are called producers. In a terrestrial ecosystem, major producers are herbaceous and woody plants. Likewise, producers in an aquatic ecosystem are various species like phytoplankton, algae and higher plants."
+    },
+    {
+      "id": "c26",
+      "claim": "Animals that feed on producers are primary consumers (herbivores); those eating other animals that eat plants are secondary consumers; tertiary consumers are also possible.",
+      "source": "s1",
+      "page": "§12.4 (p. 209 approx.)",
+      "quote": "If they feed on the producers, the plants, they are called primary consumers, and if the animals eat other animals which in turn eat the plants (or their produce) they are called secondary consumers. Likewise, you could have tertiary consumers too. Obviously the primary consumers will be herbivores."
+    },
+    {
+      "id": "c27",
+      "claim": "In an aquatic ecosystem the grazing food chain (GFC) is the major conduit for energy flow; in a terrestrial ecosystem a much larger fraction of energy flows through the detritus food chain than through the GFC.",
+      "source": "s1",
+      "page": "§12.4 (p. 210 approx.)",
+      "quote": "In an aquatic ecosystem, GFC is the major conduit for energy flow. As against this, in a terrestrial ecosystem, a much larger fraction of energy flows through the detritus food chain than through the GFC."
+    },
+    {
+      "id": "c28",
+      "claim": "The detritus food chain (DFC) begins with dead organic matter and is made up of decomposers, heterotrophic organisms mainly fungi and bacteria.",
+      "source": "s1",
+      "page": "§12.4 (p. 209 approx.)",
+      "quote": "The detritus food chain (DFC) begins with dead organic matter. It is made up of decomposers which are heterotrophic organisms, mainly fungi and bacteria. They meet their energy and nutrient requirements by degrading dead organic matter or detritus."
+    },
+    {
+      "id": "c29",
+      "claim": "Decomposers are also known as saprotrophs; they secrete digestive enzymes that break down dead and waste materials into simple inorganic materials, which they then absorb.",
+      "source": "s1",
+      "page": "§12.4 (p. 209 approx.)",
+      "quote": "These are also known as saprotrophs (sapro: to decompose). Decomposers secrete digestive enzymes that breakdown dead and waste materials into simple, inorganic materials, which are subsequently absorbed by them."
+    },
+    {
+      "id": "c30",
+      "claim": "The DFC may be connected with the GFC at some levels, and animals like cockroaches and crows are omnivores; these natural interconnections of food chains make a food web.",
+      "source": "s1",
+      "page": "§12.4 (p. 210 approx.)",
+      "quote": "Detritus food chain may be connected with the grazing food chain at some levels: some of the organisms of DFC are prey to the GFC animals, and in a natural ecosystem, some animals like cockroaches, crows, etc., are omnivores. These natural interconnection of food chains make it a food web."
+    },
+    {
+      "id": "c31",
+      "claim": "An organism's trophic level is its specific place in the food chain based on its source of nutrition: producers are the first trophic level, herbivores (primary consumers) the second, carnivores (secondary consumers) the third.",
+      "source": "s1",
+      "page": "§12.4 (p. 210 approx.)",
+      "quote": "Based on the source of their nutrition or food, organisms occupy a specific place in the food chain that is known as their trophic level. Producers belong to the first trophic level, herbivores (primary consumer) to the second and carnivores (secondary consumer) to the third"
+    },
+    {
+      "id": "c32",
+      "claim": "The standing crop is the mass of living material at a trophic level at a particular time, measured as biomass (mass of living organisms) or number in a unit area; biomass in dry weight is more accurate.",
+      "source": "s1",
+      "page": "§12.4 (p. 210 approx.)",
+      "quote": "Each trophic level has a certain mass of living material at a particular time called as the standing crop. The standing crop is measured as the mass of living organisms (biomass) or the number in a unit area. The biomass of a species is expressed in terms of fresh or dry weight. Measurement of biomass in terms of dry weight is more accurate."
+    },
+    {
+      "id": "c33",
+      "claim": "By the 10 per cent law only 10 per cent of the energy is transferred to each trophic level from the lower trophic level, which restricts the number of trophic levels in the grazing food chain.",
+      "source": "s1",
+      "page": "§12.4 (p. 210 approx.)",
+      "quote": "The number of trophic levels in the grazing food chain is restricted as the transfer of energy follows 10 per cent law – only 10 per cent of the energy is transferred to each trophic level from the lower trophic level."
+    },
+    {
+      "id": "c34",
+      "claim": "The three types of ecological pyramids are pyramid of number, pyramid of biomass and pyramid of energy; the base represents the producers (first trophic level) and the apex the tertiary or top-level consumer.",
+      "source": "s1",
+      "page": "§12.5 (p. 211 approx.)",
+      "quote": "The base of each pyramid represents the producers or the first trophic level while the apex represents tertiary or top level consumer. The three types of ecological pyramids that are usually studied are (a) pyramid of number; (b) pyramid of biomass and (c) pyramid of energy."
+    },
+    {
+      "id": "c35",
+      "claim": "In most ecosystems all pyramids (number, energy, biomass) are upright: producers exceed herbivores in number and biomass, herbivores exceed carnivores, and energy at a lower trophic level is always more than at a higher level.",
+      "source": "s1",
+      "page": "§12.5 (p. 212 approx.)",
+      "quote": "In most ecosystems, all the pyramids, of number, of energy and biomass are upright, i.e., producers are more in number and biomass than the herbivores, and herbivores are more in number and biomass than the carnivores. Also energy at a lower trophic level is always more than at a higher level."
+    },
+    {
+      "id": "c36",
+      "claim": "The pyramid of biomass in the sea is generally inverted because the biomass of fishes far exceeds that of phytoplankton.",
+      "source": "s1",
+      "page": "§12.5 (p. 212 approx.)",
+      "quote": "The pyramid of biomass in sea is generally inverted because the biomass of fishes far exceeds that of phytoplankton."
+    },
+    {
+      "id": "c37",
+      "claim": "The pyramid of energy is always upright and can never be inverted, because some energy is always lost as heat at each step to the next trophic level.",
+      "source": "s1",
+      "page": "§12.5 (p. 213 approx.)",
+      "quote": "Pyramid of energy is always upright, can never be inverted, because when energy flows from a particular trophic level to the next trophic level, some energy is always lost as heat at each step."
+    },
+    {
+      "id": "c38",
+      "claim": "A species may occupy more than one trophic level at the same time: a sparrow is a primary consumer when it eats seeds, fruits and peas, and a secondary consumer when it eats insects and worms.",
+      "source": "s1",
+      "page": "§12.5 (p. 212 approx.)",
+      "quote": "A given species may occupy more than one trophic level in the same ecosystem at the same time; for example, a sparrow is a primary consumer when it eats seeds, fruits, peas, and a secondary consumer when it eats insects and worms."
+    },
+    {
+      "id": "c39",
+      "claim": "Ecological pyramids have limitations: they ignore a species belonging to two or more trophic levels, assume a simple food chain and do not accommodate a food web, and saprophytes are given no place in them though they play a vital role.",
+      "source": "s1",
+      "page": "§12.5 (p. 213 approx.)",
+      "quote": "it does not take into account the same species belonging to two or more trophic levels. It assumes a simple food chain, something that almost never exists in nature; it does not accommodate a food web. Moreover, saprophytes are not given any place in ecological pyramids even though they play a vital role in the ecosystem."
+    },
+    {
+      "id": "c40",
+      "claim": "Nutrient cycling is the storage and movement of nutrient elements through the components of the ecosystem; it is of two types, gaseous (reservoir: atmosphere or hydrosphere, e.g. carbon) and sedimentary (reservoir: Earth's crust, e.g. phosphorus).",
+      "source": "s1",
+      "page": "Summary (p. 214 approx.)",
+      "quote": "The storage and movement of nutrient elements through the various components of the ecosystem is called nutrient cycling; nutrients are repeatedly used through this process. Nutrient cycling is of two types—gaseous and sedimentary. Atmosphere or hydrosphere is the reservoir for the gaseous type of cycle (carbon), whereas Earth’s crust is the reservoir for sedimentary type (phosphorus)."
+    },
+    {
+      "id": "c41",
+      "claim": "Products of ecosystem processes are called ecosystem services, e.g. purification of air and water by forests.",
+      "source": "s1",
+      "page": "Summary (p. 214 approx.)",
+      "quote": "Products of ecosystem processes are named as ecosystem services, e.g., purification of air and water by forests."
+    },
+    {
+      "id": "c42",
+      "claim": "An ecosystem is a structural and functional unit of nature comprising abiotic components (inorganic materials, air, water, soil) and biotic components (producers, consumers and decomposers).",
+      "source": "s1",
+      "page": "Summary (p. 214 approx.)",
+      "quote": "An ecosystem is a structural and functional unit of nature and it comprises abiotic and biotic components. Abiotic components are inorganic materialsair, water and soil, whereas biotic components are producers, consumers and decomposers."
+    },
+    {
+      "id": "c43",
+      "claim": "The earthworm is called the farmer's friend because it helps in the breakdown of complex organic matter and in loosening the soil.",
+      "source": "s1",
+      "page": "§12.3 (p. 207 approx.)",
+      "quote": "You may have heard of the earthworm being referred to as the farmer’s ‘friend’. This is so because they help in the breakdown of complex organic matter as well as in loosening of the soil."
+    },
+    {
+      "id": "c44",
+      "claim": "In a grassland pyramid of numbers, only three top carnivores are supported on the production of nearly 6 million plants.",
+      "source": "s1",
+      "page": "§12.5, Fig. 12.4(a) (p. 212 approx.)",
+      "quote": "Pyramid of numbers in a grassland ecosystem. Only three topcarnivores are supported in an ecosystem based on production of nearly 6 millions plants"
+    },
+    {
+      "id": "c45",
+      "claim": "There is unidirectional movement of energy towards the higher trophic levels and its dissipation and loss as heat to the environment.",
+      "source": "s1",
+      "page": "§12.1 (p. 206 approx.)",
+      "quote": "There is unidirectional movement of energy towards the higher trophic levels and its dissipation and loss as heat to the environment."
+    },
+    {
+      "id": "c46",
+      "claim": "Primary productivity depends on the plant species of the area, environmental factors, availability of nutrients and the photosynthetic capacity of plants, so it varies across ecosystem types.",
+      "source": "s1",
+      "page": "§12.2 (p. 206 approx.)",
+      "quote": "Primary productivity depends on the plant species inhabiting a particular area. It also depends on a variety of environmental factors, availability of nutrients and photosynthetic capacity of plants. Therefore, it varies in different types of ecosystems."
+    },
+    {
+      "id": "c47",
+      "claim": "Energy trapped by a producer is either passed on to a consumer or the organism dies; death of an organism is the beginning of the detritus food chain/web.",
+      "source": "s1",
+      "page": "§12.4 (p. 209 approx.)",
+      "quote": "The energy trapped by the producer, hence, is either passed on to a consumer or the organism dies. Death of organism is the beginning of the detritus food chain/web."
+    },
+    {
+      "id": "c48",
+      "claim": "In an ideal pyramid of energy, primary producers convert only 1 per cent of the sunlight energy available to them into NPP.",
+      "source": "s1",
+      "page": "§12.5, Fig. 12.4(d) (p. 212 approx.)",
+      "quote": "An ideal pyramid of energy. Observe that primary producers convert only 1% of the energy in the sunlight available to them into NPP"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "বাস্তুতন্ত্র কী: ধারণা ও প্রকারভেদ",
+      "quick": "বাস্তুতন্ত্র হল প্রকৃতির একটি কার্যকরী একক, যেখানে জীবেরা নিজেদের মধ্যে এবং চারপাশের জড় (ভৌত) পরিবেশের সঙ্গে ক্রিয়া-প্রতিক্রিয়া করে। এর আকার একটি ছোট পুকুর থেকে বিশাল বন বা সমুদ্র পর্যন্ত হতে পারে; গোটা জীবমণ্ডলকেই (biosphere) অনেকে একটি বৈশ্বিক বাস্তুতন্ত্র মনে করেন।",
+      "standard": "বাস্তুতন্ত্রকে (Ecosystem) ভাবা যায় প্রকৃতির একটি কার্যকরী একক হিসেবে — যেখানে জীবন্ত প্রাণীরা পরস্পরের সঙ্গে এবং তাদের চারপাশের ভৌত পরিবেশের সঙ্গেও মিথস্ক্রিয়ায় লিপ্ত থাকে। অর্থাৎ শুধু জীবের সমষ্টি নয়, জীব + পরিবেশ + তাদের মধ্যেকার আদান-প্রদান — এই তিন মিলেই বাস্তুতন্ত্র।\n\nআকারের দিক থেকে বাস্তুতন্ত্রের পরিসর বিশাল: একটি ছোট্ট পুকুরও পূর্ণাঙ্গ বাস্তুতন্ত্র, আবার একটি বড় বন বা সমুদ্রও তাই। এমনকী অনেক বাস্তুবিদের মতে সমগ্র জীবমণ্ডলই একটি বৈশ্বিক বাস্তুতন্ত্র — পৃথিবীর সব স্থানীয় বাস্তুতন্ত্রের সমষ্টি। তবে এত বড় ও জটিল ব্যবস্থা একসঙ্গে পড়া কঠিন বলে একে দুটি মূল ভাগে ভাগ করা হয়: স্থলজ (terrestrial) ও জলজ (aquatic)।\n\nস্থলজ বাস্তুতন্ত্রের উদাহরণ বন, তৃণভূমি ও মরুভূমি; জলজ বাস্তুতন্ত্রের উদাহরণ পুকুর, হ্রদ, জলাভূমি (wetland), নদী ও মোহনা (estuary)। এ ছাড়া মানুষের তৈরি বাস্তুতন্ত্রও আছে — শস্যক্ষেত্র ও অ্যাকোয়ারিয়ামকে মনুষ্যসৃষ্ট (manmade) বাস্তুতন্ত্র ধরা হয়।\n\nগঠনের দিক থেকে প্রতিটি বাস্তুতন্ত্রের দুই ধরনের উপাদান থাকে: অজৈব বা জড় উপাদান — অজৈব পদার্থ, বাতাস, জল ও মাটি; আর জৈব উপাদান — উৎপাদক, খাদক ও বিয়োজক। এই উপাদানগুলির পারস্পরিক ক্রিয়াতেই প্রতিটি বাস্তুতন্ত্রের নিজস্ব ভৌত গঠন তৈরি হয়, যা পরের পরিচ্ছেদে পুকুরের উদাহরণ দিয়ে আমরা বিস্তারিত দেখব।",
+      "deep": "পরীক্ষার জন্য মনে রাখো: (১) সংজ্ঞায় 'কার্যকরী একক' (functional unit) কথাটি মূল শব্দ; (২) সবচেয়ে বড় বাস্তুতন্ত্র = জীবমণ্ডল; (৩) অ্যাকোয়ারিয়াম ও শস্যক্ষেত্র = মনুষ্যসৃষ্ট বাস্তুতন্ত্র — এই দুটি উদাহরণ প্রায়ই 'কোনটি মনুষ্যসৃষ্ট?' জাতীয় প্রশ্নে আসে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "এক লাইনে",
+          "body": "বাস্তুতন্ত্র = জীবসম্প্রদায় + জড় পরিবেশ + তাদের মিথস্ক্রিয়া। আকারে সবচেয়ে ছোট হতে পারে একটি পুকুর, সবচেয়ে বড় জীবমণ্ডল।",
+          "claims": [
+            "c01",
+            "c02",
+            "c03"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c42"
+      ]
+    },
+    {
+      "id": "s2",
+      "heading": "গঠন ও উপাদান: পুকুরের উদাহরণ",
+      "quick": "বাস্তুতন্ত্রের গঠনের দুটি প্রধান বৈশিষ্ট্য হল প্রজাতি-গঠন (কোন কোন প্রজাতি আছে) ও স্তরবিন্যাস (প্রজাতিগুলির উল্লম্ব বিন্যাস)। কার্যের দিক থেকে বাস্তুতন্ত্রকে একক হিসেবে দেখা হয় চারটি দিক থেকে: উৎপাদনশীলতা, পচন, শক্তিপ্রবাহ ও পুষ্টিচক্র। একটি ছোট পুকুরেই এই চারটি উপাদান স্পষ্ট দেখা যায়।",
+      "standard": "কোনো বাস্তুতন্ত্রের গঠন বুঝতে হলে প্রথমে জানতে হয় সেখানে কোন কোন প্রজাতি বাস করে। কোনো বাস্তুতন্ত্রের উদ্ভিদ ও প্রাণী প্রজাতিগুলিকে চিহ্নিত করে গণনা করলেই পাওয়া যায় তার **প্রজাতি-গঠন** (species composition)।\n\nদ্বিতীয় গাঠনিক বৈশিষ্ট্য হল **স্তরবিন্যাস** (stratification) — বিভিন্ন স্তরে বিভিন্ন প্রজাতির উল্লম্ব বণ্টন। বনের উদাহরণ নাও: সবচেয়ে ওপরের স্তরে থাকে গাছ, দ্বিতীয় স্তরে গুল্ম, আর একেবারে নিচের স্তরে লতাগুল্ম ও ঘাস। অর্থাৎ একই জায়গায় উচ্চতা অনুযায়ী প্রজাতিরা স্তরে স্তরে সাজানো থাকে।\n\nকার্যের দিক থেকে বাস্তুতন্ত্রের উপাদানগুলি একক হিসেবে কাজ করে চারটি বিষয়ে: (১) উৎপাদনশীলতা, (২) পচন, (৩) শক্তিপ্রবাহ এবং (৪) পুষ্টিচক্র। এই অধ্যায়ের বাকি পরিচ্ছেদগুলি ঠিক এই চারটি বিষয়ই একে একে আলোচনা করবে।\n\nএই গঠন বোঝার সবচেয়ে সহজ উদাহরণ একটি ছোট পুকুর — নিজে নিজে টিকে থাকতে পারে এমন একটি সরল জলজ বাস্তুতন্ত্র, যেখানে ওপরের চারটি মৌলিক উপাদানই ভালোভাবে দেখা যায়। পুকুরের **জড় উপাদান** হল জল — যাতে দ্রবীভূত অজৈব ও জৈব পদার্থ থাকে — এবং পুকুরের তলদেশে জমে থাকা সমৃদ্ধ মাটির আস্তরণ। সূর্যের আলো, তাপমাত্রার চক্র, দিনের দৈর্ঘ্য ও অন্যান্য জলবায়ুগত শর্ত গোটা পুকুরের কার্যের হার নিয়ন্ত্রণ করে।\n\nপুকুরের **স্বভোজী (উৎপাদক) উপাদান** হল ফাইটোপ্ল্যাঙ্কটন, কিছু শৈবাল এবং কিনারায় ভাসমান, নিমজ্জিত ও প্রান্তীয় উদ্ভিদ। **খাদকদের** প্রতিনিধিত্ব করে জুপ্ল্যাঙ্কটন এবং মুক্তভাবে সাঁতার কাটা ও তলদেশে বসবাসকারী প্রাণীরা। আর **বিয়োজক** হল ছত্রাক, ব্যাকটেরিয়া ও ফ্ল্যাজেলেট — যারা পুকুরের তলদেশে বিশেষভাবে প্রচুর পরিমাণে থাকে। এই ব্যবস্থাটি যেকোনো বাস্তুতন্ত্রের সব কাজই করে: সূর্যের বিকিরণশক্তির সাহায্যে স্বভোজীরা অজৈব পদার্থ থেকে জৈব পদার্থ তৈরি করে, পরভোজীরা স্বভোজীদের খায়, আর মৃত পদার্থ পচে খনিজীভূত হয়ে আবার স্বভোজীদের ব্যবহারের জন্য ফিরে আসে — এই ঘটনাগুলি বারবার ঘটতে থাকে।",
+      "deep": "লক্ষ্য করো, পুকুরের উদাহরণে বিয়োজকেরা তলদেশে বেশি — কারণ মৃত জীব ও বর্জ্য তলদেশেই জমে। পরীক্ষায় 'পুকুরে বিয়োজক কারা?' (ছত্রাক, ব্যাকটেরিয়া, ফ্ল্যাজেলেট) এবং 'দ্বিতীয় স্তরে পুকুরে কে থাকে?' জাতীয় প্রশ্নে এই বিন্যাসটাই কাজে লাগে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "প্রজাতি-গঠন বনাম স্তরবিন্যাস",
+          "body": "প্রজাতি-গঠন = কোন কোন প্রজাতি আছে তার তালিকা; স্তরবিন্যাস = সেই প্রজাতিগুলির উল্লম্ব (উচ্চতাভিত্তিক) বিন্যাস। দুটোই বাস্তুতন্ত্রের গাঠনিক বৈশিষ্ট্য, কিন্তু এক জিনিস নয়।",
+          "claims": [
+            "c04",
+            "c05"
+          ]
+        }
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c42"
+      ]
+    },
+    {
+      "id": "s3",
+      "heading": "উৎপাদনশীলতা: GPP ও NPP",
+      "quick": "যেকোনো বাস্তুতন্ত্র চলতে ও টিকে থাকতে হলে সূর্যালোকের ধারাবাহিক জোগান অপরিহার্য। সালোকসংশ্লেষে উদ্ভিদ যে হারে জৈবভর তৈরি করে তাকে বলে প্রাথমিক উৎপাদন; তার হার হল উৎপাদনশীলতা। মোট প্রাথমিক উৎপাদন (GPP) থেকে শ্বসনে ব্যয়িত অংশ (R) বাদ দিলে পাওয়া যায় প্রকৃত প্রাথমিক উৎপাদন (NPP): GPP − R = NPP।",
+      "standard": "**প্রাথমিক উৎপাদন** (primary production) বলতে বোঝায় নির্দিষ্ট সময়ে একক ক্ষেত্রফলে উদ্ভিদের সালোকসংশ্লেষের মাধ্যমে উৎপাদিত জৈবভর বা জৈব পদার্থের পরিমাণ। এটি ওজনে (gm⁻²) বা শক্তিতে (kcal m⁻²) প্রকাশ করা হয়। আর জৈবভর উৎপাদনের হারকেই বলে **উৎপাদনশীলতা** (productivity) — বিভিন্ন বাস্তুতন্ত্রের তুলনার জন্য এটি gm⁻² yr⁻¹ বা (kcal m⁻²) yr⁻¹ এককে প্রকাশ করা হয়।\n\nপ্রাথমিক উৎপাদনশীলতা দুই ভাগে ভাগ হয়। **মোট প্রাথমিক উৎপাদনশীলতা (GPP)** হল সালোকসংশ্লেষের সময় জৈব পদার্থ উৎপাদনের মোট হার। কিন্তু GPP-র একটি বড় অংশ উদ্ভিদ নিজেই শ্বসনে (respiration) খরচ করে ফেলে। তাই GPP থেকে শ্বসনজনিত ক্ষতি (R) বাদ দিলে যা থাকে, তাই **প্রকৃত প্রাথমিক উৎপাদনশীলতা (NPP)**:\n\n**GPP − R = NPP**\n\nNPP-র গুরুত্ব এখানেই: এটিই হল সেই জৈবভর যা পরভোজীদের — তৃণভোজী ও বিয়োজকদের — ভোগের জন্য উপলব্ধ থাকে। অন্যদিকে, খাদকেরা যে হারে নতুন জৈব পদার্থ তৈরি করে, তাকে বলে **গৌণ উৎপাদনশীলতা** (secondary productivity)।\n\nপ্রাথমিক উৎপাদনশীলতা সব জায়গায় সমান নয়। এটি নির্ভর করে ওই এলাকায় বসবাসকারী উদ্ভিদ প্রজাতির ওপর, পরিবেশগত নানা শর্তের ওপর, পুষ্টির প্রাপ্যতা এবং উদ্ভিদের সালোকসংশ্লেষ ক্ষমতার ওপর — তাই বাস্তুতন্ত্রভেদে এটি বদলায়। একটি মনে রাখার মতো সংখ্যা: সমগ্র জীবমণ্ডলের বার্ষিক প্রকৃত প্রাথমিক উৎপাদন প্রায় ১৭০ বিলিয়ন টন (শুষ্ক ওজন) জৈব পদার্থ। অথচ পৃথিবীর প্রায় ৭০ শতাংশ পৃষ্ঠ জুড়ে থাকা সত্ত্বেও মহাসাগরগুলির উৎপাদন মাত্র ৫৫ বিলিয়ন টন — অর্থাৎ স্থলভাগের উৎপাদনশীলতা তুলনামূলকভাবে অনেক বেশি।",
+      "deep": "পরীক্ষায় সবচেয়ে বেশি আসে: (১) GPP − R = NPP সূত্রটি; (২) 'NPP কার জন্য উপলব্ধ?' — উত্তর: পরভোজীদের (তৃণভোজী ও বিয়োজক) জন্য; (৩) গৌণ উৎপাদনশীলতা = খাদকদের নতুন জৈব পদার্থ তৈরির হার — এটি উদ্ভিদের নয়, এই ফাঁদে অনেকে পড়ে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সংখ্যা দুটি মনে রাখো",
+          "body": "জীবমণ্ডলের মোট বার্ষিক NPP ≈ ১৭০ বিলিয়ন টন (শুষ্ক ওজন); মহাসাগরের অবদান মাত্র ৫৫ বিলিয়ন টন, যদিও মহাসাগর পৃথিবীর পৃষ্ঠের প্রায় ৭০% জুড়ে আছে।",
+          "claims": [
+            "c13"
+          ]
+        }
+      ],
+      "claims": [
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c46"
+      ]
+    },
+    {
+      "id": "s4",
+      "heading": "পচন: ডেট্রিটাস থেকে খনিজ পুষ্টি",
+      "quick": "বিয়োজকেরা জটিল জৈব পদার্থ ভেঙে কার্বন ডাই-অক্সাইড, জল ও পুষ্টির মতো অজৈব পদার্থে পরিণত করে — এই প্রক্রিয়াই পচন। এর কাঁচামাল হল ডেট্রিটাস (মৃত উদ্ভিদ ও প্রাণীর অবশেষ), আর ধাপ পাঁচটি: খণ্ডীভবন, নিষ্কাশন, অপচয়, হিউমাস-গঠন ও খনিজীভবন।",
+      "standard": "কেঁচোকে বলা হয় কৃষকের 'বন্ধু' — কারণ তারা জটিল জৈব পদার্থ ভাঙতে সাহায্য করে, আবার মাটি আলগা করে দেয়। বিয়োজকেরাও ঠিক এই কাজটাই করে বড় পরিসরে: জটিল জৈব পদার্থ ভেঙে কার্বন ডাই-অক্সাইড, জল ও পুষ্টির মতো অজৈব পদার্থে রূপান্তরিত করে। এই প্রক্রিয়ার নাম **পচন** (decomposition)।\n\nপচনের কাঁচামাল হল **ডেট্রিটাস** (detritus) — মৃত উদ্ভিদের অবশেষ (পাতা, ছাল, ফুল) এবং মৃত প্রাণীর দেহাবশেষ, মলমূত্রসহ। পচন প্রক্রিয়ার গুরুত্বপূর্ণ ধাপ পাঁচটি:\n\n১. **খণ্ডীভবন (Fragmentation):** ডেট্রিটিভোরেরা (যেমন কেঁচো) ডেট্রিটাসকে ছোট ছোট কণায় ভেঙে দেয়।\n২. **নিষ্কাশন (Leaching):** জলে দ্রবণীয় অজৈব পুষ্টি জলের সঙ্গে মাটির স্তরের গভীরে নেমে যায় এবং অনুপলব্ধ লবণ হিসেবে অধঃক্ষিপ্ত হয়।\n৩. **অপচয় (Catabolism):** ব্যাকটেরিয়া ও ছত্রাকের উৎসেচক ডেট্রিটাসকে ভেঙে সরল অজৈব পদার্থে পরিণত করে।\n৪. **হিউমাস-গঠন (Humification):** গাঢ় রঙের, অনিয়তাকার (amorphous) পদার্থ **হিউমাস** জমা হয়। হিউমাস অণুজীবের ক্রিয়ার বিরুদ্ধে অত্যন্ত প্রতিরোধী, তাই এর পচন হয় অত্যন্ত ধীরে; কলয়ডধর্মী হওয়ায় এটি পুষ্টির ভান্ডার হিসেবে কাজ করে।\n৫. **খনিজীভবন (Mineralisation):** কিছু অণুজীব হিউমাসকে আরও ভেঙে দেয় এবং অজৈব পুষ্টি মুক্ত হয়।\n\nমনে রাখতে হবে, এই ধাপগুলি ডেট্রিটাসের ওপর একই সঙ্গে ক্রিয়াশীল থাকে। পচন মূলত একটি অক্সিজেন-প্রয়োজনীয় প্রক্রিয়া। এর হার নিয়ন্ত্রণ করে ডেট্রিটাসের রাসায়নিক গঠন ও জলবায়ুগত শর্ত। ডেট্রিটাসে লিগনিন ও কাইটিন বেশি থাকলে পচন ধীর হয়; নাইট্রোজেন ও চিনির মতো জলে দ্রবণীয় পদার্থ বেশি থাকলে পচন দ্রুত হয়। জলবায়ুগত শর্তের মধ্যে তাপমাত্রা ও মাটির আর্দ্রতাই সবচেয়ে গুরুত্বপূর্ণ, কারণ এগুলি মাটির অণুজীবদের ক্রিয়াকলাপকে প্রভাবিত করে। উষ্ণ ও আর্দ্র পরিবেশ পচনের পক্ষে অনুকূল; অন্যদিকে নিম্ন তাপমাত্রা ও অবায়বীয় (anaerobic) অবস্থা পচন বাধা দেয়, ফলে জৈব পদার্থ জমতে থাকে।",
+      "deep": "পাঁচটি ধাপের ক্রমটি মুখস্থ রাখো — খণ্ডীভবন → নিষ্কাশন → অপচয় → হিউমাস-গঠন → খনিজীভবন। পরীক্ষায় 'কোন ধাপে উৎসেচক কাজ করে?' (অপচয়), 'কোন ধাপে হিউমাস তৈরি হয়?' এবং 'পচন ধীর হয় কখন?' (লিগনিন-কাইটিন বেশি হলে / ঠান্ডা ও অবায়বীয় হলে) — এই তিন ধরনের প্রশ্নই বারবার আসে।",
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "কেঁচো কেন কৃষকের বন্ধু",
+          "body": "কেঁচো জটিল জৈব পদার্থ ভাঙতে সাহায্য করে এবং মাটি আলগা করে দেয়। পচনের প্রথম ধাপ খণ্ডীভবনে কেঁচোর মতো ডেট্রিটিভোরেরাই ডেট্রিটাসকে ছোট কণায় ভেঙে দেয়।",
+          "claims": [
+            "c43",
+            "c17"
+          ]
+        }
+      ],
+      "claims": [
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c43"
+      ]
+    },
+    {
+      "id": "s5",
+      "heading": "শক্তিপ্রবাহ, খাদ্যশৃঙ্খল ও পুষ্টিস্তর",
+      "quick": "গভীর সমুদ্রের হাইড্রোথার্মাল বাস্তুতন্ত্র ছাড়া সব বাস্তুতন্ত্রের শক্তির একমাত্র উৎস সূর্য। শক্তি প্রবাহিত হয় একমুখীভাবে — সূর্য থেকে উৎপাদক, তারপর খাদকদের দিকে। খাদ্যের এই ধারাই খাদ্যশৃঙ্খল; অনেক শৃঙ্খল জুড়ে গেলে খাদ্যজাল। প্রতি পুষ্টিস্তরে শক্তি কমে, আর স্থানান্তর চলে ১০ শতাংশ সূত্র মেনে।",
+      "standard": "গভীর সমুদ্রের হাইড্রোথার্মাল বাস্তুতন্ত্র ব্যতীত, পৃথিবীর সব বাস্তুতন্ত্রের শক্তির একমাত্র উৎস সূর্য। আপতিত সৌর বিকিরণের ৫০ শতাংশেরও কম অংশ হল সালোকসংশ্লেষে সক্রিয় বিকিরণ (PAR)। উদ্ভিদ এই PAR-এর মাত্র ২–১০ শতাংশ ধরে রাখতে পারে — আর এই সামান্য শক্তিই গোটা জীবজগৎকে টিকিয়ে রাখে। বাস্তুতন্ত্র তাপগতিবিদ্যার দ্বিতীয় সূত্রেরও বাইরে নয়: তাদের দরকার শক্তির ধারাবাহিক জোগান। ফলে শক্তিপ্রবাহ **একমুখী** — সূর্য থেকে উৎপাদকে, উৎপাদক থেকে খাদকে; এবং উচ্চতর পুষ্টিস্তরের দিকে যেতে যেতে শক্তি তাপ হিসেবে ছড়িয়ে নষ্ট হয়।\n\nসবুজ উদ্ভিদরাই **উৎপাদক** (producers)। স্থলজ বাস্তুতন্ত্রে প্রধান উৎপাদক হল লতাগুল্মজাতীয় ও কাষ্ঠল উদ্ভিদ; জলজ বাস্তুতন্ত্রে উৎপাদক হল ফাইটোপ্ল্যাঙ্কটন, শৈবাল ও উচ্চতর উদ্ভিদ। সব প্রাণীই খাদ্যের জন্য প্রত্যক্ষ বা পরোক্ষভাবে উদ্ভিদের ওপর নির্ভরশীল — তাই তাদের বলা হয় **খাদক** বা পরভোজী। যারা সরাসরি উৎপাদককে খায় তারা **প্রাথমিক খাদক** — এরাই তৃণভোজী (যেমন স্থলজ বাস্তুতন্ত্রে কীটপতঙ্গ, পাখি, স্তন্যপায়ী; জলজ বাস্তুতন্ত্রে শামুকজাতীয় প্রাণী)। তৃণভোজীদের যারা খায় তারা মাংসাশী বা প্রাথমিক মাংসাশী (দ্বিতীয় খাদক); তাদের ওপর নির্ভরশীলরা গৌণ মাংসাশী। NCERT-র সরল **চারণ খাদ্যশৃঙ্খল** (Grazing Food Chain, GFC)-এর উদাহরণ: ঘাস → ছাগল → মানুষ (উৎপাদক → প্রাথমিক খাদক → গৌণ খাদক)।\n\nঅন্য ধারাটি হল **ডেট্রিটাস খাদ্যশৃঙ্খল** (Detritus Food Chain, DFC) — এটি শুরু হয় মৃত জৈব পদার্থ থেকে। উৎপাদকের ধরে রাখা শক্তি হয় খাদকের কাছে যায়, নয়তো জীবটি মারা যায়; জীবের মৃত্যুই ডেট্রিটাস খাদ্যশৃঙ্খলের সূচনা। এই শৃঙ্খল গঠিত বিয়োজকদের নিয়ে — প্রধানত ছত্রাক ও ব্যাকটেরিয়া, যারা মৃত জৈব পদার্থ বা ডেট্রিটাস ভেঙে নিজেদের শক্তি ও পুষ্টি সংগ্রহ করে। এদের **স্যাপ্রোট্রোফ**ও বলা হয়; এরা পরিপাক-উৎসেচক নিঃসরণ করে মৃত ও বর্জ্য পদার্থকে সরল অজৈব পদার্থে ভেঙে দেয় এবং তা শোষণ করে।\n\nদুটি শৃঙ্খলের তুলনা পরীক্ষার জন্য জরুরি: জলজ বাস্তুতন্ত্রে শক্তিপ্রবাহের প্রধান মাধ্যম হল চারণ খাদ্যশৃঙ্খল (GFC); কিন্তু স্থলজ বাস্তুতন্ত্রে শক্তির অনেক বড় অংশ প্রবাহিত হয় ডেট্রিটাস খাদ্যশৃঙ্খল দিয়ে। দুটি শৃঙ্খল আবার কোথাও কোথাও যুক্ত থাকে — DFC-র কিছু জীব GFC-র প্রাণীদের শিকার হয়, আর আরশোলা, কাকের মতো প্রাণীরা সর্বভুক (omnivore)। খাদ্যশৃঙ্খলগুলির এই প্রাকৃতিক আন্তঃসংযোগই তৈরি করে **খাদ্যজাল** (food web)।\n\nপুষ্টির উৎসের ভিত্তিতে প্রতিটি জীব খাদ্যশৃঙ্খলে একটি নির্দিষ্ট স্থান অধিকার করে — সেটিই তার **পুষ্টিস্তর** (trophic level)। উৎপাদক = প্রথম পুষ্টিস্তর, তৃণভোজী (প্রাথমিক খাদক) = দ্বিতীয়, মাংসাশী (গৌণ খাদক) = তৃতীয়। কোনো নির্দিষ্ট সময়ে প্রতিটি পুষ্টিস্তরে যে পরিমাণ জীবন্ত পদার্থ থাকে, তাকে বলে **স্থায়ী ফসল** (standing crop) — এটি একক ক্ষেত্রফলে জীবভর (জৈবভর) বা সংখ্যা দিয়ে মাপা হয়, আর জৈবভর শুষ্ক ওজনে মাপাই বেশি নির্ভুল।\n\nসবশেষে এই অধ্যায়ের সবচেয়ে বিখ্যাত সূত্র: পরপর পুষ্টিস্তরে শক্তির পরিমাণ কমতে থাকে, এবং শক্তি স্থানান্তর চলে **১০ শতাংশ সূত্র** মেনে — নিম্নতর পুষ্টিস্তর থেকে পরবর্তী প্রতিটি পুষ্টিস্তরে শক্তির মাত্র ১০ শতাংশ স্থানান্তরিত হয়। ঠিক এই কারণেই চারণ খাদ্যশৃঙ্খলে পুষ্টিস্তরের সংখ্যা সীমিত থাকে।",
+      "deep": "তৃণভূমির সংখ্যার পিরামিডের NCERT চিত্রটি মনে রাখো: প্রায় ৬০ লক্ষ (৬ মিলিয়ন) উদ্ভিদের উৎপাদনের ভিত্তিতে মাত্র ৩টি শীর্ষ মাংসাশী টিকে থাকতে পারে — ১০ শতাংশ সূত্রের প্রভাবের সবচেয়ে চমকপ্রদ উদাহরণ এটি।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "GFC বনাম DFC",
+          "body": "চারণ খাদ্যশৃঙ্খল (GFC) শুরু হয় জীবন্ত উৎপাদক থেকে (ঘাস → ছাগল → মানুষ); ডেট্রিটাস খাদ্যশৃঙ্খল (DFC) শুরু হয় মৃত জৈব পদার্থ থেকে। জলজ বাস্তুতন্ত্রে GFC প্রধান; স্থলজ বাস্তুতন্ত্রে DFC দিয়ে বেশি শক্তি প্রবাহিত হয়।",
+          "claims": [
+            "c27",
+            "c28"
+          ]
+        }
+      ],
+      "claims": [
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c45",
+        "c47"
+      ]
+    },
+    {
+      "id": "s6",
+      "heading": "বাস্তুসংস্থানিক পিরামিড, পুষ্টিচক্র ও বাস্তুতন্ত্রের সেবা",
+      "quick": "পুষ্টিস্তরগুলির মধ্যে খাদ্য বা শক্তির সম্পর্ক সংখ্যা, জৈবভর বা শক্তি দিয়ে প্রকাশ করলেই পাওয়া যায় বাস্তুসংস্থানিক পিরামিড — গোড়ায় উৎপাদক, চূড়ায় শীর্ষ খাদক। বেশিরভাগ পিরামিড সোজা হলেও সমুদ্রে জৈবভরের পিরামিড সাধারণত উল্টানো; কিন্তু শক্তির পিরামিড সর্বদা সোজা। পুষ্টি উপাদানগুলির সঞ্চয় ও চলাচলই পুষ্টিচক্র — গ্যাসীয় (কার্বন) ও পাললিক (ফসফরাস) এই দুই প্রকারের।",
+      "standard": "পিরামিডের গোড়া চওড়া, চূড়া সরু — বিভিন্ন পুষ্টিস্তরের জীবদের মধ্যে খাদ্য বা শক্তির সম্পর্ক প্রকাশ করলেও একই আকৃতি পাওয়া যায়। এই সম্পর্ক সংখ্যা, জৈবভর বা শক্তির মাধ্যমে প্রকাশ করা হয়। প্রতিটি পিরামিডের গোড়া (base) প্রতিনিধিত্ব করে উৎপাদকদের বা প্রথম পুষ্টিস্তরকে, আর চূড়া (apex) তৃতীয় স্তরের বা শীর্ষ খাদককে। সাধারণত তিন ধরনের পিরামিড পড়া হয়: (ক) **সংখ্যার পিরামিড**, (খ) **জৈবভরের পিরামিড** এবং (গ) **শক্তির পিরামিড**।\n\nবেশিরভাগ বাস্তুতন্ত্রে সংখ্যা, শক্তি ও জৈবভর — সব পিরামিডই **সোজা** (upright): সংখ্যা ও জৈবভরে উৎপাদক তৃণভোজীর চেয়ে বেশি, তৃণভোজী মাংসাশীর চেয়ে বেশি; আর নিম্ন পুষ্টিস্তরে শক্তি সবসময় উচ্চ স্তরের চেয়ে বেশি থাকে।\n\nকিন্তু ব্যতিক্রম আছে। সমুদ্রে **জৈবভরের পিরামিড সাধারণত উল্টানো** (inverted) — কারণ মাছের জৈবভর ফাইটোপ্ল্যাঙ্কটনের জৈবভরের চেয়ে অনেক বেশি। অন্যদিকে **শক্তির পিরামিড সর্বদা সোজা, কখনোই উল্টানো হতে পারে না** — কারণ এক পুষ্টিস্তর থেকে পরের স্তরে শক্তি যাওয়ার প্রতি ধাপে কিছু শক্তি তাপ হিসেবে নষ্ট হয়। আদর্শ শক্তির পিরামিডে দেখা যায়, প্রাথমিক উৎপাদকেরা তাদের জন্য উপলব্ধ সূর্যালোকের মাত্র ১ শতাংশ শক্তি NPP-তে রূপান্তরিত করে।\n\nপিরামিড পড়ার সময় দুটি সতর্কতা মনে রাখতে হবে। প্রথমত, পুষ্টিস্তর একটি কার্যগত স্তর, প্রজাতি নয় — একই প্রজাতি একই বাস্তুতন্ত্রে একই সময়ে একাধিক পুষ্টিস্তরে থাকতে পারে: চড়ুই বীজ, ফল, মটর খেলে প্রাথমিক খাদক, আবার পোকামাকড় ও কেঁচো খেলে গৌণ খাদক। দ্বিতীয়ত, পিরামিডের কিছু **সীমাবদ্ধতা** আছে: এটি একই প্রজাতির একাধিক পুষ্টিস্তরে থাকাকে হিসাবে নেয় না; এটি সরল খাদ্যশৃঙ্খল ধরে নেয়, যা প্রকৃতিতে প্রায় কখনোই থাকে না, এবং খাদ্যজালকে জায়গা দেয় না; আবার স্যাপ্রোফাইটদের (বিয়োজক) পিরামিডে কোনো স্থান দেওয়া হয় না, যদিও বাস্তুতন্ত্রে তাদের ভূমিকা অত্যন্ত গুরুত্বপূর্ণ।\n\nশক্তি একমুখী প্রবাহিত হলেও পুষ্টি উপাদানগুলি চক্রাকারে ঘোরে। বাস্তুতন্ত্রের বিভিন্ন উপাদানের মধ্য দিয়ে পুষ্টি উপাদানগুলির সঞ্চয় ও চলাচলকে বলে **পুষ্টিচক্র** (nutrient cycling) — এই প্রক্রিয়ায় পুষ্টি বারবার ব্যবহৃত হয়। পুষ্টিচক্র দুই প্রকার: **গ্যাসীয়** — যার ভান্ডার বায়ুমণ্ডল বা জলমণ্ডল (যেমন কার্বন চক্র); এবং **পাললিক** (sedimentary) — যার ভান্ডার পৃথিবীর ভূত্বক (যেমন ফসফরাস চক্র)।\n\nসবশেষে, বাস্তুতন্ত্রের প্রক্রিয়াগুলির উৎপাদিত ফলগুলিকে বলে **বাস্তুতন্ত্রের সেবা** (ecosystem services) — যেমন বনভূমির দ্বারা বাতাস ও জলের পরিশোধন।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "কোন পিরামিড কখনো উল্টায় না?",
+          "body": "শক্তির পিরামিড — সর্বদা সোজা। সংখ্যা ও জৈবভরের পিরামিড কোনো কোনো বাস্তুতন্ত্রে উল্টানো হতে পারে (সমুদ্রে জৈবভরের পিরামিড সাধারণত উল্টানো)। এই জোড়টি GK-ENV-002 ব্যাংক-আইটেম ও অসংখ্য পরীক্ষার প্রশ্নের মূল কথা।",
+          "claims": [
+            "c36",
+            "c37"
+          ]
+        }
+      ],
+      "claims": [
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c44",
+        "c48"
+      ]
+    }
+  ],
+  "events": [],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1,
+      "when": "ধাপ ১",
+      "label": "সূর্যালোকের PAR অংশ উৎপাদক (সবুজ উদ্ভিদ) ধরে রাখে — মাত্র ২–১০ শতাংশ",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "sort_year": 2,
+      "when": "ধাপ ২",
+      "label": "প্রাথমিক খাদক (তৃণভোজী) উৎপাদককে খায় — শক্তির মাত্র ১০ শতাংশ পরের স্তরে যায়",
+      "claims": [
+        "c26",
+        "c33"
+      ]
+    },
+    {
+      "sort_year": 3,
+      "when": "ধাপ ৩",
+      "label": "গৌণ ও তৃতীয় স্তরের খাদক (মাংসাশী) — প্রতি ধাপে শক্তি তাপ হিসেবে কমতে থাকে",
+      "claims": [
+        "c31",
+        "c45"
+      ]
+    },
+    {
+      "sort_year": 4,
+      "when": "ধাপ ৪",
+      "label": "জীবের মৃত্যুতে ডেট্রিটাস খাদ্যশৃঙ্খলের সূচনা — বিয়োজকেরা পচন ঘটায়",
+      "claims": [
+        "c47",
+        "c28"
+      ]
+    },
+    {
+      "sort_year": 5,
+      "when": "ধাপ ৫",
+      "label": "পচন ও খনিজীভবনে অজৈব পুষ্টি আবার উৎপাদকের ব্যবহারের জন্য ফিরে আসে (পুষ্টিচক্র)",
+      "claims": [
+        "c21",
+        "c40"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "বাস্তুতন্ত্র (Ecosystem)",
+      "meaning": "প্রকৃতির কার্যকরী একক, যেখানে জীবেরা পরস্পরের সঙ্গে ও ভৌত পরিবেশের সঙ্গে মিথস্ক্রিয়া করে।",
+      "section": "s1"
+    },
+    {
+      "term": "প্রজাতি-গঠন (Species composition)",
+      "meaning": "কোনো বাস্তুতন্ত্রের উদ্ভিদ ও প্রাণী প্রজাতিগুলিকে চিহ্নিত ও গণনা করে পাওয়া তালিকা।",
+      "section": "s2"
+    },
+    {
+      "term": "স্তরবিন্যাস (Stratification)",
+      "meaning": "বিভিন্ন স্তরে বিভিন্ন প্রজাতির উল্লম্ব বণ্টন; বনে গাছ ওপরে, গুল্ম মাঝে, লতাগুল্ম-ঘাস নিচে।",
+      "section": "s2"
+    },
+    {
+      "term": "প্রাথমিক উৎপাদন (Primary production)",
+      "meaning": "নির্দিষ্ট সময়ে একক ক্ষেত্রফলে উদ্ভিদের সালোকসংশ্লেষে উৎপাদিত জৈবভরের পরিমাণ।",
+      "section": "s3"
+    },
+    {
+      "term": "GPP ও NPP",
+      "meaning": "GPP = সালোকসংশ্লেষে জৈব পদার্থ উৎপাদনের মোট হার; NPP = GPP − R (শ্বসনজনিত ক্ষতি বাদে), যা পরভোজীদের জন্য উপলব্ধ থাকে।",
+      "section": "s3"
+    },
+    {
+      "term": "গৌণ উৎপাদনশীলতা (Secondary productivity)",
+      "meaning": "খাদকেরা যে হারে নতুন জৈব পদার্থ তৈরি করে।",
+      "section": "s3"
+    },
+    {
+      "term": "ডেট্রিটাস (Detritus)",
+      "meaning": "মৃত উদ্ভিদ ও প্রাণীর অবশেষ (মলমূত্রসহ) — পচনের কাঁচামাল।",
+      "section": "s4"
+    },
+    {
+      "term": "ডেট্রিটিভোর (Detritivore)",
+      "meaning": "ডেট্রিটাসকে ছোট কণায় ভেঙে দেয় এমন জীব, যেমন কেঁচো (খণ্ডীভবন ধাপ)।",
+      "section": "s4"
+    },
+    {
+      "term": "হিউমাস (Humus)",
+      "meaning": "হিউমাস-গঠনে তৈরি গাঢ় রঙের অনিয়তাকার পদার্থ; অণুজীব-প্রতিরোধী, পুষ্টির ভান্ডার হিসেবে কাজ করে।",
+      "section": "s4"
+    },
+    {
+      "term": "PAR",
+      "meaning": "সালোকসংশ্লেষে সক্রিয় বিকিরণ (Photosynthetically Active Radiation) — আপতিত সৌর বিকিরণের ৫০ শতাংশেরও কম অংশ।",
+      "section": "s5"
+    },
+    {
+      "term": "চারণ খাদ্যশৃঙ্খল (GFC)",
+      "meaning": "জীবন্ত উৎপাদক থেকে শুরু হওয়া খাদ্যশৃঙ্খল; যেমন ঘাস → ছাগল → মানুষ।",
+      "section": "s5"
+    },
+    {
+      "term": "ডেট্রিটাস খাদ্যশৃঙ্খল (DFC)",
+      "meaning": "মৃত জৈব পদার্থ থেকে শুরু হওয়া খাদ্যশৃঙ্খল, যা বিয়োজকদের (ছত্রাক, ব্যাকটেরিয়া) নিয়ে গঠিত।",
+      "section": "s5"
+    },
+    {
+      "term": "স্যাপ্রোট্রোফ (Saprotroph)",
+      "meaning": "বিয়োজকদের অপর নাম; উৎসেচক নিঃসরণ করে মৃত পদার্থ ভেঙে সরল অজৈব পদার্থ শোষণ করে।",
+      "section": "s5"
+    },
+    {
+      "term": "পুষ্টিস্তর (Trophic level)",
+      "meaning": "পুষ্টির উৎসের ভিত্তিতে খাদ্যশৃঙ্খলে জীবের নির্দিষ্ট স্থান: উৎপাদক প্রথম, তৃণভোজী দ্বিতীয়, মাংসাশী তৃতীয়।",
+      "section": "s5"
+    },
+    {
+      "term": "স্থায়ী ফসল (Standing crop)",
+      "meaning": "নির্দিষ্ট সময়ে কোনো পুষ্টিস্তরে থাকা জীবন্ত পদার্থের পরিমাণ — জৈবভর বা সংখ্যায় মাপা হয়।",
+      "section": "s5"
+    },
+    {
+      "term": "১০ শতাংশ সূত্র (10 per cent law)",
+      "meaning": "নিম্ন পুষ্টিস্তর থেকে পরবর্তী প্রতিটি পুষ্টিস্তরে শক্তির মাত্র ১০ শতাংশ স্থানান্তরিত হয়।",
+      "section": "s5"
+    },
+    {
+      "term": "বাস্তুসংস্থানিক পিরামিড (Ecological pyramid)",
+      "meaning": "পুষ্টিস্তরগুলির খাদ্য/শক্তি সম্পর্কের পিরামিডাকার প্রকাশ — সংখ্যা, জৈবভর ও শক্তি, এই তিন প্রকারের।",
+      "section": "s6"
+    },
+    {
+      "term": "পুষ্টিচক্র (Nutrient cycling)",
+      "meaning": "বাস্তুতন্ত্রের উপাদানগুলির মধ্য দিয়ে পুষ্টি উপাদানের সঞ্চয় ও চলাচল; গ্যাসীয় (কার্বন) ও পাললিক (ফসফরাস) দুই প্রকার।",
+      "section": "s6"
+    },
+    {
+      "term": "বাস্তুতন্ত্রের সেবা (Ecosystem services)",
+      "meaning": "বাস্তুতন্ত্রের প্রক্রিয়াগুলির উৎপাদিত উপকারী ফল; যেমন বনভূমির দ্বারা বাতাস ও জলের পরিশোধন।",
+      "section": "s6"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "১০ শতাংশ সূত্র ও পুষ্টিস্তরের সীমা",
+      "causes": [
+        "প্রতি ধাপে শক্তির মাত্র ১০ শতাংশ পরবর্তী পুষ্টিস্তরে স্থানান্তরিত হয়, বাকিটা তাপ হিসেবে নষ্ট হয়"
+      ],
+      "event": "উচ্চতর পুষ্টিস্তরে উপলব্ধ শক্তি দ্রুত কমে যায়",
+      "results": [
+        "চারণ খাদ্যশৃঙ্খলে পুষ্টিস্তরের সংখ্যা সীমিত থাকে",
+        "তৃণভূমিতে প্রায় ৬০ লক্ষ উদ্ভিদের ভিত্তিতে মাত্র ৩টি শীর্ষ মাংসাশী টিকে থাকতে পারে"
+      ],
+      "section": "s5",
+      "claims": [
+        "c33",
+        "c44"
+      ]
+    },
+    {
+      "title": "জলবায়ু ও পচনের গতি",
+      "causes": [
+        "উষ্ণ ও আর্দ্র পরিবেশ মাটির অণুজীবদের সক্রিয় করে",
+        "ডেট্রিটাসে নাইট্রোজেন ও জলে দ্রবণীয় পদার্থ (চিনি) বেশি থাকা"
+      ],
+      "event": "পচন দ্রুত হয়",
+      "results": [
+        "মৃত জৈব পদার্থ দ্রুত অজৈব পুষ্টিতে রূপান্তরিত হয়ে উৎপাদকের কাছে ফিরে আসে",
+        "বিপরীতে ঠান্ডা ও অবায়বীয় অবস্থায় পচন বাধা পেয়ে জৈব পদার্থ জমতে থাকে"
+      ],
+      "section": "s4",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "title": "তাপ হিসেবে শক্তিক্ষয় ও শক্তির পিরামিড",
+      "causes": [
+        "এক পুষ্টিস্তর থেকে পরের স্তরে শক্তি যাওয়ার প্রতি ধাপে কিছু শক্তি তাপ হিসেবে নষ্ট হয়",
+        "শক্তিপ্রবাহ একমুখী — নিম্ন স্তরে শক্তি সবসময় বেশি"
+      ],
+      "event": "শক্তির পিরামিডের প্রতিটি ধাপ আগের ধাপের চেয়ে ছোট হয়",
+      "results": [
+        "শক্তির পিরামিড সর্বদা সোজা থাকে, কখনোই উল্টানো হতে পারে না"
+      ],
+      "section": "s6",
+      "claims": [
+        "c37",
+        "c45",
+        "c35"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "১০ শতাংশ সূত্র: প্রতি পুষ্টিস্তরে শক্তির মাত্র ১০% স্থানান্তরিত হয় — এই কারণেই খাদ্যশৃঙ্খলে পুষ্টিস্তর সীমিত (GK-ENV-001)।",
+      "section": "s5"
+    },
+    {
+      "point": "শক্তির পিরামিড সর্বদা সোজা; সমুদ্রে জৈবভরের পিরামিড সাধারণত উল্টানো (মাছের জৈবভর > ফাইটোপ্ল্যাঙ্কটন) — এই জোড়টি সবচেয়ে বেশি জিজ্ঞাসিত (GK-ENV-002)।",
+      "section": "s6"
+    },
+    {
+      "point": "GPP − R = NPP সূত্র এবং NPP পরভোজীদের জন্য উপলব্ধ — সংজ্ঞা দুটি হুবহু মনে রাখো।",
+      "section": "s3"
+    },
+    {
+      "point": "পচনের পাঁচ ধাপের ক্রম: খণ্ডীভবন → নিষ্কাশন → অপচয় → হিউমাস-গঠন → খনিজীভবন; উৎসেচক কাজ করে অপচয়ে, কাজটি ব্যাকটেরিয়া ও ছত্রাকের।",
+      "section": "s4"
+    },
+    {
+      "point": "GFC বনাম DFC: জলজ বাস্তুতন্ত্রে GFC প্রধান মাধ্যম; স্থলজ বাস্তুতন্ত্রে DFC দিয়ে বেশি শক্তি প্রবাহিত হয়।",
+      "section": "s5"
+    },
+    {
+      "point": "সংখ্যা দুটি: জীবমণ্ডলের বার্ষিক NPP ≈ ১৭০ বিলিয়ন টন; মহাসাগরের অবদান ৫৫ বিলিয়ন টন (পৃষ্ঠের ~৭০% জুড়ে থেকেও)।",
+      "section": "s3"
+    },
+    {
+      "point": "PAR আপতিত সৌর বিকিরণের ৫০%-এর কম; উদ্ভিদ ধরে রাখে PAR-এর মাত্র ২–১০%; শক্তির পিরামিডে উৎপাদক সূর্যালোকের মাত্র ১% NPP-তে রূপান্তরিত করে।",
+      "section": "s5"
+    },
+    {
+      "point": "পুষ্টিচক্র: গ্যাসীয় চক্রের ভান্ডার বায়ুমণ্ডল/জলমণ্ডল (কার্বন), পাললিক চক্রের ভান্ডার ভূত্বক (ফসফরাস)।",
+      "section": "s6"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের কেন্দ্রীয় উদাহরণ — একটি ছোট পুকুর — বাংলার ছাত্রদের কাছে সবচেয়ে পরিচিত বাস্তুতন্ত্র। NCERT যে পুকুরটিকে 'নিজে নিজে টিকে থাকতে পারে এমন স্বয়ংসম্পূর্ণ একক' বলেছে, তার প্রতিটি উপাদান বাংলার গ্রাম-পুকুরেও হুবহু দেখা যায়: জলে দ্রবীভূত অজৈব-জৈব পদার্থ ও তলদেশের মাটি (জড় উপাদান), ফাইটোপ্ল্যাঙ্কটন-শৈবাল-কিনারার উদ্ভিদ (উৎপাদক), জুপ্ল্যাঙ্কটন ও তলদেশবাসী প্রাণী (খাদক), আর তলদেশে প্রচুর ছত্রাক-ব্যাকটেরিয়া (বিয়োজক)। আবার NCERT জলজ বাস্তুতন্ত্রের উদাহরণে স্পষ্টভাবে **জলাভূমি** (wetland)-এর নাম রেখেছে — বাংলার বিস্তীর্ণ জলাভূমি ও বিল-বাঁওড় এই শ্রেণিতেই পড়ে। তাই পুকুরের চারটি কার্য — উৎপাদনশীলতা, পচন, শক্তিপ্রবাহ, পুষ্টিচক্র — বুঝলেই নিজের চেনা পরিবেশ দিয়েই গোটা অধ্যায়টি যাচাই করা যায়।",
+    "claims": [
+      "c02",
+      "c06",
+      "c07",
+      "c08"
+    ]
+  },
+  "quick_revision": [
+    "বাস্তুতন্ত্র = প্রকৃতির কার্যকরী একক: জীব + জড় পরিবেশ + মিথস্ক্রিয়া; সবচেয়ে বড় রূপ জীবমণ্ডল।",
+    "স্থলজ: বন, তৃণভূমি, মরুভূমি; জলজ: পুকুর, হ্রদ, জলাভূমি, নদী, মোহনা; মনুষ্যসৃষ্ট: শস্যক্ষেত্র, অ্যাকোয়ারিয়াম।",
+    "গঠনের দুই বৈশিষ্ট্য: প্রজাতি-গঠন ও স্তরবিন্যাস (বনে: গাছ → গুল্ম → লতাগুল্ম/ঘাস)।",
+    "কার্যের চার দিক: উৎপাদনশীলতা, পচন, শক্তিপ্রবাহ, পুষ্টিচক্র।",
+    "GPP − R = NPP; NPP পরভোজীদের (তৃণভোজী ও বিয়োজক) জন্য উপলব্ধ; গৌণ উৎপাদনশীলতা = খাদকদের।",
+    "জীবমণ্ডলের বার্ষিক NPP ≈ ১৭০ বিলিয়ন টন; মহাসাগরের অবদান মাত্র ৫৫ বিলিয়ন টন।",
+    "পচনের পাঁচ ধাপ: খণ্ডীভবন → নিষ্কাশন → অপচয় → হিউমাস-গঠন → খনিজীভবন; কাঁচামাল ডেট্রিটাস।",
+    "পচন ধীর হয় লিগনিন-কাইটিন বেশি হলে ও ঠান্ডা-অবায়বীয় হলে; দ্রুত হয় উষ্ণ-আর্দ্র পরিবেশে।",
+    "শক্তির উৎস সূর্য (ব্যতিক্রম: গভীর সমুদ্রের হাইড্রোথার্মাল বাস্তুতন্ত্র); PAR < ৫০%, উদ্ভিদ ধরে PAR-এর ২–১০%।",
+    "GFC: ঘাস → ছাগল → মানুষ; DFC শুরু মৃত জৈব পদার্থ থেকে; জলজে GFC প্রধান, স্থলজে DFC বড়।",
+    "পুষ্টিস্তর: উৎপাদক ১ম, তৃণভোজী ২য়, মাংসাশী ৩য়; ১০ শতাংশ সূত্রে প্রতি ধাপে মাত্র ১০% শক্তি যায়।",
+    "শক্তির পিরামিড সর্বদা সোজা; সমুদ্রে জৈবভরের পিরামিড সাধারণত উল্টানো; চড়ুই একই সঙ্গে দুই পুষ্টিস্তরে থাকতে পারে।",
+    "পুষ্টিচক্র: গ্যাসীয় (ভান্ডার বায়ুমণ্ডল/জলমণ্ডল — কার্বন), পাললিক (ভান্ডার ভূত্বক — ফসফরাস)।"
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "s1",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাস্তুতন্ত্র (Ecosystem) বলতে কী বোঝায়?",
+      "a": "প্রকৃতির একটি কার্যকরী একক, যেখানে জীবেরা পরস্পরের সঙ্গে ও ভৌত পরিবেশের সঙ্গে মিথস্ক্রিয়া করে",
+      "w": [
+        "শুধুমাত্র একটি এলাকার সব উদ্ভিদের সমষ্টি",
+        "শুধুমাত্র একটি এলাকার সব প্রাণীর সমষ্টি",
+        "একই প্রজাতির সব জীবের সমষ্টি"
+      ],
+      "e": "NCERT-র সংজ্ঞায় বাস্তুতন্ত্র প্রকৃতির কার্যকরী একক — জীব ও জড় পরিবেশের মিথস্ক্রিয়াই এর মূল কথা। শুধু উদ্ভিদ, শুধু প্রাণী বা এক প্রজাতির সমষ্টি কোনোটিই পূর্ণ সংজ্ঞা নয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "s1",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নীচের কোনটি মনুষ্যসৃষ্ট (manmade) বাস্তুতন্ত্র?",
+      "a": "অ্যাকোয়ারিয়াম",
+      "w": [
+        "বন",
+        "মরুভূমি",
+        "মোহনা"
+      ],
+      "e": "শস্যক্ষেত্র ও অ্যাকোয়ারিয়ামকে মনুষ্যসৃষ্ট বাস্তুতন্ত্র ধরা হয়। বন ও মরুভূমি স্থলজ, মোহনা জলজ প্রাকৃতিক বাস্তুতন্ত্র।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "s2",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বনে স্তরবিন্যাস (stratification) অনুযায়ী সবচেয়ে ওপরের স্তরে থাকে—",
+      "a": "গাছ",
+      "w": [
+        "গুল্ম",
+        "লতাগুল্ম ও ঘাস",
+        "ছত্রাক"
+      ],
+      "e": "স্তরবিন্যাস হল প্রজাতিদের উল্লম্ব বণ্টন: বনে গাছ সবচেয়ে ওপরে, গুল্ম দ্বিতীয় স্তরে, লতাগুল্ম ও ঘাস সবচেয়ে নিচে।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "s2",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পুকুরের বাস্তুতন্ত্রে বিয়োজক হিসেবে কাজ করে—",
+      "a": "ছত্রাক, ব্যাকটেরিয়া ও ফ্ল্যাজেলেট",
+      "w": [
+        "ফাইটোপ্ল্যাঙ্কটন ও শৈবাল",
+        "জুপ্ল্যাঙ্কটন",
+        "ভাসমান ও নিমজ্জিত উদ্ভিদ"
+      ],
+      "e": "পুকুরে বিয়োজক হল ছত্রাক, ব্যাকটেরিয়া ও ফ্ল্যাজেলেট — এরা তলদেশে প্রচুর থাকে। ফাইটোপ্ল্যাঙ্কটন-শৈবাল-উদ্ভিদ উৎপাদক, জুপ্ল্যাঙ্কটন খাদক।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "s3",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রকৃত প্রাথমিক উৎপাদনশীলতা (NPP) পাওয়ার সূত্র কোনটি?",
+      "a": "NPP = GPP − R",
+      "w": [
+        "NPP = GPP + R",
+        "NPP = GPP × R",
+        "NPP = R − GPP"
+      ],
+      "e": "GPP থেকে শ্বসনজনিত ক্ষতি (R) বাদ দিলেই NPP পাওয়া যায়: GPP − R = NPP।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "s4",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পচন প্রক্রিয়ার কাঁচামাল কোনটি?",
+      "a": "ডেট্রিটাস",
+      "w": [
+        "হিউমাস",
+        "PAR",
+        "স্থায়ী ফসল"
+      ],
+      "e": "মৃত উদ্ভিদ ও প্রাণীর অবশেষই ডেট্রিটাস — এটিই পচনের কাঁচামাল। হিউমাস পচনের একটি ধাপে তৈরি হয়, কাঁচামাল নয়।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "s4",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "খণ্ডীভবন (fragmentation) ধাপে ডেট্রিটাসকে ছোট কণায় ভেঙে দেয়—",
+      "a": "কেঁচোর মতো ডেট্রিটিভোর",
+      "w": [
+        "ব্যাকটেরিয়ার উৎসেচক",
+        "সূর্যালোক",
+        "জলপ্রবাহ"
+      ],
+      "e": "ডেট্রিটিভোরেরা (যেমন কেঁচো) ডেট্রিটাস ছোট কণায় ভাঙে — এটিই খণ্ডীভবন। উৎসেচকের কাজ অপচয় ধাপে হয়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "s5",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "স্থলজ বাস্তুতন্ত্রে প্রধান উৎপাদক কারা?",
+      "a": "লতাগুল্মজাতীয় ও কাষ্ঠল উদ্ভিদ",
+      "w": [
+        "ফাইটোপ্ল্যাঙ্কটন",
+        "জুপ্ল্যাঙ্কটন",
+        "ছত্রাক ও ব্যাকটেরিয়া"
+      ],
+      "e": "স্থলজ বাস্তুতন্ত্রে প্রধান উৎপাদক লতাগুল্মজাতীয় ও কাষ্ঠল উদ্ভিদ। ফাইটোপ্ল্যাঙ্কটন জলজ বাস্তুতন্ত্রের উৎপাদক; ছত্রাক-ব্যাকটেরিয়া বিয়োজক।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "s5",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "খাদ্যশৃঙ্খলে তৃণভোজী (প্রাথমিক খাদক) কোন পুষ্টিস্তরে থাকে?",
+      "a": "দ্বিতীয় পুষ্টিস্তর",
+      "w": [
+        "প্রথম পুষ্টিস্তর",
+        "তৃতীয় পুষ্টিস্তর",
+        "চতুর্থ পুষ্টিস্তর"
+      ],
+      "e": "উৎপাদক প্রথম, তৃণভোজী (প্রাথমিক খাদক) দ্বিতীয়, মাংসাশী (গৌণ খাদক) তৃতীয় পুষ্টিস্তরে থাকে।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "s6",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাস্তুসংস্থানিক পিরামিডের গোড়া (base) কাদের প্রতিনিধিত্ব করে?",
+      "a": "উৎপাদক বা প্রথম পুষ্টিস্তর",
+      "w": [
+        "শীর্ষ খাদক",
+        "বিয়োজক",
+        "তৃণভোজী"
+      ],
+      "e": "প্রতিটি পিরামিডের গোড়ায় থাকে উৎপাদক (প্রথম পুষ্টিস্তর), চূড়ায় থাকে তৃতীয় স্তরের বা শীর্ষ খাদক।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "s1",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অনেক বাস্তুবিদ সমগ্র জীবমণ্ডলকে (biosphere) কী হিসেবে দেখেন?",
+      "a": "একটি বৈশ্বিক বাস্তুতন্ত্র — পৃথিবীর সব স্থানীয় বাস্তুতন্ত্রের সমষ্টি",
+      "w": [
+        "একটি স্থলজ বাস্তুতন্ত্র",
+        "একটি মনুষ্যসৃষ্ট বাস্তুতন্ত্র",
+        "একটি একক প্রজাতি-গঠন"
+      ],
+      "e": "NCERT বলছে, অনেক বাস্তুবিদের মতে সমগ্র জীবমণ্ডলই একটি বৈশ্বিক বাস্তুতন্ত্র, যা সব স্থানীয় বাস্তুতন্ত্রের সমষ্টি।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "s2",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনো বাস্তুতন্ত্রের 'প্রজাতি-গঠন' (species composition) বলতে বোঝায়—",
+      "a": "সেখানকার উদ্ভিদ ও প্রাণী প্রজাতিগুলিকে চিহ্নিত করে গণনা করা",
+      "w": [
+        "প্রজাতিগুলির উল্লম্ব স্তরে বিন্যাস",
+        "প্রজাতিগুলির মধ্যে শক্তিপ্রবাহের হার",
+        "প্রজাতিগুলির মোট জৈবভর"
+      ],
+      "e": "প্রজাতি-গঠন = কোন কোন প্রজাতি আছে তার চিহ্নিতকরণ ও গণনা। উল্লম্ব বিন্যাস হল স্তরবিন্যাস — দুটো আলাদা ধারণা।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "s2",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পুকুরের জড় (abiotic) উপাদান কোনটি?",
+      "a": "জল — যাতে দ্রবীভূত অজৈব ও জৈব পদার্থ থাকে — এবং তলদেশের মাটির আস্তরণ",
+      "w": [
+        "ফাইটোপ্ল্যাঙ্কটন ও শৈবাল",
+        "জুপ্ল্যাঙ্কটন",
+        "ছত্রাক ও ব্যাকটেরিয়া"
+      ],
+      "e": "পুকুরের জড় উপাদান হল দ্রবীভূত পদার্থসহ জল ও তলদেশের সমৃদ্ধ মাটি। বাকি তিনটি বিকল্পই জৈব উপাদান (যথাক্রমে উৎপাদক, খাদক, বিয়োজক)।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "s3",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মোট প্রাথমিক উৎপাদনশীলতা (GPP) বলতে বোঝায়—",
+      "a": "সালোকসংশ্লেষের সময় জৈব পদার্থ উৎপাদনের মোট হার",
+      "w": [
+        "শ্বসনের পর অবশিষ্ট জৈবভরের হার",
+        "খাদকদের নতুন জৈব পদার্থ তৈরির হার",
+        "বিয়োজকদের পচনের হার"
+      ],
+      "e": "GPP হল সালোকসংশ্লেষে জৈব পদার্থ উৎপাদনের মোট হার। শ্বসনের পর অবশিষ্ট অংশ NPP, খাদকদের হার গৌণ উৎপাদনশীলতা।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "s3",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মহাসাগরগুলি পৃথিবীর পৃষ্ঠের প্রায় ৭০ শতাংশ জুড়ে থাকলেও তাদের বার্ষিক প্রকৃত প্রাথমিক উৎপাদন মাত্র—",
+      "a": "৫৫ বিলিয়ন টন",
+      "w": [
+        "১৭০ বিলিয়ন টন",
+        "১১৫ বিলিয়ন টন",
+        "৭০ বিলিয়ন টন"
+      ],
+      "e": "সমগ্র জীবমণ্ডলের NPP প্রায় ১৭০ বিলিয়ন টন (শুষ্ক ওজন); তার মধ্যে মহাসাগরের অবদান মাত্র ৫৫ বিলিয়ন টন।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "s3",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'গৌণ উৎপাদনশীলতা' (secondary productivity) বলতে বোঝায়—",
+      "a": "খাদকেরা যে হারে নতুন জৈব পদার্থ তৈরি করে",
+      "w": [
+        "উদ্ভিদের সালোকসংশ্লেষের মোট হার",
+        "শ্বসনে ব্যয়িত শক্তির হার",
+        "বিয়োজকদের খনিজীভবনের হার"
+      ],
+      "e": "গৌণ উৎপাদনশীলতা খাদকদের নতুন জৈব পদার্থ গঠনের হার — এটি উদ্ভিদের প্রাথমিক উৎপাদনশীলতার থেকে আলাদা।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "s4",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "হিউমাস (humus) সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "এটি গাঢ় রঙের অনিয়তাকার পদার্থ, অণুজীবের ক্রিয়ার বিরুদ্ধে অত্যন্ত প্রতিরোধী এবং পুষ্টির ভান্ডার হিসেবে কাজ করে",
+      "w": [
+        "এটি জলে দ্রবণীয় অজৈব লবণ",
+        "এটি খুব দ্রুত পচে যায়",
+        "এটি শুধু প্রাণীর দেহাবশেষ দিয়ে তৈরি"
+      ],
+      "e": "হিউমাস-গঠনে জমা হওয়া হিউমাস অণুজীব-প্রতিরোধী বলে অত্যন্ত ধীরে পচে, আর কলয়ডধর্মী হওয়ায় পুষ্টির ভান্ডার হিসেবে কাজ করে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "s4",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পচনের 'নিষ্কাশন' (leaching) ধাপে কী ঘটে?",
+      "a": "জলে দ্রবণীয় অজৈব পুষ্টি মাটির স্তরের গভীরে নেমে অনুপলব্ধ লবণ হিসেবে অধঃক্ষিপ্ত হয়",
+      "w": [
+        "ডেট্রিটাস ছোট ছোট কণায় ভেঙে যায়",
+        "উৎসেচক ডেট্রিটাসকে সরল অজৈব পদার্থে ভাঙে",
+        "গাঢ় রঙের হিউমাস জমা হয়"
+      ],
+      "e": "নিষ্কাশনে জলে দ্রবণীয় পুষ্টি নিচের স্তরে নেমে অধঃক্ষিপ্ত হয়। কণায় ভাঙা = খণ্ডীভবন, উৎসেচকের ভাঙন = অপচয়, হিউমাস জমা = হিউমাস-গঠন।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "s4",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন শর্তে পচনের হার ধীর হয়?",
+      "a": "ডেট্রিটাসে লিগনিন ও কাইটিন বেশি থাকলে",
+      "w": [
+        "ডেট্রিটাসে নাইট্রোজেন বেশি থাকলে",
+        "পরিবেশ উষ্ণ ও আর্দ্র হলে",
+        "ডেট্রিটাসে চিনির মতো দ্রবণীয় পদার্থ বেশি থাকলে"
+      ],
+      "e": "লিগনিন ও কাইটিনসমৃদ্ধ ডেট্রিটাস ধীরে পচে; নাইট্রোজেন ও চিনিসমৃদ্ধ ডেট্রিটাস এবং উষ্ণ-আর্দ্র পরিবেশ পচন দ্রুত করে।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আপতিত সৌর বিকিরণের মধ্যে সালোকসংশ্লেষে সক্রিয় বিকিরণের (PAR) অংশ—",
+      "a": "৫০ শতাংশেরও কম",
+      "w": [
+        "প্রায় ৯০ শতাংশ",
+        "ঠিক ৫০ শতাংশ",
+        "২–১০ শতাংশ"
+      ],
+      "e": "আপতিত সৌর বিকিরণের ৫০ শতাংশেরও কম অংশ PAR। ২–১০ শতাংশ হল উদ্ভিদের PAR ধরার হার — দুটো আলাদা সংখ্যা, গুলিয়ে ফেলা চলবে না।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "উদ্ভিদ PAR-এর কত অংশ ধরে রাখতে পারে?",
+      "a": "মাত্র ২–১০ শতাংশ",
+      "w": [
+        "৫০ শতাংশের বেশি",
+        "প্রায় ৯০ শতাংশ",
+        "ঠিক ১ শতাংশ"
+      ],
+      "e": "উদ্ভিদ PAR-এর মাত্র ২–১০ শতাংশ ধরে রাখে, আর এই সামান্য শক্তিই গোটা জীবজগৎকে টিকিয়ে রাখে। (১ শতাংশ হল সূর্যালোকের যে অংশ উৎপাদক NPP-তে রূপান্তরিত করে।)",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ডেট্রিটাস খাদ্যশৃঙ্খল (DFC) শুরু হয়—",
+      "a": "মৃত জৈব পদার্থ থেকে",
+      "w": [
+        "জীবন্ত সবুজ উদ্ভিদ থেকে",
+        "তৃণভোজী থেকে",
+        "সূর্যালোক থেকে"
+      ],
+      "e": "DFC-র সূচনা মৃত জৈব পদার্থ; এটি বিয়োজকদের (প্রধানত ছত্রাক ও ব্যাকটেরিয়া) নিয়ে গঠিত। জীবন্ত উদ্ভিদ থেকে শুরু হয় চারণ খাদ্যশৃঙ্খল।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "s5",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জলজ বাস্তুতন্ত্রে শক্তিপ্রবাহের প্রধান মাধ্যম কোনটি?",
+      "a": "চারণ খাদ্যশৃঙ্খল (GFC)",
+      "w": [
+        "ডেট্রিটাস খাদ্যশৃঙ্খল (DFC)",
+        "পুষ্টিচক্র",
+        "স্তরবিন্যাস"
+      ],
+      "e": "জলজ বাস্তুতন্ত্রে GFC-ই শক্তিপ্রবাহের প্রধান মাধ্যম; স্থলজ বাস্তুতন্ত্রে বরং DFC দিয়ে অনেক বেশি শক্তি প্রবাহিত হয়।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "s6",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সমুদ্রে জৈবভরের পিরামিড সাধারণত উল্টানো হয়, কারণ—",
+      "a": "মাছের জৈবভর ফাইটোপ্ল্যাঙ্কটনের জৈবভরের চেয়ে অনেক বেশি",
+      "w": [
+        "সমুদ্রে উৎপাদক থাকে না",
+        "শক্তির পিরামিডও সমুদ্রে উল্টানো",
+        "ফাইটোপ্ল্যাঙ্কটন খাদকদের চেয়ে বড়"
+      ],
+      "e": "NCERT-র ব্যাখ্যা: সমুদ্রে মাছের জৈবভর ফাইটোপ্ল্যাঙ্কটনের জৈবভরকে ছাড়িয়ে যায়, তাই জৈবভরের পিরামিড উল্টানো। শক্তির পিরামিড কিন্তু সর্বদা সোজা।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "s6",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চড়ুই পাখি বীজ ও ফল খেলে প্রাথমিক খাদক, আবার পোকামাকড় ও কেঁচো খেলে গৌণ খাদক — এই উদাহরণটি কোন ধারণা বোঝায়?",
+      "a": "একই প্রজাতি একই বাস্তুতন্ত্রে একই সময়ে একাধিক পুষ্টিস্তরে থাকতে পারে",
+      "w": [
+        "শক্তির পিরামিড উল্টানো হতে পারে",
+        "পুষ্টিস্তর একটি প্রজাতির স্থায়ী পরিচয়",
+        "খাদ্যজাল বলে কিছু নেই"
+      ],
+      "e": "পুষ্টিস্তর কার্যগত স্তর, প্রজাতি নয় — তাই চড়ুই খাদ্য অনুযায়ী দুটি স্তরেই থাকতে পারে।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "s1",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নীচের কোনটি স্থলজ (terrestrial) বাস্তুতন্ত্রের উদাহরণ নয়?",
+      "a": "মোহনা (estuary)",
+      "w": [
+        "বন",
+        "তৃণভূমি",
+        "মরুভূমি"
+      ],
+      "e": "মোহনা জলজ বাস্তুতন্ত্রের উদাহরণ (পুকুর, হ্রদ, জলাভূমি, নদীর সঙ্গে)। বন, তৃণভূমি ও মরুভূমি স্থলজ।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "s2",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাস্তুতন্ত্রের উপাদানগুলিকে একক হিসেবে দেখার চারটি দিকের মধ্যে কোনটি নেই?",
+      "a": "প্রজাতির বিবর্তন",
+      "w": [
+        "উৎপাদনশীলতা",
+        "পচন",
+        "পুষ্টিচক্র"
+      ],
+      "e": "চারটি দিক হল উৎপাদনশীলতা, পচন, শক্তিপ্রবাহ ও পুষ্টিচক্র। 'প্রজাতির বিবর্তন' এই তালিকায় নেই।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "s3",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্রকৃত প্রাথমিক উৎপাদনশীলতা (NPP) আসলে কাদের ভোগের জন্য উপলব্ধ জৈবভর?",
+      "a": "পরভোজীদের — তৃণভোজী ও বিয়োজকদের",
+      "w": [
+        "শুধু মাংসাশীদের",
+        "শুধু উৎপাদকদের নিজেদের",
+        "শুধু মানুষের"
+      ],
+      "e": "NPP হল পরভোজীদের (তৃণভোজী ও বিয়োজক) ভোগের জন্য উপলব্ধ জৈবভর — সংজ্ঞাটি NCERT হুবহু এভাবেই দিয়েছে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "s4",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পচনের 'অপচয়' (catabolism) ধাপে ডেট্রিটাসকে সরল অজৈব পদার্থে ভাঙে—",
+      "a": "ব্যাকটেরিয়া ও ছত্রাকের উৎসেচক",
+      "w": [
+        "কেঁচো",
+        "সূর্যালোক",
+        "মাটির আর্দ্রতা"
+      ],
+      "e": "অপচয়ে ব্যাকটেরিয়া ও ছত্রাকের উৎসেচক ডেট্রিটাস ভাঙে। কেঁচোর কাজ খণ্ডীভবনে; তাপমাত্রা-আর্দ্রতা পচনের হার নিয়ন্ত্রণ করে, সরাসরি ভাঙে না।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "s4",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'খনিজীভবন' (mineralisation) বলতে বোঝায়—",
+      "a": "কিছু অণুজীব দ্বারা হিউমাস আরও ভেঙে অজৈব পুষ্টি মুক্ত হওয়া",
+      "w": [
+        "ডেট্রিটাস ছোট কণায় ভেঙে যাওয়া",
+        "পুষ্টি মাটির গভীরে নেমে যাওয়া",
+        "হিউমাস জমা হওয়া"
+      ],
+      "e": "খনিজীভবন পচনের শেষ ধাপ: হিউমাস ভেঙে অজৈব পুষ্টি মুক্ত হয়। কণায় ভাঙা খণ্ডীভবন, নেমে যাওয়া নিষ্কাশন, হিউমাস জমা হিউমাস-গঠন।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "s5",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'স্থায়ী ফসল' (standing crop) সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "নির্দিষ্ট সময়ে কোনো পুষ্টিস্তরের জীবন্ত পদার্থের পরিমাণ, যা জৈবভর বা সংখ্যায় মাপা হয়; জৈবভর শুষ্ক ওজনে মাপা বেশি নির্ভুল",
+      "w": [
+        "এটি বছরে উৎপাদিত মোট জৈবভর",
+        "এটি শুধু উৎপাদকদের ক্ষেত্রে প্রযোজ্য",
+        "এটি সবসময় সতেজ ওজনে মাপতে হয়"
+      ],
+      "e": "স্থায়ী ফসল হল একটি মুহূর্তে পুষ্টিস্তরে থাকা জীবন্ত পদার্থের মজুত — বার্ষিক উৎপাদন (উৎপাদনশীলতা) নয়। শুষ্ক ওজনের পরিমাপ বেশি নির্ভুল।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "s5",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী সর্বভুক (omnivore) প্রাণীর উদাহরণ কোন জোড়টি?",
+      "a": "আরশোলা ও কাক",
+      "w": [
+        "ছাগল ও হরিণ",
+        "বাঘ ও সিংহ",
+        "শামুক ও জুপ্ল্যাঙ্কটন"
+      ],
+      "e": "NCERT আরশোলা ও কাককে সর্বভুক বলেছে — এরা GFC ও DFC দুই শৃঙ্খলের সঙ্গেই যুক্ত থাকতে পারে, যা খাদ্যজাল গঠনে সাহায্য করে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "s5",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ডেট্রিটাস খাদ্যশৃঙ্খলের সূচনা ঘটে কোন ঘটনা দিয়ে?",
+      "a": "জীবের মৃত্যু দিয়ে",
+      "w": [
+        "সালোকসংশ্লেষ দিয়ে",
+        "পরাগায়ণ দিয়ে",
+        "বীজের অঙ্কুরোদ্গম দিয়ে"
+      ],
+      "e": "উৎপাদকের ধরা শক্তি হয় খাদকের কাছে যায়, নয়তো জীবটি মারা যায় — জীবের মৃত্যুই ডেট্রিটাস খাদ্যশৃঙ্খল/জালের সূচনা।",
+      "claims": [
+        "c47"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "s6",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাস্তুসংস্থানিক পিরামিডের সীমাবদ্ধতা সম্পর্কে কোন বক্তব্যটি সঠিক?",
+      "a": "স্যাপ্রোফাইটদের পিরামিডে কোনো স্থান দেওয়া হয় না, যদিও বাস্তুতন্ত্রে তাদের ভূমিকা অত্যন্ত গুরুত্বপূর্ণ",
+      "w": [
+        "পিরামিড সবসময় বাস্তব খাদ্যজালকে পুরোপুরি দেখায়",
+        "একই প্রজাতির একাধিক পুষ্টিস্তরে থাকা পিরামিডে সবসময় ধরা হয়",
+        "পিরামিডে বিয়োজকেরাই গোড়ায় থাকে"
+      ],
+      "e": "NCERT-র তালিকাভুক্ত সীমাবদ্ধতা: স্যাপ্রোফাইটদের স্থান নেই, সরল খাদ্যশৃঙ্খল ধরে নেওয়া হয় (খাদ্যজাল ধরা হয় না), একই প্রজাতির একাধিক স্তর হিসাবে আসে না।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "s6",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পাললিক (sedimentary) পুষ্টিচক্রের ভান্ডার (reservoir) কোনটি? (উদাহরণ: ফসফরাস)",
+      "a": "পৃথিবীর ভূত্বক",
+      "w": [
+        "বায়ুমণ্ডল",
+        "জলমণ্ডল",
+        "জীবমণ্ডল"
+      ],
+      "e": "গ্যাসীয় চক্রের ভান্ডার বায়ুমণ্ডল বা জলমণ্ডল (কার্বন); পাললিক চক্রের ভান্ডার পৃথিবীর ভূত্বক (ফসফরাস)।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "s3",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নীচের বিবৃতিগুলি বিবেচনা করো:\n\n১. GPP হল সালোকসংশ্লেষের সময় জৈব পদার্থ উৎপাদনের মোট হার।\n২. NPP পাওয়া যায় GPP থেকে শ্বসনজনিত ক্ষতি (R) বাদ দিয়ে।\n\nকোন বিবৃতি(গুলি) সঠিক?",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটি বিবৃতিই NCERT-সম্মত: GPP সালোকসংশ্লেষে উৎপাদনের মোট হার, এবং GPP − R = NPP।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "s4",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নীচের বিবৃতিগুলি বিবেচনা করো:\n\n১. পচন মূলত একটি অক্সিজেন-প্রয়োজনীয় প্রক্রিয়া।\n২. উষ্ণ ও আর্দ্র পরিবেশ পচনকে বাধা দেয়।\n\nকোন বিবৃতি(গুলি) সঠিক?",
+      "a": "শুধু ১",
+      "w": [
+        "শুধু ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল — উষ্ণ ও আর্দ্র পরিবেশ পচনের পক্ষে অনুকূল; পচন বাধা পায় নিম্ন তাপমাত্রা ও অবায়বীয় অবস্থায়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "s5",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| A. উৎপাদক | ১. তৃতীয় পুষ্টিস্তর |\n| B. তৃণভোজী | ২. প্রথম পুষ্টিস্তর |\n| C. মাংসাশী (গৌণ খাদক) | ৩. দ্বিতীয় পুষ্টিস্তর |",
+      "a": "A-২, B-৩, C-১",
+      "w": [
+        "A-১, B-২, C-৩",
+        "A-৩, B-১, C-২",
+        "A-২, B-১, C-৩"
+      ],
+      "e": "উৎপাদক = প্রথম পুষ্টিস্তর, তৃণভোজী (প্রাথমিক খাদক) = দ্বিতীয়, মাংসাশী (গৌণ খাদক) = তৃতীয়।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "s6",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**Assertion (A):** শক্তির পিরামিড সর্বদা সোজা থাকে, কখনোই উল্টানো হতে পারে না।\n\n**Reason (R):** এক পুষ্টিস্তর থেকে পরের স্তরে শক্তি যাওয়ার প্রতি ধাপে কিছু শক্তি তাপ হিসেবে নষ্ট হয়।",
+      "a": "A ও R উভয়ই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সঠিক কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক কিন্তু R ভুল",
+        "A ভুল কিন্তু R সঠিক"
+      ],
+      "e": "NCERT হুবহু এই কারণটিই দিয়েছে: প্রতি ধাপে তাপ হিসেবে শক্তিক্ষয়ের জন্যই শক্তির পিরামিড সবসময় সোজা।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "s6",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নীচের কোন জোড়টি সঠিকভাবে মিলে যায়?",
+      "a": "পাললিক পুষ্টিচক্র — ফসফরাস",
+      "w": [
+        "গ্যাসীয় পুষ্টিচক্র — ফসফরাস",
+        "পাললিক পুষ্টিচক্র — কার্বন",
+        "শক্তির পিরামিড — কখনো কখনো উল্টানো"
+      ],
+      "e": "ফসফরাস পাললিক চক্রের (ভান্ডার: ভূত্বক), কার্বন গ্যাসীয় চক্রের উদাহরণ। শক্তির পিরামিড কখনোই উল্টায় না — সর্বদা সোজা।",
+      "claims": [
+        "c40",
+        "c37",
+        "c36"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "s5",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "শক্তিপ্রবাহের সঠিক ক্রমে সাজাও:\n\n১. গৌণ খাদক (মাংসাশী)\n২. উৎপাদক (সবুজ উদ্ভিদ)\n৩. বিয়োজক (ডেট্রিটাস শৃঙ্খলে)\n৪. প্রাথমিক খাদক (তৃণভোজী)",
+      "a": "২, ৪, ১, ৩",
+      "w": [
+        "২, ১, ৪, ৩",
+        "৪, ২, ১, ৩",
+        "১, ২, ৩, ৪"
+      ],
+      "e": "শক্তি প্রথমে উৎপাদকে ধরা পড়ে, তারপর প্রাথমিক খাদক, গৌণ খাদক — এবং জীবের মৃত্যুর পর বিয়োজকেরা ডেট্রিটাস শৃঙ্খলে কাজ করে।",
+      "claims": [
+        "c31",
+        "c47"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "s2",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "পুকুরের বাস্তুতন্ত্র সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n\n১. সূর্যের আলো, তাপমাত্রার চক্র ও দিনের দৈর্ঘ্য গোটা পুকুরের কার্যের হার নিয়ন্ত্রণ করে।\n২. পুকুরে বিয়োজকেরা বিশেষভাবে প্রচুর থাকে পুকুরের তলদেশে।\n\nকোন বিবৃতি(গুলি) সঠিক?",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটি বিবৃতিই NCERT-র পুকুর-বর্ণনা থেকে: জলবায়ুগত শর্ত পুকুরের কার্যের হার নিয়ন্ত্রণ করে, আর ছত্রাক-ব্যাকটেরিয়া-ফ্ল্যাজেলেট বিয়োজকেরা তলদেশে বিশেষভাবে প্রচুর।",
+      "claims": [
+        "c07"
+      ]
+    }
+  ]
+}
