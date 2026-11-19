@@ -1,0 +1,1481 @@
+{
+  "book": "industrial_safety",
+  "code": "SAF-04",
+  "number": 4,
+  "part": "workplace",
+  "title": "বৈদ্যুতিক নিরাপত্তা",
+  "subtitle": "আর্থিং, RCD ও CEA বিধিমালা ২০২৩: শক ও আগুন থেকে সুরক্ষার আইনি কাঠামো",
+  "subtopics": [
+    "electrical_safety"
+  ],
+  "related_facts": [
+    "GK-SAF-007"
+  ],
+  "prerequisites": [
+    "SAF-01"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 3 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 1 of 1 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SAF-04.json and drafts/SAF-04_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SAF-04_REPORT.md.",
+    "checked_claims": 42,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "বিদ্যুৎ কারখানার সবচেয়ে অদৃশ্য বিপদ: শব্দ নেই, গন্ধ নেই — ভুল ছোঁয়াতেই শক, পোড়া বা আগুন। এই অধ্যায়ে আমরা পড়ব ভারতে বৈদ্যুতিক নিরাপত্তার আইনি কাঠামো — বিদ্যুৎ আইন, ২০০৩-এর ধারা ৫৩ ও CEA বিধিমালা, ২০২৩ — এবং তার মূল প্রযুক্তিগত স্তম্ভগুলি: আর্থিং (বিধি ৪৩), RCD/RCCB (বিধি ৪৪, ৩০ mA), যোগ্য ব্যক্তি ও Electrical Safety Officer (বিধি ৩ ও ৫), PPE ও বিপদ-বিজ্ঞপ্তি, এবং কারখানার বদ্ধ জায়গায় ২৪ ভোল্টের বিশেষ নিয়ম (কারখানা আইন, ধারা ৩৬ক)।",
+    "you_will_learn": [
+      "বিদ্যুৎ আইন, ২০০৩-এর ধারা ৫৩ ও CEA বিধিমালা, ২০২৩-এর সম্পর্ক এবং ২০১০-এর বিধিমালা বাতিলের তথ্য",
+      "'বিপদ', 'সার্কিট ব্রেকার' ও 'কাট-আউট'-এর বিধিগত সংজ্ঞা",
+      "আর্থিং-এর সংজ্ঞা ও বিধি ৪৩-এর নিয়ম: দুটি পৃথক সংযোগ, বছরে একবার পরীক্ষা, দুই বছর নথি, তিন-পিন সকেট",
+      "RCD/RCCB কীভাবে লিকেজ শনাক্ত করে এবং গার্হস্থ্য সীমা কেন ৩০ mA; RCBO-র দ্বৈত সুরক্ষা",
+      "Electrical Safety Officer-এর ২৫০ kW সীমা ও ডিগ্রি-৫ বছর / ডিপ্লোমা-১০ বছর যোগ্যতা",
+      "বিপদ-বিজ্ঞপ্তি (২৫০ V, খুলি-হাড়ের চিহ্ন), PPE-র তালিকা ও শক-পুনরুজ্জীবনের নির্দেশনা",
+      "কারখানা আইনের ধারা ৩৬ক: বদ্ধ জায়গায় ২৪ ভোল্টের সীমা ও flame-proof আলো",
+      "পরিদর্শনের ছক: Electrical Inspector, স্ব-প্রত্যয়ন (১১ kV) ও পাঁচ বছরের সর্বোচ্চ ব্যবধান"
+    ]
+  },
+  "sections": [
+    {
+      "id": "legal_framework",
+      "heading": "আইনি কাঠামো: বিদ্যুৎ আইন ও CEA বিধিমালা ২০২৩",
+      "quick": "ভারতে বৈদ্যুতিক নিরাপত্তার প্রধান আইনি ভিত্তি বিদ্যুৎ আইন, ২০০৩-এর ধারা ৫৩; তার অধীনে কেন্দ্রীয় বিদ্যুৎ কর্তৃপক্ষ (CEA) ২০২৩ সালে নতুন নিরাপত্তা বিধিমালা জারি করে, যা ২০১০ সালের বিধিমালাকে প্রতিস্থাপন করে। এই বিধিমালা সব বৈদ্যুতিক স্থাপনা ও বিদ্যুৎ ব্যবহারের সঙ্গে যুক্ত প্রত্যেকের ক্ষেত্রে প্রযোজ্য।",
+      "standard": "বৈদ্যুতিক নিরাপত্তা কোনো ঐচ্ছিক ভালো অভ্যাস নয় — এটি আইনের বাধ্যবাধকতা। বিদ্যুৎ আইন, ২০০৩ (Electricity Act, 2003)-এর **ধারা ৫৩** কেন্দ্রীয় বিদ্যুৎ কর্তৃপক্ষকে (Central Electricity Authority, CEA) রাজ্য সরকারের সঙ্গে পরামর্শ করে নিরাপত্তা-ব্যবস্থা নির্দিষ্ট করার ক্ষমতা দেয়। সেই ক্ষমতা ও ধারা ১৭৭(২)(খ) ব্যবহার করে CEA ৮ জুন ২০২৩ তারিখে **CEA (বিদ্যুৎ সরবরাহ ও নিরাপত্তা সংক্রান্ত ব্যবস্থা) বিধিমালা, ২০২৩** জারি করে; এই বিধিমালা ২০১০ সালের একই নামের বিধিমালাকে বাতিল করে তার জায়গা নেয়।\n\nবিধিমালার পরিধি বিস্তৃত: এটি প্রযোজ্য প্রতিটি বৈদ্যুতিক স্থাপনার (electrical installation) ক্ষেত্রে — বৈদ্যুতিক যন্ত্রপাতি (electrical plant) ও বৈদ্যুতিক লাইনসহ — এবং বিদ্যুৎ উৎপাদন, সঞ্চালন, বিতরণ, ব্যবসা, সরবরাহ বা ব্যবহারের সঙ্গে যুক্ত প্রতিটি ব্যক্তির ক্ষেত্রে। অর্থাৎ কারখানার মালিক, ভোক্তা, সরবরাহকারী — কেউই এর বাইরে নন।\n\nবিধিমালায় কয়েকটি মূল সংজ্ঞা পরীক্ষায় বারবার আসে। **'বিপদ' (danger)** মানে বৈদ্যুতিক শক, পোড়া বা অন্য আঘাত থেকে স্বাস্থ্য বা জীবনের ঝুঁকি, কিংবা বিদ্যুতের উৎপাদন-ব্যবহারজনিত আগুন বা বিস্ফোরণ থেকে সম্পত্তির ক্ষতির ঝুঁকি। **'সার্কিট ব্রেকার' (circuit breaker)** হল এমন যান্ত্রিক সুইচিং যন্ত্র যা স্বাভাবিক অবস্থায় এবং নির্দিষ্ট অস্বাভাবিক অবস্থায় — দুই ক্ষেত্রেই প্রবাহ চালু রাখতে, বহন করতে ও ভাঙতে পারে। **'কাট-আউট' (cut out)** হল এমন যন্ত্র যা প্রবাহ পূর্বনির্ধারিত মানের বেশি হলেই স্বয়ংক্রিয়ভাবে প্রবাহ বিচ্ছিন্ন করে; ফিউজিবল কাট-আউটও এর অন্তর্ভুক্ত।\n\nপরিদর্শনের দিক থেকে বিধিমালা দুটি পথ রেখেছে: নির্ধারিত ভোল্টেজের (notified voltage) বেশি হলে পরিদর্শন করবেন **বৈদ্যুতিক পরিদর্শক (Electrical Inspector)**; নির্ধারিত ভোল্টেজ পর্যন্ত স্থাপনা মালিক বা ভোক্তা নিজে **স্ব-প্রত্যয়ন (self-certification)** করবেন। কেন্দ্রীয় সরকার এই উদ্দেশ্যে **১১ কিলোভোল্ট (11 kV)** নির্ধারণ করেছে। আর পরিদর্শন বা স্ব-প্রত্যয়নের ব্যবধান কোনো ক্ষেত্রেই **পাঁচ বছরের বেশি** হতে পারবে না।",
+      "deep": "২০১০ সালের বিধিমালা বাতিল হয়ে ২০২৩-এর বিধিমালা আসা এই অধ্যায়ের সবচেয়ে গুরুত্বপূর্ণ কাল-তথ্য। পুরনো বইয়ে ভারতীয় বিদ্যুৎ বিধি, ১৯৫৬ (Indian Electricity Rules, 1956)-এর উল্লেখ মিললেও বর্তমান পরীক্ষার উত্তর হবে CEA বিধিমালা, ২০২৩। ধারা-সংখ্যা মনে রাখার কাঠামো: আইনের ধারা ৫৩ = ক্ষমতার উৎস, বিধি ৪৩ = আর্থিং, বিধি ৪৪ = RCD, বিধি ৩২ = পর্যায়ক্রমিক পরিদর্শন।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "কোন বিধিমালা চলছে?",
+          "body": "প্রশ্নে 'বর্তমানে বৈদ্যুতিক নিরাপত্তার বিধিমালা কোনটি' এলে উত্তর: **CEA (Measures relating to Safety and Electric Supply) Regulations, 2023** — ২০১০-এর বিধিমালা এখন বাতিল।",
+          "claims": [
+            "c01",
+            "c03"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c06",
+        "c07",
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "id": "hazards",
+      "heading": "বৈদ্যুতিক বিপদ: শক, পোড়া ও আগুন",
+      "quick": "বিদ্যুতের প্রধান বিপদ তিনটি — বৈদ্যুতিক শক, পোড়া এবং লিকেজ বা শর্ট সার্কিট থেকে আগুন। শকের তীব্রতা নির্ভর করে ভোল্টেজ, প্রবাহ, সংস্পর্শের সময়কাল ও ব্যক্তির স্বাস্থ্যের ওপর; ফল হতে পারে হালকা ঝাঁকুনি থেকে হৃদ্যন্ত্র বন্ধ হয়ে মৃত্যু পর্যন্ত।",
+      "standard": "বিধিমালায় 'বিপদ'-এর সংজ্ঞাতেই বৈদ্যুতিক বিপদের পুরো তালিকা ধরা আছে: বৈদ্যুতিক শক, পোড়া বা অন্য আঘাত থেকে জীবন-স্বাস্থ্যের ঝুঁকি এবং আগুন বা বিস্ফোরণ থেকে সম্পত্তির ঝুঁকি। কারখানায় এই তিনটি বিপদই একসঙ্গে থাকে — যন্ত্রের ধাতব গায়ে লিকেজ এলে শক, ত্রুটিপূর্ণ তারে অতিরিক্ত প্রবাহ গেলে আগুন।\n\nভারতীয় মান ব্যুরোর (BIS) ব্যাখ্যা অনুযায়ী, সরাসরি বা পরোক্ষ সংস্পর্শে শরীরের ভিতর দিয়ে বিদ্যুৎ প্রবাহিত হলেই শক ঘটে। এর ফল হালকা ঝাঁকুনি থেকে গুরুতর পোড়া, হৃদ্যন্ত্র বন্ধ (cardiac arrest) বা মৃত্যু পর্যন্ত হতে পারে — নির্ভর করে ভোল্টেজ, প্রবাহের পরিমাণ, সংস্পর্শের সময়কাল এবং ব্যক্তির শারীরিক অবস্থার ওপর। তাই 'কম ভোল্টেজ মানেই নিরাপদ' ধারণাটি ভুল; প্রবাহ ও সময়ই আসল নির্ধারক।\n\nবিধিমালা এই বিপদ রুখতে দুটি সাধারণ নীতি বেঁধে দিয়েছে। প্রথমত, কোনো জীবন্ত অংশ (live part) যেন এমনভাবে উন্মুক্ত না থাকে যাতে বিপদ ঘটে — পর্যাপ্ত সতর্কতা নেওয়া বাধ্যতামূলক (বিধি ৩৭(৭))। দ্বিতীয়ত, সব বর্তনী ও যন্ত্র এমনভাবে সাজাতে হবে যাতে কোনো অংশ তার নির্ধারিত ভোল্টেজ-সীমার বাইরে আকস্মিকভাবে বিদ্যুত্চালিত (accidentally charged) না হয়ে ওঠে (বিধি ২৮)। এই দুটি নীতিই পরের অংশগুলির আর্থিং ও সুরক্ষা-যন্ত্রের যুক্তির ভিত্তি।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "শক বনাম আগুন",
+          "body": "শক হল **মানুষের** ক্ষতি — শরীর দিয়ে প্রবাহ যাওয়া। আগুন হল **সম্পত্তির** ক্ষতি — লিকেজ বা শর্ট সার্কিটে তাপ জমে জ্বলে ওঠা। RCD দুটোই রুখতে সাহায্য করে, কিন্তু ফিউজ/MCB মূলত বর্তনী ও আগুনের ঝুঁকির জন্য।",
+          "claims": [
+            "c04",
+            "c27"
+          ]
+        }
+      ],
+      "claims": [
+        "c04",
+        "c27",
+        "c08",
+        "c37"
+      ]
+    },
+    {
+      "id": "earthing",
+      "heading": "আর্থিং: ত্রুটির প্রবাহের নিরাপদ পথ",
+      "quick": "আর্থিং মানে স্থাপনার উন্মুক্ত পরিবাহী অংশগুলিকে প্রধান আর্থিং টার্মিনালের সঙ্গে, অথবা ট্রান্সফরমার/জেনারেটরের নিউট্রালকে পৃথিবীর সাধারণ ভরের সঙ্গে যুক্ত করা। বিধি ৪৩ অনুযায়ী ২৫০ ভোল্টের বেশি ও ৬৫০ ভোল্ট পর্যন্ত যন্ত্রের কাঠামো **দুটি পৃথক ও স্বতন্ত্র** সংযোগে আর্থ করতে হয়।",
+      "standard": "**আর্থিং (Earthing)**-এর সংজ্ঞা বিধিমালায় স্পষ্ট: স্থাপনার উন্মুক্ত পরিবাহী ও বহিরাগত পরিবাহী অংশগুলিকে সেই স্থাপনার প্রধান আর্থিং টার্মিনালের সঙ্গে যুক্ত করা, অথবা ট্রান্সফরমার, জেনারেটর বা যন্ত্রের নিউট্রালকে পৃথিবীর সাধারণ ভর (general mass of earth) বা আর্থ-বন্ডেড বারের সঙ্গে যুক্ত করা। উদ্দেশ্য একটাই — ইনসুলেশন নষ্ট হয়ে যন্ত্রের ধাতব গা বিদ্যুত্চালিত হলে ত্রুটির প্রবাহ যেন মানুষের শরীর দিয়ে না গিয়ে মাটির পথে যায় এবং সুরক্ষা-যন্ত্র দ্রুত কাজ করে।\n\nআর্থিং-বিধি রয়েছে **বিধি ৪৩**-এ, যা ৫০ ভোল্টের বেশি ও ৬৫০ ভোল্ট পর্যন্ত পদ্ধতির ক্ষেত্রে প্রযোজ্য (অধ্যায় V)। মূল নিয়মগুলি:\n\n- তিন-ফেজ চার-তারের পদ্ধতির **নিউট্রাল পরিবাহী** এবং দুই-ফেজ তিন-তারের পদ্ধতির মধ্য পরিবাহীকে মান অনুযায়ী আর্থ করতে হবে।\n- জেনারেটর, স্থির বা বহনযোগ্য মোটরের কাঠামো, সব ট্রান্সফরমারের পরিবাহী-নয় এমন ধাতব অংশ এবং ২৫০ ভোল্টের বেশি ও ৬৫০ ভোল্ট পর্যন্ত সব বিদ্যুৎ-ভোগী যন্ত্রকে মালিক **দুটি পৃথক ও স্বতন্ত্র সংযোগে** আর্থ করবেন।\n- সরবরাহকারীর আর্থিং পদ্ধতি শুষ্ক মৌসুমের শুষ্ক দিনে **বছরে অন্তত একবার** রোধ-পরীক্ষা করতে হবে, এবং প্রতিটি আর্থ-পরীক্ষার নথি **অন্তত দুই বছর** রাখতে হবে।\n- ভোক্তার প্রাঙ্গণে সরবরাহ শুরুর বিন্দুর কাছে সরবরাহকারীকে একটি উপযুক্ত **আর্থড টার্মিনাল** দিতে ও রক্ষণাবেক্ষণ করতে হবে (বিধি ১৮)।\n\nগার্হস্থ্য ক্ষেত্রে একটি চেনা নিয়মও এই বিধি থেকেই আসে: ২৫০ ভোল্ট পর্যন্ত সরবরাহে নতুন বা সংস্কারকৃত স্থাপনায় সব প্লাগ সকেট হবে **তিন-পিনের**, এবং তৃতীয় পিনটি স্থায়ী ও কার্যকরভাবে আর্থ করা থাকবে।",
+      "deep": "পরীক্ষায় সবচেয়ে বেশি ভুল হয় 'দুটি পৃথক সংযোগ' শর্তটিতে — এটি শুধু ট্রান্সফরমারের নিউট্রালের জন্য নয়, যন্ত্রের কাঠামোর জন্যও প্রযোজ্য। আরেকটি সংখ্যা জোড়া মনে রাখো: আর্থ-পরীক্ষা **বছরে ১ বার**, নথি সংরক্ষণ **২ বছর**।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "আর্থিং-এর সংখ্যা",
+          "body": "দুটি পৃথক সংযোগ • বছরে একবার পরীক্ষা • দুই বছর নথি • তিন-পিন সকেটে তৃতীয় পিন আর্থড।",
+          "claims": [
+            "c21",
+            "c23",
+            "c22"
+          ]
+        }
+      ],
+      "claims": [
+        "c05",
+        "c40",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c36"
+      ]
+    },
+    {
+      "id": "protective_devices",
+      "heading": "সুরক্ষা-যন্ত্র: ফিউজ, ব্রেকার, RCD ও RCBO",
+      "quick": "প্রতিটি পৃথক বর্তনীকে অতিরিক্ত শক্তি থেকে বাঁচাতে হবে উপযুক্ত ফিউজ লিংক বা পর্যাপ্ত ভাঙন-ক্ষমতার সার্কিট ব্রেকার দিয়ে (বিধি ৩৭(৪))। মানুষকে শক থেকে বাঁচায় **RCD/RCCB** — বিধি ৪৪ অনুযায়ী বাধ্যতামূলক; গার্হস্থ্য ক্ষেত্রে এর কার্যকর প্রবাহ **৩০ মিলিঅ্যাম্পিয়ারের** বেশি নয়।",
+      "standard": "সুরক্ষা-যন্ত্রের কাজ অনুযায়ী দুটি ভাগ মনে রাখতে হবে। **অতিরিক্ত প্রবাহের সুরক্ষা** দেয় ফিউজ ও সার্কিট ব্রেকার: বিধি ৩৭(৪) অনুযায়ী প্রতিটি পৃথক বর্তনীকে অতিরিক্ত শক্তির বিরুদ্ধে উপযুক্ত ফিউজ লিংক অথবা পর্যাপ্ত ভাঙন-ক্ষমতার (breaking capacity) সার্কিট ব্রেকার দিয়ে রক্ষা করতে হবে। 'কাট-আউট'-এর সংজ্ঞাও এই ধারণারই — প্রবাহ পূর্বনির্ধারিত মান ছাড়ালেই স্বয়ংক্রিয় বিচ্ছিন্নতা।\n\n**লিকেজের সুরক্ষা** দেয় **রেসিডুয়াল কারেন্ট ডিভাইস (RCD)**, যার প্রচলিত রূপ RCCB/ELCB। BIS-এর ব্যাখ্যা: সুস্থ স্থাপনায় লাইভ তার দিয়ে যাওয়া প্রবাহ আর নিউট্রাল দিয়ে ফেরা প্রবাহ সমান থাকে; মানুষের শরীর দিয়ে বা ত্রুটিপূর্ণ যন্ত্র/তারের মাধ্যমে লিকেজ হলেই এই ভারসাম্য ভাঙে। RCD সেই অমিল (residual current) শনাক্ত করে — সীমা (সাধারণত **৩০ mA**, যা মানুষের বিপদ-সীমার অনেক নিচে) ছাড়ালেই সরবরাহ স্বয়ংক্রিয়ভাবে বিচ্ছিন্ন করে শক ও আগুনের বিপদ ঘটার আগেই।\n\nআইনি বাধ্যবাধকতা **বিধি ৪৪**-এ: প্রতিটি স্থাপনায় বিদ্যুতের ব্যবহার RCD দ্বারা নিয়ন্ত্রিত হতে হবে, এবং গার্হস্থ্য স্থাপনায় RCD-র অবশিষ্ট কার্যকর প্রবাহ **৩০ মিলিঅ্যাম্পিয়ারের বেশি হবে না**। **RCBO** হল দুই কাজের সমন্বয় — BIS অনুযায়ী এটি লিকেজ/আর্থ-ত্রুটির সুরক্ষা এবং অতিরিক্ত প্রবাহ (ওভারলোড, শর্ট সার্কিট) থেকে সুরক্ষা — দুটোই দেয়। IS 12640 (Part 2) প্রযোজ্য গার্হস্থ্য ও অনুরূপ ব্যবহারের RCBO-র ক্ষেত্রে, যার নির্ধারিত ভোল্টেজ ৪৪০ ভোল্ট AC-র বেশি নয়।",
+      "deep": "যন্ত্র বদলানোই পরীক্ষকের প্রিয় কৌশল: ওভারলোড/শর্ট সার্কিটের প্রশ্নে উত্তর ফিউজ বা MCB; লিকেজ/শকের প্রশ্নে উত্তর RCCB। RCBO দুটোই করে — 'দুটি সুরক্ষাই একটি যন্ত্রে' এলে RCBO বেছে নাও। ৩০ mA সংখ্যাটি দুই জায়গায় আসে — বিধি ৪৪-এর গার্হস্থ্য সীমা এবং BIS-এর 'সাধারণ সীমা'।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "GK-SAF-007-এর মূল সংখ্যা",
+          "body": "এই অধ্যায়ের ব্যাংক-তথ্য (GK-SAF-007) ঠিক এই বিষয়েই: আর্থিং ও RCCB — শকের বিরুদ্ধে দুই রক্ষী, আর মনে রাখার সংখ্যা **৩০ mA**।",
+          "claims": [
+            "c24",
+            "c29"
+          ]
+        }
+      ],
+      "claims": [
+        "c30",
+        "c07",
+        "c06",
+        "c25",
+        "c26",
+        "c24",
+        "c29",
+        "c28",
+        "c42"
+      ]
+    },
+    {
+      "id": "people_inspection",
+      "heading": "যোগ্য ব্যক্তি, PPE, বিজ্ঞপ্তি ও পরিদর্শন",
+      "quick": "বৈদ্যুতিক কাজ করবেন শুধু মনোনীত (designated) যোগ্য ব্যক্তি; ২৫০ kW-এর বেশি সংযুক্ত লোডের কারখানায় বাধ্যতামূলক **বৈদ্যুতিক নিরাপত্তা কর্মকর্তা (Electrical Safety Officer)**। লাইনে কাজের সময় PPE, ২৫০ ভোল্টের বেশি স্থাপনায় খুলি-হাড়ের চিহ্নসহ বিপদ-বিজ্ঞপ্তি, এবং কারখানায় শক-চিকিৎসার নির্দেশনা টাঙানো বাধ্যতামূলক।",
+      "standard": "নিরাপত্তার তৃতীয় স্তম্ভ হল **মানুষ ও তদারকি**। বিধিমালা অনুযায়ী বৈদ্যুতিক কাজে মনোনীত ব্যক্তির হাতে থাকতে হবে উপযুক্ত সরকারের দেওয়া **যোগ্যতার শংসাপত্র (certificate of competency)** অথবা বৈদ্যুতিক কাজের অনুমতিপত্র (permit) — যোগ্যতা ছাড়া কাউকে মনোনীত করা যাবে না (বিধি ৩)। আর স্থাপনার কাজ — সংযোজন, পরিবর্তন, মেরামত — করাতে হবে রাজ্য সরকারের লাইসেন্সপ্রাপ্ত বৈদ্যুতিক ঠিকাদারকে দিয়ে; ব্যতিক্রম শুধু ২৫০ ভোল্ট পর্যন্ত ল্যাম্প, ফ্যান, ফিউজ, সুইচ ও গার্হস্থ্য যন্ত্রের অনুরূপ প্রতিস্থাপন (বিধি ৩১)।\n\n**বৈদ্যুতিক নিরাপত্তা কর্মকর্তা (Electrical Safety Officer, ESO):** কারখানা আইনে নিবন্ধিত ও **২৫০ kW-এর বেশি সংযুক্ত লোডের** প্রতিটি কারখানায় মালিক/ব্যবস্থাপনাকে একজন ESO মনোনীত করতে হবে (খনি ও তেলক্ষেত্রে সীমা ২০০০ kW)। যোগ্যতা: বৈদ্যুতিক প্রকৌশলে ডিগ্রি ও অন্তত **৫ বছর** অভিজ্ঞতা, অথবা ডিপ্লোমা ও অন্তত **১০ বছর** অভিজ্ঞতা। ESO স্থাপনা **এক বছরের বেশি ব্যবধান না রেখে** পরিদর্শন করবেন ও পরীক্ষার নথি রাখবেন।\n\n**কাজের সময় সুরক্ষা (বিধি ২১):** কোনো পরিবাহী বা যন্ত্র হাতে নেওয়ার আগে আর্থিং বা অন্য উপযুক্ত উপায়ে তাকে বিদ্যুৎ-মুক্ত (discharge) করতে হবে, যাতে কাজের সময় আকস্মিকভাবে তা বিদ্যুত্চালিত না হয়। কর্মীকে দিতে হবে কাজের ভোল্টেজের উপযোগী **রবারের দস্তানা ও নিরাপত্তা জুতো**, উচ্চতায় কাজের জন্য সেফটি বেল্ট, অপরিবাহী মই, উপযুক্ত শ্রেণির আর্থিং যন্ত্র, হেলমেট, লাইন টেস্টার ও ভোল্টেজ ডিটেক্টর। সুইচগিয়ার ও কন্ট্রোল প্যানেলের সব প্রবাহ-বহন-না-করা ধাতব অংশ আর্থ করতে হবে এবং প্যানেলের সামনে-পিছনে উপযুক্ত ভোল্টেজ-স্তরের **ইনসুলেটিং ম্যাট** রাখতে হবে।\n\n**বিজ্ঞপ্তি ও প্রস্তুতি:** ২৫০ ভোল্টের বেশি প্রতিটি স্থাপনায় প্রতিটি মোটর, জেনারেটর, ট্রান্সফরমারে হিন্দি বা ইংরেজি ও জেলার স্থানীয় ভাষায় **খুলি ও হাড়ের চিহ্নসহ বিপদ-বিজ্ঞপ্তি (danger notice)** স্থায়ীভাবে লাগাতে হবে (বিধি ২০)। প্রতিটি কারখানায় যেখানে বিদ্যুৎ ব্যবহৃত হয়, সেখানে বৈদ্যুতিক শকে আক্রান্ত ব্যক্তির পুনরুজ্জীবনের (resuscitation) নির্দেশনা ইংরেজি বা হিন্দি ও স্থানীয় ভাষায় চোখে পড়ার জায়গায় টাঙাতে হবে (বিধি ৩০)। ভোক্তার প্রাঙ্গণে বিপজ্জনক লিকেজ থাকলে সরবরাহকারী লিখিতভাবে **৪৮ ঘণ্টার** নোটিশ দিয়ে সরবরাহ বন্ধ করতে পারেন, এবং লিকেজের কারণ দূর না হওয়া পর্যন্ত তা চালু করা যাবে না (বিধি ৩৬)।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "ESO-র সংখ্যাগুলি",
+          "body": "কারখানা: **২৫০ kW** বেশি লোড • ডিগ্রি + **৫ বছর** বা ডিপ্লোমা + **১০ বছর** • পরিদর্শন: **১ বছরের** মধ্যে।",
+          "claims": [
+            "c10",
+            "c09",
+            "c11"
+          ]
+        }
+      ],
+      "claims": [
+        "c39",
+        "c17",
+        "c10",
+        "c09",
+        "c11",
+        "c14",
+        "c13",
+        "c15",
+        "c12",
+        "c16",
+        "c41"
+      ]
+    },
+    {
+      "id": "factory_special",
+      "heading": "কারখানার বিশেষ নিয়ম: বদ্ধ জায়গা, সুইচবোর্ড ও অগ্নি-প্রস্তুতি",
+      "quick": "কারখানা আইন, ১৯৪৮-এর ধারা ৩৬ক অনুযায়ী কারখানার বদ্ধ জায়গায় (ট্যাংক, গর্ত, পাইপ) **২৪ ভোল্টের বেশি** বহনযোগ্য বৈদ্যুতিক আলো বা যন্ত্র পর্যাপ্ত নিরাপত্তা-যন্ত্র ছাড়া ব্যবহার করা যাবে না; দাহ্য গ্যাস থাকলে শুধু **অগ্নি-প্রতিরোধী (flame-proof)** আলো চলবে।",
+      "standard": "সাধারণ বিধিমালার ওপরে কারখানার জন্য রয়েছে **কারখানা আইন, ১৯৪৮** (১৯৪৮-এর ৬৩ নং আইন; কার্যকর ১ এপ্রিল ১৯৪৯ থেকে)। এর একমাত্র সরাসরি বৈদ্যুতিক ধারা হল **ধারা ৩৬ক — বহনযোগ্য বৈদ্যুতিক আলো সংক্রান্ত সতর্কতা**। নিয়ম দুটি:\n\n- কোনো কারখানার চেম্বার, ট্যাংক, ভ্যাট, গর্ত, পাইপ, ফ্লু বা অন্য বদ্ধ জায়গার ভিতরে **২৪ ভোল্টের বেশি** ভোল্টেজের বহনযোগ্য বৈদ্যুতিক আলো বা অন্য বৈদ্যুতিক যন্ত্র পর্যাপ্ত নিরাপত্তা-যন্ত্র ছাড়া ব্যবহার করা যাবে না।\n- ওই জায়গায় দাহ্য গ্যাস, ধোঁয়া বা ধুলো থাকার সম্ভাবনা থাকলে **অগ্নি-প্রতিরোধী (flame-proof) নির্মাণের** আলো ছাড়া অন্য কোনো বাতি বা আলো ব্যবহার করা যাবে না।\n\nযুক্তিটি সহজ: বদ্ধ জায়গায় আর্দ্রতা ও ধাতব পৃষ্ঠের কারণে শকের ঝুঁকি অনেক বেশি, তাই ভোল্টেজের সীমা সাধারণ সীমার চেয়ে অনেক কম — মাত্র ২৪ ভোল্ট।\n\nCEA বিধিমালা কারখানা-প্রাঙ্গণের জন্যও কয়েকটি মাপ বেঁধে দিয়েছে। ২৫০ ভোল্টের বেশি স্থাপনায় প্রতিটি সুইচবোর্ডের সামনে **অন্তত এক মিটার** চওড়া পরিষ্কার জায়গা রাখতে হবে (বিধি ৩৯)। উৎপাদন কেন্দ্র, আবদ্ধ সাবস্টেশন ও সুইচিং স্টেশনে আগুন নেভানোর জন্য উপযুক্ত অগ্নিনির্বাপকের পাশাপাশি **পরিষ্কার শুকনো বালি ভরা অগ্নি-বালতি (fire buckets)** চিহ্নিত করে রাখতে হবে (বিধি ২৯(১)), এবং একই জায়গাগুলিতে চিহ্নিত **প্রাথমিক চিকিৎসার বাক্স** পর্যাপ্ত সংখ্যায় রাখা ও রক্ষণাবেক্ষণ করা বাধ্যতামূলক (বিধি ২৯(৩)) — শকের পরের প্রথম মিনিটগুলিতেই এগুলি কাজে লাগে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "২৪ V বনাম ২৫০ V",
+          "body": "**২৪ ভোল্ট** = কারখানার বদ্ধ জায়গায় বহনযোগ্য আলোর সীমা (ধারা ৩৬ক)। **২৫০ ভোল্ট** = বিপদ-বিজ্ঞপ্তি, আর্থিং-এর দুই-সংযোগ নিয়ম ও ঠিকাদার-ব্যতিক্রমের সীমা। দুটিকে গুলিয়ে ফেললেই নম্বর যায়।",
+          "claims": [
+            "c31",
+            "c12",
+            "c21"
+          ]
+        }
+      ],
+      "claims": [
+        "c38",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "কারখানা আইন প্রণয়ন",
+      "when": "১৯৪৮",
+      "what": "কারখানা আইন, ১৯৪৮ (১৯৪৮-এর ৬৩ নং আইন) প্রণীত হয়; এর ধারা ৩৬ক কারখানার বদ্ধ জায়গায় বহনযোগ্য বৈদ্যুতিক আলোর নিয়ম দেয়।",
+      "why_it_matters": "কারখানার বৈদ্যুতিক নিরাপত্তার প্রাচীনতম বিধান এই আইনেই; ধারা ৩৬ক-এর ২৪ ভোল্টের সীমা পরীক্ষায় আসে।",
+      "section": "factory_special",
+      "claims": [
+        "c38",
+        "c31"
+      ]
+    },
+    {
+      "title": "CEA নিরাপত্তা বিধিমালা, ২০২৩-এর বিজ্ঞপ্তি",
+      "when": "৮ জুন ২০২৩",
+      "what": "কেন্দ্রীয় বিদ্যুৎ কর্তৃপক্ষ নয়াদিল্লিতে ২০২৩ সালের নিরাপত্তা বিধিমালা বিজ্ঞপ্তি দেয়, যা ২০১০ সালের বিধিমালাকে বাতিল করে।",
+      "why_it_matters": "বর্তমানে সব বৈদ্যুতিক নিরাপত্তা প্রশ্নের উত্তর এই বিধিমালা অনুযায়ী দিতে হয়।",
+      "section": "legal_framework",
+      "claims": [
+        "c03",
+        "c01"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "বৈদ্যুতিক নিরাপত্তা কর্মকর্তা (Electrical Safety Officer)",
+      "when": "বিধি ৫, CEA বিধিমালা ২০২৩",
+      "role": "২৫০ kW-এর বেশি লোডের কারখানায় মনোনীত নিরাপত্তা-দায়িত্বপ্রাপ্ত কর্মকর্তা",
+      "contribution": "বিধিমালার নিরাপত্তা-ব্যবস্থা পালন নিশ্চিত করেন, বছরে অন্তত একবার স্থাপনা পরিদর্শন ও পরীক্ষার নথি রাখেন।",
+      "section": "people_inspection",
+      "claims": [
+        "c10",
+        "c09",
+        "c11"
+      ]
+    },
+    {
+      "name": "বৈদ্যুতিক পরিদর্শক (Electrical Inspector)",
+      "when": "বিধি ৩২ ও ৪৫, CEA বিধিমালা ২০২৩",
+      "role": "নির্ধারিত ভোল্টেজের বেশি স্থাপনার পরিদর্শন ও পরীক্ষার দায়িত্বপ্রাপ্ত সরকারি কর্মকর্তা",
+      "contribution": "স্থাপনা পরিদর্শন-পরীক্ষা করেন, স্ব-প্রত্যয়নের প্রতিবেদন গ্রহণ করেন এবং ত্রুটি সংশোধনের নির্দেশ দেন।",
+      "section": "legal_framework",
+      "claims": [
+        "c19",
+        "c18"
+      ]
+    },
+    {
+      "name": "চার্টার্ড বৈদ্যুতিক নিরাপত্তা প্রকৌশলী (Chartered Electrical Safety Engineer)",
+      "when": "বিধি ৬, CEA বিধিমালা ২০২৩",
+      "role": "উপযুক্ত সরকার কর্তৃক অনুমোদিত প্রকৌশলী যিনি স্ব-প্রত্যয়নে সাহায্য করেন",
+      "contribution": "নির্ধারিত ভোল্টেজ পর্যন্ত স্থাপনার মালিকের অনুরোধে পরীক্ষা করে স্ব-প্রত্যয়নে সহায়তা করেন।",
+      "section": "people_inspection",
+      "claims": [
+        "c18"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1948,
+      "when": "১৯৪৮",
+      "label": "কারখানা আইন, ১৯৪৮ (৬৩ নং আইন) প্রণীত",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "sort_year": 1949,
+      "when": "১ এপ্রিল ১৯৪৯",
+      "label": "কারখানা আইন কার্যকর হয়",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "sort_year": 2003,
+      "when": "২০০৩",
+      "label": "বিদ্যুৎ আইন, ২০০৩ প্রণীত — ধারা ৫৩-এ CEA-র নিরাপত্তা-ক্ষমতা",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 2023,
+      "when": "৮ জুন ২০২৩",
+      "label": "CEA নিরাপত্তা বিধিমালা, ২০২৩ বিজ্ঞপ্তি; ২০১০-এর বিধিমালা বাতিল",
+      "claims": [
+        "c03",
+        "c01"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "আর্থিং (Earthing)",
+      "meaning": "স্থাপনার উন্মুক্ত পরিবাহী অংশকে প্রধান আর্থিং টার্মিনালের সঙ্গে বা নিউট্রালকে পৃথিবীর সাধারণ ভরের সঙ্গে যুক্ত করা (বিধি ২(ট))।",
+      "section": "earthing"
+    },
+    {
+      "term": "RCD / RCCB",
+      "meaning": "রেসিডুয়াল কারেন্ট ডিভাইস — লাইভ ও নিউট্রাল প্রবাহের অমিল (লিকেজ) শনাক্ত করে সরবরাহ বিচ্ছিন্নকারী যন্ত্র; বিধি ৪৪-এ বাধ্যতামূলক।",
+      "section": "protective_devices"
+    },
+    {
+      "term": "RCBO",
+      "meaning": "অন্তর্নির্মিত অতিরিক্ত-প্রবাহ সুরক্ষাসহ রেসিডুয়াল কারেন্ট ব্রেকার — লিকেজ ও ওভারলোড/শর্ট সার্কিট, দুই সুরক্ষাই দেয় (IS 12640 Part 2)।",
+      "section": "protective_devices"
+    },
+    {
+      "term": "কাট-আউট (Cut out)",
+      "meaning": "প্রবাহ পূর্বনির্ধারিত মান ছাড়ালে স্বয়ংক্রিয়ভাবে প্রবাহ বিচ্ছিন্নকারী যন্ত্র; ফিউজিবল কাট-আউট এর অন্তর্ভুক্ত।",
+      "section": "legal_framework"
+    },
+    {
+      "term": "স্ব-প্রত্যয়ন (Self-certification)",
+      "meaning": "নির্ধারিত ভোল্টেজ (কেন্দ্রে ১১ kV) পর্যন্ত স্থাপনার মালিক/ভোক্তার নিজের পরীক্ষা-প্রত্যয়ন, যা Electrical Inspector-এর কাছে জমা দিতে হয়।",
+      "section": "legal_framework"
+    },
+    {
+      "term": "বিপদ-বিজ্ঞপ্তি (Danger notice)",
+      "meaning": "২৫০ ভোল্টের বেশি স্থাপনায় হিন্দি/ইংরেজি ও স্থানীয় ভাষায়, খুলি-হাড়ের চিহ্নসহ স্থায়ী সতর্ক-বিজ্ঞপ্তি (বিধি ২০)।",
+      "section": "people_inspection"
+    },
+    {
+      "term": "ফ্লেম-প্রুফ (Flame-proof)",
+      "meaning": "দাহ্য গ্যাস/ধুলো থাকতে পারে এমন জায়গার জন্য অনুমোদিত বিস্ফোরণ-প্রতিরোধী নির্মাণের আলো বা যন্ত্র (ধারা ৩৬ক)।",
+      "section": "factory_special"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "ইনসুলেশন নষ্ট হলে শক",
+      "causes": [
+        "যন্ত্রের ইনসুলেশন নষ্ট হয়ে ধাতব গা বিদ্যুত্চালিত হয়",
+        "আর্থিং না থাকলে ত্রুটির প্রবাহের মাটির পথ থাকে না"
+      ],
+      "event": "মানুষ যন্ত্রের গা ছুঁলে প্রবাহ তার শরীর দিয়ে মাটিতে যায়",
+      "results": [
+        "বৈদ্যুতিক শক — পোড়া, হৃদ্যন্ত্র বন্ধ বা মৃত্যু পর্যন্ত হতে পারে",
+        "সঠিক আর্থিং + RCD থাকলে সুরক্ষা-যন্ত্র আগেই সরবরাহ বিচ্ছিন্ন করে"
+      ],
+      "section": "earthing",
+      "claims": [
+        "c27",
+        "c05",
+        "c26"
+      ]
+    },
+    {
+      "title": "লিকেজ থেকে আগুন",
+      "causes": [
+        "ত্রুটিপূর্ণ যন্ত্র বা তারে ক্রমাগত লিকেজ থাকে",
+        "লিকেজের তাপ জমে আশপাশের উপাদান জ্বলে ওঠে"
+      ],
+      "event": "স্থাপনায় অগ্নিকাণ্ডের সূত্রপাত হয়",
+      "results": [
+        "সম্পত্তির ক্ষতি — বিধিমালায় এটিও 'বিপদ'-এর অংশ",
+        "RCD লিকেজ শনাক্ত করে আগুন ঘটার আগেই সরবরাহ বিচ্ছিন্ন করে"
+      ],
+      "section": "hazards",
+      "claims": [
+        "c04",
+        "c25",
+        "c26"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "বিধি ৪৪ ও ৩০ mA — গার্হস্থ্য RCD-র সীমা (GK-SAF-007-এর মূল তথ্য)",
+      "section": "protective_devices"
+    },
+    {
+      "point": "বিধি ৪৩-এর আর্থিং: দুটি পৃথক সংযোগ, বছরে একবার পরীক্ষা, দুই বছর নথি",
+      "section": "earthing"
+    },
+    {
+      "point": "ESO: কারখানায় ২৫০ kW সীমা; ডিগ্রি + ৫ বছর / ডিপ্লোমা + ১০ বছর",
+      "section": "people_inspection"
+    },
+    {
+      "point": "ধারা ৩৬ক: বদ্ধ জায়গায় ২৪ ভোল্টের সীমা ও flame-proof আলো",
+      "section": "factory_special"
+    },
+    {
+      "point": "২০২৩ বনাম ২০১০ বিধিমালা; ধারা ৫৩ = ক্ষমতার উৎস",
+      "section": "legal_framework"
+    },
+    {
+      "point": "সংখ্যা-বিভ্রান্তি এড়াও: ২৪ V (বদ্ধ জায়গা), ২৫০ V (বিজ্ঞপ্তি/আর্থিং), ৬৫০ V (অধ্যায় V-এর ঊর্ধ্বসীমা), ১১ kV (স্ব-প্রত্যয়ন), ৫ বছর (পরিদর্শনের ব্যবধান)",
+      "section": "legal_framework"
+    }
+  ],
+  "bengal_connection": {
+    "body": "বিধি ২০ অনুযায়ী বিপদ-বিজ্ঞপ্তি দিতে হয় হিন্দি বা ইংরেজির পাশাপাশি **জেলার স্থানীয় ভাষায়** — পশ্চিমবঙ্গের কারখানায় তাই বিজ্ঞপ্তিতে বাংলা থাকা আইনি বাধ্যবাধকতা। একইভাবে বিধি ৩০-এর শক-পুনরুজ্জীবনের নির্দেশনাও স্থানীয় ভাষায় টাঙাতে হয়, যাতে বাংলাভাষী শ্রমিক জরুরি মুহূর্তে নির্দেশ পড়ে কাজ করতে পারেন। অর্থাৎ রাজ্যের কারখানাগুলিতে এই দুটি বিজ্ঞপ্তিতে বাংলার উপস্থিতি শুধু সুবিধা নয়, বিধির দাবি।",
+    "claims": [
+      "c12",
+      "c16"
+    ]
+  },
+  "quick_revision": [
+    "CEA বিধিমালা, ২০২৩ — ৮ জুন ২০২৩-এ বিজ্ঞপ্তি; ২০১০-এর বিধিমালা বাতিল",
+    "ক্ষমতার উৎস: বিদ্যুৎ আইন, ২০০৩-এর ধারা ৫৩ ও ১৭৭(২)(খ)",
+    "আর্থিং = বিধি ৪৩; RCD = বিধি ৪৪; পরিদর্শন = বিধি ৩২; ESO = বিধি ৫; বিপদ-বিজ্ঞপ্তি = বিধি ২০",
+    "গার্হস্থ্য RCD-র সীমা: ৩০ মিলিঅ্যাম্পিয়ার",
+    "যন্ত্রের কাঠামোর আর্থিং: দুটি পৃথক ও স্বতন্ত্র সংযোগ (২৫০–৬৫০ V)",
+    "আর্থ-পরীক্ষা: বছরে অন্তত একবার (শুষ্ক দিনে); নথি: অন্তত দুই বছর",
+    "নতুন স্থাপনায় তিন-পিন সকেট; তৃতীয় পিন স্থায়ীভাবে আর্থড",
+    "ESO: কারখানায় ২৫০ kW বেশি লোড; ডিগ্রি + ৫ বছর বা ডিপ্লোমা + ১০ বছর; পরিদর্শন ১ বছরের মধ্যে",
+    "বিপদ-বিজ্ঞপ্তি: ২৫০ V-এর বেশি স্থাপনায়, খুলি-হাড়ের চিহ্ন, স্থানীয় ভাষাসহ",
+    "কারখানার বদ্ধ জায়গায় বহনযোগ্য আলোর সীমা: ২৪ ভোল্ট (কারখানা আইন, ধারা ৩৬ক); দাহ্য গ্যাসে flame-proof আলো",
+    "স্ব-প্রত্যয়নের সীমা: ১১ kV; পরিদর্শনের সর্বোচ্চ ব্যবধান: ৫ বছর",
+    "RCBO = লিকেজ সুরক্ষা + অতিরিক্ত-প্রবাহ সুরক্ষা এক যন্ত্রে (IS 12640 Part 2)"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023 — Gazette of India notification, 8 June 2023 (CEA)",
+      "url": "https://cea.nic.in/whats-new/file?path=%2Fhome%2Fcea_website%2Freports%2Fgeneral%2Fen%2Fpdf_100_183_English.pdf&mode=view",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Press Information Bureau release on the CEA Safety Regulations, 2023 (Rajya Sabha reply, Ministry of Power)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2041636&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "The Factories Act, 1948 (Act 63 of 1948) — full Act text, Directorate of Factories & Boilers, Odisha",
+      "url": "https://dfb.odisha.gov.in/sites/default/files/2022-04/act.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "IS 12640 (Part 2): 2016 — Residual Current Operated Circuit-Breakers with Integral Overcurrent Protection (RCBOs) | Bureau of Indian Standards",
+      "url": "https://services.bis.gov.in/tmp/tbl5_2024-11-08_1157.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "The CEA Safety Regulations, 2023 were made under section 53 read with section 177(2)(b) of the Electricity Act, 2003, superseding the 2010 Regulations",
+      "source": "s1",
+      "page": "Gazette p. 100",
+      "quote": "in exercise of the powers conferred by clause (b) of sub-section (2) of section 177 and read with section 53 of the Electricity Act, 2003, and in suppression of the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2010"
+    },
+    {
+      "id": "c02",
+      "claim": "The 2023 Regulations apply to electrical installations including electrical plant and electric lines, and to persons engaged in generation, transmission, distribution, trading, supply or use of electricity",
+      "source": "s1",
+      "page": "Reg. 1(3)",
+      "quote": "These regulations shall be applicable to electrical installation including electrical plant and electric line, and the person engaged in the generation or transmission or distribution or trading or supply or use of electricity."
+    },
+    {
+      "id": "c03",
+      "claim": "The regulations are called the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023, notified at New Delhi on 8 June 2023",
+      "source": "s1",
+      "page": "Gazette p. 100, Reg. 1(1)",
+      "quote": "These regulations may be called the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023."
+    },
+    {
+      "id": "c04",
+      "claim": "In the Regulations, 'danger' means risk to health or life from electric shock, burn or other injury, or damage to property, or from fire or explosion attendant on the generation, transmission, transformation, conversion, distribution or use of electricity",
+      "source": "s1",
+      "page": "Reg. 2(r)",
+      "quote": "risk to health or life or any part of body from electric shock, burn or other injuries to person, or property, or from fire or explosion, attendant upon the generation, transmission, transformation, conversion, distribution or use of electricity"
+    },
+    {
+      "id": "c05",
+      "claim": "'Earthing' is defined as connection of the exposed conductive and extraneous parts of an installation to its main earthing terminal, or connection of the neutral of a transformer, generator or equipment to the general mass of earth",
+      "source": "s1",
+      "page": "Reg. 2(u)",
+      "quote": "connection of the exposed conductive and extraneous parts of an installation to the main earthing terminal of that installation or connection of neutral of transformer or generator or equipment to general mass of earth or earth bonded bar of that installation"
+    },
+    {
+      "id": "c06",
+      "claim": "A 'circuit breaker' is a mechanical switching device capable of making, carrying and breaking currents under normal conditions and under specified abnormal conditions",
+      "source": "s1",
+      "page": "Reg. 2(j)",
+      "quote": "a mechanical switching device, capable of making, carrying and breaking currents under normal circuit conditions and also making, carrying for a specified duration and breaking currents under specified abnormal circuit condition"
+    },
+    {
+      "id": "c07",
+      "claim": "A 'cut out' is any device for automatically interrupting the flow of electricity when the current rises above a pre-determined value, and includes a fusible cut-out",
+      "source": "s1",
+      "page": "Reg. 2(q)",
+      "quote": "any device for automatically interrupting the flow of electricity through the conductor when the current increases above a pre-determined value, and shall also include fusible cut-out"
+    },
+    {
+      "id": "c08",
+      "claim": "Adequate precautions must be taken to ensure that no live parts are exposed so as to cause danger (Regulation 37(7))",
+      "source": "s1",
+      "page": "Reg. 37(7)",
+      "quote": "Adequate precautions shall be taken to ensure that no live parts are exposed as to cause danger."
+    },
+    {
+      "id": "c09",
+      "claim": "An Electrical Safety Officer must hold a degree in Electrical Engineering with at least five years' experience in operation and maintenance of electrical installations, or a diploma with at least ten years' experience",
+      "source": "s1",
+      "page": "Reg. 5(2)",
+      "quote": "The Electrical Safety Officer shall possess a degree in Electrical Engineering with at least five years experience in operation and maintenance of electrical installations or a Diploma in Electrical Engineering with at least ten years experience in operation and maintenance of electrical installations"
+    },
+    {
+      "id": "c10",
+      "claim": "Every factory registered under the Factories Act, 1948 with more than 250 kW connected load must designate an Electrical Safety Officer; for mines and oil-fields the threshold is more than 2000 kW connected load",
+      "source": "s1",
+      "page": "Reg. 5(3)",
+      "quote": "For every electrical installation including factory registered under the Factories Act, 1948 (63 of 1952) with more than 250 kW connected load and mines and oil-field as defined in the Mines Act, 1952 (35 of 1952), with more than 2000 kW connected load, the owner of the installation or the management of the factory or mines, as the case may be, shall designate Electrical Safety Officer"
+    },
+    {
+      "id": "c11",
+      "claim": "The Electrical Safety Officer must inspect such installations at intervals not exceeding one year and keep records of tests and recommendations",
+      "source": "s1",
+      "page": "Reg. 5(3) proviso",
+      "quote": "inspect such installations at intervals not exceeding one year, and keep a record thereof"
+    },
+    {
+      "id": "c12",
+      "claim": "The owner of every installation of voltage exceeding 250 V must permanently affix a danger notice in Hindi or English and the local language of the district, with a skull-and-bones sign, on every motor, generator, transformer and other electrical plant",
+      "source": "s1",
+      "page": "Reg. 20",
+      "quote": "The owner of every installation of voltage exceeding 250 V shall affix permanently in a conspicuous position a danger notice in Hindi or English and the local language of the district, with a sign of skull and bones"
+    },
+    {
+      "id": "c13",
+      "claim": "Every person working on an electric supply line or apparatus must be provided with PPE such as rubber gloves and safety footwear suitable for the working voltage, safety belts for work at height, non-conductive ladder, earthing devices, helmet and line tester (Regulation 21(2))",
+      "source": "s1",
+      "page": "Reg. 21(2)",
+      "quote": "personal protective equipment, tools and devices such as rubber gloves and safety footwear suitable for working voltage, safety belts for working at height, nonconductive ladder, earthing devices of appropriate class, helmet, line tester, hand lines, voltage detector and hand tools as per the relevant standards"
+    },
+    {
+      "id": "c14",
+      "claim": "Before any conductor or apparatus is handled, precautions must be taken by earthing or other suitable means to discharge it electrically and to prevent accidental charging while persons are working on it (Regulation 21(1))",
+      "source": "s1",
+      "page": "Reg. 21(1)",
+      "quote": "Before any conductor or apparatus is handled, adequate precautions shall be taken, by earthing or other suitable means, to discharge electrically such conductor or apparatus"
+    },
+    {
+      "id": "c15",
+      "claim": "All non-current-carrying metal parts of switchgear and control panels must be properly earthed, and insulating floors or mats of the appropriate voltage level must be provided in front of and behind the panels (Regulation 21(5))",
+      "source": "s1",
+      "page": "Reg. 21(5)",
+      "quote": "all non-current carrying metal parts of switchgear and control panels shall be properly earthed and insulating floors or mat conforming to the relevant standards, of appropriate voltage level shall be provided in front and rear of the panels"
+    },
+    {
+      "id": "c16",
+      "claim": "Instructions for resuscitation of persons suffering from electric shock, in English or Hindi and the local language, must be affixed in every generating station, enclosed substation, enclosed switching station, mine and every factory where electricity is used (Regulation 30)",
+      "source": "s1",
+      "page": "Reg. 30(1)",
+      "quote": "Instructions, in English or Hindi and the local language of the District and where Hindi is the local language, in English and Hindi for the resuscitation of persons suffering from electric shock, shall be affixed by the owner in a conspicuous place in every generating station, enclosed substation, enclosed switching station, mines and in every factory"
+    },
+    {
+      "id": "c17",
+      "claim": "No electrical installation work (except like-for-like replacement of lamps, fans, fuses, switches and domestic appliances not exceeding 250 V) may be carried out except by a State-licensed electrical contractor, under the direct supervision of a person holding a certificate of competency and by a person holding a permit",
+      "source": "s2",
+      "page": "PIB release",
+      "quote": "no electrical installation work, including additions, alterations, repairs and adjustments to existing installations, except such replacement of lamps, fans, fuses, switches, domestic appliances of voltage not exceeding 250 V and fittings as in no way alters its capacity or character, shall be carried out upon the premises of or on behalf of any consumer, supplier, owner or occupier for the purpose of supply to such consumer, supplier, owner or occupier except by an electrical contractor licenced in this behalf by the State Government"
+    },
+    {
+      "id": "c18",
+      "claim": "Electrical installations at or below the notified voltage must be self-certified by the owner or consumer; the Central Government has notified 11 kV for this purpose",
+      "source": "s2",
+      "page": "PIB release",
+      "quote": "the electrical installations below or equal to the notified voltage shall be self-certified by the owner or consumer, as the case may be. However, the owner or supplier or consumer has the option to get his installation inspected and tested by the Electrical Inspector of the Appropriate Government."
+    },
+    {
+      "id": "c19",
+      "claim": "The periodicity of electrical inspection by the Electrical Inspector or of self-certification must not exceed five years (Regulation 32)",
+      "source": "s1",
+      "page": "Reg. 32(2)",
+      "quote": "the periodicity of electrical inspection and self-certification shall not exceed five years"
+    },
+    {
+      "id": "c20",
+      "claim": "Under Regulation 43, the neutral conductor of a three-phase four-wire system and the middle conductor of a two-phase three-wire system must be earthed as per the relevant standards",
+      "source": "s1",
+      "page": "Reg. 43(i)",
+      "quote": "neutral conductor of a three phase, four-wire system and the middle conductor of a two-phase, three-wire system shall be earthed as per the relevant standards"
+    },
+    {
+      "id": "c21",
+      "claim": "The frame of every generator, stationary or portable motor, the metallic parts not intended as conductors of all transformers and regulating apparatus, and all electricity-consuming apparatus above 250 V and up to 650 V must be earthed by two separate and distinct connections with earth (Regulation 43(vii))",
+      "source": "s1",
+      "page": "Reg. 43(vii)",
+      "quote": "the frame of every generator, stationary motor, portable motor, and the metallic parts, not intended as conductors, all transformers and any other apparatus used for regulating or controlling electricity, and all electricity consuming apparatus, of voltage exceeding 250 V but not exceeding 650 V shall be earthed by two separate and distinct connections with earth by the owner"
+    },
+    {
+      "id": "c22",
+      "claim": "In new or renovated installations at supply voltage not exceeding 250 V, all plug sockets must be of the three-pin type and the third pin permanently and effectively earthed (Regulation 43(viii) proviso)",
+      "source": "s1",
+      "page": "Reg. 43(viii)",
+      "quote": "where the supply voltage is not exceeding 250 V and where the installations are either new or renovated, all plug sockets shall be of the three pin type, and the third pin shall be permanently and effectively earthed"
+    },
+    {
+      "id": "c23",
+      "claim": "Earthing systems of the supplier must be tested for resistance on a dry day in the dry season at least once a year, and a record of every earth test must be kept for not less than two years (Regulation 43(x)-(xi))",
+      "source": "s1",
+      "page": "Reg. 43(x)-(xi)",
+      "quote": "all earthing systems belonging to the supplier shall in addition, be tested for resistance on dry day during the dry season at least once in a year; (xi) earth fault loop impedance shall be tested to ensure the automatic operation of the protective device and a record of every earth test made and the result thereof shall be kept by the supplier for a period of not less than two years after the day of testing"
+    },
+    {
+      "id": "c24",
+      "claim": "Regulation 44 requires the use of electricity in an installation to be controlled by a residual current device; in domestic installations the RCD must have a residual operating current not exceeding 30 milliampere",
+      "source": "s1",
+      "page": "Reg. 44",
+      "quote": "The use of electricity to electrical installation, shall be controlled by a residual current device to disconnect the supply having rated residual current and duration as per the relevant standards: Provided that in domestic installation, residual current device having residual operating current not exceeding 30 milliampere shall be used"
+    },
+    {
+      "id": "c25",
+      "claim": "In a properly functioning installation the current through the live wire equals the current returning through the neutral, unless there is leakage, e.g. through a person's body or a fault in an appliance or wiring (BIS, IS 12640 Part 2)",
+      "source": "s4",
+      "page": "IS 12640 (Pt 2) intro",
+      "quote": "In a properly functioning electrical installation, the current flowing through the live (phase) wire should be equal to the current returning through the neutral wire unless there is any leakage of current e.g., through a person's body or due to a fault in an appliance or wiring, when the current will no longer be balanced between the live and neutral wires."
+    },
+    {
+      "id": "c26",
+      "claim": "The residual-current imbalance must be detected and the supply automatically disconnected when the imbalance exceeds a threshold, typically 30 mA, which is well below the danger limit for humans (BIS)",
+      "source": "s4",
+      "page": "IS 12640 (Pt 2) intro",
+      "quote": "it is important to detect this imbalance (residual current) and automatically disconnect power supply when this imbalance is above a threshold (typically 30 mA, which is well below the limit of danger for humans), to prevent electric shock hazard."
+    },
+    {
+      "id": "c27",
+      "claim": "Electric shock from direct or indirect contact can cause injuries from mild tingling to severe burns, cardiac arrest or death, depending on voltage, current, duration of contact and the person's health (BIS)",
+      "source": "s4",
+      "page": "IS 12640 (Pt 2) intro",
+      "quote": "Flow of electricity through the human body due to direct or indirect contact with electricity leads to electric shock with a range of injuries - from mild tingling sensations to severe burns, cardiac arrest, or even death, depending on factors like the voltage, current, duration of contact, and the individual's health condition."
+    },
+    {
+      "id": "c28",
+      "claim": "RCBOs provide protection against both electrical faults such as leakage or earth faults and overcurrent conditions such as overloads or short circuits (BIS)",
+      "source": "s4",
+      "page": "IS 12640 (Pt 2) intro",
+      "quote": "Residual Current Operated Circuit-Breakers (RCBOs) provide comprehensive protection for both - electrical faults (such as leakage or earth faults) as well as overcurrent conditions (such as overloads or short circuits)."
+    },
+    {
+      "id": "c29",
+      "claim": "The use of a residual current device as per the relevant standard has been mandated under Regulation 44 of the CEA Safety Regulations, 2023 (BIS)",
+      "source": "s4",
+      "page": "IS 12640 (Pt 2) intro",
+      "quote": "the use of a residual current device as per the relevant standard has been mandated under Regulation 44 of Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023."
+    },
+    {
+      "id": "c30",
+      "claim": "Each distinct circuit must be protected against excess energy by a suitable fuse link or a circuit breaker of adequate breaking capacity (Regulation 37(4))",
+      "source": "s1",
+      "page": "Reg. 37(4)",
+      "quote": "each distinct circuit is to be protected against excess energy by means of a suitable fuse link or a circuit breaker of adequate breaking capacity"
+    },
+    {
+      "id": "c31",
+      "claim": "Under section 36A of the Factories Act, 1948, no portable electric light or other electric appliance of voltage exceeding twenty-four volts may be used inside any chamber, tank, vat, pit, pipe, flue or other confined space in a factory unless adequate safety devices are provided",
+      "source": "s3",
+      "page": "Sec. 36A",
+      "quote": "no portable electric light or any other electric appliance of voltage exceeding twentyfour volts shall be permitted for use inside any chamber, tank, vat, pit, pipe, flue or other confined space"
+    },
+    {
+      "id": "c32",
+      "claim": "Where inflammable gas, fume or dust is likely to be present in such a confined space, no lamp or light other than one of flame-proof construction may be used (Factories Act, section 36A(b))",
+      "source": "s3",
+      "page": "Sec. 36A(b)",
+      "quote": "if any inflammable gas, fume or dust is likely to be present in such chamber, tank, vat, pit, pipe, flue or other confined space, no lamp or light other than that flameproof construction shall be permitted to be used therein"
+    },
+    {
+      "id": "c33",
+      "claim": "For installations above 250 V, a clear space of not less than one metre in width must be provided in front of every switchboard (Regulation 39(iii)(a))",
+      "source": "s1",
+      "page": "Reg. 39(iii)(a)",
+      "quote": "a clear space of not less than one metre in width shall be provided in front of the switchboard"
+    },
+    {
+      "id": "c34",
+      "claim": "Fire buckets filled with clean dry sand, in addition to suitable fire extinguishers, must be conspicuously marked and kept in all generating stations, enclosed substations and enclosed switching stations (Regulation 29(1))",
+      "source": "s1",
+      "page": "Reg. 29(1)",
+      "quote": "Fire buckets filled with clean dry sand and ready for immediate use for extinguishing fires, in addition to fire extinguishers suitable for dealing with fires, shall be conspicuously marked and kept in all generating stations, enclosed substations and enclosed switching-stations in convenient location."
+    },
+    {
+      "id": "c35",
+      "claim": "Sufficient first-aid boxes or cupboards, conspicuously marked, must be provided and maintained at appropriate locations in every generating station, enclosed substation and enclosed switching station (Regulation 29(3))",
+      "source": "s1",
+      "page": "Reg. 29(3)",
+      "quote": "Sufficient number of first-aid boxes or cupboards conspicuously marked and equipped with such contents as the State Government may specify or as per the relevant standards, shall be provided and maintained at"
+    },
+    {
+      "id": "c36",
+      "claim": "The supplier must provide and maintain on the consumer's premises a suitable earthed terminal in an accessible position at or near the point of commencement of supply (Regulation 18)",
+      "source": "s1",
+      "page": "Reg. 18(1)",
+      "quote": "The supplier shall provide and maintain on the consumer's premises for the consumer's use, a suitable earthed terminal in an accessible position at or near the point of commencement of supply as per relevant standards"
+    },
+    {
+      "id": "c37",
+      "claim": "Owners of all circuits and apparatus must arrange them so that there is no danger of any part becoming accidentally charged to a voltage beyond the limits for which it is intended (Regulation 28)",
+      "source": "s1",
+      "page": "Reg. 28(1)",
+      "quote": "The owners of all circuits and apparatus shall so arrange them that there shall be no danger of any part thereof becoming accidentally charged to any voltage beyond the limits of voltage for which they are intended."
+    },
+    {
+      "id": "c38",
+      "claim": "The Factories Act, 1948 is Act 63 of 1948 and came into force on 1 April 1949",
+      "source": "s3",
+      "page": "Sec. 1",
+      "quote": "It shall come into force on the 1st day of April 1949."
+    },
+    {
+      "id": "c39",
+      "claim": "No person may be designated for electrical work unless he possesses a certificate of competency or an electrical work permit issued by the Appropriate Government (Regulation 3(3))",
+      "source": "s1",
+      "page": "Reg. 3(3)",
+      "quote": "No person shall be designated under sub-regulation (1) unless,- (i) he possesses a certificate of competency or electrical work permit, issued by the Appropriate Government"
+    },
+    {
+      "id": "c40",
+      "claim": "Chapter V of the 2023 Regulations (Regulations 42-44) lays down safety provisions for installations and apparatus of voltage not exceeding 650 V; Regulation 43 applies to systems of voltage exceeding 50 V but not exceeding 650 V",
+      "source": "s1",
+      "page": "Ch. V, Reg. 43",
+      "quote": "Safety provisions for electrical installations and apparatus of voltage not exceeding 650 V"
+    },
+    {
+      "id": "c41",
+      "claim": "Where leakage on a consumer's premises is likely to cause danger, the supplier may discontinue supply only after giving the consumer forty-eight hours' notice in writing, and must not recommence until the cause of leakage is removed (Regulation 36)",
+      "source": "s1",
+      "page": "Reg. 36(2)",
+      "quote": "the supplier may, and if directed so by the Electrical Inspector shall discontinue the supply of electricity to the installation but only after giving to the consumer forty eight hours notice in writing for disconnection of supply and shall not recommence the supply until he or the Electrical Inspector is satisfied that the cause of the leakage has been removed."
+    },
+    {
+      "id": "c42",
+      "claim": "IS 12640 (Part 2) applies to RCBOs for household and similar uses for rated voltages not exceeding 440 V a.c. and rated currents not exceeding 125 A (BIS)",
+      "source": "s4",
+      "page": "IS 12640 (Pt 2) scope",
+      "quote": "IS 12640 (Part 2) : 2016/ IEC 61009-1 : 2012 applies to residual current operated circuit breakers with integral overcurrent protection (RCBOs) functionally independent of, or functionally dependent on, line voltage for household and similar uses, for rated voltages not exceeding 440 V a.c."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "legal_framework",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তমানে ভারতে বৈদ্যুতিক নিরাপত্তার প্রধান বিধিমালা কোনটি?",
+      "a": "CEA (বিদ্যুৎ সরবরাহ ও নিরাপত্তা সংক্রান্ত ব্যবস্থা) বিধিমালা, ২০২৩",
+      "w": [
+        "CEA বিধিমালা, ২০১০",
+        "ভারতীয় বিদ্যুৎ বিধি, ১৯৫৬",
+        "কারখানা বিধিমালা, ১৯৫০"
+      ],
+      "e": "২০২৩ সালের বিধিমালা ২০১০ সালের বিধিমালাকে বাতিল করে তার জায়গা নিয়েছে; ১৯৫৬ সালের বিধি আরও আগের ব্যবস্থা।",
+      "claims": [
+        "c01",
+        "c03"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "legal_framework",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "CEA নিরাপত্তা বিধিমালা, ২০২৩ কোন আইনের কোন ধারার ক্ষমতায় তৈরি?",
+      "a": "বিদ্যুৎ আইন, ২০০৩-এর ধারা ৫৩ (ধারা ১৭৭(২)(খ)-সহ)",
+      "w": [
+        "বিদ্যুৎ আইন, ২০০৩-এর ধারা ১১০",
+        "কারখানা আইন, ১৯৪৮-এর ধারা ৩৬ক",
+        "বিদ্যুৎ আইন, ২০০৩-এর ধারা ১৮৫"
+      ],
+      "e": "বিধিমালার প্রস্তাবনাতেই বলা হয়েছে এটি ধারা ১৭৭(২)(খ) ও ধারা ৫৩-এর ক্ষমতায় তৈরি।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "legal_framework",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বৈদ্যুতিক স্থাপনার পর্যায়ক্রমিক পরিদর্শন বা স্ব-প্রত্যয়নের ব্যবধান সর্বোচ্চ কত হতে পারে?",
+      "a": "পাঁচ বছর",
+      "w": [
+        "এক বছর",
+        "দুই বছর",
+        "দশ বছর"
+      ],
+      "e": "বিধি ৩২ অনুযায়ী পরিদর্শন ও স্ব-প্রত্যয়নের পর্যায়ক্রম পাঁচ বছরের বেশি হতে পারবে না।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "legal_framework",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্ব-প্রত্যয়নের (self-certification) জন্য কেন্দ্রীয় সরকার কত ভোল্টেজ নির্ধারণ করেছে?",
+      "a": "১১ কিলোভোল্ট (11 kV)",
+      "w": [
+        "৬৫০ ভোল্ট",
+        "৩৩ কিলোভোল্ট",
+        "৪০০ ভোল্ট"
+      ],
+      "e": "কেন্দ্রীয় সরকার এই উদ্দেশ্যে ১১ kV নির্ধারণ করেছে; তার নিচে মালিক/ভোক্তা নিজে স্ব-প্রত্যয়ন করেন।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "legal_framework",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিধিমালায় 'কাট-আউট' (cut out) বলতে কী বোঝায়?",
+      "a": "প্রবাহ পূর্বনির্ধারিত মানের বেশি হলে স্বয়ংক্রিয়ভাবে প্রবাহ বিচ্ছিন্নকারী যন্ত্র, ফিউজিবল কাট-আউটসহ",
+      "w": [
+        "হাতে চালানো প্রধান সুইচ",
+        "নিউট্রাল তার কাটার যন্ত্র",
+        "আর্থিং তারের সংযোগ-বিন্দু"
+      ],
+      "e": "সংজ্ঞা অনুযায়ী কাট-আউট স্বয়ংক্রিয় বিচ্ছিন্নতার যন্ত্র; ফিউজিবল কাট-আউটও এর অন্তর্ভুক্ত।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "legal_framework",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n১. CEA বিধিমালা, ২০২৩ শুধু বিদ্যুৎ উৎপাদন কোম্পানির ক্ষেত্রে প্রযোজ্য।\n২. এই বিধিমালা বৈদ্যুতিক স্থাপনা, যন্ত্রপাতি ও লাইন এবং বিদ্যুতের উৎপাদন-ব্যবহারের সঙ্গে যুক্ত ব্যক্তিদের ক্ষেত্রে প্রযোজ্য।\nসঠিক বিকল্প বেছে নাও:",
+      "a": "শুধু ২ সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "১ ও ২ দুটোই সঠিক",
+        "১ ও ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিধি ১(৩) অনুযায়ী পরিধি সব স্থাপনা ও সংশ্লিষ্ট সব ব্যক্তি — শুধু উৎপাদন কোম্পানি নয়; তাই ১ ভুল, ২ সঠিক।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "legal_framework",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে কালানুক্রমে সাজাও:\nক. কারখানা আইন কার্যকর হয়\nখ. বিদ্যুৎ আইন, ২০০৩ প্রণীত হয়\nগ. CEA নিরাপত্তা বিধিমালা, ২০২৩ বিজ্ঞপ্তি পায়\nঘ. CEA নিরাপত্তা বিধিমালা, ২০১০ বাতিল হয়",
+      "a": "ক → খ → ঘ → গ",
+      "w": [
+        "খ → ক → গ → ঘ",
+        "ক → ঘ → খ → গ",
+        "খ → ঘ → ক → গ"
+      ],
+      "e": "কারখানা আইন কার্যকর ১৯৪৯, বিদ্যুৎ আইন ২০০৩, ২০১০-এর বিধিমালা বাতিল হয় ২০২৩-এর বিধিমালা আসায় — অর্থাৎ বাতিল ও নতুন বিজ্ঞপ্তি একই ধাপে, ২০১০-এর অস্তিত্ব ২০০৩-এর পরে। ক্রম: ক (১৯৪৯) → খ (২০০৩) → ঘ/গ (২০২৩)।",
+      "claims": [
+        "c38",
+        "c01",
+        "c03"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "hazards",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিধিমালায় 'বিপদ' (danger) বলতে কোনটিকে বোঝানো হয়েছে?",
+      "a": "বৈদ্যুতিক শক, পোড়া বা আগুন-বিস্ফোরণ থেকে জীবন, স্বাস্থ্য বা সম্পত্তির ঝুঁকি",
+      "w": [
+        "শুধু যন্ত্র নষ্ট হওয়ার ঝুঁকি",
+        "শুধু বিদ্যুৎ বিল বেশি আসার ঝুঁকি",
+        "শুধু সরবরাহ বন্ধ হওয়ার ঝুঁকি"
+      ],
+      "e": "সংজ্ঞায় শক, পোড়া, অন্য আঘাত, আগুন ও বিস্ফোরণ — সবই 'বিপদ'-এর অন্তর্ভুক্ত।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "hazards",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বৈদ্যুতিক শকের তীব্রতা কোন বিষয়গুলির ওপর নির্ভর করে?",
+      "a": "ভোল্টেজ, প্রবাহ, সংস্পর্শের সময়কাল ও ব্যক্তির স্বাস্থ্য",
+      "w": [
+        "শুধু তারের রং",
+        "শুধু ঘরের আকার",
+        "শুধু দিনের তাপমাত্রা"
+      ],
+      "e": "BIS অনুযায়ী শকের ফল এই চারটি বিষয়ের ওপর নির্ভর করে — হালকা ঝাঁকুনি থেকে মৃত্যু পর্যন্ত হতে পারে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "hazards",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিধি ২৮ অনুযায়ী বর্তনী ও যন্ত্র সাজানোর মূল নিয়ম কোনটি?",
+      "a": "কোনো অংশ যেন তার নির্ধারিত ভোল্টেজ-সীমার বাইরে আকস্মিকভাবে বিদ্যুত্চালিত না হয়",
+      "w": [
+        "সব যন্ত্র একই রঙে রাঙাতে হবে",
+        "সব তার মাটির ওপর দিয়ে নিতে হবে",
+        "প্রতি ঘরে দুটি করে মিটার রাখতে হবে"
+      ],
+      "e": "আকস্মিক বিদ্যুত্চালন (accidental charging) রোধই বিধি ২৮-এর মূল কথা।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "hazards",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিধি ৩৭(৭) অনুযায়ী কোন সতর্কতা বাধ্যতামূলক?",
+      "a": "কোনো জীবন্ত অংশ যেন বিপদ ঘটানোর মতোভাবে উন্মুক্ত না থাকে",
+      "w": [
+        "সব যন্ত্র সারাক্ষণ চালু রাখা",
+        "লাইভ অংশ খোলা রাখা যাতে দেখা যায়",
+        "শুধু রাতে কাজ করা"
+      ],
+      "e": "উন্মুক্ত লাইভ অংশই শকের প্রধান কারণ; বিধি তা ঢেকে রাখার সতর্কতা বাধ্যতামূলক করেছে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "hazards",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বৈদ্যুতিক শকের সবচেয়ে গুরুতর ফল কোনটি হতে পারে?",
+      "a": "হৃদ্যন্ত্র বন্ধ (cardiac arrest) হয়ে মৃত্যু",
+      "w": [
+        "শুধু হালকা ঝাঁকুনি",
+        "শুধু গায়ে লাল দাগ",
+        "শুধু জুতো নষ্ট হওয়া"
+      ],
+      "e": "BIS অনুযায়ী ফলের পরিসর হালকা ঝাঁকুনি থেকে গুরুতর পোড়া, হৃদ্যন্ত্র বন্ধ বা মৃত্যু পর্যন্ত।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "hazards",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "অভিকথন (A): কম ভোল্টেজের সংস্পর্শ সবসময় নিরাপদ নয়।\nকারণ (R): শকের তীব্রতা ভোল্টেজ ছাড়াও প্রবাহ, সংস্পর্শের সময়কাল ও ব্যক্তির স্বাস্থ্যের ওপর নির্ভর করে।",
+      "a": "A ও R দুটোই সত্য, এবং R, A-কে ব্যাখ্যা করে",
+      "w": [
+        "A ও R দুটোই সত্য, কিন্তু R, A-কে ব্যাখ্যা করে না",
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য"
+      ],
+      "e": "BIS-এর ব্যাখ্যাতেই চারটি নির্ধারকের কথা আছে; তাই শুধু ভোল্টেজ দেখে নিরাপত্তা বিচার করা যায় না — R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "hazards",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n১. বিধিমালায় 'বিপদ' শুধু মানুষের আঘাত বোঝায়, সম্পত্তির ক্ষতি নয়।\n২. আগুন বা বিস্ফোরণ থেকে সম্পত্তির ঝুঁকিও 'বিপদ'-এর সংজ্ঞায় আছে।\nসঠিক বিকল্প বেছে নাও:",
+      "a": "শুধু ২ সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "১ ও ২ দুটোই সঠিক",
+        "১ ও ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "সংজ্ঞায় ব্যক্তির আঘাতের পাশাপাশি আগুন-বিস্ফোরণে সম্পত্তির ঝুঁকিও স্পষ্টভাবে আছে; তাই ১ ভুল।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "earthing",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আর্থিং (earthing) বলতে কী বোঝায়?",
+      "a": "স্থাপনার উন্মুক্ত পরিবাহী অংশকে প্রধান আর্থিং টার্মিনালের সঙ্গে বা নিউট্রালকে পৃথিবীর সাধারণ ভরের সঙ্গে যুক্ত করা",
+      "w": [
+        "যন্ত্রকে জল দিয়ে ধোয়া",
+        "তারকে রং করা",
+        "মিটারকে দেয়ালে ঝোলানো"
+      ],
+      "e": "সংজ্ঞা অনুযায়ী আর্থিং হল এই সংযোগটিই — ত্রুটির প্রবাহের জন্য মাটির পথ।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "earthing",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আর্থিং সংক্রান্ত মূল নিয়মগুলি CEA বিধিমালার কোন বিধিতে আছে?",
+      "a": "বিধি ৪৩",
+      "w": [
+        "বিধি ৪৪",
+        "বিধি ২০",
+        "বিধি ৩০"
+      ],
+      "e": "বিধি ৪৩-এর শিরোনামই 'Connection with earth'; বিধি ৪৪ হল RCD-র।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "earthing",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২৫০ ভোল্টের বেশি ও ৬৫০ ভোল্ট পর্যন্ত যন্ত্রের কাঠামো কীভাবে আর্থ করতে হয়?",
+      "a": "দুটি পৃথক ও স্বতন্ত্র সংযোগে মাটির সঙ্গে",
+      "w": [
+        "একটি সংযোগেই যথেষ্ট",
+        "শুধু নিউট্রাল তারে জুড়ে",
+        "আর্থিং দরকার হয় না"
+      ],
+      "e": "বিধি ৪৩(vii) অনুযায়ী জেনারেটর, মোটর, ট্রান্সফরমার প্রভৃতির জন্য দুটি পৃথক ও স্বতন্ত্র আর্থ-সংযোগ বাধ্যতামূলক।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "earthing",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সরবরাহকারীর আর্থিং পদ্ধতির রোধ-পরীক্ষা কত ঘন ঘন করতে হয়?",
+      "a": "শুষ্ক মৌসুমের শুষ্ক দিনে বছরে অন্তত একবার",
+      "w": [
+        "প্রতি মাসে একবার",
+        "পাঁচ বছরে একবার",
+        "শুধু স্থাপনের সময় একবার"
+      ],
+      "e": "বিধি ৪৩(x) অনুযায়ী বছরে অন্তত একবার, শুষ্ক দিনে পরীক্ষা; নথি রাখতে হয় অন্তত দুই বছর।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "earthing",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নতুন বা সংস্কারকৃত গার্হস্থ্য স্থাপনায় (২৫০ V পর্যন্ত) প্লাগ সকেট সম্পর্কে নিয়ম কোনটি?",
+      "a": "সব সকেট তিন-পিনের হবে এবং তৃতীয় পিন স্থায়ী ও কার্যকরভাবে আর্থ করা থাকবে",
+      "w": [
+        "সব সকেট দুই-পিনের হবে",
+        "তৃতীয় পিন নিউট্রালে জুড়তে হবে",
+        "সকেটে আর্থিং নিষিদ্ধ"
+      ],
+      "e": "বিধি ৪৩-এর শর্ত অনুযায়ী তিন-পিন সকেট ও তৃতীয় পিনের স্থায়ী আর্থিং বাধ্যতামূলক।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "earthing",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "তিন-ফেজ চার-তারের পদ্ধতিতে কোন পরিবাহীকে আর্থ করতে হয়?",
+      "a": "নিউট্রাল পরিবাহীকে",
+      "w": [
+        "শুধু লাইভ পরিবাহীকে",
+        "তিনটি ফেজ পরিবাহীকেই",
+        "কোনোটিকেই নয়"
+      ],
+      "e": "বিধি ৪৩(i) অনুযায়ী তিন-ফেজ চার-তারের নিউট্রাল (ও দুই-ফেজ তিন-তারের মধ্য পরিবাহী) আর্থ করতে হয়।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "earthing",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও:\nক. আর্থড টার্মিনাল — ১. ভোক্তার প্রাঙ্গণে সরবরাহ শুরুর বিন্দুর কাছে সরবরাহকারী দেন\nখ. আর্থ-পরীক্ষার নথি — ২. অন্তত দুই বছর রাখতে হয়\nগ. যন্ত্রের কাঠামোর আর্থিং — ৩. দুটি পৃথক সংযোগ\nঘ. নিউট্রাল আর্থিং — ৪. তিন-ফেজ চার-তারের পদ্ধতি\nসঠিক জোড় কোনটি?",
+      "a": "ক-১, খ-২, গ-৩, ঘ-৪",
+      "w": [
+        "ক-২, খ-১, গ-৪, ঘ-৩",
+        "ক-৩, খ-৪, গ-১, ঘ-২",
+        "ক-৪, খ-৩, গ-২, ঘ-১"
+      ],
+      "e": "চারটি জোড়ই বিধি ১৮ ও ৪৩ থেকে: টার্মিনাল ভোক্তার প্রাঙ্গণে, নথি দুই বছর, কাঠামোয় দুটি সংযোগ, নিউট্রাল আর্থিং তিন-ফেজ চার-তারে।",
+      "claims": [
+        "c36",
+        "c23",
+        "c21",
+        "c20"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "protective_devices",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মানুষকে লিকেজের শক থেকে বাঁচায় কোন যন্ত্র?",
+      "a": "RCCB / RCD",
+      "w": [
+        "MCB",
+        "ফিউজ",
+        "ট্রান্সফরমার"
+      ],
+      "e": "RCD লাইভ-নিউট্রাল প্রবাহের অমিল শনাক্ত করে সরবরাহ বিচ্ছিন্ন করে; MCB ও ফিউজ অতিরিক্ত প্রবাহের জন্য।",
+      "claims": [
+        "c25",
+        "c26"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "protective_devices",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "গার্হস্থ্য স্থাপনায় RCD-র অবশিষ্ট কার্যকর প্রবাহের সর্বোচ্চ সীমা কত?",
+      "a": "৩০ মিলিঅ্যাম্পিয়ার",
+      "w": [
+        "৩০০ মিলিঅ্যাম্পিয়ার",
+        "৩০ অ্যাম্পিয়ার",
+        "৩ মিলিঅ্যাম্পিয়ার"
+      ],
+      "e": "বিধি ৪৪ অনুযায়ী গার্হস্থ্য RCD-র সীমা ৩০ mA; BIS-ও এই মানকেই সাধারণ সীমা বলেছে।",
+      "claims": [
+        "c24",
+        "c26"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "protective_devices",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "RCD কখন ছিটকে সরবরাহ বিচ্ছিন্ন করে?",
+      "a": "লাইভ ও নিউট্রাল প্রবাহের মধ্যে অমিল (লিকেজ) শনাক্ত হলে",
+      "w": [
+        "বর্তনীতে ওভারলোড হলে",
+        "ভোল্টেজ কমে গেলে",
+        "মিটার বন্ধ হলে"
+      ],
+      "e": "RCD-র কাজই ভারসাম্য-ভাঙন ধরা: অমিল মানেই লিকেজ — হয়তো মানুষের শরীর দিয়ে।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "protective_devices",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রতিটি পৃথক বর্তনীকে অতিরিক্ত শক্তি থেকে রক্ষা করতে কী লাগাতে হয়?",
+      "a": "উপযুক্ত ফিউজ লিংক বা পর্যাপ্ত ভাঙন-ক্ষমতার সার্কিট ব্রেকার",
+      "w": [
+        "শুধু সুইচ",
+        "শুধু তারের আবরণ",
+        "শুধু মিটার"
+      ],
+      "e": "বিধি ৩৭(৪)-এর নির্দেশ এটি; সুইচ নিজে সুরক্ষা-যন্ত্র নয়।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "protective_devices",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "RCBO কোন দুই ধরনের সুরক্ষা একসঙ্গে দেয়?",
+      "a": "লিকেজ/আর্থ-ত্রুটির সুরক্ষা এবং অতিরিক্ত প্রবাহের (ওভারলোড, শর্ট সার্কিট) সুরক্ষা",
+      "w": [
+        "শুধু লিকেজের সুরক্ষা",
+        "শুধু অতিরিক্ত প্রবাহের সুরক্ষা",
+        "ভোল্টেজ বাড়ানো ও কমানো"
+      ],
+      "e": "BIS অনুযায়ী RCBO = RCD + অতিরিক্ত-প্রবাহ সুরক্ষা এক যন্ত্রে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "protective_devices",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "অভিকথন (A): সঠিকভাবে আর্থিং করা ধাতব-গায়ের যন্ত্র ইনসুলেশন নষ্ট হলেও তুলনামূলক নিরাপদ।\nকারণ (R): আর্থিং ত্রুটির প্রবাহকে মাটিতে যাওয়ার পথ দেয়, ফলে সুরক্ষা-যন্ত্র কাজ করে যন্ত্রের গা বিপজ্জনকভাবে বিদ্যুত্চালিত থাকে না।",
+      "a": "A ও R দুটোই সত্য, এবং R, A-কে ব্যাখ্যা করে",
+      "w": [
+        "A ও R দুটোই সত্য, কিন্তু R, A-কে ব্যাখ্যা করে না",
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য"
+      ],
+      "e": "আর্থিং-এর সংজ্ঞা ও বিধি ৪৩-এর দুই-সংযোগ নিয়মের উদ্দেশ্যই এই কার্যপদ্ধতি; তাই R, A-এর ব্যাখ্যা।",
+      "claims": [
+        "c05",
+        "c21"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "protective_devices",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "সঠিক জোড় কোনটি?\nক. বিধি ৪৪ — RCD বাধ্যতামূলক\nখ. বিধি ৪৩ — বিপদ-বিজ্ঞপ্তি\nগ. IS 12640 (Part 2) — RCBO-র মান\nঘ. বিধি ৩৭(৪) — ESO নিয়োগ",
+      "a": "ক ও গ সঠিক",
+      "w": [
+        "খ ও ঘ সঠিক",
+        "ক ও খ সঠিক",
+        "গ ও ঘ সঠিক"
+      ],
+      "e": "বিধি ৪৪ = RCD, IS 12640 (Part 2) = RCBO; বিপদ-বিজ্ঞপ্তি বিধি ২০-এ, ESO বিধি ৫-এ, বিধি ৩৭(৪) হল বর্তনীর ফিউজ/ব্রেকার।",
+      "claims": [
+        "c29",
+        "c42",
+        "c30"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "people_inspection",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বৈদ্যুতিক কাজে মনোনীত ব্যক্তির হাতে কোনটি থাকা বাধ্যতামূলক?",
+      "a": "যোগ্যতার শংসাপত্র (certificate of competency) বা বৈদ্যুতিক কাজের অনুমতিপত্র",
+      "w": [
+        "ড্রাইভিং লাইসেন্স",
+        "ভোটার কার্ড",
+        "প্যান কার্ড"
+      ],
+      "e": "বিধি ৩(৩) অনুযায়ী শংসাপত্র বা অনুমতিপত্র ছাড়া কাউকে মনোনীত করা যাবে না।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "people_inspection",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিপদ-বিজ্ঞপ্তিতে (danger notice) কোন চিহ্ন থাকে?",
+      "a": "খুলি ও হাড়ের চিহ্ন (skull and bones)",
+      "w": [
+        "লাল ত্রিভুজের চিহ্ন",
+        "সবুজ বৃত্তের চিহ্ন",
+        "নীল বর্গের চিহ্ন"
+      ],
+      "e": "বিধি ২০ অনুযায়ী বিজ্ঞপ্তিতে খুলি-হাড়ের চিহ্ন থাকবে এবং তা হিন্দি/ইংরেজি ও স্থানীয় ভাষায় হবে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "people_inspection",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন কারখানায় Electrical Safety Officer মনোনীত করা বাধ্যতামূলক?",
+      "a": "২৫০ kW-এর বেশি সংযুক্ত লোডের কারখানায়",
+      "w": [
+        "সব কারখানায়, লোড যাই হোক",
+        "শুধু ১০০০ kW-এর বেশি লোডে",
+        "শুধু সরকারি কারখানায়"
+      ],
+      "e": "বিধি ৫(৩) অনুযায়ী কারখানার সীমা ২৫০ kW; খনি/তেলক্ষেত্রে সীমা ২০০০ kW।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "people_inspection",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Electrical Safety Officer-এর যোগ্যতা কোনটি?",
+      "a": "ডিগ্রি ও অন্তত ৫ বছর অভিজ্ঞতা, অথবা ডিপ্লোমা ও অন্তত ১০ বছর অভিজ্ঞতা",
+      "w": [
+        "ডিগ্রি ও ১ বছর অভিজ্ঞতা",
+        "ডিপ্লোমা ও ২ বছর অভিজ্ঞতা",
+        "শুধু ITI পাস"
+      ],
+      "e": "বিধি ৫(২)-এর সংখ্যা জোড়া: ডিগ্রি-৫, ডিপ্লোমা-১০।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "people_inspection",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বৈদ্যুতিক লাইনে কাজের সময় কর্মীকে কোন PPE দিতে হয়?",
+      "a": "কাজের ভোল্টেজের উপযোগী রবারের দস্তানা ও নিরাপত্তা জুতো, হেলমেট, লাইন টেস্টার ইত্যাদি",
+      "w": [
+        "শুধু সুতির দস্তানা",
+        "শুধু রেইনকোট",
+        "কোনো PPE দরকার হয় না"
+      ],
+      "e": "বিধি ২১(২)-এর তালিকায় রবারের দস্তানা, নিরাপত্তা জুতো, সেফটি বেল্ট, অপরিবাহী মই, হেলমেট, লাইন টেস্টার, ভোল্টেজ ডিটেক্টর রয়েছে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "people_inspection",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোনো পরিবাহী বা যন্ত্র হাতে নেওয়ার আগে প্রথম করণীয় কী?",
+      "a": "আর্থিং বা অন্য উপযুক্ত উপায়ে তাকে বিদ্যুৎ-মুক্ত (discharge) করা",
+      "w": [
+        "তাতে জল ছিটানো",
+        "সরাসরি হাত দেওয়া",
+        "ছবি তোলা"
+      ],
+      "e": "বিধি ২১(১) অনুযায়ী আগে ডিসচার্জ না করলে সঞ্চিত আধান বা আকস্মিক বিদ্যুত্চালনে শক লাগতে পারে।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "people_inspection",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n১. বৈদ্যুতিক শকে আক্রান্তের পুনরুজ্জীবনের নির্দেশনা প্রতিটি কারখানায় টাঙাতে হয় যেখানে বিদ্যুৎ ব্যবহৃত হয়।\n২. এই নির্দেশনা শুধু ইংরেজিতে হলেই চলবে।\nসঠিক বিকল্প বেছে নাও:",
+      "a": "শুধু ১ সঠিক",
+      "w": [
+        "শুধু ২ সঠিক",
+        "১ ও ২ দুটোই সঠিক",
+        "১ ও ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিধি ৩০ অনুযায়ী নির্দেশনা ইংরেজি বা হিন্দি **এবং** জেলার স্থানীয় ভাষায় হতে হবে — শুধু ইংরেজি যথেষ্ট নয়।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "factory_special",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কারখানা আইন, ১৯৪৮ কবে থেকে কার্যকর?",
+      "a": "১ এপ্রিল ১৯৪৯",
+      "w": [
+        "১ জানুয়ারি ১৯৪৮",
+        "১৫ আগস্ট ১৯৪৭",
+        "১ এপ্রিল ১৯৫০"
+      ],
+      "e": "আইনের ধারা ১ অনুযায়ী কার্যকর তারিখ ১ এপ্রিল ১৯৪৯; আইনটি ১৯৪৮-এর ৬৩ নং আইন।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "factory_special",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কারখানার বদ্ধ জায়গায় বহনযোগ্য বৈদ্যুতিক আলোর ভোল্টেজ-সীমা কত?",
+      "a": "২৪ ভোল্ট",
+      "w": [
+        "২৫০ ভোল্ট",
+        "৬৫০ ভোল্ট",
+        "৪৪০ ভোল্ট"
+      ],
+      "e": "ধারা ৩৬ক অনুযায়ী ২৪ ভোল্টের বেশি যন্ত্র বদ্ধ জায়গায় পর্যাপ্ত নিরাপত্তা-যন্ত্র ছাড়া চলবে না।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "factory_special",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বদ্ধ জায়গায় দাহ্য গ্যাস থাকার সম্ভাবনা থাকলে কোন ধরনের আলো ব্যবহার করতে হবে?",
+      "a": "অগ্নি-প্রতিরোধী (flame-proof) নির্মাণের আলো",
+      "w": [
+        "সাধারণ বাল্ব",
+        "খোলা শিখার ল্যাম্প",
+        "মোমবাতি"
+      ],
+      "e": "ধারা ৩৬ক(খ) অনুযায়ী flame-proof ছাড়া অন্য আলো নিষিদ্ধ, কারণ স্পার্কেই বিস্ফোরণ ঘটতে পারে।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "factory_special",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সুইচবোর্ডের সামনে কতটা পরিষ্কার জায়গা রাখতে হয়?",
+      "a": "অন্তত এক মিটার চওড়া",
+      "w": [
+        "অন্তত পাঁচ মিটার চওড়া",
+        "কোনো জায়গা রাখার দরকার নেই",
+        "ঠিক আধ মিটার"
+      ],
+      "e": "বিধি ৩৯ অনুযায়ী ২৫০ ভোল্টের বেশি স্থাপনায় সুইচবোর্ডের সামনে অন্তত ১ মিটার পরিষ্কার জায়গা বাধ্যতামূলক।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "factory_special",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আবদ্ধ সাবস্টেশনে আগুন নেভানোর প্রস্তুতি হিসেবে বিধি ২৯(১) কী রাখতে বলেছে?",
+      "a": "পরিষ্কার শুকনো বালি ভরা অগ্নি-বালতি, উপযুক্ত অগ্নিনির্বাপকের পাশাপাশি",
+      "w": [
+        "শুধু জলের বালতি",
+        "শুধু বালির বস্তা গুদামে",
+        "শুধু ফায়ার অ্যালার্ম"
+      ],
+      "e": "বিধিতে fire buckets-এ পরিষ্কার শুকনো বালি ও উপযুক্ত অগ্নিনির্বাপক — দুটোই চিহ্নিত করে রাখার কথা বলা হয়েছে।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "factory_special",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিধি ২৯(৩) অনুযায়ী উৎপাদন কেন্দ্র ও আবদ্ধ সাবস্টেশনে কোনটি রাখা বাধ্যতামূলক?",
+      "a": "চিহ্নিত প্রাথমিক চিকিৎসার বাক্স পর্যাপ্ত সংখ্যায়",
+      "w": [
+        "শুধু ওষুধের আলমারি অফিসে",
+        "শুধু স্ট্রেচার",
+        "কিছুই বাধ্যতামূলক নয়"
+      ],
+      "e": "শকের পর তাৎক্ষণিক সাহায্যের জন্য চিহ্নিত first-aid box উপযুক্ত জায়গায় রাখা ও রক্ষণাবেক্ষণ করা বাধ্যতামূলক।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "factory_special",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও:\nক. ধারা ৩৬ক — ১. বদ্ধ জায়গায় ২৪ ভোল্টের সীমা\nখ. বিধি ৩৯ — ২. সুইচবোর্ডের সামনে ১ মিটার জায়গা\nগ. বিধি ২৯(১) — ৩. শুকনো বালির অগ্নি-বালতি\nঘ. বিধি ২৯(৩) — ৪. প্রাথমিক চিকিৎসার বাক্স\nসঠিক জোড় কোনটি?",
+      "a": "ক-১, খ-২, গ-৩, ঘ-৪",
+      "w": [
+        "ক-২, খ-১, গ-৪, ঘ-৩",
+        "ক-৪, খ-৩, গ-২, ঘ-১",
+        "ক-৩, খ-৪, গ-১, ঘ-২"
+      ],
+      "e": "চারটি জোড়ই সংশ্লিষ্ট ধারা/বিধি থেকে সরাসরি নেওয়া।",
+      "claims": [
+        "c31",
+        "c33",
+        "c34",
+        "c35"
+      ]
+    }
+  ]
+}

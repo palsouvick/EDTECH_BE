@@ -1,0 +1,8 @@
+[
+ {
+  "pyq_code": "GK-SAF-007",
+  "section": "protective_devices",
+  "taught": true,
+  "note": "Bank item GK-SAF-007 (Earthing and the RCCB: the two guards against electric shock) is this chapter's sole electrical_safety-subtopic candidate. Its three bank questions (RCCB trips on live/neutral imbalance; domestic RCCB limit 30 mA under Regulation 44; earthing assertion-reason) are all taught in sections earthing and protective_devices from the CEA Regulations 2023 gazette and BIS IS 12640 (Part 2). No genuine electrical-safety questions were found in db/pyq/*.json (grep for 'electr' returned only bulb/electricity-bill/electromagnetism items, none on safety)."
+ }
+]

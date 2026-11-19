@@ -1,0 +1,1649 @@
+{
+  "book": "industrial_safety",
+  "code": "SAF-07",
+  "number": 7,
+  "part": "mixed",
+  "title": "মিশ্র অনুশীলনী",
+  "subtitle": "সব অধ্যায় একসঙ্গে: কারখানা আইন, অগ্নি-শ্রেণি, ভোপাল, দূষণ-আইন ও OSH কোডের মিশ্র মহড়া",
+  "subtopics": [
+    "mixed"
+  ],
+  "related_facts": [
+    "GK-SAF-013"
+  ],
+  "prerequisites": [
+    "SAF-01",
+    "SAF-02",
+    "SAF-03",
+    "SAF-04",
+    "SAF-05",
+    "SAF-06"
+  ],
+  "reading_minutes": {
+    "quick": 8,
+    "standard": 30,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 41/42 answers matched the key (41 SURE, 1 LIKELY, 0 GUESS); 1 item(s) had a second option the checker found also defensible from the claims.  Blind checker matched q42 (LIKELY) and flagged the alternative as also defensible; on adjudication under the assertion-reason standard the draft key was CORRECTED before publish: R (the single National OSH Advisory Board is tripartite) describes the Board's composition, not the reason six boards were consolidated into one (unification/streamlining). The option set lacked a \"both true, not the explanation\" option, so the \"both false\" distractor was replaced by the corrected key and the old key became a distractor; explanation rewritten. Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 2 of 2 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SAF-07.json and drafts/SAF-07_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SAF-07_REPORT.md.",
+    "checked_claims": 53,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এই বইয়ের শেষ অধ্যায়টি মহড়ার — আগের ছয় অধ্যায়ের সব ভারী তথ্য এখানে একসঙ্গে, মিশ্র ক্রমে আসবে, ঠিক যেমন পরীক্ষার হলঘরে আসে। কারখানা আইনের সংজ্ঞা ও কল্যাণের সিঁড়ি, আগুনের শ্রেণি ও নির্বাপকের রঙ, ভোপালের পাঠ, দূষণ-আইনত্রয়ী ও CPCB-র শ্রেণিবিভাগ, এবং শেষে OSH কোড, ২০২০-র নতুন সংখ্যা — প্রতিটি পরিচ্ছেদে আগের অধ্যায়ের তথ্য নতুন করে সাজানো, আর ৪২টি প্রশ্নে মিশ্র অনুশীলন। সবচেয়ে বড় কৌশল: প্রশ্নে কোন আইনের কথা বলা হচ্ছে তা আগে পড়ো — পুরনো আইন ও OSH কোডের সংখ্যা আলাদা।",
+    "you_will_learn": [
+      "কারখানা আইনের সংজ্ঞার সংখ্যা — ১০/২০, প্রাপ্তবয়স্ক ১৮, অকুপায়ার ও বিপজ্জনক প্রক্রিয়া",
+      "কর্মঘণ্টার সীমা (৪৮/৯) ও কল্যাণের সিঁড়ি (ক্যান্টিন ২৫০, কল্যাণ আধিকারিক ৫০০)",
+      "আগুনের শ্রেণি A–F, নির্বাপকের রঙের ব্যান্ড ও বৈদ্যুতিক আগুনের নিয়ম",
+      "ভোপাল ১৯৮৪: তারিখ, MIC, ইউনিয়ন কার্বাইড ও ট্যাঙ্ক ৬১০",
+      "জল ১৯৭৪ – বায়ু ১৯৮১ – পরিবেশ ১৯৮৬ ত্রয়ী, CPCB ও লাল-কমলা-সবুজ-সাদা শ্রেণি",
+      "OSH কোড, ২০২০: ১৩ আইন → ১ কোড, ৬২০ → ১৪৩ ধারা, নতুন সীমা ২০/৪০ ও ৮ ঘণ্টা"
+    ]
+  },
+  "sections": [
+    {
+      "id": "factory_act_recap",
+      "heading": "কারখানা আইন, ১৯৪৮: সংজ্ঞার সংখ্যাগুলি",
+      "quick": "কারখানা আইন, ১৯৪৮ কার্যকর হয় ১৯৪৯ সালের ১ এপ্রিল থেকে। ধারা ২(m) অনুযায়ী শক্তিসহ ১০+ বা শক্তি ছাড়া ২০+ শ্রমিক ও উৎপাদন প্রক্রিয়া থাকলেই প্রাঙ্গণটি 'কারখানা'। খনি, রেলওয়ে রানিং শেড, হোটেল-রেস্তোরাঁ এই সংজ্ঞার বাইরে।",
+      "standard": "মিশ্র অনুশীলনীর প্রথম ধাপে আমরা ফিরে যাই এই বইয়ের ভিত্তি-আইনে — কারখানা আইন, ১৯৪৮ (Factories Act, 1948)। আইনটির সংক্ষিপ্ত নাম এই, আর তা কার্যকর হয় ১৯৪৯ সালের ১ এপ্রিল থেকে। পরীক্ষায় সবচেয়ে বেশি আসে ধারা ২-এর সংজ্ঞাগুলি।\n\n**কারখানা (ধারা ২(m)):** কোনো প্রাঙ্গণ (সীমানাসহ) যেখানে (ক) শক্তির সাহায্যে উৎপাদন প্রক্রিয়া চলছে এবং ১০ বা ততোধিক শ্রমিক কাজ করছেন — বা গত ১২ মাসের যেকোনো দিন করেছেন; অথবা (খ) শক্তির সাহায্য ছাড়া একই কাজে ২০ বা ততোধিক শ্রমিক আছেন। মনে রাখার সূত্র: শক্তি থাকলে সংখ্যা অর্ধেক — ১০; না থাকলে ২০।\n\n**কারখানা নয়:** খনি (খনি আইন, ১৯৫২-এর অধীন), সশস্ত্র বাহিনীর ভ্রাম্যমাণ ইউনিট, রেলওয়ে রানিং শেড এবং হোটেল, রেস্তোরাঁ বা খাবারের জায়গা — এগুলি ধারা ২(m)-এর সংজ্ঞা থেকে স্পষ্টভাবে বাদ।\n\n**ব্যক্তি-সংজ্ঞা:** 'প্রাপ্তবয়স্ক' (adult) মানে যিনি ১৮ বছর পূর্ণ করেছেন। 'অকুপায়ার' (occupier) মানে যাঁর হাতে কারখানার বিষয়গুলির চূড়ান্ত নিয়ন্ত্রণ আছে — আইনের দায়িত্ব প্রায় সব জায়গায় তাঁর ওপরেই বর্তায়।\n\n**বিপজ্জনক প্রক্রিয়া (hazardous process):** প্রথম তফসিলে (First Schedule) উল্লিখিত শিল্পের এমন প্রক্রিয়া, যেখানে বিশেষ যত্ন না নিলে কাঁচামাল, মধ্যবর্তী বা চূড়ান্ত পণ্য, উপজাত, বর্জ্য বা নিঃসরণ সংশ্লিষ্টদের স্বাস্থ্যের গুরুতর ক্ষতি করতে পারে বা পরিবেশ দূষিত করতে পারে। এই সংজ্ঞাটিই SAF-05 অধ্যায়ের রাসায়নিক নিরাপত্তার আইনি ভিত্তি।",
+      "deep": "পরীক্ষকের প্রিয় ফাঁদ তিনটি: (১) ১০/২০ সংখ্যা দুটি উল্টে দেওয়া; (২) 'গত ১২ মাসের যেকোনো দিন' শর্তটি বাদ দেওয়া — একদিনের জন্যও সীমা পেরোলেই আইন প্রযোজ্য; (৩) হোটেল-রেস্তোরাঁকে কারখানা বলা। এছাড়া যন্ত্রপাতির বিপজ্জনক অংশে বেড়া (fencing) দেওয়ার বিধান ধারা ২১-এ: প্রাইম মুভারের প্রতিটি চলমান অংশ ও ফ্লাই-হুইল শক্ত নির্মাণের রক্ষাকবচে ঘেরা থাকতে হবে, যন্ত্র চলা অবস্থায় তা জায়গায় রাখতে হবে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সংখ্যা-জোড়",
+          "body": "শক্তিসহ ১০, শক্তি ছাড়া ২০ — এই জোড়টিই কারখানা আইনের দরজা। OSH কোডে এই সীমা বদলে ২০/৪০ হয়েছে (ষষ্ঠ পরিচ্ছেদ দেখো) — দুটি জোড় গুলিয়ে ফেলো না।",
+          "claims": [
+            "c03",
+            "c21"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c17"
+      ]
+    },
+    {
+      "id": "hours_welfare",
+      "heading": "কর্মঘণ্টা, বিশ্রাম ও কল্যাণের সিঁড়ি",
+      "quick": "প্রাপ্তবয়স্ক শ্রমিকের সীমা: সপ্তাহে ৪৮ ঘণ্টা, দিনে ৯ ঘণ্টা; ৫ ঘণ্টা কাজের পর কমপক্ষে আধঘণ্টা বিশ্রাম; সপ্তাহে একদিন ছুটি। কল্যাণের সিঁড়ি: ক্যান্টিন ২৫০+, অ্যাম্বুলেন্স রুম ও কল্যাণ আধিকারিক ৫০০+।",
+      "standard": "**কর্মঘণ্টা (অধ্যায় VI):** ধারা ৫১ ও ৫৪ অনুযায়ী কোনো প্রাপ্তবয়স্ক শ্রমিককে সপ্তাহে ৪৮ ঘণ্টার বেশি বা দিনে ৯ ঘণ্টার বেশি কাজ করানো যাবে না। ধারা ৫২ সপ্তাহের প্রথম দিনে সাপ্তাহিক ছুটির বিধান দেয় — বদলি ছুটি দিলে তা আগের বা পরের তিন দিনের মধ্যে হতে হবে। ধারা ৫৫–৫৬: একটানা ৫ ঘণ্টার বেশি কাজ নয়; মাঝে কমপক্ষে আধঘণ্টা বিশ্রামের বিরতি থাকতেই হবে।\n\n**কল্যাণের সিঁড়ি (অধ্যায় V):** শ্রমিকসংখ্যা বাড়লে সুবিধার তালিকাও বাড়ে — এই 'সিঁড়ি' পরীক্ষায় বারবার আসে। ২৫০-এর বেশি শ্রমিক থাকলে ধারা ৪৬ অনুযায়ী ক্যান্টিন বাধ্যতামূলক। ৫০০-এর বেশি শ্রমিক থাকলে ধারা ৪৫ অনুযায়ী অ্যাম্বুলেন্স রুম রাখতে হয়। আর ঠিক ৫০০ বা তার বেশি শ্রমিক থাকলে ধারা ৪৯ অনুযায়ী কল্যাণ আধিকারিক (Welfare Officer) নিয়োগ করতে হয়। ক্যান্টিনের সংখ্যাটি ২৫০, বাকি দুটি ৫০০ — এই বিভাজনটাই ফাঁদ।\n\n**স্বাস্থ্য-নজরদারি:** ধারা ৩৫ চোখের সুরক্ষার কথা বলে — কণা বা টুকরো ছিটকে আসা বা অতিরিক্ত আলোর ঝুঁকি থাকলে কার্যকর পর্দা বা উপযুক্ত গগলস দিতে হবে। ধারা ৮৯ অনুযায়ী তালিকাভুক্ত রোগে (যেমন সিলিকোসিস, অ্যানথ্রাক্স, সীসা-বিষক্রিয়া) কোনো শ্রমিক আক্রান্ত হলে ম্যানেজারকে তৎক্ষণাৎ মুখ্য পরিদর্শক ও সার্টিফাইং সার্জনকে জানাতে হয়।",
+      "deep": "ধারা ৩৮ অগ্নি-সতর্কতার আইনি ভিত্তি: প্রতিটি কারখানায় আগুন লাগলে পালানোর পর্যাপ্ত পথ থাকতে হবে; স্লাইডিং দরজা ছাড়া প্রস্থান-দরজা বাইরের দিকে খুলবে। এই বিধানটি SAF-03-এর অগ্নি-ব্যবস্থাপনার সঙ্গে মিলিয়ে পড়ো — আইন বলে 'কী থাকতে হবে', মান (standard) বলে 'কীভাবে'।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "২৫০ বনাম ৫০০",
+          "body": "ক্যান্টিন = ২৫০-এর বেশি শ্রমিক (ধারা ৪৬)। অ্যাম্বুলেন্স রুম = ৫০০-এর বেশি (ধারা ৪৫)। কল্যাণ আধিকারিক = ৫০০ বা তার বেশি (ধারা ৪৯)। 'বেশি' আর 'বা তার বেশি' শব্দের পার্থক্যটাও লক্ষ্য করো।",
+          "claims": [
+            "c13",
+            "c14",
+            "c15"
+          ]
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16"
+      ]
+    },
+    {
+      "id": "fire_electrical",
+      "heading": "আগুনের শ্রেণি, নির্বাপকের রঙ ও বৈদ্যুতিক আগুন",
+      "quick": "আগুনের ত্রিভুজ: তাপ, জ্বালানি, অক্সিজেন — একটি সরালেই আগুন নেভে। ভারতীয় মানে শ্রেণি A (কঠিন), B (তরল), C (গ্যাস), D (ধাতু), F (রান্নার তেল)। নির্বাপকের ব্যান্ড: ফোম হলুদ, পাউডার নীল, CO₂ কালো, ক্লিন এজেন্ট সবুজ।",
+      "standard": "**অগ্নি-ত্রিভুজ:** ভারতীয় রেলের CAMTECH পুস্তিকা (IS 15683:2018 ও IS 2190:2010 অনুযায়ী) বলে, আগুন জ্বলতে তিনটি উপাদান লাগে — তাপ, জ্বালানি এবং জারক পদার্থ (সাধারণত অক্সিজেন)। যেকোনো একটি সরিয়ে দিলেই আগুন নেভে; প্রতিটি নির্বাপক-পদ্ধতি এই তিনটির কোনো একটিকে আক্রমণ করে।\n\n**শ্রেণিবিভাগ (জ্বালানি অনুযায়ী):** শ্রেণি A — কাঠ, কাগজ, রাবার, প্লাস্টিকের মতো জৈব কঠিন পদার্থ; এখানে জলের শীতলীকরণ প্রভাব অপরিহার্য। শ্রেণি B — দাহ্য তরল বা তরলীভূত কঠিন; এখানে আবরণ (blanketing) প্রভাব দরকার। শ্রেণি C — চাপে থাকা দাহ্য গ্যাস, তরলীকৃত গ্যাসসহ। শ্রেণি D — ম্যাগনেশিয়াম, অ্যালুমিনিয়াম, দস্তা, সোডিয়াম, পটাশিয়ামের মতো দাহ্য ধাতু; এরা জলযুক্ত মাধ্যমের সঙ্গে বিক্রিয়া করে, তাই বিশেষ মাধ্যম ও কৌশল লাগে। শ্রেণি F — রান্নার যন্ত্রে উদ্ভিজ্জ বা প্রাণিজ তেল-চর্বির আগুন, অর্থাৎ রান্নাঘরের আগুন।\n\n**বৈদ্যুতিক আগুন:** ভারতীয় মানে বিদ্যুৎ-সক্রিয় যন্ত্রের আগুনকে আলাদা কোনো শ্রেণি দেওয়া হয়নি — জ্বলন্ত উপাদান অনুযায়ী তা A বা B শ্রেণিতেই পড়ে। বিদ্যুৎ-সক্রিয় যন্ত্রে শুধুমাত্র শুষ্ক পাউডার, কার্বন ডাই-অক্সাইড (ধাতব হর্ন ছাড়া) বা ক্লিন এজেন্ট নির্বাপক ব্যবহার করা যায়।\n\n**নির্বাপক-মিল:** জল-ভিত্তিক নির্বাপক শুধু শ্রেণি A-তে; ফোম A ও B-তে; CO₂ B ও C-তে উপযুক্ত। **রঙের ব্যান্ড:** নির্বাপকের গায়ের রঙ লাল, তার ওপর ছোট ব্যান্ডে মাধ্যমের পরিচয় — ফোম = হলুদ, পাউডার = নীল, CO₂ = কালো, ক্লিন এজেন্ট = সবুজ।",
+      "deep": "মার্কিন মানে রান্নার আগুন 'Class K', অস্ট্রেলীয়/ইউরোপীয় মানে 'Class F' — ভারতীয় মান IS 15683 অনুযায়ী উত্তর F। আবার মার্কিন মানে বৈদ্যুতিক আগুন 'Class C', কিন্তু ভারতে C মানে গ্যাসের আগুন। পরীক্ষায় ভারতীয় মানই ধরতে হবে — এই দুটি বিনিময়ই সবচেয়ে সাধারণ ফাঁদ।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "ভারতীয় মান বনাম বিদেশি মান",
+          "body": "ভারতে: C = গ্যাস, F = রান্নার তেল, বৈদ্যুতিক আগুনের আলাদা শ্রেণি নেই। বিদেশি (মার্কিন) তালিকার সঙ্গে মেলালে উত্তর উল্টে যাবে।",
+          "claims": [
+            "c36",
+            "c38",
+            "c39"
+          ]
+        }
+      ],
+      "claims": [
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ]
+    },
+    {
+      "id": "chemical_bhopal",
+      "heading": "ভোপাল ১৯৮৪: রাসায়নিক বিপর্যয়ের পাঠ",
+      "quick": "১৯৮৪ সালের ২–৩ ডিসেম্বরের রাতে ভোপালের ইউনিয়ন কার্বাইড কীটনাশক কারখানার ৬১০ নম্বর ট্যাঙ্ক থেকে প্রায় ৪০ টন মিথাইল আইসোসায়ানেট (MIC) গ্যাস বেরিয়ে যায় — ট্যাঙ্কে জল ঢোকাই ছিল সূত্রপাত। এটি বিশ্বের সবচেয়ে ভয়াবহ শিল্প দুর্ঘটনা বলে ICMR-এর প্রতিবেদনে বর্ণিত।",
+      "standard": "ICMR-এর ভোপাল গ্যাস ডিজাস্টার রিসার্চ সেন্টারের কারিগরি প্রতিবেদন অনুযায়ী, ১৯৮৪ সালের ২–৩ ডিসেম্বরের রাতে মধ্যপ্রদেশের ভোপালে মার্কিন বহুজাতিক ইউনিয়ন কার্বাইড কর্পোরেশনের কীটনাশক কারখানায় বিশ্বের সবচেয়ে ভয়াবহ শিল্প দুর্ঘটনা ঘটে। ৬১০ নম্বর ট্যাঙ্কে মজুত প্রায় ৪০ টন অত্যন্ত বিষাক্ত তরল মিথাইল আইসোসায়ানেট (MIC) হঠাৎ গ্যাসীয় রূপে বায়ুমণ্ডলে ছড়িয়ে পড়ে — আপাত কারণ ছিল ট্যাঙ্কে জল ঢুকে যাওয়া। প্রতিবেদন অনুযায়ী শহরের ৮ লক্ষের বেশি জনসংখ্যার মধ্যে প্রায় ৫ লক্ষ মানুষ ক্ষতিগ্রস্ত হন।\n\n**কেন এই ঘটনা পাঠ্যক্রমে:** ভোপালের পর ভারতের রাসায়নিক-নিরাপত্তা আইনকাঠামো বদলে যায়। কারখানা আইনের 'বিপজ্জনক প্রক্রিয়া' সংজ্ঞা (ধারা ২(cb)) — প্রথম তফসিলভুক্ত শিল্পে বিশেষ যত্ন না নিলে স্বাস্থহানি বা পরিবেশ-দূষণের ঝুঁকি — এই ধরনের ঘটনারই আইনি প্রতিফলন। পরিবেশ (সুরক্ষা) আইন, ১৯৮৬-ও এই পর্বের পরের আইন (পরের পরিচ্ছেদ)।\n\n**পরীক্ষার তথ্য-চতুষ্টয়:** স্থান — ভোপাল, মধ্যপ্রদেশ; তারিখ — ২–৩ ডিসেম্বর ১৯৮৪; গ্যাস — MIC (মিথাইল আইসোসায়ানেট); কোম্পানি — ইউনিয়ন কার্বাইড। এই চারটির যেকোনো একটি বদলে দিয়ে বিবৃতি-ভিত্তিক প্রশ্ন তৈরি হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "MIC-এর পূর্ণরূপ",
+          "body": "MIC = Methyl Isocyanate (মিথাইল আইসোসায়ানেট)। ফসজিন বা অ্যামোনিয়া দিয়ে গুলিয়ে ফেলো না — ভোপালের গ্যাস ছিল MIC।",
+          "claims": [
+            "c49"
+          ]
+        }
+      ],
+      "claims": [
+        "c49",
+        "c06"
+      ]
+    },
+    {
+      "id": "pollution_laws",
+      "heading": "দূষণ-আইনত্রয়ী, CPCB ও সম্মতি-ব্যবস্থা",
+      "quick": "জল আইন ১৯৭৪ (যা CPCB-র জন্ম দেয়), বায়ু আইন ১৯৮১, পরিবেশ (সুরক্ষা) আইন ১৯৮৬ — এই ত্রয়ীই দূষণ-নিয়ন্ত্রণের কাঠামো। শিল্পের শ্রেণি দূষণ-সূচক অনুযায়ী: লাল ৬০+, কমলা ৪১–৫৯, সবুজ ২১–৪০, সাদা ২০ পর্যন্ত।",
+      "standard": "**জল আইন, ১৯৭৪:** জলদূষণ প্রতিরোধ ও নিয়ন্ত্রণ এবং জলের স্বাস্থ্যকর অবস্থা বজায় রাখা বা পুনরুদ্ধারের জন্য প্রণীত। এই আইনের ধারা ৩-এর অধীনেই কেন্দ্রীয় দূষণ নিয়ন্ত্রণ বোর্ড (CPCB) একটি বিধিবদ্ধ বোর্ড হিসেবে গঠিত। CPCB জল আইন ১৯৭৪, বায়ু আইন ১৯৮১ এবং পরিবেশ (সুরক্ষা) আইন ১৯৮৬ — তিনটির অধীনেই কাজ করে।\n\n**বায়ু আইন, ১৯৮১:** বায়ুদূষণ প্রতিরোধ, নিয়ন্ত্রণ ও হ্রাসের জন্য প্রণীত; ১৯৮৭ সালে সংশোধিত হয়।\n\n**পরিবেশ (সুরক্ষা) আইন, ১৯৮৬:** আইন নং ২৯, ১৯৮৬ — পরিবেশের সুরক্ষা ও উন্নতির জন্য প্রণীত। এর প্রস্তাবনায় বলা হয়েছে, এটি ১৯৭২ সালের জুনে স্টকহোমে অনুষ্ঠিত জাতিসংঘের মানব-পরিবেশ সম্মেলনের সিদ্ধান্ত বাস্তবায়নের জন্য। ধারা ২(a) অনুযায়ী 'পরিবেশ' মানে জল, বায়ু ও ভূমি এবং তাদের পারস্পরিক সম্পর্ক, মানুষ, অন্যান্য জীব, উদ্ভিদ, অণুজীব ও সম্পত্তিসহ। ধারা ৩ কেন্দ্রীয় সরকারকে পরিবেশের মান রক্ষা ও দূষণ নিয়ন্ত্রণে প্রয়োজনীয় সব ব্যবস্থা নেওয়ার ক্ষমতা দেয়; ধারা ৫-এর নির্দেশের মধ্যে কোনো শিল্প, কার্যক্রম বা প্রক্রিয়া বন্ধ, নিষিদ্ধ বা নিয়ন্ত্রণ করাও পড়ে। এই ব্যাপক ক্ষমতার জন্যই একে 'ছাতা-আইন' (umbrella legislation) বলা হয়।\n\n**সম্মতি ও শ্রেণিবিভাগ:** CPCB-র ২০১৬ সালের নির্দেশ অনুযায়ী শিল্প-খাতগুলিকে দূষণ-সূচক (Pollution Index) অনুযায়ী চার শ্রেণিতে ভাগ করা হয় — লাল (৬০ ও তার বেশি), কমলা (৪১–৫৯), সবুজ (২১–৪০) ও সাদা (২০ পর্যন্ত)। লাল, কমলা ও সবুজ — তিন শ্রেণিকেই সংশ্লিষ্ট রাজ্য বোর্ড (SPCB/PCC) থেকে স্থাপনের সম্মতি (CTE) ও চালুর সম্মতি (CTO) নিতে হয়।",
+      "deep": "সালের ক্রম মনে রাখো: জল ১৯৭৪ → বায়ু ১৯৮১ → পরিবেশ ১৯৮৬। প্রতিটি পরের আইন আগের ফাঁক ভরেছে: জল আইন বোর্ড-কাঠামো দেয়, বায়ু আইন বায়ুমাধ্যম যোগ করে, পরিবেশ আইন জল-বায়ু-ভূমি একসঙ্গে কেন্দ্রীয় ক্ষমতার আওতায় আনে। কালানুক্রম (CHRONOLOGY) প্রশ্নে এই তিনটি সালই সবচেয়ে বেশি ব্যবহৃত হয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "CPCB কোন আইনে তৈরি?",
+          "body": "CPCB তৈরি হয় জল আইন, ১৯৭৪-এর ধারা ৩-এ — পরিবেশ আইন, ১৯৮৬-তে নয়। এই প্রশ্নটি প্রায়ই উল্টো করে দেওয়া হয়।",
+          "claims": [
+            "c50"
+          ]
+        }
+      ],
+      "claims": [
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c50",
+        "c51",
+        "c52",
+        "c53"
+      ]
+    },
+    {
+      "id": "osh_code",
+      "heading": "OSH কোড, ২০২০: তেরো আইন, এক কোড",
+      "quick": "পেশাগত নিরাপত্তা, স্বাস্থ্য ও কর্মপরিবেশ কোড, ২০২০ (OSH Code) ১৩টি কেন্দ্রীয় শ্রম-আইনকে একক আইনে বদলে দিয়েছে — ধারা ৬২০ থেকে কমে ১৪৩। কারখানার নতুন সীমা: শক্তিসহ ২০, শক্তি ছাড়া ৪০।",
+      "standard": "PIB-র তথ্যপত্র অনুযায়ী, পেশাগত নিরাপত্তা, স্বাস্থ্য ও কর্মপরিবেশ কোড, ২০২০ (Occupational Safety, Health and Working Conditions Code, 2020) বিদ্যমান জটিল শ্রম-আইনের জাল সরল করতে প্রণীত — এটি ১৩টি কেন্দ্রীয় শ্রম-আইনকে একটি ব্যাপক আইনে প্রতিস্থাপন করে, যার মধ্যে কারখানা আইন, ১৯৪৮ অন্যতম। পুরনো ১৩ আইনের মোট ৬২০টি ধারার বদলে কোডে ধারা মাত্র ১৪৩টি।\n\n**কী কী বদলাল:** (১) কর্মঘণ্টা — কোনো কর্মীকে দিনে ৮ ঘণ্টা ও সপ্তাহে ৪৮ ঘণ্টার বেশি কাজ করানো যাবে না (কারখানা আইনের ৯ ঘণ্টার দৈনিক সীমার সঙ্গে পার্থক্য লক্ষ্য করো)। (২) কারখানার লাইসেন্স-সীমা শক্তিসহ ১০ থেকে বেড়ে ২০, শক্তি ছাড়া ২০ থেকে বেড়ে ৪০। (৩) ছুটির যোগ্যতা — বেতনসহ বার্ষিক ছুটির জন্য প্রয়োজনীয় কর্মদিবস ২৪০ থেকে কমে ১৮০। (৪) প্রতিটি কর্মীর জন্য বিনামূল্যে বার্ষিক স্বাস্থ্য-পরীক্ষা। (৫) ৫০০+ শ্রমিকের কারখানায় নিরাপত্তা কমিটি (Safety Committee)। (৬) ছয়টি পৃথক বোর্ডের বদলে একক জাতীয় পেশাগত নিরাপত্তা ও স্বাস্থ্য উপদেষ্টা বোর্ড — ত্রিপাক্ষিক (শ্রমিক সংগঠন, মালিক সংগঠন ও রাজ্য সরকারের প্রতিনিধিসহ)।\n\n**পরীক্ষার দৃষ্টিভঙ্গি:** প্রশ্নে 'কারখানা আইন অনুযায়ী' বললে উত্তর পুরনো সংখ্যা (১০/২০, ৯ ঘণ্টা); 'OSH কোড অনুযায়ী' বললে নতুন সংখ্যা (২০/৪০, ৮ ঘণ্টা)। কোন আইনের কথা বলা হচ্ছে, তা পড়ে নেওয়াই এই অধ্যায়ের সবচেয়ে বড় কৌশল।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "দুই যুগের সংখ্যা",
+          "body": "কারখানা আইন, ১৯৪৮: কারখানা ১০/২০, দিনে ৯ ঘণ্টা, ছুটির যোগ্যতা ২৪০ দিন। OSH কোড, ২০২০: কারখানা ২০/৪০, দিনে ৮ ঘণ্টা, ছুটির যোগ্যতা ১৮০ দিন। সপ্তাহে ৪৮ ঘণ্টা দুই যুগেই এক।",
+          "claims": [
+            "c03",
+            "c08",
+            "c20",
+            "c21",
+            "c24"
+          ]
+        }
+      ],
+      "claims": [
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "ভোপাল গ্যাস দুর্ঘটনা",
+      "when": "২–৩ ডিসেম্বর ১৯৮৪",
+      "what": "ইউনিয়ন কার্বাইডের কীটনাশক কারখানার ৬১০ নম্বর ট্যাঙ্ক থেকে প্রায় ৪০ টন MIC গ্যাস ছড়িয়ে পড়ে।",
+      "why_it_matters": "ভারতের রাসায়নিক-নিরাপত্তা ও পরিবেশ-আইনকাঠামোর মোড় ঘোরানো ঘটনা; পরিবেশ (সুরক্ষা) আইন, ১৯৮৬ এই পর্বের পরেই আসে।",
+      "section": "chemical_bhopal",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "title": "পরিবেশ (সুরক্ষা) আইন প্রণয়ন",
+      "when": "১৯৮৬",
+      "what": "আইন নং ২৯, ১৯৮৬ — পরিবেশের সুরক্ষা ও উন্নতির জন্য, স্টকহোম সম্মেলনের সিদ্ধান্ত বাস্তবায়নে প্রণীত।",
+      "why_it_matters": "জল-বায়ু-ভূমি একসঙ্গে কেন্দ্রীয় ক্ষমতার আওতায় আসে; এটিই 'ছাতা-আইন'।",
+      "section": "pollution_laws",
+      "claims": [
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "title": "CPCB-র শিল্প-শ্রেণিবিভাগ নির্দেশ",
+      "when": "২০১৬",
+      "what": "দূষণ-সূচক অনুযায়ী শিল্প-খাতের লাল/কমলা/সবুজ/সাদা শ্রেণিবিভাগের সামঞ্জস্যপূর্ণ নির্দেশ (০৭.০৩.২০১৬) সব SPCB/PCC-কে পাঠানো হয়।",
+      "why_it_matters": "সম্মতি-ব্যবস্থা (CTE/CTO) কোন খাতে কতটা কঠোর হবে, তা এই শ্রেণিই ঠিক করে।",
+      "section": "pollution_laws",
+      "claims": [
+        "c51",
+        "c52"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "অকুপায়ার (Occupier)",
+      "when": "কারখানা আইন, ১৯৪৮",
+      "role": "কারখানার বিষয়ে চূড়ান্ত নিয়ন্ত্রণকারী ব্যক্তি",
+      "contribution": "আইনের প্রায় সব বাধ্যবাধকতা — ক্যান্টিন, কল্যাণ আধিকারিক, নিরাপত্তা-বিধান — পালনের দায়িত্ব তাঁর ওপর বর্তায়।",
+      "section": "factory_act_recap",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "name": "কল্যাণ আধিকারিক (Welfare Officer)",
+      "when": "কারখানা আইন, ধারা ৪৯",
+      "role": "৫০০ বা ততোধিক শ্রমিকের কারখানায় নিয়োগযোগ্য আধিকারিক",
+      "contribution": "শ্রমিক-কল্যাণের বিধানগুলি কার্যকর হচ্ছে কিনা তা দেখা তাঁর কাজের কেন্দ্রে।",
+      "section": "hours_welfare",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "name": "মুখ্য পরিদর্শক (Chief Inspector)",
+      "when": "কারখানা আইন, ১৯৪৮",
+      "role": "কারখানা-পরিদর্শন ব্যবস্থার প্রধান",
+      "contribution": "দুর্ঘটনা (ধারা ৮৮) ও তালিকাভুক্ত রোগের (ধারা ৮৯) বিজ্ঞপ্তি তাঁর কাছেই পাঠাতে হয়।",
+      "section": "hours_welfare",
+      "claims": [
+        "c16"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1948,
+      "when": "১৯৪৮",
+      "label": "কারখানা আইন, ১৯৪৮ প্রণীত",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1949,
+      "when": "১৯৪৯",
+      "label": "কারখানা আইন কার্যকর (১ এপ্রিল)",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "sort_year": 1974,
+      "when": "১৯৭৪",
+      "label": "জল (প্রতিরোধ ও নিয়ন্ত্রণ) আইন; CPCB গঠনের ভিত্তি",
+      "claims": [
+        "c26",
+        "c50"
+      ]
+    },
+    {
+      "sort_year": 1981,
+      "when": "১৯৮১",
+      "label": "বায়ু (প্রতিরোধ ও নিয়ন্ত্রণ) আইন",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "sort_year": 1984,
+      "when": "১৯৮৪",
+      "label": "ভোপাল গ্যাস দুর্ঘটনা (২–৩ ডিসেম্বর)",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "sort_year": 1986,
+      "when": "১৯৮৬",
+      "label": "পরিবেশ (সুরক্ষা) আইন — 'ছাতা-আইন'",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "sort_year": 2016,
+      "when": "২০১৬",
+      "label": "CPCB-র লাল/কমলা/সবুজ/সাদা শ্রেণিবিভাগ নির্দেশ",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "sort_year": 2020,
+      "when": "২০২০",
+      "label": "OSH কোড — ১৩টি আইন এক কোডে",
+      "claims": [
+        "c18"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "অকুপায়ার (Occupier)",
+      "meaning": "কারখানার বিষয়ে চূড়ান্ত নিয়ন্ত্রণকারী ব্যক্তি (ধারা ২(n))",
+      "section": "factory_act_recap"
+    },
+    {
+      "term": "বিপজ্জনক প্রক্রিয়া (Hazardous process)",
+      "meaning": "প্রথম তফসিলভুক্ত শিল্পের প্রক্রিয়া যেখানে বিশেষ যত্ন না নিলে স্বাস্থহানি বা পরিবেশ-দূষণ ঘটতে পারে (ধারা ২(cb))",
+      "section": "factory_act_recap"
+    },
+    {
+      "term": "অগ্নি-ত্রিভুজ (Fire triangle)",
+      "meaning": "তাপ, জ্বালানি ও অক্সিজেন — আগুনের তিন উপাদান; একটি সরালেই আগুন নেভে",
+      "section": "fire_electrical"
+    },
+    {
+      "term": "MIC",
+      "meaning": "মিথাইল আইসোসায়ানেট — ভোপালে (১৯৮৪) বেরিয়ে যাওয়া বিষাক্ত গ্যাস",
+      "section": "chemical_bhopal"
+    },
+    {
+      "term": "দূষণ-সূচক (Pollution Index)",
+      "meaning": "শিল্প-খাতের দূষণ-সম্ভাবনার স্কোর; ৬০+ লাল, ৪১–৫৯ কমলা, ২১–৪০ সবুজ, ২০ পর্যন্ত সাদা",
+      "section": "pollution_laws"
+    },
+    {
+      "term": "CTE / CTO",
+      "meaning": "স্থাপনের সম্মতি (Consent to Establish) ও চালুর সম্মতি (Consent to Operate) — রাজ্য বোর্ড থেকে নিতে হয়",
+      "section": "pollution_laws"
+    },
+    {
+      "term": "OSH কোড",
+      "meaning": "পেশাগত নিরাপত্তা, স্বাস্থ্য ও কর্মপরিবেশ কোড, ২০২০ — ১৩টি শ্রম-আইনের একীকরণ",
+      "section": "osh_code"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "ভোপাল থেকে পরিবেশ আইন",
+      "causes": [
+        "১৯৮৪ সালে ভোপালে MIC গ্যাস ছড়িয়ে বিশ্বের সবচেয়ে ভয়াবহ শিল্প দুর্ঘটনা",
+        "জল (১৯৭৪) ও বায়ু (১৯৮১) আইন মাধ্যম-ভিত্তিক হওয়ায় সামগ্রিক পরিবেশ-ক্ষমতার ফাঁক ছিল"
+      ],
+      "event": "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬ প্রণয়ন",
+      "results": [
+        "কেন্দ্রীয় সরকার জল-বায়ু-ভূমি জুড়ে ব্যবস্থা নেওয়ার ক্ষমতা পায় (ধারা ৩)",
+        "ধারা ৫-এ শিল্প বন্ধ/নিয়ন্ত্রণের নির্দেশ দেওয়ার ক্ষমতা আসে"
+      ],
+      "section": "pollution_laws",
+      "claims": [
+        "c49",
+        "c28",
+        "c30",
+        "c31"
+      ]
+    },
+    {
+      "title": "তেরো আইন থেকে এক কোড",
+      "causes": [
+        "নিরাপত্তা-স্বাস্থ্য-কর্মপরিবেশ নিয়ে ১৩টি পৃথক কেন্দ্রীয় আইন ও মোট ৬২০টি ধারা ছিল"
+      ],
+      "event": "OSH কোড, ২০২০-তে একীকরণ",
+      "results": [
+        "ধারা কমে ১৪৩টি হয়",
+        "কারখানার সীমা ১০/২০ থেকে বেড়ে ২০/৪০ হয়",
+        "ছয়টি বোর্ডের বদলে একক জাতীয় উপদেষ্টা বোর্ড গঠিত হয়"
+      ],
+      "section": "osh_code",
+      "claims": [
+        "c18",
+        "c19",
+        "c21",
+        "c22"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "১০/২০ (কারখানা আইন) বনাম ২০/৪০ (OSH কোড) — প্রশ্নে কোন আইন বলা হয়েছে তা আগে দেখো",
+      "section": "osh_code"
+    },
+    {
+      "point": "কল্যাণের সিঁড়ি: ক্যান্টিন ২৫০+, অ্যাম্বুলেন্স রুম ৫০০+, কল্যাণ আধিকারিক ৫০০+",
+      "section": "hours_welfare"
+    },
+    {
+      "point": "নির্বাপকের ব্যান্ড: ফোম হলুদ, পাউডার নীল, CO₂ কালো, ক্লিন এজেন্ট সবুজ",
+      "section": "fire_electrical"
+    },
+    {
+      "point": "ভোপাল-চতুষ্টয়: ভোপাল, ২–৩ ডিসেম্বর ১৯৮৪, MIC, ইউনিয়ন কার্বাইড",
+      "section": "chemical_bhopal"
+    },
+    {
+      "point": "সালের ক্রম: জল ১৯৭৪ → বায়ু ১৯৮১ → পরিবেশ ১৯৮৬; CPCB জল আইনে গঠিত",
+      "section": "pollution_laws"
+    },
+    {
+      "point": "ভারতীয় মানে C = গ্যাস, F = রান্নার তেল; বৈদ্যুতিক আগুনের আলাদা শ্রেণি নেই",
+      "section": "fire_electrical"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের কারখানাগুলির ক্ষেত্রেও একই কেন্দ্রীয় কাঠামো চলে: কারখানা আইনের বিধান রাজ্য-স্তরে প্রয়োগ হয়, আর দূষণ-সম্মতি (CTE/CTO) দিতে হয় রাজ্য দূষণ নিয়ন্ত্রণ বোর্ড (SPCB) থেকে — লাল, কমলা ও সবুজ শ্রেণির প্রতিটি শিল্পের জন্য এই সম্মতি বাধ্যতামূলক। অর্থাৎ এই অধ্যায়ের প্রতিটি সংখ্যা ও শ্রেণি বাংলার শিল্প-এলাকার পরীক্ষার্থীর নিজের রাজ্যের ক্ষেত্রেও হুবহু প্রযোজ্য।",
+    "claims": [
+      "c52"
+    ]
+  },
+  "quick_revision": [
+    "কারখানা আইন, ১৯৪৮ কার্যকর: ১ এপ্রিল ১৯৪৯",
+    "কারখানা (২(m)): শক্তিসহ ১০+, শক্তি ছাড়া ২০+; খনি, রানিং শেড, হোটেল বাদ",
+    "প্রাপ্তবয়স্ক = ১৮ বছর পূর্ণ; অকুপায়ার = চূড়ান্ত নিয়ন্ত্রণকারী",
+    "কর্মঘণ্টা: সপ্তাহে ৪৮, দিনে ৯; ৫ ঘণ্টা পর ≥ আধঘণ্টা বিশ্রাম",
+    "ক্যান্টিন ২৫০+ (৪৬); অ্যাম্বুলেন্স রুম ৫০০+ (৪৫); কল্যাণ আধিকারিক ৫০০+ (৪৯)",
+    "অগ্নি-ত্রিভুজ: তাপ + জ্বালানি + অক্সিজেন",
+    "শ্রেণি: A কঠিন, B তরল, C গ্যাস, D ধাতু, F রান্নার তেল; বৈদ্যুতিক আগুনের আলাদা শ্রেণি নেই",
+    "ব্যান্ড: ফোম হলুদ, পাউডার নীল, CO₂ কালো, ক্লিন এজেন্ট সবুজ; গা লাল",
+    "ভোপাল: ২–৩ ডিসেম্বর ১৯৮৪, MIC, ইউনিয়ন কার্বাইড, ট্যাঙ্ক ৬১০, ~৪০ টন",
+    "জল ১৯৭৪ → বায়ু ১৯৮১ → পরিবেশ ১৯৮৬ (আইন নং ২৯); CPCB জল আইনের ধারা ৩-এ গঠিত",
+    "দূষণ-সূচক: লাল ৬০+, কমলা ৪১–৫৯, সবুজ ২১–৪০, সাদা ≤২০",
+    "OSH কোড ২০২০: ১৩ আইন → ১ কোড; ৬২০ → ১৪৩ ধারা; কারখানা ২০/৪০; দিনে ৮ ঘণ্টা; ছুটির যোগ্যতা ১৮০ দিন"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "The Factories Act, 1948 — Chapter I (Preliminary), Labour Department, Government of NCT of Delhi",
+      "url": "https://labour.delhi.gov.in/it/chapter-1",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Form No. 20 — Abstract of the Factories Act, 1948 and the Delhi Factories Rules, 1950, Labour Department, Government of NCT of Delhi",
+      "url": "https://labour.delhi.gov.in/it/form-no20",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "PIB Factsheet: Occupational Safety, Health and Working Conditions Code, 2020 (Posted 22 Nov 2025), Press Information Bureau",
+      "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Water Pollution — Acts and Rules, Central Pollution Control Board (CPCB)",
+      "url": "https://cpcb.nic.in/water-pollution/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Air Pollution — Acts and Rules, Central Pollution Control Board (CPCB)",
+      "url": "https://cpcb.nic.in/air-pollution/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "The Environment (Protection) Act, 1986 (Act No. 29 of 1986) — India Code, Government of India",
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/2eeec562-717d-4070-b70e-a91a4269c9ca/content",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "Pamphlet on Classification of Fires and Types of Fire Extinguishers (IS 15683:2018 & IS 2190:2010), CAMTECH, Indian Railways",
+      "url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "Health Effects of the Toxic Gas Leak from the Union Carbide Methyl Isocyanate Plant in Bhopal — Technical Report (Epidemiological Studies 1985–1994), ICMR, Bhopal Gas Disaster Research Centre",
+      "url": "https://www.icmr.gov.in/icmrobject/custom_data/1720338063_bgdrc-technical_report.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "Reply on behalf of CPCB in OA No. 197/2024 (WZ), National Green Tribunal — annexing CPCB Directions (07.03.2016) on harmonisation of classification of industrial sectors under Red/Orange/Green/White categories",
+      "url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Reply%20by%20R-3%20in%20OA%20No.197-2024%20(Ealier%20OA%20No.1161-2024)%20(page%20nos.11-115).pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "The short title of the Act is the Factories Act, 1948",
+      "source": "s1",
+      "page": "Chapter I, s.1",
+      "quote": "This Act may be called the Factories Act, 1948."
+    },
+    {
+      "id": "c02",
+      "claim": "The Factories Act came into force on 1 April 1949",
+      "source": "s1",
+      "page": "Chapter I, s.1",
+      "quote": "It shall come into force on the 1st day of April 1949."
+    },
+    {
+      "id": "c03",
+      "claim": "Section 2(m): a factory is premises where 10+ workers work with power, or 20+ without power, with a manufacturing process",
+      "source": "s1",
+      "page": "Chapter I, s.2(m)",
+      "quote": "Whereon ten or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on with the aid of power, or is ordinarily so carried on, or (ii) Whereon twenty or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on without the aid of power"
+    },
+    {
+      "id": "c04",
+      "claim": "A mine, armed-forces mobile unit, railway running shed and hotel/restaurant are excluded from the factory definition",
+      "source": "s1",
+      "page": "Chapter I, s.2(m)",
+      "quote": "But does not include a mine subject to the operation of the Mines Act, 1952 (35 of 1952), or a mobile unit belonging to the armed forces of the Union, railway running shed or a hotel, restaurant or eating place"
+    },
+    {
+      "id": "c05",
+      "claim": "An 'adult' is a person who has completed 18 years of age",
+      "source": "s1",
+      "page": "Chapter I, s.2(a)",
+      "quote": "\"Adult\" means a person who has completed his eighteenth year of age"
+    },
+    {
+      "id": "c06",
+      "claim": "A 'hazardous process' is a First Schedule industry process whose materials/products/wastes would impair health or pollute the environment unless special care is taken",
+      "source": "s1",
+      "page": "Chapter I, s.2(cb)",
+      "quote": "\"Hazardous process\" means any process or activity in relation to an industry specified in the First Schedule where, unless special care is taken, raw materials used therein or the intermediate or finished products, bye-products, wastes or effluents thereof would (i) Cause material impairment to the health of the persons engaged in or connected therewith, or (ii) Result in the pollution or the general environment"
+    },
+    {
+      "id": "c07",
+      "claim": "The 'occupier' is the person who has ultimate control over the affairs of the factory",
+      "source": "s1",
+      "page": "Chapter I, s.2(n)",
+      "quote": "\"Occupier\" of a factory means the person who has ultimate control over the affairs of the factory"
+    },
+    {
+      "id": "c08",
+      "claim": "Sections 51 and 54: no adult worker may work more than 48 hours in a week or 9 hours in a day",
+      "source": "s2",
+      "page": "Abstract, Working hours §1",
+      "quote": "No Adult worker shall be required, or allowed to work in a factory for more than 48 hours in any week and for more than 9 hours in any day"
+    },
+    {
+      "id": "c09",
+      "claim": "Section 52 gives a weekly holiday on the first day of the week, with substitution rules",
+      "source": "s2",
+      "page": "Abstract, Working hours §5",
+      "quote": "No adult worker shall be required or allowed to work in a factory on the first day of the week unless he has, or will have, a holiday for a whole day on one of the three days immediately before or after the said day"
+    },
+    {
+      "id": "c10",
+      "claim": "Sections 55-56: no work period over 5 hours without a rest interval of at least half an hour",
+      "source": "s2",
+      "page": "Abstract, Working hours §6",
+      "quote": "The periods of work of adult workers in a factory each day shall be so fixed that no period shall exceed 5 hours before he has had an interval for rest of at least half hour"
+    },
+    {
+      "id": "c11",
+      "claim": "Section 35: effective screens or suitable goggles must protect workers in processes risking eye injury",
+      "source": "s2",
+      "page": "Abstract, Safety §26",
+      "quote": "Effective screens or suitable goggles shall be provided for the protection of persons employed in or in the vicinity of processes which involve risk or injury to the eyes from particles or fragments thrown off in the course of the process or which involve risk of injury to the eyes by reason of exposure to excessive light."
+    },
+    {
+      "id": "c12",
+      "claim": "Section 38: every factory must have adequate means of escape in case of fire, with exit doors opening outwards",
+      "source": "s2",
+      "page": "Abstract, Safety §27",
+      "quote": "Every factory shall be provided with adequate means of escape in case of fire for the persons employed therein. The doors affording exit from any room shall, unless they are of the sliding type be constructed to open outwards."
+    },
+    {
+      "id": "c13",
+      "claim": "Section 46: a canteen is required in factories where more than 250 workers are ordinarily employed",
+      "source": "s2",
+      "page": "Abstract, Welfare §32",
+      "quote": "In specified factories wherein more than 250 workers are ordinarily employed a canteen or canteens shall be provided and maintained by the occupier for the use of this workers."
+    },
+    {
+      "id": "c14",
+      "claim": "Section 49: a Welfare Officer is required where 500 or more workers are ordinarily employed",
+      "source": "s2",
+      "page": "Abstract, Welfare §35",
+      "quote": "In every factory wherein 500 or more workers are ordinarily employed the occupier shall employ in the factory such number of welfare Officers as may be prescribed."
+    },
+    {
+      "id": "c15",
+      "claim": "Section 45: an ambulance room is required in factories where more than 500 workers are employed",
+      "source": "s2",
+      "page": "Abstract, Welfare §31",
+      "quote": "In every factory wherein more than 500 workers are employed there shall be provided and maintained and ambulance room of the prescribed size and containing the prescribed equipment."
+    },
+    {
+      "id": "c16",
+      "claim": "Section 89: notice must be given where a worker contracts a listed disease, including silicosis",
+      "source": "s2",
+      "page": "Abstract, §38",
+      "quote": "Where any worker in a factory contracts any of the following diseases the Manager of the factory shall send notice thereof forthwith both to the Chief Inspector and the Certifying Surgeon: Lead, phosphorus, mercury, manganese, arsenic, carbon disulphide or benzene poisoning by nitrous fumes, or by halogens or halogen derivatives of the hydrocarbon of the aliphatic series; or of chrome ulceration, anthrax, silicosis, toxic anemia toxic jaundice"
+    },
+    {
+      "id": "c17",
+      "claim": "Section 21: dangerous parts of machinery must be securely fenced",
+      "source": "s2",
+      "page": "Abstract, Safety §20",
+      "quote": "In every factory dangerous parts of machines e.g., every moving part of a prime mover and every fly-wheel connected to a prime mover etc., shall be securely fenced by safeguards of substantial construction which shall be kept in position while the parts of machinery they are fencing are in motion or in use."
+    },
+    {
+      "id": "c18",
+      "claim": "The OSH Code, 2020 replaces 13 Central Labour laws by a single comprehensive legislation",
+      "source": "s3",
+      "page": "Introduction",
+      "quote": "It replaces 13 Central Labour laws by a single comprehensive legislation"
+    },
+    {
+      "id": "c19",
+      "claim": "Under the old 13 laws there were 620 sections; the OSH Code has 143 sections",
+      "source": "s3",
+      "page": "Comparison table",
+      "quote": "Sections | 620 | 143"
+    },
+    {
+      "id": "c20",
+      "claim": "OSH Code: no employee shall work more than 8 hours in a day and 48 hours in a week",
+      "source": "s3",
+      "page": "Working Hours & Overtime",
+      "quote": "No employee shall be required to work for more than 8 hours in a day and 48 hours in a week."
+    },
+    {
+      "id": "c21",
+      "claim": "OSH Code raised the factory licensing threshold from 10 to 20 with power and from 20 to 40 without power",
+      "source": "s3",
+      "page": "Revised Factory Thresholds",
+      "quote": "The threshold to obtain license for factory has been increased from 10 to 20 with power and 20 to 40 without power"
+    },
+    {
+      "id": "c22",
+      "claim": "OSH Code: a single National Occupational Safety and Health Advisory Board replaces 6 boards",
+      "source": "s3",
+      "page": "National Standards and National Board",
+      "quote": "In place of 6 boards under different acts, now there is a single National Occupational Safety and Health Advisory Board which is of tripartite nature"
+    },
+    {
+      "id": "c23",
+      "claim": "OSH Code: every employee is eligible for free annual health check-ups",
+      "source": "s3",
+      "page": "Health and Medical Coverage",
+      "quote": "Every employee will be eligible for free annual health check-ups."
+    },
+    {
+      "id": "c24",
+      "claim": "OSH Code: paid leave eligibility reduced from 240 to 180 days of work in a calendar year",
+      "source": "s3",
+      "page": "Annual Leave with wages",
+      "quote": "The workers employed in an establishment are entitled for paid leave in a calendar year on working of 180 days or more in such calendar year, earlier workers had to work for 240 days for becoming eligible for paid leave."
+    },
+    {
+      "id": "c25",
+      "claim": "OSH Code: safety committees are required in factories employing 500 or more workers",
+      "source": "s3",
+      "page": "Safety Committees",
+      "quote": "Every factory employing 500 or more workers, employer employing 250 or more BOCW and employer employing 100 or more mine workers will constitute safety committee"
+    },
+    {
+      "id": "c26",
+      "claim": "The Water (Prevention and Control of Pollution) Act was enacted in 1974 to prevent and control water pollution and maintain or restore the wholesomeness of water",
+      "source": "s4",
+      "page": "Introductory text",
+      "quote": "The Water (Prevention and Control of Pollution) Act was enacted in 1974 to provide for the prevention and control of water pollution, and for the maintaining or restoring of wholesomeness of water in the country."
+    },
+    {
+      "id": "c27",
+      "claim": "The Air (Prevention and Control of Pollution) Act was enacted in 1981 and amended in 1987",
+      "source": "s5",
+      "page": "Introductory text",
+      "quote": "The Air (Prevention and Control of Pollution) Act was enacted in 1981 and amended in 1987 to provide for the prevention, control and abatement of air pollution in India."
+    },
+    {
+      "id": "c28",
+      "claim": "The Environment (Protection) Act, 1986 is Act No. 29 of 1986, to provide for the protection and improvement of environment",
+      "source": "s6",
+      "page": "Preamble",
+      "quote": "ACT NO. 29 OF 1986 [23rd May, 1986.] An Act to provide for the protection and improvement of environment and for matters connected therewith."
+    },
+    {
+      "id": "c29",
+      "claim": "The EP Act implements the decisions of the UN Conference on the Human Environment held at Stockholm in June 1972",
+      "source": "s6",
+      "page": "Preamble",
+      "quote": "WHEREAS decisions were taken at the United Nations Conference on the Human Environment held at Stockholm in June, 1972, in which India participated, to take appropriate steps for the protection and improvement of human environment"
+    },
+    {
+      "id": "c30",
+      "claim": "EP Act s.3: the Central Government may take all measures it deems necessary for protecting and improving the quality of the environment and preventing, controlling and abating environmental pollution",
+      "source": "s6",
+      "page": "Section 3(1)",
+      "quote": "the Central Government shall have the power to take all such measures as it deems necessary or expedient for the purpose of protecting and improving the quality of the environment and preventing, controlling and abating environmental pollution."
+    },
+    {
+      "id": "c31",
+      "claim": "EP Act s.5 directions include closure, prohibition or regulation of any industry, operation or process",
+      "source": "s6",
+      "page": "Section 5, Explanation",
+      "quote": "the power to issue directions under this section includes the power to direct— (a) the closure, prohibition or regulation of any industry, operation or process"
+    },
+    {
+      "id": "c32",
+      "claim": "EP Act s.2(a): 'environment' includes water, air and land and the inter-relationship among and between them and human beings, other living creatures, plants, micro-organism and property",
+      "source": "s6",
+      "page": "Section 2(a)",
+      "quote": "\"environment\" includes water, air and land and the inter-relationship which exists among and between water, air and land, and human beings, other living creatures, plants, micro-organism and property"
+    },
+    {
+      "id": "c33",
+      "claim": "Fire requires three elements: heat, fuel and an oxidizing agent (usually oxygen); removing any one extinguishes it",
+      "source": "s7",
+      "page": "Characteristics of Fire (Fire Triangle)",
+      "quote": "The fire requires three elements to ignite: heat, fuel, and an oxidizing agent (usually oxygen). By eliminating any one of the element, fire can be extinguished."
+    },
+    {
+      "id": "c34",
+      "claim": "Class A fires involve solid combustible materials of organic nature such as wood, paper, rubber, plastics, where the cooling effect of water is essential",
+      "source": "s7",
+      "page": "Classification of Fire, Class A",
+      "quote": "Fires involving solid combustible materials of organic nature such as wood, paper, rubber, plastics, etc. where the cooling effect of water is essential to extinguish the fire."
+    },
+    {
+      "id": "c35",
+      "claim": "Class B fires involve flammable liquids or liquefiable solids, where a blanketing effect is essential",
+      "source": "s7",
+      "page": "Classification of Fire, Class B",
+      "quote": "Fires involving flammable liquids or liquefiable solids or the like where a blanketing effect is essential to extinguish the fire."
+    },
+    {
+      "id": "c36",
+      "claim": "Class C fires involve flammable gases under pressure, including liquefied gases",
+      "source": "s7",
+      "page": "Classification of Fire, Class C",
+      "quote": "Fires involving flammable gases under pressure including liquefied gases, where it is necessary to inhibit the burning gas at fast rate with an inert gas, powder or vaporizing liquid for extinguishment."
+    },
+    {
+      "id": "c37",
+      "claim": "Class D fires involve combustible metals such as magnesium, aluminium, zinc, sodium, potassium, and need special media and techniques",
+      "source": "s7",
+      "page": "Classification of Fire, Class D",
+      "quote": "Fires involving combustible metals such as magnesium, aluminium, zinc, sodium, potassium etc., when the burning metals are reactive to water containing agents and in certain cases carbon dioxide, halogenated hydrocarbons and ordinary dry powders. These fire require special media and techniques to extinguish."
+    },
+    {
+      "id": "c38",
+      "claim": "Class F fires involve cooking media (vegetable or animal oils and fats) in cooking appliances — kitchen fires",
+      "source": "s7",
+      "page": "Classification of Fire, Class F",
+      "quote": "Fires involving cooking media (vegetable or animal oils and fats) in cooking appliances and may be called kitchen fire."
+    },
+    {
+      "id": "c39",
+      "claim": "In Indian Standards, electrical fires are not given a specific class",
+      "source": "s7",
+      "page": "Electrical Fires",
+      "quote": "In Indian Standards, Electrical fires (fires involving energised electrical conductors/ equipment) are not given specific class, as they can fall into any of the classifications as per the material on fire (fuel)."
+    },
+    {
+      "id": "c40",
+      "claim": "On energised electrical equipment only dry powder, carbon dioxide (without metal horn) or clean agent extinguishers should be used",
+      "source": "s7",
+      "page": "Electrical Fires (IS 2190 para 10.2)",
+      "quote": "only extinguishers expelling dry powder, carbon dioxide (without metal horn) or clean agent should be used"
+    },
+    {
+      "id": "c41",
+      "claim": "The recommended colour for extinguisher bodies is red, with a small distinguishing colour band",
+      "source": "s7",
+      "page": "Marking and Colour (IS 15683 para 10.1)",
+      "quote": "The recommended colour for extinguisher bodies is RED. A small band of distinguishing colour of approx. 5 percent/prominent of surface area shall be painted for different type of extinguishers"
+    },
+    {
+      "id": "c42",
+      "claim": "Foam-based extinguishers carry a yellow colour band",
+      "source": "s7",
+      "page": "Marking and Colour table",
+      "quote": "Foam based extinguishers Yellow"
+    },
+    {
+      "id": "c43",
+      "claim": "Powder-based extinguishers carry a blue colour band",
+      "source": "s7",
+      "page": "Marking and Colour table",
+      "quote": "Powder based extinguisher Blue"
+    },
+    {
+      "id": "c44",
+      "claim": "Carbon-dioxide-based extinguishers carry a black colour band",
+      "source": "s7",
+      "page": "Marking and Colour table",
+      "quote": "Carbon dioxide based extinguishers Black"
+    },
+    {
+      "id": "c45",
+      "claim": "Clean-agent extinguishers carry a green colour band",
+      "source": "s7",
+      "page": "Marking and Colour table",
+      "quote": "Clean agent extinguishers Green"
+    },
+    {
+      "id": "c46",
+      "claim": "CO2 extinguishers are suitable for Class B and C fires",
+      "source": "s7",
+      "page": "CO2 extinguishers",
+      "quote": "Suitable for - suitable for Class B and C fires"
+    },
+    {
+      "id": "c47",
+      "claim": "Foam extinguishers are suitable for Class A and Class B (flammable liquids) fires",
+      "source": "s7",
+      "page": "Foam extinguishers",
+      "quote": "Suitable for - class A and class B (flammable liquids)"
+    },
+    {
+      "id": "c48",
+      "claim": "Water extinguishers are suitable for Class A fires (wood, paper, cloth)",
+      "source": "s7",
+      "page": "Water extinguishers",
+      "quote": "Suitable for - CLASS A (Wood, paper, cloth etc.) fires"
+    },
+    {
+      "id": "c49",
+      "claim": "Bhopal: on the night of 2/3 December 1984 about 40 tons of toxic MIC stored in tank 610 escaped from the Union Carbide pesticide plant after water entered the tank",
+      "source": "s8",
+      "page": "Preface",
+      "quote": "On the night of 2nd/3rd December 1984, world's worst industrial accident took place at the pesticide plant in Bhopal in the state of Madhya Pradesh of India, owned by an American Multinational, the Union Carbide Corporation. Approximately, 40 tons of highly toxic liquid Methyl Isocyanate (MIC) stored in tank 610 suddenly escaped in a gaseous form into the atmosphere, apparently precipitated by entry of water into the tank."
+    },
+    {
+      "id": "c50",
+      "claim": "CPCB is a statutory board constituted under Section 3 of the Water (Prevention and Control of Pollution) Act, 1974",
+      "source": "s9",
+      "page": "Reply, para 2",
+      "quote": "Central Pollution Control Board is a Statutory Board constituted under Section 3 of the Water (Prevention and Control of Pollution) Act, 1974."
+    },
+    {
+      "id": "c51",
+      "claim": "CPCB categorisation by Pollution Index: 60 and above Red; 41 to 59 Orange; 21 to 40 Green; up to 20 White",
+      "source": "s9",
+      "page": "Annexure R3-I, Revised Classification",
+      "quote": "Industrial Sectors having Pollution Index score of 60 and above – Red category Industrial Sectors having Pollution Index score of 41 to 59 –Orange category Industrial Sectors having Pollution Index score of 21 to 40 –Green category Industrial Sectors having Pollution Index score incl.&upto 20 -White category"
+    },
+    {
+      "id": "c52",
+      "claim": "All Red, Orange and Green category sectors must obtain Consent to Establish (CTE) and Consent to Operate (CTO) from the concerned SPCB/PCC",
+      "source": "s9",
+      "page": "Reply, para 5",
+      "quote": "all sectors under Red, Orange and Green Categories are required to obtain Consent to Establish (hereinafter referred to as 'CTE') and Consent to Operate (hereinafter referred to as 'CTO') from the concerned SPCB/PCC."
+    },
+    {
+      "id": "c53",
+      "claim": "CPCB performs functions under the Water Act 1974, the Air Act 1981 and the Environment (Protection) Act 1986",
+      "source": "s9",
+      "page": "Reply, para 2",
+      "quote": "It performs the functions under The Water (Prevention and Control of Pollution) Act 1974, The Air (Prevention and Control of Pollution) Act 1981, and The Environment (Protection) Act, 1986."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "factory_act_recap",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কারখানা আইন, ১৯৪৮ কার্যকর হয় কোন তারিখ থেকে?",
+      "a": "১৯৪৯ সালের ১ এপ্রিল",
+      "w": [
+        "১৯৪৮ সালের ১ এপ্রিল",
+        "১৯৫০ সালের ২৬ জানুয়ারি",
+        "১৯৪৯ সালের ১৫ আগস্ট"
+      ],
+      "e": "আইনের ধারা ১(৩) অনুযায়ী আইনটি ১৯৪৯ সালের ১ এপ্রিল থেকে কার্যকর হয়; ১৯৪৮ হল প্রণয়নের বছর।",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "factory_act_recap",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শক্তির সাহায্যে উৎপাদন প্রক্রিয়া চলা প্রাঙ্গণ 'কারখানা' হতে কমপক্ষে কতজন শ্রমিক লাগে (ধারা ২(m))?",
+      "a": "১০ জন",
+      "w": [
+        "২০ জন",
+        "২৫ জন",
+        "৫০ জন"
+      ],
+      "e": "শক্তিসহ সীমা ১০ জন; ২০ জনের সীমাটি শক্তি ছাড়া ক্ষেত্রের জন্য।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "factory_act_recap",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি কারখানা আইন, ১৯৪৮-এর ধারা ২(m) অনুযায়ী 'কারখানা' নয়?",
+      "a": "রেলওয়ে রানিং শেড",
+      "w": [
+        "শক্তিসহ ১৫ শ্রমিকের ছাপাখানা",
+        "শক্তি ছাড়া ২৫ শ্রমিকের ওয়ার্কশপ",
+        "৩০ শ্রমিকের হিমঘর (কোল্ড স্টোরেজ)"
+      ],
+      "e": "আইনে খনি, সশস্ত্র বাহিনীর ভ্রাম্যমাণ ইউনিট, রেলওয়ে রানিং শেড ও হোটেল-রেস্তোরাঁ স্পষ্টভাবে বাদ; বাকি তিনটি ১০/২০ সীমা পেরিয়ে যায়।",
+      "claims": [
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "factory_act_recap",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কারখানা আইনে 'অকুপায়ার' (occupier) বলতে বোঝায় —",
+      "a": "যাঁর হাতে কারখানার বিষয়গুলির চূড়ান্ত নিয়ন্ত্রণ আছে",
+      "w": [
+        "কারখানার সবচেয়ে বয়োজ্যেষ্ঠ শ্রমিক",
+        "রাজ্য সরকার নিযুক্ত পরিদর্শক",
+        "কারখানা ভবনের মালিক ভাড়াটিয়া"
+      ],
+      "e": "ধারা ২(n) অনুযায়ী অকুপায়ার হলেন কারখানার বিষয়ে চূড়ান্ত নিয়ন্ত্রণকারী ব্যক্তি — মালিকানা নয়, নিয়ন্ত্রণই মানদণ্ড।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "factory_act_recap",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কারখানা আইনে 'প্রাপ্তবয়স্ক' (adult) ও 'বিপজ্জনক প্রক্রিয়া' (hazardous process) সম্পর্কে সঠিক জোড় কোনটি?",
+      "a": "প্রাপ্তবয়স্ক = ১৮ বছর পূর্ণ; বিপজ্জনক প্রক্রিয়া = প্রথম তফসিলভুক্ত শিল্পের প্রক্রিয়া যেখানে বিশেষ যত্ন না নিলে স্বাস্থহানি বা পরিবেশ-দূষণ ঘটতে পারে",
+      "w": [
+        "প্রাপ্তবয়স্ক = ২১ বছর পূর্ণ; বিপজ্জনক প্রক্রিয়া = যেকোনো প্রক্রিয়া যেখানে আগুন লাগতে পারে",
+        "প্রাপ্তবয়স্ক = ১৫ বছর পূর্ণ; বিপজ্জনক প্রক্রিয়া = দ্বিতীয় তফসিলভুক্ত শিল্পের প্রক্রিয়া",
+        "প্রাপ্তবয়স্ক = ১৮ বছর পূর্ণ; বিপজ্জনক প্রক্রিয়া = শুধুমাত্র রাসায়নিক শিল্পের প্রক্রিয়া"
+      ],
+      "e": "ধারা ২(a) অনুযায়ী প্রাপ্তবয়স্ক মানে ১৮ বছর পূর্ণ ব্যক্তি; ধারা ২(cb) অনুযায়ী বিপজ্জনক প্রক্রিয়া প্রথম তফসিলের সঙ্গে যুক্ত এবং স্বাস্থ্য ও পরিবেশ — দুই ঝুঁকিকেই ধরে।",
+      "claims": [
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "factory_act_recap",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ধারা ২১ (যন্ত্রপাতিতে বেড়া) সম্পর্কে সঠিক বিবৃতি কোনটি?",
+      "a": "প্রাইম মুভারের চলমান অংশ ও ফ্লাই-হুইল শক্ত নির্মাণের রক্ষাকবচে ঘেরা থাকতে হবে এবং যন্ত্র চলা অবস্থায় তা জায়গায় রাখতে হবে",
+      "w": [
+        "শুধুমাত্র নতুন যন্ত্রে বেড়া দিতে হয়, পুরনো যন্ত্রে নয়",
+        "বেড়া শুধুমাত্র মহিলা শ্রমিক কাজ করলে দিতে হয়",
+        "বেড়া দেওয়া মালিকের ইচ্ছাধীন বিষয়"
+      ],
+      "e": "ধারা ২১ অনুযায়ী বিপজ্জনক চলমান অংশে টেকসই রক্ষাকবচ বাধ্যতামূলক এবং যন্ত্র চলমান থাকলে তা সরানো যায় না।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "factory_act_recap",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও: A. ধারা ২(m), B. ধারা ২(n), C. ধারা ২(a), D. ধারা ২(cb) — ১. অকুপায়ার, ২. কারখানা, ৩. বিপজ্জনক প্রক্রিয়া, ৪. প্রাপ্তবয়স্ক",
+      "a": "A-২, B-১, C-৪, D-৩",
+      "w": [
+        "A-১, B-২, C-৩, D-৪",
+        "A-২, B-৪, C-১, D-৩",
+        "A-৩, B-১, C-৪, D-২"
+      ],
+      "e": "২(m) = কারখানা, ২(n) = অকুপায়ার, ২(a) = প্রাপ্তবয়স্ক, ২(cb) = বিপজ্জনক প্রক্রিয়া।",
+      "claims": [
+        "c03",
+        "c05",
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "hours_welfare",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কারখানা আইনে প্রাপ্তবয়স্ক শ্রমিকের সাপ্তাহিক কর্মঘণ্টার সর্বোচ্চ সীমা কত?",
+      "a": "৪৮ ঘণ্টা",
+      "w": [
+        "৪০ ঘণ্টা",
+        "৫৪ ঘণ্টা",
+        "৬০ ঘণ্টা"
+      ],
+      "e": "ধারা ৫১ অনুযায়ী সপ্তাহে ৪৮ ঘণ্টার বেশি কাজ করানো যাবে না।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "hours_welfare",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কারখানায় ক্যান্টিন বাধ্যতামূলক হয় কতজন শ্রমিকের বেশি থাকলে (ধারা ৪৬)?",
+      "a": "২৫০ জন",
+      "w": [
+        "১০০ জন",
+        "১৫০ জন",
+        "৫০০ জন"
+      ],
+      "e": "ধারা ৪৬ অনুযায়ী ২৫০-এর বেশি শ্রমিক থাকলে ক্যান্টিন দিতে হয়; ৫০০-এর সংখ্যাটি কল্যাণ আধিকারিক ও অ্যাম্বুলেন্স রুমের।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "hours_welfare",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কল্যাণ আধিকারিক (Welfare Officer) নিয়োগ বাধ্যতামূলক কোন ক্ষেত্রে (ধারা ৪৯)?",
+      "a": "৫০০ বা তার বেশি শ্রমিক থাকলে",
+      "w": [
+        "২৫০ বা তার বেশি শ্রমিক থাকলে",
+        "১০০ বা তার বেশি শ্রমিক থাকলে",
+        "প্রতিটি কারখানায়, শ্রমিকসংখ্যা যাই হোক"
+      ],
+      "e": "ধারা ৪৯ অনুযায়ী ৫০০ বা ততোধিক শ্রমিক থাকলে অকুপায়ারকে নির্ধারিত সংখ্যক কল্যাণ আধিকারিক নিয়োগ করতে হয়।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "hours_welfare",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একটানা কাজের পর বিশ্রামের বিরতি সম্পর্কে ধারা ৫৫–৫৬ কী বলে?",
+      "a": "৫ ঘণ্টার বেশি একটানা কাজ নয়; মাঝে কমপক্ষে আধঘণ্টা বিশ্রাম",
+      "w": [
+        "৪ ঘণ্টার বেশি একটানা কাজ নয়; মাঝে ১৫ মিনিট বিশ্রাম",
+        "৬ ঘণ্টার বেশি একটানা কাজ নয়; মাঝে ১ ঘণ্টা বিশ্রাম",
+        "বিরতির কোনো বিধান আইনে নেই"
+      ],
+      "e": "ধারা ৫৫–৫৬ অনুযায়ী কাজের পর্ব ৫ ঘণ্টা পেরোবে না এবং বিশ্রামের বিরতি হবে কমপক্ষে আধঘণ্টা।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "hours_welfare",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সাপ্তাহিক ছুটি (ধারা ৫২) সম্পর্কে সঠিক বিবৃতি কোনটি?",
+      "a": "সপ্তাহের প্রথম দিনে ছুটি; বদলি ছুটি হলে তা আগের বা পরের তিন দিনের মধ্যে হতে হবে",
+      "w": [
+        "প্রতি সপ্তাহে দুই দিন ছুটি বাধ্যতামূলক",
+        "বদলি ছুটি মাসের যেকোনো দিনে দেওয়া যায়",
+        "সাপ্তাহিক ছুটির বিধান শুধুমাত্র মহিলা শ্রমিকদের জন্য"
+      ],
+      "e": "ধারা ৫২ সপ্তাহের প্রথম দিনটিকে ছুটির দিন ধরে; বদলি হলে বিকল্প ছুটি তিন দিনের জানালার মধ্যে পড়তে হবে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "hours_welfare",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ধারা ৮৯ অনুযায়ী কোন রোগে শ্রমিক আক্রান্ত হলে ম্যানেজারকে মুখ্য পরিদর্শক ও সার্টিফাইং সার্জনকে জানাতে হয়?",
+      "a": "সিলিকোসিস",
+      "w": [
+        "যক্ষ্মা",
+        "ডায়াবেটিস",
+        "ম্যালেরিয়া"
+      ],
+      "e": "ধারা ৮৯-এর তালিকায় সিলিকোসিস, অ্যানথ্রাক্স, সীসা-বিষক্রিয়া প্রভৃতি পেশাগত রোগ আছে; বাকি তিনটি সেই তালিকায় নেই।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "hours_welfare",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো: ১. অ্যাম্বুলেন্স রুম লাগে ৫০০-এর বেশি শ্রমিক থাকলে (ধারা ৪৫)। ২. চোখের ঝুঁকিযুক্ত প্রক্রিয়ায় কার্যকর পর্দা বা উপযুক্ত গগলস দিতে হয় (ধারা ৩৫)। ৩. আগুনের ক্ষেত্রে প্রস্থান-দরজা (স্লাইডিং ছাড়া) বাইরের দিকে খুলবে (ধারা ৩৮)।",
+      "a": "১, ২ ও ৩ — তিনটিই সঠিক",
+      "w": [
+        "শুধুমাত্র ১ ও ২ সঠিক",
+        "শুধুমাত্র ২ ও ৩ সঠিক",
+        "শুধুমাত্র ১ সঠিক"
+      ],
+      "e": "তিনটি বিবৃতিই আইনের সারসংক্ষেপের সঙ্গে মেলে: অ্যাম্বুলেন্স রুম ৫০০+, গগলস ধারা ৩৫, অগ্নি-প্রস্থান ধারা ৩৮।",
+      "claims": [
+        "c11",
+        "c12",
+        "c15"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "fire_electrical",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অগ্নি-ত্রিভুজের (fire triangle) তিনটি উপাদান কী?",
+      "a": "তাপ, জ্বালানি ও অক্সিজেন",
+      "w": [
+        "তাপ, জল ও বাতাস",
+        "জ্বালানি, ধোঁয়া ও আলো",
+        "অক্সিজেন, কার্বন ডাই-অক্সাইড ও তাপ"
+      ],
+      "e": "আগুন জ্বলতে লাগে তাপ, জ্বালানি ও জারক পদার্থ (সাধারণত অক্সিজেন); একটি সরালেই আগুন নেভে।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "fire_electrical",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কাঠ, কাগজ, কাপড়ের আগুন কোন শ্রেণির (ভারতীয় মান)?",
+      "a": "শ্রেণি A",
+      "w": [
+        "শ্রেণি B",
+        "শ্রেণি C",
+        "শ্রেণি D"
+      ],
+      "e": "জৈব কঠিন পদার্থের আগুন শ্রেণি A; এতে জলের শীতলীকরণ প্রভাব অপরিহার্য।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "fire_electrical",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পাউডার-ভিত্তিক নির্বাপকের রঙের ব্যান্ড কোনটি (IS 15683)?",
+      "a": "নীল",
+      "w": [
+        "হলুদ",
+        "কালো",
+        "সবুজ"
+      ],
+      "e": "ব্যান্ডের রঙ: ফোম হলুদ, পাউডার নীল, CO₂ কালো, ক্লিন এজেন্ট সবুজ; নির্বাপকের গা লাল।",
+      "claims": [
+        "c41",
+        "c43"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "fire_electrical",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "CO₂ নির্বাপক কোন শ্রেণির আগুনে উপযুক্ত?",
+      "a": "শ্রেণি B ও C",
+      "w": [
+        "শ্রেণি A ও D",
+        "শুধুমাত্র শ্রেণি A",
+        "শুধুমাত্র শ্রেণি F"
+      ],
+      "e": "CAMTECH পুস্তিকা অনুযায়ী CO₂ নির্বাপক B (তরল) ও C (গ্যাস) শ্রেণির আগুনে উপযুক্ত।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "fire_electrical",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতীয় মানে বৈদ্যুতিক আগুন সম্পর্কে সঠিক বিবৃতি কোনটি?",
+      "a": "বিদ্যুৎ-সক্রিয় যন্ত্রের আগুনকে আলাদা শ্রেণি দেওয়া হয়নি; জ্বলন্ত উপাদান অনুযায়ী তা A বা B শ্রেণিতে পড়ে",
+      "w": [
+        "বৈদ্যুতিক আগুন সবসময় শ্রেণি C",
+        "বৈদ্যুতিক আগুনের জন্য আলাদা শ্রেণি E আছে ভারতীয় মানে",
+        "বিদ্যুৎ-সক্রিয় যন্ত্রে জল-ভিত্তিক নির্বাপকই প্রথম পছন্দ"
+      ],
+      "e": "IS অনুযায়ী বৈদ্যুতিক আগুনের পৃথক শ্রেণি নেই; বিদ্যুৎ আগুনের সূত্রপাত ঘটায়, জ্বলে চারপাশের উপাদান।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "fire_electrical",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিদ্যুৎ-সক্রিয় যন্ত্রে আগুন লাগলে কোন নির্বাপকগুলি ব্যবহার করা যায়?",
+      "a": "শুষ্ক পাউডার, CO₂ (ধাতব হর্ন ছাড়া) ও ক্লিন এজেন্ট",
+      "w": [
+        "জল ও ফোম",
+        "শুধুমাত্র জল",
+        "শুধুমাত্র ভেজা কম্বল"
+      ],
+      "e": "পরিবাহিতা-ঝুঁকির কারণে বিদ্যুৎ-সক্রিয় যন্ত্রে শুধু অপরিবাহী মাধ্যম — শুষ্ক পাউডার, CO₂ বা ক্লিন এজেন্ট — ব্যবহার করা যায়।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "fire_electrical",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও: A. ফোম নির্বাপক, B. পাউডার নির্বাপক, C. CO₂ নির্বাপক, D. ক্লিন এজেন্ট নির্বাপক — ১. কালো ব্যান্ড, ২. সবুজ ব্যান্ড, ৩. হলুদ ব্যান্ড, ৪. নীল ব্যান্ড",
+      "a": "A-৩, B-৪, C-১, D-২",
+      "w": [
+        "A-৪, B-৩, C-২, D-১",
+        "A-৩, B-১, C-৪, D-২",
+        "A-২, B-৪, C-১, D-৩"
+      ],
+      "e": "IS 15683 অনুযায়ী ব্যান্ড: ফোম হলুদ (৩), পাউডার নীল (৪), CO₂ কালো (১), ক্লিন এজেন্ট সবুজ (২)।",
+      "claims": [
+        "c42",
+        "c43",
+        "c44",
+        "c45"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "chemical_bhopal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভোপাল গ্যাস দুর্ঘটনা ঘটে কবে?",
+      "a": "১৯৮৪ সালের ২–৩ ডিসেম্বর রাতে",
+      "w": [
+        "১৯৮৪ সালের ২–৩ নভেম্বর রাতে",
+        "১৯৮৬ সালের ২–৩ ডিসেম্বর রাতে",
+        "১৯৮২ সালের ২–৩ ডিসেম্বর রাতে"
+      ],
+      "e": "ICMR প্রতিবেদন অনুযায়ী দুর্ঘটনাটি ঘটে ১৯৮৪ সালের ২–৩ ডিসেম্বরের রাতে।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "chemical_bhopal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভোপালে কোন গ্যাস বেরিয়ে গিয়েছিল?",
+      "a": "মিথাইল আইসোসায়ানেট (MIC)",
+      "w": [
+        "ফসজিন",
+        "অ্যামোনিয়া",
+        "ক্লোরিন"
+      ],
+      "e": "ট্যাঙ্ক ৬১০ থেকে বেরিয়ে যাওয়া গ্যাস ছিল মিথাইল আইসোসায়ানেট (MIC)।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "chemical_bhopal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভোপালের কারখানাটি কোন কোম্পানির ছিল?",
+      "a": "ইউনিয়ন কার্বাইড",
+      "w": [
+        "ইউনিয়ন কার্বাইড ছাড়া অন্য বহুজাতিক",
+        "ভারত সরকারের কীটনাশক সংস্থা",
+        "মধ্যপ্রদেশ রাজ্য সরকার"
+      ],
+      "e": "ICMR প্রতিবেদন অনুযায়ী কারখানাটি ছিল মার্কিন বহুজাতিক ইউনিয়ন কার্বাইড কর্পোরেশনের।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "chemical_bhopal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ICMR প্রতিবেদন অনুযায়ী আনুমানিক কত টন MIC বেরিয়ে গিয়েছিল?",
+      "a": "প্রায় ৪০ টন",
+      "w": [
+        "প্রায় ৪ টন",
+        "প্রায় ৪০০ টন",
+        "প্রায় ১৪ টন"
+      ],
+      "e": "প্রতিবেদনে বলা হয়েছে, ৬১০ নম্বর ট্যাঙ্ক থেকে প্রায় ৪০ টন MIC গ্যাসীয় রূপে ছড়িয়ে পড়ে।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "chemical_bhopal",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ICMR প্রতিবেদন অনুযায়ী গ্যাস ছড়িয়ে পড়ার আপাত সূত্রপাত কী ছিল?",
+      "a": "ট্যাঙ্কে জল ঢুকে যাওয়া",
+      "w": [
+        "ট্যাঙ্কে আগুন লাগা",
+        "ভূমিকম্পে ট্যাঙ্ক ফাটা",
+        "বিদ্যুৎ বিভ্রাটে ভালভ খুলে যাওয়া"
+      ],
+      "e": "প্রতিবেদন অনুযায়ী ট্যাঙ্কে জল প্রবেশই ছিল আপাত কারণ ('apparently precipitated by entry of water into the tank')।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "chemical_bhopal",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'বিপজ্জনক প্রক্রিয়া'র সংজ্ঞায় (ধারা ২(cb)) কোন দুই ধরনের ক্ষতির কথা বলা হয়েছে?",
+      "a": "সংশ্লিষ্ট ব্যক্তিদের স্বাস্থ্যের গুরুতর ক্ষতি এবং পরিবেশ-দূষণ",
+      "w": [
+        "শুধুমাত্র শ্রমিকের মৃত্যু এবং যন্ত্রের ক্ষতি",
+        "শুধুমাত্র আর্থিক ক্ষতি এবং উৎপাদন বন্ধ",
+        "শুধুমাত্র বায়ুদূষণ এবং শব্দদূষণ"
+      ],
+      "e": "সংজ্ঞাটি স্বাস্থহানি ও পরিবেশ-দূষণ — দুটিকেই ধরে; ভোপাল-ধরনের ঘটনা এই দুই ঝুঁকিরই উদাহরণ।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "chemical_bhopal",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "সঠিক কালানুক্রম কোনটি? ১. পরিবেশ (সুরক্ষা) আইন, ২. ভোপাল গ্যাস দুর্ঘটনা, ৩. বায়ু আইন, ৪. জল আইন",
+      "a": "৪ → ৩ → ২ → ১",
+      "w": [
+        "৪ → ২ → ৩ → ১",
+        "৩ → ৪ → ১ → ২",
+        "২ → ৪ → ৩ → ১"
+      ],
+      "e": "জল আইন ১৯৭৪ → বায়ু আইন ১৯৮১ → ভোপাল দুর্ঘটনা ডিসেম্বর ১৯৮৪ → পরিবেশ (সুরক্ষা) আইন ১৯৮৬।",
+      "claims": [
+        "c26",
+        "c27",
+        "c28",
+        "c49"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "pollution_laws",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জল (প্রতিরোধ ও নিয়ন্ত্রণ) আইন কোন সালে প্রণীত হয়?",
+      "a": "১৯৭৪",
+      "w": [
+        "১৯৮১",
+        "১৯৮৬",
+        "১৯৭২"
+      ],
+      "e": "জল আইন প্রণীত হয় ১৯৭৪ সালে; ১৯৮১ বায়ু আইন ও ১৯৮৬ পরিবেশ আইনের সাল।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "pollution_laws",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "CPCB কোন আইনের ধারা ৩-এর অধীনে গঠিত বিধিবদ্ধ বোর্ড?",
+      "a": "জল আইন, ১৯৭৪",
+      "w": [
+        "বায়ু আইন, ১৯৮১",
+        "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬",
+        "কারখানা আইন, ১৯৪৮"
+      ],
+      "e": "CPCB-র নিজের বিবৃতি অনুযায়ী বোর্ডটি জল আইন, ১৯৭৪-এর ধারা ৩-এ গঠিত।",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "pollution_laws",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দূষণ-সূচক (Pollution Index) ৫০ পেলে শিল্প-খাতটি কোন শ্রেণিতে পড়বে?",
+      "a": "কমলা",
+      "w": [
+        "লাল",
+        "সবুজ",
+        "সাদা"
+      ],
+      "e": "সীমা: লাল ৬০+, কমলা ৪১–৫৯, সবুজ ২১–৪০, সাদা ২০ পর্যন্ত; ৫০ পড়ে কমলা শ্রেণিতে।",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "pollution_laws",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "CTE ও CTO সম্পর্কে সঠিক বিবৃতি কোনটি?",
+      "a": "লাল, কমলা ও সবুজ — তিন শ্রেণিকেই SPCB/PCC থেকে CTE ও CTO নিতে হয়",
+      "w": [
+        "শুধুমাত্র লাল শ্রেণিকে সম্মতি নিতে হয়",
+        "সাদা শ্রেণিকেও CTO নিতে হয়",
+        "CTE দেয় CPCB, CTO দেয় পৌরসভা"
+      ],
+      "e": "CPCB-র নির্দেশ অনুযায়ী লাল, কমলা ও সবুজ শ্রেণির জন্য রাজ্য বোর্ড থেকে স্থাপন (CTE) ও চালুর (CTO) সম্মতি বাধ্যতামূলক।",
+      "claims": [
+        "c52"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "pollution_laws",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬ সম্পর্কে সঠিক বিবৃতি কোনটি?",
+      "a": "এটি আইন নং ২৯, ১৯৮৬ এবং স্টকহোম সম্মেলন (১৯৭২)-এর সিদ্ধান্ত বাস্তবায়নের জন্য প্রণীত",
+      "w": [
+        "এটি আইন নং ২৯, ১৯৭৪ এবং রিও সম্মেলনের ফল",
+        "এটি CPCB গঠন করে ধারা ৩-এ",
+        "এর ধারা ৫-এ শিল্প বন্ধের নির্দেশ দেওয়ার ক্ষমতা নেই"
+      ],
+      "e": "আইনটির নম্বর ২৯, সাল ১৯৮৬; প্রস্তাবনায় স্টকহোম ১৯৭২-এর উল্লেখ আছে। CPCB জল আইনে গঠিত, আর ধারা ৫-এ বন্ধের নির্দেশের ক্ষমতা স্পষ্টভাবে আছে।",
+      "claims": [
+        "c28",
+        "c29",
+        "c31",
+        "c50"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "pollution_laws",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পরিবেশ আইনের ধারা ২(a) অনুযায়ী 'পরিবেশ'-এর সংজ্ঞায় কী কী অন্তর্ভুক্ত?",
+      "a": "জল, বায়ু ও ভূমি এবং তাদের পারস্পরিক সম্পর্ক — মানুষ, জীব, উদ্ভিদ, অণুজীব ও সম্পত্তিসহ",
+      "w": [
+        "শুধুমাত্র জল ও বায়ু",
+        "শুধুমাত্র বন ও বন্যপ্রাণী",
+        "শুধুমাত্র ভূমি ও খনিজ"
+      ],
+      "e": "ধারা ২(a) জল-বায়ু-ভূমির পাশাপাশি মানুষসহ সব জীব, অণুজীব ও সম্পত্তিকে সংজ্ঞার মধ্যে আনে — এই ব্যাপকতাই আইনটিকে 'ছাতা-আইন' করে।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "pollution_laws",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "সঠিক জোড় কোনটি?",
+      "a": "বায়ু আইন — ১৯৮১ (১৯৮৭ সালে সংশোধিত)",
+      "w": [
+        "জল আইন — ১৯৮১",
+        "পরিবেশ আইন — ১৯৭৪",
+        "CPCB — পরিবেশ আইন, ১৯৮৬-তে গঠিত"
+      ],
+      "e": "বায়ু আইন প্রণীত ১৯৮১ সালে, সংশোধিত ১৯৮৭ সালে। জল আইন ১৯৭৪, পরিবেশ আইন ১৯৮৬, আর CPCB গঠিত জল আইনে।",
+      "claims": [
+        "c26",
+        "c27",
+        "c28",
+        "c50"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "osh_code",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "OSH কোড, ২০২০ কতগুলি কেন্দ্রীয় শ্রম-আইনকে প্রতিস্থাপন করেছে?",
+      "a": "১৩টি",
+      "w": [
+        "৪টি",
+        "২৯টি",
+        "৯টি"
+      ],
+      "e": "PIB তথ্যপত্র অনুযায়ী OSH কোড ১৩টি কেন্দ্রীয় শ্রম-আইনকে একক আইনে প্রতিস্থাপন করে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "osh_code",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "OSH কোডে মোট ধারার সংখ্যা কত (পুরনো ১৩ আইনের ৬২০-এর বদলে)?",
+      "a": "১৪৩",
+      "w": [
+        "৬২০",
+        "২৫০",
+        "৯৯"
+      ],
+      "e": "তুলনা-সারণি অনুযায়ী পুরনো আইনগুলির ৬২০ ধারার বদলে কোডে ধারা ১৪৩টি।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "osh_code",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "OSH কোড অনুযায়ী কারখানার লাইসেন্স-সীমা কত?",
+      "a": "শক্তিসহ ২০, শক্তি ছাড়া ৪০",
+      "w": [
+        "শক্তিসহ ১০, শক্তি ছাড়া ২০",
+        "শক্তিসহ ২৫, শক্তি ছাড়া ৫০",
+        "শক্তিসহ ৪০, শক্তি ছাড়া ২০"
+      ],
+      "e": "কোডে সীমা বেড়ে শক্তিসহ ১০ থেকে ২০ ও শক্তি ছাড়া ২০ থেকে ৪০ হয়েছে; ১০/২০ হল কারখানা আইনের পুরনো সীমা।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "osh_code",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "OSH কোডে দৈনিক কর্মঘণ্টার সীমা কত?",
+      "a": "৮ ঘণ্টা (সপ্তাহে ৪৮ ঘণ্টা)",
+      "w": [
+        "৯ ঘণ্টা (সপ্তাহে ৪৮ ঘণ্টা)",
+        "৮ ঘণ্টা (সপ্তাহে ৪০ ঘণ্টা)",
+        "১০ ঘণ্টা (সপ্তাহে ৫৪ ঘণ্টা)"
+      ],
+      "e": "কোড অনুযায়ী দিনে ৮ ঘণ্টা ও সপ্তাহে ৪৮ ঘণ্টার বেশি কাজ করানো যাবে না; কারখানা আইনের দৈনিক সীমা ছিল ৯ ঘণ্টা।",
+      "claims": [
+        "c20",
+        "c08"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "osh_code",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "OSH কোডে বেতনসহ বার্ষিক ছুটির যোগ্যতার শর্ত কী?",
+      "a": "ক্যালেন্ডার বছরে ১৮০ দিন বা তার বেশি কাজ (আগে ছিল ২৪০ দিন)",
+      "w": [
+        "ক্যালেন্ডার বছরে ২৪০ দিন বা তার বেশি কাজ",
+        "ক্যালেন্ডার বছরে ১২০ দিন বা তার বেশি কাজ",
+        "ছুটির জন্য কোনো ন্যূনতম কর্মদিবস নেই"
+      ],
+      "e": "কোডে যোগ্যতা ২৪০ দিন থেকে কমিয়ে ১৮০ দিন করা হয়েছে।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "osh_code",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "OSH কোডের স্বাস্থ্য-বিধান সম্পর্কে সঠিক জোড় কোনটি?",
+      "a": "বিনামূল্যে বার্ষিক স্বাস্থ্য-পরীক্ষা — প্রতিটি কর্মীর জন্য; নিরাপত্তা কমিটি — ৫০০+ শ্রমিকের কারখানায়",
+      "w": [
+        "বিনামূল্যে স্বাস্থ্য-পরীক্ষা — শুধুমাত্র ১০০০+ শ্রমিকের কারখানায়; নিরাপত্তা কমিটি — ২৫০+ শ্রমিকের কারখানায়",
+        "বিনামূল্যে স্বাস্থ্য-পরীক্ষা — পাঁচ বছরে একবার; নিরাপত্তা কমিটি — সব কারখানায়",
+        "স্বাস্থ্য-পরীক্ষার কোনো বিধান কোডে নেই; নিরাপত্তা কমিটি — ১০০+ শ্রমিকের কারখানায়"
+      ],
+      "e": "PIB তথ্যপত্র অনুযায়ী প্রতিটি কর্মী বিনামূল্যে বার্ষিক স্বাস্থ্য-পরীক্ষার যোগ্য, আর ৫০০+ শ্রমিকের কারখানায় নিরাপত্তা কমিটি গঠন করতে হয়।",
+      "claims": [
+        "c23",
+        "c25"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "osh_code",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): OSH কোডে ছয়টি পৃথক বোর্ডের বদলে একক জাতীয় পেশাগত নিরাপত্তা ও স্বাস্থ্য উপদেষ্টা বোর্ড গঠিত হয়েছে। কারণ (R): বোর্ডটি ত্রিপাক্ষিক — শ্রমিক সংগঠন, মালিক সংগঠন ও রাজ্য সরকারের প্রতিনিধি এতে আছেন।",
+      "a": "A ও R দুটোই সঠিক, কিন্তু R, A-র সঠিক ব্যাখ্যা নয়",
+      "w": [
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক",
+        "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা"
+      ],
+      "e": "দুটি বক্তব্যই সঠিক — OSH কোডে ছয়টি পৃথক বোর্ডের বদলে একক জাতীয় পেশাগত নিরাপত্তা ও স্বাস্থ্য উপদেষ্টা বোর্ড গঠিত হয়েছে, এবং বোর্ডটি ত্রিপাক্ষিক (শ্রমিক, নিয়োগকর্তা ও রাজ্য সরকারের প্রতিনিধি)। কিন্তু R একীকরণের ব্যাখ্যা নয় — ত্রিপাক্ষিকতা হলো বোর্ডটির গঠন-বৈশিষ্ট্য; ছয়টি বোর্ড মিলিয়ে একক বোর্ড করার যুক্তি হলো একীভূত, সরলীকৃত কাঠামো। তাই সঠিক উত্তর: A ও R দুটোই সঠিক, কিন্তু R, A-র সঠিক ব্যাখ্যা নয়।",
+      "claims": [
+        "c22"
+      ]
+    }
+  ]
+}

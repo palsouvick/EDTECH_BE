@@ -1,0 +1,425 @@
+{
+ "code": "SAF-03",
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "তাপ, জ্বালানি ও অক্সিজেন",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The three things, a fire needs to start are heat, fuel and oxygen. These three elements work together to start a fire.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 6",
+   "notes": "Fire triangle per c01."
+  },
+  {
+   "id": "q02",
+   "answer": "তিনটি উপাদানের যেকোনো একটি সরিয়ে দেওয়া",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "If we need all of these things for a fire to burn, how do you put a fire out? You only need to take away one of these three things, and the fire will go out.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 6",
+   "notes": "Removing any one element extinguishes the fire per c02."
+  },
+  {
+   "id": "q03",
+   "answer": "ওয়েল্ডিং, কাটিং, গ্রাইন্ডিং কাজ ও উত্তপ্ত পৃষ্ঠ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Commonly available heat sources in the industrial occupancies are welding, cutting, grinding activities, hot surfaces etc.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 6",
+   "notes": "Heat sources listed verbatim in c03."
+  },
+  {
+   "id": "q04",
+   "answer": "শুধু ১ ও ৩",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The principles of fire extinguishment consist of one of the following three elements: 1. Starvation: Starvation is achieved in three ways: i. By removing potential fuel from neighbourhood of fire. 2. Smothering: In this method, oxygen is excluded in the surrounding atmosphere, thereby leading to fire extinguishment. Smothering can be achieved by using sand, blanketing, or by the use of dry chemical extinguishers. 3. Cooling: The most commonly used firefighting medium is water. Water, cools the burning material thereby achieving fire extinguishment.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "pp. 8-9",
+   "notes": "Stmt 1 (starvation=remove fuel) and 3 (cooling, water most common) true; stmt 2 false: smothering excludes oxygen, it is not cooling with water (c10)."
+  },
+  {
+   "id": "q05",
+   "answer": "বালি দিয়ে ঢাকা — চাপা দেওয়া (Smothering)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The principles of fire extinguishment consist of one of the following three elements: 1. Starvation: Starvation is achieved in three ways: i. By removing potential fuel from neighbourhood of fire. 2. Smothering: In this method, oxygen is excluded in the surrounding atmosphere, thereby leading to fire extinguishment. Smothering can be achieved by using sand, blanketing, or by the use of dry chemical extinguishers. 3. Cooling: The most commonly used firefighting medium is water. Water, cools the burning material thereby achieving fire extinguishment.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "pp. 8-9",
+   "notes": "Sand is a smothering method per c10."
+  },
+  {
+   "id": "q06",
+   "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "LIKELY",
+   "also_defensible": "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+   "quote": "The principles of fire extinguishment consist of one of the following three elements: 1. Starvation: Starvation is achieved in three ways: i. By removing potential fuel from neighbourhood of fire. 2. Smothering: In this method, oxygen is excluded in the surrounding atmosphere, thereby leading to fire extinguishment. Smothering can be achieved by using sand, blanketing, or by the use of dry chemical extinguishers. 3. Cooling: The most commonly used firefighting medium is water. Water, cools the burning material thereby achieving fire extinguishment.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "pp. 8-9",
+   "notes": "Claims define starvation as removing fuel from the neighbourhood of the fire (c10) but do not explicitly discuss splitting a burning pile; both A and R are consistent with that principle and R plausibly explains A. Option 3 is also defensible because the claims do not state this exact mechanism."
+  },
+  {
+   "id": "q07",
+   "answer": "শ্রেণি A",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "According to IS15683: 2018, there are five classes of fires, namely: Class A fire: Fires involving solid combustible materials of organic nature such as paper, plastics, rubber etc.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 6",
+   "notes": "Class A = solid combustibles incl. paper, plastics, rubber (c04)."
+  },
+  {
+   "id": "q08",
+   "answer": "শ্রেণি B",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Class B fire: Fires involving flammable liquids e.g. diesel, petrol, naphtha etc.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 6",
+   "notes": "Class B = flammable liquids incl. petrol, diesel, naphtha (c05)."
+  },
+  {
+   "id": "q09",
+   "answer": "শ্রেণি C",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Class C fire: Fires involving flammable gases under pressure including liquefied gases e.g. LPG, PNG etc.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 7",
+   "notes": "Class C = flammable gases under pressure incl. LPG, PNG (c06)."
+  },
+  {
+   "id": "q10",
+   "answer": "শ্রেণি D",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Class D fire: Fires involving combustible metals, such as magnesium, aluminium, zinc, sodium, potassium, etc,",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 7",
+   "notes": "Class D = combustible metals incl. magnesium, sodium, potassium (c07)."
+  },
+  {
+   "id": "q11",
+   "answer": "জল বাষ্পে পরিণত হয়ে জ্বলন্ত তেল ছিটকে দেয় এবং আগুন বাড়িয়ে দেয়",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Class F fire: Fires involving cooking oils and fats. The characteristic of these fires is that the boiling point of these liquids is quite high (> 200 C) and as the heated oil reaches these temperatures, water cannot be applied as it will convert to steam and cause the burning oil to splash out and increase the fire.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 7",
+   "notes": "Water converts to steam and splashes burning oil, increasing the fire (c08)."
+  },
+  {
+   "id": "q12",
+   "answer": "শুধু ১ ও ৩",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "According to IS15683: 2018, there are five classes of fires, namely: Class A fire: Fires involving solid combustible materials of organic nature such as paper, plastics, rubber etc.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 6",
+   "notes": "IS 15683:2018 has five classes (A, B, C, D, F per c04-c08); no Class E exists in that standard (Class E appears only in the WB Rules, c41). Stmt 3 true per c08."
+  },
+  {
+   "id": "q13",
+   "answer": "ক, খ ও গ সঠিক; ঘ ভুল",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Class D fire: Fires involving combustible metals, such as magnesium, aluminium, zinc, sodium, potassium, etc,",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 7",
+   "notes": "A, B, C correct per c04-c06; D is combustible metals, not cooking oil (cooking oil is Class F, c08), so pair D is wrong."
+  },
+  {
+   "id": "q14",
+   "answer": "শুষ্ক রাসায়নিক, ফোম, জল ও CO₂ ধরন",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Different types of fire extinguishers are designed to fight above classes of fire. The four most common types of fire extinguishers are: dry chemical type, foam type, water type, CO2 (carbon dioxide) type.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 7",
+   "notes": "Four most common types listed in c09."
+  },
+  {
+   "id": "q15",
+   "answer": "সোডা-অ্যাসিড, গ্যাস/বহিষ্কৃত জল ও অ্যান্টিফ্রিজ ধরনের নির্বাপক এবং জলের বালতি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "A. Fires in ordinary combustibles (wood, vegetable fibres, paper and the like). Chemical extinguishers of sodaacid, gas/expelled water and antifreeze types, and water buckets.",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette p. 28)",
+   "notes": "WB Schedule-I Class A appliances per c37."
+  },
+  {
+   "id": "q16",
+   "answer": "ফোম, CO₂ ও শুষ্ক পাউডার ধরনের নির্বাপক এবং বালির বালতি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "B. Fires in flammable liquids, paints, grease, solvent and the like. Chemical extinguishers of foam, carbondioxide and dry powder types and sand buckets.",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette p. 28)",
+   "notes": "WB Schedule-I Class B appliances per c38."
+  },
+  {
+   "id": "q17",
+   "answer": "শ্রেণি E — CO₂ ও শুষ্ক পাউডার ধরনের নির্বাপক এবং বালির বালতি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "E. Fires in electrical equipments. Chemical extinguishers of carbondioxide and dry powder type and sand buckets.",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette p. 28)",
+   "notes": "WB Schedule-I Class E (electrical) appliances per c41."
+  },
+  {
+   "id": "q18",
+   "answer": "প্রতি ১০০ বর্গমিটার মেঝে-এলাকায় একটি ৯ লিটার বালতি এবং প্রতি ছয় বালতিতে একটি ৯ লিটার জল-ধরনের নির্বাপক",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(2) One 9 litres water bucket shall be provided for every 100 sq. m. of the floor area or part thereof and one 9 litres water type extinguisher shall be provided to six buckets as per compartment of the buiiding.",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette p. 28)",
+   "notes": "Bucket/extinguisher scale per c42."
+  },
+  {
+   "id": "q19",
+   "answer": "কোনো ব্যক্তিকে নিকটতম সরঞ্জাম পর্যন্ত ১৫ মিটারের বেশি যেতে হবে না",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(5) The first aid fire fighting equipments shall be so distributed over the entire floor area that a person has to travel not more than 15m. to reach the nearest equipment. It shall always be borne in mind while selecting sites that first aid fire fighting equipmens are intended only for use on incipient fires",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette pp. 28-29)",
+   "notes": "Travel distance not more than 15 m per c43."
+  },
+  {
+   "id": "q20",
+   "answer": "সেগুলির তলা মেঝে থেকে ৭৫০ মিলিমিটার উঁচুতে থাকবে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(b) Buckets and extinguishers shall be placed at convenient and easily accessible locations either on hangers or on stands in such a way that their bottom is 750mm. above the floor level.",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette p. 29)",
+   "notes": "Bottom 750 mm above floor per c44."
+  },
+  {
+   "id": "q21",
+   "answer": "যন্ত্রপাতির ১৫ মিটারের মধ্যে কমপক্ষে দুটি ২ কেজি শুষ্ক পাউডার বা CO₂ নির্বাপক",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(a) For rooms containing electrical transformers, switchgears, motors and/or other electrical apparatus only, not less than two 2 kg. dry powder or Carbon-Dioxide type extinguisher shall be provided within 15m. of the apparatus.",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette p. 28)",
+   "notes": "Not less than two 2 kg dry powder or CO2 extinguishers within 15 m per c47."
+  },
+  {
+   "id": "q22",
+   "answer": "শ্রেণি D (বিক্রিয়াশীল রাসায়নিক, সক্রিয় ধাতু) — বিশেষ ধরনের শুষ্ক পাউডার নির্বাপক ও বালির বালতি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "D. Fires in reactive chemica's, active metals and the like. Special type of dry powder extinguishers and sand buckets.",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Schedule-I (Gazette p. 28)",
+   "notes": "Class D: special dry powder extinguishers and sand buckets per c40; other pairs contradict c37/c38/c41."
+  },
+  {
+   "id": "q23",
+   "answer": "নির্বাপক আগুনের বিরুদ্ধে প্রথম প্রতিরক্ষা-সারি; নির্বাচন, স্থাপন ও রক্ষণাবেক্ষণের জন্য IS 2190 দেখতে হয়",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Fire extinguishers are the first line of defence against a fire. Fire extinguishers should be installed throughout the building premises. The fire extinguishers should be suitable to the fire hazard anticipated in the area, e.g. near an electrical apparatus CO2 type fire extinguisher should be installed. Further details on selection, installation and maintenance of fire extinguisher IS 2190 should be referred.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "Part B, Fire Extinguishers",
+   "notes": "First line of defence; IS 2190 for selection, installation and maintenance (c15)."
+  },
+  {
+   "id": "q24",
+   "answer": "ধারা ৩৮",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "38. Precautions in case of fire.—(1) In every factory, all practicable measures shall he taken to prevent outbreak of fire and its spread, both internally and externally, and to provide and maintain— (a) safe means of escape for all persons in the event of a fire, and (b) the necessary equipment and facilities for extinguishing fire.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 38",
+   "notes": "Section 38 is Precautions in case of fire (c22, c33)."
+  },
+  {
+   "id": "q25",
+   "answer": "এটি ১৯৪৮-এর ৬৩ নং আইন এবং কার্যকর হয় ১ এপ্রিল ১৯৪৯ থেকে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "ACT NO. 63 OF 19481 [23rd September, 1948.] (3) It shall come into force on the 1st day of April, 1949.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Chapter I, Section 1",
+   "notes": "Act 63 of 1948, in force 1 April 1949 (c21)."
+  },
+  {
+   "id": "q26",
+   "answer": "১, ২ ও ৩ — সবই সঠিক",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "38. Precautions in case of fire.—(1) In every factory, all practicable measures shall he taken to prevent outbreak of fire and its spread, both internally and externally, and to provide and maintain— (a) safe means of escape for all persons in the event of a fire, and (b) the necessary equipment and facilities for extinguishing fire.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 38",
+   "notes": "All three statements track Section 38(1) verbatim (c22)."
+  },
+  {
+   "id": "q27",
+   "answer": "সব শ্রমিক পলায়নের উপায়ের সঙ্গে পরিচিত থাকবেন এবং অনুসরণীয় পদ্ধতিতে পর্যাপ্ত প্রশিক্ষণ পাবেন — এমন কার্যকর ব্যবস্থা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(2) Effective measures shall be taken to ensure that in every factory all the workers are familiar with the means of escape in case of fire and have been adequately trained in the routine to be followed in such cases.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 38",
+   "notes": "Section 38(2) per c23."
+  },
+  {
+   "id": "q28",
+   "answer": "পলায়ন-ব্যবস্থা অপর্যাপ্ত মনে হলে লিখিত আদেশে নির্দিষ্ট তারিখের মধ্যে অতিরিক্ত ব্যবস্থা নেওয়ার নির্দেশ দিতে পারেন",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "if the Chief Inspector, having regard to the nature of the work carried on in any factory, the construction of such factory, special risk to life or safety, or any other circumstances, is of the opinion that the measures provided in the factory, whether as prescribed or not, for the purposes of clause (a) of sub-section (1) or sub-section (2), are inadequate, he may, by order in writing, require that such additional measures as he may consider reasonable and necessary, be provided in the factory before such date as is specified in the order.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 38",
+   "notes": "Section 38(4) written order with specified date per c24."
+  },
+  {
+   "id": "q29",
+   "answer": "যতদূর যুক্তিসংগতভাবে সম্ভব, কাজের সময় সব শ্রমিকের স্বাস্থ্য, নিরাপত্তা ও কল্যাণ নিশ্চিত করা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "7A. General duties of the occupier.—(1) Every occupier shall ensure, so far as is reasonably practicable, the health, safety and welfare of all workers while they are at work in the factory.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 7A",
+   "notes": "Section 7A general duties of occupier per c31."
+  },
+  {
+   "id": "q30",
+   "answer": "দুই বছর পর্যন্ত কারাদণ্ড বা এক লক্ষ টাকা পর্যন্ত জরিমানা বা উভয়ই — দখলদার ও ব্যবস্থাপক প্রত্যেকের ওপর",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "92. General penalty for offences.—Save as is otherwise expressly provided in this Act and subject to the provisions of section 93, if in, or in respect of, any factory there is any contravention of any of the provisions of this Act or of any rules made thereunder or of any order in writing given thereunder, the occupier and manager of the factory shall each be guilty of an offence and punishable with imprisonment for a term which may extend to [two years] or with fine which may extend to [one lakh rupees] or with both",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 92",
+   "notes": "Section 92 penalty per c30."
+  },
+  {
+   "id": "q31",
+   "answer": "যেখানে এক হাজার বা তার বেশি শ্রমিক সাধারণত নিযুক্ত — রাজ্য সরকার গেজেট বিজ্ঞপ্তিতে চাইলে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "40B. Safety Officers.—(1) In every factory,— (i) wherein one thousand or more workers arc ordinarily employed, or (ii) wherein, in the opinion of the State Government, any manufacturing process or operation is carried on, which process or operation involves any risk of bodily injury, poisoning or disease, or any other hazard to health, to the persons employed in the factory, the occupier shall, if so required by the State Government by notification in the Official Gazette, employ such number of Safety Officers as may be specified in that notification.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 40B",
+   "notes": "Section 40B: 1000 or more workers, if State Government so requires by Gazette notification (c27)."
+  },
+  {
+   "id": "q32",
+   "answer": "যন্ত্র কার্যকরভাবে আবদ্ধ রাখা, ধুলো-গ্যাস জমতে না দেওয়া বা সরানো, এবং প্রজ্বলনের সব সম্ভাব্য উৎস বাদ দেওয়া",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "37. Explosive or inflammable dust, gas, etc.—(1) Where in any factory any manufacturing process produces dust, gas, fume or vapour of such character and to such extent as to be likely to explode on ignition, all practicable measure shall be taken to prevent any such explosion by— (a) effective enclosure of the plant or machinery used in the process; (b) removal or prevention of the accumulation of such dust, gas, fume or vapour; (c) exclusion or effective enclosure of all possible sources of ignition.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 37",
+   "notes": "Section 37(1) measures per c25."
+  },
+  {
+   "id": "q33",
+   "answer": "আগে পর্যাপ্ত ব্যবস্থা নিয়ে পদার্থ ও ধোঁয়া সরাতে হবে বা সেগুলিকে অবিস্ফোরক বা অদাহ্য করতে হবে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(4) No plant, tank or vessel which contains or has contained any explosive or inflammable substance shall be subjected in any factory to any welding, brazing, soldering or cutting operation which involves the application of heat unless adequate measures have first been taken to remove such substance and any fumes arising therefrom or to render such substance and fumes non-explosive or non-inflammable",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 37",
+   "notes": "Section 37(4) condition per c26."
+  },
+  {
+   "id": "q34",
+   "answer": "অতিরিক্ত বৃষ্টিপাতে ছাদ দিয়ে জল পড়া",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The industrial occupancies have storage of flammable and combustible material like petrol, diesel, naphtha etc. which can easily catch fire. Numerous maintenance and fabrication activities are undertaken in industries like welding, cutting, grinding etc. When above activities are conducted without precautionary measures, then there are chances of fire and explosions. Faulty electrical wiring or frayed wires could cause electrical short circuits in industrial buildings.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 9",
+   "notes": "Causes in c11 are stored flammables, hot work without precautions, and faulty wiring; roof leakage from rain is not among them."
+  },
+  {
+   "id": "q35",
+   "answer": "সিগারেটের টুকরো ভিতরের দাহ্য ও জ্বলনশীল পদার্থ সহজেই জ্বালিয়ে দিতে পারে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Smoking should not be allowed inside industrial premises, the cigarette buds can easily ignite the combustible and flammable material inside the industries.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 10",
+   "notes": "Cigarette butts can ignite combustible/flammable material (c19)."
+  },
+  {
+   "id": "q36",
+   "answer": "উচ্চ লোডের অবস্থায় ট্রিপ করে বৈদ্যুতিক যন্ত্রের অতিরিক্ত গরম হওয়া ও আগুন প্রতিরোধ করে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "ELCB and MCB should be used for electrical wirings and electrical connections. ELCB and MCB trip in event of high load conditions, hence they prevent the overheating and fire in an electrical apparatus.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 11",
+   "notes": "ELCB/MCB trip on high load, preventing overheating and fire (c16)."
+  },
+  {
+   "id": "q37",
+   "answer": "প্রক্রিয়া বা মজুত-ভবন থেকে কমপক্ষে ১০ মিটার দূরে, শুকনো অবস্থায় ও পথ দিয়ে আলাদা করা স্তূপে রাখতে হবে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(c) material Susceptible to spontaneous ignition when stored in the open shall be at a distance not less than 10 metres away from process or storage buildings. shall be stored in dry condition and in heaps of such capacity and separated by such passage so as to prevent spontaneous ignition",
+   "source_url": "https://factories.wb.gov.in/main/files/contents/rules/5_factories_rules_1991.pdf",
+   "page": "Rule 62 amendment (Gazette p. 28)",
+   "notes": "Not less than 10 m, stored dry, heaps separated by passages (c46)."
+  },
+  {
+   "id": "q38",
+   "answer": "শুধু ১ ও ৩",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(4) Every occupier shall, with the approval of the Chief Inspector, draw up an on-site emergency plan and detailed disaster control measures for his factory and make known to the workers employed therein and to the general public living in the vicinity of the factory the safety measures required to be taken in the event of an accident taking place.",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 41B",
+   "notes": "Stmt 1 true (c32); stmt 2 false: plan must be made known to workers and the public in the vicinity (c32); stmt 3 true: work permit system per c20."
+  },
+  {
+   "id": "q39",
+   "answer": "স্লাইডিং ধরনের না হলে দরজাগুলি বাইরের দিকে খুলবে এমনভাবে তৈরি হবে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "27. Precautions in case of fire. Section 38- Every factory shall be provided with adequate means of escape in case of fire for the persons employed therein. The doors affording exit from any room shall, unless they are of the sliding type be constructed to open outwards. Every window, door or other exit in affording a means of escape in a case of fire, other than the means of exit in ordinary use shall be distinctively marked. Effective and clearly audible means of giving warning in a case of fire to every person employed in the factory shall be provided.",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Item 27",
+   "notes": "Exit doors unless sliding must open outwards (c34)."
+  },
+  {
+   "id": "q40",
+   "answer": "মেঝের ওপরে কোনো জায়গায় সাধারণত কুড়িজনের বেশি শ্রমিক নিযুক্ত থাকলে, অথবা বিস্ফোরক বা অত্যন্ত দাহ্য পদার্থ ব্যবহৃত বা মজুত হলে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Effective measures shall be taken to ensure that wherein more than twenty workers are ordinarily employed in any place above the ground floor or where in explosive or highly inflammable materials are used or stored all the workers are familiar with the means of escape in ease of fire and have been adequately trained in the routine to be followed in such case.",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Item 27",
+   "notes": "More than twenty workers above ground floor, or explosive/highly inflammable materials used or stored (c35)."
+  },
+  {
+   "id": "q41",
+   "answer": "নিরাপদ জায়গায় গিয়ে ১০১ নম্বরে ডায়াল করে নিকটতম দমকল কেন্দ্রকে সতর্ক করা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "If you cannot extinguish the fire then run to a place of safety and alert the nearest fire station by dialling 101.",
+   "source_url": "https://gidm.gujarat.gov.in/sites/default/files/Handbook-Industrial-Buildings-Eng.pdf?download=true",
+   "page": "p. 12",
+   "notes": "Run to safety and dial 101 to alert nearest fire station (c13)."
+  },
+  {
+   "id": "q42",
+   "answer": "কারখানা আইন (১৯৪৮) → পশ্চিমবঙ্গ অগ্নি পরিষেবা আইন (১৯৫০) → পশ্চিমবঙ্গ কারখানা বিধি (১৯৫৮) → ধারা ৩৮ প্রতিস্থাপন (১৯৮৭)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "3. Subs. by s. 19, ibid., for section 38 (w.e.f. 1-12-1987).",
+   "source_url": "https://cdn.s3waas.gov.in/s3bf62768ca46b6c3b5bea9515d1a1fc45/uploads/2025/07/17538667858907.pdf",
+   "page": "Section 38, footnote 3",
+   "notes": "Chronology from claims: Factories Act 1948 (c21), WB Fire Services Act 1950 (c49), WB Factories Rules 1958 (c50), Section 38 substituted w.e.f. 1-12-1987 (c51)."
+  }
+ ]
+}

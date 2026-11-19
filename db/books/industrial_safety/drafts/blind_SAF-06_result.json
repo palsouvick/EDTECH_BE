@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "জল, বায়ু ও ভূমি এবং মানুষসহ সব জীব, উদ্ভিদ, অণুজীব ও সম্পত্তির সঙ্গে তাদের আন্তঃসম্পর্ক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "\"environment\" includes water, air and land and the interrelationship which exists among and between water, air and land, and human beings, other living creatures, plants, micro-organism and property; (b) \"environmental pollutant\" means any solid, liquid or gaseous substance present in such concentration as may be, or tend to be, injurious to environment; (c) \"environmental pollution\" means the presence in the environment of any environmental pollutant",
+      "source_url": "https://chocmms.nic.in/SPCB_DOCUMENTS/EPAct1986.pdf",
+      "page": "Section 2",
+      "notes": "EPA Sec 2 definition of environment."
+    },
+    {
+      "id": "q02",
+      "answer": "পরিবেশে কোনো পরিবেশগত দূষকের উপস্থিতি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "\"environment\" includes water, air and land and the interrelationship which exists among and between water, air and land, and human beings, other living creatures, plants, micro-organism and property; (b) \"environmental pollutant\" means any solid, liquid or gaseous substance present in such concentration as may be, or tend to be, injurious to environment; (c) \"environmental pollution\" means the presence in the environment of any environmental pollutant",
+      "source_url": "https://chocmms.nic.in/SPCB_DOCUMENTS/EPAct1986.pdf",
+      "page": "Section 2",
+      "notes": "EPA Sec 2: environmental pollution = presence of any environmental pollutant."
+    },
+    {
+      "id": "q03",
+      "answer": "শিল্প, প্রক্রিয়া বা শোধন-নিষ্পত্তি ব্যবস্থা চালানো প্রাঙ্গণ থেকে নিষ্কাশিত তরল, গ্যাসীয় বা কঠিন পদার্থ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "\"trade effluent\" includes any liquid, gaseous or solid substance which is discharged from any premises used for carrying on any \"Industry, operation or process, or treatment and disposal system\" other than domestic sewage.",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 2(k)",
+      "notes": "Sec 2(k) trade effluent; domestic sewage excluded."
+    },
+    {
+      "id": "q04",
+      "answer": "শব্দ (noise)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "\"air pollutant\" means any solid, liquid or gaseous substance [(including noise)] present in the atmosphere in such concentration as may be or tend to be injurious to human beings or other living creatures or plants or property or environment; (b) \"air pollution\" means the presence in the atmosphere of any air pollutant",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 2(a)-(b)",
+      "notes": "Air Act Sec 2(a) includes noise in air pollutant."
+    },
+    {
+      "id": "q05",
+      "answer": "শুধু ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "\"pollution\" means such contamination of water or such alteration of the physical, chemical or biological properties of water or such discharge of any sewage or trade effluent or of any other liquid, gaseous or solid substance into water (whether directly or indirectly) as may, or is likely to, create a nuisance or render such water harmful or injurious to public health or safety",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 2(e)",
+      "notes": "Stmt1 false (physical/chemical/biological all covered), stmt2 true, stmt3 false (pollutant can be solid/liquid/gaseous per c34)."
+    },
+    {
+      "id": "q06",
+      "answer": "দূষণ (pollution)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "\"pollution\" means such contamination of water or such alteration of the physical, chemical or biological properties of water or such discharge of any sewage or trade effluent or of any other liquid, gaseous or solid substance into water (whether directly or indirectly) as may, or is likely to, create a nuisance or render such water harmful or injurious to public health or safety",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 2(e)",
+      "notes": "Sec 2(e) defines pollution."
+    },
+    {
+      "id": "q07",
+      "answer": "A ও R দুটোই সত্য, এবং R, A-কে ব্যাখ্যা করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "\"air pollutant\" means any solid, liquid or gaseous substance [(including noise)] present in the atmosphere in such concentration as may be or tend to be injurious to human beings or other living creatures or plants or property or environment; (b) \"air pollution\" means the presence in the atmosphere of any air pollutant",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 2(a)-(b)",
+      "notes": "Noise expressly included, so A true, R true and explanatory."
+    },
+    {
+      "id": "q08",
+      "answer": "জল (দূষণ প্রতিরোধ ও নিয়ন্ত্রণ) আইন, ১৯৭৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Central Pollution Control Board (CPCB), statutory organisation, was constituted in September, 1974 under the Water (Prevention and Control of Pollution) Act, 1974.",
+      "source_url": "https://cpcb.nic.in/Introduction/",
+      "page": "Introduction page",
+      "notes": "CPCB constituted under Water Act 1974."
+    },
+    {
+      "id": "q09",
+      "answer": "ধারা ৩ ও ধারা ৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "constitute a Central Board to be called the [Central Pollution Control Board] to exercise the powers conferred on and perform the functions assigned to that Board under this Act.",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 3",
+      "notes": "Sec 3 Central Board (c06) and Sec 4 State Board (c07)."
+    },
+    {
+      "id": "q10",
+      "answer": "সেপ্টেম্বর ১৯৭৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Central Pollution Control Board (CPCB), statutory organisation, was constituted in September, 1974 under the Water (Prevention and Control of Pollution) Act, 1974.",
+      "source_url": "https://cpcb.nic.in/Introduction/",
+      "page": "Introduction page",
+      "notes": "Constituted September 1974."
+    },
+    {
+      "id": "q11",
+      "answer": "রাজ্যগুলির বিভিন্ন এলাকায় ঝরনা ও কূপের পরিষ্কার-পরিচ্ছন্নতা বাড়ানো",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the main function of the Central Board shall be to promote cleanliness of streams and wells in different areas of the States.",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 16(1)",
+      "notes": "Sec 16(1) main function."
+    },
+    {
+      "id": "q12",
+      "answer": "পয়ঃবর্জ্য ও শিল্প-বর্জ্যের নির্গমন-মান নির্ধারণ, পরিবর্তন বা বাতিল করা এবং রাজ্যের জলভাগের শ্রেণিবিন্যাস করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "lay down, modify or annul effluent standards for the sewage and trade effluents and for the quality of receiving waters (not being water in an interState stream) resulting from the discharge of effluents and to classify waters of the State",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 17(1)(g)",
+      "notes": "Sec 17(1)(g) effluent standards + classify waters."
+    },
+    {
+      "id": "q13",
+      "answer": "কেন্দ্রীয় বোর্ড (CPCB) নিজেই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "no State Board shall be constituted for a Union territory and in relation to a Union territory, the Central Board shall exercise the powers and perform the functions of a State Board for that Union territory",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 4(4)",
+      "notes": "Sec 4(4): no State Board for UT; Central Board acts."
+    },
+    {
+      "id": "q14",
+      "answer": "চার মাস",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The consent referred to in subsection (1) shall, unless given or refused earlier, be deemed to have been given unconditionally on the expiry of a period of four months of the making of an application in this behalf complete in all respects to the State Board.",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Section 25(7)",
+      "notes": "Sec 25(7) four months deemed consent."
+    },
+    {
+      "id": "q15",
+      "answer": "অনুচ্ছেদ ২৫২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "in pursuance of clause (1) of article 252 of the Constitution resolutions have been passed by all the Houses of the Legislatures of the States of Assam, Bihar, Gujrat, Haryana, Himachal Pradesh, Jammu and Kashmir, Karnataka, Kerala, Madhya Pradesh, Rajasthan, Tripura and West Bengal",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Preamble",
+      "notes": "Article 252(1) resolutions."
+    },
+    {
+      "id": "q16",
+      "answer": "১, ২ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "NO. 6 OF 1974 [23rd March, 1974.]",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_MP_74_308_00001_00001_1543231213781&type=actfile&filename=water_act_1974.pdf",
+      "page": "Act heading",
+      "notes": "All three true: Act 6 of 1974 (c01), Sec 24 bar (c13), coordination/disputes (c10)."
+    },
+    {
+      "id": "q17",
+      "answer": "১৯৮১ সালের ১৪ নং আইন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Act No. 14 of 1981 [29th March, 1981] An Act to provide for the prevention, control and abatement of air pollution",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Act heading",
+      "notes": "Air Act No. 14 of 1981."
+    },
+    {
+      "id": "q18",
+      "answer": "১৬ মে ১৯৮১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "16-5-1981: vide notification No. G.S.R. 351 (E), dated 15-5-1981, Gazette of India, Extraordinary, Part II, Section 3(i) page 944.",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 1 footnote",
+      "notes": "In force 16 May 1981."
+    },
+    {
+      "id": "q19",
+      "answer": "জল আইনের অধীনে গঠিত CPCB-ই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Central Pollution Control Board constituted under section 3 of the Water (Prevention and Control of Pollution) Act, 1974 (6 of 1974), shall, without prejudice to the exercise and performance of its powers and functions under that Act, exercise the powers and perform the functions of the Central Pollution Control Board for the prevention and control of air pollution under this Act.",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 3",
+      "notes": "Air Act Sec 3: Water Act CPCB serves as Central Board for air."
+    },
+    {
+      "id": "q20",
+      "answer": "ধারা ১৯",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The State Government may, after consultation with the State Board, by notification in the Official Gazette declare in such manner as may be prescribed, any area or areas within the State as air pollution control area or areas for the purposes of this Act.",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 19(1)",
+      "notes": "Sec 19 declaration of air pollution control area."
+    },
+    {
+      "id": "q21",
+      "answer": "রাজ্য বোর্ডের (SPCB)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "no person shall, without the previous consent of the State Board, establish or operate any industrial plant in an air pollution control area",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 21(1)",
+      "notes": "Sec 21(1) previous consent of State Board."
+    },
+    {
+      "id": "q22",
+      "answer": "বায়ু দূষণ নিয়ন্ত্রণ এলাকায় রাজ্য বোর্ডের নির্ধারিত মানের বেশি বায়ু দূষক নির্গমন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "No person operating any industrial plant, in any air pollution control area shall discharge or cause or permit to be discharged the emission of any air pollutant in excess of the standards laid down by the State Board under clause (g) of sub-section (1) of section 17.",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 22",
+      "notes": "Sec 22 bars discharge in excess of State Board standards."
+    },
+    {
+      "id": "q23",
+      "answer": "ধারা ১৯ — বায়ু দূষণ নিয়ন্ত্রণ এলাকা ঘোষণা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The State Government may, after consultation with the State Board, by notification in the Official Gazette declare in such manner as may be prescribed, any area or areas within the State as air pollution control area or areas for the purposes of this Act.",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Section 19(1)",
+      "notes": "Only Sec 19 pairing is correct; Sec 21=consent (c28), Sec 22=excess discharge (c29), Sec 16=Central Board functions."
+    },
+    {
+      "id": "q24",
+      "answer": "ছাতা (আমব্রেলা) আইন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "This umbrella Act was introduced to protect and improve the environment on a holistic basis with a necessary legal framework for ensuring the same. The Act also provides the Government of India the power to notify any Rules, as felt necessary, for protection and improvement of the environment.",
+      "source_url": "https://www.wbpcb.gov.in/files/Th-12-2022-12-52-08Annual%20Report%202020-21.pdf",
+      "page": "Chapter 1",
+      "notes": "WBPCB describes EPA 1986 as umbrella Act."
+    },
+    {
+      "id": "q25",
+      "answer": "১৯ নভেম্বর ১৯৮৬",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It came into force in the whole of India on 19th November, 1986 vide Notification No. G.S.R. 1198(E) dated 12-11-86 published in the Gazette of India No. 525 dated 12-11-86.",
+      "source_url": "https://chocmms.nic.in/SPCB_DOCUMENTS/EPAct1986.pdf",
+      "page": "Section 1 footnote",
+      "notes": "In force whole of India 19 Nov 1986."
+    },
+    {
+      "id": "q26",
+      "answer": "পরিবেশের গুণমান রক্ষা ও উন্নতি এবং দূষণ প্রতিরোধ, নিয়ন্ত্রণ ও হ্রাসের জন্য প্রয়োজনীয় মনে করা সব ব্যবস্থা নেওয়ার ক্ষমতা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the Central Government, shall have the power to take all such measures as it deems necessary or expedient for the purpose of protecting and improving the quality of the environment and preventing controlling and abating environmental pollution.",
+      "source_url": "https://chocmms.nic.in/SPCB_DOCUMENTS/EPAct1986.pdf",
+      "page": "Section 3(1)",
+      "notes": "Sec 3(1) all measures deemed necessary/expedient."
+    },
+    {
+      "id": "q27",
+      "answer": "কোনো শিল্প, প্রক্রিয়া বা কার্যক্রম বন্ধ, নিষিদ্ধ বা নিয়ন্ত্রণ করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the power to issue directions under this section includes the power to direct-- (a) the closure, prohibition or regulation of any industry, operation or process; or (b) stoppage or regulation of the supply of electricity or water or any other service.",
+      "source_url": "https://chocmms.nic.in/SPCB_DOCUMENTS/EPAct1986.pdf",
+      "page": "Section 5, Explanation",
+      "notes": "Sec 5 includes closure/prohibition/regulation."
+    },
+    {
+      "id": "q28",
+      "answer": "নির্ধারিত মানের বেশি পরিবেশগত দূষক নির্গত বা নিষ্কাশন করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "No person carrying on any industry, operation or process shall discharge or emit or permit to be discharged or emitted any environmental pollutants in excess of such standards as may be prescribed",
+      "source_url": "https://chocmms.nic.in/SPCB_DOCUMENTS/EPAct1986.pdf",
+      "page": "Section 7",
+      "notes": "Sec 7 bars discharge/emit in excess of standards."
+    },
+    {
+      "id": "q29",
+      "answer": "ধারা ৬",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "such rules may provide for all or any of the following matters, namely:-- (a) the standards of quality of air, water or soil for various areas and purposes; (b) the maximum allowable limits of concentration of various environmental pollutants (including noise) for different areas",
+      "source_url": "https://chocmms.nic.in/SPCB_DOCUMENTS/EPAct1986.pdf",
+      "page": "Section 6(2)(a)-(b)",
+      "notes": "Sec 6(2)(a)-(b) quality standards + max limits incl noise."
+    },
+    {
+      "id": "q30",
+      "answer": "২, ১, ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Act No. 14 of 1981 [29th March, 1981] An Act to provide for the prevention, control and abatement of air pollution",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/21429/1/the_air_%28prevention_and_control_of_pollution%29_act%2c_1981.pdf",
+      "page": "Act heading",
+      "notes": "Water 1974 (c01), Air 1981 (c20), EPA 1986 (c31) => 2,1,3."
+    },
+    {
+      "id": "q31",
+      "answer": "বর্জ্য জল নিষ্কাশন বা বায়ু দূষক নির্গমনের জন্য বোর্ডের অনুমোদন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Consent means the sanction of the authority of the Board for the discharge of the effluent (sewage or trade effluent into a stream or well or sewer or on land ) or emission of air pollutant into the atmosphere. The consent issued by Board under section 25/26 of the Water (Prevention and Control of Pollution) Act 1974 is known as water consent and under section 21 of the Air (Prevention and Control of Pollution) Act, 1981 is known as air consent",
+      "source_url": "https://chocmms.nic.in/index.gsp",
+      "page": "Consent FAQ",
+      "notes": "Consent = Board sanction for effluent discharge / air emission."
+    },
+    {
+      "id": "q32",
+      "answer": "CTE — Consent to Establish (স্থাপনের সম্মতি); CTO — Consent to Operate (পরিচালনার সম্মতি)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "CTE: Consent to Establishment CTO: Consent to Operate",
+      "source_url": "https://cpcb.gov.in/openpdffile.php?id=TGF0ZXN0RmlsZS9fMTczNzYxMzk2OV9tZWRpYXBob3RvMTEzODMucGRm?",
+      "page": "List of Abbreviations",
+      "notes": "CPCB abbreviations: CTE Consent to Establishment, CTO Consent to Operate."
+    },
+    {
+      "id": "q33",
+      "answer": "লাল (Red) শ্রেণি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Industrial areas with a pollution index of 60 and above – Red Category; Industrial areas with a pollution index of 41 to 59 – Orange Category; Industrial areas with a pollution index of 21 to 40 – Green Category; Industrial areas with a pollution index of up to 20 – White Category",
+      "source_url": "https://mpcb.gov.in/index.php/en/consentmgt/revised-industry-categorization",
+      "page": "Pollution Index Category",
+      "notes": "2016 bands: PI 60 and above = Red."
+    },
+    {
+      "id": "q34",
+      "answer": "সংশ্লিষ্ট SPCB/PCC-কে শুধু অবহিত করা (intimation)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Industries in the 'White' category do not need to obtain 'Consent to Operate' approval; a notification to the concerned SPCB/PCC is sufficient.",
+      "source_url": "https://mpcb.gov.in/index.php/en/consentmgt/revised-industry-categorization",
+      "page": "Key features",
+      "notes": "White category: no CTO needed, intimation sufficient."
+    },
+    {
+      "id": "q35",
+      "answer": "জল দূষণ, বায়ু দূষণ ও বিপজ্জনক বর্জ্য উৎপাদন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In 2016, the Central Pollution Control Board (CPCB) developed a scoring methodology based on the Pollution Index (PI) to harmonize the criteria for categorizing industries. This PI was determined by evaluating water pollution, air pollution, and hazardous waste generation.",
+      "source_url": "https://cpcb.gov.in/openpdffile.php?id=TGF0ZXN0RmlsZS9fMTczNzYxMzk2OV9tZWRpYXBob3RvMTEzODMucGRm?",
+      "page": "Executive Summary",
+      "notes": "2016 PI determined by water pollution, air pollution, hazardous waste generation."
+    },
+    {
+      "id": "q36",
+      "answer": "শুধু ১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "if PI ≥ 80 the category of sector is Red, if PI ranges between 55 ≤ PI < 80, the category of sector is orange, similarly for the range of PI between 25 ≤ PI < 55, the category is Green and for PI < 25, the category of the sector is white.",
+      "source_url": "https://cpcb.gov.in/openpdffile.php?id=TGF0ZXN0RmlsZS9fMTczNzYxMzk2OV9tZWRpYXBob3RvMTEzODMucGRm?",
+      "page": "Executive Summary",
+      "notes": "Stmt1 true (PI>=80 Red, c50), stmt2 true (Blue for domestic-waste ESS, c51), stmt3 false (White is PI<25)."
+    },
+    {
+      "id": "q37",
+      "answer": "ক-২, খ-৪, গ-১, ঘ-৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Industrial areas with a pollution index of 60 and above – Red Category; Industrial areas with a pollution index of 41 to 59 – Orange Category; Industrial areas with a pollution index of 21 to 40 – Green Category; Industrial areas with a pollution index of up to 20 – White Category",
+      "source_url": "https://mpcb.gov.in/index.php/en/consentmgt/revised-industry-categorization",
+      "page": "Pollution Index Category",
+      "notes": "Red 60+=2, Orange 41-59=4, Green 21-40=1, White up to 20=3."
+    },
+    {
+      "id": "q38",
+      "answer": "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In exercise of the powers conferred by clause (ii) of sub-section (2) of section 3, sub-section (1) and clause (b) of sub-section (2) of section 6 and section 25 of the Environment (Protection) Act, 1986 (29 of 1986) read with rule 5 of the Environment (Protection) Rules, 1986, the Central Government hereby makes the following rules for the regulation and control of noise producing and generating sources, namely: The Noise Pollution (Regulation and Control) Rules, 2000",
+      "source_url": "https://forest.odisha.gov.in/sites/default/files/2022-03/The%20Noise%20Pollution%20%28Regulation%20and%20Control%29%20Rules%2C%202000.pdf?ref=slightlyacidic.com",
+      "page": "Preamble",
+      "notes": "Noise Rules made under EPA 1986 Secs 3, 6, 25."
+    },
+    {
+      "id": "q39",
+      "answer": "দিনে ৫০ dB(A), রাতে ৪০ dB(A)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "(A) Industrial area 75 70 (B) Commercial area 65 55 (C) Residential area 55 45 (D) Silence Zone 50 40",
+      "source_url": "https://forest.odisha.gov.in/sites/default/files/2022-03/The%20Noise%20Pollution%20%28Regulation%20and%20Control%29%20Rules%2C%202000.pdf?ref=slightlyacidic.com",
+      "page": "Schedule",
+      "notes": "Silence Zone 50 day / 40 night dB(A)."
+    },
+    {
+      "id": "q40",
+      "answer": "হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারপাশে কমপক্ষে ১০০ মিটার এলাকা, যা রাজ্য সরকার ঘোষণা করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "An area comprising not less than 100 metres around hospitals, educational institutions and courts may be declared (by the State Government) as silence area/zone for the purpose of these rules.",
+      "source_url": "https://forest.odisha.gov.in/sites/default/files/2022-03/The%20Noise%20Pollution%20%28Regulation%20and%20Control%29%20Rules%2C%202000.pdf?ref=slightlyacidic.com",
+      "page": "Rule 3(5)",
+      "notes": "Not less than 100 m around hospitals, educational institutions, courts, declared by State Govt."
+    },
+    {
+      "id": "q41",
+      "answer": "রাজ্য স্তরে — SEIAA-তে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The projects are categorized as 'A' category and 'B' category projects. A category projects are appraised at MoEFCC, New Delhi and the B category projects are appraised at the SEIAA, West Bengal. The B category projects are also sub categorized into B1 and B2 category depending upon environment impact potential.",
+      "source_url": "https://www.wbpcb.gov.in/files/Th-12-2022-12-52-08Annual%20Report%202020-21.pdf",
+      "page": "Chapter 2",
+      "notes": "B category appraised at SEIAA; A at MoEFCC."
+    },
+    {
+      "id": "q42",
+      "answer": "১, ২ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The National Green Tribunal has been established on 18.10.2010 under the National Green Tribunal Act 2010 for effective and expeditious disposal of cases relating to environmental protection and conservation of forests and other natural resources including enforcement of any legal right relating to environment and giving relief and compensation for damages to persons and property and for matters connected therewith or incidental thereto.",
+      "source_url": "https://www.greentribunal.gov.in/about-us",
+      "page": "About Us",
+      "notes": "All true: established 18.10.2010 (c67); Kolkata a sitting place and 6-month endeavour (c68)."
+    }
+  ]
+}

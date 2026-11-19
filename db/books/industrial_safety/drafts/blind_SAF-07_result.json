@@ -1,0 +1,426 @@
+{
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "১৯৪৯ সালের ১ এপ্রিল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "It shall come into force on the 1st day of April 1949.",
+   "source_url": "https://labour.delhi.gov.in/it/chapter-1",
+   "page": "Chapter I, s.1",
+   "notes": ""
+  },
+  {
+   "id": "q02",
+   "answer": "১০ জন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Whereon ten or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on with the aid of power, or is ordinarily so carried on, or (ii) Whereon twenty or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on without the aid of power",
+   "source_url": "https://labour.delhi.gov.in/it/chapter-1",
+   "page": "Chapter I, s.2(m)",
+   "notes": ""
+  },
+  {
+   "id": "q03",
+   "answer": "রেলওয়ে রানিং শেড",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "But does not include a mine subject to the operation of the Mines Act, 1952 (35 of 1952), or a mobile unit belonging to the armed forces of the Union, railway running shed or a hotel, restaurant or eating place",
+   "source_url": "https://labour.delhi.gov.in/it/chapter-1",
+   "page": "Chapter I, s.2(m)",
+   "notes": ""
+  },
+  {
+   "id": "q04",
+   "answer": "যাঁর হাতে কারখানার বিষয়গুলির চূড়ান্ত নিয়ন্ত্রণ আছে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "\"Occupier\" of a factory means the person who has ultimate control over the affairs of the factory",
+   "source_url": "https://labour.delhi.gov.in/it/chapter-1",
+   "page": "Chapter I, s.2(n)",
+   "notes": ""
+  },
+  {
+   "id": "q05",
+   "answer": "প্রাপ্তবয়স্ক = ১৮ বছর পূর্ণ; বিপজ্জনক প্রক্রিয়া = প্রথম তফসিলভুক্ত শিল্পের প্রক্রিয়া যেখানে বিশেষ যত্ন না নিলে স্বাস্থহানি বা পরিবেশ-দূষণ ঘটতে পারে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "\"Adult\" means a person who has completed his eighteenth year of age",
+   "source_url": "https://labour.delhi.gov.in/it/chapter-1",
+   "page": "Chapter I, s.2(a)",
+   "notes": "Adult from c05; hazardous process (First Schedule) from c06."
+  },
+  {
+   "id": "q06",
+   "answer": "প্রাইম মুভারের চলমান অংশ ও ফ্লাই-হুইল শক্ত নির্মাণের রক্ষাকবচে ঘেরা থাকতে হবে এবং যন্ত্র চলা অবস্থায় তা জায়গায় রাখতে হবে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In every factory dangerous parts of machines e.g., every moving part of a prime mover and every fly-wheel connected to a prime mover etc., shall be securely fenced by safeguards of substantial construction which shall be kept in position while the parts of machinery they are fencing are in motion or in use.",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, Safety §20",
+   "notes": ""
+  },
+  {
+   "id": "q07",
+   "answer": "A-২, B-১, C-৪, D-৩",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Whereon ten or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on with the aid of power, or is ordinarily so carried on, or (ii) Whereon twenty or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on without the aid of power",
+   "source_url": "https://labour.delhi.gov.in/it/chapter-1",
+   "page": "Chapter I, s.2(m)",
+   "notes": "2(m)=factory c03; 2(n)=occupier c07; 2(a)=adult c05; 2(cb)=hazardous process c06."
+  },
+  {
+   "id": "q08",
+   "answer": "৪৮ ঘণ্টা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "No Adult worker shall be required, or allowed to work in a factory for more than 48 hours in any week and for more than 9 hours in any day",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, Working hours §1",
+   "notes": ""
+  },
+  {
+   "id": "q09",
+   "answer": "২৫০ জন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In specified factories wherein more than 250 workers are ordinarily employed a canteen or canteens shall be provided and maintained by the occupier for the use of this workers.",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, Welfare §32",
+   "notes": "Claim: canteen where more than 250 workers ordinarily employed."
+  },
+  {
+   "id": "q10",
+   "answer": "৫০০ বা তার বেশি শ্রমিক থাকলে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In every factory wherein 500 or more workers are ordinarily employed the occupier shall employ in the factory such number of welfare Officers as may be prescribed.",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, Welfare §35",
+   "notes": ""
+  },
+  {
+   "id": "q11",
+   "answer": "৫ ঘণ্টার বেশি একটানা কাজ নয়; মাঝে কমপক্ষে আধঘণ্টা বিশ্রাম",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The periods of work of adult workers in a factory each day shall be so fixed that no period shall exceed 5 hours before he has had an interval for rest of at least half hour",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, Working hours §6",
+   "notes": ""
+  },
+  {
+   "id": "q12",
+   "answer": "সপ্তাহের প্রথম দিনে ছুটি; বদলি ছুটি হলে তা আগের বা পরের তিন দিনের মধ্যে হতে হবে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "No adult worker shall be required or allowed to work in a factory on the first day of the week unless he has, or will have, a holiday for a whole day on one of the three days immediately before or after the said day",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, Working hours §5",
+   "notes": ""
+  },
+  {
+   "id": "q13",
+   "answer": "সিলিকোসিস",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Where any worker in a factory contracts any of the following diseases the Manager of the factory shall send notice thereof forthwith both to the Chief Inspector and the Certifying Surgeon: Lead, phosphorus, mercury, manganese, arsenic, carbon disulphide or benzene poisoning by nitrous fumes, or by halogens or halogen derivatives of the hydrocarbon of the aliphatic series; or of chrome ulceration, anthrax, silicosis, toxic anemia toxic jaundice",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, §38",
+   "notes": "Silicosis is in the s.89 notice list in c16."
+  },
+  {
+   "id": "q14",
+   "answer": "১, ২ ও ৩ — তিনটিই সঠিক",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In every factory wherein more than 500 workers are employed there shall be provided and maintained and ambulance room of the prescribed size and containing the prescribed equipment.",
+   "source_url": "https://labour.delhi.gov.in/it/form-no20",
+   "page": "Abstract, Welfare §31",
+   "notes": "Stmt1 c15 (ambulance room >500); stmt2 c11 (s.35 goggles); stmt3 c12 (s.38 exit doors open outwards)."
+  },
+  {
+   "id": "q15",
+   "answer": "তাপ, জ্বালানি ও অক্সিজেন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The fire requires three elements to ignite: heat, fuel, and an oxidizing agent (usually oxygen). By eliminating any one of the element, fire can be extinguished.",
+   "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+   "page": "Characteristics of Fire (Fire Triangle)",
+   "notes": "Claim lists heat, fuel and an oxidizing agent (usually oxygen)."
+  },
+  {
+   "id": "q16",
+   "answer": "শ্রেণি A",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Suitable for - CLASS A (Wood, paper, cloth etc.) fires",
+   "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+   "page": "Water extinguishers",
+   "notes": "Water extinguishers suitable for Class A (wood, paper, cloth) per c48; Class A definition c34."
+  },
+  {
+   "id": "q17",
+   "answer": "নীল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Powder based extinguisher Blue",
+   "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+   "page": "Marking and Colour table",
+   "notes": ""
+  },
+  {
+   "id": "q18",
+   "answer": "শ্রেণি B ও C",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Suitable for - suitable for Class B and C fires",
+   "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+   "page": "CO2 extinguishers",
+   "notes": ""
+  },
+  {
+   "id": "q19",
+   "answer": "বিদ্যুৎ-সক্রিয় যন্ত্রের আগুনকে আলাদা শ্রেণি দেওয়া হয়নি; জ্বলন্ত উপাদান অনুযায়ী তা A বা B শ্রেণিতে পড়ে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "In Indian Standards, Electrical fires (fires involving energised electrical conductors/ equipment) are not given specific class, as they can fall into any of the classifications as per the material on fire (fuel).",
+   "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+   "page": "Electrical Fires",
+   "notes": "c39: electrical fires not given a specific class in Indian Standards; they fall into classifications per the fuel. Option's 'A or B' is a narrowing but it is the only option matching the no-separate-class rule."
+  },
+  {
+   "id": "q20",
+   "answer": "শুষ্ক পাউডার, CO₂ (ধাতব হর্ন ছাড়া) ও ক্লিন এজেন্ট",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "only extinguishers expelling dry powder, carbon dioxide (without metal horn) or clean agent should be used",
+   "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+   "page": "Electrical Fires (IS 2190 para 10.2)",
+   "notes": ""
+  },
+  {
+   "id": "q21",
+   "answer": "A-৩, B-৪, C-১, D-২",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Foam based extinguishers Yellow",
+   "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/eff_res/camtech/ElectricalEngineering/YearWise/Pamphlet%20on%20Classification%20of%20Fires%20%26%20Types%20of%20Fire%20Extinguishers%20(1).pdf",
+   "page": "Marking and Colour table",
+   "notes": "Foam=yellow c42; powder=blue c43; CO2=black c44; clean agent=green c45."
+  },
+  {
+   "id": "q22",
+   "answer": "১৯৮৪ সালের ২–৩ ডিসেম্বর রাতে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "On the night of 2nd/3rd December 1984, world's worst industrial accident took place at the pesticide plant in Bhopal in the state of Madhya Pradesh of India, owned by an American Multinational, the Union Carbide Corporation. Approximately, 40 tons of highly toxic liquid Methyl Isocyanate (MIC) stored in tank 610 suddenly escaped in a gaseous form into the atmosphere, apparently precipitated by entry of water into the tank.",
+   "source_url": "https://www.icmr.gov.in/icmrobject/custom_data/1720338063_bgdrc-technical_report.pdf",
+   "page": "Preface",
+   "notes": ""
+  },
+  {
+   "id": "q23",
+   "answer": "মিথাইল আইসোসায়ানেট (MIC)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "On the night of 2nd/3rd December 1984, world's worst industrial accident took place at the pesticide plant in Bhopal in the state of Madhya Pradesh of India, owned by an American Multinational, the Union Carbide Corporation. Approximately, 40 tons of highly toxic liquid Methyl Isocyanate (MIC) stored in tank 610 suddenly escaped in a gaseous form into the atmosphere, apparently precipitated by entry of water into the tank.",
+   "source_url": "https://www.icmr.gov.in/icmrobject/custom_data/1720338063_bgdrc-technical_report.pdf",
+   "page": "Preface",
+   "notes": ""
+  },
+  {
+   "id": "q24",
+   "answer": "ইউনিয়ন কার্বাইড",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "On the night of 2nd/3rd December 1984, world's worst industrial accident took place at the pesticide plant in Bhopal in the state of Madhya Pradesh of India, owned by an American Multinational, the Union Carbide Corporation. Approximately, 40 tons of highly toxic liquid Methyl Isocyanate (MIC) stored in tank 610 suddenly escaped in a gaseous form into the atmosphere, apparently precipitated by entry of water into the tank.",
+   "source_url": "https://www.icmr.gov.in/icmrobject/custom_data/1720338063_bgdrc-technical_report.pdf",
+   "page": "Preface",
+   "notes": ""
+  },
+  {
+   "id": "q25",
+   "answer": "প্রায় ৪০ টন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "On the night of 2nd/3rd December 1984, world's worst industrial accident took place at the pesticide plant in Bhopal in the state of Madhya Pradesh of India, owned by an American Multinational, the Union Carbide Corporation. Approximately, 40 tons of highly toxic liquid Methyl Isocyanate (MIC) stored in tank 610 suddenly escaped in a gaseous form into the atmosphere, apparently precipitated by entry of water into the tank.",
+   "source_url": "https://www.icmr.gov.in/icmrobject/custom_data/1720338063_bgdrc-technical_report.pdf",
+   "page": "Preface",
+   "notes": ""
+  },
+  {
+   "id": "q26",
+   "answer": "ট্যাঙ্কে জল ঢুকে যাওয়া",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "On the night of 2nd/3rd December 1984, world's worst industrial accident took place at the pesticide plant in Bhopal in the state of Madhya Pradesh of India, owned by an American Multinational, the Union Carbide Corporation. Approximately, 40 tons of highly toxic liquid Methyl Isocyanate (MIC) stored in tank 610 suddenly escaped in a gaseous form into the atmosphere, apparently precipitated by entry of water into the tank.",
+   "source_url": "https://www.icmr.gov.in/icmrobject/custom_data/1720338063_bgdrc-technical_report.pdf",
+   "page": "Preface",
+   "notes": "Claim: escape apparently precipitated by entry of water into the tank."
+  },
+  {
+   "id": "q27",
+   "answer": "সংশ্লিষ্ট ব্যক্তিদের স্বাস্থ্যের গুরুতর ক্ষতি এবং পরিবেশ-দূষণ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "\"Hazardous process\" means any process or activity in relation to an industry specified in the First Schedule where, unless special care is taken, raw materials used therein or the intermediate or finished products, bye-products, wastes or effluents thereof would (i) Cause material impairment to the health of the persons engaged in or connected therewith, or (ii) Result in the pollution or the general environment",
+   "source_url": "https://labour.delhi.gov.in/it/chapter-1",
+   "page": "Chapter I, s.2(cb)",
+   "notes": ""
+  },
+  {
+   "id": "q28",
+   "answer": "৪ → ৩ → ২ → ১",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Water (Prevention and Control of Pollution) Act was enacted in 1974 to provide for the prevention and control of water pollution, and for the maintaining or restoring of wholesomeness of water in the country.",
+   "source_url": "https://cpcb.nic.in/water-pollution/",
+   "page": "Introductory text",
+   "notes": "Water Act 1974 c26; Air Act 1981 c27; Bhopal 1984 c49; EP Act 1986 c28."
+  },
+  {
+   "id": "q29",
+   "answer": "১৯৭৪",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Water (Prevention and Control of Pollution) Act was enacted in 1974 to provide for the prevention and control of water pollution, and for the maintaining or restoring of wholesomeness of water in the country.",
+   "source_url": "https://cpcb.nic.in/water-pollution/",
+   "page": "Introductory text",
+   "notes": ""
+  },
+  {
+   "id": "q30",
+   "answer": "জল আইন, ১৯৭৪",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Central Pollution Control Board is a Statutory Board constituted under Section 3 of the Water (Prevention and Control of Pollution) Act, 1974.",
+   "source_url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Reply%20by%20R-3%20in%20OA%20No.197-2024%20(Ealier%20OA%20No.1161-2024)%20(page%20nos.11-115).pdf",
+   "page": "Reply, para 2",
+   "notes": ""
+  },
+  {
+   "id": "q31",
+   "answer": "কমলা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Industrial Sectors having Pollution Index score of 60 and above – Red category Industrial Sectors having Pollution Index score of 41 to 59 –Orange category Industrial Sectors having Pollution Index score of 21 to 40 –Green category Industrial Sectors having Pollution Index score incl.&upto 20 -White category",
+   "source_url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Reply%20by%20R-3%20in%20OA%20No.197-2024%20(Ealier%20OA%20No.1161-2024)%20(page%20nos.11-115).pdf",
+   "page": "Annexure R3-I, Revised Classification",
+   "notes": "PI 50 falls in Orange band 41-59."
+  },
+  {
+   "id": "q32",
+   "answer": "লাল, কমলা ও সবুজ — তিন শ্রেণিকেই SPCB/PCC থেকে CTE ও CTO নিতে হয়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "all sectors under Red, Orange and Green Categories are required to obtain Consent to Establish (hereinafter referred to as 'CTE') and Consent to Operate (hereinafter referred to as 'CTO') from the concerned SPCB/PCC.",
+   "source_url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Reply%20by%20R-3%20in%20OA%20No.197-2024%20(Ealier%20OA%20No.1161-2024)%20(page%20nos.11-115).pdf",
+   "page": "Reply, para 5",
+   "notes": ""
+  },
+  {
+   "id": "q33",
+   "answer": "এটি আইন নং ২৯, ১৯৮৬ এবং স্টকহোম সম্মেলন (১৯৭২)-এর সিদ্ধান্ত বাস্তবায়নের জন্য প্রণীত",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "ACT NO. 29 OF 1986 [23rd May, 1986.] An Act to provide for the protection and improvement of environment and for matters connected therewith.",
+   "source_url": "https://indiacode.gov.in/server/api/core/bitstreams/2eeec562-717d-4070-b70e-a91a4269c9ca/content",
+   "page": "Preamble",
+   "notes": "Act No. 29 of 1986 c28; Stockholm June 1972 c29."
+  },
+  {
+   "id": "q34",
+   "answer": "জল, বায়ু ও ভূমি এবং তাদের পারস্পরিক সম্পর্ক — মানুষ, জীব, উদ্ভিদ, অণুজীব ও সম্পত্তিসহ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "\"environment\" includes water, air and land and the inter-relationship which exists among and between water, air and land, and human beings, other living creatures, plants, micro-organism and property",
+   "source_url": "https://indiacode.gov.in/server/api/core/bitstreams/2eeec562-717d-4070-b70e-a91a4269c9ca/content",
+   "page": "Section 2(a)",
+   "notes": ""
+  },
+  {
+   "id": "q35",
+   "answer": "বায়ু আইন — ১৯৮১ (১৯৮৭ সালে সংশোধিত)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Air (Prevention and Control of Pollution) Act was enacted in 1981 and amended in 1987 to provide for the prevention, control and abatement of air pollution in India.",
+   "source_url": "https://cpcb.nic.in/air-pollution/",
+   "page": "Introductory text",
+   "notes": "Other pairs contradict claims: EP Act is 1986 (c28), Water Act is 1974 (c26), CPCB is under the Water Act (c50)."
+  },
+  {
+   "id": "q36",
+   "answer": "১৩টি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "It replaces 13 Central Labour laws by a single comprehensive legislation",
+   "source_url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+   "page": "Introduction",
+   "notes": ""
+  },
+  {
+   "id": "q37",
+   "answer": "১৪৩",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Sections | 620 | 143",
+   "source_url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+   "page": "Comparison table",
+   "notes": ""
+  },
+  {
+   "id": "q38",
+   "answer": "শক্তিসহ ২০, শক্তি ছাড়া ৪০",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The threshold to obtain license for factory has been increased from 10 to 20 with power and 20 to 40 without power",
+   "source_url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+   "page": "Revised Factory Thresholds",
+   "notes": ""
+  },
+  {
+   "id": "q39",
+   "answer": "৮ ঘণ্টা (সপ্তাহে ৪৮ ঘণ্টা)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "No employee shall be required to work for more than 8 hours in a day and 48 hours in a week.",
+   "source_url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+   "page": "Working Hours & Overtime",
+   "notes": ""
+  },
+  {
+   "id": "q40",
+   "answer": "ক্যালেন্ডার বছরে ১৮০ দিন বা তার বেশি কাজ (আগে ছিল ২৪০ দিন)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The workers employed in an establishment are entitled for paid leave in a calendar year on working of 180 days or more in such calendar year, earlier workers had to work for 240 days for becoming eligible for paid leave.",
+   "source_url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+   "page": "Annual Leave with wages",
+   "notes": ""
+  },
+  {
+   "id": "q41",
+   "answer": "বিনামূল্যে বার্ষিক স্বাস্থ্য-পরীক্ষা — প্রতিটি কর্মীর জন্য; নিরাপত্তা কমিটি — ৫০০+ শ্রমিকের কারখানায়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Every employee will be eligible for free annual health check-ups.",
+   "source_url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+   "page": "Health and Medical Coverage",
+   "notes": "Free annual health check-up for every employee c23; safety committee at 500+ workers c25."
+  },
+  {
+   "id": "q42",
+   "answer": "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+   "confidence": "LIKELY",
+   "also_defensible": [
+    "A সঠিক, R ভুল"
+   ],
+   "quote": "In place of 6 boards under different acts, now there is a single National Occupational Safety and Health Advisory Board which is of tripartite nature",
+   "source_url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=150475&reg=3&lang=1",
+   "page": "National Standards and National Board",
+   "notes": "c22 supports A (single National OSH Advisory Board replacing 6 boards) and states the Board is tripartite, but does not spell out R's exact composition (unions/employers/state governments); hence LIKELY rather than SURE."
+  }
+ ]
+}

@@ -1,1 +1,124 @@
-{}
+{
+  "SAF-01": [
+    {
+      "pyq_code": "GK-SAF-001",
+      "section": "definitions",
+      "taught": true,
+      "note": "Section 2(m) factory definition, 10 with power / 20 without, and the exclusions (mine, armed-forces mobile unit, railway running shed, hotel/restaurant) are taught in full in the definitions section from the bare Act text (claims c03, c04)."
+    },
+    {
+      "pyq_code": "GK-SAF-002",
+      "section": "welfare_hours",
+      "taught": true,
+      "note": "Working hours taught in full: 48 hours/week (s.51, c48), 9 hours/day (s.54, c49), weekly holiday (s.52, c50), rest interval of half an hour after 5 hours (s.55, c51), spread over 10.5 hours (s.56, c52) and double-rate overtime (s.59, c53)."
+    },
+    {
+      "pyq_code": "GK-SAF-003",
+      "section": "welfare_hours",
+      "taught": true,
+      "note": "Threshold ladder taught in full: first-aid box per 150 workers (s.45, c42), canteen above 250 (s.46, c44), ambulance room above 500 (s.45, c43), Welfare Officer at 500+ (s.49, c47), Safety Officer at 1,000+ (s.40B, c36) and crèche above 30 women workers (s.48, c46). The safety-officer limb is also covered in the safety section."
+    }
+  ],
+  "SAF-02": [
+    {
+      "note": "Partially covered: silicosis as Third Schedule entry 12 and the Section 89 manager's notice duty ARE taught in this chapter (claims c30, c33). Marked untaught because the item also tests the 90 dB(A)/8-hour occupational noise exposure limit and the clinical detail that silicosis is incurable fibrosis — neither could be verified from an allowed publisher (GOVT/NCERT/NIOS) in this run; the noise table sits in the Factories (Model) Rules, found only on non-government sites.",
+      "pyq_code": "GK-SAF-008",
+      "section": "notifiable_diseases",
+      "taught": false
+    },
+    {
+      "note": "Partially covered: Section 35 screens/goggles and hazard-matched PPE (respirator for dust/fumes, Ch. claim c23-c28) ARE taught. Marked untaught because the item's core tested fact — PPE stands LAST in the five-step hierarchy of controls (elimination, substitution, engineering, administrative, PPE) — could not be sourced from an allowed publisher in this run; the bank item's own source is an ILO publication, which is outside this book's allowed publisher list (GOVT/NCERT/NIOS).",
+      "pyq_code": "GK-SAF-014",
+      "section": "ppe_protection",
+      "taught": false
+    }
+  ],
+  "SAF-03": [
+    {
+      "note": "Partly covered, not taught as keyed. The item's fire-triangle question IS taught (section fire_triangle, claims c01-c02). But the item's class questions are keyed to the NFPA system (Class C = energised electrical equipment, Class K = cooking oils/fats, wet chemical extinguisher), while this chapter teaches the Indian systems from fetched official sources: IS 15683:2018 (C = flammable gases e.g. LPG/PNG, F = cooking oils and fats) and the West Bengal Factories Rules classes A-E (E = electrical equipment). No allowed-publisher source fetched for this chapter states the NFPA letter mapping or the wet-chemical agent for cooking-oil fires, so the NFPA-keyed answers are not asserted here; the chapter flags the system difference openly in a dont_confuse box instead.",
+      "pyq_code": "GK-SAF-006",
+      "section": "fire_classes_india",
+      "taught": false
+    }
+  ],
+  "SAF-04": [
+    {
+      "pyq_code": "GK-SAF-007",
+      "section": "protective_devices",
+      "taught": true,
+      "note": "Bank item GK-SAF-007 (Earthing and the RCCB: the two guards against electric shock) is this chapter's sole electrical_safety-subtopic candidate. Its three bank questions (RCCB trips on live/neutral imbalance; domestic RCCB limit 30 mA under Regulation 44; earthing assertion-reason) are all taught in sections earthing and protective_devices from the CEA Regulations 2023 gazette and BIS IS 12640 (Part 2). No genuine electrical-safety questions were found in db/pyq/*.json (grep for 'electr' returned only bulb/electricity-bill/electromagnetism items, none on safety)."
+    }
+  ],
+  "SAF-05": [
+    {
+      "pyq_code": "GK-SAF-004",
+      "section": "hazardous_process",
+      "taught": true,
+      "note": "Bank item on Chapter IVA (1987): hazardous-process definition s.2(cb), 41A site appraisal, 41B disclosure, 41C health records, 41G safety committees, 41H right to warn — all taught in sections hazardous_process, site_disclosure, occupier_health and worker_voice from the India Code text of the Factories Act."
+    },
+    {
+      "pyq_code": "GK-SAF-005",
+      "section": "bhopal_msihc",
+      "taught": true,
+      "note": "Bank item on Bhopal and the MSIHC Rules 1989. Taught as far as the allowed sources fetched for this chapter go: NDMA guidelines quote (Bhopal 1984, MIC, over 2000 deaths), MSIHC notification S.O. 966(E) dated 27-11-1989 under EPA 1986, threshold quantities/MAH, safety reports and emergency plans. PARTIAL: the exact night (2-3 December 1984) and the Union Carbide plant detail in the bank item are NOT taught here — no allowed-publisher page fetched in this run states them; disclosed in the section exam_note and REPORT.md."
+    }
+  ],
+  "SAF-06": [
+    {
+      "note": "Bank card 'Water Act, 1974: the law that built the Pollution Control Boards'. Chapter teaches the Act (No. 6 of 1974), the Article 252 basis, CPCB constituted September 1974 (c16), Central Board under Section 3 and State Boards under Section 4 (c06, c07), CPCB's headline function (c09, c18) and the Section 25/26 consent system (c14, c40) — all three bank questions on this card are answerable from the chapter.",
+      "pyq_code": "GK-SAF-009",
+      "section": "water_act",
+      "taught": true
+    },
+    {
+      "note": "Bank card 'Air Act, 1981: consent before an industrial plant may run'. Chapter teaches the same CPCB/SPCB machinery serving the Air Act (c24), Section 21 consent from the State Board (c28), Section 22 excess-emission bar (c29) and the 1981 year — both bank questions answerable. Caveat: the card's statement that the Act was enacted under Article 253 is NOT taught — the fetched India Code text of the Air Act does not state an Article 253 basis (its preamble cites the 1972 Stockholm decisions, which the chapter does teach, c21). Source gap, disclosed in REPORT.md.",
+      "pyq_code": "GK-SAF-010",
+      "section": "air_act",
+      "taught": true
+    },
+    {
+      "note": "Bank card 'Environment (Protection) Act, 1986: the umbrella over all pollution law'. Chapter teaches the umbrella character (c61), Act 29 of 1986, in force 19 November 1986 (c31, c32), Section 3 powers (c35), Section 5 closure directions (c37), rule-making under Sections 6/25 as the parent of later rules (c38, c53) and the CPCB's technical-services role under the EPA (c17) — all three bank questions answerable. Caveat: the card's Bhopal-disaster trigger framing is NOT taught — no allowed-publisher (gov.in/nic.in) quote for it was fetched; the chapter teaches only the Stockholm basis stated in the Act's own preamble (c33). Source gap, disclosed in REPORT.md.",
+      "pyq_code": "GK-SAF-011",
+      "section": "epa_act",
+      "taught": true
+    },
+    {
+      "note": "Bank card 'Consent to Establish, Consent to Operate — and the Red, Orange, Green, White ladder'. Chapter teaches CTE/CTO (c52), the consent sections (Water 25, Air 21 — c40), the 2016 PI bands Red 60+/Orange 41-59/Green 21-40/White up to 20 (c43), the White-category CTO exemption by intimation (c45) and the Red-category bar in ecologically fragile areas (c46) — all three bank questions answerable on the 2016 framework. The chapter additionally flags CPCB's January 2025 revised bands (Red >= 80) and the new Blue category (c50, c51) in an exam note, so a future paper using the revised bands is also covered.",
+      "pyq_code": "GK-SAF-012",
+      "section": "consent_categories",
+      "taught": true
+    },
+    {
+      "note": "WBCS 2019 Q148 asks the noise level above which noise is treated as pollution (official key: 80-99 dB, the physically painful threshold). The chapter teaches the statutory zone limits of the Noise Rules, 2000 (50-75 dB(A) by area, day/night) but NOT this ~80 dB physiological threshold — it appears in none of the fetched official sources. Partial coverage only; the specific keyed fact is a source gap.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q148",
+      "section": "rules_enforcement",
+      "taught": false
+    },
+    {
+      "note": "WBCS 2023 Q163 asks which State/UT launched a '15-point Winter Action Plan' to control air pollution (Delhi). This is a current-affairs item about a state government's seasonal action plan, not part of the statutory framework (Acts, boards, consent, categories) this chapter teaches. Out of scope by design; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q163",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Clerkship 2009 (Session II) Q1 asks what a 'Green Bench' means — the special benches of High Courts / the Supreme Court that hear environmental cases. The chapter teaches the statutory tribunal route (NGT, 2010) but not the Green Bench concept of the higher judiciary; no fetched official source in this chapter covers it. Not taught; nearest taught neighbour is the NGT material in rules_enforcement.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q1",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "SAF-07": [
+    {
+      "pyq_code": "GK-SAF-013",
+      "section": "osh_code",
+      "taught": true,
+      "note": "GK bank item (subtopic mixed): 'The OSH Code, 2020: thirteen safety-and-conditions laws folded into one code'. Taught in section osh_code from the PIB OSH Code factsheet (13 laws replaced, 620 -> 143 sections, 20/40 thresholds, 8-hour day, 180-day leave, National OSH Advisory Board)."
+    },
+    {
+      "pyq_code": "WBPSC-MISC-2023-PRELIMS-Q8",
+      "section": "chemical_bhopal",
+      "taught": true,
+      "note": "Real PYQ (WBPSC Miscellaneous Prelims 2023, Q8, identifier derived from the corpus record's pyq metadata: exam/year/question_no; the record carries no code field): 'Give an example of Biological Disaster' — Bhopal Gas Tragedy 1984 appears as option A / distractor. The Bhopal facts it rests on (1984, MIC, Union Carbide) are taught in section chemical_bhopal from the ICMR report; the question's own answer (COVID-19 as biological disaster) is outside this book's scope."
+    }
+  ]
+}

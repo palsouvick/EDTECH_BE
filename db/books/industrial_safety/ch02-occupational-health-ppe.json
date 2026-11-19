@@ -1,0 +1,1654 @@
+{
+  "book": "industrial_safety",
+  "code": "SAF-02",
+  "number": 2,
+  "part": "workplace",
+  "title": "পেশাগত স্বাস্থ্য ও PPE",
+  "subtitle": "কারখানা আইনের স্বাস্থ্য-বিধান, বিজ্ঞপ্তিযোগ্য রোগ ও ব্যক্তিগত সুরক্ষা সাজ",
+  "subtopics": [
+    "occupational_health"
+  ],
+  "related_facts": [
+    "GK-SAF-008",
+    "GK-SAF-014"
+  ],
+  "prerequisites": [
+    "SAF-01"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 30,
+    "deep": 45
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 48/48 answers matched the key (48 SURE, 0 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 0 of 2 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SAF-02.json and drafts/SAF-02_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SAF-02_REPORT.md.",
+    "checked_claims": 52,
+    "checked_questions": 48,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "পেশাগত স্বাস্থ্য মানে কাজের পরিবেশ থেকে শ্রমিকের শরীরে যেন রোগ বা ক্ষতি না হয়, তার আইনি ও ব্যবহারিক ব্যবস্থা। এই অধ্যায়ে আমরা কারখানা আইন, ১৯৪৮-র স্বাস্থ্য-অধ্যায় (ধারা ১১–২০), দখলদারের সাধারণ দায়িত্ব (ধারা ৭A), চিকিৎসা নজরদারি (সার্টিফাইং সার্জন, ধারা ৪১C), তৃতীয় তফসিলের বিজ্ঞপ্তিযোগ্য রোগ (ধারা ৮৯) এবং PPE — গগলস, শ্বাসযন্ত্র, গ্লাভস ইত্যাদির আইনি ভিত্তি পড়ব। পরীক্ষায় সংখ্যাগুলি (১৫০, ২৫০, ৫০০, ১০০০) ও ধারা-নম্বরগুলি বারবার আসে, তাই সেগুলি আলাদা করে মনে রাখার কৌশলও দেওয়া হয়েছে।",
+    "you_will_learn": [
+      "কারখানার সংজ্ঞা (১০/২০ জন) ও 'বিপজ্জনক প্রক্রিয়া' কাকে বলে",
+      "ধারা ৭A অনুযায়ী দখলদারের সাধারণ দায়িত্ব",
+      "অধ্যায় ৩-এর স্বাস্থ্য-বিধান: পরিষ্কার, বায়ুচলাচল, ধুলো-ধোঁয়া, আলো, পানীয় জল",
+      "সার্টিফাইং সার্জন ও ধারা ৪১C-র স্বাস্থ্য রেকর্ড ও চিকিৎসা পরীক্ষা",
+      "তৃতীয় তফসিলের বিজ্ঞপ্তিযোগ্য রোগের তালিকা ও ধারা ৮৯-র বিজ্ঞপ্তি",
+      "PPE-র আইনি ভিত্তি: ধারা ৩৫ (গগলস), ধারা ৩৬ (শ্বাসযন্ত্র) ও PPE কিট",
+      "কল্যাণ সুবিধার সংখ্যা-সীমা: প্রাথমিক চিকিৎসা, ক্যান্টিন, ক্রেশ, কল্যাণ ও নিরাপত্তা আধিকারিক"
+    ]
+  },
+  "sections": [
+    {
+      "id": "health_duties",
+      "heading": "পেশাগত স্বাস্থ্য ও দখলদারের দায়িত্ব",
+      "quick": "কারখানা আইন, ১৯৪৮ (১৯৪৮-এর ৬৩ নম্বর আইন) ১৯৪৯ সালের ১ এপ্রিল থেকে কার্যকর। ধারা ৭A অনুযায়ী প্রতিটি দখলদারকে যতটা যুক্তিসঙ্গতভাবে সম্ভব সব শ্রমিকের স্বাস্থ্য, নিরাপত্তা ও কল্যাণ নিশ্চিত করতে হয় — যার মধ্যে তথ্য, নির্দেশনা, প্রশিক্ষণ ও তদারকি এবং লিখিত নীতি-বিবৃতি অন্তর্ভুক্ত।",
+      "standard": "**পেশাগত স্বাস্থ্য** (occupational health) হলো কর্মস্থলের পরিবেশ — ধুলো, ধোঁয়া, রাসায়নিক, শব্দ, তাপ — থেকে শ্রমিকের শরীরে রোগ বা ক্ষতি প্রতিরোধের বিষয়। ভারতে এর প্রধান আইনি ভিত্তি **কারখানা আইন, ১৯৪৮**।\n\nআগে জানো 'কারখানা' কাকে বলে: যেখানে শক্তির সাহায্যে উৎপাদন-প্রক্রিয়া চলে এবং **১০ বা তার বেশি** শ্রমিক কাজ করে, অথবা শক্তি ছাড়া চলে এবং **২০ বা তার বেশি** শ্রমিক কাজ করে — সেই জায়গা কারখানা। আর **বিপজ্জনক প্রক্রিয়া** (hazardous process) হলো প্রথম তফসিলে উল্লিখিত শিল্পের এমন প্রক্রিয়া যেখানে বিশেষ সতর্কতা না নিলে কাঁচামাল, পণ্য, বর্জ্য বা নিষ্কাশন শ্রমিকের স্বাস্থ্যের গুরুতর ক্ষতি বা পরিবেশ দূষণ ঘটাতে পারে।\n\n**ধারা ৭A — দখলদারের সাধারণ দায়িত্ব:** প্রতিটি দখলদার (occupier, অর্থাৎ কারখানার চূড়ান্ত নিয়ন্ত্রণ যার হাতে) যতটা যুক্তিসঙ্গতভাবে সম্ভব, কাজের সময় সব শ্রমিকের **স্বাস্থ্য, নিরাপত্তা ও কল্যাণ** নিশ্চিত করবেন। এই দায়িত্বের মধ্যে পড়ে — নিরাপদ যন্ত্র ও কর্মপদ্ধতি রাখা; পদার্থ ব্যবহার, মজুত ও পরিবহনে নিরাপত্তার ব্যবস্থা; শ্রমিকদের **তথ্য, নির্দেশনা, প্রশিক্ষণ ও তদারকি** দেওয়া; কর্মস্থল নিরাপদ রাখা; এবং সুস্থ কর্মপরিবেশ বজায় রাখা। এছাড়া দখলদারকে স্বাস্থ্য ও নিরাপত্তা বিষয়ে তাঁর **সাধারণ নীতির লিখিত বিবৃতি** তৈরি করতে হয়, প্রয়োজনে তা সংশোধন করতে হয় এবং সব শ্রমিকের নজরে আনতে হয়।",
+      "deep": "ধারা ৭A ১৯৮৭ সালের সংশোধনীতে এসেছে এবং এটিই পরবর্তী সব নির্দিষ্ট বিধানের 'ছাতা' — নির্দিষ্ট ধারা যেখানে চুপ, সেখানেও ৭A-র সাধারণ দায়িত্ব থেকে দখলদার রেহাই পান না। পরীক্ষায় প্রায়ই জিজ্ঞাসা করা হয় কোন দায়িত্বটি ৭A-তে আছে আর কোনটি নেই: মনে রাখো, ৭A-তে **প্রশিক্ষণ ও তদারকি** আছে, কিন্তু মজুরির হার বা ছুটির হিসাব এই ধারার বিষয় নয় (সেগুলি অন্য অধ্যায়ের)।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সংখ্যা-জোড়",
+          "body": "কারখানার সংজ্ঞা: শক্তি থাকলে **১০**, না থাকলে **২০**। এই জোড়টি অধ্যায়ের সবচেয়ে বেশি পরীক্ষিত সংখ্যা।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c50",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "workroom_health",
+      "heading": "কর্মকক্ষের স্বাস্থ্য-পরিবেশ (অধ্যায় ৩)",
+      "quick": "আইনের তৃতীয় অধ্যায় (ধারা ১১–২০) কর্মকক্ষের পরিবেশ নিয়ে: প্রতিদিন পরিষ্কার (১১), বর্জ্য শোধন (১২), বায়ুচলাচল ও তাপমাত্রা (১৩), ধুলো-ধোঁয়া নিয়ন্ত্রণ (১৪), ভিড় এড়ানো (১৬), আলো (১৭) ও পানীয় জল (১৮)। নতুন কারখানায় প্রতি শ্রমিকের জন্য কমপক্ষে ১৪.২ ঘনমিটার জায়গা লাগে।",
+      "standard": "তৃতীয় অধ্যায়ের প্রতিটি ধারা একটি করে পরিবেশগত ঝুঁকি সামলায়:\n\n- **ধারা ১১ (পরিষ্কার-পরিচ্ছন্নতা):** ময়লা-আবর্জনা কর্মকক্ষের মেঝে ও বেঞ্চ থেকে **প্রতিদিন** সরাতে হয়।\n- **ধারা ১২ (বর্জ্য ও নিষ্কাশন):** উৎপাদনের বর্জ্য ও নিষ্কাশন এমনভাবে শোধন করতে হয় যাতে তা ক্ষতিহীন হয়, তারপর নিষ্পত্তি করতে হয়।\n- **ধারা ১৩ (বায়ুচলাচল ও তাপমাত্রা):** প্রতিটি কর্মকক্ষে তাজা বাতাসের সঞ্চালনে পর্যাপ্ত বায়ুচলাচল এবং এমন তাপমাত্রা রাখতে হয় যা আরাম দেয় ও স্বাস্থ্যের ক্ষতি রোধ করে।\n- **ধারা ১৪ (ধুলো ও ধোঁয়া):** ধুলো-ধোঁয়ার শ্বাসে ঢোকা ও জমা হওয়া রোধে কার্যকর ব্যবস্থা নিতে হয়; নিষ্কাশন যন্ত্র (exhaust) বসাতে হয় **উৎপত্তিস্থলের যতটা সম্ভব কাছে** — যাতে ধুলো ছড়ানোর আগেই ধরা পড়ে। এটি PPE-র আগের ধাপের প্রকৌশল নিয়ন্ত্রণের আইনি উদাহরণ।\n- **ধারা ১৬ (ভিড়):** আইন চালুর পরে তৈরি কারখানায় প্রতি শ্রমিকের জন্য কমপক্ষে **১৪.২ ঘনমিটার** জায়গা (পুরনো কারখানায় ৯.৯ ঘনমিটার)।\n- **ধারা ১৭ (আলো):** শ্রমিকরা যেখানে কাজ করে বা যায়, সেখানে যথেষ্ট ও উপযুক্ত আলো — প্রাকৃতিক, কৃত্রিম বা উভয়ই।\n- **ধারা ১৮ (পানীয় জল):** পর্যাপ্ত পানীয় জল দিতে হয়; জলের জায়গা ধোয়ার জায়গা, শৌচালয় বা খোলা নর্দমার মতো দূষণ-উৎস থেকে কমপক্ষে **৬ মিটার** দূরে থাকবে; **২৫০ জনের বেশি** শ্রমিক থাকলে গরমে জল ঠান্ডা করে দিতে হয়।",
+      "deep": "লক্ষ্য করো ধারা ১৪-র কৌশল: আইন আগে উৎসেই ধুলো আটকাতে বলে (নিষ্কাশন উৎসের কাছে), শ্রমিকের নাকে মাস্ক দেওয়া এর বিকল্প হিসেবে আসে পরে। পরীক্ষায় 'exhaust কোথায় বসাতে হয়' — উত্তর সবসময় **উৎপত্তিস্থলের কাছে**।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "৯.৯ বনাম ১৪.২",
+          "body": "৯.৯ ঘনমিটার = আইন চালুর সময়ে **বিদ্যমান** কারখানা; ১৪.২ ঘনমিটার = চালুর **পরে তৈরি** কারখানা। প্রশ্নে 'নতুন কারখানা' শব্দটি থাকলেই ১৪.২।"
+        }
+      ],
+      "claims": [
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "id": "medical_surveillance",
+      "heading": "চিকিৎসা নজরদারি ও স্বাস্থ্য রেকর্ড",
+      "quick": "সার্টিফাইং সার্জন (ধারা ১০) রাজ্য সরকার নিয়োগ করা চিকিৎসক, যিনি বিপজ্জনক প্রক্রিয়ার শ্রমিকদের পরীক্ষা করেন। বিপজ্জনক প্রক্রিয়ায় (অধ্যায় IV-A, ১৯৮৭) দখলদারকে স্বাস্থ্য রেকর্ড রাখতে হয় এবং কাজের আগে, চলাকালীন ও পরেও সর্বোচ্চ ১২ মাস ব্যবধানে চিকিৎসা পরীক্ষা করাতে হয় (ধারা ৪১C)।",
+      "standard": "পেশাগত রোগ ধীরে ধীরে হয় — তাই আইন রোগ হওয়ার আগেই **নজরদারি** (surveillance) বাধ্যতামূলক করেছে।\n\n**সার্টিফাইং সার্জন (ধারা ১০):** রাজ্য সরকার যোগ্য চিকিৎসকদের এই পদে নিয়োগ করে। তাঁর কাজ — তরুণ শ্রমিকদের পরীক্ষা ও ফিটনেস সনদ; নির্ধারিত **বিপজ্জনক পেশা বা প্রক্রিয়ায়** নিযুক্ত ব্যক্তিদের পরীক্ষা; এবং যেখানে উৎপাদন-প্রক্রিয়া বা কর্মপরিবেশের কারণে অসুস্থতা ঘটেছে বলে মনে হয়, সেখানে চিকিৎসা তদারকি।\n\n**অধ্যায় IV-A ও ধারা ৪১C:** ১৯৮৭ সালের সংশোধনীতে আসা এই অধ্যায় বিপজ্জনক প্রক্রিয়ার জন্য বিশেষ দায়িত্ব দেয়। দখলদারকে রাসায়নিক, বিষাক্ত বা ক্ষতিকর পদার্থের সংস্পর্শে থাকা শ্রমিকদের **নির্ভুল ও হালনাগাদ স্বাস্থ্য রেকর্ড** রাখতে হয়, যা শ্রমিকদের কাছেও প্রবেশযোগ্য। প্রতিটি এমন শ্রমিকের **চিকিৎসা পরীক্ষা** করতে হয় — কাজে যোগদানের **আগে**, কাজ **চলাকালীন** এবং কাজ **ছাড়ার পরেও**, সর্বোচ্চ **১২ মাস** ব্যবধানে। রাসায়নিক ও বিষাক্ত পদার্থের সর্বোচ্চ অনুমোদিত সংস্পর্শ-সীমা (threshold limits) দেওয়া আছে **দ্বিতীয় তফসিলে** (ধারা ৪১F)।\n\n**অংশগ্রহণ ও সমীক্ষা:** বিপজ্জনক প্রক্রিয়ার কারখানায় শ্রমিক ও ব্যবস্থাপনার **সমান সংখ্যক** প্রতিনিধি নিয়ে নিরাপত্তা কমিটি (ধারা ৪১G) গঠন করতে হয়। আসন্ন বিপদের যুক্তিসঙ্গত আশঙ্কা হলে শ্রমিকরা তা দখলদার/ব্যবস্থাপক ও **একই সঙ্গে পরিদর্শককে** জানাতে পারেন (ধারা ৪১H)। এছাড়া প্রধান পরিদর্শক, **DGFASLI**-এর মহাপরিচালক বা ভারত সরকারের স্বাস্থ্য সেবা মহাপরিচালক কারখানায় **নিরাপত্তা ও পেশাগত স্বাস্থ্য সমীক্ষা** করতে পারেন (ধারা ৯১A)। মান অনুপস্থিত বা অপর্যাপ্ত হলে কেন্দ্রীয় সরকার DGFASLI-কে **জরুরি মান** (emergency standards) তৈরি করতে নির্দেশ দিতে পারে (ধারা ৪১E)।",
+      "deep": "DGFASLI-এর পুরো নাম Directorate General of Factory Advice Service and Labour Institutes — শ্রম মন্ত্রকের কারিগরি শাখা। আইনের পাঠে এর নাম দুই জায়গায় আসে: ধারা ৪১E (জরুরি মান) ও ধারা ৯১A (সমীক্ষা)। পরীক্ষায় 'সমীক্ষা কে করতে পারে' প্রশ্নে এই তিন কর্তৃপক্ষের নামই উত্তর।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "১২ মাসের নিয়ম",
+          "body": "বিপজ্জনক প্রক্রিয়ার চিকিৎসা পরীক্ষার ব্যবধান সর্বোচ্চ **১২ মাস** — আগে, চলাকালীন, পরেও।"
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c48",
+        "c51"
+      ]
+    },
+    {
+      "id": "notifiable_diseases",
+      "heading": "বিজ্ঞপ্তিযোগ্য পেশাগত রোগ (তৃতীয় তফসিল)",
+      "quick": "ধারা ৮৯ অনুযায়ী কোনো শ্রমিক **তৃতীয় তফসিলের** কোনো রোগে আক্রান্ত হলে কারখানার ব্যবস্থাপককে নির্ধারিত কর্তৃপক্ষের কাছে বিজ্ঞপ্তি পাঠাতে হয়; চিকিৎসককেও প্রধান পরিদর্শককে লিখিত প্রতিবেদন দিতে হয়। তালিকায় আছে সিসা, ফসফরাস, পারদ ও বেনজিন বিষক্রিয়া, অ্যানথ্রাক্স, সিলিকোসিস (১২), বাইসিনোসিস (১৯), অ্যাসবেস্টোসিস (২০) ও শব্দজনিত শ্রবণশক্তি হ্রাস (২২)।",
+      "standard": "কিছু রোগ কাজের কারণেই হয় — এদের খবর সরকারের কাছে পৌঁছানো জরুরি, যাতে কারণ খুঁজে প্রতিরোধ করা যায়। এই ব্যবস্থার নাম **বিজ্ঞপ্তি** (notification)।\n\n**কে জানাবেন:** (১) কারখানার **ব্যবস্থাপক** নির্ধারিত কর্তৃপক্ষকে বিজ্ঞপ্তি পাঠাবেন (ধারা ৮৯(১))। (২) রোগীর চিকিৎসা করা **চিকিৎসক** দেরি না করে **প্রধান পরিদর্শকের দপ্তরে** লিখিত প্রতিবেদন পাঠাবেন — তাতে রোগীর নাম-ঠিকানা, রোগ এবং কারখানার নাম-ঠিকানা থাকবে।\n\n**তৃতীয় তফসিলের তালিকা** (মনে রাখার মতো এন্ট্রি): ১ — সিসা বিষক্রিয়া; ফসফরাস, পারদ, ম্যাঙ্গানিজ, আর্সেনিক বিষক্রিয়া; ৯ — বেনজিন বিষক্রিয়া; ১০ — ক্রোম আলসার; ১১ — **অ্যানথ্রাক্স**; ১২ — **সিলিকোসিস**; ১৯ — **বাইসিনোসিস**; ২০ — **অ্যাসবেস্টোসিস**; ২২ — **শব্দজনিত শ্রবণশক্তি হ্রাস**; এছাড়া কয়লা খনি শ্রমিকের নিউমোকোনিওসিস ও পেশাগত ক্যান্সারও তালিকায় আছে।\n\nতালিকা স্থির নয়: **কেন্দ্রীয় সরকার** সরকারি গেজেটে বিজ্ঞপ্তি দিয়ে তৃতীয় তফসিলে রোগ যোগ বা বদল করতে পারে (ধারা ৮৯(৫))। আর এমন রোগ কারখানায় ঘটেছে বা ঘটেছে বলে সন্দেহ হলে **রাজ্য সরকার** ধারা ৯০ অনুযায়ী তদন্তের জন্য যোগ্য ব্যক্তি নিয়োগ করতে পারে।",
+      "deep": "ধুলো-জনিত তিনটি ফুসফুসের রোগ গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল: **সিলিকোসিস** — সিলিকা/পাথরের ধুলো; **বাইসিনোসিস** — তুলোর আঁশ; **অ্যাসবেস্টোসিস** — অ্যাসবেস্টস তন্তু। তফসিলে এদের ক্রম যথাক্রমে ১২, ১৯, ২০। প্রশ্নে ধুলোর উৎস বদলে দিলেই উত্তর বদলে যায়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "কে, কাকে জানায়",
+          "body": "ব্যবস্থাপক → নির্ধারিত কর্তৃপক্ষ (ধারা ৮৯(১)); চিকিৎসক → **প্রধান পরিদর্শক** (ধারা ৮৯(২))। দুটি পথ আলাদা।"
+        }
+      ],
+      "claims": [
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37"
+      ]
+    },
+    {
+      "id": "ppe_protection",
+      "heading": "PPE: ব্যক্তিগত সুরক্ষা সাজ ও আইন",
+      "quick": "PPE (Personal Protective Equipment) হলো ঝুঁকি অনুযায়ী পরা সুরক্ষা সাজ — গগলস, শ্বাসযন্ত্র, গ্লাভস, ফেস শিল্ড ইত্যাদি। কারখানা আইনে এর সরাসরি বিধান ধারা ৩৫ (চোখের জন্য পর্দা বা গগলস) ও ধারা ৩৬ (আবদ্ধ জায়গায় শ্বাসযন্ত্র ও বেল্ট-দড়ি)। সরকারি PPE কিটে থাকে গ্লাভস, কভারঅল, ফেস শিল্ড, গগলস ও তিন-স্তরের মাস্ক।",
+      "standard": "PPE শ্রমিকের শরীরে পরা শেষ বাধা — ঝুঁকি অনুযায়ী সাজ মেলানোই এর মূল নীতি: চোখের ঝুঁকিতে গগলস, ধোঁয়া-ধুলোয় শ্বাসযন্ত্র, রাসায়নিক ছিটেয় ফেস শিল্ড ও গ্লাভস।\n\n**ধারা ৩৫ — চোখের সুরক্ষা:** যেসব নির্ধারিত প্রক্রিয়ায় (ক) ছিটকে আসা **কণা বা টুকরো** থেকে চোখে আঘাতের ঝুঁকি, অথবা (খ) **অতিরিক্ত আলোর** সংস্পর্শে চোখের ঝুঁকি থাকে, সেখানে রাজ্য সরকার বিধি দিয়ে **কার্যকর পর্দা বা উপযুক্ত গগলস** দেওয়া বাধ্যতামূলক করতে পারে — প্রক্রিয়ায় নিযুক্ত ও কাছাকাছি থাকা ব্যক্তিদের জন্য।\n\n**ধারা ৩৬ — আবদ্ধ জায়গা (confined space):** ট্যাঙ্ক, গর্ত, পাইপ বা চিমনির মতো জায়গায় গ্যাস, ধোঁয়া, বাষ্প বা ধুলোয় অজ্ঞান হওয়ার ঝুঁকি থাকলে, পর্যাপ্ত মাপের **ম্যানহোল** বা বেরোনোর অন্য কার্যকর উপায় না থাকলে কাউকে ঢুকতে দেওয়া যায় না। প্রবেশের বিকল্প পথে শর্ত: ব্যক্তিকে **উপযুক্ত শ্বাসযন্ত্র** পরতে হয় এবং **দড়ি-বাঁধা বেল্ট** পরতে হয়, যার মুক্ত প্রান্ত **বাইরে থাকা ব্যক্তির** হাতে থাকে — যাতে বিপদে টেনে বের করা যায়। একই প্রসঙ্গে ধারা ৩৬A বলে, আবদ্ধ জায়গায় **২৪ ভোল্টের বেশি** বহনযোগ্য বৈদ্যুতিক আলো বা যন্ত্র (পর্যাপ্ত নিরাপত্তা ব্যবস্থা ছাড়া) ব্যবহার করা যায় না।\n\n**বিপজ্জনক প্রক্রিয়ায় (ধারা ৪১C):** দখলদারকে কর্মস্থলে শ্রমিকদের সুরক্ষার জন্য নির্ধারিত পদ্ধতিতে **সব প্রয়োজনীয় সুবিধা** দিতে হয় এবং বিপজ্জনক পদার্থ সামলানোর জন্য যোগ্য ও অভিজ্ঞ তত্ত্বাবধায়ক নিয়োগ করতে হয়।\n\n**PPE কিট ও মান যাচাই:** সরকারি তথ্য (PIB) অনুযায়ী PPE কিটে থাকে **গ্লাভস, কভারঅল, ফেস শিল্ড, গগলস ও তিন-স্তরের মেডিকেল মাস্ক**, আন্তর্জাতিক মান অনুসারে। কিটের পরীক্ষা ও সনদের জন্য CIPET (রাসায়নিক ও সার মন্ত্রকের অধীন প্রতিষ্ঠান) **NABL**-এর স্বীকৃতি পেয়েছে — অর্থাৎ PPE শুধু পরলেই হবে না, তার মানও পরীক্ষিত হতে হয়।",
+      "deep": "মনে রাখার ক্রম: আগে উৎসে নিয়ন্ত্রণ (ধারা ১৪-র নিষ্কাশন, ধারা ৩৫-র পর্দা), তারপর শরীরে সাজ (গগলস, শ্বাসযন্ত্র)। পরীক্ষার জোড়-মেলানো প্রশ্নে এই যুক্তিই কাজ করে — সাজ সবসময় ঝুঁকির অঙ্গ অনুযায়ী: চোখ → গগলস, শ্বাস → শ্বাসযন্ত্র, কান → কানের সুরক্ষা, মাথা → হেলমেট।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "ধারা ৩৫ বনাম ৩৬",
+          "body": "৩৫ = **চোখ** (পর্দা/গগলস); ৩৬ = **আবদ্ধ জায়গা** (ম্যানহোল, শ্বাসযন্ত্র, বেল্ট-দড়ি)। সংখ্যা দুটি পাশাপাশি, বিষয় সম্পূর্ণ আলাদা।"
+        }
+      ],
+      "claims": [
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c49"
+      ]
+    },
+    {
+      "id": "welfare_noise",
+      "heading": "কল্যাণ সুবিধা, প্রাথমিক চিকিৎসা ও শব্দ",
+      "quick": "কল্যাণ অধ্যায়ের সংখ্যা-সীমা: প্রাথমিক চিকিৎসার বাক্স প্রতি ১৫০ জনে ১টি (৪৫), বিশ্রামঘর ১৫০+ (৪৭), ক্যান্টিন ২৫০+ (৪৬), ক্রেশ ৩০+ মহিলা শ্রমিক (৪৮), অ্যাম্বুলেন্স-রুম ও কল্যাণ আধিকারিক ৫০০+ (৪৫, ৪৯), নিরাপত্তা আধিকারিক ১০০০+ (৪০B)। শব্দ দূষণ বিধিমালা, ২০০০ অনুযায়ী হাসপাতাল-শিক্ষাপ্রতিষ্ঠান-আদালতের ১০০ মিটারের মধ্যে নীরব এলাকা ঘোষণা করা যায়।",
+      "standard": "স্বাস্থ্য শুধু রোগ প্রতিরোধ নয় — আঘাত লাগলে তাৎক্ষণিক সাহায্য ও দৈনন্দিন কল্যাণও এর অংশ।\n\n**প্রাথমিক চিকিৎসা (ধারা ৪৫):** প্রতিটি কারখানায় নির্ধারিত সরঞ্জামসহ প্রাথমিক চিকিৎসার বাক্স রাখতে হয় — সংখ্যা হবে প্রতি **১৫০ জন** শ্রমিকের জন্য অন্তত একটি; বাক্স থাকবে প্রশিক্ষিত দায়িত্বপ্রাপ্ত ব্যক্তির কাছে। **৫০০ জনের বেশি** শ্রমিক থাকলে নির্ধারিত মাপের **অ্যাম্বুলেন্স-রুম** রাখতে হয়, চিকিৎসা ও নার্সিং কর্মীসহ।\n\n**অন্যান্য কল্যাণ সুবিধা:** বিশ্রামঘর ও মধ্যাহ্নভোজের ঘর — **১৫০ জনের বেশি** (ধারা ৪৭); ক্যান্টিন — **২৫০ জনের বেশি** (ধারা ৪৬, রাজ্য বিধি অনুযায়ী); ক্রেশ — **৩০ জনের বেশি মহিলা শ্রমিক** থাকলে, ছয় বছরের কম বয়সী শিশুদের জন্য (ধারা ৪৮); **কল্যাণ আধিকারিক** — **৫০০ বা তার বেশি** শ্রমিক (ধারা ৪৯); **নিরাপত্তা আধিকারিক** — রাজ্য সরকার বিজ্ঞপ্তি দিলে **১০০০ বা তার বেশি** শ্রমিকের কারখানায়, অথবা শারীরিক আঘাত, বিষক্রিয়া বা রোগের ঝুঁকিযুক্ত প্রক্রিয়ায় (ধারা ৪০B)।\n\n**শব্দ ও পরিবেশ:** শব্দজনিত শ্রবণশক্তি হ্রাস তৃতীয় তফসিলের বিজ্ঞপ্তিযোগ্য রোগ (আগের অংশে পড়েছ)। কারখানার বাইরের পরিবেশের জন্য আছে **শব্দ দূষণ (নিয়ন্ত্রণ ও প্রতিরোধ) বিধিমালা, ২০০০** — পরিবেশ (সুরক্ষা) আইন, ১৯৮৬-এর অধীনে তৈরি। এই বিধিমালায় রাজ্য সরকার এলাকাকে শিল্প, বাণিজ্যিক, আবাসিক বা নীরব এলাকায় ভাগ করে; হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারপাশে কমপক্ষে **১০০ মিটার** এলাকা **নীরব এলাকা** ঘোষণা করা যায়; লাউডস্পিকার রাতে (রাত **১০টা থেকে ভোর ৬টা**) বন্ধ প্রাঙ্গণের বাইরে ব্যবহার করা যায় না।",
+      "deep": "সংখ্যা-সারণি এক লাইনে: **১৫০** (বাক্স, বিশ্রামঘর) → **২৫০** (ক্যান্টিন, ঠান্ডা পানি) → **৫০০** (অ্যাম্বুলেন্স-রুম, কল্যাণ আধিকারিক) → **১০০০** (নিরাপত্তা আধিকারিক); ব্যতিক্রম **৩০** (ক্রেশ, মহিলা শ্রমিক)। পরীক্ষায় এই সারণি থেকেই সবচেয়ে বেশি প্রশ্ন আসে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সীমা-সারণি",
+          "body": "১৫০ → ২৫০ → ৫০০ → ১০০০; ক্রেশের জন্য আলাদা **৩০** (মহিলা শ্রমিক)।"
+        }
+      ],
+      "claims": [
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "কারখানা আইন পাস",
+      "when": "১৯৪৮",
+      "what": "কারখানা আইন, ১৯৪৮ — ১৯৪৮ সালের ৬৩ নম্বর আইন, তারিখ ২৩ সেপ্টেম্বর ১৯৪৮।",
+      "why_it_matters": "ভারতে কারখানার স্বাস্থ্য, নিরাপত্তা ও কল্যাণের মূল আইনি কাঠামোর শুরু।",
+      "section": "health_duties",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "title": "আইন কার্যকর",
+      "when": "১৯৪৯",
+      "what": "আইনটি ১৯৪৯ সালের ১ এপ্রিল থেকে কার্যকর হয়।",
+      "why_it_matters": "এই তারিখের পর তৈরি কারখানার জন্য কর্মকক্ষে ১৪.২ ঘনমিটার জায়গার নিয়ম প্রযোজ্য হয়।",
+      "section": "workroom_health",
+      "claims": [
+        "c01",
+        "c11"
+      ]
+    },
+    {
+      "title": "অধ্যায় IV-A সংযোজন",
+      "when": "১৯৮৭",
+      "what": "১৯৮৭ সালের ২০ নম্বর আইনে ধারা ৪১A–৪১H (বিপজ্জনক প্রক্রিয়া) যোগ হয়, কার্যকর ১ ডিসেম্বর ১৯৮৭ থেকে।",
+      "why_it_matters": "স্বাস্থ্য রেকর্ড, ১২ মাস অন্তর চিকিৎসা পরীক্ষা, নিরাপত্তা কমিটি — আধুনিক পেশাগত স্বাস্থ্য নজরদারির ভিত্তি এই অধ্যায়।",
+      "section": "medical_surveillance",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "title": "শব্দ দূষণ বিধিমালা",
+      "when": "২০০০",
+      "what": "পরিবেশ (সুরক্ষা) আইন, ১৯৮৬-এর অধীনে শব্দ দূষণ (নিয়ন্ত্রণ ও প্রতিরোধ) বিধিমালা, ২০০০ তৈরি হয়।",
+      "why_it_matters": "কারখানার বাইরের শব্দ-মান ও নীরব এলাকার বিধান এই বিধিমালা থেকে আসে।",
+      "section": "welfare_noise",
+      "claims": [
+        "c47"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "সার্টিফাইং সার্জন",
+      "when": "ধারা ১০",
+      "role": "রাজ্য সরকার নিযুক্ত যোগ্য চিকিৎসক",
+      "contribution": "তরুণ শ্রমিকদের ফিটনেস পরীক্ষা, বিপজ্জনক প্রক্রিয়ার শ্রমিকদের পরীক্ষা ও চিকিৎসা তদারকি।",
+      "section": "medical_surveillance",
+      "claims": [
+        "c15",
+        "c16"
+      ]
+    },
+    {
+      "name": "কল্যাণ আধিকারিক",
+      "when": "ধারা ৪৯",
+      "role": "৫০০ বা তার বেশি শ্রমিকের কারখানায় নিয়োগযোগ্য আধিকারিক",
+      "contribution": "শ্রমিক কল্যাণের ব্যবস্থা দেখভাল করেন।",
+      "section": "welfare_noise",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "name": "নিরাপত্তা আধিকারিক",
+      "when": "ধারা ৪০B",
+      "role": "রাজ্য বিজ্ঞপ্তি অনুযায়ী ১০০০+ শ্রমিকের কারখানায় নিয়োগযোগ্য আধিকারিক",
+      "contribution": "কারখানার নিরাপত্তা ব্যবস্থা তদারকি করেন।",
+      "section": "welfare_noise",
+      "claims": [
+        "c44"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1948,
+      "when": "১৯৪৮",
+      "label": "কারখানা আইন পাস (৬৩ নম্বর আইন, ২৩ সেপ্টেম্বর ১৯৪৮)",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "sort_year": 1949,
+      "when": "১৯৪৯",
+      "label": "কারখানা আইন কার্যকর (১ এপ্রিল ১৯৪৯)",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1987,
+      "when": "১৯৮৭",
+      "label": "অধ্যায় IV-A (বিপজ্জনক প্রক্রিয়া) সংযোজন, কার্যকর ১ ডিসেম্বর ১৯৮৭",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "sort_year": 2000,
+      "when": "২০০০",
+      "label": "শব্দ দূষণ (নিয়ন্ত্রণ ও প্রতিরোধ) বিধিমালা",
+      "claims": [
+        "c47"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "দখলদার (Occupier)",
+      "meaning": "কারখানার বিষয়ে চূড়ান্ত নিয়ন্ত্রণ যার হাতে; ধারা ৭A-র স্বাস্থ্য-নিরাপত্তা দায়িত্ব তাঁর ওপর।",
+      "section": "health_duties"
+    },
+    {
+      "term": "বিপজ্জনক প্রক্রিয়া (Hazardous process)",
+      "meaning": "প্রথম তফসিলের শিল্পের প্রক্রিয়া যেখানে বিশেষ সতর্কতা ছাড়া স্বাস্থ্যের ক্ষতি বা পরিবেশ দূষণের ঝুঁকি থাকে।",
+      "section": "health_duties"
+    },
+    {
+      "term": "সার্টিফাইং সার্জন (Certifying surgeon)",
+      "meaning": "রাজ্য সরকার নিযুক্ত চিকিৎসক যিনি শ্রমিকদের ফিটনেস পরীক্ষা ও চিকিৎসা তদারকি করেন (ধারা ১০)।",
+      "section": "medical_surveillance"
+    },
+    {
+      "term": "বিজ্ঞপ্তিযোগ্য রোগ (Notifiable disease)",
+      "meaning": "তৃতীয় তফসিলে তালিকাভুক্ত পেশাগত রোগ, যার খবর ধারা ৮৯ অনুযায়ী কর্তৃপক্ষকে জানাতে হয়।",
+      "section": "notifiable_diseases"
+    },
+    {
+      "term": "সিলিকোসিস (Silicosis)",
+      "meaning": "তৃতীয় তফসিলের ১২ নম্বর এন্ট্রি — বিজ্ঞপ্তিযোগ্য পেশাগত ফুসফুসের রোগগুলির একটি।",
+      "section": "notifiable_diseases"
+    },
+    {
+      "term": "PPE (Personal Protective Equipment)",
+      "meaning": "ব্যক্তিগত সুরক্ষা সাজ — গগলস, শ্বাসযন্ত্র, গ্লাভস, ফেস শিল্ড ইত্যাদি; ঝুঁকি অনুযায়ী মিলিয়ে পরতে হয়।",
+      "section": "ppe_protection"
+    },
+    {
+      "term": "আবদ্ধ জায়গা (Confined space)",
+      "meaning": "ট্যাঙ্ক, গর্ত, পাইপ জাতীয় সীমিত জায়গা যেখানে গ্যাস-ধোঁয়ায় অজ্ঞান হওয়ার ঝুঁকি থাকে (ধারা ৩৬)।",
+      "section": "ppe_protection"
+    },
+    {
+      "term": "নীরব এলাকা (Silence zone)",
+      "meaning": "হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারপাশে কমপক্ষে ১০০ মিটার এলাকা, যা শব্দ বিধিমালায় নীরব এলাকা ঘোষণা করা যায়।",
+      "section": "welfare_noise"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "ধুলো উৎসে না আটকালে",
+      "causes": [
+        "ধারা ১৪ অনুযায়ী উৎসের কাছে নিষ্কাশন না বসানো",
+        "দীর্ঘদিন ধুলোযুক্ত পরিবেশে কাজ"
+      ],
+      "event": "শ্রমিকের ফুসফুসের পেশাগত রোগের ঝুঁকি বাড়ে",
+      "results": [
+        "সিলিকোসিসের মতো রোগ তৃতীয় তফসিলে বিজ্ঞপ্তিযোগ্য",
+        "ধারা ৮৯ অনুযায়ী ব্যবস্থাপক ও চিকিৎসককে জানাতে হয়"
+      ],
+      "section": "notifiable_diseases",
+      "claims": [
+        "c10",
+        "c33",
+        "c30"
+      ]
+    },
+    {
+      "title": "চিকিৎসা নজরদারি থাকলে",
+      "causes": [
+        "ধারা ৪১C অনুযায়ী স্বাস্থ্য রেকর্ড রাখা",
+        "সর্বোচ্চ ১২ মাস ব্যবধানে পরীক্ষা"
+      ],
+      "event": "পেশাগত রোগ প্রাথমিক পর্যায়ে ধরা পড়ার সুযোগ বাড়ে",
+      "results": [
+        "শ্রমিকের স্বাস্থ্য রেকর্ড তাঁর নিজের কাছেও প্রবেশযোগ্য থাকে",
+        "সমীক্ষা (ধারা ৯১A) দিয়ে ব্যবস্থার যাচাই হয়"
+      ],
+      "section": "medical_surveillance",
+      "claims": [
+        "c17",
+        "c18",
+        "c22"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "সংখ্যা-সারণি: ১৫০ (বাক্স, বিশ্রামঘর), ২৫০ (ক্যান্টিন, ঠান্ডা পানি), ৫০০ (অ্যাম্বুলেন্স-রুম, কল্যাণ আধিকারিক), ১০০০ (নিরাপত্তা আধিকারিক), ৩০ (ক্রেশ)",
+      "section": "welfare_noise"
+    },
+    {
+      "point": "তৃতীয় তফসিলের এন্ট্রি-নম্বর: সিলিকোসিস ১২, বাইসিনোসিস ১৯, অ্যাসবেস্টোসিস ২০, শব্দজনিত শ্রবণশক্তি হ্রাস ২২",
+      "section": "notifiable_diseases"
+    },
+    {
+      "point": "ধারা ৩৫ (চোখ/গগলস) বনাম ধারা ৩৬ (আবদ্ধ জায়গা/শ্বাসযন্ত্র) — গুলিয়ে ফেলা যাবে না",
+      "section": "ppe_protection"
+    },
+    {
+      "point": "ধারা ৪১C: স্বাস্থ্য রেকর্ড + ১২ মাস ব্যবধানে চিকিৎসা পরীক্ষা (আগে, চলাকালীন, পরেও)",
+      "section": "medical_surveillance"
+    },
+    {
+      "point": "কারখানার সংজ্ঞা ১০/২০ এবং ৭A-র দায়িত্বের পরিধি",
+      "section": "health_duties"
+    },
+    {
+      "point": "১৪.২ ঘনমিটার (নতুন) বনাম ৯.৯ ঘনমিটার (পুরনো) এবং পানীয় জলের ৬ মিটার দূরত্ব",
+      "section": "workroom_health"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের কারখানাগুলিও এই একই কেন্দ্রীয় আইনের আওতায় চলে; রাজ্যে এর প্রয়োগ দেখে রাজ্য সরকারের কারখানা পরিদর্শক ব্যবস্থা, আর সার্টিফাইং সার্জন নিয়োগও রাজ্য সরকারই করে (ধারা ১০)। কলকাতায় আছে DGFASLI-এর **আঞ্চলিক শ্রম প্রতিষ্ঠান (Regional Labour Institute, Kolkata)** — সেখানে পেশাগত স্বাস্থ্য বিষয়ে তিন মাসের **AFIH** (Associate Fellow in Industrial Health) প্রশিক্ষণ কর্মসূচি চলে, যা এই অধ্যায়ের চিকিৎসা নজরদারির ধারণার সঙ্গে সরাসরি যুক্ত।",
+    "claims": [
+      "c15",
+      "c52"
+    ]
+  },
+  "quick_revision": [
+    "কারখানা আইন, ১৯৪৮: পাস ১৯৪৮ (৬৩ নম্বর), কার্যকর ১ এপ্রিল ১৯৪৯।",
+    "কারখানার সংজ্ঞা: শক্তি থাকলে ১০+, না থাকলে ২০+ শ্রমিক।",
+    "ধারা ৭A: দখলদারের দায়িত্ব — স্বাস্থ্য, নিরাপত্তা, কল্যাণ + লিখিত নীতি-বিবৃতি + প্রশিক্ষণ।",
+    "ধারা ১৪: নিষ্কাশন যন্ত্র ধুলোর উৎপত্তিস্থলের কাছে বসাতে হয়।",
+    "নতুন কারখানায় প্রতি শ্রমিক ১৪.২ ঘনমিটার; পানীয় জল দূষণ-উৎস থেকে ৬ মিটার দূরে।",
+    "সার্টিফাইং সার্জন নিয়োগ করে রাজ্য সরকার (ধারা ১০)।",
+    "ধারা ৪১C: স্বাস্থ্য রেকর্ড + সর্বোচ্চ ১২ মাস ব্যবধানে চিকিৎসা পরীক্ষা।",
+    "নিরাপত্তা কমিটি (৪১G): শ্রমিক ও ব্যবস্থাপনা সমান সংখ্যায়।",
+    "তৃতীয় তফসিল: সিলিকোসিস ১২, বাইসিনোসিস ১৯, অ্যাসবেস্টোসিস ২০, শ্রবণশক্তি হ্রাস ২২।",
+    "ধারা ৮৯: ব্যবস্থাপক বিজ্ঞপ্তি দেন; চিকিৎসক প্রধান পরিদর্শককে জানান।",
+    "ধারা ৩৫: চোখের জন্য পর্দা/গগলস; ধারা ৩৬: আবদ্ধ জায়গায় শ্বাসযন্ত্র ও বেল্ট-দড়ি।",
+    "সীমা-সারণি: ১৫০ → ২৫০ → ৫০০ → ১০০০; ক্রেশ ৩০+ মহিলা শ্রমিক।",
+    "নীরব এলাকা: হাসপাতাল/শিক্ষাপ্রতিষ্ঠান/আদালতের চারপাশে কমপক্ষে ১০০ মিটার।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "The Factories Act, 1948 (Act 63 of 1948) — full text, India Code, Legislative Department, Ministry of Law and Justice",
+      "publisher": "GOVT",
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/20951/2/the_factories_act%2c_1948.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Noise Pollution (Regulation and Control) Rules, 2000 — Central Pollution Control Board (CPCB)",
+      "publisher": "GOVT",
+      "url": "https://cpcb.nic.in/noise-pollution-rules/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "CIPET gets accreditation by NABL for Testing and Certification of PPE Kit — Press Information Bureau, Government of India",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1639766&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Directorate General of Factory Advice Service and Labour Institutes (DGFASLI) — official homepage, Ministry of Labour and Employment",
+      "publisher": "GOVT",
+      "url": "https://dgfasli.gov.in/",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "The Act is called the Factories Act, 1948 and came into force on 1 April 1949.",
+      "source": "s1",
+      "page": "p. 1 (s. 1)",
+      "quote": "This Act may be called the Factories Act, 1948. (3) It shall come into force on the 1st day of April, 1949."
+    },
+    {
+      "id": "c02",
+      "claim": "A 'factory' means premises where 10 or more workers work with power, or 20 or more without power, in a manufacturing process.",
+      "source": "s1",
+      "page": "p. 2 (s. 2)",
+      "quote": "“factory” means any premises including the precincts thereof- (i) whereon ten or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on with the aid of power, or is ordinarily so carried on, or (ii) whereon twenty or more workers are working, or were working on any day of the preceding twelve months, and in any part of which a manufacturing process is being carried on without the aid of power, or is ordinarily so carried on"
+    },
+    {
+      "id": "c03",
+      "claim": "A 'hazardous process' is a process in a First Schedule industry where, unless special care is taken, materials, products, wastes or effluents would impair workers' health or pollute the environment.",
+      "source": "s1",
+      "page": "p. 2 (s. 2)",
+      "quote": "“hazardous process” means any process or activity in relation to an industry specified in the First Schedule where, unless special care is taken, raw materials used therein or the intermediate or finished products, byeproducts, wastes or effluents thereof would— (i) cause material impairment to the health of the persons engaged in or connected therewith, or (ii) result in the pollution of the general environment"
+    },
+    {
+      "id": "c04",
+      "claim": "Section 7A(1): every occupier must ensure, so far as reasonably practicable, the health, safety and welfare of all workers while at work.",
+      "source": "s1",
+      "page": "p. 8 (s. 7A)",
+      "quote": "Every occupier shall ensure, so far as is reasonably practicable, the health, safety and welfare of all workers while they are at work in the factory."
+    },
+    {
+      "id": "c05",
+      "claim": "The occupier's duty includes providing information, instruction, training and supervision necessary for workers' health and safety.",
+      "source": "s1",
+      "page": "p. 8 (s. 7A)",
+      "quote": "the provision of such information, instruction, training and supervision as are necessary to ensure the health and safety of all workers at work"
+    },
+    {
+      "id": "c06",
+      "claim": "The occupier must prepare and revise a written statement of his general policy on workers' health and safety and bring it to the notice of all workers.",
+      "source": "s1",
+      "page": "p. 8 (s. 7A)",
+      "quote": "every occupier shall prepare, and, as often as may be appropriate, revise, a written statement of his general policy with respect to the health and safety of the workers at work and the organisation and arrangements for the time being in force for carrying out that policy, and to bring the statement and any revision thereof to the notice of all the workers"
+    },
+    {
+      "id": "c07",
+      "claim": "Under s. 11, dirt and refuse must be removed daily from floors and benches of workrooms.",
+      "source": "s1",
+      "page": "p. 12 (s. 11)",
+      "quote": "accumulation of dirt and refuse shall be removed daily by sweeping or by any other effective method from the floors and benches of workrooms and from staircases and passages, and disposed of in a suitable manner"
+    },
+    {
+      "id": "c08",
+      "claim": "Section 12 requires effective arrangements for treatment of wastes and effluents so as to render them innocuous, and for their disposal.",
+      "source": "s1",
+      "page": "p. 14 (s. 12)",
+      "quote": "Effective arrangements shall be made in every factory for the treatment of wastes and effluents due to the manufacturing process carried on therein, so as to render them innocuous and for their disposal."
+    },
+    {
+      "id": "c09",
+      "claim": "Section 13 requires adequate ventilation by circulation of fresh air and a temperature giving reasonable comfort and preventing injury to health in every workroom.",
+      "source": "s1",
+      "page": "p. 14 (s. 13)",
+      "quote": "Effective and suitable provision shall be made in every factory for securing and maintaining in every workroom— (a) adequate ventilation by the circulation of fresh air, and (b) such a temperature as will secure to workers therein reasonable conditions of comfort and prevent injury to health"
+    },
+    {
+      "id": "c10",
+      "claim": "Section 14: effective measures must prevent inhalation and accumulation of dust/fume; an exhaust appliance must be applied as near as possible to the point of origin.",
+      "source": "s1",
+      "page": "p. 15 (s. 14)",
+      "quote": "effective measures shall be taken to prevent its inhalation and accumulation in any workroom, and if any exhaust appliance is necessary for this purpose, it shall be applied as near as possible to the point of origin of the dust, fume or other impurity, and such point shall be enclosed so far as possible"
+    },
+    {
+      "id": "c11",
+      "claim": "A workroom in a factory built after the Act commenced must have at least 14.2 cubic metres of space per worker (9.9 for older factories).",
+      "source": "s1",
+      "page": "p. 15 (s. 16)",
+      "quote": "there shall be in every workroom of factory in existence on the date of the commencement of this Act at least 9.9 cubic metres and of a factory built after the commencement of this Act at least 14.2 cubic meters of space for every worker employed therein"
+    },
+    {
+      "id": "c12",
+      "claim": "Section 17 requires sufficient and suitable lighting, natural or artificial or both, wherever workers work or pass.",
+      "source": "s1",
+      "page": "p. 16 (s. 17)",
+      "quote": "In every part of a factory where workers are working or passing there shall be provided and maintained sufficient and suitable lighting, natural or artificial, or both."
+    },
+    {
+      "id": "c13",
+      "claim": "A drinking-water point must not be within six metres of any washing place, urinal, latrine, spittoon, open drain or other source of contamination.",
+      "source": "s1",
+      "page": "p. 16 (s. 18)",
+      "quote": "no such point shall be situated within six meters of any washing place, urinal, latrine, spittoon, open drain carrying sullage or effluent or any other source of contamination"
+    },
+    {
+      "id": "c14",
+      "claim": "Where more than 250 workers are ordinarily employed, drinking water must be cooled during hot weather.",
+      "source": "s1",
+      "page": "p. 16 (s. 18)",
+      "quote": "In every factory wherein more than two hundred and fifty workers are ordinarily employed, provision shall be made for cooling drinking water during hot weather by effective means and for distribution thereof."
+    },
+    {
+      "id": "c15",
+      "claim": "Certifying surgeons are qualified medical practitioners appointed by the State Government.",
+      "source": "s1",
+      "page": "p. 11 (s. 10)",
+      "quote": "The State Government may appoint qualified medical practitioners to be certifying surgeons for the purposes of this Act within such local limits or for such factory or class or description of factories as it may assign to them respectively."
+    },
+    {
+      "id": "c16",
+      "claim": "Certifying surgeons examine persons in prescribed dangerous occupations/processes and exercise medical supervision where illness is believed due to the manufacturing process or conditions of work.",
+      "source": "s1",
+      "page": "p. 11 (s. 10)",
+      "quote": "the examination of persons engaged in factories in such dangerous occupations or processes as may be prescribed; (c) the exercising of such medical supervision as may be prescribed for any factory or class or description of factories where— (i) cases of illness have occurred which it is reasonable to believe are due to the nature of the manufacturing process carried on, or other conditions of work prevailing, therein"
+    },
+    {
+      "id": "c17",
+      "claim": "For hazardous processes the occupier must maintain accurate, up-to-date health/medical records of workers exposed to chemical, toxic or other harmful substances, accessible to the workers.",
+      "source": "s1",
+      "page": "p. 31 (s. 41C)",
+      "quote": "maintain accurate and uptodate health records or, as the case may be, medical records, of the workers in the factory who are exposed to any chemical, toxic or any other harmful substances which are manufactured, stored, handled or transported and such records shall be accessible to the workers subject to such conditions as may be prescribed"
+    },
+    {
+      "id": "c18",
+      "claim": "Every hazardous-process worker must be medically examined before assignment, while continuing in the job, and after ceasing it, at intervals not exceeding twelve months.",
+      "source": "s1",
+      "page": "p. 31 (s. 41C)",
+      "quote": "provide for medical examination of every worker— (a) before such worker is assigned to a job involving the handling of, or working with, a hazardous substance, and (b) while continuing in such job, and after he has ceased to work in such job, at intervals not exceeding twelve months, in such manner as may be prescribed"
+    },
+    {
+      "id": "c19",
+      "claim": "Maximum permissible threshold limits of exposure to chemical and toxic substances are those in the Second Schedule.",
+      "source": "s1",
+      "page": "p. 33 (s. 41F)",
+      "quote": "The maximum permissible threshold limits of exposure of chemical and toxic substances in manufacturing processes (whether hazardous or otherwise) in any factory shall be of the value indicated in the Second Schedule."
+    },
+    {
+      "id": "c20",
+      "claim": "In hazardous-process factories the occupier must set up a Safety Committee with equal numbers of worker and management representatives.",
+      "source": "s1",
+      "page": "p. 33 (s. 41G)",
+      "quote": "The occupier shall, in every factory where a hazardous process takes place, or where hazardous substances are used or handled, set up a Safety Committee consisting of equal number of representatives of workers and management to promote cooperation between the workers and the management in maintaining proper safety and health at work"
+    },
+    {
+      "id": "c21",
+      "claim": "Workers who reasonably apprehend imminent danger to life or health may bring it to the notice of the occupier/manager and simultaneously the Inspector.",
+      "source": "s1",
+      "page": "p. 33 (s. 41H)",
+      "quote": "Where the workers employed in any factory engaged in a hazardous process have reasonable apprehension that there is a likelihood of imminent danger to their lives or health due to any accident, they may bring the same to the notice of the occupier, agent, manager or any other person who is incharge of the factory or the process concerned directly or through their representatives in the Safety Committee and simultaneously bring the same to the notice of the Inspector."
+    },
+    {
+      "id": "c22",
+      "claim": "Safety and occupational health surveys may be undertaken by the Chief Inspector, the Director General of Factory Advice Service and Labour Institutes, or the Director General of Health Services, Government of India.",
+      "source": "s1",
+      "page": "p. 57 (s. 91A)",
+      "quote": "The Chief Inspector, or the Director General of Factory Advice Service and Labour Institutes, or the Director General of Health Services, to the Government of India, or such other officer as may be authorised in this behalf by the State Government or the Chief Inspector or the Director General of Factory Advice Service and Labour Institutes or the Director General of Health Services may, at any time during the normal working hours of a factory, or at any other time as is found by him to be necessary, after giving notice in writing to the occupier or manager of the factory or any other person who for the time being purports to be in charge of the factory, undertake safety and occupational health surveys"
+    },
+    {
+      "id": "c23",
+      "claim": "Section 35: for prescribed processes, the State Government may by rules require effective screens or suitable goggles for eye protection.",
+      "source": "s1",
+      "page": "p. 25 (s. 35)",
+      "quote": "the State Government may by rules require that effective screens or suitable goggles shall be provided for the protection of persons employed on, or in the immediate vicinity of, the process."
+    },
+    {
+      "id": "c24",
+      "claim": "Section 35 covers processes involving risk of eye injury from particles or fragments thrown off, or risk to the eyes from exposure to excessive light.",
+      "source": "s1",
+      "page": "p. 25 (s. 35)",
+      "quote": "being a process which involves— (a) risk of injury to the eyes from particles or fragments thrown off in the course of the process, or (b) risk to the eyes by reason of exposure to excessive light"
+    },
+    {
+      "id": "c25",
+      "claim": "No one may be required or allowed to enter a confined space where gas, fume, vapour or dust may overcome persons, unless it has a manhole of adequate size or other effective means of egress.",
+      "source": "s1",
+      "page": "p. 26 (s. 36)",
+      "quote": "No person shall be required or allowed to enter any chamber, tank, vat, pit, pipe, flue or other confined space in any factory in which any gas, fume, vapour or dust is likely to be present to such an extent as to involve risk to persons being overcome thereby, unless it is provided with a manhole of adequate size or other effective means of egress."
+    },
+    {
+      "id": "c26",
+      "claim": "Entry to such a confined space is allowed where the person wears suitable breathing apparatus and a belt securely attached to a rope whose free end is held by a person outside.",
+      "source": "s1",
+      "page": "p. 26 (s. 36)",
+      "quote": "such person is wearing suitable breathing apparatus and a belt securely attached to a rope the free end of which is held by a person outside the confined space"
+    },
+    {
+      "id": "c27",
+      "claim": "For hazardous processes the occupier must provide at the working place all necessary facilities for protecting the workers in the manner prescribed.",
+      "source": "s1",
+      "page": "p. 31 (s. 41C)",
+      "quote": "appoint persons who possess qualifications and experience in handling hazardous substances and are competent to supervise such handling within the factory and to provide at the working place all the necessary facilities for protecting the workers in the manner prescribed"
+    },
+    {
+      "id": "c28",
+      "claim": "A PPE kit includes gloves, coverall, face shield and goggles, and triple-layer medical masks, in line with international standards.",
+      "source": "s3",
+      "page": "PIB release, 18 Jul 2020",
+      "quote": "PPE kit includes Gloves, Coverall, Face Shield & Goggles, and Triple Layer Medical masks etc in line with International Standards."
+    },
+    {
+      "id": "c29",
+      "claim": "CIPET (under the Ministry of Chemicals and Fertilizers) has been accredited by NABL for testing and certification of PPE kits.",
+      "source": "s3",
+      "page": "PIB release, 18 Jul 2020",
+      "quote": "Central Institute of Petrochemicals Engineering & Technology (CIPET) an apex level premium institute under the Ministry of Chemicals and Fertilizers, Deptt of Chemicals & Petrochemicals, has been accredited by National Accreditation Board for Testing and Calibration Laboratories (NABL) for Testing & Certification of PPE Kit."
+    },
+    {
+      "id": "c30",
+      "claim": "Section 89(1): where a worker contracts a Third Schedule disease, the factory manager must send notice to the prescribed authorities.",
+      "source": "s1",
+      "page": "p. 56 (s. 89)",
+      "quote": "Where any worker in a factory contracts any disease specified in the third Schedule, the manager of the factory shall send notice thereof to such authorities, and in such form and within such time, as may be prescribed."
+    },
+    {
+      "id": "c31",
+      "claim": "A medical practitioner attending a person suffering from a Third Schedule disease must without delay send a written report to the office of the Chief Inspector.",
+      "source": "s1",
+      "page": "p. 56 (s. 89)",
+      "quote": "the medical practitioner shall without delay send a report in writing to the office of the Chief Inspector stating— (a) the name and full postal address of the patient, (b) the disease from which he believes the patient to be suffering, and (c) the name and address of the factory in which the patient is, or was last, employed."
+    },
+    {
+      "id": "c32",
+      "claim": "The Central Government may, by notification in the Official Gazette, add to or alter the Third Schedule.",
+      "source": "s1",
+      "page": "p. 56 (s. 89)",
+      "quote": "The Central Government may, by notification in the Official Gazette, add to or alter the Third Schedule and any such addition or alteration shall have effect as if it had been made by this Act."
+    },
+    {
+      "id": "c33",
+      "claim": "Silicosis is entry 12 in the Third Schedule list of notifiable diseases.",
+      "source": "s1",
+      "page": "Third Schedule, entry 12",
+      "quote": "12. Silicosis."
+    },
+    {
+      "id": "c34",
+      "claim": "Byssinosis and asbestosis are entries 19 and 20 in the Third Schedule.",
+      "source": "s1",
+      "page": "Third Schedule, entries 19-20",
+      "quote": "19. Byssionosis. 20. Asbestosis."
+    },
+    {
+      "id": "c35",
+      "claim": "Noise induced hearing loss (exposure to high noise levels) is entry 22 in the Third Schedule.",
+      "source": "s1",
+      "page": "Third Schedule, entry 22",
+      "quote": "22. Noise induced hearing loss (exposure to high noise levels)."
+    },
+    {
+      "id": "c36",
+      "claim": "The Third Schedule lists lead poisoning, benzene poisoning and anthrax among notifiable diseases.",
+      "source": "s1",
+      "page": "Third Schedule, entries 1, 9, 11",
+      "quote": "1. Lead poisoning, including poisoning by any preparation or compound of lead or their sequelae. 9. Benzene poisoning, including poisoning amide derivatives or its sequelae. 11. Anthrax."
+    },
+    {
+      "id": "c37",
+      "claim": "Under s. 90 the State Government may appoint a competent person to inquire into a case where a Third Schedule disease has been, or is suspected to have been, contracted in a factory.",
+      "source": "s1",
+      "page": "p. 56 (s. 90)",
+      "quote": "appoint a competent person to inquire into the causes of any accident occurring in a factory or into any case where a disease specified in the Third Schedule has been, or is suspected to have been, contracted in a factory"
+    },
+    {
+      "id": "c38",
+      "claim": "First-aid boxes or cupboards must be not less than one for every 150 workers ordinarily employed at any one time.",
+      "source": "s1",
+      "page": "p. 34 (s. 45)",
+      "quote": "the number of such boxes or cupboards to be provided and maintained shall not be less than one for every one hundred and fifty workers ordinarily employed at any one time in the factory"
+    },
+    {
+      "id": "c39",
+      "claim": "In every factory with more than 500 workers ordinarily employed, an ambulance room of the prescribed size must be provided and maintained.",
+      "source": "s1",
+      "page": "p. 35 (s. 45)",
+      "quote": "In every factory wherein more than five hundred workers are ordinarily employed there shall be provided and maintained an ambulance room of the prescribed size, containing the prescribed equipment and in the charge of such medical and nursing staff as may be prescribed"
+    },
+    {
+      "id": "c40",
+      "claim": "A canteen must be provided where more than 250 workers are ordinarily employed, where State rules so require.",
+      "source": "s1",
+      "page": "p. 35 (s. 46)",
+      "quote": "The State Government may make rules requiring that in any specified factory wherein more than two hundred and fifty workers are ordinarily employed, a canteen or canteens shall be provided and maintained by the occupier for the use of the workers."
+    },
+    {
+      "id": "c41",
+      "claim": "Where more than 150 workers are ordinarily employed, shelters or rest rooms and a suitable lunch room with drinking water must be provided.",
+      "source": "s1",
+      "page": "p. 35 (s. 47)",
+      "quote": "In every factory wherein more than one hundred and fifty workers are ordinarily employed, adequate and suitable shelters or rest rooms and a suitable lunch room, with provision for drinking water, where workers can eat meals brought by them, shall be provided and maintained for the use of the workers"
+    },
+    {
+      "id": "c42",
+      "claim": "A creche is required where more than 30 women workers are ordinarily employed, for children under six years of age.",
+      "source": "s1",
+      "page": "p. 36 (s. 48)",
+      "quote": "In every factory wherein more than thirty women workers are ordinarily employed there shall be provided and maintained a suitable room or rooms for the use of children under the age of six years of such women."
+    },
+    {
+      "id": "c43",
+      "claim": "Welfare officers must be employed in every factory wherein 500 or more workers are ordinarily employed.",
+      "source": "s1",
+      "page": "p. 36 (s. 49)",
+      "quote": "In every factory wherein five hundred or more workers are ordinarily employed the occupier shall employ in the factory such number of welfare officers as may be prescribed."
+    },
+    {
+      "id": "c44",
+      "claim": "Safety Officers are required, on State Government notification, in factories with 1,000 or more workers ordinarily employed, or in processes involving risk of bodily injury, poisoning or disease.",
+      "source": "s1",
+      "page": "p. 29 (s. 40B)",
+      "quote": "In every factory,— (i) wherein one thousand or more workers are ordinarily employed, or (ii) wherein, in the opinion of the State Government, any manufacturing process or operation is carried on, which process or operation involves any risk of bodily injury, poisoning or disease, or any other hazard to health, to the persons employed in the factory, the occupier shall, if so required by the State Government by notification in the Official Gazette, employ such number of Safety Officers as may be specified in that notification."
+    },
+    {
+      "id": "c45",
+      "claim": "An area of not less than 100 metres around hospitals, educational institutions and courts may be declared a silence area/zone.",
+      "source": "s2",
+      "page": "Noise Rules, 2000, rule 3",
+      "quote": "An area comprising not less than 100 metres around hospitals, educational institutions and courts may be declared as silence area / zone for the purpose of these rules."
+    },
+    {
+      "id": "c46",
+      "claim": "A loud speaker or public address system must not be used at night (10:00 p.m. to 6:00 a.m.) except in closed premises for internal communication.",
+      "source": "s2",
+      "page": "Noise Rules, 2000, rule 5",
+      "quote": "A loud speaker or a public address system shall not be used at night (between 10:00 p.m. to 6:00 a.m.) except in closed premises for communication within, e.g. auditoria, conference rooms, community halls and banquet halls."
+    },
+    {
+      "id": "c47",
+      "claim": "The Noise Pollution (Regulation and Control) Rules were made in 2000 under the Environment (Protection) Act, 1986.",
+      "source": "s2",
+      "page": "Noise Rules, 2000, rule 1",
+      "quote": "Now, therefore, in exercise of the powers conferred by clause (ii) of sub-section (2) of section 3, sub-section (1) and clause (b) of sub-section (2) of section 6 and section 25 of the Environment (Protection) Act, 1986 (29 of 1986) read with rule 5 of the Environment (Protection) Rules, 1986, the Central Government hereby makes the following rules for the regulation and control of noise producing and generating sources, namely:- The Noise Pollution (Regulation and Control) Rules, 2000"
+    },
+    {
+      "id": "c48",
+      "claim": "Where safety standards for a hazardous process are absent or inadequate, the Central Government may direct the Director-General of Factory Advice Service and Labour Institutes (DGFASLI) to lay down emergency standards.",
+      "source": "s1",
+      "page": "p. 32 (s. 41E)",
+      "quote": "it may direct the Director- General of Factory Advice Service and Labour Institutes or any institution specialised in matters relating to standards of safety in hazardous processes, to lay down emergency standards for enforcement of suitable standards in respect of such hazardous processes"
+    },
+    {
+      "id": "c49",
+      "claim": "Inside a confined space, no portable electric light or appliance of voltage exceeding 24 volts is permitted unless adequate safety devices are provided.",
+      "source": "s1",
+      "page": "p. 26 (s. 36A)",
+      "quote": "no portable electric light or any other electric appliance of voltage exceeding twentyfour volts shall be permitted for use inside any chamber, tank, vat, pit, pipe, flue or other confined space; unless adequate safety devices are provided"
+    },
+    {
+      "id": "c50",
+      "claim": "The Factories Act is Act No. 63 of 1948, dated 23rd September 1948.",
+      "source": "s1",
+      "page": "Act heading",
+      "quote": "ACT NO. 63 OF 1948 [23rd September, 1948] An Act to consolidate and amend the law regulating labour in factories."
+    },
+    {
+      "id": "c51",
+      "claim": "Chapter IVA (sections 41A-41H) on hazardous processes was inserted by Act 20 of 1987 with effect from 1-12-1987.",
+      "source": "s1",
+      "page": "Ch. IVA insertion note",
+      "quote": "Ch. IV A (Contraining sections 41A, 41B, 41C, 41D, 41E, 41F, 41G, and 41H) Ins. by Act 20 of 1987, sec. 20 (w.e.f. 1-12-1987)"
+    },
+    {
+      "id": "c52",
+      "claim": "The Regional Labour Institute, Kolkata runs the three-month AFIH (Associate Fellow in Industrial Health) training programme in industrial health.",
+      "source": "s4",
+      "page": "DGFASLI homepage, accessed 2026-11-19",
+      "quote": "आरएलआई, कोलकाता में एएफआईएच, प्रथम सत्र (01.06.2026 से 31.08.2026) में तीन महीने की अवधि के प्रशिक्षण कार्यक्रम के लिए प्रवेश प्रक्रिया"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "health_duties",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কারখানা আইন, ১৯৪৮ কবে থেকে কার্যকর হয়?",
+      "a": "১ এপ্রিল ১৯৪৯",
+      "w": [
+        "১ জানুয়ারি ১৯৪৮",
+        "১৫ আগস্ট ১৯৪৭",
+        "২৬ জানুয়ারি ১৯৫০"
+      ],
+      "e": "আইনের ধারা ১ অনুযায়ী এটি ১৯৪৯ সালের ১ এপ্রিল থেকে কার্যকর হয়। বাকি তারিখগুলি এই আইনের সঙ্গে যুক্ত নয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "health_duties",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শক্তির সাহায্যে উৎপাদন-প্রক্রিয়া চললে কতজন শ্রমিক থাকলে কোনো জায়গা 'কারখানা' বলে গণ্য হয়?",
+      "a": "১০ বা তার বেশি",
+      "w": [
+        "৫ বা তার বেশি",
+        "২০ বা তার বেশি",
+        "৫০ বা তার বেশি"
+      ],
+      "e": "সংজ্ঞা অনুযায়ী শক্তি ব্যবহার হলে সীমা ১০ জন, শক্তি ছাড়া হলে ২০ জন। তাই শক্তির ক্ষেত্রে ২০ উত্তরটি ভুল।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "health_duties",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'বিপজ্জনক প্রক্রিয়া' (hazardous process) বলতে আইনে কী বোঝায়?",
+      "a": "প্রথম তফসিলের শিল্পের এমন প্রক্রিয়া যেখানে বিশেষ সতর্কতা না নিলে উপাদান, পণ্য, বর্জ্য বা নিষ্কাশন শ্রমিকের স্বাস্থ্যের ক্ষতি বা পরিবেশ দূষণ ঘটাতে পারে",
+      "w": [
+        "যেকোনো প্রক্রিয়া যেখানে যন্ত্রপাতি ব্যবহার হয়",
+        "শুধু বিস্ফোরক তৈরির প্রক্রিয়া",
+        "যে প্রক্রিয়ায় রাতের শিফটে কাজ হয়"
+      ],
+      "e": "সংজ্ঞাটি প্রথম তফসিল, স্বাস্থ্যের ক্ষতি ও পরিবেশ দূষণ — তিনটি উপাদানকেই ধরে। শুধু যন্ত্র বা বিস্ফোরকের কথা আইনে নেই।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "health_duties",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ধারা ৭A(১) অনুযায়ী দখলদারের (occupier) প্রধান দায়িত্ব কী?",
+      "a": "যতটা যুক্তিসঙ্গতভাবে সম্ভব, কাজের সময় সব শ্রমিকের স্বাস্থ্য, নিরাপত্তা ও কল্যাণ নিশ্চিত করা",
+      "w": [
+        "শুধু শ্রমিকদের মজুরি সময়মতো দেওয়া",
+        "শুধু কারখানার উৎপাদন বাড়ানো",
+        "শুধু যন্ত্রপাতির রক্ষণাবেক্ষণ করা"
+      ],
+      "e": "ধারা ৭A(১) স্বাস্থ্য, নিরাপত্তা ও কল্যাণ — তিনটিকেই দখলদারের দায়িত্ব করেছে। মজুরি বা উৎপাদন এই ধারার বিষয় নয়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "health_duties",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ৭A অনুযায়ী শ্রমিকের স্বাস্থ্য ও নিরাপত্তার জন্য দখলদারকে কোনটি জোগাতে হয়?",
+      "a": "তথ্য, নির্দেশনা, প্রশিক্ষণ ও তদারকি",
+      "w": [
+        "শুধু বিনামূল্যে খাবার",
+        "শুধু যাতায়াতের বাস",
+        "শুধু উৎসবের ছুটি"
+      ],
+      "e": "আইন স্পষ্টভাবে তথ্য, নির্দেশনা, প্রশিক্ষণ ও তদারকির কথা বলে। বাকি সুবিধাগুলি এই ধারায় নেই।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "health_duties",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ধারা ৭A(৩) অনুযায়ী দখলদারকে স্বাস্থ্য ও নিরাপত্তা বিষয়ে কোন দলিল তৈরি ও হালনাগাদ করতে হয়?",
+      "a": "সাধারণ নীতির লিখিত বিবৃতি (written statement of general policy)",
+      "w": [
+        "মাসিক উৎপাদন প্রতিবেদন",
+        "শ্রমিকদের হাজিরা খাতা",
+        "যন্ত্রের ক্রয়-রসিদের ফাইল"
+      ],
+      "e": "লিখিত নীতি-বিবৃতি তৈরি, প্রয়োজনে সংশোধন এবং তা সব শ্রমিকের নজরে আনা — এটাই ধারা ৭A(৩)-এর বিধান।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "health_duties",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "কারখানা আইন, ১৯৪৮ সম্পর্কে বক্তব্যগুলি বিবেচনা করো:\n১. আইনটি ১৯৪৯ সালের ১ এপ্রিল থেকে কার্যকর হয়।\n২. এটি ১৯৪৮ সালের ৬৩ নম্বর আইন।\n৩. শক্তি ছাড়া উৎপাদন চললে 'কারখানা' হতে ৫০ জন শ্রমিক লাগে।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ২ ও ৩",
+        "শুধু ১ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "১ ও ২ সঠিক। ৩ ভুল — শক্তি ছাড়া হলে সীমা ২০ জন, ৫০ নয়।",
+      "claims": [
+        "c01",
+        "c50",
+        "c02"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "workroom_health",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ১১ অনুযায়ী কর্মকক্ষের মেঝে ও বেঞ্চ থেকে ময়লা-আবর্জনা কত ঘন ঘন সরাতে হয়?",
+      "a": "প্রতিদিন",
+      "w": [
+        "সপ্তাহে একবার",
+        "মাসে একবার",
+        "বছরে একবার"
+      ],
+      "e": "পরিষ্কার-পরিচ্ছন্নতার ধারায় ময়লা প্রতিদিন ঝাড়ু বা অন্য কার্যকর পদ্ধতিতে সরানোর কথা আছে।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "workroom_health",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ১৩ কর্মকক্ষে কোন দুটি বিষয় নিশ্চিত করতে বলে?",
+      "a": "তাজা বাতাসের সঞ্চালনে পর্যাপ্ত বায়ুচলাচল ও স্বাস্থ্যের ক্ষতি রোধ করে এমন তাপমাত্রা",
+      "w": [
+        "শুধু এসি মেশিন বসানো ও রং করা দেয়াল",
+        "শুধু বড় জানালা ও উঁচু ছাদ",
+        "শুধু পাখা ও পানীয় জলের কল"
+      ],
+      "e": "আইনের ভাষা হলো তাজা বাতাসের সঞ্চালন ও আরামদায়ক, স্বাস্থ্য-ক্ষতিহীন তাপমাত্রা। নির্দিষ্ট যন্ত্রের নাম আইনে নেই।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "workroom_health",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ধারা ১৪ অনুযায়ী ধুলো-ধোঁয়া নিয়ন্ত্রণে নিষ্কাশন যন্ত্র (exhaust appliance) কোথায় বসাতে হয়?",
+      "a": "ধুলো বা ধোঁয়ার উৎপত্তিস্থলের যতটা সম্ভব কাছাকাছি",
+      "w": [
+        "কারখানার মূল ফটকের পাশে",
+        "ছাদের সবচেয়ে উঁচু জায়গায়",
+        "শ্রমিকদের বিশ্রামঘরে"
+      ],
+      "e": "উৎসের কাছেই নিষ্কাশন বসালে ধুলো কর্মকক্ষে ছড়ানোর আগেই ধরা পড়ে — এটাই ধারা ১৪-র বিধান।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "workroom_health",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আইন চালুর পরে তৈরি কারখানায় প্রতিটি শ্রমিকের জন্য কর্মকক্ষে কমপক্ষে কত জায়গা থাকতে হয়?",
+      "a": "১৪.২ ঘনমিটার",
+      "w": [
+        "৯.৯ ঘনমিটার",
+        "১০.৫ ঘনমিটার",
+        "২০ ঘনমিটার"
+      ],
+      "e": "নতুন কারখানায় সীমা ১৪.২ ঘনমিটার; ৯.৯ ঘনমিটার হলো আইন চালুর সময়ে বিদ্যমান কারখানার জন্য।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "workroom_health",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পানীয় জলের জায়গা কোনো ধোয়ার জায়গা, মূত্রালয়, শৌচালয় বা খোলা নর্দমা থেকে কমপক্ষে কত দূরে থাকতে হয়?",
+      "a": "৬ মিটার",
+      "w": [
+        "২ মিটার",
+        "১০ মিটার",
+        "১৫ মিটার"
+      ],
+      "e": "ধারা ১৮ অনুযায়ী দূষণের যেকোনো উৎস থেকে পানীয় জলের জায়গা কমপক্ষে ছয় মিটার দূরে থাকবে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "workroom_health",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন শর্তে গরমের সময় পানীয় জল ঠান্ডা করে সরবরাহ করা বাধ্যতামূলক?",
+      "a": "সাধারণত ২৫০ জনের বেশি শ্রমিক নিযুক্ত থাকলে",
+      "w": [
+        "সাধারণত ১০০ জনের বেশি শ্রমিক থাকলে",
+        "সাধারণত ৫০০ জনের বেশি শ্রমিক থাকলে",
+        "সব কারখানায় সবসময়"
+      ],
+      "e": "ধারা ১৮(৩) অনুযায়ী সীমা ২৫০ জন। ৫০০ সংখ্যাটি অ্যাম্বুলেন্স-রুম ও কল্যাণ আধিকারিকের ক্ষেত্রে প্রযোজ্য।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "workroom_health",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ধারা ১৭ আলো সম্পর্কে কী বলে?",
+      "a": "শ্রমিকরা যেখানে কাজ করে বা যাতায়াত করে সেখানে যথেষ্ট ও উপযুক্ত আলো — প্রাকৃতিক, কৃত্রিম বা উভয়ই — রাখতে হয়",
+      "w": [
+        "শুধু দিনের বেলায় কাজ করতে হয়",
+        "শুধু কৃত্রিম আলোই ব্যবহার করা যায়",
+        "আলোর কোনো আইনি বিধান নেই"
+      ],
+      "e": "আইন আলোর উৎস নির্দিষ্ট করে না; যথেষ্ট ও উপযুক্ত আলো থাকাটাই শর্ত।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "workroom_health",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "ধারা ও বিষয় মেলাও: (ক) ধারা ১২ (খ) ধারা ১৪ (গ) ধারা ১৬ (ঘ) ধারা ১৮ — বিষয়: (১) ধুলো ও ধোঁয়া (২) ভিড়/জায়গা (৩) বর্জ্য ও নিষ্কাশনের শোধন (৪) পানীয় জল। সঠিক মিল কোনটি?",
+      "a": "ক-৩, খ-১, গ-২, ঘ-৪",
+      "w": [
+        "ক-১, খ-৩, গ-৪, ঘ-২",
+        "ক-২, খ-৪, গ-১, ঘ-৩",
+        "ক-৪, খ-২, গ-৩, ঘ-১"
+      ],
+      "e": "ধারা ১২ = বর্জ্য শোধন, ধারা ১৪ = ধুলো ও ধোঁয়া, ধারা ১৬ = ভিড় (প্রতি শ্রমিকের জায়গা), ধারা ১৮ = পানীয় জল।",
+      "claims": [
+        "c08",
+        "c10",
+        "c11",
+        "c13"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "medical_surveillance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সার্টিফাইং সার্জন (certifying surgeon) কে নিয়োগ করেন?",
+      "a": "রাজ্য সরকার",
+      "w": [
+        "কারখানার দখলদার",
+        "কেন্দ্রীয় স্বাস্থ্য মন্ত্রক সরাসরি",
+        "শ্রমিক ইউনিয়ন"
+      ],
+      "e": "ধারা ১০ অনুযায়ী যোগ্য চিকিৎসকদের সার্টিফাইং সার্জন হিসেবে নিয়োগ করে রাজ্য সরকার।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "medical_surveillance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সার্টিফাইং সার্জনের দায়িত্বের মধ্যে কোনটি পড়ে?",
+      "a": "নির্ধারিত বিপজ্জনক পেশা বা প্রক্রিয়ায় নিযুক্ত ব্যক্তিদের পরীক্ষা করা",
+      "w": [
+        "কারখানার হিসাব অডিট করা",
+        "শ্রমিকদের মজুরি নির্ধারণ করা",
+        "যন্ত্রপাতি মেরামত করা"
+      ],
+      "e": "তাঁর দায়িত্ব চিকিৎসা-সংক্রান্ত: তরুণ শ্রমিকদের পরীক্ষা ও সনদ, বিপজ্জনক প্রক্রিয়ার শ্রমিকদের পরীক্ষা এবং প্রয়োজনীয় চিকিৎসা তদারকি।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "medical_surveillance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ধারা ৪১C অনুযায়ী বিপজ্জনক প্রক্রিয়ার দখলদারকে কোন রেকর্ড রাখতে হয়?",
+      "a": "রাসায়নিক, বিষাক্ত বা ক্ষতিকর পদার্থের সংস্পর্শে থাকা শ্রমিকদের নির্ভুল ও হালনাগাদ স্বাস্থ্য/চিকিৎসা রেকর্ড",
+      "w": [
+        "শুধু শ্রমিকদের হাজিরা রেকর্ড",
+        "শুধু কাঁচামাল কেনার রেকর্ড",
+        "শুধু বিদ্যুৎ বিলের রেকর্ড"
+      ],
+      "e": "স্বাস্থ্য রেকর্ড শ্রমিকদের কাছেও প্রবেশযোগ্য (accessible) রাখতে হয় — এটাই এই ধারার মূল কথা।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "medical_surveillance",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিপজ্জনক পদার্থ নিয়ে কাজ করা শ্রমিকের চিকিৎসা পরীক্ষা সর্বোচ্চ কত ব্যবধানে করতে হয়?",
+      "a": "১২ মাস",
+      "w": [
+        "৬ মাস",
+        "২৪ মাস",
+        "৫ বছর"
+      ],
+      "e": "কাজে যোগদানের আগে, কাজ চলাকালীন এবং কাজ ছাড়ার পরেও — প্রতিবার সর্বোচ্চ বারো মাসের ব্যবধানে পরীক্ষা বাধ্যতামূলক।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "medical_surveillance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ৪১G-র নিরাপত্তা কমিটিতে শ্রমিক ও ব্যবস্থাপনার প্রতিনিধি কী অনুপাতে থাকেন?",
+      "a": "সমান সংখ্যায়",
+      "w": [
+        "শ্রমিক দ্বিগুণ",
+        "ব্যবস্থাপনা দ্বিগুণ",
+        "শুধু ব্যবস্থাপনার প্রতিনিধি"
+      ],
+      "e": "নিরাপত্তা কমিটিতে দুই পক্ষের সমান প্রতিনিধিত্ব আইনের শর্ত।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "medical_surveillance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ধারা ৯১A অনুযায়ী নিরাপত্তা ও পেশাগত স্বাস্থ্য সমীক্ষা (survey) কে করতে পারেন?",
+      "a": "প্রধান পরিদর্শক, DGFASLI-এর মহাপরিচালক বা ভারত সরকারের স্বাস্থ্য সেবা মহাপরিচালক",
+      "w": [
+        "শুধু কারখানার ম্যানেজার",
+        "শুধু স্থানীয় থানার পুলিশ",
+        "শুধু বেসরকারি পরামর্শদাতা সংস্থা"
+      ],
+      "e": "সমীক্ষার অধিকার এই তিন কর্তৃপক্ষ ও তাঁদের অনুমোদিত আধিকারিকদের। কারখানাকে সমীক্ষায় সব সুবিধা দিতে হয়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "medical_surveillance",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): বিপজ্জনক প্রক্রিয়ার শ্রমিকের চিকিৎসা পরীক্ষা কাজ ছাড়ার পরেও চালিয়ে যেতে হয়।\nকারণ (R): ধারা ৪১C অনুযায়ী পরীক্ষা কাজে যোগদানের আগে, চলাকালীন ও ছাড়ার পরে সর্বোচ্চ ১২ মাস ব্যবধানে করতে হয়।",
+      "a": "A ও R দুটোই সঠিক এবং R, A-র সঠিক ব্যাখ্যা",
+      "w": [
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক",
+        "A ও R দুটোই ভুল"
+      ],
+      "e": "ধারা ৪১C-র বিধানই বিবৃতিটির ভিত্তি — তিনটি পর্যায়েই পরীক্ষা বাধ্যতামূলক।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "notifiable_diseases",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ৮৯ অনুযায়ী কোনো শ্রমিক তৃতীয় তফসিলের রোগে আক্রান্ত হলে বিজ্ঞপ্তি পাঠানোর দায়িত্ব কার?",
+      "a": "কারখানার ব্যবস্থাপকের (manager)",
+      "w": [
+        "শ্রমিকের নিজের",
+        "শ্রমিকের পরিবারের",
+        "স্থানীয় পঞ্চায়েতের"
+      ],
+      "e": "ব্যবস্থাপক নির্ধারিত কর্তৃপক্ষের কাছে বিজ্ঞপ্তি পাঠাবেন; পাশাপাশি চিকিৎসকেরও প্রধান পরিদর্শককে জানানোর দায়িত্ব আছে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "notifiable_diseases",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সিলিকোসিস তৃতীয় তফসিলের কত নম্বর এন্ট্রি?",
+      "a": "১২ নম্বর",
+      "w": [
+        "৫ নম্বর",
+        "১৯ নম্বর",
+        "২৯ নম্বর"
+      ],
+      "e": "তফসিলের তালিকায় সিলিকোসিস ১২ নম্বরে আছে; ১৯ নম্বরে বাইসিনোসিস।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "notifiable_diseases",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তৃতীয় তফসিলের রোগীর চিকিৎসা করা চিকিৎসককে লিখিত প্রতিবেদন পাঠাতে হয় কার দপ্তরে?",
+      "a": "প্রধান পরিদর্শকের (Chief Inspector) দপ্তরে",
+      "w": [
+        "জেলা শাসকের দপ্তরে",
+        "কারখানার মালিকের কাছে",
+        "রাজ্য স্বাস্থ্য সচিবের কাছে"
+      ],
+      "e": "প্রতিবেদনে রোগীর নাম-ঠিকানা, রোগ ও কারখানার নাম-ঠিকানা থাকতে হয় এবং তা দেরি না করে পাঠাতে হয়।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "notifiable_diseases",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'শব্দজনিত শ্রবণশক্তি হ্রাস' (noise induced hearing loss) তৃতীয় তফসিলে কোন এন্ট্রি?",
+      "a": "২২ নম্বর",
+      "w": [
+        "১২ নম্বর",
+        "২০ নম্বর",
+        "২৫ নম্বর"
+      ],
+      "e": "উচ্চ শব্দের সংস্পর্শে ঘটা শ্রবণশক্তি হ্রাস ২২ নম্বর এন্ট্রি; ২০ নম্বরে অ্যাসবেস্টোসিস।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "notifiable_diseases",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "তৃতীয় তফসিলে রোগ যোগ করা বা বদলানোর ক্ষমতা কার?",
+      "a": "কেন্দ্রীয় সরকারের (সরকারি গেজেটে বিজ্ঞপ্তি দিয়ে)",
+      "w": [
+        "রাজ্য সরকারের",
+        "প্রধান পরিদর্শকের",
+        "কারখানার দখলদারের"
+      ],
+      "e": "ধারা ৮৯(৫) এই ক্ষমতা কেন্দ্রীয় সরকারকে দিয়েছে।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "notifiable_diseases",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বাইসিনোসিস ও অ্যাসবেস্টোসিস তৃতীয় তফসিলের কোন এন্ট্রি-জোড়?",
+      "a": "১৯ ও ২০",
+      "w": [
+        "১১ ও ১২",
+        "২২ ও ২৩",
+        "১ ও ২"
+      ],
+      "e": "বাইসিনোসিস ১৯, অ্যাসবেস্টোসিস ২০; ১১ নম্বরে অ্যানথ্রাক্স, ১২ নম্বরে সিলিকোসিস।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "notifiable_diseases",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "তৃতীয় তফসিল সম্পর্কে বক্তব্যগুলি বিবেচনা করো:\n১. এতে সিসা (lead) বিষক্রিয়া আছে।\n২. এতে বেনজিন বিষক্রিয়া ও অ্যানথ্রাক্স আছে।\n৩. এতে ডায়াবেটিস ও উচ্চ রক্তচাপ আছে।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ২ ও ৩",
+        "শুধু ১ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "তফসিলটি পেশাগত রোগের তালিকা — সিসা ও বেনজিন বিষক্রিয়া এবং অ্যানথ্রাক্স এতে আছে; ডায়াবেটিস বা উচ্চ রক্তচাপ এতে নেই।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "ppe_protection",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ৩৫ অনুযায়ী চোখের সুরক্ষায় কোন দুটির মধ্যে একটি দিতে হয়?",
+      "a": "কার্যকর পর্দা (screen) বা উপযুক্ত গগলস",
+      "w": [
+        "রঙিন চশমা বা টুপি",
+        "মুখোশ বা গ্লাভস",
+        "কান-প্লাগ বা জুতো"
+      ],
+      "e": "ছিটকে আসা কণা-টুকরো বা অতিরিক্ত আলোর ঝুঁকি থাকলে পর্দা অথবা গগলস — এটাই ধারা ৩৫-র বিধান।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "ppe_protection",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ৩৫ কোন দুই ধরনের চোখের ঝুঁকির কথা বলে?",
+      "a": "ছিটকে আসা কণা/টুকরো থেকে আঘাত এবং অতিরিক্ত আলোর সংস্পর্শ",
+      "w": [
+        "শব্দ ও কম্পন",
+        "ধুলো ও গরম বাতাস",
+        "রাসায়নিক গ্যাস ও বিদ্যুৎ"
+      ],
+      "e": "আইনের ভাষায় ঝুঁকি দুটি — কণা বা টুকরো ছিটকে আসা, আর অতিরিক্ত আলো।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "ppe_protection",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিপজ্জনক গ্যাস-ধোঁয়া থাকতে পারে এমন আবদ্ধ জায়গায় (confined space) প্রবেশের প্রথম শর্ত কী?",
+      "a": "পর্যাপ্ত মাপের ম্যানহোল বা বেরোনোর অন্য কার্যকর উপায় থাকতে হবে",
+      "w": [
+        "শুধু মোবাইল ফোন সঙ্গে রাখতে হবে",
+        "শুধু দুজন একসঙ্গে ঢুকতে হবে",
+        "শুধু দিনের বেলায় ঢুকতে হবে"
+      ],
+      "e": "বেরোনোর উপায় ছাড়া এমন জায়গায় কাউকে ঢুকতে দেওয়াই যায় না — ধারা ৩৬।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "ppe_protection",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আবদ্ধ জায়গায় প্রবেশের সময় PPE হিসেবে আইন কোন সংমিশ্রণের কথা বলে?",
+      "a": "উপযুক্ত শ্বাসযন্ত্র (breathing apparatus) ও দড়ি-বাঁধা বেল্ট, যার মুক্ত প্রান্ত বাইরের ব্যক্তির হাতে থাকবে",
+      "w": [
+        "শুধু হেলমেট ও গ্লাভস",
+        "শুধু গগলস ও মাস্ক",
+        "শুধু নিরাপত্তা জুতো ও জ্যাকেট"
+      ],
+      "e": "শ্বাসযন্ত্রের পাশাপাশি বেল্ট-দড়ির ব্যবস্থা জরুরি উদ্ধারের কথা ভেবেই রাখা হয়েছে।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "ppe_protection",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সরকারি তথ্য অনুযায়ী PPE কিটে কোনগুলি থাকে?",
+      "a": "গ্লাভস, কভারঅল, ফেস শিল্ড, গগলস ও তিন-স্তরের মেডিকেল মাস্ক",
+      "w": [
+        "হেলমেট, দড়ি, করাত ও হাতুড়ি",
+        "বর্ষাতি, ছাতা ও গামবুট",
+        "শুধু গ্লাভস ও মাস্ক"
+      ],
+      "e": "PIB-র তথ্য অনুযায়ী কিটের উপাদান এগুলিই, আন্তর্জাতিক মান অনুসারে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "ppe_protection",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "PPE কিটের পরীক্ষা ও সনদদানে CIPET-কে স্বীকৃতি (accreditation) দিয়েছে কোন সংস্থা?",
+      "a": "NABL",
+      "w": [
+        "BIS",
+        "CPCB",
+        "DGFASLI"
+      ],
+      "e": "CIPET-এর ভুবনেশ্বর কেন্দ্র NABL-এর কাছ থেকে PPE কিট পরীক্ষা ও সনদের স্বীকৃতি পেয়েছে।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "ppe_protection",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "ঝুঁকি ও সুরক্ষা-সাজের কোন জোড়টি সঠিকভাবে মেলানো?",
+      "a": "চোখে ছিটকে আসা কণা — গগলস",
+      "w": [
+        "প্রবল শব্দ — গগলস",
+        "আবদ্ধ জায়গায় ধোঁয়া — নিরাপত্তা জুতো",
+        "পড়ন্ত বস্তু — কান-প্লাগ"
+      ],
+      "e": "গগলস চোখের ঝুঁকির সাজ। শব্দের জন্য কানের সুরক্ষা, ধোঁয়ার জন্য শ্বাসযন্ত্র, পড়ন্ত বস্তুর জন্য মাথার সুরক্ষা দরকার — বাকি জোড়গুলি তাই ভুল।",
+      "claims": [
+        "c24",
+        "c26"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "welfare_noise",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধারা ৪৫ অনুযায়ী প্রতি কতজন শ্রমিকের জন্য অন্তত একটি প্রাথমিক চিকিৎসার বাক্স (first-aid box) রাখতে হয়?",
+      "a": "প্রতি ১৫০ জন",
+      "w": [
+        "প্রতি ১০০ জন",
+        "প্রতি ২৫০ জন",
+        "প্রতি ৫০০ জন"
+      ],
+      "e": "সীমা ১৫০ জন; বাক্সটি প্রশিক্ষিত দায়িত্বপ্রাপ্ত ব্যক্তির তত্ত্বাবধানে থাকবে।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "welfare_noise",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অ্যাম্বুলেন্স-রুম কখন বাধ্যতামূলক?",
+      "a": "সাধারণত ৫০০ জনের বেশি শ্রমিক নিযুক্ত থাকলে",
+      "w": [
+        "সাধারণত ১৫০ জনের বেশি শ্রমিক থাকলে",
+        "সাধারণত ২৫০ জনের বেশি শ্রমিক থাকলে",
+        "সাধারণত ১০০০ জনের বেশি শ্রমিক থাকলে"
+      ],
+      "e": "৫০০-এর বেশি হলে নির্ধারিত মাপের অ্যাম্বুলেন্স-রুম, সরঞ্জাম ও চিকিৎসা-নার্সিং কর্মী রাখতে হয়।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "welfare_noise",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ক্যান্টিনের বিধান কোন শ্রমিক-সংখ্যার সঙ্গে যুক্ত?",
+      "a": "২৫০ জনের বেশি",
+      "w": [
+        "১৫০ জনের বেশি",
+        "৩০ জনের বেশি",
+        "১০০০ জনের বেশি"
+      ],
+      "e": "ধারা ৪৬ অনুযায়ী রাজ্য বিধি থাকলে ২৫০ জনের বেশি শ্রমিকের কারখানায় ক্যান্টিন রাখতে হয়।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "welfare_noise",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শিশু-যত্ন কক্ষ (creche) কখন রাখতে হয়?",
+      "a": "৩০ জনের বেশি মহিলা শ্রমিক নিযুক্ত থাকলে — ছয় বছরের কম বয়সী শিশুদের জন্য",
+      "w": [
+        "১০০ জনের বেশি মহিলা শ্রমিক থাকলে",
+        "সব কারখানায় সবসময়",
+        "শুধু ৫০০ জনের বেশি শ্রমিক থাকলে"
+      ],
+      "e": "ধারা ৪৮-র সীমা ৩০ জন মহিলা শ্রমিক এবং শিশুর বয়স ছয় বছরের নিচে।",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "welfare_noise",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কল্যাণ আধিকারিক (welfare officer) নিয়োগের সীমা কোনটি?",
+      "a": "৫০০ বা তার বেশি শ্রমিক",
+      "w": [
+        "২৫০ বা তার বেশি শ্রমিক",
+        "১০০০ বা তার বেশি শ্রমিক",
+        "১৫০ বা তার বেশি শ্রমিক"
+      ],
+      "e": "ধারা ৪৯ অনুযায়ী সীমা ৫০০; ১০০০ সংখ্যাটি নিরাপত্তা আধিকারিকের (ধারা ৪০B) ক্ষেত্রে আসে।",
+      "claims": [
+        "c43",
+        "c44"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "welfare_noise",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শব্দ দূষণ বিধিমালা, ২০০০ অনুযায়ী 'নীরব এলাকা' (silence zone) ঘোষণা করা যায় হাসপাতাল, শিক্ষাপ্রতিষ্ঠান ও আদালতের চারপাশে কমপক্ষে কতটা এলাকা জুড়ে?",
+      "a": "১০০ মিটার",
+      "w": [
+        "৫০ মিটার",
+        "২০০ মিটার",
+        "৫০০ মিটার"
+      ],
+      "e": "বিধিমালায় নীরব এলাকার ব্যাপ্তি কমপক্ষে ১০০ মিটার বলা হয়েছে।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "welfare_noise",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে কালানুক্রমে সাজাও: (১) কারখানা আইন পাস (২) কারখানা আইন কার্যকর (৩) অধ্যায় IV-A সংযোজন (৪) শব্দ দূষণ বিধিমালা। সঠিক ক্রম কোনটি?",
+      "a": "১৯৪৮ → ১৯৪৯ → ১৯৮৭ → ২০০০",
+      "w": [
+        "১৯৪৯ → ১৯৪৮ → ২০০০ → ১৯৮৭",
+        "১৯৪৮ → ১৯৮৭ → ১৯৪৯ → ২০০০",
+        "১৯৮৭ → ১৯৪৮ → ১৯৪৯ → ২০০০"
+      ],
+      "e": "আইন পাস ১৯৪৮, কার্যকর ১ এপ্রিল ১৯৪৯, বিপজ্জনক প্রক্রিয়ার অধ্যায় IV-A আসে ১৯৮৭ সালের সংশোধনীতে, আর শব্দ বিধিমালা ২০০০ সালে।",
+      "claims": [
+        "c50",
+        "c01",
+        "c51",
+        "c47"
+      ]
+    },
+    {
+      "id": "q44",
+      "section": "welfare_noise",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ধারা ৪৭ অনুযায়ী আশ্রয়/বিশ্রামঘর ও মধ্যাহ্নভোজের ঘর কখন দিতে হয়?",
+      "a": "সাধারণত ১৫০ জনের বেশি শ্রমিক নিযুক্ত থাকলে",
+      "w": [
+        "সাধারণত ২৫০ জনের বেশি শ্রমিক থাকলে",
+        "সাধারণত ৫০০ জনের বেশি শ্রমিক থাকলে",
+        "সাধারণত ৩০ জনের বেশি শ্রমিক থাকলে"
+      ],
+      "e": "বিশ্রামঘরের সীমাও ১৫০ — প্রাথমিক চিকিৎসার বাক্সের সীমার সঙ্গে মিলিয়ে মনে রাখো।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q45",
+      "section": "ppe_protection",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আবদ্ধ জায়গার ভিতরে কত ভোল্টের বেশি বহনযোগ্য বৈদ্যুতিক আলো বা যন্ত্র ব্যবহার নিষিদ্ধ (পর্যাপ্ত নিরাপত্তা ব্যবস্থা না থাকলে)?",
+      "a": "২৪ ভোল্ট",
+      "w": [
+        "১১০ ভোল্ট",
+        "২২০ ভোল্ট",
+        "৪৪০ ভোল্ট"
+      ],
+      "e": "ধারা ৩৬A অনুযায়ী আবদ্ধ জায়গায় সীমা ২৪ ভোল্ট।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q46",
+      "section": "medical_surveillance",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিপজ্জনক প্রক্রিয়ায় মান অনুপস্থিত বা অপর্যাপ্ত হলে জরুরি মান (emergency standards) তৈরি করতে কেন্দ্রীয় সরকার কাকে নির্দেশ দিতে পারে?",
+      "a": "DGFASLI-এর মহাপরিচালককে",
+      "w": [
+        "রাজ্য দূষণ বোর্ডকে",
+        "কারখানার ইউনিয়নকে",
+        "জেলা শাসককে"
+      ],
+      "e": "ধারা ৪১E অনুযায়ী এই নির্দেশ যায় কারখানা পরামর্শ সেবা ও শ্রম প্রতিষ্ঠানের মহাপরিচালকের (DGFASLI) কাছে।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q47",
+      "section": "notifiable_diseases",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "তৃতীয় তফসিলের রোগ কারখানায় ঘটেছে বা ঘটেছে বলে সন্দেহ হলে ধারা ৯০ অনুযায়ী তদন্তের জন্য যোগ্য ব্যক্তি নিয়োগ করতে পারে কে?",
+      "a": "রাজ্য সরকার",
+      "w": [
+        "কেন্দ্রীয় সরকার",
+        "কারখানার দখলদার",
+        "শ্রমিক ইউনিয়ন"
+      ],
+      "e": "তদন্তকারী ব্যক্তির দেওয়ানি আদালতের ক্ষমতা থাকে; প্রতিবেদন যায় রাজ্য সরকারের কাছে।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q48",
+      "section": "medical_surveillance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ধারা ৪১H অনুযায়ী আসন্ন বিপদের আশঙ্কা হলে শ্রমিকরা তা কার কার নজরে আনতে পারেন?",
+      "a": "দখলদার/ব্যবস্থাপককে এবং একই সঙ্গে পরিদর্শককে",
+      "w": [
+        "শুধু সহকর্মীদের",
+        "শুধু সংবাদমাধ্যমকে",
+        "শুধু পুলিশকে"
+      ],
+      "e": "আইন দুটি পথই একসঙ্গে বলেছে — কারখানার দায়িত্বপ্রাপ্ত ব্যক্তি ও পরিদর্শক।",
+      "claims": [
+        "c21"
+      ]
+    }
+  ]
+}
