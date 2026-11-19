@@ -77,6 +77,10 @@ const presentUser = (u) => ({
       setAt: u.target_exam_set_at ? new Date(u.target_exam_set_at).toISOString() : null,
     }
     : null,
+  // Profile fields (F1): null until the student chooses them. Old accounts
+  // created before these fields existed read as null — absence, not a guess.
+  dailyStudyMinutes: u.daily_study_minutes ?? null,
+  preferredLanguage: u.preferred_language ?? null,
 });
 
 // ---- Use cases ------------------------------------------------------------------------

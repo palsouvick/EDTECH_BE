@@ -188,6 +188,82 @@ test('GET /me returns targetExam; set / change / clear round-trips, bad input is
   assert.equal(stored.target_exam_set_at, null);
 });
 
+test('F1 profile fields: daily study time + study language save, update, clear; exam date not announced; pre-F1 user has nulls', async () => {
+  const u = await registerUser('target9@example.com');
+
+  // A pre-F1 account: the fields do not exist on the stored doc at all.
+  await User.updateOne({ _id: u.id }, { $unset: { daily_study_minutes: '', preferred_language: '' } });
+  const me0 = await call('GET', '/me', { cookie: u.cookie });
+  assert.equal(me0.status, 200, JSON.stringify(me0.body));
+  assert.equal(me0.body.data.user.targetExam, null);
+  assert.equal(me0.body.data.user.dailyStudyMinutes, null);
+  assert.equal(me0.body.data.user.preferredLanguage, null);
+
+  // Save exam + profile fields together; no date = "not announced".
+  const set = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: { examCode: 'WBCS', examDate: null, dailyStudyMinutes: 180, preferredLanguage: 'bn' } });
+  assert.equal(set.status, 200, JSON.stringify(set.body));
+  assert.equal(set.body.data.user.targetExam.code, 'WBCS');
+  assert.equal(set.body.data.user.targetExam.date, null); // not announced, not a bogus date
+  assert.equal(set.body.data.user.dailyStudyMinutes, 180);
+  assert.equal(set.body.data.user.preferredLanguage, 'bn');
+  const stored = await User.findById(u.id).lean();
+  assert.equal(stored.daily_study_minutes, 180);
+  assert.equal(stored.preferred_language, 'bn');
+  const syllabus = await call('GET', '/me/target-exam/syllabus', { cookie: u.cookie });
+  assert.equal(syllabus.body.data.countdown, null); // no countdown when the date is not announced
+
+  // Update one profile field alone: the exam is untouched.
+  const bump = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: { dailyStudyMinutes: 240 } });
+  assert.equal(bump.status, 200, JSON.stringify(bump.body));
+  assert.equal(bump.body.data.user.targetExam.code, 'WBCS');
+  assert.equal(bump.body.data.user.dailyStudyMinutes, 240);
+  assert.equal(bump.body.data.user.preferredLanguage, 'bn');
+
+  // Date-only update: the exam is untouched, the date is now set.
+  const dated = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: { examDate: '2027-03-01' } });
+  assert.equal(dated.status, 200, JSON.stringify(dated.body));
+  assert.equal(dated.body.data.user.targetExam.code, 'WBCS');
+  assert.equal(dated.body.data.user.targetExam.date, '2027-03-01');
+
+  // Back to "not announced": the date clears, the exam stays.
+  const undated = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: { examDate: null } });
+  assert.equal(undated.body.data.user.targetExam.code, 'WBCS');
+  assert.equal(undated.body.data.user.targetExam.date, null);
+
+  // Invalid values are rejected, and the stored values survive the rejection.
+  for (const bad of [{ dailyStudyMinutes: 100 }, { dailyStudyMinutes: 200 }, { preferredLanguage: 'hi' }, { preferredLanguage: 'xx' }]) {
+    const res = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: bad });
+    assert.equal(res.status, 422, JSON.stringify(res.body));
+  }
+  const afterBad = await call('GET', '/me', { cookie: u.cookie });
+  assert.equal(afterBad.body.data.user.dailyStudyMinutes, 240);
+  assert.equal(afterBad.body.data.user.preferredLanguage, 'bn');
+
+  // Switching the exam keeps the profile fields; clearing the exam keeps them too.
+  const switched = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: { examCode: 'KP_CONSTABLE', examDate: null } });
+  assert.equal(switched.body.data.user.targetExam.code, 'KP_CONSTABLE');
+  assert.equal(switched.body.data.user.dailyStudyMinutes, 240);
+  assert.equal(switched.body.data.user.preferredLanguage, 'bn');
+  const cleared = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: { examCode: null } });
+  assert.equal(cleared.body.data.user.targetExam, null);
+  assert.equal(cleared.body.data.user.dailyStudyMinutes, 240);
+  assert.equal(cleared.body.data.user.preferredLanguage, 'bn');
+
+  // Clearing the profile fields themselves works, and an empty body is a no-op.
+  const clearedFields = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: { dailyStudyMinutes: null, preferredLanguage: null } });
+  assert.equal(clearedFields.body.data.user.dailyStudyMinutes, null);
+  assert.equal(clearedFields.body.data.user.preferredLanguage, null);
+  const noop = await call('PUT', '/me/target-exam', { cookie: u.cookie, body: {} });
+  assert.equal(noop.status, 200, JSON.stringify(noop.body));
+  assert.equal(noop.body.data.user.targetExam, null);
+
+  // Date-only update with no exam held is a 422, not a silent no-op.
+  const u2 = await registerUser('target10@example.com');
+  const noExam = await call('PUT', '/me/target-exam', { cookie: u2.cookie, body: { examDate: '2027-03-01' } });
+  assert.equal(noExam.status, 422);
+  assert.equal(noExam.body.error.code, 'NO_TARGET_EXAM');
+});
+
 test('options list has all 16 exams with honest support levels and PYQ counts', async () => {
   const u = await registerUser('target2@example.com');
   const res = await call('GET', '/me/target-exam/options', { cookie: u.cookie });

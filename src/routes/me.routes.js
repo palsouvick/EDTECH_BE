@@ -27,11 +27,16 @@ router.get('/', async (req, res) => {
 });
 
 // ---- Target exam ----
+// Partial update: a field that is absent is left alone, null clears it.
 // examCode null clears the exam and its date. Changing it never deletes
 // progress, attempts, mistakes or plans — it only re-scopes what is shown.
+// dailyStudyMinutes / preferredLanguage are profile fields: the plan
+// budgets (minutes/day) and the live UI languages (en/bn).
 const targetExamBody = z.object({
-  examCode: z.string().trim().max(40).nullable(),
-  examDate: z.string().trim().max(40).nullable(),
+  examCode: z.string().trim().max(40).nullable().optional(),
+  examDate: z.string().trim().max(40).nullable().optional(),
+  dailyStudyMinutes: z.number().int().nullable().optional(),
+  preferredLanguage: z.string().trim().max(10).nullable().optional(),
 });
 router.put('/target-exam', validate({ body: targetExamBody }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');

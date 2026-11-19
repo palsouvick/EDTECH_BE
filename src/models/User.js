@@ -18,6 +18,16 @@ const UserSchema = new Schema(
     target_exam: { type: String, default: null },
     target_exam_date: { type: Date, default: null },
     target_exam_set_at: { type: Date, default: null },
+    // Daily available study time, minutes a day. The same budget set both
+    // study plans offer (db/plans/clerkship60.js and db/plans/ido.js);
+    // null = the student has not chosen one yet. A profile field, not an
+    // exam field — changing or clearing the target exam leaves it alone.
+    daily_study_minutes: { type: Number, enum: [120, 180, 240, 360], default: null },
+    // Preferred study language (medium). Live UI languages only — Hindi
+    // strings exist in content, but 'hi' is not a live UI language
+    // (FE hooks/useLanguagePreference.js offers en/bn only). Null = not
+    // chosen yet; the device language applies until it is set.
+    preferred_language: { type: String, enum: ['en', 'bn'], default: null },
   },
   { collection: 'users', timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } },
 );

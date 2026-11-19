@@ -11,8 +11,10 @@
  *   - chapter weights come from the exam's own PYQ shares, or — only for the
  *     two exams with a plan and no PYQs to share — from the plan's session
  *     shares. Otherwise they are null, with a note saying why.
- *   - changing the target exam writes three fields on the user and nothing
- *     else: progress, attempts, mistakes and plans are never touched.
+ *   - changing the target exam writes the target fields on the user and
+ *     nothing else: progress, attempts, mistakes and plans are never
+ *     touched. Daily study time and study language are profile fields, not
+ *     exam fields — changing or clearing the exam leaves them alone.
  *   - there is no book-chapter signal here: books map PYQ refs to chapters,
  *     not catalogue topics, so hasBook is omitted rather than guessed.
  */
@@ -31,6 +33,18 @@ const idoPlan = require('../../db/plans/ido');
 
 const REAL_PAPER = ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'];
 const TTL_MS = 5 * 60_000;
+
+/**
+ * Daily available study time (minutes/day) a student may choose in the
+ * profile. Reused from the two study plans — Clerkship and IDO define the
+ * same budget set, so the profile offers their union, not a third list.
+ */
+const DAILY_STUDY_MINUTES = Object.freeze(
+  [...new Set([...(clerkshipPlan.BUDGETS ?? []), ...(idoPlan.BUDGETS ?? [])])].sort((a, b) => a - b),
+);
+
+/** Study languages the app actually supports (FE hooks/useLanguagePreference.js). */
+const PREFERRED_LANGUAGES = Object.freeze(['en', 'bn']);
 
 /**
  * Catalogue code -> the exam_name the bank's PYQ refs carry. Only these six
@@ -196,30 +210,72 @@ function parseExamDate(value) {
 }
 
 /**
- * Set (or clear) the student's target exam. Writes only the three target
- * fields — progress, attempts, mistakes and plans are never touched here.
- * examCode null clears the exam AND the date (setAt null). Any other change
- * stamps target_exam_set_at with now.
+ * Set the student's target-exam profile. Partial update: a field that is
+ * absent (undefined) is left alone; null clears it; a value sets it.
+ *   - examCode: null clears the exam AND the date (setAt null). A new code
+ *     stamps target_exam_set_at with now; the date comes from examDate and
+ *     is null when examDate is absent — the old date does not linger across
+ *     an exam change. Absent examCode with an examDate updates just the
+ *     date on the current target exam (422 NO_TARGET_EXAM when none is set).
+ *   - dailyStudyMinutes / preferredLanguage: profile fields, validated
+ *     against the plan budgets / live languages. Clearing the exam never
+ *     clears them.
+ * Writes only these fields — progress, attempts, mistakes and plans are
+ * never touched here.
  */
-async function setTargetExam(userId, { examCode, examDate }) {
-  let code = typeof examCode === 'string' ? examCode.trim().toUpperCase() : examCode;
-  if (code === '') code = null;
-  if (code == null) {
-    const user = await User.findByIdAndUpdate(
-      userId,
-      { $set: { target_exam: null, target_exam_date: null, target_exam_set_at: null } },
-      { returnDocument: 'after' },
-    );
+async function setTargetExam(userId, { examCode, examDate, dailyStudyMinutes, preferredLanguage }) {
+  const update = {};
+
+  if (examCode !== undefined) {
+    let code = typeof examCode === 'string' ? examCode.trim().toUpperCase() : examCode;
+    if (code === '') code = null;
+    if (code == null) {
+      update.target_exam = null;
+      update.target_exam_date = null;
+      update.target_exam_set_at = null;
+    } else {
+      await findExam(code); // unknown code -> 422 UNKNOWN_EXAM
+      update.target_exam = code;
+      update.target_exam_date = parseExamDate(examDate);
+      update.target_exam_set_at = new Date();
+    }
+  } else if (examDate !== undefined) {
+    // Date-only change: only meaningful on an exam already held.
+    const current = await User.findById(userId).select('target_exam').lean();
+    if (!current) throw AppError.notFound('USER_NOT_FOUND', 'Account not found');
+    if (!current.target_exam) throw AppError.unprocessable('NO_TARGET_EXAM', 'Pick a target exam first');
+    update.target_exam_date = parseExamDate(examDate);
+  }
+
+  if (dailyStudyMinutes !== undefined) {
+    if (dailyStudyMinutes == null) {
+      update.daily_study_minutes = null;
+    } else {
+      if (!Number.isInteger(dailyStudyMinutes) || !DAILY_STUDY_MINUTES.includes(dailyStudyMinutes)) {
+        throw AppError.unprocessable('INVALID_DAILY_STUDY_MINUTES', `Daily study time must be one of ${DAILY_STUDY_MINUTES.join(', ')} minutes`);
+      }
+      update.daily_study_minutes = dailyStudyMinutes;
+    }
+  }
+
+  if (preferredLanguage !== undefined) {
+    if (preferredLanguage == null) {
+      update.preferred_language = null;
+    } else {
+      const lang = String(preferredLanguage).trim().toLowerCase();
+      if (!PREFERRED_LANGUAGES.includes(lang)) {
+        throw AppError.unprocessable('INVALID_LANGUAGE', `Study language must be one of ${PREFERRED_LANGUAGES.join(', ')}`);
+      }
+      update.preferred_language = lang;
+    }
+  }
+
+  if (!Object.keys(update).length) {
+    const user = await User.findById(userId);
     if (!user) throw AppError.notFound('USER_NOT_FOUND', 'Account not found');
     return presentUser(user);
   }
-  await findExam(code); // unknown code -> 422 UNKNOWN_EXAM
-  const date = parseExamDate(examDate);
-  const user = await User.findByIdAndUpdate(
-    userId,
-    { $set: { target_exam: code, target_exam_date: date, target_exam_set_at: new Date() } },
-    { returnDocument: 'after' },
-  );
+  const user = await User.findByIdAndUpdate(userId, { $set: update }, { returnDocument: 'after' });
   if (!user) throw AppError.notFound('USER_NOT_FOUND', 'Account not found');
   return presentUser(user);
 }
@@ -617,4 +673,6 @@ module.exports = {
   targetExamOf,
   pyqExamNameForCode,
   clearTargetExamCache,
+  DAILY_STUDY_MINUTES,
+  PREFERRED_LANGUAGES,
 };
