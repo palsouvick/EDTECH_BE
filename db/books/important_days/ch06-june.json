@@ -22,7 +22,7 @@
   "status": "PUBLISHED",
   "verification": {
     "status": "VERIFIED",
-    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 0 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 3 of 5 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_DAY-06.json and drafts/DAY-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/DAY-06_REPORT.md.",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 0 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 3 of 5 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_DAY-06.json and drafts/DAY-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/DAY-06_REPORT.md. Duplicate-stem fix after install: 11 questions across this book shared stems with earlier chapters (generic PAIRS stems and deliberate mixed-chapter re-asks); the stems in the LATER chapters (DAY-05 q07; DAY-06 q07, q42; DAY-08 q35; DAY-11 q37, q41; DAY-13 q06, q18, q21, q30, q41) were reworded month/topic-specifically with keys, options and claims unchanged, and a fresh independent blind check of all 11 replacements matched every key (11/11, all SURE).",
     "checked_claims": 34,
     "checked_questions": 42,
     "checked_at": "2026-11-19"
@@ -981,7 +981,7 @@
       "section": "week1_bicycle_environment",
       "level": "exam",
       "format": "PAIRS",
-      "q": "নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "q": "জুন মাসের দিবস নিয়ে নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
       "a": "বিশ্ব সাইকেল দিবস – ৩ জুন",
       "w": [
         "বিশ্ব পরিবেশ দিবস – ৮ জুন",
@@ -1599,7 +1599,7 @@
       "section": "date_traps",
       "level": "exam",
       "format": "PAIRS",
-      "q": "নিচের কোন জোড়টি ভুলভাবে মিলেছে?",
+      "q": "জুন মাসের দিবস নিয়ে নিচের কোন জোড়টি ভুলভাবে মিলেছে?",
       "a": "আন্তর্জাতিক মাদকবিরোধী দিবস – ২১ জুন",
       "w": [
         "বিশ্ব পরিবেশ দিবস – ৫ জুন",

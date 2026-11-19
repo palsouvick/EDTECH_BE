@@ -1,0 +1,103 @@
+{
+ "answers": [
+  {
+   "chapter": "DAY-05",
+   "id": "q07",
+   "answer": "সংবাদপত্র স্বাধীনতা দিবস — ৩ মে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Every year May 3 is celebrated as World Press Freedom Day.",
+   "notes": "ch05 claims c06 fixes Press Freedom Day on 3 May; c01/c02/c05 fix Labour Day on 1 May, so the other three pairs are all wrong."
+  },
+  {
+   "chapter": "DAY-06",
+   "id": "q07",
+   "answer": "বিশ্ব সাইকেল দিবস – ৩ জুন",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Ministry of Youth Affairs and Sports as part of celebration of Azadi ka Amrit Mahotsav-India@75 is organizing World Cycle Day throughout the country on 3rd June, 2022.",
+   "notes": "ch06 claim c15 puts World Cycle (Bicycle) Day on 3 June; c01 puts World Environment Day on 5 June, eliminating both Environment pairs and the 5 June Bicycle pair."
+  },
+  {
+   "chapter": "DAY-08",
+   "id": "q35",
+   "answer": "জাতীয় ক্রীড়া দিবস – মেজর ধ্যানচাঁদ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "National Sports Day 2025, observed every year on August 29 to commemorate the birth anniversary of hockey legend Major Dhyan Chand.",
+   "notes": "ch08 claim c30 ties National Sports Day to Major Dhyan Chand; c33/c34 tie Telugu Language Day to Gidugu Ramamurti (not Dhyan Chand) and c29 ties National Space Day to Chandrayaan-3's landing, so only the Sports Day–Dhyan Chand pair matches."
+  },
+  {
+   "chapter": "DAY-13",
+   "id": "q21",
+   "answer": "জাতীয় ক্রীড়া দিবস – ২৯ আগস্ট",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "National Sports Day 2025, observed every year on August 29 to commemorate the birth anniversary of hockey legend Major Dhyan Chand.",
+   "notes": "ch13 claim c06 fixes National Sports Day on August 29; c03 fixes National Science Day on February 28 (Raman Effect), so the 28 Feb Sports Day pair, the Science Day–29 Aug pair and the Raman–Dhyan Chand pair are all wrong."
+  },
+  {
+   "chapter": "DAY-06",
+   "id": "q42",
+   "answer": "আন্তর্জাতিক মাদকবিরোধী দিবস – ২১ জুন",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "On December 7, 1987, the General Assembly of the United Nations set aside the 26th day of June of each year as ‘International Day Against Drug Abuse and Illicit Trafficking’ to be observed worldwide.",
+   "notes": "ch06 claims c32/c33 fix the Anti-Drug Day on 26 June, not 21 June (21 June is Yoga Day, c04) — this is the wrongly matched pair. The other pairs check out: Oceans Day 8 June (c20), Environment Day 5 June (c01), Statistics Day 29 June (c09)."
+  },
+  {
+   "chapter": "DAY-13",
+   "id": "q41",
+   "answer": "বিশ্ব স্বাস্থ্য দিবস – ৭ মে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "On the occasion of World Health Day, the Union Ministry of Health & Family Welfare organised a walkathon event in New Delhi.",
+   "notes": "ch13 claim c27 dates the World Health Day event 7th April 2023 (theme 'Health for All'), so Health Day falls on 7 April, not 7 May — the unmatched pair. The rest are confirmed: Telecommunication Day 17 May (c23), Child Labour Day 12 June (c28), Environment Day 5 June (c13)."
+  },
+  {
+   "chapter": "DAY-13",
+   "id": "q06",
+   "answer": "Nothing Like Voting, I Vote for Sure",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The theme for this year’s NVD, ‘Nothing Like Voting, I Vote for Sure’ is dedicated to voters which conveys individual’s feeling and aspiration towards participation in the electoral process through power of their vote.",
+   "notes": "ch13 claim c02 gives this as the theme of the 13th National Voters' Day (2023). Distractors belong to other days in the claims: 'Health for All' = World Health Day 2023 (c27), 'Safe Blood Saves Lives' = Blood Donor Day 2020 (c26), 'Yoga for Healthy Ageing' = Yoga Day 2026 (c12)."
+  },
+  {
+   "chapter": "DAY-13",
+   "id": "q18",
+   "answer": "রামন প্রভাব",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "NSD is celebrated every year on February 28 to commemorate the discovery of the ‘Raman Effect.’ The Government of India designated February 28 as National Science Day (NSD) in 1986.",
+   "notes": "ch13 claim c03 states National Science Day commemorates the discovery of the Raman Effect (also c04: C.V. Raman announced it on this day)."
+  },
+  {
+   "chapter": "DAY-13",
+   "id": "q30",
+   "answer": "২৬ জুলাই",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Kargil Vijay Diwas is commemorated on 26 July every year as a saga of gallantry and valour of a battle fought in the most inhospitable terrain in the World in the area of Kargil-Drass Sector of Ladakh.",
+   "notes": "ch13 claim c16 fixes Kargil Vijay Diwas on 26 July."
+  },
+  {
+   "chapter": "DAY-11",
+   "id": "q37",
+   "answer": "২৬ নভেম্বর",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Constitution Day also known as 'Samvidhan Divas', is celebrated in our country on 26th November every year to commemorate the adoption of the Constitution of India.",
+   "notes": "ch11 claim c01 (and c05) fixes Constitution Day on 26 November; 26 January is the effect date, not the Day."
+  },
+  {
+   "chapter": "DAY-11",
+   "id": "q41",
+   "answer": "২৮৪ জন",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "284 members of the Constituent Assembly signed the Indian Constitution at the Constitution Hall of Parliament in New Delhi on January 24, 1950.",
+   "notes": "ch11 claim c04 states exactly 284 members signed on 24 January 1950."
+  }
+ ]
+}

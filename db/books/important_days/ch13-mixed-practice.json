@@ -34,7 +34,7 @@
   "status": "PUBLISHED",
   "verification": {
     "status": "VERIFIED",
-    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 2 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 6 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_DAY-13.json and drafts/DAY-13_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/DAY-13_REPORT.md.",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 2 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 6 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_DAY-13.json and drafts/DAY-13_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/DAY-13_REPORT.md. Duplicate-stem fix after install: 11 questions across this book shared stems with earlier chapters (generic PAIRS stems and deliberate mixed-chapter re-asks); the stems in the LATER chapters (DAY-05 q07; DAY-06 q07, q42; DAY-08 q35; DAY-11 q37, q41; DAY-13 q06, q18, q21, q30, q41) were reworded month/topic-specifically with keys, options and claims unchanged, and a fresh independent blind check of all 11 replacements matched every key (11/11, all SURE).",
     "checked_claims": 31,
     "checked_questions": 42,
     "checked_at": "2026-11-19"
@@ -1207,7 +1207,7 @@
       "section": "constitution_cluster",
       "level": "difficult",
       "format": "DIRECT",
-      "q": "২০২৩ সালের জাতীয় ভোটার দিবসের থিম কোনটি ছিল?",
+      "q": "জাতীয় ভোটার দিবসের ২০২৩ সালের থিম কোনটি ছিল?",
       "a": "Nothing Like Voting, I Vote for Sure",
       "w": [
         "Yoga for Healthy Ageing",
@@ -1419,7 +1419,7 @@
       "section": "science_sports",
       "level": "moderate",
       "format": "DIRECT",
-      "q": "জাতীয় বিজ্ঞান দিবস কোন আবিষ্কারের স্মৃতিতে পালিত হয়?",
+      "q": "কোন আবিষ্কারের স্মৃতিতে জাতীয় বিজ্ঞান দিবস পালিত হয়?",
       "a": "রামন প্রভাব",
       "w": [
         "বসু-আইনস্টাইন ঘনীভবন",
@@ -1472,7 +1472,7 @@
       "section": "science_sports",
       "level": "difficult",
       "format": "PAIRS",
-      "q": "নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "q": "সব মাস মিলিয়ে নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
       "a": "জাতীয় ক্রীড়া দিবস – ২৯ আগস্ট",
       "w": [
         "জাতীয় বিজ্ঞান দিবস – ২৯ আগস্ট",
@@ -1632,7 +1632,7 @@
       "section": "world_stage",
       "level": "basic",
       "format": "DIRECT",
-      "q": "কার্গিল বিজয় দিবস পালিত হয় কোন তারিখে?",
+      "q": "কোন তারিখে কার্গিল বিজয় দিবস পালিত হয়?",
       "a": "২৬ জুলাই",
       "w": [
         "২৬ জানুয়ারি",
@@ -1830,7 +1830,7 @@
       "section": "exam_drill",
       "level": "exam",
       "format": "PAIRS",
-      "q": "নিচের কোন জোড়টি সঠিকভাবে মেলেনি?",
+      "q": "সব মাস মিলিয়ে নিচের কোন জোড়টি সঠিকভাবে মেলেনি?",
       "a": "বিশ্ব স্বাস্থ্য দিবস – ৭ মে",
       "w": [
         "বিশ্ব টেলিযোগাযোগ দিবস – ১৭ মে",
