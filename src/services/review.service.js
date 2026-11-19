@@ -16,6 +16,7 @@ const AppError = require('../utils/AppError');
 const statsBuffer = require('./questionStats.buffer');
 const { PUBLIC_QUESTION_FIELDS, compactLocalized, presentQuestion } = require('./presenters');
 const { topicName } = require('./catalogNames');
+const { safeLearnLinkFor, learnLinksSafe } = require('./learnLinks.service');
 
 const DAY_MS = 86_400_000;
 const addDays = (date, days) => new Date(date.getTime() + days * DAY_MS);
@@ -152,6 +153,7 @@ async function answer(userId, { questionId, selectedOptionId, timeSpentSec }, no
     explanation: { items: (q.solution?.steps || []).map(compactLocalized).filter(Boolean) },
     shortcut: compactLocalized(q.solution?.shortcut),
     trapForSelected: trap ? compactLocalized(trap.note) : null,
+    learn: await safeLearnLinkFor(q._id),
     review: {
       status: next.status ?? 'active',
       streak: next.streak,
@@ -184,6 +186,7 @@ async function mistakes(userId, { status, subject, topic, offset, limit }) {
     .lean();
   const byId = new Map(questions.map((q) => [String(q._id), q]));
   const count = Object.fromEntries(counts.map((c) => [c._id, c.n]));
+  const links = await learnLinksSafe(questions.map((q) => q._id));
   return {
     counts: { active: count.active ?? 0, mastered: count.mastered ?? 0 },
     total,
@@ -206,6 +209,7 @@ async function mistakes(userId, { status, subject, topic, offset, limit }) {
           steps: (q.solution?.steps || []).map(compactLocalized).filter(Boolean),
           shortcut: compactLocalized(q.solution?.shortcut),
           trapForSelected: trap ? compactLocalized(trap.note) : null,
+          learn: links.get(String(q._id)) ?? null,
           question: presentQuestion(q),
         };
       }),

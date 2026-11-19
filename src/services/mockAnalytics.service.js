@@ -4,6 +4,7 @@ const { Question, MockSession, ExamCategory, ExamCutoff } = require('../models')
 const AppError = require('../utils/AppError');
 const { PUBLIC_QUESTION_FIELDS, compactLocalized, presentQuestion } = require('./presenters');
 const { presentResult } = require('./mock.service');
+const { learnLinksSafe } = require('./learnLinks.service');
 
 // Below this many comparable submissions, a percentile is noise: don't show one.
 const MIN_PEERS = 5;
@@ -100,6 +101,7 @@ async function getAnalytics(userId, sessionId) {
     session.custom ? [] : cutoffsFor(session.config.category),
   ]);
   const byId = new Map(docs.map((d) => [String(d._id), d]));
+  const links = await learnLinksSafe(docs.map((d) => d._id));
 
   const review = result.perQuestion.map((p) => {
     const q = byId.get(p.questionId);
@@ -117,6 +119,7 @@ async function getAnalytics(userId, sessionId) {
         shortcut: compactLocalized(q.solution?.shortcut),
         traps: (q.solution?.traps || []).map((t) => ({ optionId: t.option_id ?? null, note: compactLocalized(t.note) })),
       },
+      learn: links.get(String(q._id)) ?? null,
     };
   });
 

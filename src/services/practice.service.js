@@ -18,6 +18,7 @@ const { subjectName, topicName } = require('./catalogNames');
 const { storedSubtopics } = require('./gkTaxonomy');
 const { DIFFICULTY_BANDS } = require('./gk.service');
 const review = require('./review.service');
+const { safeLearnLinkFor } = require('./learnLinks.service');
 
 // Easy first, then most recent PYQ, then a stable tiebreak. Matches the
 // trailing keys of qb_cat_subj_topic_lang_diff, so the planner merges the
@@ -129,6 +130,8 @@ async function verifyAnswer({ questionId, selectedOptionId, timeSpentSec, catego
     trapForSelected: selectedTrap ? compactLocalized(selectedTrap.note) : null,
     commonTraps: traps.map((t) => ({ optionId: t.option_id ?? null, note: compactLocalized(t.note) })),
     stats: presentStats(q.stats),
+    // "📖 Learn this topic": where to read about it (F6), or null when no reliable source exists.
+    learn: await safeLearnLinkFor(q._id),
   };
 }
 

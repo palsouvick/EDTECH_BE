@@ -42,6 +42,7 @@ const config = require('../config');
 const AppError = require('../utils/AppError');
 const L = require('./customTest.logic');
 const { availability } = require('./bankAvailability');
+const { safeLearnLinkFor } = require('./learnLinks.service');
 
 const CATEGORY = 'WBPSC';
 const PRACTICE_MARKING = Object.freeze({ positive: 1, negative: 0, basis: 'PRACTICE', examCode: null, sourceUrl: null });
@@ -687,6 +688,7 @@ async function checkAnswer(userId, sessionId, { questionId, selectedOptionId }) 
     isCorrect: finalOption === correct,
     locked: !modifiedCount,
     explanation: explanationOf(q),
+    learn: await safeLearnLinkFor(qid),
     concept: { subject: session.config.subject, topic: entry.topic, name: topicName(session.config.subject, entry.topic), pattern: pattern?.name ?? null },
   };
 }

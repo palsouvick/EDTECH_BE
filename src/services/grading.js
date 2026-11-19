@@ -4,6 +4,7 @@ const { Question, PracticeAttempt, QuestionSkip } = require('../models');
 const statsBuffer = require('./questionStats.buffer');
 const review = require('./review.service');
 const { compactLocalized } = require('./presenters');
+const { learnLinksSafe } = require('./learnLinks.service');
 
 /**
  * Marks a batch of answers (a quiz or the daily challenge) and returns every
@@ -34,6 +35,7 @@ async function gradeAnswers(answers, { userId, source, record = true }) {
     .select('+correct_option_id +solution options.oid subject topic')
     .lean();
   const byId = new Map(docs.map((q) => [String(q._id), q]));
+  const links = await learnLinksSafe(docs.map((q) => q._id));
 
   const results = [];
   for (const { questionId, selectedOptionId, timeSpentSec } of answers) {
@@ -60,6 +62,7 @@ async function gradeAnswers(answers, { userId, source, record = true }) {
       steps: (q.solution?.steps || []).map(compactLocalized).filter(Boolean),
       shortcut: compactLocalized(q.solution?.shortcut),
       trapForSelected: trap ? compactLocalized(trap.note) : null,
+      learn: links.get(questionId) ?? null,
     });
   }
   return { results, score: { correct: results.filter((r) => r.isCorrect).length, total: results.length } };

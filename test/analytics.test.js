@@ -105,6 +105,13 @@ test('review, marks lost per topic, weakest topic, peers and cut-offs', async ()
   const first = d.review[0];
   assert.ok(first.stem.en && first.options.length === 4 && first.correctOptionId);
   assert.deepEqual(first.explanation.shortcut, { en: 'Fast way', bn: 'দ্রুত উপায়' });
+  // "📖 Learn this topic" (F6): both chapters have a lesson, so every reviewed question links to it.
+  for (const r of d.review) {
+    assert.equal(r.learn?.kind, 'lesson', `seq ${r.seq}`);
+    assert.equal(r.learn.subject, 'quant');
+    assert.equal(r.learn.topic, r.topic);
+    assert.equal(r.learn.crumbs.length, 2);
+  }
   assert.deepEqual(d.review.filter((r) => r.markedForReview).map((r) => r.seq), [2, 8]);
   assert.equal(d.review[6].marksLost, 2.5); // wrong: missed +2 and paid −0.5
   assert.equal(d.review[9].marksLost, 2); // blank: missed +2
