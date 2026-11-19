@@ -1,0 +1,434 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "গেরুয়া (কেশরী), সাদা, সবুজ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The National flag is a horizontal tricolour of deep saffron (Kesaria) at the top, white in the middle and dark green at the bottom in equal proportion.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flag section",
+      "notes": "c01: saffron top, white middle, green bottom, equal proportion."
+    },
+    {
+      "id": "q02",
+      "answer": "২৪টি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the center of the white band is a navy-blue wheel which represents the Chakra. Its design is that of the wheel which appears on the abacus of the Sarnath Lion Capital of Ashoka. Its diameter approximates to the width of the white band and it has 24 spokes.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flag section",
+      "notes": "c03: Chakra has 24 spokes."
+    },
+    {
+      "id": "q03",
+      "answer": "২২ জুলাই ১৯৪৭",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The design of the national flag was adopted by the Constituent Assembly of India on 22nd July 1947. Its use and display are regulated by the Indian Flag Code.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flag section",
+      "notes": "c04: design adopted 22 July 1947."
+    },
+    {
+      "id": "q04",
+      "answer": "৩ : ২",
+      "confidence": "SURE",
+      "also_defensible": "২ : ৩",
+      "quote": "As per paragraph 1.3 & 1.4 of the Flag Code of India, the National Flag shall be rectangular in shape. The Flag can be of any size but the ratio of the length to the height (width) of the National Flag shall be 3:2.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1845264&reg=3&lang=2",
+      "page": "Q4",
+      "notes": "Question asks length:height; c32 states length to height 3:2. c02 phrases the same ratio as width:length 2:3, hence the reversed option is order-dependent."
+    },
+    {
+      "id": "q05",
+      "answer": "সারনাথের অশোক-সিংহশীর্ষের ভিত্তিপীঠের (abacus) চাকা থেকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the center of the white band is a navy-blue wheel which represents the Chakra. Its design is that of the wheel which appears on the abacus of the Sarnath Lion Capital of Ashoka. Its diameter approximates to the width of the white band and it has 24 spokes.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flag section",
+      "notes": "c03: wheel design from abacus of Sarnath Lion Capital."
+    },
+    {
+      "id": "q06",
+      "answer": "সাদা প্যানেলের প্রস্থের প্রায় সমান",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the center of the white band is a navy-blue wheel which represents the Chakra. Its design is that of the wheel which appears on the abacus of the Sarnath Lion Capital of Ashoka. Its diameter approximates to the width of the white band and it has 24 spokes.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flag section",
+      "notes": "c03: diameter approximates width of white band."
+    },
+    {
+      "id": "q07",
+      "answer": "শুধু ১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The National Flag of India was adopted during a meeting of the Constituent Assembly held on 22 July 1947, and it became the official flag of the Dominion of India on 15 August 1947. The Flag of India constitutes of tricolour, i.e., saffron, white and India green; with the Ashoka Chakra, a 24-spoke wheel, in navy blue at its centre.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1749614&reg=3&lang=2",
+      "page": "Key-highlights of the e-Photo Exhibition",
+      "notes": "Stmt1 true (c01 equal proportion), stmt2 true (c05 official flag 15 Aug 1947), stmt3 false (24 spokes, not 18)."
+    },
+    {
+      "id": "q08",
+      "answer": "ভারতীয় পতাকা বিধি (Indian Flag Code)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The design of the national flag was adopted by the Constituent Assembly of India on 22nd July 1947. Its use and display are regulated by the Indian Flag Code.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flag section",
+      "notes": "c04: use and display regulated by the Indian Flag Code."
+    },
+    {
+      "id": "q09",
+      "answer": "সারনাথের অশোক-সিংহশীর্ষ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The state emblem is an adaptation from the Sarnath Lion Capital of Ashoka.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "State Emblem section",
+      "notes": "c06: adaptation from Sarnath Lion Capital of Ashoka."
+    },
+    {
+      "id": "q10",
+      "answer": "৩টি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the State emblem, adopted by the Government of India on 26 January 1950, only three lions are visible, the fourth being hidden from view. The wheel appears in relief in the center of the abacus with a bull on right and a horse on left and the outlines of the wheels on extreme right and left. The bell-shaped lotus has been omitted. The words Satyameva Jayate from Mundaka Upanishad, meaning 'Truth Alone Triumphs', are inscribed below the abacus in Devanagari script.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "State Emblem section",
+      "notes": "c08: only three lions visible, fourth hidden."
+    },
+    {
+      "id": "q11",
+      "answer": "সত্যমেব জয়তে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the State emblem, adopted by the Government of India on 26 January 1950, only three lions are visible, the fourth being hidden from view. The wheel appears in relief in the center of the abacus with a bull on right and a horse on left and the outlines of the wheels on extreme right and left. The bell-shaped lotus has been omitted. The words Satyameva Jayate from Mundaka Upanishad, meaning 'Truth Alone Triumphs', are inscribed below the abacus in Devanagari script.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "State Emblem section",
+      "notes": "c08/c10: Satyameva Jayate inscribed below abacus in Devanagari."
+    },
+    {
+      "id": "q12",
+      "answer": "২৬ জানুয়ারি ১৯৫০",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the State emblem, adopted by the Government of India on 26 January 1950, only three lions are visible, the fourth being hidden from view. The wheel appears in relief in the center of the abacus with a bull on right and a horse on left and the outlines of the wheels on extreme right and left. The bell-shaped lotus has been omitted. The words Satyameva Jayate from Mundaka Upanishad, meaning 'Truth Alone Triumphs', are inscribed below the abacus in Devanagari script.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "State Emblem section",
+      "notes": "c08: adopted by Government of India on 26 January 1950."
+    },
+    {
+      "id": "q13",
+      "answer": "ডানদিকে ষাঁড়, বামদিকে ঘোড়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the State emblem, adopted by the Government of India on 26 January 1950, only three lions are visible, the fourth being hidden from view. The wheel appears in relief in the center of the abacus with a bull on right and a horse on left and the outlines of the wheels on extreme right and left. The bell-shaped lotus has been omitted. The words Satyameva Jayate from Mundaka Upanishad, meaning 'Truth Alone Triumphs', are inscribed below the abacus in Devanagari script.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "State Emblem section",
+      "notes": "c08: bull on right, horse on left of central wheel."
+    },
+    {
+      "id": "q14",
+      "answer": "ঘণ্টা-আকৃতির পদ্ম (bell-shaped lotus)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In the State emblem, adopted by the Government of India on 26 January 1950, only three lions are visible, the fourth being hidden from view. The wheel appears in relief in the center of the abacus with a bull on right and a horse on left and the outlines of the wheels on extreme right and left. The bell-shaped lotus has been omitted. The words Satyameva Jayate from Mundaka Upanishad, meaning 'Truth Alone Triumphs', are inscribed below the abacus in Devanagari script.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "State Emblem section",
+      "notes": "c08/c09: bell-shaped lotus omitted."
+    },
+    {
+      "id": "q15",
+      "answer": "সর্বোচ্চ ২ বছর কারাদণ্ড, অথবা সর্বোচ্চ ৫,০০০ টাকা জরিমানা, অথবা উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Any person who contravenes the provisions of section 3 shall be punishable with imprisonment for a term which may extend to two years, or with fine which may extend to five thousand rupees, or with both",
+      "source_url": "https://dpal.karnataka.gov.in/storage/pdf-files/Act%2050%20of%202005.pdf",
+      "page": "Section 7 — Penalty",
+      "notes": "c12: contravention of section 3 punishable under section 7 with up to 2 years, or fine up to Rs 5,000, or both."
+    },
+    {
+      "id": "q16",
+      "answer": "ক ও খ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "An Act to prohibit the improper use of State Emblem of India for professional and commercial purposes and for matters connected therewith or incidental thereto.",
+      "source_url": "https://dpal.karnataka.gov.in/storage/pdf-files/Act%2050%20of%202005.pdf",
+      "page": "Act heading and preamble",
+      "notes": "Pair a true (c06), pair b true (c11, Act of 2005), pair c false (adopted 26 Jan 1950 per c08, not 15 Aug 1947)."
+    },
+    {
+      "id": "q17",
+      "answer": "রবীন্দ্রনাথ ঠাকুর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The song Jana-gana-mana, composed originally in Bengali by Rabindranath Tagore, was adopted in its Hindi version by the Constituent Assembly as the National Anthem of India on 24th January 1950.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Anthem section",
+      "notes": "c13: composed by Rabindranath Tagore."
+    },
+    {
+      "id": "q18",
+      "answer": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The song Vande Mataram, composed in Sanskrit by Bankimchandra Chatterji, was a source of inspiration to the people in their struggle for freedom. It has an equal status with Jana-gana-mana. The first political occasion when it was sung was the 1896 session of the Indian National Congress.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Song section",
+      "notes": "c16/c17: composed by Bankimchandra Chatterji/Chatterjee."
+    },
+    {
+      "id": "q19",
+      "answer": "২৪ জানুয়ারি ১৯৫০",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The song Jana-gana-mana, composed originally in Bengali by Rabindranath Tagore, was adopted in its Hindi version by the Constituent Assembly as the National Anthem of India on 24th January 1950.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Anthem section",
+      "notes": "c13: adopted as National Anthem on 24 January 1950."
+    },
+    {
+      "id": "q20",
+      "answer": "প্রায় ৫২ সেকেন্ড",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Playing time of the full version of the national anthem is approximately 52 seconds. A short version consisting of first and last lines of the stanza (playing time approximately 20 seconds) is also played on certain occasions.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Anthem section",
+      "notes": "c15: full version playing time approximately 52 seconds."
+    },
+    {
+      "id": "q21",
+      "answer": "১৯১১ সালের কলকাতা কংগ্রেস অধিবেশনে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It was first sung on 27th December 1911 at the Calcutta Session of the Indian National Congress. The complete song consists of five stanzas. The first stanza contains the full version of the National Anthem",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Anthem section",
+      "notes": "c14: first sung 27 December 1911 at Calcutta Session of INC."
+    },
+    {
+      "id": "q22",
+      "answer": "প্রথম ও শেষ পঙ্‌ক্তি নিয়ে গঠিত, সময় প্রায় ২০ সেকেন্ড",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Playing time of the full version of the national anthem is approximately 52 seconds. A short version consisting of first and last lines of the stanza (playing time approximately 20 seconds) is also played on certain occasions.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Anthem section",
+      "notes": "c15: short version = first and last lines, about 20 seconds."
+    },
+    {
+      "id": "q23",
+      "answer": "‘বঙ্গদর্শন’ পত্রিকায়, ৭ নভেম্বর ১৮৭৫",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Composed by Bankim Chandra Chatterjee, 'Vande Mataram' was first published in the literary journal Bangadarshan on 7 November 1875. Later, Bankim Chandra Chatterjee incorporated the hymn in his immortal novel 'Anandamath' which was published in 1882.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186984",
+      "page": "Introduction",
+      "notes": "c17: first published in Bangadarshan on 7 November 1875 (Anandamath incorporation was later, 1882)."
+    },
+    {
+      "id": "q24",
+      "answer": "আনন্দমঠ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Composed by Bankim Chandra Chatterjee, 'Vande Mataram' was first published in the literary journal Bangadarshan on 7 November 1875. Later, Bankim Chandra Chatterjee incorporated the hymn in his immortal novel 'Anandamath' which was published in 1882.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186984",
+      "page": "Introduction",
+      "notes": "c17: incorporated in novel Anandamath (1882)."
+    },
+    {
+      "id": "q25",
+      "answer": "৭ আগস্ট ১৯০৫",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Vande Mataram as a political slogan was first used on 7 August 1905",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186984",
+      "page": "Key Takeaways / main text",
+      "notes": "c19: as political slogan first used 7 August 1905 (distinct from first sung political occasion, 1896, c16)."
+    },
+    {
+      "id": "q26",
+      "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "On 24 January 1950, Dr. Rajendra Prasad addressed the Constituent Assembly, stating that Vande Mataram, due to its significant role in the freedom movement, should have the same status as the National Anthem, Jana Gana Mana, and be honored equally.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186984",
+      "page": "National Status",
+      "notes": "c20 supports both A (equal status/honour) and R (Rajendra Prasad statement, 24 Jan 1950), and R explains A."
+    },
+    {
+      "id": "q27",
+      "answer": "চৈত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The national calendar based on the Saka Era with Chaitra as its first month and a normal year of 365 days was adopted from 22 March 1957 along with the Gregorian calendar for the following official purposes: (i) Gazette of India, (ii) news broadcast by All India Radio, (iii) calendars issued by the Government of India and (iv) Government communications addressed to the members of the public.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Calendar section",
+      "notes": "c21: Chaitra is first month."
+    },
+    {
+      "id": "q28",
+      "answer": "২২ মার্চ ১৯৫৭",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The national calendar based on the Saka Era with Chaitra as its first month and a normal year of 365 days was adopted from 22 March 1957 along with the Gregorian calendar for the following official purposes: (i) Gazette of India, (ii) news broadcast by All India Radio, (iii) calendars issued by the Government of India and (iv) Government communications addressed to the members of the public.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Calendar section",
+      "notes": "c21: adopted from 22 March 1957."
+    },
+    {
+      "id": "q29",
+      "answer": "২১ মার্চ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Dates of the national calendar have a permanent correspondence with dates of the Gregorian calendar: 1 Chaitra falling on 22 March normally and on 21 March in leap year.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Calendar section",
+      "notes": "c22: 1 Chaitra falls 21 March in leap year."
+    },
+    {
+      "id": "q30",
+      "answer": "শুধু ১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The national calendar based on the Saka Era with Chaitra as its first month and a normal year of 365 days was adopted from 22 March 1957 along with the Gregorian calendar for the following official purposes: (i) Gazette of India, (ii) news broadcast by All India Radio, (iii) calendars issued by the Government of India and (iv) Government communications addressed to the members of the public.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Calendar section",
+      "notes": "Stmt1 and 2 true (c21); stmt3 false - uses include AIR broadcasts, Govt calendars and public communications, not Gazette only."
+    },
+    {
+      "id": "q31",
+      "answer": "বিদ্যালয়ের পাঠ্যসূচি নির্ধারণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The national calendar based on the Saka Era with Chaitra as its first month and a normal year of 365 days was adopted from 22 March 1957 along with the Gregorian calendar for the following official purposes: (i) Gazette of India, (ii) news broadcast by All India Radio, (iii) calendars issued by the Government of India and (iv) Government communications addressed to the members of the public.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Calendar section",
+      "notes": "c21 lists only Gazette, AIR news, Govt calendars, Govt communications; school syllabus-setting is not among them."
+    },
+    {
+      "id": "q32",
+      "answer": "বাঘ (Panthera tigris)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The magnificent tiger, Panthera tigris (Linnaeus), is a striped animal. It has a thick yellow coat of fur with dark stripes. The combination of grace, strength, agility and enormous power has earned the tiger its pride of place as the national animal of India.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Animal section",
+      "notes": "c23: tiger, Panthera tigris, is national animal."
+    },
+    {
+      "id": "q33",
+      "answer": "ভারতীয় ময়ূর (Pavo cristatus)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Indian peacock, Pavo cristatus (Linnaeus), the national bird of India, is a colourful, swan-sized bird, with a fan-shaped crest of feathers, a white patch under the eye and a long, slender neck.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Bird section",
+      "notes": "c25: Indian peacock, Pavo cristatus, is national bird."
+    },
+    {
+      "id": "q34",
+      "answer": "পদ্ম (Nelumbo nucifera)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Lotus (Nelumbo nucifera) is the National Flower of India. It is a sacred flower and occupies a unique position in the art and mythology of ancient India and has been an auspicious symbol of Indian culture since time immemorial.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flower section",
+      "notes": "c27: lotus (Nelumbo nucifera) is National Flower."
+    },
+    {
+      "id": "q35",
+      "answer": "এপ্রিল ১৯৭৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Out of eight races of the species known, the Indian race, the Royal Bengal Tiger, is found throughout the country except in the north-western region and also in the neighbouring countries, Nepal, Bhutan and Bangladesh. To check the dwindling population of tigers in India 'Project Tiger' was launched in April 1973.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Animal section",
+      "notes": "c24: Project Tiger launched in April 1973."
+    },
+    {
+      "id": "q36",
+      "answer": "জাতীয় গঙ্গা নদী অববাহিকা কর্তৃপক্ষের (NGRBA) প্রথম সভায়, ৫ অক্টোবর ২০০৯",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "During the first meeting of the National Ganga River Basin Authority (NGRBA) held on 5th October 2009, under the Chairmanship of the Prime Minister, it was decided to declare River Dolphin as National Aquatic Animal.",
+      "source_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=55824&reg=48&lang=2",
+      "page": "Main text",
+      "notes": "c29: decided at first NGRBA meeting, 5 October 2009."
+    },
+    {
+      "id": "q37",
+      "answer": "ভারতীয় বন্যপ্রাণ (সুরক্ষা) আইন, ১৯৭২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It is fully protected under the Indian Wildlife (Protection) Act, 1972.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Bird section",
+      "notes": "c26: fully protected under Indian Wildlife (Protection) Act, 1972."
+    },
+    {
+      "id": "q38",
+      "answer": "ক-২, খ-৩, গ-১, ঘ-৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The magnificent tiger, Panthera tigris (Linnaeus), is a striped animal. It has a thick yellow coat of fur with dark stripes. The combination of grace, strength, agility and enormous power has earned the tiger its pride of place as the national animal of India.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Animal section",
+      "notes": "Animal tiger (c23), bird peacock (c25), flower lotus (c27), aquatic animal Gangetic dolphin (c28)."
+    },
+    {
+      "id": "q39",
+      "answer": "২৬ জানুয়ারি ২০০২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Yes- the 'Flag Code of India 2002' and the Prevention of Insults to National Honour Act, 1971. ... The Flag Code of India brings together all laws, conventions, practices, and instructions for the display of the National Flag. It governs the display of the National Flag by Private, Public, and Government Institutions. The Flag Code of India took effect on 26th January 2002.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1845264&reg=3&lang=2",
+      "page": "Q1 and Q2",
+      "notes": "c31: Flag Code of India took effect 26 January 2002."
+    },
+    {
+      "id": "q40",
+      "answer": "৩ বছর পর্যন্ত কারাদণ্ড, অথবা জরিমানা, অথবা উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Whoever in any public place or in any other place within public view burns, mutilates, defaces, defiles, disfigures, destroys, tramples upon or otherwise shows disrespect to or brings into contempt (whether by words, either spoken or written, or by acts) the Indian National Flag or the Constitution of India or any part thereof, shall be punished with imprisonment for a term which may extend to three years, or with fine, or with both.",
+      "source_url": "https://www.mha.gov.in/sites/default/files/Prevention_Insults_National_Honour_Act1971_1.pdf",
+      "page": "Section 2",
+      "notes": "c35: section 2 punishment up to three years, or fine, or both."
+    },
+    {
+      "id": "q41",
+      "answer": "Prevention of Insults to National Honour Act, 1971 (ধারা ৩)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Whoever intentionally prevents the singing of the Indian National Anthem or causes disturbances to any assembly engaged in such singing shall be punished with imprisonment for a term, which may extend to three years, or with fine, or with both.",
+      "source_url": "https://www.mha.gov.in/sites/default/files/Prevention_Insults_National_Honour_Act1971_1.pdf",
+      "page": "Section 3",
+      "notes": "c36: section 3 of Prevention of Insults to National Honour Act, 1971 covers preventing anthem singing."
+    },
+    {
+      "id": "q42",
+      "answer": "যেকোনো দিন পতাকার মর্যাদা বজায় রেখে উত্তোলন/প্রদর্শন করা যায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "As per paragraph 2.2 of the Flag Code of India, a member of the public, a private organization, or an educational institution may hoist/display the National Flag on all days or occasions in accordance with the dignity and honour of the National Flag.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1845264&reg=3&lang=2",
+      "page": "Q5",
+      "notes": "c33: public may hoist/display on all days in accordance with dignity and honour."
+    },
+    {
+      "id": "q43",
+      "answer": "২ → ৪ → ১ → ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The design of the national flag was adopted by the Constituent Assembly of India on 22nd July 1947. Its use and display are regulated by the Indian Flag Code.",
+      "source_url": "https://www.eoiashgabat.gov.in/info-on-india.php",
+      "page": "National Flag section",
+      "notes": "Flag design 1947 (c04), emblem 1950 (c08), calendar 1957 (c21), Project Tiger 1973 (c24): 2-4-1-3."
+    }
+  ]
+}

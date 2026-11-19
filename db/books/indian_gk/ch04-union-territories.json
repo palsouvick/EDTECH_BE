@@ -1,0 +1,1558 @@
+{
+  "book": "indian_gk",
+  "code": "IGK-04",
+  "number": 4,
+  "part": "india_map",
+  "title": "কেন্দ্রশাসিত অঞ্চল",
+  "subtitle": "আটটি কেন্দ্রশাসিত অঞ্চল: নাম, রাজধানী, প্রশাসন ও বিধানসভার ছবি",
+  "subtopics": [
+    "union_territories"
+  ],
+  "related_facts": [
+    "GK-IGK-019"
+  ],
+  "prerequisites": [
+    "IGK-03"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 25,
+    "deep": 35
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 1 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 3 of 4 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_IGK-04.json and drafts/IGK-04_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/IGK-04_REPORT.md. Duplicate-stem fix after install: q37 originally shared its stem (\"লাদাখের রাজধানী কোনটি?\") with IGK-03 q34; the stem was made UT-specific with the same key/options/claims, and a fresh independent blind check of the replaced question matched the key (SURE).",
+    "checked_claims": 34,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "ভারতে ২৮টি রাজ্যের পাশাপাশি আছে ৮টি কেন্দ্রশাসিত অঞ্চল (Union Territory)। রাজ্যের নিজস্ব নির্বাচিত সরকার থাকলেও কেন্দ্রশাসিত অঞ্চল শাসন করেন রাষ্ট্রপতি, তাঁর নিযুক্ত প্রশাসকের মাধ্যমে — তবে দিল্লি, পুদুচেরি ও জম্মু ও কাশ্মীরের নিজস্ব বিধানসভা আছে। এই অধ্যায়ে আমরা আটটি অঞ্চলের নাম ও রাজধানী, সংবিধানের অষ্টম অংশের (২৩৯–২৪১ ধারা) প্রশাসনিক কাঠামো, দ্বীপাঞ্চলীয় অঞ্চলগুলির বিশেষত্ব এবং ২০১৯–২০২০ সালের দুটি বড় বদল — জম্মু ও কাশ্মীরের পুনর্গঠন ও দাদরা-দমন একীভবন — ধাপে ধাপে শিখব।",
+    "you_will_learn": [
+      "ভারতে কয়টি রাজ্য ও কয়টি কেন্দ্রশাসিত অঞ্চল আছে এবং আটটি অঞ্চলের নাম",
+      "প্রতিটি কেন্দ্রশাসিত অঞ্চলের রাজধানী — শ্রী বিজয় পুরম, কাভারাত্তি, দমন, লেহ-সহ",
+      "২৩৯ ধারা অনুযায়ী রাষ্ট্রপতি-প্রশাসক ব্যবস্থা এবং স্বরাষ্ট্র মন্ত্রকের ভূমিকা",
+      "কোন তিনটি অঞ্চলে বিধানসভা আছে: দিল্লি (২৩৯কক), পুদুচেরি (২৩৯ক) ও জম্মু ও কাশ্মীর",
+      "চণ্ডীগড় কেন দুটি রাজ্যের যৌথ রাজধানী হয়েও কেন্দ্রশাসিত অঞ্চল",
+      "২০১৯ সালে জম্মু ও কাশ্মীর থেকে জম্মু ও কাশ্মীর ও লাদাখ — দুটি অঞ্চল গঠন",
+      "২০২০ সালে দাদরা ও নগর হাভেলি এবং দমন ও দিউ-এর একীভবন ও সদর দপ্তর দমন",
+      "লক্ষদ্বীপ কেন ক্ষুদ্রতম অঞ্চল এবং আন্দামানের রাজধানীর নতুন নামের গল্প"
+    ]
+  },
+  "sections": [
+    {
+      "id": "ut_basics",
+      "heading": "কেন্দ্রশাসিত অঞ্চল কী: সংখ্যা ও মূল ধারণা",
+      "quick": "ভারতে ২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল আছে। রাজ্যের মতো নিজস্ব পূর্ণ সরকার না থেকে এই অঞ্চলগুলি শাসন করেন রাষ্ট্রপতি, তাঁর নিযুক্ত প্রশাসকের মাধ্যমে। আটটি অঞ্চল হল: আন্দামান ও নিকোবর দ্বীপপুঞ্জ, চণ্ডীগড়, দাদরা ও নগর হাভেলি এবং দমন ও দিউ, দিল্লি, জম্মু ও কাশ্মীর, লাদাখ, লক্ষদ্বীপ ও পুদুচেরি।",
+      "standard": "ভারতের ভূখণ্ড দুই ধরনের এককে ভাগ: রাজ্য এবং কেন্দ্রশাসিত অঞ্চল। সরকারি তথ্য অনুযায়ী বর্তমানে ভারতে ২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল আছে। রাজ্যের শাসনব্যবস্থায় থাকে নির্বাচিত বিধানসভা ও মন্ত্রিপরিষদ; কিন্তু কেন্দ্রশাসিত অঞ্চলের ক্ষেত্রে সংবিধানের নিয়ম আলাদা: সংসদ আইন করে অন্যথা না বললে, প্রতিটি কেন্দ্রশাসিত অঞ্চল শাসন করবেন রাষ্ট্রপতি — তিনি যাঁকে প্রশাসক (Administrator) নিয়োগ করবেন, তাঁর মাধ্যমে, যতটা তিনি উপযুক্ত মনে করেন।\n\nআটটি কেন্দ্রশাসিত অঞ্চলের নাম মনে রাখা এই অধ্যায়ের প্রথম কাজ: (১) আন্দামান ও নিকোবর দ্বীপপুঞ্জ, (২) চণ্ডীগড়, (৩) দাদরা ও নগর হাভেলি এবং দমন ও দিউ, (৪) দিল্লি (জাতীয় রাজধানী অঞ্চল), (৫) জম্মু ও কাশ্মীর, (৬) লাদাখ, (৭) লক্ষদ্বীপ, (৮) পুদুচেরি। সংবিধানের অষ্টম অংশের (Part VIII) শিরোনামই হল 'The Union Territories' — এই অংশের ২৩৯ থেকে ২৪১ ধারায় অঞ্চলগুলির শাসনের নিয়ম দেওয়া আছে।\n\nকেন্দ্রীয় স্তরে এই অঞ্চলগুলির প্রশাসনের দায়িত্ব স্বরাষ্ট্র মন্ত্রকের (Ministry of Home Affairs) হাতে — মন্ত্রকের দায়িত্বের তালিকায় স্পষ্ট লেখা আছে 'administration of Union Territories'। তাই অঞ্চলগুলির বাজেট, আইন ও প্রশাসক-নিয়োগের মতো বিষয় কেন্দ্রীয় সরকারের হাত ধরেই চলে।\n\nমনে রাখার কৌশল: দুটি দ্বীপাঞ্চল (আন্দামান-নিকোবর, লক্ষদ্বীপ), দুটি উত্তরের পাহাড়ি অঞ্চল (জম্মু ও কাশ্মীর, লাদাখ), একটি যৌথ রাজধানী-নগর (চণ্ডীগড়), একটি জাতীয় রাজধানী (দিল্লি), একটি পশ্চিম উপকূলের একীভূত অঞ্চল (দাদরা ও নগর হাভেলি এবং দমন ও দিউ) এবং একটি প্রাক্তন ফরাসি অঞ্চল (পুদুচেরি) — এই ছবিতে ভাগ করলে আটটি নাম সহজে মনে থাকে।",
+      "deep": "সংখ্যাটি স্থির নয় — সংসদের আইনে তা বদলায়। ২০১৯ সালের অক্টোবরে সংখ্যা বেড়ে ৯ হয়েছিল (জম্মু ও কাশ্মীর ভেঙে দুটি অঞ্চল), আবার ২০২০ সালের জানুয়ারিতে দুটি অঞ্চল একীভূত হয়ে সংখ্যা ৮-এ নেমে আসে। এই দুটি বদলের বিস্তারিত আমরা শেষ দুটি অংশে পড়ব। পরীক্ষায় 'বর্তমানে কয়টি কেন্দ্রশাসিত অঞ্চল' প্রশ্নের উত্তর সবসময় সর্বশেষ অবস্থা অনুযায়ী দিতে হয় — ৮টি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সংখ্যা বদলায়",
+          "body": "২০১৯-এর আগে অঞ্চল ছিল ৭টি, অক্টোবর ২০১৯-এ হয় ৯টি, জানুয়ারি ২০২০ থেকে ৮টি। পুরনো বইয়ে ৭ বা ৯ দেখলে বিভ্রান্ত হোয়ো না — বর্তমান উত্তর ৮টি।",
+          "claims": [
+            "c01",
+            "c10",
+            "c15"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c31",
+        "c33"
+      ]
+    },
+    {
+      "id": "administration",
+      "heading": "প্রশাসন: রাষ্ট্রপতি, প্রশাসক ও সংবিধানের অষ্টম অংশ",
+      "quick": "২৩৯ ধারা অনুযায়ী প্রতিটি কেন্দ্রশাসিত অঞ্চল রাষ্ট্রপতি তাঁর নিযুক্ত প্রশাসকের মাধ্যমে শাসন করেন। প্রশাসকের পদবি অঞ্চলভেদে আলাদা: দিল্লিতে তিনি লেফটেন্যান্ট গভর্নর। রাষ্ট্রপতি চাইলে কোনো রাজ্যের রাজ্যপালকেও পাশের অঞ্চলের প্রশাসক করতে পারেন — যেমন পাঞ্জাবের রাজ্যপালই চণ্ডীগড়ের প্রশাসক।",
+      "standard": "কেন্দ্রশাসিত অঞ্চলের শাসনের ভিত্তি ২৩৯ ধারা। ধারাটি বলে: সংসদ আইন করে অন্য ব্যবস্থা না করলে, প্রতিটি কেন্দ্রশাসিত অঞ্চল শাসিত হবে রাষ্ট্রপতির দ্বারা — তিনি যতটা উপযুক্ত মনে করেন, তাঁর নিযুক্ত প্রশাসকের মাধ্যমে; প্রশাসকের পদবি রাষ্ট্রপতিই নির্দিষ্ট করবেন। অর্থাৎ প্রশাসক রাষ্ট্রপতির প্রতিনিধি; রাজ্যের রাজ্যপালের মতো সাংবিধানিক প্রধান হলেও তাঁর ক্ষমতার উৎস সরাসরি রাষ্ট্রপতির নিয়োগ।\n\nএকই ধারার দ্বিতীয় অংশে একটি বিশেষ ব্যবস্থা আছে: রাষ্ট্রপতি কোনো রাজ্যের রাজ্যপালকে পার্শ্ববর্তী কেন্দ্রশাসিত অঞ্চলের প্রশাসক নিয়োগ করতে পারেন, এবং তখন সেই রাজ্যপাল প্রশাসক হিসেবে তাঁর মন্ত্রিপরিষদ থেকে স্বাধীনভাবে কাজ করবেন। এই ব্যবস্থার জীবন্ত উদাহরণ চণ্ডীগড়: ১৯৮৪ সালের জুন থেকে পাঞ্জাবের রাজ্যপালই চণ্ডীগড়ের প্রশাসকের দায়িত্ব পালন করছেন।\n\n২৪০ ধারা রাষ্ট্রপতিকে কয়েকটি নির্দিষ্ট অঞ্চলের জন্য বিধি (regulation) প্রণয়নের ক্ষমতা দেয় — তালিকায় আছে আন্দামান ও নিকোবর দ্বীপপুঞ্জ, লক্ষদ্বীপ, দাদরা ও নগর হাভেলি, দমন ও দিউ এবং পুদুচেরি। লক্ষ্য করো, চণ্ডীগড়, দিল্লি, জম্মু ও কাশ্মীর ও লাদাখ এই তালিকায় নেই — পরীক্ষায় এই পার্থক্য থেকে প্রশ্ন আসে। ২৪১ ধারা অনুযায়ী সংসদ আইন করে কোনো কেন্দ্রশাসিত অঞ্চলের জন্য হাইকোর্ট গঠন করতে বা কোনো আদালতকে হাইকোর্ট ঘোষণা করতে পারে।\n\nদিল্লির ক্ষেত্রে প্রশাসকের পদবি নির্দিষ্টভাবে বলা আছে: ২৩৯কক ধারা অনুযায়ী দিল্লির প্রশাসককে বলা হবে লেফটেন্যান্ট গভর্নর (Lieutenant Governor)। অন্য অঞ্চলেও প্রশাসকের পদবি অঞ্চলভেদে লেফটেন্যান্ট গভর্নর বা প্রশাসক হতে পারে — পদবিটি রাষ্ট্রপতির নির্দিষ্ট করা, এটাই ধারার মূল কথা।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "প্রশাসক বনাম রাজ্যপাল",
+          "body": "রাজ্যের প্রধান রাজ্যপাল — তিনি রাজ্যের সাংবিধানিক প্রধান। কেন্দ্রশাসিত অঞ্চলের প্রধান প্রশাসক — তিনি রাষ্ট্রপতির নিযুক্ত কর্মকর্তা। দুটো পদ গুলিয়ে ফেলো না; তবে একই ব্যক্তি দুটো দায়িত্ব পেতে পারেন (পাঞ্জাবের রাজ্যপাল = চণ্ডীগড়ের প্রশাসক)।",
+          "claims": [
+            "c03",
+            "c18"
+          ]
+        }
+      ],
+      "claims": [
+        "c02",
+        "c03",
+        "c04",
+        "c06",
+        "c09",
+        "c18"
+      ]
+    },
+    {
+      "id": "legislature_uts",
+      "heading": "বিধানসভাযুক্ত অঞ্চল: দিল্লি, পুদুচেরি ও জম্মু ও কাশ্মীর",
+      "quick": "আটটি অঞ্চলের মধ্যে মাত্র তিনটির নিজস্ব বিধানসভা আছে: দিল্লি, পুদুচেরি ও জম্মু ও কাশ্মীর। দিল্লির বিশেষ ব্যবস্থা ২৩৯কক ধারায় (৬৯তম সংশোধনী, ১৯৯১), পুদুচেরির ব্যবস্থার ভিত্তি ২৩৯ক ধারা, আর জম্মু ও কাশ্মীর বিধানসভা পেয়েছে ২০১৯ সালের পুনর্গঠন আইনে — লাদাখ পায়নি।",
+      "standard": "সব কেন্দ্রশাসিত অঞ্চলের শাসন একরকম নয়। তিনটি অঞ্চলে নির্বাচিত বিধানসভা ও মন্ত্রিপরিষদ আছে — বাকি পাঁচটি সরাসরি প্রশাসকের শাসনে চলে।\n\n**দিল্লি:** ১৯৫৬ সালে দিল্লি কেন্দ্রশাসিত অঞ্চল হয়। সংবিধানের ৬৯তম সংশোধনী (১৯৯১) দিল্লির ইতিহাসে মাইলফলক — এর ফলে দিল্লি পায় বিধানসভা এবং জাতীয় রাজধানী অঞ্চল আইন, ১৯৯১ কার্যকর হয়। ২৩৯কক ধারা বলে, ওই সংশোধনী কার্যকর হওয়ার দিন থেকে দিল্লি অঞ্চলের নাম হবে 'জাতীয় রাজধানী অঞ্চল' (National Capital Territory) এবং এর প্রশাসক হবেন লেফটেন্যান্ট গভর্নর। বিধানসভার আসনগুলি পূরণ হবে আঞ্চলিক কেন্দ্রগুলি থেকে সরাসরি নির্বাচনের মাধ্যমে। মন্ত্রিপরিষদে সদস্য সংখ্যা বিধানসভার মোট সদস্যের দশ শতাংশের বেশি হবে না, প্রধান হবেন মুখ্যমন্ত্রী, এবং পরিষদ লেফটেন্যান্ট গভর্নরকে সাহায্য ও পরামর্শ দেবে। উল্লেখ্য, ১৯১১ সালে রাজধানী কলকাতা থেকে দিল্লিতে সরে আসার পর থেকেই দিল্লি দেশের কর্মকাণ্ডের কেন্দ্র।\n\n**পুদুচেরি:** ২৩৯ক ধারা সংসদকে ক্ষমতা দেয় পুদুচেরির জন্য আইন করে বিধানসভা, মন্ত্রিপরিষদ বা উভয়ই গঠন করার। পুদুচেরির সরকারি পরিচিতিতেও স্পষ্ট লেখা আছে — এটি 'বিধানসভাযুক্ত কেন্দ্রশাসিত অঞ্চল' (The Union Territory with legislature)।\n\n**জম্মু ও কাশ্মীর:** ২০১৯ সালের পুনর্গঠনে প্রাক্তন রাজ্যটি ভাগ হয় বিধানসভাযুক্ত জম্মু ও কাশ্মীর এবং বিধানসভাহীন লাদাখে। অর্থাৎ একই আইনে তৈরি দুটি অঞ্চলের একটি পেল বিধানসভা, অন্যটি পেল না — এই বৈসাদৃশ্যটি পরীক্ষায় প্রায়ই আসে।",
+      "deep": "দিল্লির বিধানসভা রাজ্যের বিধানসভার সমান ক্ষমতাশালী নয় — ২৩৯কক ধারা অনুযায়ী রাজ্য তালিকার কয়েকটি নির্দিষ্ট বিষয় (জনশৃঙ্খলা, পুলিশ ও ভূমি সংক্রান্ত ১, ২ ও ১৮ নম্বর এন্ট্রি) দিল্লি বিধানসভার আইন-ক্ষমতার বাইরে। এই সূক্ষ্ম পার্থক্যটি WBCS-স্তরের প্রশ্নে আসতে পারে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "তিনটি বিধানসভা",
+          "body": "দিল্লি — পুদুচেরি — জম্মু ও কাশ্মীর। বাকি পাঁচটি (আন্দামান-নিকোবর, চণ্ডীগড়, দাদরা-দমন-দিউ, লাদাখ, লক্ষদ্বীপ) বিধানসভাহীন।",
+          "claims": [
+            "c07",
+            "c12",
+            "c27"
+          ]
+        }
+      ],
+      "claims": [
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c12",
+        "c25",
+        "c27",
+        "c28",
+        "c32"
+      ]
+    },
+    {
+      "id": "island_uts",
+      "heading": "দ্বীপাঞ্চল: আন্দামান-নিকোবর ও লক্ষদ্বীপ",
+      "quick": "দুটি দ্বীপাঞ্চলীয় অঞ্চল: বঙ্গোপসাগরে আন্দামান ও নিকোবর দ্বীপপুঞ্জ, যার রাজধানীর বর্তমান নাম শ্রী বিজয় পুরম (আগের নাম পোর্ট ব্লেয়ার); আর আরব সাগরে লক্ষদ্বীপ — ভারতের ক্ষুদ্রতম কেন্দ্রশাসিত অঞ্চল, ৩৬টি দ্বীপ, আয়তন মাত্র ৩২ বর্গকিলোমিটার, রাজধানী কাভারাত্তি।",
+      "standard": "**আন্দামান ও নিকোবর দ্বীপপুঞ্জ:** এই দ্বীপাঞ্চলের রাজধানী নিয়ে সাম্প্রতিক একটি বড় বদল ঘটেছে। ২০২৪ সালের ১৩ সেপ্টেম্বর সরকার সিদ্ধান্ত নেয়, আন্দামান ও নিকোবর দ্বীপপুঞ্জের রাজধানী পোর্ট ব্লেয়ারের নাম বদলে হবে 'শ্রী বিজয় পুরম'। কেন্দ্রীয় স্বরাষ্ট্র মন্ত্রীর ব্যাখ্যা অনুযায়ী, পুরনো নামটির সঙ্গে ঔপনিবেশিক উত্তরাধিকার জড়িয়ে ছিল; নতুন নামটি স্বাধীনতা সংগ্রামে অর্জিত বিজয়ের প্রতীক এবং দ্বীপপুঞ্জের অনন্য ভূমিকাকে তুলে ধরে। এই দ্বীপপুঞ্জের স্বাধীনতা-সংগ্রামের স্মৃতি গভীর: এখানেই নেতাজি সুভাষ চন্দ্র বসু প্রথম তিরঙ্গা উত্তোলন করেছিলেন, আর এখানকার সেলুলার জেলে বীর সাভারকরসহ বহু স্বাধীনতা সংগ্রামী বন্দি জীবন কাটিয়েছেন। পরীক্ষায় এখন রাজধানীর উত্তর 'শ্রী বিজয় পুরম' — পুরনো বইয়ে পোর্ট ব্লেয়ার দেখলে সেটি আগের নাম বলে মনে রাখো।\n\n**লক্ষদ্বীপ:** আরব সাগরে কেরলের কোচি উপকূল থেকে ২২০–৪৪০ কিলোমিটার দূরে অবস্থিত এই দ্বীপপুঞ্জ ভারতের ক্ষুদ্রতম কেন্দ্রশাসিত অঞ্চল। মোট ৩৬টি দ্বীপ নিয়ে গঠিত, মোট আয়তন মাত্র ৩২ বর্গকিলোমিটার; দ্বীপগুলির মধ্যে ১০টিতে মানুষ বাস করে। পুরো অঞ্চলটি একটি মাত্র জেলা (uni-district)। লক্ষদ্বীপের রাজধানী কাভারাত্তি — এটি অঞ্চলের প্রধান শহরও। দুটি দ্বীপাঞ্চলের মধ্যে তুলনা মনে রাখো: আন্দামান বঙ্গোপসাগরে, লক্ষদ্বীপ আরব সাগরে; আন্দামানের রাজধানী শ্রী বিজয় পুরম, লক্ষদ্বীপের কাভারাত্তি।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "নাম বদল: পোর্ট ব্লেয়ার",
+          "body": "২০২৪ সালের সেপ্টেম্বরে পোর্ট ব্লেয়ারের নাম হয় শ্রী বিজয় পুরম। সাম্প্রতিক ঘটনাবলির প্রশ্নে এই নামবদল খুবই সম্ভাব্য — বছর (২০২৪) ও পুরনো নাম দুটোই মনে রাখো।",
+          "claims": [
+            "c13"
+          ]
+        }
+      ],
+      "claims": [
+        "c13",
+        "c14",
+        "c20",
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "mainland_uts",
+      "heading": "চণ্ডীগড় ও দাদরা ও নগর হাভেলি এবং দমন ও দিউ",
+      "quick": "চণ্ডীগড় একটি নগর-অঞ্চল: পাঞ্জাব ভাগের সময় দুই রাজ্যই শহরটিকে রাজধানী দাবি করায় ১৯৬৬ সালের ১ নভেম্বর তাকে কেন্দ্রশাসিত অঞ্চল করা হয়। পশ্চিমে, দাদরা ও নগর হাভেলি এবং দমন ও দিউ — দুটি আলাদা অঞ্চল ২০২০ সালের ২৬ জানুয়ারি একীভূত হয়ে একটি অঞ্চলে পরিণত হয়, সদর দপ্তর দমন।",
+      "standard": "**চণ্ডীগড়:** ১৯৫২ থেকে ১৯৬৬ সাল পর্যন্ত চণ্ডীগড় ছিল অবিভক্ত পাঞ্জাবের রাজধানী। ১৯৬৬ সালে পাঞ্জাব ভাগ হয়ে হরিয়ানা গঠিত হলে দুটি রাজ্যই নতুন নগরটিকে নিজের রাজধানী বলে দাবি করে। বিষয়টির নিষ্পত্তি বাকি থাকায় কেন্দ্রীয় সরকার পাঞ্জাব পুনর্গঠন আইন, ১৯৬৬-এর ৪ ধারা অনুযায়ী ১৯৬৬ সালের ১ নভেম্বর থেকে চণ্ডীগড়কে কেন্দ্রশাসিত অঞ্চল করে দেয়, যার প্রশাসন সরাসরি কেন্দ্রীয় সরকারের অধীনে চলে। সেই থেকেই চণ্ডীগড় একই সঙ্গে দুটি রাজ্যের রাজধানী এবং নিজে একটি কেন্দ্রশাসিত অঞ্চল — ভারতে এই ব্যবস্থা অনন্য। প্রশাসকের দায়িত্বে ১৯৮৪ সালের জুন থেকে আছেন পাঞ্জাবের রাজ্যপাল — যা ২৩৯ ধারার 'রাজ্যপালকে পার্শ্ববর্তী অঞ্চলের প্রশাসক' করার বিধানের বাস্তব রূপ।\n\n**দাদরা ও নগর হাভেলি এবং দমন ও দিউ:** আগে এই দুটি ছিল আলাদা আলাদা কেন্দ্রশাসিত অঞ্চল। ২০২০ সালে দুটিকে মিলিয়ে একটি মাত্র অঞ্চল গঠন করা হয় — নতুন অঞ্চলের নাম 'দাদরা ও নগর হাভেলি এবং দমন ও দিউ'। একীভবন কার্যকর হয় ২০২০ সালের ২৬ জানুয়ারি থেকে; ওই দিন থেকেই নতুন অঞ্চলের জন্য নতুন যানবাহন নিবন্ধন চিহ্ন 'DD' চালু হয়। একীভূত অঞ্চলের সদর দপ্তর হিসেবে নির্ধারিত হয় দমন। সরকারের উদ্দেশ্য ছিল 'ন্যূনতম সরকার, সর্বোচ্চ শাসন' — কর-কাঠামো এক করে প্রশাসনিক দ্বৈততা কমানো ও দক্ষতা বাড়ানো। এই একীভবনের ফলেই মোট অঞ্চলের সংখ্যা ৯ থেকে কমে ৮ হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "সদর দমন, সিলভাসা নয়",
+          "body": "একীভূত অঞ্চলের সদর দপ্তর দমন। সিলভাসা ছিল আগের দাদরা ও নগর হাভেলি অঞ্চলের সদর — একীভবনের পরের প্রশ্নে উত্তর দমন।",
+          "claims": [
+            "c16"
+          ]
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c34"
+      ]
+    },
+    {
+      "id": "newest_uts",
+      "heading": "নতুনতম অঞ্চল: জম্মু ও কাশ্মীর ও লাদাখ (২০১৯)",
+      "quick": "২০১৯ সালের ৩১ অক্টোবর জম্মু ও কাশ্মীর পুনর্গঠন আইন অনুযায়ী প্রাক্তন জম্মু ও কাশ্মীর রাজ্য ভেঙে দুটি কেন্দ্রশাসিত অঞ্চল গঠিত হয়: বিধানসভাযুক্ত জম্মু ও কাশ্মীর এবং বিধানসভাহীন লাদাখ। লাদাখের জেলা দুটি — লেহ ও কার্গিল; রাজধানী লেহ। জম্মু ও কাশ্মীরের গ্রীষ্মকালীন রাজধানী শ্রীনগর, শীতকালীন রাজধানী জম্মু।",
+      "standard": "ভারতের মানচিত্রে সাম্প্রতিকতম বড় বদল ঘটে ২০১৯ সালে। সংসদের সুপারিশে রাষ্ট্রপতি ৩৭০ ধারা কার্যত বিলুপ্ত করে জম্মু ও কাশ্মীর পুনর্গঠন আইন, ২০১৯-এ সম্মতি দেন। সেই আইন অনুযায়ী ২০১৯ সালের ৩১ অক্টোবর প্রাক্তন জম্মু ও কাশ্মীর রাজ্য পুনর্গঠিত হয়ে দুটি নতুন কেন্দ্রশাসিত অঞ্চলে পরিণত হয়: জম্মু ও কাশ্মীর এবং লাদাখ। ফলে রাজ্যের সংখ্যা ২৯ থেকে কমে ২৮ হয়, আর অঞ্চলের সংখ্যা বেড়ে হয় ৯ (পরে একীভবনে ৮)।\n\n**লাদাখ:** নতুন অঞ্চলটি গঠিত হয় দুটি জেলা নিয়ে — কার্গিল ও লেহ; প্রাক্তন রাজ্যের বাকি অংশ যায় জম্মু ও কাশ্মীর অঞ্চলে। লেহ ও কার্গিলের আয়তন যথাক্রমে প্রায় ৪৫,১১০ ও ১৪,০৮৬ বর্গকিলোমিটার — মোট প্রায় ৫৯,১৪৬ বর্গকিলোমিটার, আয়তনে অঞ্চলগুলির মধ্যে সবচেয়ে বড় পরিসরের একটি। লাদাখের রাজধানী লেহ। গুরুত্বপূর্ণ পার্থক্য: লাদাখ বিধানসভাহীন অঞ্চল — সরাসরি প্রশাসকের শাসনে চলে।\n\n**জম্মু ও কাশ্মীর:** এই অঞ্চলের অনন্য বৈশিষ্ট্য এর দুটি রাজধানী — গ্রীষ্মকালে শ্রীনগর, শীতকালে জম্মু। বছরে দুইবার সরকারি দপ্তর এক রাজধানী থেকে অন্যটিতে সরে যায়; প্রায় দেড়শো বছরের পুরনো এই প্রথার নাম 'দরবার মুভ' (Darbar Move), যা ১৮৭২ সালে ডোগরা শাসকেরা চালু করেছিলেন কাশ্মীর উপত্যকার কঠোর শীত এড়াতে। জম্মু ও কাশ্মীর বিধানসভাযুক্ত অঞ্চল — অর্থাৎ এখানে নির্বাচিত সরকার থাকতে পারে, যা লাদাখে নেই।",
+      "deep": "লাদাখের জেলা-সংখ্যা নিয়ে সতর্ক থাকো: পুনর্গঠনের সময় (২০১৯) এবং সরকারি নথিতে (টেলিযোগাযোগ নিয়ন্ত্রক সংস্থার ২০২৩ সালের প্রতিবেদনসহ) লাদাখ দুটি জেলার অঞ্চল — লেহ ও কার্গিল। পরীক্ষার প্রশ্ন সাধারণত এই গঠন-কাঠামো থেকেই আসে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "তারিখটি মনে রাখো",
+          "body": "৩১ অক্টোবর ২০১৯ — জম্মু ও কাশ্মীর ও লাদাখ গঠনের দিন। এই তারিখটি জাতীয় ঐক্য দিবসের (সরদার প্যাটেলের জন্মদিন) দিনেই পড়ে।",
+          "claims": [
+            "c10"
+          ]
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12",
+        "c23",
+        "c24",
+        "c29",
+        "c30"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "পুদুচেরির প্রকৃত হস্তান্তর",
+      "when": "১৯৫৪",
+      "what": "১৯৫৪ সালের ১ নভেম্বর ভারতে ফরাসি অধিকৃত অঞ্চলগুলি প্রকৃতপক্ষে (de facto) ভারতীয় ইউনিয়নের হাতে হস্তান্তরিত হয় এবং কেন্দ্রশাসিত অঞ্চলে পরিণত হয়।",
+      "why_it_matters": "পুদুচেরির ভারতভুক্তির সূচনা; আনুষ্ঠানিক স্বীকৃতি আসে ১৯৬৩ সালে।",
+      "section": "legislature_uts",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "title": "দিল্লি কেন্দ্রশাসিত অঞ্চল হয়",
+      "when": "১৯৫৬",
+      "what": "দিল্লিকে কেন্দ্রশাসিত অঞ্চল করা হয়।",
+      "why_it_matters": "আজকের জাতীয় রাজধানী অঞ্চলের প্রশাসনিক যাত্রার শুরু।",
+      "section": "legislature_uts",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "title": "চণ্ডীগড় কেন্দ্রশাসিত অঞ্চল হয়",
+      "when": "১৯৬৬",
+      "what": "পাঞ্জাব পুনর্গঠন আইন, ১৯৬৬-এর ৪ ধারা অনুযায়ী ১ নভেম্বর ১৯৬৬ থেকে চণ্ডীগড় কেন্দ্রশাসিত অঞ্চল হয়, প্রশাসন সরাসরি কেন্দ্রের অধীনে।",
+      "why_it_matters": "দুটি রাজ্যের যৌথ রাজধানী হয়েও নিজে অঞ্চল — ভারতের অনন্য ব্যবস্থা।",
+      "section": "mainland_uts",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "title": "দিল্লি জাতীয় রাজধানী অঞ্চল হয়",
+      "when": "১৯৯১",
+      "what": "৬৯তম সংবিধান সংশোধনীর মাধ্যমে দিল্লি 'জাতীয় রাজধানী অঞ্চল' নাম পায় এবং বিধানসভা গঠনের ব্যবস্থা হয় (২৩৯কক ধারা)।",
+      "why_it_matters": "দিল্লি প্রশাসক থেকে লেফটেন্যান্ট গভর্নর পদবি ও নির্বাচিত বিধানসভা পায়।",
+      "section": "legislature_uts",
+      "claims": [
+        "c06",
+        "c28"
+      ]
+    },
+    {
+      "title": "জম্মু ও কাশ্মীর ও লাদাখ গঠন",
+      "when": "২০১৯",
+      "what": "৩১ অক্টোবর ২০১৯ প্রাক্তন জম্মু ও কাশ্মীর রাজ্য পুনর্গঠিত হয়ে দুটি কেন্দ্রশাসিত অঞ্চল গঠিত হয় — জম্মু ও কাশ্মীর (বিধানসভাসহ) ও লাদাখ (বিধানসভা ছাড়া)।",
+      "why_it_matters": "রাজ্যের সংখ্যা ২৮ ও অঞ্চলের সংখ্যা সাময়িকভাবে ৯ হয়; মানচিত্রের সর্বশেষ বড় বদলগুলির একটি।",
+      "section": "newest_uts",
+      "claims": [
+        "c10",
+        "c12"
+      ]
+    },
+    {
+      "title": "দাদরা-দমন একীভবন",
+      "when": "২০২০",
+      "what": "২৬ জানুয়ারি ২০২০ থেকে দাদরা ও নগর হাভেলি এবং দমন ও দিউ একীভূত হয়ে একটি কেন্দ্রশাসিত অঞ্চল গঠিত হয়, সদর দপ্তর দমন।",
+      "why_it_matters": "অঞ্চলের সংখ্যা ৯ থেকে কমে বর্তমান ৮ হয়।",
+      "section": "mainland_uts",
+      "claims": [
+        "c15",
+        "c16"
+      ]
+    },
+    {
+      "title": "পোর্ট ব্লেয়ারের নাম শ্রী বিজয় পুরম",
+      "when": "২০২৪",
+      "what": "১৩ সেপ্টেম্বর ২০২৪ সরকার আন্দামান ও নিকোবর দ্বীপপুঞ্জের রাজধানী পোর্ট ব্লেয়ারের নাম বদলে 'শ্রী বিজয় পুরম' রাখার সিদ্ধান্ত ঘোষণা করে।",
+      "why_it_matters": "সাম্প্রতিক ঘটনাবলি ও রাজধানী-প্রশ্নে সরাসরি আসে।",
+      "section": "island_uts",
+      "claims": [
+        "c13"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1954,
+      "when": "১৯৫৪",
+      "label": "ফরাসি অঞ্চলগুলির প্রকৃত হস্তান্তর; পুদুচেরি কেন্দ্রশাসিত অঞ্চল হয়",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "sort_year": 1956,
+      "when": "১৯৫৬",
+      "label": "দিল্লি কেন্দ্রশাসিত অঞ্চল হয়",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "sort_year": 1963,
+      "when": "১৯৬৩",
+      "label": "পুদুচেরি আনুষ্ঠানিকভাবে ভারতের অবিচ্ছেদ্য অংশ হয়",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "sort_year": 1966,
+      "when": "১৯৬৬",
+      "label": "১ নভেম্বর: চণ্ডীগড় কেন্দ্রশাসিত অঞ্চল হয়",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "sort_year": 1991,
+      "when": "১৯৯১",
+      "label": "৬৯তম সংশোধনী: দিল্লি জাতীয় রাজধানী অঞ্চল ও বিধানসভা (২৩৯কক)",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 2019,
+      "when": "২০১৯",
+      "label": "৩১ অক্টোবর: জম্মু ও কাশ্মীর ও লাদাখ কেন্দ্রশাসিত অঞ্চল গঠিত হয়",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "sort_year": 2020,
+      "when": "২০২০",
+      "label": "২৬ জানুয়ারি: দাদরা ও নগর হাভেলি এবং দমন ও দিউ একীভূত হয়",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "sort_year": 2024,
+      "when": "২০২৪",
+      "label": "পোর্ট ব্লেয়ারের নাম হয় শ্রী বিজয় পুরম",
+      "claims": [
+        "c13"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "কেন্দ্রশাসিত অঞ্চল (Union Territory)",
+      "meaning": "রাষ্ট্রপতি তাঁর নিযুক্ত প্রশাসকের মাধ্যমে শাসন করেন এমন ভূখণ্ড-একক; বর্তমানে সংখ্যা ৮টি।",
+      "section": "ut_basics"
+    },
+    {
+      "term": "প্রশাসক (Administrator)",
+      "meaning": "২৩৯ ধারা অনুযায়ী রাষ্ট্রপতি-নিযুক্ত কর্মকর্তা, যাঁর মাধ্যমে রাষ্ট্রপতি অঞ্চলটি শাসন করেন; পদবি রাষ্ট্রপতিই নির্দিষ্ট করেন।",
+      "section": "administration"
+    },
+    {
+      "term": "লেফটেন্যান্ট গভর্নর (Lieutenant Governor)",
+      "meaning": "কোনো কোনো অঞ্চলে প্রশাসকের পদবি; ২৩৯কক ধারা অনুযায়ী দিল্লির প্রশাসকের নির্দিষ্ট পদবি।",
+      "section": "administration"
+    },
+    {
+      "term": "জাতীয় রাজধানী অঞ্চল (National Capital Territory)",
+      "meaning": "৬৯তম সংশোধনীর পর থেকে দিল্লি কেন্দ্রশাসিত অঞ্চলের সাংবিধানিক নাম।",
+      "section": "legislature_uts"
+    },
+    {
+      "term": "দরবার মুভ (Darbar Move)",
+      "meaning": "জম্মু ও কাশ্মীরে বছরে দুইবার সরকারি দপ্তর গ্রীষ্মকালীন রাজধানী শ্রীনগর ও শীতকালীন রাজধানী জম্মুর মধ্যে স্থানান্তরের প্রথা; ডোগরা শাসকদের চালু করা (১৮৭২)।",
+      "section": "newest_uts"
+    },
+    {
+      "term": "অষ্টম অংশ (Part VIII)",
+      "meaning": "সংবিধানের যে অংশের শিরোনাম 'The Union Territories' এবং যেখানে ২৩৯–২৪১ ধারায় অঞ্চলগুলির শাসনবিধি আছে।",
+      "section": "ut_basics"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "পাঞ্জাব বিভাজন থেকে চণ্ডীগড় অঞ্চল",
+      "causes": [
+        "১৯৬৬ সালে পাঞ্জাব ভাগ হয়ে হরিয়ানা গঠিত হয়",
+        "পাঞ্জাব ও হরিয়ানা — দুটি রাজ্যই চণ্ডীগড়কে নিজের রাজধানী বলে দাবি করে"
+      ],
+      "event": "নিষ্পত্তি বাকি থাকায় কেন্দ্র চণ্ডীগড়কে কেন্দ্রশাসিত অঞ্চল করে দেয় (১ নভেম্বর ১৯৬৬)",
+      "results": [
+        "চণ্ডীগড় দুটি রাজ্যের যৌথ রাজধানী হয়েও কেন্দ্রের সরাসরি শাসনে থাকে",
+        "পাঞ্জাবের রাজ্যপাল হন চণ্ডীগড়ের প্রশাসক (১৯৮৪ সালের জুন থেকে)"
+      ],
+      "section": "mainland_uts",
+      "claims": [
+        "c17",
+        "c19",
+        "c18"
+      ]
+    },
+    {
+      "title": "পুনর্গঠন আইন থেকে দুটি নতুন অঞ্চল",
+      "causes": [
+        "সংসদের সুপারিশে রাষ্ট্রপতি ৩৭০ ধারা কার্যত বিলুপ্ত করেন",
+        "জম্মু ও কাশ্মীর পুনর্গঠন আইন, ২০১৯-এ রাষ্ট্রপতির সম্মতি"
+      ],
+      "event": "৩১ অক্টোবর ২০১৯ প্রাক্তন রাজ্য ভেঙে জম্মু ও কাশ্মীর ও লাদাখ — দুটি কেন্দ্রশাসিত অঞ্চল গঠিত হয়",
+      "results": [
+        "রাজ্যের সংখ্যা ২৯ থেকে ২৮ হয়",
+        "জম্মু ও কাশ্মীর পায় বিধানসভা, লাদাখ পায় না"
+      ],
+      "section": "newest_uts",
+      "claims": [
+        "c10",
+        "c12"
+      ]
+    },
+    {
+      "title": "প্রশাসনিক সরলীকরণ থেকে একীভবন",
+      "causes": [
+        "দুটি ছোট পাশাপাশি অঞ্চলে আলাদা প্রশাসনিক কাঠামোর দ্বৈততা",
+        "কর ও আইনে একরূপতা আনার প্রয়োজন"
+      ],
+      "event": "দাদরা ও নগর হাভেলি এবং দমন ও দিউ একীভূত হয়ে একটি অঞ্চল হয় (২৬ জানুয়ারি ২০২০)",
+      "results": [
+        "অঞ্চলের সংখ্যা ৯ থেকে ৮ হয়",
+        "সদর দপ্তর হয় দমন; নতুন নিবন্ধন চিহ্ন 'DD' চালু হয়"
+      ],
+      "section": "mainland_uts",
+      "claims": [
+        "c15",
+        "c16",
+        "c34"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "আটটি অঞ্চলের নাম ও রাজধানীর সম্পূর্ণ তালিকা — শ্রী বিজয় পুরম (আন্দামান), চণ্ডীগড়, দমন, নয়াদিল্লি/দিল্লি, শ্রীনগর-জম্মু, লেহ, কাভারাত্তি, পুদুচেরি।",
+      "section": "ut_basics"
+    },
+    {
+      "point": "২৩৯ ধারা: রাষ্ট্রপতি প্রশাসকের মাধ্যমে শাসন করেন; রাজ্যপালকে পাশের অঞ্চলের প্রশাসক করার বিধান ও চণ্ডীগড়ের উদাহরণ।",
+      "section": "administration"
+    },
+    {
+      "point": "বিধানসভাযুক্ত তিনটি অঞ্চল: দিল্লি, পুদুচেরি, জম্মু ও কাশ্মীর — বাকি পাঁচটি নয়।",
+      "section": "legislature_uts"
+    },
+    {
+      "point": "দিল্লি: ২৩৯কক, ৬৯তম সংশোধনী (১৯৯১), লেফটেন্যান্ট গভর্নর, মন্ত্রিপরিষদের ১০% সীমা।",
+      "section": "legislature_uts"
+    },
+    {
+      "point": "পোর্ট ব্লেয়ার → শ্রী বিজয় পুরম (২০২৪): সাম্প্রতিক ঘটনাবলির সবচেয়ে সম্ভাব্য প্রশ্ন।",
+      "section": "island_uts"
+    },
+    {
+      "point": "ক্ষুদ্রতম অঞ্চল লক্ষদ্বীপ: ৩৬ দ্বীপ, ৩২ বর্গকিমি, রাজধানী কাভারাত্তি।",
+      "section": "island_uts"
+    },
+    {
+      "point": "৩১ অক্টোবর ২০১৯ (জম্মু ও কাশ্মীর + লাদাখ) ও ২৬ জানুয়ারি ২০২০ (একীভবন) — দুটি তারিখ ও সংখ্যার হিসাব ৭→৯→৮।",
+      "section": "newest_uts"
+    }
+  ],
+  "bengal_connection": {
+    "body": "আটটি কেন্দ্রশাসিত অঞ্চলের কোনোটিই পশ্চিমবঙ্গের ভিতরে নয় — বাংলার ছাত্রের জন্য এই অধ্যায়ের যোগ পরীক্ষার মাধ্যমে। WBPSC Clerkship-এর প্রশ্নে সরাসরি এসেছে 'কোনটি কেন্দ্রশাসিত অঞ্চল নয়?' ধরনের প্রশ্ন, যেখানে ত্রিপুরার মতো বাংলার প্রতিবেশী রাজ্যকে অঞ্চল বলে ভুল করার ফাঁদ থাকে। আবার ইতিহাসের দিক থেকে দিল্লির গল্পে বাংলার ছাপ আছে: ১৯১১ সালে দেশের রাজধানী কলকাতা থেকে সরে দিল্লিতে যায় — সেই বদলই আজকের জাতীয় রাজধানী অঞ্চলের পেছনের প্রেক্ষাপট। তাই অঞ্চলের তালিকা মুখস্থের পাশাপাশি 'রাজ্য বনাম অঞ্চল' পার্থক্যটি বাংলার প্রতিবেশী রাজ্যগুলির (ত্রিপুরা, অসম, সিকিম) সঙ্গে মিলিয়ে অনুশীলন করো।",
+    "claims": [
+      "c01",
+      "c32"
+    ]
+  },
+  "quick_revision": [
+    "ভারতে ২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল।",
+    "আটটি অঞ্চল: আন্দামান-নিকোবর, চণ্ডীগড়, দাদরা ও নগর হাভেলি এবং দমন ও দিউ, দিল্লি, জম্মু ও কাশ্মীর, লাদাখ, লক্ষদ্বীপ, পুদুচেরি।",
+    "২৩৯ ধারা: রাষ্ট্রপতি প্রশাসকের মাধ্যমে অঞ্চল শাসন করেন।",
+    "বিধানসভা আছে মাত্র তিনটিতে: দিল্লি, পুদুচেরি, জম্মু ও কাশ্মীর।",
+    "দিল্লি = জাতীয় রাজধানী অঞ্চল (২৩৯কক, ৬৯তম সংশোধনী ১৯৯১); প্রশাসক = লেফটেন্যান্ট গভর্নর।",
+    "আন্দামানের রাজধানী: শ্রী বিজয় পুরম (আগের নাম পোর্ট ব্লেয়ার, বদল ২০২৪)।",
+    "লক্ষদ্বীপ: ক্ষুদ্রতম অঞ্চল, ৩৬ দ্বীপ, ৩২ বর্গকিমি, রাজধানী কাভারাত্তি।",
+    "চণ্ডীগড়: ১ নভেম্বর ১৯৬৬ থেকে অঞ্চল; পাঞ্জাবের রাজ্যপাল এর প্রশাসক।",
+    "দাদরা-দমন একীভবন: ২৬ জানুয়ারি ২০২০; সদর দপ্তর দমন।",
+    "৩১ অক্টোবর ২০১৯: জম্মু ও কাশ্মীর (বিধানসভাসহ) ও লাদাখ (ছাড়া) গঠিত হয়।",
+    "লাদাখ: জেলা লেহ ও কার্গিল, রাজধানী লেহ, আয়তন প্রায় ৫৯,১৪৬ বর্গকিমি।",
+    "জম্মু ও কাশ্মীর: গ্রীষ্মে শ্রীনগর, শীতে জম্মু — প্রথার নাম দরবার মুভ (১৮৭২)।",
+    "পুদুচেরি: চারটি প্রাক্তন ফরাসি অঞ্চল — পুদুচেরি, কারাইকাল, মাহে, য়ানাম; রাজধানী পুদুচেরি।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Ek Bharat Shreshtha Bharat — PIB Backgrounder (31.10.2021)",
+      "publisher": "GOVT",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/oct/doc2021103101.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "The Constitution of India, Part VIII — The Union Territories (Arts. 239–242), Ministry of External Affairs PDF",
+      "publisher": "GOVT",
+      "url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Maps of newly formed Union Territories of Jammu Kashmir and Ladakh, with the map of India — PIB, Ministry of Home Affairs (02 Nov 2019)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1590112&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Cabinet approves ex post facto orders under Sections 73 and 74 of the J&K Reorganisation Act, 2019 — PIB (20 Nov 2019)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1592557&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Government decides to rename Port Blair as Sri Vijaya Puram — PIB, Ministry of Home Affairs (13 Sep 2024)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2054647&ref=delhibriefing.in&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "New MV Registration Mark 'DD' Assigned to New Union Territory 'Dadra & Nagar Haveli and Daman and Diu' — PIB (Jan 2020)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1600363&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "Cabinet approves amendments in Acts in view of merger of Dadra & Nagar Haveli and Daman & Diu; designation of Daman as Headquarter — PIB (22 Jan 2020)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1600087",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "Administrator — Official Website of the Chandigarh Administration",
+      "publisher": "GOVT",
+      "url": "https://chandigarh.gov.in/administrator",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "Brief Industrial Profile of Lakshadweep — MSME Development Institute, Thrissur (Ministry of MSME, Govt. of India)",
+      "publisher": "GOVT",
+      "url": "https://dcmsme.gov.in/old/dips/state_wise_dips/lakshadweep_28316.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "Recommendations on Improving Telecom Coverage and Backhaul Infrastructure in far-flung areas of Ladakh — TRAI (24 Apr 2023)",
+      "publisher": "GOVT",
+      "url": "https://trai.gov.in/sites/default/files/2024-09/Recommendation_24042023.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "About Puducherry — Official Website of Government of Puducherry",
+      "publisher": "GOVT",
+      "url": "https://py.gov.in/about-puducherry",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s12",
+      "title": "About Us — Government of National Capital Territory of Delhi",
+      "publisher": "GOVT",
+      "url": "https://delhi.gov.in/page/about-us",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s13",
+      "title": "J&K: Winter capital admin resumes functioning from Jammu as Civil Secretariat reopens — Akashvani News (02 Nov 2026)",
+      "publisher": "GOVT",
+      "url": "https://newsonair.gov.in/jk-winter-capital-admin-resumes-functioning-from-jammu-as-civil-secretariat-reopens/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s14",
+      "title": "Union Territories Division — Ministry of Home Affairs",
+      "publisher": "GOVT",
+      "url": "https://www.mha.gov.in/en/divisionofmha/union-territories-division",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "India has 28 states and 8 Union Territories.",
+      "source": "s1",
+      "page": "Activities section",
+      "quote": "As a nation with 28 states and 8 union territories, India is a rich country when it comes to food culture."
+    },
+    {
+      "id": "c02",
+      "claim": "Under Article 239, every Union territory is administered by the President through an administrator appointed by him, with such designation as he may specify, save as otherwise provided by Parliament by law.",
+      "source": "s2",
+      "page": "p. 121 (Art. 239)",
+      "quote": "239. (1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President acting, to such extent as he thinks fit, through an administrator to be appointed by him with such designation as he may specify."
+    },
+    {
+      "id": "c03",
+      "claim": "Under Article 239(2), the President may appoint the Governor of a State as the administrator of an adjoining Union territory, acting independently of his Council of Ministers.",
+      "source": "s2",
+      "page": "p. 121 (Art. 239(2))",
+      "quote": "(2) Notwithstanding anything contained in Part VI, the President may appoint the Governor of a State as the administrator of an adjoining Union territory, and where a Governor is so appointed, he shall exercise his functions as such administrator independently of his Council of Ministers."
+    },
+    {
+      "id": "c04",
+      "claim": "Article 240 empowers the President to make regulations for the peace, progress and good government of the Andaman and Nicobar Islands, Lakshadweep, Dadra and Nagar Haveli, Daman and Diu and Puducherry.",
+      "source": "s2",
+      "page": "pp. 126–127 (Art. 240)",
+      "quote": "240. (1) The President may make regulations for the peace, progress and good government of the Union territory of— (a) the Andaman and Nicobar Islands; (b) Lakshadweep; (c) Dadra and Nagar Haveli; (d) Daman and Diu; (e) Puducherry;"
+    },
+    {
+      "id": "c05",
+      "claim": "Article 239A empowers Parliament to create by law a Legislature and/or a Council of Ministers for the Union territory of Puducherry.",
+      "source": "s2",
+      "page": "p. 121 (Art. 239A)",
+      "quote": "239A. (1) Parliament may by law create for the Union territory of Puducherry— (a) a body, whether elected or partly nominated and partly elected, to function as a Legislature for the Union territory, or (b) a Council of Ministers, or both with such constitution, powers and functions, in each case, as may be specified in the law."
+    },
+    {
+      "id": "c06",
+      "claim": "Under Article 239AA, inserted by the Constitution (Sixty-ninth Amendment) Act, 1991, the Union territory of Delhi is called the National Capital Territory and its administrator is designated as the Lieutenant Governor.",
+      "source": "s2",
+      "page": "pp. 121–122 (Art. 239AA(1))",
+      "quote": "239AA. (1) As from the date of commencement of the Constitution (Sixty-ninth Amendment) Act, 1991, the Union territory of Delhi shall be called the National Capital Territory of Delhi (hereafter in this Part referred to as the National Capital Territory) and the administrator thereof appointed under article 239 shall be designated as the Lieutenant Governor."
+    },
+    {
+      "id": "c07",
+      "claim": "The Legislative Assembly of the National Capital Territory is filled by members chosen by direct election from territorial constituencies.",
+      "source": "s2",
+      "page": "p. 122 (Art. 239AA(2)(a))",
+      "quote": "(2) (a) There shall be a Legislative Assembly for the National Capital Territory and the seats in such Assembly shall be filled by members chosen by direct election from territorial constituencies in the National Capital Territory."
+    },
+    {
+      "id": "c08",
+      "claim": "Delhi's Council of Ministers consists of not more than ten per cent of the total number of members of the Legislative Assembly, with the Chief Minister at the head, to aid and advise the Lieutenant Governor.",
+      "source": "s2",
+      "page": "pp. 123–124 (Art. 239AA(4))",
+      "quote": "(4) There shall be a Council of Ministers consisting of not more than ten per cent. of the total number of members in the Legislative Assembly, with the Chief Minister at the head to aid and advise the Lieutenant Governor in the exercise of his functions in relation to matters with respect to which the Legislative Assembly has power to make laws"
+    },
+    {
+      "id": "c09",
+      "claim": "Under Article 241, Parliament may by law constitute a High Court for a Union territory or declare any court in such territory to be a High Court.",
+      "source": "s2",
+      "page": "p. 127 (Art. 241(1))",
+      "quote": "241. (1) Parliament may by law constitute a High Court for a Union territory or declare any court in any such territory to be a High Court for all or any of the purposes of this Constitution."
+    },
+    {
+      "id": "c10",
+      "claim": "On 31 October 2019 the former state of Jammu and Kashmir was reorganised into the new Union Territory of Jammu and Kashmir and the new Union Territory of Ladakh, after the President gave assent to the Jammu and Kashmir Reorganization Act, 2019 and Article 370 was effectively dismantled.",
+      "source": "s3",
+      "page": "PIB release, 02 Nov 2019",
+      "quote": "On the recommendation of Parliament, the President effectively dismantled Article 370 of the Indian Constitution and gave assent to the Jammu and Kashmir Reorganization Act, 2019. Under the leadership of Prime Minister Shri Narendra Modi and supervision of Union Home Minister Shri Amit Shah, the former state of Jammu & Kashmir has been reorganized as the new Union Territory of Jammu and Kashmir and the new Union Territory of Ladakh on 31st October 2019."
+    },
+    {
+      "id": "c11",
+      "claim": "The Union Territory of Ladakh consists of the two districts of Kargil and Leh; the rest of the former State of Jammu and Kashmir is in the Union Territory of Jammu and Kashmir.",
+      "source": "s3",
+      "page": "PIB release, 02 Nov 2019",
+      "quote": "The new Union Territory of Ladakh consists of two districts of Kargil and Leh. The rest of the former State of Jammu and Kashmir is in the new Union Territory of Jammu and Kashmir."
+    },
+    {
+      "id": "c12",
+      "claim": "The erstwhile State of Jammu and Kashmir was reorganized into the Union territory of Jammu and Kashmir with Legislature and the Union territory of Ladakh without Legislature.",
+      "source": "s4",
+      "page": "PIB release, 20 Nov 2019",
+      "quote": "After coming into force of the Jammu and Kashmir Reorganisation Act, 2019 with effect from 31st October, 2019, the erstwhile State of Jammu and Kashmir was reorganized into the Union territory of Jammu and Kashmir with Legislature and Union territory of Ladakh without Legislature."
+    },
+    {
+      "id": "c13",
+      "claim": "The Government decided to rename Port Blair, the capital of Andaman and Nicobar Islands, as Sri Vijaya Puram (announced 13 September 2024).",
+      "source": "s5",
+      "page": "PIB release, 13 Sep 2024",
+      "quote": "The Government has decided to rename the capital of Andaman & Nicobar Islands Port Blair as \"Sri Vijaya Puram\"."
+    },
+    {
+      "id": "c14",
+      "claim": "The Andaman and Nicobar Islands hosted the first unfurling of the Tiranga by Netaji Subhas Chandra Bose, and the Cellular Jail where Veer Savarkar and other freedom fighters struggled.",
+      "source": "s5",
+      "page": "PIB release, 13 Sep 2024",
+      "quote": "Shri Amit Shah said that it is also the place that hosted the first unfurling of our Tiranga by Netaji Subhash Chandra Bose Ji and also the cellular jail in which Veer Savarkar Ji and other freedom fighters struggled for an independent nation."
+    },
+    {
+      "id": "c15",
+      "claim": "A new Union Territory was formed after the merger of Dadra & Nagar Haveli and Daman & Diu, implemented from 26 January 2020.",
+      "source": "s6",
+      "page": "PIB release, Jan 2020",
+      "quote": "A new Union Territory has been formed after merger of Dadra & Nagar Haveli and Daman & Diu. The Ministry has issued a Notification No. S.O. 295(E) dated 22nd January, 2020 to this effect, under the Motor Vehicle Act 1988. This will be implemented from 26th January, 2020."
+    },
+    {
+      "id": "c16",
+      "claim": "Daman was designated as the Headquarters of the Union Territory of Dadra and Nagar Haveli and Daman and Diu, in view of the merger on the appointed date of 26.01.2020.",
+      "source": "s7",
+      "page": "PIB release, 22 Jan 2020",
+      "quote": "Designation of Daman as Headquarter of Union Territory of Dadra and Nagar Haveli and Daman and Diu. ... designation of Daman as Headquarters of UT of Dadra and Nagar Haveli and Daman and Diu in view of merger of Dadra and Nagar Haveli and Daman and Diu on appointed date of 26.01.2020."
+    },
+    {
+      "id": "c17",
+      "claim": "Chandigarh was made a Union Territory under Section 4 of the Punjab Re-Organisation Act, 1966, with effect from November 1, 1966, with its administration functioning directly under the Central Government.",
+      "source": "s8",
+      "page": "Administrator page",
+      "quote": "Pending resolution of the issue, the Central Government made Chandigarh a Union Territory (under Section 4 of the Punjab Re-Organisation Act, 1966, with effect from November 1, 1966) with its administration functioning directly under the Central Government."
+    },
+    {
+      "id": "c18",
+      "claim": "Since June 1984, the Governor of Punjab has been functioning as the Administrator of the Union Territory of Chandigarh.",
+      "source": "s8",
+      "page": "Administrator page",
+      "quote": "There after, on June 1, 1984, the Governor of Punjab took over the direct administration of the Union Territory as the Administrator. ... Ever since June 1984, the Governor of Punjab has been functioning as the Administrator of Union Territory of Chandigarh."
+    },
+    {
+      "id": "c19",
+      "claim": "From 1952 to 1966 Chandigarh was the capital of Punjab; when Punjab was divided, both Punjab and Haryana claimed the city as capital.",
+      "source": "s8",
+      "page": "Administrator page",
+      "quote": "From 1952 to 1966 (the year Haryana was carved out of Punjab) Chandigarh was the capital of Punjab. ... When Punjab was divided, both Punjab and Haryana claimed the new city for its capital."
+    },
+    {
+      "id": "c20",
+      "claim": "Lakshadweep is India's smallest Union Territory, an archipelago of 36 islands with an area of 32 sq km, comprising 12 atolls, three reefs, five submerged banks and ten inhabited islands.",
+      "source": "s9",
+      "page": "p. 3 (Section 1)",
+      "quote": "India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands."
+    },
+    {
+      "id": "c21",
+      "claim": "The capital of Lakshadweep is Kavaratti, which is also the principal town of the UT.",
+      "source": "s9",
+      "page": "p. 3 (Section 1)",
+      "quote": "The islands comprise of 32 sq km. The capital is Kavaratti and it is also the principal town of the UT."
+    },
+    {
+      "id": "c22",
+      "claim": "Lakshadweep is a uni-district Union Territory (the entire UT is considered as one district), located 220 to 440 km from Kochi in the Arabian Sea.",
+      "source": "s9",
+      "page": "pp. 3–4 (Sections 1, 1.5)",
+      "quote": "All Islands are 220 to 440 km away from the coastal city of Kochi in Kerala, in the emerald Arabian Sea. ... The entire Union Territory of Lakshadweep is considered as one district."
+    },
+    {
+      "id": "c23",
+      "claim": "The UT of Ladakh consists of two districts, Leh and Kargil, with Leh serving as the capital.",
+      "source": "s10",
+      "page": "p. 2 (para 1.3)",
+      "quote": "The UT of Ladakh consists of two districts, Leh and Kargil, with Leh serving as the capital."
+    },
+    {
+      "id": "c24",
+      "claim": "Leh district spans 45,110 sq km and Kargil 14,086 sq km; the UT of Ladakh's total geographical area is 59,146 sq km.",
+      "source": "s10",
+      "page": "p. 2 (para 1.3 and Table 1.1)",
+      "quote": "Leh spans over an area of 45,110 km2 and Kargil is spread over 14,086 km2."
+    },
+    {
+      "id": "c26",
+      "claim": "On November 1, 1954, the French possessions in India were de facto transferred to the Indian Union and became a Union Territory; only in 1963 did Puducherry become officially an integral part of India.",
+      "source": "s11",
+      "page": "About Puducherry",
+      "quote": "On November 1, 1954, the French possessions in India were de facto transferred to the Indian Union and became a Union Territory. But only in 1963, Puducherry became officially an integral part of India."
+    },
+    {
+      "id": "c27",
+      "claim": "Puducherry is a Union Territory with a legislature, extending over an area of 479 sq km.",
+      "source": "s11",
+      "page": "About Puducherry",
+      "quote": "The Union Territory with legislature extends over an area of 479 Sq. Kms."
+    },
+    {
+      "id": "c28",
+      "claim": "Delhi was made a Union Territory in 1956; the 69th Constitutional amendment gave it a Legislative Assembly with the enactment of the National Capital Territory Act, 1991.",
+      "source": "s12",
+      "page": "History and Geography",
+      "quote": "It was made a Union Territory in 1956. ... The 69th Constitutional amendment is a milestone in Delhi's history, as it got a Legislative Assembly with the enactment of the National Capital Territory Act, 1991."
+    },
+    {
+      "id": "c29",
+      "claim": "In Jammu and Kashmir the administration functions from the winter capital Jammu and the summer capital Srinagar, under the biannual Darbar Move practice.",
+      "source": "s13",
+      "page": "Akashvani News, 02 Nov 2026",
+      "quote": "In Jammu and Kashmir, the administration resumed functioning from the winter capital, Jammu, today, with the Civil Secretariat and other government offices, including the Lok Bhawan, reopening in Jammu as part of the 154-year-old biannual Darbar Move practice. ... two days after closing in the summer capital Srinagar."
+    },
+    {
+      "id": "c30",
+      "claim": "The Darbar Move was introduced by the Dogra rulers in 1872 to escape the harsh winter conditions of the Kashmir Valley by shifting the base to Jammu during the colder months.",
+      "source": "s13",
+      "page": "Akashvani News, 02 Nov 2026",
+      "quote": "Introduced by the Dogra rulers in 1872, the Darbar Move was aimed at allowing the administration to escape the harsh winter conditions of the Kashmir Valley by shifting its base to Jammu during the colder months."
+    },
+    {
+      "id": "c31",
+      "claim": "The Ministry of Home Affairs' responsibilities include the administration of Union Territories.",
+      "source": "s14",
+      "page": "About Ministry / UT Division",
+      "quote": "The Ministry of Home Affairs (MHA) discharges multifarious responsibilities, the important among them being - internal security, border management, Centre-State relations, administration of Union Territories, management of Central Armed Police Forces, disaster management, etc."
+    },
+    {
+      "id": "c32",
+      "claim": "In 1911, the capital was shifted from Kolkata to Delhi, and Delhi became the centre of all activities.",
+      "source": "s12",
+      "page": "History and Geography",
+      "quote": "In 1911, Delhi became the centre of all activities after the capital was shifted from Kolkata."
+    },
+    {
+      "id": "c33",
+      "claim": "Part VIII of the Constitution is titled 'The Union Territories' and contains Articles 239 to 242 on their administration.",
+      "source": "s2",
+      "page": "p. 121 (Part VIII heading)",
+      "quote": "PART VIII — 1 [THE UNION TERRITORIES] — 239. (1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President"
+    },
+    {
+      "id": "c34",
+      "claim": "The merger amendments were aimed at 'Minimum Government, Maximum Governance' — common taxation authorities, better delivery of services by reducing duplication of work and improving administrative efficiency.",
+      "source": "s7",
+      "page": "PIB release, 22 Jan 2020",
+      "quote": "These amendments will lead to \"Minimum Government, Maximum Governance\" by way of having common taxation authorities: better delivery of services to the citizens by reducing duplication of work and improving administrative efficiency"
+    },
+    {
+      "id": "c25",
+      "claim": "The Union Territory of Puducherry comprises the former French establishments of Puducherry, Karaikal, Mahe and Yanam, and Puducherry is the capital of the Territory.",
+      "source": "s11",
+      "page": "About Puducherry",
+      "quote": "The Union Territory of Puducherry comprises the former French establishments of Puducherry, Karaikal, Mahe and Yanam, which lie scattered in South India. Puducherry, the capital of the Territory was once the original headquarters of the French in India"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "ut_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তমানে ভারতে কয়টি রাজ্য ও কয়টি কেন্দ্রশাসিত অঞ্চল আছে?",
+      "a": "২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল",
+      "w": [
+        "২৯টি রাজ্য ও ৭টি কেন্দ্রশাসিত অঞ্চল",
+        "২৮টি রাজ্য ও ৯টি কেন্দ্রশাসিত অঞ্চল",
+        "২৭টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল"
+      ],
+      "e": "সরকারি তথ্য অনুযায়ী ভারতে ২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল। ২০১৯-এ অঞ্চল সাময়িকভাবে ৯ হয়েছিল, ২০২০-র একীভবনে তা ৮ হয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "ut_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কেন্দ্রশাসিত অঞ্চলগুলি মূলত কার দ্বারা শাসিত হয়?",
+      "a": "রাষ্ট্রপতি, তাঁর নিযুক্ত প্রশাসকের মাধ্যমে",
+      "w": [
+        "রাজ্যপাল, তাঁর মন্ত্রিপরিষদের মাধ্যমে",
+        "প্রধানমন্ত্রী, মুখ্যসচিবের মাধ্যমে",
+        "নির্বাচন কমিশন"
+      ],
+      "e": "২৩৯ ধারা অনুযায়ী প্রতিটি কেন্দ্রশাসিত অঞ্চল রাষ্ট্রপতি তাঁর নিযুক্ত প্রশাসকের মাধ্যমে শাসন করেন।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "ut_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সংবিধানের কোন অংশে কেন্দ্রশাসিত অঞ্চলগুলির শাসনবিধি (২৩৯–২৪১ ধারা) আছে?",
+      "a": "অষ্টম অংশ (Part VIII)",
+      "w": [
+        "ষষ্ঠ অংশ (Part VI)",
+        "পঞ্চম অংশ (Part V)",
+        "একাদশ অংশ (Part XI)"
+      ],
+      "e": "সংবিধানের অষ্টম অংশের শিরোনামই 'The Union Territories' — সেখানেই ২৩৯ থেকে ২৪১ ধারা আছে।",
+      "claims": [
+        "c33",
+        "c02"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "ut_basics",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. ভারতে বর্তমানে ৮টি কেন্দ্রশাসিত অঞ্চল আছে।\n২. প্রতিটি কেন্দ্রশাসিত অঞ্চলেই নির্বাচিত বিধানসভা আছে।\n৩. কেন্দ্রশাসিত অঞ্চল শাসন করেন রাষ্ট্রপতি, প্রশাসকের মাধ্যমে।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ৩",
+      "w": [
+        "শুধু ১ ও ২",
+        "শুধু ২ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "বিবৃতি ১ ও ৩ সঠিক। বিবৃতি ২ ভুল — বিধানসভা আছে মাত্র তিনটি অঞ্চলে (দিল্লি, পুদুচেরি, জম্মু ও কাশ্মীর); বাকিগুলি প্রশাসকের শাসনে চলে।",
+      "claims": [
+        "c01",
+        "c02",
+        "c12"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "ut_basics",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কেন্দ্রীয় স্তরে কেন্দ্রশাসিত অঞ্চলগুলির প্রশাসনের দায়িত্ব কোন মন্ত্রকের হাতে?",
+      "a": "স্বরাষ্ট্র মন্ত্রক",
+      "w": [
+        "আইন ও বিচার মন্ত্রক",
+        "অর্থ মন্ত্রক",
+        "প্রতিরক্ষা মন্ত্রক"
+      ],
+      "e": "স্বরাষ্ট্র মন্ত্রকের দায়িত্বের তালিকায় স্পষ্টভাবে 'administration of Union Territories' উল্লেখ আছে।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "ut_basics",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "কেন্দ্রশাসিত অঞ্চল ও রাজধানী/সদরের সঠিক মিল কোনটি?\nক. আন্দামান ও নিকোবর — শ্রী বিজয় পুরম\nখ. লক্ষদ্বীপ — কাভারাত্তি\nগ. দাদরা ও নগর হাভেলি এবং দমন ও দিউ — দমন\nঘ. লাদাখ — লেহ",
+      "a": "ক, খ, গ ও ঘ — সবগুলিই সঠিক",
+      "w": [
+        "শুধু ক ও খ সঠিক",
+        "শুধু খ ও ঘ সঠিক",
+        "শুধু ক, গ ও ঘ সঠিক"
+      ],
+      "e": "চারটি মিলই সঠিক: আন্দামানের রাজধানী শ্রী বিজয় পুরম, লক্ষদ্বীপের কাভারাত্তি, একীভূত দাদরা-দমন অঞ্চলের সদর দমন এবং লাদাখের রাজধানী লেহ।",
+      "claims": [
+        "c13",
+        "c21",
+        "c16",
+        "c23"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "ut_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিম্নলিখিতগুলির মধ্যে কোনটি কেন্দ্রশাসিত অঞ্চল নয়?",
+      "a": "ত্রিপুরা",
+      "w": [
+        "চণ্ডীগড়",
+        "পুদুচেরি",
+        "লক্ষদ্বীপ"
+      ],
+      "e": "চণ্ডীগড়, পুদুচেরি ও লক্ষদ্বীপ কেন্দ্রশাসিত অঞ্চল; ত্রিপুরা ভারতের একটি পূর্ণাঙ্গ রাজ্য। (WBPSC Clerkship ২০১৯-এর একই ধরনের প্রশ্ন।)",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "administration",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কেন্দ্রশাসিত অঞ্চলের প্রশাসককে কে নিয়োগ করেন?",
+      "a": "রাষ্ট্রপতি",
+      "w": [
+        "প্রধানমন্ত্রী",
+        "সংশ্লিষ্ট অঞ্চলের বিধানসভা",
+        "ভারতের মুখ্য বিচারপতি"
+      ],
+      "e": "২৩৯ ধারা অনুযায়ী প্রশাসক রাষ্ট্রপতির নিযুক্ত; তাঁর পদবিও রাষ্ট্রপতিই নির্দিষ্ট করেন।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "administration",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনো রাজ্যের রাজ্যপালকে পার্শ্ববর্তী কেন্দ্রশাসিত অঞ্চলের প্রশাসক নিয়োগের বিধান সংবিধানের কোন ধারায় আছে?",
+      "a": "২৩৯ ধারা",
+      "w": [
+        "২৪০ ধারা",
+        "২৪১ ধারা",
+        "২৩৯ক ধারা"
+      ],
+      "e": "২৩৯(২) ধারা অনুযায়ী রাষ্ট্রপতি রাজ্যের রাজ্যপালকে পাশের অঞ্চলের প্রশাসক করতে পারেন; তখন তিনি মন্ত্রিপরিষদ থেকে স্বাধীনভাবে কাজ করেন।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "administration",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চণ্ডীগড় কেন্দ্রশাসিত অঞ্চলের প্রশাসকের দায়িত্ব কে পালন করেন?",
+      "a": "পাঞ্জাবের রাজ্যপাল",
+      "w": [
+        "হরিয়ানার রাজ্যপাল",
+        "দিল্লির লেফটেন্যান্ট গভর্নর",
+        "চণ্ডীগড়ের মুখ্য বিচারপতি"
+      ],
+      "e": "১৯৮৪ সালের জুন থেকে পাঞ্জাবের রাজ্যপালই চণ্ডীগড়ের প্রশাসক — ২৩৯(২) ধারার বাস্তব প্রয়োগ।",
+      "claims": [
+        "c18",
+        "c03"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "administration",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২৪০ ধারায় রাষ্ট্রপতির বিধি (regulation) প্রণয়নের ক্ষমতার তালিকায় নিম্নলিখিত কোন অঞ্চলটি নেই?",
+      "a": "চণ্ডীগড়",
+      "w": [
+        "আন্দামান ও নিকোবর দ্বীপপুঞ্জ",
+        "লক্ষদ্বীপ",
+        "পুদুচেরি"
+      ],
+      "e": "২৪০ ধারার তালিকায় আছে আন্দামান-নিকোবর, লক্ষদ্বীপ, দাদরা ও নগর হাভেলি, দমন ও দিউ এবং পুদুচেরি — চণ্ডীগড় নেই।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "administration",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): কেন্দ্রশাসিত অঞ্চল সরাসরি রাষ্ট্রপতির শাসনে থাকে।\nকারণ (R): ২৩৯ ধারা অনুযায়ী প্রতিটি কেন্দ্রশাসিত অঞ্চল রাষ্ট্রপতি তাঁর নিযুক্ত প্রশাসকের মাধ্যমে শাসন করেন।",
+      "a": "A ও R উভয়ই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "দুটিই সঠিক এবং কারণটিই বিবৃতির সাংবিধানিক ভিত্তি — প্রশাসক রাষ্ট্রপতির প্রতিনিধি হিসেবেই শাসন করেন।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "administration",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দিল্লির প্রশাসকের সাংবিধানিক পদবি কী?",
+      "a": "লেফটেন্যান্ট গভর্নর",
+      "w": [
+        "রাজ্যপাল",
+        "মুখ্য কমিশনার",
+        "উপরাজ্যপাল-প্রশাসক"
+      ],
+      "e": "২৩৯কক ধারা অনুযায়ী জাতীয় রাজধানী অঞ্চলের প্রশাসককে বলা হবে লেফটেন্যান্ট গভর্নর।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "administration",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সংসদ আইন করে কেন্দ্রশাসিত অঞ্চলের জন্য হাইকোর্ট গঠন করতে পারে — এই ক্ষমতা কোন ধারায় দেওয়া আছে?",
+      "a": "২৪১ ধারা",
+      "w": [
+        "২৩৯ ধারা",
+        "২৪০ ধারা",
+        "২৩৯কক ধারা"
+      ],
+      "e": "২৪১(১) ধারা অনুযায়ী সংসদ আইন করে কোনো অঞ্চলের জন্য হাইকোর্ট গঠন বা কোনো আদালতকে হাইকোর্ট ঘোষণা করতে পারে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "legislature_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিম্নলিখিত কোন তিনটি কেন্দ্রশাসিত অঞ্চলে বিধানসভা আছে?",
+      "a": "দিল্লি, পুদুচেরি ও জম্মু ও কাশ্মীর",
+      "w": [
+        "দিল্লি, চণ্ডীগড় ও লাদাখ",
+        "পুদুচেরি, লক্ষদ্বীপ ও আন্দামান-নিকোবর",
+        "জম্মু ও কাশ্মীর, লাদাখ ও চণ্ডীগড়"
+      ],
+      "e": "বিধানসভা আছে দিল্লি, পুদুচেরি ও জম্মু ও কাশ্মীরে। লাদাখ স্পষ্টভাবে বিধানসভাহীন; চণ্ডীগড়, লক্ষদ্বীপ ও আন্দামানেও বিধানসভা নেই।",
+      "claims": [
+        "c12",
+        "c27",
+        "c07"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "legislature_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দিল্লিকে 'জাতীয় রাজধানী অঞ্চল' নাম দেওয়া হয় কোন সংবিধান সংশোধনীর মাধ্যমে?",
+      "a": "৬৯তম সংশোধনী (১৯৯১)",
+      "w": [
+        "৫২তম সংশোধনী (১৯৮৫)",
+        "৭৩তম সংশোধনী (১৯৯২)",
+        "১০১তম সংশোধনী (২০১৬)"
+      ],
+      "e": "২৩৯কক ধারা এসেছে ৬৯তম সংশোধনী (১৯৯১) থেকে — ওই দিন থেকেই দিল্লির নাম জাতীয় রাজধানী অঞ্চল।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "legislature_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দিল্লি বিধানসভার সদস্যরা কীভাবে নির্বাচিত হন?",
+      "a": "আঞ্চলিক কেন্দ্রগুলি থেকে সরাসরি নির্বাচনে",
+      "w": [
+        "রাষ্ট্রপতির মনোনয়নে",
+        "পৌরসভার সদস্যদের ভোটে",
+        "লোকসভা সদস্যদের মনোনয়নে"
+      ],
+      "e": "২৩৯কক(২)(ক) ধারা অনুযায়ী বিধানসভার আসন পূরণ হয় আঞ্চলিক কেন্দ্র থেকে সরাসরি নির্বাচিত সদস্যদের দ্বারা।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "legislature_uts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দিল্লির মন্ত্রিপরিষদে সদস্য সংখ্যা বিধানসভার মোট সদস্য সংখ্যার সর্বোচ্চ কত শতাংশ হতে পারে?",
+      "a": "১০ শতাংশ",
+      "w": [
+        "১৫ শতাংশ",
+        "২০ শতাংশ",
+        "২৫ শতাংশ"
+      ],
+      "e": "২৩৯কক(৪) ধারা: মন্ত্রিপরিষদে সদস্য হবেন বিধানসভার মোট সদস্যের দশ শতাংশের বেশি নয়, প্রধান হবেন মুখ্যমন্ত্রী।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "legislature_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পুদুচেরির জন্য বিধানসভা ও মন্ত্রিপরিষদ গঠনের ক্ষমতা সংসদকে দেয় কোন ধারা?",
+      "a": "২৩৯ক ধারা",
+      "w": [
+        "২৩৯ ধারা",
+        "২৪০ ধারা",
+        "২৪১ ধারা"
+      ],
+      "e": "২৩৯ক(১) ধারা অনুযায়ী সংসদ আইন করে পুদুচেরির জন্য বিধানসভা, মন্ত্রিপরিষদ বা উভয়ই গঠন করতে পারে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "legislature_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দিল্লি কোন সালে কেন্দ্রশাসিত অঞ্চল হয়?",
+      "a": "১৯৫৬ সালে",
+      "w": [
+        "১৯৪৭ সালে",
+        "১৯৬৬ সালে",
+        "১৯৯১ সালে"
+      ],
+      "e": "দিল্লি কেন্দ্রশাসিত অঞ্চল হয় ১৯৫৬ সালে; বিধানসভা ও জাতীয় রাজধানী অঞ্চলের মর্যাদা আসে অনেক পরে, ১৯৯১ সালে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "legislature_uts",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "দিল্লি সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. দিল্লি ১৯৫৬ সালে কেন্দ্রশাসিত অঞ্চল হয়।\n২. ৬৯তম সংশোধনীর পর দিল্লির নাম হয় জাতীয় রাজধানী অঞ্চল।\n৩. দিল্লির প্রশাসককে রাজ্যপাল বলা হয়।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ২ ও ৩",
+        "শুধু ১ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "১ ও ২ সঠিক। ৩ ভুল — দিল্লির প্রশাসকের পদবি লেফটেন্যান্ট গভর্নর, রাজ্যপাল নয়।",
+      "claims": [
+        "c28",
+        "c06"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "legislature_uts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জম্মু ও কাশ্মীর বিধানসভাসহ এবং লাদাখ বিধানসভা ছাড়া কেন্দ্রশাসিত অঞ্চল হয় কোন আইনের মাধ্যমে?",
+      "a": "জম্মু ও কাশ্মীর পুনর্গঠন আইন, ২০১৯",
+      "w": [
+        "জম্মু ও কাশ্মীর পুনর্গঠন আইন, ২০২০",
+        "রাজ্য পুনর্গঠন আইন, ১৯৫৬",
+        "জাতীয় রাজধানী অঞ্চল আইন, ১৯৯১"
+      ],
+      "e": "২০১৯ সালের পুনর্গঠন আইনেই প্রাক্তন রাজ্য ভাগ হয় বিধানসভাযুক্ত জম্মু ও কাশ্মীর এবং বিধানসভাহীন লাদাখে।",
+      "claims": [
+        "c12",
+        "c10"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "island_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আন্দামান ও নিকোবর দ্বীপপুঞ্জের রাজধানীর বর্তমান নাম কী?",
+      "a": "শ্রী বিজয় পুরম",
+      "w": [
+        "পোর্ট ব্লেয়ার",
+        "কাভারাত্তি",
+        "সিলভাসা"
+      ],
+      "e": "২০২৪ সালের সেপ্টেম্বরে পোর্ট ব্লেয়ারের নাম বদলে হয় শ্রী বিজয় পুরম। কাভারাত্তি লক্ষদ্বীপের রাজধানী।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "island_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "লক্ষদ্বীপের রাজধানী কোনটি?",
+      "a": "কাভারাত্তি",
+      "w": [
+        "মিনিকয়",
+        "আগাত্তি",
+        "পোর্ট ব্লেয়ার"
+      ],
+      "e": "কাভারাত্তি লক্ষদ্বীপের রাজধানী এবং প্রধান শহর। মিনিকয় ও আগাত্তি এই অঞ্চলের অন্যান্য দ্বীপ।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "island_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আয়তনে ভারতের ক্ষুদ্রতম কেন্দ্রশাসিত অঞ্চল কোনটি?",
+      "a": "লক্ষদ্বীপ",
+      "w": [
+        "চণ্ডীগড়",
+        "পুদুচেরি",
+        "লাদাখ"
+      ],
+      "e": "লক্ষদ্বীপ ভারতের ক্ষুদ্রতম কেন্দ্রশাসিত অঞ্চল — মোট আয়তন মাত্র ৩২ বর্গকিলোমিটার।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "island_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লক্ষদ্বীপ মোট কয়টি দ্বীপ নিয়ে গঠিত?",
+      "a": "৩৬টি",
+      "w": [
+        "১০টি",
+        "১২টি",
+        "৫২টি"
+      ],
+      "e": "লক্ষদ্বীপ ৩৬টি দ্বীপের দ্বীপপুঞ্জ; এর মধ্যে ১০টি দ্বীপে মানুষ বাস করে — ১০ সংখ্যাটি বসবাসকারী দ্বীপের, মোট দ্বীপের নয়।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "island_uts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "লক্ষদ্বীপের মোট আয়তন কত?",
+      "a": "৩২ বর্গকিলোমিটার",
+      "w": [
+        "৪৭৯ বর্গকিলোমিটার",
+        "১১৪ বর্গকিলোমিটার",
+        "৫৯,১৪৬ বর্গকিলোমিটার"
+      ],
+      "e": "লক্ষদ্বীপের আয়তন ৩২ বর্গকিমি। ৪৭৯ বর্গকিমি পুদুচেরির, ৫৯,১৪৬ বর্গকিমি লাদাখের মোট আয়তন।",
+      "claims": [
+        "c20",
+        "c27",
+        "c24"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "island_uts",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি সঠিকভাবে মেলানো?\nক. আন্দামান-নিকোবর — সেলুলার জেল ও নেতাজির তিরঙ্গা উত্তোলন\nখ. লক্ষদ্বীপ — রাজধানী মিনিকয়\nগ. আন্দামান-নিকোবর — আরব সাগর\nঘ. লক্ষদ্বীপ — ৫২টি দ্বীপ",
+      "a": "শুধু ক",
+      "w": [
+        "শুধু খ",
+        "ক ও ঘ",
+        "খ ও গ"
+      ],
+      "e": "শুধু ক সঠিক: আন্দামানেই সেলুলার জেল এবং নেতাজির প্রথম তিরঙ্গা উত্তোলন। লক্ষদ্বীপের রাজধানী কাভারাত্তি (মিনিকয় নয়), দ্বীপ ৩৬টি, এবং তা আরব সাগরে।",
+      "claims": [
+        "c14",
+        "c21",
+        "c20",
+        "c22"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "island_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পোর্ট ব্লেয়ারের নাম বদলে 'শ্রী বিজয় পুরম' রাখার সিদ্ধান্ত কোন সালে ঘোষিত হয়?",
+      "a": "২০২৪ সালে",
+      "w": [
+        "২০১৯ সালে",
+        "২০২০ সালে",
+        "২০২২ সালে"
+      ],
+      "e": "সিদ্ধান্তটি ঘোষিত হয় ২০২৪ সালের ১৩ সেপ্টেম্বর — স্বরাষ্ট্র মন্ত্রকের বিজ্ঞপ্তি অনুযায়ী।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "mainland_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "চণ্ডীগড় কবে কেন্দ্রশাসিত অঞ্চল হয়?",
+      "a": "১ নভেম্বর ১৯৬৬",
+      "w": [
+        "১ নভেম্বর ১৯৫৬",
+        "২৬ জানুয়ারি ২০২০",
+        "৩১ অক্টোবর ২০১৯"
+      ],
+      "e": "পাঞ্জাব পুনর্গঠন আইন, ১৯৬৬-এর ৪ ধারা অনুযায়ী ১ নভেম্বর ১৯৬৬ থেকে চণ্ডীগড় কেন্দ্রশাসিত অঞ্চল।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "mainland_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পাঞ্জাব বিভাজনের সময় কোন দুটি রাজ্য চণ্ডীগড়কে নিজের রাজধানী বলে দাবি করেছিল?",
+      "a": "পাঞ্জাব ও হরিয়ানা",
+      "w": [
+        "পাঞ্জাব ও হিমাচল প্রদেশ",
+        "হরিয়ানা ও দিল্লি",
+        "পাঞ্জাব ও জম্মু ও কাশ্মীর"
+      ],
+      "e": "হরিয়ানা গঠনের পর পাঞ্জাব ও হরিয়ানা দুটিই চণ্ডীগড়কে রাজধানী দাবি করে; নিষ্পত্তি বাকি থাকায় শহরটি কেন্দ্রশাসিত অঞ্চল হয়।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "mainland_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "একীভূত কেন্দ্রশাসিত অঞ্চল 'দাদরা ও নগর হাভেলি এবং দমন ও দিউ'-এর সদর দপ্তর কোনটি?",
+      "a": "দমন",
+      "w": [
+        "সিলভাসা",
+        "দিউ",
+        "নগর হাভেলি"
+      ],
+      "e": "একীভবনের পর সদর দপ্তর হিসেবে নির্ধারিত হয় দমন। সিলভাসা ছিল আগের পৃথক দাদরা ও নগর হাভেলি অঞ্চলের সদর।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "mainland_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দাদরা ও নগর হাভেলি এবং দমন ও দিউ-এর একীভবন কার্যকর হয় কবে থেকে?",
+      "a": "২৬ জানুয়ারি ২০২০",
+      "w": [
+        "৩১ অক্টোবর ২০১৯",
+        "১ নভেম্বর ১৯৬৬",
+        "১৫ আগস্ট ২০২০"
+      ],
+      "e": "একীভূত নতুন অঞ্চল কার্যকর হয় ২০২০ সালের ২৬ জানুয়ারি থেকে; ওই দিন থেকেই 'DD' নিবন্ধন চিহ্ন চালু হয়।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "mainland_uts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "চণ্ডীগড় কোন আইনের কোন ধারার অধীনে কেন্দ্রশাসিত অঞ্চল হয়?",
+      "a": "পাঞ্জাব পুনর্গঠন আইন, ১৯৬৬-এর ৪ ধারা",
+      "w": [
+        "রাজ্য পুনর্গঠন আইন, ১৯৫৬-এর ৬ ধারা",
+        "জম্মু ও কাশ্মীর পুনর্গঠন আইন, ২০১৯-এর ৩ ধারা",
+        "দিল্লি প্রশাসন আইন, ১৯৬৬-এর ৪ ধারা"
+      ],
+      "e": "চণ্ডীগড় প্রশাসনের সরকারি ইতিহাস অনুযায়ী, পাঞ্জাব পুনর্গঠন আইন, ১৯৬৬-এর ৪ ধারাতেই চণ্ডীগড় অঞ্চল গঠিত হয়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "mainland_uts",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে কালানুক্রমে সাজাও:\n১. চণ্ডীগড় কেন্দ্রশাসিত অঞ্চল হয়\n২. দিল্লি জাতীয় রাজধানী অঞ্চলের মর্যাদা পায় (৬৯তম সংশোধনী)\n৩. জম্মু ও কাশ্মীর ও লাদাখ গঠিত হয়\n৪. দাদরা ও নগর হাভেলি এবং দমন ও দিউ একীভূত হয়",
+      "a": "১ → ২ → ৩ → ৪",
+      "w": [
+        "২ → ১ → ৩ → ৪",
+        "১ → ৩ → ২ → ৪",
+        "১ → ২ → ৪ → ৩"
+      ],
+      "e": "ক্রম: চণ্ডীগড় ১৯৬৬ → দিল্লি NCT ১৯৯১ → জম্মু ও কাশ্মীর ও লাদাখ ২০১৯ → একীভবন ২০২০।",
+      "claims": [
+        "c17",
+        "c06",
+        "c10",
+        "c15"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "newest_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "২০১৯ সালে প্রাক্তন জম্মু ও কাশ্মীর রাজ্য ভেঙে কোন দুটি কেন্দ্রশাসিত অঞ্চল গঠিত হয়?",
+      "a": "জম্মু ও কাশ্মীর এবং লাদাখ",
+      "w": [
+        "জম্মু এবং কাশ্মীর উপত্যকা",
+        "লাদাখ এবং গিলগিট",
+        "জম্মু ও কাশ্মীর এবং চণ্ডীগড়"
+      ],
+      "e": "পুনর্গঠন আইন, ২০১৯ অনুযায়ী ৩১ অক্টোবর ২০১৯ থেকে দুটি অঞ্চল: জম্মু ও কাশ্মীর ও লাদাখ।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "newest_uts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কেন্দ্রশাসিত অঞ্চল লাদাখের রাজধানী কোনটি?",
+      "a": "লেহ",
+      "w": [
+        "কার্গিল",
+        "শ্রীনগর",
+        "জম্মু"
+      ],
+      "e": "লাদাখ দুটি জেলা — লেহ ও কার্গিল — নিয়ে গঠিত, এবং লেহই এর রাজধানী। কার্গিল জেলা সদর, রাজধানী নয়।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "newest_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পুনর্গঠন আইন অনুযায়ী লাদাখ গঠিত হয়েছিল কোন দুটি জেলা নিয়ে?",
+      "a": "লেহ ও কার্গিল",
+      "w": [
+        "লেহ ও জম্মু",
+        "কার্গিল ও শ্রীনগর",
+        "লেহ ও পুঞ্চ"
+      ],
+      "e": "PIB-র বিজ্ঞপ্তি অনুযায়ী নতুন লাদাখ অঞ্চল গঠিত হয় কার্গিল ও লেহ — এই দুটি জেলা নিয়ে; বাকি অংশ থাকে জম্মু ও কাশ্মীর অঞ্চলে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "newest_uts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জম্মু ও কাশ্মীরের গ্রীষ্মকালীন রাজধানী কোনটি?",
+      "a": "শ্রীনগর",
+      "w": [
+        "জম্মু",
+        "লেহ",
+        "কার্গিল"
+      ],
+      "e": "শ্রীনগর গ্রীষ্মকালীন ও জম্মু শীতকালীন রাজধানী — দরবার মুভ প্রথায় সরকারি দপ্তর দুই রাজধানীর মধ্যে যাতায়াত করে।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "newest_uts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'দরবার মুভ' প্রথা কারা, কবে চালু করেন?",
+      "a": "ডোগরা শাসকেরা, ১৮৭২ সালে",
+      "w": [
+        "মুঘল শাসকেরা, ১৫৮৬ সালে",
+        "ব্রিটিশ শাসকেরা, ১৯১১ সালে",
+        "শেখ আবদুল্লাহ, ১৯৪৮ সালে"
+      ],
+      "e": "১৮৭২ সালে ডোগরা শাসকেরা এই প্রথা চালু করেন — কাশ্মীর উপত্যকার কঠোর শীত এড়িয়ে শীতকালে জম্মু থেকে শাসন চালানোর জন্য।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "newest_uts",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. জম্মু ও কাশ্মীর বিধানসভাযুক্ত কেন্দ্রশাসিত অঞ্চল।\n২. লাদাখ বিধানসভাযুক্ত কেন্দ্রশাসিত অঞ্চল।\n৩. দুটি অঞ্চলই গঠিত হয় ৩১ অক্টোবর ২০১৯-এ।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ৩",
+      "w": [
+        "শুধু ২ ও ৩",
+        "শুধু ১ ও ২",
+        "১, ২ ও ৩"
+      ],
+      "e": "১ ও ৩ সঠিক। ২ ভুল — পুনর্গঠন আইনে লাদাখ স্পষ্টভাবে বিধানসভাহীন অঞ্চল হিসেবে গঠিত হয়।",
+      "claims": [
+        "c12",
+        "c10"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "newest_uts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "লাদাখ কেন্দ্রশাসিত অঞ্চলের মোট আয়তন প্রায় কত?",
+      "a": "৫৯,১৪৬ বর্গকিলোমিটার",
+      "w": [
+        "৪৫,১১০ বর্গকিলোমিটার",
+        "১৪,০৮৬ বর্গকিলোমিটার",
+        "৩২ বর্গকিলোমিটার"
+      ],
+      "e": "লেহ জেলা ৪৫,১১০ ও কার্গিল ১৪,০৮৬ বর্গকিমি — দুটি মিলিয়ে লাদাখের মোট আয়তন প্রায় ৫৯,১৪৬ বর্গকিমি। প্রথম দুটি বিকল্প শুধু একটি করে জেলার আয়তন।",
+      "claims": [
+        "c24"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "২৮টি রাজ্য ও ৮টি কেন্দ্রশাসিত অঞ্চল",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "As a nation with 28 states and 8 union territories, India is a rich country when it comes to food culture.",
+   "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/oct/doc2021103101.pdf",
+   "page": "Activities section",
+   "notes": "Claim c01 states 28 states and 8 UTs."
+  },
+  {
+   "id": "q02",
+   "answer": "রাষ্ট্রপতি, তাঁর নিযুক্ত প্রশাসকের মাধ্যমে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "239. (1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President acting, to such extent as he thinks fit, through an administrator to be appointed by him with such designation as he may specify.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 121 (Art. 239)",
+   "notes": "Art. 239: President administers each UT through an appointed administrator."
+  },
+  {
+   "id": "q03",
+   "answer": "অষ্টম অংশ (Part VIII)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "PART VIII — 1 [THE UNION TERRITORIES] — 239. (1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 121 (Part VIII heading)",
+   "notes": "Part VIII is titled The Union Territories, Arts. 239-242."
+  },
+  {
+   "id": "q04",
+   "answer": "শুধু ১ ও ৩",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "As a nation with 28 states and 8 union territories, India is a rich country when it comes to food culture. | After coming into force of the Jammu and Kashmir Reorganisation Act, 2019 with effect from 31st October, 2019, the erstwhile State of Jammu and Kashmir was reorganized into the Union territory of Jammu and Kashmir with Legislature and Union territory of Ladakh without Legislature. | 239. (1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President acting, to such extent as he thinks fit, through an administrator to be appointed by him with such designation as he may specify.",
+   "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/oct/doc2021103101.pdf",
+   "page": "Activities section",
+   "notes": "Stmt 1 true (8 UTs, c01); stmt 2 false (Ladakh has no legislature, c12); stmt 3 true (c02)."
+  },
+  {
+   "id": "q05",
+   "answer": "স্বরাষ্ট্র মন্ত্রক",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The Ministry of Home Affairs (MHA) discharges multifarious responsibilities, the important among them being - internal security, border management, Centre-State relations, administration of Union Territories, management of Central Armed Police Forces, disaster management, etc.",
+   "source_url": "https://www.mha.gov.in/en/divisionofmha/union-territories-division",
+   "page": "About Ministry / UT Division",
+   "notes": "MHA responsibilities include administration of Union Territories."
+  },
+  {
+   "id": "q06",
+   "answer": "ক, খ, গ ও ঘ — সবগুলিই সঠিক",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The Government has decided to rename the capital of Andaman & Nicobar Islands Port Blair as \"Sri Vijaya Puram\". | The islands comprise of 32 sq km. The capital is Kavaratti and it is also the principal town of the UT. | Designation of Daman as Headquarter of Union Territory of Dadra and Nagar Haveli and Daman and Diu. ... designation of Daman as Headquarters of UT of Dadra and Nagar Haveli and Daman and Diu in view of merger of Dadra and Nagar Haveli and Daman and Diu on appointed date of 26.01.2020. | The UT of Ladakh consists of two districts, Leh and Kargil, with Leh serving as the capital.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2054647&ref=delhibriefing.in&reg=3&lang=2",
+   "page": "PIB release, 13 Sep 2024",
+   "notes": "A&N capital renamed Sri Vijaya Puram (c13); Lakshadweep capital Kavaratti (c21); Daman is HQ of merged UT (c16); Leh is Ladakh capital (c23)."
+  },
+  {
+   "id": "q07",
+   "answer": "ত্রিপুরা",
+   "confidence": "LIKELY",
+   "also_defensible": null,
+   "quote": "India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands. | Pending resolution of the issue, the Central Government made Chandigarh a Union Territory (under Section 4 of the Punjab Re-Organisation Act, 1966, with effect from November 1, 1966) with its administration functioning directly under the Central Government. | The Union Territory with legislature extends over an area of 479 Sq. Kms.",
+   "source_url": "https://dcmsme.gov.in/old/dips/state_wise_dips/lakshadweep_28316.pdf",
+   "page": "p. 3 (Section 1)",
+   "notes": "Tripura is not mentioned in the claims; the other three options are each expressly stated to be UTs (Lakshadweep c20, Chandigarh c17, Puducherry c27), so Tripura is the answer by elimination."
+  },
+  {
+   "id": "q08",
+   "answer": "রাষ্ট্রপতি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "239. (1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President acting, to such extent as he thinks fit, through an administrator to be appointed by him with such designation as he may specify.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 121 (Art. 239)",
+   "notes": "Administrator is appointed by the President under Art. 239."
+  },
+  {
+   "id": "q09",
+   "answer": "২৩৯ ধারা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(2) Notwithstanding anything contained in Part VI, the President may appoint the Governor of a State as the administrator of an adjoining Union territory, and where a Governor is so appointed, he shall exercise his functions as such administrator independently of his Council of Ministers.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 121 (Art. 239(2))",
+   "notes": "Art. 239(2) covers appointing a State Governor as administrator of an adjoining UT."
+  },
+  {
+   "id": "q10",
+   "answer": "পাঞ্জাবের রাজ্যপাল",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "There after, on June 1, 1984, the Governor of Punjab took over the direct administration of the Union Territory as the Administrator. ... Ever since June 1984, the Governor of Punjab has been functioning as the Administrator of Union Territory of Chandigarh.",
+   "source_url": "https://chandigarh.gov.in/administrator",
+   "page": "Administrator page",
+   "notes": "Since June 1984 the Governor of Punjab functions as Administrator of Chandigarh."
+  },
+  {
+   "id": "q11",
+   "answer": "চণ্ডীগড়",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "240. (1) The President may make regulations for the peace, progress and good government of the Union territory of— (a) the Andaman and Nicobar Islands; (b) Lakshadweep; (c) Dadra and Nagar Haveli; (d) Daman and Diu; (e) Puducherry;",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "pp. 126–127 (Art. 240)",
+   "notes": "Art. 240 list is A&N, Lakshadweep, DNH, Daman & Diu, Puducherry; Chandigarh is not in it."
+  },
+  {
+   "id": "q12",
+   "answer": "A ও R উভয়ই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "239. (1) Save as otherwise provided by Parliament by law, every Union territory shall be administered by the President acting, to such extent as he thinks fit, through an administrator to be appointed by him with such designation as he may specify.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 121 (Art. 239)",
+   "notes": "R restates Art. 239 and directly explains A."
+  },
+  {
+   "id": "q13",
+   "answer": "লেফটেন্যান্ট গভর্নর",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "239AA. (1) As from the date of commencement of the Constitution (Sixty-ninth Amendment) Act, 1991, the Union territory of Delhi shall be called the National Capital Territory of Delhi (hereafter in this Part referred to as the National Capital Territory) and the administrator thereof appointed under article 239 shall be designated as the Lieutenant Governor.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "pp. 121–122 (Art. 239AA(1))",
+   "notes": "Art. 239AA designates Delhi administrator as Lieutenant Governor."
+  },
+  {
+   "id": "q14",
+   "answer": "২৪১ ধারা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "241. (1) Parliament may by law constitute a High Court for a Union territory or declare any court in any such territory to be a High Court for all or any of the purposes of this Constitution.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 127 (Art. 241(1))",
+   "notes": "Art. 241 empowers Parliament to constitute a High Court for a UT."
+  },
+  {
+   "id": "q15",
+   "answer": "দিল্লি, পুদুচেরি ও জম্মু ও কাশ্মীর",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "After coming into force of the Jammu and Kashmir Reorganisation Act, 2019 with effect from 31st October, 2019, the erstwhile State of Jammu and Kashmir was reorganized into the Union territory of Jammu and Kashmir with Legislature and Union territory of Ladakh without Legislature. | The Union Territory with legislature extends over an area of 479 Sq. Kms. | (2) (a) There shall be a Legislative Assembly for the National Capital Territory and the seats in such Assembly shall be filled by members chosen by direct election from territorial constituencies in the National Capital Territory.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1592557&reg=3&lang=2",
+   "page": "PIB release, 20 Nov 2019",
+   "notes": "J&K with legislature (c12); Puducherry UT with legislature (c27); Delhi has a Legislative Assembly (c07). Ladakh is without legislature (c12)."
+  },
+  {
+   "id": "q16",
+   "answer": "৬৯তম সংশোধনী (১৯৯১)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "239AA. (1) As from the date of commencement of the Constitution (Sixty-ninth Amendment) Act, 1991, the Union territory of Delhi shall be called the National Capital Territory of Delhi (hereafter in this Part referred to as the National Capital Territory) and the administrator thereof appointed under article 239 shall be designated as the Lieutenant Governor.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "pp. 121–122 (Art. 239AA(1))",
+   "notes": "239AA inserted by the 69th Amendment Act, 1991 names Delhi the NCT."
+  },
+  {
+   "id": "q17",
+   "answer": "আঞ্চলিক কেন্দ্রগুলি থেকে সরাসরি নির্বাচনে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(2) (a) There shall be a Legislative Assembly for the National Capital Territory and the seats in such Assembly shall be filled by members chosen by direct election from territorial constituencies in the National Capital Territory.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 122 (Art. 239AA(2)(a))",
+   "notes": "Assembly seats filled by direct election from territorial constituencies."
+  },
+  {
+   "id": "q18",
+   "answer": "১০ শতাংশ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "(4) There shall be a Council of Ministers consisting of not more than ten per cent. of the total number of members in the Legislative Assembly, with the Chief Minister at the head to aid and advise the Lieutenant Governor in the exercise of his functions in relation to matters with respect to which the Legislative Assembly has power to make laws",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "pp. 123–124 (Art. 239AA(4))",
+   "notes": "Council of Ministers not more than ten per cent of Assembly members."
+  },
+  {
+   "id": "q19",
+   "answer": "২৩৯ক ধারা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "239A. (1) Parliament may by law create for the Union territory of Puducherry— (a) a body, whether elected or partly nominated and partly elected, to function as a Legislature for the Union territory, or (b) a Council of Ministers, or both with such constitution, powers and functions, in each case, as may be specified in the law.",
+   "source_url": "https://www.mea.gov.in/images/pdf1/Part8.pdf",
+   "page": "p. 121 (Art. 239A)",
+   "notes": "Art. 239A empowers Parliament to create a Legislature/Council of Ministers for Puducherry."
+  },
+  {
+   "id": "q20",
+   "answer": "১৯৫৬ সালে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "It was made a Union Territory in 1956. ... The 69th Constitutional amendment is a milestone in Delhi's history, as it got a Legislative Assembly with the enactment of the National Capital Territory Act, 1991.",
+   "source_url": "https://delhi.gov.in/page/about-us",
+   "page": "History and Geography",
+   "notes": "Delhi was made a Union Territory in 1956."
+  },
+  {
+   "id": "q21",
+   "answer": "শুধু ১ ও ২",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "It was made a Union Territory in 1956. ... The 69th Constitutional amendment is a milestone in Delhi's history, as it got a Legislative Assembly with the enactment of the National Capital Territory Act, 1991. | 239AA. (1) As from the date of commencement of the Constitution (Sixty-ninth Amendment) Act, 1991, the Union territory of Delhi shall be called the National Capital Territory of Delhi (hereafter in this Part referred to as the National Capital Territory) and the administrator thereof appointed under article 239 shall be designated as the Lieutenant Governor.",
+   "source_url": "https://delhi.gov.in/page/about-us",
+   "page": "History and Geography",
+   "notes": "Stmt 1 and 2 true (c28, c06); stmt 3 false, administrator is Lieutenant Governor (c06)."
+  },
+  {
+   "id": "q22",
+   "answer": "জম্মু ও কাশ্মীর পুনর্গঠন আইন, ২০১৯",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "On the recommendation of Parliament, the President effectively dismantled Article 370 of the Indian Constitution and gave assent to the Jammu and Kashmir Reorganization Act, 2019. Under the leadership of Prime Minister Shri Narendra Modi and supervision of Union Home Minister Shri Amit Shah, the former state of Jammu & Kashmir has been reorganized as the new Union Territory of Jammu and Kashmir and the new Union Territory of Ladakh on 31st October 2019. | After coming into force of the Jammu and Kashmir Reorganisation Act, 2019 with effect from 31st October, 2019, the erstwhile State of Jammu and Kashmir was reorganized into the Union territory of Jammu and Kashmir with Legislature and Union territory of Ladakh without Legislature.",
+   "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1590112&reg=48&lang=2",
+   "page": "PIB release, 02 Nov 2019",
+   "notes": "J&K Reorganization Act, 2019; J&K with legislature, Ladakh without."
+  },
+  {
+   "id": "q23",
+   "answer": "শ্রী বিজয় পুরম",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The Government has decided to rename the capital of Andaman & Nicobar Islands Port Blair as \"Sri Vijaya Puram\".",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2054647&ref=delhibriefing.in&reg=3&lang=2",
+   "page": "PIB release, 13 Sep 2024",
+   "notes": "Port Blair renamed Sri Vijaya Puram."
+  },
+  {
+   "id": "q24",
+   "answer": "কাভারাত্তি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The islands comprise of 32 sq km. The capital is Kavaratti and it is also the principal town of the UT.",
+   "source_url": "https://dcmsme.gov.in/old/dips/state_wise_dips/lakshadweep_28316.pdf",
+   "page": "p. 3 (Section 1)",
+   "notes": "Capital of Lakshadweep is Kavaratti."
+  },
+  {
+   "id": "q25",
+   "answer": "লক্ষদ্বীপ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands.",
+   "source_url": "https://dcmsme.gov.in/old/dips/state_wise_dips/lakshadweep_28316.pdf",
+   "page": "p. 3 (Section 1)",
+   "notes": "Lakshadweep is India smallest UT."
+  },
+  {
+   "id": "q26",
+   "answer": "৩৬টি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands.",
+   "source_url": "https://dcmsme.gov.in/old/dips/state_wise_dips/lakshadweep_28316.pdf",
+   "page": "p. 3 (Section 1)",
+   "notes": "Archipelago of 36 islands."
+  },
+  {
+   "id": "q27",
+   "answer": "৩২ বর্গকিলোমিটার",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands.",
+   "source_url": "https://dcmsme.gov.in/old/dips/state_wise_dips/lakshadweep_28316.pdf",
+   "page": "p. 3 (Section 1)",
+   "notes": "Area of 32 sq km."
+  },
+  {
+   "id": "q28",
+   "answer": "শুধু ক",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Shri Amit Shah said that it is also the place that hosted the first unfurling of our Tiranga by Netaji Subhash Chandra Bose Ji and also the cellular jail in which Veer Savarkar Ji and other freedom fighters struggled for an independent nation. | The islands comprise of 32 sq km. The capital is Kavaratti and it is also the principal town of the UT. | India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km. It is a uni-district Union Territory and is comprised of 12 atolls, three reefs, five submerged banks and ten inhabited islands.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2054647&ref=delhibriefing.in&reg=3&lang=2",
+   "page": "PIB release, 13 Sep 2024",
+   "notes": "Pair a matches c14; b wrong (capital Kavaratti, c21); d wrong (36 islands, c20); c unsupported/wrong pairing."
+  },
+  {
+   "id": "q29",
+   "answer": "২০২৪ সালে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The Government has decided to rename the capital of Andaman & Nicobar Islands Port Blair as \"Sri Vijaya Puram\".",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2054647&ref=delhibriefing.in&reg=3&lang=2",
+   "page": "PIB release, 13 Sep 2024",
+   "notes": "Rename decision announced 13 September 2024."
+  },
+  {
+   "id": "q30",
+   "answer": "১ নভেম্বর ১৯৬৬",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Pending resolution of the issue, the Central Government made Chandigarh a Union Territory (under Section 4 of the Punjab Re-Organisation Act, 1966, with effect from November 1, 1966) with its administration functioning directly under the Central Government.",
+   "source_url": "https://chandigarh.gov.in/administrator",
+   "page": "Administrator page",
+   "notes": "Chandigarh made UT w.e.f. November 1, 1966."
+  },
+  {
+   "id": "q31",
+   "answer": "পাঞ্জাব ও হরিয়ানা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "From 1952 to 1966 (the year Haryana was carved out of Punjab) Chandigarh was the capital of Punjab. ... When Punjab was divided, both Punjab and Haryana claimed the new city for its capital.",
+   "source_url": "https://chandigarh.gov.in/administrator",
+   "page": "Administrator page",
+   "notes": "Both Punjab and Haryana claimed Chandigarh as capital."
+  },
+  {
+   "id": "q32",
+   "answer": "দমন",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Designation of Daman as Headquarter of Union Territory of Dadra and Nagar Haveli and Daman and Diu. ... designation of Daman as Headquarters of UT of Dadra and Nagar Haveli and Daman and Diu in view of merger of Dadra and Nagar Haveli and Daman and Diu on appointed date of 26.01.2020.",
+   "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1600087",
+   "page": "PIB release, 22 Jan 2020",
+   "notes": "Daman designated Headquarters of the merged UT."
+  },
+  {
+   "id": "q33",
+   "answer": "২৬ জানুয়ারি ২০২০",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "A new Union Territory has been formed after merger of Dadra & Nagar Haveli and Daman & Diu. The Ministry has issued a Notification No. S.O. 295(E) dated 22nd January, 2020 to this effect, under the Motor Vehicle Act 1988. This will be implemented from 26th January, 2020.",
+   "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1600363&reg=48&lang=2",
+   "page": "PIB release, Jan 2020",
+   "notes": "Merger implemented from 26 January 2020."
+  },
+  {
+   "id": "q34",
+   "answer": "পাঞ্জাব পুনর্গঠন আইন, ১৯৬৬-এর ৪ ধারা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Pending resolution of the issue, the Central Government made Chandigarh a Union Territory (under Section 4 of the Punjab Re-Organisation Act, 1966, with effect from November 1, 1966) with its administration functioning directly under the Central Government.",
+   "source_url": "https://chandigarh.gov.in/administrator",
+   "page": "Administrator page",
+   "notes": "Section 4 of the Punjab Re-Organisation Act, 1966."
+  },
+  {
+   "id": "q35",
+   "answer": "১ → ২ → ৩ → ৪",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Pending resolution of the issue, the Central Government made Chandigarh a Union Territory (under Section 4 of the Punjab Re-Organisation Act, 1966, with effect from November 1, 1966) with its administration functioning directly under the Central Government. | 239AA. (1) As from the date of commencement of the Constitution (Sixty-ninth Amendment) Act, 1991, the Union territory of Delhi shall be called the National Capital Territory of Delhi (hereafter in this Part referred to as the National Capital Territory) and the administrator thereof appointed under article 239 shall be designated as the Lieutenant Governor. | On the recommendation of Parliament, the President effectively dismantled Article 370 of the Indian Constitution and gave assent to the Jammu and Kashmir Reorganization Act, 2019. Under the leadership of Prime Minister Shri Narendra Modi and supervision of Union Home Minister Shri Amit Shah, the former state of Jammu & Kashmir has been reorganized as the new Union Territory of Jammu and Kashmir and the new Union Territory of Ladakh on 31st October 2019. | A new Union Territory has been formed after merger of Dadra & Nagar Haveli and Daman & Diu. The Ministry has issued a Notification No. S.O. 295(E) dated 22nd January, 2020 to this effect, under the Motor Vehicle Act 1988. This will be implemented from 26th January, 2020.",
+   "source_url": "https://chandigarh.gov.in/administrator",
+   "page": "Administrator page",
+   "notes": "1966 Chandigarh (c17); 1991 69th Amendment (c06); 31 Oct 2019 J&K/Ladakh (c10); 26 Jan 2020 merger (c15)."
+  },
+  {
+   "id": "q36",
+   "answer": "জম্মু ও কাশ্মীর এবং লাদাখ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "On the recommendation of Parliament, the President effectively dismantled Article 370 of the Indian Constitution and gave assent to the Jammu and Kashmir Reorganization Act, 2019. Under the leadership of Prime Minister Shri Narendra Modi and supervision of Union Home Minister Shri Amit Shah, the former state of Jammu & Kashmir has been reorganized as the new Union Territory of Jammu and Kashmir and the new Union Territory of Ladakh on 31st October 2019.",
+   "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1590112&reg=48&lang=2",
+   "page": "PIB release, 02 Nov 2019",
+   "notes": "Former state reorganised into UT of J&K and UT of Ladakh."
+  },
+  {
+   "id": "q37",
+   "answer": "লেহ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The UT of Ladakh consists of two districts, Leh and Kargil, with Leh serving as the capital.",
+   "source_url": "https://trai.gov.in/sites/default/files/2024-09/Recommendation_24042023.pdf",
+   "page": "p. 2 (para 1.3)",
+   "notes": "Leh serves as capital of Ladakh."
+  },
+  {
+   "id": "q38",
+   "answer": "লেহ ও কার্গিল",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The new Union Territory of Ladakh consists of two districts of Kargil and Leh. The rest of the former State of Jammu and Kashmir is in the new Union Territory of Jammu and Kashmir.",
+   "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1590112&reg=48&lang=2",
+   "page": "PIB release, 02 Nov 2019",
+   "notes": "Ladakh consists of the districts of Kargil and Leh."
+  },
+  {
+   "id": "q39",
+   "answer": "শ্রীনগর",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "In Jammu and Kashmir, the administration resumed functioning from the winter capital, Jammu, today, with the Civil Secretariat and other government offices, including the Lok Bhawan, reopening in Jammu as part of the 154-year-old biannual Darbar Move practice. ... two days after closing in the summer capital Srinagar.",
+   "source_url": "https://newsonair.gov.in/jk-winter-capital-admin-resumes-functioning-from-jammu-as-civil-secretariat-reopens/",
+   "page": "Akashvani News, 02 Nov 2026",
+   "notes": "Srinagar is the summer capital; Jammu the winter capital."
+  },
+  {
+   "id": "q40",
+   "answer": "ডোগরা শাসকেরা, ১৮৭২ সালে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Introduced by the Dogra rulers in 1872, the Darbar Move was aimed at allowing the administration to escape the harsh winter conditions of the Kashmir Valley by shifting its base to Jammu during the colder months.",
+   "source_url": "https://newsonair.gov.in/jk-winter-capital-admin-resumes-functioning-from-jammu-as-civil-secretariat-reopens/",
+   "page": "Akashvani News, 02 Nov 2026",
+   "notes": "Darbar Move introduced by Dogra rulers in 1872."
+  },
+  {
+   "id": "q41",
+   "answer": "শুধু ১ ও ৩",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "After coming into force of the Jammu and Kashmir Reorganisation Act, 2019 with effect from 31st October, 2019, the erstwhile State of Jammu and Kashmir was reorganized into the Union territory of Jammu and Kashmir with Legislature and Union territory of Ladakh without Legislature. | On the recommendation of Parliament, the President effectively dismantled Article 370 of the Indian Constitution and gave assent to the Jammu and Kashmir Reorganization Act, 2019. Under the leadership of Prime Minister Shri Narendra Modi and supervision of Union Home Minister Shri Amit Shah, the former state of Jammu & Kashmir has been reorganized as the new Union Territory of Jammu and Kashmir and the new Union Territory of Ladakh on 31st October 2019.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1592557&reg=3&lang=2",
+   "page": "PIB release, 20 Nov 2019",
+   "notes": "Stmt 1 true, stmt 2 false (Ladakh without legislature, c12); stmt 3 true, both formed 31 Oct 2019 (c10)."
+  },
+  {
+   "id": "q42",
+   "answer": "৫৯,১৪৬ বর্গকিলোমিটার",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Leh spans over an area of 45,110 km2 and Kargil is spread over 14,086 km2.",
+   "source_url": "https://trai.gov.in/sites/default/files/2024-09/Recommendation_24042023.pdf",
+   "page": "p. 2 (para 1.3 and Table 1.1)",
+   "notes": "Claim c24 states Ladakh total geographical area is 59,146 sq km (Leh 45,110 + Kargil 14,086)."
+  }
+ ]
+}
