@@ -1,0 +1,1688 @@
+{
+  "book": "organisations",
+  "code": "ORG-02",
+  "number": 2,
+  "part": "world",
+  "title": "আর্থিক ও বাণিজ্য সংস্থা",
+  "subtitle": "ব্রেটন উডস যমজ, WTO, UNCTAD ও উন্নয়ন ব্যাংকসমূহ: সদর দপ্তর, প্রতিষ্ঠা, ভারতের অবস্থান ও বর্তমান প্রধানগণ",
+  "subtopics": [
+    "financial_bodies"
+  ],
+  "related_facts": [
+    "GK-ORG-005",
+    "GK-ORG-006",
+    "GK-ORG-007",
+    "GK-ORG-008"
+  ],
+  "prerequisites": [
+    "ORG-01"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 30,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 3 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 7 of 10 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ORG-02.json and drafts/ORG-02_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ORG-02_REPORT.md.",
+    "checked_claims": 45,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "বিশ্বের টাকা ও বাণিজ্য কোন নিয়মে চলবে, তা ঠিক করে একগুচ্ছ আন্তর্জাতিক সংস্থা — IMF, বিশ্ব ব্যাংক, WTO, UNCTAD এবং আঞ্চলিক উন্নয়ন ব্যাংকগুলি। পরীক্ষায় এদের নিয়ে প্রশ্ন আসে প্রায় একই ছাঁচে: সদর দপ্তর কোন শহরে, প্রতিষ্ঠা কোন সালে, ভারতের অবস্থান কী, আর বর্তমান প্রধান কে। এই অধ্যায়ে সেই ছাঁচটাই ধরে ধরে পড়ব — ব্রেটন উডসের যমজ থেকে শুরু করে ব্রিকসের নিজস্ব ব্যাংক পর্যন্ত, প্রতিটি তথ্য সরকারি উৎসের উদ্ধৃতিসহ।",
+    "you_will_learn": [
+      "ব্রেটন উডস (১৯৪৪) থেকে IMF ও বিশ্ব ব্যাংকের জন্ম এবং দুটোর কাজের পার্থক্য",
+      "IMF-এর নজরদারি, Article IV পরামর্শ এবং SBA/EFF ঋণ-যন্ত্রের ভূমিকা",
+      "বিশ্ব ব্যাংক গোষ্ঠীর পাঁচটি প্রতিষ্ঠান — IBRD, IDA, IFC, MIGA, ICSID — কে কী করে",
+      "GATT (১৯৪৮) থেকে WTO (১৯৯৫): আওতা, নীতি (MFN, National Treatment) ও গঠনের পার্থক্য",
+      "UNCTAD (১৯৬৪) কেন নিয়ন্ত্রক নয়, উপদেষ্টা — এবং এর প্রধান প্রতিবেদনগুলি",
+      "ADB–ম্যানিলা, AIIB–বেইজিং, NDB–সাংহাই: প্রতিষ্ঠা-সাল, সদর দপ্তর ও ভারতের অংশীদারি",
+      "IMF, বিশ্ব ব্যাংক ও WTO-র বর্তমান প্রধানগণ (১৯ নভেম্বর ২০২৬ অনুযায়ী) ও তাঁদের সঠিক পদবি"
+    ]
+  },
+  "sections": [
+    {
+      "id": "bretton_woods_imf",
+      "heading": "ব্রেটন উডস ও আন্তর্জাতিক মুদ্রা তহবিল (IMF)",
+      "quick": "১৯৪৪ সালের ব্রেটন উডস ব্যবস্থা থেকে জন্ম নেয় IMF ও বিশ্ব ব্যাংক। IMF-এর কাজ মুদ্রা-স্থিতি রক্ষা, সদস্য দেশগুলির অর্থনীতির উপর নজরদারি (surveillance) এবং লেনদেন-ভারসাম্য (balance of payments) সংকটে ঋণ দেওয়া। এর সদর দপ্তর ওয়াশিংটন ডিসি, আর প্রধান হলেন ব্যবস্থাপনা পরিচালক (Managing Director)।",
+      "standard": "দ্বিতীয় বিশ্বযুদ্ধের শেষ প্রান্তে, ১৯৪৪ সালে, ব্রেটন উডস সম্মেলনে যুদ্ধোত্তর বিশ্বের জন্য একটি স্থিতিশীল মুদ্রা ব্যবস্থার নকশা তৈরি হয়। IGNOU-র পাঠ্য অনুযায়ী, আন্তর্জাতিক মুদ্রা তহবিল (IMF) ও বিশ্ব ব্যাংক এই ব্রেটন উডস ব্যবস্থারই (১৯৪৪) ফসল — উদ্দেশ্য ছিল যুদ্ধোত্তর বিশ্বে মুদ্রা-স্থিতি নিশ্চিত করা এবং অর্থনীতিগুলির পুনর্গঠন এগিয়ে নেওয়া। IMF অস্তিত্বে আসে ৪৪টি দেশের প্রতিনিধিদের সেই বৈঠকের পর, যেখানে ন্যায্য বাণিজ্য, আর্থিক স্থিতি ও আন্তর্জাতিক মুদ্রা সহযোগিতার জন্য একটি বৈশ্বিক প্রতিষ্ঠান গড়তে সকলে সম্মত হন।\n\nIMF কী করে? প্রথমত, বিনিময়-হারের স্থিতিই (exchange rate stability) এর সর্বোচ্চ অগ্রাধিকার; প্রতি বছর Article IV পরামর্শের (consultation) মাধ্যমে এটি সদস্য দেশগুলির বিনিময়-হার নীতির উপর নজরদারি চালায়। দ্বিতীয়ত, নজরদারি (surveillance) এর অন্যতম প্রধান কাজ — সদস্য দেশগুলির অর্থনৈতিক ও আর্থিক নীতির উপর সতর্ক দৃষ্টি রাখা। এই কাজের ফল হিসেবে প্রকাশিত হয় World Economic Outlook ও Global Financial Stability Report-এর মতো প্রধান প্রতিবেদন। তৃতীয়ত, কোনো সদস্য দেশ লেনদেন-ভারসাম্যের সংকটে পড়লে IMF তাকে সম্পদ জোগান দেয়।\n\nঋণের যন্ত্রগুলির মধ্যে সবচেয়ে পরিচিত হল Stand-By Arrangement (SBA) — স্বল্পমেয়াদি লেনদেন-ভারসাম্য সংকটের জন্য IMF-এর প্রধান ঋণ-সুবিধা। আর Extended Fund Facility (EFF) মাঝারিমেয়াদি সংকট ও কাঠামোগত সংস্কারের (structural reform) জন্য তৈরি। পরীক্ষায় প্রায়ই জানতে চাওয়া হয় IMF ও বিশ্ব ব্যাংকের পার্থক্য: দুটোই ১৯৪৪ সালে ব্রেটন উডসে জন্ম নেয় এবং দুটোরই সদর দপ্তর ওয়াশিংটন ডিসিতে, কিন্তু বিশ্ব ব্যাংকের মূল উদ্দেশ্য দরিদ্র দেশগুলির অর্থনৈতিক উন্নয়ন, আর IMF-এর মূল উদ্দেশ্য বৈশ্বিক মুদ্রা সহযোগিতা ও স্থিতি বজায় রাখা।",
+      "deep": "IMF-এর ঋণ-ব্যবস্থা আরও সূক্ষ্মভাবে বুঝতে হলে SBA ও EFF-এর পাশাপাশি দরিদ্র দেশগুলির জন্য ছাড়-সুবিধাযুক্ত (concessional) যন্ত্রগুলির কথা জানা দরকার। IGNOU-র সারণি অনুযায়ী Poverty Reduction and Growth Trust (PRGT) নিম্ন-আয়ের দেশগুলির জন্য তৈরি ছাড়-সুবিধাযুক্ত যন্ত্র, আর Rapid Credit Facility (RCF) ও Rapid Financing Instrument (RFI) জরুরি প্রয়োজনে ন্যূনতম শর্তে দ্রুত সহায়তা দেয়। মনে রাখতে হবে, IMF প্রকল্প-ভিত্তিক উন্নয়ন ঋণ দেয় না — তার ঋণ সামগ্রিক অর্থনৈতিক স্থিতি ও লেনদেন-ভারসাম্যের সঙ্গে যুক্ত। এই কারণেই ১৯৯১ সালে ভারতের লেনদেন-ভারসাম্য সংকটে সাহায্যের ঠিকানা ছিল IMF, বিশ্ব ব্যাংক নয় — যদিও সেই ঘটনার বিস্তারিত এই অধ্যায়ের উৎসগুলিতে নেই, তাই তা এখানে দাবি হিসেবে লেখা হল না।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "IMF-এর প্রধানের পদবি **ব্যবস্থাপনা পরিচালক (Managing Director)** — প্রেসিডেন্ট নয়। প্রেসিডেন্ট পদবিটি বিশ্ব ব্যাংকের। এই গুলিয়ে-ফেলাটাই পরীক্ষার সবচেয়ে প্রিয় ফাঁদ।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "**IMF** = মুদ্রা স্থিতি + লেনদেন-ভারসাম্য সংকটে স্বল্প/মাঝারি মেয়াদি সহায়তা। **বিশ্ব ব্যাংক** = দীর্ঘমেয়াদি উন্নয়ন ঋণ। দুটোরই জন্ম ১৯৪৪, দুটোরই সদর দপ্তর ওয়াশিংটন ডিসি।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c41"
+      ]
+    },
+    {
+      "id": "world_bank_group",
+      "heading": "বিশ্ব ব্যাংক গোষ্ঠী (World Bank Group)",
+      "quick": "বিশ্ব ব্যাংক গোষ্ঠী পাঁচটি প্রতিষ্ঠানের পরিবার — IBRD, IDA, IFC, MIGA ও ICSID। সদর দপ্তর ওয়াশিংটন ডিসি; কার্যক্রম শুরু ১৯৪৬ সালে; মালিক ১৮৯টি দেশ। কঠোর অর্থে 'বিশ্ব ব্যাংক' বলতে IBRD ও IDA-কে বোঝায়, আর পাঁচটি মিলে বিশ্ব ব্যাংক গোষ্ঠী।",
+      "standard": "বিশ্ব ব্যাংক গোষ্ঠী (World Bank Group) ১৯৪৬ সালে ৩৮ জন সদস্য নিয়ে কার্যক্রম শুরু করে; আজ এটি সম্মিলিতভাবে ১৮৯টি দেশের মালিকানাধীন। এর মূল উদ্দেশ্য দরিদ্র দেশগুলির অর্থনৈতিক উন্নয়ন ঘটানো — অবকাঠামো, শিক্ষা, স্বাস্থ্য ও কৃষির মতো ক্ষেত্রে শূন্য-সুদ ও কম-সুদের ঋণ দিয়ে।\n\nগোষ্ঠীর পাঁচটি প্রতিষ্ঠানকে আলাদা আলাদা মনে রাখাই পরীক্ষার চাবিকাঠি। **IBRD** ঋণ দেয় ভালো ঋণ-যোগ্যতা (credit) থাকা মাঝারি ও নিম্ন-আয়ের দেশগুলিকে। **IDA** দরিদ্রতম দেশগুলিকে ছাড়-সুবিধাযুক্ত (concessional) ঋণ দেয় — 'দরিদ্রতম দেশকে নরম শর্তে ঋণ দেয় কোনটি?' প্রশ্নের উত্তর সবসময় IDA। **IFC**-র মূল লক্ষ্য উদীয়মান বাজারে বেসরকারি খাতের (private sector) বিকাশ। **MIGA** অ-বাণিজ্যিক (রাজনৈতিক) ঝুঁকির বিরুদ্ধে গ্যারান্টি ও বীমা দেয়। আর **ICSID** আন্তর্জাতিক বিনিয়োগ-বিরোধ নিষ্পত্তিতে সাহায্য করে।\n\nলক্ষ্য করার মতো বিষয়: IMF এই গোষ্ঠীর সদস্য নয়। IMF ও বিশ্ব ব্যাংক একই সম্মেলনে জন্ম নিলেও দুটি আলাদা প্রতিষ্ঠান — IMF একক প্রতিষ্ঠান, কোনো অধীনস্থ শাখা (affiliate) নেই, আর বিশ্ব ব্যাংক হল পাঁচটি প্রতিষ্ঠানের গোষ্ঠী।",
+      "deep": "ভোট-ক্ষমতার দিক থেকেও দুটি প্রতিষ্ঠানের গঠন আলাদা। বিশ্ব ব্যাংক গোষ্ঠীতে প্রতিটি সদস্য দেশ একজন গভর্নর নিয়োগ করে পরিচালনা পর্ষদ (Board of Governors) গঠন করে, আর প্রতিটি সদস্যের ভোট-ক্ষমতা নির্ভর করে তার আর্থিক অবদানের উপর। অর্থের উৎসেও পার্থক্য আছে: IBRD মূলত আন্তর্জাতিক পুঁজিবাজার থেকে ঋণ তুলে অর্থ জোগায়, অন্যদিকে IDA-র অর্থ আসে দাতা দেশগুলির অনুদান থেকে; IMF-এর অর্থ আসে সদস্য দেশগুলির কোটা (quota) চাঁদা থেকে, যা তাদের অর্থনীতির আকারের অনুপাতে নির্ধারিত।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "পাঁচটি প্রতিষ্ঠানের কাজ এক লাইনে: IBRD — সরকারকে ঋণ; IDA — দরিদ্রতমদের নরম ঋণ; IFC — বেসরকারি খাত; MIGA — রাজনৈতিক ঝুঁকির বীমা; ICSID — বিনিয়োগ বিরোধ নিষ্পত্তি।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "'বিশ্ব ব্যাংক গোষ্ঠীর অংশ নয় কোনটি?' — উত্তর প্রায় সবসময় **IMF**। IMF ব্রেটন উডসের যমজ হলেও গোষ্ঠীর সদস্য নয়।"
+        }
+      ],
+      "claims": [
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c41"
+      ]
+    },
+    {
+      "id": "wto_gatt",
+      "heading": "GATT থেকে WTO: বিশ্ব বাণিজ্য সংস্থা",
+      "quick": "বহুপাক্ষিক বাণিজ্য ব্যবস্থা শুরু হয় GATT (১৯৪৮) দিয়ে, আর তার পরিণতি WTO (১৯৯৫)। WTO-র সদর দপ্তর জেনেভায়, প্রতিষ্ঠা ১ জানুয়ারি ১৯৯৫, সর্বোচ্চ সংস্থা মন্ত্রী পর্যায়ের সম্মেলন (Ministerial Conference), প্রধান মহাপরিচালক (Director-General)।",
+      "standard": "১৯৪৭ সালের এপ্রিলে ভারতসহ ২৩টি দেশ জেনেভায় আলোচনা শুরু করে, যার ফল GATT — শুল্ক ও বাণিজ্য সম্পর্কিত সাধারণ চুক্তি। GATT কোনো পূর্ণাঙ্গ সংস্থা ছিল না; এটি ছিল একটি সাময়িক (provisional) চুক্তি, যা মূলত পণ্য বাণিজ্যের উপর কেন্দ্রীভূত ছিল। তবু ১৯৪৮ থেকে ১৯৯৫ সালে WTO প্রতিষ্ঠিত হওয়ার আগে পর্যন্ত GATT-ই ছিল আন্তর্জাতিক বাণিজ্য নিয়ন্ত্রণকারী একমাত্র বহুপাক্ষিক ব্যবস্থা।\n\nউরুগুয়ে রাউন্ড (Uruguay Round) আলোচনার পরিণতিতে ১৯৯৪ সালে মারাকেশ চুক্তি (Marrakesh Agreement) স্বাক্ষরিত হয় এবং ১ জানুয়ারি ১৯৯৫-এ সৃষ্টি হয় বিশ্ব বাণিজ্য সংস্থা (WTO) — দ্বিতীয় বিশ্বযুদ্ধের পর আন্তর্জাতিক বাণিজ্যের সবচেয়ে বড় সংস্কার। WTO হল দেশগুলির মধ্যে বাণিজ্য নিয়ন্ত্রণ ও সহজীকরণের একমাত্র বৈশ্বিক সংস্থা; বর্তমানে এর সদস্য ১৬৬টি দেশ।\n\nGATT ও WTO-র পার্থক্য পরীক্ষায় নিশ্চিত প্রশ্ন। GATT ছিল সাময়িক চুক্তি, আওতা শুধু পণ্য; WTO স্থায়ী আন্তর্জাতিক সংস্থা, যার আওতায় পণ্য (GATT), সেবা (GATS) ও মেধাসম্পদ (TRIPS) — তিনটিই আছে। বিরোধ নিষ্পত্তিতেও পার্থক্য: GATT-এর রায় প্রায়ই বিলম্বিত বা আটকে যেত, WTO-তে আছে বাধ্যতামূলক Dispute Settlement Understanding (DSU), যার অধীনে প্যানেল ও আপিল সংস্থা (Appellate Body) কাজ করে। WTO-র দুটি মূল নীতি হল MFN — সব বাণিজ্য-অংশীদারকে সমান আচরণ, এবং National Treatment — বাজারে ঢোকার পর আমদানি করা ও স্থানীয় পণ্য-সেবাকে সমান আচরণ।\n\nগঠনের দিক থেকে WTO-র সর্বোচ্চ সিদ্ধান্ত গ্রহণকারী সংস্থা মন্ত্রী পর্যায়ের সম্মেলন, যা সাধারণত প্রতি দুই বছরে বসে। দৈনন্দিন শাসনকাজ চালায় জেনেভার সাধারণ পরিষদ (General Council), যা আবার বিরোধ নিষ্পত্তি সংস্থা (Dispute Settlement Body) ও বাণিজ্য নীতি পর্যালোচনা সংস্থা (Trade Policy Review Body) হিসেবেও বসে। সচিবালয় জেনেভায়, প্রায় ৭০০ কর্মী নিয়ে, মহাপরিচালকের নেতৃত্বে।",
+      "deep": "WTO সদস্য-চালিত (member-driven) সংস্থা — সিদ্ধান্ত ভোটে নয়, ঐকমত্যে (consensus) হয়। তাই আলোচনা জটিল হলেও প্রতিটি সদস্যের কণ্ঠ থাকে। বিরোধ নিষ্পত্তি সংস্থা বিশেষজ্ঞ প্যানেল ও আপিল সংস্থার মাধ্যমে সংঘাত মেটায়; আপিল সংস্থার অবস্থানও জেনেভাতেই — WBCS ২০২৩-এর প্রশ্নে ঠিক এটাই জানতে চাওয়া হয়েছিল। বাণিজ্য নীতি পর্যালোচনা (Trade Policy Review) হল WTO-র স্বচ্ছতা-নজরদারির যন্ত্র: সদস্য দেশগুলির বাণিজ্য নীতি পর্যায়ক্রমে পরীক্ষা করা হয়। ভারতের অষ্টম বাণিজ্য নীতি পর্যালোচনা ২০২৬ সালের জুলাইয়ে জেনেভায় সম্পন্ন হয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "**GATT** (১৯৪৮) = চুক্তি, শুধু পণ্য। **WTO** (১৯৯৫) = সংস্থা, পণ্য + সেবা (GATS) + মেধাসম্পদ (TRIPS)। 'WTO-র আগের নাম' প্রশ্নে উত্তর GATT — WBCS ২০২২-এ এসেছিল।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "তিনটি জেনেভা-ঠিকানা একসঙ্গে মনে রাখো: WTO সদর দপ্তর জেনেভা, WTO সচিবালয় জেনেভা, UNCTAD সচিবালয় জেনেভা। কিন্তু IMF ও বিশ্ব ব্যাংক ওয়াশিংটন ডিসিতে।"
+        }
+      ],
+      "claims": [
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c42"
+      ]
+    },
+    {
+      "id": "unctad_trade",
+      "heading": "UNCTAD: বাণিজ্য ও উন্নয়নের কণ্ঠ",
+      "quick": "UNCTAD (রাষ্ট্রসংঘ বাণিজ্য ও উন্নয়ন সম্মেলন) প্রতিষ্ঠিত হয় ১৯৬৪ সালে; সদস্য ১৯৫টি দেশ; সচিবালয় জেনেভায়। এটি নিয়ন্ত্রক সংস্থা নয় — উন্নয়নশীল দেশগুলির জন্য উপদেষ্টা ও সহায়কের ভূমিকা পালন করে।",
+      "standard": "UNCTAD গড়ে ওঠে আফ্রিকা, এশিয়া ও লাতিন আমেরিকার সদ্য-স্বাধীন দেশগুলির চাপে। এই দেশগুলি চেয়েছিল এমন একটি সংস্থা যা বৈশ্বিক বাণিজ্যের অসম কাঠামো নিয়ে তাদের উদ্বেগ তুলে ধরবে। ১৯৬৪ সালে প্রতিষ্ঠার পর এর প্রথম ঐতিহাসিক সম্মেলন বসে জেনেভায় — যা উন্নয়নশীল বিশ্বের অর্থনৈতিক আকাঙ্ক্ষাকে সম্মিলিত কণ্ঠ দেয়।\n\nUNCTAD-এর আদেশ (mandate) হল অন্তর্ভুক্তিমূলক, ন্যায্য ও টেকসই উন্নয়ন এগিয়ে নেওয়া, বিভিন্ন উন্নয়ন-পর্যায়ের দেশগুলির নিজস্ব চ্যালেঞ্জকে কেন্দ্র করে। মনে রাখার মূল বিষয়: UNCTAD নিয়ন্ত্রক (regulatory) সংস্থা নয় — এটি উপদেষ্টা ও সহায়ক (advisor and facilitator)। এর সচিবালয় মূলত জেনেভায় অবস্থিত; সেখান থেকে গবেষণা, কারিগরি সহায়তা ও নীতি-বিশ্লেষণ চালানো হয়।\n\nএর প্রভাবের প্রধান উৎস এর প্রতিবেদনগুলি। বার্ষিক প্রধান প্রকাশনা (flagship) হল Trade and Development Report, যা বৈশ্বিক অর্থনৈতিক প্রবণতা ও নীতি-চ্যালেঞ্জ বিশ্লেষণ করে। এছাড়া আছে World Investment Report — বিদেশি প্রত্যক্ষ বিনিয়োগের (FDI) প্রবণতা নিয়ে প্রতিবেদন। পরীক্ষায় 'কোন প্রতিবেদন কোন সংস্থার' ধরনের প্রশ্নে UNCTAD-এর এই দুটি নাম কাজে লাগে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "UNCTAD = ১৯৬৪, জেনেভা, উন্নয়নশীল দেশগুলির কণ্ঠ। WTO = ১৯৯৫, জেনেভা, বাণিজ্যের নিয়ম-প্রয়োগকারী। একই শহর, আলাদা ভূমিকা — UNCTAD পরামর্শ দেয়, WTO নিয়ম বাঁধে।"
+        }
+      ],
+      "claims": [
+        "c18",
+        "c19",
+        "c20",
+        "c43"
+      ]
+    },
+    {
+      "id": "regional_banks",
+      "heading": "আঞ্চলিক ও নতুন উন্নয়ন ব্যাংক: ADB, AIIB, NDB",
+      "quick": "তিনটি ব্যাংক, তিনটি শহর: ADB — ম্যানিলা (১৯৬৬), AIIB — বেইজিং (কার্যক্রম শুরু জানুয়ারি ২০১৬), NDB — সাংহাই (প্রতিষ্ঠা ২০১৪, চালু ২০১৫)। ভারত তিনটিতেই গুরুত্বপূর্ণ সদস্য — AIIB-তে দ্বিতীয় বৃহত্তম অংশীদার ও বৃহত্তম ঋণগ্রহীতা, NDB-তে প্রতিষ্ঠাতা সদস্য (২০% অংশীদারি)।",
+      "standard": "**এশীয় উন্নয়ন ব্যাংক (ADB):** ADB-র সনদ (Charter) গৃহীত হয় ৪ ডিসেম্বর ১৯৬৫-এ, আর পরিচালনা পর্ষদের প্রথম বৈঠক বসে টোকিওতে, ১৯ ডিসেম্বর ১৯৬৬-এ। সদর দপ্তর ফিলিপাইনের ম্যানিলায়। বর্তমান সদস্য ৬৯টি দেশ (এলাকা থেকে ৫০, বাইরে থেকে ১৯)। প্রথম প্রেসিডেন্ট ছিলেন জাপানের তাকেশি ওয়াতানাবে (Takeshi Watanabe)। ব্যাংকের প্রধান মন্ত্র হল সমৃদ্ধ, অন্তর্ভুক্তিমূলক, স্থিতিস্থাপক ও টেকসই এশিয়া-প্রশান্ত অঞ্চল গড়া; ১৯৯৯ সাল থেকে দারিদ্র্য দূরীকরণই এর প্রধান কর্মসূচি। কাজের দিক থেকে ADB-র মূল ভূমিকা আর্থিক সহায়তা দেওয়া — দুর্বল দেশগুলিকে অনুদান, অন্যদের ছাড়-সুবিধাযুক্ত বা বাজার-ঘেঁষা হারে ঋণ।\n\n**এশীয় অবকাঠামো বিনিয়োগ ব্যাংক (AIIB):** বহুপাক্ষিক উন্নয়ন ব্যাংক, সদর দপ্তর বেইজিংয়ে, কার্যক্রম শুরু জানুয়ারি ২০১৬-এ। ভারতের অবস্থান এখানে বিশেষভাবে পরীক্ষণীয়: ভারত AIIB-র দ্বিতীয় বৃহত্তম অংশীদার (চীনের পর) এবং এর বৃহত্তম ঋণগ্রহীতা। অর্থাৎ ভারত একই সঙ্গে ব্যাংকের মালিকানায় দ্বিতীয় এবং ঋণ নেওয়ার ক্ষেত্রে প্রথম।\n\n**নব উন্নয়ন ব্যাংক (NDB):** ব্রিকস দেশগুলি (ব্রাজিল, রাশিয়া, ভারত, চীন, দক্ষিণ আফ্রিকা) ২০১৪ সালে এই বহুপাক্ষিক উন্নয়ন ব্যাংক গড়ে তোলে; উদ্দেশ্য ব্রিকস ও অন্যান্য উদীয়মান-উন্নয়নশীল দেশগুলিতে অবকাঠামো ও টেকসই উন্নয়ন প্রকল্পে সম্পদ জোগান দেওয়া। ব্যাংক চালু হয় ২০১৫ সালে, সদর দপ্তর চীনের সাংহাইয়ে। ভারত এর প্রতিষ্ঠাতা সদস্যদের একজন, অংশীদারি ২০%। পরে বাংলাদেশ, সংযুক্ত আরব আমিরশাহি, মিশর ও উরুগুয়ে যোগ দিয়ে সদস্যপদ বাড়ে।",
+      "deep": "তিনটি ব্যাংকের তুলনা মনে রাখার কৌশল — পৃষ্ঠপোষক দিয়ে চেনা। ADB (১৯৬৬) সবচেয়ে পুরনো আঞ্চলিক ব্যাংক, সদর দপ্তর ম্যানিলা, প্রথম প্রেসিডেন্ট জাপানি। AIIB (২০১৬) চীন-কেন্দ্রিক উদ্যোগ, সদর দপ্তর বেইজিং, কিন্তু ভারত সেখানে দ্বিতীয় বৃহত্তম অংশীদার। NDB (২০১৪/২০১৫) ব্রিকসের নিজস্ব ব্যাংক, সদর দপ্তর সাংহাই, পাঁচ প্রতিষ্ঠাতার সমান ২০% করে অংশীদারি — বিশ্ব ব্যাংক/ADB-র ওজনভিত্তিক ভোটের তুলনায় এই সমান-অংশীদারি কাঠামোটাই NDB-র স্বাতন্ত্র্য।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "মেলানো প্রশ্নের জন্য: ADB–ম্যানিলা, AIIB–বেইজিং, NDB–সাংহাই। বেইজিং ও সাংহাই দুটোই চীনে — কোন ব্যাংক কোন শহরে, এটাই ফাঁদ।"
+        },
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "ভারত AIIB-তে: অংশীদারিতে **দ্বিতীয়**, ঋণগ্রহণে **প্রথম (বৃহত্তম)**। NDB-তে: প্রতিষ্ঠাতা সদস্য, **২০%** অংশীদারি।"
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c34",
+        "c35",
+        "c36",
+        "c44",
+        "c45"
+      ]
+    },
+    {
+      "id": "india_and_heads",
+      "heading": "ভারতের অবস্থান ও বর্তমান প্রধানগণ",
+      "quick": "ভারত এই সবকটি ব্যবস্থার সক্রিয় সদস্য: অর্থ মন্ত্রকের অর্থনৈতিক বিষয়ক বিভাগ (DEA) IMF ও বিশ্ব ব্যাংক গোষ্ঠীর বিষয় দেখে; অর্থমন্ত্রী IMF-তে ভারতের গভর্নর। বর্তমান প্রধানগণ (১৯ নভেম্বর ২০২৬ অনুযায়ী): IMF — ক্রিস্টালিনা জর্জিয়েভা, বিশ্ব ব্যাংক — অজয় বাঙ্গা, WTO — ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা।",
+      "standard": "ভারতের সঙ্গে এই সংস্থাগুলির সম্পর্ক কোন দপ্তর দেখে, তাও জানা দরকার। অর্থ মন্ত্রকের অর্থনৈতিক বিষয়ক বিভাগের (Department of Economic Affairs) Fund Bank Division বিশ্ব ব্যাংক গোষ্ঠী ও IMF সংক্রান্ত বিষয়ের দায়িত্বে; এটি আন্তর্জাতিক শাসনব্যবস্থায় ভারতের ভূমিকা তদারকি করে। IMF-তে ভারতের গভর্নর হিসেবে মনোনীত হন অর্থমন্ত্রী, আর বিকল্প গভর্নর (Alternate Governor) হন রিজার্ভ ব্যাংকের গভর্নর। একইভাবে NDB-তেও ভারতের গভর্নর অর্থমন্ত্রী — ৭ম বার্ষিক সভায় সভাপতিত্বের খবরে PIB ঠিক এভাবেই তাঁর পরিচয় দিয়েছে। দিল্লিতেই আছে IMF-এর দক্ষিণ এশিয়া আঞ্চলিক প্রশিক্ষণ ও কারিগরি সহায়তা কেন্দ্র (SARTTAC)।\n\nবাণিজ্যের ক্ষেত্রে ভারত WTO-তে নিজের উন্নয়ন-স্বার্থ জোরালোভাবে তোলে। IGNOU-র বিশ্লেষণ অনুযায়ী ভারতের সবচেয়ে বড় উদ্বেগ খাদ্য নিরাপত্তার জন্য সরকারি মজুত (public stockholding) কর্মসূচির স্থায়ী সমাধান; পাশাপাশি ভারত উন্নয়নশীল দেশগুলির জন্য বিশেষ ও পৃথক আচরণ (Special and Differential Treatment) বজায় রাখার উপর জোর দেয়।\n\nবর্তমান প্রধানগণ মনে রাখা এই অধ্যায়ের সবচেয়ে নম্বর-আনা অংশ। IMF-এর ব্যবস্থাপনা পরিচালক **ক্রিস্টালিনা জর্জিয়েভা** (Kristalina Georgieva) — PIB ২০২২ সালের এপ্রিলে অর্থমন্ত্রীর সঙ্গে তাঁর বৈঠকের খবরে এই পদবিতেই তাঁকে চিহ্নিত করে, এবং তিনি ২০১৯ সালেই এই দায়িত্ব নেন (Clerkship ২০১৯-এর প্রশ্ন)। বিশ্ব ব্যাংক গোষ্ঠীর প্রেসিডেন্ট **অজয় বাঙ্গা** (Ajay Banga) — PIB ২০২৩ সালের ডিসেম্বরে এই পদবিতে তাঁর কার্যক্রমের খবর দেয়। WTO-র মহাপরিচালক **ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা** (Ngozi Okonjo-Iweala) — আকাশবাণী সংবাদ ২০২৬ সালের মার্চে, WTO-র ১৪তম মন্ত্রী পর্যায়ের সম্মেলনের প্রেক্ষাপটে, তাঁকে এই পদবিতেই উল্লেখ করেছে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সময়-সংবেদনশীল তালিকা",
+          "body": "এই প্রধানদের তালিকা **১৯ নভেম্বর ২০২৬** তারিখের উৎস অনুযায়ী। পদাধিকারীরা বদলাতে পারেন — পরীক্ষার আগে সাম্প্রতিক খবর মিলিয়ে নেওয়া উচিত। ADB, AIIB ও NDB-র বর্তমান প্রধানদের নাম এই অধ্যায়ের অনুমোদিত উৎসগুলি (PIB/DEA/IGNOU) থেকে যাচাই করা যায়নি, তাই ইচ্ছাকৃতভাবে বাদ রাখা হয়েছে — অনুমান থেকে লেখা হয়নি।"
+        },
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "পদবি-ত্রয়ী: IMF → ব্যবস্থাপনা পরিচালক, বিশ্ব ব্যাংক → প্রেসিডেন্ট, WTO → মহাপরিচালক। প্রশ্নে পদবি বদলে দিলেই ফাঁদ তৈরি হয়।"
+        }
+      ],
+      "claims": [
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c37",
+        "c38",
+        "c40",
+        "c45"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "ব্রেটন উডস সম্মেলন ও যমজ প্রতিষ্ঠানের জন্ম",
+      "when": "১৯৪৪",
+      "what": "৪৪টি দেশের প্রতিনিধিদের বৈঠক থেকে IMF ও বিশ্ব ব্যাংকের ধারণা ও কাঠামো তৈরি হয়।",
+      "why_it_matters": "আজকের প্রায় সব আর্থিক-সংস্থা প্রশ্নের শিকড় এই একটি সম্মেলনে — জন্মসাল ও 'যমজ' ধারণাটি বারবার পরীক্ষায় আসে।",
+      "section": "bretton_woods_imf",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "title": "জেনেভায় GATT আলোচনার সূচনা",
+      "when": "১৯৪৭",
+      "what": "ভারতসহ ২৩টি দেশ জেনেভায় আলোচনা শুরু করে, যার ফল GATT; ব্যবস্থা কার্যকর হয় ১৯৪৮ থেকে।",
+      "why_it_matters": "ভারত শুরু থেকেই বহুপাক্ষিক বাণিজ্য ব্যবস্থার অংশ — এই ধারাবাহিকতাই WTO-তে ভারতের অবস্থানের ভিত্তি।",
+      "section": "wto_gatt",
+      "claims": [
+        "c22",
+        "c21"
+      ]
+    },
+    {
+      "title": "UNCTAD প্রতিষ্ঠা",
+      "when": "১৯৬৪",
+      "what": "সদ্য-স্বাধীন উন্নয়নশীল দেশগুলির দাবিতে রাষ্ট্রসংঘের বাণিজ্য ও উন্নয়ন সম্মেলন গঠিত হয়; প্রথম সম্মেলন জেনেভায়।",
+      "why_it_matters": "উন্নয়নশীল বিশ্ব প্রথম একটি নিজস্ব অর্থনৈতিক মঞ্চ পায় — WTO-র সঙ্গে এর ভূমিকার পার্থক্য পরীক্ষণীয়।",
+      "section": "unctad_trade",
+      "claims": [
+        "c18",
+        "c43"
+      ]
+    },
+    {
+      "title": "ADB-র সনদ গ্রহণ ও প্রথম বৈঠক",
+      "when": "১৯৬৫–১৯৬৬",
+      "what": "সনদ গৃহীত ৪ ডিসেম্বর ১৯৬৫; পরিচালনা পর্ষদের প্রথম বৈঠক টোকিওতে, ১৯ ডিসেম্বর ১৯৬৬।",
+      "why_it_matters": "এশিয়ার প্রাচীনতম আঞ্চলিক উন্নয়ন ব্যাংকের প্রতিষ্ঠা-বছর (১৯৬৬) ও ম্যানিলা সদর দপ্তর নিয়মিত প্রশ্ন।",
+      "section": "regional_banks",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "title": "মারাকেশ চুক্তি ও WTO-র সৃষ্টি",
+      "when": "১৯৯৪–১৯৯৫",
+      "what": "উরুগুয়ে রাউন্ডের পরিণতি মারাকেশ চুক্তি (১৯৯৪); ১ জানুয়ারি ১৯৯৫-এ WTO অস্তিত্বে আসে।",
+      "why_it_matters": "GATT বনাম WTO পার্থক্যের প্রশ্নগুলির কেন্দ্রবিন্দু এই দুটি তারিখ।",
+      "section": "wto_gatt",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "title": "NDB প্রতিষ্ঠা ও চালু",
+      "when": "২০১৪–২০১৫",
+      "what": "ব্রিকস দেশগুলি ২০১৪ সালে NDB গড়ে তোলে; ব্যাংক চালু হয় ২০১৫ সালে, সদর দপ্তর সাংহাইয়ে।",
+      "why_it_matters": "উন্নয়নশীল দেশগুলির গড়া প্রথম বহুপাক্ষিক উন্নয়ন ব্যাংক — ভারত প্রতিষ্ঠাতা সদস্য।",
+      "section": "regional_banks",
+      "claims": [
+        "c34",
+        "c35"
+      ]
+    },
+    {
+      "title": "AIIB-র কার্যক্রম শুরু",
+      "when": "জানুয়ারি ২০১৬",
+      "what": "বেইজিং সদর দপ্তর নিয়ে AIIB কার্যক্রম শুরু করে; ভারত দ্বিতীয় বৃহত্তম অংশীদার।",
+      "why_it_matters": "নতুন প্রজন্মের উন্নয়ন ব্যাংকে ভারতের দ্বৈত অবস্থান (অংশীদারিতে দ্বিতীয়, ঋণে প্রথম) পরীক্ষার প্রিয় তথ্য।",
+      "section": "regional_banks",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "title": "ভারতের অষ্টম বাণিজ্য নীতি পর্যালোচনা",
+      "when": "জুলাই ২০২৬",
+      "what": "WTO-তে জেনেভায় ভারতের অষ্টম Trade Policy Review সম্পন্ন হয়।",
+      "why_it_matters": "WTO-র স্বচ্ছতা-যন্ত্র বাস্তবে কীভাবে কাজ করে, তার সাম্প্রতিকতম ভারতীয় উদাহরণ।",
+      "section": "india_and_heads",
+      "claims": [
+        "c39"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "ক্রিস্টালিনা জর্জিয়েভা",
+      "when": "২০১৯–বর্তমান (১৯ নভেম্বর ২০২৬ অনুযায়ী)",
+      "role": "IMF-এর ব্যবস্থাপনা পরিচালক",
+      "contribution": "IMF-এর প্রধান নির্বাহী; PIB ২০২২ সালের এপ্রিলে ভারতের অর্থমন্ত্রীর সঙ্গে তাঁর দ্বিপাক্ষিক বৈঠকের খবর এই পদবিতেই দিয়েছে। Clerkship ২০১৯-এর প্রশ্ন ছিল ২০১৯-এ IMF-প্রধান হওয়া নিয়ে — উত্তর তিনিই।",
+      "section": "india_and_heads",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "name": "অজয় বাঙ্গা",
+      "when": "২০২৩–বর্তমান (১৯ নভেম্বর ২০২৬ অনুযায়ী)",
+      "role": "বিশ্ব ব্যাংক গোষ্ঠীর প্রেসিডেন্ট",
+      "contribution": "বিশ্ব ব্যাংক গোষ্ঠীর প্রধান; PIB ২০২৩ সালের ডিসেম্বরে নয়াদিল্লিতে তাঁর PPP ই-কোর্স উদ্বোধনের খবরে এই পদবি ব্যবহার করেছে।",
+      "section": "india_and_heads",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "name": "ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা",
+      "when": "২০২১–বর্তমান (১৯ নভেম্বর ২০২৬ অনুযায়ী)",
+      "role": "WTO-র মহাপরিচালক",
+      "contribution": "WTO সচিবালয়ের প্রধান; আকাশবাণী সংবাদ ২০২৬ সালের মার্চে, ১৪তম মন্ত্রী পর্যায়ের সম্মেলনের প্রেক্ষাপটে, কেন্দ্রীয় বাণিজ্যমন্ত্রীর সঙ্গে তাঁর বৈঠকের খবর দিয়েছে।",
+      "section": "india_and_heads",
+      "claims": [
+        "c33",
+        "c26"
+      ]
+    },
+    {
+      "name": "তাকেশি ওয়াতানাবে",
+      "when": "১৯৬৬",
+      "role": "ADB-র প্রথম প্রেসিডেন্ট",
+      "contribution": "জাপানের তাকেশি ওয়াতানাবে ছিলেন এশীয় উন্নয়ন ব্যাংকের প্রথম প্রেসিডেন্ট — ADB-র প্রতিষ্ঠা-তথ্যের সঙ্গে জড়িয়ে এই নামটি মনে রাখা হয়।",
+      "section": "regional_banks",
+      "claims": [
+        "c16"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1944,
+      "when": "১৯৪৪",
+      "label": "ব্রেটন উডস সম্মেলন: IMF ও বিশ্ব ব্যাংকের জন্ম",
+      "claims": [
+        "c01",
+        "c09"
+      ]
+    },
+    {
+      "sort_year": 1946,
+      "when": "১৯৪৬",
+      "label": "বিশ্ব ব্যাংক গোষ্ঠীর কার্যক্রম শুরু (৩৮ সদস্য)",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "sort_year": 1948,
+      "when": "১৯৪৮",
+      "label": "GATT-ব্যবস্থা কার্যকর: বহুপাক্ষিক বাণিজ্য ব্যবস্থার সূচনা",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "sort_year": 1964,
+      "when": "১৯৬৪",
+      "label": "UNCTAD প্রতিষ্ঠা",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 1966,
+      "when": "১৯৬৬",
+      "label": "ADB কার্যকর: প্রথম পরিচালনা পর্ষদ বৈঠক, টোকিও",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "sort_year": 1995,
+      "when": "১৯৯৫",
+      "label": "১ জানুয়ারি: WTO-র সৃষ্টি, GATT-এর উত্তরসূরি",
+      "claims": [
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "sort_year": 2014,
+      "when": "২০১৪",
+      "label": "ব্রিকস দেশগুলির NDB প্রতিষ্ঠা (চালু ২০১৫, সদর দপ্তর সাংহাই)",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "sort_year": 2016,
+      "when": "২০১৬",
+      "label": "জানুয়ারি: AIIB-র কার্যক্রম শুরু (সদর দপ্তর বেইজিং)",
+      "claims": [
+        "c36"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "ব্রেটন উডস যমজ (Bretton Woods Twins)",
+      "meaning": "একই ১৯৪৪ সালের সম্মেলনে জন্ম নেওয়ায় IMF ও বিশ্ব ব্যাংককে একসঙ্গে এই নামে ডাকা হয়।",
+      "section": "bretton_woods_imf"
+    },
+    {
+      "term": "লেনদেন-ভারসাম্য (Balance of Payments)",
+      "meaning": "কোনো দেশের সঙ্গে বাকি বিশ্বের সব লেনদেনের হিসাব; সংকটে পড়লে IMF সহায়তা দেয়।",
+      "section": "bretton_woods_imf"
+    },
+    {
+      "term": "নজরদারি (Surveillance)",
+      "meaning": "সদস্য দেশগুলির অর্থনৈতিক ও আর্থিক নীতির উপর IMF-এর পদ্ধতিগত নজর রাখা; Article IV পরামর্শ এর প্রধান যন্ত্র।",
+      "section": "bretton_woods_imf"
+    },
+    {
+      "term": "ছাড়-সুবিধাযুক্ত ঋণ (Concessional Loan)",
+      "meaning": "বাজার-হারের চেয়ে অনেক নরম শর্তে দেওয়া ঋণ; IDA দরিদ্রতম দেশগুলিকে এমন ঋণ দেয়।",
+      "section": "world_bank_group"
+    },
+    {
+      "term": "MFN (Most-Favoured-Nation)",
+      "meaning": "WTO নীতি: প্রতিটি সদস্যকে সব বাণিজ্য-অংশীদারের সঙ্গে সমান আচরণ করতে হবে।",
+      "section": "wto_gatt"
+    },
+    {
+      "term": "National Treatment",
+      "meaning": "বাজারে প্রবেশের পর আমদানি করা পণ্য-সেবাকে স্থানীয় পণ্য-সেবার সমান আচরণ দেওয়ার WTO নীতি।",
+      "section": "wto_gatt"
+    },
+    {
+      "term": "আপিল সংস্থা (Appellate Body)",
+      "meaning": "WTO বিরোধ নিষ্পত্তি ব্যবস্থার আপিল স্তর; জেনেভায় অবস্থিত — WBCS ২০২৩-এর প্রশ্ন।",
+      "section": "wto_gatt"
+    },
+    {
+      "term": "বিশেষ ও পৃথক আচরণ (Special and Differential Treatment)",
+      "meaning": "উন্নয়নশীল দেশগুলির জন্য নমনীয় নিয়ম ও দীর্ঘতর পালন-সময়; ভারত এটি বজায় রাখার পক্ষে।",
+      "section": "india_and_heads"
+    },
+    {
+      "term": "সরকারি মজুত (Public Stockholding)",
+      "meaning": "খাদ্য নিরাপত্তার জন্য সরকারের খাদ্যশস্য মজুত কর্মসূচি; WTO-তে ভারতের সবচেয়ে বড় উদ্বেগের বিষয়।",
+      "section": "india_and_heads"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "ব্রেটন উডস থেকে যমজ প্রতিষ্ঠান",
+      "causes": [
+        "দ্বিতীয় বিশ্বযুদ্ধোত্তর বিশ্বে মুদ্রা-অস্থিতি ও যুদ্ধবিধ্বস্ত অর্থনীতির পুনর্গঠনের প্রয়োজন"
+      ],
+      "event": "১৯৪৪ সালে ব্রেটন উডস সম্মেলনে ৪৪টি দেশ একটি বৈশ্বিক আর্থিক কাঠামোতে সম্মত হয়",
+      "results": [
+        "IMF গড়ে ওঠে মুদ্রা সহযোগিতা ও স্থিতির জন্য",
+        "বিশ্ব ব্যাংক গড়ে ওঠে পুনর্গঠন ও উন্নয়নের জন্য"
+      ],
+      "section": "bretton_woods_imf",
+      "claims": [
+        "c01",
+        "c02",
+        "c10"
+      ]
+    },
+    {
+      "title": "GATT-এর সীমাবদ্ধতা থেকে WTO",
+      "causes": [
+        "GATT ছিল সাময়িক চুক্তি, আওতা মূলত পণ্যে সীমিত",
+        "বিরোধ নিষ্পত্তির রায় প্রায়ই বিলম্বিত বা আটকে যেত",
+        "সেবা ও মেধাসম্পদ GATT-এর বাইরে ছিল"
+      ],
+      "event": "উরুগুয়ে রাউন্ডের পর ১৯৯৪ সালে মারাকেশ চুক্তি স্বাক্ষরিত হয়",
+      "results": [
+        "১ জানুয়ারি ১৯৯৫-এ স্থায়ী সংস্থা WTO সৃষ্টি হয়",
+        "আওতায় আসে পণ্য, সেবা (GATS) ও মেধাসম্পদ (TRIPS)",
+        "বাধ্যতামূলক বিরোধ নিষ্পত্তি ব্যবস্থা (DSU) চালু হয়"
+      ],
+      "section": "wto_gatt",
+      "claims": [
+        "c27",
+        "c42",
+        "c23"
+      ]
+    },
+    {
+      "title": "উন্নয়নশীল দেশগুলির অসন্তোষ থেকে UNCTAD",
+      "causes": [
+        "আফ্রিকা, এশিয়া ও লাতিন আমেরিকায় বহু নতুন স্বাধীন দেশের উদ্ভব",
+        "বৈশ্বিক বাণিজ্যের অসম কাঠামো নিয়ে উদ্বেগ"
+      ],
+      "event": "১৯৬৪ সালে UNCTAD প্রতিষ্ঠিত হয়; প্রথম সম্মেলন জেনেভায়",
+      "results": [
+        "উন্নয়নশীল বিশ্ব অর্থনৈতিক আকাঙ্ক্ষার সম্মিলিত কণ্ঠ পায়",
+        "UNCTAD উপদেষ্টা ও গবেষণা-সংস্থা হিসেবে কাজ শুরু করে"
+      ],
+      "section": "unctad_trade",
+      "claims": [
+        "c18",
+        "c43"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "সদর দপ্তরের শহর: IMF/বিশ্ব ব্যাংক — ওয়াশিংটন ডিসি; WTO/UNCTAD — জেনেভা; ADB — ম্যানিলা; AIIB — বেইজিং; NDB — সাংহাই",
+      "section": "regional_banks"
+    },
+    {
+      "point": "পদবির ফাঁদ: IMF — ব্যবস্থাপনা পরিচালক, বিশ্ব ব্যাংক — প্রেসিডেন্ট, WTO — মহাপরিচালক",
+      "section": "india_and_heads"
+    },
+    {
+      "point": "প্রতিষ্ঠা-সালের সিঁড়ি: ১৯৪৪ (IMF/বিশ্ব ব্যাংক), ১৯৪৮ (GATT), ১৯৬৪ (UNCTAD), ১৯৬৬ (ADB), ১৯৯৫ (WTO), ২০১৪/১৫ (NDB), ২০১৬ (AIIB)",
+      "section": "bretton_woods_imf"
+    },
+    {
+      "point": "বিশ্ব ব্যাংক গোষ্ঠীর পাঁচ প্রতিষ্ঠানের কাজ আলাদা করে মুখস্থ করা; IMF গোষ্ঠীর সদস্য নয়",
+      "section": "world_bank_group"
+    },
+    {
+      "point": "GATT বনাম WTO: চুক্তি বনাম সংস্থা, পণ্য বনাম পণ্য+সেবা+মেধাসম্পদ, দুর্বল বনাম বাধ্যতামূলক বিরোধ নিষ্পত্তি",
+      "section": "wto_gatt"
+    },
+    {
+      "point": "ভারতের অবস্থান: AIIB-তে দ্বিতীয় অংশীদার/বৃহত্তম ঋণগ্রহীতা, NDB-তে প্রতিষ্ঠাতা (২০%), IMF-তে অর্থমন্ত্রী গভর্নর",
+      "section": "india_and_heads"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের কোনো সংস্থারই সদর দপ্তর পশ্চিমবঙ্গে নয় — সেটাই সৎ উত্তর। বাংলার সঙ্গে সবচেয়ে কাছের বাস্তব যোগসূত্রটি পরোক্ষ: এই সংস্থাগুলির ঋণ ও কারিগরি সহায়তা ভারতের রাজ্যগুলির প্রকল্পে পৌঁছায়, আর IMF-এর দক্ষিণ এশিয়া আঞ্চলিক প্রশিক্ষণ কেন্দ্র (SARTTAC) নয়াদিল্লিতে অবস্থিত হওয়ায় পূর্ব ভারতের কর্মকর্তারাও সেখানে প্রশিক্ষণ পান। পরীক্ষার দিক থেকে বাংলার পরীক্ষার্থীর জন্য গুরুত্বপূর্ণ হল, WBCS ও Clerkship-এ এই অধ্যায়ের প্রশ্ন (বিশ্ব ব্যাংকের সদর দপ্তর, WTO-র আপিল সংস্থা, IMF-প্রধান) বারবার এসেছে — অর্থাৎ এই 'বিশ্ব' অধ্যায়টিই বাংলার পরীক্ষার সবচেয়ে নম্বর-আনা অংশগুলির একটি।",
+    "claims": [
+      "c40"
+    ]
+  },
+  "quick_revision": [
+    "ব্রেটন উডস ১৯৪৪ → IMF + বিশ্ব ব্যাংক; দুটোরই সদর দপ্তর ওয়াশিংটন ডিসি",
+    "IMF: মুদ্রা স্থিতি, নজরদারি (Article IV), লেনদেন-ভারসাম্য সংকটে ঋণ (SBA স্বল্পমেয়াদি, EFF মাঝারিমেয়াদি)",
+    "IMF-এর প্রধান প্রতিবেদন: World Economic Outlook, Global Financial Stability Report",
+    "বিশ্ব ব্যাংক গোষ্ঠী = IBRD + IDA + IFC + MIGA + ICSID; কার্যক্রম শুরু ১৯৪৬, মালিক ১৮৯ দেশ",
+    "IDA দরিদ্রতমদের নরম ঋণ; IFC বেসরকারি খাত; MIGA রাজনৈতিক ঝুঁকির বীমা; ICSID বিনিয়োগ বিরোধ",
+    "GATT ১৯৪৮ (চুক্তি, শুধু পণ্য) → মারাকেশ ১৯৯৪ → WTO ১ জানুয়ারি ১৯৯৫ (সংস্থা: পণ্য+GATS+TRIPS)",
+    "WTO: সদর দপ্তর জেনেভা, সদস্য ১৬৬, সর্বোচ্চ সংস্থা মন্ত্রী পর্যায়ের সম্মেলন (প্রতি ২ বছর)",
+    "WTO নীতি: MFN (সবাইকে সমান) ও National Treatment (আমদানি = স্থানীয়)",
+    "UNCTAD ১৯৬৪, জেনেভা, সদস্য ১৯৫, নিয়ন্ত্রক নয় উপদেষ্টা; প্রধান প্রতিবেদন Trade and Development Report",
+    "ADB: সনদ ১৯৬৫, কার্যকর ১৯৬৬, সদর দপ্তর ম্যানিলা, প্রথম প্রেসিডেন্ট তাকেশি ওয়াতানাবে, সদস্য ৬৯",
+    "AIIB: বেইজিং, চালু জানুয়ারি ২০১৬; ভারত দ্বিতীয় বৃহত্তম অংশীদার ও বৃহত্তম ঋণগ্রহীতা",
+    "NDB: ব্রিকসের ব্যাংক, ২০১৪/২০১৫, সদর দপ্তর সাংহাই; ভারত প্রতিষ্ঠাতা সদস্য, ২০% অংশীদারি",
+    "বর্তমান প্রধান (১৯/১১/২০২৬): IMF — জর্জিয়েভা (ব্যবস্থাপনা পরিচালক), বিশ্ব ব্যাংক — বাঙ্গা (প্রেসিডেন্ট), WTO — ওকোঞ্জো-ইওয়েয়ালা (মহাপরিচালক)",
+    "ভারত: IMF/NDB-তে অর্থমন্ত্রী গভর্নর; DEA-র Fund Bank Division IMF ও বিশ্ব ব্যাংক দেখে; SARTTAC নয়াদিল্লিতে"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "IGNOU, International Financial Institutions, Unit 12 (IMF, ADB, UNCTAD, World Bank)",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/122470/1/Unit-12.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "IGNOU, World Trade Organisation, Unit 7 (GATT, WTO, India's Role)",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/122458/1/Unit-7.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "PIB: World Bank Group President Ajay Banga launches PPP e-Course (Ministry of Finance, 20 Dec 2023)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1989683&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB: FM's bilateral meeting with Kristalina Georgieva, Managing Director, IMF (Ministry of Finance, 19 Apr 2022)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1817932&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB: FM chairs 7th Annual Meeting of Board of Governors of NDB — About NDB (Ministry of Finance, 2022)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1826746&ui=2&tf=1&pli=1&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "PIB: Joint India–NDB workshop — India a founding member of NDB (Ministry of Finance, 2019)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1584048&ui=2&tf=1&pli=1&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "PIB: AIIB–Government of India loan for Andhra Pradesh Rural Roads Project (Ministry of Finance, 2019)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1566685&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "Akashvani News (newsonair.gov.in): Union Minister Piyush Goyal meets DG of World Trade Organisation, 29 March 2026",
+      "url": "https://newsonair.gov.in/union-minister-piyush-goyal-meets-dg-of-world-trade-organisation/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "Department of Economic Affairs, Ministry of Finance: Fund Bank and Asian Development Bank Division",
+      "url": "https://dea.gov.in/index.php/our-organizations/fund-bank-asian-development-bank-division",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "PIB (via commerce.gov.in): India Concludes Eighth Trade Policy Review at WTO in Geneva, 23 July 2026",
+      "url": "https://www.commerce.gov.in/files/d-m-y/1pib.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "IMF and World Bank were the outcome of the Bretton Woods system (1944)",
+      "source": "s1",
+      "page": "Unit 12, §12.1 (p. 289)",
+      "quote": "International Financial Institutions such as the International Monetary Fund (IMF) and the World Bank were the outcome of the Bretton Woods system (1944) to ensure that the post war world has monetary stability and fosters the reconstruction of economies."
+    },
+    {
+      "id": "c02",
+      "claim": "IMF came into existence after the Bretton Woods meeting of representatives from 44 nations",
+      "source": "s1",
+      "page": "Unit 12, §12.2 (p. 290)",
+      "quote": "International Monetary Fund (IMF) came into existence after the Bretton Woods meeting of representatives from 44 nations who agreed to set up a global institution to ensure fair trade, financial stability and international monetary cooperation."
+    },
+    {
+      "id": "c03",
+      "claim": "Exchange-rate stability is the IMF's highest priority; it conducts surveillance through annual Article IV consultations",
+      "source": "s1",
+      "page": "Unit 12, §12.2.1 (p. 291)",
+      "quote": "IMF has made exchangerate stability its highest priority since inception. The IMF conducts comprehensive exchangerate surveillance through annual Article IV consultations"
+    },
+    {
+      "id": "c04",
+      "claim": "The IMF provides resources to member countries facing balance of payments difficulties",
+      "source": "s1",
+      "page": "Unit 12, §12.2.1 (p. 291)",
+      "quote": "Providing Resources to Member Countries Facing Balance of Payments Difficulties"
+    },
+    {
+      "id": "c05",
+      "claim": "Surveillance is one of the IMF's main functions",
+      "source": "s1",
+      "page": "Unit 12, §12.2.2 (p. 292)",
+      "quote": "Surveillance and Monitoring: The IMF, which was established to keep a vigilant eye on the stability of the global economy and the financial policies of its member countries, has surveillance as one of its main functions."
+    },
+    {
+      "id": "c06",
+      "claim": "IMF flagship publications include the World Economic Outlook and the Global Financial Stability Report",
+      "source": "s1",
+      "page": "Unit 12, §12.2.2 (p. 292)",
+      "quote": "Some of the major IMF publications that assist policymakers in coordinating their responses to systemic issues include the World Economic Outlook, Global Financial Stability Report, Fiscal Monitor, and External Sector Report."
+    },
+    {
+      "id": "c07",
+      "claim": "The IMF's Stand-By Arrangement is its flagship lending facility for countries facing short-term balance of payments challenges",
+      "source": "s1",
+      "page": "Unit 12, §12.2.4, Table 12.4 (p. 295)",
+      "quote": "Stand-By Arrangements (SBA) • IMF's flagship lending facility for countries facing shortterm balance of payments challenges."
+    },
+    {
+      "id": "c08",
+      "claim": "The IMF's Extended Fund Facility is tailored for medium-term balance of payments challenges and structural reforms",
+      "source": "s1",
+      "page": "Unit 12, §12.2.4, Table 12.4 (p. 295)",
+      "quote": "Extended Fund Facility (EFF) EFF is tailored for medium -term balance of payments challenges It supports comprehensive structural reforms over multiple years"
+    },
+    {
+      "id": "c09",
+      "claim": "Both the World Bank and the IMF were founded in 1944 at the Bretton Woods Conference and both are headquartered in Washington, D.C., USA",
+      "source": "s1",
+      "page": "Unit 12, §12.5, Table 12.11 (p. 310)",
+      "quote": "Founded 1944 (Bretton Woods Conference) 1944 (Bretton Woods Conference)"
+    },
+    {
+      "id": "c10",
+      "claim": "World Bank's primary purpose is to promote economic development in poorer countries; the IMF's is to maintain global monetary cooperation and stability",
+      "source": "s1",
+      "page": "Unit 12, §12.5, Table 12.11 (p. 310)",
+      "quote": "Primary Purpose Promote economic development in poorer countries. Maintain global monetary cooperation and stability."
+    },
+    {
+      "id": "c11",
+      "claim": "The World Bank Group has five constituents: IBRD, IDA, IFC, MIGA and ICSID",
+      "source": "s1",
+      "page": "Unit 12, §12.5.1 (p. 311)",
+      "quote": "the World Bank Group (WBG) as depicted in Table 12.2 has over the period grown into five constituents, i.e.; International Bank for Reconstruction and Development (IBRD), International Development Association (IDA), International Finance Corporation (IFC), Multilateral Investment Guarantee Agency (MIGA) and International Centre for Settlement of Investment Disputes (ICSID)."
+    },
+    {
+      "id": "c12",
+      "claim": "IBRD lends to creditworthy middle- and low-income countries; IDA gives concessional loans to poor countries; IFC develops the private sector; MIGA gives guarantees against non-commercial risk; ICSID settles investment disputes",
+      "source": "s1",
+      "page": "Unit 12, §12.5 (p. 309)",
+      "quote": "IBRD lends to middleincome and lowincome countries that have good credit, IDA gives concessional loan to Poor Countries), IFC has the main goal of developing private sector in emerging markets, MIGA provides guarantees and insurance for Non – Commercial Risk in emerging markets), and ICSID helps in solving international investment issues)"
+    },
+    {
+      "id": "c13",
+      "claim": "The World Bank Group started operations in 1946 with 38 members and is collectively owned by 189 countries",
+      "source": "s1",
+      "page": "Unit 12, §12.5 (p. 309)",
+      "quote": "The World Bank Group started its operations in 1946 with 38 Members. As per the recent data the World Bank is collectively owned by 189 Countries."
+    },
+    {
+      "id": "c14",
+      "claim": "The World Bank Group provides zero-interest and low-interest loans in sectors like infrastructure, education, healthcare and agriculture",
+      "source": "s1",
+      "page": "Unit 12, §12.5.3 (p. 312)",
+      "quote": "They provide Zero - Interest loans and Low – Interest loans in key sectors like Infrastructure, Education, Healthcare, Education, Agriculture."
+    },
+    {
+      "id": "c15",
+      "claim": "ADB headquarters is Manila, Philippines; its Charter was adopted on 4 December 1965 and the first Board of Governors meeting was held in Tokyo on 19 December 1966",
+      "source": "s1",
+      "page": "Unit 12, §12.3, Table 12.6 (p. 296)",
+      "quote": "First Board of Governors meeting Held in Tokyo on December 19, 1966, Founding members 31 Regional members Recipient of development aid The first President of ADB Takeshi Watanabe of Japan Charter of ADB adopted December 4, 1965 Current members 69 (50 from the region and 19 from elsewhere) Headquarter Manila, Philippines"
+    },
+    {
+      "id": "c16",
+      "claim": "The first President of ADB was Takeshi Watanabe of Japan",
+      "source": "s1",
+      "page": "Unit 12, §12.3, Table 12.6 (p. 296)",
+      "quote": "The first President of ADB Takeshi Watanabe of Japan"
+    },
+    {
+      "id": "c17",
+      "claim": "ADB's prime motto is fostering a prosperous, inclusive, resilient and sustainable Asia and Pacific; poverty reduction has been its main agenda since 1999",
+      "source": "s1",
+      "page": "Unit 12, §12.3.1 (pp. 296-297)",
+      "quote": "Fostering development of a prosperous, inclusive, resilient, and sustainable Asia and Pacific region is the prime motto of the ADB (ADB Strategy, 2030)."
+    },
+    {
+      "id": "c18",
+      "claim": "UNCTAD was established in 1964; its first conference was held in Geneva",
+      "source": "s1",
+      "page": "Unit 12, §12.4 (p. 303)",
+      "quote": "UNCTAD was established in 1964 during a period of substantial change in international relations, driven by the emergence of newly independent countries in Africa, Asia, and Latin America."
+    },
+    {
+      "id": "c19",
+      "claim": "UNCTAD is a 195-member body; its secretariat is based primarily in Geneva and it is an advisor/facilitator, not a regulatory body",
+      "source": "s1",
+      "page": "Unit 12, §12.4 (pp. 303-304)",
+      "quote": "UNCTAD - the mandate of 195-member body, centers around promoting inclusive, equitable, and sustainable development"
+    },
+    {
+      "id": "c20",
+      "claim": "UNCTAD's Trade and Development Report is its annual flagship publication; it also publishes the World Investment Report",
+      "source": "s1",
+      "page": "Unit 12, §12.4.4 (pp. 305-306)",
+      "quote": "Trade and Development Report: This annual flagship publication provides comprehensive analysis on global economic trends and policy challenges, informing both governments and international debates."
+    },
+    {
+      "id": "c21",
+      "claim": "The multilateral trading system began with GATT in 1948 and culminated in the creation of the WTO in 1995",
+      "source": "s2",
+      "page": "Unit 7, §7.1 (p. 149)",
+      "quote": "The multilateral trading system, began with the establishment of the General Agreement on Tariffs and Trade (GATT) in 1948 and culminating in the creation of the World Trade Organization (WTO) in 1995."
+    },
+    {
+      "id": "c22",
+      "claim": "In April 1947 a group of 23 countries including India began the talks in Geneva that produced GATT; GATT was the only multilateral body regulating international trade from 1948 until the WTO was founded in 1995",
+      "source": "s2",
+      "page": "Unit 7, §7.2 (p. 150)",
+      "quote": "In April 1947, a group of 23 countries including India began talks in Geneva."
+    },
+    {
+      "id": "c23",
+      "claim": "The Uruguay Round concluded with the Marrakesh Agreement in 1994, which established the WTO in 1995; the WTO was created on 1 January 1995",
+      "source": "s2",
+      "page": "Unit 7, §7.2 (pp. 150-151)",
+      "quote": "The Uruguay Round concluded with the Marrakesh Agreement in 1994, which established the World Trade Organization (WTO) in 1995."
+    },
+    {
+      "id": "c24",
+      "claim": "The WTO is the only global body regulating and facilitating trade among nations; established in 1995 it succeeded GATT and today has 166 members",
+      "source": "s2",
+      "page": "Unit 7, §7.3 (p. 153)",
+      "quote": "The World Trade Organization (WTO) is the only global body responsible for regulating and facilitating trade among nations. Established in 1995, it succeeded the General Agreement on Tariffs and Trade (GATT). Today, it has 166 members, representing the majority of the world's trading nations."
+    },
+    {
+      "id": "c25",
+      "claim": "The WTO Ministerial Conference is its highest decision-making body and typically convenes every two years; the General Council is the day-to-day governing body in Geneva",
+      "source": "s2",
+      "page": "Unit 7, §7.3.3 (pp. 156-157)",
+      "quote": "The Ministerial Conference, which typically convenes every two years, is the WTO's highest decision-making body."
+    },
+    {
+      "id": "c26",
+      "claim": "The WTO Secretariat is located in Geneva, Switzerland, and is led by the Director-General",
+      "source": "s2",
+      "page": "Unit 7, §7.3.3 (p. 157)",
+      "quote": "Secretariat o Located in Geneva, Switzerland. o Around 700 staff, led by the Director-General."
+    },
+    {
+      "id": "c27",
+      "claim": "GATT was a provisional agreement focused mainly on trade in goods; the WTO is a permanent organisation covering goods (GATT), services (GATS) and intellectual property (TRIPS), with a binding dispute settlement system including an Appellate Body",
+      "source": "s2",
+      "page": "Unit 7, §7.3.2, Table 7.2 (p. 155)",
+      "quote": "Nature Provisional agreement; not a formal international organization Permanent international organization with legal personality"
+    },
+    {
+      "id": "c28",
+      "claim": "Under the WTO's MFN principle a country must treat all trading partners equally; under National Treatment imported and local goods and services must be treated the same after entering the market",
+      "source": "s2",
+      "page": "Unit 7, §7.3.1 (pp. 154-155)",
+      "quote": "Most-Favoured-Nation (MFN) Principle: A country must treat all trading partners equally."
+    },
+    {
+      "id": "c29",
+      "claim": "The WTO Dispute Settlement Body handles conflicts through expert panels and an Appellate Body",
+      "source": "s2",
+      "page": "Unit 7, §7.3.5 (p. 161)",
+      "quote": "The Dispute Settlement Body (a branch of the General Council) handles conflicts through expert panels and an Appellate Body."
+    },
+    {
+      "id": "c30",
+      "claim": "India's key WTO concerns include a permanent solution for public stockholding for food security and retaining Special and Differential Treatment for developing countries",
+      "source": "s2",
+      "page": "Unit 7, §7.6 (p. 172)",
+      "quote": "Agriculture and Food Security: The need for a long-term solution for India's public stockholding programs, which are crucial to the country's food security and farmer livelihoods, is its biggest worry."
+    },
+    {
+      "id": "c31",
+      "claim": "Ajay Banga is President of the World Bank Group (as named by PIB, December 2023)",
+      "source": "s3",
+      "page": "PIB release, 20 Dec 2023",
+      "quote": "Shri Ajay Banga, President, World Bank Group, launched the Public-Private Partnership (PPP) Beginner's e-Course"
+    },
+    {
+      "id": "c32",
+      "claim": "Kristalina Georgieva is Managing Director of the International Monetary Fund (as named by PIB, April 2022)",
+      "source": "s4",
+      "page": "PIB release, 19 Apr 2022",
+      "quote": "Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman had a bilateral meeting with Ms Kristalina Georgieva, Managing Director, International Monetary Fund (IMF), on the sidelines of the International Monetary Fund-World Bank (IMF-WB) Spring Meetings in Washington D.C. today."
+    },
+    {
+      "id": "c33",
+      "claim": "Ngozi Okonjo-Iweala is Director-General of the World Trade Organisation (as reported by Akashvani News, March 2026)",
+      "source": "s8",
+      "page": "Akashvani News, 29 Mar 2026",
+      "quote": "Union Commerce and Industry Minister Piyush Goyal met the Director-General of the World Trade Organisation, Ngozi Okonjo-Iweala"
+    },
+    {
+      "id": "c34",
+      "claim": "NDB was set up by the BRICS countries in 2014, was operationalised in 2015, and has its headquarters in Shanghai, China",
+      "source": "s5",
+      "page": "PIB release, 2022, 'About NDB'",
+      "quote": "NDB is a multilateral development bank, set up by the BRICS countries (Brazil, Russia, India, China, and South Africa) in 2014 with the objective of mobilizing resources for infrastructure and sustainable development projects in the BRICS as well as other EMDCs of the world. The Bank was operationalised in 2015, with its Headquarters in Shanghai, China."
+    },
+    {
+      "id": "c35",
+      "claim": "India is one of the founding members of the NDB, holding 20% stake; the Bank is headquartered in Shanghai",
+      "source": "s6",
+      "page": "PIB release, 2019",
+      "quote": "India is one of the founding members, holding 20% stake in the Bank. The Bank is headquartered in Shanghai."
+    },
+    {
+      "id": "c36",
+      "claim": "The AIIB is a multilateral development bank headquartered in Beijing which began operations in January 2016; India is its second largest shareholder and its largest borrower",
+      "source": "s7",
+      "page": "PIB release, 2019",
+      "quote": "The Asian Infrastructure Investment Bank (AIIB) is a Multilateral Development Bank, headquartered in Beijing, which began operations in January 2016. Republic of India is the Second Largest shareholder in the AIIB and its Largest borrower."
+    },
+    {
+      "id": "c37",
+      "claim": "India's Department of Economic Affairs Fund Bank Division is responsible for matters related to the World Bank Group and the IMF, and oversees India's role in their governance",
+      "source": "s9",
+      "page": "DEA website, Fund Bank Division",
+      "quote": "The Fund Bank Division is responsible for matters related to the World Bank Group and the International Monetary Fund (IMF). It oversees India's role in the international governance of these organizations, ensuring effective participation and policy engagement."
+    },
+    {
+      "id": "c38",
+      "claim": "The Finance Minister is nominated as India's Governor at the IMF and the RBI Governor as Alternate Governor",
+      "source": "s9",
+      "page": "DEA website, IMF section",
+      "quote": "Nomination of FM as India's Governor and Governor, RBI as Alternate Governor of the Fund."
+    },
+    {
+      "id": "c39",
+      "claim": "India's Eighth Trade Policy Review concluded at the WTO in Geneva; the TPR is the WTO's transparency and monitoring mechanism",
+      "source": "s10",
+      "page": "PIB release, 23 Jul 2026",
+      "quote": "The second and final session of India's Eighth Trade Policy Review (TPR) concluded today at the World Trade Organization (WTO) in Geneva. The Trade Policy Review is a key transparency and monitoring mechanism of the WTO"
+    },
+    {
+      "id": "c40",
+      "claim": "The IMF's South Asia Regional Training and Technical Assistance Centre (SARTTAC) is based in New Delhi",
+      "source": "s9",
+      "page": "DEA website, IMF section",
+      "quote": "Engagement of India with IMF's SARTTAC (South Asia Regional Training and Technical Assistance Centre) based in New Delhi, including participation in Steering Committee"
+    },
+    {
+      "id": "c41",
+      "claim": "Headquarters of both the World Bank and the IMF is Washington, D.C., USA",
+      "source": "s1",
+      "page": "Unit 12, §12.5, Table 12.11 (p. 310)",
+      "quote": "Headquarters Washington, D.C., USA Washington, D.C., USA"
+    },
+    {
+      "id": "c42",
+      "claim": "WTO dispute settlement rulings under GATT were often delayed or blocked, whereas the WTO has a binding Dispute Settlement Understanding with panels and an Appellate Body",
+      "source": "s2",
+      "page": "Unit 7, §7.3.2, Table 7.2 (p. 155)",
+      "quote": "Dispute Settlement Based on diplomacy, rulings were often delayed or blocked by parties Binding Dispute Settlement Understanding (DSU) with panels, Appellate Body, and enforcement"
+    },
+    {
+      "id": "c43",
+      "claim": "The first UNCTAD conference was held in Geneva and UNCTAD functions as an advisor and facilitator rather than a regulatory body",
+      "source": "s1",
+      "page": "Unit 12, §12.4 (pp. 303-304)",
+      "quote": "UNCTAD functions as an advisor and facilitator rather than being a regulatory body. The UNCTAD secretariat, based primarily in Geneva, provides technical and administrative support, conducts research, and coordinates implementation."
+    },
+    {
+      "id": "c44",
+      "claim": "ADB grants financial support as its main role: grants to weak nations, concessional or near-market loans to others",
+      "source": "s1",
+      "page": "Unit 12, §12.3.2 (p. 297)",
+      "quote": "Loans and Grants: Granting financial support to its member countries is the main role of the ADB. The weak nations are awarded grants, while others get concessional loans or nearmarket rate loans."
+    },
+    {
+      "id": "c45",
+      "claim": "India's Finance Minister is India's Governor for the New Development Bank",
+      "source": "s5",
+      "page": "PIB release, 2022",
+      "quote": "Union Minister of Finance & Corporate Affairs and India's Governor for the New Development Bank (NDB), Smt. Nirmala Sitharaman chaired the 7th Annual Meeting of Board of Governors of NDB"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "bretton_woods_imf",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "IMF কোন সম্মেলনের ফসল হিসেবে গড়ে ওঠে?",
+      "a": "ব্রেটন উডস সম্মেলন (১৯৪৪)",
+      "w": [
+        "সান ফ্রান্সিসকো সম্মেলন",
+        "মারাকেশ সম্মেলন",
+        "উরুগুয়ে রাউন্ড"
+      ],
+      "e": "IMF ও বিশ্ব ব্যাংক দুটোই ১৯৪৪ সালের ব্রেটন উডস ব্যবস্থার ফসল। মারাকেশ (১৯৯৪) WTO-র সঙ্গে যুক্ত, উরুগুয়ে রাউন্ড GATT আলোচনার পর্ব।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "bretton_woods_imf",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "IMF-এর সদর দপ্তর কোথায়?",
+      "a": "ওয়াশিংটন ডিসি, যুক্তরাষ্ট্র",
+      "w": [
+        "জেনেভা, সুইজারল্যান্ড",
+        "নিউ ইয়র্ক, যুক্তরাষ্ট্র",
+        "ম্যানিলা, ফিলিপাইন"
+      ],
+      "e": "IMF ও বিশ্ব ব্যাংক — ব্রেটন উডসের দুই যমজেরই সদর দপ্তর ওয়াশিংটন ডিসিতে। জেনেভা WTO/UNCTAD-র, ম্যানিলা ADB-র শহর।",
+      "claims": [
+        "c41",
+        "c09"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "bretton_woods_imf",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "লেনদেন-ভারসাম্য (balance of payments) সংকটে পড়া সদস্য দেশকে সম্পদ জোগান দেওয়া কোন সংস্থার কাজ?",
+      "a": "IMF",
+      "w": [
+        "WTO",
+        "UNCTAD",
+        "ICSID"
+      ],
+      "e": "IMF-এর অন্যতম দায়িত্ব লেনদেন-ভারসাম্য সমস্যায় থাকা সদস্য দেশগুলিকে সম্পদ জোগান দেওয়া। WTO বাণিজ্য-নিয়ম দেখে, ICSID বিনিয়োগ বিরোধ মেটায়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "bretton_woods_imf",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IMF-এর কোন বার্ষিক পরামর্শ-প্রক্রিয়ার মাধ্যমে সদস্য দেশগুলির বিনিময়-হার নীতির নজরদারি চলে?",
+      "a": "Article IV পরামর্শ (consultation)",
+      "w": [
+        "Trade Policy Review",
+        "বিশেষ উত্তোলন অধিকার বণ্টন",
+        "Stand-By পর্যালোচনা"
+      ],
+      "e": "IGNOU অনুযায়ী IMF বার্ষিক Article IV পরামর্শের মাধ্যমে বিনিময়-হার নজরদারি চালায়। Trade Policy Review হল WTO-র যন্ত্র।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "bretton_woods_imf",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্বল্পমেয়াদি লেনদেন-ভারসাম্য সংকটের জন্য IMF-এর প্রধান ঋণ-সুবিধা কোনটি?",
+      "a": "Stand-By Arrangement (SBA)",
+      "w": [
+        "Extended Fund Facility (EFF)",
+        "Poverty Reduction and Growth Trust (PRGT)",
+        "Rapid Credit Facility (RCF)"
+      ],
+      "e": "SBA হল স্বল্পমেয়াদি সংকটের জন্য IMF-এর প্রধান (flagship) ঋণ-সুবিধা। EFF মাঝারিমেয়াদি ও কাঠামোগত সংস্কারের জন্য।",
+      "claims": [
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "bretton_woods_imf",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোন প্রতিবেদনটি IMF প্রকাশ করে?",
+      "a": "World Economic Outlook",
+      "w": [
+        "World Development Report",
+        "Trade and Development Report",
+        "Asian Development Outlook"
+      ],
+      "e": "World Economic Outlook ও Global Financial Stability Report IMF-এর প্রধান প্রকাশনা। Trade and Development Report UNCTAD-এর।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "bretton_woods_imf",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. IMF ও বিশ্ব ব্যাংক দুটোই ১৯৪৪ সালে ব্রেটন উডস সম্মেলনে সৃষ্টি হয়।\n২. IMF-এর প্রধান কাজ দরিদ্র দেশগুলিতে দীর্ঘমেয়াদি প্রকল্প-ঋণ দেওয়া।\n৩. নজরদারি (surveillance) IMF-এর অন্যতম প্রধান কাজ।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ৩",
+      "w": [
+        "শুধু ১ ও ২",
+        "১, ২ ও ৩",
+        "শুধু ২ ও ৩"
+      ],
+      "e": "বিবৃতি ২ ভুল — দীর্ঘমেয়াদি উন্নয়ন ঋণ বিশ্ব ব্যাংকের কাজ; IMF-এর মূল উদ্দেশ্য মুদ্রা সহযোগিতা ও স্থিতি। ১ ও ৩ সঠিক।",
+      "claims": [
+        "c09",
+        "c10",
+        "c05"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "world_bank_group",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব ব্যাংক গোষ্ঠীতে মোট কটি প্রতিষ্ঠান আছে?",
+      "a": "৫টি",
+      "w": [
+        "৩টি",
+        "৪টি",
+        "৬টি"
+      ],
+      "e": "গোষ্ঠীর পাঁচটি প্রতিষ্ঠান: IBRD, IDA, IFC, MIGA ও ICSID।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "world_bank_group",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দরিদ্রতম দেশগুলিকে ছাড়-সুবিধাযুক্ত (নরম শর্তের) ঋণ দেয় কোন প্রতিষ্ঠান?",
+      "a": "IDA",
+      "w": [
+        "IBRD",
+        "IFC",
+        "MIGA"
+      ],
+      "e": "IDA দরিদ্র দেশগুলিকে ছাড়-সুবিধাযুক্ত ঋণ দেয়। IBRD ঋণ দেয় ভালো ঋণ-যোগ্যতাসম্পন্ন মাঝারি ও নিম্ন-আয়ের দেশগুলিকে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "world_bank_group",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বেসরকারি খাতের বিকাশ কোন বিশ্ব ব্যাংক গোষ্ঠী-প্রতিষ্ঠানের মূল লক্ষ্য?",
+      "a": "IFC",
+      "w": [
+        "IDA",
+        "ICSID",
+        "MIGA"
+      ],
+      "e": "IFC-র মূল লক্ষ্য উদীয়মান বাজারে বেসরকারি খাতের বিকাশ। MIGA রাজনৈতিক ঝুঁকির গ্যারান্টি দেয়, ICSID বিনিয়োগ বিরোধ মেটায়।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "world_bank_group",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব ব্যাংক গোষ্ঠী কত সালে, কতজন সদস্য নিয়ে কার্যক্রম শুরু করে?",
+      "a": "১৯৪৬ সালে, ৩৮ জন সদস্য নিয়ে",
+      "w": [
+        "১৯৪৪ সালে, ৪৪ জন সদস্য নিয়ে",
+        "১৯৪৫ সালে, ২৯ জন সদস্য নিয়ে",
+        "১৯৬৬ সালে, ৩১ জন সদস্য নিয়ে"
+      ],
+      "e": "গোষ্ঠী কার্যক্রম শুরু করে ১৯৪৬ সালে ৩৮ জন সদস্য নিয়ে; আজ মালিক ১৮৯টি দেশ। ১৯৪৪/৪৪ হল ব্রেটন উডস সম্মেলনের সংখ্যা।",
+      "claims": [
+        "c13",
+        "c02"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "world_bank_group",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিনিয়োগ-বিরোধ নিষ্পত্তিতে সাহায্য করে কোন প্রতিষ্ঠান?",
+      "a": "ICSID",
+      "w": [
+        "IDA",
+        "IFC",
+        "MIGA"
+      ],
+      "e": "ICSID আন্তর্জাতিক বিনিয়োগ-সংক্রান্ত বিষয়/বিরোধ নিষ্পত্তিতে সাহায্য করে। MIGA গ্যারান্টি ও বীমা দেয়, বিরোধ মেটায় না।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "world_bank_group",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিশ্ব ব্যাংক গোষ্ঠী সম্পর্কে কোনটি সঠিক?",
+      "a": "এটি সম্মিলিতভাবে ১৮৯টি দেশের মালিকানাধীন",
+      "w": [
+        "এর সদর দপ্তর জেনেভায়",
+        "IMF এই গোষ্ঠীর একটি প্রতিষ্ঠান",
+        "এর কার্যক্রম শুরু হয় ১৯৯৫ সালে"
+      ],
+      "e": "গোষ্ঠী ১৮৯টি দেশের মালিকানাধীন, সদর দপ্তর ওয়াশিংটন ডিসিতে। IMF গোষ্ঠীর সদস্য নয় — এটি আলাদা প্রতিষ্ঠান।",
+      "claims": [
+        "c13",
+        "c41",
+        "c11"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "world_bank_group",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "প্রতিষ্ঠানকে তার কাজের সঙ্গে মেলাও:\nA. IBRD\nB. IDA\nC. IFC\nD. MIGA\n১. দরিদ্র দেশকে ছাড়-সুবিধাযুক্ত ঋণ\n২. অ-বাণিজ্যিক ঝুঁকির গ্যারান্টি ও বীমা\n৩. ঋণযোগ্য মাঝারি/নিম্ন-আয়ের দেশকে ঋণ\n৪. বেসরকারি খাতের বিকাশ",
+      "a": "A-৩, B-১, C-৪, D-২",
+      "w": [
+        "A-১, B-৩, C-৪, D-২",
+        "A-৩, B-২, C-৪, D-১",
+        "A-৪, B-১, C-৩, D-২"
+      ],
+      "e": "IBRD ঋণযোগ্য দেশকে ঋণ দেয়, IDA দরিদ্রতমদের নরম ঋণ, IFC বেসরকারি খাত গড়ে, MIGA রাজনৈতিক (অ-বাণিজ্যিক) ঝুঁকির বীমা দেয়।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "wto_gatt",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WTO কবে অস্তিত্বে আসে?",
+      "a": "১ জানুয়ারি ১৯৯৫",
+      "w": [
+        "১ জানুয়ারি ১৯৪৮",
+        "১৫ এপ্রিল ১৯৯৪",
+        "১ জানুয়ারি ২০০১"
+      ],
+      "e": "WTO সৃষ্টি হয় ১ জানুয়ারি ১৯৯৫-এ। ১৯৯৪ হল মারাকেশ চুক্তির বছর, ১৯৪৮ GATT-এর।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "wto_gatt",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WTO কোন ব্যবস্থার উত্তরসূরি?",
+      "a": "GATT",
+      "w": [
+        "UNCTAD",
+        "GATS",
+        "TRIPS"
+      ],
+      "e": "WTO GATT-এর উত্তরসূরি। GATS ও TRIPS WTO-র ভেতরের চুক্তি; UNCTAD আলাদা সংস্থা হিসেবে এখনো আছে।",
+      "claims": [
+        "c24",
+        "c21"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "wto_gatt",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WTO-র সদর দপ্তর কোথায়?",
+      "a": "জেনেভা",
+      "w": [
+        "ওয়াশিংটন ডিসি",
+        "নিউ ইয়র্ক",
+        "ম্যানিলা"
+      ],
+      "e": "WTO-র সচিবালয় জেনেভায় অবস্থিত। ওয়াশিংটন ডিসি IMF/বিশ্ব ব্যাংকের শহর।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "wto_gatt",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "WTO-র সর্বোচ্চ সিদ্ধান্ত গ্রহণকারী সংস্থা কোনটি?",
+      "a": "মন্ত্রী পর্যায়ের সম্মেলন (Ministerial Conference)",
+      "w": [
+        "সাধারণ পরিষদ (General Council)",
+        "বিরোধ নিষ্পত্তি সংস্থা",
+        "সচিবালয়"
+      ],
+      "e": "মন্ত্রী পর্যায়ের সম্মেলন সর্বোচ্চ সংস্থা, সাধারণত প্রতি দুই বছরে বসে। সাধারণ পরিষদ দৈনন্দিন কাজ চালায়।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "wto_gatt",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MFN নীতির অর্থ কী?",
+      "a": "সব বাণিজ্য-অংশীদারকে সমান আচরণ করতে হবে",
+      "w": [
+        "আমদানি পণ্যে স্থানীয় পণ্যের চেয়ে বেশি শুল্ক বসাতে হবে",
+        "শুধু প্রতিবেশী দেশকে ছাড় দিতে হবে",
+        "সেবা বাণিজ্যে কোনো নিয়ম নেই"
+      ],
+      "e": "MFN (Most-Favoured-Nation) নীতি অনুযায়ী একটি দেশকে সব বাণিজ্য-অংশীদারের সঙ্গে সমান আচরণ করতে হয়।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "wto_gatt",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "WTO-র বর্তমান সদস্য সংখ্যা (IGNOU পাঠ্য অনুযায়ী) কত?",
+      "a": "১৬৬",
+      "w": [
+        "১৬৪",
+        "১৯৫",
+        "১৮৯"
+      ],
+      "e": "IGNOU-র WTO ইউনিট অনুযায়ী WTO-র সদস্য ১৬৬টি দেশ। ১৯৫ হল UNCTAD-র সদস্য সংখ্যা, ১৮৯ বিশ্ব ব্যাংকের মালিক-দেশের সংখ্যা।",
+      "claims": [
+        "c24",
+        "c19",
+        "c13"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "wto_gatt",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. GATT ছিল একটি সাময়িক চুক্তি, পূর্ণাঙ্গ সংস্থা নয়।\n২. WTO শুধু পণ্য বাণিজ্য আওতায় আনে।\n৩. WTO-র বিরোধ নিষ্পত্তি ব্যবস্থায় আপিল সংস্থা (Appellate Body) আছে।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ৩",
+      "w": [
+        "শুধু ১ ও ২",
+        "১, ২ ও ৩",
+        "শুধু ২ ও ৩"
+      ],
+      "e": "বিবৃতি ২ ভুল — WTO পণ্যের পাশাপাশি সেবা (GATS) ও মেধাসম্পদ (TRIPS) আওতায় আনে। ১ ও ৩ সঠিক।",
+      "claims": [
+        "c27",
+        "c42"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "wto_gatt",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে কালানুক্রমে সাজাও:\n১. WTO-র সৃষ্টি\n২. GATT আলোচনার সূচনা জেনেভায়\n৩. মারাকেশ চুক্তি\n৪. GATT কার্যকর হওয়া (বহুপাক্ষিক ব্যবস্থার সূচনা)",
+      "a": "২ → ৪ → ৩ → ১",
+      "w": [
+        "৪ → ২ → ৩ → ১",
+        "২ → ৩ → ৪ → ১",
+        "৪ → ৩ → ২ → ১"
+      ],
+      "e": "১৯৪৭-এ জেনেভায় ২৩টি দেশের আলোচনা, ১৯৪৮ থেকে GATT-ব্যবস্থা, ১৯৯৪-এ মারাকেশ চুক্তি, ১ জানুয়ারি ১৯৯৫-এ WTO।",
+      "claims": [
+        "c22",
+        "c21",
+        "c23"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "unctad_trade",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "UNCTAD কত সালে প্রতিষ্ঠিত হয়?",
+      "a": "১৯৬৪",
+      "w": [
+        "১৯৪৪",
+        "১৯৬৬",
+        "১৯৯৫"
+      ],
+      "e": "UNCTAD প্রতিষ্ঠিত হয় ১৯৬৪ সালে, সদ্য-স্বাধীন উন্নয়নশীল দেশগুলির দাবির প্রেক্ষাপটে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "unctad_trade",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "UNCTAD-র সচিবালয় কোথায় অবস্থিত?",
+      "a": "জেনেভা",
+      "w": [
+        "নিউ ইয়র্ক",
+        "ম্যানিলা",
+        "ওয়াশিংটন ডিসি"
+      ],
+      "e": "UNCTAD সচিবালয় মূলত জেনেভায় অবস্থিত।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "unctad_trade",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "UNCTAD-র ভূমিকা সম্পর্কে কোনটি সঠিক?",
+      "a": "এটি উপদেষ্টা ও সহায়ক, নিয়ন্ত্রক সংস্থা নয়",
+      "w": [
+        "এটি বাণিজ্য-নিয়ম প্রয়োগকারী সংস্থা",
+        "এটি ঋণদানকারী উন্নয়ন ব্যাংক",
+        "এটি মুদ্রা-স্থিতি রক্ষাকারী তহবিল"
+      ],
+      "e": "UNCTAD পরামর্শ, গবেষণা ও কারিগরি সহায়তা দেয়; নিয়ম বাঁধে WTO, ঋণ দেয় উন্নয়ন ব্যাংকগুলি, মুদ্রা দেখে IMF।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "unctad_trade",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "UNCTAD-র বার্ষিক প্রধান (flagship) প্রতিবেদন কোনটি?",
+      "a": "Trade and Development Report",
+      "w": [
+        "World Economic Outlook",
+        "Global Financial Stability Report",
+        "World Investment Report"
+      ],
+      "e": "Trade and Development Report UNCTAD-র বার্ষিক প্রধান প্রকাশনা। World Investment Report-ও UNCTAD-র, কিন্তু প্রধান বার্ষিক প্রতিবেদন হল প্রথমটি; বাকি দুটি IMF-এর।",
+      "claims": [
+        "c20",
+        "c06"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "unctad_trade",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "UNCTAD-র সদস্য সংখ্যা কত?",
+      "a": "১৯৫",
+      "w": [
+        "১৬৬",
+        "১৮৯",
+        "৬৯"
+      ],
+      "e": "UNCTAD ১৯৫-সদস্যের সংস্থা। ১৬৬ WTO-র, ১৮৯ বিশ্ব ব্যাংকের, ৬৯ ADB-র সদস্য সংখ্যা।",
+      "claims": [
+        "c19",
+        "c24",
+        "c13",
+        "c15"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "unctad_trade",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "a": "UNCTAD – জেনেভা",
+      "w": [
+        "UNCTAD – নিউ ইয়র্ক",
+        "WTO – ওয়াশিংটন ডিসি",
+        "ADB – বেইজিং"
+      ],
+      "e": "UNCTAD সচিবালয় জেনেভায়। WTO-ও জেনেভায় (ওয়াশিংটনে নয়), ADB ম্যানিলায় (বেইজিং AIIB-র)।",
+      "claims": [
+        "c43",
+        "c26",
+        "c15",
+        "c36"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "regional_banks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ADB-র সদর দপ্তর কোথায়?",
+      "a": "ম্যানিলা, ফিলিপাইন",
+      "w": [
+        "টোকিও, জাপান",
+        "বেইজিং, চীন",
+        "সাংহাই, চীন"
+      ],
+      "e": "ADB-র সদর দপ্তর ম্যানিলায় — জাপান বৃহত্তম প্রভাবশালী হলেও টোকিওতে নয়। বেইজিং AIIB-র, সাংহাই NDB-র শহর।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "regional_banks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NDB কোন গোষ্ঠীর ব্যাংক?",
+      "a": "ব্রিকস (BRICS)",
+      "w": [
+        "G7",
+        "আসিয়ান (ASEAN)",
+        "সার্ক (SAARC)"
+      ],
+      "e": "NDB ব্রিকস দেশগুলির (ব্রাজিল, রাশিয়া, ভারত, চীন, দক্ষিণ আফ্রিকা) গড়া বহুপাক্ষিক উন্নয়ন ব্যাংক।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "regional_banks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "AIIB-তে ভারতের অবস্থান কোনটি?",
+      "a": "দ্বিতীয় বৃহত্তম অংশীদার ও বৃহত্তম ঋণগ্রহীতা",
+      "w": [
+        "বৃহত্তম অংশীদার ও দ্বিতীয় বৃহত্তম ঋণগ্রহীতা",
+        "প্রতিষ্ঠাতা সদস্য নয়",
+        "শুধু পর্যবেক্ষক সদস্য"
+      ],
+      "e": "PIB অনুযায়ী ভারত AIIB-র দ্বিতীয় বৃহত্তম অংশীদার এবং বৃহত্তম ঋণগ্রহীতা।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "regional_banks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NDB কবে প্রতিষ্ঠিত হয় এবং কবে চালু হয়?",
+      "a": "প্রতিষ্ঠা ২০১৪, চালু ২০১৫",
+      "w": [
+        "প্রতিষ্ঠা ২০১৫, চালু ২০১৬",
+        "প্রতিষ্ঠা ২০১৩, চালু ২০১৪",
+        "প্রতিষ্ঠা ২০১৬, চালু ২০১৭"
+      ],
+      "e": "ব্রিকস দেশগুলি ২০১৪ সালে NDB গড়ে তোলে; ব্যাংক কার্যকর হয় ২০১৫ সালে, সদর দপ্তর সাংহাইয়ে।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "regional_banks",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ADB সম্পর্কে কোনটি সঠিক?",
+      "a": "এর প্রথম প্রেসিডেন্ট ছিলেন জাপানের তাকেশি ওয়াতানাবে",
+      "w": [
+        "এর সনদ গৃহীত হয় ১৯৯৫ সালে",
+        "এর সদস্য সংখ্যা ১৯৫",
+        "এর সদর দপ্তর টোকিওতে"
+      ],
+      "e": "ADB-র সনদ ৪ ডিসেম্বর ১৯৬৫-এ গৃহীত, প্রথম প্রেসিডেন্ট তাকেশি ওয়াতানাবে, সদস্য ৬৯, সদর দপ্তর ম্যানিলা।",
+      "claims": [
+        "c15",
+        "c16"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "regional_banks",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "NDB-তে ভারতের অংশীদারি কত?",
+      "a": "২০%",
+      "w": [
+        "৮%",
+        "২৬%",
+        "৫০%"
+      ],
+      "e": "PIB অনুযায়ী ভারত NDB-র প্রতিষ্ঠাতা সদস্য, অংশীদারি ২০% — পাঁচ প্রতিষ্ঠাতার সমান ভাগের প্রতিফলন।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "regional_banks",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "ব্যাংককে তার সদর দপ্তরের সঙ্গে মেলাও:\nA. ADB\nB. AIIB\nC. NDB\nD. বিশ্ব ব্যাংক\n১. ওয়াশিংটন ডিসি\n২. সাংহাই\n৩. ম্যানিলা\n৪. বেইজিং",
+      "a": "A-৩, B-৪, C-২, D-১",
+      "w": [
+        "A-৩, B-২, C-৪, D-১",
+        "A-৪, B-৩, C-২, D-১",
+        "A-৩, B-৪, C-১, D-২"
+      ],
+      "e": "ADB–ম্যানিলা, AIIB–বেইজিং, NDB–সাংহাই, বিশ্ব ব্যাংক–ওয়াশিংটন ডিসি।",
+      "claims": [
+        "c15",
+        "c36",
+        "c34",
+        "c41"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "india_and_heads",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "IMF-এর বর্তমান ব্যবস্থাপনা পরিচালক (১৯ নভেম্বর ২০২৬ অনুযায়ী) কে?",
+      "a": "ক্রিস্টালিনা জর্জিয়েভা",
+      "w": [
+        "অজয় বাঙ্গা",
+        "ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা",
+        "ক্রিস্টিন লাগার্দ"
+      ],
+      "e": "PIB অর্থমন্ত্রীর সঙ্গে বৈঠকের খবরে ক্রিস্টালিনা জর্জিয়েভাকে IMF-এর ব্যবস্থাপনা পরিচালক হিসেবে চিহ্নিত করে। বাঙ্গা বিশ্ব ব্যাংকের প্রেসিডেন্ট, ওকোঞ্জো-ইওয়েয়ালা WTO-র মহাপরিচালক।",
+      "claims": [
+        "c32",
+        "c31",
+        "c33"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "india_and_heads",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব ব্যাংক গোষ্ঠীর বর্তমান প্রেসিডেন্ট (১৯ নভেম্বর ২০২৬ অনুযায়ী) কে?",
+      "a": "অজয় বাঙ্গা",
+      "w": [
+        "ক্রিস্টালিনা জর্জিয়েভা",
+        "ডেভিড ম্যালপাস",
+        "জিম ইয়ং কিম"
+      ],
+      "e": "PIB ২০২৩ সালের ডিসেম্বরে অজয় বাঙ্গাকে বিশ্ব ব্যাংক গোষ্ঠীর প্রেসিডেন্ট হিসেবে উল্লেখ করেছে।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "india_and_heads",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WTO-র বর্তমান মহাপরিচালক (১৯ নভেম্বর ২০২৬ অনুযায়ী) কে?",
+      "a": "ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা",
+      "w": [
+        "রোবের্তো আজেভেদো",
+        "পাসকাল লামি",
+        "ক্রিস্টালিনা জর্জিয়েভা"
+      ],
+      "e": "আকাশবাণী সংবাদ ২০২৬ সালের মার্চে ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালাকে WTO-র মহাপরিচালক হিসেবে উল্লেখ করেছে।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "india_and_heads",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IMF-তে ভারতের গভর্নর হিসেবে কে মনোনীত হন?",
+      "a": "অর্থমন্ত্রী",
+      "w": [
+        "রিজার্ভ ব্যাংকের গভর্নর",
+        "বাণিজ্যমন্ত্রী",
+        "প্রধানমন্ত্রী"
+      ],
+      "e": "DEA-র তালিকা অনুযায়ী অর্থমন্ত্রী ভারতের গভর্নর, আর RBI গভর্নর বিকল্প গভর্নর।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "india_and_heads",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের IMF ও বিশ্ব ব্যাংক গোষ্ঠী-সংক্রান্ত বিষয় কোন বিভাগ দেখে?",
+      "a": "অর্থনৈতিক বিষয়ক বিভাগের Fund Bank Division",
+      "w": [
+        "বিদেশ মন্ত্রকের অর্থনৈতিক সম্পর্ক বিভাগ",
+        "বাণিজ্য বিভাগ",
+        "নীতি আয়োগ"
+      ],
+      "e": "অর্থ মন্ত্রকের DEA-র Fund Bank Division বিশ্ব ব্যাংক গোষ্ঠী ও IMF-এর বিষয় দেখে এবং তাদের শাসনে ভারতের ভূমিকা তদারকি করে।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "india_and_heads",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "WTO-তে ভারতের সবচেয়ে বড় উদ্বেগ (IGNOU বিশ্লেষণ অনুযায়ী) কোনটি?",
+      "a": "খাদ্য নিরাপত্তার জন্য সরকারি মজুত কর্মসূচির দীর্ঘমেয়াদি সমাধান",
+      "w": [
+        "সেবা রপ্তানি বন্ধ করা",
+        "MFN নীতি বাতিল করা",
+        "আপিল সংস্থা বিলুপ্ত করা"
+      ],
+      "e": "IGNOU অনুযায়ী ভারতের সবচেয়ে বড় উদ্বেগ জনসাধারণের খাদ্য নিরাপত্তার জন্য সরকারি মজুত (public stockholding) কর্মসূচির দীর্ঘমেয়াদি সমাধান; পাশাপাশি S&DT বজায় রাখাও ভারতের দাবি।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "india_and_heads",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): IMF-এর প্রধানের পদবি প্রেসিডেন্ট নয়, ব্যবস্থাপনা পরিচালক।\nযুক্তি (R): বিশ্ব ব্যাংক ও IMF একই প্রতিষ্ঠান, তাই দুটোর প্রধানের পদবি এক হওয়ার কথা।",
+      "a": "A সঠিক, কিন্তু R ভুল",
+      "w": [
+        "A ও R দুটোই সঠিক এবং R, A-র সঠিক ব্যাখ্যা",
+        "A ভুল, কিন্তু R সঠিক",
+        "A ও R দুটোই ভুল"
+      ],
+      "e": "A সঠিক — IMF-এর প্রধান ব্যবস্থাপনা পরিচালক (জর্জিয়েভা), বিশ্ব ব্যাংকের প্রধান প্রেসিডেন্ট (বাঙ্গা)। R ভুল — দুটি আলাদা প্রতিষ্ঠান, একই সম্মেলনে জন্ম নিলেও এক নয়।",
+      "claims": [
+        "c32",
+        "c31",
+        "c09",
+        "c11"
+      ]
+    }
+  ]
+}

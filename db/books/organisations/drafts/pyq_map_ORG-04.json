@@ -1,0 +1,158 @@
+[
+ {
+  "pyq_code": "GK-ORG-011",
+  "section": null,
+  "taught": false,
+  "note": "RBI bank item: establishment 1935 IS taught in rbi_nabard (NCERT leec103), but the item's nationalisation 1949, Mumbai headquarters, first Governor Osborne Smith and first Indian Governor C. D. Deshmukh are NOT taught — no allowed-publisher quote for them was fetched in this run (rbi.org.in is not an allowed publisher for this book)."
+ },
+ {
+  "pyq_code": "GK-ORG-012",
+  "section": null,
+  "taught": false,
+  "note": "Regulators item: SEBI (Mumbai role) and NABARD (Mumbai) are taught in sebi / rbi_nabard, but IRDAI (Hyderabad) and SIDBI (Lucknow) are not covered in this chapter — no allowed-source quotes fetched for them."
+ },
+ {
+  "pyq_code": "GK-ORG-013",
+  "section": "eci_upsc",
+  "taught": true,
+  "note": "All four facts taught: UPSC 1926 (eci_upsc), ECI 1950 (eci_upsc), NITI Aayog 2015 (niti), ISRO Bengaluru 1969 (isro)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q60",
+  "section": "rbi_nabard",
+  "taught": true,
+  "note": "NABARD is associated with agriculture and rural development — taught via NABARD's mission (PIB quote, claim c09)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q168",
+  "section": "rbi_nabard",
+  "taught": true,
+  "note": "Monetary policy is framed by the RBI — taught via NCERT central-bank functions: RBI controls money supply (claim c02)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q176",
+  "section": null,
+  "taught": false,
+  "note": "One-rupee notes are issued by the Ministry of Finance, not the RBI — this exception is not taught; the NCERT passage fetched states only that the central bank issues the currency of the country."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q176",
+  "section": "niti",
+  "taught": true,
+  "note": "NITI Aayog is set up by a resolution of the Union Cabinet — taught verbatim (claim c11)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q187",
+  "section": null,
+  "taught": false,
+  "note": "Repo rate is announced by the RBI. The chapter teaches RBI's money-supply control via bank rate, open market operations and reserve ratios (NCERT), but the repo rate is not named in the fetched sources."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q196",
+  "section": "sebi",
+  "taught": true,
+  "note": "SEBI got statutory recognition in 1992 — taught (claim c05). The recommending-body detail in the original item is not covered."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q197",
+  "section": "rbi_nabard",
+  "taught": true,
+  "note": "RBI established in 1935 — taught (claim c01, NCERT)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q113",
+  "section": "niti",
+  "taught": true,
+  "note": "NITI Aayog is set up by Cabinet resolution — taught (claim c11)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q113",
+  "section": null,
+  "taught": false,
+  "note": "Agricultural Marketing and Farm Friendly Reforms Index is released by NITI Aayog — NITI's indices/reports are not covered in this chapter."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q129",
+  "section": null,
+  "taught": false,
+  "note": "Second Governing Council meeting of NITI Aayog — meeting-specific detail, not covered."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q57",
+  "section": null,
+  "taught": false,
+  "note": "Asks the CEC as of June 2021 (then Rajiv Kumar). The chapter lists the CEC as of 19 November 2026 (Gyanesh Kumar); the 2021 holder is not taught."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q80",
+  "section": "niti",
+  "taught": true,
+  "note": "NITI Aayog formed on 1 January 2015 — taught (claim c11)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
+  "section": null,
+  "taught": false,
+  "note": "Election Commission is constituted under Article 324 / by the President. The chapter teaches the ECI as a permanent independent Constitutional body constituted on 25 January 1950, but the article number 324 and the appointing authority were not in the fetched allowed sources used, so they are not stated."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q113",
+  "section": "rbi_nabard",
+  "taught": true,
+  "note": "Responsibility for issuing currency notes lies with the RBI — taught via NCERT: the central bank issues the currency of the country (claim c02)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q45",
+  "section": "rbi_nabard",
+  "taught": true,
+  "note": "RBI established in 1935 — taught (claim c01)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q100",
+  "section": "sebi",
+  "taught": true,
+  "note": "SEBI stands for Securities and Exchange Board of India — taught (claims c04/c06)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q86",
+  "section": null,
+  "taught": false,
+  "note": "North-East Region District SDG Index (NITI Aayog with UNDP support) — NITI indices are not covered in this chapter."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q124",
+  "section": null,
+  "taught": false,
+  "note": "New department created by the RBI in 2022 — internal RBI organisational detail, not covered."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q158",
+  "section": null,
+  "taught": false,
+  "note": "Asks which is NOT a function of NABARD. The chapter teaches NABARD's broad mission only; a function-by-function list was not available from the fetched allowed sources."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-2019-Q28",
+  "section": "isro",
+  "taught": true,
+  "note": "ISRO headquarters is Bengaluru — taught (claim c27, ISRO official site)."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-2023-Q90",
+  "section": null,
+  "taught": false,
+  "note": "UDGAM portal was developed by the RBI — RBI portals/schemes are not covered in this chapter."
+ },
+ {
+  "pyq_code": "WBP-CONSTABLE-2021-Q5",
+  "section": null,
+  "taught": false,
+  "note": "SVEEP is the ECI's voter-education programme — SVEEP is not mentioned in the fetched ECI source used, so it is not taught."
+ },
+ {
+  "pyq_code": "WBPSC-MISC-2023-Q100",
+  "section": "isro",
+  "taught": true,
+  "note": "Father of the Indian space programme — Dr. Vikram Sarabhai, whose vision set up INCOSPAR (claim c26); the chapter's deep text states this explicitly."
+ }
+]

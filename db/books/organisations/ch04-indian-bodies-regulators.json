@@ -1,0 +1,1554 @@
+{
+  "book": "organisations",
+  "code": "ORG-04",
+  "number": 4,
+  "part": "india",
+  "title": "ভারতীয় প্রতিষ্ঠান ও নিয়ন্ত্রক",
+  "subtitle": "কেন্দ্রীয় ব্যাংক, নিয়ন্ত্রক, সাংবিধানিক সংস্থা ও মহাকাশ সংস্থা",
+  "subtopics": [
+    "indian_bodies"
+  ],
+  "related_facts": [
+    "GK-ORG-011",
+    "GK-ORG-012",
+    "GK-ORG-013"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 3 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 13 of 26 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ORG-04.json and drafts/ORG-04_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ORG-04_REPORT.md.",
+    "checked_claims": 31,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এই অধ্যায়ে ভারতের নিজের বড় প্রতিষ্ঠানগুলির সঙ্গে পরিচিত হবে — কেন্দ্রীয় ব্যাংক RBI, কৃষি-ঋণের NABARD, শেয়ারবাজারের নিয়ন্ত্রক SEBI, সাংবিধানিক সংস্থা নির্বাচন কমিশন ও UPSC, নীতি আয়োগ এবং মহাকাশ সংস্থা ISRO। প্রতিটি প্রতিষ্ঠানের ক্ষেত্রে পরীক্ষা যা চায় — প্রতিষ্ঠার সাল ও তারিখ, সদর দপ্তর, ধরন (সাংবিধানিক/বিধিবদ্ধ/নির্বাহী) এবং বর্তমান প্রধান — তাই এখানে সরকারি সূত্রে যাচাই করে সাজানো হয়েছে।",
+    "you_will_learn": [
+      "RBI-র প্রতিষ্ঠা (১৯৩৫) ও কেন্দ্রীয় ব্যাংকের কাজ",
+      "NABARD-এর প্রতিষ্ঠা (১৯৮২) ও সদর দপ্তর মুম্বই",
+      "SEBI-র দুই জন্মবছর: গঠন ১৯৮৮, বিধিবদ্ধ মর্যাদা ১৯৯২",
+      "নির্বাচন কমিশন (১৯৫০) ও UPSC (১৯২৬): সাংবিধানিক সংস্থা দুটির ঠিকানা ও অনুচ্ছেদ",
+      "নীতি আয়োগ (২০১৫) কীভাবে পরিকল্পনা কমিশনের জায়গা নিল",
+      "ISRO-র যাত্রা: INCOSPAR (১৯৬২) থেকে ISRO (১৯৬৯)",
+      "বর্তমান প্রধানগণ — তারিখসহ যাচাইকৃত তালিকা"
+    ]
+  },
+  "sections": [
+    {
+      "id": "rbi_nabard",
+      "heading": "আর্থিক শীর্ষ প্রতিষ্ঠান: রিজার্ভ ব্যাংক ও নাবার্ড",
+      "quick": "ভারতের কেন্দ্রীয় ব্যাংক হল **ভারতীয় রিজার্ভ ব্যাংক (RBI)** — দেশ কেন্দ্রীয় ব্যাংক পায় ১৯৩৫ সালে। কৃষি ও গ্রামীণ ঋণের শীর্ষ উন্নয়ন-প্রতিষ্ঠান **নাবার্ড (NABARD)**, প্রতিষ্ঠা ১২ জুলাই ১৯৮২, সদর দপ্তর মুম্বই।",
+      "standard": "প্রতিটি আধুনিক অর্থনীতির মাথায় থাকে একটি কেন্দ্রীয় ব্যাংক। NCERT বলছে — ভারত তার কেন্দ্রীয় ব্যাংক পায় **১৯৩৫ সালে**, আর তার নাম **ভারতীয় রিজার্ভ ব্যাংক (Reserve Bank of India)**। কেন্দ্রীয় ব্যাংকের কাজগুলি মনে রাখো: (১) দেশের মুদ্রা (নোট) ছাপানো ও জারি করা; (২) ব্যাংক-হার, খোলা বাজারে কেনাবেচা (open market operations) ও সংরক্ষণ-অনুপাত বদলে **অর্থের জোগান নিয়ন্ত্রণ** করা; (৩) সরকারের ব্যাংকার হিসেবে কাজ করা; (৪) দেশের **বৈদেশিক মুদ্রা ভান্ডারের রক্ষক** হওয়া; আর ব্যাংকগুলির ব্যাংক হিসেবেও কাজ করা।\n\nকৃষি ও গ্রামোন্নয়নের জন্য আলাদা শীর্ষ প্রতিষ্ঠান হল **জাতীয় কৃষি ও গ্রামীণ উন্নয়ন ব্যাংক (NABARD)**। PIB-র ভাষায় এটি ভারতের একটি শীর্ষ উন্নয়নমূলক আর্থিক প্রতিষ্ঠান — প্রতিষ্ঠা **১২ জুলাই ১৯৮২**, সদর দপ্তর **মুম্বই**। এর লক্ষ্য কার্যকর ঋণ-সহায়তা, সংশ্লিষ্ট সেবা ও প্রাতিষ্ঠানিক উন্নয়নের মাধ্যমে টেকসই ও ন্যায়সঙ্গত কৃষি ও গ্রামীণ সমৃদ্ধি এগিয়ে নেওয়া।\n\nপরীক্ষার জন্য জোড় মিলিয়ে মনে রাখো: RBI — ১৯৩৫ — কেন্দ্রীয় ব্যাংক; NABARD — ১৯৮২ — মুম্বই — কৃষি ও গ্রামীণ ঋণ।",
+      "deep": "দুটি প্রতিষ্ঠানের ধরনের পার্থক্য লক্ষ করো: RBI হল কেন্দ্রীয় ব্যাংক — মুদ্রানীতি, নোট জারি ও ব্যাংক-ব্যবস্থার নিয়ন্ত্রণ এর হাতে; NABARD কেন্দ্রীয় ব্যাংক নয়, একটি **উন্নয়নমূলক আর্থিক প্রতিষ্ঠান** — কৃষি ও গ্রামীণ ক্ষেত্রে ঋণ ও প্রতিষ্ঠান গড়ে তোলাই এর কাজ। প্রশ্নে প্রায়ই NABARD-কে 'কৃষির কেন্দ্রীয় ব্যাংক' জাতীয় ভুল বিকল্পে সাজানো হয়; সঠিক বর্ণনা হল 'শীর্ষ উন্নয়নমূলক আর্থিক প্রতিষ্ঠান'।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "তারিখের ফাঁদ",
+          "body": "RBI-র বছর **১৯৩৫** (NCERT), NABARD-এর তারিখ **১২ জুলাই ১৯৮২** — দুটোই বারবার WBCS/WBPSC-তে এসেছে। বছর দুটি পরস্পরের বিকল্প হিসেবে ঘোরে, তাই আলাদা করে মুখস্থ করো।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "sebi",
+      "heading": "পুঁজিবাজারের নিয়ন্ত্রক: সেবি (SEBI)",
+      "quick": "**সেবি (Securities and Exchange Board of India)** হল শেয়ারবাজারের নিয়ন্ত্রক। গঠিত হয় ১২ এপ্রিল ১৯৮৮ সালে অবিধিবদ্ধ (non-statutory) সংস্থা হিসেবে; বিধিবদ্ধ মর্যাদা পায় ১৯৯২ সালে।",
+      "standard": "শেয়ারবাজারে সাধারণ বিনিয়োগকারীর সুরক্ষা ও বাজারের নিয়মকানুন দেখভালের জন্য সরকার গঠন করে **সিকিউরিটিজ অ্যান্ড এক্সচেঞ্জ বোর্ড অফ ইন্ডিয়া (SEBI)**। সেবির নিজের প্রকাশিত ইতিহাস অনুযায়ী, এটি গঠিত হয় **১২ এপ্রিল ১৯৮৮** সালে সরকারের একটি প্রশাসনিক প্রস্তাবের মাধ্যমে — তখন এটি ছিল **অবিধিবদ্ধ** সংস্থা, অর্থাৎ আলাদা আইন দিয়ে তৈরি নয়।\n\nএরপর **৩০ জানুয়ারি ১৯৯২** সালে অধ্যাদেশ (Ordinance) জারি করে সেবিকে বিধিবদ্ধ মর্যাদা ও ক্ষমতা দেওয়া হয়; ২১ ফেব্রুয়ারি ১৯৯২ সালে এটি বিধিবদ্ধ সংস্থা হিসেবে প্রতিষ্ঠিত হয় এবং **৪ এপ্রিল ১৯৯২** সালে সংসদের আইন সেই অধ্যাদেশের জায়গা নেয়। **SEBI আইন, ১৯৯২**-এর প্রস্তাবনায় সেবির উদ্দেশ্য স্পষ্ট লেখা আছে: সিকিউরিটিজে বিনিয়োগকারীদের স্বার্থ রক্ষা করা, এবং সিকিউরিটিজ বাজারের উন্নয়ন ঘটানো ও নিয়ন্ত্রণ করা।\n\nতাই পরীক্ষায় দুটি বছরই গুরুত্বপূর্ণ: গঠন **১৯৮৮**, বিধিবদ্ধ মর্যাদা **১৯৯২**।",
+      "deep": "'অবিধিবদ্ধ' থেকে 'বিধিবদ্ধ' হওয়ার মানে বুঝে নাও: ১৯৮৮–৯২ সালে সেবি ছিল সরকারি প্রস্তাবে তৈরি একটি বোর্ড — পরামর্শ ও তদারকিই ছিল এর প্রধান হাতিয়ার। ১৯৯২-এর আইনের পর এটি আইনগত ক্ষমতাসম্পন্ন নিয়ন্ত্রক হয় — নিয়ম তৈরি, তদন্ত ও শাস্তির ক্ষমতা আইন থেকেই আসে। প্রশ্নে 'SEBI কবে প্রতিষ্ঠিত?' এলে বিকল্পে ১৯৮৮ ও ১৯৯২ দুটোই থাকতে পারে — প্রশ্নে 'বিধিবদ্ধ মর্যাদা' শব্দটি থাকলে উত্তর ১৯৯২, শুধু 'গঠিত' বললে ১৯৮৮।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "১৯৮৮ বনাম ১৯৯২",
+          "body": "**১৯৮৮** = সেবি গঠিত (অবিধিবদ্ধ)। **১৯৯২** = বিধিবদ্ধ মর্যাদা ও SEBI আইন। দুটোকে গুলিয়ে ফেললেই নম্বর যাবে।"
+        }
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "eci_upsc",
+      "heading": "সাংবিধানিক প্রতিষ্ঠান: নির্বাচন কমিশন ও UPSC",
+      "quick": "**ভারতের নির্বাচন কমিশন** গঠিত হয় ২৫ জানুয়ারি ১৯৫০ — এটি একটি স্থায়ী স্বাধীন **সাংবিধানিক** সংস্থা, সদর দপ্তর নতুন দিল্লির নির্বাচন সদন। **UPSC**-র যাত্রা শুরু ১৯২৬ সালের ১ অক্টোবর; সংবিধানে এর স্থান ৩১৫–৩২৩ নং অনুচ্ছেদে।",
+      "standard": "**নির্বাচন কমিশন:** ভারত প্রজাতন্ত্র হওয়ার ঠিক একদিন আগে, **২৫ জানুয়ারি ১৯৫০** সালে গঠিত হয় নির্বাচন কমিশন। এটি একটি স্থায়ী ও স্বাধীন **সাংবিধানিক সংস্থা**। সংসদ, রাজ্য বিধানসভা এবং রাষ্ট্রপতি ও উপরাষ্ট্রপতির নির্বাচনের জন্য ভোটার তালিকা তৈরি ও নির্বাচন পরিচালনার তত্ত্বাবধান, নির্দেশনা ও নিয়ন্ত্রণের দায়িত্ব এই কমিশনের হাতেই ন্যস্ত। কমিশনের সদর দপ্তর নতুন দিল্লির **নির্বাচন সদন (Nirvachan Sadan)**।\n\n**UPSC:** কেন্দ্রীয় লোকসেবা আয়োগের প্রাতিষ্ঠানিক যাত্রা শুরু **১ অক্টোবর ১৯২৬** সালে, যখন ভারতের প্রথম লোকসেবা আয়োগ গঠিত হয়; এর প্রথম চেয়ারম্যান ছিলেন **স্যার রস বার্কার**। স্বাধীনতার পর ফেডারেল লোকসেবা আয়োগই **২৬ জানুয়ারি** থেকে **কেন্দ্রীয় লোকসেবা আয়োগ (UPSC)** নাম নেয়। সংবিধানের **চতুর্দশ ভাগে ৩১৫–৩২৩ নং অনুচ্ছেদে** লোকসেবা আয়োগগুলির বিধান রয়েছে। UPSC-র স্থায়ী সদর দপ্তর হয় নতুন দিল্লির **ধোলপুর হাউস** (১৯৫২ সাল থেকে)। UPSC যেসব পরীক্ষা নেয় তার মধ্যে রয়েছে সিভিল সার্ভিসেস, ভারতীয় বনসেবা, ইঞ্জিনিয়ারিং সার্ভিসেস, সম্মিলিত চিকিৎসা সেবা, NDA ও নৌ অ্যাকাডেমি, CDS এবং CAPF (সহকারী কমান্ড্যান্ট) পরীক্ষা।",
+      "deep": "দুটি সংস্থার মধ্যে মিল ও পার্থক্য বুঝে রাখো: দুটোই **সাংবিধানিক** — অর্থাৎ সংবিধানেই এদের অস্তিত্ব লেখা, সাধারণ আইনে এদের বিলোপ করা যায় না। কিন্তু কাজ আলাদা: নির্বাচন কমিশনের কাজ **নির্বাচন পরিচালনা**, UPSC-র কাজ **নিয়োগের পরীক্ষা ও পরামর্শ**। আরেকটি ফাঁদ: UPSC-র জন্ম ১৯২৬ সালে হলেও 'UPSC' নামটি আসে ১৯৫০ সালে — ১৯২৬-এর সংস্থাটির নাম ছিল শুধু 'লোকসেবা আয়োগ' (Public Service Commission)।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "অনুচ্ছেদ জোড়",
+          "body": "UPSC → **৩১৫–৩২৩ নং অনুচ্ছেদ** (চতুর্দশ ভাগ)। নির্বাচন কমিশন → সাংবিধানিক সংস্থা, গঠন **২৫ জানুয়ারি ১৯৫০**।"
+        }
+      ],
+      "claims": [
+        "c21",
+        "c22",
+        "c23",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20"
+      ]
+    },
+    {
+      "id": "niti",
+      "heading": "নীতি আয়োগ: পরিকল্পনা কমিশনের উত্তরসূরি",
+      "quick": "**নীতি আয়োগ (NITI Aayog)** গঠিত হয় ১ জানুয়ারি ২০১৫ সালে কেন্দ্রীয় মন্ত্রিসভার প্রস্তাবের মাধ্যমে; এটি ১৯৫০ সালে প্রতিষ্ঠিত **পরিকল্পনা কমিশনের** জায়গা নেয়। এটি সরকারের প্রধান নীতি-চিন্তাশালা (Think Tank)।",
+      "standard": "**NITI** মানে **National Institution for Transforming India**। কেন্দ্রীয় মন্ত্রিসভার একটি প্রস্তাবের মাধ্যমে **১ জানুয়ারি ২০১৫** সালে নীতি আয়োগ গঠিত হয়। সরকার তার সংস্কার-কর্মসূচির অংশ হিসেবে নীতি আয়োগ গঠন করে **পরিকল্পনা কমিশনের পরিবর্তে** — পরিকল্পনা কমিশন প্রতিষ্ঠিত হয়েছিল **১৯৫০** সালে।\n\nনীতি আয়োগ হল ভারত সরকারের প্রধান নীতি-**চিন্তাশালা (Think Tank)**: এটি দিকনির্দেশনা ও নীতি-পরামর্শ দেয় এবং কেন্দ্র ও রাজ্য উভয়কেই কারিগরি পরামর্শ দেয়। এর একটি বড় বৈশিষ্ট্য হল **সমবায় যুক্তরাষ্ট্রীয়তা (Cooperative Federalism)** — রাজ্যগুলিকে জাতীয় স্বার্থে একসঙ্গে কাজ করতে এগিয়ে আনা।\n\nলক্ষ করো: নীতি আয়োগ সাংবিধানিক সংস্থা নয়, বিধিবদ্ধও নয় — এটি মন্ত্রিসভার **প্রস্তাব** দ্বারা গঠিত নির্বাহী সংস্থা। এই পার্থক্যটাই পরীক্ষায় সবচেয়ে বেশি জিজ্ঞাসা হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "কীভাবে গঠিত?",
+          "body": "নীতি আয়োগ গঠিত হয় **মন্ত্রিসভার প্রস্তাব** (Cabinet resolution) দ্বারা — সংবিধান সংশোধন বা সংসদের আইন দ্বারা নয়। WBCS-তে এই প্রশ্নটি একাধিকবার এসেছে।"
+        }
+      ],
+      "claims": [
+        "c11",
+        "c12",
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "id": "isro",
+      "heading": "মহাকাশ সংস্থা: ইসরো (ISRO)",
+      "quick": "**ইসরো (ISRO)** গঠিত হয় ১৫ আগস্ট ১৯৬৯ সালে; এর আগের সংস্থা INCOSPAR তৈরি হয়েছিল ১৯৬২ সালে ড. বিক্রম সারাভাইয়ের পরিকল্পনায়। ইসরোর সদর দপ্তর **বেঙ্গালুরু**।",
+      "standard": "ভারতের মহাকাশ সংস্থা হল **ভারতীয় মহাকাশ গবেষণা সংস্থা (ISRO)**। এর আগের রূপ ছিল **INCOSPAR** (Indian National Committee for Space Research), যা ভারত সরকার **১৯৬২** সালে গঠন করে **ড. বিক্রম সারাভাইয়ের** পরিকল্পনা অনুযায়ী। তারপর **১৫ আগস্ট ১৯৬৯** সালে ISRO গঠিত হয় এবং INCOSPAR-এর জায়গা নেয়, মহাকাশ প্রযুক্তিকে কাজে লাগানোর বিস্তৃত ভূমিকা নিয়ে।\n\nISRO ভারত সরকারের **মহাকাশ বিভাগের (Department of Space)** একটি প্রধান অংশ। ISRO-র সদর দপ্তর **বেঙ্গালুরুতে**। সংস্থার কাজ পরিচালনা করেন এর **চেয়ারম্যান**, যিনি একই সঙ্গে মহাকাশ বিভাগের সচিব এবং মহাকাশ কমিশনের চেয়ারম্যানও হন — অর্থাৎ একটি পদেই তিনটি দায়িত্ব জড়িয়ে থাকে।",
+      "deep": "তারিখের শৃঙ্খলা মনে রাখো: **১৯৬২** INCOSPAR → **১৯৬৯** ISRO। প্রশ্নে প্রায়ই এই দুটি বছরকে বিকল্প হিসেবে পাশাপাশি রাখা হয়। আর 'ISRO-র প্রতিষ্ঠাতা কে?' জাতীয় প্রশ্নে উত্তর ড. বিক্রম সারাভাই — কারণ INCOSPAR তাঁরই পরিকল্পনায় গড়ে ওঠে, যেখান থেকে ISRO-র জন্ম।",
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "এক পদে তিন দায়িত্ব",
+          "body": "ISRO-র চেয়ারম্যান একই সঙ্গে **মহাকাশ বিভাগের সচিব** ও **মহাকাশ কমিশনের চেয়ারম্যান** — ISRO-র নিজের ওয়েবসাইটেই এই কাঠামোর কথা বলা আছে।"
+        }
+      ],
+      "claims": [
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "current_heads",
+      "heading": "বর্তমান প্রধানগণ (১৯ নভেম্বর ২০২৬ অনুযায়ী)",
+      "quick": "যাচাইকৃত তালিকা: RBI গভর্নর **সঞ্জয় মালহোত্রা**; SEBI চেয়ারম্যান **তুহিন কান্ত পান্ডে** (দায়িত্ব গ্রহণ ১ মার্চ ২০২৫, মুম্বই); NABARD চেয়ারম্যান **শাজি কে. ভি.**; মুখ্য নির্বাচন কমিশনার **জ্ঞানেশ কুমার** (২৬তম); ISRO চেয়ারম্যান **ড. ভি. নারায়ণন** (দায়িত্ব গ্রহণ ১৩ জানুয়ারি ২০২৫)।",
+      "standard": "প্রধানদের নাম দ্রুত বদলায়, তাই এই অংশের প্রতিটি নাম সরকারি সূত্রে যাচাই করে তারিখসহ দেওয়া হল।\n\n- **RBI গভর্নর — সঞ্জয় মালহোত্রা:** PIB-র অর্থনীতি-বিষয়ক নোটে (৬ জুলাই ২০২৫) তাঁকে 'RBI Governor' হিসেবে উল্লেখ করা হয়েছে।\n- **SEBI চেয়ারম্যান — তুহিন কান্ত পান্ডে:** সেবির নিজের প্রেস বিজ্ঞপ্তি অনুযায়ী তিনি **১ মার্চ ২০২৫** সালে মুম্বইয়ে চেয়ারম্যান হিসেবে দায়িত্ব নেন; তিনি ওড়িশা ক্যাডারের ১৯৮৭ ব্যাচের IAS আধিকারিক।\n- **NABARD চেয়ারম্যান — শাজি কে. ভি.:** NABARD-এর ৪৪তম প্রতিষ্ঠা দিবসের PIB বিজ্ঞপ্তিতে তাঁকে চেয়ারম্যান বলা হয়েছে।\n- **মুখ্য নির্বাচন কমিশনার — জ্ঞানেশ কুমার:** PIB অনুযায়ী তিনি ভারতের **২৬তম** মুখ্য নির্বাচন কমিশনার; নির্বাচন কমিশনার হিসেবে আছেন ড. সুখবীর সিং সান্ধু ও ড. বিবেক যোশী।\n- **ISRO চেয়ারম্যান — ড. ভি. নারায়ণন:** ISRO-র বিজ্ঞপ্তি অনুযায়ী তিনি **১৩ জানুয়ারি ২০২৫**-এর বিকেলে মহাকাশ বিভাগের সচিব, মহাকাশ কমিশনের চেয়ারম্যান ও ISRO-র চেয়ারম্যান হিসেবে দায়িত্ব নেন; এর আগে তিনি LPSC-র অধিকর্তা ছিলেন।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "তারিখ-সতর্কতা",
+          "body": "এই প্রধানদের তালিকাটি **১৯ নভেম্বর ২০২৬** তারিখের অবস্থা অনুযায়ী যাচাই করা। পরীক্ষার আগে সাম্প্রতিক পরিবর্তন হয়েছে কিনা দেখে নেওয়া ভালো — প্রধান বদলালে এই তালিকা পুরোনো হয়ে যাবে।"
+        }
+      ],
+      "claims": [
+        "c03",
+        "c07",
+        "c10",
+        "c24",
+        "c30"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "ভারতের প্রথম লোকসেবা আয়োগ গঠিত",
+      "when": "১৯২৬",
+      "what": "১ অক্টোবর ১৯২৬ সালে ভারতের প্রথম লোকসেবা আয়োগ গঠিত হয়; প্রথম চেয়ারম্যান স্যার রস বার্কার।",
+      "why_it_matters": "UPSC-র প্রাতিষ্ঠানিক যাত্রার শুরু — প্রতিষ্ঠার বছর হিসেবে পরীক্ষায় আসে।",
+      "section": "eci_upsc",
+      "claims": [
+        "c15",
+        "c17"
+      ]
+    },
+    {
+      "title": "ভারত কেন্দ্রীয় ব্যাংক পায়",
+      "when": "১৯৩৫",
+      "what": "ভারত তার কেন্দ্রীয় ব্যাংক পায়; নাম ভারতীয় রিজার্ভ ব্যাংক (RBI)।",
+      "why_it_matters": "RBI-র প্রতিষ্ঠার বছর — ব্যাংক ও অর্থনীতির প্রশ্নে সবচেয়ে বেশি জিজ্ঞাসিত তারিখগুলির একটি।",
+      "section": "rbi_nabard",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "title": "নির্বাচন কমিশন গঠিত",
+      "when": "১৯৫০",
+      "what": "২৫ জানুয়ারি ১৯৫০ সালে, প্রজাতন্ত্র হওয়ার একদিন আগে, নির্বাচন কমিশন গঠিত হয়।",
+      "why_it_matters": "ভারতের নির্বাচন-ব্যবস্থার ভিত্তি; গঠনের তারিখটি জাতীয় ভোটার দিবসের সঙ্গে জড়িত বলে প্রায়ই জিজ্ঞাসা হয়।",
+      "section": "eci_upsc",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "title": "INCOSPAR গঠিত",
+      "when": "১৯৬২",
+      "what": "ড. বিক্রম সারাভাইয়ের পরিকল্পনায় ভারত সরকার মহাকাশ গবেষণার জাতীয় কমিটি INCOSPAR গঠন করে।",
+      "why_it_matters": "ISRO-র পূর্বসূরি — ১৯৬২ ও ১৯৬৯ সালের পার্থক্য পরীক্ষার চেনা ফাঁদ।",
+      "section": "isro",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "title": "ISRO গঠিত",
+      "when": "১৯৬৯",
+      "what": "১৫ আগস্ট ১৯৬৯ সালে ISRO গঠিত হয় এবং INCOSPAR-এর স্থলাভিষিক্ত হয়।",
+      "why_it_matters": "ভারতের মহাকাশ কর্মসূচির প্রাতিষ্ঠানিক জন্মতারিখ।",
+      "section": "isro",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "title": "NABARD প্রতিষ্ঠিত",
+      "when": "১৯৮২",
+      "what": "১২ জুলাই ১৯৮২ সালে মুম্বই সদর দপ্তরসহ NABARD প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "কৃষি ও গ্রামীণ ঋণের শীর্ষ প্রতিষ্ঠানের প্রতিষ্ঠা-তারিখ ও সদর দপ্তর একসঙ্গে জিজ্ঞাসা হয়।",
+      "section": "rbi_nabard",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "title": "SEBI গঠিত ও বিধিবদ্ধ হয়",
+      "when": "১৯৮৮ / ১৯৯২",
+      "what": "১২ এপ্রিল ১৯৮৮ সালে SEBI অবিধিবদ্ধ সংস্থা হিসেবে গঠিত হয়; ৩০ জানুয়ারি ১৯৯২ সালে অধ্যাদেশে বিধিবদ্ধ মর্যাদা পায়।",
+      "why_it_matters": "একই সংস্থার দুটি 'জন্মবছর' — প্রশ্নের ভাষা দেখে উত্তর বাছতে হয়।",
+      "section": "sebi",
+      "claims": [
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "title": "নীতি আয়োগ গঠিত",
+      "when": "২০১৫",
+      "what": "১ জানুয়ারি ২০১৫ সালে মন্ত্রিসভার প্রস্তাবে নীতি আয়োগ গঠিত হয়, পরিকল্পনা কমিশনের পরিবর্তে।",
+      "why_it_matters": "পরিকল্পনা-যুগের অবসান ও নতুন নীতি-কাঠামোর শুরু — WBCS-তে বারবার এসেছে।",
+      "section": "niti",
+      "claims": [
+        "c11",
+        "c12"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "স্যার রস বার্কার",
+      "when": "১৯২৬",
+      "role": "ভারতের প্রথম লোকসেবা আয়োগের প্রথম চেয়ারম্যান",
+      "contribution": "১৯২৬ সালে গঠিত প্রথম লোকসেবা আয়োগের নেতৃত্ব দেন; সঙ্গে ছিলেন চারজন সদস্য, দপ্তর ছিল দিল্লির মেটকাফ হাউসে।",
+      "section": "eci_upsc",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "name": "ড. বিক্রম সারাভাই",
+      "when": "১৯৬২",
+      "role": "INCOSPAR-এর পরিকল্পনাকারী",
+      "contribution": "তাঁর পরিকল্পনা অনুযায়ী ১৯৬২ সালে INCOSPAR গঠিত হয়, যা পরে ISRO-তে রূপ নেয়।",
+      "section": "isro",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "name": "সঞ্জয় মালহোত্রা",
+      "when": "২০২৫ (যাচাই: ১৯ নভেম্বর ২০২৬)",
+      "role": "RBI-র গভর্নর",
+      "contribution": "PIB-র নোটে (জুলাই ২০২৫) তাঁকে RBI-র গভর্নর হিসেবে উল্লেখ করা হয়েছে।",
+      "section": "current_heads",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "name": "তুহিন কান্ত পান্ডে",
+      "when": "২০২৫ (যাচাই: ১৯ নভেম্বর ২০২৬)",
+      "role": "SEBI-র চেয়ারম্যান",
+      "contribution": "১ মার্চ ২০২৫ সালে মুম্বইয়ে SEBI-র চেয়ারম্যান হিসেবে দায়িত্ব নেন।",
+      "section": "current_heads",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "name": "শাজি কে. ভি.",
+      "when": "২০২৫ (যাচাই: ১৯ নভেম্বর ২০২৬)",
+      "role": "NABARD-এর চেয়ারম্যান",
+      "contribution": "NABARD-এর ৪৪তম প্রতিষ্ঠা দিবসের PIB বিজ্ঞপ্তিতে চেয়ারম্যান হিসেবে তাঁর নাম রয়েছে।",
+      "section": "current_heads",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "name": "জ্ঞানেশ কুমার",
+      "when": "২০২৫ (যাচাই: ১৯ নভেম্বর ২০২৬)",
+      "role": "ভারতের ২৬তম মুখ্য নির্বাচন কমিশনার",
+      "contribution": "তাঁর নেতৃত্বে নির্বাচন কমিশনে কমিশনার হিসেবে আছেন সুখবীর সিং সান্ধু ও বিবেক যোশী।",
+      "section": "current_heads",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "name": "ড. ভি. নারায়ণন",
+      "when": "২০২৫ (যাচাই: ১৯ নভেম্বর ২০২৬)",
+      "role": "ISRO-র চেয়ারম্যান",
+      "contribution": "১৩ জানুয়ারি ২০২৫ সালে ISRO-র চেয়ারম্যান হিসেবে দায়িত্ব নেন; এর আগে LPSC-র অধিকর্তা ছিলেন।",
+      "section": "current_heads",
+      "claims": [
+        "c30"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1926,
+      "when": "১৯২৬",
+      "label": "ভারতের প্রথম লোকসেবা আয়োগ গঠিত (১ অক্টোবর)",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "sort_year": 1935,
+      "when": "১৯৩৫",
+      "label": "ভারত কেন্দ্রীয় ব্যাংক পায় — RBI",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1950,
+      "when": "১৯৫০",
+      "label": "নির্বাচন কমিশন গঠিত (২৫ জানুয়ারি); ফেডারেল PSC হয়ে ওঠে UPSC",
+      "claims": [
+        "c21",
+        "c20"
+      ]
+    },
+    {
+      "sort_year": 1962,
+      "when": "১৯৬২",
+      "label": "INCOSPAR গঠিত — সারাভাইয়ের পরিকল্পনায়",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "sort_year": 1969,
+      "when": "১৯৬৯",
+      "label": "ISRO গঠিত (১৫ আগস্ট)",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "sort_year": 1982,
+      "when": "১৯৮২",
+      "label": "NABARD প্রতিষ্ঠিত (১২ জুলাই), সদর দপ্তর মুম্বই",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "sort_year": 1988,
+      "when": "১৯৮৮",
+      "label": "SEBI গঠিত (১২ এপ্রিল), অবিধিবদ্ধ সংস্থা হিসেবে",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "sort_year": 1992,
+      "when": "১৯৯২",
+      "label": "SEBI বিধিবদ্ধ মর্যাদা পায়; SEBI আইন",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "sort_year": 2015,
+      "when": "২০১৫",
+      "label": "নীতি আয়োগ গঠিত (১ জানুয়ারি), পরিকল্পনা কমিশনের পরিবর্তে",
+      "claims": [
+        "c11",
+        "c12"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "কেন্দ্রীয় ব্যাংক (Central Bank)",
+      "meaning": "দেশের মুদ্রা জারি, অর্থের জোগান নিয়ন্ত্রণ ও ব্যাংক-ব্যবস্থার শীর্ষে থাকা প্রতিষ্ঠান; ভারতে RBI।",
+      "section": "rbi_nabard"
+    },
+    {
+      "term": "বিধিবদ্ধ সংস্থা (Statutory Body)",
+      "meaning": "সংসদের আইন দ্বারা তৈরি সংস্থা; যেমন ১৯৯২-এর আইনের পর SEBI।",
+      "section": "sebi"
+    },
+    {
+      "term": "সাংবিধানিক সংস্থা (Constitutional Body)",
+      "meaning": "সংবিধানেই যার অস্তিত্ব ও ক্ষমতার কথা লেখা; যেমন নির্বাচন কমিশন ও UPSC।",
+      "section": "eci_upsc"
+    },
+    {
+      "term": "সমবায় যুক্তরাষ্ট্রীয়তা (Cooperative Federalism)",
+      "meaning": "কেন্দ্র ও রাজ্য পরস্পরের প্রতিদ্বন্দ্বী না হয়ে জাতীয় লক্ষ্যে একসঙ্গে কাজ করা — নীতি আয়োগের মূল নীতি।",
+      "section": "niti"
+    },
+    {
+      "term": "চিন্তাশালা (Think Tank)",
+      "meaning": "নীতি নিয়ে গবেষণা ও পরামর্শ দেওয়া প্রতিষ্ঠান; নীতি আয়োগ সরকারের প্রধান নীতি-চিন্তাশালা।",
+      "section": "niti"
+    },
+    {
+      "term": "INCOSPAR",
+      "meaning": "Indian National Committee for Space Research — ১৯৬২ সালে গঠিত, ISRO-র পূর্বসূরি সংস্থা।",
+      "section": "isro"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "পরিকল্পনা কমিশন থেকে নীতি আয়োগ",
+      "causes": [
+        "সরকার তার সংস্কার-কর্মসূচি অনুযায়ী পুরোনো পরিকল্পনা-কাঠামো বদলাতে চেয়েছিল",
+        "জনগণের প্রয়োজন ও আকাঙ্ক্ষা আরও ভালোভাবে মেটানোর তাগিদ ছিল"
+      ],
+      "event": "১ জানুয়ারি ২০১৫ সালে মন্ত্রিসভার প্রস্তাবে নীতি আয়োগ গঠিত হয়",
+      "results": [
+        "১৯৫০ সালে প্রতিষ্ঠিত পরিকল্পনা কমিশনের অবসান",
+        "রাজ্যগুলিকে সঙ্গে নিয়ে সমবায় যুক্তরাষ্ট্রীয়তার ভিত্তিতে নীতি-পরামর্শের নতুন কাঠামো"
+      ],
+      "section": "niti",
+      "claims": [
+        "c11",
+        "c12",
+        "c14"
+      ]
+    },
+    {
+      "title": "অবিধিবদ্ধ থেকে বিধিবদ্ধ SEBI",
+      "causes": [
+        "১৯৮৮ সালে গঠিত SEBI-র নিজস্ব আইনগত ক্ষমতা ছিল না",
+        "সিকিউরিটিজ বাজারের উন্নয়ন ও নিয়ন্ত্রণে শক্তিশালী নিয়ন্ত্রকের প্রয়োজন দেখা দেয়"
+      ],
+      "event": "৩০ জানুয়ারি ১৯৯২ সালে অধ্যাদেশে SEBI বিধিবদ্ধ মর্যাদা পায়, পরে সংসদের আইন (৪ এপ্রিল ১৯৯২) তা স্থায়ী করে",
+      "results": [
+        "SEBI আইন, ১৯৯২-এর প্রস্তাবনায় বিনিয়োগকারী-সুরক্ষা ও বাজার-নিয়ন্ত্রণের উদ্দেশ্য আইনগত রূপ পায়"
+      ],
+      "section": "sebi",
+      "claims": [
+        "c04",
+        "c05",
+        "c06"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "RBI-র প্রতিষ্ঠা ১৯৩৫ ও কেন্দ্রীয় ব্যাংকের চারটি কাজ (নোট জারি, অর্থের জোগান নিয়ন্ত্রণ, সরকারের ব্যাংকার, বৈদেশিক মুদ্রা ভান্ডারের রক্ষক)",
+      "section": "rbi_nabard"
+    },
+    {
+      "point": "SEBI: গঠন ১৯৮৮ (অবিধিবদ্ধ) বনাম বিধিবদ্ধ মর্যাদা ১৯৯২ — প্রশ্নের ভাষা দেখে উত্তর",
+      "section": "sebi"
+    },
+    {
+      "point": "নির্বাচন কমিশন: গঠন ২৫ জানুয়ারি ১৯৫০, সাংবিধানিক সংস্থা, সদর দপ্তর নির্বাচন সদন, নতুন দিল্লি",
+      "section": "eci_upsc"
+    },
+    {
+      "point": "UPSC: যাত্রা ১৯২৬, অনুচ্ছেদ ৩১৫–৩২৩, প্রথম চেয়ারম্যান রস বার্কার, সদর দপ্তর ধোলপুর হাউস",
+      "section": "eci_upsc"
+    },
+    {
+      "point": "নীতি আয়োগ: ১ জানুয়ারি ২০১৫, মন্ত্রিসভার প্রস্তাবে গঠিত, পরিকল্পনা কমিশনের (১৯৫০) উত্তরসূরি",
+      "section": "niti"
+    },
+    {
+      "point": "ISRO: INCOSPAR ১৯৬২ → ISRO ১৫ আগস্ট ১৯৬৯, সদর দপ্তর বেঙ্গালুরু, প্রতিষ্ঠা-পরিকল্পনায় বিক্রম সারাভাই",
+      "section": "isro"
+    },
+    {
+      "point": "বর্তমান প্রধানগণ — গভর্নর/চেয়ারম্যানদের নাম পরীক্ষার আগের তারিখ অনুযায়ী মেলাও",
+      "section": "current_heads"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের প্রতিষ্ঠানগুলির সঙ্গে বাংলার সবচেয়ে পুরোনো যোগটি UPSC-র ইতিহাসে লুকিয়ে আছে। PIB-র শতবর্ষ-পটভূমি অনুযায়ী, **১৮৬২ সালে রবীন্দ্রনাথ ঠাকুরের বড় ভাই সত্যেন্দ্রনাথ ঠাকুর কলকাতা থেকে ইংল্যান্ডে যাত্রা করেন** ICS পরীক্ষা দিতে — কারণ তখন নিজের দেশে সেই পরীক্ষা দেওয়ার সুযোগ ছিল না। তিনি ১৮৬৩ সালে পরীক্ষায় উত্তীর্ণ হয়ে প্রথম ভারতীয় হিসেবে ICS-এ যোগ দেন। অর্থাৎ যে নিয়োগ-ব্যবস্থার উত্তরসূরি আজকের UPSC, তার ইতিহাসের প্রথম ভারতীয় অধ্যায়টি লেখা হয়েছিল কলকাতা থেকেই।",
+    "claims": [
+      "c31"
+    ]
+  },
+  "quick_revision": [
+    "RBI = ভারতের কেন্দ্রীয় ব্যাংক; ভারত কেন্দ্রীয় ব্যাংক পায় ১৯৩৫ সালে",
+    "কেন্দ্রীয় ব্যাংকের কাজ: নোট জারি, অর্থের জোগান নিয়ন্ত্রণ, সরকারের ব্যাংকার, বৈদেশিক মুদ্রা ভান্ডারের রক্ষক",
+    "NABARD: প্রতিষ্ঠা ১২ জুলাই ১৯৮২, সদর দপ্তর মুম্বই, কৃষি ও গ্রামীণ উন্নয়নের শীর্ষ প্রতিষ্ঠান",
+    "SEBI: গঠন ১২ এপ্রিল ১৯৮৮ (অবিধিবদ্ধ); বিধিবদ্ধ মর্যাদা ১৯৯২ (অধ্যাদেশ ৩০ জানুয়ারি)",
+    "SEBI-র উদ্দেশ্য: বিনিয়োগকারীর সুরক্ষা + সিকিউরিটিজ বাজারের উন্নয়ন ও নিয়ন্ত্রণ",
+    "নির্বাচন কমিশন: গঠন ২৫ জানুয়ারি ১৯৫০, সাংবিধানিক সংস্থা, সদর দপ্তর নির্বাচন সদন, নতুন দিল্লি",
+    "UPSC: যাত্রা ১ অক্টোবর ১৯২৬, অনুচ্ছেদ ৩১৫–৩২৩, প্রথম চেয়ারম্যান রস বার্কার, সদর দপ্তর ধোলপুর হাউস",
+    "নীতি আয়োগ: ১ জানুয়ারি ২০১৫, মন্ত্রিসভার প্রস্তাবে গঠিত; পরিকল্পনা কমিশন (১৯৫০)-এর উত্তরসূরি; মূলনীতি সমবায় যুক্তরাষ্ট্রীয়তা",
+    "ISRO: INCOSPAR ১৯৬২ (সারাভাই) → ISRO ১৫ আগস্ট ১৯৬৯; সদর দপ্তর বেঙ্গালুরু; মহাকাশ বিভাগের অংশ",
+    "প্রধানগণ (১৯ নভেম্বর ২০২৬): RBI—সঞ্জয় মালহোত্রা, SEBI—তুহিন কান্ত পান্ডে, NABARD—শাজি কে. ভি., CEC—জ্ঞানেশ কুমার, ISRO—ড. ভি. নারায়ণন"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Introductory Macroeconomics, Class XII, Chapter 3: Money and Banking",
+      "class": "XII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "PIB Press Note: India's Economic Surge (names Sanjay Malhotra as RBI Governor)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=154840&ModuleId=3&reg=3&lang=1",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "SEBI Working Paper Series No. 7 (2003): front matter on the constitution and statutory status of SEBI",
+      "publisher": "GOVT",
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1293096997650.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "SEBI Press Release PR No.10/2025: Shri Tuhin Kanta Pandey takes charge as Chairman, SEBI",
+      "publisher": "GOVT",
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/may-2025/1746622420791.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB Press Release: NABARD marks its 44th Foundation Day (PRID 2144286)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2144286&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "NITI Aayog publication hosted on niti.gov.in: About NITI Aayog",
+      "publisher": "GOVT",
+      "url": "https://niti.gov.in/sites/default/files/2025-10/Coal_Gasification_Technology_for_Indian_High_Ash_Content_Coal.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "PIB Backgrounder: Union Public Service Commission — A Century of Meritocracy and Inclusion (30 September 2026)",
+      "publisher": "GOVT",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10278_20261027_15483701.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "Chief Electoral Officer, Nagaland (official ECI state page): About Us — Election Commission of India",
+      "publisher": "GOVT",
+      "url": "https://ceo.nagaland.gov.in/about",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "PIB Press Release (PRID 2113296): ECI initiatives under the 26th Chief Election Commissioner",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2113296&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "ISRO official site: About ISRO / Profile",
+      "publisher": "GOVT",
+      "url": "https://www.isro.gov.in/profile.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "ISRO official site: Dr. V. Narayanan Assumed Charge of Secretary, Department of Space and Chairman, Space Commission",
+      "publisher": "GOVT",
+      "url": "https://www.isro.gov.in/ISRO_EN/DrVNarayanan_Assumed_Charge_Secretary_DOS_Chairman_Space_Commission.html",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "India got its central bank in 1935; its name is the Reserve Bank of India.",
+      "source": "s1",
+      "page": "Ch. 3, Money and Banking",
+      "quote": "India got its central bank in 1935. Its name is the 'Reserve Bank of India'."
+    },
+    {
+      "id": "c02",
+      "claim": "The central bank (RBI) issues the currency of the country, controls money supply (bank rate, open market operations, reserve ratios), acts as banker to the government and is custodian of the foreign exchange reserves.",
+      "source": "s1",
+      "page": "Ch. 3, Money and Banking",
+      "quote": "It issues the currency of the country. It controls money supply of the country through various methods, like bank rate, open market operations and variations in reserve ratios. It acts as a banker to the government. It is the custodian of the foreign exchange reserves of the economy."
+    },
+    {
+      "id": "c03",
+      "claim": "As of the PIB note of 6 July 2025, Sanjay Malhotra is the Governor of the Reserve Bank of India.",
+      "source": "s2",
+      "page": "web page",
+      "quote": "Sanjay Malhotra, RBI Governor"
+    },
+    {
+      "id": "c04",
+      "claim": "SEBI was constituted on 12 April 1988 as a non-statutory body through an Administrative Resolution of the Government.",
+      "source": "s3",
+      "page": "web page",
+      "quote": "The Securities and Exchange Board of India (SEBI) was constituted on 12 April 1988 as a non-statutory body through an Administrative Resolution of the Government"
+    },
+    {
+      "id": "c05",
+      "claim": "SEBI was given statutory status and powers through an Ordinance promulgated on 30 January 1992; the Ordinance was replaced by an Act of Parliament on 4 April 1992.",
+      "source": "s3",
+      "page": "web page",
+      "quote": "SEBI was given statutory status and powers through an Ordinance promulgated on January 30 1992. SEBI was established as a statutory body on 21 February 1992. The Ordinance was replaced by an Act of Parliament on 4 April 1992."
+    },
+    {
+      "id": "c06",
+      "claim": "The objectives of SEBI in the preamble of the SEBI Act, 1992 are to protect the interests of investors in the securities market and to promote the development of, and to regulate, the securities market.",
+      "source": "s3",
+      "page": "web page",
+      "quote": "The preamble of the SEBI Act, 1992 enshrines the objectives of SEBI – to protect the interest of investors in securities market and to promote the development of and to regulate the securities market."
+    },
+    {
+      "id": "c07",
+      "claim": "Tuhin Kanta Pandey took charge as Chairman of SEBI in Mumbai on 1 March 2025.",
+      "source": "s4",
+      "page": "web page",
+      "quote": "Shri Tuhin Kanta Pandey took charge as Chairman, Securities and Exchange Board of India in Mumbai, today."
+    },
+    {
+      "id": "c08",
+      "claim": "NABARD is an apex development financial institution in India, established on 12 July 1982, with headquarters in Mumbai.",
+      "source": "s5",
+      "page": "web page",
+      "quote": "The National Bank for Agriculture and Rural Development (NABARD) is an apex development financial institution in India. Established on 12 July 1982, with headquarters in Mumbai"
+    },
+    {
+      "id": "c09",
+      "claim": "NABARD works to promote sustainable and equitable agriculture and rural prosperity through credit support, related services and institutional development.",
+      "source": "s5",
+      "page": "web page",
+      "quote": "NABARD operates with a mission to promote sustainable and equitable agriculture and rural prosperity through effective credit support, related services, institutional development, and other innovative initiatives."
+    },
+    {
+      "id": "c10",
+      "claim": "As of the PIB release on NABARD's 44th Foundation Day, Shaji K. V. is the Chairman of NABARD.",
+      "source": "s5",
+      "page": "web page",
+      "quote": "Shri Shaji K V Chairman, NABARD"
+    },
+    {
+      "id": "c11",
+      "claim": "NITI Aayog (National Institution for Transforming India) was formed via a resolution of the Union Cabinet on 1 January 2015.",
+      "source": "s6",
+      "page": "web page",
+      "quote": "The National Institution for Transforming India (NITI Aayog) was formed via a resolution of the Union Cabinet on January 1, 2015."
+    },
+    {
+      "id": "c12",
+      "claim": "The Government of India constituted NITI Aayog to replace the Planning Commission, which had been instituted in 1950.",
+      "source": "s6",
+      "page": "web page",
+      "quote": "The Government of India, in keeping with its reform agenda, constituted the NITI Aayog to replace the Planning Commission, instituted in 1950."
+    },
+    {
+      "id": "c13",
+      "claim": "NITI Aayog is the premier policy 'Think Tank' of the Government of India, providing directional and policy inputs and technical advice to the Centre and States.",
+      "source": "s6",
+      "page": "web page",
+      "quote": "NITI Aayog is the premier policy 'Think Tank' of the Government of India, providing both directional and policy inputs."
+    },
+    {
+      "id": "c14",
+      "claim": "NITI Aayog brings States to act together in the national interest and thereby fosters Cooperative Federalism.",
+      "source": "s6",
+      "page": "web page",
+      "quote": "NITI Aayog acts as the quintessential platform of the Government of India to bring States to act together in the national interest and thereby fosters Cooperative Federalism."
+    },
+    {
+      "id": "c15",
+      "claim": "The UPSC's institutional journey began on 1 October 1926, when India's first Public Service Commission was constituted.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "Its institutional journey began on 1 October 1926, when India's first Public Service Commission was constituted as an advisory body"
+    },
+    {
+      "id": "c16",
+      "claim": "The constitutional provisions for the Public Service Commissions became Articles 315-323 of Part XIV of the Constitution.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "These provisions became Articles 315–323 of Part XIV of the Constitution."
+    },
+    {
+      "id": "c17",
+      "claim": "Sir Ross Barker was the first Chairman of the (Public Service) Commission, assisted by four Members; the Commission was housed at Metcalfe House, Delhi.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "Sir Ross Barker, a member of the Home Civil Service of the United Kingdom, was its first Chairman and was assisted by four Members. The Commission was housed at Metcalfe House, Delhi."
+    },
+    {
+      "id": "c18",
+      "claim": "Dholpur House, New Delhi, became the UPSC's permanent headquarters in 1952.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "After Dholpur State merged with the Union on 7 April 1949, the building became government property. Three years later, in 1952, it became the Commission's permanent headquarters."
+    },
+    {
+      "id": "c19",
+      "claim": "The UPSC conducts the Civil Services, Indian Forest Service, Engineering Services, Combined Medical Services, NDA & Naval Academy, Combined Defence Services and CAPF (Assistant Commandants) examinations, among others.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "Recruitment by examination: The Commission conducts the Civil Services, Indian Forest Service, Engineering Services, Combined Medical Services, National Defence Academy & Naval Academy, Combined Defence Services and Central Armed Police Forces (Assistant Commandants) examinations, among others."
+    },
+    {
+      "id": "c20",
+      "claim": "The Federal Public Service Commission became the Union Public Service Commission on 26 January (1950), with R. N. Banerjee as Chairman.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "The Federal PSC becomes the Union Public Service Commission on 26 January, with Shri R.N. Banerjee as Chairman."
+    },
+    {
+      "id": "c21",
+      "claim": "The Election Commission of India was constituted on 25 January 1950, a day before India became a Republic, and is a permanent independent Constitutional body.",
+      "source": "s8",
+      "page": "web page",
+      "quote": "Constituted on 25th January 1950, a day before Indian become a Republic, the Election Commission of India is a permanent independent Constitutional body"
+    },
+    {
+      "id": "c22",
+      "claim": "The Election Commission is vested with superintendence, direction and control of the preparation of electoral rolls for, and conduct of, all elections to Parliament, State Legislatures and the offices of President and Vice-President.",
+      "source": "s8",
+      "page": "web page",
+      "quote": "vested with the power and responsibility for superintendence, direction and control of the preparation of electoral rolls for, and conduct of, all elections to Parliament and to Legislatures of the States and the Union Territories and of elections to the offices of President and Vice-President held under the Constitution"
+    },
+    {
+      "id": "c23",
+      "claim": "The Election Commission has its headquarters at Nirvachan Sadan in New Delhi.",
+      "source": "s8",
+      "page": "web page",
+      "quote": "The Commission has its headquarters at Nirvachan Sadan in New Delhi, with a Secretariat of some 350 staff members."
+    },
+    {
+      "id": "c24",
+      "claim": "Gyanesh Kumar is the 26th Chief Election Commissioner of India; Sukhbir Singh Sandhu and Vivek Joshi are the Election Commissioners (PIB, March 2025).",
+      "source": "s9",
+      "page": "web page",
+      "quote": "In under a month of the assumption of charge as the 26th Chief Election Commissioner (CEC) of India, ECI led by Shri Gyanesh Kumar along with Election Commissioners Dr. Sukhbir Singh Sandhu and Dr. Vivek Joshi"
+    },
+    {
+      "id": "c25",
+      "claim": "ISRO was formed on 15 August 1969 and superseded INCOSPAR.",
+      "source": "s10",
+      "page": "web page",
+      "quote": "ISRO was formed on August 15, 1969 and superseded INCOSPAR with an expanded role to harness space technology."
+    },
+    {
+      "id": "c26",
+      "claim": "INCOSPAR was set up by the Government of India in 1962, as envisioned by Dr. Vikram Sarabhai.",
+      "source": "s10",
+      "page": "web page",
+      "quote": "ISRO was previously the Indian National Committee for Space Research (INCOSPAR), set up by the Government of India in 1962, as envisioned by Dr. VikramA Sarabhai."
+    },
+    {
+      "id": "c27",
+      "claim": "ISRO has its headquarters in Bengaluru.",
+      "source": "s10",
+      "page": "web page",
+      "quote": "ISRO has its headquarters in Bengaluru."
+    },
+    {
+      "id": "c28",
+      "claim": "ISRO is a major constituent of the Department of Space (DOS), Government of India; DOS was set up and ISRO brought under DOS in 1972.",
+      "source": "s10",
+      "page": "web page",
+      "quote": "ISRO is a major constituent of the Department of Space (DOS), Government of India."
+    },
+    {
+      "id": "c29",
+      "claim": "ISRO's activities are guided by its Chairman, who is also the Secretary of DOS and Chairman of the Space Commission.",
+      "source": "s10",
+      "page": "web page",
+      "quote": "The activities of ISRO are guided by its Chairman, who would also be the secretary of DOS and Chairman of Space commission"
+    },
+    {
+      "id": "c30",
+      "claim": "Dr. V. Narayanan assumed charge as Secretary, Department of Space, Chairman, Space Commission and Chairman, ISRO on the afternoon of 13 January 2025; before that he was Director of LPSC.",
+      "source": "s11",
+      "page": "web page",
+      "quote": "Dr. V. Narayanan, Distinguished Scientist (Apex Grade), assumed the charge of Secretary, Department of Space, Chairman, Space Commission and Chairman, ISRO on the afternoon of 13th January, 2025. Prior to this, he served as Director, Liquid Propulsion Systems Centre (LPSC)"
+    },
+    {
+      "id": "c31",
+      "claim": "In 1862 Satyendranath Tagore, elder brother of Rabindranath Tagore, sailed from Calcutta to England to sit the ICS examination; he cleared it in 1863 and became the first Indian in the ICS.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "In 1862, Satyendranath Tagore, elder brother of Rabindranath Tagore, sailed from Calcutta to England to sit an examination his own country would not let him take at home. He cleared it in 1863 and joined the service in 1864, becoming the first Indian in what the British called the 'heaven-born service'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "rbi_nabard",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারত তার কেন্দ্রীয় ব্যাংক পায় কোন সালে?",
+      "a": "১৯৩৫ সালে",
+      "w": [
+        "১৯৪৯ সালে",
+        "১৯৫০ সালে",
+        "১৯৮২ সালে"
+      ],
+      "e": "NCERT অনুযায়ী ভারত কেন্দ্রীয় ব্যাংক পায় ১৯৩৫ সালে, নাম ভারতীয় রিজার্ভ ব্যাংক। ১৯৮২ হল NABARD-এর প্রতিষ্ঠার বছর।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "rbi_nabard",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের কেন্দ্রীয় ব্যাংকের নাম কী?",
+      "a": "ভারতীয় রিজার্ভ ব্যাংক (RBI)",
+      "w": [
+        "নাবার্ড (NABARD)",
+        "সেবি (SEBI)",
+        "নীতি আয়োগ"
+      ],
+      "e": "কেন্দ্রীয় ব্যাংক হল RBI; NABARD কৃষি-ঋণের উন্নয়ন প্রতিষ্ঠান, SEBI পুঁজিবাজারের নিয়ন্ত্রক।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "rbi_nabard",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NABARD প্রতিষ্ঠিত হয় কবে?",
+      "a": "১২ জুলাই ১৯৮২",
+      "w": [
+        "১ এপ্রিল ১৯৩৫",
+        "২৫ জানুয়ারি ১৯৫০",
+        "১ জানুয়ারি ২০১৫"
+      ],
+      "e": "PIB অনুযায়ী NABARD প্রতিষ্ঠিত হয় ১২ জুলাই ১৯৮২ সালে। বাকি তারিখগুলি যথাক্রমে RBI-র যুগ, নির্বাচন কমিশন ও নীতি আয়োগের সঙ্গে জড়িত।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "rbi_nabard",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NABARD-এর সদর দপ্তর কোথায়?",
+      "a": "মুম্বই",
+      "w": [
+        "নতুন দিল্লি",
+        "বেঙ্গালুরু",
+        "কলকাতা"
+      ],
+      "e": "PIB স্পষ্ট বলছে — NABARD-এর সদর দপ্তর মুম্বই। বেঙ্গালুরু ISRO-র, নতুন দিল্লি নির্বাচন কমিশনের সদর দপ্তর।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "rbi_nabard",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি কেন্দ্রীয় ব্যাংকের কাজ নয়?",
+      "a": "কৃষকদের সরাসরি ফসল-ঋণ দেওয়া",
+      "w": [
+        "দেশের মুদ্রা জারি করা",
+        "অর্থের জোগান নিয়ন্ত্রণ করা",
+        "সরকারের ব্যাংকার হিসেবে কাজ করা"
+      ],
+      "e": "NCERT-র তালিকায় কেন্দ্রীয় ব্যাংকের কাজ: মুদ্রা জারি, অর্থের জোগান নিয়ন্ত্রণ, সরকারের ব্যাংকার, বৈদেশিক মুদ্রা ভান্ডারের রক্ষক। কৃষি-ঋণের উন্নয়ন NABARD-এর ক্ষেত্র।",
+      "claims": [
+        "c02",
+        "c09"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "rbi_nabard",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দেশের বৈদেশিক মুদ্রা ভান্ডারের রক্ষক (custodian) কে?",
+      "a": "ভারতীয় রিজার্ভ ব্যাংক",
+      "w": [
+        "নাবার্ড",
+        "সেবি",
+        "নীতি আয়োগ"
+      ],
+      "e": "NCERT বলছে কেন্দ্রীয় ব্যাংক অর্থাৎ RBI-ই অর্থনীতির বৈদেশিক মুদ্রা ভান্ডারের রক্ষক।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "rbi_nabard",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "RBI সম্পর্কে বিবৃতিগুলি বিচার করো:\n১. RBI ব্যাংক-হার, খোলা বাজারে কেনাবেচা ও সংরক্ষণ-অনুপাত বদলে অর্থের জোগান নিয়ন্ত্রণ করে।\n২. RBI সরাসরি কৃষকদের ঋণ বিতরণের শীর্ষ উন্নয়ন প্রতিষ্ঠান।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ NCERT অনুযায়ী সঠিক। বিবৃতি ২ ভুল — কৃষি ও গ্রামীণ উন্নয়নের শীর্ষ উন্নয়নমূলক আর্থিক প্রতিষ্ঠান হল NABARD, RBI নয়।",
+      "claims": [
+        "c02",
+        "c08"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "sebi",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SEBI গঠিত হয় কোন সালে?",
+      "a": "১৯৮৮ সালে",
+      "w": [
+        "১৯৯২ সালে",
+        "১৯৮২ সালে",
+        "২০১৫ সালে"
+      ],
+      "e": "SEBI গঠিত হয় ১২ এপ্রিল ১৯৮৮ সালে অবিধিবদ্ধ সংস্থা হিসেবে। ১৯৯২ হল এর বিধিবদ্ধ মর্যাদা পাওয়ার বছর।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "sebi",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SEBI কোন বাজারের নিয়ন্ত্রক?",
+      "a": "সিকিউরিটিজ (শেয়ার) বাজার",
+      "w": [
+        "কৃষি-ঋণ বাজার",
+        "বৈদেশিক মুদ্রা ভান্ডার",
+        "মহাকাশ কর্মসূচি"
+      ],
+      "e": "SEBI আইনের প্রস্তাবনা অনুযায়ী SEBI-র কাজ সিকিউরিটিজ বাজারের উন্নয়ন ও নিয়ন্ত্রণ এবং বিনিয়োগকারীদের স্বার্থ রক্ষা।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "sebi",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SEBI বিধিবদ্ধ মর্যাদা পায় কোন সালে?",
+      "a": "১৯৯২ সালে",
+      "w": [
+        "১৯৮৮ সালে",
+        "১৯৫০ সালে",
+        "২০১৫ সালে"
+      ],
+      "e": "৩০ জানুয়ারি ১৯৯২ সালে অধ্যাদেশের মাধ্যমে SEBI বিধিবদ্ধ মর্যাদা ও ক্ষমতা পায়; ১৯৮৮ সালে এটি গঠিত হয়েছিল অবিধিবদ্ধ হিসেবে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "sebi",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SEBI গঠনের সময় (১৯৮৮) এর ধরন কেমন ছিল?",
+      "a": "অবিধিবদ্ধ (non-statutory) সংস্থা",
+      "w": [
+        "সাংবিধানিক সংস্থা",
+        "সংসদের আইনে তৈরি বিধিবদ্ধ সংস্থা",
+        "বেসরকারি কোম্পানি"
+      ],
+      "e": "SEBI-র নিজের প্রকাশনা বলছে, ১৯৮৮ সালে এটি সরকারের প্রশাসনিক প্রস্তাবে গঠিত অবিধিবদ্ধ সংস্থা ছিল।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "sebi",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "SEBI সম্পর্কে বিবৃতিগুলি বিচার করো:\n১. SEBI আইন, ১৯৯২-এর প্রস্তাবনায় বিনিয়োগকারীদের স্বার্থ রক্ষা SEBI-র উদ্দেশ্য হিসেবে লেখা আছে।\n২. ১৯৮৮ সালেই SEBI সংসদের আইন দ্বারা বিধিবদ্ধ সংস্থা হিসেবে তৈরি হয়।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — প্রস্তাবনায় উদ্দেশ্যগুলি স্পষ্ট। বিবৃতি ২ ভুল — ১৯৮৮ সালে SEBI ছিল অবিধিবদ্ধ; আইন আসে ১৯৯২ সালে।",
+      "claims": [
+        "c06",
+        "c04"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "sebi",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "SEBI-কে বিধিবদ্ধ মর্যাদা দেওয়া অধ্যাদেশটি জারি হয় কবে?",
+      "a": "৩০ জানুয়ারি ১৯৯২",
+      "w": [
+        "১২ এপ্রিল ১৯৮৮",
+        "৪ এপ্রিল ১৯৯২",
+        "১ জানুয়ারি ২০১৫"
+      ],
+      "e": "অধ্যাদেশ জারি হয় ৩০ জানুয়ারি ১৯৯২; সংসদের আইন সেই অধ্যাদেশের জায়গা নেয় ৪ এপ্রিল ১৯৯২ সালে — দুটি তারিখ আলাদা।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "sebi",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): SEBI-কে পরীক্ষায় কখনও কখনও '১৯৯২ সালে প্রতিষ্ঠিত' বলা হয়।\nকারণ (R): ১৯৯২ সালেই SEBI বিধিবদ্ধ সংস্থা হিসেবে প্রতিষ্ঠিত হয়, যদিও গঠন হয়েছিল ১৯৮৮ সালে।",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "SEBI-র প্রকাশনা অনুযায়ী বিধিবদ্ধ সংস্থা হিসেবে প্রতিষ্ঠা ২১ ফেব্রুয়ারি ১৯৯২ (অধ্যাদেশ ৩০ জানুয়ারি ১৯৯২) — তাই 'প্রতিষ্ঠা ১৯৯২' বলার কারণই এই বিধিবদ্ধ রূপ; গঠন ১৯৮৮।",
+      "claims": [
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "eci_upsc",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের নির্বাচন কমিশন গঠিত হয় কবে?",
+      "a": "২৫ জানুয়ারি ১৯৫০",
+      "w": [
+        "২৬ জানুয়ারি ১৯৫০",
+        "১৫ আগস্ট ১৯৪৭",
+        "১ অক্টোবর ১৯২৬"
+      ],
+      "e": "কমিশন গঠিত হয় ২৫ জানুয়ারি ১৯৫০ — প্রজাতন্ত্র হওয়ার ঠিক একদিন আগে। ১৯২৬ হল UPSC-র যাত্রা শুরুর বছর।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "eci_upsc",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নির্বাচন কমিশনের সদর দপ্তর কোথায়?",
+      "a": "নির্বাচন সদন, নতুন দিল্লি",
+      "w": [
+        "ধোলপুর হাউস, নতুন দিল্লি",
+        "মুম্বই",
+        "বেঙ্গালুরু"
+      ],
+      "e": "নির্বাচন কমিশনের সদর দপ্তর নতুন দিল্লির নির্বাচন সদনে। ধোলপুর হাউস হল UPSC-র সদর দপ্তর — এই জোড়টি প্রায়ই গুলিয়ে দেওয়া হয়।",
+      "claims": [
+        "c23",
+        "c18"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "eci_upsc",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "UPSC-র প্রাতিষ্ঠানিক যাত্রা শুরু হয় কোন সালে?",
+      "a": "১৯২৬ সালে",
+      "w": [
+        "১৯৫০ সালে",
+        "১৯৩৫ সালে",
+        "১৯১৯ সালে"
+      ],
+      "e": "PIB-র ইতিহাস অনুযায়ী প্রথম লোকসেবা আয়োগ গঠিত হয় ১ অক্টোবর ১৯২৬ সালে।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "eci_upsc",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সংবিধানের কোন অনুচ্ছেদগুলিতে লোকসেবা আয়োগের বিধান রয়েছে?",
+      "a": "৩১৫–৩২৩ নং অনুচ্ছেদ",
+      "w": [
+        "৩২৪–৩২৯ নং অনুচ্ছেদ",
+        "২৮০ নং অনুচ্ছেদ",
+        "১৪৮–১৫১ নং অনুচ্ছেদ"
+      ],
+      "e": "লোকসেবা আয়োগের বিধান সংবিধানের চতুর্দশ ভাগে ৩১৫–৩২৩ নং অনুচ্ছেদে রয়েছে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "eci_upsc",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রথম লোকসেবা আয়োগের প্রথম চেয়ারম্যান কে ছিলেন?",
+      "a": "স্যার রস বার্কার",
+      "w": [
+        "আর. এন. বন্দ্যোপাধ্যায় (ব্যানার্জি)",
+        "জ্ঞানেশ কুমার",
+        "বিক্রম সারাভাই"
+      ],
+      "e": "প্রথম চেয়ারম্যান ছিলেন স্যার রস বার্কার; আর. এন. ব্যানার্জি ছিলেন UPSC নাম পাওয়ার সময়কার (১৯৫০) চেয়ারম্যান।",
+      "claims": [
+        "c17",
+        "c20"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "eci_upsc",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোন পরীক্ষাটি UPSC পরিচালনা করে না?",
+      "a": "WBPSC ক্লার্কশিপ পরীক্ষা",
+      "w": [
+        "সিভিল সার্ভিসেস পরীক্ষা",
+        "NDA ও নৌ অ্যাকাডেমি পরীক্ষা",
+        "CDS পরীক্ষা"
+      ],
+      "e": "UPSC কেন্দ্রীয় পরীক্ষাগুলি নেয় — সিভিল সার্ভিসেস, NDA, CDS ইত্যাদি। WBPSC ক্লার্কশিপ রাজ্য লোকসেবা আয়োগের পরীক্ষা, UPSC-র নয়।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "eci_upsc",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সংস্থা ও সদর দপ্তরের সঠিক মিল বাছাই করো:\nA. নির্বাচন কমিশন\nB. UPSC\nC. NABARD\nD. ISRO\n১. বেঙ্গালুরু\n২. মুম্বই\n৩. নির্বাচন সদন, নতুন দিল্লি\n৪. ধোলপুর হাউস, নতুন দিল্লি",
+      "a": "A-৩, B-৪, C-২, D-১",
+      "w": [
+        "A-৪, B-৩, C-২, D-১",
+        "A-৩, B-২, C-৪, D-১",
+        "A-১, B-৪, C-২, D-৩"
+      ],
+      "e": "নির্বাচন কমিশন–নির্বাচন সদন (৩), UPSC–ধোলপুর হাউস (৪), NABARD–মুম্বই (২), ISRO–বেঙ্গালুরু (১)।",
+      "claims": [
+        "c23",
+        "c18",
+        "c08",
+        "c27"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "niti",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নীতি আয়োগ গঠিত হয় কবে?",
+      "a": "১ জানুয়ারি ২০১৫",
+      "w": [
+        "১৫ আগস্ট ২০১৪",
+        "২৬ জানুয়ারি ২০১৫",
+        "১ এপ্রিল ২০১৫"
+      ],
+      "e": "কেন্দ্রীয় মন্ত্রিসভার প্রস্তাবে ১ জানুয়ারি ২০১৫ সালে নীতি আয়োগ গঠিত হয়।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "niti",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নীতি আয়োগ কোন সংস্থার পরিবর্তে গঠিত হয়?",
+      "a": "পরিকল্পনা কমিশন",
+      "w": [
+        "নির্বাচন কমিশন",
+        "অর্থ কমিশন",
+        "লোকসেবা আয়োগ"
+      ],
+      "e": "সরকার নীতি আয়োগ গঠন করে ১৯৫০ সালে প্রতিষ্ঠিত পরিকল্পনা কমিশনের পরিবর্তে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "niti",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NITI-র পূর্ণরূপ কী?",
+      "a": "National Institution for Transforming India",
+      "w": [
+        "National Institute for Technical India",
+        "National Institution for Trade and Industry",
+        "National Information Technology Institute"
+      ],
+      "e": "নীতি আয়োগের সরকারি নামই National Institution for Transforming India।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "niti",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নীতি আয়োগ কীভাবে গঠিত হয়?",
+      "a": "কেন্দ্রীয় মন্ত্রিসভার প্রস্তাবের মাধ্যমে",
+      "w": [
+        "সংবিধান সংশোধনের মাধ্যমে",
+        "সংসদের আইনের মাধ্যমে",
+        "রাষ্ট্রপতির অধ্যাদেশের মাধ্যমে"
+      ],
+      "e": "নীতি আয়োগের নিজের প্রকাশনা বলছে — এটি গঠিত হয় কেন্দ্রীয় মন্ত্রিসভার প্রস্তাব (resolution) দ্বারা; তাই এটি সাংবিধানিক বা বিধিবদ্ধ সংস্থা নয়।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "niti",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পরিকল্পনা কমিশন প্রতিষ্ঠিত হয়েছিল কোন সালে?",
+      "a": "১৯৫০ সালে",
+      "w": [
+        "১৯৪৭ সালে",
+        "১৯৫২ সালে",
+        "২০১৫ সালে"
+      ],
+      "e": "নীতি আয়োগের প্রকাশনা অনুযায়ী পরিকল্পনা কমিশন প্রতিষ্ঠিত হয় ১৯৫০ সালে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "niti",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নীতি আয়োগের সঙ্গে সবচেয়ে ঘনিষ্ঠভাবে জড়িত ধারণা কোনটি?",
+      "a": "সমবায় যুক্তরাষ্ট্রীয়তা (Cooperative Federalism)",
+      "w": [
+        "কেন্দ্রীভূত পরিকল্পনা",
+        "মুদ্রানীতি নিয়ন্ত্রণ",
+        "নির্বাচন পরিচালনা"
+      ],
+      "e": "নীতি আয়োগ রাজ্যগুলিকে জাতীয় স্বার্থে একসঙ্গে কাজ করতে এগিয়ে আনে — এটাই সমবায় যুক্তরাষ্ট্রীয়তা।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "niti",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নীতি আয়োগ সম্পর্কে বিবৃতিগুলি বিচার করো:\n১. নীতি আয়োগ ভারত সরকারের প্রধান নীতি-চিন্তাশালা (Think Tank)।\n২. নীতি আয়োগ একটি সাংবিধানিক সংস্থা।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল — নীতি আয়োগ মন্ত্রিসভার প্রস্তাবে গঠিত নির্বাহী সংস্থা, সংবিধানে এর উল্লেখ নেই।",
+      "claims": [
+        "c13",
+        "c11"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "isro",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ISRO গঠিত হয় কবে?",
+      "a": "১৫ আগস্ট ১৯৬৯",
+      "w": [
+        "১৫ আগস্ট ১৯৪৭",
+        "১ জানুয়ারি ১৯৬২",
+        "২৫ জানুয়ারি ১৯৫০"
+      ],
+      "e": "ISRO গঠিত হয় ১৫ আগস্ট ১৯৬৯ সালে; ১৯৬২ সালে গঠিত হয়েছিল এর পূর্বসূরি INCOSPAR।",
+      "claims": [
+        "c25",
+        "c26"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "isro",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ISRO-র সদর দপ্তর কোথায়?",
+      "a": "বেঙ্গালুরু",
+      "w": [
+        "নতুন দিল্লি",
+        "মুম্বই",
+        "শ্রীহরিকোটা"
+      ],
+      "e": "ISRO-র নিজের ওয়েবসাইট অনুযায়ী এর সদর দপ্তর বেঙ্গালুরুতে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "isro",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ISRO-র পূর্বসূরি সংস্থা কোনটি?",
+      "a": "INCOSPAR",
+      "w": [
+        "NABARD",
+        "SEBI",
+        "DOS"
+      ],
+      "e": "ISRO আগে ছিল INCOSPAR (Indian National Committee for Space Research), গঠিত ১৯৬২ সালে।",
+      "claims": [
+        "c26",
+        "c25"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "isro",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "INCOSPAR কার পরিকল্পনা অনুযায়ী গঠিত হয়?",
+      "a": "ড. বিক্রম সারাভাই",
+      "w": [
+        "ড. ভি. নারায়ণন",
+        "স্যার রস বার্কার",
+        "জ্ঞানেশ কুমার"
+      ],
+      "e": "ISRO-র ওয়েবসাইট বলছে INCOSPAR গঠিত হয় ড. বিক্রম সারাভাইয়ের পরিকল্পনা অনুযায়ী।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "isro",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ISRO কোন বিভাগের প্রধান অংশ?",
+      "a": "মহাকাশ বিভাগ (Department of Space)",
+      "w": [
+        "অর্থ মন্ত্রক",
+        "প্রতিরক্ষা মন্ত্রক",
+        "নির্বাচন কমিশন"
+      ],
+      "e": "ISRO ভারত সরকারের মহাকাশ বিভাগের একটি প্রধান অংশ (major constituent)।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "isro",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ISRO-র চেয়ারম্যান একই সঙ্গে আর কোন পদে থাকেন?",
+      "a": "মহাকাশ বিভাগের সচিব ও মহাকাশ কমিশনের চেয়ারম্যান",
+      "w": [
+        "RBI-র গভর্নর",
+        "মুখ্য নির্বাচন কমিশনার",
+        "UPSC-র চেয়ারম্যান"
+      ],
+      "e": "ISRO-র ওয়েবসাইট অনুযায়ী এর চেয়ারম্যানই মহাকাশ বিভাগের সচিব এবং মহাকাশ কমিশনের চেয়ারম্যান।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "isro",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলি কালানুক্রমে সাজাও (আগে থেকে পরে):\n১. ISRO গঠিত\n২. INCOSPAR গঠিত\n৩. নীতি আয়োগ গঠিত\n৪. নির্বাচন কমিশন গঠিত",
+      "a": "৪, ২, ১, ৩",
+      "w": [
+        "২, ৪, ১, ৩",
+        "৪, ১, ২, ৩",
+        "২, ১, ৪, ৩"
+      ],
+      "e": "ক্রম: নির্বাচন কমিশন ১৯৫০ → INCOSPAR ১৯৬২ → ISRO ১৯৬৯ → নীতি আয়োগ ২০১৫।",
+      "claims": [
+        "c21",
+        "c26",
+        "c25",
+        "c11"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "current_heads",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তমানে (নভেম্বর ২০২৬) RBI-র গভর্নর কে?",
+      "a": "সঞ্জয় মালহোত্রা",
+      "w": [
+        "তুহিন কান্ত পান্ডে",
+        "জ্ঞানেশ কুমার",
+        "শাজি কে. ভি."
+      ],
+      "e": "PIB-র নোটে সঞ্জয় মালহোত্রাকে RBI-র গভর্নর বলা হয়েছে। পান্ডে SEBI-র, জ্ঞানেশ কুমার নির্বাচন কমিশনের, শাজি NABARD-এর প্রধান।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "current_heads",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তমানে SEBI-র চেয়ারম্যান কে?",
+      "a": "তুহিন কান্ত পান্ডে",
+      "w": [
+        "সঞ্জয় মালহোত্রা",
+        "ড. ভি. নারায়ণন",
+        "শাজি কে. ভি."
+      ],
+      "e": "SEBI-র প্রেস বিজ্ঞপ্তি অনুযায়ী তুহিন কান্ত পান্ডে ১ মার্চ ২০২৫ সালে চেয়ারম্যান হিসেবে দায়িত্ব নেন।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "current_heads",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তমানে ISRO-র চেয়ারম্যান কে?",
+      "a": "ড. ভি. নারায়ণন",
+      "w": [
+        "বিক্রম সারাভাই",
+        "জ্ঞানেশ কুমার",
+        "তুহিন কান্ত পান্ডে"
+      ],
+      "e": "ড. ভি. নারায়ণন ১৩ জানুয়ারি ২০২৫ সালে ISRO-র চেয়ারম্যান হিসেবে দায়িত্ব নেন।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "current_heads",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের ২৬তম মুখ্য নির্বাচন কমিশনার কে?",
+      "a": "জ্ঞানেশ কুমার",
+      "w": [
+        "সুখবীর সিং সান্ধু",
+        "বিবেক যোশী",
+        "রস বার্কার"
+      ],
+      "e": "PIB অনুযায়ী জ্ঞানেশ কুমার ২৬তম মুখ্য নির্বাচন কমিশনার; সান্ধু ও যোশী নির্বাচন কমিশনার।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "current_heads",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NABARD-এর বর্তমান চেয়ারম্যান কে?",
+      "a": "শাজি কে. ভি.",
+      "w": [
+        "সঞ্জয় মালহোত্রা",
+        "তুহিন কান্ত পান্ডে",
+        "ড. ভি. নারায়ণন"
+      ],
+      "e": "NABARD-এর প্রতিষ্ঠা দিবসের PIB বিজ্ঞপ্তিতে শাজি কে. ভি.-কে চেয়ারম্যান বলা হয়েছে।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "current_heads",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ড. ভি. নারায়ণন ISRO-র চেয়ারম্যান হওয়ার আগে কোন কেন্দ্রের অধিকর্তা ছিলেন?",
+      "a": "তরল প্রপালশন সিস্টেমস সেন্টার (LPSC)",
+      "w": [
+        "বিক্রম সারাভাই মহাকাশ কেন্দ্র",
+        "সতীশ ধাওয়ান মহাকাশ কেন্দ্র",
+        "মহাকাশ প্রয়োগ কেন্দ্র"
+      ],
+      "e": "ISRO-র বিজ্ঞপ্তি অনুযায়ী তিনি আগে LPSC-র অধিকর্তা ছিলেন।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "current_heads",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি ভুল?\n১. RBI — সঞ্জয় মালহোত্রা\n২. SEBI — তুহিন কান্ত পান্ডে\n৩. ISRO — জ্ঞানেশ কুমার\n৪. NABARD — শাজি কে. ভি.",
+      "a": "৩",
+      "w": [
+        "১",
+        "২",
+        "৪"
+      ],
+      "e": "জ্ঞানেশ কুমার ISRO-র নয়, তিনি মুখ্য নির্বাচন কমিশনার; ISRO-র চেয়ারম্যান ড. ভি. নারায়ণন। বাকি তিনটি জোড় সঠিক।",
+      "claims": [
+        "c03",
+        "c07",
+        "c24",
+        "c30",
+        "c10"
+      ]
+    }
+  ]
+}

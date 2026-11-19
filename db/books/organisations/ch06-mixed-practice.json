@@ -1,0 +1,1804 @@
+{
+  "book": "organisations",
+  "code": "ORG-06",
+  "number": 6,
+  "part": "heads_mixed",
+  "title": "মিশ্র অনুশীলনী",
+  "subtitle": "সব অধ্যায়ের মিশ্র পুনরালোচনা: কালানুক্রম, সদর দপ্তর, সদস্য-গণনা, ভারতের অবস্থান ও বর্তমান প্রধান",
+  "subtopics": [
+    "mixed"
+  ],
+  "related_facts": [
+    "GK-ORG-016",
+    "GK-ORG-001",
+    "GK-ORG-005"
+  ],
+  "prerequisites": [
+    "ORG-01",
+    "ORG-02",
+    "ORG-03",
+    "ORG-04",
+    "ORG-05"
+  ],
+  "reading_minutes": {
+    "quick": 8,
+    "standard": 30,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 2 LIKELY, 0 GUESS); 1 item(s) had a second option the checker found also defensible from the claims.  Blind checker matched q39 and flagged the alternative as also defensible; adjudicated and key RETAINED: the key's own wording claims only that R explains A's background (ILO created 1919 at Versailles -> UN specialised agency 1946), which is accurate framing, and the explanation teaches the two dates distinctly. Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 4 of 17 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ORG-06.json and drafts/ORG-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ORG-06_REPORT.md. Duplicate-stem fix after install: ORG-03 q35 shared the generic PAIRS stem with ORG-02 q28 and ORG-06 q20 re-asked ORG-03 q10 verbatim; both stems in the later chapters were reworded topic-specifically with keys, options and claims unchanged, and a fresh independent blind check of both replacements matched every key (2/2, both SURE).",
+    "checked_claims": 56,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এই বইয়ের শেষ অধ্যায়টি পুরোপুরি অনুশীলনীর: আগের পাঁচটি অধ্যায়ের (ORG-01 থেকে ORG-05) তথ্য এখানে মিশ্র আকারে সাজানো — কালানুক্রমের শৃঙ্খল, সদর দপ্তরের মানচিত্র, সদস্য-সংখ্যার সারি, ভারতের সদস্যপদ এবং তারিখসহ বর্তমান প্রধানদের তালিকা। পরীক্ষায় প্রশ্ন অধ্যায় অনুযায়ী আসে না, আসে মিশ্রভাবে; তাই এখানে প্রতিটি অংশই আগের অধ্যায়গুলির ফাঁদগুলি — প্রতিষ্ঠা বনাম কার্যকর, জন্মস্থান বনাম আসন, পুরনো বনাম বর্তমান প্রধান — একসঙ্গে ঝালিয়ে নেওয়ার জন্য তৈরি।",
+    "you_will_learn": [
+      "প্রতিষ্ঠা-বছরের একটানা শৃঙ্খল: ITU ১৮৬৫ থেকে SCO ২০০১ পর্যন্ত",
+      "সদর দপ্তরের শহর-গুচ্ছ: জেনেভা, ম্যানিলা, সাংহাই, কাঠমাণ্ডু, ঢাকা, বেইজিং, বেঙ্গালুরু",
+      "ভারতের অবস্থান: রাষ্ট্রসংঘের প্রতিষ্ঠাতা সদস্য, SCO-তে পূর্ণ সদস্যপদ ২০১৭, IMF-তে ২.৬৪% ভোট",
+      "সদস্য-সংখ্যার সারি: ১৯৩, ১৯০, ১৬৬, ৬৯, ১০, ৮, ৭",
+      "১৯ নভেম্বর ২০২৬ অনুযায়ী বর্তমান প্রধানদের নাম ও পদ",
+      "মিশ্র প্রশ্নের তিনটি বড় ফাঁদ চেনা ও এড়ানো"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chrono_chain",
+      "heading": "কালানুক্রমের শৃঙ্খল: কোন সংস্থা কবে",
+      "quick": "সংস্থাগুলির প্রতিষ্ঠা-বছর একটি শৃঙ্খলে সাজালে মিশ্র প্রশ্নের অর্ধেক উত্তর হাতে আসে: ITU ১৮৬৫ → UPU ১৮৭৪ → ILO ১৯১৯ → বিশ্ব ব্যাংক ১৯৪৪ → রাষ্ট্রসংঘ ১৯৪৫ → GATT ১৯৪৭ → IAEA ১৯৫৭ → ISRO ১৯৬৯ → SAARC ১৯৮৫ → EU ১৯৯২ → WTO ১৯৯৫ → BIMSTEC ১৯৯৭ → SCO ২০০১।",
+      "standard": "মিশ্র অনুশীলনীতে সবচেয়ে বেশি আসে কালানুক্রম (CHRONOLOGY) প্রশ্ন। তাই এই বইয়ের সব অধ্যায়ের বছরগুলি এক শৃঙ্খলে গেঁথে নাও।\n\n**ঊনবিংশ শতক:** আন্তর্জাতিক সংস্থার যাত্রা শুরু প্রযুক্তি-ভিত্তিক ইউনিয়ন দিয়ে — আন্তর্জাতিক টেলিগ্রাফ ইউনিয়ন (ITU) ১৮৬৫ সালে এবং বিশ্ব ডাক সংঘ (UPU) ১৮৭৪ সালে। **প্রথম বিশ্বযুদ্ধের পর:** ভার্সাই চুক্তি (১৯১৯) লিগ অব নেশনসের পাশাপাশি তৈরি করে আন্তর্জাতিক শ্রম সংস্থা (ILO)। **দ্বিতীয় বিশ্বযুদ্ধের শেষভাগ:** ১৯৪৪ সালে ব্রেটন উডস ব্যবস্থা থেকে জন্ম নেয় IMF ও বিশ্ব ব্যাংক; ১৯৪৫ সালের ২৪ অক্টোবর প্রতিষ্ঠিত হয় রাষ্ট্রসংঘ (সনদে স্বাক্ষর হয়েছিল আগেই, ২৬ জুন ১৯৪৫, সান ফ্রান্সিসকো সম্মেলনে)। ১৯৪৭ সালের ৩০ নভেম্বর স্বাক্ষরিত হয় GATT।\n\n**ঠান্ডা যুদ্ধের যুগ:** ১৯৫৭ সালে IAEA এবং একই বছরে রোম চুক্তিতে ইউরোপীয় অর্থনৈতিক সম্প্রদায় (EEC); ১৯৬৯ সালের ১৫ আগস্ট ভারতে ISRO গঠিত হয়। **পরবর্তী ধাপ:** SAARC ৮ ডিসেম্বর ১৯৮৫ (ঢাকায় সনদ গৃহীত), ইউরোপীয় ইউনিয়ন (EU) ১৯৯২, WTO কার্যকর ১ জানুয়ারি ১৯৯৫, BIMSTEC ৬ জুন ১৯৯৭ (ব্যাংকক ঘোষণা), আর SCO ১৫ জুন ২০০১। NDB-র ক্ষেত্রে দুটি বছর মনে রাখো — BRICS দেশগুলি ব্যাংকটি স্থাপন করে ২০১৪ সালে, কার্যকর হয় ২০১৫ সালে।",
+      "deep": "কালানুক্রম প্রশ্নে কৌশল: সব বছর মুখস্থ না থাকলেও দুটি 'অ্যাঙ্কর' ঠিক করো — সবচেয়ে পুরনো (সাধারণত ITU ১৮৬৫) আর সবচেয়ে নতুন (সাধারণত SCO ২০০১ বা WTO ১৯৯৫)। মাঝের দুটির মধ্যে যেটির বছর নিশ্চিত জানো, সেটি দিয়ে বাকি বিকল্প বাদ দাও।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "শৃঙ্খলটি মুখস্থ করো",
+          "body": "১৮৬৫ ITU → ১৮৭৪ UPU → ১৯১৯ ILO → ১৯৪৪ বিশ্ব ব্যাংক/ব্রেটন উডস → ১৯৪৫ রাষ্ট্রসংঘ → ১৯৪৭ GATT → ১৯৫৭ IAEA → ১৯৬৯ ISRO → ১৯৮৫ SAARC → ১৯৯২ EU → ১৯৯৫ WTO → ১৯৯৭ BIMSTEC → ২০০১ SCO।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c08",
+        "c09",
+        "c10",
+        "c13",
+        "c16",
+        "c17",
+        "c18",
+        "c22",
+        "c27",
+        "c28",
+        "c33",
+        "c37",
+        "c41",
+        "c46",
+        "c50"
+      ]
+    },
+    {
+      "id": "hq_map",
+      "heading": "সদর দপ্তরের মানচিত্র: কোন সংস্থা কোন শহরে",
+      "quick": "এই অধ্যায়ে যাচাই করা সদর দপ্তরগুলি: WTO — জেনেভা, ADB — ম্যানিলা, NDB — সাংহাই, SAARC সচিবালয় — কাঠমাণ্ডু, BIMSTEC সচিবালয় — ঢাকা, SCO সচিবালয় — বেইজিং, ISRO — বেঙ্গালুরু। শহর অনুযায়ী গুচ্ছ করে মনে রাখো, এককভাবে নয়।",
+      "standard": "সদর দপ্তরের প্রশ্নে পরীক্ষক একই অঞ্চলের শহর বদলে ফাঁদ পাতেন। তাই শহর-গুচ্ছে সাজাও।\n\n**এশিয়ার গুচ্ছ:** ADB-র সদর দপ্তর ফিলিপিন্সের ম্যানিলায়; NDB-র সদর দপ্তর চীনের সাংহাইয়ে; SCO সচিবালয় বেইজিংয়ে (এর সন্ত্রাসবিরোধী কাঠামো RATS-এর নির্বাহী কমিটি তাশখন্দে); SAARC সচিবালয় নেপালের কাঠমাণ্ডুতে; BIMSTEC-র স্থায়ী সচিবালয় ২০১৪ সালে স্থাপিত হয় ঢাকায়; আর ভারতের মহাকাশ সংস্থা ISRO-র সদর দপ্তর বেঙ্গালুরুতে। **ইউরোপের গুচ্ছ:** WTO অবস্থিত সুইজারল্যান্ডের জেনেভায়।\n\nলক্ষ্য করো ফাঁদটি: SAARC-র সনদ গৃহীত হয়েছিল ঢাকায় (১৯৮৫), কিন্তু সচিবালয় কাঠমাণ্ডুতে; BIMSTEC জন্ম নেয় ব্যাংকক ঘোষণায় (১৯৯৭), কিন্তু সচিবালয় ঢাকায়। 'কোথায় জন্ম' আর 'কোথায় আসন' — এই দুই প্রশ্নের উত্তর আলাদা হতে পারে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "জন্মস্থান বনাম আসন",
+          "body": "SAARC: সনদ ঢাকায় (১৯৮৫), সচিবালয় কাঠমাণ্ডুতে। BIMSTEC: ঘোষণা ব্যাংককে (১৯৯৭), সচিবালয় ঢাকায় (২০১৪)। ADB: প্রথম গভর্নর-সভা টোকিওতে (১৯৬৬), সদর দপ্তর ম্যানিলায়।"
+        }
+      ],
+      "claims": [
+        "c23",
+        "c30",
+        "c34",
+        "c38",
+        "c43",
+        "c51",
+        "c46",
+        "c25"
+      ]
+    },
+    {
+      "id": "india_status",
+      "heading": "ভারতের সদস্যপদ ও অবস্থান",
+      "quick": "ভারত রাষ্ট্রসংঘের প্রতিষ্ঠাতা সদস্য (সদস্যপদ ৩০ অক্টোবর ১৯৪৫), GATT আলোচনার ২৩টি দেশের একটি (১৯৪৭), SCO-র পূর্ণ সদস্য ২০১৭ সাল থেকে, NDB-র প্রতিষ্ঠাতা BRICS সদস্য; IMF-তে ভারতের ভোটের অংশ ২.৬৪%।",
+      "standard": "মিশ্র সেটে 'ভারত' কোণ থেকে প্রশ্ন বারবার আসে। **রাষ্ট্রসংঘ:** ভারত প্রতিষ্ঠাতা সদস্য — ১৯৪২ সালের ১ জানুয়ারি ওয়াশিংটনে 'Declaration by United Nations'-এ স্বাক্ষর করে এবং ১৯৪৫-এর সান ফ্রান্সিসকো সম্মেলনে অংশ নেয়; আনুষ্ঠানিক সদস্যপদ ৩০ অক্টোবর ১৯৪৫। MEA-র বিবরণ অনুযায়ী ভারত নিরাপত্তা পরিষদে মোট সাতবার (২০১১-১২ পর্যন্ত) অস্থায়ী সদস্য ছিল, এবং পরিষদ-সংস্কারের জন্য G-4 (ভারত, ব্রাজিল, জার্মানি, জাপান) গোষ্ঠীতে সক্রিয়।\n\n**অর্থনীতি:** ১৯৪৭-এ জেনেভায় GATT আলোচনা শুরু করা ২৩টি দেশের মধ্যে ভারত ছিল। IMF-তে সব সদস্যের ভোট সমান নয় — ভারতের অংশ ২.৬৪%, যুক্তরাষ্ট্রের ১৬.৫২%। NDB-তে ভারতের অর্থমন্ত্রীই ভারতের গভর্নর। **গোষ্ঠী:** ভারত SCO-র পূর্ণ সদস্য হয় ২০১৭ সালের জুনে আস্তানা শীর্ষ সম্মেলনে; SAARC ও BIMSTEC-র প্রতিষ্ঠাতা-পর্যায়ের সদস্য (সদস্য-তালিকা পরের অংশে)।",
+      "deep": "ভারতের মহাকাশ সংস্থা ISRO এই বইয়ের ভারত-অধ্যায়ের (ORG-04) অংশ; এখানে শুধু মনে করিয়ে দেওয়া হল — ISRO গঠিত ১৯৬৯ সালের ১৫ আগস্ট, পূর্বসূরি INCOSPAR (১৯৬২), যার পরিকল্পনা করেছিলেন ড. বিক্রম সারাভাই।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সাতবার না আটবার?",
+          "body": "MEA-র ২০২০ সালের বিবরণে ভারতের নিরাপত্তা পরিষদ-মেয়াদ সাতটি (শেষটি ২০১১-১২)। এরপর ভারত ২০২১-২২ মেয়াদেও ছিল — এই অধ্যায়ের উৎসে তা নেই বলে এখানে 'সাতবার (২০২০-র বিবরণ অনুযায়ী)' বলা হয়েছে।"
+        }
+      ],
+      "claims": [
+        "c03",
+        "c11",
+        "c27",
+        "c42",
+        "c47",
+        "c50",
+        "c52",
+        "c53",
+        "c54",
+        "c55",
+        "c56"
+      ]
+    },
+    {
+      "id": "groups_membership",
+      "heading": "গোষ্ঠী ও সদস্য-গণনা",
+      "quick": "সংখ্যাগুলি একসঙ্গে: রাষ্ট্রসংঘ ১৯৩, IMF ১৯০ (ফেব্রুয়ারি ২০২৪ অনুযায়ী), WTO ১৬৬, ADB ৬৯, ASEAN ১০, SCO ১০, SAARC ৮, BIMSTEC ৭; নিরাপত্তা পরিষদ ৫ স্থায়ী + ১০ অস্থায়ী।",
+      "standard": "সদস্য-সংখ্যা মিশ্র প্রশ্নের প্রিয় বিষয়, কারণ সংখ্যাগুলি কাছাকাছি। **বিশ্ব সংস্থা:** রাষ্ট্রসংঘের সদস্য ১৯৩টি রাষ্ট্র; এর সংস্থাগুলির মধ্যে WHO, UNDP, UNHCR, UNICEF, UNESCO প্রভৃতি সামাজিক-অর্থনৈতিক বিষয় দেখে। নিরাপত্তা পরিষদে ৫টি স্থায়ী সদস্য (যুক্তরাষ্ট্র, রাশিয়া, যুক্তরাজ্য, ফ্রান্স, চীন) ও ১০টি অস্থায়ী সদস্য। IMF-র সদস্য ১৯০ (১৯ ফেব্রুয়ারি ২০২৪ অনুযায়ী), WTO-র ১৬৬, ADB-র ৬৯ (এলাকার ৫০ + বাইরের ১৯)।\n\n**আঞ্চলিক গোষ্ঠী:** SAARC-র সদস্য আটটি — আফগানিস্তান, বাংলাদেশ, ভুটান, ভারত, মালদ্বীপ, নেপাল, পাকিস্তান, শ্রীলঙ্কা (লক্ষ্য করো: মিয়ানমার SAARC-র সদস্য নয়)। BIMSTEC-র সদস্য সাতটি — দক্ষিণ এশিয়ার পাঁচটি (বাংলাদেশ, ভুটান, ভারত, নেপাল, শ্রীলঙ্কা) ও দক্ষিণ-পূর্ব এশিয়ার দুটি (মিয়ানমার, থাইল্যান্ড)। SCO দশ সদস্যের সংস্থা; ASEAN-র শক্তি কম্বোডিয়া যোগ দেওয়ার পর দশে পৌঁছায়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সংখ্যা-সারি",
+          "body": "১৯৩ (রাষ্ট্রসংঘ) → ১৯০ (IMF) → ১৬৬ (WTO) → ৬৯ (ADB) → ১০ (ASEAN, SCO) → ৮ (SAARC) → ৭ (BIMSTEC) → ৫+১০ (নিরাপত্তা পরিষদ)।"
+        }
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c06",
+        "c11",
+        "c12",
+        "c15",
+        "c20",
+        "c29",
+        "c32",
+        "c36",
+        "c41"
+      ]
+    },
+    {
+      "id": "heads_dated",
+      "heading": "বর্তমান প্রধানগণ (তারিখসহ)",
+      "quick": "১৯ নভেম্বর ২০২৬ অনুযায়ী: রাষ্ট্রসংঘ — আন্তোনিও গুতেরেস, IMF — ক্রিস্টালিনা জর্জিয়েভা, বিশ্ব ব্যাংক গোষ্ঠী — অজয় বঙ্গা, WTO — ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা, SAARC — মো. গোলাম সারওয়ার, BIMSTEC — ইন্দ্রমণি পাণ্ডে, SCO — নুরলান ইয়েরমেকবায়েভ।",
+      "standard": "প্রধানদের নাম বদলায়, তাই এই অংশের প্রতিটি নামের পাশে উৎস ও তারিখ জরুরি। **বিশ্ব সংস্থা:** রাষ্ট্রসংঘের নবম মহাসচিব আন্তোনিও গুতেরেস (দায়িত্ব গ্রহণ ১ জানুয়ারি ২০১৭; আগে তিনি পর্তুগালের প্রধানমন্ত্রী ও জাতিসংঘ শরণার্থী হাইকমিশনার ছিলেন)। IMF-র ব্যবস্থাপনা পরিচালক (Managing Director) ক্রিস্টালিনা জর্জিয়েভা — PIB-র বিবরণে ভারতের অর্থমন্ত্রীর সঙ্গে তাঁর বৈঠকের কথা আছে। বিশ্ব ব্যাংক গোষ্ঠীর সভাপতি অজয় বঙ্গা (PIB, ডিসেম্বর ২০২৩)। WTO-র মহাপরিচালক ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা (আকাশবাণী, মার্চ ২০২৬)।\n\n**আঞ্চলিক গোষ্ঠী:** SAARC মহাসচিব মো. গোলাম সারওয়ার (বাংলাদেশ থেকে)। BIMSTEC-র চতুর্থ মহাসচিব ইন্দ্রমণি পাণ্ডে — এই পদে প্রথম ভারতীয়। SCO মহাসচিব নুরলান ইয়েরমেকবায়েভ (কাজাখস্তানের প্রাক্তন প্রতিরক্ষামন্ত্রী), দায়িত্ব গ্রহণ জানুয়ারি ২০২৫, মেয়াদ তিন বছর।",
+      "deep": "প্রধান-সংক্রান্ত প্রশ্নে পুরনো নামই সবচেয়ে বড় ফাঁদ: বই বা নোট পুরনো হলে আগের প্রধানের নাম বিকল্পে থাকে। এই অধ্যায়ের তালিকা ১৯ নভেম্বর ২০২৬-এর উৎস অনুযায়ী; পরীক্ষার আগে সাম্প্রতিক পরিবর্তন যাচাই করা বুদ্ধিমানের কাজ।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "তালিকার তারিখ",
+          "body": "এই অধ্যায়ের প্রধানদের তালিকা ১৯ নভেম্বর ২০২৬ তারিখে সংগৃহীত উৎস (NCERT, MEA, PIB, আকাশবাণী) অনুযায়ী। প্রধান বদলালে এই তালিকা পুরনো হয়ে যাবে — পরীক্ষার আগে হালনাগাদ যাচাই করো।"
+        }
+      ],
+      "claims": [
+        "c07",
+        "c35",
+        "c39",
+        "c44",
+        "c45",
+        "c48",
+        "c49"
+      ]
+    },
+    {
+      "id": "traps_mixed",
+      "heading": "ফাঁদ ও মিশ্র কৌশল",
+      "quick": "তিনটি ফাঁদ চিনে রাখো: (১) প্রতিষ্ঠা বনাম কার্যকর (NDB ২০১৪/২০১৫; রাষ্ট্রসংঘ সনদ-স্বাক্ষর ১৯৪৫-র জুন, প্রতিষ্ঠা অক্টোবর); (২) জন্মস্থান বনাম সদর দপ্তর (SAARC, BIMSTEC, ADB); (৩) একই-বছরের জোড় বদল (IAEA ও EEC দুটোই ১৯৫৭)।",
+      "standard": "মিশ্র সেটের ভুল বিকল্পগুলি এই বইয়ের নিজের ফাঁদ থেকেই তৈরি হয়। **প্রথম ফাঁদ — দুটি তারিখ:** NDB স্থাপিত ২০১৪, কার্যকর ২০১৫; রাষ্ট্রসংঘের সনদ স্বাক্ষর ২৬ জুন ১৯৪৫, প্রতিষ্ঠা ২৪ অক্টোবর ১৯৪৫; GATT স্বাক্ষর ১৯৪৭, WTO ১৯৯৫। প্রশ্নে কোন ক্রিয়াপদটি আছে ('স্থাপিত', 'কার্যকর', 'স্বাক্ষরিত') তা পড়ো। **দ্বিতীয় ফাঁদ — জন্ম বনাম আসন:** ADB-র প্রথম গভর্নর-সভা টোকিওতে (১৯৬৬) ও প্রথম সভাপতি জাপানের তাকেশি ওয়াতানাবে, কিন্তু সদর দপ্তর ম্যানিলায়। **তৃতীয় ফাঁদ — একই বছরের বদল:** ১৯৫৭ সালে IAEA-ও প্রতিষ্ঠিত, রোম চুক্তিতে EEC-ও।\n\nআরও দুটি বিশেষ তথ্য: ILO-ই একমাত্র আন্তর্জাতিক সংস্থা যেখানে সরকার, শ্রমিক ও মালিক — তিন পক্ষের প্রতিনিধি থাকে (tripartite), এবং এটি ১৯৪৬ সালে রাষ্ট্রসংঘের বিশেষায়িত সংস্থা হয়। IMF-র প্রধান প্রকাশনাগুলি — World Economic Outlook, Global Financial Stability Report, Fiscal Monitor — প্রায়ই 'কোন সংস্থার প্রকাশনা' জাতীয় প্রশ্নে আসে। WTO-র MFN নীতির অর্থ: প্রতিটি বাণিজ্য-অংশীদারকে সমান আচরণ করতে হবে। SAARC-র অধীনে দক্ষিণ এশীয় বিশ্ববিদ্যালয় (SAU) নয়াদিল্লিতে — 'ভারতে অবস্থিত আন্তর্জাতিক প্রতিষ্ঠান' প্রশ্নে এটি কাজে লাগে। NATO সম্পর্কে এই বইয়ের উৎস শুধু এটুকু বলে: যুক্তরাষ্ট্র NATO-র অধীনে একটি নতুন যৌথ নিরাপত্তা কাঠামো তৈরি করেছিল।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "যা এই অধ্যায়ে শেখানো হয়নি",
+          "body": "NATO-র প্রতিষ্ঠা-বছর (১৯৪৯) ও সদর দপ্তর (ব্রাসেলস), OPEC, Interpol, IUCN ও এশিয়া-প্রশান্ত মহাসাগরীয় ডাক সংঘের সদর দপ্তর এই অধ্যায়ের যাচাই করা উৎসে নেই — সেগুলি ORG-03 অধ্যায় ও GK কার্ডে আছে, এখানে অনুমান করে লেখা হয়নি।"
+        }
+      ],
+      "claims": [
+        "c14",
+        "c19",
+        "c21",
+        "c24",
+        "c25",
+        "c26",
+        "c31",
+        "c40",
+        "c46"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "রাষ্ট্রসংঘ প্রতিষ্ঠা",
+      "when": "২৪ অক্টোবর ১৯৪৫",
+      "what": "সান ফ্রান্সিসকো সম্মেলন ও সনদ-স্বাক্ষরের পর রাষ্ট্রসংঘ প্রতিষ্ঠিত হয়; ভারত যোগ দেয় ৩০ অক্টোবর।",
+      "why_it_matters": "২৪ অক্টোবর রাষ্ট্রসংঘ দিবস; স্বাক্ষর (জুন) বনাম প্রতিষ্ঠা (অক্টোবর) ফাঁদটি এখান থেকেই আসে।",
+      "section": "chrono_chain",
+      "claims": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "title": "ব্রেটন উডস থেকে IMF ও বিশ্ব ব্যাংক",
+      "when": "১৯৪৪",
+      "what": "ব্রেটন উডস ব্যবস্থার ফল হিসেবে IMF ও বিশ্ব ব্যাংক সৃষ্টি হয়।",
+      "why_it_matters": "দুটি সংস্থার জন্ম একই সম্মেলনে — জোড়া প্রশ্নে বারবার আসে।",
+      "section": "chrono_chain",
+      "claims": [
+        "c22",
+        "c08"
+      ]
+    },
+    {
+      "title": "GATT থেকে WTO",
+      "when": "১৯৪৭–১৯৯৫",
+      "what": "১৯৪৭-এ GATT স্বাক্ষর; ১৯৯৫-এর ১ জানুয়ারি তার উত্তরসূরি WTO সৃষ্টি হয়।",
+      "why_it_matters": "WBCS-এ সরাসরি প্রশ্ন এসেছে: WTO-র আগের নাম ছিল GATT।",
+      "section": "traps_mixed",
+      "claims": [
+        "c27",
+        "c28",
+        "c09"
+      ]
+    },
+    {
+      "title": "ভারতের SCO পূর্ণ সদস্যপদ",
+      "when": "জুন ২০১৭",
+      "what": "আস্তানা শীর্ষ সম্মেলনে ভারত SCO-র পূর্ণ সদস্য হয়।",
+      "why_it_matters": "পর্যবেক্ষক বনাম পূর্ণ সদস্য — বছরটি (২০১৭) পরীক্ষায় আসে।",
+      "section": "india_status",
+      "claims": [
+        "c42"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "আন্তোনিও গুতেরেস",
+      "when": "২০১৭–বর্তমান",
+      "role": "রাষ্ট্রসংঘের মহাসচিব (নবম)",
+      "contribution": "পর্তুগালের প্রাক্তন প্রধানমন্ত্রী ও প্রাক্তন শরণার্থী হাইকমিশনার; ১ জানুয়ারি ২০১৭-এ দায়িত্ব নেন।",
+      "section": "heads_dated",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "name": "ক্রিস্টালিনা জর্জিয়েভা",
+      "when": "২০১৯–বর্তমান",
+      "role": "IMF-র ব্যবস্থাপনা পরিচালক",
+      "contribution": "Clerkship ২০১৯-এর প্রশ্নেই তাঁর নিয়োগ এসেছিল; PIB-র বিবরণে তিনি IMF-র MD হিসেবে উল্লিখিত।",
+      "section": "heads_dated",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "name": "অজয় বঙ্গা",
+      "when": "২০২৩–বর্তমান",
+      "role": "বিশ্ব ব্যাংক গোষ্ঠীর সভাপতি",
+      "contribution": "PIB (ডিসেম্বর ২০২৩) অনুযায়ী বিশ্ব ব্যাংক গোষ্ঠীর সভাপতি।",
+      "section": "heads_dated",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "name": "ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা",
+      "when": "২০২১–বর্তমান",
+      "role": "WTO-র মহাপরিচালক",
+      "contribution": "আকাশবাণীর মার্চ ২০২৬-এর খবর অনুযায়ী WTO-র Director-General।",
+      "section": "heads_dated",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "name": "মো. গোলাম সারওয়ার",
+      "when": "বর্তমান",
+      "role": "SAARC মহাসচিব",
+      "contribution": "বাংলাদেশ থেকে SAARC-র বর্তমান মহাসচিব (MEA বিবরণ)।",
+      "section": "heads_dated",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "name": "ইন্দ্রমণি পাণ্ডে",
+      "when": "বর্তমান",
+      "role": "BIMSTEC মহাসচিব (চতুর্থ)",
+      "contribution": "এই পদে প্রথম ভারতীয়।",
+      "section": "heads_dated",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "name": "নুরলান ইয়েরমেকবায়েভ",
+      "when": "জানুয়ারি ২০২৫–বর্তমান",
+      "role": "SCO মহাসচিব",
+      "contribution": "কাজাখস্তানের প্রাক্তন প্রতিরক্ষামন্ত্রী; তিন বছরের মেয়াদে দায়িত্ব নেন জানুয়ারি ২০২৫-এ।",
+      "section": "heads_dated",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "name": "তাকেশি ওয়াতানাবে",
+      "when": "১৯৬৬",
+      "role": "ADB-র প্রথম সভাপতি",
+      "contribution": "জাপানের ওয়াতানাবে ছিলেন ADB-র প্রথম সভাপতি — 'প্রথম প্রধান' প্রশ্নের ফাঁদ এখানে।",
+      "section": "traps_mixed",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "name": "বিক্রম সারাভাই",
+      "when": "১৯৬২",
+      "role": "INCOSPAR-এর পরিকল্পক",
+      "contribution": "তাঁর পরিকল্পনায় ১৯৬২ সালে INCOSPAR গঠিত হয়, যা পরে ISRO হয়।",
+      "section": "india_status",
+      "claims": [
+        "c52"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1865,
+      "when": "১৮৬৫",
+      "label": "আন্তর্জাতিক টেলিগ্রাফ ইউনিয়ন (ITU) প্রতিষ্ঠা",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "sort_year": 1874,
+      "when": "১৮৭৪",
+      "label": "বিশ্ব ডাক সংঘ (UPU) প্রতিষ্ঠা",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "sort_year": 1919,
+      "when": "১৯১৯",
+      "label": "ভার্সাই চুক্তিতে ILO সৃষ্টি",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 1944,
+      "when": "১৯৪৪",
+      "label": "ব্রেটন উডস: IMF ও বিশ্ব ব্যাংক সৃষ্টি",
+      "claims": [
+        "c22",
+        "c08"
+      ]
+    },
+    {
+      "sort_year": 1945,
+      "when": "১৯৪৫",
+      "label": "রাষ্ট্রসংঘ প্রতিষ্ঠা (২৪ অক্টোবর); ভারতের সদস্যপদ (৩০ অক্টোবর)",
+      "claims": [
+        "c01",
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 1947,
+      "when": "১৯৪৭",
+      "label": "GATT স্বাক্ষর (৩০ নভেম্বর, জেনেভা)",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "sort_year": 1957,
+      "when": "১৯৫৭",
+      "label": "IAEA প্রতিষ্ঠা; রোম চুক্তিতে EEC",
+      "claims": [
+        "c10",
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 1969,
+      "when": "১৯৬৯",
+      "label": "ISRO গঠন (১৫ আগস্ট)",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "sort_year": 1985,
+      "when": "১৯৮৫",
+      "label": "SAARC প্রতিষ্ঠা (৮ ডিসেম্বর, ঢাকা)",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "sort_year": 1992,
+      "when": "১৯৯২",
+      "label": "ইউরোপীয় ইউনিয়ন (EU) প্রতিষ্ঠা",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "sort_year": 1995,
+      "when": "১৯৯৫",
+      "label": "WTO সৃষ্টি (১ জানুয়ারি)",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "sort_year": 1997,
+      "when": "১৯৯৭",
+      "label": "BIMSTEC-র সূচনা (৬ জুন, ব্যাংকক ঘোষণা)",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "sort_year": 2001,
+      "when": "২০০১",
+      "label": "SCO প্রতিষ্ঠা (১৫ জুন)",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "sort_year": 2014,
+      "when": "২০১৪",
+      "label": "NDB স্থাপনা (BRICS); BIMSTEC সচিবালয় ঢাকায়",
+      "claims": [
+        "c46",
+        "c34"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "MFN (Most-Favoured-Nation)",
+      "meaning": "WTO-র নীতি: প্রতিটি বাণিজ্য-অংশীদারকে সমান আচরণ করতে হবে।",
+      "section": "traps_mixed"
+    },
+    {
+      "term": "ভেটো (Veto)",
+      "meaning": "নিরাপত্তা পরিষদের স্থায়ী সদস্যের নেতিবাচক ভোট, যা সিদ্ধান্ত আটকে দিতে পারে; অস্থায়ী সদস্যদের এই ক্ষমতা নেই।",
+      "section": "groups_membership"
+    },
+    {
+      "term": "ত্রিপক্ষীয় (Tripartite)",
+      "meaning": "ILO-র অনন্য কাঠামো: সরকার, শ্রমিক ও মালিক — তিন পক্ষের প্রতিনিধিত্ব।",
+      "section": "traps_mixed"
+    },
+    {
+      "term": "ব্রেটন উডস ব্যবস্থা",
+      "meaning": "১৯৪৪ সালের সম্মেলন-ব্যবস্থা, যেখান থেকে IMF ও বিশ্ব ব্যাংক জন্ম নেয়।",
+      "section": "chrono_chain"
+    },
+    {
+      "term": "G-4",
+      "meaning": "নিরাপত্তা পরিষদ সংস্কারের দাবিদার চার দেশ: ভারত, ব্রাজিল, জার্মানি, জাপান।",
+      "section": "india_status"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "ব্রেটন উডস থেকে যমজ প্রতিষ্ঠান",
+      "causes": [
+        "দ্বিতীয় বিশ্বযুদ্ধ-পরবর্তী মুদ্রা-স্থিতি ও পুনর্গঠনের প্রয়োজন"
+      ],
+      "event": "১৯৪৪ সালে ব্রেটন উডস ব্যবস্থা গৃহীত হয়",
+      "results": [
+        "IMF সৃষ্টি হয় মুদ্রা সহযোগিতার জন্য",
+        "বিশ্ব ব্যাংক সৃষ্টি হয় উন্নয়ন ও পুনর্গঠনের জন্য"
+      ],
+      "section": "chrono_chain",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "title": "GATT-র সীমা থেকে WTO",
+      "causes": [
+        "GATT ছিল চুক্তিভিত্তিক, পূর্ণাঙ্গ সংস্থা নয়",
+        "সেবা ও মেধাসম্পদের মতো নতুন ক্ষেত্র GATT-র বাইরে ছিল"
+      ],
+      "event": "১ জানুয়ারি ১৯৯৫-এ WTO সৃষ্টি হয়",
+      "results": [
+        "WTO GATT-র উত্তরসূরি হয়",
+        "বিশ্ব বাণিজ্যের নিয়মকানুনের স্থায়ী সংস্থা গড়ে ওঠে"
+      ],
+      "section": "traps_mixed",
+      "claims": [
+        "c27",
+        "c28",
+        "c09"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "কালানুক্রম শৃঙ্খল (১৮৬৫–২০০১) — CHRONOLOGY প্রশ্নের ভিত্তি",
+      "section": "chrono_chain"
+    },
+    {
+      "point": "সদর দপ্তরের শহর-গুচ্ছ ও জন্মস্থান বনাম আসনের ফাঁদ",
+      "section": "hq_map"
+    },
+    {
+      "point": "সদস্য-সংখ্যা: SAARC ৮ বনাম BIMSTEC ৭; মিয়ানমার SAARC-তে নেই",
+      "section": "groups_membership"
+    },
+    {
+      "point": "বর্তমান প্রধানগণ — পুরনো নামের ফাঁদ এড়িয়ে তারিখসহ তালিকা",
+      "section": "heads_dated"
+    },
+    {
+      "point": "স্থাপনা বনাম কার্যকর: NDB ২০১৪/২০১৫; সনদ-স্বাক্ষর বনাম প্রতিষ্ঠা: রাষ্ট্রসংঘ ১৯৪৫",
+      "section": "traps_mixed"
+    },
+    {
+      "point": "ভারত-কোণ: প্রতিষ্ঠাতা সদস্য, SCO ২০১৭, IMF ভোট ২.৬৪%",
+      "section": "india_status"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের সঙ্গে বাংলার সবচেয়ে সরাসরি যোগ BIMSTEC-র মাধ্যমে: সংস্থাটির পুরো নামেই আছে 'বে অব বেঙ্গল' — বঙ্গোপসাগরের তীরবর্তী ও সংলগ্ন এলাকার সাতটি দেশের গোষ্ঠী, যার মধ্যে ভারত অন্যতম। পশ্চিমবঙ্গ ভারতের বঙ্গোপসাগর-উপকূলীয় রাজ্য, ফলে BIMSTEC-র বাণিজ্য ও যোগাযোগ-আলোচনা এই অঞ্চলের জন্যই সবচেয়ে প্রাসঙ্গিক। এছাড়া WBPSC Clerkship ও WBCS-র প্রশ্নপত্রে এই অধ্যায়ের বিষয়গুলি (SAARC, IMF প্রধান, NATO-র বছর) সরাসরি এসেছে — বাংলা মাধ্যমের পরীক্ষার্থীদের জন্য এটিই এই অধ্যায়ের ব্যবহারিক গুরুত্ব।",
+    "claims": [
+      "c32",
+      "c33"
+    ]
+  },
+  "quick_revision": [
+    "কালানুক্রম: ITU ১৮৬৫ → UPU ১৮৭৪ → ILO ১৯১৯ → বিশ্ব ব্যাংক ১৯৪৪ → রাষ্ট্রসংঘ ১৯৪৫ → GATT ১৯৪৭ → IAEA ১৯৫৭ → ISRO ১৯৬৯ → SAARC ১৯৮৫ → EU ১৯৯২ → WTO ১৯৯৫ → BIMSTEC ১৯৯৭ → SCO ২০০১",
+    "সদর দপ্তর: WTO জেনেভা, ADB ম্যানিলা, NDB সাংহাই, SAARC কাঠমাণ্ডু, BIMSTEC ঢাকা, SCO বেইজিং, ISRO বেঙ্গালুরু",
+    "সদস্য-সংখ্যা: রাষ্ট্রসংঘ ১৯৩, IMF ১৯০, WTO ১৬৬, ADB ৬৯, ASEAN ১০, SCO ১০, SAARC ৮, BIMSTEC ৭",
+    "মিয়ানমার SAARC-র সদস্য নয়; BIMSTEC ও ASEAN-র সদস্য",
+    "ভারত: রাষ্ট্রসংঘের প্রতিষ্ঠাতা সদস্য (৩০ অক্টোবর ১৯৪৫), SCO পূর্ণ সদস্য ২০১৭, IMF ভোট ২.৬৪%",
+    "প্রধান (১৯ নভেম্বর ২০২৬ অনুযায়ী): গুতেরেস (রাষ্ট্রসংঘ), জর্জিয়েভা (IMF), বঙ্গা (বিশ্ব ব্যাংক), ওকোঞ্জো-ইওয়েয়ালা (WTO)",
+    "আঞ্চলিক প্রধান: সারওয়ার (SAARC), পাণ্ডে (BIMSTEC, প্রথম ভারতীয়), ইয়েরমেকবায়েভ (SCO)",
+    "ফাঁদ: NDB স্থাপনা ২০১৪, কার্যকর ২০১৫; রাষ্ট্রসংঘ সনদ জুন ১৯৪৫, প্রতিষ্ঠা অক্টোবর ১৯৪৫",
+    "ফাঁদ: SAARC সনদ ঢাকায় কিন্তু সচিবালয় কাঠমাণ্ডুতে; BIMSTEC ঘোষণা ব্যাংককে কিন্তু সচিবালয় ঢাকায়",
+    "ILO একমাত্র ত্রিপক্ষীয় সংস্থা; ১৯৪৬-এ রাষ্ট্রসংঘের বিশেষায়িত সংস্থা",
+    "নিরাপত্তা পরিষদ: ৫ স্থায়ী (যুক্তরাষ্ট্র, রাশিয়া, যুক্তরাজ্য, ফ্রান্স, চীন) + ১০ অস্থায়ী; G-4 = ভারত, ব্রাজিল, জার্মানি, জাপান",
+    "দক্ষিণ এশীয় বিশ্ববিদ্যালয় (SAU) নয়াদিল্লিতে — SAARC-র অধীনের প্রতিষ্ঠান"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "NCERT Class XII, Contemporary World Politics, Ch. 4: International Organisations (leps104)",
+      "class": "XII",
+      "url": "https://ncert.nic.in/textbook/pdf/leps104.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "NCERT Class XII, Contemporary World Politics, Ch. 2: Contemporary Centres of Power (leps102)",
+      "class": "XII",
+      "url": "https://ncert.nic.in/textbook/pdf/leps102.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "IGNOU, Unit 12: Role of International Bodies – Governmental and Non-Governmental",
+      "class": "UG",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/63367/1/Unit-12.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "IGNOU, Unit 12: International Financial Institutions",
+      "class": "UG",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/122470/1/Unit-12.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "IGNOU, Unit 7: World Trade Organisation",
+      "class": "UG",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/122458/1/Unit-7.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "MEA, India in BIMSTEC (brief)",
+      "class": "-",
+      "url": "https://www.mea.gov.in/Portal/ForeignRelation/India_in_BIMSTEC.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "MEA, India-SAARC brief (June 2026)",
+      "class": "-",
+      "url": "https://www.mea.gov.in/Portal/ForeignRelation/India-SAARC-June-2026.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "MEA, Brief on India-SCO Cooperation",
+      "class": "-",
+      "url": "https://www.mea.gov.in/Portal/ForeignRelation/India-SCO_Cooperation.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "PIB, FM's bilateral meeting with Kristalina Georgieva, MD IMF (PRID 1817932)",
+      "class": "-",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1817932",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "PIB, 7th Annual Meeting of NDB Board of Governors – About NDB (PRID 1826746)",
+      "class": "-",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1826746",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "PIB, World Bank Group President Ajay Banga launches PPP e-Course (PRID 1989683)",
+      "class": "-",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1989683",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s12",
+      "title": "Akashvani News, Piyush Goyal meets WTO Director-General Ngozi Okonjo-Iweala, 29 Mar 2026",
+      "class": "-",
+      "url": "https://newsonair.gov.in/union-minister-piyush-goyal-meets-dg-of-world-trade-organisation/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s13",
+      "title": "ISRO, About ISRO (profile page)",
+      "class": "-",
+      "url": "https://www.isro.gov.in/profile.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s14",
+      "title": "MEA, India and United Nations (brief)",
+      "class": "-",
+      "url": "https://www.mea.gov.in/Portal/ForeignRelation/India_UN_2020.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "The UN was founded on 24 October 1945 (UN Day).",
+      "source": "s1",
+      "page": "p. 48",
+      "quote": "1945 October 24: the UN was founded (hence October 24 is celebrated as UN Day)"
+    },
+    {
+      "id": "c02",
+      "claim": "The UN Charter was signed on 26 June 1945 by 50 nations; with Poland the UN has 51 original founding members.",
+      "source": "s1",
+      "page": "p. 48",
+      "quote": "1945 June 26: Signing of the UN Charter by 50 nations (Poland signed on October 15; so the UN has 51 original founding members)"
+    },
+    {
+      "id": "c03",
+      "claim": "India joined the UN on 30 October 1945.",
+      "source": "s1",
+      "page": "p. 48",
+      "quote": "1945 October 30: India joins the UN"
+    },
+    {
+      "id": "c04",
+      "claim": "By 2011 the UN had 193 member states.",
+      "source": "s1",
+      "page": "p. 50",
+      "quote": "By 2011, the UN had 193 member states. These includeed almost all independent states."
+    },
+    {
+      "id": "c05",
+      "claim": "The five permanent members of the Security Council are the US, Russia, the UK, France and China.",
+      "source": "s1",
+      "page": "p. 50",
+      "quote": "These are: the United States, Russia, the United Kingdom, France and China."
+    },
+    {
+      "id": "c06",
+      "claim": "The Security Council has five permanent and ten non-permanent members; non-permanent members serve two years and have no veto.",
+      "source": "s1",
+      "page": "pp. 54-55",
+      "quote": "In the Security Council, there are five permanent members and ten nonpermanent members."
+    },
+    {
+      "id": "c07",
+      "claim": "Antonio Guterres is the ninth UN Secretary-General; he took over on 1 January 2017 and was earlier PM of Portugal and UN High Commissioner for Refugees.",
+      "source": "s1",
+      "page": "pp. 50-51",
+      "quote": "The present Secretary-General is António Guterres. He is the ninth Secretary-General of the UN. He took over as the SecretaryGeneral on 1 January 2017."
+    },
+    {
+      "id": "c08",
+      "claim": "The World Bank was created in 1944, during the Second World War.",
+      "source": "s1",
+      "page": "p. 53",
+      "quote": "The World Bank was created during the Second World War in 1944."
+    },
+    {
+      "id": "c09",
+      "claim": "The WTO was set up in 1995 as the successor to GATT.",
+      "source": "s1",
+      "page": "p. 57",
+      "quote": "This organisation was set up in 1995 as the successor to the General Agreement on Trade and Tariffs (GATT) created after the Second World War."
+    },
+    {
+      "id": "c10",
+      "claim": "The IAEA was established in 1957 to promote peaceful use of nuclear energy and prevent military use.",
+      "source": "s1",
+      "page": "p. 58",
+      "quote": "The International Atomic Energy Agency (IAEA) was established in 1957 . It came into being to implement US President Dwight Eisenhower's “Atoms for Peace” proposal. It seeks to promote the peaceful use of nuclear energy and to prevent its use for military purposes ."
+    },
+    {
+      "id": "c11",
+      "claim": "The IMF had 190 member countries as on 19 February 2024; India's voting share is 2.64% and the US has 16.52%.",
+      "source": "s1",
+      "page": "p. 47",
+      "quote": "The IMF has 190 member countries (as on 19 Febuary 2024) but they do not enjoy an equal say. The G-7 members US (16.52%), Japan (6.15%), Germany (5.32%), France (4.03%), UK (4.03%), Italy (3.02%) and Canada (2.22%) have 41 .29% of the votes. China (6.09%), India (2.64%), Russia (2.59%) Brazil (2.22%) and Saudi Arabia (2.02%) are the other major members."
+    },
+    {
+      "id": "c12",
+      "claim": "WHO, UNDP, UNHRC, UNHCR, UNICEF and UNESCO are among the UN agencies dealing with social and economic issues.",
+      "source": "s1",
+      "page": "p. 50",
+      "quote": "Social and economic issues are dealt with by many agencies including the World Health Organisation (WHO), the United Nations Development Programme (UNDP), the United Nations Human Rights Commision (UNHRC), the United Nations High Commission for Refugees (UNHCR), the United Nations Children's Fund (UNICEF), and the United Nations Educational, Scientific, and Cultural Organisation (UNESCO), among others."
+    },
+    {
+      "id": "c13",
+      "claim": "The European Union was established in 1992.",
+      "source": "s2",
+      "page": "p. 16",
+      "quote": "The collapse of the Soviet bloc put Europe on a fast track and resulted in the establishment of the European Union in 1992."
+    },
+    {
+      "id": "c14",
+      "claim": "The US created a new collective security structure under NATO.",
+      "source": "s2",
+      "page": "p. 16",
+      "quote": "The US also created a new collective security structure under NATO."
+    },
+    {
+      "id": "c15",
+      "claim": "Cambodia's joining took ASEAN's strength to ten.",
+      "source": "s2",
+      "page": "p. 20",
+      "quote": "Cambodia joined ASEAN taking its strength to ten."
+    },
+    {
+      "id": "c16",
+      "claim": "The Treaties of Rome (25 March 1957) established the European Economic Community (EEC).",
+      "source": "s2",
+      "page": "p. 18",
+      "quote": "1957 March 25: These six countries sign the Treaties of Rome establishing the European Economic Community (EEC) and the European Atomic Energy Community (Euratom) ."
+    },
+    {
+      "id": "c17",
+      "claim": "The International Telegraphic Union (1865) and the Universal Postal Union (1874) were among the earliest public international unions.",
+      "source": "s3",
+      "page": "p. 130",
+      "quote": "The major public international unions in the earlier period include; 1) The International Telegraphic Union (1865), 2) The Universal Postal Union (1874), 3) The International Union of Railway Freight Transportation (1890), and 4) The International Bureau of Weights and Measures (1875)."
+    },
+    {
+      "id": "c18",
+      "claim": "The ILO was created by the Treaty of Versailles (1919), along with the League of Nations.",
+      "source": "s3",
+      "page": "p. 132",
+      "quote": "International labour movement was strengthened by the Treaty of Versailles (1919), which created, besides the League of Nations, the International Labour Organisation (ILO)."
+    },
+    {
+      "id": "c19",
+      "claim": "In 1946 the ILO became a specialised agency of the UN; it is the only international organisation with tripartite delegation (government, workers, employers).",
+      "source": "s3",
+      "page": "p. 132",
+      "quote": "In 1946 the ILO became a Specialised Agency of the UN. It is the only international organisation which has tripartite delegation – composed of delegates from government, trade unions of workers and employers."
+    },
+    {
+      "id": "c20",
+      "claim": "The UN is the only truly global organisation, with a membership of 193 states.",
+      "source": "s3",
+      "page": "p. 131",
+      "quote": "Established through the San Francisco Conference (April–June 1945), it is the only truly global organisation ever to be constructed, having a membership of 193 States."
+    },
+    {
+      "id": "c21",
+      "claim": "The UN was established through the San Francisco Conference (April-June 1945).",
+      "source": "s3",
+      "page": "p. 131",
+      "quote": "Established through the San Francisco Conference (April–June 1945), it is the only truly global organisation ever to be constructed"
+    },
+    {
+      "id": "c22",
+      "claim": "The IMF and the World Bank were the outcome of the Bretton Woods system (1944).",
+      "source": "s4",
+      "page": "p. 290",
+      "quote": "International Financial Institutions such as the International Monetary Fund (IMF) and the World Bank were the outcome of the Bretton Woods system (1944) to ensure that the post war world has monetary stability and fosters the reconstruction of economies."
+    },
+    {
+      "id": "c23",
+      "claim": "The headquarters of the ADB is in Manila, Philippines.",
+      "source": "s4",
+      "page": "p. 296",
+      "quote": "Headquarter Manila, Philippines"
+    },
+    {
+      "id": "c24",
+      "claim": "The ADB Charter was adopted on 4 December 1965; the ADB currently has 69 members.",
+      "source": "s4",
+      "page": "p. 296",
+      "quote": "Charter of ADB adopted December 4, 1965 Current members 69 (50 from the region and 19 from elsewhere)"
+    },
+    {
+      "id": "c25",
+      "claim": "The first President of the ADB was Takeshi Watanabe of Japan; the first Board of Governors meeting was held in Tokyo on 19 December 1966.",
+      "source": "s4",
+      "page": "p. 296",
+      "quote": "First Board of Governors meeting Held in Tokyo on December 19, 1966, Founding members 31 Regional members Recipient of development aid The first President of ADB Takeshi Watanabe of Japan"
+    },
+    {
+      "id": "c26",
+      "claim": "The IMF's major publications include the World Economic Outlook, Global Financial Stability Report, Fiscal Monitor and External Sector Report.",
+      "source": "s4",
+      "page": "pp. 291-292",
+      "quote": "Some of the major IMF publications that assist policymakers in coordinating their responses to systemic issues include the World Economic Outlook, Global Financial Stability Report, Fiscal Monitor, and External Sector Report."
+    },
+    {
+      "id": "c27",
+      "claim": "GATT talks began in Geneva in April 1947 among 23 countries including India; GATT was signed on 30 November 1947.",
+      "source": "s5",
+      "page": "p. 150",
+      "quote": "In April 1947, a group of 23 countries including India began talks in Geneva. The negotiations were successful, and on 30 November 1947, the General Agreement on Tariffs and Trade (GATT) was signed."
+    },
+    {
+      "id": "c28",
+      "claim": "The WTO was created on 1 January 1995.",
+      "source": "s5",
+      "page": "p. 151",
+      "quote": "The creation of the World Trade Organization (WTO) on 1 January 1995 marked the most significant reform in international trade since World War II."
+    },
+    {
+      "id": "c29",
+      "claim": "The WTO has 166 members.",
+      "source": "s5",
+      "page": "p. 153",
+      "quote": "Today, it has 166 members, representing the majority of the world's trading nations."
+    },
+    {
+      "id": "c30",
+      "claim": "The WTO is located in Geneva, Switzerland.",
+      "source": "s5",
+      "page": "p. 157 (organisational chart)",
+      "quote": "Located in Geneva, Switzerland."
+    },
+    {
+      "id": "c31",
+      "claim": "Under the WTO's MFN principle a country must treat all trading partners equally.",
+      "source": "s5",
+      "page": "pp. 153-154",
+      "quote": "Most-Favoured-Nation (MFN) Principle: A country must treat all trading partners equally."
+    },
+    {
+      "id": "c32",
+      "claim": "BIMSTEC is a grouping of seven member states: five from South Asia (Bangladesh, Bhutan, India, Nepal, Sri Lanka) and two from South-East Asia (Myanmar, Thailand).",
+      "source": "s6",
+      "page": "p. 1",
+      "quote": "five Members from South Asia (Bangladesh, Bhutan, India, Nepal and Sri Lanka) and two from South-East Asia (Myanmar and Thailand)"
+    },
+    {
+      "id": "c33",
+      "claim": "BIMSTEC came into existence on 6 June 1997 through the Bangkok Declaration.",
+      "source": "s6",
+      "page": "p. 1",
+      "quote": "The organization came into existence on 6 June 1997 through the 'Bangkok Declaration'."
+    },
+    {
+      "id": "c34",
+      "claim": "A Permanent Secretariat of BIMSTEC was set up in Dhaka in 2014.",
+      "source": "s6",
+      "page": "p. 1",
+      "quote": "A Permanent Secretariat of the organization was setup in Dhaka in 2014."
+    },
+    {
+      "id": "c35",
+      "claim": "Amb. Indramani Pandey, the first from India, is the 4th Secretary General of BIMSTEC.",
+      "source": "s6",
+      "page": "p. 1",
+      "quote": "Amb. Indramani Pandey (from India for the first time) is the 4th BIMSTEC Secretary General."
+    },
+    {
+      "id": "c36",
+      "claim": "SAARC comprises eight member states: Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka.",
+      "source": "s7",
+      "page": "p. 1",
+      "quote": "The South Asian Association for Regional Cooperation (SAARC) is a regional organization comprising eight Member States of South Asia - Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka."
+    },
+    {
+      "id": "c37",
+      "claim": "SAARC was established on 8 December 1985 through the adoption of the SAARC Charter in Dhaka.",
+      "source": "s7",
+      "page": "p. 1",
+      "quote": "It was established on 8 December 1985 through the adoption of the SAARC Charter in Dhaka, Bangladesh."
+    },
+    {
+      "id": "c38",
+      "claim": "The SAARC Secretariat is located in Kathmandu, Nepal.",
+      "source": "s7",
+      "page": "p. 1",
+      "quote": "The SAARC Secretariat is located in Kathmandu, Nepal."
+    },
+    {
+      "id": "c39",
+      "claim": "The current Secretary-General of SAARC is Mr. Md. Golam Sarwar from Bangladesh.",
+      "source": "s7",
+      "page": "p. 1",
+      "quote": "The current Secretary-General of SAARC is Mr. Md. Golam Sarwar from Bangladesh."
+    },
+    {
+      "id": "c40",
+      "claim": "The South Asian University (SAU) is in New Delhi, established by an agreement adopted at the 14th SAARC Summit (2007, New Delhi).",
+      "source": "s7",
+      "page": "p. 2",
+      "quote": "South Asian University (SAU), New Delhi, was established through an Inter-Governmental Agreement adopted at the 14th SAARC Summit in 2007 in New Delhi."
+    },
+    {
+      "id": "c41",
+      "claim": "The SCO is a ten-member organisation, established on 15 June 2001.",
+      "source": "s8",
+      "page": "p. 1",
+      "quote": "The Shanghai Cooperation Organization (SCO) is a ten-member multilateral organization, established on 15 June 2001 by the leaders of Kazakhstan, China, Kyrgyzstan, Russia, Tajikistan and Uzbekistan."
+    },
+    {
+      "id": "c42",
+      "claim": "India formally joined the SCO as a full member at the Astana Summit in June 2017.",
+      "source": "s8",
+      "page": "p. 1",
+      "quote": "India formally joined the SCO at the Astana Summit in June 2017."
+    },
+    {
+      "id": "c43",
+      "claim": "The SCO's two permanent bodies are the SCO Secretariat in Beijing and the RATS Executive Committee in Tashkent.",
+      "source": "s8",
+      "page": "p. 2",
+      "quote": "The Shanghai Cooperation Organization has two Permanent BodiesSCO Secretariat in Beijing; and the Executive Committee of the SCO Regional Anti-Terrorist Structure (RATS) in Tashkent."
+    },
+    {
+      "id": "c44",
+      "claim": "The current SCO Secretary General, Nurlan Yermekbaev, assumed office in January 2025 for a three-year term.",
+      "source": "s8",
+      "page": "p. 2",
+      "quote": "The current SCO Secretary General Mr. Nurlan Yermekbaev (former Minister of Defence of Kazakhstan) assumed office in January 2025, for three year term."
+    },
+    {
+      "id": "c45",
+      "claim": "Kristalina Georgieva is the Managing Director of the IMF.",
+      "source": "s9",
+      "page": "press release",
+      "quote": "Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman had a bilateral meeting with Ms Kristalina Georgieva, Managing Director, International Monetary Fund (IMF)"
+    },
+    {
+      "id": "c46",
+      "claim": "The NDB was set up by the BRICS countries (Brazil, Russia, India, China, South Africa) in 2014, operationalised in 2015, with headquarters in Shanghai, China.",
+      "source": "s10",
+      "page": "press release (About NDB)",
+      "quote": "NDB is a multilateral development bank, set up by the BRICS countries (Brazil, Russia, India, China, and South Africa) in 2014 with the objective of mobilizing resources for infrastructure and sustainable development projects in the BRICS as well as other EMDCs of the world. The Bank was operationalised in 2015, with its Headquarters in Shanghai, China."
+    },
+    {
+      "id": "c47",
+      "claim": "India's Finance Minister is India's Governor for the NDB and chaired its 7th Board of Governors meeting.",
+      "source": "s10",
+      "page": "press release",
+      "quote": "Union Minister of Finance & Corporate Affairs and India's Governor for the New Development Bank (NDB), Smt. Nirmala Sitharaman chaired the 7th Annual Meeting of Board of Governors of NDB"
+    },
+    {
+      "id": "c48",
+      "claim": "Ajay Banga is the President of the World Bank Group.",
+      "source": "s11",
+      "page": "press release",
+      "quote": "Shri Ajay Banga, President, World Bank Group, launched the Public-Private Partnership (PPP) Beginner's e-Course"
+    },
+    {
+      "id": "c49",
+      "claim": "Ngozi Okonjo-Iweala is the Director-General of the WTO.",
+      "source": "s12",
+      "page": "news item, 29 Mar 2026",
+      "quote": "Union Commerce and Industry Minister Piyush Goyal met the Director-General of the World Trade Organisation, Ngozi Okonjo-Iweala"
+    },
+    {
+      "id": "c50",
+      "claim": "ISRO was formed on 15 August 1969 and superseded INCOSPAR.",
+      "source": "s13",
+      "page": "profile page",
+      "quote": "ISRO was formed on August 15, 1969 and superseded INCOSPAR with an expanded role to harness space technology."
+    },
+    {
+      "id": "c51",
+      "claim": "ISRO has its headquarters in Bengaluru.",
+      "source": "s13",
+      "page": "profile page",
+      "quote": "ISRO has its headquarters in Bengaluru."
+    },
+    {
+      "id": "c52",
+      "claim": "ISRO was previously INCOSPAR, set up in 1962 as envisioned by Dr Vikram Sarabhai.",
+      "source": "s13",
+      "page": "profile page",
+      "quote": "ISRO was previously the Indian National Committee for Space Research (INCOSPAR), set up by the Government of India in 1962, as envisioned by Dr. VikramA Sarabhai."
+    },
+    {
+      "id": "c53",
+      "claim": "India is a founding member of the United Nations.",
+      "source": "s14",
+      "page": "p. 1",
+      "quote": "As a founding member of the United Nations, India strongly supports the purposes and principles of the UN"
+    },
+    {
+      "id": "c54",
+      "claim": "India signed the Declaration by United Nations at Washington on 1 January 1942 and participated in the San Francisco UN Conference (25 April-26 June 1945).",
+      "source": "s14",
+      "page": "p. 1",
+      "quote": "India was among the select members of the United Nations that signed the Declaration by United Nations at Washington on 1 January 1942 and participated in the historic UN Conference of International Organization at San Francisco from 25 April to 26 June 1945."
+    },
+    {
+      "id": "c55",
+      "claim": "India has served in the UN Security Council seven times (up to the 2020 brief).",
+      "source": "s14",
+      "page": "p. 2",
+      "quote": "India has served in the UN Security Council seven times (1950-51, 1967-68, 1972-73, 1977-78, 1984-85, 1991-92 and 2011-12)."
+    },
+    {
+      "id": "c56",
+      "claim": "The G-4 pushing Security Council reform consists of India, Brazil, Germany and Japan.",
+      "source": "s14",
+      "page": "p. 2",
+      "quote": "India in collaboration with other like-minded countries actively participates in the efforts G-4 (India, Brazil Germany and Japan) and L.69 (Group of like-minded countries from Asia, Africa and Latin America) to push forward the inter-governmental negotiations in the UN on the question of reform and expansion of the UN Security Council."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "chrono_chain",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাষ্ট্রসংঘ আনুষ্ঠানিকভাবে প্রতিষ্ঠিত হয় কোন তারিখে?",
+      "a": "২৪ অক্টোবর ১৯৪৫",
+      "w": [
+        "২৬ জুন ১৯৪৫",
+        "১৫ জুন ২০০১",
+        "৮ ডিসেম্বর ১৯৮৫"
+      ],
+      "e": "২৪ অক্টোবর রাষ্ট্রসংঘ দিবস — ওই দিনেই সংস্থাটি প্রতিষ্ঠিত হয়। ২৬ জুন ১৯৪৫ হল সনদে স্বাক্ষরের তারিখ, প্রতিষ্ঠার নয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "chrono_chain",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক টেলিগ্রাফ ইউনিয়ন (ITU) প্রতিষ্ঠিত হয় কোন সালে?",
+      "a": "১৮৬৫",
+      "w": [
+        "১৮৭৪",
+        "১৯১৯",
+        "১৯৪৫"
+      ],
+      "e": "ITU ১৮৬৫ — প্রাচীনতম আন্তর্জাতিক ইউনিয়নগুলির একটি। ১৮৭৪ হল UPU-র বছর।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "chrono_chain",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব বাণিজ্য সংস্থা (WTO) সৃষ্টি হয় কোন তারিখে?",
+      "a": "১ জানুয়ারি ১৯৯৫",
+      "w": [
+        "৩০ নভেম্বর ১৯৪৭",
+        "৭ ফেব্রুয়ারি ১৯৯২",
+        "১৫ জুন ২০০১"
+      ],
+      "e": "WTO-র সৃষ্টি ১ জানুয়ারি ১৯৯৫। ১৯৪৭ হল GATT স্বাক্ষরের বছর।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "chrono_chain",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক পরমাণু শক্তি সংস্থা (IAEA) প্রতিষ্ঠিত হয় কোন সালে?",
+      "a": "১৯৫৭",
+      "w": [
+        "১৯৪৫",
+        "১৯৬৯",
+        "১৯৯৫"
+      ],
+      "e": "IAEA প্রতিষ্ঠিত ১৯৫৭ সালে, 'Atoms for Peace' প্রস্তাব বাস্তবায়নের জন্য।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "chrono_chain",
+      "level": "difficult",
+      "format": "CHRONOLOGY",
+      "q": "প্রতিষ্ঠার কালানুক্রমে সাজাও:\n১. WHO-সহ রাষ্ট্রসংঘ ব্যবস্থার সূচনা (রাষ্ট্রসংঘ)\n২. ILO\n৩. WTO\n৪. ITU",
+      "a": "৪ → ২ → ১ → ৩",
+      "w": [
+        "২ → ৪ → ১ → ৩",
+        "৪ → ২ → ৩ → ১",
+        "২ → ১ → ৪ → ৩"
+      ],
+      "e": "ITU ১৮৬৫ → ILO ১৯১৯ → রাষ্ট্রসংঘ ১৯৪৫ → WTO ১৯৯৫।",
+      "claims": [
+        "c17",
+        "c18",
+        "c01",
+        "c28"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "chrono_chain",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে কালানুক্রমে সাজাও:\n১. SCO প্রতিষ্ঠা\n২. GATT স্বাক্ষর\n৩. বিশ্ব ব্যাংক সৃষ্টি\n৪. ইউরোপীয় ইউনিয়ন প্রতিষ্ঠা",
+      "a": "৩ → ২ → ৪ → ১",
+      "w": [
+        "২ → ৩ → ৪ → ১",
+        "৩ → ২ → ১ → ৪",
+        "২ → ৪ → ৩ → ১"
+      ],
+      "e": "বিশ্ব ব্যাংক ১৯৪৪ → GATT স্বাক্ষর ১৯৪৭ → EU ১৯৯২ → SCO ২০০১।",
+      "claims": [
+        "c08",
+        "c27",
+        "c13",
+        "c41"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "chrono_chain",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SAARC প্রতিষ্ঠিত হয় কোন তারিখে?",
+      "a": "৮ ডিসেম্বর ১৯৮৫",
+      "w": [
+        "৬ জুন ১৯৯৭",
+        "১৫ জুন ২০০১",
+        "২৪ অক্টোবর ১৯৪৫"
+      ],
+      "e": "৮ ডিসেম্বর ১৯৮৫-এ ঢাকায় SAARC সনদ গৃহীত হয়ে সংস্থাটি প্রতিষ্ঠিত হয়। ৬ জুন ১৯৯৭ হল BIMSTEC-র তারিখ।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "hq_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WTO-র সদর দপ্তর কোন শহরে?",
+      "a": "জেনেভা",
+      "w": [
+        "ম্যানিলা",
+        "সাংহাই",
+        "কাঠমাণ্ডু"
+      ],
+      "e": "WTO অবস্থিত সুইজারল্যান্ডের জেনেভায়। ম্যানিলা ADB-র, সাংহাই NDB-র, কাঠমাণ্ডু SAARC-র শহর।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "hq_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "এশীয় উন্নয়ন ব্যাংক (ADB)-র সদর দপ্তর কোথায়?",
+      "a": "ম্যানিলা",
+      "w": [
+        "টোকিও",
+        "বেইজিং",
+        "ঢাকা"
+      ],
+      "e": "ADB-র সদর দপ্তর ফিলিপিন্সের ম্যানিলায়। টোকিওতে হয়েছিল শুধু প্রথম গভর্নর-সভা (১৯৬৬)।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "hq_map",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নতুন উন্নয়ন ব্যাংক (NDB)-র সদর দপ্তর কোথায়?",
+      "a": "সাংহাই",
+      "w": [
+        "বেইজিং",
+        "ম্যানিলা",
+        "নয়াদিল্লি"
+      ],
+      "e": "NDB কার্যকর হয় ২০১৫ সালে, সদর দপ্তর চীনের সাংহাইয়ে। বেইজিংয়ে SCO সচিবালয়।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "hq_map",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SAARC সচিবালয় কোন শহরে অবস্থিত?",
+      "a": "কাঠমাণ্ডু",
+      "w": [
+        "ঢাকা",
+        "থিম্পু",
+        "কলম্বো"
+      ],
+      "e": "SAARC সচিবালয় নেপালের কাঠমাণ্ডুতে। ঢাকায় সনদ গৃহীত হয়েছিল, সচিবালয় নয়।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "hq_map",
+      "level": "difficult",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মেলেনি?",
+      "a": "BIMSTEC সচিবালয় — কাঠমাণ্ডু",
+      "w": [
+        "SAARC সচিবালয় — কাঠমাণ্ডু",
+        "ADB সদর দপ্তর — ম্যানিলা",
+        "WTO — জেনেভা"
+      ],
+      "e": "BIMSTEC-র স্থায়ী সচিবালয় ঢাকায় (২০১৪)। কাঠমাণ্ডু SAARC-র শহর — দুটি গুলিয়ে ফেলাই ফাঁদ।",
+      "claims": [
+        "c34",
+        "c38"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "hq_map",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সংস্থাকে তার সদর দপ্তর/সচিবালয়ের শহরের সঙ্গে মেলাও:\nA. ADB\nB. WTO\nC. NDB\nD. SCO সচিবালয়\n১. জেনেভা\n২. বেইজিং\n৩. ম্যানিলা\n৪. সাংহাই",
+      "a": "A-৩, B-১, C-৪, D-২",
+      "w": [
+        "A-১, B-৩, C-৪, D-২",
+        "A-৩, B-২, C-৪, D-১",
+        "A-৪, B-১, C-৩, D-২"
+      ],
+      "e": "ADB—ম্যানিলা, WTO—জেনেভা, NDB—সাংহাই, SCO সচিবালয়—বেইজিং।",
+      "claims": [
+        "c23",
+        "c30",
+        "c46",
+        "c43"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "hq_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ISRO-র সদর দপ্তর কোন শহরে?",
+      "a": "বেঙ্গালুরু",
+      "w": [
+        "শ্রীহরিকোটা",
+        "আহমেদাবাদ",
+        "হায়দরাবাদ"
+      ],
+      "e": "ISRO-র সদর দপ্তর বেঙ্গালুরুতে। শ্রীহরিকোটা উৎক্ষেপণ কেন্দ্র, আহমেদাবাদ ও হায়দরাবাদে রয়েছে অন্যান্য কেন্দ্র।",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "india_status",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারত রাষ্ট্রসংঘের সদস্য হয় কোন তারিখে?",
+      "a": "৩০ অক্টোবর ১৯৪৫",
+      "w": [
+        "২৬ জুন ১৯৪৫",
+        "১৫ আগস্ট ১৯৪৭",
+        "২৪ অক্টোবর ১৯৪৫"
+      ],
+      "e": "NCERT-র কালানুক্রম অনুযায়ী ভারত রাষ্ট্রসংঘে যোগ দেয় ৩০ অক্টোবর ১৯৪৫-এ — প্রতিষ্ঠার মাত্র ছয় দিন পর, স্বাধীনতার আগেই।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "india_status",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MEA-র ২০২০ সালের বিবরণ অনুযায়ী ভারত ততদিনে নিরাপত্তা পরিষদে মোট কতবার ছিল?",
+      "a": "সাতবার",
+      "w": [
+        "পাঁচবার",
+        "আটবার",
+        "দশবার"
+      ],
+      "e": "বিবরণে তালিকাভুক্ত মেয়াদ সাতটি: ১৯৫০-৫১ থেকে ২০১১-১২ পর্যন্ত।",
+      "claims": [
+        "c55"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "india_status",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিরাপত্তা পরিষদ সংস্কারের G-4 গোষ্ঠীতে ভারত ছাড়া আর কোন তিনটি দেশ আছে?",
+      "a": "ব্রাজিল, জার্মানি ও জাপান",
+      "w": [
+        "চীন, রাশিয়া ও ফ্রান্স",
+        "পাকিস্তান, নেপাল ও শ্রীলঙ্কা",
+        "জার্মানি, ইতালি ও কানাডা"
+      ],
+      "e": "G-4 = ভারত, ব্রাজিল, জার্মানি, জাপান — চারজনই স্থায়ী সদস্যপদের দাবিদার।",
+      "claims": [
+        "c56"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "india_status",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. ভারত রাষ্ট্রসংঘের প্রতিষ্ঠাতা সদস্য।\n২. ভারত ১৯৪২ সালে ওয়াশিংটনে 'Declaration by United Nations'-এ স্বাক্ষর করেছিল।\n৩. ভারত সান ফ্রান্সিসকো সম্মেলনে (১৯৪৫) অংশ নেয়নি।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ১ ও ৩",
+        "১, ২ ও ৩",
+        "শুধু ২ ও ৩"
+      ],
+      "e": "বিবৃতি ৩ ভুল — ভারত সান ফ্রান্সিসকো সম্মেলনে (২৫ এপ্রিল–২৬ জুন ১৯৪৫) অংশ নিয়েছিল। ১ ও ২ সঠিক।",
+      "claims": [
+        "c53",
+        "c54"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "india_status",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. ভারত SCO-র পূর্ণ সদস্য হয় ২০১৭ সালে।\n২. ১৯৪৭-এ জেনেভায় GATT আলোচনা শুরু করা ২৩টি দেশের মধ্যে ভারত ছিল না।\n৩. NDB-তে ভারতের অর্থমন্ত্রী ভারতের গভর্নর।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ৩",
+      "w": [
+        "শুধু ১ ও ২",
+        "১, ২ ও ৩",
+        "শুধু ২ ও ৩"
+      ],
+      "e": "বিবৃতি ২ ভুল — ২৩টি দেশের মধ্যে ভারত ছিল। ১ ও ৩ সঠিক।",
+      "claims": [
+        "c42",
+        "c27",
+        "c47"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "india_status",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন সালে ভারত SCO-র পূর্ণ সদস্যপদ পায়?",
+      "a": "২০১৭",
+      "w": [
+        "২০০১",
+        "২০০৫",
+        "২০২৩"
+      ],
+      "e": "ভারত পূর্ণ সদস্য হয় জুন ২০১৭-এ, আস্তানা শীর্ষ সম্মেলনে। ২০০১ হল SCO প্রতিষ্ঠার বছর।",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "india_status",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী IMF-তে ভারতের ভোটের অংশ কত?",
+      "a": "২.৬৪%",
+      "w": [
+        "১৬.৫২%",
+        "৬.১৫%",
+        "৪.০৩%"
+      ],
+      "e": "ভারতের অংশ ২.৬৪%। ১৬.৫২% যুক্তরাষ্ট্রের, ৬.১৫% জাপানের, ৪.০৩% জার্মানি/ফ্রান্সের।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "groups_membership",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SAARC-র সদস্য রাষ্ট্র কয়টি?",
+      "a": "আটটি",
+      "w": [
+        "সাতটি",
+        "নয়টি",
+        "দশটি"
+      ],
+      "e": "SAARC-র সদস্য আটটি — আফগানিস্তানসহ। সাতটি হল BIMSTEC।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "groups_membership",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোন দেশটি SAARC-র সদস্য নয়?",
+      "a": "মিয়ানমার",
+      "w": [
+        "আফগানিস্তান",
+        "মালদ্বীপ",
+        "ভুটান"
+      ],
+      "e": "মিয়ানমার SAARC-র সদস্য নয় — এটি BIMSTEC ও ASEAN-র সদস্য। বাকি তিনটিই SAARC সদস্য।",
+      "claims": [
+        "c36",
+        "c32"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "groups_membership",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "BIMSTEC-র সদস্য রাষ্ট্র কয়টি?",
+      "a": "সাতটি",
+      "w": [
+        "আটটি",
+        "পাঁচটি",
+        "দশটি"
+      ],
+      "e": "BIMSTEC সাত সদস্যের — দক্ষিণ এশিয়ার পাঁচটি ও দক্ষিণ-পূর্ব এশিয়ার দুটি (মিয়ানমার, থাইল্যান্ড)।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "groups_membership",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SCO-র সদস্য রাষ্ট্র কয়টি (MEA বিবরণ অনুযায়ী)?",
+      "a": "দশটি",
+      "w": [
+        "সাতটি",
+        "আটটি",
+        "নয়টি"
+      ],
+      "e": "SCO দশ সদস্যের বহুপাক্ষিক সংস্থা।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "groups_membership",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কম্বোডিয়া যোগ দেওয়ার পর ASEAN-র সদস্য-শক্তি কততে পৌঁছায়?",
+      "a": "দশ",
+      "w": [
+        "আট",
+        "নয়",
+        "এগারো"
+      ],
+      "e": "NCERT অনুযায়ী কম্বোডিয়া যোগ দেওয়ায় ASEAN-র শক্তি দশে পৌঁছায়।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "groups_membership",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিক নয়?",
+      "a": "BIMSTEC — সদস্য সংখ্যা আট",
+      "w": [
+        "SAARC — সদস্য সংখ্যা আট",
+        "SCO — সদস্য সংখ্যা দশ",
+        "ASEAN — সদস্য সংখ্যা দশ"
+      ],
+      "e": "BIMSTEC-র সদস্য সাত, আট নয়। আট হল SAARC-র সংখ্যা।",
+      "claims": [
+        "c32",
+        "c36",
+        "c41",
+        "c15"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "groups_membership",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IGNOU-র WTO একক অনুযায়ী WTO-র সদস্য সংখ্যা কত?",
+      "a": "১৬৬",
+      "w": [
+        "১৬৪",
+        "১৯০",
+        "১৯৩"
+      ],
+      "e": "IGNOU অনুযায়ী WTO-র সদস্য ১৬৬। NCERT-র পুরনো সংখ্যা ১৬৪ (২০১৬ অনুযায়ী) — উৎসের তারিখ লক্ষ্য করো।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "heads_dated",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "১৯ নভেম্বর ২০২৬ অনুযায়ী রাষ্ট্রসংঘের মহাসচিব কে?",
+      "a": "আন্তোনিও গুতেরেস",
+      "w": [
+        "বান কি-মুন",
+        "কোফি আন্নান",
+        "ত্রিগভে লি"
+      ],
+      "e": "নবম মহাসচিব আন্তোনিও গুতেরেস, দায়িত্ব গ্রহণ ১ জানুয়ারি ২০১৭। বান কি-মুন তাঁর পূর্বসূরি।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "heads_dated",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "IMF-র ব্যবস্থাপনা পরিচালক (Managing Director) কে?",
+      "a": "ক্রিস্টালিনা জর্জিয়েভা",
+      "w": [
+        "গীতা গোপীনাথ",
+        "অজয় বঙ্গা",
+        "ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা"
+      ],
+      "e": "PIB অনুযায়ী IMF-র MD ক্রিস্টালিনা জর্জিয়েভা। বঙ্গা বিশ্ব ব্যাংকের, ওকোঞ্জো-ইওয়েয়ালা WTO-র প্রধান।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "heads_dated",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "WTO-র মহাপরিচালক (Director-General) কে?",
+      "a": "ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা",
+      "w": [
+        "ক্রিস্টালিনা জর্জিয়েভা",
+        "ইন্দ্রমণি পাণ্ডে",
+        "নুরলান ইয়েরমেকবায়েভ"
+      ],
+      "e": "আকাশবাণীর (মার্চ ২০২৬) খবর অনুযায়ী WTO-র DG ঙ্গোজি ওকোঞ্জো-ইওয়েয়ালা।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "heads_dated",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব ব্যাংক গোষ্ঠীর সভাপতি কে?",
+      "a": "অজয় বঙ্গা",
+      "w": [
+        "তাকেশি ওয়াতানাবে",
+        "ডেভিড মালপাস",
+        "জিম ইয়ং কিম"
+      ],
+      "e": "PIB (ডিসেম্বর ২০২৩) অনুযায়ী বিশ্ব ব্যাংক গোষ্ঠীর সভাপতি অজয় বঙ্গা। ওয়াতানাবে ছিলেন ADB-র প্রথম সভাপতি।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "heads_dated",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "SAARC-র বর্তমান মহাসচিব কে?",
+      "a": "মো. গোলাম সারওয়ার",
+      "w": [
+        "ইন্দ্রমণি পাণ্ডে",
+        "নুরলান ইয়েরমেকবায়েভ",
+        "আন্তোনিও গুতেরেস"
+      ],
+      "e": "MEA বিবরণ অনুযায়ী SAARC মহাসচিব মো. গোলাম সারওয়ার (বাংলাদেশ)। পাণ্ডে BIMSTEC-র, ইয়েরমেকবায়েভ SCO-র মহাসচিব।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "heads_dated",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): ইন্দ্রমণি পাণ্ডে BIMSTEC-র মহাসচিব।\nকারণ (R): তিনি BIMSTEC মহাসচিব পদে প্রথম ভারতীয়।",
+      "a": "A ও R দুটোই সত্য এবং R, A-র পরিচয়কে বিশেষ করে তোলে",
+      "w": [
+        "A ও R দুটোই সত্য কিন্তু R-এর সঙ্গে A-র সম্পর্ক নেই",
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য"
+      ],
+      "e": "MEA অনুযায়ী পাণ্ডে BIMSTEC-র চতুর্থ মহাসচিব এবং এই পদে প্রথম ভারতীয় — দুটোই সত্য ও পরস্পর-সম্পর্কিত।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "heads_dated",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SCO-র বর্তমান মহাসচিব কে?",
+      "a": "নুরলান ইয়েরমেকবায়েভ",
+      "w": [
+        "মো. গোলাম সারওয়ার",
+        "ইন্দ্রমণি পাণ্ডে",
+        "ক্রিস্টালিনা জর্জিয়েভা"
+      ],
+      "e": "ইয়েরমেকবায়েভ (কাজাখস্তান) দায়িত্ব নেন জানুয়ারি ২০২৫-এ, তিন বছরের মেয়াদে।",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "traps_mixed",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "GATT স্বাক্ষরিত হয় কোন তারিখে?",
+      "a": "৩০ নভেম্বর ১৯৪৭",
+      "w": [
+        "১ জানুয়ারি ১৯৯৫",
+        "২৪ অক্টোবর ১৯৪৫",
+        "৪ ডিসেম্বর ১৯৬৫"
+      ],
+      "e": "জেনেভায় আলোচনার পর GATT স্বাক্ষরিত হয় ৩০ নভেম্বর ১৯৪৭। ১৯৯৫ হল WTO-র বছর।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "traps_mixed",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব ব্যাংক সৃষ্টি হয় কোন সালে?",
+      "a": "১৯৪৪",
+      "w": [
+        "১৯৪৫",
+        "১৯৪৭",
+        "১৯৫৭"
+      ],
+      "e": "বিশ্ব ব্যাংক সৃষ্টি দ্বিতীয় বিশ্বযুদ্ধের সময়, ১৯৪৪ সালে — রাষ্ট্রসংঘের (১৯৪৫) এক বছর আগে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "traps_mixed",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. NDB স্থাপিত হয় ২০১৪ সালে।\n২. NDB কার্যকর হয় ২০১৫ সালে।\n৩. NDB-র সদর দপ্তর বেইজিংয়ে।\nকোনগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ১ ও ৩",
+        "১, ২ ও ৩",
+        "শুধু ২ ও ৩"
+      ],
+      "e": "বিবৃতি ৩ ভুল — সদর দপ্তর সাংহাইয়ে। স্থাপনা ২০১৪ ও কার্যকর ২০১৫ — এই জোড়া বছরই ফাঁদ।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "traps_mixed",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): ILO ১৯৪৬ সালে রাষ্ট্রসংঘের বিশেষায়িত সংস্থা হয়।\nকারণ (R): ILO তৈরি হয়েছিল ১৯১৯ সালের ভার্সাই চুক্তির মাধ্যমে।",
+      "a": "A ও R দুটোই সত্য এবং R, A-র পটভূমি ব্যাখ্যা করে",
+      "w": [
+        "A ও R দুটোই সত্য কিন্তু R, A-কে ব্যাখ্যা করে না",
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য"
+      ],
+      "e": "দুটোই সত্য: সৃষ্টি ১৯১৯ (ভার্সাই), রাষ্ট্রসংঘের বিশেষায়িত সংস্থার মর্যাদা ১৯৪৬। দুটি তারিখ আলাদা করে মনে রাখো।",
+      "claims": [
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "traps_mixed",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ADB-র সনদ (Charter) গৃহীত হয় কোন তারিখে?",
+      "a": "৪ ডিসেম্বর ১৯৬৫",
+      "w": [
+        "১৯ ডিসেম্বর ১৯৬৬",
+        "৩০ নভেম্বর ১৯৪৭",
+        "৬ জুন ১৯৯৭"
+      ],
+      "e": "সনদ গৃহীত ৪ ডিসেম্বর ১৯৬৫। ১৯ ডিসেম্বর ১৯৬৬ হল প্রথম গভর্নর-সভার (টোকিও) তারিখ — একই তথ্য-সারণির দুটি তারিখই ফাঁদ।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "traps_mixed",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব ডাক সংঘ (UPU) প্রতিষ্ঠিত হয় কোন সালে?",
+      "a": "১৮৭৪",
+      "w": [
+        "১৮৬৫",
+        "১৯১৯",
+        "১৯৪৫"
+      ],
+      "e": "UPU ১৮৭৪। ১৮৬৫ হল ITU-র বছর — প্রাচীনতম দুটি ইউনিয়নের বছর বদল করাই প্রশ্নের ফাঁদ।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "traps_mixed",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সংস্থাকে প্রতিষ্ঠার বছরের সঙ্গে মেলাও:\nA. ITU\nB. UPU\nC. ILO\nD. IAEA\n১. ১৯১৯\n২. ১৮৭৪\n৩. ১৯৫৭\n৪. ১৮৬৫",
+      "a": "A-৪, B-২, C-১, D-৩",
+      "w": [
+        "A-২, B-৪, C-১, D-৩",
+        "A-৪, B-২, C-৩, D-১",
+        "A-১, B-২, C-৪, D-৩"
+      ],
+      "e": "ITU ১৮৬৫, UPU ১৮৭৪, ILO ১৯১৯, IAEA ১৯৫৭।",
+      "claims": [
+        "c17",
+        "c18",
+        "c10"
+      ]
+    }
+  ]
+}

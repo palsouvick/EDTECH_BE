@@ -1,1 +1,470 @@
-{}
+{
+  "ORG-01": [
+    {
+      "note": "UN pack item (subtopic un_system): headquarters New York, Charter signed 26 June 1945, in force 24 October 1945 (UN Day), 193 member states, six principal organs, ICJ at The Hague as the only principal organ outside New York. All elements taught in sections 'founding' and 'principal_organs' from NCERT leps106, IGNOU Unit 12 and MEA sources (claims c01, c02, c06, c13, c43-c45).",
+      "pyq_code": "GK-ORG-001",
+      "section": "principal_organs",
+      "taught": true
+    },
+    {
+      "note": "Geneva cluster pack item. PARTIALLY taught: ILO created 1919 and its tripartite structure (c31, c32) and ITU founded 1865 (c33) are taught; but the Geneva headquarters city for ILO/WHO/WMO/ITU, WHO 1948, UNHCR 1950 and WMO 1950 were not present in any fetched NCERT/IGNOU/MEA/PIB source (PIB confirms only that ILO's Governing Body meets in Geneva), so they are not asserted in this chapter.",
+      "pyq_code": "GK-ORG-002",
+      "section": "specialised_agencies",
+      "taught": false
+    },
+    {
+      "note": "Paris/Rome/New York pack item. PARTIALLY taught: UNESCO headquarters Paris is taught (PIB, c50, c55) and UNICEF/UNDP/WFP are covered as programmes with India's contributor status (c42). Not taught: UNESCO's 1945/46 founding dates, FAO Rome 1945, WFP Rome 1961, UNICEF New York 1946 and UNDP 1965 — none appeared in the fetched allowed sources, so they are disclosed as a gap rather than asserted.",
+      "pyq_code": "GK-ORG-003",
+      "section": "specialised_agencies",
+      "taught": false
+    },
+    {
+      "note": "Vienna/Nairobi/Montreal/London pack item. Not taught: IAEA Vienna 1957, UNIDO Vienna 1966, UNEP Nairobi 1972, ICAO Montreal and IMO London headquarters/founding facts were not present in any fetched NCERT/IGNOU/MEA/PIB page. UNEP is taught only by function (environment monitoring, c34). NCERT supports only that the IAEA is the agency for safety and peaceful use of nuclear technology (exercise), with no headquarters or year.",
+      "pyq_code": "GK-ORG-004",
+      "section": "specialised_agencies",
+      "taught": false
+    },
+    {
+      "note": "Real WBCS 2017 prelims item: which state does not have veto power (answer: Canada). Taught via the P-5 list and the rule that only permanent members hold the veto (c08, c10); also drilled in practice question q17.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q59",
+      "section": "security_council",
+      "taught": true
+    },
+    {
+      "note": "Real Clerkship 2023 (Session IV) item: which country does NOT have veto power (answer: Canada). Same teaching as the WBCS 2017 item (c08, c10, q17).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q85",
+      "section": "security_council",
+      "taught": true
+    },
+    {
+      "note": "Real Clerkship 2023 (Session IV) item asking which country was NOT elected a non-permanent Security Council member for 2025-2026 (Pakistan, Somalia and Denmark were elected; Sri Lanka was not). Not taught: the specific 2025-26 election result is time-bound current affairs and appears in none of this chapter's fetched sources; the chapter teaches Council composition and India's terms only.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q96",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real WBP Constable 2021 item: which country was President of the UN Security Council for August 2021 (answer: India). Not taught in that specificity: the chapter teaches India's eight Council terms including 2021-22 (c39, c46), but the August 2021 presidency month is not stated in any fetched source.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q87",
+      "section": "india_and_heads",
+      "taught": false
+    },
+    {
+      "note": "Real WBCS 2018 prelims item: the day celebrated every year on 5 December by FAO (answer: World Soil Day). Not taught: this is an observance-days fact belonging to the Important Days book, and FAO itself is one of the bodies whose details could not be verified from this chapter's fetched sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q191",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ORG-02": [
+    {
+      "note": "Bank item (IMF): Bretton Woods 1944 origin, Washington DC headquarters, Managing Director title and IMF-vs-Bank job split all taught from IGNOU Unit 12 (claims c01, c09, c10, c41). Caveat: the item's 'India is a founding member of the IMF' line is NOT asserted in the chapter — no fetched allowed-publisher source stated it; the chapter teaches India's Governor-level role instead (c37, c38).",
+      "pyq_code": "GK-ORG-005",
+      "section": "bretton_woods_imf",
+      "taught": true
+    },
+    {
+      "note": "Bank item (World Bank Group): five institutions, Washington DC headquarters and IDA's soft-loan role taught (c11, c12, c41). Caveat: the individual founding years of IFC (1956), IDA (1960), ICSID (1966) and MIGA (1988) are not in the fetched IGNOU text, so the chapter teaches names and roles, not the year staircase.",
+      "pyq_code": "GK-ORG-006",
+      "section": "world_bank_group",
+      "taught": true
+    },
+    {
+      "note": "Bank item (WTO): Geneva headquarters, 1 January 1995 establishment, GATT predecessor, Ministerial Conference as top body and Director-General title all taught from IGNOU Unit 7 (c23, c24, c25, c26).",
+      "pyq_code": "GK-ORG-007",
+      "section": "wto_gatt",
+      "taught": true
+    },
+    {
+      "note": "Bank item (regional banks): ADB-Manila (c15), AIIB-Beijing (c36) and NDB-Shanghai (c34) ARE taught in this section, but the item's fourth bank, AfDB (Abidjan, 1964), is not: no allowed-publisher source (NCERT/GOVT/IGNOU/EPG) fetched for this chapter covers the African Development Bank. Mapped here as untaught for that one element.",
+      "pyq_code": "GK-ORG-008",
+      "section": "regional_banks",
+      "taught": false
+    },
+    {
+      "note": "First Indian appointed Chief Economist of the World Bank (Kaushik Basu, September 2012): a people/current-affairs item. No fetched allowed-publisher source names him, and this chapter's people list is restricted to office-holders verified from PIB/IGNOU; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q190",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Headquarters of the World Bank (Washington DC): taught via IGNOU Unit 12 Table 12.11 (c41) and the section's quick/standard text.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q75",
+      "section": "world_bank_group",
+      "taught": true
+    },
+    {
+      "note": "World Development Report is published by the World Bank: the report's name does not appear in any fetched allowed-publisher source (DEA names the Bank's Global Economic Prospects, not the WDR), so the fact is not asserted in the chapter; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q181",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Earlier name of WTO was GATT: taught via IGNOU Unit 7 (c21, c24) — WTO succeeded GATT in 1995.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q94",
+      "section": "wto_gatt",
+      "taught": true
+    },
+    {
+      "note": "WTO Appellate Body is located in Geneva: taught via IGNOU Unit 7 — the Dispute Settlement Body works through panels and an Appellate Body (c29) and the WTO Secretariat sits in Geneva (c26); the chapter's deep text states the Appellate Body's Geneva location explicitly.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q142",
+      "section": "wto_gatt",
+      "taught": true
+    },
+    {
+      "note": "Who became head (Managing Director) of the IMF in 2019 (Kristalina Georgieva): taught in india_and_heads with a PIB source naming her as IMF Managing Director (c32); the section text and her people entry record that she took the role in 2019. Shift: Forenoon.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-Q24",
+      "section": "india_and_heads",
+      "taught": true
+    }
+  ],
+  "ORG-03": [
+    {
+      "note": "Bank item (subtopic global_groups) is a composite: NATO HQ Brussels / treaty 4 April 1949 / 32 members, EU split seats (Commission Brussels, Parliament plenary Strasbourg, Court of Justice Luxembourg) and OPEC founded Baghdad 1960, HQ Vienna. This chapter teaches only the EU's founding (1992, Maastricht) from NCERT. The NATO headquarters and founding year, the EU institutions' individual seats and OPEC's founding/headquarters could not be claimed: no verbatim quote from an allowed publisher (NCERT / MEA / PIB / IGNOU / e-PG Pathshala) for those facts was fetched in this draft, so they are disclosed as a gap in the eu_alliances section rather than written from memory.",
+      "pyq_code": "GK-ORG-009",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Bank item (subtopic global_groups) is a composite: ASEAN Secretariat Jakarta (taught in section asean, MEA sources), SAARC Secretariat Kathmandu (taught in section saarc_bimstec, MEA SAARC brief), BRICS has no permanent headquarters (taught in section brics), but Interpol HQ Lyon (founded 1923, Vienna) and ICRC HQ Geneva (1863) are NOT taught — no verbatim quote from an allowed publisher for Interpol or the ICRC was fetched in this draft. Marked untaught because the item's MATCH question depends on all four seats.",
+      "pyq_code": "GK-ORG-010",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "2016 G-20 Summit was held in China (Hangzhou). Taught: MEA G20 brief states the 2016 Summit was at Hangzhou (China) (claim c16); also practice question q18.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q64",
+      "section": "g20_g7_quad",
+      "taught": true
+    },
+    {
+      "note": "Sri Lanka hosted the 5th BIMSTEC Summit in March 2022 (Colombo). Taught: MEA BIMSTEC brief lists the six Summits including 2022 (Colombo) (claim c32).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q102",
+      "section": "saarc_bimstec",
+      "taught": true
+    },
+    {
+      "note": "Headquarters/Secretariat of BIMSTEC is Dhaka. Taught: MEA BIMSTEC brief — Permanent Secretariat set up in Dhaka in 2014 (claim c31); also practice question q31.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q48",
+      "section": "saarc_bimstec",
+      "taught": true
+    },
+    {
+      "note": "Full form of BRICS (Brazil, Russia, India, China, South Africa) and 11 members per the official key. Taught: PIB Backgrounder lists all 11 countries including the 2024-25 entrants (claims c55, c56); founding five via claims c47, c50. The chapter's exam_note records that PIB and the WBCS 2024 key both count 11 (including Saudi Arabia).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q131",
+      "section": "brics",
+      "taught": true
+    },
+    {
+      "note": "Myanmar is not a member of SAARC. Taught: MEA SAARC brief lists the eight members (claim c26); Myanmar is a BIMSTEC member instead (claim c29).",
+      "pyq_code": "CLERKSHIP-PART-I-2019-FORENOON-Q12",
+      "section": "saarc_bimstec",
+      "taught": true
+    },
+    {
+      "note": "Pakistan is not a member of BIMSTEC. Taught: MEA BIMSTEC brief lists the seven members — five from South Asia and two from South-East Asia, Pakistan absent (claim c29); also practice question q30.",
+      "pyq_code": "CLERKSHIP-PART-I-2019-AFTERNOON-Q8",
+      "section": "saarc_bimstec",
+      "taught": true
+    },
+    {
+      "note": "Asks the year NATO was formed (official answer 1949). NOT taught: the only NATO fact this chapter could source from an allowed publisher is NCERT's statement that the US created a new collective security structure under NATO (claim c04) — no allowed-publisher page fetched in this draft gives NATO's founding year, headquarters (Brussels) or member count verbatim, so the year is not claimed. The gap is disclosed openly in the eu_alliances section text.",
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-IV-Q33",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ORG-04": [
+    {
+      "pyq_code": "GK-ORG-011",
+      "section": null,
+      "taught": false,
+      "note": "RBI bank item: establishment 1935 IS taught in rbi_nabard (NCERT leec103), but the item's nationalisation 1949, Mumbai headquarters, first Governor Osborne Smith and first Indian Governor C. D. Deshmukh are NOT taught — no allowed-publisher quote for them was fetched in this run (rbi.org.in is not an allowed publisher for this book)."
+    },
+    {
+      "pyq_code": "GK-ORG-012",
+      "section": null,
+      "taught": false,
+      "note": "Regulators item: SEBI (Mumbai role) and NABARD (Mumbai) are taught in sebi / rbi_nabard, but IRDAI (Hyderabad) and SIDBI (Lucknow) are not covered in this chapter — no allowed-source quotes fetched for them."
+    },
+    {
+      "pyq_code": "GK-ORG-013",
+      "section": "eci_upsc",
+      "taught": true,
+      "note": "All four facts taught: UPSC 1926 (eci_upsc), ECI 1950 (eci_upsc), NITI Aayog 2015 (niti), ISRO Bengaluru 1969 (isro)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q60",
+      "section": "rbi_nabard",
+      "taught": true,
+      "note": "NABARD is associated with agriculture and rural development — taught via NABARD's mission (PIB quote, claim c09)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q168",
+      "section": "rbi_nabard",
+      "taught": true,
+      "note": "Monetary policy is framed by the RBI — taught via NCERT central-bank functions: RBI controls money supply (claim c02)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q176",
+      "section": null,
+      "taught": false,
+      "note": "One-rupee notes are issued by the Ministry of Finance, not the RBI — this exception is not taught; the NCERT passage fetched states only that the central bank issues the currency of the country."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q176",
+      "section": "niti",
+      "taught": true,
+      "note": "NITI Aayog is set up by a resolution of the Union Cabinet — taught verbatim (claim c11)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q187",
+      "section": null,
+      "taught": false,
+      "note": "Repo rate is announced by the RBI. The chapter teaches RBI's money-supply control via bank rate, open market operations and reserve ratios (NCERT), but the repo rate is not named in the fetched sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q196",
+      "section": "sebi",
+      "taught": true,
+      "note": "SEBI got statutory recognition in 1992 — taught (claim c05). The recommending-body detail in the original item is not covered."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q197",
+      "section": "rbi_nabard",
+      "taught": true,
+      "note": "RBI established in 1935 — taught (claim c01, NCERT)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q113",
+      "section": "niti",
+      "taught": true,
+      "note": "NITI Aayog is set up by Cabinet resolution — taught (claim c11)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q113",
+      "section": null,
+      "taught": false,
+      "note": "Agricultural Marketing and Farm Friendly Reforms Index is released by NITI Aayog — NITI's indices/reports are not covered in this chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q129",
+      "section": null,
+      "taught": false,
+      "note": "Second Governing Council meeting of NITI Aayog — meeting-specific detail, not covered."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q57",
+      "section": null,
+      "taught": false,
+      "note": "Asks the CEC as of June 2021 (then Rajiv Kumar). The chapter lists the CEC as of 19 November 2026 (Gyanesh Kumar); the 2021 holder is not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q80",
+      "section": "niti",
+      "taught": true,
+      "note": "NITI Aayog formed on 1 January 2015 — taught (claim c11)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
+      "section": null,
+      "taught": false,
+      "note": "Election Commission is constituted under Article 324 / by the President. The chapter teaches the ECI as a permanent independent Constitutional body constituted on 25 January 1950, but the article number 324 and the appointing authority were not in the fetched allowed sources used, so they are not stated."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q113",
+      "section": "rbi_nabard",
+      "taught": true,
+      "note": "Responsibility for issuing currency notes lies with the RBI — taught via NCERT: the central bank issues the currency of the country (claim c02)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q45",
+      "section": "rbi_nabard",
+      "taught": true,
+      "note": "RBI established in 1935 — taught (claim c01)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q100",
+      "section": "sebi",
+      "taught": true,
+      "note": "SEBI stands for Securities and Exchange Board of India — taught (claims c04/c06)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q86",
+      "section": null,
+      "taught": false,
+      "note": "North-East Region District SDG Index (NITI Aayog with UNDP support) — NITI indices are not covered in this chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q124",
+      "section": null,
+      "taught": false,
+      "note": "New department created by the RBI in 2022 — internal RBI organisational detail, not covered."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q158",
+      "section": null,
+      "taught": false,
+      "note": "Asks which is NOT a function of NABARD. The chapter teaches NABARD's broad mission only; a function-by-function list was not available from the fetched allowed sources."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-2019-Q28",
+      "section": "isro",
+      "taught": true,
+      "note": "ISRO headquarters is Bengaluru — taught (claim c27, ISRO official site)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-2023-Q90",
+      "section": null,
+      "taught": false,
+      "note": "UDGAM portal was developed by the RBI — RBI portals/schemes are not covered in this chapter."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-2021-Q5",
+      "section": null,
+      "taught": false,
+      "note": "SVEEP is the ECI's voter-education programme — SVEEP is not mentioned in the fetched ECI source used, so it is not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISC-2023-Q100",
+      "section": "isro",
+      "taught": true,
+      "note": "Father of the Indian space programme — Dr. Vikram Sarabhai, whose vision set up INCOSPAR (claim c26); the chapter's deep text states this explicitly."
+    }
+  ],
+  "ORG-05": [
+    {
+      "pyq_code": "GK-ORG-014",
+      "section": "un_family",
+      "taught": false,
+      "note": "Bank card 'Heads of world bodies' (subtopic current_heads). 7 of its 9 heads are taught here from PIB quotes (Guterres, Tedros, El-Enany, Georgieva, Banga, Okonjo-Iweala, Houngbo); NATO Secretary-General Mark Rutte and UNEP Executive Director Inger Andersen are NOT taught - no quote could be fetched from an allowed publisher (PIB/MEA/NCERT/IGNOU), so the card as a whole is not fully covered."
+    },
+    {
+      "pyq_code": "GK-ORG-015",
+      "section": "india_const",
+      "taught": true,
+      "note": "Bank card 'Heads of Indian institutions' (subtopic current_heads). All five heads taught: RBI Governor Sanjay Malhotra, CEC Gyanesh Kumar, SEBI Chairperson Tuhin Kanta Pandey, ISRO Chairman V. Narayanan, UPSC Chairperson Ajay Kumar - each with a PIB/Govt quote fetched 2026-11-19."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q57",
+      "section": null,
+      "taught": false,
+      "note": "Asks the present CEC as of June 2021 (then Rajiv Kumar). This chapter teaches the CEC as of 19 Nov 2026 (Gyanesh Kumar); the 2021 holder is not taught - a dated current-affairs item whose answer has changed."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q138",
+      "section": null,
+      "taught": false,
+      "note": "Asks the head of the commission for sub-categorisation of OBCs (Rohini Commission). A commission head outside this chapter's organisation-heads scope; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q163",
+      "section": null,
+      "taught": false,
+      "note": "Asks the US Secretary of State in January 2019 - a foreign minister, not the head of an organisation in this chapter's scope, and outdated; not taught."
+    }
+  ],
+  "ORG-06": [
+    {
+      "note": "GK-bank item for subtopic 'mixed' (this chapter's subtopic). Partly covered: its chronology chain (ITU 1865, ILO 1919, UN 1945, WTO 1995) and the SCO Secretariat in Beijing are taught here from NCERT/IGNOU/MEA quotes. NOT taught: UPU headquarters Bern, OPEC headquarters Vienna and the UNEP-Nairobi assertion — no allowed-publisher page fetched in this run states them, so they are left to ORG-01/ORG-03 sources and disclosed as a gap.",
+      "pyq_code": "GK-ORG-016",
+      "section": "chrono_chain",
+      "taught": false
+    },
+    {
+      "note": "Earlier name of WTO was GATT: NCERT leps104 (WTO set up in 1995 as successor to GATT) and IGNOU Unit 7; taught in traps_mixed and the GATT-to-WTO event.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q94",
+      "section": "traps_mixed",
+      "taught": true
+    },
+    {
+      "note": "BIMSTEC headquarters/secretariat at Dhaka: MEA BIMSTEC brief — permanent Secretariat set up in Dhaka in 2014 (claim c34).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q48",
+      "section": "hq_map",
+      "taught": true
+    },
+    {
+      "note": "Kristalina Georgieva became IMF Managing Director in 2019 and remains MD in the PIB release fetched (claim c45); taught in heads_dated.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q24",
+      "section": "heads_dated",
+      "taught": true
+    },
+    {
+      "note": "Myanmar is not a SAARC member: MEA SAARC brief lists the eight members without Myanmar, and the MEA BIMSTEC brief places Myanmar in BIMSTEC (claims c36, c32).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q12",
+      "section": "groups_membership",
+      "taught": true
+    },
+    {
+      "note": "World Bank headquarters (Washington D.C.): the city is not stated in any allowed-publisher page fetched for this chapter (NCERT leps104 gives only the Bank's 1944 creation). Not asserted here; gap disclosed in REPORT.md.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q75",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NATO formed in 1949: NCERT leps102 says only that the US created a collective security structure under NATO — no year or headquarters in the fetched allowed sources, so the year is not taught here (flagged in the traps_mixed exam_note).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q33",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "BRICS full form and member count: the original five (Brazil, Russia, India, China, South Africa) are taught via the NDB claim (c46), but the current eleven-member count in the official key is not stated in any fetched allowed source, so the item as asked is not fully taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q131",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Kaushik Basu as World Bank Chief Economist (2012): a past office-holder fact, not in this chapter's fetched sources; also untaught in ORG-02's map for the same reason.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q190",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "UNESCO Creative Cities Network (Varanasi and Jaipur): a programme-membership fact, not a headquarters/founding/head fact of this book; not in the fetched sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q39",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "UNHCR Nansen Refugee Award 2015 (Aqeela Asifi): an award fact, outside this chapter's sourced scope.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q65",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "FAO's World Soil Day (5 December): belongs to the Important Days book, not this chapter; not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q191",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "India's rank in the World Bank's Ease of Doing Business Report 2019 (77th): a discontinued report's rank, not in the fetched sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q108",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WHO's official name for the Covid-19 virus (SARS-CoV-2): a science/health fact, not an organisations headquarters/founding fact; not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q53",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Asian Pacific Postal Union headquarters (Bangkok): the body is not covered by any allowed-publisher page fetched in this run; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q129",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "IUCN headquarters (Switzerland/Gland): IUCN is not covered by the fetched allowed sources for this chapter; not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q47",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Which site is not a UNESCO World Heritage Site (Gateway of India): belongs to the Art & Culture book; UNESCO's Paris headquarters is likewise not asserted in this chapter because no fetched allowed source states it.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q148",
+      "section": null,
+      "taught": false
+    }
+  ]
+}
