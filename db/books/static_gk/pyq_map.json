@@ -1,1 +1,1348 @@
-{}
+{
+  "STG-01": [
+    {
+      "pyq_code": "GK-SGK-001",
+      "section": null,
+      "taught": false,
+      "note": "First Jnanpith winner (G.S. Kurup, Otakkuzhal, 1965): the bank's source is jnanpith.net, which is not an allowed publisher for this book (GOVT/NCERT only), and the fetched PIB release says only that the Trust has awarded litterateurs since 1965. Not taught; disclosed in the puraskar section's deep note."
+    },
+    {
+      "pyq_code": "GK-SGK-002",
+      "section": null,
+      "taught": false,
+      "note": "Bangla Jnanpith works (Ganadevata 1966, Smriti Satta Bhavishyat 1971, Prathama Pratishruti 1976): sourced from jnanpith.net, not an allowed publisher here, and not in any fetched GOVT/NCERT page. Only Ashapurna Devi's name as a Jnanpith-awardee woman writer is taught (c25), not her work or year."
+    },
+    {
+      "pyq_code": "GK-SGK-201",
+      "section": "natok_itihas",
+      "taught": true,
+      "note": "Arthashastra parts probably composed by Kautilya/Chanakya, minister of Chandragupta Maurya (lehs102 p.32, c07)."
+    },
+    {
+      "pyq_code": "GK-SGK-202",
+      "section": "prachin_grantha",
+      "taught": true,
+      "note": "Ashtadhyayi of Panini, c. 500 BCE, Sanskrit grammar (lehs103 Timeline 1, c01)."
+    },
+    {
+      "pyq_code": "GK-SGK-203",
+      "section": "prachin_grantha",
+      "taught": true,
+      "note": "NCERT Timeline 1 textual traditions taught in full: Ashtadhyayi, Tripitaka, Charaka/Sushruta Samhitas, Natyashastra, Kalidasa/Aryabhata/Varahamihira (c01-c05)."
+    },
+    {
+      "pyq_code": "GK-SGK-204",
+      "section": "natok_itihas",
+      "taught": true,
+      "note": "Mrichchhakatika by Shudraka; hero Charudatta a Brahmana and sarthavaha (lehs103 p.64, c06)."
+    },
+    {
+      "pyq_code": "GK-SGK-205",
+      "section": "natok_itihas",
+      "taught": true,
+      "note": "Harshacharita, biography of Harshavardhana by Banabhatta (lehs102 p.40, c09)."
+    },
+    {
+      "pyq_code": "GK-SGK-206",
+      "section": "bhraman_britanta",
+      "taught": true,
+      "note": "Kitab-ul-Hind by Al-Biruni, Arabic, 80 chapters (lehs201 p.117, c11)."
+    },
+    {
+      "pyq_code": "GK-SGK-207",
+      "section": "bhraman_britanta",
+      "taught": true,
+      "note": "Ibn Battuta's Rihla, Arabic, 14th-century account; traveller born in Tangier (lehs201 p.118, c12)."
+    },
+    {
+      "pyq_code": "GK-SGK-208",
+      "section": "mughal_darbar",
+      "taught": true,
+      "note": "Ain-i Akbari taught as the third volume of Abul Fazl's Akbar Nama, with its administrative/statistical contents — sourced from gess104 p.43 (c13, c14, c26) because lehs204 could not be fetched on this machine; the bank item's completion-year detail (1598) is not taught."
+    },
+    {
+      "pyq_code": "GK-SGK-209",
+      "section": null,
+      "taught": false,
+      "note": "Babur Nama as Babur's memoirs: the bank's source lehs204 could not be fetched on this machine, and the fetched gess104 pages do not describe the Babur Nama as a book. Not taught; disclosed in the mughal_darbar deep note."
+    },
+    {
+      "pyq_code": "GK-SGK-210",
+      "section": "bangla_samaj",
+      "taught": true,
+      "note": "Ramcharitmanas of Tulsidas, 16th-century text, first printed edition Calcutta 1810 (jess305 p.121, c15)."
+    },
+    {
+      "pyq_code": "GK-SGK-211",
+      "section": null,
+      "taught": false,
+      "note": "Hind Swaraj (1909) by Gandhi: the bank's source jess302 could not be fetched on this machine (network error, not retried). Not taught."
+    },
+    {
+      "pyq_code": "GK-SGK-212",
+      "section": "puraskar",
+      "taught": true,
+      "note": "Naoroji's Poverty and Un-British Rule in India (hess208 p.95, c19)."
+    },
+    {
+      "pyq_code": "GK-SGK-213",
+      "section": null,
+      "taught": false,
+      "note": "Partially covered only: Vande Mataram's composer Bankim Chandra Chattopadhyay is taught from the PIB release (c24), but its inclusion in the novel Anandamath comes from jess302, which could not be fetched. Mapped untaught for the Anandamath part."
+    },
+    {
+      "pyq_code": "GK-SGK-214",
+      "section": "bangla_samaj",
+      "taught": true,
+      "note": "Gulamgiri (1871) by Jyotiba Phule on the injustices of the caste system (jess305 p.126, c18)."
+    },
+    {
+      "pyq_code": "GK-SGK-215",
+      "section": "bangla_samaj",
+      "taught": true,
+      "note": "Amar Jiban by Rashsundari Debi, 1876, first full-length autobiography in Bengali (jess305 p.123, c16, c17)."
+    },
+    {
+      "pyq_code": "GK-SGK-216",
+      "section": null,
+      "taught": false,
+      "note": "Tagore's poetry volumes (Manasi, Sonar Tari, Gitanjali...): the bank's source is nobelprize.org, which is not an allowed publisher for this book (GOVT/NCERT only). Not taught."
+    },
+    {
+      "pyq_code": "GK-SGK-217",
+      "section": null,
+      "taught": false,
+      "note": "Tagore's plays (Raja, Dakghar, Raktakarabi...): Nobel Foundation source, not an allowed publisher for this book. Not taught."
+    },
+    {
+      "pyq_code": "GK-SGK-218",
+      "section": null,
+      "taught": false,
+      "note": "Sahitya Akademi formally inaugurated 12 March 1954 / HQ Rabindra Bhavan context: the Akademi 'about' page could not be fetched on this machine. The chapter teaches only the awards page facts (inception 1954, first awards 1955, amounts)."
+    },
+    {
+      "pyq_code": "GK-SGK-219",
+      "section": "puraskar",
+      "taught": true,
+      "note": "First Sahitya Akademi Awards in 1955 and the award-amount history to Rs 1,00,000 from 2009 (official awards page, c20)."
+    },
+    {
+      "pyq_code": "GK-SGK-220",
+      "section": null,
+      "taught": false,
+      "note": "Sahitya Akademi head office at Rabindra Bhavan, New Delhi: from the Akademi 'about' page, which could not be fetched on this machine. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q50",
+      "section": "bangla_samaj",
+      "taught": true,
+      "note": "'Who wrote the book Ghulamgiri?' — Jyotiba Phule, taught (c18)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q143",
+      "section": "bhraman_britanta",
+      "taught": true,
+      "note": "'Who wrote Kitab-ul-Hind?' — Al-Biruni, taught (c11)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q72",
+      "section": "natok_itihas",
+      "taught": true,
+      "note": "'Who wrote Mrichhakatikam?' — Shudraka, taught (c06)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q87",
+      "section": "bangla_samaj",
+      "taught": true,
+      "note": "'Who wrote Ramcharitmanas?' — Tulsidas, taught (c15)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q154",
+      "section": "puraskar",
+      "taught": true,
+      "note": "'Who wrote Poverty and Unbritish Rule in India?' — Dadabhai Naoroji, taught (c19)."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q77",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote Pratham Pratishruti?' (Ashapurna Devi): the chapter names Ashapurna Devi only as a Jnanpith-awardee woman writer (PIB, c25); her authorship of this novel is sourced in the bank from jnanpith.net, not an allowed publisher here. Not taught."
+    },
+    {
+      "pyq_code": "IDO-2019-Q46",
+      "section": null,
+      "taught": false,
+      "note": "'The Autobiography of an Unknown Indian' (Nirad C. Chaudhuri): not in any fetched GOVT/NCERT source. Not taught."
+    },
+    {
+      "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q59",
+      "section": null,
+      "taught": false,
+      "note": "Author of the Bengali novel 'Kaalbela' (Samaresh Majumdar): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q1",
+      "section": null,
+      "taught": false,
+      "note": "'Man Makes Himself' (V. Gordon Childe): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q20",
+      "section": null,
+      "taught": false,
+      "note": "'From Volga to Ganga' (Rahul Sankrityayan): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q37",
+      "section": null,
+      "taught": false,
+      "note": "Writer of the national anthems of two countries (Rabindranath Tagore): Tagore book/anthem detail is sourced in the bank from nobelprize.org, not an allowed publisher for this book. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q40",
+      "section": null,
+      "taught": false,
+      "note": "Harry Potter author (J.K. Rowling): world literature, no fetched official source. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q77",
+      "section": null,
+      "taught": false,
+      "note": "'Ramcharit' (Sandhyakar Nandi): a different work from the taught Ramcharitmanas; not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q79",
+      "section": null,
+      "taught": false,
+      "note": "Book authored by Franz Kafka: world literature, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q62",
+      "section": null,
+      "taught": false,
+      "note": "A book written by Swami Vivekananda: not in the fetched NCERT pages used. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q76",
+      "section": null,
+      "taught": false,
+      "note": "Author of Kadambari: Banabhatta is taught as the author of Harshacharita (c09), but Kadambari itself is not mentioned in the fetched NCERT pages; flagged openly in the chapter's exam_note box. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q76",
+      "section": null,
+      "taught": false,
+      "note": "Author of Kadambari: same position as the 2015 item — not in the fetched sources. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q170",
+      "section": null,
+      "taught": false,
+      "note": "Autobiography 'One Life is Not Enough' (Natwar Singh): contemporary autobiography, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q34",
+      "section": null,
+      "taught": false,
+      "note": "2015 Mailer Prize for Lifetime Achievement recipient: current-affairs item of its year, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q42",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote the book Drain of Wealth?': Naoroji and his Poverty and Un-British Rule in India are taught (c19), but this exact title attribution is not in the fetched NCERT quote. Not taught as asked."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q144",
+      "section": null,
+      "taught": false,
+      "note": "Malthus, 'An Essay on the Principle of Population': not in any fetched source for this chapter. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q69",
+      "section": null,
+      "taught": false,
+      "note": "'An Era of Darkness' (Shashi Tharoor): contemporary book, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q97",
+      "section": null,
+      "taught": false,
+      "note": "Author of 'Neel Darpan' (Dinabandhu Mitra): not in the fetched NCERT pages used. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q91",
+      "section": null,
+      "taught": false,
+      "note": "Author of the drama Neeldarpan: same item as WBCS 2017 Q97; not in fetched sources. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q83",
+      "section": null,
+      "taught": false,
+      "note": "'The Argumentative Indian' (Amartya Sen): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q147",
+      "section": null,
+      "taught": false,
+      "note": "Author of 'Brihatsamhita' (Varahamihira): the chapter's timeline names Varahamihira only for works on astronomy and mathematics in general (c05); the Brihatsamhita is not named in the fetched text. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q151",
+      "section": null,
+      "taught": false,
+      "note": "'Companion of Honours' title conferred 12 Dec 2017: current-affairs item, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q158",
+      "section": null,
+      "taught": false,
+      "note": "'I Do What I Do' (Raghuram Rajan): contemporary book, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q157",
+      "section": null,
+      "taught": false,
+      "note": "Author of 'Flood of Fire' (Amitav Ghosh): contemporary book, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q48",
+      "section": null,
+      "taught": false,
+      "note": "Sarat Chandra novel reflecting the revolutionary movement: not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q56",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote Amuktamalyada?' (Krishnadevaraya): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q100",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote the book Amuktamalyada?': same item as WBCS 2021 Q56; not in fetched sources. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q129",
+      "section": null,
+      "taught": false,
+      "note": "Author of the Allahabad Pillar Inscription (Harishena): an inscription, not covered by this chapter's fetched book sources. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q69",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote Humayunnamah?' (Gulbadan Begum): the usual NCERT source lehs204 could not be fetched on this machine. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q103",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote the book Hind Swaraj?' (Gandhi): source jess302 could not be fetched on this machine. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q137",
+      "section": null,
+      "taught": false,
+      "note": "Author of 'The Philosophy of the Bomb': not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q81",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote Kumarasambhavam?' (Kalidasa): the chapter teaches Kalidasa's Sanskrit plays only in general via the timeline (c05); Kumarasambhavam is not named in the fetched text. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q182",
+      "section": null,
+      "taught": false,
+      "note": "'The Notes on Infant Marriage and Enforced Widowhood' (Behramji Malabari): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q186",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote Gandhi versus Lenin?': not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q197",
+      "section": null,
+      "taught": false,
+      "note": "International Booker Prize 2025 / Booker Prize 2025 item: current-affairs, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2004-Q52",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote Jara Brishtite Bhijechilo?': modern Bengali literature, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2004-Q63",
+      "section": null,
+      "taught": false,
+      "note": "Writer of the song 'Sare Jahan Se Accha' (Muhammad Iqbal): only Vande Mataram's composer is taught (PIB, c24); this song is not in the fetched sources. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2005-Q63",
+      "section": null,
+      "taught": false,
+      "note": "'Meghaduta was written by' (Kalidasa): Kalidasa is named in the chapter only for Sanskrit plays in general (c05); Meghaduta is not named in the fetched text. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2006-Q25",
+      "section": null,
+      "taught": false,
+      "note": "Author of 'Dwikhandito' (Taslima Nasrin): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2006-Q28",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote Pather Dabi?' (Sarat Chandra Chattopadhyay): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2007-Q9",
+      "section": null,
+      "taught": false,
+      "note": "Jayadeva, author of the Gita Govinda, court poet of which Bengal ruler: not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2007-Q16",
+      "section": null,
+      "taught": false,
+      "note": "'A Writer's People' author (V.S. Naipaul): contemporary book, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2009-SESSION-I-Q2",
+      "section": null,
+      "taught": false,
+      "note": "'Who is the author of Anandamath?': Bankim Chandra Chattopadhyay is taught only as the composer of Vande Mataram (PIB, c24); the Anandamath link is in jess302, which could not be fetched. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2009-SESSION-II-Q2",
+      "section": null,
+      "taught": false,
+      "note": "'Rajatarangini was written by' (Kalhana): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2019-AFTERNOON-Q34",
+      "section": null,
+      "taught": false,
+      "note": "'The book Ashani Sanket was written by' (Bibhutibhushan Bandyopadhyay): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2019-FORENOON-Q30",
+      "section": null,
+      "taught": false,
+      "note": "Author of 'The Third Pillar' (Raghuram Rajan): contemporary book, not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-I-Q82",
+      "section": null,
+      "taught": false,
+      "note": "'Who wrote the book Life Divine?' (Sri Aurobindo): not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-IV-Q37",
+      "section": null,
+      "taught": false,
+      "note": "Book authored by Eric J. Hobsbawm: not in any fetched source. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-IV-Q38",
+      "section": null,
+      "taught": false,
+      "note": "'An Era of Darkness: The British Empire in India' author (Shashi Tharoor): same item as WBCS 2017 Q69; not in fetched sources. Not taught."
+    }
+  ],
+  "STG-02": [
+    {
+      "pyq_code": "GK-SGK-003",
+      "section": "nobel",
+      "taught": true,
+      "note": "Rabindranath Tagore, Nobel Prize in Literature 1913: taught (PIB Rabindra Jayanti release, PRID 1922940 — first Indian to win the Nobel Prize for literature; received the prize in 1913)."
+    },
+    {
+      "pyq_code": "GK-SGK-004",
+      "section": null,
+      "taught": false,
+      "note": "C. V. Raman, Nobel Physics 1930: Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-005",
+      "section": null,
+      "taught": false,
+      "note": "Amartya Sen, Economic Sciences 1998: Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-006",
+      "section": "nobel",
+      "taught": true,
+      "note": "Abhijit Banerjee, Economic Sciences 2019: taught (PIB PM-congratulates release, PRID 1588089; shared with Esther Duflo and Michael Kremer)."
+    },
+    {
+      "pyq_code": "GK-SGK-101",
+      "section": "civilian_padma",
+      "taught": true,
+      "note": "Padma Awards' three categories: taught (MHA/PIB Padma Awards 2025 release, PRID 2096285)."
+    },
+    {
+      "pyq_code": "GK-SGK-102",
+      "section": null,
+      "taught": false,
+      "note": "Padma 1954 origin and 1955 renaming are not stated in the fetched MHA/PIB 2025 release; only the Republic Day announcement part is taught (civilian_padma). Item as a whole not taught."
+    },
+    {
+      "pyq_code": "GK-SGK-103",
+      "section": null,
+      "taught": false,
+      "note": "Padma Awards eligibility rules: not stated in the fetched MHA/PIB 2025 release. Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-104",
+      "section": null,
+      "taught": false,
+      "note": "Bharat Ratna instituted 1954 / first recipient C. Rajagopalachari: the fetched DD News report establishes only that Bharat Ratna is India's highest civilian honour and the 2024 recipients. Institution year and first recipients not stated in any allowed-publisher (gov.in / nic.in / ncert) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-105",
+      "section": "film_awards",
+      "taught": true,
+      "note": "Dadasaheb Phalke Award instituted 1969, first given to Devika Rani: taught (PIB National Film Awards factsheet)."
+    },
+    {
+      "pyq_code": "GK-SGK-106",
+      "section": "film_awards",
+      "taught": true,
+      "note": "Dadasaheb Phalke recipients 2021-2024 (Waheeda Rehman, Mithun Chakraborty, Mohanlal, Anant Nag): taught (PIB NFA factsheet)."
+    },
+    {
+      "pyq_code": "GK-SGK-107",
+      "section": "film_awards",
+      "taught": true,
+      "note": "First National Film Awards for Best Actor (Uttam Kumar) and Best Actress (Nargis), 1968: taught (PIB NFA factsheet)."
+    },
+    {
+      "pyq_code": "GK-SGK-108",
+      "section": null,
+      "taught": false,
+      "note": "Rohit Sharma Khel Ratna 2020 part is taught (sports_awards; PIB PRID 1647633), but the Viswanathan Anand 1991-92 first-recipient part is not in any fetched PIB sports release. Item as a whole not taught."
+    },
+    {
+      "pyq_code": "GK-SGK-109",
+      "section": "sports_awards",
+      "taught": false,
+      "note": "Dronacharya Award criteria (coaches producing medal winners; Regular and Lifetime categories in the 2025 notification) are taught, but the bank item's specific Regular/Lifetime awardee lists are not in the fetched releases. Item not taught in full."
+    },
+    {
+      "pyq_code": "GK-SGK-110",
+      "section": null,
+      "taught": false,
+      "note": "Param Vir Chakra and Ashoka Chakra criteria: the fetched Gallantry Awards portal page gives institution dates (1950/1952) and the six award names, not the award criteria. Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-111",
+      "section": null,
+      "taught": false,
+      "note": "Gallantry awards origin: the 26 January 1950 institution (deemed effect 15 August 1947) is taught (gallantry_literary), but the item's 1948 selection detail is not in the fetched portal text. Item as a whole not taught."
+    },
+    {
+      "pyq_code": "GK-SGK-112",
+      "section": null,
+      "taught": false,
+      "note": "Major Somnath Sharma, first Param Vir Chakra: the fetched portal homepage does not name individual recipients. Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-113",
+      "section": null,
+      "taught": false,
+      "note": "Mother Teresa, Nobel Peace Prize 1979: Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-114",
+      "section": null,
+      "taught": false,
+      "note": "Kailash Satyarthi, Nobel Peace Prize 2014: Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-115",
+      "section": null,
+      "taught": false,
+      "note": "Har Gobind Khorana, Nobel Medicine 1968: Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-116",
+      "section": null,
+      "taught": false,
+      "note": "S. Chandrasekhar, Nobel Physics 1983: Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-117",
+      "section": null,
+      "taught": false,
+      "note": "Venkatraman Ramakrishnan, Nobel Chemistry 2009: Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-118",
+      "section": null,
+      "taught": false,
+      "note": "Full Indian-link Nobel laureate list: only Tagore (1913) and Banerjee (2019) are taught in this chapter; the remaining laureates not stated in any allowed-publisher (gov.in / nic.in / ncert) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-119",
+      "section": null,
+      "taught": false,
+      "note": "Mother Teresa, Ramon Magsaysay Award 1962: the Magsaysay Foundation is not an allowed publisher and no gov.in page stating this was fetched. Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "GK-SGK-120",
+      "section": null,
+      "taught": false,
+      "note": "Ramon Magsaysay Award — Satyajit Ray (1967) and Mahasweta Devi (1997): same Magsaysay source gap as GK-SGK-119."
+    },
+    {
+      "pyq_code": "GK-SGK-121",
+      "section": null,
+      "taught": false,
+      "note": "Jnanpith Award for Bangla (Subhash Mukhopadhyay 1991, Mahasweta Devi 1996, Shankha Ghosh 2016): Bharatiya Jnanpith is not an allowed publisher and no gov.in page listing these was fetched. Not stated in any allowed-publisher (gov.in / nic.in / NCERT) page fetched for this chapter; not taught, per the no-fact-without-a-fetched-quote rule."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q75",
+      "section": null,
+      "taught": false,
+      "note": "Highest gallantry award of the Indian Army (Param Vir Chakra): this chapter teaches the six gallantry awards and their institution dates from the MoD portal, but the fetched portal text does not rank Param Vir Chakra as the highest. Source gap (db/pyq/misc-2023.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q83",
+      "section": null,
+      "taught": false,
+      "note": "2014 Nobel Physics (blue LED): individual non-Indian Nobel laureates are outside this chapter's fetched gov.in sources (db/pyq/wbcs-prelims-2015.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q169",
+      "section": null,
+      "taught": false,
+      "note": "Gabriel Garcia Marquez, Nobel 1982: not taught; see Q83 note (db/pyq/wbcs-prelims-2015.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q175",
+      "section": null,
+      "taught": false,
+      "note": "Dadasaheb Phalke Award for 2013: the fetched PIB factsheet names the 2021-2024 recipients and the first recipient, not the 2013 recipient (db/pyq/wbcs-prelims-2015.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q58",
+      "section": null,
+      "taught": false,
+      "note": "2016 Nobel Prize in Economics: not taught; see Q83 note (db/pyq/wbcs-prelims-2017.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q59",
+      "section": null,
+      "taught": false,
+      "note": "Mother Teresa canonised 2016: her Nobel Peace Prize 1979 is itself untaught in this chapter (GK-SGK-113 source gap) (db/pyq/wbcs-prelims-2018.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q71",
+      "section": null,
+      "taught": false,
+      "note": "Dadasaheb Phalke Award 2015 recipient (Manoj Kumar): not in the fetched PIB factsheet's recipient list (db/pyq/wbcs-prelims-2018.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q78",
+      "section": null,
+      "taught": false,
+      "note": "Nobel Prize in Literature 2017 (Kazuo Ishiguro): not taught; see Q83 note (db/pyq/wbcs-prelims-2018.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q175",
+      "section": null,
+      "taught": false,
+      "note": "54th Jnanpith Award (Amitav Ghosh): Jnanpith source gap, same as GK-SGK-121 (db/pyq/wbcs-prelims-2019.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q39",
+      "section": null,
+      "taught": false,
+      "note": "Nobel Prize in Literature 2020 (Louise Glück): not taught; see Q83 note (db/pyq/wbcs-prelims-2021.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q127",
+      "section": "sports_awards",
+      "taught": true,
+      "note": "Rajiv Gandhi Khel Ratna 2020 cricketer (Rohit Sharma): taught (PIB National Sports Awards 2020, PRID 1647633) (db/pyq/wbcs-prelims-2021.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q160",
+      "section": null,
+      "taught": false,
+      "note": "Year Lata Mangeshkar received the Bharat Ratna: Bharat Ratna recipient years before 2024 are not in the fetched DD News report. Source gap (db/pyq/wbcs-prelims-2022.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q167",
+      "section": null,
+      "taught": false,
+      "note": "Sahitya Akademi Award 2021, English category: the fetched PIB release covers the Translation Prize 2023 only, not the 2021 main awards (db/pyq/wbcs-prelims-2022.json)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q197",
+      "section": null,
+      "taught": false,
+      "note": "Booker / International Booker Prize 2025: Booker facts belong to STG-01 (books_authors) territory and no allowed source for them was fetched here (db/pyq/wbcs-prelims-2024.json)."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q36",
+      "section": null,
+      "taught": false,
+      "note": "Nobel Prize in Literature 2020: not taught; see Q83 note (db/pyq/wbp-constable-2021.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q20",
+      "section": null,
+      "taught": false,
+      "note": "First Bangladeshi Nobel laureate 2006 (Muhammad Yunus): not taught; see Q83 note (db/pyq/wbpsc-clerkship-2006.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q7",
+      "section": null,
+      "taught": false,
+      "note": "Nobel laureate with no significant Kolkata connection: requires the wider laureate list, which is untaught here (GK-SGK-118 source gap) (db/pyq/wbpsc-clerkship-2019-afternoon.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q15",
+      "section": null,
+      "taught": false,
+      "note": "2019 Nobel Peace Prize: not taught; see Q83 note (db/pyq/wbpsc-clerkship-2019-afternoon.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q19",
+      "section": null,
+      "taught": false,
+      "note": "Who is NOT a Nobel Literature recipient: requires the wider laureate list, untaught here (db/pyq/wbpsc-clerkship-2019-afternoon.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q18",
+      "section": null,
+      "taught": false,
+      "note": "Ramon Magsaysay Award 2019 for Journalism: Magsaysay source gap, same as GK-SGK-119 (db/pyq/wbpsc-clerkship-2019-forenoon.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q19",
+      "section": null,
+      "taught": false,
+      "note": "Nobel Prize in Literature 2019: not taught; see Q83 note (db/pyq/wbpsc-clerkship-2019-forenoon.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q60",
+      "section": "bharat_ratna",
+      "taught": true,
+      "note": "Bharat Ratna winner in 2024: taught (DD News report — five 2024 names including L. K. Advani; four conferred posthumously) (db/pyq/wbpsc-clerkship-2023-session-1.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q82",
+      "section": null,
+      "taught": false,
+      "note": "Year Pranab Mukherjee received the Bharat Ratna: pre-2024 recipient years are not in the fetched DD News report. Source gap (db/pyq/wbpsc-clerkship-2023-session-2.json)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q91",
+      "section": null,
+      "taught": false,
+      "note": "International Booker Prize 2024: Booker source gap, same as WBCS 2024 Q197 (db/pyq/wbpsc-clerkship-2023-session-4.json)."
+    }
+  ],
+  "STG-03": [
+    {
+      "note": "India's Census 2011 total and sex ratio 943: chapter teaches the final total as ~121.06 crore (MoSPI Table 1.1: 1210.57 million, M 623.12 / F 587.45) and SR 943 (NCERT Sociology + MoSPI). The bank item's exact count 1,210,854,977 comes from the Census state-level xlsx, which could not be fetched as text; the chapter additionally teaches NCERT's provisional exact total 1,210,193,422.",
+      "pyq_code": "GK-SGK-012",
+      "section": "census_2011_totals",
+      "taught": true
+    },
+    {
+      "note": "State population ranking Uttar Pradesh > Maharashtra > Bihar > West Bengal taught verbatim from NCERT legy201. The bank's exact state counts are from the Census xlsx (unfetchable as text), so the chapter teaches the ranking, not the exact counts.",
+      "pyq_code": "GK-SGK-013",
+      "section": "density_distribution",
+      "taught": true
+    },
+    {
+      "note": "Kerala sex ratio 1084 (highest among states) and West Bengal 950 taught from MoSPI Women & Men in India 2016, Tables 1.2/1.3; Puducherry 1037 also taught.",
+      "pyq_code": "GK-SGK-014",
+      "section": "sex_ratio",
+      "taught": true
+    },
+    {
+      "note": "'Mouza' = revenue village is a land-records definition. None of the fetched allowed sources (PIB Census 2027 backgrounder, NCERT legy201/lesy102, MoSPI) defines 'mouza', so it is not taught in this chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q130",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Most densely populated state: the paper's key is West Bengal because Bihar was not among its options. The chapter teaches the full NCERT ranking (Bihar 1102 highest, West Bengal 1029 second) and carries an exam_note explaining exactly this paper's situation.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q188",
+      "section": "density_distribution",
+      "taught": true
+    },
+    {
+      "note": "Least population density: Arunachal Pradesh, 17 persons per sq km (NCERT legy201) — taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q165",
+      "section": "density_distribution",
+      "taught": true
+    },
+    {
+      "note": "Highest urbanised state (Goa, 62.17% urban): the only fetched source carrying state-wise urbanisation shares was NIRDPR's Rural Development Statistics, hosted on an org.in domain, which fails this book's GOVT publisher pattern (only *.gov.in / *.nic.in). No NCERT/MoSPI quote for it was obtained, so the fact was dropped from the chapter and this PYQ is untaught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q170",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Share of population below age 35 (65%): no fetched source gives this age-structure share. NCERT legy201 gives only the adolescent (10-19) share of 20.9%, which the chapter teaches; the below-35 figure is not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q141",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Second most populated district (North 24 Parganas): district-level population rankings are not present in any fetched source; the chapter teaches state-level rankings only.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q61",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "West Bengal literacy: the 2019 key (77.08%) used the provisional figure. The chapter teaches the final PCA figure 76.3% (MoSPI Table 3.3) and flags the provisional 77.08% in an exam_note, so students can answer either framing.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q45",
+      "section": "literacy_rural_urban",
+      "taught": true
+    },
+    {
+      "note": "Union Territory with the highest sex ratio: Puducherry, 1037 (MoSPI Women & Men in India 2016 findings) — taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q131",
+      "section": "sex_ratio",
+      "taught": true
+    },
+    {
+      "note": "West Bengal district with the highest child sex ratio (Howrah): district-level child sex ratios are not present in any fetched source; the chapter teaches state-level CSR (India 918/919, West Bengal 956, Haryana 834, Arunachal 972) only.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q172",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "2026-27 Census as India's first digital/paperless census: taught from the PIB Census 2027 backgrounder (first census by digital means, mobile-based collection, CMMS portal).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q30",
+      "section": "census_2027",
+      "taught": true
+    },
+    {
+      "note": "Sex ratio defined as the number of females per 1000 males: taught verbatim from NCERT lesy102 (Table 3 note).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q70",
+      "section": "sex_ratio",
+      "taught": true
+    },
+    {
+      "note": "Population of India 'at the time of the 2009 exam' (a few more than 1.10 billion) is a between-censuses current-affairs estimate, not a census statistic; the chapter teaches census totals (2001: ~102.86 crore provisional; 2011: ~121.06 crore) only.",
+      "pyq_code": "WBPSC-CLERKSHIP-2009-SESSION-1-Q5",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "STG-04": [
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q54",
+      "section": "national_awards",
+      "taught": true,
+      "note": "'Wizard of Hockey' = Major Dhyan Chand: taught via PIB backgrounder quote giving him the titles 'The Hockey Wizard' and 'The Magician' (claim c24)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q22",
+      "section": "olympic_games",
+      "taught": true,
+      "note": "Olympic motto 'Citius, Altius, Fortius' word meanings (Faster, Higher, Stronger): chapter teaches the current motto 'Faster, Higher, Stronger - Together' from the PIB Asian Games backgrounder (claim c13); the three original words and their meanings are covered."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q5",
+      "section": "commonwealth_games",
+      "taught": true,
+      "note": "Year India hosted the Commonwealth Games (2010): taught from the CAG CWG-2010 report (claims c14, c16)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q6",
+      "section": "olympic_games",
+      "taught": true,
+      "note": "2020 Summer Olympic Games venue (Tokyo): taught — chapter's Olympics table covers Tokyo 2020 with India's 7 medals (claim c18)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q22",
+      "section": "olympic_games",
+      "taught": true,
+      "note": "2016 Olympic Games venue (Rio de Janeiro): taught — PIB Olympics table lists Rio de Janeiro 2016, India 2 medals (claim c17)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q28",
+      "section": "asian_games",
+      "taught": true,
+      "note": "First Asian Games (New Delhi, 1951): taught in full (claims c02, c04)."
+    },
+    {
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q69",
+      "section": null,
+      "taught": false,
+      "note": "FIFA World Cup Qatar 2022 winner (Argentina): football World Cup facts had no fetchable official (PIB/govt) source in this run; not taught."
+    },
+    {
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q92",
+      "section": null,
+      "taught": false,
+      "note": "'Caddie' is a golf term: sports terminology of individual games is not covered by any fetched official source; not taught."
+    },
+    {
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q100",
+      "section": null,
+      "taught": false,
+      "note": "Host of the 2023 Women's U-19 T20 World Cup (South Africa): chapter teaches only the 2024 men's T20 World Cup win; this tournament's host is not in the fetched sources."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q4",
+      "section": null,
+      "taught": false,
+      "note": "Olympic rings: yellow ring = Asia. Ring colours/continents are not in any fetched source (PIB pages used do not describe the rings); not taught."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q8",
+      "section": null,
+      "taught": false,
+      "note": "Host of the ICC Men's Cricket World Cup 2023 (India): ODI World Cup facts had no fetchable official source in this run; not taught."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q20",
+      "section": null,
+      "taught": false,
+      "note": "Neeraj Chopra's home place: chapter teaches his Tokyo 2020 javelin gold (c20) but no fetched source gives his home town/district; not taught."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q40",
+      "section": null,
+      "taught": false,
+      "note": "Lovlina Borgohain's home state (Assam): boxer state-of-origin facts are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q80",
+      "section": null,
+      "taught": false,
+      "note": "Year India first won the T20 World Cup (2007): chapter's PIB source covers only the 2024 win and does not state it was a second title; 2007 is not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q69",
+      "section": null,
+      "taught": false,
+      "note": "First Indian to score a Test triple century (Virender Sehwag): Test cricket records are not in the fetched official sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q71",
+      "section": null,
+      "taught": false,
+      "note": "Fastest man at Athens Olympics 2004 (100 m): pre-2016 Olympic detail is outside the fetched PIB Olympics table (2016-2024); not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q60",
+      "section": null,
+      "taught": false,
+      "note": "'Black Pearl' = Pele (football): player nicknames other than Dhyan Chand's are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q72",
+      "section": null,
+      "taught": false,
+      "note": "First Indian to win silver in double trap shooting, Athens 2004 (Rajyavardhan Singh Rathore): Athens 2004 detail is not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q12",
+      "section": null,
+      "taught": false,
+      "note": "Wimbledon location (London): tennis venue facts are not in the fetched official sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q23",
+      "section": null,
+      "taught": false,
+      "note": "Match players to sports (Anand-chess, Yasin Merchant-snooker, Sania Mirza-tennis, Vijay Mallya... as printed): chapter names Gukesh as a chess Khel Ratna recipient but does not teach this set of player-sport pairs; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q3",
+      "section": null,
+      "taught": false,
+      "note": "Green Park Stadium location (Kanpur): stadium facts are not in the fetched official sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q21",
+      "section": null,
+      "taught": false,
+      "note": "Beijing Olympics mascots (Fuwa): mascot facts are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q30",
+      "section": null,
+      "taught": false,
+      "note": "Who was at the crease when Rahul Dravid completed 10,000 Test runs (2008): match-detail current affairs of its day; not in the fetched sources (chapter teaches Dravid only as 2024 T20 WC coach)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q8",
+      "section": null,
+      "taught": false,
+      "note": "Event in which India won gold at Beijing 2008 (shooting, Abhinav Bindra): chapter names Bindra as 'India's first Olympic gold medallist' per PIB (c22) but does not teach the Beijing 2008 event/discipline; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q9",
+      "section": null,
+      "taught": false,
+      "note": "Keshav Maharaj plays for South Africa: cricketer-nationality facts are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q25",
+      "section": null,
+      "taught": false,
+      "note": "Which of the listed persons was NOT a hockey player: player-by-player sport identification is not taught by the fetched sources."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q36",
+      "section": null,
+      "taught": false,
+      "note": "Most Test double centuries by an Indian (as of Jan 2020): Test batting records are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q21",
+      "section": null,
+      "taught": false,
+      "note": "2019 Cricket World Cup winner (England): ODI World Cup facts had no fetchable official source in this run; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q31",
+      "section": null,
+      "taught": false,
+      "note": "2019 Badminton World Championship women's singles winner (P.V. Sindhu): not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q71",
+      "section": null,
+      "taught": false,
+      "note": "Co-hosts of the 2026 ICC Men's T20 World Cup (India and Sri Lanka): future-tournament hosting facts are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q36",
+      "section": null,
+      "taught": false,
+      "note": "Year the Olympic symbol (five rings) was designed (1913): ring history is not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q36",
+      "section": null,
+      "taught": false,
+      "note": "Norway Chess Super Tournament 2024 winner: a current-affairs result, not static GK from the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q54",
+      "section": null,
+      "taught": false,
+      "note": "Venue of the ICC Men's T20 World Cup 2024 (USA and West Indies): chapter teaches India's win, captain and coach (c40, c41) but the fetched PIB release does not name the host countries; venue not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q72",
+      "section": null,
+      "taught": false,
+      "note": "First Indian woman gymnast to qualify for the Olympics (Dipa Karmakar): gymnastics firsts are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q185",
+      "section": null,
+      "taught": false,
+      "note": "India's total medals at the 2014 Commonwealth Games (64): chapter teaches CWG-2010 only (101 medals); the 2014 tally is not in the fetched CAG source."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q165",
+      "section": null,
+      "taught": false,
+      "note": "Women's winner at the Glasgow World Badminton Championships (Nozomi Okuhara, 2017): not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q52",
+      "section": null,
+      "taught": false,
+      "note": "How the tied 2019 ICC World Cup final (England vs New Zealand) was decided: ODI World Cup facts had no fetchable official source in this run; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q60",
+      "section": null,
+      "taught": false,
+      "note": "Captain considered for India's men's hockey team for the Tokyo Olympics (Manpreet Singh): squad/captaincy facts are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q83",
+      "section": null,
+      "taught": false,
+      "note": "Asian Games gold-medallist boxer who died at 42 (Dingko Singh): an obituary current-affairs item; not in the fetched sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q127",
+      "section": null,
+      "taught": false,
+      "note": "Cricketer who received the Rajiv Gandhi Khel Ratna 2020 (Rohit Sharma): chapter teaches the Khel Ratna criterion and the 2024 recipients, and Rohit as 2024 T20 WC captain, but no fetched source lists the 2020 Khel Ratna recipients; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q58",
+      "section": null,
+      "taught": false,
+      "note": "Second Indian to score 10,000 runs in T20 cricket: T20 batting records are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q70",
+      "section": null,
+      "taught": false,
+      "note": "Indian wrestler's individual gold at the 2022 Asian Wrestling Championships: championship results are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q187",
+      "section": null,
+      "taught": false,
+      "note": "Thomas Cup 2022 winner (India, badminton): the PIB release on the Thomas Cup win could not be fetched in this run, so no verbatim official quote was available; not taught (see REPORT.md gap)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q194",
+      "section": null,
+      "taught": false,
+      "note": "Swiss Open 2022 women's singles badminton champion (P.V. Sindhu): tournament results are not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q30",
+      "section": null,
+      "taught": false,
+      "note": "Host country of the 2023 IBA World Women's Boxing Championships (India): not in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q27",
+      "section": null,
+      "taught": false,
+      "note": "Winner of the first FIFA Club World Cup held in 2025 (Chelsea): a post-2024 current-affairs result with no fetched official source; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q76",
+      "section": null,
+      "taught": false,
+      "note": "R. Praggnanandhaa is a chess player: chapter teaches chess only through Gukesh's 2024 Khel Ratna; Praggnanandhaa is not named in the fetched sources; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-IDO-2019-Q14",
+      "section": null,
+      "taught": false,
+      "note": "Award-to-field matching (Borlaug-agriculture, Bhatnagar-science, Arjuna-sports, Vyas Samman-literature): only the Arjuna-sports pairing falls in this chapter, and it is taught as a sports award (national_awards); the other three awards belong to the awards chapter (STG-02) and are not taught here."
+    }
+  ],
+  "STG-05": [
+    {
+      "note": "Asks the capital of Australia (Canberra; options included Sydney and Melbourne). Taught directly in the australia section from PM India's address to the Australian Parliament (claim c04) and practised in q15/q22/q23.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q3",
+      "section": "australia",
+      "taught": true
+    },
+    {
+      "note": "Asks the capital of Nigeria (Abuja). Taught in the nigeria section: the High Commission of India to Nigeria is at Abuja and its official fee document prices services in Naira (claim c13); practised in q31/q34/q35. Caveat: no fetched gov.in page uses the literal phrase 'capital of Nigeria' — the chapter teaches Abuja via the seat-of-government/mission evidence cluster; disclosed for the blind-check stage.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q97",
+      "section": "nigeria",
+      "taught": true
+    },
+    {
+      "note": "Asks the capital of the United States (Washington, D.C.). NOT taught: no page from an allowed publisher (gov.in/nic.in or NCERT) stating Washington, D.C. as the US capital could be fetched in this run, and the chapter's hard rule forbids teaching a fact without a fetched verbatim quote. To be added in a later sourcing pass.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q89",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Asks which of the options is the capital of Jordan (Amman; distractors Havana, Lagos, Oslo). Taught in the jordan section from the Embassy of India, Amman evidence cluster — embassy seat, India-Jordan FOC hosted in Amman, King Abdullah II receiving the PM in Amman (claims c09-c11); practised in q24/q30. Caveat: no fetched gov.in page uses the literal phrase 'capital of Jordan'; disclosed for the blind-check stage.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q40",
+      "section": "jordan",
+      "taught": true
+    }
+  ],
+  "STG-06": [
+    {
+      "pyq_code": "GK-SGK-007",
+      "section": "environment_days",
+      "taught": true,
+      "note": "Bank item: World Environment Day 5 June (claims c13/c25, environment_days) and International Day of Yoga 21 June (claim c26, health_days). Both dates taught with reasons."
+    },
+    {
+      "pyq_code": "GK-SGK-008",
+      "section": "rights_days",
+      "taught": false,
+      "note": "Partly taught: Human Rights Day 10 December (c35), International Women's Day 8 March (c36) and International Mother Language Day 21 February (c39) are taught in rights_days. United Nations Day 24 October is NOT taught: no page from this book's allowed publishers (gov.in/nic.in or NCERT) stating the date could be fetched, so it is left as a disclosed gap rather than asserted from memory."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q45",
+      "section": "health_days",
+      "taught": true,
+      "note": "World Blood Donor Day 14 June (claim c32, NACO newsletter). The Landsteiner-birthday reason given in the paper's explanation is not in the fetched sources and is not taught; the date itself is taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q52",
+      "section": "health_days",
+      "taught": true,
+      "note": "World AIDS Day 1 December (claim c31, PIB backgrounder; first marked 1988 by WHO also taught)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q71",
+      "section": "person_days",
+      "taught": true,
+      "note": "National Sports Day 29 August, birth anniversary of Dhyan Chand (claims c27/c28, pmindia.gov.in Mann Ki Baat)."
+    },
+    {
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q27",
+      "section": "calendar_traps",
+      "taught": true,
+      "note": "Correct-match item: World Telecommunication Day 17 May is taught (claim c37); the other corrected pairs in the paper's explanation — World Health Day 7 April (c34) and World Environment Day 5 June (c13) — are also taught. One explanation-only fact is not taught: World Day Against Child Labour 12 June could not be sourced from an allowed publisher."
+    },
+    {
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q13",
+      "section": null,
+      "taught": false,
+      "note": "Rare Disease Day's main goal: a purpose/theme-type question. Rare Disease Day does not appear in any fetched allowed-publisher source, so neither its date nor its goal is taught in this summary chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q140",
+      "section": "health_days",
+      "taught": true,
+      "note": "World Cancer Day 4 February (claim c40: PIB Mumbai release dated 4 February 2021 describing its initiative as taken on World Cancer Day 2021). Evidence is the release's own date plus its wording; see REPORT.md."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q54",
+      "section": null,
+      "taught": false,
+      "note": "Asks the 2015 theme of Human Rights Day. The date (10 December) is taught (c35), but annual themes change every year and are deliberately not taught in this summary chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q183",
+      "section": "rights_days",
+      "taught": true,
+      "note": "World Consumer Rights Day 15 March (claim c38, Department of Consumer Affairs year-end review: celebrated on 15.03.2022)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q63",
+      "section": "environment_days",
+      "taught": true,
+      "note": "International Day for the Preservation of the Ozone Layer 16 September (claim c18). The Montreal Protocol (1987) link in the paper's explanation is not in the fetched sources and is not taught; the date is taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q51",
+      "section": null,
+      "taught": false,
+      "note": "Asks the 2017 theme of the International Day of Peace. Annual themes are not taught in this summary chapter, and the day's date (21 September) also could not be sourced from an allowed publisher."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q191",
+      "section": null,
+      "taught": false,
+      "note": "FAO day on 5 December (World Soil Day): no allowed-publisher page stating this date could be fetched, so it is not taught. The ECO-Club source does carry FAO's World Forestry Day (21 March, c07), a different day."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q92",
+      "section": null,
+      "taught": false,
+      "note": "Asks the host country of World Environment Day 2024. The date (5 June) is taught (c13/c25), but the host changes every year and year-specific hosts are not taught in this summary chapter."
+    }
+  ],
+  "STG-07": [
+    {
+      "pyq_code": "GK-SGK-009",
+      "section": "un_founding",
+      "taught": true,
+      "note": "UN officially began 24 October 1945 / UN Day: taught (NCERT leps106 timeline; MEA founding-member note). Bank item code from db/gk/static_gk.jsonl (subtopic international_orgs)."
+    },
+    {
+      "pyq_code": "GK-SGK-010",
+      "section": null,
+      "taught": false,
+      "note": "WHO founded 1948 and Geneva headquarters: WHO's role (health) is taught, but the year and headquarters are not in the NCERT/MEA/PIB sources fetched for this summary chapter. Gap disclosed; full treatment in the dedicated Organisations book."
+    },
+    {
+      "pyq_code": "GK-SGK-011",
+      "section": "trade_wto",
+      "taught": false,
+      "note": "Mixed item: WTO part is taught (India founding member since 1 January 1995, PIB), but the UNESCO Constitution adoption date (London, 16 November 1945) is not in the sources fetched for this chapter, so the MATCH as a whole is not fully taught. Gap disclosed."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q190",
+      "section": null,
+      "taught": false,
+      "note": "First Indian Chief Economist of the World Bank (2012): person/appointment fact not in the sources used; outside this summary chapter's scope."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q39",
+      "section": null,
+      "taught": false,
+      "note": "UNESCO Creative Cities Network designations: current-affairs fact, not in the sources used for this chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q75",
+      "section": null,
+      "taught": false,
+      "note": "World Bank headquarters: the Bank's creation (1944) and role are taught, but its headquarters city is not stated in the NCERT/MEA/PIB sources fetched for this chapter. Gap disclosed; Organisations book covers headquarters."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q191",
+      "section": null,
+      "taught": false,
+      "note": "FAO day on 5 December: belongs to the Important Days book, not this summary chapter; FAO facts not in the sources used here."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q108",
+      "section": null,
+      "taught": false,
+      "note": "World Bank Ease of Doing Business ranking of India: dated current-affairs figure, not taught in a static summary chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q94",
+      "section": "trade_wto",
+      "taught": true,
+      "note": "Earlier name/framework of WTO = GATT: taught via PIB (India a GATT member since 8 July 1948 and WTO founding member since 1 January 1995)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q48",
+      "section": null,
+      "taught": false,
+      "note": "BIMSTEC headquarters (Dhaka): the MEA BIMSTEC brief could not be fetched in this run and the fact is not in the other sources used, so it is not taught here. Gap disclosed; Organisations book covers it."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q142",
+      "section": null,
+      "taught": false,
+      "note": "Location of the WTO Appellate Body: not stated in the PIB/NCERT sources used (only the MC12 venue, Geneva, is sourced). Not taught; gap disclosed."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q131",
+      "section": null,
+      "taught": false,
+      "note": "BRICS full form and member count: not in the sources fetched for this chapter, and the count is time-sensitive after the 2024 expansion. Not taught here; gap disclosed."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q12",
+      "section": "regional",
+      "taught": true,
+      "note": "Non-member of SAARC: taught via the NCERT South Asia list (seven countries) plus Afghanistan joining in 2007, giving the eight members."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q25",
+      "section": null,
+      "taught": false,
+      "note": "UN Human Rights Council headquarters: the Council's creation (2005) is taught in un_organs, but its headquarters city is not in the sources used for this chapter. Gap disclosed."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q47",
+      "section": null,
+      "taught": false,
+      "note": "IUCN headquarters: IUCN does not appear in the sources used for this summary chapter. Not taught; gap disclosed."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q33",
+      "section": null,
+      "taught": false,
+      "note": "Year NATO was formed: NCERT leps104 names NATO as a US-created collective security structure but gives no founding year in the pages fetched; the year belongs with the Cold War chapter/Organisations book. Gap disclosed."
+    }
+  ]
+}

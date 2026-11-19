@@ -1,0 +1,1482 @@
+{
+  "book": "static_gk",
+  "code": "STG-01",
+  "number": 1,
+  "part": "knowledge",
+  "title": "বই ও লেখক",
+  "subtitle": "প্রাচীন গ্রন্থ থেকে আধুনিক সাহিত্য-পুরস্কার: কোন বই কার লেখা, কোন বই কেন বিখ্যাত",
+  "subtopics": [
+    "books_authors"
+  ],
+  "related_facts": [
+    "GK-SGK-201",
+    "GK-SGK-205",
+    "GK-SGK-206",
+    "GK-SGK-207",
+    "GK-SGK-208",
+    "GK-SGK-210",
+    "GK-SGK-215",
+    "GK-SGK-219"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 1 LIKELY, 0 GUESS); 1 item(s) had a second option the checker found also defensible from the claims.  Blind checker matched q34 and flagged the alternative AR option as also defensible; adjudicated and key RETAINED: R (Phule as pioneer of the low-caste protest movement) genuinely explains why Gulamgiri (1871) attacks caste injustice — a causal link, not a mere definition (NCERT claim c18 links both in one passage). Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 18 of 76 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_STG-01.json and drafts/STG-01_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/STG-01_REPORT.md.",
+    "checked_claims": 26,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "'কোন বইটির লেখক কে?' — প্রায় প্রতিটি সরকারি চাকরির পরীক্ষায় এই ধরনের প্রশ্ন থাকেই। এই অধ্যায়ে আমরা সেই বইগুলিকেই সাজিয়ে পড়ব যেগুলি সম্পর্কে সরকারি পাঠ্যবই ও সরকারি সূত্রে যাচাই করা তথ্য পাওয়া যায়: পাণিনির ব্যাকরণ থেকে শুরু করে আল-বিরুনি ও ইবন বতুতার ভ্রমণবৃত্তান্ত, আকবরের দরবারের ইতিহাস, বাংলার প্রথম আত্মজীবনী, আর শেষে সাহিত্য অকাদেমি ও জ্ঞানপীঠ পুরস্কারের মতো সাহিত্য-সম্মানের প্রাথমিক তথ্য। প্রতিটি বইয়ের সঙ্গে মনে রাখতে হবে লেখকের নাম, ভাষা আর সম্ভব হলে সময়কাল — এই তিনটি মিললেই পরীক্ষার বেশিরভাগ প্রশ্নের উত্তর হয়ে যায়।",
+    "you_will_learn": [
+      "প্রাচীন ধ্রুপদি গ্রন্থগুলি: অষ্টাধ্যায়ী, ত্রিপিটক, চরক-সুশ্রুত সংহিতা ও নাট্যশাস্ত্র — লেখক, বিষয় ও আনুমানিক কাল",
+      "মৃচ্ছকটিক, অর্থশাস্ত্র, মেগাস্থিনিসের বিবরণ ও হর্ষচরিত — ইতিহাস জানার উৎস হিসেবে এই বইগুলি",
+      "কিতাব-উল-হিন্দ ও রিহলা: দুই বিদেশি ভ্রমণকারীর বইয়ের ভাষা, বিষয় ও পার্থক্য",
+      "আকবর নামা ও আইন-ই-আকবরি: আবুল ফজলের তিন খণ্ডের গঠন",
+      "রামচরিতমানস, আমার জীবন ও গুলামগিরি: বাংলা ও সমাজ-সংস্কারের যুগের বই",
+      "বন্দে মাতরম্-এর রচয়িতা এবং নওরোজির 'Poverty and Un-British Rule in India'",
+      "সাহিত্য অকাদেমি পুরস্কার (প্রথম ১৯৫৫) ও জ্ঞানপীঠ পুরস্কার (১৯৬৫ সাল থেকে) সম্পর্কিত যাচাইকৃত তথ্য"
+    ]
+  },
+  "sections": [
+    {
+      "id": "prachin_grantha",
+      "heading": "প্রাচীন ধ্রুপদি গ্রন্থ: ব্যাকরণ, ধর্মগ্রন্থ, চিকিৎসা ও নাট্যশাস্ত্র",
+      "quick": "NCERT-র 'প্রধান গ্রন্থ-ঐতিহ্য' কালানুক্রম থেকে পরীক্ষায় সবচেয়ে বেশি আসে চারটি জোড়া: পাণিনির **অষ্টাধ্যায়ী** (সংস্কৃত ব্যাকরণ, আনুমানিক খ্রিস্টপূর্ব ৫০০), পালি ভাষার **ত্রিপিটক** (প্রাচীন বৌদ্ধ গ্রন্থ), **চরক ও সুশ্রুত সংহিতা** (চিকিৎসা, আনুমানিক খ্রিস্টীয় ১০০) এবং ভরতের **নাট্যশাস্ত্র** (নাট্যকলা, আনুমানিক খ্রিস্টীয় ৩০০)।",
+      "standard": "প্রাচীন ভারতের বইয়ের প্রশ্নে পরীক্ষক প্রায়ই NCERT-র দ্বাদশ শ্রেণির ইতিহাস বইয়ের 'প্রধান গ্রন্থ-ঐতিহ্য' (Major Textual Traditions) তালিকাটিই অনুসরণ করেন। সেই তালিকা অনুযায়ী সাজালে ছবিটি পরিষ্কার হয়।\n\nসবচেয়ে পুরনো দিক থেকে শুরু করি। আনুমানিক খ্রিস্টপূর্ব ৫০০ সালে পাণিনি রচনা করেন **অষ্টাধ্যায়ী** — এটি সংস্কৃত ব্যাকরণের গ্রন্থ। একই সময়পর্বে, আনুমানিক খ্রিস্টপূর্ব ৫০০–১০০ সালে, পালি ভাষায় রচিত হয় প্রাচীন বৌদ্ধ গ্রন্থসমূহ, যার মধ্যে রয়েছে **ত্রিপিটক**। মনে রাখো: ত্রিপিটক সংস্কৃতে নয়, পালি ভাষায় — এই ভাষার প্রশ্নটিই পরীক্ষায় ঘুরিয়ে আসে।\n\nএরপর আনুমানিক খ্রিস্টীয় ১০০ সালে আসে **চরক সংহিতা ও সুশ্রুত সংহিতা** — সংস্কৃতে লেখা চিকিৎসাবিদ্যার গ্রন্থ। 'চরক-সুশ্রুত = চিকিৎসা' এই জোড়াটি প্রায় নিশ্চিত নম্বরের। আনুমানিক খ্রিস্টীয় ৩০০ সালে ভরত রচনা করেন **নাট্যশাস্ত্র** — নাট্যকলা (dramaturgy) বিষয়ক সংস্কৃত গ্রন্থ।\n\nতালিকার পরের ধাপটি আনুমানিক খ্রিস্টীয় ৪০০–৫০০ সাল: এই সময়ে পড়ে কালিদাসের সংস্কৃত নাটকসমূহ এবং আর্যভট ও বরাহমিহিরের জ্যোতির্বিজ্ঞান ও গণিতের রচনা। খেয়াল করো, NCERT এই এন্ট্রিতে কালিদাসের কোনো নির্দিষ্ট নাটকের নাম দেয়নি — তাই এই অধ্যায়ে নির্দিষ্ট নাটকের নাম জোর করে শেখানো হয়নি।",
+      "deep": "কালানুক্রম-ভিত্তিক প্রশ্নের জন্য ক্রমটি মুখস্থ রাখো: অষ্টাধ্যায়ী (খ্রিস্টপূর্ব ~৫০০) → ত্রিপিটক-সহ প্রাচীন বৌদ্ধ গ্রন্থ (খ্রিস্টপূর্ব ~৫০০–১০০) → চরক-সুশ্রুত সংহিতা (খ্রিস্টীয় ~১০০) → নাট্যশাস্ত্র (খ্রিস্টীয় ~৩০০) → কালিদাসের নাটক ও আর্যভট-বরাহমিহিরের রচনা (খ্রিস্টীয় ~৪০০–৫০০)। তারিখগুলি সবই 'আনুমানিক' (c.) — NCERT নিজেই এই শব্দটি ব্যবহার করেছে, তাই পরীক্ষায় সাল নিয়ে একদম নির্দিষ্ট দাবি করা বিকল্প সাধারণত ভুল হয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "ভাষা নিয়ে গুলিয়ো না",
+          "body": "অষ্টাধ্যায়ী, চরক-সুশ্রুত সংহিতা ও নাট্যশাস্ত্র — তিনটিই **সংস্কৃত**; কিন্তু **ত্রিপিটক পালি** ভাষার। 'সব প্রাচীন গ্রন্থই সংস্কৃতে' — এই ধারণাই পরীক্ষার ফাঁদ।",
+          "claims": [
+            "c01",
+            "c02",
+            "c03",
+            "c04"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "id": "natok_itihas",
+      "heading": "প্রাচীন নাটক ও ইতিহাস-জীবনী গ্রন্থ",
+      "quick": "শূদ্রকের **মৃচ্ছকটিক** (আনুমানিক চতুর্থ শতক) একটি বিখ্যাত সংস্কৃত নাটক; **অর্থশাস্ত্রের** অংশবিশেষের রচয়িতা কৌটিল্য বা চাণক্য; আর বাণভট্টের **হর্ষচরিত** হল কনৌজের রাজা হর্ষবর্ধনের জীবনী। মেগাস্থিনিসের খণ্ডিত বিবরণ মৌর্যযুগ জানার আরেকটি উৎস।",
+      "standard": "এই অংশের বইগুলি শুধু সাহিত্য নয় — ইতিহাসবিদরা এগুলিকে প্রাচীন ভারত জানার **উৎস** হিসেবে ব্যবহার করেন, তাই পরীক্ষায় এদের গুরুত্ব দ্বিগুণ।\n\nপ্রথমে নাটক। NCERT বলছে, **মৃচ্ছকটিক** নাটকটি লিখেছেন **শূদ্রক** (আনুমানিক চতুর্থ শতক)। নাটকটির নায়ক চারুদত্তকে বর্ণনা করা হয়েছে একই সঙ্গে ব্রাহ্মণ ও সার্থবাহ (বণিক) হিসেবে — এই অদ্ভুত যুগ্ম পরিচয়টিই দেখায় যে সে যুগে বর্ণভিত্তিক পেশার বাঁধন সবসময় কঠোর ছিল না। WBCS-তে 'মৃচ্ছকটিকম্ কে লিখেছেন?' প্রশ্নটি সরাসরি এসেছে।\n\nএরপর রাষ্ট্রবিজ্ঞানের গ্রন্থ **অর্থশাস্ত্র**। NCERT-র ভাষায় সতর্কতা আছে: অর্থশাস্ত্রের **অংশবিশেষ** সম্ভবত রচনা করেছিলেন **কৌটিল্য বা চাণক্য**, যাঁকে ঐতিহ্যগতভাবে চন্দ্রগুপ্ত মৌর্যের মন্ত্রী বলে মনে করা হয়। পরীক্ষায় উত্তর 'কৌটিল্য'ই হবে, তবে মনে রাখো NCERT 'সম্ভবত' ও 'অংশবিশেষ' শব্দ দুটি ব্যবহার করেছে। মৌর্যযুগের আরেকটি উৎস হল **মেগাস্থিনিসের বিবরণ** — তিনি ছিলেন চন্দ্রগুপ্ত মৌর্যের দরবারে গ্রিক রাষ্ট্রদূত, আর তাঁর বিবরণ আজ টিকে আছে কেবল খণ্ডে খণ্ডে (fragments)।\n\nসবশেষে জীবনীগ্রন্থ। **হর্ষচরিত** হল কনৌজের শাসক **হর্ষবর্ধনের জীবনী**, সংস্কৃতে রচনা করেছেন তাঁর সভাকবি **বাণভট্ট** (আনুমানিক সপ্তম শতক)। 'হর্ষচরিত — বাণভট্ট' এই জোড়াটি WBCS-সহ বহু পরীক্ষায় বারবার এসেছে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "কদম্বরী প্রসঙ্গে সতর্কতা",
+          "body": "WBCS-তে 'কদম্বরী'র লেখক হিসেবে বাণভট্টের নাম দুবার এসেছে (২০১৫, ২০১৭)। কিন্তু এই অধ্যায়ের ভিত্তি-উৎস NCERT-র উদ্ধৃত পৃষ্ঠাগুলিতে কদম্বরীর উল্লেখ যাচাই করা যায়নি, তাই এখানে তা শেখানো হয়নি — পরীক্ষার চেনা উত্তরটি (বাণভট্ট) অন্য পরিচিত উৎস থেকে আলাদা করে দেখে নেওয়ার পরামর্শ দেওয়া হল।",
+          "claims": [
+            "c09"
+          ]
+        }
+      ],
+      "claims": [
+        "c06",
+        "c07",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "bhraman_britanta",
+      "heading": "ভ্রমণকারীদের বই: কিতাব-উল-হিন্দ ও রিহলা",
+      "quick": "উজবেকিস্তান থেকে আগত **আল-বিরুনি** (একাদশ শতক) আরবিতে লেখেন **কিতাব-উল-হিন্দ** (৮০ অধ্যায়); মরক্কোর **ইবন বতুতা** (চতুর্দশ শতক) আরবিতে লেখেন তাঁর ভ্রমণবৃত্তান্ত **রিহলা**। দুজনের বই-ই আরবিতে — গুলিয়ে ফেলার জায়গা হল দেশ আর শতক।",
+      "standard": "বিদেশি ভ্রমণকারীদের লেখা বই থেকে পরীক্ষায় প্রায় নিশ্চিত প্রশ্ন আসে। NCERT দ্বাদশ শ্রেণির 'ভ্রমণকারীদের চোখে' অধ্যায়ে তিনজন ভ্রমণকারীর কথা আছে, তাঁদের মধ্যে বইয়ের জন্য গুরুত্বপূর্ণ দুজন।\n\n**আল-বিরুনি** এসেছিলেন উজবেকিস্তান থেকে, একাদশ শতকে। তাঁর **কিতাব-উল-হিন্দ** আরবিতে লেখা একটি বিশাল গ্রন্থ — মোট **৮০টি অধ্যায়ে** ভাগ করা, যেখানে আছে ধর্ম ও দর্শন, উৎসব, জ্যোতির্বিজ্ঞান, রসায়ন (alchemy), আচার-আচরণ, সামাজিক জীবন, ওজন-মাপ, মূর্তিতত্ত্ব, আইন ও পরিমাপবিদ্যা (metrology)। WBCS ২০১৮-তে 'কিতাব-উল-হিন্দ কে লিখেছেন?' প্রশ্নটি এসেছিল।\n\n**ইবন বতুতা** ছিলেন মরক্কোর ভ্রমণকারী, জন্ম তাঞ্জিয়ের (Tangier) শহরে। তাঁর ভ্রমণগ্রন্থের নাম **রিহলা**, সেটিও আরবিতে লেখা, এবং তাতে চতুর্দশ শতকের উপমহাদেশের সামাজিক ও সাংস্কৃতিক জীবনের অত্যন্ত সমৃদ্ধ বিবরণ পাওয়া যায়।\n\nমনে রাখার সূত্র: দুজনের বই-ই আরবি; পার্থক্য হল — আল-বিরুনি = উজবেকিস্তান, একাদশ শতক, ৮০ অধ্যায়ের পাণ্ডিত্যপূর্ণ গ্রন্থ; ইবন বতুতা = মরক্কো, চতুর্দশ শতক, ভ্রমণের অভিজ্ঞতার বৃত্তান্ত।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "এক লাইনে দুজন",
+          "body": "আল-**বি**রুনি — **বি**শাল বই (৮০ অধ্যায়), একাদশ শতক; ইবন বতুতা — **রিহলা** মানে ভ্রমণ, চতুর্দশ শতক। দুটো বই-ই **আরবি** ভাষায়।",
+          "claims": [
+            "c10",
+            "c11",
+            "c12"
+          ]
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12"
+      ]
+    },
+    {
+      "id": "mughal_darbar",
+      "heading": "মুঘল দরবারের বই: আকবর নামা ও আইন-ই-আকবরি",
+      "quick": "আকবরের নির্দেশে তাঁর সভাসদ **আবুল ফজল** রচনা করেন তিন খণ্ডের **আকবর নামা**; এর **তৃতীয় খণ্ডই আইন-ই-আকবরি**, যেখানে আকবরের প্রশাসন, সেনাবাহিনী, রাজস্ব ও ভূগোলের বিবরণ আছে।",
+      "standard": "মুঘল যুগের বইয়ের প্রশ্ন মানেই প্রায় সবসময় এই একটি গঠন: কে লিখলেন, কার নির্দেশে, আর কোন খণ্ডে কী আছে।\n\nসম্রাট **আকবর** তাঁর ঘনিষ্ঠ বন্ধু ও সভাসদ **আবুল ফজলকে** তাঁর রাজত্বের ইতিহাস লিখতে নির্দেশ দেন। আবুল ফজল রচনা করেন **তিন খণ্ডের** ইতিহাস — **আকবর নামা**। প্রথম খণ্ডে আছে আকবরের পূর্বপুরুষদের কথা, দ্বিতীয় খণ্ডে তাঁর রাজত্বের ঘটনাবলি, আর **তৃতীয় খণ্ডটি হল আইন-ই-আকবরি**।\n\n**আইন-ই-আকবরিতে** আছে আকবরের প্রশাসন, রাজপরিবার-পরিচালনা (household), সেনাবাহিনী, রাজস্ব এবং সাম্রাজ্যের ভূগোলের বিবরণ; পাশাপাশি ভারতের মানুষের ঐতিহ্য ও সংস্কৃতির সমৃদ্ধ তথ্য। এর সবচেয়ে আকর্ষণীয় দিক হল ফসল, ফলন, মূল্য, মজুরি ও রাজস্ব সম্পর্কে এর সমৃদ্ধ **পরিসংখ্যানগত বিবরণ** — সেই কারণেই ইতিহাসবিদরা এই বইটিকে মুঘল প্রশাসন জানার প্রধান উৎস মনে করেন।",
+      "deep": "খেয়াল রাখো: আইন-ই-আকবরি আলাদা কোনো বই নয়, আকবর নামারই তৃতীয় খণ্ড — পরীক্ষায় এই ভুল বিকল্পটি প্রায়ই দেওয়া থাকে। আরেকটি প্রচলিত প্রশ্ন 'বাবর নামা' নিয়ে; এই অধ্যায়ের যাচাইকৃত উৎসগুলিতে (সপ্তম শ্রেণির NCERT) বাবর নামার বিবরণ পাওয়া যায়নি বলে সেটি এখানে শেখানো হয়নি।",
+      "boxes": [],
+      "claims": [
+        "c13",
+        "c14",
+        "c26"
+      ]
+    },
+    {
+      "id": "bangla_samaj",
+      "heading": "বাংলা ও সমাজ-সংস্কারের যুগের বই",
+      "quick": "তুলসীদাসের **রামচরিতমানস** (ষোড়শ শতক; প্রথম ছাপা সংস্করণ কলকাতা থেকে, ১৮১০); রাসসুন্দরী দেবীর **আমার জীবন** (১৮৭৬) — বাংলায় প্রকাশিত প্রথম পূর্ণাঙ্গ আত্মজীবনী; জ্যোতিবা ফুলের **গুলামগিরি** (১৮৭১) — জাতিব্যবস্থার অন্যায় নিয়ে; আর বঙ্কিমচন্দ্রের গান **বন্দে মাতরম্**।",
+      "standard": "উনবিংশ শতকে ছাপাখানা বদলে দেয় বইয়ের জগৎ — আর এই অংশের বইগুলি সেই বদলেরই ফসল।\n\n**রামচরিতমানস** তুলসীদাসের ষোড়শ শতকের রচনা। NCERT (দশম শ্রেণি, ছাপা-সংস্কৃতি অধ্যায়) জানাচ্ছে, এর **প্রথম ছাপা সংস্করণ প্রকাশিত হয় কলকাতা থেকে, ১৮১০ সালে** — অর্থাৎ বাংলার মাটিতেই এই বইয়ের ছাপা-যুগের শুরু। WBCS ২০২১-এ 'রামচরিতমানস কে লিখেছেন?' প্রশ্নটি এসেছিল।\n\nবাংলার নিজের মাটির সবচেয়ে উল্লেখযোগ্য বইটি হল **আমার জীবন**। পূর্ববঙ্গের এক অত্যন্ত রক্ষণশীল পরিবারের তরুণী বধূ **রাসসুন্দরী দেবী** রান্নাঘরের গোপনে পড়তে শেখেন; পরে তিনি লেখেন তাঁর আত্মজীবনী **আমার জীবন**, প্রকাশিত হয় **১৮৭৬ সালে**। এটি ছিল **বাংলা ভাষায় প্রকাশিত প্রথম পূর্ণাঙ্গ আত্মজীবনী** — নারীর লেখা বইয়ের ইতিহাসে এটি একটি মাইলফলক।\n\nমহারাষ্ট্রে একই সময়ে **জ্যোতিবা ফুলে** — 'নিম্নজাতি' প্রতিবাদ আন্দোলনের মারাঠা পথিকৃৎ — জাতিব্যবস্থার অন্যায় নিয়ে লেখেন তাঁর বই **গুলামগিরি** (১৮৭১)। 'গুলামগিরি' শব্দের অর্থ দাসত্ব। WBCS ২০১৮-তে এই বইয়ের লেখক নিয়ে প্রশ্ন এসেছিল।\n\nআর এই অংশের শেষ নামটি গানের: **বন্দে মাতরম্** গানটির রচয়িতা **বঙ্কিমচন্দ্র চট্টোপাধ্যায়** — রাষ্ট্রপতির জ্ঞানপীঠ-প্রদান ভাষণেও (PIB, ২০২৫) এই গানটিকে প্রায় ১৫০ বছর ধরে ভারতমাতার সন্তানদের জাগিয়ে তোলা গান বলা হয়েছে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "বাংলার গর্ব: প্রথম আত্মজীবনী",
+          "body": "**আমার জীবন** (১৮৭৬) শুধু একজন নারীর আত্মজীবনী নয় — এটি বাংলা ভাষায় প্রকাশিত **প্রথম পূর্ণাঙ্গ আত্মজীবনী**। লেখিকা রাসসুন্দরী দেবী পড়তে শিখেছিলেন সম্পূর্ণ গোপনে, রান্নাঘরে — এই পটভূমিসহ প্রশ্নটি পরীক্ষায় আসে।",
+          "claims": [
+            "c16",
+            "c17"
+          ]
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c24"
+      ]
+    },
+    {
+      "id": "puraskar",
+      "heading": "জাতীয়তাবাদী লেখা ও সাহিত্য-পুরস্কার",
+      "quick": "দাদাভাই নওরোজির **Poverty and Un-British Rule in India** ব্রিটিশ শাসনের অর্থনৈতিক প্রভাবের কঠোর সমালোচনা। **সাহিত্য অকাদেমি পুরস্কার** প্রথম দেওয়া হয় ১৯৫৫ সালে (বর্তমান অর্থমূল্য ১,০০,০০০ টাকা); **জ্ঞানপীঠ পুরস্কার** ভারতীয় জ্ঞানপীঠ ট্রাস্ট ১৯৬৫ সাল থেকে দিয়ে আসছে — ৫৮তম পুরস্কার (২০২৩) পান জগদগুরু রামভদ্রাচার্য ও গুলজার।",
+      "standard": "বই-লেখকের প্রশ্নের শেষ অংশটি আসে জাতীয় আন্দোলনের লেখা আর সাহিত্য-পুরস্কার থেকে।\n\n**দাদাভাই নওরোজির** বই **Poverty and Un-British Rule in India** ব্রিটিশ শাসনের অর্থনৈতিক প্রভাবের কঠোর (scathing) সমালোচনা করেছিল — NCERT অষ্টম শ্রেণির বইয়ে এই বইটিকে জাতীয় আন্দোলনের উদ্ভবের পটভূমিতে উল্লেখ করা হয়েছে। WBCS ২০২১-এ এই বইয়ের লেখক নিয়ে সরাসরি প্রশ্ন এসেছিল।\n\nএবার পুরস্কার। **সাহিত্য অকাদেমি পুরস্কার** শুরু হয় ১৯৫৪ সালে, আর **প্রথম পুরস্কার দেওয়া হয় ১৯৫৫ সালে**। অকাদেমির নিজের ওয়েবসাইট অনুযায়ী পুরস্কারের অর্থমূল্য শুরুর ৫,০০০ টাকা থেকে বাড়তে বাড়তে **২০০৯ সাল থেকে ১,০০,০০০ টাকা** হয়েছে। এই পুরস্কার দেওয়া হয় অকাদেমি-স্বীকৃত প্রধান ভারতীয় ভাষাগুলিতে প্রকাশিত সাহিত্যিক মর্যাদাসম্পন্ন বইয়ের জন্য।\n\n**জ্ঞানপীঠ পুরস্কার** দিয়ে থাকে ভারতীয় জ্ঞানপীঠ ট্রাস্ট, **১৯৬৫ সাল থেকে**। PIB-র বিজ্ঞপ্তি অনুযায়ী, **৫৮তম জ্ঞানপীঠ পুরস্কার** (২০২৩ সালের জন্য) রাষ্ট্রপতি দ্রৌপদী মুর্মু **১৬ মে ২০২৫** তারিখে নতুন দিল্লির বিজ্ঞান ভবনে সংস্কৃত পণ্ডিত **জগদগুরু রামভদ্রাচার্যকে** প্রদান করেন; একই পুরস্কার পেয়েছিলেন **গুলজার**, তবে তিনি অনুষ্ঠানে উপস্থিত থাকতে পারেননি। রাষ্ট্রপতি তাঁর ভাষণে জ্ঞানপীঠপ্রাপ্ত নারী লেখিকাদের মধ্যে **আশাপূর্ণা দেবী**, অমৃতা প্রীতম, মহাদেবী বর্মা, কুররাতুল-আইন-হায়দর, মহাশ্বেতা দেবী, ইন্দিরা গোস্বামী, কৃষ্ণা সোবতি ও প্রতিভা রায়ের নাম উল্লেখ করেন।",
+      "deep": "সতর্কতা: জ্ঞানপীঠের 'প্রথম' বিজেতার নাম (১৯৬৫) এই অধ্যায়ের যাচাইকৃত সরকারি উৎসগুলিতে সরাসরি পাওয়া যায়নি — PIB বিজ্ঞপ্তিটি শুধু বলে ট্রাস্টটি ১৯৬৫ সাল থেকে পুরস্কার দিয়ে আসছে। তাই প্রথম বিজেতার নাম এখানে শেখানো হয়নি; এই প্রশ্নটি এলে তা এই অধ্যায়ের বাইরের যাচাই প্রয়োজন। একইভাবে সাহিত্য অকাদেমির প্রতিষ্ঠা-তারিখ (১২ মার্চ ১৯৫৪) অকাদেমির 'আমাদের কথা' পৃষ্ঠা থেকে যাচাই করা যায়নি (পৃষ্ঠাটি এই মেশিনে খোলা যায়নি) — এখানে শুধু পুরস্কার-পৃষ্ঠার তথ্যই ব্যবহার করা হয়েছে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "১৯৫৪ বনাম ১৯৫৫",
+          "body": "সাহিত্য অকাদেমি পুরস্কারের **সূচনা ১৯৫৪**, কিন্তু **প্রথম পুরস্কার প্রদান ১৯৫৫** সালে। প্রশ্নে 'প্রথম দেওয়া হয় কবে?' থাকলে উত্তর ১৯৫৫; 'কবে থেকে শুরু?' থাকলে প্রসঙ্গ বুঝে উত্তর দিতে হবে।",
+          "claims": [
+            "c20"
+          ]
+        }
+      ],
+      "claims": [
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c25"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "রামচরিতমানসের প্রথম ছাপা সংস্করণ",
+      "when": "১৮১০",
+      "what": "তুলসীদাসের ষোড়শ শতকের রচনা রামচরিতমানসের প্রথম ছাপা সংস্করণ প্রকাশিত হয় কলকাতা থেকে।",
+      "why_it_matters": "ভারতের ছাপা-সংস্কৃতির ইতিহাসে এটি একটি প্রাথমিক মাইলফলক; পরীক্ষায় সালসহ আসে।",
+      "section": "bangla_samaj",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "title": "গুলামগিরি প্রকাশ",
+      "when": "১৮৭১",
+      "what": "জ্যোতিবা ফুলে জাতিব্যবস্থার অন্যায় নিয়ে তাঁর বই গুলামগিরি প্রকাশ করেন।",
+      "why_it_matters": "জাতি-বিরোধী লেখার অন্যতম প্রাচীন ও বিখ্যাত উদাহরণ; WBCS-তে লেখক নিয়ে প্রশ্ন এসেছে।",
+      "section": "bangla_samaj",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "title": "আমার জীবন প্রকাশ",
+      "when": "১৮৭৬",
+      "what": "রাসসুন্দরী দেবীর আত্মজীবনী আমার জীবন প্রকাশিত হয় — বাংলা ভাষায় প্রকাশিত প্রথম পূর্ণাঙ্গ আত্মজীবনী।",
+      "why_it_matters": "বাংলা গদ্য ও নারী-লেখার ইতিহাসে মাইলফলক ঘটনা।",
+      "section": "bangla_samaj",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "title": "প্রথম সাহিত্য অকাদেমি পুরস্কার প্রদান",
+      "when": "১৯৫৫",
+      "what": "১৯৫৪ সালে সূচিত সাহিত্য অকাদেমি পুরস্কার প্রথমবার দেওয়া হয়।",
+      "why_it_matters": "সাহিত্য-পুরস্কারের প্রশ্নে সবচেয়ে বেশি জিজ্ঞাসিত সাল।",
+      "section": "puraskar",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "title": "৫৮তম জ্ঞানপীঠ পুরস্কার প্রদান",
+      "when": "১৬ মে ২০২৫",
+      "what": "রাষ্ট্রপতি দ্রৌপদী মুর্মু নতুন দিল্লির বিজ্ঞান ভবনে জগদগুরু রামভদ্রাচার্যকে ৫৮তম জ্ঞানপীঠ পুরস্কার প্রদান করেন; গুলজারও একই পুরস্কারের প্রাপক ছিলেন।",
+      "why_it_matters": "সাম্প্রতিক পুরস্কারের যাচাইকৃত সরকারি (PIB) তথ্য; পুরস্কার-অধ্যায়ের হালনাগাদ উদাহরণ।",
+      "section": "puraskar",
+      "claims": [
+        "c21",
+        "c22"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "পাণিনি",
+      "when": "আনুমানিক খ্রিস্টপূর্ব ৫০০",
+      "role": "ব্যাকরণবিদ",
+      "contribution": "সংস্কৃত ব্যাকরণের গ্রন্থ অষ্টাধ্যায়ীর রচয়িতা।",
+      "section": "prachin_grantha",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "name": "কৌটিল্য (চাণক্য)",
+      "when": "মৌর্যযুগ",
+      "role": "চন্দ্রগুপ্ত মৌর্যের মন্ত্রী বলে ঐতিহ্যগতভাবে পরিচিত",
+      "contribution": "অর্থশাস্ত্রের অংশবিশেষের সম্ভাব্য রচয়িতা।",
+      "section": "natok_itihas",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "name": "বাণভট্ট",
+      "when": "আনুমানিক সপ্তম শতক",
+      "role": "হর্ষবর্ধনের সভাকবি",
+      "contribution": "সংস্কৃতে হর্ষবর্ধনের জীবনী হর্ষচরিত রচনা করেন।",
+      "section": "natok_itihas",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "name": "আল-বিরুনি",
+      "when": "একাদশ শতক",
+      "role": "উজবেকিস্তান থেকে আগত পণ্ডিত-ভ্রমণকারী",
+      "contribution": "আরবিতে ৮০ অধ্যায়ের কিতাব-উল-হিন্দ রচনা করেন।",
+      "section": "bhraman_britanta",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "name": "ইবন বতুতা",
+      "when": "চতুর্দশ শতক",
+      "role": "মরক্কোর ভ্রমণকারী, জন্ম তাঞ্জিয়েরে",
+      "contribution": "আরবিতে ভ্রমণবৃত্তান্ত রিহলা রচনা করেন।",
+      "section": "bhraman_britanta",
+      "claims": [
+        "c10",
+        "c12"
+      ]
+    },
+    {
+      "name": "আবুল ফজল",
+      "when": "ষোড়শ শতক",
+      "role": "আকবরের সভাসদ ও ঘনিষ্ঠ বন্ধু",
+      "contribution": "আকবরের নির্দেশে তিন খণ্ডের আকবর নামা রচনা করেন; তৃতীয় খণ্ড আইন-ই-আকবরি।",
+      "section": "mughal_darbar",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "name": "তুলসীদাস",
+      "when": "ষোড়শ শতক",
+      "role": "কবি",
+      "contribution": "রামচরিতমানসের রচয়িতা; বইটির প্রথম ছাপা সংস্করণ কলকাতা থেকে ১৮১০ সালে।",
+      "section": "bangla_samaj",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "name": "রাসসুন্দরী দেবী",
+      "when": "উনবিংশ শতক",
+      "role": "পূর্ববঙ্গের লেখিকা",
+      "contribution": "গোপনে পড়তে শিখে লেখেন আমার জীবন (১৮৭৬) — বাংলায় প্রকাশিত প্রথম পূর্ণাঙ্গ আত্মজীবনী।",
+      "section": "bangla_samaj",
+      "claims": [
+        "c16",
+        "c17"
+      ]
+    },
+    {
+      "name": "জ্যোতিবা ফুলে",
+      "when": "উনবিংশ শতক",
+      "role": "'নিম্নজাতি' প্রতিবাদ আন্দোলনের মারাঠা পথিকৃৎ",
+      "contribution": "জাতিব্যবস্থার অন্যায় নিয়ে গুলামগিরি (১৮৭১) রচনা করেন।",
+      "section": "bangla_samaj",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "name": "দাদাভাই নওরোজি",
+      "when": "উনবিংশ–বিংশ শতক",
+      "role": "জাতীয়তাবাদী নেতা ও লেখক",
+      "contribution": "Poverty and Un-British Rule in India বইয়ে ব্রিটিশ শাসনের অর্থনৈতিক প্রভাবের কঠোর সমালোচনা করেন।",
+      "section": "puraskar",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "name": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "when": "উনবিংশ শতক",
+      "role": "ঔপন্যাসিক",
+      "contribution": "বন্দে মাতরম্ গানটির রচয়িতা।",
+      "section": "bangla_samaj",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": -500,
+      "when": "আনুমানিক খ্রিস্টপূর্ব ৫০০",
+      "label": "পাণিনির অষ্টাধ্যায়ী — সংস্কৃত ব্যাকরণের গ্রন্থ",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 100,
+      "when": "আনুমানিক খ্রিস্টীয় ১০০",
+      "label": "চরক ও সুশ্রুত সংহিতা — চিকিৎসাবিদ্যার গ্রন্থ",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 300,
+      "when": "আনুমানিক খ্রিস্টীয় ৩০০",
+      "label": "ভরতের নাট্যশাস্ত্র — নাট্যকলার গ্রন্থ",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "sort_year": 1810,
+      "when": "১৮১০",
+      "label": "রামচরিতমানসের প্রথম ছাপা সংস্করণ কলকাতা থেকে প্রকাশিত",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "sort_year": 1871,
+      "when": "১৮৭১",
+      "label": "জ্যোতিবা ফুলের গুলামগিরি প্রকাশিত",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 1876,
+      "when": "১৮৭৬",
+      "label": "রাসসুন্দরী দেবীর আমার জীবন — বাংলার প্রথম পূর্ণাঙ্গ আত্মজীবনী",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 1955,
+      "when": "১৯৫৫",
+      "label": "প্রথম সাহিত্য অকাদেমি পুরস্কার প্রদান",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "sort_year": 2025,
+      "when": "২০২৫",
+      "label": "৫৮তম জ্ঞানপীঠ পুরস্কার প্রদান (রামভদ্রাচার্য ও গুলজার)",
+      "claims": [
+        "c21"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "ত্রিপিটক (Tripitaka)",
+      "meaning": "পালি ভাষায় রচিত প্রাচীন বৌদ্ধ গ্রন্থসমূহের সংকলন (আনুমানিক খ্রিস্টপূর্ব ৫০০–১০০)।",
+      "section": "prachin_grantha"
+    },
+    {
+      "term": "সার্থবাহ (Sarthavaha)",
+      "meaning": "বণিক বা বাণিজ্য-কাফেলার নেতা; মৃচ্ছকটিকের নায়ক চারুদত্তকে ব্রাহ্মণ ও সার্থবাহ উভয়ই বলা হয়েছে।",
+      "section": "natok_itihas"
+    },
+    {
+      "term": "রিহলা (Rihla)",
+      "meaning": "আরবি শব্দে 'ভ্রমণবৃত্তান্ত'; ইবন বতুতার ভ্রমণগ্রন্থের নাম।",
+      "section": "bhraman_britanta"
+    },
+    {
+      "term": "আইন-ই-আকবরি (Ain-i Akbari)",
+      "meaning": "আকবর নামার তৃতীয় খণ্ড; আকবরের প্রশাসন, সেনাবাহিনী, রাজস্ব ও ভূগোলের বিবরণসমৃদ্ধ গ্রন্থ।",
+      "section": "mughal_darbar"
+    },
+    {
+      "term": "গুলামগিরি (Gulamgiri)",
+      "meaning": "অর্থ 'দাসত্ব'; জ্যোতিবা ফুলের জাতিব্যবস্থা-বিরোধী বই (১৮৭১)।",
+      "section": "bangla_samaj"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "আকবরের নির্দেশ থেকে প্রশাসনিক মহাগ্রন্থ",
+      "causes": [
+        "আকবর তাঁর সভাসদ আবুল ফজলকে রাজত্বের ইতিহাস লিখতে নির্দেশ দেন"
+      ],
+      "event": "আবুল ফজল তিন খণ্ডে আকবর নামা রচনা করেন",
+      "results": [
+        "তৃতীয় খণ্ড আইন-ই-আকবরিতে প্রশাসন, সেনাবাহিনী, রাজস্ব ও ভূগোলের বিবরণ এবং ফসল-মূল্য-মজুরির পরিসংখ্যান সংরক্ষিত হয়, যা মুঘল যুগ জানার প্রধান উৎস হয়ে ওঠে"
+      ],
+      "section": "mughal_darbar",
+      "claims": [
+        "c13",
+        "c14",
+        "c26"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "লেখক–বই জোড়া: পাণিনি–অষ্টাধ্যায়ী, ভরত–নাট্যশাস্ত্র, শূদ্রক–মৃচ্ছকটিক, বাণভট্ট–হর্ষচরিত, কৌটিল্য–অর্থশাস্ত্র",
+      "section": "prachin_grantha"
+    },
+    {
+      "point": "ভাষার ফাঁদ: ত্রিপিটক পালি, কিতাব-উল-হিন্দ ও রিহলা আরবি, বাকি ধ্রুপদি গ্রন্থগুলি সংস্কৃত",
+      "section": "bhraman_britanta"
+    },
+    {
+      "point": "আইন-ই-আকবরি আকবর নামার তৃতীয় খণ্ড — আলাদা বই নয়",
+      "section": "mughal_darbar"
+    },
+    {
+      "point": "আমার জীবন (১৮৭৬) — বাংলায় প্রথম পূর্ণাঙ্গ আত্মজীবনী, লেখিকা রাসসুন্দরী দেবী",
+      "section": "bangla_samaj"
+    },
+    {
+      "point": "সাহিত্য অকাদেমি পুরস্কার প্রথম ১৯৫৫; জ্ঞানপীঠ ১৯৬৫ সাল থেকে; ৫৮তম জ্ঞানপীঠ রামভদ্রাচার্য ও গুলজার",
+      "section": "puraskar"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের বাংলা-যোগ তিনটি জায়গায় সরাসরি। এক, তুলসীদাসের **রামচরিতমানসের প্রথম ছাপা সংস্করণ প্রকাশিত হয়েছিল কলকাতা থেকে (১৮১০)** — ভারতীয় ছাপা-সংস্কৃতির শুরুতে বাংলার ভূমিকা। দুই, পূর্ববঙ্গের রাসসুন্দরী দেবীর **আমার জীবন (১৮৭৬)** বাংলা ভাষায় প্রকাশিত প্রথম পূর্ণাঙ্গ আত্মজীবনী। তিন, **বন্দে মাতরম্** গানের রচয়িতা বঙ্কিমচন্দ্র চট্টোপাধ্যায় বাংলারই ঔপন্যাসিক। এছাড়া ২০২৫ সালের জ্ঞানপীঠ-প্রদান অনুষ্ঠানে রাষ্ট্রপতির ভাষণে জ্ঞানপীঠপ্রাপ্ত নারী লেখিকাদের তালিকায় আশাপূর্ণা দেবীর নামও উল্লেখিত হয়েছে।",
+    "claims": [
+      "c15",
+      "c16",
+      "c24",
+      "c25"
+    ]
+  },
+  "quick_revision": [
+    "অষ্টাধ্যায়ী — পাণিনি — সংস্কৃত ব্যাকরণ — আনুমানিক খ্রিস্টপূর্ব ৫০০",
+    "ত্রিপিটক — পালি ভাষার প্রাচীন বৌদ্ধ গ্রন্থ",
+    "চরক ও সুশ্রুত সংহিতা — চিকিৎসাবিদ্যা — আনুমানিক খ্রিস্টীয় ১০০",
+    "নাট্যশাস্ত্র — ভরত — নাট্যকলা — আনুমানিক খ্রিস্টীয় ৩০০",
+    "মৃচ্ছকটিক — শূদ্রক — নায়ক চারুদত্ত (ব্রাহ্মণ ও সার্থবাহ)",
+    "অর্থশাস্ত্র — কৌটিল্য বা চাণক্য (অংশবিশেষ, সম্ভবত)",
+    "হর্ষচরিত — বাণভট্ট — হর্ষবর্ধনের জীবনী",
+    "কিতাব-উল-হিন্দ — আল-বিরুনি — আরবি — ৮০ অধ্যায় — একাদশ শতক",
+    "রিহলা — ইবন বতুতা — আরবি — মরক্কো — চতুর্দশ শতক",
+    "আকবর নামা — আবুল ফজল — তিন খণ্ড; তৃতীয় খণ্ড আইন-ই-আকবরি",
+    "রামচরিতমানস — তুলসীদাস — প্রথম ছাপা সংস্করণ কলকাতা, ১৮১০",
+    "আমার জীবন — রাসসুন্দরী দেবী — ১৮৭৬ — বাংলার প্রথম পূর্ণাঙ্গ আত্মজীবনী",
+    "গুলামগিরি — জ্যোতিবা ফুলে — ১৮৭১ — জাতিব্যবস্থার অন্যায়",
+    "Poverty and Un-British Rule in India — দাদাভাই নওরোজি",
+    "সাহিত্য অকাদেমি পুরস্কার প্রথম ১৯৫৫; জ্ঞানপীঠ ১৯৬৫ সাল থেকে; ৫৮তম জ্ঞানপীঠ — রামভদ্রাচার্য ও গুলজার"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Themes in Indian History Part I, Theme 3: Kinship, Caste and Class (NCERT Class XII)",
+      "class": "XII",
+      "url": "https://ncert.nic.in/textbook/pdf/lehs103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Themes in Indian History Part I, Theme 2: Kings, Farmers and Towns (NCERT Class XII)",
+      "class": "XII",
+      "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Themes in Indian History Part II, Theme 5: Through the Eyes of Travellers (NCERT Class XII)",
+      "class": "XII",
+      "url": "https://ncert.nic.in/textbook/pdf/lehs201.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Our Pasts II, Chapter 4: The Mughals (NCERT Class VII)",
+      "class": "VII",
+      "url": "https://ncert.nic.in/textbook/pdf/gess104.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "India and the Contemporary World II, Chapter 5: Print Culture and the Modern World (NCERT Class X)",
+      "class": "X",
+      "url": "https://ncert.nic.in/textbook/pdf/jess305.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Our Pasts III, Chapter 8: The Making of the National Movement: 1870s-1947 (NCERT Class VIII)",
+      "class": "VIII",
+      "url": "https://ncert.nic.in/textbook/pdf/hess208.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "Sahitya Akademi — Akademi Awards (official awards page)",
+      "url": "https://sahitya-akademi.gov.in/awards/akademi_awards.jsp",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "PIB Press Release: President of India presents 58th Jnanpith Award (Release ID 2129148, 16 May 2025)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2129148&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Panini's Ashtadhyayi, a work on Sanskrit grammar, is dated c. 500 BCE in NCERT's timeline of major textual traditions.",
+      "source": "s1",
+      "page": "p. 79 (Timeline 1)",
+      "quote": "c. 500 BCE Ashtadhyayi of Panini, a work on Sanskrit grammar"
+    },
+    {
+      "id": "c02",
+      "claim": "Early Buddhist texts including the Tripitaka were in Pali, dated c. 500-100 BCE.",
+      "source": "s1",
+      "page": "p. 79 (Timeline 1)",
+      "quote": "c. 500-100 BCE Early Buddhist texts including the Tripitaka (in Pali)"
+    },
+    {
+      "id": "c03",
+      "claim": "The Charaka and Sushruta Samhitas, works on medicine in Sanskrit, are dated c. 100 CE.",
+      "source": "s1",
+      "page": "p. 79 (Timeline 1)",
+      "quote": "c. 100 CE Charaka and Sushruta Samhitas, works on medicine (in Sanskrit)"
+    },
+    {
+      "id": "c04",
+      "claim": "The Natyashastra of Bharata, a work on dramaturgy in Sanskrit, is dated c. 300 CE.",
+      "source": "s1",
+      "page": "p. 79 (Timeline 1)",
+      "quote": "c. 300 CE Natyashastra of Bharata, a work on dramaturgy (in Sanskrit)"
+    },
+    {
+      "id": "c05",
+      "claim": "NCERT's timeline places Sanskrit plays including the works of Kalidasa, and works on astronomy and mathematics by Aryabhata and Varahamihira, at c. 400-500 CE.",
+      "source": "s1",
+      "page": "p. 79 (Timeline 1)",
+      "quote": "c. 400-500 CE Sanskrit plays including the works of Kalidasa; works on astronomy and mathematics by Aryabhata and Varahamihira (in Sanskrit)"
+    },
+    {
+      "id": "c06",
+      "claim": "The play Mrichchhakatika was written by Shudraka (c. fourth century CE); its hero Charudatta is described as both a Brahmana and a sarthavaha (merchant).",
+      "source": "s1",
+      "page": "p. 64",
+      "quote": "plays such as the Mrichchhakatika written by Shudraka (c. fourth century CE), Here, the hero Charudatta was described as both a Brahmana and a sarthavaha or merchant"
+    },
+    {
+      "id": "c07",
+      "claim": "Parts of the Arthashastra were probably composed by Kautilya or Chanakya, traditionally believed to be the minister of Chandragupta Maurya.",
+      "source": "s2",
+      "page": "p. 32",
+      "quote": "Another source that is often used is the Arthashastra, parts of which were probably composed by Kautilya or Chanakya, traditionally believed to be the minister of Chandragupta."
+    },
+    {
+      "id": "c08",
+      "claim": "The account of Megasthenes, a Greek ambassador to the court of Chandragupta Maurya, survives in fragments and is used as a source for the Mauryas.",
+      "source": "s2",
+      "page": "p. 32",
+      "quote": "such as the account of Megasthenes (a Greek ambassador to the court of Chandragupta Maurya), which survives in fragments"
+    },
+    {
+      "id": "c09",
+      "claim": "The Harshacharita is a biography of Harshavardhana, ruler of Kanauj, composed in Sanskrit by his court poet Banabhatta (c. seventh century CE).",
+      "source": "s2",
+      "page": "p. 40",
+      "quote": "The Harshacharita is a biography of Harshavardhana, the ruler of Kanauj (see Map 3), composed in Sanskrit by his court poet, Banabhatta (c. seventh century CE)."
+    },
+    {
+      "id": "c10",
+      "claim": "Al-Biruni came from Uzbekistan (eleventh century) and Ibn Battuta came from Morocco in northwestern Africa (fourteenth century).",
+      "source": "s3",
+      "page": "p. 115",
+      "quote": "focusing on the accounts of three men: Al-Biruni who came from Uzbekistan (eleventh century), Ibn Battuta who came from Morocco, in northwestern Africa (fourteenth century)"
+    },
+    {
+      "id": "c11",
+      "claim": "Al-Biruni's Kitab-ul-Hind, written in Arabic, is divided into 80 chapters on subjects including religion and philosophy, festivals, astronomy, alchemy, manners and customs, social life, weights and measures, iconography, laws and metrology.",
+      "source": "s3",
+      "page": "p. 117",
+      "quote": "Al-Biruni's Kitab-ul-Hind, written in Arabic, is simple and lucid. It is a voluminous text, divided into 80 chapters on subjects such as religion and philosophy, festivals, astronomy, alchemy, manners and customs, social life, weights and measures, iconography, laws and metrology."
+    },
+    {
+      "id": "c12",
+      "claim": "Ibn Battuta's book of travels, called Rihla, was written in Arabic and describes social and cultural life in the subcontinent in the fourteenth century; this Moroccan traveller was born in Tangier.",
+      "source": "s3",
+      "page": "p. 118",
+      "quote": "Ibn Battuta's book of travels, called Rihla, written in Arabic, provides extremely rich and interesting details about the social and cultural life in the subcontinent in the fourteenth century. This Moroccan traveller was born in Tangier"
+    },
+    {
+      "id": "c13",
+      "claim": "At Akbar's order, Abul Fazl wrote a three-volume history of Akbar's reign titled Akbar Nama; the first volume dealt with Akbar's ancestors, the second with the events of his reign, and the third volume is the Ain-i Akbari.",
+      "source": "s4",
+      "page": "p. 43",
+      "quote": "Akbar ordered one of his close friends and courtiers, Abul Fazl, to write a history of his reign. Abul Fazl wrote a threevolume history of Akbar's reign, titled Akbar Nama. The first volume dealt with Akbar's ancestors and the second volume recorded the events of Akbar's reign. The third volume is the Aini Akbari."
+    },
+    {
+      "id": "c14",
+      "claim": "The Ain-i Akbari deals with Akbar's administration, household, army, revenues and the geography of his empire, and gives details of the traditions and culture of the people of India.",
+      "source": "s4",
+      "page": "p. 43",
+      "quote": "It deals with Akbar's administration, household, army, the revenues and the geography of his empire. It also provides rich details about the traditions and culture of the people living in India."
+    },
+    {
+      "id": "c26",
+      "claim": "The Ain-i Akbari is noted for its rich statistical details about crops, yields, prices, wages and revenues.",
+      "source": "s4",
+      "page": "p. 43",
+      "quote": "The most interesting aspect about the Aini Akbari is its rich statistical details about things as diverse as crops, yields, prices, wages and revenues."
+    },
+    {
+      "id": "c15",
+      "claim": "The Ramcharitmanas of Tulsidas is a sixteenth-century text whose first printed edition came out from Calcutta in 1810.",
+      "source": "s5",
+      "page": "p. 121",
+      "quote": "the Ramcharitmanas of Tulsidas, a sixteenthcentury text, came out from Calcutta in 1810"
+    },
+    {
+      "id": "c16",
+      "claim": "Rashsundari Debi's autobiography Amar Jiban was published in 1876; it was the first full-length autobiography published in the Bengali language.",
+      "source": "s5",
+      "page": "p. 123",
+      "quote": "Later, she wrote her autobiography Amar Jiban which was published in 1876. It was the first fulllength autobiography published in the Bengali language."
+    },
+    {
+      "id": "c17",
+      "claim": "Rashsundari Debi of East Bengal, a young married girl in a very orthodox household, learnt to read in the secrecy of her kitchen.",
+      "source": "s5",
+      "page": "p. 123",
+      "quote": "In East Bengal, in the early nineteenth century, Rashsundari Debi, a young married girl in a very orthodox household, learnt to read in the secrecy of her kitchen."
+    },
+    {
+      "id": "c18",
+      "claim": "Jyotiba Phule, the Maratha pioneer of 'low caste' protest movements, wrote about the injustices of the caste system in his Gulamgiri (1871).",
+      "source": "s5",
+      "page": "p. 126",
+      "quote": "Jyotiba Phule, the Maratha pioneer of 'low caste' protest movements, wrote about the injustices of the caste system in his Gulamgiri (1871)."
+    },
+    {
+      "id": "c19",
+      "claim": "Dadabhai Naoroji's book Poverty and Un-British Rule in India offered a scathing criticism of the economic impact of British rule.",
+      "source": "s6",
+      "page": "p. 95",
+      "quote": "Naoroji's book Poverty and Un-British Rule in India offered a scathing criticism of the economic impact of British rule."
+    },
+    {
+      "id": "c20",
+      "claim": "The Sahitya Akademi Award began at its inception in 1954; the first Awards were given in 1955; the award amount rose from Rs 5,000 to Rs 1,00,000 from 2009.",
+      "source": "s7",
+      "page": "awards page",
+      "quote": "Every year since its inception in 1954, the Sahitya Akademi Award prizes to the most outstanding books of literary merit published in any of the major Indian languages recognised by the Akademi. The award amount, which was Rs.5,000 since inception, had been enhanced to Rs.10,000 from 1983, Rs.25,000 from 1988, Rs.40,000 from 2001, Rs.50,000 from 2003 and is now Rs.1,00,000 from 2009. The first Awards were given in 1955."
+    },
+    {
+      "id": "c21",
+      "claim": "President Droupadi Murmu conferred the 58th Jnanpith Award on Sanskrit scholar Jagadguru Rambhadracharya at Vigyan Bhavan, New Delhi, on May 16, 2025.",
+      "source": "s8",
+      "page": "press release",
+      "quote": "The President of India, Smt Droupadi Murmu conferred the 58th Jnanpith Award on Sanskrit scholar Jagadguru Rambhadracharya Ji at a function held at Vigyan Bhavan in New Delhi today (May 16, 2025)."
+    },
+    {
+      "id": "c22",
+      "claim": "Gulzar also received the Jnanpith Award (58th) but could not attend the award ceremony.",
+      "source": "s8",
+      "page": "press release",
+      "quote": "She also congratulated Gulzar for the Jnanpith Award who could not attend the Award ceremony."
+    },
+    {
+      "id": "c23",
+      "claim": "The Bharatiya Jnanpith Trust has been awarding outstanding litterateurs of various Indian languages since 1965.",
+      "source": "s8",
+      "page": "press release",
+      "quote": "The President praised the Bharatiya Jnanpith Trust for awarding outstanding litterateurs of various Indian languages since 1965."
+    },
+    {
+      "id": "c24",
+      "claim": "The song 'Vande Mataram' was composed by Bankim Chandra Chattopadhyay.",
+      "source": "s8",
+      "page": "press release",
+      "quote": "The song 'Vande Mataram' composed by Bankim Chandra Chattopadhyay has been awakening the children of Mother India for almost 150 years, and will always do so."
+    },
+    {
+      "id": "c25",
+      "claim": "The President named Ashapurna Devi, Amrita Pritam, Mahadevi Verma, Qurratul-Ain-Haider, Mahasweta Devi, Indira Goswami, Krishna Sobti and Pratibha Ray as Jnanpith Awardee women writers.",
+      "source": "s8",
+      "page": "press release",
+      "quote": "The President said that Jnanpith Awardee women writers like Ashapurna Devi, Amrita Pritam, Mahadevi Verma, Qurratul-Ain-Haider, Mahasweta Devi, Indira Goswami, Krishna Sobti and Pratibha Ray have observed and experienced Indian tradition and society with special sensitivity and have enriched our literature."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "prachin_grantha",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'অষ্টাধ্যায়ী' গ্রন্থের রচয়িতা কে?",
+      "a": "পাণিনি",
+      "w": [
+        "কৌটিল্য",
+        "ভরত",
+        "শূদ্রক"
+      ],
+      "e": "অষ্টাধ্যায়ী পাণিনির রচনা — সংস্কৃত ব্যাকরণের গ্রন্থ (আনুমানিক খ্রিস্টপূর্ব ৫০০)। কৌটিল্য অর্থশাস্ত্রের, ভরত নাট্যশাস্ত্রের এবং শূদ্রক মৃচ্ছকটিকের লেখক।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "prachin_grantha",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'ত্রিপিটক' কোন ভাষায় রচিত প্রাচীন বৌদ্ধ গ্রন্থসমূহের অন্তর্গত?",
+      "a": "পালি",
+      "w": [
+        "সংস্কৃত",
+        "আরবি",
+        "ফারসি"
+      ],
+      "e": "NCERT-র কালানুক্রম অনুযায়ী ত্রিপিটকসহ প্রাচীন বৌদ্ধ গ্রন্থগুলি পালি ভাষায় (আনুমানিক খ্রিস্টপূর্ব ৫০০–১০০)। সংস্কৃত ছিল ধ্রুপদি গ্রন্থগুলির ভাষা, কিন্তু ত্রিপিটকের নয়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "prachin_grantha",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'নাট্যশাস্ত্র'-এর রচয়িতা কে?",
+      "a": "ভরত",
+      "w": [
+        "পাণিনি",
+        "বাণভট্ট",
+        "কালিদাস"
+      ],
+      "e": "নাট্যশাস্ত্র ভরতের রচনা — নাট্যকলা বিষয়ক সংস্কৃত গ্রন্থ (আনুমানিক খ্রিস্টীয় ৩০০)।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "prachin_grantha",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চরক ও সুশ্রুত সংহিতা কোন বিষয়ের গ্রন্থ?",
+      "a": "চিকিৎসাবিদ্যা",
+      "w": [
+        "ব্যাকরণ",
+        "নাট্যকলা",
+        "জ্যোতির্বিজ্ঞান"
+      ],
+      "e": "চরক ও সুশ্রুত সংহিতা সংস্কৃতে লেখা চিকিৎসাবিদ্যার গ্রন্থ (আনুমানিক খ্রিস্টীয় ১০০)। ব্যাকরণের গ্রন্থ অষ্টাধ্যায়ী, নাট্যকলার গ্রন্থ নাট্যশাস্ত্র।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "prachin_grantha",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NCERT-র কালানুক্রম অনুযায়ী 'অষ্টাধ্যায়ী' আনুমানিক কোন সময়ের রচনা?",
+      "a": "খ্রিস্টপূর্ব প্রায় ৫০০",
+      "w": [
+        "খ্রিস্টীয় প্রায় ১০০",
+        "খ্রিস্টীয় প্রায় ৩০০",
+        "খ্রিস্টীয় প্রায় ৪০০–৫০০"
+      ],
+      "e": "NCERT অষ্টাধ্যায়ীকে আনুমানিক খ্রিস্টপূর্ব ৫০০ সালে রেখেছে। খ্রিস্টীয় ১০০ চরক-সুশ্রুত সংহিতার এবং খ্রিস্টীয় ৩০০ নাট্যশাস্ত্রের আনুমানিক কাল।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "prachin_grantha",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. ত্রিপিটক পালি ভাষায় রচিত প্রাচীন বৌদ্ধ গ্রন্থ।\n২. নাট্যশাস্ত্রের আনুমানিক রচনাকাল খ্রিস্টীয় ৩০০ সাল।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটি বিবৃতিই সঠিক: NCERT ত্রিপিটককে পালি ভাষার প্রাচীন বৌদ্ধ গ্রন্থ (খ্রিস্টপূর্ব ~৫০০–১০০) এবং নাট্যশাস্ত্রকে আনুমানিক খ্রিস্টীয় ৩০০ সালের রচনা বলেছে।",
+      "claims": [
+        "c02",
+        "c04"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "prachin_grantha",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "নিম্নলিখিত গ্রন্থগুলিকে কালানুক্রমে (আগেরটি আগে) সাজাও:\n১. নাট্যশাস্ত্র\n২. অষ্টাধ্যায়ী\n৩. চরক ও সুশ্রুত সংহিতা\n৪. ত্রিপিটকসহ প্রাচীন বৌদ্ধ গ্রন্থ",
+      "a": "২, ৪, ৩, ১",
+      "w": [
+        "৪, ২, ১, ৩",
+        "২, ৩, ৪, ১",
+        "১, ৩, ২, ৪"
+      ],
+      "e": "NCERT-র কাল: অষ্টাধ্যায়ী খ্রিস্টপূর্ব ~৫০০ → ত্রিপিটক খ্রিস্টপূর্ব ~৫০০–১০০ → চরক-সুশ্রুত সংহিতা খ্রিস্টীয় ~১০০ → নাট্যশাস্ত্র খ্রিস্টীয় ~৩০০। তাই ক্রম ২, ৪, ৩, ১।",
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "natok_itihas",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'মৃচ্ছকটিক' নাটকের রচয়িতা কে?",
+      "a": "শূদ্রক",
+      "w": [
+        "কালিদাস",
+        "ভরত",
+        "বাণভট্ট"
+      ],
+      "e": "মৃচ্ছকটিক শূদ্রকের রচনা (আনুমানিক চতুর্থ শতক)।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "natok_itihas",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'হর্ষচরিত' কার জীবনীগ্রন্থ?",
+      "a": "কনৌজের শাসক হর্ষবর্ধনের",
+      "w": [
+        "চন্দ্রগুপ্ত মৌর্যের",
+        "সম্রাট আকবরের",
+        "বাবরের"
+      ],
+      "e": "হর্ষচরিত কনৌজের শাসক হর্ষবর্ধনের জীবনী, রচয়িতা তাঁর সভাকবি বাণভট্ট।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "natok_itihas",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'অর্থশাস্ত্র'-এর অংশবিশেষের রচয়িতা হিসেবে ঐতিহ্যগতভাবে কাকে ধরা হয়?",
+      "a": "কৌটিল্য বা চাণক্যকে",
+      "w": [
+        "মেগাস্থিনিসকে",
+        "পাণিনিকে",
+        "আবুল ফজলকে"
+      ],
+      "e": "NCERT অনুযায়ী অর্থশাস্ত্রের অংশবিশেষ সম্ভবত কৌটিল্য বা চাণক্যের রচনা; তাঁকে ঐতিহ্যগতভাবে চন্দ্রগুপ্ত মৌর্যের মন্ত্রী মনে করা হয়।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "natok_itihas",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'হর্ষচরিত' রচনা করেন—",
+      "a": "বাণভট্ট",
+      "w": [
+        "শূদ্রক",
+        "কৌটিল্য",
+        "আল-বিরুনি"
+      ],
+      "e": "হর্ষচরিতের রচয়িতা হর্ষবর্ধনের সভাকবি বাণভট্ট (আনুমানিক সপ্তম শতক), গ্রন্থটি সংস্কৃতে লেখা।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "natok_itihas",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মেগাস্থিনিস কে ছিলেন?",
+      "a": "চন্দ্রগুপ্ত মৌর্যের দরবারে গ্রিক রাষ্ট্রদূত",
+      "w": [
+        "হর্ষবর্ধনের সভাকবি",
+        "মরক্কোর ভ্রমণকারী",
+        "আকবরের দরবারের ইতিহাসবিদ"
+      ],
+      "e": "মেগাস্থিনিস ছিলেন চন্দ্রগুপ্ত মৌর্যের দরবারে গ্রিক রাষ্ট্রদূত; তাঁর বিবরণ খণ্ডিত আকারে টিকে আছে এবং মৌর্যযুগের উৎস হিসেবে ব্যবহৃত হয়। সভাকবি ছিলেন বাণভট্ট, মরক্কোর ভ্রমণকারী ইবন বতুতা।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "natok_itihas",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'মৃচ্ছকটিক' নাটকের নায়ক চারুদত্তকে NCERT কীভাবে বর্ণনা করেছে?",
+      "a": "ব্রাহ্মণ ও সার্থবাহ (বণিক) — উভয়ই",
+      "w": [
+        "শুধুমাত্র রাজা হিসেবে",
+        "শুধুমাত্র সৈনিক হিসেবে",
+        "গ্রিক রাষ্ট্রদূত হিসেবে"
+      ],
+      "e": "NCERT বলছে, মৃচ্ছকটিকের নায়ক চারুদত্তকে ব্রাহ্মণ ও সার্থবাহ (বণিক) উভয় হিসেবেই বর্ণনা করা হয়েছে।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "natok_itihas",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "লেখক/ব্যক্তি ও গ্রন্থের সঠিক মিল বাছাই করো:\nA. অর্থশাস্ত্র\nB. হর্ষচরিত\nC. মৃচ্ছকটিক\nD. মেগাস্থিনিসের বিবরণ\n১. বাণভট্ট\n২. শূদ্রক\n৩. কৌটিল্য বা চাণক্য\n৪. মৌর্যযুগের উৎস হিসেবে ব্যবহৃত খণ্ডিত বিবরণ",
+      "a": "A-৩, B-১, C-২, D-৪",
+      "w": [
+        "A-১, B-৩, C-৪, D-২",
+        "A-৩, B-২, C-১, D-৪",
+        "A-৪, B-১, C-২, D-৩"
+      ],
+      "e": "অর্থশাস্ত্র–কৌটিল্য/চাণক্য (৩), হর্ষচরিত–বাণভট্ট (১), মৃচ্ছকটিক–শূদ্রক (২), মেগাস্থিনিসের বিবরণ–খণ্ডিত আকারে টিকে থাকা মৌর্য-উৎস (৪)।",
+      "claims": [
+        "c06",
+        "c07",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "bhraman_britanta",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'কিতাব-উল-হিন্দ' গ্রন্থের লেখক কে?",
+      "a": "আল-বিরুনি",
+      "w": [
+        "ইবন বতুতা",
+        "আবুল ফজল",
+        "বাণভট্ট"
+      ],
+      "e": "কিতাব-উল-হিন্দ আল-বিরুনির রচনা। ইবন বতুতার বই রিহলা, আবুল ফজলের আকবর নামা।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "bhraman_britanta",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ইবন বতুতার ভ্রমণবৃত্তান্তের নাম কী?",
+      "a": "রিহলা",
+      "w": [
+        "কিতাব-উল-হিন্দ",
+        "আইন-ই-আকবরি",
+        "হর্ষচরিত"
+      ],
+      "e": "ইবন বতুতার ভ্রমণগ্রন্থের নাম রিহলা। কিতাব-উল-হিন্দ আল-বিরুনির, আইন-ই-আকবরি আবুল ফজলের।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "bhraman_britanta",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আল-বিরুনি কোন দেশ থেকে এসেছিলেন?",
+      "a": "উজবেকিস্তান",
+      "w": [
+        "মরক্কো",
+        "চীন",
+        "গ্রিস"
+      ],
+      "e": "NCERT অনুযায়ী আল-বিরুনি এসেছিলেন উজবেকিস্তান থেকে (একাদশ শতক); মরক্কো থেকে এসেছিলেন ইবন বতুতা।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "bhraman_britanta",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'কিতাব-উল-হিন্দ' কোন ভাষায় লেখা?",
+      "a": "আরবি",
+      "w": [
+        "ফারসি",
+        "সংস্কৃত",
+        "তুর্কি"
+      ],
+      "e": "কিতাব-উল-হিন্দ আরবিতে লেখা। ইবন বতুতার রিহলাও আরবিতে — দুটি বইয়ের ভাষাই এক, এটি মনে রাখা জরুরি।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "bhraman_britanta",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'কিতাব-উল-হিন্দ' মোট কয়টি অধ্যায়ে বিভক্ত?",
+      "a": "৮০টি",
+      "w": [
+        "৪০টি",
+        "১০০টি",
+        "১২টি"
+      ],
+      "e": "কিতাব-উল-হিন্দ ৮০টি অধ্যায়ে বিভক্ত — ধর্ম-দর্শন, উৎসব, জ্যোতির্বিজ্ঞান, সামাজিক জীবন, আইন প্রভৃতি বিষয়ে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "bhraman_britanta",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ইবন বতুতা সম্পর্কে কোন বিবৃতিটি সঠিক?",
+      "a": "তিনি মরক্কোর ভ্রমণকারী, জন্ম তাঞ্জিয়েরে",
+      "w": [
+        "তিনি উজবেকিস্তান থেকে এসেছিলেন",
+        "তিনি আকবরের সমসাময়িক ছিলেন",
+        "তিনি চন্দ্রগুপ্তের দরবারে গ্রিক রাষ্ট্রদূত ছিলেন"
+      ],
+      "e": "ইবন বতুতা মরক্কোর ভ্রমণকারী, জন্ম তাঞ্জিয়েরে; তাঁর রিহলা চতুর্দশ শতকের বিবরণ দেয়। উজবেকিস্তান থেকে এসেছিলেন আল-বিরুনি, গ্রিক রাষ্ট্রদূত ছিলেন মেগাস্থিনিস।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "bhraman_britanta",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিম্নলিখিত জোড়াগুলির মধ্যে কোনটি সঠিকভাবে মিলেছে?",
+      "a": "আল-বিরুনি — কিতাব-উল-হিন্দ",
+      "w": [
+        "ইবন বতুতা — কিতাব-উল-হিন্দ",
+        "আল-বিরুনি — রিহলা",
+        "ইবন বতুতা — আইন-ই-আকবরি"
+      ],
+      "e": "কিতাব-উল-হিন্দ আল-বিরুনির এবং রিহলা ইবন বতুতার বই; আইন-ই-আকবরি আবুল ফজলের রচনা। তাই সঠিক জোড়া শুধু প্রথমটি।",
+      "claims": [
+        "c11",
+        "c12"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "mughal_darbar",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'আকবর নামা' কে রচনা করেন?",
+      "a": "আবুল ফজল",
+      "w": [
+        "বাবর",
+        "টোডর মল",
+        "বাণভট্ট"
+      ],
+      "e": "আকবর নামা রচনা করেন আকবরের সভাসদ আবুল ফজল, সম্রাটের নির্দেশে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "mughal_darbar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'আইন-ই-আকবরি' কোন গ্রন্থের অংশ?",
+      "a": "আকবর নামার তৃতীয় খণ্ড",
+      "w": [
+        "বাবর নামার শেষ খণ্ড",
+        "হর্ষচরিতের পরিশিষ্ট",
+        "কিতাব-উল-হিন্দের একটি অধ্যায়"
+      ],
+      "e": "আইন-ই-আকবরি আলাদা বই নয় — এটি আবুল ফজলের আকবর নামার তৃতীয় খণ্ড।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "mughal_darbar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'আকবর নামা' মোট কয়টি খণ্ডে রচিত?",
+      "a": "তিন খণ্ডে",
+      "w": [
+        "দুই খণ্ডে",
+        "পাঁচ খণ্ডে",
+        "আশি খণ্ডে"
+      ],
+      "e": "আকবর নামা তিন খণ্ডের: প্রথমে পূর্বপুরুষ, দ্বিতীয়ে রাজত্বের ঘটনা, তৃতীয়ে আইন-ই-আকবরি। 'আশি' সংখ্যাটি কিতাব-উল-হিন্দের অধ্যায়সংখ্যা — গুলিয়ো না।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "mughal_darbar",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'আইন-ই-আকবরি'-তে নিচের কোন বিষয়গুলির বিবরণ আছে?",
+      "a": "আকবরের প্রশাসন, সেনাবাহিনী, রাজস্ব ও সাম্রাজ্যের ভূগোল",
+      "w": [
+        "শুধুমাত্র যুদ্ধের বিবরণ",
+        "শুধুমাত্র কবিতার সংকলন",
+        "চতুর্দশ শতকের ভ্রমণবর্ণনা"
+      ],
+      "e": "আইন-ই-আকবরিতে আকবরের প্রশাসন, রাজপরিবার-পরিচালনা, সেনাবাহিনী, রাজস্ব ও ভূগোলের বিবরণ আছে। ভ্রমণবর্ণনা রিহলার বিষয়।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "mughal_darbar",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'আকবর নামা' রচনার নির্দেশ দিয়েছিলেন—",
+      "a": "সম্রাট আকবর নিজে",
+      "w": [
+        "জাহাঙ্গির",
+        "শাহজাহান",
+        "ঔরঙ্গজীব"
+      ],
+      "e": "আকবর তাঁর ঘনিষ্ঠ বন্ধু ও সভাসদ আবুল ফজলকে নিজের রাজত্বের ইতিহাস লিখতে নির্দেশ দেন — সেই নির্দেশেই আকবর নামা রচিত হয়।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "mughal_darbar",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. আকবর নামার প্রথম খণ্ডে আকবরের পূর্বপুরুষদের কথা আছে।\n২. আইন-ই-আকবরির সবচেয়ে আকর্ষণীয় দিক হল ফসল, ফলন, মূল্য, মজুরি ও রাজস্বের সমৃদ্ধ পরিসংখ্যানগত বিবরণ।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটি বিবৃতিই সঠিক: NCERT (সপ্তম শ্রেণি) অনুযায়ী আকবর নামার প্রথম খণ্ড পূর্বপুরুষদের নিয়ে, আর আইন-ই-আকবরির পরিসংখ্যানগত বিবরণই এর সবচেয়ে আকর্ষণীয় দিক।",
+      "claims": [
+        "c13",
+        "c26"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "bangla_samaj",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'রামচরিতমানস'-এর রচয়িতা কে?",
+      "a": "তুলসীদাস",
+      "w": [
+        "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+        "রাসসুন্দরী দেবী",
+        "জ্যোতিবা ফুলে"
+      ],
+      "e": "রামচরিতমানস তুলসীদাসের ষোড়শ শতকের রচনা।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "bangla_samaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বাংলা ভাষায় প্রকাশিত প্রথম পূর্ণাঙ্গ আত্মজীবনী কোনটি?",
+      "a": "আমার জীবন",
+      "w": [
+        "গুলামগিরি",
+        "রামচরিতমানস",
+        "কিতাব-উল-হিন্দ"
+      ],
+      "e": "রাসসুন্দরী দেবীর আমার জীবন (১৮৭৬) বাংলা ভাষায় প্রকাশিত প্রথম পূর্ণাঙ্গ আত্মজীবনী।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "bangla_samaj",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'গুলামগিরি' গ্রন্থের লেখক কে?",
+      "a": "জ্যোতিবা ফুলে",
+      "w": [
+        "দাদাভাই নওরোজি",
+        "তুলসীদাস",
+        "বাণভট্ট"
+      ],
+      "e": "গুলামগিরি (১৮৭১) জ্যোতিবা ফুলের রচনা — জাতিব্যবস্থার অন্যায় নিয়ে লেখা।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "bangla_samaj",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'আমার জীবন' কত সালে প্রকাশিত হয়?",
+      "a": "১৮৭৬",
+      "w": [
+        "১৮১০",
+        "১৮৭১",
+        "১৯৫৫"
+      ],
+      "e": "আমার জীবন প্রকাশিত হয় ১৮৭৬ সালে। ১৮১০ রামচরিতমানসের প্রথম ছাপা সংস্করণের, ১৮৭১ গুলামগিরির এবং ১৯৫৫ প্রথম সাহিত্য অকাদেমি পুরস্কারের সাল।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "bangla_samaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'বন্দে মাতরম্' গানটির রচয়িতা কে?",
+      "a": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+      "w": [
+        "দাদাভাই নওরোজি",
+        "রাসসুন্দরী দেবী",
+        "আবুল ফজল"
+      ],
+      "e": "বন্দে মাতরম্ গানটির রচয়িতা বঙ্কিমচন্দ্র চট্টোপাধ্যায় — PIB-র জ্ঞানপীঠ-প্রদান বিজ্ঞপ্তিতেও এই গানটিকে তাঁর রচনা বলা হয়েছে।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "bangla_samaj",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "রাসসুন্দরী দেবী সম্পর্কে কোন বিবৃতিটি সঠিক?",
+      "a": "পূর্ববঙ্গের এক রক্ষণশীল পরিবারে তিনি রান্নাঘরের গোপনে পড়তে শেখেন",
+      "w": [
+        "তিনি মুঘল দরবারের লেখিকা ছিলেন",
+        "তিনি সংস্কৃতে হর্ষবর্ধনের জীবনী লেখেন",
+        "তিনি মরক্কো থেকে ভারতে এসেছিলেন"
+      ],
+      "e": "NCERT অনুযায়ী পূর্ববঙ্গের রাসসুন্দরী দেবী অত্যন্ত রক্ষণশীল পরিবারে রান্নাঘরের গোপনে পড়তে শেখেন এবং পরে আমার জীবন লেখেন। হর্ষবর্ধনের জীবনী লেখেন বাণভট্ট; মরক্কো থেকে এসেছিলেন ইবন বতুতা।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "bangla_samaj",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**বিবৃতি (A):** 'গুলামগিরি' (১৮৭১) জাতিব্যবস্থার অন্যায় নিয়ে লেখা একটি বই।\n\n**কারণ (R):** জ্যোতিবা ফুলে ছিলেন 'নিম্নজাতি' প্রতিবাদ আন্দোলনের মারাঠা পথিকৃৎ।",
+      "a": "A ও R উভয়ই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, কিন্তু R ভুল",
+        "A ভুল, কিন্তু R সঠিক"
+      ],
+      "e": "NCERT অনুযায়ী জ্যোতিবা ফুলে ছিলেন 'নিম্নজাতি' প্রতিবাদ আন্দোলনের মারাঠা পথিকৃৎ এবং তিনি জাতিব্যবস্থার অন্যায় নিয়ে গুলামগিরি (১৮৭১) লেখেন — অর্থাৎ তাঁর আন্দোলনিক ভূমিকাই বইটির বিষয়বস্তুর ব্যাখ্যা।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "puraskar",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সাহিত্য অকাদেমি পুরস্কার প্রথম কত সালে দেওয়া হয়?",
+      "a": "১৯৫৫",
+      "w": [
+        "১৯৫৪",
+        "১৯৬৫",
+        "২০০৯"
+      ],
+      "e": "পুরস্কারের সূচনা ১৯৫৪ সালে হলেও প্রথম পুরস্কার দেওয়া হয় ১৯৫৫ সালে — অকাদেমির নিজের ওয়েবসাইট অনুযায়ী।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "puraskar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "৫৮তম জ্ঞানপীঠ পুরস্কার (২০২৩ সালের জন্য) সংস্কৃত সাহিত্যের জন্য কে পান?",
+      "a": "জগদগুরু রামভদ্রাচার্য",
+      "w": [
+        "গুলজার",
+        "আশাপূর্ণা দেবী",
+        "মহাদেবী বর্মা"
+      ],
+      "e": "PIB অনুযায়ী রাষ্ট্রপতি দ্রৌপদী মুর্মু ১৬ মে ২০২৫-এ সংস্কৃত পণ্ডিত জগদগুরু রামভদ্রাচার্যকে ৫৮তম জ্ঞানপীঠ পুরস্কার প্রদান করেন। গুলজারও একই পুরস্কারের প্রাপক, তবে তিনি সংস্কৃতের জন্য নন।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "puraskar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২০০৯ সাল থেকে সাহিত্য অকাদেমি পুরস্কারের অর্থমূল্য কত?",
+      "a": "১,০০,০০০ টাকা",
+      "w": [
+        "৫,০০০ টাকা",
+        "২৫,০০০ টাকা",
+        "৫০,০০০ টাকা"
+      ],
+      "e": "শুরুর ৫,০০০ টাকা থেকে বাড়তে বাড়তে পুরস্কারের অর্থমূল্য ২০০৯ সাল থেকে ১,০০,০০০ টাকা — অকাদেমির পুরস্কার-পৃষ্ঠা অনুযায়ী।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "puraskar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'Poverty and Un-British Rule in India' বইটির লেখক কে?",
+      "a": "দাদাভাই নওরোজি",
+      "w": [
+        "জ্যোতিবা ফুলে",
+        "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+        "আবুল ফজল"
+      ],
+      "e": "বইটি দাদাভাই নওরোজির; এতে ব্রিটিশ শাসনের অর্থনৈতিক প্রভাবের কঠোর সমালোচনা করা হয়েছিল।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "puraskar",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতীয় জ্ঞানপীঠ ট্রাস্ট কত সাল থেকে বিভিন্ন ভারতীয় ভাষার বিশিষ্ট সাহিত্যিকদের পুরস্কৃত করে আসছে?",
+      "a": "১৯৬৫",
+      "w": [
+        "১৯৫৪",
+        "১৯৫৫",
+        "২০২৫"
+      ],
+      "e": "PIB বিজ্ঞপ্তিতে রাষ্ট্রপতি ভারতীয় জ্ঞানপীঠ ট্রাস্টের প্রশংসা করেছেন ১৯৬৫ সাল থেকে বিভিন্ন ভারতীয় ভাষার বিশিষ্ট সাহিত্যিকদের পুরস্কৃত করার জন্য। ১৯৫৫ হল সাহিত্য অকাদেমি পুরস্কারের প্রথম প্রদানের সাল।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "puraskar",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "৫৮তম জ্ঞানপীঠ পুরস্কার প্রদান অনুষ্ঠান সম্পর্কে কোন বিবৃতিটি সঠিক?",
+      "a": "রাষ্ট্রপতি দ্রৌপদী মুর্মু ১৬ মে ২০২৫-এ নতুন দিল্লির বিজ্ঞান ভবনে পুরস্কারটি প্রদান করেন",
+      "w": [
+        "পুরস্কারটি কলকাতায় প্রদান করা হয়",
+        "পুরস্কারটি ১৯৬৫ সালে প্রদান করা হয়",
+        "অনুষ্ঠানে গুলজার নিজে উপস্থিত থেকে পুরস্কার গ্রহণ করেন"
+      ],
+      "e": "PIB অনুযায়ী অনুষ্ঠানটি হয় নতুন দিল্লির বিজ্ঞান ভবনে, ১৬ মে ২০২৫-এ; গুলজার অনুষ্ঠানে উপস্থিত থাকতে পারেননি।",
+      "claims": [
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "puraskar",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোন বিবৃতিটি সঠিক?",
+      "a": "গুলজার ৫৮তম জ্ঞানপীঠ পুরস্কারের প্রাপক ছিলেন, তবে প্রদান অনুষ্ঠানে উপস্থিত থাকতে পারেননি",
+      "w": [
+        "গুলজার সাহিত্য অকাদেমি পুরস্কার ১৯৫৫ সালে পান",
+        "জ্ঞানপীঠ পুরস্কার সাহিত্য অকাদেমি দিয়ে থাকে",
+        "৫৮তম জ্ঞানপীঠ পুরস্কার শুধুমাত্র একজনকে দেওয়া হয়"
+      ],
+      "e": "PIB অনুযায়ী রাষ্ট্রপতি রামভদ্রাচার্যকে পুরস্কার প্রদানের পাশাপাশি গুলজারকেও অভিনন্দন জানান, কারণ তিনি অনুষ্ঠানে উপস্থিত থাকতে পারেননি — অর্থাৎ প্রাপক ছিলেন দুজন।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "puraskar",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের লেখক–বই/সম্মান জোড়াগুলির মধ্যে কোনটি সঠিকভাবে মিলেছে?",
+      "a": "আশাপূর্ণা দেবী — জ্ঞানপীঠ পুরস্কারপ্রাপ্ত নারী লেখিকা",
+      "w": [
+        "দাদাভাই নওরোজি — গুলামগিরি",
+        "জ্যোতিবা ফুলে — Poverty and Un-British Rule in India",
+        "বঙ্কিমচন্দ্র চট্টোপাধ্যায় — আমার জীবন"
+      ],
+      "e": "রাষ্ট্রপতির ভাষণে (PIB) আশাপূর্ণা দেবীকে জ্ঞানপীঠপ্রাপ্ত নারী লেখিকাদের তালিকায় রাখা হয়েছে। গুলামগিরি ফুলের, Poverty and Un-British Rule in India নওরোজির এবং আমার জীবন রাসসুন্দরী দেবীর বই।",
+      "claims": [
+        "c25",
+        "c18",
+        "c19",
+        "c16"
+      ]
+    }
+  ]
+}

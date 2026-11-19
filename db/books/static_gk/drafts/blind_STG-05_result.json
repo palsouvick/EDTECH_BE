@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "যে শহরে দেশের সরকার ও বিদেশি দূতাবাস বসে",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims — no claim defines 'capital' generally; closest is c10 calling Amman Jordan's seat of government"
+    },
+    {
+      "id": "q02",
+      "answer": "দেশ – রাজধানী – মুদ্রা",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims — the triple pairing rule itself is not stated in any claim; inferred from c01/c02 pattern"
+    },
+    {
+      "id": "q03",
+      "answer": "একই নামের মুদ্রা একাধিক দেশে থাকা — বিশেষণ মিলিয়ে দেখতে হয়",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims — no claim discusses same-name currency traps"
+    },
+    {
+      "id": "q04",
+      "answer": "শুধুমাত্র ২ সঠিক",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "4th round of India-Jordan Foreign Office Consultations were hosted in Amman on 29 April 2025",
+      "source_url": "https://indembassy-amman.gov.in/Bilateral_Relations.html",
+      "page": "India-Jordan Bilateral Relations (Political)",
+      "notes": "c10 describes Amman as Jordan's seat of government, supporting statement 2; statement 1 contradicted by capitals in claims (e.g. Canberra, not Sydney)"
+    },
+    {
+      "id": "q05",
+      "answer": "জাপান – টোকিও – জাপানি ইয়েন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Capital | Tokyo",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (GENERAL)",
+      "notes": "c01 + c02 (Currency | Japanese Yen, JPY)"
+    },
+    {
+      "id": "q06",
+      "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "4th round of India-Jordan Foreign Office Consultations were hosted in Amman on 29 April 2025",
+      "source_url": "https://indembassy-amman.gov.in/Bilateral_Relations.html",
+      "page": "India-Jordan Bilateral Relations (Political)",
+      "notes": "c10 frames the capital as seat of government, supporting R as the explanation"
+    },
+    {
+      "id": "q07",
+      "answer": "টোকিও",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Capital | Tokyo",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (GENERAL)",
+      "notes": "c01"
+    },
+    {
+      "id": "q08",
+      "answer": "জাপানি ইয়েন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Currency | Japanese Yen, JPY",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (ECONOMIC)",
+      "notes": "c02"
+    },
+    {
+      "id": "q09",
+      "answer": "জাপান",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Currency | Japanese Yen, JPY",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (ECONOMIC)",
+      "notes": "c02 gives JPY as Japan's currency code"
+    },
+    {
+      "id": "q10",
+      "answer": "এশিয়ার পূর্ব উপকূলের দ্বীপরাষ্ট্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Japan is an island country lying off the east coast of Asia.",
+      "source_url": "https://mofpi.gov.in/api/documents/file/japan_country_profile_ver_4.pdf",
+      "page": "p. 6 (2. Japan: Country Overview)",
+      "notes": "c14"
+    },
+    {
+      "id": "q11",
+      "answer": "টোকিও – জাপানের রাজধানী",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Capital | Tokyo",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (GENERAL)",
+      "notes": "c01"
+    },
+    {
+      "id": "q12",
+      "answer": "১ ও ২ দুটোই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Capital | Tokyo",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (GENERAL)",
+      "notes": "c01 + c02 (JPY)"
+    },
+    {
+      "id": "q13",
+      "answer": "Focus Country (কেন্দ্রীয় দেশ)",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims — claims mention the MoFPI Japan profile for World Food India 2025 (c03) but never state any Focus/Partner status"
+    },
+    {
+      "id": "q14",
+      "answer": "A-১, B-২, C-৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Capital | Tokyo",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (GENERAL)",
+      "notes": "c01 + c02"
+    },
+    {
+      "id": "q15",
+      "answer": "ক্যানবেরা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The man who designed this beautiful capital of Canberra, Walter Burley Griffin, lies buried in the old city of Lucknow in India.",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-joint-session-of-the-australian-parliament/",
+      "page": "PM's address, opening passage",
+      "notes": "c04 names Canberra as Australia's capital"
+    },
+    {
+      "id": "q16",
+      "answer": "অস্ট্রেলীয় ডলার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "(all fees are in Australian Dollars)",
+      "source_url": "https://www.hcicanberra.gov.in/page/modes-of-payment-and-fee-schedule/",
+      "page": "Fee Schedule heading; ICWF Fee schedule table",
+      "notes": "c06"
+    },
+    {
+      "id": "q17",
+      "answer": "অস্ট্রেলিয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "(all fees are in Australian Dollars)",
+      "source_url": "https://www.hcicanberra.gov.in/page/modes-of-payment-and-fee-schedule/",
+      "page": "Fee Schedule heading; ICWF Fee schedule table",
+      "notes": "c06 ties AUD to Australia's missions"
+    },
+    {
+      "id": "q18",
+      "answer": "ওয়াল্টার বার্লি গ্রিফিন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The man who designed this beautiful capital of Canberra, Walter Burley Griffin, lies buried in the old city of Lucknow in India.",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-joint-session-of-the-australian-parliament/",
+      "page": "PM's address, opening passage",
+      "notes": "c04"
+    },
+    {
+      "id": "q19",
+      "answer": "লখনউ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The man who designed this beautiful capital of Canberra, Walter Burley Griffin, lies buried in the old city of Lucknow in India.",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-joint-session-of-the-australian-parliament/",
+      "page": "PM's address, opening passage",
+      "notes": "c04"
+    },
+    {
+      "id": "q20",
+      "answer": "ভারত ও অস্ট্রেলিয়ার যৌথ মূল্যবোধের",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The statue of Gandhi in Canberra is a symbol of our shared values.",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-joint-session-of-the-australian-parliament/",
+      "page": "PM's address, opening passage",
+      "notes": "c05"
+    },
+    {
+      "id": "q21",
+      "answer": "১৫ আগস্ট ১৯৪৭, ক্যানবেরার ইন্ডিয়া হাউসে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The first hoisting of the Indian National Flag (before it was done in India) took place in Australia on 15 August 1947 at India House in Canberra.",
+      "source_url": "https://www.mea.gov.in/Portal/ForeignRelation/India-Australia-072026.pdf",
+      "page": "p. 1",
+      "notes": "c07"
+    },
+    {
+      "id": "q22",
+      "answer": "শুধুমাত্র ২ সঠিক",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "The man who designed this beautiful capital of Canberra, Walter Burley Griffin, lies buried in the old city of Lucknow in India.",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-joint-session-of-the-australian-parliament/",
+      "page": "PM's address, opening passage",
+      "notes": "c04 establishes Canberra (not Sydney) as capital; HCI Canberra evidenced by c06's source"
+    },
+    {
+      "id": "q23",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The man who designed this beautiful capital of Canberra, Walter Burley Griffin, lies buried in the old city of Lucknow in India.",
+      "source_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-to-the-joint-session-of-the-australian-parliament/",
+      "page": "PM's address, opening passage",
+      "notes": "c04"
+    },
+    {
+      "id": "q24",
+      "answer": "আম্মান",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "4th round of India-Jordan Foreign Office Consultations were hosted in Amman on 29 April 2025",
+      "source_url": "https://indembassy-amman.gov.in/Bilateral_Relations.html",
+      "page": "India-Jordan Bilateral Relations (Political)",
+      "notes": "c10/c11 place Jordan's seat of government and the King in Amman; no claim uses the word 'capital' for Amman"
+    },
+    {
+      "id": "q25",
+      "answer": "জর্ডানীয় দিনার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The visa fees are to be paid in Jordanian Dinar and in cash only.",
+      "source_url": "https://indembassy-amman.gov.in/visa_fees.html",
+      "page": "Fees — Important Notice",
+      "notes": "c09"
+    },
+    {
+      "id": "q26",
+      "answer": "আম্মানে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "4th round of India-Jordan Foreign Office Consultations were hosted in Amman on 29 April 2025",
+      "source_url": "https://indembassy-amman.gov.in/Bilateral_Relations.html",
+      "page": "India-Jordan Bilateral Relations (Political)",
+      "notes": "c10"
+    },
+    {
+      "id": "q27",
+      "answer": "জর্ডানের রাজা দ্বিতীয় আবদুল্লাহর সঙ্গে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "PM Narendra Modi was in Amman on December 15-16, where he held extensive discussions with His Majesty King Abdullah II of Jordan",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc20251216733501.pdf",
+      "page": "Introduction",
+      "notes": "c11"
+    },
+    {
+      "id": "q28",
+      "answer": "মুম্বই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Royal Jordanian had started direct flights to Mumbai from Amman since Jun 2025",
+      "source_url": "https://www.mea.gov.in/Portal/ForeignRelation/India-Jordan-0726.pdf",
+      "page": "Political section",
+      "notes": "c12"
+    },
+    {
+      "id": "q29",
+      "answer": "পেত্রা ও এলোরা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Five MoUs were signed in the areas of renewable energy, water resource management, cultural exchange, digital solution and twinning between Petra and Ellora",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc20251216733501.pdf",
+      "page": "Key Takeaways",
+      "notes": "c15"
+    },
+    {
+      "id": "q30",
+      "answer": "১ ও ২ দুটোই সঠিক",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "The visa fees are to be paid in Jordanian Dinar and in cash only.",
+      "source_url": "https://indembassy-amman.gov.in/visa_fees.html",
+      "page": "Fees — Important Notice",
+      "notes": "c09 for statement 1; c10/c11 + Amman embassy sources for statement 2"
+    },
+    {
+      "id": "q31",
+      "answer": "আবুজা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Visa for Nigerian Nationals - All Categories and Durations 585 3 815000",
+      "source_url": "https://www.hciabuja.gov.in/content/Fee_Structure_08jun2026.pdf",
+      "page": "Fee Structure — header and VISA table",
+      "notes": "c13 places the High Commission of India to Nigeria at Abuja; no claim explicitly calls Abuja the capital"
+    },
+    {
+      "id": "q32",
+      "answer": "নাইরা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Visa for Nigerian Nationals - All Categories and Durations 585 3 815000",
+      "source_url": "https://www.hciabuja.gov.in/content/Fee_Structure_08jun2026.pdf",
+      "page": "Fee Structure — header and VISA table",
+      "notes": "c13 prices Nigeria mission fees in NAIRA"
+    },
+    {
+      "id": "q33",
+      "answer": "আবুজা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Visa for Nigerian Nationals - All Categories and Durations 585 3 815000",
+      "source_url": "https://www.hciabuja.gov.in/content/Fee_Structure_08jun2026.pdf",
+      "page": "Fee Structure — header and VISA table",
+      "notes": "c13: HCI to Nigeria is at Abuja"
+    },
+    {
+      "id": "q34",
+      "answer": "শুধুমাত্র ২ সঠিক",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Visa for Nigerian Nationals - All Categories and Durations 585 3 815000",
+      "source_url": "https://www.hciabuja.gov.in/content/Fee_Structure_08jun2026.pdf",
+      "page": "Fee Structure — header and VISA table",
+      "notes": "c13 supports statement 2 (Naira) and Abuja over Lagos"
+    },
+    {
+      "id": "q35",
+      "answer": "নাইজেরিয়া – আবুজা – নাইরা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Visa for Nigerian Nationals - All Categories and Durations 585 3 815000",
+      "source_url": "https://www.hciabuja.gov.in/content/Fee_Structure_08jun2026.pdf",
+      "page": "Fee Structure — header and VISA table",
+      "notes": "c13 (Abuja HCI + NAIRA fees)"
+    },
+    {
+      "id": "q36",
+      "answer": "A-১, B-২, C-৩",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Visa for Nigerian Nationals - All Categories and Durations 585 3 815000",
+      "source_url": "https://www.hciabuja.gov.in/content/Fee_Structure_08jun2026.pdf",
+      "page": "Fee Structure — header and VISA table",
+      "notes": "c13"
+    },
+    {
+      "id": "q37",
+      "answer": "জাপান",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Currency | Japanese Yen, JPY",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (ECONOMIC)",
+      "notes": "c02"
+    },
+    {
+      "id": "q38",
+      "answer": "নাইজেরিয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Visa for Nigerian Nationals - All Categories and Durations 585 3 815000",
+      "source_url": "https://www.hciabuja.gov.in/content/Fee_Structure_08jun2026.pdf",
+      "page": "Fee Structure — header and VISA table",
+      "notes": "c13"
+    },
+    {
+      "id": "q39",
+      "answer": "জর্ডানীয় দিনার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The visa fees are to be paid in Jordanian Dinar and in cash only.",
+      "source_url": "https://indembassy-amman.gov.in/visa_fees.html",
+      "page": "Fees — Important Notice",
+      "notes": "c09"
+    },
+    {
+      "id": "q40",
+      "answer": "অস্ট্রেলীয় ডলার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "(all fees are in Australian Dollars)",
+      "source_url": "https://www.hcicanberra.gov.in/page/modes-of-payment-and-fee-schedule/",
+      "page": "Fee Schedule heading; ICWF Fee schedule table",
+      "notes": "c06"
+    },
+    {
+      "id": "q41",
+      "answer": "শুধুমাত্র ২ সঠিক",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Currency | Japanese Yen, JPY",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (ECONOMIC)",
+      "notes": "Claims consistently use adjectival currency names (Japanese Yen, Australian Dollars, Jordanian Dinar), supporting statement 2; statement 1 contradicted by multiple 'Dollar' currencies implied"
+    },
+    {
+      "id": "q42",
+      "answer": "A-৩, B-৪, C-২, D-১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Currency | Japanese Yen, JPY",
+      "source_url": "https://www.indembassy-tokyo.gov.in/index.php/eoityo_pages/MTc,",
+      "page": "Japan profile table (ECONOMIC)",
+      "notes": "c02 + c06 (AUD) + c09 (Dinar) + c13 (Naira)"
+    }
+  ]
+}
