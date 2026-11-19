@@ -62,7 +62,11 @@ test('mastery status from recent answers', () => {
   assert.equal(masteryStatus([]), 'not_started');
   assert.equal(masteryStatus([a(true), a(true)]), 'started');
   assert.equal(masteryStatus([...Array(6)].map((_, i) => a(i < 2))), 'weak');
-  assert.equal(masteryStatus([...Array(10)].map((_, i) => a(i < 8))), 'strong');
+  // F9: ten good answers in one sitting are no longer "strong" — the unified
+  // definition needs 15+ answers on 2+ days (test/mastery.test.js).
+  assert.equal(masteryStatus([...Array(10)].map((_, i) => a(i < 8))), 'improving');
+  const day = (i) => new Date(Date.now() - (i % 2) * 86_400_000 - i * 1000);
+  assert.equal(masteryStatus([...Array(16)].map((_, i) => ({ ...a(i < 14), qid: `q${i}`, at: day(i) }))), 'strong');
   // Strong accuracy but failing the harder ones: still improving.
   assert.equal(masteryStatus([...Array(8)].map(() => a(true)).concat([a(false, 4), a(false, 4), a(false, 4), a(true, 4)])), 'improving');
 });

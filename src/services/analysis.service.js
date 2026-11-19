@@ -23,6 +23,7 @@ const { MAX_SECTIONS } = require('../models/ChapterStudy');
 const { compactLocalized } = require('./presenters');
 const { availability, REAL_PAPER } = require('./bankAvailability');
 const { pyqProgress } = require('./pyqProgress.service');
+const { chapterMastery } = require('./mastery.service');
 const { getPriorities } = require('./priority.service');
 const { targetExamOf } = require('./targetExam.service');
 const { patternName } = require('./insights.service');
@@ -96,7 +97,7 @@ async function prioritiesFor(userId) {
 
 /** Everything the analysis of one subject needs, loaded in parallel. */
 async function loadSubject(userId, subject, language) {
-  const [{ chapters }, avail, { answers, latestTest }, mistakes, { events, reasons }, pyq, study, priorities] = await Promise.all([
+  const [{ chapters }, avail, { answers, latestTest }, mistakes, { events, reasons }, pyq, study, priorities, unified] = await Promise.all([
     learn.getSubject(subject),
     availability(subject, language),
     loadAnswers(userId, subject),
@@ -105,6 +106,8 @@ async function loadSubject(userId, subject, language) {
     pyqProgress(userId, subject),
     ChapterStudy.find({ user_id: userId, subject }).lean(),
     prioritiesFor(userId),
+    // F9: the one mastery definition — this page shows the same score and stage as every other screen.
+    chapterMastery(userId, { subjects: [subject] }),
   ]);
   const facts = await questionFacts([...new Set([...answers.map((a) => a.qid), ...events.map((e) => e.qid)])]);
   for (const a of answers) {
@@ -124,7 +127,7 @@ async function loadSubject(userId, subject, language) {
     s.reason = skips.likelyReason({ outcome: last.outcome, timed: last.timed, seq: last.seq, count: last.total, timeSec: last.timeSec, difficulty: s.difficulty, targetSec: A.SUBJECT_CONFIG[subject].targetSec });
     s.ownReason = reasons.get(s.qid) ?? null;
   }
-  return { chapters, avail, answers, latestTest, mistakes, skips: merged, pyq: pyq.topics, study: new Map(study.map((s) => [s.topic, s])), priority: priorities.subjects?.[subject]?.topics ?? {} };
+  return { chapters, avail, answers, latestTest, mistakes, skips: merged, pyq: pyq.topics, study: new Map(study.map((s) => [s.topic, s])), priority: priorities.subjects?.[subject]?.topics ?? {}, unified };
 }
 
 const groupBy = (list, key) => {
@@ -169,6 +172,7 @@ async function analyseSubject(userId, subject, { language = 'en', tz = 330, now 
         study: d.study.get(ch.topic),
         hasLesson: ch.hasLesson,
         priority: d.priority[ch.topic]?.level ?? null,
+        unified: d.unified.get(`${subject}.${ch.topic}`) ?? null,
       },
       { now, tzMin: tz, targetSec: cfg.targetSec, subject },
     );
@@ -211,6 +215,7 @@ const brief = (c) => ({
   band: c.focus.band,
   score: c.focus.score,
   mastery: c.mastery,
+  stage: c.stage,
   accuracy: c.recentAccuracy,
   why: c.why.slice(0, 4),
   plan: c.plan,
@@ -283,6 +288,7 @@ const chapterBrief = (c) => ({
   title: c.title,
   emoji: c.emoji,
   mastery: c.mastery,
+  stage: c.stage,
   accuracy: c.recentAccuracy,
   band: c.focus.band,
   score: c.focus.score,

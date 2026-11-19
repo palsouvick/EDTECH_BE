@@ -18,24 +18,24 @@ const { PracticeAttempt, MockSession, Question, ReviewItem, User, UserBadge, Dai
 const { subjectName, topicName } = require('./catalogNames');
 const { getPerformance } = require('./performance.service');
 const { HARD_BANKS } = require('./hardBanks');
+const MasteryLogic = require('./mastery.logic');
+
+const REAL_PAPER = ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'];
 
 const RECENT = 30; // answers per chapter that count for its mastery
-const MIN_FOR_STATUS = 5;
 const MIN_FOR_PATTERN = 5;
 
 const STATUS_ORDER = ['weak', 'improving', 'started', 'not_started', 'strong'];
 
-/** Pure: chapter status from its recent answers [{ correct, difficulty }]. */
-function masteryStatus(answers) {
-  const n = answers.length;
-  if (!n) return 'not_started';
-  if (n < MIN_FOR_STATUS) return 'started';
-  const acc = answers.filter((a) => a.correct).length / n;
-  const hard = answers.filter((a) => a.difficulty >= 3);
-  const hardAcc = hard.length ? hard.filter((a) => a.correct).length / hard.length : null;
-  if (n >= 10 && acc >= 0.75 && (hard.length < 3 || hardAcc >= 0.6)) return 'strong';
-  if (acc < 0.5) return 'weak';
-  return 'improving';
+/**
+ * Pure: the legacy five-value status of a chapter from its answers alone
+ * ([{ correct, difficulty, at? }], newest first). F9: no longer its own
+ * rule — it runs the unified definition (mastery.logic) on answer-only
+ * evidence and maps the stage back, so it can never disagree with it.
+ */
+function masteryStatus(answers, now = new Date()) {
+  const rows = answers.map((a, i) => ({ qid: a.qid ?? `q${i}`, at: a.at ?? now, ...a }));
+  return MasteryLogic.legacyStatus(MasteryLogic.stageOf(MasteryLogic.evidenceFrom(rows, { now }), now));
 }
 
 const pct = (c, n) => (n ? Math.round((c / n) * 100) : null);
@@ -71,29 +71,38 @@ function patternName(subject, topic, key) {
 /** Every answer of the student, newest first, with each question's difficulty and pattern. */
 async function answersOf(userId) {
   const [practice, mocks] = await Promise.all([
-    PracticeAttempt.find({ user_id: userId }).sort({ created_at: -1 }).limit(5000).select('question_id subject topic correct category created_at').lean(),
+    PracticeAttempt.find({ user_id: userId }).sort({ created_at: -1 }).limit(5000).select('question_id subject topic correct category created_at source').lean(),
     MockSession.find({ user_id: userId, status: 'SUBMITTED' }).sort({ submitted_at: -1 }).limit(50).select('config.subject config.category submitted_at result.per_question').lean(),
   ]);
-  const answers = practice.map((a) => ({ qid: String(a.question_id), subject: a.subject, topic: a.topic, correct: a.correct, category: a.category, at: a.created_at }));
+  const answers = practice.map((a) => ({ qid: String(a.question_id), subject: a.subject, topic: a.topic, correct: a.correct, category: a.category, at: a.created_at, source: a.source ?? 'practice' }));
   for (const m of mocks) {
     for (const p of m.result?.per_question || []) {
       if (p.outcome !== 'CORRECT' && p.outcome !== 'INCORRECT') continue;
-      answers.push({ qid: String(p.qid), subject: m.config.subject, topic: p.topic, correct: p.outcome === 'CORRECT', category: m.config.category, at: m.submitted_at, difficulty: p.difficulty });
+      answers.push({ qid: String(p.qid), subject: m.config.subject, topic: p.topic, correct: p.outcome === 'CORRECT', category: m.config.category, at: m.submitted_at, difficulty: p.difficulty, source: 'test' });
     }
   }
   answers.sort((a, b) => b.at - a.at);
   const ids = [...new Set(answers.map((a) => a.qid))].map((id) => new mongoose.Types.ObjectId(id));
-  const qs = await Question.find({ _id: { $in: ids } }).select('difficulty pattern').lean();
+  const qs = await Question.find({ _id: { $in: ids } }).select('subject difficulty pattern provenance pyq.is_pyq').lean();
   const meta = new Map(qs.map((q) => [String(q._id), q]));
   for (const a of answers) {
     const q = meta.get(a.qid);
     a.difficulty ??= q?.difficulty ?? 3;
     a.pattern = q?.pattern ?? null;
+    a.pyq = Boolean(q?.pyq?.is_pyq && REAL_PAPER.includes(q.provenance));
+    // A full mock mixes subjects: file each answer under its question's own subject.
+    if (q?.subject) a.subject = q.subject;
   }
   return answers;
 }
 
-function buildMastery(answers) {
+/**
+ * One row per catalogue chapter. `unified` (mastery.service chapterMastery)
+ * supplies the F9 stage, score and next step, and the legacy `status` is
+ * taken from it; without it the status comes from answer-only evidence run
+ * through the same definition (masteryStatus).
+ */
+function buildMastery(answers, unified = null) {
   const byChapter = new Map();
   for (const a of answers) {
     const k = `${a.subject}.${a.topic}`;
@@ -106,13 +115,18 @@ function buildMastery(answers) {
     const hard = recent.filter((a) => a.difficulty >= 3);
     // Link under the category the student last used for this chapter, if its syllabus has it.
     const used = all.find((a) => a.category && c.categories.includes(a.category))?.category;
+    const u = unified?.get(`${c.subject}.${c.topic}`) ?? null;
     return {
       subject: c.subject,
       topic: c.topic,
       name: topicName(c.subject, c.topic),
       subjectName: subjectName(c.subject),
       category: used ?? c.categories[0],
-      status: masteryStatus(recent),
+      status: u ? u.status : masteryStatus(all),
+      stage: u?.stage ?? null,
+      score: u?.score ?? null,
+      next: u?.next ?? null,
+      evidence: u?.evidence ?? null,
       answers: all.length,
       recentAnswers: recent.length,
       accuracyPct: pct(recent.filter((a) => a.correct).length, recent.length),
@@ -214,13 +228,18 @@ async function syncBadges(userId, { answers, mastery, streakDays }) {
 
 async function getInsights(userId, tz = 330) {
   const answers = await answersOf(userId);
-  const mastery = buildMastery(answers);
+  // F9: the unified stage for every chapter (lazy require: mastery.service uses answersOf).
+  const unified = await require('./mastery.service').chapterMastery(userId, { answers });
+  const mastery = buildMastery(answers, unified);
   const perf = await getPerformance(userId, tz);
   const badges = await syncBadges(userId, { answers: answers.length, mastery, streakDays: perf.summary.streakDays });
   const counts = Object.fromEntries(STATUS_ORDER.map((s) => [s, mastery.filter((m) => m.status === s).length]));
+  const stageCounts = Object.fromEntries(MasteryLogic.STAGES.map((s) => [s, mastery.filter((m) => m.stage === s).length]));
   return {
     mastery,
     counts,
+    stageCounts,
+    stages: MasteryLogic.STAGES,
     weakPatterns: buildWeakPatterns(answers, mastery),
     badges,
     allBadges: Object.keys(BADGES).length,

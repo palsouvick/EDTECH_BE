@@ -265,8 +265,7 @@ test('WBP and KP maps (WB_POLICE category): adapted PYQs count, KP english is no
 test('student status + mastery: mastered / in_progress / not_started from real attempts', async () => {
   const u = await registerUser('map4@example.com');
   // Every published percentage question (bank + PYQs share the pool) answered
-  // correctly -> completion 100 and, with 10+ recent answers at 100% on
-  // difficulty-3 questions, mastery strong.
+  // correctly -> completion 100 (mastery: see the F9 note below).
   const allPct = await Question.find({ subject: 'quant', topic: 'percentage', status: 'PUBLISHED' }).lean();
   assert.ok(allPct.length >= 10);
   await PracticeAttempt.insertMany(allPct.map((q) => ({
@@ -282,8 +281,11 @@ test('student status + mastery: mastered / in_progress / not_started from real a
   const d = res.body.data;
   const pct = chapterOf(d, 'quant', 'percentage');
   assert.equal(pct.completion, 100);
-  assert.equal(pct.mastery.status, 'strong');
-  assert.equal(pct.status, 'mastered');
+  // F9: every question right, but all in one sitting — the unified stage is
+  // developing, so the chapter is completed, not mastered.
+  assert.equal(pct.mastery.stage, 'developing');
+  assert.equal(pct.mastery.status, 'improving');
+  assert.equal(pct.status, 'completed');
   const pl = chapterOf(d, 'quant', 'profit_loss');
   assert.equal(pl.status, 'in_progress');
   assert.equal(pl.answered, 3);

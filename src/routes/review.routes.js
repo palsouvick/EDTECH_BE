@@ -21,9 +21,11 @@ router.get('/summary', validate({ query: z.object({ tz }) }), async (req, res) =
   res.json({ success: true, data: await review.summary(req.user.id, req.valid.query) });
 });
 
-router.get('/due', validate({ query: z.object({ tz, limit: z.coerce.number().int().min(1).max(30).default(20) }) }), async (req, res) => {
+// ?pyq=1 (F13 PYQ revision): only real previous-year questions from the same queue.
+router.get('/due', validate({ query: z.object({ tz, limit: z.coerce.number().int().min(1).max(30).default(20), pyq: z.enum(['0', '1']).optional() }) }), async (req, res) => {
   noStore(res);
-  res.json({ success: true, data: await review.due(req.user.id, req.valid.query) });
+  const { tz: zone, limit, pyq } = req.valid.query;
+  res.json({ success: true, data: await review.due(req.user.id, { tz: zone, limit, pyqOnly: pyq === '1' }) });
 });
 
 const answerBody = z.object({ questionId: objectId, selectedOptionId: optionId, timeSpentSec: timeSpent().optional() });

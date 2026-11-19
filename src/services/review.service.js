@@ -85,14 +85,30 @@ async function summary(userId, { tz }) {
   return { dueToday, active, mastered, mistakesActive, nextDueAt: next?.due_at ?? null, masterAfter: MASTER_AFTER };
 }
 
+const REAL_PAPER = ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'];
+/** Which of these question ids are published real previous-year questions. */
+async function realPyqIds(ids) {
+  if (!ids.length) return new Set();
+  const rows = await Question.find({ _id: { $in: ids }, 'pyq.is_pyq': true, provenance: { $in: REAL_PAPER } }).select('_id').lean();
+  return new Set(rows.map((q) => String(q._id)));
+}
+
 const reasonOf = (item) => (item.from_mistake && item.from_bookmark ? 'both' : item.from_mistake ? 'mistake' : 'bookmark');
 
 /** Today's revision: due questions, oldest first, without answers. */
-async function due(userId, { tz, limit }) {
-  const items = await ReviewItem.find({ user_id: userId, status: 'active', due_at: { $lte: endOfLocalDay(tz) } })
-    .sort({ due_at: 1, _id: 1 })
-    .limit(limit)
-    .lean();
+async function due(userId, { tz, limit, pyqOnly = false }) {
+  let items;
+  if (pyqOnly) {
+    // F13 PYQ revision: the same queue and schedule, narrowed to real previous-year questions.
+    const all = await ReviewItem.find({ user_id: userId, status: 'active', due_at: { $lte: endOfLocalDay(tz) } }).sort({ due_at: 1, _id: 1 }).lean();
+    const pyqIds = await realPyqIds(all.map((i) => i.question_id));
+    items = all.filter((i) => pyqIds.has(String(i.question_id))).slice(0, limit);
+  } else {
+    items = await ReviewItem.find({ user_id: userId, status: 'active', due_at: { $lte: endOfLocalDay(tz) } })
+      .sort({ due_at: 1, _id: 1 })
+      .limit(limit)
+      .lean();
+  }
   const questions = await Question.find({ _id: { $in: items.map((i) => i.question_id) }, status: 'PUBLISHED' }).select(PUBLIC_QUESTION_FIELDS).lean();
   const byId = new Map(questions.map((q) => [String(q._id), q]));
   return {
@@ -216,4 +232,4 @@ async function mistakes(userId, { status, subject, topic, offset, limit }) {
   };
 }
 
-module.exports = { recordMistake, recordBookmark, removeBookmark, summary, due, answer, mistakes, endOfLocalDay };
+module.exports = { recordMistake, recordBookmark, removeBookmark, summary, due, answer, mistakes, endOfLocalDay, realPyqIds };

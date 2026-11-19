@@ -76,6 +76,37 @@ router.get('/today', validate({ query: todayQuery }), async (req, res) => {
   res.json({ success: true, data: await getToday(req.user.id, { tz: req.valid.query.tz }) });
 });
 
+// Find My Starting Level (F7): an optional, skippable diagnostic for the
+// target exam — sections from the exam's own pattern, easy → medium, no PYQs.
+// Its result is a starting signal for Today's Study; it is never written as
+// practice attempts, mistakes or mastery.
+const diagnostic = require('../services/diagnostic.service');
+const { optionId, timeSpent } = require('../validators/common');
+router.get('/diagnostic', async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await diagnostic.getStatus(req.user.id) });
+});
+router.post('/diagnostic/start', validate({ body: z.object({ language: language.default('en') }) }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await diagnostic.startTest(req.user.id, req.valid.body) });
+});
+const diagnosticSubmitBody = z.object({
+  testToken: z.string().min(10).max(4096),
+  answers: z.array(z.object({
+    questionId: objectId,
+    selectedOptionId: optionId.nullable().optional(),
+    timeSpentSec: timeSpent().optional(),
+  })).max(60),
+});
+router.post('/diagnostic/submit', validate({ body: diagnosticSubmitBody }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await diagnostic.submitTest(req.user.id, req.valid.body) });
+});
+router.post('/diagnostic/skip', async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await diagnostic.skip(req.user.id) });
+});
+
 // tz = minutes east of UTC, for "today" and the streak (India: 330).
 const performanceQuery = z.object({ tz: z.coerce.number().int().min(-720).max(840).default(330) });
 
@@ -88,6 +119,25 @@ router.get('/performance', validate({ query: performanceQuery }), async (req, re
 router.get('/insights', validate({ query: performanceQuery }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');
   res.json({ success: true, data: await getInsights(req.user.id, req.valid.query.tz) });
+});
+
+// Unified mastery (F9/F10): every chapter's stage (not_started → learning →
+// practising → developing → strong → mastered), score, evidence and what the
+// next stage needs — the one definition Home, subject pages, Today and
+// Readiness share. Optional ?subject= narrows it to one subject.
+const masterySvc = require('../services/mastery.service');
+router.get('/mastery', validate({ query: z.object({ subject: z.enum(['quant', 'english', 'gs', 'reasoning']).optional() }) }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await masterySvc.masterySummary(req.user.id, { subject: req.valid.query.subject }) });
+});
+
+// One revision place (F13): due today (questions, GK facts, words), mistakes,
+// bookmarks, weak topics, PYQ revision and vocabulary in one summary. Reads
+// the existing stores and spaced-repetition schedules; moves no data.
+const revisionSvc = require('../services/revision.service');
+router.get('/revision', validate({ query: performanceQuery }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await revisionSvc.getRevision(req.user.id, { tz: req.valid.query.tz }) });
 });
 
 // Weekly leaderboard: opt-in only (shown with "First L." names).

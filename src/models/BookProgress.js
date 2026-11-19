@@ -12,7 +12,8 @@ const { Schema, model } = require('mongoose');
 const BookProgressSchema = new Schema(
   {
     user_id: { type: String, required: true },
-    book: { type: String, required: true, enum: ['history', 'geography'] },
+    // Every study book in services/books.js (the route validates the same list).
+    book: { type: String, required: true, enum: Object.keys(require('../services/books').BOOKS) },
     depth: { type: String, enum: ['quick', 'standard', 'deep'], default: 'standard' },
     last: {
       chapter: { type: String, default: null },

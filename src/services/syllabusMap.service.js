@@ -45,6 +45,7 @@ const { pyqRefBasis } = require('./questionProvenance');
 const targetExam = require('./targetExam.service');
 const { HARD_BANKS } = require('./hardBanks');
 const { answersOf, buildMastery } = require('./insights.service');
+const { chapterMastery } = require('./mastery.service');
 const { loadLessons } = require('../../db/lessons');
 const clerkshipPlan = require('../../db/plans/clerkship60');
 const idoPlan = require('../../db/plans/ido');
@@ -249,7 +250,11 @@ async function getSyllabusMap(userId, examCode, language) {
   const answeredByKey = new Map(ansRows.map((r) => [`${r._id.subject}.${r._id.topic}`, r.qids.length]));
 
   // Mastery, exactly as the insights/mastery map computes it.
-  const masteryByKey = new Map(buildMastery(await answersOf(userId)).map((m) => [`${m.subject}.${m.topic}`, m]));
+  // F9: the unified stage per chapter (mastery.service), plus the insights
+  // row for its recent-answer counts — both from the same answers.
+  const answersAll = await answersOf(userId);
+  const unified = await chapterMastery(userId, { answers: answersAll });
+  const masteryByKey = new Map(buildMastery(answersAll, unified).map((m) => [`${m.subject}.${m.topic}`, m]));
 
   const lessons = new Set(loadLessons().map(({ lesson }) => `${lesson.subject}.${lesson.topic}`));
 
@@ -283,13 +288,23 @@ async function getSyllabusMap(userId, examCode, language) {
       const priority = level ? PRIORITY_OF_LEVEL[level] : null;
       const masteryRow = masteryByKey.get(key) ?? null;
       const mastery = masteryRow
-        ? { status: masteryRow.status, accuracyPct: masteryRow.accuracyPct, recentAnswers: masteryRow.recentAnswers, answers: masteryRow.answers }
-        : { status: 'not_started', accuracyPct: null, recentAnswers: 0, answers: 0 };
-      const status = mastery.status === 'strong'
+        ? {
+          stage: masteryRow.stage ?? 'not_started',
+          score: masteryRow.score ?? null,
+          next: masteryRow.next ?? null,
+          status: masteryRow.status,
+          accuracyPct: masteryRow.accuracyPct,
+          recentAnswers: masteryRow.recentAnswers,
+          answers: masteryRow.answers,
+        }
+        : { stage: 'not_started', score: null, next: null, status: 'not_started', accuracyPct: null, recentAnswers: 0, answers: 0 };
+      // "mastered" only when the unified stage says so (F9) — no longer from
+      // ten good answers; a chapter read but not practised is in progress.
+      const status = mastery.stage === 'mastered'
         ? 'mastered'
         : completion != null && completion >= 100
           ? 'completed'
-          : answered > 0
+          : mastery.stage !== 'not_started' || answered > 0
             ? 'in_progress'
             : 'not_started';
       const subtopics = (t.subtopics || []).map((u) => {

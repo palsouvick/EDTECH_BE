@@ -16,6 +16,7 @@
  */
 
 const { DIFFICULTY_BANDS } = require('../models/constants');
+const { scoreOf } = require('./mastery.logic');
 
 const DAY = 86400_000;
 const RECENT = 30; // answers per chapter for accuracy / mastery
@@ -87,13 +88,9 @@ function groupStats(list) {
  *   retention  = x1 up to 14 days since the chapter was last practised, then -1 point per day (floor x0.7)
  * null below 5 answers.
  */
-function masteryPct({ answers, recentAccuracy, hardAccuracy, practicePct, pyqPct, daysSinceActivity }) {
-  if (answers < MIN_ANSWERS || recentAccuracy == null) return null;
-  const base = 0.6 * recentAccuracy + 0.15 * (hardAccuracy ?? recentAccuracy) + 0.15 * (practicePct ?? 0) + 0.1 * (pyqPct ?? recentAccuracy);
-  const confidence = Math.min(1, answers / 15);
-  const idle = daysSinceActivity ?? 0;
-  const retention = idle > 14 ? Math.max(0.7, 1 - (idle - 14) / 100) : 1;
-  return Math.round(base * confidence * retention);
+// F9: the one score formula lives in mastery.logic (shared by every subject).
+function masteryPct(input) {
+  return scoreOf(input);
 }
 
 /** Days to the next revision of a chapter, from its mastery (weaker = sooner). */
@@ -425,7 +422,10 @@ function analyseChapter(input, { now, tzMin, targetSec, subject }) {
   const skipped = skips.reduce((a, s) => a + s.count, 0);
   const openSkips = skips.filter((s) => s.open).length;
   const trend = trendOf(answers, now, tzMin);
-  const mastery = masteryPct({ answers: answers.length, recentAccuracy, hardAccuracy, practicePct, pyqPct, daysSinceActivity });
+  // F9: when the caller passes the unified mastery result (mastery.service),
+  // its score and stage are used, so this page and every other screen agree.
+  const unified = input.unified ?? null;
+  const mastery = unified ? unified.score : masteryPct({ answers: answers.length, recentAccuracy, hardAccuracy, practicePct, pyqPct, daysSinceActivity });
 
   // Time: reading and re-reading from the chapter page; solving from the answers themselves.
   const time = { readSec: study?.read_sec ?? 0, reviseSec: study?.revise_sec ?? 0, practiceSec: 0, mistakesSec: 0 };
@@ -484,6 +484,8 @@ function analyseChapter(input, { now, tzMin, targetSec, subject }) {
   return {
     ...c,
     progress: { reading: readingPct, practice: practicePct, pyq: pyqPct, revision: revisionPct, accuracy: recentAccuracy, mastery },
+    stage: unified?.stage ?? null,
+    stageNext: unified?.next ?? null,
     // Read it all but not mastered: the gap the student must not mistake for "finished".
     readingMasteryGap: readingPct != null && readingPct >= 80 && (mastery == null || mastery < 70),
     complete,

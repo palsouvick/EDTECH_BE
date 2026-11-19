@@ -80,7 +80,9 @@ async function loadSignals(userId, subject) {
   ]);
   const answers = all.filter((a) => a.subject === subject);
   const openSkips = [...skips.mergeSkips(skipped.events, answers).values()].filter((s) => s.open);
-  const mastery = new Map(insights.buildMastery(answers).filter((m) => m.subject === subject).map((m) => [m.topic, m]));
+  // F9: chapter statuses come from the unified mastery definition.
+  const unified = await require('./mastery.service').chapterMastery(userId, { subjects: [subject], answers: all });
+  const mastery = new Map(insights.buildMastery(answers, unified).filter((m) => m.subject === subject).map((m) => [m.topic, m]));
 
   const byPattern = new Map();
   for (const a of answers) {

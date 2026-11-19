@@ -25,6 +25,7 @@ const AppError = require('../utils/AppError');
 const { compactLocalized } = require('./presenters');
 const { pyqRefBasis } = require('./questionProvenance');
 const { getPriorities, buildPriorities } = require('./priority.service');
+const { chapterMastery } = require('./mastery.service');
 const { presentUser } = require('./auth.service');
 const { loadLessons } = require('../../db/lessons');
 const { HARD_BANKS } = require('./hardBanks');
@@ -587,8 +588,8 @@ async function getSyllabus(userId, examCode, language) {
   // coverage: chapter completion averaged within each subject (by chapter
   // weight where the exam has one, equally otherwise), then across subjects
   // by subject weight where the pattern gives one, equally otherwise.
-  // accuracy: correct share of the last 30 answers in the exam's subjects
-  // (null under 5 answers). pyq: solved PYQs of this exam / all its PYQs
+  // mastery: the unified chapter mastery score (mastery.service), see below
+  // pyq: solved PYQs of this exam / all its PYQs
   // (null when the exam has no PYQs). score is the weighted mean of the
   // components present (0.5 / 0.3 / 0.2, renormalised); null when coverage
   // is null — there is not enough data yet to say anything.
@@ -613,27 +614,43 @@ async function getSyllabus(userId, examCode, language) {
       ? round1(subjectCoverages.reduce((n, s) => n + s.coverage * (s.weight ?? 0), 0) / subjectCoverages.reduce((n, s) => n + (s.weight ?? 0), 0))
       : round1(subjectCoverages.reduce((n, s) => n + s.coverage, 0) / subjectCoverages.length);
   }
-  const recent = await PracticeAttempt.find({ user_id: String(userId), subject: { $in: subjectCodes } })
-    .sort({ created_at: -1 }).limit(30).select('correct').lean();
-  const accuracy = recent.length >= 5
-    ? round1((recent.filter((a) => a.correct).length / recent.length) * 100)
-    : null;
+  // mastery (F9/F10): the unified mastery score of the chapters the student
+  // has started in this exam's subjects — the same score Home, the subject
+  // pages and Today's Study show — averaged within each subject (a started
+  // chapter without a score yet counts 0), then across subjects by pattern
+  // weight. null until at least one chapter has a score.
+  const unified = await chapterMastery(userId, { subjects: subjectCodes });
+  const subjectMastery = [];
+  for (const s of subjects) {
+    const rows = s.chapters
+      .map((c) => (c.topic == null ? null : unified.get(`${s.subject}.${c.topic}`)))
+      .filter((r) => r && r.stage !== 'not_started');
+    if (!rows.some((r) => r.score != null)) continue;
+    subjectMastery.push({ mastery: rows.reduce((n, r) => n + (r.score ?? 0), 0) / rows.length, weight: s.weight });
+  }
+  let mastery = null;
+  if (subjectMastery.length) {
+    const weighted = subjectMastery.some((s) => s.weight != null && s.weight > 0);
+    mastery = weighted
+      ? round1(subjectMastery.reduce((n, s) => n + s.mastery * (s.weight ?? 0), 0) / subjectMastery.reduce((n, s) => n + (s.weight ?? 0), 0))
+      : round1(subjectMastery.reduce((n, s) => n + s.mastery, 0) / subjectMastery.length);
+  }
   const pyqTotal = examQIds.length;
   const pyqScore = pyqTotal ? round1((solvedTotal / pyqTotal) * 100) : null;
-  const components = { coverage, accuracy, pyq: pyqScore };
+  const components = { coverage, mastery, pyq: pyqScore };
   const missing = Object.entries(components).filter(([, v]) => v == null).map(([k]) => k);
   let score = null;
   let readinessNote;
   if (coverage == null) {
     readinessNote = 'Not enough data yet — answer questions in this exam’s subjects to build a readiness score.';
   } else {
-    const parts = [['coverage', 0.5], ['accuracy', 0.3], ['pyq', 0.2]].filter(([k]) => components[k] != null);
+    const parts = [['coverage', 0.5], ['mastery', 0.3], ['pyq', 0.2]].filter(([k]) => components[k] != null);
     score = Math.round(parts.reduce((n, [k, w]) => n + components[k] * w, 0) / parts.reduce((n, [, w]) => n + w, 0));
     readinessNote = missing.length
       ? `Readiness uses ${parts.map(([k]) => k).join(' + ')}; ${missing.join(' + ')} not available yet.`
-      : 'Readiness uses coverage, accuracy and PYQ progress.';
+      : 'Readiness uses coverage, mastery and PYQ progress.';
   }
-  const readiness = { score, components, basis: { included: ['coverage', 'accuracy', 'pyq'].filter((k) => components[k] != null), missing }, note: readinessNote };
+  const readiness = { score, components, basis: { included: ['coverage', 'mastery', 'pyq'].filter((k) => components[k] != null), missing }, note: readinessNote };
 
   // ---- Countdown (the student's own exam date, only for their current target) ----
   let countdown = null;
@@ -671,6 +688,8 @@ module.exports = {
   getSyllabus,
   getPrioritiesForExam,
   targetExamOf,
+  findExam,
+  presentPattern,
   pyqExamNameForCode,
   clearTargetExamCache,
   DAILY_STUDY_MINUTES,

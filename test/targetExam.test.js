@@ -340,12 +340,13 @@ test('syllabus for WBCS: pattern weights, PYQ chapter weights, completion and re
   assert.equal(gsChapters.get('geography').completion, 33.3); // 2 of 6 (5 bank + 1 PYQ)
   assert.equal(gsChapters.get('polity').hasLesson, false);
 
-  // Readiness: coverage from the data, accuracy 9/10, pyq 2/13.
-  assert.equal(s.readiness.components.accuracy, 90);
+  // Readiness: coverage from the data, unified mastery (F9/F10), pyq 2/13.
+  assert.equal(s.readiness.components.accuracy, undefined);
+  assert.ok(s.readiness.components.mastery >= 0 && s.readiness.components.mastery <= 100, JSON.stringify(s.readiness));
   assert.equal(s.readiness.components.pyq, 15.4);
   assert.ok(s.readiness.components.coverage > 0);
-  const { coverage, accuracy, pyq } = s.readiness.components;
-  assert.equal(s.readiness.score, Math.round(0.5 * coverage + 0.3 * accuracy + 0.2 * pyq));
+  const { coverage, mastery, pyq } = s.readiness.components;
+  assert.equal(s.readiness.score, Math.round(0.5 * coverage + 0.3 * mastery + 0.2 * pyq));
   assert.deepEqual(s.readiness.basis.missing, []);
   assert.equal(s.countdown, null); // no exam date set
 });
@@ -397,7 +398,7 @@ test('syllabus for SSC_CGL is minimal: null chapter weights, honest notes, no re
     assert.ok(subj.chapters.every((c) => c.pyqCount === 0));
   }
   assert.equal(s.readiness.score, null);
-  assert.deepEqual(s.readiness.components, { coverage: null, accuracy: null, pyq: null });
+  assert.deepEqual(s.readiness.components, { coverage: null, mastery: null, pyq: null });
   assert.match(s.readiness.note, /Not enough data yet/);
 });
 

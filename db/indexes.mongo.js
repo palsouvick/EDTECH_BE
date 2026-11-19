@@ -235,6 +235,10 @@ db.question_skips.createIndex({ user_id: 1, subject: 1, last_skipped_at: -1 }, {
 // Lesson reading and study time per Math/English chapter. Mirrors src/models/ChapterStudy.js.
 db.chapter_study.createIndex({ user_id: 1, subject: 1, topic: 1 }, { name: "uniq_user_chapter", unique: true });
 
+// ------------------------------------------------------- diagnostic_results
+// F7 "Find My Starting Level": one skipped/completed diagnostic per student and exam. Mirrors src/models/DiagnosticResult.js.
+db.diagnostic_results.createIndex({ user_id: 1, exam_code: 1 }, { name: "uniq_user_exam", unique: true });
+
 // ----------------------------------------------------------------- gk_facts
 db.gk_facts.createIndex({ code: 1 }, { name: "uniq_gk_fact_code", unique: true });
 // Read & Learn: published facts of a card, by subcategory.
