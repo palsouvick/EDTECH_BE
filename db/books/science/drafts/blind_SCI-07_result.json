@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "H+ আয়ন (হাইড্রোজেন আয়ন)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The most commonly used concept of acids and bases was developed by Svante Arrhenius (1884). According to this concept an acid is a substance that is capable of producing hydrogen ion (H+) by dissociating in aqueous solution.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 322",
+      "notes": "Arrhenius acid produces H+ (c02)."
+    },
+    {
+      "id": "q02",
+      "answer": "OH− আয়ন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A base on the other hand is defined as a substance capable of providing a hydroxyl ion OH− on dissociation in aqueous solutions.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 323",
+      "notes": "Arrhenius base provides OH-; NaOH example (c03)."
+    },
+    {
+      "id": "q03",
+      "answer": "প্রোটন গ্রহীতা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In 1923, Brønsted and Lowry pointed out independently that acid-base reactions can be interpreted as proton-transfer reactions. According to them, an acid is defined as a proton (H+) donor, and a base is defined as a proton acceptor.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 323",
+      "notes": "Bronsted-Lowry base = proton acceptor (c05)."
+    },
+    {
+      "id": "q04",
+      "answer": "অনুবন্ধী অ্যাসিড-ক্ষার জোড় (conjugate pair)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A conjugate acid-base pair consists of two species in an acid-base reaction, one acid and one base, that differ by the gain or loss of a proton.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 324",
+      "notes": "NH4+/NH3 differ by a proton = conjugate pair (c06)."
+    },
+    {
+      "id": "q05",
+      "answer": "ইলেকট্রন-জোড় গ্রহণ করতে পারে এমন পরমাণু, অণু বা আয়ন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "G.N.Lewis proposed (1923) a yet another concept of acids and bases that includes such substances also. According to him, an acid may be defined as, ' any atom, molecule or ion that can accept an electron pair from any other atom , molecule or ion",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 325",
+      "notes": "Lewis acid accepts an electron pair (c07)."
+    },
+    {
+      "id": "q06",
+      "answer": "এটি শুধু জলীয় দ্রবণের ক্ষেত্রে প্রযোজ্য এবং NH3-এর মতো OH−-বিহীন পদার্থের ক্ষারীয় আচরণ ব্যাখ্যা করতে পারে না",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "The most commonly used concept of acids and bases was developed by Svante Arrhenius (1884). According to this concept an acid is a substance that is capable of producing hydrogen ion (H+) by dissociating in aqueous solution.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 322",
+      "notes": "not covered by claims - claims define Arrhenius only for aqueous solution but never state this limitation or the NH3 case."
+    },
+    {
+      "id": "q07",
+      "answer": "A ও R উভয়ই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "In 1923, Brønsted and Lowry pointed out independently that acid-base reactions can be interpreted as proton-transfer reactions. According to them, an acid is defined as a proton (H+) donor, and a base is defined as a proton acceptor.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 323",
+      "notes": "not covered by claims - R is covered by c05 (proton transfer), but assertion A (no solvent role needed) is not stated in any claim."
+    },
+    {
+      "id": "q08",
+      "answer": "হাইড্রোক্লোরিক অ্যাসিড (HCl)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Many electrolytes, when dissolved in water, are almost completely converted into ions. Such electrolytes are called strong electrolytes. All ionic compounds like NaCl, KCl, KNO3, NH4Cl and some colvent compounds like HCl. etc are strong electrolytes.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 320",
+      "notes": "HCl listed as strong electrolyte (c08); others are weak per c09."
+    },
+    {
+      "id": "q09",
+      "answer": "কার্বন ডাই-অক্সাইড (CO2)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Vinegar (Acetic acid) + Baking soda (Sodium hydrogencarbonate) Carbon dioxide + other substances",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gesc105.pdf",
+      "page": "p. 50",
+      "notes": "Vinegar + baking soda produces carbon dioxide (c11)."
+    },
+    {
+      "id": "q10",
+      "answer": "চুনের জল ঘোলা হয়ে যাওয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "When carbon dioxide is passed through lime water, calcium carbonate is formed, which makes lime water milky. The turning of lime water into milky is a standard test of carbon dioxide.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gesc105.pdf",
+      "page": "p. 50",
+      "notes": "CO2 turns lime water milky; standard test (c12)."
+    },
+    {
+      "id": "q11",
+      "answer": "ম্যাগনেসিয়াম হাইড্রক্সাইড [Mg(OH)2]",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Magnesium oxide (MgO) + Water (H2O) Magnesium hydroxide [Mg(OH)2] As you have already learnt in Chapter 4, magnesium hydroxide is a base.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gesc105.pdf",
+      "page": "p. 49",
+      "notes": "MgO + water forms Mg(OH)2, a base (c13)."
+    },
+    {
+      "id": "q12",
+      "answer": "আয়নিক সাম্য (ionic equilibrium)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "On the other hand, many electrolytes ionize only partially. Such electrolytes are called weak electrolytes. Many covalent compounds like CH3COOH, NH4OH, C6H5NH2 are weak electrolytes.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 320",
+      "notes": "Weak electrolytes: dynamic/ionic equilibrium between molecules and ions (c09)."
+    },
+    {
+      "id": "q13",
+      "answer": "দ্রবণে মুক্ত আয়ন থাকে, যারা চলাচল করে তড়িৎ আধান বহন করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Electrolytes are the compounds which when dissolved in water produce ions in their solutions. These ions are free to move about and can carry electric charge through the solution when an electric field is applied.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 320",
+      "notes": "Free ions move and carry charge (c10)."
+    },
+    {
+      "id": "q14",
+      "answer": "১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Many electrolytes, when dissolved in water, are almost completely converted into ions. Such electrolytes are called strong electrolytes. All ionic compounds like NaCl, KCl, KNO3, NH4Cl and some colvent compounds like HCl. etc are strong electrolytes.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 320",
+      "notes": "1 true (c08), 2 true (c09), 3 false - strong electrolytes are almost completely ionised (c08)."
+    },
+    {
+      "id": "q15",
+      "answer": "৭",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For neutral solutions ( or pure water) [H3 O+] = [OH-] = 1 × 10-7 ⇒ pH = -log 1 × 10-7 = 7.0 For acidic solutions [H3 O+] > [OH-] ⇒ [H3 O+] > 1 × 10-7",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 335",
+      "notes": "Neutral solution pH = 7.0 (c17)."
+    },
+    {
+      "id": "q16",
+      "answer": "S. P. L. সোরেনসেন, ১৯০৯ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "in 1909 a Danish botanist S.P.L. Sorensen proposed a logarithmic scale ( called pH scale) for expressing the concentrations of H+ ions. He defined pH as the negative logarithm of the molar concentration of hydrogen ions.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 335",
+      "notes": "Sorensen proposed pH scale in 1909 (c15)."
+    },
+    {
+      "id": "q17",
+      "answer": "যার pH ৭-এর কম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For neutral solutions ( or pure water) [H3 O+] = [OH-] = 1 × 10-7 ⇒ pH = -log 1 × 10-7 = 7.0 For acidic solutions [H3 O+] > [OH-] ⇒ [H3 O+] > 1 × 10-7",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 335",
+      "notes": "Acidic solutions have pH < 7.0 (c17)."
+    },
+    {
+      "id": "q18",
+      "answer": "২.০",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Example 12.4: What is the pH of a 0.01 M aqueous solution of HCl? Solution: Since HCl is a strong acid it would ionize completely. Therefore, [H3 O+] in 0.01 M HCl = 0.01 M",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "pp. 335-336",
+      "notes": "0.01 M HCl fully ionised, pH = 2.0 (c20)."
+    },
+    {
+      "id": "q19",
+      "answer": "৯",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Since the value of Kw = 1 .0 × 10–14 pKw = 14 i.e., pH + pOH = 14 (12.46)",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 335",
+      "notes": "pH + pOH = 14, so pOH = 9 (c19)."
+    },
+    {
+      "id": "q20",
+      "answer": "১০^−৫ mol dm^−৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Example 12.6 : The pH of a sample of rain water at 25 °C is 5. What is the concentration of hydronium ions ?",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 336",
+      "notes": "pH 5 rain water: [H3O+] = 10^-5 mol dm^-3 (c21)."
+    },
+    {
+      "id": "q21",
+      "answer": "খুব শক্তিশালী আম্লিক দ্রবণের pH ঋণাত্মক হতে পারে, তবে সাধারণ পরিসর ০ থেকে ১৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A strongly acidic solution can have a pH of less than zero ( i.e., negative) and a strongly alkaline solution can have a pH value greater than 14. However the pH range normally observed is between 0 to 14.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 335",
+      "notes": "Strongly acidic pH can be negative; normal range 0-14 (c18)."
+    },
+    {
+      "id": "q22",
+      "answer": "১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Since the value of Kw = 1 .0 × 10–14 pKw = 14 i.e., pH + pOH = 14 (12.46)",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 335",
+      "notes": "1 true (c15), 2 false (alkaline has [OH-] > [H3O+], c17), 3 true (c19)."
+    },
+    {
+      "id": "q23",
+      "answer": "যে দ্রবণ অল্প অ্যাসিড বা ক্ষার যোগ করলেও pH-এর পরিবর্তন রোধ করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Buffer solutions are the ones that resist a change in its pH on adding a small amount of an acid or a base.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 339",
+      "notes": "Buffer definition verbatim (c23)."
+    },
+    {
+      "id": "q24",
+      "answer": "অ্যাসেটিক অ্যাসিড + সোডিয়াম অ্যাসিটেট",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The buffers with pH less than 7 are called acidic buffers and those with pH above 7 are called basic buffers. Acetic acid - sodium acetate buffer is an example of acidic buffer while Ammonium hydroxide - ammonium chloride is a basic buffer.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 339",
+      "notes": "Acetic acid + sodium acetate is the acidic buffer (c24, c25)."
+    },
+    {
+      "id": "q25",
+      "answer": "৭.৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "pH of the blood is very close to 7.4 and pH of saliva is close to 6.8.Fortunately, animals and plants are protected against sharp changes in pH by the presence of buffers.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 339",
+      "notes": "Blood pH close to 7.4 (c26)."
+    },
+    {
+      "id": "q26",
+      "answer": "সমআয়নযুক্ত লবণ যোগ করলে দুর্বল অ্যাসিড/ক্ষারের বিয়োজন দমিত হয়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "According to Le- Chatlier principle, the presence of common ions would make the equilibrium to go to the left. It is said that the common ions suppress the equilibrium.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 337",
+      "notes": "Common ions suppress dissociation, equilibrium shifts left (c22)."
+    },
+    {
+      "id": "q27",
+      "answer": "হিমোগ্লোবিনের অক্সিজেন বহন ক্ষমতা ও উৎসেচকের কাজ pH-নির্ভর; বাফার pH-এর তীব্র পরিবর্তন থেকে দেহকে রক্ষা করে",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "pH of the blood is very close to 7.4 and pH of saliva is close to 6.8.Fortunately, animals and plants are protected against sharp changes in pH by the presence of buffers.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 339",
+      "notes": "Core covered by c26 (buffers protect against sharp pH changes; blood pH 7.4); the haemoglobin/enzyme detail in this option is not itself in the claims."
+    },
+    {
+      "id": "q28",
+      "answer": "ক্ষারীয় বাফার – অ্যাসেটিক অ্যাসিড + সোডিয়াম অ্যাসিটেট",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The buffers with pH less than 7 are called acidic buffers and those with pH above 7 are called basic buffers. Acetic acid - sodium acetate buffer is an example of acidic buffer while Ammonium hydroxide - ammonium chloride is a basic buffer.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 339",
+      "notes": "Acetic acid + sodium acetate is acidic, not basic, buffer (c25); other pairs correct."
+    },
+    {
+      "id": "q29",
+      "answer": "প্রশম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Salt of strong acid + strong base : the cations of the strong bases and the anions of the strong acids do not get hydrolysed. Therefore the salts of this category do not show any acid-base behaviour and are neutral.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 342",
+      "notes": "Strong acid + strong base salt is neutral (c28)."
+    },
+    {
+      "id": "q30",
+      "answer": "NH4+ ক্যাটায়ন আর্দ্রবিশ্লেষিত হয়ে H+ আয়ন উৎপন্ন করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "since it generates H+ (aq) ions, the solution is acidic in nature.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 343",
+      "notes": "NH4Cl cation hydrolyses generating H+, solution acidic (c29)."
+    },
+    {
+      "id": "q31",
+      "answer": "CH3COO− অ্যানায়ন আর্দ্রবিশ্লেষিত হয়ে OH− আয়ন তৈরি করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Since it generates hydroxyl ions the solution is basic in nature.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 343",
+      "notes": "CH3COONa anion hydrolyses generating hydroxyl ions, solution basic (c30)."
+    },
+    {
+      "id": "q32",
+      "answer": "জলের সঙ্গে বিক্রিয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The aqueous solutions of certain salts also behave as acids or bases. They do so because of the hydrolysis of the cation or anion or both. As you know, hydrolysis is a reaction with water.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 342",
+      "notes": "Hydrolysis is a reaction with water (c27)."
+    },
+    {
+      "id": "q33",
+      "answer": "ক্যালসিয়াম ফসফেট, Ca3(PO4)2",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "our bones and teeth are mostly calcium phosphate, Ca3 (PO4 ) 2 , a slightly soluble salt.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 320",
+      "notes": "Bones and teeth mostly calcium phosphate Ca3(PO4)2 (c31)."
+    },
+    {
+      "id": "q34",
+      "answer": "দুর্বল অ্যাসিড ও দুর্বল ক্ষারের আপেক্ষিক শক্তির ওপর",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "The aqueous solutions of certain salts also behave as acids or bases. They do so because of the hydrolysis of the cation or anion or both. As you know, hydrolysis is a reaction with water.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 342",
+      "notes": "not covered by claims - claims mention four salt types (c27) and cover the other three, but never state what a weak acid + weak base salt's nature depends on."
+    },
+    {
+      "id": "q35",
+      "answer": "ক-৩, খ-১, গ-২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Salt of strong acid + strong base : the cations of the strong bases and the anions of the strong acids do not get hydrolysed. Therefore the salts of this category do not show any acid-base behaviour and are neutral.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "page": "p. 342",
+      "notes": "NaCl neutral (c28), NH4Cl acidic (c29), CH3COONa basic (c30)."
+    },
+    {
+      "id": "q36",
+      "answer": "সালফার ডাই-অক্সাইড (SO2)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Sulfur dioxide is the key trace atmospheric gas responsible for acid rain. It gets dissolved in cloud water or in falling raindrops and its oxidation causes an increase in rainwater acidity.",
+      "source_url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "page": "Module 05, section 5",
+      "notes": "SO2 is the key gas for acid rain (c32)."
+    },
+    {
+      "id": "q37",
+      "answer": "অ্যামোনিয়া (NH3)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Its aquated form NH4OH dissociates to form NH4 + and OHions. Ammonia reacts with hydrogen ions and neutralizes acidity.",
+      "source_url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "page": "Module 05, section 5",
+      "notes": "Ammonia reacts with H+ and neutralises acidity (c34)."
+    },
+    {
+      "id": "q38",
+      "answer": "বাইসালফাইট (HSO3−) ও সালফাইট (SO3^2−)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The SO2.H2O undergoes dissociation to form bisulfite (or hydrogensulfite), HSO3 - , and sulfite ions, SO3 2- .",
+      "source_url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "page": "Module 05, section 5",
+      "notes": "Dissolved SO2 forms bisulfite and sulfite ions (c33)."
+    },
+    {
+      "id": "q39",
+      "answer": "৬ থেকে ৮.৫",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Thus, in Indian conditions, where rainwater pH is high and lies in the range 6 - 8.5, dissolution of SO2 would be very high.",
+      "source_url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "page": "Module 05, section 5",
+      "notes": "Indian rainwater pH range 6-8.5 (c35)."
+    },
+    {
+      "id": "q40",
+      "answer": "জলে দ্রবীভূত হলে এরা সম্পূর্ণ বিয়োজিত হয়, তাই অল্প পরিমাণেও জলীয় মাধ্যমে বেশি অম্লতা তৈরি করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Trace amounts of HCl, HNO3 and other strong acids are found in atmosphere. On dissolution in water, these acids fully dissociate in to ions.",
+      "source_url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "page": "Module 05, section 6",
+      "notes": "HCl, HNO3 fully dissociate on dissolution in water (c14)."
+    },
+    {
+      "id": "q41",
+      "answer": "pH দিয়ে এই জলগুলির অম্লতা সহজে প্রকাশ করা যায়; এদের pH সাধারণত ৩–১০ সীমায় থাকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "pH is, therefore, very useful in expressing the acidity of cloud water, rainwater, fog water, sea water and of other water",
+      "source_url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "page": "Module 05, section 7",
+      "notes": "pH expresses acidity of cloud/rain/sea water; environmental range 3-10 (c36)."
+    },
+    {
+      "id": "q42",
+      "answer": "১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Sulfur dioxide is the key trace atmospheric gas responsible for acid rain. It gets dissolved in cloud water or in falling raindrops and its oxidation causes an increase in rainwater acidity.",
+      "source_url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "page": "Module 05, section 5",
+      "notes": "1 true (c32), 2 false (NH4OH gives OH-, neutralises acid, c34), 3 true (c34)."
+    }
+  ]
+}

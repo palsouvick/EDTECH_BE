@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "শারীরিক, মানসিক ও সামাজিকভাবে সম্পূর্ণ সুস্থ থাকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It could be defined as a state of complete physical, mental and social wellbeing.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 129",
+      "notes": "Claim c01 defines health exactly this way."
+    },
+    {
+      "id": "q02",
+      "answer": "তীব্র রোগ (Acute disease)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Some diseases last for only very short periods of time, and these are called acute diseases.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 178",
+      "notes": "Claim c05."
+    },
+    {
+      "id": "q03",
+      "answer": "হাতিপা রোগের সংক্রমণ (Elephantiasis)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Other ailments can last for a long time, even as much as a lifetime, and are called chronic diseases.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 178",
+      "notes": "Claim c06 text names elephantiasis infection as the chronic-disease example."
+    },
+    {
+      "id": "q04",
+      "answer": "ডায়াবেটিস সংক্রামক রোগ নয়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "High blood pressure can be caused by excessive weight and lack of exercise. Similarly, diabetes is not infectious.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 179",
+      "notes": "Claim c08."
+    },
+    {
+      "id": "q05",
+      "answer": "সংক্রামক ও অসংক্রামক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Diseases can be broadly grouped into infectious and noninfectious.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 129",
+      "notes": "Claim c02."
+    },
+    {
+      "id": "q06",
+      "answer": "কেবল ২ সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It could be defined as a state of complete physical, mental and social wellbeing.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 129",
+      "notes": "Claim c01: statement 1 contradicts the definition (not merely absence of disease); statement 2 matches it."
+    },
+    {
+      "id": "q07",
+      "answer": "A ও R উভয়ই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "It is because of such reasons that prevention of diseases is better than their cure.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 185",
+      "notes": "Claim c63 supports A directly; the specific reasons listed in R are not itemised in any claim, so confidence is LIKELY rather than SURE."
+    },
+    {
+      "id": "q08",
+      "answer": "রোগজীবাণু (Pathogen)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A wide range of organisms belonging to bacteria, viruses, fungi, protozoans, helminths, etc., could cause diseases in man. Such diseasecausing organisms are called pathogens.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 130",
+      "notes": "Claim c03."
+    },
+    {
+      "id": "q09",
+      "answer": "ব্যাকটেরিয়া, ছত্রাক, প্রোটোজোয়া ও কিছু শৈবাল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Microorganisms are classified into four major groups. These groups are bacteria, fungi, protozoa and some algae.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/hesc102.pdf",
+      "page": "p. 18",
+      "notes": "Claim c09."
+    },
+    {
+      "id": "q10",
+      "answer": "ভাইরাস কেবল পোষক কোশের ভিতরেই বংশবৃদ্ধি করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "They, however, reproduce only inside the cells of the host organism, which may be a bacterium, plant or animal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/hesc102.pdf",
+      "page": "p. 18",
+      "notes": "Claim c10."
+    },
+    {
+      "id": "q11",
+      "answer": "প্রোটোজোয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Diseases like dysentery and malaria are caused by protozoa(protozoans) whereas typhoid and tuberculosis (TB) are bacterial diseases.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/hesc102.pdf",
+      "page": "p. 18",
+      "notes": "Claim c12."
+    },
+    {
+      "id": "q12",
+      "answer": "হেলিকোব্যাক্টর পাইলোরি (Helicobacter pylori)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Then two Australians made a discovery that a bacterium, Helicobacter pylori, was responsible for peptic ulcers.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 180",
+      "notes": "Claim c57."
+    },
+    {
+      "id": "q13",
+      "answer": "A-২, B-১, C-৩, D-৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Common examples of diseases caused by viruses are the common cold, influenza, dengue fever and AIDS. Diseases like typhoid fever, cholera, tuberculosis and anthrax are caused by bacteria.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 181",
+      "notes": "Claims c58 (typhoid bacterial, cold viral), c20 (malaria protozoan), c29 (ringworm fungal)."
+    },
+    {
+      "id": "q14",
+      "answer": "কেবল ১ সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Diseases where microbes are the immediate causes are called infectious diseases.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 179",
+      "notes": "Claim c07 supports statement 1; statement 2 is false because non-infectious diseases exist (claims c02, c08)."
+    },
+    {
+      "id": "q15",
+      "answer": "সালমোনেলা টাইফি (Salmonella typhi)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Salmonella typhi is a pathogenic bacterium which causes typhoid fever in human beings.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 130",
+      "notes": "Claim c13."
+    },
+    {
+      "id": "q16",
+      "answer": "রাইনোভাইরাস",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Rhino viruses represent one such group of viruses which cause one of the most infectious human ailments – the common cold.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c18."
+    },
+    {
+      "id": "q17",
+      "answer": "ফুসফুসের বায়ুথলি (Alveoli)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Bacteria like Streptococcus pneumoniae and Haemophilus influenzae are responsible for the disease pneumonia in humans which infects the alveoli (air filled sacs) of the lungs.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c16."
+    },
+    {
+      "id": "q18",
+      "answer": "তিনি রাঁধুনি ছিলেন; তাঁর রান্না করা খাবারের মাধ্যমে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "She was a cook by profession and was a typhoid carrier who continued to spread typhoid for several years through the food she prepared.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c15."
+    },
+    {
+      "id": "q19",
+      "answer": "টানা উচ্চ জ্বর (৩৯°–৪০°C), দুর্বলতা, পেটব্যথা, কোষ্ঠকাঠিন্য, মাথাব্যথা ও ক্ষুধামান্দ্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Sustained high fever (39° to 40°C), weakness, stomach pain, constipation, headache and loss of appetite are some of the common symptoms of this disease.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 130",
+      "notes": "Claim c14."
+    },
+    {
+      "id": "q20",
+      "answer": "সংক্রমিত ব্যক্তির ছাড়া ফোঁটা/অ্যারোসল শ্বাসে নিলে অথবা তাঁর গ্লাস-বাসন ভাগ করে ব্যবহার করলে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A healthy person acquires the infection by inhaling the droplets/aerosols released by an infected person or even by sharing glasses and utensils with an infected person.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c17."
+    },
+    {
+      "id": "q21",
+      "answer": "খ. নিউমোনিয়া — স্ট্রেপটোকক্কাস নিউমোনি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Bacteria like Streptococcus pneumoniae and Haemophilus influenzae are responsible for the disease pneumonia in humans which infects the alveoli (air filled sacs) of the lungs.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c16; other pairs contradict claims c13, c18, c20."
+    },
+    {
+      "id": "q22",
+      "answer": "প্লাসমোডিয়াম (Plasmodium)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Plasmodium, a tiny protozoan is responsible for this disease. Different species of Plasmodium (P. vivax, P. malaria and P. falciparum) are responsible for different types of malaria.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c20."
+    },
+    {
+      "id": "q23",
+      "answer": "প্লাসমোডিয়াম ফ্যালসিপেরাম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Of these, malignant malaria caused by Plasmodium falciparum is the most serious one and can even be fatal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c21."
+    },
+    {
+      "id": "q24",
+      "answer": "হিমোজয়েন (Haemozoin)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The rupture of RBCs is associated with release of a toxic substance, haemozoin, which is responsible for the chill and high fever recurring every three to four days.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Claim c23."
+    },
+    {
+      "id": "q25",
+      "answer": "এন্টামিবা হিস্টোলাইটিকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Entamoeba histolytica is a protozoan parasite in the large intestine of human which causes amoebiasis (amoebic dysentery).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 132",
+      "notes": "Claim c25."
+    },
+    {
+      "id": "q26",
+      "answer": "উচেরেরিয়া কৃমি সাধারণত পায়ের লসিকা নালীতে দীর্ঘস্থায়ী প্রদাহ ঘটায় এবং রোগটি স্ত্রী মশা-বাহকের কামড়ে ছড়ায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Wuchereria (W. bancrofti and W. malayi), the filarial worms cause a slowly developing chronic inflammation of the organs in which they live for many years, usually the lymphatic vessels of the lower limbs and the disease is called elephantiasis or filariasis (Figure 7.2).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 132",
+      "notes": "Claim c28 text adds transmission by female mosquito vectors; claim c40 confirms filariasis is vector-transmitted."
+    },
+    {
+      "id": "q27",
+      "answer": "মাইক্রোস্পোরাম, ট্রাইকোফাইটন ও এপিডার্মোফাইটন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Many fungi belonging to the genera Microsporum, Trichophyton and Epidermophyton are responsible for ringworms which is one of the most common infectious diseases in man.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 132",
+      "notes": "Claim c29."
+    },
+    {
+      "id": "q28",
+      "answer": "১ ও ২ উভয়ই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Plasmodium enters the human body as sporozoites (infectious form) through the bite of infected female Anopheles mosquito.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 131",
+      "notes": "Statement 2 = claim c22; statement 1 = claim c24 (two hosts, human and mosquito)."
+    },
+    {
+      "id": "q29",
+      "answer": "ছোঁয়াচে রোগ (Communicable disease)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Microbial diseases that can spread from an infected person to a healthy person through air, water, food or physical contact are called communicable diseases. Examples of such diseases include cholera, common cold, chicken pox and tuberculosis.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/hesc102.pdf",
+      "page": "p. 22",
+      "notes": "Claim c31."
+    },
+    {
+      "id": "q30",
+      "answer": "স্ত্রী এডিস (Aedes) মশা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Female Aedes mosquito acts as carrier of dengue virus.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/hesc102.pdf",
+      "page": "p. 22",
+      "notes": "Claim c30."
+    },
+    {
+      "id": "q31",
+      "answer": "সাধারণ সর্দি, কোভিড-১৯, নিউমোনিয়া ও যক্ষ্মা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Examples of such diseases spread through the air are the common cold, coronavirus disease (COVID-19), pneumonia and tuberculosis.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 182",
+      "notes": "Claim c32."
+    },
+    {
+      "id": "q32",
+      "answer": "রোগীর মলমূত্র পানীয় জলে মিশে গেলে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "This occurs if the excreta from someone suffering from an infectious gut disease, such as cholera, get mixed with the drinking water used by people living nearby.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 183",
+      "notes": "Claim c33."
+    },
+    {
+      "id": "q33",
+      "answer": "যেসব প্রাণী রোগীর দেহ থেকে অন্য পোষকের দেহে সংক্রামক জীবাণু বহন করে নিয়ে যায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "These animals are thus the intermediaries and are called vectors. The commonest vectors we all know are mosquitoes.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 183",
+      "notes": "Claim c34."
+    },
+    {
+      "id": "q34",
+      "answer": "বাহক ও তাদের প্রজননস্থল নিয়ন্ত্রণ বা নির্মূল করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For diseases such as malaria and filariasis that are transmitted through insect vectors, the most important measure is to control or eliminate the vectors and their breeding places.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 133",
+      "notes": "Claim c40."
+    },
+    {
+      "id": "q35",
+      "answer": "A-২, B-১, C-৩, D-৪",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Examples of such diseases spread through the air are the common cold, coronavirus disease (COVID-19), pneumonia and tuberculosis.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 182",
+      "notes": "TB-airborne (c32), cholera-water (c33), malaria-mosquito (c24/c34) are claim-covered and fix this option uniquely; the Hepatitis A-water pairing itself is not stated in any claim, so LIKELY not SURE."
+    },
+    {
+      "id": "q36",
+      "answer": "সহজাত অনাক্রম্যতা (Innate immunity)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Innate immunity is nonspecific type of defence, that is present at the time of birth.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 134",
+      "notes": "Claim c42."
+    },
+    {
+      "id": "q37",
+      "answer": "Acquired Immuno Deficiency Syndrome",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The word AIDS stands for Acquired Immuno Deficiency Syndrome. This means deficiency of immune system, acquired during the lifetime of an individual indicating that it is not a congenital disease.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 138",
+      "notes": "Claim c48."
+    },
+    {
+      "id": "q38",
+      "answer": "স্মৃতি (Memory)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The principle of immunisation or vaccination is based on the property of ‘memory’ of the immune system. In vaccination, a preparation of antigenic proteins of pathogen or inactivated/weakened pathogen (vaccine) are introduced into the body.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 136",
+      "notes": "Claim c46."
+    },
+    {
+      "id": "q39",
+      "answer": "নিষ্ক্রিয় অনাক্রম্যতা (Passive immunity)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The yellowish fluid colostrum secreted by mother during the initial days of lactation has abundant antibodies (IgA) to protect the infant.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 136",
+      "notes": "Claim c45 (readymade IgA antibodies) matches the passive-immunity definition in claim c44."
+    },
+    {
+      "id": "q40",
+      "answer": "HIV শুধু ছোঁয়া বা শারীরিক সংস্পর্শেই ছড়ায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It is important to note that HIV/AIDS is not spread by mere touch or physical contact; it spreads only through body fluids.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 139",
+      "notes": "Claim c51 directly contradicts this option; the other options match claims c49 and c50."
+    },
+    {
+      "id": "q41",
+      "answer": "টিউমার দুই প্রকার — বিনাইন ও ম্যালিগন্যান্ট; মেটাস্ট্যাসিস ম্যালিগন্যান্ট টিউমারের সবচেয়ে ভীতিকর ধর্ম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Tumors are of two types: benign and malignant. This property called metastasis is the most feared property of malignant tumors.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+      "page": "p. 141",
+      "notes": "Claim c55."
+    },
+    {
+      "id": "q42",
+      "answer": "A ও R উভয়ই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "But viruses do not use these pathways at all, and that is the reason why antibiotics do not work against viral infections.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc113.pdf",
+      "page": "p. 181",
+      "notes": "Claim c36 gives R; claim c37 confirms A (antibiotics not effective against cold and flu, which are viral)."
+    }
+  ]
+}

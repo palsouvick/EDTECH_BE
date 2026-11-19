@@ -1,0 +1,1595 @@
+{
+  "book": "science",
+  "code": "SCI-06",
+  "number": 6,
+  "part": "chemistry",
+  "title": "পদার্থ: মৌল, যৌগ ও মিশ্রণ",
+  "subtitle": "বিশুদ্ধ পদার্থ থেকে পরমাণু-অণু: মৌল, যৌগ, মিশ্রণ, দ্রবণ ও পৃথকীকরণের ভিত্তি",
+  "subtopics": [
+    "chemistry_matter"
+  ],
+  "related_facts": [
+    "GK-SCI-020"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (37 SURE, 4 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 12 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-06.json and drafts/SCI-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-06_REPORT.md.",
+    "checked_claims": 50,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "আমাদের চারপাশের প্রতিটি জিনিসই পদার্থ — কিন্তু সব পদার্থ এক রকম নয়। কোনোটি বিশুদ্ধ (এক ধরনের কণা), কোনোটি মিশ্রণ (একাধিক পদার্থের মেলবন্ধন)। এই অধ্যায়ে আমরা শিখব বিশুদ্ধ পদার্থের দুই ভাগ — মৌল ও যৌগ — কীভাবে চেনা যায়, মিশ্রণের প্রকারভেদ (সমসত্ত্ব, অসমসত্ত্ব, দ্রবণ, কোলয়েড, সাসপেনশন) কী, পরমাণু ও অণুর ধারণা কোথা থেকে এল, এবং মিশ্রণের উপাদান আলাদা করার ভৌত পদ্ধতিগুলি কী কী। PSC, SSC ও রেলের পরীক্ষায় সংকর ধাতু, প্রতীক ও যৌগ-মিশ্রণের পার্থক্য থেকে প্রায়ই প্রশ্ন আসে — এই অধ্যায় সেই ভিত্তিটাই গড়ে দেবে।",
+    "you_will_learn": [
+      "বিশুদ্ধ পদার্থ ও মিশ্রণের পার্থক্য এবং দৈনন্দিন উদাহরণ (দুধ, বাতাস, সমুদ্রের জল)",
+      "সমসত্ত্ব ও অসমসত্ত্ব মিশ্রণ; দ্রবণ, দ্রাবক ও দ্রাবের ধারণা",
+      "সম্পৃক্ত দ্রবণ, সাসপেনশন, কোলয়েড ও টিন্ডাল প্রভাব",
+      "মৌলের সংজ্ঞা (ল্যাভয়সিয়ে), ধাতু-অধাতু-ধাতুকল্প ও মৌলের সংখ্যা-অবস্থা",
+      "পরমাণু-অণুর ধারণা: কণাদ, ডাল্টন, প্রতীক লেখার নিয়ম ও পরমাণুকতা (atomicity)",
+      "যৌগ বনাম মিশ্রণ: নির্দিষ্ট অনুপাত, ধর্মের পার্থক্য ও পৃথকীকরণের পদ্ধতি",
+      "ভৌত ও রাসায়নিক পরিবর্তন এবং ভর সংরক্ষণ ও স্থির অনুপাতের সূত্র"
+    ]
+  },
+  "sections": [
+    {
+      "id": "pure_substance",
+      "heading": "বিশুদ্ধ পদার্থ ও মিশ্রণ",
+      "quick": "বিশুদ্ধ পদার্থে থাকে একটিমাত্র ধরনের কণা — সব কণার রাসায়নিক প্রকৃতি এক। একাধিক বিশুদ্ধ পদার্থ মিশে থাকলে তা মিশ্রণ: দুধ, বাতাস, সমুদ্রের জল সবই মিশ্রণ, যদিও বাজারের ভাষায় সেগুলিকে 'বিশুদ্ধ' বলা হয়।",
+      "standard": "বিজ্ঞানীর কাছে 'বিশুদ্ধ' শব্দের অর্থ বাজারের অর্থের চেয়ে আলাদা। বাজারে 'বিশুদ্ধ দুধ' মানে ভেজালহীন দুধ; কিন্তু বিজ্ঞানীর চোখে দুধ মোটেই বিশুদ্ধ পদার্থ নয় — দুধ আসলে জল, চর্বি, প্রোটিন ইত্যাদির মিশ্রণ।\n\nসংজ্ঞা মনে রাখো: **বিশুদ্ধ পদার্থে একটিমাত্র ধরনের কণা থাকে** — অর্থাৎ পদার্থটির সব কণার রাসায়নিক প্রকৃতি একই। উৎস যাই হোক, বিশুদ্ধ পদার্থের ধর্ম সবসময় একই থাকে। চিনি এর উদাহরণ: চিনিতে এক ধরনেরই বিশুদ্ধ পদার্থ থাকে এবং এর গঠন সর্বত্র এক।\n\nবিপরীতে, **মিশ্রণ একাধিক ধরনের বিশুদ্ধ পদার্থ দিয়ে গঠিত**। আমাদের চারপাশের বেশিরভাগ পদার্থই মিশ্রণ — সমুদ্রের জল, খনিজ, মাটি সবই মিশ্রণ। কোমল পানীয় বা মাটি একক বিশুদ্ধ পদার্থ নয়।\n\nএকটি সূক্ষ্ম উদাহরণ: খাদ্য লবণ (সোডিয়াম ক্লোরাইড) নিজে একটি বিশুদ্ধ পদার্থ; কিন্তু লবণ জলে গুললেই তৈরি হয় লবণ-জল — দুটি বিশুদ্ধ পদার্থের মিশ্রণ। আর সেই লবণকে জল থেকে আলাদা করা যায় বাষ্পীভবনের ভৌত প্রক্রিয়ায় — এই 'ভৌত প্রক্রিয়ায় আলাদা করা যায়' বৈশিষ্ট্যটাই মিশ্রণের পরিচয়, যা শেষ পরিচ্ছেদে বিস্তারিত আসবে।",
+      "deep": "পরীক্ষায় প্রায়ই জানতে চাওয়া হয় কোনগুলি বিশুদ্ধ পদার্থ: NCERT-র অনুশীলনী অনুযায়ী বরফ, লোহা, হাইড্রোক্লোরিক অ্যাসিড, ক্যালসিয়াম অক্সাইড ও পারদ বিশুদ্ধ পদার্থের দলে পড়ে; অন্যদিকে ইট, কাঠ, বাতাস ইত্যাদি মিশ্রণ। মনে রাখার কৌশল: যার একটি নির্দিষ্ট রাসায়নিক পরিচয় (এক ধরনের কণা/সংকেত) আছে, সেটাই বিশুদ্ধ।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "'বিশুদ্ধ' শব্দের দুই অর্থ",
+          "body": "দৈনন্দিন ভাষায় বিশুদ্ধ = ভেজালহীন। বিজ্ঞানে বিশুদ্ধ = এক ধরনের কণা দিয়ে গঠিত। তাই 'বিশুদ্ধ দুধ' বা 'বিশুদ্ধ ঘি' বিজ্ঞানের ভাষায় মিশ্রণ। পরীক্ষায় এই ফাঁদটি প্রায়ই থাকে।",
+          "claims": [
+            "c01",
+            "c02"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "mixture_kinds",
+      "heading": "মিশ্রণের প্রকার: সমসত্ত্ব, অসমসত্ত্ব ও দ্রবণ",
+      "quick": "যে মিশ্রণের গঠন সর্বত্র সুষম তা সমসত্ত্ব মিশ্রণ বা দ্রবণ — যেমন লবণ-জল। যার গঠন অসুষম ও অংশগুলি আলাদা চেনা যায় তা অসমসত্ত্ব — যেমন তেল-জল। দ্রবণে বেশি পরিমাণের উপাদান দ্রাবক, কম পরিমাণেরটি দ্রাব।",
+      "standard": "মিশ্রণকে উপাদানগুলির বণ্টনের ভিত্তিতে দুই ভাগে ভাগ করা হয়।\n\n**সমসত্ত্ব মিশ্রণ (homogeneous mixture):** গঠন সর্বত্র সুষম। জলে লবণ বা চিনি গুললে যে মিশ্রণ পাওয়া যায় তা সমসত্ত্ব — প্রতিটি চুমুকে স্বাদ এক। সমসত্ত্ব মিশ্রণকেই **দ্রবণ (solution)** বলা হয়: দ্রবণ হল দুই বা ততোধিক পদার্থের সমসত্ত্ব মিশ্রণ। লেবুর শরবত, সোডা ওয়াটার — সবই দ্রবণ। মনে রাখবে, সমসত্ত্ব মিশ্রণের গঠন পরিবর্তনশীল হতে পারে — কম বা বেশি চিনি দিলেও তা দ্রবণই থাকে।\n\n**অসমসত্ত্ব মিশ্রণ (heterogeneous mixture):** গঠন অসুষম, অংশগুলি ভৌতভাবে আলাদা। NCERT-র উদাহরণ: সোডিয়াম ক্লোরাইড ও লোহার গুঁড়োর মিশ্রণ, লবণ ও গন্ধকের মিশ্রণ, তেল ও জলের মিশ্রণ।\n\nদ্রবণের দুই উপাদান: যে উপাদান অপরটিকে দ্রবীভূত করে (সাধারণত বেশি পরিমাণে থাকে) তা **দ্রাবক (solvent)**; যা দ্রবীভূত হয় (সাধারণত কম পরিমাণে) তা **দ্রাব (solute)**। চিনির জলীয় দ্রবণে জল দ্রাবক, চিনি দ্রাব। আয়োডিনের অ্যালকোহলীয় দ্রবণ 'টিংচার অব আয়োডিন'-এ আয়োডিন দ্রাব, অ্যালকোহল দ্রাবক। সোডা ওয়াটারে কার্বন ডাইঅক্সাইড গ্যাস দ্রাব, জল দ্রাবক।\n\nদ্রবণ শুধু তরলেই হয় না: **সংকর ধাতু (alloy)** হল কঠিন দ্রবণ, আর **বাতাস** হল গ্যাসে গ্যাসের দ্রবণ — বাতাসের প্রধান দুই উপাদান নাইট্রোজেন (৭৮%) ও অক্সিজেন (২১%)। সংকর ধাতু দুই বা ততোধিক ধাতু (বা ধাতু ও অধাতু)-র মিশ্রণ; ভৌত পদ্ধতিতে এদের আলাদা করা যায় না, তবু উপাদানগুলির ধর্ম দেখায় ও গঠন পরিবর্তনশীল বলে এদের মিশ্রণই ধরা হয়। যেমন **পিতল (brass)** — প্রায় ৩০% দস্তা ও ৭০% তামার মিশ্রণ। পিতল ও ব্রোঞ্জ (তামা + টিন) নিয়ে পরীক্ষায় বারবার প্রশ্ন আসে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পিতল বনাম ব্রোঞ্জ",
+          "body": "পিতল = তামা + দস্তা (NCERT: প্রায় ৭০% তামা, ৩০% দস্তা)। ব্রোঞ্জ = তামা + টিন — WBCS ২০২২ ও WBPSC Miscellaneous ২০২৩-এ ব্রোঞ্জ নিয়ে প্রশ্ন এসেছে; সল্ডার = টিন + সিসা (WBCS ২০২১)। তিনটিই সংকর ধাতু অর্থাৎ মিশ্রণ, যৌগ নয়।",
+          "claims": [
+            "c08"
+          ]
+        }
+      ],
+      "claims": [
+        "c05",
+        "c06",
+        "c07",
+        "c09",
+        "c10",
+        "c08"
+      ]
+    },
+    {
+      "id": "solution_forms",
+      "heading": "দ্রবণের রূপ: সম্পৃক্ত দ্রবণ, সাসপেনশন ও কোলয়েড",
+      "quick": "নির্দিষ্ট তাপমাত্রায় আর দ্রাব না গুললে দ্রবণ সম্পৃক্ত। কণা বড় ও দৃশ্যমান হলে সাসপেনশন (ছাঁকনিতে আলাদা হয়); কণা মাঝারি হলে কোলয়েড — দেখতে সমসত্ত্ব মনে হলেও আসলে অসমসত্ত্ব, আলো বিচ্ছুরণ করে (টিন্ডাল প্রভাব)।",
+      "standard": "দ্রবণে দ্রাবের পরিমাণ অনুযায়ী তা লঘু, গাঢ় বা **সম্পৃক্ত (saturated)** হতে পারে। নির্দিষ্ট তাপমাত্রায় কোনো দ্রবণে যতটা দ্রাব দ্রবীভূত হওয়া সম্ভব ততটা দ্রবীভূত হয়ে গেলে — অর্থাৎ আর দ্রাব গুলতে না পারলে — তাকে সম্পৃক্ত দ্রবণ বলে। ওই তাপমাত্রায় সম্পৃক্ত দ্রবণে থাকা দ্রাবের পরিমাণই দ্রাব্যতা (solubility)।\n\n**প্রকৃত দ্রবণের ধর্ম:** কণা অত্যন্ত ছোট, খালি চোখে দেখা যায় না; আলো বিচ্ছুরণ করে না, তাই রশ্মির পথ দেখা যায় না; দ্রাব কণা **পরিস্রাবণে (filtration) আলাদা করা যায় না** এবং রেখে দিলে তলিয়ে যায় না — দ্রবণ স্থিতিশীল।\n\n**সাসপেনশন (suspension):** অসমসত্ত্ব মিশ্রণ যেখানে কঠিন কণা দ্রবীভূত না হয়ে তরলে ভেসে থাকে। কণা খালি চোখে দেখা যায়, আলো বিচ্ছুরণ করে, রেখে দিলে তলিয়ে যায় (অস্থিতিশীল) এবং **পরিস্রাবণে আলাদা করা যায়**। উদাহরণ: চকগুঁড়ো বা ময়দা জলে গুললে।\n\n**কোলয়েড (colloid):** কণা সাসপেনশনের চেয়ে ছোট — খালি চোখে দেখা যায় না, কিন্তু আলো বিচ্ছুরণের পক্ষে যথেষ্ট বড়। দেখতে সমসত্ত্ব মনে হলেও কোলয়েড আসলে **অসমসত্ত্ব মিশ্রণ** — দুধই প্রধান উদাহরণ। কোলয়েড কণা দ্বারা আলোর বিচ্ছুরণকে বলে **টিন্ডাল প্রভাব (Tyndall effect)** — ঘন জঙ্গলে গাছের ফাঁক দিয়ে সূর্যের আলো বা ছোট ছিদ্র দিয়ে ঘরে ঢোকা আলোয় ধুলিকণা দেখা যাওয়া এরই উদাহরণ। কোলয়েড রেখে দিলে তলিয়ে যায় না (স্থিতিশীল) এবং পরিস্রাবণে আলাদা হয় না; তবে বিশেষ **কেন্দ্রাতিগ (centrifugation)** পদ্ধতিতে কোলয়েড কণা আলাদা করা যায়। কোলয়েডের ছড়িয়ে থাকা অংশকে বলে বিস্তৃত দশা (dispersed phase) আর যার মধ্যে ছড়িয়ে থাকে তাকে বিস্তার মাধ্যম (dispersion medium) — যেমন কুয়াশা (তরল + গ্যাস), দুধ (তরল + তরল, emulsion), জেলি ও পনির (gel)।",
+      "deep": "তিন রূপের তুলনা পরীক্ষার প্রিয় বিষয়: দ্রবণ — কণা সবচেয়ে ছোট, আলো বিচ্ছুরণ নয়, ছাঁকা যায় না, স্থিতিশীল। কোলয়েড — কণা মাঝারি, টিন্ডাল প্রভাব আছে, ছাঁকা যায় না কিন্তু কেন্দ্রাতিগে আলাদা হয়, স্থিতিশীল। সাসপেনশন — কণা সবচেয়ে বড় ও দৃশ্যমান, আলো বিচ্ছুরণ আছে, ছাঁকা যায়, অস্থিতিশীল (তলিয়ে যায়)।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "এক লাইনে তিন রূপ",
+          "body": "দ্রবণ: কণা অদৃশ্য, টিন্ডাল নয়। কোলয়েড: কণা অদৃশ্য, টিন্ডাল আছে। সাসপেনশন: কণা দৃশ্যমান, তলিয়ে যায়।",
+          "claims": [
+            "c12",
+            "c13",
+            "c16"
+          ]
+        }
+      ],
+      "claims": [
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17"
+      ]
+    },
+    {
+      "id": "elements",
+      "heading": "মৌল: সংজ্ঞা, ধাতু-অধাতু-ধাতুকল্প",
+      "quick": "রাসায়নিক গঠন অনুযায়ী বিশুদ্ধ পদার্থ দুই প্রকার — মৌল ও যৌগ। ল্যাভয়সিয়ের সংজ্ঞায় মৌল হল পদার্থের সেই মৌলিক রূপ যা রাসায়নিক বিক্রিয়ায় সরলতর পদার্থে ভাঙা যায় না। মৌল তিন শ্রেণির: ধাতু, অধাতু ও ধাতুকল্প।",
+      "standard": "রাসায়নিক গঠনের ভিত্তিতে পদার্থকে **মৌল (element)** ও **যৌগ (compound)** — এই দুই ভাগে ভাগ করা হয়।\n\n'মৌল' শব্দটি প্রথম ব্যবহার করেন **রবার্ট বয়েল (Robert Boyle), ১৬৬১ সালে**। ফরাসি রসায়নবিদ **ল্যাভয়সিয়ে (Lavoisier, ১৭৪৩–৯৪)** প্রথম মৌলের পরীক্ষামূলকভাবে কার্যকর সংজ্ঞা দেন: মৌল হল পদার্থের মৌলিক রূপ, যাকে রাসায়নিক বিক্রিয়ায় সরলতর পদার্থে ভেঙে ফেলা যায় না। লোহা, অক্সিজেন, সোনা — প্রতিটিই মৌল।\n\n**ধাতু (metal):** সাধারণ ধর্ম — দীপ্তি বা চকচকে ভাব, রুপালি-ধূসর বা সোনালি-হলুদ রং, তাপ ও তড়িৎ পরিবহণ, তারে টানা যায় (ductile), পিটিয়ে পাত করা যায় (malleable), আঘাত করলে শব্দ হয় (sonorous)। উদাহরণ: সোনা, রুপা, তামা, লোহা, সোডিয়াম, পটাশিয়াম। ব্যতিক্রম মনে রাখো: **পারদ (mercury) একমাত্র ধাতু যা ঘরের তাপমাত্রায় তরল**।\n\n**অধাতু (non-metal):** নানা রঙের হয়, তাপ-তড়িতের কুপরিবাহী, চকচকে নয়, ঘাতসহ নয়। উদাহরণ: হাইড্রোজেন, অক্সিজেন, আয়োডিন, কার্বন (কয়লা, কোক), ব্রোমিন, ক্লোরিন।\n\n**ধাতুকল্প (metalloid):** ধাতু ও অধাতুর মাঝামাঝি ধর্মবিশিষ্ট মৌল — বোরন, সিলিকন, জার্মেনিয়াম। সিলিকন অর্ধপরিবাহী হিসেবে পরীক্ষায় আসে (WBCS ২০২৪)।\n\n**সংখ্যা ও অবস্থা:** বর্তমানে জ্ঞাত মৌল **১০০-এর বেশি**; তার মধ্যে **৯২টি প্রাকৃতিক**, বাকিগুলি মানবসৃষ্ট। বেশিরভাগ মৌলই কঠিন; **১১টি মৌল ঘরের তাপমাত্রায় গ্যাস** এবং **মাত্র দুটি মৌল তরল — পারদ ও ব্রোমিন**। গ্যালিয়াম ও সিজিয়াম ঘরের তাপমাত্রার সামান্য ওপরে (৩০৩ K) গলে তরল হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "তরল মৌলের ফাঁদ",
+          "body": "ঘরের তাপমাত্রায় তরল মৌল মাত্র দুটি: পারদ (ধাতু) ও ব্রোমিন (অধাতু)। প্রশ্নে 'তরল ধাতু' বললে উত্তর পারদ; 'তরল অধাতু' বললে ব্রোমিন।",
+          "claims": [
+            "c27",
+            "c23"
+          ]
+        }
+      ],
+      "claims": [
+        "c20",
+        "c22",
+        "c21",
+        "c50",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27"
+      ]
+    },
+    {
+      "id": "atoms_molecules",
+      "heading": "পরমাণু ও অণু: কণাদ থেকে ডাল্টন, প্রতীক ও সংকেত",
+      "quick": "পদার্থের ক্ষুদ্রতম কণার ধারণা প্রাচীন ভারতেই এসেছিল — মহর্ষি কণাদ তার নাম দেন 'পরমাণু'। ডাল্টনের মতে সব পদার্থই পরমাণু দিয়ে গঠিত। প্রতিটি মৌলের একটি অনন্য প্রতীক আছে; অণু হল মৌল বা যৌগের ক্ষুদ্রতম স্বাধীন কণা।",
+      "standard": "পদার্থকে ভাগ করতে করতে এমন এক পর্যায় আসে যেখানে আর ভাগ করা যায় না — এই ধারণা প্রাচীনকালের। ভারতীয় দার্শনিক **মহর্ষি কণাদ** (খ্রিস্টপূর্ব প্রায় ৫০০) বলেন, পদার্থ (padarth) ভাগ করতে থাকলে ক্রমশ ছোট কণা পাওয়া যাবে; শেষে মিলবে সেই ক্ষুদ্রতম কণা যার আর বিভাজন সম্ভব নয় — তিনি তার নাম দেন **পরমাণু (Parmanu)**। গ্রিক দার্শনিক ডেমোক্রিটাসও একই ধারণায় ক্ষুদ্রতম কণাকে বলেন 'atom' (অর্থ: অবিভাজ্য)।\n\nঅষ্টাদশ শতকের শেষে বিজ্ঞানীরা মৌল ও যৌগের পার্থক্য চিহ্নিত করেন এবং ল্যাভয়সিয়ে রসায়নের দুটি ভিত্তিসূত্র — ভর সংরক্ষণ ও স্থির অনুপাত — প্রতিষ্ঠা করেন (পরের পরিচ্ছেদে)। **জন ডাল্টন (John Dalton)** ১৮০৮ সালে পরমাণুবাদ দেন: **মৌল, যৌগ বা মিশ্রণ — সব পদার্থই পরমাণু নামক ক্ষুদ্র কণা দিয়ে গঠিত**; কোনো মৌলের সব পরমাণু ভর ও রাসায়নিক ধর্মে একই, ভিন্ন মৌলের পরমাণু ভিন্ন।\n\n**প্রতীক (symbol):** ডাল্টনই প্রথম নির্দিষ্ট অর্থে মৌলের প্রতীক ব্যবহার করেন; পরে বার্জেলিয়াস প্রস্তাব করেন প্রতীক হবে নামের এক বা দুটি অক্ষর। আজ IUPAC নাম ও প্রতীক অনুমোদন করে। নিয়ম: **প্রথম অক্ষর সবসময় বড় হাতের, দ্বিতীয় অক্ষর ছোট হাতের** — যেমন Al (অ্যালুমিনিয়াম), Co (কোবাল্ট); CO লিখলে তা কার্বন মনোক্সাইড বোঝায়। কিছু প্রতীক এসেছে লাতিন নাম থেকে: লোহা **Fe** (ferrum), সোডিয়াম **Na** (natrium), পটাশিয়াম **K** (kalium), তামা Cu, সোনা Au, রুপা Ag, সিসা Pb। প্রতিটি মৌলের নাম ও অনন্য প্রতীক আছে — পটাশিয়ামের প্রতীক K নিয়ে KP Constable ২০২৩-এ প্রশ্ন এসেছে।\n\n**অণু (molecule):** বেশিরভাগ মৌলের পরমাণু স্বাধীনভাবে থাকতে পারে না; পরমাণু যুক্ত হয়ে অণু ও আয়ন গঠন করে। অণু হল **মৌল বা যৌগের ক্ষুদ্রতম কণা যা স্বাধীনভাবে থাকতে পারে এবং ওই পদার্থের সব ধর্ম দেখায়**। একই মৌলের পরমাণু দিয়ে গঠিত অণু: অক্সিজেন অণুতে ২টি পরমাণু (O₂, দ্বিপরমাণুক), ৩টি যুক্ত হলে ওজোন (O₃); হিলিয়াম ও আর্গনের অণুতে ১টিমাত্র পরমাণু (একপরমাণুক)। অণুতে পরমাণুর সংখ্যাকে বলে **পরমাণুকতা (atomicity)** — ফসফরাস চতুঃপরমাণুক, গন্ধক বহুপরমাণুক। ভিন্ন মৌলের পরমাণু নির্দিষ্ট অনুপাতে যুক্ত হয়ে যৌগের অণু গঠন করে। ধাতু ও অধাতুর যৌগে আধানযুক্ত কণা থাকে — এদের বলে **আয়ন (ion)**; যেমন সোডিয়াম ক্লোরাইডে Na⁺ ও Cl⁻ আয়ন। যৌগের গঠনের সাংকেতিক রূপই **রাসায়নিক সংকেত (chemical formula)** — যেমন H₂O, NaCl, CaO; আর অণুর ভর হল তাতে থাকা সব পরমাণুর পারমাণবিক ভরের যোগফল (আণবিক ভর)।",
+      "deep": "পরমাণু এত ছোট যে খালি চোখে দেখা যায় না — লক্ষ লক্ষ পরমাণু স্তূপ করলেও এই পৃষ্ঠার মতো পাতলা স্তর হয়। পরমাণুর ব্যাসার্ধ ন্যানোমিটারে মাপা হয়; জলের অণুর আকার প্রায় ১০⁻⁹ মিটার।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "Co বনাম CO",
+          "body": "Co = কোবাল্ট (মৌল)। CO = কার্বন মনোক্সাইড (যৌগ)। প্রতীকের দ্বিতীয় অক্ষর ছোট হাতের হলেই একই মৌল, বড় হাতের হলেই নতুন মৌল শুরু — এই নিয়ম ভাঙলেই অর্থ বদলে যায়।",
+          "claims": [
+            "c40"
+          ]
+        }
+      ],
+      "claims": [
+        "c34",
+        "c35",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47"
+      ]
+    },
+    {
+      "id": "compounds_separation",
+      "heading": "যৌগ বনাম মিশ্রণ, পরিবর্তন ও পৃথকীকরণ",
+      "quick": "যৌগে মৌল নির্দিষ্ট অনুপাতে রাসায়নিকভাবে যুক্ত থাকে, ধর্ম সম্পূর্ণ নতুন, আলাদা করতে রাসায়নিক পদ্ধতি লাগে। মিশ্রণে অনুপাত যেকোনো, ধর্ম উপাদানগুলিরই মতো, ভৌত পদ্ধতিতেই আলাদা হয়। বাষ্পীভবন, পরিস্রাবণ ও কেন্দ্রাতিগকরণ — এই তিন ভৌত পদ্ধতি এই অধ্যায়ের পৃথকীকরণ-ভিত্তি।",
+      "standard": "**যৌগ (compound):** দুই বা ততোধিক মৌল **নির্দিষ্ট অনুপাতে রাসায়নিকভাবে যুক্ত** হয়ে গঠিত পদার্থ। জলে হাইড্রোজেন ও অক্সিজেনের ভরের অনুপাত সবসময় **১:৮** — জল যেখান থেকেই আসুক। অ্যামোনিয়ায় নাইট্রোজেন ও হাইড্রোজেনের অনুপাত ১৪:৩। এটাই **প্রুস্তের স্থির অনুপাতের সূত্র**: কোনো রাসায়নিক পদার্থে মৌলগুলি ভরের হিসাবে সবসময় নির্দিষ্ট অনুপাতে থাকে।\n\nলোহা-গন্ধকের পরীক্ষাটি যৌগ বনাম মিশ্রণের সবচেয়ে ভালো প্রমাণ: লোহার গুঁড়ো ও গন্ধক শুধু মেশালে মিশ্রণ পাওয়া যায় — চুম্বক দিয়ে লোহা আলাদা করা যায়, ধর্ম উপাদানগুলিরই মতো। কিন্তু মিশ্রণটিকে জোরে উত্তপ্ত করলে **যৌগ** তৈরি হয়, যার ধর্ম উপাদান মৌলগুলির চেয়ে **সম্পূর্ণ আলাদা** এবং চুম্বকে আর লোহা আলাদা হয় না।\n\n**তুলনার সারণি:**\n\n| বিষয় | মিশ্রণ | যৌগ |\n|---|---|---|\n| গঠন | পরিবর্তনশীল (যেকোনো অনুপাত) | সবসময় নির্দিষ্ট |\n| ধর্ম | উপাদানগুলির ধর্মই দেখায় | সম্পূর্ণ নতুন ধর্ম |\n| নতুন পদার্থ | তৈরি হয় না | তৈরি হয় |\n| পৃথকীকরণ | ভৌত পদ্ধতিতে সহজে | শুধু রাসায়নিক/তড়িৎ-রাসায়নিক বিক্রিয়ায় |\n\n**ভৌত ও রাসায়নিক পরিবর্তন:** অবস্থার রূপান্তর (বরফ → জল → বাষ্প) ভৌত পরিবর্তন — গঠন ও রাসায়নিক প্রকৃতি বদলায় না। রাসায়নিক পরিবর্তনে নতুন পদার্থ তৈরি হয় — একে রাসায়নিক বিক্রিয়াও বলে। ম্যাগনেসিয়াম ফিতা বাতাসে পোড়ালে উজ্জ্বল সাদা শিখায় জ্বলে সাদা গুঁড়ো **ম্যাগনেসিয়াম অক্সাইড** (একটি যৌগ) তৈরি হয় — ম্যাগনেসিয়াম ও অক্সিজেনের বিক্রিয়ায়। বিক্রিয়া চেনার লক্ষণ: অবস্থার পরিবর্তন, রঙের পরিবর্তন, গ্যাস নির্গমন, তাপমাত্রার পরিবর্তন। রাসায়নিক বিক্রিয়ায় **ভর সংরক্ষিত থাকে** — ভর সৃষ্টিও হয় না, ধ্বংসও হয় না (ল্যাভয়সিয়ের ভর সংরক্ষণ সূত্র)।\n\n**পৃথকীকরণ:** মিশ্রণকে উপযুক্ত পৃথকীকরণ পদ্ধতিতে বিশুদ্ধ পদার্থে ভাগ করা যায়। এই অধ্যায়ের উৎসে সরাসরি পাওয়া পদ্ধতিগুলি: (১) **বাষ্পীভবন (evaporation)** — লবণ-জল থেকে লবণ; (২) **পরিস্রাবণ (filtration)** — সাসপেনশনের কণা আলাদা করা (দ্রবণের কণা এতে আলাদা হয় না); (৩) **কেন্দ্রাতিগকরণ (centrifugation)** — কোলয়েড কণা আলাদা করা।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "উৎসের সীমা: পৃথকীকরণ",
+          "body": "পাতন (distillation), ঊর্ধ্বপাতন (sublimation), ঝাড়াই-কুলোয় আলাদা করা ইত্যাদি পদ্ধতি সাধারণত ষষ্ঠ শ্রেণির 'পৃথকীকরণ' অধ্যায়ে থাকে। এই অধ্যায় তৈরির সময় সেই NCERT অধ্যায়টি সংগ্রহ করা যায়নি, তাই এখানে শুধু নবম শ্রেণির বইয়ে যাচাই করা তিনটি পদ্ধতিই (বাষ্পীভবন, পরিস্রাবণ, কেন্দ্রাতিগকরণ) শেখানো হয়েছে — বাকিগুলি অনুমান করে লেখা হয়নি।",
+          "claims": [
+            "c33"
+          ]
+        }
+      ],
+      "claims": [
+        "c28",
+        "c36",
+        "c37",
+        "c38",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c18",
+        "c19",
+        "c48",
+        "c49",
+        "c33",
+        "c04"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "'মৌল' শব্দের প্রথম ব্যবহার",
+      "when": "১৬৬১",
+      "what": "রবার্ট বয়েল প্রথম 'element' (মৌল) শব্দটি ব্যবহার করেন।",
+      "why_it_matters": "মৌলের আধুনিক আলোচনার সূচনা এখান থেকেই; পরীক্ষায় বয়েল-১৬৬১ জোড়টি আসে।",
+      "section": "elements",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "title": "ল্যাভয়সিয়ের মৌলের সংজ্ঞা",
+      "when": "অষ্টাদশ শতক",
+      "what": "ল্যাভয়সিয়ে (১৭৪৩–৯৪) মৌলের প্রথম পরীক্ষামূলকভাবে কার্যকর সংজ্ঞা দেন এবং রসায়নের ভিত্তিসূত্রগুলি প্রতিষ্ঠা করেন।",
+      "why_it_matters": "মৌল-যৌগ পার্থক্যের বৈজ্ঞানিক ভিত্তি তাঁর কাজ থেকেই আসে।",
+      "section": "elements",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "title": "ডাল্টনের পরমাণুবাদ",
+      "when": "১৮০৮",
+      "what": "জন ডাল্টন পরমাণুবাদ উপস্থাপন করেন — সব পদার্থ পরমাণু দিয়ে গঠিত।",
+      "why_it_matters": "স্থির অনুপাত ও ভর সংরক্ষণ সূত্রের ব্যাখ্যা এই তত্ত্ব থেকেই মেলে।",
+      "section": "atoms_molecules",
+      "claims": [
+        "c35"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "মহর্ষি কণাদ",
+      "when": "খ্রিস্টপূর্ব প্রায় ৫০০",
+      "role": "ভারতীয় দার্শনিক",
+      "contribution": "পদার্থের ক্ষুদ্রতম অবিভাজ্য কণার ধারণা দিয়ে তার নাম দেন 'পরমাণু' (Parmanu)।",
+      "section": "atoms_molecules",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "name": "রবার্ট বয়েল",
+      "when": "১৬৬১",
+      "role": "বিজ্ঞানী",
+      "contribution": "প্রথম 'element' (মৌল) শব্দটি ব্যবহার করেন।",
+      "section": "elements",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "name": "আঁতোয়ান ল্যাভয়সিয়ে",
+      "when": "১৭৪৩–৯৪",
+      "role": "ফরাসি রসায়নবিদ",
+      "contribution": "মৌলের প্রথম পরীক্ষামূলক সংজ্ঞা দেন; ভর সংরক্ষণ সূত্রের প্রতিষ্ঠাতা।",
+      "section": "elements",
+      "claims": [
+        "c21",
+        "c38"
+      ]
+    },
+    {
+      "name": "জোসেফ প্রুস্ত",
+      "when": "অষ্টাদশ–ঊনবিংশ শতক",
+      "role": "রসায়নবিদ",
+      "contribution": "স্থির অনুপাতের সূত্র দেন — যৌগে মৌলগুলি ভরের নির্দিষ্ট অনুপাতে থাকে।",
+      "section": "compounds_separation",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "name": "জন ডাল্টন",
+      "when": "১৭৬৬–১৮৪৪",
+      "role": "ইংরেজ রসায়নবিদ",
+      "contribution": "১৮০৮ সালে পরমাণুবাদ দেন এবং প্রথম মৌলের প্রতীক ব্যবহার করেন।",
+      "section": "atoms_molecules",
+      "claims": [
+        "c35"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": -500,
+      "when": "খ্রিস্টপূর্ব প্রায় ৫০০",
+      "label": "মহর্ষি কণাদের 'পরমাণু' ধারণা",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "sort_year": 1661,
+      "when": "১৬৬১",
+      "label": "বয়েলের 'মৌল' শব্দের প্রথম ব্যবহার",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "sort_year": 1794,
+      "when": "১৭৪৩–৯৪",
+      "label": "ল্যাভয়সিয়ে: মৌলের পরীক্ষামূলক সংজ্ঞা ও ভর সংরক্ষণ সূত্র",
+      "claims": [
+        "c21",
+        "c38"
+      ]
+    },
+    {
+      "sort_year": 1808,
+      "when": "১৮০৮",
+      "label": "ডাল্টনের পরমাণুবাদ",
+      "claims": [
+        "c35"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "বিশুদ্ধ পদার্থ (Pure substance)",
+      "meaning": "একটিমাত্র ধরনের কণা দিয়ে গঠিত পদার্থ; মৌল ও যৌগ এই শ্রেণির।",
+      "section": "pure_substance"
+    },
+    {
+      "term": "মিশ্রণ (Mixture)",
+      "meaning": "একাধিক বিশুদ্ধ পদার্থ যেকোনো অনুপাতে মিশে থাকা পদার্থ।",
+      "section": "pure_substance"
+    },
+    {
+      "term": "দ্রবণ (Solution)",
+      "meaning": "দুই বা ততোধিক পদার্থের সমসত্ত্ব মিশ্রণ।",
+      "section": "mixture_kinds"
+    },
+    {
+      "term": "দ্রাবক ও দ্রাব (Solvent ও Solute)",
+      "meaning": "দ্রাবক দ্রবীভূত করে (বেশি পরিমাণে থাকে); দ্রাব দ্রবীভূত হয় (কম পরিমাণে থাকে)।",
+      "section": "mixture_kinds"
+    },
+    {
+      "term": "সংকর ধাতু (Alloy)",
+      "meaning": "দুই বা ততোধিক ধাতু (বা ধাতু ও অধাতু)-র মিশ্রণ; যেমন পিতল, ব্রোঞ্জ।",
+      "section": "mixture_kinds"
+    },
+    {
+      "term": "সম্পৃক্ত দ্রবণ (Saturated solution)",
+      "meaning": "নির্দিষ্ট তাপমাত্রায় যে দ্রবণে আর দ্রাব দ্রবীভূত করা যায় না।",
+      "section": "solution_forms"
+    },
+    {
+      "term": "কোলয়েড (Colloid)",
+      "meaning": "অসমসত্ত্ব মিশ্রণ যার কণা খালি চোখে দেখা যায় না কিন্তু আলো বিচ্ছুরণ করে; যেমন দুধ।",
+      "section": "solution_forms"
+    },
+    {
+      "term": "টিন্ডাল প্রভাব (Tyndall effect)",
+      "meaning": "কোলয়েড কণা দ্বারা আলোক রশ্মির বিচ্ছুরণ।",
+      "section": "solution_forms"
+    },
+    {
+      "term": "মৌল (Element)",
+      "meaning": "পদার্থের মৌলিক রূপ যা রাসায়নিক বিক্রিয়ায় সরলতর পদার্থে ভাঙা যায় না।",
+      "section": "elements"
+    },
+    {
+      "term": "ধাতুকল্প (Metalloid)",
+      "meaning": "ধাতু ও অধাতুর মাঝামাঝি ধর্মবিশিষ্ট মৌল; যেমন বোরন, সিলিকন।",
+      "section": "elements"
+    },
+    {
+      "term": "অণু (Molecule)",
+      "meaning": "মৌল বা যৌগের ক্ষুদ্রতম কণা যা স্বাধীনভাবে থাকতে পারে ও পদার্থের সব ধর্ম দেখায়।",
+      "section": "atoms_molecules"
+    },
+    {
+      "term": "পরমাণুকতা (Atomicity)",
+      "meaning": "একটি অণুতে থাকা পরমাণুর সংখ্যা।",
+      "section": "atoms_molecules"
+    },
+    {
+      "term": "যৌগ (Compound)",
+      "meaning": "দুই বা ততোধিক মৌল নির্দিষ্ট অনুপাতে রাসায়নিকভাবে যুক্ত হয়ে গঠিত পদার্থ।",
+      "section": "compounds_separation"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "মেশানো বনাম উত্তপ্ত করা: লোহা-গন্ধক",
+      "causes": [
+        "লোহা ও গন্ধক শুধু মেশালে কোনো রাসায়নিক বিক্রিয়া হয় না"
+      ],
+      "event": "মিশ্রণটিকে জোরে উত্তপ্ত করা",
+      "results": [
+        "যৌগ তৈরি হয় যার ধর্ম মৌলগুলির চেয়ে সম্পূর্ণ আলাদা",
+        "চুম্বক দিয়ে আর লোহা আলাদা করা যায় না"
+      ],
+      "section": "compounds_separation",
+      "claims": [
+        "c32",
+        "c30"
+      ]
+    },
+    {
+      "title": "ম্যাগনেসিয়াম পোড়া",
+      "causes": [
+        "ম্যাগনেসিয়াম ফিতা বাতাসের অক্সিজেনের সংস্পর্শে জ্বলে ওঠে"
+      ],
+      "event": "ম্যাগনেসিয়াম ও অক্সিজেনের রাসায়নিক বিক্রিয়া",
+      "results": [
+        "সাদা গুঁড়ো ম্যাগনেসিয়াম অক্সাইড (নতুন যৌগ) তৈরি হয়",
+        "এটি রাসায়নিক পরিবর্তনের উদাহরণ"
+      ],
+      "section": "compounds_separation",
+      "claims": [
+        "c48",
+        "c19"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "পিতল = তামা + দস্তা (৭০:৩০), ব্রোঞ্জ = তামা + টিন, সল্ডার = টিন + সিসা — সংকর ধাতু মানেই মিশ্রণ (WBCS/Misc/IDO-তে পুনরাবৃত্ত)।",
+      "section": "mixture_kinds"
+    },
+    {
+      "point": "প্রতীক: K (পটাশিয়াম), Na (সোডিয়াম), Fe (লোহা) — লাতিন নাম থেকে আসা প্রতীকগুলি মুখস্থ রাখো (KP Constable ২০২৩)।",
+      "section": "atoms_molecules"
+    },
+    {
+      "point": "যৌগ বনাম মিশ্রণের চার পার্থক্য — অনুপাত, ধর্ম, নতুন পদার্থ, পৃথকীকরণের পদ্ধতি।",
+      "section": "compounds_separation"
+    },
+    {
+      "point": "তরল মৌল: পারদ (ধাতু) ও ব্রোমিন (অধাতু); তরল ধাতু শুধু পারদ।",
+      "section": "elements"
+    },
+    {
+      "point": "দ্রবণ-কোলয়েড-সাসপেনশনের তুলনা: কণার আকার, টিন্ডাল প্রভাব, পরিস্রাবণ, স্থিতিশীলতা।",
+      "section": "solution_forms"
+    },
+    {
+      "point": "জলে H:O ভরের অনুপাত ১:৮ — স্থির অনুপাতের সূত্রের (প্রুস্ত) প্রমাণ হিসেবে আসে।",
+      "section": "compounds_separation"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের উৎস NCERT বইগুলিতে পশ্চিমবঙ্গ-নির্দিষ্ট কোনো তথ্য নেই — তা অনুমান করে লেখা হয়নি। তবে অধ্যায়ের শিকড় ভারতীয়: পদার্থের ক্ষুদ্রতম কণার ধারণা প্রথম পদ্ধতিগতভাবে দেন ভারতীয় দার্শনিক মহর্ষি কণাদ, যিনি সেই কণার নাম দেন 'পরমাণু' — বাংলার ছাত্রছাত্রীরা স্কুলে যে 'পরমাণু' শব্দটি প্রতিদিন ব্যবহার করে, তার উৎস এই প্রাচীন ভারতীয় ধারণাই। বাংলার পরীক্ষাগুলির (WBPSC, WBP, KP) প্রশ্নের ধরনও এই অধ্যায়ে প্রতিফলিত: পটাশিয়ামের প্রতীক K (KP Constable ২০২৩), ব্রোঞ্জের উপাদান (WBCS ২০২২, Miscellaneous ২০২৩) — দুটোই এই অধ্যায়ে শেখানো হয়েছে।",
+    "claims": [
+      "c34",
+      "c39"
+    ]
+  },
+  "quick_revision": [
+    "বিশুদ্ধ পদার্থ = এক ধরনের কণা; মৌল ও যৌগ বিশুদ্ধ, মিশ্রণ নয়।",
+    "দুধ, বাতাস, সমুদ্রের জল, মাটি — সব মিশ্রণ।",
+    "সমসত্ত্ব মিশ্রণ = দ্রবণ; গঠন সর্বত্র সুষম। অসমসত্ত্বে অংশ আলাদা চেনা যায় (তেল-জল)।",
+    "দ্রাবক বেশি পরিমাণে থেকে দ্রবীভূত করে; দ্রাব কম পরিমাণে দ্রবীভূত হয়।",
+    "পিতল = প্রায় ৭০% তামা + ৩০% দস্তা; সংকর ধাতু মিশ্রণ, যৌগ নয়।",
+    "বাতাস: নাইট্রোজেন ৭৮%, অক্সিজেন ২১%।",
+    "সম্পৃক্ত দ্রবণে নির্দিষ্ট তাপমাত্রায় আর দ্রাব গোলে না।",
+    "কোলয়েড আসলে অসমসত্ত্ব (দুধ); টিন্ডাল প্রভাব কোলয়েডের পরিচয়; কেন্দ্রাতিগে আলাদা হয়।",
+    "সাসপেনশনের কণা দৃশ্যমান, তলিয়ে যায়, পরিস্রাবণে আলাদা হয়; দ্রবণের কণা পরিস্রাবণে আলাদা হয় না।",
+    "মৌল: রাসায়নিক বিক্রিয়ায় সরলতর পদার্থে ভাঙা যায় না (ল্যাভয়সিয়ে); শব্দটি প্রথম ব্যবহার বয়েল, ১৬৬১।",
+    "জ্ঞাত মৌল ১০০-এর বেশি, প্রাকৃতিক ৯২টি; তরল মৌল মাত্র দুটি — পারদ ও ব্রোমিন।",
+    "ধাতুকল্প: বোরন, সিলিকন, জার্মেনিয়াম।",
+    "কণাদ → 'পরমাণু'; ডাল্টন (১৮০৮) → পরমাণুবাদ; প্রতীক: Fe, Na, K লাতিন নাম থেকে।",
+    "যৌগে অনুপাত নির্দিষ্ট (জলে H:O = ১:৮, প্রুস্তের সূত্র); মিশ্রণে অনুপাত যেকোনো।",
+    "মিশ্রণ ভৌত পদ্ধতিতে (বাষ্পীভবন, পরিস্রাবণ) আলাদা হয়; যৌগের উপাদান শুধু রাসায়নিক পদ্ধতিতে।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Science, Class IX, Chapter 2: Is Matter Around Us Pure?",
+      "class": "IX",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Science, Class IX, Chapter 3: Atoms and Molecules",
+      "class": "IX",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Science, Class X, Chapter 1: Chemical Reactions and Equations",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc101.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "A pure substance consists of a single type of particle; a substance is a pure single form of matter.",
+      "source": "s1",
+      "page": "p. 14",
+      "quote": "A pure substance consists of a single type of particle. In other words, a substance is a pure single form of matter."
+    },
+    {
+      "id": "c02",
+      "claim": "Milk is a mixture of water, fat, proteins, etc.",
+      "source": "s1",
+      "page": "p. 14",
+      "quote": "For example, milk is actually a mixture of water, fat, proteins, etc."
+    },
+    {
+      "id": "c03",
+      "claim": "Mixtures are constituted by more than one kind of pure form of matter.",
+      "source": "s1",
+      "page": "p. 15",
+      "quote": "Mixtures are constituted by more than one kind of pure form of matter."
+    },
+    {
+      "id": "c04",
+      "claim": "Dissolved sodium chloride can be separated from water by the physical process of evaporation, and sodium chloride itself is a pure substance.",
+      "source": "s1",
+      "page": "p. 15",
+      "quote": "dissolved sodium chloride can be separated from water by the physical process of evaporation. However, sodium chloride is itself a pure substance"
+    },
+    {
+      "id": "c05",
+      "claim": "A homogeneous mixture has a uniform composition throughout; homogeneous mixtures are also called solutions.",
+      "source": "s1",
+      "page": "p. 15",
+      "quote": "mixture which has a uniform composition throughout. Such mixtures are called homogeneous mixtures or solutions."
+    },
+    {
+      "id": "c06",
+      "claim": "Sodium chloride with iron filings, salt with sulphur, and oil with water are heterogeneous mixtures.",
+      "source": "s1",
+      "page": "p. 15",
+      "quote": "Mixtures of sodium chloride and iron filings, salt and sulphur, and oil and water are examples of heterogeneous mixtures."
+    },
+    {
+      "id": "c07",
+      "claim": "A solution is a homogeneous mixture of two or more substances; lemonade and soda water are examples.",
+      "source": "s1",
+      "page": "p. 15",
+      "quote": "A solution is a homogeneous mixture of two or more substances. You come across various types of solutions in your daily life. Lemonade, soda water, etc., are all examples of solutions."
+    },
+    {
+      "id": "c08",
+      "claim": "Brass is a mixture of approximately 30% zinc and 70% copper.",
+      "source": "s1",
+      "page": "p. 15",
+      "quote": "brass is a mixture of approximately 30% zinc and 70% copper."
+    },
+    {
+      "id": "c09",
+      "claim": "The solvent is the component that dissolves the other (usually in larger amount); the solute is the component dissolved (usually in lesser quantity).",
+      "source": "s1",
+      "page": "p. 16",
+      "quote": "The component of the solution that dissolves the other component in it (usually the component present in larger amount) is called the solvent. The component of the solution that is dissolved in the solvent (usually present in lesser quantity) is called the solute."
+    },
+    {
+      "id": "c10",
+      "claim": "Air's two main constituents are oxygen (21%) and nitrogen (78%).",
+      "source": "s1",
+      "page": "p. 16",
+      "quote": "Its two main constituents are: oxygen (21%) and nitrogen (78%)."
+    },
+    {
+      "id": "c11",
+      "claim": "A saturated solution is one in which no more solute can be dissolved at a given temperature.",
+      "source": "s1",
+      "page": "p. 16",
+      "quote": "when no more solute can be dissolved in a solution at a given temperature, it is called a saturated solution."
+    },
+    {
+      "id": "c12",
+      "claim": "Solute particles of a solution cannot be separated by filtration and do not settle down; a solution is stable.",
+      "source": "s1",
+      "page": "p. 16",
+      "quote": "The solute particles cannot be separated from the mixture by the process of filtration. The solute particles do not settle down when left undisturbed, that is, a solution is stable."
+    },
+    {
+      "id": "c13",
+      "claim": "A suspension is a heterogeneous mixture whose particles do not dissolve, remain suspended, and are visible to the naked eye.",
+      "source": "s1",
+      "page": "p. 17",
+      "quote": "A suspension is a heterogeneous mixture in which the solute particles do not dissolve but remain suspended throughout the bulk of the medium. Particles of a suspension are visible to the naked eye."
+    },
+    {
+      "id": "c14",
+      "claim": "Suspension particles can be separated from the mixture by filtration.",
+      "source": "s1",
+      "page": "p. 17",
+      "quote": "They can be separated from the mixture by the process of filtration."
+    },
+    {
+      "id": "c15",
+      "claim": "A colloidal solution is actually a heterogeneous mixture; milk is an example.",
+      "source": "s1",
+      "page": "p. 17",
+      "quote": "But actually, a colloidal solution is a heterogeneous mixture, for example, milk."
+    },
+    {
+      "id": "c16",
+      "claim": "The scattering of a beam of light by colloidal particles is called the Tyndall effect.",
+      "source": "s1",
+      "page": "p. 17",
+      "quote": "This scattering of a beam of light is called the Tyndall effect after the name of the scientist who discovered this effect."
+    },
+    {
+      "id": "c17",
+      "claim": "Colloidal particles can be separated by the special technique of centrifugation.",
+      "source": "s1",
+      "page": "p. 18",
+      "quote": "a special technique of separation known as centrifugation can be used to separate the colloidal particles."
+    },
+    {
+      "id": "c18",
+      "claim": "Interconversion of states is a physical change: it occurs without a change in composition or chemical nature.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "The interconversion of states is a physical change because these changes occur without a change in composition and no change in the chemical nature of the substance."
+    },
+    {
+      "id": "c19",
+      "claim": "A chemical change brings a change in chemical properties and gives new substances; it is also called a chemical reaction.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "Chemical change brings change in the chemical properties of matter and we get new substances. A chemical change is also called a chemical reaction."
+    },
+    {
+      "id": "c20",
+      "claim": "On the basis of chemical composition, substances are classified as elements or compounds.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "On the basis of their chemical composition, substances can be classified either as elements or compounds."
+    },
+    {
+      "id": "c21",
+      "claim": "Lavoisier defined an element as a basic form of matter that cannot be broken down into simpler substances by chemical reactions.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "He defined an element as a basic form of matter that cannot be broken down into simpler substances by chemical reactions."
+    },
+    {
+      "id": "c22",
+      "claim": "Robert Boyle was the first scientist to use the term 'element', in 1661.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "Robert Boyle was the first scientist to use the term element in 1661."
+    },
+    {
+      "id": "c23",
+      "claim": "Gold, silver, copper, iron, sodium and potassium are metals; mercury is the only metal liquid at room temperature.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "Examples of metals are gold, silver, copper, iron, sodium, potassium etc. Mercury is the only metal that is liquid at room temperature."
+    },
+    {
+      "id": "c24",
+      "claim": "Hydrogen, oxygen, iodine, carbon, bromine and chlorine are non-metals.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "Examples of nonmetals are hydrogen, oxygen, iodine, carbon (coal, coke), bromine, chlorine etc."
+    },
+    {
+      "id": "c25",
+      "claim": "Boron, silicon and germanium are metalloids with intermediate properties.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "Some elements have intermediate properties between those of metals and nonmetals, they are called metalloids; examples are boron, silicon, germanium, etc."
+    },
+    {
+      "id": "c26",
+      "claim": "More than 100 elements are known; 92 occur naturally and the rest are man-made.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "The number of elements known at present are more than 100. Ninetytwo elements are naturally occurring and the rest are manmade."
+    },
+    {
+      "id": "c27",
+      "claim": "Eleven elements are gases at room temperature; two elements, mercury and bromine, are liquid at room temperature.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "Eleven elements are in gaseous state at room temperature. Two elements are liquid at room temperature—mercury and bromine."
+    },
+    {
+      "id": "c28",
+      "claim": "A compound is composed of two or more elements chemically combined in a fixed proportion.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "A compound is a substance composed of two or more elements, chemically combined with one another in a fixed proportion."
+    },
+    {
+      "id": "c29",
+      "claim": "A mixture has a variable composition, while the composition of a compound is always fixed.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "A mixture has a variable composition. The composition of each new substance is always fixed."
+    },
+    {
+      "id": "c30",
+      "claim": "A mixture shows the properties of its constituent substances; a compound's properties are totally different from its constituents.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "A mixture shows the properties of the constituent substances. The new substance has totally different properties."
+    },
+    {
+      "id": "c31",
+      "claim": "Constituents of a mixture can be separated fairly easily by physical methods; those of a compound only by chemical or electrochemical reactions.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "The constituents can be seperated fairly easily by physical methods. The constituents can be separated only by chemical or electrochemical reactions."
+    },
+    {
+      "id": "c32",
+      "claim": "On heating iron and sulphur strongly, a compound forms whose properties are totally different from the combining elements.",
+      "source": "s1",
+      "page": "p. 20",
+      "quote": "On heating the two elements strongly we get a compound, which has totally different properties compared to the combining elements."
+    },
+    {
+      "id": "c33",
+      "claim": "A mixture contains more than one substance (element and/or compound) mixed in any proportion; mixtures can be separated into pure substances using appropriate separation techniques.",
+      "source": "s1",
+      "page": "p. 21",
+      "quote": "A mixture contains more than one substance (element and/or compound) mixed in any proportion. Mixtures can be separated into pure substances using appropriate separation techniques."
+    },
+    {
+      "id": "c34",
+      "claim": "Maharishi Kanad postulated indivisible smallest particles of matter and named them Parmanu.",
+      "source": "s2",
+      "page": "p. 26",
+      "quote": "An Indian philosopher Maharishi Kanad, postulated that if we go on dividing matter (padarth), we shall get smaller and smaller particles. Ultimately, a stage will come when we shall come across the smallest particles beyond which further division will not be possible. He named these particles Parmanu."
+    },
+    {
+      "id": "c35",
+      "claim": "Dalton's atomic theory: all matter, whether element, compound or mixture, is composed of small particles called atoms.",
+      "source": "s2",
+      "page": "p. 27",
+      "quote": "According to Dalton's atomic theory, all matter, whether an element, a compound or a mixture is composed of small particles called atoms."
+    },
+    {
+      "id": "c36",
+      "claim": "In water, the ratio of the mass of hydrogen to the mass of oxygen is always 1:8, whatever the source of water.",
+      "source": "s2",
+      "page": "p. 27",
+      "quote": "In a compound such as water, the ratio of the mass of hydrogen to the mass of oxygen is always 1:8, whatever the source of water."
+    },
+    {
+      "id": "c37",
+      "claim": "Proust's law of definite proportions: in a chemical substance the elements are always present in definite proportions by mass.",
+      "source": "s2",
+      "page": "p. 27",
+      "quote": "“In a chemical substance the elements are always present in definite proportions by mass”."
+    },
+    {
+      "id": "c38",
+      "claim": "The law of conservation of mass: mass can neither be created nor destroyed in a chemical reaction.",
+      "source": "s2",
+      "page": "p. 27",
+      "quote": "Law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction."
+    },
+    {
+      "id": "c39",
+      "claim": "Iron's symbol Fe comes from Latin ferrum, sodium Na from natrium, potassium K from kalium; each element has a name and a unique chemical symbol.",
+      "source": "s2",
+      "page": "p. 29",
+      "quote": "the symbol of iron is Fe from its Latin name ferrum, sodium is Na from natrium, potassium is K from kalium. Therefore, each element has a name and a unique chemical symbol."
+    },
+    {
+      "id": "c40",
+      "claim": "In a symbol, the first letter is always a capital letter and the second letter a small letter (e.g. aluminium Al, cobalt Co).",
+      "source": "s2",
+      "page": "p. 29",
+      "quote": "The first letter of a symbol is always written as a capital letter (uppercase) and the second letter as a small letter (lowercase). For example (i) hydrogen, H (ii) aluminium, Al and not AL (iii) cobalt, Co and not CO."
+    },
+    {
+      "id": "c41",
+      "claim": "A molecule is the smallest particle of an element or compound capable of independent existence and showing all the properties of that substance.",
+      "source": "s2",
+      "page": "p. 30",
+      "quote": "A molecule can be defined as the smallest particle of an element or a compound that is capable of an independent existence and shows all the properties of that substance."
+    },
+    {
+      "id": "c42",
+      "claim": "An oxygen molecule has two atoms (diatomic, O2); three oxygen atoms form ozone, O3.",
+      "source": "s2",
+      "page": "p. 31",
+      "quote": "a molecule of oxygen consists of two atoms of oxygen and hence it is known as a diatomic molecule, O2. If 3 atoms of oxygen unite into a molecule, instead of the usual 2, we get ozone, O3."
+    },
+    {
+      "id": "c43",
+      "claim": "The number of atoms constituting a molecule is called its atomicity.",
+      "source": "s2",
+      "page": "p. 31",
+      "quote": "The number of atoms constituting a molecule is known as its atomicity."
+    },
+    {
+      "id": "c44",
+      "claim": "Atoms of different elements join together in definite proportions to form molecules of compounds.",
+      "source": "s2",
+      "page": "p. 31",
+      "quote": "Atoms of different elements join together in definite proportions to form molecules of compounds."
+    },
+    {
+      "id": "c45",
+      "claim": "Compounds of metals and non-metals contain charged species called ions.",
+      "source": "s2",
+      "page": "p. 31",
+      "quote": "Compounds composed of metals and nonmetals contain charged species. The charged species are known as ions."
+    },
+    {
+      "id": "c46",
+      "claim": "The chemical formula of a compound is a symbolic representation of its composition.",
+      "source": "s2",
+      "page": "p. 32",
+      "quote": "The chemical formula of a compound is a symbolic representation of its composition."
+    },
+    {
+      "id": "c47",
+      "claim": "The molecular mass of a substance is the sum of the atomic masses of all the atoms in a molecule of the substance.",
+      "source": "s2",
+      "page": "p. 33",
+      "quote": "The molecular mass of a substance is the sum of the atomic masses of all the atoms in a molecule of the substance."
+    },
+    {
+      "id": "c48",
+      "claim": "A magnesium ribbon burns with a dazzling white flame and changes into white magnesium oxide powder, formed by reaction with oxygen in air.",
+      "source": "s3",
+      "page": "p. 1",
+      "quote": "You must have observed that magnesium ribbon burns with a dazzling white flame and changes into a white powder. This powder is magnesium oxide. It is formed due to the reaction between magnesium and oxygen present in the air."
+    },
+    {
+      "id": "c49",
+      "claim": "Change in state, change in colour, evolution of a gas and change in temperature indicate that a chemical reaction has taken place.",
+      "source": "s3",
+      "page": "p. 2",
+      "quote": "any of the following observations helps us to determine whether a chemical reaction has taken place – change in state, change in colour, evolution of a gas, change in temperature."
+    },
+    {
+      "id": "c50",
+      "claim": "Metals have a lustre, conduct heat and electricity, and are ductile, malleable and sonorous.",
+      "source": "s1",
+      "page": "p. 19",
+      "quote": "They have a lustre (shine). They conduct heat and electricity. They are ductile (can be drawn into wires). They are malleable (can be hammered into thin sheets). They are sonorous (make a ringing sound when hit)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "pure_substance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশুদ্ধ পদার্থ বলতে কী বোঝায়?",
+      "a": "যে পদার্থে একই ধরনের একটিমাত্র প্রকারের কণা থাকে",
+      "w": [
+        "যে পদার্থে দুই বা ততোধিক পদার্থ মেশানো থাকে",
+        "যে পদার্থ দেখতে পরিষ্কার ও স্বচ্ছ",
+        "যে পদার্থ বাজার থেকে কেনা হয়"
+      ],
+      "e": "বিশুদ্ধ পদার্থে একটিমাত্র ধরনের কণা থাকে — অর্থাৎ এটি পদার্থের একটি বিশুদ্ধ একক রূপ। দুই বা ততোধিক পদার্থ মিশে থাকলে তা মিশ্রণ।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "pure_substance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি মিশ্রণ?",
+      "a": "দুধ",
+      "w": [
+        "লোহা",
+        "চিনি",
+        "পাতিত জল"
+      ],
+      "e": "দুধ আসলে জল, চর্বি, প্রোটিন ইত্যাদির মিশ্রণ। লোহা মৌল, চিনি ও পাতিত জল বিশুদ্ধ পদার্থ।",
+      "claims": [
+        "c02",
+        "c01"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "pure_substance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিজ্ঞানীর ভাষায় বাজারের 'বিশুদ্ধ' দুধ বিশুদ্ধ পদার্থ নয়, কারণ —",
+      "a": "দুধে জল, চর্বি ও প্রোটিনসহ একাধিক পদার্থ মেশানো থাকে",
+      "w": [
+        "দুধ সাদা রঙের",
+        "দুধ তরল পদার্থ",
+        "দুধ গরম করা যায়"
+      ],
+      "e": "'বিশুদ্ধ' বলতে বিজ্ঞানী বোঝেন সব কণার রাসায়নিক প্রকৃতি এক হওয়া। দুধে একাধিক উপাদান থাকায় তা মিশ্রণ।",
+      "claims": [
+        "c02",
+        "c01"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "pure_substance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মিশ্রণের সংজ্ঞা কোনটি?",
+      "a": "একাধিক বিশুদ্ধ রূপের পদার্থ দিয়ে গঠিত পদার্থ",
+      "w": [
+        "একটি মাত্র মৌল দিয়ে গঠিত পদার্থ",
+        "রাসায়নিক বিক্রিয়ায় তৈরি নতুন পদার্থ",
+        "শুধুমাত্র গ্যাসীয় পদার্থ"
+      ],
+      "e": "মিশ্রণ একাধিক ধরনের বিশুদ্ধ পদার্থ দিয়ে গঠিত হয় — যেমন সমুদ্রের জল, মাটি ইত্যাদি সবই মিশ্রণ।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "pure_substance",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সোডিয়াম ক্লোরাইড (খাদ্য লবণ) নিজে বিশুদ্ধ পদার্থ হলেও লবণ-জল মিশ্রণ — কারণ —",
+      "a": "লবণ-জলে দুটি বিশুদ্ধ পদার্থ (লবণ ও জল) মিশে আছে, আর লবণ একক ধরনের কণা দিয়ে গঠিত",
+      "w": [
+        "লবণ সাদা, জল বর্ণহীন",
+        "লবণ-জল স্বাদে নোনতা",
+        "লবণ জলে দ্রবীভূত হয়"
+      ],
+      "e": "বিশুদ্ধতার মাপকাঠি কণার একক প্রকৃতি। লবণ একক পদার্থ, কিন্তু লবণ+জল = দুটি পদার্থের মিশ্রণ।",
+      "claims": [
+        "c01",
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "pure_substance",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. বিশুদ্ধ পদার্থের সব কণার রাসায়নিক প্রকৃতি একই।\n২. দুধ একটি বিশুদ্ধ পদার্থ।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "১ ও ২ উভয়ই",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "১ সত্য — বিশুদ্ধ পদার্থে এক ধরনের কণা থাকে। ২ মিথ্যা — দুধ জল, চর্বি ও প্রোটিনের মিশ্রণ।",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "pure_substance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি বিশুদ্ধ পদার্থ?",
+      "a": "অক্সিজেন গ্যাস",
+      "w": [
+        "বাতাস",
+        "সমুদ্রের জল",
+        "কোমল পানীয়"
+      ],
+      "e": "অক্সিজেন একটি মৌল — বিশুদ্ধ পদার্থ। বাতাস, সমুদ্রের জল ও কোমল পানীয় প্রতিটিই মিশ্রণ।",
+      "claims": [
+        "c01",
+        "c03"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "mixture_kinds",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সমসত্ত্ব (homogeneous) মিশ্রণের বৈশিষ্ট্য কোনটি?",
+      "a": "সমগ্র মিশ্রণে গঠন (composition) সুষম থাকে",
+      "w": [
+        "উপাদানগুলি খালি চোখে আলাদা দেখা যায়",
+        "কণাগুলি তলিয়ে যায়",
+        "গঠন স্থানে স্থানে বদলায়"
+      ],
+      "e": "সমসত্ত্ব মিশ্রণের সর্বত্র গঠন একই থাকে — যেমন জলে দ্রবীভূত লবণ বা চিনি।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "mixture_kinds",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তেল ও জলের মিশ্রণ কোন ধরনের?",
+      "a": "অসমসত্ত্ব (heterogeneous) মিশ্রণ",
+      "w": [
+        "সমসত্ত্ব মিশ্রণ",
+        "বিশুদ্ধ যৌগ",
+        "মৌল"
+      ],
+      "e": "তেল ও জল NCERT-তে অসমসত্ত্ব মিশ্রণের উদাহরণ — উপাদানগুলি আলাদা থাকে, গঠন সুষম নয়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "mixture_kinds",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দ্রবণ (solution) কাকে বলে?",
+      "a": "দুই বা ততোধিক পদার্থের সমসত্ত্ব মিশ্রণকে",
+      "w": [
+        "দুই বা ততোধিক পদার্থের অসমসত্ত্ব মিশ্রণকে",
+        "একটি বিশুদ্ধ যৌগকে",
+        "শুধু গ্যাসের মিশ্রণকে"
+      ],
+      "e": "দ্রবণ হল সমসত্ত্ব মিশ্রণ — লেবুর শরবত, সোডা ওয়াটার ইত্যাদি দ্রবণের উদাহরণ।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "mixture_kinds",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চিনির জলীয় দ্রবণে দ্রাবক (solvent) কোনটি?",
+      "a": "জল",
+      "w": [
+        "চিনি",
+        "বাষ্প",
+        "চিনি ও জল দুটোই"
+      ],
+      "e": "যে উপাদান অপরটিকে দ্রবীভূত করে (সাধারণত বেশি পরিমাণে থাকে) তা দ্রাবক — এখানে জল; চিনি দ্রাব (solute)।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "mixture_kinds",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পিতলে (brass) দস্তা (zinc) ও তামার (copper) আনুমানিক অনুপাত কত?",
+      "a": "প্রায় ৩০% দস্তা ও ৭০% তামা",
+      "w": [
+        "প্রায় ৫০% দস্তা ও ৫০% তামা",
+        "প্রায় ৭০% দস্তা ও ৩০% তামা",
+        "প্রায় ১০% দস্তা ও ৯০% তামা"
+      ],
+      "e": "NCERT অনুযায়ী পিতল প্রায় ৩০% দস্তা ও ৭০% তামার মিশ্রণ (সংকর ধাতু)।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "mixture_kinds",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক মিল বাছাই করো:\nA. দ্রাবক (solvent)\nB. দ্রাব (solute)\nC. পিতল\nD. বাতাস\n১. অক্সিজেন ২১% ও নাইট্রোজেন ৭৮%-এর গ্যাসীয় মিশ্রণ\n২. দ্রবীভূত হওয়া উপাদান (কম পরিমাণে)\n৩. প্রায় ৩০% দস্তা + ৭০% তামার সংকর\n৪. দ্রবীভূত করা উপাদান (বেশি পরিমাণে)",
+      "a": "A-৪, B-২, C-৩, D-১",
+      "w": [
+        "A-২, B-৪, C-৩, D-১",
+        "A-৪, B-২, C-১, D-৩",
+        "A-৩, B-১, C-২, D-৪"
+      ],
+      "e": "দ্রাবক = দ্রবীভূত করে (৪), দ্রাব = দ্রবীভূত হয় (২), পিতল = ৩০% দস্তা + ৭০% তামা (৩), বাতাসের প্রধান উপাদান অক্সিজেন ২১% ও নাইট্রোজেন ৭৮% (১)।",
+      "claims": [
+        "c09",
+        "c08",
+        "c10"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "mixture_kinds",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাতাসের দুটি প্রধান উপাদান কোন দুটি?",
+      "a": "নাইট্রোজেন (৭৮%) ও অক্সিজেন (২১%)",
+      "w": [
+        "অক্সিজেন (৭৮%) ও নাইট্রোজেন (২১%)",
+        "কার্বন ডাইঅক্সাইড ও জলীয় বাষ্প",
+        "হাইড্রোজেন ও হিলিয়াম"
+      ],
+      "e": "বাতাস গ্যাসে গ্যাসের সমসত্ত্ব মিশ্রণ; প্রধান উপাদান নাইট্রোজেন ৭৮% ও অক্সিজেন ২১%।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "solution_forms",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সম্পৃক্ত (saturated) দ্রবণ কাকে বলে?",
+      "a": "নির্দিষ্ট তাপমাত্রায় যে দ্রবণে আর দ্রাব দ্রবীভূত করা যায় না",
+      "w": [
+        "যে দ্রবণে কোনো দ্রাবই নেই",
+        "যে দ্রবণ খুব ঘন রঙের",
+        "যে দ্রবণ ফুটন্ত অবস্থায় আছে"
+      ],
+      "e": "নির্দিষ্ট তাপমাত্রায় দ্রবণ যতটা দ্রাব দ্রবীভূত করতে পারে ততটা নিলেই তা সম্পৃক্ত; এর বেশি আর দ্রবীভূত হয় না।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "solution_forms",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সাসপেনশন (suspension)-এর কণাগুলি —",
+      "a": "খালি চোখে দেখা যায় এবং দ্রবীভূত না হয়ে ভেসে থাকে",
+      "w": [
+        "খালি চোখে দেখা যায় না",
+        "সম্পূর্ণ দ্রবীভূত হয়ে যায়",
+        "কখনো আলো বিচ্ছুরণ করে না"
+      ],
+      "e": "সাসপেনশন অসমসত্ত্ব মিশ্রণ: কণা দ্রবীভূত হয় না, মাধ্যমজুড়ে ভেসে থাকে এবং খালি চোখে দেখা যায় — যেমন চকগুঁড়ো-জল।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "solution_forms",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দ্রবণ (true solution)-এর দ্রাব কণা কোন পদ্ধতিতে আলাদা করা যায় না?",
+      "a": "পরিস্রাবণ (filtration)",
+      "w": [
+        "বাষ্পীভবন",
+        "পাতন",
+        "কেলাসন"
+      ],
+      "e": "দ্রবণের কণা এত ছোট যে পরিস্রাবণে আলাদা হয় না; কণা তলিয়েও যায় না — দ্রবণ স্থিতিশীল।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "solution_forms",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "টিন্ডাল প্রভাব (Tyndall effect) কোনটির সঙ্গে যুক্ত?",
+      "a": "কোলয়েড কণা দ্বারা আলোক রশ্মির বিচ্ছুরণ",
+      "w": [
+        "দ্রবণে কণার তলিয়ে যাওয়া",
+        "চুম্বক দ্বারা আকর্ষণ",
+        "গ্যাসের বিস্ফোরণ"
+      ],
+      "e": "কোলয়েড কণা আলো বিচ্ছুরণ করে রশ্মির পথ দৃশ্যমান করে — এই বিচ্ছুরণই টিন্ডাল প্রভাব।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "solution_forms",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দুধ দেখতে সমসত্ত্ব মনে হলেও আসলে —",
+      "a": "অসমসত্ত্ব মিশ্রণ (কোলয়েড)",
+      "w": [
+        "বিশুদ্ধ পদার্থ",
+        "প্রকৃত দ্রবণ",
+        "মৌল"
+      ],
+      "e": "কোলয়েড দ্রবণ আসলে অসমসত্ত্ব মিশ্রণ — দুধই তার উদাহরণ; কণা ছোট বলে খালি চোখে দেখা যায় না, কিন্তু আলো বিচ্ছুরণ করে।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "solution_forms",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. সাসপেনশনের কণা পরিস্রাবণে আলাদা করা যায়।\n২. কোলয়েড কণা পরিস্রাবণে আলাদা করা যায় না, তবে কেন্দ্রাতিগ (centrifugation) পদ্ধতিতে যায়।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটোই সত্য: সাসপেনশন কণা বড় বলে ছাঁকনি কাগজে আটকায়; কোলয়েড কণা ছাঁকনি পার হয়ে যায়, তাই বিশেষ কেন্দ্রাতিগ পদ্ধতি লাগে।",
+      "claims": [
+        "c14",
+        "c17"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "solution_forms",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি কোলয়েডের বৈশিষ্ট্য?",
+      "a": "কণা খালি চোখে দেখা যায় না, কিন্তু আলো বিচ্ছুরণ করে",
+      "w": [
+        "কণা দ্রুত তলিয়ে যায়",
+        "এটি একটি বিশুদ্ধ পদার্থ",
+        "কণা শুধু গ্যাসেই থাকে"
+      ],
+      "e": "কোলয়েডের কণা খালি চোখে দেখার পক্ষে খুব ছোট, কিন্তু আলো বিচ্ছুরণের পক্ষে যথেষ্ট বড়; রেখে দিলে তলিয়ে যায় না — কোলয়েড স্থিতিশীল।",
+      "claims": [
+        "c16",
+        "c15"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "elements",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ল্যাভয়সিয়ের সংজ্ঞা অনুযায়ী মৌল (element) হল —",
+      "a": "পদার্থের মৌলিক রূপ, যা রাসায়নিক বিক্রিয়ায় সরলতর পদার্থে ভাঙা যায় না",
+      "w": [
+        "দুটি মৌলের যৌগ",
+        "যেকোনো মিশ্রণ",
+        "শুধুমাত্র ধাতু"
+      ],
+      "e": "ল্যাভয়সিয়ে প্রথম পরীক্ষামূলকভাবে কার্যকর সংজ্ঞা দেন: মৌলকে রাসায়নিক বিক্রিয়ায় আর সরল পদার্থে ভাঙা যায় না।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "elements",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'মৌল' (element) শব্দটি প্রথম ব্যবহার করেন কে এবং কবে?",
+      "a": "রবার্ট বয়েল, ১৬৬১ সালে",
+      "w": [
+        "জন ডাল্টন, ১৮০৮ সালে",
+        "ল্যাভয়সিয়ে, ১৭৪৩ সালে",
+        "মহর্ষি কণাদ, খ্রিস্টপূর্ব ৫০০ সালে"
+      ],
+      "e": "NCERT অনুযায়ী রবার্ট বয়েল ১৬৬১ সালে প্রথম 'element' শব্দটি ব্যবহার করেন।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "elements",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ঘরের তাপমাত্রায় তরল অবস্থায় থাকা একমাত্র ধাতু কোনটি?",
+      "a": "পারদ (mercury)",
+      "w": [
+        "ব্রোমিন",
+        "গ্যালিয়াম",
+        "সোডিয়াম"
+      ],
+      "e": "পারদই একমাত্র ধাতু যা ঘরের তাপমাত্রায় তরল। ব্রোমিনও তরল, কিন্তু তা অধাতু।",
+      "claims": [
+        "c23",
+        "c27"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "elements",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ধাতুকল্প (metalloid)-এর উদাহরণ কোনটি?",
+      "a": "বোরন, সিলিকন, জার্মেনিয়াম",
+      "w": [
+        "সোনা, রুপা, তামা",
+        "হাইড্রোজেন, অক্সিজেন, ক্লোরিন",
+        "লোহা, দস্তা, সিসা"
+      ],
+      "e": "ধাতু ও অধাতুর মাঝামাঝি ধর্মবিশিষ্ট মৌল ধাতুকল্প — বোরন, সিলিকন, জার্মেনিয়াম। বাকিগুলি ধাতু বা অধাতু।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "elements",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বর্তমানে জ্ঞাত মৌলের সংখ্যা ও প্রাকৃতিক মৌলের সংখ্যা —",
+      "a": "মোট ১০০-এর বেশি, যার মধ্যে ৯২টি প্রাকৃতিক",
+      "w": [
+        "মোট ঠিক ৯২টি, সবই প্রাকৃতিক",
+        "মোট ১১৮টি, যার মধ্যে ১০০টি প্রাকৃতিক",
+        "মোট ৫০টি, যার মধ্যে ৪০টি প্রাকৃতিক"
+      ],
+      "e": "NCERT অনুযায়ী জ্ঞাত মৌল ১০০-এর বেশি; ৯২টি প্রকৃতিতে পাওয়া যায়, বাকিগুলি মানবসৃষ্ট।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "elements",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি ভুল?\n১. সোনা — ধাতু\n২. ব্রোমিন — অধাতু\n৩. সিলিকন — ধাতুকল্প\n৪. পারদ — অধাতু",
+      "a": "৪",
+      "w": [
+        "১",
+        "২",
+        "৩"
+      ],
+      "e": "পারদ একটি ধাতু (ঘরের তাপমাত্রায় তরল একমাত্র ধাতু) — তাই ৪ নম্বর জোড় ভুল। ব্রোমিন অধাতু, সিলিকন ধাতুকল্প, সোনা ধাতু — বাকি জোড়গুলি ঠিক।",
+      "claims": [
+        "c23",
+        "c25",
+        "c24"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "elements",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধাতুর সাধারণ ধর্ম কোনটি?",
+      "a": "তাপ ও তড়িৎ পরিবহণ করে, চকচকে ও ঘাতসহ (malleable)",
+      "w": [
+        "তাপ ও তড়িতের কুপরিবাহী",
+        "সব ধাতুই ঘরের তাপমাত্রায় গ্যাস",
+        "ধাতু কখনো চকচক করে না"
+      ],
+      "e": "ধাতুর ধর্ম: দীপ্তি (চকচকে ভাব), তাপ-তড়িৎ পরিবহণ, তারে টানা যায় (ductile), পিটিয়ে পাত করা যায় (malleable) ও বাজালে শব্দ হয় (sonorous)।",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "atoms_molecules",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পদার্থের ক্ষুদ্রতম অবিভাজ্য কণার নাম 'পরমাণু' (Parmanu) কে দিয়েছিলেন?",
+      "a": "মহর্ষি কণাদ",
+      "w": [
+        "জন ডাল্টন",
+        "ডেমোক্রিটাস",
+        "ল্যাভয়সিয়ে"
+      ],
+      "e": "ভারতীয় দার্শনিক মহর্ষি কণাদ পদার্থ ভাগ করতে করতে পাওয়া ক্ষুদ্রতম কণার নাম দেন 'পরমাণু'।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "atoms_molecules",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ডাল্টনের পরমাণুবাদ অনুযায়ী সব পদার্থ — মৌল, যৌগ বা মিশ্রণ — কী দিয়ে গঠিত?",
+      "a": "পরমাণু (atom) নামক ক্ষুদ্র কণা দিয়ে",
+      "w": [
+        "শুধু অণু দিয়ে",
+        "আয়ন দিয়ে",
+        "ইলেকট্রন দিয়ে"
+      ],
+      "e": "ডাল্টনের তত্ত্ব: মৌল, যৌগ বা মিশ্রণ — সব পদার্থই পরমাণু নামক ক্ষুদ্র কণা দিয়ে গঠিত।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "atoms_molecules",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লোহার রাসায়নিক প্রতীক Fe — এটি কোন লাতিন নাম থেকে এসেছে?",
+      "a": "Ferrum",
+      "w": [
+        "Natrium",
+        "Kalium",
+        "Argentum"
+      ],
+      "e": "Fe এসেছে লাতিন 'ferrum' থেকে। Na এসেছে natrium (সোডিয়াম) ও K এসেছে kalium (পটাশিয়াম) থেকে।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "atoms_molecules",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পটাশিয়ামের প্রতীক কোনটি?",
+      "a": "K",
+      "w": [
+        "P",
+        "Po",
+        "Pt"
+      ],
+      "e": "পটাশিয়ামের প্রতীক K — লাতিন নাম kalium থেকে। P হল ফসফরাসের প্রতীক।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "atoms_molecules",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অণু (molecule)-র সংজ্ঞা কোনটি?",
+      "a": "মৌল বা যৌগের ক্ষুদ্রতম কণা যা স্বাধীনভাবে থাকতে পারে ও পদার্থের সব ধর্ম দেখায়",
+      "w": [
+        "যেকোনো দুটি পরমাণুর যেকোনো জোড়",
+        "শুধু গ্যাসের কণা",
+        "আধানযুক্ত কণা"
+      ],
+      "e": "অণু হল মৌল বা যৌগের সেই ক্ষুদ্রতম কণা যা স্বাধীন অস্তিত্ব রাখতে পারে এবং ওই পদার্থের সব ধর্ম প্রদর্শন করে।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "atoms_molecules",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. প্রতীকের প্রথম অক্ষর সবসময় বড় হাতের (capital) ও দ্বিতীয় অক্ষর ছোট হাতের হয়।\n২. কোবাল্টের প্রতীক CO লেখা হয়।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "১ ও ২ উভয়ই",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "১ সত্য। ২ মিথ্যা — কোবাল্টের প্রতীক Co (দ্বিতীয় অক্ষর ছোট হাতের o); CO মানে কার্বন মনোক্সাইড।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "atoms_molecules",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ওজোন (ozone) অণুতে অক্সিজেন পরমাণু কয়টি থাকে?",
+      "a": "৩টি (O₃)",
+      "w": [
+        "২টি (O₂)",
+        "১টি (O)",
+        "৪টি (O₄)"
+      ],
+      "e": "সাধারণ অক্সিজেন অণুতে ২টি পরমাণু (O₂, দ্বিপরমাণুক); ৩টি অক্সিজেন পরমাণু যুক্ত হলে হয় ওজোন O₃।",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "compounds_separation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "যৌগ (compound)-এর সংজ্ঞা কোনটি?",
+      "a": "দুই বা ততোধিক মৌল নির্দিষ্ট অনুপাতে রাসায়নিকভাবে যুক্ত হয়ে গঠিত পদার্থ",
+      "w": [
+        "দুটি পদার্থ যেকোনো অনুপাতে মেশানো",
+        "একটিমাত্র মৌলের পদার্থ",
+        "শুধু তরল পদার্থ"
+      ],
+      "e": "যৌগে মৌলগুলি নির্দিষ্ট অনুপাতে রাসায়নিকভাবে যুক্ত থাকে — যেমন জলে হাইড্রোজেন ও অক্সিজেনের ভরের অনুপাত সবসময় ১:৮।",
+      "claims": [
+        "c28",
+        "c36"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "compounds_separation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জল থেকে দ্রবীভূত লবণ আলাদা করার ভৌত পদ্ধতি কোনটি?",
+      "a": "বাষ্পীভবন (evaporation)",
+      "w": [
+        "পরিস্রাবণ",
+        "চুম্বকীয় পৃথকীকরণ",
+        "কেন্দ্রাতিগকরণ"
+      ],
+      "e": "জলে দ্রবীভূত সোডিয়াম ক্লোরাইড বাষ্পীভবনের ভৌত প্রক্রিয়ায় আলাদা করা যায়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "compounds_separation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লোহা ও গন্ধক (sulphur) গুঁড়ো মিশিয়ে শুধু নাড়ালে মিশ্রণ পাওয়া যায়; কিন্তু জোরে উত্তপ্ত করলে যা পাওয়া যায় তা —",
+      "a": "যৌগ, যার ধর্ম উপাদান মৌলগুলির চেয়ে সম্পূর্ণ আলাদা",
+      "w": [
+        "একই মিশ্রণ, শুধু গরম",
+        "বিশুদ্ধ লোহা",
+        "বিশুদ্ধ গন্ধক"
+      ],
+      "e": "উত্তাপে রাসায়নিক পরিবর্তন ঘটে যৌগ তৈরি হয় — তার ধর্ম মৌলগুলির ধর্ম থেকে সম্পূর্ণ ভিন্ন। শুধু মেশালে মিশ্রণের ধর্ম উপাদানগুলির ধর্মেরই মতো থাকে।",
+      "claims": [
+        "c32",
+        "c30"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "compounds_separation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্থির অনুপাতের সূত্র (law of definite proportions) কে দিয়েছিলেন?",
+      "a": "প্রুস্ত (Proust)",
+      "w": [
+        "ডাল্টন",
+        "বয়েল",
+        "কণাদ"
+      ],
+      "e": "প্রুস্তের সূত্র: কোনো রাসায়নিক পদার্থে মৌলগুলি ভরের হিসাবে সবসময় নির্দিষ্ট অনুপাতে থাকে।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "compounds_separation",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভর সংরক্ষণ সূত্র অনুযায়ী রাসায়নিক বিক্রিয়ায় —",
+      "a": "ভর সৃষ্টিও হয় না, ধ্বংসও হয় না",
+      "w": [
+        "ভর সবসময় বেড়ে যায়",
+        "ভর সবসময় কমে যায়",
+        "ভর শুধু গ্যাসের ক্ষেত্রে সংরক্ষিত থাকে"
+      ],
+      "e": "ল্যাভয়সিয়ের ভর সংরক্ষণ সূত্র: রাসায়নিক বিক্রিয়ায় ভর সৃষ্টি বা ধ্বংস হয় না — বিক্রিয়কের মোট ভর = উৎপাদের মোট ভর।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "compounds_separation",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): ম্যাগনেসিয়াম ফিতা বাতাসে পোড়ালে সাদা গুঁড়ো ম্যাগনেসিয়াম অক্সাইড তৈরি হয় — এটি রাসায়নিক পরিবর্তন।\nকারণ (R): রাসায়নিক পরিবর্তনে নতুন পদার্থ তৈরি হয় এবং পদার্থের রাসায়নিক ধর্ম বদলে যায়।",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "ম্যাগনেসিয়াম বাতাসের অক্সিজেনের সঙ্গে বিক্রিয়া করে নতুন পদার্থ ম্যাগনেসিয়াম অক্সাইড (সাদা গুঁড়ো) দেয় — নতুন পদার্থ তৈরিই রাসায়নিক পরিবর্তনের লক্ষণ, তাই R, A-কে ব্যাখ্যা করে।",
+      "claims": [
+        "c48",
+        "c19"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "compounds_separation",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ধারণাগুলির ঐতিহাসিক ক্রম সাজাও (আগে থেকে পরে):\n১. ডাল্টনের পরমাণুবাদ\n২. বয়েলের 'মৌল' শব্দের প্রথম ব্যবহার\n৩. কণাদের 'পরমাণু' ধারণা\n৪. ল্যাভয়সিয়ের মৌলের পরীক্ষামূলক সংজ্ঞা",
+      "a": "৩, ২, ৪, ১",
+      "w": [
+        "২, ৩, ১, ৪",
+        "৩, ৪, ২, ১",
+        "২, ৪, ৩, ১"
+      ],
+      "e": "ক্রম: কণাদ (প্রাচীন ভারত, খ্রিস্টপূর্ব প্রায় ৫০০) → বয়েল ১৬৬১ → ল্যাভয়সিয়ে (১৭৪৩–৯৪) → ডাল্টনের পরমাণুবাদ (১৮০৮)।",
+      "claims": [
+        "c34",
+        "c22",
+        "c21",
+        "c35"
+      ]
+    }
+  ]
+}

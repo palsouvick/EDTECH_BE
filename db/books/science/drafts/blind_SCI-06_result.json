@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "যে পদার্থে একই ধরনের একটিমাত্র প্রকারের কণা থাকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A pure substance consists of a single type of particle. In other words, a substance is a pure single form of matter.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 14",
+      "notes": ""
+    },
+    {
+      "id": "q02",
+      "answer": "দুধ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For example, milk is actually a mixture of water, fat, proteins, etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 14",
+      "notes": ""
+    },
+    {
+      "id": "q03",
+      "answer": "দুধে জল, চর্বি ও প্রোটিনসহ একাধিক পদার্থ মেশানো থাকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For example, milk is actually a mixture of water, fat, proteins, etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 14",
+      "notes": ""
+    },
+    {
+      "id": "q04",
+      "answer": "একাধিক বিশুদ্ধ রূপের পদার্থ দিয়ে গঠিত পদার্থ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Mixtures are constituted by more than one kind of pure form of matter.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 15",
+      "notes": ""
+    },
+    {
+      "id": "q05",
+      "answer": "লবণ-জলে দুটি বিশুদ্ধ পদার্থ (লবণ ও জল) মিশে আছে, আর লবণ একক ধরনের কণা দিয়ে গঠিত",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "dissolved sodium chloride can be separated from water by the physical process of evaporation. However, sodium chloride is itself a pure substance",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 15",
+      "notes": ""
+    },
+    {
+      "id": "q06",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "A pure substance consists of a single type of particle. In other words, a substance is a pure single form of matter.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 14",
+      "notes": "Statement 1 follows c01 single-type particle; statement 2 refuted by c02 (milk is a mixture)."
+    },
+    {
+      "id": "q07",
+      "answer": "অক্সিজেন গ্যাস",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "A pure substance consists of a single type of particle. In other words, a substance is a pure single form of matter.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 14",
+      "notes": "By c01 definition and elimination: soda water/air/seawater are mixtures per claims; oxygen gas is a single-element pure substance."
+    },
+    {
+      "id": "q08",
+      "answer": "সমগ্র মিশ্রণে গঠন (composition) সুষম থাকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "mixture which has a uniform composition throughout. Such mixtures are called homogeneous mixtures or solutions.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 15",
+      "notes": ""
+    },
+    {
+      "id": "q09",
+      "answer": "অসমসত্ত্ব (heterogeneous) মিশ্রণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Mixtures of sodium chloride and iron filings, salt and sulphur, and oil and water are examples of heterogeneous mixtures.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 15",
+      "notes": ""
+    },
+    {
+      "id": "q10",
+      "answer": "দুই বা ততোধিক পদার্থের সমসত্ত্ব মিশ্রণকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A solution is a homogeneous mixture of two or more substances. You come across various types of solutions in your daily life. Lemonade, soda water, etc., are all examples of solutions.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 15",
+      "notes": ""
+    },
+    {
+      "id": "q11",
+      "answer": "জল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The component of the solution that dissolves the other component in it (usually the component present in larger amount) is called the solvent. The component of the solution that is dissolved in the solvent (usually present in lesser quantity) is called the solute.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 16",
+      "notes": "Water is present in larger amount and dissolves the sugar, per c09 solvent definition."
+    },
+    {
+      "id": "q12",
+      "answer": "প্রায় ৩০% দস্তা ও ৭০% তামা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "brass is a mixture of approximately 30% zinc and 70% copper.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 15",
+      "notes": ""
+    },
+    {
+      "id": "q13",
+      "answer": "A-৪, B-২, C-৩, D-১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The component of the solution that dissolves the other component in it (usually the component present in larger amount) is called the solvent. The component of the solution that is dissolved in the solvent (usually present in lesser quantity) is called the solute.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 16",
+      "notes": "A/B from c09; C from c08 (brass 30% Zn + 70% Cu); D from c10 (air O2 21%, N2 78%)."
+    },
+    {
+      "id": "q14",
+      "answer": "নাইট্রোজেন (৭৮%) ও অক্সিজেন (২১%)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Its two main constituents are: oxygen (21%) and nitrogen (78%).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 16",
+      "notes": ""
+    },
+    {
+      "id": "q15",
+      "answer": "নির্দিষ্ট তাপমাত্রায় যে দ্রবণে আর দ্রাব দ্রবীভূত করা যায় না",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "when no more solute can be dissolved in a solution at a given temperature, it is called a saturated solution.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 16",
+      "notes": ""
+    },
+    {
+      "id": "q16",
+      "answer": "খালি চোখে দেখা যায় এবং দ্রবীভূত না হয়ে ভেসে থাকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A suspension is a heterogeneous mixture in which the solute particles do not dissolve but remain suspended throughout the bulk of the medium. Particles of a suspension are visible to the naked eye.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 17",
+      "notes": ""
+    },
+    {
+      "id": "q17",
+      "answer": "পরিস্রাবণ (filtration)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The solute particles cannot be separated from the mixture by the process of filtration. The solute particles do not settle down when left undisturbed, that is, a solution is stable.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 16",
+      "notes": ""
+    },
+    {
+      "id": "q18",
+      "answer": "কোলয়েড কণা দ্বারা আলোক রশ্মির বিচ্ছুরণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "This scattering of a beam of light is called the Tyndall effect after the name of the scientist who discovered this effect.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 17",
+      "notes": ""
+    },
+    {
+      "id": "q19",
+      "answer": "অসমসত্ত্ব মিশ্রণ (কোলয়েড)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "But actually, a colloidal solution is a heterogeneous mixture, for example, milk.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 17",
+      "notes": ""
+    },
+    {
+      "id": "q20",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "They can be separated from the mixture by the process of filtration.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 17",
+      "notes": "Statement 1 from c14; statement 2 centrifugation from c17; filtration-exclusion for colloids is implied, not verbatim."
+    },
+    {
+      "id": "q21",
+      "answer": "কণা খালি চোখে দেখা যায় না, কিন্তু আলো বিচ্ছুরণ করে",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "This scattering of a beam of light is called the Tyndall effect after the name of the scientist who discovered this effect.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 17",
+      "notes": "Light scattering (Tyndall) from c16; invisibility to naked eye is by contrast with suspensions in c13, not stated verbatim for colloids."
+    },
+    {
+      "id": "q22",
+      "answer": "পদার্থের মৌলিক রূপ, যা রাসায়নিক বিক্রিয়ায় সরলতর পদার্থে ভাঙা যায় না",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "He defined an element as a basic form of matter that cannot be broken down into simpler substances by chemical reactions.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 19",
+      "notes": ""
+    },
+    {
+      "id": "q23",
+      "answer": "রবার্ট বয়েল, ১৬৬১ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Robert Boyle was the first scientist to use the term element in 1661.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 19",
+      "notes": ""
+    },
+    {
+      "id": "q24",
+      "answer": "পারদ (mercury)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Examples of metals are gold, silver, copper, iron, sodium, potassium etc. Mercury is the only metal that is liquid at room temperature.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 19",
+      "notes": ""
+    },
+    {
+      "id": "q25",
+      "answer": "বোরন, সিলিকন, জার্মেনিয়াম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Some elements have intermediate properties between those of metals and nonmetals, they are called metalloids; examples are boron, silicon, germanium, etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 20",
+      "notes": ""
+    },
+    {
+      "id": "q26",
+      "answer": "মোট ১০০-এর বেশি, যার মধ্যে ৯২টি প্রাকৃতিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The number of elements known at present are more than 100. Ninetytwo elements are naturally occurring and the rest are manmade.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 20",
+      "notes": ""
+    },
+    {
+      "id": "q27",
+      "answer": "৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Examples of metals are gold, silver, copper, iron, sodium, potassium etc. Mercury is the only metal that is liquid at room temperature.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 19",
+      "notes": "Mercury is a metal per c23, so pair 4 (mercury-non-metal) is wrong; gold metal c23, bromine non-metal c24, silicon metalloid c25."
+    },
+    {
+      "id": "q28",
+      "answer": "তাপ ও তড়িৎ পরিবহণ করে, চকচকে ও ঘাতসহ (malleable)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "They have a lustre (shine). They conduct heat and electricity. They are ductile (can be drawn into wires). They are malleable (can be hammered into thin sheets). They are sonorous (make a ringing sound when hit).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 19",
+      "notes": ""
+    },
+    {
+      "id": "q29",
+      "answer": "মহর্ষি কণাদ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "An Indian philosopher Maharishi Kanad, postulated that if we go on dividing matter (padarth), we shall get smaller and smaller particles. Ultimately, a stage will come when we shall come across the smallest particles beyond which further division will not be possible. He named these particles Parmanu.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 26",
+      "notes": ""
+    },
+    {
+      "id": "q30",
+      "answer": "পরমাণু (atom) নামক ক্ষুদ্র কণা দিয়ে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "According to Dalton's atomic theory, all matter, whether an element, a compound or a mixture is composed of small particles called atoms.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 27",
+      "notes": ""
+    },
+    {
+      "id": "q31",
+      "answer": "Ferrum",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the symbol of iron is Fe from its Latin name ferrum, sodium is Na from natrium, potassium is K from kalium. Therefore, each element has a name and a unique chemical symbol.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 29",
+      "notes": ""
+    },
+    {
+      "id": "q32",
+      "answer": "K",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the symbol of iron is Fe from its Latin name ferrum, sodium is Na from natrium, potassium is K from kalium. Therefore, each element has a name and a unique chemical symbol.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 29",
+      "notes": ""
+    },
+    {
+      "id": "q33",
+      "answer": "মৌল বা যৌগের ক্ষুদ্রতম কণা যা স্বাধীনভাবে থাকতে পারে ও পদার্থের সব ধর্ম দেখায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A molecule can be defined as the smallest particle of an element or a compound that is capable of an independent existence and shows all the properties of that substance.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 30",
+      "notes": ""
+    },
+    {
+      "id": "q34",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The first letter of a symbol is always written as a capital letter (uppercase) and the second letter as a small letter (lowercase). For example (i) hydrogen, H (ii) aluminium, Al and not AL (iii) cobalt, Co and not CO.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 29",
+      "notes": "Statement 2 is false: cobalt is Co, not CO, per c40."
+    },
+    {
+      "id": "q35",
+      "answer": "৩টি (O₃)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "a molecule of oxygen consists of two atoms of oxygen and hence it is known as a diatomic molecule, O2. If 3 atoms of oxygen unite into a molecule, instead of the usual 2, we get ozone, O3.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 31",
+      "notes": ""
+    },
+    {
+      "id": "q36",
+      "answer": "দুই বা ততোধিক মৌল নির্দিষ্ট অনুপাতে রাসায়নিকভাবে যুক্ত হয়ে গঠিত পদার্থ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A compound is a substance composed of two or more elements, chemically combined with one another in a fixed proportion.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 20",
+      "notes": ""
+    },
+    {
+      "id": "q37",
+      "answer": "বাষ্পীভবন (evaporation)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "dissolved sodium chloride can be separated from water by the physical process of evaporation. However, sodium chloride is itself a pure substance",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 15",
+      "notes": ""
+    },
+    {
+      "id": "q38",
+      "answer": "যৌগ, যার ধর্ম উপাদান মৌলগুলির চেয়ে সম্পূর্ণ আলাদা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "On heating the two elements strongly we get a compound, which has totally different properties compared to the combining elements.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 20",
+      "notes": ""
+    },
+    {
+      "id": "q39",
+      "answer": "প্রুস্ত (Proust)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "“In a chemical substance the elements are always present in definite proportions by mass”.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 27",
+      "notes": "Claim c37 names this as Proust's law of definite proportions."
+    },
+    {
+      "id": "q40",
+      "answer": "ভর সৃষ্টিও হয় না, ধ্বংসও হয় না",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc103.pdf",
+      "page": "p. 27",
+      "notes": ""
+    },
+    {
+      "id": "q41",
+      "answer": "A ও R দুটোই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "You must have observed that magnesium ribbon burns with a dazzling white flame and changes into a white powder. This powder is magnesium oxide. It is formed due to the reaction between magnesium and oxygen present in the air.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc101.pdf",
+      "page": "p. 1",
+      "notes": "A from c48 (Mg burns to white MgO powder with oxygen in air); R from c19 (chemical change gives new substances / changes chemical properties)."
+    },
+    {
+      "id": "q42",
+      "answer": "৩, ২, ৪, ১",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "Robert Boyle was the first scientist to use the term element in 1661.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc102.pdf",
+      "page": "p. 19",
+      "notes": "not covered by claims"
+    }
+  ]
+}

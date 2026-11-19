@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "থার্মোমিটার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The device used for measurement of temperature, as you know, is called thermometer. For the above measurements we normally use a liquid-in-glass thermometer with which you are familiar. It utilises the property of variation of the volume of a liquid with temperature.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/18926/1/Unit-2.pdf",
+      "page": "p. 3 (Unit 2.1)",
+      "notes": "Thermometer is device for measurement of temperature per c03."
+    },
+    {
+      "id": "q02",
+      "answer": "০°সে ও ১০০°সে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It is the Celsius scale and is a two-point scale because we have used value of XT at two fixed points, 0°C (ice point) and 100°C (steam point) to determine a and b. The ice point and steam point are the temperatures at which pure water freezes and boils.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/18926/1/Unit-2.pdf",
+      "page": "p. 5 (Unit 2.2.2)",
+      "notes": "Ice point 0C and steam point 100C per c01."
+    },
+    {
+      "id": "q03",
+      "answer": "০ K",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Its value is 273.16 and the unit is called kelvin (represented by 'K'). Since it is not possible to attain a temperature below 0 K, it is referred to as the absolute zero and the scale is called absolute scale.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/18926/1/Unit-2.pdf",
+      "page": "p. 6 (Unit 2.2.2)",
+      "notes": "0 K is absolute zero per c02."
+    },
+    {
+      "id": "q04",
+      "answer": "৪২০০ J",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Sometimes, heat is measured in mechanical or work units known as Joule (J), where we define 1 kcal = 4200 J or 1 calorie = 4.18 J",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 9 (Unit 2.3)",
+      "notes": "1 kcal = 4200 J per c06."
+    },
+    {
+      "id": "q05",
+      "answer": "একক ভরের পদার্থের তাপমাত্রা ১°সে বাড়াতে প্রয়োজনীয় তাপশক্তি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Specific heat capacity is defined as the quantity of heat energy required to raise the temperature of a unit mass of a substance through 1°C.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 10 (Unit 2.3)",
+      "notes": "Definition per c07."
+    },
+    {
+      "id": "q06",
+      "answer": "৪,২০,০০০ J",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "or Q = Mass × Specific Heat Capacity × Rise in Temperature. Calculate the amount of heat given out when 2 kg of water cools from 60°C to 10°C. For water, C = 4200 J/kg°C. Heat lost or gained is given as = mCθ = 2 × 4200 × 50 = 420000 J.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 10 (Unit 2.3)",
+      "notes": "mCtheta = 2x4200x50=420000 J per c08 worked example."
+    },
+    {
+      "id": "q07",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "You must have seen that the graduation on it covers a range roughly between 94°F and 108°F. On the other hand the same for a common laboratory thermometer normally, ranges between -10°C and 110°C.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/18926/1/Unit-2.pdf",
+      "page": "p. 4 (Unit 2.2.1)",
+      "notes": "Both ranges stated in c04."
+    },
+    {
+      "id": "q08",
+      "answer": "পরিবহন (conduction)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It is a process of transmission of heat from particle to particle, in the direction of the decrease of temperature without any visible movement of the particles themselves.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 14 (Unit 2.4.1)",
+      "notes": "Conduction is particle-to-particle transmission without movement, as in a solid rod, per c11."
+    },
+    {
+      "id": "q09",
+      "answer": "বিকিরণ (radiation)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Transmission of energy by radiation takes place in the form of electromagnetic waves. These waves can travel in vacuum and travel with the speed of light (3 × 108 ms− 1).",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 17 (Unit 2.4.3)",
+      "notes": "Radiation EM waves can travel in vacuum, no medium needed, per c14."
+    },
+    {
+      "id": "q10",
+      "answer": "সাদা পোশাক খুব কম তাপ শোষণ করে ও বেশিরভাগ তাপ প্রতিফলিত করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In summer, we wear light coloured or white clothes because they absorb very little heat and reflect a very large amount of heat so that we feel quite comfortable.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 18 (Unit 2.4.3)",
+      "notes": "Per c16."
+    },
+    {
+      "id": "q11",
+      "answer": "ভালো শোষক একইসঙ্গে ভালো বিকিরকও (emitter)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A good absorber of heat is also a good radiator of heat, that is, a body which can absorb a large amount of heat, when heated to a high temperature would also radiate large amount of heat in a given time. A black body is not only a good absorber of heat but also a good emitter. Similarly, a polished surface is not only a poor absorber (as it reflects most of the heat) but also a poor radiator of heat.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 17 (Unit 2.4.3)",
+      "notes": "Good absorber is also good radiator per c15."
+    },
+    {
+      "id": "q12",
+      "answer": "৪°সে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "If we go on cooling water then we find that its volume decreases till it reaches 4°C but as it is cooled below 4°C its volume increases instead of decreasing. This expansion of water when it is cooled below 4°C is known as the anomalous expansion of water. This shows that the density of water is maximum at 4°C.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 7 (Unit 2.2)",
+      "notes": "Density of water maximum at 4C per c17."
+    },
+    {
+      "id": "q13",
+      "answer": "যে ধ্রুব তাপমাত্রায় পদার্থটি কঠিন থেকে তরলে পরিণত হয়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The change from the solid to the liquid state is known as fusion or melting or liquefaction. While the reverse change from the liquid to the solid state is called solidification or freezing. The change from liquid to vapour is known as vaporization and the reverse process as condensation. The constant temperature at which a substance changes from solid to liquid state is called its melting point.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 19 (Unit 2.5)",
+      "notes": "Melting point definition per c18."
+    },
+    {
+      "id": "q14",
+      "answer": "পরিচলন – তরল ও গ্যাসে উত্তপ্ত কণা নিজে সরে গিয়ে তাপ বহন করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It is a process by which liquids and gases are heated. It is a process of transmission of heat through the substance by the heated particles moving bodily from place to place. Since the particles in a solid are not free to move, therefore, transmission of heat by convection in solids is not possible.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/28407/1/Unit-2.pdf",
+      "page": "p. 16 (Unit 2.4.2)",
+      "notes": "Convection in liquids/gases by particles moving bodily per c13."
+    },
+    {
+      "id": "q15",
+      "answer": "আপতন কোণ = প্রতিফলন কোণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "(i) The angle of incidence is equal to the angle of reflection, and (ii) The incident ray, the normal to the mirror at the point of incidence and the reflected ray, all lie in the same plane. These laws of reflection are applicable to all types of reflecting surfaces including spherical surfaces.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 134",
+      "notes": "Law of reflection per c21."
+    },
+    {
+      "id": "q16",
+      "answer": "অসদ্ (virtual), খাড়া ও বস্তুর সমান আকারের",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Image formed by a plane mirror is always virtual and erect. The size of the image is equal to that of the object. The image formed is as far behind the mirror as the object is in front of it. Further, the image is laterally inverted.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 134",
+      "notes": "Plane mirror image virtual, erect, same size per c22."
+    },
+    {
+      "id": "q17",
+      "answer": "পার্শ্বীয় উল্টানো (lateral inversion)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "You may recall that in an image formed by a mirror the left of the object appears on the right and the right appears on the left. This is known as lateral inversion.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/hesc113.pdf",
+      "page": "p. 167",
+      "notes": "Per c27."
+    },
+    {
+      "id": "q18",
+      "answer": "উত্তল দর্পণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Convex mirrors are commonly used as rear-view (wing) mirrors in vehicles. These mirrors are fitted on the sides of the vehicle, enabling the driver to see traffic behind him/her to facilitate safe driving. Convex mirrors are preferred because they always give an erect, though diminished, image.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 142",
+      "notes": "Convex mirrors used as rear-view per c26."
+    },
+    {
+      "id": "q19",
+      "answer": "৩০ সেমি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For spherical mirrors of small apertures, the radius of curvature is found to be equal to twice the focal length. We put this as R = 2f. This implies that the principal focus of a spherical mirror lies midway between the pole and centre of curvature.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 136",
+      "notes": "R=2f per c24, so 2x15=30 cm."
+    },
+    {
+      "id": "q20",
+      "answer": "দুটি সমতল দর্পণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The periscope makes use of two plane mirrors. Periscopes are used in submarines, tanks and also by soldiers in bunkers to see things outside.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/hesc113.pdf",
+      "page": "p. 168",
+      "notes": "Periscope uses two plane mirrors per c29."
+    },
+    {
+      "id": "q21",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Between P and F — Behind the mirror — Enlarged — Virtual and erect. At C — At C — Same size — Real and inverted.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 137 (Table 9.1)",
+      "notes": "Both rows in Table per c25."
+    },
+    {
+      "id": "q22",
+      "answer": "এক মাধ্যম থেকে অন্য মাধ্যমে যাওয়ার সময় আলোর বেগের পরিবর্তন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Refraction is due to change in the speed of light as it enters from one transparent medium to another.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 147",
+      "notes": "Refraction due to change in speed per c31."
+    },
+    {
+      "id": "q23",
+      "answer": "৩ × ১০⁸ মি/সে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Light travels fastest in vacuum with speed of 3×108 m s–1. In air, the speed of light is only marginally less, compared to that in vacuum. It reduces considerably in glass or water.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 148",
+      "notes": "Speed in vacuum 3x10^8 m/s per c32."
+    },
+    {
+      "id": "q24",
+      "answer": "১.৩৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "From the Table you can know that the refractive index of water, nw = 1.33. This means that the ratio of the speed of light in air and the speed of light in water is equal to 1.33. Similarly, the refractive index of crown glass, ng =1.52.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 148",
+      "notes": "Refractive index of water 1.33 per c34."
+    },
+    {
+      "id": "q25",
+      "answer": "বেগ কমে ও রশ্মি অভিলম্বের দিকে বেঁকে যায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The speed of light is higher in a rarer medium than a denser medium. Thus, a ray of light travelling from a rarer medium to a denser medium slows down and bends towards the normal. When it travels from a denser medium to a rarer medium, it speeds up and bends away from the normal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 149",
+      "notes": "Rarer to denser slows and bends towards normal per c36."
+    },
+    {
+      "id": "q26",
+      "answer": "উত্তল লেন্স, ফোকাস দৈর্ঘ্য +০.৫০ মি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The power of a lens is defined as the reciprocal of its focal length. The SI unit of power of a lens is 'dioptre'. It is denoted by the letter D. If f is expressed in metres, then, power is expressed in dioptres. Thus, 1 dioptre is the power of a lens whose focal length is 1 metre. Let us say the lens prescribed has power equal to + 2.0 D. This means the lens prescribed is convex. The focal length of the lens is + 0.50 m.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 157",
+      "notes": "Per c38 example +2.0D convex +0.50m."
+    },
+    {
+      "id": "q27",
+      "answer": "ডায়াপ্টার (dioptre)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The power of a lens is defined as the reciprocal of its focal length. The SI unit of power of a lens is 'dioptre'. It is denoted by the letter D. If f is expressed in metres, then, power is expressed in dioptres. Thus, 1 dioptre is the power of a lens whose focal length is 1 metre. Let us say the lens prescribed has power equal to + 2.0 D. This means the lens prescribed is convex. The focal length of the lens is + 0.50 m.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 157",
+      "notes": "SI unit dioptre per c38."
+    },
+    {
+      "id": "q28",
+      "answer": "A ও R দুটোই সত্য এবং R, A-র সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The refractive index of diamond is 2.42. What is the meaning of this statement?",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 149",
+      "notes": "Diamond n=2.42 highest per c35; with n=c/v per c33 this explains lower speed in diamond."
+    },
+    {
+      "id": "q29",
+      "answer": "বায়ুমণ্ডলীয় প্রতিসরণের জন্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The twinkling of a star is due to atmospheric refraction of starlight. The star appears slightly higher (above) than its actual position when viewed near the horizon (Fig. 10.9).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc110.pdf",
+      "page": "p. 168",
+      "notes": "Twinkling due to atmospheric refraction per c52."
+    },
+    {
+      "id": "q30",
+      "answer": "বায়ুর সূক্ষ্ম কণা নীল আলো (ছোট তরঙ্গদৈর্ঘ্য) সবচেয়ে বেশি বিক্ষিপ্ত করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Thus, when sunlight passes through the atmosphere, the fine particles in air scatter the blue colour (shorter wavelengths) more strongly than red. The scattered blue light enters our eyes. Scattering of light causes the blue colour of sky.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc110.pdf",
+      "page": "p. 169",
+      "notes": "Blue scattered more strongly per c55."
+    },
+    {
+      "id": "q31",
+      "answer": "পূর্ণ অভ্যন্তরীণ প্রতিফলন (total internal reflection)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Optical fibres are used to transmit light from one place to the other. The light travels through the fibre as it suffers a series of total internal reflections.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/29623/1/Unit-4.pdf",
+      "page": "p. 100 (Unit 4.4.2)",
+      "notes": "Optical fibres use series of TIR per c42."
+    },
+    {
+      "id": "q32",
+      "answer": "অবতল লেন্স",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Myopia (shortsightedness – the image of distant objects is focussed before the retina) is corrected by using a concave lens of suitable power.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc110.pdf",
+      "page": "p. 170",
+      "notes": "Myopia corrected by concave lens per c46."
+    },
+    {
+      "id": "q33",
+      "answer": "লাল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The splitting of light into its component colours is called dispersion. The various colours seen are Violet, Indigo, Blue, Green, Yellow, Orange and Red. The red light bends the least while the violet the most.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc110.pdf",
+      "page": "p. 167",
+      "notes": "Red bends least per c49."
+    },
+    {
+      "id": "q34",
+      "answer": "প্রায় ২ মিনিট আগে, বায়ুমণ্ডলীয় প্রতিসরণের জন্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Sun is visible to us about 2 minutes before the actual sunrise, and about 2 minutes after the actual sunset because of atmospheric refraction.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc110.pdf",
+      "page": "p. 168",
+      "notes": "Sun visible 2 min before actual sunrise due to atmospheric refraction per c54."
+    },
+    {
+      "id": "q35",
+      "answer": "মরীচিকা – পূর্ণ অভ্যন্তরীণ প্রতিফলন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It is an optical illusion whereby we 'see' an inverted image of an object, which gives the impression as if there is some reflecting (such as water) surface near the object. Mirage is frequently observed in deserts and coal-tar roads in hot summer days and it is caused due to the phenomenon of total internal reflection of light.",
+      "source_url": "https://egyankosh.ac.in/bitstream/123456789/29623/1/Unit-4.pdf",
+      "page": "p. 100 (Unit 4.4.2)",
+      "notes": "Mirage caused by TIR per c41."
+    },
+    {
+      "id": "q36",
+      "answer": "বস্তুর কম্পনের ফলে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Sound is a form of energy which produces a sensation of hearing in our ears. Sound is produced due to vibration of different objects.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 127",
+      "notes": "Sound produced by vibrating objects per c58."
+    },
+    {
+      "id": "q37",
+      "answer": "২০ Hz থেকে ২০,০০০ Hz",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The audible range of sound for human beings extends from about 20 Hz to 20000 Hz (one Hz = one cycle/s).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 135",
+      "notes": "Audible range 20Hz to 20000Hz per c71."
+    },
+    {
+      "id": "q38",
+      "answer": "প্রায় ১৭.২ মিটার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The sensation of sound persists in our brain for about 0.1 s. To hear a distinct echo the time interval between the original sound and the reflected one must be at least 0.1s. Hence, the total distance covered by the sound from the point of generation to the reflecting surface and back should be at least (344 m/s) × 0.1 s = 34.4 m. Thus, for hearing distinct echoes, the minimum distance of the obstacle from the source of sound must be half of this distance, that is, 17.2 m.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 134",
+      "notes": "Minimum distance 17.2m per c69."
+    },
+    {
+      "id": "q39",
+      "answer": "বেগ বাড়ে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The speed of sound in a medium depends on temperature of the medium. In any medium as we increase the temperature, the speed of sound increases. For example, the speed of sound in air is 331 m s–1 at 0ºC and 344 m s–1 at 22 ºC.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 133",
+      "notes": "Speed of sound increases with temperature per c66."
+    },
+    {
+      "id": "q40",
+      "answer": "৭০০ মি/সে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The speed v, frequency ν, and wavelength λ, of sound are related by the equation, v = λν. A sound wave has a frequency of 2 kHz and wave length 35 cm. Frequency, ν = 2 kHz = 2000 Hz; Wavelength, λ = 35 cm = 0.35 m. We know that speed, v of the wave = wavelength × frequency = 0.35 m × 2000 Hz = 700 m/s.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 132",
+      "notes": "v=lambda nu =0.35x2000=700 m/s per c65."
+    },
+    {
+      "id": "q41",
+      "answer": "অতিশব্দ (ultrasound)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Ultrasounds are used extensively in industries and for medical purposes. Ultrasounds can be used to detect cracks and flaws in metal blocks. Ultrasonic waves are made to reflect from various parts of the heart and form the image of the heart. This technique is called 'echocardiography'. Ultrasound scanner is an instrument which uses ultrasonic waves for getting images of internal organs of the human body.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 136",
+      "notes": "Ultrasound used to detect cracks/flaws in metal blocks per c73."
+    },
+    {
+      "id": "q42",
+      "answer": "১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "These waves are called longitudinal waves. In these waves the individual particles of the medium move in a direction parallel to the direction of propagation of the disturbance.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 129",
+      "notes": "Statements 1 (c75: sound needs material medium) and 2 (c60 longitudinal parallel) true; 3 false - pitch is frequency per c63, amplitude determines loudness per c64."
+    }
+  ]
+}

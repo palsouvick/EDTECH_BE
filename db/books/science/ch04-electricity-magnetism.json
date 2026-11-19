@@ -1,0 +1,1660 @@
+{
+  "book": "science",
+  "code": "SCI-04",
+  "number": 4,
+  "part": "physics",
+  "title": "তড়িৎ ও চুম্বকত্ব",
+  "subtitle": "প্রবাহ ও বিভবপ্রভেদ, ওহমের সূত্র ও রোধ, শ্রেণি-সমান্তরাল সমবায়, তাপীয় ফল ও ক্ষমতা, চৌম্বক ক্ষেত্র, সলিনয়েড ও গৃহবর্তনী",
+  "subtopics": [
+    "physics_electricity"
+  ],
+  "related_facts": [
+    "GK-SCI-005",
+    "GK-SCI-019"
+  ],
+  "prerequisites": [
+    "SCI-01"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 30,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 43/43 answers matched the key (39 SURE, 4 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 14 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-04.json and drafts/SCI-04_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-04_REPORT.md.",
+    "checked_claims": 58,
+    "checked_questions": 43,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "বাড়ির বাল্ব, ফ্যান, ইস্ত্রি থেকে বিদ্যুৎ-বিলের 'ইউনিট' — এই অধ্যায়ে আমরা পড়ব তড়িৎপ্রবাহের পুরো গল্পটি: প্রবাহ ও বিভবপ্রভেদ কী, ওহমের সূত্র ও রোধ কীভাবে প্রবাহ নিয়ন্ত্রণ করে, শ্রেণি ও সমান্তরাল সমবায়ে রোধ কীভাবে হিসাব হয়, তাপীয় ফল ও ক্ষমতা থেকে ফিউজের নিরাপত্তা-ব্যবস্থা, এবং প্রবাহের চৌম্বক ফল — ক্ষেত্ররেখা, সলিনয়েড, তড়িৎচুম্বক ও গৃহবর্তনীর নিয়ম। WBCS, ক্লার্কশিপসহ প্রায় সব PSC পরীক্ষায় এই অধ্যায় থেকে সরাসরি সূত্র-ভিত্তিক ও গণনা-ভিত্তিক প্রশ্ন আসে।",
+    "you_will_learn": [
+      "তড়িৎপ্রবাহ (I = Q/t), অ্যাম্পিয়ার ও বিভবপ্রভেদের (V = W/Q) সংজ্ঞা এবং অ্যামিটার-ভোল্টমিটারের সংযোগ-নিয়ম",
+      "ওহমের সূত্র V = IR এবং রোধের নির্ভরতা: দৈর্ঘ্য, প্রস্থচ্ছেদ ও রোধাঙ্ক (R = ρl/A)",
+      "শ্রেণি ও সমান্তরাল সমবায়ের তুল্য রোধের সূত্র এবং বাড়ির যন্ত্রপাতি সমান্তরালে যুক্ত হওয়ার কারণ",
+      "জুলের তাপীয় সূত্র H = I²Rt, ক্ষমতা P = VI এবং কিলোওয়াট-ঘণ্টা ('ইউনিট') = 3.6 × 10⁶ J",
+      "ফিউজের কাজ, রেটিং ও শ্রেণি-সংযোগ; শর্ট সার্কিট ও ওভারলোডিং থেকে সুরক্ষা",
+      "চৌম্বক ক্ষেত্ররেখার ধর্ম, ডান-হস্ত বৃদ্ধাঙ্গুষ্ঠ নিয়ম ও সোজা তারের সমকেন্দ্রিক ক্ষেত্র",
+      "সলিনয়েড, তড়িৎচুম্বক ও ফ্লেমিংয়ের বাম-হস্ত নিয়ম; গৃহবর্তনীতে লাইভ-নিউট্রাল-আর্থ তারের ভূমিকা"
+    ]
+  },
+  "sections": [
+    {
+      "id": "current_circuit",
+      "heading": "তড়িৎপ্রবাহ, বর্তনী ও বিভবপ্রভেদ",
+      "quick": "পরিবাহীর মধ্য দিয়ে তড়িৎ আধানের প্রবাহই তড়িৎপ্রবাহ; এর একক অ্যাম্পিয়ার (A)। আধান চলাচলের জন্য দরকার বদ্ধ বর্তনী ও বিভবপ্রভেদ — বিভবপ্রভেদের একক ভোল্ট (V)। অ্যামিটার শ্রেণিতে ও ভোল্টমিটার সমান্তরালে যুক্ত হয়।",
+      "standard": "ধাতব তারের মতো পরিবাহীতে ইলেকট্রনের প্রবাহই আধান বহন করে। কোনো প্রস্থচ্ছেদ দিয়ে একক সময়ে যত আধান পার হয়, তাকেই তড়িৎপ্রবাহ বলে: I = Q/t। আধানের SI একক কুলম্ব (C); প্রতি সেকেন্ডে ১ কুলম্ব আধান প্রবাহিত হলে প্রবাহ হয় ১ অ্যাম্পিয়ার (A)। মনে রাখবে, প্রচলিত রীতি অনুযায়ী প্রবাহের দিক ধরা হয় ইলেকট্রন-প্রবাহের **বিপরীত** দিকে — কারণ বিদ্যুতের ঘটনা প্রথম লক্ষ করার সময় ইলেকট্রন জানা ছিল না, প্রবাহকে ধনাত্মক আধানের প্রবাহ ধরা হত। বাইরের বর্তনীতে প্রবাহ কোষের ধনাত্মক প্রান্ত থেকে ঋণাত্মক প্রান্তের দিকে যায়।\n\nপ্রবাহ চলতে হলে পথটি হতে হবে **বদ্ধ ও অবিচ্ছিন্ন** — এই বদ্ধ পথই তড়িৎ বর্তনী। সুইচ বন্ধ করলে বা পথ কোথাও ছিন্ন হলে প্রবাহ থেমে যায়। প্রবাহ মাপার যন্ত্র অ্যামিটার সবসময় **শ্রেণিতে** যুক্ত হয়, যাতে মাপতে চাওয়া প্রবাহের পুরোটাই তার মধ্য দিয়ে যায়।\n\nআধান নিজে থেকে চলে না; তাকে চালায় বিভবপ্রভেদ। দুটি বিন্দুর মধ্যে বিভবপ্রভেদ মানে একক আধানকে এক বিন্দু থেকে অন্যটিতে নিতে করা কাজ: V = W/Q। ১ কুলম্ব আধান সরাতে ১ জুল কাজ হলে বিভবপ্রভেদ ১ ভোল্ট। কোষ বা ব্যাটারির ভিতরের রাসায়নিক ক্রিয়াই এই বিভবপ্রভেদ তৈরি ও বজায় রাখে। বিভবপ্রভেদ মাপার যন্ত্র ভোল্টমিটার সবসময় **সমান্তরালে** যুক্ত হয় সেই দুই বিন্দুর মধ্যে, যাদের বিভবপ্রভেদ মাপা হচ্ছে।",
+      "deep": "ছোট প্রবাহ মাপা হয় মিলিঅ্যাম্পিয়ার (1 mA = 10⁻³ A) ও মাইক্রোঅ্যাম্পিয়ারে (1 µA = 10⁻⁶ A)। একটি ইলেকট্রনের আধান প্রায় 1.6 × 10⁻¹⁹ C, তাই ১ কুলম্ব আধানে থাকে প্রায় 6 × 10¹⁸ টি ইলেকট্রন — এই সংখ্যাটি গণনা-প্রশ্নে কাজে লাগে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "অ্যামিটার বনাম ভোল্টমিটার",
+          "body": "অ্যামিটার → শ্রেণিতে (প্রবাহ মাপে)। ভোল্টমিটার → সমান্তরালে (বিভবপ্রভেদ মাপে)। দুটো উল্টে গেলেই পরীক্ষায় নম্বর কাটা যায় — জোড় হিসেবে মনে রাখো।",
+          "claims": [
+            "c05",
+            "c09"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c58"
+      ]
+    },
+    {
+      "id": "ohms_resistance",
+      "heading": "ওহমের সূত্র ও রোধ",
+      "quick": "ওহমের সূত্র: তাপমাত্রা স্থির থাকলে পরিবাহীর দুই প্রান্তের বিভবপ্রভেদ তার মধ্য দিয়ে যাওয়া প্রবাহের সমানুপাতিক — V = IR। রোধ বাড়লে প্রবাহ কমে। রোধ নির্ভর করে দৈর্ঘ্য, প্রস্থচ্ছেদ ও উপাদানের ওপর: R = ρl/A।",
+      "standard": "১৮২৭ সালে জার্মান পদার্থবিদ গেয়র্গ সিমন ওহম ধাতব তারের ক্ষেত্রে এই সম্পর্কটি প্রতিষ্ঠা করেন: তাপমাত্রা স্থির থাকলে বিভবপ্রভেদ V ও প্রবাহ I-এর অনুপাত ধ্রুবক থাকে। এই ধ্রুবকটিই রোধ R — পরিবাহীর সেই ধর্ম যা আধান-প্রবাহকে বাধা দেয়। রোধের SI একক ওহম (Ω): ১ V বিভবপ্রভেদে ১ A প্রবাহ গেলে রোধ ১ Ω। সূত্রের সবচেয়ে কাজের রূপ হল I = V/R — রোধ দ্বিগুণ হলে প্রবাহ অর্ধেক হয়, রোধ অর্ধেক হলে প্রবাহ দ্বিগুণ।\n\nরোধ কীসের ওপর নির্ভর করে? পরীক্ষায় দেখা গেছে, সুষম ধাতব পরিবাহীর রোধ তার **দৈর্ঘ্যের সমানুপাতিক** (লম্বা তার = বেশি রোধ) এবং **প্রস্থচ্ছেদের ক্ষেত্রফলের ব্যস্তানুপাতিক** (মোটা তার = কম রোধ)। সম্মিলিত রূপ: R = ρl/A, যেখানে ρ (রো) হল উপাদানের রোধাঙ্ক — উপাদানের নিজস্ব বৈশিষ্ট্য, যার SI একক Ω m। ধাতু ও সংকর ধাতুর রোধাঙ্ক খুব কম, অন্তরকের (রবার, কাচ) রোধাঙ্ক অত্যন্ত বেশি। রোধ ও রোধাঙ্ক উভয়ই তাপমাত্রার সঙ্গে বদলায় — ওহমের সূত্রের 'তাপমাত্রা স্থির' শর্তটির কারণ এটাই।\n\nব্যবহারিক পছন্দগুলিও এই সূত্র থেকেই বোঝা যায়: বাল্বের ফিলামেন্টে টাংস্টেন (গলনাঙ্ক বেশি, রোধাঙ্ক তুলনামূলক বেশি), আর বিদ্যুৎ পরিবহণের তারে তামা ও অ্যালুমিনিয়াম (রোধাঙ্ক খুব কম, তাই পথে শক্তিক্ষয় কম)। বর্তনীতে প্রবাহ কমাতে-বাড়াতে ভোল্টেজ না বদলে রোধ বদলানোর যন্ত্র হল রিওস্ট্যাট।",
+      "deep": "সংকর ধাতুর রোধাঙ্ক সাধারণত তার উপাদান ধাতুগুলির চেয়ে বেশি, এবং সংকর ধাতু উচ্চ তাপমাত্রায় সহজে জারিত হয় না — তাই হিটার, ইস্ত্রি, টোস্টারের কুণ্ডলীতে খাঁটি ধাতুর বদলে নাইক্রোমের মতো সংকর ধাতু ব্যবহার করা হয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "রোধ বনাম রোধাঙ্ক",
+          "body": "রোধ (R) তারের দৈর্ঘ্য ও প্রস্থচ্ছেদের ওপর নির্ভর করে; রোধাঙ্ক (ρ) শুধু উপাদান ও তাপমাত্রার ওপর। একই উপাদানের মোটা-সরু সব তারের রোধাঙ্ক সমান — এই পার্থক্যটাই WBCS-এর গণনা-প্রশ্নে (যেমন ২০২৪ সালের রোধাঙ্কের প্রশ্ন) যাচাই করা হয়।",
+          "claims": [
+            "c13",
+            "c14"
+          ]
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17"
+      ]
+    },
+    {
+      "id": "series_parallel",
+      "heading": "রোধের শ্রেণি ও সমান্তরাল সমবায়",
+      "quick": "শ্রেণিতে তুল্য রোধ সব রোধের যোগফল (সবচেয়ে বড় হয়), প্রবাহ সর্বত্র সমান। সমান্তরালে তুল্য রোধের অন্যোন্যক সব অন্যোন্যকের যোগফল (সবচেয়ে ছোট হয়), প্রতিটি শাখায় বিভবপ্রভেদ সমান। বাড়ির যন্ত্রপাতি সমান্তরালে যুক্ত হয়।",
+      "standard": "একাধিক রোধ জোড়ার দুটি মূল পদ্ধতি আছে। **শ্রেণি সমবায়ে** রোধগুলি একের পর এক একই পথে যুক্ত থাকে। এই সমবায়ে বর্তনীর প্রতিটি অংশে প্রবাহ **সমান** থাকে, আর মোট বিভবপ্রভেদ ভাগ হয়ে যায় প্রতিটি রোধের প্রান্তের বিভবপ্রভেদের যোগফলে (V = V₁ + V₂ + V₃)। তাই তুল্য রোধ Rs = R₁ + R₂ + R₃ — যেকোনো একক রোধের চেয়ে বড়। তিনটি রোধকে সবচেয়ে বড় তুল্য রোধ পেতে হলে শ্রেণিতেই জুড়তে হয় (যেমন ৫ + ৪.৫ + ৩ = ১২.৫ Ω)। শ্রেণির বড় অসুবিধা: একটি উপাদান নষ্ট হলে পুরো বর্তনী ভেঙে যায়, কোনোটাই চলে না।\n\n**সমান্তরাল সমবায়ে** প্রতিটি রোধ একই দুই বিন্দুর মধ্যে আলাদা শাখায় যুক্ত থাকে। এখানে প্রতিটি রোধের প্রান্তে বিভবপ্রভেদ **সমান** (V), আর মোট প্রবাহ ভাগ হয়ে যায় শাখাগুলিতে (I = I₁ + I₂ + I₃)। তুল্য রোধের সূত্র: 1/Rp = 1/R₁ + 1/R₂ + 1/R₃ — অর্থাৎ তুল্য রোধ সবচেয়ে ছোট একক রোধের চেয়েও ছোট হয়।\n\nবাড়ির প্রতিটি যন্ত্রপাতি সমান্তরালে যুক্ত থাকে ঠিক এই কারণে: প্রতিটি যন্ত্র পূর্ণ সরবরাহ-বিভব (২২০ V) পায়, আলাদা সুইচে স্বাধীনভাবে চালানো-বন্ধ করা যায়, আর একটি নষ্ট হলেও বাকিগুলি চলে। শ্রেণিতে জুড়লে যন্ত্রগুলি পূর্ণ বিভব পেত না এবং একটি নষ্ট হলেই সব বন্ধ হয়ে যেত।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "কোনটা যোগ, কোনটা অন্যোন্যক",
+          "body": "শ্রেণি → রোধ সরাসরি যোগ (Rs = R₁+R₂+R₃), প্রবাহ সমান। সমান্তরাল → অন্যোন্যক যোগ (1/Rp = 1/R₁+1/R₂+1/R₃), বিভবপ্রভেদ সমান। 'শ্রেণিতে সবচেয়ে বড়, সমান্তরালে সবচেয়ে ছোট' — তুল্য রোধের এই ক্রমটি মুখস্থ রাখো।",
+          "claims": [
+            "c20",
+            "c23"
+          ]
+        }
+      ],
+      "claims": [
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c54"
+      ]
+    },
+    {
+      "id": "heating_power",
+      "heading": "তড়িৎপ্রবাহের তাপীয় ফল, ক্ষমতা ও ফিউজ",
+      "quick": "রোধের মধ্য দিয়ে প্রবাহ গেলে তড়িৎশক্তি তাপে রূপান্তরিত হয় — এটাই জুলের তাপীয় সূত্র: H = I²Rt। ক্ষমতা P = VI, একক ওয়াট। বিদ্যুৎ-বিলের 'ইউনিট' হল কিলোওয়াট-ঘণ্টা: 1 kW h = 3.6 × 10⁶ J। ফিউজ শ্রেণিতে যুক্ত থেকে অতিরিক্ত প্রবাহে গলে বর্তনী ভেঙে দেয়।",
+      "standard": "রোধযুক্ত বর্তনীতে উৎসের দেওয়া শক্তি পুরোটাই তাপে ব্যয়িত হয় — এটাই তড়িৎপ্রবাহের তাপীয় ফল। জুলের সূত্র অনুযায়ী উৎপন্ন তাপ H প্রবাহের **বর্গের** সমানুপাতিক, রোধের সমানুপাতিক এবং সময়ের সমানুপাতিক: H = VIt = I²Rt। প্রবাহ দ্বিগুণ হলে তাপ চার গুণ — এই বর্গ-সম্পর্কটাই পরীক্ষায় সবচেয়ে বেশি যাচাই হয়। ইস্ত্রি, টোস্টার, ওভেন, কেটলি ও হিটার — সবই এই নীতিতে চলে। বাল্বেও একই তাপ আলো দেয়: উচ্চ গলনাঙ্কের (৩৩৮০°C) টাংস্টেন ফিলামেন্ট উত্তপ্ত হয়ে আলো ছড়ায়; ফিলামেন্টের আয়ু বাড়াতে বাল্বে নাইট্রোজেন ও আর্গনের মতো নিষ্ক্রিয় গ্যাস ভরা থাকে।\n\nক্ষমতা হল শক্তি খরচের হার: P = VI = I²R = V²/R। ক্ষমতার SI একক ওয়াট (W): ১ V বিভবপ্রভেদে ১ A প্রবাহ চললে খরচ ১ W। শক্তির বাণিজ্যিক একক কিলোওয়াট-ঘণ্টা (kW h), যাকে আমরা 'ইউনিট' বলি: 1 kW h = 1000 W × 3600 s = 3.6 × 10⁶ J। বিদ্যুতের বিল এই ইউনিটেই গোনা হয় — যন্ত্রের ক্ষমতা (kW) × চলার সময় (ঘণ্টা) = ইউনিট।\n\nতাপীয় ফলেরই নিরাপত্তা-রূপ হল **ফিউজ**: উপযুক্ত গলনাঙ্কের ধাতু বা সংকর ধাতুর তার, যন্ত্রের সঙ্গে **শ্রেণিতে** যুক্ত। নির্ধারিত মানের বেশি প্রবাহ গেলে ফিউজ তার উত্তপ্ত হয়ে গলে যায় ও বর্তনী ভেঙে দেয় — যন্ত্র ও বর্তনী রক্ষা পায়। গৃহস্থালির ফিউজের রেটিং 1 A, 2 A, 3 A, 5 A, 10 A ইত্যাদি; যেমন ২২০ V-এ চলা ১ kW ইস্ত্রি টানে 4.54 A, তাই তার জন্য 5 A ফিউজ লাগে।",
+      "deep": "দুটি যন্ত্রের শক্তি-খরচ তুলনা করতে হলে শুধু ওয়াট দেখলে হবে না — সময় গুণ করতে হবে (শক্তি = ক্ষমতা × সময়)। ২৫০ W টিভি ১ ঘণ্টায় খরচ করে ০.২৫ kW h, আর ১২০০ W টোস্টার ১০ মিনিটে ০.২ kW h — অর্থাৎ বেশি ওয়াটের যন্ত্রও কম সময় চললে কম শক্তি খরচ করতে পারে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "কিলোওয়াট-ঘণ্টা: শক্তি, ক্ষমতা নয়",
+          "body": "ক্লার্কশিপ ২০০৯-সহ বহু পরীক্ষায় এই ফাঁদ আসে: kW h হল **শক্তির** একক, ক্ষমতার একক kW। 1 kW h = 3.6 × 10⁶ J — সংখ্যাটি হুবহু মনে রাখো।",
+          "claims": [
+            "c32",
+            "c33"
+          ]
+        }
+      ],
+      "claims": [
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33"
+      ]
+    },
+    {
+      "id": "magnetic_field",
+      "heading": "চৌম্বক ক্ষেত্র ও ক্ষেত্ররেখা",
+      "quick": "চুম্বকের চারপাশে যেখানে তার বল অনুভূত হয়, সেটাই চৌম্বক ক্ষেত্র। ক্ষেত্ররেখা উত্তর মেরু থেকে বেরিয়ে দক্ষিণ মেরুতে মেশে, পরস্পরকে কখনো ছেদ করে না, আর যেখানে ঘন সেখানে ক্ষেত্র শক্তিশালী। প্রবাহবাহী সোজা তারের চারপাশে ক্ষেত্ররেখা সমকেন্দ্রিক বৃত্ত।",
+      "standard": "১৮২০ সালে হান্স ক্রিশ্চিয়ান ওয়েরস্টেড আকস্মিকভাবে লক্ষ করেন, কাছের ধাতব তার দিয়ে প্রবাহ গেলে কম্পাসের কাঁটা বেঁকে যায়। এই পর্যবেক্ষণই প্রথম দেখাল যে তড়িৎ ও চুম্বকত্ব পরস্পর সম্পর্কিত ঘটনা — প্রবাহবাহী তার চুম্বকের মতো আচরণ করে।\n\nচুম্বকের চারপাশের যে অঞ্চলে তার বল শনাক্ত করা যায়, তাকে চৌম্বক ক্ষেত্র বলে। লোহার গুঁড়ো চুম্বকের চারপাশে যে রেখা বরাবর সাজে, সেগুলিই চৌম্বক ক্ষেত্ররেখা। ক্ষেত্ররেখার ধর্মগুলি পরীক্ষার স্থায়ী প্রশ্ন: (১) রীতি অনুযায়ী রেখা চুম্বকের **বাইরে** উত্তর মেরু থেকে বেরিয়ে দক্ষিণ মেরুতে মেশে, আর চুম্বকের **ভিতরে** দক্ষিণ থেকে উত্তরে যায় — তাই ক্ষেত্ররেখা বদ্ধ বক্ররেখা। (২) দুটি ক্ষেত্ররেখা কখনো পরস্পরকে **ছেদ করে না** — ছেদ করলে ছেদবিন্দুতে কম্পাসের কাঁটাকে একসঙ্গে দুই দিকে নির্দেশ করতে হত, যা অসম্ভব। (৩) রেখা যেখানে **ঘন**, ক্ষেত্র সেখানে শক্তিশালী; মেরুর কাছে ক্ষেত্র সবচেয়ে শক্তিশালী। আর মনে রাখো: সমমেরু বিকর্ষণ করে, বিষমমেরু আকর্ষণ করে।\n\nপ্রবাহবাহী সোজা তারের চারপাশে ক্ষেত্ররেখা হয় তারকে কেন্দ্র করে **সমকেন্দ্রিক বৃত্ত**। ক্ষেত্রের মান নির্দিষ্ট বিন্দুতে প্রবাহ বাড়ালে বাড়ে, তার থেকে দূরত্ব বাড়ালে কমে। দিক বের করার নিয়ম হল **ডান-হস্ত বৃদ্ধাঙ্গুষ্ঠ নিয়ম**: ডান হাতে তার ধরো যাতে বৃদ্ধাঙ্গুষ্ঠ প্রবাহের দিকে থাকে; তখন মুড়ে যাওয়া আঙুলগুলি ক্ষেত্ররেখার দিক দেখায়। প্রবাহের দিক উল্টালে ক্ষেত্রের দিকও উল্টে যায়।",
+      "deep": "বৃত্তাকার কুণ্ডলীর ক্ষেত্রে প্রতিটি পাকের ক্ষেত্র একই দিকে যোগ হয়, তাই n পাকের কুণ্ডলীর ক্ষেত্র এক পাকের ক্ষেত্রের n গুণ। কুণ্ডলীর কেন্দ্রে ক্ষেত্ররেখাগুলি প্রায় সরলরেখার মতো দেখায়।",
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "ওয়েরস্টেডের নামে একক",
+          "body": "চৌম্বক ক্ষেত্রের শক্তির একটি এককের নাম ওয়েরস্টেডের সম্মানে রাখা হয়েছে 'ওয়েরস্টেড'। তাঁর ১৮২০ সালের পর্যবেক্ষণ থেকেই পরবর্তীকালে রেডিও, টেলিভিশনের মতো প্রযুক্তির পথ খুলে যায়।",
+          "claims": [
+            "c34"
+          ]
+        }
+      ],
+      "claims": [
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44"
+      ]
+    },
+    {
+      "id": "solenoid_force_domestic",
+      "heading": "সলিনয়েড, তড়িৎচুম্বক, চৌম্বক বল ও গৃহবর্তনী",
+      "quick": "নলাকার কুণ্ডলীই সলিনয়েড — তার এক প্রান্ত উত্তর মেরু, অন্য প্রান্ত দক্ষিণ মেরুর মতো আচরণ করে, ভিতরের ক্ষেত্র সুষম। ভিতরে নরম লোহা রাখলেই তড়িৎচুম্বক। চৌম্বক ক্ষেত্রে থাকা প্রবাহবাহী পরিবাহীর ওপর বলের দিক দেয় ফ্লেমিংয়ের বাম-হস্ত নিয়ম। বাড়িতে সরবরাহ AC ২২০ V, ৫০ Hz; আর্থ তার (সবুজ) ও ফিউজ হল নিরাপত্তার ভিত্তি।",
+      "standard": "অন্তরিত তামার তারের অনেকগুলি বৃত্তাকার পাক নল (সিলিন্ডার) আকারে কাছাকাছি জড়ানো থাকলে তাকে **সলিনয়েড** বলে। প্রবাহ চললে সলিনয়েডের ক্ষেত্র দণ্ডচুম্বকের ক্ষেত্রের মতো হয়: এক প্রান্ত উত্তর মেরু, অন্য প্রান্ত দক্ষিণ মেরুর মতো আচরণ করে। সলিনয়েডের **ভিতরে** ক্ষেত্ররেখা সমান্তরাল সরলরেখা — অর্থাৎ ভিতরের সব বিন্দুতে ক্ষেত্র সমান (সুষম)। এই শক্তিশালী সুষম ক্ষেত্রের ভিতরে নরম লোহার মতো চৌম্বক পদার্থ রাখলে তা চুম্বকিত হয় — এভাবেই তৈরি হয় **তড়িৎচুম্বক**: নরম লোহার মজ্জার গায়ে অন্তরিত তামার তারের কুণ্ডলী। প্রবাহ বন্ধ করলেই তড়িৎচুম্বকের চুম্বকত্ব প্রায় চলে যায় — স্থায়ী চুম্বকের সঙ্গে এটাই তার বড় পার্থক্য ও সুবিধা।\n\nপ্রবাহ যেমন চুম্বকের ওপর বল প্রয়োগ করে, চুম্বকও প্রবাহবাহী পরিবাহীর ওপর বল প্রয়োগ করে। চৌম্বক ক্ষেত্রে রাখা প্রবাহবাহী পরিবাহীর ওপর বলের দিক পাওয়া যায় **ফ্লেমিংয়ের বাম-হস্ত নিয়মে**: বাম হাতের বৃদ্ধাঙ্গুষ্ঠ, তর্জনী ও মধ্যমা পরস্পরের লম্ব করে ধরলে তর্জনী ক্ষেত্রের দিক, মধ্যমা প্রবাহের দিক এবং বৃদ্ধাঙ্গুষ্ঠ বল (গতি)-র দিক দেখায়। বল সবচেয়ে বেশি হয় যখন প্রবাহ ক্ষেত্রের সঙ্গে **লম্ব** থাকে। এই নীতিতেই চলে বৈদ্যুতিক মোটর, জেনারেটর, লাউডস্পিকার, মাইক্রোফোনের মতো যন্ত্র।\n\n**গৃহবর্তনী:** বাড়িতে আসে AC সরবরাহ — লাইভ তার (লাল আবরণ) ও নিউট্রাল তারের (কালো আবরণ) মধ্যে বিভবপ্রভেদ ২২০ V, কম্পাঙ্ক ৫০ Hz। সাধারণত দুটি আলাদা বর্তনী থাকে: বেশি ক্ষমতার যন্ত্রের (গিজার, কুলার) জন্য ১৫ A রেটিং, আর বাল্ব-ফ্যানের জন্য ৫ A রেটিং। সবুজ আবরণের **আর্থ তার** মাটির গভীরে থাকা ধাতব পাতের সঙ্গে যুক্ত; ধাতব দেহের যন্ত্রে প্রবাহ লিক হলে তা আর্থ তার দিয়ে মাটিতে চলে যায়, দেহের বিভব মাটির সমান থাকে — ব্যবহারকারী মারাত্মক শক পান না। লাইভ ও নিউট্রাল তার সরাসরি ছুঁলে প্রবাহ হঠাৎ প্রচণ্ড বেড়ে যায় — এটাই **শর্ট সার্কিট**। একই সকেটে অনেক যন্ত্র জুড়লেও বা সরবরাহ-ভোল্টেজ হঠাৎ বেড়ে গেলেও ওভারলোডিং হতে পারে; ফিউজই তখন বর্তনী ভেঙে রক্ষা করে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "বাম হাত বনাম ডান হাত",
+          "body": "ডান-হস্ত বৃদ্ধাঙ্গুষ্ঠ নিয়ম → প্রবাহের চারপাশে **ক্ষেত্রের দিক**। ফ্লেমিংয়ের **বাম**-হস্ত নিয়ম → ক্ষেত্রে থাকা পরিবাহীর ওপর **বলের দিক** (মোটরের নীতি)। দুটো গুলিয়ে ফেলা এই অধ্যায়ের সবচেয়ে সাধারণ ভুল।",
+          "claims": [
+            "c43",
+            "c48"
+          ]
+        }
+      ],
+      "claims": [
+        "c45",
+        "c46",
+        "c47",
+        "c48",
+        "c49",
+        "c50",
+        "c51",
+        "c52",
+        "c53",
+        "c54",
+        "c55",
+        "c56",
+        "c57"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "ওয়েরস্টেডের পর্যবেক্ষণ",
+      "when": "১৮২০",
+      "what": "কাছের তার দিয়ে প্রবাহ গেলে কম্পাসের কাঁটা বেঁকে যায় — ওয়েরস্টেড আকস্মিকভাবে এটি লক্ষ করেন।",
+      "why_it_matters": "তড়িৎ ও চুম্বকত্ব যে সম্পর্কিত, তার প্রথম পরীক্ষামূলক প্রমাণ; তড়িৎচুম্বকত্বের সূচনা।",
+      "section": "magnetic_field",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "title": "ওহমের সূত্র প্রতিষ্ঠা",
+      "when": "১৮২৭",
+      "what": "গেয়র্গ সিমন ওহম ধাতব তারে বিভবপ্রভেদ ও প্রবাহের সমানুপাতিক সম্পর্ক প্রতিষ্ঠা করেন।",
+      "why_it_matters": "V = IR — এই অধ্যায়ের প্রায় সব গণনা-প্রশ্নের ভিত্তি এই একটি সূত্র।",
+      "section": "ohms_resistance",
+      "claims": [
+        "c10"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "হান্স ক্রিশ্চিয়ান ওয়েরস্টেড",
+      "when": "১৭৭৭–১৮৫১",
+      "role": "ডেনিশ পদার্থবিদ",
+      "contribution": "১৮২০ সালে প্রবাহের চৌম্বক ফল পর্যবেক্ষণ করে তড়িৎ ও চুম্বকত্বের সম্পর্ক দেখান; চৌম্বক ক্ষেত্রের শক্তির একটি একক তাঁর নামে 'ওয়েরস্টেড'।",
+      "section": "magnetic_field",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "name": "গেয়র্গ সিমন ওহম",
+      "when": "১৭৮৭–১৮৫৪",
+      "role": "জার্মান পদার্থবিদ",
+      "contribution": "১৮২৭ সালে বিভবপ্রভেদ ও প্রবাহের সম্পর্ক (ওহমের সূত্র) প্রতিষ্ঠা করেন; রোধের একক ওহম (Ω) তাঁর নামে।",
+      "section": "ohms_resistance",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "name": "আন্দ্রে-মারি অ্যাম্পিয়ার",
+      "when": "১৭৭৫–১৮৩৬",
+      "role": "ফরাসি বিজ্ঞানী",
+      "contribution": "তড়িৎপ্রবাহের SI একক অ্যাম্পিয়ার তাঁর নামে; তিনি মত দেন যে চুম্বকও প্রবাহবাহী পরিবাহীর ওপর বল প্রয়োগ করে।",
+      "section": "solenoid_force_domestic",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "name": "আলেসান্দ্রো ভোল্টা",
+      "when": "১৭৪৫–১৮২৭",
+      "role": "ইতালীয় পদার্থবিদ",
+      "contribution": "বিভবপ্রভেদের SI একক ভোল্ট তাঁর নামে রাখা হয়েছে।",
+      "section": "current_circuit",
+      "claims": [
+        "c08"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1745,
+      "when": "১৭৪৫",
+      "label": "আলেসান্দ্রো ভোল্টার জন্ম (বিভবপ্রভেদের একক 'ভোল্ট' তাঁর নামে)",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "sort_year": 1775,
+      "when": "১৭৭৫",
+      "label": "আন্দ্রে-মারি অ্যাম্পিয়ারের জন্ম (প্রবাহের একক 'অ্যাম্পিয়ার' তাঁর নামে)",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 1820,
+      "when": "১৮২০",
+      "label": "ওয়েরস্টেড প্রবাহের চৌম্বক ফল পর্যবেক্ষণ করেন",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "sort_year": 1827,
+      "when": "১৮২৭",
+      "label": "ওহম বিভবপ্রভেদ ও প্রবাহের সম্পর্ক (ওহমের সূত্র) প্রতিষ্ঠা করেন",
+      "claims": [
+        "c10"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "তড়িৎপ্রবাহ (Electric current)",
+      "meaning": "একক সময়ে কোনো প্রস্থচ্ছেদ দিয়ে প্রবাহিত আধানের পরিমাণ; I = Q/t, একক অ্যাম্পিয়ার।",
+      "section": "current_circuit"
+    },
+    {
+      "term": "বিভবপ্রভেদ (Potential difference)",
+      "meaning": "একক আধানকে এক বিন্দু থেকে অন্য বিন্দুতে নিতে করা কাজ; V = W/Q, একক ভোল্ট।",
+      "section": "current_circuit"
+    },
+    {
+      "term": "রোধ (Resistance)",
+      "meaning": "পরিবাহীর আধান-প্রবাহে বাধা দেওয়ার ধর্ম; R = V/I, একক ওহম (Ω)।",
+      "section": "ohms_resistance"
+    },
+    {
+      "term": "রোধাঙ্ক (Resistivity)",
+      "meaning": "উপাদানের নিজস্ব বৈশিষ্ট্য যা রোধ নির্ধারণ করে (R = ρl/A); SI একক Ω m।",
+      "section": "ohms_resistance"
+    },
+    {
+      "term": "রিওস্ট্যাট (Rheostat)",
+      "meaning": "ভোল্টেজ-উৎস না বদলে বর্তনীর রোধ বদলে প্রবাহ নিয়ন্ত্রণের যন্ত্র (পরিবর্তনশীল রোধ)।",
+      "section": "ohms_resistance"
+    },
+    {
+      "term": "জুলের তাপীয় সূত্র (Joule's law of heating)",
+      "meaning": "রোধে উৎপন্ন তাপ H = I²Rt — প্রবাহের বর্গ, রোধ ও সময়ের সমানুপাতিক।",
+      "section": "heating_power"
+    },
+    {
+      "term": "কিলোওয়াট-ঘণ্টা (kW h)",
+      "meaning": "তড়িৎশক্তির বাণিজ্যিক একক, 'ইউনিট'; 1 kW h = 3.6 × 10⁶ J।",
+      "section": "heating_power"
+    },
+    {
+      "term": "ফিউজ (Fuse)",
+      "meaning": "উপযুক্ত গলনাঙ্কের তার, শ্রেণিতে যুক্ত; অতিরিক্ত প্রবাহে গলে বর্তনী ভেঙে যন্ত্র রক্ষা করে।",
+      "section": "heating_power"
+    },
+    {
+      "term": "চৌম্বক ক্ষেত্ররেখা (Magnetic field lines)",
+      "meaning": "চুম্বকের চারপাশে লোহার গুঁড়ো যে রেখা বরাবর সাজে; বাইরে উত্তর থেকে দক্ষিণে, পরস্পরকে ছেদ করে না।",
+      "section": "magnetic_field"
+    },
+    {
+      "term": "সলিনয়েড (Solenoid)",
+      "meaning": "নলাকার আকারে কাছাকাছি জড়ানো অন্তরিত তারের বহুপাক কুণ্ডলী; প্রবাহ চললে দণ্ডচুম্বকের মতো আচরণ করে।",
+      "section": "solenoid_force_domestic"
+    },
+    {
+      "term": "তড়িৎচুম্বক (Electromagnet)",
+      "meaning": "নরম লোহার মজ্জার গায়ে অন্তরিত তামার তারের কুণ্ডলী; প্রবাহ চললেই চুম্বকত্ব পায়।",
+      "section": "solenoid_force_domestic"
+    },
+    {
+      "term": "শর্ট সার্কিট (Short circuit)",
+      "meaning": "লাইভ ও নিউট্রাল তার সরাসরি ছুঁলে প্রবাহ হঠাৎ প্রচণ্ড বেড়ে যাওয়ার ঘটনা।",
+      "section": "solenoid_force_domestic"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "রোধে তাপ উৎপাদন",
+      "causes": [
+        "রোধযুক্ত বর্তনীতে উৎসের শক্তি প্রবাহ বজায় রাখতে ব্যয়িত হয়"
+      ],
+      "event": "খাঁটি রোধীয় বর্তনীতে উৎসের শক্তি পুরোপুরি তাপে রূপান্তরিত হয় (H = I²Rt)",
+      "results": [
+        "ইস্ত্রি, হিটার, টোস্টার প্রভৃতি তাপ-যন্ত্র এই নীতিতে চলে",
+        "একই তাপ বাল্বের ফিলামেন্টকে উত্তপ্ত করে আলো দেয়"
+      ],
+      "section": "heating_power",
+      "claims": [
+        "c25",
+        "c26",
+        "c27"
+      ]
+    },
+    {
+      "title": "শর্ট সার্কিট ও ফিউজের সুরক্ষা",
+      "causes": [
+        "লাইভ ও নিউট্রাল তার সরাসরি সংস্পর্শে আসে (অন্তরণ নষ্ট বা যন্ত্রের ত্রুটি)",
+        "একই সকেটে অতিরিক্ত যন্ত্র জোড়া বা সরবরাহ-ভোল্টেজ হঠাৎ বেড়ে যাওয়া"
+      ],
+      "event": "বর্তনীর প্রবাহ হঠাৎ প্রচণ্ড বেড়ে যায় (শর্ট সার্কিট/ওভারলোডিং)",
+      "results": [
+        "শ্রেণিতে থাকা ফিউজ তার জুল-তাপে গলে বর্তনী ভেঙে যায়",
+        "যন্ত্র ও বর্তনী সম্ভাব্য ক্ষতি থেকে রক্ষা পায়"
+      ],
+      "section": "solenoid_force_domestic",
+      "claims": [
+        "c55",
+        "c56",
+        "c29"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "ওহমের সূত্রের তিন রূপ (V = IR, I = V/R, R = V/I) দিয়ে সরাসরি গণনা — WBCS/ক্লার্কশিপে প্রায় প্রতি বছর আসে।",
+      "section": "ohms_resistance"
+    },
+    {
+      "point": "রোধাঙ্কের গণনা ρ = RA/L — একক রূপান্তরে (m ↔ cm) ভুল করলেই উত্তর ভুল হয়; WBCS ২০২৪-এর প্রশ্নের ধরন।",
+      "section": "ohms_resistance"
+    },
+    {
+      "point": "শ্রেণিতে তুল্য রোধ সর্বোচ্চ (যোগফল), সমান্তরালে সর্বনিম্ন — WBCS ২০২৩-এর ৫+৪.৫+৩ = ১২.৫ Ω প্রশ্নের ধরন হুবহু মনে রাখো।",
+      "section": "series_parallel"
+    },
+    {
+      "point": "কিলোওয়াট-ঘণ্টা শক্তির একক (ক্ষমতার নয়), 1 kW h = 3.6 × 10⁶ J — ক্লার্কশিপ ২০০৯-এর প্রশ্ন।",
+      "section": "heating_power"
+    },
+    {
+      "point": "বাড়ির যন্ত্রপাতি সমান্তরালে যুক্ত — WBCS ২০১৭-এর প্রশ্ন; কারণসহ (পূর্ণ বিভব + স্বাধীন সুইচ) মনে রাখো।",
+      "section": "series_parallel"
+    },
+    {
+      "point": "ক্ষেত্ররেখার তিন ধর্ম: বদ্ধ বক্ররেখা, কখনো ছেদ করে না, ঘন হলে ক্ষেত্র শক্তিশালী।",
+      "section": "magnetic_field"
+    },
+    {
+      "point": "ডান-হস্ত বৃদ্ধাঙ্গুষ্ঠ নিয়ম (ক্ষেত্রের দিক) বনাম ফ্লেমিংয়ের বাম-হস্ত নিয়ম (বলের দিক) — গুলিয়ে ফেললেই ভুল।",
+      "section": "solenoid_force_domestic"
+    },
+    {
+      "point": "ফিউজ: শ্রেণিতে যুক্ত, উপযুক্ত গলনাঙ্ক; আর্থ তার সবুজ ও নিরাপত্তামূলক — GK-SCI-019 কার্ডের সঙ্গে মিলিয়ে পড়ো।",
+      "section": "heating_power"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের গৃহবর্তনীর নিয়মগুলি পশ্চিমবঙ্গের প্রতিটি বাড়ির ক্ষেত্রেই হুবহু প্রযোজ্য: বাংলার বাড়িতেও সরবরাহ আসে ২২০ V AC, লাইভ তার লাল ও নিউট্রাল কালো আবরণের, আর্থ তার সবুজ। কলকাতাসহ রাজ্যের পুরনো বাড়িগুলিতে শর্ট সার্কিট ও ওভারলোডিং থেকে অগ্নিকাণ্ডের খবর প্রায়ই আসে — ফিউজের সঠিক রেটিং, আর্থ তারের সংযোগ ও এক সকেটে অতিরিক্ত যন্ত্র না জোড়ার নিয়মগুলি তাই শুধু পরীক্ষার বিষয় নয়, বাংলার ঘরের দৈনন্দিন নিরাপত্তারও বিষয়। পশ্চিমবঙ্গের পরীক্ষাগুলিতেই (WBCS, ক্লার্কশিপ, মিসলেনিয়াস, পুলিশ কনস্টেবল) এই অধ্যায় থেকে বারবার প্রশ্ন এসেছে — pyq_map_SCI-04.json-এ তার পূর্ণ তালিকা দেওয়া আছে।",
+    "claims": [
+      "c51",
+      "c53",
+      "c55"
+    ]
+  },
+  "quick_revision": [
+    "প্রবাহ I = Q/t; 1 A = প্রতি সেকেন্ডে 1 C আধান।",
+    "প্রচলিত প্রবাহের দিক ইলেকট্রন-প্রবাহের বিপরীত; বাইরের বর্তনীতে ধনাত্মক → ঋণাত্মক প্রান্ত।",
+    "অ্যামিটার শ্রেণিতে, ভোল্টমিটার সমান্তরালে যুক্ত হয়।",
+    "বিভবপ্রভেদ V = W/Q; 1 V = 1 J/C।",
+    "ওহমের সূত্র: V = IR (তাপমাত্রা স্থির থাকলে); রোধ দ্বিগুণ হলে প্রবাহ অর্ধেক।",
+    "R = ρl/A; রোধাঙ্কের একক Ω m, শুধু উপাদান ও তাপমাত্রার ওপর নির্ভর করে।",
+    "শ্রেণি: Rs = R₁+R₂+R₃ (সর্বোচ্চ), প্রবাহ সমান। সমান্তরাল: 1/Rp = 1/R₁+1/R₂+1/R₃ (সর্বনিম্ন), বিভব সমান।",
+    "জুলের সূত্র: H = I²Rt; ক্ষমতা P = VI = I²R = V²/R, একক ওয়াট।",
+    "1 kW h ('ইউনিট') = 3.6 × 10⁶ J — শক্তির একক, ক্ষমতার নয়।",
+    "ফিউজ শ্রেণিতে যুক্ত; অতিরিক্ত প্রবাহে গলে বর্তনী ভেঙে দেয়; 1 kW ইস্ত্রির (220 V) জন্য 5 A ফিউজ।",
+    "ক্ষেত্ররেখা: বাইরে উত্তর → দক্ষিণ, ভিতরে দক্ষিণ → উত্তর (বদ্ধ বক্র); কখনো ছেদ করে না; ঘন = শক্তিশালী ক্ষেত্র।",
+    "সোজা তারের ক্ষেত্র সমকেন্দ্রিক বৃত্ত; দিক ডান-হস্ত বৃদ্ধাঙ্গুষ্ঠ নিয়মে; n পাকের কুণ্ডলীতে ক্ষেত্র n গুণ।",
+    "সলিনয়েডের ভিতরে ক্ষেত্র সুষম; ভিতরে নরম লোহা রাখলেই তড়িৎচুম্বক।",
+    "ফ্লেমিংয়ের বাম-হস্ত নিয়ম: তর্জনী = ক্ষেত্র, মধ্যমা = প্রবাহ, বৃদ্ধাঙ্গুষ্ঠ = বল; বল সর্বোচ্চ যখন প্রবাহ ক্ষেত্রের লম্ব।",
+    "গৃহবর্তনী: AC 220 V, 50 Hz; লাইভ লাল, নিউট্রাল কালো, আর্থ সবুজ; যন্ত্রপাতি সমান্তরালে যুক্ত।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Science, Class X, Chapter 11: Electricity",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Science, Class X, Chapter 12: Magnetic Effects of Electric Current",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "A continuous and closed path of an electric current is called an electric circuit.",
+      "source": "s1",
+      "page": "p. 171",
+      "quote": "A continuous and closed path of an electric current is called an electric circuit."
+    },
+    {
+      "id": "c02",
+      "claim": "Electric current is the amount of charge flowing through a particular area in unit time (rate of flow of charge, I = Q/t).",
+      "source": "s1",
+      "page": "p. 171",
+      "quote": "Electric current is expressed by the amount of charge flowing through a particular area in unit time. In other words, it is the rate of flow of electric charges."
+    },
+    {
+      "id": "c03",
+      "claim": "The SI unit of current is the ampere; 1 A = 1 C per second; named after Andre-Marie Ampere (1775-1836).",
+      "source": "s1",
+      "page": "p. 171",
+      "quote": "The electric current is expressed by a unit called ampere (A), named after the French scientist, Andre-Marie Ampere (1775–1836). One ampere is constituted by the flow of one coulomb of charge per second, that is, 1 A = 1 C/1 s."
+    },
+    {
+      "id": "c04",
+      "claim": "Conventionally the direction of current is taken opposite to the direction of flow of electrons.",
+      "source": "s1",
+      "page": "p. 171",
+      "quote": "Conventionally, in an electric circuit the direction of electric current is taken as opposite to the direction of the flow of electrons, which are negative charges."
+    },
+    {
+      "id": "c05",
+      "claim": "An ammeter measures current and is always connected in series.",
+      "source": "s1",
+      "page": "p. 171",
+      "quote": "An instrument called ammeter measures electric current in a circuit. It is always connected in series in a circuit through which the current is to be measured."
+    },
+    {
+      "id": "c06",
+      "claim": "In the external circuit, current flows from the positive terminal of the cell to the negative terminal through the bulb and ammeter.",
+      "source": "s1",
+      "page": "p. 171",
+      "quote": "the electric current flows in the circuit from the positive terminal of the cell to the negative terminal of the cell through the bulb and ammeter"
+    },
+    {
+      "id": "c07",
+      "claim": "Potential difference between two points is the work done to move a unit charge from one point to the other (V = W/Q).",
+      "source": "s1",
+      "page": "p. 172",
+      "quote": "We define the electric potential difference between two points in an electric circuit carrying some current as the work done to move a unit charge from one point to the other"
+    },
+    {
+      "id": "c08",
+      "claim": "One volt is the potential difference when 1 joule of work is done to move 1 coulomb of charge; named after Alessandro Volta (1745-1827).",
+      "source": "s1",
+      "page": "p. 172",
+      "quote": "The SI unit of electric potential difference is volt (V), named after Alessandro Volta (1745 -1827), an Italian physicist. One volt is the potential difference between two points in a current carrying conductor when 1 joule of work is done to move a charge of 1 coulomb from one point to the other."
+    },
+    {
+      "id": "c09",
+      "claim": "A voltmeter is always connected in parallel across the points whose potential difference is to be measured.",
+      "source": "s1",
+      "page": "p. 172",
+      "quote": "The voltmeter is always connected in parallel across the points between which the potential difference is to be measured."
+    },
+    {
+      "id": "c10",
+      "claim": "Ohm's law (Georg Simon Ohm, 1827): potential difference across a metallic wire is directly proportional to the current through it, provided temperature remains the same; V = IR.",
+      "source": "s1",
+      "page": "p. 175",
+      "quote": "In 1827, a German physicist Georg Simon Ohm (1787–1854) found out the relationship between the current I, flowing in a metallic wire and the potential difference across its terminals. The potential difference, V, across the ends of a given metallic wire in an electric circuit is directly proportional to the current flowing through it, provided its temperature remains the same. This is called Ohm’s law."
+    },
+    {
+      "id": "c11",
+      "claim": "Resistance is the property of a conductor to resist the flow of charges; its SI unit is the ohm; R = V/I.",
+      "source": "s1",
+      "page": "p. 175",
+      "quote": "It is the property of a conductor to resist the flow of charges through it. Its SI unit is ohm, represented by the Greek letter Ω. According to Ohm’s law, R = V/I"
+    },
+    {
+      "id": "c12",
+      "claim": "Current through a resistor is inversely proportional to its resistance; doubling the resistance halves the current.",
+      "source": "s1",
+      "page": "p. 175",
+      "quote": "It is obvious from Eq. (11.7) that the current through a resistor is inversely proportional to its resistance. If the resistance is doubled the current gets halved."
+    },
+    {
+      "id": "c13",
+      "claim": "Resistance of a uniform metallic conductor is directly proportional to its length and inversely proportional to its area of cross-section (R = rho l/A).",
+      "source": "s1",
+      "page": "p. 177",
+      "quote": "Precise measurements have shown that resistance of a uniform metallic conductor is directly proportional to its length (l) and inversely proportional to the area of crosssection (A)."
+    },
+    {
+      "id": "c14",
+      "claim": "Resistivity (rho) is a characteristic property of the material; its SI unit is ohm metre.",
+      "source": "s1",
+      "page": "p. 177",
+      "quote": "where ρ(rho) is a constant of proportionality and is called the electrical resistivity of the material of the conductor. The SI unit of resistivity is Ω m. It is a characteristic property of the material."
+    },
+    {
+      "id": "c15",
+      "claim": "Both resistance and resistivity of a material vary with temperature.",
+      "source": "s1",
+      "page": "p. 178",
+      "quote": "Both the resistance and resistivity of a material vary with temperature."
+    },
+    {
+      "id": "c16",
+      "claim": "Tungsten is used almost exclusively for bulb filaments; copper and aluminium are generally used for electrical transmission lines.",
+      "source": "s1",
+      "page": "p. 178",
+      "quote": "Tungsten is used almost exclusively for filaments of electric bulbs, whereas copper and aluminium are generally used for electrical transmission lines."
+    },
+    {
+      "id": "c17",
+      "claim": "A rheostat is a device used to change the resistance in a circuit to regulate current without changing the voltage source.",
+      "source": "s1",
+      "page": "p. 175",
+      "quote": "A component used to regulate current without changing the voltage source is called variable resistance. In an electric circuit, a device called rheostat is often used to change the resistance in the circuit."
+    },
+    {
+      "id": "c18",
+      "claim": "In a series combination the current is the same in every part of the circuit / through each resistor.",
+      "source": "s1",
+      "page": "p. 181",
+      "quote": "It means that in a series combination of resistors the current is the same in every part of the circuit or the same current through each resistor."
+    },
+    {
+      "id": "c19",
+      "claim": "In series, total potential difference equals the sum of the potential differences across the individual resistors.",
+      "source": "s1",
+      "page": "p. 182",
+      "quote": "That is the total potential difference across a combination of resistors in series is equal to the sum of potential difference across the individual resistors."
+    },
+    {
+      "id": "c20",
+      "claim": "Equivalent resistance of resistors in series equals the sum of their individual resistances and is greater than any individual resistance.",
+      "source": "s1",
+      "page": "p. 182",
+      "quote": "We can conclude that when several resistors are joined in series, the resistance of the combination Rs equals the sum of their individual resistances, R1, R2, R3, and is thus greater than any individual resistance."
+    },
+    {
+      "id": "c21",
+      "claim": "In parallel, the potential difference across each resistor is the same (V).",
+      "source": "s1",
+      "page": "p. 185",
+      "quote": "The potential difference across each resistor is also V."
+    },
+    {
+      "id": "c22",
+      "claim": "In parallel, total current equals the sum of the separate currents through each branch.",
+      "source": "s1",
+      "page": "p. 185",
+      "quote": "It is observed that the total current I, is equal to the sum of the separate currents through each branch of the combination."
+    },
+    {
+      "id": "c23",
+      "claim": "Reciprocal of the equivalent resistance in parallel equals the sum of the reciprocals of the individual resistances.",
+      "source": "s1",
+      "page": "p. 185",
+      "quote": "Thus, we may conclude that the reciprocal of the equivalent resistance of a group of resistances joined in parallel is equal to the sum of the reciprocals of the individual resistances."
+    },
+    {
+      "id": "c24",
+      "claim": "A major disadvantage of a series circuit: when one component fails the circuit is broken and none of the components works.",
+      "source": "s1",
+      "page": "p. 186",
+      "quote": "Another major disadvantage of a series circuit is that when one component fails the circuit is broken and none of the components works."
+    },
+    {
+      "id": "c25",
+      "claim": "Heating effect: in a purely resistive circuit the source energy is dissipated entirely as heat.",
+      "source": "s1",
+      "page": "p. 187",
+      "quote": "if the electric circuit is purely resistive, that is, a configuration of resistors only connected to a battery; the source energy continually gets dissipated entirely in the form of heat. This is known as the heating effect of electric current."
+    },
+    {
+      "id": "c26",
+      "claim": "Joule's law of heating: heat is proportional to the square of current, to resistance, and to time (H = I^2 R t).",
+      "source": "s1",
+      "page": "p. 188",
+      "quote": "The law implies that heat produced in a resistor is (i) directly proportional to the square of current for a given resistance, (ii) directly proportional to resistance for a given current, and (iii) directly proportional to the time for which the current flows through the resistor."
+    },
+    {
+      "id": "c27",
+      "claim": "Electric iron, toaster, oven, kettle and heater are familiar devices based on Joule's heating.",
+      "source": "s1",
+      "page": "p. 189",
+      "quote": "The electric laundry iron, electric toaster, electric oven, electric kettle and electric heater are some of the familiar devices based on Joule’s heating."
+    },
+    {
+      "id": "c28",
+      "claim": "Tungsten (melting point 3380 degrees C) is used for bulb filaments; bulbs are filled with nitrogen and argon.",
+      "source": "s1",
+      "page": "p. 189",
+      "quote": "A strong metal with high melting point such as tungsten (melting point 3380°C) is used for making bulb filaments. The filament should be thermally isolated as much as possible, using insulating support, etc. The bulbs are usually filled with chemically inactive nitrogen and argon gases to prolong the life of filament."
+    },
+    {
+      "id": "c29",
+      "claim": "A fuse is placed in series; it is a wire of a metal/alloy of appropriate melting point; excess current heats and melts it, breaking the circuit.",
+      "source": "s1",
+      "page": "p. 189",
+      "quote": "Another common application of Joule’s heating is the fuse used in electric circuits. It protects circuits and appliances by stopping the flow of any unduly high electric current. The fuse is placed in series with the device. It consists of a piece of wire made of a metal or an alloy of appropriate melting point"
+    },
+    {
+      "id": "c30",
+      "claim": "Domestic fuses are rated 1 A, 2 A, 3 A, 5 A, 10 A etc.; a 1 kW iron at 220 V draws 4.54 A, so a 5 A fuse must be used.",
+      "source": "s1",
+      "page": "p. 189",
+      "quote": "The fuses used for domestic purposes are rated as 1 A, 2 A, 3 A, 5 A, 10 A, etc. For an electric iron which consumes 1 kW electric power when operated at 220 V, a current of (1000/220) A, that is, 4.54 A will flow in the circuit. In this case, a 5 A fuse must be used."
+    },
+    {
+      "id": "c31",
+      "claim": "Electric power P = VI; SI unit watt; 1 W is consumed by a device carrying 1 A at a potential difference of 1 V.",
+      "source": "s1",
+      "page": "p. 190",
+      "quote": "The SI unit of electric power is watt (W). It is the power consumed by a device that carries 1 A of current when operated at a potential difference of 1 V."
+    },
+    {
+      "id": "c32",
+      "claim": "The commercial unit of electric energy is the kilowatt hour (kW h), commonly known as 'unit'.",
+      "source": "s1",
+      "page": "p. 190",
+      "quote": "The commercial unit of electric energy is kilowatt hour (kW h), commonly known as ‘unit’."
+    },
+    {
+      "id": "c33",
+      "claim": "1 kW h = 1000 watt x 3600 second = 3.6 x 10^6 joule.",
+      "source": "s1",
+      "page": "p. 190",
+      "quote": "1 kW h = 1000 watt × 3600 second = 3.6 × 106 watt second = 3.6 × 106 joule (J)"
+    },
+    {
+      "id": "c34",
+      "claim": "Oersted (1820) discovered that a compass needle is deflected when current passes through a nearby metallic wire, showing electricity and magnetism are related.",
+      "source": "s2",
+      "page": "p. 195",
+      "quote": "In 1820 he accidentally discovered that a compass needle got deflected when an electric current passed through a metallic wire placed nearby. Through this observation Oersted showed that electricity and magnetism were related phenomena."
+    },
+    {
+      "id": "c35",
+      "claim": "A current through a copper wire produces a magnetic effect; electricity and magnetism are linked to each other.",
+      "source": "s2",
+      "page": "p. 195",
+      "quote": "It means that the electric current through the copper wire has produced a magnetic effect. Thus we can say that electricity and magnetism are linked to each other."
+    },
+    {
+      "id": "c36",
+      "claim": "Like poles of magnets repel and unlike poles attract each other.",
+      "source": "s2",
+      "page": "p. 195",
+      "quote": "like poles repel, while unlike poles of magnets attract each other"
+    },
+    {
+      "id": "c37",
+      "claim": "The region surrounding a magnet in which its force can be detected is said to have a magnetic field; iron filings align along magnetic field lines.",
+      "source": "s2",
+      "page": "p. 195",
+      "quote": "The region surrounding a magnet, in which the force of the magnet can be detected, is said to have a magnetic field. The lines along which the iron filings align themselves represent magnetic field lines."
+    },
+    {
+      "id": "c38",
+      "claim": "By convention field lines emerge from the north pole and merge at the south pole; inside the magnet they go from south to north, so field lines are closed curves.",
+      "source": "s2",
+      "page": "p. 196",
+      "quote": "it is taken by convention that the field lines emerge from north pole and merge at the south pole (note the arrows marked on the field lines in Fig. 12.4). Inside the magnet, the direction of field lines is from its south pole to its north pole. Thus the magnetic field lines are closed curves."
+    },
+    {
+      "id": "c39",
+      "claim": "The field is stronger where the field lines are crowded.",
+      "source": "s2",
+      "page": "p. 196",
+      "quote": "The relative strength of the magnetic field is shown by the degree of closeness of the field lines. The field is stronger, that is, the force acting on the pole of another magnet placed is greater where the field lines are crowded"
+    },
+    {
+      "id": "c40",
+      "claim": "No two field lines cross each other, because at an intersection the compass needle would have to point in two directions, which is not possible.",
+      "source": "s2",
+      "page": "p. 196",
+      "quote": "No two fieldlines are found to cross each other. If they did, it would mean that at the point of intersection, the compass needle would point towards two directions, which is not possible."
+    },
+    {
+      "id": "c41",
+      "claim": "Field lines around a straight current-carrying wire are concentric circles; their direction is given by the right-hand rule.",
+      "source": "s2",
+      "page": "p. 205",
+      "quote": "The field lines about the wire consist of a series of concentric circles whose direction is given by the righthand rule."
+    },
+    {
+      "id": "c42",
+      "claim": "Magnitude of the magnetic field at a point increases as the current through the wire increases, and decreases as distance from the wire increases.",
+      "source": "s2",
+      "page": "p. 198",
+      "quote": "It indicates that the magnitude of the magnetic field produced at a given point increases as the current through the wire increases."
+    },
+    {
+      "id": "c43",
+      "claim": "Right-hand thumb rule: thumb points in the direction of current, fingers wrap in the direction of the field lines.",
+      "source": "s2",
+      "page": "p. 198",
+      "quote": "Imagine that you are holding a currentcarrying straight conductor in your right hand such that the thumb points towards the direction of current. Then your fingers will wrap around the conductor in the direction of the field lines of the magnetic field, as shown in Fig. 12.7. This is known as the righthand thumb rule"
+    },
+    {
+      "id": "c44",
+      "claim": "For a circular coil of n turns, the field produced is n times that of a single turn because the field of each turn adds up.",
+      "source": "s2",
+      "page": "p. 199",
+      "quote": "Therefore, if there is a circular coil having n turns, the field produced is n times as large as that produced by a single turn. This is because the current in each circular turn has the same direction, and the field due to each turn then just adds up."
+    },
+    {
+      "id": "c45",
+      "claim": "A solenoid is a coil of many circular turns of insulated copper wire wrapped closely in the shape of a cylinder.",
+      "source": "s2",
+      "page": "p. 200",
+      "quote": "A coil of many circular turns of insulated copper wire wrapped closely in the shape of a cylinder is called a solenoid."
+    },
+    {
+      "id": "c46",
+      "claim": "One end of a current-carrying solenoid behaves as a north pole and the other as a south pole; the field inside is uniform (parallel straight lines, same at all points).",
+      "source": "s2",
+      "page": "p. 200",
+      "quote": "In fact, one end of the solenoid behaves as a magnetic north pole, while the other behaves as the south pole. The field lines inside the solenoid are in the form of parallel straight lines. This indicates that the magnetic field is the same at all points inside the solenoid. That is, the field is uniform inside the solenoid."
+    },
+    {
+      "id": "c47",
+      "claim": "An electromagnet is formed by placing a magnetic material like soft iron inside a current-carrying solenoid to magnetise it.",
+      "source": "s2",
+      "page": "p. 200",
+      "quote": "A strong magnetic field produced inside a solenoid can be used to magnetise a piece of magnetic material, like soft iron, when placed inside the coil (Fig. 12.11). The magnet so formed is called an electromagnet."
+    },
+    {
+      "id": "c48",
+      "claim": "Fleming's left-hand rule: forefinger = magnetic field, middle finger = current, thumb = direction of motion/force on the conductor.",
+      "source": "s2",
+      "page": "p. 202",
+      "quote": "According to this rule, stretch the thumb, forefinger and middle finger of your left hand such that they are mutually perpendicular (Fig. 12.13). If the first finger points in the direction of magnetic field and the second finger in the direction of current, then the thumb will point in the direction of motion or the force acting on the conductor."
+    },
+    {
+      "id": "c49",
+      "claim": "Force on a current-carrying conductor in a magnetic field is largest when the current is at right angles to the field.",
+      "source": "s2",
+      "page": "p. 202",
+      "quote": "Experiments have shown that the displacement of the rod is largest (or the magnitude of the force is the highest) when the direction of current is at right angles to the direction of the magnetic field."
+    },
+    {
+      "id": "c50",
+      "claim": "Devices using current-carrying conductors and magnetic fields include electric motor, electric generator, loudspeakers, microphones and measuring instruments.",
+      "source": "s2",
+      "page": "p. 202",
+      "quote": "Devices that use currentcarrying conductors and magnetic fields include electric motor, electric generator, loudspeakers, microphones and measuring instruments."
+    },
+    {
+      "id": "c51",
+      "claim": "In homes the supply is AC 220 V at 50 Hz; live wire has red insulation, neutral wire black insulation, and the potential difference between them is 220 V.",
+      "source": "s2",
+      "page": "p. 203",
+      "quote": "In our homes, we receive supply of electric power through a main supply (also called mains), either supported through overhead electric poles or by underground cables. One of the wires in this supply, usually with red insulation cover, is called live wire (or positive). Another wire, with black insulation, is called neutral wire (or negative). In our country, the potential difference between the two is 220 V."
+    },
+    {
+      "id": "c52",
+      "claim": "Homes use two separate circuits: 15 A rating for high-power appliances (geysers, air coolers) and 5 A rating for bulbs, fans etc.",
+      "source": "s2",
+      "page": "p. 203",
+      "quote": "Often, two separate circuits are used, one of 15 A current rating for appliances with higher power ratings such as geysers, air coolers, etc. The other circuit is of 5 A current rating for bulbs, fans, etc."
+    },
+    {
+      "id": "c53",
+      "claim": "The earth wire has green insulation and is connected to a metal plate deep in the earth; it is a safety measure for appliances with a metallic body.",
+      "source": "s2",
+      "page": "p. 203",
+      "quote": "The earth wire, which has insulation of green colour, is usually connected to a metal plate deep in the earth near the house. This is used as a safety measure, especially for those appliances that have a metallic body"
+    },
+    {
+      "id": "c54",
+      "claim": "Each appliance in a domestic circuit is connected in parallel so that each has equal potential difference and a separate switch.",
+      "source": "s2",
+      "page": "p. 204",
+      "quote": "In each separate circuit, different appliances can be connected across the live and neutral wires. Each appliance has a separate switch to ‘ON’/‘OFF’ the flow of current through it. In order that each appliance has equal potential difference, they are connected parallel to each other."
+    },
+    {
+      "id": "c55",
+      "claim": "Short-circuiting: when live and neutral wires come into direct contact, the current in the circuit abruptly increases.",
+      "source": "s2",
+      "page": "p. 204",
+      "quote": "Overloading can occur when the live wire and the neutral wire come into direct contact. (This occurs when the insulation of wires is damaged or there is a fault in the appliance.) In such a situation, the current in the circuit abruptly increases. This is called shortcircuiting."
+    },
+    {
+      "id": "c56",
+      "claim": "Overloading can also occur due to an accidental hike in supply voltage or by connecting too many appliances to a single socket.",
+      "source": "s2",
+      "page": "p. 204",
+      "quote": "Overloading can also occur due to an accidental hike in the supply voltage. Sometimes overloading is caused by connecting too many appliances to a single socket."
+    },
+    {
+      "id": "c57",
+      "claim": "An electromagnet consists of a core of soft iron wrapped with a coil of insulated copper wire.",
+      "source": "s2",
+      "page": "p. 205",
+      "quote": "An electromagnet consists of a core of soft iron wrapped around with a coil of insulated copper wire."
+    },
+    {
+      "id": "c58",
+      "claim": "In metallic wires, electrons constitute the flow of charges.",
+      "source": "s1",
+      "page": "p. 171",
+      "quote": "In circuits using metallic wires, electrons constitute the flow of charges."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "current_circuit",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তড়িৎপ্রবাহের SI একক কোনটি?",
+      "a": "অ্যাম্পিয়ার (A)",
+      "w": [
+        "ভোল্ট (V)",
+        "ওহম (Ω)",
+        "ওয়াট (W)"
+      ],
+      "e": "প্রবাহ মাপা হয় অ্যাম্পিয়ারে: প্রতি সেকেন্ডে ১ কুলম্ব আধান প্রবাহিত হলে প্রবাহ ১ A। ভোল্ট বিভবপ্রভেদের, ওহম রোধের ও ওয়াট ক্ষমতার একক।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "current_circuit",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তনীতে তড়িৎপ্রবাহ মাপার অ্যামিটার কীভাবে যুক্ত করা হয়?",
+      "a": "শ্রেণিতে",
+      "w": [
+        "সমান্তরালে",
+        "কেবল কোষের ধনাত্মক প্রান্তে",
+        "বর্তনীর বাইরে আলাদাভাবে"
+      ],
+      "e": "অ্যামিটার সবসময় শ্রেণিতে যুক্ত হয়, যাতে যে প্রবাহ মাপা হচ্ছে তার পুরোটা তার মধ্য দিয়ে যায়। সমান্তরালে যুক্ত হয় ভোল্টমিটার।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "current_circuit",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দুটি বিন্দুর মধ্যে বিভবপ্রভেদ মাপতে ভোল্টমিটার কীভাবে যুক্ত করা হয়?",
+      "a": "ওই দুই বিন্দুর মধ্যে সমান্তরালে",
+      "w": [
+        "বর্তনীতে শ্রেণিতে",
+        "কেবল ব্যাটারির সঙ্গে শ্রেণিতে",
+        "যেকোনো এক প্রান্তে ঝুলিয়ে"
+      ],
+      "e": "ভোল্টমিটার সবসময় সমান্তরালে যুক্ত হয় সেই বিন্দুগুলির মধ্যে, যাদের বিভবপ্রভেদ মাপা হচ্ছে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "current_circuit",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একটি বাল্বের ফিলামেন্ট ১০ মিনিট ধরে 0.5 A প্রবাহ টানলে বর্তনী দিয়ে কত আধান প্রবাহিত হবে?",
+      "a": "300 C",
+      "w": [
+        "30 C",
+        "3000 C",
+        "5 C"
+      ],
+      "e": "Q = It = 0.5 A × 600 s = 300 C। সময়কে সেকেন্ডে বদলাতে ভুল করলে 30 C বা 5 C-এর মতো ভুল উত্তর আসে।",
+      "claims": [
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "current_circuit",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রচলিত রীতি অনুযায়ী বর্তনীতে তড়িৎপ্রবাহের দিক ইলেকট্রন-প্রবাহের দিকের —",
+      "a": "বিপরীত দিকে",
+      "w": [
+        "একই দিকে",
+        "লম্ব দিকে",
+        "কোনো নির্দিষ্ট দিক নেই"
+      ],
+      "e": "ইলেকট্রন আবিষ্কারের আগে প্রবাহকে ধনাত্মক আধানের প্রবাহ ধরা হত; সেই রীতিতেই আজও প্রবাহের দিক ইলেকট্রন-প্রবাহের বিপরীত ধরা হয়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "current_circuit",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিভবপ্রভেদ 12 V এমন দুটি বিন্দুর মধ্যে দিয়ে 2 C আধান সরাতে কত কাজ করতে হবে?",
+      "a": "24 J",
+      "w": [
+        "6 J",
+        "12 J",
+        "48 J"
+      ],
+      "e": "W = VQ = 12 V × 2 C = 24 J। বিভবপ্রভেদের সংজ্ঞা V = W/Q থেকেই এই গণনা আসে।",
+      "claims": [
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "current_circuit",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাইরের বর্তনীতে তড়িৎপ্রবাহ কোষের কোন প্রান্ত থেকে কোন প্রান্তের দিকে প্রবাহিত হয়?",
+      "a": "ধনাত্মক প্রান্ত থেকে ঋণাত্মক প্রান্তের দিকে",
+      "w": [
+        "ঋণাত্মক প্রান্ত থেকে ধনাত্মক প্রান্তের দিকে",
+        "দুই প্রান্ত থেকেই মাঝখানের দিকে",
+        "কোনো নির্দিষ্ট দিক থাকে না"
+      ],
+      "e": "প্রচলিত প্রবাহ বাইরের বর্তনীতে কোষের ধনাত্মক প্রান্ত থেকে বাল্ব ও অ্যামিটারের মধ্য দিয়ে ঋণাত্মক প্রান্তে যায়। ইলেকট্রনের প্রকৃত প্রবাহ এর বিপরীত।",
+      "claims": [
+        "c06",
+        "c04"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "ohms_resistance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ওহমের সূত্র অনুযায়ী V, I ও R-এর সম্পর্ক কোনটি?",
+      "a": "V = IR",
+      "w": [
+        "V = I/R",
+        "V = R/I",
+        "V = I²R"
+      ],
+      "e": "ওহমের সূত্র: V = IR। I²R হল তাপ/ক্ষমতার রূপ (P = I²R), ওহমের সূত্র নিজে নয়।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "ohms_resistance",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোনো পরিবাহীর রোধ ১ ওহম বলতে কী বোঝায়?",
+      "a": "তার দুই প্রান্তে 1 V বিভবপ্রভেদ প্রয়োগ করলে তার মধ্য দিয়ে 1 A প্রবাহ যায়",
+      "w": [
+        "তার মধ্য দিয়ে 1 C আধান যেতে 1 s সময় লাগে",
+        "তা 1 W ক্ষমতা খরচ করে",
+        "তার দৈর্ঘ্য 1 m ও প্রস্থচ্ছেদ 1 cm²"
+      ],
+      "e": "R = V/I; 1 V ও 1 A হলে R = 1 Ω। বাকি বিকল্পগুলি আধান, ক্ষমতা ও মাত্রার সঙ্গে রোধের সংজ্ঞা গুলিয়ে দেয়।",
+      "claims": [
+        "c11",
+        "c10"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "ohms_resistance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্থির বিভবপ্রভেদে কোনো রোধের মান দ্বিগুণ করা হলে তার মধ্য দিয়ে প্রবাহ —",
+      "a": "অর্ধেক হবে",
+      "w": [
+        "দ্বিগুণ হবে",
+        "একই থাকবে",
+        "চার গুণ হবে"
+      ],
+      "e": "I = V/R: প্রবাহ রোধের ব্যস্তানুপাতিক, তাই রোধ দ্বিগুণ হলে প্রবাহ অর্ধেক হয়।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "ohms_resistance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একই উপাদান ও একই প্রস্থচ্ছেদের তারের দৈর্ঘ্য দ্বিগুণ করা হলে তার রোধ —",
+      "a": "দ্বিগুণ হবে",
+      "w": [
+        "অর্ধেক হবে",
+        "একই থাকবে",
+        "চার গুণ হবে"
+      ],
+      "e": "R = ρl/A: রোধ দৈর্ঘ্যের সমানুপাতিক, তাই দৈর্ঘ্য দ্বিগুণ হলে রোধও দ্বিগুণ হয় (এবং একই ভোল্টেজে প্রবাহ অর্ধেক হয়)।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "ohms_resistance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রোধাঙ্কের (resistivity) SI একক কোনটি?",
+      "a": "Ω m (ওহম মিটার)",
+      "w": [
+        "Ω (ওহম)",
+        "Ω/m",
+        "Ω cm²"
+      ],
+      "e": "রোধাঙ্ক ρ উপাদানের বৈশিষ্ট্য, এর SI একক Ω m। শুধু Ω হল রোধের একক।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "ohms_resistance",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "দৈর্ঘ্য 1 m ও প্রস্থচ্ছেদের ক্ষেত্রফল 1 cm² এমন একটি সুষম ধাতব তারের রোধ 10 Ω। তারটির রোধাঙ্ক কত?",
+      "a": "1/10 Ω cm",
+      "w": [
+        "1 Ω cm",
+        "10 Ω cm",
+        "100 Ω cm"
+      ],
+      "e": "ρ = RA/L = (10 Ω × 1 cm²) ÷ 100 cm = 0.1 Ω cm = 1/10 Ω cm। দৈর্ঘ্যকে cm-এ (100 cm) বদলাতে ভুল করলেই অন্য বিকল্পগুলি আসে। (WBCS ২০২৪-এর একই ধরনের প্রশ্ন।)",
+      "claims": [
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "ohms_resistance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিদ্যুৎ পরিবহণের (transmission) তারে সাধারণত কোন ধাতু ব্যবহৃত হয়?",
+      "a": "তামা ও অ্যালুমিনিয়াম",
+      "w": [
+        "টাংস্টেন ও নাইক্রোম",
+        "লোহা ও দস্তা",
+        "রুপো ও সোনা"
+      ],
+      "e": "তামা ও অ্যালুমিনিয়ামের রোধাঙ্ক খুব কম, তাই পরিবহণ-তারে এগুলিই ব্যবহৃত হয়। টাংস্টেন বাল্বের ফিলামেন্টে ব্যবহৃত হয়।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "series_parallel",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শ্রেণি সমবায়ে যুক্ত রোধগুলির তুল্য রোধ কীভাবে পাওয়া যায়?",
+      "a": "সব রোধের সরল যোগফল দিয়ে",
+      "w": [
+        "সব রোধের অন্যোন্যকের যোগফল দিয়ে",
+        "সবচেয়ে বড় রোধটির সমান ধরে",
+        "সব রোধের গুণফল দিয়ে"
+      ],
+      "e": "শ্রেণিতে Rs = R₁ + R₂ + R₃ — তুল্য রোধ যেকোনো একক রোধের চেয়ে বড় হয়। অন্যোন্যকের যোগফলের নিয়মটি সমান্তরাল সমবায়ের।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "series_parallel",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "5 Ω, 4.5 Ω ও 3 Ω — এই তিনটি রোধকে এমনভাবে জুড়তে হবে যাতে তুল্য রোধ সর্বোচ্চ হয়। সর্বোচ্চ মানটি কত?",
+      "a": "12.5 Ω",
+      "w": [
+        "13.5 Ω",
+        "1.37 Ω (প্রায়)",
+        "4.17 Ω (প্রায়)"
+      ],
+      "e": "তুল্য রোধ সর্বোচ্চ হয় শ্রেণি সমবায়ে: 5 + 4.5 + 3 = 12.5 Ω। সমান্তরালে জুড়লে মান সবচেয়ে ছোট হত। (WBCS ২০২৩-এর প্রশ্নের হুবহু ধরন।)",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "series_parallel",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সমান্তরাল সমবায়ে প্রতিটি রোধের দুই প্রান্তের বিভবপ্রভেদ সম্পর্কে কোনটি সঠিক?",
+      "a": "প্রতিটি রোধের প্রান্তেই বিভবপ্রভেদ সমান (V)",
+      "w": [
+        "বিভবপ্রভেদ রোধের মান অনুযায়ী ভাগ হয়ে যায়",
+        "সবচেয়ে বড় রোধে বিভবপ্রভেদ সবচেয়ে বেশি",
+        "বিভবপ্রভেদ শুধু প্রথম রোধেই থাকে"
+      ],
+      "e": "সমান্তরালে প্রতিটি শাখা একই দুই বিন্দুর মধ্যে থাকে, তাই প্রতিটি রোধের প্রান্তে বিভবপ্রভেদ একই V। বিভব ভাগ হয়ে যাওয়ার ঘটনা ঘটে শ্রেণি সমবায়ে।",
+      "claims": [
+        "c21",
+        "c19"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "series_parallel",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "5 Ω, 10 Ω ও 30 Ω রোধ তিনটি সমান্তরালে জুড়ে 12 V ব্যাটারিতে যুক্ত করা হল। বর্তনীর তুল্য রোধ কত?",
+      "a": "3 Ω",
+      "w": [
+        "45 Ω",
+        "15 Ω",
+        "4 Ω"
+      ],
+      "e": "1/Rp = 1/5 + 1/10 + 1/30 = (6+3+1)/30 = 10/30 = 1/3, অর্থাৎ Rp = 3 Ω। 45 Ω হল শ্রেণি-যোগফল — সমান্তরালের ফাঁদ।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "series_parallel",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাড়ির সব তড়িৎ যন্ত্রপাতি পরস্পরের সঙ্গে কীভাবে যুক্ত থাকে?",
+      "a": "সমান্তরালে",
+      "w": [
+        "শ্রেণিতে",
+        "কিছু শ্রেণিতে, কিছু সমান্তরালে — নির্দিষ্ট নিয়ম ছাড়া",
+        "সরাসরি মূল ফিউজের সঙ্গে শ্রেণিতে"
+      ],
+      "e": "প্রতিটি যন্ত্র যাতে পূর্ণ বিভবপ্রভেদ পায় ও আলাদা সুইচে স্বাধীনভাবে চলে, তাই বাড়ির যন্ত্রপাতি সমান্তরালে যুক্ত থাকে।",
+      "claims": [
+        "c54"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "series_parallel",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. শ্রেণি সমবায়ে বর্তনীর প্রতিটি অংশে প্রবাহ সমান থাকে।\n২. সমান্তরাল সমবায়ে তুল্য রোধ সবচেয়ে ছোট একক রোধটির চেয়েও ছোট হয়।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ২ উভয়ই সঠিক",
+      "w": [
+        "কেবল ১ সঠিক",
+        "কেবল ২ সঠিক",
+        "১ ও ২ উভয়ই ভুল"
+      ],
+      "e": "বিবৃতি ১: শ্রেণিতে একটাই পথ, তাই প্রবাহ সর্বত্র সমান। বিবৃতি ২: 1/Rp হল সব অন্যোন্যকের যোগফল, তাই Rp ক্ষুদ্রতম রোধের চেয়েও ছোট হয়। দুটোই সঠিক।",
+      "claims": [
+        "c18",
+        "c23"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "series_parallel",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শ্রেণি সমবায়ের একটি বড় অসুবিধা কোনটি?",
+      "a": "একটি উপাদান নষ্ট হলে পুরো বর্তনী ভেঙে যায় ও কোনো উপাদানই কাজ করে না",
+      "w": [
+        "এতে তুল্য রোধ খুব কমে যায়",
+        "এতে প্রতিটি যন্ত্র অতিরিক্ত বিভব পায়",
+        "এতে ফিউজ ব্যবহার করা যায় না"
+      ],
+      "e": "শ্রেণিতে একটাই পথ থাকে; একটি বাল্ব ফিউজ হলেই পথ ছিন্ন হয় ও সব বন্ধ হয়ে যায় — এই কারণেই বাড়ির বর্তনীতে শ্রেণি সমবায় ব্যবহার করা হয় না।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "heating_power",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জুলের তাপীয় সূত্র অনুযায়ী রোধে উৎপন্ন তাপ প্রবাহের কোন ঘাতের সমানুপাতিক?",
+      "a": "প্রবাহের বর্গের (I²)",
+      "w": [
+        "প্রবাহের (I)",
+        "প্রবাহের ঘনকের (I³)",
+        "প্রবাহের বর্গমূলের"
+      ],
+      "e": "H = I²Rt: তাপ প্রবাহের বর্গের, রোধের ও সময়ের সমানুপাতিক। প্রবাহ দ্বিগুণ হলে তাপ চার গুণ হয়।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "heating_power",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তড়িৎ ক্ষমতার SI একক কোনটি?",
+      "a": "ওয়াট (W)",
+      "w": [
+        "জুল (J)",
+        "ভোল্ট (V)",
+        "কিলোওয়াট-ঘণ্টা (kW h)"
+      ],
+      "e": "ক্ষমতা P = VI, এর SI একক ওয়াট: 1 V বিভবপ্রভেদে 1 A প্রবাহ চললে খরচ 1 W। জুল শক্তির ও kW h শক্তির বাণিজ্যিক একক।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "heating_power",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "কিলোওয়াট-ঘণ্টা (kW h) কোন রাশির একক?",
+      "a": "তড়িৎশক্তির",
+      "w": [
+        "তড়িৎ ক্ষমতার",
+        "তড়িৎপ্রবাহের",
+        "বিভবপ্রভেদের"
+      ],
+      "e": "kW h হল তড়িৎশক্তির বাণিজ্যিক একক ('ইউনিট'): 1 kW h = 3.6 × 10⁶ J। ক্ষমতার একক শুধু kW — এই পার্থক্যটাই ক্লার্কশিপ ২০০৯-এ এসেছিল।",
+      "claims": [
+        "c32",
+        "c33"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "heating_power",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ফিউজ তার বর্তনীতে কীভাবে যুক্ত থাকে এবং কেন?",
+      "a": "শ্রেণিতে — অতিরিক্ত প্রবাহে গলে গিয়ে বর্তনী ভেঙে দেয়",
+      "w": [
+        "সমান্তরালে — অতিরিক্ত বিভব শুষে নেয়",
+        "শ্রেণিতে — প্রবাহ বাড়িয়ে দেয়",
+        "সমান্তরালে — বর্তনীর রোধ কমায়"
+      ],
+      "e": "ফিউজ যন্ত্রের সঙ্গে শ্রেণিতে থাকে; নির্ধারিত মানের বেশি প্রবাহ গেলে উপযুক্ত গলনাঙ্কের ফিউজ তার গলে বর্তনী ভেঙে দেয়।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "heating_power",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বৈদ্যুতিক বাল্বের ফিলামেন্টে টাংস্টেন ব্যবহারের প্রধান কারণ কোনটি?",
+      "a": "টাংস্টেনের গলনাঙ্ক অত্যন্ত বেশি (3380°C)",
+      "w": [
+        "টাংস্টেনের রোধাঙ্ক সব ধাতুর মধ্যে সবচেয়ে কম",
+        "টাংস্টেন সবচেয়ে সস্তা ধাতু",
+        "টাংস্টেন চুম্বক দ্বারা আকৃষ্ট হয় না"
+      ],
+      "e": "ফিলামেন্টকে অত্যন্ত উত্তপ্ত হয়েও গলে না গিয়ে আলো দিতে হয়, তাই উচ্চ গলনাঙ্কের টাংস্টেন ব্যবহৃত হয়; বাল্বে নাইট্রোজেন-আর্গন ভরে ফিলামেন্টের আয়ু বাড়ানো হয়।",
+      "claims": [
+        "c28",
+        "c16"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "heating_power",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "4 Ω রোধে প্রতি সেকেন্ডে 100 J তাপ উৎপন্ন হলে রোধটির দুই প্রান্তের বিভবপ্রভেদ কত?",
+      "a": "20 V",
+      "w": [
+        "10 V",
+        "25 V",
+        "40 V"
+      ],
+      "e": "H = I²Rt থেকে I = √(100/(4×1)) = 5 A; তারপর V = IR = 5 × 4 = 20 V।",
+      "claims": [
+        "c26",
+        "c10"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "heating_power",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মিলিয়ে দাও:\n\nA. অ্যামিটার  B. ভোল্টমিটার  C. ফিউজ\n\n১. সমান্তরালে যুক্ত হয়  ২. শ্রেণিতে যুক্ত হয়\n\nসঠিক মিল কোনটি?",
+      "a": "A-২, B-১, C-২",
+      "w": [
+        "A-১, B-২, C-১",
+        "A-২, B-২, C-১",
+        "A-১, B-১, C-২"
+      ],
+      "e": "অ্যামিটার শ্রেণিতে (A-২), ভোল্টমিটার সমান্তরালে (B-১), ফিউজও শ্রেণিতে (C-২) যুক্ত হয়।",
+      "claims": [
+        "c05",
+        "c09",
+        "c29"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "magnetic_field",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "চুম্বকের সমমেরু পরস্পরকে —",
+      "a": "বিকর্ষণ করে",
+      "w": [
+        "আকর্ষণ করে",
+        "কোনো বল প্রয়োগ করে না",
+        "প্রথমে আকর্ষণ, পরে বিকর্ষণ করে"
+      ],
+      "e": "সমমেরু (উত্তর-উত্তর বা দক্ষিণ-দক্ষিণ) বিকর্ষণ করে; বিষমমেরু আকর্ষণ করে।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "magnetic_field",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "চুম্বকের বাইরে চৌম্বক ক্ষেত্ররেখা কোন দিক থেকে কোন দিকে যায়?",
+      "a": "উত্তর মেরু থেকে বেরিয়ে দক্ষিণ মেরুতে মেশে",
+      "w": [
+        "দক্ষিণ মেরু থেকে বেরিয়ে উত্তর মেরুতে মেশে",
+        "দুই মেরু থেকেই বাইরের দিকে ছড়িয়ে যায়",
+        "মেরু থেকে মাঝখানের দিকে যায়"
+      ],
+      "e": "রীতি অনুযায়ী ক্ষেত্ররেখা বাইরে উত্তর → দক্ষিণ, আর চুম্বকের ভিতরে দক্ষিণ → উত্তর; তাই ক্ষেত্ররেখা বদ্ধ বক্ররেখা।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "magnetic_field",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "a": "ক্ষেত্ররেখা — পরস্পরকে কখনো ছেদ করে না",
+      "w": [
+        "ক্ষেত্ররেখা — মেরুতে সবচেয়ে পাতলা থাকে",
+        "ক্ষেত্ররেখা — যেখানে পাতলা, ক্ষেত্র সেখানে শক্তিশালী",
+        "ক্ষেত্ররেখা — চুম্বকের ভিতরে উত্তর থেকে দক্ষিণে যায়"
+      ],
+      "e": "ক্ষেত্ররেখা কখনো ছেদ করে না। ক্ষেত্র মেরুর কাছে সবচেয়ে শক্তিশালী ও রেখা সেখানে সবচেয়ে ঘন; ভিতরে রেখা দক্ষিণ থেকে উত্তরে যায়।",
+      "claims": [
+        "c40",
+        "c39",
+        "c38"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "magnetic_field",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "লম্বা সোজা প্রবাহবাহী তারের কাছাকাছি চৌম্বক ক্ষেত্রের ক্ষেত্ররেখাগুলির আকৃতি কেমন?",
+      "a": "তারকে কেন্দ্র করে সমকেন্দ্রিক বৃত্ত",
+      "w": [
+        "তারের সমান্তরাল সরলরেখা",
+        "তার থেকে বেরিয়ে যাওয়া ব্যাসার্ধ-রেখা",
+        "তারের লম্ব সরলরেখা"
+      ],
+      "e": "লোহার গুঁড়োর পরীক্ষায় দেখা যায়, সোজা তারের চারপাশে ক্ষেত্ররেখা সমকেন্দ্রিক বৃত্তাকারে সাজে; দিক পাওয়া যায় ডান-হস্ত নিয়মে।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "magnetic_field",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সোজা তারে প্রবাহ বাড়ালে নির্দিষ্ট বিন্দুতে চৌম্বক ক্ষেত্রের মান —",
+      "a": "বাড়ে",
+      "w": [
+        "কমে",
+        "একই থাকে",
+        "প্রথমে বাড়ে, তারপর কমে"
+      ],
+      "e": "ক্ষেত্রের মান প্রবাহের সঙ্গে বাড়ে; আবার তার থেকে দূরত্ব বাড়ালে ক্ষেত্র কমে। কম্পাসের কাঁটার বিচ্যুতি দিয়েই এই দুটি সম্পর্ক দেখা যায়।",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "magnetic_field",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): চৌম্বক মেরুর কাছে চৌম্বক ক্ষেত্র সবচেয়ে শক্তিশালী।\nকারণ (R): ক্ষেত্ররেখা যেখানে সবচেয়ে ঘন, ক্ষেত্র সেখানে সবচেয়ে শক্তিশালী এবং মেরুর কাছেই ক্ষেত্ররেখা সবচেয়ে ঘন।\n\nসঠিক বিকল্প কোনটি?",
+      "a": "A ও R উভয়ই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সত্য, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য, R ভুল",
+        "A ভুল, R সত্য"
+      ],
+      "e": "ক্ষেত্রের আপেক্ষিক শক্তি ক্ষেত্ররেখার ঘনত্ব দিয়ে বোঝা যায়; মেরুর কাছে রেখা সবচেয়ে ঘন বলেই সেখানে ক্ষেত্র সবচেয়ে শক্তিশালী — R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "magnetic_field",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ডান-হস্ত বৃদ্ধাঙ্গুষ্ঠ নিয়মে মুড়ে যাওয়া আঙুলগুলি কীসের দিক নির্দেশ করে?",
+      "a": "চৌম্বক ক্ষেত্ররেখার দিক",
+      "w": [
+        "প্রবাহের দিক",
+        "বলের দিক",
+        "বিভবপ্রভেদের দিক"
+      ],
+      "e": "বৃদ্ধাঙ্গুষ্ঠ প্রবাহের দিকে থাকলে মুড়ে যাওয়া আঙুলগুলি ক্ষেত্ররেখার দিক দেখায়। বলের দিকের নিয়ম হল ফ্লেমিংয়ের বাম-হস্ত নিয়ম — দুটো গুলিও না।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "solenoid_force_domestic",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রবাহবাহী লম্বা সলিনয়েডের ভিতরে চৌম্বক ক্ষেত্র কেমন?",
+      "a": "সব বিন্দুতে সমান (সুষম)",
+      "w": [
+        "শূন্য",
+        "প্রান্তের দিকে ক্রমশ বাড়ে",
+        "মাঝখানে শূন্য, প্রান্তে সর্বোচ্চ"
+      ],
+      "e": "সলিনয়েডের ভিতরে ক্ষেত্ররেখা সমান্তরাল সরলরেখা — অর্থাৎ ভিতরের সব বিন্দুতে ক্ষেত্র সমান বা সুষম।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "solenoid_force_domestic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তড়িৎচুম্বক তৈরি করা হয় —",
+      "a": "সলিনয়েডের ভিতরে নরম লোহার মজ্জা রেখে তার গায়ে অন্তরিত তামার তারের কুণ্ডলী জড়িয়ে",
+      "w": [
+        "দণ্ডচুম্বককে উত্তপ্ত করে",
+        "দুটি স্থায়ী চুম্বককে ঘষে",
+        "তামার তারকে মাটিতে পুঁতে"
+      ],
+      "e": "সলিনয়েডের শক্তিশালী ক্ষেত্র ভিতরে রাখা নরম লোহাকে চুম্বকিত করে; নরম লোহার মজ্জা ও অন্তরিত তামার তারের কুণ্ডলী মিলেই তড়িৎচুম্বক।",
+      "claims": [
+        "c47",
+        "c57"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "solenoid_force_domestic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ফ্লেমিংয়ের বাম-হস্ত নিয়মে মধ্যমা (মাঝের আঙুল) কীসের দিক নির্দেশ করে?",
+      "a": "তড়িৎপ্রবাহের দিক",
+      "w": [
+        "চৌম্বক ক্ষেত্রের দিক",
+        "বলের দিক",
+        "গতির দিক"
+      ],
+      "e": "তর্জনী = ক্ষেত্র, মধ্যমা = প্রবাহ, বৃদ্ধাঙ্গুষ্ঠ = বল/গতি। এই তিনের জোড়টাই ফ্লেমিংয়ের বাম-হস্ত নিয়ম।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "solenoid_force_domestic",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "চৌম্বক ক্ষেত্রে রাখা প্রবাহবাহী পরিবাহীর ওপর বল কখন সবচেয়ে বেশি হয়?",
+      "a": "যখন প্রবাহের দিক ক্ষেত্রের দিকের সঙ্গে লম্ব থাকে",
+      "w": [
+        "যখন প্রবাহ ক্ষেত্রের সমান্তরাল থাকে",
+        "যখন প্রবাহ ক্ষেত্রের বিপরীত দিকে থাকে",
+        "যখন পরিবাহীটি স্থির থাকে না"
+      ],
+      "e": "পরীক্ষায় দেখা গেছে, প্রবাহ ক্ষেত্রের সঙ্গে সমকোণে (লম্ব) থাকলেই রডের সরণ তথা বল সর্বাধিক হয়।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "solenoid_force_domestic",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "গৃহবর্তনীতে আর্থ তারের আবরণের রং কোনটি?",
+      "a": "সবুজ",
+      "w": [
+        "লাল",
+        "কালো",
+        "নীল"
+      ],
+      "e": "আর্থ তারের আবরণ সবুজ; লাইভ তারের লাল ও নিউট্রাল তারের কালো। আর্থ তার মাটির গভীরে থাকা ধাতব পাতের সঙ্গে যুক্ত থাকে।",
+      "claims": [
+        "c53",
+        "c51"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "solenoid_force_domestic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শর্ট সার্কিট ঘটলে বর্তনীর প্রবাহ —",
+      "a": "হঠাৎ প্রচণ্ড বেড়ে যায়",
+      "w": [
+        "ধীরে ধীরে কমে যায়",
+        "একই থাকে",
+        "শূন্য হয়ে যায়"
+      ],
+      "e": "লাইভ ও নিউট্রাল তার সরাসরি ছুঁলে রোধ প্রায় শূন্য হয়ে প্রবাহ হঠাৎ বেড়ে যায় — এটাই শর্ট সার্কিট; ফিউজ গলে তখন বর্তনী ভেঙে রক্ষা করে।",
+      "claims": [
+        "c55",
+        "c29"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "solenoid_force_domestic",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলির সঠিক কালানুক্রম কোনটি?\n\nক. ওয়েরস্টেডের পর্যবেক্ষণ: প্রবাহ কম্পাসের কাঁটা বাঁকায়\nখ. ওহমের সূত্র প্রতিষ্ঠা\nগ. ভোল্টার জন্ম\nঘ. অ্যাম্পিয়ারের জন্ম",
+      "a": "গ → ঘ → ক → খ",
+      "w": [
+        "ঘ → গ → খ → ক",
+        "ক → খ → গ → ঘ",
+        "গ → ক → ঘ → খ"
+      ],
+      "e": "ভোল্টা (১৭৪৫–১৮২৭) → অ্যাম্পিয়ার (১৭৭৫–১৮৩৬) → ওয়েরস্টেডের আবিষ্কার (১৮২০) → ওহমের সূত্র (১৮২৭)। বিজ্ঞানীদের জীবনকাল ও আবিষ্কারের বছর মিলিয়েই এই ক্রম।",
+      "claims": [
+        "c08",
+        "c03",
+        "c34",
+        "c10"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "heating_power",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "220 V লাইনে চলা 1 kW ক্ষমতার বৈদ্যুতিক ইস্ত্রির জন্য উপযুক্ত ফিউজ রেটিং কোনটি?",
+      "a": "5 A",
+      "w": [
+        "1 A",
+        "3 A",
+        "15 A"
+      ],
+      "e": "ইস্ত্রির প্রবাহ = 1000/220 ≈ 4.54 A; এর ঠিক উপরের প্রমাণ রেটিং হল 5 A। 3 A ফিউজ স্বাভাবিক চলাচলেই গলে যেত।",
+      "claims": [
+        "c30",
+        "c31"
+      ]
+    }
+  ]
+}

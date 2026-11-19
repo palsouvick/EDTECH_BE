@@ -1,0 +1,1439 @@
+{
+  "book": "science",
+  "code": "SCI-01",
+  "number": 1,
+  "part": "physics",
+  "title": "একক ও পরিমাপ",
+  "subtitle": "মৌলিক ও লব্ধ একক, SI পদ্ধতি, তাৎপর্যপূর্ণ অঙ্ক ও মাত্রা-বিশ্লেষণ",
+  "subtopics": [
+    "physics_units"
+  ],
+  "related_facts": [
+    "GK-SCI-001"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 2 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 9 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-01.json and drafts/SCI-01_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-01_REPORT.md.",
+    "checked_claims": 41,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "প্রতিটি পরিমাপের মূলে আছে একটি তুলনা — আর তুলনার প্রমাণ মানটিই একক। এই অধ্যায়ে আমরা পড়ব কীভাবে CGS, FPS, MKS-এর মতো আলাদা পদ্ধতির জায়গায় এল একটি আন্তর্জাতিক পদ্ধতি SI, তার সাতটি মৌলিক একক ও আধুনিক ধ্রুবক-ভিত্তিক সংজ্ঞা, জুল-ওয়াট-হার্টজ-ডায়প্টারের মতো লব্ধ একক, অ্যাংস্ট্রম থেকে আলোকবর্ষ পর্যন্ত মাপের সিঁড়ি, এবং শেষে তাৎপর্যপূর্ণ অঙ্ক ও মাত্রা-বিশ্লেষণের নিয়ম। WBPSC, WBP, KP ও SSC-র সাধারণ বিজ্ঞান অংশে একক থেকে প্রায় প্রতি বছরই প্রশ্ন আসে — এই অধ্যায় সেই প্রস্তুতির ভিত্তি।",
+    "you_will_learn": [
+      "পরিমাপ ও এককের সংজ্ঞা এবং মৌলিক ও লব্ধ এককের পার্থক্য",
+      "CGS, FPS, MKS পদ্ধতির ভিত্তি একক এবং SI-এর জন্ম (১৯৭১) ও সংশোধন (২০১৮)",
+      "সাতটি SI মৌলিক একক, তাদের প্রতীক ও ধ্রুবক-ভিত্তিক আধুনিক সংজ্ঞা",
+      "জুল, ওয়াট, হার্টজ ও ডায়প্টার — গুরুত্বপূর্ণ লব্ধ একক ও তাদের অর্থ",
+      "অ্যাংস্ট্রম ও আলোকবর্ষসহ ছোট-বড় দৈর্ঘ্যের একক",
+      "তাৎপর্যপূর্ণ অঙ্কের নিয়ম ও মাত্রা-বিশ্লেষণের সমমাত্রিকতার নীতি"
+    ]
+  },
+  "sections": [
+    {
+      "id": "meas_basics",
+      "heading": "পরিমাপ ও একক: ধারণা",
+      "quick": "কোনো ভৌত রাশিকে মাপা মানে তাকে একটি নির্দিষ্ট, আন্তর্জাতিকভাবে গৃহীত প্রমাণ মানের সঙ্গে তুলনা করা; সেই প্রমাণ মানটিই হল একক (Unit)। পরিমাপের ফল সবসময় একটি সংখ্যা ও তার সঙ্গে একটি একক দিয়ে প্রকাশ করা হয়।",
+      "standard": "আমরা প্রতিদিন দৈর্ঘ্য, ভর, সময়, উষ্ণতা মাপি। বিজ্ঞানে 'মাপা' শব্দের একটি নির্দিষ্ট অর্থ আছে: কোনো ভৌত রাশির পরিমাপ মানে হল সেই রাশিটিকে একটি মৌলিক, নির্দিষ্ট ও আন্তর্জাতিকভাবে গৃহীত প্রমাণ মানের সঙ্গে তুলনা করা — সেই প্রমাণ মানকেই বলে **একক**। তাই পরিমাপের ফল কখনো শুধু একটি সংখ্যা নয়; ফল প্রকাশ করা হয় একটি সংখ্যার সঙ্গে একটি একক জুড়ে — যেমন ৫ মিটার, ২ কিলোগ্রাম, ৩০ সেকেন্ড। একক ছাড়া সংখ্যাটি অর্থহীন, কারণ তুলনার মানটাই জানা যায় না।\n\nসব রাশির জন্য আলাদা আলাদা স্বাধীন একক লাগে না, কারণ রাশিগুলি পরস্পরের সঙ্গে সম্পর্কযুক্ত। কয়েকটি রাশিকে **মৌলিক বা ভিত্তি রাশি** হিসেবে বেছে নেওয়া হয়েছে: দৈর্ঘ্য, ভর, সময়, তড়িৎপ্রবাহ, তাপগতীয় উষ্ণতা, পদার্থের পরিমাণ ও দীপন প্রাবল্য। এদের এককগুলিকে বলে **মৌলিক বা ভিত্তি একক**। বাকি সব রাশির একক এই ভিত্তি এককগুলির সমন্বয়ে প্রকাশ করা যায় — সেগুলি হল **লব্ধ একক**। যেমন বেগের একক মিটার/সেকেন্ড একটি লব্ধ একক। ভিত্তি একক ও লব্ধ একক মিলিয়ে পুরো ব্যবস্থাটিকে বলে একক পদ্ধতি (system of units)।\n\nপরীক্ষার জন্য মূল সূত্রটি মনে রাখো: **মৌলিক রাশি → মৌলিক একক; বাকি সব → লব্ধ একক**। আয়তন, বেগ, বল, শক্তি — এগুলি সবই লব্ধ রাশি, কারণ এদের একক মৌলিক একক দিয়ে গড়া যায়।",
+      "deep": "একক বেছে নেওয়ার ক্ষেত্রে 'আন্তর্জাতিকভাবে গৃহীত' কথাটি গুরুত্বপূর্ণ: একই রাশির জন্য দেশে দেশে আলাদা একক থাকলে বিজ্ঞান, বাণিজ্য ও প্রযুক্তিতে তুলনাই অসম্ভব হয়ে পড়ে। তাই প্রমাণ মানটি সবার কাছে এক হতে হয় — এই প্রয়োজন থেকেই পরের অংশে আমরা দেখব কীভাবে CGS, FPS, MKS-এর মতো আলাদা আলাদা পদ্ধতির জায়গায় একটি মাত্র আন্তর্জাতিক পদ্ধতি, SI, প্রতিষ্ঠিত হল।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "এক লাইনে",
+          "body": "পরিমাপ = তুলনা; তুলনার প্রমাণ মান = একক; ফল = সংখ্যা + একক।",
+          "claims": [
+            "c01",
+            "c02"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "systems_si",
+      "heading": "একক পদ্ধতির ইতিহাস: CGS, FPS, MKS থেকে SI",
+      "quick": "আগে বিভিন্ন দেশে CGS (সেন্টিমিটার-গ্রাম-সেকেন্ড), FPS (ফুট-পাউন্ড-সেকেন্ড) ও MKS (মিটার-কিলোগ্রাম-সেকেন্ড) পদ্ধতি চলত। বর্তমানে আন্তর্জাতিকভাবে গৃহীত পদ্ধতি হল SI, যার কাঠামো BIPM ১৯৭১ সালে তৈরি করে এবং ২০১৮ সালের নভেম্বরে তা সংশোধিত হয়।",
+      "standard": "একসময় বিভিন্ন দেশের বিজ্ঞানীরা পরিমাপের জন্য আলাদা আলাদা পদ্ধতি ব্যবহার করতেন। তার মধ্যে তিনটি পদ্ধতি ব্যাপকভাবে চলত — CGS, FPS (ব্রিটিশ) ও MKS। দৈর্ঘ্য, ভর ও সময়ের ভিত্তি একক এই তিন পদ্ধতিতে ছিল আলাদা:\n\n| পদ্ধতি | দৈর্ঘ্য | ভর | সময় |\n|---|---|---|---|\n| CGS | সেন্টিমিটার | গ্রাম | সেকেন্ড |\n| FPS | ফুট | পাউন্ড | সেকেন্ড |\n| MKS | মিটার | কিলোগ্রাম | সেকেন্ড |\n\nলক্ষ্য করো, সময়ের একক তিন পদ্ধতিতেই সেকেন্ড — পার্থক্য ছিল দৈর্ঘ্য ও ভরে। এই বিভ্রান্তি দূর করতে এল **SI** — ফরাসি নাম Système International d'Unités, অর্থাৎ International System of Units। বর্তমানে পরিমাপের জন্য আন্তর্জাতিকভাবে গৃহীত পদ্ধতিই হল এই SI। প্রতীক, একক ও সংক্ষেপসহ SI-এর কাঠামো তৈরি করে আন্তর্জাতিক ওজন ও পরিমাপ ব্যুরো (BIPM) ১৯৭১ সালে; পরে ২০১৮ সালের নভেম্বরে ওজন ও পরিমাপের সাধারণ সম্মেলন (General Conference on Weights and Measures) তা সংশোধন করে।\n\nSI-এর একটি বড় সুবিধা হল এটি **দশমিক পদ্ধতি** ব্যবহার করে, তাই পদ্ধতির ভিতরে একক রূপান্তর খুব সহজ ও সুবিধাজনক — ১ কিলোমিটার = ১০০০ মিটার, ১ কিলোগ্রাম = ১০০০ গ্রাম। পরীক্ষায় SI-এর সাল দুটি বারবার আসে: **১৯৭১ (কাঠামো)** ও **নভেম্বর ২০১৮ (সংশোধন)**।",
+      "deep": "২০১৮ সালের সংশোধনটি ছিল গভীর: কিলোগ্রাম, অ্যাম্পিয়ার, কেলভিন ও মোলের সংজ্ঞা বদলে প্রকৃতির ধ্রুবকের নির্দিষ্ট মানের ওপর দাঁড় করানো হয় — যাতে কোনো বস্তু-নির্ভর প্রমাণ (যেমন একটি নির্দিষ্ট ধাতব খণ্ডের ভর) আর লাগে না। এই সংজ্ঞাগুলি পরের অংশে একে একে দেখা হবে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সাল দুটি গুলিয়ে ফেলো না",
+          "body": "SI কাঠামো: ১৯৭১ (BIPM)। সর্বশেষ বড় সংশোধন: নভেম্বর ২০১৮। দুটোই আলাদা প্রশ্ন হিসেবে আসতে পারে।",
+          "claims": [
+            "c09"
+          ]
+        }
+      ],
+      "claims": [
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10"
+      ]
+    },
+    {
+      "id": "base_units",
+      "heading": "সাতটি SI মৌলিক একক ও তাদের আধুনিক সংজ্ঞা",
+      "quick": "SI-তে সাতটি মৌলিক একক: মিটার (দৈর্ঘ্য), কিলোগ্রাম (ভর), সেকেন্ড (সময়), অ্যাম্পিয়ার (তড়িৎপ্রবাহ), কেলভিন (তাপগতীয় উষ্ণতা), মোল (পদার্থের পরিমাণ) ও ক্যান্ডেলা (দীপন প্রাবল্য)। এছাড়া সমতল কোণের একক রেডিয়ান ও ঘনকোণের একক স্টেরেডিয়ান — দুটোই মাত্রাহীন।",
+      "standard": "SI-তে মোট **সাতটি মৌলিক একক** আছে। তালিকাটি রাশি-একক-প্রতীকসহ মুখস্থ রাখো — এখান থেকেই সবচেয়ে বেশি প্রশ্ন আসে:\n\n| রাশি | একক | প্রতীক |\n|---|---|---|\n| দৈর্ঘ্য | মিটার | m |\n| ভর | কিলোগ্রাম | kg |\n| সময় | সেকেন্ড | s |\n| তড়িৎপ্রবাহ | অ্যাম্পিয়ার | A |\n| তাপগতীয় উষ্ণতা | কেলভিন | K |\n| পদার্থের পরিমাণ | মোল | mol |\n| দীপন প্রাবল্য | ক্যান্ডেলা | cd |\n\n২০১৮ সালের সংশোধনের পর এই এককগুলির সংজ্ঞা দাঁড়িয়ে আছে প্রকৃতির ধ্রুবকের ওপর। **মিটার**: শূন্যস্থানে আলোর বেগ c-এর মান 299792458 m/s ধরে সংজ্ঞায়িত। **সেকেন্ড**: সিজিয়াম-১৩৩ পরমাণুর কম্পাঙ্ক 9192631770 Hz ধরে সংজ্ঞায়িত। **কিলোগ্রাম**: প্ল্যাঙ্ক ধ্রুবক h-এর মান 6.62607015×10⁻³⁴ J s ধরে সংজ্ঞায়িত। **অ্যাম্পিয়ার**: মৌলিক আধান e-এর মান 1.602176634×10⁻¹⁹ C ধরে সংজ্ঞায়িত। **কেলভিন**: বোল্টজম্যান ধ্রুবক k-এর মান 1.380649×10⁻²³ J/K ধরে সংজ্ঞায়িত। **মোল**: এক মোলে ঠিক 6.02214076×10²³টি মৌলিক সত্তা থাকে — এই সংখ্যাটিই অ্যাভোগাড্রো সংখ্যা। **ক্যান্ডেলা**: নির্দিষ্ট দিকে দীপন প্রাবল্যের একক।\n\nএর বাইরে আরও দুটি একক সংজ্ঞায়িত আছে: সমতল কোণের একক **রেডিয়ান (rad)** ও ঘনকোণের একক **স্টেরেডিয়ান (sr)**। দুটোই অনুপাত থেকে আসে বলে মাত্রাহীন। পরীক্ষায় ফাঁদ থাকে এখানে: কেলভিন উষ্ণতার একক, সেলসিয়াস নয়; তড়িৎপ্রবাহের একক অ্যাম্পিয়ার, ভোল্ট নয়।",
+      "deep": "লক্ষ্য করার বিষয় হল প্রতীক লেখার নিয়ম: এককের প্রতীক ছোট হাতের হয় (m, s, kg), কিন্তু ব্যক্তির নাম থেকে আসা এককের প্রতীক বড় হাতের হয় (A, K)। কেলভিনের প্রতীক শুধু K — 'ডিগ্রি কেলভিন' বা °K লেখা হয় না।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "কেলভিন বনাম সেলসিয়াস",
+          "body": "দৈনন্দিন উষ্ণতা মাপা হয় ডিগ্রি সেলসিয়াসে, কিন্তু তাপগতীয় উষ্ণতার SI মৌলিক একক হল কেলভিন (K)। KP Constable ২০২৩-এ ঠিক এই প্রশ্নটিই এসেছিল।",
+          "claims": [
+            "c17"
+          ]
+        }
+      ],
+      "claims": [
+        "c11",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c12"
+      ]
+    },
+    {
+      "id": "derived_units",
+      "heading": "লব্ধ একক: জুল, নিউটন, ওয়াট, হার্টজ, ডায়প্টার",
+      "quick": "মৌলিক একক মিলিয়ে তৈরি এককই লব্ধ একক। কয়েকটির বিশেষ নাম আছে: কাজ ও শক্তির একক জুল (J), ক্ষমতার একক ওয়াট (W), কম্পাঙ্কের একক হার্টজ (Hz), আর লেন্সের ক্ষমতার SI একক ডায়প্টার (D)।",
+      "standard": "মৌলিক এককগুলির সমন্বয়ে যেসব একক পাওয়া যায়, সেগুলি লব্ধ একক। কয়েকটি লব্ধ একককে বিশেষ নাম দেওয়া হয়েছে — যেমন **জুল, নিউটন, ওয়াট**। পরীক্ষায় সবচেয়ে বেশি আসা লব্ধ এককগুলি একে একে দেখো।\n\n**কাজ ও শক্তি — জুল (J):** কাজের একক নিউটন-মিটার (N m) বা জুল। ১ নিউটন বল কোনো বস্তুকে বলের দিকে ১ মিটার সরালে যে কাজ হয়, তাই ১ জুল। শক্তির এককও কাজের এককের সমান — জুল। বড় মানের জন্য কিলোজুল ব্যবহৃত হয়: ১ kJ = ১০০০ J। মৌলিক এককে শক্তির SI রূপ হল J = kg m² s⁻²।\n\n**ক্ষমতা — ওয়াট (W):** ক্ষমতা মানে কাজ করার হার। ক্ষমতার একক ওয়াট, বিজ্ঞানী জেমস ওয়াটের (১৭৩৬–১৮১৯) নামে। প্রতি সেকেন্ডে ১ জুল হারে কাজ হলে ক্ষমতা ১ ওয়াট; অর্থাৎ 1 W = 1 J/s। বড় হারের জন্য কিলোওয়াট: ১ kW = ১০০০ W।\n\n**কম্পাঙ্ক — হার্টজ (Hz):** শব্দতরঙ্গ বা যেকোনো পর্যায়বৃত্ত ঘটনার কম্পাঙ্কের SI একক হার্টজ। নামটি হাইনরিখ হার্টজের সম্মানে রাখা।\n\n**লেন্সের ক্ষমতা — ডায়প্টার (D):** লেন্সের ক্ষমতার SI একক ডায়প্টার। ফোকাস দৈর্ঘ্য ১ মিটার হলে লেন্সের ক্ষমতা ১ ডায়প্টার; 1 D = 1 m⁻¹। WBP Constable ২০২১-এ এই প্রশ্নটি এসেছিল — বিকল্পে ওয়াট ছিল ফাঁদ হিসেবে।",
+      "deep": "লব্ধ একক চেনার কৌশল: এককটিকে মৌলিক এককে ভাঙা যায় কি না দেখো। জুল = kg m² s⁻², ওয়াট = জুল/সেকেন্ড — দুটোই ভাঙা যায়, তাই লব্ধ। কিন্তু মিটার, কিলোগ্রাম, সেকেন্ড ভাঙা যায় না — ওগুলি মৌলিক। এই ভাঙার ধারণাটাই পরের অংশের মাত্রা-বিশ্লেষণের ভিত্তি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "শক্তি বনাম ক্ষমতা",
+          "body": "শক্তির একক জুল, ক্ষমতার একক ওয়াট — এই জোড়াটি গুলিয়ে ফেললেই নম্বর যায়। মনে রাখো: ওয়াট = জুল ÷ সেকেন্ড।",
+          "claims": [
+            "c23",
+            "c27"
+          ]
+        }
+      ],
+      "claims": [
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c31"
+      ]
+    },
+    {
+      "id": "scales",
+      "heading": "ছোট ও বড় মাপের একক: অ্যাংস্ট্রম থেকে আলোকবর্ষ",
+      "quick": "খুব ছোট দৈর্ঘ্যের জন্য অ্যাংস্ট্রম (১ Å = ১০⁻¹⁰ মিটার) আর বিশাল দূরত্বের জন্য আলোকবর্ষ (প্রায় ৯.৪৭ × ১০¹⁵ মিটার) ব্যবহৃত হয়। দুটোই দৈর্ঘ্যের একক — আলোকবর্ষ সময়ের একক নয়, এটাই পরীক্ষার সবচেয়ে বড় ফাঁদ।",
+      "standard": "একই রাশির জন্য মাপের আকার অনুযায়ী আলাদা সুবিধাজনক একক ব্যবহৃত হয়। দৈর্ঘ্যের ক্ষেত্রে ছোট থেকে বড় ক্রমটি দেখো।\n\nসবচেয়ে ছোট দিকে, পরমাণু-জগতের মাপে সুবিধাজনক একক হল **অ্যাংস্ট্রম (Å)**: 1 Å = 10⁻¹⁰ m। হাইড্রোজেন পরমাণুর আকার প্রায় ০.৫ Å — মিটারে লিখলে সংখ্যাটি অসুবিধাজনকভাবে ছোট হত। মাঝারি মাপে আমাদের চেনা মিটারই SI একক; যেমন তরঙ্গদৈর্ঘ্যের SI এককও মিটার।\n\nসবচেয়ে বড় দিকে, নক্ষত্রদের দূরত্ব মাপতে ব্যবহৃত হয় **আলোকবর্ষ (light year)**। আলোকবর্ষ হল এক বছরে আলো শূন্যস্থানে যে দূরত্ব অতিক্রম করে — অর্থাৎ এটি **দূরত্বের (দৈর্ঘ্যের) একক**, সময়ের নয়। আলোর বেগ 3.00 × 10⁸ m/s ধরলে ১ আলোকবর্ষ = 9.47 × 10¹⁵ m। WBCS ২০১৯-এ 'আলোকবর্ষ হল' প্রশ্নে সঠিক উত্তর ছিল 'আলো এক বছরে যে দূরত্ব যায়' — বাকি বিকল্পগুলি সময়-ভিত্তিক ফাঁদ ছিল।\n\nএকইভাবে শক্তি ও ক্ষমতার বড় মাপে 'কিলো' উপসর্গ যোগ হয়: ১ কিলোজুল = ১০০০ জুল, ১ কিলোওয়াট = ১০০০ ওয়াট। উপসর্গ বদলালে রাশি বদলায় না, শুধু সংখ্যার আকার সুবিধাজনক হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "আলোকবর্ষ ≠ সময়",
+          "body": "নামে 'বর্ষ' থাকলেও আলোকবর্ষ দূরত্বের একক। 'আলো সূর্য থেকে পৃথিবীতে আসতে যে সময় নেয়' — এই বিকল্পটি ভুল।",
+          "claims": [
+            "c33"
+          ]
+        }
+      ],
+      "claims": [
+        "c32",
+        "c33",
+        "c30",
+        "c24",
+        "c26"
+      ]
+    },
+    {
+      "id": "sigfig_dimensions",
+      "heading": "তাৎপর্যপূর্ণ অঙ্ক ও মাত্রা-বিশ্লেষণ",
+      "quick": "পরিমাপের ফলে নির্ভরযোগ্য অঙ্কগুলির সঙ্গে প্রথম অনিশ্চিত অঙ্কটিকে বলে তাৎপর্যপূর্ণ অঙ্ক। আর কোনো রাশিকে মৌলিক রাশিগুলির ঘাত দিয়ে প্রকাশ করাই তার মাত্রা — যেমন বলের মাত্রা [M L T⁻²]। একই মাত্রার রাশিই কেবল যোগ-বিয়োগ করা যায়।",
+      "standard": "প্রতিটি পরিমাপেই কিছুটা অনিশ্চয়তা থাকে। তাই ফল লেখার নিয়ম হল: পরিমাপের ফলে যেসব অঙ্ক নির্ভরযোগ্যভাবে জানা, তাদের সঙ্গে **প্রথম অনিশ্চিত অঙ্কটি** পর্যন্ত রাখা হয় — এগুলিই **তাৎপর্যপূর্ণ অঙ্ক (significant figures)**। নিয়মগুলির মধ্যে প্রধান কয়েকটি: সব অশূন্য অঙ্কই তাৎপর্যপূর্ণ; যেমন ২.৩০৮ সেমি-তে তাৎপর্যপূর্ণ অঙ্ক চারটি (২, ৩, ০, ৮)। গুরুত্বপূর্ণ বিষয়: **একক বদলালে তাৎপর্যপূর্ণ অঙ্কের সংখ্যা বদলায় না** — ২.৩০৮ সেমি = ০.০২৩০৮ মিটার, দুটোতেই চারটি তাৎপর্যপূর্ণ অঙ্ক।\n\nদ্বিতীয় ধারণাটি হল **মাত্রা (dimensions)**। কোনো ভৌত রাশির মাত্রা হল সেই ঘাতগুলি, যেগুলিতে মৌলিক রাশিগুলিকে তুলে রাশিটিকে প্রকাশ করা হয়। মাত্রা লেখা হয় বর্গবন্ধনীতে: দৈর্ঘ্য [L], ভর [M], সময় [T]। বল = ভর × ত্বরণ, তাই বলের মাত্রা [M L T⁻²]। আয়তনের মাত্রা [L³], বেগের [L T⁻¹]।\n\nমাত্রার সবচেয়ে কাজের নিয়মটি হল **সমমাত্রিকতার নীতি**: কেবল একই মাত্রার রাশিই যোগ বা বিয়োগ করা যায় — বেগের সঙ্গে বল যোগ করা যায় না। এই নীতি দিয়ে সমীকরণ যাচাই করা যায়: মাত্রাগতভাবে সঠিক সমীকরণ প্রকৃতপক্ষে সঠিক নাও হতে পারে, কিন্তু **মাত্রাগতভাবে ভুল সমীকরণ অবশ্যই ভুল**।",
+      "deep": "মাত্রা-বিশ্লেষণের সীমাও জানা দরকার: এটি মাত্রাহীন ধ্রুবক (যেমন ½ বা 2π) ধরতে পারে না। তাই গতিশক্তির সূত্র K = ½mv² আর K = (3/16)mv² — দুটোই মাত্রাগতভাবে সঠিক; কোনটি আসল, তা সংজ্ঞা থেকে জানতে হয়। পরীক্ষায় 'মাত্রা-বিশ্লেষণে যা জানা যায় না' ধরনের প্রশ্নে এই সীমাটাই উত্তর।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মাত্রার তিন কাজ",
+          "body": "(১) সমীকরণের মাত্রাগত সঠিকতা যাচাই, (২) রাশিদের মধ্যে সম্পর্ক অনুমান, (৩) এক পদ্ধতি থেকে অন্য পদ্ধতিতে একক রূপান্তর।",
+          "claims": [
+            "c41",
+            "c40"
+          ]
+        }
+      ],
+      "claims": [
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "BIPM কর্তৃক SI কাঠামো প্রণয়ন",
+      "when": "১৯৭১",
+      "what": "আন্তর্জাতিক ওজন ও পরিমাপ ব্যুরো (BIPM) প্রতীক, একক ও সংক্ষেপসহ SI-এর কাঠামো তৈরি করে।",
+      "why_it_matters": "এরপর থেকে সারা বিশ্বে একটিই অভিন্ন একক পদ্ধতি বৈজ্ঞানিক ও বাণিজ্যিক কাজে ব্যবহৃত হতে থাকে।",
+      "section": "systems_si",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "title": "SI-এর সংশোধন: ধ্রুবক-ভিত্তিক সংজ্ঞা",
+      "when": "নভেম্বর ২০১৮",
+      "what": "ওজন ও পরিমাপের সাধারণ সম্মেলন SI সংশোধন করে; কিলোগ্রাম, অ্যাম্পিয়ার, কেলভিন ও মোলের সংজ্ঞা প্রকৃতির ধ্রুবকের নির্দিষ্ট মানের ওপর দাঁড় করানো হয়।",
+      "why_it_matters": "এককের সংজ্ঞা আর কোনো নির্দিষ্ট বস্তুর ওপর নির্ভরশীল রইল না — যেকোনো জায়গায়, যেকোনো সময়ে একই মান পুনরুৎপাদন করা যায়।",
+      "section": "base_units",
+      "claims": [
+        "c09",
+        "c14",
+        "c17"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "জেমস ওয়াট (James Watt)",
+      "when": "১৭৩৬–১৮১৯",
+      "role": "বিজ্ঞানী ও প্রকৌশলী",
+      "contribution": "ক্ষমতার SI একক 'ওয়াট' (W) তাঁর সম্মানে নামকরণ করা হয়েছে; ১ ওয়াট = প্রতি সেকেন্ডে ১ জুল হারে কাজ।",
+      "section": "derived_units",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "name": "হাইনরিখ রুডলফ হার্টজ (Heinrich Rudolph Hertz)",
+      "when": "জন্ম ২২ ফেব্রুয়ারি ১৮৫৭, হামবুর্গ",
+      "role": "পদার্থবিজ্ঞানী",
+      "contribution": "তিনি ম্যাক্সওয়েলের তড়িৎচুম্বকীয় তত্ত্ব পরীক্ষায় প্রমাণ করেন এবং আলোক-তড়িৎ ক্রিয়া আবিষ্কার করেন; কম্পাঙ্কের SI একক 'হার্টজ' (Hz) তাঁর সম্মানে নামকরণ করা হয়েছে।",
+      "section": "derived_units",
+      "claims": [
+        "c29",
+        "c28"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1971,
+      "when": "১৯৭১",
+      "label": "BIPM SI-এর কাঠামো (প্রতীক, একক, সংক্ষেপ) তৈরি করে",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "sort_year": 2018,
+      "when": "নভেম্বর ২০১৮",
+      "label": "সাধারণ সম্মেলন SI সংশোধন করে — ধ্রুবক-ভিত্তিক সংজ্ঞা চালু হয়",
+      "claims": [
+        "c09"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "একক (Unit)",
+      "meaning": "পরিমাপের জন্য বেছে নেওয়া মৌলিক, আন্তর্জাতিকভাবে গৃহীত প্রমাণ মান, যার সঙ্গে তুলনা করে রাশিটি মাপা হয়।",
+      "section": "meas_basics"
+    },
+    {
+      "term": "মৌলিক একক (Base unit)",
+      "meaning": "মৌলিক রাশির একক — যেমন মিটার, কিলোগ্রাম, সেকেন্ড। SI-তে এরকম একক সাতটি।",
+      "section": "meas_basics"
+    },
+    {
+      "term": "লব্ধ একক (Derived unit)",
+      "meaning": "মৌলিক এককগুলির সমন্বয়ে তৈরি একক — যেমন জুল, ওয়াট।",
+      "section": "derived_units"
+    },
+    {
+      "term": "SI",
+      "meaning": "Système International d'Unités — বর্তমানে আন্তর্জাতিকভাবে গৃহীত একক পদ্ধতি।",
+      "section": "systems_si"
+    },
+    {
+      "term": "রেডিয়ান (rad)",
+      "meaning": "সমতল কোণের একক; মাত্রাহীন রাশি।",
+      "section": "base_units"
+    },
+    {
+      "term": "অ্যাংস্ট্রম (Å)",
+      "meaning": "পরমাণু-মাপের দৈর্ঘ্যের একক; ১ Å = ১০⁻¹⁰ মিটার।",
+      "section": "scales"
+    },
+    {
+      "term": "আলোকবর্ষ (Light year)",
+      "meaning": "এক বছরে আলো শূন্যস্থানে যে দূরত্ব যায়; প্রায় ৯.৪৭ × ১০¹⁵ মিটার। দৈর্ঘ্যের একক।",
+      "section": "scales"
+    },
+    {
+      "term": "তাৎপর্যপূর্ণ অঙ্ক (Significant figures)",
+      "meaning": "পরিমাপের ফলে নির্ভরযোগ্য অঙ্কগুলি ও প্রথম অনিশ্চিত অঙ্ক।",
+      "section": "sigfig_dimensions"
+    },
+    {
+      "term": "মাত্রা (Dimensions)",
+      "meaning": "কোনো রাশিকে প্রকাশ করতে মৌলিক রাশিগুলিকে যেসব ঘাতে তুলতে হয়।",
+      "section": "sigfig_dimensions"
+    },
+    {
+      "term": "ডায়প্টার (D)",
+      "meaning": "লেন্সের ক্ষমতার SI একক; ফোকাস দৈর্ঘ্য ১ মিটার হলে ক্ষমতা ১ D।",
+      "section": "derived_units"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "আলাদা পদ্ধতির বিভ্রান্তি থেকে একক SI",
+      "causes": [
+        "বিভিন্ন দেশে CGS, FPS, MKS-এর মতো আলাদা একক পদ্ধতি চালু ছিল",
+        "একই রাশির আলাদা একক থাকায় বিজ্ঞান ও বাণিজ্যে তুলনা ও রূপান্তরে অসুবিধা হত"
+      ],
+      "event": "BIPM ১৯৭১ সালে SI কাঠামো তৈরি করে এবং ২০১৮ সালে তা সংশোধিত হয়",
+      "results": [
+        "সারা বিশ্বে অভিন্ন একক পদ্ধতি প্রতিষ্ঠিত হয়",
+        "দশমিক পদ্ধতির কারণে একক রূপান্তর সহজ হয়"
+      ],
+      "section": "systems_si",
+      "claims": [
+        "c08",
+        "c09",
+        "c10"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "সাতটি SI মৌলিক একক ও প্রতীক — রাশি-একক মিলিয়ে মুখস্থ করো (GK-SCI-001 ও KP ২০২৩-তে এসেছে)।",
+      "section": "base_units"
+    },
+    {
+      "point": "তাপমাত্রার SI একক কেলভিন, সেলসিয়াস নয় — সবচেয়ে বেশি আসা ফাঁদ।",
+      "section": "base_units"
+    },
+    {
+      "point": "আলোকবর্ষ দৈর্ঘ্যের একক, সময়ের নয় (WBCS ২০১৯)।",
+      "section": "scales"
+    },
+    {
+      "point": "লেন্সের ক্ষমতার একক ডায়প্টার (WBP ২০২১); ক্ষমতা (power)-এর একক ওয়াটের সঙ্গে গুলিয়ো না।",
+      "section": "derived_units"
+    },
+    {
+      "point": "শক্তির একক জুল, ক্ষমতার একক ওয়াট; 1 W = 1 J/s।",
+      "section": "derived_units"
+    },
+    {
+      "point": "SI-এর সাল: কাঠামো ১৯৭১, সংশোধন নভেম্বর ২০১৮।",
+      "section": "systems_si"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের পরীক্ষাগুলিতেই এই অধ্যায়ের গুরুত্ব সবচেয়ে স্পষ্ট: KP Constable ২০২৩-এ তাপমাত্রার SI একক, WBP Constable ২০২১-এ লেন্সের ক্ষমতার একক ও শক্তির একক-নয় প্রশ্ন, WBCS ২০১৯-এ আলোকবর্ষ এবং Clerkship ২০২৩-এ তেজস্ক্রিয়তা ও কার্য-অপেক্ষকের (work function) SI একক এসেছে। অর্থাৎ কলকাতা ও রাজ্যজুড়ে পরীক্ষার্থীদের জন্য একক-পরিমাপ একটি নিয়মিত নম্বর-আসা বিষয়। এই অধ্যায়ের পড়া সেই প্রশ্নগুলির বেশিরভাগের উত্তর দেয়; যেগুলি দেয় না (বেকেরেল, হর্সপাওয়ার-রূপান্তর), সেগুলি pyq_map-এ কারণসহ আলাদা করে চিহ্নিত করা হয়েছে।",
+    "claims": [
+      "c17",
+      "c31",
+      "c33"
+    ]
+  },
+  "quick_revision": [
+    "পরিমাপ = প্রমাণ এককের সঙ্গে তুলনা; ফল = সংখ্যা + একক।",
+    "মৌলিক রাশি সাতটি: দৈর্ঘ্য, ভর, সময়, তড়িৎপ্রবাহ, উষ্ণতা, পদার্থের পরিমাণ, দীপন প্রাবল্য।",
+    "CGS: সেমি-গ্রাম-সেকেন্ড; FPS: ফুট-পাউন্ড-সেকেন্ড; MKS: মিটার-কেজি-সেকেন্ড।",
+    "SI কাঠামো ১৯৭১ (BIPM); সংশোধন নভেম্বর ২০১৮।",
+    "কিলোগ্রাম ← প্ল্যাঙ্ক ধ্রুবক; সেকেন্ড ← সিজিয়াম কম্পাঙ্ক; কেলভিন ← বোল্টজম্যান ধ্রুবক; মোল ← অ্যাভোগাড্রো সংখ্যা।",
+    "সমতল কোণ = রেডিয়ান, ঘনকোণ = স্টেরেডিয়ান — দুটোই মাত্রাহীন।",
+    "কাজ ও শক্তির একক জুল; ১ J = ১ N বল × ১ m সরণ।",
+    "ক্ষমতার একক ওয়াট; 1 W = 1 J/s; ১ kW = ১০০০ W; ১ kJ = ১০০০ J।",
+    "কম্পাঙ্কের একক হার্টজ; লেন্সের ক্ষমতার একক ডায়প্টার (1 D = 1 m⁻¹)।",
+    "১ Å = ১০⁻¹⁰ m; ১ আলোকবর্ষ ≈ ৯.৪৭ × ১০¹⁵ m — দুটোই দৈর্ঘ্যের একক।",
+    "একক বদলালে তাৎপর্যপূর্ণ অঙ্কের সংখ্যা বদলায় না।",
+    "বলের মাত্রা [M L T⁻²]; যোগ-বিয়োগ কেবল একই মাত্রার রাশিতে।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Physics Part I, Class XI, Chapter 1: Units and Measurement",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Science, Class IX, Chapter 10: Work and Energy",
+      "class": "IX",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Science, Class IX, Chapter 11: Sound",
+      "class": "IX",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Science, Class X, Chapter 9: Light – Reflection and Refraction",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Measurement of a physical quantity is comparison with a reference standard called a unit.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "Measurement of any physical quantity involves comparison with a certain basic, arbitrarily chosen, internationally accepted reference standard called unit."
+    },
+    {
+      "id": "c02",
+      "claim": "A measurement result is expressed by a number accompanied by a unit.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "The result of a measurement of a physical quantity is expressed by a number (or numerical measure) accompanied by a unit."
+    },
+    {
+      "id": "c03",
+      "claim": "Base units are the units of fundamental quantities; derived units are combinations of base units.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "The units for the fundamental or base quantities are called fundamental or base units. The units of all other physical quantities can be expressed as combinations of the base units. Such units obtained for the derived quantities are called derived units."
+    },
+    {
+      "id": "c04",
+      "claim": "The base quantities are length, mass, time, electric current, thermodynamic temperature, amount of substance and luminous intensity.",
+      "source": "s1",
+      "page": "Summary, p. 10",
+      "quote": "Certain physical quantities have been chosen as fundamental or base quantities (such as length, mass, time, electric current, thermodynamic temperature, amount of substance, and luminous intensity)."
+    },
+    {
+      "id": "c05",
+      "claim": "In the CGS system the base units were centimetre, gram and second.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "In CGS system they were centimetre, gram and second respectively."
+    },
+    {
+      "id": "c06",
+      "claim": "In the FPS system the base units were foot, pound and second.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "In FPS system they were foot, pound and second respectively."
+    },
+    {
+      "id": "c07",
+      "claim": "In the MKS system the base units were metre, kilogram and second.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "In MKS system they were metre, kilogram and second respectively."
+    },
+    {
+      "id": "c08",
+      "claim": "The system of units now internationally accepted is the Systeme International d'Unites (SI).",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "The system of units which is at present internationally accepted for measurement is the Système International d’ Unités (French for International System of Units), abbreviated as SI."
+    },
+    {
+      "id": "c09",
+      "claim": "The SI scheme was developed by the BIPM in 1971 and revised by the General Conference on Weights and Measures in November 2018.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "The SI, with standard scheme of symbols, units and abbreviations, developed by the Bureau International des poids et mesures (The International Bureau of Weights and Measures, BIPM) in 1971 were recently revised by the General Conference on Weights and Measures in November 2018."
+    },
+    {
+      "id": "c10",
+      "claim": "Because SI uses the decimal system, conversions within the system are simple and convenient.",
+      "source": "s1",
+      "page": "p. 3",
+      "quote": "Because SI units used decimal system, conversions within the system are quite simple and convenient."
+    },
+    {
+      "id": "c11",
+      "claim": "In SI there are seven base units.",
+      "source": "s1",
+      "page": "p. 3",
+      "quote": "In SI, there are seven base units as given in Table 1.1."
+    },
+    {
+      "id": "c12",
+      "claim": "The unit of plane angle is the radian (rad) and of solid angle the steradian (sr); both are dimensionless.",
+      "source": "s1",
+      "page": "p. 3",
+      "quote": "The unit for plane angle is radian with the symbol rad and the unit for the solid angle is steradian with the symbol sr. Both these are dimensionless quantities."
+    },
+    {
+      "id": "c13",
+      "claim": "The metre is defined by taking the speed of light in vacuum c to be 299792458 m/s.",
+      "source": "s1",
+      "page": "Table 1.1, p. 3",
+      "quote": "The metre is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum c to be 299792458 when expressed in the unit m s–1, where the second is defined in terms of the caesium frequency ΔνCs."
+    },
+    {
+      "id": "c14",
+      "claim": "The kilogram is defined by taking the Planck constant h to be 6.62607015x10^-34 J s.",
+      "source": "s1",
+      "page": "Table 1.1, p. 3",
+      "quote": "The kilogram is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant h to be 6.62607015×10–34 when expressed in the unit J s, which is equal to kg m2 s –1, where the metre and the second are defined in terms of c and ΔνCs."
+    },
+    {
+      "id": "c15",
+      "claim": "The second is defined by taking the caesium frequency to be 9192631770 Hz.",
+      "source": "s1",
+      "page": "Table 1.1, p. 3",
+      "quote": "The second is the SI unit of time. It is defined by taking the fixed numerical value of the caesium frequency ΔνCs, the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom, to be 9192631770 when expressed in the unit Hz, which is equal to s–1."
+    },
+    {
+      "id": "c16",
+      "claim": "The ampere is defined by taking the elementary charge e to be 1.602176634x10^-19 C.",
+      "source": "s1",
+      "page": "Table 1.1, p. 3",
+      "quote": "The ampere is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge e to be 1.602176634×10–19 when expressed in the unit C, which is equal to A s, where the second is defined in terms of ΔνCs."
+    },
+    {
+      "id": "c17",
+      "claim": "The kelvin is the SI unit of thermodynamic temperature, defined via the Boltzmann constant k = 1.380649x10^-23 J/K.",
+      "source": "s1",
+      "page": "Table 1.1, p. 3",
+      "quote": "The kelvin, symbol K, is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant k to be 1.380649×10–23 when expressed in the unit J K–1, which is equal to kg m2 s –2 k –1, where the kilogram, metre and second are defined in terms of h, c and ΔνCs."
+    },
+    {
+      "id": "c18",
+      "claim": "One mole contains exactly 6.02214076x10^23 elementary entities (the Avogadro number).",
+      "source": "s1",
+      "page": "Table 1.1, p. 3",
+      "quote": "The mole is the SI unit of amount of substance. One mole contains exactly 6.02214076×1023 elementary entities. This number is the fixed numerical value of the Avogadro constant, NA, when expressed in the unit mol–1 and is called the Avogadro number."
+    },
+    {
+      "id": "c19",
+      "claim": "The candela is the SI unit of luminous intensity in a given direction.",
+      "source": "s1",
+      "page": "Table 1.1, p. 3",
+      "quote": "The candela is the SI unit of luminous intensity in given direction."
+    },
+    {
+      "id": "c20",
+      "claim": "Certain derived units are expressed by means of SI units with special names, such as joule, newton and watt.",
+      "source": "s1",
+      "page": "Summary, p. 10",
+      "quote": "Certain derived units are expressed by means of SI units with special names (such as joule, newton, watt, etc)."
+    },
+    {
+      "id": "c21",
+      "claim": "The SI unit of energy is J = kg m2 s-2.",
+      "source": "s1",
+      "page": "Example 1.4, p. 9",
+      "quote": "The SI unit of energy is J = kg m2 s –2; that of speed v is m s–1 and of acceleration a is m s–2."
+    },
+    {
+      "id": "c22",
+      "claim": "The unit of work is the newton metre (N m) or joule (J); 1 J is the work done when a force of 1 N displaces an object by 1 m.",
+      "source": "s2",
+      "page": "p. 114",
+      "quote": "Here the unit of work is newton metre (N m) or joule (J). Thus 1 J is the amount of work done on an object when a force of 1 N displaces it by 1 m along the line of action of the force."
+    },
+    {
+      "id": "c23",
+      "claim": "The unit of energy is the same as that of work, that is, the joule (J).",
+      "source": "s2",
+      "page": "p. 115",
+      "quote": "The unit of energy is, therefore, the same as that of work, that is, joule (J). 1 J is the energy required to do 1 joule of work."
+    },
+    {
+      "id": "c24",
+      "claim": "A larger unit of energy, the kilojoule (kJ), is used; 1 kJ equals 1000 J.",
+      "source": "s2",
+      "page": "p. 115",
+      "quote": "Sometimes a larger unit of energy called kilo joule (kJ) is used. 1 kJ equals 1000 J."
+    },
+    {
+      "id": "c25",
+      "claim": "The unit of power is the watt (W), named in honour of James Watt; 1 watt is the power of an agent doing work at the rate of 1 joule per second.",
+      "source": "s2",
+      "page": "p. 122",
+      "quote": "The unit of power is watt [in honour of James Watt (1736 – 1819)] having the symbol W. 1 watt is the power of an agent, which does work at the rate of 1 joule per second."
+    },
+    {
+      "id": "c26",
+      "claim": "Larger rates of energy transfer are expressed in kilowatts; 1 kilowatt = 1000 watts.",
+      "source": "s2",
+      "page": "p. 122",
+      "quote": "1 kilowatt = 1000 watts"
+    },
+    {
+      "id": "c27",
+      "claim": "Power is the rate of doing work; the SI unit of power is the watt, 1 W = 1 J/s.",
+      "source": "s2",
+      "page": "p. 123",
+      "quote": "Power is defined as the rate of doing work. The SI unit of power is watt. 1 W = 1 J/s."
+    },
+    {
+      "id": "c28",
+      "claim": "The SI unit of frequency is the hertz (symbol Hz).",
+      "source": "s3",
+      "page": "p. 130",
+      "quote": "Its SI unit is hertz (symbol, Hz)."
+    },
+    {
+      "id": "c29",
+      "claim": "The SI unit of frequency was named hertz in honour of Heinrich Rudolph Hertz.",
+      "source": "s3",
+      "page": "p. 129",
+      "quote": "He also discovered the photoelectric effect which was later explained by Albert Einstein. The SI unit of frequency was named as hertz in his honour."
+    },
+    {
+      "id": "c30",
+      "claim": "The SI unit of wavelength is the metre (m).",
+      "source": "s3",
+      "page": "p. 129",
+      "quote": "Its SI unit is metre (m)."
+    },
+    {
+      "id": "c31",
+      "claim": "The SI unit of power of a lens is the dioptre (D); 1 dioptre is the power of a lens whose focal length is 1 metre, 1 D = 1 m-1.",
+      "source": "s4",
+      "page": "p. 168 (approx.)",
+      "quote": "The SI unit of power of a lens is ‘dioptre’. It is denoted by the letter D. If f is expressed in metres, then, power is expressed in dioptres. Thus, 1 dioptre is the power of a lens whose focal length is 1 metre. 1D = 1m–1"
+    },
+    {
+      "id": "c32",
+      "claim": "The angstrom is a unit of length convenient on the atomic scale: 1 angstrom = 10^-10 m.",
+      "source": "s1",
+      "page": "Exercise 1.14, p. 12",
+      "quote": "The unit of length convenient on the atomic scale is known as an angstrom and is denoted by Å: 1 Å = 10–10 m."
+    },
+    {
+      "id": "c33",
+      "claim": "The light year is 9.47 x 10^15 m (three significant figures) when the speed of light is taken as 3.00 x 10^8 m/s.",
+      "source": "s1",
+      "page": "p. 5",
+      "quote": "the light year is 9.47 × 1015 m (three significant figures)"
+    },
+    {
+      "id": "c34",
+      "claim": "The reported result of a measurement includes all digits known reliably plus the first uncertain digit; these are the significant figures.",
+      "source": "s1",
+      "page": "p. 4",
+      "quote": "Normally, the reported result of measurement is a number that includes all the digits in the number that are known reliably plus the first digit that is uncertain. The reliable digits plus the first uncertain digit are known as significant digits or significant figures."
+    },
+    {
+      "id": "c35",
+      "claim": "All non-zero digits are significant.",
+      "source": "s1",
+      "page": "p. 4",
+      "quote": "All the non-zero digits are significant."
+    },
+    {
+      "id": "c36",
+      "claim": "The length 2.308 cm has four significant figures.",
+      "source": "s1",
+      "page": "p. 4",
+      "quote": "For example, the length 2.308 cm has four significant figures."
+    },
+    {
+      "id": "c37",
+      "claim": "A change of units does not change the number of significant figures in a measurement.",
+      "source": "s1",
+      "page": "p. 4",
+      "quote": "A choice of change of different units does not change the number of significant digits or figures in a measurement."
+    },
+    {
+      "id": "c38",
+      "claim": "The dimensions of a physical quantity are the powers to which the base quantities are raised to represent it.",
+      "source": "s1",
+      "page": "p. 7",
+      "quote": "The dimensions of a physical quantity are the powers (or exponents) to which the base quantities are raised to represent that quantity."
+    },
+    {
+      "id": "c39",
+      "claim": "Force, as the product of mass and acceleration, has dimensions [M L T-2].",
+      "source": "s1",
+      "page": "p. 7",
+      "quote": "Similarly, force, as the product of mass and acceleration, can be expressed as Force = mass × acceleration = mass × (length)/(time)2. The dimensions of force are [M] [L]/[T]2 = [M L T–2]."
+    },
+    {
+      "id": "c40",
+      "claim": "Only physical quantities having the same dimensions can be added or subtracted.",
+      "source": "s1",
+      "page": "p. 8",
+      "quote": "only those physical quantities can be added or subtracted which have the same dimensions"
+    },
+    {
+      "id": "c41",
+      "claim": "A dimensionally correct equation need not be exactly correct, but a dimensionally wrong equation must be wrong.",
+      "source": "s1",
+      "page": "Summary, p. 10",
+      "quote": "A dimensionally consistent equation need not be actually an exact (correct) equation, but a dimensionally wrong or inconsistent equation must be wrong."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "meas_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিজ্ঞানে কোনো ভৌত রাশির 'পরিমাপ' বলতে কী বোঝায়?",
+      "a": "রাশিটিকে একটি নির্দিষ্ট প্রমাণ এককের সঙ্গে তুলনা করা",
+      "w": [
+        "রাশিটিকে চোখে দেখে অনুমান করা",
+        "রাশিটির নাম মুখস্থ করা",
+        "কোনো যন্ত্র ছাড়া গোনা"
+      ],
+      "e": "পরিমাপ মানেই তুলনা — একটি মৌলিক, আন্তর্জাতিকভাবে গৃহীত প্রমাণ মানের সঙ্গে তুলনা, আর সেই প্রমাণ মানটিই একক।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "meas_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পরিমাপের ফল সঠিকভাবে কীভাবে প্রকাশ করা হয়?",
+      "a": "একটি সংখ্যার সঙ্গে একটি একক দিয়ে",
+      "w": [
+        "শুধু একটি সংখ্যা দিয়ে",
+        "শুধু একটি একক দিয়ে",
+        "একটি ছবি দিয়ে"
+      ],
+      "e": "ফল সবসময় সংখ্যা + একক — যেমন ৫ মিটার। একক ছাড়া সংখ্যাটি অর্থহীন।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "meas_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মৌলিক (ভিত্তি) একক কাকে বলে?",
+      "a": "মৌলিক রাশিগুলির একককে",
+      "w": [
+        "লব্ধ রাশিগুলির একককে",
+        "সবচেয়ে বড় একককে",
+        "সবচেয়ে ছোট একককে"
+      ],
+      "e": "দৈর্ঘ্য, ভর, সময়ের মতো মৌলিক রাশির এককই মৌলিক একক; বাকি সব একক এদের সমন্বয়ে তৈরি।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "meas_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লব্ধ একক (derived unit) কোনটি?",
+      "a": "মিটার প্রতি সেকেন্ড (বেগের একক)",
+      "w": [
+        "মিটার",
+        "কিলোগ্রাম",
+        "সেকেন্ড"
+      ],
+      "e": "বেগের একক মিটার ÷ সেকেন্ড — দুটি মৌলিক এককের সমন্বয়, তাই লব্ধ। মিটার, কিলোগ্রাম, সেকেন্ড মৌলিক একক।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "meas_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নীচের কোনটি মৌলিক রাশি নয়?",
+      "a": "আয়তন",
+      "w": [
+        "দৈর্ঘ্য",
+        "ভর",
+        "সময়"
+      ],
+      "e": "মৌলিক রাশি সাতটির মধ্যে আয়তন নেই; আয়তন = দৈর্ঘ্য³, তাই লব্ধ রাশি।",
+      "claims": [
+        "c04",
+        "c03"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "meas_basics",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. পরিমাপের ফল শুধু একটি সংখ্যা দিয়েই সম্পূর্ণভাবে প্রকাশ করা যায়।\n২. লব্ধ একক মৌলিক এককগুলির সমন্বয়ে প্রকাশ করা যায়।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "কেবল ২",
+      "w": [
+        "কেবল ১",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ ভুল — ফলের সঙ্গে একক থাকতেই হবে। বিবৃতি ২ সঠিক — লব্ধ একক মৌলিক এককের সমন্বয়।",
+      "claims": [
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "meas_basics",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| A. দৈর্ঘ্য | ১. লব্ধ রাশি |\n| B. বেগ | ২. মৌলিক রাশি |\n| C. সময় | ৩. লব্ধ রাশি |\n| D. আয়তন | ৪. মৌলিক রাশি |",
+      "a": "A-২, B-১, C-৪, D-৩",
+      "w": [
+        "A-১, B-২, C-৩, D-৪",
+        "A-২, B-৩, C-১, D-৪",
+        "A-৪, B-১, C-২, D-৩"
+      ],
+      "e": "দৈর্ঘ্য ও সময় মৌলিক রাশি; বেগ (দৈর্ঘ্য/সময়) ও আয়তন (দৈর্ঘ্য³) লব্ধ রাশি।",
+      "claims": [
+        "c04",
+        "c03"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "systems_si",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "CGS পদ্ধতিতে দৈর্ঘ্যের একক কোনটি?",
+      "a": "সেন্টিমিটার",
+      "w": [
+        "মিটার",
+        "ফুট",
+        "কিলোমিটার"
+      ],
+      "e": "CGS = সেন্টিমিটার (দৈর্ঘ্য), গ্রাম (ভর), সেকেন্ড (সময়)।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "systems_si",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MKS পদ্ধতিতে ভরের একক কোনটি?",
+      "a": "কিলোগ্রাম",
+      "w": [
+        "গ্রাম",
+        "পাউন্ড",
+        "টন"
+      ],
+      "e": "MKS = মিটার, কিলোগ্রাম, সেকেন্ড। গ্রাম CGS-এর, পাউন্ড FPS-এর ভর-একক।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "systems_si",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SI পদ্ধতির কাঠামো (প্রতীক, একক ও সংক্ষেপসহ) কোন সংস্থা তৈরি করে?",
+      "a": "আন্তর্জাতিক ওজন ও পরিমাপ ব্যুরো (BIPM)",
+      "w": [
+        "বিশ্ব স্বাস্থ্য সংস্থা (WHO)",
+        "জাতিসংঘ শিক্ষা সংস্থা (UNESCO)",
+        "আন্তর্জাতিক মুদ্রা তহবিল (IMF)"
+      ],
+      "e": "SI-এর কাঠামো BIPM ১৯৭১ সালে তৈরি করে; পরে সাধারণ সম্মেলন তা সংশোধন করে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "systems_si",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SI পদ্ধতির সর্বশেষ বড় সংশোধন কোন সালে হয়?",
+      "a": "২০১৮ সালে",
+      "w": [
+        "১৯৭১ সালে",
+        "১৯৯৯ সালে",
+        "২০০৫ সালে"
+      ],
+      "e": "১৯৭১ সালে কাঠামো তৈরি হয়; নভেম্বর ২০১৮-তে General Conference on Weights and Measures তা সংশোধন করে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "systems_si",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বর্তমানে পরিমাপের জন্য আন্তর্জাতিকভাবে গৃহীত একক পদ্ধতি কোনটি?",
+      "a": "SI পদ্ধতি",
+      "w": [
+        "CGS পদ্ধতি",
+        "FPS পদ্ধতি",
+        "MKS পদ্ধতি"
+      ],
+      "e": "CGS, FPS, MKS আগে চলত; বর্তমানে আন্তর্জাতিকভাবে গৃহীত পদ্ধতি SI।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "systems_si",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. CGS পদ্ধতিতে ভরের একক গ্রাম।\n২. FPS পদ্ধতিতে সময়ের একক মিনিট।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল — তিন পদ্ধতিতেই সময়ের একক সেকেন্ড।",
+      "claims": [
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "systems_si",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে সঠিক কালানুক্রমে সাজাও:\n\n১. SI পদ্ধতির সংশোধন (সাধারণ সম্মেলন)\n২. CGS, FPS ও MKS পদ্ধতির ব্যাপক ব্যবহার\n৩. BIPM কর্তৃক SI কাঠামো প্রণয়ন",
+      "a": "২ → ৩ → ১",
+      "w": [
+        "৩ → ২ → ১",
+        "১ → ২ → ৩",
+        "২ → ১ → ৩"
+      ],
+      "e": "আগে CGS/FPS/MKS চলত, ১৯৭১ সালে BIPM SI কাঠামো দেয়, ২০১৮ সালে তা সংশোধিত হয়।",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "base_units",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তাপগতীয় উষ্ণতার SI মৌলিক একক কোনটি?",
+      "a": "কেলভিন (K)",
+      "w": [
+        "ডিগ্রি সেলসিয়াস",
+        "ডিগ্রি ফারেনহাইট",
+        "জুল"
+      ],
+      "e": "SI-তে উষ্ণতার মৌলিক একক কেলভিন। সেলসিয়াস দৈনন্দিন ব্যবহারের একক, SI মৌলিক একক নয়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "base_units",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তড়িৎপ্রবাহের SI মৌলিক একক কোনটি?",
+      "a": "অ্যাম্পিয়ার (A)",
+      "w": [
+        "ভোল্ট",
+        "ওহম",
+        "কুলম্ব"
+      ],
+      "e": "সাতটি মৌলিক এককের মধ্যে তড়িৎপ্রবাহের একক অ্যাম্পিয়ার।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "base_units",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দীপন প্রাবল্যের SI মৌলিক একক কোনটি?",
+      "a": "ক্যান্ডেলা (cd)",
+      "w": [
+        "লুমেন",
+        "লাক্স",
+        "ওয়াট"
+      ],
+      "e": "দীপন প্রাবল্যের মৌলিক একক ক্যান্ডেলা।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "base_units",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মোল (mol) কোন রাশির SI একক?",
+      "a": "পদার্থের পরিমাণ",
+      "w": [
+        "ভর",
+        "আয়তন",
+        "ঘনত্ব"
+      ],
+      "e": "মোল পদার্থের পরিমাণের একক; এক মোলে 6.02214076×10²³টি মৌলিক সত্তা থাকে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "base_units",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সমতল কোণের একক কোনটি?",
+      "a": "রেডিয়ান (rad)",
+      "w": [
+        "স্টেরেডিয়ান",
+        "ডিগ্রি",
+        "ক্যান্ডেলা"
+      ],
+      "e": "সমতল কোণ → রেডিয়ান; ঘনকোণ → স্টেরেডিয়ান। দুটোই মাত্রাহীন।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "base_units",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আধুনিক সংজ্ঞায় কিলোগ্রাম কোন ধ্রুবকের নির্দিষ্ট মানের ভিত্তিতে সংজ্ঞায়িত?",
+      "a": "প্ল্যাঙ্ক ধ্রুবক (h)",
+      "w": [
+        "বোল্টজম্যান ধ্রুবক",
+        "অ্যাভোগাড্রো ধ্রুবক",
+        "মৌলিক আধান"
+      ],
+      "e": "কিলোগ্রাম প্ল্যাঙ্ক ধ্রুবক h = 6.62607015×10⁻³⁴ J s দিয়ে সংজ্ঞায়িত। বোল্টজম্যান ধ্রুবক কেলভিনের, মৌলিক আধান অ্যাম্পিয়ারের সংজ্ঞায় ব্যবহৃত হয়।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "base_units",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I (রাশি) | তালিকা II (একক) |\n|---|---|\n| A. দৈর্ঘ্য | ১. অ্যাম্পিয়ার |\n| B. তড়িৎপ্রবাহ | ২. মিটার |\n| C. উষ্ণতা | ৩. ক্যান্ডেলা |\n| D. দীপন প্রাবল্য | ৪. কেলভিন |",
+      "a": "A-২, B-১, C-৪, D-৩",
+      "w": [
+        "A-১, B-২, C-৩, D-৪",
+        "A-২, B-৪, C-১, D-৩",
+        "A-৩, B-১, C-৪, D-২"
+      ],
+      "e": "দৈর্ঘ্য-মিটার, তড়িৎপ্রবাহ-অ্যাম্পিয়ার, উষ্ণতা-কেলভিন, দীপন প্রাবল্য-ক্যান্ডেলা — SI মৌলিক এককের মূল মিলগুলি।",
+      "claims": [
+        "c13",
+        "c16",
+        "c17",
+        "c19"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "derived_units",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কাজের SI একক কোনটি?",
+      "a": "জুল (J)",
+      "w": [
+        "নিউটন",
+        "ওয়াট",
+        "পাস্কাল"
+      ],
+      "e": "কাজের একক নিউটন-মিটার অর্থাৎ জুল; ১ N বল ১ m সরালে ১ J কাজ হয়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "derived_units",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ক্ষমতার SI একক কোনটি?",
+      "a": "ওয়াট (W)",
+      "w": [
+        "জুল",
+        "নিউটন",
+        "হার্টজ"
+      ],
+      "e": "ক্ষমতা = কাজ ÷ সময়; এর SI একক ওয়াট, 1 W = 1 J/s।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "derived_units",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কম্পাঙ্কের SI একক কোনটি?",
+      "a": "হার্টজ (Hz)",
+      "w": [
+        "ওয়াট",
+        "জুল",
+        "ডায়প্টার"
+      ],
+      "e": "কম্পাঙ্কের SI একক হার্টজ — হাইনরিখ হার্টজের নামে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "derived_units",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লেন্সের ক্ষমতার SI একক কোনটি?",
+      "a": "ডায়প্টার (D)",
+      "w": [
+        "ওয়াট",
+        "মিটার",
+        "সেন্টিমিটার"
+      ],
+      "e": "লেন্সের ক্ষমতার SI একক ডায়প্টার; ফোকাস দৈর্ঘ্য ১ মিটার হলে ক্ষমতা ১ D।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "derived_units",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১ কিলোজুল (kJ) সমান কত জুল?",
+      "a": "১০০০ জুল",
+      "w": [
+        "১০ জুল",
+        "১০০ জুল",
+        "১০,০০০ জুল"
+      ],
+      "e": "কিলো উপসর্গ মানেই হাজার গুণ: ১ kJ = ১০০০ J।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "derived_units",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "১ ওয়াট ক্ষমতা বলতে কী বোঝায়?",
+      "a": "প্রতি সেকেন্ডে ১ জুল হারে কাজ করা",
+      "w": [
+        "মোট ১ জুল কাজ করা",
+        "১ নিউটন বল প্রয়োগ করা",
+        "১ সেকেন্ডে ১ মিটার যাওয়া"
+      ],
+      "e": "ওয়াট ক্ষমতার একক: যে কর্তা প্রতি সেকেন্ডে ১ জুল হারে কাজ করে, তার ক্ষমতা ১ ওয়াট।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "derived_units",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. শক্তির SI একক জুল।\n২. ক্ষমতার SI একক জুল।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "শক্তির একক জুল ঠিক; কিন্তু ক্ষমতার একক ওয়াট, জুল নয় — বিবৃতি ২ ভুল।",
+      "claims": [
+        "c23",
+        "c27"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "scales",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তরঙ্গদৈর্ঘ্যের SI একক কোনটি?",
+      "a": "মিটার (m)",
+      "w": [
+        "সেকেন্ড",
+        "হার্টজ",
+        "কিলোগ্রাম"
+      ],
+      "e": "তরঙ্গদৈর্ঘ্য এক ধরনের দৈর্ঘ্য, তাই এর SI একক মিটার।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "scales",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১ অ্যাংস্ট্রম (Å) সমান কত মিটার?",
+      "a": "১০⁻¹⁰ মিটার",
+      "w": [
+        "১০⁻⁶ মিটার",
+        "১০⁻¹⁵ মিটার",
+        "১০² মিটার"
+      ],
+      "e": "পরমাণু-মাপের দৈর্ঘ্যের একক অ্যাংস্ট্রম: 1 Å = 10⁻¹⁰ m।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "scales",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আলোকবর্ষ (light year) কোন রাশির একক?",
+      "a": "দূরত্ব (দৈর্ঘ্য)",
+      "w": [
+        "সময়",
+        "বেগ",
+        "ভর"
+      ],
+      "e": "আলোকবর্ষ হল এক বছরে আলো যে দূরত্ব যায় — দৈর্ঘ্যের একক, সময়ের নয়।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "scales",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "১ আলোকবর্ষ প্রায় কত মিটারের সমান?",
+      "a": "৯.৪৭ × ১০¹⁵ মিটার",
+      "w": [
+        "৩.০০ × ১০⁸ মিটার",
+        "৯.৪৭ × ১০¹² মিটার",
+        "১.০০ × ১০¹⁰ মিটার"
+      ],
+      "e": "আলোর বেগ 3.00×10⁸ m/s ধরে ১ আলোকবর্ষ = 9.47×10¹⁵ m। 3.00×10⁸ হল আলোর বেগের মান, দূরত্ব নয়।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "scales",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশাল দূরত্ব (যেমন নক্ষত্রদের দূরত্ব) মাপতে কোন এককটি সুবিধাজনক?",
+      "a": "আলোকবর্ষ",
+      "w": [
+        "অ্যাংস্ট্রম",
+        "মিলিমিটার",
+        "সেন্টিমিটার"
+      ],
+      "e": "নক্ষত্রদের দূরত্ব এত বড় যে মিটারে সংখ্যা অসুবিধাজনক হয়; তাই আলোকবর্ষ ব্যবহৃত হয়।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "scales",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পরমাণু-জগতের দৈর্ঘ্য মাপতে কোন এককটি সুবিধাজনক?",
+      "a": "অ্যাংস্ট্রম (Å)",
+      "w": [
+        "আলোকবর্ষ",
+        "কিলোমিটার",
+        "মিটার"
+      ],
+      "e": "পরমাণুর আকার প্রায় ০.৫ Å-এর মতো ছোট; এই মাপে অ্যাংস্ট্রমই সুবিধাজনক একক।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "scales",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নীচের কোন জোড়াটি সঠিকভাবে মেলানো?",
+      "a": "অ্যাংস্ট্রম — দৈর্ঘ্য",
+      "w": [
+        "আলোকবর্ষ — সময়",
+        "কিলোজুল — ক্ষমতা",
+        "হার্টজ — দৈর্ঘ্য"
+      ],
+      "e": "অ্যাংস্ট্রম দৈর্ঘ্যের একক। আলোকবর্ষও দৈর্ঘ্যের (সময় নয়), কিলোজুল শক্তির (ক্ষমতা নয়), হার্টজ কম্পাঙ্কের।",
+      "claims": [
+        "c32",
+        "c33",
+        "c24",
+        "c28"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "sigfig_dimensions",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তাৎপর্যপূর্ণ অঙ্ক (significant figures) বলতে কী বোঝায়?",
+      "a": "নির্ভরযোগ্য অঙ্কগুলি ও প্রথম অনিশ্চিত অঙ্ক",
+      "w": [
+        "কেবল অশূন্য অঙ্কগুলি",
+        "দশমিকের পরের অঙ্কগুলি",
+        "সংখ্যাটির মোট অঙ্ক"
+      ],
+      "e": "পরিমাপের ফলে নির্ভরযোগ্যভাবে জানা অঙ্কগুলির সঙ্গে প্রথম অনিশ্চিত অঙ্কটিই তাৎপর্যপূর্ণ অঙ্ক।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "sigfig_dimensions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২.৩০৮ সেমি দৈর্ঘ্যে তাৎপর্যপূর্ণ অঙ্কের সংখ্যা কত?",
+      "a": "৪টি",
+      "w": [
+        "২টি",
+        "৩টি",
+        "৫টি"
+      ],
+      "e": "২, ৩, ০, ৮ — চারটিই তাৎপর্যপূর্ণ; সব অশূন্য অঙ্ক তাৎপর্যপূর্ণ এবং মাঝের শূন্যও তাৎপর্যপূর্ণ।",
+      "claims": [
+        "c36",
+        "c35"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "sigfig_dimensions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একটি পরিমাপকে সেন্টিমিটার থেকে মিটারে বদলালে তাৎপর্যপূর্ণ অঙ্কের সংখ্যা—",
+      "a": "একই থাকে",
+      "w": [
+        "বেড়ে যায়",
+        "কমে যায়",
+        "শূন্য হয়ে যায়"
+      ],
+      "e": "একক বদলালে তাৎপর্যপূর্ণ অঙ্কের সংখ্যা বদলায় না — ২.৩০৮ সেমি আর ০.০২৩০৮ মিটার দুটোতেই ৪টি।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "sigfig_dimensions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বলের মাত্রা (dimension) কোনটি?",
+      "a": "[M L T⁻²]",
+      "w": [
+        "[M L T⁻¹]",
+        "[L T⁻²]",
+        "[M L² T⁻²]"
+      ],
+      "e": "বল = ভর × ত্বরণ = [M] × [L T⁻²] = [M L T⁻²]। [M L² T⁻²] হল শক্তির মাত্রা।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "sigfig_dimensions",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন দুটি রাশিকে সরাসরি যোগ বা বিয়োগ করা যায়?",
+      "a": "একই মাত্রার দুটি রাশিকে",
+      "w": [
+        "যেকোনো দুটি রাশিকে",
+        "শুধু মৌলিক রাশিদের",
+        "শুধু লব্ধ রাশিদের"
+      ],
+      "e": "সমমাত্রিকতার নীতি: যোগ-বিয়োগ কেবল একই মাত্রার রাশির মধ্যেই সম্ভব — বেগের সঙ্গে বল যোগ করা যায় না।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "sigfig_dimensions",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মাত্রা-বিশ্লেষণ সম্পর্কে কোন বক্তব্যটি সঠিক?",
+      "a": "মাত্রাগতভাবে ভুল সমীকরণ অবশ্যই ভুল, কিন্তু মাত্রাগতভাবে সঠিক সমীকরণ প্রকৃতপক্ষে সঠিক নাও হতে পারে",
+      "w": [
+        "মাত্রাগতভাবে সঠিক সমীকরণ সবসময় প্রকৃতপক্ষেও সঠিক",
+        "মাত্রাগতভাবে ভুল সমীকরণও সঠিক হতে পারে",
+        "মাত্রা দিয়ে মাত্রাহীন ধ্রুবকের মানও পাওয়া যায়"
+      ],
+      "e": "মাত্রা-যাচাই একটি প্রয়োজনীয় শর্ত, যথেষ্ট শর্ত নয়: পাস করলেই সমীকরণ সঠিক প্রমাণিত হয় না, কিন্তু ফেল করলেই ভুল প্রমাণিত হয়।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "sigfig_dimensions",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): বেগের সঙ্গে বল যোগ করা যায় না।\nকারণ (R): যোগ বা বিয়োগ কেবল একই মাত্রার রাশিদের মধ্যেই করা যায়।",
+      "a": "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "বেগের মাত্রা [L T⁻¹] আর বলের [M L T⁻²] — মাত্রা আলাদা বলে যোগ অসম্ভব; R-ই তার কারণ।",
+      "claims": [
+        "c40",
+        "c39"
+      ]
+    }
+  ]
+}

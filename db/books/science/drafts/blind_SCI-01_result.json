@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "রাশিটিকে একটি নির্দিষ্ট প্রমাণ এককের সঙ্গে তুলনা করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Measurement of any physical quantity involves comparison with a certain basic, arbitrarily chosen, internationally accepted reference standard called unit.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q02",
+      "answer": "একটি সংখ্যার সঙ্গে একটি একক দিয়ে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The result of a measurement of a physical quantity is expressed by a number (or numerical measure) accompanied by a unit.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q03",
+      "answer": "মৌলিক রাশিগুলির একককে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The units for the fundamental or base quantities are called fundamental or base units. The units of all other physical quantities can be expressed as combinations of the base units. Such units obtained for the derived quantities are called derived units.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q04",
+      "answer": "মিটার প্রতি সেকেন্ড (বেগের একক)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The units for the fundamental or base quantities are called fundamental or base units. The units of all other physical quantities can be expressed as combinations of the base units. Such units obtained for the derived quantities are called derived units.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": "Velocity unit m/s is a combination of base units (see also c21: speed v is m s-1); kg, m, s are base units."
+    },
+    {
+      "id": "q05",
+      "answer": "আয়তন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Certain physical quantities have been chosen as fundamental or base quantities (such as length, mass, time, electric current, thermodynamic temperature, amount of substance, and luminous intensity).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Summary, p. 10",
+      "notes": "Volume is not among the listed base quantities; it is derived from length."
+    },
+    {
+      "id": "q06",
+      "answer": "কেবল ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The units for the fundamental or base quantities are called fundamental or base units. The units of all other physical quantities can be expressed as combinations of the base units. Such units obtained for the derived quantities are called derived units.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": "Statement 1 is false per c02 (number must be accompanied by a unit); statement 2 is true per c03."
+    },
+    {
+      "id": "q07",
+      "answer": "A-২, B-১, C-৪, D-৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Certain physical quantities have been chosen as fundamental or base quantities (such as length, mass, time, electric current, thermodynamic temperature, amount of substance, and luminous intensity).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Summary, p. 10",
+      "notes": "Length and time are base quantities (c04); velocity and volume are derived combinations (c03). List II has two identical 'derived' labels (1 and 3), but only this option classifies all four correctly."
+    },
+    {
+      "id": "q08",
+      "answer": "সেন্টিমিটার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In CGS system they were centimetre, gram and second respectively.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q09",
+      "answer": "কিলোগ্রাম",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In MKS system they were metre, kilogram and second respectively.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q10",
+      "answer": "আন্তর্জাতিক ওজন ও পরিমাপ ব্যুরো (BIPM)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The SI, with standard scheme of symbols, units and abbreviations, developed by the Bureau International des poids et mesures (The International Bureau of Weights and Measures, BIPM) in 1971 were recently revised by the General Conference on Weights and Measures in November 2018.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q11",
+      "answer": "২০১৮ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The SI, with standard scheme of symbols, units and abbreviations, developed by the Bureau International des poids et mesures (The International Bureau of Weights and Measures, BIPM) in 1971 were recently revised by the General Conference on Weights and Measures in November 2018.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": "Revised by the General Conference on Weights and Measures in November 2018."
+    },
+    {
+      "id": "q12",
+      "answer": "SI পদ্ধতি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The system of units which is at present internationally accepted for measurement is the Système International d’ Unités (French for International System of Units), abbreviated as SI.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q13",
+      "answer": "কেবল ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In CGS system they were centimetre, gram and second respectively.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": "Statement 2 is false: in FPS the time unit is the second, not the minute (c06)."
+    },
+    {
+      "id": "q14",
+      "answer": "২ → ৩ → ১",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "The SI, with standard scheme of symbols, units and abbreviations, developed by the Bureau International des poids et mesures (The International Bureau of Weights and Measures, BIPM) in 1971 were recently revised by the General Conference on Weights and Measures in November 2018.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 2",
+      "notes": "CGS/FPS/MKS predate the SI scheme developed by BIPM in 1971 (c09), which was revised in 2018; the claims do not give an explicit date for the widespread use of the older systems, so the first step is inferred."
+    },
+    {
+      "id": "q15",
+      "answer": "কেলভিন (K)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The kelvin, symbol K, is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant k to be 1.380649×10–23 when expressed in the unit J K–1, which is equal to kg m2 s –2 k –1, where the kilogram, metre and second are defined in terms of h, c and ΔνCs.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Table 1.1, p. 3",
+      "notes": ""
+    },
+    {
+      "id": "q16",
+      "answer": "অ্যাম্পিয়ার (A)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The ampere is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge e to be 1.602176634×10–19 when expressed in the unit C, which is equal to A s, where the second is defined in terms of ΔνCs.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Table 1.1, p. 3",
+      "notes": ""
+    },
+    {
+      "id": "q17",
+      "answer": "ক্যান্ডেলা (cd)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The candela is the SI unit of luminous intensity in given direction.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Table 1.1, p. 3",
+      "notes": ""
+    },
+    {
+      "id": "q18",
+      "answer": "পদার্থের পরিমাণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The mole is the SI unit of amount of substance. One mole contains exactly 6.02214076×1023 elementary entities. This number is the fixed numerical value of the Avogadro constant, NA, when expressed in the unit mol–1 and is called the Avogadro number.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Table 1.1, p. 3",
+      "notes": ""
+    },
+    {
+      "id": "q19",
+      "answer": "রেডিয়ান (rad)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unit for plane angle is radian with the symbol rad and the unit for the solid angle is steradian with the symbol sr. Both these are dimensionless quantities.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 3",
+      "notes": "Degree is not the SI unit; steradian is for solid angle."
+    },
+    {
+      "id": "q20",
+      "answer": "প্ল্যাঙ্ক ধ্রুবক (h)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The kilogram is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant h to be 6.62607015×10–34 when expressed in the unit J s, which is equal to kg m2 s –1, where the metre and the second are defined in terms of c and ΔνCs.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Table 1.1, p. 3",
+      "notes": ""
+    },
+    {
+      "id": "q21",
+      "answer": "A-২, B-১, C-৪, D-৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The candela is the SI unit of luminous intensity in given direction.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Table 1.1, p. 3",
+      "notes": "Mapping verified across claims: metre/length (c13), ampere/current (c16), kelvin/temperature (c17), candela/luminous intensity (c19)."
+    },
+    {
+      "id": "q22",
+      "answer": "জুল (J)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Here the unit of work is newton metre (N m) or joule (J). Thus 1 J is the amount of work done on an object when a force of 1 N displaces it by 1 m along the line of action of the force.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 114",
+      "notes": ""
+    },
+    {
+      "id": "q23",
+      "answer": "ওয়াট (W)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unit of power is watt [in honour of James Watt (1736 – 1819)] having the symbol W. 1 watt is the power of an agent, which does work at the rate of 1 joule per second.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 122",
+      "notes": ""
+    },
+    {
+      "id": "q24",
+      "answer": "হার্টজ (Hz)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Its SI unit is hertz (symbol, Hz).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 130",
+      "notes": ""
+    },
+    {
+      "id": "q25",
+      "answer": "ডায়প্টার (D)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The SI unit of power of a lens is ‘dioptre’. It is denoted by the letter D. If f is expressed in metres, then, power is expressed in dioptres. Thus, 1 dioptre is the power of a lens whose focal length is 1 metre. 1D = 1m–1",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+      "page": "p. 168 (approx.)",
+      "notes": ""
+    },
+    {
+      "id": "q26",
+      "answer": "১০০০ জুল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Sometimes a larger unit of energy called kilo joule (kJ) is used. 1 kJ equals 1000 J.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 115",
+      "notes": ""
+    },
+    {
+      "id": "q27",
+      "answer": "প্রতি সেকেন্ডে ১ জুল হারে কাজ করা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unit of power is watt [in honour of James Watt (1736 – 1819)] having the symbol W. 1 watt is the power of an agent, which does work at the rate of 1 joule per second.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 122",
+      "notes": ""
+    },
+    {
+      "id": "q28",
+      "answer": "কেবল ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unit of energy is, therefore, the same as that of work, that is, joule (J). 1 J is the energy required to do 1 joule of work.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 115",
+      "notes": "Statement 2 is false: the SI unit of power is the watt (c25/c27), not the joule."
+    },
+    {
+      "id": "q29",
+      "answer": "মিটার (m)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Its SI unit is metre (m).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc111.pdf",
+      "page": "p. 129",
+      "notes": ""
+    },
+    {
+      "id": "q30",
+      "answer": "১০⁻¹⁰ মিটার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unit of length convenient on the atomic scale is known as an angstrom and is denoted by Å: 1 Å = 10–10 m.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Exercise 1.14, p. 12",
+      "notes": ""
+    },
+    {
+      "id": "q31",
+      "answer": "দূরত্ব (দৈর্ঘ্য)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the light year is 9.47 × 1015 m (three significant figures)",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 5",
+      "notes": "The light year is expressed in metres (c33), i.e. it is a unit of length/distance, not time."
+    },
+    {
+      "id": "q32",
+      "answer": "৯.৪৭ × ১০¹⁵ মিটার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the light year is 9.47 × 1015 m (three significant figures)",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 5",
+      "notes": ""
+    },
+    {
+      "id": "q33",
+      "answer": "আলোকবর্ষ",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "the light year is 9.47 × 1015 m (three significant figures)",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 5",
+      "notes": "Inferred from the claims: the light year is a very large length (9.47 x 10^15 m, c33), while the angstrom is the atomic-scale unit (c32) and cm/mm are small; the claims do not state the stellar-distance use explicitly."
+    },
+    {
+      "id": "q34",
+      "answer": "অ্যাংস্ট্রম (Å)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unit of length convenient on the atomic scale is known as an angstrom and is denoted by Å: 1 Å = 10–10 m.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Exercise 1.14, p. 12",
+      "notes": ""
+    },
+    {
+      "id": "q35",
+      "answer": "অ্যাংস্ট্রম — দৈর্ঘ্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unit of length convenient on the atomic scale is known as an angstrom and is denoted by Å: 1 Å = 10–10 m.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Exercise 1.14, p. 12",
+      "notes": "Other pairs are wrong per claims: kJ is energy (c24), Hz is frequency (c28), light year is length (c33)."
+    },
+    {
+      "id": "q36",
+      "answer": "নির্ভরযোগ্য অঙ্কগুলি ও প্রথম অনিশ্চিত অঙ্ক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Normally, the reported result of measurement is a number that includes all the digits in the number that are known reliably plus the first digit that is uncertain. The reliable digits plus the first uncertain digit are known as significant digits or significant figures.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 4",
+      "notes": ""
+    },
+    {
+      "id": "q37",
+      "answer": "৪টি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For example, the length 2.308 cm has four significant figures.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 4",
+      "notes": ""
+    },
+    {
+      "id": "q38",
+      "answer": "একই থাকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A choice of change of different units does not change the number of significant digits or figures in a measurement.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 4",
+      "notes": ""
+    },
+    {
+      "id": "q39",
+      "answer": "[M L T⁻²]",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Similarly, force, as the product of mass and acceleration, can be expressed as Force = mass × acceleration = mass × (length)/(time)2. The dimensions of force are [M] [L]/[T]2 = [M L T–2].",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 7",
+      "notes": ""
+    },
+    {
+      "id": "q40",
+      "answer": "একই মাত্রার দুটি রাশিকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "only those physical quantities can be added or subtracted which have the same dimensions",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 8",
+      "notes": ""
+    },
+    {
+      "id": "q41",
+      "answer": "মাত্রাগতভাবে ভুল সমীকরণ অবশ্যই ভুল, কিন্তু মাত্রাগতভাবে সঠিক সমীকরণ প্রকৃতপক্ষে সঠিক নাও হতে পারে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A dimensionally consistent equation need not be actually an exact (correct) equation, but a dimensionally wrong or inconsistent equation must be wrong.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "Summary, p. 10",
+      "notes": ""
+    },
+    {
+      "id": "q42",
+      "answer": "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "only those physical quantities can be added or subtracted which have the same dimensions",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph101.pdf",
+      "page": "p. 8",
+      "notes": "Force [M L T-2] (c39) and velocity (m/s, c21) have different dimensions, so they cannot be added; R states exactly the c40 rule."
+    }
+  ]
+}

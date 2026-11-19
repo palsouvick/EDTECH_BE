@@ -1,0 +1,1393 @@
+{
+  "book": "science",
+  "code": "SCI-07",
+  "number": 7,
+  "part": "chemistry",
+  "title": "অ্যাসিড, ক্ষার ও লবণ",
+  "subtitle": "আরহেনিয়াস থেকে লুইস: সংজ্ঞা, pH স্কেল, বাফার ও লবণের আর্দ্রবিশ্লেষণ",
+  "subtopics": [
+    "chemistry_acids_bases"
+  ],
+  "related_facts": [
+    "GK-SCI-006",
+    "GK-SCI-007"
+  ],
+  "prerequisites": [
+    "SCI-06"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 30,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (38 SURE, 1 LIKELY, 3 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 4 of 8 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-07.json and drafts/SCI-07_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-07_REPORT.md.",
+    "checked_claims": 36,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "টক দই থেকে পাকস্থলীর রস, বৃষ্টির জল থেকে রক্ত — অ্যাসিড ও ক্ষারের রসায়ন আমাদের চারপাশে ছড়িয়ে আছে। এই অধ্যায়ে আমরা শিখব অ্যাসিড-ক্ষারের তিনটি ধারণা (আরহেনিয়াস, ব্রনস্টেড-লাউরি ও লুইস), শক্তিশালী ও দুর্বল তড়িৎবিশ্লেষ্যের পার্থক্য, pH স্কেলের সঠিক অর্থ, বাফার দ্রবণ কেন দেহের pH স্থির রাখে, এবং কোন লবণের দ্রবণ আম্লিক, কোনটি ক্ষারীয় আর কোনটি প্রশম হয়। পাশাপাশি দেখব সালফার ডাই-অক্সাইড কীভাবে অম্লবৃষ্টির সঙ্গে যুক্ত।",
+    "you_will_learn": [
+      "আরহেনিয়াসের ধারণা: অ্যাসিড জলে H+ আয়ন ও ক্ষার OH− আয়ন দেয়; HCl ও NaOH-এর উদাহরণ",
+      "ব্রনস্টেড-লাউরি ধারণা: অ্যাসিড প্রোটন-দাতা, ক্ষার প্রোটন-গ্রহীতা; অনুবন্ধী (conjugate) জোড় চেনা",
+      "লুইস ধারণা: অ্যাসিড ইলেকট্রন-জোড় গ্রহীতা, ক্ষার ইলেকট্রন-জোড় দাতা",
+      "শক্তিশালী বনাম দুর্বল তড়িৎবিশ্লেষ্য: সম্পূর্ণ বনাম আংশিক আয়নন (HCl বনাম CH3COOH)",
+      "pH-এর সংজ্ঞা, সোরেনসেনের স্কেল, প্রশম দ্রবণে pH ৭ এবং pH + pOH = ১৪",
+      "বাফার দ্রবণ কী, তার দুই প্রকার, এবং রক্তের pH প্রায় ৭.৪ থাকার কারণ",
+      "লবণের চার প্রকার ও আর্দ্রবিশ্লেষণে তাদের দ্রবণের প্রকৃতি (NaCl প্রশম, NH4Cl আম্লিক, CH3COONa ক্ষারীয়)",
+      "অম্লবৃষ্টিতে SO2-এর ভূমিকা এবং NH3 কীভাবে অম্লতা প্রশমিত করে"
+    ]
+  },
+  "sections": [
+    {
+      "id": "concepts",
+      "heading": "অ্যাসিড-ক্ষারের তিন ধারণা: আরহেনিয়াস, ব্রনস্টেড-লাউরি, লুইস",
+      "quick": "আরহেনিয়াসের মতে অ্যাসিড জলে H+ আয়ন ও ক্ষার OH− আয়ন দেয়। ব্রনস্টেড-লাউরির মতে অ্যাসিড প্রোটন-দাতা ও ক্ষার প্রোটন-গ্রহীতা। লুইসের মতে অ্যাসিড ইলেকট্রন-জোড় গ্রহীতা ও ক্ষার ইলেকট্রন-জোড় দাতা — এটিই সবচেয়ে বিস্তৃত ধারণা।",
+      "standard": "অ্যাসিড ও ক্ষার কাকে বলে — এই প্রশ্নের একটিমাত্র উত্তর নেই। NIOS-এর পাঠে বলা হয়েছে, অ্যাসিড ও ক্ষারের কোনো একক সাধারণ সংজ্ঞা নেই; বরং তিনটি সুপরিচিত ধারণা আছে — আরহেনিয়াস, ব্রনস্টেড-লাউরি এবং লুইসের।\n\nপ্রথম ধারণাটি দেন সুইডিশ বিজ্ঞানী স্ভান্তে আরহেনিয়াস (১৮৮৪)। তাঁর মতে, অ্যাসিড হল এমন পদার্থ যা জলীয় দ্রবণে বিয়োজিত হয়ে হাইড্রোজেন আয়ন (H+) উৎপন্ন করতে পারে। যেমন হাইড্রোক্লোরিক অ্যাসিড: HCl(aq) → H+(aq) + Cl−(aq)। এই H+ আয়ন জলের অণুর সঙ্গে যুক্ত হয়ে হাইড্রোনিয়াম আয়ন (H3O+) গঠন করে। অন্যদিকে ক্ষার হল এমন পদার্থ যা জলীয় দ্রবণে বিয়োজিত হয়ে হাইড্রক্সিল আয়ন (OH−) দেয় — যেমন সোডিয়াম হাইড্রক্সাইড: NaOH(aq) → Na+(aq) + OH−(aq)।\n\nকিন্তু আরহেনিয়াস ধারণার সীমাবদ্ধতা আছে: এটি শুধু জলীয় দ্রবণের ক্ষেত্রে প্রযোজ্য, এবং যেসব পদার্থে হাইড্রোজেন নেই (যেমন AlCl3) তাদের আম্লিক আচরণ বা NH3-এর ক্ষারীয় আচরণ এটি ব্যাখ্যা করতে পারে না।\n\n১৯২৩ সালে ব্রনস্টেড ও লাউরি স্বতন্ত্রভাবে দেখান যে অ্যাসিড-ক্ষার বিক্রিয়াকে প্রোটন-স্থানান্তর হিসেবে দেখা যায়। এই ধারণায় অ্যাসিড হল প্রোটন (H+) দাতা এবং ক্ষার হল প্রোটন গ্রহীতা। যেমন NH3 ও HF-এর বিক্রিয়ায় HF প্রোটন দেয় (অ্যাসিড) আর NH3 প্রোটন নেয় (ক্ষার)। এখানে দ্রাবকের কোনো ভূমিকা দরকার হয় না — এটাই আরহেনিয়াসের প্রথম সীমাবদ্ধতা দূর করে। যে দুটি প্রজাতি একটি প্রোটনের লাভ-ক্ষতিতে পৃথক, তাদের বলে অনুবন্ধী অ্যাসিড-ক্ষার জোড় (conjugate acid-base pair) — যেমন NH4+ / NH3।\n\nএকই ১৯২৩ সালেই G. N. লুইস আরও বিস্তৃত ধারণা দেন: অ্যাসিড হল এমন পরমাণু, অণু বা আয়ন যা অন্য কোনো পরমাণু, অণু বা আয়ন থেকে ইলেকট্রন-জোড় গ্রহণ করতে পারে; আর লুইস ক্ষার সেই ইলেকট্রন-জোড় দান করে। এই সংজ্ঞায় এমন পদার্থও অ্যাসিড-ক্ষারের আওতায় আসে যাদের প্রোটন-ধারণা ধরতে পারে না।",
+      "deep": "তিন ধারণার সম্পর্ক মনে রাখো: আরহেনিয়াস ⊂ ব্রনস্টেড-লাউরি ⊂ লুইস — প্রতিটি পরেরটি আগেরটির চেয়ে বিস্তৃত। পরীক্ষায় প্রায়ই জিজ্ঞাসা করা হয় কোন ধারণায় দ্রাবকের ভূমিকা নেই (ব্রনস্টেড-লাউরি) বা কোনটি সবচেয়ে বিস্তৃত (লুইস)। জলের সঙ্গে NH3-এর বিক্রিয়ায় সামনের দিকে H2O অ্যাসিড (প্রোটন দেয়) আর NH3 ক্ষার; বিপরীত দিকে NH4+ অ্যাসিড আর OH− ক্ষার — একই বিক্রিয়ায় দুটি অনুবন্ধী জোড় থাকে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "তিন ধারণা গুলিয়ো না",
+          "body": "আরহেনিয়াস = আয়ন (H+ / OH−) ও জলীয় দ্রবণ; ব্রনস্টেড-লাউরি = প্রোটন দান-গ্রহণ; লুইস = ইলেকট্রন-জোড় গ্রহণ-দান। প্রশ্নে 'ইলেকট্রন-জোড়' শব্দ দেখলেই উত্তর লুইস।",
+          "claims": [
+            "c03",
+            "c05",
+            "c07"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "reactions",
+      "heading": "শক্তি ও বিক্রিয়া: তড়িৎবিশ্লেষ্য, ভিনিগার-বেকিং সোডা ও চুনের জল পরীক্ষা",
+      "quick": "জলে প্রায় সম্পূর্ণ আয়নিত হলে পদার্থ শক্তিশালী তড়িৎবিশ্লেষ্য (যেমন HCl, NaCl), আংশিক আয়নিত হলে দুর্বল (যেমন CH3COOH)। ভিনিগার (অ্যাসেটিক অ্যাসিড) ও বেকিং সোডা মিশলে CO2 গ্যাস বের হয়, যা চুনের জলকে ঘোলা করে — এটিই CO2-এর প্রমাণ পরীক্ষা।",
+      "standard": "তড়িৎবিশ্লেষ্য হল এমন যৌগ যা জলে দ্রবীভূত হলে আয়ন উৎপন্ন করে; এই আয়নগুলি চলাচল করে তড়িৎ পরিবহণ করতে পারে, তাই এদের দ্রবণ তড়িতের সুপরিবাহী। অনেক তড়িৎবিশ্লেষ্য জলে প্রায় সম্পূর্ণরূপে আয়নে রূপান্তরিত হয় — এরা শক্তিশালী তড়িৎবিশ্লেষ্য; NaCl, KCl, KNO3, NH4Cl ও HCl এর উদাহরণ, এবং এদের আয়নন একমুখী তীরচিহ্নে দেখানো হয়। অন্যদিকে যারা আংশিকভাবে মাত্র আয়নিত হয়, তারা দুর্বল তড়িৎবিশ্লেষ্য — যেমন CH3COOH (অ্যাসেটিক অ্যাসিড) ও NH4OH; এদের দ্রবণে অনায়নিত অণু ও আয়নের মধ্যে একটি গতিশীল সাম্য থাকে, যাকে আয়নিক সাম্য বলে এবং উভমুখী তীরচিহ্নে দেখানো হয়।\n\nএকটি পরিচিত পরীক্ষা: ভিনিগারে (অ্যাসেটিক অ্যাসিড) এক চিমটি বেকিং সোডা (সোডিয়াম হাইড্রোজেনকার্বনেট) দিলে হিসহিস শব্দ হয় ও গ্যাসের বুদবুদ বের হয়। বিক্রিয়াটি হল: ভিনিগার (অ্যাসেটিক অ্যাসিড) + বেকিং সোডা → কার্বন ডাই-অক্সাইড + অন্যান্য পদার্থ। এই গ্যাস সদ্য তৈরি চুনের জলের মধ্য দিয়ে পাঠালে চুনের জল ঘোলা হয়ে যায়, কারণ CO2 + চুনের জল [Ca(OH)2] → ক্যালসিয়াম কার্বনেট (CaCO3) + জল। চুনের জল ঘোলা হওয়াই কার্বন ডাই-অক্সাইডের প্রমাণ (standard) পরীক্ষা।\n\nআরেকটি উদাহরণ: ম্যাগনেসিয়াম ফিতা পোড়ালে যে ছাই (ম্যাগনেসিয়াম অক্সাইড, MgO) পাওয়া যায়, তা জলে মেশালে নতুন পদার্থ ম্যাগনেসিয়াম হাইড্রক্সাইড [Mg(OH)2] তৈরি হয় — যা একটি ক্ষার। অর্থাৎ ধাতব অক্সাইডের জলীয় দ্রবণ ক্ষারীয় হতে পারে।\n\nবায়ুমণ্ডলের প্রেক্ষাপটেও একই নীতি কাজ করে: HCl, HNO3-এর মতো শক্তিশালী অ্যাসিড জলে দ্রবীভূত হলে সম্পূর্ণ বিয়োজিত হয়ে আয়নে পরিণত হয়, তাই অল্প পরিমাণেও এরা জলীয় মাধ্যমের অম্লতা অনেক বাড়িয়ে দিতে পারে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "তীরচিহ্নই সূত্র",
+          "body": "শক্তিশালী তড়িৎবিশ্লেষ্যের আয়নন একমুখী তীর (→), দুর্বলের ক্ষেত্রে উভমুখী তীর (⇌) — কারণ দুর্বলের ক্ষেত্রে অণু ও আয়নের মধ্যে সাম্য থাকে।",
+          "claims": [
+            "c08",
+            "c09"
+          ]
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "id": "ph_scale",
+      "heading": "pH স্কেল: সংজ্ঞা, প্রশম বিন্দু ও দৈনন্দিন সীমা",
+      "quick": "pH হল হাইড্রোজেন আয়নের মোলার ঘনত্বের ঋণাত্মক লগারিদম। প্রশম দ্রবণের pH ৭; আম্লিক দ্রবণে pH ৭-এর কম, ক্ষারীয় দ্রবণে ৭-এর বেশি। সাধারণত pH-এর পরিসর ০ থেকে ১৪, এবং pH + pOH = ১৪।",
+      "standard": "জলীয় দ্রবণে H3O+ ও OH− আয়নের ঘনত্ব ১০ থেকে ১০^−১৪ পর্যন্ত বদলাতে পারে — এত বড় পরিসরের সংখ্যা লিখে প্রকাশ করা অসুবিধাজনক। তাই ১৯০৯ সালে ডেনমার্কের উদ্ভিদবিদ S. P. L. সোরেনসেন H+ আয়নের ঘনত্ব প্রকাশের জন্য একটি লগারিদমিক স্কেল প্রস্তাব করেন, যার নাম pH স্কেল। সংজ্ঞা অনুযায়ী pH হল হাইড্রোজেন আয়নের মোলার ঘনত্বের ঋণাত্মক লগারিদম: pH = −log[H3O+]।\n\nপ্রশম দ্রবণে (বা বিশুদ্ধ জলে) [H3O+] = [OH−] = ১×১০^−৭, তাই pH = ৭.০। আম্লিক দ্রবণে [H3O+] বেশি, তাই pH ৭-এর কম; ক্ষারীয় দ্রবণে [H3O+] কম, তাই pH ৭-এর বেশি। মনে রাখো: খুব শক্তিশালী আম্লিক দ্রবণের pH শূন্যের কম (ঋণাত্মক) এবং খুব শক্তিশালী ক্ষারীয় দ্রবণের pH ১৪-এর বেশিও হতে পারে, তবে সাধারণত পর্যবেক্ষিত পরিসর ০ থেকে ১৪।\n\nএকটি কার্যকর সম্পর্ক: pH + pOH = ১৪। তাই কোনো দ্রবণের pH জানা থাকলে pOH বের করা যায়, আর উল্টোটাও। হিসাবের উদাহরণ: ০.০১ M HCl সম্পূর্ণ আয়নিত হয়, তাই [H3O+] = ০.০১ = ১০^−২ এবং pH = ২.০। একইভাবে ০.০১০ M NaOH দ্রবণের pH হয় ১২। বৃষ্টির জলের নমুনার pH ৫ হলে তার হাইড্রোনিয়াম আয়নের ঘনত্ব হয় ১০^−৫ mol dm^−৩।\n\nদৈনন্দিন জীবনেও pH গুরুত্বপূর্ণ: আমাদের রক্তের pH ৭.৪-এর খুব কাছাকাছি এবং লালার pH প্রায় ৬.৮ — দেহ এই মানগুলি স্থির রাখে বাফারের সাহায্যে (পরের অংশে দেখো)।",
+      "deep": "লগারিদমিক স্কেল বলে pH এক একক বদলালে H+ ঘনত্ব দশ গুণ বদলায়। দুর্বল অ্যাসিডের ক্ষেত্রে ঘনত্ব সরাসরি pH দেয় না — যেমন ০.১ M অ্যাসিটিক অ্যাসিডের আয়নন মাত্রা α = ০.০১৩৪, তাই [H3O+] = ০.১ × ০.০১৩৪ এবং pH = ২.৮৭ — শক্তিশালী অ্যাসিডের একই ঘনত্বের (pH ১) তুলনায় অনেক বেশি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "pH ৭ মানেই সবসময় প্রশম?",
+          "body": "প্রশম দ্রবণে [H3O+] = [OH−] বলেই pH ৭ হয়। pH < ৭ হলে আম্লিক, pH > ৭ হলে ক্ষারীয় — এই তিনটি সম্পর্ক পরীক্ষায় সরাসরি আসে (যেমন WBCS ২০১৯-এ pH < ৭ বাছাইয়ের প্রশ্ন)।",
+          "claims": [
+            "c17"
+          ]
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21"
+      ]
+    },
+    {
+      "id": "buffers",
+      "heading": "বাফার দ্রবণ ও সমআয়ন প্রভাব",
+      "quick": "বাফার দ্রবণ অল্প পরিমাণ অ্যাসিড বা ক্ষার যোগ করলেও pH-এর পরিবর্তন রোধ করে। দুই প্রকার: দুর্বল অ্যাসিড + তার লবণ (আম্লিক বাফার) এবং দুর্বল ক্ষার + তার লবণ (ক্ষারীয় বাফার)। সমআয়ন যোগ করলে দুর্বল অ্যাসিড/ক্ষারের বিয়োজন কমে যায়।",
+      "standard": "দুর্বল অ্যাসিডের দ্রবণে তারই একটি লবণ (সমআয়নযুক্ত) মেশালে লে শাতেলিয়ের নীতি অনুযায়ী সাম্য বাম দিকে সরে যায় — অর্থাৎ সমআয়নের উপস্থিতি দুর্বল অ্যাসিড বা ক্ষারের বিয়োজন দমন করে। এই ঘটনাই সমআয়ন প্রভাব। যেমন অ্যাসেটিক অ্যাসিডের সঙ্গে সোডিয়াম অ্যাসিটেট থাকলে অ্যাসিটেট আয়ন (সমআয়ন) অ্যাসিডের আয়নন কমিয়ে দেয়।\n\nএই ধরনের মিশ্রণই বাফার দ্রবণ: বাফার হল এমন দ্রবণ যা অল্প পরিমাণ অ্যাসিড বা ক্ষার যোগ করলেও pH-এর পরিবর্তন রোধ করে। গবেষণাগার, শিল্পপ্রক্রিয়া এবং উদ্ভিদ ও প্রাণীর দেহে প্রায়ই pH প্রায় স্থির রাখা প্রয়োজন হয়। আমাদের রক্তে হিমোগ্লোবিনের অক্সিজেন বহন ক্ষমতা এবং কোষে উৎসেচকের কাজ দেহতরলের pH-এর ওপর প্রবলভাবে নির্ভরশীল; রক্তের pH ৭.৪-এর খুব কাছাকাছি থাকে, আর বাফারই দেহকে pH-এর তীব্র পরিবর্তন থেকে রক্ষা করে।\n\nবাফার দুই প্রকারের হয়: (১) দুর্বল অ্যাসিড ও সেই অ্যাসিডের দ্রবণীয় আয়নিক লবণ — যেমন অ্যাসেটিক অ্যাসিড + সোডিয়াম অ্যাসিটেট; (২) দুর্বল ক্ষার ও সেই ক্ষারের দ্রবণীয় আয়নিক লবণ — যেমন অ্যামোনিয়াম হাইড্রক্সাইড + অ্যামোনিয়াম ক্লোরাইড। pH ৭-এর কম বাফারকে আম্লিক বাফার (যেমন অ্যাসেটিক অ্যাসিড–সোডিয়াম অ্যাসিটেট) এবং pH ৭-এর বেশি বাফারকে ক্ষারীয় বাফার (যেমন NH4OH–NH4Cl) বলে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "বাফার জোড় মনে রাখো",
+          "body": "আম্লিক বাফার: CH3COOH + CH3COONa। ক্ষারীয় বাফার: NH4OH + NH4Cl। দুটোতেই 'দুর্বল + তার লবণ' সূত্রটি মিলিয়ে দেখো।",
+          "claims": [
+            "c24",
+            "c25"
+          ]
+        }
+      ],
+      "claims": [
+        "c22",
+        "c23",
+        "c24",
+        "c25"
+      ]
+    },
+    {
+      "id": "salt_hydrolysis",
+      "heading": "লবণ ও আর্দ্রবিশ্লেষণ: কোন লবণের দ্রবণ কেমন হবে",
+      "quick": "কিছু লবণের জলীয় দ্রবণ আম্লিক বা ক্ষারীয় আচরণ করে — কারণ ক্যাটায়ন বা অ্যানায়ন (বা দুটোই) জলের সঙ্গে বিক্রিয়া করে (আর্দ্রবিশ্লেষণ)। শক্তিশালী অ্যাসিড + শক্তিশালী ক্ষারের লবণ (NaCl) প্রশম; শক্তিশালী অ্যাসিড + দুর্বল ক্ষারের লবণ (NH4Cl) আম্লিক; দুর্বল অ্যাসিড + শক্তিশালী ক্ষারের লবণ (CH3COONa) ক্ষারীয়।",
+      "standard": "সব লবণের দ্রবণ প্রশম হয় না। কিছু লবণের জলীয় দ্রবণ অ্যাসিড বা ক্ষারের মতো আচরণ করে, কারণ তাদের ক্যাটায়ন বা অ্যানায়ন বা দুটোই আর্দ্রবিশ্লেষিত হয় — আর্দ্রবিশ্লেষণ মানে জলের সঙ্গে বিক্রিয়া। এই আচরণ অনুযায়ী লবণ চার প্রকারের: (১) শক্তিশালী অ্যাসিড + শক্তিশালী ক্ষার, যেমন HCl + NaOH থেকে NaCl; (২) শক্তিশালী অ্যাসিড + দুর্বল ক্ষার, যেমন HCl + NH4OH থেকে NH4Cl; (৩) দুর্বল অ্যাসিড + শক্তিশালী ক্ষার, যেমন CH3COOH + NaOH থেকে CH3COONa; (৪) দুর্বল অ্যাসিড + দুর্বল ক্ষার, যেমন CH3COOH + NH4OH থেকে CH3COONH4।\n\nপ্রথম প্রকারে শক্তিশালী ক্ষারের ক্যাটায়ন ও শক্তিশালী অ্যাসিডের অ্যানায়ন — কোনোটিই আর্দ্রবিশ্লেষিত হয় না, তাই এই লবণগুলি কোনো অ্যাসিড-ক্ষার আচরণ দেখায় না এবং প্রশম থাকে।\n\nদ্বিতীয় প্রকারে (NH4Cl) অ্যানায়ন আর্দ্রবিশ্লেষিত হয় না, কিন্তু ক্যাটায়ন NH4+ আর্দ্রবিশ্লেষিত হয়ে H+ আয়ন উৎপন্ন করে — যেহেতু এটি H+ আয়ন তৈরি করে, দ্রবণটি আম্লিক প্রকৃতির হয়।\n\nতৃতীয় প্রকারে (CH3COONa) ক্যাটায়ন আর্দ্রবিশ্লেষিত হয় না, কিন্তু অ্যানায়ন CH3COO− আর্দ্রবিশ্লেষিত হয়ে OH− আয়ন তৈরি করে — তাই দ্রবণটি ক্ষারীয় হয়।\n\nচতুর্থ প্রকারে ক্যাটায়ন ও অ্যানায়ন দুটোই আর্দ্রবিশ্লেষিত হয়; দ্রবণ আম্লিক, ক্ষারীয় না প্রশম হবে তা নির্ভর করে দুর্বল অ্যাসিড ও দুর্বল ক্ষারের আপেক্ষিক শক্তির ওপর।\n\nলবণের আরেকটি দিক: আমাদের হাড় ও দাঁত মূলত ক্যালসিয়াম ফসফেট, Ca3(PO4)2 দিয়ে তৈরি — এটি একটি স্বল্পদ্রাব্য লবণ, যার দ্রাব্যতা-সাম্যও এই অধ্যায়ের আলোচ্য।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "কে আর্দ্রবিশ্লেষিত হয়?",
+          "body": "নিয়মটি সহজ: দুর্বল অংশের আয়নটিই আর্দ্রবিশ্লেষিত হয়। NH4Cl-এ দুর্বল ক্ষার NH4OH-এর ক্যাটায়ন NH4+ → দ্রবণ আম্লিক। CH3COONa-তে দুর্বল অ্যাসিডের অ্যানায়ন CH3COO− → দ্রবণ ক্ষারীয়।",
+          "claims": [
+            "c28",
+            "c29"
+          ]
+        }
+      ],
+      "claims": [
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31"
+      ]
+    },
+    {
+      "id": "acid_rain",
+      "heading": "পরিবেশে অ্যাসিড-ক্ষার: অম্লবৃষ্টি ও বায়ুমণ্ডলীয় গ্যাস",
+      "quick": "সালফার ডাই-অক্সাইড (SO2) হল অম্লবৃষ্টির জন্য দায়ী প্রধান বায়ুমণ্ডলীয় গ্যাস; এটি মেঘের জলে দ্রবীভূত হয়ে জারিত হলে বৃষ্টির জলের অম্লতা বাড়ে। অন্যদিকে অ্যামোনিয়া (NH3) হাইড্রোজেন আয়নের সঙ্গে বিক্রিয়া করে অম্লতা প্রশমিত করে।",
+      "standard": "পরিবেশের রসায়নে pH-এর ধারণা সরাসরি কাজ করে: pH দিয়ে মেঘের জল, বৃষ্টির জল, কুয়াশার জল ও সমুদ্রের জলের অম্লতা প্রকাশ করা হয়, এবং পরিবেশে পাওয়া দ্রবণগুলির pH সাধারণত ৩ থেকে ১০-এর মধ্যে থাকে।\n\nঅম্লবৃষ্টির কেন্দ্রে আছে সালফার ডাই-অক্সাইড: SO2 হল অম্লবৃষ্টির জন্য দায়ী প্রধান (key) বায়ুমণ্ডলীয় গ্যাস। এটি মেঘের জলে বা পড়ন্ত বৃষ্টির ফোঁটায় দ্রবীভূত হয় এবং এর জারণ বৃষ্টির জলের অম্লতা বাড়িয়ে দেয়। দ্রবীভূত SO2 বিয়োজিত হয়ে বাইসালফাইট (HSO3−) ও সালফাইট (SO3^2−) আয়ন তৈরি করে।\n\nবিপরীত ভূমিকায় আছে অ্যামোনিয়া: NH3 জলে দ্রবীভূত হয়ে NH4+ ও OH− আয়ন তৈরি করে, ফলে দ্রবণ ক্ষারীয় হয় ও pH বাড়ে; অ্যামোনিয়া হাইড্রোজেন আয়নের সঙ্গে বিক্রিয়া করে অম্লতা প্রশমিত করে। ভারতীয় পরিস্থিতিতে বৃষ্টির জলের pH বেশি — ৬ থেকে ৮.৫-এর মধ্যে — থাকে বলে সেখানে SO2-এর দ্রবীভূত হওয়া খুব বেশি হয়; pH বাড়লে SO2-এর দ্রাব্যতা বাড়ে, এই সম্পর্কটিও পাঠে দেখানো হয়েছে।\n\nএ ছাড়া বায়ুমণ্ডলে HCl, HNO3-এর মতো শক্তিশালী অ্যাসিডের অল্প পরিমাণ থাকে; জলে দ্রবীভূত হলে এরা সম্পূর্ণ বিয়োজিত হয় বলে অল্প ঘনত্বেও জলীয় বায়ুমণ্ডলীয় মাধ্যমে তুলনামূলকভাবে বেশি দ্রাব্যতা ও অম্লতা তৈরি করে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "অম্লবৃষ্টি প্রশ্নের ধাঁচ",
+          "body": "ক্লার্কশিপ ২০২৩-এ এসেছিল: অম্লবৃষ্টি হয় বায়ুমণ্ডলে কোন গ্যাসের ঘনত্ব বাড়লে। এই অধ্যায়ের উৎস অনুযায়ী SO2-ই প্রধান গ্যাস — তবে মনে রাখো, প্রশ্নে NOx-ও বিকল্পে থাকতে পারে; উৎস-ভিত্তিক উত্তর এখানে SO2।",
+          "claims": [
+            "c32"
+          ]
+        }
+      ],
+      "claims": [
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36"
+      ]
+    }
+  ],
+  "events": [],
+  "people": [
+    {
+      "name": "স্ভান্তে আরহেনিয়াস (Svante Arrhenius)",
+      "when": "১৮৮৪",
+      "role": "বিজ্ঞানী",
+      "contribution": "অ্যাসিড-ক্ষারের সর্বাধিক ব্যবহৃত ধারণার প্রবর্তক: অ্যাসিড জলীয় দ্রবণে H+ আয়ন ও ক্ষার OH− আয়ন দেয়।",
+      "section": "concepts",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "name": "S. P. L. সোরেনসেন (S.P.L. Sorensen)",
+      "when": "১৯০৯",
+      "role": "ডেনমার্কের উদ্ভিদবিদ",
+      "contribution": "H+ আয়নের ঘনত্ব প্রকাশের জন্য লগারিদমিক pH স্কেল প্রস্তাব করেন।",
+      "section": "ph_scale",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "name": "ব্রনস্টেড ও লাউরি (Brønsted and Lowry)",
+      "when": "১৯২৩",
+      "role": "বিজ্ঞানীদ্বয়",
+      "contribution": "স্বতন্ত্রভাবে প্রোটন-স্থানান্তর ধারণা দেন: অ্যাসিড প্রোটন-দাতা, ক্ষার প্রোটন-গ্রহীতা।",
+      "section": "concepts",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "name": "G. N. লুইস (G.N. Lewis)",
+      "when": "১৯২৩",
+      "role": "বিজ্ঞানী",
+      "contribution": "ইলেকট্রন-জোড় ধারণা দেন: অ্যাসিড ইলেকট্রন-জোড় গ্রহীতা, ক্ষার ইলেকট্রন-জোড় দাতা।",
+      "section": "concepts",
+      "claims": [
+        "c07"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1884,
+      "when": "১৮৮৪",
+      "label": "আরহেনিয়াসের অ্যাসিড-ক্ষার ধারণা: অ্যাসিড H+ ও ক্ষার OH− আয়ন দেয়",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "sort_year": 1909,
+      "when": "১৯০৯",
+      "label": "সোরেনসেন pH স্কেল প্রস্তাব করেন",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "sort_year": 1923,
+      "when": "১৯২৩",
+      "label": "ব্রনস্টেড-লাউরির প্রোটন-স্থানান্তর ধারণা এবং লুইসের ইলেকট্রন-জোড় ধারণা",
+      "claims": [
+        "c05",
+        "c07"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "তড়িৎবিশ্লেষ্য (Electrolyte)",
+      "meaning": "যে যৌগ জলে দ্রবীভূত হলে আয়ন উৎপন্ন করে ও দ্রবণ তড়িৎ পরিবহণ করে।",
+      "section": "reactions"
+    },
+    {
+      "term": "আয়নিক সাম্য (Ionic equilibrium)",
+      "meaning": "দুর্বল তড়িৎবিশ্লেষ্যের দ্রবণে অনায়নিত অণু ও আয়নের মধ্যে স্থাপিত গতিশীল সাম্য।",
+      "section": "reactions"
+    },
+    {
+      "term": "হাইড্রোনিয়াম আয়ন (Hydronium ion)",
+      "meaning": "H+ আয়ন জলের অণুর সঙ্গে যুক্ত হয়ে গঠিত H3O+ আয়ন; অক্সোনিয়াম আয়ন নামেও পরিচিত।",
+      "section": "concepts"
+    },
+    {
+      "term": "অনুবন্ধী জোড় (Conjugate pair)",
+      "meaning": "একটি প্রোটনের লাভ-ক্ষতিতে পৃথক দুটি প্রজাতি, যেমন NH4+ / NH3।",
+      "section": "concepts"
+    },
+    {
+      "term": "pH",
+      "meaning": "হাইড্রোজেন আয়নের মোলার ঘনত্বের ঋণাত্মক লগারিদম: pH = −log[H3O+]।",
+      "section": "ph_scale"
+    },
+    {
+      "term": "বাফার দ্রবণ (Buffer solution)",
+      "meaning": "যে দ্রবণ অল্প অ্যাসিড বা ক্ষার যোগ করলেও pH-এর পরিবর্তন রোধ করে।",
+      "section": "buffers"
+    },
+    {
+      "term": "সমআয়ন প্রভাব (Common ion effect)",
+      "meaning": "সমআয়নযুক্ত লবণ যোগ করলে দুর্বল অ্যাসিড/ক্ষারের বিয়োজন দমিত হওয়া।",
+      "section": "buffers"
+    },
+    {
+      "term": "আর্দ্রবিশ্লেষণ (Hydrolysis)",
+      "meaning": "জলের সঙ্গে বিক্রিয়া; লবণের ক্যাটায়ন/অ্যানায়নের এই বিক্রিয়াতেই দ্রবণ আম্লিক বা ক্ষারীয় হয়।",
+      "section": "salt_hydrolysis"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "সমআয়ন ও বিয়োজন দমন",
+      "causes": [
+        "দুর্বল অ্যাসিডের দ্রবণে সমআয়নযুক্ত লবণ যোগ করা (যেমন CH3COOH-এ CH3COONa)"
+      ],
+      "event": "লে শাতেলিয়ের নীতি অনুযায়ী সাম্য বাম দিকে সরে যায়",
+      "results": [
+        "দুর্বল অ্যাসিডের বিয়োজন কমে যায়",
+        "মিশ্রণটি বাফারের মতো আচরণ করে — pH প্রায় স্থির থাকে"
+      ],
+      "section": "buffers",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "title": "SO2 ও অম্লবৃষ্টি",
+      "causes": [
+        "বায়ুমণ্ডলে SO2 মেঘের জল বা বৃষ্টির ফোঁটায় দ্রবীভূত হওয়া",
+        "দ্রবীভূত SO2-এর জারণ"
+      ],
+      "event": "বৃষ্টির জলের অম্লতা বৃদ্ধি",
+      "results": [
+        "অম্লবৃষ্টির সৃষ্টি",
+        "বাইসালফাইট ও সালফাইট আয়ন গঠন"
+      ],
+      "section": "acid_rain",
+      "claims": [
+        "c32",
+        "c33"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "তিন ধারণার চাবিশব্দ: আরহেনিয়াস = H+/OH− আয়ন; ব্রনস্টেড-লাউরি = প্রোটন দান-গ্রহণ; লুইস = ইলেকট্রন-জোড়।",
+      "section": "concepts"
+    },
+    {
+      "point": "শক্তিশালী তড়িৎবিশ্লেষ্য (HCl, NaCl) সম্পূর্ণ আয়নিত; দুর্বল (CH3COOH, NH4OH) আংশিক — উদাহরণসহ মনে রাখো।",
+      "section": "reactions"
+    },
+    {
+      "point": "pH: প্রশম ৭, আম্লিক < ৭, ক্ষারীয় > ৭; pH + pOH = ১৪; রক্তের pH প্রায় ৭.৪ (ক্লার্কশিপ ২০২৩-এ রক্তের pH এসেছিল)।",
+      "section": "ph_scale"
+    },
+    {
+      "point": "লবণের প্রকৃতি: NaCl প্রশম, NH4Cl আম্লিক, CH3COONa ক্ষারীয় — 'কে আর্দ্রবিশ্লেষিত হয়' যুক্তি দিয়ে মনে রাখো।",
+      "section": "salt_hydrolysis"
+    },
+    {
+      "point": "অম্লবৃষ্টির প্রধান গ্যাস SO2; ভিনিগার = অ্যাসেটিক অ্যাসিড (WBCS ২০১৮)।",
+      "section": "acid_rain"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গসহ ভারতীয় পরিস্থিতিতে বৃষ্টির জলের pH তুলনামূলকভাবে বেশি — ৬ থেকে ৮.৫-এর মধ্যে — থাকে বলে এখানে বায়ুর SO2 বৃষ্টির জলে খুব বেশি পরিমাণে দ্রবীভূত হয়। অর্থাৎ বাংলার বর্ষার জলের রসায়ন বুঝতেও এই অধ্যায়ের pH ও গ্যাস-দ্রাব্যতার ধারণা সরাসরি কাজে লাগে। (এটি e-PG Pathshala-র ভারত-ভিত্তিক পর্যবেক্ষণ; পশ্চিমবঙ্গ-নির্দিষ্ট পৃথক তথ্য এই অধ্যায়ের উৎসে নেই।)",
+    "claims": [
+      "c35"
+    ]
+  },
+  "quick_revision": [
+    "আরহেনিয়াস: অ্যাসিড → H+ আয়ন, ক্ষার → OH− আয়ন (জলীয় দ্রবণে); HCl ও NaOH উদাহরণ।",
+    "ব্রনস্টেড-লাউরি (১৯২৩): অ্যাসিড প্রোটন-দাতা, ক্ষার প্রোটন-গ্রহীতা; অনুবন্ধী জোড় যেমন NH4+/NH3।",
+    "লুইস (১৯২৩): অ্যাসিড ইলেকট্রন-জোড় গ্রহীতা, ক্ষার ইলেকট্রন-জোড় দাতা — সবচেয়ে বিস্তৃত ধারণা।",
+    "শক্তিশালী তড়িৎবিশ্লেষ্য প্রায় সম্পূর্ণ আয়নিত (HCl, NaCl); দুর্বল আংশিক (CH3COOH, NH4OH)।",
+    "ভিনিগার + বেকিং সোডা → CO2; CO2 চুনের জলকে ঘোলা করে (CaCO3 তৈরি হয়)।",
+    "pH = −log[H3O+]; সোরেনসেন ১৯০৯ সালে স্কেলটি প্রস্তাব করেন।",
+    "প্রশম দ্রবণে pH ৭; আম্লিক < ৭; ক্ষারীয় > ৭; pH + pOH = ১৪।",
+    "০.০১ M HCl-এর pH = ২; ০.০১০ M NaOH-এর pH = ১২।",
+    "বাফার: দুর্বল অ্যাসিড + তার লবণ (আম্লিক) বা দুর্বল ক্ষার + তার লবণ (ক্ষারীয়); রক্তের pH প্রায় ৭.৪।",
+    "NaCl প্রশম, NH4Cl আম্লিক, CH3COONa ক্ষারীয় — দুর্বল অংশের আয়ন আর্দ্রবিশ্লেষিত হয়।",
+    "অম্লবৃষ্টির প্রধান গ্যাস SO2; NH3 অম্লতা প্রশমিত করে।",
+    "হাড় ও দাঁতের মূল উপাদান ক্যালসিয়াম ফসফেট Ca3(PO4)2 — একটি স্বল্পদ্রাব্য লবণ।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "NIOS Senior Secondary Chemistry (313), Lesson 12: Ionic Equilibrium",
+      "class": "XII",
+      "url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson12.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "e-PG Pathshala, Environmental Chemistry (Paper 16), Module 05: Environmental Aqueous Solutions of Gases, Acids and Bases, and pH",
+      "class": "PG",
+      "url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000014ER/P000271/M026138/ET/1515394560paper16_module_05_etext.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "NCERT Science, Class VII, Chapter 5: Physical and Chemical Changes",
+      "class": "VII",
+      "url": "https://ncert.nic.in/textbook/pdf/gesc105.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "There is no single general definition of acids and bases; three concepts (Arrhenius, Bronsted-Lowry, Lewis) are well known",
+      "source": "s1",
+      "page": "p. 322",
+      "quote": "There is no general definition of acids and bases. There are three different concepts of acids and bases ( proposed by Arrhenius, Brønsted and Lowry and Lewis respectively) which are well known."
+    },
+    {
+      "id": "c02",
+      "claim": "Arrhenius (1884): an acid produces hydrogen ion H+ on dissociation in aqueous solution; HCl is an example",
+      "source": "s1",
+      "page": "p. 322",
+      "quote": "The most commonly used concept of acids and bases was developed by Svante Arrhenius (1884). According to this concept an acid is a substance that is capable of producing hydrogen ion (H+) by dissociating in aqueous solution."
+    },
+    {
+      "id": "c03",
+      "claim": "Arrhenius base provides hydroxyl ion OH- on dissociation; NaOH is an example",
+      "source": "s1",
+      "page": "p. 323",
+      "quote": "A base on the other hand is defined as a substance capable of providing a hydroxyl ion OH− on dissociation in aqueous solutions."
+    },
+    {
+      "id": "c04",
+      "claim": "The proton binds to a water molecule forming the hydronium ion H3O+",
+      "source": "s1",
+      "page": "p. 323",
+      "quote": "The proton or hydrogen ion binds itself to a water molecule and form H3O+ ion which is called hydronium ion."
+    },
+    {
+      "id": "c05",
+      "claim": "Bronsted-Lowry (1923): acid is a proton donor, base is a proton acceptor; acid-base reactions are proton transfers",
+      "source": "s1",
+      "page": "p. 323",
+      "quote": "In 1923, Brønsted and Lowry pointed out independently that acid-base reactions can be interpreted as proton-transfer reactions. According to them, an acid is defined as a proton (H+) donor, and a base is defined as a proton acceptor."
+    },
+    {
+      "id": "c06",
+      "claim": "A conjugate acid-base pair consists of two species differing by gain or loss of a proton, e.g. NH4+/NH3",
+      "source": "s1",
+      "page": "p. 324",
+      "quote": "A conjugate acid-base pair consists of two species in an acid-base reaction, one acid and one base, that differ by the gain or loss of a proton."
+    },
+    {
+      "id": "c07",
+      "claim": "Lewis (1923): an acid accepts an electron pair; a Lewis base donates an electron pair",
+      "source": "s1",
+      "page": "p. 325",
+      "quote": "G.N.Lewis proposed (1923) a yet another concept of acids and bases that includes such substances also. According to him, an acid may be defined as, ' any atom, molecule or ion that can accept an electron pair from any other atom , molecule or ion"
+    },
+    {
+      "id": "c08",
+      "claim": "Strong electrolytes are almost completely converted into ions in water; NaCl, KCl, KNO3, NH4Cl and HCl are examples, shown with a single arrow",
+      "source": "s1",
+      "page": "p. 320",
+      "quote": "Many electrolytes, when dissolved in water, are almost completely converted into ions. Such electrolytes are called strong electrolytes. All ionic compounds like NaCl, KCl, KNO3, NH4Cl and some colvent compounds like HCl. etc are strong electrolytes."
+    },
+    {
+      "id": "c09",
+      "claim": "Weak electrolytes ionize only partially, e.g. CH3COOH and NH4OH; a dynamic equilibrium (ionic equilibrium) exists between unionized molecules and ions",
+      "source": "s1",
+      "page": "p. 320",
+      "quote": "On the other hand, many electrolytes ionize only partially. Such electrolytes are called weak electrolytes. Many covalent compounds like CH3COOH, NH4OH, C6H5NH2 are weak electrolytes."
+    },
+    {
+      "id": "c10",
+      "claim": "Electrolytes produce ions in solution which can carry electric charge, so such solutions conduct electricity",
+      "source": "s1",
+      "page": "p. 320",
+      "quote": "Electrolytes are the compounds which when dissolved in water produce ions in their solutions. These ions are free to move about and can carry electric charge through the solution when an electric field is applied."
+    },
+    {
+      "id": "c11",
+      "claim": "Vinegar (acetic acid) plus baking soda (sodium hydrogencarbonate) produces carbon dioxide",
+      "source": "s3",
+      "page": "p. 50",
+      "quote": "Vinegar (Acetic acid) + Baking soda (Sodium hydrogencarbonate) Carbon dioxide + other substances"
+    },
+    {
+      "id": "c12",
+      "claim": "Carbon dioxide passed through lime water forms calcium carbonate, which makes lime water milky; this is a standard test of carbon dioxide",
+      "source": "s3",
+      "page": "p. 50",
+      "quote": "When carbon dioxide is passed through lime water, calcium carbonate is formed, which makes lime water milky. The turning of lime water into milky is a standard test of carbon dioxide."
+    },
+    {
+      "id": "c13",
+      "claim": "Magnesium oxide ash dissolved in water forms magnesium hydroxide, which is a base",
+      "source": "s3",
+      "page": "p. 49",
+      "quote": "Magnesium oxide (MgO) + Water (H2O) Magnesium hydroxide [Mg(OH)2] As you have already learnt in Chapter 4, magnesium hydroxide is a base."
+    },
+    {
+      "id": "c14",
+      "claim": "Strong acids such as HCl and HNO3 fully dissociate into ions on dissolution in water",
+      "source": "s2",
+      "page": "Module 05, section 6",
+      "quote": "Trace amounts of HCl, HNO3 and other strong acids are found in atmosphere. On dissolution in water, these acids fully dissociate in to ions."
+    },
+    {
+      "id": "c15",
+      "claim": "In 1909 Danish botanist S.P.L. Sorensen proposed the pH scale; pH is the negative logarithm of the molar concentration of hydrogen ions",
+      "source": "s1",
+      "page": "p. 335",
+      "quote": "in 1909 a Danish botanist S.P.L. Sorensen proposed a logarithmic scale ( called pH scale) for expressing the concentrations of H+ ions. He defined pH as the negative logarithm of the molar concentration of hydrogen ions."
+    },
+    {
+      "id": "c16",
+      "claim": "pH is defined as the negative logarithm of hydrogen ion concentration",
+      "source": "s2",
+      "page": "Module 05, section 7",
+      "quote": "pH is defined as the negative logarithm of hydrogen ion concentration as in Eq. 24."
+    },
+    {
+      "id": "c17",
+      "claim": "For neutral solutions [H3O+] = [OH-] = 1x10-7, so pH = 7.0; acidic solutions have pH < 7.0",
+      "source": "s1",
+      "page": "p. 335",
+      "quote": "For neutral solutions ( or pure water) [H3 O+] = [OH-] = 1 × 10-7 ⇒ pH = -log 1 × 10-7 = 7.0 For acidic solutions [H3 O+] > [OH-] ⇒ [H3 O+] > 1 × 10-7"
+    },
+    {
+      "id": "c18",
+      "claim": "A strongly acidic solution can have pH less than zero and a strongly alkaline solution pH greater than 14, but the normally observed range is 0 to 14",
+      "source": "s1",
+      "page": "p. 335",
+      "quote": "A strongly acidic solution can have a pH of less than zero ( i.e., negative) and a strongly alkaline solution can have a pH value greater than 14. However the pH range normally observed is between 0 to 14."
+    },
+    {
+      "id": "c19",
+      "claim": "pH + pOH = 14, since Kw = 1.0 x 10-14 and pKw = 14",
+      "source": "s1",
+      "page": "p. 335",
+      "quote": "Since the value of Kw = 1 .0 × 10–14 pKw = 14 i.e., pH + pOH = 14 (12.46)"
+    },
+    {
+      "id": "c20",
+      "claim": "0.01 M HCl is fully ionized, so its pH = 2.0; 0.010 M NaOH solution has pH 12",
+      "source": "s1",
+      "page": "pp. 335-336",
+      "quote": "Example 12.4: What is the pH of a 0.01 M aqueous solution of HCl? Solution: Since HCl is a strong acid it would ionize completely. Therefore, [H3 O+] in 0.01 M HCl = 0.01 M"
+    },
+    {
+      "id": "c21",
+      "claim": "A rain water sample of pH 5 has hydronium ion concentration 10-5 mol dm-3",
+      "source": "s1",
+      "page": "p. 336",
+      "quote": "Example 12.6 : The pH of a sample of rain water at 25 °C is 5. What is the concentration of hydronium ions ?"
+    },
+    {
+      "id": "c22",
+      "claim": "Common ions suppress the dissociation of a weak acid or base (Le Chatelier's principle shifts equilibrium left)",
+      "source": "s1",
+      "page": "p. 337",
+      "quote": "According to Le- Chatlier principle, the presence of common ions would make the equilibrium to go to the left. It is said that the common ions suppress the equilibrium."
+    },
+    {
+      "id": "c23",
+      "claim": "Buffer solutions resist a change in pH on adding a small amount of an acid or a base",
+      "source": "s1",
+      "page": "p. 339",
+      "quote": "Buffer solutions are the ones that resist a change in its pH on adding a small amount of an acid or a base."
+    },
+    {
+      "id": "c24",
+      "claim": "Two buffer types: weak acid + its soluble ionic salt (acetic acid + sodium acetate) and weak base + its soluble ionic salt (ammonium hydroxide + ammonium chloride)",
+      "source": "s1",
+      "page": "p. 339",
+      "quote": "(i) A weak acid and a soluble ionic salt of the weak acid e.g. acetic acid and sodium acetate; CH3 COOH + CH3 COONa and, (ii) A weak base and a soluble ionic salt of the weak base e.g. ammonium hydroxide and ammonium chloride ; NH4 OH + NH4 Cl."
+    },
+    {
+      "id": "c25",
+      "claim": "Buffers with pH less than 7 are acidic buffers and those above 7 are basic buffers; acetic acid-sodium acetate is an acidic buffer, NH4OH-NH4Cl a basic buffer",
+      "source": "s1",
+      "page": "p. 339",
+      "quote": "The buffers with pH less than 7 are called acidic buffers and those with pH above 7 are called basic buffers. Acetic acid - sodium acetate buffer is an example of acidic buffer while Ammonium hydroxide - ammonium chloride is a basic buffer."
+    },
+    {
+      "id": "c26",
+      "claim": "pH of blood is very close to 7.4 and pH of saliva is close to 6.8; buffers protect animals and plants against sharp pH changes",
+      "source": "s1",
+      "page": "p. 339",
+      "quote": "pH of the blood is very close to 7.4 and pH of saliva is close to 6.8.Fortunately, animals and plants are protected against sharp changes in pH by the presence of buffers."
+    },
+    {
+      "id": "c27",
+      "claim": "Salt hydrolysis: aqueous solutions of certain salts behave as acids or bases because of hydrolysis of the cation or anion or both; there are four types of salts",
+      "source": "s1",
+      "page": "p. 342",
+      "quote": "The aqueous solutions of certain salts also behave as acids or bases. They do so because of the hydrolysis of the cation or anion or both. As you know, hydrolysis is a reaction with water."
+    },
+    {
+      "id": "c28",
+      "claim": "Salt of strong acid + strong base (NaCl): neither ion is hydrolysed, so such salts show no acid-base behaviour and are neutral",
+      "source": "s1",
+      "page": "p. 342",
+      "quote": "Salt of strong acid + strong base : the cations of the strong bases and the anions of the strong acids do not get hydrolysed. Therefore the salts of this category do not show any acid-base behaviour and are neutral."
+    },
+    {
+      "id": "c29",
+      "claim": "NH4Cl (strong acid + weak base): the cation hydrolyses generating H+ ions, so the solution is acidic",
+      "source": "s1",
+      "page": "p. 343",
+      "quote": "since it generates H+ (aq) ions, the solution is acidic in nature."
+    },
+    {
+      "id": "c30",
+      "claim": "CH3COONa (weak acid + strong base): the anion hydrolyses generating hydroxyl ions, so the solution is basic",
+      "source": "s1",
+      "page": "p. 343",
+      "quote": "Since it generates hydroxyl ions the solution is basic in nature."
+    },
+    {
+      "id": "c31",
+      "claim": "Our bones and teeth are mostly calcium phosphate Ca3(PO4)2, a slightly soluble salt",
+      "source": "s1",
+      "page": "p. 320",
+      "quote": "our bones and teeth are mostly calcium phosphate, Ca3 (PO4 ) 2 , a slightly soluble salt."
+    },
+    {
+      "id": "c32",
+      "claim": "Sulfur dioxide is the key trace atmospheric gas responsible for acid rain; it dissolves in cloud water or raindrops and its oxidation increases rainwater acidity",
+      "source": "s2",
+      "page": "Module 05, section 5",
+      "quote": "Sulfur dioxide is the key trace atmospheric gas responsible for acid rain. It gets dissolved in cloud water or in falling raindrops and its oxidation causes an increase in rainwater acidity."
+    },
+    {
+      "id": "c33",
+      "claim": "Dissolved SO2 dissociates to form bisulfite (HSO3-) and sulfite (SO3 2-) ions",
+      "source": "s2",
+      "page": "Module 05, section 5",
+      "quote": "The SO2.H2O undergoes dissociation to form bisulfite (or hydrogensulfite), HSO3 - , and sulfite ions, SO3 2- ."
+    },
+    {
+      "id": "c34",
+      "claim": "Ammonia's aquated form NH4OH dissociates to NH4+ and OH-; ammonia reacts with hydrogen ions and neutralizes acidity",
+      "source": "s2",
+      "page": "Module 05, section 5",
+      "quote": "Its aquated form NH4OH dissociates to form NH4 + and OHions. Ammonia reacts with hydrogen ions and neutralizes acidity."
+    },
+    {
+      "id": "c35",
+      "claim": "In Indian conditions rainwater pH is high, in the range 6-8.5, so dissolution of SO2 is very high",
+      "source": "s2",
+      "page": "Module 05, section 5",
+      "quote": "Thus, in Indian conditions, where rainwater pH is high and lies in the range 6 - 8.5, dissolution of SO2 would be very high."
+    },
+    {
+      "id": "c36",
+      "claim": "pH expresses the acidity of cloud water, rainwater, fog water and sea water; environmental solutions mostly have pH range 3-10",
+      "source": "s2",
+      "page": "Module 05, section 7",
+      "quote": "pH is, therefore, very useful in expressing the acidity of cloud water, rainwater, fog water, sea water and of other water"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "concepts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আরহেনিয়াসের ধারণা অনুযায়ী অ্যাসিড জলীয় দ্রবণে বিয়োজিত হয়ে কোন আয়ন উৎপন্ন করে?",
+      "a": "H+ আয়ন (হাইড্রোজেন আয়ন)",
+      "w": [
+        "OH− আয়ন",
+        "Na+ আয়ন",
+        "Cl− আয়ন"
+      ],
+      "e": "আরহেনিয়াসের মতে অ্যাসিড H+ আয়ন দেয়; OH− আয়ন দেয় ক্ষার। Cl− হল HCl-এর অ্যানায়ন, অ্যাসিডের সংজ্ঞায়ক আয়ন নয়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "concepts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সোডিয়াম হাইড্রক্সাইড (NaOH) আরহেনিয়াস ক্ষার, কারণ এটি জলে বিয়োজিত হয়ে দেয় —",
+      "a": "OH− আয়ন",
+      "w": [
+        "H+ আয়ন",
+        "H3O+ আয়ন",
+        "O2− আয়ন"
+      ],
+      "e": "ক্ষার জলীয় দ্রবণে হাইড্রক্সিল আয়ন (OH−) দেয়; NaOH → Na+ + OH−। H+ দিলে তা অ্যাসিড হত।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "concepts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ব্রনস্টেড-লাউরি ধারণায় ক্ষার কাকে বলে?",
+      "a": "প্রোটন গ্রহীতা",
+      "w": [
+        "প্রোটন দাতা",
+        "ইলেকট্রন-জোড় গ্রহীতা",
+        "OH− দাতা"
+      ],
+      "e": "ব্রনস্টেড-লাউরির মতে অ্যাসিড প্রোটন-দাতা ও ক্ষার প্রোটন-গ্রহীতা। ইলেকট্রন-জোড়ের কথা লুইস ধারণার, OH− দানের কথা আরহেনিয়াসের।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "concepts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NH4+ / NH3 যুগলটিকে কী বলা হয়?",
+      "a": "অনুবন্ধী অ্যাসিড-ক্ষার জোড় (conjugate pair)",
+      "w": [
+        "বাফার জোড়",
+        "সমআয়ন জোড়",
+        "তড়িৎবিশ্লেষ্য জোড়"
+      ],
+      "e": "একটি প্রোটনের লাভ-ক্ষতিতে পৃথক দুটি প্রজাতিকে অনুবন্ধী অ্যাসিড-ক্ষার জোড় বলে; NH4+ প্রোটন হারিয়ে NH3 হয়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "concepts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লুইস ধারণা অনুযায়ী অ্যাসিডের সংজ্ঞা কোনটি?",
+      "a": "ইলেকট্রন-জোড় গ্রহণ করতে পারে এমন পরমাণু, অণু বা আয়ন",
+      "w": [
+        "জলে H+ আয়ন দেয় এমন পদার্থ",
+        "প্রোটন দান করে এমন পদার্থ",
+        "জলে OH− আয়ন দেয় এমন পদার্থ"
+      ],
+      "e": "লুইসের মতে অ্যাসিড ইলেকট্রন-জোড় গ্রহীতা। H+ দেওয়া আরহেনিয়াসের ও প্রোটন দান ব্রনস্টেড-লাউরির সংজ্ঞা।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "concepts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আরহেনিয়াস ধারণার একটি সীমাবদ্ধতা কোনটি?",
+      "a": "এটি শুধু জলীয় দ্রবণের ক্ষেত্রে প্রযোজ্য এবং NH3-এর মতো OH−-বিহীন পদার্থের ক্ষারীয় আচরণ ব্যাখ্যা করতে পারে না",
+      "w": [
+        "এটি প্রোটন-স্থানান্তর ব্যাখ্যা করতে পারে না",
+        "এটি ইলেকট্রন-জোড় ব্যাখ্যা করতে পারে না",
+        "এটি শক্তিশালী অ্যাসিড ব্যাখ্যা করতে পারে না"
+      ],
+      "e": "NIOS-এর পাঠ অনুযায়ী আরহেনিয়াস ধারণা জলীয় দ্রবণে সীমাবদ্ধ এবং হাইড্রোজেন/হাইড্রক্সাইড-বিহীন পদার্থের আচরণ ব্যাখ্যা করতে পারে না।",
+      "claims": [
+        "c01",
+        "c05"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "concepts",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): ব্রনস্টেড-লাউরি ধারণায় দ্রাবকের কোনো ভূমিকা প্রয়োজন হয় না।\nকারণ (R): এই ধারণায় অ্যাসিড-ক্ষার বিক্রিয়া হল প্রোটন-স্থানান্তর।",
+      "a": "A ও R উভয়ই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "প্রোটন-স্থানান্তর দিয়েই বিক্রিয়া ব্যাখ্যা করা যায় বলে দ্রাবকের ভূমিকা অপ্রয়োজনীয় — যেমন NH3 ও HF-এর বিক্রিয়া। তাই R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "reactions",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি শক্তিশালী তড়িৎবিশ্লেষ্য?",
+      "a": "হাইড্রোক্লোরিক অ্যাসিড (HCl)",
+      "w": [
+        "অ্যাসেটিক অ্যাসিড (CH3COOH)",
+        "অ্যামোনিয়াম হাইড্রক্সাইড (NH4OH)",
+        "অ্যানিলিন (C6H5NH2)"
+      ],
+      "e": "HCl জলে প্রায় সম্পূর্ণ আয়নিত হয়; বাকি তিনটিই দুর্বল তড়িৎবিশ্লেষ্য, যারা আংশিক আয়নিত হয়।",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "reactions",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভিনিগারে বেকিং সোডা মেশালে কোন গ্যাসের বুদবুদ বের হয়?",
+      "a": "কার্বন ডাই-অক্সাইড (CO2)",
+      "w": [
+        "হাইড্রোজেন (H2)",
+        "অক্সিজেন (O2)",
+        "অ্যামোনিয়া (NH3)"
+      ],
+      "e": "ভিনিগার (অ্যাসেটিক অ্যাসিড) + বেকিং সোডা (সোডিয়াম হাইড্রোজেনকার্বনেট) → CO2 + অন্যান্য পদার্থ।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "reactions",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কার্বন ডাই-অক্সাইডের প্রমাণ (standard) পরীক্ষা কোনটি?",
+      "a": "চুনের জল ঘোলা হয়ে যাওয়া",
+      "w": [
+        "লিটমাস লাল হওয়া",
+        "পপ শব্দে জ্বলে ওঠা",
+        "নীল দ্রবণ সবুজ হওয়া"
+      ],
+      "e": "CO2 চুনের জলের মধ্য দিয়ে গেলে CaCO3 তৈরি হয়ে জল ঘোলা হয় — এটিই CO2-এর প্রমাণ পরীক্ষা।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "reactions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ম্যাগনেসিয়াম অক্সাইড (MgO) জলে মেশালে কোন পদার্থ তৈরি হয়, যা একটি ক্ষার?",
+      "a": "ম্যাগনেসিয়াম হাইড্রক্সাইড [Mg(OH)2]",
+      "w": [
+        "ম্যাগনেসিয়াম কার্বনেট",
+        "ম্যাগনেসিয়াম ক্লোরাইড",
+        "ম্যাগনেসিয়াম সালফেট"
+      ],
+      "e": "MgO + H2O → Mg(OH)2; NCERT অনুযায়ী ম্যাগনেসিয়াম হাইড্রক্সাইড একটি ক্ষার।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "reactions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দুর্বল তড়িৎবিশ্লেষ্যের দ্রবণে অনায়নিত অণু ও আয়নের মধ্যে যে গতিশীল সাম্য থাকে, তাকে কী বলে?",
+      "a": "আয়নিক সাম্য (ionic equilibrium)",
+      "w": [
+        "দ্রাব্যতা সাম্য",
+        "বাফার ক্রিয়া",
+        "আর্দ্রবিশ্লেষণ"
+      ],
+      "e": "দুর্বল তড়িৎবিশ্লেষ্য আংশিক আয়নিত হয়; অণু ও আয়নের মধ্যে স্থাপিত সাম্যই আয়নিক সাম্য, যা উভমুখী তীরচিহ্নে দেখানো হয়।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "reactions",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "তড়িৎবিশ্লেষ্যের দ্রবণ তড়িৎ পরিবহণ করে কেন?",
+      "a": "দ্রবণে মুক্ত আয়ন থাকে, যারা চলাচল করে তড়িৎ আধান বহন করে",
+      "w": [
+        "দ্রবণে ইলেকট্রন মুক্তভাবে ঘোরে",
+        "জল নিজে তড়িতের সুপরিবাহী",
+        "অণুগুলি আধান বহন করে"
+      ],
+      "e": "তড়িৎবিশ্লেষ্য জলে আয়ন উৎপন্ন করে; এই আয়নগুলি সরে গিয়ে আধান পরিবহণ করে বলেই দ্রবণ তড়িৎ পরিবহণ করে।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "reactions",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. NaCl একটি শক্তিশালী তড়িৎবিশ্লেষ্য।\n২. CH3COOH একটি দুর্বল তড়িৎবিশ্লেষ্য।\n৩. শক্তিশালী তড়িৎবিশ্লেষ্য জলে আংশিকভাবে মাত্র আয়নিত হয়।\n\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ২",
+      "w": [
+        "কেবল ১",
+        "২ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "শক্তিশালী তড়িৎবিশ্লেষ্য প্রায় সম্পূর্ণ আয়নিত হয় — তাই ৩ নম্বর বিবৃতিটি ভুল। NaCl শক্তিশালী ও CH3COOH দুর্বল তড়িৎবিশ্লেষ্য।",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "ph_scale",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রশম দ্রবণের pH কত?",
+      "a": "৭",
+      "w": [
+        "০",
+        "১৪",
+        "১"
+      ],
+      "e": "প্রশম দ্রবণে [H3O+] = [OH−] = ১০^−৭, তাই pH = ৭.০।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "ph_scale",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "pH স্কেল প্রস্তাব করেন কে এবং কোন সালে?",
+      "a": "S. P. L. সোরেনসেন, ১৯০৯ সালে",
+      "w": [
+        "আরহেনিয়াস, ১৮৮৪ সালে",
+        "লুইস, ১৯২৩ সালে",
+        "ব্রনস্টেড, ১৯২৩ সালে"
+      ],
+      "e": "১৯০৯ সালে ডেনমার্কের উদ্ভিদবিদ সোরেনসেন লগারিদমিক pH স্কেল প্রস্তাব করেন। বাকি সালগুলি অন্য ধারণার সঙ্গে যুক্ত।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "ph_scale",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন দ্রবণটি আম্লিক?",
+      "a": "যার pH ৭-এর কম",
+      "w": [
+        "যার pH ৭",
+        "যার pH ৭-এর বেশি",
+        "যার pH ১৪"
+      ],
+      "e": "pH < ৭ হলে দ্রবণ আম্লিক, pH = ৭ হলে প্রশম, pH > ৭ হলে ক্ষারীয়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "ph_scale",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "০.০১ M HCl দ্রবণের pH কত?",
+      "a": "২.০",
+      "w": [
+        "১.০",
+        "৭.০",
+        "১২.০"
+      ],
+      "e": "HCl শক্তিশালী অ্যাসিড, সম্পূর্ণ আয়নিত হয়; [H3O+] = ০.০১ = ১০^−২, তাই pH = −log(১০^−২) = ২.০।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "ph_scale",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনো দ্রবণের pH ৫ হলে pOH কত?",
+      "a": "৯",
+      "w": [
+        "৫",
+        "৭",
+        "১৯"
+      ],
+      "e": "pH + pOH = ১৪, তাই pOH = ১৪ − ৫ = ৯।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "ph_scale",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বৃষ্টির জলের একটি নমুনার pH ৫ হলে তার হাইড্রোনিয়াম আয়নের ঘনত্ব কত?",
+      "a": "১০^−৫ mol dm^−৩",
+      "w": [
+        "১০^−৯ mol dm^−৩",
+        "৫ mol dm^−৩",
+        "১০^−৭ mol dm^−৩"
+      ],
+      "e": "pH = −log[H3O+]; pH ৫ হলে [H3O+] = ১০^−৫ mol dm^−৩ — NIOS-এর উদাহরণ ১২.৬ ঠিক এটিই।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "ph_scale",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "pH সম্পর্কে কোন বক্তব্যটি সঠিক?",
+      "a": "খুব শক্তিশালী আম্লিক দ্রবণের pH ঋণাত্মক হতে পারে, তবে সাধারণ পরিসর ০ থেকে ১৪",
+      "w": [
+        "pH কখনোই ০-এর কম বা ১৪-এর বেশি হতে পারে না",
+        "pH সবসময় পূর্ণসংখ্যা হয়",
+        "pH বাড়লে H+ ঘনত্ব বাড়ে"
+      ],
+      "e": "NIOS অনুযায়ী শক্তিশালী আম্লিক দ্রবণের pH শূন্যের কম ও শক্তিশালী ক্ষারীয় দ্রবণের pH ১৪-এর বেশি হতে পারে; সাধারণ পর্যবেক্ষিত পরিসর ০–১৪। pH বাড়লে H+ ঘনত্ব কমে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "ph_scale",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. pH হল হাইড্রোজেন আয়নের মোলার ঘনত্বের ঋণাত্মক লগারিদম।\n২. ক্ষারীয় দ্রবণে [H3O+], [OH−]-এর চেয়ে বেশি থাকে।\n৩. pH + pOH = ১৪।\n\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ৩",
+      "w": [
+        "কেবল ২",
+        "১ ও ২",
+        "১, ২ ও ৩"
+      ],
+      "e": "ক্ষারীয় দ্রবণে [H3O+] কম থাকে, [OH−] বেশি — তাই ২ ভুল। ১ (সংজ্ঞা) ও ৩ (সম্পর্ক) সঠিক।",
+      "claims": [
+        "c15",
+        "c17",
+        "c19"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "buffers",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাফার দ্রবণ কাকে বলে?",
+      "a": "যে দ্রবণ অল্প অ্যাসিড বা ক্ষার যোগ করলেও pH-এর পরিবর্তন রোধ করে",
+      "w": [
+        "যে দ্রবণ তড়িৎ পরিবহণ করে",
+        "যে দ্রবণের pH সবসময় ৭",
+        "যে দ্রবণে কোনো আয়ন থাকে না"
+      ],
+      "e": "বাফারের সংজ্ঞাই হল pH পরিবর্তনের প্রতিরোধ; বাফারের pH ৭ হতেই হবে এমন নয় — আম্লিক ও ক্ষারীয় দুই প্রকার বাফারই আছে।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "buffers",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোন জোড়টি একটি আম্লিক বাফার?",
+      "a": "অ্যাসেটিক অ্যাসিড + সোডিয়াম অ্যাসিটেট",
+      "w": [
+        "অ্যামোনিয়াম হাইড্রক্সাইড + অ্যামোনিয়াম ক্লোরাইড",
+        "HCl + NaCl",
+        "NaOH + NaCl"
+      ],
+      "e": "দুর্বল অ্যাসিড + তার লবণ = আম্লিক বাফার। NH4OH + NH4Cl হল ক্ষারীয় বাফার।",
+      "claims": [
+        "c24",
+        "c25"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "buffers",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মানুষের রক্তের pH প্রায় কত থাকে?",
+      "a": "৭.৪",
+      "w": [
+        "৬.৮",
+        "৫.৫",
+        "৮.৪"
+      ],
+      "e": "NIOS অনুযায়ী রক্তের pH ৭.৪-এর খুব কাছাকাছি; ৬.৮ হল লালার pH।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "buffers",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সমআয়ন প্রভাব বলতে কী বোঝায়?",
+      "a": "সমআয়নযুক্ত লবণ যোগ করলে দুর্বল অ্যাসিড/ক্ষারের বিয়োজন দমিত হয়",
+      "w": [
+        "লবণ যোগ করলে বিয়োজন বেড়ে যায়",
+        "দুটি আয়ন মিলে অধঃক্ষেপ তৈরি হয়",
+        "pH হঠাৎ শূন্য হয়ে যায়"
+      ],
+      "e": "লে শাতেলিয়ের নীতি অনুযায়ী সমআয়নের উপস্থিতিতে সাম্য বাম দিকে সরে — বিয়োজন কমে যায়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "buffers",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দেহে বাফার থাকা কেন জরুরি?",
+      "a": "হিমোগ্লোবিনের অক্সিজেন বহন ক্ষমতা ও উৎসেচকের কাজ pH-নির্ভর; বাফার pH-এর তীব্র পরিবর্তন থেকে দেহকে রক্ষা করে",
+      "w": [
+        "বাফার দেহের তাপমাত্রা স্থির রাখে",
+        "বাফার রক্তকে তড়িৎ পরিবহণে সাহায্য করে",
+        "বাফার দেহে লবণের ঘাটতি পূরণ করে"
+      ],
+      "e": "NIOS অনুযায়ী দেহতরলের pH-এর ওপর হিমোগ্লোবিনের অক্সিজেন বহন ও উৎসেচকের সক্রিয়তা প্রবলভাবে নির্ভরশীল, আর বাফারই তীব্র pH পরিবর্তন থেকে রক্ষা করে।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "buffers",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়টি সঠিকভাবে মেলানো নয়?",
+      "a": "ক্ষারীয় বাফার – অ্যাসেটিক অ্যাসিড + সোডিয়াম অ্যাসিটেট",
+      "w": [
+        "আম্লিক বাফার – অ্যাসেটিক অ্যাসিড + সোডিয়াম অ্যাসিটেট",
+        "ক্ষারীয় বাফার – NH4OH + NH4Cl",
+        "বাফার – pH পরিবর্তন রোধ করে"
+      ],
+      "e": "অ্যাসেটিক অ্যাসিড + সোডিয়াম অ্যাসিটেট হল আম্লিক বাফার (pH < ৭); ক্ষারীয় বাফারের উদাহরণ NH4OH + NH4Cl।",
+      "claims": [
+        "c24",
+        "c25"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "salt_hydrolysis",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NaCl-এর জলীয় দ্রবণ কেমন হয়?",
+      "a": "প্রশম",
+      "w": [
+        "আম্লিক",
+        "ক্ষারীয়",
+        "কখনো আম্লিক কখনো ক্ষারীয়"
+      ],
+      "e": "NaCl শক্তিশালী অ্যাসিড (HCl) ও শক্তিশালী ক্ষারের (NaOH) লবণ; কোনো আয়নই আর্দ্রবিশ্লেষিত হয় না, তাই দ্রবণ প্রশম।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "salt_hydrolysis",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NH4Cl-এর জলীয় দ্রবণ আম্লিক হয় কেন?",
+      "a": "NH4+ ক্যাটায়ন আর্দ্রবিশ্লেষিত হয়ে H+ আয়ন উৎপন্ন করে",
+      "w": [
+        "Cl− অ্যানায়ন OH− উৎপন্ন করে",
+        "Na+ আয়ন H+ উৎপন্ন করে",
+        "দ্রবণে HCl মুক্ত অবস্থায় থাকে"
+      ],
+      "e": "NH4Cl-এ অ্যানায়ন আর্দ্রবিশ্লেষিত হয় না, কিন্তু ক্যাটায়ন NH4+ আর্দ্রবিশ্লেষিত হয়ে H+ তৈরি করে — তাই দ্রবণ আম্লিক।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "salt_hydrolysis",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সোডিয়াম অ্যাসিটেট (CH3COONa) দ্রবণ ক্ষারীয় হয়, কারণ —",
+      "a": "CH3COO− অ্যানায়ন আর্দ্রবিশ্লেষিত হয়ে OH− আয়ন তৈরি করে",
+      "w": [
+        "Na+ ক্যাটায়ন H+ তৈরি করে",
+        "দ্রবণে NaOH মুক্ত থাকে",
+        "CH3COO− H+ তৈরি করে"
+      ],
+      "e": "দুর্বল অ্যাসিড + শক্তিশালী ক্ষারের লবণে অ্যানায়ন আর্দ্রবিশ্লেষিত হয়ে হাইড্রক্সিল আয়ন দেয় — দ্রবণ ক্ষারীয় হয়।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "salt_hydrolysis",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আর্দ্রবিশ্লেষণ (hydrolysis) বলতে কী বোঝায়?",
+      "a": "জলের সঙ্গে বিক্রিয়া",
+      "w": [
+        "জলে দ্রবীভূত হওয়া",
+        "তাপে বিয়োজন",
+        "তড়িৎ বিশ্লেষণ"
+      ],
+      "e": "আর্দ্রবিশ্লেষণ হল জলের সঙ্গে বিক্রিয়া; লবণের ক্যাটায়ন/অ্যানায়নের এই বিক্রিয়াতেই দ্রবণ আম্লিক বা ক্ষারীয় হয়।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "salt_hydrolysis",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আমাদের হাড় ও দাঁত মূলত কোন লবণ দিয়ে তৈরি?",
+      "a": "ক্যালসিয়াম ফসফেট, Ca3(PO4)2",
+      "w": [
+        "সোডিয়াম ক্লোরাইড, NaCl",
+        "ক্যালসিয়াম কার্বনেট, CaCO3",
+        "অ্যামোনিয়াম ক্লোরাইড, NH4Cl"
+      ],
+      "e": "NIOS অনুযায়ী হাড় ও দাঁত মূলত ক্যালসিয়াম ফসফেট দিয়ে তৈরি, যা একটি স্বল্পদ্রাব্য লবণ।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "salt_hydrolysis",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দুর্বল অ্যাসিড ও দুর্বল ক্ষারের লবণের (যেমন CH3COONH4) দ্রবণের প্রকৃতি কীসের ওপর নির্ভর করে?",
+      "a": "দুর্বল অ্যাসিড ও দুর্বল ক্ষারের আপেক্ষিক শক্তির ওপর",
+      "w": [
+        "শুধু লবণের ঘনত্বের ওপর",
+        "শুধু তাপমাত্রার ওপর",
+        "দ্রবণের রঙের ওপর"
+      ],
+      "e": "এই প্রকারে ক্যাটায়ন ও অ্যানায়ন দুটোই আর্দ্রবিশ্লেষিত হয়; দ্রবণ আম্লিক/ক্ষারীয়/প্রশম হবে কিনা তা দুই দুর্বল অংশের আপেক্ষিক শক্তি ঠিক করে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "salt_hydrolysis",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও: লবণ ও তার দ্রবণের প্রকৃতি —\n\nক. NaCl  ১. আম্লিক\nখ. NH4Cl  ২. ক্ষারীয়\nগ. CH3COONa  ৩. প্রশম",
+      "a": "ক-৩, খ-১, গ-২",
+      "w": [
+        "ক-১, খ-২, গ-৩",
+        "ক-২, খ-৩, গ-১",
+        "ক-৩, খ-২, গ-১"
+      ],
+      "e": "NaCl (শক্তিশালী+শক্তিশালী) প্রশম; NH4Cl-এ NH4+ থেকে H+ আসে বলে আম্লিক; CH3COONa-তে CH3COO− থেকে OH− আসে বলে ক্ষারীয়।",
+      "claims": [
+        "c28",
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "acid_rain",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অম্লবৃষ্টির জন্য দায়ী প্রধান (key) বায়ুমণ্ডলীয় গ্যাস কোনটি?",
+      "a": "সালফার ডাই-অক্সাইড (SO2)",
+      "w": [
+        "কার্বন ডাই-অক্সাইড (CO2)",
+        "অ্যামোনিয়া (NH3)",
+        "অক্সিজেন (O2)"
+      ],
+      "e": "e-PG Pathshala অনুযায়ী SO2-ই অম্লবৃষ্টির প্রধান গ্যাস; এটি মেঘের জলে দ্রবীভূত হয়ে জারিত হলে বৃষ্টির অম্লতা বাড়ে। NH3 বরং অম্লতা প্রশমিত করে।",
+      "claims": [
+        "c32",
+        "c34"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "acid_rain",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন গ্যাসটি বায়ুমণ্ডলীয় অম্লতা প্রশমিত করতে সাহায্য করে?",
+      "a": "অ্যামোনিয়া (NH3)",
+      "w": [
+        "সালফার ডাই-অক্সাইড (SO2)",
+        "নাইট্রিক অ্যাসিড বাষ্প (HNO3)",
+        "হাইড্রোজেন ক্লোরাইড (HCl)"
+      ],
+      "e": "NH3 হাইড্রোজেন আয়নের সঙ্গে বিক্রিয়া করে অম্লতা প্রশমিত করে; বাকিগুলি অম্লতা বাড়ায়।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "acid_rain",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দ্রবীভূত SO2 বিয়োজিত হয়ে কোন আয়নগুলি তৈরি করে?",
+      "a": "বাইসালফাইট (HSO3−) ও সালফাইট (SO3^2−)",
+      "w": [
+        "নাইট্রেট ও নাইট্রাইট",
+        "কার্বনেট ও বাইকার্বনেট",
+        "সালফেট ও থায়োসালফেট"
+      ],
+      "e": "SO2.H2O বিয়োজিত হয়ে প্রথমে HSO3− ও পরে SO3^2− আয়ন দেয়।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "acid_rain",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতীয় পরিস্থিতিতে বৃষ্টির জলের pH সাধারণত কোন সীমায় থাকে বলে SO2-এর দ্রবীভূত হওয়া বেশি হয়?",
+      "a": "৬ থেকে ৮.৫",
+      "w": [
+        "২ থেকে ৩",
+        "১০ থেকে ১২",
+        "ঠিক ৭.০"
+      ],
+      "e": "e-PG Pathshala অনুযায়ী ভারতে বৃষ্টির জলের pH ৬–৮.৫ সীমায় বেশি থাকে, তাই SO2-এর দ্রাব্যতা খুব বেশি হয়।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "acid_rain",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বায়ুমণ্ডলের শক্তিশালী অ্যাসিড (HCl, HNO3) সম্পর্কে কোন বক্তব্যটি সঠিক?",
+      "a": "জলে দ্রবীভূত হলে এরা সম্পূর্ণ বিয়োজিত হয়, তাই অল্প পরিমাণেও জলীয় মাধ্যমে বেশি অম্লতা তৈরি করে",
+      "w": [
+        "এরা জলে একেবারেই বিয়োজিত হয় না",
+        "এরা শুধু ক্ষারীয় মাধ্যমে দ্রবীভূত হয়",
+        "এদের বিয়োজন তাপমাত্রার ওপর নির্ভর করে না"
+      ],
+      "e": "শক্তিশালী অ্যাসিড জলে সম্পূর্ণ বিয়োজিত হয়; তাই বায়ুমণ্ডলে অল্প পরিমাণ থাকলেও বৃষ্টি/মেঘের জলের অম্লতায় এদের প্রভাব বড়।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "acid_rain",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পরিবেশে পাওয়া দ্রবণগুলির (মেঘের জল, বৃষ্টির জল, সমুদ্রের জল) অম্লতা প্রকাশে pH কেন কার্যকর?",
+      "a": "pH দিয়ে এই জলগুলির অম্লতা সহজে প্রকাশ করা যায়; এদের pH সাধারণত ৩–১০ সীমায় থাকে",
+      "w": [
+        "pH দিয়ে তাপমাত্রা মাপা যায়",
+        "pH দিয়ে দ্রাব্যতা সরাসরি পাওয়া যায়",
+        "pH শুধু গবেষণাগারের দ্রবণে প্রযোজ্য"
+      ],
+      "e": "e-PG Pathshala অনুযায়ী pH মেঘের জল, বৃষ্টির জল, কুয়াশার জল ও সমুদ্রের জলের অম্লতা প্রকাশে কার্যকর, এবং পরিবেশগত দ্রবণের pH বেশিরভাগ ক্ষেত্রে ৩–১০-এর মধ্যে থাকে।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "acid_rain",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. SO2 মেঘের জলে দ্রবীভূত হয়ে জারিত হলে বৃষ্টির জলের অম্লতা বাড়ে।\n২. NH3 জলে দ্রবীভূত হলে দ্রবণ আম্লিক হয়।\n৩. NH3 হাইড্রোজেন আয়নের সঙ্গে বিক্রিয়া করে অম্লতা প্রশমিত করে।\n\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ৩",
+      "w": [
+        "কেবল ১",
+        "২ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "NH3-এর জলীয় রূপ NH4OH বিয়োজিত হয়ে OH− দেয় — দ্রবণ ক্ষারীয় হয়, আম্লিক নয়; তাই ২ ভুল। ১ ও ৩ সঠিক।",
+      "claims": [
+        "c32",
+        "c34"
+      ]
+    }
+  ]
+}

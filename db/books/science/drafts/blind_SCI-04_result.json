@@ -1,0 +1,434 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "অ্যাম্পিয়ার (A)",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The electric current is expressed by a unit called ampere (A), named after the French scientist, Andre-Marie Ampere (1775–1836). One ampere is constituted by the flow of one coulomb of charge per second, that is, 1 A = 1 C/1 s.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 171",
+      "notes": "SI unit of current is ampere."
+    },
+    {
+      "id": "q02",
+      "answer": "শ্রেণিতে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "An instrument called ammeter measures electric current in a circuit. It is always connected in series in a circuit through which the current is to be measured.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 171",
+      "notes": "Ammeter always in series."
+    },
+    {
+      "id": "q03",
+      "answer": "ওই দুই বিন্দুর মধ্যে সমান্তরালে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The voltmeter is always connected in parallel across the points between which the potential difference is to be measured.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 172",
+      "notes": "Voltmeter always in parallel across the points."
+    },
+    {
+      "id": "q04",
+      "answer": "300 C",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Electric current is expressed by the amount of charge flowing through a particular area in unit time. In other words, it is the rate of flow of electric charges.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 171",
+      "notes": "Q = I x t = 0.5 A x 600 s = 300 C, from I = Q/t."
+    },
+    {
+      "id": "q05",
+      "answer": "বিপরীত দিকে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Conventionally, in an electric circuit the direction of electric current is taken as opposite to the direction of the flow of electrons, which are negative charges.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 171",
+      "notes": "Conventional current opposite to electron flow."
+    },
+    {
+      "id": "q06",
+      "answer": "24 J",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "We define the electric potential difference between two points in an electric circuit carrying some current as the work done to move a unit charge from one point to the other",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 172",
+      "notes": "W = V x Q = 12 V x 2 C = 24 J, from V = W/Q."
+    },
+    {
+      "id": "q07",
+      "answer": "ধনাত্মক প্রান্ত থেকে ঋণাত্মক প্রান্তের দিকে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "the electric current flows in the circuit from the positive terminal of the cell to the negative terminal of the cell through the bulb and ammeter",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 171",
+      "notes": "External circuit: positive to negative terminal."
+    },
+    {
+      "id": "q08",
+      "answer": "V = IR",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "In 1827, a German physicist Georg Simon Ohm (1787–1854) found out the relationship between the current I, flowing in a metallic wire and the potential difference across its terminals. The potential difference, V, across the ends of a given metallic wire in an electric circuit is directly proportional to the current flowing through it, provided its temperature remains the same. This is called Ohm’s law.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 175",
+      "notes": "Ohm's law V = IR."
+    },
+    {
+      "id": "q09",
+      "answer": "তার দুই প্রান্তে 1 V বিভবপ্রভেদ প্রয়োগ করলে তার মধ্য দিয়ে 1 A প্রবাহ যায়",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "It is the property of a conductor to resist the flow of charges through it. Its SI unit is ohm, represented by the Greek letter Ω. According to Ohm’s law, R = V/I",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 175",
+      "notes": "From R = V/I: 1 ohm when 1 V drives 1 A."
+    },
+    {
+      "id": "q10",
+      "answer": "অর্ধেক হবে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "It is obvious from Eq. (11.7) that the current through a resistor is inversely proportional to its resistance. If the resistance is doubled the current gets halved.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 175",
+      "notes": "Claim states doubling resistance halves current."
+    },
+    {
+      "id": "q11",
+      "answer": "দ্বিগুণ হবে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Precise measurements have shown that resistance of a uniform metallic conductor is directly proportional to its length (l) and inversely proportional to the area of crosssection (A).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 177",
+      "notes": "R directly proportional to length."
+    },
+    {
+      "id": "q12",
+      "answer": "Ω m (ওহম মিটার)",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "where ρ(rho) is a constant of proportionality and is called the electrical resistivity of the material of the conductor. The SI unit of resistivity is Ω m. It is a characteristic property of the material.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 177",
+      "notes": "SI unit of resistivity is ohm metre."
+    },
+    {
+      "id": "q13",
+      "answer": "1/10 Ω cm",
+      "confidence": "LIKELY",
+      "also_defensible": "",
+      "quote": "Precise measurements have shown that resistance of a uniform metallic conductor is directly proportional to its length (l) and inversely proportional to the area of crosssection (A).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 177",
+      "notes": "rho = R A / l = 10 x 1 cm2 / 100 cm = 0.1 ohm cm = 1/10 ohm cm; formula from R proportional to l/A in claims."
+    },
+    {
+      "id": "q14",
+      "answer": "তামা ও অ্যালুমিনিয়াম",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Tungsten is used almost exclusively for filaments of electric bulbs, whereas copper and aluminium are generally used for electrical transmission lines.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 178",
+      "notes": "Copper and aluminium used for transmission lines."
+    },
+    {
+      "id": "q15",
+      "answer": "সব রোধের সরল যোগফল দিয়ে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "We can conclude that when several resistors are joined in series, the resistance of the combination Rs equals the sum of their individual resistances, R1, R2, R3, and is thus greater than any individual resistance.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 182",
+      "notes": "Series equivalent is sum of resistances."
+    },
+    {
+      "id": "q16",
+      "answer": "12.5 Ω",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "We can conclude that when several resistors are joined in series, the resistance of the combination Rs equals the sum of their individual resistances, R1, R2, R3, and is thus greater than any individual resistance.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 182",
+      "notes": "Maximum equivalent is series sum 5 + 4.5 + 3 = 12.5 ohm."
+    },
+    {
+      "id": "q17",
+      "answer": "প্রতিটি রোধের প্রান্তেই বিভবপ্রভেদ সমান (V)",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The potential difference across each resistor is also V.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 185",
+      "notes": "PD across each parallel resistor is V."
+    },
+    {
+      "id": "q18",
+      "answer": "3 Ω",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Thus, we may conclude that the reciprocal of the equivalent resistance of a group of resistances joined in parallel is equal to the sum of the reciprocals of the individual resistances.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 185",
+      "notes": "1/Rp = 1/5 + 1/10 + 1/30 = 10/30, so Rp = 3 ohm."
+    },
+    {
+      "id": "q19",
+      "answer": "সমান্তরালে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "In each separate circuit, different appliances can be connected across the live and neutral wires. Each appliance has a separate switch to ‘ON’/‘OFF’ the flow of current through it. In order that each appliance has equal potential difference, they are connected parallel to each other.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 204",
+      "notes": "Domestic appliances connected in parallel."
+    },
+    {
+      "id": "q20",
+      "answer": "১ ও ২ উভয়ই সঠিক",
+      "confidence": "LIKELY",
+      "also_defensible": "",
+      "quote": "It means that in a series combination of resistors the current is the same in every part of the circuit or the same current through each resistor.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 181",
+      "notes": "Statement 1 verbatim in c18; statement 2 follows from reciprocal-sum rule c23 (Rp smaller than smallest branch)."
+    },
+    {
+      "id": "q21",
+      "answer": "একটি উপাদান নষ্ট হলে পুরো বর্তনী ভেঙে যায় ও কোনো উপাদানই কাজ করে না",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Another major disadvantage of a series circuit is that when one component fails the circuit is broken and none of the components works.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 186",
+      "notes": "Series disadvantage stated verbatim."
+    },
+    {
+      "id": "q22",
+      "answer": "প্রবাহের বর্গের (I²)",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The law implies that heat produced in a resistor is (i) directly proportional to the square of current for a given resistance, (ii) directly proportional to resistance for a given current, and (iii) directly proportional to the time for which the current flows through the resistor.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 188",
+      "notes": "Joule's law: heat proportional to square of current."
+    },
+    {
+      "id": "q23",
+      "answer": "ওয়াট (W)",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The SI unit of electric power is watt (W). It is the power consumed by a device that carries 1 A of current when operated at a potential difference of 1 V.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 190",
+      "notes": "SI unit of power is watt."
+    },
+    {
+      "id": "q24",
+      "answer": "তড়িৎশক্তির",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The commercial unit of electric energy is kilowatt hour (kW h), commonly known as ‘unit’.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 190",
+      "notes": "kW h is commercial unit of electric energy."
+    },
+    {
+      "id": "q25",
+      "answer": "শ্রেণিতে — অতিরিক্ত প্রবাহে গলে গিয়ে বর্তনী ভেঙে দেয়",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Another common application of Joule’s heating is the fuse used in electric circuits. It protects circuits and appliances by stopping the flow of any unduly high electric current. The fuse is placed in series with the device. It consists of a piece of wire made of a metal or an alloy of appropriate melting point",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 189",
+      "notes": "Fuse in series; melts on excess current, breaking circuit."
+    },
+    {
+      "id": "q26",
+      "answer": "টাংস্টেনের গলনাঙ্ক অত্যন্ত বেশি (3380°C)",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "A strong metal with high melting point such as tungsten (melting point 3380°C) is used for making bulb filaments. The filament should be thermally isolated as much as possible, using insulating support, etc. The bulbs are usually filled with chemically inactive nitrogen and argon gases to prolong the life of filament.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 189",
+      "notes": "Tungsten melting point 3380 C stated in claim."
+    },
+    {
+      "id": "q27",
+      "answer": "20 V",
+      "confidence": "LIKELY",
+      "also_defensible": "",
+      "quote": "The law implies that heat produced in a resistor is (i) directly proportional to the square of current for a given resistance, (ii) directly proportional to resistance for a given current, and (iii) directly proportional to the time for which the current flows through the resistor.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 188",
+      "notes": "P = 100 J/s; with H = I^2 R t and V = IR, V = sqrt(P R) = sqrt(100 x 4) = 20 V."
+    },
+    {
+      "id": "q28",
+      "answer": "A-২, B-১, C-২",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "An instrument called ammeter measures electric current in a circuit. It is always connected in series in a circuit through which the current is to be measured.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 171",
+      "notes": "Ammeter series (c05), voltmeter parallel (c09), fuse series (c29)."
+    },
+    {
+      "id": "q29",
+      "answer": "বিকর্ষণ করে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "like poles repel, while unlike poles of magnets attract each other",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 195",
+      "notes": "Like poles repel."
+    },
+    {
+      "id": "q30",
+      "answer": "উত্তর মেরু থেকে বেরিয়ে দক্ষিণ মেরুতে মেশে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "it is taken by convention that the field lines emerge from north pole and merge at the south pole (note the arrows marked on the field lines in Fig. 12.4). Inside the magnet, the direction of field lines is from its south pole to its north pole. Thus the magnetic field lines are closed curves.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 196",
+      "notes": "Outside magnet: emerge from north, merge at south."
+    },
+    {
+      "id": "q31",
+      "answer": "ক্ষেত্ররেখা — পরস্পরকে কখনো ছেদ করে না",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "No two fieldlines are found to cross each other. If they did, it would mean that at the point of intersection, the compass needle would point towards two directions, which is not possible.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 196",
+      "notes": "No two field lines cross each other."
+    },
+    {
+      "id": "q32",
+      "answer": "তারকে কেন্দ্র করে সমকেন্দ্রিক বৃত্ত",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The field lines about the wire consist of a series of concentric circles whose direction is given by the righthand rule.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 205",
+      "notes": "Concentric circles around straight wire."
+    },
+    {
+      "id": "q33",
+      "answer": "বাড়ে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "It indicates that the magnitude of the magnetic field produced at a given point increases as the current through the wire increases.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 198",
+      "notes": "Field magnitude increases as current increases."
+    },
+    {
+      "id": "q34",
+      "answer": "A ও R উভয়ই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": "",
+      "quote": "The relative strength of the magnetic field is shown by the degree of closeness of the field lines. The field is stronger, that is, the force acting on the pole of another magnet placed is greater where the field lines are crowded",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 196",
+      "notes": "Field stronger where lines crowded (c39); poles are where lines are densest, so R explains A."
+    },
+    {
+      "id": "q35",
+      "answer": "চৌম্বক ক্ষেত্ররেখার দিক",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Imagine that you are holding a currentcarrying straight conductor in your right hand such that the thumb points towards the direction of current. Then your fingers will wrap around the conductor in the direction of the field lines of the magnetic field, as shown in Fig. 12.7. This is known as the righthand thumb rule",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 198",
+      "notes": "Wrapped fingers give direction of field lines."
+    },
+    {
+      "id": "q36",
+      "answer": "সব বিন্দুতে সমান (সুষম)",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "In fact, one end of the solenoid behaves as a magnetic north pole, while the other behaves as the south pole. The field lines inside the solenoid are in the form of parallel straight lines. This indicates that the magnetic field is the same at all points inside the solenoid. That is, the field is uniform inside the solenoid.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 200",
+      "notes": "Field same at all points inside solenoid = uniform."
+    },
+    {
+      "id": "q37",
+      "answer": "সলিনয়েডের ভিতরে নরম লোহার মজ্জা রেখে তার গায়ে অন্তরিত তামার তারের কুণ্ডলী জড়িয়ে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "An electromagnet consists of a core of soft iron wrapped around with a coil of insulated copper wire.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 205",
+      "notes": "Electromagnet: soft iron core with insulated copper coil (also c47)."
+    },
+    {
+      "id": "q38",
+      "answer": "তড়িৎপ্রবাহের দিক",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "According to this rule, stretch the thumb, forefinger and middle finger of your left hand such that they are mutually perpendicular (Fig. 12.13). If the first finger points in the direction of magnetic field and the second finger in the direction of current, then the thumb will point in the direction of motion or the force acting on the conductor.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 202",
+      "notes": "Fleming left-hand: middle/second finger = current."
+    },
+    {
+      "id": "q39",
+      "answer": "যখন প্রবাহের দিক ক্ষেত্রের দিকের সঙ্গে লম্ব থাকে",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Experiments have shown that the displacement of the rod is largest (or the magnitude of the force is the highest) when the direction of current is at right angles to the direction of the magnetic field.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 202",
+      "notes": "Force largest when current at right angles to field."
+    },
+    {
+      "id": "q40",
+      "answer": "সবুজ",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The earth wire, which has insulation of green colour, is usually connected to a metal plate deep in the earth near the house. This is used as a safety measure, especially for those appliances that have a metallic body",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 203",
+      "notes": "Earth wire insulation is green."
+    },
+    {
+      "id": "q41",
+      "answer": "হঠাৎ প্রচণ্ড বেড়ে যায়",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "Overloading can occur when the live wire and the neutral wire come into direct contact. (This occurs when the insulation of wires is damaged or there is a fault in the appliance.) In such a situation, the current in the circuit abruptly increases. This is called shortcircuiting.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 204",
+      "notes": "Short circuit: current abruptly increases."
+    },
+    {
+      "id": "q42",
+      "answer": "গ → ঘ → ক → খ",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "In 1820 he accidentally discovered that a compass needle got deflected when an electric current passed through a metallic wire placed nearby. Through this observation Oersted showed that electricity and magnetism were related phenomena.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+      "page": "p. 195",
+      "notes": "Volta b.1745 (c08), Ampere b.1775 (c03), Oersted 1820 (c34), Ohm 1827 (c10)."
+    },
+    {
+      "id": "q43",
+      "answer": "5 A",
+      "confidence": "SURE",
+      "also_defensible": "",
+      "quote": "The fuses used for domestic purposes are rated as 1 A, 2 A, 3 A, 5 A, 10 A, etc. For an electric iron which consumes 1 kW electric power when operated at 220 V, a current of (1000/220) A, that is, 4.54 A will flow in the circuit. In this case, a 5 A fuse must be used.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+      "page": "p. 189",
+      "notes": "Claim states 1 kW iron at 220 V needs 5 A fuse."
+    }
+  ]
+}

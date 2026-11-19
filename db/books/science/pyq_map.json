@@ -1,1 +1,1304 @@
-{}
+{
+  "SCI-01": [
+    {
+      "note": "GK fact bank item (general_science.jsonl, subtopic physics_units): the seven SI base units — all seven taught with symbols and modern definitions in base_units (keph101 Table 1.1).",
+      "pyq_code": "GK-SCI-001",
+      "section": "base_units",
+      "taught": true
+    },
+    {
+      "note": "SI unit of temperature = kelvin (keph101 Table 1.1: kelvin is the SI unit of thermodynamic temperature, defined via the Boltzmann constant). Also flagged in the section's dont_confuse box.",
+      "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q14",
+      "section": "base_units",
+      "taught": true
+    },
+    {
+      "note": "Unit of power of a lens = dioptre (jesc109: 'The SI unit of power of a lens is dioptre'; 1 D = 1 m-1). Taught in derived_units.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q74",
+      "section": "derived_units",
+      "taught": true
+    },
+    {
+      "note": "Not a unit of energy (answer: pascal; options erg, joule, calorie, pascal). The chapter teaches joule as the unit of energy, but neither pascal, erg nor calorie appears in the fetched NCERT pages, so the elimination the question requires cannot be sourced here. Source gap, disclosed — not filled from memory.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q98",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Light year = the distance travelled by light in free space in one year (keph101: light year = 9.47 x 10^15 m). Taught in scales with the time-unit trap called out.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q135",
+      "section": "scales",
+      "taught": true
+    },
+    {
+      "note": "One horse power = 746 watts. The horsepower conversion does not appear in any fetched NCERT source (keph101, iesc110, iesc111, jesc109); the chapter teaches the watt from iesc110 but not the hp conversion. Source gap, disclosed — the value is not asserted in the chapter.",
+      "pyq_code": "WBPSC-IDO-2019-Q10",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "SI unit of radioactivity = becquerel. Becquerel does not appear in the fetched NCERT sources; it belongs with radioactivity (SCI-05 modern physics). Not taught in this chapter.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q92",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Which is NOT a unit of energy (answer: kelvin; options joule, kelvin, electron-volt). The chapter teaches kelvin as the SI unit of thermodynamic temperature and joule as the unit of energy, which identifies the answer. Note: electron-volt itself is not in the fetched sources; the kelvin/joule contrast taught here is sufficient for this item.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q95",
+      "section": "base_units",
+      "taught": true
+    },
+    {
+      "note": "SI unit of the work function of a metal = joule. The work function itself belongs to the photoelectric effect (SCI-05), but the unit reasoning is taught here: work/energy is measured in joules (iesc110; keph101 Example 1.4). Marked taught on the unit, with the concept gap noted.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q92",
+      "section": "derived_units",
+      "taught": true
+    }
+  ],
+  "SCI-02": [
+    {
+      "pyq_code": "GK-SCI-002",
+      "section": "force_inertia",
+      "taught": true,
+      "note": "GK bank item (general_science.jsonl, subtopic physics_mechanics): Newton's first law is Galileo's law of inertia; bus start/stop cases taught in force_inertia from iesc108 and keph104."
+    },
+    {
+      "pyq_code": "GK-SCI-003",
+      "section": null,
+      "taught": false,
+      "note": "GK bank item (subtopic physics_mechanics): escape speed 11.2 km/s (Earth) and 2.3 km/s (Moon) come from NCERT XI Ch. 7 Gravitation (keph107.pdf), which could not be fetched in this run (network error). Escape speed is deliberately not taught in this chapter; gravitation is taught from iesc109 only."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q45",
+      "section": "force_inertia",
+      "taught": true,
+      "note": "Bus starting suddenly pushes passengers back = Newton's first law (inertia); taught with the iesc108 bus example."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q75",
+      "section": "second_law_momentum",
+      "taught": true,
+      "note": "Definition of unit force is obtained from Newton's second law (F = ma, 1 N definition in keph104/iesc108); also a practice question (q22)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q54",
+      "section": "work_energy_power",
+      "taught": true,
+      "note": "Kilowatt-hour is the unit of electrical energy (keph105: kWh is a unit of energy, not of power); practice question q38."
+    },
+    {
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q10",
+      "section": "work_energy_power",
+      "taught": true,
+      "note": "One horse power = 746 watts (keph105 verbatim); practice question q39."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q73",
+      "section": "work_energy_power",
+      "taught": true,
+      "note": "Frictional force is not a conservative force (keph105 points to ponder); exam-level assertion-reason q42 teaches the distinction."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q188",
+      "section": "acceleration_equations",
+      "taught": true,
+      "note": "Whirled stone flies off tangentially when the string snaps (iesc107 Activity 7.11; keph104 exercise answer); practice question q09."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q169",
+      "section": "work_energy_power",
+      "taught": true,
+      "note": "Equal kinetic energy: the heavy body has the greater momentum. Taught as a derivation in the section deep text from p = mv (keph104) and Ek = 1/2 mv^2 (iesc110), giving p = sqrt(2mEk); practice question q41."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q72",
+      "section": "work_energy_power",
+      "taught": true,
+      "note": "Work done by gravitational force on a planet in a circular orbit is zero; taught via keph105's moon example (force radial, displacement tangential); practice question q40."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q88",
+      "section": null,
+      "taught": false,
+      "note": "Official key: Isaac Newton 'gave the equations of motion for the first time'. The equations themselves are taught (acceleration_equations, iesc107), but no fetched NCERT source attributes them to Newton, so the attribution is not taught or asserted in the chapter."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q49",
+      "section": null,
+      "taught": false,
+      "note": "'Bar' is a unit of pressure. The chapter teaches pressure and its SI unit pascal from iesc109 Ch. 9, but the unit 'bar' appears in none of the fetched sources, so this item is not counted as taught; the gap is flagged in a dont_confuse box in gravitation_weight."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q95",
+      "section": null,
+      "taught": false,
+      "note": "'Which is NOT a unit of energy' (key: Kelvin). Energy units (joule, kWh) are taught, but no fetched source for this chapter states that kelvin is the unit of temperature, so the odd-one-out identification is not fully supported; not counted as taught."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q98",
+      "section": "work_energy_power",
+      "taught": true,
+      "note": "'Which is not a unit of energy' (key: Pascal). Pascal is taught as the SI unit of pressure in gravitation_weight (iesc109) and energy units (joule, kWh) in work_energy_power, so the odd one out is identifiable from the chapter."
+    }
+  ],
+  "SCI-03": [
+    {
+      "note": "SI unit of temperature. The chapter teaches that the unit on the absolute (kelvin) scale is the kelvin, symbol K (IGNOU Measurement of Temperature), so the answer is identifiable from the chapter.",
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q14",
+      "section": "heat_temperature",
+      "taught": true
+    },
+    {
+      "note": "Temperature at which the Celsius and Fahrenheit readings are equal (-40). No source fetched for this chapter states the Celsius-Fahrenheit conversion relation, so the equality point cannot be derived from taught material; not counted as taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q94",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Image formed by a plane mirror. Taught directly: virtual, erect, same size as the object, as far behind the mirror as the object is in front (NCERT Class X, Light).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q53",
+      "section": "light_reflection",
+      "taught": true
+    },
+    {
+      "note": "Mirror image of a clock showing 4.25. Lateral inversion is taught in the chapter (Class VIII Light) together with the 12:00-minus-time reading method in the section text.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q29",
+      "section": "light_reflection",
+      "taught": true
+    },
+    {
+      "note": "Speed of sound is faster in which medium. Taught: speed decreases from solids to gases, with Table values (steel 5960 m/s, water 1498 m/s, air 346 m/s at 25 C) from NCERT Class IX Sound.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q111",
+      "section": "sound",
+      "taught": true
+    },
+    {
+      "note": "Good absorbers of heat are also good emitters. Taught verbatim from IGNOU Heat: bodies that absorb a large amount of heat also radiate a large amount; a black body is a good absorber and a good radiator.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q132",
+      "section": "heat_transfer_expansion",
+      "taught": true
+    },
+    {
+      "note": "Light year is a unit of distance. No fetched source for this chapter defines the light year or gives the Sun-Earth distance scale needed for it, so it is not taught; the speed of light itself (3 x 10^8 m/s) is taught in light_refraction_lenses.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q135",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Power of a lens is +2.0 D; find focal length and nature. This is NCERT Class X's own worked example, taught in the chapter: P = 1/f gives f = +0.50 m and the positive sign means a convex lens.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q49",
+      "section": "light_refraction_lenses",
+      "taught": true
+    },
+    {
+      "note": "Pure water freezes at 0 C. Taught as the Celsius ice point: the ice point and steam point are the temperatures at which pure water freezes and boils (IGNOU Measurement of Temperature).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q35",
+      "section": "heat_temperature",
+      "taught": true
+    },
+    {
+      "note": "Part of the human eye having the maximum refractive index. NCERT Class X states only that most of the refraction for light entering the eye occurs at the outer surface of the cornea; no fetched source lists the refractive indices of the eye's parts, so the chapter does not teach an answer against the official key.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q141",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "An iron ball is heated; percentage increase is largest in volume. Thermal expansion of solids (linear vs area vs volume comparison) is not covered by any fetched source - the IGNOU Heat unit fetched covers expansion of liquids only - so this is not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q152",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "A spherical cavity inside a heated metallic ball expands. Same gap as Q152: solid thermal expansion is absent from the fetched sources (NCERT Class XI thermal chapters could not be fetched), so the cavity behaviour is not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q198",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Refractive index in terms of velocity of light C in vacuum and V in the medium. Taught directly: refractive index = speed of light in the first medium / speed in the second, i.e. C/V for vacuum (NCERT Class X, Light).",
+      "pyq_code": "IDO-2019-Q57",
+      "section": "light_refraction_lenses",
+      "taught": true
+    },
+    {
+      "note": "Function of the lens in our eyes. Taught: the eye lens forms an inverted real image on the retina and adjusts its focal length (accommodation) for near and distant objects (NCERT Class X, Human Eye).",
+      "pyq_code": "IDO-2019-Q87",
+      "section": "light_phenomena_eye",
+      "taught": true
+    },
+    {
+      "note": "Lens used as a projector in a cinema hall. Taught: a convex (converging) lens forms real images on a screen and is the projector lens; a concave lens cannot form a real image.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q59",
+      "section": "light_refraction_lenses",
+      "taught": true
+    },
+    {
+      "note": "Unit of power of a lens. Taught: the SI unit of lens power is the dioptre (D); a lens of focal length 1 m has power 1 D (NCERT Class X, Light).",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q74",
+      "section": "light_refraction_lenses",
+      "taught": true
+    },
+    {
+      "note": "Time taken by sunlight to reach the Earth. Computing it needs the Sun-Earth distance, which no fetched source states; the speed of light in vacuum is taught, but the travel-time fact itself is not, so it is not counted as taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q64",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Wave with the highest frequency (electromagnetic spectrum ordering). The EM spectrum belongs to SCI-05 (modern physics); no fetched source for this chapter covers it, so it is out of this chapter's scope.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q57",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "GK bank card: twinkling of stars is due to atmospheric refraction. Taught in full, including why planets do not twinkle and why a star appears slightly higher than its actual position (NCERT Class X, Human Eye).",
+      "pyq_code": "GK-SCI-004",
+      "section": "light_phenomena_eye",
+      "taught": true
+    },
+    {
+      "note": "GK bank card (sound and eye facts): speed of sound, echo distance 17.2 m, myopia corrected by concave lens, hypermetropia by convex lens, ultrasound/SONAR uses. All parts are taught except SONAR by name (the fetched NCERT Sound chapter contains no SONAR passage; ultrasound uses - flaw detection, echocardiography, ultrasonography - are taught). Minor numeric note: the card gives about 332 m/s at 0 C and 343 m/s at 20 C, while NCERT gives 331 m/s at 0 C and 344 m/s at 22 C; the chapter teaches the NCERT values and flags the difference.",
+      "pyq_code": "GK-SCI-018",
+      "section": "sound",
+      "taught": true
+    },
+    {
+      "note": "GK bank card: total internal reflection (optical fibre, diamond, mirage), dispersion (prism, rainbow), scattering (blue sky, red danger signals). Every phenomenon-cause pair on the card is taught in light_phenomena_eye with NCERT Class X sources.",
+      "pyq_code": "GK-SCI-024",
+      "section": "light_phenomena_eye",
+      "taught": true
+    }
+  ],
+  "SCI-04": [
+    {
+      "note": "GK bank card (subtopic physics_electricity): commercial unit of electric energy is the kilowatt hour; 1 kW h = 3.6 × 10^6 J. Taught in heating_power (claims c32, c33) and practised in q24.",
+      "pyq_code": "GK-SCI-005",
+      "section": "heating_power",
+      "taught": true
+    },
+    {
+      "note": "GK bank card (subtopic physics_electricity): Ohm's law V = IR, fuse in series with low melting point, household parallel connection, motor = Fleming's left-hand rule — all taught (c10, c29, c48, c54). PARTIAL GAP inside this card: its generator = Fleming's RIGHT-hand rule pairing is NOT taught, because electromagnetic induction was removed from the rationalised NCERT Class X Ch. 12 body text used as source; the chapter names the generator only as a device using conductors in magnetic fields (c50).",
+      "pyq_code": "GK-SCI-019",
+      "section": "ohms_resistance",
+      "taught": true
+    },
+    {
+      "note": "Electric appliances in a house are connected in parallel (db/pyq/wbcs-prelims-2017.json). Taught in series_parallel (c54) and practised in q19.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q49",
+      "section": "series_parallel",
+      "taught": true
+    },
+    {
+      "note": "Combine 5 ohm, 4.5 ohm and 3 ohm for maximum total resistance = 12.5 ohm in series (db/pyq/wbcs-prelims-2023.json). Taught (c20) and mirrored in practice q16.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q195",
+      "section": "series_parallel",
+      "taught": true
+    },
+    {
+      "note": "Resistivity of a wire of length 1 m, area 1 cm^2, resistance 10 ohm = 1/10 ohm cm (db/pyq/wbcs-prelims-2024.json). Taught via R = rho l/A (c13, c14) and mirrored in practice q13.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q191",
+      "section": "ohms_resistance",
+      "taught": true
+    },
+    {
+      "note": "The kilowatt-hour is the unit of electrical energy (db/pyq/wbpsc-clerkship-2009-session-1.json, Session I, Q54). Taught (c32, c33) and practised in q24.",
+      "pyq_code": "WBPSC-CLERKSHIP-2009-SESSION-1-Q54",
+      "section": "heating_power",
+      "taught": true
+    },
+    {
+      "note": "Resistance of a pure semiconductor DECREASES with increase in temperature (db/pyq/wbcs-prelims-2016.json). Not taught: the chapter only states that resistance and resistivity vary with temperature (c15, metallic-conductor context of NCERT X Ch. 11); semiconductor behaviour is not in the NCERT Class X sources used.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q65",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Angle of dip at the magnetic poles is 90 degrees (db/pyq/wbcs-prelims-2019.json). Not taught: Earth's magnetism and angle of dip do not appear in the rationalised NCERT Class X Ch. 12 used as source.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q150",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Nikola Tesla invented AC electricity (db/pyq/misc-2023.json). Not taught as an attribution: the chapter teaches that homes receive AC supply of 220 V at 50 Hz (c51) but the NCERT sources used name no inventor; inventor attributions belong to SCI-15 (আবিষ্কার ও উদ্ভাবন).",
+      "pyq_code": "WBPSC-MISCELLANEOUS-2023-PRELIMS-Q68",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Hertz proved experimentally the existence of electromagnetic waves (db/pyq/ido-2019.json). Not taught: electromagnetic waves are modern physics (SCI-05), outside this chapter's NCERT Class X sources.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q86",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "The electric bulb was invented by Edison (db/pyq/ido-2019.json). Not taught as an attribution: the chapter teaches the tungsten filament and its melting point (c16, c28) but the NCERT sources used do not name Edison; inventor attributions belong to SCI-15.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q11",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "All electromagnetic waves have the same speed in vacuum (db/pyq/wbcs-prelims-2018.json). Not taught: electromagnetic waves are modern physics (SCI-05), outside this chapter's sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q107",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Diamond has high thermal conductivity (k) and low electrical conductivity (db/pyq/wbcs-prelims-2021.json). Not taught: thermal conductivity and diamond's paired conductivities are not treated in the NCERT Class X electricity sources used (the resistivity table alone does not support the thermal half of the item).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q73",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "SI unit of the work function of a metal (photoelectric effect) is the joule (db/pyq/wbpsc-clerkship-2023-session-4.json, Session IV, Q92). Not taught: the photoelectric effect is modern physics (SCI-05), outside this chapter's sources.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION-4-Q92",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "SCI-05": [
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q61",
+      "section": "s3",
+      "taught": true,
+      "note": "X-rays are electromagnetic radiations of very short wavelength: taught via the electromagnetic spectrum (NCERT XI Chemistry Fig. 2.7 places X-rays in the spectrum, beyond ultraviolet) and IGNOU's medical-use note. The spectrum figure itself was not text-extractable; the ordering is taught from the figure reference in the source."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q65",
+      "section": null,
+      "taught": false,
+      "note": "Resistance of a pure semiconductor with temperature: semiconductor electronics is NOT taught in this chapter. NCERT Class XII Physics (Semiconductor Electronics) could not be fetched through the text-fetch tool; source gap, disclosed in the chapter verification notes."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q50",
+      "section": "s7",
+      "taught": true,
+      "note": "Lead is the shielding material: IGNOU MEV-001 states gamma radiations cannot pass through lead (claim c56)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q26",
+      "section": null,
+      "taught": false,
+      "note": "Plutonium in heart pacemakers: the specific fact is in neither NCERT source used nor the IGNOU unit; chapter teaches plutonium only as a fissile heavy atom. Source gap."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q27",
+      "section": null,
+      "taught": false,
+      "note": "Carbon-14 dating of archaeological findings: isotopes are taught (s6), but no fetched source names carbon-14 or radiocarbon dating. Source gap."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q73",
+      "section": "s7",
+      "taught": true,
+      "note": "'Curie' is a unit of radioactivity: IGNOU MEV-001 gives curie as the traditional unit of activity (claim c54)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q39",
+      "section": "s6",
+      "taught": true,
+      "note": "Ion electron count: Z = A - N = 13, minus 3 for the +3 charge = 10 electrons; the method is taught in s6 with this very pattern as the worked example (claims c15, c16)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q35",
+      "section": "s3",
+      "taught": true,
+      "note": "Photon energy E = h nu = 50h J for nu = 50 Hz; taught in s3 (claim c27) and practised in q17."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q102",
+      "section": null,
+      "taught": false,
+      "note": "Silicon as a semiconductor: semiconductor electronics is NOT taught in this chapter (NCERT Class XII Physics unfetchable through the text-fetch tool). Source gap."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q119",
+      "section": "s8",
+      "taught": true,
+      "note": "Thorium for nuclear power: NCERT X names thorium among the heavy atoms whose nucleus can be split for nuclear energy (claim c43) and the exam_focus box flags this exact PYQ. The 'adequately available in India' angle is not in the sources and the box says so."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q179",
+      "section": null,
+      "taught": false,
+      "note": "Element outside the radioactive series with a radioactive isotope (official key 'All of the above'): not covered by any fetched source; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q92",
+      "section": "s7",
+      "taught": true,
+      "note": "SI unit of radioactivity is the becquerel: IGNOU MEV-001 (claim c54)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q92",
+      "section": "s4",
+      "taught": true,
+      "note": "SI unit of work function is the joule: work function W0 = h nu0 is an energy (claim c32), taught in s4 and practised in q25."
+    }
+  ],
+  "SCI-06": [
+    {
+      "note": "GK bank item for subtopic chemistry_matter: common chemicals and formulas (caustic soda NaOH, slaked lime Ca(OH)2, gypsum, blue/green vitriol). This chapter teaches elements, compounds and mixtures in general and the formula concept, but not these specific chemical names/formulas; they belong mainly to SCI-07 (acids, bases and salts) and SCI-08 (metals and non-metals). Not taught here.",
+      "pyq_code": "GK-SCI-020",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Which is not an alloy of copper (answer: solder, a tin-lead alloy). Alloys as mixtures are taught in mixture_kinds; solder = tin + lead is stated in the exam_note box.",
+      "pyq_code": "WBPSC-IDO-2019-Q18",
+      "section": "mixture_kinds",
+      "taught": true
+    },
+    {
+      "note": "Methylated spirit is a mixture of methyl alcohol and ethyl alcohol: the specific composition is not in the NCERT pages fetched for this chapter. Source gap; not taught.",
+      "pyq_code": "WBPSC-IDO-2019-Q21",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Cement is a mixture of calcium aluminate and calcium silicate: cement composition is not covered in the fetched NCERT sources. Source gap; not taught.",
+      "pyq_code": "WBPSC-IDO-2019-Q28",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "In bronze, copper is mixed with tin. Bronze = copper + tin is stated in the mixture_kinds exam_note box on alloys.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q82",
+      "section": "mixture_kinds",
+      "taught": true
+    },
+    {
+      "note": "Brass is a mixture of copper and zinc (NCERT iesc102: approximately 30% zinc and 70% copper, claim c08); taught in the section text, a practice question and the exam_note.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q140",
+      "section": "mixture_kinds",
+      "taught": true
+    },
+    {
+      "note": "Solder is an alloy of tin and lead; stated in the mixture_kinds exam_note box on alloys.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q130",
+      "section": "mixture_kinds",
+      "taught": true
+    },
+    {
+      "note": "Bronze is an alloy of copper and tin; stated in the mixture_kinds exam_note box.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q146",
+      "section": "mixture_kinds",
+      "taught": true
+    },
+    {
+      "note": "Identify the substance which can dissolve in water (official key: All of the above - glucose, urea, acetone). The chapter teaches solutions in general but not the solubility of these specific substances; the fetched NCERT pages do not cover them. Not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q107",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Baking soda is a mixture of sodium hydrogen carbonate and tartaric acid (official key): this specific composition is not in the fetched NCERT sources and belongs with SCI-07 (acids, bases and salts). Not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q184",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Pair of an electrovalent (ionic) compound and a covalent compound: the ionic/covalent bonding classification is not taught in this chapter (ions are mentioned only in passing from iesc103); bonding belongs to the Class IX structure-of-atom/bonding material not fetched here. Not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q43",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Chemical symbol of potassium is K, from Latin kalium (NCERT iesc103, claim c39); taught in the section text, a practice question (q32) and exam_focus.",
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q47",
+      "section": "atoms_molecules",
+      "taught": true
+    }
+  ],
+  "SCI-07": [
+    {
+      "pyq_code": "GK-SCI-006",
+      "section": "ph_scale",
+      "taught": false,
+      "note": "Bank item on specific pH values (neutral 7 taught here; body range 7.0-7.8, acid rain below 5.6, tooth decay below 5.5). The 5.6 and 5.5 thresholds come from NCERT Class X Ch.2 (jesc102), whose fetch failed on this machine, so those exact values are NOT taught in this chapter. Blood pH ~7.4 is taught (buffers). Source gap, disclosed."
+    },
+    {
+      "pyq_code": "GK-SCI-007",
+      "section": null,
+      "taught": false,
+      "note": "Bank item on naturally occurring acids (vinegar-acetic, lemon-citric, tamarind-tartaric, tomato-oxalic, curd-lactic, ant/nettle sting-methanoic). Only vinegar = acetic acid is supported by a fetched source here (NCERT VII gesc105, Activity 5.8); the full table is in NCERT Class X Ch.2 Table 2.3, which could not be fetched. Not taught as a table; source gap, disclosed."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q38",
+      "section": null,
+      "taught": false,
+      "note": "Plaster of Paris is produced by heating (gypsum). Everyday salts (POP, baking/washing soda, bleaching powder) are in NCERT Class X Ch.2, which could not be fetched; not taught here. Source gap."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q55",
+      "section": "reactions",
+      "taught": true,
+      "note": "Chemical name of vinegar is acetic acid: NCERT Class VII (gesc105) Activity 5.8 writes 'Vinegar (Acetic acid) + Baking soda (Sodium hydrogencarbonate)'; taught in reactions and q09."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q137",
+      "section": "ph_scale",
+      "taught": true,
+      "note": "Select the one having pH < 7 (acidic): taught in ph_scale (neutral 7, acidic below 7) and q17."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q184",
+      "section": null,
+      "taught": false,
+      "note": "Baking soda is a mixture of (composition item). The fetched sources name baking soda only as sodium hydrogencarbonate in the vinegar reaction; the mixture composition is not in the fetched sources. Not taught. Source gap."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q96",
+      "section": "acid_rain",
+      "taught": true,
+      "note": "Acid rain is due to increased atmospheric concentration of SO2 (key gas): e-PG Pathshala Module 05; taught in acid_rain and q36."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q84",
+      "section": "buffers",
+      "taught": true,
+      "note": "pH of human blood (~7.4): NIOS Lesson 12 buffer section states blood pH is very close to 7.4; taught in buffers/ph_scale and q25."
+    }
+  ],
+  "SCI-08": [
+    {
+      "note": "GK bank item (subtopic chemistry_metals): exceptions among metals/non-metals — liquid mercury, liquid bromine, gallium/caesium melting on the palm, lustrous iodine, diamond/graphite. NOT taught in SCI-08: these facts live in NCERT Class X Ch. 3 (jesc103), whose fetch failed on this machine (network error), and neither fetched source (NCERT XII Unit 6; NIOS 313 Lesson 16) covers physical-state exceptions. Disclosed as a gap in REPORT.md; do not teach until jesc103 is fetched.",
+      "pyq_code": "GK-SCI-009",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "GK bank item (subtopic chemistry_metals): common alloys. PARTIALLY taught: brass (Cu+Zn) and bronze (Cu+Sn) are taught in alloys_uses from fetched claims (NIOS alloy definition; NCERT XII uses of copper/zinc, brass Cu 60% Zn 40%). NOT taught: solder (Pb+Sn), amalgam (mercury alloy), stainless steel composition (Fe+Ni+Cr) and 22-carat gold — none of these compositions appears in the two fetched sources, so the item as a whole is marked untaught.",
+      "pyq_code": "GK-SCI-010",
+      "section": "alloys_uses",
+      "taught": false
+    },
+    {
+      "note": "Industrial Development Officer 2019 Q18: 'Which of the following is not an alloy of copper?' (answer: Solder). Solder and gun metal compositions are not in the fetched sources, so the item cannot be answered from this chapter alone.",
+      "pyq_code": "WBPSC-IDO-2019-Q18",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Kolkata Police Constable (Prelims) 2023 Q85: liquid metal (mercury). Physical-state exceptions are not taught in SCI-08 — NCERT Class X Ch. 3 could not be fetched; see GK-SCI-009 gap note.",
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q85",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBPSC Miscellaneous (Prelims) 2023 Q66: 'Which of the following is not a metal?' (answer: Sulphur). Element-by-element metal/non-metal classification belongs to SCI-06 (পদার্থ: মৌল, যৌগ ও মিশ্রণ); SCI-08 teaches occurrence and extraction, and sulphur-as-non-metal is not stated in the fetched sources.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q66",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBPSC Miscellaneous (Prelims) 2023 Q82: 'In Bronze, Copper is mixed with' (answer: Tin). Taught in alloys_uses: bronze = copper + tin (NCERT XII Unit 6, uses of copper).",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q82",
+      "section": "alloys_uses",
+      "taught": true
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2016 Q103: metal present in chlorophyll (magnesium). Biology content (SCI-10/SCI-14 scope); not in this chapter's fetched sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q103",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2019 Q140: 'Brass is a mixture of' (answer: Copper & Zinc). Taught in alloys_uses (NIOS alloy definition; NCERT XII brass Cu 60%, Zn 40%).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q140",
+      "section": "alloys_uses",
+      "taught": true
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2021 Q130: solder is an alloy of Sn and Pb. Solder composition is not in the fetched sources (same gap as GK-SCI-010), so untaught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q130",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2022 Q138: metal present in haemoglobin (iron). Biology content; the chapter teaches iron extraction, not iron in haemoglobin, and the fetched sources do not state it in a teachable claim for this item.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q138",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2022 Q146: 'Bronze is an alloy of' (answer: Copper and Tin). Taught in alloys_uses.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q146",
+      "section": "alloys_uses",
+      "taught": true
+    },
+    {
+      "note": "WBP Constable (Prelims) 2021 Q31: metal present in chlorophyll (magnesium). Biology content; not taught here (see WBCS 2016 Q103 note).",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q31",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2023 Q198: metallic ball with a central cavity heated — thermal expansion, physics (SCI-03 তাপ, আলো ও শব্দ scope), not metals chemistry.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q198",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2024 Q191: resistivity of a uniform metal wire — physics/electricity (SCI-04 scope), not this chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q191",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBPSC Clerkship (Part-I) 2023 Session 4 Q69: metal NOT known to the Harappans — Indian history (HIS-02 scope), not science.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-S4-Q69",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBPSC Clerkship (Part-I) 2023 Session 4 Q92: SI unit of the work function of a metal (photoelectric effect) — modern physics (SCI-05 scope), not this chapter.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-S4-Q92",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "SCI-09": [
+    {
+      "note": "GK bank item (subtopic chemistry_everyday): baking soda NaHCO3, washing soda Na2CO3.10H2O, bleaching powder from chlorine on dry slaked lime (Ca(ClO)2), Plaster of Paris CaSO4.½H2O from gypsum at 373 K — all taught in common_salts (claims c68, c70, c71, c72) with the bank's own NCERT jesc102 quotes.",
+      "pyq_code": "GK-SCI-008",
+      "section": "common_salts",
+      "taught": true
+    },
+    {
+      "note": "Chemically aspirin is acetyl salicylic acid — taught in medicines (claim c02, NIOS 313 Lesson 30 p. 388) and practised as q01.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q115",
+      "section": "medicines",
+      "taught": true
+    },
+    {
+      "note": "Compound that cannot be kept in a glass vessel (HF): hydrofluoric acid's attack on glass appears in none of the fetched allowed sources (NIOS 313 L30/L31; NCERT jesc101/jesc104/gesc105; jesc102 salts sections). Not taught — source gap, disclosed in REPORT.md.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q108",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Penicillin is obtained from the fungi group: taught in antibiotics — antibiotics are metabolic products of mould/fungi (c16) and Fleming isolated penicillin from the mould Penicillium notatum (c17, NIOS 313 Lesson 30 p. 394).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q40",
+      "section": "antibiotics",
+      "taught": true
+    },
+    {
+      "note": "Plaster of Paris is produced by heating gypsum — taught in common_salts (claim c72, NCERT jesc102) and practised as q37.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q38",
+      "section": "common_salts",
+      "taught": true
+    },
+    {
+      "note": "Fertiliser with most nitrogen (urea, ~46%): fertiliser composition/percentages appear in none of the fetched allowed sources for this chapter. Not taught — source gap, disclosed in REPORT.md.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q131",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Toothpaste is commonly basic: the pH-in-everyday-life passage sits in NCERT jesc102 §2.3, whose PDF could not be fetched directly on this machine (network failure; only §2.4 salts quotes were cross-verified via GK-SCI-008). Not asserted from an unverified quote — source gap, disclosed in REPORT.md.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q138",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Main ingredient in cement (limestone): the chapter teaches the adjacent chain — limestone decomposes to quick lime (CaO) and CaO is used in cement manufacture (claim c59, NCERT jesc101) — but no fetched source states that limestone is cement's main ingredient, so the item as keyed is marked untaught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q139",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Baking soda is a mixture of sodium hydrogencarbonate and tartaric acid (the baking-powder combination per the official key): taught in common_salts — baking soda is NaHCO3 (c68) and baking powder is its mixture with tartaric acid, releasing CO2 on heating.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q184",
+      "section": "common_salts",
+      "taught": true
+    },
+    {
+      "note": "Mixture of calcium aluminate and calcium silicate is called cement: cement's silicate/aluminate composition appears in none of the fetched allowed sources (only CaO's use in cement manufacture, c59). Not taught — source gap, disclosed in REPORT.md.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q28",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Non-biodegradable item (nylon): taught in polymers — nylon is a synthetic polymer and ordinary (synthetic) polymers do not degrade naturally by light, oxygen, water or micro-organisms (claims c44, c48, NIOS 313 Lesson 31), unlike the natural materials in the other options.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q91",
+      "section": "polymers",
+      "taught": true
+    }
+  ],
+  "SCI-10": [
+    {
+      "note": "GK bank item (subtopic biology_cell_genetics): mitochondria are the sites of aerobic respiration and produce ATP, hence 'power houses' of the cell; ribosomes are the site of protein synthesis. Both taught in organelles (NIOS Lesson 4, pp. 85, 88) and practised in q07/q08. The bank item's extra details (mitochondrial matrix DNA, 70S ribosomes, fission) are partly covered: own DNA/ribosomes of mitochondria are taught as semi-autonomy (q13); the matrix-DNA detail itself is not separately taught.",
+      "pyq_code": "GK-SCI-015",
+      "section": "organelles",
+      "taught": true
+    },
+    {
+      "note": "'The powerhouse of a cell is the' — Mitochondria. Taught in organelles (NIOS Lesson 4, p. 85) and q07.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q58",
+      "section": "organelles",
+      "taught": true
+    },
+    {
+      "note": "'Which is NOT a unicellular organism?' — key: Tapeworm (Amoeba, bacteria, blue-green algae are unicellular). The fetched sources state only that some organisms like bacteria and protozoans are single-celled; tapeworm being multicellular is not stated in any fetched source, so the item cannot be answered from this chapter alone. Source gap, disclosed.",
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q26",
+      "section": "cell_basics",
+      "taught": false
+    },
+    {
+      "note": "'Which cell organelle helps in protein synthesis?' — Ribosome. Taught in organelles (NIOS Lesson 4, p. 88) and q08.",
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q43",
+      "section": "organelles",
+      "taught": true
+    },
+    {
+      "note": "'During cell division, DNA synthesis takes place in' — official key: Interphase. Taught precisely: DNA is synthesised in the S substage of interphase (NIOS Lesson 4, p. 97; Lesson 23, p. 116) and q19; the section's remember box explains why 'Interphase' is the key.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q132",
+      "section": "cell_division",
+      "taught": true
+    },
+    {
+      "note": "'One turn of DNA helix measures' — 34 Angstrom. Taught in dna_gene (NIOS Lesson 23, p. 111: one complete turn = 3.4 nm = 34 A, enclosing 10 base pairs) and q35.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q180",
+      "section": "dna_gene",
+      "taught": true
+    },
+    {
+      "note": "'Barr body is absent in somatic cell of' — key: Turner syndrome individual. Turner syndrome (45, XO) IS taught in sex_genetic_disorders, but the term 'Barr body' and its relation to the inactivated X chromosome appear in none of the three fetched NIOS lessons. Source gap, disclosed; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q28",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "'Particulate theory of inheritance was proposed by' — Gregor Johann Mendel. Taught in mendel: Mendel's 'factors' (later called genes) are the particulate units of inheritance (NIOS Lesson 22, pp. 81-82); the deep text names this link explicitly and q26 covers Mendel as founder.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q36",
+      "section": "mendel",
+      "taught": true
+    },
+    {
+      "note": "'Chromosome number in human ovum?' — 23. The paper's options were 36/46/48/None, so the official key was 'None of the above'. The fact itself (gametes carry 23 after meiosis) is taught in cell_division (NIOS Lesson 4, p. 103) and q21, and the exam_note in sex_genetic_disorders explains the 2022 key.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q86",
+      "section": "cell_division",
+      "taught": true
+    },
+    {
+      "note": "'The powerhouse of cell is' — Mitochondria. Taught in organelles (NIOS Lesson 4, p. 85) and q07.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q113",
+      "section": "organelles",
+      "taught": true
+    },
+    {
+      "note": "'In which substage of interphase is DNA doubled?' — S phase. Taught in cell_division (NIOS Lesson 4, p. 97; Lesson 23, p. 116) and q19.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q69",
+      "section": "cell_division",
+      "taught": true
+    },
+    {
+      "note": "'Longest cell of the human body' — Nerve cell. Taught in cell_basics (NIOS Lesson 4, p. 79: nerve cells have long extensions and can be several centimetres in length) with a dont_confuse box separating longest (nerve cell) from largest (ostrich egg).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q81",
+      "section": "cell_basics",
+      "taught": true
+    }
+  ],
+  "SCI-11": [
+    {
+      "note": "Alveoli as the site of gas exchange and haemoglobin in RBCs as the respiratory pigment: NCERT X jesc105 (alveoli passage, haemoglobin passage) and NCERT XI kebo114 (vascularised bag-like alveoli); taught in respiration and q08/q09.",
+      "pyq_code": "GK-SCI-014",
+      "section": "respiration",
+      "taught": true
+    },
+    {
+      "note": "Mixed body-records item. Taught here: 206 bones (kebo117), femur longest (kebo117), O group universal donor / AB universal recipient (kebo115, ABO only, no Rh distinction), BP 120/80 (jesc105), RBC life 120 days (kebo115). NOT taught: skin as largest organ, liver as largest gland, stapes as the smallest bone (chapter teaches stapes only as one of three tiny ear ossicles), resting heart rate 72/min, and the O-negative/AB-positive Rh-specific wording — none of these is in the fetched sources. Marked untaught as a whole; partial coverage listed here.",
+      "pyq_code": "GK-SCI-021",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Thyroid gland situated in the neck: NCERT XI kebo119 places the two thyroid lobes on either side of the trachea; taught in skeleton_hormones.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q2",
+      "section": "skeleton_hormones",
+      "taught": true
+    },
+    {
+      "note": "Working of the human eye is like that of a camera: NCERT X jesc110 opens with exactly this ('The human eye is like a camera'); taught in nervous_senses and q34's section text.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q31",
+      "section": "nervous_senses",
+      "taught": true
+    },
+    {
+      "note": "Bile juice is secreted by the liver: NCERT X jesc105 ('Bile juice from the liver'); taught in digestion and q03.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q82",
+      "section": "digestion",
+      "taught": true
+    },
+    {
+      "note": "Function of the lens in the eye: NCERT X jesc110 — the crystalline lens provides the finer adjustment of focal length to focus objects at different distances on the retina; taught in nervous_senses.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q87",
+      "section": "nervous_senses",
+      "taught": true
+    },
+    {
+      "note": "Longest bone is the thigh bone (femur): NCERT XI kebo117 'Femur (thigh bone – the longest bone)'; taught in skeleton_hormones and q37.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q89",
+      "section": "skeleton_hormones",
+      "taught": true
+    },
+    {
+      "note": "Part of the brain responsible for intelligence/thinking: NCERT X jesc106 — the forebrain is the main thinking part of the brain; taught in nervous_senses and q30.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q92",
+      "section": "nervous_senses",
+      "taught": true
+    },
+    {
+      "note": "How many pairs of salivary glands (key: three pairs): the chapter teaches that saliva is secreted by the salivary glands and contains salivary amylase (jesc105), but no fetched source states the number of pairs. Source gap; the count is not taught.",
+      "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q45",
+      "section": "digestion",
+      "taught": false
+    },
+    {
+      "note": "Organ responsible for purification of blood — kidney: NCERT X jesc105 excretion section (nephrons filter nitrogenous waste from blood); taught in excretion, its exam_note box and q24.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q45",
+      "section": "excretion",
+      "taught": true
+    },
+    {
+      "note": "Cranial nerves in mammals are 12 pairs: jesc106 names cranial nerves as part of the PNS but gives no count, and NCERT XI Ch. 18 Neural Control (kebo118.pdf) could not be fetched on this machine. Source gap; count not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q186",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "A consciously controlled muscle is striated voluntary (skeletal) muscle: NCERT XI kebo117; taught in skeleton_hormones and q38.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q139",
+      "section": "skeleton_hormones",
+      "taught": true
+    },
+    {
+      "note": "Target tissue of insulin: NCERT XI kebo119 teaches insulin acts mainly on hepatocytes and adipocytes, and the chapter's exam_note box teaches this. Caution recorded in the box and here: the official WBCS key for this item was 'None of the above', so the option set evidently did not include the NCERT answer; the underlying fact is taught, the key discrepancy is disclosed, not hidden.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q152",
+      "section": "skeleton_hormones",
+      "taught": true
+    },
+    {
+      "note": "Life span of red blood cells is 120 days: NCERT XI kebo115; taught in circulation and q17.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q119",
+      "section": "circulation",
+      "taught": true
+    },
+    {
+      "note": "Muscle fatigue is due to accumulation of lactic acid: NCERT XI kebo117 (anaerobic breakdown of glycogen); taught in skeleton_hormones (and the cramp mechanism in respiration, jesc105).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q155",
+      "section": "skeleton_hormones",
+      "taught": true
+    },
+    {
+      "note": "Amount of O2 normally carried by 100 ml of pure human blood (key: 20 ml): fetched NCERT XI kebo114 gives only the delivery figure (~5 ml per 100 ml of oxygenated blood) and kebo115 gives haemoglobin 12-16 g per 100 ml; the 20 ml carrying-capacity figure is not in any fetched source. Source gap; chapter's respiration exam_note box flags the 5 ml vs 20 ml distinction openly.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q161",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Number of spinal nerves in the human body (key: 31 pairs): jesc106 names spinal nerves without a count; NCERT XI Ch. 18 (kebo118.pdf) could not be fetched. Source gap; count not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q128",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Alcohol addiction damages the liver because it accumulates excess fat: no fetched NCERT source states this mechanism. Not taught. Source gap.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q149",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Chromosome number in human ovum: belongs to SCI-10 (cell and genetics), not this chapter; official key was 'None of the above'. Not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q86",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Metal present in haemoglobin is iron: NCERT XI kebo115 ('iron containing complex protein called haemoglobin'); taught in circulation and q18.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q138",
+      "section": "circulation",
+      "taught": true
+    },
+    {
+      "note": "Part of the human eye with maximum refractive index (key: lens): NCERT X jesc110 teaches that most refraction occurs at the cornea and the lens adjusts focal length, but gives no refractive-index comparison between eye parts. The key's basis is not in the fetched sources; not taught, and the chapter's nervous_senses deep text flags this openly.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q141",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Pulmonary veins carry oxygenated blood: NCERT XI kebo115 (pulmonary circulation passage); taught in circulation and q20.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q134",
+      "section": "circulation",
+      "taught": true
+    },
+    {
+      "note": "Longest cell of the human body is the nerve cell: the chapter teaches neuron structure and impulse travel (jesc106), but no fetched source calls the nerve cell the longest cell (that superlative is in NCERT VIII Cell chapter, not fetched for this chapter). Source gap; not taught as a superlative.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q81",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "pH value of human blood: primary chapter SCI-07 (acids, bases and salts / buffers), where it is taught from NIOS; no source fetched for SCI-11 states blood pH. Not taught here.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q84",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "SCI-12": [
+    {
+      "note": "GK bank item (subtopic biology_nutrition): deficiency pairs vitamin A–night blindness, B1–beriberi, C–scurvy, D–rickets, iodine–goitre, iron–anaemia — all six taught in this chapter (fat_soluble, water_soluble, minerals_deficiency) from fecu103 Fig. 3.5 and lech205 Table 10.3.",
+      "pyq_code": "GK-SCI-011",
+      "section": "minerals_deficiency",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic biology_nutrition): chemical names. Retinol (A), Thiamine (B1), Cyanocobalamin/Cobalamin (B12) and Ascorbic acid (C) ARE taught here from IGNOU Unit 16 and lech205. NOT taught: Calciferol (D), Tocopherol (E) and Phylloquinone (K) — the bank item asserts them, but no verbatim quote could be fetched from any allowed publisher (NCERT/IGNOU/NIOS/e-PG Pathshala/GOVT) for this draft, so the names are left out rather than written from memory.",
+      "pyq_code": "GK-SCI-022",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "GK bank item (subtopic biology_nutrition): fat-soluble A, D, E, K stored in liver/adipose tissue vs water-soluble B-group and C excreted in urine, B12 the storage exception; vitamin C worked example (ascorbic acid, citrus/amla, scurvy) — all taught (vitamins_intro, water_soluble) from lech205 §10.4.",
+      "pyq_code": "GK-SCI-101",
+      "section": "vitamins_intro",
+      "taught": true
+    },
+    {
+      "note": "Industrial Development Officer 2019 Q5: 'Which vitamin is called Riboflavin?' — Vitamin B2. Taught with claim c39 (lech205 Table 10.3) and practice q24.",
+      "pyq_code": "IDO-2019-Q5",
+      "section": "water_soluble",
+      "taught": true
+    },
+    {
+      "note": "Industrial Development Officer 2019 Q76: 'Protein-energy malnutrition causes — Marasmus'. The chapter teaches protein/energy deficiency and its Indian survey history (Gopalan, fecu103) but the specific terms marasmus/kwashiorkor appear in none of the fetched allowed sources, so the expected answer term is NOT taught; left untaught rather than asserted from memory.",
+      "pyq_code": "IDO-2019-Q76",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Kolkata Police Constable (Prelims) 2023 Q74: 'Goitre is caused due to what?' (expected: hypothyroidism). Taught: iodine deficiency causes goitre (fecu103, c10) and low dietary iodine may lead to hypothyroidism and enlargement of the thyroid gland (lech205, c46); practice q30/q34.",
+      "pyq_code": "KP-CONSTABLE-2023-Q74",
+      "section": "minerals_deficiency",
+      "taught": true
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2018 Q47: 'Deficiency of Vitamin-D results in — rickets'. Taught from lech205 Table 10.3 (c43); practice q17/q18.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q47",
+      "section": "fat_soluble",
+      "taught": true
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2022 Q84: 'The vitamin which helps in clotting of blood is — K'. Taught from IGNOU Unit 16 (c52, c66: vitamin K, prothrombin); practice q19.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q84",
+      "section": "fat_soluble",
+      "taught": true
+    },
+    {
+      "note": "WBPSC Clerkship (Part-I) 2023 Session-3 Q53: 'Deficiency of which vitamin causes night blindness? — Vitamin A'. Taught from IGNOU Unit 16 (c49) and fecu103 Fig. 3.5 (c29); practice q15.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION-3-Q53",
+      "section": "fat_soluble",
+      "taught": true
+    }
+  ],
+  "SCI-13": [
+    {
+      "note": "GK fact bank item (general_science.jsonl, subtopic biology_diseases): malaria — Plasmodium, sporozoites via infected female Anopheles, haemozoin fever every 3-4 days, P. falciparum malignant malaria, two hosts. All taught in protozoa_worm_fungal (lebo107).",
+      "pyq_code": "GK-SCI-012",
+      "section": "protozoa_worm_fungal",
+      "taught": true
+    },
+    {
+      "note": "GK fact bank item (general_science.jsonl, subtopic biology_diseases): typhoid–Salmonella typhi/Widal, pneumonia–Streptococcus pneumoniae, common cold–rhinovirus, amoebiasis–Entamoeba histolytica, ringworm fungi. All taught across bacterial_viral and protozoa_worm_fungal (lebo107).",
+      "pyq_code": "GK-SCI-013",
+      "section": "bacterial_viral",
+      "taught": true
+    },
+    {
+      "note": "Which is a water-borne disease (answer: typhoid). Taught: typhoid spreads through contaminated food and water (lebo107/hesc102 Table 2.1); the other options are separated by transmission route in transmission_prevention.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q17",
+      "section": "transmission_prevention",
+      "taught": true
+    },
+    {
+      "note": "Carrier of malaria (answer: Anopheles mosquito). Taught: female Anopheles carries Plasmodium and is the vector (lebo107; hesc102).",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q55",
+      "section": "protozoa_worm_fungal",
+      "taught": true
+    },
+    {
+      "note": "Which mosquito spreads dengue (answer: Aedes). Taught: female Aedes mosquito acts as carrier of dengue virus (hesc102); also lebo107 on Aedes-borne dengue/chikungunya.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q90",
+      "section": "transmission_prevention",
+      "taught": true
+    },
+    {
+      "note": "What is a bacteriophage (answer: a virus). The term bacteriophage is not defined in any fetched source (lebo107, iesc113, hesc102). The chapter teaches only that viruses reproduce inside host cells, which may be a bacterium — not enough to define the term. Source gap, disclosed — not filled from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q37",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Penicillin is obtained from fungi (mould). Taught: Fleming's mould observation and penicillin prepared from the mould (hesc102); antibiotics are produced from bacteria and fungi.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q40",
+      "section": "immunity_aids_cancer",
+      "taught": true
+    },
+    {
+      "note": "Official name of the Covid-19 virus per WHO (answer: SARS-CoV-2). The name SARS-CoV-2 does not appear in any fetched source; iesc113 names only the disease 'coronavirus disease (COVID-19)' as an airborne example. Source gap, disclosed — the virus name is not asserted in the chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q53",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Why antibiotics are not prescribed for viral infections (answer: viruses have neither cell walls nor their own metabolic machinery antibiotics can target). Taught via the penicillin cell-wall mechanism (iesc113) and 'antibiotics are not effective against cold and flu' (hesc102).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q80",
+      "section": "immunity_aids_cancer",
+      "taught": true
+    },
+    {
+      "note": "Free HPV vaccination campaign — goal is cervical cancer in women. HPV is not named in any fetched source; lebo107 teaches oncogenic viruses only in general terms, with no HPV–cervical cancer link. Source gap, disclosed — not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q141",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "World AIDS Day (answer: 1 December). The chapter teaches AIDS/HIV/ELISA and that AIDS was first reported in 1981, but no fetched NCERT source gives the 1 December observance date. Source gap, disclosed — the date is not asserted in the chapter.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q52",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Similarity among common cold, ringworm, conjunctivitis and whooping cough (answer: all are contagious/communicable). Common cold and ringworm are taught as infectious, but conjunctivitis and whooping cough as individual diseases do not appear in the fetched sources (whooping cough appears only in a vaccine list in iesc113), so the all-four elimination cannot be sourced here. Source gap, disclosed.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q1",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "SCI-14": [
+    {
+      "pyq_code": "GK-SCI-016",
+      "section": "plant_transport",
+      "taught": true,
+      "note": "Xylem moves water/minerals, phloem translocates photosynthesis products (gesc101/jesc105 claims c20-c22); chapter teaches both plus sieve-tube direction via translocation section."
+    },
+    {
+      "pyq_code": "GK-SCI-023",
+      "section": null,
+      "taught": false,
+      "note": "Partially covered: photosynthesis equation essentials, stomata and insectivorous plants are taught (plant_nutrition), but the animal records in this bank item (blue whale largest animal, Gangetic dolphin National Aquatic Animal 2009, peacock National Bird 1963) are not in the fetched NCERT chapters and are not taught."
+    },
+    {
+      "pyq_code": "WBPSC-IDO-2019-SINGLE-Q53",
+      "section": null,
+      "taught": false,
+      "note": "Turmeric obtained from the stem (rhizome): plant morphology/root-stem modifications are in NCERT XI Morphology of Flowering Plants (kebo105), which could not be fetched on this machine. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q19",
+      "section": null,
+      "taught": false,
+      "note": "Study of insects = entomology: the term does not appear in the fetched NCERT chapters. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q41",
+      "section": "vertebrate_classes",
+      "taught": true,
+      "note": "Crocodile is a reptile, not an amphibian (kebo104: Crocodilus under Reptilia; Bufo/Rana/Salamandra under Amphibia). Taught with the crocodile trap flagged in exam_focus."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q58",
+      "section": null,
+      "taught": false,
+      "note": "Root vegetable identification needs root modifications/storage roots from NCERT XI Morphology (kebo105), which could not be fetched. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q135",
+      "section": null,
+      "taught": false,
+      "note": "Mendel's monohybrid cross: genetics, primary chapter SCI-10 (cell and heredity); not in this chapter's scope."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q186",
+      "section": null,
+      "taught": false,
+      "note": "Number of cranial nerves in mammals: human nervous system, primary chapter SCI-11; the count is not in the fetched chapters."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q103",
+      "section": null,
+      "taught": false,
+      "note": "Magnesium as the central metal of chlorophyll: the fetched NCERT chapters name chlorophyll as a pigment but never give its metal centre. Source gap; not taught (same gap as WBP Constable 2021 Q31)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q108",
+      "section": null,
+      "taught": false,
+      "note": "Short-day plant / critical day length (photoperiodism): not covered in the fetched NCERT chapters (XI Plant Growth and Development not fetched). Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q112",
+      "section": null,
+      "taught": false,
+      "note": "Incomplete dominance in a red x white flower cross: genetics, primary chapter SCI-10; not taught here."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q29",
+      "section": "vertebrate_classes",
+      "taught": true,
+      "note": "Egg-laying mammals taught via Ornithorhynchus (platypus), listed as oviparous in kebo104 (claim c43). The official answer Echidna is a second egg-laying mammal not named in the fetched text; the concept and one example are taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q30",
+      "section": null,
+      "taught": false,
+      "note": "Latest-discovered animal phylum: not stated in any fetched NCERT chapter. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q38",
+      "section": null,
+      "taught": false,
+      "note": "Nature of the stele in primitive vascular plants: college-level plant anatomy, absent from the fetched school NCERT chapters. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q40",
+      "section": null,
+      "taught": false,
+      "note": "Penicillin obtained from fungi: the chapter teaches fungi as a group (saprotrophs, c10/c25) but no fetched source names penicillin or its fungal source. Specific fact not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q167",
+      "section": "vertebrate_classes",
+      "taught": true,
+      "note": "Whale is a mammal and mammals respire by lungs (kebo104, claim c43). Taught; also a practice question (q33)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q81",
+      "section": null,
+      "taught": false,
+      "note": "Peripatus as a 'living fossil': Peripatus is not mentioned in the fetched NCERT chapters. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q153",
+      "section": "vertebrate_classes",
+      "taught": true,
+      "note": "Toad is an amphibian and amphibians are cold-blooded (kebo104, claim c39); hen, tiger and bat are warm-blooded birds/mammals (c41/c43). Taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q56",
+      "section": null,
+      "taught": false,
+      "note": "Gibberellin breaking seed dormancy: jesc106 teaches gibberellins only as stem-growth promoters (claim c31); dormancy-breaking is in XI Plant Growth and Development, not fetched. Specific function not taught; flagged honestly rather than stretched."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q136",
+      "section": "plant_reproduction",
+      "taught": true,
+      "note": "Vegetative reproduction is found in plants alone (jesc107, claim c26: 'Unlike in most animals, plants can indeed use such a mode'). Taught; also practice question q16."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q48",
+      "section": null,
+      "taught": false,
+      "note": "Fruit bats as natural reservoir of Nipah virus: diseases chapter SCI-13; not in this chapter's scope or sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q74",
+      "section": "plant_nutrition",
+      "taught": true,
+      "note": "Non-green leaves contain chlorophyll masked by other pigments and do photosynthesise (gesc101, claim c07). Taught; also practice question q06."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q82",
+      "section": null,
+      "taught": false,
+      "note": "Pneumatophores (breathing roots of mangroves): described in NCERT XI Morphology of Flowering Plants (kebo105), which could not be fetched on this machine. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q163",
+      "section": "plant_reproduction",
+      "taught": true,
+      "note": "Abscisic acid is the growth-inhibiting plant hormone (jesc106, claim c32). Taught; also practice question q19."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q172",
+      "section": null,
+      "taught": false,
+      "note": "Capillary water as the soil water available to plants: soil-water types are not classified in the fetched chapters. Source gap; not taught."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q31",
+      "section": null,
+      "taught": false,
+      "note": "Metal present in chlorophyll (magnesium): same source gap as WBCS 2016 Q103 — fetched NCERT chapters do not state chlorophyll's metal centre. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q95",
+      "section": "plant_nutrition",
+      "taught": true,
+      "note": "Plant macronutrients taught via nitrogen as an essential element taken up from soil (jesc105, claim c19) and fertiliser nutrients nitrogen/potassium/phosphorus (gesc101, claim c12)."
+    },
+    {
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q26",
+      "section": "animal_classification",
+      "taught": true,
+      "note": "Tapeworm is a multicellular animal (Platyhelminthes, claim c37) while Amoeba/blue-green algae/bacteria are unicellular; the chapter's base fact is that all Animalia are multicellular (claim c35). Taught."
+    }
+  ],
+  "SCI-15": [
+    {
+      "note": "Partly: GK fact bank item (general_science.jsonl, subtopic discoveries). Only the penicillin–Fleming line is taught (s4, hesc102: mould prepared into penicillin, 1929). The pack's other pairs — Gutenberg/printing press, Watt/steam engine, Bell/telephone, Edison/bulb, Marconi/radio, Wright brothers/aeroplane, Baird/television, Babbage/computer — appear in NO fetched allowed-publisher source (NCERT/IGNOU/NIOS/EPG/GOVT) and are NOT taught. Source gap, disclosed — never filled from memory.",
+      "pyq_code": "GK-SCI-017",
+      "section": "s4",
+      "taught": true
+    },
+    {
+      "note": "Penicillin is obtained from fungi: taught in s4 (hesc102 — penicillin prepared from the green mould; streptomycin/tetracycline/erythromycin made from fungi and bacteria) and drilled in q23/q26 and the s4 exam_note.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q40",
+      "section": "s4",
+      "taught": true
+    },
+    {
+      "note": "'Boson' particle named after Satyendra Nath Bose: S.N. Bose and Bose–Einstein statistics appear in none of the fetched NCERT pages (hesc102, kech102, jesc108, keph102, lebo107). Source gap; not taught.",
+      "pyq_code": "WBPSC-IDO-2019-Q3",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Electric bulb invented by Edison: no fetched allowed source states the Edison bulb attribution (the classic-inventions list exists only in the GK bank, GK-SCI-017, whose own source is not an allowed textbook page for this claim). Source gap; not taught.",
+      "pyq_code": "WBPSC-IDO-2019-Q11",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Upendra Nath Brahmachari's medicine for kala-azar (urea stibamine): not mentioned in any fetched NCERT source. A Bengal-linked discovery the chapter could not source; disclosed as a gap, not taught.",
+      "pyq_code": "WBPSC-IDO-2019-Q64",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Raman Effect discovered in 1928 by C.V. Raman: Raman and the Raman effect do not appear in the fetched NCERT pages used. Source gap; not taught.",
+      "pyq_code": "WBPSC-IDO-2019-Q99",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Nikola Tesla and alternating current: Tesla/AC does not appear in the fetched sources. Source gap; not taught.",
+      "pyq_code": "WBPSC-MISC-2023-Q68",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Father of the Indian Space Programme (Vikram Sarabhai): not in any fetched NCERT source used for this chapter. Source gap; not taught.",
+      "pyq_code": "WBPSC-MISC-2023-Q100",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "2014 Physics Nobel for the invention of the blue LED: not covered by the fetched textbook pages (a current-affairs/Nobel item, not a textbook discovery). Not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q83",
+      "section": null,
+      "taught": false
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q61",
+    "section": "s3",
+    "taught": true,
+    "note": "X-rays are electromagnetic radiations of very short wavelength: taught via the electromagnetic spectrum (NCERT XI Chemistry Fig. 2.7 places X-rays in the spectrum, beyond ultraviolet) and IGNOU's medical-use note. The spectrum figure itself was not text-extractable; the ordering is taught from the figure reference in the source."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q65",
+    "section": null,
+    "taught": false,
+    "note": "Resistance of a pure semiconductor with temperature: semiconductor electronics is NOT taught in this chapter. NCERT Class XII Physics (Semiconductor Electronics) could not be fetched through the text-fetch tool; source gap, disclosed in the chapter verification notes."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q50",
+    "section": "s7",
+    "taught": true,
+    "note": "Lead is the shielding material: IGNOU MEV-001 states gamma radiations cannot pass through lead (claim c56)."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q26",
+    "section": null,
+    "taught": false,
+    "note": "Plutonium in heart pacemakers: the specific fact is in neither NCERT source used nor the IGNOU unit; chapter teaches plutonium only as a fissile heavy atom. Source gap."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q27",
+    "section": null,
+    "taught": false,
+    "note": "Carbon-14 dating of archaeological findings: isotopes are taught (s6), but no fetched source names carbon-14 or radiocarbon dating. Source gap."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q73",
+    "section": "s7",
+    "taught": true,
+    "note": "'Curie' is a unit of radioactivity: IGNOU MEV-001 gives curie as the traditional unit of activity (claim c54)."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q39",
+    "section": "s6",
+    "taught": true,
+    "note": "Ion electron count: Z = A - N = 13, minus 3 for the +3 charge = 10 electrons; the method is taught in s6 with this very pattern as the worked example (claims c15, c16)."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q35",
+    "section": "s3",
+    "taught": true,
+    "note": "Photon energy E = h nu = 50h J for nu = 50 Hz; taught in s3 (claim c27) and practised in q17."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q102",
+    "section": null,
+    "taught": false,
+    "note": "Silicon as a semiconductor: semiconductor electronics is NOT taught in this chapter (NCERT Class XII Physics unfetchable through the text-fetch tool). Source gap."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q119",
+    "section": "s8",
+    "taught": true,
+    "note": "Thorium for nuclear power: NCERT X names thorium among the heavy atoms whose nucleus can be split for nuclear energy (claim c43) and the exam_focus box flags this exact PYQ. The 'adequately available in India' angle is not in the sources and the box says so."
+  },
+  {
+    "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q179",
+    "section": null,
+    "taught": false,
+    "note": "Element outside the radioactive series with a radioactive isotope (official key 'All of the above'): not covered by any fetched source; not taught."
+  },
+  {
+    "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q92",
+    "section": "s7",
+    "taught": true,
+    "note": "SI unit of radioactivity is the becquerel: IGNOU MEV-001 (claim c54)."
+  },
+  {
+    "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q92",
+    "section": "s4",
+    "taught": true,
+    "note": "SI unit of work function is the joule: work function W0 = h nu0 is an energy (claim c32), taught in s4 and practised in q25."
+  }
+]

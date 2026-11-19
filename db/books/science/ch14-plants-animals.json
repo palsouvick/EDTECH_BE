@@ -1,0 +1,1556 @@
+{
+  "book": "science",
+  "code": "SCI-14",
+  "number": 14,
+  "part": "biology",
+  "title": "উদ্ভিদ ও প্রাণীজগৎ",
+  "subtitle": "সালোকসংশ্লেষ ও উদ্ভিদ-পরিবহণ থেকে প্রাণীজগতের শ্রেণিবিন্যাস ও খাদ্যগ্রহণের বৈচিত্র্য",
+  "subtopics": [
+    "biology_plants_animals"
+  ],
+  "related_facts": [
+    "GK-SCI-016",
+    "GK-SCI-023"
+  ],
+  "prerequisites": [
+    "SCI-10"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 1 LIKELY, 2 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 10 of 28 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-14.json and drafts/SCI-14_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-14_REPORT.md.",
+    "checked_claims": 51,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "গাছ কীভাবে নিজের খাবার নিজে বানায়, সেই খাবার ও জল গাছের ভেতরে কীভাবে চলাচল করে, আর প্রাণীজগতের লক্ষ লক্ষ প্রজাতিকে বিজ্ঞানীরা কীভাবে শ্রেণিতে সাজান — এই অধ্যায়ে আমরা এই তিনটি বড় ধারণা একসঙ্গে পড়ব। সালোকসংশ্লেষ, জাইলেম-ফ্লোয়েম, অঙ্গজ প্রজনন ও উদ্ভিদ হরমোন থেকে শুরু করে স্পঞ্জ-মাছ-উভচর-স্তন্যপায়ীর শ্রেণিবিন্যাস এবং গোরুর জাবর কাটা থেকে অ্যামিবার ছদ্মপদ — PSC পরীক্ষায় জীববিদ্যার সবচেয়ে বেশি প্রশ্ন আসে ঠিক এই অংশগুলি থেকেই।",
+    "you_will_learn": [
+      "স্বভোজী, পরজীবী, পতঙ্গভোজী ও মৃতজীবী পুষ্টির পার্থক্য ও উদাহরণ",
+      "সালোকসংশ্লেষের শর্ত, উৎপাদ ও রঙিন পাতার বিশেষ ক্ষেত্র",
+      "জাইলেম-ফ্লোয়েমের কাজের পার্থক্য, স্থানান্তর ও প্রস্বেদনের ভূমিকা",
+      "অঙ্গজ প্রজনন কেন কেবল উদ্ভিদেই সম্ভব এবং পাথরকুচির উদাহরণ",
+      "উদ্ভিদ হরমোন: অক্সিন, জিব্বেরেলিন, সাইটোকাইনিন ও অ্যাবসিসিক অ্যাসিডের কাজ",
+      "প্রাণী-শ্রেণিবিন্যাসের ভিত্তি: সংগঠনের স্তর, নোটোকর্ড, খণ্ডীভবন",
+      "মাছ-উভচর-সরীসৃপ-পক্ষী-স্তন্যপায়ীর হৃৎপিণ্ড, তাপমাত্রা ও ব্যতিক্রম (কুমির, প্লাটিপাস)",
+      "প্রাণীদের খাদ্যগ্রহণের বৈচিত্র্য: রুমিন্যান্ট, অ্যামিবা ও তারামাছ"
+    ]
+  },
+  "sections": [
+    {
+      "id": "plant_nutrition",
+      "heading": "উদ্ভিদের পুষ্টি ও সালোকসংশ্লেষ",
+      "quick": "উদ্ভিদ স্বভোজী — পাতার ক্লোরোফিল সূর্যালোক ধরে কার্বন ডাই-অক্সাইড ও জল থেকে শর্করা তৈরি করে, অক্সিজেন ছাড়ে। তবে সব উদ্ভিদ একরকম নয়: স্বর্ণলতা পরজীবী, কলসী উদ্ভিদ পতঙ্গভোজী, ছত্রাক মৃতজীবী।",
+      "standard": "সব জীবেরই বেঁচে থাকা, বৃদ্ধি ও মেরামতের জন্য খাবার দরকার। উদ্ভিদের বিশেষত্ব হল, সে নিজের খাবার নিজেই তৈরি করতে পারে — সরল পদার্থ থেকে খাবার বানানোর এই পদ্ধতির নাম **স্বভোজী পুষ্টি (Autotrophic nutrition)**, আর উদ্ভিদ তাই **স্বভোজী**। মানুষসহ প্রাণীরা তা পারে না; তারা উদ্ভিদের তৈরি খাবারের ওপর প্রত্যক্ষ বা পরোক্ষভাবে নির্ভরশীল — এরা **পরভোজী**।\n\nখাবার তৈরির কারখানা হল **পাতা**। মূল মাটি থেকে জল ও খনিজ শোষণ করে পাতায় পৌঁছে দেয়, আর পাতার উপরিতলের ক্ষুদ্র ছিদ্র **পত্ররন্ধ্র (Stomata)** দিয়ে বাতাস থেকে কার্বন ডাই-অক্সাইড ঢোকে; প্রতিটি রন্ধ্র ঘিরে থাকে দুটি **রক্ষীকোশ (Guard cells)**। পাতার সবুজ রঞ্জক **ক্লোরোফিল (Chlorophyll)** সূর্যালোকের শক্তি ধরে, আর সেই শক্তিতে কার্বন ডাই-অক্সাইড ও জল মিলে তৈরি হয় শর্করা (কার্বোহাইড্রেট) — এই প্রক্রিয়াই **সালোকসংশ্লেষ (Photosynthesis)**। প্রক্রিয়া চলে ক্লোরোফিলযুক্ত কোশ-অঙ্গাণু **ক্লোরোপ্লাস্টে**। শর্ত চারটি: ক্লোরোফিল, সূর্যালোক, কার্বন ডাই-অক্সাইড ও জল। প্রক্রিয়ায় **অক্সিজেন নির্গত** হয়, আর পাতায় **শ্বেতসার (স্টার্চ)** জমা হওয়াই প্রমাণ করে সালোকসংশ্লেষ ঘটেছে। সঙ্গে সঙ্গে ব্যবহৃত না হওয়া শর্করা শ্বেতসার রূপেই উদ্ভিদের অভ্যন্তরীণ শক্তি-ভাণ্ডার হিসেবে জমা থাকে।\n\nএকটি প্রিয় পরীক্ষা-ফাঁদ: লাল, বেগুনি বা বাদামি পাতায় সালোকসংশ্লেষ হয় কি না? হয় — এসব পাতাতেও ক্লোরোফিল থাকে, শুধু অন্য রঞ্জকের প্রাচুর্যে সবুজ রং ঢাকা পড়ে যায়। মরুভূমির উদ্ভিদে আবার পাতা কাঁটা বা আঁশের মতো হয়ে জল-ক্ষয় কমায়, আর সবুজ কাণ্ডই সালোকসংশ্লেষ চালায়।\n\nসব উদ্ভিদ কিন্তু স্বভোজী নয়। **স্বর্ণলতা (Cuscuta)**-য় ক্লোরোফিল নেই — এটি আশ্রয়দাতা গাছের তৈরি খাবার শুষে নেওয়া **পরজীবী**। **কলসী উদ্ভিদ** সবুজ হলেও পতঙ্গ ধরে পাচক রসে হজম করে পুষ্টি নেয় — এটি **পতঙ্গভোজী**। আর **ছত্রাক** (মাশরুম, রুটির ছাতা) মৃত ও পচনশীল পদার্থ থেকে পুষ্টি নেয় — **মৃতজীবী পুষ্টি**। উদ্ভিদের প্রোটিন তৈরিতে দরকারি **নাইট্রোজেন** মাটি থেকে নাইট্রেট আকারে আসে; ডালশস্যের (ছোলা, মটর, মুগ, শিম) মূলে বাসা বাঁধা **রাইজোবিয়াম (Rhizobium)** ব্যাকটেরিয়া বাতাসের নাইট্রোজেনকে ব্যবহারযোগ্য রূপে বদলে দেয় — এটি **সহাবস্থান (Symbiosis)**-এর উদাহরণ, কারণ বিনিময়ে ব্যাকটেরিয়া গাছ থেকে খাবার ও আশ্রয় পায়।",
+      "deep": "সালোকসংশ্লেষের ধাপ তিনটি মনে রাখো: (১) ক্লোরোফিল আলোকশক্তি শোষণ করে, (২) আলোকশক্তি রাসায়নিক শক্তিতে রূপান্তরিত হয় ও জল ভেঙে হাইড্রোজেন-অক্সিজেন আলাদা হয়, (৩) কার্বন ডাই-অক্সাইড বিজারিত হয়ে শর্করায় পরিণত হয়। মরুভূমির কিছু উদ্ভিদ রাতে কার্বন ডাই-অক্সাইড নিয়ে মধ্যবর্তী যৌগ বানিয়ে রাখে, দিনে তা ব্যবহার করে — তাই 'সব ধাপ একসঙ্গে ঘটতেই হবে' এমন নয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "স্বভোজী বনাম পরভোজী",
+          "body": "উদ্ভিদ ও কিছু ব্যাকটেরিয়া = স্বভোজী। প্রাণী ও ছত্রাক = পরভোজী — তাদের বেঁচে থাকা প্রত্যক্ষ বা পরোক্ষভাবে স্বভোজীদের ওপর নির্ভরশীল। ছত্রাককে উদ্ভিদ ভেবে ভুল করো না: ছত্রাকে ক্লোরোফিল নেই।",
+          "claims": [
+            "c14",
+            "c10"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c19",
+        "c13",
+        "c14",
+        "c15",
+        "c17"
+      ]
+    },
+    {
+      "id": "plant_transport",
+      "heading": "উদ্ভিদে পরিবহণ: জাইলেম, ফ্লোয়েম ও প্রস্বেদন",
+      "quick": "জাইলেম বহন করে জল ও খনিজ (মূল → পাতা), ফ্লোয়েম বহন করে পাতায় তৈরি খাবার (স্থানান্তর)। পত্ররন্ধ্র দিয়ে বাষ্পাকারে জল বেরিয়ে যাওয়াই প্রস্বেদন, যা জলকে উপরে টানতেও সাহায্য করে।",
+      "standard": "ছোট গাছে ব্যাপন দিয়েই কাজ চলে, কিন্তু বড় গাছে মূল আর পাতার দূরত্ব অনেক — তাই দরকার সুসংগঠিত পরিবহণ ব্যবস্থা। উদ্ভিদের দুটি পরিবহণ-পথ আলাদা আলাদা নল হিসেবে গড়া: **জাইলেম (Xylem)** মাটি থেকে পাওয়া জল ও খনিজ বহন করে, আর **ফ্লোয়েম (Phloem)** পাতায় সংশ্লেষিত সালোকসংশ্লেষজাত পদার্থ অন্য অংশে পৌঁছে দেয়।\n\nমূলে মাটির সংস্পর্শে থাকা কোশ সক্রিয়ভাবে আয়ন শোষণ করে; ঘনত্বের পার্থক্যে জল মূলে ঢুকে জাইলেমে জলের স্তম্ভ তৈরি করে, যা উপরে ঠেলা পায়। কিন্তু লম্বা গাছের চূড়া পর্যন্ত জল তোলার আসল কৌশল অন্য: পাতার কোশ থেকে জল বাষ্পীভূত হলে এক ধরনের টান (suction) তৈরি হয়, যা মূলের জাইলেম থেকে জল টেনে তোলে। উদ্ভিদের বায়বীয় অংশ থেকে বাষ্প আকারে জল হারানোর এই প্রক্রিয়াই **প্রস্বেদন (Transpiration)**। প্রস্বেদন শুধু জল-ক্ষয় নয় — এটি জল ও দ্রবীভূত খনিজের শোষণ ও ঊর্ধ্বগতিতে সাহায্য করে এবং পাতার তাপমাত্রা নিয়ন্ত্রণেও ভূমিকা রাখে। দিনে পত্ররন্ধ্র খোলা থাকায় প্রস্বেদন-টানই জল-চলাচলের প্রধান চালিকাশক্তি; রাতে মূলচাপের ভূমিকা বেশি।\n\nপাতা থেকে তৈরি খাবারের যাত্রা আলাদা নামে পরিচিত: সালোকসংশ্লেষের দ্রবণীয় উৎপাদের পরিবহণকে বলে **স্থানান্তর (Translocation)** — এটি ঘটে ফ্লোয়েমে। পরীক্ষায় জাইলেম-ফ্লোয়েমের কাজ উল্টে দেওয়াই সবচেয়ে সাধারণ ফাঁদ। আর পত্ররন্ধ্রের খোলা-বন্ধ নিয়ন্ত্রণ করে রক্ষীকোশ: কোশে জল ঢুকলে ফুলে রন্ধ্র খোলে, জল বেরিয়ে কুঁচকালে রন্ধ্র বন্ধ হয় — কার্বন ডাই-অক্সাইডের দরকার না থাকলে গাছ রন্ধ্র বন্ধ করে জল বাঁচায়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "জাইলেম বনাম ফ্লোয়েম",
+          "body": "জাইলেম = জল + খনিজ, দিক মূল থেকে উপরে। ফ্লোয়েম = তৈরি খাবার, পাতা থেকে সব অংশে। GK ব্যাংকের GK-SCI-016 ঠিক এই জোড়াটির ওপরই তৈরি।",
+          "claims": [
+            "c20"
+          ]
+        }
+      ],
+      "claims": [
+        "c20",
+        "c21",
+        "c22",
+        "c18"
+      ]
+    },
+    {
+      "id": "plant_reproduction",
+      "heading": "উদ্ভিদের প্রজনন, চলন ও হরমোন",
+      "quick": "মূল-কাণ্ড-পাতা থেকে নতুন গাছ গজানোই অঙ্গজ প্রজনন — কেবল উদ্ভিদেই সম্ভব। উদ্ভিদের বৃদ্ধি নিয়ন্ত্রণ করে হরমোন: অক্সিন ও জিব্বেরেলিন বৃদ্ধি বাড়ায়, অ্যাবসিসিক অ্যাসিড বৃদ্ধি রোধ করে।",
+      "standard": "বেশিরভাগ প্রাণীর বিপরীতে উদ্ভিদের মূল, কাণ্ড বা পাতার অংশ থেকে উপযুক্ত পরিবেশে নতুন উদ্ভিদ গজাতে পারে — এটাই **অঙ্গজ প্রজনন (Vegetative propagation)**। কলম ও গ্রাফটিং পদ্ধতিতে আখ, গোলাপ, আঙুর এভাবেই চাষ হয়; বীজ থেকে জন্মানো গাছের চেয়ে এতে ফুল-ফল আসে আগে, আর কলা, কমলা, গোলাপের মতো বীজ-ক্ষমতা হারানো উদ্ভিদও এভাবে বংশবিস্তার করে। চেনা উদাহরণ: **পাথরকুচি (Bryophyllum)**-র পাতার কিনারার খাঁজের কুঁড়ি মাটিতে পড়ে নতুন গাছ হয়, আলুর 'চোখ' (কুঁড়ি) থেকেও নতুন গাছ গজায়। WBCS 2023-তে সরাসরি প্রশ্ন এসেছিল — কোন ধরনের প্রজনন কেবল উদ্ভিদেই পাওয়া যায়? উত্তর: অঙ্গজ প্রজনন।\n\nউদ্ভিদের স্নায়ুতন্ত্র বা পেশি নেই; তবু তারা উদ্দীপকে সাড়া দেয়। সাড়া দুই ধরনের: বৃদ্ধি-নির্ভর ও বৃদ্ধি-বহির্ভূত। ছুঁইমুই গাছের পাতা ছুঁলেই ভাঁজ পড়ে — এই দ্রুত চলনে **বৃদ্ধি জড়িত নয়**; কোশে জলের পরিমাণ বদলে আকার বদলায়। অন্য দিকে আলো বা অভিকর্ষের দিকে বৃদ্ধিজনিত দিকমুখী চলন হল **ট্রপিক চলন**: কাণ্ড আলোর দিকে বেঁকে, মূল আলো থেকে দূরে সরে এবং অভিকর্ষের টানে সবসময় নিচের দিকে বাড়ে।\n\nএই বৃদ্ধি নিয়ন্ত্রণ করে **উদ্ভিদ হরমোন**। কাণ্ডের অগ্রভাগে তৈরি **অক্সিন (Auxin)** কোশের দৈর্ঘ্য বাড়ায় — আলোর বিপরীত ছায়া-পাশে অক্সিন জমলে সেই পাশ বেশি বাড়ে বলে কাণ্ড আলোর দিকে বেঁকে যায়। **জিব্বেরেলিন** কাণ্ডের বৃদ্ধিতে সাহায্য করে, **সাইটোকাইনিন** কোশ বিভাজন ত্বরান্বিত করে (ফল ও বীজে এর ঘনত্ব বেশি)। বৃদ্ধি থামানোর সংকেতও আছে: **অ্যাবসিসিক অ্যাসিড (Abscisic acid)** বৃদ্ধি রোধ করে, পাতা ঝরিয়ে দেয় — WBCS 2024-এ এটিই ছিল 'বৃদ্ধি-রোধক হরমোন' প্রশ্নের উত্তর।",
+      "deep": "এককোশী জীবে বিভাজনই প্রজনন: অ্যামিবা যেকোনো তলে দুই ভাগ হয় (দ্বিবিভাজন)। বহুকোশী সরল প্রাণী হাইড্রা ও প্ল্যানারিয়ায় দেখা যায় **পুনরুৎপাদন (Regeneration)** — কেটে ফেললে প্রতিটি খণ্ড থেকে পূর্ণ প্রাণী গজায়। তবে পুনরুৎপাদন আর প্রজনন এক নয় — সাধারণত প্রাণী কাটা পড়ার ওপর বংশবৃদ্ধির জন্য নির্ভর করে না।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "হরমোনের তালিকা এক নজরে",
+          "body": "বৃদ্ধি বাড়ায়: অক্সিন, জিব্বেরেলিন, সাইটোকাইনিন। বৃদ্ধি রোধ করে: অ্যাবসিসিক অ্যাসিড। পরীক্ষায় 'রোধক' প্রশ্ন এলেই উত্তর অ্যাবসিসিক অ্যাসিড।",
+          "claims": [
+            "c30",
+            "c31",
+            "c32"
+          ]
+        }
+      ],
+      "claims": [
+        "c26",
+        "c27",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "animal_classification",
+      "heading": "প্রাণীজগতের শ্রেণিবিন্যাসের ভিত্তি",
+      "quick": "সব প্রাণীই বহুকোশী, কিন্তু সংগঠনের স্তর আলাদা: স্পঞ্জে কোশীয়, নিডারিয়ায় কলা, চ্যাপ্টাকৃমিতে অঙ্গ, আর উন্নত পর্বগুলিতে অঙ্গতন্ত্র স্তর। নোটোকর্ড থাকা-না-থাকাই কর্ডাটা-অকর্ডাটার ভাগ।",
+      "standard": "এ পর্যন্ত দশ লক্ষের বেশি প্রাণীপ্রজাতি বর্ণিত হয়েছে — এত বৈচিত্র্যকে চেনার জন্যই শ্রেণিবিন্যাস। ভিত্তি হল কিছু মৌলিক বৈশিষ্ট্য: কোশের সজ্জা, দেহের প্রতিসাম্য, দেহগহ্বর (সিলোম), খণ্ডীভবন এবং নোটোকর্ড। প্রথম কথা: **Animalia-র সব সদস্যই বহুকোশী** — তাই 'ফিতাকৃমি বহুকোশী, অ্যামিবা এককোশী' জাতীয় প্রশ্নে (KP Constable 2023) ভিত্তি এই তথ্যটিই।\n\nসংগঠনের স্তর ধাপে ধাপে বাড়ে। **স্পঞ্জে** কোশ আলগা গুচ্ছে থাকে — **কোশীয় স্তর**। সিলেন্টেরাটায় একই কাজের কোশ কলায় সাজানো — **কলা স্তর**। চ্যাপ্টাকৃমি থেকে শুরু **অঙ্গ স্তর**, আর অঙ্গুরীমাল, সন্ধিপদী, মোলাস্কা, কণ্টকত্বক ও কর্ডাটায় অঙ্গ মিলে তন্ত্র গড়ে — **অঙ্গতন্ত্র স্তর**।\n\nকয়েকটি পর্বের চেনা লক্ষণ মুখস্থ রাখো: **চ্যাপ্টাকৃমি (Platyhelminthes)** — দেহ পৃষ্ঠ-উদর দিকে চ্যাপ্টা; উদাহরণ ফিতাকৃমি ও যকৃৎ-ফ্লুক, এরা অনেকেই পরজীবী। **অঙ্গুরীমাল (Annelida)** — কেঁচোর মতো খণ্ডে খণ্ডে বিভক্ত দেহ, যাকে বলে মেটামেরিক খণ্ডীভবন। **সন্ধিপদী (Arthropoda)** — প্রাণীজগতের সবচেয়ে প্রাচুর্যপূর্ণ গোষ্ঠী, লক্ষণ সন্ধিযুক্ত উপাঙ্গ। **কর্ডাটা** চেনা যায় ভ্রূণ অবস্থায় গঠিত **নোটোকর্ড** দিয়ে; যাদের নোটোকর্ড নেই (পরিফেরা থেকে কণ্টকত্বক) তারা অকর্ডাটা।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "প্রতিসাম্যের দুই রূপ",
+          "body": "যেকোনো তলে সমান দুই ভাগ হলে অরীয় প্রতিসাম্য (যেমন সিলেন্টেরাটা); কেবল একটি তলে বাম-ডান সমান ভাগ হলে দ্বিপার্শ্বীয় প্রতিসাম্য (যেমন অঙ্গুরীমাল, সন্ধিপদী ও মানুষ)।",
+          "claims": [
+            "c35"
+          ]
+        }
+      ],
+      "claims": [
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c45",
+        "c46"
+      ]
+    },
+    {
+      "id": "vertebrate_classes",
+      "heading": "মেরুদণ্ডী প্রাণীর শ্রেণিসমূহ: মাছ থেকে স্তন্যপায়ী",
+      "quick": "মাছের হৃৎপিণ্ড ২ প্রকোষ্ঠের, উভচর ও বেশিরভাগ সরীসৃপের ৩ (কুমিরের ৪), পাখি ও স্তন্যপায়ীর ৪। মাছ-উভচর-সরীসৃপ শীতলরক্তের; পাখি ও স্তন্যপায়ী উষ্ণরক্তের।",
+      "standard": "মেরুদণ্ডীদের শ্রেণিগুলি হৃৎপিণ্ডের প্রকোষ্ঠ-সংখ্যা আর দেহের তাপমাত্রা নিয়ন্ত্রণের ক্ষমতা দিয়ে সহজে আলাদা করা যায়। **মাছ**: অস্থিযুক্ত মাছের হৃৎপিণ্ড **দুই প্রকোষ্ঠের** (এক অলিন্দ, এক নিলয়), রক্ত ফুলকায় গিয়ে অক্সিজেনযুক্ত হয়; এরা **শীতলরক্তের** — দেহের তাপমাত্রা নিয়ন্ত্রণ করতে পারে না।\n\n**উভচর (Amphibia)**: নামের অর্থই দ্বৈত জীবন — জল ও স্থল উভয় আবাসে বাস। শ্বাসকার্য ফুলকা, ফুসফুস ও ত্বক দিয়ে; হৃৎপিণ্ড **তিন প্রকোষ্ঠের**; শীতলরক্তের। উদাহরণ: ব্যাং, কুনোব্যাং, স্যালামান্ডার। **সরীসৃপ (Reptilia)**: শুষ্ক আঁশযুক্ত ত্বক, হৃৎপিণ্ড সাধারণত তিন প্রকোষ্ঠের — **কিন্তু কুমিরের চার প্রকোষ্ঠের**, এই ব্যতিক্রমটি পরীক্ষায় বারবার আসে। কুমির সরীসৃপ, উভচর নয় — এই ফাঁদে পা দিয়ো না।\n\n**পক্ষী (Aves)**: পালকই চেনার লক্ষণ (উটপাখির মতো কিছু পাখি উড়তে পারে না)। এরা **উষ্ণরক্তের** — দেহের তাপমাত্রা ধ্রুব রাখে; শ্বাসকার্য ফুসফুসে, হৃৎপিণ্ড সম্পূর্ণ চার প্রকোষ্ঠের। **স্তন্যপায়ী (Mammalia)**: সবচেয়ে অনন্য লক্ষণ **দুগ্ধগ্রন্থি**, যা দিয়ে শাবক পুষ্ট হয়। এরাও উষ্ণরক্তের, ফুসফুসে শ্বাস নেয় (তাই জলচর **তিমির** শ্বাসঅঙ্গও ফুসফুস, ফুলকা নয়), হৃৎপিণ্ড চার প্রকোষ্ঠের। সাধারণত জরায়ুজ হলেও ব্যতিক্রম আছে — **প্লাটিপাস (Ornithorhynchus) ডিম পাড়ে**; WBCS 2017-তে ডিম-পাড়া স্তন্যপায়ীই জিজ্ঞাসা হয়েছিল।",
+      "deep": "হৃৎপিণ্ডের বিবর্তন-ধারাটি এক লাইনে: মাছ ২ → উভচর ৩ → সরীসৃপ ৩ (কুমির ৪) → পাখি ও স্তন্যপায়ী ৪। অক্সিজেনযুক্ত ও অক্সিজেনহীন রক্ত পুরোপুরি আলাদা থাকায় পাখি-স্তন্যপায়ীরা দেহের তাপমাত্রা ধ্রুব রাখার মতো প্রচুর শক্তি জোগাতে পারে — এটাই উষ্ণরক্ততার ভিত্তি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "ব্যতিক্রম দুটি",
+          "body": "(১) কুমির: সরীসৃপ হলেও হৃৎপিণ্ড চার প্রকোষ্ঠের। (২) প্লাটিপাস: স্তন্যপায়ী হলেও ডিম পাড়ে। পরীক্ষার প্রশ্ন প্রায়ই এই দুই ব্যতিক্রম ঘিরেই তৈরি হয়।",
+          "claims": [
+            "c40",
+            "c43"
+          ]
+        }
+      ],
+      "claims": [
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "animal_life",
+      "heading": "প্রাণীর পুষ্টি ও খাদ্যগ্রহণের বৈচিত্র্য",
+      "quick": "প্রাণীরা পরভোজী — সরাসরি উদ্ভিদ খেয়ে বা উদ্ভিদভোজী প্রাণী খেয়ে বাঁচে। খাদ্যগ্রহণের পদ্ধতি প্রাণীভেদে আলাদা: মৌমাছি মধু চোষে, পাইথন শিকার গিলে খায়, গোরু জাবর কাটে, অ্যামিবা ছদ্মপদে খাবার ধরে।",
+      "standard": "প্রাণীরা নিজে খাবার বানাতে পারে না — খাবার আসে উদ্ভিদ থেকে, প্রত্যক্ষভাবে উদ্ভিদ খেয়ে কিংবা পরোক্ষভাবে উদ্ভিদভোজী প্রাণী খেয়ে। কিন্তু খাবার **গ্রহণের পদ্ধতি** প্রাণীভেদে বিস্ময়করভাবে আলাদা। মৌমাছি ও হামিংবার্ড ফুলের **মধু চুষে** খায়; অনেক প্রাণীর শিশু মায়ের দুধ পান করে; পাইথনের মতো সাপ শিকারকে **আস্ত গিলে** ফেলে; কিছু জলচর প্রাণী ভাসমান ক্ষুদ্র খাদ্যকণা **ছেঁকে** খায়।\n\nঘাস-খাওয়া প্রাণীদের বিশেষ পদ্ধতি **জাবর কাটা**: গোরু, মোষ ও হরিণ — এই **রুমিন্যান্ট**রা পাতাজাত খাবার দ্রুত গিলে পাকস্থলীর **রুমেন** অংশে জমা করে রাখে; পরে খাবার মুখে ফিরে এলে ধীরে চিবোয়। এতে সেলুলোজ-সমৃদ্ধ ঘাস হজম সহজ হয়।\n\nএককোশী **অ্যামিবা**র পদ্ধতি আবার আলাদা: এটি **ছদ্মপদ (Pseudopodia)** বা 'মিথ্যা পা' দিয়ে খাবার ঘিরে ধরে দেহের ভেতরে নেয় এবং **খাদ্যগহ্বরে (Food vacuole)** হজম করে। আর **তারামাছ** শক্ত খোলসওয়ালা প্রাণী খেতে খোলস খুলে নিজের **পাকস্থলী মুখ দিয়ে বাইরে বের করে** ভেতরের নরম অংশ খেয়ে ফেলে — খাদ্যগ্রহণের সবচেয়ে অভিনব উদাহরণগুলির একটি। ছত্রাকের পদ্ধতিও মনে রাখো: এরা দেহের **বাইরে** খাবার ভেঙে তারপর শোষণ করে (রুটির ছাতা, ইস্ট, মাশরুম)।",
+      "deep": null,
+      "boxes": [],
+      "claims": [
+        "c47",
+        "c48",
+        "c49",
+        "c50",
+        "c51",
+        "c25"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "বীজের অঙ্কুরোদগমে দিকমুখী বৃদ্ধি",
+      "when": "অঙ্কুরোদগমকালে",
+      "what": "বীজ ফুটলে মূল অভিকর্ষের টানে নিচের দিকে এবং কাণ্ড আলোর দিকে উপরে বাড়ে।",
+      "why_it_matters": "ট্রপিক চলনের সবচেয়ে সহজ পর্যবেক্ষণ — উদ্ভিদের স্নায়ুহীন সাড়া দেওয়ার প্রমাণ।",
+      "section": "plant_reproduction",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "title": "রুমিন্যান্টের জাবর কাটা",
+      "when": "খাওয়ার পরে, বিশ্রামের সময়",
+      "what": "গোরু-মোষ রুমেনে জমা খাবার মুখে ফিরিয়ে এনে ধীরে চিবোয়।",
+      "why_it_matters": "ঘাসের সেলুলোজ হজমের অভিযোজন — প্রাণীর পুষ্টি অংশের চেনা পরীক্ষা-বিষয়।",
+      "section": "animal_life",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "title": "উভচরের দ্বৈত জীবন",
+      "when": "জীবনচক্র জুড়ে",
+      "what": "উভচররা জল ও স্থল উভয় আবাসে বাস করে; শ্বাসকার্য চলে ফুলকা, ফুসফুস ও ত্বকে।",
+      "why_it_matters": "মেরুদণ্ডীদের জল থেকে স্থলে ওঠার সেতু-শ্রেণি — শ্রেণিবিন্যাসের মূল ধারণা।",
+      "section": "vertebrate_classes",
+      "claims": [
+        "c39"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1,
+      "when": "স্তর ১",
+      "label": "কোশীয় স্তর — স্পঞ্জ: কোশ আলগা গুচ্ছে সাজানো",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "sort_year": 2,
+      "when": "স্তর ২",
+      "label": "কলা স্তর — সিলেন্টেরাটা: একই কাজের কোশ কলায় সাজানো",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "sort_year": 3,
+      "when": "স্তর ৩",
+      "label": "অঙ্গ স্তর — চ্যাপ্টাকৃমি: কলা মিলে অঙ্গ গঠন",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "sort_year": 4,
+      "when": "স্তর ৪",
+      "label": "অঙ্গতন্ত্র স্তর — অঙ্গুরীমাল থেকে কর্ডাটা: অঙ্গ মিলে তন্ত্র",
+      "claims": [
+        "c35"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "স্বভোজী (Autotroph)",
+      "meaning": "যে জীব সরল পদার্থ থেকে নিজের খাবার নিজেই তৈরি করে; যেমন সবুজ উদ্ভিদ।",
+      "section": "plant_nutrition"
+    },
+    {
+      "term": "সালোকসংশ্লেষ (Photosynthesis)",
+      "meaning": "সূর্যালোক ও ক্লোরোফিলের উপস্থিতিতে কার্বন ডাই-অক্সাইড ও জল থেকে শর্করা তৈরির প্রক্রিয়া; অক্সিজেন নির্গত হয়।",
+      "section": "plant_nutrition"
+    },
+    {
+      "term": "পত্ররন্ধ্র (Stomata)",
+      "meaning": "পাতার উপরিতলের ক্ষুদ্র ছিদ্র, যা রক্ষীকোশ দিয়ে ঘেরা; গ্যাস-বিনিময় ও প্রস্বেদনের পথ।",
+      "section": "plant_nutrition"
+    },
+    {
+      "term": "জাইলেম (Xylem)",
+      "meaning": "জল ও খনিজ পরিবহণকারী উদ্ভিদকলা।",
+      "section": "plant_transport"
+    },
+    {
+      "term": "ফ্লোয়েম (Phloem)",
+      "meaning": "সালোকসংশ্লেষজাত খাবার পরিবহণকারী উদ্ভিদকলা।",
+      "section": "plant_transport"
+    },
+    {
+      "term": "স্থানান্তর (Translocation)",
+      "meaning": "ফ্লোয়েম দিয়ে সালোকসংশ্লেষের দ্রবণীয় উৎপাদের পরিবহণ।",
+      "section": "plant_transport"
+    },
+    {
+      "term": "প্রস্বেদন (Transpiration)",
+      "meaning": "উদ্ভিদের বায়বীয় অংশ থেকে বাষ্পাকারে জল নির্গমন।",
+      "section": "plant_transport"
+    },
+    {
+      "term": "অঙ্গজ প্রজনন (Vegetative propagation)",
+      "meaning": "মূল, কাণ্ড বা পাতার অংশ থেকে নতুন উদ্ভিদ জন্মানো।",
+      "section": "plant_reproduction"
+    },
+    {
+      "term": "নোটোকর্ড (Notochord)",
+      "meaning": "কিছু প্রাণীর ভ্রূণ অবস্থায় পৃষ্ঠদেশে গঠিত দণ্ডাকার গঠন; থাকলে প্রাণীটি কর্ডাটা।",
+      "section": "animal_classification"
+    },
+    {
+      "term": "রুমিন্যান্ট (Ruminant)",
+      "meaning": "জাবর-কাটা তৃণভোজী প্রাণী; যেমন গোরু, মোষ, হরিণ।",
+      "section": "animal_life"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "প্রস্বেদন-টান ও জলের ঊর্ধ্বগতি",
+      "causes": [
+        "পাতার কোশ থেকে জল বাষ্পীভূত হয় (প্রস্বেদন)"
+      ],
+      "event": "পাতায় সৃষ্ট টান মূলের জাইলেম থেকে জল টেনে তোলে",
+      "results": [
+        "লম্বা গাছের চূড়া পর্যন্ত জল ও খনিজ পৌঁছায়",
+        "পাতার তাপমাত্রা নিয়ন্ত্রিত থাকে"
+      ],
+      "section": "plant_transport",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "title": "রাইজোবিয়াম ও ডালশস্যের সহাবস্থান",
+      "causes": [
+        "রাইজোবিয়াম ব্যাকটেরিয়া ডালশস্যের মূলে বাসা বাঁধে",
+        "ব্যাকটেরিয়া নিজে খাবার বানাতে পারে না"
+      ],
+      "event": "ব্যাকটেরিয়া বাতাসের নাইট্রোজেনকে ব্যবহারযোগ্য রূপে বদলে গাছকে দেয়; বিনিময়ে গাছ দেয় খাবার ও আশ্রয়",
+      "results": [
+        "ডালশস্য নাইট্রোজেন-সারে কম নির্ভরশীল হয়",
+        "মাটির নাইট্রোজেন-ভাণ্ডার পুনরুদ্ধারে সাহায্য হয়"
+      ],
+      "section": "plant_nutrition",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "title": "হৃৎপিণ্ডের পৃথকীকরণ ও উষ্ণরক্ততা",
+      "causes": [
+        "পাখি ও স্তন্যপায়ীর হৃৎপিণ্ডে অক্সিজেনযুক্ত ও অক্সিজেনহীন রক্ত আলাদা থাকে"
+      ],
+      "event": "দেহে অক্সিজেনের দক্ষ জোগান সম্ভব হয়",
+      "results": [
+        "দেহের তাপমাত্রা ধ্রুব রাখতে প্রচুর শক্তি খরচ করা যায় — প্রাণী উষ্ণরক্তের হয়"
+      ],
+      "section": "vertebrate_classes",
+      "claims": [
+        "c23"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "জাইলেম বনাম ফ্লোয়েম — কাজ উল্টে দেওয়াই প্রধান ফাঁদ; স্থানান্তর মানেই ফ্লোয়েম।",
+      "section": "plant_transport"
+    },
+    {
+      "point": "রঙিন (লাল/বাদামি) পাতায়ও ক্লোরোফিল থাকে ও সালোকসংশ্লেষ হয় — WBCS 2024।",
+      "section": "plant_nutrition"
+    },
+    {
+      "point": "অঙ্গজ প্রজনন কেবল উদ্ভিদে — WBCS 2023; পাথরকুচি ও আলুর উদাহরণসহ মনে রাখো।",
+      "section": "plant_reproduction"
+    },
+    {
+      "point": "বৃদ্ধি-রোধক হরমোন = অ্যাবসিসিক অ্যাসিড — WBCS 2024।",
+      "section": "plant_reproduction"
+    },
+    {
+      "point": "কুমির উভচর নয়, সরীসৃপ; আবার সরীসৃপ হলেও তার হৃৎপিণ্ড চার প্রকোষ্ঠের।",
+      "section": "vertebrate_classes"
+    },
+    {
+      "point": "ডিম-পাড়া স্তন্যপায়ী প্লাটিপাস — WBCS 2017; তিমির শ্বাসঅঙ্গ ফুসফুস — WBCS 2018।",
+      "section": "vertebrate_classes"
+    },
+    {
+      "point": "ফিতাকৃমি বহুকোশী চ্যাপ্টাকৃমি; অ্যামিবা এককোশী — KP Constable 2023।",
+      "section": "animal_classification"
+    }
+  ],
+  "bengal_connection": {
+    "body": "বাংলার কৃষি এই অধ্যায়ের ধারণাগুলির সঙ্গে সরাসরি জড়িত। পশ্চিমবঙ্গের জমিতে ছোলা, মসুর, মুগের মতো ডালশস্য চাষ হয় — এই গাছগুলির মূলে বাসা বাঁধা রাইজোবিয়াম ব্যাকটেরিয়া বাতাসের নাইট্রোজেনকে ব্যবহারযোগ্য রূপে বদলে দেয় বলে ডালশস্যের জমিতে নাইট্রোজেন-সারের প্রয়োজন কম পড়ে। সার ও গোবরসারে থাকা নাইট্রোজেন, পটাশিয়াম ও ফসফরাস মাটির ক্ষয়িত পুষ্টি ফিরিয়ে দেয় — বাংলার চাষির সার-প্রয়োগের অভ্যাসের পেছনের বিজ্ঞান এটিই।",
+    "claims": [
+      "c11",
+      "c12"
+    ]
+  },
+  "quick_revision": [
+    "উদ্ভিদ স্বভোজী; পাতা খাদ্য-কারখানা, ক্লোরোফিল সূর্যালোক ধরে।",
+    "সালোকসংশ্লেষের শর্ত: ক্লোরোফিল, সূর্যালোক, কার্বন ডাই-অক্সাইড, জল; নির্গত হয় অক্সিজেন।",
+    "রঙিন পাতায়ও ক্লোরোফিল থাকে — সালোকসংশ্লেষ হয়।",
+    "স্বর্ণলতা পরজীবী, কলসী উদ্ভিদ পতঙ্গভোজী, ছত্রাক মৃতজীবী।",
+    "জাইলেম = জল-খনিজ; ফ্লোয়েম = খাবার; খাবারের পরিবহণ = স্থানান্তর।",
+    "প্রস্বেদন জলকে উপরে টানে ও তাপমাত্রা নিয়ন্ত্রণ করে।",
+    "অঙ্গজ প্রজনন কেবল উদ্ভিদে; পাথরকুচির পাতার খাঁজে কুঁড়ি জন্মায়।",
+    "অক্সিন-জিব্বেরেলিন-সাইটোকাইনিন বৃদ্ধি বাড়ায়; অ্যাবসিসিক অ্যাসিড বৃদ্ধি রোধ করে।",
+    "সব প্রাণী বহুকোশী; স্পঞ্জে কোশীয় স্তর, সন্ধিপদী সবচেয়ে বড় গোষ্ঠী।",
+    "হৃৎপিণ্ড: মাছ ২, উভচর ৩, সরীসৃপ ৩ (কুমির ৪), পাখি-স্তন্যপায়ী ৪ প্রকোষ্ঠ।",
+    "কুমির সরীসৃপ; প্লাটিপাস ডিম-পাড়া স্তন্যপায়ী; তিমি ফুসফুসে শ্বাস নেয়।",
+    "গোরু-মোষ-হরিণ রুমিন্যান্ট; অ্যামিবা ছদ্মপদে খাবার ধরে খাদ্যগহ্বরে হজম করে।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Science, Class VII, Chapter 1: Nutrition in Plants",
+      "class": "VII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/gesc101.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Science, Class VII, Chapter 2: Nutrition in Animals",
+      "class": "VII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/gesc102.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Science, Class X, Chapter 5: Life Processes",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc105.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Biology, Class XI, Chapter 4: Animal Kingdom",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/kebo104.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Science, Class X, Chapter 7: How do Organisms Reproduce?",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc107.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Science, Class X, Chapter 6: Control and Coordination",
+      "class": "X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc106.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Plants are autotrophs: they make food themselves from simple substances (autotrophic nutrition).",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "The mode of nutrition in which organisms make food themselves from simple substances is called autotrophic (auto = self; trophos = nourishment) nutrition. Therefore, plants are called autotrophs."
+    },
+    {
+      "id": "c02",
+      "claim": "Leaves are the food factories of plants; water and minerals are absorbed by roots and transported to leaves.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "Leaves are the food factories of plants. Therefore, all the raw materials must reach the leaf. Water and minerals present in the soil are absorbed by the roots and transported to the leaves."
+    },
+    {
+      "id": "c03",
+      "claim": "Stomata are tiny pores on leaves surrounded by guard cells.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "through the tiny pores present on the surface of leaves. These pores are surrounded by 'guard cells'. Such pores are called stomata"
+    },
+    {
+      "id": "c04",
+      "claim": "Chlorophyll is the green pigment in leaves that captures the energy of sunlight.",
+      "source": "s1",
+      "page": "p. 2",
+      "quote": "The leaves have a green pigment called chlorophyll. It helps leaves to capture the energy of the sunlight."
+    },
+    {
+      "id": "c05",
+      "claim": "Chlorophyll, sunlight, carbon dioxide and water are necessary for photosynthesis.",
+      "source": "s1",
+      "page": "p. 3",
+      "quote": "So we find that chlorophyll, sunlight, carbon dioxide and water are necessary to carry out the process of photosynthesis."
+    },
+    {
+      "id": "c06",
+      "claim": "Oxygen is released during photosynthesis; starch in leaves indicates photosynthesis has occurred.",
+      "source": "s1",
+      "page": "p. 3",
+      "quote": "During the process oxygen is released. The presence of starch in leaves indicates the occurrence of photosynthesis. Starch is also a carbohydrate."
+    },
+    {
+      "id": "c07",
+      "claim": "Non-green (red/brown) leaves also contain chlorophyll, masked by other pigments, and photosynthesise.",
+      "source": "s1",
+      "page": "p. 4",
+      "quote": "The leaves other than green also have chlorophyll. The large amount of red, brown and other pigments mask the green colour. Photosynthesis takes place in these leaves also."
+    },
+    {
+      "id": "c08",
+      "claim": "Cuscuta (Amarbel) is a parasite: it has no chlorophyll and takes readymade food from its host plant.",
+      "source": "s1",
+      "page": "p. 4",
+      "quote": "It takes readymade food from the plant on which it is climbing. The plant on which it climbs is called the host."
+    },
+    {
+      "id": "c09",
+      "claim": "Insectivorous plants such as the pitcher plant trap and digest insects and absorb their nutrients.",
+      "source": "s1",
+      "page": "p. 5",
+      "quote": "The insect is digested by the digestive juices secreted in the pitcher and its nutrients are absorbed. Such insecteating plants are called insectivorous plants."
+    },
+    {
+      "id": "c10",
+      "claim": "Fungi take nutrients from dead and decaying matter (saprotrophic nutrition) and lack chlorophyll.",
+      "source": "s1",
+      "page": "p. 5",
+      "quote": "This mode of nutrition in which organisms take in nutrients from dead and decaying matter is called saprotrophic nutrition."
+    },
+    {
+      "id": "c11",
+      "claim": "Rhizobium bacteria living in roots of legumes convert atmospheric nitrogen into a usable form for the plant.",
+      "source": "s1",
+      "page": "p. 7",
+      "quote": "The bacterium called Rhizobium can take atmospheric nitrogen and convert it into a usable form. But Rhizobium cannot make its own food. So it often lives in the roots of gram, peas, moong, beans and other legumes and provides them with nitrogen."
+    },
+    {
+      "id": "c12",
+      "claim": "Fertilisers and manures contain nutrients such as nitrogen, potassium and phosphorus that replenish the soil.",
+      "source": "s1",
+      "page": "p. 7",
+      "quote": "Fertilisers and manures contain nutrients such as nitrogen, potassium, phosphorous, etc. These nutrients need to be added from time to time to enrich the soil."
+    },
+    {
+      "id": "c13",
+      "claim": "Desert plants have green stems that carry out photosynthesis, and scale/spine-like leaves that reduce water loss.",
+      "source": "s1",
+      "page": "p. 3",
+      "quote": "Besides leaves, photosynthesis also takes place in other green parts of the plant — in green stems and green branches. The desert plants have scaleor spinelike leaves to reduce loss of water by transpiration. These plants have green stems which carry out photosynthesis."
+    },
+    {
+      "id": "c14",
+      "claim": "Autotrophs include green plants and some bacteria; heterotrophs depend directly or indirectly on autotrophs.",
+      "source": "s3",
+      "page": "p. 81",
+      "quote": "These organisms, the autotrophs, include green plants and some bacteria. Other organisms utilise complex substances. Thus, the heterotrophs survival depends directly or indirectly on autotrophs."
+    },
+    {
+      "id": "c15",
+      "claim": "In photosynthesis, carbon dioxide and water are converted into carbohydrates in the presence of sunlight and chlorophyll.",
+      "source": "s3",
+      "page": "p. 81",
+      "quote": "This material is taken in the form of carbon dioxide and water which is converted into carbohydrates in the presence of sunlight and chlorophyll. Carbohydrates are utilised for providing energy to the plant."
+    },
+    {
+      "id": "c16",
+      "claim": "Unused carbohydrates in plants are stored as starch, the internal energy reserve.",
+      "source": "s3",
+      "page": "p. 81",
+      "quote": "The carbohydrates which are not used immediately are stored in the form of starch, which serves as the internal energy reserve to be used as and when required by the plant."
+    },
+    {
+      "id": "c17",
+      "claim": "Chloroplasts are the cell organelles that contain chlorophyll.",
+      "source": "s3",
+      "page": "p. 82",
+      "quote": "These green dots are cell organelles called chloroplasts which contain chlorophyll."
+    },
+    {
+      "id": "c18",
+      "claim": "Guard cells control opening and closing of stomata: they swell with water to open the pore and shrink to close it.",
+      "source": "s3",
+      "page": "p. 83",
+      "quote": "The opening and closing of the pore is a function of the guard cells. The guard cells swell when water flows into them, causing the stomatal pore to open. Similarly the pore closes if the guard cells shrink."
+    },
+    {
+      "id": "c19",
+      "claim": "Nitrogen is an essential element for synthesis of proteins; plants also take up phosphorus, iron and magnesium from the soil.",
+      "source": "s3",
+      "page": "p. 83",
+      "quote": "Other materials like nitrogen, phosphorus, iron and magnesium are taken up from the soil. Nitrogen is an essential element used in the synthesis of proteins and other compounds."
+    },
+    {
+      "id": "c20",
+      "claim": "Xylem moves water and minerals from the soil; phloem transports products of photosynthesis from leaves to other parts.",
+      "source": "s3",
+      "page": "p. 94",
+      "quote": "One, the xylem moves water and minerals obtained from the soil. The other, phloem transports products of photosynthesis from the leaves where they are synthesised to other parts of the plant."
+    },
+    {
+      "id": "c21",
+      "claim": "Transport of soluble products of photosynthesis is called translocation.",
+      "source": "s3",
+      "page": "p. 95",
+      "quote": "This transport of soluble products of photosynthesis is called translocation and it occurs in the part of the vascular tissue"
+    },
+    {
+      "id": "c22",
+      "claim": "Transpiration is loss of water vapour from aerial parts; it helps absorption and upward movement of water and temperature regulation.",
+      "source": "s3",
+      "page": "p. 94",
+      "quote": "The loss of water in the form of vapour from the aerial parts of the plant is known as transpiration. Thus, transpiration helps in the absorption and upward movement of water and minerals dissolved in it from roots to the leaves. It also helps in temperature regulation."
+    },
+    {
+      "id": "c23",
+      "claim": "Birds and mammals maintain body temperature using energy, helped by separation of oxygenated and deoxygenated blood in the heart.",
+      "source": "s3",
+      "page": "p. 92",
+      "quote": "This is useful in animals that have high energy needs, such as birds and mammals, which constantly use energy to maintain their body temperature."
+    },
+    {
+      "id": "c24",
+      "claim": "Amphibians and many reptiles have three-chambered hearts; fishes have two-chambered hearts and blood is oxygenated at the gills.",
+      "source": "s3",
+      "page": "p. 92",
+      "quote": "Such animals, like amphibians or many reptiles have threechambered hearts, and tolerate some mixing of the oxygenated and deoxygenated blood streams. Fishes, on the other hand, have only two chambers to their hearts, and the blood is pumped to the gills, is oxygenated there"
+    },
+    {
+      "id": "c25",
+      "claim": "Fungi like bread moulds, yeast and mushrooms break down food outside the body and then absorb it.",
+      "source": "s3",
+      "page": "p. 83",
+      "quote": "Some organisms breakdown the food material outside the body and then absorb it. Examples are fungi like bread moulds, yeast and mushrooms."
+    },
+    {
+      "id": "c26",
+      "claim": "In vegetative propagation, root, stem or leaf parts develop into new plants; unlike in most animals, plants can use this mode of reproduction.",
+      "source": "s5",
+      "page": "p. 117",
+      "quote": "There are many plants in which parts like the root, stem and leaves develop into new plants under appropriate conditions. Unlike in most animals, plants can indeed use such a mode for reproduction."
+    },
+    {
+      "id": "c27",
+      "claim": "Buds in the notches of the Bryophyllum leaf margin fall on soil and develop into new plants.",
+      "source": "s5",
+      "page": "p. 117",
+      "quote": "Similarly buds produced in the notches along the leaf margin of Bryophyllum fall on the soil and develop into new plants"
+    },
+    {
+      "id": "c28",
+      "claim": "Hydra and Planaria show regeneration: each cut piece can grow into a complete organism.",
+      "source": "s5",
+      "page": "p. 116",
+      "quote": "simple animals like Hydra and Planaria can be cut into any number of pieces and each piece grows into a complete organism. This is known as regeneration"
+    },
+    {
+      "id": "c29",
+      "claim": "For unicellular organisms, cell division or fission creates new individuals; in Amoeba splitting can take place in any plane.",
+      "source": "s5",
+      "page": "p. 115",
+      "quote": "For unicellular organisms, cell division, or fission, leads to the creation of new individuals. Many bacteria and protozoa simply split into two equal halves during cell division. In organisms such as Amoeba, the splitting of the two cells during division can take place in any plane."
+    },
+    {
+      "id": "c30",
+      "claim": "Auxin, synthesised at the shoot tip, helps cells grow longer and causes bending towards light.",
+      "source": "s6",
+      "page": "p. 107",
+      "quote": "When growing plants detect light, a hormone called auxin, synthesised at the shoot tip, helps the cells to grow longer."
+    },
+    {
+      "id": "c31",
+      "claim": "Gibberellins help in the growth of the stem; cytokinins promote cell division.",
+      "source": "s6",
+      "page": "p. 108",
+      "quote": "Another example of plant hormones are gibberellins which, like auxins, help in the growth of the stem. Cytokinins promote cell division"
+    },
+    {
+      "id": "c32",
+      "claim": "Abscisic acid is a plant hormone that inhibits growth; its effects include wilting of leaves.",
+      "source": "s6",
+      "page": "p. 108",
+      "quote": "But plants also need signals to stop growing. Abscisic acid is one example of a hormone which inhibits growth. Its effects include wilting of leaves."
+    },
+    {
+      "id": "c33",
+      "claim": "Shoots bend towards light and roots away from it (phototropism); roots grow downwards and shoots upwards in response to gravity (geotropism).",
+      "source": "s6",
+      "page": "p. 107",
+      "quote": "These directional, or tropic, movements can be either towards the stimulus, or away from it. So, in two different kinds of phototropic movement, shoots respond by bending towards light while roots respond by bending away from it."
+    },
+    {
+      "id": "c34",
+      "claim": "The sensitive plant (Mimosa/chhuimui) folds its leaves quickly on touch, a movement with no growth involved.",
+      "source": "s6",
+      "page": "p. 105",
+      "quote": "When we touch the leaves of a chhuimui (the 'sensitive' or 'touchmenot' plant of the Mimosa family), they begin to fold up and droop. There is no growth involved in this movement."
+    },
+    {
+      "id": "c35",
+      "claim": "All members of Animalia are multicellular, though their pattern of organisation of cells differs.",
+      "source": "s4",
+      "page": "p. 37",
+      "quote": "Though all members of Animalia are multicellular, all of them do not exhibit the same pattern of organisation of cells."
+    },
+    {
+      "id": "c36",
+      "claim": "Sponges show cellular level of organisation: cells are arranged as loose aggregates.",
+      "source": "s4",
+      "page": "p. 37",
+      "quote": "For example, in sponges, the cells are arranged as loose cell aggregates, i.e., they exhibit cellular level of organisation."
+    },
+    {
+      "id": "c37",
+      "claim": "Platyhelminthes are flatworms with dorsoventrally flattened bodies; examples are Taenia (tapeworm) and Fasciola (liver fluke).",
+      "source": "s4",
+      "page": "p. 42",
+      "quote": "They have dorsoventrally flattened body, hence are called flatworms (Figure 4.9). Examples: Taenia (Tapeworm), Fasciola (Liver fluke)."
+    },
+    {
+      "id": "c38",
+      "claim": "Arthropods are the most abundant group of animals and are characterised by jointed appendages.",
+      "source": "s4",
+      "page": "p. 52",
+      "quote": "The arthropods are the most abundant group of animals characterised by the presence of jointed appendages."
+    },
+    {
+      "id": "c39",
+      "claim": "Amphibians live in aquatic and terrestrial habitats; respiration is by gills, lungs and skin; heart is three-chambered; they are cold-blooded.",
+      "source": "s4",
+      "page": "p. 48",
+      "quote": "amphibians can live in aquatic as well as terrestrial habitats (Figure 4.21). Respiration is by gills, lungs and through skin. The heart is threechambered (two auricles and one ventricle). These are coldblooded animals."
+    },
+    {
+      "id": "c40",
+      "claim": "Reptiles: heart is usually three-chambered but four-chambered in crocodiles; examples include Crocodilus (crocodile).",
+      "source": "s4",
+      "page": "p. 49",
+      "quote": "Heart is usually threechambered, but fourchambered in crocodiles. Reptiles are poikilotherms. Examples: Chelone (Turtle), Testudo (Tortoise), Chameleon (Tree lizard), Calotes (Garden lizard), Crocodilus (Crocodile), Alligator (Alligator)."
+    },
+    {
+      "id": "c41",
+      "claim": "Birds (Aves) have feathers, are warm-blooded (homoiothermous) and respiration is by lungs.",
+      "source": "s4",
+      "page": "p. 49",
+      "quote": "The characteristic features of Aves (birds) are the presence of feathers and most of them can fly except flightless birds (e.g., Ostrich). They are warmblooded (homoiothermous) animals, i.e., they are able to maintain a constant body temperature. Respiration is by lungs."
+    },
+    {
+      "id": "c42",
+      "claim": "The most unique mammalian characteristic is milk-producing mammary glands by which young ones are nourished.",
+      "source": "s4",
+      "page": "p. 50",
+      "quote": "The most unique mammalian characteristic is the presence of milk producing glands (mammary glands) by which the young ones are nourished."
+    },
+    {
+      "id": "c43",
+      "claim": "Mammals respire by lungs and are mostly viviparous; Ornithorhynchus (platypus) is an oviparous (egg-laying) mammal.",
+      "source": "s4",
+      "page": "p. 51",
+      "quote": "They are homoiothermous. Respiration is by lungs. Sexes are separate and fertilisation is internal. They are viviparous with few exceptions and development is direct. Examples: Oviparous-Ornithorhynchus (Platypus)"
+    },
+    {
+      "id": "c44",
+      "claim": "Bony fishes have a two-chambered heart (one auricle and one ventricle) and are cold-blooded.",
+      "source": "s4",
+      "page": "p. 48",
+      "quote": "Air bladder is present which regulates buoyancy. Heart is twochambered (one auricle and one ventricle). They are coldblooded animals."
+    },
+    {
+      "id": "c45",
+      "claim": "Animals with a notochord are chordates; animals without it are non-chordates.",
+      "source": "s4",
+      "page": "p. 39",
+      "quote": "Notochord is a mesodermally derived rodlike structure formed on the dorsal side during embryonic development in some animals. Animals with notochord are called chordates and those animals which do not form this structure are called nonchordates"
+    },
+    {
+      "id": "c46",
+      "claim": "In earthworm the body shows metameric segmentation, called metamerism.",
+      "source": "s4",
+      "page": "p. 39",
+      "quote": "In some animals, the body is externally and internally divided into segments with a serial repetition of at least some organs. For example, in earthworm, the body shows this pattern called metameric segmentation and the phenomenon is known as metamerism."
+    },
+    {
+      "id": "c47",
+      "claim": "Animals get food from plants directly by eating plants or indirectly by eating animals that eat plants.",
+      "source": "s2",
+      "page": "p. 11",
+      "quote": "Animals get their food from plants, either directly by eating plants or indirectly by eating animals that eat plants."
+    },
+    {
+      "id": "c48",
+      "claim": "Ruminants (cow, buffalo, deer) swallow leafy food quickly and store it in the rumen, later bringing it back to chew.",
+      "source": "s2",
+      "page": "p. 19",
+      "quote": "The grazing animals like cows, buffaloes and deer are known as ruminants. They quickly ingest, swallow their leafy food and store it in the rumen. Later, the food returns to the mouth and the animal chews it peacefully."
+    },
+    {
+      "id": "c49",
+      "claim": "Amoeba ingests food with pseudopodia (false feet) and digests it in the food vacuole.",
+      "source": "s2",
+      "page": "p. 19",
+      "quote": "Amoeba ingests its food with the help of its false feet or pseudopodia. The food is digested in the food vacuole."
+    },
+    {
+      "id": "c50",
+      "claim": "Starfish pops its stomach out through its mouth to eat the soft animal inside a hard shell.",
+      "source": "s2",
+      "page": "p. 12",
+      "quote": "Starfish feeds on animals covered by hard shells of calcium carbonate. After opening the shell, the starfish pops out its stomach through its mouth to eat the soft animal inside the shell."
+    },
+    {
+      "id": "c51",
+      "claim": "Bees and hummingbirds suck nectar; snakes like the python swallow their prey whole.",
+      "source": "s2",
+      "page": "p. 11",
+      "quote": "Bees and hummingbirds suck the nectar of plants, infants of human and many other animals feed on mother's milk. Snakes like the python swallow the animals they prey upon."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "plant_nutrition",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "যেসব জীব নিজের খাবার নিজেই তৈরি করতে পারে, তাদের কী বলা হয়?",
+      "a": "স্বভোজী (Autotroph)",
+      "w": [
+        "পরভোজী (Heterotroph)",
+        "মৃতজীবী (Saprotroph)",
+        "পরজীবী (Parasite)"
+      ],
+      "e": "উদ্ভিদ সরল পদার্থ থেকে নিজের খাবার নিজেই তৈরি করে — এই পুষ্টিপদ্ধতির নাম স্বভোজী পুষ্টি, তাই উদ্ভিদ স্বভোজী। পরভোজীরা তৈরি খাবারের ওপর নির্ভর করে।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "plant_nutrition",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "উদ্ভিদের 'খাদ্য-কারখানা' কোন অংশকে বলা হয়?",
+      "a": "পাতা",
+      "w": [
+        "মূল",
+        "কাণ্ড",
+        "ফুল"
+      ],
+      "e": "পাতাই উদ্ভিদের খাদ্য-কারখানা; মূল মাটি থেকে জল ও খনিজ শোষণ করে পাতায় পৌঁছে দেয়, কিন্তু খাবার তৈরি হয় পাতায়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "plant_nutrition",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পাতার সবুজ রঞ্জকপদার্থ কোনটি, যা সূর্যালোকের শক্তি ধরে?",
+      "a": "ক্লোরোফিল (Chlorophyll)",
+      "w": [
+        "ক্যারোটিন",
+        "অ্যান্থোসায়ানিন",
+        "হিমোগ্লোবিন"
+      ],
+      "e": "পাতার সবুজ রঞ্জক ক্লোরোফিল সূর্যের আলোর শক্তি ধরে সালোকসংশ্লেষে ব্যবহার করে। হিমোগ্লোবিন প্রাণীর রক্তের রঞ্জক, পাতার নয়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "plant_nutrition",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সালোকসংশ্লেষের জন্য কোন চারটি উপাদান আবশ্যক?",
+      "a": "ক্লোরোফিল, সূর্যালোক, কার্বন ডাই-অক্সাইড ও জল",
+      "w": [
+        "ক্লোরোফিল, অক্সিজেন, নাইট্রোজেন ও জল",
+        "সূর্যালোক, অক্সিজেন, গ্লুকোজ ও জল",
+        "ক্লোরোফিল, চাঁদের আলো, কার্বন ডাই-অক্সাইড ও জল"
+      ],
+      "e": "NCERT স্পষ্ট বলেছে — ক্লোরোফিল, সূর্যালোক, কার্বন ডাই-অক্সাইড ও জল সালোকসংশ্লেষের আবশ্যক উপাদান। অক্সিজেন এই প্রক্রিয়ায় উৎপন্ন হয়, লাগে না।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "plant_nutrition",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সালোকসংশ্লেষের সময় কোন গ্যাস নির্গত হয় এবং পাতায় কোন পদার্থের উপস্থিতি প্রক্রিয়াটি ঘটেছে বোঝায়?",
+      "a": "অক্সিজেন নির্গত হয়; শ্বেতসার (স্টার্চ) জমে",
+      "w": [
+        "কার্বন ডাই-অক্সাইড নির্গত হয়; গ্লাইকোজেন জমে",
+        "নাইট্রোজেন নির্গত হয়; প্রোটিন জমে",
+        "অক্সিজেন নির্গত হয়; চর্বি জমে"
+      ],
+      "e": "সালোকসংশ্লেষে অক্সিজেন নির্গত হয়, আর পাতায় শ্বেতসারের উপস্থিতিই প্রমাণ করে প্রক্রিয়াটি ঘটেছে। উদ্ভিদে সঞ্চয় হয় শ্বেতসার রূপে, গ্লাইকোজেন রূপে নয়।",
+      "claims": [
+        "c06",
+        "c16"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "plant_nutrition",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "লাল বা বাদামি রঙের পাতায় সালোকসংশ্লেষ হয় কি?",
+      "a": "হয় — পাতায় ক্লোরোফিল থাকে, অন্য রঞ্জকের আড়ালে সবুজ রং ঢাকা পড়ে মাত্র",
+      "w": [
+        "হয় না — সবুজ না হলে ক্লোরোফিল থাকতে পারে না",
+        "হয় — কিন্তু ক্লোরোফিল ছাড়াই, অন্য রঞ্জক দিয়ে",
+        "শুধু রাতে হয়"
+      ],
+      "e": "সবুজ ছাড়া অন্য রঙের পাতাতেও ক্লোরোফিল থাকে; লাল-বাদামি রঞ্জকের প্রাচুর্যে সবুজ রং ঢাকা পড়ে যায়, কিন্তু সালোকসংশ্লেষ ঠিকই চলে। এটিই WBCS 2024-এর প্রশ্নের মূল কথা।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "plant_nutrition",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্বর্ণলতা (Cuscuta/অমরবেল) কোন ধরনের উদ্ভিদ?",
+      "a": "পরজীবী — ক্লোরোফিল নেই, আশ্রয়দাতা উদ্ভিদ থেকে তৈরি খাবার নেয়",
+      "w": [
+        "মৃতজীবী — মৃত জৈব পদার্থ থেকে খাবার নেয়",
+        "পতঙ্গভোজী — পোকা ধরে খায়",
+        "স্বভোজী — নিজেই খাবার তৈরি করে"
+      ],
+      "e": "স্বর্ণলতায় ক্লোরোফিল নেই; এটি যে গাছে ওঠে (আশ্রয়দাতা/host) তার তৈরি খাবার শুষে নেয়, তাই এটি পরজীবী।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "plant_nutrition",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. কলসী উদ্ভিদ (pitcher plant) পতঙ্গ ধরে তার দেহের পুষ্টি শোষণ করে।\n২. ছত্রাক মৃত ও পচনশীল পদার্থ থেকে পুষ্টি নেয় — এটি মৃতজীবী পুষ্টি।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "কেবল ১",
+        "কেবল ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটিই সঠিক: কলসী উদ্ভিদ পতঙ্গভোজী — পাচক রসে পোকা হজম করে পুষ্টি শোষণ করে; ছত্রাকের পুষ্টিই মৃতজীবী পুষ্টির উদাহরণ।",
+      "claims": [
+        "c09",
+        "c10"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "plant_transport",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "উদ্ভিদে জল ও খনিজ পদার্থ পরিবহণ করে কোন কলা?",
+      "a": "জাইলেম (Xylem)",
+      "w": [
+        "ফ্লোয়েম (Phloem)",
+        "ক্যাম্বিয়াম",
+        "প্যারেনকাইমা"
+      ],
+      "e": "জাইলেম মাটি থেকে পাওয়া জল ও খনিজ বহন করে; ফ্লোয়েম বহন করে পাতায় তৈরি খাবার। এই জোড়াটি উল্টে দিলেই ভুল হয় — পরীক্ষায় বারবার আসে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "plant_transport",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পাতায় তৈরি সালোকসংশ্লেষজাত দ্রবণীয় পদার্থের পরিবহণকে কী বলা হয়?",
+      "a": "স্থানান্তর (Translocation)",
+      "w": [
+        "প্রস্বেদন (Transpiration)",
+        "শ্বসন (Respiration)",
+        "অভিস্রবণ (Osmosis)"
+      ],
+      "e": "সালোকসংশ্লেষে উৎপন্ন দ্রবণীয় পদার্থের পরিবহণই স্থানান্তর, যা ফ্লোয়েমে ঘটে। প্রস্বেদন হল জলীয় বাষ্পের নির্গমন — দুটো গুলিয়ে ফেলা চলবে না।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "plant_transport",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রস্বেদন (Transpiration) বলতে কী বোঝায়?",
+      "a": "উদ্ভিদের বায়বীয় অংশ থেকে জলীয় বাষ্প আকারে জলের নির্গমন",
+      "w": [
+        "মূল দিয়ে জল শোষণ",
+        "পাতায় খাবার তৈরি",
+        "বীজের অঙ্কুরোদগম"
+      ],
+      "e": "প্রস্বেদন হল বায়বীয় অংশ থেকে বাষ্পাকারে জল হারানো। এটি মূল থেকে পাতা পর্যন্ত জল ও খনিজের ঊর্ধ্বগতিতেও সাহায্য করে।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "plant_transport",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পত্ররন্ধ্র (stomata) খোলা-বন্ধ নিয়ন্ত্রণ করে কোন কোশ?",
+      "a": "রক্ষীকোশ (Guard cells)",
+      "w": [
+        "জাইলেম কোশ",
+        "মূলরোম কোশ",
+        "সঙ্গীকোশ (Companion cells)"
+      ],
+      "e": "রক্ষীকোশে জল ঢুকলে কোশ ফুলে পত্ররন্ধ্র খোলে, জল বেরিয়ে কোশ কুঁচকালে রন্ধ্র বন্ধ হয়।",
+      "claims": [
+        "c18",
+        "c03"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "plant_transport",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্রস্বেদনের একটি গুরুত্বপূর্ণ কাজ কোনটি?",
+      "a": "মূল থেকে পাতায় জল ও দ্রবীভূত খনিজের শোষণ ও ঊর্ধ্বগতিতে সাহায্য করা এবং তাপমাত্রা নিয়ন্ত্রণ",
+      "w": [
+        "বীজ ছড়িয়ে দেওয়া",
+        "ফুলে পরাগ পৌঁছে দেওয়া",
+        "মাটিতে নাইট্রোজেন যোগ করা"
+      ],
+      "e": "প্রস্বেদন-টান জলকে মূল থেকে পাতায় তুলতে সাহায্য করে এবং পাতার তাপমাত্রা নিয়ন্ত্রণে রাখে। নাইট্রোজেন যোগের কাজ রাইজোবিয়ামের, প্রস্বেদনের নয়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "plant_transport",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. ফ্লোয়েম সালোকসংশ্লেষজাত পদার্থ পাতা থেকে উদ্ভিদের অন্য অংশে বহন করে।\n২. জাইলেম পাতা থেকে মূলের দিকে খাবার পরিবহণ করে।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "১ ও ২ উভয়ই",
+        "কেবল ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল — জাইলেম মাটি থেকে জল ও খনিজ উপরের দিকে বহন করে, খাবার বহন করে ফ্লোয়েম।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "plant_transport",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মিল করো:\n\nক. জাইলেম — ১. খাবারের স্থানান্তর\nখ. ফ্লোয়েম — ২. জল ও খনিজ পরিবহণ\nগ. রক্ষীকোশ — ৩. পত্ররন্ধ্র খোলা-বন্ধ\nঘ. প্রস্বেদন — ৪. বাষ্পাকারে জল নির্গমন\n\nসঠিক মিল কোনটি?",
+      "a": "ক-২, খ-১, গ-৩, ঘ-৪",
+      "w": [
+        "ক-১, খ-২, গ-৩, ঘ-৪",
+        "ক-২, খ-৩, গ-১, ঘ-৪",
+        "ক-৪, খ-১, গ-২, ঘ-৩"
+      ],
+      "e": "জাইলেম = জল-খনিজ, ফ্লোয়েম = খাবারের স্থানান্তর, রক্ষীকোশ = পত্ররন্ধ্র নিয়ন্ত্রণ, প্রস্বেদন = বাষ্পাকারে জল নির্গমন।",
+      "claims": [
+        "c20",
+        "c18",
+        "c22"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "plant_reproduction",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন ধরনের প্রজনন কেবল উদ্ভিদেই পাওয়া যায় (প্রাণীতে নয়)?",
+      "a": "অঙ্গজ প্রজনন (Vegetative propagation)",
+      "w": [
+        "যৌন প্রজনন",
+        "অযৌন প্রজনন",
+        "পুনরুৎপাদন (Regeneration)"
+      ],
+      "e": "মূল, কাণ্ড বা পাতা থেকে নতুন উদ্ভিদ গজানো — এই অঙ্গজ প্রজনন উদ্ভিদেরই বৈশিষ্ট্য; বেশিরভাগ প্রাণী এভাবে বংশবৃদ্ধি করতে পারে না। WBCS 2023-তে এই প্রশ্নই এসেছিল।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "plant_reproduction",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পাথরকুচি (Bryophyllum) গাছের কোন অংশের খাঁজে কুঁড়ি জন্মে নতুন গাছ হয়?",
+      "a": "পাতার কিনারার খাঁজে",
+      "w": [
+        "মূলে",
+        "ফুলে",
+        "বীজে"
+      ],
+      "e": "পাথরকুচির পাতার কিনারার খাঁজে কুঁড়ি জন্মায়; সেগুলি মাটিতে পড়ে নতুন গাছে পরিণত হয় — অঙ্গজ প্রজননের চেনা উদাহরণ।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "plant_reproduction",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "উদ্ভিদের বৃদ্ধি-সহায়ক হরমোন কোনটি, যা কাণ্ডের অগ্রভাগে তৈরি হয়?",
+      "a": "অক্সিন (Auxin)",
+      "w": [
+        "অ্যাবসিসিক অ্যাসিড",
+        "ইনসুলিন",
+        "অ্যাড্রেনালিন"
+      ],
+      "e": "অক্সিন কাণ্ডের অগ্রভাগে সংশ্লেষিত হয়ে কোশের দৈর্ঘ্য বৃদ্ধি করে। ইনসুলিন ও অ্যাড্রেনালিন প্রাণীর হরমোন, উদ্ভিদের নয়।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "plant_reproduction",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন উদ্ভিদ হরমোন বৃদ্ধি রোধ করে এবং পাতা ঝরিয়ে দেয়?",
+      "a": "অ্যাবসিসিক অ্যাসিড (Abscisic acid)",
+      "w": [
+        "অক্সিন",
+        "জিব্বেরেলিন",
+        "সাইটোকাইনিন"
+      ],
+      "e": "অ্যাবসিসিক অ্যাসিড বৃদ্ধি-রোধক হরমোন; পাতা ঝরা (wilting) এর প্রভাব। WBCS 2024-এ 'বৃদ্ধি-রোধক হরমোন' হিসেবে এটিই জিজ্ঞাসা করা হয়েছিল। বাকি তিনটি বৃদ্ধি-সহায়ক।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "plant_reproduction",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জিব্বেরেলিন ও সাইটোকাইনিনের কাজ যথাক্রমে কোনটি?",
+      "a": "জিব্বেরেলিন কাণ্ডের বৃদ্ধিতে, সাইটোকাইনিন কোশ বিভাজনে সাহায্য করে",
+      "w": [
+        "জিব্বেরেলিন কোশ বিভাজনে, সাইটোকাইনিন কাণ্ডের বৃদ্ধিতে সাহায্য করে",
+        "দুটিই বৃদ্ধি রোধ করে",
+        "দুটিই শুধু ফুল ফোটায়"
+      ],
+      "e": "NCERT অনুযায়ী জিব্বেরেলিন অক্সিনের মতো কাণ্ডের বৃদ্ধিতে সাহায্য করে, আর সাইটোকাইনিন কোশ বিভাজন ত্বরান্বিত করে — ফল ও বীজের মতো দ্রুত বিভাজনশীল অঞ্চলে এর ঘনত্ব বেশি।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "plant_reproduction",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আলোর দিকে কাণ্ড বেঁকে যাওয়া ও অভিকর্ষের টানে মূল নিচে নামা — এই দিকমুখী চলনকে কী বলে?",
+      "a": "ট্রপিক চলন (Tropic movement)",
+      "w": [
+        "স্পর্শজনিত ভাঁজ পড়া",
+        "পুনরুৎপাদন",
+        "দ্বিবিভাজন"
+      ],
+      "e": "আলো বা অভিকর্ষের মতো উদ্দীপকের দিকে/বিপরীতে বৃদ্ধিজনিত দিকমুখী চলনই ট্রপিক চলন: কাণ্ড আলোর দিকে, মূল আলো থেকে দূরে ও অভিকর্ষের দিকে বাড়ে।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "plant_reproduction",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): ছুঁইমুই (লজ্জাবতী) গাছের পাতা ছুঁলেই দ্রুত ভাঁজ পড়ে।\nকারণ (R): এই চলনে উদ্ভিদের বৃদ্ধি জড়িত থাকে।\n\nসঠিক বিকল্প কোনটি?",
+      "a": "A সঠিক, কিন্তু R ভুল",
+      "w": [
+        "A ও R দুটিই সঠিক এবং R, A-র সঠিক ব্যাখ্যা",
+        "A ভুল, R সঠিক",
+        "A ও R দুটিই ভুল"
+      ],
+      "e": "ছুঁইমুইয়ের পাতা ভাঁজ পড়া দ্রুত চলন, কিন্তু NCERT স্পষ্ট বলেছে এতে বৃদ্ধি জড়িত নয় — কোশে জলের পরিমাণ বদলে আকার বদলায়। তাই A সঠিক, R ভুল।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "animal_classification",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রাণীজগতের (Animalia) সব সদস্যের সাধারণ বৈশিষ্ট্য কোনটি?",
+      "a": "সবাই বহুকোশী",
+      "w": [
+        "সবাই এককোশী",
+        "সবার নোটোকর্ড থাকে",
+        "সবাই স্থলচর"
+      ],
+      "e": "Animalia-র প্রতিটি সদস্য বহুকোশী; পার্থক্য শুধু কোশের সংগঠনের ধরনে। নোটোকর্ড কেবল কর্ডাটাদের থাকে, সব প্রাণীর নয়।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "animal_classification",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "স্পঞ্জের দেহে কোশগুলি আলগা গুচ্ছে সাজানো থাকে — এটি কোন স্তরের সংগঠন?",
+      "a": "কোশীয় স্তর (Cellular level)",
+      "w": [
+        "কলা স্তর (Tissue level)",
+        "অঙ্গ স্তর (Organ level)",
+        "অঙ্গতন্ত্র স্তর (Organ-system level)"
+      ],
+      "e": "স্পঞ্জে একই কাজের কোশ কলায় সাজানো নয়, আলগা কোশ-সমষ্টি মাত্র — তাই কোশীয় স্তরের সংগঠন।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "animal_classification",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ফিতাকৃমি (Taenia) কোন পর্বের প্রাণী?",
+      "a": "চ্যাপ্টাকৃমি (Platyhelminthes)",
+      "w": [
+        "গোলকৃমি (Aschelminthes)",
+        "অঙ্গুরীমাল (Annelida)",
+        "মোলাস্কা"
+      ],
+      "e": "ফিতাকৃমির দেহ পৃষ্ঠ-উদর দিকে চ্যাপ্টা, তাই এটি চ্যাপ্টাকৃমি পর্বের; যকৃৎ-ফ্লুকও এই পর্বেরই উদাহরণ।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "animal_classification",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সবচেয়ে বেশি সংখ্যক প্রজাতি সমৃদ্ধ প্রাণীগোষ্ঠী কোনটি, যাদের সন্ধিযুক্ত উপাঙ্গ থাকে?",
+      "a": "সন্ধিপদী (Arthropoda)",
+      "w": [
+        "মোলাস্কা",
+        "কণ্টকত্বক (Echinodermata)",
+        "কর্ডাটা"
+      ],
+      "e": "সন্ধিপদীরাই প্রাণীজগতের সবচেয়ে বড় ও প্রাচুর্যপূর্ণ গোষ্ঠী; সন্ধিযুক্ত উপাঙ্গই এদের চেনার লক্ষণ।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "animal_classification",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নোটোকর্ড থাকে এমন প্রাণীদের কী বলা হয়?",
+      "a": "কর্ডাটা (Chordates)",
+      "w": [
+        "অকর্ডাটা (Non-chordates)",
+        "মেরুদণ্ডী মাত্র",
+        "উভচর"
+      ],
+      "e": "ভ্রূণ অবস্থায় নোটোকর্ড গঠিত হলেই প্রাণীটি কর্ডাটা; নোটোকর্ড না থাকলে অকর্ডাটা (পরিফেরা থেকে কণ্টকত্বক পর্যন্ত)।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "animal_classification",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কেঁচোর দেহে খণ্ডে খণ্ডে একই ধরনের অঙ্গের পুনরাবৃত্তিকে কী বলে?",
+      "a": "মেটামেরিক খণ্ডীভবন (Metamerism)",
+      "w": [
+        "দ্বিপার্শ্বীয় প্রতিসাম্য",
+        "ছদ্ম-দেহগহ্বর",
+        "পুনরুৎপাদন"
+      ],
+      "e": "কেঁচোর দেহ বাইরে ও ভিতরে খণ্ডে বিভক্ত এবং প্রতি খণ্ডে কিছু অঙ্গের পুনরাবৃত্তি ঘটে — এই ঘটনাই মেটামেরিজম।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "animal_classification",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিক?\n\nক. স্পঞ্জ — কোশীয় স্তরের সংগঠন\nখ. ফিতাকৃমি — গোলকৃমি পর্ব\nগ. কেঁচো — মেটামেরিক খণ্ডীভবন\nঘ. সন্ধিপদী — নরম দেহ ও খোলক",
+      "a": "ক ও গ",
+      "w": [
+        "ক ও খ",
+        "খ ও ঘ",
+        "গ ও ঘ"
+      ],
+      "e": "ক সঠিক (স্পঞ্জ = কোশীয় স্তর) এবং গ সঠিক (কেঁচো = মেটামেরিজম)। ফিতাকৃমি চ্যাপ্টাকৃমি, গোলকৃমি নয়; নরম দেহ ও খোলক মোলাস্কার লক্ষণ।",
+      "claims": [
+        "c36",
+        "c37",
+        "c46"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "vertebrate_classes",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন শ্রেণির প্রাণী জল ও স্থল — উভয় আবাসেই বাস করতে পারে?",
+      "a": "উভচর (Amphibia)",
+      "w": [
+        "সরীসৃপ (Reptilia)",
+        "পক্ষী (Aves)",
+        "স্তন্যপায়ী (Mammalia)"
+      ],
+      "e": "Amphibia নামের অর্থই দ্বৈত জীবন — এরা জলজ ও স্থলজ উভয় আবাসে থাকতে পারে; ব্যাং, স্যালামান্ডার এর উদাহরণ।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "vertebrate_classes",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "স্তন্যপায়ী প্রাণীর সবচেয়ে অনন্য বৈশিষ্ট্য কোনটি?",
+      "a": "দুগ্ধগ্রন্থি (Mammary glands) — যা দিয়ে শাবক পুষ্ট হয়",
+      "w": [
+        "পালক",
+        "আঁশ",
+        "ফুলকা (Gills)"
+      ],
+      "e": "দুগ্ধ উৎপাদনকারী গ্রন্থিই স্তন্যপায়ীদের সবচেয়ে অনন্য লক্ষণ। পালক পাখির, ফুলকা মাছের লক্ষণ।",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "vertebrate_classes",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন প্রাণীটি উভচর নয়?",
+      "a": "কুমির",
+      "w": [
+        "ব্যাং (Rana)",
+        "কুনোব্যাং (Bufo)",
+        "স্যালামান্ডার"
+      ],
+      "e": "কুমির সরীসৃপ শ্রেণির প্রাণী; ব্যাং, কুনোব্যাং ও স্যালামান্ডার সবাই উভচর। Miscellaneous 2023-তেও এই প্রশ্ন এসেছিল।",
+      "claims": [
+        "c40",
+        "c39"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "vertebrate_classes",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তিমির প্রধান শ্বাসঅঙ্গ কোনটি?",
+      "a": "ফুসফুস",
+      "w": [
+        "ফুলকা",
+        "ত্বক",
+        "শ্বাসনালী-ছিদ্র (Spiracles)"
+      ],
+      "e": "তিমি স্তন্যপায়ী — সব স্তন্যপায়ীর মতো এরও শ্বাসকার্য ফুসফুস দিয়ে হয়, জলে থাকলেও ফুলকা নেই। WBCS 2018-র প্রশ্ন।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "vertebrate_classes",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন মাছ-শ্রেণির হৃৎপিণ্ড দুই প্রকোষ্ঠবিশিষ্ট এবং এরা শীতলরক্তের প্রাণী?",
+      "a": "অস্থিযুক্ত মাছ (Osteichthyes)",
+      "w": [
+        "উভচর",
+        "সরীসৃপ",
+        "পক্ষী"
+      ],
+      "e": "অস্থিযুক্ত মাছের হৃৎপিণ্ডে একটি অলিন্দ ও একটি নিলয় — মোট দুই প্রকোষ্ঠ; এরা শীতলরক্তের (দেহের তাপমাত্রা নিয়ন্ত্রণ করতে পারে না)।",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "vertebrate_classes",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন সরীসৃপের হৃৎপিণ্ড ব্যতিক্রমীভাবে চার প্রকোষ্ঠবিশিষ্ট?",
+      "a": "কুমির",
+      "w": [
+        "কচ্ছপ",
+        "গিরগিটি (Chameleon)",
+        "কোবরা"
+      ],
+      "e": "সরীসৃপদের হৃৎপিণ্ড সাধারণত তিন প্রকোষ্ঠের, কিন্তু কুমিরের ক্ষেত্রে তা চার প্রকোষ্ঠবিশিষ্ট — পরীক্ষায় প্রিয় ব্যতিক্রম।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "vertebrate_classes",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. পাখিরা উষ্ণরক্তের প্রাণী — দেহের তাপমাত্রা ধ্রুব রাখতে পারে।\n২. পাখিদের শ্বাসকার্য ফুসফুস দিয়ে হয়।\n৩. প্লাটিপাস (Ornithorhynchus) ডিম পাড়ে এমন স্তন্যপায়ী।\n\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১, ২ ও ৩ সবকটি",
+      "w": [
+        "কেবল ১ ও ২",
+        "কেবল ২ ও ৩",
+        "কেবল ১"
+      ],
+      "e": "তিনটিই NCERT-সমর্থিত: পাখি উষ্ণরক্তের ও ফুসফুসে শ্বাস নেয়; স্তন্যপায়ীরা সাধারণত জরায়ুজ হলেও প্লাটিপাস ব্যতিক্রম — ডিম পাড়ে। WBCS 2017-তে ডিম-পাড়া স্তন্যপায়ীই জিজ্ঞাসা করা হয়েছিল।",
+      "claims": [
+        "c41",
+        "c43"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "animal_life",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রাণীরা খাবারের জন্য উদ্ভিদের ওপর কীভাবে নির্ভর করে?",
+      "a": "প্রত্যক্ষভাবে উদ্ভিদ খেয়ে অথবা উদ্ভিদভোজী প্রাণী খেয়ে — পরোক্ষভাবে",
+      "w": [
+        "কেবল উদ্ভিদের ছায়ায় থেকে",
+        "শুধু অক্সিজেন নিয়ে, খাবারে নয়",
+        "আদৌ নির্ভর করে না"
+      ],
+      "e": "প্রাণীরা হয় সরাসরি উদ্ভিদ খায়, নয়তো উদ্ভিদ-খাওয়া প্রাণীদের খায় — তাই সব প্রাণীই খাবারের জন্য উদ্ভিদের ওপর নির্ভরশীল।",
+      "claims": [
+        "c47"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "animal_life",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "গোরু, মোষ ও হরিণকে রুমিন্যান্ট (জাবর-কাটা প্রাণী) বলা হয় কেন?",
+      "a": "এরা পাতাজাত খাবার দ্রুত গিলে রুমেনে জমায়, পরে মুখে ফিরিয়ে এনে চিবোয়",
+      "w": [
+        "এরা মাংস খায় বলে",
+        "এরা জলে থাকে বলে",
+        "এরা রাতে জাগে বলে"
+      ],
+      "e": "জাবর কাটার এই বিশেষ পদ্ধতির জন্যই গোরু-মোষ-হরিণ রুমিন্যান্ট; খাবার প্রথমে রুমেনে জমা হয়, পরে ফিরে এসে ধীরে চিবোনো হয়।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "animal_life",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অ্যামিবা খাবার গ্রহণ করে কীসের সাহায্যে এবং হজম করে কোথায়?",
+      "a": "ছদ্মপদ (Pseudopodia) দিয়ে গ্রহণ, খাদ্যগহ্বরে (Food vacuole) হজম",
+      "w": [
+        "শুঁড় দিয়ে গ্রহণ, পাকস্থলীতে হজম",
+        "সিলিয়া দিয়ে গ্রহণ, অন্ত্রে হজম",
+        "চোষক দিয়ে গ্রহণ, যকৃতে হজম"
+      ],
+      "e": "এককোশী অ্যামিবা ছদ্মপদ বা 'মিথ্যা পা' দিয়ে খাবার ঘিরে ধরে এবং খাদ্যগহ্বরের ভেতরে হজম করে।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "animal_life",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তারামাছ (Starfish) শক্ত খোলসওয়ালা প্রাণী কীভাবে খায়?",
+      "a": "খোলস খুলে নিজের পাকস্থলী মুখ দিয়ে বাইরে বের করে নরম দেহ খায়",
+      "w": [
+        "দাঁত দিয়ে খোলস ভেঙে",
+        "বিষ দিয়ে প্রাণী মেরে",
+        "শুঁড় দিয়ে রক্ত চুষে"
+      ],
+      "e": "তারামাছ খোলস খোলার পর পাকস্থলী মুখ দিয়ে বাইরে বের করে ভেতরের নরম প্রাণীটিকে খায়, তারপর পাকস্থলী আবার ভেতরে ঢুকে যায়।",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "animal_life",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মৌমাছি ও হামিংবার্ডের খাদ্যগ্রহণের পদ্ধতি কোনটি?",
+      "a": "উদ্ভিদের মধু চুষে খাওয়া",
+      "w": [
+        "শিকার গিলে খাওয়া",
+        "কণা ছেঁকে খাওয়া",
+        "মৃতদেহ চেটে খাওয়া"
+      ],
+      "e": "মৌমাছি ও হামিংবার্ড ফুলের মধু চোষে; অন্যদিকে পাইথনের মতো সাপ শিকার আস্ত গিলে খায় — খাদ্যগ্রহণের পদ্ধতি প্রাণীভেদে আলাদা।",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "animal_life",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "প্রাণীদের দেহ-সংগঠনের স্তরগুলিকে সরল থেকে জটিল ক্রমে সাজাও:\n\n১. অঙ্গতন্ত্র স্তর\n২. কোশীয় স্তর\n৩. কলা স্তর\n৪. অঙ্গ স্তর\n\nসঠিক ক্রম কোনটি?",
+      "a": "২ → ৩ → ৪ → ১",
+      "w": [
+        "১ → ২ → ৩ → ৪",
+        "৩ → ২ → ১ → ৪",
+        "২ → ৪ → ৩ → ১"
+      ],
+      "e": "স্পঞ্জে কোশীয় স্তর, নিডারিয়ায় কলা স্তর, চ্যাপ্টাকৃমিতে অঙ্গ স্তর এবং অঙ্গুরীমাল-কর্ডাটায় অঙ্গতন্ত্র স্তর — এটাই জটিলতার ক্রম।",
+      "claims": [
+        "c35",
+        "c36"
+      ]
+    }
+  ]
+}

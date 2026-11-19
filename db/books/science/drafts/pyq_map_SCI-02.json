@@ -1,0 +1,86 @@
+[
+ {
+  "pyq_code": "GK-SCI-002",
+  "section": "force_inertia",
+  "taught": true,
+  "note": "GK bank item (general_science.jsonl, subtopic physics_mechanics): Newton's first law is Galileo's law of inertia; bus start/stop cases taught in force_inertia from iesc108 and keph104."
+ },
+ {
+  "pyq_code": "GK-SCI-003",
+  "section": null,
+  "taught": false,
+  "note": "GK bank item (subtopic physics_mechanics): escape speed 11.2 km/s (Earth) and 2.3 km/s (Moon) come from NCERT XI Ch. 7 Gravitation (keph107.pdf), which could not be fetched in this run (network error). Escape speed is deliberately not taught in this chapter; gravitation is taught from iesc109 only."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q45",
+  "section": "force_inertia",
+  "taught": true,
+  "note": "Bus starting suddenly pushes passengers back = Newton's first law (inertia); taught with the iesc108 bus example."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q75",
+  "section": "second_law_momentum",
+  "taught": true,
+  "note": "Definition of unit force is obtained from Newton's second law (F = ma, 1 N definition in keph104/iesc108); also a practice question (q22)."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q54",
+  "section": "work_energy_power",
+  "taught": true,
+  "note": "Kilowatt-hour is the unit of electrical energy (keph105: kWh is a unit of energy, not of power); practice question q38."
+ },
+ {
+  "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q10",
+  "section": "work_energy_power",
+  "taught": true,
+  "note": "One horse power = 746 watts (keph105 verbatim); practice question q39."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q73",
+  "section": "work_energy_power",
+  "taught": true,
+  "note": "Frictional force is not a conservative force (keph105 points to ponder); exam-level assertion-reason q42 teaches the distinction."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q188",
+  "section": "acceleration_equations",
+  "taught": true,
+  "note": "Whirled stone flies off tangentially when the string snaps (iesc107 Activity 7.11; keph104 exercise answer); practice question q09."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q169",
+  "section": "work_energy_power",
+  "taught": true,
+  "note": "Equal kinetic energy: the heavy body has the greater momentum. Taught as a derivation in the section deep text from p = mv (keph104) and Ek = 1/2 mv^2 (iesc110), giving p = sqrt(2mEk); practice question q41."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q72",
+  "section": "work_energy_power",
+  "taught": true,
+  "note": "Work done by gravitational force on a planet in a circular orbit is zero; taught via keph105's moon example (force radial, displacement tangential); practice question q40."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q88",
+  "section": null,
+  "taught": false,
+  "note": "Official key: Isaac Newton 'gave the equations of motion for the first time'. The equations themselves are taught (acceleration_equations, iesc107), but no fetched NCERT source attributes them to Newton, so the attribution is not taught or asserted in the chapter."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q49",
+  "section": null,
+  "taught": false,
+  "note": "'Bar' is a unit of pressure. The chapter teaches pressure and its SI unit pascal from iesc109 Ch. 9, but the unit 'bar' appears in none of the fetched sources, so this item is not counted as taught; the gap is flagged in a dont_confuse box in gravitation_weight."
+ },
+ {
+  "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q95",
+  "section": null,
+  "taught": false,
+  "note": "'Which is NOT a unit of energy' (key: Kelvin). Energy units (joule, kWh) are taught, but no fetched source for this chapter states that kelvin is the unit of temperature, so the odd-one-out identification is not fully supported; not counted as taught."
+ },
+ {
+  "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q98",
+  "section": "work_energy_power",
+  "taught": true,
+  "note": "'Which is not a unit of energy' (key: Pascal). Pascal is taught as the SI unit of pressure in gravitation_weight (iesc109) and energy units (joule, kWh) in work_energy_power, so the odd one out is identifiable from the chapter."
+ }
+]

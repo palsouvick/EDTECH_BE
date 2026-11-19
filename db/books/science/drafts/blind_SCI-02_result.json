@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "সরণ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The shortest distance measured from the initial to the final position of an object is known as the displacement.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 72",
+      "notes": "Direct definition in claim."
+    },
+    {
+      "id": "q02",
+      "answer": "শূন্য",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "The shortest distance measured from the initial to the final position of an object is known as the displacement.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 72",
+      "notes": "Initial and final positions coincide, so shortest distance (displacement) is zero by c01; not stated verbatim."
+    },
+    {
+      "id": "q03",
+      "answer": "৫০ কিমি/ঘণ্টা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The average speed of an object is obtained by dividing the total distance travelled by the total time taken.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 74",
+      "notes": "Average speed = 100 km / 2 h = 50 km/h by c05."
+    },
+    {
+      "id": "q04",
+      "answer": "বেগ বোঝাতে মান ও দিক দুটোই লাগে, দ্রুতি বোঝাতে শুধু মান লাগে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Velocity is the speed of an object moving in a definite direction.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 74",
+      "notes": "Velocity is speed in a definite direction (c04); speed is distance per unit time (c03)."
+    },
+    {
+      "id": "q05",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "As the object covers equal distances in equal intervals of time, it is said to be in uniform motion.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 73",
+      "notes": "Statement 1 is c02. Statement 2 false: displacement is the shortest distance (c01), so it cannot exceed distance travelled."
+    },
+    {
+      "id": "q06",
+      "answer": "একক সময়ে বেগের পরিবর্তন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The acceleration of an object is the change in velocity per unit time.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 84",
+      "notes": "Direct definition in claim."
+    },
+    {
+      "id": "q07",
+      "answer": "১/১৫ মি/সে²",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The acceleration of an object is the change in velocity per unit time.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 84",
+      "notes": "a = change in velocity / time = 20/300 = 1/15 m/s^2 by c06."
+    },
+    {
+      "id": "q08",
+      "answer": "প্রতি মুহূর্তে দিক বদলায় বলে বেগ বদলাতে থাকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The motion of the athlete moving along a circular path is, therefore, an example of an accelerated motion.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 82",
+      "notes": "Claim states circular motion at constant speed is accelerated because direction of velocity keeps changing."
+    },
+    {
+      "id": "q09",
+      "answer": "বৃত্তের স্পর্শক বরাবর সরলরেখায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "If you carefully note, on being released the stone moves along a straight line tangential to the circular path.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 83",
+      "notes": "Direct statement in claim."
+    },
+    {
+      "id": "q10",
+      "answer": "v² = u² + 2as",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "When an object moves along a straight line with uniform acceleration, it is possible to relate its velocity, acceleration during motion and the distance covered by it in a certain time interval by a set of equations known as the equations of motion.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 80",
+      "notes": "not covered by claims — claims only say the equations of motion exist (c07); none of the three equation forms is given."
+    },
+    {
+      "id": "q11",
+      "answer": "A-২, B-৪, C-১, D-৩",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "The acceleration of an object is the change in velocity per unit time.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc107.pdf",
+      "page": "p. 84",
+      "notes": "not covered by claims — only D (acceleration = change in velocity / time, c06) is in the claims; the equation forms for A and B and the v = 2πr/t formula for C are not given."
+    },
+    {
+      "id": "q12",
+      "answer": "জাড্যের সূত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In other words, all objects resist a change in their state of motion. In a qualitative way, the tendency of undisturbed objects to stay at rest or to keep moving with the same velocity is called inertia. This is why, the first law of motion is also known as the law of inertia.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 89",
+      "notes": "First law is also known as the law of inertia."
+    },
+    {
+      "id": "q13",
+      "answer": "পিছন দিকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "An opposite experience is encountered when we are standing in a bus and the bus begins to move suddenly. Now we tend to fall backwards. This is because the sudden start of the bus brings motion to the bus as well as to our feet in contact with the floor of the bus. But the rest of our body opposes this motion because of its inertia.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 89",
+      "notes": "Claim describes passengers falling backwards when a bus starts suddenly."
+    },
+    {
+      "id": "q14",
+      "answer": "ভর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Inertia is the natural tendency of an object to resist a change in its state of motion or of rest. The mass of an object is a measure of its inertia.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 91",
+      "notes": "Mass is a measure of inertia."
+    },
+    {
+      "id": "q15",
+      "answer": "ঘর্ষণ বল ঠেলার বলকে ভারসাম্য করে দেয়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "This friction force arises between two surfaces in contact; in this case, between the bottom of the box and floor's rough surface. It balances the pushing force and therefore the box does not move.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 88",
+      "notes": "Claim states friction balances the pushing force so the box does not move."
+    },
+    {
+      "id": "q16",
+      "answer": "একবার চলতে শুরু করা বস্তুকে চালিয়ে রাখা, থামানো বস্তুকে নাড়ানোর চেয়ে সহজ",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "It is found experimentally that µk is less than µs.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 67",
+      "notes": "µk < µs (c21) means kinetic friction is smaller, so keeping a moving body moving is easier; the verbal conclusion is inferred, not quoted."
+    },
+    {
+      "id": "q17",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "But the rest of the body continues to move forward due to inertia. We are thrown forward.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 52",
+      "notes": "Claim: feet stop due to friction but rest of body continues forward due to inertia."
+    },
+    {
+      "id": "q18",
+      "answer": "p = mv",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Momentum of a body is defined to be the product of its mass m and velocity v, and is denoted by p: p = m v",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 53",
+      "notes": "Direct formula in claim."
+    },
+    {
+      "id": "q19",
+      "answer": "২ কেজি ভরকে ৫ মি/সে² ত্বরণ দিতে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "which shows that force is proportional to the product of mass m and acceleration a.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 54",
+      "notes": "F = ma (c24/c26): 2x5 = 10 N > 4x2 = 8 N."
+    },
+    {
+      "id": "q20",
+      "answer": "যে বল ১ কেজি ভরের বস্তুতে ১ মি/সে² ত্বরণ সৃষ্টি করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In SI unit force is one that causes an acceleration of 1 m s-2 to a mass of 1 kg. This unit is known as newton : 1 N = 1 kg m s-2",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 54",
+      "notes": "Direct definition of the newton in claim."
+    },
+    {
+      "id": "q21",
+      "answer": "বল থামার সময় বাড়িয়ে আঘাতের বল কমাতে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In doing so, the fielder increases the time during which the high velocity of the moving ball decreases to zero. Thus, the acceleration of the ball is decreased and therefore the impact of catching the fast moving ball is also reduced.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 92",
+      "notes": "Pulling hands back increases time, decreases acceleration and impact (c28)."
+    },
+    {
+      "id": "q22",
+      "answer": "নিউটনের দ্বিতীয় গতিসূত্র থেকে",
+      "confidence": "LIKELY",
+      "also_defensible": "নিউটনের প্রথম গতিসূত্র থেকে",
+      "quote": "In SI unit force is one that causes an acceleration of 1 m s-2 to a mass of 1 kg. This unit is known as newton : 1 N = 1 kg m s-2",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 54",
+      "notes": "Unit-force (newton) definition c25 and force measurement c26 sit in the second-law material, but no claim explicitly attributes the unit definition to a named law; first law is the generic definition of force in some texts."
+    },
+    {
+      "id": "q23",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The SI unit of momentum is kilogram metre per second (kg m s-1).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 96",
+      "notes": "Statement 1 is c29; statement 2 is c27 (impulse = change in momentum)."
+    },
+    {
+      "id": "q24",
+      "answer": "তারা দুটি আলাদা বস্তুর ওপর ক্রিয়া করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Action and reaction act on different bodies and so they cannot be cancelled out.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 67",
+      "notes": "Action and reaction act on different bodies and so cannot be cancelled out."
+    },
+    {
+      "id": "q25",
+      "answer": "নিউটনের তৃতীয় সূত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "When a gun is fired, it exerts a forward force on the bullet. The bullet exerts an equal and opposite force on the gun. This results in the recoil of the gun.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 95",
+      "notes": "Gun/bullet equal and opposite forces (c33) are the third law (c30/c31)."
+    },
+    {
+      "id": "q26",
+      "answer": "আমরা রাস্তাকে পিছনে ঠেলি এবং রাস্তা আমাদের পায়ে সমান ও বিপরীত বল দিয়ে সামনে ঠেলে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "you push the road below backwards. The road exerts an equal and opposite force on your feet to make you move forward.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 95",
+      "notes": "Direct statement in claim."
+    },
+    {
+      "id": "q27",
+      "answer": "মোট রৈখিক ভরবেগ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In all collisions the total linear momentum is conserved; the initial momentum of the system is equal to the final momentum of the system.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+      "page": "p. 84",
+      "notes": "In all collisions total linear momentum is conserved."
+    },
+    {
+      "id": "q28",
+      "answer": "পৃথিবীর ভর বিশাল বলে একই বলে তার ত্বরণ নগণ্য হয়",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "which shows that force is proportional to the product of mass m and acceleration a.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+      "page": "p. 54",
+      "notes": "Inferred from F = ma (c24) with equal force (c37): Earth's huge mass makes its acceleration negligible; not stated verbatim in claims."
+    },
+    {
+      "id": "q29",
+      "answer": "বন্দুকের রিকয়েল — নিউটনের তৃতীয় সূত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "When a gun is fired, it exerts a forward force on the bullet. The bullet exerts an equal and opposite force on the gun. This results in the recoil of the gun.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc108.pdf",
+      "page": "p. 95",
+      "notes": "Recoil from equal and opposite bullet/gun forces (c33) is the third law; other pairs mismatch the claims."
+    },
+    {
+      "id": "q30",
+      "answer": "৯.৮ মি/সে²",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Thus, the value of acceleration due to gravity of the earth, g = 9.8 m s–2.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc109.pdf",
+      "page": "p. 102",
+      "notes": "Direct value in claim."
+    },
+    {
+      "id": "q31",
+      "answer": "১/৬ অংশ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Weight of the object on the moon = (1/6) × its weight on the earth.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc109.pdf",
+      "page": "p. 105",
+      "notes": "Weight on moon = 1/6 of weight on earth."
+    },
+    {
+      "id": "q32",
+      "answer": "৯৮ নিউটন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Therefore the magnitude of the gravitational force F will be equal to the product of mass and acceleration due to the gravitational force, that is, F = m g",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc109.pdf",
+      "page": "p. 102",
+      "notes": "Weight = mg = 10 x 9.8 = 98 N (c43, weight is a force c44)."
+    },
+    {
+      "id": "q33",
+      "answer": "পৃথিবীর আকর্ষণ (মহাকর্ষ) বল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The motion of the moon around the earth is due to the centripetal force. The centripetal force is provided by the force of attraction of the earth.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc109.pdf",
+      "page": "p. 101",
+      "notes": "Centripetal force for the moon is provided by the earth's force of attraction."
+    },
+    {
+      "id": "q34",
+      "answer": "আগের এক-চতুর্থাংশ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Every object in the universe attracts every other object with a force which is proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc109.pdf",
+      "page": "p. 100",
+      "notes": "Force is inversely proportional to square of distance; doubling distance gives 1/4."
+    },
+    {
+      "id": "q35",
+      "answer": "A-২, B-৩, C-১, D-৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The value of G was found out by Henry Cavendish (1731 – 1810) by using a sensitive balance. The accepted value of G is 6.673 × 10–11 N m2 kg–2.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc109.pdf",
+      "page": "p. 101",
+      "notes": "A Cavendish c38; B pascal c50; C newton c45; D free fall c41."
+    },
+    {
+      "id": "q36",
+      "answer": "বল প্রয়োগ ও বস্তুর সরণ — দুটোই থাকতে হবে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "two conditions need to be satisfied for work to be done: (i) a force should act on an object, and (ii) the object must be displaced.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 114",
+      "notes": "Two conditions for work: force acts and object is displaced."
+    },
+    {
+      "id": "q37",
+      "answer": "১০ জুল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Let W be the work done. We define work to be equal to the product of the force and displacement. Work done = force × displacement",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 114",
+      "notes": "Work = force x displacement = 5 x 2 = 10 J."
+    },
+    {
+      "id": "q38",
+      "answer": "শক্তি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Our electricity bills carry the energy consumption in units of kWh. Note that kWh is a unit of energy and not of power.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+      "page": "p. 83",
+      "notes": "kWh is a unit of energy, not power."
+    },
+    {
+      "id": "q39",
+      "answer": "৭৪৬ ওয়াট",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "There is another unit of power, namely the horsepower (hp) 1 hp = 746 W",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+      "page": "p. 84",
+      "notes": "1 hp = 746 W."
+    },
+    {
+      "id": "q40",
+      "answer": "শূন্য",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "If we assume that the moon's orbits around the earth is perfectly circular then the earth's gravitational force does no work. The moon's instantaneous displacement is tangential while the earth's force is radially inwards",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+      "page": "p. 74",
+      "notes": "Claim covers the analogous moon case: gravitational force does no work in a perfectly circular orbit; applied here to a planet."
+    },
+    {
+      "id": "q41",
+      "answer": "ভারী বস্তুটির",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Thus, the kinetic energy possessed by an object of mass, m and moving with a uniform velocity, v is Ek = 1/2 mv2 (Eq. 10.5)",
+      "source_url": "https://ncert.nic.in/textbook/pdf/iesc110.pdf",
+      "page": "p. 118",
+      "notes": "Derived from claims: p = mv (c22) and Ek = 1/2 mv^2 (c60) give p^2 = 2mEk, so at equal Ek the heavier body has more momentum; not stated verbatim."
+    },
+    {
+      "id": "q42",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "Not all forces are conservative. Friction, for example, is a nonconservative force.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+      "page": "p. 82",
+      "notes": "Friction is nonconservative (c68); conservative work depends only on initial/final positions (c67), which is why friction's path dependence makes it nonconservative — the path-dependence of friction itself is implied, not quoted."
+    }
+  ]
+}

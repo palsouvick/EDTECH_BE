@@ -1,0 +1,1656 @@
+{
+  "book": "science",
+  "code": "SCI-11",
+  "number": 11,
+  "part": "biology",
+  "title": "মানবদেহ",
+  "subtitle": "পরিপাক, শ্বসন, সংবহন, রেচন, স্নায়ু-সমন্বয় ও কঙ্কাল-হরমোন: দেহের ছয়টি বড় তন্ত্র",
+  "subtopics": [
+    "biology_human_body"
+  ],
+  "related_facts": [
+    "GK-SCI-014",
+    "GK-SCI-021"
+  ],
+  "prerequisites": [
+    "SCI-10"
+  ],
+  "reading_minutes": {
+    "quick": 8,
+    "standard": 32,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 2 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 14 of 24 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-11.json and drafts/SCI-11_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-11_REPORT.md.",
+    "checked_claims": 64,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "মানবদেহ চলে পরস্পর-নির্ভর কয়েকটি তন্ত্রের সমন্বয়ে: পরিপাকতন্ত্র খাবার ভেঙে শোষণযোগ্য করে, শ্বসনতন্ত্র অক্সিজেন এনে কার্বন ডাইঅক্সাইড বের করে, রক্ত-সংবহন সবকিছু প্রতিটি কোষে পৌঁছে দেয়, রেচনতন্ত্র বর্জ্য ছেঁকে ফেলে, আর স্নায়ুতন্ত্র ও হরমোনতন্ত্র গোটা ব্যবস্থার নিয়ন্ত্রণ ও সমন্বয় করে — ভিত্তি জোগায় কঙ্কাল ও পেশি। এই অধ্যায়ে NCERT দশম ও একাদশ শ্রেণির পাঠ্য ধরে ছয়টি তন্ত্রের সেই কাঠামো ও কাজ শেখা হবে, যেখান থেকে PSC, WBCS ও পুলিশ-পরীক্ষায় বারবার প্রশ্ন আসে।",
+    "you_will_learn": [
+      "পরিপাকের ধাপগুলি: লালা-অ্যামাইলেজ, পাকস্থলীর পেপসিন, পিত্তরস ও অগ্ন্যাশয়-রসের ভূমিকা এবং ভিলাইয়ে শোষণ",
+      "অ্যালভিওলাইয়ে গ্যাস বিনিময়, হিমোগ্লোবিনের ভূমিকা, শ্বাসের হার ও জোয়ার আয়তন",
+      "রক্তের উপাদান, রক্তের গ্রুপ, চার প্রকোষ্ঠের হৃৎপিণ্ড, দ্বিচক্র সংবহন ও রক্তচাপ ১২০/৮০",
+      "নেফ্রনের পরিস্রাবণ ও পুনঃশোষণ: ১৮০ লিটার পরিস্রুত থেকে ১–২ লিটার মূত্র",
+      "নিউরন, সাইন্যাপ্স, প্রতিবর্ত চাপ এবং মস্তিষ্কের অংশগুলির কাজ; চোখের গঠন ও উপযোজন",
+      "২০৬ হাড়, ফিমার ও কানের হাড়, ঐচ্ছিক পেশি এবং প্রধান অন্তঃক্ষরা গ্রন্থি ও হরমোন"
+    ]
+  },
+  "sections": [
+    {
+      "id": "digestion",
+      "heading": "পরিপাক তন্ত্র: মুখ থেকে ক্ষুদ্রান্ত্র",
+      "quick": "খাবার মুখে লালার অ্যামাইলেজ দিয়ে শুরু হয়ে পাকস্থলীতে অ্যাসিড ও পেপসিনের কাজ পেরিয়ে ক্ষুদ্রান্ত্রে সম্পূর্ণ পরিপাক হয়। যকৃতের পিত্তরস চর্বির বড় গোলক ভেঙে দেয়, অগ্ন্যাশয়ের ট্রিপসিন ও লাইপেজ কাজ শেষ করে, আর ভিলাই শোষণের ক্ষেত্র বাড়িয়ে দেয়।",
+      "standard": "পরিপাকের প্রথম ধাপ মুখে। লালা গ্রন্থি থেকে ক্ষরিত লালায় থাকে **স্যালিভারি অ্যামাইলেজ (Salivary amylase)** নামের উৎসেচক, যা জটিল শ্বেতসারকে ভেঙে সরল শর্করা বানায়। খাবার যেন নালির প্রতিটি অংশে ঠিকমতো প্রক্রিয়াজাত হয়, সেজন্য নালির প্রাচীরের পেশি ছন্দোবদ্ধভাবে সংকুচিত হয়ে খাবারকে সামনে ঠেলে দেয় — এই চলনই **ক্রমসংকোচন (Peristalsis)**, যা পুরো অন্ত্র জুড়েই ঘটে।\n\nখাবারনালি (Oesophagus) দিয়ে খাবার পৌঁছায় পাকস্থলীতে। পাকস্থলীর প্রাচীরের গ্যাস্ট্রিক গ্রন্থি ছাড়ে হাইড্রোক্লোরিক অ্যাসিড, প্রোটিন-পরিপাককারী উৎসেচক **পেপসিন (Pepsin)** এবং শ্লেষ্মা (Mucus)। অ্যাসিড পেপসিনের কাজের উপযোগী আম্লিক মাধ্যম তৈরি করে, আর শ্লেষ্মা পাকস্থলীর ভিতরের আস্তরণকে অ্যাসিডের হাত থেকে বাঁচায়।\n\nআসল পরিপাক শেষ হয় **ক্ষুদ্রান্ত্রে** — এখানেই শর্করা, প্রোটিন ও চর্বির সম্পূর্ণ পরিপাক ঘটে, আর এই কাজে ক্ষুদ্রান্ত্র পায় যকৃৎ ও অগ্ন্যাশয়ের ক্ষরণ। যকৃত থেকে আসা **পিত্তরস (Bile juice)** আম্লিক খাবারকে ক্ষারীয় করে এবং পিত্তলবণ চর্বির বড় গোলকগুলিকে ছোট ছোট গোলকে ভেঙে দেয়, ফলে উৎসেচকের কাজ সহজ হয়। অগ্ন্যাশয়ের রসে থাকে প্রোটিনের জন্য **ট্রিপসিন (Trypsin)** আর ভাঙা চর্বির জন্য **লাইপেজ (Lipase)**। শেষে অন্ত্ররসের উৎসেচক প্রোটিনকে অ্যামিনো অ্যাসিডে, জটিল শর্করাকে গ্লুকোজে এবং চর্বিকে ফ্যাটি অ্যাসিড ও গ্লিসারলে রূপান্তরিত করে।\n\nশোষণের জন্য ক্ষুদ্রান্ত্রের ভিতরের আস্তরণে আছে অসংখ্য আঙুলের মতো অভিক্ষেপ — **ভিলাই (Villi)** — যা শোষণের পৃষ্ঠতলের ক্ষেত্রফল বহুগুণ বাড়িয়ে দেয়। ভিলাইয়ের রক্তনালি শোষিত খাবার দেহের প্রতিটি কোষে পৌঁছে দেয়। মনে রাখো, ক্ষুদ্রান্ত্রই পরিপাকনালির দীর্ঘতম অংশ।",
+      "deep": "পরীক্ষায় প্রায়ই তিনটি জোড়া গুলিয়ে ফেলা হয়: (১) লালা–অ্যামাইলেজ–শ্বেতসার, (২) পাকস্থলী–পেপসিন–প্রোটিন, (৩) অগ্ন্যাশয়–ট্রিপসিন/লাইপেজ–প্রোটিন/চর্বি। আর পিত্তরস নিয়ে সতর্ক থাকো: পিত্তরসে কোনো উৎসেচক থাকে না — এটি শুধু চর্বির গোলক ভাঙে (অবদ্রবণ) ও মাধ্যম ক্ষারীয় করে; চর্বির আসল রাসায়নিক পরিপাক করে লাইপেজ।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "পিত্তরস বনাম লাইপেজ",
+          "body": "পিত্তরস যকৃতে তৈরি হয় এবং চর্বির বড় গোলককে ছোট গোলকে ভাঙে — এটি যান্ত্রিক সাহায্য, উৎসেচকীয় পরিপাক নয়। চর্বিকে ফ্যাটি অ্যাসিড ও গ্লিসারলে ভাঙার কাজটি করে অগ্ন্যাশয়ের লাইপেজ।",
+          "claims": [
+            "c05",
+            "c06"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c62"
+      ]
+    },
+    {
+      "id": "respiration",
+      "heading": "শ্বসন: বায়ুপথ, অ্যালভিওলাই ও কোষীয় শ্বসন",
+      "quick": "নাক দিয়ে ঢোকা বায়ু ফুসফুসের শেষপ্রান্তে বেলুনের মতো অ্যালভিওলাইয়ে পৌঁছায়; সেখানেই রক্তের সঙ্গে গ্যাসের আদান-প্রদান হয়। রক্তে অক্সিজেন বহন করে লোহিত কণিকার হিমোগ্লোবিন, আর কোষে গ্লুকোজ ভেঙে তৈরি হয় শক্তির মুদ্রা ATP।",
+      "standard": "বায়ু নাসারন্ধ্র দিয়ে ঢুকে শ্বাসনালি ও ব্রংকাস পেরিয়ে ফুসফুসে পৌঁছায়। ফুসফুসের ভিতরে নালি ক্রমশ ছোট হতে হতে শেষ হয় বেলুনের মতো গঠনে — **অ্যালভিওলাই (Alveoli)** বা বায়ুথলিতে। Class XI-র বই অনুযায়ী প্রতিটি প্রান্তীয় ব্রংকিওল থেকে বের হয় অসংখ্য পাতলা, অনিয়তাকার প্রাচীরযুক্ত ও রক্তনালিসমৃদ্ধ থলির মতো গঠন — এই অ্যালভিওলাই। এদের প্রাচীরে রক্তনালির ঘন জালিকা থাকে, আর এখানেই রক্ত ও বায়ুর মধ্যে অক্সিজেন ও কার্বন ডাইঅক্সাইডের বিনিময় ঘটে। ছড়িয়ে দিলে অ্যালভিওলাইয়ের মোট পৃষ্ঠতল প্রায় ৮০ বর্গমিটার — এই বিশাল ক্ষেত্রই দ্রুত বিনিময়ের রহস্য।\n\nশ্বাস নেওয়ার (Inspiration) শুরু হয় **মধ্যচ্ছদা (Diaphragm)**-র সংকোচনে: মধ্যচ্ছদা চ্যাপ্টা হলে বক্ষগহ্বরের আয়তন বাড়ে, চাপ কমে এবং বায়ু ভিতরে ঢোকে। সুস্থ মানুষ গড়ে মিনিটে ১২–১৬ বার শ্বাস নেয়; স্বাভাবিক একবারের শ্বাসে ঢোকা বা বেরোনো বায়ুর পরিমাণ — **জোয়ার আয়তন (Tidal Volume)** — প্রায় ৫০০ মিলিলিটার। শ্বাসের ছন্দ নিয়ন্ত্রণ করে মস্তিষ্কের মেডুলা অঞ্চলের শ্বসন-ছন্দ কেন্দ্র।\n\nরক্তে অক্সিজেন বহনের কাজ করে শ্বাসরঞ্জক **হিমোগ্লোবিন (Haemoglobin)**, যা থাকে লোহিত রক্তকণিকায়; অক্সিজেনের প্রতি এর আসক্তি খুব বেশি। বিপরীতে কার্বন ডাইঅক্সাইড জলে বেশি দ্রাব্য, তাই বেশিরভাগটাই রক্তে দ্রবীভূত অবস্থায় পরিবাহিত হয়। প্রতি ১০০ মিলিলিটার অক্সিজেনযুক্ত রক্ত স্বাভাবিক অবস্থায় কলাগুলিকে প্রায় ৫ মিলিলিটার অক্সিজেন দিতে পারে।\n\nকোষের ভিতরে গ্লুকোজ ভাঙনের প্রথম ধাপে তৈরি হয় পাইরুভেট। অক্সিজেনের উপস্থিতিতে (সবাত শ্বসন) মাইটোকন্ড্রিয়ায় তা সম্পূর্ণ ভেঙে কার্বন ডাইঅক্সাইড ও জল হয় এবং প্রচুর শক্তি মুক্ত হয়; মুক্ত শক্তি দিয়ে তৈরি হয় **ATP** — কোষের প্রায় সব কাজের শক্তিমুদ্রা। পেশিকোষে অক্সিজেনের অভাব হলে পাইরুভেট ল্যাকটিক অ্যাসিডে বদলে যায়; হঠাৎ অতিরিক্ত পরিশ্রমে পেশিতে এই ল্যাকটিক অ্যাসিড জমলেই টান (Cramp) ধরে।",
+      "deep": "রোগের দিক থেকে দুটি নাম মনে রাখো: **এমফিসিমা (Emphysema)**-তে অ্যালভিওলাইয়ের প্রাচীর নষ্ট হয়ে শ্বসন-পৃষ্ঠ কমে যায় — এর অন্যতম প্রধান কারণ সিগারেট ধূমপান। আর হাঁপানিতে (Asthma) ব্রংকাস ও ব্রংকিওলের প্রদাহে শ্বাসকষ্ট হয়। দুটোই NCERT XI অধ্যায় ১৪-তে দেওয়া।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "৫ মিলি বনাম ২০ মিলি",
+          "body": "WBCS ২০১৮-তে প্রশ্ন এসেছিল: ১০০ মিলি বিশুদ্ধ মানব রক্ত সাধারণত কত অক্সিজেন বহন করে (উত্তরপত্রে ২০ মিলি)। NCERT XI অনুযায়ী প্রতি ১০০ মিলি অক্সিজেনযুক্ত রক্ত কলাকে প্রায় ৫ মিলি অক্সিজেন *সরবরাহ* করে — বহনক্ষমতা আর সরবরাহ এক নয়। এই অধ্যায়ে যাচাইকৃত উৎসে ২০ মিলি সংখ্যাটি নেই বলে তা শেখানো হয়নি; পার্থক্যটি মনে রাখো।",
+          "claims": [
+            "c34"
+          ]
+        }
+      ],
+      "claims": [
+        "c10",
+        "c31",
+        "c12",
+        "c63",
+        "c32",
+        "c33",
+        "c35",
+        "c11",
+        "c34",
+        "c09",
+        "c08",
+        "c36"
+      ]
+    },
+    {
+      "id": "circulation",
+      "heading": "রক্ত ও হৃদ্‌সংবহন",
+      "quick": "রক্তের তরল অংশ প্লাজমা (প্রায় ৫৫%), কণিকা অংশে লোহিত কণিকা, শ্বেত কণিকা ও অণুচক্রিকা। চার প্রকোষ্ঠের হৃৎপিণ্ড দ্বিচক্র সংবহনে রক্তকে একবার ফুসফুসে ও একবার সারা দেহে পাঠায়; স্বাভাবিক রক্তচাপ ১২০/৮০ mmHg।",
+      "standard": "রক্ত একটি তরল যোজক কলা। এর তরল মাধ্যম **প্লাজমা (Plasma)** — খড়ের মতো রঙের আঠালো তরল, যা রক্তের প্রায় ৫৫ শতাংশ। প্লাজমায় ভাসমান কণিকাগুলি হল লোহিত রক্তকণিকা (RBC), শ্বেত রক্তকণিকা (WBC) ও অণুচক্রিকা (Platelets)। প্লাজমা খাবার, কার্বন ডাইঅক্সাইড ও নাইট্রোজেনঘটিত বর্জ্য দ্রবীভূত অবস্থায় বহন করে; অক্সিজেন বহন করে লোহিত কণিকা।\n\nলোহিত কণিকায় থাকে লাল রঙের, **লৌহযুক্ত জটিল প্রোটিন হিমোগ্লোবিন** — রক্তের লাল রঙ ও নাম দুটোই এর জন্য। সুস্থ মানুষের প্রতি ১০০ মিলি রক্তে হিমোগ্লোবিন থাকে ১২–১৬ গ্রাম (NCERT XI)। লোহিত কণিকার গড় আয়ু **১২০ দিন**; মেয়াদ শেষে এগুলি ধ্বংস হয় প্লীহায় (Spleen) — যাকে তাই বলা হয় লোহিত কণিকার কবরস্থান। অণুচক্রিকার কাজ রক্ততঞ্চন: আঘাতের জায়গায় এরা রক্ত জমাট বাঁধিয়ে রক্তক্ষরণ আটকায়।\n\nরক্তের গ্রুপের দিক থেকে **O গ্রুপের ব্যক্তি সার্বজনীন দাতা** (সব গ্রুপকে রক্ত দিতে পারেন) আর **AB গ্রুপের ব্যক্তি সার্বজনীন গ্রহীতা** (সব গ্রুপ থেকে নিতে পারেন) — এটি ABO পদ্ধতির কথা; Rh মিলিয়েও দেখতে হয়।\n\n**হৃৎপিণ্ড** মুষ্টির আকারের পেশিবহুল অঙ্গ, যার **চারটি প্রকোষ্ঠ**: উপরে দুটি ছোট অলিন্দ (Atria) ও নীচে দুটি বড় নিলয় (Ventricles)। প্রকোষ্ঠভাগের ফলে অক্সিজেনযুক্ত ও কার্বন ডাইঅক্সাইডযুক্ত রক্ত মেশে না। ফুসফুস থেকে অক্সিজেনযুক্ত রক্ত **ফুসফুসীয় শিরা (Pulmonary veins)** দিয়ে বাম অলিন্দে আসে — শিরা হয়েও এটি অক্সিজেনযুক্ত রক্ত বহন করে, এটিই এই অধ্যায়ের সবচেয়ে পরীক্ষাপ্রিয় ব্যতিক্রম। রক্ত এক চক্রে হৃৎপিণ্ড দিয়ে দুইবার যায় বলে একে **দ্বিচক্র সংবহন (Double circulation)** বলে।\n\nনালিগুলির মধ্যে **ধমনি** হৃৎপিণ্ড থেকে রক্ত নিয়ে যায় — উচ্চচাপের রক্ত বের হয় বলে এদের প্রাচীর পুরু ও স্থিতিস্থাপক। সবচেয়ে ছোট নালি **কৈশিকনালির (Capillaries)** প্রাচীর মাত্র এককোষ পুরু — এখান দিয়েই রক্ত ও কোষের মধ্যে পদার্থের বিনিময় হয়। রক্তচাপ বলতে বোঝায় নালির প্রাচীরে রক্তের চাপ: স্বাভাবিক **সিস্টোলিক চাপ প্রায় ১২০ mmHg ও ডায়াস্টোলিক চাপ ৮০ mmHg**; মাপা হয় স্ফিগমোম্যানোমিটার দিয়ে।",
+      "deep": "হৃৎপিণ্ডের কপাটিকা (Valves) রক্তের একমুখী প্রবাহ নিশ্চিত করে: ডান অলিন্দ–নিলয়ের মাঝে ত্রিকপাটিকা (Tricuspid), বাম দিকে দ্বিকপাটিকা বা মাইট্রাল (Mitral) কপাট। নিলয়ের প্রাচীর অলিন্দের চেয়ে পুরু, কারণ নিলয়কেই রক্ত পাম্প করে দূরে পাঠাতে হয় — Class X-এর পাঠ্যে এই যুক্তিটি স্পষ্ট দেওয়া আছে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সংখ্যার শৃঙ্খল",
+          "body": "রক্তের সংখ্যাগুলি একসঙ্গে মনে রাখো: প্লাজমা ≈ ৫৫%, হিমোগ্লোবিন ১২–১৬ গ্রাম/১০০ মিলি, লোহিত কণিকার আয়ু ১২০ দিন, রক্তচাপ ১২০/৮০ mmHg। পরীক্ষায় একটির সংখ্যা অন্যটির উত্তরে বসানোই সবচেয়ে বড় ফাঁদ।",
+          "claims": [
+            "c39",
+            "c38",
+            "c16"
+          ]
+        }
+      ],
+      "claims": [
+        "c13",
+        "c39",
+        "c37",
+        "c38",
+        "c18",
+        "c40",
+        "c14",
+        "c41",
+        "c42",
+        "c15",
+        "c17",
+        "c16"
+      ]
+    },
+    {
+      "id": "excretion",
+      "heading": "রেচন: বৃক্ক ও নেফ্রন",
+      "quick": "মানুষের রেচনতন্ত্রে একজোড়া বৃক্ক, একজোড়া মূত্রনালি, একটি মূত্রথলি ও মূত্রনালি থাকে। বৃক্কের মূল পরিস্রাবণ একক নেফ্রন রক্ত থেকে ইউরিয়াজাতীয় বর্জ্য ছেঁকে নেয়; দৈনিক প্রায় ১৮০ লিটার প্রাথমিক পরিস্রুতের বেশিরভাগই পুনঃশোষিত হয়, মূত্র বের হয় মাত্র ১–২ লিটার।",
+      "standard": "কোষের বিপাকে তৈরি নাইট্রোজেনঘটিত বর্জ্য — ইউরিয়া, ইউরিক অ্যাসিড — রক্ত থেকে সরানোই রেচনের কাজ। মানুষের রেচনতন্ত্র গঠিত **একজোড়া বৃক্ক (Kidneys), একজোড়া মূত্রনালি (Ureters), একটি মূত্রথলি (Urinary bladder) ও মূত্রনালি (Urethra)** দিয়ে। বৃক্ক দুটি উদরে, মেরুদণ্ডের দুই পাশে একটি করে থাকে। বৃক্কে তৈরি মূত্র মূত্রনালি দিয়ে মূত্রথলিতে জমা হয় এবং শেষে মূত্রনালি দিয়ে বেরিয়ে যায়।\n\nবৃক্কের গঠনগত ও কাজের একক **নেফ্রন (Nephron)**: প্রতিটি বৃক্কে অসংখ্য পরিস্রাবণ একক নেফ্রন ঘনভাবে সাজানো থাকে। প্রতিটি নেফ্রনের শুরুতে থাকে পাতলা প্রাচীরের রক্তকৈশিকার গুচ্ছ ও তার সঙ্গে যুক্ত কাপের মতো বোম্যানের ক্যাপসুল (Bowman's capsule), যা পরিস্রুত সংগ্রহ করে।\n\nপরিস্রাবণের পরের ধাপটি সবচেয়ে গুরুত্বপূর্ণ: প্রাথমিক পরিস্রুতে থাকা **গ্লুকোজ, অ্যামিনো অ্যাসিড, লবণ ও প্রচুর পরিমাণ জল নির্বাচনমূলকভাবে পুনঃশোষিত** হয়। সংখ্যায় বুঝলে বিষয়টি পরিষ্কার হয় — সুস্থ প্রাপ্তবয়স্কের বৃক্কে দৈনিক প্রাথমিক পরিস্রুত তৈরি হয় প্রায় **১৮০ লিটার**, কিন্তু প্রকৃতপক্ষে মূত্র হিসেবে বের হয় মাত্র এক-দুই লিটার; বাকিটা নেফ্রনের নালিকায় পুনঃশোষিত হয়ে যায়। কতটা জল পুনঃশোষিত হবে তা নির্ভর করে দেহে অতিরিক্ত জলের পরিমাণ ও বর্জ্যের পরিমাণের ওপর।\n\nবৃক্ক বিকল হলে কৃত্রিম বৃক্ক বা হিমোডায়ালাইসিসে (Haemodialysis) যন্ত্রের মাধ্যমে রক্ত থেকে নাইট্রোজেনঘটিত বর্জ্য সরানো হয় — তবে ডায়ালাইসিসে পুনঃশোষণের ধাপটি থাকে না।",
+      "deep": "তুলনাটি মনে রাখো: ফুসফুসে অ্যালভিওলাই আর বৃক্কে নেফ্রন — দুটোই পাতলা প্রাচীরের রক্তকৈশিকাঘেরা গঠন; একটিতে গ্যাস বিনিময়, অন্যটিতে পরিস্রাবণ। NCERT X-এর অনুশীলনীতেই এই তুলনা চাওয়া হয়েছে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "রক্তশোধন মানে বৃক্ক",
+          "body": "WBPSC Miscellaneous ২০২৩-তে প্রশ্ন ছিল: রক্ত শোধনের (purification of blood) দায়িত্ব কোন অঙ্গের — উত্তর বৃক্ক। যুক্তি: নেফ্রনই রক্ত থেকে নাইট্রোজেনঘটিত বর্জ্য ছেঁকে নেয়; যকৃৎ এখানে বিভ্রান্তিকর বিকল্প।",
+          "claims": [
+            "c20"
+          ]
+        }
+      ],
+      "claims": [
+        "c19",
+        "c20",
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "nervous_senses",
+      "heading": "স্নায়ুতন্ত্র, মস্তিষ্ক ও চোখ",
+      "quick": "স্নায়ুকোষ বা নিউরনে সংকেত ডেনড্রাইট থেকে অ্যাক্সন বরাবর বৈদ্যুতিক আবেগ হিসেবে যায়; দুই নিউরনের ফাঁক সাইন্যাপ্সে তা রাসায়নিক সংকেতে বদলায়। মস্তিষ্ক ও সুষুম্নাকাণ্ড মিলে কেন্দ্রীয় স্নায়ুতন্ত্র; অগ্রমস্তিষ্ক চিন্তার প্রধান অংশ, মেডুলা অনৈচ্ছিক কাজ নিয়ন্ত্রণ করে। চোখ ক্যামেরার মতো রেটিনায় প্রতিবিম্ব তোলে।",
+      "standard": "নিয়ন্ত্রণ ও সমন্বয়ের মূল একক **নিউরন (Neuron)**। পরিবেশের তথ্য ধরা পড়ে ডেনড্রাইটের প্রান্তে; সেখানে রাসায়নিক বিক্রিয়ায় তৈরি হয় বৈদ্যুতিক আবেগ, যা **ডেনড্রাইট থেকে কোষদেহ হয়ে অ্যাক্সন বরাবর** তার শেষপ্রান্ত পর্যন্ত যায়। অ্যাক্সনের শেষে আবেগে কিছু রাসায়নিক পদার্থ ক্ষরিত হয়; সেগুলি দুই নিউরনের মধ্যবর্তী ফাঁক — **সাইন্যাপ্স (Synapse)** — পেরিয়ে পরের নিউরনের ডেনড্রাইটে আবার বৈদ্যুতিক আবেগ শুরু করে।\n\nহঠাৎ প্রতিক্রিয়ার জন্য দেহে আছে **প্রতিবর্ত চাপ (Reflex arc)**: গরম বস্তু ছুঁলে সংকেত মস্তিষ্কে পৌঁছানোর আগেই সুষুম্নাকাণ্ডেই ইনপুট ও আউটপুট স্নায়ুর সংযোগ ঘটে — প্রতিবর্ত চাপ তৈরি হয় সুষুম্নাকাণ্ডেই, যদিও তথ্য পরে মস্তিষ্কেও পৌঁছায়। এতে সাড়া মেলে দ্রুত।\n\n**মস্তিষ্ক ও সুষুম্নাকাণ্ড মিলে কেন্দ্রীয় স্নায়ুতন্ত্র (CNS)**; মস্তিষ্ক থেকে বেরোনো করোটি স্নায়ু (Cranial nerves) ও সুষুম্না থেকে বেরোনো সুষুম্না স্নায়ু (Spinal nerves) মিলে প্রান্তীয় স্নায়ুতন্ত্র (PNS)। মস্তিষ্কের তিনটি প্রধান ভাগ: অগ্র, মধ্য ও পশ্চাৎ মস্তিষ্ক। **অগ্রমস্তিষ্কই চিন্তার প্রধান অংশ** — এখানেই দেখা, শোনা, গন্ধের আলাদা কেন্দ্র ও সিদ্ধান্ত নেওয়ার সহযোগী অঞ্চল থাকে। পশ্চাৎমস্তিষ্কের **মেডুলা (Medulla)** নিয়ন্ত্রণ করে অনৈচ্ছিক কাজ — রক্তচাপ, লালাক্ষরণ, বমি; আর **লঘুমস্তিষ্ক বা সেরিবেলাম (Cerebellum)** ঐচ্ছিক কাজের সূক্ষ্মতা এবং দেহের ভঙ্গি ও ভারসাম্য রক্ষা করে। মস্তিষ্ক সুরক্ষিত থাকে করোটির হাড়ের বাক্সে, সুষুম্নাকাণ্ড মেরুদণ্ডের ভিতরে।\n\nইন্দ্রিয়ের মধ্যে **চোখ ক্যামেরার মতো**: এর লেন্স-ব্যবস্থা আলোকসংবেদী পর্দা **রেটিনায় (Retina)** প্রতিবিম্ব গঠন করে। চোখে ঢোকা আলোর বেশিরভাগ প্রতিসরণ ঘটে **কর্নিয়ার (Cornea)** বাইরের পৃষ্ঠে; স্ফটিক লেন্স (Crystalline lens) শুধু দূরত্ব অনুযায়ী ফোকাস দৈর্ঘ্যের সূক্ষ্ম সমন্বয় করে — লেন্সের ফোকাস দৈর্ঘ্য বদলানোর এই ক্ষমতাই **উপযোজন (Accommodation)**। লেন্সের বক্রতা বদলায় সিলিয়ারি পেশি। কাছের জিনিস দেখতে পেলেও দূরের দেখা যায় না — এই ত্রুটি **মায়োপিয়া (Myopia)** বা হ্রস্বদৃষ্টি, যা উপযুক্ত ক্ষমতার অবতল লেন্সে ঠিক হয়; বিপরীত ত্রুটি হাইপারমেট্রোপিয়ায় লাগে উত্তল লেন্স।",
+      "deep": "পরীক্ষার ফাঁদ: 'চোখে সবচেয়ে বেশি প্রতিসরণ কোথায় হয়?' — উত্তর লেন্স নয়, কর্নিয়া। আবার WBCS ২০২২-তে এসেছিল 'মানব চোখের কোন অংশের প্রতিসরাঙ্ক সর্বাধিক' (উত্তরপত্রে লেন্স) — প্রতিসরাঙ্কের তুলনামূলক মান এই অধ্যায়ের উৎসে নেই, তাই সেই প্রশ্নটি মানচিত্রে untaught হিসেবে চিহ্নিত।",
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "কানের ভিতরের গবেষক",
+          "body": "ইতালীয় শারীরস্থানবিদ আলফোনসো কোর্তি (Alfonso Corti, ১৮২২–১৮৮৮) ১৮৫১ সালে ককলিয়ার বেসিলার পর্দায় অবস্থিত এমন একটি গঠনের বর্ণনা দেন, যার লোমকোষ শব্দ-কম্পনকে স্নায়ু-আবেগে রূপান্তরিত করে — পরে তার নামেই 'অর্গান অব কোর্তি'। (NCERT XI জীববিদ্যা, একক ৫-এর ভূমিকা।)",
+          "claims": [
+            "c47"
+          ]
+        }
+      ],
+      "claims": [
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c58",
+        "c59",
+        "c60",
+        "c61"
+      ]
+    },
+    {
+      "id": "skeleton_hormones",
+      "heading": "কঙ্কাল, পেশি ও হরমোন-সমন্বয়",
+      "quick": "প্রাপ্তবয়স্ক মানুষের কঙ্কালে ২০৬টি হাড়; দীর্ঘতম ফিমার (উরুর হাড়), কানের তিনটি ক্ষুদ্র হাড়ের একটি স্টেপিস। কঙ্কাল পেশি ডোরাকাটা ও ঐচ্ছিক; বারবার কাজে পেশিতে ল্যাকটিক অ্যাসিড জমে অবসাদ আসে। অন্তঃক্ষরা গ্রন্থির হরমোন রক্তে মিশে দূরের লক্ষ্য-অঙ্গে কাজ করে — যেমন অগ্ন্যাশয়ের ইনসুলিন রক্তশর্করা নিয়ন্ত্রণ করে।",
+      "standard": "মানুষের কঙ্কালতন্ত্র গঠিত **২০৬টি হাড়** ও কয়েকটি তরুণাস্থি দিয়ে; এর দুই ভাগ — অক্ষীয় কঙ্কাল (করোটি, মেরুদণ্ড, পাঁজর, বক্ষাস্থি; ৮০টি হাড়) ও উপাঙ্গীয় কঙ্কাল (হাত-পা ও বেষ্টনী)। হাড়ের তালিকায় সবচেয়ে বড় **ফিমার (Femur)** — উরুর হাড়, যাকে পাঠ্যবই সরাসরি 'দীর্ঘতম হাড়' বলেছে। বিপরীত প্রান্তে, প্রতিটি মধ্যকর্ণে থাকে তিনটি ক্ষুদ্র হাড় — **ম্যালিয়াস, ইনকাস ও স্টেপিস (Stapes)** — একসঙ্গে এদের বলে কর্ণাস্থিকা (Ear Ossicles)। হাড়ের সংযোগস্থলই **সন্ধি (Joint)**: কবজা সন্ধি (হাঁটু), বল-সকেট সন্ধি (কাঁধ), পিভট সন্ধি (অ্যাটলাস–অ্যাক্সিস) — সাইনোভিয়াল সন্ধিগুলিই বেশি নড়াচড়া করতে দেয়।\n\nপেশি তিন প্রকার। **কঙ্কাল পেশি** হাড়ের সঙ্গে যুক্ত, অণুবীক্ষণে ডোরাকাটা (Striated) দেখায় এবং এর কাজ স্নায়ুতন্ত্রের ঐচ্ছিক নিয়ন্ত্রণে — তাই একে **ঐচ্ছিক পেশি**ও বলে। অন্ত্রের প্রাচীরের মসৃণ পেশি ও হৃদপেশি অনৈচ্ছিক। পেশি সংকোচনের ব্যাখ্যা দেয় স্লাইডিং ফিলামেন্ট তত্ত্ব: পাতলা অ্যাক্টিন তন্তু মোটা মায়োসিন তন্তুর ওপর দিয়ে পিছলে যায়। বারবার পেশি সক্রিয় হলে গ্লাইকোজেনের অবাত ভাঙনে **ল্যাকটিক অ্যাসিড জমে পেশিতে অবসাদ (Fatigue)** আসে।\n\nদ্বিতীয় সমন্বয়-ব্যবস্থা **অন্তঃক্ষরা তন্ত্র**: এই গ্রন্থিগুলির নালি নেই — তাই এদের বলে নালিবিহীন গ্রন্থি; এদের ক্ষরণই **হরমোন** — অপুষ্টিকর রাসায়নিক, যা আন্তঃকোষীয় বার্তাবহ হিসেবে অতি সামান্য পরিমাণে তৈরি হয়ে রক্তে মিশে দূরের লক্ষ্য-অঙ্গে পৌঁছায়। প্রধান গ্রন্থিগুলি: পিটুইটারি, পিনিয়াল, থাইরয়েড, প্যারাথাইরয়েড, থাইমাস, অ্যাড্রিনাল, অগ্ন্যাশয় ও জননগ্রন্থি।\n\n**পিটুইটারি** হাইপোথ্যালামাসের বৃন্তে ঝুলে থাকে হাড়ের গহ্বর সেলা টার্সিকায়; এর বৃদ্ধি হরমোন (GH) বেশি ক্ষরিত হলে দৈত্যকায়ত্ব (Gigantism), কম হলে পিটুইটারি বামনত্ব হয়। **থাইরয়েড** গ্রন্থির দুটি খণ্ড শ্বাসনালির দুই পাশে (অর্থাৎ গলার অঞ্চলে) থাকে; এর হরমোন থাইরক্সিন তৈরিতে **আয়োডিন** অপরিহার্য — খাদ্যে আয়োডিনের অভাবে থাইরয়েড ফুলে **গলগণ্ড (Goitre)** হয়। **অগ্ন্যাশয়ের** ল্যাঙ্গারহান্সের দ্বীপপুঞ্জে আলফা কোষ গ্লুকাগন ও **বিটা কোষ ইনসুলিন** ক্ষরণ করে; ইনসুলিন প্রধানত যকৃৎকোষ (Hepatocytes) ও মেদকোষে (Adipocytes) কাজ করে কোষে গ্লুকোজ গ্রহণ বাড়ায় — রক্তশর্করা বাড়লে অগ্ন্যাশয় বেশি ইনসুলিন ছাড়ে, কমলে ক্ষরণ কমে — এই প্রতিক্রিয়া-চক্রই (Feedback) ভারসাম্য রাখে। পশ্চাৎ পিটুইটারির **ভেসোপ্রেসিন বা ADH** বৃক্কে জল পুনঃশোষণ বাড়িয়ে মূত্রে জলক্ষয় কমায়। প্রতিটি **বৃক্কের সামনের অংশে একটি করে অ্যাড্রিনাল** গ্রন্থি থাকে; এর মেডুলা থেকে আসে জরুরি অবস্থার হরমোন অ্যাড্রিনালিন।",
+      "deep": "গ্রন্থি-হরমোন-লক্ষ্য এই তিনের শৃঙ্খল মনে রাখো: পিটুইটারি→GH→দেহবৃদ্ধি; থাইরয়েড→থাইরক্সিন→বিপাক হার (আয়োডিন লাগে); অগ্ন্যাশয় বিটা কোষ→ইনসুলিন→যকৃৎ ও মেদকোষ; পশ্চাৎ পিটুইটারি→ADH→বৃক্কের দূরবর্তী নালিকা। প্রশ্ন যেদিক থেকেই আসুক, শৃঙ্খল ধরে উত্তর মিলবে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "ইনসুলিনের লক্ষ্য নিয়ে সতর্কতা",
+          "body": "WBCS ২০১৬-তে 'ইনসুলিনের লক্ষ্য কলা' প্রশ্নের সরকারি উত্তরপত্রে উত্তর ছিল 'উপরের কোনোটিই নয়'। NCERT XI অনুযায়ী ইনসুলিন প্রধানত যকৃৎকোষ ও মেদকোষে কাজ করে — তথ্যটি শেখো, কিন্তু ওই নির্দিষ্ট প্রশ্নের বিকল্প-সেটের বিতর্কটি মানচিত্রে উল্লেখ করা আছে।",
+          "claims": [
+            "c54"
+          ]
+        }
+      ],
+      "claims": [
+        "c45",
+        "c46",
+        "c47",
+        "c48",
+        "c43",
+        "c44",
+        "c49",
+        "c50",
+        "c51",
+        "c52",
+        "c53",
+        "c55",
+        "c54",
+        "c30",
+        "c56",
+        "c57"
+      ]
+    }
+  ],
+  "events": [],
+  "people": [
+    {
+      "name": "আলফোনসো কোর্তি (Alfonso Corti)",
+      "when": "১৮২২–১৮৮৮",
+      "role": "ইতালীয় শারীরস্থানবিদ",
+      "contribution": "১৮৫১ সালে ককলিয়ার বেসিলার পর্দায় অবস্থিত গঠনটির বর্ণনা দেন, যার লোমকোষ শব্দ-কম্পনকে স্নায়ু-আবেগে রূপান্তরিত করে — পরে সেটি 'অর্গান অব কোর্তি' নামে পরিচিত হয়। তিনি প্রথমে সরীসৃপের হৃদ্‌সংবহনতন্ত্র নিয়ে কাজ করেছিলেন।",
+      "section": "nervous_senses",
+      "claims": [
+        "c47"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1,
+      "when": "ধাপ ১",
+      "label": "মুখে লালার অ্যামাইলেজ শ্বেতসার ভাঙতে শুরু করে",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 2,
+      "when": "ধাপ ২",
+      "label": "ক্রমসংকোচনে খাবার পাকস্থলীতে পৌঁছায়; অ্যাসিড ও পেপসিনের কাজ",
+      "claims": [
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 3,
+      "when": "ধাপ ৩",
+      "label": "ক্ষুদ্রান্ত্রে সম্পূর্ণ পরিপাক (পিত্তরস, ট্রিপসিন, লাইপেজ) ও ভিলাইয়ে শোষণ",
+      "claims": [
+        "c04",
+        "c07"
+      ]
+    },
+    {
+      "sort_year": 4,
+      "when": "ধাপ ৪",
+      "label": "রক্ত শোষিত খাবার ও অক্সিজেন প্রতিটি কোষে পৌঁছে দেয়",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "sort_year": 5,
+      "when": "ধাপ ৫",
+      "label": "বৃক্কের নেফ্রন রক্ত থেকে বর্জ্য ছেঁকে মূত্র তৈরি করে",
+      "claims": [
+        "c20"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "ক্রমসংকোচন (Peristalsis)",
+      "meaning": "পরিপাকনালির প্রাচীরের পেশির ছন্দোবদ্ধ সংকোচন, যা খাবারকে সামনে ঠেলে দেয়",
+      "section": "digestion"
+    },
+    {
+      "term": "ভিলাই (Villi)",
+      "meaning": "ক্ষুদ্রান্ত্রের আস্তরণে আঙুলের মতো অভিক্ষেপ; শোষণের পৃষ্ঠতল বাড়ায়",
+      "section": "digestion"
+    },
+    {
+      "term": "অ্যালভিওলাই (Alveoli)",
+      "meaning": "ফুসফুসের বেলুনের মতো বায়ুথলি; এখানে গ্যাসীয় আদান-প্রদান হয়",
+      "section": "respiration"
+    },
+    {
+      "term": "জোয়ার আয়তন (Tidal Volume)",
+      "meaning": "স্বাভাবিক শ্বাসে একবারে ঢোকা বা বেরোনো বায়ুর পরিমাণ, প্রায় ৫০০ মিলিলিটার",
+      "section": "respiration"
+    },
+    {
+      "term": "দ্বিচক্র সংবহন (Double Circulation)",
+      "meaning": "এক চক্রে রক্তের হৃৎপিণ্ড দিয়ে দুইবার যাতায়াত — একবার ফুসফুস-পথে, একবার দেহ-পথে",
+      "section": "circulation"
+    },
+    {
+      "term": "নেফ্রন (Nephron)",
+      "meaning": "বৃক্কের গঠনগত ও কাজের একক; রক্ত পরিস্রাবণ ও পুনঃশোষণ এখানেই হয়",
+      "section": "excretion"
+    },
+    {
+      "term": "সাইন্যাপ্স (Synapse)",
+      "meaning": "দুই নিউরনের মধ্যবর্তী ফাঁক, যেখানে সংকেত রাসায়নিক মাধ্যমে পেরোয়",
+      "section": "nervous_senses"
+    },
+    {
+      "term": "উপযোজন (Accommodation)",
+      "meaning": "চোখের লেন্সের ফোকাস দৈর্ঘ্য বদলানোর ক্ষমতা, যা দিয়ে বিভিন্ন দূরত্বের বস্তু স্পষ্ট দেখা যায়",
+      "section": "nervous_senses"
+    },
+    {
+      "term": "হরমোন (Hormone)",
+      "meaning": "নালিবিহীন গ্রন্থির ক্ষরণ; অপুষ্টিকর রাসায়নিক বার্তাবহ, যা রক্তে মিশে দূরের লক্ষ্য-অঙ্গে কাজ করে",
+      "section": "skeleton_hormones"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "অক্সিজেনের অভাব ও পেশিতে টান",
+      "causes": [
+        "হঠাৎ অতিরিক্ত পরিশ্রমে পেশিকোষে অক্সিজেনের জোগান কমে যাওয়া"
+      ],
+      "event": "পাইরুভেট সবাত পথে না গিয়ে ল্যাকটিক অ্যাসিডে রূপান্তরিত হয়",
+      "results": [
+        "পেশিতে ল্যাকটিক অ্যাসিড জমা",
+        "পেশিতে টান (Cramp) ধরা"
+      ],
+      "section": "respiration",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "title": "আয়োডিনের অভাব ও গলগণ্ড",
+      "causes": [
+        "খাদ্যে আয়োডিনের অভাব"
+      ],
+      "event": "থাইরয়েড হরমোনের স্বাভাবিক সংশ্লেষণ ব্যাহত হয় (হাইপোথাইরয়েডিজম)",
+      "results": [
+        "থাইরয়েড গ্রন্থি ফুলে ওঠে — গলগণ্ড (Goitre)"
+      ],
+      "section": "skeleton_hormones",
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "title": "ধূমপান ও এমফিসিমা",
+      "causes": [
+        "সিগারেট ধূমপান"
+      ],
+      "event": "অ্যালভিওলাইয়ের প্রাচীর ক্ষতিগ্রস্ত হয়",
+      "results": [
+        "শ্বসন-পৃষ্ঠের ক্ষেত্রফল কমে যায়",
+        "দীর্ঘস্থায়ী শ্বাসকষ্ট (এমফিসিমা)"
+      ],
+      "section": "respiration",
+      "claims": [
+        "c36"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "ফুসফুসীয় শিরা অক্সিজেনযুক্ত রক্ত বহন করে — শিরার এই ব্যতিক্রমটি বারবার আসে (WBCS ২০২৪)",
+      "section": "circulation"
+    },
+    {
+      "point": "সংখ্যা-শৃঙ্খল: ২০৬ হাড়, লোহিত কণিকার আয়ু ১২০ দিন, রক্তচাপ ১২০/৮০, প্লাজমা ৫৫%, শ্বাসের হার ১২–১৬/মিনিট",
+      "section": "circulation"
+    },
+    {
+      "point": "হিমোগ্লোবিনে লৌহ থাকে এবং তা লোহিত কণিকায় অবস্থিত (WBCS ২০২২)",
+      "section": "circulation"
+    },
+    {
+      "point": "ঐচ্ছিক পেশি = ডোরাকাটা কঙ্কাল পেশি; পেশির অবসাদ = ল্যাকটিক অ্যাসিড জমা (WBCS ২০১৬, ২০১৮)",
+      "section": "skeleton_hormones"
+    },
+    {
+      "point": "দীর্ঘতম হাড় ফিমার; পিত্তরস যকৃতের ক্ষরণ (IDO ২০১৯)",
+      "section": "digestion"
+    },
+    {
+      "point": "রক্তশোধনের অঙ্গ বৃক্ক ও তার একক নেফ্রন (Miscellaneous ২০২৩)",
+      "section": "excretion"
+    },
+    {
+      "point": "চোখ ক্যামেরার মতো, প্রতিবিম্ব রেটিনায়; বেশিরভাগ প্রতিসরণ কর্নিয়ায় (IDO ২০১৯)",
+      "section": "nervous_senses"
+    }
+  ],
+  "bengal_connection": {
+    "body": "সত্যি কথা বলতে, এই অধ্যায়ের যাচাইকৃত উৎসগুলিতে (NCERT) পশ্চিমবঙ্গ-নির্দিষ্ট কোনো মানবদেহ-তথ্য নেই — তাই জোর করে কোনো বাংলা-সংযোগ বানানো হয়নি। বাংলার শিক্ষার্থীর জন্য সবচেয়ে প্রাসঙ্গিক স্থানীয় সংযোগটি হল স্বাস্থ্য-সতর্কতা: NCERT দশম শ্রেণির পাঠ্যেই সতর্ক করা হয়েছে যে গুটখা হিসেবে তামাক চিবোনোর কারণে ভারতে মুখের ক্যানসারের প্রকোপ বেশি — পশ্চিমবঙ্গেও গুটখা ও ধূমপানের অভ্যাস ব্যাপক, তাই অ্যালভিওলাই-ক্ষতি (এমফিসিমা) ও মুখের ক্যানসারের এই পাঠ বাংলার ছাত্রের জন্য সরাসরি প্রযোজ্য সতর্কবাণী।",
+    "claims": [
+      "c64",
+      "c36"
+    ]
+  },
+  "quick_revision": [
+    "লালার অ্যামাইলেজ শ্বেতসার ভাঙে; পাকস্থলীতে HCl + পেপসিন; সম্পূর্ণ পরিপাক ক্ষুদ্রান্ত্রে।",
+    "পিত্তরস যকৃতের — চর্বির গোলক ভাঙে, উৎসেচক নেই; লাইপেজ চর্বি পরিপাক করে।",
+    "গ্যাস বিনিময়ের স্থান অ্যালভিওলাই; ছড়ালে ক্ষেত্রফল প্রায় ৮০ বর্গমিটার।",
+    "শ্বাসরঞ্জক হিমোগ্লোবিন লোহিত কণিকায়; CO2 বেশিরভাগ দ্রবীভূত অবস্থায় যায়।",
+    "শ্বাসের হার ১২–১৬/মিনিট; জোয়ার আয়তন প্রায় ৫০০ মিলি; ছন্দকেন্দ্র মেডুলায়।",
+    "প্লাজমা ≈ ৫৫%; লোহিত কণিকার আয়ু ১২০ দিন, ধ্বংস প্লীহায়; হিমোগ্লোবিনে লৌহ।",
+    "O গ্রুপ সার্বজনীন দাতা, AB গ্রুপ সার্বজনীন গ্রহীতা।",
+    "হৃৎপিণ্ডের ৪ প্রকোষ্ঠ; ফুসফুসীয় শিরা অক্সিজেনযুক্ত রক্ত আনে; রক্তচাপ ১২০/৮০।",
+    "বৃক্কের একক নেফ্রন; দৈনিক পরিস্রুত ≈ ১৮০ লিটার, মূত্র মাত্র ১–২ লিটার।",
+    "অগ্রমস্তিষ্ক চিন্তার অংশ; মেডুলা অনৈচ্ছিক কাজ; সেরিবেলাম ভারসাম্য রাখে।",
+    "চোখ ক্যামেরার মতো — প্রতিবিম্ব রেটিনায়; বেশিরভাগ প্রতিসরণ কর্নিয়ায়।",
+    "হাড় ২০৬টি; দীর্ঘতম ফিমার; কানে ম্যালিয়াস-ইনকাস-স্টেপিস।",
+    "ইনসুলিন বিটা কোষ থেকে; লক্ষ্য যকৃৎকোষ ও মেদকোষ; আয়োডিনের অভাবে গলগণ্ড।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Science, Class X, Chapter 5: Life Processes",
+      "class": "X",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc105.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Science, Class X, Chapter 6: Control and Coordination",
+      "class": "X",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc106.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Biology, Class XI, Chapter 14: Breathing and Exchange of Gases",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/kebo114.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Biology, Class XI, Chapter 15: Body Fluids and Circulation",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/kebo115.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Biology, Class XI, Chapter 17: Locomotion and Movement",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/kebo117.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Biology, Class XI, Chapter 19: Chemical Coordination and Integration",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/kebo119.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "Science, Class X, Chapter 10: The Human Eye and the Colourful World",
+      "class": "X",
+      "url": "https://ncert.nic.in/textbook/pdf/jesc110.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Saliva is secreted by the salivary glands and contains salivary amylase, which breaks down starch into simple sugar",
+      "source": "s1",
+      "page": "p. 85",
+      "quote": "The saliva contains an enzyme called salivary amylase that breaks down starch which is a complex molecule to give simple sugar."
+    },
+    {
+      "id": "c02",
+      "claim": "Peristaltic movements: the lining of the alimentary canal has muscles that contract rhythmically to push food forward, all along the gut",
+      "source": "s1",
+      "page": "p. 85",
+      "quote": "The lining of canal has muscles that contract rhythmically in order to push the food forward. These peristaltic movements occur all along the gut."
+    },
+    {
+      "id": "c03",
+      "claim": "Gastric glands in the stomach wall release hydrochloric acid, the protein-digesting enzyme pepsin, and mucus",
+      "source": "s1",
+      "page": "p. 85",
+      "quote": "These release hydrochloric acid, a protein digesting enzyme called pepsin, and mucus."
+    },
+    {
+      "id": "c04",
+      "claim": "The small intestine is the site of complete digestion of carbohydrates, proteins and fats, and receives the secretions of the liver and pancreas",
+      "source": "s1",
+      "page": "p. 86",
+      "quote": "The small intestine is the site of the complete digestion of carbohydrates, proteins and fats. It receives the secretions of the liver and pancreas for this purpose."
+    },
+    {
+      "id": "c05",
+      "claim": "Bile juice comes from the liver; bile salts break large fat globules into smaller globules, increasing the efficiency of enzyme action",
+      "source": "s1",
+      "page": "p. 86",
+      "quote": "Bile juice from the liver accomplishes this in addition to acting on fats."
+    },
+    {
+      "id": "c06",
+      "claim": "The pancreas secretes pancreatic juice containing trypsin for digesting proteins and lipase for breaking down emulsified fats",
+      "source": "s1",
+      "page": "p. 86",
+      "quote": "The pancreas secretes pancreatic juice which contains enzymes like trypsin for digesting proteins and lipase for breaking down emulsified fats."
+    },
+    {
+      "id": "c07",
+      "claim": "The inner lining of the small intestine has finger-like projections called villi which increase the surface area for absorption",
+      "source": "s1",
+      "page": "p. 86",
+      "quote": "The inner lining of the small intestine has numerous fingerlike projections called villi which increase the surface area for absorption."
+    },
+    {
+      "id": "c08",
+      "claim": "In muscle cells lacking oxygen, pyruvate is converted into lactic acid; its build-up during sudden activity causes cramps",
+      "source": "s1",
+      "page": "p. 87",
+      "quote": "Sometimes, when there is a lack of oxygen in our muscle cells, another pathway for the breakdown of pyruvate is taken. Here the pyruvate is converted into lactic acid which is also a threecarbon molecule. This buildup of lactic acid in our muscles during sudden activity causes cramps."
+    },
+    {
+      "id": "c09",
+      "claim": "ATP is the energy currency for most cellular processes",
+      "source": "s1",
+      "page": "p. 88",
+      "quote": "ATP is the energy currency for most cellular processes."
+    },
+    {
+      "id": "c10",
+      "claim": "Within the lungs the air passage ends in balloon-like structures called alveoli, which provide the surface for exchange of gases",
+      "source": "s1",
+      "page": "p. 89",
+      "quote": "Within the lungs, the passage divides into smaller and smaller tubes which finally terminate in balloonlike structures which are called alveoli (singular–alveolus). The alveoli provide a surface where the exchange of gases can take place."
+    },
+    {
+      "id": "c11",
+      "claim": "In human beings the respiratory pigment is haemoglobin, present in the red blood corpuscles; carbon dioxide is mostly transported dissolved in blood",
+      "source": "s1",
+      "page": "p. 90",
+      "quote": "In human beings, the respiratory pigment is haemoglobin which has a very high affinity for oxygen. This pigment is present in the red blood corpuscles. Carbon dioxide is more soluble in water than oxygen is and hence is mostly transported in the dissolved form in our blood."
+    },
+    {
+      "id": "c12",
+      "claim": "If spread out, the alveolar surface would cover about 80 square metres",
+      "source": "s1",
+      "page": "p. 90",
+      "quote": "If the alveolar surface were spread out, it would cover about 80 m2"
+    },
+    {
+      "id": "c13",
+      "claim": "Blood consists of a fluid medium called plasma in which cells are suspended; oxygen is carried by the red blood corpuscles",
+      "source": "s1",
+      "page": "p. 91",
+      "quote": "Blood consists of a fluid medium called plasma in which the cells are suspended. Plasma transports food, carbon dioxide and nitrogenous wastes in dissolved form. Oxygen is carried by the red blood corpuscles."
+    },
+    {
+      "id": "c14",
+      "claim": "The heart is a muscular organ as big as our fist, with different chambers to prevent oxygen-rich blood mixing with carbon-dioxide-rich blood",
+      "source": "s1",
+      "page": "p. 92",
+      "quote": "The heart is a muscular organ which is as big as our fist"
+    },
+    {
+      "id": "c15",
+      "claim": "In humans blood goes through the heart twice during each cycle; this is known as double circulation",
+      "source": "s1",
+      "page": "p. 92",
+      "quote": "On the other hand, it goes through the heart twice during each cycle in other vertebrates. This is known as double circulation."
+    },
+    {
+      "id": "c16",
+      "claim": "Normal systolic pressure is about 120 mm of Hg and diastolic pressure is 80 mm of Hg",
+      "source": "s1",
+      "page": "p. 92",
+      "quote": "The normal systolic pressure is about 120 mm of Hg and diastolic pressure is 80 mm of Hg."
+    },
+    {
+      "id": "c17",
+      "claim": "Arteries carry blood away from the heart and have thick, elastic walls; capillaries are the smallest vessels with walls one-cell thick",
+      "source": "s1",
+      "page": "pp. 92-93",
+      "quote": "Arteries are the vessels which carry blood away from the heart to various organs of the body. Since the blood emerges from the heart under high pressure, the arteries have thick, elastic walls."
+    },
+    {
+      "id": "c18",
+      "claim": "Platelets circulate in the blood and plug leaks by helping to clot the blood at points of injury",
+      "source": "s1",
+      "page": "p. 93",
+      "quote": "the blood has platelet cells which circulate around the body and plug these leaks by helping to clot the blood at these points of injury"
+    },
+    {
+      "id": "c19",
+      "claim": "The human excretory system includes a pair of kidneys, a pair of ureters, a urinary bladder and a urethra; kidneys lie in the abdomen, one on either side of the backbone",
+      "source": "s1",
+      "page": "p. 96",
+      "quote": "The excretory system of human beings (Fig. 5.13) includes a pair of kidneys, a pair of ureters, a urinary bladder and a urethra."
+    },
+    {
+      "id": "c20",
+      "claim": "The basic filtration units in the kidney are the nephrons, packed close together in large numbers in each kidney",
+      "source": "s1",
+      "page": "pp. 96-97",
+      "quote": "Each kidney has large numbers of these filtration units called nephrons packed close together."
+    },
+    {
+      "id": "c21",
+      "claim": "Glucose, amino acids, salts and a major amount of water in the initial filtrate are selectively reabsorbed as urine flows along the nephron tube",
+      "source": "s1",
+      "page": "p. 97",
+      "quote": "Some substances in the initial filtrate, such as glucose, amino acids, salts and a major amount of water, are selectively reabsorbed as the urine flows along the tube."
+    },
+    {
+      "id": "c22",
+      "claim": "In a healthy adult the initial filtrate in the kidneys is about 180 litres daily, but only a litre or two is actually excreted",
+      "source": "s1",
+      "page": "p. 97",
+      "quote": "Normally, in a healthy adult, the initial filtrate in the kidneys is about 180 L daily. However, the volume actually excreted is only a litre or two a day"
+    },
+    {
+      "id": "c23",
+      "claim": "In a neuron, the electrical impulse travels from the dendrite to the cell body and then along the axon to its end",
+      "source": "s2",
+      "page": "p. 101",
+      "quote": "This impulse travels from the dendrite to the cell body, and then along the axon to its end."
+    },
+    {
+      "id": "c24",
+      "claim": "At a synapse, chemicals cross the gap and start a similar electrical impulse in the dendrite of the next neuron",
+      "source": "s2",
+      "page": "p. 101",
+      "quote": "These chemicals cross the gap, or synapse, and start a similar electrical impulse in a dendrite of the next neuron."
+    },
+    {
+      "id": "c25",
+      "claim": "Reflex arcs are formed in the spinal cord itself, although the information input also goes on to reach the brain",
+      "source": "s2",
+      "page": "p. 102",
+      "quote": "Reflex arcs are formed in this spinal cord itself, although the information input also goes on to reach the brain."
+    },
+    {
+      "id": "c26",
+      "claim": "The brain and spinal cord constitute the central nervous system; the peripheral nervous system consists of cranial nerves from the brain and spinal nerves from the spinal cord",
+      "source": "s2",
+      "page": "p. 103",
+      "quote": "The brain and spinal cord constitute the central nervous system (Fig. 6.3). They receive information from all parts of the body and integrate it."
+    },
+    {
+      "id": "c27",
+      "claim": "The forebrain is the main thinking part of the brain",
+      "source": "s2",
+      "page": "p. 103",
+      "quote": "The forebrain is the main thinking part of the brain."
+    },
+    {
+      "id": "c28",
+      "claim": "Involuntary actions including blood pressure, salivation and vomiting are controlled by the medulla in the hindbrain",
+      "source": "s2",
+      "page": "p. 104",
+      "quote": "All these involuntary actions including blood pressure, salivation and vomiting are controlled by the medulla in the hindbrain."
+    },
+    {
+      "id": "c29",
+      "claim": "The cerebellum is responsible for precision of voluntary actions and for maintaining the posture and balance of the body",
+      "source": "s2",
+      "page": "p. 104",
+      "quote": "It is responsible for precision of voluntary actions and maintaining the posture and balance of the body."
+    },
+    {
+      "id": "c30",
+      "claim": "When blood sugar rises, cells of the pancreas produce more insulin; as blood sugar falls, insulin secretion is reduced",
+      "source": "s2",
+      "page": "p. 107",
+      "quote": "if the sugar levels in blood rise, they are detected by the cells of the pancreas which respond by producing more insulin. As the blood sugar level falls, insulin secretion is reduced."
+    },
+    {
+      "id": "c31",
+      "claim": "Each terminal bronchiole gives rise to very thin, irregular-walled, vascularised bag-like structures called alveoli",
+      "source": "s3",
+      "page": "p. 184",
+      "quote": "Each terminal bronchiole gives rise to a number of very thin, irregularwalled and vascularised baglike structures called alveoli."
+    },
+    {
+      "id": "c32",
+      "claim": "On an average, a healthy human breathes 12-16 times per minute",
+      "source": "s3",
+      "page": "p. 186",
+      "quote": "On an average, a healthy human breathes 12-16 times/minute."
+    },
+    {
+      "id": "c33",
+      "claim": "Tidal volume, the air inspired or expired in a normal respiration, is approximately 500 mL",
+      "source": "s3",
+      "page": "p. 186",
+      "quote": "Tidal Volume (TV): Volume of air inspired or expired during a normal respiration. It is approx. 500 mL."
+    },
+    {
+      "id": "c34",
+      "claim": "Every 100 ml of oxygenated blood can deliver around 5 ml of oxygen to the tissues under normal physiological conditions",
+      "source": "s3",
+      "page": "p. 189",
+      "quote": "Every 100 ml of oxygenated blood can deliver around 5 ml of O2 to the tissues under normal physiological conditions."
+    },
+    {
+      "id": "c35",
+      "claim": "The respiratory rhythm centre in the medulla region of the brain is primarily responsible for regulating respiration",
+      "source": "s3",
+      "page": "p. 190",
+      "quote": "A specialised centre present in the medulla region of the brain called respiratory rhythm centre is primarily responsible for this regulation."
+    },
+    {
+      "id": "c36",
+      "claim": "Emphysema is a chronic disorder in which alveolar walls are damaged and the respiratory surface decreases; a major cause is cigarette smoking",
+      "source": "s3",
+      "page": "p. 190",
+      "quote": "Emphysema is a chronic disorder in which alveolar walls are damaged due to which respiratory surface is decreased. One of the major causes of this is cigarette smoking."
+    },
+    {
+      "id": "c37",
+      "claim": "RBCs contain a red coloured, iron-containing complex protein called haemoglobin",
+      "source": "s4",
+      "page": "p. 194",
+      "quote": "They have a red coloured, iron containing complex protein called haemoglobin, hence the colour and name of these cells."
+    },
+    {
+      "id": "c38",
+      "claim": "RBCs have an average life span of 120 days, after which they are destroyed in the spleen, the graveyard of RBCs",
+      "source": "s4",
+      "page": "p. 194",
+      "quote": "RBCs have an average life span of 120 days after which they are destroyed in the spleen (graveyard of RBCs)."
+    },
+    {
+      "id": "c39",
+      "claim": "Plasma is a straw-coloured viscous fluid constituting nearly 55 per cent of the blood",
+      "source": "s4",
+      "page": "p. 193",
+      "quote": "Plasma is a straw coloured, viscous fluid constituting nearly 55 per cent of the blood."
+    },
+    {
+      "id": "c40",
+      "claim": "Group O individuals are universal donors and persons with AB group are universal recipients",
+      "source": "s4",
+      "page": "p. 195",
+      "quote": "From the above mentioned table it is evident that group ‘O’ blood can be donated to persons with any other blood group and hence ‘O’ group individuals are called ‘universal donors’. Persons with ‘AB’ group can accept blood from persons with AB as well as the other groups of blood. Therefore, such persons are called ‘universal recipients’."
+    },
+    {
+      "id": "c41",
+      "claim": "The human heart has four chambers: two smaller upper atria and two larger lower ventricles",
+      "source": "s4",
+      "page": "p. 198",
+      "quote": "Our heart has four chambers, two relatively small upper chambers called atria and two larger lower chambers called ventricles."
+    },
+    {
+      "id": "c42",
+      "claim": "Oxygenated blood is carried by the pulmonary veins into the left atrium; this pathway is the pulmonary circulation",
+      "source": "s4",
+      "page": "p. 199",
+      "quote": "the oxygenated blood is carried by the pulmonary veins into the left atrium. This pathway constitutes the pulmonary circulation."
+    },
+    {
+      "id": "c43",
+      "claim": "Skeletal muscles are striated and, their activities being under voluntary control of the nervous system, are also called voluntary muscles",
+      "source": "s5",
+      "page": "p. 218",
+      "quote": "Skeletal muscles are closely associated with the skeletal components of the body. They have a striped appearance under the microscope and hence are called striated muscles. As their activities are under the voluntary control of the nervous system, they are known as voluntary muscles too."
+    },
+    {
+      "id": "c44",
+      "claim": "Repeated activation of muscles leads to accumulation of lactic acid due to anaerobic breakdown of glycogen, causing fatigue",
+      "source": "s5",
+      "page": "p. 223",
+      "quote": "Repeated activation of the muscles can lead to the accumulation of lactic acid due to anaerobic breakdown of glycogen in them, causing fatigue."
+    },
+    {
+      "id": "c45",
+      "claim": "The human skeletal system is made up of 206 bones and a few cartilages",
+      "source": "s5",
+      "page": "p. 224",
+      "quote": "In human beings, this system is made up of 206 bones and a few cartilages."
+    },
+    {
+      "id": "c46",
+      "claim": "The femur (thigh bone) is the longest bone",
+      "source": "s5",
+      "page": "p. 226",
+      "quote": "Femur (thigh bone – the longest bone), tibia and fibula, tarsals (ankle bones – 7 in number)"
+    },
+    {
+      "id": "c47",
+      "claim": "Each middle ear contains three tiny bones – Malleus, Incus and Stapes – collectively called ear ossicles",
+      "source": "s5",
+      "page": "pp. 224-225",
+      "quote": "Each middle ear contains three tiny bones – Malleus, Incus and Stapes, collectively called Ear Ossicles."
+    },
+    {
+      "id": "c48",
+      "claim": "Examples of synovial joints: ball and socket (humerus–pectoral girdle), hinge (knee joint), pivot (atlas–axis)",
+      "source": "s5",
+      "page": "p. 227",
+      "quote": "Ball and socket joint (between humerus and pectoral girdle), hinge joint (knee joint), pivot joint (between atlas and axis), gliding joint (between the carpals) and saddle joint (between carpal and metacarpal of thumb) are some examples."
+    },
+    {
+      "id": "c49",
+      "claim": "Endocrine glands lack ducts and are called ductless glands; their secretions are called hormones",
+      "source": "s6",
+      "page": "p. 239",
+      "quote": "Endocrine glands lack ducts and are hence, called ductless glands. Their secretions are called hormones."
+    },
+    {
+      "id": "c50",
+      "claim": "Hormones are non-nutrient chemicals which act as intercellular messengers and are produced in trace amounts",
+      "source": "s6",
+      "page": "p. 239",
+      "quote": "Hormones are nonnutrient chemicals which act as intercellular messengers and are produced in trace amounts."
+    },
+    {
+      "id": "c51",
+      "claim": "The pituitary gland sits in a bony cavity called sella turcica; oversecretion of growth hormone causes gigantism and low secretion causes pituitary dwarfism",
+      "source": "s6",
+      "page": "p. 241",
+      "quote": "Oversecretion of GH stimulates abnormal growth of the body leading to gigantism and low secretion of GH results in stunted growth resulting in pituitary dwarfism."
+    },
+    {
+      "id": "c52",
+      "claim": "The thyroid gland is composed of two lobes located on either side of the trachea",
+      "source": "s6",
+      "page": "p. 242",
+      "quote": "The thyroid gland is composed of two lobes which are located on either side of the trachea (Figure 19.3 a)."
+    },
+    {
+      "id": "c53",
+      "claim": "Deficiency of iodine in the diet results in hypothyroidism and enlargement of the thyroid gland, commonly called goitre",
+      "source": "s6",
+      "page": "p. 242",
+      "quote": "Deficiency of iodine in our diet results in hypothyroidism and enlargement of the thyroid gland, commonly called goitre."
+    },
+    {
+      "id": "c54",
+      "claim": "Insulin acts mainly on hepatocytes and adipocytes and enhances cellular glucose uptake and utilisation",
+      "source": "s6",
+      "page": "p. 245",
+      "quote": "Insulin acts mainly on hepatocytes and adipocytes (cells of adipose tissue), and enhances cellular glucose uptake and utilisation."
+    },
+    {
+      "id": "c55",
+      "claim": "In the islets of Langerhans, alpha cells secrete glucagon while beta cells secrete insulin",
+      "source": "s6",
+      "page": "p. 245",
+      "quote": "The α-cells secrete a hormone called glucagon, while the β-cells secrete insulin."
+    },
+    {
+      "id": "c56",
+      "claim": "Vasopressin (ADH) acts at the kidney and stimulates resorption of water and electrolytes by the distal tubules, reducing water loss through urine",
+      "source": "s6",
+      "page": "p. 242",
+      "quote": "Vasopressin acts mainly at the kidney and stimulates resorption of water and electrolytes by the distal tubules and thereby reduces loss of water through urine (diuresis). Hence, it is also called as antidiuretic hormone (ADH)."
+    },
+    {
+      "id": "c57",
+      "claim": "There is one pair of adrenal glands, one at the anterior part of each kidney; the adrenal medulla secretes adrenaline and noradrenaline",
+      "source": "s6",
+      "page": "p. 244",
+      "quote": "Our body has one pair of adrenal glands, one at the anterior part of each kidney (Figure 19.4 a)."
+    },
+    {
+      "id": "c58",
+      "claim": "The human eye is like a camera; its lens system forms an image on a light-sensitive screen called the retina",
+      "source": "s7",
+      "page": "p. 161",
+      "quote": "The human eye is like a camera. Its lens system forms an image on a lightsensitive screen called the retina."
+    },
+    {
+      "id": "c59",
+      "claim": "Most refraction for light entering the eye occurs at the outer surface of the cornea; the crystalline lens provides the finer adjustment of focal length",
+      "source": "s7",
+      "page": "p. 161",
+      "quote": "Most of the refraction for the light rays entering the eye occurs at the outer surface of the cornea. The crystalline lens merely provides the finer adjustment of focal length required to focus objects at different distances on the retina."
+    },
+    {
+      "id": "c60",
+      "claim": "The ability of the eye lens to adjust its focal length is called accommodation",
+      "source": "s7",
+      "page": "p. 162",
+      "quote": "The ability of the eye lens to adjust its focal length is called accommodation."
+    },
+    {
+      "id": "c61",
+      "claim": "Myopia (near-sightedness) can be corrected by using a concave lens of suitable power",
+      "source": "s7",
+      "page": "p. 162",
+      "quote": "This defect can be corrected by using a concave lens of suitable power."
+    },
+    {
+      "id": "c62",
+      "claim": "The small intestine is the longest part of the alimentary canal",
+      "source": "s1",
+      "page": "p. 86",
+      "quote": "This is the longest part of the alimentary canal which is fitted into a compact space because of extensive coiling."
+    },
+    {
+      "id": "c63",
+      "claim": "Inspiration is initiated by the contraction of the diaphragm, which increases the volume of the thoracic chamber",
+      "source": "s3",
+      "page": "p. 185",
+      "quote": "Inspiration is initiated by the contraction of diaphragm which increases the volume of thoracic chamber in the anteroposterior axis."
+    },
+    {
+      "id": "c64",
+      "claim": "There is a high incidence of oral cancer in India due to the chewing of tobacco in the form of gutkha",
+      "source": "s1",
+      "page": "p. 89",
+      "quote": "There is a high incidence of oral cancer in India due to the chewing of tobacco in the form of gutkha"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "digestion",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "লালায় থাকা কোন উৎসেচক শ্বেতসার ভেঙে সরল শর্করা তৈরি করে?",
+      "a": "স্যালিভারি অ্যামাইলেজ",
+      "w": [
+        "পেপসিন",
+        "ট্রিপসিন",
+        "লাইপেজ"
+      ],
+      "e": "লালা গ্রন্থি থেকে ক্ষরিত লালায় স্যালিভারি অ্যামাইলেজ থাকে, যা জটিল শ্বেতসারকে সরল শর্করায় ভাঙে। পেপসিন পাকস্থলীতে প্রোটিন, ট্রিপসিন ও লাইপেজ অগ্ন্যাশয়ে কাজ করে।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "digestion",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পাকস্থলীর গ্যাস্ট্রিক গ্রন্থি কোন তিনটি পদার্থ ক্ষরণ করে?",
+      "a": "হাইড্রোক্লোরিক অ্যাসিড, পেপসিন ও শ্লেষ্মা",
+      "w": [
+        "পিত্তরস, ট্রিপসিন ও লাইপেজ",
+        "ইনসুলিন, গ্লুকাগন ও শ্লেষ্মা",
+        "লালা, পেপসিন ও পিত্তরস"
+      ],
+      "e": "গ্যাস্ট্রিক গ্রন্থি হাইড্রোক্লোরিক অ্যাসিড, প্রোটিন-পরিপাককারী পেপসিন ও প্রতিরক্ষামূলক শ্লেষ্মা ছাড়ে। পিত্তরস যকৃতের, ট্রিপসিন-লাইপেজ অগ্ন্যাশয়ের ক্ষরণ।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "digestion",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পিত্তরস কোন অঙ্গ থেকে আসে এবং চর্বির ক্ষেত্রে এর কাজ কী?",
+      "a": "যকৃৎ থেকে আসে; চর্বির বড় গোলক ছোট গোলকে ভেঙে দেয়",
+      "w": [
+        "অগ্ন্যাশয় থেকে আসে; চর্বিকে ফ্যাটি অ্যাসিডে ভাঙে",
+        "পাকস্থলী থেকে আসে; প্রোটিন পরিপাক করে",
+        "ক্ষুদ্রান্ত্র থেকে আসে; শর্করা শোষণ করে"
+      ],
+      "e": "পিত্তরস যকৃতের ক্ষরণ। পিত্তলবণ চর্বির বড় গোলক ছোট গোলকে ভেঙে উৎসেচকের কাজ সহজ করে; চর্বির রাসায়নিক পরিপাক করে লাইপেজ।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "digestion",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ক্ষুদ্রান্ত্রে শোষণের পৃষ্ঠতল বাড়ায় কোন গঠন?",
+      "a": "ভিলাই",
+      "w": [
+        "ক্রমসংকোচন",
+        "গ্যাস্ট্রিক গ্রন্থি",
+        "বোম্যানের ক্যাপসুল"
+      ],
+      "e": "ক্ষুদ্রান্ত্রের ভিতরের আস্তরণে আঙুলের মতো অভিক্ষেপ ভিলাই শোষণের ক্ষেত্রফল বাড়ায়। বোম্যানের ক্যাপসুল বৃক্কের গঠন।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "digestion",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পরিপাকনালি বরাবর খাবার এগিয়ে যায় কোন প্রক্রিয়ায়?",
+      "a": "ক্রমসংকোচন (Peristalsis) — প্রাচীরের পেশির ছন্দোবদ্ধ সংকোচন",
+      "w": [
+        "অভিস্রবণ",
+        "ব্যাপন",
+        "তঞ্চন"
+      ],
+      "e": "নালির আস্তরণের পেশি ছন্দোবদ্ধভাবে সংকুচিত হয়ে খাবার সামনে ঠেলে দেয়; এই ক্রমসংকোচন পুরো অন্ত্র জুড়ে ঘটে।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "digestion",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অগ্ন্যাশয়ের রসে ট্রিপসিন ও লাইপেজের কাজ যথাক্রমে —",
+      "a": "প্রোটিন পরিপাক ও ভাঙা (অবদ্রবিত) চর্বি ভাঙন",
+      "w": [
+        "শ্বেতসার ভাঙন ও প্রোটিন পরিপাক",
+        "চর্বি ভাঙন ও প্রোটিন পরিপাক",
+        "দুটোই শ্বেতসার ভাঙে"
+      ],
+      "e": "অগ্ন্যাশয়ের রসে ট্রিপসিন প্রোটিন পরিপাক করে এবং লাইপেজ অবদ্রবিত চর্বি ভাঙে। শ্বেতসার ভাঙে স্যালিভারি অ্যামাইলেজ।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "digestion",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. লালার অ্যামাইলেজ শ্বেতসারকে সরল শর্করায় ভাঙে।\n২. পিত্তরসে চর্বি-ভাঙনকারী উৎসেচক থাকে।\n৩. শর্করা, প্রোটিন ও চর্বির সম্পূর্ণ পরিপাক হয় ক্ষুদ্রান্ত্রে।\n\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ৩",
+      "w": [
+        "কেবল ১",
+        "২ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "১ ও ৩ সঠিক। ২ ভুল — পিত্তরসে কোনো উৎসেচক থাকে না; এটি শুধু চর্বির গোলক ভাঙে ও মাধ্যম ক্ষারীয় করে, চর্বির পরিপাক করে লাইপেজ।",
+      "claims": [
+        "c01",
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "respiration",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ফুসফুসে গ্যাসীয় আদান-প্রদান ঘটে কোন গঠনে?",
+      "a": "অ্যালভিওলাই (বায়ুথলি)",
+      "w": [
+        "ব্রংকাস",
+        "শ্বাসনালি",
+        "মধ্যচ্ছদা"
+      ],
+      "e": "শ্বাসনালির শাখা শেষ হয় বেলুনের মতো অ্যালভিওলাইয়ে; এদের প্রাচীরের রক্তনালি-জালিকায় গ্যাস বিনিময় হয়। মধ্যচ্ছদা শ্বাসের পেশি, বিনিময়ের স্থান নয়।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "respiration",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মানুষের শ্বাসরঞ্জক হিমোগ্লোবিন কোথায় থাকে?",
+      "a": "লোহিত রক্তকণিকায়",
+      "w": [
+        "শ্বেত রক্তকণিকায়",
+        "অণুচক্রিকায়",
+        "প্লাজমায়"
+      ],
+      "e": "হিমোগ্লোবিন লোহিত রক্তকণিকায় থাকে এবং অক্সিজেনের প্রতি এর আসক্তি খুব বেশি। শ্বেত কণিকায় হিমোগ্লোবিন থাকে না।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "respiration",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শ্বাস গ্রহণ (Inspiration) শুরু হয় কোন পেশির সংকোচনে?",
+      "a": "মধ্যচ্ছদা (Diaphragm)",
+      "w": [
+        "হৃদপেশি",
+        "কঙ্কাল পেশি",
+        "মসৃণ পেশি"
+      ],
+      "e": "মধ্যচ্ছদা সংকুচিত হলে বক্ষগহ্বরের আয়তন বাড়ে, চাপ কমে ও বায়ু ফুসফুসে ঢোকে।",
+      "claims": [
+        "c63"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "respiration",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সুস্থ মানুষ গড়ে মিনিটে কতবার শ্বাস নেয়?",
+      "a": "১২–১৬ বার",
+      "w": [
+        "৬–৮ বার",
+        "২০–২৫ বার",
+        "৩০–৩৫ বার"
+      ],
+      "e": "NCERT XI অনুযায়ী সুস্থ মানুষ গড়ে মিনিটে ১২–১৬ বার শ্বাস নেয়।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "respiration",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "স্বাভাবিক অবস্থায় প্রতি ১০০ মিলি অক্সিজেনযুক্ত রক্ত কলাগুলিকে প্রায় কত অক্সিজেন সরবরাহ করে?",
+      "a": "প্রায় ৫ মিলিলিটার",
+      "w": [
+        "প্রায় ২০ মিলিলিটার",
+        "প্রায় ৫০ মিলিলিটার",
+        "প্রায় ১ মিলিলিটার"
+      ],
+      "e": "NCERT XI: প্রতি ১০০ মিলি অক্সিজেনযুক্ত রক্ত স্বাভাবিক শারীরবৃত্তীয় অবস্থায় প্রায় ৫ মিলি অক্সিজেন কলাকে দেয়। (মোট বহনক্ষমতার সঙ্গে এই সরবরাহ-মান গুলিও না।)",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "respiration",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "হঠাৎ অতিরিক্ত পরিশ্রমে পেশিতে টান (Cramp) ধরার কারণ —",
+      "a": "অক্সিজেনের অভাবে পাইরুভেট থেকে ল্যাকটিক অ্যাসিড জমা",
+      "w": [
+        "ATP সম্পূর্ণ শেষ হয়ে যাওয়া",
+        "হিমোগ্লোবিন ভেঙে যাওয়া",
+        "ক্যালসিয়াম জমা হওয়া"
+      ],
+      "e": "পেশিকোষে অক্সিজেনের অভাব হলে পাইরুভেট ল্যাকটিক অ্যাসিডে বদলায়; এই জমা হওয়াই টানের কারণ।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "respiration",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. অ্যালভিওলাই পাতলা প্রাচীরযুক্ত ও রক্তনালিসমৃদ্ধ থলির মতো গঠন।\n২. কার্বন ডাইঅক্সাইড রক্তে বেশিরভাগ হিমোগ্লোবিনে যুক্ত হয়ে পরিবাহিত হয়।\n৩. শ্বসন-ছন্দ নিয়ন্ত্রণ করে মস্তিষ্কের মেডুলা অঞ্চলের কেন্দ্র।\n\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ৩",
+      "w": [
+        "কেবল ২",
+        "২ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "১ ও ৩ সঠিক। ২ ভুল — কার্বন ডাইঅক্সাইড জলে বেশি দ্রাব্য বলে বেশিরভাগটাই রক্তে দ্রবীভূত অবস্থায় যায়; হিমোগ্লোবিন মূলত অক্সিজেন বহন করে।",
+      "claims": [
+        "c31",
+        "c11",
+        "c35"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "circulation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রক্তে অক্সিজেন বহন করে কোনটি?",
+      "a": "লোহিত রক্তকণিকা",
+      "w": [
+        "প্লাজমা",
+        "শ্বেত রক্তকণিকা",
+        "অণুচক্রিকা"
+      ],
+      "e": "প্লাজমা খাবার, কার্বন ডাইঅক্সাইড ও বর্জ্য দ্রবীভূত অবস্থায় বহন করে; অক্সিজেন বহন করে লোহিত রক্তকণিকা (হিমোগ্লোবিন দিয়ে)।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "circulation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "স্বাভাবিক রক্তচাপ (সিস্টোলিক/ডায়াস্টোলিক) কত?",
+      "a": "প্রায় ১২০/৮০ mmHg",
+      "w": [
+        "প্রায় ৮০/১২০ mmHg",
+        "প্রায় ১৪০/১০০ mmHg",
+        "প্রায় ১০০/৫০ mmHg"
+      ],
+      "e": "স্বাভাবিক সিস্টোলিক চাপ প্রায় ১২০ mmHg ও ডায়াস্টোলিক চাপ ৮০ mmHg। ক্রম উল্টে দিলে (৮০/১২০) ভুল হবে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "circulation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লোহিত রক্তকণিকার গড় আয়ু কত দিন এবং ধ্বংস হয় কোথায়?",
+      "a": "১২০ দিন; প্লীহায়",
+      "w": [
+        "৬০ দিন; যকৃতে",
+        "১২০ দিন; বৃক্কে",
+        "৩০ দিন; অস্থিমজ্জায়"
+      ],
+      "e": "লোহিত কণিকার গড় আয়ু ১২০ দিন; পরে প্লীহায় ধ্বংস হয় — প্লীহাকে তাই লোহিত কণিকার কবরস্থান বলে।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "circulation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "হিমোগ্লোবিনে কোন ধাতু থাকে?",
+      "a": "লৌহ (Iron)",
+      "w": [
+        "তামা",
+        "দস্তা",
+        "ক্যালসিয়াম"
+      ],
+      "e": "হিমোগ্লোবিন লাল রঙের লৌহযুক্ত জটিল প্রোটিন — WBCS ২০২২-তেও এই প্রশ্ন এসেছিল।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "circulation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ABO পদ্ধতিতে সার্বজনীন দাতা ও সার্বজনীন গ্রহীতা যথাক্রমে —",
+      "a": "O গ্রুপ ও AB গ্রুপ",
+      "w": [
+        "AB গ্রুপ ও O গ্রুপ",
+        "A গ্রুপ ও B গ্রুপ",
+        "O গ্রুপ ও A গ্রুপ"
+      ],
+      "e": "O গ্রুপের রক্ত সব গ্রুপকে দেওয়া যায় (সার্বজনীন দাতা); AB গ্রুপের ব্যক্তি সব গ্রুপ থেকে নিতে পারেন (সার্বজনীন গ্রহীতা)।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "circulation",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন নালি অক্সিজেনযুক্ত রক্ত বহন করে?",
+      "a": "ফুসফুসীয় শিরা (Pulmonary vein)",
+      "w": [
+        "ফুসফুসীয় ধমনি",
+        "ঊর্ধ্ব মহাশিরা",
+        "যকৃৎ শিরা"
+      ],
+      "e": "ফুসফুস থেকে অক্সিজেনযুক্ত রক্ত ফুসফুসীয় শিরা দিয়ে বাম অলিন্দে আসে — শিরা হলেও এটি ব্যতিক্রম। ফুসফুসীয় ধমনি বহন করে অক্সিজেনবিহীন রক্ত। (WBCS ২০২৪।)",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "circulation",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ধমনির প্রাচীর পুরু ও স্থিতিস্থাপক হওয়ার কারণ —",
+      "a": "হৃৎপিণ্ড থেকে উচ্চচাপে রক্ত বের হয় বলে",
+      "w": [
+        "রক্তে অক্সিজেন বেশি থাকে বলে",
+        "রক্ত ধীরে প্রবাহিত হয় বলে",
+        "কপাটিকা থাকে বলে"
+      ],
+      "e": "ধমনি দিয়ে হৃৎপিণ্ড থেকে উচ্চচাপের রক্ত বের হয়, তাই এদের প্রাচীর পুরু ও স্থিতিস্থাপক। কপাটিকা থাকে শিরায়, ধমনিতে নয়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "circulation",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও:\n\nক. প্লাজমা  ১. রক্ততঞ্চনে সাহায্য করে\nখ. অণুচক্রিকা  ২. রক্তের প্রায় ৫৫%\nগ. লোহিত কণিকা  ৩. হিমোগ্লোবিন বহন করে\nঘ. হৃৎপিণ্ড  ৪. চার প্রকোষ্ঠবিশিষ্ট",
+      "a": "ক-২, খ-১, গ-৩, ঘ-৪",
+      "w": [
+        "ক-১, খ-২, গ-৪, ঘ-৩",
+        "ক-২, খ-৩, গ-১, ঘ-৪",
+        "ক-৪, খ-১, গ-২, ঘ-৩"
+      ],
+      "e": "প্লাজমা রক্তের প্রায় ৫৫%; অণুচক্রিকা তঞ্চনে সাহায্য করে; লোহিত কণিকায় হিমোগ্লোবিন থাকে; মানব হৃৎপিণ্ডের প্রকোষ্ঠ চারটি।",
+      "claims": [
+        "c39",
+        "c18",
+        "c37",
+        "c41"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "excretion",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি মানুষের রেচনতন্ত্রের অংশ নয়?",
+      "a": "যকৃৎ",
+      "w": [
+        "বৃক্ক",
+        "মূত্রনালি",
+        "মূত্রথলি"
+      ],
+      "e": "রেচনতন্ত্রে থাকে একজোড়া বৃক্ক, একজোড়া মূত্রনালি, মূত্রথলি ও মূত্রনালি। যকৃৎ পরিপাকতন্ত্রের গ্রন্থি।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "excretion",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বৃক্কের মূল পরিস্রাবণ একক কোনটি?",
+      "a": "নেফ্রন",
+      "w": [
+        "ভিলাই",
+        "অ্যালভিওলাই",
+        "নিউরন"
+      ],
+      "e": "প্রতিটি বৃক্কে অসংখ্য পরিস্রাবণ একক নেফ্রন থাকে। ভিলাই অন্ত্রে, অ্যালভিওলাই ফুসফুসে, নিউরন স্নায়ুতন্ত্রে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "excretion",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নেফ্রনে প্রাথমিক পরিস্রুত থেকে কোনগুলি পুনঃশোষিত হয়?",
+      "a": "গ্লুকোজ, অ্যামিনো অ্যাসিড, লবণ ও প্রচুর জল",
+      "w": [
+        "ইউরিয়া ও ইউরিক অ্যাসিড",
+        "কেবল ইউরিয়া",
+        "হিমোগ্লোবিন ও প্রোটিন"
+      ],
+      "e": "গ্লুকোজ, অ্যামিনো অ্যাসিড, লবণ ও বেশিরভাগ জল নির্বাচনমূলকভাবে পুনঃশোষিত হয়; ইউরিয়াজাতীয় বর্জ্যই মূত্রে বের হয়।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "excretion",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বৃক্কে তৈরি মূত্র মূত্রথলিতে পৌঁছায় কোন নালি দিয়ে?",
+      "a": "মূত্রনালি (Ureter)",
+      "w": [
+        "মূত্রনালি (Urethra)",
+        "খাবারনালি",
+        "ফুসফুসীয় শিরা"
+      ],
+      "e": "বৃক্ক থেকে মূত্র মূত্রনালি (Ureter) দিয়ে মূত্রথলিতে যায়; মূত্রথলি থেকে বাইরে বের হয় মূত্রনালি (Urethra) দিয়ে — দুটি নাম গুলিও না।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "excretion",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সুস্থ প্রাপ্তবয়স্কের বৃক্কে দৈনিক প্রাথমিক পরিস্রুতের পরিমাণ ও প্রকৃত মূত্রত্যাগ যথাক্রমে প্রায় —",
+      "a": "১৮০ লিটার ও ১–২ লিটার",
+      "w": [
+        "১৮ লিটার ও ১০ লিটার",
+        "১৮০ লিটার ও ১৮০ লিটার",
+        "২ লিটার ও ১৮০ লিটার"
+      ],
+      "e": "দৈনিক প্রায় ১৮০ লিটার পরিস্রুত তৈরি হলেও পুনঃশোষণে প্রকৃত মূত্র মাত্র এক-দুই লিটার।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "excretion",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): বৃক্ক দৈনিক প্রায় ১৮০ লিটার পরিস্রুত তৈরি করলেও মূত্রত্যাগ মাত্র ১–২ লিটার।\nকারণ (R): নেফ্রনের নালিকায় গ্লুকোজ, লবণ ও বেশিরভাগ জল পুনঃশোষিত হয়।",
+      "a": "A ও R উভয়ই সঠিক এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "পুনঃশোষণের কারণেই ১৮০ লিটারের বেশিরভাগ ফিরে যায় — R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c22",
+        "c21"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "nervous_senses",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কেন্দ্রীয় স্নায়ুতন্ত্র (CNS) গঠিত —",
+      "a": "মস্তিষ্ক ও সুষুম্নাকাণ্ড দিয়ে",
+      "w": [
+        "করোটি স্নায়ু ও সুষুম্না স্নায়ু দিয়ে",
+        "কেবল মস্তিষ্ক দিয়ে",
+        "নিউরন ও পেশি দিয়ে"
+      ],
+      "e": "মস্তিষ্ক ও সুষুম্নাকাণ্ড মিলে CNS; করোটি ও সুষুম্না স্নায়ু মিলে প্রান্তীয় স্নায়ুতন্ত্র (PNS)।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "nervous_senses",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মস্তিষ্কের প্রধান চিন্তন অংশ কোনটি?",
+      "a": "অগ্রমস্তিষ্ক (Forebrain)",
+      "w": [
+        "মেডুলা",
+        "লঘুমস্তিষ্ক (Cerebellum)",
+        "সুষুম্নাকাণ্ড"
+      ],
+      "e": "অগ্রমস্তিষ্কই চিন্তার প্রধান অংশ; মেডুলা অনৈচ্ছিক কাজ ও সেরিবেলাম ভারসাম্য নিয়ন্ত্রণ করে। (IDO ২০১৯-তে বুদ্ধিমত্তার অংশ নিয়ে অনুরূপ প্রশ্ন এসেছিল।)",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "nervous_senses",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রতিবর্ত চাপ (Reflex arc) মূলত কোথায় গঠিত হয়?",
+      "a": "সুষুম্নাকাণ্ডে",
+      "w": [
+        "অগ্রমস্তিষ্কে",
+        "সেরিবেলামে",
+        "মেডুলায়"
+      ],
+      "e": "ইনপুট ও আউটপুট স্নায়ু সুষুম্নাকাণ্ডেই প্রথম মিলিত হয়; প্রতিবর্ত চাপ সেখানেই গঠিত হয়, যদিও তথ্য পরে মস্তিষ্কেও পৌঁছায়।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "nervous_senses",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রক্তচাপ, লালাক্ষরণ ও বমির মতো অনৈচ্ছিক কাজ নিয়ন্ত্রণ করে —",
+      "a": "মেডুলা",
+      "w": [
+        "অগ্রমস্তিষ্ক",
+        "সেরিবেলাম",
+        "কর্নিয়া"
+      ],
+      "e": "পশ্চাৎমস্তিষ্কের মেডুলা এই অনৈচ্ছিক কাজগুলি নিয়ন্ত্রণ করে। সেরিবেলামের কাজ ভঙ্গি ও ভারসাম্য।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "nervous_senses",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সাইকেল চালানো বা সোজা লাইনে হাঁটার সময় দেহের ভঙ্গি ও ভারসাম্য রক্ষা করে —",
+      "a": "লঘুমস্তিষ্ক (Cerebellum)",
+      "w": [
+        "মেডুলা",
+        "অগ্রমস্তিষ্ক",
+        "সাইন্যাপ্স"
+      ],
+      "e": "সেরিবেলাম ঐচ্ছিক কাজের সূক্ষ্মতা এবং দেহের ভঙ্গি ও ভারসাম্য রক্ষার জন্য দায়ী।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "nervous_senses",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "চোখে ঢোকা আলোর বেশিরভাগ প্রতিসরণ ঘটে কোথায়?",
+      "a": "কর্নিয়ার বাইরের পৃষ্ঠে",
+      "w": [
+        "স্ফটিক লেন্সে",
+        "রেটিনায়",
+        "আইরিসে"
+      ],
+      "e": "বেশিরভাগ প্রতিসরণ কর্নিয়ার বাইরের পৃষ্ঠে হয়; লেন্স শুধু ফোকাস দৈর্ঘ্যের সূক্ষ্ম সমন্বয় করে।",
+      "claims": [
+        "c59"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "nervous_senses",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "মস্তিষ্কের অংশ ও কাজের নীচের জোড়গুলির মধ্যে কোনটি সঠিকভাবে মেলানো নয়?",
+      "a": "মেডুলা – চিন্তা ও সিদ্ধান্ত",
+      "w": [
+        "অগ্রমস্তিষ্ক – চিন্তার প্রধান অংশ",
+        "সেরিবেলাম – ভঙ্গি ও ভারসাম্য",
+        "মেডুলা – রক্তচাপ নিয়ন্ত্রণ"
+      ],
+      "e": "চিন্তা ও সিদ্ধান্ত অগ্রমস্তিষ্কের কাজ; মেডুলা অনৈচ্ছিক কাজ (রক্তচাপ, লালাক্ষরণ, বমি) নিয়ন্ত্রণ করে। তাই প্রথম জোড়টিই ভুল মেলানো।",
+      "claims": [
+        "c27",
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "skeleton_hormones",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রাপ্তবয়স্ক মানুষের কঙ্কালে হাড়ের সংখ্যা কত?",
+      "a": "২০৬টি",
+      "w": [
+        "৩০০টি",
+        "১০৬টি",
+        "২৫৬টি"
+      ],
+      "e": "NCERT XI অনুযায়ী মানব কঙ্কাল ২০৬টি হাড় ও কয়েকটি তরুণাস্থি দিয়ে গঠিত।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "skeleton_hormones",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মানবদেহের দীর্ঘতম হাড় কোনটি?",
+      "a": "ফিমার (উরুর হাড়)",
+      "w": [
+        "স্টেপিস",
+        "হিউমেরাস",
+        "টিবিয়া"
+      ],
+      "e": "ফিমার বা উরুর হাড়ই দীর্ঘতম — NCERT XI সরাসরি একে 'দীর্ঘতম হাড়' বলেছে। (IDO ২০১৯।)",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "skeleton_hormones",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'ঐচ্ছিক পেশি' বলতে কোন পেশিকে বোঝায়?",
+      "a": "ডোরাকাটা কঙ্কাল পেশি",
+      "w": [
+        "হৃদপেশি",
+        "মসৃণ পেশি",
+        "অন্ত্রের পেশি"
+      ],
+      "e": "কঙ্কাল পেশি ডোরাকাটা এবং স্নায়ুতন্ত্রের ঐচ্ছিক নিয়ন্ত্রণে থাকে বলে একে ঐচ্ছিক পেশি বলে। (WBCS ২০১৬।)",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "skeleton_hormones",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রক্তে শর্করা বেড়ে গেলে অগ্ন্যাশয় কী করে?",
+      "a": "বেশি ইনসুলিন ক্ষরণ করে",
+      "w": [
+        "ইনসুলিন ক্ষরণ বন্ধ করে দেয়",
+        "গ্লুকাগনই একমাত্র ক্ষরণ বাড়ায়",
+        "অ্যাড্রিনালিন ক্ষরণ করে"
+      ],
+      "e": "রক্তশর্করা বাড়লে অগ্ন্যাশয়ের কোষ তা শনাক্ত করে বেশি ইনসুলিন ছাড়ে; শর্করা কমলে ইনসুলিন ক্ষরণও কমে — এটিই প্রতিক্রিয়া-নিয়ন্ত্রণ।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "skeleton_hormones",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "খাদ্যে আয়োডিনের অভাবে কোন রোগ হয়?",
+      "a": "গলগণ্ড (Goitre) — থাইরয়েড গ্রন্থির স্ফীতি",
+      "w": [
+        "দৈত্যকায়ত্ব",
+        "ডায়াবেটিস ইনসিপিডাস",
+        "টিট্যানি"
+      ],
+      "e": "আয়োডিনের অভাবে হাইপোথাইরয়েডিজম ও থাইরয়েড গ্রন্থির স্ফীতি অর্থাৎ গলগণ্ড হয়। দৈত্যকায়ত্ব বৃদ্ধি হরমোনের অতিক্ষরণে হয়।",
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "skeleton_hormones",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভেসোপ্রেসিন (ADH) হরমোনের প্রধান কাজ —",
+      "a": "বৃক্কে জল পুনঃশোষণ বাড়িয়ে মূত্রে জলক্ষয় কমানো",
+      "w": [
+        "রক্তশর্করা বাড়ানো",
+        "হৃদস্পন্দন বাড়ানো",
+        "হাড় থেকে ক্যালসিয়াম মুক্ত করা"
+      ],
+      "e": "ADH বৃক্কের দূরবর্তী নালিকায় জল ও তড়িৎবিশ্লেষ্য পুনঃশোষণ উদ্দীপিত করে, ফলে মূত্রে জলক্ষয় কমে।",
+      "claims": [
+        "c56"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "skeleton_hormones",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মেলাও:\n\nক. থাইরয়েড  ১. শ্বাসনালির দুই পাশে অবস্থিত\nখ. বিটা কোষ  ২. ইনসুলিন ক্ষরণ করে\nগ. পিটুইটারি  ৩. সেলা টার্সিকা নামক হাড়ের গহ্বরে থাকে\nঘ. অ্যাড্রিনাল  ৪. প্রতিটি বৃক্কের সামনের অংশে একটি করে",
+      "a": "ক-১, খ-২, গ-৩, ঘ-৪",
+      "w": [
+        "ক-২, খ-১, গ-৪, ঘ-৩",
+        "ক-১, খ-৩, গ-২, ঘ-৪",
+        "ক-৪, খ-২, গ-১, ঘ-৩"
+      ],
+      "e": "থাইরয়েড শ্বাসনালির দুই পাশে; ল্যাঙ্গারহান্সের বিটা কোষ ইনসুলিন ছাড়ে; পিটুইটারি সেলা টার্সিকায়; অ্যাড্রিনাল জোড়া বৃক্কের ওপরে-সামনে থাকে।",
+      "claims": [
+        "c52",
+        "c55",
+        "c51",
+        "c57"
+      ]
+    }
+  ]
+}

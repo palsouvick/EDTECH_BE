@@ -1,0 +1,1660 @@
+{
+  "book": "science",
+  "code": "SCI-12",
+  "number": 12,
+  "part": "biology",
+  "title": "পুষ্টি ও ভিটামিন",
+  "subtitle": "পুষ্টি উপাদান, ভিটামিনের দুই পরিবার, খনিজ ও অভাবজনিত রোগ, সুষম খাদ্য",
+  "subtopics": [
+    "biology_nutrition"
+  ],
+  "related_facts": [
+    "GK-SCI-011",
+    "GK-SCI-022",
+    "GK-SCI-101"
+  ],
+  "prerequisites": [
+    "SCI-11"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 1 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 7 of 9 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-12.json and drafts/SCI-12_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-12_REPORT.md.",
+    "checked_claims": 66,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এই অধ্যায়ে আমরা খাবারের পুষ্টি উপাদানগুলোকে চিনব — কোনটি শক্তি দেয়, কোনটি দেহ গড়ে, কোনটি রোগ থেকে রক্ষা করে। তারপর ভিটামিনের দুই পরিবার (চর্বিতে ও জলে দ্রবণীয়), প্রতিটি ভিটামিনের উৎস, রাসায়নিক নাম ও অভাবজনিত রোগ, তিনটি মূল খনিজ (ক্যালসিয়াম, লোহা, আয়োডিন) এবং সুষম খাদ্যের ধারণা ধাপে ধাপে শিখব। অভাবজনিত রোগের ছকটি প্রায় প্রতিটি পরীক্ষায় আসে — এটাই এই অধ্যায়ের প্রাণ।",
+    "you_will_learn": [
+      "শর্করা, প্রোটিন ও চর্বির কাজ ও উৎস আলাদা করতে পারবে",
+      "ভিটামিনের সংজ্ঞা ও চর্বিতে/জলে দ্রবণীয় ভাগ বলতে পারবে",
+      "A, D, E, K ভিটামিনের উৎস ও অভাবজনিত রোগ মনে রাখতে পারবে",
+      "B1, B2, B6, B12 ও C-এর রাসায়নিক নাম ও অভাবজনিত রোগ বলতে পারবে",
+      "ক্যালসিয়াম, লোহা ও আয়োডিনের অভাবের ফল জানতে পারবে",
+      "সুষম খাদ্য, আঁশ ও জলের ভূমিকা ব্যাখ্যা করতে পারবে",
+      "জাঙ্ক ফুড ও পুষ্টিশস্যের পার্থক্য বুঝতে পারবে"
+    ]
+  },
+  "sections": [
+    {
+      "id": "nutrients_basics",
+      "heading": "পুষ্টি উপাদান: শর্করা, প্রোটিন ও চর্বি",
+      "quick": "খাবারের প্রধান উপাদান পাঁচটি — শর্করা, প্রোটিন, চর্বি, ভিটামিন ও খনিজ। শর্করা ও চর্বি শক্তি দেয়, প্রোটিন দেহ গঠন ও মেরামত করে, আর ভিটামিন-খনিজ দেহকে রোগ থেকে রক্ষা করে।",
+      "standard": "আমরা যা খাই, তার মধ্যে যেসব উপাদান শক্তি দেয়, বৃদ্ধিতে সাহায্য করে, দেহের ক্ষয় মেরামত করে, রোগ থেকে রক্ষা করে এবং দেহের নানা কাজ চালু রাখে, তাদের **পুষ্টি উপাদান (Nutrients)** বলে। প্রধান পুষ্টি উপাদান হলো শর্করা, প্রোটিন, চর্বি, ভিটামিন ও খনিজ।\n\n**শর্করা (Carbohydrate):** গ্লুকোজ তাৎক্ষণিক শক্তি দেয় — দৌড়ের সময় খেলোয়াড়রা তাই গ্লুকোজ-জল পান করে। ভাত, গম, ভুট্টা, আলু, মিষ্টি আলু, কলা, আনারস ও আম শর্করার ভালো উৎস।\n\n**চর্বি (Fat):** ঘি, তেল, বাদাম ও নানা বীজে চর্বি থাকে। চর্বি হলো সঞ্চিত শক্তির ভাণ্ডার — শীতঘুমের সময় মেরু ভালুক দেহে জমা চর্বি থেকেই শক্তি পায়।\n\nশর্করা ও চর্বি শক্তি দেয় বলে এদের **শক্তিদায়ক খাদ্য** বলে।\n\n**প্রোটিন (Protein):** দুধজাত খাবার ও ডাল প্রোটিনের ভালো উৎস। উদ্ভিদ-উৎসের মধ্যে ডাল, শিম, মটর ও বাদাম, আর প্রাণী-উৎসের মধ্যে দুধ, পনির, ডিম, মাছ ও মাংস উল্লেখযোগ্য। প্রোটিনসমৃদ্ধ খাবার দেহের বৃদ্ধি ও মেরামতে সাহায্য করে বলে এদের **দেহগঠনকারী খাদ্য** বলে। বাড়ন্ত শিশু ও খেলোয়াড়দের প্রোটিন বেশি লাগে।\n\n**সহজ পরীক্ষা:** আয়োডিন দ্রবণে নীল-কালো রং মানেই শ্বেতসার (স্টার্চ) আছে; কাগজে তেলের দাগ মানেই চর্বি আছে; কপার সালফেট ও কস্টিক সোডার পরীক্ষায় বেগুনি রং মানেই প্রোটিন আছে।",
+      "deep": "খাবারের প্রতিটি পদে একাধিক পুষ্টি উপাদান থাকতে পারে — যেমন চিনাবাদামে প্রোটিন ও চর্বি দুটোই পাওয়া যায়। তাই কোনো একটা খাবারকে শুধু এক শ্রেণিতে আটকে রাখা ঠিক নয়। আবার কোনো কোনো খাবারে কোনো পুষ্টি উপাদানই প্রায় থাকে না — এমন পার্থক্য বোঝা সুষম খাদ্য সাজানোর ভিত্তি।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "তিন জোড়া নাম",
+          "body": "শর্করা + চর্বি = শক্তিদায়ক খাদ্য; প্রোটিন = দেহগঠনকারী খাদ্য; ভিটামিন + খনিজ = রক্ষাকারী পুষ্টি উপাদান।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c12",
+        "c20",
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "vitamins_intro",
+      "heading": "ভিটামিন কী ও তার দুই ভাগ",
+      "quick": "ভিটামিন হলো এমন জৈব যৌগ যা খাদ্যে খুব সামান্য পরিমাণে লাগে, কিন্তু যার অভাবে নির্দিষ্ট রোগ হয়। দ্রবণীয়তা অনুযায়ী ভিটামিন দুই ভাগের — চর্বিতে দ্রবণীয় (A, D, E, K) ও জলে দ্রবণীয় (B-দল ও C)।",
+      "standard": "দেখা গেছে, কিছু জৈব যৌগ আমাদের খাদ্যে খুব সামান্য পরিমাণে দরকার হয়, কিন্তু সেগুলোর অভাবে নির্দিষ্ট কিছু রোগ দেখা দেয় — এই যৌগগুলোকেই **ভিটামিন** বলে। বেশিরভাগ ভিটামিন আমাদের দেহে তৈরি হয় না, কিন্তু উদ্ভিদ প্রায় সবগুলোই তৈরি করতে পারে; তাই ভিটামিনকে অপরিহার্য খাদ্য-উপাদান ধরা হয়। অন্ত্রের কিছু ব্যাকটেরিয়া অবশ্য আমাদের দরকারি কিছু ভিটামিন তৈরি করতে পারে।\n\n**ভাগ দুটি:**\n\n১) **চর্বিতে দ্রবণীয় ভিটামিন** — A, D, E ও K। এরা চর্বি ও তেলে দ্রবীভূত হয়, জলে হয় না। এরা যকৃৎ (লিভার) ও চর্বি-সঞ্চয়কারী কলায় জমা থাকে, তাই প্রতিদিন না খেলেও কিছুদিন চলে।\n\n২) **জলে দ্রবণীয় ভিটামিন** — B-দলের ভিটামিন ও ভিটামিন C। এরা দেহে জমা থাকে না; অতিরিক্ত অংশ মূত্রের সঙ্গে বেরিয়ে যায়, তাই খাদ্যে নিয়মিত জোগান লাগে। ব্যতিক্রম একটাই — ভিটামিন B12 জলে দ্রবণীয় হলেও দেহে জমা থাকতে পারে।\n\nমনে রাখতে হবে, ভিটামিন ও খনিজ খুব সামান্য পরিমাণে লাগলেও দেহ সুস্থ রাখতে এগুলো অপরিহার্য। আবার অতিরিক্ত ভিটামিনও ক্ষতিকর — চিকিৎসকের পরামর্শ ছাড়া ভিটামিনের ওষুধ খাওয়া উচিত নয়।",
+      "deep": "'Vitamine' শব্দটি এসেছিল vital + amine থেকে, কারণ প্রথম দিকের চেনা যৌগগুলোতে অ্যামিনো দল ছিল। পরে দেখা যায় বেশিরভাগ ভিটামিনে অ্যামিনো দল নেই, তাই শেষের 'e' বাদ দিয়ে শব্দটি হয় 'vitamin'। ভিটামিনকে A, B, C, D অক্ষর দিয়ে চিহ্নিত করা হয়; B-দলের মধ্যে আবার B1, B2, B6, B12 ইত্যাদি উপদল আছে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "জমা থাকে কোনগুলো?",
+          "body": "চর্বিতে দ্রবণীয় A, D, E, K যকৃৎ ও চর্বি-কলায় জমা থাকে। জলে দ্রবণীয় B-দল ও C জমা থাকে না — একমাত্র ব্যতিক্রম B12।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "অতিরিক্তও ক্ষতিকর",
+          "body": "ভিটামিনের অভাব যেমন রোগ ডাকে, অতিরিক্ত সেবনও ক্ষতিকর। চিকিৎসকের পরামর্শ ছাড়া ভিটামিন-বড়ি খাওয়া উচিত নয় — NCERT দ্বাদশ শ্রেণির রসায়নে এই সতর্কবাণী স্পষ্ট লেখা আছে।"
+        }
+      ],
+      "claims": [
+        "c14",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c60"
+      ]
+    },
+    {
+      "id": "fat_soluble",
+      "heading": "চর্বিতে দ্রবণীয় ভিটামিন: A, D, E, K",
+      "quick": "ভিটামিন A (রেটিনল) চোখের জন্য — অভাবে রাতকানা ও জেরোফথ্যালমিয়া; D রোদ থেকে তৈরি হয় — অভাবে শিশুদের রিকেট ও বড়দের অস্টিওম্যালেশিয়া; E লোহিত কণিকা রক্ষা করে; K রক্ত জমাট বাঁধায় — অভাবে রক্ত জমাট বাঁধতে দেরি হয়।",
+      "standard": "**ভিটামিন A (রেটিনল, Retinol):** রেটিনল শুধু প্রাণীজ খাবারেই থাকে — দুধ, মাখন, ঘি, ডিম, মাছ ও যকৃৎ এর সমৃদ্ধ উৎস, আর মাছের যকৃতের তেল সবচেয়ে সমৃদ্ধ। উদ্ভিদখাবারে রেটিনল থাকে না; সেখানে থাকে কমলা-হলুদ রঞ্জক **ক্যারোটিনয়েড**, যা দেহে রেটিনলে বদলে যেতে পারে — গাজর, পেঁপে, আম ও সবুজ শাকসবজির বিটা-ক্যারোটিন তার উদাহরণ। ভিটামিন A চোখ ও ত্বক সুস্থ রাখে; চোখের রেটিনার রঞ্জক তৈরিতে এটি লাগে বলে অল্প আলোয় দেখার ক্ষমতা এর ওপর নির্ভর করে। অভাবে হয় **রাতকানা** (অন্ধকারে দেখতে না পাওয়া) এবং **জেরোফথ্যালমিয়া** (চোখের কর্নিয়া শক্ত হয়ে যাওয়া)।\n\n**ভিটামিন D:** একে **'রোদের ভিটামিন' (Sunshine Vitamin)** বলে, কারণ রোদের সংস্পর্শে ত্বকে থাকা একটি পদার্থ থেকে এটি তৈরি হয়। খাদ্য-উৎস হলো মাছ, ডিমের কুসুম ও মাছের যকৃতের তেল। ক্যালসিয়াম ও ফসফরাস হাড়ে জমা হয়ে হাড় শক্ত করে — এই জমা হওয়ার প্রক্রিয়ার নাম **খনিজায়ন (Mineralization)**, আর ভিটামিন D এই প্রক্রিয়ায় সাহায্য করে। অভাবে শিশুদের হাড় বেঁকে যায় — **রিকেট**; বড়দের হাড় নরম হয়ে জয়েন্টে ব্যথা হয় — **অস্টিওম্যালেশিয়া**।\n\n**ভিটামিন E:** গমের অঙ্কুরের তেল, সূর্যমুখী তেল ইত্যাদি উদ্ভিজ্জ তেল এর উৎস। এর প্রধান কাজ হলো কিছু ফ্যাটি অ্যাসিড এবং ভিটামিন A ও C-কে দেহে ও খাবারে নষ্ট হওয়া থেকে রক্ষা করা। অভাবে লোহিত রক্তকণিকার ভঙ্গুরতা বাড়ে ও পেশি দুর্বল হয়।\n\n**ভিটামিন K:** সবুজ শাকসবজি এর প্রধান উৎস; অন্ত্রের উপকারী ব্যাকটেরিয়াও এটি তৈরি করে। এটি **প্রোথ্রমবিন** নামের প্রোটিন তৈরিতে সাহায্য করে, যা রক্ত জমাট বাঁধার জন্য অপরিহার্য — তাই একে **'রক্তপাত-রোধী ভিটামিন' (Anti-bleeding Vitamin)** বলা হয়। অভাবে রক্ত জমাট বাঁধতে বেশি সময় লাগে।",
+      "deep": "ভিটামিন A-এর দুই রূপের পার্থক্য পরীক্ষায় প্রায়ই আসে: তৈরি রেটিনল মেলে শুধু প্রাণীজ খাবারে, আর উদ্ভিদখাবারের বিটা-ক্যারোটিন দেহে বদলে রেটিনল হয় — তবে এই রূপান্তর পুরোপুরি কার্যকর নয়, তাই যাঁরা প্রাণীজ খাবার কম খান, তাঁদের সবুজ শাক ও কমলা-হলুদ ফল বেশি খেতে হয়। ভিটামিন K-এর ক্ষেত্রে মনে রাখো — এর একটি অংশ অন্ত্রের ব্যাকটেরিয়াই তৈরি করে দেয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "WBCS ২০২২-র প্রশ্ন",
+          "body": "'কোন ভিটামিন রক্ত জমাট বাঁধতে সাহায্য করে?' — উত্তর ভিটামিন K। প্রোথ্রমবিন তৈরির যোগসূত্র দিয়ে মনে রাখো।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "রিকেট বনাম অস্টিওম্যালেশিয়া",
+          "body": "দুটোই ভিটামিন D-এর অভাবের ফল: শিশুদের হাড়ের বিকৃতি = রিকেট; বড়দের নরম হাড় ও জয়েন্টে ব্যথা = অস্টিওম্যালেশিয়া।"
+        }
+      ],
+      "claims": [
+        "c16",
+        "c28",
+        "c29",
+        "c34",
+        "c37",
+        "c43",
+        "c44",
+        "c45",
+        "c47",
+        "c48",
+        "c49",
+        "c50",
+        "c51",
+        "c52",
+        "c53",
+        "c54",
+        "c66"
+      ]
+    },
+    {
+      "id": "water_soluble",
+      "heading": "জলে দ্রবণীয় ভিটামিন: B-কমপ্লেক্স ও C",
+      "quick": "B-কমপ্লেক্সে আছে থায়ামিন (B1), রাইবোফ্ল্যাভিন (B2), ফলিক অ্যাসিড, নিয়াসিন ও B12। B1-এর অভাবে বেরিবেরি, B2-এর অভাবে মুখের কোণে ঘা (কিলোসিস), B12-এর অভাবে পারনিসিয়াস রক্তাল্পতা; ভিটামিন C (অ্যাসকরবিক অ্যাসিড)-এর অভাবে স্কার্ভি।",
+      "standard": "**B-কমপ্লেক্স দল:** থায়ামিন (B1), রাইবোফ্ল্যাভিন (B2), ফলিক অ্যাসিড, নিয়াসিন ও ভিটামিন B12 এই দলের সদস্য; এরা সাধারণত একই খাবারে একসঙ্গে থাকে।\n\n- **ভিটামিন B1 (থায়ামিন, Thiamine):** উৎস — খামির (ঈস্ট), দুধ, সবুজ শাকসবজি ও শস্য। থায়ামিন শর্করার বিপাকে গুরুত্বপূর্ণ ভূমিকা নেয় — দেহকোষকে গ্লুকোজ ব্যবহার করে শক্তি ছাড়তে সাহায্য করে। অভাবে **বেরিবেরি** হয় (খিদে কমে যাওয়া, বৃদ্ধি ব্যাহত হওয়া)। মসৃণ করা (পালিশ করা) চালে B-কমপ্লেক্স, বিশেষ করে থায়ামিন, খুব কম থাকে।\n- **ভিটামিন B2 (রাইবোফ্ল্যাভিন, Riboflavin):** উৎস — দুধ, ডিমের সাদা অংশ, যকৃৎ ও কিডনি। অভাবে **কিলোসিস** হয় — মুখ ও ঠোঁটের কোণে ফাটল ধরে; সঙ্গে হজমের গণ্ডগোল ও ত্বকে জ্বালা হতে পারে।\n- **ভিটামিন B6 (পাইরিডক্সিন, Pyridoxine):** অভাবে খিঁচুনি (কনভালশন) হতে পারে।\n- **ফলিক অ্যাসিড:** রক্ত গঠনে গুরুত্বপূর্ণ ভূমিকা নেয়; লোহিত রক্তকণিকার সঠিক বিকাশের জন্য এটি দরকার।\n- **ভিটামিন B12 (কোবালামিন, Cobalamin):** শুধু প্রাণীজ খাবারেই থাকে — মাংস, মাছ, ডিম ও দই এর উৎস। অভাবে **পারনিসিয়াস রক্তাল্পতা** হয় (হিমোগ্লোবিন-ঘাটতিযুক্ত লোহিত কণিকা)। B12 এই দলের ব্যতিক্রম — এটি দেহে জমা থাকতে পারে।\n- **নিয়াসিন:** দেহে ট্রিপটোফ্যান নামের অ্যামিনো অ্যাসিড থেকেও তৈরি হতে পারে।\n\n**ভিটামিন C (অ্যাসকরবিক অ্যাসিড, Ascorbic Acid):** একে **'তাজা খাবারের ভিটামিন' (Fresh Food Vitamin)** বলে, কারণ তাজা ফল ও শাকসবজিই এর প্রধান উৎস। লেবুজাতীয় ফল, আমলকী ও সবুজ শাকসবজিতে এটি মেলে; আমলকী সবচেয়ে সস্তা উৎস এবং লেবুজাতীয় ফলের তুলনায় ২০ গুণ বা তার বেশি অ্যাসকরবিক অ্যাসিড দেয়। এটি ক্ষত সারাতে, আঘাত-সংক্রমণ সামলাতে এবং **লোহার শোষণে** সাহায্য করে। অভাবে **স্কার্ভি** হয় — মাড়ি থেকে রক্ত পড়ে। সাবধান: বেশি তাপে রান্নায় ভিটামিন C নষ্ট হয়ে যায়। অঙ্কুরোদ্গম ও গাঁজন (স্প্রাউটিং ও ফারমেন্টেশন) করলে শস্য-ডালের B-কমপ্লেক্স ও ভিটামিন C বেড়ে যায়।",
+      "deep": "১৭৪৬ সালের এক সমুদ্রযাত্রায় স্কটিশ চিকিৎসক জেমস লিন্ড লক্ষ করেন, যেসব নাবিক লেবু ও কমলা খেয়েছিল তারা স্কার্ভির উপসর্গ (মাড়ি ফুলে রক্ত পড়া) থেকে সেরে ওঠে। দীর্ঘ সমুদ্রযাত্রায় তাজা ফল না পাওয়ায় নাবিকদের মধ্যে স্কার্ভি ছিল ভয়ংকর সমস্যা — এই পর্যবেক্ষণই পুষ্টিবিজ্ঞানের ইতিহাসে মাইলফলক। ভিটামিন C-এর 'তাজা খাবার' নামটির পেছনেও এই যুক্তি: শুকনো শস্য-ডালে এটি প্রায় থাকে না, অঙ্কুর বেরোলেই তৈরি হয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "IDO ২০১৯-র প্রশ্ন",
+          "body": "'কোন ভিটামিনকে রাইবোফ্ল্যাভিন বলে?' — উত্তর ভিটামিন B2। রাসায়নিক নামের জোড়াগুলো (B1–থায়ামিন, B2–রাইবোফ্ল্যাভিন, B6–পাইরিডক্সিন, C–অ্যাসকরবিক অ্যাসিড) একসঙ্গে মুখস্থ করো।"
+        },
+        {
+          "kind": "remember",
+          "title": "রান্নায় সতর্কতা",
+          "body": "বেশি তাপে ভিটামিন C নষ্ট হয়; কেটে রাখা সবজি ধুলেও কিছু ভিটামিন চলে যায় — তবে খাওয়ার আগে ফল-সবজি ভালো করে ধোয়া অবশ্যই দরকার।"
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c15",
+        "c35",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c55",
+        "c56",
+        "c57",
+        "c58",
+        "c59",
+        "c60",
+        "c61",
+        "c62",
+        "c63",
+        "c64",
+        "c65"
+      ]
+    },
+    {
+      "id": "minerals_deficiency",
+      "heading": "খনিজ লবণ ও অভাবজনিত রোগ",
+      "quick": "ক্যালসিয়াম হাড়-দাঁতের জন্য, লোহা রক্তের জন্য, আয়োডিন থাইরয়েডের জন্য। অভাবে যথাক্রমে হাড়-দাঁতের ক্ষয়, রক্তাল্পতা ও গলগণ্ড হয়। ভিটামিন ও খনিজকে একসঙ্গে রক্ষাকারী পুষ্টি উপাদান বলে।",
+      "standard": "ভিটামিনের পাশাপাশি **খনিজ লবণ (Minerals)**-ও রক্ষাকারী পুষ্টি উপাদান — এরা দেহকে রোগ থেকে রক্ষা করে ও সুস্থ রাখে। এই অধ্যায়ের জন্য তিনটি খনিজ সবচেয়ে গুরুত্বপূর্ণ:\n\n**ক্যালসিয়াম:** হাড় ও দাঁত সুস্থ রাখে। উৎস — দুধ বা সয়া-দুধ, দই, পনির ও চিজ। অভাবে হাড় দুর্বল হয় ও দাঁতের ক্ষয় হয়। মনে রাখো, ভিটামিন D ক্যালসিয়াম ও ফসফরাসের শোষণ বাড়িয়ে হাড়ে জমা হতে সাহায্য করে — তাই হাড়ের প্রশ্নে D ও ক্যালসিয়াম জুটি বেঁধে আসে।\n\n**লোহা (আয়রন):** রক্তের গুরুত্বপূর্ণ উপাদান। উৎস — সবুজ শাকসবজি, বিট ও ডালিম। অভাবে **রক্তাল্পতা (Anaemia)** হয় — দুর্বলতা ও শ্বাসকষ্ট তার লক্ষণ। ভিটামিন C লোহার শোষণে সাহায্য করে, তাই লোহা-সমৃদ্ধ খাবারের সঙ্গে ভিটামিন C-যুক্ত খাবার খাওয়া উপকারী।\n\n**আয়োডিন:** শারীরিক ও মানসিক কাজকর্মের জন্য দরকার। ১৯৬০-এর দশকে ভারতীয় বিজ্ঞানীরা হিমালয় অঞ্চল ও উত্তর ভারতের সমভূমিতে গলার সামনের দিকে ফোলা (**গলগণ্ড, Goitre**) ব্যাপক হারে দেখেন — কারণ ছিল ওই অঞ্চলের মাটি, খাবার ও জলে আয়োডিনের অভাব। খাদ্যে আয়োডিন কম থাকলে হাইপোথাইরয়েডিজম হতে পারে ও থাইরয়েড গ্রন্থি বড় হয়ে যেতে পারে। প্রতিকার হিসেবে সাধারণ লবণে আয়োডিনের লবণ মিশিয়ে **আয়োডিনযুক্ত লবণ** চালু করা হয়।\n\n**অভাবজনিত রোগের ছক (এক নজরে):** ভিটামিন A — রাতকানা; B1 — বেরিবেরি; C — স্কার্ভি; D — রিকেট; ক্যালসিয়াম — হাড় ও দাঁতের ক্ষয়; আয়োডিন — গলগণ্ড; লোহা — রক্তাল্পতা।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "দুই রক্তাল্পতা আলাদা",
+          "body": "লোহার অভাবে সাধারণ রক্তাল্পতা (দুর্বলতা, শ্বাসকষ্ট); ভিটামিন B12-এর অভাবে পারনিসিয়াস রক্তাল্পতা — দুটোর কারণ আলাদা, পরীক্ষায় গুলিয়ে ফেলো না।"
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c13",
+        "c27",
+        "c30",
+        "c31",
+        "c46",
+        "c63"
+      ]
+    },
+    {
+      "id": "balanced_diet",
+      "heading": "সুষম খাদ্য, আঁশ, জল ও অপুষ্টি",
+      "quick": "যে খাদ্যে সব অপরিহার্য পুষ্টি উপাদান, আঁশ ও জল সঠিক পরিমাণে থাকে, তাকে সুষম খাদ্য বলে। আঁশ (রাফেজ) হজমে সাহায্য করে, জল পুষ্টি শোষণে লাগে। জাঙ্ক ফুডে ক্যালোরি বেশি কিন্তু পুষ্টি কম।",
+      "standard": "**সুষম খাদ্য (Balanced Diet):** যে খাদ্যে দেহের সঠিক বৃদ্ধি ও বিকাশের জন্য সব অপরিহার্য পুষ্টি উপাদান, আঁশ ও জল সঠিক পরিমাণে থাকে, তাকে সুষম খাদ্য বলে। পুষ্টির ধরন ও পরিমাণের প্রয়োজন বয়স, লিঙ্গ, শারীরিক পরিশ্রম, স্বাস্থ্য ও জীবনযাত্রা অনুযায়ী বদলায় — শিশু ও তার দাদু-ঠাকুমার প্রয়োজন এক নয়।\n\n**আঁশ বা রাফেজ (Roughage):** খাদ্যের আঁশ নিজে কোনো পুষ্টি দেয় না, তবু এটি খাদ্যের অপরিহার্য অংশ — অপাচ্য খাবার বের করে দিতে ও মলত্যাগ সহজ করতে সাহায্য করে। সবুজ শাকসবজি, তাজা ফল, গোটা শস্য, ডাল ও বাদাম আঁশের ভালো উৎস।\n\n**জল:** জলও খাদ্যের অপরিহার্য অংশ — খাবার থেকে পুষ্টি শোষণে সাহায্য করে এবং ঘাম ও মূত্রের মাধ্যমে বর্জ্য বের করে দেয়।\n\n**মিলেট বা পুষ্টিশস্য:** জোয়ার, বাজরা, রাগি প্রভৃতি মিলেটে ভিটামিন, লোহা-ক্যালসিয়ামের মতো খনিজ ও আঁশ ভালো পরিমাণে থাকে বলে এদের **পুষ্টিশস্য (Nutri-cereals)** বলা হয়।\n\n**জাঙ্ক ফুডের ফাঁদ:** আলুর ওয়েফার, ক্যান্ডি বার ও কার্বনেটেড পানীয়ে চিনি-চর্বি থেকে ক্যালোরি বেশি, কিন্তু প্রোটিন, খনিজ, ভিটামিন ও আঁশ খুব কম — এগুলোই জাঙ্ক ফুড। ঘন ঘন খেলে স্থূলতা ও নানা স্বাস্থ্য সমস্যা হয়।\n\n**অপুষ্টি ও ভারত:** পুষ্টিবিজ্ঞানী **কলুথুর গোপালন** ভারতে পুষ্টি গবেষণার সূচনা করেন; তিনি ৫০০-র বেশি ভারতীয় খাবারের পুষ্টিগুণ বিশ্লেষণ করেন। তাঁর সমীক্ষায় জনসংখ্যার মধ্যে প্রোটিন, শক্তি ও অন্যান্য উপাদানের ব্যাপক ঘাটতি ধরা পড়ে — যার ধারাবাহিকতায় ২০০২ সালে স্কুলে **মিড ডে মিল** কর্মসূচি (বর্তমানে PM POSHAN) চালু হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "ভাত-কেন্দ্রিক খাদ্য ও থায়ামিন",
+          "body": "পশ্চিমবঙ্গের প্রধান খাদ্য ভাত। পালিশ করা চালে থায়ামিন খুব কম থাকে — তাই ডাল, শাকসবজি ও অন্যান্য পদ দিয়ে ভাতের থালি সাজানো শুধু স্বাদের নয়, পুষ্টিরও প্রয়োজন।"
+        }
+      ],
+      "claims": [
+        "c17",
+        "c18",
+        "c19",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c57"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "জেমস লিন্ডের পর্যবেক্ষণ",
+      "when": "১৭৪৬",
+      "what": "এক সমুদ্রযাত্রায় স্কটিশ চিকিৎসক জেমস লিন্ড দেখেন, লেবু ও কমলা খাওয়া নাবিকরা স্কার্ভির উপসর্গ থেকে সেরে ওঠে।",
+      "why_it_matters": "এটিই ভিটামিন C ও স্কার্ভির সম্পর্কের প্রথম দিকের প্রমাণ — পুষ্টিবিজ্ঞানের ভিত্তি।",
+      "section": "water_soluble",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "title": "গলগণ্ড সমীক্ষা ও আয়োডিনযুক্ত লবণ",
+      "when": "১৯৬০-এর দশক",
+      "what": "ভারতীয় বিজ্ঞানীরা হিমালয় অঞ্চল ও উত্তর ভারতের সমভূমিতে গলার সামনে ফোলা (গলগণ্ড) ব্যাপক হারে খুঁজে পান; কারণ ছিল মাটি ও খাবারে আয়োডিনের অভাব।",
+      "why_it_matters": "এরপর সাধারণ লবণে আয়োডিন মেশানোর কর্মসূচি চালু হয় এবং উপসর্গ দৃশ্যত কমে যায়।",
+      "section": "minerals_deficiency",
+      "claims": [
+        "c27",
+        "c10"
+      ]
+    },
+    {
+      "title": "মিড ডে মিল কর্মসূচি চালু",
+      "when": "২০০২",
+      "what": "গোপালনের সমীক্ষায় ধরা পড়া প্রোটিন-শক্তির ঘাটতির ধারাবাহিকতায় সরকারি ও সরকার-সাহায্যপ্রাপ্ত স্কুলে সুষম খাবার দেওয়ার মিড ডে মিল কর্মসূচি (বর্তমানে PM POSHAN) চালু হয়।",
+      "why_it_matters": "ভারতের কোটি কোটি শিশুর স্বাস্থ্য ও পুষ্টি উন্নত করতে এই কর্মসূচি ভূমিকা রেখেছে।",
+      "section": "balanced_diet",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "জেমস লিন্ড",
+      "when": "১৭৪৬",
+      "role": "স্কটিশ চিকিৎসক",
+      "contribution": "সমুদ্রযাত্রায় লক্ষ করেন লেবু ও কমলা খেলে নাবিকদের স্কার্ভি (মাড়ি ফুলে রক্ত পড়া) সেরে যায়।",
+      "section": "water_soluble",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "name": "কলুথুর গোপালন",
+      "when": "১৯১৮–২০১৯",
+      "role": "পুষ্টিবিজ্ঞানী",
+      "contribution": "ভারতে পুষ্টি গবেষণার সূচনা করেন; ৫০০-র বেশি ভারতীয় খাবারের পুষ্টিগুণ বিশ্লেষণ করে ভারতীয় প্রেক্ষাপটে উপযুক্ত খাদ্যের সুপারিশ করেন।",
+      "section": "balanced_diet",
+      "claims": [
+        "c23"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1746,
+      "when": "১৭৪৬",
+      "label": "জেমস লিন্ডের স্কার্ভি পর্যবেক্ষণ — লেবু ও কমলায় নাবিকদের আরোগ্য",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "sort_year": 1960,
+      "when": "১৯৬০-এর দশক",
+      "label": "হিমালয় অঞ্চলে গলগণ্ড সমীক্ষা — আয়োডিন-অভাব চিহ্নিত",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "sort_year": 2002,
+      "when": "২০০২",
+      "label": "মিড ডে মিল কর্মসূচি চালু (বর্তমানে PM POSHAN)",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "পুষ্টি উপাদান (Nutrient)",
+      "meaning": "খাবারের যেসব উপাদান শক্তি দেয়, বৃদ্ধি ও মেরামতে সাহায্য করে, রোগ থেকে রক্ষা করে ও দেহের কাজ চালু রাখে",
+      "section": "nutrients_basics"
+    },
+    {
+      "term": "রক্ষাকারী পুষ্টি উপাদান (Protective Nutrients)",
+      "meaning": "ভিটামিন ও খনিজ — দেহকে রোগ থেকে রক্ষা করে সুস্থ রাখে",
+      "section": "minerals_deficiency"
+    },
+    {
+      "term": "রেটিনল (Retinol)",
+      "meaning": "ভিটামিন A-এর রাসায়নিক নাম; শুধু প্রাণীজ খাবারে থাকে",
+      "section": "fat_soluble"
+    },
+    {
+      "term": "বিটা-ক্যারোটিন (Beta Carotene)",
+      "meaning": "উদ্ভিদখাবারের কমলা-হলুদ রঞ্জক, যা দেহে রেটিনলে রূপান্তরিত হতে পারে",
+      "section": "fat_soluble"
+    },
+    {
+      "term": "রোদের ভিটামিন (Sunshine Vitamin)",
+      "meaning": "ভিটামিন D — রোদের সংস্পর্শে ত্বকে তৈরি হয় বলে এই নাম",
+      "section": "fat_soluble"
+    },
+    {
+      "term": "প্রোথ্রমবিন (Prothrombin)",
+      "meaning": "রক্ত জমাট বাঁধার জন্য অপরিহার্য প্রোটিন; ভিটামিন K এর গঠনে সাহায্য করে",
+      "section": "fat_soluble"
+    },
+    {
+      "term": "অ্যাসকরবিক অ্যাসিড (Ascorbic Acid)",
+      "meaning": "ভিটামিন C-এর রাসায়নিক নাম; তাজা ফল ও শাকসবজিতে মেলে",
+      "section": "water_soluble"
+    },
+    {
+      "term": "রাফেজ (Roughage)",
+      "meaning": "খাদ্যের আঁশ — পুষ্টি দেয় না, কিন্তু অপাচ্য খাবার বের করে দিতে সাহায্য করে",
+      "section": "balanced_diet"
+    },
+    {
+      "term": "সুষম খাদ্য (Balanced Diet)",
+      "meaning": "সব অপরিহার্য পুষ্টি উপাদান, আঁশ ও জল সঠিক পরিমাণে থাকা খাদ্য",
+      "section": "balanced_diet"
+    },
+    {
+      "term": "পুষ্টিশস্য (Nutri-cereals)",
+      "meaning": "জোয়ার, বাজরা, রাগি প্রভৃতি মিলেট — ভিটামিন, খনিজ ও আঁশে সমৃদ্ধ শস্য",
+      "section": "balanced_diet"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "আয়োডিনের অভাব থেকে গলগণ্ড, প্রতিকার আয়োডিনযুক্ত লবণ",
+      "causes": [
+        "মাটিতে আয়োডিনের অভাব",
+        "স্থানীয় খাবার ও পানীয় জলে আয়োডিন কম থাকা"
+      ],
+      "event": "গলার সামনের দিকে ফোলা — গলগণ্ড রোগের ব্যাপক প্রকোপ",
+      "results": [
+        "সাধারণ লবণে আয়োডিন মিশিয়ে আয়োডিনযুক্ত লবণ চালু",
+        "উপসর্গ দৃশ্যত কমে যাওয়া"
+      ],
+      "section": "minerals_deficiency",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "title": "ভিটামিন C-এর অভাব থেকে স্কার্ভি",
+      "causes": [
+        "দীর্ঘ যাত্রায় তাজা ফল-সবজি না পাওয়া",
+        "খাদ্যে ভিটামিন C-এর অভাব"
+      ],
+      "event": "নাবিকদের মাড়ি ফুলে যাওয়া ও রক্ত পড়া — স্কার্ভি",
+      "results": [
+        "লেবু ও কমলা খেলে উপসর্গ সেরে যাওয়া (লিন্ডের পর্যবেক্ষণ, ১৭৪৬)"
+      ],
+      "section": "water_soluble",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "অভাবজনিত রোগের ছক: A–রাতকানা, B1–বেরিবেরি, C–স্কার্ভি, D–রিকেট, আয়োডিন–গলগণ্ড, লোহা–রক্তাল্পতা",
+      "section": "minerals_deficiency"
+    },
+    {
+      "point": "রাসায়নিক নাম: A–রেটিনল, B1–থায়ামিন, B2–রাইবোফ্ল্যাভিন, B6–পাইরিডক্সিন, B12–কোবালামিন, C–অ্যাসকরবিক অ্যাসিড",
+      "section": "water_soluble"
+    },
+    {
+      "point": "চর্বিতে দ্রবণীয় (A, D, E, K) বনাম জলে দ্রবণীয় (B-দল, C); B12 একমাত্র জমা-থাকা জলে দ্রবণীয়",
+      "section": "vitamins_intro"
+    },
+    {
+      "point": "রক্ত জমাট বাঁধা = ভিটামিন K ও প্রোথ্রমবিন (WBCS ২০২২)",
+      "section": "fat_soluble"
+    },
+    {
+      "point": "শিশুদের রিকেট বনাম বড়দের অস্টিওম্যালেশিয়া — দুটোই ভিটামিন D (WBCS ২০১৮)",
+      "section": "fat_soluble"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের খাদ্যের প্রাণ ভাত — আর পালিশ করা চালে B-কমপ্লেক্স ভিটামিন, বিশেষ করে থায়ামিন, খুব কম থাকে। ঐতিহ্যবাহী বাঙালি থালিতে ডাল, শাক, সবজি ও মাছ থাকায় এই ঘাটতি অনেকটাই পূরণ হয়: ডাল-শাক প্রোটিন ও B-ভিটামিন দেয়, মাছ প্রোটিনের প্রাণী-উৎস, আর টক ফল (লেবু, আমলকী জাতীয়) ভিটামিন C জোগায় ও লোহার শোষণে সাহায্য করে। অর্থাৎ ঐতিহ্যের থালিটাই আসলে সুষম খাদ্যের কাছাকাছি — শুধু ভাতের ওপর নির্ভর করলেই পুষ্টির ঘাটতি দেখা দেয়।",
+    "claims": [
+      "c57",
+      "c07",
+      "c63"
+    ]
+  },
+  "quick_revision": [
+    "প্রধান পুষ্টি উপাদান পাঁচটি: শর্করা, প্রোটিন, চর্বি, ভিটামিন, খনিজ",
+    "শর্করা + চর্বি = শক্তিদায়ক; প্রোটিন = দেহগঠনকারী; ভিটামিন + খনিজ = রক্ষাকারী",
+    "চর্বিতে দ্রবণীয় ভিটামিন: A, D, E, K — যকৃৎ ও চর্বি-কলায় জমা থাকে",
+    "জলে দ্রবণীয় ভিটামিন: B-দল ও C — নিয়মিত খেতে হয়; ব্যতিক্রম B12 (জমা থাকে)",
+    "ভিটামিন A (রেটিনল) — অভাবে রাতকানা ও জেরোফথ্যালমিয়া",
+    "ভিটামিন D (রোদের ভিটামিন) — শিশুদের রিকেট, বড়দের অস্টিওম্যালেশিয়া",
+    "ভিটামিন K — প্রোথ্রমবিন তৈরি ও রক্ত জমাট বাঁধা; অভাবে জমাট বাঁধতে দেরি",
+    "ভিটামিন B1 (থায়ামিন) — বেরিবেরি; B2 (রাইবোফ্ল্যাভিন) — কিলোসিস; B12 (কোবালামিন) — পারনিসিয়াস রক্তাল্পতা",
+    "ভিটামিন C (অ্যাসকরবিক অ্যাসিড) — স্কার্ভি; আমলকী সবচেয়ে সস্তা উৎস; লোহার শোষণে সাহায্য করে",
+    "ক্যালসিয়াম — হাড় ও দাঁত; লোহা — রক্ত (অভাবে রক্তাল্পতা); আয়োডিন — অভাবে গলগণ্ড",
+    "সুষম খাদ্য = সব পুষ্টি উপাদান + আঁশ + জল সঠিক পরিমাণে",
+    "মিলেট (জোয়ার, বাজরা, রাগি) = পুষ্টিশস্য; জাঙ্ক ফুডে ক্যালোরি বেশি, পুষ্টি কম"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Curiosity: Textbook of Science, Grade 6, Chapter 3: Mindful Eating: A Path to a Healthy Body",
+      "class": "VI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/fecu103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Chemistry Part II, Class XII, Unit 10: Biomolecules (Section 10.4 Vitamins, Table 10.3)",
+      "class": "XII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/lech205.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "IGNOU Nutrition course, Unit 16: The Micronutrients I — Vitamins (eGyanKosh)",
+      "class": "UG",
+      "publisher": "IGNOU",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/118038/1/Unit-16.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Glucose provides instant energy and is a carbohydrate; carbohydrates are a primary source of energy in the diet.",
+      "source": "s1",
+      "page": "p. 39",
+      "quote": "Glucose provides instant energy. Glucose is an example of a carbohydrate. Carbohydrates are one of the primary sources of energy in our diet."
+    },
+    {
+      "id": "c02",
+      "claim": "Cereals like wheat, rice and maize, vegetables like potato and sweet potato, and fruits like banana, pineapple and mango are sources of carbohydrates.",
+      "source": "s1",
+      "page": "p. 39",
+      "quote": "Cereals like wheat, rice, and maize, vegetables like potato and sweet potato, and fruits like banana, pineapple, and mango are some sources of carbohydrates"
+    },
+    {
+      "id": "c03",
+      "claim": "Fat is a source of stored energy.",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "Fat is a source of stored energy."
+    },
+    {
+      "id": "c04",
+      "claim": "Carbohydrates and fats are called energy-giving foods.",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "Carbohydrates and fats provide us energy for performing various activities. Therefore, they are called energygiving foods."
+    },
+    {
+      "id": "c05",
+      "claim": "Milk products and pulses are good sources of protein.",
+      "source": "s1",
+      "page": "p. 41",
+      "quote": "Milk products and pulses are good sources of protein."
+    },
+    {
+      "id": "c06",
+      "claim": "Protein-rich foods help in growth and repair of the body and are called body-building foods.",
+      "source": "s1",
+      "page": "p. 41",
+      "quote": "Proteinrich foods help in growth and repair of our body. These are, therefore, called bodybuilding foods."
+    },
+    {
+      "id": "c07",
+      "claim": "Plant sources of protein include pulses, beans, peas and nuts; animal sources are milk, paneer, egg, fish and meat.",
+      "source": "s1",
+      "page": "p. 41",
+      "quote": "Some excellent plant sources of protein are pulses, beans, peas and nuts (Fig. 3.4a). Animal sources of protein are milk, paneer, egg, fish and meat (Fig. 3.4b)."
+    },
+    {
+      "id": "c08",
+      "claim": "Scurvy is caused by deficiency of Vitamin C; vitamin C in citrus fruits like lemons and oranges helps cure it.",
+      "source": "s1",
+      "page": "p. 42",
+      "quote": "Scurvy is caused due to deficiency of Vitamin C. Vitamin C present in citrus fruits like lemons and oranges helps in curing this disease."
+    },
+    {
+      "id": "c09",
+      "claim": "In 1746 James Lind observed sailors who consumed lemons and oranges recovered; bleeding and swollen gums are symptoms of scurvy.",
+      "source": "s1",
+      "page": "p. 42",
+      "quote": "During a voyage in 1746, Scottish physician James Lind observed that sailors who consumed lemons and oranges recovered from these symptoms. Bleeding and swollen gums are symptoms of a disease called scurvy."
+    },
+    {
+      "id": "c10",
+      "claim": "Goitre (swelling at the front of the neck) is due to deficiency of iodine in food and water.",
+      "source": "s1",
+      "page": "p. 42",
+      "quote": "These symptoms were due to a deficiency of iodine in the soil of this region resulting in a lack of iodine in the local food and water supply. Swelling at the front of the neck is a symptom of a disease called goitre."
+    },
+    {
+      "id": "c11",
+      "claim": "Iodised salt is common salt mixed with required quantities of salts of iodine.",
+      "source": "s1",
+      "page": "p. 43",
+      "quote": "Iodised salt is simply common salt mixed with required quantities of salts of iodine."
+    },
+    {
+      "id": "c12",
+      "claim": "Nutrients are food components that provide energy, support growth, help repair and protect the body; the major nutrients are carbohydrates, proteins, fats, vitamins and minerals.",
+      "source": "s1",
+      "page": "p. 45",
+      "quote": "Food components that provide energy, support growth, help repair and protect our body from diseases, and maintain various bodily functions are called nutrients. The major nutrients in our food include carbohydrates, proteins, fats, vitamins and minerals."
+    },
+    {
+      "id": "c13",
+      "claim": "Vitamins and minerals are called protective nutrients.",
+      "source": "s1",
+      "page": "p. 45",
+      "quote": "Vitamins and minerals are also called protective nutrients. These nutrients protect our body from diseases and keep us healthy."
+    },
+    {
+      "id": "c14",
+      "claim": "Although vitamins and minerals are required in small amounts, they are essential to keep the body healthy.",
+      "source": "s1",
+      "page": "p. 45",
+      "quote": "Although vitamins and minerals are required in small amounts, they are essential to keep our body healthy."
+    },
+    {
+      "id": "c15",
+      "claim": "Some nutrients like vitamin C are lost during cooking due to high heat.",
+      "source": "s1",
+      "page": "p. 45",
+      "quote": "Some nutrients like vitamin C and others are lost during cooking due to high heat."
+    },
+    {
+      "id": "c16",
+      "claim": "Vitamin D can be naturally produced by the body upon exposure to sunlight.",
+      "source": "s1",
+      "page": "p. 46",
+      "quote": "Also, Vitamin D can be naturally produced by our body upon exposure to sunlight."
+    },
+    {
+      "id": "c17",
+      "claim": "Dietary fibres (roughage) do not provide nutrients but help the body get rid of undigested food and ensure smooth passage of stools.",
+      "source": "s1",
+      "page": "p. 46",
+      "quote": "Dietary fibres, also known as roughage, do not provide any nutrients to our body. However, they are an essential component of our food. They help our body get rid of undigested food and ensure smooth passage of stools."
+    },
+    {
+      "id": "c18",
+      "claim": "Water is an essential part of the diet and helps the body absorb nutrients from food.",
+      "source": "s1",
+      "page": "p. 47",
+      "quote": "Water is also an essential part of our diet. It helps the body absorb nutrients from food."
+    },
+    {
+      "id": "c19",
+      "claim": "A balanced diet has all essential nutrients, roughage and water in the right amount for proper growth and development.",
+      "source": "s1",
+      "page": "p. 50",
+      "quote": "A diet that has all essential nutrients, roughage, and water in the right amount for proper growth and development of the body is known as a balanced diet."
+    },
+    {
+      "id": "c20",
+      "claim": "A blue-black colour with iodine indicates the presence of starch.",
+      "source": "s1",
+      "page": "p. 48",
+      "quote": "A blueblack colour indicates the presence of starch."
+    },
+    {
+      "id": "c21",
+      "claim": "A violet colour in the copper sulphate and caustic soda test indicates the presence of proteins.",
+      "source": "s1",
+      "page": "p. 50",
+      "quote": "This violet colour indicates the presence of proteins in the food item."
+    },
+    {
+      "id": "c22",
+      "claim": "An oily patch on paper shows that the food item contains fat.",
+      "source": "s1",
+      "page": "p. 49",
+      "quote": "An oily patch on the paper shows that the food item contains fat."
+    },
+    {
+      "id": "c23",
+      "claim": "Coluthur Gopalan initiated nutrition research in India and analysed more than 500 Indian foods for their nutritional value.",
+      "source": "s1",
+      "page": "p. 47",
+      "quote": "Coluthur Gopalan (1918–2019) initiated nutrition research in India. He analysed more than 500 Indian foods for their nutritional value and recommended an appropriate diet in the Indian context."
+    },
+    {
+      "id": "c24",
+      "claim": "Gopalan's surveys identified widespread deficiencies in protein, energy and other food components, leading to the Mid Day Meal Programme in 2002, now PM POSHAN.",
+      "source": "s1",
+      "page": "p. 47",
+      "quote": "He led surveys on the nutritional status of the Indian population, identifying widespread deficiencies in protein, energy, and other food components. This led to the implementation of the Mid Day Meal Programme in 2002, now a ‘PM POSHAN’ initiative,"
+    },
+    {
+      "id": "c25",
+      "claim": "Millets are good sources of vitamins, minerals like iron and calcium, and dietary fibres, and are called nutri-cereals.",
+      "source": "s1",
+      "page": "p. 52",
+      "quote": "They are good sources of vitamins, minerals like iron and calcium, and dietary fibres as well. That is the reason they are also called nutricereals."
+    },
+    {
+      "id": "c26",
+      "claim": "Junk foods have high calories from sugar and fat but very low proteins, minerals, vitamins and dietary fibres; examples are potato wafers, candy bars and carbonated drinks.",
+      "source": "s1",
+      "page": "p. 52",
+      "quote": "Some foods have high calories due to high sugar and fat content. Moreover, they contain very low amounts of proteins, minerals, vitamins, and dietary fibres. These foods include potato wafers, candy bars and carbonated drinks."
+    },
+    {
+      "id": "c27",
+      "claim": "In the 1960s Indian scientists found swelling at the front of the neck prevalent in the Himalayan region and the Northern plains of India.",
+      "source": "s1",
+      "page": "p. 42",
+      "quote": "In the 1960s, Indian scientists found that among the human population in the Himalayan region and the Northern plains of India, symptoms of swelling at the front of the neck were prevalent."
+    },
+    {
+      "id": "c28",
+      "claim": "Vitamin A keeps eyes and skin healthy; its sources include papaya, carrot, mango and milk (Class VI chart).",
+      "source": "s1",
+      "page": "p. 44 (Fig. 3.5)",
+      "quote": "Papaya, carrot, mango, milk"
+    },
+    {
+      "id": "c29",
+      "claim": "Deficiency of vitamin A causes poor vision and loss of vision in darkness (night blindness), sometimes complete loss of vision.",
+      "source": "s1",
+      "page": "p. 44 (Fig. 3.5)",
+      "quote": "Poor vision, loss of vision in darkness (night blindness), sometimes complete loss of vision"
+    },
+    {
+      "id": "c30",
+      "claim": "Calcium keeps bones and teeth healthy; sources are milk/soya milk, curd, cheese and paneer; deficiency causes weak bones and tooth decay.",
+      "source": "s1",
+      "page": "p. 44 (Fig. 3.5)",
+      "quote": "Milk/soya milk, curd, cheese, paneer"
+    },
+    {
+      "id": "c31",
+      "claim": "Iron is an important component of blood; sources include green leafy vegetables, beetroot and pomegranate; deficiency causes anaemia.",
+      "source": "s1",
+      "page": "p. 44 (Fig. 3.5)",
+      "quote": "Green leafy vegetables, beetroot, pomegranate"
+    },
+    {
+      "id": "c32",
+      "claim": "Vitamins are organic compounds required in small amounts in the diet whose deficiency causes specific diseases.",
+      "source": "s2",
+      "page": "p. 295",
+      "quote": "It has been observed that certain organic compounds are required in small amounts in our diet but their deficiency causes specific diseases. These compounds are called vitamins."
+    },
+    {
+      "id": "c33",
+      "claim": "Most vitamins cannot be synthesised in our body but plants can synthesise almost all of them, so they are essential food factors.",
+      "source": "s2",
+      "page": "p. 295",
+      "quote": "Most of the vitamins cannot be synthesised in our body but plants can synthesise almost all of them, so they are considered as essential food factors."
+    },
+    {
+      "id": "c34",
+      "claim": "Fat-soluble vitamins are A, D, E and K; they are stored in liver and adipose (fat-storing) tissues.",
+      "source": "s2",
+      "page": "p. 295",
+      "quote": "These are vitamins A, D, E and K. They are stored in liver and adipose (fat storing) tissues."
+    },
+    {
+      "id": "c35",
+      "claim": "B-group vitamins and vitamin C are water-soluble; they must be supplied regularly because they are readily excreted in urine and cannot be stored, except vitamin B12.",
+      "source": "s2",
+      "page": "p. 295",
+      "quote": "B group vitamins and vitamin C are soluble in water so they are grouped together. Water soluble vitamins must be supplied regularly in diet because they are readily excreted in urine and cannot be stored (except vitamin B12) in our body."
+    },
+    {
+      "id": "c36",
+      "claim": "Excess of vitamins is also harmful and vitamin pills should not be taken without a doctor's advice.",
+      "source": "s2",
+      "page": "p. 295",
+      "quote": "Excess of vitamins is also harmful and vitamin pills should not be taken without the advice of doctor."
+    },
+    {
+      "id": "c37",
+      "claim": "Vitamin A sources are fish liver oil, carrots, butter and milk; deficiency causes xerophthalmia (hardening of cornea) and night blindness.",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Fish liver oil, carrots, butter and milk"
+    },
+    {
+      "id": "c38",
+      "claim": "Vitamin B1 is thiamine; sources are yeast, milk, green vegetables and cereals; deficiency causes beri beri (loss of appetite, retarded growth).",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Yeast, milk, green vegetables and cereals"
+    },
+    {
+      "id": "c39",
+      "claim": "Vitamin B2 is riboflavin; sources are milk, egg white, liver and kidney; deficiency causes cheilosis (fissuring at corners of mouth and lips).",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Milk, eggwhite, liver, kidney"
+    },
+    {
+      "id": "c40",
+      "claim": "Vitamin B6 is pyridoxine; its deficiency causes convulsions.",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Convulsions"
+    },
+    {
+      "id": "c41",
+      "claim": "Vitamin B12 sources are meat, fish, egg and curd; deficiency causes pernicious anaemia (RBC deficient in haemoglobin).",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Meat, fish, egg and curd"
+    },
+    {
+      "id": "c42",
+      "claim": "Vitamin C is ascorbic acid; sources are citrus fruits, amla and green leafy vegetables; deficiency causes scurvy (bleeding gums).",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Citrus fruits, amla and green leafy vegetables"
+    },
+    {
+      "id": "c43",
+      "claim": "Vitamin D sources are exposure to sunlight, fish and egg yolk; deficiency causes rickets in children and osteomalacia in adults.",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Exposure to sunlight, fish and egg yolk"
+    },
+    {
+      "id": "c44",
+      "claim": "Vitamin E sources are vegetable oils like wheat germ oil and sunflower oil; deficiency causes increased fragility of RBCs and muscular weakness.",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Vegetable oils like wheat germ oil, sunflower oil, etc."
+    },
+    {
+      "id": "c45",
+      "claim": "Vitamin K source is green leafy vegetables; deficiency causes increased blood clotting time.",
+      "source": "s2",
+      "page": "p. 296 (Table 10.3)",
+      "quote": "Green leafy vegetables"
+    },
+    {
+      "id": "c46",
+      "claim": "Low level of iodine in the diet may lead to hypothyroidism and enlargement of the thyroid gland, controlled by iodised salt.",
+      "source": "s2",
+      "page": "p. 300",
+      "quote": "Low level of iodine in the diet may lead to hypothyroidism and enlargement of the thyroid gland. This condition is largely being controlled by adding sodium iodide to commercial table salt (“Iodised” salt)."
+    },
+    {
+      "id": "c47",
+      "claim": "Vitamin A or retinol is found only in foods of animal origin; milk, butter, ghee, egg, fish and liver are rich sources.",
+      "source": "s3",
+      "page": "Unit 16, p. 286",
+      "quote": "Vitamin A or retinol is found only in the foods of animal origin. Animal foods like milk, butter, ghee, egg, fish and liver are rich sources of vitamin A."
+    },
+    {
+      "id": "c48",
+      "claim": "Plant foods do not contain retinol; they contain carotenoids (e.g. beta carotene) which can be converted to retinol in the body.",
+      "source": "s3",
+      "page": "Unit 16, p. 286",
+      "quote": "Plant foods do not contain retinol. They contain certain orange or yellow coloured pigments called carotenoids which can be converted to retinol in the body."
+    },
+    {
+      "id": "c49",
+      "claim": "Lack of vitamin A results in inability to see in dim light, a condition called night blindness.",
+      "source": "s3",
+      "page": "Unit 16, p. 287",
+      "quote": "If there is lack of Vitamin A in our body it results in our inability to see in dim light – a condition called night blindness."
+    },
+    {
+      "id": "c50",
+      "claim": "Vitamin D is called the sunshine vitamin because it is manufactured from a substance present in the skin on exposure to sunlight.",
+      "source": "s3",
+      "page": "Unit 16, p. 287",
+      "quote": "Vitamin D is also called the “sunshine vitamin”. This is because it is manufactured from a substance present in our skin on exposure to sunlight."
+    },
+    {
+      "id": "c51",
+      "claim": "Minerals like calcium and phosphorus, when deposited in the bones, make them strong and hard; this deposition is called mineralization of bones.",
+      "source": "s3",
+      "page": "Unit 16, p. 287",
+      "quote": "Minerals like calcium and phosphorus, when deposited in the bones, make them strong and hard. The process of deposition of minerals in the bones is termed as mineralization of bones."
+    },
+    {
+      "id": "c52",
+      "claim": "Vitamin K plays an important role in clotting of blood and is called the anti-bleeding vitamin.",
+      "source": "s3",
+      "page": "Unit 16, p. 288",
+      "quote": "Vitamin K plays an important role in clotting of blood and is therefore also termed as the “anti-bleeding vitamin” (one which prevents uncontrolled bleeding)."
+    },
+    {
+      "id": "c53",
+      "claim": "Vitamin K is also manufactured by certain helpful bacteria normally present in the small intestine.",
+      "source": "s3",
+      "page": "Unit 16, p. 288",
+      "quote": "Vitamin K is also manufactured by certain helpful bacteria which are normally present in the small intestine."
+    },
+    {
+      "id": "c54",
+      "claim": "The main role of vitamin E is to protect substances like certain fatty acids and vitamins A and C from destruction in the body and in foods.",
+      "source": "s3",
+      "page": "Unit 16, p. 288",
+      "quote": "The main role of Vitamin E in our body is the protection it gives to other substances like certain fatty acids, Vitamins A and C. It prevents their destruction in the body as well as in foods."
+    },
+    {
+      "id": "c55",
+      "claim": "B-complex group includes thiamin (B1), riboflavin (B2), folic acid, niacin and vitamin B12.",
+      "source": "s3",
+      "page": "Unit 16, p. 289",
+      "quote": "Vitaminsof the B-complex group include: thiamin (B1), riboflavin (B2), folic acid, niacin and Vitamin B12."
+    },
+    {
+      "id": "c56",
+      "claim": "Thiamin plays an important role in the metabolism of carbohydrates; it helps body cells utilise glucose to release energy.",
+      "source": "s3",
+      "page": "Unit 16, p. 291",
+      "quote": "Thiamin plays an important role in the metabolism of carbohydrates. It helps the body cells to utilize glucose in order to release energy."
+    },
+    {
+      "id": "c57",
+      "claim": "Polished rice is very poor in B-complex vitamins, thiamin in particular.",
+      "source": "s3",
+      "page": "Unit 16, p. 290",
+      "quote": "Polished rice is very poor in B-complex vitamins, thiamin in particular."
+    },
+    {
+      "id": "c58",
+      "claim": "Folic acid plays an important role in blood formation and is important for the proper development of red blood cells.",
+      "source": "s3",
+      "page": "Unit 16, p. 292",
+      "quote": "Folic acid plays an important role in blood formation. You may be aware that blood has three kinds of cells — red blood cells, white blood cells and platelets — suspended in a fluid called plasma. Specifically, folic acid is important for the proper development of red blood cells."
+    },
+    {
+      "id": "c59",
+      "claim": "Vitamin B12 or cobalamin is present only in foods of animal origin.",
+      "source": "s3",
+      "page": "Unit 16, p. 292",
+      "quote": "Vitamin B12 or cobalamin is present only in the foods of animal origin."
+    },
+    {
+      "id": "c60",
+      "claim": "Vitamin B12 is an exceptional B-complex member because it can be stored in the body like the fat-soluble vitamins.",
+      "source": "s3",
+      "page": "Unit 16, p. 292",
+      "quote": "It is an exceptional member of the B-complex family as unlike all other vitamins of this group, it can be stored in the body like the fat soluble vitamins."
+    },
+    {
+      "id": "c61",
+      "claim": "Vitamin C or ascorbic acid is called the fresh food vitamin because fresh fruits and vegetables are its major sources.",
+      "source": "s3",
+      "page": "Unit 16, p. 293",
+      "quote": "Vitamin C or ascorbic acid is also termed as the “fresh food vitamin” because fresh fruits and vegetables are its major sources"
+    },
+    {
+      "id": "c62",
+      "claim": "Amla is the cheapest source of vitamin C and provides 20 times or more ascorbic acid than citrus fruits.",
+      "source": "s3",
+      "page": "Unit 16, p. 293",
+      "quote": "amla is the cheapest source and provides 20 times or more ascorbic acid as compared to the expensive citrus fruits"
+    },
+    {
+      "id": "c63",
+      "claim": "Vitamin C helps in healing of wounds, overcoming injury and infection, and aiding absorption of iron.",
+      "source": "s3",
+      "page": "Unit 16, p. 293",
+      "quote": "Vitamin C plays a role in: 1) Healing of wounds and making blood vessels firm. 2) Overcoming conditions of injury, infection and other stresses. 3) Aiding absorption of iron."
+    },
+    {
+      "id": "c64",
+      "claim": "Sprouting and fermentation of whole grain cereals or pulses increases their content of B-complex vitamins and vitamin C.",
+      "source": "s3",
+      "page": "Unit 16, p. 290",
+      "quote": "Sprouting and fermentation of whole grain cereals or pulses increases their content of B-complex vitamins and Vitamin C."
+    },
+    {
+      "id": "c65",
+      "claim": "Niacin can also be formed in the body from the amino acid tryptophan.",
+      "source": "s3",
+      "page": "Unit 16, p. 292",
+      "quote": "One interesting point about niacin is that it can also be formed in the body from a particular amino acid called tryptophan."
+    },
+    {
+      "id": "c66",
+      "claim": "Vitamin K helps in the formation of prothrombin, a protein essential for blood clotting.",
+      "source": "s3",
+      "page": "Unit 16, p. 288",
+      "quote": "It helps in the formation of a protein called prothrombin which, in turn, is essential for blood clotting."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "nutrients_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "গ্লুকোজ কোন ধরনের পুষ্টি উপাদানের উদাহরণ?",
+      "a": "শর্করা (কার্বোহাইড্রেট)",
+      "w": [
+        "প্রোটিন",
+        "চর্বি",
+        "খনিজ লবণ"
+      ],
+      "e": "গ্লুকোজ তাৎক্ষণিক শক্তি দেয় এবং এটি শর্করার উদাহরণ; শর্করা আমাদের খাদ্যে শক্তির অন্যতম প্রধান উৎস।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "nutrients_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শর্করা ও চর্বিকে একসঙ্গে কী বলা হয়?",
+      "a": "শক্তিদায়ক খাদ্য",
+      "w": [
+        "দেহগঠনকারী খাদ্য",
+        "রক্ষাকারী খাদ্য",
+        "আঁশজাতীয় খাদ্য"
+      ],
+      "e": "শর্করা ও চর্বি নানা কাজের জন্য শক্তি দেয় বলে এদের শক্তিদায়ক খাদ্য বলে; প্রোটিন দেহগঠনকারী আর ভিটামিন-খনিজ রক্ষাকারী।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "nutrients_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনটি প্রোটিনের উদ্ভিদ-উৎস নয়?",
+      "a": "মাছ",
+      "w": [
+        "ডাল",
+        "শিম",
+        "মটর"
+      ],
+      "e": "ডাল, শিম, মটর ও বাদাম প্রোটিনের উদ্ভিদ-উৎস; মাছ প্রাণী-উৎসের প্রোটিন (দুধ, পনির, ডিম, মাংসের সঙ্গে)।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "nutrients_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "খাবারে আয়োডিন দ্রবণ দিলে নীল-কালো রং হলে কোন উপাদানের উপস্থিতি বোঝায়?",
+      "a": "শ্বেতসার (স্টার্চ)",
+      "w": [
+        "প্রোটিন",
+        "চর্বি",
+        "ভিটামিন C"
+      ],
+      "e": "আয়োডিন পরীক্ষায় নীল-কালো রং শ্বেতসারের উপস্থিতি নির্দেশ করে; প্রোটিনের পরীক্ষায় বেগুনি রং আর চর্বির পরীক্ষায় কাগজে তেলের দাগ দেখা যায়।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "nutrients_basics",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কপার সালফেট ও কস্টিক সোডা দিয়ে পরীক্ষায় বেগুনি রং হলে কোন উপাদান আছে বলে ধরা হয়?",
+      "a": "প্রোটিন",
+      "w": [
+        "শ্বেতসার",
+        "চর্বি",
+        "গ্লুকোজ"
+      ],
+      "e": "এই পরীক্ষায় বেগুনি রং প্রোটিনের উপস্থিতি নির্দেশ করে। শ্বেতসারের জন্য আয়োডিন আর চর্বির জন্য কাগজের তেলের দাগের পরীক্ষা আলাদা।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "nutrients_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কাগজে খাবার ঘষলে তেলের দাগ পড়লে সেই খাবারে কোন উপাদান আছে?",
+      "a": "চর্বি",
+      "w": [
+        "প্রোটিন",
+        "শ্বেতসার",
+        "আঁশ"
+      ],
+      "e": "কাগজে তেলের দাগ চর্বির উপস্থিতি দেখায় — তেল বা মাখন থাকলেই এমন দাগ পড়ে।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "nutrients_basics",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| A. শর্করা ও চর্বি | ১. দেহগঠনকারী খাদ্য |\n| B. প্রোটিন | ২. রক্ষাকারী পুষ্টি উপাদান |\n| C. ভিটামিন ও খনিজ | ৩. শক্তিদায়ক খাদ্য |",
+      "a": "A-৩, B-১, C-২",
+      "w": [
+        "A-১, B-২, C-৩",
+        "A-২, B-৩, C-১",
+        "A-৩, B-২, C-১"
+      ],
+      "e": "শর্করা ও চর্বি শক্তি দেয় (শক্তিদায়ক), প্রোটিন বৃদ্ধি ও মেরামত করে (দেহগঠনকারী), ভিটামিন ও খনিজ রোগ থেকে রক্ষা করে (রক্ষাকারী)।",
+      "claims": [
+        "c04",
+        "c06",
+        "c13"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "vitamins_intro",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভিটামিনের সংজ্ঞা হিসেবে কোনটি সঠিক?",
+      "a": "খাদ্যে সামান্য পরিমাণে প্রয়োজনীয় জৈব যৌগ, যার অভাবে নির্দিষ্ট রোগ হয়",
+      "w": [
+        "দেহে প্রচুর পরিমাণে সঞ্চিত শক্তির উৎস",
+        "শুধু প্রাণীজ খাবারে পাওয়া প্রোটিন",
+        "হাড় গঠনকারী খনিজ লবণ"
+      ],
+      "e": "NCERT অনুযায়ী, যেসব জৈব যৌগ খাদ্যে সামান্য পরিমাণে লাগে কিন্তু অভাবে নির্দিষ্ট রোগ হয়, তারাই ভিটামিন।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "vitamins_intro",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন ভিটামিনগুলো চর্বিতে দ্রবণীয়?",
+      "a": "A, D, E ও K",
+      "w": [
+        "B-দল ও C",
+        "শুধু A ও C",
+        "B1, B2 ও B12"
+      ],
+      "e": "চর্বি ও তেলে দ্রবণীয় ভিটামিন হলো A, D, E ও K; এরা যকৃৎ ও চর্বি-সঞ্চয়কারী কলায় জমা থাকে।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "vitamins_intro",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জলে দ্রবণীয় ভিটামিন খাদ্যে নিয়মিত খেতে হয় কেন?",
+      "a": "এরা মূত্রের সঙ্গে বেরিয়ে যায় এবং দেহে জমা থাকে না",
+      "w": [
+        "এরা দেহে বিষাক্ত হয়ে ওঠে",
+        "এরা শুধু কাঁচা খাবারে থাকে",
+        "এরা শক্তি দেয় না বলে"
+      ],
+      "e": "B-দল ও ভিটামিন C জলে দ্রবণীয়; এরা সহজে মূত্রের সঙ্গে বেরিয়ে যায় ও জমা থাকে না (ব্যতিক্রম B12), তাই নিয়মিত জোগান দরকার।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "vitamins_intro",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জলে দ্রবণীয় হয়েও দেহে জমা থাকতে পারে কোন ভিটামিন?",
+      "a": "ভিটামিন B12",
+      "w": [
+        "ভিটামিন C",
+        "ভিটামিন B1",
+        "ভিটামিন B2"
+      ],
+      "e": "ভিটামিন B12 জলে দ্রবণীয় দলের সদস্য হলেও ব্যতিক্রম — এটি চর্বিতে দ্রবণীয় ভিটামিনের মতো দেহে জমা থাকতে পারে।",
+      "claims": [
+        "c35",
+        "c60"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "vitamins_intro",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বেশিরভাগ ভিটামিন সম্পর্কে কোন কথাটি সঠিক?",
+      "a": "এগুলো আমাদের দেহে তৈরি হয় না, কিন্তু উদ্ভিদ প্রায় সবগুলো তৈরি করতে পারে",
+      "w": [
+        "এগুলো শুধু মাছের তেলে পাওয়া যায়",
+        "এগুলো দেহে অসীম পরিমাণে জমা থাকে",
+        "এগুলো খনিজ লবণেরই আরেক রূপ"
+      ],
+      "e": "বেশিরভাগ ভিটামিন মানবদেহে সংশ্লেষিত হয় না, অথচ উদ্ভিদ প্রায় সবগুলো তৈরি করতে পারে — তাই এগুলো অপরিহার্য খাদ্য-উপাদান।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "vitamins_intro",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি ১: ভিটামিন A, D, E, K যকৃৎ ও চর্বি-কলায় জমা থাকে।\nবিবৃতি ২: ভিটামিনের অতিরিক্ত সেবনও ক্ষতিকর হতে পারে।",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "দুটোই ভুল"
+      ],
+      "e": "চর্বিতে দ্রবণীয় ভিটামিন যকৃৎ ও চর্বি-সঞ্চয়কারী কলায় জমা থাকে — বিবৃতি ১ সঠিক। NCERT স্পষ্ট বলেছে অতিরিক্ত ভিটামিনও ক্ষতিকর — বিবৃতি ২-ও সঠিক।",
+      "claims": [
+        "c34",
+        "c36"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "fat_soluble",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভিটামিন A-এর রাসায়নিক নাম কী?",
+      "a": "রেটিনল",
+      "w": [
+        "অ্যাসকরবিক অ্যাসিড",
+        "থায়ামিন",
+        "কোবালামিন"
+      ],
+      "e": "ভিটামিন A-কেই রেটিনল বলে; এটি শুধু প্রাণীজ খাবারে থাকে। অ্যাসকরবিক অ্যাসিড হলো ভিটামিন C, থায়ামিন B1, কোবালামিন B12।",
+      "claims": [
+        "c47"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "fat_soluble",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাতকানা রোগ কোন ভিটামিনের অভাবে হয়?",
+      "a": "ভিটামিন A",
+      "w": [
+        "ভিটামিন C",
+        "ভিটামিন D",
+        "ভিটামিন B1"
+      ],
+      "e": "ভিটামিন A-এর অভাবে অল্প আলোয় দেখা যায় না — এই অবস্থাই রাতকানা। C-এর অভাবে স্কার্ভি, D-এর অভাবে রিকেট, B1-এর অভাবে বেরিবেরি হয়।",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "fat_soluble",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনটিকে 'রোদের ভিটামিন' (Sunshine Vitamin) বলা হয়?",
+      "a": "ভিটামিন D",
+      "w": [
+        "ভিটামিন A",
+        "ভিটামিন E",
+        "ভিটামিন K"
+      ],
+      "e": "রোদের সংস্পর্শে ত্বকে থাকা পদার্থ থেকে ভিটামিন D তৈরি হয় বলে একে রোদের ভিটামিন বলে।",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "fat_soluble",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিশুদের রিকেট রোগের কারণ কোন ভিটামিনের অভাব?",
+      "a": "ভিটামিন D",
+      "w": [
+        "ভিটামিন A",
+        "ভিটামিন C",
+        "ভিটামিন B2"
+      ],
+      "e": "ভিটামিন D-এর অভাবে শিশুদের হাড়ের বিকৃতি (রিকেট) হয়; বড়দের ক্ষেত্রে একই অভাবে অস্টিওম্যালেশিয়া হয়।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "fat_soluble",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বড়দের (প্রাপ্তবয়স্কদের) ভিটামিন D-এর অভাবে কোন রোগ হয়?",
+      "a": "অস্টিওম্যালেশিয়া",
+      "w": [
+        "রিকেট",
+        "জেরোফথ্যালমিয়া",
+        "কিলোসিস"
+      ],
+      "e": "বড়দের ভিটামিন D-এর অভাবে হাড় নরম হয় ও জয়েন্টে ব্যথা হয় — এটি অস্টিওম্যালেশিয়া; রিকেট শিশুদের রোগ।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "fat_soluble",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রক্ত জমাট বাঁধার জন্য অপরিহার্য প্রোথ্রমবিন তৈরিতে কোন ভিটামিন সাহায্য করে?",
+      "a": "ভিটামিন K",
+      "w": [
+        "ভিটামিন E",
+        "ভিটামিন A",
+        "ভিটামিন C"
+      ],
+      "e": "ভিটামিন K প্রোথ্রমবিন তৈরিতে সাহায্য করে, যা রক্ত জমাট বাঁধার জন্য অপরিহার্য — তাই K-কে রক্তপাত-রোধী ভিটামিন বলে।",
+      "claims": [
+        "c52",
+        "c66"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "fat_soluble",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "উদ্ভিদখাবার থেকে ভিটামিন A পাওয়ার পথ কোনটি?",
+      "a": "বিটা-ক্যারোটিন দেহে রেটিনলে রূপান্তরিত হয়",
+      "w": [
+        "উদ্ভিদে সরাসরি রেটিনল থাকে",
+        "ক্লোরোফিল রেটিনলে বদলে যায়",
+        "উদ্ভিদখাবারে ভিটামিন A একেবারেই মেলে না"
+      ],
+      "e": "উদ্ভিদখাবারে রেটিনল থাকে না; সেখানে ক্যারোটিনয়েড (যেমন বিটা-ক্যারোটিন) থাকে, যা দেহে রেটিনলে বদলাতে পারে।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "fat_soluble",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): ভিটামিন E-এর অভাবে লোহিত রক্তকণিকার ভঙ্গুরতা বাড়ে।\nযুক্তি (R): ভিটামিন E-এর প্রধান কাজ ফ্যাটি অ্যাসিড ও ভিটামিন A, C-কে নষ্ট হওয়া থেকে রক্ষা করা।",
+      "a": "A ও R দুটোই সঠিক",
+      "w": [
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক",
+        "A ও R দুটোই ভুল"
+      ],
+      "e": "NCERT সারণি অনুযায়ী ভিটামিন E-এর অভাবে লোহিত কণিকার ভঙ্গুরতা বাড়ে ও পেশি দুর্বল হয় (A সঠিক); IGNOU অনুযায়ী এর প্রধান কাজ অন্য পদার্থকে ধ্বংস থেকে রক্ষা করা (R-ও সঠিক)।",
+      "claims": [
+        "c44",
+        "c54"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "water_soluble",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভিটামিন B1-এর রাসায়নিক নাম কী?",
+      "a": "থায়ামিন",
+      "w": [
+        "রাইবোফ্ল্যাভিন",
+        "পাইরিডক্সিন",
+        "রেটিনল"
+      ],
+      "e": "ভিটামিন B1 হলো থায়ামিন; রাইবোফ্ল্যাভিন B2, পাইরিডক্সিন B6, রেটিনল ভিটামিন A।",
+      "claims": [
+        "c38",
+        "c55"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "water_soluble",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "স্কার্ভি কোন ভিটামিনের অভাবে হয়?",
+      "a": "ভিটামিন C",
+      "w": [
+        "ভিটামিন A",
+        "ভিটামিন D",
+        "ভিটামিন K"
+      ],
+      "e": "স্কার্ভি ভিটামিন C-এর অভাবে হয়; লেবুজাতীয় ফলের ভিটামিন C এই রোগ সারাতে সাহায্য করে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "water_soluble",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন ভিটামিনকে 'রাইবোফ্ল্যাভিন' বলা হয়?",
+      "a": "ভিটামিন B2",
+      "w": [
+        "ভিটামিন B1",
+        "ভিটামিন B12",
+        "ভিটামিন C"
+      ],
+      "e": "রাইবোফ্ল্যাভিন হলো ভিটামিন B2-এর নাম — IDO ২০১৯ পরীক্ষায় এই প্রশ্নটিই এসেছিল। B1 হলো থায়ামিন।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "water_soluble",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বেরিবেরি কোন ভিটামিনের অভাবে হয়?",
+      "a": "ভিটামিন B1 (থায়ামিন)",
+      "w": [
+        "ভিটামিন B2 (রাইবোফ্ল্যাভিন)",
+        "ভিটামিন C (অ্যাসকরবিক অ্যাসিড)",
+        "ভিটামিন D"
+      ],
+      "e": "থায়ামিনের অভাবে বেরিবেরি হয় — খিদে কমে যাওয়া ও বৃদ্ধি ব্যাহত হওয়া এর লক্ষণ।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "water_soluble",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পারনিসিয়াস রক্তাল্পতা কোন ভিটামিনের অভাবে হয়?",
+      "a": "ভিটামিন B12",
+      "w": [
+        "ভিটামিন B1",
+        "ভিটামিন B6",
+        "ভিটামিন E"
+      ],
+      "e": "B12-এর অভাবে পারনিসিয়াস রক্তাল্পতা হয় — হিমোগ্লোবিন-ঘাটতিযুক্ত লোহিত কণিকা তৈরি হয়। এর উৎস মাংস, মাছ, ডিম ও দই।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "water_soluble",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মুখ ও ঠোঁটের কোণে ফাটল (কিলোসিস) কোন ভিটামিনের অভাবের লক্ষণ?",
+      "a": "ভিটামিন B2",
+      "w": [
+        "ভিটামিন B12",
+        "ভিটামিন A",
+        "ভিটামিন K"
+      ],
+      "e": "রাইবোফ্ল্যাভিন (B2)-এর অভাবে কিলোসিস হয় — মুখ ও ঠোঁটের কোণে ফাটল, হজমের গণ্ডগোল ও ত্বকে জ্বালা দেখা দেয়।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "water_soluble",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভিটামিন C-কে 'তাজা খাবারের ভিটামিন' বলা হয় কেন?",
+      "a": "তাজা ফল ও শাকসবজিই এর প্রধান উৎস বলে",
+      "w": [
+        "এটি শুধু শীতকালে পাওয়া যায় বলে",
+        "এটি রান্না করলে বেড়ে যায় বলে",
+        "এটি মাংসে সবচেয়ে বেশি থাকে বলে"
+      ],
+      "e": "তাজা ফল ও শাকসবজি ভিটামিন C-এর প্রধান উৎস বলে একে তাজা খাবারের ভিটামিন বলে; বরং বেশি তাপে রান্নায় এটি নষ্ট হয়ে যায়।",
+      "claims": [
+        "c61",
+        "c15"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "water_soluble",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| A. ভিটামিন B1 | ১. রাইবোফ্ল্যাভিন |\n| B. ভিটামিন B2 | ২. অ্যাসকরবিক অ্যাসিড |\n| C. ভিটামিন C | ৩. থায়ামিন |\n| D. ভিটামিন B12 | ৪. কোবালামিন |",
+      "a": "A-৩, B-১, C-২, D-৪",
+      "w": [
+        "A-১, B-৩, C-২, D-৪",
+        "A-৩, B-২, C-১, D-৪",
+        "A-৪, B-১, C-২, D-৩"
+      ],
+      "e": "B1 = থায়ামিন, B2 = রাইবোফ্ল্যাভিন, C = অ্যাসকরবিক অ্যাসিড, B12 = কোবালামিন — এই চার জোড়াই উৎসে সরাসরি আছে।",
+      "claims": [
+        "c38",
+        "c39",
+        "c42",
+        "c59"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "minerals_deficiency",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "গলগণ্ড (গলার সামনে ফোলা) কোন খনিজের অভাবে হয়?",
+      "a": "আয়োডিন",
+      "w": [
+        "ক্যালসিয়াম",
+        "লোহা",
+        "দস্তা (জিঙ্ক)"
+      ],
+      "e": "খাবার ও জলে আয়োডিনের অভাবে গলগণ্ড হয়; আয়োডিনযুক্ত লবণ এর প্রতিকার।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "minerals_deficiency",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রক্তাল্পতা (অ্যানিমিয়া) কোন খনিজের অভাবে হয়?",
+      "a": "লোহা",
+      "w": [
+        "আয়োডিন",
+        "ক্যালসিয়াম",
+        "পটাশিয়াম"
+      ],
+      "e": "লোহা রক্তের গুরুত্বপূর্ণ উপাদান; এর অভাবে রক্তাল্পতা হয় — দুর্বলতা ও শ্বাসকষ্ট লক্ষণ। সবুজ শাক, বিট ও ডালিম লোহার উৎস।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "minerals_deficiency",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আয়োডিনযুক্ত লবণ আসলে কী?",
+      "a": "সাধারণ লবণের সঙ্গে প্রয়োজনীয় পরিমাণে আয়োডিনের লবণ মেশানো",
+      "w": [
+        "সমুদ্রের জল শুকিয়ে তৈরি বিশেষ লবণ",
+        "ক্যালসিয়াম মেশানো লবণ",
+        "লোহা মেশানো লবণ"
+      ],
+      "e": "আয়োডিনযুক্ত লবণ মানে সাধারণ লবণের সঙ্গে নির্দিষ্ট পরিমাণে আয়োডিনের লবণ মেশানো — গলগণ্ড প্রতিরোধে এই ব্যবস্থা নেওয়া হয়।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "minerals_deficiency",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "হাড় ও দাঁত সুস্থ রাখতে কোন খনিজ দরকার?",
+      "a": "ক্যালসিয়াম",
+      "w": [
+        "লোহা",
+        "আয়োডিন",
+        "সোডিয়াম"
+      ],
+      "e": "ক্যালসিয়াম হাড় ও দাঁত সুস্থ রাখে; দুধ, দই, পনির এর উৎস। অভাবে হাড় দুর্বল হয় ও দাঁতের ক্ষয় হয়।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "minerals_deficiency",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "খাদ্যে আয়োডিন কম থাকলে থাইরয়েড গ্রন্থি নিয়ে কোন সমস্যা দেখা দিতে পারে?",
+      "a": "হাইপোথাইরয়েডিজম ও থাইরয়েড গ্রন্থি বড় হয়ে যাওয়া",
+      "w": [
+        "রক্তাল্পতা",
+        "হাড় বেঁকে যাওয়া",
+        "মাড়ি থেকে রক্ত পড়া"
+      ],
+      "e": "NCERT (দ্বাদশ, হরমোন অংশ) অনুযায়ী খাদ্যে আয়োডিন কম থাকলে হাইপোথাইরয়েডিজম হতে পারে ও থাইরয়েড গ্রন্থি বড় হয়ে যায়; আয়োডিনযুক্ত লবণে এটি নিয়ন্ত্রণে এসেছে।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "minerals_deficiency",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি ১: ভিটামিন C লোহার শোষণে সাহায্য করে।\nবিবৃতি ২: ভিটামিন ও খনিজকে রক্ষাকারী পুষ্টি উপাদান বলা হয়।",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "দুটোই ভুল"
+      ],
+      "e": "ভিটামিন C-এর কাজের মধ্যে লোহার শোষণে সাহায্য করা একটি (বিবৃতি ১ সঠিক); ভিটামিন ও খনিজ দেহকে রোগ থেকে রক্ষা করে বলে এরা রক্ষাকারী পুষ্টি উপাদান (বিবৃতি ২ সঠিক)।",
+      "claims": [
+        "c63",
+        "c13"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "minerals_deficiency",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "১৯৬০-এর দশকে হিমালয় অঞ্চলে গলগণ্ড ব্যাপক হওয়ার কারণ হিসেবে বিজ্ঞানীরা কী খুঁজে পান?",
+      "a": "ওই অঞ্চলের মাটিতে আয়োডিনের অভাব, ফলে স্থানীয় খাবার ও জলেও আয়োডিন কম",
+      "w": [
+        "ভিটামিন D-এর অভাব",
+        "অতিরিক্ত লবণ খাওয়া",
+        "দূষিত পানীয় জল"
+      ],
+      "e": "বিজ্ঞানীরা দেখেন ওই অঞ্চলের মাটিতে আয়োডিনের অভাব থাকায় স্থানীয় খাবার ও জলেও আয়োডিন কম ছিল — তাই গলগণ্ড ছড়িয়ে পড়েছিল।",
+      "claims": [
+        "c10",
+        "c27"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "balanced_diet",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সুষম খাদ্য কাকে বলে?",
+      "a": "যে খাদ্যে সব অপরিহার্য পুষ্টি উপাদান, আঁশ ও জল সঠিক পরিমাণে থাকে",
+      "w": [
+        "যে খাদ্যে শুধু প্রোটিন বেশি থাকে",
+        "যে খাদ্য সবচেয়ে দামি উপকরণে তৈরি",
+        "যে খাদ্যে চর্বি একেবারেই থাকে না"
+      ],
+      "e": "দেহের সঠিক বৃদ্ধি ও বিকাশের জন্য সব অপরিহার্য পুষ্টি উপাদান, আঁশ ও জল সঠিক পরিমাণে থাকলেই তা সুষম খাদ্য।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "balanced_diet",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "খাদ্যের আঁশ (রাফেজ)-এর কাজ কী?",
+      "a": "অপাচ্য খাবার বের করে দেওয়া ও মলত্যাগ সহজ করা",
+      "w": [
+        "শক্তি জোগানো",
+        "হাড় শক্ত করা",
+        "রক্ত জমাট বাঁধা"
+      ],
+      "e": "আঁশ নিজে পুষ্টি দেয় না, কিন্তু অপাচ্য খাবার দেহ থেকে বের করে দিতে ও মলের সহজ চলাচলে সাহায্য করে।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "balanced_diet",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জোয়ার, বাজরা, রাগি প্রভৃতি মিলেটকে 'পুষ্টিশস্য' বলা হয় কেন?",
+      "a": "এগুলো ভিটামিন, লোহা-ক্যালসিয়ামের মতো খনিজ ও আঁশের ভালো উৎস বলে",
+      "w": [
+        "এগুলোতে শুধু চর্বি বেশি থাকে বলে",
+        "এগুলো বিদেশ থেকে আমদানি হয় বলে",
+        "এগুলোতে জল একেবারেই লাগে না বলে"
+      ],
+      "e": "মিলেটে ভিটামিন, লোহা ও ক্যালসিয়ামের মতো খনিজ এবং খাদ্য-আঁশ ভালো পরিমাণে থাকে বলেই এদের পুষ্টিশস্য বলা হয়।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "balanced_diet",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আলুর ওয়েফার ও কার্বনেটেড পানীয়কে জাঙ্ক ফুড বলা হয় কেন?",
+      "a": "ক্যালোরি বেশি হলেও প্রোটিন, খনিজ, ভিটামিন ও আঁশ খুব কম থাকে বলে",
+      "w": [
+        "এগুলো কাঁচা খাওয়া হয় বলে",
+        "এগুলোতে জল থাকে না বলে",
+        "এগুলো শুধু শিশুরা খায় বলে"
+      ],
+      "e": "জাঙ্ক ফুডে চিনি-চর্বি থেকে ক্যালোরি বেশি, কিন্তু প্রোটিন, খনিজ, ভিটামিন ও আঁশ খুব কম — ঘন ঘন খাওয়া স্বাস্থ্যের জন্য ভালো নয়।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "balanced_diet",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিক?\n\n১. কলুথুর গোপালন — ভারতে পুষ্টি গবেষণার সূচনা\n২. মিড ডে মিল কর্মসূচি — ২০০২ সাল",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "দুটোই ভুল"
+      ],
+      "e": "কলুথুর গোপালন (১৯১৮–২০১৯) ভারতে পুষ্টি গবেষণা শুরু করেন ও ৫০০-র বেশি খাবারের পুষ্টিগুণ মাপেন; তাঁর সমীক্ষার ধারাবাহিকতায় ২০০২ সালে মিড ডে মিল (বর্তমানে PM POSHAN) চালু হয়।",
+      "claims": [
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "balanced_diet",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): পালিশ করা চালের ওপর নির্ভরশীল খাদ্যে থায়ামিনের ঘাটতি হতে পারে।\nযুক্তি (R): পালিশ করা চালে B-কমপ্লেক্স ভিটামিন, বিশেষ করে থায়ামিন, খুব কম থাকে।",
+      "a": "A সঠিক এবং R তার সঠিক ব্যাখ্যা",
+      "w": [
+        "A সঠিক, কিন্তু R তার ব্যাখ্যা নয়",
+        "A ভুল, R সঠিক",
+        "A ও R দুটোই ভুল"
+      ],
+      "e": "পালিশে চালের বাইরের স্তর ঝরে যায়, যেখানে থায়ামিন থাকে — তাই পালিশ করা চালে থায়ামিন খুব কম (R), এবং এমন খাদ্যে ঘাটতি হতে পারে (A)। R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c57"
+      ]
+    }
+  ]
+}

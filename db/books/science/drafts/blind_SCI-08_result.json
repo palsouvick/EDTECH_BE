@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "সোনা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Such metals are called \"noble metals\" as they show the least chemical reactivity. For example gold, silver, mercury and platinum occur in free state.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 2",
+      "notes": "Noble metals incl. gold occur in free state per c41."
+    },
+    {
+      "id": "q02",
+      "answer": "আকরিক (Ore)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "A naturally occurring material in which a metal or its compound occurs is called a mineral. A mineral from which a metal can be extracted economically is called an ore.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 2",
+      "notes": "Ore defined as mineral from which metal can be extracted economically."
+    },
+    {
+      "id": "q03",
+      "answer": "অ্যালুমিনিয়াম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Among metals, aluminium is the most abundant. In fact, it is the third most abundant element in earth’s crust (8.3% approx. by weight).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 152",
+      "notes": "Aluminium most abundant metal, third most abundant element."
+    },
+    {
+      "id": "q04",
+      "answer": "লোহা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Iron (Haematite, Fe2 O3 ); Aluminium (Bauxite, Al2 O3 . 2H2 O) Sulphide ores Zinc (Zinc blende, ZnS); Lead (Galena, PbS)",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 2",
+      "notes": "Haematite Fe2O3 listed for iron."
+    },
+    {
+      "id": "q05",
+      "answer": "গ্যাং (Gangue)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "An ore rarely contains only a desired substance. It is usually contaminated with earthly or undesired materials known as gangue.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 152",
+      "notes": "Gangue is earthy/undesired contamination of ore."
+    },
+    {
+      "id": "q06",
+      "answer": "অ্যালুমিনিয়াম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The ‘Seven metals of antiquity’, as they are sometimes called, are gold, copper, silver, lead, tin, iron and mercury.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 149",
+      "notes": "Seven metals list has no aluminium."
+    },
+    {
+      "id": "q07",
+      "answer": "কেবল ২",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Out of many minerals in which a metal may be found, only a few are viable to be used as source of that metal. Such minerals are known as ores.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 152",
+      "notes": "Only a few minerals are ores (c04/c42), so all ores are minerals but not vice versa."
+    },
+    {
+      "id": "q08",
+      "answer": "ফেনা-ভাসন (Froth floatation)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This method is used for removing gangue from sulphide ores. The mineral particles become wet by oils while the gangue particles by water.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "pp. 153-154",
+      "notes": "Froth floatation used for sulphide ores."
+    },
+    {
+      "id": "q09",
+      "answer": "আপেক্ষিক গুরুত্ব (ঘনত্ব)",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "The lighter gangue particles are washed away and the heavier ore particles are left behind.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 153",
+      "notes": "Claim says lighter gangue washed away, heavier ore left - implies density/specific-gravity difference; word itself not in claims."
+    },
+    {
+      "id": "q10",
+      "answer": "চৌম্বক পৃথকীকরণ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "iron ores are attracted towards magnet, hence, non–magnetic impurities can be separted from them using magnetic separation.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 153",
+      "notes": "Iron ores attracted to magnet, magnetic separation."
+    },
+    {
+      "id": "q11",
+      "answer": "ঘন সোডিয়াম হাইড্রক্সাইড (NaOH) দ্রবণ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Bauxite is the principal ore of aluminium. Concentration is carried out by heating the powdered ore with a concentrated solution of NaOH at 473 – 523 K and 35 – 36 bar pressure. This process is called digestion.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "pp. 153-154",
+      "notes": "Bauxite digestion with concentrated NaOH."
+    },
+    {
+      "id": "q12",
+      "answer": "খনিজ কণা তেলে ভেজে, গ্যাং কণা জলে ভেজে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This method is used for removing gangue from sulphide ores. The mineral particles become wet by oils while the gangue particles by water.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "pp. 153-154",
+      "notes": "Mineral particles wet by oils, gangue by water."
+    },
+    {
+      "id": "q13",
+      "answer": "A-২, B-১, C-৩, D-৪",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "This method is especially applied to sulphide ores, such as galena (PbS), zinc blende (ZnS), or copper pyrites (CuFeS2 )",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 6",
+      "notes": "Galena froth (c45), iron ore magnetic (c08), bauxite NaOH digestion (c10), heavy haematite hydraulic washing (c07) - D mapping inferred from heavy-ore claim."
+    },
+    {
+      "id": "q14",
+      "answer": "গোয়া, মধ্যপ্রদেশ, বিহার, কর্ণাটক, ওড়িশা ও মহারাষ্ট্র",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Major iron ore mining is done in Goa, Madhya Pradesh, Bihar, Karnataka, Orissa and Maharashtra.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 3",
+      "notes": "Exact state list in c58."
+    },
+    {
+      "id": "q15",
+      "answer": "ভস্মীকরণ (Calcination)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Calcination involves heating of the concentrated ore in a limited supply of air so that it loses moisture, water of hydration and gaseous volatile substances.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 7",
+      "notes": "Calcination: heating in limited air, loses moisture/volatile substances."
+    },
+    {
+      "id": "q16",
+      "answer": "অক্সাইড বিজারণ করা সহজ বলে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Usually sulphide ores are converted to oxide before reduction because oxides are easier to reduce.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 155",
+      "notes": "Oxides are easier to reduce."
+    },
+    {
+      "id": "q17",
+      "answer": "মুক্ত বায়ুর সরবরাহে ধাতুর গলনাঙ্কের নিচের তাপমাত্রায় আকরিক উত্তপ্ত করা হয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In roasting, the ore is heated in a regular supply of air in a furnace at a temperature below the melting point of the metal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 155",
+      "notes": "Roasting: regular/free air supply, below melting point (also c47)."
+    },
+    {
+      "id": "q18",
+      "answer": "স্ল্যাগ (Slag)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "During metallurgy, ‘flux’ is added which combines with ‘gangue’ to form ‘slag’.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 156",
+      "notes": "Flux combines with gangue to form slag (also c49)."
+    },
+    {
+      "id": "q19",
+      "answer": "গোল্ডস্মিট অ্যালুমিনো-থার্মাইট পদ্ধতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Oxide like chromium oxide (Cr O2 3 ) or manganese oxide (Mn O3 4 ) are reduced by aluminium powder is a highly exothermic reaction. This process is known as Goldschmidt's Alumino-thermite reduction method.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 9",
+      "notes": "Goldschmidt alumino-thermite reduction with Al powder."
+    },
+    {
+      "id": "q20",
+      "answer": "লোহা তামার চেয়ে বেশি সক্রিয়, তাই কম সক্রিয় ধাতু দ্রবণ থেকে বেরিয়ে আসে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "then the less reactive metal will come out of the solution and the more reactive metal will go into the solution, e.g., Cu2+ (aq) + Fe(s) → Cu(s) + Fe2+ (aq)",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 162",
+      "notes": "Displacement example Cu2+ + Fe -> Cu + Fe2+."
+    },
+    {
+      "id": "q21",
+      "answer": "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "More reactive metals have large negative values of the electrode potential. So their reduction is difficult.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 162",
+      "notes": "R verbatim in c22; A supported by c52 (active metals extracted by electrolysis of fused salts, not carbon reduction)."
+    },
+    {
+      "id": "q22",
+      "answer": "অ্যালুমিনার গলনাঙ্ক কমাতে ও তড়িৎ পরিবাহিতা আনতে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In the metallurgy of aluminium, purified Al2O3 is mixed with Na3AlF6 or CaF2 which lowers the melting point of the mixture and brings conductivity. This process of electrolysis is widely known as Hall-Heroult process.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "pp. 162-163",
+      "notes": "Na3AlF6/CaF2 lowers melting point and brings conductivity; Hall-Heroult."
+    },
+    {
+      "id": "q23",
+      "answer": "চুনাপাথর ও কোক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "A charge of iron ore, limestone and coke in the correct proportions is fed into the top of the furnace through a cone and hopper arrangement.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 14",
+      "notes": "Blast furnace charge: iron ore, limestone and coke."
+    },
+    {
+      "id": "q24",
+      "answer": "প্রায় ৪%, পিগ আয়রন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The iron obtained from Blast furnace contains about 4% carbon and many impurities in smaller amount (e.g., S, P, Si, Mn). This is known as pig iron.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 160",
+      "notes": "Blast furnace iron ~4% carbon = pig iron."
+    },
+    {
+      "id": "q25",
+      "answer": "জমাট বাঁধা তামার গায়ে SO2 বেরিয়ে যাওয়ায় ফোস্কার মতো দাগ পড়ে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The solidified copper obtained has blistered appearance due to the evolution of SO2 and so it is called blister copper.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 161",
+      "notes": "Blistered appearance due to evolution of SO2 (also c51)."
+    },
+    {
+      "id": "q26",
+      "answer": "কোক দিয়ে বিজারণ করা হয় এবং তামার তুলনায় বেশি তাপমাত্রা লাগে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The reduction of zinc oxide is done using coke. The temperature in this case is higher than that in the case of copper.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 161",
+      "notes": "ZnO reduction using coke at higher temperature than copper."
+    },
+    {
+      "id": "q27",
+      "answer": "স্ক্র্যাপ লোহা বা হাইড্রোজেন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Copper is extracted by hydrometallurgy from low grade ores. It is leached out using acid or bacteria. The solution containing Cu2+ is treated with scrap iron or H2",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 163",
+      "notes": "Cu2+ solution treated with scrap iron or H2."
+    },
+    {
+      "id": "q28",
+      "answer": "কেবল ২ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Wrought iron or malleable iron is the purest form of commercial iron and is prepared from cast iron by oxidising impurities in a reverberatory furnace lined with haematite.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 161",
+      "notes": "Wrought iron is purest (c18), so stmt1 false and stmt3 true; cast iron hard and brittle per c17/c59, stmt2 true."
+    },
+    {
+      "id": "q29",
+      "answer": "তড়িৎবিশ্লেষণ বিশোধন (Electrolytic refining)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Copper is refined using an electrolytic method. Anodes are of impure copper and pure copper strips are taken as cathode. The electrolyte is acidified solution of copper sulphate",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 164",
+      "notes": "Copper refined electrolytically per c24."
+    },
+    {
+      "id": "q30",
+      "answer": "পাতন (Distillation)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This is very useful for low boiling metals like zinc and mercury. The impure metal is evaporated to obtain the pure metal as distillate.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 164",
+      "notes": "Distillation useful for low-boiling/volatile Zn and Hg (also c56)."
+    },
+    {
+      "id": "q31",
+      "answer": "লিকুয়েশন (Liquation)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Liquation : Easily fusible metals like tin, lead etc. are refined by this process. Poling involves stirring the impure molten metal with green logs or bamboo. Copper and tin are refined by this method (Fig. 16.7). (iii) Distillation : Volatile metals like zinc and mercury are purified by distillation.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 12",
+      "notes": "Liquation for easily fusible tin and lead."
+    },
+    {
+      "id": "q32",
+      "answer": "রুপো ও সোনা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Impurities from the blister copper deposit as anode mud which contains antimony, selenium, tellurium, silver, gold and platinum; recovery of these elements may meet the cost of refining.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 164",
+      "notes": "Anode mud contains silver, gold etc."
+    },
+    {
+      "id": "q33",
+      "answer": "জোন রিফাইনিং (Zone refining)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This method is very useful for producing semiconductor and other metals of very high purity, e.g., germanium, silicon, boron, gallium and indium.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 165",
+      "notes": "Zone refining for semiconductor/high-purity Ge, Si etc."
+    },
+    {
+      "id": "q34",
+      "answer": "নিকেল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In this process, nickel is heated in a stream of carbon monoxide forming a volatile complex named as nickel tetracarbonyl.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 165",
+      "notes": "Mond process: nickel forms nickel tetracarbonyl."
+    },
+    {
+      "id": "q35",
+      "answer": "কেবল ১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Liquation : Easily fusible metals like tin, lead etc. are refined by this process. Poling involves stirring the impure molten metal with green logs or bamboo. Copper and tin are refined by this method (Fig. 16.7). (iii) Distillation : Volatile metals like zinc and mercury are purified by distillation.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 12",
+      "notes": "Poling Cu/Sn and distillation Zn/Hg true in c56; liquation is Sn/Pb not Au/Ag, so pair 2 false."
+    },
+    {
+      "id": "q36",
+      "answer": "দুই বা ততোধিক ধাতুর, অথবা ধাতু ও অধাতুর মিশ্রণে তৈরি পদার্থ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "An alloy is a material consisting of two or more metals, or a metal and a non-metal. For example, brass is an alloy of copper and zinc; steel is an alloy of iron and carbon.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 1",
+      "notes": "Alloy definition verbatim in c57."
+    },
+    {
+      "id": "q37",
+      "answer": "তামা ও দস্তা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "An alloy is a material consisting of two or more metals, or a metal and a non-metal. For example, brass is an alloy of copper and zinc; steel is an alloy of iron and carbon.",
+      "source_url": "https://digital.nios.ac.in/content/313en/313_Chemistry_Eng_Lesson16.pdf",
+      "page": "p. 1",
+      "notes": "Brass is alloy of copper and zinc (also c30/c31)."
+    },
+    {
+      "id": "q38",
+      "answer": "তামা ও টিন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Copper is used for making wires used in electrical industry and for water and steam pipes. It is also used in several alloys that are rather tougher than the metal itself, e.g., brass (with zinc), bronze (with tin) and coinage alloy (with nickel).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 166",
+      "notes": "Bronze is copper with tin."
+    },
+    {
+      "id": "q39",
+      "answer": "দস্তা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Zinc is used for galvanising iron. It is also used in large quantities in batteries. It is constituent of many alloys, e.g., brass, (Cu 60%, Zn 40%) and german silver (Cu 25-30%, Zn 25-30%, Ni 40–50%).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 166",
+      "notes": "Zinc used for galvanising iron."
+    },
+    {
+      "id": "q40",
+      "answer": "তামা, দস্তা ও নিকেল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Zinc is used for galvanising iron. It is also used in large quantities in batteries. It is constituent of many alloys, e.g., brass, (Cu 60%, Zn 40%) and german silver (Cu 25-30%, Zn 25-30%, Ni 40–50%).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 166",
+      "notes": "German silver: Cu, Zn, Ni percentages in c31."
+    },
+    {
+      "id": "q41",
+      "answer": "বাসনপত্র, সাইকেল ও অটোমোবাইলের যন্ত্রাংশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Nickel steel is used for making cables, automobiles and aeroplane parts, pendulum, measuring tapes. Chrome steel is used for cutting tools and crushing machines, and stainless steel is used for cycles, automobiles, utensils, pens, etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 166",
+      "notes": "Stainless steel used for cycles, automobiles, utensils, pens."
+    },
+    {
+      "id": "q42",
+      "answer": "২ → ৩ → ৪ → ১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The first evidence of metal in Indian subcontinent comes from Mehrgarh in Baluchistan, where a small copper bead, dated to about 6000 BCE was found.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/lech106.pdf",
+      "page": "p. 149",
+      "notes": "Chronology: Mehrgarh ~6000 BCE (c37) -> Zawar 6th/5th c. BCE (c35) -> Arthashastra 3rd/4th c. BCE (c39) -> Iron Pillar 5th c. CE (c33)."
+    }
+  ]
+}
