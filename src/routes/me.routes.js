@@ -56,6 +56,16 @@ router.get('/target-exam/syllabus', validate({ query: targetExamQuery }), async 
   res.json({ success: true, data: await targetExam.getSyllabus(req.user.id, current.code, req.valid.query.language) });
 });
 
+// Exam Syllabus Map (F2): the full subject -> chapter -> topic map for ANY
+// catalogue exam (not only the current target), with syllabus verdicts,
+// priorities, weights, and this student's status/mastery per chapter.
+const { getSyllabusMap } = require('../services/syllabusMap.service');
+const syllabusMapParams = z.object({ examCode: z.string().trim().toUpperCase().regex(/^[A-Z0-9_]{2,40}$/) });
+router.get('/target-exam/syllabus-map/:examCode', validate({ params: syllabusMapParams, query: targetExamQuery }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await getSyllabusMap(req.user.id, req.valid.params.examCode, req.valid.query.language) });
+});
+
 // tz = minutes east of UTC, for "today" and the streak (India: 330).
 const performanceQuery = z.object({ tz: z.coerce.number().int().min(-720).max(840).default(330) });
 
