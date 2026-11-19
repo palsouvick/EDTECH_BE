@@ -1,0 +1,424 @@
+{
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "যে অর্থনীতি অন্য দেশের সঙ্গে পণ্য ও সেবায় বাণিজ্য করে এবং বেশিরভাগ ক্ষেত্রে আর্থিক সম্পদেও লেনদেন করে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "an open economy is said to be one that trades with other nations in goods and services and most often, also in financial assets.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 85",
+   "notes": ""
+  },
+  {
+   "id": "q02",
+   "answer": "পণ্য-রপ্তানির মূল্য ও পণ্য-আমদানির মূল্যের পার্থক্য",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Balance of Trade (BOT) is the difference between the value of exports and value of imports of goods of a country in a given period of time.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 87",
+   "notes": ""
+  },
+  {
+   "id": "q03",
+   "answer": "বাণিজ্য ঘাটতি (trade deficit)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Deficit BOT or Trade deficit will arise if a country imports more goods than what it exports.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 87",
+   "notes": ""
+  },
+  {
+   "id": "q04",
+   "answer": "ইনজেকশন (injection) — বৃত্তে অর্থ ঢোকায় ও মোট চাহিদা বাড়ায়",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "our exports to foreigners enter as an injection into the circular flow, increasing aggregate demand for goods produced within the domestic economy.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 85",
+   "notes": ""
+  },
+  {
+   "id": "q05",
+   "answer": "আমদানি রপ্তানির চেয়ে বেশি — বাণিজ্য ঘাটতি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "where, NX is net exports (exports – imports). A positive NX (with exports greater than imports) implies a trade surplus and a negative NX (with imports exceeding exports) implies a trade deficit.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Appendix 6.1, p. 97",
+   "notes": ""
+  },
+  {
+   "id": "q06",
+   "answer": "আয় বাড়লে তার একাংশ আমদানিতে চলে যায় — প্রতিটি ধাপে অতিরিক্ত leakage ঘটে",
+   "confidence": "GUESS",
+   "also_defensible": null,
+   "quote": "our exports to foreigners enter as an injection into the circular flow, increasing aggregate demand for goods produced within the domestic economy.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 85",
+   "notes": "not covered by claims — claims mention imports as leakage (c02) but never discuss the multiplier"
+  },
+  {
+   "id": "q07",
+   "answer": "পণ্যের বাজার ও আর্থিক বাজার",
+   "confidence": "GUESS",
+   "also_defensible": null,
+   "quote": "an open economy is said to be one that trades with other nations in goods and services and most often, also in financial assets.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 85",
+   "notes": "not covered by claims — c01 mentions trade in goods/services and financial assets but does not state the chapter's two-market focus"
+  },
+  {
+   "id": "q08",
+   "answer": "একটি নির্দিষ্ট সময়কাল, সাধারণত এক বছর",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The balance of payments (BoP) record the transactions in goods, services and assets between residents of a country with the rest of the world for a specified time period typically a year.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 86",
+   "notes": ""
+  },
+  {
+   "id": "q09",
+   "answer": "চলতি হিসাব ও মূলধন হিসাব",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "There are two main accounts in the BoP — the current account and the capital account",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 86",
+   "notes": ""
+  },
+  {
+   "id": "q10",
+   "answer": "বিদেশে থাকা নাগরিকদের পাঠানো রেমিট্যান্স",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Transfer payments are the receipts which the residents of a country get for ‘free’, without having to provide any goods or services in return. They consist of gifts, remittances and grants.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 86",
+   "notes": ""
+  },
+  {
+   "id": "q11",
+   "answer": "সেবা, হস্তান্তর ও দেশগুলির মধ্যে আয়ের প্রবাহ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Invisibles include services, transfers and flows of income that take place between different countries.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 87",
+   "notes": ""
+  },
+  {
+   "id": "q12",
+   "answer": "অন্য দেশগুলিকে ঋণ দিচ্ছে (lender)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "A surplus current account means that the nation is a lender to other countries and a deficit current account means that the nation is a borrower from other countries.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 86",
+   "notes": ""
+  },
+  {
+   "id": "q13",
+   "answer": "লেনদেন ভাগ হয় চলতি, আর্থিক ও মূলধন হিসাবে; RBI পুরনো শ্রেণিবিন্যাস অনুযায়ীও তথ্য প্রকাশ করে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "India has also made the change but the Reserve Bank of India continues to publish data accounting to the old classification.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 86 (footnote) and Box 6.1, p. 90",
+   "notes": ""
+  },
+  {
+   "id": "q14",
+   "answer": "কেবল ১",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Current Account is the record of trade in goods and services and transfer payments.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 86",
+   "notes": "Statement 1 from c05; statement 2 false because BoT covers goods only (c07)"
+  },
+  {
+   "id": "q15",
+   "answer": "সম্পদের সব আন্তর্জাতিক লেনদেনের",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Capital Account records all international transactions of assets.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 88",
+   "notes": ""
+  },
+  {
+   "id": "q16",
+   "answer": "বিদেশ থেকে পাওয়া রেমিট্যান্স",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "These items are Foreign Direct Investments (FDIs), Foreign Institutional Investments (FIIs), external borrowings and assistance.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 88",
+   "notes": "Remittances are transfer payments (c06), not capital account items listed in c12"
+  },
+  {
+   "id": "q17",
+   "answer": "মূলধন হিসাবের উদ্বৃত্ত, অর্থাৎ নিট মূলধন প্রবাহ দিয়ে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "any current account deficit must be financed by a capital account surplus, that is, a net capital inflow.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 88",
+   "notes": ""
+  },
+  {
+   "id": "q18",
+   "answer": "BoP ঘাটতির সময় রিজার্ভ ব্যাংকের বৈদেশিক মুদ্রা বিক্রি",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The reserve bank sells foreign exchange when there is a deficit. This is called official reserve sale.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 89",
+   "notes": ""
+  },
+  {
+   "id": "q19",
+   "answer": "এগুলি BoP-র ফাঁক মেটানো ছাড়া অন্য কারণে, যেমন লাভের জন্য, করা হয়",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "International economic transactions are called autonomous when transactions are made due to some reason other than to bridge the gap in the balance of payments",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 89",
+   "notes": ""
+  },
+  {
+   "id": "q20",
+   "answer": "সব আন্তর্জাতিক লেনদেন নিখুঁতভাবে নথিভুক্ত করা কঠিন বলে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "we have a third element of BoP (apart from the current and capital accounts) called errors and omissions which reflects this.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 89",
+   "notes": ""
+  },
+  {
+   "id": "q21",
+   "answer": "১, ২ এবং ৪",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "These items are Foreign Direct Investments (FDIs), Foreign Institutional Investments (FIIs), external borrowings and assistance.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 88",
+   "notes": "Remittance (3) is a transfer payment, not capital account (c06/c12)"
+  },
+  {
+   "id": "q22",
+   "answer": "একটি মুদ্রার দাম অন্য মুদ্রায় প্রকাশ",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The price of one currency in terms of another currency is known as the foreign exchange rate or simply the exchange rate.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 85",
+   "notes": ""
+  },
+  {
+   "id": "q23",
+   "answer": "বাজারের চাহিদা ও জোগানের শক্তিতে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "This exchange rate is determined by the market forces of demand and supply. It is also known as Floating Exchange Rate.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 92",
+   "notes": ""
+  },
+  {
+   "id": "q24",
+   "answer": "রুপির অবচয় (depreciation)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Increase in exchange rate implies that the price of foreign currency (dollar) in terms of domestic currency (rupees) has increased. This is called Depreciation of domestic currency (rupees) in terms of foreign currency (dollars).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 92",
+   "notes": ""
+  },
+  {
+   "id": "q25",
+   "answer": "স্থির বিনিময় হার ব্যবস্থার — সরকারি সিদ্ধান্তে হার বাড়িয়ে মুদ্রা সস্তা করা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "In a fixed exchange rate system, when some government action increases the exchange rate (thereby, making domestic currency cheaper) is called Devaluation.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 94",
+   "notes": ""
+  },
+  {
+   "id": "q26",
+   "answer": "হারের ওঠানামা কমাতে উপযুক্ত মনে হলে বৈদেশিক মুদ্রা কেনাবেচা করে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Under this system, also called dirty floating, central banks intervene to buy and sell foreign currencies in an attempt to moderate exchange rate movements whenever they feel that such actions are appropriate.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 95",
+   "notes": ""
+  },
+  {
+   "id": "q27",
+   "answer": "বিদেশি পণ্য-সেবা কেনা, বিদেশে উপহার পাঠানো এবং বিদেশি আর্থিক সম্পদ কেনা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "People demand foreign exchange because: they want to purchase goods and services from other countries; they want to send gifts abroad; and, they want to purchase financial assets of a certain country.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+   "page": "Ch. 6, p. 91",
+   "notes": ""
+  },
+  {
+   "id": "q28",
+   "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "LIKELY",
+   "also_defensible": null,
+   "quote": "In 1991, as an immediate measure to resolve the balance of payments crisis, the rupee was devalued against foreign currencies. This led to an increase in the inflow of foreign exchange.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 42",
+   "notes": "c29 states the rupee was devalued in 1991; c22 defines devaluation as government action in a fixed system, supporting R as the explanation"
+  },
+  {
+   "id": "q29",
+   "answer": "পনেরো দিনের (a fortnight) আমদানির জন্যও যথেষ্ট ছিল না",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "foreign exchange reserves , which we generally maintain to import petroleum and other important items, dropped to levels that were not sufficient for even a fortnight.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 39",
+   "notes": ""
+  },
+  {
+   "id": "q30",
+   "answer": "বিশ্ব ব্যাংক (IBRD) ও আন্তর্জাতিক মুদ্রা তহবিল (IMF)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "and received $7 billion as loan to manage the crisis.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, pp. 39-40",
+   "notes": ""
+  },
+  {
+   "id": "q31",
+   "answer": "রুপির অবমূল্যায়ন (devaluation)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "In 1991, as an immediate measure to resolve the balance of payments crisis, the rupee was devalued against foreign currencies. This led to an increase in the inflow of foreign exchange.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 42",
+   "notes": ""
+  },
+  {
+   "id": "q32",
+   "answer": "আমদানির ওপর পরিমাণগত বিধিনিষেধ (QR) আরও বাড়ানো",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The trade policy reforms aimed at (i) dismantling of quantitative restrictions on imports and exports (ii) reduction of tariff rates and (iii) removal of licensing procedures for imports.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 42",
+   "notes": "Reforms aimed to dismantle QR, not increase it (c31)"
+  },
+  {
+   "id": "q33",
+   "answer": "এপ্রিল ২০০১ থেকে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Quantitative restrictions on imports of manufactured consumer goods and agricultural products were also fully removed from April 2001.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 42",
+   "notes": ""
+  },
+  {
+   "id": "q34",
+   "answer": "বাজারে বৈদেশিক মুদ্রার চাহিদা ও জোগানের ভিত্তিতে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Now, more often than not, markets determine exchange rates based on the demand and supply of foreign exchange.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 42",
+   "notes": ""
+  },
+  {
+   "id": "q35",
+   "answer": "কেবল ১",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "In 1991, India met with an economic crisis relating to its external debt — the government was not able to make repayments on its borrowings from abroad",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 39",
+   "notes": "Statement 2 false: reserves were insufficient for even a fortnight (c27)"
+  },
+  {
+   "id": "q36",
+   "answer": "যে কোম্পানি একাধিক দেশে উৎপাদনের মালিক বা নিয়ন্ত্রক",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "A MNC is a company that owns or controls production in more than one nation.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess204.pdf",
+   "page": "Ch. 4, p. 56",
+   "notes": ""
+  },
+  {
+   "id": "q37",
+   "answer": "Special Economic Zone (বিশেষ অর্থনৈতিক অঞ্চল)",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The Special Economic Zones (SEZs) policy was launched in April, 2000. The Special Economic Zones Act, 2005, was passed by Parliament in May, 2005 which received Presidential assent on the 23rd of June, 2005. The SEZ Rules, 2006 came into effect on 10th February, 2006.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1703791&reg=3&lang=2",
+   "page": "PIB release, opening paragraph",
+   "notes": "Expansion appears in c44 quote: 'Special Economic Zones (SEZs)'"
+  },
+  {
+   "id": "q38",
+   "answer": "১৯৯৫ সালে, GATT-র উত্তরসূরি হিসেবে",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The WTO was founded in 1995 as the successor organisation to the General Agreement on Trade and Tariff (GATT). GATT was established in 1948 with 23 countries",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 46",
+   "notes": ""
+  },
+  {
+   "id": "q39",
+   "answer": "১০ ফেব্রুয়ারি ২০০৬",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The Special Economic Zones (SEZs) policy was launched in April, 2000. The Special Economic Zones Act, 2005, was passed by Parliament in May, 2005 which received Presidential assent on the 23rd of June, 2005. The SEZ Rules, 2006 came into effect on 10th February, 2006.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1703791&reg=3&lang=2",
+   "page": "PIB release, opening paragraph",
+   "notes": "SEZ Rules 2006 came into effect on this date (c44)"
+  },
+  {
+   "id": "q40",
+   "answer": "১৯৮২ সালে প্রতিষ্ঠিত; ভারতের আন্তর্জাতিক বাণিজ্যের অর্থায়নের শীর্ষ প্রতিষ্ঠান ও প্রধান রপ্তানি-ঋণ সংস্থা",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Exim Bank of India (Exim Bank) was established in 1982 under an Act of Parliament as the apex financial institution for financing, facilitating and promoting India's international trade.",
+   "source_url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=187523&reg=3&lang=2",
+   "page": "PIB release, Background",
+   "notes": ""
+  },
+  {
+   "id": "q41",
+   "answer": "২, ৪, ১, ৩",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "The WTO was founded in 1995 as the successor organisation to the General Agreement on Trade and Tariff (GATT). GATT was established in 1948 with 23 countries",
+   "source_url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+   "page": "Ch. 3, p. 46",
+   "notes": "GATT 1948 (c33), EXIM 1982 (c46), WTO 1995 (c33), SEZ Rules 2006 (c44)"
+  },
+  {
+   "id": "q42",
+   "answer": "A-২, B-১, C-৪, D-৩",
+   "confidence": "SURE",
+   "also_defensible": null,
+   "quote": "Tax on imports is an example of trade barrier.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess204.pdf",
+   "page": "Ch. 4, p. 64",
+   "notes": "A trade barrier c40; B liberalisation c41; C foreign investment c39; D MNC c38"
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "ক্ষেত্র (Sector)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "One way of doing this is to group them (classify them) using some important criterion. These groups are also called sectors.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 19",
+      "notes": "Groups formed by an important criterion are called sectors."
+    },
+    {
+      "id": "q02",
+      "answer": "দ্রব্য ও পরিষেবা মানুষের মধ্যে কীভাবে বণ্টিত হবে?",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Every society has to answer three questions What goods and services should be produced in the country? How should the goods and services be produced? How should the goods and services be distributed among people?",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "pp. 17-18",
+      "notes": "Distribution is one of the three questions every society must answer."
+    },
+    {
+      "id": "q03",
+      "answer": "ক্রয়ক্ষমতা (Purchasing Power)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In a market economy, also called capitalism, only those consumer goods will be produced that are in demand. In a capitalist society the goods produced are distributed among people not on the basis of what people need but on the basis of Purchasing Power",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "p. 18",
+      "notes": "Capitalist distribution is on purchasing power, not need."
+    },
+    {
+      "id": "q04",
+      "answer": "শুধুমাত্র ১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In a socialist society the government decides what goods are to be produced in accordance with the needs of society. Strictly, a socialist society has no private property since everything is owned by the state.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "p. 18",
+      "notes": "Statements 1 and 2 match the socialist claim; statement 3 describes capitalism (c27), so it is false."
+    },
+    {
+      "id": "q05",
+      "answer": "কীভাবে উৎপাদন হবে?",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Every society has to answer three questions What goods and services should be produced in the country? How should the goods and services be produced? How should the goods and services be distributed among people?",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "pp. 17-18",
+      "notes": "Choice of technique (machines vs labour) answers 'how to produce'."
+    },
+    {
+      "id": "q06",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Most economies are mixed economies, i.e. the government and the market together answer the three questions of what to produce, how to produce and how to distribute what is produced. In a mixed economy, the market will provide whatever goods and services it can produce well, and the government will provide essential goods and services which the market fails to do.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "p. 18",
+      "notes": "Claim states most economies are mixed and defines mixed economy exactly as in R."
+    },
+    {
+      "id": "q07",
+      "answer": "প্রাথমিক ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "When we produce a good by exploiting natural resources, it is an activity of the primary sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 19",
+      "notes": "Exploiting natural resources is primary sector."
+    },
+    {
+      "id": "q08",
+      "answer": "মাছ ধরা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Since most of the natural products we get are from agriculture, dairy, fishing, forestry, this sector is also called agriculture and related sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 20",
+      "notes": "Fishing is listed among natural-product sources of the primary sector; others are secondary/tertiary."
+    },
+    {
+      "id": "q09",
+      "answer": "পরিষেবা ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Transport, storage, communication, banking, trade are some examples of tertiary activities. Since these activities generate services rather than goods, the tertiary sector is also called the service sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 20",
+      "notes": "Tertiary sector is also called the service sector."
+    },
+    {
+      "id": "q10",
+      "answer": "এই ক্ষেত্র ধীরে ধীরে নানা ধরনের শিল্পের সঙ্গে জড়িয়ে গেছে বলে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Since this sector gradually became associated with the different kinds of industries that came up, it is also called as industrial sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 19",
+      "notes": "Called industrial because it gradually became associated with the kinds of industries that came up."
+    },
+    {
+      "id": "q11",
+      "answer": "মাধ্যমিক ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The secondary sector covers activities in which natural products are changed into other forms through ways of manufacturing that we associate with industrial activity.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 20",
+      "notes": "Changing a natural product into another form through manufacturing is secondary sector."
+    },
+    {
+      "id": "q12",
+      "answer": "এগুলি নিজে দ্রব্য তৈরি করে না, উৎপাদন-প্রক্রিয়ার সাহায্য বা সমর্থন হিসেবে কাজ করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "These activities, by themselves, do not produce a good but they are an aid or a support for the production process.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 20",
+      "notes": "Tertiary activities do not produce a good; they aid/support production."
+    },
+    {
+      "id": "q13",
+      "answer": "মাধ্যমিক ক্ষেত্র প্রাথমিক ক্ষেত্রের ওপর নির্ভরশীল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "This is an example of the secondary or industrial sector being dependent on the primary.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 21",
+      "notes": "Sugar-mill example shows secondary sector dependent on primary."
+    },
+    {
+      "id": "q14",
+      "answer": "কাজের প্রকৃতি (Nature of Activity)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In dividing the economic activities into three sectors — primary, secondary, tertiary — the criterion used was the ‘nature of activity’.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 32",
+      "notes": "Criterion stated verbatim: nature of activity."
+    },
+    {
+      "id": "q15",
+      "answer": "ক-২, খ-৩, গ-১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Since most of the natural products we get are from agriculture, dairy, fishing, forestry, this sector is also called agriculture and related sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 20",
+      "notes": "Fisherman=primary (fishing, c03); match-factory worker=secondary (manufacturing, c04); courier=tertiary (transport-type service, c07)."
+    },
+    {
+      "id": "q16",
+      "answer": "শুধুমাত্র ১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Since most of the natural products we get are from agriculture, dairy, fishing, forestry, this sector is also called agriculture and related sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 20",
+      "notes": "Statement 1 true (c03); statement 2 false (tertiary does not itself produce goods, c06); statement 3 true (dairy listed in c03)."
+    },
+    {
+      "id": "q17",
+      "answer": "একটি নির্দিষ্ট বছরে দেশের ভিতরে উৎপাদিত সব চূড়ান্ত দ্রব্য ও পরিষেবার মূল্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "And the sum of production in the three sectors gives what is called the Gross Domestic Product (GDP) of a country. It is the value of all final goods and services produced within a country during a particular year.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 22",
+      "notes": "GDP defined verbatim in claim."
+    },
+    {
+      "id": "q18",
+      "answer": "শুধুমাত্র চূড়ান্ত দ্রব্য ও পরিষেবা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It makes sense only to include the final goods and services. Intermediate goods are used up in producing final goods and services. The value of final goods already includes the value of all the intermediate goods that are used in making the final good.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 21-22",
+      "notes": "Only final goods and services are counted."
+    },
+    {
+      "id": "q19",
+      "answer": "যে দ্রব্য চূড়ান্ত দ্রব্য ও পরিষেবা তৈরিতে ব্যবহৃত হয়ে শেষ হয়ে যায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It makes sense only to include the final goods and services. Intermediate goods are used up in producing final goods and services. The value of final goods already includes the value of all the intermediate goods that are used in making the final good.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 21-22",
+      "notes": "Intermediate goods are used up in producing final goods and services."
+    },
+    {
+      "id": "q20",
+      "answer": "তাতে একই জিনিসের মূল্য বারবার গোনা হবে",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "It makes sense only to include the final goods and services. Intermediate goods are used up in producing final goods and services. The value of final goods already includes the value of all the intermediate goods that are used in making the final good.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 21-22",
+      "notes": "Claim says final value already includes intermediate values, so adding all three double-counts; 'counted repeatedly' wording is an inference from the claim."
+    },
+    {
+      "id": "q21",
+      "answer": "একটি কেন্দ্রীয় সরকারি মন্ত্রক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In India, the mammoth task of measuring GDP is undertaken by a central government ministry.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 22",
+      "notes": "GDP measurement is undertaken by a central government ministry."
+    },
+    {
+      "id": "q22",
+      "answer": "৮০ টাকা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "It makes sense only to include the final goods and services. Intermediate goods are used up in producing final goods and services. The value of final goods already includes the value of all the intermediate goods that are used in making the final good.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 21-22",
+      "notes": "Only the final good (biscuit, Rs 80 given in the stem) counts per c08/c09; the specific NCERT chain figures are not themselves in the claims."
+    },
+    {
+      "id": "q23",
+      "answer": "A ও R উভয়ই সত্য, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+      "confidence": "LIKELY",
+      "also_defensible": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "quote": "A good indicator of economic growth, in the language of economics, is steady increase in the Gross Domestic Product (GDP). The GDP is the market value of all the final goods and services produced in the country during a year.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "pp. 19-20",
+      "notes": "Both A and R are verbatim in c31, but R is a definition of GDP, not an explanation of why its steady increase indicates growth; the 'R explains A' option is also defensible under loose exam convention."
+    },
+    {
+      "id": "q24",
+      "answer": "শুধুমাত্র ১ ও ২",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "And the sum of production in the three sectors gives what is called the Gross Domestic Product (GDP) of a country. It is the value of all final goods and services produced within a country during a particular year.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 22",
+      "notes": "Statement 1 verbatim in c09; statement 3 contradicts c08; statement 2 ('shows size of economy') is not verbatim in the claims but is the only consistent completion."
+    },
+    {
+      "id": "q25",
+      "answer": "প্রাথমিক ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "at initial stages of development, primary sector was the most important sector of economic activity.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 23",
+      "notes": "Primary sector was most important at initial stages."
+    },
+    {
+      "id": "q26",
+      "answer": "তৃতীয় ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "As a result, in the year 2013-14, the tertiary sector has emerged as the largest producing sector in India replacing the primary sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 23-24",
+      "notes": "In 2013-14 tertiary emerged as largest producing sector."
+    },
+    {
+      "id": "q27",
+      "answer": "প্রাথমিক ক্ষেত্র",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The primary sector continues to be the largest employer even now.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 24-25",
+      "notes": "Primary sector continues to be the largest employer."
+    },
+    {
+      "id": "q28",
+      "answer": "৪০.৫৯ শতাংশ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In India, the share of agriculture in the GDP was more than 50 per cent. But by 1990 the share of the service sector was 40.59 per cent, more than that of agriculture or industry",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "p. 19",
+      "notes": "Service sector share by 1990 was 40.59 per cent."
+    },
+    {
+      "id": "q29",
+      "answer": "জিডিপি-তে তৃতীয় ক্ষেত্রের অবদান সবচেয়ে বেশি, কিন্তু কর্মসংস্থান রয়ে গেছে প্রাথমিক ক্ষেত্রে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The data for India, for the last thirty years, shows that while goods and services produced in the tertiary sector contribute the most to GDP, the employment remains in the primary sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 34",
+      "notes": "Tertiary contributes most to GDP while employment remains in primary."
+    },
+    {
+      "id": "q30",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "The data for India, for the last thirty years, shows that while goods and services produced in the tertiary sector contribute the most to GDP, the employment remains in the primary sector.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 34",
+      "notes": "not covered by claims: statement 1 (developed-country shift over 100 years) appears in no claim; statement 2 is contradicted by c13/c14, so 'only 1' is the best answer by elimination."
+    },
+    {
+      "id": "q31",
+      "answer": "কর্মসংস্থানের শর্ত নিয়মিত, কাজ নিশ্চিত এবং প্রতিষ্ঠান সরকারের কাছে নথিভুক্ত",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Organised sector covers those enterprises or places of work where the terms of employment are regular and therefore, people have assured work. They are registered by the government and have to follow its rules and regulations",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 29-30",
+      "notes": "Regular terms, assured work and government registration define the organised sector."
+    },
+    {
+      "id": "q32",
+      "answer": "ছোট ও ছড়িয়ে-থাকা একক, যা মূলত সরকারের নিয়ন্ত্রণের বাইরে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The unorganised sector is characterised by small and scattered units which are largely outside the control of the government. There are rules and regulations but these are not followed. Jobs here are lowpaid and often not regular.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 30-31",
+      "notes": "Small scattered units largely outside government control."
+    },
+    {
+      "id": "q33",
+      "answer": "ভবিষ্য তহবিল (Provident Fund) ও গ্র্যাচুইটি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "They get paid leave, payment during holidays, provident fund, gratuity etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 30-31",
+      "notes": "Provident fund and gratuity are listed organised-sector benefits."
+    },
+    {
+      "id": "q34",
+      "answer": "অর্ধবেকারত্বের লুকানো রূপ — কাজে থাকা মানুষকে সরিয়ে নিলেও উৎপাদন কমে না",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "This underemployment is hidden in contrast to someone who does not have a job and is clearly visible as unemployed. Hence, it is also called disguised unemployment.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 25-26",
+      "notes": "Disguised unemployment is the hidden form of underemployment where more people work than necessary (c15); the 'removal does not reduce output' phrasing is implied, not verbatim."
+    },
+    {
+      "id": "q35",
+      "answer": "মানুষ আপাতদৃষ্টিতে কাজ করছে, কিন্তু প্রত্যেকে তার সামর্থ্যের চেয়ে কম কাজ করছে",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "This underemployment is hidden in contrast to someone who does not have a job and is clearly visible as unemployed. Hence, it is also called disguised unemployment.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 25-26",
+      "notes": "Closest option to c15's underemployment (apparently working but more people than necessary / below capacity); exact 'less than capacity' wording is not verbatim in the claims."
+    },
+    {
+      "id": "q36",
+      "answer": "তাঁরা ওভারটাইমের মজুরি ও বেতনসহ ছুটির নিশ্চিত সুবিধা পান",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "There is no provision for overtime, paid leave, holidays, leave due to sickness etc. Employment is not secure.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 31",
+      "notes": "This statement is false: c19 says there is NO provision for overtime, paid leave or holidays in the unorganised sector."
+    },
+    {
+      "id": "q37",
+      "answer": "১, ২ ও ৩",
+      "confidence": "GUESS",
+      "also_defensible": "শুধুমাত্র ১ ও ২",
+      "quote": "The unorganised sector is characterised by small and scattered units which are largely outside the control of the government. There are rules and regulations but these are not followed. Jobs here are lowpaid and often not regular.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 30-31",
+      "notes": "not covered by claims: statement 2 is verbatim (c18), but the specific Acts named in statement 1 and post-retirement pension in statement 3 are not in the claims (c16/c17 mention rules, PF and gratuity only); 'only 1 and 2' is also defensible on claims alone."
+    },
+    {
+      "id": "q38",
+      "answer": "সম্পদের মালিকানা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Another way of classifying economic activities into sectors could be on the basis of who owns assets and is responsible for the delivery of services. In the public sector, the government owns most of the assets and provides all the services.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 32-33",
+      "notes": "Public/private classification is on the basis of who owns assets."
+    },
+    {
+      "id": "q39",
+      "answer": "রেলওয়ে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Railways or post office is an example of the public sector whereas companies like Tata Iron and Steel Company Limited (TISCO) or Reliance Industries Limited (RIL) are privately owned.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 33",
+      "notes": "Railways is given as a public-sector example; TISCO and RIL are private."
+    },
+    {
+      "id": "q40",
+      "answer": "মুনাফা অর্জন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Activities in the private sector are guided by the motive to earn profits. The purpose of the public sector is not just to earn profits.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "p. 33",
+      "notes": "Private-sector activities are guided by the profit motive."
+    },
+    {
+      "id": "q41",
+      "answer": "এমন অর্থনীতি যেখানে সরকার ও বাজার একসঙ্গে কী উৎপাদন হবে, কীভাবে হবে ও কীভাবে বণ্টন হবে — ঠিক করে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Most economies are mixed economies, i.e. the government and the market together answer the three questions of what to produce, how to produce and how to distribute what is produced. In a mixed economy, the market will provide whatever goods and services it can produce well, and the government will provide essential goods and services which the market fails to do.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+      "page": "p. 18",
+      "notes": "Mixed economy defined verbatim: government and market together answer the three questions."
+    },
+    {
+      "id": "q42",
+      "answer": "শুধুমাত্র ১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Another way of classifying economic activities into sectors could be on the basis of who owns assets and is responsible for the delivery of services. In the public sector, the government owns most of the assets and provides all the services.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+      "page": "pp. 32-33",
+      "notes": "Statement 1 true (c20); statement 2 false (public purpose is not just profit, c21); statement 3 true (c30)."
+    }
+  ]
+}

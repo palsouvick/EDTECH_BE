@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "পরিবারের আয় বা ভোগব্যয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Traditionally, poverty has been measured by assessing monetary resources available for an individual or household . The monetary metric generally used were household income or consumption expenditure .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 1",
+      "notes": ""
+    },
+    {
+      "id": "q02",
+      "answer": "গ্রামাঞ্চলে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "We also know that the majority of the poor live in rural areas where they do not have access to the basic necessities of life.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+      "page": "p. 75",
+      "notes": ""
+    },
+    {
+      "id": "q03",
+      "answer": "আয় থাকলেও তা পরিবারের কল্যাণে খরচ নাও হতে পারে এবং মৌলিক পরিষেবায় বঞ্চনা থেকে যেতে পারে",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "Income, while necessary, is not a sufficient condition to ensure the overall well-being of individuals",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 1",
+      "notes": "Claim states income is necessary but not sufficient for well-being; combined with c02 on multiple deprivations."
+    },
+    {
+      "id": "q04",
+      "answer": "শুধু (i) সঠিক",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims"
+    },
+    {
+      "id": "q05",
+      "answer": "এক-চতুর্থাংশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "more than twothird of India's population depends on agriculture that is yet to become productive enough to provide for them; onefourth of rural India still lives in abject poverty.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+      "page": "p. 75",
+      "notes": ""
+    },
+    {
+      "id": "q06",
+      "answer": "মানুষ যাতে সম্পদকে মূল্যবান ফলাফলে রূপান্তরিত করতে পারে, সেই ক্ষমতা বাড়ানো",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "However, this approach of measuring poverty has been criticized for not capturing the multiple deprivations which may be faced by individuals in their lives . Development not only constitutes economic progress, but also the process of expanding people's capabilities to convert resources into valuable outcomes .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 1",
+      "notes": ""
+    },
+    {
+      "id": "q07",
+      "answer": "A ও R উভয়ই সঠিক এবং R হল A-র সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "However, this approach of measuring poverty has been criticized for not capturing the multiple deprivations which may be faced by individuals in their lives . Development not only constitutes economic progress, but also the process of expanding people's capabilities to convert resources into valuable outcomes .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 1",
+      "notes": "Claim supports failure to capture multiple deprivations; specific sanitation example not verbatim in claims."
+    },
+    {
+      "id": "q08",
+      "answer": "স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মান",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Global MPI uses ten indicators covering three areas namely health, education and standard of living .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q09",
+      "answer": "১২টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The National Multidimensional Poverty Index by NITI Aayog uses the internationally acclaimed Alkire Foster methodology with a difference that National MPI covers 12 indicators while global MPI covers 10 indicators.",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "Abstract, p. 1",
+      "notes": ""
+    },
+    {
+      "id": "q10",
+      "answer": "মাতৃস্বাস্থ্য ও ব্যাংক অ্যাকাউন্ট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The national MPI retains all the ten indicators from the global MPI and incorporates two additional indicators, Maternal Health and Bank Accounts, in line with India's national priorities .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 3",
+      "notes": ""
+    },
+    {
+      "id": "q11",
+      "answer": "MPI = H × A",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The MPI is computed by multiplying the incidence of multidimensional poverty (H) and the intensity of poverty (A), denoted as MPI = H x A .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 2",
+      "notes": ""
+    },
+    {
+      "id": "q12",
+      "answer": "ওজনযুক্ত সূচকগুলির অন্তত এক-তৃতীয়াংশে বঞ্চিত হলে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Global MPI uses ten indicators covering three areas namely health, education and standard of living .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 2",
+      "notes": "Claim text states deprived in a third or more of weighted indicators; quote covers the three areas/ten indicators."
+    },
+    {
+      "id": "q13",
+      "answer": "(i)-(খ), (ii)-(ক), (iii)-(ঘ), (iv)-(গ)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The National Multidimensional Poverty Index by NITI Aayog uses the internationally acclaimed Alkire Foster methodology with a difference that National MPI covers 12 indicators while global MPI covers 10 indicators.",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "Abstract, p. 1",
+      "notes": "Counts from c08; H/A definitions from c07."
+    },
+    {
+      "id": "q14",
+      "answer": "অলকির–ফস্টার (Alkire–Foster) পদ্ধতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The National Multidimensional Poverty Index by NITI Aayog uses the internationally acclaimed Alkire Foster methodology with a difference that National MPI covers 12 indicators while global MPI covers 10 indicators.",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "Abstract, p. 1",
+      "notes": ""
+    },
+    {
+      "id": "q15",
+      "answer": "১১.২৮%",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Multidimensional poverty in India was found to decline from 29.17% in 2013-14 to 11.28% in 2022-23 with about 24.82 crore people escaping poverty during this period.",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "Abstract, p. 1",
+      "notes": ""
+    },
+    {
+      "id": "q16",
+      "answer": "প্রায় ২৪.৮২ কোটি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Multidimensional poverty in India was found to decline from 29.17% in 2013-14 to 11.28% in 2022-23 with about 24.82 crore people escaping poverty during this period.",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "Abstract, p. 1",
+      "notes": ""
+    },
+    {
+      "id": "q17",
+      "answer": "উত্তরপ্রদেশ (৫.৯৪ কোটি)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "At the States' level, Uttar Pradesh topped the list with 5.94 crore people escaping poverty followed by Bihar at 3.77 crore and Madhya Pradesh at 2.30 crore.",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "Abstract, p. 1",
+      "notes": ""
+    },
+    {
+      "id": "q18",
+      "answer": "(i), (ii) ও (iii) সবগুলিই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The proportion of multi dimensionally poor persons in total population has fallen from 55 .34% in 2005-06 to 24 .85% in 2015-16 and to 14 .96% in 2019-21 .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 4",
+      "notes": "Claim text notes NFHS rounds 3 to 5."
+    },
+    {
+      "id": "q19",
+      "answer": "স্যানিটেশন (২১.৮ শতাংশ-বিন্দু)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "deprivations in sanitation decreased by 21 .8 percentage points, and deprivations in cooking fuel decreased by 14 .6 percentage points between 2015-16 and 2019-21 .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 5",
+      "notes": ""
+    },
+    {
+      "id": "q20",
+      "answer": "গ্রামে ৩২.৫৯% থেকে ১৯.২৮%, শহরে ৮.৬৫% থেকে ৫.২৭% — গ্রামে হ্রাস বেশি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Poverty in rural India fell from 32 .59% to 19 .28% while in urban areas it declined from 8 .65% to 5 .27% . Thus, rural population witnessed a larger decline in poverty as compared to urban population .",
+      "source_url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "page": "p. 5",
+      "notes": ""
+    },
+    {
+      "id": "q21",
+      "answer": "শুধু (ii) সঠিক",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims"
+    },
+    {
+      "id": "q22",
+      "answer": "ছদ্ম বেকারত্ব (Disguised Unemployment)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Suppose a farmer has four acres of land and he actually needs only two workers and himself to carry out various operations on his farm in a year, but if he employs five workers and his family members such as his wife and children, this situation is known as disguised unemployment.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 107",
+      "notes": ""
+    },
+    {
+      "id": "q23",
+      "answer": "মরসুমি বেকারত্ব (Seasonal Unemployment)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This is because work in agriculture is seasonal; there are no employment opportunities in the village for all months in the year.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "pp. 107-108",
+      "notes": ""
+    },
+    {
+      "id": "q24",
+      "answer": "যিনি আধা দিনে এক ঘণ্টার কাজও পান না",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Economists define unemployed person as one who is not able to get employment of even one hour in half a day.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 107",
+      "notes": ""
+    },
+    {
+      "id": "q25",
+      "answer": "৪১.১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "During 2022-23, India had about a 545 million strong workforce.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "pp. 94-95",
+      "notes": "WPR 41.1 is in claim text; quote in file covers workforce size."
+    },
+    {
+      "id": "q26",
+      "answer": "নিয়মিত আয় নেই এবং সরকারি সুরক্ষা ছাড়াই ক্ষতিপূরণহীন ছাঁটাই হতে পারে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Workers and enterprises in the informal sector do not get regular income; they do not have any protection or regulation from the government. Workers are dismissed without any compensation.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 105",
+      "notes": ""
+    },
+    {
+      "id": "q27",
+      "answer": "কাজের অভাবে কাজ না করা, কিন্তু কাজ খোঁজা বা কাজের জন্য উপলব্ধ থাকা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "defines unemployment as a situation in which all those who, owing to lack of work, are not working but either seek work through employment exchanges, intermediaries, friends or relatives or by making applications to prospective employers or express their willingness or availability for work under the prevailing condition of work and remunerations.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 107",
+      "notes": ""
+    },
+    {
+      "id": "q28",
+      "answer": "A ও R উভয়ই সঠিক এবং R হল A-র সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "Suppose a farmer has four acres of land and he actually needs only two workers and himself to carry out various operations on his farm in a year, but if he employs five workers and his family members such as his wife and children, this situation is known as disguised unemployment.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 107",
+      "notes": "Claim gives the disguised-unemployment example; removal-without-output-loss is the definition implied by the example."
+    },
+    {
+      "id": "q29",
+      "answer": "শিক্ষায় বিনিয়োগ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Investment in education is considered as one of the main sources of human capital. There are several other sources as well. Investments in health, onthejob training, migration and information are the other sources of human capital formation.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "page": "p. 60",
+      "notes": ""
+    },
+    {
+      "id": "q30",
+      "answer": "ভৌত কারখানা নির্মাণ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Investment in education is considered as one of the main sources of human capital. There are several other sources as well. Investments in health, onthejob training, migration and information are the other sources of human capital formation.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "page": "p. 60",
+      "notes": "Claim lists health, on-the-job training, migration and information as other sources; factory construction is not among them."
+    },
+    {
+      "id": "q31",
+      "answer": "মানব পুঁজি শিক্ষা-স্বাস্থ্যকে উৎপাদন বাড়ানোর উপায় মনে করে; মানব উন্নয়ন সেগুলিকে কল্যাণের অবিচ্ছেদ্য অংশ মনে করে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Human capital considers education and health as a means to increase labour productivity. Human development is based on the idea that education and health are integral to human wellbeing",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "page": "p. 66",
+      "notes": ""
+    },
+    {
+      "id": "q32",
+      "answer": "সপ্তম পঞ্চবার্ষিক পরিকল্পনা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Seventh Five Year Plan says, \"Human resources development (read human capital) has necessarily to be assigned a key role in any development strategy, particularly in a country with a large population.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "page": "p. 64",
+      "notes": ""
+    },
+    {
+      "id": "q33",
+      "answer": "৭৮%",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Literacy Rate (%) 16.67 43.57 52.21 65.20 78",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "page": "Table 4.1, p. 64",
+      "notes": ""
+    },
+    {
+      "id": "q34",
+      "answer": "দারিদ্র্যসীমার নিচে থাকা বিশাল অংশের মানুষ মৌলিক শিক্ষা ও স্বাস্থ্যসেবা কিনতে পারে না",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In a developing country like India, with a large section of the population living below the poverty line, many people cannot afford to access basic education and health care facilities.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "page": "p. 67",
+      "notes": ""
+    },
+    {
+      "id": "q35",
+      "answer": "(i) ও (ii) উভয়ই সঠিক",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "Human capital considers education and health as a means to increase labour productivity. Human development is based on the idea that education and health are integral to human wellbeing",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "page": "p. 66",
+      "notes": "Claim supports integral-to-well-being vs means-to-productivity contrast; rights wording in (i) is not verbatim."
+    },
+    {
+      "id": "q36",
+      "answer": "২০০৫ সালে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the Mahatma Gandhi National Rural Employment Guarantee Act 2005. It promises 100 days of guaranteed wage employment to all rural households who volunteer to do unskilled manual work.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 108",
+      "notes": ""
+    },
+    {
+      "id": "q37",
+      "answer": "১০০ দিন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the Mahatma Gandhi National Rural Employment Guarantee Act 2005. It promises 100 days of guaranteed wage employment to all rural households who volunteer to do unskilled manual work.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 108",
+      "notes": ""
+    },
+    {
+      "id": "q38",
+      "answer": "১৯৮২ সালে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "National Bank for Agriculture and Rural Development (NABARD) was set up in 1982 as an apex body to coordinate the activities of all institutions involved in the rural financing system.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+      "page": "p. 78",
+      "notes": ""
+    },
+    {
+      "id": "q39",
+      "answer": "কেরল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "'Kudumbashree' is a womenoriented communitybased poverty reduction programme being implemented in Kerala. In 1995, a thrift and credit society was started as a small savings bank for poor women with the objective to encourage savings. The thrift and credit society mobilised Rs 1 crore as thrift savings.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+      "page": "Box 5.1, p. 78",
+      "notes": ""
+    },
+    {
+      "id": "q40",
+      "answer": "ক্ষুদ্রঋণ কর্মসূচি (Micro-credit Programme)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The SHGs promote thrift in small proportions by a minimum contribution from each member. From the pooled money, credit is given to the needy members to be repayable in small instalments at reasonable interest rates.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+      "page": "p. 78",
+      "notes": "Claim text calls such provisions micro-credit programmes."
+    },
+    {
+      "id": "q41",
+      "answer": "(i) ও (ii) উভয়ই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Their efforts can be broadly categorised into two — direct and indirect.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "page": "p. 108",
+      "notes": "Claim text details direct and indirect kinds; quote is abbreviated."
+    },
+    {
+      "id": "q42",
+      "answer": "মূলত গ্রামগুলির উন্নয়ন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Mahatma Gandhi once said that the real progress of India did not mean simply the growth and expansion of industrial urban centres but mainly the development of the villages.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+      "page": "p. 75",
+      "notes": ""
+    }
+  ]
+}

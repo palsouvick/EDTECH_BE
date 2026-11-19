@@ -1,0 +1,1376 @@
+{
+  "book": "economy",
+  "code": "ECO-02",
+  "number": 2,
+  "part": "foundations",
+  "title": "মুদ্রাস্ফীতি ও জাতীয় আয়",
+  "subtitle": "দাম কেন বাড়ে, আর দেশের আয় মাপা হয় কীভাবে",
+  "subtopics": [
+    "inflation_income"
+  ],
+  "related_facts": [
+    "GK-ECO-004",
+    "GK-ECO-005"
+  ],
+  "prerequisites": [
+    "ECO-01"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 30,
+    "deep": 45
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (30 SURE, 9 LIKELY, 3 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 15 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ECO-02.json and drafts/ECO-02_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ECO-02_REPORT.md.",
+    "checked_claims": 35,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "একটি দেশে এক বছরে মোট কত মূল্যের পণ্য ও সেবা তৈরি হল, সেই হিসাবই জাতীয় আয়ের ভিত্তি — GDP, GNP, NNP-র সিঁড়ি বেয়ে আমরা পৌঁছোই 'জাতীয় আয়' নামক চূড়ান্ত পরিমাপে। আবার দাম বাড়তে থাকলে সেই আয়ের আসল মূল্য কমে যায়; তাই জাতীয় আয়ের পাশাপাশি মুদ্রাস্ফীতি কী, তা CPI ও WPI দিয়ে কীভাবে মাপা হয়, আর RBI কীভাবে ৪ শতাংশের লক্ষ্য ধরে তা নিয়ন্ত্রণ করে — এই অধ্যায়ে দুটোই ধাপে ধাপে শেখা হবে। পরীক্ষায় এই অধ্যায় থেকে সংজ্ঞা, সূত্র আর সূচক-সংক্রান্ত প্রশ্ন বারবার আসে।",
+    "you_will_learn": [
+      "GDP-র সংজ্ঞা ও চূড়ান্ত পণ্যের ধারণা",
+      "GDP থেকে GNP, NNP হয়ে জাতীয় আয়ে পৌঁছোনোর সিঁড়ি",
+      "নামিক ও প্রকৃত GDP এবং GDP ডিফ্লেটরের সূত্র",
+      "GDP কেন কল্যাণের পূর্ণ মাপকাঠি নয়",
+      "মুদ্রাস্ফীতি, চাহিদা-চাপ ও ব্যয়-চাপ মুদ্রাস্ফীতির ধারণা",
+      "CPI ও WPI কে প্রকাশ করে, তাদের বর্তমান ভিত্তিবর্ষ",
+      "RBI-র মুদ্রাস্ফীতি লক্ষ্য ৪% ± ২% ও ব্যর্থতার সংজ্ঞা"
+    ]
+  },
+  "sections": [
+    {
+      "id": "national_income_basics",
+      "heading": "জাতীয় আয়ের ভিত্তি: GDP ও চূড়ান্ত পণ্য",
+      "quick": "GDP হল কোনো দেশের অভ্যন্তরীণ ভূখণ্ডে এক বছরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার বাজারমূল্য। মাঝখানের (অন্তর্বর্তী) পণ্য আলাদা করে গুনলে দ্বৈত গণনার ভুল হয়, কারণ চূড়ান্ত পণ্যের মূল্যের মধ্যেই সেগুলির মূল্য ঢুকে থাকে। জাতীয় আয় মাপা যায় তিনটি পদ্ধতিতে — উৎপাদন, আয় ও ব্যয় পদ্ধতি।",
+      "standard": "জাতীয় আয় বুঝতে হলে প্রথমে বুঝতে হবে কোন পণ্য 'চূড়ান্ত' আর কোনটি 'অন্তর্বর্তী'। কৃষক তুলো বেচেন সুতা-কলে, সুতা যায় কাপড়ের কলে, কাপড় থেকে তৈরি পোশাক শেষে ভোক্তার হাতে পৌঁছোয়। পোশাকটি চূড়ান্ত পণ্য, কারণ বিক্রির পর তা আর উৎপাদনের কোনো ধাপে যায় না। তুলো ও সুতা অন্তর্বর্তী পণ্য — সেগুলি অন্য পণ্য তৈরির উপকরণ।\n\nকেন শুধু চূড়ান্ত পণ্য গোনা হয়? কারণ চূড়ান্ত পণ্যের মূল্যের ভেতরেই অন্তর্বর্তী পণ্যগুলির মূল্য অন্তর্ভুক্ত থাকে। তুলো, সুতা আর পোশাক — তিনটের মূল্য আলাদা করে যোগ করলে একই মূল্য বারবার গোনা হবে; একে বলে **দ্বৈত গণনা (double counting)**।\n\nএই চূড়ান্ত পণ্য ও সেবার মোট বাজারমূল্যই **GDP (Gross Domestic Product)**: কোনো দেশের অভ্যন্তরীণ ভূখণ্ডে এক বছরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার বাজারমূল্য। লক্ষ্য করো — এখানে মাপকাঠি 'ভূখণ্ড': ভারতের ভেতরে বিদেশি কোম্পানির কারখানার উৎপাদনও ভারতের GDP-তে ঢোকে।\n\nজাতীয় আয় মাপার তিনটি পদ্ধতি আছে: (ক) **উৎপাদন পদ্ধতি** — সংস্থাগুলির উৎপাদিত পণ্য ও সেবার মোট মূল্য; (খ) **আয় পদ্ধতি** — উপাদানগুলিকে দেওয়া মোট পারিশ্রমিক (মজুরি, খাজনা, সুদ, মুনাফা); (গ) **ব্যয় পদ্ধতি** — সংস্থাগুলির পাওয়া মোট ব্যয়। অর্থনীতির বৃত্তাকার প্রবাহের কারণে তিনটি পদ্ধতিতেই একই উত্তর আসে।\n\nশেষে মনে রাখো: আয়, উৎপাদন, মুনাফা — এগুলি **প্রবাহ (flow)**, কারণ এগুলি নির্দিষ্ট সময়কাল ধরে মাপা হয়; আর মূলধন বা মজুত হল **মজুত (stock)**, যা মাপা হয় কোনো নির্দিষ্ট মুহূর্তে।",
+      "deep": "NCERT-র উদাহরণে দ্বৈত গণনার বিপদটি পরিষ্কার: অন্তর্বর্তী পণ্য আলাদা গুনলে অর্থনৈতিক কর্মকাণ্ডের প্রকৃত মূল্য অতিরঞ্জিত হয়ে যায়। তাই উৎপাদন পদ্ধতিতে প্রতিটি সংস্থার 'মূল্য সংযোজন' (উৎপাদনের মূল্য − অন্তর্বর্তী ব্যয়) যোগ করা হয়। আবার 'বিনিয়োগ' শব্দটির অর্থনৈতিক অর্থ দৈনন্দিন অর্থের থেকে আলাদা: শেয়ার বা সম্পত্তি কেনা নয়, মূলধন মজুতে নিট সংযোজনই এখানে বিনিয়োগ।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার টিপস",
+          "body": "GDP-র সংজ্ঞায় তিনটি শব্দ মুখস্থ রাখো: **চূড়ান্ত** পণ্য ও সেবা, **অভ্যন্তরীণ ভূখণ্ড**, **এক বছর**। ভুল বিকল্পে প্রায়ই 'অন্তর্বর্তী পণ্যসহ' বা 'নাগরিকদের উৎপাদন' (সেটি GNP) ঢুকিয়ে দেওয়া হয়।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c21"
+      ]
+    },
+    {
+      "id": "aggregates_ladder",
+      "heading": "মোট থেকে নিট: GDP, GNP, NNP ও জাতীয় আয়",
+      "quick": "GDP-র সঙ্গে বিদেশ থেকে নিট উপাদান আয় যোগ করলে GNP; GNP থেকে অবচয় বাদ দিলে NNP; আর বাজারদামে NNP থেকে নিট পরোক্ষ কর বাদ দিলে পাওয়া যায় উপাদান ব্যয়ে NNP — যারই অন্য নাম **জাতীয় আয়**।",
+      "standard": "জাতীয় আয়ের পরিমাপগুলির সিঁড়িটি তিনটি ধাপে মনে রাখো।\n\n**ধাপ ১ — GDP থেকে GNP:** GDP ভূখণ্ডভিত্তিক। কিন্তু ভারতীয় নাগরিক বিদেশে আয় করতে পারেন, আবার বিদেশিরা ভারতেও আয় করেন। দেশের স্বাভাবিক বাসিন্দাদের (দেশে বা বিদেশে) সব উৎপাদন ধরতে হলে GDP-র সঙ্গে যোগ করতে হয় **বিদেশ থেকে নিট উপাদান আয় (NFIA)** = বিদেশে নিযুক্ত দেশীয় উপাদানগুলির আয় − দেশে নিযুক্ত বিদেশি উপাদানগুলির আয়। ফল: **GNP = GDP + NFIA**।\n\n**ধাপ ২ — GNP থেকে NNP:** উৎপাদনে যন্ত্রপাতি ও মূলধন ক্ষয়প্রাপ্ত হয়; এই ক্ষয়পূরণের বরাদ্দই **অবচয় (Depreciation)**। অবচয় কারো আয় নয়। তাই **NNP = GNP − অবচয়**। একই যুক্তিতে NDP = GDP − অবচয় — অর্থাৎ GDP ও NDP-র পার্থক্য হল অবচয় (WBCS ২০২৪-এ আসা প্রশ্ন)।\n\n**ধাপ ৩ — বাজারদাম থেকে উপাদান ব্যয়:** বাজারদামে পরোক্ষ কর ঢুকে থাকে, যা সরকারের কাছে যায়, উপাদানগুলির হাতে পৌঁছোয় না। আবার ভর্তুকি দাম কমায়। তাই বাজারদামে NNP থেকে **নিট পরোক্ষ কর (পরোক্ষ কর − ভর্তুকি)** বাদ দিলে পাওয়া যায় **উপাদান ব্যয়ে NNP**, যারই নাম **জাতীয় আয় (National Income)**।\n\nসূত্র এক লাইনে: জাতীয় আয় = NNP(বাজারদাম) − নিট পরোক্ষ কর।",
+      "deep": "পরিবারের হাতে প্রকৃতপক্ষে কত আয় পৌঁছোয়, তা দেখতে জাতীয় আয় থেকে আরও দুটি ধাপ নামতে হয়। **ব্যক্তিগত আয় (Personal Income)** = জাতীয় আয় − অবণ্টিত মুনাফা − পরিবারগুলির নিট সুদ প্রদান − কর্পোরেট কর + সরকার ও সংস্থা থেকে পরিবারগুলির পাওয়া হস্তান্তর অর্থ (পেনশন, বৃত্তি ইত্যাদি)। তার থেকে ব্যক্তিগত কর ও কর-বহির্ভূত প্রদান বাদ দিলে **ব্যক্তিগত ব্যয়যোগ্য আয় (PDI)** — এই অংশটুকুই পরিবার ভোগ বা সঞ্চয়ে খরচের সিদ্ধান্ত নিতে পারে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "'মোট' (Gross) বনাম 'নিট' (Net)-এর পার্থক্য = **অবচয়**; 'অভ্যন্তরীণ' (Domestic) বনাম 'জাতীয়' (National)-এর পার্থক্য = **NFIA**; 'বাজারদাম' বনাম 'উপাদান ব্যয়'-এর পার্থক্য = **নিট পরোক্ষ কর**। তিনটি পার্থক্য আলাদা রাখলেই পুরো সিঁড়ি পরিষ্কার।"
+        }
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c35",
+        "c11",
+        "c12"
+      ]
+    },
+    {
+      "id": "nominal_real_deflator",
+      "heading": "নামিক ও প্রকৃত GDP, GDP ডিফ্লেটর",
+      "quick": "চলতি দামে মাপা GDP হল নামিক GDP; স্থির (ভিত্তিবর্ষের) দামে মাপা GDP হল প্রকৃত GDP। দুটির অনুপাতই **GDP ডিফ্লেটর** — দামস্তর কতটা বদলেছে তার মাপ। ডিফ্লেটর ১৫০ মানে ভিত্তিবর্ষের তুলনায় দাম দেড় গুণ।",
+      "standard": "দাম বদলালে শুধু GDP-র অঙ্ক দেখে উৎপাদন বেড়েছে কি না বোঝা যায় না। NCERT-র রুটির উদাহরণটি দেখো: ২০০০ সালে ১০০টি রুটি, দাম ১০ টাকা করে — GDP ১,০০০ টাকা। ২০০১ সালে ১১০টি রুটি, দাম ১৫ টাকা — চলতি দামে GDP ১,৬৫০ টাকা। অঙ্ক ৬৫% বাড়লেও উৎপাদন বেড়েছে মাত্র ১০%।\n\nতাই তুলনার জন্য **প্রকৃত GDP** মাপা হয় স্থির দামে: ২০০১-এর উৎপাদনকে ভিত্তিবর্ষ ২০০০-এর দামে মূল্যায়ন করলে ১১০ × ১০ = ১,১০০ টাকা। দাম স্থির থাকায় প্রকৃত GDP বদলালেই বুঝতে হবে উৎপাদনের পরিমাণ বদলেছে। আর **নামিক GDP** হল সরাসরি চলতি দামে মাপা মূল্য।\n\nদুটির অনুপাত — **GDP ডিফ্লেটর = নামিক GDP ÷ প্রকৃত GDP** — দামস্তরের সূচক। উদাহরণে ডিফ্লেটর = ১,৬৫০ ÷ ১,১০০ = ১.৫০, অর্থাৎ শতকরা হিসাবে ১৫০%; দাম সত্যিই ১০ থেকে ১৫ টাকা হয়েছে বলেই এই মিল। অনুপাতটি উল্টে লেখা (প্রকৃত ÷ নামিক) সবচেয়ে সাধারণ পরীক্ষার ফাঁদ।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "ডিফ্লেটর > ১০০ (বা > ১) মানে ভিত্তিবর্ষের তুলনায় দাম বেড়েছে; ডিফ্লেটর ঠিক ১০০ মানে দাম অপরিবর্তিত। নামিক GDP সবসময় চলতি দামের, প্রকৃত GDP সবসময় ভিত্তিবর্ষের দামের।"
+        }
+      ],
+      "claims": [
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "id": "gdp_welfare_limits",
+      "heading": "GDP কি কল্যাণের মাপকাঠি? সীমাবদ্ধতা",
+      "quick": "বেশি GDP মানেই সবার কল্যাণ বেড়েছে — এমন নয়। NCERT তিনটি কারণ দেখায়: আয়ের বণ্টন অসম হতে পারে, অনেক অ-আর্থিক বিনিময় GDP-তে ধরা পড়ে না, আর দূষণের মতো বাহ্যিক প্রভাব (externality) হিসাবের বাইরে থেকে যায়।",
+      "standard": "আয় বেশি হলে মানুষ বেশি পণ্য কিনতে পারে, তাই GDP-কে কল্যাণের সূচক ভাবতে ইচ্ছে করে। কিন্তু NCERT অন্তত তিনটি কারণে সতর্ক করে।\n\n**১. বণ্টন:** GDP বাড়লেও সেই বৃদ্ধি মুষ্টিমেয় ব্যক্তি বা সংস্থার হাতে কেন্দ্রীভূত হতে পারে; বাকিদের আয় বরং কমে যেতে পারে। NCERT-র উদাহরণে GDP ১,০০০ থেকে ১,০১০ টাকা হলেও ৯০% মানুষের প্রকৃত আয় ১০% কমে গিয়েছিল — GDP বাড়ল, অথচ বেশিরভাগ মানুষের অবস্থা খারাপ হল।\n\n**২. অ-আর্থিক বিনিময়:** অনেক কাজ অর্থে মূল্যায়িত হয় না — যেমন বাড়িতে গৃহিণীদের গৃহস্থালি সেবা। অর্থ ছাড়া পণ্য-বিনিময় (বার্টার) অর্থনৈতিক কর্মকাণ্ড হিসেবে নথিভুক্ত হয় না, ফলে GDP কম দেখায় (underestimation)।\n\n**৩. বাহ্যিকতা (Externalities):** কোনো সংস্থা বা ব্যক্তি অন্যের যে সুবিধা বা ক্ষতি করে, যার জন্য সে মূল্য পায় না বা জরিমানা দেয় না — তাই বাহ্যিকতা। তেল শোধনাগারের উৎপাদন GDP-তে ঢোকে, কিন্তু তার নদীদূষণে জেলেদের জীবিকা নষ্ট হওয়ার হিসাব ঢোকে না; নেতিবাচক বাহ্যিকতা থাকলে GDP প্রকৃত কল্যাণকে বেশি দেখায়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার টিপস",
+          "body": "'GDP কল্যাণের নির্ভরযোগ্য মাপকাঠি নয়' — এই প্রশ্নে তিনটি কারণের নামই নম্বর আনে: **বণ্টন, অ-আর্থিক বিনিময়, বাহ্যিকতা**।"
+        }
+      ],
+      "claims": [
+        "c18",
+        "c19",
+        "c20"
+      ]
+    },
+    {
+      "id": "inflation_meaning_causes",
+      "heading": "মুদ্রাস্ফীতি: অর্থ, কারণ ও প্রভাব",
+      "quick": "মুদ্রাস্ফীতি মানে সাধারণ মূল্যস্তরের টানা বৃদ্ধি — একবারের দামবৃদ্ধি নয় (WBCS ২০২১)। এর দুটি প্রধান চালক: চাহিদা বেড়ে যাওয়া (চাহিদা-চাপ) এবং উৎপাদন ব্যয় বেড়ে যাওয়া (ব্যয়-চাপ)। উচ্চ মুদ্রাস্ফীতির বোঝা সবচেয়ে বেশি পড়ে গরিব মানুষের ওপর।",
+      "standard": "দৈনন্দিন ভাষায় 'মুদ্রাস্ফীতি' বলতে আমরা দামবৃদ্ধি বুঝি, কিন্তু অর্থনীতিতে এর নির্দিষ্ট অর্থ: **সাধারণ মূল্যস্তরের ক্রমাগত ও টানা বৃদ্ধি**। কোনো একটি পণ্যের দাম একবার বেড়ে যাওয়া মুদ্রাস্ফীতি নয়; বহু পণ্য ও সেবার দাম সামগ্রিকভাবে, টানা বাড়তে থাকলেই তাকে মুদ্রাস্ফীতি বলে। ভারতে এই হার মাপা হয় CPI দিয়ে: যেমন জানুয়ারি ২০২৬-এ সর্বভারতীয় CPI মুদ্রাস্ফীতি ছিল ২.৭৫% (সাময়িক) — অর্থাৎ আগের বছরের একই মাসের তুলনায় মূল্যস্তর ততটাই বেড়েছে।\n\n**কারণ দুটি ভাগে ভাগ করা যায়:**\n\n**১. চাহিদা-চাপ (Demand-pull):** মানুষের হাতে খরচের ক্ষমতা ও মোট চাহিদা উৎপাদনের তুলনায় বেড়ে গেলে দাম টেনে ওঠে। RBI-র মুদ্রানীতি প্রধানত এই চাহিদা-চাপকেই নিয়ন্ত্রণ করে — সুদের হার বাড়িয়ে ঋণ ও খরচ কমিয়ে।\n\n**২. ব্যয়-চাপ (Cost-push):** জ্বালানি, কাঁচামাল বা মজুরির মতো উৎপাদন ব্যয় বাড়লে সংস্থাগুলি দাম বাড়িয়ে সেই ব্যয় তুলে নেয়। সরবরাহ-শৃঙ্খলের বিঘ্ন বা খাদ্য-তেলের দামের ধাক্কা এই ধরনের মুদ্রাস্ফীতি ঘটায়; সরকারের সরবরাহ-ব্যবস্থাপনা (মজুত ছাড়া, আমদানি ইত্যাদি) এই চাপ কমাতে সাহায্য করে — RBI-র বক্তব্যে মুদ্রানীতি ও রাজস্বনীতির এই সমন্বয়ের কথাই বলা হয়েছে।\n\n**প্রভাব:** মুদ্রাস্ফীতি টাকার ক্রয়ক্ষমতা কমায় — একই টাকায় আগের চেয়ে কম জিনিস মেলে। কেন্দ্রীয় ব্যাংকগুলির লক্ষ্য হল মূল্যস্থিতি, অর্থাৎ কম ও স্থিতিশীল মুদ্রাস্ফীতি; কারণ উচ্চ মুদ্রাস্ফীতির বোঝা অসামঞ্জস্যপূর্ণভাবে গরিবদের ওপরেই পড়ে।",
+      "deep": "মুদ্রাস্ফীতি ও প্রবৃদ্ধির মধ্যে ভারসাম্যই আধুনিক মুদ্রানীতির কেন্দ্রীয় টানাপোড়েন: দাম কমাতে সুদ বাড়ালে প্রবৃদ্ধি ধাক্কা খায়, আবার ছাড় দিলে দাম ছাড়িয়ে যায়। তাই ভারতের কাঠামোটি 'নমনীয়' (flexible) — সরবরাহ-ধাক্কাজনিত সাময়িক উত্থানকে সহনশীলতা-ব্যান্ডের মধ্যে দিয়ে দেখে নেওয়ার সুযোগ রাখা হয়েছে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "একটি পণ্যের দাম বাড়া ≠ মুদ্রাস্ফীতি। মুদ্রাস্ফীতি হতে হলে **সাধারণ** মূল্যস্তর **টানা** বাড়তে হবে। আবার মুদ্রাস্ফীতির হার কমা (যেমন ৮% থেকে ৫%) মানে দাম কমা নয় — দাম তখনও বাড়ছে, শুধু ধীরে।"
+        }
+      ],
+      "claims": [
+        "c30",
+        "c27",
+        "c34",
+        "c28"
+      ]
+    },
+    {
+      "id": "measuring_controlling_inflation",
+      "heading": "মুদ্রাস্ফীতি মাপা ও নিয়ন্ত্রণ: CPI, WPI ও RBI-র লক্ষ্য",
+      "quick": "দাম মাপার তিনটি সূচক: CPI (ভোক্তার ঝুড়ি, প্রকাশক NSO/MoSPI, বর্তমান ভিত্তিবর্ষ ২০২৪), WPI (পাইকারি দাম, প্রকাশক অর্থনৈতিক উপদেষ্টার দপ্তর, DPIIT; নতুন সিরিজের ভিত্তিবর্ষ ২০২২–২৩) এবং GDP ডিফ্লেটর (সব দেশীয় পণ্য)। RBI-র আইনি লক্ষ্য: CPI মুদ্রাস্ফীতি ৪%, সহনশীলতা ± ২%।",
+      "standard": "**CPI (Consumer Price Index):** প্রতিনিধি ভোক্তা যে নির্দিষ্ট ঝুড়ির পণ্য ও সেবা কেনেন, তার দামের সূচক। ভিত্তিবর্ষের ঝুড়ির খরচের তুলনায় চলতি বছরের খরচ শতকরায় প্রকাশ করলেই CPI। ভারতে সর্বভারতীয় CPI প্রকাশ করে **পরিসংখ্যান ও কর্মসূচি রূপায়ণ মন্ত্রক (MoSPI)**; দাম সংগ্রহ করে NSO-র ফিল্ড অপারেশনস বিভাগ — সব রাজ্য/কেন্দ্রশাসিত অঞ্চল জুড়ে ১,৪০৭টি শহুরে বাজার ও ১,৪৬৫টি গ্রাম থেকে। ২০২৬ সাল থেকে CPI-র **ভিত্তিবর্ষ ২০২৪ = ১০০** (আগে ছিল ২০১২)।\n\n**WPI (Wholesale Price Index):** পাইকারি পর্যায়ে পাইকারি দামে লেনদেন হওয়া পণ্যের সূচক। এটি প্রকাশ করে বাণিজ্য ও শিল্প মন্ত্রকের DPIIT-র **অর্থনৈতিক উপদেষ্টার দপ্তর**। ১৫ জুন ২০২৬ থেকে নতুন WPI সিরিজের **ভিত্তিবর্ষ ২০২২–২৩** (আগে ২০১১–১২); নতুন সিরিজে পণ্যের সংখ্যা ৬৯৭ থেকে বেড়ে ৯৫৭ হয়েছে।\n\n**CPI বনাম ডিফ্লেটর:** CPI-তে আমদানি করা ভোগ্যপণ্যের দামও ঢোকে, কিন্তু GDP ডিফ্লেটরে আমদানির দাম ঢোকে না; ডিফ্লেটর দেশে উৎপাদিত সব পণ্য ও সেবা ধরে, CPI ধরে শুধু ভোক্তার ঝুড়ি।\n\n**নিয়ন্ত্রণ — RBI-র মুদ্রাস্ফীতি লক্ষ্য:** ২০১৬ সালে RBI আইন সংশোধনের মাধ্যমে ভারত আনুষ্ঠানিকভাবে **নমনীয় মুদ্রাস্ফীতি লক্ষ্য (FIT)** গ্রহণ করে। মুদ্রানীতির প্রধান উদ্দেশ্য: প্রবৃদ্ধির কথা মাথায় রেখে মূল্যস্থিতি বজায় রাখা। আইনি লক্ষ্য হল **শিরোনাম CPI মুদ্রাস্ফীতি ৪%, সহনশীলতা-ব্যান্ড ± ২%** (অর্থাৎ ২%–৬%)। নীতিগত হার হল **রেপো হার**, যা নির্ধারণ করে RBI-র মুদ্রানীতি কমিটি (MPC)। গড় CPI মুদ্রাস্ফীতি টানা **তিন ত্রৈমাসিক** ব্যান্ডের বাইরে থাকলেই তা লক্ষ্য পূরণে 'ব্যর্থতা' হিসেবে গণ্য হয়।",
+      "deep": "কেন CPI-ই লক্ষ্যের মাপকাঠি? RBI-র বিশেষজ্ঞ কমিটি (২০১৪) সুপারিশ করেছিল যে শিরোনাম CPI (CPI-Combined) মুদ্রানীতির নামিক নোঙর (nominal anchor) হওয়া উচিত — কারণ CPI-ই সাধারণ মানুষের প্রকৃত জীবনযাত্রার ব্যয় ধরে। WPI-তে সেবা থাকে না এবং তা পাইকারি পর্যায়ের দাম, তাই নীতির লক্ষ্য WPI নয় — এটি পরীক্ষার প্রিয় ফাঁদ।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার টিপস",
+          "body": "তিন জোড়া মুখস্থ রাখো: CPI → MoSPI/NSO, ভিত্তিবর্ষ ২০২৪; WPI → DPIIT-র অর্থনৈতিক উপদেষ্টা, ভিত্তিবর্ষ ২০২২–২৩; RBI লক্ষ্য → CPI ৪% ± ২%। পুরনো বইয়ে CPI ২০১২ ও WPI ২০১১–১২ পাবে — সেগুলি আগের সিরিজ, বর্তমান উত্তর নয়।"
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c29",
+        "c31",
+        "c32",
+        "c33",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "নমনীয় মুদ্রাস্ফীতি লক্ষ্য (FIT) গ্রহণ",
+      "when": "জুন ২০১৬",
+      "what": "RBI আইন সংশোধনের মাধ্যমে ভারত আনুষ্ঠানিকভাবে নমনীয় মুদ্রাস্ফীতি লক্ষ্য কাঠামো গ্রহণ করে; CPI হয় মুদ্রানীতির নামিক নোঙর।",
+      "why_it_matters": "এর পর থেকে RBI-র মুদ্রানীতির সাফল্য মাপা হয় নির্দিষ্ট সংখ্যাগত CPI লক্ষ্যের বিপরীতে — পরীক্ষায় বারবার আসে।",
+      "section": "measuring_controlling_inflation",
+      "claims": [
+        "c22",
+        "c26"
+      ]
+    },
+    {
+      "title": "নতুন CPI সিরিজ: ভিত্তিবর্ষ ২০২৪",
+      "when": "২০২৬",
+      "what": "MoSPI CPI-র ভিত্তিবর্ষ ২০১২ থেকে বদলে ২০২৪ = ১০০ করে; ঝুড়ি ও ওজন নেওয়া হয় গৃহস্থালি ভোগ ব্যয় সমীক্ষা ২০২৩–২৪ থেকে।",
+      "why_it_matters": "পুরনো বইয়ের 'CPI ভিত্তিবর্ষ ২০১২' উত্তর এখন পুরোনো; বর্তমান পরীক্ষায় ২০২৪-ই সঠিক।",
+      "section": "measuring_controlling_inflation",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "title": "সংশোধিত WPI সিরিজ প্রকাশ",
+      "when": "১৫ জুন ২০২৬",
+      "what": "অর্থনৈতিক উপদেষ্টার দপ্তর, DPIIT ভিত্তিবর্ষ ২০২২–২৩ ধরে সংশোধিত WPI সিরিজ প্রকাশ করে, যা ২০১১–১২ সিরিজের জায়গা নেয়।",
+      "why_it_matters": "WPI-র ভিত্তিবর্ষ ও প্রকাশক — দুটোই স্থির-তথ্যের প্রিয় প্রশ্ন; নতুন সিরিজে পণ্যসংখ্যা ৯৫৭।",
+      "section": "measuring_controlling_inflation",
+      "claims": [
+        "c32",
+        "c33"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 2016,
+      "when": "জুন ২০১৬",
+      "label": "RBI আইন সংশোধন: নমনীয় মুদ্রাস্ফীতি লক্ষ্য (FIT) আনুষ্ঠানিকভাবে গৃহীত",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "sort_year": 2026,
+      "when": "২০২৬",
+      "label": "CPI-র নতুন ভিত্তিবর্ষ ২০২৪ = ১০০ (MoSPI); সংশোধিত WPI সিরিজের ভিত্তিবর্ষ ২০২২–২৩",
+      "claims": [
+        "c29",
+        "c32"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "মোট অভ্যন্তরীণ উৎপাদন (GDP)",
+      "meaning": "দেশের অভ্যন্তরীণ ভূখণ্ডে এক বছরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার বাজারমূল্য।",
+      "section": "national_income_basics"
+    },
+    {
+      "term": "অন্তর্বর্তী পণ্য (Intermediate goods)",
+      "meaning": "অন্য পণ্য তৈরির উপকরণ হিসেবে ব্যবহৃত পণ্য; আলাদা গুনলে দ্বৈত গণনা হয়।",
+      "section": "national_income_basics"
+    },
+    {
+      "term": "অবচয় (Depreciation)",
+      "meaning": "মূলধনের নিয়মিত ক্ষয়ক্ষতির জন্য মোট বিনিয়োগ থেকে বাদ দেওয়া অংশ।",
+      "section": "aggregates_ladder"
+    },
+    {
+      "term": "বিদেশ থেকে নিট উপাদান আয় (NFIA)",
+      "meaning": "বিদেশে নিযুক্ত দেশীয় উপাদানের আয় বিয়োগ দেশে নিযুক্ত বিদেশি উপাদানের আয়।",
+      "section": "aggregates_ladder"
+    },
+    {
+      "term": "জাতীয় আয় (National Income)",
+      "meaning": "উপাদান ব্যয়ে NNP, অর্থাৎ বাজারদামে NNP বিয়োগ নিট পরোক্ষ কর।",
+      "section": "aggregates_ladder"
+    },
+    {
+      "term": "GDP ডিফ্লেটর (GDP Deflator)",
+      "meaning": "নামিক GDP ও প্রকৃত GDP-র অনুপাত; দামস্তরের সূচক।",
+      "section": "nominal_real_deflator"
+    },
+    {
+      "term": "বাহ্যিকতা (Externalities)",
+      "meaning": "অন্যের ওপর সৃষ্ট সুবিধা বা ক্ষতি, যার জন্য মূল্য পাওয়া বা জরিমানা দেওয়া হয় না।",
+      "section": "gdp_welfare_limits"
+    },
+    {
+      "term": "মুদ্রাস্ফীতি (Inflation)",
+      "meaning": "সাধারণ মূল্যস্তরের ক্রমাগত ও টানা বৃদ্ধি।",
+      "section": "inflation_meaning_causes"
+    },
+    {
+      "term": "ভোক্তা মূল্যসূচক (CPI)",
+      "meaning": "প্রতিনিধি ভোক্তার নির্দিষ্ট পণ্য-ঝুড়ির দামের সূচক; ভারতে প্রকাশক MoSPI/NSO।",
+      "section": "measuring_controlling_inflation"
+    },
+    {
+      "term": "রেপো হার (Repo rate)",
+      "meaning": "RBI-র নীতিগত সুদের হার, যা নির্ধারণ করে মুদ্রানীতি কমিটি (MPC)।",
+      "section": "measuring_controlling_inflation"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "চাহিদা-চাপ মুদ্রাস্ফীতি ও RBI-র প্রতিক্রিয়া",
+      "causes": [
+        "মোট চাহিদা উৎপাদনের তুলনায় বেড়ে যাওয়া",
+        "ক্রয়ক্ষমতা ও ঋণের প্রসার"
+      ],
+      "event": "সাধারণ মূল্যস্তর টানা বাড়তে থাকে (চাহিদা-চাপ মুদ্রাস্ফীতি)",
+      "results": [
+        "RBI MPC রেপো হার বাড়িয়ে চাহিদা নিয়ন্ত্রণ করে",
+        "লক্ষ্য: CPI মুদ্রাস্ফীতি ৪% ± ২% ব্যান্ডে ফেরানো"
+      ],
+      "section": "inflation_meaning_causes",
+      "claims": [
+        "c27",
+        "c25",
+        "c23"
+      ]
+    },
+    {
+      "title": "ব্যয়-চাপ মুদ্রাস্ফীতি ও সরবরাহ-ব্যবস্থাপনা",
+      "causes": [
+        "জ্বালানি ও খাদ্যের দামে ধাক্কা",
+        "সরবরাহ-শৃঙ্খলে বিঘ্ন"
+      ],
+      "event": "উৎপাদন ব্যয় বেড়ে দাম বাড়ে (ব্যয়-চাপ মুদ্রাস্ফীতি)",
+      "results": [
+        "সরকারের সরবরাহ-ব্যবস্থাপনা চাপ কমায়",
+        "শুধু সুদের হার বাড়ালে এই মুদ্রাস্ফীতি পুরোপুরি থামে না"
+      ],
+      "section": "inflation_meaning_causes",
+      "claims": [
+        "c27"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "জাতীয় আয় = উপাদান ব্যয়ে NNP — সূত্রটি হুবহু মনে রাখো",
+      "section": "aggregates_ladder"
+    },
+    {
+      "point": "GDP ডিফ্লেটর = নামিক ÷ প্রকৃত (উল্টো নয়)",
+      "section": "nominal_real_deflator"
+    },
+    {
+      "point": "GDP ও NDP-র পার্থক্য = অবচয় (WBCS ২০২৪)",
+      "section": "aggregates_ladder"
+    },
+    {
+      "point": "মুদ্রাস্ফীতি = সাধারণ মূল্যস্তরের টানা বৃদ্ধি (WBCS ২০২১)",
+      "section": "inflation_meaning_causes"
+    },
+    {
+      "point": "CPI প্রকাশক MoSPI/NSO ও ভিত্তিবর্ষ ২০২৪; WPI প্রকাশক DPIIT ও ভিত্তিবর্ষ ২০২২–২৩",
+      "section": "measuring_controlling_inflation"
+    },
+    {
+      "point": "RBI-র লক্ষ্য CPI ৪% ± ২%; ব্যর্থতা = টানা তিন ত্রৈমাসিক ব্যান্ডের বাইরে",
+      "section": "measuring_controlling_inflation"
+    }
+  ],
+  "bengal_connection": {
+    "body": "CPI-র দাম সংগ্রহের জালে পশ্চিমবঙ্গও সরাসরি জড়িত: NSO-র কর্মীরা সব রাজ্য ও কেন্দ্রশাসিত অঞ্চল জুড়ে ১,৪৬৫টি গ্রাম ও ১,৪০৭টি শহুরে বাজার থেকে প্রতি সপ্তাহে দাম সংগ্রহ করেন — বাংলার গ্রাম-বাজারের চাল, সবজি ও সেবার দামও তাই জাতীয় মুদ্রাস্ফীতির হিসাবে ঢোকে। অর্থাৎ কলকাতা বা জেলার বাজারে দাম বাড়লে তা শুধু ঘরের বাজেট নয়, RBI-র নীতি-সিদ্ধান্তেও ছাপ ফেলে।",
+    "claims": [
+      "c31"
+    ]
+  },
+  "quick_revision": [
+    "GDP = অভ্যন্তরীণ ভূখণ্ডে এক বছরে উৎপাদিত চূড়ান্ত পণ্য ও সেবার বাজারমূল্য।",
+    "অন্তর্বর্তী পণ্য আলাদা গুনলে দ্বৈত গণনা হয়।",
+    "জাতীয় আয় মাপার তিন পদ্ধতি: উৎপাদন, আয়, ব্যয়।",
+    "GNP = GDP + বিদেশ থেকে নিট উপাদান আয় (NFIA)।",
+    "NNP = GNP − অবচয়; NDP = GDP − অবচয়।",
+    "জাতীয় আয় = বাজারদামে NNP − নিট পরোক্ষ কর (পরোক্ষ কর − ভর্তুকি)।",
+    "নামিক GDP চলতি দামে, প্রকৃত GDP ভিত্তিবর্ষের স্থির দামে।",
+    "GDP ডিফ্লেটর = নামিক GDP ÷ প্রকৃত GDP।",
+    "GDP কল্যাণের পূর্ণ মাপ নয়: বণ্টন, অ-আর্থিক বিনিময়, বাহ্যিকতা।",
+    "মুদ্রাস্ফীতি = সাধারণ মূল্যস্তরের টানা বৃদ্ধি; কারণ: চাহিদা-চাপ ও ব্যয়-চাপ।",
+    "CPI: প্রকাশক MoSPI/NSO, ভিত্তিবর্ষ ২০২৪; WPI: প্রকাশক DPIIT (অর্থনৈতিক উপদেষ্টা), ভিত্তিবর্ষ ২০২২–২৩।",
+    "RBI-র FIT লক্ষ্য: CPI মুদ্রাস্ফীতি ৪% ± ২% (২০১৬ থেকে); নীতিগত হার রেপো, নির্ধারক MPC।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Introductory Macroeconomics, Class XII, Chapter 2: National Income Accounting",
+      "class": "XII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "RBI Bulletin: Evolution of Monetary Policy in India (Governor's address, National Defence College)",
+      "publisher": "RBI",
+      "url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=20869",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "RBI Speech: Central Banking in the Global South — balancing inflation and growth (90th year conference)",
+      "publisher": "RBI",
+      "url": "https://www.rbi.org.in/SCRIPTs/BS_SpeechesView.aspx?Id=1482",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB: Consumer Price Index on Base 2024=100 (MoSPI release, January 2026 data)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227012&reg=3&lang=1",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB: Revised Wholesale Price Index and New Producer Price Indices (DPIIT release)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267963&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "GDP is the market value of all final goods and services produced within a domestic territory of a country measured in a year.",
+      "source": "s1",
+      "page": "Table 2.4",
+      "quote": "GDP is the market value of all final goods and services produced within a domestic territory of a country measured in a year."
+    },
+    {
+      "id": "c02",
+      "claim": "Counting intermediate goods separately leads to double counting, since the value of final goods already includes the value of intermediate goods.",
+      "source": "s1",
+      "page": "Sec 2.1",
+      "quote": "Counting them separately will lead to the error of double counting. Whereas considering intermediate goods may give a fuller description of total economic activity, counting them will highly exaggerate the final value of our economic activity."
+    },
+    {
+      "id": "c03",
+      "claim": "National income can be calculated by three methods: income method, product method and expenditure method.",
+      "source": "s1",
+      "page": "Summary",
+      "quote": "we can calculate the aggregate value of goods and services produced in the economy by any of the three methods (a) measuring the aggregate value of factor payments (income method) (b) measuring the aggregate value of goods and services produced by the firms (product method) (c) measuring the aggregate value of spending received by the firms (expenditure method)"
+    },
+    {
+      "id": "c04",
+      "claim": "Depreciation is the deletion made from gross investment to accommodate regular wear and tear of capital.",
+      "source": "s1",
+      "page": "Sec 2.1",
+      "quote": "This deletion, which is made from the value of gross investment in order to accommodate regular wear and tear of capital, is called depreciation."
+    },
+    {
+      "id": "c05",
+      "claim": "Net investment equals gross investment minus depreciation.",
+      "source": "s1",
+      "page": "Sec 2.1",
+      "quote": "Net Investment = Gross investment – Depreciation"
+    },
+    {
+      "id": "c06",
+      "claim": "GNP equals GDP plus net factor income from abroad.",
+      "source": "s1",
+      "page": "Sec 2.3",
+      "quote": "Hence, GNP ≡ GDP + Net factor income from abroad"
+    },
+    {
+      "id": "c07",
+      "claim": "Deducting depreciation from GNP gives Net National Product (NNP).",
+      "source": "s1",
+      "page": "Sec 2.3",
+      "quote": "If we deduct depreciation from GNP the measure of aggregate income that we obtain is called Net National Product (NNP). Thus NNP ≡ GNP – Depreciation"
+    },
+    {
+      "id": "c08",
+      "claim": "Net National Product at factor cost is called National Income.",
+      "source": "s1",
+      "page": "Sec 2.3",
+      "quote": "The measure that we obtain by doing so is called Net National Product at factor cost or National Income."
+    },
+    {
+      "id": "c09",
+      "claim": "NNP at factor cost = NNP at market prices minus net indirect taxes (indirect taxes minus subsidies).",
+      "source": "s1",
+      "page": "Sec 2.3",
+      "quote": "NNP at factor cost ≡ National Income (NI ) ≡ NNP at market prices – (Indirect taxes – Subsidies) ≡ NNP at market prices – Net indirect taxes (Net indirect taxes ≡ Indirect taxes – Subsidies)"
+    },
+    {
+      "id": "c10",
+      "claim": "Market price includes indirect taxes; when indirect taxes are imposed, prices go up.",
+      "source": "s1",
+      "page": "Sec 2.3",
+      "quote": "But market price includes indirect taxes. When indirect taxes are imposed on goods and services, their prices go up. Indirect taxes accrue to the government."
+    },
+    {
+      "id": "c11",
+      "claim": "Personal Income = NI minus undistributed profits, net interest payments by households and corporate tax, plus transfer payments to households.",
+      "source": "s1",
+      "page": "Sec 2.3",
+      "quote": "Personal Income (PI) ≡ NI – Undistributed profits – Net interest payments made by households – Corporate tax + Transfer payments to the households from the government and firms."
+    },
+    {
+      "id": "c12",
+      "claim": "Personal Disposable Income = PI minus personal tax payments and nontax payments.",
+      "source": "s1",
+      "page": "Sec 2.3",
+      "quote": "Personal Disposable Income (PDI ) ≡ PI – Personal tax payments – Nontax payments."
+    },
+    {
+      "id": "c13",
+      "claim": "Real GDP is evaluated at constant prices; nominal GDP is the value of GDP at current prevailing prices.",
+      "source": "s1",
+      "page": "Sec 2.4",
+      "quote": "Real GDP is calculated in a way such that the goods and services are evaluated at some constant set of prices (or constant prices). Since these prices remain fixed, if the Real GDP changes we can be sure that it is the volume of production which is undergoing changes. Nominal GDP, on the other hand, is simply the value of GDP at the current prevailing prices."
+    },
+    {
+      "id": "c14",
+      "claim": "The ratio of nominal to real GDP is called the GDP deflator.",
+      "source": "s1",
+      "page": "Sec 2.4",
+      "quote": "The ratio of nominal to real GDP is a well known index of prices. This is called GDP Deflator."
+    },
+    {
+      "id": "c15",
+      "claim": "CPI is the index of prices of a given basket of commodities bought by the representative consumer.",
+      "source": "s1",
+      "page": "Sec 2.4",
+      "quote": "There is another way to measure change of prices in an economy which is known as the Consumer Price Index (CPI). This is the index of prices of a given basket of commodities which are bought by the representative consumer."
+    },
+    {
+      "id": "c16",
+      "claim": "The index for wholesale prices is called the Wholesale Price Index (WPI).",
+      "source": "s1",
+      "page": "Sec 2.4",
+      "quote": "Like CPI, the index for wholesale prices is called Wholesale Price Index (WPI). In countries like USA it is referred to as Producer Price Index (PPI)."
+    },
+    {
+      "id": "c17",
+      "claim": "CPI includes prices of imported goods; the GDP deflator does not include prices of imported goods.",
+      "source": "s1",
+      "page": "Sec 2.4",
+      "quote": "CPI includes prices of goods consumed by the representative consumer, hence it includes prices of imported goods. GDP deflator does not include prices of imported goods."
+    },
+    {
+      "id": "c18",
+      "claim": "Rising GDP may not raise welfare because the rise may be concentrated in the hands of very few individuals or firms.",
+      "source": "s1",
+      "page": "Sec 2.5",
+      "quote": "If the GDP of the country is rising, the welfare may not rise as a consequence. This is because the rise in GDP may be concentrated in the hands of very few individuals or firms."
+    },
+    {
+      "id": "c19",
+      "claim": "Many activities are not evaluated in monetary terms, e.g. domestic services women perform at home are not paid for.",
+      "source": "s1",
+      "page": "Sec 2.5",
+      "quote": "Many activities in an economy are not evaluated in monetary terms. For example, the domestic services women perform at home are not paid for."
+    },
+    {
+      "id": "c20",
+      "claim": "Externalities are benefits or harms a firm or individual causes to another for which they are not paid or penalised.",
+      "source": "s1",
+      "page": "Sec 2.5",
+      "quote": "Externalities refer to the benefits (or harms) a firm or an individual causes to another for which they are not paid (or penalised)."
+    },
+    {
+      "id": "c21",
+      "claim": "Flows are defined over a period of time; stocks are defined at a particular point of time.",
+      "source": "s1",
+      "page": "Sec 2.1",
+      "quote": "Flows are defined over a period of time. Stocks are defined at a particular point of time."
+    },
+    {
+      "id": "c22",
+      "claim": "India formally adopted flexible inflation targeting (FIT) with the amendment of the RBI Act in June 2016; the primary objective of monetary policy is to maintain price stability while keeping in mind the objective of growth.",
+      "source": "s2",
+      "page": "Flexible Inflation Targeting",
+      "quote": "India formally adopted flexible inflation targeting (FIT) with the amendment of the RBI Act in June 2016. The amended Act states the role of the RBI in monetary policy as follows: “the primary objective of monetary policy is to maintain price stability while keeping in mind the objective of growth”."
+    },
+    {
+      "id": "c23",
+      "claim": "The statutory inflation target (as stated in this RBI address) is 4 per cent for headline CPI with a tolerance band of +/- 2 per cent.",
+      "source": "s2",
+      "page": "Flexible Inflation Targeting",
+      "quote": "Price stability under the statute has been defined numerically by a target of 4 per cent for headline CPI with a tolerance band of +/- 2 per cent around it."
+    },
+    {
+      "id": "c24",
+      "claim": "Failure to meet the target is average headline CPI inflation remaining outside the 2 to 6 per cent band for three consecutive quarters.",
+      "source": "s2",
+      "page": "Flexible Inflation Targeting",
+      "quote": "Failure to meet the monetary policy objective is defined in terms of average headline CPI inflation remaining lower or higher than the 2 to 6 per cent band for three consecutive quarters"
+    },
+    {
+      "id": "c25",
+      "claim": "The repo rate is the policy rate, determined by the Monetary Policy Committee (MPC) set up in the RBI to achieve the inflation target.",
+      "source": "s2",
+      "page": "Flexible Inflation Targeting",
+      "quote": "The repo rate was defined as the policy rate and a monetary policy committee (MPC) was set up in the RBI – with both internal and external members – to determine the repo rate with the objective of achieving the mandated inflation target."
+    },
+    {
+      "id": "c26",
+      "claim": "An RBI Expert Committee (report January 2014) recommended headline CPI (CPI-Combined) inflation as the nominal anchor for monetary policy.",
+      "source": "s2",
+      "page": "Flexible Inflation Targeting",
+      "quote": "An Expert Committee set up by the RBI to revise and strengthen the monetary policy framework, in its report submitted in January 2014, recommended that inflation, defined in terms of headline consumer price index (CPI) inflation – CPI-Combined – should be the nominal anchor for monetary policy."
+    },
+    {
+      "id": "c27",
+      "claim": "Monetary policy contains demand-pull pressures, while government supply management moderates cost-push inflation (RBI Governor, on 2020-23).",
+      "source": "s3",
+      "page": "Para 7",
+      "quote": "While monetary policy worked on anchoring inflation expectations and containing demand-pull pressures, effective supply management by the government alleviated supply chain pressures and moderated cost-push inflation."
+    },
+    {
+      "id": "c28",
+      "claim": "High inflation is disproportionately burdensome on the poor.",
+      "source": "s3",
+      "page": "Para 10",
+      "quote": "Price stability is also important because high inflation is disproportionately burdensome on the poor."
+    },
+    {
+      "id": "c29",
+      "claim": "As of the January 2026 release, MoSPI releases the CPI with base 2024=100, with basket and weights based on HCES 2023-24.",
+      "source": "s4",
+      "page": "Release note",
+      "quote": "The Ministry of Statistics & Programme Implementation is releasing the Consumer Price Index (CPI) with Base 2024=100. The item basket and the corresponding weights are based on Household Consumption Expenditure Survey 2023-24."
+    },
+    {
+      "id": "c30",
+      "claim": "Year-on-year CPI inflation for January 2026 (base 2024) was 2.75 per cent (provisional).",
+      "source": "s4",
+      "page": "Key Statistics",
+      "quote": "Year-on-year inflation rate based on All India Consumer Price Index (CPI) with base year 2024 for the month of January, 2026 over January, 2025 is 2.75%(Provisional)."
+    },
+    {
+      "id": "c31",
+      "claim": "CPI price data are collected by field staff of the Field Operations Division of NSO, MoSPI from 1407 urban markets and 1465 villages covering all States/UTs.",
+      "source": "s4",
+      "page": "Response Rate",
+      "quote": "Real time price data are collected from selected 1407 urban Markets (including online markets) and 1465 villages covering all States/UTs through personal visits by field staff of Field Operations Division of NSO, MoSPI on a weekly roster."
+    },
+    {
+      "id": "c32",
+      "claim": "The Office of Economic Adviser, DPIIT released the revised WPI series with base year 2022-23 on 15.06.2026, replacing the 2011-12 series.",
+      "source": "s5",
+      "page": "Release note",
+      "quote": "The Office of Economic Adviser, DPIIT will accordingly release the revised series of WPI with base year 2022-23 on 15.06.2026 at 12:00 noon, which would replace the existing series of WPI with base year 2011-12."
+    },
+    {
+      "id": "c33",
+      "claim": "In the new WPI series (2022-23), the total number of items increased from 697 to 957.",
+      "source": "s5",
+      "page": "Key highlights (a)",
+      "quote": "The total number of items has increased from 697 to 957"
+    },
+    {
+      "id": "c34",
+      "claim": "Central banks aim to achieve price stability (low and stable inflation) over a period of time.",
+      "source": "s2",
+      "page": "Introduction",
+      "quote": "They aim to achieve price stability (low and stable inflation) over a period of time while minimising fluctuations in output and employment."
+    },
+    {
+      "id": "c35",
+      "claim": "GNP refers to all economic output produced by a nation's normal residents, whether located within the national boundary or abroad.",
+      "source": "s1",
+      "page": "Table 2.4",
+      "quote": "GNP refers to all the economic output produced by a nation’s normal residents, whether they are located within the national boundary or abroad."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "national_income_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "GDP-র সংজ্ঞা অনুযায়ী কোনটি GDP-তে গোনা হয়?",
+      "a": "এক বছরে দেশের ভূখণ্ডে উৎপাদিত চূড়ান্ত পণ্য ও সেবার বাজারমূল্য",
+      "w": [
+        "এক বছরে উৎপাদিত সব অন্তর্বর্তী পণ্যের মূল্য",
+        "শুধু নাগরিকদের বিদেশে অর্জিত আয়",
+        "দেশের মোট মূলধন মজুতের মূল্য"
+      ],
+      "e": "GDP হল অভ্যন্তরীণ ভূখণ্ডে এক বছরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার বাজারমূল্য। অন্তর্বর্তী পণ্য আলাদা গুনলে দ্বৈত গণনা হয়; মজুত (stock) GDP নয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "national_income_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তুলো, সুতা ও পোশাক — তিনটির মূল্য আলাদা করে যোগ করলে কোন ভুল হয়?",
+      "a": "দ্বৈত গণনা (Double counting)",
+      "w": [
+        "মূল্য সংযোজন",
+        "অবচয় গণনা",
+        "বাহ্যিকতা"
+      ],
+      "e": "চূড়ান্ত পণ্যের মূল্যের ভেতরেই অন্তর্বর্তী পণ্যের মূল্য থাকে; আলাদা যোগ করলে একই মূল্য বারবার গোনা হয় — এটাই দ্বৈত গণনা।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "national_income_basics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় আয় মাপার পদ্ধতি কোনটি নয়?",
+      "a": "জনগণনা পদ্ধতি",
+      "w": [
+        "উৎপাদন পদ্ধতি",
+        "আয় পদ্ধতি",
+        "ব্যয় পদ্ধতি"
+      ],
+      "e": "জাতীয় আয় মাপা হয় উৎপাদন, আয় ও ব্যয় — এই তিন পদ্ধতিতে। জনগণনা পদ্ধতি বলে কিছু নেই।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "national_income_basics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি প্রবাহ (flow) চলক?",
+      "a": "বার্ষিক আয়",
+      "w": [
+        "মূলধন মজুত",
+        "ব্যাংকে জমা অর্থের পরিমাণ নির্দিষ্ট দিনে",
+        "কারখানার যন্ত্রপাতির মজুত"
+      ],
+      "e": "আয় নির্দিষ্ট সময়কাল ধরে মাপা হয়, তাই তা প্রবাহ; মজুত মাপা হয় নির্দিষ্ট মুহূর্তে।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "national_income_basics",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. GDP-তে দেশের ভূখণ্ডে বিদেশি সংস্থার উৎপাদনও অন্তর্ভুক্ত হয়।\n২. অন্তর্বর্তী পণ্যের মূল্য চূড়ান্ত পণ্যের মূল্যের মধ্যে অন্তর্ভুক্ত থাকে।\n\nকোনটি সঠিক?",
+      "a": "১ এবং ২ উভয়ই",
+      "w": [
+        "কেবল ১",
+        "কেবল ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "GDP ভূখণ্ডভিত্তিক — ভূখণ্ডের ভেতরের সব উৎপাদনই ধরা হয়; আর চূড়ান্ত মূল্যে অন্তর্বর্তী মূল্য ঢুকে থাকে বলেই আলাদা গোনায় দ্বৈত গণনা হয়।",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "national_income_basics",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "একটি সংস্থা ৫০০ টাকার কাঁচামাল কিনে ৯০০ টাকার চূড়ান্ত পণ্য বিক্রি করল। GDP-তে এই সংস্থার অবদান (মূল্য সংযোজন) কত?",
+      "a": "৪০০ টাকা",
+      "w": [
+        "৯০০ টাকা",
+        "৫০০ টাকা",
+        "১,৪০০ টাকা"
+      ],
+      "e": "মূল্য সংযোজন = উৎপাদনের মূল্য − অন্তর্বর্তী ব্যয় = ৯০০ − ৫০০ = ৪০০ টাকা। পুরো ৯০০ গুনলে কাঁচামালের মূল্য দ্বিতীয়বার গোনা হত।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "aggregates_ladder",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "GNP পেতে GDP-র সঙ্গে কী যোগ করা হয়?",
+      "a": "বিদেশ থেকে নিট উপাদান আয় (NFIA)",
+      "w": [
+        "অবচয়",
+        "নিট পরোক্ষ কর",
+        "ভর্তুকি"
+      ],
+      "e": "GNP = GDP + NFIA। অবচয় বাদ গেলে 'নিট' পরিমাপ পাওয়া যায়, যোগ নয়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "aggregates_ladder",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মোট অভ্যন্তরীণ উৎপাদন (GDP) ও নিট অভ্যন্তরীণ উৎপাদন (NDP)-র পার্থক্য কী?",
+      "a": "অবচয় (Depreciation)",
+      "w": [
+        "নিট পরোক্ষ কর",
+        "বিদেশ থেকে নিট উপাদান আয়",
+        "সরকারি রাজস্ব"
+      ],
+      "e": "NDP = GDP − অবচয়; তাই দুটির পার্থক্য হল অবচয়। এটি WBCS ২০২৪-এর প্রকৃত প্রশ্নের বিষয়।",
+      "claims": [
+        "c04",
+        "c07"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "aggregates_ladder",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'জাতীয় আয়' বলতে কোন পরিমাপকে বোঝায়?",
+      "a": "উপাদান ব্যয়ে NNP",
+      "w": [
+        "বাজারদামে GDP",
+        "বাজারদামে GNP",
+        "উপাদান ব্যয়ে GDP"
+      ],
+      "e": "উপাদান ব্যয়ে নিট জাতীয় উৎপাদনকেই (NNP at factor cost) জাতীয় আয় বলা হয়।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "aggregates_ladder",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিট পরোক্ষ কর সমান—",
+      "a": "পরোক্ষ কর − ভর্তুকি",
+      "w": [
+        "পরোক্ষ কর + ভর্তুকি",
+        "ভর্তুকি − পরোক্ষ কর",
+        "প্রত্যক্ষ কর − পরোক্ষ কর"
+      ],
+      "e": "জাতীয় আয় = বাজারদামে NNP − (পরোক্ষ কর − ভর্তুকি); অর্থাৎ নিট পরোক্ষ কর = পরোক্ষ কর − ভর্তুকি।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "aggregates_ladder",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অবচয় বলতে কী বোঝায়?",
+      "a": "মূলধনের নিয়মিত ক্ষয়ক্ষতির জন্য করা বাদ/বরাদ্দ",
+      "w": [
+        "সরকারের দেওয়া ভর্তুকি",
+        "বিদেশি ঋণের সুদ",
+        "পণ্যের ওপর পরোক্ষ কর"
+      ],
+      "e": "মূলধনের ক্ষয়পূরণের জন্য মোট বিনিয়োগ থেকে যে অংশ বাদ দেওয়া হয়, তাই অবচয়; অবচয় কারো আয় নয়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "aggregates_ladder",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিট বিনিয়োগের সূত্র কোনটি?",
+      "a": "নিট বিনিয়োগ = মোট বিনিয়োগ − অবচয়",
+      "w": [
+        "নিট বিনিয়োগ = মোট বিনিয়োগ + অবচয়",
+        "নিট বিনিয়োগ = মোট বিনিয়োগ − কর",
+        "নিট বিনিয়োগ = অবচয় − মোট বিনিয়োগ"
+      ],
+      "e": "মূলধন মজুতে প্রকৃত সংযোজন = মোট বিনিয়োগ থেকে ক্ষয়পূরণের অংশ (অবচয়) বাদ দিয়ে পাওয়া যায়।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "aggregates_ladder",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "GNP-র হিসেবে কোন উৎপাদন ধরা হয়?",
+      "a": "দেশের স্বাভাবিক বাসিন্দাদের সব উৎপাদন, দেশে হোক বা বিদেশে",
+      "w": [
+        "শুধু দেশের ভূখণ্ডের ভেতরের উৎপাদন",
+        "শুধু সরকারি ক্ষেত্রের উৎপাদন",
+        "শুধু বিদেশিদের উৎপাদন"
+      ],
+      "e": "GNP বাসিন্দাভিত্তিক: স্বাভাবিক বাসিন্দারা যেখানেই থাকুন, তাঁদের উৎপাদন ধরা হয় — তাই GDP-র সঙ্গে NFIA যোগ হয়।",
+      "claims": [
+        "c35",
+        "c06"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "aggregates_ladder",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. বাজারদামে পরোক্ষ কর অন্তর্ভুক্ত থাকে।\n২. ভর্তুকি পণ্যের দাম বাড়িয়ে দেয়।\n\nকোনটি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "পরোক্ষ কর দাম বাড়ায় এবং তা সরকারের কাছে যায়; ভর্তুকি উল্টোভাবে দাম কমায় — তাই উপাদান ব্যয় পেতে নিট পরোক্ষ কর বাদ দিতে হয়।",
+      "claims": [
+        "c10",
+        "c09"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "aggregates_ladder",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাজারদামে NNP ১০,০০০ কোটি টাকা, পরোক্ষ কর ১,২০০ কোটি ও ভর্তুকি ২০০ কোটি হলে জাতীয় আয় কত?",
+      "a": "৯,০০০ কোটি টাকা",
+      "w": [
+        "১১,০০০ কোটি টাকা",
+        "১০,২০০ কোটি টাকা",
+        "৮,৮০০ কোটি টাকা"
+      ],
+      "e": "জাতীয় আয় = ১০,০০০ − (১,২০০ − ২০০) = ১০,০০০ − ১,০০০ = ৯,০০০ কোটি টাকা।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "aggregates_ladder",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "GDP ৫০,০০০ কোটি, NFIA (−)৫০০ কোটি ও অবচয় ৪,০০০ কোটি হলে NNP কত?",
+      "a": "৪৫,৫০০ কোটি টাকা",
+      "w": [
+        "৫৪,৫০০ কোটি টাকা",
+        "৪৬,০০০ কোটি টাকা",
+        "৫৩,৫০০ কোটি টাকা"
+      ],
+      "e": "GNP = ৫০,০০০ − ৫০০ = ৪৯,৫০০; NNP = ৪৯,৫০০ − ৪,০০০ = ৪৫,৫০০ কোটি টাকা।",
+      "claims": [
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "aggregates_ladder",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ব্যক্তিগত ব্যয়যোগ্য আয় (PDI) পেতে ব্যক্তিগত আয় থেকে কী বাদ দেওয়া হয়?",
+      "a": "ব্যক্তিগত কর ও কর-বহির্ভূত প্রদান",
+      "w": [
+        "কর্পোরেট কর",
+        "অবণ্টিত মুনাফা",
+        "হস্তান্তর অর্থ"
+      ],
+      "e": "PDI = ব্যক্তিগত আয় − ব্যক্তিগত কর প্রদান − কর-বহির্ভূত প্রদান; এই অংশেই পরিবারের ভোগ-সঞ্চয়ের সিদ্ধান্ত চলে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "aggregates_ladder",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. ব্যক্তিগত আয় পেতে জাতীয় আয়ের সঙ্গে হস্তান্তর অর্থ যোগ করা হয়।\n২. কর্পোরেট কর জাতীয় আয় থেকে বাদ দিয়ে ব্যক্তিগত আয় পাওয়া যায়।\n\nকোনটি সঠিক?",
+      "a": "১ এবং ২ উভয়ই",
+      "w": [
+        "কেবল ১",
+        "কেবল ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "ব্যক্তিগত আয় = জাতীয় আয় − অবণ্টিত মুনাফা − নিট সুদ প্রদান − কর্পোরেট কর + হস্তান্তর অর্থ; দুটি বিবৃতিই এই সূত্রের অংশ।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "nominal_real_deflator",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "চলতি (বর্তমান) দামে মাপা GDP-কে কী বলা হয়?",
+      "a": "নামিক GDP (Nominal GDP)",
+      "w": [
+        "প্রকৃত GDP",
+        "স্থির GDP",
+        "ভিত্তি GDP"
+      ],
+      "e": "নামিক GDP হল চলতি প্রচলিত দামে মাপা GDP-র মূল্য।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "nominal_real_deflator",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "GDP ডিফ্লেটরের সূত্র কোনটি?",
+      "a": "নামিক GDP ÷ প্রকৃত GDP",
+      "w": [
+        "প্রকৃত GDP ÷ নামিক GDP",
+        "নামিক GDP × প্রকৃত GDP",
+        "নামিক GDP − প্রকৃত GDP"
+      ],
+      "e": "ডিফ্লেটর হল নামিক ও প্রকৃত GDP-র অনুপাত — দামস্তরের সূচক। অনুপাত উল্টে লেখাই সবচেয়ে সাধারণ ভুল।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "nominal_real_deflator",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রকৃত GDP মাপা হয়—",
+      "a": "ভিত্তিবর্ষের স্থির দামে",
+      "w": [
+        "চলতি বছরের দামে",
+        "পাইকারি দামে",
+        "রপ্তানি দামে"
+      ],
+      "e": "প্রকৃত GDP-তে পণ্য ও সেবার মূল্যায়ন হয় একটি স্থির দামসমষ্টিতে, যাতে বদল মানেই উৎপাদনের পরিমাণের বদল।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "nominal_real_deflator",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনো বছরে নামিক GDP ১,৬৫০ টাকা ও প্রকৃত GDP ১,১০০ টাকা হলে GDP ডিফ্লেটর কত?",
+      "a": "১.৫০ (১৫০%)",
+      "w": [
+        "০.৬৭ (৬৭%)",
+        "৫৫০",
+        "১.১০ (১১০%)"
+      ],
+      "e": "ডিফ্লেটর = ১,৬৫০ ÷ ১,১০০ = ১.৫০, অর্থাৎ ভিত্তিবর্ষের তুলনায় দাম দেড় গুণ — NCERT-র রুটির উদাহরণেরই হিসাব।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "nominal_real_deflator",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নামিক GDP আগের বছরের তুলনায় দ্বিগুণ হলেও কোন সিদ্ধান্তটি সবসময় সঠিক নয়?",
+      "a": "উৎপাদনের পরিমাণ দ্বিগুণ হয়েছে",
+      "w": [
+        "দামস্তর বদলেছে হতে পারে",
+        "প্রকৃত GDP দিয়ে যাচাই করা দরকার",
+        "ভিত্তিবর্ষের দামে পুনর্মূল্যায়ন করা যায়"
+      ],
+      "e": "শুধু দাম দ্বিগুণ হলেও নামিক GDP দ্বিগুণ হতে পারে, উৎপাদন একই থেকে গেলেও; তাই তুলনায় প্রকৃত GDP লাগে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "nominal_real_deflator",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): দুটি বছরের GDP তুলনায় প্রকৃত GDP ব্যবহার করা উচিত।\nকারণ (R): নামিক GDP-র বদল শুধু দামের বদলের কারণেও হতে পারে।\n\nসঠিক বিকল্প কোনটি?",
+      "a": "A ও R দুটোই সঠিক এবং R হল A-র সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-র সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "দাম স্থির ধরে মাপা হয় বলে প্রকৃত GDP-র বদল মানেই উৎপাদনের বদল; নামিক GDP দামবৃদ্ধিতেও বাড়তে পারে — এটাই প্রকৃত GDP ব্যবহারের কারণ।",
+      "claims": [
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "gdp_welfare_limits",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী GDP কল্যাণের নির্ভরযোগ্য মাপকাঠি না হওয়ার কারণ কোনটি?",
+      "a": "GDP-র বৃদ্ধি মুষ্টিমেয় মানুষের হাতে কেন্দ্রীভূত হতে পারে",
+      "w": [
+        "GDP শুধু কৃষিক্ষেত্র ধরে",
+        "GDP টাকায় মাপা হয় না",
+        "GDP প্রতি বছর মাপা হয়"
+      ],
+      "e": "বণ্টন অসম হলে GDP বাড়লেও বেশিরভাগ মানুষের কল্যাণ বাড়ে না — এটি NCERT-র দেওয়া প্রথম কারণ।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "gdp_welfare_limits",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'বাহ্যিকতা' (Externality) বলতে কী বোঝায়?",
+      "a": "অন্যের ওপর সৃষ্ট সুবিধা বা ক্ষতি, যার জন্য মূল্য পাওয়া বা জরিমানা দেওয়া হয় না",
+      "w": [
+        "সরকারের দেওয়া রপ্তানি ভর্তুকি",
+        "বিদেশ থেকে পাওয়া উপাদান আয়",
+        "কোম্পানির অবণ্টিত মুনাফা"
+      ],
+      "e": "শোধনাগারের দূষণে জেলের ক্ষতি GDP-তে ধরা পড়ে না — এমন হিসাব-বহির্ভূত প্রভাবই বাহ্যিকতা।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "gdp_welfare_limits",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন কাজটি অর্থে মূল্যায়িত না হওয়ায় GDP-তে সাধারণত ধরা পড়ে না?",
+      "a": "বাড়িতে গৃহিণীদের গৃহস্থালি সেবা",
+      "w": [
+        "রেস্তোরাঁয় রান্নার কাজ",
+        "কারখানায় মজুরির কাজ",
+        "ব্যাংকের সেবা"
+      ],
+      "e": "অ-আর্থিক বিনিময়ের উদাহরণ হিসেবে NCERT বাড়ির গৃহস্থালি সেবার কথা বলে — এর জন্য অর্থ প্রদান হয় না।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "gdp_welfare_limits",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. নেতিবাচক বাহ্যিকতা থাকলে GDP প্রকৃত কল্যাণকে বেশি দেখাতে পারে।\n২. বার্টার বিনিময় GDP-তে নথিভুক্ত হয়, কারণ সেখানে পণ্যের মূল্য নির্ধারিত হয়।\n\nকোনটি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দূষণের ক্ষতি হিসাবের বাইরে থাকায় GDP কল্যাণকে অতিরঞ্জিত করে; বার্টারে অর্থ ব্যবহৃত হয় না বলে তা অর্থনৈতিক কর্মকাণ্ড হিসেবে নথিভুক্ত হয় না — বিবৃতি ২ ভুল।",
+      "claims": [
+        "c20",
+        "c19"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "inflation_meaning_causes",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মুদ্রাস্ফীতি বলতে কী বোঝায়?",
+      "a": "সাধারণ মূল্যস্তরের ক্রমাগত ও টানা বৃদ্ধি",
+      "w": [
+        "একবারের মতো মূল্যস্তর বৃদ্ধি",
+        "উৎপাদন ক্ষেত্রে মুনাফা বৃদ্ধি",
+        "ঘাটতি ব্যয় বৃদ্ধি"
+      ],
+      "e": "মুদ্রাস্ফীতি মানে সামগ্রিক দামস্তরের টানা বৃদ্ধি, এককালীন লাফ নয় — WBCS ২০২১-এর প্রকৃত প্রশ্ন।",
+      "claims": [
+        "c30",
+        "c34"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "inflation_meaning_causes",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জ্বালানি ও কাঁচামালের দাম বেড়ে উৎপাদন ব্যয় বাড়লে যে মুদ্রাস্ফীতি হয়, তাকে বলে—",
+      "a": "ব্যয়-চাপ (Cost-push) মুদ্রাস্ফীতি",
+      "w": [
+        "চাহিদা-চাপ মুদ্রাস্ফীতি",
+        "আমদানিকৃত মুদ্রাস্ফীতি",
+        "কাঠামোগত মুদ্রাস্ফীতি"
+      ],
+      "e": "ব্যয় বাড়ার চাপে দাম বাড়লে তা ব্যয়-চাপ মুদ্রাস্ফীতি; সরবরাহ-ব্যবস্থাপনা এই চাপ কমাতে সাহায্য করে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "inflation_meaning_causes",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চাহিদা-চাপ মুদ্রাস্ফীতি নিয়ন্ত্রণে RBI-র মুদ্রানীতি প্রধানত কোন পথে কাজ করে?",
+      "a": "সুদের হার ও ঋণ নিয়ন্ত্রণ করে মোট চাহিদা কমিয়ে",
+      "w": [
+        "সরকারি মজুত থেকে খাদ্যশস্য ছেড়ে",
+        "আমদানি শুল্ক কমিয়ে",
+        "মজুরি আইন করে কমিয়ে"
+      ],
+      "e": "RBI-র বক্তব্য অনুযায়ী মুদ্রানীতি প্রত্যাশা নিয়ন্ত্রণ ও চাহিদা-চাপ সংযত করে; সরবরাহ-ব্যবস্থাপনা সরকারের কাজ।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "inflation_meaning_causes",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "উচ্চ মুদ্রাস্ফীতির বোঝা সবচেয়ে অসামঞ্জস্যপূর্ণভাবে কাদের ওপর পড়ে?",
+      "a": "গরিব মানুষের ওপর",
+      "w": [
+        "বড় শিল্পপতিদের ওপর",
+        "বিদেশি বিনিয়োগকারীদের ওপর",
+        "সরকারি কর্মচারীদের ওপর"
+      ],
+      "e": "RBI গভর্নরের বক্তব্য অনুযায়ী উচ্চ মুদ্রাস্ফীতি গরিবদের ওপরেই সবচেয়ে বেশি বোঝা চাপায়, কারণ তাদের আয়ের বড় অংশ যায় নিত্যপণ্যে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "inflation_meaning_causes",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "জানুয়ারি ২০২৬-এ সর্বভারতীয় CPI মুদ্রাস্ফীতি (ভিত্তিবর্ষ ২০২৪) কত ছিল?",
+      "a": "২.৭৫% (সাময়িক)",
+      "w": [
+        "৬.০৯% (সাময়িক)",
+        "৪.০০% (সাময়িক)",
+        "১.৩৩% (সাময়িক)"
+      ],
+      "e": "MoSPI-র বিজ্ঞপ্তি অনুযায়ী জানুয়ারি ২০২৬-এর বার্ষিক CPI মুদ্রাস্ফীতি ছিল ২.৭৫% (সাময়িক) — এই সংখ্যাটি সেই তারিখের হিসেবে সঠিক।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "inflation_meaning_causes",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. কেন্দ্রীয় ব্যাংকগুলির লক্ষ্য মূল্যস্থিতি — অর্থাৎ কম ও স্থিতিশীল মুদ্রাস্ফীতি।\n২. কোনো একটি পণ্যের একবারের দামবৃদ্ধিই মুদ্রাস্ফীতি।\n\nকোনটি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "মূল্যস্থিতি মানে কম ও স্থিতিশীল মুদ্রাস্ফীতি; মুদ্রাস্ফীতি হতে হলে সাধারণ মূল্যস্তরের টানা বৃদ্ধি চাই — বিবৃতি ২ ভুল।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "measuring_controlling_inflation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে সর্বভারতীয় CPI প্রকাশ করে কোন সংস্থা?",
+      "a": "পরিসংখ্যান ও কর্মসূচি রূপায়ণ মন্ত্রক (MoSPI/NSO)",
+      "w": [
+        "ভারতীয় রিজার্ভ ব্যাংক",
+        "DPIIT, বাণিজ্য মন্ত্রক",
+        "অর্থ মন্ত্রক"
+      ],
+      "e": "CPI প্রকাশ করে MoSPI; দাম সংগ্রহ করে NSO-র ফিল্ড অপারেশনস বিভাগ।",
+      "claims": [
+        "c29",
+        "c31"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "measuring_controlling_inflation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তমান (২০২৬) CPI সিরিজের ভিত্তিবর্ষ কোনটি?",
+      "a": "২০২৪ = ১০০",
+      "w": [
+        "২০১২ = ১০০",
+        "২০১১–১২",
+        "২০০৪–০৫"
+      ],
+      "e": "২০২৬ সাল থেকে CPI-র ভিত্তিবর্ষ ২০২৪; ২০১২ ছিল আগের সিরিজের ভিত্তিবর্ষ।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "measuring_controlling_inflation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WPI প্রকাশ করে কোন দপ্তর?",
+      "a": "অর্থনৈতিক উপদেষ্টার দপ্তর, DPIIT",
+      "w": [
+        "জাতীয় পরিসংখ্যান দপ্তর (NSO)",
+        "ভারতীয় রিজার্ভ ব্যাংক",
+        "কেন্দ্রীয় পরিসংখ্যান দপ্তর"
+      ],
+      "e": "WPI প্রকাশ করে বাণিজ্য ও শিল্প মন্ত্রকের DPIIT-র অর্থনৈতিক উপদেষ্টার দপ্তর।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "measuring_controlling_inflation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "RBI-র মুদ্রাস্ফীতি লক্ষ্য কত?",
+      "a": "CPI মুদ্রাস্ফীতি ৪%, সহনশীলতা ± ২%",
+      "w": [
+        "WPI মুদ্রাস্ফীতি ৪%, সহনশীলতা ± ২%",
+        "CPI মুদ্রাস্ফীতি ৫%, সহনশীলতা ± ১%",
+        "GDP প্রবৃদ্ধি ৪%, সহনশীলতা ± ২%"
+      ],
+      "e": "আইনি লক্ষ্য হল শিরোনাম CPI মুদ্রাস্ফীতি ৪% ± ২% — লক্ষ্য WPI দিয়ে মাপা হয় না।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "measuring_controlling_inflation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সংশোধিত WPI সিরিজের (২০২৬) ভিত্তিবর্ষ কোনটি?",
+      "a": "২০২২–২৩",
+      "w": [
+        "২০১১–১২",
+        "২০২৪",
+        "২০১৫–১৬"
+      ],
+      "e": "১৫ জুন ২০২৬ থেকে WPI-র নতুন সিরিজের ভিত্তিবর্ষ ২০২২–২৩, যা ২০১১–১২ সিরিজের জায়গা নিয়েছে।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "measuring_controlling_inflation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "CPI ও GDP ডিফ্লেটরের পার্থক্য সম্পর্কে কোনটি সঠিক?",
+      "a": "CPI-তে আমদানি পণ্যের দাম ঢোকে, ডিফ্লেটরে ঢোকে না",
+      "w": [
+        "ডিফ্লেটরে আমদানি পণ্যের দাম ঢোকে, CPI-তে ঢোকে না",
+        "দুটিতেই শুধু খাদ্যপণ্যের দাম ধরা হয়",
+        "CPI শুধু পাইকারি দাম ধরে"
+      ],
+      "e": "ভোক্তার ঝুড়িতে আমদানি পণ্য থাকায় CPI-তে তার দাম ঢোকে; ডিফ্লেটর শুধু দেশে উৎপাদিত পণ্য ধরে।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "measuring_controlling_inflation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "RBI-র নীতিগত হার (policy rate) কোনটি, এবং তা কে নির্ধারণ করে?",
+      "a": "রেপো হার; মুদ্রানীতি কমিটি (MPC)",
+      "w": [
+        "ব্যাংক হার; অর্থ মন্ত্রক",
+        "রেপো হার; RBI গভর্নর এককভাবে",
+        "CRR; সংসদ"
+      ],
+      "e": "FIT কাঠামোয় রেপো হারই নীতিগত হার, যা নির্ধারণ করে RBI-র MPC।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "measuring_controlling_inflation",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. ভারত ২০১৬ সালে RBI আইন সংশোধন করে নমনীয় মুদ্রাস্ফীতি লক্ষ্য (FIT) গ্রহণ করে।\n২. গড় CPI মুদ্রাস্ফীতি টানা তিন ত্রৈমাসিক ২%–৬% ব্যান্ডের বাইরে থাকলে তা লক্ষ্য পূরণে ব্যর্থতা।\n৩. মুদ্রানীতির নামিক নোঙর হিসেবে WPI-কে বেছে নেওয়া হয়েছে।\n\nকোনগুলি সঠিক?",
+      "a": "১ এবং ২",
+      "w": [
+        "কেবল ৩",
+        "২ এবং ৩",
+        "১, ২ এবং ৩"
+      ],
+      "e": "FIT গৃহীত হয় ২০১৬ সালে এবং ব্যর্থতার সংজ্ঞা টানা তিন ত্রৈমাসিক ব্যান্ডের বাইরে থাকা; কিন্তু নামিক নোঙর CPI (CPI-Combined), WPI নয় — বিবৃতি ৩ ভুল।",
+      "claims": [
+        "c22",
+        "c24",
+        "c26"
+      ]
+    }
+  ]
+}
