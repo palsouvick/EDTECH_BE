@@ -1,0 +1,1430 @@
+{
+  "book": "polity",
+  "code": "POL-10",
+  "number": 10,
+  "part": "union_govt",
+  "title": "আইন প্রণয়ন, বাজেট ও সংসদীয় কার্যপ্রণালী",
+  "subtitle": "১০৭ থেকে ১২৩ অনুচ্ছেদ: বিল পাস, অর্থ বিল, বাজেট, তহবিল ও নিয়ন্ত্রণ",
+  "subtopics": [
+    "parliament"
+  ],
+  "related_facts": [],
+  "prerequisites": [
+    "POL-09"
+  ],
+  "reading_minutes": {
+    "quick": 9,
+    "standard": 32,
+    "deep": 44
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (38 SURE, 3 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 11 of 14 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_POL-10.json and drafts/POL-10_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/POL-10_REPORT.md.",
+    "checked_claims": 36,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "POL-09-এ সংসদের গঠন পড়েছ — এই অধ্যায়ে পড়ব সংসদ কীভাবে কাজ করে: সাধারণ বিল কীভাবে দুই কক্ষ পেরিয়ে আইন হয়, অর্থ বিলে লোকসভা কেন এগিয়ে, বাজেট কীভাবে পেশ ও পাস হয়, ভারতের সঞ্চিত তহবিল থেকে টাকা তুলতে সংসদের অনুমোদন কেন বাধ্যতামূলক, এবং প্রশ্নোত্তর, অনাস্থা ও কমিটির মাধ্যমে সংসদ সরকারকে কীভাবে নিয়ন্ত্রণে রাখে। ১০৭ থেকে ১২৩ অনুচ্ছেদই এই অধ্যায়ের মেরুদণ্ড — WBCS-এ অর্থ বিল ও সরকারি হিসাব কমিটি থেকে প্রশ্ন বারবার আসে।",
+    "you_will_learn": [
+      "১০৭ অনুচ্ছেদ: সাধারণ বিল যেকোনো কক্ষে আনা যায়, দুই কক্ষের সম্মতি ছাড়া পাস নয়",
+      "১০৮ অনুচ্ছেদ: যৌথ অধিবেশন — কখন হয়, অর্থ বিলে হয় না",
+      "১০৯–১১০ অনুচ্ছেদ: অর্থ বিলের বিশেষ পদ্ধতি ও সংজ্ঞা; চূড়ান্ত সিদ্ধান্ত অধ্যক্ষের",
+      "১১১ অনুচ্ছেদ: রাষ্ট্রপতির সম্মতি ও বিল ফেরত পাঠানো",
+      "১১২–১১৬ অনুচ্ছেদ: বার্ষিক আর্থিক বিবৃতি, দাবি, বিনিয়োগ বিল ও অতিরিক্ত অনুদান",
+      "২৬৬–২৬৭ অনুচ্ছেদ: সঞ্চিত তহবিল ও আকস্মিক তহবিল",
+      "নিয়ন্ত্রণের হাতিয়ার: প্রশ্নোত্তর পর্ব, অনাস্থা প্রস্তাব, কমিটি ও সরকারি হিসাব কমিটি"
+    ]
+  },
+  "sections": [
+    {
+      "id": "ordinary_bill",
+      "heading": "সাধারণ বিল — উত্থাপন থেকে দুই কক্ষের সম্মতি",
+      "quick": "বিল হল প্রস্তাবিত আইনের খসড়া। মন্ত্রী আনলে সরকারি বিল, অন্য সদস্য আনলে বেসরকারি সদস্যের বিল। ১০৭ অনুচ্ছেদ অনুযায়ী অর্থ বিল ও আর্থিক বিল ছাড়া বিল যেকোনো কক্ষে আনা যায়, কিন্তু দুই কক্ষ সম্মত না হলে তা পাস হয়েছে বলে ধরা হয় না। লোকসভা ভেঙে গেলে লোকসভায় বিচারাধীন বিল বাতিল হয়ে যায়, কিন্তু রাজ্যসভায় বিচারাধীন (লোকসভায় পাস হয়নি) বিল বাতিল হয় না।",
+      "standard": "বিল (Bill) হল প্রস্তাবিত আইনের **খসড়া**। মন্ত্রী বিল আনলে তাকে **সরকারি বিল (Government Bill)**, মন্ত্রী নন এমন সদস্য আনলে **বেসরকারি সদস্যের বিল (Private Member's Bill)** বলে। বাস্তবে কোনো বড় বিল মন্ত্রিসভার অনুমোদন ছাড়া সংসদে আনা হয় না — বিলের বিষয়বস্তু ও সময় মন্ত্রিসভাই ঠিক করে; মন্ত্রী নন এমন সদস্যের বিল সরকারের সমর্থন ছাড়া পাস হওয়ার সম্ভাবনা থাকে না।\n\n১০৭(১) অনুচ্ছেদ অনুযায়ী, ১০৯ ও ১১৭ অনুচ্ছেদের বিধান সাপেক্ষে, **বিল যেকোনো কক্ষে উত্থাপিত হতে পারে**। কিন্তু ১০৭(২) অনুচ্ছেদে স্পষ্ট: দুই কক্ষ সংশোধনী ছাড়া, অথবা শুধু দুই কক্ষের সম্মত সংশোধনীসহ, বিলে **সম্মত না হলে** বিলটি পাস হয়েছে বলে ধরা হয় না। অর্থাৎ সাধারণ বিলে দুই কক্ষের ক্ষমতা সমান।\n\nবিল নিয়ে আলোচনার বড় অংশ হয় **কমিটিতে** — তাই কমিটিগুলিকে **ক্ষুদ্র আইনসভা (miniature legislatures)** বলা হয়। কমিটির সুপারিশ কক্ষে পাঠানো হয়, তারপর ভোট হয়।\n\nবিল কখন বাতিল (lapse) হয়? ১০৭(৩): সংসদ **স্থগিত (prorogation)** হলে বিচারাধীন বিল বাতিল হয় না। ১০৭(৪): রাজ্যসভায় বিচারাধীন বিল যা লোকসভায় পাস হয়নি, তা লোকসভা ভেঙে গেলেও বাতিল হয় না। কিন্তু ১০৭(৫): লোকসভায় বিচারাধীন বিল, বা লোকসভায় পাস হয়ে রাজ্যসভায় বিচারাধীন বিল, লোকসভা ভেঙে গেলে **বাতিল হয়ে যায়** (১০৮ অনুচ্ছেদের সাপেক্ষে)।",
+      "deep": "পরীক্ষার ফাঁদ: 'স্থগিত হলে বিল বাতিল হয়' — ভুল। বাতিলের প্রশ্ন ওঠে শুধু লোকসভা **ভেঙে গেলে**, এবং তখনও রাজ্যসভায় আটকে থাকা, লোকসভায় পাস-না-হওয়া বিল বেঁচে যায়। যুক্তিটি সহজ: রাজ্যসভা স্থায়ী কক্ষ, তাই তার হাতে থাকা কাজ লোকসভার মৃত্যুতে নষ্ট হয় না; কিন্তু লোকসভার নিজের কাজ তার সঙ্গেই শেষ।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "১০৭-এর তিন নিয়ম",
+          "body": "(১) বিল যেকোনো কক্ষে আনা যায় (অর্থ/আর্থিক বিল ছাড়া)। (২) দুই কক্ষের সম্মতি ছাড়া পাস নয়। (৩) স্থগিতে বিল বাতিল নয়; লোকসভা ভাঙলে লোকসভার বিল বাতিল, রাজ্যসভার অপাস-বিল বাতিল নয়।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c26"
+      ]
+    },
+    {
+      "id": "joint_assent",
+      "heading": "অচলাবস্থা, যৌথ অধিবেশন ও রাষ্ট্রপতির সম্মতি",
+      "quick": "সাধারণ বিলে দুই কক্ষে অচলাবস্থা হলে — বিল প্রত্যাখ্যাত হলে, সংশোধনীতে চূড়ান্ত মতভেদ হলে, বা ছয় মাসের বেশি পেরিয়ে গেলে — রাষ্ট্রপতি যৌথ অধিবেশন ডাকতে পারেন (১০৮ অনুচ্ছেদ)। অর্থ বিলে যৌথ অধিবেশন হয় না। যৌথ অধিবেশনে সভাপতিত্ব করেন লোকসভার অধ্যক্ষ। দুই কক্ষে পাসের পর বিল রাষ্ট্রপতির সম্মতির জন্য যায় (১১১ অনুচ্ছেদ)।",
+      "standard": "১০৮(১) অনুচ্ছেদ অনুযায়ী একটি কক্ষে পাস হয়ে অন্য কক্ষে যাওয়া বিলের ক্ষেত্রে তিনটি অবস্থায় রাষ্ট্রপতি **যৌথ অধিবেশন (joint sitting)** ডাকার ইচ্ছা জানাতে পারেন: (ক) অন্য কক্ষ বিলটি **প্রত্যাখ্যান** করলে; (খ) সংশোধনী নিয়ে দুই কক্ষের **চূড়ান্ত মতভেদ** হলে; (গ) অন্য কক্ষ বিল পাওয়ার তারিখ থেকে **ছয় মাসের বেশি** পেরিয়ে গেলেও বিল পাস না হলে। তবে এই বিধান **অর্থ বিলের ক্ষেত্রে প্রযোজ্য নয়** — অর্থ বিলে যৌথ অধিবেশন হতে পারে না।\n\n১০৮(৪) অনুচ্ছেদ অনুযায়ী যৌথ অধিবেশনে বিলটি দুই কক্ষের **উপস্থিত ও ভোটদানকারী সদস্যদের মোট সংখ্যার সংখ্যাগরিষ্ঠতায়** পাস হলে তা দুই কক্ষে পাস হয়েছে বলে ধরা হয়। ১১৮(৪) অনুচ্ছেদ অনুযায়ী যৌথ অধিবেশনে সভাপতিত্ব করেন **লোকসভার অধ্যক্ষ**। সংখ্যায় লোকসভা বড় বলে যৌথ অধিবেশনের সিদ্ধান্ত সাধারণত লোকসভার দিকেই যায় — এনসিইআরটিও এই পর্যবেক্ষণ দিয়েছে।\n\nদুই কক্ষে পাসের পর বিল **রাষ্ট্রপতির সম্মতির** জন্য পেশ করা হয় (১১১ অনুচ্ছেদ)। রাষ্ট্রপতি সম্মতি দিতে বা আটকে রাখতে পারেন। তিনি অর্থ বিল নয় এমন বিল **পুনর্বিবেচনার জন্য ফেরত** পাঠাতে পারেন; কিন্তু কক্ষগুলি সংশোধনীসহ বা ছাড়া বিলটি আবার পাস করে পাঠালে রাষ্ট্রপতি সম্মতি **আটকে রাখতে পারেন না**। সম্মতি পেলেই বিল আইনে পরিণত হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "যৌথ অধিবেশন কে ডাকেন, কে সভাপতিত্ব করেন?",
+          "body": "ডাকেন **রাষ্ট্রপতি** (১০৮ অনুচ্ছেদ), সভাপতিত্ব করেন **লোকসভার অধ্যক্ষ** (১১৮(৪) অনুচ্ছেদ)। দুটি ভূমিকা গুলিয়ে ফেলো না। আর মনে রাখো: যৌথ অধিবেশন শুধু **সাধারণ বিলে** — অর্থ বিলে নয়, সংবিধান সংশোধনী বিলেও নয় (সংশোধনীতে অচলাবস্থার কোনো যৌথ-অধিবেশন বিধান নেই)।"
+        }
+      ],
+      "claims": [
+        "c06",
+        "c07",
+        "c13",
+        "c30"
+      ]
+    },
+    {
+      "id": "money_bill",
+      "heading": "অর্থ বিল — সংজ্ঞা ও বিশেষ পদ্ধতি",
+      "quick": "অর্থ বিল শুধু লোকসভায় আনা যায় (১০৯ অনুচ্ছেদ)। লোকসভায় পাসের পর রাজ্যসভা ১৪ দিনের মধ্যে শুধু সুপারিশ পাঠাতে পারে — প্রত্যাখ্যান বা সংশোধন করতে পারে না; লোকসভা সুপারিশ মানতেও পারে, নাও পারে। কোনো বিল অর্থ বিল কি না, তা চূড়ান্তভাবে ঠিক করেন লোকসভার অধ্যক্ষ (১১০(৩) অনুচ্ছেদ)। অর্থ বিল আনতে রাষ্ট্রপতির সুপারিশ লাগে (১১৭(১) অনুচ্ছেদ)।",
+      "standard": "১১০(১) অনুচ্ছেদ অনুযায়ী কোনো বিল **অর্থ বিল (Money Bill)** হবে যদি তাতে **শুধুমাত্র** এই বিষয়গুলির বিধান থাকে: (ক) কর আরোপ, বিলোপ, মওকুফ, পরিবর্তন বা নিয়ন্ত্রণ; (খ) ভারত সরকারের ঋণ নেওয়া বা জামিন দেওয়ার নিয়ন্ত্রণ; (গ) সঞ্চিত তহবিল বা আকস্মিক তহবিলের হেফাজত ও তাতে টাকা জমা বা তোলা; (ঘ) সঞ্চিত তহবিল থেকে টাকা বিনিয়োগ (appropriation); (ঙ) কোনো ব্যয়কে সঞ্চিত তহবিলের উপর ধার্য (charged) ঘোষণা বা তার পরিমাণ বাড়ানো; (চ) সঞ্চিত তহবিল বা সরকারি হিসাবের খাতে টাকা পাওয়া, তার হেফাজত বা বিলি, এবং কেন্দ্র বা রাজ্যের হিসাবের অডিট; (ছ) এগুলির আনুষঙ্গিক বিষয়।\n\n১১০(২) অনুচ্ছেদে সতর্কতা: শুধু জরিমানা, লাইসেন্স বা সেবার ফি, বা স্থানীয় কর্তৃপক্ষের স্থানীয় কর থাকলেই বিল অর্থ বিল হয় না। ১১০(৩) অনুচ্ছেদ অনুযায়ী কোনো বিল অর্থ বিল কি না — প্রশ্ন উঠলে **লোকসভার অধ্যক্ষের সিদ্ধান্তই চূড়ান্ত**; অর্থ বিল রাজ্যসভায় পাঠানোর সময় ও রাষ্ট্রপতির কাছে পেশের সময় অধ্যক্ষের এই মর্মে সনদ থাকে।\n\nপদ্ধতি (১০৯ অনুচ্ছেদ): অর্থ বিল **রাজ্যসভায় আনা যায় না** — শুধু লোকসভায়। লোকসভায় পাসের পর বিল রাজ্যসভায় যায় **সুপারিশের** জন্য; রাজ্যসভাকে **১৪ দিনের** মধ্যে বিল ফেরত পাঠাতে হয়। লোকসভা রাজ্যসভার সুপারিশের সবকটি বা যেকোনোটি **মানতে বা না-মানতে** পারে। ১৪ দিনে ফেরত না এলে বিলটি লোকসভায় পাস হওয়া আকারেই দুই কক্ষে পাস বলে ধরা হয়। তাই রাজ্যসভা অর্থ বিল **আনতে, প্রত্যাখ্যান করতে বা সংশোধন করতে পারে না** — কারণ রাজ্যসভা জনগণের দ্বারা সরাসরি নির্বাচিত নয়, আর গণতন্ত্রে অর্থের চূড়ান্ত নিয়ন্ত্রণ সরাসরি নির্বাচিত প্রতিনিধিদের হাতে থাকা উচিত।\n\n১১৭(১) অনুচ্ছেদ অনুযায়ী ১১০(১)(ক)–(চ)-এর বিষয়ে বিধান করা বিল বা সংশোধনী **রাষ্ট্রপতির সুপারিশ ছাড়া আনা যায় না**, এবং এমন বিল রাজ্যসভায় আনা যায় না। তবে কর কমানো বা বিলোপের সংশোধনী আনতে সুপারিশ লাগে না।",
+      "deep": "অর্থ বিল বনাম আর্থিক বিল (Financial Bill): অর্থ বিলে শুধুমাত্র ১১০-এর বিষয় থাকে; আর্থিক বিলে ১১০-এর বিষয়ের সঙ্গে অন্য বিষয়ও থাকে। ১১৭(৩) অনুচ্ছেদ অনুযায়ী যে বিল আইন হলে সঞ্চিত তহবিল থেকে ব্যয় হবে, তা রাষ্ট্রপতি সেই কক্ষে বিবেচনার সুপারিশ না করলে কোনো কক্ষেই পাস হতে পারে না। এই পার্থক্যটি WBCS-এর প্রিয় প্রশ্ন।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "রাজ্যসভা অর্থ বিল 'সংশোধন' করলে?",
+          "body": "রাজ্যসভা অর্থ বিল সংশোধন করতে **পারে না** — শুধু সুপারিশ করতে পারে। WBCS ২০১৯-এর প্রশ্নে ('অর্থ বিল রাজ্যসভা ব্যাপকভাবে সংশোধন করলে কী হবে?') সঠিক ধারণা এটাই: লোকসভা সেই সুপারিশ মানলে তবেই বিল সেই আকারে পাস; না মানলে লোকসভার আকারেই পাস।"
+        },
+        {
+          "kind": "remember",
+          "title": "১৪ দিন, শুধু সুপারিশ",
+          "body": "অর্থ বিলে রাজ্যসভার হাতে মাত্র **১৪ দিন** ও শুধু **সুপারিশের** ক্ষমতা। চূড়ান্ত কথা লোকসভার।"
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c14",
+        "c15",
+        "c36",
+        "c26"
+      ]
+    },
+    {
+      "id": "budget_process",
+      "heading": "বাজেট — বার্ষিক আর্থিক বিবৃতি থেকে বিনিয়োগ আইন",
+      "quick": "বাজেটের সাংবিধানিক নাম বার্ষিক আর্থিক বিবৃতি (১১২ অনুচ্ছেদ) — রাষ্ট্রপতি প্রতি অর্থবছরে দুই কক্ষের সামনে পেশ করান। ধার্য ব্যয়ে ভোট হয় না, শুধু আলোচনা হয়; বাকি ব্যয় অনুদানের দাবি হিসেবে শুধু লোকসভায় ভোট হয় (১১৩ অনুচ্ছেদ)। দাবি মঞ্জুরের পর বিনিয়োগ বিল আসে (১১৪ অনুচ্ছেদ) — আইন ছাড়া সঞ্চিত তহবিল থেকে টাকা তোলা যায় না।",
+      "standard": "১১২(১) অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি প্রতি অর্থবছরের জন্য ভারত সরকারের আনুমানিক আয় ও ব্যয়ের বিবৃতি — **বার্ষিক আর্থিক বিবৃতি (annual financial statement)** — দুই কক্ষের সামনে পেশ করান। সাধারণ ভাষায় এটাই **বাজেট**। বিবৃতিতে রাজস্ব খাতের ব্যয় আলাদাভাবে দেখানো হয়।\n\nব্যয় দুই ভাগে ভাগ হয়। **ধার্য ব্যয় (charged expenditure)**: রাষ্ট্রপতির বেতন-ভাতা ও দপ্তরের ব্যয়, সভাপতি-উপসভাপতি ও অধ্যক্ষ-উপাধ্যক্ষের বেতন-ভাতা, সরকারের ঋণের ধার্য (সুদ, ঋণ পরিশোধ), সুপ্রিম কোর্টের বিচারপতিদের বেতন-ভাতা-পেনশন, মহাহিসাব নিয়ামক ও নিরীক্ষকের (CAG) বেতন-পেনশন, আদালতের রায় মেটানোর অর্থ, এবং সংবিধান বা সংসদের আইনে ধার্য ঘোষিত অন্য ব্যয়। ১১২(৩) অনুচ্ছেদ অনুযায়ী ধার্য ব্যয় **সংসদের ভোটে দেওয়া হয় না**, তবে দুই কক্ষেই তা নিয়ে **আলোচনা** হতে পারে।\n\nবাকি ব্যয় **অনুদানের দাবি (demands for grants)** হিসেবে শুধু **লোকসভায়** পেশ হয় (১১৩ অনুচ্ছেদ)। লোকসভা দাবি মঞ্জুর করতে, প্রত্যাখ্যান করতে, বা পরিমাণ **কমিয়ে** মঞ্জুর করতে পারে। কোনো দাবিই **রাষ্ট্রপতির সুপারিশ ছাড়া** পেশ করা যায় না।\n\nদাবি মঞ্জুরের পর ১১৪ অনুচ্ছেদ অনুযায়ী **বিনিয়োগ বিল (Appropriation Bill)** আনা হয় — মঞ্জুর অনুদান ও ধার্য ব্যয় মেটাতে সঞ্চিত তহবিল থেকে টাকা তোলার আইনি অনুমোদন। এই বিলে এমন সংশোধনী আনা যায় না যা কোনো অনুদানের পরিমাণ বা গন্তব্য বদলে দেয়। মূল নিয়ম: **বিনিয়োগ আইন ছাড়া সঞ্চিত তহবিল থেকে কোনো টাকা তোলা যায় না**।\n\nবছরের মাঝে ঘাটতি হলে ১১৫ অনুচ্ছেদে **সম্পূরক, অতিরিক্ত বা অতিরিক্ত-ব্যয় অনুদান (supplementary, additional or excess grants)**; আর ১১৬ অনুচ্ছেদে লোকসভা দিতে পারে **ভোট অন অ্যাকাউন্ট** (প্রক্রিয়া শেষ হওয়ার আগেই অংশবিশেষের জন্য অগ্রিম অনুদান), **ভোট অব ক্রেডিট** (অপ্রত্যাশিত দাবির জন্য) ও **ব্যতিক্রমী অনুদান** (চলতি সেবার অংশ নয় এমন)।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "বাজেটের ধাপগুলি",
+          "body": "**১১২** বিবৃতি পেশ → **১১৩** দাবিতে লোকসভার ভোট (ধার্য ব্যয়ে ভোট নয়) → **১১৪** বিনিয়োগ বিল → টাকা তোলা। মাঝবছরে: **১১৫** সম্পূরক/অতিরিক্ত, **১১৬** ভোট অন অ্যাকাউন্ট/ক্রেডিট।"
+        }
+      ],
+      "claims": [
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c25"
+      ]
+    },
+    {
+      "id": "funds",
+      "heading": "তহবিল — সঞ্চিত তহবিল, সরকারি হিসাব ও আকস্মিক তহবিল",
+      "quick": "ভারত সরকারের সব রাজস্ব, নেওয়া ঋণ ও ঋণ-পরিশোধে পাওয়া টাকা মিলে ভারতের সঞ্চিত তহবিল (Consolidated Fund of India) — ২৬৬ অনুচ্ছেদ। এই তহবিল থেকে টাকা শুধু আইন অনুযায়ীই বিনিয়োগ করা যায় — তাই যেকোনো ব্যয়ের আগে সংসদের অনুমোদন বাধ্যতামূলক। অপ্রত্যাশিত ব্যয়ের জন্য আছে আকস্মিক তহবিল (২৬৭ অনুচ্ছেদ), যা রাষ্ট্রপতির হাতে থাকে।",
+      "standard": "২৬৬(১) অনুচ্ছেদ অনুযায়ী ভারত সরকারের পাওয়া **সব রাজস্ব**, ট্রেজারি বিল, ঋণ বা অগ্রিম পদ্ধতিতে নেওয়া **সব ঋণ**, এবং ঋণ পরিশোধে পাওয়া সব টাকা মিলে একটি তহবিল হয় — **ভারতের সঞ্চিত তহবিল (Consolidated Fund of India)**। রাজ্যের ক্ষেত্রেও একইভাবে রাজ্যের সঞ্চিত তহবিল হয়। সরকারের অন্য সব সরকারি টাকা জমা হয় **সরকারি হিসাবে (public account)**।\n\n২৬৬(৩) অনুচ্ছেদের নিয়মটি এই অধ্যায়ের সবচেয়ে পরীক্ষামুখী বাক্য: সঞ্চিত তহবিল থেকে **আইন অনুযায়ী ছাড়া** এবং সংবিধানে বলা উদ্দেশ্য ও পদ্ধতি ছাড়া কোনো টাকা বিনিয়োগ করা যাবে না। অর্থাৎ সঞ্চিত তহবিল থেকে ব্যয়ের আগে **সংসদের অনুমোদন আবশ্যক** — এটাই বাজেট প্রক্রিয়ার সাংবিধানিক ভিত্তি।\n\n২৬৭(১) অনুচ্ছেদ অনুযায়ী সংসদ আইন করে **ভারতের আকস্মিক তহবিল (Contingency Fund of India)** গঠন করতে পারে। এই তহবিল **রাষ্ট্রপতির হাতে** থাকে, যাতে তিনি অপ্রত্যাশিত ব্যয়ের জন্য অগ্রিম দিতে পারেন — পরে সংসদ ১১৫ বা ১১৬ অনুচ্ছেদ অনুযায়ী আইন করে সেই ব্যয় অনুমোদন করে।\n\nগণতন্ত্রে আইনসভাই কর ও সরকারি ব্যয় নিয়ন্ত্রণ করে: নতুন করের প্রস্তাবে লোকসভার অনুমোদন লাগে, সরকারকে ব্যয়ের হিসাব আইনসভাকে দিতে হয়, এবং বাজেট ও বার্ষিক আর্থিক বিবৃতির মাধ্যমেই আইনসভা নিশ্চিত করে সরকার অর্থের অপচয় বা অতিরিক্ত ব্যয় না করে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সব রাজস্ব কোথায় জমা হয়?",
+          "body": "WBCS ২০২৩-এর প্রশ্ন: প্রত্যক্ষ ও পরোক্ষ করের রাজস্ব, ধার করা টাকা ও দেওয়া ঋণ থেকে প্রাপ্তি — সব যায় **সঞ্চিত তহবিলে** (২৬৬(১) অনুচ্ছেদ)। আকস্মিক তহবিলের সঙ্গে গুলিয়ে ফেলো না — সেটি শুধু অপ্রত্যাশিত ব্যয়ের অগ্রিমের জন্য।"
+        }
+      ],
+      "claims": [
+        "c22",
+        "c23",
+        "c24",
+        "c25"
+      ]
+    },
+    {
+      "id": "control_committees",
+      "heading": "সরকারের উপর নিয়ন্ত্রণ — প্রশ্ন, অনাস্থা ও কমিটি",
+      "quick": "সংসদ সরকারকে নিয়ন্ত্রণ করে আলোচনা, আইন অনুমোদন বা প্রত্যাখ্যান, আর্থিক নিয়ন্ত্রণ ও অনাস্থা প্রস্তাবের মাধ্যমে। প্রশ্নোত্তর পর্ব প্রতিদিন বসে; জিরো আওয়ারে সদস্যরা যেকোনো গুরুত্বপূর্ণ বিষয় তুলতে পারেন। ব্যয়ের পরের যাচাই করে সরকারি হিসাব কমিটি (PAC) — ২২ সদস্য: লোকসভা থেকে ১৫, রাজ্যসভা থেকে ৭।",
+      "standard": "সংসদীয় গণতন্ত্রে শাসনবিভাগ সংখ্যাগরিষ্ঠ দল থেকে আসে বলে তার ক্ষমতা অনিয়ন্ত্রিত হয়ে যাওয়ার আশঙ্কা থাকে; সক্রিয় সংসদই তার উপর নিয়মিত নজর রাখে। এনসিইআরটি নিয়ন্ত্রণের চারটি প্রধান পথ গুনেছে: **আলোচনা ও বিতর্ক, আইনের অনুমোদন বা প্রত্যাখ্যান, আর্থিক নিয়ন্ত্রণ, এবং অনাস্থা প্রস্তাব**।\n\nআলোচনার হাতিয়ারগুলির মধ্যে আছে **প্রশ্নোত্তর পর্ব (Question Hour)** — অধিবেশন চলাকালীন প্রতিদিন বসে, মন্ত্রীদের সদস্যদের প্রশ্নের উত্তর দিতে হয়; **জিরো আওয়ার (Zero Hour)** — সদস্যরা গুরুত্বপূর্ণ যেকোনো বিষয় তুলতে পারেন, তবে মন্ত্রীরা উত্তর দিতে বাধ্য নন; আধ-ঘণ্টার আলোচনা ও **মুলতবি প্রস্তাব (adjournment motion)**।\n\nসবচেয়ে শক্তিশালী অস্ত্র **অনাস্থা প্রস্তাব (no-confidence motion)**: লোকসভার আস্থা হারালে সরকারকে পদত্যাগ করতে হয়। ১৯৮৯ সালের পর জোটসঙ্গীদের সমর্থন হারিয়ে বেশ কয়েকটি সরকার এভাবেই পড়ে গেছে। মনে রাখো, মন্ত্রিসভা **লোকসভার** কাছে দায়বদ্ধ — রাজ্যসভা সরকারের সমালোচনা করতে পারে, অপসারণ করতে পারে না।\n\nকাজের গভীর যাচাই হয় **কমিটিতে**। ১৯৮৩ সাল থেকে বিভাগভিত্তিক স্থায়ী কমিটির ব্যবস্থা গড়ে উঠেছে — কুড়িটির বেশি এমন কমিটি বিভাগের কাজ, বাজেট, ব্যয় ও বিল তদারকি করে। **যৌথ সংসদীয় কমিটি (JPC)** গঠন করা যায় কোনো নির্দিষ্ট বিল আলোচনার জন্য বা আর্থিক অনিয়ম তদন্তের জন্য; এর সদস্যরা দুই কক্ষ থেকেই আসেন।\n\nব্যয়-পরবর্তী যাচাইয়ের প্রধান কমিটি **সরকারি হিসাব কমিটি (Public Accounts Committee, PAC)**: প্রতি বছর গঠিত এই কমিটিতে **২২ জন সদস্য — লোকসভা থেকে ১৫ জন ও রাজ্যসভা থেকে ৭ জন**। কমিটি বিনিয়োগ হিসাব, বার্ষিক আর্থিক হিসাব ও মহাহিসাব নিয়ামক ও নিরীক্ষকের (CAG) প্রতিবেদন পরীক্ষা করে দেখে: ব্যয় করা টাকা আইনত সেই কাজের জন্য উপলব্ধ ও প্রযোজ্য ছিল কি না, এবং ব্যয় কর্তৃপক্ষের বিধান মেনে হয়েছে কি না। আর্থিক নিয়ন্ত্রণের এই শৃঙ্খলাটি মনে রাখো: সংসদ অনুদান দেয় → সরকার ব্যয় করে → CAG অডিট করে → PAC পরীক্ষা করে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "PAC = ১৫ + ৭ = ২২",
+          "body": "সরকারি হিসাব কমিটি: মোট **২২** — লোকসভা **১৫**, রাজ্যসভা **৭**; প্রতি বছর গঠিত হয়; CAG-র প্রতিবেদন ও বিনিয়োগ হিসাব পরীক্ষা করে। WBCS-এ এই সংখ্যাটি বারবার এসেছে।"
+        }
+      ],
+      "claims": [
+        "c27",
+        "c28",
+        "c29",
+        "c35"
+      ]
+    },
+    {
+      "id": "procedure_rules",
+      "heading": "কার্যপ্রণালী, ভাষা, বিচারক-আলোচনার নিষেধ ও অধ্যাদেশ",
+      "quick": "প্রতিটি কক্ষ নিজের কার্যপ্রণালীর নিয়ম নিজে তৈরি করে (১১৮ অনুচ্ছেদ)। সংসদের কাজ হয় হিন্দি বা ইংরেজিতে (১২০ অনুচ্ছেদ)। বিচারকের আচরণ নিয়ে সংসদে আলোচনা নিষিদ্ধ, অপসারণের প্রস্তাব ছাড়া (১২১ অনুচ্ছেদ)। দুই কক্ষ অধিবেশনে না থাকলে রাষ্ট্রপতি অধ্যাদেশ জারি করতে পারেন (১২৩ অনুচ্ছেদ) — তা পুনঃঅধিবেশনের ছয় সপ্তাহ পর্যন্ত টেকে।",
+      "standard": "১১৮(১) অনুচ্ছেদ অনুযায়ী প্রতিটি কক্ষ সংবিধানের সাপেক্ষে নিজের **কার্যপ্রণালী ও কাজ পরিচালনার নিয়ম** নিজে তৈরি করতে পারে। অর্থ-সংক্রান্ত কাজ সময়মতো শেষ করতে সংসদ আইন করেও পদ্ধতি নিয়ন্ত্রণ করতে পারে (১১৯ অনুচ্ছেদ)।\n\n১২০(১) অনুচ্ছেদ অনুযায়ী সংসদের কাজ চলে **হিন্দি বা ইংরেজিতে**; তবে সভাপতি বা অধ্যক্ষ কোনো সদস্যকে অনুমতি দিতে পারেন, যিনি হিন্দি বা ইংরেজিতে যথাযথভাবে নিজেকে প্রকাশ করতে পারেন না, তিনি যেন **মাতৃভাষায়** ভাষণ দেন।\n\n১২১ অনুচ্ছেদে একটি সীমা আছে: সুপ্রিম কোর্ট বা হাইকোর্টের কোনো বিচারকের দায়িত্ব পালনে আচরণ নিয়ে সংসদে **আলোচনা করা যাবে না** — শুধু বিচারকের অপসারণের জন্য রাষ্ট্রপতির কাছে আবেদনের প্রস্তাবের ক্ষেত্রে ছাড়া। আর ১২২(১) অনুচ্ছেদ অনুযায়ী পদ্ধতিগত অনিয়মের অভিযোগে সংসদের কার্যধারার বৈধতা নিয়ে **আদালতে প্রশ্ন তোলা যায় না**।\n\nসংসদ অধিবেশনে না থাকলে আইন তৈরির জরুরি প্রয়োজন মেটাতে ১২৩ অনুচ্ছেদে **অধ্যাদেশ (Ordinance)**-এর ব্যবস্থা: দুই কক্ষ অধিবেশনে না থাকা অবস্থায় রাষ্ট্রপতি নিশ্চিত হলে যে অবিলম্বে ব্যবস্থা নেওয়া জরুরি, তিনি অধ্যাদেশ জারি করতে পারেন। অধ্যাদেশের ক্ষমতা সংসদের আইনের সমান, কিন্তু তা দুই কক্ষের সামনে পেশ করতে হয় এবং সংসদ পুনরায় বসার **ছয় সপ্তাহ** পর তা অকার্যকর হয়ে যায় — তার আগেই দুই কক্ষ অননুমোদনের প্রস্তাব পাস করলে আরও আগেই শেষ হয়। রাষ্ট্রপতি যেকোনো সময় অধ্যাদেশ প্রত্যাহারও করতে পারেন।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "অধ্যাদেশ বনাম আইন",
+          "body": "অধ্যাদেশের ক্ষমতা আইনের সমান হলেও তা **অস্থায়ী**: সংসদ বসার ছয় সপ্তাহের মধ্যে আইনে রূপ না পেলে শেষ। আইন স্থায়ী, যতদিন না সংসদ তা বদলায় বা বাতিল করে।"
+        }
+      ],
+      "claims": [
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "অর্থ বিলে রাজ্যসভার ১৪ দিনের সীমা কার্যকর হয়",
+      "when": "প্রতিটি অর্থ বিলে",
+      "what": "লোকসভায় পাস অর্থ বিল রাজ্যসভায় গেলে রাজ্যসভাকে ১৪ দিনের মধ্যে সুপারিশসহ ফেরত পাঠাতে হয়; না পাঠালে বিল লোকসভার আকারেই পাস বলে ধরা হয়।",
+      "why_it_matters": "এই নিয়মেই অর্থের বিষয়ে লোকসভার চূড়ান্ত কর্তৃত্ব নিশ্চিত হয়।",
+      "section": "money_bill",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "title": "বাজেট পেশ ও পাসের বার্ষিক চক্র",
+      "when": "প্রতি অর্থবছরে",
+      "what": "রাষ্ট্রপতি বার্ষিক আর্থিক বিবৃতি দুই কক্ষে পেশ করান; লোকসভা দাবিতে ভোট দেয়; তারপর বিনিয়োগ বিল পাস হয়।",
+      "why_it_matters": "এই চক্র ছাড়া সরকার সঞ্চিত তহবিল থেকে এক টাকাও তুলতে পারে না।",
+      "section": "budget_process",
+      "claims": [
+        "c16",
+        "c18",
+        "c19"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "লোকসভার অধ্যক্ষ (অর্থ বিলের ক্ষেত্রে)",
+      "when": "১১০ অনুচ্ছেদ",
+      "role": "অর্থ বিলের চূড়ান্ত নির্ণায়ক",
+      "contribution": "কোনো বিল অর্থ বিল কি না — প্রশ্ন উঠলে অধ্যক্ষের সিদ্ধান্তই চূড়ান্ত, এবং অর্থ বিলে তাঁর সনদ থাকে। যৌথ অধিবেশনেও তিনিই সভাপতিত্ব করেন।",
+      "section": "money_bill",
+      "claims": [
+        "c11",
+        "c30"
+      ]
+    },
+    {
+      "name": "রাষ্ট্রপতি (আইন প্রণয়নে)",
+      "when": "১১১, ১১৭ ও ১২৩ অনুচ্ছেদ",
+      "role": "সম্মতিদাতা ও সুপারিশকারী",
+      "contribution": "পাস হওয়া বিলে সম্মতি দেন বা অর্থ বিল নয় এমন বিল ফেরত পাঠান; আর্থিক বিল ও দাবির জন্য তাঁর সুপারিশ লাগে; সংসদ না বসলে অধ্যাদেশ জারি করেন।",
+      "section": "joint_assent",
+      "claims": [
+        "c13",
+        "c14",
+        "c34"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1950,
+      "when": "১৯৫০",
+      "label": "সংবিধান কার্যকর হওয়ার সঙ্গে ১০৭–১২৩ অনুচ্ছেদের আইন প্রণয়ন ও আর্থিক পদ্ধতি চালু",
+      "claims": [
+        "c03",
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 1983,
+      "when": "১৯৮৩",
+      "label": "ভারতে সংসদীয় স্থায়ী কমিটির ব্যবস্থার বিকাশ শুরু (এনসিইআরটি অনুযায়ী)",
+      "claims": [
+        "c28"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "বিল (Bill)",
+      "meaning": "প্রস্তাবিত আইনের খসড়া; মন্ত্রী আনলে সরকারি বিল, অন্য সদস্য আনলে বেসরকারি সদস্যের বিল।",
+      "section": "ordinary_bill"
+    },
+    {
+      "term": "যৌথ অধিবেশন (Joint sitting)",
+      "meaning": "সাধারণ বিলে অচলাবস্থা হলে রাষ্ট্রপতির ডাকা দুই কক্ষের যৌথ বৈঠক (১০৮ অনুচ্ছেদ); অর্থ বিলে হয় না।",
+      "section": "joint_assent"
+    },
+    {
+      "term": "অর্থ বিল (Money Bill)",
+      "meaning": "শুধুমাত্র ১১০(১) অনুচ্ছেদের বিষয়ে বিধান থাকা বিল; শুধু লোকসভায় আনা যায়।",
+      "section": "money_bill"
+    },
+    {
+      "term": "বার্ষিক আর্থিক বিবৃতি (Annual financial statement)",
+      "meaning": "বাজেটের সাংবিধানিক নাম (১১২ অনুচ্ছেদ) — সরকারের আনুমানিক আয়-ব্যয়ের বিবৃতি।",
+      "section": "budget_process"
+    },
+    {
+      "term": "ধার্য ব্যয় (Charged expenditure)",
+      "meaning": "সঞ্চিত তহবিলের উপর ধার্য ব্যয় — সংসদের ভোটে দেওয়া হয় না, তবে আলোচনা হতে পারে।",
+      "section": "budget_process"
+    },
+    {
+      "term": "অনুদানের দাবি (Demands for grants)",
+      "meaning": "ধার্য নয় এমন ব্যয়ের প্রস্তাব, যা শুধু লোকসভায় ভোট হয় (১১৩ অনুচ্ছেদ)।",
+      "section": "budget_process"
+    },
+    {
+      "term": "বিনিয়োগ বিল (Appropriation Bill)",
+      "meaning": "দাবি মঞ্জুরের পর সঞ্চিত তহবিল থেকে টাকা তোলার অনুমোদন দেওয়া বিল (১১৪ অনুচ্ছেদ)।",
+      "section": "budget_process"
+    },
+    {
+      "term": "সঞ্চিত তহবিল (Consolidated Fund)",
+      "meaning": "সরকারের সব রাজস্ব ও ঋণের টাকা জমা হওয়া প্রধান তহবিল (২৬৬ অনুচ্ছেদ); আইন ছাড়া টাকা তোলা যায় না।",
+      "section": "funds"
+    },
+    {
+      "term": "আকস্মিক তহবিল (Contingency Fund)",
+      "meaning": "অপ্রত্যাশিত ব্যয়ের অগ্রিমের জন্য রাষ্ট্রপতির হাতে থাকা তহবিল (২৬৭ অনুচ্ছেদ)।",
+      "section": "funds"
+    },
+    {
+      "term": "সরকারি হিসাব কমিটি (Public Accounts Committee)",
+      "meaning": "ব্যয়-পরবর্তী যাচাইয়ের কমিটি — ২২ সদস্য (লোকসভা ১৫ + রাজ্যসভা ৭); CAG-র প্রতিবেদন পরীক্ষা করে।",
+      "section": "control_committees"
+    },
+    {
+      "term": "প্রশ্নোত্তর পর্ব (Question Hour)",
+      "meaning": "অধিবেশন চলাকালীন প্রতিদিনের পর্ব, যেখানে মন্ত্রীদের সদস্যদের প্রশ্নের উত্তর দিতে হয়।",
+      "section": "control_committees"
+    },
+    {
+      "term": "অধ্যাদেশ (Ordinance)",
+      "meaning": "সংসদ অধিবেশনে না থাকলে রাষ্ট্রপতির জারি করা অস্থায়ী আইন (১২৩ অনুচ্ছেদ); পুনঃঅধিবেশনের ছয় সপ্তাহ পর্যন্ত টেকে।",
+      "section": "procedure_rules"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "রাজ্যসভা সরাসরি নির্বাচিত নয় বলে",
+      "causes": [
+        "রাজ্যসভার সদস্যরা বিধায়কদের ভোটে নির্বাচিত, জনগণের সরাসরি ভোটে নয়",
+        "গণতন্ত্রে অর্থের চূড়ান্ত নিয়ন্ত্রণ সরাসরি নির্বাচিত প্রতিনিধিদের হাতে রাখা হয়েছে"
+      ],
+      "event": "অর্থ বিলে রাজ্যসভার ক্ষমতা শুধু ১৪ দিনে সুপারিশ পাঠানোয় সীমিত",
+      "results": [
+        "রাজ্যসভা অর্থ বিল আনতে, প্রত্যাখ্যান করতে বা সংশোধন করতে পারে না",
+        "মন্ত্রিসভা শুধু লোকসভার কাছে দায়বদ্ধ থাকে"
+      ],
+      "section": "money_bill",
+      "claims": [
+        "c36",
+        "c09"
+      ]
+    },
+    {
+      "title": "সঞ্চিত তহবিল থেকে আইন ছাড়া টাকা তোলা যায় না বলে",
+      "causes": [
+        "২৬৬(৩) অনুচ্ছেদে আইন অনুযায়ী ছাড়া বিনিয়োগ নিষিদ্ধ",
+        "১১৪ অনুচ্ছেদে বিনিয়োগ আইন আবশ্যক"
+      ],
+      "event": "প্রতি বছর বাজেট, দাবি-ভোট ও বিনিয়োগ বিলের প্রক্রিয়া বাধ্যতামূলক হয়",
+      "results": [
+        "সরকারকে প্রতি অর্থবছরে সংসদের কাছে আয়-ব্যয়ের হিসাব দিতে হয়",
+        "সংসদ আর্থিক নিয়ন্ত্রণের মাধ্যমে সরকারের নীতিও নিয়ন্ত্রণ করে"
+      ],
+      "section": "funds",
+      "claims": [
+        "c23",
+        "c19"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "১০৭ অনুচ্ছেদ: বিল যেকোনো কক্ষে; দুই কক্ষের সম্মতি আবশ্যক; বিল বাতিলের (lapse) তিন নিয়ম।",
+      "section": "ordinary_bill"
+    },
+    {
+      "point": "১০৮ অনুচ্ছেদ: যৌথ অধিবেশনের তিন শর্ত; অর্থ বিলে যৌথ অধিবেশন নয়; সভাপতিত্ব করেন অধ্যক্ষ।",
+      "section": "joint_assent"
+    },
+    {
+      "point": "১১০ অনুচ্ছেদ: অর্থ বিলের সংজ্ঞার সাতটি বিষয়; অধ্যক্ষের সিদ্ধান্ত চূড়ান্ত (১১০(৩))।",
+      "section": "money_bill"
+    },
+    {
+      "point": "১০৯ অনুচ্ছেদ: অর্থ বিল শুধু লোকসভায়; রাজ্যসভার হাতে ১৪ দিন ও শুধু সুপারিশ।",
+      "section": "money_bill"
+    },
+    {
+      "point": "১১৭ অনুচ্ছেদ: আর্থিক বিলে রাষ্ট্রপতির সুপারিশ; কর কমানোর সংশোধনীতে সুপারিশ লাগে না।",
+      "section": "money_bill"
+    },
+    {
+      "point": "১১২–১১৪ অনুচ্ছেদ: বার্ষিক আর্থিক বিবৃতি → দাবিতে ভোট (ধার্য ব্যয়ে ভোট নয়) → বিনিয়োগ বিল।",
+      "section": "budget_process"
+    },
+    {
+      "point": "২৬৬ অনুচ্ছেদ: সব রাজস্ব ও ঋণ সঞ্চিত তহবিলে; আইন ছাড়া টাকা তোলা নয় — সংসদের অনুমোদন আবশ্যক।",
+      "section": "funds"
+    },
+    {
+      "point": "সরকারি হিসাব কমিটি: ২২ সদস্য (লোকসভা ১৫ + রাজ্যসভা ৭), CAG প্রতিবেদন পরীক্ষা।",
+      "section": "control_committees"
+    },
+    {
+      "point": "১২৩ অনুচ্ছেদ: অধ্যাদেশ — সংসদ না বসলে, ছয় সপ্তাহের আয়ু।",
+      "section": "procedure_rules"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের ক্ষেত্রেও একই কাঠামো রাজ্য স্তরে চলে — রাজ্য বিধানসভায় অর্থ বিল ও বাজেটের পদ্ধতি কেন্দ্রের ধাঁচেই, এবং রাজ্যের সব রাজস্ব জমা হয় **রাজ্যের সঞ্চিত তহবিলে** (২৬৬(১) অনুচ্ছেদে কেন্দ্রের পাশাপাশি রাজ্যের তহবিলেরও উল্লেখ আছে)। কেন্দ্রীয় বাজেটে পশ্চিমবঙ্গের জন্য বরাদ্দ, কর-ভাগ ও অনুদান এই অধ্যায়ের প্রক্রিয়াতেই ঠিক হয় — তাই রাজ্যের অর্থনীতির জন্যও ১১২–১১৪ অনুচ্ছেদের ধাপগুলি সরাসরি প্রাসঙ্গিক।",
+    "claims": [
+      "c22"
+    ]
+  },
+  "quick_revision": [
+    "বিল = প্রস্তাবিত আইনের খসড়া; মন্ত্রীর বিল সরকারি, অন্য সদস্যের বিল বেসরকারি।",
+    "১০৭: সাধারণ বিল যেকোনো কক্ষে; দুই কক্ষের সম্মতি ছাড়া পাস নয়।",
+    "স্থগিতে বিল বাতিল নয়; লোকসভা ভাঙলে লোকসভার বিল বাতিল, রাজ্যসভার অপাস-বিল বাতিল নয়।",
+    "১০৮: যৌথ অধিবেশন — প্রত্যাখ্যান, চূড়ান্ত মতভেদ, বা ৬ মাস অতিক্রম; অর্থ বিলে নয়।",
+    "যৌথ অধিবেশন ডাকেন রাষ্ট্রপতি, সভাপতিত্ব করেন লোকসভার অধ্যক্ষ।",
+    "১১১: রাষ্ট্রপতি সম্মতি দেন বা অর্থ বিল নয় এমন বিল ফেরত পাঠাতে পারেন; পুনঃপাস হলে সম্মতি আটকাতে পারেন না।",
+    "১১০: অর্থ বিলে শুধু সাতটি তালিকাভুক্ত বিষয়; অর্থ বিল কি না — অধ্যক্ষের সিদ্ধান্ত চূড়ান্ত।",
+    "১০৯: অর্থ বিল শুধু লোকসভায়; রাজ্যসভার হাতে ১৪ দিন, শুধু সুপারিশ।",
+    "১১৭(১): অর্থ/আর্থিক বিল আনতে রাষ্ট্রপতির সুপারিশ লাগে; কর কমানোর সংশোধনীতে লাগে না।",
+    "১১২: বাজেট = বার্ষিক আর্থিক বিবৃতি; ধার্য ব্যয়ে ভোট নয়, আলোচনা হয়।",
+    "১১৩: অনুদানের দাবিতে ভোট শুধু লোকসভায়; দাবি কমানো যায়, বাড়ানো যায় না।",
+    "১১৪: বিনিয়োগ আইন ছাড়া সঞ্চিত তহবিল থেকে টাকা তোলা যায় না।",
+    "২৬৬: সব রাজস্ব ও ঋণ সঞ্চিত তহবিলে; ২৬৭: আকস্মিক তহবিল রাষ্ট্রপতির হাতে।",
+    "PAC: ২২ সদস্য (লোকসভা ১৫ + রাজ্যসভা ৭); CAG প্রতিবেদন পরীক্ষা করে।",
+    "১২৩: অধ্যাদেশ — সংসদ না বসলে জারি; পুনঃঅধিবেশনের ৬ সপ্তাহ পর্যন্ত আয়ু।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "The Constitution of India [As on 1st May, 2024], Legislative Department",
+      "class": "GOVT",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "accessed_at": "2026-11-19",
+      "publisher": "GOVT"
+    },
+    {
+      "id": "s2",
+      "title": "Indian Constitution at Work (Class XI), Chapter 5: Legislature",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/keps205.pdf",
+      "accessed_at": "2026-11-19",
+      "publisher": "NCERT"
+    },
+    {
+      "id": "s3",
+      "title": "Legislation Committee — Public Accounts Committee (CAG, Director General of Audit, Defence Services)",
+      "class": "GOVT",
+      "url": "https://cag.gov.in/defence/new-delhi/en/page-defence-new-delhi-legislationcommittee",
+      "accessed_at": "2026-11-19",
+      "publisher": "GOVT"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "A bill is a draft of a proposed law; a bill proposed by a non-minister is a private member's Bill and a bill proposed by a minister is a Government Bill.",
+      "source": "s2",
+      "page": "p. 112",
+      "quote": "A bill is a draft of the proposed law. There can be different types of bills. When a nonminister proposes a bill, it is called private member's Bill. A bill proposed by a minister is described as Government Bill."
+    },
+    {
+      "id": "c02",
+      "claim": "No major bill is introduced in Parliament without the approval of the Cabinet; the substance and timing of a bill are decided by the Cabinet.",
+      "source": "s2",
+      "page": "p. 107",
+      "quote": "No major bill is introduced in the Parliament without the approval of the Cabinet. Members other than ministers can also introduce bills but these have no chance of being passed without the support of the government."
+    },
+    {
+      "id": "c03",
+      "claim": "Article 107(1) provides that, subject to Articles 109 and 117, a Bill may originate in either House of Parliament.",
+      "source": "s1",
+      "page": "p. 48",
+      "quote": "Subject to the provisions of articles 109 and 117 with respect to Money Bills and other financial Bills, a Bill may originate in either House of Parliament."
+    },
+    {
+      "id": "c04",
+      "claim": "Article 107(2) provides that a Bill is not deemed passed unless it has been agreed to by both Houses, either without amendment or with only such amendments as are agreed to by both Houses.",
+      "source": "s1",
+      "page": "p. 48",
+      "quote": "a Bill shall not be deemed to have been passed by the Houses of Parliament unless it has been agreed to by both Houses, either without amendment or with such amendments only as are agreed to by both Houses."
+    },
+    {
+      "id": "c05",
+      "claim": "Article 107(3)-(5): a Bill pending in Parliament does not lapse on prorogation; a Bill pending in the Council of States which has not been passed by the House of the People does not lapse on dissolution of the House of the People; but a Bill pending in the House of the People, or passed by it and pending in the Council of States, lapses on dissolution.",
+      "source": "s1",
+      "page": "p. 48",
+      "quote": "A Bill pending in Parliament shall not lapse by reason of the prorogation of the Houses. A Bill pending in the Council of States which has not been passed by the House of the People shall not lapse on a dissolution of the House of the People. A Bill which is pending in the House of the People, or which having been passed by the House of the People is pending in the Council of States, shall, subject to the provisions of article 108, lapse on a dissolution of the House of the People."
+    },
+    {
+      "id": "c06",
+      "claim": "Article 108(1) permits a joint sitting when a Bill is rejected by the other House, the Houses finally disagree on amendments, or more than six months elapse without the other House passing it; the proviso excludes Money Bills.",
+      "source": "s1",
+      "page": "p. 49",
+      "quote": "If after a Bill has been passed by one House and transmitted to the other House— (a) the Bill is rejected by the other House; or (b) the Houses have finally disagreed as to the amendments to be made in the Bill; or (c) more than six months elapse from the date of the reception of the Bill by the other House without the Bill being passed by it, the President may, unless the Bill has elapsed by reason of a dissolution of the House of the People, notify to the Houses by message if they are sitting or by public notification if they are not sitting, his intention to summon them to meet in a joint sitting for the purpose of deliberating and voting on the Bill: Provided that nothing in this clause shall apply to a Money Bill."
+    },
+    {
+      "id": "c07",
+      "claim": "Article 108(4) provides that at a joint sitting a Bill passed by a majority of the total number of members of both Houses present and voting is deemed passed by both Houses.",
+      "source": "s1",
+      "page": "p. 49",
+      "quote": "If at the joint sitting of the two Houses the Bill, with such amendments, if any, as are agreed to in joint sitting, is passed by a majority of the total number of members of both Houses present and voting, it shall be deemed for the purposes of this Constitution to have been passed by both Houses"
+    },
+    {
+      "id": "c08",
+      "claim": "Article 109(1) provides that a Money Bill shall not be introduced in the Council of States.",
+      "source": "s1",
+      "page": "p. 49",
+      "quote": "A Money Bill shall not be introduced in the Council of States."
+    },
+    {
+      "id": "c09",
+      "claim": "Article 109(2)-(5): after the House of the People passes a Money Bill it is sent to the Council of States for recommendations; the Council must return it within fourteen days; the House of the People may accept or reject any recommendation; if not returned within fourteen days it is deemed passed by both Houses in the form passed by the House of the People.",
+      "source": "s1",
+      "page": "p. 50",
+      "quote": "After a Money Bill has been passed by the House of the People it shall be transmitted to the Council of States for its recommendations and the Council of States shall within a period of fourteen days from the date of its receipt of the Bill return the Bill to the House of the People with its recommendations and the House of the People may thereupon either accept or reject all or any of the recommendations of the Council of States. If a Money Bill passed by the House of the People and transmitted to the Council of States for its recommendations is not returned to the House of the People within the said period of fourteen days, it shall be deemed to have been passed by both Houses at the expiration of the said period in the form in which it was passed by the House of the People."
+    },
+    {
+      "id": "c10",
+      "claim": "Article 110(1) deems a Bill a Money Bill only if it contains only provisions on the listed matters: taxation; government borrowing/guarantees; custody of and payments into or withdrawals from the Consolidated or Contingency Fund; appropriation from the Consolidated Fund; expenditure charged on the Consolidated Fund; receipt/custody/issue of money on account of the Consolidated Fund or public account and audit of Union/State accounts; and incidental matters.",
+      "source": "s1",
+      "page": "pp. 50-51",
+      "quote": "a Bill shall be deemed to be a Money Bill if it contains only provisions dealing with all or any of the following matters, namely:— (a) the imposition, abolition, remission, alteration or regulation of any tax; (b) the regulation of the borrowing of money or the giving of any guarantee by the Government of India, or the amendment of the law with respect to any financial obligations undertaken or to be undertaken by the Government of India; (c) the custody of the Consolidated Fund or the Contingency Fund of India, the payment of moneys into or the withdrawal of moneys from any such Fund; (d) the appropriation of moneys out of the Consolidated Fund of India; (e) the declaring of any expenditure to be expenditure charged on the Consolidated Fund of India or the increasing of the amount of any such expenditure; (f) the receipt of money on account of the Consolidated Fund of India or the public account of India or the custody or issue of such money or the audit of the accounts of the Union or of a State; or (g) any matter incidental to any of the matters specified in sub-clauses (a) to (f)."
+    },
+    {
+      "id": "c11",
+      "claim": "Article 110(3) provides that if any question arises whether a Bill is a Money Bill or not, the decision of the Speaker of the House of the People is final.",
+      "source": "s1",
+      "page": "p. 51",
+      "quote": "If any question arises whether a Bill is a Money Bill or not, the decision of the Speaker of the House of the People thereon shall be final."
+    },
+    {
+      "id": "c12",
+      "claim": "Article 110(2) provides that a Bill is not deemed a Money Bill merely because it provides for fines or pecuniary penalties, fees for licences or services, or taxation by a local authority for local purposes.",
+      "source": "s1",
+      "page": "p. 51",
+      "quote": "A Bill shall not be deemed to be a Money Bill by reason only that it provides for the imposition of fines or other pecuniary penalties, or for the demand or payment of fees for licences or fees for services rendered, or by reason that it provides for the imposition, abolition, remission, alteration or regulation of any tax by any local authority or body for local purposes."
+    },
+    {
+      "id": "c13",
+      "claim": "Article 111: when a Bill is passed by both Houses it is presented to the President, who declares assent or withholds assent; the President may return a Bill that is not a Money Bill for reconsideration, and if it is passed again the President shall not withhold assent.",
+      "source": "s1",
+      "page": "p. 51",
+      "quote": "When a Bill has been passed by the Houses of Parliament, it shall be presented to the President, and the President shall declare either that he assents to the Bill, or that he withholds assent therefrom: Provided that the President may, as soon as possible after the presentation to him of a Bill for assent, return the Bill if it is not a Money Bill to the Houses with a message requesting that they will reconsider the Bill or any specified provisions thereof and, in particular, will consider the desirability of introducing any such amendments as he may recommend in his message, and when a Bill is so returned, the Houses shall reconsider the Bill accordingly, and if the Bill is passed again by the Houses with or without amendment and presented to the President for assent, the President shall not withhold assent therefrom."
+    },
+    {
+      "id": "c14",
+      "claim": "Article 117(1) provides that a Bill or amendment making provision for the matters in Article 110(1)(a)-(f) shall not be introduced or moved except on the recommendation of the President, and such a Bill shall not be introduced in the Council of States; no recommendation is needed for an amendment reducing or abolishing a tax.",
+      "source": "s1",
+      "page": "p. 54",
+      "quote": "A Bill or amendment making provision for any of the matters specified in sub-clauses (a) to (f) of clause (1) of article 110 shall not be introduced or moved except on the recommendation of the President and a Bill making such provision shall not be introduced in the Council of States: Provided that no recommendation shall be required under this clause for the moving of an amendment making provision for the reduction or abolition of any tax."
+    },
+    {
+      "id": "c15",
+      "claim": "Article 117(3) provides that a Bill which, if enacted, would involve expenditure from the Consolidated Fund of India shall not be passed by either House unless the President has recommended its consideration to that House.",
+      "source": "s1",
+      "page": "p. 55",
+      "quote": "A Bill which, if enacted and brought into operation, would involve expenditure from the Consolidated Fund of India shall not be passed by either House of Parliament unless the President has recommended to that House the consideration of the Bill."
+    },
+    {
+      "id": "c16",
+      "claim": "Article 112(1) requires the President, for every financial year, to cause the annual financial statement (estimated receipts and expenditure of the Government of India) to be laid before both Houses of Parliament.",
+      "source": "s1",
+      "page": "p. 51",
+      "quote": "The President shall in respect of every financial year cause to be laid before both the Houses of Parliament a statement of the estimated receipts and expenditure of the Government of India for that year, in this Part referred to as the \"annual financial statement\"."
+    },
+    {
+      "id": "c17",
+      "claim": "Article 112(2)-(3): the estimates show charged expenditure separately and distinguish revenue-account expenditure; charged expenditure includes the President's emoluments, salaries of the Chairman/Deputy Chairman and Speaker/Deputy Speaker, debt charges, salaries and pensions of Supreme Court Judges, the CAG's salary and pension, sums to satisfy court judgments, and other expenditure declared charged; charged expenditure is not submitted to the vote of Parliament but may be discussed.",
+      "source": "s1",
+      "page": "pp. 51-52",
+      "quote": "The following expenditure shall be expenditure charged on the Consolidated Fund of India— (a) the emoluments and allowances of the President and other expenditure relating to his office; (b) the salaries and allowances of the Chairman and the Deputy Chairman of the Council of States and the Speaker and the Deputy Speaker of the House of the People; (c) debt charges for which the Government of India is liable including interest, sinking fund charges and redemption charges, and other expenditure relating to the raising of loans and the service and redemption of debt; So much of the estimates as relates to expenditure charged upon the Consolidated Fund of India shall not be submitted to the vote of Parliament, but nothing in this clause shall be construed as preventing the discussion in either House of Parliament of any of those estimates."
+    },
+    {
+      "id": "c18",
+      "claim": "Article 113: estimates relating to other expenditure are submitted as demands for grants to the House of the People, which may assent, refuse, or assent subject to a reduction; no demand for a grant is made except on the recommendation of the President.",
+      "source": "s1",
+      "page": "p. 53",
+      "quote": "So much of the said estimates as relates to other expenditure shall be submitted in the form of demands for grants to the House of the People, and the House of the People shall have power to assent, or to refuse to assent, to any demand, or to assent to any demand subject to a reduction of the amount specified therein. No demand for a grant shall be made except on the recommendation of the President."
+    },
+    {
+      "id": "c19",
+      "claim": "Article 114: after grants are made, an Appropriation Bill is introduced for appropriation out of the Consolidated Fund of the grants and charged expenditure, not exceeding the amounts shown earlier; no money is withdrawn from the Consolidated Fund except under appropriation made by law.",
+      "source": "s1",
+      "page": "p. 53",
+      "quote": "As soon as may be after the grants under article 113 have been made by the House of the People, there shall be introduced a Bill to provide for the appropriation out of the Consolidated Fund of India of all moneys required to meet— (a) the grants so made by the House of the People; and (b) the expenditure charged on the Consolidated Fund of India but not exceeding in any case the amount shown in the statement previously laid before Parliament. Subject to the provisions of articles 115 and 116, no money shall be withdrawn from the Consolidated Fund of India except under appropriation made by law passed in accordance with the provisions of this article."
+    },
+    {
+      "id": "c20",
+      "claim": "Article 115 provides for supplementary, additional or excess grants when the authorised amount is insufficient, a new service arises, or money has been spent in excess of the grant.",
+      "source": "s1",
+      "page": "p. 53",
+      "quote": "The President shall— (a) if the amount authorised by any law made in accordance with the provisions of article 114 to be expended for a particular service for the current financial year is found to be insufficient for the purposes of that year or when a need has arisen during the current financial year for supplementary or additional expenditure upon some new service not contemplated in the annual financial statement for that year; or (b) if any money has been spent on any service during a financial year in excess of the amount granted for that service and for that year, cause to be laid before both the Houses of Parliament another statement showing the estimated amount of that expenditure or cause to be presented to the House of the People a demand for such excess, as the case may be."
+    },
+    {
+      "id": "c21",
+      "claim": "Article 116 gives the House of the People power to make a grant in advance (vote on account), a grant for an unexpected demand (vote of credit) and an exceptional grant forming no part of the current service of a financial year.",
+      "source": "s1",
+      "page": "p. 54",
+      "quote": "the House of the People shall have power— (a) to make any grant in advance in respect of the estimated expenditure for a part of any financial year pending the completion of the procedure prescribed in article 113 for the voting of such grant and the passing of the law in accordance with the provisions of article 114 in relation to that expenditure; (b) to make a grant for meeting an unexpected demand upon the resources of India when on account of the magnitude or the indefinite character of the service the demand cannot be stated with the details ordinarily given in an annual financial statement; (c) to make an exceptional grant which forms no part of the current service of any financial year"
+    },
+    {
+      "id": "c22",
+      "claim": "Article 266(1): all revenues received by the Government of India, all loans raised by treasury bills, loans or ways and means advances, and all moneys received in repayment of loans form the Consolidated Fund of India (and likewise for a State).",
+      "source": "s1",
+      "page": "p. 152",
+      "quote": "all revenues received by the Government of India, all loans raised by that Government by the issue of treasury bills, loans or ways and means advances and all moneys received by that Government in repayment of loans shall form one consolidated fund to be entitled \"the Consolidated Fund of India\""
+    },
+    {
+      "id": "c23",
+      "claim": "Article 266(3) provides that no moneys out of the Consolidated Fund of India or of a State shall be appropriated except in accordance with law and for the purposes and in the manner provided in the Constitution.",
+      "source": "s1",
+      "page": "p. 152",
+      "quote": "No moneys out of the Consolidated Fund of India or the Consolidated Fund of a State shall be appropriated except in accordance with law and for the purposes and in the manner provided in this Constitution."
+    },
+    {
+      "id": "c24",
+      "claim": "Article 267(1): Parliament may by law establish a Contingency Fund of India, placed at the disposal of the President to make advances for unforeseen expenditure pending authorisation by Parliament under Article 115 or 116.",
+      "source": "s1",
+      "page": "p. 152",
+      "quote": "Parliament may by law establish a Contingency Fund in the nature of an imprest to be entitled \"the Contingency Fund of India\" into which shall be paid from time to time such sums as may be determined by such law, and the said Fund shall be placed at the disposal of the President to enable advances to be made by him out of such Fund for the purposes of meeting unforeseen expenditure pending authorisation of such expenditure by Parliament by law under article 115 or article 116."
+    },
+    {
+      "id": "c25",
+      "claim": "NCERT: in a democracy the legislature controls taxation and government spending; a proposal for any new tax needs the approval of the Lok Sabha; control is exercised through the budget and annual financial statements.",
+      "source": "s2",
+      "page": "p. 107",
+      "quote": "in a democracy, legislature controls taxation and the way in which money is used by the government. If the Government of India proposes to introduce any new tax, it has to get the approval of the Lok Sabha. The government has to give an account to the legislature about the money it has spent and resources that it wishes to raise. The legislature also ensures that the government does not misspend or overspend. This is done through the budget and annual financial statements."
+    },
+    {
+      "id": "c26",
+      "claim": "NCERT: a large part of discussion on bills takes place in committees, which are called miniature legislatures; a money bill can be introduced only in the Lok Sabha; for a money bill the Rajya Sabha can approve or suggest changes but cannot reject it, and if it takes no action within 14 days the bill is deemed passed.",
+      "source": "s2",
+      "page": "pp. 112-113",
+      "quote": "A money bill can be introduced only in Lok Sabha. Once passed there, it is sent to the Rajya Sabha. A large part of the discussion on the bills takes place in the committees. The recommendation of the committee is then sent to the House. That is why committees are referred to as miniature legislatures. If it is a money bill, the Rajya Sabha can either approve the bill or suggest changes but cannot reject it. If it takes no action within 14 days the bill is deemed to have been passed. Amendments to the bill, suggested by Rajya Sabha, may or may not be accepted by the Lok Sabha."
+    },
+    {
+      "id": "c27",
+      "claim": "NCERT lists the instruments of parliamentary control: deliberation and discussion, approval or refusal of laws, financial control, and the no-confidence motion; the Question Hour, Zero Hour, half-an-hour discussion and adjournment motion are devices of control.",
+      "source": "s2",
+      "page": "pp. 115-116",
+      "quote": "The legislature does this through the use of a variety of devices: Deliberation and discussion Approval or Refusal of laws Financial control No confidence motion. The Question Hour, which is held every day during the sessions of Parliament, where Ministers have to respond to searching questions raised by the members; Zero Hour where members are free to raise any matter that they think is important (though the ministers are not bound to reply), halfanhour discussion on matters of public importance, adjournment motion, etc., are some instruments of exercising control."
+    },
+    {
+      "id": "c28",
+      "claim": "NCERT: since 1983 India has developed a system of parliamentary standing committees; there are over twenty departmentally related committees which supervise departments, their budget, expenditure and bills; Joint Parliamentary Committees can be set up for a particular bill or to investigate financial irregularities, with members from both Houses.",
+      "source": "s2",
+      "page": "pp. 118-119",
+      "quote": "Since 1983, India has developed a system of parliamentary standing committees. There are over twenty such departmentally related committees. Standing Committees supervise the work of various departments, their budget, their expenditure and bills that come up in the house relating to the department. Joint Parliamentary Committees (JPCs) can be set up for the purpose of discussing a particular bill, like the joint committee to discuss bill, or for the purpose of investigating financial irregularities. Members of these committees are selected from both Houses."
+    },
+    {
+      "id": "c29",
+      "claim": "The Public Accounts Committee comprises 22 members (15 from the Lok Sabha and 7 from the Rajya Sabha), is constituted every year, and examines the appropriation accounts, the annual finance accounts and the CAG's reports.",
+      "source": "s3",
+      "page": "Legislation Committee page",
+      "quote": "The Public Account Committee comprising of 22 members (15 from the Lok Sabha and 7 from the Rajy Sabha) is constituted every year to examine the accounts showing the appropriation of sums granted by Parliament for the expenditure of the Government of India, the annual finance accounts of the Government and such other accounts laid before the House as the Committee may think fit. In scrutinising the Appropriation Accounts of the Government of India and the Report of the Comptroller & Auditor General of India thereon, the Committee has to satisfy: (a) that the moneys shown in the accounts as having been disbursed were legally available for, and applicable to, the service or purpose to which they have been applied or charged; (b) that the expenditure conforms to the authority which governs it"
+    },
+    {
+      "id": "c30",
+      "claim": "Article 118(1) provides that each House of Parliament may make rules for regulating its procedure and the conduct of its business; at a joint sitting the Speaker of the House of the People presides.",
+      "source": "s1",
+      "page": "p. 55",
+      "quote": "Each House of Parliament may make rules for regulating, subject to the provisions of this Constitution, its procedure and the conduct of its business. At a joint sitting of the two Houses the Speaker of the House of the People, or in his absence such person as may be determined by rules of procedure made under clause (3), shall preside."
+    },
+    {
+      "id": "c31",
+      "claim": "Article 120(1) provides that business in Parliament is transacted in Hindi or in English, but the Chairman or Speaker may permit a member who cannot adequately express himself in Hindi or English to address the House in his mother tongue.",
+      "source": "s1",
+      "page": "p. 56",
+      "quote": "business in Parliament shall be transacted in Hindi or in English: Provided that the Chairman of the Council of States or Speaker of the House of the People, or person acting as such, as the case may be, may permit any member who cannot adequately express himself in Hindi or in English to address the House in his mother-tongue."
+    },
+    {
+      "id": "c32",
+      "claim": "Article 121 bars discussion in Parliament on the conduct of a Supreme Court or High Court Judge in the discharge of his duties except on a motion for presenting an address for the Judge's removal.",
+      "source": "s1",
+      "page": "p. 56",
+      "quote": "No discussion shall take place in Parliament with respect to the conduct of any Judge of the Supreme Court or of a High Court in the discharge of his duties except upon a motion for presenting an address to the President praying for the removal of the Judge as hereinafter provided."
+    },
+    {
+      "id": "c33",
+      "claim": "Article 122(1) provides that the validity of any proceedings in Parliament shall not be called in question on the ground of any alleged irregularity of procedure.",
+      "source": "s1",
+      "page": "p. 56",
+      "quote": "The validity of any proceedings in Parliament shall not be called in question on the ground of any alleged irregularity of procedure."
+    },
+    {
+      "id": "c34",
+      "claim": "Article 123(1)-(2): if at any time except when both Houses are in session the President is satisfied that immediate action is necessary, he may promulgate Ordinances; an Ordinance has the force of an Act but ceases to operate six weeks from the reassembly of Parliament, or earlier if both Houses pass disapproving resolutions.",
+      "source": "s1",
+      "page": "pp. 56-57",
+      "quote": "If at any time, except when both Houses of Parliament are in session, the President is satisfied that circumstances exist which render it necessary for him to take immediate action, he may promulgate such Ordinances as the circumstances appear to him to require. An Ordinance promulgated under this article shall have the same force and effect as an Act of Parliament, but every such Ordinance— (a) shall be laid before both Houses of Parliament and shall cease to operate at the expiration of six weeks from the reassembly of Parliament, or, if before the expiration of that period resolutions disapproving it are passed by both Houses, upon the passing of the second of those resolutions"
+    },
+    {
+      "id": "c35",
+      "claim": "NCERT: the most powerful weapon enabling Parliament to ensure executive accountability is the no-confidence motion; after 1989 several governments were forced to resign for losing the confidence of the Lok Sabha.",
+      "source": "s2",
+      "page": "p. 117",
+      "quote": "The most powerful weapon that enables the Parliament to ensure executive accountability is the noconfidence motion. However, after 1989, several governments have been forced to resign due to lack of confidence of the house. Each of these governments lost the confidence of the Lok Sabha because they failed to retain the support of their coalition partners."
+    },
+    {
+      "id": "c36",
+      "claim": "NCERT: the Rajya Sabha cannot initiate, reject or amend money bills and the Council of Ministers is responsible to the Lok Sabha, not the Rajya Sabha, because the Rajya Sabha is elected by MLAs and not directly by the people.",
+      "source": "s2",
+      "page": "p. 110",
+      "quote": "The Rajya Sabha cannot initiate, reject or amend money bills. The Council of Ministers is responsible to the Lok Sabha and not Rajya Sabha. Therefore, Rajya Sabha can criticise the government but cannot remove it. The Rajya Sabha is elected by the MLAs and not directly by the people. Therefore, the Constitution stopped short of giving certain powers to the Rajya Sabha."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "ordinary_bill",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিল সম্পর্কে বিল (Bill) বলতে কী বোঝায়?",
+      "a": "প্রস্তাবিত আইনের খসড়া",
+      "w": [
+        "পাস হওয়া আইন",
+        "রাষ্ট্রপতির অধ্যাদেশ",
+        "সংসদের প্রস্তাব"
+      ],
+      "e": "বিল হল প্রস্তাবিত আইনের খসড়া — পাস ও সম্মতির পর তা আইন হয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "ordinary_bill",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সাধারণ বিল সম্পর্কে মন্ত্রী নন এমন সদস্য বিল আনলে তাকে কী বলে?",
+      "a": "বেসরকারি সদস্যের বিল (Private Member's Bill)",
+      "w": [
+        "সরকারি বিল",
+        "অর্থ বিল",
+        "আর্থিক বিল"
+      ],
+      "e": "মন্ত্রী বিল আনলে সরকারি বিল; মন্ত্রী নন এমন সদস্য আনলে বেসরকারি সদস্যের বিল।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "ordinary_bill",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সাধারণ বিল সম্পর্কে ১০৭(১) অনুচ্ছেদ অনুযায়ী সাধারণ বিল কোথায় উত্থাপিত হতে পারে?",
+      "a": "যেকোনো কক্ষে — লোকসভা বা রাজ্যসভায়",
+      "w": [
+        "শুধু লোকসভায়",
+        "শুধু রাজ্যসভায়",
+        "শুধু যৌথ অধিবেশনে"
+      ],
+      "e": "অর্থ বিল ও আর্থিক বিলের বিধান (১০৯, ১১৭) সাপেক্ষে বিল যেকোনো কক্ষে উত্থাপিত হতে পারে।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "ordinary_bill",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সাধারণ বিল সম্পর্কে কোনো বিল কখন পাস হয়েছে বলে ধরা হয়?",
+      "a": "দুই কক্ষই তাতে সম্মত হলে — সংশোধনী ছাড়া বা দুই কক্ষের সম্মত সংশোধনীসহ",
+      "w": [
+        "একটি কক্ষ পাস করলেই",
+        "রাষ্ট্রপতি সম্মতি দিলেই",
+        "কমিটি সুপারিশ করলেই"
+      ],
+      "e": "১০৭(২) অনুচ্ছেদ অনুযায়ী দুই কক্ষের সম্মতি ছাড়া বিল পাস হয়েছে বলে ধরা হয় না।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "ordinary_bill",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিল বাতিল সম্পর্কে সংসদ স্থগিত (prorogation) হলে বিচারাধীন বিলের কী হয়?",
+      "a": "বিল বাতিল হয় না",
+      "w": [
+        "বিল বাতিল হয়ে যায়",
+        "বিল রাষ্ট্রপতির কাছে চলে যায়",
+        "বিল আবার প্রথম থেকে শুরু করতে হয়"
+      ],
+      "e": "১০৭(৩) অনুচ্ছেদ অনুযায়ী স্থগিত হওয়ার কারণে বিচারাধীন বিল বাতিল হয় না।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "ordinary_bill",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিল বাতিল সম্পর্কে লোকসভা ভেঙে গেলে কোন বিলটি বাতিল হয় না?",
+      "a": "রাজ্যসভায় বিচারাধীন বিল যা লোকসভায় পাস হয়নি",
+      "w": [
+        "লোকসভায় বিচারাধীন বিল",
+        "লোকসভায় পাস হয়ে রাজ্যসভায় বিচারাধীন বিল",
+        "লোকসভায় পাস হওয়া সব বিল"
+      ],
+      "e": "১০৭(৪) অনুচ্ছেদ অনুযায়ী রাজ্যসভায় বিচারাধীন, লোকসভায় পাস-না-হওয়া বিল লোকসভা ভেঙে গেলেও বাতিল হয় না; লোকসভার বিল বাতিল হয় ১০৭(৫) অনুযায়ী।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "joint_assent",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "যৌথ অধিবেশন সম্পর্কে যৌথ অধিবেশন কে আহ্বান করেন?",
+      "a": "রাষ্ট্রপতি",
+      "w": [
+        "লোকসভার অধ্যক্ষ",
+        "রাজ্যসভার সভাপতি",
+        "প্রধানমন্ত্রী"
+      ],
+      "e": "১০৮ অনুচ্ছেদ অনুযায়ী অচলাবস্থা হলে রাষ্ট্রপতি যৌথ অধিবেশন ডাকার ইচ্ছা জানান।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "joint_assent",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "যৌথ অধিবেশন সম্পর্কে যৌথ অধিবেশনে সভাপতিত্ব করেন কে?",
+      "a": "লোকসভার অধ্যক্ষ",
+      "w": [
+        "রাষ্ট্রপতি",
+        "উপরাষ্ট্রপতি",
+        "প্রধানমন্ত্রী"
+      ],
+      "e": "১১৮(৪) অনুচ্ছেদ অনুযায়ী যৌথ অধিবেশনে লোকসভার অধ্যক্ষ সভাপতিত্ব করেন।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "joint_assent",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "যৌথ অধিবেশন সম্পর্কে কোন বিলের ক্ষেত্রে যৌথ অধিবেশন হতে পারে না?",
+      "a": "অর্থ বিল",
+      "w": [
+        "সাধারণ বিল",
+        "বেসরকারি সদস্যের বিল",
+        "সরকারি বিল"
+      ],
+      "e": "১০৮(১) অনুচ্ছেদের শর্তানুযায়ী এই বিধান অর্থ বিলের ক্ষেত্রে প্রযোজ্য নয়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "joint_assent",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "যৌথ অধিবেশন সম্পর্কে অন্য কক্ষে বিল পাস না হয়ে কত সময় পেরিয়ে গেলে যৌথ অধিবেশন ডাকা যায়?",
+      "a": "ছয় মাসের বেশি",
+      "w": [
+        "তিন মাসের বেশি",
+        "এক বছরের বেশি",
+        "১৪ দিনের বেশি"
+      ],
+      "e": "১০৮(১)(গ) অনুযায়ী অন্য কক্ষ বিল পাওয়ার পর ছয় মাসের বেশি পেরিয়ে গেলেও পাস না হলে রাষ্ট্রপতি যৌথ অধিবেশন ডাকতে পারেন।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "joint_assent",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "রাষ্ট্রপতির সম্মতি সম্পর্কে রাষ্ট্রপতি কোন বিল পুনর্বিবেচনার জন্য ফেরত পাঠাতে পারেন?",
+      "a": "অর্থ বিল নয় এমন বিল",
+      "w": [
+        "অর্থ বিল",
+        "সব বিল",
+        "শুধু বেসরকারি বিল"
+      ],
+      "e": "১১১ অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি অর্থ বিল নয় এমন বিল ফেরত পাঠাতে পারেন; কক্ষগুলি আবার পাস করলে তিনি সম্মতি আটকাতে পারেন না।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "joint_assent",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "যৌথ অধিবেশন ও সম্মতি সম্পর্কে নিচের বিবৃতিগুলি বিবেচনা করো:\n\n১. যৌথ অধিবেশনে বিল পাস হয় দুই কক্ষের উপস্থিত ও ভোটদানকারী সদস্যদের মোট সংখ্যার সংখ্যাগরিষ্ঠতায়।\n২. রাষ্ট্রপতি অর্থ বিল পুনর্বিবেচনার জন্য ফেরত পাঠাতে পারেন।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক (১০৮(৪) অনুচ্ছেদ)। বিবৃতি ২ ভুল — ১১১ অনুচ্ছেদে ফেরত পাঠানোর বিধান অর্থ বিল নয় এমন বিলের জন্য।",
+      "claims": [
+        "c07",
+        "c13"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "money_bill",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অর্থ বিল সম্পর্কে অর্থ বিল কোথায় উত্থাপিত হয়?",
+      "a": "শুধু লোকসভায়",
+      "w": [
+        "শুধু রাজ্যসভায়",
+        "যেকোনো কক্ষে",
+        "যৌথ অধিবেশনে"
+      ],
+      "e": "১০৯(১) অনুচ্ছেদ অনুযায়ী অর্থ বিল রাজ্যসভায় আনা যায় না — শুধু লোকসভায়।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "money_bill",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অর্থ বিল সম্পর্কে কোনো বিল অর্থ বিল কি না, তা চূড়ান্তভাবে কে ঠিক করেন?",
+      "a": "লোকসভার অধ্যক্ষ",
+      "w": [
+        "রাষ্ট্রপতি",
+        "রাজ্যসভার সভাপতি",
+        "অর্থমন্ত্রী"
+      ],
+      "e": "১১০(৩) অনুচ্ছেদ অনুযায়ী এই প্রশ্নে লোকসভার অধ্যক্ষের সিদ্ধান্তই চূড়ান্ত।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "money_bill",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অর্থ বিল সম্পর্কে লোকসভায় পাসের পর রাজ্যসভাকে অর্থ বিল কত দিনের মধ্যে ফেরত পাঠাতে হয়?",
+      "a": "১৪ দিনের মধ্যে",
+      "w": [
+        "৭ দিনের মধ্যে",
+        "৩০ দিনের মধ্যে",
+        "ছয় মাসের মধ্যে"
+      ],
+      "e": "১০৯(২) অনুচ্ছেদ অনুযায়ী রাজ্যসভা ১৪ দিনের মধ্যে সুপারিশসহ বিল ফেরত পাঠায়; না পাঠালে বিল পাস বলে ধরা হয়।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "money_bill",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অর্থ বিল সম্পর্কে রাজ্যসভা অর্থ বিলের ক্ষেত্রে কী করতে পারে?",
+      "a": "শুধু সুপারিশ পাঠাতে পারে",
+      "w": [
+        "বিল প্রত্যাখ্যান করতে পারে",
+        "বিল সংশোধন করতে পারে",
+        "বিল অনির্দিষ্টকাল আটকে রাখতে পারে"
+      ],
+      "e": "রাজ্যসভা অর্থ বিল আনতে, প্রত্যাখ্যান করতে বা সংশোধন করতে পারে না — শুধু সুপারিশ করতে পারে, যা লোকসভা মানতেও পারে, নাও পারে।",
+      "claims": [
+        "c09",
+        "c36"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "money_bill",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অর্থ বিল সম্পর্কে নিচের কোনটি অর্থ বিলের সংজ্ঞার (১১০(১)) বিষয় নয়?",
+      "a": "বিচারপতিদের বেতন নির্ধারণ",
+      "w": [
+        "কর আরোপ বা বিলোপ",
+        "সঞ্চিত তহবিল থেকে টাকা বিনিয়োগ",
+        "সরকারের ঋণ নেওয়ার নিয়ন্ত্রণ"
+      ],
+      "e": "১১০(১)-এর তালিকায় আছে কর, ঋণ, তহবিলের হেফাজত, বিনিয়োগ, ধার্য ব্যয়, হিসাব ও অডিট — বিচারপতিদের বেতন এই তালিকায় নেই।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "money_bill",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অর্থ বিল সম্পর্কে অর্থ বিল উত্থাপনের জন্য কার সুপারিশ প্রয়োজন?",
+      "a": "রাষ্ট্রপতির",
+      "w": [
+        "অধ্যক্ষের",
+        "অর্থমন্ত্রীর",
+        "সভাপতির"
+      ],
+      "e": "১১৭(১) অনুচ্ছেদ অনুযায়ী ১১০(১)(ক)–(চ)-এর বিষয়ে বিল রাষ্ট্রপতির সুপারিশ ছাড়া আনা যায় না।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "money_bill",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "অর্থ বিল সম্পর্কে:\n\n**বক্তব্য (A):** রাজ্যসভা অর্থ বিল প্রত্যাখ্যান করতে পারে না।\n\n**কারণ (R):** রাজ্যসভা জনগণের দ্বারা সরাসরি নির্বাচিত নয়, বিধায়কদের দ্বারা নির্বাচিত।",
+      "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য, কিন্তু R মিথ্যা",
+        "A মিথ্যা, কিন্তু R সত্য"
+      ],
+      "e": "দুইটিই সত্য এবং এনসিইআরটির যুক্তি অনুযায়ী সরাসরি নির্বাচিত নয় বলেই সংবিধান রাজ্যসভাকে অর্থ বিলের এই ক্ষমতাগুলি দেয়নি।",
+      "claims": [
+        "c36",
+        "c09"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "budget_process",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাজেট সম্পর্কে বাজেটের সাংবিধানিক নাম কী?",
+      "a": "বার্ষিক আর্থিক বিবৃতি (Annual financial statement)",
+      "w": [
+        "অর্থ বিল",
+        "বিনিয়োগ বিল",
+        "আর্থিক প্রতিবেদন"
+      ],
+      "e": "১১২(১) অনুচ্ছেদে বাজেটকে বার্ষিক আর্থিক বিবৃতি বলা হয়েছে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "budget_process",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাজেট সম্পর্কে বার্ষিক আর্থিক বিবৃতি সংসদে পেশ করান কে?",
+      "a": "রাষ্ট্রপতি",
+      "w": [
+        "অর্থমন্ত্রী নিজে, রাষ্ট্রপতির ভূমিকা ছাড়া",
+        "প্রধানমন্ত্রী",
+        "মহাহিসাব নিয়ামক"
+      ],
+      "e": "১১২(১) অনুচ্ছেদ অনুযায়ী রাষ্ট্রপতি প্রতি অর্থবছরে বিবৃতিটি দুই কক্ষের সামনে পেশ করান।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "budget_process",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বাজেট সম্পর্কে ধার্য ব্যয় (charged expenditure) সম্পর্কে কোনটি সঠিক?",
+      "a": "ভোট হয় না, তবে আলোচনা হতে পারে",
+      "w": [
+        "লোকসভায় ভোট হয়",
+        "রাজ্যসভায় ভোট হয়",
+        "আলোচনাও হতে পারে না"
+      ],
+      "e": "১১২(৩) অনুচ্ছেদ অনুযায়ী ধার্য ব্যয় সংসদের ভোটে দেওয়া হয় না, কিন্তু দুই কক্ষে আলোচনা হতে পারে।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "budget_process",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বাজেট সম্পর্কে অনুদানের দাবি (demands for grants) কোন কক্ষে ভোট হয়?",
+      "a": "শুধু লোকসভায়",
+      "w": [
+        "শুধু রাজ্যসভায়",
+        "দুই কক্ষেই",
+        "যৌথ অধিবেশনে"
+      ],
+      "e": "১১৩ অনুচ্ছেদ অনুযায়ী দাবি লোকসভায় পেশ হয়; লোকসভা মঞ্জুর, প্রত্যাখ্যান বা কমিয়ে মঞ্জুর করতে পারে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "budget_process",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাজেট সম্পর্কে লোকসভা কোনো অনুদানের দাবির ক্ষেত্রে কী করতে পারে না?",
+      "a": "দাবির পরিমাণ বাড়িয়ে মঞ্জুর করা",
+      "w": [
+        "দাবি মঞ্জুর করা",
+        "দাবি প্রত্যাখ্যান করা",
+        "দাবির পরিমাণ কমিয়ে মঞ্জুর করা"
+      ],
+      "e": "১১৩ অনুচ্ছেদে লোকসভার ক্ষমতা: মঞ্জুর, প্রত্যাখ্যান, বা কমিয়ে মঞ্জুর — বাড়ানোর ক্ষমতা নেই।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "budget_process",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বাজেট সম্পর্কে বিনিয়োগ বিল (Appropriation Bill) কেন আনা হয়?",
+      "a": "সঞ্চিত তহবিল থেকে টাকা তোলার আইনি অনুমোদনের জন্য",
+      "w": [
+        "নতুন কর আরোপের জন্য",
+        "বাজেট বক্তৃতা দেওয়ার জন্য",
+        "ধার্য ব্যয়ে ভোট দেওয়ার জন্য"
+      ],
+      "e": "১১৪ অনুচ্ছেদ অনুযায়ী দাবি মঞ্জুরের পর বিনিয়োগ বিল আনা হয়; বিনিয়োগ আইন ছাড়া সঞ্চিত তহবিল থেকে টাকা তোলা যায় না।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "budget_process",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "বাজেট সম্পর্কে অনুচ্ছেদের সঙ্গে বিষয় মেলান:\n\nA. ১১২\nB. ১১৩\nC. ১১৪\nD. ১১৫\n\n১. বিনিয়োগ বিল\n২. সম্পূরক ও অতিরিক্ত অনুদান\n৩. বার্ষিক আর্থিক বিবৃতি\n৪. অনুদানের দাবি",
+      "a": "A-৩, B-৪, C-১, D-২",
+      "w": [
+        "A-৪, B-৩, C-১, D-২",
+        "A-৩, B-১, C-৪, D-২",
+        "A-২, B-৪, C-১, D-৩"
+      ],
+      "e": "১১২ বার্ষিক আর্থিক বিবৃতি, ১১৩ অনুদানের দাবি, ১১৪ বিনিয়োগ বিল, ১১৫ সম্পূরক/অতিরিক্ত/অতিরিক্ত-ব্যয় অনুদান।",
+      "claims": [
+        "c16",
+        "c18",
+        "c19",
+        "c20"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "funds",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সঞ্চিত তহবিল সম্পর্কে ভারত সরকারের সব রাজস্ব ও ঋণের টাকা কোন তহবিলে জমা হয়?",
+      "a": "ভারতের সঞ্চিত তহবিলে (Consolidated Fund of India)",
+      "w": [
+        "আকস্মিক তহবিলে",
+        "সরকারি হিসাবে শুধু",
+        "রিজার্ভ ব্যাঙ্কের তহবিলে"
+      ],
+      "e": "২৬৬(১) অনুচ্ছেদ অনুযায়ী সব রাজস্ব, নেওয়া ঋণ ও ঋণ-পরিশোধে পাওয়া টাকা সঞ্চিত তহবিল গঠন করে।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "funds",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সঞ্চিত তহবিল সম্পর্কে সঞ্চিত তহবিল থেকে টাকা তোলার শর্ত কী?",
+      "a": "আইন অনুযায়ী বিনিয়োগ (appropriation) থাকতে হবে",
+      "w": [
+        "রাষ্ট্রপতির মৌখিক নির্দেশই যথেষ্ট",
+        "অর্থমন্ত্রীর অনুমোদনই যথেষ্ট",
+        "রাজ্যসভার সম্মতিই যথেষ্ট"
+      ],
+      "e": "২৬৬(৩) অনুচ্ছেদ অনুযায়ী আইন অনুযায়ী ছাড়া সঞ্চিত তহবিল থেকে কোনো টাকা বিনিয়োগ করা যায় না — তাই সংসদের অনুমোদন আবশ্যক।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "funds",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আকস্মিক তহবিল সম্পর্কে আকস্মিক তহবিল (Contingency Fund) কার হাতে থাকে?",
+      "a": "রাষ্ট্রপতির",
+      "w": [
+        "প্রধানমন্ত্রীর",
+        "অর্থমন্ত্রীর",
+        "মহাহিসাব নিয়ামকের"
+      ],
+      "e": "২৬৭(১) অনুচ্ছেদ অনুযায়ী আকস্মিক তহবিল রাষ্ট্রপতির হাতে থাকে, অপ্রত্যাশিত ব্যয়ের অগ্রিমের জন্য।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "funds",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "তহবিল সম্পর্কে সরকারের রাজস্ব ছাড়া অন্য সরকারি টাকা কোথায় জমা হয়?",
+      "a": "সরকারি হিসাবে (public account)",
+      "w": [
+        "সঞ্চিত তহবিলে",
+        "আকস্মিক তহবিলে",
+        "বিশেষ তহবিলে"
+      ],
+      "e": "২৬৬(২) অনুচ্ছেদের বিধান অনুযায়ী অন্য সব সরকারি টাকা সরকারি হিসাবে জমা হয়; সঞ্চিত তহবিলে যায় রাজস্ব, ঋণ ও ঋণ-পরিশোধের টাকা।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "funds",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "তহবিল সম্পর্কে নিচের বিবৃতিগুলি বিবেচনা করো:\n\n১. সঞ্চিত তহবিল থেকে ব্যয়ের আগে সংসদের অনুমোদন আবশ্যক।\n২. আকস্মিক তহবিল থেকে অগ্রিম দেওয়ার পর সংসদের অনুমোদনের প্রয়োজন হয় না।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক (২৬৬(৩))। বিবৃতি ২ ভুল — আকস্মিক তহবিলের অগ্রিম অপ্রত্যাশিত ব্যয়ের জন্য, সংসদ পরে ১১৫/১১৬ অনুযায়ী আইন করে তা অনুমোদন করে (২৬৭(১))।",
+      "claims": [
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "control_committees",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিয়ন্ত্রণ সম্পর্কে সংসদের সবচেয়ে শক্তিশালী নিয়ন্ত্রণ-অস্ত্র কোনটি?",
+      "a": "অনাস্থা প্রস্তাব",
+      "w": [
+        "প্রশ্নোত্তর পর্ব",
+        "জিরো আওয়ার",
+        "মুলতবি প্রস্তাব"
+      ],
+      "e": "এনসিইআরটি অনুযায়ী অনাস্থা প্রস্তাবই শাসনবিভাগের জবাবদিহি নিশ্চিত করার সবচেয়ে শক্তিশালী অস্ত্র — আস্থা হারালে সরকার পড়ে যায়।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "control_committees",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সরকারি হিসাব কমিটি সম্পর্কে সরকারি হিসাব কমিটিতে (PAC) মোট কতজন সদস্য থাকেন?",
+      "a": "২২ জন",
+      "w": [
+        "১৫ জন",
+        "২৫ জন",
+        "৩০ জন"
+      ],
+      "e": "PAC-তে ২২ জন সদস্য — লোকসভা থেকে ১৫ ও রাজ্যসভা থেকে ৭।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "control_committees",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সরকারি হিসাব কমিটি সম্পর্কে PAC-তে লোকসভা ও রাজ্যসভার সদস্যসংখ্যা কত?",
+      "a": "লোকসভা ১৫, রাজ্যসভা ৭",
+      "w": [
+        "লোকসভা ২৫, রাজ্যসভা ০",
+        "লোকসভা ১০, রাজ্যসভা ১২",
+        "লোকসভা ৭, রাজ্যসভা ১৫"
+      ],
+      "e": "CAG-র সরকারি পৃষ্ঠা অনুযায়ী PAC ২২ সদস্যের — ১৫ জন লোকসভা থেকে, ৭ জন রাজ্যসভা থেকে।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "control_committees",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিয়ন্ত্রণ সম্পর্কে প্রশ্নোত্তর পর্ব (Question Hour) সম্পর্কে কোনটি সঠিক?",
+      "a": "অধিবেশন চলাকালীন প্রতিদিন বসে এবং মন্ত্রীদের প্রশ্নের উত্তর দিতে হয়",
+      "w": [
+        "শুধু বাজেট অধিবেশনে বসে",
+        "মন্ত্রীরা উত্তর দিতে বাধ্য নন",
+        "শুধু রাজ্যসভায় হয়"
+      ],
+      "e": "এনসিইআরটি অনুযায়ী প্রশ্নোত্তর পর্ব প্রতিদিন বসে; জিরো আওয়ারে মন্ত্রীরা উত্তর দিতে বাধ্য নন — সেটি আলাদা হাতিয়ার।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "control_committees",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সরকারি হিসাব কমিটি সম্পর্কে PAC প্রধানত কী পরীক্ষা করে?",
+      "a": "বিনিয়োগ হিসাব, বার্ষিক আর্থিক হিসাব ও CAG-র প্রতিবেদন",
+      "w": [
+        "নতুন বিলের খসড়া",
+        "মন্ত্রীদের যোগ্যতা",
+        "নির্বাচনের ফলাফল"
+      ],
+      "e": "PAC বিনিয়োগ হিসাব ও CAG-র প্রতিবেদন পরীক্ষা করে দেখে ব্যয় আইনত ও কর্তৃপক্ষের বিধান মেনে হয়েছে কি না।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "control_committees",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কমিটি সম্পর্কে নিচের কোন জোড়টি সঠিকভাবে মেলানো নয়?",
+      "a": "স্থায়ী কমিটি: শুধু লোকসভার সদস্য দিয়ে গঠিত",
+      "w": [
+        "PAC: ২২ সদস্য",
+        "JPC: দুই কক্ষের সদস্য",
+        "স্থায়ী কমিটি: বিভাগের বাজেট ও ব্যয় তদারকি করে"
+      ],
+      "e": "বিভাগভিত্তিক স্থায়ী কমিটিগুলি দুই কক্ষের সদস্য নিয়েই কাজ করে এবং JPC-র সদস্যরাও দুই কক্ষ থেকে আসেন — তাই প্রথম জোড়টি ভুল। বাকিগুলি সঠিক।",
+      "claims": [
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "procedure_rules",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কার্যপ্রণালী সম্পর্কে সংসদের প্রতিটি কক্ষের কার্যপ্রণালীর নিয়ম কে তৈরি করে?",
+      "a": "সংশ্লিষ্ট কক্ষ নিজেই",
+      "w": [
+        "রাষ্ট্রপতি",
+        "সুপ্রিম কোর্ট",
+        "মন্ত্রিসভা"
+      ],
+      "e": "১১৮(১) অনুচ্ছেদ অনুযায়ী প্রতিটি কক্ষ নিজের কার্যপ্রণালী ও কাজ পরিচালনার নিয়ম নিজে তৈরি করে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "procedure_rules",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অধ্যাদেশ সম্পর্কে রাষ্ট্রপতি কখন অধ্যাদেশ (Ordinance) জারি করতে পারেন?",
+      "a": "যখন দুই কক্ষ অধিবেশনে নেই এবং অবিলম্বে ব্যবস্থা জরুরি",
+      "w": [
+        "যেকোনো সময়",
+        "শুধু যুদ্ধের সময়",
+        "সংসদ অধিবেশনে থাকলেই"
+      ],
+      "e": "১২৩(১) অনুচ্ছেদ অনুযায়ী দুই কক্ষ অধিবেশনে না থাকলে ও অবিলম্বে ব্যবস্থা জরুরি হলে রাষ্ট্রপতি অধ্যাদেশ জারি করতে পারেন।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "procedure_rules",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অধ্যাদেশ সম্পর্কে অধ্যাদেশ সংসদ পুনরায় বসার পর কতদিন পর্যন্ত কার্যকর থাকে?",
+      "a": "ছয় সপ্তাহ",
+      "w": [
+        "ছয় মাস",
+        "এক বছর",
+        "তিন মাস"
+      ],
+      "e": "১২৩(২) অনুচ্ছেদ অনুযায়ী অধ্যাদেশ পুনঃঅধিবেশনের ছয় সপ্তাহ পর অকার্যকর হয়ে যায়।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "procedure_rules",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কার্যপ্রণালী সম্পর্কে সংসদের কাজ কোন ভাষায় চলে?",
+      "a": "হিন্দি বা ইংরেজিতে",
+      "w": [
+        "শুধু ইংরেজিতে",
+        "শুধু হিন্দিতে",
+        "শুধু সদস্যের মাতৃভাষায়"
+      ],
+      "e": "১২০(১) অনুচ্ছেদ অনুযায়ী কাজ হিন্দি বা ইংরেজিতে চলে; সভাপতি/অধ্যক্ষ অনুমতি দিলে সদস্য মাতৃভাষায় ভাষণ দিতে পারেন।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "procedure_rules",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "কার্যপ্রণালী সম্পর্কে নিচের বিবৃতিগুলি বিবেচনা করো:\n\n১. বিচারকের আচরণ নিয়ে সংসদে আলোচনা করা যায় না, অপসারণের প্রস্তাবের ক্ষেত্র ছাড়া।\n২. পদ্ধতিগত অনিয়মের অভিযোগে সংসদের কার্যধারার বৈধতা নিয়ে আদালতে প্রশ্ন তোলা যায়।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক (১২১ অনুচ্ছেদ)। বিবৃতি ২ ভুল — ১২২(১) অনুচ্ছেদ অনুযায়ী পদ্ধতিগত অনিয়মের কারণে কার্যধারার বৈধতা নিয়ে প্রশ্ন তোলা যায় না।",
+      "claims": [
+        "c32",
+        "c33"
+      ]
+    }
+  ]
+}

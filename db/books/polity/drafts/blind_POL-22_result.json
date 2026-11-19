@@ -1,0 +1,464 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "সংবিধানের শেষে থাকা বিস্তারিত তালিকা ও ছক",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "",
+      "notes": "not covered by claims"
+    },
+    {
+      "id": "q02",
+      "answer": "প্রথম তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The States and the territories thereof shall be as specified in the First Schedule.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "First Schedule specifies States and territories."
+    },
+    {
+      "id": "q03",
+      "answer": "তৃতীয় তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "THIRD SCHEDULE— Forms of Oaths or Affirmations.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Third Schedule is Forms of Oaths or Affirmations."
+    },
+    {
+      "id": "q04",
+      "answer": "চতুর্থ তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "FOURTH SCHEDULE—Allocation of seats in the Council of States.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Fourth Schedule is allocation of seats in Council of States."
+    },
+    {
+      "id": "q05",
+      "answer": "ষষ্ঠ তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Provisions as to the Administration of Tribal Areas in the States of Assam, Meghalaya, Tripura and Mizoram.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Sixth Schedule covers Assam, Meghalaya, Tripura and Mizoram tribal areas."
+    },
+    {
+      "id": "q06",
+      "answer": "পঞ্চম তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Provisions as to the Administration and Control of Scheduled Areas and Scheduled Tribes",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Fifth Schedule covers Scheduled Areas and Scheduled Tribes."
+    },
+    {
+      "id": "q07",
+      "answer": "ভাগ D",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "PART A—Provisions as to the President and the Governors of States.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Second Schedule Part D is Judges of Supreme Court and High Courts."
+    },
+    {
+      "id": "q08",
+      "answer": "প্রথম ও চতুর্থ তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Any law referred to in article 2 or article 3 shall contain such provisions for the amendment of the First Schedule and the Fourth Schedule as may be necessary to give effect to the provisions of the law",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 4(1) law contains amendment of First and Fourth Schedules."
+    },
+    {
+      "id": "q09",
+      "answer": "সপ্তম তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "List I — Union List. List II— State List. List III— Concurrent List.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Seventh Schedule contains the three legislative lists."
+    },
+    {
+      "id": "q10",
+      "answer": "যুগ্ম তালিকা (Concurrent List)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "List I — Union List. List II— State List. List III— Concurrent List.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "List III is the Concurrent List."
+    },
+    {
+      "id": "q11",
+      "answer": "শুধু সংসদের",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Parliament has exclusive power to make laws with respect to any of the matters enumerated in List I in the Seventh Schedule (in this Constitution referred to as the “Union List”).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 246(1): Parliament exclusive on Union List."
+    },
+    {
+      "id": "q12",
+      "answer": "রাজ্য আইনসভার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the Legislature of any State has exclusive power to make laws for such State or any part thereof with respect to any of the matters enumerated in List II in the Seventh Schedule (in this Constitution referred to as the “State List”).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 246(3): State Legislature exclusive on State List."
+    },
+    {
+      "id": "q13",
+      "answer": "যুগ্ম তালিকা",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "",
+      "notes": "not covered by claims"
+    },
+    {
+      "id": "q14",
+      "answer": "সংসদের",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Parliament has exclusive power to make any law with respect to any matter not enumerated in the Concurrent List or State List.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 248: Parliament exclusive residuary power."
+    },
+    {
+      "id": "q15",
+      "answer": "সংসদ ও প্রতিটি রাজ্য আইনসভার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Parliament, and, subject to clause (2), the Legislature of every State, have power to make laws with respect to goods and services tax imposed by the Union or by such State.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 246A gives GST law power to Parliament and State Legislatures."
+    },
+    {
+      "id": "q16",
+      "answer": "অষ্টম তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "EIGHTH SCHEDULE [Articles 344(1) and 351] Languages",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Eighth Schedule is Languages."
+    },
+    {
+      "id": "q17",
+      "answer": "২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "2. Bengali.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Eighth Schedule entry 2 is Bengali."
+    },
+    {
+      "id": "q18",
+      "answer": "৩৪৪(১) ও ৩৫১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "EIGHTH SCHEDULE [Articles 344(1) and 351] Languages",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Eighth Schedule headed [Articles 344(1) and 351]."
+    },
+    {
+      "id": "q19",
+      "answer": "৭১তম সংশোধনী, ১৯৯২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Ins. by the Constitution (Seventy-first Amendment) Act, 1992, s. 2 (w.e.f. 31-8-1992).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Konkani, Manipuri, Nepali inserted by 71st Amendment 1992."
+    },
+    {
+      "id": "q20",
+      "answer": "৯২তম সংশোধনী, ২০০৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Ins. by the Constitution (Ninety-second Amendment) Act, 2003, s. 2 (w.e.f. 7-1-2004).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Bodo, Dogri, Maithili, Santhali inserted by 92nd Amendment 2003."
+    },
+    {
+      "id": "q21",
+      "answer": "২১তম সংশোধনী, ১৯৬৭",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Added by the Constitution (Twenty-first Amendment) Act, 1967, s. 2 (w.e.f. 10-4-1967).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Sindhi added by 21st Amendment 1967."
+    },
+    {
+      "id": "q22",
+      "answer": "দশম তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "TENTH SCHEDULE [Articles 102(2) and 191(2)] Provisions as to disqualification on ground of defection",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Tenth Schedule is disqualification on ground of defection."
+    },
+    {
+      "id": "q23",
+      "answer": "৫২তম সংশোধনী, ১৯৮৫",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Tenth Schedule added by the Constitution (Fifty-second Amendment) Act, 1985, s. 6 (w.e.f. 1-3-1985).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Tenth Schedule added by 52nd Amendment 1985."
+    },
+    {
+      "id": "q24",
+      "answer": "৩১B অনুচ্ছেদ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "NINTH SCHEDULE (Article 31B) 1. The Bihar Land Reforms Act, 1950 (Bihar Act XXX of 1950).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Ninth Schedule linked to Article 31B."
+    },
+    {
+      "id": "q25",
+      "answer": "১ম সংশোধনী, ১৯৫১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Ninth Schedule (entries 1 to 13) added by the Constitution (First Amendment) Act, 1951, s. 14 (w.e.f. 18-6-1951).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Ninth Schedule entries 1-13 added by First Amendment 1951."
+    },
+    {
+      "id": "q26",
+      "answer": "বিধায়ক-দলের অন্তত দুই-তৃতীয়াংশ সদস্যের সম্মতি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the merger of the original political party of a member of a House shall be deemed to have taken place if, and only if, not less than two-thirds of the members of the legislature party concerned have agreed to such merger.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Merger requires not less than two-thirds of legislature party."
+    },
+    {
+      "id": "q27",
+      "answer": "কক্ষের চেয়ারম্যান বা স্পিকার",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the question shall be referred for the decision of the Chairman or, as the case may be, the Speaker of such House and his decision shall be final:",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Para 6: question referred to Chairman or Speaker, decision final."
+    },
+    {
+      "id": "q28",
+      "answer": "যিনি স্বেচ্ছায় দলের সদস্যপদ ছেড়ে দেন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "a member of a House belonging to any political party shall be disqualified for being a member of the House— (a) if he has voluntarily given up his membership of such political party; or (b) if he votes or abstains from voting in such House contrary to any direction issued by the political party to which he belongs",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Para 2: disqualified if voluntarily gives up party membership."
+    },
+    {
+      "id": "q29",
+      "answer": "একাদশ তফসিল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "ELEVENTH SCHEDULE (Article 243G) 1. Agriculture, including agricultural extension.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Eleventh Schedule (Article 243G) is the Panchayat schedule."
+    },
+    {
+      "id": "q30",
+      "answer": "৭৩তম সংশোধনী",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "ELEVENTH SCHEDULE (Article 243G) 1. Agriculture, including agricultural extension.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Eleventh Schedule added by 73rd Amendment 1992; claim does not separately state constitutional-status wording."
+    },
+    {
+      "id": "q31",
+      "answer": "২৯টি",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "29. Maintenance of community assets.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Eleventh Schedule entry 29 is Maintenance of community assets, supporting 29 entries."
+    },
+    {
+      "id": "q32",
+      "answer": "দ্বাদশ তফসিল",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "TWELFTH SCHEDULE (Article 243W) 1. Urban planning including town planning.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Twelfth Schedule (Article 243W) is the municipalities schedule, beginning with urban planning."
+    },
+    {
+      "id": "q33",
+      "answer": "নগর পরিকল্পনা (town planning-সহ)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "TWELFTH SCHEDULE (Article 243W) 1. Urban planning including town planning.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Twelfth Schedule begins with urban planning including town planning."
+    },
+    {
+      "id": "q34",
+      "answer": "১৪ অনুচ্ছেদ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 14 is equality before law."
+    },
+    {
+      "id": "q35",
+      "answer": "৩২ অনুচ্ছেদ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by this Part is guaranteed.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 32(1) guarantees moving Supreme Court for Part III enforcement."
+    },
+    {
+      "id": "q36",
+      "answer": "নির্দেশক নীতিতে (৫১ অনুচ্ছেদ)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "51. Promotion of international peace and security.—The State shall endeavour to— (a) promote international peace and security;",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 51 in Directive Principles is promotion of international peace and security."
+    },
+    {
+      "id": "q37",
+      "answer": "৩৬৮ অনুচ্ছেদ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "368. Power of Parliament to amend the Constitution and procedure therefor.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 368 is power of Parliament to amend and procedure."
+    },
+    {
+      "id": "q38",
+      "answer": "আদালতে বলবৎযোগ্য নয়, তবু শাসনে মৌলিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The provisions contained in this Part shall not be enforceable by any court, but the principles therein laid down are nevertheless fundamental in the governance of the country",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Article 37: DPSP not enforceable by court but fundamental in governance."
+    },
+    {
+      "id": "q39",
+      "answer": "১ ও ২ দুটোই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Provisions as to the Administration and Control of Scheduled Areas and Scheduled Tribes",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Statement 1 from c06 (Fifth); statement 2 from c07 (Sixth, Assam/Meghalaya/Tripura/Mizoram). Both correct."
+    },
+    {
+      "id": "q40",
+      "answer": "১ ও ২ দুটোই ভুল",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Ninth Schedule (entries 1 to 13) added by the Constitution (First Amendment) Act, 1951, s. 14 (w.e.f. 18-6-1951).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Ninth came by First Amendment (c18), Tenth by 52nd (c20); both statements swap them, so both wrong."
+    },
+    {
+      "id": "q41",
+      "answer": "A-২, B-১, C-৪, D-৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "EIGHTH SCHEDULE [Articles 344(1) and 351] Languages",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Language-Eighth c13; defection-Tenth c19; Panchayat-Eleventh c24; power distribution-Seventh c08."
+    },
+    {
+      "id": "q42",
+      "answer": "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "ELEVENTH SCHEDULE (Article 243G) 1. Agriculture, including agricultural extension.",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Eleventh Schedule added by 73rd Amendment 1992 (w.e.f. 24-4-1993), which is the Panchayat constitutional-status amendment."
+    },
+    {
+      "id": "q43",
+      "answer": "১ → ২ → ৩ → ৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Ninth Schedule (entries 1 to 13) added by the Constitution (First Amendment) Act, 1951, s. 14 (w.e.f. 18-6-1951).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Chronology: Ninth 1951 c18, Tenth 1985 c20, Eleventh effective 24-4-1993 c24, Bodo group 2003 c15."
+    },
+    {
+      "id": "q44",
+      "answer": "শুধু ক সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Added by the Constitution (Twenty-first Amendment) Act, 1967, s. 2 (w.e.f. 10-4-1967).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Sindhi-21st correct c36; Konkani is 71st not 92nd c16; Santhali is 92nd not 71st c15."
+    },
+    {
+      "id": "q45",
+      "answer": "১ ও ২ সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Parliament has exclusive power to make laws with respect to any of the matters enumerated in List I in the Seventh Schedule (in this Constitution referred to as the “Union List”).",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Statement 1 c09, statement 2 c10 both correct; statement 3 wrong, residuary is Parliament c12."
+    },
+    {
+      "id": "q46",
+      "answer": "১ ও ২ দুটোই সঠিক",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "the question shall be referred for the decision of the Chairman or, as the case may be, the Speaker of such House and his decision shall be final:",
+      "source_url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "notes": "Statement 1 c23 (Speaker/Chairman final); statement 2 c22 (two-thirds merger). Both correct."
+    }
+  ]
+}

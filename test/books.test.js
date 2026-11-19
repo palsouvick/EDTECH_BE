@@ -172,15 +172,15 @@ test('the real Geography folder: table of contents 1-16 in four parts, every cha
   assert.deepEqual(real.errors, [], 'every chapter file in db/books/geography passes the validator');
 });
 
-test('the real Polity folder: table of contents 1-22 in seven parts, Batches 1+2 written (12 chapters, PUBLISHED + VERIFIED after the owner publish order of 2026-11-19 and a fresh blind sweep), PYQ map merged', () => {
+test('the real Polity folder: table of contents 1-22 in seven parts, all 22 chapters written (PUBLISHED + VERIFIED after the owner publish order of 2026-11-19 and fresh blind checks), PYQ map merged', () => {
   const toc = require('../db/books/polity/toc.js');
   assert.deepEqual(toc.CHAPTERS.map((c) => c.number), Array.from({ length: 22 }, (_, i) => i + 1));
   assert.deepEqual(toc.PARTS.map((p) => p.code), ['foundation', 'rights_duties', 'union_govt', 'judiciary', 'state_federal', 'bodies_elections_local', 'revision']);
   assert.ok(toc.CHAPTERS.every((c) => toc.PARTS.some((p) => p.code === c.part)));
   const real = books.loadBook('polity', { dir: path.join(__dirname, '../db/books'), fresh: true });
   assert.deepEqual(real.errors, []);
-  const written = ['POL-01', 'POL-02', 'POL-03', 'POL-04', 'POL-05', 'POL-06', 'POL-07', 'POL-08', 'POL-09', 'POL-11', 'POL-17', 'POL-20'];
-  assert.deepEqual([...real.chapters.keys()].sort(), written.sort(), 'Batches 1+2 chapters written');
+  const written = ['POL-01', 'POL-02', 'POL-03', 'POL-04', 'POL-05', 'POL-06', 'POL-07', 'POL-08', 'POL-09', 'POL-10', 'POL-11', 'POL-12', 'POL-13', 'POL-14', 'POL-15', 'POL-16', 'POL-17', 'POL-18', 'POL-19', 'POL-20', 'POL-21', 'POL-22'];
+  assert.deepEqual([...real.chapters.keys()].sort(), written.sort(), 'all 22 chapters written');
   for (const code of written) {
     const ch = real.chapters.get(code);
     assert.equal(ch.status, 'PUBLISHED', `${code} published by owner order 2026-11-19 after the fresh blind sweep`);
@@ -193,8 +193,8 @@ test('the real Polity folder: table of contents 1-22 in seven parts, Batches 1+2
     for (const x of list.filter((y) => y.taught)) assert.ok(ch.sections.some((s) => s.id === x.section), `${code}: ${x.pyq_code} → unknown section ${x.section}`);
   }
   const mapped = written.flatMap((c) => real.pyqMap[c]);
-  assert.equal(mapped.length, 258, 'Batches 1+2 PYQ map entries');
-  assert.equal(mapped.filter((x) => x.taught).length, 102, 'taught PYQ entries');
+  assert.equal(mapped.length, 347, 'PYQ map entries');
+  assert.equal(mapped.filter((x) => x.taught).length, 162, 'taught PYQ entries');
 });
 
 test('the real book folder: table of contents has chapters 0-28 and every chapter file is valid', () => {

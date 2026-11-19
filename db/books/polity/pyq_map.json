@@ -1,1584 +1,2128 @@
 {
- "POL-01": [
-  {
-   "note": "Taught: the Preamble itself states the Constitution was adopted on 26 November 1949.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q79",
-   "section": "duti_tarikh",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Constitution came into force on 26 January 1950 (Art 394; the commencement of the Constitution).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q111",
-   "section": "duti_tarikh",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Constituent Assembly adopted the Constitution on 26 November 1949.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q174",
-   "section": "duti_tarikh",
-   "taught": true
-  },
-  {
-   "note": "Taught: members of the Constituent Assembly were chosen by indirect election by the members of the Provincial Legislative Assemblies under the Government of India Act, 1935.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q52",
-   "section": "gothon",
-   "taught": true
-  },
-  {
-   "note": "Taught: the demand for a Constitution was reiterated by Nehru at the Congress Faizpur session on 27 December 1936; the chapter also teaches Gandhi first raised the demand in 1922, so among the given options the 1936 Congress demand is the keyed answer.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q194",
-   "section": "kno_dorkar",
-   "taught": true
-  },
-  {
-   "note": "Taught: Fundamental Duties (Art 51A) were inserted by the 42nd Amendment, 1976 (w.e.f. 3-1-1977), so they were not in the Constitution as adopted in 1949. Note: the paper prints the completion date as 29.11.1949; the Constitution was adopted on 26.11.1949. POL-02 also teaches Fundamental Duties.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
-   "section": "duti_tarikh",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Constitution of India was adopted on 26 November 1949.",
-   "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q54",
-   "section": "duti_tarikh",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Constitution of India came into force on 26 January 1950.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q19",
-   "section": "duti_tarikh",
-   "taught": true
-  },
-  {
-   "note": "Not taught: 'Political Justice' as a Preamble term belongs to POL-02 (Preamble), not to this chapter on constitution-making.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the Charter Act of 1853 belongs to the pre-1947 Acts, owned by History HIS-27; this chapter mentions only the GOI Act 1935 and the Independence Act 1947 in brief.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q194",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the first Public Service Commission under the GOI Act 1919 belongs to the pre-1947 Acts, owned by History HIS-27.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q125",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: 'Socialist' and 'Secular' added to the Preamble by the 42nd Amendment belongs to POL-02 (Preamble); this chapter teaches only that Art 51A came via the 42nd Amendment.",
-   "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q71",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-02": [
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q79",
-   "section": "prostobona_porichoy",
-   "taught": true,
-   "note": "Taught: the Preamble states the Constitution was adopted on 26 November 1949."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q115",
-   "section": "rashtrer_choritro",
-   "taught": true,
-   "note": "Taught: Article 1 - 'India, that is Bharat, shall be a Union of States.'"
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q181",
-   "section": "baisishtya",
-   "taught": true,
-   "note": "Taught: the chapter teaches the federal structure with a strong Centre (Art 1, Union of States; Art 248 residuary powers with Parliament)."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
-   "section": "sangshodhoni_moulik_kathamo",
-   "taught": true,
-   "note": "Taught: Fundamental Duties were inserted by the 42nd Amendment, 1976 (w.e.f. 3-1-1977), so they were not in the Constitution as adopted in 1949. Note: the paper's date '29.11.1949' is the paper's own wording."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q60",
-   "section": "rashtrer_choritro",
-   "taught": true,
-   "note": "Taught: the Preamble declares India SECULAR and Art 15 bars discrimination on grounds of religion; the keyed option follows from this."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
-   "section": "sangbidhaner_kathamo",
-   "taught": true,
-   "note": "Taught: Art 326 gives adult suffrage as a constitutional provision in Part XV, not a Fundamental Right in Part III; the keyed answer is 'Constitutional Right'."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q44",
-   "section": null,
-   "taught": false,
-   "note": "Not taught: the chapter teaches the quasi-federal character (strong Centre) but not the attribution of the quote to D. D. Basu, which is not in the chapter's sources."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q60",
-   "section": null,
-   "taught": false,
-   "note": "Not taught: same as WBCS 2016 Q44 - the D. D. Basu attribution is not in the chapter's sources."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q104",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-05 (DPSP): the welfare-state ideal is in the Directive Principles."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
-   "section": null,
-   "taught": false,
-   "note": "Source conflict: the chapter teaches 'justice, social, economic and political' in the Preamble AND in Art 38(1); the official key says 'only under the Preamble'. Marked untaught; the chapter carries an exam_note flagging that Art 38(1) also contains the phrase."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q186",
-   "section": null,
-   "taught": false,
-   "note": "Not taught: the borrowed-features country mapping (five-year plans from Russia) is not in the chapter's sources; the chapter notes this gap."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-16 (Emergency) / POL-06: the 44th Amendment's written Cabinet-advice requirement for an Emergency declaration."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q85",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-11 (Supreme Court / public interest litigation)."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q93",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-10 (Consolidated Fund of India)."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q102",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-05 (DPSP, Art 51 - promotion of international peace and security)."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q53",
-   "section": null,
-   "taught": false,
-   "note": "Not taught: judicial review exists (Art 13) but its borrowing from the USA is not in the chapter's sources."
-  },
-  {
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q85",
-   "section": null,
-   "taught": false,
-   "note": "Not a polity question (loose tag): longest-serving Prime Minister; belongs to the executive, not this chapter."
-  }
- ],
- "POL-03": [
-  {
-   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
-   "section": "swadhinata_19",
-   "taught": true,
-   "note": "Taught: the 44th Amendment, 1978 (w.e.f. 20-6-1979) omitted Article 19(1)(f), removing the Right to Property from the Fundamental Rights."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q117",
-   "section": "jiban_21",
-   "taught": true,
-   "note": "Taught: Article 20(3) forbids compelling an accused person to be a witness against himself, and Article 21 protects personal liberty; the keyed answer is Article 21 and Article 20(3). The case name (Selvi) is not in the chapter's sources, but the articles are taught."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q115",
-   "section": "swadhinata_19",
-   "taught": true,
-   "note": "Taught: Article 19(1)(a) gives freedom of speech and expression."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q59",
-   "section": "asprishyata_upadhi",
-   "taught": true,
-   "note": "Taught: Article 18 abolishes titles."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q153",
-   "section": "jiban_21",
-   "taught": true,
-   "note": "Taught: Article 21 is the Right to Life and Personal Liberty."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q173",
-   "section": "jiban_21",
-   "taught": true,
-   "note": "Taught: Article 21 protects life and personal liberty."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
-   "section": "swadhinata_19",
-   "taught": true,
-   "note": "Taught: Article 19(2)-(6) permit reasonable restrictions imposed by law by 'the State'; Article 12 defines the State to include the Government and Parliament of India, so the keyed answer (Parliament) follows from the chapter."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q137",
-   "section": "asprishyata_upadhi",
-   "taught": true,
-   "note": "Taught: Article 17 abolishes Untouchability."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q47",
-   "section": "somota_porichoy",
-   "taught": true,
-   "note": "Taught by elimination: the chapter teaches the full Articles 14-22 list; Equal Pay for Equal Work is not in it (it is in the Directive Principles, Article 39(d), POL-05)."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-02: Fundamental Duties were inserted by the 42nd Amendment, 1976."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-02: the right to vote is a Constitutional Right under Article 326."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q132",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-04: the protector of Fundamental Rights is the Judiciary, under Article 32."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q116",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-04: Article 24 prohibits the exploitation of children."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q77",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-18: the Finance Commission is Article 280 and the Election Commission is Article 324."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
-   "section": null,
-   "taught": false,
-   "note": "Not taught: the Right to Privacy as a Fundamental Right confirmed by the Supreme Court (Puttaswamy) is not in the chapter's sources."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q189",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-16: Articles 20 and 21 cannot be suspended under Article 359 during an Emergency."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q59",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-04: the Supreme Court and High Courts enforce Fundamental Rights under Articles 32 and 226."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q60",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-02: the Preamble declares India a Secular State."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q156",
-   "section": null,
-   "taught": false,
-   "note": "Belongs to POL-13: the Governor's appointment is under Article 154."
-  }
- ],
- "POL-04": [
-  {
-   "note": "Taught: Article 29(2) — no citizen shall be denied admission to a State-maintained or State-aided educational institution on grounds only of religion, race, caste or language.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q102",
-   "section": "culture_education",
-   "taught": true
-  },
-  {
-   "note": "Taught: Article 24 — the provision directly related to exploitation of children (no child below 14 in a factory, mine or hazardous employment).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q116",
-   "section": "exploitation",
-   "taught": true
-  },
-  {
-   "note": "Taught: the chapter lists the six Fundamental Rights groups (Arts 23-32); Equal Pay for Equal Work is not among them — it is a Directive Principle (Article 39(d), POL-05).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q47",
-   "section": "overview",
-   "taught": true
-  },
-  {
-   "note": "Taught: Fundamental Rights are enforced by the Supreme Court (Article 32) and the High Courts (Article 226) — both.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q59",
-   "section": "remedies",
-   "taught": true
-  },
-  {
-   "note": "Taught: India is a Secular State — no official religion, the State does not discriminate on the basis of religion and State institutions do not preach any religion.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q60",
-   "section": "religion",
-   "taught": true
-  },
-  {
-   "note": "Taught: the judiciary protects Fundamental Rights — Article 32 gives direct access to the Supreme Court and Article 226 to the High Courts.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q132",
-   "section": "remedies",
-   "taught": true
-  },
-  {
-   "note": "Taught: the National Human Rights Commission was established by law in 1993 (NCERT Ch. 2); the Act is the Protection of Human Rights Act, 1993.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q136",
-   "section": "remedies",
-   "taught": true
-  },
-  {
-   "note": "Taught: the 44th Amendment Act, 1978 omitted Article 31, so the Right to Property left the Fundamental Rights and became a legal right under Article 300A.",
-   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
-   "section": "overview",
-   "taught": true
-  },
-  {
-   "note": "Belongs to POL-17 (elections): the right to vote and to be elected is a constitutional right (Article 326), not a Fundamental Right.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: Article 19 guarantees freedom of speech and expression.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q115",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: Article 18 (abolition of titles) is in the Right to Equality group.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q59",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: Article 21 — protection of life and personal liberty.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q153",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: Article 21 — protection of life and personal liberty.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q173",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: Article 17 abolishes untouchability.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q137",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: the Right to Privacy as a Fundamental Right under Article 21 (Puttaswamy case law, not in the allowed sources for this chapter).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: reasonable restrictions on Fundamental Rights are imposed by Parliament (Article 19(2)-(6)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: forced polygraph, brain-mapping and narco-analysis tests violate Articles 21 and 20(3) (Selvi case law, not in this chapter).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q117",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-16 (with POL-03): Articles 20 and 21 cannot be suspended during a National Emergency under Article 359.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q189",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: the ideal of a Welfare State is enshrined in the Directive Principles of State Policy.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q104",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: promotion of international peace and security is in the Directive Principles (Article 51).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q102",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: Fundamental Duties were not in the Constitution when it was completed in 1949; they were added by the 42nd Amendment, 1976.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: Fundamental Duties (Article 51A) — protecting monuments of national importance is not one of them (that is Article 49, a Directive Principle).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q64",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: there are eleven Fundamental Duties (Article 51A(a)-(k)).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: Article 40 (organisation of village panchayats) is a Directive Principle.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q111",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: Article 44 (uniform civil code) is a Directive Principle.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q117",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: Article 40 (organisation of village panchayats) is a Directive Principle.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q85",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: the 86th Amendment, 2002 altered Article 45 to early childhood care and education below six years.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q118",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-16: the 44th Amendment made the written advice of the Cabinet mandatory for an Emergency declaration.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-02: 'Political Justice' is mentioned only in the Preamble.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-05": [
-  {
-   "note": "Taught: citizenship is in Part II of the Constitution (Articles 5-11).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q68",
-   "section": "nagorikotto",
-   "taught": true
-  },
-  {
-   "note": "Taught: Article 40 directs the State to organise village panchayats as units of self-government.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q111",
-   "section": "dpsp_srenibibhag",
-   "taught": true
-  },
-  {
-   "note": "Taught: Article 44 directs the State to endeavour to secure a uniform civil code for the citizens throughout India.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q117",
-   "section": "dpsp_srenibibhag",
-   "taught": true
-  },
-  {
-   "note": "Taught: Fundamental Duties were not in the Constitution as adopted in 1949; they were inserted by the 42nd Amendment, 1976 (w.e.f. 3-1-1977). Note: the paper's date '29.11.1949' is the paper's own wording.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
-   "section": "moulik_kortobyo",
-   "taught": true
-  },
-  {
-   "note": "Taught: Article 40 describes the organisation of village panchayats.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q85",
-   "section": "dpsp_srenibibhag",
-   "taught": true
-  },
-  {
-   "note": "Taught: promotion of international peace and security is in the Directive Principles (Article 51).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q102",
-   "section": "dpsp_srenibibhag",
-   "taught": true
-  },
-  {
-   "note": "Taught: the ideal of the Welfare State is enshrined in the Directive Principles (Article 38 - social order with justice, social, economic and political).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q104",
-   "section": "dpsp_ki_keno",
-   "taught": true
-  },
-  {
-   "note": "Taught: the 86th Amendment, 2002 altered Article 45 to provide for early childhood care and education for children below six years (w.e.f. 1-4-2010), moving free compulsory education to Article 21A.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q118",
-   "section": "dpsp_srenibibhag",
-   "taught": true
-  },
-  {
-   "note": "Source conflict: the chapter teaches 'justice, social, economic and political' in the Preamble AND in Article 38(1); the official key says 'only under the Preamble'. Marked untaught; the chapter carries an exam_note flagging that Article 38(1) also contains the phrase.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Taught: protecting monuments of national importance is a Directive Principle (Article 49), not a Fundamental Duty under Article 51A; the chapter teaches both the duty list and Article 49.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q64",
-   "section": "moulik_kortobyo",
-   "taught": true
-  },
-  {
-   "note": "Taught: Article 9 deals with persons voluntarily acquiring the citizenship of a foreign State.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q113",
-   "section": "nagorikotto",
-   "taught": true
-  },
-  {
-   "note": "Taught: 'equal pay for equal work' is a Directive Principle (Article 39(d)), not a Fundamental Right.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q47",
-   "section": "dpsp_srenibibhag",
-   "taught": true
-  },
-  {
-   "note": "Taught: there are eleven Fundamental Duties in Article 51A (ten inserted by the 42nd Amendment, 1976, and clause (k) by the 86th Amendment, 2002).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
-   "section": "moulik_kortobyo",
-   "taught": true
-  }
- ],
- "POL-06": [
-  {
-   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
-   "section": "amend_42_44",
-   "taught": true,
-   "note": "44th Amendment removed the Right to Property from Fundamental Rights; chapter teaches Art 31 and Art 19(1)(f) omitted and Art 300A inserted."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q118",
-   "section": "amend_52_97",
-   "taught": true,
-   "note": "86th Amendment altered Art 45 to early childhood care and education below six years; chapter teaches all three 86th changes."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q125",
-   "section": "living_document",
-   "taught": true,
-   "note": "79th Amendment (1999) extended the Art 334 reservation period from 50 to 60 years; chapter teaches it as a technical amendment."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q151",
-   "section": null,
-   "taught": false,
-   "note": "Constitution (123rd Amendment) Bill 2017 / NCBC constitutional status (102nd Amendment 2018, Art 338B) is outside this chapter's scope; belongs to POL-18/19 (constitutional bodies)."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q58",
-   "section": "amend_52_97",
-   "taught": true,
-   "note": "61st Amendment reduced voting age from 21 to 18 (Art 326, w.e.f. 28-3-1989)."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q43",
-   "section": "amend_52_97",
-   "taught": true,
-   "note": "52nd Amendment added the anti-defection law (Tenth Schedule)."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q64",
-   "section": "amend_42_44",
-   "taught": true,
-   "note": "Protection of monuments of national importance is Art 49 (DPSP), not a Fundamental Duty; chapter teaches the distinction and the eleven duties."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
-   "section": "amend_42_44",
-   "taught": true,
-   "note": "44th Amendment made written advice of the Cabinet mandatory for an Emergency proclamation (Art 352(3))."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q121",
-   "section": "amend_73_74",
-   "taught": true,
-   "note": "73rd Amendment gave constitutional status to Panchayats (Part IX). Also taught in POL-20."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q155",
-   "section": "amend_73_74",
-   "taught": true,
-   "note": "73rd Amendment gave constitutional status to Panchayati Raj institutions. Also taught in POL-20."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q62",
-   "section": "amend_73_74",
-   "taught": true,
-   "note": "73rd Amendment gave constitutional status to the Panchayat Raj system. Also taught in POL-20."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q81",
-   "section": "amend_73_74",
-   "taught": true,
-   "note": "73rd Amendment is related to Panchayats. Also taught in POL-20."
-  },
-  {
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q103",
-   "section": null,
-   "taught": false,
-   "note": "Money Bill substantially amended by the Rajya Sabha; belongs to POL-10 (legislative procedure), not to amendments."
-  },
-  {
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
-   "section": "amend_42_44",
-   "taught": true,
-   "note": "Eleven Fundamental Duties: ten added by the 42nd Amendment and one (Art 51A(k)) by the 86th."
-  }
- ],
- "POL-07": [
-  {
-   "note": "Taught: the President is elected by an electoral college of the elected members of both Houses of Parliament and the elected members of the State Legislative Assemblies (Article 54).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q143",
-   "section": "nirbachan",
-   "taught": true
-  },
-  {
-   "note": "Taught: a Money Bill cannot be introduced in Parliament without the recommendation (consent) of the President (Article 117(1)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q47",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Chairman of the Rajya Sabha is the Vice-President of India, ex officio (Articles 64 and 89(1)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q195",
-   "section": "uporashtrapati",
-   "taught": true
-  },
-  {
-   "note": "Taught: the President causes the Finance Commission's recommendations (Article 281), the CAG's reports (Article 151) and the National Commission for Scheduled Castes' reports (Article 338) to be laid before Parliament; the Public Accounts Committee's report is presented by the Committee itself.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q112",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: the impeachment of the President can be initiated in either House of Parliament (Article 61).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q120",
-   "section": "meyad_jogyata",
-   "taught": true
-  },
-  {
-   "note": "Taught: the power to grant pardons is enjoyed by the President (Article 72) and by the Governor of a State (Article 161).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q122",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: a Money Bill cannot be introduced in Parliament without the recommendation (consent) of the President (Article 117(1)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q92",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President of India (Articles 64 and 89(1)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q121",
-   "section": "uporashtrapati",
-   "taught": true
-  },
-  {
-   "note": "Taught: the President can take over the administration of a State (President's Rule) under Article 356.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q156",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Vice-President is elected by an electoral college consisting of the members of both Houses of Parliament (Article 66); members of State legislatures do not vote.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q164",
-   "section": "uporashtrapati",
-   "taught": true
-  },
-  {
-   "note": "Taught: the 44th Amendment (1978, w.e.f. 20-6-1979) made the written decision of the Union Cabinet mandatory before the President can proclaim a national emergency (Article 352(3)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: the President can declare a national emergency, a constitutional emergency (President's Rule) and a financial emergency (Articles 352, 356, 360).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q51",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: before the expiry of his term the President can be removed from office only by impeachment by Parliament (Articles 56 and 61).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q58",
-   "section": "meyad_jogyata",
-   "taught": true
-  },
-  {
-   "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President (Articles 64 and 89(1)).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q1",
-   "section": "uporashtrapati",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Governor of a State is appointed by the President (Article 155).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q1",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Attorney-General for India is appointed by the President (Article 76(1)).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q47",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: the power to declare an Emergency is the President's (Articles 352, 356, 360).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q59",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Taught: President's Rule in a State is promulgated under Article 356.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q32",
-   "section": "khomota",
-   "taught": true
-  },
-  {
-   "note": "Not taught: the chapter teaches that Vice-President B. D. Jatti acted as President on the death of Fakhruddin Ali Ahmed, but not that Zakir Hussain was the first President to die while in office.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q70",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: 'first citizen' is a conventional description of the President; it appears in neither the Constitution text nor NCERT Chapter 4 as used here.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q200",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the chapter teaches that the President is eligible for re-election (Article 57) and that Dr. Rajendra Prasad was the first President, but not that he was the only President elected for a second time.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q74",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the 'His Superfluous Highness' nickname for the Vice-President appears in neither the Constitution text nor NCERT Chapter 4 as used here.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q128",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught here: the chapter teaches the President's appointment of Supreme Court judges (Article 124); the appointment of the Chief Justice of a High Court (Article 217) belongs to POL-12.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q29",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught here: the Inter-State Council (Article 263) belongs to POL-15.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q104",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught here: the Election Commission (Article 324) belongs to POL-17.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught here: the power to increase the number of Supreme Court judges is Parliament's and belongs to POL-11.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q106",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the chapter does not cover Pranab Mukherjee's ministerial career before becoming President.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q26",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-08": [
-  {
-   "note": "Taught: the Constitution provides only for the Prime Minister and other Ministers (Articles 74-75) in three ranks — Cabinet minister, Minister of State, Deputy Minister; there is no constitutional office of Deputy Prime Minister.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q82",
-   "section": "gothon_sreni",
-   "taught": true
-  },
-  {
-   "note": "NITI Aayog was set up by a resolution of the Union Cabinet — the Cabinet is taught here (Article 352(3) definition), but NITI Aayog's creation is not in this chapter's sources; belongs to POL-19.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q176",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "NITI Aayog was set up by a resolution of the Union Cabinet — the Cabinet is taught here (Article 352(3) definition), but NITI Aayog's creation is not in this chapter's sources; belongs to POL-19.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q113",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "44th Amendment made written advice of the Cabinet mandatory for an Emergency proclamation (Article 352(3)) — the Cabinet definition is taught here, but the Emergency rule belongs to POL-16 (also mapped in POL-06).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Longest-serving Prime Minister of India (Jawaharlal Nehru) — a historical fact not in this chapter's sources; not taught.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q85",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Prime Minister of India when the Look East Policy was formulated (P. V. Narasimha Rao) — a policy-history fact not in this chapter's sources; not taught.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q86",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Parliamentary constituency from which the Prime Minister was elected in the 2019 elections (Varanasi) — names the current office-holder; not taught.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q40",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Posts held by Pranab Mukherjee before becoming President of India — a biographical fact not in this chapter's sources; not taught.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q26",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-14: the first woman Chief Minister of India (Sucheta Kripalani) is a state-executive fact, not the Union Council of Ministers.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q62",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-09": [
-  {
-   "note": "Taught: the term of office of a Rajya Sabha member is six years (Article 83(1)); one-third retire every two years.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q165",
-   "section": "rajya_sabha",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Chairman of the Rajya Sabha is the Vice-President of India, ex officio (Article 89(1)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q195",
-   "section": "officers",
-   "taught": true
-  },
-  {
-   "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President of India (Article 89(1)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q121",
-   "section": "officers",
-   "taught": true
-  },
-  {
-   "note": "Taught: the minimum age for the Lok Sabha is 25 years (Article 84); 30 years for the Rajya Sabha.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q72",
-   "section": "membership",
-   "taught": true
-  },
-  {
-   "note": "Taught: quorum is one-tenth of the total membership of the House (Article 100(3)) — for the Rajya Sabha, 25.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q169",
-   "section": "sessions",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Rajya Sabha and Lok Sabha enjoy equal power on the amendment of the Constitution.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q165",
-   "section": "privileges_comparison",
-   "taught": true
-  },
-  {
-   "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President of India (Article 89(1)).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q1",
-   "section": "officers",
-   "taught": true
-  },
-  {
-   "note": "Belongs to POL-18: the Finance Commission is the chief advisory body on the distribution of tax revenue between the Centre and the States.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q50",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-14: the upper House of a State Legislature is the Vidhan Parishad (Legislative Council).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q92",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not in Articles 79-106: the Leader of the Opposition in the Lok Sabha enjoys the rank of a Cabinet Minister under statute, not under the Constitution.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q156",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-02: the system of Indian democracy (multi-party parliamentary system) is a feature of the Constitution, not of Parliament's composition.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q173",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-14: a bill of a State Legislature becomes an Act when the Governor assents to it.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q181",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: the Railway Budget (separate from the Union Budget until its merger in 2017) is a matter of legislative procedure and finance.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q112",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-18: the number of Finance Commissions that have submitted reports — dated, the 2016 key says Twelve.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q28",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-15: the number of subjects in the Concurrent List (47 at the time; now 52 after the 42nd Amendment changes) — federal distribution of powers.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q38",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: a money bill cannot be introduced without the recommendation of the President (Article 117).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q47",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: a money bill cannot be introduced without the recommendation of the President (Article 117).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q92",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: the Public Accounts Committee has 15 Lok Sabha members (and 7 Rajya Sabha members) — parliamentary committees.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q193",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: the passage of a money bill (Article 109) is legislative procedure.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q193",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-15: Law and Order is a State List subject.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q194",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-15: grants-in-aid are provided under Articles 275 and 282 — Centre-State financial relations.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q198",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-20: the Panchayati Raj system has three tiers (village, block, district).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q199",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-07: the first citizen of the Republic of India is the President — a convention, not stated in the Constitution.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q200",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-08: the office of Deputy Prime Minister is not provided by the Constitution.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q82",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-18: the Finance Commission is constituted with one chairperson and four other members.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q91",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: what follows if a money bill is substantially amended by the Rajya Sabha (Article 109 procedure).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q103",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-11: the power to increase the number of judges in the Supreme Court lies with Parliament — judiciary chapter.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q106",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-18 and others: reports laid before Parliament (CAG, Finance Commission, UPSC) — covered where each body is taught.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q112",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-07: impeachment of the President can be initiated in either House of Parliament (Article 61).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q120",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: statements on the Public Accounts Committee — the committee has 15 Lok Sabha + 7 Rajya Sabha members, not 25 Lok Sabha members.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q121",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-06: the 79th Amendment (extension of reservation of seats) is an amendment question.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q125",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: a money bill is finally determined by the Speaker of the Lok Sabha (Article 110(3)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q62",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-11: the custodian of the Indian Constitution is the Supreme Court.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q69",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-15: the Inter-State Council (Article 263) is a Centre-State relations body.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q104",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: members of the Public Accounts Committee are elected by proportional representation by single transferable vote.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q117",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-07: \"His Superfluous Highness\" is a description of the Vice-President.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q128",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-07: the election of the President (Articles 54-55).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q143",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: the Chairman of the Public Accounts Committee is conventionally from the Opposition.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q83",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-18: the Guardian of the Public Purse in India is the Comptroller and Auditor General.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q99",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: bills other than money bills may be introduced in either House (Article 107) — legislative procedure.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q119",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-07: the election of the Vice-President (Article 66).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q164",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-15: features of Indian federation — the Rajya Sabha's unequal representation is taught here, but the question is a federalism question.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q29",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: reasonable restrictions on Fundamental Rights (Article 19(2)-(6)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: parliamentary authorisation is necessary prior to expenditure from the Consolidated Fund of India.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q99",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to History (HIS-27): the Charter Act of 1853 envisaged the parliamentary system.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q194",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-03: the Right to Privacy as a Fundamental Right under Article 21 (Puttaswamy case law).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-16: the President can declare a National Emergency, a Constitutional (President's Rule) Emergency and a Financial Emergency.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q51",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-02/POL-11: the power of judicial review is borrowed from the Constitution of the United States of America.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q53",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-10: the Speaker of the Lok Sabha decides whether a bill is a money bill or not (Article 110(3)).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q56",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-07: the President can be removed before the expiry of the term by impeachment by Parliament.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q58",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: party-politics current affairs (which party withdrew support from the Left Front government).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q7",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: party-politics current affairs (General Secretary of the Samajwadi Party at the time).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q9",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-11/POL-12: a Green Bench is a bench of a High Court (or the Supreme Court) dealing with environmental cases.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q1",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: election current affairs (the constituency from which a named politician was elected in 2019).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q35",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: election current affairs (the constituency from which the Prime Minister was elected in 2019).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q40",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "SOURCE CONFLICT — not taught as keyed: the 2019 key says 545 elected seats in the Lok Sabha. The chapter teaches 543 elected constituencies (NCERT + Article 81 as amended by the 104th Amendment, 2019); 545 was the pre-104th total (543 elected + 2 nominated Anglo-Indians).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q23",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-05: there are eleven Fundamental Duties (Article 51A(a)-(k)).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not polity-book scope: the new legal code replacing the Indian Penal Code (Bharatiya Nyaya Sanhita) is a criminal-law current-affairs question.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q76",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not polity-book scope: the three new criminal laws (Bharatiya Nyaya Sanhita and others) coming into effect is a criminal-law current-affairs question.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q75",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-18: the Attorney General for India is appointed by the President (Article 76).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q47",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-16: the power to declare an Emergency lies with the President (Articles 352/356/360).",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q59",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-16: President's Rule is proclaimed under Article 356.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q32",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the Speaker of the 18th Lok Sabha is a current office-holder, never named in the chapters.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q73",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not POL-09: the first woman Chief Minister of India (Sucheta Kripalani) — a loose polity tag; belongs with the chapters on the executive or state government.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q62",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not POL-09: the first President of India who died while in office (Zakir Hussain) — belongs to POL-07.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q70",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not POL-09: the Rousseau quotation (\"Man is born free, but is everywhere in chains\") — political thought, not Parliament.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q80",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not POL-09: the longest-serving Prime Minister of India (Jawaharlal Nehru) — belongs to POL-08.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q85",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not POL-09: the Prime Minister when the Look East Policy was formulated (P. V. Narasimha Rao) — belongs to POL-08.",
-   "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q86",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Belongs to POL-06 (already taught in POL-04): the 44th Amendment, 1978 removed the Right to Property from the Fundamental Rights.",
-   "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-10": [],
- "POL-11": [
-  {
-   "note": "Taught: Article 124(1) leaves the number of Supreme Court Judges to Parliament by law, and the 2019 Amendment Act raised the number of other Judges to thirty-three.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q106",
-   "section": "gothon_jogyota",
-   "taught": true
-  },
-  {
-   "note": "Taught: a Judge of the Supreme Court holds office until the age of sixty-five years (Article 124(2)).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q138",
-   "section": "meyad_oposaron",
-   "taught": true
-  },
-  {
-   "note": "Taught: the judiciary has played an important role in interpreting and in protecting the Constitution since 1950, and the Supreme Court is the protector of the Constitution through judicial review.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q69",
-   "section": "porichoy",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Judiciary protects Fundamental Rights through the writ jurisdiction (Article 32), and any person whose right is violated can directly move the Supreme Court.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q132",
-   "section": "ekhtiyar",
-   "taught": true
-  },
-  {
-   "note": "Taught: Public Interest Litigation is the chief instrument through which judicial activism has flourished in India.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q85",
-   "section": "porjalochona_pil",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Supreme Court (Article 32) and the High Courts (Article 226) are both responsible for the enforcement of Fundamental Rights; the person whose rights are violated has the choice of either.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q59",
-   "section": "ekhtiyar",
-   "taught": true
-  },
-  {
-   "note": "Not taught: the keyed answer rests on the Supreme Court's Selvi ruling on Articles 20(3) and 21, which is case law the chapter does not teach; Articles 20 and 21 themselves belong to POL-03.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q117",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the dissenting judge in a specific Supreme Court verdict (Sabarimala) is case-specific knowledge the chapter does not cover.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q171",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the keyed answer is that the Indian federation is not the result of an agreement among the federating units. The chapter teaches that an independent judiciary is a feature of the federation, which eliminates one option, but the Union-not-by-agreement point is taught in POL-02 (Article 1), not here.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q29",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the keyed answer is Parliament, which imposes reasonable restrictions on Fundamental Rights by law under Article 19(2)-(6); that provision belongs to POL-03.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the keyed answer rests on the Supreme Court's Puttaswamy ruling that privacy is a Fundamental Right; the chapter teaches judicial review in general but not the privacy ruling.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: the chapter teaches judicial review itself, but not the country it was borrowed from (United States of America); the borrowing list is not in the cited sources.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q53",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: appointment of District Judges by the Governor belongs to the subordinate judiciary, covered in POL-12, not in this chapter.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q119",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: appointment of the Chief Justice of a High Court belongs to POL-12 (High Courts); this chapter covers Supreme Court appointments only.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q29",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the rank of the Leader of the Opposition in the Lok Sabha belongs to POL-09 (Parliament).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q156",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: what was not in the Constitution as adopted in 1949 (Fundamental Duties) belongs to POL-02; already mapped there.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the first citizen of India (the President) belongs to POL-07.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q200",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the pardoning power of the President and Governors belongs to POL-07.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q122",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the Inter-State Council belongs to POL-15 (Centre-State relations).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q104",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the Election Commission belongs to POL-17.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the Attorney General as first Law Officer belongs to POL-18 (constitutional bodies).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q196",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the Finance Commission as advisory body on tax distribution belongs to POL-18.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q50",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the incorrectly matched pair is Finance Commission - Article 324, which belongs to POL-18 (Finance Commission, Article 280) and POL-17 (Election Commission, Article 324).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q77",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the 44th Amendment's written Cabinet advice requirement for Emergency belongs to POL-16 (Emergency).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: removal of the President by impeachment belongs to POL-07.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q58",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught: 'Green Bench' (environment benches) is not covered in the cited sources.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q1",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: appointment of the Governor belongs to POL-13.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q1",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the power to declare Emergency belongs to POL-16.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q59",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not a Supreme Court topic: the Attorney General as legal adviser to the Central Government belongs to POL-18.",
-   "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q20",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-12": [],
- "POL-13": [],
- "POL-14": [],
- "POL-15": [],
- "POL-16": [],
- "POL-17": [
-  {
-   "note": "Taught: the voting age was reduced from 21 years to 18 years in the 1980s by the 61st Amendment, 1988 (w.e.f. 28-3-1989).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q46",
-   "section": "votar_talika",
-   "taught": true
-  },
-  {
-   "note": "Taught: the right to vote and to be elected is a Constitutional Right, flowing from Article 326 (adult suffrage), not a Fundamental Right.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
-   "section": "votar_talika",
-   "taught": true
-  },
-  {
-   "note": "Taught: the Election Commission is constituted by the President under Article 324.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
-   "section": "eci_gathon",
-   "taught": true
-  },
-  {
-   "note": "Taught: the anti-defection law (Tenth Schedule) was added by the 52nd Amendment, 1985.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q43",
-   "section": "doltyag",
-   "taught": true
-  },
-  {
-   "note": "Not taught here: members of the Public Accounts Committee are elected by members of both Houses through proportional representation by single transferable vote — belongs to POL-09/10 (parliamentary committees).",
-   "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q117",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught here: the Vice-President is elected by an electoral college of members of both Houses of Parliament (Article 66) — belongs to POL-07.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q164",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught here: the question asks which match is incorrect — Finance Commission with Article 324. The chapter teaches that Article 324 is the Election Commission, but the Finance Commission's own article (280) is POL-18, so the full match-question is not taught here.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q77",
-   "section": null,
-   "taught": false
-  },
-  {
-   "note": "Not taught here: asks what the SVEEP programme is (full form: Systematic Voters' Education and Electoral Participation) — no verified GOVT source in hand, so it is not covered in this chapter.",
-   "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q5",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-18": [],
- "POL-19": [],
- "POL-20": [
-  {
-   "note": "Which Article desires the organisation of village panchayats? Art 40 (Directive Principles); chapter teaches Art 40 in section why_local.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q111",
-   "section": "why_local",
-   "taught": true
-  },
-  {
-   "note": "Which article describes the organisation of village panchayats? Art 40; chapter teaches Art 40 in section why_local.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q85",
-   "section": "why_local",
-   "taught": true
-  },
-  {
-   "note": "The Panchayati Raj system has three tiers; chapter teaches the village, intermediate and district levels (Art 243B) in section three_tiers.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q199",
-   "section": "three_tiers",
-   "taught": true
-  },
-  {
-   "note": "The Panchayati Raj system has three tiers; chapter teaches the village, intermediate and district levels (Art 243B) in section three_tiers.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q124",
-   "section": "three_tiers",
-   "taught": true
-  },
-  {
-   "note": "Panchayati Raj is organised at the village, block and district levels; chapter teaches the three tiers (Art 243B) in section three_tiers.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q50",
-   "section": "three_tiers",
-   "taught": true
-  },
-  {
-   "note": "73rd Amendment gave constitutional status to Panchayats; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q121",
-   "section": "amendment_73",
-   "taught": true
-  },
-  {
-   "note": "73rd Amendment gives constitutional status to Panchayati Raj institutions; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q155",
-   "section": "amendment_73",
-   "taught": true
-  },
-  {
-   "note": "73rd Amendment allows constitutional status to the Panchayat Raj system; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q62",
-   "section": "amendment_73",
-   "taught": true
-  },
-  {
-   "note": "73rd Amendment is related to Panchayati Raj; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q81",
-   "section": "amendment_73",
-   "taught": true
-  },
-  {
-   "note": "Fundamental object of Panchayati Raj is democratic decentralisation / people's participation; chapter teaches democratic decentralisation and Gram Swaraj in section why_local.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q105",
-   "section": "why_local",
-   "taught": true
-  },
-  {
-   "note": "Arunachal Pradesh is exempted from SC reservation in Panchayati Raj institutions; chapter teaches Art 243M(3A) (83rd Amendment 2000) in section powers_money.",
-   "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q161",
-   "section": "powers_money",
-   "taught": true
-  },
-  {
-   "note": "Rajasthan adopted the three-tier Panchayati Raj system first (2 Oct 1959, Nagaur). Not taught: no verified citable source — NCERT Ch 8 (keps208.pdf) URL is unverified and the mirror text does not name Rajasthan-first; only coaching sites were found, which are not citable.",
-   "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q47",
-   "section": null,
-   "taught": false
-  }
- ],
- "POL-21": [],
- "POL-22": []
+  "POL-01": [
+    {
+      "note": "Taught: the Preamble itself states the Constitution was adopted on 26 November 1949.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q79",
+      "section": "duti_tarikh",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Constitution came into force on 26 January 1950 (Art 394; the commencement of the Constitution).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q111",
+      "section": "duti_tarikh",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Constituent Assembly adopted the Constitution on 26 November 1949.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q174",
+      "section": "duti_tarikh",
+      "taught": true
+    },
+    {
+      "note": "Taught: members of the Constituent Assembly were chosen by indirect election by the members of the Provincial Legislative Assemblies under the Government of India Act, 1935.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q52",
+      "section": "gothon",
+      "taught": true
+    },
+    {
+      "note": "Taught: the demand for a Constitution was reiterated by Nehru at the Congress Faizpur session on 27 December 1936; the chapter also teaches Gandhi first raised the demand in 1922, so among the given options the 1936 Congress demand is the keyed answer.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q194",
+      "section": "kno_dorkar",
+      "taught": true
+    },
+    {
+      "note": "Taught: Fundamental Duties (Art 51A) were inserted by the 42nd Amendment, 1976 (w.e.f. 3-1-1977), so they were not in the Constitution as adopted in 1949. Note: the paper prints the completion date as 29.11.1949; the Constitution was adopted on 26.11.1949. POL-02 also teaches Fundamental Duties.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
+      "section": "duti_tarikh",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Constitution of India was adopted on 26 November 1949.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q54",
+      "section": "duti_tarikh",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Constitution of India came into force on 26 January 1950.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q19",
+      "section": "duti_tarikh",
+      "taught": true
+    },
+    {
+      "note": "Not taught: 'Political Justice' as a Preamble term belongs to POL-02 (Preamble), not to this chapter on constitution-making.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the Charter Act of 1853 belongs to the pre-1947 Acts, owned by History HIS-27; this chapter mentions only the GOI Act 1935 and the Independence Act 1947 in brief.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q194",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the first Public Service Commission under the GOI Act 1919 belongs to the pre-1947 Acts, owned by History HIS-27.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q125",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: 'Socialist' and 'Secular' added to the Preamble by the 42nd Amendment belongs to POL-02 (Preamble); this chapter teaches only that Art 51A came via the 42nd Amendment.",
+      "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q71",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-02": [
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q79",
+      "section": "prostobona_porichoy",
+      "taught": true,
+      "note": "Taught: the Preamble states the Constitution was adopted on 26 November 1949."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q115",
+      "section": "rashtrer_choritro",
+      "taught": true,
+      "note": "Taught: Article 1 - 'India, that is Bharat, shall be a Union of States.'"
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q181",
+      "section": "baisishtya",
+      "taught": true,
+      "note": "Taught: the chapter teaches the federal structure with a strong Centre (Art 1, Union of States; Art 248 residuary powers with Parliament)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
+      "section": "sangshodhoni_moulik_kathamo",
+      "taught": true,
+      "note": "Taught: Fundamental Duties were inserted by the 42nd Amendment, 1976 (w.e.f. 3-1-1977), so they were not in the Constitution as adopted in 1949. Note: the paper's date '29.11.1949' is the paper's own wording."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q60",
+      "section": "rashtrer_choritro",
+      "taught": true,
+      "note": "Taught: the Preamble declares India SECULAR and Art 15 bars discrimination on grounds of religion; the keyed option follows from this."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
+      "section": "sangbidhaner_kathamo",
+      "taught": true,
+      "note": "Taught: Art 326 gives adult suffrage as a constitutional provision in Part XV, not a Fundamental Right in Part III; the keyed answer is 'Constitutional Right'."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q44",
+      "section": null,
+      "taught": false,
+      "note": "Not taught: the chapter teaches the quasi-federal character (strong Centre) but not the attribution of the quote to D. D. Basu, which is not in the chapter's sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q60",
+      "section": null,
+      "taught": false,
+      "note": "Not taught: same as WBCS 2016 Q44 - the D. D. Basu attribution is not in the chapter's sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q104",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-05 (DPSP): the welfare-state ideal is in the Directive Principles."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
+      "section": null,
+      "taught": false,
+      "note": "Source conflict: the chapter teaches 'justice, social, economic and political' in the Preamble AND in Art 38(1); the official key says 'only under the Preamble'. Marked untaught; the chapter carries an exam_note flagging that Art 38(1) also contains the phrase."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q186",
+      "section": null,
+      "taught": false,
+      "note": "Not taught: the borrowed-features country mapping (five-year plans from Russia) is not in the chapter's sources; the chapter notes this gap."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-16 (Emergency) / POL-06: the 44th Amendment's written Cabinet-advice requirement for an Emergency declaration."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q85",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-11 (Supreme Court / public interest litigation)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q93",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-10 (Consolidated Fund of India)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q102",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-05 (DPSP, Art 51 - promotion of international peace and security)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q53",
+      "section": null,
+      "taught": false,
+      "note": "Not taught: judicial review exists (Art 13) but its borrowing from the USA is not in the chapter's sources."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q85",
+      "section": null,
+      "taught": false,
+      "note": "Not a polity question (loose tag): longest-serving Prime Minister; belongs to the executive, not this chapter."
+    }
+  ],
+  "POL-03": [
+    {
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
+      "section": "swadhinata_19",
+      "taught": true,
+      "note": "Taught: the 44th Amendment, 1978 (w.e.f. 20-6-1979) omitted Article 19(1)(f), removing the Right to Property from the Fundamental Rights."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q117",
+      "section": "jiban_21",
+      "taught": true,
+      "note": "Taught: Article 20(3) forbids compelling an accused person to be a witness against himself, and Article 21 protects personal liberty; the keyed answer is Article 21 and Article 20(3). The case name (Selvi) is not in the chapter's sources, but the articles are taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q115",
+      "section": "swadhinata_19",
+      "taught": true,
+      "note": "Taught: Article 19(1)(a) gives freedom of speech and expression."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q59",
+      "section": "asprishyata_upadhi",
+      "taught": true,
+      "note": "Taught: Article 18 abolishes titles."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q153",
+      "section": "jiban_21",
+      "taught": true,
+      "note": "Taught: Article 21 is the Right to Life and Personal Liberty."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q173",
+      "section": "jiban_21",
+      "taught": true,
+      "note": "Taught: Article 21 protects life and personal liberty."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
+      "section": "swadhinata_19",
+      "taught": true,
+      "note": "Taught: Article 19(2)-(6) permit reasonable restrictions imposed by law by 'the State'; Article 12 defines the State to include the Government and Parliament of India, so the keyed answer (Parliament) follows from the chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q137",
+      "section": "asprishyata_upadhi",
+      "taught": true,
+      "note": "Taught: Article 17 abolishes Untouchability."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q47",
+      "section": "somota_porichoy",
+      "taught": true,
+      "note": "Taught by elimination: the chapter teaches the full Articles 14-22 list; Equal Pay for Equal Work is not in it (it is in the Directive Principles, Article 39(d), POL-05)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-02: Fundamental Duties were inserted by the 42nd Amendment, 1976."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-02: the right to vote is a Constitutional Right under Article 326."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q132",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-04: the protector of Fundamental Rights is the Judiciary, under Article 32."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q116",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-04: Article 24 prohibits the exploitation of children."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q77",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-18: the Finance Commission is Article 280 and the Election Commission is Article 324."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
+      "section": null,
+      "taught": false,
+      "note": "Not taught: the Right to Privacy as a Fundamental Right confirmed by the Supreme Court (Puttaswamy) is not in the chapter's sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q189",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-16: Articles 20 and 21 cannot be suspended under Article 359 during an Emergency."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q59",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-04: the Supreme Court and High Courts enforce Fundamental Rights under Articles 32 and 226."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q60",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-02: the Preamble declares India a Secular State."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q156",
+      "section": null,
+      "taught": false,
+      "note": "Belongs to POL-13: the Governor's appointment is under Article 154."
+    }
+  ],
+  "POL-04": [
+    {
+      "note": "Taught: Article 29(2) — no citizen shall be denied admission to a State-maintained or State-aided educational institution on grounds only of religion, race, caste or language.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q102",
+      "section": "culture_education",
+      "taught": true
+    },
+    {
+      "note": "Taught: Article 24 — the provision directly related to exploitation of children (no child below 14 in a factory, mine or hazardous employment).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q116",
+      "section": "exploitation",
+      "taught": true
+    },
+    {
+      "note": "Taught: the chapter lists the six Fundamental Rights groups (Arts 23-32); Equal Pay for Equal Work is not among them — it is a Directive Principle (Article 39(d), POL-05).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q47",
+      "section": "overview",
+      "taught": true
+    },
+    {
+      "note": "Taught: Fundamental Rights are enforced by the Supreme Court (Article 32) and the High Courts (Article 226) — both.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q59",
+      "section": "remedies",
+      "taught": true
+    },
+    {
+      "note": "Taught: India is a Secular State — no official religion, the State does not discriminate on the basis of religion and State institutions do not preach any religion.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q60",
+      "section": "religion",
+      "taught": true
+    },
+    {
+      "note": "Taught: the judiciary protects Fundamental Rights — Article 32 gives direct access to the Supreme Court and Article 226 to the High Courts.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q132",
+      "section": "remedies",
+      "taught": true
+    },
+    {
+      "note": "Taught: the National Human Rights Commission was established by law in 1993 (NCERT Ch. 2); the Act is the Protection of Human Rights Act, 1993.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q136",
+      "section": "remedies",
+      "taught": true
+    },
+    {
+      "note": "Taught: the 44th Amendment Act, 1978 omitted Article 31, so the Right to Property left the Fundamental Rights and became a legal right under Article 300A.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
+      "section": "overview",
+      "taught": true
+    },
+    {
+      "note": "Belongs to POL-17 (elections): the right to vote and to be elected is a constitutional right (Article 326), not a Fundamental Right.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: Article 19 guarantees freedom of speech and expression.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q115",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: Article 18 (abolition of titles) is in the Right to Equality group.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q59",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: Article 21 — protection of life and personal liberty.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q153",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: Article 21 — protection of life and personal liberty.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q173",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: Article 17 abolishes untouchability.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q137",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: the Right to Privacy as a Fundamental Right under Article 21 (Puttaswamy case law, not in the allowed sources for this chapter).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: reasonable restrictions on Fundamental Rights are imposed by Parliament (Article 19(2)-(6)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: forced polygraph, brain-mapping and narco-analysis tests violate Articles 21 and 20(3) (Selvi case law, not in this chapter).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q117",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-16 (with POL-03): Articles 20 and 21 cannot be suspended during a National Emergency under Article 359.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q189",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: the ideal of a Welfare State is enshrined in the Directive Principles of State Policy.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q104",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: promotion of international peace and security is in the Directive Principles (Article 51).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q102",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: Fundamental Duties were not in the Constitution when it was completed in 1949; they were added by the 42nd Amendment, 1976.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: Fundamental Duties (Article 51A) — protecting monuments of national importance is not one of them (that is Article 49, a Directive Principle).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q64",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: there are eleven Fundamental Duties (Article 51A(a)-(k)).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: Article 40 (organisation of village panchayats) is a Directive Principle.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q111",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: Article 44 (uniform civil code) is a Directive Principle.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q117",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: Article 40 (organisation of village panchayats) is a Directive Principle.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q85",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: the 86th Amendment, 2002 altered Article 45 to early childhood care and education below six years.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q118",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-16: the 44th Amendment made the written advice of the Cabinet mandatory for an Emergency declaration.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-02: 'Political Justice' is mentioned only in the Preamble.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-05": [
+    {
+      "note": "Taught: citizenship is in Part II of the Constitution (Articles 5-11).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q68",
+      "section": "nagorikotto",
+      "taught": true
+    },
+    {
+      "note": "Taught: Article 40 directs the State to organise village panchayats as units of self-government.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q111",
+      "section": "dpsp_srenibibhag",
+      "taught": true
+    },
+    {
+      "note": "Taught: Article 44 directs the State to endeavour to secure a uniform civil code for the citizens throughout India.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q117",
+      "section": "dpsp_srenibibhag",
+      "taught": true
+    },
+    {
+      "note": "Taught: Fundamental Duties were not in the Constitution as adopted in 1949; they were inserted by the 42nd Amendment, 1976 (w.e.f. 3-1-1977). Note: the paper's date '29.11.1949' is the paper's own wording.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
+      "section": "moulik_kortobyo",
+      "taught": true
+    },
+    {
+      "note": "Taught: Article 40 describes the organisation of village panchayats.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q85",
+      "section": "dpsp_srenibibhag",
+      "taught": true
+    },
+    {
+      "note": "Taught: promotion of international peace and security is in the Directive Principles (Article 51).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q102",
+      "section": "dpsp_srenibibhag",
+      "taught": true
+    },
+    {
+      "note": "Taught: the ideal of the Welfare State is enshrined in the Directive Principles (Article 38 - social order with justice, social, economic and political).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q104",
+      "section": "dpsp_ki_keno",
+      "taught": true
+    },
+    {
+      "note": "Taught: the 86th Amendment, 2002 altered Article 45 to provide for early childhood care and education for children below six years (w.e.f. 1-4-2010), moving free compulsory education to Article 21A.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q118",
+      "section": "dpsp_srenibibhag",
+      "taught": true
+    },
+    {
+      "note": "Source conflict: the chapter teaches 'justice, social, economic and political' in the Preamble AND in Article 38(1); the official key says 'only under the Preamble'. Marked untaught; the chapter carries an exam_note flagging that Article 38(1) also contains the phrase.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q55",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Taught: protecting monuments of national importance is a Directive Principle (Article 49), not a Fundamental Duty under Article 51A; the chapter teaches both the duty list and Article 49.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q64",
+      "section": "moulik_kortobyo",
+      "taught": true
+    },
+    {
+      "note": "Taught: Article 9 deals with persons voluntarily acquiring the citizenship of a foreign State.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q113",
+      "section": "nagorikotto",
+      "taught": true
+    },
+    {
+      "note": "Taught: 'equal pay for equal work' is a Directive Principle (Article 39(d)), not a Fundamental Right.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q47",
+      "section": "dpsp_srenibibhag",
+      "taught": true
+    },
+    {
+      "note": "Taught: there are eleven Fundamental Duties in Article 51A (ten inserted by the 42nd Amendment, 1976, and clause (k) by the 86th Amendment, 2002).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
+      "section": "moulik_kortobyo",
+      "taught": true
+    }
+  ],
+  "POL-06": [
+    {
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
+      "section": "amend_42_44",
+      "taught": true,
+      "note": "44th Amendment removed the Right to Property from Fundamental Rights; chapter teaches Art 31 and Art 19(1)(f) omitted and Art 300A inserted."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q118",
+      "section": "amend_52_97",
+      "taught": true,
+      "note": "86th Amendment altered Art 45 to early childhood care and education below six years; chapter teaches all three 86th changes."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q125",
+      "section": "living_document",
+      "taught": true,
+      "note": "79th Amendment (1999) extended the Art 334 reservation period from 50 to 60 years; chapter teaches it as a technical amendment."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q151",
+      "section": null,
+      "taught": false,
+      "note": "Constitution (123rd Amendment) Bill 2017 / NCBC constitutional status (102nd Amendment 2018, Art 338B) is outside this chapter's scope; belongs to POL-18/19 (constitutional bodies)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q58",
+      "section": "amend_52_97",
+      "taught": true,
+      "note": "61st Amendment reduced voting age from 21 to 18 (Art 326, w.e.f. 28-3-1989)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q43",
+      "section": "amend_52_97",
+      "taught": true,
+      "note": "52nd Amendment added the anti-defection law (Tenth Schedule)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q64",
+      "section": "amend_42_44",
+      "taught": true,
+      "note": "Protection of monuments of national importance is Art 49 (DPSP), not a Fundamental Duty; chapter teaches the distinction and the eleven duties."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
+      "section": "amend_42_44",
+      "taught": true,
+      "note": "44th Amendment made written advice of the Cabinet mandatory for an Emergency proclamation (Art 352(3))."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q121",
+      "section": "amend_73_74",
+      "taught": true,
+      "note": "73rd Amendment gave constitutional status to Panchayats (Part IX). Also taught in POL-20."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q155",
+      "section": "amend_73_74",
+      "taught": true,
+      "note": "73rd Amendment gave constitutional status to Panchayati Raj institutions. Also taught in POL-20."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q62",
+      "section": "amend_73_74",
+      "taught": true,
+      "note": "73rd Amendment gave constitutional status to the Panchayat Raj system. Also taught in POL-20."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q81",
+      "section": "amend_73_74",
+      "taught": true,
+      "note": "73rd Amendment is related to Panchayats. Also taught in POL-20."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q103",
+      "section": null,
+      "taught": false,
+      "note": "Money Bill substantially amended by the Rajya Sabha; belongs to POL-10 (legislative procedure), not to amendments."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
+      "section": "amend_42_44",
+      "taught": true,
+      "note": "Eleven Fundamental Duties: ten added by the 42nd Amendment and one (Art 51A(k)) by the 86th."
+    }
+  ],
+  "POL-07": [
+    {
+      "note": "Taught: the President is elected by an electoral college of the elected members of both Houses of Parliament and the elected members of the State Legislative Assemblies (Article 54).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q143",
+      "section": "nirbachan",
+      "taught": true
+    },
+    {
+      "note": "Taught: a Money Bill cannot be introduced in Parliament without the recommendation (consent) of the President (Article 117(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q47",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Chairman of the Rajya Sabha is the Vice-President of India, ex officio (Articles 64 and 89(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q195",
+      "section": "uporashtrapati",
+      "taught": true
+    },
+    {
+      "note": "Taught: the President causes the Finance Commission's recommendations (Article 281), the CAG's reports (Article 151) and the National Commission for Scheduled Castes' reports (Article 338) to be laid before Parliament; the Public Accounts Committee's report is presented by the Committee itself.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q112",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: the impeachment of the President can be initiated in either House of Parliament (Article 61).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q120",
+      "section": "meyad_jogyata",
+      "taught": true
+    },
+    {
+      "note": "Taught: the power to grant pardons is enjoyed by the President (Article 72) and by the Governor of a State (Article 161).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q122",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: a Money Bill cannot be introduced in Parliament without the recommendation (consent) of the President (Article 117(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q92",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President of India (Articles 64 and 89(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q121",
+      "section": "uporashtrapati",
+      "taught": true
+    },
+    {
+      "note": "Taught: the President can take over the administration of a State (President's Rule) under Article 356.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q156",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Vice-President is elected by an electoral college consisting of the members of both Houses of Parliament (Article 66); members of State legislatures do not vote.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q164",
+      "section": "uporashtrapati",
+      "taught": true
+    },
+    {
+      "note": "Taught: the 44th Amendment (1978, w.e.f. 20-6-1979) made the written decision of the Union Cabinet mandatory before the President can proclaim a national emergency (Article 352(3)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: the President can declare a national emergency, a constitutional emergency (President's Rule) and a financial emergency (Articles 352, 356, 360).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q51",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: before the expiry of his term the President can be removed from office only by impeachment by Parliament (Articles 56 and 61).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q58",
+      "section": "meyad_jogyata",
+      "taught": true
+    },
+    {
+      "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President (Articles 64 and 89(1)).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q1",
+      "section": "uporashtrapati",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Governor of a State is appointed by the President (Article 155).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q1",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Attorney-General for India is appointed by the President (Article 76(1)).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q47",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: the power to declare an Emergency is the President's (Articles 352, 356, 360).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q59",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Taught: President's Rule in a State is promulgated under Article 356.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q32",
+      "section": "khomota",
+      "taught": true
+    },
+    {
+      "note": "Not taught: the chapter teaches that Vice-President B. D. Jatti acted as President on the death of Fakhruddin Ali Ahmed, but not that Zakir Hussain was the first President to die while in office.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q70",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: 'first citizen' is a conventional description of the President; it appears in neither the Constitution text nor NCERT Chapter 4 as used here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q200",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the chapter teaches that the President is eligible for re-election (Article 57) and that Dr. Rajendra Prasad was the first President, but not that he was the only President elected for a second time.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q74",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the 'His Superfluous Highness' nickname for the Vice-President appears in neither the Constitution text nor NCERT Chapter 4 as used here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q128",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught here: the chapter teaches the President's appointment of Supreme Court judges (Article 124); the appointment of the Chief Justice of a High Court (Article 217) belongs to POL-12.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q29",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught here: the Inter-State Council (Article 263) belongs to POL-15.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q104",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught here: the Election Commission (Article 324) belongs to POL-17.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught here: the power to increase the number of Supreme Court judges is Parliament's and belongs to POL-11.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q106",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the chapter does not cover Pranab Mukherjee's ministerial career before becoming President.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q26",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-08": [
+    {
+      "note": "Taught: the Constitution provides only for the Prime Minister and other Ministers (Articles 74-75) in three ranks — Cabinet minister, Minister of State, Deputy Minister; there is no constitutional office of Deputy Prime Minister.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q82",
+      "section": "gothon_sreni",
+      "taught": true
+    },
+    {
+      "note": "NITI Aayog was set up by a resolution of the Union Cabinet — the Cabinet is taught here (Article 352(3) definition), but NITI Aayog's creation is not in this chapter's sources; belongs to POL-19.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q176",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NITI Aayog was set up by a resolution of the Union Cabinet — the Cabinet is taught here (Article 352(3) definition), but NITI Aayog's creation is not in this chapter's sources; belongs to POL-19.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q113",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "44th Amendment made written advice of the Cabinet mandatory for an Emergency proclamation (Article 352(3)) — the Cabinet definition is taught here, but the Emergency rule belongs to POL-16 (also mapped in POL-06).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Longest-serving Prime Minister of India (Jawaharlal Nehru) — a historical fact not in this chapter's sources; not taught.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q85",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Prime Minister of India when the Look East Policy was formulated (P. V. Narasimha Rao) — a policy-history fact not in this chapter's sources; not taught.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q86",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Parliamentary constituency from which the Prime Minister was elected in the 2019 elections (Varanasi) — names the current office-holder; not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q40",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Posts held by Pranab Mukherjee before becoming President of India — a biographical fact not in this chapter's sources; not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q26",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-14: the first woman Chief Minister of India (Sucheta Kripalani) is a state-executive fact, not the Union Council of Ministers.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q62",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-09": [
+    {
+      "note": "Taught: the term of office of a Rajya Sabha member is six years (Article 83(1)); one-third retire every two years.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q165",
+      "section": "rajya_sabha",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Chairman of the Rajya Sabha is the Vice-President of India, ex officio (Article 89(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q195",
+      "section": "officers",
+      "taught": true
+    },
+    {
+      "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President of India (Article 89(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q121",
+      "section": "officers",
+      "taught": true
+    },
+    {
+      "note": "Taught: the minimum age for the Lok Sabha is 25 years (Article 84); 30 years for the Rajya Sabha.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q72",
+      "section": "membership",
+      "taught": true
+    },
+    {
+      "note": "Taught: quorum is one-tenth of the total membership of the House (Article 100(3)) — for the Rajya Sabha, 25.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q169",
+      "section": "sessions",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Rajya Sabha and Lok Sabha enjoy equal power on the amendment of the Constitution.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q165",
+      "section": "privileges_comparison",
+      "taught": true
+    },
+    {
+      "note": "Taught: the ex-officio Chairman of the Rajya Sabha is the Vice-President of India (Article 89(1)).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q1",
+      "section": "officers",
+      "taught": true
+    },
+    {
+      "note": "Belongs to POL-18: the Finance Commission is the chief advisory body on the distribution of tax revenue between the Centre and the States.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q50",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-14: the upper House of a State Legislature is the Vidhan Parishad (Legislative Council).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q92",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not in Articles 79-106: the Leader of the Opposition in the Lok Sabha enjoys the rank of a Cabinet Minister under statute, not under the Constitution.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q156",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-02: the system of Indian democracy (multi-party parliamentary system) is a feature of the Constitution, not of Parliament's composition.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q173",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-14: a bill of a State Legislature becomes an Act when the Governor assents to it.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q181",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: the Railway Budget (separate from the Union Budget until its merger in 2017) is a matter of legislative procedure and finance.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q112",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-18: the number of Finance Commissions that have submitted reports — dated, the 2016 key says Twelve.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q28",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-15: the number of subjects in the Concurrent List (47 at the time; now 52 after the 42nd Amendment changes) — federal distribution of powers.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q38",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: a money bill cannot be introduced without the recommendation of the President (Article 117).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q47",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: a money bill cannot be introduced without the recommendation of the President (Article 117).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q92",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: the Public Accounts Committee has 15 Lok Sabha members (and 7 Rajya Sabha members) — parliamentary committees.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q193",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: the passage of a money bill (Article 109) is legislative procedure.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q193",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-15: Law and Order is a State List subject.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q194",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-15: grants-in-aid are provided under Articles 275 and 282 — Centre-State financial relations.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q198",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-20: the Panchayati Raj system has three tiers (village, block, district).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q199",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-07: the first citizen of the Republic of India is the President — a convention, not stated in the Constitution.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q200",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-08: the office of Deputy Prime Minister is not provided by the Constitution.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q82",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-18: the Finance Commission is constituted with one chairperson and four other members.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q91",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: what follows if a money bill is substantially amended by the Rajya Sabha (Article 109 procedure).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q103",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-11: the power to increase the number of judges in the Supreme Court lies with Parliament — judiciary chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q106",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-18 and others: reports laid before Parliament (CAG, Finance Commission, UPSC) — covered where each body is taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q112",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-07: impeachment of the President can be initiated in either House of Parliament (Article 61).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q120",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: statements on the Public Accounts Committee — the committee has 15 Lok Sabha + 7 Rajya Sabha members, not 25 Lok Sabha members.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q121",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-06: the 79th Amendment (extension of reservation of seats) is an amendment question.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q125",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: a money bill is finally determined by the Speaker of the Lok Sabha (Article 110(3)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q62",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-11: the custodian of the Indian Constitution is the Supreme Court.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q69",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-15: the Inter-State Council (Article 263) is a Centre-State relations body.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q104",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: members of the Public Accounts Committee are elected by proportional representation by single transferable vote.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q117",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-07: \"His Superfluous Highness\" is a description of the Vice-President.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q128",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-07: the election of the President (Articles 54-55).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q143",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: the Chairman of the Public Accounts Committee is conventionally from the Opposition.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q83",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-18: the Guardian of the Public Purse in India is the Comptroller and Auditor General.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q99",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: bills other than money bills may be introduced in either House (Article 107) — legislative procedure.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q119",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-07: the election of the Vice-President (Article 66).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q164",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-15: features of Indian federation — the Rajya Sabha's unequal representation is taught here, but the question is a federalism question.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q29",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: reasonable restrictions on Fundamental Rights (Article 19(2)-(6)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: parliamentary authorisation is necessary prior to expenditure from the Consolidated Fund of India.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q99",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to History (HIS-27): the Charter Act of 1853 envisaged the parliamentary system.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q194",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-03: the Right to Privacy as a Fundamental Right under Article 21 (Puttaswamy case law).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-16: the President can declare a National Emergency, a Constitutional (President's Rule) Emergency and a Financial Emergency.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q51",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-02/POL-11: the power of judicial review is borrowed from the Constitution of the United States of America.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q53",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-10: the Speaker of the Lok Sabha decides whether a bill is a money bill or not (Article 110(3)).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q56",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-07: the President can be removed before the expiry of the term by impeachment by Parliament.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q58",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: party-politics current affairs (which party withdrew support from the Left Front government).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q7",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: party-politics current affairs (General Secretary of the Samajwadi Party at the time).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-I-Q9",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-11/POL-12: a Green Bench is a bench of a High Court (or the Supreme Court) dealing with environmental cases.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q1",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: election current affairs (the constituency from which a named politician was elected in 2019).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q35",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: election current affairs (the constituency from which the Prime Minister was elected in 2019).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q40",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "SOURCE CONFLICT — not taught as keyed: the 2019 key says 545 elected seats in the Lok Sabha. The chapter teaches 543 elected constituencies (NCERT + Article 81 as amended by the 104th Amendment, 2019); 545 was the pre-104th total (543 elected + 2 nominated Anglo-Indians).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q23",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-05: there are eleven Fundamental Duties (Article 51A(a)-(k)).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q76",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not polity-book scope: the new legal code replacing the Indian Penal Code (Bharatiya Nyaya Sanhita) is a criminal-law current-affairs question.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q76",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not polity-book scope: the three new criminal laws (Bharatiya Nyaya Sanhita and others) coming into effect is a criminal-law current-affairs question.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q75",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-18: the Attorney General for India is appointed by the President (Article 76).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q47",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-16: the power to declare an Emergency lies with the President (Articles 352/356/360).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q59",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-16: President's Rule is proclaimed under Article 356.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q32",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the Speaker of the 18th Lok Sabha is a current office-holder, never named in the chapters.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q73",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not POL-09: the first woman Chief Minister of India (Sucheta Kripalani) — a loose polity tag; belongs with the chapters on the executive or state government.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q62",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not POL-09: the first President of India who died while in office (Zakir Hussain) — belongs to POL-07.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q70",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not POL-09: the Rousseau quotation (\"Man is born free, but is everywhere in chains\") — political thought, not Parliament.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q80",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not POL-09: the longest-serving Prime Minister of India (Jawaharlal Nehru) — belongs to POL-08.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q85",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not POL-09: the Prime Minister when the Look East Policy was formulated (P. V. Narasimha Rao) — belongs to POL-08.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q86",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Belongs to POL-06 (already taught in POL-04): the 44th Amendment, 1978 removed the Right to Property from the Fundamental Rights.",
+      "pyq_code": "INDUSTRIAL-DEVELOPMENT-OFFICER-2019-SINGLE-Q15",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-10": [
+    {
+      "note": "Railway Budget (separate from the Union Budget until its merger in 2017): the merger year and the separate-budget history are in neither the Constitution text nor NCERT Chapter 5 as fetched for this chapter. Source gap; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q112",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Taught: a Money Bill / financial Bill on Article 110(1)(a)-(f) matters cannot be introduced without the recommendation of the President (Article 117(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q47",
+      "section": "money_bill",
+      "taught": true
+    },
+    {
+      "note": "Taught: same as WBCS 2016 Q47 — Article 117(1) President's recommendation for a Money Bill.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q92",
+      "section": "money_bill",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Public Accounts Committee has 15 members from the Lok Sabha (and 7 from the Rajya Sabha; 22 in total).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q193",
+      "section": "control_committees",
+      "taught": true
+    },
+    {
+      "note": "Taught: passage of a Money Bill does not require the Rajya Sabha's approval — it can only recommend within 14 days (Article 109); joint sitting is also not applicable.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q193",
+      "section": "money_bill",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Rajya Sabha cannot amend a Money Bill; its changes are only recommendations which the Lok Sabha may accept or reject (Article 109). Chapter carries an exam_note on exactly this question.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q103",
+      "section": "money_bill",
+      "taught": true
+    },
+    {
+      "note": "Taught: statement 1 is false — the PAC has 15 Lok Sabha members, not 25; the chapter teaches the PAC's composition (15+7=22) and its examination of appropriation accounts and CAG reports.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q121",
+      "section": "control_committees",
+      "taught": true
+    },
+    {
+      "note": "Taught: whether a Bill is a Money Bill is finally determined by the Speaker of the Lok Sabha (Article 110(3)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q62",
+      "section": "money_bill",
+      "taught": true
+    },
+    {
+      "note": "Not taught: PAC members are elected by proportional representation by means of the single transferable vote — this election method is in the Lok Sabha Rules (sansad.in handbook), which is outside the validator-allowed sources fetched for this chapter (Constitution, NCERT, cag.gov.in). The chapter teaches PAC composition and functions only. Source gap disclosed.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q117",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the convention that the PAC Chairperson comes from the Opposition is not stated in any source fetched for this chapter (the CAG page and NCERT are silent on the Chairperson). Convention not in allowed sources; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q83",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Taught: Bills other than Money Bills may be introduced in either House of Parliament (Article 107(1)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q119",
+      "section": "ordinary_bill",
+      "taught": true
+    },
+    {
+      "note": "Taught: parliamentary authorisation is necessary prior to expenditure from the Consolidated Fund of India (Article 266(3) read with Article 114).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q99",
+      "section": "funds",
+      "taught": true
+    },
+    {
+      "note": "Taught: all revenues, loans raised and loan repayments received by the Union Government flow into the Consolidated Fund of India (Article 266(1)). Chapter carries an exam_note on exactly this question.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q93",
+      "section": "funds",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Speaker of the Lok Sabha decides whether a Bill is a Money Bill or not (Article 110(3)).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q56",
+      "section": "money_bill",
+      "taught": true
+    }
+  ],
+  "POL-11": [
+    {
+      "note": "Taught: Article 124(1) leaves the number of Supreme Court Judges to Parliament by law, and the 2019 Amendment Act raised the number of other Judges to thirty-three.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q106",
+      "section": "gothon_jogyota",
+      "taught": true
+    },
+    {
+      "note": "Taught: a Judge of the Supreme Court holds office until the age of sixty-five years (Article 124(2)).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q138",
+      "section": "meyad_oposaron",
+      "taught": true
+    },
+    {
+      "note": "Taught: the judiciary has played an important role in interpreting and in protecting the Constitution since 1950, and the Supreme Court is the protector of the Constitution through judicial review.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q69",
+      "section": "porichoy",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Judiciary protects Fundamental Rights through the writ jurisdiction (Article 32), and any person whose right is violated can directly move the Supreme Court.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q132",
+      "section": "ekhtiyar",
+      "taught": true
+    },
+    {
+      "note": "Taught: Public Interest Litigation is the chief instrument through which judicial activism has flourished in India.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q85",
+      "section": "porjalochona_pil",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Supreme Court (Article 32) and the High Courts (Article 226) are both responsible for the enforcement of Fundamental Rights; the person whose rights are violated has the choice of either.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q59",
+      "section": "ekhtiyar",
+      "taught": true
+    },
+    {
+      "note": "Not taught: the keyed answer rests on the Supreme Court's Selvi ruling on Articles 20(3) and 21, which is case law the chapter does not teach; Articles 20 and 21 themselves belong to POL-03.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q117",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the dissenting judge in a specific Supreme Court verdict (Sabarimala) is case-specific knowledge the chapter does not cover.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q171",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the keyed answer is that the Indian federation is not the result of an agreement among the federating units. The chapter teaches that an independent judiciary is a feature of the federation, which eliminates one option, but the Union-not-by-agreement point is taught in POL-02 (Article 1), not here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q29",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the keyed answer is Parliament, which imposes reasonable restrictions on Fundamental Rights by law under Article 19(2)-(6); that provision belongs to POL-03.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q70",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the keyed answer rests on the Supreme Court's Puttaswamy ruling that privacy is a Fundamental Right; the chapter teaches judicial review in general but not the privacy ruling.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q183",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the chapter teaches judicial review itself, but not the country it was borrowed from (United States of America); the borrowing list is not in the cited sources.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q53",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: appointment of District Judges by the Governor belongs to the subordinate judiciary, covered in POL-12, not in this chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q119",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: appointment of the Chief Justice of a High Court belongs to POL-12 (High Courts); this chapter covers Supreme Court appointments only.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q29",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the rank of the Leader of the Opposition in the Lok Sabha belongs to POL-09 (Parliament).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q156",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: what was not in the Constitution as adopted in 1949 (Fundamental Duties) belongs to POL-02; already mapped there.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q192",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the first citizen of India (the President) belongs to POL-07.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q200",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the pardoning power of the President and Governors belongs to POL-07.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q122",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the Inter-State Council belongs to POL-15 (Centre-State relations).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q104",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the Election Commission belongs to POL-17.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the Attorney General as first Law Officer belongs to POL-18 (constitutional bodies).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q196",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the Finance Commission as advisory body on tax distribution belongs to POL-18.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q50",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the incorrectly matched pair is Finance Commission - Article 324, which belongs to POL-18 (Finance Commission, Article 280) and POL-17 (Election Commission, Article 324).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q77",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the 44th Amendment's written Cabinet advice requirement for Emergency belongs to POL-16 (Emergency).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: removal of the President by impeachment belongs to POL-07.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q58",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: 'Green Bench' (environment benches) is not covered in the cited sources.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q1",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: appointment of the Governor belongs to POL-13.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q1",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the power to declare Emergency belongs to POL-16.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q59",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not a Supreme Court topic: the Attorney General as legal adviser to the Central Government belongs to POL-18.",
+      "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q20",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-12": [
+    {
+      "note": "District judges are appointed by the Governor in consultation with the High Court (Article 233(1), claim c30). Taught in the adhastan section and mirrored in practice question q33.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q119",
+      "section": "adhastan",
+      "taught": true
+    },
+    {
+      "note": "The Chief Justice of a High Court is appointed by the President (Article 217(1), claim c07). Taught in the gothon_niyog section.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q29",
+      "section": "gothon_niyog",
+      "taught": true
+    },
+    {
+      "note": "Enforcement of Fundamental Rights lies with both the Supreme Court (Article 32) and the High Courts (Article 226, claim c21); the citizen's choice of forum is claim c46. Taught in the ekhtiyar_rit section.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q59",
+      "section": "ekhtiyar_rit",
+      "taught": true
+    },
+    {
+      "note": "Protector of Fundamental Rights = the Judiciary. General judiciary question (primary POL-04/POL-11), but this chapter teaches the High Court's writ enforcement of Part III rights (claims c21, c46), so the concept is covered here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q132",
+      "section": "ekhtiyar_rit",
+      "taught": true
+    },
+    {
+      "note": "'Independent judiciary' appears as a (correct) feature of the Indian federation among the options. Taught in the swadhinota_pithokikoron section (claims c39, c40, c42, c43) and cited there in the text.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q29",
+      "section": "swadhinota_pithokikoron",
+      "taught": true
+    },
+    {
+      "note": "'Green Bench' (a bench hearing environment-related matters): the term appears in neither the Constitution text nor the NCERT Judiciary chapter used as sources. Source gap; not taught in this chapter.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2009-SESSION-II-Q1",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "The Leader of the Opposition in the Lok Sabha enjoys the rank of a High Court Judge: the question is about the Leader of the Opposition's rank (Parliament, POL-09/POL-10 territory); a High Court Judge appears only as an option. Not this chapter's subject.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q156",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-13": [
+    {
+      "note": "Governor of a State is appointed by the President (Art 155; Constitution p. 70). Taught in appointment_term and in question q05.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-Q1",
+      "section": "appointment_term",
+      "taught": true
+    },
+    {
+      "note": "A state legislature's Bill becomes an Act when the Governor assents to it (Art 200; Constitution p. 91). Taught in legislative_powers and in question q21.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q181",
+      "section": "legislative_powers",
+      "taught": true
+    },
+    {
+      "note": "Executive power of the State is vested in the Governor by Article 154 (Constitution p. 70). Taught in governor_intro and in question q02.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q156",
+      "section": "governor_intro",
+      "taught": true
+    },
+    {
+      "note": "Pardoning power is enjoyed by the President (Art 72) and the Governor (Art 161; Constitution p. 72). This chapter teaches the Governor's Art 161 power and its scope; the President's Art 72 is POL-07's ground. Taught in ordinance_pardon.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q122",
+      "section": "ordinance_pardon",
+      "taught": true
+    },
+    {
+      "note": "District Judges are appointed by the Governor in consultation with the High Court (Art 233; Constitution p. 109). Taught in appointments_misc and in question q37. Subordinate judiciary detail is POL-12's ground.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q119",
+      "section": "appointments_misc",
+      "taught": true
+    },
+    {
+      "note": "Members of a State Public Service Commission are appointed by the Governor (Art 316; Constitution p. 177); removal only by the President (Art 317). Taught in appointments_misc and in questions q38-q39.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q65",
+      "section": "appointments_misc",
+      "taught": true
+    },
+    {
+      "note": "The Advocate General of a State is appointed by the Governor (Art 165; Constitution p. 74). Taught in appointments_misc and in question q36.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q183",
+      "section": "appointments_misc",
+      "taught": true
+    },
+    {
+      "note": "Time-anchored current-affairs item: who was Governor of Jammu & Kashmir at the time of the January 2020 exam (Satya Pal Malik). A person's name/tenure is not in the constitutional or NCERT sources used for this chapter, and it is not a constitutional-provision question; not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-Q11",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-14": [
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q92",
+      "section": "kathamo",
+      "taught": true,
+      "note": "The upper House of the State Legislature is called the Vidhan Parishad (bank key D). Taught in the kathamo section from Article 168(2) (claim c19) and mirrored in practice question q02."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q181",
+      "section": "odhibeshon_aain",
+      "taught": true,
+      "note": "A bill of a state legislature becomes an Act when the Governor signs (assents to) it (bank key B). Taught in the odhibeshon_aain section from Article 200 (claim c66) and mirrored in practice question q40."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q62",
+      "section": null,
+      "taught": false,
+      "note": "First woman Chief Minister of India (Sucheta Kripalani, bank key C): the fact appears in none of this chapter's fetched sources (Constitution text, NCERT Executive/Legislature chapters, WB Assembly site), so it is not taught here. Source gap, disclosed in REPORT.md."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q125",
+      "section": null,
+      "taught": false,
+      "note": "Which amendment relates to SC/ST reservation and Anglo-Indian representation in the Lok Sabha and State Assemblies (bank key D, 79th Amendment): an amendments-chapter question (primary POL-06); State Assemblies are mentioned only as part of the amendment's subject. Not this chapter's scope."
+    }
+  ],
+  "POL-15": [
+    {
+      "note": "Concurrent List subjects: the chapter teaches the original 47 numbered entries and the present 52 after the 42nd Amendment insertions (claims c13, c14); exam_note in talika_bonton gives the 2016 key (47) and the current count. Mirrored in the chapter's teaching, not as a practice item.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q38",
+      "section": "talika_bonton",
+      "taught": true
+    },
+    {
+      "note": "'Neither purely federal nor purely unitary but a combination of both' attributed to D. D. Basu: the attribution appears in neither the Constitution text nor any source fetched for this chapter (the NCERT Federalism chapter could not be fetched this run). Source gap; the chapter teaches the mixed federal-unitary character only from the constitutional text (Arts. 1-4, 248, 368 proviso) without naming the quote or its author.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q44",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Same D. D. Basu attribution as WBCS 2016 Q44 (K. C. Wheare's 'quasi-federal' is also named in the bank explanation): not in the fetched sources. Source gap; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q60",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Seventh Schedule distributes power between the Union and the States (claims c50, c06). Taught in talika_bonton and tofoshil; remember box in talika_bonton cites this very question.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q117",
+      "section": "talika_bonton",
+      "taught": true
+    },
+    {
+      "note": "Inter-State Council is established by the President by order under Article 263 (claim c28). Taught in proshasonik; exam_note cites this question; mirrored in practice question q20.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q104",
+      "section": "proshasonik",
+      "taught": true
+    },
+    {
+      "note": "Education is in the Concurrent List (List III entry 25, claims c12, c13). Taught in talika_bonton; mirrored in practice question q11.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q67",
+      "section": "talika_bonton",
+      "taught": true
+    },
+    {
+      "note": "Anti-defection law = 52nd Amendment, 1985, which added the Tenth Schedule (claim c53). Taught in tofoshil; exam_note cites this question; mirrored in practice question q39. Detail of the Tenth Schedule is POL-17's scope.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q43",
+      "section": "tofoshil",
+      "taught": true
+    },
+    {
+      "note": "GST Council is headed by the Union Finance Minister as Chairperson under Article 279A(2) (claim c40). Taught in gst_artho; exam_note cites this question; mirrored in practice question q32.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q75",
+      "section": "gst_artho",
+      "taught": true
+    },
+    {
+      "note": "Article 1 defines the name and territory of the Union ('India, that is Bharat, shall be a Union of States', claim c01). Taught in juktorashtro; exam_note cites this question.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q64",
+      "section": "juktorashtro",
+      "taught": true
+    },
+    {
+      "note": "Article 280 lays down the Finance Commission (claim c43). Taught in gst_artho at the level this chapter owns (constitution, composition, duties); the Commission's detailed working is POL-18's scope.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q123",
+      "section": "gst_artho",
+      "taught": true
+    },
+    {
+      "note": "Finance Commission = a Chairperson and four other members, Article 280(1) (claim c43). Taught in gst_artho; remember box cites this question; mirrored in practice question q33. Primary chapter POL-18, but the composition is taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q91",
+      "section": "gst_artho",
+      "taught": true
+    },
+    {
+      "note": "President's duty to lay documents before Parliament (Finance Commission recommendations, UPSC report, CAG report, SC/ST Commission reports): only the Finance Commission limb is taught here (Article 281, claim c45). The full question spans POL-11/POL-18 territory and is not answerable from this chapter alone.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q112",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "'How many Finance Commissions have submitted reports so far?' (keyed 12 in 2016): a time-varying count that appears in no fetched source and changes with each Commission. Not taught; POL-18's scope.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q28",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Statement item pairing the Finance Commission (constitutional) with the National Commission for Women (statutory): the FC's constitutional basis (Article 280) is taught here, but the NCW's statutory status is in no fetched source and belongs to POL-19. Not taught as a whole.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q166",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Article for President's Rule in a State (356): emergency provisions are POL-16's chapter; this chapter covers legislative/administrative/financial relations only. Not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q156",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "President's Rule Article (356): POL-16 (emergency). Not taught here.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q32",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "'The President of India can declare' (national/constitutional/financial emergency): emergency types are POL-16's scope. Not taught here.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q51",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "'Which one is not a Union Territory?' (Tripura): the chapter teaches that the First Schedule has two parts, the States and the Union territories (claim c48), but the fetched quotes do not reproduce the individual State/UT lists, so Tripura's status as a State is not established from this chapter's claims. Not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q37",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "State exempted from SC reservation in Panchayati Raj institutions: a Part IX / Article 243D-243M question owned by POL-20; the Eleventh Schedule is taught here only as a schedule entry. Not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q161",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-16": [
+    {
+      "note": "44th Amendment made written Cabinet advice mandatory for an Emergency declaration (Article 352(3)); taught in national_emergency standard text and question q11. Cross-listed as untaught in the POL-02/POL-04/POL-08/POL-11 maps with 'belongs to POL-16' — now taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q145",
+      "section": "national_emergency",
+      "taught": true
+    },
+    {
+      "note": "Articles 20 and 21 cannot be suspended under Article 359 during a National Emergency; taught in effects_and_rights standard text (with the exact PYQ flagged) and question q15. Cross-listed as untaught in the POL-03/POL-04 maps with 'belongs to POL-16' — now taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q189",
+      "section": "effects_and_rights",
+      "taught": true
+    },
+    {
+      "note": "The President can declare a National Emergency, a Constitutional (President's Rule) Emergency and a Financial Emergency; taught in emergency_overview (three categories, all proclaimed by the President) and question q02. Note: the bank item's keyed option is 'All of the above'; the chapter teaches the underlying fact, and its own practice questions avoid that banned option format.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q51",
+      "section": "emergency_overview",
+      "taught": true
+    },
+    {
+      "note": "The power to declare an Emergency lies with the President; taught in emergency_overview (exam_note box reproduces this Clerkship question) and question q02.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q59",
+      "section": "emergency_overview",
+      "taught": true
+    },
+    {
+      "note": "President's Rule is promulgated under Article 356; taught in presidents_rule standard text (with the exact PYQ flagged) and question q04.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q32",
+      "section": "presidents_rule",
+      "taught": true
+    }
+  ],
+  "POL-17": [
+    {
+      "note": "Taught: the voting age was reduced from 21 years to 18 years in the 1980s by the 61st Amendment, 1988 (w.e.f. 28-3-1989).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q46",
+      "section": "votar_talika",
+      "taught": true
+    },
+    {
+      "note": "Taught: the right to vote and to be elected is a Constitutional Right, flowing from Article 326 (adult suffrage), not a Fundamental Right.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q101",
+      "section": "votar_talika",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Election Commission is constituted by the President under Article 324.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q108",
+      "section": "eci_gathon",
+      "taught": true
+    },
+    {
+      "note": "Taught: the anti-defection law (Tenth Schedule) was added by the 52nd Amendment, 1985.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q43",
+      "section": "doltyag",
+      "taught": true
+    },
+    {
+      "note": "Not taught here: members of the Public Accounts Committee are elected by members of both Houses through proportional representation by single transferable vote — belongs to POL-09/10 (parliamentary committees).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q117",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught here: the Vice-President is elected by an electoral college of members of both Houses of Parliament (Article 66) — belongs to POL-07.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q164",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught here: the question asks which match is incorrect — Finance Commission with Article 324. The chapter teaches that Article 324 is the Election Commission, but the Finance Commission's own article (280) is POL-18, so the full match-question is not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q77",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught here: asks what the SVEEP programme is (full form: Systematic Voters' Education and Electoral Participation) — no verified GOVT source in hand, so it is not covered in this chapter.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q5",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-18": [
+    {
+      "note": "'How many Finance Commissions have submitted reports so far?' (keyed: Twelve). Not taught: the count is time-bound and changes with every five-year cycle; the chapter teaches the Article 280 cycle and composition, and no fetched source used for this chapter states a running count of commissions.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q28",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Taught: the Finance Commission consists of a Chairman and four other members, all appointed by the President (Art 280(1), claim c19); also an exam_note box in the section.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q91",
+      "section": "finance_commission",
+      "taught": true
+    },
+    {
+      "note": "Partly covered only: this chapter teaches that Finance Commission recommendations (Art 281, c24) and CAG reports (Art 151, c30) are laid before Parliament by the President, and the CAG section's deep text uses this very chain. But the keyed answer also requires the National Commission for Scheduled Castes report (Art 338), which belongs to POL-19, so the full key is not derivable from this chapter alone.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q112",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: the Public Accounts Committee's size, remit and working belong to POL-10 (parliamentary procedure). Only statement 3 (PAC examines the CAG's report) touches this chapter's subject; the chapter does not teach PAC composition or functions.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q121",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Taught: Article 280 lays down the Finance Commission (claim c19); the section's exam_note box names this exact article-body pairing.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q123",
+      "section": "finance_commission",
+      "taught": true
+    },
+    {
+      "note": "Taught: members of a State Public Service Commission are appointed by the Governor of the State (Art 316(1), claim c04).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q65",
+      "section": "upsc_gothon",
+      "taught": true
+    },
+    {
+      "note": "Not taught: the Chairman of the Public Accounts Committee being from the Opposition is a parliamentary-committee convention belonging to POL-10; this chapter covers the CAG, not the PAC.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q83",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Not taught: 'a Public Service Commission was first established by the Government of India Act, 1919' is pre-constitutional legislative history (HIS-27 scope). This chapter teaches only the constitutional scheme of Articles 315-323; none of the sources fetched for it covers the 1919 Act.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q125",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Taught: the Finance Commission is a constitutional body because Article 280 itself creates it (claim c19), and the section's dont_confuse box teaches the constitutional-vs-statutory distinction the question tests. The National Commission for Women limb (a statutory body) is POL-19's subject in detail.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q166",
+      "section": "finance_commission",
+      "taught": true
+    },
+    {
+      "note": "Taught: the Attorney General for India is appointed by the President (Art 76(1), claim c32); the section's standard text names this exact exam point.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-Q47",
+      "section": "attorney_general",
+      "taught": true
+    }
+  ],
+  "POL-19": [
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q176",
+      "section": "niti_aayog",
+      "taught": true,
+      "note": "NITI Aayog is set up by a resolution of the Union Cabinet — taught verbatim (PIB release on the Cabinet Resolution: 'The Government has replaced Planning Commission with a new institution named NITI Aayog... A cabinet Resolution issued today gave details'). Practice q41 mirrors it."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q113",
+      "section": "niti_aayog",
+      "taught": true,
+      "note": "Same question as WBCS 2016 Q176 (NITI Aayog set up by a Union Cabinet resolution); taught in niti_aayog and q41."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q88",
+      "section": "lokpal",
+      "taught": true,
+      "note": "Ombudsman institution originated in Sweden — taught from the Maharashtra Lokayukta official site ('The office of Ombudsman has been in existence in Sweden since 1809'); lokpal section and exam q39."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q129",
+      "section": null,
+      "taught": false,
+      "note": "What the second meeting of the NITI Aayog Governing Council emphasised is a dated current-affairs detail (land pooling / cooperative federalism discussion of 2015). The chapter teaches the Governing Council's composition, not the agenda of a specific meeting; no fetched official source used here records that meeting's emphasis."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q151",
+      "section": "jatiya_commission",
+      "taught": true,
+      "note": "The Constitution (123rd Amendment) Bill, 2017 empowers the National Commission for Backward Classes — taught as the enacted result: Article 338B inserted by the 102nd Amendment, 2018 (w.e.f. 15-8-2018); jatiya_commission section, exam_note in text and q17."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q136",
+      "section": "nhrc_gathon",
+      "taught": true,
+      "note": "The Protection of Human Rights Act was passed in 1993 — taught (Act deemed in force 28 September 1993, s.1(3)); nhrc_gathon exam_note warns against the '10 of 1994' Act-number trap. Also mapped in POL-04."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q86",
+      "section": null,
+      "taught": false,
+      "note": "NITI Aayog's North-East Region District SDG Index was released with UNDP support — a current-affairs partnership detail. The chapter teaches NITI Aayog's structure and objectives only; the UNDP partnership for that index is not in the fetched official sources used."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q166",
+      "section": "jatiya_commission",
+      "taught": true,
+      "note": "Statements: (I) Finance Commission is a Constitutional Body (POL-18); (II) National Commission for Women is a Statutory Body — taught here: NCW is constituted under s.3 of the National Commission for Women Act, 1990 (PHRA s.2(j) definition quoted). Keyed answer 'Both (I) and (II)' follows."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q45",
+      "section": null,
+      "taught": false,
+      "note": "Year the Planning Commission was established (keyed 1950). The chapter teaches only that NITI Aayog replaced the Planning Commission by Cabinet Resolution (PIB release, which gives no 1950 date); the Planning Commission's own 1950 resolution was not among the fetched sources, so the year is not taught. Source gap, disclosed."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q25",
+      "section": null,
+      "taught": false,
+      "note": "Headquarters of the UN Human Rights Council (Geneva) — an international-organisations GK question, not India's NHRC. This chapter teaches the Indian statutory NHRC (HQ Delhi, PHRA s.3(5)); the UN body is out of scope."
+    }
+  ],
+  "POL-20": [
+    {
+      "note": "Which Article desires the organisation of village panchayats? Art 40 (Directive Principles); chapter teaches Art 40 in section why_local.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q111",
+      "section": "why_local",
+      "taught": true
+    },
+    {
+      "note": "Which article describes the organisation of village panchayats? Art 40; chapter teaches Art 40 in section why_local.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q85",
+      "section": "why_local",
+      "taught": true
+    },
+    {
+      "note": "The Panchayati Raj system has three tiers; chapter teaches the village, intermediate and district levels (Art 243B) in section three_tiers.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q199",
+      "section": "three_tiers",
+      "taught": true
+    },
+    {
+      "note": "The Panchayati Raj system has three tiers; chapter teaches the village, intermediate and district levels (Art 243B) in section three_tiers.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q124",
+      "section": "three_tiers",
+      "taught": true
+    },
+    {
+      "note": "Panchayati Raj is organised at the village, block and district levels; chapter teaches the three tiers (Art 243B) in section three_tiers.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2004-Q50",
+      "section": "three_tiers",
+      "taught": true
+    },
+    {
+      "note": "73rd Amendment gave constitutional status to Panchayats; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q121",
+      "section": "amendment_73",
+      "taught": true
+    },
+    {
+      "note": "73rd Amendment gives constitutional status to Panchayati Raj institutions; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q155",
+      "section": "amendment_73",
+      "taught": true
+    },
+    {
+      "note": "73rd Amendment allows constitutional status to the Panchayat Raj system; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q62",
+      "section": "amendment_73",
+      "taught": true
+    },
+    {
+      "note": "73rd Amendment is related to Panchayati Raj; chapter teaches Part IX inserted by the 73rd Amendment, w.e.f. 24-4-1993. Also mapped in POL-06.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q81",
+      "section": "amendment_73",
+      "taught": true
+    },
+    {
+      "note": "Fundamental object of Panchayati Raj is democratic decentralisation / people's participation; chapter teaches democratic decentralisation and Gram Swaraj in section why_local.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q105",
+      "section": "why_local",
+      "taught": true
+    },
+    {
+      "note": "Arunachal Pradesh is exempted from SC reservation in Panchayati Raj institutions; chapter teaches Art 243M(3A) (83rd Amendment 2000) in section powers_money.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q161",
+      "section": "powers_money",
+      "taught": true
+    },
+    {
+      "note": "Rajasthan adopted the three-tier Panchayati Raj system first (2 Oct 1959, Nagaur). Not taught: no verified citable source — NCERT Ch 8 (keps208.pdf) URL is unverified and the mirror text does not name Rajasthan-first; only coaching sites were found, which are not citable.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q47",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "POL-21": [
+    {
+      "note": "Which Amendment provided constitutional status to the Panchayats? Options include both 73rd and 74th. Primary chapter POL-20 (73rd = Panchayats), but POL-21 teaches the other half of the pair: the 74th Amendment gave constitutional status to Municipalities (Part IXA, w.e.f. 1-6-1993), and the chapter's 73-vs-74 'dont_confuse' box in section why_urban_local covers exactly this discrimination.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q121",
+      "section": "amendment_74",
+      "taught": true
+    },
+    {
+      "note": "Which constitutional amendment gives constitutional status to the Panchayati Raj institutions? Options 72nd/73rd/74th/75th. Primary chapter POL-20; POL-21 teaches that the 74th is the urban counterpart (Municipalities, Part IXA, Twelfth Schedule), so the 73/74 elimination this question demands is taught here in sections amendment_74 and why_urban_local.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q155",
+      "section": "amendment_74",
+      "taught": true
+    },
+    {
+      "note": "Which Amendment allows a constitutional status to the Panchayat Raj system? Options 71st/72nd/73rd/74th. Primary chapter POL-20; POL-21 teaches the 74th Amendment's own subject (Municipalities) and the 73-vs-74 distinction, which is the discrimination this item tests.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q62",
+      "section": "amendment_74",
+      "taught": true
+    },
+    {
+      "note": "The 73rd Amendment of the Constitution of India is related to which of the following? (keyed: Panchayati Raj; the 74th/Municipalities option is the distractor pair). Primary chapter POL-20; POL-21 teaches what the 74th Amendment actually relates to — Municipalities under Part IXA — in section amendment_74, covering the contrast the question is built on.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q81",
+      "section": "amendment_74",
+      "taught": true
+    }
+  ],
+  "POL-22": [
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q117",
+      "section": "soptom",
+      "taught": true,
+      "note": "Taught: the Seventh Schedule distributes legislative power between the Union and the States through the Union, State and Concurrent Lists (Art 246)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q43",
+      "section": "nobom_doshom",
+      "taught": true,
+      "note": "Taught: the anti-defection law came with the 52nd Amendment, 1985, which added the Tenth Schedule."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q91",
+      "section": "soptom",
+      "taught": true,
+      "note": "Taught: 'economic and social planning' is a Concurrent List subject in the Seventh Schedule, so both Union and States can legislate (Art 246(2))."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q155",
+      "section": "ekadosh_dadosh",
+      "taught": true,
+      "note": "Taught: the 73rd Amendment gave constitutional status to Panchayati Raj institutions and added the Eleventh Schedule (Art 243G)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q62",
+      "section": "ekadosh_dadosh",
+      "taught": true,
+      "note": "Taught: the 73rd Amendment allows constitutional status to the Panchayat Raj system (Eleventh Schedule)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q81",
+      "section": "ekadosh_dadosh",
+      "taught": true,
+      "note": "Taught: the 73rd Amendment is related to Panchayats, not Municipalities (74th / Twelfth Schedule) — the chapter teaches the pair explicitly."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q102",
+      "section": null,
+      "taught": false,
+      "note": "Not taught as a schedule question: the Ninth Schedule appears only as a distractor option; the question itself (Art 51, promotion of international peace) belongs to POL-05 (DPSP). The chapter does teach Art 51 in its article table, but the PYQ is mapped to POL-05 in the book's pyq_map."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q104",
+      "section": null,
+      "taught": false,
+      "note": "Not taught as a schedule question: the Seventh Schedule appears only as a distractor option; the question itself (Welfare State ideal in the DPSP) belongs to POL-05."
+    }
+  ]
 }

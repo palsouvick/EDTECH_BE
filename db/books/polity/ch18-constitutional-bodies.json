@@ -1,0 +1,1404 @@
+{
+  "book": "polity",
+  "code": "POL-18",
+  "number": 18,
+  "part": "bodies_elections_local",
+  "title": "সাংবিধানিক সংস্থা — UPSC, Finance Commission, CAG, অ্যাটর্নি জেনারেল",
+  "subtitle": "নিয়োগের পরীক্ষক, টাকা-ভাগের সুপারিশকারী, হিসাবের নিরীক্ষক ও সরকারের আইন-উপদেষ্টা",
+  "subtopics": [
+    "constitutional_bodies"
+  ],
+  "related_facts": [],
+  "prerequisites": [
+    "POL-17"
+  ],
+  "reading_minutes": {
+    "quick": 8,
+    "standard": 32,
+    "deep": 45
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 1 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 5 of 10 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_POL-18.json and drafts/POL-18_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/POL-18_REPORT.md.",
+    "checked_claims": 40,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "সংবিধান সরকারের তিনটি সংবেদনশীল কাজ — সরকারি চাকরিতে নিয়োগ, কেন্দ্র-রাজ্যের মধ্যে টাকার ভাগ আর সরকারি হিসাবের পরীক্ষা — সরকারের নিজের হাতে রাখেনি; দিয়েছে স্বাধীন সাংবিধানিক সংস্থার হাতে। এই অধ্যায়ে সেই সংস্থাগুলো: Public Service Commission (৩১৫–৩২৩), Finance Commission (২৮০–২৮১) ও CAG (১৪৮–১৫১)। সঙ্গে আছেন অ্যাটর্নি জেনারেল (৭৬) — সরকারের প্রধান আইন-উপদেষ্টা, যাঁর অবস্থান বাকিদের থেকে আলাদা। প্রতিটি সংস্থার নিয়োগ, মেয়াদ, অপসারণ, কাজ ও রিপোর্টের শৃঙ্খল ধাপে ধাপে শেখা হবে — কারণ পরীক্ষায় প্রশ্ন আসে ঠিক এই বিন্দুগুলো থেকেই।",
+    "you_will_learn": [
+      "সাংবিধানিক সংস্থা কাকে বলে এবং স্বাধীনতার পাঁচটি সুরক্ষা-হাতিয়ার চিনতে পারবে",
+      "UPSC ও রাজ্য PSC-র গঠন, নিয়োগকর্তা, মেয়াদ (৬ বছর; ৬৫ বনাম ৬২ বছর) ও যৌথ কমিশনের বিধান বলতে পারবে",
+      "PSC সদস্যের অপসারণ-পদ্ধতি (৩১৭) ও অবসর-পরবর্তী নিষেধাজ্ঞা (৩১৯) ব্যাখ্যা করতে পারবে",
+      "PSC-র কাজ (৩২০), পরামর্শের মর্যাদা ও ৩২৩-এর স্মারকলিপি-ব্যবস্থা বুঝতে পারবে",
+      "Finance Commission-এর গঠন (১ + ৪), পাঁচ-বছর চক্র ও সুপারিশের বিষয়গুলো (২৮০–২৮১) বলতে পারবে",
+      "CAG-র নিয়োগ, বিচারপতিতুল্য অপসারণ-সুরক্ষা, কর্তব্য ও রিপোর্টের পথ (১৪৮–১৫১) ব্যাখ্যা করতে পারবে",
+      "অ্যাটর্নি জেনারেলের যোগ্যতা, কাজ, আনন্দ-মেয়াদ ও সংসদে ভোটহীন অংশগ্রহণ (৭৬, ৮৮) আলাদা করতে পারবে"
+    ]
+  },
+  "sections": [
+    {
+      "id": "porichoy",
+      "heading": "সাংবিধানিক সংস্থা: ধারণা ও মানচিত্র",
+      "quick": "যেসব সংস্থা সংবিধান নিজেই তৈরি করেছে, সাধারণ আইন দিয়ে যাদের বিলুপ্ত করা যায় না, তারাই সাংবিধানিক সংস্থা। এই অধ্যায়ে চারটি: Public Service Commission (৩১৫–৩২৩ অনুচ্ছেদ), Finance Commission (২৮০–২৮১), CAG (১৪৮–১৫১) ও অ্যাটর্নি জেনারেল (৭৬)। প্রথম তিনটি সরকারের ওপর নজরদারি করে বলে তাদের স্বাধীনতার বিশেষ সুরক্ষা আছে; অ্যাটর্নি জেনারেল সরকারের প্রধান আইন-উপদেষ্টা, তাই তাঁর সুরক্ষার ধরন আলাদা।",
+      "standard": "সরকার নিজেই যদি নিয়োগ, হিসাব আর টাকা ভাগের সব সিদ্ধান্ত নেয়, তাহলে ন্যায্যতা নিয়ে প্রশ্ন ওঠে। তাই সংবিধান কয়েকটি কাজ এমন সংস্থার হাতে দিয়েছে যারা সরকারের দৈনন্দিন নিয়ন্ত্রণের বাইরে থেকে কাজ করে। এদের বলা হয় **সাংবিধানিক সংস্থা (Constitutional Bodies)** — কারণ এদের অস্তিত্ব, গঠন আর মূল ক্ষমতা সংবিধানেই লেখা আছে; সংসদ সাধারণ আইন পাস করে এদের তুলে দিতে পারে না।\n\nএই অধ্যায়ের চারটি সংস্থা এক নজরে:\n\n| সংস্থা | অনুচ্ছেদ | প্রধান কাজ |\n|---|---|---|\n| Union ও রাজ্য Public Service Commission | ৩১৫–৩২৩ (ভাগ XIV) | সরকারি চাকরিতে নিয়োগের পরীক্ষা ও পরামর্শ |\n| Finance Commission | ২৮০–২৮১ (ভাগ XII) | কেন্দ্র ও রাজ্যের মধ্যে করের টাকা ভাগের সুপারিশ |\n| Comptroller and Auditor-General (CAG) | ১৪৮–১৫১ (ভাগ V) | সরকারি হিসাবের নিরীক্ষা (audit) |\n| অ্যাটর্নি জেনারেল | ৭৬ (ভাগ V) | ভারত সরকারকে আইনি পরামর্শ |\n\n**স্বাধীনতার হাতিয়ারগুলো** প্রায় সব সংস্থায় একই ধরনের: (১) নির্দিষ্ট মেয়াদ ও কঠিন অপসারণ-পদ্ধতি, (২) ব্যয় সংহত তহবিলের (Consolidated Fund) ওপর ধার্য — অর্থাৎ আইনসভার বার্ষিক ভোটের ওপর নির্ভরশীল নয়, (৩) চাকরির শর্ত নিয়োগের পরে ক্ষতিকরভাবে বদলানো যায় না, (৪) অবসরের পর সরকারি চাকরিতে নিষেধাজ্ঞা, যাতে পদে থাকাকালীন কেউ ভবিষ্যৎ সুবিধার লোভে সরকারকে খুশি করতে না যায়, আর (৫) কাজের রিপোর্ট সরাসরি আইনসভায় যায়।\n\nদুটি ব্যতিক্রম মনে রাখো। **Finance Commission স্থায়ী নয়** — প্রতি পাঁচ বছর অন্তর নতুন করে গঠিত হয়। আর **অ্যাটর্নি জেনারেলের** কোনো মেয়াদ-সুরক্ষা নেই — তিনি রাষ্ট্রপতির আনন্দ-মেয়াদে (pleasure) পদে থাকেন, কারণ তিনি নজরদার নন, সরকারেরই আইনজীবী।",
+      "deep": "পরীক্ষায় তুলনামূলক প্রশ্ন আসে: কোন সংস্থার স্বাধীনতা কতটা শক্ত? মাপকাঠি হলো — অপসারণ কে করতে পারে আর কতটা কঠিন পদ্ধতিতে, ব্যয় ভোটনির্ভর কিনা, আর পদত্যাগের পরের নিষেধাজ্ঞা। এই মাপকাঠিতে CAG সবচেয়ে শক্ত সুরক্ষা পান: তাঁকে সুপ্রিম কোর্টের বিচারপতির মতো একই পদ্ধতি ও একই কারণ ছাড়া সরানো যায় না (১৪৮)। PSC সদস্যকে সরাতে রাষ্ট্রপতির আদেশ লাগে, আর দুর্নীতি-জাতীয় অভিযোগে (misbehaviour) সুপ্রিম কোর্টের তদন্ত-রিপোর্ট বাধ্যতামূলক (৩১৭)। Finance Commission সদস্যদের এমন সুরক্ষা সংবিধান দেয়নি — কারণ কমিশনটি সাময়িক, প্রতি পাঁচ বছরে নতুন। অ্যাটর্নি জেনারেলের ক্ষেত্রে সুরক্ষা শূন্যের কাছাকাছি: আনন্দ-মেয়াদ (৭৬(৪))। এই ক্রমটা মনে রাখলেই তুলনার প্রশ্ন সহজ হয়।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "অনুচ্ছেদ-মানচিত্র",
+          "body": "PSC = ৩১৫–৩২৩, Finance Commission = ২৮০, CAG = ১৪৮–১৫১, অ্যাটর্নি জেনারেল = ৭৬। এই চারটি সংখ্যাই এই অধ্যায়ের অর্ধেক পরীক্ষা।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c19",
+        "c25",
+        "c32"
+      ]
+    },
+    {
+      "id": "upsc_gothon",
+      "heading": "UPSC ও রাজ্য PSC: গঠন, নিয়োগ ও মেয়াদ",
+      "quick": "৩১৫ অনুচ্ছেদে কেন্দ্রের জন্য Union Public Service Commission আর প্রতিটি রাজ্যের জন্য একটি করে রাজ্য PSC-র বিধান আছে; দুই বা ততোধিক রাজ্য চাইলে যৌথ কমিশনও হতে পারে। UPSC-র চেয়ারম্যান ও সদস্যদের নিয়োগ করেন রাষ্ট্রপতি, রাজ্য PSC-র ক্ষেত্রে রাজ্যপাল। মেয়াদ ছয় বছর অথবা বয়সসীমা — UPSC-তে ৬৫, রাজ্য PSC-তে ৬২ — যেটি আগে আসে।",
+      "standard": "**গঠন (৩১৫ অনুচ্ছেদ)।** কেন্দ্রের জন্য একটি Public Service Commission (এটিই UPSC) আর প্রতিটি রাজ্যের জন্য একটি করে রাজ্য Public Service Commission থাকবে। দুটি বাড়তি ব্যবস্থাও আছে:\n\n- **যৌথ কমিশন (Joint Commission):** দুই বা ততোধিক রাজ্য একমত হলে এবং প্রতিটি রাজ্যের আইনসভা প্রস্তাব পাস করলে সংসদ আইন করে ওই রাজ্যগুলোর জন্য একটি যৌথ রাজ্য PSC গঠন করতে পারে।\n- **UPSC-র রাজ্যে সেবা:** কোনো রাজ্যের রাজ্যপাল অনুরোধ করলে এবং রাষ্ট্রপতি অনুমোদন দিলে UPSC ওই রাজ্যের প্রয়োজন মেটাতে রাজি হতে পারে।\n\n**নিয়োগ (৩১৬ অনুচ্ছেদ)।** UPSC ও যৌথ কমিশনের চেয়ারম্যান ও সদস্যদের নিয়োগ করেন **রাষ্ট্রপতি**; রাজ্য PSC-র ক্ষেত্রে নিয়োগ করেন ওই রাজ্যের **রাজ্যপাল**। একটি গুরুত্বপূর্ণ শর্ত: প্রতিটি কমিশনের সদস্যদের মধ্যে প্রায় **অর্ধেক** এমন ব্যক্তি হতে হবে যাঁরা নিয়োগের সময় অন্তত **দশ বছর** ভারত সরকার বা কোনো রাজ্য সরকারের অধীনে পদে ছিলেন — যাতে কমিশনে প্রশাসনিক অভিজ্ঞতা থাকে।\n\n**মেয়াদ।** সদস্য পদে থাকেন **ছয় বছর** অথবা বয়সসীমা পর্যন্ত — UPSC-র ক্ষেত্রে **৬৫ বছর**, রাজ্য বা যৌথ কমিশনের ক্ষেত্রে **৬২ বছর** — যেটি আগে আসে। মেয়াদ শেষে একই পদে **পুনর্নিয়োগ হয় না**। সদস্য পদত্যাগ করতে পারেন — UPSC-র ক্ষেত্রে রাষ্ট্রপতিকে, রাজ্য PSC-র ক্ষেত্রে রাজ্যপালকে লিখে।\n\n**সেবার শর্ত (৩১৮ অনুচ্ছেদ)।** সদস্য সংখ্যা ও সেবার শর্ত রাষ্ট্রপতি (কেন্দ্রে) বা রাজ্যপাল (রাজ্যে) বিধি দিয়ে ঠিক করেন; কিন্তু নিয়োগের পর কোনো সদস্যের সেবার শর্ত তাঁর **ক্ষতি হয় এমনভাবে বদলানো যায় না** — এটাই স্বাধীনতার একটি বড় সুরক্ষা।",
+      "deep": "দুটি সূক্ষ্ম বিষয় পরীক্ষায় আসে। প্রথমত, সংবিধান UPSC-র সদস্য সংখ্যা নির্দিষ্ট করে দেয়নি — তা রাষ্ট্রপতির বিধির ওপর ছেড়ে দেওয়া হয়েছে (৩১৮)। দ্বিতীয়ত, বয়সসীমার পার্থক্য: কেন্দ্রে ৬৫, রাজ্যে ৬২ — এই ৬৫/৬২ জোড়াটি প্রায়ই বিবৃতি-ভিত্তিক প্রশ্নে উল্টে দেওয়া হয়। আর যৌথ কমিশনের সদস্যদের বয়সসীমা রাজ্য PSC-র মতোই ৬২, কারণ ৩১৬(২) যৌথ কমিশনকে রাজ্য কমিশনের সঙ্গেই জুড়েছে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "নিয়োগ বনাম অপসারণ",
+          "body": "রাজ্য PSC-র সদস্যকে নিয়োগ করেন রাজ্যপাল, কিন্তু সরাতে পারেন কেবল রাষ্ট্রপতি (৩১৭ অনুচ্ছেদ, পরের পরিচ্ছেদে)। 'রাজ্যপাল সরাতে পারেন' — এই বিকল্পটি সবসময় ভুল।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "৬৫ বনাম ৬২",
+          "body": "UPSC সদস্যের বয়সসীমা ৬৫ বছর, রাজ্য PSC সদস্যের ৬২ বছর; মেয়াদ দুই ক্ষেত্রেই ছয় বছর। WBCS 2022-এ রাজ্য PSC সদস্যদের নিয়োগকর্তা (রাজ্যপাল) নিয়ে প্রশ্ন এসেছিল — এই পরিচ্ছেদের তথ্য দিয়েই তার উত্তর হয়।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c10",
+        "c40"
+      ]
+    },
+    {
+      "id": "upsc_kaj",
+      "heading": "PSC-র কাজ, অপসারণ ও স্বাধীনতার সুরক্ষা",
+      "quick": "PSC-র প্রধান কাজ পরীক্ষা নেওয়া (৩২০(১)) আর নিয়োগ-পদ্ধতি, পদোন্নতি ও শৃঙ্খলা-বিষয়ে সরকারকে পরামর্শ দেওয়া (৩২০(৩))। পরামর্শ মানা বাধ্যতামূলক নয়, কিন্তু না মানলে কারণসহ স্মারকলিপি আইনসভায় পেশ করতে হয় (৩২৩)। সদস্যকে সরাতে পারেন কেবল রাষ্ট্রপতি; misbehaviour-এর অভিযোগে সুপ্রিম কোর্টের তদন্ত লাগে (৩১৭)।",
+      "standard": "**কাজ (৩২০ অনুচ্ছেদ)।**\n\n- কেন্দ্রের সার্ভিসে নিয়োগের জন্য **পরীক্ষা পরিচালনা** করা UPSC-র, আর রাজ্যের সার্ভিসের জন্য রাজ্য PSC-র কর্তব্য।\n- দুই বা ততোধিক রাজ্য অনুরোধ করলে UPSC তাদের বিশেষ যোগ্যতাসম্পন্ন পদের জন্য **যৌথ নিয়োগ-পরিকল্পনা** তৈরি ও চালাতে সাহায্য করবে।\n- সরকারকে **পরামর্শ নিতেই হয়** যেসব বিষয়ে: নিয়োগের পদ্ধতি; নিয়োগ, পদোন্নতি ও বদলির নীতি এবং প্রার্থীদের যোগ্যতা; আর সরকারি কর্মচারীর বিরুদ্ধে **শৃঙ্খলামূলক ব্যবস্থা**-সংক্রান্ত সব বিষয়। এছাড়া দায়িত্ব পালনকালে আহত কর্মচারীর পেনশন-দাবি জাতীয় বিষয়েও পরামর্শের বিধান আছে।\n- **৩২১ অনুচ্ছেদ:** সংসদ বা রাজ্য আইনসভা আইন করে কমিশনকে স্থানীয় সংস্থা বা আইনসৃষ্ট প্রতিষ্ঠানের সার্ভিসের ক্ষেত্রেও অতিরিক্ত দায়িত্ব দিতে পারে।\n\n**পরামর্শের মর্যাদা (৩২৩ অনুচ্ছেদ)।** কমিশনের পরামর্শ সরকারের ওপর আইনত বাধ্যতামূলক নয়। কিন্তু জবাবদিহির ব্যবস্থা আছে: UPSC প্রতি বছর রাষ্ট্রপতিকে কাজের **রিপোর্ট** দেয়; রাষ্ট্রপতি তা সংসদের দুই কক্ষে পেশ করেন — সঙ্গে একটি **স্মারকলিপি**, যেখানে কোন কোন ক্ষেত্রে কমিশনের পরামর্শ মানা হয়নি এবং কেন হয়নি, তার কারণ লিখতে হয়। রাজ্য PSC-র রিপোর্ট একইভাবে রাজ্যপালের মাধ্যমে রাজ্য আইনসভায় যায়।\n\n**অপসারণ (৩১৭ অনুচ্ছেদ)।** চেয়ারম্যান বা সদস্যকে সরাতে পারেন **কেবল রাষ্ট্রপতি** — রাজ্য PSC-র ক্ষেত্রেও তাই, যদিও নিয়োগ করেন রাজ্যপাল। misbehaviour-এর কারণে সরাতে হলে রাষ্ট্রপতিকে বিষয়টি **সুপ্রিম কোর্টের** কাছে পাঠাতে হয়; তদন্তের পর আদালত 'সরানো উচিত' বলে রিপোর্ট দিলে তবেই অপসারণ। তবে তিনটি ক্ষেত্রে এই তদন্ত ছাড়াই রাষ্ট্রপতি সরাতে পারেন: সদস্য দেউলিয়া ঘোষিত হলে, মেয়াদকালে পদের বাইরে বেতনভোগী চাকরি নিলে, অথবা মন-শরীরের অসুস্থতায় অযোগ্য হলে।\n\n**স্বাধীনতার বাকি সুরক্ষা।** কমিশনের সব ব্যয় — সদস্য ও কর্মীদের বেতন, ভাতা, পেনশনসহ — সংহত তহবিলের ওপর **ধার্য** (৩২২), অর্থাৎ ভোটে পাস করাতে হয় না। আর অবসরের পরের নিষেধাজ্ঞা (৩১৯): UPSC-র চেয়ারম্যান অবসরের পর কেন্দ্র বা রাজ্য — কোনো সরকারের অধীনেই আর চাকরি পেতে পারেন না; রাজ্য PSC-র চেয়ারম্যান শুধু UPSC-র চেয়ারম্যান/সদস্য বা অন্য রাজ্য PSC-র চেয়ারম্যান হতে পারেন, অন্য কোনো সরকারি চাকরি নয়।",
+      "deep": "কেন পরামর্শ বাধ্যতামূলক করা হয়নি, তবু কমিশন কার্যকর? কারণ ৩২৩-এর স্মারকলিপি-ব্যবস্থা: পরামর্শ না মানলে সরকারকে আইনসভার সামনে কারণ দর্শাতে হয় — রাজনৈতিক খরচটাই বাধ্যবাধকতার বিকল্প। পরীক্ষার জন্য আরেকটি সূক্ষ্মতা: ৩১৭(৩)-এর তিনটি সরাসরি-অপসারণের কারণে 'misbehaviour' নেই — ওই পথে সুপ্রিম কোর্টের তদন্ত বাধ্যতামূলক, বাকি তিনটিতে নয়। বিবৃতি-প্রশ্নে এই মিশ্রণটাই পরীক্ষা করা হয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরামর্শ মানা বাধ্যতামূলক নয়",
+          "body": "'UPSC-র পরামর্শ সরকার মানতে বাধ্য' — ভুল। বাধ্যতামূলক হলো পরামর্শ নেওয়া (৩২০(৩)) আর না মানলে কারণসহ স্মারকলিপি আইনসভায় পেশ করা (৩২৩)।"
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c37"
+      ]
+    },
+    {
+      "id": "finance_commission",
+      "heading": "Finance Commission: কেন্দ্র-রাজ্য টাকার ভাগ (২৮০–২৮১)",
+      "quick": "২৮০ অনুচ্ছেদে রাষ্ট্রপতি প্রতি পাঁচ বছর অন্তর একজন চেয়ারম্যান ও চারজন সদস্যের Finance Commission গঠন করেন। কমিশন সুপারিশ করে — করের নিট আয় কেন্দ্র ও রাজ্যের মধ্যে কী অনুপাতে ভাগ হবে, রাজ্যগুলোর মধ্যে ভাগ কীভাবে হবে, আর অনুদান-সহায়তার নীতি কী হবে। সুপারিশগুলো রাষ্ট্রপতি সংসদে পেশ করেন, সঙ্গে গৃহীত ব্যবস্থার ব্যাখ্যামূলক স্মারকলিপি (২৮১)।",
+      "standard": "**কেন দরকার?** কর আদায়ের বড় ক্ষমতা কেন্দ্রের হাতে, অথচ ব্যয়ের বড় দায়িত্ব রাজ্যগুলোর — এই ভারসাম্যহীনতা মেটাতেই প্রতি পাঁচ বছরের জন্য একটি নিরপেক্ষ কমিশন।\n\n**গঠন (২৮০(১))।** রাষ্ট্রপতি সংবিধান চালুর দুই বছরের মধ্যে প্রথম কমিশন, তারপর **প্রতি পাঁচ বছর অন্তর** (প্রয়োজনে তার আগেও) আদেশ দিয়ে Finance Commission গঠন করেন। সদস্য সংখ্যা নির্দিষ্ট: **একজন চেয়ারম্যান ও চারজন অন্য সদস্য** — সকলকেই নিয়োগ করেন রাষ্ট্রপতি। সদস্যদের যোগ্যতা ও বাছাইয়ের পদ্ধতি সংসদ আইন করে ঠিক করে (২৮০(২))।\n\n**কাজ (২৮০(৩))।** কমিশন রাষ্ট্রপতিকে সুপারিশ করে:\n\n- **করের ভাগ:** যেসব করের নিট আয় (net proceeds) কেন্দ্র ও রাজ্যের মধ্যে ভাগ হওয়ার কথা, তার বণ্টনের অনুপাত এবং রাজ্যগুলোর মধ্যে প্রত্যেকের অংশের বণ্টন;\n- **অনুদান-সহায়তা (grants-in-aid):** ভারতের সংহত তহবিল থেকে রাজ্যগুলোর রাজস্বে অনুদান দেওয়ার নীতি;\n- **স্থানীয় সংস্থার জন্য:** রাজ্য Finance Commission-এর সুপারিশের ভিত্তিতে পঞ্চায়েত ও পৌরসভার সম্পদ বাড়াতে রাজ্যের সংহত তহবিল বাড়ানোর ব্যবস্থা;\n- **অন্য যেকোনো বিষয়** যা রাষ্ট্রপতি সুস্থ অর্থব্যবস্থার স্বার্থে কমিশনের কাছে পাঠান।\n\nকমিশন নিজের কার্যপদ্ধতি নিজেই ঠিক করে (২৮০(৪))।\n\n**সুপারিশের পরিণতি (২৮১)।** রাষ্ট্রপতি প্রতিটি সুপারিশ সংসদের দুই কক্ষে পেশ করেন — সঙ্গে **ব্যাখ্যামূলক স্মারকলিপি**, যাতে সুপারিশের ওপর কী ব্যবস্থা নেওয়া হয়েছে তা লেখা থাকে। অর্থাৎ সংবিধান সুপারিশ মানতে সরাসরি বাধ্য না করলেও, সংসদের সামনে জবাবদিহি বাধ্যতামূলক করেছে।",
+      "deep": "দুটি তুলনা মনে রাখো। (১) **কেন্দ্রীয় Finance Commission (২৮০) বনাম রাজ্য Finance Commission (২৪৩-I ও ২৪৩-Y):** রাজ্য কমিশন গঠন করেন রাজ্যপাল, পঞ্চায়েত-পৌরসভার আর্থিক অবস্থা পর্যালোচনার জন্য — সেটি POL-20 ও POL-21-এর বিষয়। মজার যোগসূত্র: কেন্দ্রীয় কমিশন স্থানীয় সংস্থা নিয়ে সুপারিশ করে রাজ্য কমিশনের সুপারিশের ভিত্তিতেই (২৮০(৩))। (২) **Finance Commission বনাম GST Council:** দুটোই কেন্দ্র-রাজ্য আর্থিক সম্পর্কের সংস্থা, কিন্তু Finance Commission প্রতি পাঁচ বছরে নতুন করে গঠিত সাময়িক কমিশন, যার কাজ সুপারিশ করা।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "১ + ৪ = ৫",
+          "body": "Finance Commission = চেয়ারম্যান ১ + অন্য সদস্য ৪। WBCS 2018-এ ঠিক এই সংখ্যাটাই প্রশ্ন হয়েছিল, আর WBCS 2019-এ এসেছিল '২৮০ অনুচ্ছেদে কোন সংস্থা?' — উত্তর: Finance Commission।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "সাংবিধানিক বনাম বিধিবদ্ধ",
+          "body": "Finance Commission সংবিধানেই (২৮০ অনুচ্ছেদ) আছে — তাই এটি সাংবিধানিক সংস্থা। যেসব সংস্থা সংবিধানে নেই, শুধু সংসদের আইনে তৈরি, তারা বিধিবদ্ধ (statutory) সংস্থা — এই পার্থক্যটি WBCS 2024-এ বিবৃতি-প্রশ্নে এসেছিল।"
+        }
+      ],
+      "claims": [
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "cag",
+      "heading": "CAG: সরকারি হিসাবের নিরীক্ষক (১৪৮–১৫১)",
+      "quick": "Comptroller and Auditor-General (CAG) ভারতের সর্বোচ্চ নিরীক্ষা-কর্তৃপক্ষ: কেন্দ্র ও রাজ্যের সব সরকারি হিসাব তিনি পরীক্ষা করেন। নিয়োগ করেন রাষ্ট্রপতি; সরানো যায় কেবল সুপ্রিম কোর্টের বিচারপতির মতো একই পদ্ধতিতে। তাঁর রিপোর্ট রাষ্ট্রপতি (কেন্দ্রের ক্ষেত্রে) বা রাজ্যপালের (রাজ্যের ক্ষেত্রে) মাধ্যমে আইনসভায় যায় (১৫১)।",
+      "standard": "**পদ ও নিয়োগ (১৪৮)।** একজন Comptroller and Auditor-General of India থাকবেন। রাষ্ট্রপতি তাঁকে নিজের স্বাক্ষর-মোহরযুক্ত আদেশে (warrant) নিয়োগ করেন। পদে বসার আগে তিনি রাষ্ট্রপতির সামনে তৃতীয় তফসিলের ফর্মে শপথ নেন। তাঁর বেতন ও সেবার শর্ত সংসদ আইন করে ঠিক করে, এবং নিয়োগের পর বেতন, ছুটি, পেনশন বা অবসরের বয়স তাঁর ক্ষতি হয় এমনভাবে বদলানো যায় না।\n\n**স্বাধীনতার সুরক্ষা।** তিনটি বিধান CAG-কে সরকারের চাপ থেকে মুক্ত রাখে:\n\n- **অপসারণ:** কেবল সুপ্রিম কোর্টের বিচারপতির মতো **একই পদ্ধতিতে ও একই কারণে** সরানো যায় — সাধারণ সরকারি কর্মচারীর মতো নয়।\n- **অবসর-পরবর্তী নিষেধাজ্ঞা:** পদ ছাড়ার পর তিনি কেন্দ্র বা কোনো রাজ্য সরকারের অধীনে আর কোনো পদে থাকতে পারেন না (১৪৮(৪))।\n- **ব্যয় ধার্য:** তাঁর দপ্তরের সব প্রশাসনিক ব্যয় ভারতের সংহত তহবিলের ওপর ধার্য (১৪৮(৬))।\n\n**কাজ (১৪৯–১৫০)।** CAG কোন কোন হিসাব পরীক্ষা করবেন, তা সংসদ আইন করে ঠিক করে — এই ক্ষমতা থেকেই এসেছে **CAG (Duties, Powers and Conditions of Service) Act, 1971**, যা তাঁর সেবার শর্ত, কর্তব্য ও ক্ষমতা নির্ধারণ করে। নিরীক্ষার আওতায় কেন্দ্র, রাজ্য এবং আইনে নির্দিষ্ট অন্য সংস্থার হিসাব আসে। আরেকটি সূক্ষ্ম দায়িত্ব (১৫০): কেন্দ্র ও রাজ্যের হিসাব **কোন আকারে (form) রাখা হবে**, তা রাষ্ট্রপতি নির্ধারণ করেন **CAG-র পরামর্শে**।\n\n**রিপোর্ট (১৫১)।** কেন্দ্রের হিসাবের রিপোর্ট যায় রাষ্ট্রপতির কাছে, তিনি তা সংসদের দুই কক্ষে পেশ করেন; রাজ্যের হিসাবের রিপোর্ট যায় রাজ্যপালের কাছে, তিনি রাজ্য আইনসভায় পেশ করেন। এভাবেই নিরীক্ষার ফল নির্বাহী বিভাগকে টপকে সরাসরি জনপ্রতিনিধিদের কাছে পৌঁছায়।",
+      "deep": "CAG-র ভূমিকা বোঝার চাবিকাঠি: তিনি হিসাব **পরীক্ষা** করেন, হিসাব **রাখেন** না (রাখার আকারে তাঁর পরামর্শ থাকলেও), আর ব্যয়ের সিদ্ধান্তও তাঁর নয়। তাঁর শক্তি রিপোর্টে — ১৫১ অনুচ্ছেদ নিশ্চিত করে যে রিপোর্ট সরকারের টেবিলে আটকে থাকবে না, আইনসভায় যাবেই। WBCS 2019-এর একটি প্রশ্নে এই শৃঙ্খলটাই পরীক্ষা করা হয়েছিল: রাষ্ট্রপতির কর্তব্য হলো Finance Commission-এর সুপারিশ, CAG-র রিপোর্ট জাতীয় প্রতিবেদনগুলো সংসদে পেশ করা — Public Accounts Committee-র রিপোর্ট নয়, কারণ সেটি সংসদের নিজের কমিটির প্রতিবেদন।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "১৪৮–১৫১ ক্রম",
+          "body": "১৪৮ = পদ, নিয়োগ ও সুরক্ষা; ১৪৯ = কর্তব্য ও ক্ষমতা (সংসদের আইনে); ১৫০ = হিসাবের আকার (CAG-র পরামর্শে); ১৫১ = রিপোর্ট আইনসভায়।"
+        }
+      ],
+      "claims": [
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c38",
+        "c39"
+      ]
+    },
+    {
+      "id": "attorney_general",
+      "heading": "অ্যাটর্নি জেনারেল: সরকারের প্রধান আইন-উপদেষ্টা (৭৬)",
+      "quick": "অ্যাটর্নি জেনারেল ভারত সরকারের প্রধান আইন-কর্মকর্তা। রাষ্ট্রপতি এমন ব্যক্তিকে নিয়োগ করেন যিনি সুপ্রিম কোর্টের বিচারপতি হওয়ার যোগ্য। তাঁর কাজ সরকারকে আইনি পরামর্শ দেওয়া; ভারতের সব আদালতে তাঁর শুনানির অধিকার (right of audience) আছে। কিন্তু তিনি রাষ্ট্রপতির আনন্দ-মেয়াদে পদে থাকেন — কোনো নির্দিষ্ট মেয়াদ বা অপসারণ-সুরক্ষা নেই।",
+      "standard": "**নিয়োগ ও যোগ্যতা (৭৬(১))।** রাষ্ট্রপতি অ্যাটর্নি জেনারেল নিয়োগ করেন। যোগ্যতার মানদণ্ড উঁচু: প্রার্থীকে **সুপ্রিম কোর্টের বিচারপতি নিযুক্ত হওয়ার যোগ্য** হতে হবে। Clerkship-সহ বহু পরীক্ষায় সরাসরি প্রশ্ন আসে — অ্যাটর্নি জেনারেলকে নিয়োগ করেন কে? উত্তর: **রাষ্ট্রপতি**।\n\n**কাজ (৭৬(২)–(৩))।**\n\n- ভারত সরকারকে **আইনি বিষয়ে পরামর্শ** দেওয়া তাঁর প্রধান কর্তব্য;\n- রাষ্ট্রপতি যেসব আইনি চরিত্রের দায়িত্ব তাঁকে দেন বা হস্তান্তর করেন, সেগুলো পালন করা;\n- দায়িত্ব পালনের ক্ষেত্রে ভারতের **সব আদালতে শুনানির অধিকার** (right of audience) — অর্থাৎ যেকোনো আদালতে তিনি সরকারের পক্ষে হাজির হতে পারেন।\n\n**মেয়াদ (৭৬(৪))।** অ্যাটর্নি জেনারেল **রাষ্ট্রপতির আনন্দ-মেয়াদে** (during the pleasure of the President) পদে থাকেন, আর পারিশ্রমিক রাষ্ট্রপতি যা ঠিক করেন তাই পান। অর্থাৎ কোনো নির্দিষ্ট মেয়াদ নেই, অপসারণের বিশেষ পদ্ধতিও নেই।\n\n**সংসদে ভূমিকা (৮৮ অনুচ্ছেদ)।** মন্ত্রীদের মতো অ্যাটর্নি জেনারেলও সংসদের যেকোনো কক্ষে, যৌথ অধিবেশনে এবং সদস্য হিসেবে নাম থাকা কমিটিতে **বলতে ও অংশ নিতে পারেন** — কিন্তু এই অনুচ্ছেদের ভিত্তিতে **ভোট দিতে পারেন না**।",
+      "deep": "কেন অ্যাটর্নি জেনারেলের মেয়াদ-সুরক্ষা নেই, অথচ CAG বা PSC সদস্যের আছে? কারণ ভূমিকার পার্থক্য: CAG ও PSC সরকারের কাজের **বিচারক-সদৃশ নজরদার**, তাই তাদের সরকারের অসন্তোষ থেকে বাঁচাতে হয়। অ্যাটর্নি জেনারেল সরকারের **নিজের আইনজীবী** — সরকার বদলালে তার প্রধান আইন-উপদেষ্টা বদলানো স্বাভাবিক, তাই আনন্দ-মেয়াদ। পরীক্ষায় এই তুলনাটাই ধারণাগত প্রশ্ন হয়ে আসে: 'কোন সাংবিধানিক পদাধিকারী আনন্দ-মেয়াদে থাকেন?' — অ্যাটর্নি জেনারেল।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "যোগ্যতা বনাম সুরক্ষা",
+          "body": "অ্যাটর্নি জেনারেলের যোগ্যতা সুপ্রিম কোর্টের বিচারপতির সমমানের, কিন্তু অপসারণ-সুরক্ষা বিচারপতির মতো নয় — তিনি আনন্দ-মেয়াদে থাকেন। CAG-র ক্ষেত্রে উল্টোটা: তাঁর অপসারণ-পদ্ধতি হুবহু বিচারপতির মতো (১৪৮)।"
+        }
+      ],
+      "claims": [
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "নতুন Finance Commission গঠন",
+      "when": "প্রতি পাঁচ বছর অন্তর",
+      "what": "রাষ্ট্রপতি আদেশ দিয়ে একজন চেয়ারম্যান ও চারজন সদস্যের নতুন Finance Commission গঠন করেন।",
+      "why_it_matters": "প্রতিটি নতুন কমিশন পরের পাঁচ বছরের জন্য কেন্দ্র-রাজ্য কর-ভাগের সুপারিশ করে — তাই পাঁচ-বছর চক্রটাই এই সংস্থার পরিচয়।",
+      "section": "finance_commission",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "title": "PSC-র বার্ষিক রিপোর্ট আইনসভায়",
+      "when": "প্রতি বছর",
+      "what": "UPSC রাষ্ট্রপতিকে বার্ষিক রিপোর্ট দেয়; পরামর্শ অগ্রহণের কারণসহ স্মারকলিপিসহ তা সংসদে পেশ হয়। রাজ্য PSC-র রিপোর্ট রাজ্যপালের মাধ্যমে রাজ্য আইনসভায় যায়।",
+      "why_it_matters": "পরামর্শ বাধ্যতামূলক না হলেও, না মানলে আইনসভার সামনে কারণ দর্শাতে হয় — এটাই জবাবদিহির ব্যবস্থা।",
+      "section": "upsc_kaj",
+      "claims": [
+        "c18",
+        "c37"
+      ]
+    },
+    {
+      "title": "CAG রিপোর্ট আইনসভায় পেশ",
+      "when": "নিরীক্ষা শেষে",
+      "what": "কেন্দ্রের হিসাবের রিপোর্ট রাষ্ট্রপতির মাধ্যমে সংসদে, রাজ্যের হিসাবের রিপোর্ট রাজ্যপালের মাধ্যমে রাজ্য আইনসভায় পেশ হয়।",
+      "why_it_matters": "নিরীক্ষার ফল সরকারের হাতে আটকে থাকে না; সরাসরি জনপ্রতিনিধিদের কাছে পৌঁছায়।",
+      "section": "cag",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "title": "Finance Commission-এর সুপারিশ সংসদে",
+      "when": "কমিশনের প্রতিবেদনের পর",
+      "what": "রাষ্ট্রপতি প্রতিটি সুপারিশ গৃহীত ব্যবস্থার ব্যাখ্যামূলক স্মারকলিপিসহ সংসদের দুই কক্ষে পেশ করেন।",
+      "why_it_matters": "সুপারিশ মানা বাধ্যতামূলক না হলেও সংসদের সামনে জবাবদিহি বাধ্যতামূলক — ২৮১ অনুচ্ছেদের এই বিধানটাই পরীক্ষায় আসে।",
+      "section": "finance_commission",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "সাংবিধানিক সংস্থা (Constitutional Body)",
+      "meaning": "যে সংস্থার অস্তিত্ব, গঠন ও মূল ক্ষমতা সংবিধানেই বিধৃত; সাধারণ আইনে বিলুপ্ত করা যায় না।",
+      "section": "porichoy"
+    },
+    {
+      "term": "যৌথ কমিশন (Joint Commission)",
+      "meaning": "দুই বা ততোধিক রাজ্যের জন্য একটি যৌথ রাজ্য Public Service Commission, যা সংসদ আইন করে গঠন করে (৩১৫(২))।",
+      "section": "upsc_gothon"
+    },
+    {
+      "term": "ধার্য ব্যয় (Charged Expenditure)",
+      "meaning": "সংহত তহবিলের ওপর ধার্য ব্যয় — আইনসভার বার্ষিক ভোট ছাড়াই পরিশোধ হয়; যেমন PSC ও CAG-র দপ্তরের ব্যয়।",
+      "section": "upsc_kaj"
+    },
+    {
+      "term": "নিট আয় (Net Proceeds)",
+      "meaning": "কর বা শুল্কের মোট আয়ের মধ্যে আদায়-খরচ বাদ দিয়ে বাকি অংশ, যা কেন্দ্র ও রাজ্যের মধ্যে ভাগ হয়।",
+      "section": "finance_commission"
+    },
+    {
+      "term": "অনুদান-সহায়তা (Grants-in-aid)",
+      "meaning": "সংহত তহবিল থেকে রাজ্যগুলোর রাজস্বে দেওয়া অনুদান, যার নীতি Finance Commission সুপারিশ করে (২৮০(৩))।",
+      "section": "finance_commission"
+    },
+    {
+      "term": "নিরীক্ষা (Audit)",
+      "meaning": "সরকারি হিসাব স্বাধীনভাবে পরীক্ষা করে দেখা — টাকা আইনমাফিক ও অনুমোদিত খাতে ব্যয় হয়েছে কিনা; CAG-র প্রধান কাজ।",
+      "section": "cag"
+    },
+    {
+      "term": "আনন্দ-মেয়াদ (Pleasure)",
+      "meaning": "রাষ্ট্রপতির সন্তুষ্টি থাকা পর্যন্ত পদে থাকা — নির্দিষ্ট মেয়াদ বা অপসারণ-পদ্ধতি নেই; অ্যাটর্নি জেনারেলের ক্ষেত্রে প্রযোজ্য (৭৬(৪))।",
+      "section": "attorney_general"
+    },
+    {
+      "term": "শুনানির অধিকার (Right of Audience)",
+      "meaning": "আদালতে হাজির হয়ে শুনানিতে অংশ নেওয়ার অধিকার; অ্যাটর্নি জেনারেলের ভারতের সব আদালতে এই অধিকার আছে (৭৬(৩))।",
+      "section": "attorney_general"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "নিয়োগ সরকারি হাতে, অপসারণ কঠিন — তাই PSC স্বাধীন",
+      "causes": [
+        "সদস্যদের নিয়োগ করেন রাষ্ট্রপতি বা রাজ্যপাল (৩১৬)",
+        "অপসারণ করতে পারেন কেবল রাষ্ট্রপতি, misbehaviour-এ সুপ্রিম কোর্টের তদন্ত বাধ্যতামূলক (৩১৭)",
+        "ব্যয় সংহত তহবিলে ধার্য (৩২২) ও অবসরের পর চাকরিতে নিষেধাজ্ঞা (৩১৯)"
+      ],
+      "event": "Public Service Commission সরকারের চাপের বাইরে থেকে নিয়োগ-পরীক্ষা ও পরামর্শের কাজ করে",
+      "results": [
+        "নিয়োগে মেধার মানদণ্ড রক্ষা পায়",
+        "পরামর্শ না মানলে সরকারকে আইনসভায় কারণ দর্শাতে হয় (৩২৩)"
+      ],
+      "section": "upsc_kaj",
+      "claims": [
+        "c04",
+        "c08",
+        "c17",
+        "c11",
+        "c18"
+      ]
+    },
+    {
+      "title": "কর কেন্দ্রে, ব্যয় রাজ্যে — তাই Finance Commission",
+      "causes": [
+        "বড় কর-ক্ষমতা কেন্দ্রের হাতে, বড় ব্যয়-দায়িত্ব রাজ্যগুলোর",
+        "প্রতি পাঁচ বছরে পরিস্থিতি বদলায়"
+      ],
+      "event": "রাষ্ট্রপতি প্রতি পাঁচ বছর অন্তর Finance Commission গঠন করেন (২৮০)",
+      "results": [
+        "করের নিট আয়ের ভাগ ও অনুদান-সহায়তার নীতি নিয়ে নিরপেক্ষ সুপারিশ আসে",
+        "সুপারিশ ও গৃহীত ব্যবস্থার স্মারকলিপি সংসদে পেশ হয় (২৮১)"
+      ],
+      "section": "finance_commission",
+      "claims": [
+        "c19",
+        "c21",
+        "c24"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "অনুচ্ছেদ-মানচিত্র: PSC ৩১৫–৩২৩, Finance Commission ২৮০, CAG ১৪৮–১৫১, অ্যাটর্নি জেনারেল ৭৬ — প্রতিবারই সরাসরি প্রশ্ন আসে",
+      "section": "porichoy"
+    },
+    {
+      "point": "নিয়োগকর্তার জোড়া: UPSC/যৌথ কমিশন = রাষ্ট্রপতি, রাজ্য PSC = রাজ্যপাল; কিন্তু অপসারণ সব ক্ষেত্রেই রাষ্ট্রপতি",
+      "section": "upsc_gothon"
+    },
+    {
+      "point": "৬৫ বনাম ৬২: UPSC সদস্যের বয়সসীমা ৬৫, রাজ্য PSC-র ৬২; মেয়াদ দুই ক্ষেত্রেই ছয় বছর",
+      "section": "upsc_gothon"
+    },
+    {
+      "point": "Finance Commission = চেয়ারম্যান ১ + সদস্য ৪, প্রতি পাঁচ বছরে নতুন গঠন",
+      "section": "finance_commission"
+    },
+    {
+      "point": "CAG-র অপসারণ সুপ্রিম কোর্টের বিচারপতির মতো; রিপোর্টের পথ — কেন্দ্রে রাষ্ট্রপতি→সংসদ, রাজ্যে রাজ্যপাল→আইনসভা",
+      "section": "cag"
+    },
+    {
+      "point": "অ্যাটর্নি জেনারেল: নিয়োগ রাষ্ট্রপতি, যোগ্যতা বিচারপতিতুল্য, কিন্তু মেয়াদ আনন্দ-মেয়াদ; সংসদে বক্তব্য আছে, ভোট নেই",
+      "section": "attorney_general"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের নিজের Public Service Commission হলো WBPSC — এই অধ্যায়ের রাজ্য PSC-র সব বিধানই তার ওপর প্রযোজ্য: চেয়ারম্যান ও সদস্যদের নিয়োগ করেন **রাজ্যপাল** (৩১৬), বয়সসীমা **৬২ বছর**, কিন্তু অপসারণ করতে পারেন কেবল **রাষ্ট্রপতি** (৩১৭)। WBPSC-র বার্ষিক রিপোর্ট রাজ্যপালের কাছে যায় এবং অগ্রহণের কারণসহ স্মারকলিপিসহ রাজ্য আইনসভায় পেশ হয় (৩২৩(২))। একইভাবে, পশ্চিমবঙ্গ সরকারের হিসাবের CAG রিপোর্ট রাজ্যপালের মাধ্যমে বিধানসভায় যায় (১৫১(২))। তুমি যে পরীক্ষাগুলো দিচ্ছ — Clerkship, WBCS — সেগুলোই এই সাংবিধানিক কাঠামোর ভেতরে WBPSC পরিচালনা করে।",
+    "claims": [
+      "c04",
+      "c06",
+      "c08",
+      "c37",
+      "c30"
+    ]
+  },
+  "quick_revision": [
+    "PSC: ৩১৫–৩২৩ অনুচ্ছেদ (ভাগ XIV); কেন্দ্রে UPSC, প্রতিটি রাজ্যে রাজ্য PSC, চাইলে যৌথ কমিশন",
+    "নিয়োগ: UPSC ও যৌথ কমিশন = রাষ্ট্রপতি; রাজ্য PSC = রাজ্যপাল (৩১৬)",
+    "মেয়াদ: ছয় বছর; বয়সসীমা UPSC ৬৫, রাজ্য PSC ৬২; একই পদে পুনর্নিয়োগ নেই",
+    "অর্ধেক সদস্যের অন্তত দশ বছর সরকারি পদে থাকার অভিজ্ঞতা থাকতে হবে (৩১৬)",
+    "অপসারণ: কেবল রাষ্ট্রপতি; misbehaviour-এ সুপ্রিম কোর্টের তদন্ত বাধ্যতামূলক (৩১৭)",
+    "কাজ: পরীক্ষা নেওয়া (৩২০(১)) ও নিয়োগ-নীতি, পদোন্নতি, শৃঙ্খলা বিষয়ে পরামর্শ (৩২০(৩))",
+    "পরামর্শ বাধ্যতামূলক নয়, কিন্তু অগ্রহণের কারণসহ স্মারকলিপি আইনসভায় বাধ্যতামূলক (৩২৩)",
+    "Finance Commission: ২৮০ অনুচ্ছেদ; চেয়ারম্যান ১ + সদস্য ৪; প্রতি পাঁচ বছরে নতুন",
+    "Finance Commission সুপারিশ করে করের ভাগ ও অনুদান-সহায়তার নীতি; সুপারিশ সংসদে পেশ হয় action-taken স্মারকলিপিসহ (২৮১)",
+    "CAG: ১৪৮–১৫১; নিয়োগ ও অপসারণ বিচারপতিতুল্য সুরক্ষা; কর্তব্য সংসদের আইনে (১৪৯), হিসাবের আকার তাঁর পরামর্শে (১৫০)",
+    "CAG রিপোর্ট: কেন্দ্রে রাষ্ট্রপতি→সংসদ, রাজ্যে রাজ্যপাল→রাজ্য আইনসভা (১৫১)",
+    "অ্যাটর্নি জেনারেল: ৭৬ অনুচ্ছেদ; নিয়োগ রাষ্ট্রপতি; যোগ্যতা বিচারপতিতুল্য; মেয়াদ আনন্দ-মেয়াদ; সংসদে বক্তব্য আছে, ভোট নেই (৮৮)"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "The Constitution of India [As on 1st May, 2024], Legislative Department, Ministry of Law and Justice",
+      "class": "GOVT",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "accessed_at": "2026-11-19",
+      "publisher": "GOVT"
+    },
+    {
+      "id": "s2",
+      "title": "Mandate of the CAG of India — Constitutional Provisions (Articles 148-151) and the CAG's (DPC) Act, 1971, Office of the Accountant General (A&E), Uttar Pradesh (cag.gov.in network)",
+      "class": "GOVT",
+      "url": "https://agup.nic.in/ag_ersa/en/pagmandate.htm",
+      "accessed_at": "2026-11-19",
+      "publisher": "GOVT"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Article 315(1): there shall be a Public Service Commission for the Union and a Public Service Commission for each State.",
+      "source": "s1",
+      "page": "p. 177",
+      "quote": "Subject to the provisions of this article, there shall be a Public Service Commission for the Union and a Public Service Commission for each State."
+    },
+    {
+      "id": "c02",
+      "claim": "Article 315(2): two or more States may agree to have one Joint State Public Service Commission, provided by Parliament by law after resolutions of the State Legislatures.",
+      "source": "s1",
+      "page": "p. 177",
+      "quote": "Two or more States may agree that there shall be one Public Service Commission for that group of States, and if a resolution to that effect is passed by the House or, where there are two Houses, by each House of the Legislature of each of those States, Parliament may by law provide for the appointment of a Joint State Public Service Commission to serve the needs of those States."
+    },
+    {
+      "id": "c03",
+      "claim": "Article 315(4): the Union Public Service Commission may, if requested by the Governor of a State and with the approval of the President, agree to serve the needs of that State.",
+      "source": "s1",
+      "page": "p. 177",
+      "quote": "The Public Service Commission for the Union, if requested so to do by the Governor of a State, may, with the approval of the President, agree to serve all or any of the needs of the State."
+    },
+    {
+      "id": "c04",
+      "claim": "Article 316(1): the Chairman and members of the Union or a Joint Commission are appointed by the President, and of a State Commission by the Governor of the State.",
+      "source": "s1",
+      "page": "p. 177",
+      "quote": "The Chairman and other members of a Public Service Commission shall be appointed, in the case of the Union Commission or a Joint Commission, by the President, and in the case of a State Commission, by the Governor of the State"
+    },
+    {
+      "id": "c05",
+      "claim": "Article 316(1) proviso: as nearly as may be one-half of the members of every Public Service Commission must have held office for at least ten years under the Government of India or a State Government.",
+      "source": "s1",
+      "page": "p. 178",
+      "quote": "Provided that as nearly as may be one-half of the members of every Public Service Commission shall be persons who at the dates of their respective appointments have held office for at least ten years either under the Government of India or under the Government of a State"
+    },
+    {
+      "id": "c06",
+      "claim": "Article 316(2): a member holds office for six years or until age 65 (Union Commission) or 62 (State or Joint Commission), whichever is earlier.",
+      "source": "s1",
+      "page": "p. 178",
+      "quote": "A member of a Public Service Commission shall hold office for a term of six years from the date on which he enters upon his office or until he attains, in the case of the Union Commission, the age of sixty-five years, and in the case of a State Commission or a Joint Commission, the age of sixty-two years, whichever is earlier"
+    },
+    {
+      "id": "c07",
+      "claim": "Article 316(3): a member of a Public Service Commission is ineligible for re-appointment to that office after the term expires.",
+      "source": "s1",
+      "page": "p. 178",
+      "quote": "A person who holds office as a member of a Public Service Commission shall, on the expiration of his term of office, be ineligible for re-appointment to that office."
+    },
+    {
+      "id": "c08",
+      "claim": "Article 317(1): the Chairman or a member of a Public Service Commission can be removed only by order of the President on the ground of misbehaviour after the Supreme Court, on a reference by the President, has inquired and reported that the person ought to be removed.",
+      "source": "s1",
+      "page": "p. 179",
+      "quote": "the Chairman or any other member of a Public Service Commission shall only be removed from his office by order of the President on the ground of misbehaviour after the Supreme Court, on reference being made to it by the President, has, on inquiry held in accordance with the procedure prescribed in that behalf under article 145, reported that the Chairman or such other member, as the case may be, ought on any such ground to be removed."
+    },
+    {
+      "id": "c09",
+      "claim": "Article 317(3): the President may remove a Chairman or member who is adjudged insolvent, engages in paid employment outside the duties of office, or is unfit by reason of infirmity of mind or body.",
+      "source": "s1",
+      "page": "p. 179",
+      "quote": "the President may by order remove from office the Chairman or any other member of a Public Service Commission if the Chairman or such other member, as the case may be,— (a) is adjudged an insolvent; or (b) engages during his term of office in any paid employment outside the duties of his office; or (c) is, in the opinion of the President, unfit to continue in office by reason of infirmity of mind or body."
+    },
+    {
+      "id": "c10",
+      "claim": "Article 318 proviso: the conditions of service of a member of a Public Service Commission shall not be varied to his disadvantage after his appointment.",
+      "source": "s1",
+      "page": "p. 180",
+      "quote": "the conditions of service of a member of a Public Service Commission shall not be varied to his disadvantage after his appointment."
+    },
+    {
+      "id": "c11",
+      "claim": "Article 319(a): the Chairman of the Union Public Service Commission is ineligible for further employment under the Government of India or any State Government after ceasing to hold office.",
+      "source": "s1",
+      "page": "p. 180",
+      "quote": "the Chairman of the Union Public Service Commission shall be ineligible for further employment either under the Government of India or under the Government of a State"
+    },
+    {
+      "id": "c12",
+      "claim": "Article 319(b): the Chairman of a State Public Service Commission is eligible for appointment as Chairman or member of the UPSC or as Chairman of any other State Public Service Commission, but not for any other government employment.",
+      "source": "s1",
+      "page": "p. 180",
+      "quote": "the Chairman of a State Public Service Commission shall be eligible for appointment as the Chairman or any other member of the Union Public Service Commission or as the Chairman of any other State Public Service Commission, but not for any other employment either under the Government of India or under the Government of a State"
+    },
+    {
+      "id": "c13",
+      "claim": "Article 320(1): it is the duty of the Union and State Public Service Commissions to conduct examinations for appointments to the services of the Union and of the State respectively.",
+      "source": "s1",
+      "page": "p. 180",
+      "quote": "It shall be the duty of the Union and the State Public Service Commissions to conduct examinations for appointments to the services of the Union and the services of the State respectively."
+    },
+    {
+      "id": "c14",
+      "claim": "Article 320(2): the UPSC must, if requested by two or more States, assist them in framing and operating schemes of joint recruitment for services requiring candidates with special qualifications.",
+      "source": "s1",
+      "page": "p. 180",
+      "quote": "It shall also be the duty of the Union Public Service Commission, if requested by any two or more States so to do, to assist those States in framing and operating schemes of joint recruitment for any services for which candidates possessing special qualifications are required."
+    },
+    {
+      "id": "c15",
+      "claim": "Article 320(3): the Commissions must be consulted on methods of recruitment, principles of appointments, promotions and transfers, and on all disciplinary matters affecting civil servants.",
+      "source": "s1",
+      "page": "pp. 180-181",
+      "quote": "The Union Public Service Commission or the State Public Service Commission, as the case may be, shall be consulted— (a) on all matters relating to methods of recruitment to civil services and for civil posts; (b) on the principles to be followed in making appointments to civil services and posts and in making promotions and transfers from one service to another and on the suitability of candidates for such appointments, promotions or transfers; (c) on all disciplinary matters affecting a person serving under the Government of India or the Government of a State in a civil capacity"
+    },
+    {
+      "id": "c16",
+      "claim": "Article 321: Parliament or a State Legislature may by Act extend the functions of a Public Service Commission to services of local authorities, bodies corporate constituted by law, or public institutions.",
+      "source": "s1",
+      "page": "p. 182",
+      "quote": "An Act made by Parliament or, as the case may be, the Legislature of a State may provide for the exercise of additional functions by the Union Public Service Commission or the State Public Service Commission as respects the services of the Union or the State and also as respects the services of any local authority or other body corporate constituted by law or of any public institution."
+    },
+    {
+      "id": "c17",
+      "claim": "Article 322: the expenses of a Public Service Commission, including salaries, allowances and pensions of members and staff, are charged on the Consolidated Fund of India or of the State.",
+      "source": "s1",
+      "page": "p. 182",
+      "quote": "The expenses of the Union or a State Public Service Commission, including any salaries, allowances and pensions payable to or in respect of the members or staff of the Commission, shall be charged on the Consolidated Fund of India or, as the case may be, the Consolidated Fund of the State."
+    },
+    {
+      "id": "c18",
+      "claim": "Article 323(1): the Union Commission presents an annual report to the President, who lays it before each House of Parliament with a memorandum explaining any cases where the Commission's advice was not accepted and the reasons.",
+      "source": "s1",
+      "page": "p. 182",
+      "quote": "It shall be the duty of the Union Commission to present annually to the President a report as to the work done by the Commission and on receipt of such report the President shall cause a copy thereof together with a memorandum explaining, as respects the cases, if any, where the advice of the Commission was not accepted, the reasons for such non-acceptance to be laid before each House of Parliament."
+    },
+    {
+      "id": "c19",
+      "claim": "Article 280(1): the President shall constitute a Finance Commission within two years of the commencement of the Constitution and thereafter every fifth year (or earlier), consisting of a Chairman and four other members appointed by the President.",
+      "source": "s1",
+      "page": "pp. 162-163",
+      "quote": "The President shall, within two years from the commencement of this Constitution and thereafter at the expiration of every fifth year or at such earlier time as the President considers necessary, by order constitute a Finance Commission which shall consist of a Chairman and four other members to be appointed by the President."
+    },
+    {
+      "id": "c20",
+      "claim": "Article 280(2): Parliament may by law determine the qualifications required for appointment as members of the Finance Commission and the manner of their selection.",
+      "source": "s1",
+      "page": "p. 163",
+      "quote": "Parliament may by law determine the qualifications which shall be requisite for appointment as members of the Commission and the manner in which they shall be selected."
+    },
+    {
+      "id": "c21",
+      "claim": "Article 280(3)(a)-(b): the Finance Commission recommends on the distribution of net tax proceeds between the Union and the States and their allocation among States, and the principles governing grants-in-aid to States out of the Consolidated Fund of India.",
+      "source": "s1",
+      "page": "p. 163",
+      "quote": "It shall be the duty of the Commission to make recommendations to the President as to— (a) the distribution between the Union and the States of the net proceeds of taxes which are to be, or may be, divided between them under this Chapter and the allocation between the States of the respective shares of such proceeds; (b) the principles which should govern the grants-in-aid of the revenues of the States out of the Consolidated Fund of India"
+    },
+    {
+      "id": "c22",
+      "claim": "Article 280(3)(bb)-(c): the Finance Commission also recommends measures to augment a State's Consolidated Fund to supplement the resources of Panchayats and Municipalities, on the basis of the State Finance Commission's recommendations.",
+      "source": "s1",
+      "page": "p. 163",
+      "quote": "the measures needed to augment the Consolidated Fund of a State to supplement the resources of the Panchayats in the State on the basis of the recommendations made by the Finance Commission of the State"
+    },
+    {
+      "id": "c23",
+      "claim": "Article 280(3)(d) and (4): the Commission also recommends on any other matter referred by the President in the interests of sound finance, and determines its own procedure.",
+      "source": "s1",
+      "page": "p. 163",
+      "quote": "any other matter referred to the Commission by the President in the interests of sound finance. (4) The Commission shall determine their procedure"
+    },
+    {
+      "id": "c24",
+      "claim": "Article 281: the President shall cause every Finance Commission recommendation, together with an explanatory memorandum of the action taken, to be laid before each House of Parliament.",
+      "source": "s1",
+      "page": "p. 163",
+      "quote": "The President shall cause every recommendation made by the Finance Commission under the provisions of this Constitution together with an explanatory memorandum as to the action taken thereon to be laid before each House of Parliament."
+    },
+    {
+      "id": "c25",
+      "claim": "Article 148(1): there shall be a Comptroller and Auditor-General of India, appointed by the President by warrant under his hand and seal, removable only in like manner and on like grounds as a Judge of the Supreme Court.",
+      "source": "s2",
+      "page": "Mandate page, Article 148",
+      "quote": "There shall be a Comptroller and Auditor-General of India who shall be appointed by the President by warrant under his hand and seal and shall only be removed from office in like manner and on the like grounds as a Judge of the Supreme Court."
+    },
+    {
+      "id": "c26",
+      "claim": "Article 148(4): the Comptroller and Auditor-General is not eligible for further office under the Government of India or any State Government after ceasing to hold office.",
+      "source": "s2",
+      "page": "Mandate page, Article 148",
+      "quote": "The Comptroller and Auditor-General shall not be eligible for further office either under the Government of India or under the Government of any State after he has ceased to hold his office."
+    },
+    {
+      "id": "c27",
+      "claim": "Article 148(6): the administrative expenses of the CAG's office, including salaries, allowances and pensions, are charged on the Consolidated Fund of India.",
+      "source": "s2",
+      "page": "Mandate page, Article 148",
+      "quote": "The administrative expenses of the office of the Comptroller and Auditor-General, including all salaries, allowances and pensions payable to or in respect of persons serving in that office, shall be charged upon the Consolidated Fund of India."
+    },
+    {
+      "id": "c28",
+      "claim": "Article 149: the CAG performs such duties and exercises such powers in relation to the accounts of the Union, the States and other authorities or bodies as Parliament prescribes by law.",
+      "source": "s2",
+      "page": "Mandate page, Article 149",
+      "quote": "The Comptroller and Auditor-General shall perform such duties and exercise such powers in relation to the accounts of the Union and of the States and of any other authority or body as may be prescribed by or under any law made by Parliament"
+    },
+    {
+      "id": "c29",
+      "claim": "Article 150: the accounts of the Union and of the States are kept in the form prescribed by the President on the advice of the CAG.",
+      "source": "s2",
+      "page": "Mandate page, Article 150",
+      "quote": "The accounts of the Union and of the States shall be kept in such form as the President may, on the advice of the Comptroller and Auditor-General of India, prescribe."
+    },
+    {
+      "id": "c30",
+      "claim": "Article 151: CAG reports on Union accounts go to the President, who lays them before each House of Parliament; reports on State accounts go to the Governor, who lays them before the State Legislature.",
+      "source": "s2",
+      "page": "Mandate page, Article 151",
+      "quote": "The reports of the Comptroller and Auditor-General of India relating to the accounts of the Union shall be submitted to the President, who shall cause them to be laid before each House of Parliament. (2) The reports of the Comptroller and Auditor-General of India relating to the accounts of a State shall be submitted to the Governor of the State, who shall cause them to be laid before the Legislature of the State."
+    },
+    {
+      "id": "c31",
+      "claim": "Parliament has enacted the Comptroller and Auditor-General's (Duties, Powers and Conditions of Service) Act, 1971, which determines the CAG's conditions of service and prescribes his duties and powers.",
+      "source": "s2",
+      "page": "Mandate page, introduction",
+      "quote": "Parliament has enacted the Comptroller and Auditor General’s (Duties, Powers and Conditions of Service) Act, 1971 which determines the condition of the service of the CAG and prescribes his duties and powers and other matters connected with or incidental to the Act."
+    },
+    {
+      "id": "c32",
+      "claim": "Article 76(1): the President appoints a person qualified to be appointed a Judge of the Supreme Court as Attorney-General for India.",
+      "source": "s1",
+      "page": "p. 35",
+      "quote": "76. Attorney-General for India.—(1) The President shall appoint a person who is qualified to be appointed a Judge of the Supreme Court to be Attorney-General for India."
+    },
+    {
+      "id": "c33",
+      "claim": "Article 76(2): it is the duty of the Attorney-General to give advice to the Government of India on legal matters and to perform other duties of a legal character referred or assigned by the President.",
+      "source": "s1",
+      "page": "p. 35",
+      "quote": "It shall be the duty of the Attorney-General to give advice to the Government of India upon such legal matters, and to perform such other duties of a legal character, as may from time to time be referred or assigned to him by the President"
+    },
+    {
+      "id": "c34",
+      "claim": "Article 76(3): the Attorney-General has right of audience in all courts in the territory of India.",
+      "source": "s1",
+      "page": "p. 35",
+      "quote": "In the performance of his duties the Attorney-General shall have right of audience in all courts in the territory of India."
+    },
+    {
+      "id": "c35",
+      "claim": "Article 76(4): the Attorney-General holds office during the pleasure of the President and receives such remuneration as the President determines.",
+      "source": "s1",
+      "page": "p. 35",
+      "quote": "The Attorney-General shall hold office during the pleasure of the President, and shall receive such remuneration as the President may determine."
+    },
+    {
+      "id": "c36",
+      "claim": "Article 88: every Minister and the Attorney-General have the right to speak in and take part in the proceedings of either House, a joint sitting and any committee of Parliament of which he is a member, but are not entitled to vote by virtue of that article.",
+      "source": "s1",
+      "page": "p. 40",
+      "quote": "Every Minister and the Attorney-General of India shall have the right to speak in, and otherwise to take part in the proceedings of, either House, any joint sitting of the Houses, and any committee of Parliament of which he may be named a member, but shall not by virtue of this article be entitled to vote."
+    },
+    {
+      "id": "c37",
+      "claim": "Article 323(2): a State Commission presents its annual report to the Governor, who lays it before the State Legislature with a memorandum explaining any non-acceptance of the Commission's advice.",
+      "source": "s1",
+      "page": "p. 182",
+      "quote": "It shall be the duty of a State Commission to present annually to the Governor of the State a report as to the work done by the Commission, and the Governor shall, on receipt of such report, cause a copy thereof together with a memorandum explaining, as respects the cases, if any, where the advice of the Commission was not accepted, the reasons for such non-acceptance to be laid before the Legislature of the State."
+    },
+    {
+      "id": "c38",
+      "claim": "Article 148(3): the CAG's salary and conditions of service are determined by Parliament by law, and neither salary nor rights regarding leave, pension or age of retirement can be varied to his disadvantage after appointment.",
+      "source": "s2",
+      "page": "Mandate page, Article 148",
+      "quote": "The salary and other conditions of service of the Comptroller and Auditor-General shall be such as may be determined by Parliament by law and, until they are so determined, shall be as specified in the Second Schedule: Provided that neither the salary of a Comptroller and Auditor-General nor his rights in respect of leave of absence, pension or age of retirement shall be varied to his disadvantage after his appointment."
+    },
+    {
+      "id": "c39",
+      "claim": "Article 148(2): before entering office, the CAG makes and subscribes an oath or affirmation before the President according to the form set out in the Third Schedule.",
+      "source": "s2",
+      "page": "Mandate page, Article 148",
+      "quote": "Every person appointed to be the Comptroller and Auditor-General of India shall, before he enters upon his office, make and subscribe before the President, or some person appointed in that behalf by him, an oath or affirmation according to the form set out for the purpose in the Third Schedule."
+    },
+    {
+      "id": "c40",
+      "claim": "Article 316(2) proviso (a): a member of a Public Service Commission may resign by writing under his hand addressed, for the Union or a Joint Commission, to the President, and for a State Commission, to the Governor of the State.",
+      "source": "s1",
+      "page": "p. 178",
+      "quote": "a member of a Public Service Commission may, by writing under his hand addressed, in the case of the Union Commission or a Joint Commission, to the President, and in the case of a State Commission, to the Governor of the State, resign his office"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "porichoy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন সংস্থাটি সংবিধানের ২৮০ অনুচ্ছেদে গঠিত হয়?",
+      "a": "Finance Commission",
+      "w": [
+        "Union Public Service Commission",
+        "Comptroller and Auditor-General",
+        "নির্বাচন কমিশন"
+      ],
+      "e": "২৮০ অনুচ্ছেদে রাষ্ট্রপতি Finance Commission গঠন করেন। UPSC-র বিধান ৩১৫ অনুচ্ছেদে, CAG-র ১৪৮ অনুচ্ছেদে।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "porichoy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "CAG (Comptroller and Auditor-General) সম্পর্কিত অনুচ্ছেদগুলি কোনটি?",
+      "a": "১৪৮–১৫১ অনুচ্ছেদ",
+      "w": [
+        "৩১৫–৩২৩ অনুচ্ছেদ",
+        "২৮০–২৮১ অনুচ্ছেদ",
+        "৭৬ অনুচ্ছেদ"
+      ],
+      "e": "CAG-র পদ, কর্তব্য, হিসাবের আকার ও রিপোর্ট — এই চারটি বিষয় ১৪৮ থেকে ১৫১ অনুচ্ছেদে আছে। ৩১৫–৩২৩ হলো PSC-র, ২৮০–২৮১ Finance Commission-এর, ৭৬ অ্যাটর্নি জেনারেলের।",
+      "claims": [
+        "c25",
+        "c28",
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "porichoy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অ্যাটর্নি জেনারেলের পদের বিধান কোন অনুচ্ছেদে আছে?",
+      "a": "৭৬ অনুচ্ছেদ",
+      "w": [
+        "১৪৮ অনুচ্ছেদ",
+        "২৮০ অনুচ্ছেদ",
+        "৩১৫ অনুচ্ছেদ"
+      ],
+      "e": "৭৬ অনুচ্ছেদে রাষ্ট্রপতি সুপ্রিম কোর্টের বিচারপতি হওয়ার যোগ্য ব্যক্তিকে অ্যাটর্নি জেনারেল নিয়োগ করেন।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "porichoy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোন সংস্থাটি প্রতি পাঁচ বছর অন্তর নতুন করে গঠিত হয়?",
+      "a": "Finance Commission",
+      "w": [
+        "Union Public Service Commission",
+        "CAG-র দপ্তর",
+        "অ্যাটর্নি জেনারেলের পদ"
+      ],
+      "e": "২৮০(১) অনুযায়ী রাষ্ট্রপতি প্রতি পাঁচ বছর অন্তর নতুন Finance Commission গঠন করেন। বাকি তিনটি স্থায়ী পদ/সংস্থা।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "porichoy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সাংবিধানিক সংস্থা বলতে কী বোঝায়?",
+      "a": "যে সংস্থার অস্তিত্ব ও মূল বিধান সংবিধানেই দেওয়া আছে",
+      "w": [
+        "যে সংস্থা শুধু মন্ত্রিসভার সিদ্ধান্তে তৈরি",
+        "যে সংস্থা শুধু আদালতের নির্দেশে তৈরি",
+        "যে সংস্থা বেসরকারি ট্রাস্ট চালায়"
+      ],
+      "e": "সাংবিধানিক সংস্থা সংবিধান নিজে তৈরি করে — যেমন PSC (৩১৫), Finance Commission (২৮০), CAG (১৪৮)। সাধারণ আইন দিয়ে এদের বিলুপ্ত করা যায় না।",
+      "claims": [
+        "c01",
+        "c19",
+        "c25"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "upsc_gothon",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাজ্য Public Service Commission-এর চেয়ারম্যান ও সদস্যদের নিয়োগ করেন কে?",
+      "a": "রাজ্যের রাজ্যপাল",
+      "w": [
+        "রাষ্ট্রপতি",
+        "মুখ্যমন্ত্রী",
+        "UPSC-র চেয়ারম্যান"
+      ],
+      "e": "৩১৬(১) অনুযায়ী রাজ্য কমিশনের চেয়ারম্যান ও সদস্যদের নিয়োগ করেন রাজ্যপাল; কেন্দ্রীয় ও যৌথ কমিশনের ক্ষেত্রে নিয়োগ করেন রাষ্ট্রপতি।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "upsc_gothon",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "UPSC-র সদস্যের মেয়াদ কতদিন?",
+      "a": "ছয় বছর অথবা ৬৫ বছর বয়স পর্যন্ত, যেটি আগে আসে",
+      "w": [
+        "ছয় বছর অথবা ৬২ বছর বয়স পর্যন্ত, যেটি আগে আসে",
+        "পাঁচ বছর অথবা ৬৫ বছর বয়স পর্যন্ত, যেটি আগে আসে",
+        "রাষ্ট্রপতির আনন্দ-মেয়াদ পর্যন্ত"
+      ],
+      "e": "৩১৬(২) অনুযায়ী UPSC সদস্যের মেয়াদ ছয় বছর বা ৬৫ বছর বয়স — যেটি আগে। ৬২ বছর হলো রাজ্য PSC-র বয়সসীমা।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "upsc_gothon",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দুই বা ততোধিক রাজ্যের জন্য যৌথ Public Service Commission গঠনের আইন কে করে?",
+      "a": "সংসদ",
+      "w": [
+        "রাষ্ট্রপতি অধ্যাদেশ দিয়ে",
+        "সংশ্লিষ্ট রাজ্যগুলোর রাজ্যপালগণ মিলে",
+        "UPSC নিজে"
+      ],
+      "e": "৩১৫(২) অনুযায়ী রাজ্যগুলো একমত হলে ও প্রতিটি রাজ্য আইনসভা প্রস্তাব পাস করলে সংসদ আইন করে যৌথ কমিশন গঠন করে।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "upsc_gothon",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Public Service Commission-এর সদস্যদের মধ্যে প্রায় অর্ধেক সদস্যের ক্ষেত্রে কোন শর্ত আছে?",
+      "a": "তাঁদের অন্তত দশ বছর ভারত সরকার বা রাজ্য সরকারের অধীনে পদে থাকতে হবে",
+      "w": [
+        "তাঁদের অন্তত দশ বছর বিচারবিভাগে কাজ করতে হবে",
+        "তাঁদের অন্তত পাঁচ বছর সংসদ সদস্য থাকতে হবে",
+        "তাঁদের বিশ্ববিদ্যালয়ের উপাচার্য হতে হবে"
+      ],
+      "e": "৩১৬(১)-এর শর্ত অনুযায়ী প্রায় অর্ধেক সদস্য এমন ব্যক্তি হবেন যাঁরা নিয়োগের সময় অন্তত দশ বছর কেন্দ্র বা রাজ্য সরকারের অধীনে পদে ছিলেন।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "finance_commission",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Finance Commission-এ মোট কতজন থাকেন?",
+      "a": "একজন চেয়ারম্যান ও চারজন অন্য সদস্য",
+      "w": [
+        "একজন চেয়ারম্যান ও পাঁচজন অন্য সদস্য",
+        "একজন চেয়ারম্যান ও দশজন অন্য সদস্য",
+        "একজন চেয়ারম্যান ও দুজন অন্য সদস্য"
+      ],
+      "e": "২৮০(১) অনুযায়ী Finance Commission গঠিত হয় একজন চেয়ারম্যান ও চারজন অন্য সদস্য নিয়ে, সকলকে নিয়োগ করেন রাষ্ট্রপতি।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "upsc_kaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Public Service Commission-এর সদস্যকে misbehaviour-এর কারণে সরানোর আগে কোন প্রক্রিয়া বাধ্যতামূলক?",
+      "a": "রাষ্ট্রপতির পাঠানো প্রসঙ্গে সুপ্রিম কোর্টের তদন্ত ও রিপোর্ট",
+      "w": [
+        "সংসদের দুই কক্ষে দুই-তৃতীয়াংশ ভোট",
+        "রাজ্যপালের সুপারিশ",
+        "মন্ত্রিসভার সিদ্ধান্ত"
+      ],
+      "e": "৩১৭(১) অনুযায়ী misbehaviour-এর ভিত্তিতে অপসারণের আগে সুপ্রিম কোর্টের তদন্ত ও 'সরানো উচিত' মর্মে রিপোর্ট আবশ্যক; তারপর রাষ্ট্রপতি আদেশ দেন।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "upsc_kaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "UPSC-র বার্ষিক রিপোর্টের সঙ্গে সংসদে পেশ করা স্মারকলিপিতে কী থাকে?",
+      "a": "কোন কোন ক্ষেত্রে কমিশনের পরামর্শ মানা হয়নি ও তার কারণ",
+      "w": [
+        "কমিশনের সদস্যদের বেতনের হিসাব",
+        "পরের বছরের পরীক্ষার সূচি",
+        "রাজ্য PSC-গুলির বাজেট"
+      ],
+      "e": "৩২৩(১) অনুযায়ী রাষ্ট্রপতি রিপোর্টের সঙ্গে এমন স্মারকলিপি পেশ করেন যাতে পরামর্শ অগ্রহণের ক্ষেত্র ও কারণ ব্যাখ্যা থাকে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "upsc_kaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন ক্ষেত্রে সুপ্রিম কোর্টের তদন্ত ছাড়াই রাষ্ট্রপতি PSC সদস্যকে সরাতে পারেন?",
+      "a": "সদস্য দেউলিয়া ঘোষিত হলে",
+      "w": [
+        "সদস্য সরকারের সমালোচনা করলে",
+        "সদস্য পরীক্ষা দেরিতে নিলে",
+        "সদস্য ছুটি বেশি নিলে"
+      ],
+      "e": "৩১৭(৩) অনুযায়ী দেউলিয়া হওয়া, মেয়াদকালে বাইরে বেতনভোগী চাকরি নেওয়া, বা মন-শরীরের অসুস্থতায় অযোগ্যতা — এই তিন ক্ষেত্রে তদন্ত ছাড়াই অপসারণ সম্ভব। বাকি বিকল্পগুলি সংবিধানে নেই।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "upsc_kaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "UPSC-র চেয়ারম্যান অবসরের পর কোন পদ পেতে পারেন?",
+      "a": "কেন্দ্র বা রাজ্য — কোনো সরকারের অধীনেই আর চাকরি পেতে পারেন না",
+      "w": [
+        "তিনি রাজ্যের রাজ্যপাল হতে পারেন",
+        "তিনি কেন্দ্রীয় মন্ত্রী হতে পারেন",
+        "তিনি আবার UPSC-র সদস্য হতে পারেন"
+      ],
+      "e": "৩১৯(ক) অনুযায়ী UPSC-র চেয়ারম্যান পদ ছাড়ার পর ভারত সরকার বা কোনো রাজ্য সরকারের অধীনে আর কোনো চাকরির যোগ্য নন।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "upsc_kaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রাজ্য PSC-র চেয়ারম্যান অবসরের পর কোন পদে যেতে পারেন?",
+      "a": "UPSC-র চেয়ারম্যান বা সদস্য, অথবা অন্য রাজ্য PSC-র চেয়ারম্যান হতে পারেন",
+      "w": [
+        "রাজ্যের মুখ্যমন্ত্রী হতে পারেন",
+        "কেন্দ্র সরকারের সচিব হতে পারেন",
+        "কোনো পদেই যেতে পারেন না"
+      ],
+      "e": "৩১৯(খ) অনুযায়ী রাজ্য PSC-র চেয়ারম্যান শুধু UPSC-র চেয়ারম্যান/সদস্য বা অন্য রাজ্য PSC-র চেয়ারম্যান হতে পারেন; অন্য কোনো সরকারি চাকরি নয়।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "upsc_kaj",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "PSC-র ব্যয় সংহত তহবিলের ওপর 'ধার্য' হওয়ার অর্থ কী?",
+      "a": "ব্যয় আইনসভার বার্ষিক ভোট ছাড়াই তহবিল থেকে দেওয়া হয়",
+      "w": [
+        "ব্যয় প্রতি বছর ভোটে পাস করাতে হয়",
+        "ব্যয় অর্থমন্ত্রী নিজে ঠিক করেন",
+        "ব্যয় শুধু ঋণ নিয়ে মেটানো হয়"
+      ],
+      "e": "৩২২ অনুচ্ছেদে কমিশনের সব ব্যয় — বেতন, ভাতা, পেনশনসহ — সংহত তহবিলের ওপর ধার্য, অর্থাৎ তা ভোটনির্ভর নয়; এটাই আর্থিক স্বাধীনতার সুরক্ষা।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "finance_commission",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Finance Commission-এর সদস্যদের যোগ্যতা কে নির্ধারণ করে?",
+      "a": "সংসদ, আইন করে",
+      "w": [
+        "রাষ্ট্রপতি, নিজের বিবেচনায়",
+        "প্রধানমন্ত্রী",
+        "ভারতের প্রধান বিচারপতি"
+      ],
+      "e": "২৮০(২) অনুযায়ী সদস্যদের যোগ্যতা ও বাছাইয়ের পদ্ধতি সংসদ আইন করে ঠিক করে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "finance_commission",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Finance Commission-এর সুপারিশ সংসদে পেশ করার সময় সঙ্গে কী দিতে হয়?",
+      "a": "গৃহীত ব্যবস্থার ব্যাখ্যামূলক স্মারকলিপি",
+      "w": [
+        "CAG-র নিরীক্ষা রিপোর্ট",
+        "পরের কমিশনের সদস্য তালিকা",
+        "রাজ্যগুলোর সম্মতিপত্র"
+      ],
+      "e": "২৮১ অনুচ্ছেদে রাষ্ট্রপতি প্রতিটি সুপারিশের সঙ্গে কী ব্যবস্থা নেওয়া হয়েছে তার ব্যাখ্যামূলক স্মারকলিপি সংসদের দুই কক্ষে পেশ করেন।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "finance_commission",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পঞ্চায়েতের সম্পদ বাড়ানো নিয়ে Finance Commission-এর সুপারিশের ভিত্তি কী?",
+      "a": "রাজ্য Finance Commission-এর সুপারিশ",
+      "w": [
+        "CAG-র রিপোর্ট",
+        "নির্বাচন কমিশনের প্রতিবেদন",
+        "UPSC-র পরামর্শ"
+      ],
+      "e": "২৮০(৩) অনুযায়ী কেন্দ্রীয় কমিশন রাজ্যের সংহত তহবিল বাড়ানোর ব্যবস্থা সুপারিশ করে রাজ্য Finance Commission-এর সুপারিশের ভিত্তিতে।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "cag",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "CAG-কে কীভাবে অপসারণ করা যায়?",
+      "a": "সুপ্রিম কোর্টের বিচারপতির মতো একই পদ্ধতিতে ও একই কারণে",
+      "w": [
+        "অর্থমন্ত্রীর সুপারিশে রাষ্ট্রপতি যেকোনো সময় সরাতে পারেন",
+        "লোকসভার সাধারণ সংখ্যাগরিষ্ঠ ভোটে",
+        "প্রধানমন্ত্রীর পরামর্শে"
+      ],
+      "e": "১৪৮(১) অনুযায়ী CAG-কে কেবল সুপ্রিম কোর্টের বিচারপতির মতো একই পদ্ধতি ও কারণে সরানো যায়।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "cag",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কেন্দ্র ও রাজ্যের হিসাব কোন আকারে রাখা হবে, তা কে নির্ধারণ করেন?",
+      "a": "রাষ্ট্রপতি, CAG-র পরামর্শে",
+      "w": [
+        "সংসদ, CAG-র পরামর্শ ছাড়া",
+        "অর্থমন্ত্রী একা",
+        "প্রতিটি রাজ্যের অর্থমন্ত্রী নিজে"
+      ],
+      "e": "১৫০ অনুচ্ছেদে হিসাবের আকার রাষ্ট্রপতি নির্ধারণ করেন CAG-র পরামর্শে।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "cag",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনো রাজ্যের হিসাব সম্পর্কে CAG-র রিপোর্ট কার কাছে যায়?",
+      "a": "রাজ্যপালের কাছে, যিনি রাজ্য আইনসভায় পেশ করেন",
+      "w": [
+        "রাষ্ট্রপতির কাছে, যিনি সংসদে পেশ করেন",
+        "মুখ্যমন্ত্রীর কাছে",
+        "সরাসরি সুপ্রিম কোর্টে"
+      ],
+      "e": "১৫১(২) অনুযায়ী রাজ্যের হিসাবের রিপোর্ট রাজ্যপালের কাছে যায় এবং তিনি তা রাজ্য আইনসভায় পেশ করেন। কেন্দ্রের রিপোর্ট যায় রাষ্ট্রপতির কাছে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "attorney_general",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অ্যাটর্নি জেনারেলকে নিয়োগ করেন কে?",
+      "a": "রাষ্ট্রপতি",
+      "w": [
+        "প্রধানমন্ত্রী",
+        "ভারতের প্রধান বিচারপতি",
+        "আইনমন্ত্রী"
+      ],
+      "e": "৭৬(১) অনুযায়ী রাষ্ট্রপতি অ্যাটর্নি জেনারেল নিয়োগ করেন।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "attorney_general",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অ্যাটর্নি জেনারেলের মেয়াদ সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "তিনি রাষ্ট্রপতির আনন্দ-মেয়াদে পদে থাকেন",
+      "w": [
+        "তাঁর মেয়াদ ছয় বছর নির্দিষ্ট",
+        "তিনি ৬৫ বছর বয়স পর্যন্ত পদে থাকেন",
+        "তাঁকে বিচারপতির মতো পদ্ধতিতে সরাতে হয়"
+      ],
+      "e": "৭৬(৪) অনুযায়ী অ্যাটর্নি জেনারেল রাষ্ট্রপতির আনন্দ-মেয়াদে থাকেন; কোনো নির্দিষ্ট মেয়াদ বা বিশেষ অপসারণ-পদ্ধতি নেই।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "attorney_general",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সংসদে অ্যাটর্নি জেনারেলের অধিকার সম্পর্কে সঠিক কোনটি?",
+      "a": "তিনি দুই কক্ষেই বলতে ও অংশ নিতে পারেন, কিন্তু ভোট দিতে পারেন না",
+      "w": [
+        "তিনি শুধু লোকসভায় ভোট দিতে পারেন",
+        "তিনি কোনো কক্ষেই ঢুকতে পারেন না",
+        "তিনি রাজ্যসভায় ভোট দিতে পারেন"
+      ],
+      "e": "৮৮ অনুচ্ছেদে অ্যাটর্নি জেনারেল যেকোনো কক্ষে, যৌথ অধিবেশনে ও কমিটিতে বলতে ও অংশ নিতে পারেন, কিন্তু এই অনুচ্ছেদের ভিত্তিতে ভোট দিতে পারেন না।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "upsc_gothon",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "UPSC কোন শর্তে কোনো রাজ্যের প্রয়োজন মেটাতে পারে?",
+      "a": "রাজ্যপাল অনুরোধ করলে এবং রাষ্ট্রপতি অনুমোদন দিলে",
+      "w": [
+        "মুখ্যমন্ত্রী অনুরোধ করলেই",
+        "সংসদ প্রস্তাব পাস করলে",
+        "রাজ্য PSC ভেঙে গেলে নিজে থেকে"
+      ],
+      "e": "৩১৫(৪) অনুযায়ী রাজ্যপালের অনুরোধ ও রাষ্ট্রপতির অনুমোদন — দুটোই লাগে।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "upsc_gothon",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "PSC সদস্যের সেবার শর্ত সম্পর্কে ৩১৮ অনুচ্ছেদের সুরক্ষা কোনটি?",
+      "a": "নিয়োগের পর সেবার শর্ত সদস্যের ক্ষতি হয় এমনভাবে বদলানো যায় না",
+      "w": [
+        "সেবার শর্ত প্রতি বছর নতুন করে ঠিক হয়",
+        "সেবার শর্ত অর্থ মন্ত্রক যেকোনো সময় বদলাতে পারে",
+        "সেবার শর্ত শুধু আদালত বদলাতে পারে"
+      ],
+      "e": "৩১৮ অনুচ্ছেদের শর্তানুযায়ী সদস্যের সেবার শর্ত নিয়োগের পরে তাঁর অসুবিধা হয় এমনভাবে পরিবর্তন করা যায় না।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "upsc_kaj",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দুই বা ততোধিক রাজ্য বিশেষ যোগ্যতার পদের জন্য যৌথ নিয়োগ চাইলে UPSC-র কর্তব্য কী?",
+      "a": "তাদের যৌথ নিয়োগ-পরিকল্পনা তৈরি ও পরিচালনায় সাহায্য করা",
+      "w": [
+        "নিজে সব নিয়োগ বাতিল করে দেওয়া",
+        "বিষয়টি Finance Commission-এর কাছে পাঠানো",
+        "শুধু পরামর্শ দিয়ে দায়িত্ব শেষ করা"
+      ],
+      "e": "৩২০(২) অনুযায়ী অনুরোধ পেলে UPSC-র কর্তব্য হলো ওই রাজ্যগুলোকে যৌথ নিয়োগ-পরিকল্পনা গড়তে ও চালাতে সাহায্য করা।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "upsc_kaj",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সংসদ কোন অনুচ্ছেদের ক্ষমতায় স্থানীয় সংস্থার সার্ভিসের ক্ষেত্রেও UPSC-কে অতিরিক্ত দায়িত্ব দিতে পারে?",
+      "a": "৩২১ অনুচ্ছেদ",
+      "w": [
+        "৩১৭ অনুচ্ছেদ",
+        "৩১৯ অনুচ্ছেদ",
+        "৩২২ অনুচ্ছেদ"
+      ],
+      "e": "৩২১ অনুচ্ছেদে সংসদ বা রাজ্য আইনসভা আইন করে কমিশনের কাজ স্থানীয় সংস্থা, আইনসৃষ্ট সংস্থা বা সরকারি প্রতিষ্ঠানের সার্ভিসেও বিস্তৃত করতে পারে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "finance_commission",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "Finance Commission নিজের কার্যপদ্ধতি সম্পর্কে কোন বিধান আছে?",
+      "a": "কমিশন নিজেই নিজের কার্যপদ্ধতি নির্ধারণ করে",
+      "w": [
+        "কার্যপদ্ধতি রাষ্ট্রপতি ঠিক করে দেন",
+        "কার্যপদ্ধতি সংসদের নিয়মাবলি অনুযায়ী হয়",
+        "কার্যপদ্ধতি CAG ঠিক করেন"
+      ],
+      "e": "২৮০(৪) অনুযায়ী Finance Commission নিজের পদ্ধতি নিজেই নির্ধারণ করে।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "finance_commission",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'সুস্থ অর্থব্যবস্থার স্বার্থে' রাষ্ট্রপতি কোনো বিষয় Finance Commission-এর কাছে পাঠালে কমিশন কী করে?",
+      "a": "ওই বিষয়েও রাষ্ট্রপতিকে সুপারিশ করে",
+      "w": [
+        "বিষয়টি ফেরত পাঠায়",
+        "বিষয়টি সুপ্রিম কোর্টে পাঠায়",
+        "বিষয়টি পরের কমিশনের জন্য রেখে দেয়"
+      ],
+      "e": "২৮০(৩)(ঘ) অনুযায়ী রাষ্ট্রপতির পাঠানো যেকোনো বিষয়েও কমিশন সুপারিশ করে; এটি তার নির্দিষ্ট তিনটি বিষয়ের বাইরে অতিরিক্ত ক্ষমতা।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "cag",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "CAG-র কর্তব্য ও ক্ষমতা বিস্তারিতভাবে নির্ধারণকারী ১৯৭১ সালের আইনটি কোন সংসদীয় ক্ষমতার ফল?",
+      "a": "১৪৯ অনুচ্ছেদ — CAG-র কর্তব্য সংসদ আইন করে নির্ধারণ করে",
+      "w": [
+        "১৫০ অনুচ্ছেদ — হিসাবের আকার",
+        "১৫১ অনুচ্ছেদ — রিপোর্ট পেশ",
+        "৭৬ অনুচ্ছেদ — আইনি পরামর্শ"
+      ],
+      "e": "১৪৯ অনুচ্ছেদে CAG সংসদের আইনে নির্ধারিত কর্তব্য পালন করেন; সেই ভিত্তিতেই CAG (Duties, Powers and Conditions of Service) Act, 1971 তৈরি।",
+      "claims": [
+        "c28",
+        "c31"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "cag",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পদ ছাড়ার পর CAG সম্পর্কে কোন বিধান আছে?",
+      "a": "তিনি কেন্দ্র বা রাজ্য সরকারের অধীনে আর কোনো পদে থাকতে পারেন না",
+      "w": [
+        "তিনি যেকোনো সরকারি পদে যেতে পারেন",
+        "তিনি শুধু রাজ্যপাল হতে পারেন",
+        "তিনি আবার CAG হতে পারেন"
+      ],
+      "e": "১৪৮(৪) অনুযায়ী CAG পদ ছাড়ার পর ভারত সরকার বা কোনো রাজ্য সরকারের অধীনে আর কোনো পদের যোগ্য নন — যাতে পদে থাকাকালীন ভবিষ্যৎ সুবিধার প্রভাব না পড়ে।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "attorney_general",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অ্যাটর্নি জেনারেলের 'right of audience' বলতে কী বোঝায়?",
+      "a": "ভারতের সব আদালতে শুনানিতে হাজির হওয়ার অধিকার",
+      "w": [
+        "সংসদে ভোট দেওয়ার অধিকার",
+        "যেকোনো মামলায় রায় দেওয়ার অধিকার",
+        "আদালতের বিচারপতি নিয়োগের অধিকার"
+      ],
+      "e": "৭৬(৩) অনুযায়ী দায়িত্ব পালনের ক্ষেত্রে অ্যাটর্নি জেনারেলের ভারতের সব আদালতে শুনানির অধিকার আছে।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "porichoy",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোন জোড়াটি সঠিকভাবে মিলেছে?",
+      "a": "CAG — ব্যয় ভারতের সংহত তহবিলের ওপর ধার্য (১৪৮(৬))",
+      "w": [
+        "CAG — নিয়োগ করেন প্রধানমন্ত্রী",
+        "Finance Commission — সদস্য সংখ্যা চেয়ারম্যানসহ দশ",
+        "অ্যাটর্নি জেনারেল — মেয়াদ ছয় বছর"
+      ],
+      "e": "১৪৮(৬) অনুযায়ী CAG-র দপ্তরের প্রশাসনিক ব্যয় সংহত তহবিলের ওপর ধার্য। CAG-কে নিয়োগ করেন রাষ্ট্রপতি; Finance Commission চেয়ারম্যানসহ পাঁচজন; অ্যাটর্নি জেনারেল আনন্দ-মেয়াদে থাকেন।",
+      "claims": [
+        "c27",
+        "c25",
+        "c19",
+        "c35"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "upsc_kaj",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করো:\n\n১. রাজ্য PSC-র সদস্যকে রাজ্যপাল অপসারণ করতে পারেন।\n২. PSC সদস্যকে misbehaviour-এর কারণে সরাতে সুপ্রিম কোর্টের তদন্ত-রিপোর্ট লাগে।\n\nকোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "শুধু ২",
+      "w": [
+        "শুধু ১",
+        "১ ও ২ দুটোই",
+        "১ নয়, ২-ও নয়"
+      ],
+      "e": "বিবৃতি ১ ভুল: রাজ্য PSC-র সদস্যকে নিয়োগ করেন রাজ্যপাল, কিন্তু সরাতে পারেন কেবল রাষ্ট্রপতি। বিবৃতি ২ সঠিক: ৩১৭(১) অনুযায়ী misbehaviour-এর ক্ষেত্রে সুপ্রিম কোর্টের তদন্ত ও রিপোর্ট বাধ্যতামূলক।",
+      "claims": [
+        "c04",
+        "c08"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "finance_commission",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করো:\n\n১. Finance Commission একটি সাংবিধানিক সংস্থা।\n২. Finance Commission প্রতি দশ বছর অন্তর গঠিত হয়।\n\nকোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "শুধু ১",
+      "w": [
+        "শুধু ২",
+        "১ ও ২ দুটোই",
+        "১ নয়, ২-ও নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক: কমিশনটি ২৮০ অনুচ্ছেদে গঠিত, তাই সাংবিধানিক সংস্থা। বিবৃতি ২ ভুল: গঠন হয় প্রতি পাঁচ বছর অন্তর।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "cag",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করো:\n\n১. CAG-র রিপোর্ট কেন্দ্রের ক্ষেত্রে রাষ্ট্রপতির মাধ্যমে সংসদে পেশ হয়।\n২. CAG-র বেতন ও পেনশন-সংক্রান্ত অধিকার নিয়োগের পর তাঁর ক্ষতি হয় এমনভাবে বদলানো যায়।\n\nকোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "শুধু ১",
+      "w": [
+        "শুধু ২",
+        "১ ও ২ দুটোই",
+        "১ নয়, ২-ও নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক (১৫১)। বিবৃতি ২ ভুল: ১৪৮(৩) অনুযায়ী বেতন, ছুটি, পেনশন বা অবসরের বয়স নিয়োগের পর CAG-র অসুবিধা হয় এমনভাবে বদলানো যায় না।",
+      "claims": [
+        "c30",
+        "c38"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "porichoy",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I (সংস্থা) | তালিকা II (অনুচ্ছেদ) |\n|---|---|\n| A. Finance Commission | 1. ৭৬ |\n| B. CAG | 2. ৩১৫ |\n| C. অ্যাটর্নি জেনারেল | 3. ২৮০ |\n| D. Public Service Commission | 4. ১৪৮ |",
+      "a": "A-3, B-4, C-1, D-2",
+      "w": [
+        "A-1, B-2, C-3, D-4",
+        "A-3, B-1, C-4, D-2",
+        "A-4, B-3, C-2, D-1"
+      ],
+      "e": "Finance Commission = ২৮০, CAG-র শুরু ১৪৮, অ্যাটর্নি জেনারেল = ৭৬, PSC-র শুরু ৩১৫।",
+      "claims": [
+        "c19",
+        "c25",
+        "c32",
+        "c01"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "attorney_general",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**Assertion (A):** অ্যাটর্নি জেনারেলের কোনো নির্দিষ্ট মেয়াদ বা অপসারণ-সুরক্ষা নেই।\n\n**Reason (R):** ৭৬(৪) অনুচ্ছেদ অনুযায়ী তিনি রাষ্ট্রপতির আনন্দ-মেয়াদে পদে থাকেন।",
+      "a": "A ও R দুটোই সঠিক এবং R হলো A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "A সঠিক, আর তার কারণই R: আনন্দ-মেয়াদের বিধান থাকায় নির্দিষ্ট মেয়াদ বা অপসারণ-সুরক্ষার প্রশ্নই ওঠে না। তিনি সরকারের প্রধান আইন-উপদেষ্টা, নজরদার সংস্থা নন।",
+      "claims": [
+        "c35",
+        "c33"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "upsc_gothon",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিকভাবে মিলেছে?",
+      "a": "রাজ্য PSC সদস্য — বয়সসীমা ৬২ বছর",
+      "w": [
+        "UPSC সদস্য — বয়সসীমা ৬২ বছর",
+        "রাজ্য PSC সদস্য — নিয়োগ করেন রাষ্ট্রপতি",
+        "UPSC সদস্য — মেয়াদ শেষে একই পদে পুনর্নিয়োগ হয়"
+      ],
+      "e": "৩১৬(২) অনুযায়ী রাজ্য PSC সদস্যের বয়সসীমা ৬২, UPSC-র ৬৫। রাজ্য PSC-র নিয়োগ করেন রাজ্যপাল, আর মেয়াদ শেষে একই পদে পুনর্নিয়োগ নিষিদ্ধ (৩১৬(৩))।",
+      "claims": [
+        "c06",
+        "c04",
+        "c07"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "finance_commission",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I (বিষয়) | তালিকা II (অনুচ্ছেদ) |\n|---|---|\n| A. Finance Commission গঠন | 1. ৩২৩ |\n| B. PSC-র বার্ষিক রিপোর্ট | 2. ২৮০ |\n| C. হিসাবের আকার CAG-র পরামর্শে | 3. ১৫১ |\n| D. CAG-র রিপোর্ট পেশ | 4. ১৫০ |",
+      "a": "A-2, B-1, C-4, D-3",
+      "w": [
+        "A-1, B-2, C-3, D-4",
+        "A-2, B-3, C-1, D-4",
+        "A-4, B-1, C-2, D-3"
+      ],
+      "e": "Finance Commission গঠন = ২৮০; PSC-র বার্ষিক রিপোর্ট = ৩২৩; হিসাবের আকার = ১৫০; CAG-র রিপোর্ট = ১৫১।",
+      "claims": [
+        "c19",
+        "c18",
+        "c29",
+        "c30"
+      ]
+    }
+  ]
+}

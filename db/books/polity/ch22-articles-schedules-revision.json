@@ -1,0 +1,1471 @@
+{
+  "book": "polity",
+  "code": "POL-22",
+  "number": 22,
+  "part": "revision",
+  "title": "গুরুত্বপূর্ণ অনুচ্ছেদ, তফসিল ও পরিভাষা — রিভিশন",
+  "subtitle": "১২টি তফসিল এক ছকে, গুরুত্বপূর্ণ অনুচ্ছেদ ও জোড়া-ভুলের শেষ রিভিশন",
+  "subtopics": [
+    "schedules_articles"
+  ],
+  "related_facts": [],
+  "prerequisites": [
+    "POL-15",
+    "POL-20",
+    "POL-21"
+  ],
+  "reading_minutes": {
+    "quick": 8,
+    "standard": 28,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 46/46 answers matched the key (40 SURE, 4 LIKELY, 2 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 8 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_POL-22.json and drafts/POL-22_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/POL-22_REPORT.md.",
+    "checked_claims": 36,
+    "checked_questions": 46,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এটি পলিটি বইয়ের শেষ রিভিশন অধ্যায়। আগের সব অধ্যায়ে পড়া তফসিল আর অনুচ্ছেদ এখানে এক জায়গায় ছক করে দেওয়া হলো: ১২টি তফসিলের নম্বর–বিষয়–যুক্ত অনুচ্ছেদ–সংশোধনী, সপ্তম তফসিলের তিন তালিকা, অষ্টম তফসিলের ২২ ভাষা, নবম–দশমের সাল-জোড়া, একাদশ–দ্বাদশের পঞ্চায়েত–পৌরসভা জুটি, আর সবচেয়ে বেশি জিজ্ঞাসিত অনুচ্ছেদের ছক। পরীক্ষার আগের শেষ সপ্তাহে শুধু এই অধ্যায়টিই বারবার পড়লেই তফসিল-অনুচ্ছেদের প্রায় সব প্রশ্ন ধরা যাবে।",
+    "you_will_learn": [
+      "১২টি তফসিল: নম্বর → বিষয় → যুক্ত অনুচ্ছেদ",
+      "সপ্তম তফসিল ও ২৪৬ অনুচ্ছেদ: তিন তালিকায় ক্ষমতা-বণ্টন",
+      "অষ্টম তফসিল: ২২ ভাষা ও ভাষা-যোগের তিনটি সংশোধনী",
+      "নবম (১৯৫১) বনাম দশম (১৯৮৫): সাল-জোড়ার ফাঁদ",
+      "একাদশ (পঞ্চায়েত, ২৯ বিষয়) বনাম দ্বাদশ (পৌরসভা)",
+      "গুরুত্বপূর্ণ অনুচ্ছেদ: ১৪, ২১, ৩২, ৩৭, ৪০, ৫১, ২৪৬, ৩৬৮"
+    ]
+  },
+  "sections": [
+    {
+      "id": "manchitro",
+      "heading": "পুরো মানচিত্র: ভাগ, অনুচ্ছেদ ও ১২টি তফসিল",
+      "quick": "সংবিধানকে পরীক্ষার জন্য তিনটি মানচিত্রে ভাগ করে পড়ো: **ভাগ (Part)** — বিষয়ভিত্তিক অধ্যায়, **অনুচ্ছেদ (Article)** — প্রতিটি বিধান, আর **তফসিল (Schedule)** — শেষে দেওয়া বিস্তারিত তালিকা ও ছক। এই অধ্যায় শুধু রিভিশন: প্রতিটি তফসিল এক লাইনে, আর সবচেয়ে বেশি জিজ্ঞাসিত অনুচ্ছেদগুলো এক ছকে।",
+      "standard": "সংবিধানের মূল পাঠে অনুচ্ছেদ ধরে ধরে বিধান দেওয়া আছে। কিন্তু কিছু বিষয়ের বিস্তারিত তালিকা — যেমন রাজ্যের নাম, ভাষার তালিকা, পঞ্চায়েতের বিষয় — মূল পাঠে রাখলে অনুচ্ছেদগুলো ভারী হয়ে যেত। তাই সেগুলো শেষে **তফসিল (Schedule)** আকারে রাখা হয়েছে। প্রতিটি তফসিল কোনো না কোনো অনুচ্ছেদের সঙ্গে যুক্ত: যেমন অষ্টম তফসিল যুক্ত ৩৪৪(১) ও ৩৫১ অনুচ্ছেদের সঙ্গে, একাদশ তফসিল ২৪৩G-এর সঙ্গে।\n\nপরীক্ষার কৌশল সহজ: তফসিলের **নম্বর → বিষয়** জোড়াটি মুখস্থ করো, তারপর প্রতিটির **যুক্ত অনুচ্ছেদ** আর **কোন সংশোধনীতে এসেছে** — এই তিনটি তথ্যই প্রায় সব প্রশ্নের উত্তর। এই অধ্যায়ে আমরা সেই ক্রমেই যাব: প্রথমে ১–৬, তারপর সবচেয়ে গুরুত্বপূর্ণ সপ্তম ও অষ্টম, তারপর নবম–দশম, শেষে একাদশ–দ্বাদশ এবং গুরুত্বপূর্ণ অনুচ্ছেদের ছক।",
+      "deep": "তফসিল মনে রাখার সূত্র: **ভূখণ্ড (১) → বেতন-শপথ-আসন (২,৩,৪) → তফসিলি এলাকা ও উপজাতি (৫,৬) → ক্ষমতা-বণ্টন (৭) → ভাষা (৮) → বৈধতা-রক্ষা (৯) → দলত্যাগ (১০) → পঞ্চায়েত (১১) → পৌরসভা (১২)**। এই এক লাইনের গল্পটাই পুরো অধ্যায়ের কঙ্কাল।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "তিনটি মানচিত্র",
+          "body": "ভাগ = বিষয়ের অধ্যায়, অনুচ্ছেদ = বিধান, তফসিল = শেষের বিস্তারিত তালিকা। প্রশ্নে তফসিল এলে প্রথমে নম্বর–বিষয় জোড়া মেলাও।"
+        }
+      ],
+      "claims": [
+        "c08",
+        "c13",
+        "c24",
+        "c25"
+      ]
+    },
+    {
+      "id": "prothom_shostho",
+      "heading": "প্রথম থেকে ষষ্ঠ তফসিল",
+      "quick": "**১ম:** রাজ্য ও কেন্দ্রশাসিত অঞ্চলের নাম-ভূখণ্ড। **২য়:** রাষ্ট্রপতি, রাজ্যপাল, বিচারপতি, CAG প্রমুখের বিধান। **৩য়:** শপথের ছক। **৪র্থ:** রাজ্যসভায় আসন বণ্টন। **৫ম:** তফসিলি এলাকা ও তফসিলি উপজাতির প্রশাসন। **৬ষ্ঠ:** অসম, মেঘালয়, ত্রিপুরা ও মিজোরামের উপজাতি এলাকার প্রশাসন।",
+      "standard": "**প্রথম তফসিল:** ১ অনুচ্ছেদ বলছে, রাজ্যগুলি ও তাদের ভূখণ্ড প্রথম তফসিলে নির্দিষ্ট থাকবে। ২ বা ৩ অনুচ্ছেদে নতুন রাজ্য গঠন বা সীমানা বদল হলে ৪ অনুচ্ছেদ অনুযায়ী সেই আইনেই প্রথম ও চতুর্থ তফসিলের প্রয়োজনীয় সংশোধন থাকে।\n\n**দ্বিতীয় তফসিল:** ভাগ A-তে রাষ্ট্রপতি ও রাজ্যপালদের বিধান, ভাগ C-তে লোকসভা-রাজ্যসভা ও রাজ্য আইনসভার সভাপতি-অধ্যক্ষদের বিধান, ভাগ D-তে সুপ্রিম কোর্ট ও হাইকোর্টের বিচারপতিদের বিধান, ভাগ E-তে CAG-এর বিধান।\n\n**তৃতীয় তফসিল:** শপথ বা প্রতিজ্ঞার ছক (Forms of Oaths or Affirmations)। **চতুর্থ তফসিল:** রাজ্যসভায় (Council of States) আসন বণ্টন।\n\n**পঞ্চম তফসিল:** তফসিলি এলাকা ও তফসিলি উপজাতির প্রশাসন ও নিয়ন্ত্রণ। **ষষ্ঠ তফসিল:** উপজাতি এলাকার প্রশাসন — নির্দিষ্ট চার রাজ্য: **অসম, মেঘালয়, ত্রিপুরা ও মিজোরাম**। পঞ্চম আর ষষ্ঠের পার্থক্যটাই পরীক্ষার ফাঁদ: পঞ্চম = সাধারণভাবে তফসিলি এলাকা, ষষ্ঠ = উত্তর-পূর্বের ওই চার রাজ্যের উপজাতি এলাকা।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "পঞ্চম বনাম ষষ্ঠ",
+          "body": "পঞ্চম তফসিল — তফসিলি এলাকা ও তফসিলি উপজাতির প্রশাসন (সাধারণ)। ষষ্ঠ তফসিল — শুধু অসম, মেঘালয়, ত্রিপুরা, মিজোরামের উপজাতি এলাকা।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "soptom",
+      "heading": "সপ্তম তফসিল: তিনটি তালিকা ও ক্ষমতা-বণ্টন",
+      "quick": "সপ্তম তফসিলে তিনটি তালিকা: **তালিকা I — কেন্দ্রীয় তালিকা (Union List)**, **তালিকা II — রাজ্য তালিকা (State List)**, **তালিকা III — যুগ্ম তালিকা (Concurrent List)**। ২৪৬ অনুচ্ছেদ এই তালিকা অনুযায়ী আইন প্রণয়নের ক্ষমতা ভাগ করে দেয় — WBCS ২০১৯-এ সরাসরি প্রশ্ন এসেছিল, কোন তফসিল কেন্দ্র-রাজ্য ক্ষমতা বণ্টন করে।",
+      "standard": "২৪৬ অনুচ্ছেদের তিনটি ধাপ মুখস্থ করো:\n\n- **২৪৬(১):** কেন্দ্রীয় তালিকার বিষয়ে **শুধু সংসদের** একচেটিয়া ক্ষমতা।\n- **২৪৬(২):** যুগ্ম তালিকার বিষয়ে **সংসদ ও রাজ্য আইনসভা — দুজনেই** আইন করতে পারে।\n- **২৪৬(৩):** রাজ্য তালিকার বিষয়ে **রাজ্য আইনসভার** একচেটিয়া ক্ষমতা — তবে ২৪৬(১) ও (২)-এর সাপেক্ষে।\n\nআর ২৪৮ অনুচ্ছেদ: কোনো তালিকাতেই নেই এমন বিষয়ে (**অবশিষ্ট ক্ষমতা, Residuary power**) আইন করার একচেটিয়া ক্ষমতা **সংসদের**।\n\nযুগ্ম তালিকার একটি বিখ্যাত উদাহরণ: 'অর্থনৈতিক ও সামাজিক পরিকল্পনা' যুগ্ম তালিকার বিষয় — WBCS ২০২৩-এ এই প্রশ্নটিই এসেছিল। GST-র জন্য ২৪৬A অনুচ্ছেদ বিশেষ বিধান: GST নিয়ে সংসদ ও প্রতিটি রাজ্য আইনসভা — দুজনেই আইন করতে পারে।",
+      "deep": "তালিকা চেনার কৌশল: বিষয়টি সারা দেশে একই নিয়ম চাইলে সাধারণত কেন্দ্রীয়, স্থানীয় প্রকৃতির হলে রাজ্য, আর দুই স্তরেই গুরুত্বপূর্ণ হলে যুগ্ম তালিকার দিকে ঝুঁকবে। তবে পরীক্ষায় যুক্তি নয়, তফসিলের প্রকৃত অবস্থানই উত্তর — তাই ২৪৬-র তিন ধাপ আর অবশিষ্ট ক্ষমতার দিকটা (কেন্দ্রের হাতে) নিশ্চিত করে মুখস্থ করো।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "PYQ প্রমাণ",
+          "body": "WBCS ২০১৯: কোন তফসিল ক্ষমতা বণ্টন করে — উত্তর সপ্তম। WBCS ২০২৩: অর্থনৈতিক ও সামাজিক পরিকল্পনা — যুগ্ম তালিকা। দুটোই এই বিভাগ থেকেই উত্তর করা যায়।"
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c33"
+      ]
+    },
+    {
+      "id": "ashtom",
+      "heading": "অষ্টম তফসিল: ভাষার তালিকা",
+      "quick": "অষ্টম তফসিল হলো **ভাষার তালিকা** — যুক্ত অনুচ্ছেদ **৩৪৪(১) ও ৩৫১**। তালিকায় মোট **২২টি ভাষা**; **বাংলা তালিকার ২ নম্বরে**, শেষ ভাষা **উর্দু (২২ নম্বর)**।",
+      "standard": "অষ্টম তফসিলের শিরোনামেই লেখা আছে এটি ৩৪৪(১) ও ৩৫১ অনুচ্ছেদের সঙ্গে যুক্ত। তালিকার শুরু: ১. অসমিয়া, ২. **বাংলা**, তারপর বোড়ো, ডোগরি, গুজরাটি, হিন্দি, কন্নড়, কাশ্মীরি, কোঙ্কণি, মৈথিলী, মালয়ালম, মণিপুরী, মারাঠি, নেপালি, ওড়িয়া, পাঞ্জাবি, সংস্কৃত, সাঁওতালি, সিন্ধি, তামিল, তেলুগু, ২২. উর্দু।\n\nভাষা যোগ হওয়ার ইতিহাসটাই পরীক্ষার প্রশ্ন:\n\n- **২১তম সংশোধনী, ১৯৬৭:** সিন্ধি যোগ হয়।\n- **৭১তম সংশোধনী, ১৯৯২:** কোঙ্কণি, মণিপুরী ও নেপালি যোগ হয়।\n- **৯২তম সংশোধনী, ২০০৩:** বোড়ো, ডোগরি, মৈথিলী ও সাঁওতালি যোগ হয়।\n\nলক্ষ করো: সাঁওতালি পশ্চিমবঙ্গেরও গুরুত্বপূর্ণ ভাষা — অষ্টম তফসিলে তার স্থান ৯২তম সংশোধনীতে এসেছে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "যোগের ক্রম",
+          "body": "সিন্ধি (১৯৬৭) → কোঙ্কণি, মণিপুরী, নেপালি (১৯৯২) → বোড়ো, ডোগরি, মৈথিলী, সাঁওতালি (২০০৩)। শেষ চারটি যোগ হয়েই মোট ২২।"
+        }
+      ],
+      "claims": [
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c36"
+      ]
+    },
+    {
+      "id": "nobom_doshom",
+      "heading": "নবম ও দশম তফসিল: বৈধতা-রক্ষা ও দলত্যাগ",
+      "quick": "**নবম তফসিল** (৩১B অনুচ্ছেদ) — নির্দিষ্ট আইন ও বিধির বৈধতা-রক্ষার তালিকা; এসেছিল **১ম সংশোধনী, ১৯৫১**-তে। **দশম তফসিল** (১০২(২) ও ১৯১(২) অনুচ্ছেদ) — **দলত্যাগের কারণে অযোগ্যতা**; এসেছিল **৫২তম সংশোধনী, ১৯৮৫**-তে — WBCS ২০২৩-এর সরাসরি প্রশ্ন।",
+      "standard": "**নবম তফসিল:** এর প্রথম এন্ট্রি বিহার ভূমি সংস্কার আইন, ১৯৫০। প্রথম ১৩টি এন্ট্রি যোগ হয় ১ম সংশোধনী আইন, ১৯৫১-তে। পশ্চিমবঙ্গের জন্য মনে রাখো: এন্ট্রি ৫৯ — পশ্চিমবঙ্গ এস্টেট অধিগ্রহণ আইন, ১৯৫৩ এবং এন্ট্রি ৬০ — পশ্চিমবঙ্গ ভূমি সংস্কার আইন, ১৯৫৫ — দুটোই নবম তফসিলে আছে।\n\n**দশম তফসিল:** অনুচ্ছেদ ১০২(২) ও ১৯১(২)-এর সঙ্গে যুক্ত এই তফসিল দলত্যাগে অযোগ্যতার বিধান দেয়। ২ নম্বর অনুচ্ছেদ (paragraph) অনুযায়ী সদস্য অযোগ্য হন যদি তিনি — (ক) স্বেচ্ছায় দলের সদস্যপদ ছেড়ে দেন, অথবা (খ) দলের নির্দেশের বিরুদ্ধে ভোট দেন বা ভোট থেকে বিরত থাকেন (পূর্বানুমতি ছাড়া, এবং ১৫ দিনের মধ্যে দল ক্ষমা না করলে)।\n\n**ব্যতিক্রম — সংযুক্তি (merger):** মূল দলের সংযুক্তি ঘটেছে বলে ধরা হবে শুধু যদি বিধায়ক-দলের **অন্তত দুই-তৃতীয়াংশ** সদস্য সংযুক্তিতে সম্মত হন। আর অযোগ্যতার প্রশ্ন উঠলে সিদ্ধান্ত নেন কক্ষের **চেয়ারম্যান বা স্পিকার** — তাঁর সিদ্ধান্তই চূড়ান্ত।",
+      "deep": "পাদটীকায় দেখা যায় দশম তফসিলের পুরনো অনুচ্ছেদ ৩ (বিভাজন-সংক্রান্ত) পরবর্তী সংশোধনীতে বাদ পড়েছে। তাই পরীক্ষায় পুরনো 'বিভাজন' ব্যতিক্রমকে বর্তমান বিধান ভেবে উত্তর দেবে না; এই অধ্যায়ে শুধু সংযুক্তির ব্যতিক্রমটিই বর্তমান বিধান হিসেবে শেখানো হলো।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "নবম বনাম দশম",
+          "body": "নবম = আইনের বৈধতা-রক্ষা (১৯৫১)। দশম = দলত্যাগে অযোগ্যতা (১৯৮৫, ৫২তম সংশোধনী)। সাল দুটো উল্টে দিলেই ভুল উত্তর।"
+        }
+      ],
+      "claims": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c34"
+      ]
+    },
+    {
+      "id": "ekadosh_dadosh",
+      "heading": "একাদশ ও দ্বাদশ তফসিল: পঞ্চায়েত ও পৌরসভা",
+      "quick": "**একাদশ তফসিল** (২৪৩G অনুচ্ছেদ) — পঞ্চায়েতের ক্ষমতা, কর্তৃত্ব ও দায়িত্ব; বিষয় **২৯টি**; এসেছে **৭৩তম সংশোধনী, ১৯৯২**-তে। **দ্বাদশ তফসিল** (২৪৩W অনুচ্ছেদ) — পৌরসভার ক্ষমতা, কর্তৃত্ব ও দায়িত্ব; প্রথম বিষয় **নগর পরিকল্পনা**।",
+      "standard": "একাদশ তফসিলের ২৯টি বিষয়ের মধ্যে পরীক্ষায় সবচেয়ে চেনা: কৃষি, ভূমি সংস্কার বাস্তবায়ন, ক্ষুদ্র সেচ, পশুপালন, পানীয় জল, গ্রামীণ আবাসন, দারিদ্র্য দূরীকরণ কর্মসূচি, শিক্ষা (প্রাথমিক ও মাধ্যমিক বিদ্যালয়সহ), স্বাস্থ্য ও স্যানিটেশন, নারী ও শিশু উন্নয়ন, আর শেষ (২৯ নম্বর) বিষয় — সাম্প্রদায়িক সম্পদের রক্ষণাবেক্ষণ।\n\nদ্বাদশ তফসিল শহরের তালিকা: নগর পরিকল্পনা (town planning-সহ), ভূমি-ব্যবহার ও ভবন নির্মাণের নিয়ন্ত্রণ, অর্থনৈতিক ও সামাজিক উন্নয়নের পরিকল্পনা, রাস্তা ও সেতু, জল সরবরাহ, জনস্বাস্থ্য ও কঠিন বর্জ্য ব্যবস্থাপনা, অগ্নিনির্বাপণ পরিষেবা ইত্যাদি।\n\nজুটি মনে রাখো: **৭৩তম → পঞ্চায়েত → একাদশ** আর **৭৪তম → পৌরসভা → দ্বাদশ**। Clerkship ২০২৩-এ দুই সেশনেই ৭৩তম সংশোধনী = পঞ্চায়েত প্রশ্নটি এসেছে। মনে রাখবে, নির্দেশক নীতিতেও ৪০ অনুচ্ছেদ গ্রাম পঞ্চায়েত সংগঠনের কথা বলে — কিন্তু সাংবিধানিক মর্যাদা ও বিষয়-তালিকা এসেছে ৭৩তম সংশোধনীর একাদশ তফসিলে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "জুটি-ফাঁদ",
+          "body": "প্রশ্নে 'পৌরসভা' দেখলেই ৭৪তম/দ্বাদশ, 'পঞ্চায়েত' দেখলেই ৭৩তম/একাদশ। অপশনে দুটোই পাশাপাশি থাকে — এটাই ফাঁদ।"
+        }
+      ],
+      "claims": [
+        "c24",
+        "c25",
+        "c35",
+        "c30"
+      ]
+    },
+    {
+      "id": "guruttopurno_onuchchhed",
+      "heading": "গুরুত্বপূর্ণ অনুচ্ছেদ: এক ছকে রিভিশন",
+      "quick": "সবচেয়ে বেশি জিজ্ঞাসিত অনুচ্ছেদের ছক: **১৪** — আইনের চোখে সমতা; **২১** — জীবন ও ব্যক্তি-স্বাধীনতা; **৩২** — সাংবিধানিক প্রতিকার (সুপ্রিম কোর্টে সরাসরি যাওয়া); **৩৭** — নির্দেশক নীতি আদালতে বলবৎযোগ্য নয়; **৪০** — গ্রাম পঞ্চায়েত; **৫১** — আন্তর্জাতিক শান্তি ও নিরাপত্তা; **২৪৬** — তালিকা অনুযায়ী ক্ষমতা; **৩৬৮** — সংবিধান সংশোধনের ক্ষমতা ও পদ্ধতি।",
+      "standard": "ছকটি বিষয় ধরে পড়ো:\n\n- **১৪ অনুচ্ছেদ:** রাষ্ট্র কাউকে আইনের চোখে সমতা বা আইনের সমান সুরক্ষা থেকে বঞ্চিত করতে পারে না।\n- **২১ অনুচ্ছেদ:** জীবন ও ব্যক্তি-স্বাধীনতার সুরক্ষা — তৃতীয় ভাগে (মৌলিক অধিকার)।\n- **৩২ অনুচ্ছেদ:** মৌলিক অধিকার বলবৎ করতে সুপ্রিম কোর্টে যাওয়ার অধিকার নিজেই নিশ্চিত; আদালত হেবিয়াস কর্পাস, ম্যান্ডামাস, প্রোহিবিশন, কো-ওয়ারান্টো ও সার্শিওরারি — এই রিটগুলি জারি করতে পারে।\n- **৩৭ অনুচ্ছেদ:** নির্দেশক নীতি কোনো আদালতে বলবৎযোগ্য নয়, তবু শাসনে মৌলিক।\n- **৫১ অনুচ্ছেদ:** নির্দেশক নীতিতেই আন্তর্জাতিক শান্তি ও নিরাপত্তার উৎসাহ — WBCS ২০১৯-এ অপশনে নবম তফসিল থাকলেও সঠিক উত্তর ছিল নির্দেশক নীতি; তফসিল দেখে ঘাবড়াবে না।\n- **৩৬৮ অনুচ্ছেদ:** সংসদের সংবিধান সংশোধনের ক্ষমতা ও তার পদ্ধতি — এই শিরোনামটিই পরীক্ষার প্রশ্ন।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "৩২ বনাম ৩৭",
+          "body": "৩২ = অধিকার বলবতের পথ (আদালতে যাওয়া যায়)। ৩৭ = নির্দেশক নীতি আদালতে বলবৎযোগ্য নয়। একটি বলবৎযোগ্যতা দেয়, অন্যটি সীমা টানে।"
+        }
+      ],
+      "claims": [
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c31",
+        "c32"
+      ]
+    },
+    {
+      "id": "poribhasha",
+      "heading": "পরিভাষা ও চিরকালীন ভুলগুলো",
+      "quick": "এই অধ্যায়ের ভুলগুলো প্রায় সবই **জোড়া-বদল**: পঞ্চম/ষষ্ঠ, নবম/দশম, একাদশ/দ্বাদশ, ৭৩তম/৭৪তম, কেন্দ্রীয়/যুগ্ম তালিকা। শেষ রিভিশনে শুধু জোড়াগুলো পাশাপাশি রেখে পড়ো।",
+      "standard": "**পরিভাষা ঝালাই:**\n\n- **তফসিল (Schedule):** সংবিধানের শেষে থাকা বিস্তারিত তালিকা/ছক।\n- **অবশিষ্ট ক্ষমতা (Residuary power):** কোনো তালিকায় না-থাকা বিষয়ে আইনের ক্ষমতা — ২৪৮ অনুচ্ছেদে সংসদের হাতে।\n- **দলত্যাগ (Defection):** দল ছাড়া বা দলের নির্দেশ অমান্য করে ভোট — দশম তফসিলে অযোগ্যতার কারণ।\n- **সংযুক্তি (Merger):** দুই-তৃতীয়াংশ বিধায়ক-দলের সম্মতিতে দলের মিশে যাওয়া — দশম তফসিলের ব্যতিক্রম।\n- **রিট (Writ):** ৩২ অনুচ্ছেদে সুপ্রিম কোর্টের জারি করা নির্দেশ — হেবিয়াস কর্পাস, ম্যান্ডামাস, প্রোহিবিশন, কো-ওয়ারান্টো, সার্শিওরারি।\n\n**ভুলের তালিকা:** (১) ভাষা = অষ্টম, নবম নয়। (২) দলত্যাগ = দশম, ৫২তম সংশোধনী (১৯৮৫)। (৩) পঞ্চায়েতের ২৯ বিষয় = একাদশ। (৪) অবশিষ্ট ক্ষমতা রাজ্যের নয়, সংসদের। (৫) বাংলা অষ্টম তফসিলের ২ নম্বর ভাষা।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "সালের জোড়া",
+          "body": "১৯৫১ = নবম (১ম সংশোধনী), ১৯৮৫ = দশম (৫২তম), ১৯৯২ = একাদশ (৭৩তম) ও ভাষা-যোগ (৭১তম), ২০০৩ = ভাষা-যোগ (৯২তম)।"
+        }
+      ],
+      "claims": [
+        "c12",
+        "c21",
+        "c22",
+        "c28"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "নবম তফসিলের জন্ম",
+      "when": "১৯৫১",
+      "what": "১ম সংশোধনীতে নবম তফসিল যোগ হয়, প্রথম ১৩টি এন্ট্রিসহ।",
+      "why_it_matters": "ভূমি-সংস্কার আইনের বৈধতা-রক্ষার তালিকা হিসেবে এটি পরীক্ষায় বারবার আসে।",
+      "section": "nobom_doshom",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "title": "দশম তফসিলের জন্ম",
+      "when": "১৯৮৫",
+      "what": "৫২তম সংশোধনীতে দলত্যাগ-বিরোধী দশম তফসিল যোগ হয়।",
+      "why_it_matters": "WBCS ২০২৩-এ সরাসরি প্রশ্ন এসেছে কোন সংশোধনী দলত্যাগ-বিরোধী আইনের।",
+      "section": "nobom_doshom",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "title": "একাদশ তফসিলের জন্ম",
+      "when": "১৯৯২",
+      "what": "৭৩তম সংশোধনীতে একাদশ তফসিল যোগ হয় (কার্যকর ২৪-৪-১৯৯৩)।",
+      "why_it_matters": "পঞ্চায়েতের সাংবিধানিক মর্যাদা ও ২৯ বিষয়ের ভিত্তি এই সংশোধনী।",
+      "section": "ekadosh_dadosh",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "স্পিকার / চেয়ারম্যান",
+      "when": "দশম তফসিল",
+      "role": "কক্ষের সভাপতি",
+      "contribution": "দলত্যাগে অযোগ্যতার প্রশ্নে তাঁর সিদ্ধান্তই চূড়ান্ত (দশম তফসিল, অনুচ্ছেদ ৬)।",
+      "section": "nobom_doshom",
+      "claims": [
+        "c23"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1951,
+      "when": "১৯৫১",
+      "label": "১ম সংশোধনী — নবম তফসিল যোগ (প্রথম ১৩ এন্ট্রি)",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 1967,
+      "when": "১৯৬৭",
+      "label": "২১তম সংশোধনী — সিন্ধি অষ্টম তফসিলে যোগ",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "sort_year": 1985,
+      "when": "১৯৮৫",
+      "label": "৫২তম সংশোধনী — দশম তফসিল (দলত্যাগ) যোগ",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "sort_year": 1992,
+      "when": "১৯৯২",
+      "label": "৭১তম সংশোধনী — কোঙ্কণি, মণিপুরী, নেপালি অষ্টম তফসিলে যোগ",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 1993,
+      "when": "১৯৯৩",
+      "label": "৭৩তম সংশোধনীর একাদশ তফসিল কার্যকর (২৪-৪-১৯৯৩)",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "sort_year": 2003,
+      "when": "২০০৩",
+      "label": "৯২তম সংশোধনী — বোড়ো, ডোগরি, মৈথিলী, সাঁওতালি অষ্টম তফসিলে যোগ",
+      "claims": [
+        "c15"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "তফসিল (Schedule)",
+      "meaning": "সংবিধানের শেষে থাকা বিস্তারিত তালিকা বা ছক",
+      "section": "manchitro"
+    },
+    {
+      "term": "অবশিষ্ট ক্ষমতা (Residuary Power)",
+      "meaning": "কোনো তালিকায় না-থাকা বিষয়ে আইনের ক্ষমতা — ২৪৮ অনুচ্ছেদে সংসদের হাতে",
+      "section": "soptom"
+    },
+    {
+      "term": "দলত্যাগ (Defection)",
+      "meaning": "দল ত্যাগ বা দলের নির্দেশ অমান্য করে ভোট — দশম তফসিলে অযোগ্যতার কারণ",
+      "section": "nobom_doshom"
+    },
+    {
+      "term": "সংযুক্তি (Merger)",
+      "meaning": "অন্তত দুই-তৃতীয়াংশ বিধায়ক-দলের সম্মতিতে দলের মিশে যাওয়া",
+      "section": "nobom_doshom"
+    },
+    {
+      "term": "রিট (Writ)",
+      "meaning": "৩২ অনুচ্ছেদে সুপ্রিম কোর্টের জারি করা নির্দেশ — হেবিয়াস কর্পাস, ম্যান্ডামাস, প্রোহিবিশন, কো-ওয়ারান্টো, সার্শিওরারি",
+      "section": "guruttopurno_onuchchhed"
+    },
+    {
+      "term": "যুগ্ম তালিকা (Concurrent List)",
+      "meaning": "সপ্তম তফসিলের তালিকা III — সংসদ ও রাজ্য আইনসভা দুজনেই আইন করতে পারে",
+      "section": "soptom"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "তালিকা-ব্যবস্থা থেকে ক্ষমতা-বণ্টন",
+      "causes": [
+        "বিষয় অনুযায়ী আইন-ক্ষমতা ভাগের প্রয়োজন"
+      ],
+      "event": "সপ্তম তফসিলে তিনটি তালিকা ও ২৪৬ অনুচ্ছেদে ক্ষমতা-বণ্টন",
+      "results": [
+        "কেন্দ্রীয় তালিকায় শুধু সংসদ",
+        "রাজ্য তালিকায় রাজ্য আইনসভা",
+        "যুগ্ম তালিকায় দুজনেই",
+        "অবশিষ্ট ক্ষমতা সংসদের (২৪৮)"
+      ],
+      "section": "soptom",
+      "claims": [
+        "c08",
+        "c09",
+        "c11",
+        "c12"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "সপ্তম তফসিল = ক্ষমতা-বণ্টন (WBCS ২০১৯)",
+      "section": "soptom"
+    },
+    {
+      "point": "৫২তম সংশোধনী = দলত্যাগ / দশম তফসিল (WBCS ২০২৩)",
+      "section": "nobom_doshom"
+    },
+    {
+      "point": "৭৩তম সংশোধনী = পঞ্চায়েত / একাদশ তফসিল (Clerkship ২০২৩, দুই সেশন)",
+      "section": "ekadosh_dadosh"
+    },
+    {
+      "point": "অষ্টম তফসিলের ভাষা-যোগের সংশোধনীগুলো (২১, ৭১, ৯২তম)",
+      "section": "ashtom"
+    },
+    {
+      "point": "জোড়া-বদলের ফাঁদ: পঞ্চম/ষষ্ঠ, নবম/দশম, একাদশ/দ্বাদশ",
+      "section": "poribhasha"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের সঙ্গে এই অধ্যায়ের যোগ তিন জায়গায়। এক, **বাংলা অষ্টম তফসিলের ২ নম্বর ভাষা** — ভারতের স্বীকৃত ২২ ভাষার তালিকায় বাংলা দ্বিতীয় স্থানেই আছে, আর সাঁওতালি (পশ্চিমবঙ্গের গুরুত্বপূর্ণ ভাষা) যোগ হয়েছে ৯২তম সংশোধনী, ২০০৩-তে। দুই, **নবম তফসিলের এন্ট্রি ৫৯ ও ৬০** — পশ্চিমবঙ্গ এস্টেট অধিগ্রহণ আইন, ১৯৫৩ এবং পশ্চিমবঙ্গ ভূমি সংস্কার আইন, ১৯৫৫ — বাংলার ভূমি-সংস্কারের দুই মূল আইনই নবম তফসিলে সংরক্ষিত। তিন, একাদশ তফসিলের ২৯ বিষয়ই পশ্চিমবঙ্গের গ্রাম পঞ্চায়েতের কাজের তালিকার সাংবিধানিক ভিত্তি।",
+    "claims": [
+      "c14",
+      "c34",
+      "c24"
+    ]
+  },
+  "quick_revision": [
+    "১ম তফসিল — রাজ্য ও কেন্দ্রশাসিত অঞ্চলের নাম-ভূখণ্ড (১ অনুচ্ছেদ)",
+    "২য় — রাষ্ট্রপতি, রাজ্যপাল, বিচারপতি, CAG-এর বিধান",
+    "৩য় — শপথের ছক; ৪র্থ — রাজ্যসভায় আসন বণ্টন",
+    "৫ম — তফসিলি এলাকা ও উপজাতি; ৬ষ্ঠ — অসম, মেঘালয়, ত্রিপুরা, মিজোরাম",
+    "৭ম — তিন তালিকা: কেন্দ্রীয়, রাজ্য, যুগ্ম (২৪৬ অনুচ্ছেদ)",
+    "৮ম — ২২ ভাষা (৩৪৪(১) ও ৩৫১); বাংলা ২ নম্বরে",
+    "৯ম — বৈধতা-রক্ষা (৩১B), ১ম সংশোধনী ১৯৫১",
+    "১০ম — দলত্যাগ (১০২(২), ১৯১(২)), ৫২তম সংশোধনী ১৯৮৫",
+    "১১শ — পঞ্চায়েত (২৪৩G), ২৯ বিষয়, ৭৩তম সংশোধনী",
+    "১২শ — পৌরসভা (২৪৩W), প্রথম বিষয় নগর পরিকল্পনা",
+    "অবশিষ্ট ক্ষমতা সংসদের — ২৪৮ অনুচ্ছেদ",
+    "৩২ অনুচ্ছেদ — সুপ্রিম কোর্টে প্রতিকার; ৩৭ — নির্দেশক নীতি বলবৎযোগ্য নয়"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "The Constitution of India [As on 1st May, 2026], Legislative Department, Ministry of Law and Justice",
+      "class": "GOVT",
+      "url": "https://legislative.gov.in/static/uploads/2025/07/76b9f1c47176fc65accc160f19c982b7.pdf",
+      "accessed_at": "2026-11-19",
+      "publisher": "GOVT"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Article 1(2): the States and their territories shall be as specified in the First Schedule.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "The States and the territories thereof shall be as specified in the First Schedule."
+    },
+    {
+      "id": "c02",
+      "claim": "Article 4(1): a law under Article 2 or 3 contains provisions for amendment of the First and Fourth Schedules.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Any law referred to in article 2 or article 3 shall contain such provisions for the amendment of the First Schedule and the Fourth Schedule as may be necessary to give effect to the provisions of the law"
+    },
+    {
+      "id": "c03",
+      "claim": "Second Schedule contents: Part A President and Governors; Part C Speakers/Chairmen; Part D Judges of Supreme Court and High Courts; Part E CAG.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "PART A—Provisions as to the President and the Governors of States."
+    },
+    {
+      "id": "c04",
+      "claim": "Third Schedule is Forms of Oaths or Affirmations.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "THIRD SCHEDULE— Forms of Oaths or Affirmations."
+    },
+    {
+      "id": "c05",
+      "claim": "Fourth Schedule is Allocation of seats in the Council of States.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "FOURTH SCHEDULE—Allocation of seats in the Council of States."
+    },
+    {
+      "id": "c06",
+      "claim": "Fifth Schedule: provisions as to administration and control of Scheduled Areas and Scheduled Tribes.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Provisions as to the Administration and Control of Scheduled Areas and Scheduled Tribes"
+    },
+    {
+      "id": "c07",
+      "claim": "Sixth Schedule: administration of tribal areas in Assam, Meghalaya, Tripura and Mizoram.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Provisions as to the Administration of Tribal Areas in the States of Assam, Meghalaya, Tripura and Mizoram."
+    },
+    {
+      "id": "c08",
+      "claim": "Seventh Schedule contains List I Union List, List II State List, List III Concurrent List.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "List I — Union List. List II— State List. List III— Concurrent List."
+    },
+    {
+      "id": "c09",
+      "claim": "Article 246(1): Parliament has exclusive power on Union List matters.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Parliament has exclusive power to make laws with respect to any of the matters enumerated in List I in the Seventh Schedule (in this Constitution referred to as the “Union List”)."
+    },
+    {
+      "id": "c10",
+      "claim": "Article 246(2): Parliament and State Legislatures both have power on Concurrent List matters.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Parliament, and, subject to clause (1), the Legislature of any State also, have power to make laws with respect to any of the matters enumerated in List III in the Seventh Schedule (in this Constitution referred to as the “Concurrent List”)."
+    },
+    {
+      "id": "c11",
+      "claim": "Article 246(3): State Legislature has exclusive power on State List matters, subject to clauses (1) and (2).",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "the Legislature of any State has exclusive power to make laws for such State or any part thereof with respect to any of the matters enumerated in List II in the Seventh Schedule (in this Constitution referred to as the “State List”)."
+    },
+    {
+      "id": "c12",
+      "claim": "Article 248: Parliament has exclusive residuary power over matters not in Concurrent or State List.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Parliament has exclusive power to make any law with respect to any matter not enumerated in the Concurrent List or State List."
+    },
+    {
+      "id": "c13",
+      "claim": "Eighth Schedule is headed [Articles 344(1) and 351] Languages.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "EIGHTH SCHEDULE [Articles 344(1) and 351] Languages"
+    },
+    {
+      "id": "c14",
+      "claim": "Eighth Schedule entry 2 is Bengali.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "2. Bengali."
+    },
+    {
+      "id": "c15",
+      "claim": "Bodo, Dogri, Maithili and Santhali were inserted by the 92nd Amendment Act, 2003 (w.e.f. 7-1-2004).",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Ins. by the Constitution (Ninety-second Amendment) Act, 2003, s. 2 (w.e.f. 7-1-2004)."
+    },
+    {
+      "id": "c16",
+      "claim": "Konkani, Manipuri and Nepali entries were inserted by the 71st Amendment Act, 1992 (w.e.f. 31-8-1992).",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Ins. by the Constitution (Seventy-first Amendment) Act, 1992, s. 2 (w.e.f. 31-8-1992)."
+    },
+    {
+      "id": "c17",
+      "claim": "Ninth Schedule is linked to Article 31B and its first entry is the Bihar Land Reforms Act, 1950.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "NINTH SCHEDULE (Article 31B) 1. The Bihar Land Reforms Act, 1950 (Bihar Act XXX of 1950)."
+    },
+    {
+      "id": "c18",
+      "claim": "Ninth Schedule entries 1 to 13 were added by the First Amendment Act, 1951 (w.e.f. 18-6-1951).",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Ninth Schedule (entries 1 to 13) added by the Constitution (First Amendment) Act, 1951, s. 14 (w.e.f. 18-6-1951)."
+    },
+    {
+      "id": "c19",
+      "claim": "Tenth Schedule is [Articles 102(2) and 191(2)] — provisions as to disqualification on ground of defection.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "TENTH SCHEDULE [Articles 102(2) and 191(2)] Provisions as to disqualification on ground of defection"
+    },
+    {
+      "id": "c20",
+      "claim": "Tenth Schedule was added by the 52nd Amendment Act, 1985 (w.e.f. 1-3-1985).",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Tenth Schedule added by the Constitution (Fifty-second Amendment) Act, 1985, s. 6 (w.e.f. 1-3-1985)."
+    },
+    {
+      "id": "c21",
+      "claim": "Tenth Schedule para 2: a member is disqualified if he voluntarily gives up party membership or votes/abstains contrary to party direction.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "a member of a House belonging to any political party shall be disqualified for being a member of the House— (a) if he has voluntarily given up his membership of such political party; or (b) if he votes or abstains from voting in such House contrary to any direction issued by the political party to which he belongs"
+    },
+    {
+      "id": "c22",
+      "claim": "Tenth Schedule para 4 merger exception requires not less than two-thirds of the legislature party to agree.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "the merger of the original political party of a member of a House shall be deemed to have taken place if, and only if, not less than two-thirds of the members of the legislature party concerned have agreed to such merger."
+    },
+    {
+      "id": "c23",
+      "claim": "Tenth Schedule para 6: defection questions are referred to the Chairman or Speaker, whose decision is final.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "the question shall be referred for the decision of the Chairman or, as the case may be, the Speaker of such House and his decision shall be final:"
+    },
+    {
+      "id": "c24",
+      "claim": "Eleventh Schedule is (Article 243G), begins with Agriculture, and was added by the 73rd Amendment Act, 1992 (w.e.f. 24-4-1993).",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "ELEVENTH SCHEDULE (Article 243G) 1. Agriculture, including agricultural extension."
+    },
+    {
+      "id": "c25",
+      "claim": "Twelfth Schedule is (Article 243W) and begins with urban planning including town planning.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "TWELFTH SCHEDULE (Article 243W) 1. Urban planning including town planning."
+    },
+    {
+      "id": "c26",
+      "claim": "Article 14: the State shall not deny equality before law or equal protection of laws.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India."
+    },
+    {
+      "id": "c27",
+      "claim": "Article 21 is titled Protection of life and personal liberty in Part III.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "21. Protection of life and personal liberty."
+    },
+    {
+      "id": "c28",
+      "claim": "Article 32(1): the right to move the Supreme Court for enforcement of Part III rights is guaranteed.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "The right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by this Part is guaranteed."
+    },
+    {
+      "id": "c29",
+      "claim": "Article 37: Directive Principles are not enforceable by any court but are fundamental in governance.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "The provisions contained in this Part shall not be enforceable by any court, but the principles therein laid down are nevertheless fundamental in the governance of the country"
+    },
+    {
+      "id": "c30",
+      "claim": "Article 40: the State shall organise village panchayats as units of self-government.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "The State shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government."
+    },
+    {
+      "id": "c31",
+      "claim": "Article 51 is Promotion of international peace and security in the Directive Principles.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "51. Promotion of international peace and security.—The State shall endeavour to— (a) promote international peace and security;"
+    },
+    {
+      "id": "c32",
+      "claim": "Article 368 is Power of Parliament to amend the Constitution and procedure therefor.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "368. Power of Parliament to amend the Constitution and procedure therefor."
+    },
+    {
+      "id": "c33",
+      "claim": "Article 246A gives Parliament and State Legislatures power to make GST laws.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Parliament, and, subject to clause (2), the Legislature of every State, have power to make laws with respect to goods and services tax imposed by the Union or by such State."
+    },
+    {
+      "id": "c34",
+      "claim": "Ninth Schedule entries 59 and 60 are the West Bengal Estates Acquisition Act, 1953 and the West Bengal Land Reforms Act, 1955.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "59. The West Bengal Estates Acquisition Act, 1953 (West Bengal Act I of 1954). 60. The West Bengal Land Reforms Act, 1955 (West Bengal Act X of 1956)."
+    },
+    {
+      "id": "c35",
+      "claim": "Eleventh Schedule entry 29 is Maintenance of community assets.",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "29. Maintenance of community assets."
+    },
+    {
+      "id": "c36",
+      "claim": "Sindhi was added to the Eighth Schedule by the 21st Amendment Act, 1967 (w.e.f. 10-4-1967).",
+      "source": "s1",
+      "page": "Constitution text (Legislative Department edition, as on 1 May 2026)",
+      "quote": "Added by the Constitution (Twenty-first Amendment) Act, 1967, s. 2 (w.e.f. 10-4-1967)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "manchitro",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তফসিল (Schedule) বলতে সংবিধানের কোন অংশকে বোঝায়?",
+      "a": "সংবিধানের শেষে থাকা বিস্তারিত তালিকা ও ছক",
+      "w": [
+        "সংবিধানের প্রস্তাবনা",
+        "মৌলিক অধিকারের তালিকা",
+        "নির্দেশক নীতির তালিকা"
+      ],
+      "e": "তফসিল হলো মূল পাঠের শেষে রাখা বিস্তারিত তালিকা — যেমন ভাষার তালিকা (অষ্টম) বা পঞ্চায়েতের বিষয় (একাদশ)।",
+      "claims": [
+        "c13",
+        "c24"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "prothom_shostho",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাজ্যগুলির নাম ও ভূখণ্ড কোন তফসিলে নির্দিষ্ট আছে?",
+      "a": "প্রথম তফসিল",
+      "w": [
+        "চতুর্থ তফসিল",
+        "সপ্তম তফসিল",
+        "দ্বিতীয় তফসিল"
+      ],
+      "e": "১ অনুচ্ছেদ অনুযায়ী রাজ্য ও তাদের ভূখণ্ড প্রথম তফসিলে নির্দিষ্ট।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "prothom_shostho",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শপথ বা প্রতিজ্ঞার ছক কোন তফসিলে আছে?",
+      "a": "তৃতীয় তফসিল",
+      "w": [
+        "দ্বিতীয় তফসিল",
+        "চতুর্থ তফসিল",
+        "পঞ্চম তফসিল"
+      ],
+      "e": "তৃতীয় তফসিলের শিরোনামই 'Forms of Oaths or Affirmations'।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "prothom_shostho",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাজ্যসভায় আসন বণ্টন কোন তফসিলে আছে?",
+      "a": "চতুর্থ তফসিল",
+      "w": [
+        "প্রথম তফসিল",
+        "তৃতীয় তফসিল",
+        "ষষ্ঠ তফসিল"
+      ],
+      "e": "চতুর্থ তফসিল = রাজ্যসভায় (Council of States) আসন বণ্টন।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "prothom_shostho",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অসম, মেঘালয়, ত্রিপুরা ও মিজোরামের উপজাতি এলাকার প্রশাসন কোন তফসিলে?",
+      "a": "ষষ্ঠ তফসিল",
+      "w": [
+        "পঞ্চম তফসিল",
+        "সপ্তম তফসিল",
+        "নবম তফসিল"
+      ],
+      "e": "ষষ্ঠ তফসিলের শিরোনামেই এই চার রাজ্যের উপজাতি এলাকার প্রশাসনের কথা আছে।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "prothom_shostho",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তফসিলি এলাকা ও তফসিলি উপজাতির প্রশাসন ও নিয়ন্ত্রণ কোন তফসিলে?",
+      "a": "পঞ্চম তফসিল",
+      "w": [
+        "ষষ্ঠ তফসিল",
+        "চতুর্থ তফসিল",
+        "অষ্টম তফসিল"
+      ],
+      "e": "পঞ্চম তফসিল = তফসিলি এলাকা ও তফসিলি উপজাতির প্রশাসন ও নিয়ন্ত্রণ।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "prothom_shostho",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিচারপতিদের (সুপ্রিম কোর্ট ও হাইকোর্ট) বিষয়ে বিধান দ্বিতীয় তফসিলের কোন ভাগে?",
+      "a": "ভাগ D",
+      "w": [
+        "ভাগ A",
+        "ভাগ C",
+        "ভাগ E"
+      ],
+      "e": "দ্বিতীয় তফসিলের ভাগ D = বিচারপতিদের বিধান; ভাগ A রাষ্ট্রপতি-রাজ্যপাল, ভাগ E CAG।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "prothom_shostho",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২ বা ৩ অনুচ্ছেদে রাজ্য পুনর্গঠনের আইন হলে কোন দুটি তফসিলের সংশোধন সেই আইনেই থাকতে হয়?",
+      "a": "প্রথম ও চতুর্থ তফসিল",
+      "w": [
+        "প্রথম ও দ্বিতীয় তফসিল",
+        "চতুর্থ ও সপ্তম তফসিল",
+        "দ্বিতীয় ও চতুর্থ তফসিল"
+      ],
+      "e": "৪ অনুচ্ছেদ অনুযায়ী ওই আইনে প্রথম ও চতুর্থ তফসিলের প্রয়োজনীয় সংশোধন থাকবে।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "soptom",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কেন্দ্র ও রাজ্যের মধ্যে আইন প্রণয়নের ক্ষমতা বণ্টন কোন তফসিলে আছে?",
+      "a": "সপ্তম তফসিল",
+      "w": [
+        "প্রথম তফসিল",
+        "দ্বিতীয় তফসিল",
+        "ষষ্ঠ তফসিল"
+      ],
+      "e": "সপ্তম তফসিলের তিনটি তালিকার মাধ্যমেই ক্ষমতা বণ্টন হয় — এটিই WBCS ২০১৯-এর প্রশ্ন।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "soptom",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সপ্তম তফসিলের তালিকা III কোনটি?",
+      "a": "যুগ্ম তালিকা (Concurrent List)",
+      "w": [
+        "কেন্দ্রীয় তালিকা (Union List)",
+        "রাজ্য তালিকা (State List)",
+        "অবশিষ্ট তালিকা"
+      ],
+      "e": "তালিকা I = কেন্দ্রীয়, II = রাজ্য, III = যুগ্ম।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "soptom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কেন্দ্রীয় তালিকার বিষয়ে আইন করার একচেটিয়া ক্ষমতা কার?",
+      "a": "শুধু সংসদের",
+      "w": [
+        "শুধু রাজ্য আইনসভার",
+        "সংসদ ও রাজ্য আইনসভা — দুজনেরই",
+        "রাষ্ট্রপতির"
+      ],
+      "e": "২৪৬(১) অনুযায়ী কেন্দ্রীয় তালিকায় সংসদের একচেটিয়া ক্ষমতা।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "soptom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রাজ্য তালিকার বিষয়ে আইন করার একচেটিয়া ক্ষমতা কার?",
+      "a": "রাজ্য আইনসভার",
+      "w": [
+        "শুধু সংসদের",
+        "শুধু রাজ্যপালের",
+        "সংসদ ও রাজ্য আইনসভা — দুজনেরই"
+      ],
+      "e": "২৪৬(৩) অনুযায়ী রাজ্য তালিকায় রাজ্য আইনসভার একচেটিয়া ক্ষমতা (২৪৬(১)-(২)-এর সাপেক্ষে)।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "soptom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'অর্থনৈতিক ও সামাজিক পরিকল্পনা' কোন তালিকার বিষয়?",
+      "a": "যুগ্ম তালিকা",
+      "w": [
+        "কেন্দ্রীয় তালিকা",
+        "রাজ্য তালিকা",
+        "অবশিষ্ট তালিকা"
+      ],
+      "e": "এটি যুগ্ম তালিকার বিষয়, তাই কেন্দ্র ও রাজ্য দুজনেই আইন করতে পারে — WBCS ২০২৩-এর প্রশ্ন।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "soptom",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোনো তালিকাতেই নেই এমন বিষয়ে (অবশিষ্ট ক্ষমতা) আইন করার ক্ষমতা কার হাতে?",
+      "a": "সংসদের",
+      "w": [
+        "রাজ্য আইনসভার",
+        "রাষ্ট্রপতির",
+        "সুপ্রিম কোর্টের"
+      ],
+      "e": "২৪৮ অনুচ্ছেদে অবশিষ্ট ক্ষমতা সংসদের একচেটিয়া ক্ষমতা।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "soptom",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "GST নিয়ে আইন করার ক্ষমতা ২৪৬A অনুযায়ী কাদের আছে?",
+      "a": "সংসদ ও প্রতিটি রাজ্য আইনসভার",
+      "w": [
+        "শুধু সংসদের",
+        "শুধু রাজ্য আইনসভার",
+        "শুধু GST কাউন্সিলের"
+      ],
+      "e": "২৪৬A অনুযায়ী GST-তে সংসদ ও রাজ্য আইনসভা দুজনেই আইন করতে পারে।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "ashtom",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভাষার তালিকা কোন তফসিলে আছে?",
+      "a": "অষ্টম তফসিল",
+      "w": [
+        "সপ্তম তফসিল",
+        "নবম তফসিল",
+        "দশম তফসিল"
+      ],
+      "e": "অষ্টম তফসিলের শিরোনামই 'Languages'।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "ashtom",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অষ্টম তফসিলে বাংলা ভাষার ক্রমিক নম্বর কত?",
+      "a": "২",
+      "w": [
+        "১",
+        "৫",
+        "২২"
+      ],
+      "e": "অষ্টম তফসিলের তালিকায় ১. অসমিয়া, ২. বাংলা।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "ashtom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অষ্টম তফসিল কোন দুটি অনুচ্ছেদের সঙ্গে যুক্ত?",
+      "a": "৩৪৪(১) ও ৩৫১",
+      "w": [
+        "২৪৬ ও ২৪৮",
+        "৩১B ও ৩২",
+        "২৪৩G ও ২৪৩W"
+      ],
+      "e": "অষ্টম তফসিলের শিরোনামে '[Articles 344(1) and 351]' লেখা আছে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "ashtom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোঙ্কণি, মণিপুরী ও নেপালি কোন সংশোধনীতে অষ্টম তফসিলে যোগ হয়?",
+      "a": "৭১তম সংশোধনী, ১৯৯২",
+      "w": [
+        "২১তম সংশোধনী, ১৯৬৭",
+        "৯২তম সংশোধনী, ২০০৩",
+        "৫২তম সংশোধনী, ১৯৮৫"
+      ],
+      "e": "এই তিনটি ভাষা ৭১তম সংশোধনী, ১৯৯২-তে যোগ হয়।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "ashtom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বোড়ো, ডোগরি, মৈথিলী ও সাঁওতালি কোন সংশোধনীতে যোগ হয়?",
+      "a": "৯২তম সংশোধনী, ২০০৩",
+      "w": [
+        "৭১তম সংশোধনী, ১৯৯২",
+        "২১তম সংশোধনী, ১৯৬৭",
+        "৭৩তম সংশোধনী, ১৯৯২"
+      ],
+      "e": "এই চারটি ভাষা ৯২তম সংশোধনী, ২০০৩-তে (কার্যকর ৭-১-২০০৪) যোগ হয়।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "ashtom",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সিন্ধি ভাষা অষ্টম তফসিলে যোগ হয় কোন সংশোধনীতে?",
+      "a": "২১তম সংশোধনী, ১৯৬৭",
+      "w": [
+        "৭১তম সংশোধনী, ১৯৯২",
+        "৯২তম সংশোধনী, ২০০৩",
+        "১ম সংশোধনী, ১৯৫১"
+      ],
+      "e": "সিন্ধি যোগ হয় ২১তম সংশোধনী, ১৯৬৭-তে।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "nobom_doshom",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দলত্যাগের কারণে অযোগ্যতার বিধান কোন তফসিলে আছে?",
+      "a": "দশম তফসিল",
+      "w": [
+        "নবম তফসিল",
+        "অষ্টম তফসিল",
+        "একাদশ তফসিল"
+      ],
+      "e": "দশম তফসিলের শিরোনামই 'Provisions as to disqualification on ground of defection'।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "nobom_doshom",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দলত্যাগ-বিরোধী বিধান কোন সংশোধনীতে আসে?",
+      "a": "৫২তম সংশোধনী, ১৯৮৫",
+      "w": [
+        "৫১তম সংশোধনী",
+        "৫৩তম সংশোধনী",
+        "৫৪তম সংশোধনী"
+      ],
+      "e": "দশম তফসিল যোগ হয় ৫২তম সংশোধনী, ১৯৮৫-তে — WBCS ২০২৩-এর সরাসরি প্রশ্ন।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "nobom_doshom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নবম তফসিল কোন অনুচ্ছেদের সঙ্গে যুক্ত?",
+      "a": "৩১B অনুচ্ছেদ",
+      "w": [
+        "৩২ অনুচ্ছেদ",
+        "২৪৬ অনুচ্ছেদ",
+        "৩৬৮ অনুচ্ছেদ"
+      ],
+      "e": "নবম তফসিলের শিরোনামে '(Article 31B)' লেখা আছে।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "nobom_doshom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নবম তফসিল প্রথম কোন সংশোধনীতে যোগ হয়?",
+      "a": "১ম সংশোধনী, ১৯৫১",
+      "w": [
+        "৪র্থ সংশোধনী, ১৯৫৫",
+        "৫২তম সংশোধনী, ১৯৮৫",
+        "৭৩তম সংশোধনী, ১৯৯২"
+      ],
+      "e": "প্রথম ১৩টি এন্ট্রি যোগ হয় ১ম সংশোধনী, ১৯৫১-তে।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "nobom_doshom",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দশম তফসিলে সংযুক্তি (merger) ব্যতিক্রমের শর্ত কী?",
+      "a": "বিধায়ক-দলের অন্তত দুই-তৃতীয়াংশ সদস্যের সম্মতি",
+      "w": [
+        "বিধায়ক-দলের অন্তত এক-তৃতীয়াংশ সদস্যের সম্মতি",
+        "দলের সভাপতির লিখিত অনুমতি",
+        "স্পিকারের পূর্বানুমতি"
+      ],
+      "e": "সংযুক্তি ঘটেছে ধরা হবে শুধু অন্তত দুই-তৃতীয়াংশ সদস্য সম্মত হলেই।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "nobom_doshom",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দলত্যাগে অযোগ্যতার প্রশ্নে চূড়ান্ত সিদ্ধান্ত কে দেন?",
+      "a": "কক্ষের চেয়ারম্যান বা স্পিকার",
+      "w": [
+        "রাষ্ট্রপতি",
+        "নির্বাচন কমিশন",
+        "সুপ্রিম কোর্ট"
+      ],
+      "e": "দশম তফসিলের ৬ নম্বর অনুচ্ছেদ অনুযায়ী প্রশ্নটি চেয়ারম্যান/স্পিকারের সিদ্ধান্তের জন্য পাঠানো হয় এবং তাঁর সিদ্ধান্তই চূড়ান্ত।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "nobom_doshom",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন সদস্য দশম তফসিলে অযোগ্য হন?",
+      "a": "যিনি স্বেচ্ছায় দলের সদস্যপদ ছেড়ে দেন",
+      "w": [
+        "যিনি অধিবেশনে অনুপস্থিত থাকেন",
+        "যিনি দলের সভায় যোগ দেন না",
+        "যিনি কমিটিতে মতভেদ প্রকাশ করেন"
+      ],
+      "e": "২ নম্বর অনুচ্ছেদ অনুযায়ী স্বেচ্ছায় সদস্যপদ ত্যাগ অযোগ্যতার কারণ।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "ekadosh_dadosh",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পঞ্চায়েতের ক্ষমতা ও দায়িত্বের বিষয়-তালিকা কোন তফসিলে?",
+      "a": "একাদশ তফসিল",
+      "w": [
+        "দ্বাদশ তফসিল",
+        "নবম তফসিল",
+        "দশম তফসিল"
+      ],
+      "e": "একাদশ তফসিল (২৪৩G) পঞ্চায়েতের ক্ষমতা, কর্তৃত্ব ও দায়িত্বের তালিকা।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "ekadosh_dadosh",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পঞ্চায়েতকে সাংবিধানিক মর্যাদা দেয় কোন সংশোধনী?",
+      "a": "৭৩তম সংশোধনী",
+      "w": [
+        "৭১তম সংশোধনী",
+        "৭২তম সংশোধনী",
+        "৭৪তম সংশোধনী"
+      ],
+      "e": "৭৩তম সংশোধনী পঞ্চায়েতকে সাংবিধানিক মর্যাদা দেয় — Clerkship ২০২৩-এর দুই সেশনের প্রশ্ন।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "ekadosh_dadosh",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একাদশ তফসিলে মোট কটি বিষয় আছে?",
+      "a": "২৯টি",
+      "w": [
+        "১৮টি",
+        "২২টি",
+        "৩৩টি"
+      ],
+      "e": "একাদশ তফসিলের শেষ (২৯ নম্বর) বিষয় হলো সাম্প্রদায়িক সম্পদের রক্ষণাবেক্ষণ।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "ekadosh_dadosh",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পৌরসভার ক্ষমতা ও দায়িত্ব কোন তফসিলে আছে?",
+      "a": "দ্বাদশ তফসিল",
+      "w": [
+        "একাদশ তফসিল",
+        "সপ্তম তফসিল",
+        "ষষ্ঠ তফসিল"
+      ],
+      "e": "দ্বাদশ তফসিল (২৪৩W) পৌরসভার ক্ষমতা, কর্তৃত্ব ও দায়িত্বের তালিকা।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "ekadosh_dadosh",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দ্বাদশ তফসিলের প্রথম বিষয় কোনটি?",
+      "a": "নগর পরিকল্পনা (town planning-সহ)",
+      "w": [
+        "পানীয় জল",
+        "কৃষি",
+        "গ্রামীণ আবাসন"
+      ],
+      "e": "দ্বাদশ তফসিলের ১ নম্বর বিষয় 'Urban planning including town planning'; পানীয় জল ও কৃষি একাদশ তফসিলের বিষয়।",
+      "claims": [
+        "c25",
+        "c24"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "guruttopurno_onuchchhed",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আইনের চোখে সমতা কোন অনুচ্ছেদে?",
+      "a": "১৪ অনুচ্ছেদ",
+      "w": [
+        "২১ অনুচ্ছেদ",
+        "৩২ অনুচ্ছেদ",
+        "৩৭ অনুচ্ছেদ"
+      ],
+      "e": "১৪ অনুচ্ছেদে রাষ্ট্র কাউকে আইনের চোখে সমতা থেকে বঞ্চিত করতে পারে না।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "guruttopurno_onuchchhed",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মৌলিক অধিকার বলবৎ করতে সুপ্রিম কোর্টে যাওয়ার অধিকার কোন অনুচ্ছেদে?",
+      "a": "৩২ অনুচ্ছেদ",
+      "w": [
+        "৩৭ অনুচ্ছেদ",
+        "৪০ অনুচ্ছেদ",
+        "৫১ অনুচ্ছেদ"
+      ],
+      "e": "৩২ অনুচ্ছেদে এই অধিকার নিজেই নিশ্চিত করা হয়েছে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "guruttopurno_onuchchhed",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক শান্তি ও নিরাপত্তার উৎসাহ সংবিধানের কোথায় আছে?",
+      "a": "নির্দেশক নীতিতে (৫১ অনুচ্ছেদ)",
+      "w": [
+        "প্রস্তাবনায়",
+        "মৌলিক কর্তব্যে",
+        "নবম তফসিলে"
+      ],
+      "e": "৫১ অনুচ্ছেদ নির্দেশক নীতির অংশ — অপশনে নবম তফসিল থাকলেও উত্তর নির্দেশক নীতি।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "guruttopurno_onuchchhed",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সংবিধান সংশোধনের ক্ষমতা ও পদ্ধতি কোন অনুচ্ছেদে?",
+      "a": "৩৬৮ অনুচ্ছেদ",
+      "w": [
+        "২৪৬ অনুচ্ছেদ",
+        "৩২ অনুচ্ছেদ",
+        "৩৯৫ অনুচ্ছেদ"
+      ],
+      "e": "৩৬৮ অনুচ্ছেদের শিরোনামই 'Power of Parliament to amend the Constitution and procedure therefor'।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "guruttopurno_onuchchhed",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নির্দেশক নীতি সম্পর্কে ৩৭ অনুচ্ছেদ কী বলে?",
+      "a": "আদালতে বলবৎযোগ্য নয়, তবু শাসনে মৌলিক",
+      "w": [
+        "আদালতে সরাসরি বলবৎযোগ্য",
+        "শুধু সংসদের জন্য প্রযোজ্য",
+        "মৌলিক অধিকারের চেয়ে শক্তিশালী"
+      ],
+      "e": "৩৭ অনুচ্ছেদ স্পষ্ট: নির্দেশক নীতি কোনো আদালতে বলবৎযোগ্য নয়, কিন্তু দেশ শাসনে মৌলিক।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "poribhasha",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. পঞ্চম তফসিল — তফসিলি এলাকা ও উপজাতির প্রশাসন।\n২. ষষ্ঠ তফসিল — অসম, মেঘালয়, ত্রিপুরা, মিজোরামের উপজাতি এলাকা।\nকোনটি সঠিক?",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "১ ও ২ দুটোই ভুল"
+      ],
+      "e": "দুটোই সঠিক — পঞ্চম সাধারণ তফসিলি এলাকার, ষষ্ঠ ওই চার রাজ্যের।",
+      "claims": [
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "poribhasha",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. নবম তফসিল এসেছে ৫২তম সংশোধনীতে।\n২. দশম তফসিল এসেছে ১ম সংশোধনীতে।\nকোনটি সঠিক?",
+      "a": "১ ও ২ দুটোই ভুল",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "১ ও ২ দুটোই সঠিক"
+      ],
+      "e": "উল্টোটা সত্য: নবম = ১ম সংশোধনী (১৯৫১), দশম = ৫২তম সংশোধনী (১৯৮৫)। তাই দুটো বিবৃতিই ভুল।",
+      "claims": [
+        "c18",
+        "c20"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "poribhasha",
+      "level": "difficult",
+      "format": "MATCH",
+      "q": "জোড়া মেলাও:\nA. ভাষা — ১. দশম তফসিল\nB. দলত্যাগ — ২. অষ্টম তফসিল\nC. পঞ্চায়েত — ৩. সপ্তম তফসিল\nD. ক্ষমতা-বণ্টন — ৪. একাদশ তফসিল\nসঠিক জোড়া কোনটি?",
+      "a": "A-২, B-১, C-৪, D-৩",
+      "w": [
+        "A-১, B-২, C-৩, D-৪",
+        "A-২, B-৪, C-১, D-৩",
+        "A-৩, B-১, C-৪, D-২"
+      ],
+      "e": "ভাষা = অষ্টম, দলত্যাগ = দশম, পঞ্চায়েত = একাদশ, ক্ষমতা-বণ্টন = সপ্তম।",
+      "claims": [
+        "c13",
+        "c19",
+        "c24",
+        "c08"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "ekadosh_dadosh",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "দাবি (A): ৭৩তম সংশোধনী পঞ্চায়েতকে সাংবিধানিক মর্যাদা দিয়েছে।\nকারণ (R): এই সংশোধনীতেই একাদশ তফসিল যোগ হয়ে পঞ্চায়েতের বিষয়-তালিকা নির্দিষ্ট হয়।\nসঠিক মূল্যায়ন কোনটি?",
+      "a": "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "একাদশ তফসিল ৭৩তম সংশোধনী, ১৯৯২-তেই যোগ হয় এবং তাতে পঞ্চায়েতের বিষয়-তালিকা আছে — তাই R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c24",
+        "c35"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "poribhasha",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "তফসিল-যোগের সঠিক কালানুক্রম কোনটি?\n১. নবম তফসিল\n২. দশম তফসিল\n৩. একাদশ তফসিল (কার্যকর)\n৪. অষ্টম তফসিলে বোড়ো-ডোগরি-মৈথিলী-সাঁওতালি যোগ",
+      "a": "১ → ২ → ৩ → ৪",
+      "w": [
+        "২ → ১ → ৩ → ৪",
+        "১ → ৩ → ২ → ৪",
+        "১ → ২ → ৪ → ৩"
+      ],
+      "e": "নবম ১৯৫১, দশম ১৯৮৫, একাদশ কার্যকর ১৯৯৩, শেষ ভাষা-যোগ ২০০৩ — তাই ক্রম ১→২→৩→৪।",
+      "claims": [
+        "c18",
+        "c20",
+        "c24",
+        "c15"
+      ]
+    },
+    {
+      "id": "q44",
+      "section": "ashtom",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিক?\nক. সিন্ধি — ২১তম সংশোধনী\nখ. কোঙ্কণি — ৯২তম সংশোধনী\nগ. সাঁওতালি — ৭১তম সংশোধনী",
+      "a": "শুধু ক সঠিক",
+      "w": [
+        "শুধু খ সঠিক",
+        "শুধু গ সঠিক",
+        "ক, খ, গ সবকটি সঠিক"
+      ],
+      "e": "সিন্ধি ২১তম (১৯৬৭); কোঙ্কণি ৭১তম (১৯৯২), ৯২তম নয়; সাঁওতালি ৯২তম (২০০৩), ৭১তম নয়।",
+      "claims": [
+        "c36",
+        "c16",
+        "c15"
+      ]
+    },
+    {
+      "id": "q45",
+      "section": "soptom",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. কেন্দ্রীয় তালিকায় শুধু সংসদ আইন করতে পারে।\n২. যুগ্ম তালিকায় সংসদ ও রাজ্য আইনসভা দুজনেই পারে।\n৩. অবশিষ্ট ক্ষমতা রাজ্য আইনসভার হাতে।\nকোনগুলি সঠিক?",
+      "a": "১ ও ২ সঠিক",
+      "w": [
+        "১ ও ৩ সঠিক",
+        "২ ও ৩ সঠিক",
+        "১, ২, ৩ সবকটি সঠিক"
+      ],
+      "e": "১ ও ২ সঠিক (২৪৬ অনুচ্ছেদ); ৩ ভুল — অবশিষ্ট ক্ষমতা ২৪৮ অনুচ্ছেদে সংসদের হাতে।",
+      "claims": [
+        "c09",
+        "c10",
+        "c12"
+      ]
+    },
+    {
+      "id": "q46",
+      "section": "nobom_doshom",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. দলত্যাগে অযোগ্যতার সিদ্ধান্ত দেন স্পিকার/চেয়ারম্যান।\n২. সংযুক্তির জন্য অন্তত দুই-তৃতীয়াংশ বিধায়ক-দলের সম্মতি লাগে।\nকোনটি সঠিক?",
+      "a": "১ ও ২ দুটোই সঠিক",
+      "w": [
+        "শুধু ১ সঠিক",
+        "শুধু ২ সঠিক",
+        "১ ও ২ দুটোই ভুল"
+      ],
+      "e": "দুটোই দশম তফসিলের বিধান — সিদ্ধান্ত অনুচ্ছেদ ৬-এ, সংযুক্তির শর্ত অনুচ্ছেদ ৪-এ।",
+      "claims": [
+        "c23",
+        "c22"
+      ]
+    }
+  ]
+}
