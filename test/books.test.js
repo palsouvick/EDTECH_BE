@@ -172,7 +172,7 @@ test('the real Geography folder: table of contents 1-16 in four parts, every cha
   assert.deepEqual(real.errors, [], 'every chapter file in db/books/geography passes the validator');
 });
 
-test('the real Polity folder: table of contents 1-22 in seven parts, Batches 1+2 written (12 chapters, DRAFT + VERIFIED), PYQ map merged', () => {
+test('the real Polity folder: table of contents 1-22 in seven parts, Batches 1+2 written (12 chapters, PUBLISHED + VERIFIED after the owner publish order of 2026-11-19 and a fresh blind sweep), PYQ map merged', () => {
   const toc = require('../db/books/polity/toc.js');
   assert.deepEqual(toc.CHAPTERS.map((c) => c.number), Array.from({ length: 22 }, (_, i) => i + 1));
   assert.deepEqual(toc.PARTS.map((p) => p.code), ['foundation', 'rights_duties', 'union_govt', 'judiciary', 'state_federal', 'bodies_elections_local', 'revision']);
@@ -183,7 +183,7 @@ test('the real Polity folder: table of contents 1-22 in seven parts, Batches 1+2
   assert.deepEqual([...real.chapters.keys()].sort(), written.sort(), 'Batches 1+2 chapters written');
   for (const code of written) {
     const ch = real.chapters.get(code);
-    assert.equal(ch.status, 'DRAFT', `${code} stays DRAFT until the owner publishes`);
+    assert.equal(ch.status, 'PUBLISHED', `${code} published by owner order 2026-11-19 after the fresh blind sweep`);
     assert.equal(ch.verification.status, 'VERIFIED', `${code} is key-checked`);
   }
   assert.deepEqual(Object.keys(real.pyqMap).sort(), toc.CHAPTERS.map((c) => c.code).sort());

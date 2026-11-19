@@ -1,0 +1,404 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "পৃথিবী",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "There are eight planets in our solar system. In order of their distance from the Sun they are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess101.pdf",
+      "page": "p. 2",
+      "notes": "Order from Sun: Mercury, Venus, Earth."
+    },
+    {
+      "id": "q02",
+      "answer": "চাঁদ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Our earth has only one satellite, that is, the moon. Its diametre is only one-quarter that of the earth. It is about 3,84,400 km away from us.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess101.pdf",
+      "page": "p. 4",
+      "notes": "Moon is earth's only natural satellite."
+    },
+    {
+      "id": "q03",
+      "answer": "মেরুতে সামান্য চাপা — জিওয়েড আকৃতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The earth is the third nearest planet to the Sun. In size, it is the fifth largest planet. It is slightly flattened at the poles. That is why its shape is described as a Geoid.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess101.pdf",
+      "page": "p. 3",
+      "notes": "Slightly flattened at poles, shape described as Geoid."
+    },
+    {
+      "id": "q04",
+      "answer": "ব্যাস পৃথিবীর এক-চতুর্থাংশ; দূরত্ব প্রায় ৩,৮৪,৪০০ কিলোমিটার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Our earth has only one satellite, that is, the moon. Its diametre is only one-quarter that of the earth. It is about 3,84,400 km away from us.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess101.pdf",
+      "page": "p. 4",
+      "notes": "Diameter one-quarter of earth, distance about 3,84,400 km."
+    },
+    {
+      "id": "q05",
+      "answer": "প্রথমে হাইড্রোজেন ও হিলিয়ামের বায়ুমণ্ডল ছিল; সৌরবায়ু তা উড়িয়ে নিয়ে যায়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The early atmosphere with hydrogen and helium is supposed to have been stripped off as a result of the solar winds.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy202.pdf",
+      "page": "ch. 2",
+      "notes": "Early H/He atmosphere (also c07) stripped off by solar winds."
+    },
+    {
+      "id": "q06",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The earth is the third nearest planet to the Sun. In size, it is the fifth largest planet. It is slightly flattened at the poles. That is why its shape is described as a Geoid.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess101.pdf",
+      "page": "p. 3",
+      "notes": "Statement 1 from c03; statement 2 from c05 (moon diameter one-quarter). Both true."
+    },
+    {
+      "id": "q07",
+      "answer": "০°",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The four important parallels of latitudes are: Tropic of Cancer (23 1/2 degrees N), Tropic of Capricorn (23 1/2 degrees S), Arctic Circle (66 1/2 degrees N), Antarctic Circle (66 1/2 degrees S).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess102.pdf",
+      "page": "p. 7",
+      "notes": "Equator is the 0 degree parallel of latitude (claim text)."
+    },
+    {
+      "id": "q08",
+      "answer": "২৩½° উত্তর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The four important parallels of latitudes are: Tropic of Cancer (23 1/2 degrees N), Tropic of Capricorn (23 1/2 degrees S), Arctic Circle (66 1/2 degrees N), Antarctic Circle (66 1/2 degrees S).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess102.pdf",
+      "page": "p. 7",
+      "notes": "Tropic of Cancer is 23.5 degrees N."
+    },
+    {
+      "id": "q09",
+      "answer": "৮২°৩০′ পূর্ব",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "India located east of Greenwich at 82 degrees 30 minutes E is 5 hours and 30 minutes ahead of GMT. So, when it is 12:00 noon in London, it is 5:30 p.m. in India.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess102.pdf",
+      "page": "p. 9",
+      "notes": "Standard Meridian of India is 82 degrees 30 minutes E."
+    },
+    {
+      "id": "q10",
+      "answer": "বিকেল ৫টা ৩০ মিনিট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "India located east of Greenwich at 82 degrees 30 minutes E is 5 hours and 30 minutes ahead of GMT. So, when it is 12:00 noon in London, it is 5:30 p.m. in India.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess102.pdf",
+      "page": "p. 9",
+      "notes": "IST is 5h30m ahead of GMT; noon London = 5:30 p.m. India."
+    },
+    {
+      "id": "q11",
+      "answer": "আটটি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Tropic of Cancer (23 degrees 30 minutes N) divides the country into almost two equal parts. It passes through eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+      "page": "p. 2",
+      "notes": "Tropic of Cancer passes through eight states."
+    },
+    {
+      "id": "q12",
+      "answer": "ক-৩, খ-১, গ-২, ঘ-৪",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The four important parallels of latitudes are: Tropic of Cancer (23 1/2 degrees N), Tropic of Capricorn (23 1/2 degrees S), Arctic Circle (66 1/2 degrees N), Antarctic Circle (66 1/2 degrees S).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess102.pdf",
+      "page": "p. 7",
+      "notes": "Cancer 23.5N, Capricorn 23.5S, Arctic 66.5N, Antarctic 66.5S."
+    },
+    {
+      "id": "q13",
+      "answer": "দিন-রাত",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Rotation is the movement of the earth on its axis. The earth takes about 24 hours to complete one rotation around its axis. The period of rotation is known as the earthday. This is the daily motion of the earth.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess103.pdf",
+      "page": "p. 10",
+      "notes": "Rotation is daily motion causing day and night (claim text)."
+    },
+    {
+      "id": "q14",
+      "answer": "৩৬৫¼ দিন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The movement of the earth around the sun in a fixed path or orbit is called Revolution. It takes 365 1/4 days (one year) to revolve around the sun.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess103.pdf",
+      "page": "p. 11",
+      "notes": "Revolution takes 365 1/4 days."
+    },
+    {
+      "id": "q15",
+      "answer": "২৯ দিন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Six hours saved every year are added to make one day (24 hours) over a span of four years. This surplus day is added to the month of February. Thus every fourth year, February is of 29 days instead of 28 days.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess103.pdf",
+      "page": "p. 11",
+      "notes": "In leap year February has 29 days."
+    },
+    {
+      "id": "q16",
+      "answer": "২১ জুন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "On 21st June, the Northern Hemisphere is tilted towards the sun. The rays of the sun fall directly on the Tropic of Cancer. The longest day and the shortest night at these places occur on 21st June. The North Pole is inclined towards the sun and the places beyond the Arctic Circle experience continuous daylight for about six months.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess103.pdf",
+      "page": "p. 12",
+      "notes": "Longest day in Northern Hemisphere on 21 June."
+    },
+    {
+      "id": "q17",
+      "answer": "সারা পৃথিবীতে দিন-রাত সমান হয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "On 21st March and September 23rd, direct rays of the sun fall on the equator. At this position, neither of the poles is tilted towards the sun. Therefore, the entire earth experiences equal days and equal nights. This is called an equinox.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess103.pdf",
+      "page": "p. 13",
+      "notes": "At equinox entire earth experiences equal days and nights."
+    },
+    {
+      "id": "q18",
+      "answer": "A ও R উভয়ই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "On 21st June, the Northern Hemisphere is tilted towards the sun. The rays of the sun fall directly on the Tropic of Cancer. The longest day and the shortest night at these places occur on 21st June. The North Pole is inclined towards the sun and the places beyond the Arctic Circle experience continuous daylight for about six months.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess103.pdf",
+      "page": "p. 12",
+      "notes": "21 June rays fall directly on Tropic of Cancer, NH tilted to sun; R explains A."
+    },
+    {
+      "id": "q19",
+      "answer": "ভূত্বক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The uppermost layer over the earth's surface is called the crust. It is the thinnest of all the layers. It is about 35 km on the continental masses and only 5 km on the ocean floors.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess202.pdf",
+      "page": "p. 7",
+      "notes": "Crust is thinnest of all layers."
+    },
+    {
+      "id": "q20",
+      "answer": "২,৯০০ কিলোমিটার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Just beneath the crust is the mantle which extends up to a depth of 2900 km below the crust.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess202.pdf",
+      "page": "p. 7",
+      "notes": "Mantle extends up to depth of 2,900 km."
+    },
+    {
+      "id": "q21",
+      "answer": "নিকেল ও লোহা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The innermost layer is the core with a radius of about 3500 km. It is mainly made up of nickel and iron and is called nife (ni - nickel and fe - ferrous i.e. iron).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess202.pdf",
+      "page": "p. 8",
+      "notes": "Core mainly nickel and iron (nife)."
+    },
+    {
+      "id": "q22",
+      "answer": "বহির্জাত আগ্নেয় শিলা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Rocks formed in such a way on the crust are called extrusive igneous rocks. They have a very fine grained structure. For example, basalt. The Deccan plateau is made up of basalt rocks.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess202.pdf",
+      "page": "p. 8",
+      "notes": "Basalt is example of extrusive igneous rock."
+    },
+    {
+      "id": "q23",
+      "answer": "মার্বেল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Igneous and sedimentary rocks can change into metamorphic rocks under great heat and pressure. For example, clay changes into slate and limestone into marble.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess202.pdf",
+      "page": "p. 9",
+      "notes": "Limestone changes into marble under heat and pressure."
+    },
+    {
+      "id": "q24",
+      "answer": "পাললিক শিলায়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Fossils of the dead plants and animals which got buried under the sediments are found in the sedimentary rocks.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess202.pdf",
+      "page": "p. 9",
+      "notes": "Fossils found in sedimentary rocks."
+    },
+    {
+      "id": "q25",
+      "answer": "গ্রানাইট — অন্তর্জাত আগ্নেয় শিলা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Sometimes the molten magma cools down deep inside the earth's crust. Solid rocks so formed are called intrusive igneous rocks. Since they cool down slowly they form large grains. Granite is an example of such a rock.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess202.pdf",
+      "page": "p. 8",
+      "notes": "Granite is intrusive igneous; other pairs contradict c39/c41/c43."
+    },
+    {
+      "id": "q26",
+      "answer": "লাভা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "A volcano is a vent (opening) in the earth's crust through which molten material erupts suddenly. The magma, when it reaches the earth's surface, is called lava.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess203.pdf",
+      "page": "p. 12",
+      "notes": "Magma reaching surface is called lava."
+    },
+    {
+      "id": "q27",
+      "answer": "ভূপৃষ্ঠে কেন্দ্রের ঠিক উপরের জায়গা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "When the lithospheric plates move, the surface of the earth vibrates. These vibrations are called earthquakes. The place in the crust where the movement starts is called the focus. The place on the surface above the focus is called the epicentre.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess203.pdf",
+      "page": "p. 13",
+      "notes": "Epicentre is place on surface above focus."
+    },
+    {
+      "id": "q28",
+      "answer": "ব্যারেন দ্বীপ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The flame also sailed past the Barren Island, India's only active volcano.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1744814&reg=3&lang=2",
+      "page": "press release, 15 Aug 2021",
+      "notes": "Barren Island is India's only active volcano."
+    },
+    {
+      "id": "q29",
+      "answer": "সব মহাদেশ মিলে একটিমাত্র মহাদেশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Alfred Wegener, a German meteorologist, put forth a comprehensive argument in the form of 'the continental drift theory' in 1912. According to him, all continents formed a single continental mass and the mega ocean surrounded the same. The super continent was named PANGAEA, which meant all earth. The mega-ocean was called PANTHALASSA, meaning all water. About 200 million years ago, Pangaea began to split into two large masses, Laurasia and Gondwanaland.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy204.pdf",
+      "page": "ch. 4",
+      "notes": "Pangaea was single continental mass of all continents."
+    },
+    {
+      "id": "q30",
+      "answer": "ভারতীয় পাত ও ইউরেশিয়ান পাতের সংঘর্ষে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Indian plate collided with the Eurasian plate about 40-50 million years ago, causing rapid uplift of the Himalayas.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy204.pdf",
+      "page": "ch. 4",
+      "notes": "Indian plate collided with Eurasian plate causing Himalaya uplift."
+    },
+    {
+      "id": "q31",
+      "answer": "রিখটার স্কেল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "An earthquake is measured with a machine called a seismograph. The magnitude of the earthquake is measured on the Richter scale.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess203.pdf",
+      "page": "p. 13",
+      "notes": "Magnitude measured on Richter scale (seismograph is the machine)."
+    },
+    {
+      "id": "q32",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In 1967, McKenzie and Parker and also Morgan, independently collected the available ideas and came out with another concept termed Plate Tectonics. The lithosphere is divided into seven major and some minor plates.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy204.pdf",
+      "page": "ch. 4",
+      "notes": "Plate tectonics 1967 McKenzie/Parker/Morgan; seven major and some minor plates. Both true."
+    },
+    {
+      "id": "q33",
+      "answer": "নাইট্রোজেন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Nitrogen constitutes 78.08%, oxygen contributes 20.95% and argon contributes 0.93% in the atmosphere. Carbon dioxide constitutes 0.036% of the atmosphere.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy207.pdf",
+      "page": "ch. 7",
+      "notes": "Nitrogen 78.08% is largest share of atmosphere."
+    },
+    {
+      "id": "q34",
+      "answer": "স্ট্র্যাটোস্ফিয়ার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The stratosphere extends up to a height of 50 km. It contains a layer of ozone gas which protects us from the harmful effect of the sun rays.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess204.pdf",
+      "page": "p. 22",
+      "notes": "Stratosphere contains layer of ozone gas."
+    },
+    {
+      "id": "q35",
+      "answer": "ব্যারোমিটার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The air pressure is measured with the help of an instrument called a barometer.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess204.pdf",
+      "page": "p. 23",
+      "notes": "Air pressure measured with barometer."
+    },
+    {
+      "id": "q36",
+      "answer": "মেসোস্ফিয়ার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The mesosphere extends up to the height of 80 km. Meteorites burn up in this layer on entering from the space.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess204.pdf",
+      "page": "p. 22",
+      "notes": "Meteorites burn up in mesosphere."
+    },
+    {
+      "id": "q37",
+      "answer": "সমান বায়ুচাপের জায়গাগুলি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Isobars are lines connecting places having equal pressure.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy209.pdf",
+      "page": "ch. 9",
+      "notes": "Isobars connect places of equal pressure."
+    },
+    {
+      "id": "q38",
+      "answer": "প্রশান্ত মহাসাগর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Pacific Ocean is the largest ocean. It is spread over one-third of the earth.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/fess105.pdf",
+      "page": "p. 34",
+      "notes": "Pacific is largest ocean."
+    },
+    {
+      "id": "q39",
+      "answer": "৩৫‰",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Salinity is the amount of salt in grams present in 1000 grams of water. The average salinity of the oceans is 35 parts per thousand.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess205.pdf",
+      "page": "p. 31",
+      "notes": "Average salinity 35 parts per thousand."
+    },
+    {
+      "id": "q40",
+      "answer": "অমাবস্যা ও পূর্ণিমায়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "During the full moon and new moon days, the sun, the moon and the earth are in the same line and the tides are highest. These tides are called spring tides.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess205.pdf",
+      "page": "p. 35",
+      "notes": "Spring tides on full moon and new moon days."
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "আকরিক (Ore)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The term ore is used to describe an accumulation of any mineral mixed with other elements.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 43",
+      "notes": "c01"
+    },
+    {
+      "id": "q02",
+      "answer": "ম্যাগনেটাইট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Magnetite is the finest iron ore with a very high content of iron up to 70 per cent.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 44",
+      "notes": "c10"
+    },
+    {
+      "id": "q03",
+      "answer": "ছত্তিশগড়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The range of hills comprise of 14 deposits of super high grade hematite iron ore.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c13: claim text places Bailadila range in Bastar, Chhattisgarh"
+    },
+    {
+      "id": "q04",
+      "answer": "পশ্চিমঘাট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Kudremukh mines located in the Western Ghats of Karnataka are a 100 per cent export unit.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c14"
+    },
+    {
+      "id": "q05",
+      "answer": "অভ্র",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Koderma Gaya - Hazaribagh belt of Jharkhand is the leading producer.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 48",
+      "notes": "c20: claim text identifies this belt as leading mica producer"
+    },
+    {
+      "id": "q06",
+      "answer": "তামা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Balaghat mines in Madhya Pradesh, Khetri mines in Rajasthan and Singhbhum district of Jharkhand are leading producers of copper.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 47",
+      "notes": "c17"
+    },
+    {
+      "id": "q07",
+      "answer": "অসম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Assam is the oldest oil producing state of India. Digboi, Naharkatiya and Moran-Hugrijan are the important oil fields in the state.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 52",
+      "notes": "c31"
+    },
+    {
+      "id": "q08",
+      "answer": "কয়লা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In India, coal is the most abundantly available fossil fuel.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 50",
+      "notes": "c24"
+    },
+    {
+      "id": "q09",
+      "answer": "অ্যানথ্রাসাইট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Anthracite is the highest quality hard coal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 50",
+      "notes": "c25"
+    },
+    {
+      "id": "q10",
+      "answer": "ঝরিয়া",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Jharia is the largest coal field followed by Raniganj.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 59",
+      "notes": "c28"
+    },
+    {
+      "id": "q11",
+      "answer": "স্লারি করে পাইপলাইনে মাঙ্গালুরুর কাছের বন্দরে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Kudremukh mines located in the Western Ghats of Karnataka are a 100 per cent export unit.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c14: claim text states ore goes as slurry through a pipeline to a port near Mangaluru"
+    },
+    {
+      "id": "q12",
+      "answer": "বিশাখাপত্তনম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The range of hills comprise of 14 deposits of super high grade hematite iron ore.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c13: claim text states Bailadila ore exported to Japan and South Korea via Vishakhapatnam port"
+    },
+    {
+      "id": "q13",
+      "answer": "বক্সাইট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Odisha was the largest bauxite producing state in India in 2018-19. Panchpatmali deposits in Koraput district are the most important bauxite deposits in the state.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 47",
+      "notes": "c18"
+    },
+    {
+      "id": "q14",
+      "answer": "মেঘালয়, অসম, অরুণাচলপ্রদেশ ও নাগাল্যান্ড",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Tertiary coals occur in the north eastern states of Meghalaya, Assam, Arunachal Pradesh and Nagaland.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 52",
+      "notes": "c27"
+    },
+    {
+      "id": "q15",
+      "answer": "নেইভেলি, তামিলনাড়ু",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Anthracite is the highest quality hard coal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 50",
+      "notes": "c25: claim text identifies lignite with Neyveli, Tamil Nadu; quote covers coal varieties only"
+    },
+    {
+      "id": "q16",
+      "answer": "টার্শিয়ারি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Most of the petroleum occurrences in India are associated with anticlines and fault traps in the rock formations of the tertiary age.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 52",
+      "notes": "c30"
+    },
+    {
+      "id": "q17",
+      "answer": "আঙ্কলেশ্বর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Assam is the oldest oil producing state of India. Digboi, Naharkatiya and Moran-Hugrijan are the important oil fields in the state.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 52",
+      "notes": "c31: claim text states Ankleshwar is Gujarat's most important field; quote covers Assam fields only"
+    },
+    {
+      "id": "q18",
+      "answer": "১৬০ কিমি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Mumbai High which lies 160 km off Mumbai was discovered in 1973 and production commenced in 1976.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 59",
+      "notes": "c32"
+    },
+    {
+      "id": "q19",
+      "answer": "ডিগবয় (অসম)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Mumbai High which lies 160 km off Mumbai was discovered in 1973 and production commenced in 1976.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 59",
+      "notes": "c32: claim text states till ONGC was set up in 1956, Digboi was the only oil-producing region"
+    },
+    {
+      "id": "q20",
+      "answer": "ডিগবয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Digboi is an example of field-based and Barauni is an example of market-based refinery.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 59",
+      "notes": "c33"
+    },
+    {
+      "id": "q21",
+      "answer": "থোরিয়াম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Monazite sands of Kerala is also rich in Thorium.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 54",
+      "notes": "c36"
+    },
+    {
+      "id": "q22",
+      "answer": "কর্ণাটক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The important nuclear power projects are Tarapur (Maharashtra), Rawatbhata near Kota (Rajasthan), Kalpakkam (Tamil Nadu), Narora (Uttar Pradesh), Kaiga (Karnataka) and Kakarapara (Gujarat).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 61",
+      "notes": "c37"
+    },
+    {
+      "id": "q23",
+      "answer": "তামিলনাড়ু (নাগেরকোয়েল থেকে মাদুরাই)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The largest wind farm cluster is located in Tamil Nadu from Nagarcoil to Madurai.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 54",
+      "notes": "c38"
+    },
+    {
+      "id": "q24",
+      "answer": "খাম্ভাত উপসাগর, কচ্ছ উপসাগর ও সুন্দরবনের গাঙ্গেয় বদ্বীপ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the Gulf of Khambhat, the Gulf of Kuchchh in Gujarat on the western coast and Gangetic delta in Sunderban regions of West Bengal provide ideal conditions for utilising tidal energy.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 55",
+      "notes": "c41"
+    },
+    {
+      "id": "q25",
+      "answer": "লাদাখ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "One is located in the Parvati valley near Manikaran in Himachal Pradesh and the other is located in the Puga Valley, Ladakh.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 55",
+      "notes": "c42"
+    },
+    {
+      "id": "q26",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Kudremukh mines located in the Western Ghats of Karnataka are a 100 per cent export unit.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c14 + c13/c15: Bailadila exports via Vishakhapatnam, Marmagao is for Maharashtra-Goa belt, so statement 2 is false"
+    },
+    {
+      "id": "q27",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In India coal occurs in rock series of two main geological ages, namely Gondwana, a little over 200 million years in age and in tertiary deposits which are only about 55 million years old.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 50",
+      "notes": "c26 + c27: NE coals are tertiary, not Gondwana"
+    },
+    {
+      "id": "q28",
+      "answer": "সোনা, রুপো, টিন ও প্ল্যাটিনাম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Gold, silver, tin and platinum are most important among such minerals.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 44",
+      "notes": "c05"
+    },
+    {
+      "id": "q29",
+      "answer": "বাষ্পীভবন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Another group of sedimentary minerals include gypsum, potash salt and sodium salt. These are formed as a result of evaporation especially in arid regions.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 43",
+      "notes": "c03"
+    },
+    {
+      "id": "q30",
+      "answer": "১৪টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The range of hills comprise of 14 deposits of super high grade hematite iron ore.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c13"
+    },
+    {
+      "id": "q31",
+      "answer": "প্রায় ১০ কেজি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Nearly 10 kg of manganese is required to manufacture one tonne of steel.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c16"
+    },
+    {
+      "id": "q32",
+      "answer": "বক্সাইট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Odisha was the largest bauxite producing state in India in 2018-19. Panchpatmali deposits in Koraput district are the most important bauxite deposits in the state.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 47",
+      "notes": "c18: claim text states bauxite is found in Amarkantak plateau, Maikal hills and Bilaspur-Katni plateau"
+    },
+    {
+      "id": "q33",
+      "answer": "ইঁদুর-গর্ত খনন (Rat-hole mining)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The National Green Tribunal has declared such activities illegal and recommended that these should be stopped forthwith.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 44",
+      "notes": "c06: claim text names rat-hole mining at Jowai and Cherrapunji"
+    },
+    {
+      "id": "q34",
+      "answer": "মুম্বই হাই ও বাসেইন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "India's major gas reserves are found in the Mumbai High and allied fields along the west coast which are supplemented by finds in the Cambay basin.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 52",
+      "notes": "c34: claim text states first 1,700 km HVJ pipeline linked Mumbai High and Bassein fields"
+    },
+    {
+      "id": "q35",
+      "answer": "মাঙ্গালুরু ও কানপুরকে যুক্তকারী রেখার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Most of the major mineral resources occur to the east of a line linking Mangaluru and Kanpur.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 54",
+      "notes": "c08"
+    },
+    {
+      "id": "q36",
+      "answer": "A-১, B-২, C-৩, D-৪",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In Odisha high grade hematite ore is found in Badampahar mines in the Mayurbhanj and Kendujhar districts.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": "c12 + c13 + c14 + c45"
+    },
+    {
+      "id": "q37",
+      "answer": "A-১, B-২, C-৩, D-৪",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Balaghat mines in Madhya Pradesh, Khetri mines in Rajasthan and Singhbhum district of Jharkhand are leading producers of copper.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 47",
+      "notes": "c17 + c20 + c18 + c25"
+    },
+    {
+      "id": "q38",
+      "answer": "কাকরাপাড়া: গুজরাত",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The important nuclear power projects are Tarapur (Maharashtra), Rawatbhata near Kota (Rajasthan), Kalpakkam (Tamil Nadu), Narora (Uttar Pradesh), Kaiga (Karnataka) and Kakarapara (Gujarat).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 61",
+      "notes": "c37"
+    },
+    {
+      "id": "q39",
+      "answer": "ভূতাপীয় শক্তি: পুগা উপত্যকা (লাদাখ)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "One is located in the Parvati valley near Manikaran in Himachal Pradesh and the other is located in the Puga Valley, Ladakh.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 55",
+      "notes": "c42"
+    },
+    {
+      "id": "q40",
+      "answer": "১, ২ ও ৩ সবগুলিই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Jharia is the largest coal field followed by Raniganj.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 59",
+      "notes": "c28 + c25 + c26"
+    },
+    {
+      "id": "q41",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Hence, heavy industries and thermal power stations are located on or near the coalfields.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 52",
+      "notes": "c29: claim text states coal is bulky and loses weight on use"
+    },
+    {
+      "id": "q42",
+      "answer": "শুধুমাত্র ১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The important nuclear power projects are Tarapur (Maharashtra), Rawatbhata near Kota (Rajasthan), Kalpakkam (Tamil Nadu), Narora (Uttar Pradesh), Kaiga (Karnataka) and Kakarapara (Gujarat).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 61",
+      "notes": "c37: AEC 1948, Trombay renamed BARC 1967 per claim text; c36 shows Kerala monazite is thorium, not uranium"
+    },
+    {
+      "id": "q43",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": [
+        "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়"
+      ],
+      "quote": "Most of the petroleum occurrences in India are associated with anticlines and fault traps in the rock formations of the tertiary age.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 52",
+      "notes": "c30 + c07: petroleum in sedimentary rocks per c07/c08; porous limestone/sandstone trapping per c30 claim text"
+    }
+  ]
+}

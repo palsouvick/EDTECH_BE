@@ -1,0 +1,414 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "৬টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "India can be divided into the following physiographic divisions: (1) The Northern and North-eastern Mountains (2) The Northern Plain (3) The Peninsular Plateau (4) The Indian Desert (5) The Coastal Plains (6) The Islands.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 9-11",
+      "notes": "c04 lists six physiographic divisions."
+    },
+    {
+      "id": "q02",
+      "answer": "প্রায় ২,৫০০ কিমি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The approximate length of the Great Himalayan range, also known as the central axial range, is 2,500 km from east to west, and their width varies between 160-400 km from north to south.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 11",
+      "notes": "c06 gives Great Himalayan range length ~2,500 km."
+    },
+    {
+      "id": "q03",
+      "answer": "ভাবর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Bhabar is a narrow belt ranging between 8-10 km parallel to the Shiwalik foothills",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 11",
+      "notes": "c08 defines Bhabar belt at Shiwalik foothills where streams deposit boulders/disappear."
+    },
+    {
+      "id": "q04",
+      "answer": "খাদার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "a belt consisting of old and new alluvial deposits known as the Bhangar and Khadar respectively",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 11",
+      "notes": "c10: old=Bhangar, new=Khadar (respectively)."
+    },
+    {
+      "id": "q05",
+      "answer": "আনাইমুদি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "'Anaimudi' (2,695 m), the highest peak of Peninsular plateau is located on the Anaimalai hills of the Western Ghats followed by Dodabetta (2,637 m) on the Nilgiri hills.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "c14: Anaimudi highest peak of Peninsular plateau."
+    },
+    {
+      "id": "q06",
+      "answer": "টেন ডিগ্রি চ্যানেল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "They are separated by a waterbody which is called the Ten degree channel. ... Barren island, the only active volcano in India is also situated in the Andaman and Nicobar islands.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 15",
+      "notes": "c20: Andaman/Nicobar separated by Ten degree channel."
+    },
+    {
+      "id": "q07",
+      "answer": "ব্যারেন দ্বীপ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "They are separated by a waterbody which is called the Ten degree channel. ... Barren island, the only active volcano in India is also situated in the Andaman and Nicobar islands.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 15",
+      "notes": "c20: Barren island, only active volcano in India."
+    },
+    {
+      "id": "q08",
+      "answer": "প্রবাল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The entire group of islands is broadly divided by the Nine degree channel, north of which is the Amini Island and to the south of the Canannore Island.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 15",
+      "notes": "c21: Lakshadweep built of coral."
+    },
+    {
+      "id": "q09",
+      "answer": "আরাবল্লী",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "To the northwest of the Aravali hills lies the Great Indian desert. ... This region receives low rainfall below 150 mm per year",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 13-14",
+      "notes": "c17: Great Indian Desert lies northwest of Aravali."
+    },
+    {
+      "id": "q10",
+      "answer": "মালাবার উপকূল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The western coastal plains are an example of submerged coastal plain.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 14",
+      "notes": "c18: Malabar coast has Kayals (backwaters)."
+    },
+    {
+      "id": "q11",
+      "answer": "নীলগিরি পাহাড়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "'Anaimudi' (2,695 m), the highest peak of Peninsular plateau is located on the Anaimalai hills of the Western Ghats followed by Dodabetta (2,637 m) on the Nilgiri hills.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "c14: the two Ghats meet at Nilgiri hills."
+    },
+    {
+      "id": "q12",
+      "answer": "সহ্যাদ্রি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Western Ghats are locally known by different names such as Sahyadri in Maharashtra, Nilgiri hills in Karnataka and Tamil Nadu and Anaimalai hills and Cardamom hills in Kerala.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 12-13",
+      "notes": "c13: Western Ghats called Sahyadri in Maharashtra."
+    },
+    {
+      "id": "q13",
+      "answer": "নীলগিরি পাহাড়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "'Anaimudi' (2,695 m), the highest peak of Peninsular plateau is located on the Anaimalai hills of the Western Ghats followed by Dodabetta (2,637 m) on the Nilgiri hills.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "c14: Dodabetta on Nilgiri hills."
+    },
+    {
+      "id": "q14",
+      "answer": "দাক্ষিণাত্য মালভূমি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Western Ghats are locally known by different names such as Sahyadri in Maharashtra, Nilgiri hills in Karnataka and Tamil Nadu and Anaimalai hills and Cardamom hills in Kerala.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 12-13",
+      "notes": "c13: Deccan bordered by Western Ghats, Eastern Ghats, Satpura/Maikal/Mahadeo."
+    },
+    {
+      "id": "q15",
+      "answer": "আরাবল্লী",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "They are bounded to the west by the Aravali range. The Satpura range is formed by a series of scarped plateaus on the south",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "c15: Central Highlands bounded west by Aravali."
+    },
+    {
+      "id": "q16",
+      "answer": "আরাবল্লী",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "They are bounded to the west by the Aravali range. The Satpura range is formed by a series of scarped plateaus on the south",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "c15: Banas, from Aravalli, only significant tributary of Chambal."
+    },
+    {
+      "id": "q17",
+      "answer": "মহাদেও পাহাড়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Meghalaya plateau is further sub-divided into three: (i) The Garo Hills; (ii) The Khasi Hills; (iii) The Jaintia Hills",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "c16: Meghalaya plateau = Garo, Khasi, Jaintia only; Mahadeo not among them."
+    },
+    {
+      "id": "q18",
+      "answer": "৮–১০ কিমি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Bhabar is a narrow belt ranging between 8-10 km parallel to the Shiwalik foothills",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 11",
+      "notes": "c08: Bhabar width 8-10 km."
+    },
+    {
+      "id": "q19",
+      "answer": "সিন্ধু ও গঙ্গা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The states of Haryana and Delhi form a water divide between the Indus and the Ganga river systems.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 11-12",
+      "notes": "c11 quote: Haryana and Delhi form water divide between Indus and Ganga."
+    },
+    {
+      "id": "q20",
+      "answer": "১৫০ মিমির কম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "To the northwest of the Aravali hills lies the Great Indian desert. ... This region receives low rainfall below 150 mm per year",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 13-14",
+      "notes": "c17: desert rainfall below 150 mm per year."
+    },
+    {
+      "id": "q21",
+      "answer": "লুনি",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "To the northwest of the Aravali hills lies the Great Indian desert. ... This region receives low rainfall below 150 mm per year",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 13-14",
+      "notes": "c17 names Luni as the significant desert river; claims do not specify 'southern part', hence LIKELY."
+    },
+    {
+      "id": "q22",
+      "answer": "উত্থিত উপকূল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the eastern coastal plain is broader and is an example of an emergent coast.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 14",
+      "notes": "c19: eastern coastal plain is an emergent coast."
+    },
+    {
+      "id": "q23",
+      "answer": "মিনিকয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The entire group of islands is broadly divided by the Nine degree channel, north of which is the Amini Island and to the south of the Canannore Island.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 15",
+      "notes": "c21: Minicoy the largest island (453 sq km)."
+    },
+    {
+      "id": "q24",
+      "answer": "উত্তর আন্দামান",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "They are separated by a waterbody which is called the Ten degree channel. ... Barren island, the only active volcano in India is also situated in the Andaman and Nicobar islands.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 15",
+      "notes": "not covered by claims: c20 lists Saddle peak (738 m) but does not state it is in North Andaman; best answer given."
+    },
+    {
+      "id": "q25",
+      "answer": "ইন্দিরা পয়েন্ট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Indira point in the Andaman and Nicobar islands that marked the southernmost point of India got completely submerged.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess205.pdf",
+      "page": "pp. 34-35",
+      "notes": "c29: Indira Point, southernmost point, submerged by 2004 tsunami."
+    },
+    {
+      "id": "q26",
+      "answer": "মান্নার উপসাগর ও পক প্রণালী",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Sri Lanka is separated from India by the Gulf of Mannar and Palk Strait.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+      "page": "p. 5",
+      "notes": "c30 quote: Sri Lanka separated by Gulf of Mannar and Palk Strait."
+    },
+    {
+      "id": "q27",
+      "answer": "নাথুলা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Except for a few mountain passes such as the Khyber, the Bolan, the Shipkila, the Nathula, the Bomdila, etc. it was difficult to cross it.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+      "page": "p. 5",
+      "notes": "c23 lists Nathula among the Himalayan passes."
+    },
+    {
+      "id": "q28",
+      "answer": "পীর পাঞ্জাল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Jhelum, an important tributary of the Indus, rises from a spring at Verinag situated at the foot of the Pir Panjal in the south-eastern part of the valley of Kashmir.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "Himalayan drainage: Indus system",
+      "notes": "c24 quote: Jhelum rises at Verinag at foot of Pir Panjal."
+    },
+    {
+      "id": "q29",
+      "answer": "কারাকোরাম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Ladakh is a cold desert lying in the Great Himalayas, on the eastern side of Jammu and Kashmir. The Karakoram Range in the north and the Zanskar mountains in the south enclose it.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/gess207.pdf",
+      "page": "pp. 51-52",
+      "notes": "c22: Karakoram in north encloses Ladakh."
+    },
+    {
+      "id": "q30",
+      "answer": "সাতপুরা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "ভারতের সাতপুরা পর্বত, জার্মানির ব্লাক ফরেস্ট এবং ফ্রান্সের ভোজ এরকম স্তূপ পর্বত। ... ভারতের দাক্ষিণাত্য মালভূমি, মালব মালভূমি এরকম লাভাগঠিত মালভূমি।",
+      "source_url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/",
+      "page": "pp. 39-40",
+      "notes": "c26 (WBBSE): Satpura is a block (horst) mountain."
+    },
+    {
+      "id": "q31",
+      "answer": "ধুবড়ি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The states of Haryana and Delhi form a water divide between the Indus and the Ganga river systems.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "pp. 11-12",
+      "notes": "c11 claim text: Brahmaputra turns almost 90 degrees south at Dhubri (the verbatim quote field of c11 covers a different sub-fact)."
+    },
+    {
+      "id": "q32",
+      "answer": "গ্রানাইট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "ভারতের ছোটনাগপুর মালভূমি অঞ্চলে বিভিন্ন খনিজ সম্পদ যেমন লোহা, তামা, বক্সাইট, ম্যাঙ্গানিজ, ডলোমাইট, মাইকা প্রভৃতি প্রচুর পরিমাণে পাওয়া যায় বলে একে ভারতের খনিজ ভাণ্ডার বলে।",
+      "source_url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/",
+      "page": "p. 115",
+      "notes": "c27 claim text: Chotanagpur region is mainly granite."
+    },
+    {
+      "id": "q33",
+      "answer": "আরব সাগরের মৌসুমি বায়ু পশ্চিমঘাটে বাধা পেয়ে পশ্চিম ঢালে বৃষ্টি ঘটায়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "দক্ষিণ-পশ্চিম মৌসুমি বায়ুর আরব সাগরীয় শাখা পশ্চিমঘাট পর্বতে বাধা পেয়ে পর্বতের পশ্চিমঢালে প্রচুর পরিমাণে বৃষ্টিপাত ঘটায়।",
+      "source_url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/",
+      "page": "p. 208",
+      "notes": "c31: Arabian Sea monsoon blocked by Western Ghats, heavy rain on western slope, eastern Deccan in rain shadow."
+    },
+    {
+      "id": "q34",
+      "answer": "দক্ষিণ-পশ্চিম মৌসুমি বায়ু থেকে সর্বাধিক বৃষ্টিপাত",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "The Meghalaya plateau is further sub-divided into three: (i) The Garo Hills; (ii) The Khasi Hills; (iii) The Jaintia Hills",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "not covered by claims: no claim states the erosion cause for the Meghalaya plateau surface; c16 only notes Cherrapunji bare rock. Best answer given."
+    },
+    {
+      "id": "q35",
+      "answer": "উত্থিত উপকূল ও ৫০০ কিমি পর্যন্ত বিস্তৃত মহীসোপান",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the eastern coastal plain is broader and is an example of an emergent coast.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 14",
+      "notes": "c19 claim text: fewer ports because continental shelf extends up to 500 km; coast is emergent."
+    },
+    {
+      "id": "q36",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "South of the Bhabar is the Tarai belt, with an approximate width of 10-20 km",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 11",
+      "notes": "Statement 1 true per c08; statement 2 false: c09 places Tarai SOUTH of Bhabar, not north."
+    },
+    {
+      "id": "q37",
+      "answer": "A-১, B-২, C-৩, D-৪",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "'Anaimudi' (2,695 m), the highest peak of Peninsular plateau is located on the Anaimalai hills of the Western Ghats followed by Dodabetta (2,637 m) on the Nilgiri hills.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 13",
+      "notes": "Anaimudi 2,695 m and Dodabetta 2,637 m per c14; Saddle 738 m and Thuiller 642 m per c20 claim text."
+    },
+    {
+      "id": "q38",
+      "answer": "টেন ডিগ্রি চ্যানেল: আন্দামান ও নিকোবরের মাঝে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "They are separated by a waterbody which is called the Ten degree channel. ... Barren island, the only active volcano in India is also situated in the Andaman and Nicobar islands.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 15",
+      "notes": "c20: Ten degree channel separates Andaman and Nicobar; other pairs contradict c20/c21."
+    },
+    {
+      "id": "q39",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "The western coastal plains are an example of submerged coastal plain.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 14",
+      "notes": "c18 supports both facts (western plains submerged coast, narrow in middle); the explanatory link is the standard reading, hence LIKELY."
+    },
+    {
+      "id": "q40",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The approximate length of the Great Himalayan range, also known as the central axial range, is 2,500 km from east to west, and their width varies between 160-400 km from north to south.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 11",
+      "notes": "Statement 1 per c06 (2,500 km); statement 2 per c07 (plains extend ~3,200 km east-west)."
+    },
+    {
+      "id": "q41",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "দক্ষিণ-পশ্চিম মৌসুমি বায়ুর আরব সাগরীয় শাখা পশ্চিমঘাট পর্বতে বাধা পেয়ে পর্বতের পশ্চিমঢালে প্রচুর পরিমাণে বৃষ্টিপাত ঘটায়।",
+      "source_url": "https://banglarshiksha.wb.gov.in/readwrite/etextbook/",
+      "page": "p. 208",
+      "notes": "c31 directly supports both A and R and the causal link (rain shadow east of Western Ghats)."
+    }
+  ]
+}

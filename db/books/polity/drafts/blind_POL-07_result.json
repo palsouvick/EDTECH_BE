@@ -1,0 +1,404 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "রাষ্ট্রপতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "According to this system, there is a President who is the formal Head of the state of India and the Prime Minister and the Council of Ministers, which run the government at the national level.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keps204.pdf",
+      "page": "p. 83",
+      "notes": "Claim c04: President is formal Head of the state."
+    },
+    {
+      "id": "q02",
+      "answer": "ড. রাজেন্দ্র প্রসাদ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Dr. Rajendra Prasad — 1st President of India",
+      "source_url": "https://www.presidentofindia.gov.in/former-presidents/",
+      "page": "Former Presidents list",
+      "notes": "Claim c39 lists Dr. Rajendra Prasad as 1st President."
+    },
+    {
+      "id": "q03",
+      "answer": "সংসদের উভয় কক্ষের নির্বাচিত সদস্য ও রাজ্য বিধানসভার নির্বাচিত সদস্যরা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall be elected by the members of an electoral college consisting of—(a) the elected members of both Houses of Parliament; and (b) the elected members of the Legislative Assemblies of the States.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 26",
+      "notes": "Claim c06: elected members of both Houses + elected MLAs."
+    },
+    {
+      "id": "q04",
+      "answer": "একক হস্তান্তরযোগ্য ভোটের মাধ্যমে আনুপাতিক প্রতিনিধিত্ব, গোপন ব্যালটে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The election of the President shall be held in accordance with the system of proportional representation by means of the single transferable vote and the voting at such election shall be by secret ballot.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 27",
+      "notes": "Claim c08: proportional representation by single transferable vote, secret ballot."
+    },
+    {
+      "id": "q05",
+      "answer": "পাঁচ বছর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall hold office for a term of five years from the date on which he enters upon his office",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 27",
+      "notes": "Claim c10: five-year term from date of entering office."
+    },
+    {
+      "id": "q06",
+      "answer": "৩৫ বছর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "No person shall be eligible for election as President unless he—(a) is a citizen of India, (b) has completed the age of thirty-five years, and (c) is qualified for election as a member of the House of the People.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 28",
+      "notes": "Claim c11: completed age of thirty-five years."
+    },
+    {
+      "id": "q07",
+      "answer": "রাষ্ট্রপতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall have the power to grant pardons, reprieves, respites or remissions of punishment or to suspend, remit or commute the sentence of any person convicted of any offence. Nothing in sub-clause (c) of clause (1) shall affect the power to suspend, remit or commute a sentence of death exercisable by the Governor of a State under any law for the time being in force.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 32",
+      "notes": "Claim c20: power to pardon a death sentence is the President's alone."
+    },
+    {
+      "id": "q08",
+      "answer": "সংসদের উভয় কক্ষের অধিবেশন না চলাকালীন, যখন অবিলম্বে ব্যবস্থা নেওয়া জরুরি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "If at any time, except when both Houses of Parliament are in session, the President is satisfied that circumstances exist which render it necessary for him to take immediate action, he may promulgate such Ordinances as the circumstances appear to him to require.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 56",
+      "notes": "Claim c23: ordinance when both Houses not in session and immediate action necessary."
+    },
+    {
+      "id": "q09",
+      "answer": "রাজ্যসভার সভাপতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Vice-President shall be ex officio Chairman of the Council of States and shall not hold any other office of profit",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 29",
+      "notes": "Claim c34: Vice-President is ex officio Chairman of the Council of States (Rajya Sabha)."
+    },
+    {
+      "id": "q10",
+      "answer": "সংসদের উভয় কক্ষের সব সদস্য (নির্বাচিত ও মনোনীত)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Vice-President shall be elected by the members of an electoral college consisting of the members of both Houses of Parliament in accordance with the system of proportional representation by means of the single transferable vote and the voting at such election shall be by secret ballot. Subs. by the Constitution (Eleventh Amendment) Act, 1961, s. 2, for \"members of both Houses of Parliament assembled at a joint meeting\" (w.e.f. 19-12-1961).",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 30",
+      "notes": "Claim c35: VP elected by members of both Houses of Parliament (all members, unlike President's elected-only college in c06)."
+    },
+    {
+      "id": "q11",
+      "answer": "৫২ অনুচ্ছেদ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "52. The President of India.—There shall be a President of India.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 26",
+      "notes": "Claim c01 is Article 52."
+    },
+    {
+      "id": "q12",
+      "answer": "৩০৬",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "every elected member of the Legislative Assembly of a State shall have as many votes as there are multiples of one thousand in the quotient obtained by dividing the population of the State by the total number of the elected members of the Assembly",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 26",
+      "notes": "Derived from c07 formula: 90,000,000/294=306,122; multiples of 1000 = 306, remainder 122 < 500, so 306."
+    },
+    {
+      "id": "q13",
+      "answer": "৫৪ অনুচ্ছেদের ব্যাখ্যায় ‘রাজ্য’ বলতে দিল্লি ও পুদুচেরিকেও বোঝানো হয়েছে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall be elected by the members of an electoral college consisting of—(a) the elected members of both Houses of Parliament; and (b) the elected members of the Legislative Assemblies of the States.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 26",
+      "notes": "Claim c06: Explanation to Art 54 includes Delhi NCT and Puducherry in 'State'."
+    },
+    {
+      "id": "q14",
+      "answer": "লোকসভার অধ্যক্ষকে",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "The President shall hold office for a term of five years from the date on which he enters upon his office",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 27",
+      "notes": "not covered by claims — c10 covers resignation addressed to the Vice-President but not the VP's onward communication to the Speaker; best answer given."
+    },
+    {
+      "id": "q15",
+      "answer": "কক্ষের মোট সদস্যের অন্তত দুই-তৃতীয়াংশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "No such charge shall be preferred unless—(a) the proposal to prefer such charge is contained in a resolution which has been moved after at least fourteen days' notice in writing signed by not less than one-fourth of the total number of members of the House has been given of their intention to move the resolution, and (b) such resolution has been passed by a majority of not less than two-thirds of the total membership of the House.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 29",
+      "notes": "Claim c14: investigating House resolution by not less than two-thirds of total membership declaring charge sustained."
+    },
+    {
+      "id": "q16",
+      "answer": "ছয় মাসের মধ্যে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "An election to fill a vacancy in the office of President occurring by reason of his death, resignation or removal, or otherwise shall be held as soon as possible after, and in no case later than six months from, the date of occurrence of the vacancy",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 29",
+      "notes": "Claim c16: casual vacancy election in no case later than six months."
+    },
+    {
+      "id": "q17",
+      "answer": "সুপ্রিম কোর্টের উপস্থিত প্রবীণতম বিচারপতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Every President and every person acting as President or discharging the functions of the President shall, before entering upon his office, make and subscribe in the presence of the Chief Justice of India or, in his absence, the senior-most Judge of the Supreme Court available, an oath or affirmation",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 28",
+      "notes": "Claim c13: in CJI's absence, senior-most Judge of Supreme Court available."
+    },
+    {
+      "id": "q18",
+      "answer": "পুনর্বিবেচনার পর দেওয়া পরামর্শ অনুযায়ী কাজ করবেন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President who shall, in the exercise of his functions, act in accordance with such advice. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 13, for cl. (1) (w.e.f. 3-1-1977). Ins. by the Constitution (Forty-fourth Amendment) Act, 1978, s. 11 (w.e.f. 20-6-1979).",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 34",
+      "notes": "Claim c03 / Art 74(1): President shall act in accordance with advice tendered after reconsideration."
+    },
+    {
+      "id": "q19",
+      "answer": "৮৫ অনুচ্ছেদ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall from time to time summon each House of Parliament to meet at such time and place as he thinks fit, but six months shall not intervene between its last sitting in one session and the date appointed for its first sitting in the next session.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 40",
+      "notes": "Claim c18: Article 85 includes power to dissolve the House of the People."
+    },
+    {
+      "id": "q20",
+      "answer": "রাষ্ট্রপতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The executive power of the Union shall be vested in the President and shall be exercised by him either directly or through officers subordinate to him in accordance with this Constitution.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 26",
+      "notes": "Claim c02: supreme command of Defence Forces vested in the President."
+    },
+    {
+      "id": "q21",
+      "answer": "রাষ্ট্রপতি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall appoint a person who is qualified to be appointed a Judge of the Supreme Court to be Attorney-General for India.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 35",
+      "notes": "Claim c25: President appoints Attorney-General."
+    },
+    {
+      "id": "q22",
+      "answer": "৩৫৬ অনুচ্ছেদ",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims — no claim in claims[] addresses Article 356 / President's Rule in a State; best answer given."
+    },
+    {
+      "id": "q23",
+      "answer": "না, অর্থ বিল ফেরত পাঠানো যায় না",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the President may, as soon as possible after the presentation to him of a Bill for assent, return the Bill if it is not a Money Bill to the Houses with a message requesting that they will reconsider the Bill",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 51",
+      "notes": "Claim c19: President may return a Bill if it is not a Money Bill — so a Money Bill cannot be returned."
+    },
+    {
+      "id": "q24",
+      "answer": "নিজের বিবেচনায় যিনি সংখ্যাগরিষ্ঠের সমর্থন পেতে পারেন বলে মনে হয়, তাঁকে নিয়োগ করেন",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "there are at least three situations where the President can exercise the powers using his or her own discretion.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keps204.pdf",
+      "page": "p. 85",
+      "notes": "Claim c31 lists choosing the PM when no leader has a clear majority as a discretionary situation; exact appointment wording is inferred from that discretion."
+    },
+    {
+      "id": "q25",
+      "answer": "রাজ্যসভায়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "a Vice-President may be removed from his office by a resolution of the Council of States passed by a majority of all the then members of the Council and agreed to by the House of the People; but no resolution for the purpose of this clause shall be moved unless at least fourteen days' notice has been given of the intention to move the resolution",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 31",
+      "notes": "Claim c36: removal resolution originates in the Council of States (Rajya Sabha), then agreed to by House of the People."
+    },
+    {
+      "id": "q26",
+      "answer": "৭০০",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "every elected member of the Legislative Assembly of a State shall have as many votes as there are multiples of one thousand in the quotient obtained by dividing the population of the State by the total number of the elected members of the Assembly",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 26",
+      "notes": "Derived from c07 formula: 5,43,200 / 776 = 700 exactly."
+    },
+    {
+      "id": "q27",
+      "answer": "কমপক্ষে ১৪ দিনের নোটিস ও কক্ষের মোট সদস্যের অন্তত এক-চতুর্থাংশের স্বাক্ষর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "No such charge shall be preferred unless—(a) the proposal to prefer such charge is contained in a resolution which has been moved after at least fourteen days' notice in writing signed by not less than one-fourth of the total number of members of the House has been given of their intention to move the resolution, and (b) such resolution has been passed by a majority of not less than two-thirds of the total membership of the House.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 29",
+      "notes": "Claim c14: at least fourteen days' notice signed by not less than one-fourth of total members."
+    },
+    {
+      "id": "q28",
+      "answer": "রাষ্ট্রপতি রাজ্য আইনে দণ্ডিত যেকোনো অপরাধীর দণ্ড মকুব করতে পারেন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall have the power to grant pardons, reprieves, respites or remissions of punishment or to suspend, remit or commute the sentence of any person convicted of any offence. Nothing in sub-clause (c) of clause (1) shall affect the power to suspend, remit or commute a sentence of death exercisable by the Governor of a State under any law for the time being in force.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 32",
+      "notes": "Claim c20 limits President's pardon/remit power to Court Martial, Union-law offences and death sentences — not any State-law offence generally; that option is the incorrect one."
+    },
+    {
+      "id": "q29",
+      "answer": "অর্থ কমিশনের সুপারিশ, CAG-এর রিপোর্ট ও জাতীয় তফসিলি জাতি কমিশনের রিপোর্ট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The reports of the Comptroller and Auditor-General of India relating to the accounts of the Union shall be submitted to the President, who shall cause them to be laid before each House of Parliament.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 69",
+      "notes": "Claims c28 (CAG reports), c29 (Finance Commission recommendations) and c30 (NCSC reports) are all caused to be laid by the President; PAC report is not in claims."
+    },
+    {
+      "id": "q30",
+      "answer": "রাষ্ট্রপতি জ্ঞানী জৈল সিং বিলটি নিয়ে কোনো সিদ্ধান্ত নেননি; পরে রাষ্ট্রপতি ভেঙ্কটরমন বিলটি পুনর্বিবেচনার জন্য সংসদে ফেরত পাঠান",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "there is no mention in the Constitution about the time limit within which the President must send the bill back for reconsideration. This means that the President can just keep the bill pending with him without any time limit. This is sometimes referred to as 'pocket veto'.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keps204.pdf",
+      "page": "p. 86",
+      "notes": "Claim c32: Zail Singh took no decision in 1986; next President Venkataraman sent the bill back for reconsideration."
+    },
+    {
+      "id": "q31",
+      "answer": "পুনরায় বসার দিন থেকে ছয় সপ্তাহ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "If at any time, except when both Houses of Parliament are in session, the President is satisfied that circumstances exist which render it necessary for him to take immediate action, he may promulgate such Ordinances as the circumstances appear to him to require.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 56",
+      "notes": "Claim c23: ordinance ceases at expiration of six weeks from reassembly of Parliament."
+    },
+    {
+      "id": "q32",
+      "answer": "জোটনেতা অটল বিহারী বাজপেয়ীকে সমর্থনের প্রমাণপত্র দিতে বলেন ও শপথের দশ দিনের মধ্যে আস্থাভোট নিতে বলেন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "President Narayanan adopted an elaborate procedure. He asked the leader of the alliance, Atal Behari Vajpayee, \"to furnish documents in support of his claim from concerned political parties.\" Not stopping at this the President also advised Vajpayee to secure a vote of confidence within ten days of being sworn in.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keps204.pdf",
+      "page": "p. 87",
+      "notes": "Claim c33: Narayanan asked Vajpayee to furnish support documents and advised vote of confidence within ten days of swearing-in."
+    },
+    {
+      "id": "q33",
+      "answer": "নতুন রাষ্ট্রপতি নির্বাচিত হয়ে দায়িত্ব না নেওয়া পর্যন্ত",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In the event of the occurrence of any vacancy in the office of the President by reason of his death, resignation or removal, or otherwise, the Vice-President shall act as President until the date on which a new President elected in accordance with the provisions of this Chapter to fill such vacancy enters upon his office.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 30",
+      "notes": "Claim c37: VP acts as President until a new President enters upon his office."
+    },
+    {
+      "id": "q34",
+      "answer": "রাষ্ট্রপতি নির্বাচনে রাজ্য বিধানসভার নির্বাচিত সদস্যরা ভোট দেন, উপরাষ্ট্রপতি নির্বাচনে দেন না",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Vice President is elected for five years. His election method is similar to that of the President, the only difference is that members of State legislatures are not part of the electoral college.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/keps204.pdf",
+      "page": "p. 88",
+      "notes": "Claims c06 + c40: State legislature elected members are in President's college but not in Vice-President's."
+    },
+    {
+      "id": "q35",
+      "answer": "রাষ্ট্রপতির",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "A Bill or amendment making provision for any of the matters specified in sub-clauses (a) to (f) of clause (1) of article 110 shall not be introduced or moved except on the recommendation of the President",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 54",
+      "notes": "Claim c22 / Art 117(1): such Bill shall not be introduced except on recommendation of the President."
+    },
+    {
+      "id": "q36",
+      "answer": "কেবল ২ ও ৩ সঠিক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall be elected by the members of an electoral college consisting of—(a) the elected members of both Houses of Parliament; and (b) the elected members of the Legislative Assemblies of the States.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 26",
+      "notes": "Statement 1 false (c06: elected members only), 2 true (c06 Explanation: Delhi/Puducherry), 3 true (c08: secret ballot)."
+    },
+    {
+      "id": "q37",
+      "answer": "ক–৩, খ–২, গ–১, ঘ–৪",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall have the power to grant pardons, reprieves, respites or remissions of punishment or to suspend, remit or commute the sentence of any person convicted of any offence. Nothing in sub-clause (c) of clause (1) shall affect the power to suspend, remit or commute a sentence of death exercisable by the Governor of a State under any law for the time being in force.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 32",
+      "notes": "72=pardon (c20), 111=assent/return of Bills (c19), 123=ordinance (c23), 85=summon/dissolve (c18)."
+    },
+    {
+      "id": "q38",
+      "answer": "ক ও ঘ সঠিক; খ ও গ ভুল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The President shall hold office for a term of five years from the date on which he enters upon his office",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 27",
+      "notes": "56=term 5 yrs (c10) true; 58 is qualifications not impeachment (c11), 61 is impeachment not qualifications (c14) — both swapped/false; 74=Council of Ministers aid/advise (c03) true."
+    },
+    {
+      "id": "q39",
+      "answer": "A সঠিক, R ভুল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In the event of the occurrence of any vacancy in the office of the President by reason of his death, resignation or removal, or otherwise, the Vice-President shall act as President until the date on which a new President elected in accordance with the provisions of this Chapter to fill such vacancy enters upon his office.",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 30",
+      "notes": "A true (c37/c40: VP acts as President on vacancy); R false (c40: VP electoral college differs — State legislatures not part)."
+    },
+    {
+      "id": "q40",
+      "answer": "ক, খ, গ, ঘ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President who shall, in the exercise of his functions, act in accordance with such advice. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 13, for cl. (1) (w.e.f. 3-1-1977). Ins. by the Constitution (Forty-fourth Amendment) Act, 1978, s. 11 (w.e.f. 20-6-1979).",
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "page": "p. 34",
+      "notes": "42nd Amendment binding advice 1977 and 44th reconsideration proviso 1979 (c03), then 1986 pocket veto (c32), then 1998 Narayanan procedure (c33)."
+    }
+  ]
+}

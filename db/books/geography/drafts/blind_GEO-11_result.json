@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "বাংলাদেশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Situated alongside the Bay of Bengal, it shares borders with Bangladesh to the east, as well as Nepal, Bhutan, Odisha, Jharkhand, Bihar, Sikkim, and Assam within India.",
+      "source_url": "https://mofpi.gov.in/api/documents/file/West_Bengal.pdf",
+      "page": "Table 1",
+      "notes": "East border per c01"
+    },
+    {
+      "id": "q02",
+      "answer": "কলকাতা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "State Capital Kolkata. Population (Census 2011) 91.3 million",
+      "source_url": "https://mofpi.gov.in/api/documents/file/West_Bengal.pdf",
+      "page": "Table 1",
+      "notes": "Capital Kolkata"
+    },
+    {
+      "id": "q03",
+      "answer": "৮৮,৭৫২ বর্গ কিলোমিটার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Geographic Area 88,752 sq. km",
+      "source_url": "https://mofpi.gov.in/api/documents/file/West_Bengal.pdf",
+      "page": "Table 1",
+      "notes": "Area per c02"
+    },
+    {
+      "id": "q04",
+      "answer": "২৩½° উত্তর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "You also know that the Tropic of Cancer passes through the central part of India in east-west direction. Thus, northern part of the India lies in sub-tropical and temperate zone and the part lying south of the Tropic of Cancer falls in the tropical zone.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+      "page": "p. 29",
+      "notes": "Tropic of Cancer 23.5 N in claim text"
+    },
+    {
+      "id": "q05",
+      "answer": "সান্দাকফু",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Sandakphu is the highest mountain peak situated in the Singalila region of Darjeeling district.",
+      "source_url": "https://wbtourism.gov.in/Adventure/details?template_id=1&id=63d80f25e4bbd858c20633c6",
+      "page": "Sandakphu",
+      "notes": "Highest peak"
+    },
+    {
+      "id": "q06",
+      "answer": "ফালুট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Phalut is the second highest peak of West Bengal. It is located inside the Singalila National Park... Phalut is located at an altitude of 11,811 ft.",
+      "source_url": "https://wbtourism.gov.in/Adventure/details?template_id=1&id=63d80f25e4bbd858c20633c6",
+      "page": "Phalut",
+      "notes": "Second highest peak"
+    },
+    {
+      "id": "q07",
+      "answer": "ভাগীরথী ও পদ্মা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "it flows first to the south, then to the south-east and east before splitting into two distributaries, namely the Bhagirathi and the Padma.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "p. 21",
+      "notes": "Ganga splits into Bhagirathi and Padma"
+    },
+    {
+      "id": "q08",
+      "answer": "২৩টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "COOCHBEHAR | ALIPURDUAR | JALPAIGURI | KALIMPONG | DARJEELING | UTTAR DINAJPUR | DAKHSIN DINAJPUR | MALDA | MURSHIDABAD | NADIA | NORTH 24 PARGANAS | SOUTH 24 PARGANAS | HOWRAH | HOOGHLY | PURBO MEDINIPUR | PASCHIM MEDINIPUR | JHARGRAM | PURULIA | BANKURA | PURBA BARDHAMAN | PASCHIM BARDHAMAN | BIRBHUM | KOLKATA SOUTH | KOLKATA NORTH",
+      "source_url": "https://ceowestbengal.wb.gov.in/Distlist",
+      "page": "Distlist",
+      "notes": "23 districts in claim text"
+    },
+    {
+      "id": "q09",
+      "answer": "কলকাতা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "11 Kolkata Kolkata — 185 km2 (71 sq mi) 4,486,679 24,252/km2 (62,810/sq mi)",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "Smallest district 185 sq km"
+    },
+    {
+      "id": "q10",
+      "answer": "চতুর্থ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It is the 4th largest state in terms of population having a total population of 91,347,736 and population density of 1,029/km2. The state is 13th in terms of area and is divided into 20 districts. The capital city is Kolkata.",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 14",
+      "notes": "4th in population"
+    },
+    {
+      "id": "q11",
+      "answer": "ত্রিপুরা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Situated alongside the Bay of Bengal, it shares borders with Bangladesh to the east, as well as Nepal, Bhutan, Odisha, Jharkhand, Bihar, Sikkim, and Assam within India.",
+      "source_url": "https://mofpi.gov.in/api/documents/file/West_Bengal.pdf",
+      "page": "Table 1",
+      "notes": "Tripura not in border list; Assam/Jharkhand/Bihar are"
+    },
+    {
+      "id": "q12",
+      "answer": "প্রায় ২.৭%",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "Geographic Area 88,752 sq. km",
+      "source_url": "https://mofpi.gov.in/api/documents/file/West_Bengal.pdf",
+      "page": "Table 1",
+      "notes": "Derived: 88,752 / 3.28 million (c06) = ~2.7%; percentage not stated verbatim in claims"
+    },
+    {
+      "id": "q13",
+      "answer": "পুরুলিয়া, বাঁকুড়া, পূর্ব বর্ধমান ও নদিয়া",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "You also know that the Tropic of Cancer passes through the central part of India in east-west direction. Thus, northern part of the India lies in sub-tropical and temperate zone and the part lying south of the Tropic of Cancer falls in the tropical zone.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+      "page": "p. 29",
+      "notes": "Districts listed in c08"
+    },
+    {
+      "id": "q14",
+      "answer": "কৃষ্ণনগর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "You also know that the Tropic of Cancer passes through the central part of India in east-west direction. Thus, northern part of the India lies in sub-tropical and temperate zone and the part lying south of the Tropic of Cancer falls in the tropical zone.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+      "page": "p. 29",
+      "notes": "Krishnanagar closest city in c08"
+    },
+    {
+      "id": "q15",
+      "answer": "৮২°৩০′ পূর্ব",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "82°30' E has been selected as the 'standard meridian' of India. Indian Standard Time is ahead of Greenwich Mean Time by 5 hours and 30 minutes.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy101.pdf",
+      "page": "p. 4",
+      "notes": "Standard meridian"
+    },
+    {
+      "id": "q16",
+      "answer": "ভাবরের দক্ষিণে ১০–২০ কিমি চওড়া জলাভূমি অঞ্চল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Bhabar is a narrow belt ranging between 8-10 km parallel to the Shiwalik foothills... South of the Bhabar is the Tarai belt, with an approximate width of 10-20 km where most of the streams and rivers reemerge without having any properly demarcated channel, thereby, creating marshy and swampy conditions known as the Tarai.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 10",
+      "notes": "Tarai description"
+    },
+    {
+      "id": "q17",
+      "answer": "মেঘালয় মালভূমি ও ছোটনাগপুর মালভূমি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The northeastern parts are separated by the Malda fault in West Bengal from the Chotanagpur plateau.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 7",
+      "notes": "Malda fault separates NE Meghalaya plateau from Chotanagpur"
+    },
+    {
+      "id": "q18",
+      "answer": "গঙ্গা ও ব্রহ্মপুত্র",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "The mouths of these mighty rivers also form some of the largest deltas of the world, for example, the famous Sunderbans delta.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 12",
+      "notes": "Claims name Ganga/Brahmaputra system (c13) and Sunderbans delta at river mouths (c14) but do not state the pair verbatim together"
+    },
+    {
+      "id": "q19",
+      "answer": "বরাকর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Damodar occupies the eastern margins of the Chotanagpur Plateau where it flows through a rift valley and finally joins the Hugli. The Barakar is its main tributary.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "p. 22",
+      "notes": "Barakar main tributary"
+    },
+    {
+      "id": "q20",
+      "answer": "বাংলাদেশে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In Bangladesh, the Tista joins it on its right bank from where the river is known as the Jamuna. It finally merges with the river Padma, which falls in the Bay of Bengal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "p. 23",
+      "notes": "In Bangladesh Tista joins Brahmaputra"
+    },
+    {
+      "id": "q21",
+      "answer": "গঙ্গার জল ভাগীরথী-হুগলিতে পাঠিয়ে কলকাতা বন্দরের নাব্যতা রক্ষা করা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Diversion of Ganga waters to Bhagirathi-Hoogly river system and maintain the flow of river Ganga as per the Treaty. Total volume of Ganga water being diverted to Bhagirathi-Hoogly River system... 40,000 (in cusec) at Farakka.",
+      "source_url": "https://dmeo.gov.in/sites/default/files/2023-07/Less_DG-No-62_DoWR_v3_Eng.pdf",
+      "page": "outcome budget",
+      "notes": "Main purpose stated in c28"
+    },
+    {
+      "id": "q22",
+      "answer": "দক্ষিণ ২৪ পরগনা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "18 South 24 Parganas Alipore ... 9,960 km2 (3,850 sq mi) 8,153,176 819/km2 (2,120/sq mi)",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "Largest district 9,960 sq km"
+    },
+    {
+      "id": "q23",
+      "answer": "উত্তর ২৪ পরগনা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "15 North 24 Parganas Barasat ... 4,094 km2 (1,581 sq mi) 10,082,852 2,463/km2 (6,380/sq mi)",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "Most populous district"
+    },
+    {
+      "id": "q24",
+      "answer": "১,০২৮ জন প্রতি বর্গ কিমি",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "It is the 4th largest state in terms of population having a total population of 91,347,736 and population density of 1,029/km2. Persons 91,347,736 62,213,676 29,134,060",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 14",
+      "notes": "Claims give both primary 1,029 and final revised 1,028; 1,028 is the option matching final revised figure in c39"
+    },
+    {
+      "id": "q25",
+      "answer": "কলকাতা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Eastern Railway (ER) is one of the oldest zones of Indian Railways, with its headquarters at Fairlie Place, Kolkata, West Bengal. It was formed in 1952...",
+      "source_url": "https://indianrailways.gov.in/ministry/our-organisation?orgparentId=36",
+      "page": "Our Organisations",
+      "notes": "HQ at Fairlie Place, Kolkata"
+    },
+    {
+      "id": "q42",
+      "answer": "অসমের পর দ্বিতীয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The second largest tea producer after Assam, known for the famous Darjeeling Tea. Largest producer of raw jute",
+      "source_url": "https://mofpi.gov.in/api/documents/file/West_Bengal.pdf",
+      "page": "State profile",
+      "notes": "Second largest tea producer after Assam"
+    },
+    {
+      "id": "q26",
+      "answer": "মায়ানমার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Strategic gateway to South-East Asia and North-East India, sharing international frontiers with Bangladesh, Nepal, and Bhutan.",
+      "source_url": "https://mofpi.gov.in/api/documents/file/West_Bengal.pdf",
+      "page": "State profile",
+      "notes": "International frontiers only Bangladesh, Nepal, Bhutan"
+    },
+    {
+      "id": "q27",
+      "answer": "উপদ্বীপীয় খণ্ডের উত্তর সীমানার পূর্ব প্রান্ত",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The northern boundary of the Peninsular Block may be taken as an irregular line running from Kachchh along the western flank of the Aravali Range near Delhi and then roughly parallel to the Yamuna and the Ganga as far as the Rajmahal Hills and the Ganga delta.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy102.pdf",
+      "page": "p. 7",
+      "notes": "Peninsular Block northern boundary runs to Rajmahal Hills"
+    },
+    {
+      "id": "q28",
+      "answer": "ফাটল উপত্যকা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Damodar occupies the eastern margins of the Chotanagpur Plateau where it flows through a rift valley and finally joins the Hugli. The Barakar is its main tributary.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "p. 22",
+      "notes": "Damodar flows through rift valley"
+    },
+    {
+      "id": "q29",
+      "answer": "ঘন ঘন গতিপথ পরিবর্তন করে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "River Kosi, also know as the 'sorrow of Bihar', has been notorious for frequently changing its course. It brings huge quantity of sediments coming from its upper reaches... the river gets blocked and as a consequence, it changes its course.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "p. 20",
+      "notes": "Notorious for frequently changing course"
+    },
+    {
+      "id": "q30",
+      "answer": "শোন",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Son is its major right bank tributary. The important left bank tributaries are the Ramganga, the Gomati, the Ghaghara, the Gandak, the Kosi and the Mahananda.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "p. 22",
+      "notes": "Son major right-bank tributary"
+    },
+    {
+      "id": "q31",
+      "answer": "পুরুলিয়া",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "17 Purulia Purulia ... 6,259 km2 (2,417 sq mi) 2,927,965 468/km2 (1,210/sq mi)",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "Lowest density 468"
+    },
+    {
+      "id": "q32",
+      "answer": "মালদা",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "Burdwan division Jalpaiguri division Presidency division",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "not covered by claims - claims list Malda as a division name (c32) but do not assign districts to divisions; Malda is best guess by name"
+    },
+    {
+      "id": "q33",
+      "answer": "বিহার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Among the northern Indian States, Bihar (1102), West Bengal (1029) and Uttar Pradesh (828) have higher densities",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy201.pdf",
+      "page": "p. 5",
+      "notes": "Bihar 1102 highest, WB second"
+    },
+    {
+      "id": "q34",
+      "answer": "১, ২ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "11 Kolkata Kolkata — 185 km2 (71 sq mi) 4,486,679 24,252/km2 (62,810/sq mi)",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "All three true: c33 smallest Kolkata, c34 largest South 24, c35 most populous North 24"
+    },
+    {
+      "id": "q35",
+      "answer": "১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Sandakphu is the highest mountain peak situated in the Singalila region of Darjeeling district.",
+      "source_url": "https://wbtourism.gov.in/Adventure/details?template_id=1&id=63d80f25e4bbd858c20633c6",
+      "page": "Sandakphu",
+      "notes": "1 true c17, 2 false (Phalut ~3600 < Sandakphu 3636 c18/c17), 3 true c19"
+    },
+    {
+      "id": "q36",
+      "answer": "A-৩, B-৪, C-১, D-২",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "No District Head Quarter Sub Divisions Area Population Density as of 2011 | 2 Bankura Bankura Khatra 6,882 km2 (2,657 sq mi) 3,596,292 523/km2 (1,350/sq mi) | 11 Kolkata Kolkata — 185 km2 (71 sq mi) 4,486,679 24,252/km2 (62,810/sq mi) | 12 Malda English Bazar Malda Sadar 3,733 km2 (1,441 sq mi) 3,997,970 1,071/km2 (2,770/sq mi)",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "HQs per c31: Malda-English Bazar, Hooghly-Chunchura, Nadia-Krishnanagar, Darjeeling-Darjeeling"
+    },
+    {
+      "id": "q37",
+      "answer": "A-৩, B-১, C-৪, D-২",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Damodar occupies the eastern margins of the Chotanagpur Plateau where it flows through a rift valley and finally joins the Hugli. The Barakar is its main tributary.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/kegy103.pdf",
+      "page": "p. 22",
+      "notes": "Damodar sorrow of Bengal c25, Kosi sorrow of Bihar c26, Tista-Bangladesh Brahmaputra c23, Barakar tributary c24"
+    },
+    {
+      "id": "q38",
+      "answer": "মাসানজোর বাঁধ: ঝাড়খণ্ডের দুমকা জেলা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Massanjore dam situated across the Mayurakshi River in Dumka district of Jharkhand... built with Canadian aid, it is also called Canada Dam or Pearson Dam. It was commissioned in 1955.",
+      "source_url": "https://tourism.jharkhand.gov.in/how-to-reach/98/1",
+      "page": "Massanjore Dam",
+      "notes": "Massanjore in Dumka, Jharkhand per c38; others contradict c17/c28"
+    },
+    {
+      "id": "q39",
+      "answer": "মালদা: ইংলিশ বাজার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "No District Head Quarter Sub Divisions Area Population Density as of 2011 | 2 Bankura Bankura Khatra 6,882 km2 (2,657 sq mi) 3,596,292 523/km2 (1,350/sq mi) | 11 Kolkata Kolkata — 185 km2 (71 sq mi) 4,486,679 24,252/km2 (62,810/sq mi) | 12 Malda English Bazar Malda Sadar 3,733 km2 (1,441 sq mi) 3,997,970 1,071/km2 (2,770/sq mi)",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 13",
+      "notes": "Malda HQ English Bazar per c31"
+    },
+    {
+      "id": "q40",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Diversion of Ganga waters to Bhagirathi-Hoogly river system and maintain the flow of river Ganga as per the Treaty. Total volume of Ganga water being diverted to Bhagirathi-Hoogly River system... 40,000 (in cusec) at Farakka.",
+      "source_url": "https://dmeo.gov.in/sites/default/files/2023-07/Less_DG-No-62_DoWR_v3_Eng.pdf",
+      "page": "outcome budget",
+      "notes": "Both true per c28 and R explains A"
+    },
+    {
+      "id": "q41",
+      "answer": "১ ও ২",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It is the 4th largest state in terms of population having a total population of 91,347,736 and population density of 1,029/km2. Persons 91,347,736 62,213,676 29,134,060",
+      "source_url": "https://dcmsme.gov.in/dips/state_wise_profile_16-17/SIP,%20WB%202015-16.pdf",
+      "page": "p. 14",
+      "notes": "1 true >9 crore c39, 2 true 4th c07, 3 false - WB second in density, Bihar first c40"
+    }
+  ]
+}

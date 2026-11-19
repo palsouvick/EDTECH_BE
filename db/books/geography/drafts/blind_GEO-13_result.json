@@ -1,0 +1,426 @@
+{
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "মৌসুমি জলবায়ু — ঋতু অনুযায়ী বায়ুর দিক বদলায়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Monsoon connotes the climate associated with seasonal reversal in the direction of winds.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 28",
+   "notes": "Claim c01: monsoon = seasonal reversal of winds; India has monsoonal climate."
+  },
+  {
+   "id": "q02",
+   "answer": "দার্জিলিং সমুদ্রপৃষ্ঠ থেকে অনেক উঁচুতে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "temperature of January in Agra is 16°C whereas it is only 4°C in Darjiling.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 29",
+   "notes": "Claim c04: Darjeeling Jan temp only 4C vs Agra 16C at similar latitude, due to altitude."
+  },
+  {
+   "id": "q03",
+   "answer": "১০–১৩ জুন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The southwest monsoon sets in over the Kerala coast by 1st June and moves swiftly to reach Mumbai and Kolkata between 10th and 13th June.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 31",
+   "notes": "Claim c06: SW monsoon reaches Mumbai and Kolkata between 10 and 13 June."
+  },
+  {
+   "id": "q04",
+   "answer": "বৈশাখ মাসের সন্ধ্যার বজ্রঝড়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Nor Westers: These are dreaded evening thunderstorms in Bengal and Assam. Their notorious nature can be understood from the local nomenclature of 'Kalbaisakhi', a calamity of the month of Baisakh.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 35",
+   "notes": "Claim c08: Nor'westers/Kalbaisakhi are dreaded evening thunderstorms in Bengal in Baisakh."
+  },
+  {
+   "id": "q05",
+   "answer": "পলিমাটি (অ্যালুভিয়াল)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "This is the most widely spread and important soil. In fact, the entire northern plains are made of alluvial soil.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf",
+   "page": "p. 7",
+   "notes": "Claim c18: alluvial soil is most widespread; entire northern plains are alluvial."
+  },
+  {
+   "id": "q06",
+   "answer": "ল্যাটেরাইট মাটি",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Laterite has been derived from the Latin word 'later' which means brick. The laterite soil develops under tropical and subtropical climate with alternate wet and dry season. This soil is the result of intense leaching due to heavy rain.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf",
+   "page": "p. 8",
+   "notes": "Claims only state laterite occurs in some parts of West Bengal (c22); western plateau location not specified, but laterite is the best fit among options."
+  },
+  {
+   "id": "q07",
+   "answer": "লবণসহিষ্ণু গাছের বন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "They are highly developed in the Andaman and Nicobar Islands and the Sunderbans of West Bengal.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+   "page": "p. 46",
+   "notes": "Claim c15: mangroves consist of salt-tolerant species, highly developed in the Sunderbans."
+  },
+  {
+   "id": "q08",
+   "answer": "১৯৮৭",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "14. Sundarbans National Park Year of Inscription: 1987 State: West Bengal Category: Natural Properties The Sundarbans covers 10,000 km2 of land and water (more than half of it in India, the rest in Bangladesh) in the Ganges delta. It contains the world's largest area of mangrove forests.",
+   "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jul/doc2024718350501.pdf",
+   "page": "list",
+   "notes": "Claim c36: Sundarbans National Park inscribed as UNESCO World Heritage Site in 1987."
+  },
+  {
+   "id": "q09",
+   "answer": "একশৃঙ্গ গন্ডার",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Jaldapara covers an area of 216 sq. km. ... The area was declared as a wildlife sanctuary in 1941 for the protection of the Indian One-Horned Rhino, and in 2012, it was declared as a National Park.",
+   "source_url": "https://wbtourism.gov.in/topDestination/details1?template_id=1&id=63d80f54e4bbd858c20633c9",
+   "page": "page",
+   "notes": "Claim c37: Jaldapara declared sanctuary in 1941 for protection of Indian One-Horned Rhino; c41 adds it holds the state's largest rhino population."
+  },
+  {
+   "id": "q10",
+   "answer": "বিনা অনুমতিতে প্রবেশ নিষেধ",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - c26 says reserved forests are most valuable for conservation but states no entry rule; best answer given."
+  },
+  {
+   "id": "q11",
+   "answer": "ক্রান্তীয় অঞ্চল",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the part lying south of the Tropic of Cancer falls in the tropical zone.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 29",
+   "notes": "Claim c02: part south of Tropic of Cancer falls in the tropical zone."
+  },
+  {
+   "id": "q12",
+   "answer": "দক্ষিণ ও দক্ষিণ-পূর্ব দিক থেকে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The monsoon, therefore, enters West Bengal and Bangladesh from south and southeast instead of from the southwesterly direction.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 37",
+   "notes": "Claim c07: monsoon enters West Bengal from south and southeast instead of southwest."
+  },
+  {
+   "id": "q13",
+   "answer": "উপদ্বীপীয় ভারতের পূর্বাংশে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The weather in the retreating monsoon is dry in north India but it is associated with rain in the eastern part of the Peninsula.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 37",
+   "notes": "Claim c10: retreating monsoon is dry in north India but brings rain to eastern part of the Peninsula."
+  },
+  {
+   "id": "q14",
+   "answer": "তরাই",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "The Dooars valley stretches from the river Teesta on the west to river Sankosh on the east, an area covering roughly 130km by 40km. Famous for its rich biodiversity; it also boasts the Gorumara National Park, Jaldapara Wildlife sanctuary and the Buxa tiger reserve.",
+   "source_url": "https://wb.gov.in/visitors-areas-to-visit-Forests.aspx",
+   "page": "page",
+   "notes": "Claim c40 places Dooars from Teesta (west) to Sankosh (east), i.e. east of Teesta; c19 lists Terai among piedmont plains - west of Teesta is Terai by elimination/inference."
+  },
+  {
+   "id": "q15",
+   "answer": "রেগুর",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The black soils are made up of extremely fine i.e. clayey material. They are well-known for their capacity to hold moisture.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf",
+   "page": "pp. 7-8",
+   "notes": "Claim c20: black soils (Regur) hold moisture, are fertile and most suitable for cotton."
+  },
+  {
+   "id": "q16",
+   "answer": "স্ফটিকময় আগ্নেয় শিলায় কম বৃষ্টির অঞ্চলে গড়ে ওঠে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Red soil develops on crystalline igneous rocks in areas of low rainfall in the eastern and southern parts of the Deccan plateau.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf",
+   "page": "p. 8",
+   "notes": "Claim c21: red soil develops on crystalline igneous rocks in low-rainfall areas."
+  },
+  {
+   "id": "q17",
+   "answer": "ক্রান্তীয় আর্দ্র পর্ণমোচী (মনসুন) বন",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "These are the most widespread forests in India. They are also called the monsoon forests. They spread over regions which receive rainfall between 70-200 cm.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+   "page": "p. 44",
+   "notes": "Claim c13: tropical deciduous (monsoon) forests are the most widespread in India."
+  },
+  {
+   "id": "q18",
+   "answer": "১৬,৮৩২.৩৩ বর্গকিমি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "West Bengal 88,752.00 16,832.33 2,938.12 19,770.45",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&reg=48&lang=2",
+   "page": "table",
+   "notes": "Claim c30 (ISFR 2023): West Bengal forest cover 16,832.33 sq km."
+  },
+  {
+   "id": "q19",
+   "answer": "পশ্চিমবঙ্গ (২,১১৯.১৬ বর্গকিমি)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the total mangrove cover in the country is 4,991.68 km2, which accounts for 0.15 % of the country's total geographical area.",
+   "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2146358",
+   "page": "table",
+   "notes": "Claim c31: West Bengal has the largest mangrove cover, 2,119.16 sq km."
+  },
+  {
+   "id": "q20",
+   "answer": "১৯৮২–৮৩",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Buxa | 1982-83 | West Bengal | 2009 | 390.58 | 367.32 | 757.90",
+   "source_url": "https://ntca.gov.in/tiger-reserves/",
+   "page": "table",
+   "notes": "Claim c29: Buxa Tiger Reserve notified in 1982-83."
+  },
+  {
+   "id": "q21",
+   "answer": "২,৫৮৪.৮৯ বর্গকিমি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Sunderban | 1973-74 | West Bengal | 2007 | 1,699.62 | 885.27 | 2,584.89",
+   "source_url": "https://ntca.gov.in/tiger-reserves/",
+   "page": "table",
+   "notes": "Claim c28: Sunderban Tiger Reserve total 2,584.89 sq km."
+  },
+  {
+   "id": "q22",
+   "answer": "১৯৮৯ সালের ২৯ মার্চ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "5. Sunderban (9630) 29.03.1989 Part of delta of Ganges and Brahamaputra river system in West Bengal.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+   "page": "p. 48",
+   "notes": "Claim c16: Sunderban Biosphere Reserve notified 29 March 1989, area 9,630 sq km."
+  },
+  {
+   "id": "q23",
+   "answer": "২০১৯ সালের ৩০ জানুয়ারি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Sundarban Wetland in West Bengal, designated on 30 January 2019, is India's largest Ramsar Site at 4,23,000 hectares. It holds over 60 per cent of India's mangrove area and a tiger population with unique aquatic hunting skills.",
+   "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10255_20261025_09460901.pdf",
+   "page": "release",
+   "notes": "Claim c34: Sundarban Wetland designated Ramsar site on 30 January 2019."
+  },
+  {
+   "id": "q24",
+   "answer": "ড্যাম্পিয়ার–হজেস রেখা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "the northern boundary of this forest came to be identified for the first time as the Dampier – Hodge's line when the survey work started by Mr. Ensign Princep in 1922 was completed in 1830 when Mr. William Dampier was Commissioner and Lt. Hodges was the Surveyor of the Sundarbans Commission.",
+   "source_url": "https://wbiwd.gov.in/index.php/applications/embankments",
+   "page": "page",
+   "notes": "Claim c38: northern boundary of Sundarbans identified as the Dampier-Hodges line."
+  },
+  {
+   "id": "q25",
+   "answer": "স্থানীয় সম্প্রদায় ও বন দফতর",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "The programme has been in formal existence since 1988 when the state of Odisha passed the first resolution for joint forest management.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+   "page": "p. 16",
+   "notes": "Claim c27: JFM involves local communities in managing/restoring degraded forests; 'joint' management with the forest department is implied but the department partner is not named in the claim."
+  },
+  {
+   "id": "q26",
+   "answer": "প্রচলিত বনের বাইরে ইউক্যালিপটাস ও জ্বালানি কাঠের গাছ লাগানো",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - no claim describes social forestry; best answer given."
+  },
+  {
+   "id": "q27",
+   "answer": "মেঘালয়",
+   "confidence": "GUESS",
+   "also_defensible": [
+    "রাজস্থান"
+   ],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - c11 gives both extremes (Meghalaya >1,080 cm; Jaisalmer, Rajasthan rarely >9 cm) but does not state which state shows maximum variation; Meghalaya chosen, Rajasthan also defensible."
+  },
+  {
+   "id": "q28",
+   "answer": "অত্যধিক বাষ্পীভবন-প্রস্বেদন",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - no claim on plateau drought or evapotranspiration; best answer given (WBCS 2017)."
+  },
+  {
+   "id": "q29",
+   "answer": "কার্স্ট ভূমিরূপ",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - no claim on Buxa/Jayanti landforms; best answer given."
+  },
+  {
+   "id": "q30",
+   "answer": "মানস জীবমণ্ডল সংরক্ষণাগার",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Corbett National Park in Uttarakhand, Sunderbans National Park in West Bengal, Bandhavgarh National Park in Madhya Pradesh, Sariska Wildlife Sanctuary in Rajasthan, Manas Tiger Reserve in Assam and Periyar Tiger Reserve in Kerala are some of the tiger reserves of India.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+   "page": "pp. 14-15",
+   "notes": "Claim c25 lists Manas Tiger Reserve in Assam, so Manas is not in West Bengal; Singalila is in WB per c45."
+  },
+  {
+   "id": "q31",
+   "answer": "শুধু দুটি জোড় সঠিক",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - no claim links districts to tree species; best answer given."
+  },
+  {
+   "id": "q32",
+   "answer": "সুন্দরবন জলাভূমি (৪,২৩,০০০ হেক্টর)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Sundarban Wetland in West Bengal, designated on 30 January 2019, is India's largest Ramsar Site at 4,23,000 hectares. It holds over 60 per cent of India's mangrove area and a tiger population with unique aquatic hunting skills.",
+   "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10255_20261025_09460901.pdf",
+   "page": "release",
+   "notes": "Claim c34: Sundarban Wetland is India's largest Ramsar Site at 4,23,000 hectares."
+  },
+  {
+   "id": "q33",
+   "answer": "১৯৭৩ সালে, নয়টি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Project Tiger has been implemented since 1973. Initially, the Project Tiger was launched in nine tiger reserves, covering an area of 16,339 sq. km.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+   "page": "p. 50",
+   "notes": "Claim c17: Project Tiger implemented since 1973, launched in nine tiger reserves."
+  },
+  {
+   "id": "q34",
+   "answer": "১৯,৭৭০.৪৫ বর্গকিমি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "West Bengal 88,752.00 16,832.33 2,938.12 19,770.45",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&reg=48&lang=2",
+   "page": "table",
+   "notes": "Claim c30 (ISFR 2023): West Bengal total forest-plus-tree cover 19,770.45 sq km."
+  },
+  {
+   "id": "q35",
+   "answer": "পর্বতের বাধায় বায়ু উঠে ঠান্ডা হয়ে বৃষ্টি",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - no claim defines orographic rainfall (c03 on Himalayas trapping monsoon is related but not a definition); best answer given."
+  },
+  {
+   "id": "q36",
+   "answer": "উত্তর ও দক্ষিণ ২৪ পরগনা",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - claims mention the Ganges delta/Sundarbans generally but not active-delta districts; best answer given."
+  },
+  {
+   "id": "q37",
+   "answer": "ওমান",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Oman Yaas Yass Remal Re-Mal Sail Sail Naseem Naseem",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1619051&reg=48&lang=2",
+   "page": "table",
+   "notes": "Claim c33: Oman named both Yaas and Remal."
+  },
+  {
+   "id": "q38",
+   "answer": "১ ও ২ উভয়ই",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The southwest monsoon sets in over the Kerala coast by 1st June and moves swiftly to reach Mumbai and Kolkata between 10th and 13th June.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/kegy104.pdf",
+   "page": "p. 31",
+   "notes": "Statement 1 true (c06), statement 2 true (c08 Kalbaisakhi evening thunderstorms), statement 3 false (c10: retreating monsoon dry in north India)."
+  },
+  {
+   "id": "q39",
+   "answer": "১ ও ২ উভয়ই",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "14. Sundarbans National Park Year of Inscription: 1987 State: West Bengal Category: Natural Properties The Sundarbans covers 10,000 km2 of land and water (more than half of it in India, the rest in Bangladesh) in the Ganges delta. It contains the world's largest area of mangrove forests.",
+   "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jul/doc2024718350501.pdf",
+   "page": "list",
+   "notes": "Statement 1 true (c36, UNESCO 1987), statement 2 true (c34, Ramsar 2019), statement 3 false (c36/c31: Sundarbans is the world's largest mangrove area / WB has India's largest mangrove cover)."
+  },
+  {
+   "id": "q40",
+   "answer": "A-৩, B-১, C-৪, D-২",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Neora valley National Park in Kalimpong comprises of an ecosystem rich in abundance of flora and fauna, lush green valleys and meandering rivers with snow clad mountains in the backdrop.",
+   "source_url": "https://wb.gov.in/visitors-areas-to-visit-Forests.aspx",
+   "page": "page",
+   "notes": "Only D-2 (Neora Valley-Kalimpong) is stated directly in claims (c43); A-3, B-1, C-4 inferred - Jaldapara in Dooars/Alipurduar area (c40), Singalila in Darjeeling hills (c45), Gorumara in Jalpaiguri - making this the only consistent matching."
+  },
+  {
+   "id": "q41",
+   "answer": "ল্যাটেরাইট — সুন্দরবন বদ্বীপ",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Laterite has been derived from the Latin word 'later' which means brick. The laterite soil develops under tropical and subtropical climate with alternate wet and dry season. This soil is the result of intense leaching due to heavy rain.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf",
+   "page": "p. 8",
+   "notes": "Laterite forms by intense leaching under heavy rain (c22) and the Sundarban is a Ganges delta tract (c16) of alluvial soil (c18), so Laterite-Sundarban delta is the mismatched pair; other pairs are supported by c18, c19/c40 and c20."
+  },
+  {
+   "id": "q42",
+   "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "",
+   "source_url": "",
+   "page": "",
+   "notes": "not covered by claims - same content as q28; neither the assertion nor the evapotranspiration reason appears in the claims; best answer given."
+  }
+ ]
+}

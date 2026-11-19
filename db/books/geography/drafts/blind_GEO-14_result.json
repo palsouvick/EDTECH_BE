@@ -1,0 +1,406 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "খারিফ, রবি ও জায়েদ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "India has three cropping seasons — rabi, kharif and zaid.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 30",
+      "notes": ""
+    },
+    {
+      "id": "q02",
+      "answer": "অক্টোবর থেকে ডিসেম্বরে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Rabi crops are sown in winter from October to December and harvested in summer from April to June.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 30",
+      "notes": ""
+    },
+    {
+      "id": "q03",
+      "answer": "যব",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Kharif crops are grown with the onset of monsoon in different parts of the country and these are harvested in September-October.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 31",
+      "notes": "Barley is a rabi crop per c02; the others are kharif per c03."
+    },
+    {
+      "id": "q04",
+      "answer": "অসম, পশ্চিমবঙ্গ ও ওড়িশা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In states like Assam, West Bengal and Odisha, three crops of paddy are grown in a year. These are Aus, Aman and Boro.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 32",
+      "notes": ""
+    },
+    {
+      "id": "q05",
+      "answer": "জায়েদ ঋতু রবি ও খারিফের মাঝে গ্রীষ্মের ছোট ঋতু",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "India has three cropping seasons — rabi, kharif and zaid.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 30",
+      "notes": "Other options contradicted by claims (jute is kharif c03, wheat is rabi c02); zaid definition itself not stated in claims, chosen by elimination."
+    },
+    {
+      "id": "q06",
+      "answer": "২৫ ডিগ্রি সেলসিয়াসের বেশি তাপ ও ১০০ সেমি-র বেশি বৃষ্টি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It is a kharif crop which requires high temperature, (above 25°C) and high humidity with annual rainfall above 100 cm.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 32",
+      "notes": ""
+    },
+    {
+      "id": "q07",
+      "answer": "পশ্চিমবঙ্গ, উত্তরপ্রদেশ ও পাঞ্জাব",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "West Bengal, Uttar Pradesh, and Punjab are the leading rice producing states in the country.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy203.pdf",
+      "page": "p. 31",
+      "notes": ""
+    },
+    {
+      "id": "q08",
+      "answer": "ধান, আলু ও পাট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Major crops in West Bengal are rice, potato and jute.",
+      "source_url": "https://forest.wb.gov.in/upload/project/FINAL_DPR.pdf",
+      "page": "DPR 2019-20",
+      "notes": ""
+    },
+    {
+      "id": "q09",
+      "answer": "দ্বিতীয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "the position of West Bengal remained first in the country in production of rice (143.41 lakh metric tonne), again first in the production of vegetables (128.03 lakh metric tonne) and second in the production of potato (99 lakh metric tonne).",
+      "source_url": "https://finance.wb.gov.in/writereaddata/BudgetSpeech2011-2012.pdf",
+      "page": "Budget Speech 2011-12",
+      "notes": ""
+    },
+    {
+      "id": "q10",
+      "answer": "পাঞ্জাব ও হরিয়ানার গম",
+      "confidence": "LIKELY",
+      "also_defensible": [],
+      "quote": "New seed varieties of wheat (Mexico) and rice (Philippines) known as high yielding varieties (HYVs) were available for cultivation by mid-1960s.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 40",
+      "notes": "Claim says Green Revolution first spread in irrigated Punjab, Haryana and western UP with wheat HYVs; 'mainly limited' wording is stronger than the claim."
+    },
+    {
+      "id": "q11",
+      "answer": "দক্ষিণ-পশ্চিম বর্ষায় বোনা হয়, শীতে কাটা হয়",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "Kharif crops are grown with the onset of monsoon in different parts of the country and these are harvested in September-October.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 31",
+      "notes": "not covered by claims - Aman-specific sowing/harvesting timing is not in the claims; best guess from the kharif/monsoon pattern in c03."
+    },
+    {
+      "id": "q12",
+      "answer": "সোনালি আঁশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It is known as the golden fibre.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 38",
+      "notes": ""
+    },
+    {
+      "id": "q13",
+      "answer": "অসম, পশ্চিমবঙ্গ, তামিলনাড়ু ও কেরল",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Major tea-producing states are Assam, hills of Darjeeling and Jalpaiguri districts, West Bengal, Tamil Nadu and Kerala.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "pp. 36-37",
+      "notes": ""
+    },
+    {
+      "id": "q14",
+      "answer": "প্রায় তিন-চতুর্থাংশ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "West Bengal accounts for about three-fourth of the production in the country.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy203.pdf",
+      "page": "p. 31",
+      "notes": ""
+    },
+    {
+      "id": "q15",
+      "answer": "দার্জিলিং চা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "DARJEELING word and logo were the first Geographical Indications to be registered in India in the name of the Tea Board",
+      "source_url": "https://teaboard.gov.in/TEABOARDCSM/NQ==",
+      "page": "Darjeeling page",
+      "notes": ""
+    },
+    {
+      "id": "q16",
+      "answer": "কলকাতা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Tea Board, 14 B T M Sarani (Brabourne Road) Kolkata-700 001",
+      "source_url": "https://teaboard.gov.in/TEABOARDCSM/NQ==",
+      "page": "Tea Board contact page",
+      "notes": ""
+    },
+    {
+      "id": "q17",
+      "answer": "অসম",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In India, tea plantation started in 1840s in Brahmaputra valley of Assam which still is a major tea growing area in the country.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy203.pdf",
+      "page": "p. 34",
+      "notes": "Claim text states Assam gives more than half of India's tea."
+    },
+    {
+      "id": "q18",
+      "answer": "ভালো জলনিকাশযুক্ত উর্বর প্লাবনভূমির মাটি",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It is known as the golden fibre.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+      "page": "p. 38",
+      "notes": "Claim text states jute grows on well-drained fertile flood-plain soils renewed every year."
+    },
+    {
+      "id": "q19",
+      "answer": "কয়লা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In India, coal is the most abundantly available fossil fuel.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 44",
+      "notes": ""
+    },
+    {
+      "id": "q20",
+      "answer": "গন্ডোয়ানা যুগের, প্রায় ২০ কোটি বছরের পুরনো",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In India coal occurs in rock series of two main geological ages, namely Gondwana, a little over 200 million years in age and in tertiary deposits which are only about 55 million years old.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 45",
+      "notes": ""
+    },
+    {
+      "id": "q21",
+      "answer": "ঝরিয়া",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Jharia is the largest coal field followed by Raniganj.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 46",
+      "notes": ""
+    },
+    {
+      "id": "q22",
+      "answer": "অ্যানথ্রাসাইট",
+      "confidence": "LIKELY",
+      "also_defensible": [
+        "বিটুমিনাস"
+      ],
+      "quote": "Anthracite is the highest quality hard coal.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 44",
+      "notes": "Wording for 'highest quality' points to anthracite per c23; bituminous is also defensible as c23 calls it the most popular commercially."
+    },
+    {
+      "id": "q23",
+      "answer": "১৯৪৮ সালের ৭ জুলাই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The Corporation came into existence on 7 July 1948 as the first multipurpose river valley project of independent India.",
+      "source_url": "https://www.dvc.gov.in/cms-web/details-pages/13",
+      "page": "History page",
+      "notes": ""
+    },
+    {
+      "id": "q24",
+      "answer": "দামোদর, সোন, মহানদী ও গোদাবরী উপত্যকা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Most of the major mineral resources occur to the east of a line linking Mangaluru and Kanpur.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/legy205.pdf",
+      "page": "p. 54",
+      "notes": "Claim text lists Damodar, Sone, Mahanadi and Godavari valleys for over 97% of coal reserves."
+    },
+    {
+      "id": "q25",
+      "answer": "বন্যা",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "The risk of collapsing mine roofs, inundation and fires in coalmines are a constant threat to miners.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 48",
+      "notes": "not covered by claims - no main-cause/stowing claim; c44 lists inundation among mine threats, closest to this option."
+    },
+    {
+      "id": "q26",
+      "answer": "ঋষড়ায়, ১৮৫৫ সালে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": ""
+    },
+    {
+      "id": "q27",
+      "answer": "পাট চাষের এলাকা কাছে ও সস্তা জলপরিবহণ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "proximity of the jute producing areas, inexpensive water transport, supported by a good network of railways, roadways and waterways",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 62",
+      "notes": ""
+    },
+    {
+      "id": "q28",
+      "answer": "দুর্গাপুর ইস্পাত কারখানা ও ইসকো ইস্পাত কারখানা (বার্নপুর)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Durgapur Steel Plant (DSP), Durgapur (West Bengal): Products : Wheels & Axles for Railways, TMT, Structurals, Billets, Blooms.",
+      "source_url": "https://steel.gov.in/sites/default/files/WEBSITE%20UPDATION_200824.pdf",
+      "page": "SAIL plants list",
+      "notes": "Claim text names Durgapur Steel Plant and IISCO Steel Plant (Burnpur) as SAIL integrated plants in West Bengal."
+    },
+    {
+      "id": "q29",
+      "answer": "ছোটনাগপুর মালভূমি অঞ্চলে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Chhotanagpur plateau region has the maximum concentration of iron and steel industries.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 64",
+      "notes": ""
+    },
+    {
+      "id": "q30",
+      "answer": "১৯৫৯ সালে, যুক্তরাজ্যের সহায়তায়",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims - no claim gives Durgapur Steel Plant's year or foreign collaborator."
+    },
+    {
+      "id": "q31",
+      "answer": "প্রায় ৪:২:১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Iron ore, coking coal and lime stone are required in the ratio of approximately 4 : 2 : 1.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 62",
+      "notes": ""
+    },
+    {
+      "id": "q32",
+      "answer": "পেট্রোলিয়াম শোধনাগার ও রাসায়নিক সার উৎপাদন",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims - no claim describes Haldia's industries."
+    },
+    {
+      "id": "q33",
+      "answer": "দিল্লি, মুম্বই, চেন্নাই ও কলকাতা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "construction of 5,846-km long 4/6 lane, high density traffic corridor, to connect India's four big metro cities of Delhi-Mumbai-Chennai-Kolkata",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess107.pdf",
+      "page": "p. 74",
+      "notes": ""
+    },
+    {
+      "id": "q34",
+      "answer": "জাতীয় সড়ক ৩৫",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims - no claim gives a National Highway number for Bongaon-Kolkata."
+    },
+    {
+      "id": "q35",
+      "answer": "১৯৮৪ সালে",
+      "confidence": "GUESS",
+      "also_defensible": [],
+      "quote": "",
+      "source_url": "",
+      "page": "",
+      "notes": "not covered by claims - c38 only gives Metro Railway headquarters (Kolkata), no start year."
+    },
+    {
+      "id": "q36",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "construction of 5,846-km long 4/6 lane, high density traffic corridor, to connect India's four big metro cities of Delhi-Mumbai-Chennai-Kolkata",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess107.pdf",
+      "page": "p. 74",
+      "notes": "Statement 1 supported by c38 (Eastern Railway HQ Kolkata); statement 2 by c34."
+    },
+    {
+      "id": "q37",
+      "answer": "A-৩, B-২, C-৪, D-১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The first jute mill was set up near Kolkata in 1855 at Rishra.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+      "page": "p. 60",
+      "notes": "Durgapur steel c28, Rishra first jute mill 1855 c16, Haldia subsidiary port c40, Raniganj coalfield c20/c21."
+    },
+    {
+      "id": "q38",
+      "answer": "কলকাতা বন্দর: ভারতের একমাত্র নদীমাতৃক প্রধান বন্দর",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Syama Prasad Mookerjee Port, Kolkata is the only riverine major port in India, in the city of Kolkata, West Bengal, around 232 kilometres upstream the River Hooghly. It is the oldest operating port in India and was constructed by the British East India Company.",
+      "source_url": "https://mopsw.nic.in/sagarvidyakosh/index.php?title=Shyama_Prasad_Mukherjee_Port_Authority",
+      "page": "Port profile",
+      "notes": "Other pairs contradicted: NW-1 is Prayagraj-Haldia (c39), Haldia is a subsidiary port (c40)."
+    },
+    {
+      "id": "q39",
+      "answer": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Hence, heavy industries and thermal power stations are located on or near the coalfields.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+      "page": "p. 46",
+      "notes": "A supported by Durgapur steel plant c28 / Chhotanagpur concentration c27; R is c24 and explains location near coalfields."
+    },
+    {
+      "id": "q40",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Syama Prasad Mookerjee Port, Kolkata is the only riverine major port in India, in the city of Kolkata, West Bengal, around 232 kilometres upstream the River Hooghly. It is the oldest operating port in India and was constructed by the British East India Company.",
+      "source_url": "https://mopsw.nic.in/sagarvidyakosh/index.php?title=Shyama_Prasad_Mukherjee_Port_Authority",
+      "page": "Port profile",
+      "notes": "Statement 1 by c41 (oldest operating port); statement 2 by c40 (Haldia subsidiary port)."
+    }
+  ]
+}
