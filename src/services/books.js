@@ -21,6 +21,16 @@ const BOOKS = Object.freeze({
   history: { dir: 'history', topic: 'indian_history', prefix: 'HIS' },
   geography: { dir: 'geography', topic: 'geography', prefix: 'GEO' },
   polity: { dir: 'polity', topic: 'polity', prefix: 'POL' },
+  science: { dir: 'science', topic: 'general_science', prefix: 'SCI' },
+  economy: { dir: 'economy', topic: 'economy', prefix: 'ECO' },
+  environment: { dir: 'environment', topic: 'environment', prefix: 'ENV' },
+  art_culture: { dir: 'art_culture', topic: 'art_culture', prefix: 'ART' },
+  indian_gk: { dir: 'indian_gk', topic: 'indian_gk', prefix: 'IGK' },
+  static_gk: { dir: 'static_gk', topic: 'static_gk', prefix: 'STG' },
+  important_days: { dir: 'important_days', topic: 'important_days', prefix: 'DAY' },
+  organisations: { dir: 'organisations', topic: 'organisations', prefix: 'ORG' },
+  industrial_safety: { dir: 'industrial_safety', topic: 'industrial_safety', prefix: 'SAF' },
+  wb_industry: { dir: 'wb_industry', topic: 'wb_industry', prefix: 'WBI' },
 });
 /** Any book's chapter code (HIS-02, GEO-03). */
 const CHAPTER_CODE = /^[A-Z]{3}-\d{2}$/;
