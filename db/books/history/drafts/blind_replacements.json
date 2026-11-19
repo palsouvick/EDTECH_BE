@@ -1,0 +1,2156 @@
+{
+  "questions": [
+    {
+      "code": "HIS-04",
+      "id": "q01",
+      "section": "rulers_and_janapadas",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্ণব্যবস্থায় বৈশ্যদের প্রত্যাশিত কাজ কী ছিল?",
+      "options": [
+        "অন্য তিন বর্ণের সেবা করা",
+        "বেদ অধ্যয়ন-অধ্যাপনা ও যজ্ঞ করা",
+        "কৃষিকাজ, পশুপালন ও ব্যবসা-বাণিজ্য",
+        "যুদ্ধ করা ও প্রজাদের রক্ষা করা"
+      ]
+    },
+    {
+      "code": "HIS-07",
+      "id": "q04",
+      "section": "s4",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে প্রথম ব্যাপক আকারে স্বর্ণমুদ্রা জারি করেন কোন শাসকেরা?",
+      "options": [
+        "ইন্দো-গ্রিকরা",
+        "শকরা",
+        "সাতবাহনরা",
+        "কুষাণরা"
+      ]
+    },
+    {
+      "code": "HIS-17",
+      "id": "q10",
+      "section": "education",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'একটি ভালো ইউরোপীয় গ্রন্থাগারের একটি মাত্র তাক ভারত ও আরবের সমগ্র দেশীয় সাহিত্যের চেয়ে বেশি মূল্যবান' — এই বিখ্যাত মন্তব্য করেছিলেন কে?",
+      "options": [
+        "ওয়ারেন হেস্টিংস",
+        "লর্ড ম্যাকলে",
+        "চার্লস উড",
+        "উইলিয়াম জোন্স"
+      ]
+    },
+    {
+      "code": "HIS-27",
+      "id": "q13",
+      "section": "company_governors",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ওয়ারেন হেস্টিংসের বিরুদ্ধে ব্রিটিশ পার্লামেন্টে অভিশংসন (impeachment) প্রক্রিয়া কত বছর ধরে চলেছিল?",
+      "options": [
+        "দশ বছর",
+        "পাঁচ বছর",
+        "সাত বছর",
+        "তিন বছর"
+      ]
+    },
+    {
+      "code": "HIS-27",
+      "id": "q15",
+      "section": "company_governors",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "১৭৯৩ সালের নিয়ম অনুযায়ী বছরে ৫০০ পাউন্ড বা তার বেশি বেতনের উচ্চ পদ কেবল কারা পেতে পারতেন?",
+      "options": [
+        "ইংরেজ ও ভারতীয় উভয়েই সমানভাবে",
+        "কেবল ইংরেজরা",
+        "কেবল ভারতীয়রা",
+        "কেবল কোম্পানির সেনা অফিসাররা"
+      ]
+    }
+  ],
+  "claims": {
+    "HIS-04": [
+      {
+        "id": "c01",
+        "claim": "In the ashvamedha, a horse was let loose to wander; if other rajas stopped it they had to fight, and if they let it pass they accepted the sacrificer's superiority.",
+        "source": "s1",
+        "page": "pp. 42-43",
+        "quote": "The ashvamedha or horse sacrifice was one such ritual. A horse was let loose to wander freely and it was guarded by the raja's men. If the horse wandered into the kingdoms of other rajas and they stopped it, they had to fight. If they allowed the horse to pass, it meant that they accepted that the raja who wanted to perform the sacrifice was stronger than them."
+      },
+      {
+        "id": "c02",
+        "claim": "There were four varnas: Brahmins studied/taught the Vedas, performed sacrifices and received gifts; Kshatriyas fought and protected; Vaishyas were farmers, herders and traders; Shudras served the other three.",
+        "source": "s1",
+        "page": "p. 44",
+        "quote": "There were four social categories, namely Brahmins, Kshatriyas, Vaishyas and Shudras. Brahmins were expected to study (and teach) the Vedas, perform sacrifices and receive gifts. Kshatriyas were expected to fight battles and protect people. Vaishyas were expected to be farmers, herders, and traders. The Shudras were expected to serve the other three groups."
+      },
+      {
+        "id": "c03",
+        "claim": "Janapada literally means the land where the jana set its foot and settled down; excavated janapada settlements include Purana Qila (Delhi), Hastinapura (near Meerut) and Atranjikhera (near Etah).",
+        "source": "s1",
+        "page": "p. 44",
+        "quote": "The word janapada literally means the land where the jana set its foot, and settled down. Archaeologists have excavated a number of settlements in these janapadas, such as Purana Qila in Delhi, Hastinapura near Meerut, and Atranjikhera, near Etah (the last two are in Uttar Pradesh)."
+      },
+      {
+        "id": "c04",
+        "claim": "A special pottery type found at janapada sites is Painted Grey Ware, with simple lines and geometric patterns painted on grey pots.",
+        "source": "s1",
+        "page": "p. 45",
+        "quote": "One special type of pottery found at these sites is known as Painted Grey Ware. As is obvious from the name, these grey pots had painted designs, usually simple lines and geometric patterns."
+      },
+      {
+        "id": "c05",
+        "claim": "About 2500 years ago some janapadas became more important than others and were known as mahajanapadas; most had a capital city, many fortified with huge walls of wood, brick or stone.",
+        "source": "s1",
+        "page": "p. 45",
+        "quote": "About 2500 years ago, some janapadas became more important than others, and were known as mahajanapadas. Most mahajanapadas had a capital city, many of these were fortified. This means that huge walls of wood, brick or stone were built around them."
+      },
+      {
+        "id": "c06",
+        "claim": "Forts were probably built because people feared attacks from other kings and needed protection; rulers may also have wanted to display wealth and power and to control the enclosed land and people.",
+        "source": "s1",
+        "page": "pp. 45-46",
+        "quote": "Forts were probably built because people were afraid of attacks from other kings and needed protection. It is also likely that some rulers wanted to show how rich and powerful they were by building really large, tall and impressive walls around their cities. Also in this way, the land and the people living inside the fortified area could be controlled more easily by the king."
+      },
+      {
+        "id": "c07",
+        "claim": "The new rajas began maintaining armies; soldiers were paid regular salaries throughout the year, some payments probably in punch-marked coins.",
+        "source": "s1",
+        "page": "p. 46",
+        "quote": "The new rajas now began maintaining armies. Soldiers were paid regular salaries and maintained by the king throughout the year. Some payments were probably made using punch marked coins."
+      },
+      {
+        "id": "c08",
+        "claim": "Because mahajanapada rulers were building huge forts and maintaining big armies they needed more resources, so instead of depending on occasional gifts they started collecting regular taxes, with officials to collect them.",
+        "source": "s1",
+        "page": "p. 46",
+        "quote": "As the rulers of the mahajanapadas were (a) building huge forts (b) maintaining big armies, they needed more resources. And they needed officials to collect these. So, instead of depending on occasional gifts brought by people, as in the case of the raja of the janapadas, they started collecting regular taxes."
+      },
+      {
+        "id": "c09",
+        "claim": "Taxes were levied on crops, on craftspersons, on goods through trade; herders paid in animals and animal produce; hunters and gatherers provided forest produce.",
+        "source": "s1",
+        "page": "pp. 46-47",
+        "quote": "Taxes on crops • Taxes on craftspersons • Herders paid taxes as animals and animal produce. • Taxes on goods through trade. • Hunters and gatherers had to provide forest produce to the raja."
+      },
+      {
+        "id": "c10",
+        "claim": "The growing use of iron ploughshares let heavy, clayey soil be turned over better than with a wooden ploughshare, so more grain could be produced.",
+        "source": "s1",
+        "page": "p. 47",
+        "quote": "There were two major changes in agriculture around this time. One was the growing use of iron ploughshares. This meant that heavy, clayey soil could be turned over better than with a wooden ploughshare, so that more grain could be produced."
+      },
+      {
+        "id": "c11",
+        "claim": "People began transplanting paddy: saplings were grown and then planted in the fields instead of scattering seed, which increased production as many more plants survived.",
+        "source": "s1",
+        "page": "p. 47",
+        "quote": "Second, people began transplanting paddy. This meant that instead of scattering seed on the ground, from which plants would sprout, saplings were grown and then planted in the fields. This led to increased production, as many more plants survived."
+      },
+      {
+        "id": "c12",
+        "claim": "Magadha became the most important mahajanapada in about two hundred years; rivers such as the Ganga and Son flowed through it.",
+        "source": "s1",
+        "page": "p. 47",
+        "quote": "Magadha became the most important mahajanapada in about two hundred years. Many rivers such as the Ganga and Son flowed through Magadha."
+      },
+      {
+        "id": "c13",
+        "claim": "The rivers mattered for transport, water supplies and making the land fertile; forests gave elephants for the army and wood for houses, carts and chariots; iron ore mines in the region could be tapped for strong tools and weapons.",
+        "source": "s1",
+        "page": "pp. 47-48",
+        "quote": "This was important for (a) transport, (b) water supplies (c) making the land fertile. Parts of Magadha were forested. Elephants, which lived in the forest, could be captured and trained for the army. Forests also provided wood for building houses, carts and chariots. Besides, there were iron ore mines in the region that could be tapped to make strong tools and weapons."
+      },
+      {
+        "id": "c14",
+        "claim": "Bimbisara and Ajatasattu were two very powerful rulers of Magadha who used all possible means to conquer other janapadas; Mahapadma Nanda extended his control up to the north-west part of the subcontinent.",
+        "source": "s1",
+        "page": "p. 48",
+        "quote": "Magadha had two very powerful rulers, Bimbisara and Ajatasattu, who used all possible means to conquer other janapadas. Mahapadma Nanda was another important ruler. He extended his control up to the northwest part of the subcontinent."
+      },
+      {
+        "id": "c15",
+        "claim": "Rajagriha (present-day Rajgir) in Bihar was the capital of Magadha for several years; later the capital was shifted to Pataliputra (present-day Patna).",
+        "source": "s1",
+        "page": "p. 48",
+        "quote": "Rajagriha (presentday Rajgir) in Bihar was the capital of Magadha for several years. Later the capital was shifted to Pataliputra (presentday Patna)."
+      },
+      {
+        "id": "c16",
+        "claim": "More than 2300 years ago Alexander of Macedonia came to the Indian subcontinent and reached the banks of the Beas; when he wanted to march further east his soldiers refused, scared by reports of the vast armies (foot soldiers, chariots, elephants) of the Indian rulers.",
+        "source": "s1",
+        "page": "p. 48",
+        "quote": "More than 2300 years ago, a ruler named Alexander, who lived in Macedonia in Europe, wanted to become a world conqueror. Of course, he didn't conquer the world, but did conquer parts of Egypt and West Asia, and came to the Indian subcontinent, reaching up to the banks of the Beas. When he wanted to march further eastwards, his soldiers refused. They were scared, as they had heard that the rulers of India had vast armies of foot soldiers, chariots and elephants."
+      },
+      {
+        "id": "c17",
+        "claim": "Vajji, with its capital at Vaishali (Bihar), had a different form of government known as gana or sangha, while Magadha became a powerful kingdom.",
+        "source": "s1",
+        "page": "p. 48",
+        "quote": "While Magadha became a powerful kingdom, Vajji, with its capital at Vaishali (Bihar), was under a different form of government, known as gana or sangha."
+      },
+      {
+        "id": "c18",
+        "claim": "In a gana or sangha there were not one but many rulers, each known as a raja; they performed rituals together and met in assemblies, deciding through discussion and debate.",
+        "source": "s1",
+        "page": "p. 49",
+        "quote": "In a gana or a sangha there were not one, but many rulers and each one was known as a raja. These rajas performed rituals together. They also met in assemblies, and decided what had to be done and how, through discussion and debate."
+      },
+      {
+        "id": "c19",
+        "claim": "Women, dasas and kammakaras could not participate in the assemblies of the ganas.",
+        "source": "s1",
+        "page": "p. 49",
+        "quote": "However, women, dasas and kammakaras could not participate in these assemblies."
+      },
+      {
+        "id": "c20",
+        "claim": "The account of the Vajjis comes from the Digha Nikaya, a Buddhist book containing speeches of the Buddha; Ajatasattu, wanting to attack the Vajjis, sent his minister Vassakara to the Buddha for advice.",
+        "source": "s1",
+        "page": "p. 49",
+        "quote": "This is an account of the Vajjis from the Digha Nikaya, a famous Buddhist book, which contains some of the speeches of the Buddha. Ajatasattu wanted to attack the Vajjis. He sent his minister named Vassakara to the Buddha to get his advice on the matter."
+      },
+      {
+        "id": "c21",
+        "claim": "The Buddha said the Vajjis would continue to prosper as long as they held full and frequent public assemblies, met and acted together, followed established rules, and respected, supported and listened to elders.",
+        "source": "s1",
+        "page": "p. 49",
+        "quote": "The Buddha asked whether the Vajjis met frequently, in full assemblies. When he heard that they did, he replied that the Vajjis would continue to prosper as long as: • They held full and frequent public assemblies. • They met and acted together. • They followed established rules. • They respected, supported and listened to elders."
+      },
+      {
+        "id": "c22",
+        "claim": "The ganas or sanghas lasted for a very long time, till about 1500 years ago, when the last of them were conquered by the Gupta rulers.",
+        "source": "s1",
+        "page": "p. 49",
+        "quote": "Rajas of powerful kingdoms tried to conquer the sanghas. Nevertheless, these lasted for a very long time, till about 1500 years ago, when the last of the ganas or sanghas were conquered by the Gupta rulers."
+      },
+      {
+        "id": "c23",
+        "claim": "The Buddha belonged to a small gana known as the Sakya gana, and was a kshatriya.",
+        "source": "s3",
+        "page": "p. 52",
+        "quote": "The Buddha belonged to a small gana known as the Sakya gana, and was a kshatriya."
+      },
+      {
+        "id": "c24",
+        "claim": "Mahavira was a kshatriya prince of the Lichchhavis, a group that was part of the Vajji sangha.",
+        "source": "s3",
+        "page": "p. 56",
+        "quote": "He was a kshatriya prince of the Lichchhavis, a group that was a part of the Vajji sangha, about which you read in Chapter 5."
+      },
+      {
+        "id": "c25",
+        "claim": "The sixth century BCE is often regarded as a major turning point in early Indian history, an era associated with early states, cities, the growing use of iron and the development of coinage.",
+        "source": "s2",
+        "page": "pp. 28-29",
+        "quote": "The sixth century BCE is often regarded as a major turning point in early Indian history. It is an era associated with early states, cities, the growing use of iron, the development of coinage, etc."
+      },
+      {
+        "id": "c26",
+        "claim": "Early Buddhist and Jaina texts mention sixteen states known as mahajanapadas; although the lists vary, Vajji, Magadha, Koshala, Kuru, Panchala, Gandhara and Avanti occur frequently and were amongst the most important.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "Early Buddhist and Jaina texts (see also Chapter 4) mention, amongst other things, sixteen states known as mahajanapadas. Although the lists vary, some names such as Vajji, Magadha, Koshala, Kuru, Panchala, Gandhara and Avanti occur frequently. Clearly, these were amongst the most important mahajanapadas."
+      },
+      {
+        "id": "c27",
+        "claim": "While most mahajanapadas were ruled by kings, some, known as ganas or sanghas, were oligarchies where power was shared by a number of men collectively called rajas; both Mahavira and the Buddha belonged to such ganas.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "While most mahajanapadas were ruled by kings, some, known as ganas or sanghas, were oligarchies (p. 30), where power was shared by a number of men, often collectively called rajas. Both Mahavira and the Buddha (Chapter 4) belonged to such ganas."
+      },
+      {
+        "id": "c28",
+        "claim": "In the Vajji sangha the rajas probably controlled resources such as land collectively; some of these gana states lasted for nearly a thousand years.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "In some instances, as in the case of the Vajji sangha, the rajas probably controlled resources such as land collectively. Although their histories are often difficult to reconstruct due to the lack of sources, some of these states lasted for nearly a thousand years."
+      },
+      {
+        "id": "c29",
+        "claim": "Each mahajanapada had a capital city, which was often fortified; maintaining fortified cities, incipient armies and bureaucracies required resources.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "Each mahajanapada had a capital city, which was often fortified. Maintaining these fortified cities as well as providing for incipient armies and bureaucracies required resources."
+      },
+      {
+        "id": "c30",
+        "claim": "Gradually, some states acquired standing armies and maintained regular bureaucracies, while others continued to depend on militia recruited mostly from the peasantry.",
+        "source": "s2",
+        "page": "p. 30",
+        "quote": "Gradually, some states acquired standing armies and maintained regular bureaucracies. Others continued to depend on militia, recruited, more often than not, from the peasantry."
+      },
+      {
+        "id": "c31",
+        "claim": "Between the sixth and fourth centuries BCE, Magadha (in present-day Bihar) became the most powerful mahajanapada.",
+        "source": "s2",
+        "page": "p. 31",
+        "quote": "Between the sixth and the fourth centuries BCE, Magadha (in presentday Bihar) became the most powerful mahajanapada."
+      },
+      {
+        "id": "c32",
+        "claim": "Modern historians explain Magadha's rise by especially productive agriculture, accessible iron mines (in present-day Jharkhand) for tools and weapons, elephants from forests, and the Ganga and its tributaries as cheap and convenient communication.",
+        "source": "s2",
+        "page": "p. 31",
+        "quote": "Modern historians explain this development in a variety of ways: Magadha was a region where agriculture was especially productive. Besides, iron mines (in presentday Jharkhand) were accessible and provided resources for tools and weapons. Elephants, an important component of the army, were found in forests in the region. Also, the Ganga and its tributaries provided a means of cheap and convenient communication."
+      },
+      {
+        "id": "c33",
+        "claim": "Early Buddhist and Jaina writers attributed Magadha's power to the policies of ruthlessly ambitious kings — Bimbisara, Ajatasattu and Mahapadma Nanda being the best known — and their ministers.",
+        "source": "s2",
+        "page": "p. 31",
+        "quote": "However, early Buddhist and Jaina writers who wrote about Magadha attributed its power to the policies of individuals: ruthlessly ambitious kings of whom Bimbisara, Ajatasattu and Mahapadma Nanda are the best known, and their ministers, who helped implement their policies."
+      },
+      {
+        "id": "c34",
+        "claim": "Initially Rajagaha (present-day Rajgir in Bihar), a fortified settlement amongst hills, was the capital of Magadha; in the fourth century BCE the capital was shifted to Pataliputra (present-day Patna), commanding routes of communication along the Ganga.",
+        "source": "s2",
+        "page": "p. 31",
+        "quote": "Initially, Rajagaha (the Prakrit name for presentday Rajgir in Bihar) was the capital of Magadha. Rajagaha was a fortified settlement, located amongst hills. Later, in the fourth century BCE, the capital was shifted to Pataliputra, presentday Patna, commanding routes of communication along the Ganga."
+      },
+      {
+        "id": "c35",
+        "claim": "The growth of Magadha culminated in the Mauryan Empire; Chandragupta Maurya founded the empire (c. 321 BCE) and extended control as far northwest as Afghanistan and Baluchistan.",
+        "source": "s2",
+        "page": "p. 32",
+        "quote": "The growth of Magadha culminated in the emergence of the Mauryan Empire. Chandragupta Maurya, who founded the empire (c. 321 BCE), extended control as far northwest as Afghanistan and Baluchistan, and his grandson Asoka, arguably the most famous ruler of early India, conquered Kalinga (presentday coastal Orissa)."
+      },
+      {
+        "id": "c36",
+        "claim": "Punch-marked coins made of silver and copper (c. sixth century BCE onwards) were amongst the earliest coins to be minted and used.",
+        "source": "s2",
+        "page": "p. 45",
+        "quote": "To some extent, exchanges were facilitated by the introduction of coinage. Punchmarked coins made of silver and copper (c. sixth century BCE onwards) were amongst the earliest to be minted and used."
+      },
+      {
+        "id": "c37",
+        "claim": "Attempts to identify the symbols on punch-marked coins with ruling dynasties suggest they were issued by kings, but merchants, bankers and townspeople also likely issued some of these coins.",
+        "source": "s2",
+        "page": "p. 45",
+        "quote": "Attempts made to identify the symbols on punchmarked coins with specific ruling dynasties, including the Mauryas, suggest that these were issued by kings. It is also likely that merchants, bankers and townspeople issued some of these coins."
+      },
+      {
+        "id": "c38",
+        "claim": "Janapada means the land where a jana (a people, clan or tribe) sets its foot or settles; the word is used in both Prakrit and Sanskrit.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "Janapada means the land where a jana (a people, clan or tribe) sets its foot or settles. It is a word used in both Prakrit and Sanskrit."
+      },
+      {
+        "id": "c39",
+        "claim": "NCERT Map 1 (Early states and their capitals) places Taxila in Gandhara, Indraprastha in Kuru, Ahichchhatra in Panchala, Mathura in Shurasena, Shravasti in Koshala, Vaishali in Vajji, Champa in Anga, Varanasi in Kashi, Kaushambi in Vatsa, Rajgir in Magadha, Ujjayini in Avanti and Kusinagara in Malla, with Vanga shown east of Magadha and Anga.",
+        "source": "s2",
+        "page": "p. 30 (Map 1)",
+        "quote": "Map 1 Early states and their capitals: GANDHARA Taxila; KURU Indraprastha; PANCHALA Ahichchhatra; SHURASENA Mathura; KOSHALA Shravasti; VAJJI (VRIJJI) Vaishali; ANGA Champa; KASHI Varanasi; VATSA Kaushambi; MAGADHA Rajgir; AVANTI Ujjayini; MALLA Kusinagara; VANGA."
+      },
+      {
+        "id": "c40",
+        "claim": "Oligarchy refers to a form of government where power is exercised by a group of men.",
+        "source": "s2",
+        "page": "p. 30",
+        "quote": "Oligarchy refers to a form of government where power is exercised by a group of men."
+      },
+      {
+        "id": "c41",
+        "claim": "From c. sixth century BCE Brahmanas composed the Sanskrit Dharmasutras, which laid down that rulers should ideally be Kshatriyas and were advised to collect taxes and tribute from cultivators, traders and artisans.",
+        "source": "s2",
+        "page": "p. 30",
+        "quote": "From c. sixth century BCE onwards, Brahmanas began composing Sanskrit texts known as the Dharmasutras. These laid down norms for rulers (as well as for other social categories), who were ideally expected to be Kshatriyas (see also Chapter 3). Rulers were advised to collect taxes and tribute from cultivators, traders and artisans."
+      }
+    ],
+    "HIS-07": [
+      {
+        "id": "c01",
+        "claim": "The Mauryan empire ended c. 185 BCE.",
+        "source": "s2",
+        "page": "p. 50 (Timeline 1)",
+        "quote": "c. 185 BCE End of the Mauryan empire"
+      },
+      {
+        "id": "c02",
+        "claim": "In c. 200-100 BCE there was Indo-Greek rule in the northwest, Cholas, Cheras and Pandyas in south India, and Satavahanas in the Deccan.",
+        "source": "s2",
+        "page": "p. 50 (Timeline 1)",
+        "quote": "c. 200-100 BCE Indo-Greek rule in the northwest; Cholas, Cheras and Pandyas in south India; Satavahanas in the Deccan"
+      },
+      {
+        "id": "c03",
+        "claim": "In c. 100 BCE-200 CE Shaka rulers from Central Asia ruled in the northwest; this was a period of Roman trade and gold coinage.",
+        "source": "s2",
+        "page": "p. 50 (Timeline 1)",
+        "quote": "c. 100 BCE-200 CE Shaka (peoples from Central Asia) rulers in the northwest; Roman trade; gold coinage"
+      },
+      {
+        "id": "c04",
+        "claim": "Kanishka's accession is placed at c. 78 CE (with a question mark in NCERT).",
+        "source": "s2",
+        "page": "p. 50 (Timeline 1)",
+        "quote": "c. 78 CE? Accession of Kanishka"
+      },
+      {
+        "id": "c05",
+        "claim": "The earliest inscriptional evidence of land grants by Satavahana and Shaka rulers dates to c. 100-200 CE.",
+        "source": "s2",
+        "page": "p. 50 (Timeline 1)",
+        "quote": "c.100-200 CE Earliest inscriptional evidence of land grants by Satavahana and Shaka rulers"
+      },
+      {
+        "id": "c06",
+        "claim": "The Chola, Chera and Pandya chiefdoms lay in Tamilakam, the ancient Tamil country including parts of present-day Andhra Pradesh and Kerala besides Tamil Nadu, and proved stable and prosperous.",
+        "source": "s2",
+        "page": "p. 35",
+        "quote": "The new kingdoms that emerged in the Deccan and further south, including the chiefdoms of the Cholas, Cheras and Pandyas in Tamilakam (the name of the ancient Tamil country, which included parts of presentday Andhra Pradesh and Kerala, in addition to Tamil Nadu), proved to be stable and prosperous."
+      },
+      {
+        "id": "c07",
+        "claim": "The early Tamil Sangam texts contain poems describing chiefs and how they acquired and distributed resources.",
+        "source": "s2",
+        "page": "p. 35",
+        "quote": "We know about these states from a variety of sources. For instance, the early Tamil Sangam texts (see also Chapter 3) contain poems describing chiefs and the ways in which they acquired and distributed resources."
+      },
+      {
+        "id": "c08",
+        "claim": "The Satavahanas (western and central India, c. second century BCE-second century CE) and the Shakas, a people of Central Asian origin in the northwest and west, derived revenues from long-distance trade.",
+        "source": "s2",
+        "page": "p. 35",
+        "quote": "Many chiefs and kings, including the Satavahanas who ruled over parts of western and central India (c. second century BCEsecond century CE) and the Shakas, a people of Central Asian origin who established kingdoms in the northwestern and western parts of the subcontinent, derived revenues from longdistance trade."
+      },
+      {
+        "id": "c09",
+        "claim": "The Kushanas ruled a vast kingdom extending from Central Asia to northwest India (c. first century BCE-first century CE); their history is reconstructed from inscriptions and textual traditions.",
+        "source": "s2",
+        "page": "p. 36",
+        "quote": "This strategy is best exemplified by the Kushanas (c. first century BCEfirst century CE), who ruled over a vast kingdom extending from Central Asia to northwest India. Their history has been reconstructed from inscriptions and textual traditions."
+      },
+      {
+        "id": "c10",
+        "claim": "Colossal statues of Kushana rulers were installed in a shrine at Mat near Mathura.",
+        "source": "s2",
+        "page": "p. 36",
+        "quote": "Colossal statues of Kushana rulers have been found installed in a shrine at Mat near Mathura (Uttar Pradesh)."
+      },
+      {
+        "id": "c11",
+        "claim": "Many Kushana rulers adopted the title devaputra, 'son of god', possibly inspired by Chinese rulers who called themselves sons of heaven.",
+        "source": "s2",
+        "page": "p. 36",
+        "quote": "Many Kushana rulers also adopted the title devaputra, or “son of god”, possibly inspired by Chinese rulers who called themselves sons of heaven."
+      },
+      {
+        "id": "c12",
+        "claim": "A chief receives gifts from his subordinates, unlike kings who usually collect taxes, and distributes them amongst his supporters.",
+        "source": "s2",
+        "page": "p. 35",
+        "quote": "He receives gifts from his subordinates (unlike kings who usually collect taxes) and often distributes these amongst his supporters."
+      },
+      {
+        "id": "c13",
+        "claim": "The Sudarshana lake in Gujarat was built by a local governor under the Mauryas; the Shaka ruler Rudradaman claimed to have repaired it with his own resources without imposing any tax.",
+        "source": "s2",
+        "page": "p. 38",
+        "quote": "The inscription mentions that the lake, with embankments and water channels, was built by a local governor during the rule of the Mauryas. However, a terrible storm broke the embankments and water gushed out of the lake. Rudradaman, who was then ruling in the area, claimed to have got the lake repaired using his own resources, without imposing any tax on his subjects."
+      },
+      {
+        "id": "c14",
+        "claim": "Sangam texts mention village categories in the Tamil country: large landowners (vellalar), ploughmen (uzhavar) and slaves (adimai).",
+        "source": "s2",
+        "page": "p. 39",
+        "quote": "Early Tamil literature (the Sangam texts) also mentions different categories of people living in the villages – large landowners or vellalar, ploughmen or uzhavar and slaves or adimai."
+      },
+      {
+        "id": "c15",
+        "claim": "From the early centuries of the Common Era, land grants were recorded in inscriptions, mostly on copper plates given to the recipients; surviving records generally concern grants to religious institutions or Brahmanas.",
+        "source": "s2",
+        "page": "p. 40",
+        "quote": "From the early centuries of the Common Era, we find grants of land being made, many of which were recorded in inscriptions. Some of these inscriptions were on stone, but most were on copper plates (Fig. 2.13) which were probably given as a record of the transaction to those who received the land. The records that have survived are generally about grants to religious institutions or to Brahmanas."
+      },
+      {
+        "id": "c16",
+        "claim": "From the sixth century BCE, land and river routes crisscrossed the subcontinent and extended overland to Central Asia and overseas across the Arabian Sea and the Bay of Bengal to Southeast Asia and China.",
+        "source": "s2",
+        "page": "p. 44",
+        "quote": "From the sixth century BCE, land and river routes crisscrossed the subcontinent and extended in various directions – overland into Central Asia and beyond, and overseas, from ports that dotted the coastline – extending across the Arabian Sea to East and North Africa and West Asia, and through the Bay of Bengal to Southeast Asia and China."
+      },
+      {
+        "id": "c17",
+        "claim": "Spices, especially pepper, were in high demand in the Roman Empire, as were textiles and medicinal plants, and were transported across the Arabian Sea to the Mediterranean.",
+        "source": "s2",
+        "page": "p. 44",
+        "quote": "Spices, especially pepper, were in high demand in the Roman Empire, as were textiles and medicinal plants, and these were all transported across the Arabian Sea to the Mediterranean."
+      },
+      {
+        "id": "c18",
+        "claim": "Successful merchants, called masattuvan in Tamil and setthi and satthavaha in Prakrit, could become enormously rich.",
+        "source": "s2",
+        "page": "p. 44",
+        "quote": "Successful merchants, designated as masattuvan in Tamil and setthis and satthavahas in Prakrit, could become enormously rich."
+      },
+      {
+        "id": "c19",
+        "claim": "Punch-marked coins of silver and copper (c. sixth century BCE onwards) were amongst the earliest coins minted and used.",
+        "source": "s2",
+        "page": "p. 44",
+        "quote": "Punchmarked coins made of silver and copper (c. sixth century BCE onwards) were amongst the earliest to be minted and used."
+      },
+      {
+        "id": "c20",
+        "claim": "The first coins to bear the names and images of rulers were issued by the Indo-Greeks, who established control over the northwestern subcontinent c. second century BCE.",
+        "source": "s2",
+        "page": "p. 44",
+        "quote": "The first coins to bear the names and images of rulers were issued by the Indo-Greeks, who established control over the northwestern part of the subcontinent c. second century BCE."
+      },
+      {
+        "id": "c21",
+        "claim": "The Kushanas issued the largest hoards of gold coins (first gold coins c. first century CE), virtually identical in weight with those of contemporary Roman emperors and Parthian rulers of Iran.",
+        "source": "s2",
+        "page": "pp. 44-45",
+        "quote": "The kushanas, however, issued the largest hoards of gold coins first gold coins c. first century CE. These were virtually identical in weight with those issued by contemporary Roman emperors and the Parthian rulers of Iran, and have been found from several sites in north India and Central Asia."
+      },
+      {
+        "id": "c22",
+        "claim": "Hoards of Roman coins have been found at archaeological sites in south India, showing close trade connections although south India was not part of the Roman Empire.",
+        "source": "s2",
+        "page": "p. 45",
+        "quote": "Besides, hoards of Roman coins have been found from archaeological sites in south India. It is obvious that networks of trade were not confined within political boundaries: south India was not part of the Roman Empire, but there were close connections through trade."
+      },
+      {
+        "id": "c23",
+        "claim": "Coins were also issued by tribal republics such as the Yaudheyas of Punjab and Haryana (c. first century CE).",
+        "source": "s2",
+        "page": "p. 45",
+        "quote": "Coins were also issued by tribal republics such as that of the Yaudheyas of Punjab and Haryana (c. first century CE)."
+      },
+      {
+        "id": "c24",
+        "claim": "Guilds or shrenis of craft producers and merchants procured raw materials, regulated production and marketed the finished product.",
+        "source": "s2",
+        "page": "p. 43",
+        "quote": "Sometimes, guilds or shrenis, organisations of craft producers and merchants, are mentioned as well. These guilds probably procured raw materials, regulated production, and marketed the finished product."
+      },
+      {
+        "id": "c25",
+        "claim": "Kharosthi was deciphered with the help of coins of Indo-Greek kings (c. second-first centuries BCE) bearing kings' names in Greek and Kharosthi scripts.",
+        "source": "s2",
+        "page": "pp. 46-47",
+        "quote": "Here, finds of coins of Indo-Greek kings who ruled over the area (c. secondfirst centuries BCE) have facilitated matters. These coins contain the names of kings written in Greek and Kharosthi scripts."
+      },
+      {
+        "id": "c26",
+        "claim": "NCERT illustrates a coin of the Indo-Greek king Menander.",
+        "source": "s2",
+        "page": "p. 47 (Fig. 2.12)",
+        "quote": "A coin of the Indo-Greek king Menander"
+      },
+      {
+        "id": "c27",
+        "claim": "Virtually all major towns stood on routes of communication: Pataliputra on riverine routes, Ujjayini on land routes, and Puhar near the coast where sea routes began.",
+        "source": "s2",
+        "page": "p. 42",
+        "quote": "Virtually all major towns were located along routes of communication. Some such as Pataliputra were on riverine routes. Others, such as Ujjayini, were along land routes, and yet others, such as Puhar, were near the coast, from where sea routes began."
+      },
+      {
+        "id": "c28",
+        "claim": "Sangam literature, some of the earliest works in Tamil, was composed around 2300 years ago; the texts were composed and compiled in assemblies (sangams) of poets held in Madurai.",
+        "source": "s1",
+        "page": "p. 75",
+        "quote": "Some of the earliest works in Tamil, known as Sangam literature, were composed around 2300 years ago. These texts were called Sangam because they were supposed to have been composed and compiled in assemblies (known as sangams) of poets that were held in the city of Madurai (see Map 7, page 87) . The Tamil terms mentioned above are found in Sangam literature."
+      },
+      {
+        "id": "c29",
+        "claim": "Punch-marked coins were generally rectangular, square or round, cut from metal sheets or made from flattened metal globules; they were not inscribed but stamped with symbols using dies or punches.",
+        "source": "s1",
+        "page": "p. 75",
+        "quote": "Punchmarked coins were generally rectangular or sometimes square or round in shape, either cut out of metal sheets or made out of flattened metal globules (a small spherical body) . The coins were not inscribed, but were stamped with symbols using dies or punches. Hence, they are called punchmarked coins."
+      },
+      {
+        "id": "c30",
+        "claim": "Around 2000 years ago Mathura became the second capital of the Kushanas.",
+        "source": "s1",
+        "page": "p. 77",
+        "quote": "Around 2000 years ago, Mathura became the second capital of the Kushanas, about whom you would read. Mathura was also a religious centre — there were Buddhist monasteries, Jaina shrines, and it was an important centre for the worship of Krishna."
+      },
+      {
+        "id": "c31",
+        "claim": "Mathura stood at the crossroads of two major routes of travel and trade, from the northwest to the east and from north to south, and was a centre of fine sculpture.",
+        "source": "s1",
+        "page": "p. 76",
+        "quote": "Mathura has been an important settlement for more than 2500 years. It was important because it was located at the cross roads of two major routes of travel and trade — from the northwest to the east and from north to south."
+      },
+      {
+        "id": "c32",
+        "claim": "Shrenis of craftspersons provided training, procured raw material and distributed the finished product; shrenis of merchants organised trade, and shrenis also served as banks.",
+        "source": "s1",
+        "page": "p. 77",
+        "quote": "Many craftspersons and merchants now formed associations known as shrenis. These shrenis of craftspersons provided training, procured raw material, and distributed the finished product. Then shrenis of merchants organised the trade. Shrenis also served as banks, where rich men and women deposited money."
+      },
+      {
+        "id": "c33",
+        "claim": "Between 2200 and 1900 years ago Arikamedu (Puducherry) was a coastal settlement where ships unloaded goods from distant lands; a massive brick structure, possibly a warehouse, was found there.",
+        "source": "s1",
+        "page": "p. 78",
+        "quote": "Find Arikamedu (in Puducherry) on Map 7 (page 87) . Between 2200 and 1900 years ago, Arikamedu was a coastal settlement where ships unloaded goods from distant lands. A massive brick structure, which may have been a warehouse, was found at the site ."
+      },
+      {
+        "id": "c34",
+        "claim": "At Arikamedu, Mediterranean pottery such as amphorae and Arretine Ware (named after a city in Italy), Roman lamps, glassware and gems have been found.",
+        "source": "s1",
+        "page": "p. 78",
+        "quote": "Other finds include pottery from the Mediterranean region, such as amphorae (tall doublehandled jars that contained liquids such as wine or oil) and stamped redglazed pottery, known as Arretine Ware, which was named after a city in Italy."
+      },
+      {
+        "id": "c35",
+        "claim": "According to a Greek sailor's account, imports into Barygaza (Bharuch) were wine, copper, tin, lead, coral, topaz, cloth and gold and silver coins; exports included Himalayan plants, ivory, agate, carnelian, cotton, silk and perfumes.",
+        "source": "s1",
+        "page": "p. 79",
+        "quote": "The imports into Barygaza were wine, copper, tin, lead, coral, topaz, cloth, gold and silver coins. Exports from the town included plants from the Himalayas, ivory, agate, carnelian, cotton, silk and perfumes."
+      },
+      {
+        "id": "c36",
+        "claim": "South India was famous for gold, spices, especially pepper, and precious stones; pepper was so valued in the Roman Empire that it was known as black gold.",
+        "source": "s1",
+        "page": "p. 80",
+        "quote": "South India was famous for gold, spices, especially pepper, and precious stones. Pepper was particularly valued in the Roman Empire, so much so that it was known as black gold. So, traders carried many of these goods to Rome in ships, across the sea, and by land in caravans."
+      },
+      {
+        "id": "c37",
+        "claim": "Sangam poems mention the muvendar, a Tamil word meaning three chiefs, used for the heads of the three ruling families, the Cholas, Cheras and Pandyas, who became powerful in south India around 2300 years ago.",
+        "source": "s1",
+        "page": "p. 81",
+        "quote": "Sangam poems mention the muvendar. This is a Tamil word meaning three chiefs, used for the heads of three ruling families, the Cholas, Cheras, and Pandyas (see Map 7, page 87), who became powerful in south India around 2300 years ago."
+      },
+      {
+        "id": "c38",
+        "claim": "The three chiefs did not collect regular taxes; they demanded and received gifts, went on military expeditions and collected tribute from neighbouring areas.",
+        "source": "s1",
+        "page": "p. 81",
+        "quote": "The chiefs did not collect regular taxes. Instead, they demanded and received gifts from the people. They also went on military expeditions, and collected tribute from neighbouring areas. They kept some of the wealth and distributed the rest amongst their supporters, including members of their family, soldiers, and poets."
+      },
+      {
+        "id": "c39",
+        "claim": "Each of the three chiefs had two centres of power, one inland and one on the coast; Puhar (Kaveripattinam), the port of the Cholas, and Madurai, the capital of the Pandyas, were the most important.",
+        "source": "s1",
+        "page": "p. 81",
+        "quote": "Each of the three chiefs had two centres of power: one inland, and one on the coast. Of these six cities, two were very important: Puhar or Kaveripattinam, the port of the Cholas, and Madurai, the capital of the Pandyas."
+      },
+      {
+        "id": "c40",
+        "claim": "Around 200 years after the muvendar, the Satavahanas became powerful in western India; their most important ruler was Gautamiputra Shri Satakarni.",
+        "source": "s1",
+        "page": "p. 81",
+        "quote": "Around 200 years later, a dynasty known as the Satavahanas became powerful in western India (see Map 7, page 87) . The most important ruler of the Satavahanas was Gautamiputra Shri Satakarni."
+      },
+      {
+        "id": "c41",
+        "claim": "Gautamiputra Satakarni is known from an inscription composed on behalf of his mother Gautami Balashri; Satavahana rulers were known as lords of the dakshinapatha, the route leading to the south.",
+        "source": "s1",
+        "page": "p. 81",
+        "quote": "We know about him from an inscription composed on behalf of his mother, Gautami Balashri. He and other Satavahana rulers were known as lords of the dakshinapatha, literally the route leading to the south, which was also used as a name for the entire southern region."
+      },
+      {
+        "id": "c42",
+        "claim": "The Kushanas, the best-known rulers who controlled the Silk Route, ruled over Central Asia and northwest India around 2000 years ago; their two major centres were Peshawar and Mathura, and Taxila was also in their kingdom.",
+        "source": "s1",
+        "page": "p. 82",
+        "quote": "The bestknown of the rulers who controlled the Silk Route were the Kushanas, who ruled over central Asia and northwest India around 2000 years ago. Their two major centres of power were Peshawar and Mathura. Taxila was also included in their kingdom."
+      },
+      {
+        "id": "c43",
+        "claim": "Under the Kushanas a branch of the Silk Route extended from Central Asia down to the seaports at the mouth of the Indus, from where silk was shipped westwards to the Roman Empire.",
+        "source": "s1",
+        "page": "p. 82",
+        "quote": "During their rule, a branch of the Silk Route extended from Central Asia down to the seaports at the mouth of the river Indus, from where silk was shipped westwards to the Roman Empire."
+      },
+      {
+        "id": "c44",
+        "claim": "Sangam poems give evidence of trade, describing goods brought into Puhar, an important port on the east coast.",
+        "source": "s1",
+        "page": "p. 80",
+        "quote": "We can find evidence of trade in the Sangam poems. Here is one which describes the goods brought into Puhar, an important port on the east coast:"
+      },
+      {
+        "id": "c45",
+        "claim": "In the Tamil region, large landowners were vellalar, ordinary ploughmen uzhavar, and landless labourers including slaves kadaisiyar and adimai.",
+        "source": "s1",
+        "page": "p. 74",
+        "quote": "In the Tamil region, large landowners were known as vellalar, ordinary ploughmen were known as uzhavar, and landless labourers, including slaves, were known as kadaisiyar and adimai."
+      },
+      {
+        "id": "c46",
+        "claim": "Traders explored sea routes along the coasts and across the Arabian Sea and the Bay of Bengal, using the monsoon winds to cross the seas more quickly.",
+        "source": "s1",
+        "page": "p. 80",
+        "quote": "Traders explored several sea routes. Some of these followed the coasts. There were others across the Arabian Sea and the Bay of Bengal, where sailors took advantage of the monsoon winds to cross the seas more quickly."
+      },
+      {
+        "id": "c47",
+        "claim": "A stupa generally has a small box at its centre containing bodily remains (teeth, bone or ashes) of the Buddha or his followers, known as a relic casket.",
+        "source": "s3",
+        "page": "p. 96",
+        "quote": "Generally, there is a small box placed at the centre or heart of the stupa. This may contain bodily remains (such as teeth, bone or ashes) of the Buddha or his followers, or things they used, as well as precious stones, and coins. This box, known as a relic casket, was covered with earth."
+      },
+      {
+        "id": "c48",
+        "claim": "An association of ivory workers paid for one of the gateways at Sanchi; merchants, farmers, garland makers, perfumers and smiths also paid for stupa and temple decorations.",
+        "source": "s3",
+        "page": "p. 99",
+        "quote": "For example, an association of ivory workers paid for one of the beautiful gateways at Sanchi. Among the others who paid for decorations were merchants, farmers, garland makers,perfumers, smiths, and hundreds of men and women who are known only by their names which were inscribed on pillars, railings and walls."
+      },
+      {
+        "id": "c49",
+        "claim": "The Tamil epic Silappadikaram was composed by the poet Ilango around 1800 years ago; it tells of the merchant Kovalan of Puhar, his love for the courtesan Madhavi, and his wife Kannagi.",
+        "source": "s3",
+        "page": "p. 100",
+        "quote": "A famous Tamil epic, the Silappadikaram, was composed by a poet named Ilango, around 1800 years ago. It is the story of a merchant named Kovalan, who lived in Puhar and fell in love with a courtesan named Madhavi, neglecting his wife Kannagi."
+      },
+      {
+        "id": "c50",
+        "claim": "The Tamil epic Manimekalai was composed by Sattanar around 1400 years ago and tells the story of the daughter of Kovalan and Madhavi.",
+        "source": "s3",
+        "page": "p. 101",
+        "quote": "Another Tamil epic, the Manimekalai was composed by Sattanar around 1400 years ago. This describes the story of the daughter of Kovalan and Madhavi."
+      },
+      {
+        "id": "c51",
+        "claim": "After the Mauryas, the Sungas were succeeded by the Kanvas in the north; Kalinga prospered under Kharavela of the Chedi dynasty; and the Satavahanas came to power in the Deccan and central India with Pratisthanapura as headquarters.",
+        "source": "s4",
+        "page": "§1 Introduction",
+        "quote": "The successors of the Mauryas in the north were the Sungas followed by the Kanvas. Kalinga became a separate province and prospered under Kharavela of the Chedi dynasty. In the Deccan and in central India the Satavahanas came into power with Pratisthanapura as head, its quarters."
+      },
+      {
+        "id": "c52",
+        "claim": "Pushyamitra, a general of the Mauryan king Brihadratha, assassinated the last Mauryan ruler and usurped the throne, founding the Sunga dynasty.",
+        "source": "s4",
+        "page": "§2 Sunga Dynasty",
+        "quote": "According to Harshacharita, Pushyamitra, a general of Mauryan king Brihadratha, assassinated the last Mauryan ruler and usurped the throne. Thus he succeeded in gaining power by slaying his master. The dynasty ruled roughly for 112 years, i.e., from about 185 to 73 BCE."
+      },
+      {
+        "id": "c53",
+        "claim": "The Ayodhya inscription of king Dhana refers to Pushyamitra as a performer of two Asvamedha sacrifices.",
+        "source": "s4",
+        "page": "§2.1 Pushyamitra Sunga",
+        "quote": "The Ayodhya stone inscription of the king Dhana refers to Pushyamitra as a performer of two Asvamedha Sacrifices. Pathanjali also mentioned Sacrifices performed by Pushyamitra."
+      },
+      {
+        "id": "c54",
+        "claim": "Heliodorus, the Greek ambassador, described himself as a Bhagavata (worshipper of Vasudeva) and set up a pillar at Besnagar in honour of the god.",
+        "source": "s4",
+        "page": "§2.2 Successors of Pushyamitra",
+        "quote": "The inscription further recorded that Heliodorous, the Greek ambassador, described himself as a Bhagavata (Worshipper of Vasudeva) and set up this pillar in honour of the god."
+      },
+      {
+        "id": "c55",
+        "claim": "Although Buddhist sources call Pushyamitra a persecutor, the Buddhist monuments at Bharhut and Sanchi were renovated and improved during his reign.",
+        "source": "s4",
+        "page": "§2.1 Pushyamitra Sunga",
+        "quote": "This however contradicted that during his reign the Buddhist monuments at Barhut and Sanchi were renovated and further improved. The stories of his persecution of Buddhists obviously betray sectarian bias."
+      },
+      {
+        "id": "c56",
+        "claim": "Under Sunga patronage the Sanskrit scholar Patanjali composed the Mahabhasya.",
+        "source": "s4",
+        "page": "§2.3 Cultural Contribution of the Sungas",
+        "quote": "It was under the patronage of the Sunga kings that the Sanskrit scholar, Patanjali, composed his celebrated work, the Mahabhasya."
+      },
+      {
+        "id": "c57",
+        "claim": "Four Kanva rulers — Vasudeva, Bhumimitra, Narayana and Susarman — ruled over Magadha for forty-five years.",
+        "source": "s4",
+        "page": "§3 Kanva dynasty",
+        "quote": "It is known from the Puranic evidence that four rulers of this dynasty ruled over Magadha for forty five years. They are Vasudeva, Bhumimitra, Narayana and Susarman. Their kingdom was limited to the confines of Pataliputra."
+      },
+      {
+        "id": "c58",
+        "claim": "The last Sunga ruler Devabhuti was assassinated by his minister Vasudeva Kanva, founder of the Kanva dynasty.",
+        "source": "s4",
+        "page": "§2.2 Successors of Pushyamitra",
+        "quote": "The last Sunga ruler was Devabhuti, assassinated by his minister Vasudeva Kanva, the founder of the Kanva dynasty."
+      },
+      {
+        "id": "c59",
+        "claim": "The Naneghat inscription of queen Naganika throws much light on the achievements of Satakarni I.",
+        "source": "s4",
+        "page": "§4.2 Sources",
+        "quote": "Among the inscriptions of the Satavahanas the Naneghat inscription of Naganika throw much light on the achievements of the king Satakarni-I. The Nasik inscription of Gautami Balasri, the records of Gautamiputra Satakarni at Nasik furnish a vivid account of his accomplishments and achievements."
+      },
+      {
+        "id": "c60",
+        "claim": "Simukha was the founder of the Satavahana dynasty; his name tops the list of Andhra kings in the Puranas.",
+        "source": "s4",
+        "page": "§4.6.1 Early Satavahanas",
+        "quote": "Simukha (231-208 BCE): The founder of the Satavahana dynasty was Simukha since his name tops the list of the Andhra kings given in the Puranas."
+      },
+      {
+        "id": "c61",
+        "claim": "Satakarni I conquered western Malwa, Anupa and Vidarbha, performed the Asvamedha and assumed the titles Vira, Sura and Dakshinapathapati.",
+        "source": "s4",
+        "page": "§4.6.1 Early Satavahanas",
+        "quote": "It is known from the Naneghat inscription that he conquered western Malwa, Anupa and Vidarbha. He seems to have exercised his sway over wide regions of upper Deccan, Konkan and Kathiawar. To celebrate this success Satakarni-I performed Asvamedha yaga. He assumed the titles Vira, Sura and Dakshinapathapati."
+      },
+      {
+        "id": "c62",
+        "claim": "Hala, the 17th Satavahana king, is famous for compiling the Gathasaptasati, a collection of 700 poems in Maharashtri Prakrit.",
+        "source": "s4",
+        "page": "§4.6.1 Early Satavahanas",
+        "quote": "Hala, 17th king, is famous for compiling the collection of 700 poems known as Gathasapthasati in Maharastra prakrit dialect."
+      },
+      {
+        "id": "c63",
+        "claim": "Gautamiputra Satakarni is described in his mother Balasri's Nasik inscription as destroyer of the Sakas, Pahlavas and Yavanas and restorer of Satavahana glory; he defeated the Saka Kshatrapa Nahapana and recovered lost territories.",
+        "source": "s4",
+        "page": "§4.6.3 Later Satavahanas",
+        "quote": "He is described as the destroyer of the Sakas, Pahlavas and Yavanas(Saka-Yavana Pahlava Nisudana), as the up rooter of the Kshaharatas(Kshaharata- vasa-niravaseshakara) and the restorer of the glory of the Satavahanas(Satavahana-kula-Yasah-Pratisthapanakara). He defeated the Saka kshatrapa king Nahapana and recovered many of the territories that the Sakas had earlier wrested from the Satavahanas."
+      },
+      {
+        "id": "c64",
+        "claim": "A hoard of Nahapana's coins found at Jogelthambi in Nasik was mostly re-struck by Gautamiputra Satakarni.",
+        "source": "s4",
+        "page": "§4.6.3 Later Satavahanas",
+        "quote": "This epigraphic evidence is attested by numismatic evidence. A hoard of Nahapana coins were found at Jogelthambi in Nasik, most of these were re-struck by Gautamiputra Satakarni."
+      },
+      {
+        "id": "c65",
+        "claim": "Rudradaman I (130-150 CE), the Saka ruler of Saurashtra, defeated the Satavahanas twice but did not destroy them because of matrimonial alliances.",
+        "source": "s4",
+        "page": "§4.6.3 Later Satavahanas",
+        "quote": "Rudradaman I (130-150 CE) the Saka ruler of Saurashtra (Kathiawar) defeated the Satavahanas twice, but did not destroy them on account of matrimonial alliances."
+      },
+      {
+        "id": "c66",
+        "claim": "The Satavahanas were the first to start the practice of donating land with fiscal and administrative immunities to Brahmanas and Buddhist monks.",
+        "source": "s4",
+        "page": "§5 Summary",
+        "quote": "The Satavahanas were the first who started the practice of donating land with fiscal and administrative immunities to Brahmanas and Buddhist monks."
+      },
+      {
+        "id": "c67",
+        "claim": "Satavahana rule extended for nearly five centuries and ended in the early decades of the third century CE.",
+        "source": "s4",
+        "page": "§4.6.3 Later Satavahanas",
+        "quote": "The Satavahana rule, which extended for nearly five centuries, came to an end in the early decades of the third century CE. The Satavahana Empire had declined as a consequence of the emergence of a number of independent principalities in Deccan and Andhra."
+      },
+      {
+        "id": "c68",
+        "claim": "Nagarjuna, exponent of the Madhyamika doctrine of Buddhist philosophy, adorned the court of the Satavahana king Yajnasri Satakarni.",
+        "source": "s4",
+        "page": "§4.6.3 Later Satavahanas",
+        "quote": "The court of Yajnasri was adorned by Nagarjuna, the exponent of Madhyamika doctrine of Buddhist philosophy."
+      },
+      {
+        "id": "c69",
+        "claim": "The Greeks were known as Yavanas in Indian literature; they were rulers of Bactria, north of Afghanistan.",
+        "source": "s5",
+        "page": "§2 Indo-Greeks",
+        "quote": "The Greeks were known as Yavanas in the Indian literature. They were the rulers of Bactria, lying south of the Oxus in the area covered by north of Afghanistan."
+      },
+      {
+        "id": "c70",
+        "claim": "Demetrius crossed the Hindu Kush with a large army and conquered Punjab and Sindh; he made Sakala (Sialkot) his capital.",
+        "source": "s5",
+        "page": "§2 Indo-Greeks",
+        "quote": "Demetrius crossed the Hindu Kush Mountain with large army and conquered the regions of Punjab and Sindh. His coins bear legends in Greek and Prakrit written in Greek and Kharoshthi. He made Sakala (Sialkot in Punjab) his capital."
+      },
+      {
+        "id": "c71",
+        "claim": "Menander was the most famous of the Indo-Greeks (165 to 145 BCE) and was known as Milinda in Indian tradition.",
+        "source": "s5",
+        "page": "§2 Indo-Greeks",
+        "quote": "Menander was the most famous of the Indo-Greeks (165 to 145 BCE). He was known as Milinda in Indian tradition. He ruled for a long time from his capital Sakala and his coins represent him in all stages of his life, from youth to old age."
+      },
+      {
+        "id": "c72",
+        "claim": "Menander was converted to Buddhism by Nagasena; their questions and answers were recorded in the Milindapanho (Questions of Milinda).",
+        "source": "s5",
+        "page": "§2 Indo-Greeks",
+        "quote": "He was converted to Buddhism by Nagasena. Menander asked Nagasena many questions relating to Buddhism. These questions and Nagasena's answers were recorded in a book known as Milindapanho or the Questions of Milinda."
+      },
+      {
+        "id": "c73",
+        "claim": "Heliodorus was deputed by the Indo-Greek king Antialcidas to the court of Kasiputra Bhagabhadra; the Besnagar pillar erected in honour of Vasudeva is the earliest reference to Vaishnavism in ancient India.",
+        "source": "s5",
+        "page": "§2 Indo-Greeks",
+        "quote": "Heliodorus was deputed by the king to the court of Kasiputra Bhagabhadra as ambassador. It is stated in the inscription that the pillar was erected in honour of Vasudeva. It is the earliest reference to the existence of Vaishnavism in ancient India."
+      },
+      {
+        "id": "c74",
+        "claim": "The Sakas were a nomadic tribe originally of Central Asia; in about 165 BCE they were turned out of their home by the Yueh-chi tribe.",
+        "source": "s5",
+        "page": "§4 Scythians or Sakas",
+        "quote": "The Greeks were followed by the Sakas. They were a nomadic tribe originally lived in central Asia. In about 165 BCE they were turned out of their original home by the Yueh-Chi tribe."
+      },
+      {
+        "id": "c75",
+        "claim": "The earliest Saka ruler of India was Maues (Moga), who established Saka power in Gandhara.",
+        "source": "s5",
+        "page": "§4 Scythians or Sakas",
+        "quote": "The earliest Saka ruler of India appears to have been Maues or Moga. He established Saka power in Gandhara."
+      },
+      {
+        "id": "c76",
+        "claim": "Rudradaman I (130-150 CE) was the most famous Saka ruler in India; the Junagadh rock inscription says he won the title Mahakshatrapa.",
+        "source": "s5",
+        "page": "§5 Saka-Kshatrapas of Western India",
+        "quote": "The most famous Saka ruler in India was Rudradaman I (130 – 150 CE). According to the Junagadh Rock inscription, men of all castes chose him as protector and that he won for himself the title of Mahaksatrapa."
+      },
+      {
+        "id": "c77",
+        "claim": "Rudradaman I had his capital at Ujjain.",
+        "source": "s5",
+        "page": "§5 Saka-Kshatrapas of Western India",
+        "quote": "He also humbled the warlike Yaudheyas who inhabited southern Punjab and the adjoining regions. He had his capital at Ujjain."
+      },
+      {
+        "id": "c78",
+        "claim": "The Kushanas were a branch of the Yueh-chi tribe of Central Asia; they first occupied Bactria, displacing the Sakas, then moved to the Kabul valley and seized Gandhara.",
+        "source": "s5",
+        "page": "§6 Kushanas",
+        "quote": "The Parthians were followed by Kushanas. The Kushanas were a branch of Yueh-chi tribe, whose original home was central Asia. A nomadic people from the steppes of north central Asia living in the neighbourhood of China, the Kushanas first occupied Bactria where they displaced the Sakas. Then they gradually moved to the Kabul valley and seized the Gandhara by crossing the Hindu Kush replacing the Greeks and Parthians."
+      },
+      {
+        "id": "c79",
+        "claim": "Kujula Kadphises (Kadphises I) was the founder of the Kushana dynasty and became master of the Gandhara and Kabul regions.",
+        "source": "s5",
+        "page": "§6.1 Kadphises I",
+        "quote": "The founder of the Kushana dynasty was Kujula Kadphises or Kadphises I. He became the master of the Gandhara and Kabul regions. He issued coins South of Hindu Kush."
+      },
+      {
+        "id": "c80",
+        "claim": "Wima Kadphises (Kadphises II) conquered the whole of northwestern India as far as Mathura, issued gold coins, and, a convert to Saivism, proclaimed himself Maheswara on his coins.",
+        "source": "s5",
+        "page": "§6.2 Kadphises II",
+        "quote": "Kadphises II also known as Wima Khadpises conquered the whole of North Western India as far as Mathura. He issued gold coins with high sounding title like “the lord of the whole world” Kadiphises II became a convert to Saivism and proclaimed himself as Maheswara on his coins."
+      },
+      {
+        "id": "c81",
+        "claim": "Kanishka was the most important ruler of the Kushana dynasty and the founder of the Saka Era, which starts from 78 CE.",
+        "source": "s5",
+        "page": "§6.3 Kanishka",
+        "quote": "Kanishka was the most important ruler of the Kushana dynasty. He was the founder of the Saka Era which starts from 78 CE."
+      },
+      {
+        "id": "c82",
+        "claim": "Kanishka's empire extended from Gandhara in the west to Benares in the east and from Kashmir in the north to Malwa in the south; his capital was Purushapura (modern Peshawar) and Mathura was another important city.",
+        "source": "s5",
+        "page": "§6.3 Kanishka",
+        "quote": "The empire of Kanishka was a vast one extending from Gandhara in the west to Benares in the East, and from Kashmir in the North to Malwa in the South. His capital was Purushapura (modern Peshawar). Mathura was another important city in his empire."
+      },
+      {
+        "id": "c83",
+        "claim": "Kanishka fought the Chinese and acquired the territories of Khotan, Yarkand and Kashgar.",
+        "source": "s5",
+        "page": "§6.3 Kanishka",
+        "quote": "He also fought against the Chinese and acquired the territories of Khotan, Yarkand and Kashgar. Kanishka secured the Chinese princes as hostages whom he treated with kindness."
+      },
+      {
+        "id": "c84",
+        "claim": "Kanishka convened the fourth Buddhist council at Kundalavana in Kashmir, held under the presidentship of Vasumitra with Asvaghosha as vice-president.",
+        "source": "s5",
+        "page": "§6.3.1 Kanishka and Buddhism",
+        "quote": "He also convened the fourth Buddhist council at Kundanavana in Kashmir, to discuss the matters relating to Buddhist theology and doctrine. It was held under the presidentship of Vasumitra and Asvaghosha as Vice President."
+      },
+      {
+        "id": "c85",
+        "claim": "In Kanishka's time Hinayana Buddhism, in which the Buddha was worshipped through symbols, was replaced by Mahayanism, in which the Buddha was worshipped in human images.",
+        "source": "s5",
+        "page": "§6.3.1 Kanishka and Buddhism",
+        "quote": "A great change came in the very nature of Buddhism during the time of Kanishka. The original Hinayana form of Buddhism was replaced by a new form of religion viz., Mahayanism. Under Hinayanism, Buddha was worshipped in the form of symbols, but under Mahayanism Buddha was worshipped in the form of human images."
+      },
+      {
+        "id": "c86",
+        "claim": "Asvaghosha was the greatest literary figure of Kanishka's time; his work Buddhacharita is matchless in richness and variety.",
+        "source": "s5",
+        "page": "§6.3.2 Literature",
+        "quote": "Voluminous Sanskrit literature of high standard was produced during the time of Kanishka. Asvaghosha was the greatest literary figure of his times. In richness and variety his work viz., Buddhacharita is matchless."
+      },
+      {
+        "id": "c87",
+        "claim": "Charaka, author of the Charaka Samhita, flourished in the court of Kanishka and was an authority on medical science.",
+        "source": "s5",
+        "page": "§6.3.2 Literature",
+        "quote": "Charaka, the author of ‘Charaka Samhita’, flourished in the court of Kanishka. He was an authority on medicinal Science."
+      },
+      {
+        "id": "c88",
+        "claim": "Nagarjuna enunciated his theory in the Madhyamika Sutra and was patronised by Kanishka.",
+        "source": "s5",
+        "page": "§6.3.2 Literature",
+        "quote": "Nagarjuna was the other great scholar, philosopher and also a scientist. He enunciated the theory of relativity in his great work Madhyamika Sutra."
+      },
+      {
+        "id": "c89",
+        "claim": "Buddhist tradition states that after capturing Pataliputra, Kanishka brought the philosopher Asvaghosha with him.",
+        "source": "s5",
+        "page": "§6.3 Kanishka",
+        "quote": "The Buddhist tradition states that Kanishka after capturing Pataliputra, Asvaghosha, the great Buddhist philosopher, fell into his hands and he brought that sage along with him. Asvaghosha later on became one of the greatest literary luminaries of the court of the Kanishka."
+      },
+      {
+        "id": "c90",
+        "claim": "The Sakas and Kushanas strengthened the idea of divine kingship; Indo-Greek kings and Kushanas took titles such as Rajadhiraja, Daivaputra, Soter and Kaisara, and the Kushanas introduced the satrap system.",
+        "source": "s5",
+        "page": "§8 Impact of Central Asian Conquests",
+        "quote": "The Sakas and the Kushanas strengthened the idea of the Divine origin of kingship. The Indo Greek kings and the Kushanas took exalted titles ‘Rajadhiraja’ (king of kings), ‘Daivaputra’ (son of heaven), Soter (Savior) and Kaisara (caesor). The Kushanas introduced the Satrap system of Government where as the Greeks followed the practice of military Governship."
+      },
+      {
+        "id": "c91",
+        "claim": "The Kushanas were the first rulers in India to issue gold coins on a wider scale.",
+        "source": "s5",
+        "page": "§8 Impact of Central Asian Conquests",
+        "quote": "The Indo-Greek rule is important in the history of India because of the large number of coins which can be definitely attributed to the kings. It is significant that the Kushanas were the first rulers in India to issue Gold coins on a wider scale."
+      },
+      {
+        "id": "c92",
+        "claim": "The Gandhara school of art originated under the Indo-Greeks but its real patrons were the Sakas and Kushanas, particularly Kanishka; it made Buddha sculptures with hair fashioned in the Graeco-Roman style.",
+        "source": "s5",
+        "page": "§8 Impact of Central Asian Conquests",
+        "quote": "Gandhara School of Art originated during the reign of Indo-Greek rulers but the real patrons of this school of Art were the Sakas and the Kushanas, particularly Kanishka. The Gandhara School made sculptures of Buddha in various sizes, shapes and postures. The hair of the Buddha was fashioned in the Graeco-Roman style."
+      },
+      {
+        "id": "c93",
+        "claim": "The Mathura school of art produced Buddha images whose faces show spiritual feeling largely absent in Gandhara art, and also images of Mahavira, Siva and Vishnu.",
+        "source": "s5",
+        "page": "§8 Impact of Central Asian Conquests",
+        "quote": "The influence of the Gandhara art also spread to Mathura although it was primarily a centre of indigenous art. The School of Art that developed in Mathura in Uttar Pradesh is called Mathura Art. Mathura School of Art produced beautiful images of Buddha exhibiting the spiritual feeling in his face which was largely absent in Gandhara School of art. It also produced several stone images of Vardhamana Mahavira."
+      },
+      {
+        "id": "c94",
+        "claim": "The foreign rulers settled in India for good, identified themselves with its culture and were absorbed into Indian society as a warrior class, i.e. Kshatriyas.",
+        "source": "s5",
+        "page": "§8 Impact of Central Asian Conquests",
+        "quote": "The Sakas and Kushanas added new ingredients to Indian culture and enriched it immensely. They settled in India for good and completely identified themselves with its culture. Since most of them came as conquerors, they were absorbed in to Indian society as a warrior class i.e., Kshatriyas."
+      },
+      {
+        "id": "c95",
+        "claim": "Gondophernes was the greatest Indo-Parthian ruler (19 to 45 CE).",
+        "source": "s5",
+        "page": "§3 Parthians",
+        "quote": "Gondophernes was the greatest Indo-Parthian ruler ruled from 19 to 45 CE"
+      },
+      {
+        "id": "c96",
+        "claim": "The Sangam Period in ancient South India is believed to have spanned from 300 BCE to 300 CE; over 2381 poems are believed to have been composed during this period.",
+        "source": "s6",
+        "page": "Introduction",
+        "quote": "This historical period is termed as the “Sangam Period” in ancient South India. The period is believed to have spanned from 300 BCE to 300 CE. Over 2381 poems are believed to have been composed during this period."
+      },
+      {
+        "id": "c97",
+        "claim": "According to Tamil tradition there were three Sangams; the last Sangam, of the early centuries of the Christian era, is probably the only historically validated one, located in Madurai on the banks of the river Vaigai.",
+        "source": "s6",
+        "page": "The Tolkappiyam and Sangam Literature",
+        "quote": "The last Sangam lasted for 1850 years and was patronized by 49 Pandyas. The date of the last Sangam is the early centuries of the Christian era. This is probably the only historically validated Sangam, located in Madurai, on the banks of the River Vaigayi."
+      },
+      {
+        "id": "c98",
+        "claim": "In Sangam poetry, Akam speaks of the interior landscape of one's own heart, while Puram speaks of the external world.",
+        "source": "s6",
+        "page": "Akam / Puram",
+        "quote": "Akam speaks of the interior landscape of one’s own heart and Puram speaks of the external."
+      },
+      {
+        "id": "c99",
+        "claim": "The Tolkappiyam is an extensive work on the grammar of the Tamil language and the earliest extant work on Tamil literature.",
+        "source": "s6",
+        "page": "Tolkappiyam – The Text",
+        "quote": "Tolkappiyam derives its name from the confluence of two words – “Tonmai” (ancient) and “Kappiam” (literature). It is an extensive work on the grammar of the Tamil language and is the earliest extant work on Tamil Literature."
+      },
+      {
+        "id": "c100",
+        "claim": "Sangam landscapes were classified into thinais based on the mood of the poem, season and land type.",
+        "source": "s6",
+        "page": "Akam",
+        "quote": "Sangam Landscapes, into which each of these works of poetry is categorized, has been classified into ‘thinais’ based on the mood of the poem, season and land type."
+      }
+    ],
+    "HIS-17": [
+      {
+        "id": "c01",
+        "claim": "In 1765 the Mughal emperor appointed the East India Company as the Diwan of Bengal, which let it use Bengal's revenue resources.",
+        "source": "s1",
+        "page": "p. 14",
+        "quote": "Finally, in 1765 the Mughal emperor appointed the Company as the Diwan of the provinces of Bengal. The Diwani allowed the Company to use the vast revenue resources of Bengal."
+      },
+      {
+        "id": "c02",
+        "claim": "After the Diwani, Bengal's revenues financed the Company's purchases and expenses, and the outflow of gold from Britain stopped.",
+        "source": "s1",
+        "page": "p. 14",
+        "quote": "The outflow of gold from Britain slowed after the Battle of Plassey, and entirely stopped after the assumption of Diwani. Now revenues from India could finance Company expenses."
+      },
+      {
+        "id": "c03",
+        "claim": "British territories were divided into three Presidencies — Bengal, Madras and Bombay — each ruled by a Governor, with the Governor-General as supreme head.",
+        "source": "s1",
+        "page": "p. 21",
+        "quote": "British territories were broadly divided into administrative units called Presidencies. There were three Presidencies: Bengal, Madras and Bombay. Each was ruled by a Governor. The supreme head of the administration was the GovernorGeneral."
+      },
+      {
+        "id": "c04",
+        "claim": "Warren Hastings was the first Governor-General and introduced several administrative reforms, notably in justice.",
+        "source": "s1",
+        "page": "p. 21",
+        "quote": "Warren Hastings, the first Governor-General, introduced several administrative reforms, notably in the sphere of justice."
+      },
+      {
+        "id": "c05",
+        "claim": "From 1772 each district was to have two courts: a criminal court (faujdari adalat) and a civil court (diwani adalat).",
+        "source": "s1",
+        "page": "p. 21",
+        "quote": "From 1772 a new system of justice was established. Each district was to have two courts – a criminal court (faujdari adalat) and a civil court (diwani adalat)."
+      },
+      {
+        "id": "c06",
+        "claim": "Under the Regulating Act of 1773 a new Supreme Court was established at Calcutta, along with the Sadar Nizamat Adalat, a court of appeal.",
+        "source": "s1",
+        "page": "p. 21",
+        "quote": "Under the Regulating Act of 1773, a new Supreme Court was established, while a court of appeal – the Sadar Nizamat Adalat – was also set up at Calcutta."
+      },
+      {
+        "id": "c07",
+        "claim": "The Collector was the principal figure in a district; his main job was to collect revenue and taxes and maintain law and order.",
+        "source": "s1",
+        "page": "p. 21",
+        "quote": "The principal figure in an Indian district was the Collector. As the title suggests, his main job was to collect revenue and taxes and maintain law and order in his district with the help of judges, police officers and darogas."
+      },
+      {
+        "id": "c08",
+        "claim": "In 1775 eleven pandits compiled a digest of Hindu laws, translated into English by N.B. Halhed; by 1778 a code of Muslim laws was also compiled.",
+        "source": "s1",
+        "page": "p. 21",
+        "quote": "in 1775 eleven pandits were asked to compile a digest of Hindu laws. N.B. Halhed translated this digest into English. By 1778, a code of Muslim laws was also compiled for the benefit of European judges."
+      },
+      {
+        "id": "c09",
+        "claim": "By 1857 the Company exercised direct rule over about 63 per cent of the territory and 78 per cent of the population of the Indian subcontinent.",
+        "source": "s1",
+        "page": "p. 23",
+        "quote": "By 1857, the Company came to exercise direct rule over about 63 per cent of the territory and 78 per cent of the population of the Indian subcontinent."
+      },
+      {
+        "id": "c10",
+        "claim": "On 12 August 1765 the Mughal emperor appointed the East India Company as the Diwan of Bengal.",
+        "source": "s2",
+        "page": "p. 26",
+        "quote": "On 12 August 1765, the Mughal emperor appointed the East India Company as the Diwan of Bengal."
+      },
+      {
+        "id": "c11",
+        "claim": "In 1770 a terrible famine killed ten million people in Bengal, wiping out about one-third of the population.",
+        "source": "s2",
+        "page": "p. 27",
+        "quote": "Then in 1770, a terrible famine killed ten million people in Bengal. About onethird of the population was wiped out."
+      },
+      {
+        "id": "c12",
+        "claim": "The Permanent Settlement was introduced in 1793: rajas and taluqdars were recognised as zamindars who collected rent from peasants and paid revenue to the Company, the amount fixed permanently.",
+        "source": "s2",
+        "page": "pp. 27-28",
+        "quote": "the Company finally introduced the Permanent Settlement in 1793. By the terms of the settlement, the rajas and taluqdars were recognised as zamindars. They were asked to collect rent from the peasants and pay revenue to the Company. The amount to be paid was fixed permanently, that is, it was not to be increased ever in future."
+      },
+      {
+        "id": "c13",
+        "claim": "The fixed revenue demand was so high that many zamindars could not pay; those who failed lost their zamindari and numerous zamindaris were auctioned by the Company.",
+        "source": "s2",
+        "page": "p. 28",
+        "quote": "The revenue that had been fixed was so high that the zamindars found it difficult to pay. Anyone who failed to pay the revenue lost his zamindari. Numerous zamindaris were sold off at auctions organised by the Company."
+      },
+      {
+        "id": "c14",
+        "claim": "Under the Permanent Settlement the cultivator found the system extremely oppressive: rent was high and his right on the land insecure, forcing him to borrow from moneylenders.",
+        "source": "s2",
+        "page": "p. 28",
+        "quote": "the cultivator found the system extremely oppressive. The rent he paid to the zamindar was high and his right on the land was insecure. To pay the rent he had to often take a loan from the moneylender"
+      },
+      {
+        "id": "c15",
+        "claim": "Holt Mackenzie devised the mahalwari system, which came into effect in 1822: revenue was assessed per village (mahal), revised periodically, and collected by the village headman.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "an Englishman called Holt Mackenzie devised the new system which came into effect in 1822. This demand was to be revised periodically, not permanently fixed. The charge of collecting the revenue and paying it to the Company was given to the village headman, rather than the zamindar. This system came to be known as the mahalwari settlement."
+      },
+      {
+        "id": "c16",
+        "claim": "The ryotwari system was tried on a small scale by Captain Alexander Read after the wars with Tipu Sultan and subsequently developed by Thomas Munro, then extended all over south India.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "The new system that was devised came to be known as the ryotwar (or ryotwari). It was tried on a small scale by Captain Alexander Read in some of the areas that were taken over by the Company after the wars with Tipu Sultan. Subsequently developed by Thomas Munro, this system was gradually extended all over south India."
+      },
+      {
+        "id": "c17",
+        "claim": "Under ryotwari the settlement was to be made directly with the cultivators (ryots) who had tilled the land for generations.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "The settlement, they argued, had to be made directly with the cultivators (ryots) who had tilled the land for generations."
+      },
+      {
+        "id": "c18",
+        "claim": "Under the new settlements revenue officials fixed too high a demand; peasants were unable to pay, ryots fled the countryside and villages became deserted in many regions.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "Driven by the desire to increase the income from land, revenue officials fixed too high a revenue demand. Peasants were unable to pay, ryots fled the countryside, and villages became deserted in many regions."
+      },
+      {
+        "id": "c19",
+        "claim": "The British persuaded or forced cultivators to grow crops Europe required: jute in Bengal, tea in Assam, sugarcane in the United Provinces, wheat in Punjab, cotton in Maharashtra and Punjab, rice in Madras.",
+        "source": "s2",
+        "page": "p. 29",
+        "quote": "the British persuaded or forced cultivators in various parts of India to produce other crops: jute in Bengal, tea in Assam, sugarcane in the United Provinces (now Uttar Pradesh), wheat in Punjab, cotton in Maharashtra and Punjab, rice in Madras."
+      },
+      {
+        "id": "c20",
+        "claim": "In 1788 about 30 per cent of the indigo imported into Britain was from India; by 1810 the proportion had gone up to 95 per cent.",
+        "source": "s2",
+        "page": "p. 31",
+        "quote": "In 1788, only about 30 per cent of the indigo imported into Britain was from India. By 1810, the proportion had gone up to 95 per cent."
+      },
+      {
+        "id": "c21",
+        "claim": "There were two main systems of indigo cultivation: nij and ryoti.",
+        "source": "s2",
+        "page": "p. 32",
+        "quote": "There were two main systems of indigo cultivation – nij and ryoti."
+      },
+      {
+        "id": "c22",
+        "claim": "Under the ryoti system the loan committed the ryot to cultivating indigo on at least 25 per cent of the area of his holding.",
+        "source": "s2",
+        "page": "p. 33",
+        "quote": "the loan committed the ryot to cultivating indigo on at least 25 per cent of the area under his holding."
+      },
+      {
+        "id": "c23",
+        "claim": "Under the ryoti indigo system the price ryots got was very low and the cycle of loans never ended.",
+        "source": "s2",
+        "page": "p. 34",
+        "quote": "The price they got for the indigo they produced was very low and the cycle of loans never ended."
+      },
+      {
+        "id": "c24",
+        "claim": "In British revenue records a mahal is a revenue estate, which may be a village or a group of villages.",
+        "source": "s2",
+        "page": "p. 28",
+        "quote": "Mahal – In British revenue records, mahal is a revenue estate which may be a village or a group of villages."
+      },
+      {
+        "id": "c25",
+        "claim": "At the 1797 Burdwan auction, over 95 per cent of the sale turned out to be fictitious — the raja's own servants and agents bought the estates on his behalf.",
+        "source": "s4",
+        "page": "p. 228",
+        "quote": "Over 95 per cent of the sale at the auction was fictitious. The raja's estates had been publicly sold, but he remained in control of his zamindari."
+      },
+      {
+        "id": "c26",
+        "claim": "Over 75 per cent of the zamindaris changed hands after the Permanent Settlement.",
+        "source": "s4",
+        "page": "p. 229",
+        "quote": "Over 75 per cent of the zamindaris changed hands after the Permanent Settlement."
+      },
+      {
+        "id": "c27",
+        "claim": "Under the Permanent Settlement the zamindar was, in the Company's definition, not a landowner in the village but a revenue Collector of the state.",
+        "source": "s4",
+        "page": "p. 229",
+        "quote": "In terms of this definition, the zamindar was not a landowner in the village, but a revenue Collector of the state."
+      },
+      {
+        "id": "c28",
+        "claim": "Under the Sunset Law, if the revenue payment did not come in by sunset of the specified date, the zamindari was liable to be auctioned.",
+        "source": "s4",
+        "page": "p. 230",
+        "quote": "according to the Sunset Law, if payment did not come in by sunset of the specified date, the zamindari was liable to be auctioned."
+      },
+      {
+        "id": "c29",
+        "claim": "Jotedars were rich peasants who by the early nineteenth century had acquired vast areas of land, sometimes several thousand acres, and controlled local trade as well as moneylending.",
+        "source": "s4",
+        "page": "p. 231",
+        "quote": "a group of rich peasants known as jotedars. By the early nineteenth century, jotedars had acquired vast areas of land – sometimes as much as several thousand acres. They controlled local trade as well as moneylending, exercising immense power over the poorer cultivators of the region."
+      },
+      {
+        "id": "c30",
+        "claim": "Charles Cornwallis was the Governor General of Bengal when the Permanent Settlement was introduced there in 1793.",
+        "source": "s4",
+        "page": "p. 229",
+        "quote": "He was the commander of the British forces during the American War of Independence and the Governor General of Bengal when the Permanent Settlement was introduced there in 1793."
+      },
+      {
+        "id": "c31",
+        "claim": "William Jones, with Colebrooke and Halhed, set up the Asiatic Society of Bengal and started the journal Asiatick Researches.",
+        "source": "s3",
+        "page": "p. 65",
+        "quote": "Together with them, Jones set up the Asiatic Society of Bengal, and started a journal called Asiatick Researches."
+      },
+      {
+        "id": "c32",
+        "claim": "A madrasa was set up in Calcutta in 1781 to promote the study of Arabic, Persian and Islamic law, and the Hindu College was established in Benaras in 1791 to encourage the study of ancient Sanskrit texts.",
+        "source": "s3",
+        "page": "p. 66",
+        "quote": "a madrasa was set up in Calcutta in 1781 to promote the study of Arabic, Persian and Islamic law; and the Hindu College was established in Benaras in 1791 to encourage the study of ancient Sanskrit texts that would be useful for the administration of the country."
+      },
+      {
+        "id": "c33",
+        "claim": "Warren Hastings took the initiative to set up the Calcutta Madrasa and believed Oriental learning ought to be the basis of British rule in India.",
+        "source": "s3",
+        "page": "p. 66",
+        "quote": "Hastings took the initiative to set up the Calcutta Madrasa, and believed that the ancient customs of the country and Oriental learning ought to be the basis of British rule in India."
+      },
+      {
+        "id": "c34",
+        "claim": "Macaulay declared that a single shelf of a good European library was worth the whole native literature of India and Arabia.",
+        "source": "s3",
+        "page": "p. 67",
+        "quote": "“a single shelf of a good European library was worth the whole native literature of India and Arabia”."
+      },
+      {
+        "id": "c35",
+        "claim": "Following Macaulay's Minute, the English Education Act of 1835 made English the medium of instruction for higher education.",
+        "source": "s3",
+        "page": "p. 68",
+        "quote": "Following Macaulay's minute, the English Education Act of 1835 was introduced. The decision was to make English the medium of instruction for higher education"
+      },
+      {
+        "id": "c36",
+        "claim": "Wood's Despatch of 1854 was an educational despatch issued by Charles Wood, President of the Board of Control, outlining the educational policy to be followed in India.",
+        "source": "s3",
+        "page": "p. 68",
+        "quote": "In 1854, the Court of Directors of the East India Company in London sent an educational despatch to the Governor-General in India. Issued by Charles Wood, the President of the Board of Control of the Company, it has come to be known as Wood's Despatch."
+      },
+      {
+        "id": "c37",
+        "claim": "In 1857 universities were being established in Calcutta, Madras and Bombay.",
+        "source": "s3",
+        "page": "p. 69",
+        "quote": "In 1857, while the sepoys rose in revolt in Meerut and Delhi, universities were being established in Calcutta, Madras and Bombay."
+      },
+      {
+        "id": "c38",
+        "claim": "Wood's Despatch argued European learning would make Indians truthful and honest and thus supply the Company with civil servants who could be trusted.",
+        "source": "s3",
+        "page": "p. 69",
+        "quote": "It would make them truthful and honest, and thus supply the Company with civil servants who could be trusted and depended upon."
+      },
+      {
+        "id": "c39",
+        "claim": "Most Indian states used Persian as the language for maintaining official records and running day-to-day business.",
+        "source": "s7",
+        "page": "Unit 4, §4.4",
+        "quote": "Most of the Indian states used Persian as the language for maintaining official record and running the day-to-day business."
+      },
+      {
+        "id": "c40",
+        "claim": "Wellesley established the Fort William College at Calcutta in 1800 to train future administrators in Indian languages.",
+        "source": "s7",
+        "page": "Unit 4, §4.4",
+        "quote": "in the tradition of Warren Hastings, Wellesley established the Fort William College at Calcutta in 1800."
+      },
+      {
+        "id": "c41",
+        "claim": "Dalhousie created all-India departments with single heads for Post and Telegraph Services and the Public Works Department.",
+        "source": "s7",
+        "page": "Unit 4, §4.6.3",
+        "quote": "he created 'all lndia' departments with single heads for Post and Telegraph Services, the Public Work Department, etc."
+      },
+      {
+        "id": "c42",
+        "claim": "The first Indian cotton mill was set up in Bombay in 1854; thereafter the progress of Indian industrial capital was painfully slow until the First World War.",
+        "source": "s7",
+        "page": "Unit 8, §8.7",
+        "quote": "From 1854 when the first Indian mill was set up in Bombay till the World War I the progress of Indian industrial capital was painfully slow and halting."
+      },
+      {
+        "id": "c43",
+        "claim": "According to Dadabhai Naoroji's calculation, the per capita income of India in the 1860s was Rs. 20 per annum.",
+        "source": "s7",
+        "page": "Unit 8, §8.7",
+        "quote": "In the 1860s, according to Dadabhai Naoroji's calculation, the per capita income of India was Rs. 20 per annum."
+      },
+      {
+        "id": "c44",
+        "claim": "Nationalists argued India had become 'the agricultural farm' of industrial England — a source of raw materials and food-grains, dependent on industrial supplies from England.",
+        "source": "s7",
+        "page": "Unit 8, §8.5",
+        "quote": "India became “the agricultural farm” of industrial England, i.e. a source of raw materials and food-grains, dependent totally on industrial supplies from England."
+      },
+      {
+        "id": "c45",
+        "claim": "R.C. Dutt held that the excessive burden of land revenue in periodically settled areas was the cause of the frequent recurrence of famines in British India.",
+        "source": "s7",
+        "page": "Unit 8, §8.5",
+        "quote": "who felt that the burden of land revenue was excessive in areas which were subjected to periodical temporary settlements. This, in his opinion, was the cause of frequent recurrence of famines in British India."
+      },
+      {
+        "id": "c46",
+        "claim": "The Regulating Act of 1773 raised the Governor of Bengal to Governor General, whose Council would consist of four members, and gave him power to superintend Madras and Bombay in war and peace.",
+        "source": "s9",
+        "page": "Unit 23, §23.3",
+        "quote": "the status of Governor of Bengal was raised to Governor General. His Council would consist of four members. The Governor General in Council was given the power to superintend and control the presidencies of Madras and Bombay in matters of war and peace."
+      },
+      {
+        "id": "c47",
+        "claim": "Pitt's India Act was passed in August 1784, its purpose being to remove the defects of the Regulating Act.",
+        "source": "s9",
+        "page": "Unit 23, §23.4",
+        "quote": "Pitt's India Act was passed in August, 1784. The purpose was to remove defects in the Regulating Act."
+      },
+      {
+        "id": "c48",
+        "claim": "Pitt's India Act established a Board of Control of six commissioners, including two Cabinet ministers, to guide and control the Court of Directors and the Government of India.",
+        "source": "s9",
+        "page": "Unit 23, §23.4",
+        "quote": "The Act established a Board of Control consisting of six commissioners, including, two Cabinet ministers. The Board of Control was to guide and control the work of the Court of Directors and the Government of India."
+      },
+      {
+        "id": "c49",
+        "claim": "Under Pitt's India Act the Governor General had two masters: the Court of Directors and the Board of Control.",
+        "source": "s9",
+        "page": "Unit 23, §23.4",
+        "quote": "Governor General had two masters, the Court of Directors and the Board of Control."
+      },
+      {
+        "id": "c50",
+        "claim": "The Charter Act of 1793 renewed the Company's charter for 20 years and laid the foundation of government by written laws and regulations in British India.",
+        "source": "s9",
+        "page": "Unit 23, §23.5",
+        "quote": "The Charter of the Company was renewed for 20 years. The Act of 1793 thus laid the foundation of government by written laws and regulations in British lndia in place of the personal rule of the past rulers."
+      },
+      {
+        "id": "c51",
+        "claim": "Indians were excluded from positions of influence and authority, in the words of the time, 'to satisfy the demand of English men for lucrative jobs.'",
+        "source": "s9",
+        "page": "Unit 23, §23.5",
+        "quote": "Indians were not given positions where they could share the influence or authority. Indians were excluded \"to satisfy the demand of English men for lucrative jobs.\""
+      },
+      {
+        "id": "c52",
+        "claim": "The Charter Act of 1813 deprived the Company of its monopoly of trade with India, while it retained the monopoly of trade with China for 20 years.",
+        "source": "s9",
+        "page": "Unit 23, §23.6",
+        "quote": "The Company was deprived of its monopoly of trade with India. It was allowed to continue with its monopoly of trade with China for 20 years. The lndian trade was thrown open to all British merchants."
+      },
+      {
+        "id": "c53",
+        "claim": "By the Charter Act of 1833 the Company was to have only political functions, and the Governor General of Bengal became the Governor General of India.",
+        "source": "s9",
+        "page": "Unit 23, §23.7",
+        "quote": "The monopoly of tea trade with China was abolished. The Company was to have only political functions. Governor General of Bengal became the Governor General of India."
+      },
+      {
+        "id": "c54",
+        "claim": "Section 87 of the Charter Act of 1833 declared that no native should be disqualified for any place in the Company's service by reason only of religion, place of birth, descent or colour.",
+        "source": "s9",
+        "page": "Unit 23, §23.7",
+        "quote": "Section 87 of the Act declared, \"that no native or natural born subject of the crown resident in lndia should be by reason only of his religion, place of birth, descent, colour or any of them be disqualified for any place in the company's service.\""
+      },
+      {
+        "id": "c55",
+        "claim": "By the Charter Act of 1853 all vacancies in India were to be filled by competitive examinations.",
+        "source": "s9",
+        "page": "Unit 23, §23.8",
+        "quote": "All vacancies in lndia were to be filled in by competitive examinations."
+      },
+      {
+        "id": "c56",
+        "claim": "By the Government of India Act 1858 the government of India passed from the East India Company to the Crown, and the Board of Control and Court of Directors were abolished.",
+        "source": "s9",
+        "page": "Unit 23, §23.9",
+        "quote": "The Government of lndia passed from the hands of the English East lndia Company to the crown. The Board of control and court of Directors were abolished."
+      },
+      {
+        "id": "c57",
+        "claim": "The building up of an adequate administrative structure started taking shape from 1793 under Cornwallis; his changes separated judicial from executive (revenue) functions.",
+        "source": "s9",
+        "page": "Unit 24, §24.3.1",
+        "quote": "The building up of an adequate structure of administration started taking shape from 1793 under Cornwallis. These changes involved a divorce of revenue from civil administration. i.e.. the separation of judicial from executive functions and the multiplication of judicial courts."
+      },
+      {
+        "id": "c58",
+        "claim": "Rule of Law meant administration was to be carried out strictly according to laws defining people's rights, privileges and obligations, not according to the personal desires of rulers.",
+        "source": "s9",
+        "page": "Unit 24, §24.3.1",
+        "quote": "The Rule of Law meant that the administration was now to be carried out strictly according to certain laws which defined the rights, privileges and obligations of the people, and not according to the personal desires of the rulers."
+      },
+      {
+        "id": "c59",
+        "claim": "The three main pillars of British administration in India were the civil service, the Army and the Police.",
+        "source": "s9",
+        "page": "Unit 24, §24.3.2",
+        "quote": "The three main pillars of the British administration in lndia were the civil service the Army, and the Police."
+      },
+      {
+        "id": "c60",
+        "claim": "Cornwallis tried to check corruption in the civil service: he forbade private trade by civil servants but increased their salaries as compensation.",
+        "source": "s9",
+        "page": "Unit 24, §24.3.2",
+        "quote": "Cornwallis tried to check this corruption. arising out of apolicy of patronage practised by the court of Directors. He imposed certain restrictions on the civil servants (like forbiding private trade) but increased their salaries as a compensation."
+      },
+      {
+        "id": "c61",
+        "claim": "The idea of competition for recruitment was first introduced by the Charter Act of 1833; the Charter Act of 1853 ended nomination by the Court of Directors and provided for open competition.",
+        "source": "s9",
+        "page": "Unit 24, §24.3.2",
+        "quote": "The idea of 'competition' for recruitment (as against nomination practised earlier) was introduced for the first time by the Charter Act of 1833. The Charter Act of 1853 ultimately took away the power of the court of Directors to make nominations and made a provision for open competition."
+      },
+      {
+        "id": "c62",
+        "claim": "The competitive examination was held annually in England, so it was virtually impossible for an Indian to compete in it.",
+        "source": "s9",
+        "page": "Unit 24, §24.3.2",
+        "quote": "This competitive examination was to be held annually in England and it was therefore, virtually impossible for an Indian to compete in it."
+      },
+      {
+        "id": "c63",
+        "claim": "From 1772 the farming system was introduced: collection of land revenue was given out on contract to whoever offered to pay the largest amount for a district.",
+        "source": "s5",
+        "page": "Unit 6, §6.4",
+        "quote": "From 1772 therefore, a new system was introduced: this was the farming system. Under this system the government gave out the collection of land revenue on a contract basis. The contractor who offered to pay the largest amount from a certain district or sub-division was given full powers for a certain number of years."
+      },
+      {
+        "id": "c64",
+        "claim": "The Permanent Settlement was introduced in Bengal and Bihar in 1793.",
+        "source": "s5",
+        "page": "Unit 6, §6.5.1",
+        "quote": "this was the arrangement made under the Permanent Settlement that was introduced in Bengal and Bihar in 1793."
+      },
+      {
+        "id": "c65",
+        "claim": "Cornwallis decreed that zamindars should issue written agreements (pattas) to each cultivator, but in practice no pattas were issued and peasants were wholly at the mercy of the zamindars.",
+        "source": "s5",
+        "page": "Unit 6, §6.5.2",
+        "quote": "Cornwallis had also decreed that the zamindars should issue written agreements (called pattas) to each cultivator. In practice, however, no such pattas were issued, and the peasants were wholly at the mercy of the zamindars."
+      },
+      {
+        "id": "c66",
+        "claim": "Only in 1859 did the state take some step to protect tenants: a law that year gave limited protection to old tenants, now termed occupancy tenants.",
+        "source": "s5",
+        "page": "Unit 6, §6.5.3",
+        "quote": "Only in 1859 did the State take some step to protect the rights of tenant: a law passed that year bestowed a limited protection on old tenants, who were now termed occupancy tenants."
+      },
+      {
+        "id": "c67",
+        "claim": "By 1820 the Madras authorities were converted to the ryotwari system, its triumph indicated by the appointment of Munro as Governor of Madras.",
+        "source": "s5",
+        "page": "Unit 6, §6.6.2",
+        "quote": "the Madras authorities were by 1820 converted to the ryotwari system, and its triumph was indicated by the appointment of Munro as Governor of Madras."
+      },
+      {
+        "id": "c68",
+        "claim": "Ryotwari yielded a larger revenue than any other system because there were no zamindars or intermediaries taking a share of the agricultural surplus.",
+        "source": "s5",
+        "page": "Unit 6, §6.6.2",
+        "quote": "Its adoption was due, however, to one main reason– it resulted in a larger revenue than any other system could have produced. This was because there were no zamindars or other intermediaries who received any part of the agricultural surplus"
+      },
+      {
+        "id": "c69",
+        "claim": "The crops on which the Company concentrated were indigo, cotton, raw silk, opium and pepper, and in the nineteenth century also tea and sugar.",
+        "source": "s5",
+        "page": "Unit 6, §6.2.2",
+        "quote": "The crops on which the company concentrated were indigo, cotton, raw silk, opium, pepper, and, in the 19th century, also tea and sugar."
+      },
+      {
+        "id": "c70",
+        "claim": "Company-era exports served to remit resources out of India — the Indian 'tribute' transferred to Britain; India received no imports in return, and such a transfer impoverished India.",
+        "source": "s5",
+        "page": "Unit 6, §6.3.1",
+        "quote": "The exports therefore served essentially to remit resources out of India. It was the method by which the Indian 'tribute' was transferred to Britain. India received no imports in return for these exports. Obviously such a transfer impoverished India."
+      },
+      {
+        "id": "c71",
+        "claim": "The Charter Act of 1813 abolished the Company's monopoly in Indian trade; the Charter Act of 1833 abolished the remaining monopoly, that in the China trade.",
+        "source": "s6",
+        "page": "Unit 7, §7.4",
+        "quote": "In these circumstances the Charter Act of 1813 was passed abolishing the monopoly in Indian trade; another Charter Act in 1833 abolished the remaining part of the Company's privileged monopoly, that in the China trade."
+      },
+      {
+        "id": "c72",
+        "claim": "The value of cotton cloth exported from India to England declined from £1.3 million to £0.1 million between 1815 and 1832, while imports of English cotton cloth into India increased almost 15 times.",
+        "source": "s6",
+        "page": "Unit 7, §7.7",
+        "quote": "The value of cotton cloth exported from India to England declined from pound 1.3 million to only pound 0.1 million in the years 1815 to 1832. In the same period the import of cotton cloth from England increased almost 15 times."
+      },
+      {
+        "id": "c73",
+        "claim": "Revenue used to buy export goods (the so-called 'investment') was, as a House of Commons committee put it in 1783, merely a means of 'payment of a tribute' — a major example of what nationalists later called economic drain.",
+        "source": "s6",
+        "page": "Unit 7, §7.7",
+        "quote": "such 'investment' was not actually employment of trading capital brought into Bengal, but merely a means of “payment of a tribute”. This was a major example of what the Indian economic nationalists later called 'economic drain'."
+      },
+      {
+        "id": "c74",
+        "claim": "On the evidence, the Indian manufacturing sector did decline in the face of competition from machine-made, technologically superior manufactured imports from Britain during the first century of colonial rule.",
+        "source": "s6",
+        "page": "Unit 7, §7.9",
+        "quote": "we can safely conclude that the Indian manufacturing sector did decline in the face of completion from machine-made, technologically superior manufactured imports from Britain during the first century of colonial rule in India."
+      },
+      {
+        "id": "c75",
+        "claim": "In his 1867 paper 'England's Debt to India' Dadabhai Naoroji first highlighted that Britain was extracting more than one-fourth of India's revenue.",
+        "source": "s8",
+        "page": "Unit 9, §9.1",
+        "quote": "In a paper entitled ‘England's Debt to India' Dadabhai Naoroji first highlighted in 1867 that Britain was bleeding India by extracting and appropriating more than one-fourth of India's revenue."
+      },
+      {
+        "id": "c76",
+        "claim": "Naoroji developed his argument in the 1873 paper 'Poverty of India' and in 1901 wrote Poverty and Un-British Rule in India.",
+        "source": "s8",
+        "page": "Unit 9, §9.1",
+        "quote": "He developed his arguments further in a paper on the 'Poverty of India' in 1873 and in 1901 he wrote Poverty and Un-British Rule in India."
+      },
+      {
+        "id": "c77",
+        "claim": "Dadabhai Naoroji became the major proponent and propagator of the drain of wealth from India; for him the drain was also a loss of capital and the major cause of India's poverty.",
+        "source": "s8",
+        "page": "Unit 9, §9.2",
+        "quote": "It is Dadabhai Naoroji who became the major proponent and propagator of the drain of wealth from India. It was not only about the loss of wealth but also about the loss of capital. It was the major cause of poverty in India."
+      },
+      {
+        "id": "c78",
+        "claim": "The widest definition of the drain was Naoroji's idea of an unrequited export surplus: India did not get an equivalent return in merchandise or treasure.",
+        "source": "s8",
+        "page": "Unit 9, §9.2",
+        "quote": "The widest definition of the drain was based on Naoroji's ideas of an unrequited export surplus – that India did not get an equivalent return either in terms of merchandise or treasure."
+      },
+      {
+        "id": "c79",
+        "claim": "Home Charges were the sum remitted annually in sterling from India to Britain for the Government of India's expenses in Britain, pensions of civil and military officials, stores and private remittances.",
+        "source": "s8",
+        "page": "Unit 9, §9.2",
+        "quote": "The narrower definition was that based on the Home Charges – the sum of money that had to be remitted annually in pound sterling from India to Britain. These charges were to pay for the expenses of the Government of India incurred in Britain, the payments due in Britain for the pensions of civil and military officials, the purchase of stores and private remittances by non-officials."
+      },
+      {
+        "id": "c80",
+        "claim": "Naoroji spoke of a 'moral drain': because Indians were excluded from higher positions, they could not develop higher skills and knowledge.",
+        "source": "s8",
+        "page": "Unit 9, §9.2",
+        "quote": "This led to a ''moral drain'' since Indians could not develop higher skills and knowledge and those Europeans in India who did left the country after retirement."
+      },
+      {
+        "id": "c81",
+        "claim": "Nationalists argued railway lines were laid to promote British industries — to move cotton goods from ports to consuming centres and raw cotton from the interior to port towns.",
+        "source": "s8",
+        "page": "Unit 9, §9.2",
+        "quote": "The railway lines were laid to promote the interest of the British industries – to move cotton goods from the ports to consuming centres and to move raw cotton from the interior to the port towns."
+      },
+      {
+        "id": "c82",
+        "claim": "At the beginning of the twentieth century R.C. Dutt estimated the drain at twenty million pounds a year.",
+        "source": "s8",
+        "page": "Unit 9, §9.2",
+        "quote": "At the beginning of the twentieth century R.C. Dutt estimated the drain at twenty million pounds a year."
+      },
+      {
+        "id": "c83",
+        "claim": "In response to peasant demands to regulate tenancy, the government passed the Bengal Tenancy Act in 1885, which gave some protection to tenants.",
+        "source": "s10",
+        "page": "Unit 5, §5.5",
+        "quote": "In response to the demands of the peasants to regulate the system of tenancy the government passed the Bengal Tenancy Act in 1885 which gave some form of protection to the tenants."
+      },
+      {
+        "id": "c84",
+        "claim": "In Pabna the landlords increased rents seven-fold during the period from 1793 to 1872.",
+        "source": "s10",
+        "page": "Unit 5, §5.5",
+        "quote": "Many peasants here had occupancy rights which protected them against arbitrary eviction by the landlords. However the rent was fixed by the landlords who increased it seven fold during the period from 1793 to 1872."
+      },
+      {
+        "id": "c85",
+        "claim": "In 1879 the Deccan Agriculturists' Relief Act was passed, giving peasants legal remedies against unreasonable demands of moneylenders.",
+        "source": "s10",
+        "page": "Unit 5, §5.5",
+        "quote": "In 1879 the Deccan Agriculturalists' Relief Act was passed which gave relief to the peasant by making available legal remedies to counter unreasonable demands."
+      }
+    ],
+    "HIS-27": [
+      {
+        "id": "c01",
+        "claim": "The Regulating Act of 1773 was Parliament's first important Act to control the Company's administration.",
+        "source": "s1",
+        "page": "Unit 23, §23.3",
+        "quote": "the Parliament passed its first important Act in 1773. called the Regulating Act to control the Company's Administration."
+      },
+      {
+        "id": "c02",
+        "claim": "Under the Regulating Act the Governor of Bengal was raised to Governor General, with a Council of four members, controlling Madras and Bombay in war and peace.",
+        "source": "s1",
+        "page": "Unit 23, §23.3",
+        "quote": "the status of Governor of Bengal was raised to Governor General. His Council would consist of four members. The Governor General in Council was given the power to superintend and control the presidencies of Madras and Bombay in matters of war and peace."
+      },
+      {
+        "id": "c03",
+        "claim": "The Regulating Act provided for a Supreme Court of Justice at Calcutta.",
+        "source": "s1",
+        "page": "Unit 23, §23.3",
+        "quote": "The Act also provided for the establishment of a Supreme Court of Justice at Calcutta"
+      },
+      {
+        "id": "c04",
+        "claim": "The Regulating Act worked badly: the Governor General faced a united hostile council, had no power to override it, and only a casting vote on a tie.",
+        "source": "s1",
+        "page": "Unit 23, §23.3",
+        "quote": "The Governor General had to face the opposition of his council, who united against him. He had no power to override them, though in case of an equal division he had a casting vote."
+      },
+      {
+        "id": "c05",
+        "claim": "Pitt's India Act was passed in August 1784 to remove the defects of the Regulating Act.",
+        "source": "s1",
+        "page": "Unit 23, §23.4",
+        "quote": "Pitt's India Act was passed in August, 1784. The purpose was to remove defects in the Regulating Act."
+      },
+      {
+        "id": "c06",
+        "claim": "Pitt's Act set up a Board of Control of six commissioners including two Cabinet ministers, to control civil and military government of British territories in India.",
+        "source": "s1",
+        "page": "Unit 23, §23.4",
+        "quote": "The Act established a Board of Control consisting of six commissioners, including, two Cabinet ministers. They were to control all matters of civil and military Government of the British territories in India."
+      },
+      {
+        "id": "c07",
+        "claim": "Pitt's Act placed India's government under the Governor General and a Council of three.",
+        "source": "s1",
+        "page": "Unit 23, §23.4",
+        "quote": "the government of India be placed under the Governor General and a Council of three, so that if only one member of the Council supported him, he could have his way."
+      },
+      {
+        "id": "c08",
+        "claim": "Pitt's Act made Madras and Bombay subordinate to Bengal in war, diplomacy and revenue.",
+        "source": "s1",
+        "page": "Unit 23, §23.4",
+        "quote": "The Act clearly stated that the Presidencies of Madras and Bombay were to be subordinate to the Presidency of Bengal in all matters of war, diplomatic relations and revenue."
+      },
+      {
+        "id": "c09",
+        "claim": "The Act of 1786 gave Cornwallis the power to override his council and united the offices of Governor General and Commander-in-Chief in one person.",
+        "source": "s1",
+        "page": "Unit 23, §23.4",
+        "quote": "The Act of 1786 gave him the powers he asked for. The offices of the Governor General and the Commander-in-Chief were to be united in the same person."
+      },
+      {
+        "id": "c10",
+        "claim": "The Charter Act of 1793 renewed the Company's Charter for 20 years.",
+        "source": "s1",
+        "page": "Unit 23, §23.5",
+        "quote": "The Charter of the Company was renewed for 20 years and it was declared that it would be allowed to continue with the possession of all territories for the next 20 years."
+      },
+      {
+        "id": "c11",
+        "claim": "The Act of 1793 laid the foundation of government by written laws and regulations in British India.",
+        "source": "s1",
+        "page": "Unit 23, §23.5",
+        "quote": "The Act of 1793 thus laid the foundation of government by written laws and regulations in British India in place of the personal rule of the past rulers."
+      },
+      {
+        "id": "c12",
+        "claim": "The Charter Act of 1813 deprived the Company of its monopoly of trade with India, while it kept the China trade monopoly for 20 more years.",
+        "source": "s1",
+        "page": "Unit 23, §23.6",
+        "quote": "The Company was deprived of its monopoly of trade with India. It was allowed to continue with its monopoly of trade with China for 20 years."
+      },
+      {
+        "id": "c13",
+        "claim": "The Charter Act of 1833 abolished the tea/China trade monopoly; the Company was left with only political functions.",
+        "source": "s1",
+        "page": "Unit 23, §23.7",
+        "quote": "The monopoly of tea trade with China was abolished. The Company was to have only political functions."
+      },
+      {
+        "id": "c14",
+        "claim": "By the Act of 1833 the Governor General of Bengal became the Governor General of India.",
+        "source": "s1",
+        "page": "Unit 23, §23.7",
+        "quote": "Governor General of Bengal became the Governor General of India."
+      },
+      {
+        "id": "c15",
+        "claim": "The Act of 1833 added a Law Member to the Governor General's Executive Council; Macaulay was the Law Member.",
+        "source": "s1",
+        "page": "Unit 23, §23.7",
+        "quote": "The Act added one more member to the Executive council of the Governor General. the Law Member, whose work was fully legislative. Lord Macaulay, the Law member, influenced the educational policy of the government for a number of years."
+      },
+      {
+        "id": "c16",
+        "claim": "Section 87 of the Charter Act 1833 declared no Indian would be disqualified from Company service for religion, birth, descent or colour.",
+        "source": "s1",
+        "page": "Unit 23, §23.7",
+        "quote": "Section 87 of the Act declared, \"that no native or natural born subject of the crown resident in India should be by reason only of his religion, place of birth, descent, colour or any of them be disqualified for any place in the company's service.\""
+      },
+      {
+        "id": "c17",
+        "claim": "The Charter Act of 1853 carried the separation of executive and legislative functions further by adding members of council for legislation.",
+        "source": "s1",
+        "page": "Unit 23, §23.8",
+        "quote": "By the Act of 1853, separation of the executive and the legislative functions was carried a step further by the provision of additional members of council for the purpose of legislation."
+      },
+      {
+        "id": "c18",
+        "claim": "Under the 1853 Act the central Legislative Council was to consist of 12 members, and legislation was for the first time treated as a special function of government.",
+        "source": "s1",
+        "page": "Unit 23, §23.8",
+        "quote": "The Council in its legislative capacity was to consist of 12 members. The \"Legislative Councillors\" were neatly distinguished from the \"Executive Councillors\" and by doing so, legislation was for the first time treated as a special function of the government requiring special machinery and special procedure."
+      },
+      {
+        "id": "c19",
+        "claim": "The Charter Act of 1853 provided that all vacancies in India were to be filled by competitive examinations; Macaulay was appointed President of the Committee.",
+        "source": "s1",
+        "page": "Unit 23, §23.8",
+        "quote": "All vacancies in India were to be filled in by competitive examinations. Lord Macaulay was appointed the President of the Committee."
+      },
+      {
+        "id": "c20",
+        "claim": "The Government of India Act became an Act of Parliament in August 1858 and the government of India passed from the Company to the Crown.",
+        "source": "s1",
+        "page": "Unit 23, §23.9",
+        "quote": "Lord Stanley, President of the Board of Control introduced a bill for the 'Better Government' of India which became an Act of Parliament in August 1858. The Government of India passed from the hands of the English East India Company to the crown."
+      },
+      {
+        "id": "c21",
+        "claim": "The 1858 Act abolished the Board of Control and the Court of Directors; their place was taken by the Secretary of State for India and his India Council.",
+        "source": "s1",
+        "page": "Unit 23, §23.9",
+        "quote": "The Board of control and court of Directors were abolished. Their place was taken by the Secretary of State of India and his India Council."
+      },
+      {
+        "id": "c22",
+        "claim": "After 1858 the Governor General became known as the Viceroy, the Crown's representative.",
+        "source": "s1",
+        "page": "Unit 23, §23.9",
+        "quote": "The Governor General became known from now as the Viceroy or Crown's representative."
+      },
+      {
+        "id": "c23",
+        "claim": "Warren Hastings was the first Governor-General (1773-1785) and introduced administrative reforms, notably in justice.",
+        "source": "s2",
+        "page": "Ch. 2, pp. 20-21",
+        "quote": "Warren Hastings (Governor-General from 1773 to 1785) was one of the many important figures who played a role in the expansion of Company power. The supreme head of the administration was the Governor-General. Warren Hastings, the first Governor-General, introduced several administrative reforms, notably in the sphere of justice."
+      },
+      {
+        "id": "c24",
+        "claim": "From 1772 each district was to have a criminal court (faujdari adalat) and a civil court (diwani adalat).",
+        "source": "s2",
+        "page": "Ch. 2, p. 21",
+        "quote": "From 1772 a new system of justice was established. Each district was to have two courts - a criminal court (faujdari adalat) and a civil court (diwani adalat)."
+      },
+      {
+        "id": "c25",
+        "claim": "Hastings' impeachment proceeding in the British Parliament lasted seven years.",
+        "source": "s2",
+        "page": "Ch. 2, p. 21",
+        "quote": "When Warren Hastings went back to England in 1785, Edmund Burke accused him of being personally responsible for the misgovernment of Bengal. This led to an impeachment proceeding in the British Parliament that lasted seven years."
+      },
+      {
+        "id": "c26",
+        "claim": "Under the Regulating Act of 1773 a new Supreme Court was established at Calcutta, with the Sadar Nizamat Adalat as court of appeal.",
+        "source": "s2",
+        "page": "Ch. 2, p. 21",
+        "quote": "Under the Regulating Act of 1773, a new Supreme Court was established, while a court of appeal - the Sadar Nizamat Adalat - was also set up at Calcutta."
+      },
+      {
+        "id": "c27",
+        "claim": "The building of the administrative structure started taking shape from 1793 under Cornwallis, including the separation of judicial from executive functions.",
+        "source": "s1",
+        "page": "Unit 24, §24.3.1",
+        "quote": "The building up of an adequate structure of administration started taking shape from 1793 under Cornwallis. These changes involved a divorce of revenue from civil administration, i.e., the separation of judicial from executive functions and the multiplication of judicial courts."
+      },
+      {
+        "id": "c28",
+        "claim": "Cornwallis tried to check civil servants' corruption by forbidding private trade and raising salaries in compensation.",
+        "source": "s1",
+        "page": "Unit 24, §24.3.2",
+        "quote": "Cornwallis tried to check this corruption. He imposed certain restrictions on the civil servants (like forbiding private trade) but increased their salaries as a compensation."
+      },
+      {
+        "id": "c29",
+        "claim": "The police, the third pillar of British administration, was created by Cornwallis, organised into thanas headed by an Indian Daroga.",
+        "source": "s1",
+        "page": "Unit 24, §24.3.2",
+        "quote": "Police, the third Pillar of the British administration was created by Cornwallis. This force was grouped into Thanas, headed by a Daroga who was an Indian."
+      },
+      {
+        "id": "c30",
+        "claim": "In 1793 it was officially laid down that all higher posts worth 500 a year or more could be held only by an Englishman.",
+        "source": "s1",
+        "page": "Unit 24, §24.3.3",
+        "quote": "it had officially been laid down in 1793 that all higher posts in administration worth a salary of 500 a year or more could be held only by an Englishman."
+      },
+      {
+        "id": "c31",
+        "claim": "An East India College was established at Haileybury to give two years' training to young officers for the civil services.",
+        "source": "s1",
+        "page": "Unit 24, §24.3.2",
+        "quote": "an East India College was established at Hailybury for imparting two years, training to young officers for the civil services."
+      },
+      {
+        "id": "c32",
+        "claim": "The idea of competition for recruitment was first introduced by the Charter Act of 1833, but only as limited nomination-cum-competition.",
+        "source": "s1",
+        "page": "Unit 24, §24.3.2",
+        "quote": "The idea of 'competition' for recruitment (as against nomination practised earlier) was introduced for the first time by the Charter Act of 1833. But it was to be a very limited competition and could be termed as nomination-cum-competition."
+      },
+      {
+        "id": "c33",
+        "claim": "After 1853 open competition replaced nomination; Haileybury was abolished in 1858 and the examination, held annually in England, was virtually impossible for an Indian to compete in.",
+        "source": "s1",
+        "page": "Unit 24, §24.3.2",
+        "quote": "The Charter Act of 1853 ultimately took away the power of the court of Directors to make nominations and made a provision for open competition. Subsequently the college at Hailybury was abolished in 1858 and the competitive examinations became the sole responsibility of the Civil Service Commission. This competitive examination was to be held annually in England and it was therefore, virtually impossible for an Indian to compete in it."
+      },
+      {
+        "id": "c34",
+        "claim": "It was left to Bentinck, the Governor-General, to legislate against widow burning (sati) in December 1829.",
+        "source": "s1",
+        "page": "Unit 25, §25.4.2",
+        "quote": "Finally it was left to Bentinck, the Governor-General to legislate against Widow burning in December 1829."
+      },
+      {
+        "id": "c35",
+        "claim": "Rammohan Roy led the Westernised Bengali intelligentsia's agitation for abolition of sati and petitioned the government in 1818.",
+        "source": "s1",
+        "page": "Unit 25, §25.4.2",
+        "quote": "the Westernized Bengali intelligentsia led by Rammohan Roy actively agitated for the abolition of Sati. In 1818 he sent a petition to the government urging them to abolish this practice"
+      },
+      {
+        "id": "c36",
+        "claim": "Lord Dalhousie, Governor-General 1848-1856, devised the Doctrine of Lapse.",
+        "source": "s2",
+        "page": "Ch. 2, p. 19",
+        "quote": "The final wave of annexations occurred under Lord Dalhousie who was the Governor-General from 1848 to 1856. He devised a policy that came to be known as the Doctrine of Lapse."
+      },
+      {
+        "id": "c37",
+        "claim": "Under the Doctrine of Lapse a kingdom lapsed to the Company if a ruler died without a male heir: Satara (1848), Sambalpur (1850), Udaipur (1852), Nagpur (1853), Jhansi (1854).",
+        "source": "s2",
+        "page": "Ch. 2, p. 19",
+        "quote": "The doctrine declared that if an Indian ruler died without a male heir his kingdom would \"lapse\", that is, become a part of Company territory. One kingdom after another was annexed simply by applying this doctrine: Satara (1848), Sambalpur (1850), Udaipur (1852), Nagpur (1853) and Jhansi (1854)."
+      },
+      {
+        "id": "c38",
+        "claim": "In 1856 the Company took over Awadh, claiming a duty to free its people from the Nawab's misgovernment.",
+        "source": "s2",
+        "page": "Ch. 2, p. 19",
+        "quote": "Finally, in 1856, the Company also took over Awadh. This time the British had an added argument - they said they were \"obliged by duty\" to take over Awadh in order to free the people from the \"misgovernment\" of the Nawab."
+      },
+      {
+        "id": "c39",
+        "claim": "In 1856 Governor-General Canning decided Bahadur Shah Zafar would be the last Mughal king.",
+        "source": "s3",
+        "page": "Ch. 5, p. 52",
+        "quote": "In 1856, Governor-General Canning decided that Bahadur Shah Zafar would be the last Mughal king and after his death none of his descendants would be recognised as kings"
+      },
+      {
+        "id": "c40",
+        "claim": "The massive uprising against the Company started in May 1857.",
+        "source": "s3",
+        "page": "Ch. 5, p. 55",
+        "quote": "the English East India Company faced a massive uprising that started in May 1857 and threatened the Company's very presence in India."
+      },
+      {
+        "id": "c41",
+        "claim": "A subsidiary alliance was imposed on Awadh in 1801 and it was taken over in 1856; Dalhousie declared it misgoverned.",
+        "source": "s3",
+        "page": "Ch. 5, p. 52",
+        "quote": "Awadh was one of the last territories to be annexed. In 1801, a subsidiary alliance was imposed on Awadh, and in 1856 it was taken over. Governor-General Dalhousie declared that the territory was being misgoverned and British rule was needed to ensure proper administration."
+      },
+      {
+        "id": "c42",
+        "claim": "Under Lord Hastings (Governor-General 1813-1823) the policy of paramountcy was initiated.",
+        "source": "s2",
+        "page": "Ch. 2, p. 18",
+        "quote": "Under Lord Hastings (Governor-General from 1813 to 1823), a new policy of \"paramountcy\" was initiated. Now the Company claimed that its authority was paramount or supreme"
+      },
+      {
+        "id": "c43",
+        "claim": "The Arms Act and the Vernacular Press Act were both passed in 1878; the VPA aimed to silence critics of the government.",
+        "source": "s4",
+        "page": "Ch. 8, p. 94",
+        "quote": "The Arms Act was passed in 1878, disallowing Indians from possessing arms. In the same year, the Vernacular Press Act was also enacted in an effort to silence those who were critical of the government."
+      },
+      {
+        "id": "c44",
+        "claim": "The Vernacular Press Act allowed the government to confiscate newspapers' assets including printing presses for objectionable publication.",
+        "source": "s4",
+        "page": "Ch. 8, p. 94",
+        "quote": "The Act allowed the government to confiscate the assets of newspapers including their printing presses if the newspapers published anything that was found \"objectionable\"."
+      },
+      {
+        "id": "c45",
+        "claim": "The Ilbert Bill (1883) provided for trial of British/European persons by Indian judges and sought equality between British and Indian judges; white opposition forced its withdrawal in original form.",
+        "source": "s4",
+        "page": "Ch. 8, p. 94",
+        "quote": "In 1883, there was a furore over the attempt by the government to introduce the Ilbert Bill. The bill provided for the trial of British or European persons by Indians, and sought equality between British and Indian judges in the country. But when white opposition forced the government to withdraw the bill, Indians were enraged."
+      },
+      {
+        "id": "c46",
+        "claim": "During Lytton's period the maximum age for the Indian Civil Service examination was reduced from 21 to 19 years.",
+        "source": "s6",
+        "page": "Unit 4, §4.4.1",
+        "quote": "During his period the maximum age for appearing in the Indian Civil Service examination was reduced from 21 to 19 years."
+      },
+      {
+        "id": "c47",
+        "claim": "Under Lytton, public meetings protested the Vernacular Press Act and Arms Act; the VPA restricted newspapers printed in Indian languages, and the Amrita Bazar Patrika switched to English overnight to escape it.",
+        "source": "s6",
+        "page": "Unit 4, §4.4.1",
+        "quote": "Public meetings were organised to protest against the passing of the Vernacular Press Act and the Arms Act. The former imposed restrictions on the newspapers and journals printed in Indian languages. Amrita Basar Patrika, which was published in Bengali till then, changed overnight into an English medium paper so as to escape the restrictions imposed under this Act."
+      },
+      {
+        "id": "c48",
+        "claim": "Lord Lytton was succeeded by Lord Ripon in 1880; Ripon repealed the Vernacular Press Act and promoted local self-government.",
+        "source": "s6",
+        "page": "Unit 4, §4.4.2",
+        "quote": "Lord Lytton was succeeded by Lord Ripon in 1880. He repealed the Vernacular Press Act, promoted local self-government institutions, encouraged the spread of education and brought the Afghan War to an end."
+      },
+      {
+        "id": "c49",
+        "claim": "The Ilbert Bill was amended under Anglo-Indian pressure in such a manner that its very purpose was defeated.",
+        "source": "s6",
+        "page": "Unit 4, §4.4.2",
+        "quote": "Ultimately the Government had to bow before this hostile opinion and the Bill was amended in such a manner that its very purpose was defeated."
+      },
+      {
+        "id": "c50",
+        "claim": "In 1905 Viceroy Curzon partitioned Bengal, separating East Bengal and merging it with Assam.",
+        "source": "s4",
+        "page": "Ch. 8, p. 97",
+        "quote": "In 1905, Viceroy Curzon partitioned Bengal. The British argued for dividing Bengal for reasons of administrative convenience. Even so, instead of removing the non-Bengali areas from the province, the government separated East Bengal and merged it with Assam."
+      },
+      {
+        "id": "c51",
+        "claim": "The Muslim League was formed at Dacca in 1906; its demand for separate electorates for Muslims was conceded by the government in 1909.",
+        "source": "s4",
+        "page": "Ch. 8, p. 97",
+        "quote": "A group of Muslim landlords and nawabs formed the All India Muslim League at Dacca in 1906. The League supported the partition of Bengal. It desired separate electorates for Muslims, a demand conceded by the government in 1909."
+      },
+      {
+        "id": "c52",
+        "claim": "In 1870 Viceroy Lord Mayo ensured provincial administrations received due share of revenue (financial decentralisation).",
+        "source": "s5",
+        "page": "Unit 1, §1.2.1",
+        "quote": "In 1870 viceroy Lord Mayo ensured that all parts of provincial administration received due share of revenue to meet their needs."
+      },
+      {
+        "id": "c53",
+        "claim": "The Councils Act of 1909 introduced for the first time a representative element with elected non-official members, and separate representation for the Muslim community.",
+        "source": "s5",
+        "page": "Unit 1, §1.2.1",
+        "quote": "The scope of political institutions in the provinces was expanded a little further following the introduction of Council of India Act, 1909. This Act introduced for the first time a \"representative element\" in British India, which included elected non-official members. This Act also introduced separate representation to Muslim community."
+      },
+      {
+        "id": "c54",
+        "claim": "The Government of India Act 1919 devolved authority to provinces, divided subjects and revenues between centre and provinces, and split provincial subjects into transferred and reserved.",
+        "source": "s5",
+        "page": "Unit 1, §1.2.1",
+        "quote": "The Government of India Act 1919 devolved some authority to the provincial governments, retaining the control of the central government (unitary government) on them. It divided the subjects for jurisdiction of administration and sources of revenue between centre and provinces. The provincial subjects were divided into \"transferred\" and \"reserved\" categories."
+      },
+      {
+        "id": "c55",
+        "claim": "The Rowlatt Act (1919) curbed fundamental rights such as freedom of expression and strengthened police powers; Gandhi called a satyagraha against it in 1919.",
+        "source": "s4",
+        "page": "Ch. 8, p. 100",
+        "quote": "In 1919, Gandhiji gave a call for a satyagraha against the Rowlatt Act that the British had just passed. The Act curbed fundamental rights such as the freedom of expression and strengthened police powers."
+      },
+      {
+        "id": "c56",
+        "claim": "In 1927 the British government sent a commission headed by Lord Simon to decide India's political future; it had no Indian representative and all political groups decided to boycott it.",
+        "source": "s4",
+        "page": "Ch. 8, p. 103",
+        "quote": "In 1927, the British government in England decided to send a commission headed by Lord Simon to decide India's political future. The Commission had no Indian representative. The decision created an outrage in India. All political groups decided to boycott the Commission."
+      },
+      {
+        "id": "c57",
+        "claim": "The Nehru Report (1928) was the first attempt by Indians themselves to prepare a Constitution of India; it was named after its drafting committee chairman Motilal Nehru.",
+        "source": "s5",
+        "page": "Unit 1, §1.2.2",
+        "quote": "The first attempt by Indians themselves to prepare a Constitution of India was made in the Nehru Report (1928). The Nehru Report was known as such because it was named after the chairman of its drafting committee, Motilal Nehru."
+      },
+      {
+        "id": "c58",
+        "claim": "The Government of India Act 1935 provided for provincial governments enjoying provincial autonomy.",
+        "source": "s5",
+        "page": "Unit 1, §1.2.1",
+        "quote": "the Government of India Act, 1935 also provided for provincial government enjoying provincial autonomy."
+      },
+      {
+        "id": "c59",
+        "claim": "The 1935 Act provided three lists of power division (federal, concurrent, provincial) and a federal court to adjudicate federation-province disputes.",
+        "source": "s5",
+        "page": "Unit 1, §1.2.1",
+        "quote": "This Act also provided for three lists of divisions of power between the federation (central government) and provinces: federal (central), concurrent and provincial. The Act also provided for establishment of a federal court to adjudicate disputes between federation and provinces."
+      },
+      {
+        "id": "c60",
+        "claim": "The 1935 federation could not be formed for want of princely unanimity; provincial elections were held in 1937 and Congress governments were formed in eight provinces (IGNOU).",
+        "source": "s5",
+        "page": "Unit 1, §1.2.1",
+        "quote": "the federal government could not be formed because there was no unanimity among the princes to join the federation. And election to the provincial legislature as per the Government of India Act, 1935 was held in 1937. Following the election of 1937, provincial governments headed by the Indian National Congress were formed in eight provinces."
+      },
+      {
+        "id": "c61",
+        "claim": "NCERT records that the 1935 Act prescribed provincial autonomy, elections to provincial legislatures were announced for 1937, and Congress formed governments in 7 of 11 provinces.",
+        "source": "s4",
+        "page": "Ch. 8, p. 106",
+        "quote": "The combined struggles of the Indian people bore fruit when the Government of India Act of 1935 prescribed provincial autonomy and the government announced elections to the provincial legislatures in 1937. The Congress formed governments in 7 out of 11 provinces."
+      },
+      {
+        "id": "c62",
+        "claim": "In 1942 the British government sent cabinet member Sir Stafford Cripps with draft proposals on constitution-making.",
+        "source": "s5",
+        "page": "Unit 1, §1.3.1",
+        "quote": "In 1942, the British government sent its cabinet member - Sir Stafford Cripps with the draft declaration on proposals (regarding formation of constitution for Indians) to be implemented at the end of the WW II"
+      },
+      {
+        "id": "c63",
+        "claim": "The Cabinet Mission consisted of three cabinet members - Lord Pethick-Lawrence, Sir Stafford Cripps and A.V. Alexander - and its proposals were announced on 16 May 1946.",
+        "source": "s5",
+        "page": "Unit 1, §1.3.2",
+        "quote": "It consisted of three cabinet members - Lord Pathic-Lawrence, Sir Stafford Cripps and Mr. A.V. Alexander. It, however, made its own proposal which was announced simultaneously on 16 May, 1946 in England as well as in India."
+      },
+      {
+        "id": "c64",
+        "claim": "The Constituent Assembly first met on 9 December 1946 and was boycotted by the Muslim League.",
+        "source": "s5",
+        "page": "Unit 1, §1.3.3",
+        "quote": "when the Constituent Assembly first met on December 9, 1946, it was boycotted by the Muslim League, and it functioned without the participation of the Muslim League."
+      },
+      {
+        "id": "c65",
+        "claim": "India attained independence at the midnight of 14-15 August 1947; two nation-states, India and Pakistan, came into existence.",
+        "source": "s7",
+        "page": "Ch. 1, pp. 3, 8",
+        "quote": "At the hour of midnight on 14-15 August 1947, India attained independence. On 14-15 August 1947, not one but two nation-states came into existence - India and Pakistan."
+      },
+      {
+        "id": "c66",
+        "claim": "Under the Mountbatten Plan the princely states were free to join India or Pakistan.",
+        "source": "s7",
+        "page": "Ch. 1, p. 16",
+        "quote": "Under the Mountbatten Plan, the Princely states were free to join India or Pakistan."
+      },
+      {
+        "id": "c67",
+        "claim": "C. Rajagopalachari served as a member of the Interim Government of 1946 and as free India's first Indian Governor-General.",
+        "source": "s4",
+        "page": "Ch. 8, p. 107",
+        "quote": "C. Rajagopalachari, popularly known as Rajaji, served as member of the Interim Government of 1946 and as free India's first Indian Governor-General."
+      },
+      {
+        "id": "c68",
+        "claim": "After 1858 all powers to govern India vested in the Secretary of State for India, assisted by a fifteen-member council; in British India he was assisted by the Viceroy with an executive council.",
+        "source": "s5",
+        "page": "Unit 1, §1.2.1",
+        "quote": "In the centralized structure of power which was introduced in the provinces, all powers to govern India vested in the Secretary of State for India (and through him in the Crown). He was assisted by a fifteen-member council of ministers. In British India, the Secretary of State of India was assisted by the Viceroy, who was assisted by an executive council."
+      },
+      {
+        "id": "c69",
+        "claim": "The early Congress wanted Legislative Councils made more representative and civil service examinations held in India as well, not just in London.",
+        "source": "s4",
+        "page": "Ch. 8, p. 95",
+        "quote": "It wanted the Legislative Councils to be made more representative, given more power, and introduced in provinces where none existed. For this purpose, it called for civil service examinations to be held in India as well, not just in London."
+      },
+      {
+        "id": "c70",
+        "claim": "Gandhi launched the Quit India movement in the middle of the Second World War, telling the British to quit India immediately.",
+        "source": "s4",
+        "page": "Ch. 8, p. 107",
+        "quote": "Mahatma Gandhi decided to initiate a new phase of movement against the British in the middle of the Second World War. The British must quit India immediately, he told them."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1871 @@
+{
+  "book": "history",
+  "code": "HIS-15",
+  "number": 15,
+  "part": "modern_company",
+  "title": "ইউরোপীয়দের আগমন",
+  "subtitle": "সমুদ্রপথের খোঁজ থেকে কোম্পানিগুলির প্রতিদ্বন্দ্বিতা: পর্তুগিজ, ওলন্দাজ, ইংরেজ ও ফরাসি",
+  "subtopics": [
+    "company_rule"
+  ],
+  "related_facts": [],
+  "prerequisites": [
+    "HIS-14"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 28,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 45/45 answers matched the key (43 SURE, 1 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 4 of 8 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_HIS-15.json and drafts/HIS-15_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/HIS-15_REPORT.md.",
+    "checked_claims": 52,
+    "checked_questions": 45,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "১৪৯৮ সালে ভাস্কো দা গামার কালিকটে আগমন থেকে শুরু করে সপ্তদশ শতকে পর্তুগিজ, ওলন্দাজ, ইংরেজ ও ফরাসি কোম্পানিগুলির প্রতিদ্বন্দ্বিতা—এই অধ্যায়ে আমরা দেখব কীভাবে মশলা ও বস্ত্রের বাণিজ্য ধীরে ধীরে সাম্রাজ্য গড়ার প্রতিযোগিতায় বদলে গেল। কার্তাজ-কাফিলার পর্তুগিজ ব্যবস্থা, VOC-র উত্থান, ইংরেজ কোম্পানির বাংলামুখী যাত্রা এবং ফরাসিদের পণ্ডিচেরি-কেন্দ্রিক স্বপ্ন—সব মিলিয়ে এটাই পরের অধ্যায়ের (HIS-16) ব্রিটিশ বিজয়ের পটভূমি।",
+    "you_will_learn": [
+      "কেন ইউরোপীয়রা ভারতের দিকে সরাসরি সমুদ্রপথ খুঁজেছিল",
+      "ভাস্কো দা গামা, আলমেইদা ও আলবুকার্কের ভূমিকা",
+      "কার্তাজ ও কাফিলা ব্যবস্থা কী এবং তার সীমা কোথায়",
+      "VOC (১৬০২) ও ওলন্দাজ কুঠিগুলির উত্থান-পতন",
+      "ইংরেজ কোম্পানি (১৬০০) কীভাবে বাংলার দিকে এগিয়ে আসে",
+      "ফরাসি কোম্পানি (১৬৬৪), পণ্ডিচেরি ও দ্যুপ্লের প্রতিদ্বন্দ্বিতা",
+      "বাণিজ্যের চরিত্র: বস্ত্র-রেশম-শোরা বনাম রুপোর আগমন"
+    ]
+  },
+  "sections": [
+    {
+      "id": "sea_route",
+      "heading": "কেন সমুদ্রপথের খোঁজ: মশলা, সম্পদ ও পুরনো বাণিজ্যজগৎ",
+      "quick": "ভারত ছিল ঐতিহ্য, সম্পদ ও সংস্কৃতিতে সমৃদ্ধ; বাণিজ্যের টানে চারটি প্রধান ইউরোপীয় দেশ—পর্তুগাল, ফ্রান্স, হল্যান্ড ও গ্রেট ব্রিটেন—ভারতের দিকে আসে। পোপের ভাবনা ছিল মশলার জন্য সরাসরি সমুদ্রপথ খুঁজে বের করা।",
+      "standard": "ইউরোপীয়দের আগমনের আগে ভারত মহাসাগরে শতাব্দীর পর শতাব্দী ধরে বাণিজ্য চলছিল—ভারতীয় বস্ত্র, কাঁচা রেশম ও শোরার (saltpetre) ইউরোপে ছিল বড় চাহিদা। NIOS পাঠ জানায়, এই যুগে চারটি প্রধান ইউরোপীয় দেশ ভারতে বাণিজ্য-বাণিজ্যিক স্বার্থে আসে—পর্তুগাল, ফ্রান্স, হল্যান্ড ও গ্রেট ব্রিটেন—কারণ দেশটি ছিল ঐতিহ্য, সম্পদ ও সংস্কৃতিতে সমৃদ্ধ। পর্তুগিজদের পাঠানোর পেছনে মূল ভাবনাটি ছিল পোপের: সম্পদশালী দেশগুলির দিকে, বিশেষত মশলার জন্য, সরাসরি সমুদ্রপথ খুঁজে বের করা এবং খ্রিস্টধর্ম প্রচার করা। পঞ্চদশ শতকের শেষে পর্তুগিজরা আফ্রিকার পশ্চিম উপকূল ছাড়িয়ে উত্তমাশা অন্তরীপের ওপারের মূল ভূখণ্ডের অংশও অন্বেষণ করে ফেলে। এই অন্বেষণের চূড়ান্ত ফল ১৪৯৮ সালের যাত্রা, যা পরের পরিচ্ছেদে পড়ব। মনে রাখবে, ইউরোপীয়রা শূন্যে আসেনি—তারা এসেছিল একটি জীবন্ত, প্রতিযোগিতামূলক বাণিজ্যজগতে, যেখানে ভারতীয় বণিকরাই ছিল প্রধান খেলোয়াড়।",
+      "deep": "IGNOU-র মূল্যায়ন গুরুত্বপূর্ণ: পর্তুগিজরা ভারত মহাসাগরের বাণিজ্যে ছোটখাটো বদল আনলেও তার কাঠামো, দিক ও সংগঠনে আমূল পরিবর্তন আনতে ব্যর্থ হয়। আশিন দাশগুপ্তের বিখ্যাত মন্তব্য—১৫০০ সালে ভারতীয় সামুদ্রিক ইতিহাসে কোনো 'ভাস্কো দা গামা যুগ' শুরু হয়নি। অর্থাৎ পরীক্ষায় 'প্রথম আগমন' মনে রাখতে হবে, কিন্তু ইতিহাসের বিচারে ভারতীয় বাণিজ্য নিজের গতিতেই চলতে থাকে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "আগমনের ক্রম (কোম্পানি গঠনের হিসাবে): ইংরেজ ১৬০০ → ওলন্দাজ ১৬০২ → ফরাসি ১৬৬৪। কিন্তু ভারতে প্রথম পা রাখে পর্তুগিজরা, ১৪৯৮ সালে—কোম্পানি গঠনের অনেক আগে, রাজকীয় উদ্যোগে।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c04",
+        "c32",
+        "c19",
+        "c20"
+      ]
+    },
+    {
+      "id": "portuguese",
+      "heading": "পর্তুগিজ আগমন: ভাস্কো দা গামা থেকে গোয়া",
+      "quick": "পর্তুগিজরাই প্রথম ইউরোপীয় যারা ভারতে আসে। ভাস্কো দা গামা ১৪৯৮ সালের ১৭ মে কালিকটে নামেন। ১৫০৫ সালে আলমেইদা দুর্গ গড়ার নির্দেশ নিয়ে আসেন; ১৫১০ সালে আলবুকার্ক বিজাপুরের সুলতানের কাছ থেকে গোয়া দখল করে রাজধানী করেন।",
+      "standard": "পর্তুগিজদের আগমনই ইউরোপীয় সমুদ্রবাণিজ্যের নতুন অধ্যায় খুলে দেয়। ভাস্কো দা গামা উত্তমাশা অন্তরীপ ঘুরে সরাসরি সমুদ্রপথে ১৪৯৮ সালের ১৭ মে কালিকটে পৌঁছান—IGNOU-র ভাষায়, এই আবিষ্কার ইউরো-এশীয় বাণিজ্যের ইতিহাসে নতুন যুগের সূচনা করে। এরপর পর্তুগিজরা শুধু কুঠি নয়, কৌশলগত বিন্দুতে সামরিক ঘাঁটিও গড়তে থাকে এবং নিজেদের লোকদের শাসনের জন্য একজন ভাইসরয় নিয়োগ করে। ১৫০৫ সালের শুরুতে ফ্রান্সিসকো দে আলমেইদা বড় নৌবহর ও ১৫০০ সৈন্য নিয়ে কিলওয়া, আঞ্জাদিব, কান্নানুর ও কোচিনে দুর্গ নির্মাণের নির্দেশে আসেন। আসল মোড় আসে ১৫১০ সালে: আলফোনসো দে আলবুকার্ক বিজাপুরের সুলতানের কাছ থেকে গোয়া দখল করে সেটিকে পর্তুগিজ পূর্ব-সাম্রাজ্যের রাজধানী করেন। তারপর ১৫১১ সালে মালাক্কা—দক্ষিণ-পূর্ব এশিয়ার প্রধান বাণিজ্যকেন্দ্র—এবং ১৫১৫ সালে পারস্য উপসাগরের মুখে হরমুজ জয় করে পর্তুগিজরা সমুদ্রপথ নিয়ন্ত্রণের জাল বিস্তার করে। গুজরাটের দিউ ছিল ভারতে তাদের দ্বিতীয় গুরুত্বপূর্ণ কেন্দ্র।",
+      "deep": "IGNOU জোর দিয়ে বলছে, ১৫১০ সালে গোয়া দখলের আগে পর্যন্ত ভারত মহাসাগরে ভবিষ্যৎ পর্তুগিজ সামুদ্রিক সাম্রাজ্যের ভিত্তি সত্যিকারে স্থাপিত হয়নি। অর্থাৎ ভাস্কো দা গামা পথ খুলে দিলেও সাম্রাজ্যের ভিত গাঁথেন আলবুকার্ক—দুর্গ, বন্দর ও রাজধানীর ত্রিভুজ দিয়ে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "WBCS ২০১৯ ও ক্লার্কশিপ ২০২৩—দুটি পরীক্ষাতেই এসেছে ভাস্কো দা গামা ও ১৪৯৮/কালিকট। গোয়া (১৫১০, আলবুকার্ক) পর্তুগিজ রাজধানী—কালিকট নয়; কালিকট শুধু প্রথম অবতরণের স্থান।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ে ফেলো না",
+          "body": "আলমেইদা (১৫০৫) আসেন দুর্গ গড়ার নির্দেশ নিয়ে; আলবুকার্ক (১৫১০) গোয়া দখল করেন। নাম দুটি কাছাকাছি—পরীক্ষায় প্রায়ই বদলে দেওয়া হয়।"
+        }
+      ],
+      "claims": [
+        "c02",
+        "c03",
+        "c05",
+        "c07",
+        "c08",
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c13"
+      ]
+    },
+    {
+      "id": "portuguese_system",
+      "heading": "কার্তাজ-কাফিলা: পর্তুগিজ বাণিজ্যব্যবস্থা ও তার সীমা",
+      "quick": "পর্তুগিজদের উদ্দেশ্য ছিল দ্বিমুখী: ইউরোপে মশলা সরবরাহে একচেটিয়া আধিপত্য এবং বলপ্রয়োগে এশীয় বাণিজ্য নিয়ন্ত্রণ ও কর আদায়। তার হাতিয়ার ছিল কার্তাজ (ছাড়পত্র) ও কাফিলা (দলবদ্ধ যাত্রা) ব্যবস্থা।",
+      "standard": "পর্তুগিজ বাণিজ্যব্যবস্থা দাঁড়িয়ে ছিল একটি সহজ ধারণার উপর: নিজেদের জন্য একচেটিয়া বাণিজ্য, আর এশীয়দের জন্য লাইসেন্স-ভিত্তিক বাণিজ্য। সেই লাইসেন্সের নাম কার্তাজ—প্রতিটি এশীয় জাহাজকে নির্দিষ্ট যাত্রার জন্য পর্তুগিজদের কাছ থেকে কার্তাজ নিতে হত, যেখানে যাত্রাপথ ও বন্দর নির্দিষ্ট থাকত এবং পর্তুগিজ-নিয়ন্ত্রিত বন্দরে শুল্ক দিয়ে যেতে হত। কার্তাজ ছাড়া ধরা পড়লে জাহাজ স্বয়ংক্রিয়ভাবে বাজেয়াপ্ত হত। ষোড়শ শতকের দ্বিতীয়ার্ধে আসে কাফিলা ব্যবস্থা: নির্দিষ্ট বিন্দুর মধ্যে চলাচলকারী জাহাজগুলিকে পর্তুগিজ নৌবহরের পাহারায় দল বেঁধে যাত্রা করতে হত—যাতে কেউ শুল্ক এড়িয়ে বেরিয়ে যেতে না পারে। বাণিজ্যের কেন্দ্রে ছিল গোলমরিচ: ষোড়শ শতকের প্রথম দুই দশকে তা ছিল মোট এশীয় পণ্যের প্রায় ৯৫ শতাংশ (আয়তনে)। তবু এই ব্যবস্থার সীমা ছিল স্পষ্ট—ভারতীয় বণিকরা নানা পথে এই নিয়ন্ত্রণ এড়িয়ে যেত, আর সামগ্রিক বাণিজ্যকাঠামো বদলে দেওয়ার ক্ষমতা পর্তুগিজদের ছিল না।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "জানো কি",
+          "body": "কার্তাজের ফি ছিল খুবই কম; আসল উদ্দেশ্য ছিল অর্থ নয়, নিয়ন্ত্রণ—কোন জাহাজ কোথায় যাচ্ছে তা জানা এবং তাকে পর্তুগিজ বন্দরে শুল্ক দিতে বাধ্য করা।"
+        }
+      ],
+      "claims": [
+        "c06",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18"
+      ]
+    },
+    {
+      "id": "dutch",
+      "heading": "ওলন্দাজ আগমন: VOC ও তার কুঠিগুলি",
+      "quick": "১৬০২ সালে কয়েকটি কোম্পানির সংযুক্তিতে গঠিত হয় ওলন্দাজ ইস্ট ইন্ডিয়া কোম্পানি (VOC)। প্রথম কুঠি মাসুলিপত্তনমে (১৬০৫); পুলিকটের দুর্গ-কুঠির নাম গেলড্রিয়া। ১৭৪১ সালে কোলাচেলে পরাজয়ে মালাবারে ওলন্দাজ শক্তির পতন ঘটে।",
+      "standard": "পর্তুগিজ রাজকীয় একচেটিয়ার জবাব হিসেবেই ইউরোপের রাষ্ট্রগুলি সপ্তদশ শতকের গোড়ায় বণিকদের সনদপ্রাপ্ত কোম্পানিতে সংগঠিত করে। ওলন্দাজ কোম্পানি তৈরি হয় ১৬০২ সালে কয়েকটি কোম্পানির একীভূতকরণের মাধ্যমে—যাতে তারা পরস্পরের সঙ্গে প্রতিযোগিতা না করে একসঙ্গে কাজ করে। ১৬০৫ সালে অ্যাডমিরাল ভ্যান ডার হাগেন অন্ধ্রপ্রদেশের মাসুলিপত্তনমে প্রথম ওলন্দাজ কুঠি স্থাপন করেন। ১৬১০ সালে চন্দ্রগিরির রাজার সঙ্গে আলোচনা করে পুলিকটে কুঠি গড়া হয়, দুর্গায়িত করে নাম দেওয়া হয় গেলড্রিয়া। এরপর সুরাটসহ নানা স্থানে কুঠি ছড়িয়ে পড়ে; ১৬২৭ সালে প্রতিষ্ঠিত হয় ওলন্দাজ বাংলা। ওলন্দাজরা মূলত মশলার বাণিজ্যে জোর দিত। কিন্তু ভারতীয় শক্তির কাছেই তাদের থামতে হয়: ১৭৪১ সালে কোলাচেলের যুদ্ধে ত্রিবাঙ্কুরের মার্তণ্ড বর্মা ওলন্দাজ কোম্পানিকে চরম আঘাত দেন—মালাবারে ওলন্দাজ শক্তির পূর্ণ পরাজয় ঘটে।",
+      "deep": "IGNOU অনুযায়ী ওলন্দাজ ও ইংরেজ—এই দুই কোম্পানিই সপ্তদশ শতক ও অষ্টাদশ শতকের প্রথমার্ধে ভারতের বিদেশবাণিজ্যের অত্যধিক বড় অংশ দখল করে ছিল। ওলন্দাজদের বিশেষ শক্তি ছিল এশিয়ার অভ্যন্তরীণ (intra-Asian) বাণিজ্যে—ভারতীয় বস্ত্র দিয়ে ইন্দোনেশিয়ার মশলা কেনা।",
+      "boxes": [],
+      "claims": [
+        "c21",
+        "c24",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c48"
+      ]
+    },
+    {
+      "id": "english",
+      "heading": "ইংরেজ আগমন: ১৬০০-র কোম্পানি থেকে বাংলার দিকে",
+      "quick": "ইংরেজ ইস্ট ইন্ডিয়া কোম্পানি গঠিত হয় ১৬০০ সালে—সবার আগে। NIOS অনুযায়ী ১৬১২ সালেই তারা ভারতে কুঠি স্থাপন করে। ১৬৫০-এর দশকে ওলন্দাজদের মতো তারাও বাংলার হুগলিতে কুঠি গড়ে।",
+      "standard": "মশলার বিশাল ইউরোপীয় বাজার এবং পর্তুগিজদের উচ্চ মুনাফাই ইংরেজদের টেনে আনে: ১৬০০ সালে গঠিত হয় ইংরেজ যৌথ-মূলধনি ইস্ট ইন্ডিয়া কোম্পানি, যার পূর্ব ইন্ডিজের সঙ্গে বাণিজ্যে একচেটিয়া অধিকার ছিল রাজতন্ত্রের নিশ্চয়তাপ্রাপ্ত। NIOS পাঠ অনুযায়ী ১৬১২ সালেই কোম্পানি ভারতে বাণিজ্যের জন্য কুঠি স্থাপন করে উপস্থিতি গড়ে তোলে। ইংরেজরা প্রধানত বস্ত্রের বাণিজ্যে জোর দিত, আর ভারত ছিল তাদের বাণিজ্যের কেন্দ্র—সপ্তদশ শতকের দ্বিতীয়ার্ধে তাদের মোট আমদানির ৯৫ শতাংশ ও ৮৪ শতাংশ আসত ভারত থেকে। বাংলার দিকে মোড় নেয় ১৬৫০-এর দশকের গোড়ায়: ওলন্দাজ ও ইংরেজ—দুই কোম্পানিই তখন বাংলার প্রধান বন্দর হুগলিতে কুঠি স্থাপন করে, কারণ বাংলা ছিল সস্তা সুতি বস্ত্র, উৎকৃষ্ট কাঁচা রেশম ও শোরার সবচেয়ে বড় উৎপাদক। এখান থেকেই শুরু সেই পথ, যা এক শতক পরে পলাশিতে গিয়ে ঠেকবে (বিস্তারিত HIS-16-তে)।",
+      "deep": "বাণিজ্যের আর্থিক চরিত্রটা বোঝা জরুরি: কোম্পানিগুলি ভারতীয় পণ্যের বিনিময়ে প্রধানত রুপোসহ মূল্যবান ধাতু আনত—এটাই 'bullion for goods' চরিত্র। ১৭৫৭ সালে বাংলাজয়ের পর এই রুপোর আগমন প্রায় সম্পূর্ণ বন্ধ হয়ে যায়, কারণ তখন কোম্পানির বিনিয়োগ চলতে থাকে বাংলার নিজের সম্পদে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "WBCS ২০১৬ ও ২০১৯-এ সুরাটের প্রথম ইংরেজ কুঠি ও জাহাঙ্গীরের ফরমান নিয়ে প্রশ্ন এসেছে। এই অধ্যায়ের ব্যবহৃত সূত্রগুলিতে (IGNOU/NIOS) সুরাট-ফরমানের বিবরণ নেই—তাই এখানে তা শেখানো হয়নি; ফাঁকটি pyq_map-এ খোলাখুলি লেখা আছে।"
+        }
+      ],
+      "claims": [
+        "c22",
+        "c23",
+        "c25",
+        "c30",
+        "c31",
+        "c51",
+        "c33",
+        "c34"
+      ]
+    },
+    {
+      "id": "french_rivalry",
+      "heading": "ফরাসি আগমন ও ইউরোপীয় প্রতিদ্বন্দ্বিতার পরিণতি",
+      "quick": "সবচেয়ে দেরিতে আসে ফরাসিরা: কোলবের ১৬৬৪ সালে ফরাসি কোম্পানি গড়েন। প্রথম কুঠি সুরাটে (১৬৬৮), কেন্দ্র পণ্ডিচেরি (১৬৭৪), রাজধানী ১৭০১ সালে। দ্যুপ্লের উচ্চাকাঙ্ক্ষা সাত বছরের যুদ্ধে ভেঙে পড়ে।",
+      "standard": "ফরাসিরা ছিল পূর্বদেশীয় সমুদ্র-উদ্যোগে দেরিতে আসা প্রতিযোগী; স্থানীয় শাসক ও বণিকগোষ্ঠীর সঙ্গে দীর্ঘ আলোচনার মধ্য দিয়ে তাদের এগোতে হয়। ১৬৬৪ সালে জাঁ-বাপতিস্ত কোলবের ফরাসি ইস্ট ইন্ডিয়া কোম্পানি প্রতিষ্ঠা করেন। প্রথম কুঠি হয় ১৬৬৮ সালে সুরাটে ফ্রান্সিস ক্যারনের অধীনে; পরের বছর মাসুলিপত্তনমে দ্বিতীয় কুঠি। ১৬৭৪ সালে ফ্রাঁসোয়া মার্তাঁ পণ্ডিচেরিতে বাণিজ্যকেন্দ্র স্থাপন করেন; ১৬৯৯ সালে পণ্ডিচেরি ফরাসিদের ফেরত পাওয়া ও মার্তাঁর (১৬৯৯–১৭০৬) সুদক্ষ পরিচালনা ফরাসি বাণিজ্যের পথ প্রশস্ত করে। ১৭০১ সালে পণ্ডিচেরি হয় ভারতে ফরাসি বসতিগুলির রাজধানী; পরে মাহে (১৭২০), ইয়ানাম (১৭৩১) ও কারাইকাল (১৭৩৮) ফরাসি অধিকারে আসে। ১৭৪২ সালে দ্যুপ্লে দায়িত্ব নিয়ে ১৭৪৬ সালে মাদ্রাজ দখল করেন—কিন্তু সাত বছরের যুদ্ধে (১৭৫৬–৬৩) ফরাসিরা পরাজিত হয়, ১৭৬১ সালে পণ্ডিচেরি দখল হয়; ১৭৬৫ সালে শান্তিচুক্তিতে তা ফেরত পেলেও ফরাসি সাম্রাজ্যের স্বপ্ন শেষ হয়ে যায়। ছোট প্রতিযোগীদের মধ্যে ডেনিশ কোম্পানির দুর্গ-কুঠি ছিল ট্রাঙ্কেবারে; অস্টেন্ড, সুইডিশ ও ডেনিশ কোম্পানিগুলি অষ্টাদশ শতকের গোড়ায় খুব সামান্য মাত্রায় বাণিজ্য শুরু করে। শেষ বিচারে IGNOU-র কথা সত্যি হয়: বাণিজ্যিক প্রতিষ্ঠান হিসেবে শুরু করলেও কোম্পানিগুলি হয়ে ওঠে সাম্রাজ্য-নির্মাতা।",
+      "deep": "প্রতিদ্বন্দ্বিতার ভারতীয় ধারাবাহিকতা এই অধ্যায়ের সীমানার বাইরে গেলেও সূত্র দুটি মোড় চিহ্নিত করে: ১৭৫৭ সালে পলাশিতে জয় ইংরেজ কোম্পানিকে পূর্ব ভারতে পা রাখার সুযোগ দেয়, আর ১৭৬৪ সালে বক্সারে তারা বাংলার নবাব, অযোধ্যার নবাব ও শাহ আলম II-এর সম্মিলিত বাহিনীকে হারায়। ১৮৫৮ সালের ২ আগস্ট ব্রিটিশ সংসদ কোম্পানির হাত থেকে ভারতের শাসনভার মুকুটের হাতে তুলে দেয়—অর্থাৎ যে কোম্পানি বাণিজ্য করতে এসেছিল, তারই শাসনযুগের অবসান ঘটে রাষ্ট্রীয় হস্তক্ষেপে। বিস্তারিত HIS-16 ও HIS-19-এ।",
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "বাংলার যোগ",
+          "body": "ফরাসিদের বাংলায় কুঠি ছিল চন্দননগরে (চন্দ্রনগর); NIOS পাঠে ফরাসি কুঠিগুলির তালিকায় বাংলার চন্দ্রনগরের নাম আছে এবং ১৮১৬ সালে ফেরত পাওয়া ফরাসি কেন্দ্রগুলির মধ্যেও চন্দননগর ছিল।"
+        }
+      ],
+      "claims": [
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c46",
+        "c47",
+        "c49",
+        "c50",
+        "c52",
+        "c43",
+        "c44",
+        "c45"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "ভাস্কো দা গামার কালিকটে আগমন",
+      "when": "১৭ মে ১৪৯৮",
+      "what": "পর্তুগিজ নাবিক ভাস্কো দা গামা উত্তমাশা অন্তরীপ ঘুরে সরাসরি সমুদ্রপথে কালিকটে পৌঁছান।",
+      "why_it_matters": "ইউরো-এশীয় বাণিজ্যে নতুন যুগের সূচনা; ইউরোপীয়দের ভারতে আগমনের ধারাবাহিকতার শুরু।",
+      "section": "portuguese",
+      "claims": [
+        "c03",
+        "c05"
+      ]
+    },
+    {
+      "title": "আলবুকার্কের গোয়া দখল",
+      "when": "১৫১০",
+      "what": "আলবুকার্ক বিজাপুরের সুলতানের কাছ থেকে গোয়া দখল করে পর্তুগিজ পূর্ব-সাম্রাজ্যের রাজধানী করেন।",
+      "why_it_matters": "ভারত মহাসাগরে পর্তুগিজ সামুদ্রিক সাম্রাজ্যের প্রকৃত ভিত্তি স্থাপিত হয়।",
+      "section": "portuguese",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "title": "মালাক্কা ও হরমুজ জয়",
+      "when": "১৫১১ ও ১৫১৫",
+      "what": "পর্তুগিজরা দক্ষিণ-পূর্ব এশিয়ার বাণিজ্যকেন্দ্র মালাক্কা (১৫১১) এবং পারস্য উপসাগরের মুখে হরমুজ (১৫১৫) জয় করে।",
+      "why_it_matters": "সমুদ্রপথের দুই মুখ নিয়ন্ত্রণে এনে পর্তুগিজরা বাণিজ্য-জাল বিস্তার করে।",
+      "section": "portuguese",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "title": "ইংরেজ ইস্ট ইন্ডিয়া কোম্পানি গঠন",
+      "when": "১৬০০",
+      "what": "যৌথ-মূলধনি ইংরেজ কোম্পানি রাজতন্ত্র-নিশ্চিত একচেটিয়া বাণিজ্যাধিকার নিয়ে গঠিত হয়।",
+      "why_it_matters": "সনদপ্রাপ্ত কোম্পানিগুলির যুগের শুরু; এই কোম্পানিই পরে ভারতের শাসক হয়।",
+      "section": "english",
+      "claims": [
+        "c22",
+        "c23"
+      ]
+    },
+    {
+      "title": "VOC গঠন ও প্রথম ওলন্দাজ কুঠি",
+      "when": "১৬০২ ও ১৬০৫",
+      "what": "কয়েকটি কোম্পানির সংযুক্তিতে VOC গঠিত হয় (১৬০২); ভ্যান ডার হাগেন মাসুলিপত্তনমে প্রথম ওলন্দাজ কুঠি স্থাপন করেন (১৬০৫)।",
+      "why_it_matters": "পর্তুগিজ একচেটিয়ার প্রথম সংগঠিত প্রতিদ্বন্দ্বী তৈরি হয়।",
+      "section": "dutch",
+      "claims": [
+        "c24",
+        "c26"
+      ]
+    },
+    {
+      "title": "ফরাসি কোম্পানি ও পণ্ডিচেরি",
+      "when": "১৬৬৪ ও ১৬৭৪",
+      "what": "কোলবের ফরাসি কোম্পানি গঠন করেন (১৬৬৪); মার্তাঁ পণ্ডিচেরিতে বাণিজ্যকেন্দ্র স্থাপন করেন (১৬৭৪)।",
+      "why_it_matters": "শেষ বড় প্রতিযোগীর প্রবেশ; পণ্ডিচেরি হয় ইঙ্গ-ফরাসি প্রতিদ্বন্দ্বিতার কেন্দ্র।",
+      "section": "french_rivalry",
+      "claims": [
+        "c35",
+        "c37"
+      ]
+    },
+    {
+      "title": "কোলাচেলের যুদ্ধ",
+      "when": "১৭৪১",
+      "what": "ত্রিবাঙ্কুরের মার্তণ্ড বর্মা ওলন্দাজ কোম্পানিকে পরাজিত করেন।",
+      "why_it_matters": "ভারতীয় শাসকের হাতে ইউরোপীয় কোম্পানির নির্ণায়ক পরাজয়; মালাবারে ওলন্দাজ শক্তির পতন।",
+      "section": "dutch",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "title": "পলাশি ও বক্সার (পরের অধ্যায়ের সেতু)",
+      "when": "১৭৫৭ ও ১৭৬৪",
+      "what": "কোম্পানি পলাশিতে জয়ী হয় (১৭৫৭) এবং বক্সারে সম্মিলিত বাহিনীকে হারায় (১৭৬৪)।",
+      "why_it_matters": "বাণিজ্যিক কোম্পানি থেকে আঞ্চলিক শক্তিতে রূপান্তরের মোড়—বিস্তারিত HIS-16-তে।",
+      "section": "english",
+      "claims": [
+        "c43",
+        "c44"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "ভাস্কো দা গামা",
+      "when": "১৪৯৮",
+      "role": "পর্তুগিজ নাবিক",
+      "contribution": "উত্তমাশা অন্তরীপ ঘুরে সরাসরি সমুদ্রপথে কালিকটে পৌঁছে ইউরোপ-ভারত সরাসরি সমুদ্রবাণিজ্যের পথ খুলে দেন।",
+      "section": "portuguese",
+      "claims": [
+        "c03",
+        "c05"
+      ]
+    },
+    {
+      "name": "ফ্রান্সিসকো দে আলমেইদা",
+      "when": "১৫০৫",
+      "role": "পর্তুগিজ নৌসেনাপতি",
+      "contribution": "বড় নৌবহর ও ১৫০০ সৈন্য নিয়ে কিলওয়া, আঞ্জাদিব, কান্নানুর ও কোচিনে দুর্গ নির্মাণের নির্দেশে আসেন।",
+      "section": "portuguese",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "name": "আলফোনসো দে আলবুকার্ক",
+      "when": "১৫১০",
+      "role": "পর্তুগিজ শাসক",
+      "contribution": "বিজাপুরের সুলতানের কাছ থেকে গোয়া দখল করে রাজধানী করেন; তাঁর হাতেই পর্তুগিজ সামুদ্রিক সাম্রাজ্যের ভিত্তি স্থাপিত হয়।",
+      "section": "portuguese",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "name": "অ্যাডমিরাল ভ্যান ডার হাগেন",
+      "when": "১৬০৫",
+      "role": "ওলন্দাজ নৌসেনাপতি",
+      "contribution": "মাসুলিপত্তনমে প্রথম ওলন্দাজ কুঠি স্থাপন করেন।",
+      "section": "dutch",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "name": "মার্তণ্ড বর্মা",
+      "when": "১৭৪১",
+      "role": "ত্রিবাঙ্কুরের শাসক",
+      "contribution": "কোলাচেলের যুদ্ধে ওলন্দাজ কোম্পানিকে পরাজিত করে মালাবারে ওলন্দাজ শক্তির পতন ঘটান।",
+      "section": "dutch",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "name": "জাঁ-বাপতিস্ত কোলবের",
+      "when": "১৬৬৪",
+      "role": "ফরাসি মন্ত্রী",
+      "contribution": "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি প্রতিষ্ঠা করেন।",
+      "section": "french_rivalry",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "name": "ফ্রান্সিস ক্যারন",
+      "when": "১৬৬৮",
+      "role": "ফরাসি কোম্পানির কর্মকর্তা",
+      "contribution": "তাঁর অধীনে সুরাটে প্রথম ফরাসি কুঠি স্থাপিত হয়।",
+      "section": "french_rivalry",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "name": "ফ্রাঁসোয়া মার্তাঁ",
+      "when": "১৬৭৪",
+      "role": "ফরাসি কোম্পানির কর্মকর্তা",
+      "contribution": "পণ্ডিচেরিতে ফরাসি বাণিজ্যকেন্দ্র স্থাপন করেন; পরে (১৬৯৯–১৭০৬) গভর্নর হিসেবে ফরাসি বাণিজ্যের পথ প্রশস্ত করেন।",
+      "section": "french_rivalry",
+      "claims": [
+        "c37",
+        "c50"
+      ]
+    },
+    {
+      "name": "জোসেফ ফ্রাঁসোয়া দ্যুপ্লে",
+      "when": "১৭৪২–১৭৪৬",
+      "role": "ভারতে ফরাসি সাম্রাজ্যের দায়িত্বপ্রাপ্ত",
+      "contribution": "১৭৪২ সালে দায়িত্ব নিয়ে ১৭৪৬ সালে মাদ্রাজ দখল করেন; তাঁর উচ্চাকাঙ্ক্ষাই ইঙ্গ-ফরাসি সংঘাতকে তীব্র করে।",
+      "section": "french_rivalry",
+      "claims": [
+        "c40"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1498,
+      "when": "১৪৯৮",
+      "label": "ভাস্কো দা গামা কালিকটে পৌঁছান",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 1505,
+      "when": "১৫০৫",
+      "label": "আলমেইদা দুর্গ নির্মাণের নির্দেশ নিয়ে আসেন",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "sort_year": 1510,
+      "when": "১৫১০",
+      "label": "আলবুকার্কের গোয়া দখল; পর্তুগিজ রাজধানী",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "sort_year": 1511,
+      "when": "১৫১১",
+      "label": "মালাক্কা দখল",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "sort_year": 1515,
+      "when": "১৫১৫",
+      "label": "হরমুজ জয়",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "sort_year": 1600,
+      "when": "১৬০০",
+      "label": "ইংরেজ ইস্ট ইন্ডিয়া কোম্পানি গঠন",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "sort_year": 1602,
+      "when": "১৬০২",
+      "label": "ওলন্দাজ ইস্ট ইন্ডিয়া কোম্পানি (VOC) গঠন",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "sort_year": 1605,
+      "when": "১৬০৫",
+      "label": "মাসুলিপত্তনমে প্রথম ওলন্দাজ কুঠি",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "sort_year": 1610,
+      "when": "১৬১০",
+      "label": "পুলিকটে ওলন্দাজ কুঠি (গেলড্রিয়া)",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "sort_year": 1612,
+      "when": "১৬১২",
+      "label": "ভারতে ইংরেজ কোম্পানির কুঠি-ভিত্তিক উপস্থিতি (NIOS)",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "sort_year": 1627,
+      "when": "১৬২৭",
+      "label": "ওলন্দাজ বাংলা প্রতিষ্ঠা",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "sort_year": 1664,
+      "when": "১৬৬৪",
+      "label": "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি গঠন",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "sort_year": 1668,
+      "when": "১৬৬৮",
+      "label": "সুরাটে প্রথম ফরাসি কুঠি",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "sort_year": 1674,
+      "when": "১৬৭৪",
+      "label": "পণ্ডিচেরিতে ফরাসি বাণিজ্যকেন্দ্র",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "sort_year": 1701,
+      "when": "১৭০১",
+      "label": "পণ্ডিচেরি ফরাসি বসতিগুলির রাজধানী",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "sort_year": 1741,
+      "when": "১৭৪১",
+      "label": "কোলাচেলের যুদ্ধে ওলন্দাজ পরাজয়",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "sort_year": 1742,
+      "when": "১৭৪২",
+      "label": "দ্যুপ্লে ভারতে ফরাসি দায়িত্ব নেন",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "sort_year": 1757,
+      "when": "১৭৫৭",
+      "label": "পলাশির যুদ্ধে কোম্পানির জয়",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "sort_year": 1764,
+      "when": "১৭৬৪",
+      "label": "বক্সারের যুদ্ধে কোম্পানির জয়",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "sort_year": 1765,
+      "when": "১৭৬৫",
+      "label": "শান্তিচুক্তিতে পণ্ডিচেরি ফরাসিদের ফেরত",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "sort_year": 1858,
+      "when": "১৮৫৮",
+      "label": "কোম্পানির হাত থেকে শাসনভার মুকুটের হাতে",
+      "claims": [
+        "c45"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "কার্তাজ (Cartaz)",
+      "meaning": "পর্তুগিজদের দেওয়া ছাড়পত্র; প্রতিটি এশীয় জাহাজকে নির্দিষ্ট যাত্রার জন্য এটি নিতে হত।",
+      "section": "portuguese_system"
+    },
+    {
+      "term": "কাফিলা (Qafila)",
+      "meaning": "পর্তুগিজ নৌবহরের পাহারায় জাহাজগুলির দলবদ্ধ যাত্রার ব্যবস্থা, যাতে শুল্ক এড়ানো না যায়।",
+      "section": "portuguese_system"
+    },
+    {
+      "term": "কুঠি (Factory)",
+      "meaning": "বাণিজ্যের জন্য গড়া গুদাম-কেন্দ্র; NIOS অনুযায়ী ইংরেজরা ১৬১২ সালেই ভারতে বাণিজ্যের উদ্দেশ্যে কুঠি স্থাপন করে।",
+      "section": "english"
+    },
+    {
+      "term": "সনদপ্রাপ্ত কোম্পানি (Chartered Company)",
+      "meaning": "রাষ্ট্র/রাজতন্ত্রের সনদে একচেটিয়া বাণিজ্যাধিকার পাওয়া কোম্পানি; পর্তুগিজ একচেটিয়ার জবাবে ওলন্দাজ, ফরাসি ও ইংরেজরা এমন কোম্পানি গড়ে।",
+      "section": "dutch"
+    },
+    {
+      "term": "VOC",
+      "meaning": "Verenigde Oostindische Compagnie—১৬০২ সালে গঠিত ওলন্দাজ ইস্ট ইন্ডিয়া কোম্পানি।",
+      "section": "dutch"
+    },
+    {
+      "term": "গেলড্রিয়া (Geldria)",
+      "meaning": "পুলিকটে দুর্গায়িত ওলন্দাজ কুঠির নাম (১৬১০)।",
+      "section": "dutch"
+    },
+    {
+      "term": "এস্তাদো দা ইন্ডিয়া-ধাঁচের রাজকীয় একচেটিয়া",
+      "meaning": "ষোড়শ শতকে পর্তুগিজ রাজকীয় একচেটিয়া বাণিজ্য, যার প্রতিদ্বন্দ্বিতায় পরের শতকে সনদপ্রাপ্ত কোম্পানিগুলি আসে।",
+      "section": "portuguese_system"
+    },
+    {
+      "term": "Bullion for goods",
+      "meaning": "ভারতীয় পণ্যের বিনিময়ে কোম্পানিগুলির প্রধানত রুপো আনা—ভারত-ইউরোপ বাণিজ্যের প্রধান চরিত্র।",
+      "section": "english"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "সমুদ্রপথের খোঁজ থেকে পর্তুগিজ আগমন",
+      "causes": [
+        "মশলার জন্য সরাসরি সমুদ্রপথের সন্ধান (পোপের ভাবনা)",
+        "ভারতের সম্পদ ও বাণিজ্যিক আকর্ষণ"
+      ],
+      "event": "ভাস্কো দা গামা উত্তমাশা অন্তরীপ ঘুরে ১৪৯৮ সালে কালিকটে পৌঁছান",
+      "results": [
+        "ইউরো-এশীয় বাণিজ্যে নতুন যুগের সূচনা",
+        "পর্তুগিজ দুর্গ-বন্দরের জাল: গোয়া, মালাক্কা, হরমুজ"
+      ],
+      "section": "portuguese",
+      "claims": [
+        "c04",
+        "c05",
+        "c08",
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "title": "পর্তুগিজ মুনাফা থেকে কোম্পানিগুলির প্রতিযোগিতা",
+      "causes": [
+        "ইউরোপে মশলার বিশাল বাজার",
+        "পর্তুগিজদের উচ্চ মুনাফা"
+      ],
+      "event": "ইংরেজ (১৬০০), ওলন্দাজ (১৬০২) ও ফরাসি (১৬৬৪) সনদপ্রাপ্ত কোম্পানি গঠন",
+      "results": [
+        "ভারত মহাসাগরে বহুপক্ষীয় প্রতিদ্বন্দ্বিতা",
+        "কোম্পানিগুলি ধীরে ধীরে সাম্রাজ্য-নির্মাতায় পরিণত হয়"
+      ],
+      "section": "french_rivalry",
+      "claims": [
+        "c25",
+        "c49"
+      ]
+    },
+    {
+      "title": "বাংলার সম্পদ থেকে কোম্পানিগুলির বাংলামুখী যাত্রা",
+      "causes": [
+        "বাংলা সস্তা সুতি বস্ত্র, কাঁচা রেশম ও শোরার বড় উৎপাদক",
+        "হুগলি তখন বাংলার প্রধান বন্দর"
+      ],
+      "event": "১৬৫০-এর দশকের গোড়ায় ওলন্দাজ ও ইংরেজ—দুই কোম্পানিরই হুগলিতে কুঠি স্থাপন",
+      "results": [
+        "অষ্টাদশ শতকের গোড়ায় বাংলা ইউরোপীয় বাণিজ্যের প্রধান কেন্দ্র",
+        "১৭৫৭-র পর বাংলার সম্পদেই কোম্পানির বিনিয়োগ, রুপোর আগমন বন্ধ"
+      ],
+      "section": "english",
+      "claims": [
+        "c31",
+        "c34"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "ভাস্কো দা গামা: ১৪৯৮, কালিকট—WBCS ও ক্লার্কশিপে বারবার আসা প্রশ্ন",
+      "section": "portuguese"
+    },
+    {
+      "point": "প্রথম ইউরোপীয় = পর্তুগিজ (WBCS ২০১৮)",
+      "section": "sea_route"
+    },
+    {
+      "point": "গোয়া ১৫১০, আলবুকার্ক, বিজাপুরের সুলতান—রাজধানী",
+      "section": "portuguese"
+    },
+    {
+      "point": "কোম্পানি গঠনের সাল: ইংরেজ ১৬০০, ওলন্দাজ ১৬০২, ফরাসি ১৬৬৪",
+      "section": "english"
+    },
+    {
+      "point": "কার্তাজ ও কাফিলা—সংজ্ঞা ও উদ্দেশ্য",
+      "section": "portuguese_system"
+    },
+    {
+      "point": "প্রথম কুঠি: ওলন্দাজ—মাসুলিপত্তনম ১৬০৫; ফরাসি—সুরাট ১৬৬৮",
+      "section": "dutch"
+    },
+    {
+      "point": "পণ্ডিচেরি: প্রতিষ্ঠা ১৬৭৪ (মার্তাঁ), রাজধানী ১৭০১",
+      "section": "french_rivalry"
+    },
+    {
+      "point": "কোলাচেল ১৭৪১—ভারতীয় শাসকের হাতে ইউরোপীয় কোম্পানির পরাজয়",
+      "section": "dutch"
+    }
+  ],
+  "bengal_connection": {
+    "body": "বাংলার সঙ্গে এই অধ্যায়ের যোগ প্রত্যক্ষ। ১৬২৭ সালে প্রতিষ্ঠিত হয় ওলন্দাজ বাংলা; ১৬৫০-এর দশকের গোড়ায় ওলন্দাজ ও ইংরেজ—দুই কোম্পানিই বাংলার প্রধান বন্দর হুগলিতে কুঠি গড়ে, কারণ বাংলা ছিল সস্তা সুতি বস্ত্র, উৎকৃষ্ট কাঁচা রেশম ও শোরার সবচেয়ে বড় উৎপাদক। অষ্টাদশ শতকের গোড়ায় বাংলা হয়ে ওঠে ওলন্দাজ কোম্পানির সমগ্র এশিয়ার মধ্যে সবচেয়ে গুরুত্বপূর্ণ ক্ষেত্র। ফরাসিদের বাংলার কেন্দ্র ছিল চন্দননগর। ১৭৫৭ সালে পলাশির পর বাংলার চিত্রই বদলে যায়—কোম্পানির বিনিয়োগ চলতে থাকে বাংলার সম্পদে, আর বাইরে থেকে রুপো আনা প্রায় বন্ধ হয়ে যায়।",
+    "claims": [
+      "c28",
+      "c31",
+      "c34"
+    ]
+  },
+  "quick_revision": [
+    "প্রথম ইউরোপীয়: পর্তুগিজরা; ভাস্কো দা গামা ১৪৯৮ সালের ১৭ মে কালিকটে।",
+    "আলমেইদা (১৫০৫): কিলওয়া, আঞ্জাদিব, কান্নানুর, কোচিনে দুর্গের নির্দেশ।",
+    "আলবুকার্ক (১৫১০): বিজাপুরের সুলতানের কাছ থেকে গোয়া দখল; গোয়া রাজধানী।",
+    "মালাক্কা ১৫১১, হরমুজ ১৫১৫—সমুদ্রপথ নিয়ন্ত্রণের জাল।",
+    "কার্তাজ = পর্তুগিজ ছাড়পত্র; না থাকলে জাহাজ বাজেয়াপ্ত। কাফিলা = পাহারায় দলবদ্ধ যাত্রা।",
+    "গোলমরিচ: প্রথম দুই দশকে পর্তুগিজ-এশীয় পণ্যের প্রায় ৯৫%।",
+    "ইংরেজ কোম্পানি ১৬০০ (যৌথ-মূলধনি, রাজকীয় সনদে একচেটিয়া); ভারতে উপস্থিতি ১৬১২ (NIOS)।",
+    "VOC ১৬০২ (সংযুক্তিতে গঠন); প্রথম কুঠি মাসুলিপত্তনম ১৬০৫; পুলিকট-গেলড্রিয়া ১৬১০; ওলন্দাজ বাংলা ১৬২৭।",
+    "ফরাসি কোম্পানি ১৬৬৪ (কোলবের); প্রথম কুঠি সুরাট ১৬৬৮ (ক্যারন); পণ্ডিচেরি ১৬৭৪ (মার্তাঁ), রাজধানী ১৭০১।",
+    "কোলাচেল ১৭৪১: মার্তণ্ড বর্মার হাতে ওলন্দাজ পরাজয়।",
+    "দ্যুপ্লে ১৭৪২; মাদ্রাজ দখল ১৭৪৬; সাত বছরের যুদ্ধে ফরাসি পতন, পণ্ডিচেরি দখল ১৭৬১, ফেরত ১৭৬৫।",
+    "বাণিজ্যের চরিত্র: ভারত থেকে বস্ত্র, কাঁচা রেশম, শোরা; বিনিময়ে রুপো—১৭৫৭-র পর রুপোর আগমন প্রায় বন্ধ।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "BHIC-112 (History of India: 1707-1950 / Production and Commercial Practices), Unit 8: Indian Ocean Trade Network",
+      "class": "UG (IGNOU)",
+      "publisher": "IGNOU",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/82883/1/Unit-8.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "IGNOU Ancient and Medieval Societies, Unit 16: Oceanic Trade",
+      "class": "UG (IGNOU)",
+      "publisher": "IGNOU",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/98755/1/Unit-16.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "NIOS Military History, Module III (Colonial Era), Chapter 9: Colonial Era and the Indian Sepoy (European advent sections 9.1.1-9.1.4)",
+      "class": "Sr. Secondary (NIOS)",
+      "publisher": "NIOS",
+      "url": "https://digital.nios.ac.in/content/375en/9/files/basic-html/page2.html",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Four major European countries came to India for trade and commerce: Portugal, France, Holland and Great Britain.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "This period of our history saw four major countries of Europe that came to India for trade and commerce because our country was rich in tradition, wealth and culture. The countries involved were Portugal, France, Holland and Gt. Britain."
+    },
+    {
+      "id": "c02",
+      "claim": "The Portuguese were the first Europeans to come and explore India.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "Do you know who came first and explored our India? It was the Portuguese."
+    },
+    {
+      "id": "c03",
+      "claim": "Vasco da Gama landed in Calicut in India on May 17, 1498.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "It was Vasco da Gama who landed in Calicut in India on May 17, 1498."
+    },
+    {
+      "id": "c04",
+      "claim": "The original idea behind sending the Portuguese was the Pope's: to find direct sea routes to resource-rich countries, especially for spices, and to promote Christianity.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "The original idea of sending the Portuguese that was of the Pope to find the direct sea routes to the resource rich countries especially for the spices and promote Christianity."
+    },
+    {
+      "id": "c05",
+      "claim": "The discovery of the direct maritime route to Asia round the Cape of Good Hope by the Portuguese under Vasco da Gama in 1498 began a new era in Euro-Asian trade.",
+      "source": "s2",
+      "page": "p. 233",
+      "quote": "The discovery of direct maritime route to Asia round the Cape of Good Hope by the Portuguese under Vasco da Gama in 1498 marked the beginning of a new era in the history of Euro-Asian trade."
+    },
+    {
+      "id": "c06",
+      "claim": "The Portuguese purpose was two-fold: monopolize the supply of spices to Europe, and control and tax Asian trade by force.",
+      "source": "s2",
+      "page": "p. 233",
+      "quote": "The general purpose of the Portuguese was two-fold: i) to try and monopolize the supply of spices to Europe, and ii) to control and tax Asian trade by force."
+    },
+    {
+      "id": "c07",
+      "claim": "At the beginning of 1505 Francisco d'Almeida set out with a large fleet and 1500 soldiers, with orders to build fortresses at Kilwa, Anjadiva, Kannanur and Cochin.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "At the beginning of 1505 Francisco d'Almeida set out in command of a large fleet and 1500 soldiers, with orders to build fortresses at Kilwa, Anjadiva, Kannanur and Cochin."
+    },
+    {
+      "id": "c08",
+      "claim": "In 1510 Albuquerque captured Goa from the Sultan of Bijapur and made it the capital of the Portuguese eastern empire.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "In 1510, Alfonzo de Albuquerque captured Goa from the Sultan of Bijapur and made it the capital of the Portuguese eastern empire."
+    },
+    {
+      "id": "c09",
+      "claim": "The capture of Goa in 1510 truly laid the foundation of the future Portuguese maritime empire in the Indian Ocean.",
+      "source": "s2",
+      "page": "p. 234",
+      "quote": "However, it was not until the capture of Goa from the Bijapur Sultan by Albuquerque in 1510 that the foundation of the future Portuguese maritime empire in the Indian Ocean region was truly laid."
+    },
+    {
+      "id": "c10",
+      "claim": "Malacca was occupied in 1511; it was an important entrepot in Southeast Asia controlling the sea-routes of the area.",
+      "source": "s2",
+      "page": "p. 234",
+      "quote": "followed by the occupation of Malacca (1511) which was extremely important as an entreport in Southeast Asia and which controlled the sea-routes in the area."
+    },
+    {
+      "id": "c11",
+      "claim": "In 1515 the port of Hormuz at the mouth of the Persian Gulf was conquered by the Portuguese.",
+      "source": "s2",
+      "page": "p. 234",
+      "quote": "In 1515 the important port of Hormuz at the mouth of the Persian Gulf was conquered"
+    },
+    {
+      "id": "c12",
+      "claim": "Diu in Gujarat was a second important centre for the Portuguese in India.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "A second important centre for the Portuguese in India was Diu in Gujarat."
+    },
+    {
+      "id": "c13",
+      "claim": "The Portuguese appointed a Viceroy to administer Portuguese nationals in India.",
+      "source": "s3",
+      "page": "p. 57",
+      "quote": "They also appointed a Viceroy to administer Portuguese nationals."
+    },
+    {
+      "id": "c14",
+      "claim": "Under the cartaz system, every Asian ship was required to take a cartaz (pass) from the Portuguese authorising a specified trip.",
+      "source": "s2",
+      "page": "pp. 234-235",
+      "quote": "Under the cartaz system, every Asian ship was required to take a cartaz from the Portuguese. It authorised the vessel to embark on a specified trip."
+    },
+    {
+      "id": "c15",
+      "claim": "A ship found without a cartaz was automatically confiscated.",
+      "source": "s2",
+      "page": "p. 235",
+      "quote": "If a ship was found without a cartaz, it was automatically confiscated"
+    },
+    {
+      "id": "c16",
+      "claim": "In the second half of the 16th century the Portuguese introduced the qafila (caravan) system on the west coast of India.",
+      "source": "s2",
+      "page": "p. 235",
+      "quote": "In the second half of the 16th century, the Portuguese introduced the so-called qafila or caravan system in the western coast of India."
+    },
+    {
+      "id": "c17",
+      "claim": "Portuguese commerce rested on monopoly trade for the Portuguese and licensed (cartaz-based) trade for Asians.",
+      "source": "s1",
+      "page": "p. 121",
+      "quote": "The Portuguese system of commerce depended very much on the notion of monopoly trade for the Lusitanians and licensed (cartaz-based) trade for the Asians."
+    },
+    {
+      "id": "c18",
+      "claim": "Pepper accounted for as much as 95 per cent of the total Asian cargo (physical terms) in the first two decades of the 16th century.",
+      "source": "s2",
+      "page": "p. 234",
+      "quote": "pepper was the raison d’être of the Portuguese-Asian trade in the beginning, accounting for in the first two decades of the 16th century as much as 95 per cent of the total Asian cargo"
+    },
+    {
+      "id": "c19",
+      "claim": "The Portuguese made only minor changes in Indian Ocean trade and failed to radically alter its structure, direction and organisation.",
+      "source": "s2",
+      "page": "p. 229",
+      "quote": "the Portuguese, though able to make minor changes in the Indian Ocean trade, ultimately failed to bring about any radical alteration in the structure, direction and organization of trade in this region"
+    },
+    {
+      "id": "c20",
+      "claim": "Ashin Das Gupta's view, quoted in IGNOU: there was no 'Vasco da Gama epoch' in Indian maritime history inaugurated in 1500.",
+      "source": "s2",
+      "page": "p. 237",
+      "quote": "there was no Vasco da Gama epoch in Indian maritime history that was inaugurated in 1500"
+    },
+    {
+      "id": "c21",
+      "claim": "The Dutch, French and English organised their merchants into chartered companies at the beginning of the 17th century to rival the Portuguese royal monopoly of the 16th century.",
+      "source": "s1",
+      "page": "pp. 119-120",
+      "quote": "the main challenges came when these nation-states (Dutch, French and English) organized their merchants into chartered companies in the beginning of the 17th century to rival the royal monopoly that was dominated by the Portuguese in the 16th century."
+    },
+    {
+      "id": "c22",
+      "claim": "The English joint-stock East India Company was first off the mark in 1600, followed two years later by the Dutch East India Company (VOC).",
+      "source": "s1",
+      "page": "pp. 119-120",
+      "quote": "First off the mark in 1600 was the English joint-stock East India Company (EEIC). It was followed two years later by the Dutch East India Company, the Verenigde Oostindische Compagnie (VOC)."
+    },
+    {
+      "id": "c23",
+      "claim": "The English East India Company was established in 1600 CE as a joint stock company with a monopoly on trade with the East Indies guaranteed by a monarch.",
+      "source": "s1",
+      "page": "p. 122",
+      "quote": "The English East India Company was established in 1600 CE as a joint stock company with a monopoly on trade with the East Indies that was guaranteed by a monarch."
+    },
+    {
+      "id": "c24",
+      "claim": "The Dutch East India Company was created in 1602 by the merger of several companies.",
+      "source": "s1",
+      "page": "p. 122",
+      "quote": "The Dutch East India Company was created in 1602 by the merger of several companies"
+    },
+    {
+      "id": "c25",
+      "claim": "The spice market of Europe and the Portuguese profits prompted the English EIC (1600) and Dutch EIC (1602); the French EIC came into being only in 1664.",
+      "source": "s2",
+      "page": "p. 238",
+      "quote": "It was the vast market for spices in Europe and the high profit derived from it by the Portuguese that prompted the establishment of the English East India Company in 1600 and Dutch East India Company (Verenigde Oost-Indische Compagnie) in 1602. The French East India Company came into being later, only in 1664."
+    },
+    {
+      "id": "c26",
+      "claim": "In 1605 Admiral Van der Hagen established the first Dutch factory at Masulipatnam in Andhra Pradesh.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "In 1605, Admiral Van der Hagen established the first Dutch factory in Masulipattanam in Andhra Pradesh."
+    },
+    {
+      "id": "c27",
+      "claim": "In 1610 the Dutch negotiated with the king of Chandragiri and set up a factory at Pulicat, fortified and named Geldria.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "The Dutch negotiated with the king of Chandragiri in 1610 and had another factory at Pulicat and it was fortified and named as Geldria."
+    },
+    {
+      "id": "c28",
+      "claim": "Dutch Bengal was established in 1627.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "In 1627 Dutch Bengal was established."
+    },
+    {
+      "id": "c29",
+      "claim": "Travancore's Marthanda Varma defeated the Dutch East India Company at the battle of Colachel in 1741, ending Dutch power in Malabar.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "Trivancore Marthanda Varma gave a fatal blow to the Dutch East India Company in the battle of Colachel in 1741, which resulted in complete defeat of Dutch power in Malabar."
+    },
+    {
+      "id": "c30",
+      "claim": "The British East India Company established its presence in India in 1612, setting up factories for trading purposes.",
+      "source": "s3",
+      "page": "p. 59",
+      "quote": "the British East India Company established its presence in India way back in 1612, wherein they established factories in India for trading"
+    },
+    {
+      "id": "c31",
+      "claim": "Both the Dutch and the English established factories in Bengal in the early 1650s, both at Hughli, then Bengal's premier port.",
+      "source": "s2",
+      "page": "p. 238",
+      "quote": "both the Dutch and the English established their factories or trading posts in Bengal in the early 1650s, incidentally both in Hughli, the premier port of Bengal in the 17th century."
+    },
+    {
+      "id": "c32",
+      "claim": "Textiles, raw silk and saltpetre were the principal items exported by the Companies from India.",
+      "source": "s2",
+      "page": "p. 239",
+      "quote": "textiles, raw silk and saltpetre were the principal items exported by the Companies"
+    },
+    {
+      "id": "c33",
+      "claim": "The main characteristic of Company imports into India was precious metals, mainly silver, exchanged for Indian goods — the 'bullion for goods' character of Indo-European trade.",
+      "source": "s2",
+      "page": "p. 240",
+      "quote": "precious metals, mainly silver, were being exchanged for manufactures and primary goods exported from India. This “bullion for goods” character was the principal feature of the Indo-European trade"
+    },
+    {
+      "id": "c34",
+      "claim": "The influx of bullion stopped almost completely after the British conquest of Bengal in 1757.",
+      "source": "s2",
+      "page": "p. 240",
+      "quote": "the influx of bullion stopped almost completely after the British conquest of Bengal in 1757"
+    },
+    {
+      "id": "c35",
+      "claim": "In 1664 Jean-Baptiste Colbert founded the French East India Company.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "In 1664 Jean-Baptiste Colbert founded the French East India Company"
+    },
+    {
+      "id": "c36",
+      "claim": "The French company's first factory was at Surat under Francis Caron in 1668; a second factory followed a year later at Masulipatnam.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "The company established its first factory at Surat under Francis Caron in 1668 and the Second factory was established a year later in Masulipattanam."
+    },
+    {
+      "id": "c37",
+      "claim": "Under Francois Martin the French East India Company established a trading centre at Pondicherry in 1674.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "French East India Company under Francois Martin in 1674 established a trading centre at Pondicherry."
+    },
+    {
+      "id": "c38",
+      "claim": "The French acquired Mahe in 1720, Yanam in 1731 and Karaikal in 1738.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "The French acquired Mahe in 1720, Yanam in 1731, and Karaikal in 1738."
+    },
+    {
+      "id": "c39",
+      "claim": "In 1701 Pondicherry was made the capital of French settlements in India.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "In 1701 Pondicherry was made the capital of French settlements in India."
+    },
+    {
+      "id": "c40",
+      "claim": "Joseph Francois Dupleix took charge of French India in 1742; in 1746 he captured Madras.",
+      "source": "s3",
+      "page": "p. 58",
+      "quote": "Later in 1742, Joseph Francois Dupleix took charge of the French empire in India. In 1746 he captured Madras"
+    },
+    {
+      "id": "c41",
+      "claim": "During the Seven Years War (1756-63) the French forces were defeated and their capital (Pondicherry) was captured in 1761.",
+      "source": "s3",
+      "page": "p. 59",
+      "quote": "During the Seven Years War (1756-63) between France and England, the French forces were defeated and the capital was captured in 1761."
+    },
+    {
+      "id": "c42",
+      "claim": "In 1765 Pondicherry was returned to the French after a peace treaty with England.",
+      "source": "s3",
+      "page": "p. 59",
+      "quote": "In 1765 Pondicherry was returned to the French after a peace treaty with England."
+    },
+    {
+      "id": "c43",
+      "claim": "The Company won a major victory at the Battle of Plassey in 1757, the beginning of its foothold in eastern India.",
+      "source": "s3",
+      "page": "p. 60",
+      "quote": "The Company won a major victory in the Battle of Plassey in 1757, which became the remarkable beginning of its foothold in Eastern India."
+    },
+    {
+      "id": "c44",
+      "claim": "At Buxar in 1764 the Company defeated the combined armies of the Nawab of Bengal, the Nawab of Awadh and Shah Alam II.",
+      "source": "s3",
+      "page": "p. 60",
+      "quote": "victory in 1764 at the Battle of Buxar in which it defeated the combined Mughal armies of Nawab of Bengal, Nawab of Awadh and King Shah Alam II"
+    },
+    {
+      "id": "c45",
+      "claim": "On 2 August 1858 the British Parliament passed a bill taking over the administration of India from the East India Company to the Crown.",
+      "source": "s3",
+      "page": "p. 60",
+      "quote": "the British Parliament passed a bill to take over the administration of India from the East India Company by the British Crown on 2nd August 1858"
+    },
+    {
+      "id": "c46",
+      "claim": "The Danish Company had its fort and factory at Tranquebar.",
+      "source": "s1",
+      "page": "p. 123",
+      "quote": "The Danish Company had its fort and factory at Tranquebar"
+    },
+    {
+      "id": "c47",
+      "claim": "The Ostend, Swedish and Danish companies began trade only in the early 18th century, and on a very modest scale.",
+      "source": "s2",
+      "page": "p. 238",
+      "quote": "Among other European companies, the Ostend, Swedish and Danish companies began their trade only in the early 18th century and that too on a very modest scale."
+    },
+    {
+      "id": "c48",
+      "claim": "The English Company mostly traded in cloth and fabric; the Dutch Company dealt largely in spices.",
+      "source": "s1",
+      "page": "p. 120",
+      "quote": "The English East India Company mostly traded in cloth and fabric. Meanwhile, the Dutch East India Company dealt largely with the trade of spices."
+    },
+    {
+      "id": "c49",
+      "claim": "The chartered companies started as trading enterprises but became empire builders; their goals extended beyond mere trade.",
+      "source": "s1",
+      "page": "pp. 119-120",
+      "quote": "These companies might have started as trading enterprises, but in the end, they were looking for much more. They became empire builders, and their goals began to extend beyond mere trade."
+    },
+    {
+      "id": "c50",
+      "claim": "Pondicherry was returned to the French in 1699, and Governor Francois Martin's management (1699-1706) paved the way for profitable French trade.",
+      "source": "s1",
+      "page": "p. 123",
+      "quote": "The return to them of Pondicherry in 1699 and the wise management of their Governor Francois Martin (1699-1706) had paved the way for profitable trade and investment."
+    },
+    {
+      "id": "c51",
+      "claim": "India was central to the English Company's trade, accounting for 95 per cent and 84 per cent of its total imports in the latter half of the 17th century.",
+      "source": "s1",
+      "page": "p. 120",
+      "quote": "India was central to the English Company trade throughout accounting for 95 per cent and 84 per cent of the total imports during the latter half of the 17th century."
+    },
+    {
+      "id": "c52",
+      "claim": "The French were late-comers to maritime enterprise in the East and had to negotiate with local political authorities and merchant groups.",
+      "source": "s1",
+      "page": "p. 123",
+      "quote": "The French who were late-comers to the field of maritime enterprise in the East endeavoured hard to stake their claims to the trade of the Indian Ocean."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "sea_route",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে বাণিজ্য করতে আসা প্রথম ইউরোপীয় কারা ছিল?",
+      "a": "পর্তুগিজরা",
+      "w": [
+        "ওলন্দাজরা",
+        "ইংরেজরা",
+        "ফরাসিরা"
+      ],
+      "e": "সূত্র অনুযায়ী ভারতে প্রথম এসে অনুসন্ধান চালায় পর্তুগিজরাই। ওলন্দাজ, ইংরেজ ও ফরাসি কোম্পানিগুলি গঠিত হয় সপ্তদশ শতকের গোড়ায়, পর্তুগিজ আগমনের অনেক পরে।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "sea_route",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভাস্কো দা গামা কবে কালিকটে পৌঁছান?",
+      "a": "১৭ মে ১৪৯৮",
+      "w": [
+        "১৭ মে ১৫৯৮",
+        "১৭ মে ১৪০৯",
+        "১৭ মে ১৪৯২"
+      ],
+      "e": "NIOS পাঠ অনুযায়ী ভাস্কো দা গামা ১৪৯৮ সালের ১৭ মে কালিকটে নামেন। বাকি বছরগুলি এই ঘটনার সঙ্গে যুক্ত নয়।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "sea_route",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভাস্কো দা গামার যাত্রা কোন পথ ধরে ভারতে পৌঁছায়?",
+      "a": "উত্তমাশা অন্তরীপ (Cape of Good Hope) ঘুরে সরাসরি সমুদ্রপথে",
+      "w": [
+        "লোহিত সাগর ও স্থলপথে",
+        "আটলান্টিক পেরিয়ে আমেরিকা হয়ে",
+        "ভূমধ্যসাগর ও মিশর হয়ে"
+      ],
+      "e": "আফ্রিকার দক্ষিণ প্রান্ত উত্তমাশা অন্তরীপ ঘুরে সরাসরি সমুদ্রপথ আবিষ্কারই ছিল এই যাত্রার মূল কথা; এতে ইউরো-এশীয় বাণিজ্যে নতুন যুগ শুরু হয়।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "sea_route",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পর্তুগিজদের ভারতমুখী যাত্রার পেছনে পোপের মূল ভাবনা কোনটি ছিল?",
+      "a": "মশলার জন্য সরাসরি সমুদ্রপথ খোঁজা ও খ্রিস্টধর্ম প্রচার",
+      "w": [
+        "ভারতে উপনিবেশিক সেনাঘাঁটি গড়া",
+        "মুঘল দরবারে দূত পাঠানো",
+        "চীনের সঙ্গে স্থলবাণিজ্য শুরু করা"
+      ],
+      "e": "সূত্র বলছে, পোপের ভাবনা ছিল সম্পদশালী দেশগুলির দিকে—বিশেষত মশলার জন্য—সরাসরি সমুদ্রপথ খুঁজে বের করা এবং খ্রিস্টধর্ম প্রচার করা।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "sea_route",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ইউরোপীয়দের আগমনের আগে ভারত মহাসাগরের বাণিজ্যে কোন পণ্যগুলি প্রধান ছিল বলে এই অধ্যায়ের সূত্র জানায়?",
+      "a": "বস্ত্র, কাঁচা রেশম ও শোরার (saltpetre) মতো ভারতীয় পণ্যের বিদেশি চাহিদা ছিল",
+      "w": [
+        "শুধু ইউরোপীয় পশমি কাপড়",
+        "শুধু আমেরিকার রুপো",
+        "শুধু চীনা চীনামাটি"
+      ],
+      "e": "কোম্পানিগুলি ভারত থেকে প্রধানত বস্ত্র, কাঁচা রেশম ও শোরা রপ্তানি করত; এগুলি ইউরোপে চাহিদাসম্পন্ন ছিল।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "sea_route",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আশিন দাশগুপ্তের মত (IGNOU-তে উদ্ধৃত) অনুযায়ী ১৫০০ সাল নিয়ে কোন বক্তব্যটি সঠিক?",
+      "a": "১৫০০ সালে ভারতীয় সামুদ্রিক ইতিহাসে কোনো 'ভাস্কো দা গামা যুগ' শুরু হয়নি",
+      "w": [
+        "১৫০০ সাল থেকে ভারতীয় বাণিজ্য পুরোপুরি পর্তুগিজদের হাতে চলে যায়",
+        "১৫০০ সালের পর ভারতীয় বণিকরা সমুদ্রবাণিজ্য ছেড়ে দেন",
+        "১৫০০ সালে ভারত মহাসাগরে বাণিজ্য বন্ধ হয়ে যায়"
+      ],
+      "e": "দাশগুপ্তের মতে পর্তুগিজ আগমন ভারতীয় সামুদ্রিক বাণিজ্যের কাঠামোতে আমূল বদল আনেনি; তাই 'ভাস্কো দা গামা যুগ' ধারণাটি তিনি মানেন না।",
+      "claims": [
+        "c20",
+        "c19"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "portuguese",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আলবুকার্ক ১৫১০ সালে গোয়া কার কাছ থেকে দখল করেন?",
+      "a": "বিজাপুরের সুলতানের কাছ থেকে",
+      "w": [
+        "কালিকটের জামোরিনের কাছ থেকে",
+        "মুঘল সম্রাটের কাছ থেকে",
+        "গোলকুণ্ডার সুলতানের কাছ থেকে"
+      ],
+      "e": "১৫১০ সালে আলফোনসো দে আলবুকার্ক বিজাপুরের সুলতানের কাছ থেকে গোয়া দখল করে সেটিকে পর্তুগিজ পূর্ব-সাম্রাজ্যের রাজধানী করেন।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "portuguese",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "পর্তুগিজ পূর্ব-সাম্রাজ্যের রাজধানী কোনটি হয়?",
+      "a": "গোয়া",
+      "w": [
+        "দিউ",
+        "কোচিন",
+        "কালিকট"
+      ],
+      "e": "গোয়াকে আলবুকার্ক রাজধানী করেন; দিউ ছিল গুজরাটে দ্বিতীয় গুরুত্বপূর্ণ কেন্দ্র, রাজধানী নয়।",
+      "claims": [
+        "c08",
+        "c12"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "portuguese",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ফ্রান্সিসকো দে আলমেইদা ১৫০৫ সালে কোন কাজের নির্দেশ নিয়ে আসেন?",
+      "a": "কিলওয়া, আঞ্জাদিব, কান্নানুর ও কোচিনে দুর্গ নির্মাণ",
+      "w": [
+        "সুরাটে ইংরেজ কুঠি স্থাপন",
+        "বাংলায় চন্দননগর দখল",
+        "মাদ্রাজে ফোর্ট সেন্ট জর্জ নির্মাণ"
+      ],
+      "e": "১৫০৫ সালের শুরুতে আলমেইদা বড় নৌবহর ও ১৫০০ সৈন্য নিয়ে কিলওয়া, আঞ্জাদিব, কান্নানুর ও কোচিনে দুর্গ গড়ার নির্দেশে আসেন।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "portuguese",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১৫১১ সালে পর্তুগিজরা মালাক্কা দখল করে কেন গুরুত্বপূর্ণ মনে করা হয়?",
+      "a": "মালাক্কা দক্ষিণ-পূর্ব এশিয়ার প্রধান বাণিজ্যকেন্দ্র (entrepot) হিসেবে এলাকার সমুদ্রপথ নিয়ন্ত্রণ করত",
+      "w": [
+        "মালাক্কা ছিল ভারতের প্রধান মশলা-উৎপাদক অঞ্চল",
+        "মালাক্কা থেকে সোনা আমদানি হত",
+        "মালাক্কা ছিল পর্তুগিজদের রাজধানী"
+      ],
+      "e": "সূত্র অনুযায়ী মালাক্কা ছিল দক্ষিণ-পূর্ব এশিয়ার অত্যন্ত গুরুত্বপূর্ণ বাণিজ্যকেন্দ্র, যা এলাকার সমুদ্রপথ নিয়ন্ত্রণ করত।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "portuguese",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১৫১৫ সালে পর্তুগিজরা কোন বন্দর জয় করে?",
+      "a": "হরমুজ",
+      "w": [
+        "মালাক্কা",
+        "দিউ",
+        "মাসুলিপত্তনম"
+      ],
+      "e": "পারস্য উপসাগরের মুখে অবস্থিত হরমুজ বন্দর ১৫১৫ সালে জয় করা হয়; মালাক্কা জয় হয় ১৫১১ সালে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "portuguese",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "গোয়া দখল (১৫১০) সম্পর্কে IGNOU-র মূল্যায়ন কোনটি?",
+      "a": "এই দখলের মধ্য দিয়েই ভারত মহাসাগরে ভবিষ্যৎ পর্তুগিজ সামুদ্রিক সাম্রাজ্যের ভিত্তি সত্যিকারে স্থাপিত হয়",
+      "w": [
+        "গোয়া দখলের পর পর্তুগিজরা ভারত ছেড়ে যায়",
+        "গোয়া দখল পর্তুগিজ বাণিজ্যের পতনের কারণ হয়",
+        "গোয়া দখলের কোনো বাণিজ্যিক গুরুত্ব ছিল না"
+      ],
+      "e": "IGNOU বলছে, ১৫১০ সালে গোয়া দখলের আগে পর্যন্ত পর্তুগিজ সামুদ্রিক সাম্রাজ্যের ভিত্তি সত্যিকারে স্থাপিত হয়নি।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "portuguese_system",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'কার্তাজ' (Cartaz) কী?",
+      "a": "পর্তুগিজদের দেওয়া সমুদ্রযাত্রার ছাড়পত্র (pass)",
+      "w": [
+        "এক ধরনের পর্তুগিজ জাহাজ",
+        "গোয়ার মুদ্রা",
+        "পর্তুগিজ দুর্গের নাম"
+      ],
+      "e": "কার্তাজ ব্যবস্থায় প্রতিটি এশীয় জাহাজকে নির্দিষ্ট যাত্রার জন্য পর্তুগিজদের কাছ থেকে কার্তাজ নিতে হত।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "portuguese_system",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কার্তাজ ছাড়া ধরা পড়লে জাহাজের কী হত?",
+      "a": "জাহাজটি স্বয়ংক্রিয়ভাবে বাজেয়াপ্ত হত",
+      "w": [
+        "জাহাজটিকে শুধু জরিমানা করা হত",
+        "জাহাজটিকে গোয়ায় নোঙর করতে বলা হত",
+        "জাহাজটিকে ফিরে যেতে দেওয়া হত"
+      ],
+      "e": "সূত্র স্পষ্ট: কার্তাজবিহীন জাহাজ পাওয়া গেলে তা স্বয়ংক্রিয়ভাবে বাজেয়াপ্ত হত।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "portuguese_system",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পর্তুগিজ বাণিজ্যব্যবস্থার ভিত্তি কী ছিল?",
+      "a": "নিজেদের জন্য একচেটিয়া বাণিজ্য, এশীয়দের জন্য কার্তাজ-ভিত্তিক লাইসেন্সপ্রাপ্ত বাণিজ্য",
+      "w": [
+        "সবার জন্য অবাধ বাণিজ্য",
+        "শুধু স্থলপথের বাণিজ্য",
+        "ভারতীয় বণিকদের হাতে পূর্ণ নিয়ন্ত্রণ"
+      ],
+      "e": "IGNOU অনুযায়ী পর্তুগিজ ব্যবস্থা নির্ভর করত নিজেদের একচেটিয়া বাণিজ্য এবং এশীয়দের লাইসেন্স (কার্তাজ) ভিত্তিক বাণিজ্যের ধারণার উপর।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "portuguese_system",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ষোড়শ শতকের দ্বিতীয়ার্ধে পর্তুগিজরা পশ্চিম উপকূলে কোন ব্যবস্থা চালু করে?",
+      "a": "কাফিলা (qafila) বা কাফেলা-ব্যবস্থা",
+      "w": [
+        "অধীনতামূলক মৈত্রী",
+        "দস্তক ব্যবস্থা",
+        "রায়তওয়ারি ব্যবস্থা"
+      ],
+      "e": "জাহাজগুলিকে দলবদ্ধভাবে পর্তুগিজ নৌবহরের পাহারায় চলতে বাধ্য করার জন্য কাফিলা ব্যবস্থা চালু হয়। বাকি তিনটি পরবর্তী ব্রিটিশ যুগের ধারণা, এই সূত্রে নেই।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "portuguese_system",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ষোড়শ শতকের প্রথম দুই দশকে পর্তুগিজ-এশীয় পণ্যের মধ্যে গোলমরিচের অংশ কত ছিল?",
+      "a": "মোট পণ্যের প্রায় ৯৫ শতাংশ (আয়তনের হিসাবে)",
+      "w": [
+        "মোট পণ্যের প্রায় ৫০ শতাংশ",
+        "মোট পণ্যের প্রায় ২৫ শতাংশ",
+        "মোট পণ্যের প্রায় ১০ শতাংশ"
+      ],
+      "e": "IGNOU জানায়, শুরুতে গোলমরিচই ছিল পর্তুগিজ-এশীয় বাণিজ্যের প্রাণ, মোট এশীয় পণ্যের প্রায় ৯৫ শতাংশ (আয়তনে) ও ৮৫ শতাংশ (মূল্যে)।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "portuguese_system",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পর্তুগিজদের দ্বিমুখী উদ্দেশ্য কোনটি ছিল?",
+      "a": "ইউরোপে মশলা সরবরাহে একচেটিয়া আধিপত্য এবং বলপ্রয়োগে এশীয় বাণিজ্য নিয়ন্ত্রণ ও কর আদায়",
+      "w": [
+        "ভারতে শিল্প স্থাপন ও রেলপথ নির্মাণ",
+        "মুঘল সেনাবাহিনীতে যোগদান",
+        "শুধু ধর্মপ্রচার, বাণিজ্য নয়"
+      ],
+      "e": "সূত্র অনুযায়ী উদ্দেশ্য ছিল (১) ইউরোপে মশলা সরবরাহ একচেটিয়া করা এবং (২) বলপ্রয়োগে এশীয় বাণিজ্য নিয়ন্ত্রণ ও কর আদায়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "dutch",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ওলন্দাজ ইস্ট ইন্ডিয়া কোম্পানি (VOC) কবে গঠিত হয়?",
+      "a": "১৬০২ সালে",
+      "w": [
+        "১৬০০ সালে",
+        "১৬৬৪ সালে",
+        "১৪৯৮ সালে"
+      ],
+      "e": "VOC গঠিত হয় ১৬০২ সালে, ইংরেজ কোম্পানির (১৬০০) দুই বছর পরে; ফরাসি কোম্পানি ১৬৬৪ সালের।",
+      "claims": [
+        "c22",
+        "c25"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "dutch",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রথম ওলন্দাজ কুঠি কোথায় স্থাপিত হয়?",
+      "a": "মাসুলিপত্তনমে (১৬০৫)",
+      "w": [
+        "সুরাটে (১৬০৮)",
+        "পুলিকটে (১৬১০)",
+        "চুঁচুড়ায় (১৬২৭)"
+      ],
+      "e": "১৬০৫ সালে অ্যাডমিরাল ভ্যান ডার হাগেন অন্ধ্রপ্রদেশের মাসুলিপত্তনমে প্রথম ওলন্দাজ কুঠি স্থাপন করেন।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "dutch",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পুলিকটের ওলন্দাজ দুর্গ-কুঠির নাম কী ছিল?",
+      "a": "গেলড্রিয়া (Geldria)",
+      "w": [
+        "ফোর্ট সেন্ট জর্জ",
+        "ফোর্ট উইলিয়াম",
+        "ফোর্ট গুস্তাভুস"
+      ],
+      "e": "১৬১০ সালে চন্দ্রগিরির রাজার সঙ্গে আলোচনার পর পুলিকটে কুঠি গড়া হয়, দুর্গায়িত করে নাম দেওয়া হয় গেলড্রিয়া।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "dutch",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'ওলন্দাজ বাংলা' (Dutch Bengal) কবে প্রতিষ্ঠিত হয়?",
+      "a": "১৬২৭ সালে",
+      "w": [
+        "১৬০৫ সালে",
+        "১৬১০ সালে",
+        "১৭৪১ সালে"
+      ],
+      "e": "NIOS পাঠ অনুযায়ী ১৬২৭ সালে ওলন্দাজ বাংলা প্রতিষ্ঠিত হয়।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "dutch",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোলাচেলের যুদ্ধে (১৭৪১) ওলন্দাজদের পরাজিত করেন কে?",
+      "a": "ত্রিবাঙ্কুরের মার্তণ্ড বর্মা",
+      "w": [
+        "হায়দার আলি",
+        "শিবাজি",
+        "মীর কাসিম"
+      ],
+      "e": "১৭৪১ সালে কোলাচেলে মার্তণ্ড বর্মা ওলন্দাজ কোম্পানিকে চরম আঘাত দেন, যার ফলে মালাবারে ওলন্দাজ শক্তির পূর্ণ পরাজয় ঘটে।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "dutch",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "VOC কীভাবে গঠিত হয়েছিল?",
+      "a": "কয়েকটি কোম্পানির একীভূতকরণের (merger) মাধ্যমে",
+      "w": [
+        "একজন রাজার ব্যক্তিগত উদ্যোগে",
+        "ইংরেজ কোম্পানির শাখা হিসেবে",
+        "পর্তুগিজ কোম্পানির বিভাজনে"
+      ],
+      "e": "IGNOU জানায়, VOC তৈরি হয় ১৬০২ সালে কয়েকটি কোম্পানির সংযুক্তির মাধ্যমে, যাতে তারা পরস্পরের সঙ্গে প্রতিযোগিতা না করে একসঙ্গে কাজ করতে পারে।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "english",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ইংরেজ ইস্ট ইন্ডিয়া কোম্পানি কবে প্রতিষ্ঠিত হয়?",
+      "a": "১৬০০ সালে",
+      "w": [
+        "১৬০২ সালে",
+        "১৬৬৪ সালে",
+        "১৬১২ সালে"
+      ],
+      "e": "ইংরেজ কোম্পানি ১৬০০ সালে যৌথ-মূলধনি (joint stock) কোম্পানি হিসেবে প্রতিষ্ঠিত হয়; ১৬১২ সালটি ভারতে তাদের উপস্থিতি প্রতিষ্ঠার বছর হিসেবে NIOS উল্লেখ করেছে।",
+      "claims": [
+        "c23",
+        "c30"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "english",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NIOS পাঠ অনুযায়ী ইংরেজ কোম্পানি ভারতে কুঠি স্থাপন করে উপস্থিতি গড়ে তোলে কবে?",
+      "a": "১৬১২ সালে",
+      "w": [
+        "১৬০০ সালে",
+        "১৬৫১ সালে",
+        "১৭৫৭ সালে"
+      ],
+      "e": "NIOS বলছে, ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানি ১৬১২ সালেই ভারতে বাণিজ্যের জন্য কুঠি স্থাপন করে উপস্থিতি প্রতিষ্ঠা করে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "english",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ইংরেজ কোম্পানির প্রতিষ্ঠাকালীন বৈশিষ্ট্য কোনটি?",
+      "a": "রাজা/রানির দেওয়া সনদে পূর্বদেশীয় বাণিজ্যে একচেটিয়া অধিকারসহ যৌথ-মূলধনি কোম্পানি",
+      "w": [
+        "সংসদের সরাসরি মালিকানাধীন সরকারি বিভাগ",
+        "শুধু ব্যক্তিগত বণিকদের অনানুষ্ঠানিক জোট",
+        "পর্তুগিজ রাজার অধীনস্থ শাখা"
+      ],
+      "e": "কোম্পানিটি ১৬০০ সালে যৌথ-মূলধনি কোম্পানি হিসেবে গঠিত হয়, যার পূর্ব ইন্ডিজের সঙ্গে বাণিজ্যে একচেটিয়া অধিকার রাজতন্ত্রের নিশ্চয়তায় ছিল।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "english",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সপ্তদশ শতকের দ্বিতীয়ার্ধে ইংরেজ কোম্পানির মোট আমদানিতে ভারতের অংশ কত ছিল বলে IGNOU জানায়?",
+      "a": "৯৫ শতাংশ ও ৮৪ শতাংশ (দুটি হিসাবে)",
+      "w": [
+        "মাত্র ১০ শতাংশ",
+        "প্রায় ৩০ শতাংশ",
+        "প্রায় ৫০ শতাংশ"
+      ],
+      "e": "IGNOU অনুযায়ী ভারত ছিল ইংরেজ কোম্পানির বাণিজ্যের কেন্দ্র—সপ্তদশ শতকের দ্বিতীয়ার্ধে মোট আমদানির ৯৫% ও ৮৪% ভারত থেকে আসত।",
+      "claims": [
+        "c51"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "english",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ইংরেজ ও ওলন্দাজ কোম্পানির বাণিজ্যিক বিশেষায়ণ (niche) কী ছিল?",
+      "a": "ইংরেজরা প্রধানত বস্ত্রে, ওলন্দাজরা প্রধানত মশলায়",
+      "w": [
+        "ইংরেজরা প্রধানত মশলায়, ওলন্দাজরা বস্ত্রে",
+        "দুজনেই শুধু সোনায়",
+        "দুজনেই শুধু ঘোড়ায়"
+      ],
+      "e": "IGNOU বলছে, ইংরেজ কোম্পানি মূলত কাপড়-বস্ত্রে এবং ওলন্দাজ কোম্পানি মূলত মশলার বাণিজ্যে জোর দিত।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "english",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১৬৫০-এর দশকের গোড়ায় বাংলায় ওলন্দাজ ও ইংরেজ—দুই কোম্পানিই কোথায় কুঠি গড়ে?",
+      "a": "হুগলিতে",
+      "w": [
+        "কলকাতায়",
+        "চুঁচুড়ায়",
+        "কাশিমবাজারে"
+      ],
+      "e": "সূত্র অনুযায়ী দুই কোম্পানিই সপ্তদশ শতকের বাংলার প্রধান বন্দর হুগলিতে ১৬৫০-এর দশকের গোড়ায় কুঠি স্থাপন করে।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "french_rivalry",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি কে, কবে প্রতিষ্ঠা করেন?",
+      "a": "জাঁ-বাপতিস্ত কোলবের, ১৬৬৪ সালে",
+      "w": [
+        "ফ্রাঁসোয়া মার্তাঁ, ১৬৭৪ সালে",
+        "দ্যুপ্লে, ১৭৪২ সালে",
+        "ফ্রান্সিস ক্যারন, ১৬৬৮ সালে"
+      ],
+      "e": "১৬৬৪ সালে জাঁ-বাপতিস্ত কোলবের ফরাসি ইস্ট ইন্ডিয়া কোম্পানি প্রতিষ্ঠা করেন; ক্যারন, মার্তাঁ ও দ্যুপ্লে পরবর্তীকালের কর্মকর্তা।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "french_rivalry",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রথম ফরাসি কুঠি কোথায়, কার অধীনে স্থাপিত হয়?",
+      "a": "সুরাটে, ফ্রান্সিস ক্যারনের অধীনে (১৬৬৮)",
+      "w": [
+        "পণ্ডিচেরিতে, মার্তাঁর অধীনে (১৬৭৪)",
+        "মাসুলিপত্তনমে, দ্যুপ্লের অধীনে (১৭৪২)",
+        "চন্দননগরে, কোলবেরের অধীনে (১৬৯০)"
+      ],
+      "e": "ফরাসি কোম্পানির প্রথম কুঠি ১৬৬৮ সালে সুরাটে ফ্রান্সিস ক্যারনের অধীনে; পরের বছর দ্বিতীয় কুঠি মাসুলিপত্তনমে হয়।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "french_rivalry",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পণ্ডিচেরিতে ফরাসি বাণিজ্যকেন্দ্র কে, কবে স্থাপন করেন?",
+      "a": "ফ্রাঁসোয়া মার্তাঁ, ১৬৭৪ সালে",
+      "w": [
+        "ফ্রান্সিস ক্যারন, ১৬৬৮ সালে",
+        "দ্যুপ্লে, ১৭৪২ সালে",
+        "কোলবের, ১৬৬৪ সালে"
+      ],
+      "e": "১৬৭৪ সালে ফ্রাঁসোয়া মার্তাঁর অধীনে পণ্ডিচেরিতে ফরাসি বাণিজ্যকেন্দ্র স্থাপিত হয়।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "french_rivalry",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতে ফরাসি বসতিগুলির রাজধানী পণ্ডিচেরি হয় কবে?",
+      "a": "১৭০১ সালে",
+      "w": [
+        "১৬৭৪ সালে",
+        "১৬৯৯ সালে",
+        "১৭৬৫ সালে"
+      ],
+      "e": "১৭০১ সালে পণ্ডিচেরিকে ভারতে ফরাসি বসতিগুলির রাজধানী করা হয়।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "french_rivalry",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ফরাসিরা মাহে, ইয়ানাম ও কারাইকাল কবে অধিগ্রহণ করে?",
+      "a": "মাহে ১৭২০, ইয়ানাম ১৭৩১, কারাইকাল ১৭৩৮",
+      "w": [
+        "মাহে ১৭৩৮, ইয়ানাম ১৭২০, কারাইকাল ১৭৩১",
+        "তিনটিই ১৬৬৮ সালে",
+        "তিনটিই ১৭৬৫ সালে"
+      ],
+      "e": "NIOS পাঠের ক্রম: মাহে (১৭২০), ইয়ানাম (১৭৩১), কারাইকাল (১৭৩৮)।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "french_rivalry",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দ্যুপ্লে সম্পর্কে কোন বক্তব্যটি সূত্র-সমর্থিত?",
+      "a": "তিনি ১৭৪২ সালে ভারতে ফরাসি সাম্রাজ্যের দায়িত্ব নেন এবং ১৭৪৬ সালে মাদ্রাজ দখল করেন",
+      "w": [
+        "তিনি ১৬৬৪ সালে ফরাসি কোম্পানি প্রতিষ্ঠা করেন",
+        "তিনি পণ্ডিচেরি প্রতিষ্ঠা করেন ১৬৭৪ সালে",
+        "তিনি ১৭৬১ সালে পণ্ডিচেরি পুনরুদ্ধার করেন"
+      ],
+      "e": "দ্যুপ্লে ১৭৪২ সালে দায়িত্ব নেন; ১৭৪৬ সালে তিনি মাদ্রাজ দখল করেন, যদিও পার্শ্ববর্তী ব্রিটিশ ফোর্ট সেন্ট ডেভিড নিতে ব্যর্থ হন।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "french_rivalry",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সাত বছরের যুদ্ধের (১৭৫৬–৬৩) ভারতীয় পরিণতি কী ছিল?",
+      "a": "ফরাসি বাহিনী পরাজিত হয় এবং ১৭৬১ সালে তাদের রাজধানী পণ্ডিচেরি দখল হয়; ১৭৬৫ সালে শান্তিচুক্তিতে পণ্ডিচেরি ফরাসিদের ফেরত দেওয়া হয়",
+      "w": [
+        "ফরাসিরা মাদ্রাজ স্থায়ীভাবে পেয়ে যায়",
+        "ইংরেজ কোম্পানি ভারত ছেড়ে যায়",
+        "ওলন্দাজরা পণ্ডিচেরি দখল করে রাখে"
+      ],
+      "e": "NIOS অনুযায়ী সাত বছরের যুদ্ধে ফরাসিরা পরাজিত হয়, ১৭৬১ সালে রাজধানী দখল হয় এবং ১৭৬৫ সালে শান্তিচুক্তির পর পণ্ডিচেরি ফরাসিদের ফেরত দেওয়া হয়।",
+      "claims": [
+        "c41",
+        "c42"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "french_rivalry",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ডেনিশ কোম্পানির দুর্গ ও কুঠি কোথায় ছিল?",
+      "a": "ট্রাঙ্কেবারে (Tranquebar)",
+      "w": [
+        "পণ্ডিচেরিতে",
+        "হুগলিতে",
+        "দিউতে"
+      ],
+      "e": "IGNOU জানায়, ডেনিশ কোম্পানির দুর্গ ও কুঠি ছিল ট্রাঙ্কেবারে।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "sea_route",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. পর্তুগিজরাই প্রথম ইউরোপীয় যারা ভারতে আসে।\n২. ভাস্কো দা গামা ১৪৯৮ সালে কালিকটে পৌঁছান।\n\nউপরের বিবৃতিগুলির মধ্যে কোনটি/কোনগুলি সঠিক?",
+      "a": "১ ও ২ দুটোই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটিই সূত্র-সমর্থিত: পর্তুগিজরা প্রথম আসে এবং ভাস্কো দা গামা ১৪৯৮ সালে কালিকটে নামেন।",
+      "claims": [
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "english",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. ইংরেজ ইস্ট ইন্ডিয়া কোম্পানি গঠিত হয় ১৬০০ সালে।\n২. ওলন্দাজ ইস্ট ইন্ডিয়া কোম্পানি গঠিত হয় ইংরেজ কোম্পানির আগে।\n\nউপরের বিবৃতিগুলির মধ্যে কোনটি/কোনগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "১ ও ২ দুটোই",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "ইংরেজ কোম্পানি ১৬০০ সালে প্রথম গঠিত হয়; ওলন্দাজ কোম্পানি আসে দুই বছর পরে, ১৬০২ সালে—তাই ২ নম্বর বিবৃতি ভুল।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "portuguese",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে কালানুক্রমিক সাজাও:\n\nA. আলবুকার্কের গোয়া দখল\nB. ভাস্কো দা গামার কালিকটে আগমন\nC. হরমুজ জয়\nD. মালাক্কা দখল\n\nসঠিক ক্রম কোনটি?",
+      "a": "B → A → D → C",
+      "w": [
+        "A → B → C → D",
+        "B → D → A → C",
+        "A → D → B → C"
+      ],
+      "e": "ক্রম: কালিকট আগমন ১৪৯৮, গোয়া দখল ১৫১০, মালাক্কা দখল ১৫১১, হরমুজ জয় ১৫১৫।",
+      "claims": [
+        "c03",
+        "c08",
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "french_rivalry",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| A. কোলবের | ১. পণ্ডিচেরি প্রতিষ্ঠা (১৬৭৪) |\n| B. ফ্রান্সিস ক্যারন | ২. ফরাসি কোম্পানি প্রতিষ্ঠা (১৬৬৪) |\n| C. ফ্রাঁসোয়া মার্তাঁ | ৩. সুরাটে প্রথম ফরাসি কুঠি (১৬৬৮) |\n| D. দ্যুপ্লে | ৪. মাদ্রাজ দখল (১৭৪৬) |\n\nসঠিক মিল কোনটি?",
+      "a": "A-২, B-৩, C-১, D-৪",
+      "w": [
+        "A-১, B-২, C-৩, D-৪",
+        "A-২, B-১, C-৪, D-৩",
+        "A-৩, B-৪, C-১, D-২"
+      ],
+      "e": "কোলবের প্রতিষ্ঠা করেন ফরাসি কোম্পানি (১৬৬৪); ক্যারন সুরাটে প্রথম কুঠি (১৬৬৮); মার্তাঁ পণ্ডিচেরি (১৬৭৪); দ্যুপ্লে মাদ্রাজ দখল করেন (১৭৪৬)।",
+      "claims": [
+        "c35",
+        "c36",
+        "c37",
+        "c40"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "english",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): সপ্তদশ শতকের গোড়ায় ওলন্দাজ, ফরাসি ও ইংরেজরা সনদপ্রাপ্ত (chartered) কোম্পানি গড়ে তোলে।\nকারণ (R): তারা ষোড়শ শতকে পর্তুগিজ রাজকীয় একচেটিয়া বাণিজ্যের প্রতিদ্বন্দ্বিতা করতে চেয়েছিল।\n\nসঠিক বিকল্প কোনটি?",
+      "a": "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "IGNOU স্পষ্ট বলছে, এই রাষ্ট্রগুলি পর্তুগিজ রাজকীয় একচেটিয়ার প্রতিদ্বন্দ্বিতা করতেই সনদপ্রাপ্ত কোম্পানিতে বণিকদের সংগঠিত করে—অর্থাৎ R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q44",
+      "section": "portuguese_system",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "জোড়াগুলি বিবেচনা করো:\n\n১. কার্তাজ — পর্তুগিজ ছাড়পত্র ব্যবস্থা\n২. কাফিলা — জাহাজের দলবদ্ধ পাহারায় যাত্রা\n৩. গেলড্রিয়া — পুলিকটের ওলন্দাজ দুর্গ-কুঠি\n\nকোন জোড়াগুলি সঠিকভাবে মিলেছে?",
+      "a": "১, ২ ও ৩ সবগুলিই",
+      "w": [
+        "শুধুমাত্র ১ ও ২",
+        "শুধুমাত্র ২ ও ৩",
+        "শুধুমাত্র ১"
+      ],
+      "e": "তিনটি জোড়াই সূত্র-সমর্থিত: কার্তাজ ছাড়পত্র, কাফিলা দলবদ্ধ যাত্রা-ব্যবস্থা এবং গেলড্রিয়া পুলিকটের দুর্গায়িত ওলন্দাজ কুঠি।",
+      "claims": [
+        "c14",
+        "c16",
+        "c27"
+      ]
+    },
+    {
+      "id": "q45",
+      "section": "english",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "কোম্পানিগুলির ভারত-বাণিজ্যের 'bullion for goods' চরিত্র বলতে কী বোঝায়?",
+      "a": "ভারতীয় পণ্যের বিনিময়ে কোম্পানিগুলি প্রধানত রুপোসহ মূল্যবান ধাতু আনত",
+      "w": [
+        "কোম্পানিগুলি ভারত থেকে শুধু সোনা নিয়ে যেত",
+        "ভারতীয় বণিকরা ইউরোপে রুপো পাঠাত",
+        "কোম্পানিগুলি পণ্যের বদলে জমি কিনত"
+      ],
+      "e": "IGNOU অনুযায়ী কোম্পানিগুলির আমদানির প্রধান বৈশিষ্ট্য ছিল ভারতীয় উৎপাদিত পণ্যের বিনিময়ে মূল্যবান ধাতু, প্রধানত রুপো, আনা। ১৭৫৭ সালে বাংলাজয়ের পর এই সোনা-রুপোর আগমন প্রায় বন্ধ হয়ে যায়।",
+      "claims": [
+        "c33",
+        "c34"
+      ]
+    }
+  ]
+}

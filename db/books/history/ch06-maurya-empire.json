@@ -1,0 +1,1927 @@
+{
+  "book": "history",
+  "code": "HIS-06",
+  "number": 6,
+  "part": "ancient",
+  "title": "মৌর্য সাম্রাজ্য",
+  "subtitle": "চন্দ্রগুপ্ত থেকে অশোক: ভারতের প্রথম সাম্রাজ্য",
+  "subtopics": [
+    "maurya_gupta"
+  ],
+  "related_facts": [],
+  "prerequisites": [
+    "HIS-04",
+    "HIS-05"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 32,
+    "deep": 48
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (42 SURE, 0 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 10 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_HIS-06.json and drafts/HIS-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/HIS-06_REPORT.md.",
+    "checked_claims": 71,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Themes in Indian History Part I, Class XII, Theme 2: Kings, Farmers and Towns",
+      "class": "XII",
+      "url": "https://ncert.nic.in/textbook/pdf/lehs102.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Our Pasts I, Class VI, Chapter 7: From a Kingdom to an Empire",
+      "class": "VI",
+      "url": "https://ncert.nic.in/textbook/pdf/fess107.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "e-PG Pathshala (INFLIBNET): Outlines of Indian History — The Mauryan Empire (P. Bhaskar Reddy)",
+      "class": "PG",
+      "url": "https://ebooks.inflibnet.ac.in/icp01/chapter/the-mauryan-empire/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "IGNOU eGyanKosh, Unit 5: Socio-Historical Perspective — I (Social Structure)",
+      "class": "UG",
+      "url": "https://egyankosh.ac.in/bitstream/123456789/16873/1/Unit%205.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "James Prinsep, an officer in the mint of the East India Company, deciphered Brahmi and Kharosthi in the 1830s.",
+      "source": "s1",
+      "page": "p. 28",
+      "quote": "James Prinsep, an officer in the mint of the East India Company, deciphered Brahmi and Kharosthi, two scripts used in the earliest inscriptions and coins."
+    },
+    {
+      "id": "c02",
+      "claim": "Most inscriptions named the king Piyadassi, meaning 'pleasant to behold'; a few also named him Asoka.",
+      "source": "s1",
+      "page": "pp. 28-29",
+      "quote": "referred to as Piyadassi – meaning “pleasant to behold”; there were a few inscriptions which also referred to the king as Asoka, one of the most famous rulers known from Buddhist texts."
+    },
+    {
+      "id": "c03",
+      "claim": "Magadha's agriculture was especially productive and iron mines in present-day Jharkhand were accessible.",
+      "source": "s1",
+      "page": "p. 31",
+      "quote": "Magadha was a region where agriculture was especially productive. Besides, iron mines (in presentday Jharkhand) were accessible and provided resources for tools and weapons."
+    },
+    {
+      "id": "c04",
+      "claim": "Magadha's capital was shifted from Rajagaha (Rajgir) to Pataliputra in the fourth century BCE.",
+      "source": "s1",
+      "page": "p. 31",
+      "quote": "Later, in the fourth century BCE, the capital was shifted to Pataliputra, presentday Patna, commanding routes of communication along the Ganga."
+    },
+    {
+      "id": "c05",
+      "claim": "Chandragupta Maurya founded the empire (c. 321 BCE) and extended control as far northwest as Afghanistan and Baluchistan.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "Chandragupta Maurya, who founded the empire (c. 321 BCE), extended control as far northwest as Afghanistan and Baluchistan"
+    },
+    {
+      "id": "c06",
+      "claim": "Asoka, Chandragupta's grandson, conquered Kalinga (present-day coastal Orissa).",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "his grandson Asoka, arguably the most famous ruler of early India, conquered Kalinga (presentday coastal Orissa)"
+    },
+    {
+      "id": "c07",
+      "claim": "Megasthenes was a Greek ambassador to Chandragupta Maurya's court; his account survives in fragments.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "such as the account of Megasthenes (a Greek ambassador to the court of Chandragupta Maurya), which survives in fragments"
+    },
+    {
+      "id": "c08",
+      "claim": "Parts of the Arthashastra were probably composed by Kautilya or Chanakya, traditionally believed to be Chandragupta's minister.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "Another source that is often used is the Arthashastra, parts of which were probably composed by Kautilya or Chanakya, traditionally believed to be the minister of Chandragupta."
+    },
+    {
+      "id": "c09",
+      "claim": "Asoka's inscriptions (c. 272/268-231 BCE) on rocks and pillars are amongst the most valuable sources for the Mauryas.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "the inscriptions of Asoka (c. 272/268-231 BCE) on rocks and pillars are often regarded as amongst the most valuable sources"
+    },
+    {
+      "id": "c10",
+      "claim": "Asoka was the first ruler who inscribed his messages to subjects and officials on stone surfaces.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "Asoka was the first ruler who inscribed his messages to his subjects and officials on stone surfaces – natural rocks as well as polished pillars."
+    },
+    {
+      "id": "c11",
+      "claim": "Asoka's dhamma included respect for elders, generosity to Brahmanas and renouncers, kind treatment of slaves and servants, and respect for other religions.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "This included respect towards elders, generosity towards Brahmanas and those who renounced worldly life, treating slaves and servants kindly, and respect for religions and traditions other than one’s own."
+    },
+    {
+      "id": "c12",
+      "claim": "The empire had five major political centres: Pataliputra and the provincial centres Taxila, Ujjayini, Tosali and Suvarnagiri.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "There were five major political centres in the empire – the capital Pataliputra and the provincial centres of Taxila, Ujjayini, Tosali and Suvarnagiri, all mentioned in Asokan inscriptions."
+    },
+    {
+      "id": "c13",
+      "claim": "Taxila and Ujjayini stood on important long-distance trade routes; Suvarnagiri was possibly important for the gold mines of Karnataka.",
+      "source": "s1",
+      "page": "p. 33",
+      "quote": "both Taxila and Ujjayini being situated on important longdistance trade routes, while Suvarnagiri (literally, the golden mountain) was possibly important for tapping the gold mines of Karnataka"
+    },
+    {
+      "id": "c14",
+      "claim": "Megasthenes mentions a committee with six subcommittees coordinating military activity: navy, transport and provisions, footsoldiers, horses, chariots and elephants.",
+      "source": "s1",
+      "page": "p. 34",
+      "quote": "Megasthenes mentions a committee with six subcommittees for coordinating military activity. Of these, one looked after the navy, the second managed transport and provisions, the third was responsible for footsoldiers, the fourth for horses, the fifth for chariots and the sixth for elephants."
+    },
+    {
+      "id": "c15",
+      "claim": "Special officers called dhamma mahamatta were appointed to spread the message of dhamma.",
+      "source": "s1",
+      "page": "p. 34",
+      "quote": "Special officers, known as the dhamma mahamatta, were appointed to spread the message of dhamma."
+    },
+    {
+      "id": "c16",
+      "claim": "The Mauryan Empire lasted about 150 years and did not encompass the entire subcontinent.",
+      "source": "s1",
+      "page": "p. 35",
+      "quote": "Yet, how important was the Mauryan Empire? It lasted for about 150 years, which is not a very long time in the vast span of the history of the subcontinent. Besides, if you look at Map 2, you will notice that the empire did not encompass the entire subcontinent."
+    },
+    {
+      "id": "c17",
+      "claim": "Greek sources credit the Mauryan ruler with a standing army of 600,000 footsoldiers, 30,000 cavalry and 9,000 elephants; some historians consider these exaggerated.",
+      "source": "s1",
+      "page": "p. 35",
+      "quote": "According to Greek sources, the Mauryan ruler had a standing army of 600,000 footsoldiers, 30,000 cavalry and 9,000 elephants. Some historians consider these accounts to be exaggerated."
+    },
+    {
+      "id": "c18",
+      "claim": "Most Asokan inscriptions are in Prakrit; those in the northwest are in Aramaic and Greek; most Prakrit inscriptions use Brahmi, some in the northwest Kharosthi.",
+      "source": "s1",
+      "page": "p. 32",
+      "quote": "Most Asokan inscriptions were in the Prakrit language while those in the northwest of the subcontinet were in Aramaic and Greek. Most Prakrit inscriptions were written in the Brahmi script; however, some, in the northwest, were written in Kharosthi."
+    },
+    {
+      "id": "c19",
+      "claim": "The empire Ashoka ruled was founded by his grandfather Chandragupta Maurya, supported by Chanakya or Kautilya, whose ideas were written in the Arthashastra.",
+      "source": "s2",
+      "page": "p. 62",
+      "quote": "The empire that Ashoka ruled was founded by his grandfather, Chandragupta Maurya, more than 2300 years ago. Chandragupta was supported by a wise man named Chanakya or Kautilya. Many of Chanakya’s ideas were written down in a book called the Arthashastra."
+    },
+    {
+      "id": "c20",
+      "claim": "The Mauryas were a dynasty with three important rulers: Chandragupta, his son Bindusara, and Bindusara's son Ashoka.",
+      "source": "s2",
+      "page": "p. 62",
+      "quote": "The Mauryas were a dynasty with three important rulers — Chandragupta, his son Bindusara, and Bindusara’s son, Ashoka."
+    },
+    {
+      "id": "c21",
+      "claim": "Taxila was a gateway to the northwest including Central Asia; Ujjain lay on the route from north to south India.",
+      "source": "s2",
+      "page": "p. 63",
+      "quote": "Taxila was a gateway to the northwest, including Central Asia, while Ujjain lay on the route from north to south India."
+    },
+    {
+      "id": "c22",
+      "claim": "The area around Pataliputra was under the emperor's direct control; officials collected taxes from farmers, herders, craftspersons and traders and many were given salaries.",
+      "source": "s2",
+      "page": "p. 64",
+      "quote": "The area around Pataliputra was under the direct control of the emperor. This meant that officials were appointed to collect taxes from farmers, herders, craftspersons and traders, who lived in villages and towns in the area."
+    },
+    {
+      "id": "c23",
+      "claim": "Provinces were ruled from provincial capitals such as Taxila or Ujjain; royal princes were often sent as governors and local customs were probably followed.",
+      "source": "s2",
+      "page": "p. 64",
+      "quote": "There were other areas or provinces. Each of these was ruled from a provincial capital such as Taxila or Ujjain. Although there was some amount of control from Pataliputra, and royal princes were often sent as governors, local customs and rules were probably followed."
+    },
+    {
+      "id": "c24",
+      "claim": "Messengers went to and fro, and spies kept a watch on the officials.",
+      "source": "s2",
+      "page": "p. 64",
+      "quote": "Messengers went to and fro, and spies kept a watch on the officials."
+    },
+    {
+      "id": "c25",
+      "claim": "People in forested regions were more or less independent but may have been expected to provide elephants, timber, honey and wax to Mauryan officials.",
+      "source": "s2",
+      "page": "p. 65",
+      "quote": "There were also the forested regions. People living in these areas were more or less independent, but may have been expected to provide elephants, timber, honey and wax to Mauryan officials."
+    },
+    {
+      "id": "c26",
+      "claim": "Megasthenes was an ambassador sent to Chandragupta's court by Seleucus Nicator, the Greek ruler of West Asia.",
+      "source": "s2",
+      "page": "p. 65",
+      "quote": "Megasthenes was an ambassador who was sent to the court of Chandragupta by the Greek ruler of West Asia named Seleucus Nicator."
+    },
+    {
+      "id": "c27",
+      "claim": "Megasthenes described Pataliputra as a large, beautiful city surrounded by a massive wall with 570 towers and 64 gates.",
+      "source": "s2",
+      "page": "p. 65",
+      "quote": "This is a large and beautiful city. It is surrounded by a massive wall. It has 570 towers and 64 gates."
+    },
+    {
+      "id": "c28",
+      "claim": "Ashoka was the first ruler who tried to take his message to the people through inscriptions; most of his inscriptions were in Prakrit in the Brahmi script.",
+      "source": "s2",
+      "page": "p. 66",
+      "quote": "The most famous Mauryan ruler was Ashoka. He was the first ruler who tried to take his message to the people through inscriptions. Most of Ashoka’s inscriptions were in Prakrit and were written in the Brahmi script."
+    },
+    {
+      "id": "c29",
+      "claim": "Kalinga is the ancient name of coastal Orissa; horrified by the violence, Ashoka decided not to fight more wars — the only king in world history who gave up conquest after winning a war.",
+      "source": "s2",
+      "page": "p. 66",
+      "quote": "Kalinga is the ancient name of coastal Orissa (see Map 5, page 63). Ashoka fought a war to conquer Kalinga. However, he was so horrified when he saw the violence and bloodshed that he decided not to fight any more wars. He is the only king in the history of the world who gave up conquest after winning a war."
+    },
+    {
+      "id": "c30",
+      "claim": "Ashoka's inscription says he conquered Kalinga eight years after becoming king; about a lakh and a half people were captured and more than a lakh killed.",
+      "source": "s2",
+      "page": "p. 66",
+      "quote": "Eight years after becoming king I conquered Kalinga. About a lakh and a half people were captured. And more than a lakh of people were killed."
+    },
+    {
+      "id": "c31",
+      "claim": "Ashoka's dhamma did not involve worship of a god or performance of a sacrifice; he was inspired by the teachings of the Buddha.",
+      "source": "s2",
+      "page": "p. 67",
+      "quote": "Ashoka’s dhamma did not involve worship of a god, or performance of a sacrifice. He felt that just as a father tries to teach his children, he had a duty to instruct his subjects. He was also inspired by the teachings of the Buddha (Chapter 6)."
+    },
+    {
+      "id": "c32",
+      "claim": "The problems Ashoka wanted to solve: religious conflict, animal sacrifice, ill-treatment of slaves and servants, and quarrels in families and among neighbours.",
+      "source": "s2",
+      "page": "p. 67",
+      "quote": "People in the empire followed different religions, and this sometimes led to conflict. Animals were sacrificed. Slaves and servants were ill treated. Besides, there were quarrels in families and amongst neighbours."
+    },
+    {
+      "id": "c33",
+      "claim": "Ashoka sent messengers to spread dhamma to Syria, Egypt and Greece, and his son Mahendra and daughter Sanghmitra to Sri Lanka.",
+      "source": "s2",
+      "page": "p. 67",
+      "quote": "Ashoka also sent messengers to spread ideas about dhamma to other lands, such as Syria, Egypt, Greece, and his son Mahendra and daughter Sanghmitra to Sri Lanka."
+    },
+    {
+      "id": "c34",
+      "claim": "Ashoka built roads, dug wells and built rest houses, and arranged medical treatment for human beings and animals.",
+      "source": "s2",
+      "page": "p. 67",
+      "quote": "He built roads, dug wells, and built rest houses. Besides, he arranged for medical treatment for both human beings and animals."
+    },
+    {
+      "id": "c35",
+      "claim": "The lions on India's notes and coins were carved in stone and placed on top of a massive stone pillar at Sarnath.",
+      "source": "s2",
+      "page": "p. 62",
+      "quote": "The lions that we see on our notes and coins have a long history. They were carved in stone, and placed on top of a massive stone pillar at Sarnath"
+    },
+    {
+      "id": "c36",
+      "claim": "After the Mauryan collapse, Pushyamitra Shunga, a general of the Mauryas, set up a kingdom in the north and parts of central India.",
+      "source": "s2",
+      "page": "p. 72",
+      "quote": "In the north, and in parts of central India, a general of the Mauryas, named Pushyamitra Shunga, set up a kingdom."
+    },
+    {
+      "id": "c37",
+      "claim": "Most modern Indian scripts, including Bengali, developed from the Brahmi script over hundreds of years.",
+      "source": "s2",
+      "page": "p. 68",
+      "quote": "Most modern Indian scripts have developed from the Brahmi script over hundreds of years."
+    },
+    {
+      "id": "c38",
+      "claim": "Greco-Roman accounts mention kings Sandrocottus (Chandragupta) and Amitrochates (Bindusara) and their capital Palimbothra (Pataliputra).",
+      "source": "s3",
+      "page": "§2.1",
+      "quote": "Greeco-Roman accounts mention kings Sandrocottus (Chandragupta) and Amitrochates (Bindusara) and their capital Palimbothra (Pataliputra)."
+    },
+    {
+      "id": "c39",
+      "claim": "The Puranic list gives Chandragupta 24 years, Bindusara 25 years and Ashoka 36 years; the dynasty lasted 137 years.",
+      "source": "s3",
+      "page": "§4",
+      "quote": "that the Mauryan dynasty lasted for 137 years. The list contains the rule of Chandragupta (24 years), Bindusara (25 years) and Ashoka (36 years)"
+    },
+    {
+      "id": "c40",
+      "claim": "Chandragupta, assisted by Kautilya (Chanakya), captured Pataliputra from the last Nanda king Dhanananda in about 322 BCE.",
+      "source": "s3",
+      "page": "§5.1",
+      "quote": "He took advantage of the growing weakness and unpopularity of the Nandas and captured Pataliputra from the last king Dhanananda. In this, he was assisted by Kautilya, who was also known as Chanakya."
+    },
+    {
+      "id": "c41",
+      "claim": "By the treaty with Seleucus, Aria, Arachosia, Paropanisadae and Gedrosia (Herat, Kandahar, Kabul and Baluchistan) were ceded to Chandragupta, who presented 500 war elephants to Seleucus.",
+      "source": "s3",
+      "page": "§5.1",
+      "quote": "They signed a treaty by ceding to Chandragupta the territories then known as Aria, Arachosia and Paropanisadae and Gedrosia. The Cities are known respectively as Herat, Kandahar, Kabul and Baluchistan. Chandragupta on his part presented 500 war elephants to Seleucus."
+    },
+    {
+      "id": "c42",
+      "claim": "Seleucus sent Megasthenes as ambassador to the Mauryan court; Megasthenes lived in Pataliputra and wrote Indica.",
+      "source": "s3",
+      "page": "§5.1",
+      "quote": "Seleucus further cemented this alliance by sending Megasthenes as his ambassador to the Mauryan court. Megasthenes lived in the Capital Pataliputra and wrote Indica, which contained a fair account of political, social and economic institutions of the empire."
+    },
+    {
+      "id": "c43",
+      "claim": "According to Jain tradition, Chandragupta embraced Jainism late in life, abdicated in favour of Bindusara and went to Sravanabelagola with Bhadrabahu.",
+      "source": "s3",
+      "page": "§5.1",
+      "quote": "According to the Jain tradition Chandragupta embraced Jainism towards the end of his life and stepped down from the throne in favour of his son Bindusara. He went to Sravanabelagola near Mysore along with Bhadrabahu, a Jain saint, and several other Jain monks."
+    },
+    {
+      "id": "c44",
+      "claim": "Bindusara was known to the Greeks as Amitrochates, from the Sanskrit Amitraghata, 'slayer of foes'.",
+      "source": "s3",
+      "page": "§5.2",
+      "quote": "He was known to the Greeks as Amitrochates which is derived from the Sanskrit word Amitraghata or slayer of foes."
+    },
+    {
+      "id": "c45",
+      "claim": "Bindusara maintained contact with Antiochus I, the Seleucid king of Syria, whose ambassador Deimachus was at the Mauryan court.",
+      "source": "s3",
+      "page": "§5.2",
+      "quote": "Bindusara had maintained contacts with Antiochus I, the Seleucid king of Syria whose ambassador Deimachus was said to have been at the Mauryan court."
+    },
+    {
+      "id": "c46",
+      "claim": "Bindusara requested Antiochus to send sweet wine, dried figs and a sophist; the sophist was not sent as it was not meant for export.",
+      "source": "s3",
+      "page": "§5.2",
+      "quote": "Bindusara, a man of wide tastes and interests, requested Antiochus to send him some wine, dried pigs, and a sophist, the last being not meant for export, was not sent"
+    },
+    {
+      "id": "c47",
+      "claim": "As viceroy, Ashoka served as governor of Ujjain and suppressed the revolt in Taxila during Bindusara's reign.",
+      "source": "s3",
+      "page": "§5.3.1",
+      "quote": "He served as governor of Ujjain and also suppressed the revolt in Taxila during his father Bindusara’s reign."
+    },
+    {
+      "id": "c48",
+      "claim": "In his edicts Ashoka was referred to as Devanampiya and Piyadasi — 'beloved of the gods' and 'one of amiable look'.",
+      "source": "s3",
+      "page": "§5.3",
+      "quote": "In his edicts emperor Ashoka was referred to as “Devanampiya and Piyadasi” which may be literally translated as “beloved of the gods and one of amiable look”."
+    },
+    {
+      "id": "c49",
+      "claim": "The conquest of Kalinga took place in the eighth year after Ashoka's coronation (261 BCE) and is described by Ashoka in Rock Edict XIII.",
+      "source": "s3",
+      "page": "§5.3.2",
+      "quote": "The most important event of Ashoka’s reign was the conquest of Kalinga in the eighth year after his coronation (261 BCE). Ashoka himself describes the horrors and miseries of this war in the XIII rock edict."
+    },
+    {
+      "id": "c50",
+      "claim": "After Kalinga, Ashoka abandoned digvijaya (military conquest) for dharmavijaya (cultural conquest): 'Bherighosa was replaced by Dhammaghosa'.",
+      "source": "s3",
+      "page": "§5.3.2",
+      "quote": "So he abandoned the policy of digvijaya, military conquest, in favour of a policy of dharmavijaya, cultural conquest. In other words, ‘Bherighosa was replaced by Dhammaghosa’."
+    },
+    {
+      "id": "c51",
+      "claim": "Ashoka's Dhamma was neither a new religion nor a political philosophy; it was a way of life and a code of conduct for people at large.",
+      "source": "s3",
+      "page": "§5.3.3",
+      "quote": "The Dhamma was neither a new religion nor a political philosophy. It was a way of life, a code of conduct and a set of principles to be adopted and practiced by the people at large."
+    },
+    {
+      "id": "c52",
+      "claim": "Ashoka's Dhamma consisted of charity, mercy, truthfulness, ahimsa, religious tolerance and respect to elders.",
+      "source": "s3",
+      "page": "§5.3.3",
+      "quote": "His Dhamma consisted of charity, mercy, truthfulness, ahimsa, religious tolerance, and respect to elders."
+    },
+    {
+      "id": "c53",
+      "claim": "Ashoka's paternal ideal: 'All men are my children'.",
+      "source": "s3",
+      "page": "§5.3.3",
+      "quote": "In his own words “ All men are my children, just as desire for my children that they may enjoy every kind of prosperity and happiness in both this world and the next, so, also I desire the same for all men.”"
+    },
+    {
+      "id": "c54",
+      "claim": "The Ashokan edicts were deciphered by James Prinsep in 1837.",
+      "source": "s3",
+      "page": "§2.2.1",
+      "quote": "The Ashokan edicts were deciphered by James Prinsep (1837), a retired Civil Servant of the English East India Company."
+    },
+    {
+      "id": "c55",
+      "claim": "The inscriptions at Mansehra and Shahbazgarhi are in Prakrit and Kharosthi; a bilingual Greek-Aramaic inscription was found near Kandahar.",
+      "source": "s3",
+      "page": "§2.2.1",
+      "quote": "The Inscriptions found at Mansehra and Shabazgarhi are in the Prakrit language and Kharosthi Script. There are few inscriptions in Greek and Aramaic as well. A bilingual inscription in Greek and Aramaic was found at Shar-i-kuna near Kandahar in south-east Afghanistan."
+    },
+    {
+      "id": "c56",
+      "claim": "The edicts mention Ashoka's relationship with contemporary foreign rulers.",
+      "source": "s3",
+      "page": "§2.2.1",
+      "quote": "Mention relationship with contemporary foreign rulers; throw light about the temporal and spiritual relations maintained by Ashoka."
+    },
+    {
+      "id": "c57",
+      "claim": "Ashoka's inscriptions fall into categories including 14 Major Rock Edicts and Pillar Edicts.",
+      "source": "s3",
+      "page": "§2.2.1",
+      "quote": "Two main categories of them are the 14 major Rock edicts and 6 Pillar edicts."
+    },
+    {
+      "id": "c58",
+      "claim": "Mauryan emperors issued punch-marked coins of silver and copper; the Arthashastra calls silver coins Panas and copper coins Mashakas.",
+      "source": "s3",
+      "page": "§2.2.3",
+      "quote": "Mauryan emperors issued Punch-marked coins. These coins were of silver and copper. They had the symbol of peacock and hill and Crescent. Arthasastra referred to different denomination of Silver coins called Panas and Copper coins called Mashkas."
+    },
+    {
+      "id": "c59",
+      "claim": "The Mauryan empire began to decline with the death of Ashoka in 232 BCE.",
+      "source": "s3",
+      "page": "§6",
+      "quote": "The Mauryan empire began to decline with the death of Ashoka in 232 BCE."
+    },
+    {
+      "id": "c60",
+      "claim": "The last Mauryan ruler Brihadratha was overthrown by his commander-in-chief Pushyamitra Sunga in 185 BCE.",
+      "source": "s3",
+      "page": "§6",
+      "quote": "The last Mauryan ruler Brihadratha was overthrown by his commander-in-chief Pushyamitra Sunga in 185 BCE."
+    },
+    {
+      "id": "c61",
+      "claim": "Weak successors of Ashoka disrupted the administration and failed to continue the earlier Mauryan policies — a debated cause of decline.",
+      "source": "s3",
+      "page": "§7",
+      "quote": "Weak successors of Ashoka completely disrupted the Mauryan administration and they failed to continue the earlier policies of the Mauryas."
+    },
+    {
+      "id": "c62",
+      "claim": "Economic crisis from enormous expenditure on the army and burdensome payment to the bureaucracy is listed among the debated causes of decline.",
+      "source": "s3",
+      "page": "§7",
+      "quote": "The economic crises resulted from the enormous expenditure on army, burdensome payment to bureaucracy was another cause of decline."
+    },
+    {
+      "id": "c63",
+      "claim": "The best specimens of Mauryan art were tall monolithic, highly polished columns crowned with animal figures.",
+      "source": "s3",
+      "page": "§5.3.5",
+      "quote": "The best specimens of contemporary art were the tall monolithic, highly polished columns, standing free in space, crowned with animal figures."
+    },
+    {
+      "id": "c64",
+      "claim": "Chandragupta's administration divided the empire into provinces under governors generally from the royal family, with an efficient spy system and a standing army.",
+      "source": "s3",
+      "page": "§5.1",
+      "quote": "(I) The empire was divided into four provinces. (II) Each province was kept under a governor who generally belonged to the royal family. (III) An efficient spy system was established. (IV) The creation of a standing army was also useful for purposes of security and defense of the state."
+    },
+    {
+      "id": "c65",
+      "claim": "In the Mauryan age the whole of India was politically united for the first time under one king.",
+      "source": "s3",
+      "page": "§1",
+      "quote": "It was during the Mauryan age that the whole of India was politically united for the first time under the rule of one king."
+    },
+    {
+      "id": "c66",
+      "claim": "Ashoka sent a mission to Sri Lanka under his son Mahendra and daughter Sanghamitra, who planted a branch of the original Bodhi tree there.",
+      "source": "s3",
+      "page": "§5.3.4",
+      "quote": "He sent mission to Srilanka under his son Mahendra and daughter Sanghamitra, who planted there a branch of the original Bodhi tree."
+    },
+    {
+      "id": "c67",
+      "claim": "Tradition places the Third Buddhist Council in 250 BCE at Pataliputra, presided over by Moggaliputta Tissa.",
+      "source": "s3",
+      "page": "§5.3.4",
+      "quote": "The third Buddhist Council was held in 250 BCE at Pataliputra which was presided over by his brother Moggaliputta Tissa."
+    },
+    {
+      "id": "c68",
+      "claim": "The Junagadh inscription of Rudradaman indicates Chandragupta's conquests extended up to Saurashtra in Gujarat.",
+      "source": "s3",
+      "page": "§5.1",
+      "quote": "The Junagadh inscription of Rudradaman indicates Chandragupta’s conquests extended up to Saurastra in Gujarat."
+    },
+    {
+      "id": "c69",
+      "claim": "The Arthashastra mentions the institution of slavery, whose existence Megasthenes denied.",
+      "source": "s4",
+      "page": "§5.3",
+      "quote": "It also mentions the existence of the institution of slavery whose existence is denied by Megasthenes."
+    },
+    {
+      "id": "c70",
+      "claim": "Megasthenes refers to seven castes — philosophers, farmers, soldiers, herdsmen, artisans, magistrates and counselors — which are occupational rather than caste categories.",
+      "source": "s4",
+      "page": "§5.3",
+      "quote": "Megasthenes refers to seven castes to have existed at this time. These are: philosophers, farmers, soldiers, herdsmen, artisans, magistrates and counselors. These are of course occupational rather than caste categories."
+    },
+    {
+      "id": "c71",
+      "claim": "Administrative control was likely strongest in areas around the capital and the provincial centres; the empire's regions were too diverse for uniform control.",
+      "source": "s1",
+      "page": "p. 33",
+      "quote": "It is likely that administrative control was strongest in areas around the capital and the provincial centres."
+    }
+  ],
+  "overview": {
+    "intro": "ষোড়শ মহাজনপদের যুগ পেরিয়ে মগধের নেতৃত্বে গড়ে ওঠে ভারতের প্রথম বড় সাম্রাজ্য — মৌর্য সাম্রাজ্য। চন্দ্রগুপ্ত মৌর্য এর প্রতিষ্ঠা করেন, বিন্দুসার তা ধরে রাখেন, আর অশোকের আমলে সাম্রাজ্য ও তার ধম্ম-নীতি উপমহাদেশ ছাড়িয়ে পশ্চিম এশিয়া পর্যন্ত পৌঁছায়। এই অধ্যায়ে আমরা দেখব কীভাবে ঐতিহাসিকরা লেখ, গ্রিক বিবরণ ও অর্থশাস্ত্রের সাহায্যে এই সাম্রাজ্যের ইতিহাস গড়েন, কীভাবে বিশাল সাম্রাজ্য শাসিত হত, কলিঙ্গ যুদ্ধ কীভাবে অশোককে বদলে দেয়, এবং মাত্র দেড়শো বছরে এই সাম্রাজ্য কেন ভেঙে পড়ে।",
+    "you_will_learn": [
+      "জেমস প্রিন্সেপ কীভাবে ব্রাহ্মী লিপি পড়ে 'পিয়দস্সী' রাজাকে চিহ্নিত করেন",
+      "চন্দ্রগুপ্ত মৌর্য কীভাবে নন্দদের হারিয়ে সাম্রাজ্য প্রতিষ্ঠা করেন এবং সেলিউকাসের সঙ্গে সন্ধি করেন",
+      "গ্রিক লেখায় চন্দ্রগুপ্ত 'স্যান্ড্রোকোট্টাস' ও বিন্দুসার 'অমিত্রোচেটিস' নামে কেন পরিচিত",
+      "মৌর্য শাসনব্যবস্থা: রাজধানী, প্রদেশ, কর, গুপ্তচর ও সেনাবাহিনী",
+      "কলিঙ্গ যুদ্ধ (খ্রিস্টপূর্ব ২৬১) ও অশোকের ধম্ম-নীতির মূল কথা",
+      "অশোকের অনুশাসনের ভাষা, লিপি ও প্রকারভেদ",
+      "মৌর্য পতনের বিতর্কিত কারণগুলি"
+    ]
+  },
+  "sections": [
+    {
+      "id": "sources",
+      "heading": "উপাদান: মৌর্যদের কথা আমরা জানি কীভাবে",
+      "quick": "মৌর্য ইতিহাসের প্রধান উপাদান তিনটি — অশোকের পাথরে খোদাই অনুশাসন, গ্রিক দূত মেগাস্থিনিসের বিবরণ (যা খণ্ডাংশে টিকে আছে) এবং কৌটিল্যের অর্থশাস্ত্র। ১৮৩০-এর দশকে জেমস প্রিন্সেপ ব্রাহ্মী ও খরোষ্ঠী লিপি পড়ে ফেললে অনুশাসনগুলির 'পিয়দস্সী' রাজাকে অশোক বলে চেনা যায়।",
+      "standard": "আগের অধ্যায়গুলোর তুলনায় মৌর্য যুগের উপাদান অনেক বেশি ও বৈচিত্র্যময়। ঐতিহাসিকরা প্রত্নতাত্ত্বিক নিদর্শন, বিশেষত ভাস্কর্য, সাহিত্যিক রচনা, গ্রিক বিবরণ, বৌদ্ধ-জৈন-পুরাণ ঐতিহ্য এবং সর্বোপরি অশোকের অনুশাসন ব্যবহার করে এই ইতিহাস পুনর্গঠন করেন।\n\n**প্রিন্সেপ ও পিয়দস্সী:** ১৮৩০-এর দশকে ইস্ট ইন্ডিয়া কোম্পানির টাঁকশালের কর্মকর্তা জেমস প্রিন্সেপ প্রাচীনতম লেখ ও মুদ্রায় ব্যবহৃত ব্রাহ্মী ও খরোষ্ঠী লিপির পাঠোদ্ধার করেন। তিনি দেখেন, অধিকাংশ লেখতেই 'পিয়দস্সী' নামে এক রাজার উল্লেখ আছে — শব্দটির অর্থ 'দেখতে প্রীতিকর'। কয়েকটি লেখতে সেই রাজাকেই 'অশোক' বলা হয়েছে। e-PG Pathshala-র পাঠ অনুযায়ী এই পাঠোদ্ধারের বছর ১৮৩৭। এর ফলেই প্রাচীন ভারতের রাজবংশগুলির ধারাবাহিক ইতিহাস গড়া সম্ভব হয়।\n\n**গ্রিক বিবরণ:** চন্দ্রগুপ্তের দরবারে গ্রিক দূত মেগাস্থিনিসের বিবরণ আজ খণ্ডাংশ আকারে টিকে আছে; পরবর্তী গ্রিক-রোমান লেখকদের রচনায় তার উদ্ধৃতি মেলে। গ্রিক লেখায় চন্দ্রগুপ্ত 'স্যান্ড্রোকোট্টাস', বিন্দুসার 'অমিত্রোচেটিস' এবং রাজধানী পাটলিপুত্র 'পালিমবোথ্রা' নামে পরিচিত — এই নামমিলই মৌর্য কালনির্ণয়ের অন্যতম ভিত্তি।\n\n**অর্থশাস্ত্র ও অনুশাসন:** অর্থশাস্ত্রের অংশবিশেষ সম্ভবত কৌটিল্য বা চাণক্য রচনা করেন — ঐতিহ্য অনুযায়ী তিনি চন্দ্রগুপ্তের মন্ত্রী ছিলেন। আর অশোকের (আনুমানিক খ্রিস্টপূর্ব ২৭২/২৬৮–২৩১) শিলা ও স্তম্ভে খোদাই অনুশাসনগুলিকে প্রায়ই সবচেয়ে মূল্যবান উপাদান মনে করা হয়, কারণ সেগুলি রাজার নিজের কথা।",
+      "deep": "উপাদানগুলির সীমাবদ্ধতাও মনে রাখতে হবে। মেগাস্থিনিস ভারতীয় সমাজকে সাতটি 'জাতিতে' ভাগ করেছিলেন — দার্শনিক, কৃষক, সৈনিক, পশুপালক, কারিগর, ম্যাজিস্ট্রেট ও পরামর্শদাতা — কিন্তু IGNOU-র পাঠ স্পষ্ট বলছে, এগুলি জাতি নয়, পেশাভিত্তিক শ্রেণি। আবার মেগাস্থিনিস দাবি করেছিলেন ভারতে দাসপ্রথা নেই, অথচ অর্থশাস্ত্রে দাসপ্রথার অস্তিত্বের উল্লেখ আছে। অর্থাৎ বিদেশি পর্যবেক্ষকের কথা চোখ বুজে নেওয়া যায় না — দেশীয় উপাদানের সঙ্গে মিলিয়ে যাচাই করতে হয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষায় বারবার আসে",
+          "body": "'পিয়দস্সী' নামটি কোন রাজার — WBCS ২০১৭-তে এই প্রশ্ন এসেছিল; উত্তর অশোক। আবার অশোকের ব্রাহ্মী লিপির পাঠোদ্ধারক জেমস প্রিন্সেপ — WBCS ২০১৯-এর প্রশ্ন। দুটোই এই বিভাগ থেকে সরাসরি উত্তর পাওয়া যায়।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "গোলমাল পাকাবে না",
+          "body": "মেগাস্থিনিসের 'সাত জাতি' আর বর্ণব্যবস্থার চার বর্ণ এক নয়। মেগাস্থিনিসের ভাগ পেশাভিত্তিক; আর তাঁর 'দাসপ্রথা নেই' দাবিটি অর্থশাস্ত্রের সঙ্গে মেলে না।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c07",
+        "c08",
+        "c09",
+        "c38",
+        "c54",
+        "c69",
+        "c70"
+      ]
+    },
+    {
+      "id": "foundation",
+      "heading": "চন্দ্রগুপ্ত মৌর্য ও সাম্রাজ্যের প্রতিষ্ঠা",
+      "quick": "মগধের শক্তির উপর ভর করে চন্দ্রগুপ্ত মৌর্য আনুমানিক খ্রিস্টপূর্ব ৩২১ অব্দে মৌর্য সাম্রাজ্য প্রতিষ্ঠা করেন। কৌটিল্যের সাহায্যে তিনি শেষ নন্দরাজা ধননন্দকে হারিয়ে পাটলিপুত্র দখল করেন, পশ্চিমে সেলিউকাসের সঙ্গে সন্ধি করে আফগানিস্তান-বেলুচিস্তান পর্যন্ত সীমানা বাড়ান।",
+      "standard": "**পটভূমি — মগধ:** খ্রিস্টপূর্ব ষষ্ঠ থেকে চতুর্থ শতকের মধ্যে মগধ (বর্তমান বিহার) সবচেয়ে শক্তিশালী মহাজনপদ হয়ে ওঠে। আধুনিক ঐতিহাসিকদের ব্যাখ্যায় — মগধে কৃষি ছিল বিশেষ উৎপাদনশীল, কাছেই (বর্তমান ঝাড়খণ্ডে) লোহার খনি ছিল যেখান থেকে যন্ত্র ও অস্ত্রের কাঁচামাল মিলত, জঙ্গলে সেনাবাহিনীর জন্য হাতি পাওয়া যেত, আর গঙ্গা ও তার উপনদীগুলি সস্তা যাতায়াতের পথ ছিল। মগধের রাজধানী প্রথমে ছিল পাহাড়ঘেরা রাজগহ (রাজগির); খ্রিস্টপূর্ব চতুর্থ শতকে রাজধানী সরে আসে পাটলিপুত্রে (বর্তমান পাটনা), যেখান থেকে গঙ্গাপথের যাতায়াত নিয়ন্ত্রণ করা যেত।\n\n**নন্দ পতন ও প্রতিষ্ঠা:** e-PG পাঠ অনুযায়ী, নন্দদের ক্রমবর্ধমান দুর্বলতা ও অজনপ্রিয়তার সুযোগ নিয়ে চন্দ্রগুপ্ত আনুমানিক খ্রিস্টপূর্ব ৩২২ অব্দে শেষ নন্দরাজা ধননন্দের কাছ থেকে পাটলিপুত্র ছিনিয়ে নেন; এ কাজে তাঁকে সাহায্য করেন কৌটিল্য, যিনি চাণক্য নামেও পরিচিত। NCERT দ্বাদশ শ্রেণির বই প্রতিষ্ঠার বছরটি আনুমানিক খ্রিস্টপূর্ব ৩২১ বলে ধরে। এই সাম্রাজ্য প্রতিষ্ঠার ফলেই মৌর্য যুগে প্রথমবারের মতো সমগ্র ভারত এক রাজার অধীনে রাজনৈতিকভাবে ঐক্যবদ্ধ হয়।\n\n**পশ্চিমে বিস্তার ও সেলিউকাসের সঙ্গে সন্ধি:** চন্দ্রগুপ্ত নিয়ন্ত্রণ উত্তর-পশ্চিমে আফগানিস্তান ও বেলুচিস্তান পর্যন্ত বিস্তার করেন। পশ্চিম এশিয়ার গ্রিক শাসক সেলিউকাস নিকেটরের সঙ্গে সংঘর্ষের পর সন্ধি হয়: আরিয়া, আরাকোসিয়া, পারোপনিসাদে ও গেড্রোসিয়া — অর্থাৎ হেরাত, কান্দাহার, কাবুল ও বেলুচিস্তান অঞ্চল — চন্দ্রগুপ্তের হাতে ছেড়ে দেওয়া হয়; বিনিময়ে চন্দ্রগুপ্ত সেলিউকাসকে ৫০০টি যুদ্ধহাতি দেন। এই মৈত্রী দৃঢ় করতে সেলিউকাস দূত হিসেবে মেগাস্থিনিসকে মৌর্য দরবারে পাঠান। রুদ্রদামনের জুনাগড় লেখ থেকে জানা যায়, চন্দ্রগুপ্তের বিজয় গুজরাটের সৌরাষ্ট্র পর্যন্ত পৌঁছেছিল।",
+      "deep": "**চন্দ্রগুপ্তের শেষ জীবন নিয়ে ঐতিহ্য:** জৈন ঐতিহ্য অনুযায়ী, জীবনের শেষদিকে চন্দ্রগুপ্ত জৈনধর্ম গ্রহণ করেন, পুত্র বিন্দুসারের অনুকূলে সিংহাসন ছেড়ে দেন এবং জৈন সাধু ভদ্রবাহুর সঙ্গে মহীশূরের কাছে শ্রবণবেলগোলায় চলে যান। মনে রাখবে — এটি ঐতিহ্য বা কিংবদন্তি-ভিত্তিক বর্ণনা, সমকালীন লেখ দিয়ে প্রমাণিত নয়; পরীক্ষায় প্রশ্ন এলে 'জৈন ঐতিহ্য অনুযায়ী' কথাটি উল্লেখ করা নিরাপদ। পুরাণের তালিকা অনুযায়ী চন্দ্রগুপ্ত ২৪ বছর রাজত্ব করেন।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "তারিখ নিয়ে দুই পাঠ",
+          "body": "প্রতিষ্ঠার বছর NCERT দ্বাদশ শ্রেণিতে আনুমানিক খ্রিস্টপূর্ব ৩২১, e-PG পাঠে পাটলিপুত্র দখলের বছর আনুমানিক খ্রিস্টপূর্ব ৩২২। দুটোই 'আনুমানিক' — পরীক্ষায় বিকল্পে যা থাকবে তার কাছাকাছি বছরটিই নিতে হবে।"
+        },
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "গ্রিক নামের মিল: স্যান্ড্রোকোট্টাস = চন্দ্রগুপ্ত (WBCS ২০১৮-র প্রশ্ন), পালিমবোথ্রা = পাটলিপুত্র। 'ভারতের প্রথম ঐতিহাসিক সম্রাট' বলতে পরীক্ষায় চন্দ্রগুপ্ত মৌর্যকেই বোঝায় (WBCS ২০২৩)।"
+        }
+      ],
+      "claims": [
+        "c03",
+        "c04",
+        "c05",
+        "c19",
+        "c26",
+        "c38",
+        "c40",
+        "c41",
+        "c65",
+        "c68",
+        "c39",
+        "c43",
+        "c42"
+      ]
+    },
+    {
+      "id": "bindusara_expansion",
+      "heading": "বিন্দুসার: সাম্রাজ্য ধরে রাখা ও পশ্চিমের সঙ্গে যোগাযোগ",
+      "quick": "চন্দ্রগুপ্তের পুত্র বিন্দুসার (আনুমানিক খ্রিস্টপূর্ব ২৯৮–২৭৩) পিতার বিশাল সাম্রাজ্য অক্ষুণ্ণ রাখেন এবং গ্রিক শাসকদের সঙ্গে বন্ধুত্বপূর্ণ সম্পর্ক বজায় রাখেন। গ্রিকরা তাঁকে 'অমিত্রোচেটিস' বলত — সংস্কৃত 'অমিত্রঘাত' অর্থাৎ শত্রুনিধনকারী।",
+      "standard": "মৌর্য বংশের তিন প্রধান শাসক — চন্দ্রগুপ্ত, তাঁর পুত্র বিন্দুসার এবং বিন্দুসারের পুত্র অশোক। পুরাণের তালিকা অনুযায়ী বিন্দুসার ২৫ বছর রাজত্ব করেন।\n\n**নাম ও পরিচয়:** গ্রিক লেখকদের কাছে বিন্দুসার 'অমিত্রোচেটিস' নামে পরিচিত, যা এসেছে সংস্কৃত 'অমিত্রঘাত' শব্দ থেকে — অর্থ 'শত্রুদের নিধনকারী'।\n\n**পশ্চিমের সঙ্গে সম্পর্ক:** বিন্দুসার পিতার কাছ থেকে পাওয়া বিশাল সাম্রাজ্য ধরে রাখেন এবং পশ্চিমের গ্রিক শাসকদের সঙ্গে বন্ধুত্বের সম্পর্ক চালিয়ে যান। সিরিয়ার সেলিউকিড রাজা প্রথম আন্তিওকাসের সঙ্গে তাঁর যোগাযোগ ছিল; আন্তিওকাসের দূত দেইমাকাস মৌর্য দরবারে ছিলেন বলে জানা যায়। একটি মজার ঘটনা পাঠে উল্লেখ আছে — বিন্দুসার আন্তিওকাসকে মিষ্টি মদ, শুকনো ডুমুর ও একজন সোফিস্ট (দার্শনিক পণ্ডিত) পাঠাতে অনুরোধ করেন; সোফিস্ট পাঠানো হয়নি, কারণ তা 'রপ্তানিযোগ্য' বলে গণ্য হয়নি।\n\n**রাজপুত্রদের প্রশিক্ষণ:** বিন্দুসারের আমলেই রাজপুত্র অশোক উজ্জয়িনীর শাসক (গভর্নর) হিসেবে কাজ করেন এবং তক্ষশীলায় বিদ্রোহ দমন করেন — সাম্রাজ্য চালানোর এই প্রত্যক্ষ অভিজ্ঞতাই পরবর্তীকালে তাঁর শাসনের ভিত্তি হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "দুই দূত, দুই রাজা",
+          "body": "মেগাস্থিনিস এসেছিলেন চন্দ্রগুপ্তের দরবারে সেলিউকাসের দূত হয়ে; দেইমাকাস ছিলেন বিন্দুসারের সময়ে আন্তিওকাসের দূত। কার সঙ্গে কে — এই জোড়া পরীক্ষায় উলটে দেওয়া হয়।"
+        }
+      ],
+      "claims": [
+        "c20",
+        "c39",
+        "c44",
+        "c45",
+        "c46",
+        "c47"
+      ]
+    },
+    {
+      "id": "administration",
+      "heading": "শাসনব্যবস্থা: বিশাল সাম্রাজ্য চলত কীভাবে",
+      "quick": "সাম্রাজ্যের কেন্দ্রে ছিল রাজধানী পাটলিপুত্র; চারদিকে ছিল প্রাদেশিক কেন্দ্র — তক্ষশীলা, উজ্জয়িনী, তোশালি ও সুবর্ণগিরি। পাটলিপুত্রের আশপাশের অঞ্চল সরাসরি সম্রাটের নিয়ন্ত্রণে ছিল, প্রদেশগুলি চলত রাজপুত্র-গভর্নরদের হাতে; কর আদায়, গুপ্তচরব্যবস্থা ও বিশাল স্থায়ী সেনাবাহিনী ছিল এই শাসনের ভিত্তি।",
+      "standard": "**কেন্দ্র ও প্রদেশ:** অশোকের অনুশাসন অনুযায়ী সাম্রাজ্যে পাঁচটি প্রধান রাজনৈতিক কেন্দ্র ছিল — রাজধানী পাটলিপুত্র এবং প্রাদেশিক কেন্দ্র তক্ষশীলা, উজ্জয়িনী, তোশালি ও সুবর্ণগিরি। ষষ্ঠ শ্রেণির NCERT অনুযায়ী, পাটলিপুত্রের চারপাশের অঞ্চল ছিল সম্রাটের সরাসরি নিয়ন্ত্রণে: সেখানে কর্মকর্তারা কৃষক, পশুপালক, কারিগর ও ব্যবসায়ীদের কাছ থেকে কর আদায় করতেন, অবাধ্যদের শাস্তি দিতেন, আর অনেক কর্মকর্তাই বেতন পেতেন। প্রদেশগুলি তাদের প্রাদেশিক রাজধানী (যেমন তক্ষশীলা বা উজ্জয়িনী) থেকে শাসিত হত; রাজপুত্রদের প্রায়ই গভর্নর করে পাঠানো হত, তবে স্থানীয় প্রথা ও নিয়ম সম্ভবত মেনে চলা হত। e-PG পাঠ চন্দ্রগুপ্তের শাসনব্যবস্থার বৈশিষ্ট্য হিসেবে গণনা করে — সাম্রাজ্যকে প্রদেশে ভাগ, সাধারণত রাজপরিবারের সদস্যদের গভর্নর নিয়োগ, দক্ষ গুপ্তচরব্যবস্থা এবং স্থায়ী সেনাবাহিনী।\n\n**নিয়ন্ত্রণের ভূগোল:** তক্ষশীলা ছিল উত্তর-পশ্চিমের প্রবেশদ্বার — মধ্য এশিয়া পর্যন্ত যাওয়ার পথ; উজ্জয়িনী ছিল উত্তর থেকে দক্ষিণ ভারতে যাওয়ার পথে। তক্ষশীলা ও উজ্জয়িনী দুটোই গুরুত্বপূর্ণ দূরপাল্লার বাণিজ্যপথের উপর অবস্থিত ছিল, আর সুবর্ণগিরি ('সোনার পাহাড়') সম্ভবত কর্ণাটকের সোনার খনির জন্য গুরুত্বপূর্ণ ছিল। ঐতিহাসিকদের মতে, প্রশাসনিক নিয়ন্ত্রণ রাজধানী ও প্রাদেশিক কেন্দ্রের আশপাশেই সবচেয়ে শক্তিশালী ছিল — বিশাল ও বৈচিত্র্যময় সাম্রাজ্যে সর্বত্র একই রকম নিয়ন্ত্রণ সম্ভব ছিল না। কেন্দ্র ও প্রদেশের মধ্যে দূতেরা যাতায়াত করত, আর গুপ্তচরেরা কর্মকর্তাদের উপর নজর রাখত।\n\n**বনাঞ্চল ও উপকর:** কেন্দ্রগুলির মাঝখানের বিস্তীর্ণ অঞ্চলে মৌর্যরা রাস্তা ও নদীপথ নিয়ন্ত্রণের চেষ্টা করত। বনাঞ্চলের মানুষেরা কম-বেশি স্বাধীন ছিল, তবে তাদের কাছ থেকে হাতি, কাঠ, মধু ও মোম পাওয়ার প্রত্যাশা করা হত। নিয়মিত করের বদলে এ ধরনের অনিয়মিত সংগ্রহকে 'উপকর' (tribute) বলা যায়।\n\n**সেনাবাহিনী ও অর্থ:** মেগাস্থিনিস সেনাবাহিনীর সমন্বয়ের জন্য ছয়টি উপ-কমিটির কথা বলেছেন — নৌবাহিনী, পরিবহন ও রসদ, পদাতিক, ঘোড়া, রথ ও হাতি — প্রতিটির দায়িত্ব আলাদা। গ্রিক সূত্রে মৌর্য রাজার স্থায়ী সেনাবাহিনীতে ৬,০০,০০০ পদাতিক, ৩০,০০০ অশ্বারোহী ও ৯,০০০ হাতির কথা আছে, যদিও কিছু ঐতিহাসিক এই সংখ্যাগুলিকে অতিরঞ্জিত মনে করেন। অর্থব্যবস্থার চিহ্ন মেলে মুদ্রায়: মৌর্য সম্রাটেরা রৌপ্য ও তামার ছাপ-মারা (punch-marked) মুদ্রা চালু রেখেছিলেন; অর্থশাস্ত্রে রৌপ্য মুদ্রা 'পণ' ও তাম্র মুদ্রা 'মাষক' নামে উল্লিখিত।",
+      "deep": "**পাটলিপুত্রের ছবি:** মেগাস্থিনিসের বর্ণনায় পাটলিপুত্র ছিল বিশাল ও সুন্দর শহর — প্রকাণ্ড প্রাচীরে ঘেরা, যাতে ছিল ৫৭০টি বুরুজ ও ৬৪টি দরজা; বাড়িগুলি ছিল কাঠ ও মাটির ইটের তৈরি, রাজপ্রাসাদও ছিল কাঠের, পাথরের খোদাইয়ে সজ্জিত। এই বর্ণনা থেকে বোঝা যায়, রাজধানী ছিল সাম্রাজ্যের প্রশাসনিক ও অর্থনৈতিক প্রাণকেন্দ্র — তাই পাটলিপুত্রের আশপাশের অঞ্চল সরাসরি সম্রাটের হাতে রাখা হয়েছিল।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পাঁচ কেন্দ্র মুখস্থ রাখো",
+          "body": "পাটলিপুত্র (রাজধানী) + তক্ষশীলা, উজ্জয়িনী, তোশালি, সুবর্ণগিরি (প্রাদেশিক কেন্দ্র) — এই তালিকা অশোকের অনুশাসন থেকেই পাওয়া। কোনটি প্রাদেশিক কেন্দ্র নয় — এমন প্রশ্নে পাটলিপুত্রই ফাঁদ।"
+        },
+        {
+          "kind": "remember",
+          "title": "সংখ্যা দুটি",
+          "body": "মেগাস্থিনিসের পাটলিপুত্র: ৫৭০ বুরুজ, ৬৪ দরজা। সেনা-কমিটি: ৬টি উপ-কমিটি।"
+        }
+      ],
+      "claims": [
+        "c12",
+        "c13",
+        "c14",
+        "c17",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c27",
+        "c58",
+        "c64",
+        "c71"
+      ]
+    },
+    {
+      "id": "ashoka_kalinga",
+      "heading": "অশোক ও কলিঙ্গ যুদ্ধ",
+      "quick": "বিন্দুসারের পুত্র অশোক (আনুমানিক খ্রিস্টপূর্ব ২৭২/২৬৮–২৩১) মৌর্য বংশের সবচেয়ে বিখ্যাত শাসক। রাজ্যাভিষেকের অষ্টম বছরে (খ্রিস্টপূর্ব ২৬১) তিনি কলিঙ্গ জয় করেন; কিন্তু যুদ্ধের রক্তপাত দেখে তিনি আর যুদ্ধ না করার সিদ্ধান্ত নেন — বিশ্ব-ইতিহাসে তিনিই একমাত্র রাজা যিনি যুদ্ধ জেতার পর বিজয় ত্যাগ করেন।",
+      "standard": "**সিংহাসনে অশোক:** অশোক ছিলেন প্রথম শাসক যিনি পাথরের উপর — প্রাকৃতিক শিলা ও পালিশ করা স্তম্ভে — প্রজা ও কর্মকর্তাদের উদ্দেশে নিজের বার্তা খোদাই করান। তাঁর অনুশাসনে তাঁকে 'দেবনাংপিয়' ও 'পিয়দস্সী' বলা হয়েছে — অর্থাৎ 'দেবতাদের প্রিয়' ও 'প্রীতিকর দর্শন যার'। রাজা হওয়ার আগে তিনি উজ্জয়িনীর গভর্নর ছিলেন এবং পিতা বিন্দুসারের আমলে তক্ষশীলার বিদ্রোহ দমন করেছিলেন।\n\n**কলিঙ্গ যুদ্ধ:** কলিঙ্গ হল উপকূলীয় ওড়িশার প্রাচীন নাম। অশোক যুদ্ধ করে কলিঙ্গ জয় করেন। তাঁর নিজের অনুশাসনে তিনি লিখেছেন: 'রাজা হওয়ার আট বছর পর আমি কলিঙ্গ জয় করি। প্রায় দেড় লক্ষ মানুষ বন্দি হয়েছিল। আর এক লক্ষেরও বেশি মানুষ নিহত হয়েছিল।' e-PG পাঠ অনুযায়ী এই যুদ্ধের বছর খ্রিস্টপূর্ব ২৬১, আর ঘটনাটি বর্ণিত আছে ত্রয়োদশ শিলালেখে (Rock Edict XIII)।\n\n**মোড় ঘোরা:** হিংসা ও রক্তপাত দেখে অশোক এতটাই বিচলিত হন যে তিনি সিদ্ধান্ত নেন আর যুদ্ধ করবেন না। এরপর থেকে তাঁর নীতি বদলে যায় — সামরিক বিজয় (দিগ্বিজয়) ছেড়ে তিনি নেন ধর্মবিজয়ের পথ; পাঠের ভাষায়, 'ভেরিঘোষ (যুদ্ধভেরীর শব্দ) স্থান পেল ধম্মঘোষে (ধম্মের ঘোষণা)'। তাঁর সন্তান ও পৌত্রদেরও তিনি যুদ্ধের কথা না ভাবতে উপদেশ দিয়ে যান।",
+      "deep": "**কেন কলিঙ্গ?** কলিঙ্গ জয়ের ফলে অশোকের বিশাল রাজ্য সম্পূর্ণ হয় এবং দক্ষিণ-পূর্ব দিকে সীমানা আরও উপযুক্ত হয় — e-PG পাঠে এই কৌশলগত দিকটির উল্লেখ আছে। কিন্তু পরীক্ষার জন্য গুরুত্বপূর্ণ হল যুদ্ধের ফল: অনুশোচনা, যুদ্ধত্যাগ এবং ধম্ম-নীতির সূত্রপাত। অশোক নিজে তাঁর অনুশাসনে যুদ্ধের ক্ষয়ক্ষতির সংখ্যা লিখে গেছেন বলেই এই ঘটনা প্রাচীন ভারতের সবচেয়ে সুপ্রমাণিত ঘটনাগুলির একটি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সংখ্যাগুলি মুখস্থ",
+          "body": "কলিঙ্গ যুদ্ধ: রাজ্যাভিষেকের ৮ম বছর, খ্রিস্টপূর্ব ২৬১; বন্দি প্রায় ১,৫০,০০০, নিহত ১,০০,০০০-এর বেশি; উৎস — ত্রয়োদশ শিলালেখ।"
+        }
+      ],
+      "claims": [
+        "c06",
+        "c10",
+        "c28",
+        "c29",
+        "c30",
+        "c47",
+        "c48",
+        "c49",
+        "c50"
+      ]
+    },
+    {
+      "id": "dhamma_edicts",
+      "heading": "অশোকের ধম্ম ও অনুশাসন",
+      "quick": "অশোকের ধম্ম কোনো নতুন ধর্ম ছিল না — তা ছিল সবার জন্য পালনীয় আচরণবিধি: বড়োদের সম্মান, অহিংসা, সত্যবাদিতা, ধর্মীয় সহনশীলতা, দাস-সেবকদের প্রতি সদয় আচরণ। এই বার্তা পৌঁছে দিতে তিনি ধম্ম-মহামাত্র নামে বিশেষ কর্মকর্তা নিয়োগ করেন এবং সারা সাম্রাজ্যে শিলা ও স্তম্ভে অনুশাসন খোদাই করান।",
+      "standard": "**কেন ধম্ম?** অশোকের সামনে সমস্যা ছিল নানা রকম: সাম্রাজ্যের মানুষ ভিন্ন ভিন্ন ধর্ম মানত, আর তাতে মাঝে মাঝে সংঘাত হত; পশুবলি চলত; দাস ও সেবকদের সঙ্গে দুর্ব্যবহার হত; পরিবারে ও প্রতিবেশীদের মধ্যেও ঝগড়া হত। এই সমস্যাগুলি মেটানোই তিনি নিজের কর্তব্য মনে করেন।\n\n**ধম্ম কী?** e-PG পাঠ স্পষ্ট বলছে — ধম্ম কোনো নতুন ধর্মও নয়, রাজনৈতিক দর্শনও নয়; তা ছিল জীবনযাপনের একটি পথ, সবার পালনীয় আচরণবিধি। এর উপাদান: দান, দয়া, সত্যবাদিতা, অহিংসা, ধর্মীয় সহনশীলতা ও বড়োদের প্রতি সম্মান। NCERT-র সারাংশে আরও আছে — ব্রাহ্মণ ও সন্ন্যাসীদের প্রতি উদারতা, দাস-সেবকদের প্রতি সদয় আচরণ, এবং নিজের ধর্ম ছাড়া অন্য ধর্মের প্রতি সম্মান। ধম্মে কোনো দেবতার পূজা বা যজ্ঞের বিধান ছিল না; অশোক মনে করতেন, পিতা যেমন সন্তানদের শেখায়, তেমনি প্রজাদের নির্দেশ দেওয়া রাজার কর্তব্য — তাঁর নিজের ভাষায়, 'সকল মানুষ আমার সন্তান'। তিনি বুদ্ধের শিক্ষা থেকে অনুপ্রাণিত হয়েছিলেন।\n\n**প্রচারের উপায়:** (১) ধম্ম-মহামাত্র নামে বিশেষ কর্মকর্তারা জায়গায় জায়গায় গিয়ে ধম্মের কথা বলতেন; (২) শিলা ও স্তম্ভে খোদাই অনুশাসন — কর্মকর্তাদের নির্দেশ ছিল, যাঁরা পড়তে পারেন না তাঁদের কাছে বার্তা পড়ে শোনাতে হবে; (৩) বিদেশে দূত — সিরিয়া, মিশর ও গ্রিসে ধম্মের বার্তা নিয়ে দূত যায়, আর পুত্র মহেন্দ্র ও কন্যা সঙ্ঘমিত্রা যান শ্রীলঙ্কায় (ঐতিহ্য অনুযায়ী তাঁরা সেখানে মূল বোধিবৃক্ষের একটি শাখা রোপণ করেন)। ঐতিহ্য অনুযায়ী খ্রিস্টপূর্ব ২৫০ অব্দে পাটলিপুত্রে তৃতীয় বৌদ্ধ সংগীতিও বসে, যার সভাপতি ছিলেন মোগ্গলিপুত্ত তিস্স।\n\n**জনকল্যাণ:** অশোক রাস্তা তৈরি করেন, কূপ খনন করেন, বিশ্রামাগার বানান এবং মানুষ ও পশু উভয়ের চিকিৎসার ব্যবস্থা করেন।\n\n**অনুশাসনের ভাষা ও লিপি:** অধিকাংশ অনুশাসন প্রাকৃত ভাষায়; বেশিরভাগ প্রাকৃত অনুশাসন ব্রাহ্মী লিপিতে, তবে উত্তর-পশ্চিমের কিছু খরোষ্ঠী লিপিতে; উত্তর-পশ্চিম সীমান্তে আরামাইক ও গ্রিক ভাষার অনুশাসনও আছে — মানসেহরা ও শাহবাজগড়ীর লেখ প্রাকৃত ভাষায় খরোষ্ঠী লিপিতে, আর কান্দাহারের কাছে গ্রিক-আরামাইক দ্বিভাষিক লেখ পাওয়া গেছে। অনুশাসনগুলির মধ্যে ১৪টি প্রধান শিলালেখ (Major Rock Edicts) প্রধান শ্রেণি। অনুশাসনগুলিতে সমকালীন বিদেশি শাসকদের সঙ্গে অশোকের সম্পর্কের উল্লেখও আছে।",
+      "deep": "**ধম্ম ও বৌদ্ধধর্ম — এক নয়:** অশোক নিজে বুদ্ধের শিক্ষায় অনুপ্রাণিত হলেও তাঁর ধম্মকে কোনো একটি ধর্মের সঙ্গে মেলানো যায় না — এতে পূজা বা বলির বিধান নেই, আছে নৈতিক আচরণের কথা। এই কারণেই বিশাল, বহুধর্মী সাম্রাজ্যকে এক সূত্রে বাঁধতে ধম্ম কার্যকর হয়েছিল: কেউ নিজের ধর্ম ছাড়তে বাধ্য নয়, কিন্তু সবার জন্য একই নৈতিক আচরণ প্রত্যাশিত।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "ধম্ম ≠ ধর্ম",
+          "body": "'ধম্ম' প্রাকৃত শব্দ, সংস্কৃত 'ধর্ম'-এর রূপ; কিন্তু অশোকের ধম্ম কোনো ধর্মমত নয় — আচরণবিধি। প্রশ্নে 'অশোক কোন নতুন ধর্ম প্রতিষ্ঠা করেন?' জাতীয় বিকল্প থাকলে সতর্ক থাকো।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "লিপি-ভাষা জোড়া",
+          "body": "প্রাকৃত + ব্রাহ্মী = অধিকাংশ অনুশাসন; খরোষ্ঠী = উত্তর-পশ্চিম (মানসেহরা, শাহবাজগড়ী); গ্রিক-আরামাইক = কান্দাহার অঞ্চল।"
+        }
+      ],
+      "claims": [
+        "c11",
+        "c15",
+        "c18",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c51",
+        "c52",
+        "c53",
+        "c55",
+        "c56",
+        "c57",
+        "c66",
+        "c67"
+      ]
+    },
+    {
+      "id": "decline_art",
+      "heading": "পতন, শিল্পকলা ও মৌর্য উত্তরাধিকার",
+      "quick": "অশোকের মৃত্যুর (খ্রিস্টপূর্ব ২৩২) পর থেকেই সাম্রাজ্য দুর্বল হতে থাকে; শেষ মৌর্য শাসক বৃহদ্রথকে তাঁর সেনাপতি পুষ্যমিত্র শুঙ্গ খ্রিস্টপূর্ব ১৮৫ অব্দে উৎখাত করেন। শিল্পে মৌর্যদের স্থায়ী ছাপ — পালিশ করা একশিলা স্তম্ভ ও প্রাণীমূর্তির স্তম্ভশীর্ষ, যার সারনাথের সিংহস্তম্ভ আজ ভারতের মুদ্রা ও নোটে দেখা যায়।",
+      "standard": "**শিল্প ও স্থাপত্য:** মৌর্য যুগের শিল্পের শ্রেষ্ঠ নিদর্শন হল লম্বা, একশিলা (monolithic), অত্যন্ত পালিশ করা স্তম্ভগুলি, যেগুলির মাথায় প্রাণীর মূর্তি বসানো। সারনাথে এমনই এক স্তম্ভের মাথায় খোদাই করা সিংহমূর্তি আজ আমাদের নোট ও মুদ্রায় দেখা যায় — সেই থেকেই বোঝা যায় মৌর্য শিল্পের উত্তরাধিকার কত দীর্ঘ।\n\n**পতনের ধারা:** e-PG পাঠ অনুযায়ী, অশোকের মৃত্যুর (খ্রিস্টপূর্ব ২৩২) সঙ্গে সঙ্গেই সাম্রাজ্যের পতন শুরু হয়। পরবর্তী শাসকদের রাজত্ব ছিল সংক্ষিপ্ত; সাম্রাজ্য দুর্বল ও খণ্ডিত হয়ে পড়ে। শেষ মৌর্য শাসক বৃহদ্রথকে তাঁর প্রধান সেনাপতি পুষ্যমিত্র শুঙ্গ খ্রিস্টপূর্ব ১৮৫ অব্দে উৎখাত করে শুঙ্গ বংশ প্রতিষ্ঠা করেন। ষষ্ঠ শ্রেণির NCERT-ও বলছে, মৌর্য সেনাপতি পুষ্যমিত্র শুঙ্গ উত্তর ও মধ্য ভারতের অংশে নিজের রাজ্য গড়েন। পুরাণের হিসাবে পুরো বংশের আয়ু ১৩৭ বছর; NCERT দ্বাদশ শ্রেণির হিসাবে সাম্রাজ্য টিকেছিল প্রায় ১৫০ বছর, এবং তা সমগ্র উপমহাদেশ জুড়ে ছিল না।\n\n**পতনের কারণ নিয়ে বিতর্ক:** পণ্ডিতদের মধ্যে এ নিয়ে মতভেদ আছে। e-PG পাঠে তালিকাভুক্ত কারণগুলির মধ্যে আছে — অশোকের দুর্বল উত্তরাধিকারীরা প্রশাসন ভেঙে দেন এবং পূর্বের নীতিগুলি চালিয়ে যেতে ব্যর্থ হন; আবার বিশাল সেনাবাহিনী ও আমলাতন্ত্রের বেতনের বিপুল ব্যয় থেকে অর্থনৈতিক সংকট দেখা দেয়। কেউ কেউ অশোকের নীতিকেই দায়ী করেন — তবে মনে রাখতে হবে, এগুলি বিতর্কিত ব্যাখ্যা, নিশ্চিত সত্য নয়।\n\n**উত্তরাধিকার:** মৌর্যরাই প্রথম ভারতকে এক রাজনৈতিক ছাতার তলায় আনেন; তাঁদের প্রশাসনিক কাঠামো, মুদ্রাব্যবস্থা ও স্তম্ভশিল্প পরবর্তী যুগের ভিত্তি হয়ে থাকে।",
+      "deep": "**দশরথের কথা:** অশোকের পরবর্তী শাসকদের মধ্যে নাতি দশরথই একমাত্র যিনি লেখ খোদাই করান এবং অশোকের 'দেবনাংপিয়' উপাধি ব্যবহার করেন। তাঁর তিনটি ছোট লেখ থেকে জানা যায়, রাজ্যাভিষেকের পর তিনি বিহারের বরাবরের কাছে নাগার্জুনি পাহাড়ের গুহাগুলি আজীবক সন্ন্যাসীদের দান করেন — অর্থাৎ ধর্মীয় উদারতার ঐতিহ্য তাঁর আমলেও চলেছিল।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "শেষ অধ্যায়ের সংখ্যা",
+          "body": "অশোকের মৃত্যু খ্রিস্টপূর্ব ২৩২; শেষ রাজা বৃহদ্রথ, উৎখাত খ্রিস্টপূর্ব ১৮৫; উৎখাতকারী সেনাপতি পুষ্যমিত্র শুঙ্গ।"
+        }
+      ],
+      "claims": [
+        "c16",
+        "c35",
+        "c36",
+        "c39",
+        "c59",
+        "c60",
+        "c61",
+        "c62",
+        "c63",
+        "c67"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "মৌর্য সাম্রাজ্যের প্রতিষ্ঠা",
+      "when": "আনুমানিক খ্রিস্টপূর্ব ৩২১",
+      "what": "চন্দ্রগুপ্ত মৌর্য মগধের ভিত্তির উপর মৌর্য সাম্রাজ্য প্রতিষ্ঠা করেন; কৌটিল্যের সাহায্যে শেষ নন্দরাজা ধননন্দের কাছ থেকে পাটলিপুত্র দখল হয়।",
+      "why_it_matters": "এর মধ্য দিয়েই ভারত প্রথমবার রাজনৈতিকভাবে এক শাসকের অধীনে ঐক্যবদ্ধ হয়।",
+      "section": "foundation",
+      "claims": [
+        "c05",
+        "c40",
+        "c65"
+      ]
+    },
+    {
+      "title": "সেলিউকাসের সঙ্গে সন্ধি ও মেগাস্থিনিসের আগমন",
+      "when": "আনুমানিক খ্রিস্টপূর্ব ৩০৫–৩০৩",
+      "what": "সন্ধিতে হেরাত, কান্দাহার, কাবুল ও বেলুচিস্তান অঞ্চল চন্দ্রগুপ্ত পান; বিনিময়ে তিনি ৫০০টি যুদ্ধহাতি দেন। সেলিউকাস দূত হিসেবে মেগাস্থিনিসকে পাঠান।",
+      "why_it_matters": "সাম্রাজ্যের উত্তর-পশ্চিম সীমানা স্থির হয় এবং গ্রিক বিবরণ নামে ইতিহাসের অন্যতম প্রধান উপাদান তৈরি হয়।",
+      "section": "foundation",
+      "claims": [
+        "c41",
+        "c42"
+      ]
+    },
+    {
+      "title": "বিন্দুসারের রাজত্ব",
+      "when": "আনুমানিক খ্রিস্টপূর্ব ২৯৮–২৭৩",
+      "what": "চন্দ্রগুপ্তের পুত্র বিন্দুসার সাম্রাজ্য ধরে রাখেন; সিরিয়ার প্রথম আন্তিওকাসের দূত দেইমাকাস মৌর্য দরবারে আসেন।",
+      "why_it_matters": "পশ্চিমের হেলেনীয় বিশ্বের সঙ্গে কূটনৈতিক যোগাযোগ অব্যাহত থাকে।",
+      "section": "bindusara_expansion",
+      "claims": [
+        "c20",
+        "c45"
+      ]
+    },
+    {
+      "title": "কলিঙ্গ যুদ্ধ",
+      "when": "খ্রিস্টপূর্ব ২৬১",
+      "what": "রাজ্যাভিষেকের অষ্টম বছরে অশোক কলিঙ্গ জয় করেন; তাঁর অনুশাসন অনুযায়ী প্রায় দেড় লক্ষ মানুষ বন্দি ও এক লক্ষের বেশি নিহত হয়।",
+      "why_it_matters": "এই যুদ্ধের পর অশোক যুদ্ধত্যাগ করে ধম্ম-নীতি নেন — তাঁর রাজত্ব ও ভারতীয় ইতিহাসের মোড়।",
+      "section": "ashoka_kalinga",
+      "claims": [
+        "c30",
+        "c49"
+      ]
+    },
+    {
+      "title": "ধম্ম প্রচারের ব্যবস্থা",
+      "when": "কলিঙ্গ যুদ্ধের পর",
+      "what": "ধম্ম-মহামাত্র নিয়োগ, শিলা-স্তম্ভে অনুশাসন খোদাই এবং সিরিয়া, মিশর, গ্রিস ও শ্রীলঙ্কায় দূত প্রেরণ।",
+      "why_it_matters": "প্রথমবার কোনো ভারতীয় শাসক নিজের নৈতিক বার্তা প্রজার ভাষায় পাথরে লিখে সারা সাম্রাজ্যে ছড়িয়ে দেন।",
+      "section": "dhamma_edicts",
+      "claims": [
+        "c15",
+        "c33"
+      ]
+    },
+    {
+      "title": "ব্রাহ্মী লিপির পাঠোদ্ধার",
+      "when": "১৮৩৭",
+      "what": "জেমস প্রিন্সেপ অশোকের অনুশাসনের ব্রাহ্মী লিপি পড়ে ফেলেন।",
+      "why_it_matters": "এর ফলে 'পিয়দস্সী' রাজাকে অশোক বলে চেনা যায় এবং প্রাচীন ভারতের ইতিহাস পুনর্গঠনের পথ খুলে যায়।",
+      "section": "sources",
+      "claims": [
+        "c01",
+        "c54"
+      ]
+    },
+    {
+      "title": "মৌর্য সাম্রাজ্যের পতন",
+      "when": "খ্রিস্টপূর্ব ১৮৫",
+      "what": "শেষ মৌর্য শাসক বৃহদ্রথকে তাঁর প্রধান সেনাপতি পুষ্যমিত্র শুঙ্গ উৎখাত করেন।",
+      "why_it_matters": "প্রায় দেড়শো বছরের সাম্রাজ্যের অবসান ঘটে এবং উত্তর ভারতে শুঙ্গ যুগ শুরু হয়।",
+      "section": "decline_art",
+      "claims": [
+        "c60"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "চন্দ্রগুপ্ত মৌর্য",
+      "when": "আনুমানিক খ্রিস্টপূর্ব ৩২১–২৯৮",
+      "role": "মৌর্য সাম্রাজ্যের প্রতিষ্ঠাতা",
+      "contribution": "নন্দদের হারিয়ে সাম্রাজ্য প্রতিষ্ঠা করেন, সেলিউকাসের সঙ্গে সন্ধি করে উত্তর-পশ্চিম সীমানা আফগানিস্তান-বেলুচিস্তান পর্যন্ত বাড়ান। গ্রিক লেখায় তিনি 'স্যান্ড্রোকোট্টাস'।",
+      "section": "foundation",
+      "claims": [
+        "c05",
+        "c38",
+        "c40"
+      ]
+    },
+    {
+      "name": "কৌটিল্য (চাণক্য)",
+      "when": "চন্দ্রগুপ্তের সমকালীন",
+      "role": "চন্দ্রগুপ্তের মন্ত্রী বলে ঐতিহ্যগতভাবে পরিচিত",
+      "contribution": "তাঁর সাহায্যেই চন্দ্রগুপ্ত পাটলিপুত্র দখল করেন; অর্থশাস্ত্রের অংশবিশেষ সম্ভবত তাঁর রচনা।",
+      "section": "foundation",
+      "claims": [
+        "c08",
+        "c40"
+      ]
+    },
+    {
+      "name": "মেগাস্থিনিস",
+      "when": "চন্দ্রগুপ্তের রাজত্বকাল",
+      "role": "সেলিউকাসের পাঠানো গ্রিক দূত",
+      "contribution": "পাটলিপুত্রে থেকে 'ইন্ডিকা' লেখেন — মৌর্য রাজধানী, সেনাব্যবস্থা ও সমাজ সম্পর্কে প্রধান বিদেশি বিবরণ, যা আজ খণ্ডাংশে টিকে আছে।",
+      "section": "sources",
+      "claims": [
+        "c07",
+        "c26",
+        "c42"
+      ]
+    },
+    {
+      "name": "বিন্দুসার",
+      "when": "আনুমানিক খ্রিস্টপূর্ব ২৯৮–২৭৩",
+      "role": "দ্বিতীয় মৌর্য সম্রাট",
+      "contribution": "পিতার সাম্রাজ্য অক্ষুণ্ণ রাখেন এবং গ্রিক শাসকদের সঙ্গে সম্পর্ক বজায় রাখেন; গ্রিকরা তাঁকে 'অমিত্রোচেটিস' (অমিত্রঘাত) বলত।",
+      "section": "bindusara_expansion",
+      "claims": [
+        "c20",
+        "c44"
+      ]
+    },
+    {
+      "name": "অশোক",
+      "when": "আনুমানিক খ্রিস্টপূর্ব ২৭২/২৬৮–২৩১",
+      "role": "তৃতীয় ও সবচেয়ে বিখ্যাত মৌর্য সম্রাট",
+      "contribution": "কলিঙ্গ জয়ের পর যুদ্ধত্যাগ করে ধম্ম-নীতি প্রচার করেন; পাথরে বার্তা খোদাই করা প্রথম শাসক। অনুশাসনে তিনি 'দেবনাংপিয় পিয়দস্সী'।",
+      "section": "ashoka_kalinga",
+      "claims": [
+        "c09",
+        "c10",
+        "c48"
+      ]
+    },
+    {
+      "name": "জেমস প্রিন্সেপ",
+      "when": "১৯শ শতক (পাঠোদ্ধার ১৮৩৭)",
+      "role": "ইস্ট ইন্ডিয়া কোম্পানির টাঁকশালের কর্মকর্তা",
+      "contribution": "ব্রাহ্মী ও খরোষ্ঠী লিপির পাঠোদ্ধার করে অশোকের অনুশাসন পড়া সম্ভব করেন।",
+      "section": "sources",
+      "claims": [
+        "c01",
+        "c54"
+      ]
+    },
+    {
+      "name": "পুষ্যমিত্র শুঙ্গ",
+      "when": "খ্রিস্টপূর্ব ১৮৫",
+      "role": "শেষ মৌর্য রাজার প্রধান সেনাপতি",
+      "contribution": "বৃহদ্রথকে উৎখাত করে মৌর্য সাম্রাজ্যের অবসান ঘটান ও শুঙ্গ বংশ প্রতিষ্ঠা করেন।",
+      "section": "decline_art",
+      "claims": [
+        "c36",
+        "c60"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": -321,
+      "when": "আনুমানিক খ্রিস্টপূর্ব ৩২১",
+      "label": "চন্দ্রগুপ্ত মৌর্য কর্তৃক মৌর্য সাম্রাজ্যের প্রতিষ্ঠা",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "sort_year": -305,
+      "when": "আনুমানিক খ্রিস্টপূর্ব ৩০৫",
+      "label": "সেলিউকাসের সঙ্গে সন্ধি; মেগাস্থিনিসের আগমন",
+      "claims": [
+        "c41",
+        "c42"
+      ]
+    },
+    {
+      "sort_year": -298,
+      "when": "আনুমানিক খ্রিস্টপূর্ব ২৯৮",
+      "label": "বিন্দুসারের রাজত্ব শুরু (পুরাণের হিসাবে চন্দ্রগুপ্ত ২৪ বছর রাজত্ব করেন)",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "sort_year": -273,
+      "when": "আনুমানিক খ্রিস্টপূর্ব ২৭৩/২৬৯",
+      "label": "অশোকের রাজত্ব শুরু (NCERT অনুযায়ী আনুমানিক ২৭২/২৬৮)",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "sort_year": -261,
+      "when": "খ্রিস্টপূর্ব ২৬১",
+      "label": "কলিঙ্গ যুদ্ধ — রাজ্যাভিষেকের অষ্টম বছর",
+      "claims": [
+        "c49"
+      ]
+    },
+    {
+      "sort_year": -250,
+      "when": "খ্রিস্টপূর্ব ২৫০",
+      "label": "ঐতিহ্য অনুযায়ী পাটলিপুত্রে তৃতীয় বৌদ্ধ সংগীতি",
+      "claims": [
+        "c67"
+      ]
+    },
+    {
+      "sort_year": -232,
+      "when": "খ্রিস্টপূর্ব ২৩২",
+      "label": "অশোকের মৃত্যু; পতনের সূত্রপাত",
+      "claims": [
+        "c59"
+      ]
+    },
+    {
+      "sort_year": -185,
+      "when": "খ্রিস্টপূর্ব ১৮৫",
+      "label": "পুষ্যমিত্র শুঙ্গ শেষ রাজা বৃহদ্রথকে উৎখাত করেন — সাম্রাজ্যের অবসান",
+      "claims": [
+        "c60"
+      ]
+    },
+    {
+      "sort_year": 1837,
+      "when": "১৮৩৭ খ্রিস্টাব্দ",
+      "label": "জেমস প্রিন্সেপের ব্রাহ্মী লিপির পাঠোদ্ধার",
+      "claims": [
+        "c54"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "পিয়দস্সী (Piyadassi)",
+      "meaning": "অশোকের অনুশাসনে ব্যবহৃত নাম — অর্থ 'দেখতে প্রীতিকর'। প্রিন্সেপের পাঠোদ্ধারের পর এই নামের রাজাকেই অশোক বলে চেনা যায়।",
+      "section": "sources"
+    },
+    {
+      "term": "স্যান্ড্রোকোট্টাস (Sandrocottus)",
+      "meaning": "গ্রিক লেখকদের রচনায় চন্দ্রগুপ্ত মৌর্যের নাম।",
+      "section": "foundation"
+    },
+    {
+      "term": "অমিত্রোচেটিস (Amitrochates)",
+      "meaning": "গ্রিকদের দেওয়া বিন্দুসারের নাম — সংস্কৃত 'অমিত্রঘাত' অর্থাৎ শত্রুনিধনকারী থেকে এসেছে।",
+      "section": "bindusara_expansion"
+    },
+    {
+      "term": "অর্থশাস্ত্র (Arthashastra)",
+      "meaning": "রাষ্ট্রশাসন বিষয়ক গ্রন্থ; অংশবিশেষ সম্ভবত কৌটিল্য (চাণক্য) রচনা করেন। মৌর্য শাসনব্যবস্থা বোঝার প্রধান সাহিত্যিক উপাদান।",
+      "section": "sources"
+    },
+    {
+      "term": "ইন্ডিকা (Indica)",
+      "meaning": "মেগাস্থিনিসের ভারত-বিবরণ; মূল গ্রন্থ হারিয়ে গেছে, পরবর্তী লেখকদের উদ্ধৃতিতে খণ্ডাংশ টিকে আছে।",
+      "section": "sources"
+    },
+    {
+      "term": "ধম্ম (Dhamma)",
+      "meaning": "'ধর্ম'-এর প্রাকৃত রূপ; অশোকের প্রচারিত আচরণবিধি — অহিংসা, সহনশীলতা, বড়োদের সম্মান, দাস-সেবকদের প্রতি সদয় আচরণ। কোনো নতুন ধর্ম নয়।",
+      "section": "dhamma_edicts"
+    },
+    {
+      "term": "ধম্ম-মহামাত্র (Dhamma Mahamatta)",
+      "meaning": "ধম্মের বার্তা প্রচারের জন্য অশোকের নিয়োগ করা বিশেষ কর্মকর্তা।",
+      "section": "dhamma_edicts"
+    },
+    {
+      "term": "দিগ্বিজয় ও ধর্মবিজয় (Digvijaya / Dharmavijaya)",
+      "meaning": "দিগ্বিজয় = সামরিক বিজয়; ধর্মবিজয় = ধম্মের মাধ্যমে মানুষের মন জয়। কলিঙ্গের পর অশোক প্রথমটি ছেড়ে দ্বিতীয়টি নেন — 'ভেরিঘোষ' বদলে 'ধম্মঘোষ'।",
+      "section": "ashoka_kalinga"
+    },
+    {
+      "term": "পণ ও মাষক (Pana / Mashaka)",
+      "meaning": "অর্থশাস্ত্রে উল্লিখিত রৌপ্য মুদ্রা 'পণ' ও তাম্র মুদ্রা 'মাষক'; মৌর্য মুদ্রা ছিল ছাপ-মারা (punch-marked)।",
+      "section": "administration"
+    },
+    {
+      "term": "উপকর (Tribute)",
+      "meaning": "নিয়মিত করের বাইরে অনিয়মিতভাবে সংগৃহীত দ্রব্য — যেমন বনাঞ্চল থেকে হাতি, কাঠ, মধু ও মোম।",
+      "section": "administration"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "মগধের উত্থান থেকে সাম্রাজ্য",
+      "causes": [
+        "মগধে উৎপাদনশীল কৃষি",
+        "কাছে লোহার খনি ও বনে হাতি",
+        "গঙ্গা ও উপনদীর সস্তা যাতায়াতপথ",
+        "নন্দদের দুর্বলতা ও অজনপ্রিয়তা"
+      ],
+      "event": "চন্দ্রগুপ্ত কৌটিল্যের সাহায্যে ধননন্দকে হারিয়ে পাটলিপুত্র দখল করেন এবং মৌর্য সাম্রাজ্য প্রতিষ্ঠা করেন।",
+      "results": [
+        "ভারত প্রথমবার এক শাসকের অধীনে রাজনৈতিকভাবে ঐক্যবদ্ধ হয়",
+        "পশ্চিমে সেলিউকাসের সঙ্গে সন্ধিতে সীমানা আফগানিস্তান পর্যন্ত পৌঁছায়"
+      ],
+      "section": "foundation",
+      "claims": [
+        "c03",
+        "c40",
+        "c65"
+      ]
+    },
+    {
+      "title": "কলিঙ্গ যুদ্ধ থেকে ধম্ম-নীতি",
+      "causes": [
+        "কলিঙ্গ যুদ্ধে প্রায় দেড় লক্ষ বন্দি ও এক লক্ষের বেশি নিহত",
+        "যুদ্ধের হিংসা দেখে অশোকের অনুশোচনা"
+      ],
+      "event": "অশোক যুদ্ধত্যাগ করেন; দিগ্বিজয়ের বদলে ধর্মবিজয় নীতি গ্রহণ করেন।",
+      "results": [
+        "ধম্ম-মহামাত্র নিয়োগ ও সাম্রাজ্যজুড়ে অনুশাসন খোদাই",
+        "সিরিয়া, মিশর, গ্রিস ও শ্রীলঙ্কায় ধম্ম-দূত প্রেরণ",
+        "রাস্তা, কূপ, বিশ্রামাগার ও চিকিৎসার জনকল্যাণমূলক কাজ"
+      ],
+      "section": "ashoka_kalinga",
+      "claims": [
+        "c30",
+        "c50",
+        "c15",
+        "c33",
+        "c34"
+      ]
+    },
+    {
+      "title": "সাম্রাজ্যের পতন",
+      "causes": [
+        "অশোকের দুর্বল উত্তরাধিকারীদের আমলে প্রশাসনিক ভাঙন (বিতর্কিত ব্যাখ্যা)",
+        "বিশাল সেনা ও আমলাতন্ত্রের ব্যয়ে অর্থনৈতিক সংকট (বিতর্কিত ব্যাখ্যা)"
+      ],
+      "event": "অশোকের মৃত্যুর পর সাম্রাজ্য দুর্বল ও খণ্ডিত হতে থাকে।",
+      "results": [
+        "খ্রিস্টপূর্ব ১৮৫ অব্দে পুষ্যমিত্র শুঙ্গ শেষ রাজা বৃহদ্রথকে উৎখাত করেন",
+        "উত্তর ভারতে শুঙ্গ বংশের শাসন শুরু হয়"
+      ],
+      "section": "decline_art",
+      "claims": [
+        "c59",
+        "c61",
+        "c62",
+        "c60"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "পিয়দস্সী = অশোক; পাঠোদ্ধারক জেমস প্রিন্সেপ (১৮৩৭) — WBCS-তে দুবার এসেছে",
+      "section": "sources"
+    },
+    {
+      "point": "স্যান্ড্রোকোট্টাস = চন্দ্রগুপ্ত; অমিত্রোচেটিস = বিন্দুসার; পালিমবোথ্রা = পাটলিপুত্র",
+      "section": "foundation"
+    },
+    {
+      "point": "মেগাস্থিনিস: সেলিউকাসের দূত, 'ইন্ডিকা', পাটলিপুত্রের ৫৭০ বুরুজ ও ৬৪ দরজা; তাঁর 'দাসপ্রথা নেই' দাবি বিতর্কিত",
+      "section": "sources"
+    },
+    {
+      "point": "পাঁচ রাজনৈতিক কেন্দ্র: পাটলিপুত্র + তক্ষশীলা, উজ্জয়িনী, তোশালি, সুবর্ণগিরি",
+      "section": "administration"
+    },
+    {
+      "point": "কলিঙ্গ যুদ্ধ: ৮ম বছর, খ্রিস্টপূর্ব ২৬১, ত্রয়োদশ শিলালেখ, বন্দি ১.৫ লক্ষ ও নিহত ১ লক্ষ+",
+      "section": "ashoka_kalinga"
+    },
+    {
+      "point": "ধম্মের উপাদান ও প্রচারের তিন উপায়: ধম্ম-মহামাত্র, অনুশাসন, বিদেশে দূত",
+      "section": "dhamma_edicts"
+    },
+    {
+      "point": "শেষ রাজা বৃহদ্রথ; উৎখাতকারী পুষ্যমিত্র শুঙ্গ, খ্রিস্টপূর্ব ১৮৫",
+      "section": "decline_art"
+    }
+  ],
+  "bengal_connection": {
+    "body": "মৌর্য যুগের সঙ্গে বাংলার সবচেয়ে টেকসই যোগসূত্র লুকিয়ে আছে আমাদের নিজেদের অক্ষরে। অশোকের অধিকাংশ অনুশাসন যে ব্রাহ্মী লিপিতে লেখা, সেই ব্রাহ্মী থেকেই শতাব্দীর পর শতাব্দী ধরে বাংলা লিপিসহ অধিকাংশ আধুনিক ভারতীয় লিপির বিকাশ ঘটেছে — অর্থাৎ আজ আমরা যে অক্ষরে বাংলা পড়ি-লিখি, তার দূরবর্তী পূর্বপুরুষ অশোকের স্তম্ভের গায়ে খোদাই করা লিপি। আরেকটি যোগ: সাম্রাজ্যের প্রাণকেন্দ্র পাটলিপুত্র (বর্তমান পাটনা) ছিল গঙ্গাপথের উপর — সেই একই গঙ্গা-অববাহিকার পূর্ব প্রান্তেই আজকের বাংলা; মগধকেন্দ্রিক এই সাম্রাজ্যের পূর্বাঞ্চলীয় জগতের অংশ ছিল বর্তমান বাংলার ভূখণ্ডও। তবে সতর্ক থাকা ভালো: এই অধ্যায়ের উৎসগুলিতে বাংলার কোনো নির্দিষ্ট মৌর্য-কেন্দ্রের নাম পাওয়া যায়নি, তাই তার বেশি দাবি এখানে করা হচ্ছে না।",
+    "claims": [
+      "c37",
+      "c04"
+    ]
+  },
+  "quick_revision": [
+    "মৌর্য বংশের তিন প্রধান রাজা: চন্দ্রগুপ্ত → বিন্দুসার → অশোক।",
+    "প্রতিষ্ঠা: আনুমানিক খ্রিস্টপূর্ব ৩২১; প্রতিষ্ঠাতা চন্দ্রগুপ্ত, সহায়ক কৌটিল্য (চাণক্য), গ্রন্থ অর্থশাস্ত্র।",
+    "সেলিউকাসের সঙ্গে সন্ধি: মৌর্যরা পেল হেরাত-কান্দাহার-কাবুল-বেলুচিস্তান; দিল ৫০০ যুদ্ধহাতি।",
+    "গ্রিক নাম: স্যান্ড্রোকোট্টাস = চন্দ্রগুপ্ত, অমিত্রোচেটিস = বিন্দুসার, পালিমবোথ্রা = পাটলিপুত্র।",
+    "মেগাস্থিনিস: সেলিউকাসের দূত, গ্রন্থ 'ইন্ডিকা' (খণ্ডাংশে টিকে আছে); পাটলিপুত্রে ৫৭০ বুরুজ, ৬৪ দরজা।",
+    "পাঁচ কেন্দ্র: পাটলিপুত্র, তক্ষশীলা, উজ্জয়িনী, তোশালি, সুবর্ণগিরি।",
+    "সেনা-ব্যবস্থায় ছয় উপ-কমিটি: নৌ, রসদ-পরিবহন, পদাতিক, ঘোড়া, রথ, হাতি।",
+    "অশোকের নাম অনুশাসনে: দেবনাংপিয় পিয়দস্সী; পাঠোদ্ধারক জেমস প্রিন্সেপ (১৮৩৭)।",
+    "কলিঙ্গ যুদ্ধ: খ্রিস্টপূর্ব ২৬১, রাজ্যাভিষেকের ৮ম বছর; বন্দি ~১.৫ লক্ষ, নিহত ১ লক্ষ+; বিবরণ ত্রয়োদশ শিলালেখে।",
+    "ধম্ম: নতুন ধর্ম নয়, আচরণবিধি — অহিংসা, সহনশীলতা, বড়োদের সম্মান, দাস-সেবকদের প্রতি সদয় আচরণ।",
+    "প্রচার: ধম্ম-মহামাত্র, শিলা-স্তম্ভের অনুশাসন, সিরিয়া-মিশর-গ্রিস-শ্রীলঙ্কায় দূত।",
+    "অনুশাসন: প্রাকৃত ভাষা, বেশিরভাগ ব্রাহ্মী লিপি; উত্তর-পশ্চিমে খরোষ্ঠী, আরামাইক ও গ্রিক।",
+    "শেষ রাজা বৃহদ্রথ; খ্রিস্টপূর্ব ১৮৫-তে পুষ্যমিত্র শুঙ্গের হাতে পতন।"
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "sources",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অশোকের অনুশাসনে 'পিয়দস্সী' নামে কোন রাজাকে বোঝানো হয়েছে?",
+      "a": "অশোক",
+      "w": [
+        "চন্দ্রগুপ্ত মৌর্য",
+        "বিন্দুসার",
+        "বৃহদ্রথ"
+      ],
+      "e": "অধিকাংশ অনুশাসনে রাজাকে 'পিয়দস্সী' (অর্থ — দেখতে প্রীতিকর) বলা হয়েছে; কয়েকটিতে তাঁকে অশোক নামেও উল্লেখ করা হয়েছে। চন্দ্রগুপ্ত ও বিন্দুসার অশোকের পূর্বসূরি, বৃহদ্রথ শেষ মৌর্য রাজা।",
+      "claims": [
+        "c02",
+        "c48"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "sources",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অশোকের অনুশাসনের ব্রাহ্মী লিপির পাঠোদ্ধার করেন কে?",
+      "a": "জেমস প্রিন্সেপ",
+      "w": [
+        "আলেকজান্ডার কানিংহাম",
+        "মেগাস্থিনিস",
+        "কৌটিল্য"
+      ],
+      "e": "১৮৩০-এর দশকে ইস্ট ইন্ডিয়া কোম্পানির টাঁকশালের কর্মকর্তা জেমস প্রিন্সেপ ব্রাহ্মী ও খরোষ্ঠী লিপি পড়ে ফেলেন; e-PG পাঠ অনুযায়ী বছরটি ১৮৩৭।",
+      "claims": [
+        "c01",
+        "c54"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "foundation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মৌর্য সাম্রাজ্যের প্রতিষ্ঠাতা কে?",
+      "a": "চন্দ্রগুপ্ত মৌর্য",
+      "w": [
+        "অশোক",
+        "বিন্দুসার",
+        "ধননন্দ"
+      ],
+      "e": "চন্দ্রগুপ্ত মৌর্য আনুমানিক খ্রিস্টপূর্ব ৩২১ অব্দে সাম্রাজ্য প্রতিষ্ঠা করেন। ধননন্দ ছিলেন শেষ নন্দরাজা, যাঁকে হারিয়েই প্রতিষ্ঠা ঘটে।",
+      "claims": [
+        "c05",
+        "c40"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "foundation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ঐতিহ্য অনুযায়ী 'অর্থশাস্ত্র'-এর রচয়িতা কে?",
+      "a": "কৌটিল্য (চাণক্য)",
+      "w": [
+        "মেগাস্থিনিস",
+        "পুষ্যমিত্র শুঙ্গ",
+        "জেমস প্রিন্সেপ"
+      ],
+      "e": "অর্থশাস্ত্রের অংশবিশেষ সম্ভবত কৌটিল্য বা চাণক্য রচনা করেন — ঐতিহ্য অনুযায়ী তিনি চন্দ্রগুপ্তের মন্ত্রী ছিলেন।",
+      "claims": [
+        "c08",
+        "c19"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "bindusara_expansion",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "গ্রিকরা কোন মৌর্য রাজাকে 'অমিত্রোচেটিস' বলত?",
+      "a": "বিন্দুসার",
+      "w": [
+        "চন্দ্রগুপ্ত মৌর্য",
+        "অশোক",
+        "বৃহদ্রথ"
+      ],
+      "e": "অমিত্রোচেটিস এসেছে সংস্কৃত 'অমিত্রঘাত' (শত্রুনিধনকারী) থেকে — এটি বিন্দুসারের গ্রিক নাম। চন্দ্রগুপ্তের গ্রিক নাম স্যান্ড্রোকোট্টাস।",
+      "claims": [
+        "c44",
+        "c38"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "administration",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মৌর্য সাম্রাজ্যের রাজধানী ছিল কোনটি?",
+      "a": "পাটলিপুত্র",
+      "w": [
+        "তক্ষশীলা",
+        "উজ্জয়িনী",
+        "সুবর্ণগিরি"
+      ],
+      "e": "পাটলিপুত্র ছিল রাজধানী; তক্ষশীলা, উজ্জয়িনী, তোশালি ও সুবর্ণগিরি ছিল প্রাদেশিক কেন্দ্র।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "ashoka_kalinga",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'কলিঙ্গ' কোন অঞ্চলের প্রাচীন নাম?",
+      "a": "উপকূলীয় ওড়িশা",
+      "w": [
+        "বর্তমান বাংলা",
+        "বর্তমান বিহার",
+        "উপকূলীয় তামিলনাড়ু"
+      ],
+      "e": "NCERT অনুযায়ী কলিঙ্গ হল উপকূলীয় ওড়িশার প্রাচীন নাম; অশোক যুদ্ধ করে এই অঞ্চল জয় করেন।",
+      "claims": [
+        "c29",
+        "c06"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "dhamma_edicts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ধম্ম-মহামাত্রদের কাজ ছিল —",
+      "a": "ধম্মের বার্তা প্রচার করা",
+      "w": [
+        "কর আদায় করা",
+        "সেনাবাহিনী পরিচালনা করা",
+        "মুদ্রা তৈরি করা"
+      ],
+      "e": "ধম্মের বার্তা ছড়িয়ে দিতেই অশোক ধম্ম-মহামাত্র নামে বিশেষ কর্মকর্তা নিয়োগ করেন।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "decline_art",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শেষ মৌর্য শাসক কে ছিলেন?",
+      "a": "বৃহদ্রথ",
+      "w": [
+        "দশরথ",
+        "বিন্দুসার",
+        "পুষ্যমিত্র শুঙ্গ"
+      ],
+      "e": "শেষ মৌর্য রাজা বৃহদ্রথকে খ্রিস্টপূর্ব ১৮৫ অব্দে তাঁর প্রধান সেনাপতি পুষ্যমিত্র শুঙ্গ উৎখাত করেন — পুষ্যমিত্র মৌর্য রাজা ছিলেন না।",
+      "claims": [
+        "c60"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "administration",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মেগাস্থিনিসের বর্ণনায় পাটলিপুত্রের প্রাচীরে কয়টি বুরুজ ছিল?",
+      "a": "৫৭০টি",
+      "w": [
+        "৬৪টি",
+        "১০০টি",
+        "৩০০টি"
+      ],
+      "e": "মেগাস্থিনিস লিখেছেন, পাটলিপুত্রের প্রকাণ্ড প্রাচীরে ৫৭০টি বুরুজ ও ৬৪টি দরজা ছিল — ৬৪ হল দরজার সংখ্যা, বুরুজের নয়।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "sources",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মেগাস্থিনিস কার দূত হয়ে মৌর্য দরবারে এসেছিলেন?",
+      "a": "সেলিউকাস নিকেটর",
+      "w": [
+        "প্রথম আন্তিওকাস",
+        "দ্বিতীয় টলেমি",
+        "আলেকজান্ডার"
+      ],
+      "e": "পশ্চিম এশিয়ার গ্রিক শাসক সেলিউকাস নিকেটর মেগাস্থিনিসকে চন্দ্রগুপ্তের দরবারে দূত করে পাঠান। দেইমাকাস ছিলেন পরবর্তী প্রজন্মের দূত (বিন্দুসারের সময়ে)।",
+      "claims": [
+        "c26",
+        "c45"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "foundation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সেলিউকাসের সঙ্গে সন্ধিতে চন্দ্রগুপ্ত কোন অঞ্চলগুলি পান?",
+      "a": "হেরাত, কান্দাহার, কাবুল ও বেলুচিস্তান অঞ্চল",
+      "w": [
+        "সিরিয়া ও মিশর",
+        "ব্যাক্ট্রিয়া ও সগদিয়ানা",
+        "সিন্ধু উপত্যকার পূর্ব তীর"
+      ],
+      "e": "সন্ধিতে আরিয়া (হেরাত), আরাকোসিয়া (কান্দাহার), পারোপনিসাদে (কাবুল) ও গেড্রোসিয়া (বেলুচিস্তান) চন্দ্রগুপ্তের হাতে ছেড়ে দেওয়া হয়।",
+      "claims": [
+        "c41"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "foundation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সন্ধির বিনিময়ে চন্দ্রগুপ্ত সেলিউকাসকে কয়টি যুদ্ধহাতি দেন?",
+      "a": "৫০০টি",
+      "w": [
+        "১০০টি",
+        "১০০০টি",
+        "৯০০০টি"
+      ],
+      "e": "চন্দ্রগুপ্ত সেলিউকাসকে ৫০০টি যুদ্ধহাতি দেন। ৯০০০ হাতির সংখ্যাটি গ্রিক সূত্রে মৌর্য সেনাবাহিনীর হাতির মোট সংখ্যা হিসেবে এসেছে, সন্ধির বিনিময় নয়।",
+      "claims": [
+        "c41",
+        "c17"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "administration",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সুবর্ণগিরি প্রাদেশিক কেন্দ্রটি সম্ভবত কেন গুরুত্বপূর্ণ ছিল?",
+      "a": "কর্ণাটকের সোনার খনির জন্য",
+      "w": [
+        "সমুদ্রবন্দরের জন্য",
+        "লোহার খনির জন্য",
+        "তীর্থস্থানের জন্য"
+      ],
+      "e": "সুবর্ণগিরি অর্থ 'সোনার পাহাড়' — NCERT-র মতে এটি সম্ভবত কর্ণাটকের সোনার খনি কাজে লাগানোর জন্য গুরুত্বপূর্ণ ছিল।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "administration",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তক্ষশীলাকে 'উত্তর-পশ্চিমের প্রবেশদ্বার' বলা হয় কেন?",
+      "a": "এটি মধ্য এশিয়া পর্যন্ত যাওয়ার পথে অবস্থিত ছিল",
+      "w": [
+        "এটি সমুদ্রের ধারে ছিল",
+        "এখানে সোনার খনি ছিল",
+        "এটি রাজধানী ছিল"
+      ],
+      "e": "তক্ষশীলা ছিল উত্তর-পশ্চিমের প্রবেশদ্বার, মধ্য এশিয়ার পথে; উজ্জয়িনী ছিল উত্তর-দক্ষিণ পথে। রাজধানী ছিল পাটলিপুত্র।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "ashoka_kalinga",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কলিঙ্গ যুদ্ধ কবে সংঘটিত হয়?",
+      "a": "খ্রিস্টপূর্ব ২৬১",
+      "w": [
+        "খ্রিস্টপূর্ব ৩২১",
+        "খ্রিস্টপূর্ব ২৩২",
+        "খ্রিস্টপূর্ব ১৮৫"
+      ],
+      "e": "রাজ্যাভিষেকের অষ্টম বছরে, খ্রিস্টপূর্ব ২৬১ অব্দে অশোক কলিঙ্গ জয় করেন। ২৩২ হল অশোকের মৃত্যুর বছর, ১৮৫ পতনের।",
+      "claims": [
+        "c49",
+        "c59"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "ashoka_kalinga",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অশোকের অনুশাসন অনুযায়ী কলিঙ্গ যুদ্ধে কত মানুষ বন্দি হয়েছিল?",
+      "a": "প্রায় দেড় লক্ষ",
+      "w": [
+        "প্রায় পঞ্চাশ হাজার",
+        "প্রায় এক লক্ষ",
+        "প্রায় দুই লক্ষ"
+      ],
+      "e": "অশোক নিজে লিখেছেন — প্রায় দেড় লক্ষ মানুষ বন্দি হয়েছিল, আর এক লক্ষের বেশি নিহত হয়েছিল। এক লক্ষ হল নিহতের সংখ্যা।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "dhamma_edicts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি অশোকের ধম্মের উপাদান নয়?",
+      "a": "পশুবলি",
+      "w": [
+        "অহিংসা",
+        "ধর্মীয় সহনশীলতা",
+        "বড়োদের প্রতি সম্মান"
+      ],
+      "e": "পশুবলি ছিল অশোকের চোখে সমস্যাগুলির একটি, ধম্মের উপাদান নয়। ধম্মের উপাদান — দান, দয়া, সত্যবাদিতা, অহিংসা, সহনশীলতা ও বড়োদের সম্মান।",
+      "claims": [
+        "c32",
+        "c52"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "dhamma_edicts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অশোকের অধিকাংশ অনুশাসনের ভাষা ও লিপি কী ছিল?",
+      "a": "প্রাকৃত ভাষা, ব্রাহ্মী লিপি",
+      "w": [
+        "সংস্কৃত ভাষা, ব্রাহ্মী লিপি",
+        "প্রাকৃত ভাষা, খরোষ্ঠী লিপি",
+        "গ্রিক ভাষা, আরামাইক লিপি"
+      ],
+      "e": "অধিকাংশ অনুশাসন প্রাকৃত ভাষায় ব্রাহ্মী লিপিতে; খরোষ্ঠী শুধু উত্তর-পশ্চিমের কিছু লেখতে, গ্রিক-আরামাইক সীমান্ত অঞ্চলে।",
+      "claims": [
+        "c28",
+        "c18"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "dhamma_edicts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ঐতিহ্য অনুযায়ী ধম্মের বার্তা নিয়ে শ্রীলঙ্কায় কারা যান?",
+      "a": "মহেন্দ্র ও সঙ্ঘমিত্রা",
+      "w": [
+        "মেগাস্থিনিস ও দেইমাকাস",
+        "কৌটিল্য ও ভদ্রবাহু",
+        "প্রিন্সেপ ও কানিংহাম"
+      ],
+      "e": "অশোক পুত্র মহেন্দ্র ও কন্যা সঙ্ঘমিত্রাকে শ্রীলঙ্কায় পাঠান; তাঁরা সেখানে মূল বোধিবৃক্ষের শাখা রোপণ করেন বলে ঐতিহ্য বলে।",
+      "claims": [
+        "c33",
+        "c66"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "sources",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মেগাস্থিনিস ভারতীয় সমাজকে কয়টি শ্রেণিতে ভাগ করেছিলেন?",
+      "a": "সাতটি",
+      "w": [
+        "চারটি",
+        "পাঁচটি",
+        "দশটি"
+      ],
+      "e": "মেগাস্থিনিস সাতটি শ্রেণির কথা বলেন — দার্শনিক, কৃষক, সৈনিক, পশুপালক, কারিগর, ম্যাজিস্ট্রেট ও পরামর্শদাতা; IGNOU-র মতে এগুলি পেশাভিত্তিক শ্রেণি, জাতি নয়। চার ভাগ হল বর্ণব্যবস্থা।",
+      "claims": [
+        "c70"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "decline_art",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পুষ্যমিত্র শুঙ্গ কে ছিলেন?",
+      "a": "শেষ মৌর্য রাজার প্রধান সেনাপতি",
+      "w": [
+        "মৌর্য বংশের একজন রাজা",
+        "সেলিউকাসের দূত",
+        "একজন জৈন সাধু"
+      ],
+      "e": "পুষ্যমিত্র শুঙ্গ ছিলেন বৃহদ্রথের প্রধান সেনাপতি; তিনিই তাঁকে উৎখাত করে শুঙ্গ বংশ প্রতিষ্ঠা করেন।",
+      "claims": [
+        "c60",
+        "c36"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "bindusara_expansion",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিন্দুসার আন্তিওকাসের কাছে যা চেয়েছিলেন কিন্তু পাননি —",
+      "a": "একজন সোফিস্ট (দার্শনিক পণ্ডিত)",
+      "w": [
+        "মিষ্টি মদ",
+        "শুকনো ডুমুর",
+        "যুদ্ধহাতি"
+      ],
+      "e": "বিন্দুসার মিষ্টি মদ, শুকনো ডুমুর ও একজন সোফিস্ট চেয়েছিলেন; সোফিস্ট পাঠানো হয়নি কারণ তা রপ্তানিযোগ্য বলে গণ্য হয়নি।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "administration",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বনাঞ্চলের মানুষদের কাছ থেকে মৌর্য কর্মকর্তারা কী পাওয়ার প্রত্যাশা করতেন?",
+      "a": "হাতি, কাঠ, মধু ও মোম",
+      "w": [
+        "সোনা ও রৌপ্য",
+        "লোহা ও তামা",
+        "রেশম ও মসলা"
+      ],
+      "e": "বনাঞ্চলের মানুষেরা কম-বেশি স্বাধীন ছিল, তবে তাদের কাছ থেকে হাতি, কাঠ, মধু ও মোম পাওয়ার প্রত্যাশা ছিল।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "ashoka_kalinga",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রাজা হওয়ার আগে অশোকের অভিজ্ঞতা সম্পর্কে কোনটি সঠিক?",
+      "a": "তিনি উজ্জয়িনীর গভর্নর ছিলেন এবং তক্ষশীলার বিদ্রোহ দমন করেন",
+      "w": [
+        "তিনি তক্ষশীলার গভর্নর ছিলেন এবং উজ্জয়িনীর বিদ্রোহ দমন করেন",
+        "তিনি সেলিউকাসের দরবারে দূত ছিলেন",
+        "তিনি পাটলিপুত্রের কোষাধ্যক্ষ ছিলেন"
+      ],
+      "e": "e-PG পাঠ অনুযায়ী অশোক উজ্জয়িনীর গভর্নর ছিলেন এবং পিতা বিন্দুসারের আমলে তক্ষশীলার বিদ্রোহ দমন করেন — জায়গা দুটি উলটে দেওয়াই ফাঁদ।",
+      "claims": [
+        "c47"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "sources",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. মেগাস্থিনিসের বিবরণ আজ খণ্ডাংশ আকারে টিকে আছে।\n২. মেগাস্থিনিসের মতে ভারতে দাসপ্রথার পূর্ণ অস্তিত্ব ছিল এবং অর্থশাস্ত্রও তা সমর্থন করে।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "১ সঠিক — মেগাস্থিনিসের গ্রন্থ খণ্ডাংশে টিকে আছে। ২ ভুল — মেগাস্থিনিস দাসপ্রথার অস্তিত্ব অস্বীকার করেছিলেন; বরং অর্থশাস্ত্রে দাসপ্রথার উল্লেখ আছে, যা তাঁর দাবির বিরোধী।",
+      "claims": [
+        "c07",
+        "c69"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "foundation",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. রুদ্রদামনের জুনাগড় লেখ অনুযায়ী চন্দ্রগুপ্তের বিজয় সৌরাষ্ট্র পর্যন্ত পৌঁছেছিল।\n২. সেলিউকাসের সঙ্গে সন্ধিতে চন্দ্রগুপ্ত ৫০০টি যুদ্ধহাতি পেয়েছিলেন।",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "১ সঠিক। ২ ভুল — হাতি দিয়েছিলেন চন্দ্রগুপ্ত সেলিউকাসকে; বিনিময়ে তিনি পেয়েছিলেন হেরাত-কান্দাহার-কাবুল-বেলুচিস্তান অঞ্চল।",
+      "claims": [
+        "c68",
+        "c41"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "administration",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ঐতিহাসিকদের মতে মৌর্য সাম্রাজ্যে প্রশাসনিক নিয়ন্ত্রণ সবচেয়ে শক্তিশালী ছিল —",
+      "a": "রাজধানী ও প্রাদেশিক কেন্দ্রগুলির আশপাশে",
+      "w": [
+        "সমগ্র সাম্রাজ্যে সমানভাবে",
+        "শুধুমাত্র বনাঞ্চলে",
+        "শুধুমাত্র উত্তর-পশ্চিম সীমান্তে"
+      ],
+      "e": "সাম্রাজ্যের অঞ্চলগুলি ছিল অত্যন্ত বৈচিত্র্যময়, তাই নিয়ন্ত্রণ সম্ভবত রাজধানী ও প্রাদেশিক কেন্দ্রের আশপাশেই সবচেয়ে শক্তিশালী ছিল।",
+      "claims": [
+        "c71"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "dhamma_edicts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মানসেহরা ও শাহবাজগড়ীর অশোক-লেখ কোন লিপিতে লেখা?",
+      "a": "খরোষ্ঠী",
+      "w": [
+        "ব্রাহ্মী",
+        "দেবনাগরী",
+        "আরামাইক"
+      ],
+      "e": "এই দুটি লেখ প্রাকৃত ভাষায় খরোষ্ঠী লিপিতে। গ্রিক-আরামাইক দ্বিভাষিক লেখ পাওয়া গেছে কান্দাহারের কাছে।",
+      "claims": [
+        "c55",
+        "c18"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "dhamma_edicts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অশোকের ধম্ম সম্পর্কে কোন বক্তব্যটি সঠিক?",
+      "a": "এটি কোনো নতুন ধর্ম নয় — সবার পালনীয় আচরণবিধি",
+      "w": [
+        "এটি বৌদ্ধধর্মেরই অপর নাম",
+        "এতে দেবপূজা ও যজ্ঞের বিধান ছিল",
+        "এটি শুধুমাত্র রাজকর্মচারীদের জন্য ছিল"
+      ],
+      "e": "e-PG পাঠ অনুযায়ী ধম্ম নতুন ধর্মও নয়, রাজনৈতিক দর্শনও নয়; তা জীবনযাপনের পথ ও সবার জন্য আচরণবিধি। এতে পূজা বা বলির বিধান ছিল না।",
+      "claims": [
+        "c51",
+        "c31"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "decline_art",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মৌর্য পতনের কারণ হিসেবে পাঠে উল্লিখিত একটি বিতর্কিত ব্যাখ্যা হল —",
+      "a": "বিশাল সেনাবাহিনী ও আমলাতন্ত্রের ব্যয়ে অর্থনৈতিক সংকট",
+      "w": [
+        "গ্রিক আক্রমণে পাটলিপুত্রের ধ্বংস",
+        "ভয়াবহ দুর্ভিক্ষে জনসংখ্যা হ্রাস",
+        "দক্ষিণের রাজ্যগুলির যৌথ আক্রমণ"
+      ],
+      "e": "পাঠে তালিকাভুক্ত কারণগুলির মধ্যে আছে দুর্বল উত্তরাধিকারীদের প্রশাসনিক ব্যর্থতা এবং সেনা ও আমলাতন্ত্রের বিপুল ব্যয় থেকে অর্থনৈতিক সংকট — দুটোই পণ্ডিতদের বিতর্কিত ব্যাখ্যা।",
+      "claims": [
+        "c62",
+        "c61"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "foundation",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মগধের শক্তির পেছনে NCERT কোন কারণটি উল্লেখ করেছে?",
+      "a": "লোহার খনি সহজলভ্য ছিল",
+      "w": [
+        "সোনার খনি ছিল",
+        "বড় সমুদ্রবন্দর ছিল",
+        "রেশম বাণিজ্য ছিল"
+      ],
+      "e": "মগধে কৃষি ছিল উৎপাদনশীল এবং বর্তমান ঝাড়খণ্ডের লোহার খনি থেকে যন্ত্র ও অস্ত্রের উপকরণ মিলত। সোনার খনির কথা এসেছে কর্ণাটক-সুবর্ণগিরি প্রসঙ্গে, মগধের ক্ষেত্রে নয়।",
+      "claims": [
+        "c03",
+        "c13"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "ashoka_kalinga",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'ভেরিঘোষ বদলে ধম্মঘোষ' — এই বক্তব্যের অর্থ কী?",
+      "a": "যুদ্ধভেরীর শব্দের বদলে ধম্মের ঘোষণা",
+      "w": [
+        "রাজকীয় ঘোষণার বদলে মন্দিরের ঘণ্টা",
+        "সেনাবাহিনীর বদলে পুরোহিতদের শাসন",
+        "কর বদলে দান"
+      ],
+      "e": "কলিঙ্গের পর অশোক দিগ্বিজয় (সামরিক বিজয়) ছেড়ে ধর্মবিজয় নেন — পাঠের ভাষায় ভেরিঘোষ (যুদ্ধভেরী) স্থান পায় ধম্মঘোষে।",
+      "claims": [
+        "c50"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "sources",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্রিন্সেপ লেখগুলি পড়ে প্রথমে কী লক্ষ করেন?",
+      "a": "অধিকাংশ লেখতেই 'পিয়দস্সী' নামে এক রাজার উল্লেখ আছে",
+      "w": [
+        "সব লেখতেই রাজার নাম অশোক লেখা আছে",
+        "লেখগুলি সবই সংস্কৃত ভাষায়",
+        "লেখগুলি সবই মুদ্রায় পাওয়া গেছে"
+      ],
+      "e": "প্রিন্সেপ দেখেন অধিকাংশ লেখতে রাজাকে 'পিয়দস্সী' বলা হয়েছে; মাত্র কয়েকটিতে 'অশোক' নামটি পাওয়া যায় — এই মিল থেকেই পিয়দস্সী = অশোক শনাক্ত হয়।",
+      "claims": [
+        "c02",
+        "c01"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "administration",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মেগাস্থিনিসের বর্ণিত ছয়টি সেনা উপ-কমিটির দায়িত্বের মধ্যে কোনটি ছিল না?",
+      "a": "কর আদায়",
+      "w": [
+        "নৌবাহিনী",
+        "হাতি বাহিনী",
+        "রথ বাহিনী"
+      ],
+      "e": "ছয় উপ-কমিটি দেখত — নৌবাহিনী, পরিবহন ও রসদ, পদাতিক, ঘোড়া, রথ ও হাতি। কর আদায় ছিল রাজস্ব কর্মকর্তাদের কাজ, এই কমিটির নয়।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "decline_art",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলিকে কালানুক্রমে সাজাও (আগে থেকে পরে):\n১. মৌর্য সাম্রাজ্যের প্রতিষ্ঠা\n২. কলিঙ্গ যুদ্ধ\n৩. অশোকের মৃত্যু\n৪. বৃহদ্রথের উৎখাত",
+      "a": "১, ২, ৩, ৪",
+      "w": [
+        "২, ১, ৩, ৪",
+        "১, ৩, ২, ৪",
+        "৩, ১, ২, ৪"
+      ],
+      "e": "প্রতিষ্ঠা আনুমানিক খ্রিস্টপূর্ব ৩২১ → কলিঙ্গ যুদ্ধ খ্রিস্টপূর্ব ২৬১ → অশোকের মৃত্যু খ্রিস্টপূর্ব ২৩২ → বৃহদ্রথের উৎখাত খ্রিস্টপূর্ব ১৮৫।",
+      "claims": [
+        "c05",
+        "c49",
+        "c59",
+        "c60"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "foundation",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক মিল বাছাই করো:\nA. স্যান্ড্রোকোট্টাস\nB. অমিত্রোচেটিস\nC. পিয়দস্সী\nD. পালিমবোথ্রা\n১. পাটলিপুত্র\n২. অশোক\n৩. বিন্দুসার\n৪. চন্দ্রগুপ্ত",
+      "a": "A-৪, B-৩, C-২, D-১",
+      "w": [
+        "A-৩, B-৪, C-২, D-১",
+        "A-৪, B-২, C-৩, D-১",
+        "A-২, B-৩, C-৪, D-১"
+      ],
+      "e": "গ্রিক লেখায় স্যান্ড্রোকোট্টাস = চন্দ্রগুপ্ত, অমিত্রোচেটিস = বিন্দুসার, পালিমবোথ্রা = পাটলিপুত্র; অনুশাসনে পিয়দস্সী = অশোক।",
+      "claims": [
+        "c38",
+        "c48",
+        "c44"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "administration",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক মিল বাছাই করো:\nA. তক্ষশীলা\nB. উজ্জয়িনী\nC. সুবর্ণগিরি\nD. পাটলিপুত্র\n১. রাজধানী\n২. সোনার খনি অঞ্চলের কেন্দ্র\n৩. উত্তর-দক্ষিণ পথের উপর অবস্থিত\n৪. উত্তর-পশ্চিমের প্রবেশদ্বার",
+      "a": "A-৪, B-৩, C-২, D-১",
+      "w": [
+        "A-৩, B-৪, C-১, D-২",
+        "A-৪, B-১, C-২, D-৩",
+        "A-১, B-৩, C-২, D-৪"
+      ],
+      "e": "তক্ষশীলা উত্তর-পশ্চিমের প্রবেশদ্বার, উজ্জয়িনী উত্তর-দক্ষিণ পথে, সুবর্ণগিরি সোনার খনির জন্য, পাটলিপুত্র রাজধানী।",
+      "claims": [
+        "c12",
+        "c13",
+        "c21"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "ashoka_kalinga",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**দাবি (A):** অশোক কলিঙ্গ জয়ের পর আর যুদ্ধ না করার সিদ্ধান্ত নেন।\n\n**যুক্তি (R):** যুদ্ধের হিংসা ও রক্তপাত দেখে তিনি গভীর অনুশোচনায় ভুগেছিলেন।",
+      "a": "A ও R উভয়ই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সত্য, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য, কিন্তু R মিথ্যা",
+        "A মিথ্যা, কিন্তু R সত্য"
+      ],
+      "e": "অশোক নিজের অনুশাসনে লিখেছেন, দেড় লক্ষ বন্দি ও এক লক্ষের বেশি নিহতের ঘটনা তাঁকে দুঃখে ভরিয়ে দেয় — এই অনুশোচনাই যুদ্ধত্যাগের কারণ, তাই R, A-এর সঠিক ব্যাখ্যা।",
+      "claims": [
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "sources",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. মেগাস্থিনিস বলেছিলেন ভারতে দাসপ্রথা ছিল না।\n২. অর্থশাস্ত্রে দাসপ্রথার অস্তিত্বের উল্লেখ আছে।",
+      "a": "১ ও ২ উভয়ই সঠিক",
+      "w": [
+        "শুধুমাত্র ১ সঠিক",
+        "শুধুমাত্র ২ সঠিক",
+        "১ বা ২ কোনোটিই সঠিক নয়"
+      ],
+      "e": "দুটোই সঠিক — আর এই বৈপরীত্যই বিখ্যাত: মেগাস্থিনিস দাসপ্রথা অস্বীকার করলেও অর্থশাস্ত্রে তার অস্তিত্বের উল্লেখ আছে (IGNOU)। WBCS ২০২২-তে মেগাস্থিনিসের এই দাবি নিয়েই প্রশ্ন এসেছিল।",
+      "claims": [
+        "c69"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "sources",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিকভাবে মেলানো?",
+      "a": "মেগাস্থিনিস — ইন্ডিকা",
+      "w": [
+        "কৌটিল্য — ইন্ডিকা",
+        "মেগাস্থিনিস — অর্থশাস্ত্র",
+        "জেমস প্রিন্সেপ — অর্থশাস্ত্র"
+      ],
+      "e": "ইন্ডিকা মেগাস্থিনিসের লেখা; অর্থশাস্ত্র কৌটিল্যের সঙ্গে যুক্ত; প্রিন্সেপ ছিলেন লিপি-পাঠোদ্ধারক, কোনো গ্রন্থের রচয়িতা নন।",
+      "claims": [
+        "c42",
+        "c08"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "bindusara_expansion",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "শাসকদের রাজত্বের ক্রমে সাজাও (আগে থেকে পরে):\n১. বিন্দুসার\n২. বৃহদ্রথ\n৩. চন্দ্রগুপ্ত\n৪. অশোক",
+      "a": "৩, ১, ৪, ২",
+      "w": [
+        "১, ৩, ৪, ২",
+        "৩, ৪, ১, ২",
+        "৪, ৩, ১, ২"
+      ],
+      "e": "ক্রম — চন্দ্রগুপ্ত (প্রতিষ্ঠাতা) → বিন্দুসার (পুত্র) → অশোক (পৌত্র) → বৃহদ্রথ (শেষ রাজা, অনেক পরে)।",
+      "claims": [
+        "c20",
+        "c60"
+      ]
+    }
+  ]
+}
