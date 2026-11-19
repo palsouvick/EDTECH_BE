@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "১ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The International Day of Older Persons , celebrated on October 1 , is a special day dedicated to senior citizens worldwide. It was designated as such by the UN General Assembly on December 14, 1990.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251028678601.pdf",
+      "page": "IDOP section",
+      "notes": "IDOP on Oct 1 per c01."
+    },
+    {
+      "id": "q02",
+      "answer": "২ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "October 2 is celebrated as Gandhi Jayanti and globally as the International Day of Non-Violence, as declared by the United Nations",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173476&reg=48&lang=2",
+      "page": "Key Takeaways",
+      "notes": "Gandhi Jayanti on Oct 2 per c04."
+    },
+    {
+      "id": "q03",
+      "answer": "২ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "October 2 is celebrated as Gandhi Jayanti and globally as the International Day of Non-Violence, as declared by the United Nations",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173476&reg=48&lang=2",
+      "page": "Key Takeaways",
+      "notes": "Oct 2 is also International Day of Non-Violence per c04."
+    },
+    {
+      "id": "q04",
+      "answer": "২ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Prime Minister Shri Narendra Modi today paid tribute to former Prime Minister Shri Lal Bahadur Shastri on his birth anniversary.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2060959&reg=48&lang=2",
+      "page": "release header + body",
+      "notes": "c07 states 2 October is also Shastri birth anniversary."
+    },
+    {
+      "id": "q05",
+      "answer": "১ অক্টোবর ২০২১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Accessible through the toll -free number 14567 , Elderline provides compassionate support and connects seniors with relevant services. Launched on October 1, 2021, by the Hon'ble Vice President of India",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251028678601.pdf",
+      "page": "Elderly Helpline section",
+      "notes": "Elderline launched Oct 1, 2021 per c03."
+    },
+    {
+      "id": "q06",
+      "answer": "২০০৫ সাল থেকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In India, the Ministry of Social Justice and Empowerment, has been observing this day since 2005. The theme for 2025 was \"Ageing with Dignity\"",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251028678601.pdf",
+      "page": "IDOP section",
+      "notes": "Ministry observing IDOP since 2005 per c02."
+    },
+    {
+      "id": "q07",
+      "answer": "গান্ধী জয়ন্তী, ২০১৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Swachh Bharat Mission | Launched on Gandhi Jayanti 2014",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173476&reg=48&lang=2",
+      "page": "Government Initiatives table",
+      "notes": "Swachh Bharat Mission launched on Gandhi Jayanti 2014 per c06."
+    },
+    {
+      "id": "q08",
+      "answer": "২০০৭ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The UN General Assembly adopted a resolution in June 2007 affirming non-violence as a universal principle and promoting a global culture of peace and tolerance.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173476&reg=48&lang=2",
+      "page": "Key Takeaways",
+      "notes": "UNGA resolution in June 2007 per c05."
+    },
+    {
+      "id": "q09",
+      "answer": "মর্যাদার সঙ্গে বার্ধক্য (Ageing with Dignity)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In India, the Ministry of Social Justice and Empowerment, has been observing this day since 2005. The theme for 2025 was \"Ageing with Dignity\"",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251028678601.pdf",
+      "page": "IDOP section",
+      "notes": "2025 theme Ageing with Dignity per c02."
+    },
+    {
+      "id": "q10",
+      "answer": "A ও R উভয়ই সত্য এবং R, A-র সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Prime Minister Shri Narendra Modi today paid tribute to former Prime Minister Shri Lal Bahadur Shastri on his birth anniversary.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2060959&reg=48&lang=2",
+      "page": "release header + body",
+      "notes": "c04 (Gandhi Jayanti Oct 2) + c07 (Shastri anniversary also Oct 2): both true, R explains A."
+    },
+    {
+      "id": "q11",
+      "answer": "৮ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Indian Air Force is celebrating its 91st anniversary on 8 October 2023. The Indian Air Force was officially established on 8 October 1932.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1965562&ui=2&tf=1&pli=1&reg=48&lang=2",
+      "page": "para 1",
+      "notes": "IAF established 8 Oct 1932, anniversary 8 Oct per c08."
+    },
+    {
+      "id": "q12",
+      "answer": "৯ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "World Post Day is celebrated each year on 9th October, to commemorate the establishment of the Universal Postal Union (UPU) in 1874 in the Swiss capital, Berne.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1662827&reg=3&lang=2",
+      "page": "para 1",
+      "notes": "World Post Day 9 Oct per c10."
+    },
+    {
+      "id": "q13",
+      "answer": "১০ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Ministry of Health and Family Welfare will observe World Mental Health Day on 10 October 2026",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321522&reg=1&lang=1",
+      "page": "para 1",
+      "notes": "World Mental Health Day on 10 Oct per c13."
+    },
+    {
+      "id": "q14",
+      "answer": "১১ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For example, 11th October is the International Day of Girl Child. It becomes a vital opportunity to advocate for girls’ rights and highlight the unique challenges they face.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2080711",
+      "page": "BBBP calendar para",
+      "notes": "11 Oct is International Day of the Girl Child per c16."
+    },
+    {
+      "id": "q15",
+      "answer": "১৯৩২ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Indian Air Force is celebrating its 91st anniversary on 8 October 2023. The Indian Air Force was officially established on 8 October 1932.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1965562&ui=2&tf=1&pli=1&reg=48&lang=2",
+      "page": "para 1",
+      "notes": "IAF officially established 8 Oct 1932 per c08."
+    },
+    {
+      "id": "q16",
+      "answer": "বার্ন, ১৮৭৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "World Post Day is celebrated each year on 9th October, to commemorate the establishment of the Universal Postal Union (UPU) in 1874 in the Swiss capital, Berne.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1662827&reg=3&lang=2",
+      "page": "para 1",
+      "notes": "UPU established 1874 in Berne per c10."
+    },
+    {
+      "id": "q17",
+      "answer": "৯–১৫ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "India Post celebrates National Postal Week from 9th to 15th October every year",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1662827&reg=3&lang=2",
+      "page": "para 2",
+      "notes": "National Postal Week 9-15 Oct per c12."
+    },
+    {
+      "id": "q18",
+      "answer": "১০ অক্টোবর ২০২২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Launched on 10 October 2022, Tele-MANAS has rendered yeoman service in bridging gaps in access to mental healthcare by bringing timely counselling, emotional support and professional guidance directly to people through a simple telephone call.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321522&reg=1&lang=1",
+      "page": "Tele-MANAS section",
+      "notes": "Tele-MANAS launched 10 Oct 2022 per c15."
+    },
+    {
+      "id": "q19",
+      "answer": "টোকিও, ১৯৬৯",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It was declared as World Post Day by the UPU Congress held in Tokyo, Japan, in 1969",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1662827&reg=3&lang=2",
+      "page": "para 1",
+      "notes": "Declared by UPU Congress in Tokyo, 1969 per c11."
+    },
+    {
+      "id": "q20",
+      "answer": "১৪৪১৬",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Launched on 10 October 2022, Tele-MANAS has rendered yeoman service in bridging gaps in access to mental healthcare by bringing timely counselling, emotional support and professional guidance directly to people through a simple telephone call.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321522&reg=1&lang=1",
+      "page": "Tele-MANAS section",
+      "notes": "Tele-MANAS toll-free helpline 14416 per c15 claim text."
+    },
+    {
+      "id": "q21",
+      "answer": "১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Indian Air Force is celebrating its 91st anniversary on 8 October 2023. The Indian Air Force was officially established on 8 October 1932.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1965562&ui=2&tf=1&pli=1&reg=48&lang=2",
+      "page": "para 1",
+      "notes": "Pair 1 true (c08, 8 Oct); pair 2 false (Post Day is 9 Oct, c10); pair 3 true (c16, 11 Oct)."
+    },
+    {
+      "id": "q22",
+      "answer": "১৫ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "It was year 2010 United Nations paid him respect by declaring his birthday as 'World Students Day'.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1600848&reg=3&lang=2",
+      "page": "speech text",
+      "notes": "UN declared Kalam birthday (15 Oct, c18) as World Students Day per c19."
+    },
+    {
+      "id": "q23",
+      "answer": "১৬ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "World Food Day, observed annually on October 16, has its roots in the establishment of the Food and Agriculture Organization (FAO) by the United Nations in 1945.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241015417701.pdf",
+      "page": "History & Theme",
+      "notes": "World Food Day Oct 16 per c20."
+    },
+    {
+      "id": "q24",
+      "answer": "২১ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Police Commemoration Day is observed on 21 October in memory of the ten police personnel who were martyred in an ambush by heavily armed Chinese troops in Hot Springs in Ladakh on this date in 1959.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1666496&reg=3&lang=2",
+      "page": "closing para",
+      "notes": "Police Commemoration Day 21 Oct per c22."
+    },
+    {
+      "id": "q25",
+      "answer": "রামেশ্বরম, তামিলনাড়ু",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Born on 15th October 1931 at Rameswaram in Tamil Nadu, Dr. Kalam went on to become country's one of the most celebrated scientists.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1600848&reg=3&lang=2",
+      "page": "speech text",
+      "notes": "Kalam born at Rameswaram, Tamil Nadu per c18."
+    },
+    {
+      "id": "q26",
+      "answer": "১৯৭৯ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Officially founded in 1979 during the FAO's 20th General Conference, the day highlights global food security issues. ... World Food Day 2024 theme is \"Right to Food for a Better Life and a Better Future.\"",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241015417701.pdf",
+      "page": "History & Theme",
+      "notes": "World Food Day founded 1979 per c21."
+    },
+    {
+      "id": "q27",
+      "answer": "হট স্প্রিংস, লাদাখ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Police Commemoration Day is observed on 21 October in memory of the ten police personnel who were martyred in an ambush by heavily armed Chinese troops in Hot Springs in Ladakh on this date in 1959.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1666496&reg=3&lang=2",
+      "page": "closing para",
+      "notes": "1959 ambush at Hot Springs, Ladakh per c22."
+    },
+    {
+      "id": "q28",
+      "answer": "২১ অক্টোবর ২০১৮",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "On 21 October 2018, the Prime Minister dedicated the memorial to the nation.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1666496&reg=3&lang=2",
+      "page": "para 2",
+      "notes": "National Police Memorial dedicated 21 Oct 2018 per c23."
+    },
+    {
+      "id": "q29",
+      "answer": "গ্রামীণ ৭৫%, শহুরে ৫০%",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "National Food Security Act (NFSA): This act ensures subsidized food grains for up to 75% of the rural population and 50% of the urban population, benefiting approximately 81 crore individuals",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241015417701.pdf",
+      "page": "India's Commitment section",
+      "notes": "NFSA 75% rural / 50% urban per c32."
+    },
+    {
+      "id": "q30",
+      "answer": "৪ → ২ → ১ → ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "For example, 11th October is the International Day of Girl Child. It becomes a vital opportunity to advocate for girls’ rights and highlight the unique challenges they face.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2080711",
+      "page": "BBBP calendar para",
+      "notes": "Order by date: Girl Child 11 Oct (c16), Students 15 Oct (c18/c19), Food 16 Oct (c20), Police 21 Oct (c22)."
+    },
+    {
+      "id": "q31",
+      "answer": "২৪ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Prime Minister Shri Narendra Modi has conveyed his greetings to the UN on United Nations Day.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1506801&reg=3&lang=2",
+      "page": "release header + body",
+      "notes": "UN Day on 24 Oct per c24."
+    },
+    {
+      "id": "q32",
+      "answer": "৩১ অক্টোবর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Rashtriya Ekta Diwas, also known as National Unity Day, is observed annually on October 31 to commemorate the birth anniversary of Sardar Vallabhbhai Patel",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184055&reg=3&lang=2",
+      "page": "Introduction",
+      "notes": "Rashtriya Ekta Diwas Oct 31 per c26."
+    },
+    {
+      "id": "q33",
+      "answer": "২০১৪ সালে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The day was first celebrated in 2014, following a declaration by the Government of India to honour and celebrate Sardar Patel’s remarkable contribution to nation-building.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184055&reg=3&lang=2",
+      "page": "Introduction",
+      "notes": "First celebrated 2014 per c27."
+    },
+    {
+      "id": "q34",
+      "answer": "৩১ অক্টোবর ২০১৫",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The “Ek Bharat Shreshtha Bharat” (EBSB) initiative, announced by Prime Minister Narendra Modi on 31 October 2015 during Sardar Vallabhbhai Patel’s 140th birth anniversary",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184055&reg=3&lang=2",
+      "page": "EBSB section",
+      "notes": "EBSB announced 31 Oct 2015 per c29."
+    },
+    {
+      "id": "q35",
+      "answer": "৫৬০টির বেশি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "India's first Deputy Prime Minister and Minister of Home Affairs, Sardar Vallabhbhai Patel played a crucial role in the national integration process following independence in 1947. He was tasked with unifying over 560 princely states",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184055&reg=3&lang=2",
+      "page": "Foundational Legacy",
+      "notes": "Over 560 princely states per c28."
+    },
+    {
+      "id": "q36",
+      "answer": "প্রতিষ্ঠা ১৯৪৫; সদস্য ১৯৩; ভারত প্রতিষ্ঠাতা সদস্য",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The United Nations (UN) is an international organization founded in 1945. It is currently made up of 193 Member States. India is a founding member of the United Nations.",
+      "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1833818",
+      "page": "para 2",
+      "notes": "UN founded 1945, 193 members, India founding member per c25."
+    },
+    {
+      "id": "q37",
+      "answer": "২৬ অক্টোবর – ১ নভেম্বর ২০২৬",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "This year, the Vigilance Awareness Week 2026 is being observed from 26th October to 1stNovember 2026 on the theme “Probity for Prosperity”.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328846&reg=48&lang=2",
+      "page": "para 2",
+      "notes": "Vigilance Awareness Week 2026: 26 Oct-1 Nov 2026 per c30."
+    },
+    {
+      "id": "q38",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "LIKELY",
+      "also_defensible": "শুধুমাত্র ২",
+      "quote": "The Vigilance Awareness Week 2026 commenced today with the administering of the integrity pledge to the officers and staff of the Central Vigilance Commission",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2328846&reg=48&lang=2",
+      "page": "para 1",
+      "notes": "Statement 2 verbatim in c31 (integrity pledge at CVC). Statement 1 (CVC observes the week) is implied by c31/source s14 (CVC release, pledge to CVC officers) but not stated verbatim in claims; strictly-only-2 is also defensible."
+    },
+    {
+      "id": "q39",
+      "answer": "১৫ অক্টোবর — বিশ্ব ছাত্র দিবস; ১৬ অক্টোবর — বিশ্ব খাদ্য দিবস",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "World Food Day, observed annually on October 16, has its roots in the establishment of the Food and Agriculture Organization (FAO) by the United Nations in 1945.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241015417701.pdf",
+      "page": "History & Theme",
+      "notes": "15 Oct = Students Day (c18/c19); 16 Oct = Food Day (c20)."
+    },
+    {
+      "id": "q40",
+      "answer": "গান্ধী জয়ন্তী, আন্তর্জাতিক অহিংসা দিবস, শাস্ত্রী জয়ন্তী",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "October 2 is celebrated as Gandhi Jayanti and globally as the International Day of Non-Violence, as declared by the United Nations",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173476&reg=48&lang=2",
+      "page": "Key Takeaways",
+      "notes": "Oct 2 = Gandhi Jayanti + Non-Violence Day (c04) + Shastri anniversary (c07)."
+    },
+    {
+      "id": "q41",
+      "answer": "সতর্কতা সচেতনতা সপ্তাহ",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "India Post celebrates National Postal Week from 9th to 15th October every year",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1662827&reg=3&lang=2",
+      "page": "para 2",
+      "notes": "not covered by claims — c12 fixes National Postal Week at 9-15 Oct every year, but no claim states that Vigilance Awareness Week dates vary year to year; best answer chosen by elimination."
+    },
+    {
+      "id": "q42",
+      "answer": "ক-৩, খ-৪, গ-১, ঘ-২",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "October 2 is celebrated as Gandhi Jayanti and globally as the International Day of Non-Violence, as declared by the United Nations",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173476&reg=48&lang=2",
+      "page": "Key Takeaways",
+      "notes": "2 Oct Gandhi (c04), 31 Oct Ekta Diwas (c26), 24 Oct UN Day (c24), 21 Oct Police Day (c22)."
+    }
+  ]
+}

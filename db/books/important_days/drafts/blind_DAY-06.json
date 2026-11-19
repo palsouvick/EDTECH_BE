@@ -1,0 +1,552 @@
+{
+  "code": "DAY-06",
+  "title": "জুনের দিবস",
+  "questions": [
+    {
+      "id": "q01",
+      "section": "week1_bicycle_environment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব পরিবেশ দিবস প্রতি বছর কোন তারিখে পালিত হয়?",
+      "options": [
+        "৮ জুন",
+        "৩ জুন",
+        "৫ জুন",
+        "২১ জুন"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "week1_bicycle_environment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব সাইকেল দিবস পালিত হয় —",
+      "options": [
+        "১২ জুন",
+        "৩ জুন",
+        "৭ জুন",
+        "৫ জুন"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "week1_bicycle_environment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে বিশ্ব পরিবেশ দিবস পালনের দায়িত্বে কোন মন্ত্রক থাকে?",
+      "options": [
+        "পরিবেশ, বন ও জলবায়ু পরিবর্তন মন্ত্রক (MoEFCC)",
+        "পরিসংখ্যান ও কর্মসূচি রূপায়ণ মন্ত্রক",
+        "যুব বিষয়ক ও ক্রীড়া মন্ত্রক",
+        "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রক"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "week1_bicycle_environment",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব পরিবেশ দিবসের বার্ষিক থিম কোন সংস্থা ঘোষণা করে?",
+      "options": [
+        "FSSAI",
+        "UNEP (জাতিসংঘ পরিবেশ কর্মসূচি)",
+        "UNCCD",
+        "ILO"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "week1_bicycle_environment",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সাইকেল দিবস পালনের উদ্দেশ্য হিসেবে PIB কোন জোড়টি উল্লেখ করেছে?",
+      "options": [
+        "শারীরিক ফিটনেস ও কার্বন পদচিহ্ন হ্রাস",
+        "মোটরযান বিক্রি কমানো",
+        "শুধুমাত্র প্রতিযোগিতামূলক খেলা বাড়ানো",
+        "সাইকেল রপ্তানি বাড়ানো"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "week1_bicycle_environment",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২০ সালে MoEFCC বিশ্ব পরিবেশ দিবস পালনের থিম হিসেবে কোনটিকে গ্রহণ করে?",
+      "options": [
+        "নগর-বন (Nagar Van)",
+        "Safe Blood Saves Lives",
+        "Rangelands: Recognize. Respect. Restore.",
+        "Food Safety: Science in Action"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "week1_bicycle_environment",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "options": [
+        "বিশ্ব সাইকেল দিবস – ৩ জুন",
+        "বিশ্ব পরিবেশ দিবস – ৩ জুন",
+        "বিশ্ব সাইকেল দিবস – ৫ জুন",
+        "বিশ্ব পরিবেশ দিবস – ৮ জুন"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "week2_food_oceans",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব খাদ্য নিরাপত্তা দিবস পালিত হয় —",
+      "options": [
+        "৭ জুন",
+        "৫ জুন",
+        "১৪ জুন",
+        "৮ জুন"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "week2_food_oceans",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব মহাসাগর দিবস পালিত হয় —",
+      "options": [
+        "৭ জুন",
+        "১৭ জুন",
+        "৮ জুন",
+        "৫ জুন"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "week2_food_oceans",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতে বিশ্ব খাদ্য নিরাপত্তা দিবসের অনুষ্ঠান কোন সংস্থা আয়োজন করে?",
+      "options": [
+        "FSSAI",
+        "CSIR-NIO",
+        "NBTC",
+        "MoSPI"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "week2_food_oceans",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মহাসাগর সম্পর্কে PIB কোন তথ্যটি দিয়েছে?",
+      "options": [
+        "মহাসাগর পৃথিবীর ১০% অক্সিজেন তৈরি করে",
+        "মহাসাগর পৃথিবীর অন্তত ৫০% অক্সিজেন তৈরি করে",
+        "মহাসাগর পৃথিবীর ৩০% জুড়ে আছে",
+        "মহাসাগরে জীববৈচিত্র্য প্রায় নেই"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "week2_food_oceans",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৫-এর বিশ্ব খাদ্য নিরাপত্তা দিবসের থিম ছিল —",
+      "options": [
+        "Food Safety: Science in Action",
+        "75 Years of National Sample Survey",
+        "Safe Blood Saves Lives",
+        "Yoga for One Earth One Health"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "week2_food_oceans",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২২ সালে CSIR-NIO-তে বিশ্ব মহাসাগর দিবসের প্রতিযোগিতাগুলির থিম ছিল —",
+      "options": [
+        "Food Safety: Science in Action",
+        "Revitalisation: Collective Action for the Ocean",
+        "Break the Cycle, #StopOrganisedCrime",
+        "Nagar Van"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "week2_food_oceans",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "খাদ্য নিরাপত্তা ও মহাসাগর দিবসের ক্ষেত্রে নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "options": [
+        "বিশ্ব খাদ্য নিরাপত্তা দিবস – ৮ জুন",
+        "বিশ্ব মহাসাগর দিবস – ৮ জুন",
+        "বিশ্ব খাদ্য নিরাপত্তা দিবস – ৫ জুন",
+        "বিশ্ব মহাসাগর দিবস – ৫ জুন"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "week2_child_blood",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব শিশুশ্রমবিরোধী দিবস পালিত হয় —",
+      "options": [
+        "১২ জুন",
+        "৭ জুন",
+        "২৬ জুন",
+        "১৪ জুন"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "week2_child_blood",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব রক্তদাতা দিবস পালিত হয় —",
+      "options": [
+        "৫ জুন",
+        "১৪ জুন",
+        "১২ জুন",
+        "২৯ জুন"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "week2_child_blood",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব শিশুশ্রমবিরোধী দিবস কোন সংস্থা, কোন সালে চালু করে?",
+      "options": [
+        "UNCCD, ১৯৯৪ সালে",
+        "ILO, ২০০২ সালে",
+        "UNEP, ২০১৫ সালে",
+        "FSSAI, ২০১৯ সালে"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "week2_child_blood",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শিশুশ্রমের ঘটনা জানাতে PIB কোন দুটি মাধ্যমের কথা বলেছে?",
+      "options": [
+        "eRaktkosh পোর্টাল ও ১০০ নম্বর",
+        "PENCIL পোর্টাল ও ১১২ নম্বর",
+        "Childline-1098 ও ডাক বিভাগ",
+        "PENCIL পোর্টাল ও Childline-1098"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "week2_child_blood",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব রক্তদাতা দিবস পালনে NBTC রাজ্য পরিষদগুলিকে কোন কাজে জোর দিতে বলে?",
+      "options": [
+        "রক্তদান শিবির ও স্বেচ্ছা রক্তদান (VBD) প্রচারে",
+        "শুধুমাত্র পোস্টার ছাপাতে",
+        "বেসরকারি ব্লাড ব্যাংক বন্ধ করতে",
+        "রক্তের দাম নির্ধারণে"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "week2_child_blood",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২০-এর বিশ্ব রক্তদাতা দিবসের থিম ছিল —",
+      "options": [
+        "Food Safety: Science in Action",
+        "Safe Blood Saves Lives",
+        "Break the Cycle, #StopOrganisedCrime",
+        "Revitalisation: Collective Action for the Ocean"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "week2_child_blood",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো: ১. বিশ্ব শিশুশ্রমবিরোধী দিবস ১২ জুন পালিত হয়। ২. এটি ILO ২০০২ সালে চালু করে। ৩. বিশ্ব রক্তদাতা দিবস ১২ জুন পালিত হয়।",
+      "options": [
+        "শুধুমাত্র ১ ও ২ সঠিক",
+        "শুধুমাত্র ২ ও ৩ সঠিক",
+        "শুধুমাত্র ১ ও ৩ সঠিক",
+        "১, ২ ও ৩ সবই সঠিক"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "week3_desertification_yoga",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক যোগ দিবস পালিত হয় —",
+      "options": [
+        "২১ জুন",
+        "২৬ জুন",
+        "২৯ জুন",
+        "১৭ জুন"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "week3_desertification_yoga",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব মরুকরণ ও খরা মোকাবিলা দিবস পালিত হয় —",
+      "options": [
+        "২১ জুন",
+        "১৭ জুন",
+        "১৪ জুন",
+        "৮ জুন"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "week3_desertification_yoga",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক যোগ দিবস জাতিসংঘ কবে ঘোষণা করে?",
+      "options": [
+        "২১ জুন ২০১৫",
+        "২৭ সেপ্টেম্বর ২০১৪",
+        "১১ ডিসেম্বর ২০১৫",
+        "১১ ডিসেম্বর ২০১৪"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "week3_desertification_yoga",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রথম আন্তর্জাতিক যোগ দিবস কোথায় পালিত হয়?",
+      "options": [
+        "রাজপথ, নয়াদিল্লি",
+        "লখনউ",
+        "বেঙ্গালুরু",
+        "গোয়া"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "week3_desertification_yoga",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্রথম যোগ দিবসে (২০১৫) কোন দুটি গিনেস বিশ্ব রেকর্ড হয়?",
+      "options": [
+        "বৃহত্তম যোগ ক্লাসে ১ লক্ষ জন ও ৫০টি জাতীয়তা",
+        "বৃহত্তম যোগ ক্লাসে ৫১,০০০ জন ও ১০০টি জাতীয়তা",
+        "একটানা ২৪ ঘণ্টা যোগ ও ৫০টি জাতীয়তা",
+        "বৃহত্তম যোগ ক্লাসে ৩৫,৯৮৫ জন ও ৮৪টি জাতীয়তার অংশগ্রহণ"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "week3_desertification_yoga",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "Bonn Challenge-এর অধীনে ২০৩০ সালের মধ্যে ভারতের ভূমি-পুনরুদ্ধারের লক্ষ্য কত?",
+      "options": [
+        "৯৭.৮৫ মিলিয়ন হেক্টর",
+        "২৬ মিলিয়ন হেক্টর",
+        "৩৫০ মিলিয়ন হেক্টর",
+        "২১.৭৬ মিলিয়ন হেক্টর"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "week3_desertification_yoga",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "যোগ দিবসের ঘটনাগুলিকে কালানুক্রমে সাজাও: ১. প্রথম পালন রাজপথে ২. জাতিসংঘের ঘোষণা ৩. প্রধানমন্ত্রীর প্রস্তাব",
+      "options": [
+        "৩ → ১ → ২",
+        "৩ → ২ → ১",
+        "১ → ২ → ৩",
+        "২ → ৩ → ১"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "week4_drugs_statistics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় পরিসংখ্যান দিবস পালিত হয় —",
+      "options": [
+        "২৯ জুন",
+        "২১ জুন",
+        "১৭ জুন",
+        "২৬ জুন"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "week4_drugs_statistics",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক মাদকদ্রব্য অপব্যবহার ও অবৈধ পাচারবিরোধী দিবস পালিত হয় —",
+      "options": [
+        "২৬ জুন",
+        "১২ জুন",
+        "৭ জুন",
+        "২৯ জুন"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "week4_drugs_statistics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় পরিসংখ্যান দিবস কার জন্মদিনে পালিত হয়?",
+      "options": [
+        "অধ্যাপক প্রশান্তচন্দ্র মহালনবিশ",
+        "ড. বি. আর. আম্বেদকর",
+        "স্যার রোনাল্ড ফিশার",
+        "অধ্যাপক সি. আর. রাও"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "week4_drugs_statistics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারত সরকার কোন সালে ২৯ জুনকে পরিসংখ্যান দিবস হিসেবে নির্ধারণ করে?",
+      "options": [
+        "২০১৫ সালে",
+        "১৯৫০ সালে",
+        "২০১৯ সালে",
+        "২০০৭ সালে"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "week4_drugs_statistics",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মাদকবিরোধী দিবসের তারিখ জাতিসংঘ সাধারণ পরিষদ কবে নির্ধারণ করে?",
+      "options": [
+        "৭ জুন ২০১৯",
+        "১১ ডিসেম্বর ২০১৪",
+        "৭ ডিসেম্বর ১৯৮৭",
+        "২৭ সেপ্টেম্বর ২০১৪"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "week4_drugs_statistics",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "পরিসংখ্যান দিবস পালনের প্রধান উদ্দেশ্য কী?",
+      "options": [
+        "নীতি-প্রণয়নে পরিসংখ্যানের ভূমিকা নিয়ে জনসচেতনতা, বিশেষ করে তরুণ প্রজন্মের মধ্যে",
+        "জনগণনা দ্রুত শেষ করা",
+        "নতুন কর আদায়",
+        "পরিসংখ্যানবিদদের ছুটি দেওয়া"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "week4_drugs_statistics",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো: ১. পরিসংখ্যান দিবস ২৯ জুন, মহালনবিশের জন্মদিনে। ২. ভারত সরকার দিনটি নির্ধারণ করে ২০১৫ সালে। ৩. মাদকবিরোধী দিবস ২৬ জুন।",
+      "options": [
+        "শুধুমাত্র ১ ও ৩ সঠিক",
+        "শুধুমাত্র ২ ও ৩ সঠিক",
+        "শুধুমাত্র ১ ও ২ সঠিক",
+        "১, ২ ও ৩ সবই সঠিক"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "date_traps",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি জুন মাসের দিবস নয়?",
+      "options": [
+        "বিশ্ব মহাসাগর দিবস",
+        "বিশ্ব পৃথিবী দিবস",
+        "আন্তর্জাতিক যোগ দিবস",
+        "বিশ্ব পরিবেশ দিবস"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "date_traps",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তারিখের সঠিক ক্রম কোনটি?",
+      "options": [
+        "সাইকেল (৩) → পরিবেশ (৫) → খাদ্য নিরাপত্তা (৭) → মহাসাগর (৮)",
+        "পরিবেশ (৫) → সাইকেল (৩) → মহাসাগর (৮) → খাদ্য নিরাপত্তা (৭)",
+        "খাদ্য নিরাপত্তা (৭) → সাইকেল (৩) → পরিবেশ (৫) → মহাসাগর (৮)",
+        "মহাসাগর (৮) → খাদ্য নিরাপত্তা (৭) → পরিবেশ (৫) → সাইকেল (৩)"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "date_traps",
+      "level": "moderate",
+      "format": "PAIRS",
+      "q": "জুনের শেষার্ধের দিবসগুলির ক্ষেত্রে নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "options": [
+        "আন্তর্জাতিক যোগ দিবস – ২৬ জুন",
+        "বিশ্ব রক্তদাতা দিবস – ১২ জুন",
+        "জাতীয় পরিসংখ্যান দিবস – ২৯ জুন",
+        "বিশ্ব শিশুশ্রমবিরোধী দিবস – ১৪ জুন"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "date_traps",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৬-এর বিশ্ব মরুকরণ ও খরা মোকাবিলা দিবসের থিম ছিল —",
+      "options": [
+        "Rangelands: Recognize. Respect. Restore.",
+        "75 Years of National Sample Survey",
+        "Yoga for One Earth One Health",
+        "Safe Blood Saves Lives"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "date_traps",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৫-এর ঊনবিংশতিতম পরিসংখ্যান দিবসের থিম ছিল —",
+      "options": [
+        "75 Years of National Sample Survey",
+        "Nagar Van",
+        "Break the Cycle, #StopOrganisedCrime",
+        "Food Safety: Science in Action"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "date_traps",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "মিল করো: (ক) ILO (খ) UNCCD (গ) FSSAI (ঘ) NBTC — (১) খাদ্য নিরাপত্তা দিবস (২) মরুকরণ-মোকাবিলা দিবস (৩) শিশুশ্রমবিরোধী দিবস (৪) রক্তদাতা দিবস",
+      "options": [
+        "ক–৩, খ–১, গ–২, ঘ–৪",
+        "ক–৩, খ–২, গ–১, ঘ–৪",
+        "ক–১, খ–২, গ–৩, ঘ–৪",
+        "ক–৪, খ–২, গ–১, ঘ–৩"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "date_traps",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি ভুলভাবে মিলেছে?",
+      "options": [
+        "আন্তর্জাতিক মাদকবিরোধী দিবস – ২১ জুন",
+        "জাতীয় পরিসংখ্যান দিবস – ২৯ জুন",
+        "বিশ্ব মহাসাগর দিবস – ৮ জুন",
+        "বিশ্ব পরিবেশ দিবস – ৫ জুন"
+      ]
+    }
+  ]
+}

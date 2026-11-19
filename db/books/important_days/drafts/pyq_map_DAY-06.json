@@ -1,0 +1,32 @@
+[
+  {
+    "pyq_code": "GK-DAY-006",
+    "section": "date_traps",
+    "taught": true,
+    "note": "GK bank item for subtopic 'june' listing 3 Jun Bicycle, 5 Jun Environment, 7 Jun Food Safety, 8 Jun Oceans, 12 Jun Child Labour, 14 Jun Blood Donor, 17 Jun Desertification, 21 Jun Yoga (+ Music Day), 23 Jun UN Public Service Day, 26 Jun Drug Abuse, 29 Jun Statistics. All except two are taught in this chapter from PIB sources. NOT taught: World Music Day (21 June) and UN Public Service Day (23 June) — no official GoI/NCERT source was fetched for them in this run; disclosed as gaps in the chapter (date_traps) and in REPORT.md."
+  },
+  {
+    "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q27",
+    "section": "date_traps",
+    "taught": true,
+    "note": "Real WBPSC Miscellaneous Prelims 2023 question (db/pyq/misc-2023.json, question_no 27): 'Identify the correct match' — correct pair is 17 May World Telecommunication Day; the June distractors (5 June as 'World Ocean Day', 11 June as World Day Against Child Labour) are exactly the traps this chapter teaches against: Environment Day is 5 June (claim c01), Oceans Day is 8 June (c20), Child Labour Day is 12 June (c23)."
+  },
+  {
+    "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q45",
+    "section": "week2_child_blood",
+    "taught": true,
+    "note": "Real Clerkship 2023 Session II question (db/pyq/wbpsc-clerkship-2023-session-2.json, question_no 45, topic important_days): 'Which day is celebrated as World Blood Donor Day every year?' — answer 14 June, taught in week2_child_blood (claim c25, PIB MoHFW). The corpus explanation's Karl Landsteiner birth-anniversary reason is NOT taught here: the fetched PIB release does not state it (flagged in the chapter's exam_note)."
+  },
+  {
+    "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q92",
+    "section": null,
+    "taught": false,
+    "note": "Real Clerkship 2023 Session I question (db/pyq/wbpsc-clerkship-2023-session-1.json, question_no 92, topic current_affairs): 'Which country hosted the World Environment Day 2024?' (answer: Saudi Arabia). The chapter teaches the permanent fact (World Environment Day, 5 June, claim c01) but NOT the 2024 host country — an annual, year-specific fact outside this chapter's PIB sources and outside the permanent date+reason scope."
+  },
+  {
+    "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q67",
+    "section": null,
+    "taught": false,
+    "note": "Real Clerkship 2023 Session III question (db/pyq/wbpsc-clerkship-2023-session-3.json, question_no 67, topic current_affairs): 'Which state organised the National Yoga Olympiad from 18th to 20th June, 2024?' (answer: Karnataka). The chapter teaches International Day of Yoga itself (21 June; claims c04-c08) but NOT the 2024 National Yoga Olympiad host state — a year-specific current-affairs event, not the day's permanent date or reason."
+  }
+]

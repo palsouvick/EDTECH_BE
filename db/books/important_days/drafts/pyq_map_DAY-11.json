@@ -1,0 +1,38 @@
+[
+ {
+  "note": "GK bank fact-pack for subtopic 'november' (db/gk/important_days.jsonl). Every day it lists is taught in this chapter from PIB sources: Tsunami Awareness Day 5 Nov, Cancer Awareness Day 7 Nov, Legal Services Day 9 Nov, World Science Day 10 Nov, National Education Day 11 Nov, Children's Day (India) and World Diabetes Day 14 Nov, World Toilet Day 19 Nov, World Children's/Child Rights Day 20 Nov, World Television Day 21 Nov, International Day for the Elimination of Violence against Women 25 Nov, Constitution Day and National Milk Day 26 Nov. [Central fix at install: section was null; this whole-month fact-pack is consolidated in the date_traps revision section, and each day it lists is taught in its week section above.]",
+  "pyq_code": "GK-DAY-011",
+  "section": "date_traps",
+  "taught": true
+ },
+ {
+  "note": "Question: on which date was the Constitution of India adopted? Answer 26 November 1949 (db/pyq/wbcs-prelims-2018.json, Q79). Taught via PIB Constitution Day factsheet claim c01; the adopted-vs-in-force distinction is drilled in q37/q45.",
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q79",
+  "section": "constitution_day",
+  "taught": true
+ },
+ {
+  "note": "Constitution adopted by the Constituent Assembly on 26 November 1949, now Constitution Day (db/pyq/wbcs-prelims-2022.json, Q174). Taught via claim c01 and the constitution_day section.",
+  "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q174",
+  "section": "constitution_day",
+  "taught": true
+ },
+ {
+  "note": "Question: on which date was the Constitution of India adopted? Answer 26 November 1949 (db/pyq/wbp-constable-2021.json, Q54). Taught via claim c01.",
+  "pyq_code": "WBP-CONSTABLE-2021-Q54",
+  "section": "constitution_day",
+  "taught": true
+ },
+ {
+  "note": "Question: the Constitution of India came into force on — 26 January 1950 (db/pyq/wbpsc-clerkship-2006.json, Q19). The chapter teaches the full trap: adopted 26 November 1949 vs in force 26 January 1950 (claim c01, date_traps section, q45).",
+  "pyq_code": "WBPSC-CLERKSHIP-2006-Q19",
+  "section": "date_traps",
+  "taught": true
+ },
+ {
+  "note": "Question concerns the National Bal Swachhta Mission, launched on 14 November 2014, Children's Day (db/pyq/wbcs-prelims-2015.json, Q160). The chapter teaches Children's Day (14 November, Nehru's birthday, claim c13) but does NOT teach the Bal Swachhta Mission or its 2014 launch — no fetched PIB source used for this chapter covers that mission, so the item is recorded untaught rather than filled from memory.",
+  "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q160",
+  "section": null,
+  "taught": false
+ }
+]

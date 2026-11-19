@@ -1,0 +1,1487 @@
+{
+  "book": "important_days",
+  "code": "DAY-03",
+  "number": 3,
+  "part": "q1",
+  "title": "মার্চের দিবস",
+  "subtitle": "বন্যপ্রাণী থেকে যক্ষ্মা: মার্চের দশটি যাচাই করা দিবস, তারিখের জোড় ও থিমের ফাঁদ",
+  "subtopics": [
+    "march"
+  ],
+  "related_facts": [
+    "GK-DAY-003"
+  ],
+  "prerequisites": [
+    "DAY-02"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 25,
+    "deep": 35
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 41/42 answers matched the key (38 SURE, 4 LIKELY, 0 GUESS); 1 item(s) had a second option the checker found also defensible from the claims.  Blind miss q42 (LIKELY) adjudicated as a claims-coverage gap, key RETAINED: statements 2 and 3 are claim-covered verbatim (c18 Forests Day 2022 theme, c27 TB Day 2026 theme); statement 1 (themes are annual and must be learnt with their year) is this book's standing teaching rule, demonstrated by those very year-labelled themes, but was not extracted as a standalone claim, so a claims-only answer excluded it. Same class as IGK-02 q42. Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 2 of 2 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_DAY-03.json and drafts/DAY-03_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/DAY-03_REPORT.md.",
+    "checked_claims": 28,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "মার্চ মাস দিবসের দিক থেকে বছরের সবচেয়ে ঘন মাসগুলির একটি: বন্যপ্রাণী, সুরক্ষা, ঔষধি, নারী, ভোক্তা, টিকা, বন, জল, আবহাওয়া, শহীদ ও যক্ষ্মা — প্রায় প্রতি সপ্তাহেই একাধিক পালন। এই অধ্যায়ে সরকারি PIB সূত্রে যাচাই করা দশটি দিবসকে পাঁচটি তারিখ-জোড়ে সাজানো হয়েছে, যাতে ক্রম মনে থাকে। পাশাপাশি শেখানো হয়েছে পরীক্ষার তিনটি বড় ফাঁদ: বন (২১) বনাম জল (২২), ২৩ মার্চের দুই পালন, এবং বার্ষিক থিমকে স্থায়ী তথ্য ভেবে ফেলা।",
+    "you_will_learn": [
+      "৩ মার্চ বিশ্ব বন্যপ্রাণী দিবস ও ৪ মার্চ জাতীয় সুরক্ষা দিবস (সুরক্ষা সপ্তাহ ৪–১০ মার্চ)",
+      "৭ মার্চ জন ঔষধি দিবস (PMBJP, জেনেরিক ওষুধ) ও ৮ মার্চ আন্তর্জাতিক নারী দিবস (MWCD)",
+      "১৫ মার্চ বিশ্ব ভোক্তা অধিকার দিবস (হেল্পলাইন ১৯১৫) ও ১৬ মার্চ জাতীয় টিকাদান দিবস (মিশন ইন্দ্রধনুষ, ২০১৪)",
+      "২১ মার্চ আন্তর্জাতিক বন দিবস ও ২২ মার্চ বিশ্ব জল দিবস (১৯৯৩ থেকে, SDG 6)",
+      "২৩ মার্চের দুই পালন: বিশ্ব আবহাওয়া দিবস (WMO, ১৯৫০) ও শহীদ দিবস (১৯৩১)",
+      "২৪ মার্চ বিশ্ব যক্ষ্মা দিবস ও ভারতের টিবি-অগ্রগতির সংখ্যা (২১%, ২৫%, ৯২%)",
+      "বার্ষিক থিম চেনার নিয়ম: থিম সবসময় বছরসহ মনে রাখতে হয়"
+    ]
+  },
+  "sections": [
+    {
+      "id": "week1_wildlife_safety",
+      "heading": "প্রথম সপ্তাহ: বন্যপ্রাণী দিবস (৩ মার্চ) ও জাতীয় সুরক্ষা দিবস (৪ মার্চ)",
+      "quick": "মার্চের শুরুতে পরপর দুটি দিবস: **৩ মার্চ বিশ্ব বন্যপ্রাণী দিবস** — বন্য প্রাণী ও উদ্ভিদের ভূমিকা স্মরণের দিন; আর **৪ মার্চ জাতীয় সুরক্ষা দিবস** — কর্মক্ষেত্র ও দৈনন্দিন জীবনে সুরক্ষা-সচেতনতার দিন, যার পর থেকে জাতীয় সুরক্ষা সপ্তাহ পালিত হয়।",
+      "standard": "মার্চ মাসের প্রথম সপ্তাহের দুটি দিবস দিয়ে এই অধ্যায় শুরু।\n\n**৩ মার্চ — বিশ্ব বন্যপ্রাণী দিবস (World Wildlife Day):** প্রতি বছর ৩ মার্চ বিশ্বজুড়ে জাতিসংঘের বিশ্ব বন্যপ্রাণী দিবস পালিত হয়। উদ্দেশ্য হল আমাদের জীবনে ও গ্রহের স্বাস্থ্যে বন্য প্রাণী ও উদ্ভিদের গুরুত্বপূর্ণ ভূমিকাকে সম্মান জানানো এবং ভবিষ্যৎ প্রজন্মের জন্য জীববৈচিত্র্য রক্ষার প্রয়োজন মনে করিয়ে দেওয়া। ভারতের প্রসঙ্গটি মনে রাখার মতো: দেশটি পৃথিবীর মাত্র ২.৪% ভূখণ্ড জুড়ে থাকলেও পরিচিত সব প্রজাতির ৭–৮%-এর বাস এখানে — তাই এই দিবস ভারতের জন্য বিশেষ তাৎপর্যপূর্ণ। বার্ষিক থিম প্রতি বছর বদলায়; যেমন ২০২৫-এর থিম ছিল 'Wildlife Conservation Finance: Investing in People and Planet' — থিম সবসময় বছরের নাম ধরে মনে রাখতে হবে, থিমকে স্থায়ী তথ্য ভাবা যাবে না।\n\n**৪ মার্চ — জাতীয় সুরক্ষা দিবস (National Safety Day):** ৪ মার্চ জাতীয় সুরক্ষা দিবস। প্রধানমন্ত্রীর 'মন কি বাত' অনুষ্ঠানে এই দিনটির উল্লেখ এসেছিল পেশাগত সুরক্ষা (কারখানা ও নির্মাণস্থলে সুরক্ষা-মান) নিয়ে সচেতনতা বাড়ানোর প্রসঙ্গে। সেখানে সুরক্ষাকে দুই ভাগে ভাগ করা হয়েছিল — দুর্যোগের সময়ের সুরক্ষা এবং দৈনন্দিন জীবনের সুরক্ষা। এই দিবস থেকে শুরু হয় জাতীয় সুরক্ষা সপ্তাহ; যেমন ৫২তম জাতীয় সুরক্ষা সপ্তাহ পালিত হয়েছিল ২০২৩ সালের ৪–১০ মার্চ।",
+      "deep": "পরীক্ষার কৌশল: ৩ ও ৪ মার্চ পরপর — 'বন্যপ্রাণী ৩, সুরক্ষা ৪' এই ক্রমে মনে রাখো। সুরক্ষা সপ্তাহের শুরু ৪ মার্চ থেকেই, তাই 'সপ্তাহ কবে থেকে' প্রশ্নেও উত্তর ৪ মার্চ।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "থিম মানে বছরের থিম",
+          "body": "বন্যপ্রাণী দিবসের ২০২৫-এর থিম ছিল 'Wildlife Conservation Finance: Investing in People and Planet'। থিম প্রতি বছর বদলায় — প্রশ্নে থিম এলে সঙ্গে বছর মিলিয়ে দেখো।",
+          "claims": [
+            "c02"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c05",
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "week2_jan_aushadhi_women",
+      "heading": "দ্বিতীয় সপ্তাহ: জন ঔষধি দিবস (৭ মার্চ) ও আন্তর্জাতিক নারী দিবস (৮ মার্চ)",
+      "quick": "**৭ মার্চ জন ঔষধি দিবস** — সস্তায় জেনেরিক ওষুধের প্রকল্প নিয়ে সচেতনতার দিন। তার পরদিন **৮ মার্চ আন্তর্জাতিক নারী দিবস** — নারীদের কৃতিত্ব উদ্‌যাপন এবং লিঙ্গসমতা, সুরক্ষা, মর্যাদা ও ক্ষমতায়নের অঙ্গীকারের দিন।",
+      "standard": "দ্বিতীয় সপ্তাহের দুটি দিবসই মানুষের দৈনন্দিন কল্যাণের সঙ্গে যুক্ত — একটি ওষুধের দাম নিয়ে, অন্যটি সমাজের অর্ধেক জনগোষ্ঠীর মর্যাদা নিয়ে।\n\n**৭ মার্চ — জন ঔষধি দিবস (Jan Aushadhi Diwas):** প্রধানমন্ত্রী ভারতীয় জনঔষধি পরিযোজনা (PMBJP) সম্পর্কে প্রচার ও সচেতনতা ছড়িয়ে দিতে প্রতি বছর ৭ মার্চ জন ঔষধি দিবস পালিত হয়। এই প্রকল্পের আওতায় সাশ্রয়ী দামে জেনেরিক ওষুধ পৌঁছে দিতে দেশের সব জেলায় ৯৬০০-র বেশি প্রধানমন্ত্রী ভারতীয় জনঔষধি কেন্দ্র (PMBJK) গড়ে তোলা হয়েছে। পরীক্ষায় জোড়টি মনে রাখো: দিবস ৭ মার্চ — বিষয় জেনেরিক ওষুধ — প্রকল্প PMBJP।\n\n**৮ মার্চ — আন্তর্জাতিক নারী দিবস (International Women's Day):** বিশ্বজুড়ে ৮ মার্চ পালিত এই দিবসে সব ক্ষেত্রে নারীদের কৃতিত্ব ও অবদান উদ্‌যাপন করা হয় এবং লিঙ্গসমতা, সুরক্ষা, মর্যাদা ও নারী-ক্ষমতায়নের প্রতি সম্মিলিত অঙ্গীকার পুনর্ব্যক্ত করা হয়। ভারতে এই দিবসের জাতীয় পর্যায়ের অনুষ্ঠান আয়োজন করে নারী ও শিশু উন্নয়ন মন্ত্রক (MWCD)।",
+      "deep": "৭ ও ৮ মার্চের ক্রম মনে রাখার সূত্র: আগে ওষুধ (৭), তারপর নারী দিবস (৮)। দুটি দিবসই 'দ্বিতীয় সপ্তাহের জোড়' হিসেবে একসঙ্গে প্রশ্নে আসে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "কোন মন্ত্রক?",
+          "body": "ভারতে আন্তর্জাতিক নারী দিবসের জাতীয় অনুষ্ঠান আয়োজন করে নারী ও শিশু উন্নয়ন মন্ত্রক (MWCD)। জন ঔষধি প্রকল্পটি ওষুধ-বিষয়ক বিভাগের অধীনের প্রকল্প — দুটি গুলিয়ে ফেলো না।",
+          "claims": [
+            "c11",
+            "c08"
+          ]
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "week3_consumer_vaccination",
+      "heading": "তৃতীয় সপ্তাহ: ভোক্তা অধিকার দিবস (১৫ মার্চ) ও জাতীয় টিকাদান দিবস (১৬ মার্চ)",
+      "quick": "মাঝ-মার্চের জোড়: **১৫ মার্চ বিশ্ব ভোক্তা অধিকার দিবস** — কেনাকাটায় ভোক্তার অধিকার রক্ষার দিন; **১৬ মার্চ জাতীয় টিকাদান দিবস** — টিকাদানের গুরুত্ব প্রচারের দিন, যার সঙ্গে জড়িত মিশন ইন্দ্রধনুষ (২০১৪)।",
+      "standard": "**১৫ মার্চ — বিশ্ব ভোক্তা অধিকার দিবস (World Consumer Rights Day):** ভোক্তা বিষয়ক বিভাগ (Department of Consumer Affairs) প্রতি বছর ১৫ মার্চ এই দিবস পালন করে; যেমন ২০২৩ সালে দিবসটি পালিত হয়েছিল ১৫ মার্চ, সেদিনের থিম ছিল 'Empowering consumers through clean energy transitions'। ভোক্তার ব্যবহারিক তথ্য: জাতীয় ভোক্তা হেল্পলাইনে (National Consumer Helpline) অভিযোগ জানানো যায় **১৯১৫** নম্বরে ফোন করে বা মোবাইল অ্যাপের মাধ্যমে। এই দিবসটি নিয়ে বাস্তব পরীক্ষার প্রশ্নও এসেছে — WBCS প্রিলিমস ২০১৬-তে সরাসরি জিজ্ঞাসা করা হয়েছিল বিশ্ব ভোক্তা অধিকার দিবস কোন দিনে পালিত হয় (উত্তর: ১৫ মার্চ)।\n\n**১৬ মার্চ — জাতীয় টিকাদান দিবস (National Vaccination Day):** স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রকের PIB ব্যাখ্যামূলক নথির শিরোনামেই দিনটি চিহ্নিত — 'National Vaccination Day (March 16)'। টিকাদান প্রসঙ্গে সবচেয়ে গুরুত্বপূর্ণ কর্মসূচি মিশন ইন্দ্রধনুষ: পূর্ণ টিকাদানের হার দ্রুত ৯০%-এ পৌঁছে দিতে ২০১৪ সালে এই মিশন চালু হয়। অর্থাৎ ১৬ মার্চের সঙ্গে জোড় বাঁধো — টিকাদান দিবস + মিশন ইন্দ্রধনুষ (২০১৪)।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "১৫–১৬-র জোড়",
+          "body": "১৫ মার্চ ভোক্তা, ১৬ মার্চ টিকা — পরপর দুই দিন, দুটিই 'অধিকার ও সুরক্ষা'র দিবস। হেল্পলাইন নম্বর ১৯১৫ শুধু ভোক্তা দিবসের সঙ্গেই যুক্ত।",
+          "claims": [
+            "c12",
+            "c14",
+            "c15"
+          ]
+        }
+      ],
+      "claims": [
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16"
+      ]
+    },
+    {
+      "id": "week4_forests_water",
+      "heading": "চতুর্থ সপ্তাহ (ক): বন দিবস (২১ মার্চ) ও বিশ্ব জল দিবস (২২ মার্চ)",
+      "quick": "প্রকৃতির জোড়: **২১ মার্চ আন্তর্জাতিক বন দিবস** — সব ধরনের বন সম্পর্কে সচেতনতা; **২২ মার্চ বিশ্ব জল দিবস** — মিষ্টি জলের গুরুত্ব ও টেকসই জল-ব্যবস্থাপনা, যা ১৯৯৩ সাল থেকে পালিত হচ্ছে।",
+      "standard": "মার্চের সবচেয়ে বেশি গুলিয়ে-যাওয়া জোড় এই দুটি — বন ২১, জল ২২।\n\n**২১ মার্চ — আন্তর্জাতিক বন দিবস (International Day of Forests):** পরিবেশ, বন ও জলবায়ু পরিবর্তন মন্ত্রক (MoEFCC) এই দিবস পালন করে সব ধরনের বন সম্পর্কে মানুষের মধ্যে সচেতনতা বাড়াতে; যেমন ২০২২ সালে দিল্লির জাতীয় প্রাণিবিজ্ঞান উদ্যানে দিবসটি পালিত হয়েছিল, সেবারের থিম ছিল 'Forest and sustainable production and consumption'।\n\n**২২ মার্চ — বিশ্ব জল দিবস (World Water Day):** বিশ্বজুড়ে ২২ মার্চ পালিত এই দিবস মিষ্টি জলের অপরিহার্য গুরুত্ব এবং টেকসই জল-ব্যবস্থাপনার জরুরি প্রয়োজন মনে করিয়ে দেয়। ইতিহাসের দিকটি পরীক্ষায় আসে: জাতিসংঘের সাধারণ পরিষদ ২২ মার্চকে বিশ্ব জল দিবস হিসেবে ঘোষণা করে এবং **১৯৯৩ সাল থেকে** দিনটি প্রতি বছর পালিত হচ্ছে। দিবসটির একটি মূল লক্ষ্য হল SDG 6 — ২০৩০ সালের মধ্যে সবার জন্য জল ও পয়ঃনিষ্কাশন নিশ্চিত করা। ভারতে জল শক্তি মন্ত্রক এই দিবস উপলক্ষে জাতীয় পর্যায়ের অনুষ্ঠান আয়োজন করে।",
+      "deep": "ক্রম মনে রাখার সূত্র: বন আগে (২১), জল পরে (২২)। বিশ্ব পরিবেশ দিবস (৫ জুন) সম্পূর্ণ আলাদা মাসের — এই জোড়ের সঙ্গে মেশাবে না।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "২১ না ২২?",
+          "body": "বন দিবস ২১ মার্চ, জল দিবস ২২ মার্চ। জল দিবসের সঙ্গে '১৯৯৩ সাল থেকে পালিত' ও 'SDG 6' তথ্য দুটি জোড়া — বন দিবসের সঙ্গে নয়।",
+          "claims": [
+            "c19",
+            "c20",
+            "c21"
+          ]
+        }
+      ],
+      "claims": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21"
+      ]
+    },
+    {
+      "id": "week4_martyrs_tb",
+      "heading": "চতুর্থ সপ্তাহ (খ): ২৩ মার্চের দুই পালন ও যক্ষ্মা দিবস (২৪ মার্চ)",
+      "quick": "**২৩ মার্চ** একই দিনে দুটি পালন: বিশ্ব আবহাওয়া দিবস (WMO-র জন্ম, ১৯৫০) এবং ভারতে শহীদ দিবস (ভগত সিং, রাজগুরু ও সুখদেবের শহীদত্ব, ১৯৩১)। পরদিন **২৪ মার্চ বিশ্ব যক্ষ্মা (টিবি) দিবস**।",
+      "standard": "**২৩ মার্চ — বিশ্ব আবহাওয়া দিবস (World Meteorological Day):** প্রতি বছর ২৩ মার্চ এই দিবস পালিত হয়। দিনটি বেছে নেওয়ার কারণ: ১৯৫০ সালের ২৩ মার্চ বিশ্ব আবহাওয়া সংস্থা (WMO) প্রতিষ্ঠিত হয় — দিবসটি সেই প্রতিষ্ঠার স্মারক এবং আবহাওয়াবিদদের অবদানের স্বীকৃতি। যেমন WMO-র ২০২৪-এর থিম ছিল 'At the Frontline of Climate Action'।\n\n**২৩ মার্চ — শহীদ দিবস:** একই দিনে ভারত শ্রদ্ধা জানায় তিন বিপ্লবীকে — সর্দার ভগত সিং, রাজগুরু ও সুখদেব ১৯৩১ সালের এই দিনে দেশের স্বাধীনতার জন্য প্রাণ দিয়েছিলেন। ২০২৩ সালে রাজ্যসভায় উপরাষ্ট্রপতি তাঁদের শহীদত্বের ৯২তম বার্ষিকীতে শ্রদ্ধা জানান — সেই হিসাব থেকেও বছরটি যাচাই করা যায় (১৯৩১ + ৯২ = ২০২৩)।\n\n**২৪ মার্চ — বিশ্ব যক্ষ্মা দিবস (World TB Day):** প্রতি বছর ২৪ মার্চ পালিত এই দিবস যক্ষ্মা নির্মূলের প্রচেষ্টা ত্বরান্বিত করার বিশ্বব্যাপী আহ্বান। ভারতের অগ্রগতির যাচাই করা সংখ্যা: গত এক দশকে দেশে টিবি-আক্রান্তের হার ২১% কমেছে, মৃত্যুহার কমেছে ২৫%, এবং চিকিৎসা-কভারেজ পৌঁছেছে ৯২%-এ। ২০২৬-এর থিম ছিল 'Yes! We Can End TB!'।",
+      "deep": "একই তারিখে দুটি পালন থাকলে পরীক্ষায় 'কোনটি ২৩ মার্চ নয়' ধরনের প্রশ্ন আসে। মনে রাখো: ২৩ মার্চ = আবহাওয়া (বিশ্ব) + শহীদ (ভারত); ২৪ মার্চ = টিবি।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "বছর দুটি আলাদা রাখো",
+          "body": "২৩ মার্চের দুই পালনের বছর আলাদা: শহীদ দিবসের ঘটনা ১৯৩১ (তিন বিপ্লবীর শহীদত্ব), আবহাওয়া দিবসের ভিত্তি ১৯৫০ (WMO প্রতিষ্ঠা)। বছর গুলিয়ে ফেললেই উত্তর ভুল হবে।",
+          "claims": [
+            "c22",
+            "c24"
+          ]
+        }
+      ],
+      "claims": [
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28"
+      ]
+    },
+    {
+      "id": "date_traps",
+      "heading": "তারিখের ফাঁদ ও মাসের মানচিত্র: যা গুলিয়ে যায়",
+      "quick": "মার্চের ফাঁদ তিনটি: (১) বন ২১ বনাম জল ২২; (২) ২৩ মার্চের দুই পালন — আবহাওয়া ও শহীদ; (৩) বার্ষিক থিমকে স্থায়ী তথ্য ভেবে ফেলা। এই অধ্যায়ের দশটি দিবস তারিখের ক্রমে সাজিয়ে পড়লেই ফাঁদগুলি কাটে।",
+      "standard": "এই অধ্যায়ের সব দিবস এক নজরে, তারিখের ক্রমে:\n\n| তারিখ | দিবস | মনে রাখার সূত্র |\n|---|---|---|\n| ৩ মার্চ | বিশ্ব বন্যপ্রাণী দিবস | বন্য প্রাণী ও উদ্ভিদের ভূমিকা |\n| ৪ মার্চ | জাতীয় সুরক্ষা দিবস | সুরক্ষা সপ্তাহের শুরু (৪–১০ মার্চ) |\n| ৭ মার্চ | জন ঔষধি দিবস | জেনেরিক ওষুধ, PMBJP কেন্দ্র |\n| ৮ মার্চ | আন্তর্জাতিক নারী দিবস | MWCD-র জাতীয় অনুষ্ঠান |\n| ১৫ মার্চ | বিশ্ব ভোক্তা অধিকার দিবস | হেল্পলাইন ১৯১৫ |\n| ১৬ মার্চ | জাতীয় টিকাদান দিবস | মিশন ইন্দ্রধনুষ (২০১৪) |\n| ২১ মার্চ | আন্তর্জাতিক বন দিবস | MoEFCC পালন করে |\n| ২২ মার্চ | বিশ্ব জল দিবস | ১৯৯৩ থেকে, SDG 6 |\n| ২৩ মার্চ | বিশ্ব আবহাওয়া দিবস + শহীদ দিবস | WMO ১৯৫০; শহীদত্ব ১৯৩১ |\n| ২৪ মার্চ | বিশ্ব যক্ষ্মা দিবস | টিবি-মুক্ত ভারতের লক্ষ্য |\n\n**থিমের নিয়ম:** প্রতিটি দিবসের থিম বার্ষিক — ২০২৫-এ বন্যপ্রাণী দিবসের থিম, ২০২৩-এ ভোক্তা দিবসের থিম, ২০২৪-এ আবহাওয়া দিবসের থিম, ২০২৬-এ টিবি দিবসের থিম — সবই আলাদা বছরের। প্রশ্নে থিম থাকলে প্রথমে বছরটি পড়ো।\n\n**জোড় মেলানোর অভ্যাস:** পরীক্ষায় সবচেয়ে বেশি আসে জোড়-মেলানো (তারিখ ↔ দিবস) আর 'কোনটি সঠিক নয়' ধরনের প্রশ্ন। উপরের সারণিটি তারিখের ক্রমে মুখস্থ করলেই দুই ধরনের প্রশ্নই সামলানো যায়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মাসের ছন্দ",
+          "body": "৩-৪ (বন্যপ্রাণী-সুরক্ষা), ৭-৮ (ঔষধি-নারী), ১৫-১৬ (ভোক্তা-টিকা), ২১-২২ (বন-জল), ২৩-২৪ (আবহাওয়া/শহীদ-টিবি) — পাঁচটি জোড়ে পুরো মাস।",
+          "claims": [
+            "c01",
+            "c19",
+            "c26"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c05",
+        "c08",
+        "c10",
+        "c12",
+        "c15",
+        "c17",
+        "c19",
+        "c22",
+        "c24",
+        "c26"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "তিন বিপ্লবীর শহীদত্ব",
+      "when": "১৯৩১",
+      "what": "ভগত সিং, রাজগুরু ও সুখদেব দেশের স্বাধীনতার জন্য প্রাণ দেন।",
+      "why_it_matters": "এই ঘটনার স্মৃতিতেই ২৩ মার্চ ভারতে শহীদ দিবস পালিত হয়।",
+      "section": "week4_martyrs_tb",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "title": "বিশ্ব আবহাওয়া সংস্থা (WMO) প্রতিষ্ঠা",
+      "when": "১৯৫০",
+      "what": "১৯৫০ সালের ২৩ মার্চ WMO-র উৎপত্তি হয়।",
+      "why_it_matters": "এই প্রতিষ্ঠা-দিনের স্মারকেই প্রতি বছর ২৩ মার্চ বিশ্ব আবহাওয়া দিবস পালিত হয়।",
+      "section": "week4_martyrs_tb",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "title": "বিশ্ব জল দিবস পালন শুরু",
+      "when": "১৯৯৩",
+      "what": "জাতিসংঘের সাধারণ পরিষদের ঘোষণার পর ২২ মার্চ বিশ্ব জল দিবস হিসেবে পালিত হতে শুরু করে।",
+      "why_it_matters": "'কত সাল থেকে জল দিবস পালিত হয়' — পরীক্ষায় বারবার আসা তথ্য।",
+      "section": "week4_forests_water",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "title": "মিশন ইন্দ্রধনুষ চালু",
+      "when": "২০১৪",
+      "what": "পূর্ণ টিকাদান কভারেজ দ্রুত ৯০%-এ পৌঁছে দিতে মিশনটি চালু হয়।",
+      "why_it_matters": "১৬ মার্চ জাতীয় টিকাদান দিবসের সঙ্গে জোড় বাঁধা সবচেয়ে গুরুত্বপূর্ণ কর্মসূচি-তথ্য।",
+      "section": "week3_consumer_vaccination",
+      "claims": [
+        "c16"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "ভগত সিং",
+      "when": "শহীদত্ব ১৯৩১",
+      "role": "বিপ্লবী স্বাধীনতা সংগ্রামী",
+      "contribution": "রাজগুরু ও সুখদেবের সঙ্গে ১৯৩১ সালের ২৩ মার্চ দেশের স্বাধীনতার জন্য প্রাণ দেন; তাঁদের স্মৃতিতে শহীদ দিবস পালিত হয়।",
+      "section": "week4_martyrs_tb",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "name": "রাজগুরু",
+      "when": "শহীদত্ব ১৯৩১",
+      "role": "বিপ্লবী স্বাধীনতা সংগ্রামী",
+      "contribution": "ভগত সিং ও সুখদেবের সঙ্গে ১৯৩১ সালের ২৩ মার্চ শহীদ হন।",
+      "section": "week4_martyrs_tb",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "name": "সুখদেব",
+      "when": "শহীদত্ব ১৯৩১",
+      "role": "বিপ্লবী স্বাধীনতা সংগ্রামী",
+      "contribution": "ভগত সিং ও রাজগুরুর সঙ্গে ১৯৩১ সালের ২৩ মার্চ শহীদ হন।",
+      "section": "week4_martyrs_tb",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1931,
+      "when": "১৯৩১",
+      "label": "২৩ মার্চ: ভগত সিং, রাজগুরু ও সুখদেবের শহীদত্ব — শহীদ দিবসের ভিত্তি",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "sort_year": 1950,
+      "when": "১৯৫০",
+      "label": "২৩ মার্চ: WMO প্রতিষ্ঠা — বিশ্ব আবহাওয়া দিবসের ভিত্তি",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "sort_year": 1993,
+      "when": "১৯৯৩",
+      "label": "এই বছর থেকে প্রতি বছর ২২ মার্চ বিশ্ব জল দিবস পালিত হচ্ছে",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "sort_year": 2014,
+      "when": "২০১৪",
+      "label": "মিশন ইন্দ্রধনুষ চালু (লক্ষ্য: পূর্ণ টিকাদান ৯০%)",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 2023,
+      "when": "২০২৩",
+      "label": "৫২তম জাতীয় সুরক্ষা সপ্তাহ (৪–১০ মার্চ) ও বিশ্ব ভোক্তা অধিকার দিবস (১৫ মার্চ) পালিত",
+      "claims": [
+        "c07",
+        "c12"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "PMBJP",
+      "meaning": "প্রধানমন্ত্রী ভারতীয় জনঔষধি পরিযোজনা — জন ঔষধি কেন্দ্রের মাধ্যমে সাশ্রয়ী দামে জেনেরিক ওষুধ পৌঁছে দেওয়ার প্রকল্প; এর দিবস ৭ মার্চ।",
+      "section": "week2_jan_aushadhi_women"
+    },
+    {
+      "term": "জেনেরিক ওষুধ (Generic medicine)",
+      "meaning": "ব্র্যান্ড-নামের বদলে রাসায়নিক নামে বিক্রিত সমমানের সস্তা ওষুধ; জন ঔষধি কেন্দ্রে এগুলিই পাওয়া যায়।",
+      "section": "week2_jan_aushadhi_women"
+    },
+    {
+      "term": "জাতীয় ভোক্তা হেল্পলাইন (National Consumer Helpline)",
+      "meaning": "ভোক্তা অভিযোগ জানানোর জাতীয় ব্যবস্থা; নম্বর ১৯১৫, মোবাইল অ্যাপও আছে।",
+      "section": "week3_consumer_vaccination"
+    },
+    {
+      "term": "মিশন ইন্দ্রধনুষ (Mission Indradhanush)",
+      "meaning": "২০১৪ সালে চালু টিকাদান মিশন; লক্ষ্য ছিল পূর্ণ টিকাদান কভারেজ দ্রুত ৯০%-এ পৌঁছে দেওয়া।",
+      "section": "week3_consumer_vaccination"
+    },
+    {
+      "term": "WMO",
+      "meaning": "বিশ্ব আবহাওয়া সংস্থা (World Meteorological Organization); প্রতিষ্ঠা ১৯৫০ সালের ২৩ মার্চ — তাই সেদিন বিশ্ব আবহাওয়া দিবস।",
+      "section": "week4_martyrs_tb"
+    },
+    {
+      "term": "SDG 6",
+      "meaning": "টেকসই উন্নয়ন লক্ষ্য ৬ — ২০৩০ সালের মধ্যে সবার জন্য জল ও পয়ঃনিষ্কাশন; বিশ্ব জল দিবসের মূল লক্ষ্যগুলির একটি।",
+      "section": "week4_forests_water"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "WMO প্রতিষ্ঠা → আবহাওয়া দিবস",
+      "causes": [
+        "১৯৫০ সালের ২৩ মার্চ বিশ্ব আবহাওয়া সংস্থা (WMO) প্রতিষ্ঠিত হয়"
+      ],
+      "event": "প্রতি বছর ২৩ মার্চ বিশ্ব আবহাওয়া দিবস পালন",
+      "results": [
+        "আবহাওয়াবিদদের অবদান ও ভূমিকার স্বীকৃতি",
+        "জলবায়ু-কর্ম নিয়ে বার্ষিক থিম ঘোষণা (যেমন ২০২৪: 'At the Frontline of Climate Action')"
+      ],
+      "section": "week4_martyrs_tb",
+      "claims": [
+        "c22",
+        "c23"
+      ]
+    },
+    {
+      "title": "জাতিসংঘের ঘোষণা → জল দিবস",
+      "causes": [
+        "জাতিসংঘের সাধারণ পরিষদ ২২ মার্চকে বিশ্ব জল দিবস হিসেবে ঘোষণা করে"
+      ],
+      "event": "১৯৯৩ সাল থেকে প্রতি বছর ২২ মার্চ বিশ্ব জল দিবস পালন",
+      "results": [
+        "নিরাপদ জল না পাওয়া ২১০ কোটি মানুষ সম্পর্কে সচেতনতা",
+        "SDG 6 (২০৩০-এর মধ্যে সবার জন্য জল ও পয়ঃনিষ্কাশন) অর্জনে জোর"
+      ],
+      "section": "week4_forests_water",
+      "claims": [
+        "c20",
+        "c21"
+      ]
+    },
+    {
+      "title": "শহীদত্ব → শহীদ দিবস",
+      "causes": [
+        "১৯৩১ সালের ২৩ মার্চ ভগত সিং, রাজগুরু ও সুখদেব স্বাধীনতার জন্য প্রাণ দেন"
+      ],
+      "event": "প্রতি বছর ২৩ মার্চ ভারতে শহীদ দিবস পালন",
+      "results": [
+        "সংসদসহ দেশজুড়ে শহীদদের শ্রদ্ধা জানানো হয়",
+        "স্বাধীনতা সংগ্রামের মূল্যবোধ নতুন প্রজন্মের কাছে পৌঁছে যায়"
+      ],
+      "section": "week4_martyrs_tb",
+      "claims": [
+        "c24",
+        "c25"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "জোড়গুলি ক্রমে মুখস্থ করো: ৩–৪ (বন্যপ্রাণী–সুরক্ষা), ৭–৮ (ঔষধি–নারী), ১৫–১৬ (ভোক্তা–টিকা), ২১–২২ (বন–জল), ২৩–২৪ (আবহাওয়া/শহীদ–টিবি)।",
+      "section": "date_traps"
+    },
+    {
+      "point": "বন ২১ বনাম জল ২২ — মার্চের সবচেয়ে সাধারণ ভুল; জল দিবসের সঙ্গে '১৯৯৩ থেকে' ও 'SDG 6' জোড়া।",
+      "section": "week4_forests_water"
+    },
+    {
+      "point": "২৩ মার্চের দুই পালনের বছর আলাদা: শহীদ ১৯৩১, WMO ১৯৫০।",
+      "section": "week4_martyrs_tb"
+    },
+    {
+      "point": "থিম এলে বছর মেলাও: বন্যপ্রাণী ২০২৫, ভোক্তা ২০২৩, বন ২০২২, আবহাওয়া ২০২৪, টিবি ২০২৬।",
+      "section": "date_traps"
+    },
+    {
+      "point": "সংখ্যা-তথ্য: PMBJK ৯৬০০+, ভোক্তা হেল্পলাইন ১৯১৫, মিশন ইন্দ্রধনুষ ২০১৪ ও লক্ষ্য ৯০%, টিবিতে হ্রাস ২১%/২৫% ও কভারেজ ৯২%।",
+      "section": "week3_consumer_vaccination"
+    },
+    {
+      "point": "WBCS প্রিলিমস ২০১৬-তে বিশ্ব ভোক্তা অধিকার দিবসের (১৫ মার্চ) প্রশ্ন সরাসরি এসেছে — এই অধ্যায়ের ধরনই পরীক্ষায় আসে।",
+      "section": "week3_consumer_vaccination"
+    }
+  ],
+  "bengal_connection": {
+    "body": "মার্চের দিবসগুলির সঙ্গে বাংলার সবচেয়ে প্রত্যক্ষ যোগ বন্যপ্রাণী সংরক্ষণে। সুন্দরবন — বাংলার বাঘের আবাস — আন্তঃসীমান্ত সংরক্ষণের বিষয়: PIB-র বন্যপ্রাণী-নথিতে উল্লেখ আছে, ভারত সুন্দরবনে আন্তঃসীমান্ত সংরক্ষণ নিয়ে বাংলাদেশের সঙ্গে দ্বিপাক্ষিক আলোচনা করেছে। তাই ৩ মার্চের বিশ্ব বন্যপ্রাণী দিবস বাংলার ছাত্রের কাছে শুধু মুখস্থের তারিখ নয় — নিজের রাজ্যের সবচেয়ে বিখ্যাত বন্যপ্রাণী-আবাসের সঙ্গেও জড়িত।",
+    "claims": [
+      "c04"
+    ]
+  },
+  "quick_revision": [
+    "৩ মার্চ — বিশ্ব বন্যপ্রাণী দিবস (বন্য প্রাণী ও উদ্ভিদের ভূমিকা; ভারতে পরিচিত প্রজাতির ৭–৮%)",
+    "৪ মার্চ — জাতীয় সুরক্ষা দিবস; জাতীয় সুরক্ষা সপ্তাহ ৪–১০ মার্চ",
+    "৭ মার্চ — জন ঔষধি দিবস (PMBJP; জেনেরিক ওষুধ; ৯৬০০+ কেন্দ্র)",
+    "৮ মার্চ — আন্তর্জাতিক নারী দিবস (ভারতে আয়োজক: MWCD)",
+    "১৫ মার্চ — বিশ্ব ভোক্তা অধিকার দিবস (হেল্পলাইন ১৯১৫)",
+    "১৬ মার্চ — জাতীয় টিকাদান দিবস (মিশন ইন্দ্রধনুষ ২০১৪, লক্ষ্য ৯০%)",
+    "২১ মার্চ — আন্তর্জাতিক বন দিবস (সব ধরনের বন নিয়ে সচেতনতা)",
+    "২২ মার্চ — বিশ্ব জল দিবস (১৯৯৩ সাল থেকে; SDG 6)",
+    "২৩ মার্চ — বিশ্ব আবহাওয়া দিবস (WMO প্রতিষ্ঠা, ১৯৫০)",
+    "২৩ মার্চ — শহীদ দিবস (ভগত সিং, রাজগুরু, সুখদেব; ১৯৩১)",
+    "২৪ মার্চ — বিশ্ব যক্ষ্মা দিবস (ভারতে টিবি-আক্রান্ত ↓২১%, মৃত্যু ↓২৫%, কভারেজ ৯২%)",
+    "থিম সবসময় বছরসহ: বন্যপ্রাণী ২০২৫, বন ২০২২, ভোক্তা ২০২৩, আবহাওয়া ২০২৪, টিবি ২০২৬"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "World Wildlife Day 2025 — PIB Backgrounder (MoEFCC)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2107821&reg=3&lang=1",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "English rendering of PM's Mann Ki Baat address, Episode 41 (25 February 2018) — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1521626&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "52nd National Safety Week Celebration at CVRDE, Avadi — PIB Chennai",
+      "publisher": "GOVT",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1905350",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Promotion of generic medicines — Lok Sabha reply (Jan Aushadhi Diwas, 7 March) — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1943658&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Government of India celebrating International Women's Day (8 March 2026), MWCD — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2236240&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "World Consumer Rights Day 2023 — Department of Consumer Affairs — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1906882&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "National Vaccination Day (March 16): Mission Indradhanush — PIB Explainer (MoHFW)",
+      "publisher": "GOVT",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/mar/doc2023316172401.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "MoEFCC celebrates International Day of Forest (21 March 2022) — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1807877&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "World Water Day Conclave 2026, Ministry of Jal Shakti — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243293&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "World Meteorological Day celebrations (23 March), Indian Navy METOC seminar — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2016642&ui=2&tf=1&pli=1&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "Vice President pays tribute on Shaheed Diwas (23 March 2023), Rajya Sabha — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1909918&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s12",
+      "title": "World TB Day 2026 commemoration, Ministry of Health and Family Welfare — PIB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2244703&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "World Wildlife Day is celebrated every year on 3 March to honour the role of wild animals and plants.",
+      "source": "s1",
+      "page": "Introduction",
+      "quote": "Every year on March 3rd, the world celebrates United Nations World Wildlife Day (WWD) to honour the vital role of wild animals and plants in our lives and the planet’s health."
+    },
+    {
+      "id": "c02",
+      "claim": "The theme of World Wildlife Day 2025 was 'Wildlife Conservation Finance: Investing in People and Planet'.",
+      "source": "s1",
+      "page": "Introduction",
+      "quote": "The theme for WWD 2025 is “Wildlife Conservation Finance: Investing in People and Planet.”"
+    },
+    {
+      "id": "c03",
+      "claim": "India covers only 2.4% of Earth's land but is home to 7-8% of all known species.",
+      "source": "s1",
+      "page": "Introduction",
+      "quote": "India is one of the most biodiverse countries in the world, even though it covers only 2.4% of the Earth's land. It is home to 7-8% of all known species"
+    },
+    {
+      "id": "c04",
+      "claim": "India and Bangladesh held bilateral discussions for transboundary conservation in the Sundarbans.",
+      "source": "s1",
+      "page": "Section 2.2, Project Tiger",
+      "quote": "India signed MoUs with Cambodia for tiger reintroduction and held bilateral discussions with Bangladesh for transboundary conservation in the Sundarbans."
+    },
+    {
+      "id": "c05",
+      "claim": "4 March is National Safety Day, referred to in the PM's Mann Ki Baat in the context of occupational safety awareness.",
+      "source": "s2",
+      "page": "Mann Ki Baat Ep. 41 transcript",
+      "quote": "Since the 4th of March is National Safety Day, the Prime Minister should include safety in the Mann Ki Baat programme in order to raise awareness on safety."
+    },
+    {
+      "id": "c06",
+      "claim": "Safety is of two kinds: safety during disasters and safety in everyday life.",
+      "source": "s2",
+      "page": "Mann Ki Baat Ep. 41 transcript",
+      "quote": "Safety is of two kinds – one is safety during disasters and the other is safety in everyday life."
+    },
+    {
+      "id": "c07",
+      "claim": "The 52nd National Safety Week was celebrated from 4 to 10 March 2023.",
+      "source": "s3",
+      "page": "Full release",
+      "quote": "52nd National Safety Week Celebration from 04-10 of March 2023 was held at Combat Vehicle Research and Development Establishment (CVRDE), Avadi to promote the awareness of safety precautions among the CVRDE employees."
+    },
+    {
+      "id": "c08",
+      "claim": "Jan Aushadhi Diwas is celebrated every year on 7 March to spread awareness about the Jan Aushadhi scheme.",
+      "source": "s4",
+      "page": "Lok Sabha reply",
+      "quote": "Further, Jan Aushadhi Diwas is celebrated every year on 7 March for further dissemination and spreading awareness about the Scheme."
+    },
+    {
+      "id": "c09",
+      "claim": "More than 9600 Pradhan Mantri Bhartiya Janaushadhi Kendras were set up covering all districts to promote generic medicines at affordable prices.",
+      "source": "s4",
+      "page": "Lok Sabha reply",
+      "quote": "In order to promote generic medicines at affordable prices to all, more than 9600 Pradhan Mantri Bhartiya Janaushadhi Kendras (PMBJK) have been set up covering all districts of the country."
+    },
+    {
+      "id": "c10",
+      "claim": "International Women's Day is observed globally on 8 March and celebrates women's achievements while reaffirming commitment to gender equality, safety, dignity and empowerment.",
+      "source": "s5",
+      "page": "Full release",
+      "quote": "International Women’s Day, observed globally on 8 March, celebrates the achievements and contributions of women across diverse fields and reaffirms the collective commitment towards gender equality, safety, dignity, and empowerment of women."
+    },
+    {
+      "id": "c11",
+      "claim": "In India the Ministry of Women and Child Development (MWCD) organises the national-level celebration of International Women's Day.",
+      "source": "s5",
+      "page": "Full release",
+      "quote": "The Government of India is celebrating International Women’s Day tomorrow (8th March 2026). The Ministry of Women and Child Development (MWCD) will organise a national-level celebration at the Manekshaw Centre in New Delhi"
+    },
+    {
+      "id": "c12",
+      "claim": "The Department of Consumer Affairs celebrated World Consumer Rights Day 2023 on 15 March 2023.",
+      "source": "s6",
+      "page": "Full release",
+      "quote": "The Department of Consumer Affairs will be celebrating World Consumer Rights Day, 2023 on Wednesday, 15th March 2023."
+    },
+    {
+      "id": "c13",
+      "claim": "The theme of World Consumer Rights Day 2023 was 'Empowering consumers through clean energy transitions'.",
+      "source": "s6",
+      "page": "Full release",
+      "quote": "the theme of the World Consumer Rights Day, 2023 is “Empowering consumers through clean energy transitions”"
+    },
+    {
+      "id": "c14",
+      "claim": "Consumers can register grievances on the National Consumer Helpline by calling 1915.",
+      "source": "s6",
+      "page": "Full release",
+      "quote": "consumers can easily register their grievances by calling ‘1915’ or through the mobile app"
+    },
+    {
+      "id": "c15",
+      "claim": "National Vaccination Day falls on 16 March (PIB explainer title).",
+      "source": "s7",
+      "page": "Title page",
+      "quote": "National Vaccination Day (March 16) Mission Indradhanush: Ensuring Full Immunization coverage to Children & Women"
+    },
+    {
+      "id": "c16",
+      "claim": "Mission Indradhanush was launched in 2014 to rapidly increase full immunization coverage to 90%.",
+      "source": "s7",
+      "page": "p. 1",
+      "quote": "Mission Indradhanush was launched in 2014 to rapidly increase the full immunization coverage to 90%."
+    },
+    {
+      "id": "c17",
+      "claim": "The Ministry of Environment, Forest and Climate Change celebrated the International Day of Forest on 21 March 2022 at the National Zoological Park, New Delhi, to raise awareness about all types of forests.",
+      "source": "s8",
+      "page": "Full release",
+      "quote": "Ministry of Environment Forest and Climate Change, New Delhi, celebrated International Day of Forest today at National Zoological Park, New Delhi"
+    },
+    {
+      "id": "c18",
+      "claim": "The theme of the International Day of Forests 2022 was 'Forest and sustainable production and consumption'.",
+      "source": "s8",
+      "page": "Full release",
+      "quote": "The theme of this year is “Forest and sustainable production and consumption”."
+    },
+    {
+      "id": "c19",
+      "claim": "World Water Day is observed globally on 22 March.",
+      "source": "s9",
+      "page": "Full release",
+      "quote": "Observed globally on 22 March, World Water Day serves as a reminder of the critical importance of freshwater and the urgent need for sustainable water management."
+    },
+    {
+      "id": "c20",
+      "claim": "The UN General Assembly designated 22 March as World Water Day, observed annually since 1993.",
+      "source": "s9",
+      "page": "Full release",
+      "quote": "Subsequently, the United Nations General Assembly designated 22 March as World Water Day, observed annually since 1993 to raise awareness about the 2.1 billion people living without access to safe water."
+    },
+    {
+      "id": "c21",
+      "claim": "A core focus of World Water Day is to support SDG 6: water and sanitation for all by 2030.",
+      "source": "s9",
+      "page": "Full release",
+      "quote": "A core focus of the Day is to support the achievement of Sustainable Development Goal 6: ensuring water and sanitation for all by 2030."
+    },
+    {
+      "id": "c22",
+      "claim": "World Meteorological Day is commemorated every year on 23 March; it marks the origin of the WMO on 23 March 1950.",
+      "source": "s10",
+      "page": "Full release",
+      "quote": "The World Meteorological Day is commemorated every year on 23rd March. It marks the origin of World Meteorological Organization (WMO) on 23 Mar 1950"
+    },
+    {
+      "id": "c23",
+      "claim": "The WMO theme for World Meteorological Day 2024 was 'At the Frontline of Climate Action'.",
+      "source": "s10",
+      "page": "Full release",
+      "quote": "The seminar was based on the theme 'At the Frontline of Climate Action' as promulgated by WMO for the year 2024."
+    },
+    {
+      "id": "c24",
+      "claim": "On Shaheed Diwas (23 March) India pays tribute to Bhagat Singh, Rajguru and Sukhdev, who laid down their lives on this day in 1931.",
+      "source": "s11",
+      "page": "Full release",
+      "quote": "today is the 92nd anniversary of the martyrdom of three greatest sons of Bharat- Sardar Bhagat Singh, Rajguru and Sukhdev. These legendary heroes of our freedom struggle laid down their lives for India’s independence, for our freedom, on this day in the year 1931."
+    },
+    {
+      "id": "c25",
+      "claim": "The Vice President paid tribute to Bhagat Singh, Sukhdev and Rajguru on the occasion of Shaheed Diwas in the Rajya Sabha (23 March 2023).",
+      "source": "s11",
+      "page": "Full release",
+      "quote": "The Hon’ble Vice President and Chairman, Rajya Sabha, Shri Jagdeep Dhankhar paid tribute to Sardar Bhagat Singh, Sukhdev and Rajguru on the occasion of Shaheed Diwas, during his address in the Rajya Sabha today."
+    },
+    {
+      "id": "c26",
+      "claim": "World TB Day is observed annually on 24 March.",
+      "source": "s12",
+      "page": "Full release",
+      "quote": "Observed annually on 24th March, World TB Day serves as a global call to action to accelerate efforts to end tuberculosis, one of the world’s deadliest infectious diseases."
+    },
+    {
+      "id": "c27",
+      "claim": "The theme of World TB Day 2026 was 'Yes! We Can End TB!'.",
+      "source": "s12",
+      "page": "Full release",
+      "quote": "The theme for this year, “Yes! We Can End TB!”, reflects renewed optimism, collective resolve, and intensified action at all levels to achieve a TB-free world"
+    },
+    {
+      "id": "c28",
+      "claim": "India has achieved a 21% reduction in TB incidence and a 25% decline in TB mortality over the past decade, with treatment coverage reaching 92%.",
+      "source": "s12",
+      "page": "Full release",
+      "quote": "India has achieved a 21% reduction in TB incidence and a 25% decline in TB mortality over the past decade—both outpacing global averages. Treatment coverage has reached 92%"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "week1_wildlife_safety",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব বন্যপ্রাণী দিবস প্রতি বছর কোন তারিখে পালিত হয়?",
+      "a": "৩ মার্চ",
+      "w": [
+        "৪ মার্চ",
+        "২১ মার্চ",
+        "২২ মার্চ"
+      ],
+      "e": "প্রতি বছর ৩ মার্চ জাতিসংঘের বিশ্ব বন্যপ্রাণী দিবস পালিত হয়। ৪ মার্চ জাতীয় সুরক্ষা দিবস, ২১ মার্চ বন দিবস ও ২২ মার্চ জল দিবস।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "week1_wildlife_safety",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় সুরক্ষা দিবস কোন তারিখে পালিত হয়?",
+      "a": "৪ মার্চ",
+      "w": [
+        "৩ মার্চ",
+        "৭ মার্চ",
+        "১৫ মার্চ"
+      ],
+      "e": "৪ মার্চ জাতীয় সুরক্ষা দিবস — 'মন কি বাত' অনুষ্ঠানে পেশাগত সুরক্ষা-সচেতনতার প্রসঙ্গে এই তারিখের উল্লেখ আছে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "week1_wildlife_safety",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব বন্যপ্রাণী দিবস পালনের মূল উদ্দেশ্য কোনটি?",
+      "a": "বন্য প্রাণী ও উদ্ভিদের গুরুত্বপূর্ণ ভূমিকাকে সম্মান জানানো এবং জীববৈচিত্র্য রক্ষার প্রয়োজন মনে করিয়ে দেওয়া",
+      "w": [
+        "শুধু চিড়িয়াখানা পরিদর্শনে উৎসাহ দেওয়া",
+        "বন্যপ্রাণী-জাত পণ্যের বাণিজ্য বাড়ানো",
+        "শিকার-ক্রীড়া প্রচার করা"
+      ],
+      "e": "PIB-র বর্ণনা অনুযায়ী দিবসটি বন্য প্রাণী ও উদ্ভিদের ভূমিকাকে সম্মান জানায় এবং ভবিষ্যৎ প্রজন্মের জন্য জীববৈচিত্র্য রক্ষার কথা মনে করিয়ে দেয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "week1_wildlife_safety",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারত পৃথিবীর মাত্র ২.৪% ভূখণ্ড জুড়ে থাকলেও পরিচিত প্রজাতির কত অংশের বাস এখানে?",
+      "a": "৭–৮%",
+      "w": [
+        "২–৩%",
+        "১৫–১৬%",
+        "২৫%"
+      ],
+      "e": "PIB অনুযায়ী ভারত ভূখণ্ডে ২.৪% হলেও পরিচিত সব প্রজাতির ৭–৮% এখানে পাওয়া যায় — তাই বন্যপ্রাণী দিবস ভারতের জন্য বিশেষ গুরুত্বপূর্ণ।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "week1_wildlife_safety",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৫ সালের বিশ্ব বন্যপ্রাণী দিবসের থিম কোনটি ছিল?",
+      "a": "Wildlife Conservation Finance: Investing in People and Planet",
+      "w": [
+        "Forest and sustainable production and consumption",
+        "Empowering consumers through clean energy transitions",
+        "At the Frontline of Climate Action"
+      ],
+      "e": "২০২৫-এর বন্যপ্রাণী দিবসের থিম ছিল 'Wildlife Conservation Finance: Investing in People and Planet'। বাকিগুলি যথাক্রমে বন দিবস ২০২২, ভোক্তা দিবস ২০২৩ ও আবহাওয়া দিবস ২০২৪-এর থিম — থিম সবসময় বছর ধরে যাচাই করতে হয়।",
+      "claims": [
+        "c02",
+        "c18",
+        "c13",
+        "c23"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "week1_wildlife_safety",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "জাতীয় সুরক্ষা দিবস সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. দিবসটি ৪ মার্চ পালিত হয়।\n২. সুরক্ষা দুই প্রকার — দুর্যোগের সময়ের সুরক্ষা এবং দৈনন্দিন জীবনের সুরক্ষা।\n৩. জাতীয় সুরক্ষা সপ্তাহ শুরু হয় ৪ মার্চ থেকে।\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১, ২ ও ৩ সবকটি",
+      "w": [
+        "শুধু ১",
+        "শুধু ১ ও ৩",
+        "শুধু ২ ও ৩"
+      ],
+      "e": "তিনটিই সঠিক: দিবস ৪ মার্চ; 'মন কি বাত'-এ সুরক্ষাকে দুর্যোগকালীন ও দৈনন্দিন — এই দুই ভাগে ভাগ করা হয়েছে; আর সুরক্ষা সপ্তাহ (যেমন ২০২৩-এ ৪–১০ মার্চ) ৪ মার্চ থেকেই শুরু হয়।",
+      "claims": [
+        "c05",
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "week1_wildlife_safety",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "a": "বিশ্ব বন্যপ্রাণী দিবস – ৩ মার্চ",
+      "w": [
+        "জাতীয় সুরক্ষা দিবস – ৩ মার্চ",
+        "বিশ্ব বন্যপ্রাণী দিবস – ৪ মার্চ",
+        "জাতীয় সুরক্ষা সপ্তাহের শুরু – ৭ মার্চ"
+      ],
+      "e": "বন্যপ্রাণী দিবস ৩ মার্চ এবং সুরক্ষা দিবস ৪ মার্চ — পরপর দুই দিন। সুরক্ষা সপ্তাহও ৪ মার্চ থেকে শুরু হয়, ৭ মার্চ থেকে নয়।",
+      "claims": [
+        "c01",
+        "c05",
+        "c07"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "week2_jan_aushadhi_women",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জন ঔষধি দিবস প্রতি বছর কোন তারিখে পালিত হয়?",
+      "a": "৭ মার্চ",
+      "w": [
+        "৮ মার্চ",
+        "৪ মার্চ",
+        "১৬ মার্চ"
+      ],
+      "e": "প্রধানমন্ত্রী ভারতীয় জনঔষধি পরিযোজনা (PMBJP) সম্পর্কে সচেতনতা ছড়াতে প্রতি বছর ৭ মার্চ জন ঔষধি দিবস পালিত হয়।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "week2_jan_aushadhi_women",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক নারী দিবস বিশ্বজুড়ে কোন তারিখে পালিত হয়?",
+      "a": "৮ মার্চ",
+      "w": [
+        "৭ মার্চ",
+        "১৫ মার্চ",
+        "২৪ মার্চ"
+      ],
+      "e": "আন্তর্জাতিক নারী দিবস বিশ্বজুড়ে ৮ মার্চ পালিত হয় — জন ঔষধি দিবসের (৭ মার্চ) ঠিক পরদিন।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "week2_jan_aushadhi_women",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জন ঔষধি দিবস কোন বিষয়ে সচেতনতা ছড়ানোর জন্য পালিত হয়?",
+      "a": "সাশ্রয়ী দামে জেনেরিক ওষুধ ও জন ঔষধি প্রকল্প সম্পর্কে",
+      "w": [
+        "টিকাদানের প্রয়োজনীয়তা সম্পর্কে",
+        "ভোক্তা অধিকার সম্পর্কে",
+        "জল সংরক্ষণ সম্পর্কে"
+      ],
+      "e": "জন ঔষধি দিবস PMBJP প্রকল্পের প্রচারের দিন — এই প্রকল্পে জন ঔষধি কেন্দ্রের মাধ্যমে সাশ্রয়ী দামে জেনেরিক ওষুধ পৌঁছে দেওয়া হয়।",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "week2_jan_aushadhi_women",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতে আন্তর্জাতিক নারী দিবসের জাতীয় পর্যায়ের অনুষ্ঠান কোন মন্ত্রক আয়োজন করে?",
+      "a": "নারী ও শিশু উন্নয়ন মন্ত্রক (MWCD)",
+      "w": [
+        "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রক",
+        "জল শক্তি মন্ত্রক",
+        "পরিবেশ, বন ও জলবায়ু পরিবর্তন মন্ত্রক"
+      ],
+      "e": "PIB অনুযায়ী ভারত সরকারের পক্ষে MWCD আন্তর্জাতিক নারী দিবসের জাতীয় পর্যায়ের অনুষ্ঠান আয়োজন করে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "week2_jan_aushadhi_women",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক নারী দিবসের পালনের মধ্যে কোন অঙ্গীকারটি অন্তর্ভুক্ত?",
+      "a": "লিঙ্গসমতা, সুরক্ষা, মর্যাদা ও নারী-ক্ষমতায়নের প্রতি অঙ্গীকার",
+      "w": [
+        "শুধু অর্থনৈতিক প্রবৃদ্ধির অঙ্গীকার",
+        "শুধু শিক্ষা-বিস্তারের অঙ্গীকার",
+        "শুধু স্বাস্থ্য-বিমার অঙ্গীকার"
+      ],
+      "e": "দিবসটিতে নারীদের কৃতিত্ব উদ্‌যাপনের পাশাপাশি লিঙ্গসমতা, সুরক্ষা, মর্যাদা ও ক্ষমতায়নের প্রতি সম্মিলিত অঙ্গীকার পুনর্ব্যক্ত করা হয়।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "week2_jan_aushadhi_women",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্রধানমন্ত্রী ভারতীয় জনঔষধি কেন্দ্র (PMBJK) সম্পর্কে সঠিক তথ্য কোনটি?",
+      "a": "সাশ্রয়ী দামে জেনেরিক ওষুধ পৌঁছে দিতে দেশের সব জেলায় ৯৬০০-র বেশি কেন্দ্র গড়ে তোলা হয়েছে",
+      "w": [
+        "কেন্দ্রগুলি শুধু মহানগরগুলিতে সীমাবদ্ধ",
+        "কেন্দ্রগুলিতে শুধু ব্র্যান্ডেড ওষুধ বিক্রি হয়",
+        "কেন্দ্রের সংখ্যা ৯৬০০-র কম এবং সব জেলায় পৌঁছায়নি"
+      ],
+      "e": "সরকারি উত্তরে বলা হয়েছে, সাশ্রয়ী দামে জেনেরিক ওষুধ পৌঁছে দিতে সব জেলা জুড়ে ৯৬০০-র বেশি PMBJK স্থাপন করা হয়েছে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "week2_jan_aushadhi_women",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "নিচের দিবসগুলিকে মার্চ মাসের তারিখের ক্রমে সাজাও:\n১. আন্তর্জাতিক নারী দিবস\n২. বিশ্ব বন্যপ্রাণী দিবস\n৩. জন ঔষধি দিবস\n৪. জাতীয় সুরক্ষা দিবস",
+      "a": "২, ৪, ৩, ১",
+      "w": [
+        "২, ৩, ৪, ১",
+        "৪, ২, ১, ৩",
+        "৩, ২, ৪, ১"
+      ],
+      "e": "ক্রম: বন্যপ্রাণী দিবস ৩ মার্চ → সুরক্ষা দিবস ৪ মার্চ → জন ঔষধি দিবস ৭ মার্চ → নারী দিবস ৮ মার্চ। অর্থাৎ ২, ৪, ৩, ১।",
+      "claims": [
+        "c01",
+        "c05",
+        "c08",
+        "c10"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "week3_consumer_vaccination",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব ভোক্তা অধিকার দিবস কোন তারিখে পালিত হয়?",
+      "a": "১৫ মার্চ",
+      "w": [
+        "১৬ মার্চ",
+        "২৪ ডিসেম্বর",
+        "১৫ এপ্রিল"
+      ],
+      "e": "ভোক্তা বিষয়ক বিভাগ প্রতি বছর ১৫ মার্চ বিশ্ব ভোক্তা অধিকার দিবস পালন করে — WBCS প্রিলিমস ২০১৬-তেও এই প্রশ্নটিই এসেছিল।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "week3_consumer_vaccination",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় টিকাদান দিবস কোন তারিখে পালিত হয়?",
+      "a": "১৬ মার্চ",
+      "w": [
+        "১৫ মার্চ",
+        "৭ মার্চ",
+        "২৪ মার্চ"
+      ],
+      "e": "স্বাস্থ্য মন্ত্রকের PIB নথির শিরোনামেই দিনটি চিহ্নিত: 'National Vaccination Day (March 16)'।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "week3_consumer_vaccination",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় ভোক্তা হেল্পলাইনে অভিযোগ জানানোর নম্বর কোনটি?",
+      "a": "১৯১৫",
+      "w": [
+        "১০০",
+        "১১২",
+        "১৮০০"
+      ],
+      "e": "ভোক্তারা জাতীয় ভোক্তা হেল্পলাইনে ১৯১৫ নম্বরে ফোন করে বা মোবাইল অ্যাপের মাধ্যমে অভিযোগ জানাতে পারেন।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "week3_consumer_vaccination",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মিশন ইন্দ্রধনুষ কোন সালে চালু হয়?",
+      "a": "২০১৪ সালে",
+      "w": [
+        "১৯৯৩ সালে",
+        "২০২৩ সালে",
+        "১৯৫০ সালে"
+      ],
+      "e": "পূর্ণ টিকাদানের হার দ্রুত বাড়াতে ২০১৪ সালে মিশন ইন্দ্রধনুষ চালু হয়। ১৯৯৩ হল জল দিবস পালন শুরুর বছর, ১৯৫০ WMO প্রতিষ্ঠার বছর।",
+      "claims": [
+        "c16",
+        "c20",
+        "c22"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "week3_consumer_vaccination",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মিশন ইন্দ্রধনুষের লক্ষ্য ছিল পূর্ণ টিকাদানের হার কত শতাংশে পৌঁছে দেওয়া?",
+      "a": "৯০%",
+      "w": [
+        "৫০%",
+        "৭৫%",
+        "১০০%"
+      ],
+      "e": "PIB নথি অনুযায়ী মিশন ইন্দ্রধনুষের লক্ষ্য ছিল পূর্ণ টিকাদান কভারেজ দ্রুত ৯০%-এ নিয়ে যাওয়া।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "week3_consumer_vaccination",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৩ সালের বিশ্ব ভোক্তা অধিকার দিবসের থিম কোনটি ছিল?",
+      "a": "Empowering consumers through clean energy transitions",
+      "w": [
+        "Trusted Smart Products",
+        "Water and Gender",
+        "Yes! We Can End TB!"
+      ],
+      "e": "ভোক্তা বিষয়ক বিভাগের ঘোষণা অনুযায়ী ২০২৩-এর থিম ছিল 'Empowering consumers through clean energy transitions'। শেষ বিকল্পটি টিবি দিবস ২০২৬-এর থিম।",
+      "claims": [
+        "c13",
+        "c27"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "week3_consumer_vaccination",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): বিশ্ব ভোক্তা অধিকার দিবস ১৫ মার্চ পালিত হয়।\nকারণ (R): ভোক্তা বিষয়ক বিভাগ ২০২৩ সালে এই দিবসটি ১৫ মার্চ পালন করেছিল।\nসঠিক বিকল্প বেছে নাও:",
+      "a": "A ও R দুটোই সত্য এবং R, A-র সঠিক সমর্থন",
+      "w": [
+        "A সত্য কিন্তু R মিথ্যা",
+        "A মিথ্যা কিন্তু R সত্য",
+        "A ও R দুটোই মিথ্যা"
+      ],
+      "e": "দুটোই সত্য: দিবসটি ১৫ মার্চের, এবং বিভাগের নিজের ঘোষণাতেই ২০২৩ সালের পালন ১৫ মার্চ বুধবারে হয়েছিল — এটিই A-কে সমর্থন করে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "week4_forests_water",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক বন দিবস কোন তারিখে পালিত হয়?",
+      "a": "২১ মার্চ",
+      "w": [
+        "২২ মার্চ",
+        "৫ জুন",
+        "৩ মার্চ"
+      ],
+      "e": "বন দিবস ২১ মার্চ — জল দিবসের (২২ মার্চ) ঠিক আগের দিন।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "week4_forests_water",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব জল দিবস কোন তারিখে পালিত হয়?",
+      "a": "২২ মার্চ",
+      "w": [
+        "২১ মার্চ",
+        "২৩ মার্চ",
+        "২৪ মার্চ"
+      ],
+      "e": "বিশ্বজুড়ে বিশ্ব জল দিবস পালিত হয় ২২ মার্চ।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "week4_forests_water",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব জল দিবস কত সাল থেকে প্রতি বছর পালিত হচ্ছে?",
+      "a": "১৯৯৩ সাল থেকে",
+      "w": [
+        "১৯৫০ সাল থেকে",
+        "২০১৪ সাল থেকে",
+        "২০২৩ সাল থেকে"
+      ],
+      "e": "জাতিসংঘের সাধারণ পরিষদ ২২ মার্চকে বিশ্ব জল দিবস ঘোষণা করার পর ১৯৯৩ সাল থেকে দিনটি প্রতি বছর পালিত হচ্ছে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "week4_forests_water",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব জল দিবসের সঙ্গে যুক্ত টেকসই উন্নয়ন লক্ষ্য (SDG) কোনটি?",
+      "a": "SDG 6 — সবার জন্য জল ও পয়ঃনিষ্কাশন",
+      "w": [
+        "SDG 3 — সুস্বাস্থ্য",
+        "SDG 5 — লিঙ্গসমতা",
+        "SDG 13 — জলবায়ু কর্ম"
+      ],
+      "e": "PIB অনুযায়ী দিবসটির মূল লক্ষ্যের একটি হল SDG 6 সমর্থন করা — ২০৩০ সালের মধ্যে সবার জন্য জল ও পয়ঃনিষ্কাশন নিশ্চিত করা।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "week4_forests_water",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক বন দিবস পালনের উদ্দেশ্য কোনটি?",
+      "a": "সব ধরনের বন সম্পর্কে মানুষের মধ্যে সচেতনতা বাড়ানো",
+      "w": [
+        "বনজ পণ্যের রপ্তানি বাড়ানো",
+        "বনভূমি শিল্পে রূপান্তর করা",
+        "শুধু চিড়িয়াখানার প্রাণীদের খাওয়ানো"
+      ],
+      "e": "MoEFCC এই দিবস পালন করে সব ধরনের বন সম্পর্কে সচেতনতা বাড়াতে — যেমন ২০২২ সালে জাতীয় প্রাণিবিজ্ঞান উদ্যানে বৃক্ষরোপণের মাধ্যমে দিনটি পালিত হয়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "week4_forests_water",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২২ সালের আন্তর্জাতিক বন দিবসের থিম কোনটি ছিল?",
+      "a": "Forest and sustainable production and consumption",
+      "w": [
+        "Wildlife Conservation Finance: Investing in People and Planet",
+        "At the Frontline of Climate Action",
+        "Empowering consumers through clean energy transitions"
+      ],
+      "e": "২০২২-এর বন দিবসের থিম ছিল 'Forest and sustainable production and consumption'। বাকিগুলি বন্যপ্রাণী (২০২৫), আবহাওয়া (২০২৪) ও ভোক্তা (২০২৩) দিবসের থিম।",
+      "claims": [
+        "c18",
+        "c02",
+        "c23",
+        "c13"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "week4_forests_water",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক জোড় মেলাও:\n(ক) আন্তর্জাতিক বন দিবস — (i) ২২ মার্চ\n(খ) বিশ্ব জল দিবস — (ii) ২১ মার্চ\n(গ) বিশ্ব বন্যপ্রাণী দিবস — (iii) ৩ মার্চ\nকোন বিকল্পটি সব জোড় সঠিকভাবে মেলায়?",
+      "a": "ক–(ii), খ–(i), গ–(iii)",
+      "w": [
+        "ক–(i), খ–(ii), গ–(iii)",
+        "ক–(ii), খ–(iii), গ–(i)",
+        "ক–(iii), খ–(i), গ–(ii)"
+      ],
+      "e": "বন দিবস ২১ মার্চ, জল দিবস ২২ মার্চ, বন্যপ্রাণী দিবস ৩ মার্চ — অর্থাৎ ক–(ii), খ–(i), গ–(iii)।",
+      "claims": [
+        "c17",
+        "c19",
+        "c01"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "week4_martyrs_tb",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে শহীদ দিবস (ভগত সিং, রাজগুরু ও সুখদেবের স্মৃতিতে) কোন তারিখে পালিত হয়?",
+      "a": "২৩ মার্চ",
+      "w": [
+        "২২ মার্চ",
+        "২৪ মার্চ",
+        "৩০ জানুয়ারি"
+      ],
+      "e": "১৯৩১ সালের ২৩ মার্চ তিন বিপ্লবী শহীদ হন — সেই দিনটিই শহীদ দিবস হিসেবে পালিত হয়।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "week4_martyrs_tb",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব যক্ষ্মা (টিবি) দিবস কোন তারিখে পালিত হয়?",
+      "a": "২৪ মার্চ",
+      "w": [
+        "২৩ মার্চ",
+        "২১ মার্চ",
+        "১৫ মার্চ"
+      ],
+      "e": "বিশ্ব টিবি দিবস প্রতি বছর ২৪ মার্চ পালিত হয় — শহীদ দিবসের পরদিন।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "week4_martyrs_tb",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব আবহাওয়া দিবস ২৩ মার্চ পালিত হওয়ার কারণ কোনটি?",
+      "a": "১৯৫০ সালের এই দিনে বিশ্ব আবহাওয়া সংস্থা (WMO) প্রতিষ্ঠিত হয়",
+      "w": [
+        "এই দিনে প্রথম আবহাওয়া-উপগ্রহ উৎক্ষেপণ হয়",
+        "এই দিনে ভারতীয় আবহাওয়া বিভাগ প্রতিষ্ঠিত হয়",
+        "এই দিনে প্রথম ঘূর্ণিঝড়ের নামকরণ হয়"
+      ],
+      "e": "PIB অনুযায়ী দিবসটি WMO-র উৎপত্তির স্মারক — সংস্থাটি প্রতিষ্ঠিত হয় ১৯৫০ সালের ২৩ মার্চ।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "week4_martyrs_tb",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভগত সিং, রাজগুরু ও সুখদেব কোন সালে শহীদ হন?",
+      "a": "১৯৩১ সালে",
+      "w": [
+        "১৯৫০ সালে",
+        "১৯৪৭ সালে",
+        "১৯১৯ সালে"
+      ],
+      "e": "২০২৩ সালে তাঁদের শহীদত্বের ৯২তম বার্ষিকী পালিত হয় — ২০২৩ − ৯২ = ১৯৩১। ১৯৫০ হল WMO প্রতিষ্ঠার বছর, যা একই তারিখের অন্য পালনের সঙ্গে যুক্ত।",
+      "claims": [
+        "c24",
+        "c22"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "week4_martyrs_tb",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "গত এক দশকে ভারতে টিবি-আক্রান্তের হার ও মৃত্যুহারের হ্রাস সম্পর্কে সঠিক তথ্য কোনটি?",
+      "a": "আক্রান্তের হার ২১% কমেছে, মৃত্যুহার ২৫% কমেছে, চিকিৎসা-কভারেজ ৯২%",
+      "w": [
+        "আক্রান্তের হার ৫০% কমেছে, মৃত্যুহার ১০% কমেছে",
+        "আক্রান্তের হার ২১% বেড়েছে, মৃত্যুহার অপরিবর্তিত",
+        "চিকিৎসা-কভারেজ মাত্র ৫০%"
+      ],
+      "e": "স্বাস্থ্য মন্ত্রকের তথ্য অনুযায়ী গত দশকে টিবি-আক্রান্তের হার কমেছে ২১%, মৃত্যুহার ২৫%, আর চিকিৎসা-কভারেজ পৌঁছেছে ৯২%-এ।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "week4_martyrs_tb",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৬ সালের বিশ্ব যক্ষ্মা দিবসের থিম কোনটি ছিল?",
+      "a": "Yes! We Can End TB!",
+      "w": [
+        "At the Frontline of Climate Action",
+        "Empowering consumers through clean energy transitions",
+        "Forest and sustainable production and consumption"
+      ],
+      "e": "২০২৬-এর টিবি দিবসের থিম ছিল 'Yes! We Can End TB!'। প্রথম বিকল্পটি আবহাওয়া দিবস ২০২৪-এর থিম।",
+      "claims": [
+        "c27",
+        "c23"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "week4_martyrs_tb",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "২৩ মার্চ সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. এই দিনে বিশ্ব আবহাওয়া দিবস পালিত হয়।\n২. এই দিনে ভারতে ভগত সিং, রাজগুরু ও সুখদেবের স্মৃতিতে শহীদ দিবস পালিত হয়।\n৩. এই দিনে বিশ্ব জল দিবস পালিত হয়।\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "শুধু ১ ও ২",
+      "w": [
+        "শুধু ২ ও ৩",
+        "১, ২ ও ৩ সবকটি",
+        "শুধু ১"
+      ],
+      "e": "১ ও ২ সঠিক — ২৩ মার্চে আবহাওয়া দিবস ও শহীদ দিবস দুটোই পড়ে। ৩ ভুল, কারণ জল দিবস ২২ মার্চ।",
+      "claims": [
+        "c22",
+        "c24",
+        "c19"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "date_traps",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোন দিবসটি এই অধ্যায়ের মার্চ-তালিকায় নেই?",
+      "a": "বিশ্ব পরিবেশ দিবস (৫ জুন)",
+      "w": [
+        "বিশ্ব জল দিবস",
+        "আন্তর্জাতিক বন দিবস",
+        "বিশ্ব যক্ষ্মা দিবস"
+      ],
+      "e": "জল (২২ মার্চ), বন (২১ মার্চ) ও যক্ষ্মা (২৪ মার্চ) দিবস মার্চের যাচাই করা তালিকায় আছে; বিশ্ব পরিবেশ দিবস জুন মাসের দিবস, এই অধ্যায়ে শেখানো হয়নি।",
+      "claims": [
+        "c19",
+        "c17",
+        "c26"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "date_traps",
+      "level": "moderate",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি ভুলভাবে মিলেছে?",
+      "a": "বিশ্ব জল দিবস – ২১ মার্চ",
+      "w": [
+        "আন্তর্জাতিক বন দিবস – ২১ মার্চ",
+        "বিশ্ব আবহাওয়া দিবস – ২৩ মার্চ",
+        "বিশ্ব যক্ষ্মা দিবস – ২৪ মার্চ"
+      ],
+      "e": "জল দিবস ২২ মার্চ, ২১ মার্চ নয় — ২১ মার্চ বন দিবস। বাকি তিনটি জোড়ই সঠিক।",
+      "claims": [
+        "c19",
+        "c17",
+        "c22",
+        "c26"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "date_traps",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মার্চ মাসে একই তারিখে দুটি গুরুত্বপূর্ণ পালন পড়ে — সেই তারিখটি কোনটি?",
+      "a": "২৩ মার্চ (বিশ্ব আবহাওয়া দিবস ও শহীদ দিবস)",
+      "w": [
+        "১৫ মার্চ (ভোক্তা দিবস ও টিকাদান দিবস)",
+        "২১ মার্চ (বন দিবস ও জল দিবস)",
+        "৮ মার্চ (নারী দিবস ও জন ঔষধি দিবস)"
+      ],
+      "e": "২৩ মার্চে বিশ্ব আবহাওয়া দিবস ও শহীদ দিবস একসঙ্গে পড়ে। ভোক্তা ১৫ ও টিকা ১৬ আলাদা দিন; বন ২১ ও জল ২২ আলাদা; ঔষধি ৭ ও নারী ৮ আলাদা।",
+      "claims": [
+        "c22",
+        "c24",
+        "c12",
+        "c15"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "date_traps",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "'At the Frontline of Climate Action' — এটি কোন দিবসের কোন বছরের থিম ছিল?",
+      "a": "বিশ্ব আবহাওয়া দিবস, ২০২৪",
+      "w": [
+        "বিশ্ব বন্যপ্রাণী দিবস, ২০২৫",
+        "বিশ্ব জল দিবস, ২০২৬",
+        "বিশ্ব যক্ষ্মা দিবস, ২০২৬"
+      ],
+      "e": "এটি WMO-র ঘোষিত বিশ্ব আবহাওয়া দিবস ২০২৪-এর থিম। থিম-প্রশ্নে দিবস ও বছর দুটোই মেলাতে হয়।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "date_traps",
+      "level": "difficult",
+      "format": "CHRONOLOGY",
+      "q": "মার্চের নিচের দিবসগুলিকে তারিখের ক্রমে সাজাও:\n১. বিশ্ব যক্ষ্মা দিবস\n২. বিশ্ব ভোক্তা অধিকার দিবস\n৩. বিশ্ব জল দিবস\n৪. জন ঔষধি দিবস",
+      "a": "৪, ২, ৩, ১",
+      "w": [
+        "২, ৪, ১, ৩",
+        "৪, ৩, ২, ১",
+        "২, ৩, ৪, ১"
+      ],
+      "e": "ক্রম: জন ঔষধি ৭ মার্চ → ভোক্তা ১৫ মার্চ → জল ২২ মার্চ → যক্ষ্মা ২৪ মার্চ। অর্থাৎ ৪, ২, ৩, ১।",
+      "claims": [
+        "c08",
+        "c12",
+        "c19",
+        "c26"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "date_traps",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক জোড় মেলাও:\n(ক) জাতীয় টিকাদান দিবস — (i) ১৫ মার্চ\n(খ) বিশ্ব ভোক্তা অধিকার দিবস — (ii) ২৪ মার্চ\n(গ) বিশ্ব যক্ষ্মা দিবস — (iii) ১৬ মার্চ\nকোন বিকল্পটি সব জোড় সঠিকভাবে মেলায়?",
+      "a": "ক–(iii), খ–(i), গ–(ii)",
+      "w": [
+        "ক–(i), খ–(iii), গ–(ii)",
+        "ক–(iii), খ–(ii), গ–(i)",
+        "ক–(ii), খ–(i), গ–(iii)"
+      ],
+      "e": "টিকাদান দিবস ১৬ মার্চ, ভোক্তা দিবস ১৫ মার্চ, যক্ষ্মা দিবস ২৪ মার্চ — অর্থাৎ ক–(iii), খ–(i), গ–(ii)।",
+      "claims": [
+        "c15",
+        "c12",
+        "c26"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "date_traps",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "থিম সম্পর্কে বিবৃতিগুলি বিবেচনা করো:\n১. দিবসগুলির থিম প্রতি বছর বদলায়, তাই থিম মনে রাখতে হয় বছরসহ।\n২. 'Forest and sustainable production and consumption' ছিল বন দিবস ২০২২-এর থিম।\n৩. 'Yes! We Can End TB!' ছিল যক্ষ্মা দিবস ২০২৬-এর থিম।\nকোন বিবৃতিগুলি সঠিক?",
+      "a": "১, ২ ও ৩ সবকটি",
+      "w": [
+        "শুধু ১",
+        "শুধু ২ ও ৩",
+        "শুধু ১ ও ৩"
+      ],
+      "e": "তিনটিই সঠিক: থিম বার্ষিক; বন দিবস ২০২২ ও টিবি দিবস ২০২৬-এর থিম দুটি PIB সূত্রে যাচাই করা।",
+      "claims": [
+        "c18",
+        "c27",
+        "c02"
+      ]
+    }
+  ]
+}

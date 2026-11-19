@@ -1,0 +1,1880 @@
+{
+  "bengal_connection": {
+    "body": "নভেম্বরের দিবসগুলির সঙ্গে বাংলার দুটি গভীর যোগ আছে। প্রথমটি সংবিধান দিবসের: মূল সংবিধানটি ছিল হাতে তৈরি — শান্তিনিকেতনের শিল্পীরা আচার্য নন্দলাল বসুর নির্দেশনায় এর শিল্পকর্ম করেন (ক্যালিগ্রাফি করেন প্রেম বিহারী নারায়ণ রাইজাদা)। অর্থাৎ ভারতের সংবিধানের দৃশ্যরূপের পেছনে আছে বাংলার শান্তিনিকেতনের শিল্প-ঐতিহ্য। দ্বিতীয়টি দুগ্ধ দিবসের: PIB-র দুগ্ধ-ব্যাখ্যায় বলা হয়েছে, পশ্চিমবঙ্গের ইছামতী সমবায় দুগ্ধ ইউনিয়ন দেশের দুটি সর্ব-মহিলা সমবায় দুগ্ধের একটি — যা পরিচালিত ও নিয়ন্ত্রিত হয় মহিলাদের দ্বারাই। কুরিয়েনের গড়া সমবায়-আন্দোলনের এই বাঙালি মহিলা-রূপটি বাংলার ছাত্রদের জন্য গর্বের একটি নির্দিষ্ট তথ্য।",
+    "claims": [
+      "c03",
+      "c27"
+    ]
+  },
+  "book": "important_days",
+  "cause_effect": [
+    {
+      "causes": [
+        "১৮৫৪ সালের ৫ নভেম্বর জাপানে ভূমিকম্পের পর এক গ্রামবাসী ধান-আঁটিতে আগুন দিয়ে গ্রামবাসীদের সুনামি থেকে বাঁচান"
+      ],
+      "claims": [
+        "c36",
+        "c37",
+        "c35"
+      ],
+      "event": "জাপানসহ ১৪২টি দেশের যৌথ প্রস্তাবের পর রাষ্ট্রসংঘ ৫ নভেম্বরকে বিশ্ব সুনামি সচেতনতা দিবস ঘোষণা করে",
+      "results": [
+        "২০১৬ সালের ৫ নভেম্বর প্রথম বিশ্ব সুনামি সচেতনতা দিবস পালিত হয়",
+        "আগাম সতর্কীকরণ ব্যবস্থার গুরুত্ব প্রচারের একটি বার্ষিক মঞ্চ তৈরি হয়"
+      ],
+      "section": "first_week",
+      "title": "ইনামুরা নো হি থেকে সুনামি দিবস"
+    },
+    {
+      "causes": [
+        "১৯৪৯ সালের ২৬ নভেম্বর গণপরিষদ সংবিধান গ্রহণ করে",
+        "নাগরিকদের মধ্যে সাংবিধানিক মূল্যবোধ ছড়িয়ে দেওয়ার প্রয়োজন অনুভূত হয়"
+      ],
+      "claims": [
+        "c01",
+        "c05",
+        "c06"
+      ],
+      "event": "২০১৫ সালের ১৯ নভেম্বর সামাজিক ন্যায় ও ক্ষমতায়ন মন্ত্রক ২৬ নভেম্বরকে সংবিধান দিবস হিসেবে পালনের ঘোষণা দেয়",
+      "results": [
+        "প্রতি বছর ২৬ নভেম্বর সংবিধান দিবস পালিত হয়",
+        "২০২৪ সালে 'হামারা সম্বিধান, হামারা সম্মান' প্রচার শুরু হয়"
+      ],
+      "section": "constitution_day",
+      "title": "সংবিধান গ্রহণ থেকে সংবিধান দিবস"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Constitution Day (Samvidhan Divas) is celebrated on 26 November to commemorate the adoption of the Constitution; the Constituent Assembly adopted it on 26 November 1949 and it came into effect on 26 January 1950.",
+      "id": "c01",
+      "page": "Factsheet, opening paragraph",
+      "quote": "Constitution Day also known as 'Samvidhan Divas', is celebrated in our country on 26th November every year to commemorate the adoption of the Constitution of India. On November 26, 1949, the Constituent Assembly of India adopted the Constitution of India, which came into effect on January 26, 1950.",
+      "source": "s1"
+    },
+    {
+      "claim": "At commencement the Constitution was the world's lengthiest written Constitution with 395 Articles, 22 Parts and 8 Schedules.",
+      "id": "c02",
+      "page": "Factsheet, bullet list",
+      "quote": "It is the world's lengthiest written Constitution which had 395 Articles, 22 Parts and 8 Schedules at the time of its commencement.",
+      "source": "s1"
+    },
+    {
+      "claim": "The Constitution was handwritten and calligraphic in English and Hindi; it was handcrafted by Shantiniketan artists under Acharya Nandalal Bose, with calligraphy by Prem Behari Narain Raizada in Delhi.",
+      "id": "c03",
+      "page": "Factsheet, bullet list",
+      "quote": "The Constitution of India was not typeset or printed but was handwritten and calligraphic in both English and Hindi. It had 90,000 words. It was entirely handcrafted by the artists of Shantiniketan under the guidance of Acharya Nandalal Bose, with the calligraphy texts done by PremBehariNarainRaizada in Delhi.",
+      "source": "s1"
+    },
+    {
+      "claim": "284 members of the Constituent Assembly signed the Constitution on 24 January 1950.",
+      "id": "c04",
+      "page": "Factsheet, bullet list",
+      "quote": "284 members of the Constituent Assembly signed the Indian Constitution at the Constitution Hall of Parliament in New Delhi on January 24, 1950.",
+      "source": "s1"
+    },
+    {
+      "claim": "The Ministry of Social Justice and Empowerment announced on 19 November 2015 that the Government of India would celebrate 26 November every year as Constitution Day.",
+      "id": "c05",
+      "page": "Backgrounder, 'Celebrating India's Constitutional Spirit'",
+      "quote": "Constitution Day or Samvidhan Divas is observed annually on 26th November to commemorate the adoption of the Indian Constitution. In a bid to promote constitutional values among citizens, the Ministry of Social Justice and Empowerment announced on 19th November 2015 that the Government of India would celebrate 26th November every year as Constitution Day.",
+      "source": "s2"
+    },
+    {
+      "claim": "The 'Hamara Samvidhan, Hamara Samman' campaign was launched on 24 January 2024 by the Vice President of India.",
+      "id": "c06",
+      "page": "Backgrounder, campaign section",
+      "quote": "the \"Hamara Samvidhan, Hamara Samman\" campaign, launched on January 24, 2024, by the Hon'ble Vice President of India at the Dr. B.R. Ambedkar International Centre in New Delhi, aims to deepen citizens' understanding of the Constitution.",
+      "source": "s2"
+    },
+    {
+      "claim": "National Education Day is celebrated on November 11 every year in honour of Maulana Abul Kalam Azad, the first Education Minister of independent India.",
+      "id": "c07",
+      "page": "Explainer, Introduction",
+      "quote": "National Education Day is celebrated on November 11 every year in honor of Maulana Abul Kalam Azad, the first Education Minister of independent India and a prominent educationist.",
+      "source": "s3"
+    },
+    {
+      "claim": "Article 21-A (86th Amendment) guarantees free and compulsory education for children aged six to fourteen as a Fundamental Right, and the RTE Act 2009 came into effect on April 1, 2010.",
+      "id": "c08",
+      "page": "Explainer, 'Transforming India through Education'",
+      "quote": "The introduction of free primary education, reinforced by the 86th Amendment of the Constitution through Article 21-A, guarantees free and compulsory education for children aged six to fourteen as a Fundamental Right. The Rights to Education (RTE) Act, 2009, which came into effect on April 1, 2010, further supports this by ensuring that every child receives quality elementary education in a formal school that meets prescribed norms.",
+      "source": "s3"
+    },
+    {
+      "claim": "November 9 is celebrated as National Legal Services Day to commemorate the Legal Services Authorities Act, 1987, which led to organisations providing free legal aid to the needy.",
+      "id": "c09",
+      "page": "Backgrounder, Key Takeaways",
+      "quote": "November 9 is celebrated as the National Legal Services Day to commemorate the Legal Services Authorities Act, 1987, which led to the establishment of organisations providing free legal aid to the needy.",
+      "source": "s4"
+    },
+    {
+      "claim": "The Legal Services Authorities Act came into effect on November 9, 1995, and the day is observed annually as National Legal Services Day to mark its implementation.",
+      "id": "c10",
+      "page": "Backgrounder, Introduction",
+      "quote": "Since the Act came into effect on November 9, 1995, this day is observed annually as National Legal Services Day to mark its implementation.",
+      "source": "s4"
+    },
+    {
+      "claim": "The Act established a three-tier system: National Legal Services Authority (headed by the Chief Justice of India), State Legal Services Authorities (headed by the Chief Justice of High Court) and District Legal Services Authorities (headed by the District Judge).",
+      "id": "c11",
+      "page": "Backgrounder, 'Legal Services Authorities'",
+      "quote": "The act established a three-tier system to provide free and competent legal services: - National Legal Services Authority (headed by the Chief Justice of India) - State Legal Services Authorities (headed by the Chief Justice of High Court) - District Legal Services Authorities (headed by the District Judge)",
+      "source": "s4"
+    },
+    {
+      "claim": "The Act established Lok Adalats and Permanent Lok Adalats as alternate dispute redressal forums; over 23.58 crore cases were resolved through them from 2022-23 to 2024-25.",
+      "id": "c12",
+      "page": "Backgrounder, 'Lok Adalats'",
+      "quote": "The Act also established Lok Adalats and Permanent Lok Adalats, which are alternate dispute redressal forums organised by the legal authorities above. The forums settle pending disputes or cases or those at the pre-litigation stage amicably. From 2022-23 to 2024-25 over 23.58 crore cases were resolved through the state, permanent and national Lok Adalats.",
+      "source": "s4"
+    },
+    {
+      "claim": "14 November is observed as 'Bal Diwas', the birthday of Pandit Jawaharlal Nehru, the first Prime Minister of the country.",
+      "id": "c13",
+      "page": "Press release, body",
+      "quote": "Fifty winners from the school level competition were selected in each state for participation in the state level painting competition which was held on 14 November on the occasion of 'Bal Diwas' birth day of Pandit Jawaharlal Nehru, the first Prime Minister of the country.",
+      "source": "s5"
+    },
+    {
+      "claim": "The country celebrates Children's Day on 14 November and the International Child Rights Day is celebrated on 20 November every year.",
+      "id": "c14",
+      "page": "Press release, opening paragraph",
+      "quote": "The country celebrates the Children's Day on 14th November and the International Child Rights Day is celebrated on 20th November every year.",
+      "source": "s6"
+    },
+    {
+      "claim": "The WCD Ministry celebrated Child Rights Week (Hausla 2017) from 16 to 20 November 2017, between Children's Day and International Child Rights Day.",
+      "id": "c15",
+      "page": "Press release, opening paragraph",
+      "quote": "The Ministry of Women and Child Development will celebrate the Child Rights Week (Hausla 2017) from 16th to 20th November, 2017. The country celebrates the Children's Day on 14th November and the International Child Rights Day is celebrated on 20th November every year. The period between the two important events will be celebrated as Child Rights Week by WCD Ministry",
+      "source": "s6"
+    },
+    {
+      "claim": "November 15 is celebrated as Janjatiya Gaurav Divas (Tribal Pride Day) to commemorate the birth anniversary of tribal freedom fighter Birsa Munda.",
+      "id": "c16",
+      "page": "Explainer PDF, Key Takeaways",
+      "quote": "November 15 is celebrated as Janjatiya Gaurav Divas (Tribal Pride Day) to commemorate the birth anniversary of tribal freedom fighter Birsa Munda.",
+      "source": "s7"
+    },
+    {
+      "claim": "Birsa Munda was born in 1874 in Ulihatu village, Jharkhand, and led the Ulgulan or 'Great Tumult' (1899-1900), a movement for tribal self-rule and restoration of Khuntkatti (community land rights); he was known as Dharti Aaba.",
+      "id": "c17",
+      "page": "Explainer PDF, Bhagwan Birsa Munda Museum section",
+      "quote": "Born in Ulihatu village, Jharkhand, Birsa Munda led the Ulgulan or \"Great Tumult\" (1899–1900)—a fierce movement for tribal self-rule and the restoration of Khuntkatti (community land rights). As a spiritual reformer and freedom fighter, he united the Munda tribes against British land laws and feudal exploitation. Known as Dharti Aaba (\"Father of the Earth\"), Birsa Munda envisioned a moral, selfgoverned society free from colonial influence.",
+      "source": "s7"
+    },
+    {
+      "claim": "The year 2024-25 is celebrated as Janjatiya Gaurav Varsh to commemorate 150 years of Birsa Munda's birth.",
+      "id": "c18",
+      "page": "Explainer PDF, Introduction",
+      "quote": "India celebrates Janjatiya Gaurav Divas (Tribal Pride Day) on November 15 every year to commemorate the birth anniversary of the tribal freedom fighter and anti-colonialist Birsa Munda, born in 1874. The year 2024-25 is being celebrated as Janjatiya Gaurav Varsh to commemorate 150 years of his birth.",
+      "source": "s7"
+    },
+    {
+      "claim": "The Bhagwan Birsa Munda Tribal Freedom Fighter Museum at Ranchi, Jharkhand was inaugurated on November 15, 2021 by Prime Minister Narendra Modi.",
+      "id": "c19",
+      "page": "Explainer PDF, museum section",
+      "quote": "Bhagwan Birsa Munda Tribal Freedom Fighter Museum, Ranchi, Jharkhand, inaugurated on November 15, 2021, by Prime Minister Narendra Modi.",
+      "source": "s7"
+    },
+    {
+      "claim": "India observes National Cancer Awareness Day on November 7 each year; the date was chosen to honour the birth of Nobel Laureate Madame Marie Curie, who discovered radioactivity and whose work deeply impacted cancer treatment.",
+      "id": "c20",
+      "page": "Explainer, opening paragraph",
+      "quote": "On November 7th each year, India observes National Cancer Awareness Day—an initiative that aims to raise awareness about the growing cancer burden in the country and inspire action towards prevention, early detection, and treatment. India is the first country in the world to officially recognize National Cancer Awareness Day. The date was chosen not only to honor the birth of Nobel Laureate Madame Marie Curie, who discovered radioactivity and whose work has had a profound impact on cancer treatment but also to reflect India's commitment to addressing cancer as a public health priority.",
+      "source": "s8"
+    },
+    {
+      "claim": "India is the first country in the world to officially recognize National Cancer Awareness Day.",
+      "id": "c21",
+      "page": "Explainer, opening paragraph",
+      "quote": "India is the first country in the world to officially recognize National Cancer Awareness Day.",
+      "source": "s8"
+    },
+    {
+      "claim": "Tobacco consumption is the single most significant contributor to cancer in India.",
+      "id": "c22",
+      "page": "Explainer, 'Addressing Risk Factors'",
+      "quote": "Tobacco consumption, whether through smoking or chewing, is the single most significant contributor to cancer in India.",
+      "source": "s8"
+    },
+    {
+      "claim": "National Milk Day is observed annually on November 26 to commemorate the birth anniversary of Dr Verghese Kurien, celebrated as the 'Father of the White Revolution' in India.",
+      "id": "c23",
+      "page": "Backgrounder, opening paragraph",
+      "quote": "Observed annually on November 26, National Milk Day commemorates the birth anniversary of Dr. Verghese Kurien, celebrated as the \"Father of the White Revolution\" in India.",
+      "source": "s9"
+    },
+    {
+      "claim": "Dr Verghese Kurien was born on November 26, 1921, in Kozhikode, Kerala, and transformed India from a milk-deficient nation to the world's largest producer of milk.",
+      "id": "c24",
+      "page": "Backgrounder, opening paragraph",
+      "quote": "Born on November 26, 1921, in Kozhikode, Kerala, Dr. Kurien was instrumental in transforming India from a milk-deficient nation to the world's largest producer of milk.",
+      "source": "s9"
+    },
+    {
+      "claim": "The National Dairy Development Board (NDDB) was created in 1965, with Verghese Kurien as its first chairman, to support Anand-pattern dairy cooperatives through the Operation Flood programme.",
+      "id": "c25",
+      "page": "Backgrounder, 'India's Dairy Revolution'",
+      "quote": "Following the visit of Prime Minister Lal Bahadur Shastri to Anand district of Gujarat in 1964, the National Dairy Development Board (NDDB) was created in 1965 with a mandate to support creation of the Anand pattern of dairy cooperatives across the country through Operation Flood (OF) programme. Verghese Kurien, the first chairman of NDDB, along with his team commenced work on the launch of the project",
+      "source": "s9"
+    },
+    {
+      "claim": "India ranks 1st globally in milk production with 230.58 million tonnes per annum, 25% of world production.",
+      "id": "c26",
+      "page": "Backgrounder, production paragraph",
+      "quote": "Globally India is 1st in Milk production with 230.58 million ton per annum and it is 25% of world production of milk followed by USA.",
+      "source": "s9"
+    },
+    {
+      "claim": "The Ichhamati Cooperative Milk Union in West Bengal is one of two all-women cooperative dairies managed and governed by women.",
+      "id": "c27",
+      "page": "Backgrounder, 'Empowering Women Through Dairy Cooperatives'",
+      "quote": "Two milk unions, Ichhamati Cooperative Milk Union in West Bengal and Mulukanoor Women's Mutually Aided Milk Producers Cooperative Union in Andhra Pradesh have evolved as all women cooperative dairies managed and governed by women.",
+      "source": "s9"
+    },
+    {
+      "claim": "World Diabetes Day was created in 1991 by the International Diabetes Federation (IDF) and the World Health Organization (WHO).",
+      "id": "c28",
+      "page": "Explainer PDF, Introduction",
+      "quote": "World Diabetes Day was created in 1991 by the International Diabetes Federation (IDF) and the World Health Organization (WHO) in response to growing concerns about the increasing health threat posed by diabetes.",
+      "source": "s10"
+    },
+    {
+      "claim": "World Diabetes Day is observed on November 14 every year to mark the birthday of Sir Frederick Banting, who co-discovered insulin along with Charles Best in 1922.",
+      "id": "c29",
+      "page": "Explainer PDF, Introduction",
+      "quote": "It is observed on November 14 every year to mark the birthday of Sir Frederick Banting, who co-discovered insulin along with Charles Best in 1922.",
+      "source": "s10"
+    },
+    {
+      "claim": "World Diabetes Day has been an official United Nations Day since 2006.",
+      "id": "c30",
+      "page": "Explainer PDF, Introduction",
+      "quote": "World Diabetes Day is an official United Nations Day since 2006.",
+      "source": "s10"
+    },
+    {
+      "claim": "The theme for World Diabetes Day 2021-23 was 'Access to Diabetes Care'.",
+      "id": "c31",
+      "page": "Explainer PDF, Introduction",
+      "quote": "The theme for World Diabetes Day 2021-23 is Access to Diabetes Care.",
+      "source": "s10"
+    },
+    {
+      "claim": "World Toilet Day is held annually since 2013 to celebrate toilets and raise awareness for people living without access to sanitation.",
+      "id": "c32",
+      "page": "Press release, highlights",
+      "quote": "World Toilet Day held annually since 2013 to celebrate toilets and raises awareness for the people living without access to sanitation",
+      "source": "s11"
+    },
+    {
+      "claim": "The 2022 theme of World Toilet Day was 'Making the Invisible Visible'.",
+      "id": "c33",
+      "page": "Press release, highlights and body",
+      "quote": "2022 theme of 'World Toilet Day' is 'Making the Invisible Visible'",
+      "source": "s11"
+    },
+    {
+      "claim": "The Swachh Bharat Mission (Grameen) has been recognized as the world's largest behavior change program.",
+      "id": "c34",
+      "page": "Press release, body",
+      "quote": "The Swachh Bharat Mission (Grameen) has been recognized as the world's largest behavior change program.",
+      "source": "s11"
+    },
+    {
+      "claim": "The First World Tsunami Awareness Day was celebrated on November 5, 2016.",
+      "id": "c35",
+      "page": "Press release, opening line",
+      "quote": "The First World Tsunami Awareness Day will be celebrated on November 5, 2016.",
+      "source": "s12"
+    },
+    {
+      "claim": "On November 5, 1854, a villager in Wakayama, Japan, fearing an impending tsunami after a high-intensity earthquake, set fire to rice sheaves on a hill; villagers who climbed to put out the fire were saved while the tsunami destroyed the village below — the first documented instance of a tsunami early warning ('Inamura no Hi').",
+      "id": "c36",
+      "page": "Press release, body",
+      "quote": "The significance of this day, the 5th November, to tsunami awareness can be traced back to the year 1854. A villager in Wakayama Prefecture, Japan, was concerned about an impending tsunami after a high-intensity earthquake on November 5, 1854. He set up a fire to rice sheaves on the top of a hill. Fellow villagers, who went atop to put off the fire, were saved even as a tsunami destroyed their village down below. This was the first documented instance of a tsunami early warning.",
+      "source": "s12"
+    },
+    {
+      "claim": "To commemorate 'Inamura no Hi', a resolution jointly proposed by 142 countries including Japan led the United Nations to designate 5 November as World Tsunami Awareness Day.",
+      "id": "c37",
+      "page": "Press release, body",
+      "quote": "To commemorate that day of “Inamura no Hi” (the burning of rice sheaves), a resolution was jointly proposed by 142 countries including Japan as a follow up of the third UN World Conference on Disaster Risk Reduction and the 2030 Agenda for Sustainable Development. The United Nations designated the 5th November as World Tsunami Awareness Day.",
+      "source": "s12"
+    },
+    {
+      "claim": "After the 2004 Indian Ocean Tsunami, the Government of India established an Indian Tsunami Early Warning Centre (ITEWC) under INCOIS at Hyderabad, operational since October 2007.",
+      "id": "c38",
+      "page": "Press release, body",
+      "quote": "Following the devastating Indian Ocean Tsunami of 2004, the Government of India established an Indian Tsunami Early Warning Centre (ITEWC) under the Indian National Centre for Ocean Information Services (INCOIS) at Hyderabad. The Centre, operational since October 2007, has state-of-the-art infrastructure for generating and disseminating tsunami bulletins for the entire Indian Ocean region.",
+      "source": "s12"
+    },
+    {
+      "claim": "World Science Day is celebrated on November 10.",
+      "id": "c39",
+      "page": "Press release, body",
+      "quote": "World Science Day, is celebrated on November 10.",
+      "source": "s13"
+    },
+    {
+      "claim": "On World Science Day 2020, DST jointly with UNESCO New Delhi organised a webinar; the theme that year was 'Science for and with Society'.",
+      "id": "c40",
+      "page": "Press release, body",
+      "quote": "World Science Day, is celebrated on November 10. The theme this year being ‘Sciencefor and with Society’, DST jointly with UNESCO New Delhi, organized the webinar to acknowledge and embrace the essence of the theme",
+      "source": "s13"
+    },
+    {
+      "claim": "World Television Day is observed globally on 21 November each year, following the proclamation of the UN General Assembly through a Resolution adopted in 1996.",
+      "id": "c41",
+      "page": "Explainer, Introduction",
+      "quote": "World Television Day is observed globally on 21 November each year, following the proclamation of the United Nations General Assembly through a Resolution adopted in 1996. The Day recognizes television as a vital medium in informing, educating, and influencing public opinion, and in fostering communication and global understanding.",
+      "source": "s14"
+    },
+    {
+      "claim": "Television broadcasting in India began on an experimental basis on 15 September 1959, initiated by All India Radio under the Ministry of Information and Broadcasting.",
+      "id": "c42",
+      "page": "Explainer, 'Experimental and Foundational Phase (1959–1965)'",
+      "quote": "Television broadcasting in India began on an experimental basis on 15 September 1959, initiated by All India Radio (AIR) under the Ministry of Information and Broadcasting (MIB).",
+      "source": "s14"
+    },
+    {
+      "claim": "The Prasar Bharati Act, 1990 came into full effect on 23 November 1997, leading to the formation of the Prasar Bharati Corporation.",
+      "id": "c43",
+      "page": "Explainer, 'Did you know?'",
+      "quote": "The Prasar Bharati Act, 1990 was enacted to establish an autonomous public service broadcaster for India. The Act came into full effect on 23 November 1997, leading to the formation of the Prasar Bharati Corporation.",
+      "source": "s14"
+    },
+    {
+      "claim": "November 25 is celebrated every year as the International Day for the Elimination of Violence against Women.",
+      "id": "c44",
+      "page": "Explainer PDF, Introduction",
+      "quote": "Introduction November 25 is celebrated every year as the International Day for the Elimination of Violence against Women.",
+      "source": "s15"
+    },
+    {
+      "claim": "On February 07, 2000, November 25 was officially designated as the International Day for the Elimination of Violence Against Women.",
+      "id": "c45",
+      "page": "Explainer PDF, History",
+      "quote": "Further, on February 07, 2000, November 25 was officially designated as the International Day for the Elimination of Violence Against Women.",
+      "source": "s15"
+    },
+    {
+      "claim": "The 2022 theme was 'UNITE! Activism to End Violence against Women & Girls'; the day launches the UNITE campaign (Nov 25–Dec 10), 16 days of activism concluding on International Human Rights Day (December 10).",
+      "id": "c46",
+      "page": "Explainer PDF, Introduction",
+      "quote": "UNITE! Activism to End Violence against Women & Girls is the theme for year 2022.The International Day for the Elimination of Violence Against Women will mark the launch of the UNITE campaign (Nov 25- Dec 10) — an initiative of 16 days of activism concluding on the day that commemorates the International Human Rights Day (December 10).",
+      "source": "s15"
+    },
+    {
+      "claim": "The Government of India set up the National Commission for Women (NCW) as a statutory body on January 31, 1992.",
+      "id": "c47",
+      "page": "Explainer PDF, 'National Commission for Women (NCW)'",
+      "quote": "The Government of India, on January 31, 1992, set up a statutory body called the National Commission for Women (NCW) with a specific mandate to study and monitor all matters relating to the Constitutional and legal safeguards provided to women",
+      "source": "s15"
+    }
+  ],
+  "code": "DAY-11",
+  "events": [
+    {
+      "claims": [
+        "c36",
+        "c37"
+      ],
+      "section": "first_week",
+      "title": "ইনামুরা নো হি — ধান-আঁটির আগুন",
+      "what": "জাপানের ওয়াকায়ামার এক গ্রামবাসী ভূমিকম্পের পর আসন্ন সুনামির আশঙ্কায় পাহাড়ে ধানের আঁটিতে আগুন ধরিয়ে দেন; আগুন নেভাতে ওঠা গ্রামবাসীরা প্রাণে বাঁচেন।",
+      "when": "৫ নভেম্বর ১৮৫৪",
+      "why_it_matters": "এই তারিখের স্মরণেই রাষ্ট্রসংঘ ৫ নভেম্বরকে বিশ্ব সুনামি সচেতনতা দিবস ঘোষণা করে — দিবসের তারিখের কারণ এটাই।"
+    },
+    {
+      "claims": [
+        "c01"
+      ],
+      "section": "constitution_day",
+      "title": "গণপরিষদ সংবিধান গ্রহণ করে",
+      "what": "গণপরিষদ ভারতের সংবিধান গ্রহণ করে; সংবিধান কার্যকর হয় পরে, ১৯৫০ সালের ২৬ জানুয়ারি।",
+      "when": "২৬ নভেম্বর ১৯৪৯",
+      "why_it_matters": "এই গ্রহণের দিনটিই সংবিধান দিবসের ভিত্তি — পরীক্ষায় সবচেয়ে বেশি আসা নভেম্বর-তথ্য।"
+    },
+    {
+      "claims": [
+        "c10",
+        "c09"
+      ],
+      "section": "mid_november",
+      "title": "আইনি সেবা কর্তৃপক্ষ আইন কার্যকর",
+      "what": "আইনি সেবা কর্তৃপক্ষ আইন, ১৯৮৭ কার্যকর হয়; এর অধীনে বিনামূল্যে আইনি সেবার ত্রিস্তরীয় ব্যবস্থা গড়ে ওঠে।",
+      "when": "৯ নভেম্বর ১৯৯৫",
+      "why_it_matters": "এই কার্যকর-তারিখটিই ৯ নভেম্বর জাতীয় আইনি সেবা দিবসের কারণ।"
+    },
+    {
+      "claims": [
+        "c05"
+      ],
+      "section": "constitution_day",
+      "title": "সংবিধান দিবসের সরকারি ঘোষণা",
+      "what": "সামাজিক ন্যায় ও ক্ষমতায়ন মন্ত্রক ঘোষণা করে, ভারত সরকার প্রতি বছর ২৬ নভেম্বর সংবিধান দিবস হিসেবে পালন করবে।",
+      "when": "১৯ নভেম্বর ২০১৫",
+      "why_it_matters": "ঘটনা (১৯৪৯) আর দিবস-ঘোষণা (২০১৫) আলাদা — এই পার্থক্য না জানলেই ভুল হয়।"
+    },
+    {
+      "claims": [
+        "c35"
+      ],
+      "section": "first_week",
+      "title": "প্রথম বিশ্ব সুনামি সচেতনতা দিবস",
+      "what": "প্রথম বিশ্ব সুনামি সচেতনতা দিবস পালিত হয়; ভারতে নয়াদিল্লিতে AMCDRR সম্মেলনে এ উপলক্ষ্যে অনুষ্ঠান হয়।",
+      "when": "৫ নভেম্বর ২০১৬",
+      "why_it_matters": "দিবসটির সূচনাবর্ষ মনে রাখলে কালানুক্রম প্রশ্নে সুবিধা হয়।"
+    },
+    {
+      "claims": [
+        "c19"
+      ],
+      "section": "mid_november",
+      "title": "বীরসা মুন্ডা জাদুঘর উদ্বোধন, রাঁচি",
+      "what": "রাঁচিতে ভগবান বীরসা মুন্ডা আদিবাসী স্বাধীনতা সংগ্রামী জাদুঘর উদ্বোধন হয়।",
+      "when": "১৫ নভেম্বর ২০২১",
+      "why_it_matters": "জনজাতীয় গৌরব দিবসের পালনের সঙ্গে যুক্ত একটি নির্দিষ্ট ঘটনা — তারিখ দুটি একই (১৫ নভেম্বর)।"
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "সংবিধান দিবসের ত্রয়ী: গ্রহণ ২৬ নভেম্বর ১৯৪৯, কার্যকর ২৬ জানুয়ারি ১৯৫০, দিবস-ঘোষণা ২০১৫ — WBCS/WBP/ক্লার্কশিপে বারবার আসে।",
+      "section": "constitution_day"
+    },
+    {
+      "point": "শিশু দিবসের ফাঁদ: ভারতে ১৪ নভেম্বর (নেহরু), বিশ্বে ২০ নভেম্বর — প্রশ্নের শব্দ ('ভারতে'/'বিশ্ব') দেখে উত্তর দাও।",
+      "section": "date_traps"
+    },
+    {
+      "point": "ব্যক্তি–দিবস জোড়া: আজাদ–শিক্ষা (১১), নেহরু–শিশু (১৪), বীরসা মুন্ডা–জনজাতীয় গৌরব (১৫), কুরিয়েন–দুগ্ধ (২৬), ব্যান্টিং–ডায়াবেটিস (১৪), কুরি–ক্যান্সার (৭)।",
+      "section": "mid_november"
+    },
+    {
+      "point": "২৬ নভেম্বর ও ১৪ নভেম্বর — দুটোই দ্বৈত দিবসের তারিখ; জোড়া হিসেবে মুখস্থ করো।",
+      "section": "final_week"
+    },
+    {
+      "point": "আইনি সেবা দিবস ব্যক্তি-ভিত্তিক নয়: আইন কার্যকর হওয়ার তারিখ (৯ নভেম্বর ১৯৯৫) থেকেই দিবস।",
+      "section": "mid_november"
+    }
+  ],
+  "number": 11,
+  "overview": {
+    "intro": "নভেম্বর হল পরীক্ষার দৃষ্টিতে সবচেয়ে ঘন দিবসের মাসগুলির একটি: এই এক মাসেই আছে বিশ্ব সুনামি সচেতনতা দিবস (৫ নভেম্বর), জাতীয় শিক্ষা দিবস (১১ নভেম্বর), শিশু দিবস ও বিশ্ব ডায়াবেটিস দিবস (১৪ নভেম্বর), জনজাতীয় গৌরব দিবস (১৫ নভেম্বর) এবং মাসের সবচেয়ে বড় পরীক্ষা-প্রিয় জোড়া — সংবিধান দিবস ও জাতীয় দুগ্ধ দিবস (২৬ নভেম্বর)। এই অধ্যায়ে প্রতিটি দিবসের স্থায়ী তারিখ ও পালনের কারণ সরকারি (PIB) উৎসের ভিত্তিতে শেখানো হয়েছে, আর শেষ অংশে আছে এই মাসের বিখ্যাত তারিখ-ফাঁদগুলি: গৃহীত বনাম কার্যকর, আর ভারতের শিশু দিবস বনাম বিশ্ব শিশু দিবস।",
+    "you_will_learn": [
+      "৫ নভেম্বর বিশ্ব সুনামি সচেতনতা দিবস কেন — ১৮৫৪ সালের 'ইনামুরা নো হি' ঘটনা ও INCOIS-এর ভূমিকা",
+      "৭ নভেম্বর জাতীয় ক্যান্সার সচেতনতা দিবস ও মাদাম কুরির জন্মদিনের যোগ",
+      "৯ নভেম্বর জাতীয় আইনি সেবা দিবস: আইনটি কার্যকর হওয়ার তারিখই দিবসের তারিখ",
+      "১১ নভেম্বর জাতীয় শিক্ষা দিবস — মৌলানা আবুল কালাম আজাদ ও প্রথম শিক্ষামন্ত্রীর পরিচয়",
+      "১৪ নভেম্বরের দুই দিবস: ভারতের শিশু দিবস (নেহরু) ও বিশ্ব ডায়াবেটিস দিবস (ব্যান্টিং ও ইনসুলিন)",
+      "১৫ নভেম্বর জনজাতীয় গৌরব দিবস — বীরসা মুন্ডা, উলগুলান ও 'ধরতি আবা'",
+      "১৯–২৫ নভেম্বর: বিশ্ব শৌচাগার দিবস, বিশ্ব শিশু দিবস, বিশ্ব টেলিভিশন দিবস ও নারীর বিরুদ্ধে সহিংসতা দূরীকরণ দিবস",
+      "২৬ নভেম্বরের জোড়া: সংবিধান দিবস (গ্রহণ ১৯৪৯, ঘোষণা ২০১৫) ও জাতীয় দুগ্ধ দিবস (ভার্গিস কুরিয়েন)"
+    ]
+  },
+  "part": "q4",
+  "people": [
+    {
+      "claims": [
+        "c07"
+      ],
+      "contribution": "তাঁর জন্মবার্ষিকী ১১ নভেম্বর জাতীয় শিক্ষা দিবস হিসেবে পালিত হয়।",
+      "name": "মৌলানা আবুল কালাম আজাদ",
+      "role": "শিক্ষাবিদ ও প্রথম শিক্ষামন্ত্রী",
+      "section": "mid_november",
+      "when": "স্বাধীন ভারতের প্রথম শিক্ষামন্ত্রী"
+    },
+    {
+      "claims": [
+        "c13"
+      ],
+      "contribution": "তাঁর জন্মদিন ১৪ নভেম্বর 'বাল দিবস' বা শিশু দিবস হিসেবে পালিত হয়।",
+      "name": "পণ্ডিত জওহরলাল নেহরু",
+      "role": "প্রথম প্রধানমন্ত্রী",
+      "section": "mid_november",
+      "when": "ভারতের প্রথম প্রধানমন্ত্রী"
+    },
+    {
+      "claims": [
+        "c17",
+        "c16"
+      ],
+      "contribution": "উলগুলান আন্দোলনের (১৮৯৯–১৯০০) নেতা; তাঁর জন্মবার্ষিকী ১৫ নভেম্বর জনজাতীয় গৌরব দিবস।",
+      "name": "বীরসা মুন্ডা",
+      "role": "আদিবাসী স্বাধীনতা সংগ্রামী ('ধরতি আবা')",
+      "section": "mid_november",
+      "when": "জন্ম ১৮৭৪, উলিহাতু, ঝাড়খণ্ড"
+    },
+    {
+      "claims": [
+        "c24",
+        "c23",
+        "c25"
+      ],
+      "contribution": "তাঁর জন্মবার্ষিকী ২৬ নভেম্বর জাতীয় দুগ্ধ দিবস; NDDB গঠিত হয় ১৯৬৫ সালে।",
+      "name": "ড. ভার্গিস কুরিয়েন",
+      "role": "শ্বেত বিপ্লবের জনক; NDDB-র প্রথম সভাপতি",
+      "section": "final_week",
+      "when": "জন্ম ২৬ নভেম্বর ১৯২১, কোঝিকোড়, কেরল"
+    },
+    {
+      "claims": [
+        "c20"
+      ],
+      "contribution": "তাঁর জন্মের সম্মানে ৭ নভেম্বর জাতীয় ক্যান্সার সচেতনতা দিবসের তারিখ বেছে নেওয়া হয়; তাঁর কাজের ক্যান্সার-চিকিৎসায় গভীর প্রভাব রয়েছে।",
+      "name": "মাদাম মারি কুরি",
+      "role": "তেজস্ক্রিয়তার আবিষ্কারক",
+      "section": "first_week",
+      "when": "নোবেল পুরস্কারজয়ী বিজ্ঞানী"
+    },
+    {
+      "claims": [
+        "c29"
+      ],
+      "contribution": "চার্লস বেস্টের সঙ্গে ইনসুলিন সহ-আবিষ্কার করেন; তাঁর জন্মদিনে ১৪ নভেম্বর বিশ্ব ডায়াবেটিস দিবস পালিত হয়।",
+      "name": "স্যার ফ্রেডরিক ব্যান্টিং",
+      "role": "বিজ্ঞানী",
+      "section": "mid_november",
+      "when": "ইনসুলিনের সহ-আবিষ্কারক, ১৯২২"
+    },
+    {
+      "claims": [
+        "c03"
+      ],
+      "contribution": "হাতে লেখা সংবিধানের ক্যালিগ্রাফির লেখা তিনি দিল্লিতে করেন; শিল্পকর্মের নির্দেশনায় ছিলেন শান্তিনিকেতনের আচার্য নন্দলাল বসু।",
+      "name": "প্রেম বিহারী নারায়ণ রাইজাদা",
+      "role": "ক্যালিগ্রাফার",
+      "section": "constitution_day",
+      "when": "সংবিধান রচনাকাল, ১৯৪৯–৫০"
+    }
+  ],
+  "prerequisites": [
+    "DAY-10"
+  ],
+  "questions": [
+    {
+      "a": "৫ নভেম্বর",
+      "claims": [
+        "c35",
+        "c37"
+      ],
+      "e": "রাষ্ট্রসংঘ ৫ নভেম্বরকে বিশ্ব সুনামি সচেতনতা দিবস হিসেবে ঘোষণা করে; প্রথম পালন হয় ২০১৬ সালের ৫ নভেম্বর। ৭ নভেম্বর ক্যান্সার সচেতনতা ও ১৯ নভেম্বর শৌচাগার দিবস — কাছাকাছি তারিখ বলেই এগুলি ভুল বিকল্প।",
+      "format": "DIRECT",
+      "id": "q01",
+      "level": "basic",
+      "q": "বিশ্ব সুনামি সচেতনতা দিবস কোন তারিখে পালিত হয়?",
+      "section": "first_week",
+      "w": [
+        "৭ নভেম্বর",
+        "১০ নভেম্বর",
+        "১৯ নভেম্বর"
+      ]
+    },
+    {
+      "a": "ধান-আঁটির আগুন — ১৮৫৪ সালে জাপানে সুনামির সতর্কবার্তা হিসেবে ধান-আঁটিতে আগুন ধরিয়ে দেওয়ার ঘটনা",
+      "claims": [
+        "c36"
+      ],
+      "e": "১৮৫৪ সালের ৫ নভেম্বর ওয়াকায়ামার এক গ্রামবাসী পাহাড়ে ধানের আঁটিতে আগুন ধরিয়ে গ্রামবাসীদের সুনামি থেকে বাঁচান — এই ঘটনাই 'ইনামুরা নো হি'। ভারতের সতর্কীকরণ কেন্দ্রের নাম ITEWC, ইনামুরা নয়।",
+      "format": "DIRECT",
+      "id": "q02",
+      "level": "basic",
+      "q": "'ইনামুরা নো হি' বলতে কী বোঝায়?",
+      "section": "first_week",
+      "w": [
+        "জাপানের একটি সুনামি-বিধ্বস্ত গ্রামের নাম",
+        "ভারতের সুনামি সতর্কীকরণ কেন্দ্রের নাম",
+        "২০০৪ সালের সুনামির জাপানি নাম"
+      ]
+    },
+    {
+      "a": "মাদাম মারি কুরি",
+      "claims": [
+        "c20"
+      ],
+      "e": "তারিখটি বেছে নেওয়া হয়েছে নোবেলজয়ী মাদাম মারি কুরির জন্মের সম্মানে — তিনি তেজস্ক্রিয়তা আবিষ্কার করেন। ব্যান্টিং যুক্ত ডায়াবেটিস দিবসের (১৪ নভেম্বর) সঙ্গে।",
+      "format": "DIRECT",
+      "id": "q03",
+      "level": "basic",
+      "q": "ভারতে জাতীয় ক্যান্সার সচেতনতা দিবস (৭ নভেম্বর) কোন বিজ্ঞানীর জন্মের সম্মানে পালিত হয়?",
+      "section": "first_week",
+      "w": [
+        "স্যার ফ্রেডরিক ব্যান্টিং",
+        "আলেকজান্ডার ফ্লেমিং",
+        "লুই পাস্তুর"
+      ]
+    },
+    {
+      "a": "হায়দরাবাদে, INCOIS-এর অধীনে",
+      "claims": [
+        "c38"
+      ],
+      "e": "২০০৪ সালের সুনামির পর ভারত সরকার হায়দরাবাদে INCOIS-এর অধীনে ITEWC গড়ে তোলে; এটি ২০০৭ সালের অক্টোবর থেকে কার্যকর।",
+      "format": "DIRECT",
+      "id": "q04",
+      "level": "moderate",
+      "q": "ভারতীয় সুনামি আগাম সতর্কীকরণ কেন্দ্র (ITEWC) কোথায় অবস্থিত এবং কোন সংস্থার অধীনে কাজ করে?",
+      "section": "first_week",
+      "w": [
+        "চেন্নাইয়ে, IMD-এর অধীনে",
+        "নয়াদিল্লিতে, NDMA-এর অধীনে",
+        "কলকাতায়, INCOIS-এর অধীনে"
+      ]
+    },
+    {
+      "a": "ভারতই বিশ্বের প্রথম দেশ যেখানে এই দিবস আনুষ্ঠানিকভাবে স্বীকৃত",
+      "claims": [
+        "c21",
+        "c22"
+      ],
+      "e": "PIB অনুযায়ী ভারতই প্রথম দেশ যেখানে জাতীয় ক্যান্সার সচেতনতা দিবস আনুষ্ঠানিকভাবে স্বীকৃত। ভারতে ক্যান্সারের একক বৃহত্তম কারণ তামাক সেবন, বায়ুদূষণ নয়।",
+      "format": "DIRECT",
+      "id": "q05",
+      "level": "moderate",
+      "q": "জাতীয় ক্যান্সার সচেতনতা দিবস সম্পর্কে কোন তথ্যটি সঠিক?",
+      "section": "first_week",
+      "w": [
+        "দিবসটি রাষ্ট্রসংঘ ২০১৩ সালে ঘোষণা করে",
+        "দিবসটি পালিত হয় বিশ্ব ক্যান্সার দিবসের (৪ ফেব্রুয়ারি) একই দিনে",
+        "ভারতে ক্যান্সারের প্রধান কারণ বায়ুদূষণ"
+      ]
+    },
+    {
+      "a": "শুধু ১ ও ২",
+      "claims": [
+        "c36",
+        "c37",
+        "c35"
+      ],
+      "e": "১ ও ২ সঠিক: তারিখটি ১৮৫৪ সালের ঘটনা থেকে এসেছে এবং প্রস্তাবটি ১৪২টি দেশের যৌথ প্রস্তাব ছিল। ৩ ভুল — প্রথম পালন হয় ২০১৬ সালে; ২০০৪ হল ভারত মহাসাগরের সুনামির বছর।",
+      "format": "STATEMENT",
+      "id": "q06",
+      "level": "exam",
+      "q": "বিবৃতি বিবেচনা করো:\n১. বিশ্ব সুনামি সচেতনতা দিবসের তারিখটি ১৮৫৪ সালের 'ইনামুরা নো হি' ঘটনার বার্ষিকী।\n২. দিবসটি ঘোষণার প্রস্তাব জাপানসহ ১৪২টি দেশ যৌথভাবে আনে।\n৩. প্রথম বিশ্ব সুনামি সচেতনতা দিবস পালিত হয় ২০০৪ সালে।\nকোন বিবৃতিগুলি সঠিক?",
+      "section": "first_week",
+      "w": [
+        "শুধু ১ ও ৩",
+        "শুধু ২ ও ৩",
+        "১, ২ ও ৩"
+      ]
+    },
+    {
+      "a": "৯ নভেম্বর",
+      "claims": [
+        "c09",
+        "c10"
+      ],
+      "e": "৯ নভেম্বর জাতীয় আইনি সেবা দিবস — এই দিনেই ১৯৯৫ সালে আইনি সেবা কর্তৃপক্ষ আইন কার্যকর হয়।",
+      "format": "DIRECT",
+      "id": "q07",
+      "level": "basic",
+      "q": "জাতীয় আইনি সেবা দিবস কোন তারিখে পালিত হয়?",
+      "section": "mid_november",
+      "w": [
+        "১০ নভেম্বর",
+        "১১ নভেম্বর",
+        "২৬ নভেম্বর"
+      ]
+    },
+    {
+      "a": "১০ নভেম্বর",
+      "claims": [
+        "c39"
+      ],
+      "e": "বিশ্ব বিজ্ঞান দিবস পালিত হয় ১০ নভেম্বর। ২৮ ফেব্রুয়ারি জাতীয় বিজ্ঞান দিবস (ভারত) — দুটিকে গুলিয়ো না।",
+      "format": "DIRECT",
+      "id": "q08",
+      "level": "basic",
+      "q": "শান্তি ও উন্নয়নের জন্য বিশ্ব বিজ্ঞান দিবস কবে পালিত হয়?",
+      "section": "mid_november",
+      "w": [
+        "৫ নভেম্বর",
+        "১১ নভেম্বর",
+        "২৮ ফেব্রুয়ারি"
+      ]
+    },
+    {
+      "a": "মৌলানা আবুল কালাম আজাদ",
+      "claims": [
+        "c07"
+      ],
+      "e": "১১ নভেম্বর স্বাধীন ভারতের প্রথম শিক্ষামন্ত্রী মৌলানা আবুল কালাম আজাদের জন্মবার্ষিকী। রাধাকৃষ্ণনের জন্মদিন ৫ সেপ্টেম্বর শিক্ষক দিবস হিসেবে পালিত হয়।",
+      "format": "DIRECT",
+      "id": "q09",
+      "level": "basic",
+      "q": "জাতীয় শিক্ষা দিবস (১১ নভেম্বর) কার জন্মবার্ষিকীতে পালিত হয়?",
+      "section": "mid_november",
+      "w": [
+        "ড. সর্বপল্লী রাধাকৃষ্ণন",
+        "জওহরলাল নেহরু",
+        "ড. জাকির হুসেন"
+      ]
+    },
+    {
+      "a": "পণ্ডিত জওহরলাল নেহরু",
+      "claims": [
+        "c13"
+      ],
+      "e": "১৪ নভেম্বর দেশের প্রথম প্রধানমন্ত্রী পণ্ডিত জওহরলাল নেহরুর জন্মদিন — সেই উপলক্ষ্যেই 'বাল দিবস' পালিত হয়।",
+      "format": "DIRECT",
+      "id": "q10",
+      "level": "basic",
+      "q": "ভারতে শিশু দিবস (বাল দিবস) ১৪ নভেম্বর কার জন্মদিন উপলক্ষ্যে পালিত হয়?",
+      "section": "mid_november",
+      "w": [
+        "মৌলানা আবুল কালাম আজাদ",
+        "বীরসা মুন্ডা",
+        "ড. এ পি জে আব্দুল কালাম"
+      ]
+    },
+    {
+      "a": "স্যার ফ্রেডরিক ব্যান্টিং",
+      "claims": [
+        "c29"
+      ],
+      "e": "দিনটি ব্যান্টিং-এর জন্মদিনে পালিত হয়; ব্যান্টিং চার্লস বেস্টের সঙ্গে ১৯২২ সালে ইনসুলিন সহ-আবিষ্কার করেন — কিন্তু দিবসটি ব্যান্টিং-এর জন্মদিনেই নির্দিষ্ট, বেস্টের নয়।",
+      "format": "DIRECT",
+      "id": "q11",
+      "level": "basic",
+      "q": "বিশ্ব ডায়াবেটিস দিবস (১৪ নভেম্বর) কার জন্মদিনে পালিত হয়?",
+      "section": "mid_november",
+      "w": [
+        "মাদাম মারি কুরি",
+        "চার্লস বেস্ট",
+        "জোনাস সল্ক"
+      ]
+    },
+    {
+      "a": "বীরসা মুন্ডা",
+      "claims": [
+        "c16"
+      ],
+      "e": "১৫ নভেম্বর আদিবাসী স্বাধীনতা সংগ্রামী বীরসা মুন্ডার জন্মবার্ষিকী — এই দিনটিই জনজাতীয় গৌরব দিবস।",
+      "format": "DIRECT",
+      "id": "q12",
+      "level": "basic",
+      "q": "জনজাতীয় গৌরব দিবস (১৫ নভেম্বর) কার জন্মবার্ষিকীতে পালিত হয়?",
+      "section": "mid_november",
+      "w": [
+        "জওহরলাল নেহরু",
+        "সর্দার বল্লভভাই প্যাটেল",
+        "ভার্গিস কুরিয়েন"
+      ]
+    },
+    {
+      "a": "৯ নভেম্বর ১৯৯৫",
+      "claims": [
+        "c10"
+      ],
+      "e": "আইনটি প্রণীত হয় ১৯৮৭ সালে, কিন্তু কার্যকর হয় ১৯৯৫ সালের ৯ নভেম্বর — তাই প্রণয়নের বছর (১৯৮৭) দেখে বিভ্রান্ত হলে চলবে না; দিবসটি কার্যকর-তারিখের।",
+      "format": "DIRECT",
+      "id": "q13",
+      "level": "moderate",
+      "q": "আইনি সেবা কর্তৃপক্ষ আইন, ১৯৮৭ কার্যকর হয় কোন তারিখে?",
+      "section": "mid_november",
+      "w": [
+        "৯ নভেম্বর ১৯৮৭",
+        "২৬ জানুয়ারি ১৯৫০",
+        "১৫ আগস্ট ১৯৯৫"
+      ]
+    },
+    {
+      "a": "ভারতের প্রধান বিচারপতি",
+      "claims": [
+        "c11"
+      ],
+      "e": "ত্রিস্তরীয় কাঠামোয় জাতীয় স্তরের প্রধান ভারতের প্রধান বিচারপতি; রাজ্য স্তরের প্রধান হাইকোর্টের প্রধান বিচারপতি এবং জেলা স্তরের প্রধান জেলা জজ।",
+      "format": "DIRECT",
+      "id": "q14",
+      "level": "moderate",
+      "q": "জাতীয় আইনি সেবা কর্তৃপক্ষের (NALSA) প্রধান কে?",
+      "section": "mid_november",
+      "w": [
+        "কেন্দ্রীয় আইনমন্ত্রী",
+        "হাইকোর্টের প্রধান বিচারপতি",
+        "জেলা জজ"
+      ]
+    },
+    {
+      "a": "১ এপ্রিল ২০১০",
+      "claims": [
+        "c08"
+      ],
+      "e": "PIB অনুযায়ী RTE আইন, ২০০৯ কার্যকর হয় ২০১০ সালের ১ এপ্রিল থেকে; অনুচ্ছেদ ২১-ক ৬–১৪ বছর বয়সীদের বিনামূল্যে ও বাধ্যতামূলক শিক্ষাকে মৌলিক অধিকার করে।",
+      "format": "DIRECT",
+      "id": "q15",
+      "level": "moderate",
+      "q": "শিক্ষার অধিকার (RTE) আইন, ২০০৯ কার্যকর হয় কবে থেকে?",
+      "section": "mid_november",
+      "w": [
+        "১১ নভেম্বর ২০০৯",
+        "১ এপ্রিল ২০০৯",
+        "২৬ জানুয়ারি ২০১০"
+      ]
+    },
+    {
+      "a": "IDF ও WHO",
+      "claims": [
+        "c28"
+      ],
+      "e": "আন্তর্জাতিক ডায়াবেটিস ফেডারেশন (IDF) ও বিশ্ব স্বাস্থ্য সংস্থা (WHO) ১৯৯১ সালে এই দিবস সৃষ্টি করে; রাষ্ট্রসংঘের আনুষ্ঠানিক দিবস হয় পরে, ২০০৬ সালে।",
+      "format": "DIRECT",
+      "id": "q16",
+      "level": "moderate",
+      "q": "বিশ্ব ডায়াবেটিস দিবস কোন দুটি সংস্থা ১৯৯১ সালে সৃষ্টি করে?",
+      "section": "mid_november",
+      "w": [
+        "UNESCO ও WHO",
+        "IDF ও রাষ্ট্রসংঘ সাধারণ পরিষদ",
+        "WHO ও UNICEF"
+      ]
+    },
+    {
+      "a": "উলগুলান (মহা আলোড়ন)",
+      "claims": [
+        "c17"
+      ],
+      "e": "বীরসা মুন্ডা নেতৃত্ব দেন উলগুলান বা 'মহা আলোড়ন' আন্দোলনের; খুন্তকাট্টি হল সামূহিক ভূমি-অধিকারের ব্যবস্থা, যার পুনরুদ্ধার ছিল আন্দোলনের লক্ষ্য — আন্দোলনের নাম নয়।",
+      "format": "DIRECT",
+      "id": "q17",
+      "level": "moderate",
+      "q": "বীরসা মুন্ডার নেতৃত্বে ১৮৯৯–১৯০০ সালের আন্দোলনটির নাম কী?",
+      "section": "mid_november",
+      "w": [
+        "খুন্তকাট্টি",
+        "সাঁওতাল হুল",
+        "মুন্ডা বিদ্রোহ-পর্ব"
+      ]
+    },
+    {
+      "a": "২৩.৫৮ কোটির বেশি",
+      "claims": [
+        "c12"
+      ],
+      "e": "PIB ব্যাখ্যা অনুযায়ী ওই সময়ে রাজ্য, স্থায়ী ও জাতীয় লোক আদালতে ২৩.৫৮ কোটির বেশি মামলা নিষ্পত্তি হয়। ৪৪.২২ লক্ষ হল একই সময়ে আইনি সাহায্যপ্রাপ্ত মানুষের সংখ্যা — দুটিকে অদলবদল করলেই ভুল।",
+      "format": "DIRECT",
+      "id": "q18",
+      "level": "difficult",
+      "q": "২০২২–২৩ থেকে ২০২৪–২৫ সময়ে লোক আদালতের মাধ্যমে কতগুলি মামলা নিষ্পত্তি হয়েছে (PIB অনুযায়ী)?",
+      "section": "mid_november",
+      "w": [
+        "২.৩৫ কোটির বেশি",
+        "৪৪.২২ লক্ষ",
+        "১৩.৮৩ লক্ষ"
+      ]
+    },
+    {
+      "a": "২০০৬",
+      "claims": [
+        "c30",
+        "c28"
+      ],
+      "e": "দিবসটি সৃষ্টি হয় ১৯৯১ সালে (IDF ও WHO), কিন্তু রাষ্ট্রসংঘের আনুষ্ঠানিক দিবসের মর্যাদা পায় ২০০৬ সাল থেকে।",
+      "format": "DIRECT",
+      "id": "q19",
+      "level": "difficult",
+      "q": "বিশ্ব ডায়াবেটিস দিবস রাষ্ট্রসংঘের আনুষ্ঠানিক দিবস হয় কোন সাল থেকে?",
+      "section": "mid_november",
+      "w": [
+        "১৯৯১",
+        "২০০০",
+        "২০১৩"
+      ]
+    },
+    {
+      "a": "বিশ্ব বিজ্ঞান দিবস – ১১ নভেম্বর",
+      "claims": [
+        "c39",
+        "c09",
+        "c07",
+        "c13"
+      ],
+      "e": "বিশ্ব বিজ্ঞান দিবস ১০ নভেম্বর, ১১ নভেম্বর নয় — ১১ নভেম্বর জাতীয় শিক্ষা দিবস। বাকি তিনটি জোড়াই সঠিক।",
+      "format": "PAIRS",
+      "id": "q20",
+      "level": "exam",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মেলেনি?",
+      "section": "mid_november",
+      "w": [
+        "জাতীয় আইনি সেবা দিবস – ৯ নভেম্বর",
+        "জাতীয় শিক্ষা দিবস – ১১ নভেম্বর",
+        "শিশু দিবস (ভারত) – ১৪ নভেম্বর"
+      ]
+    },
+    {
+      "a": "১৯ নভেম্বর",
+      "claims": [
+        "c32"
+      ],
+      "e": "বিশ্ব শৌচাগার দিবস ১৯ নভেম্বর; এই বৈশ্বিক পালন ২০১৩ সাল থেকে প্রতি বছর অনুষ্ঠিত হয়।",
+      "format": "DIRECT",
+      "id": "q21",
+      "level": "basic",
+      "q": "বিশ্ব শৌচাগার দিবস কোন তারিখে পালিত হয়?",
+      "section": "third_week",
+      "w": [
+        "২০ নভেম্বর",
+        "২১ নভেম্বর",
+        "২৫ নভেম্বর"
+      ]
+    },
+    {
+      "a": "২১ নভেম্বর",
+      "claims": [
+        "c41"
+      ],
+      "e": "বিশ্ব টেলিভিশন দিবস ২১ নভেম্বর। ২৩ নভেম্বর হল প্রসার ভারতী আইন পূর্ণ কার্যকর হওয়ার তারিখ (১৯৯৭) — দিবসের তারিখ নয়।",
+      "format": "DIRECT",
+      "id": "q22",
+      "level": "basic",
+      "q": "বিশ্ব টেলিভিশন দিবস কবে পালিত হয়?",
+      "section": "third_week",
+      "w": [
+        "১৯ নভেম্বর",
+        "২০ নভেম্বর",
+        "২৩ নভেম্বর"
+      ]
+    },
+    {
+      "a": "২০ নভেম্বর",
+      "claims": [
+        "c14"
+      ],
+      "e": "আন্তর্জাতিক শিশু অধিকার দিবস প্রতি বছর ২০ নভেম্বর; ভারতের নিজস্ব শিশু দিবস ১৪ নভেম্বর।",
+      "format": "DIRECT",
+      "id": "q23",
+      "level": "moderate",
+      "q": "আন্তর্জাতিক শিশু অধিকার দিবস কোন তারিখে পালিত হয়?",
+      "section": "third_week",
+      "w": [
+        "১৪ নভেম্বর",
+        "১৯ নভেম্বর",
+        "২১ নভেম্বর"
+      ]
+    },
+    {
+      "a": "'Making the Invisible Visible' (অদৃশ্যকে দৃশ্যমান করা)",
+      "claims": [
+        "c33",
+        "c31",
+        "c40",
+        "c46"
+      ],
+      "e": "২০২২-এর শৌচাগার দিবসের থিম ছিল 'Making the Invisible Visible'। বাকিগুলি যথাক্রমে ডায়াবেটিস দিবস (২০২১–২৩), বিজ্ঞান দিবস (২০২০) ও সহিংসতা-বিরোধী দিবসের (২০২২) থিম — থিম সবসময় বছরের সঙ্গে মনে রাখতে হয়।",
+      "format": "DIRECT",
+      "id": "q24",
+      "level": "moderate",
+      "q": "২০২২ সালের বিশ্ব শৌচাগার দিবসের থিম কী ছিল?",
+      "section": "third_week",
+      "w": [
+        "'Access to Diabetes Care'",
+        "'Science for and with Society'",
+        "'UNITE! Activism to End Violence against Women & Girls'"
+      ]
+    },
+    {
+      "a": "১৫ সেপ্টেম্বর ১৯৫৯, অল ইন্ডিয়া রেডিওর উদ্যোগে",
+      "claims": [
+        "c42"
+      ],
+      "e": "PIB অনুযায়ী ভারতে টিভি সম্প্রচার শুরু হয় পরীক্ষামূলকভাবে ১৯৫৯ সালের ১৫ সেপ্টেম্বর, তথ্য ও সম্প্রচার মন্ত্রকের অধীনে অল ইন্ডিয়া রেডিওর উদ্যোগে।",
+      "format": "DIRECT",
+      "id": "q25",
+      "level": "moderate",
+      "q": "ভারতে টেলিভিশন সম্প্রচার পরীক্ষামূলকভাবে শুরু হয় কবে ও কার উদ্যোগে?",
+      "section": "third_week",
+      "w": [
+        "২১ নভেম্বর ১৯৯৬, প্রসার ভারতীর উদ্যোগে",
+        "১৫ আগস্ট ১৯৮২, দূরদর্শনের উদ্যোগে",
+        "২৩ নভেম্বর ১৯৯৭, প্রসার ভারতীর উদ্যোগে"
+      ]
+    },
+    {
+      "a": "২৩ নভেম্বর ১৯৯৭",
+      "claims": [
+        "c43"
+      ],
+      "e": "আইনটি ১৯৯০ সালের হলেও পূর্ণ কার্যকর হয় ১৯৯৭ সালের ২৩ নভেম্বর, যার ফলে প্রসার ভারতী কর্পোরেশন গঠিত হয়।",
+      "format": "DIRECT",
+      "id": "q26",
+      "level": "difficult",
+      "q": "প্রসার ভারতী আইন, ১৯৯০ পূর্ণ কার্যকর হয় কোন তারিখে?",
+      "section": "third_week",
+      "w": [
+        "২১ নভেম্বর ১৯৯৬",
+        "২৩ নভেম্বর ১৯৯০",
+        "১৫ সেপ্টেম্বর ১৯৫৯"
+      ]
+    },
+    {
+      "a": "২০১৭ সালে ১৬–২০ নভেম্বর পালিত শিশু অধিকার সপ্তাহ (নারী ও শিশু উন্নয়ন মন্ত্রক)",
+      "claims": [
+        "c15"
+      ],
+      "e": "মন্ত্রক ১৪ নভেম্বর (শিশু দিবস) ও ২০ নভেম্বর (আন্তর্জাতিক শিশু অধিকার দিবস) — এই দুই দিবসের মাঝের সময়টিকে 'হাউসলা ২০১৭' নামে শিশু অধিকার সপ্তাহ হিসেবে পালন করে।",
+      "format": "DIRECT",
+      "id": "q27",
+      "level": "difficult",
+      "q": "'হাউসলা ২০১৭' কী?",
+      "section": "third_week",
+      "w": [
+        "২০১৭ সালের বিশ্ব শৌচাগার দিবসের থিম",
+        "শিশু দিবস উপলক্ষ্যে একটি চিত্রাঙ্কন প্রতিযোগিতা",
+        "NCPCR-এর একটি পোর্টাল"
+      ]
+    },
+    {
+      "a": "ক-৩, খ-১, গ-২",
+      "claims": [
+        "c32",
+        "c14",
+        "c41"
+      ],
+      "e": "শৌচাগার দিবস ১৯ নভেম্বর, শিশু অধিকার দিবস ২০ নভেম্বর, টেলিভিশন দিবস ২১ নভেম্বর — পরপর তিন দিন, পরপর তিন দিবস।",
+      "format": "MATCH",
+      "id": "q28",
+      "level": "exam",
+      "q": "স্তম্ভ মেলাও:\nক. বিশ্ব শৌচাগার দিবস\nখ. আন্তর্জাতিক শিশু অধিকার দিবস\nগ. বিশ্ব টেলিভিশন দিবস\n১. ২০ নভেম্বর\n২. ২১ নভেম্বর\n৩. ১৯ নভেম্বর\nসঠিক মিল কোনটি?",
+      "section": "third_week",
+      "w": [
+        "ক-১, খ-৩, গ-২",
+        "ক-৩, খ-২, গ-১",
+        "ক-২, খ-১, গ-৩"
+      ]
+    },
+    {
+      "a": "ড. ভার্গিস কুরিয়েন",
+      "claims": [
+        "c23"
+      ],
+      "e": "২৬ নভেম্বর 'শ্বেত বিপ্লবের জনক' ড. ভার্গিস কুরিয়েনের জন্মবার্ষিকী — তাই এই দিনে জাতীয় দুগ্ধ দিবস। স্বামীনাথন সবুজ বিপ্লবের সঙ্গে যুক্ত, দুগ্ধ দিবসের সঙ্গে নয়।",
+      "format": "DIRECT",
+      "id": "q29",
+      "level": "basic",
+      "q": "জাতীয় দুগ্ধ দিবস (২৬ নভেম্বর) কার জন্মবার্ষিকীতে পালিত হয়?",
+      "section": "final_week",
+      "w": [
+        "মৌলানা আবুল কালাম আজাদ",
+        "ড. এম এস স্বামীনাথন",
+        "লাল বাহাদুর শাস্ত্রী"
+      ]
+    },
+    {
+      "a": "২৫ নভেম্বর",
+      "claims": [
+        "c44",
+        "c46"
+      ],
+      "e": "দিবসটি প্রতি বছর ২৫ নভেম্বর পালিত হয়। ১০ ডিসেম্বর মানবাধিকার দিবস — ২৫ নভেম্বর থেকে শুরু হওয়া 16 Days of Activism শেষ হয় সেই দিনে।",
+      "format": "DIRECT",
+      "id": "q30",
+      "level": "basic",
+      "q": "নারীর বিরুদ্ধে সহিংসতা দূরীকরণের আন্তর্জাতিক দিবস কবে পালিত হয়?",
+      "section": "final_week",
+      "w": [
+        "৮ মার্চ",
+        "১০ ডিসেম্বর",
+        "২৬ নভেম্বর"
+      ]
+    },
+    {
+      "a": "২৬ নভেম্বর ১৯২১, কোঝিকোড়, কেরল",
+      "claims": [
+        "c24",
+        "c17"
+      ],
+      "e": "কুরিয়েনের জন্ম কেরলের কোঝিকোড়ে, ১৯২১ সালের ২৬ নভেম্বর। আনন্দ (গুজরাট) তাঁর কর্মক্ষেত্র ও সমবায়-আন্দোলনের কেন্দ্র, জন্মস্থান নয়; উলিহাতু বীরসা মুন্ডার জন্মগ্রাম।",
+      "format": "DIRECT",
+      "id": "q31",
+      "level": "moderate",
+      "q": "ড. ভার্গিস কুরিয়েনের জন্ম কোথায় ও কবে?",
+      "section": "final_week",
+      "w": [
+        "২৬ নভেম্বর ১৯২১, আনন্দ, গুজরাট",
+        "১৫ নভেম্বর ১৮৭৪, উলিহাতু, ঝাড়খণ্ড",
+        "২৬ জানুয়ারি ১৯২১, কোঝিকোড়, কেরল"
+      ]
+    },
+    {
+      "a": "১৯৬৫ সালে; ভার্গিস কুরিয়েন",
+      "claims": [
+        "c25"
+      ],
+      "e": "NDDB গঠিত হয় ১৯৬৫ সালে এবং কুরিয়েন ছিলেন এর প্রথম সভাপতি; বোর্ডটির উদ্দেশ্য ছিল অপারেশন ফ্লাডের মাধ্যমে আনন্দ-ধাঁচের দুগ্ধ সমবায় সারা দেশে ছড়িয়ে দেওয়া।",
+      "format": "DIRECT",
+      "id": "q32",
+      "level": "moderate",
+      "q": "জাতীয় দুগ্ধ উন্নয়ন বোর্ড (NDDB) গঠিত হয় কোন সালে এবং এর প্রথম সভাপতি কে ছিলেন?",
+      "section": "final_week",
+      "w": [
+        "১৯৭০ সালে; ভার্গিস কুরিয়েন",
+        "১৯৬৫ সালে; লাল বাহাদুর শাস্ত্রী",
+        "১৯৯১ সালে; ভার্গিস কুরিয়েন"
+      ]
+    },
+    {
+      "a": "৭ ফেব্রুয়ারি ২০০০",
+      "claims": [
+        "c45"
+      ],
+      "e": "PIB ব্যাখ্যা অনুযায়ী ২০০০ সালের ৭ ফেব্রুয়ারি ২৫ নভেম্বরকে আনুষ্ঠানিকভাবে এই দিবস হিসেবে নির্ধারণ করা হয়।",
+      "format": "DIRECT",
+      "id": "q33",
+      "level": "moderate",
+      "q": "২৫ নভেম্বরকে নারীর বিরুদ্ধে সহিংসতা দূরীকরণের আন্তর্জাতিক দিবস হিসেবে আনুষ্ঠানিকভাবে নির্ধারণ করা হয় কবে?",
+      "section": "final_week",
+      "w": [
+        "২৫ নভেম্বর ১৯৯৩",
+        "১০ ডিসেম্বর ২০০০",
+        "৭ ফেব্রুয়ারি ১৯৯২"
+      ]
+    },
+    {
+      "a": "বিশ্বে প্রথম; বার্ষিক ২৩০.৫৮ মিলিয়ন টন, বিশ্ব উৎপাদনের ২৫%",
+      "claims": [
+        "c26"
+      ],
+      "e": "PIB অনুযায়ী ভারত দুগ্ধ উৎপাদনে বিশ্বে প্রথম — ২৩০.৫৮ মিলিয়ন টন, যা বিশ্ব উৎপাদনের ২৫ শতাংশ; দ্বিতীয় স্থানে যুক্তরাষ্ট্র।",
+      "format": "DIRECT",
+      "id": "q34",
+      "level": "difficult",
+      "q": "দুগ্ধ উৎপাদনে ভারতের বৈশ্বিক অবস্থান ও অংশ (PIB অনুযায়ী) কোনটি?",
+      "section": "final_week",
+      "w": [
+        "বিশ্বে দ্বিতীয়; বিশ্ব উৎপাদনের ২৫%",
+        "বিশ্বে প্রথম; বিশ্ব উৎপাদনের ১০%",
+        "বিশ্বে তৃতীয়; বার্ষিক ২৩০.৫৮ মিলিয়ন টন"
+      ]
+    },
+    {
+      "a": "২৫ নভেম্বর থেকে ১০ ডিসেম্বর (মানবাধিকার দিবস)",
+      "claims": [
+        "c46"
+      ],
+      "e": "নারীর বিরুদ্ধে সহিংসতা দূরীকরণ দিবস (২৫ নভেম্বর) থেকে শুরু হয়ে প্রচারটি শেষ হয় আন্তর্জাতিক মানবাধিকার দিবসে (১০ ডিসেম্বর) — মোট ষোলো দিন।",
+      "format": "DIRECT",
+      "id": "q35",
+      "level": "difficult",
+      "q": "'16 Days of Activism' প্রচারটি কোন সময়জুড়ে চলে?",
+      "section": "final_week",
+      "w": [
+        "১৪ নভেম্বর থেকে ২৯ নভেম্বর",
+        "২৫ নভেম্বর থেকে ২৬ নভেম্বর",
+        "১ নভেম্বর থেকে ১৬ নভেম্বর"
+      ]
+    },
+    {
+      "a": "৩১ জানুয়ারি ১৯৯২",
+      "claims": [
+        "c47"
+      ],
+      "e": "ভারত সরকার ১৯৯২ সালের ৩১ জানুয়ারি NCW-কে একটি বিধিবদ্ধ সংস্থা হিসেবে গঠন করে।",
+      "format": "DIRECT",
+      "id": "q36",
+      "level": "difficult",
+      "q": "জাতীয় মহিলা কমিশন (NCW) কবে গঠিত হয়?",
+      "section": "final_week",
+      "w": [
+        "২৫ নভেম্বর ২০০০",
+        "৮ মার্চ ১৯৯২",
+        "৩১ জানুয়ারি ২০১৫"
+      ]
+    },
+    {
+      "a": "২৬ নভেম্বর",
+      "claims": [
+        "c01"
+      ],
+      "e": "সংবিধান দিবস ২৬ নভেম্বর — ১৯৪৯ সালের এই দিনে গণপরিষদ সংবিধান গ্রহণ করে। ২৬ জানুয়ারি প্রজাতন্ত্র দিবস (কার্যকর হওয়ার তারিখ)।",
+      "format": "DIRECT",
+      "id": "q37",
+      "level": "basic",
+      "q": "সংবিধান দিবস (সম্বিধান দিবস) কোন তারিখে পালিত হয়?",
+      "section": "constitution_day",
+      "w": [
+        "২৬ জানুয়ারি",
+        "১৫ আগস্ট",
+        "২৪ জানুয়ারি"
+      ]
+    },
+    {
+      "a": "২০১৫",
+      "claims": [
+        "c05"
+      ],
+      "e": "সামাজিক ন্যায় ও ক্ষমতায়ন মন্ত্রক ২০১৫ সালের ১৯ নভেম্বর ঘোষণা করে যে প্রতি বছর ২৬ নভেম্বর সংবিধান দিবস পালিত হবে। ১৯৪৯ গ্রহণের বছর, ঘোষণার নয়।",
+      "format": "DIRECT",
+      "id": "q38",
+      "level": "moderate",
+      "q": "২৬ নভেম্বরকে সংবিধান দিবস হিসেবে পালনের সরকারি ঘোষণা আসে কোন সালে?",
+      "section": "constitution_day",
+      "w": [
+        "১৯৪৯",
+        "১৯৫০",
+        "২০২৪"
+      ]
+    },
+    {
+      "a": "৩৯৫টি অনুচ্ছেদ, ২২টি ভাগ, ৮টি তফসিল",
+      "claims": [
+        "c02"
+      ],
+      "e": "PIB তথ্যপত্র অনুযায়ী কার্যকর হওয়ার সময়ে সংবিধানে ছিল ৩৯৫টি অনুচ্ছেদ, ২২টি ভাগ ও ৮টি তফসিল — তখন এটি বিশ্বের দীর্ঘতম লিখিত সংবিধান।",
+      "format": "DIRECT",
+      "id": "q39",
+      "level": "moderate",
+      "q": "কার্যকর হওয়ার সময়ে ভারতের সংবিধানে কয়টি অনুচ্ছেদ, ভাগ ও তফসিল ছিল?",
+      "section": "constitution_day",
+      "w": [
+        "৩৯৫টি অনুচ্ছেদ, ২২টি ভাগ, ১২টি তফসিল",
+        "৪৪৮টি অনুচ্ছেদ, ২৫টি ভাগ, ৮টি তফসিল",
+        "৩৯৫টি অনুচ্ছেদ, ১২টি ভাগ, ৮টি তফসিল"
+      ]
+    },
+    {
+      "a": "ক্যালিগ্রাফি: প্রেম বিহারী নারায়ণ রাইজাদা; নির্দেশনা: আচার্য নন্দলাল বসু (শান্তিনিকেতন)",
+      "claims": [
+        "c03"
+      ],
+      "e": "সংবিধানটি হাতে লেখা ও ক্যালিগ্রাফিক ছিল; শান্তিনিকেতনের শিল্পীরা নন্দলাল বসুর নির্দেশনায় তা তৈরি করেন এবং দিল্লিতে ক্যালিগ্রাফির লেখা করেন প্রেম বিহারী নারায়ণ রাইজাদা।",
+      "format": "DIRECT",
+      "id": "q40",
+      "level": "difficult",
+      "q": "মূল সংবিধানের ক্যালিগ্রাফির লেখা কে করেন এবং শিল্পকর্মের নির্দেশনায় কে ছিলেন?",
+      "section": "constitution_day",
+      "w": [
+        "ক্যালিগ্রাফি: নন্দলাল বসু; নির্দেশনা: রাইজাদা",
+        "ক্যালিগ্রাফি: রাইজাদা; নির্দেশনা: অবনীন্দ্রনাথ ঠাকুর",
+        "ক্যালিগ্রাফি: বেনোদ বিহারী মুখোপাধ্যায়; নির্দেশনা: নন্দলাল বসু"
+      ]
+    },
+    {
+      "a": "২৮৪ জন",
+      "claims": [
+        "c04",
+        "c02"
+      ],
+      "e": "PIB তথ্যপত্র অনুযায়ী ১৯৫০ সালের ২৪ জানুয়ারি সংসদ ভবনের সংবিধান হলে ২৮৪ জন সদস্য সংবিধানে স্বাক্ষর করেন। ৩৯৫ হল অনুচ্ছেদের সংখ্যা — সংখ্যা দুটি গুলিয়ো না।",
+      "format": "DIRECT",
+      "id": "q41",
+      "level": "difficult",
+      "q": "১৯৫০ সালের ২৪ জানুয়ারি গণপরিষদের কতজন সদস্য সংবিধানে স্বাক্ষর করেন?",
+      "section": "constitution_day",
+      "w": [
+        "৩৯৫ জন",
+        "২৯৯ জন",
+        "৩০৮ জন"
+      ]
+    },
+    {
+      "a": "২৪ জানুয়ারি ২০২৪; ভারতের উপরাষ্ট্রপতি",
+      "claims": [
+        "c06"
+      ],
+      "e": "প্রচারটি শুরু হয় ২০২৪ সালের ২৪ জানুয়ারি নয়াদিল্লির ড. বি আর আম্বেদকর আন্তর্জাতিক কেন্দ্রে, উদ্বোধন করেন উপরাষ্ট্রপতি।",
+      "format": "DIRECT",
+      "id": "q42",
+      "level": "moderate",
+      "q": "'হামারা সম্বিধান, হামারা সম্মান' প্রচারটি কবে ও কার দ্বারা উদ্বোধিত হয়?",
+      "section": "constitution_day",
+      "w": [
+        "২৬ নভেম্বর ২০১৫; প্রধানমন্ত্রী",
+        "২৬ জানুয়ারি ২০২৪; রাষ্ট্রপতি",
+        "১৯ নভেম্বর ২০১৫; সামাজিক ন্যায়মন্ত্রী"
+      ]
+    },
+    {
+      "a": "A ভুল, কিন্তু R সঠিক",
+      "claims": [
+        "c13",
+        "c14"
+      ],
+      "e": "ভারতের শিশু দিবস ১৪ নভেম্বর (নেহরুর জন্মদিন), তাই A ভুল। R সঠিক — ২০ নভেম্বর আন্তর্জাতিক শিশু অধিকার দিবস। দুটি তারিখের এই অদলবদলই সবচেয়ে সাধারণ ফাঁদ।",
+      "format": "ASSERTION_REASON",
+      "id": "q43",
+      "level": "exam",
+      "q": "দাবি (A): ভারতে শিশু দিবস পালিত হয় ২০ নভেম্বর।\nকারণ (R): ২০ নভেম্বর আন্তর্জাতিক শিশু অধিকার দিবস।\nসঠিক বিকল্প কোনটি?",
+      "section": "date_traps",
+      "w": [
+        "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+        "A ও R দুটোই সঠিক, কিন্তু R, A-এর ব্যাখ্যা নয়",
+        "A সঠিক, কিন্তু R ভুল"
+      ]
+    },
+    {
+      "a": "১ → ২ → ৩ → ৪",
+      "claims": [
+        "c10",
+        "c05",
+        "c35",
+        "c19"
+      ],
+      "e": "ক্রমটি হল: আইন কার্যকর ১৯৯৫ → সংবিধান দিবসের ঘোষণা ২০১৫ → প্রথম সুনামি দিবস ২০১৬ → বীরসা মুন্ডা জাদুঘর উদ্বোধন ২০২১।",
+      "format": "CHRONOLOGY",
+      "id": "q44",
+      "level": "exam",
+      "q": "ঘটনাগুলিকে কালানুক্রমে সাজাও:\n১. আইনি সেবা কর্তৃপক্ষ আইন কার্যকর\n২. সংবিধান দিবস পালনের সরকারি ঘোষণা\n৩. প্রথম বিশ্ব সুনামি সচেতনতা দিবস\n৪. রাঁচিতে বীরসা মুন্ডা জাদুঘর উদ্বোধন",
+      "section": "date_traps",
+      "w": [
+        "২ → ১ → ৩ → ৪",
+        "১ → ৩ → ২ → ৪",
+        "১ → ২ → ৪ → ৩"
+      ]
+    },
+    {
+      "a": "শুধু ৩",
+      "claims": [
+        "c01"
+      ],
+      "e": "শুধু ৩ সঠিক। ১ ও ২-এ তারিখ দুটি ইচ্ছাকৃতভাবে অদলবদল করা হয়েছে: গৃহীত হয় ২৬ নভেম্বর ১৯৪৯, কার্যকর হয় ২৬ জানুয়ারি ১৯৫০।",
+      "format": "STATEMENT",
+      "id": "q45",
+      "level": "exam",
+      "q": "বিবৃতি বিবেচনা করো:\n১. ভারতের সংবিধান গৃহীত হয় ২৬ জানুয়ারি ১৯৫০ সালে।\n২. ভারতের সংবিধান কার্যকর হয় ২৬ নভেম্বর ১৯৪৯ সালে।\n৩. সংবিধান দিবস পালিত হয় সংবিধান গ্রহণের স্মরণে।\nকোন বিবৃতিগুলি সঠিক?",
+      "section": "date_traps",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১, ২ ও ৩"
+      ]
+    },
+    {
+      "a": "শিশু দিবস (ভারত) – ২০ নভেম্বর",
+      "claims": [
+        "c13",
+        "c14",
+        "c29",
+        "c32",
+        "c23"
+      ],
+      "e": "ভারতের শিশু দিবস ১৪ নভেম্বর; ২০ নভেম্বর আন্তর্জাতিক শিশু অধিকার দিবস। বাকি তিনটি জোড়াই সঠিক।",
+      "format": "PAIRS",
+      "id": "q46",
+      "level": "difficult",
+      "q": "তারিখ-জোড়গুলির মধ্যে কোনটি ভুল মিলেছে?",
+      "section": "date_traps",
+      "w": [
+        "বিশ্ব ডায়াবেটিস দিবস – ১৪ নভেম্বর",
+        "বিশ্ব শৌচাগার দিবস – ১৯ নভেম্বর",
+        "জাতীয় দুগ্ধ দিবস – ২৬ নভেম্বর"
+      ]
+    },
+    {
+      "a": "ইছামতী সমবায় দুগ্ধ ইউনিয়ন",
+      "claims": [
+        "c27"
+      ],
+      "e": "PIB অনুযায়ী পশ্চিমবঙ্গের ইছামতী সমবায় দুগ্ধ ইউনিয়ন ও অন্ধ্রপ্রদেশের মুলুকানুর মহিলা দুগ্ধ ইউনিয়ন — এই দুটিই সর্ব-মহিলা সমবায় দুগ্ধ, যা মহিলাদের দ্বারাই পরিচালিত। প্রশ্নে পশ্চিমবঙ্গেরটি চাওয়া হয়েছে, তাই উত্তর ইছামতী।",
+      "format": "DIRECT",
+      "id": "q47",
+      "level": "moderate",
+      "q": "পশ্চিমবঙ্গের কোন দুগ্ধ ইউনিয়নটি সর্ব-মহিলা সমবায় দুগ্ধ হিসেবে পরিচিত (PIB অনুযায়ী)?",
+      "section": "final_week",
+      "w": [
+        "আনন্দ দুগ্ধ ইউনিয়ন",
+        "মুলুকানুর দুগ্ধ ইউনিয়ন (অন্ধ্রপ্রদেশ)",
+        "কলকাতা দুগ্ধ ইউনিয়ন"
+      ]
+    },
+    {
+      "a": "বীরসা মুন্ডার জন্মের ১৫০ বছর পূর্তি",
+      "claims": [
+        "c18"
+      ],
+      "e": "PIB ব্যাখ্যা অনুযায়ী বীরসা মুন্ডার (জন্ম ১৮৭৪) জন্মের ১৫০ বছর পূর্তিতে ২০২৪–২৫ সালটি জনজাতীয় গৌরব বর্ষ হিসেবে পালিত হয়।",
+      "format": "DIRECT",
+      "id": "q48",
+      "level": "difficult",
+      "q": "২০২৪–২৫ সালটি 'জনজাতীয় গৌরব বর্ষ' হিসেবে পালিত হয় কোন উপলক্ষ্যে?",
+      "section": "mid_november",
+      "w": [
+        "জনজাতীয় গৌরব দিবস ঘোষণার ১০ বছর পূর্তি",
+        "উলগুলান আন্দোলনের ১২৫ বছর পূর্তি",
+        "বীরসা মুন্ডা জাদুঘর উদ্বোধনের ৫ বছর পূর্তি"
+      ]
+    }
+  ],
+  "quick_revision": [
+    "| তারিখ | দিবস | কারণ |",
+    "| ৫ নভেম্বর | বিশ্ব সুনামি সচেতনতা দিবস | ১৮৫৪ সালের 'ইনামুরা নো হি' ঘটনার স্মরণে; প্রথম পালন ২০১৬ |",
+    "| ৭ নভেম্বর | জাতীয় ক্যান্সার সচেতনতা দিবস | মাদাম মারি কুরির জন্মের সম্মানে; ভারত প্রথম স্বীকৃতিদাতা দেশ |",
+    "| ৯ নভেম্বর | জাতীয় আইনি সেবা দিবস | আইনি সেবা কর্তৃপক্ষ আইন কার্যকর হয় ৯ নভেম্বর ১৯৯৫ |",
+    "| ১০ নভেম্বর | শান্তি ও উন্নয়নের জন্য বিশ্ব বিজ্ঞান দিবস | বিজ্ঞান ও সমাজের যোগসূত্রের প্রচার |",
+    "| ১১ নভেম্বর | জাতীয় শিক্ষা দিবস | প্রথম শিক্ষামন্ত্রী মৌলানা আবুল কালাম আজাদের জন্মবার্ষিকী |",
+    "| ১৪ নভেম্বর | শিশু দিবস (বাল দিবস) | প্রথম প্রধানমন্ত্রী জওহরলাল নেহরুর জন্মদিন |",
+    "| ১৪ নভেম্বর | বিশ্ব ডায়াবেটিস দিবস | ইনসুলিনের সহ-আবিষ্কারক ফ্রেডরিক ব্যান্টিং-এর জন্মদিন; সৃষ্টি ১৯৯১ (IDF ও WHO) |",
+    "| ১৫ নভেম্বর | জনজাতীয় গৌরব দিবস | বীরসা মুন্ডার জন্মবার্ষিকী; উলগুলানের নেতা, 'ধরতি আবা' |",
+    "| ১৯ নভেম্বর | বিশ্ব শৌচাগার দিবস | ২০১৩ সাল থেকে বার্ষিক; স্বাস্থ্যসম্মত শৌচব্যবস্থার সচেতনতা |",
+    "| ২০ নভেম্বর | আন্তর্জাতিক শিশু অধিকার দিবস (বিশ্ব শিশু দিবস) | ভারতের ১৪ নভেম্বরের সঙ্গে গুলিয়ো না |",
+    "| ২১ নভেম্বর | বিশ্ব টেলিভিশন দিবস | রাষ্ট্রসংঘ সাধারণ পরিষদের প্রস্তাব, ১৯৯৬ |",
+    "| ২৫ নভেম্বর | নারীর বিরুদ্ধে সহিংসতা দূরীকরণের আন্তর্জাতিক দিবস | আনুষ্ঠানিক নির্ধারণ ২০০০; এখান থেকে 16 Days of Activism শুরু |",
+    "| ২৬ নভেম্বর | সংবিধান দিবস (সম্বিধান দিবস) | গণপরিষদ সংবিধান গ্রহণ করে ২৬ নভেম্বর ১৯৪৯; দিবস-ঘোষণা ২০১৫ |",
+    "| ২৬ নভেম্বর | জাতীয় দুগ্ধ দিবস | শ্বেত বিপ্লবের জনক ড. ভার্গিস কুরিয়েনের জন্মবার্ষিকী (জন্ম ১৯২১, কোঝিকোড়) |"
+  ],
+  "reading_minutes": {
+    "deep": 35,
+    "quick": 6,
+    "standard": 25
+  },
+  "related_facts": [
+    "GK-DAY-011"
+  ],
+  "sections": [
+    {
+      "boxes": [
+        {
+          "body": "৫ নভেম্বর = ধান-আঁটির আগুন (১৮৫৪)। গল্পটা মনে থাকলে তারিখটা ভুল হবে না: ভূমিকম্প → আগুনের সংকেত → গ্রামবাসীদের প্রাণরক্ষা।",
+          "claims": [
+            "c36"
+          ],
+          "kind": "remember",
+          "title": "তারিখের গল্প মনে রাখো"
+        }
+      ],
+      "claims": [
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c20",
+        "c21",
+        "c22"
+      ],
+      "deep": "দুটি দিবসের গঠনগত পার্থক্য লক্ষ্য করো: সুনামি দিবসটি রাষ্ট্রসংঘ-ঘোষিত একটি আন্তর্জাতিক দিবস, যার তারিখ নির্ধারণ করেছে একটি ঐতিহাসিক ঘটনার বার্ষিকী (১৮৫৪); আর ক্যান্সার দিবসটি ভারতের নিজস্ব জাতীয় পালন, যার তারিখ নির্ধারণ করেছে একজন বিজ্ঞানীর জন্মদিন। পরীক্ষায় 'কোনটি আন্তর্জাতিক, কোনটি জাতীয়' — এই বিভাজনটাই প্রায়ই যাচাই করা হয়।",
+      "heading": "প্রথম সপ্তাহ: সুনামি সচেতনতা (৫ নভেম্বর) ও ক্যান্সার সচেতনতা (৭ নভেম্বর)",
+      "id": "first_week",
+      "quick": "৫ নভেম্বর বিশ্ব সুনামি সচেতনতা দিবস — তারিখটি এসেছে ১৮৫৪ সালের জাপানি 'ইনামুরা নো হি' ঘটনা থেকে। ৭ নভেম্বর ভারতে জাতীয় ক্যান্সার সচেতনতা দিবস — দিনটি নোবেলজয়ী মাদাম মারি কুরির জন্মদিনের সঙ্গে যুক্ত।",
+      "standard": "মাসের প্রথম বড় দিবসটি একটি প্রাকৃতিক বিপর্যয়কে নিয়ে। **বিশ্ব সুনামি সচেতনতা দিবস পালিত হয় ৫ নভেম্বর।** প্রথমবার এই দিবস পালিত হয় ২০১৬ সালের ৫ নভেম্বর। তারিখটির পেছনে আছে ১৮৫৪ সালের একটি জাপানি ঘটনা: ১৮৫৪ সালের ৫ নভেম্বর প্রবল ভূমিকম্পের পর জাপানের ওয়াকায়ামা অঞ্চলের এক গ্রামবাসী আসন্ন সুনামির আশঙ্কা করে পাহাড়ের ওপরে নিজের ধানের আঁটিতে আগুন ধরিয়ে দেন। আগুন নেভাতে পাহাড়ে ওঠা গ্রামবাসীরা বেঁচে যান, যদিও নিচের গ্রাম সুনামিতে ধ্বংস হয়ে যায়। এই ঘটনাটি ইতিহাসে 'ইনামুরা নো হি' (ধান-আঁটির আগুন) নামে পরিচিত এবং এটিকেই সুনামির প্রথম নথিভুক্ত আগাম সতর্কবার্তা বলে ধরা হয়। সেই দিনটিকে স্মরণ করেই জাপানসহ ১৪২টি দেশের যৌথ প্রস্তাবের পর রাষ্ট্রসংঘ ৫ নভেম্বরকে বিশ্ব সুনামি সচেতনতা দিবস হিসেবে ঘোষণা করে। ভারতের দিক থেকে মনে রাখবে: ২০০৪ সালের ভারত মহাসাগরের বিধ্বংসী সুনামির পর ভারত সরকার হায়দরাবাদে INCOIS-এর অধীনে ভারতীয় সুনামি আগাম সতর্কীকরণ কেন্দ্র (ITEWC) গড়ে তোলে, যা ২০০৭ সালের অক্টোবর থেকে কাজ করছে এবং সমগ্র ভারত মহাসাগর অঞ্চলের জন্য সুনামি বুলেটিন জারি করে।\n\nদুই দিন পরেই, **৭ নভেম্বর, ভারতে পালিত হয় জাতীয় ক্যান্সার সচেতনতা দিবস।** দিবসটির উদ্দেশ্য ক্যান্সারের ক্রমবর্ধমান ভার সম্পর্কে সচেতনতা বাড়ানো এবং প্রতিরোধ, আগাম শনাক্তকরণ ও চিকিৎসার দিকে পদক্ষেপে উৎসাহ দেওয়া। তারিখটি বেছে নেওয়া হয়েছে নোবেল পুরস্কারজয়ী মাদাম মারি কুরির জন্মের সম্মানে — তেজস্ক্রিয়তা আবিষ্কার করেন তিনি, আর তাঁর কাজের ক্যান্সার-চিকিৎসায় গভীর প্রভাব রয়েছে। একটি বিশেষ তথ্য পরীক্ষায় কাজে লাগে: ভারতই বিশ্বের প্রথম দেশ যেখানে জাতীয় ক্যান্সার সচেতনতা দিবস আনুষ্ঠানিকভাবে স্বীকৃত। PIB-র ব্যাখ্যায় আরও বলা হয়েছে, ভারতে ক্যান্সারের একক বৃহত্তম কারণ হল তামাক সেবন — তাই এই দিবসের প্রচারের কেন্দ্রে থাকে তামাক-ত্যাগ ও আগাম পরীক্ষা (স্ক্রিনিং)।"
+    },
+    {
+      "boxes": [
+        {
+          "body": "ভারতের শিশু দিবস ১৪ নভেম্বর (নেহরুর জন্মদিন)। কিন্তু আন্তর্জাতিক শিশু অধিকার দিবস / বিশ্ব শিশু দিবস ২০ নভেম্বর। দুটিকে গুলিয়ে ফেললেই নম্বর যাবে — বিস্তারিত শেষ অংশে।",
+          "claims": [
+            "c13",
+            "c14"
+          ],
+          "kind": "dont_confuse",
+          "title": "১৪ নভেম্বর বনাম ২০ নভেম্বর"
+        },
+        {
+          "body": "এই অধ্যায়ের PIB উৎসে বীরসা মুন্ডার জন্মসাল ১৮৭৪ লেখা আছে এবং ২০২৪–২৫-কে ১৫০তম জন্মবার্ষিকীর বছর বলা হয়েছে। কিছু অন্য সূত্রে ১৮৭৫ সালও দেখা যায়; এই অধ্যায়ে আমরা যাচাই করা PIB উৎসের কথাই রেখেছি।",
+          "claims": [
+            "c17",
+            "c18"
+          ],
+          "kind": "exam_note",
+          "title": "বীরসা মুন্ডার জন্মসাল"
+        }
+      ],
+      "claims": [
+        "c09",
+        "c10",
+        "c11",
+        "c12",
+        "c39",
+        "c40",
+        "c07",
+        "c08",
+        "c13",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c16",
+        "c17",
+        "c18",
+        "c19"
+      ],
+      "deep": "এই অংশের পাঁচটি দিবসের মধ্যে চারটিই জন্মবার্ষিকী-ভিত্তিক (আজাদ, নেহরু, ব্যান্টিং, বীরসা মুন্ডা) এবং একটিই ঘটনা-ভিত্তিক (আইন কার্যকর হওয়া)। পরীক্ষার জোড়া-মেলানো প্রশ্নে এই ধাঁচটা চিনতে পারলেই অর্ধেক কাজ হয়ে যায়: ব্যক্তি → দিবস মেলাও, আর আইনি সেবা দিবসকে আলাদা করে মনে রাখো — ওটি কোনো ব্যক্তির জন্মদিন নয়।",
+      "heading": "মাসের মধ্যভাগ I: আইনি সেবা (৯), বিজ্ঞান (১০), শিক্ষা (১১), শিশু ও ডায়াবেটিস (১৪), জনজাতীয় গৌরব (১৫)",
+      "id": "mid_november",
+      "quick": "৯ নভেম্বর জাতীয় আইনি সেবা দিবস (আইন কার্যকর ১৯৯৫), ১০ নভেম্বর শান্তি ও উন্নয়নের জন্য বিশ্ব বিজ্ঞান দিবস, ১১ নভেম্বর জাতীয় শিক্ষা দিবস (আজাদ), ১৪ নভেম্বর শিশু দিবস (নেহরু) ও বিশ্ব ডায়াবেটিস দিবস, ১৫ নভেম্বর জনজাতীয় গৌরব দিবস (বীরসা মুন্ডা)।",
+      "standard": "**৯ নভেম্বর — জাতীয় আইনি সেবা দিবস।** এই দিবস পালিত হয় আইনি সেবা কর্তৃপক্ষ আইন, ১৯৮৭-কে স্মরণ করে — যে আইনের অধীনে অভাবী মানুষের জন্য বিনামূল্যে আইনি সাহায্য দেওয়ার সংস্থাগুলি গড়ে ওঠে। তারিখটির কারণ খুব নির্দিষ্ট: আইনটি কার্যকর হয়েছিল ১৯৯৫ সালের ৯ নভেম্বর, তাই সেই দিনটিই প্রতি বছর জাতীয় আইনি সেবা দিবস হিসেবে পালিত হয়। এই আইনের অধীনে গড়ে উঠেছে ত্রিস্তরীয় কাঠামো: জাতীয় স্তরে জাতীয় আইনি সেবা কর্তৃপক্ষ (NALSA, প্রধান ভারতের প্রধান বিচারপতি), রাজ্য স্তরে রাজ্য আইনি সেবা কর্তৃপক্ষ (প্রধান হাইকোর্টের প্রধান বিচারপতি) এবং জেলা স্তরে জেলা আইনি সেবা কর্তৃপক্ষ (প্রধান জেলা জজ)। এই আইনেই প্রতিষ্ঠিত হয় লোক আদালত — বিকল্প বিবাদ-নিষ্পত্তির মঞ্চ; ২০২২–২৩ থেকে ২০২৪–২৫ সময়ে লোক আদালতের মাধ্যমে ২৩.৫৮ কোটির বেশি মামলা নিষ্পত্তি হয়েছে।\n\n**১০ নভেম্বর — শান্তি ও উন্নয়নের জন্য বিশ্ব বিজ্ঞান দিবস।** PIB জানায়, বিশ্ব বিজ্ঞান দিবস পালিত হয় ১০ নভেম্বর। ২০২০ সালে এই দিবস উপলক্ষ্যে বিজ্ঞান ও প্রযুক্তি বিভাগ (DST) ও UNESCO যৌথভাবে ওয়েবিনার আয়োজন করে; সে বছরের থিম ছিল 'Science for and with Society' (২০২০-এর থিম — প্রতি বছরের থিম আলাদা হয়)।\n\n**১১ নভেম্বর — জাতীয় শিক্ষা দিবস।** প্রতি বছর ১১ নভেম্বর এই দিবস পালিত হয় স্বাধীন ভারতের প্রথম শিক্ষামন্ত্রী ও বিশিষ্ট শিক্ষাবিদ মৌলানা আবুল কালাম আজাদের সম্মানে — দিনটি তাঁর জন্মবার্ষিকী। একই প্রসঙ্গে মনে রাখবে: সংবিধানের ৮৬তম সংশোধনে আসা অনুচ্ছেদ ২১-ক ছয় থেকে চৌদ্দ বছর বয়সী শিশুদের বিনামূল্যে ও বাধ্যতামূলক শিক্ষাকে মৌলিক অধিকার হিসেবে নিশ্চিত করে, আর শিক্ষার অধিকার (RTE) আইন, ২০০৯ কার্যকর হয় ২০১০ সালের ১ এপ্রিল থেকে।\n\n**১৪ নভেম্বর — দুটি দিবস একই দিনে।** প্রথমটি ভারতের **শিশু দিবস (বাল দিবস)**: ১৪ নভেম্বর দেশের প্রথম প্রধানমন্ত্রী পণ্ডিত জওহরলাল নেহরুর জন্মদিন, আর সেই উপলক্ষ্যেই দিনটি 'বাল দিবস' হিসেবে পালিত হয়। দ্বিতীয়টি **বিশ্ব ডায়াবেটিস দিবস**: আন্তর্জাতিক ডায়াবেটিস ফেডারেশন (IDF) ও বিশ্ব স্বাস্থ্য সংস্থা (WHO) ১৯৯১ সালে এই দিবস সৃষ্টি করে; দিনটি পালিত হয় স্যার ফ্রেডরিক ব্যান্টিং-এর জন্মদিনে — যিনি চার্লস বেস্টের সঙ্গে ১৯২২ সালে ইনসুলিন সহ-আবিষ্কার করেন। ২০০৬ সাল থেকে এটি রাষ্ট্রসংঘের আনুষ্ঠানিক দিবস। ২০২১–২৩ সময়ের প্রচারের থিম ছিল 'Access to Diabetes Care' (ডায়াবেটিস-সেবার সুযোগ) — এটি একটি নির্দিষ্ট সময়ের থিম, স্থায়ী নয়।\n\n**১৫ নভেম্বর — জনজাতীয় গৌরব দিবস।** প্রতি বছর ১৫ নভেম্বর এই দিবস পালিত হয় আদিবাসী স্বাধীনতা সংগ্রামী বীরসা মুন্ডার জন্মবার্ষিকীতে। বীরসা মুন্ডার জন্ম ১৮৭৪ সালে (PIB ব্যাখ্যা অনুযায়ী) ঝাড়খণ্ডের উলিহাতু গ্রামে; তিনি নেতৃত্ব দেন উলগুলান বা 'মহা আলোড়ন' (১৮৯৯–১৯০০) আন্দোলনের, যার লক্ষ্য ছিল আদিবাসী স্বশাসন ও খুন্তকাট্টি (সামূহিক ভূমি-অধিকার) পুনরুদ্ধার; তাঁকে 'ধরতি আবা' (পৃথিবীর পিতা) বলা হয়। ২০২৪–২৫ সালটি তাঁর জন্মের ১৫০ বছর পূর্তিতে 'জনজাতীয় গৌরব বর্ষ' হিসেবে পালিত হয়, আর রাঁচিতে তাঁর নামের জাদুঘর উদ্বোধন হয়েছিল ২০২১ সালের ১৫ নভেম্বর।"
+    },
+    {
+      "boxes": [
+        {
+          "body": "এই অধ্যায়ে যেখানেই থিম দেওয়া আছে, সেখানে বছরটি স্পষ্ট করে লেখা আছে (যেমন ২০২২-এর থিম)। থিম প্রতি বছর বদলায় — কোনো থিমকেই দিবসের স্থায়ী পরিচয় হিসেবে মুখস্থ করবে না।",
+          "claims": [
+            "c33"
+          ],
+          "kind": "remember",
+          "title": "থিম মানে বছরের থিম"
+        }
+      ],
+      "claims": [
+        "c32",
+        "c33",
+        "c34",
+        "c14",
+        "c15",
+        "c41",
+        "c42",
+        "c43"
+      ],
+      "deep": null,
+      "heading": "তৃতীয় সপ্তাহ: শৌচাগার (১৯), শিশু অধিকার (২০) ও টেলিভিশন (২১)",
+      "id": "third_week",
+      "quick": "১৯ নভেম্বর বিশ্ব শৌচাগার দিবস (২০১৩ সাল থেকে বার্ষিক), ২০ নভেম্বর আন্তর্জাতিক শিশু অধিকার দিবস, ২১ নভেম্বর বিশ্ব টেলিভিশন দিবস (রাষ্ট্রসংঘের ঘোষণা ১৯৯৬)।",
+      "standard": "**১৯ নভেম্বর — বিশ্ব শৌচাগার দিবস।** PIB-র স্বচ্ছ ভারত মিশনের বিজ্ঞপ্তি অনুযায়ী, এই বৈশ্বিক পালনটি ২০১৩ সাল থেকে প্রতি বছর অনুষ্ঠিত হয়; এর উদ্দেশ্য শৌচাগার উদযাপন ও যাঁদের স্বাস্থ্যসম্মত শৌচব্যবস্থার সুযোগ নেই, তাঁদের সম্পর্কে সচেতনতা বাড়ানো। ২০২২ সালের থিম ছিল 'Making the Invisible Visible' (অদৃশ্যকে দৃশ্যমান করা) — এটি শুধু ২০২২-এর থিম। ভারতে এই দিবস স্বচ্ছ ভারত মিশন (গ্রামীণ)-এর সঙ্গে ঘনিষ্ঠভাবে যুক্ত; PIB এই মিশনকেই বিশ্বের বৃহত্তম আচরণ-পরিবর্তন কর্মসূচি বলে বর্ণনা করেছে।\n\n**২০ নভেম্বর — আন্তর্জাতিক শিশু অধিকার দিবস।** নারী ও শিশু উন্নয়ন মন্ত্রকের বিজ্ঞপ্তি স্পষ্ট করে দুটি তারিখের সম্পর্ক: দেশে শিশু দিবস পালিত হয় ১৪ নভেম্বর, আর আন্তর্জাতিক শিশু অধিকার দিবস পালিত হয় প্রতি বছর ২০ নভেম্বর। ২০১৭ সালে মন্ত্রক এই দুই দিবসের মাঝের ১৬–২০ নভেম্বর সময়টিকে 'হাউসলা ২০১৭' নামে শিশু অধিকার সপ্তাহ হিসেবে পালন করে। আন্তর্জাতিকভাবে ২০ নভেম্বরকেই বিশ্ব শিশু দিবস বলা হয় — ভারতের ১৪ নভেম্বরের সঙ্গে এর পার্থক্য এই অধ্যায়ের সবচেয়ে গুরুত্বপূর্ণ ফাঁদ।\n\n**২১ নভেম্বর — বিশ্ব টেলিভিশন দিবস।** PIB ব্যাখ্যা অনুযায়ী, ১৯৯৬ সালে রাষ্ট্রসংঘ সাধারণ পরিষদের প্রস্তাবের পর প্রতি বছর ২১ নভেম্বর বিশ্বব্যাপী এই দিবস পালিত হয়; দিনটি টেলিভিশনকে জনমত জানানো, শিক্ষা দেওয়া ও প্রভাবিত করার একটি গুরুত্বপূর্ণ মাধ্যম হিসেবে স্বীকৃতি দেয়। ভারতের প্রসঙ্গে দুটি তারিখ মনে রাখবে: ভারতে টেলিভিশন সম্প্রচার পরীক্ষামূলকভাবে শুরু হয় ১৯৫৯ সালের ১৫ সেপ্টেম্বর অল ইন্ডিয়া রেডিওর উদ্যোগে, আর প্রসার ভারতী আইন, ১৯৯০ পূর্ণ কার্যকর হয় ১৯৯৭ সালের ২৩ নভেম্বর — যার ফলে প্রসার ভারতী কর্পোরেশন গঠিত হয়।"
+    },
+    {
+      "boxes": [],
+      "claims": [
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c23",
+        "c24",
+        "c25",
+        "c26"
+      ],
+      "deep": "২৬ নভেম্বর একটি 'দ্বৈত দিবস': একই তারিখে একটি সাংবিধানিক পালন (সংবিধান দিবস) আর একটি ব্যক্তি-কেন্দ্রিক পালন (দুগ্ধ দিবস)। পরীক্ষায় প্রায়ই জিজ্ঞাসা করা হয় '২৬ নভেম্বর কোন দুটি দিবস পালিত হয়?' — দুটিই একসঙ্গে মনে রাখার কৌশল: সংবিধান (দেশের নীতি) + দুধ (কুরিয়েনের কৃষি-বিপ্লব)।",
+      "heading": "শেষ সপ্তাহ: সহিংসতা-বিরোধী দিবস (২৫) ও ২৬ নভেম্বরের জোড়া — দুগ্ধ দিবস",
+      "id": "final_week",
+      "quick": "২৫ নভেম্বর নারীর বিরুদ্ধে সহিংসতা দূরীকরণের আন্তর্জাতিক দিবস; ২৬ নভেম্বর জাতীয় দুগ্ধ দিবস — শ্বেত বিপ্লবের জনক ড. ভার্গিস কুরিয়েনের জন্মবার্ষিকী।",
+      "standard": "**২৫ নভেম্বর — নারীর বিরুদ্ধে সহিংসতা দূরীকরণের আন্তর্জাতিক দিবস।** PIB ব্যাখ্যা অনুযায়ী, প্রতি বছর ২৫ নভেম্বর এই দিবস পালিত হয়। ২০০০ সালের ৭ ফেব্রুয়ারি ২৫ নভেম্বরকে আনুষ্ঠানিকভাবে এই দিবস হিসেবে নির্ধারণ করা হয়। এই দিবস থেকেই শুরু হয় '16 Days of Activism' — ২৫ নভেম্বর থেকে ১০ ডিসেম্বর (আন্তর্জাতিক মানবাধিকার দিবস) পর্যন্ত ষোলো দিনের প্রচার; ২০২২ সালের থিম ছিল 'UNITE! Activism to End Violence against Women & Girls' (২০২২-এর থিম)। ভারতের প্রসঙ্গে মনে রাখবে: জাতীয় মহিলা কমিশন (NCW) গঠিত হয় ১৯৯২ সালের ৩১ জানুয়ারি একটি বিধিবদ্ধ সংস্থা হিসেবে।\n\n**২৬ নভেম্বর — জাতীয় দুগ্ধ দিবস।** প্রতি বছর ২৬ নভেম্বর পালিত এই দিবস ড. ভার্গিস কুরিয়েনের জন্মবার্ষিকী স্মরণে পালিত হয়; তিনি ভারতে 'শ্বেত বিপ্লবের জনক' হিসেবে পরিচিত। কুরিয়েনের জন্ম ১৯২১ সালের ২৬ নভেম্বর কেরলের কোঝিকোড়ে। তাঁর নেতৃত্বের গল্পের কেন্দ্রে আছে আনন্দ-ধাঁচের সমবায়: ১৯৬৫ সালে জাতীয় দুগ্ধ উন্নয়ন বোর্ড (NDDB) গঠিত হয় এবং কুরিয়েন হন তার প্রথম সভাপতি; অপারেশন ফ্লাড কর্মসূচির মাধ্যমে গ্রামীণ দুগ্ধ-সমবায়ের জাল সারা দেশে ছড়িয়ে পড়ে। ফলাফলটি PIB-র ভাষায়: ভারত দুগ্ধ উৎপাদনে বিশ্বে প্রথম — বছরে ২৩০.৫৮ মিলিয়ন টন, যা বিশ্ব উৎপাদনের ২৫ শতাংশ। একই ২৬ নভেম্বর সংবিধান দিবসও — সেই অংশটি পরের অংশে আলাদা করে পড়ো।"
+    },
+    {
+      "boxes": [
+        {
+          "body": "১৯৪৯ = সংবিধান গ্রহণ; ১৯৫০ = সংবিধান কার্যকর; ২০১৫ = সংবিধান দিবসের সরকারি ঘোষণা। প্রশ্নে কোন বছরটি চাওয়া হচ্ছে, শব্দটি দেখে বুঝো: 'গৃহীত' → ১৯৪৯, 'কার্যকর' → ১৯৫০, 'দিবস ঘোষিত' → ২০১৫।",
+          "claims": [
+            "c01",
+            "c05"
+          ],
+          "kind": "exam_note",
+          "title": "তিনটি বছর, তিনটি ভূমিকা"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c05",
+        "c02",
+        "c03",
+        "c04",
+        "c06"
+      ],
+      "deep": "কেন ২৬ জানুয়ারিই কার্যকরের তারিখ হল — সেই ব্যাখ্যা এই অধ্যায়ের উৎসে নেই, তাই এখানে তা লেখা হয়নি; পলিটি (POL) বইয়ের সংবিধান-অধ্যায়ে তা পড়বে। এই অধ্যায়ের কাজ শুধু দিবসের তারিখ ও কারণ নির্ভুল রাখা।",
+      "heading": "গভীরে: সংবিধান দিবস (২৬ নভেম্বর)",
+      "id": "constitution_day",
+      "quick": "২৬ নভেম্বর সংবিধান দিবস বা 'সম্বিধান দিবস': ১৯৪৯ সালের এই দিনে গণপরিষদ সংবিধান গ্রহণ করে; দিবস হিসেবে ঘোষণা আসে ২০১৫ সালে। সংবিধান কার্যকর হয় ১৯৫০ সালের ২৬ জানুয়ারি — সেটি প্রজাতন্ত্র দিবস।",
+      "standard": "এই মাসের সবচেয়ে বেশি পরীক্ষিত দিবসটি হল **সংবিধান দিবস**। PIB তথ্যপত্র অনুযায়ী, সংবিধান দিবস, যা 'সম্বিধান দিবস' নামেও পরিচিত, প্রতি বছর ২৬ নভেম্বর পালিত হয় ভারতের সংবিধান গ্রহণের স্মরণে: ১৯৪৯ সালের ২৬ নভেম্বর গণপরিষদ ভারতের সংবিধান গ্রহণ করে, আর তা কার্যকর হয় ১৯৫০ সালের ২৬ জানুয়ারি। এই দুই তারিখের পার্থক্যটাই পরীক্ষার প্রাণ: **গ্রহণ = ২৬ নভেম্বর ১৯৪৯ (সংবিধান দিবস); কার্যকর = ২৬ জানুয়ারি ১৯৫০ (প্রজাতন্ত্র দিবস)।**\n\nদিবস হিসেবে পালনের ইতিহাস আলাদা: নাগরিকদের মধ্যে সাংবিধানিক মূল্যবোধ ছড়িয়ে দিতে সামাজিক ন্যায় ও ক্ষমতায়ন মন্ত্রক ২০১৫ সালের ১৯ নভেম্বর ঘোষণা করে যে, ভারত সরকার প্রতি বছর ২৬ নভেম্বর সংবিধান দিবস হিসেবে পালন করবে। অর্থাৎ ঘটনা ১৯৪৯-এর, কিন্তু দিবস-ঘোষণা ২০১৫-র — এই দুটি বছর গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল।\n\nসংবিধান সম্পর্কিত আরও কয়েকটি তথ্য একই PIB তথ্যপত্র থেকে: কার্যকর হওয়ার সময়ে এটি ছিল বিশ্বের দীর্ঘতম লিখিত সংবিধান — ৩৯৫টি অনুচ্ছেদ, ২২টি ভাগ ও ৮টি তফসিল। সংবিধানটি টাইপ বা ছাপা হয়নি; এটি ছিল হাতে লেখা ও ক্যালিগ্রাফিক, ইংরেজি ও হিন্দি দুই ভাষাতেই। শান্তিনিকেতনের শিল্পীরা আচার্য নন্দলাল বসুর নির্দেশনায় এটি হাতে তৈরি করেন, আর দিল্লিতে ক্যালিগ্রাফির লেখা করেন প্রেম বিহারী নারায়ণ রাইজাদা। ১৯৫০ সালের ২৪ জানুয়ারি গণপরিষদের ২৮৪ জন সদস্য সংবিধানে স্বাক্ষর করেন। সাম্প্রতিক প্রসঙ্গ হিসেবে মনে রাখবে: 'হামারা সম্বিধান, হামারা সম্মান' প্রচার শুরু হয় ২০২৪ সালের ২৪ জানুয়ারি, উদ্বোধন করেন ভারতের উপরাষ্ট্রপতি।"
+    },
+    {
+      "boxes": [
+        {
+          "body": "এই মাসের দুটি দিবসের সঙ্গে বাংলার সরাসরি যোগ আছে — সংবিধানের শিল্পকর্মে শান্তিনিকেতন, আর দুগ্ধ-সমবায়ে পশ্চিমবঙ্গের সর্ব-মহিলা ইছামতী সমবায়। বিস্তারিত 'বাংলার সংযোগ' অংশে।",
+          "claims": [
+            "c03",
+            "c27"
+          ],
+          "kind": "bengal",
+          "title": "বাংলার যোগ"
+        }
+      ],
+      "claims": [
+        "c13",
+        "c14",
+        "c01",
+        "c23",
+        "c29"
+      ],
+      "deep": null,
+      "heading": "তারিখ-ফাঁদ ও দ্রুত পুনরাবৃত্তির কৌশল",
+      "id": "date_traps",
+      "quick": "নভেম্বরের তিনটি বড় ফাঁদ: (১) শিশু দিবস ১৪ নভেম্বর বনাম বিশ্ব শিশু/শিশু অধিকার দিবস ২০ নভেম্বর; (২) সংবিধান গৃহীত ২৬ নভেম্বর ১৯৪৯ বনাম কার্যকর ২৬ জানুয়ারি ১৯৫০; (৩) ২৬ নভেম্বরে দুটি দিবস — সংবিধান দিবস ও দুগ্ধ দিবস।",
+      "standard": "এই অংশে মাসের সব বিভ্রান্তিকর জোড়াগুলি এক জায়গায় সাজানো হল।\n\n**ফাঁদ ১ — দুটি শিশু দিবস।** ভারতের শিশু দিবস ১৪ নভেম্বর, কারণ সেটি প্রথম প্রধানমন্ত্রী জওহরলাল নেহরুর জন্মদিন এবং দিনটি 'বাল দিবস' নামে পালিত হয়। অন্যদিকে আন্তর্জাতিক শিশু অধিকার দিবস (বিশ্ব শিশু দিবস) ২০ নভেম্বর। প্রশ্নে 'ভারতে' লেখা থাকলে উত্তর ১৪ নভেম্বর; 'বিশ্ব/আন্তর্জাতিক' লেখা থাকলে ২০ নভেম্বর।\n\n**ফাঁদ ২ — গ্রহণ বনাম কার্যকর।** সংবিধান গৃহীত হয় ১৯৪৯ সালের ২৬ নভেম্বর (তাই সংবিধান দিবস), আর কার্যকর হয় ১৯৫০ সালের ২৬ জানুয়ারি (তাই প্রজাতন্ত্র দিবস)। WBCS, WBP কনস্টেবল ও ক্লার্কশিপ — তিন পরীক্ষাতেই এই পার্থক্য নিয়ে প্রশ্ন এসেছে।\n\n**ফাঁদ ৩ — একই তারিখে দুটি দিবস।** ১৪ নভেম্বর: শিশু দিবস + বিশ্ব ডায়াবেটিস দিবস। ২৬ নভেম্বর: সংবিধান দিবস + জাতীয় দুগ্ধ দিবস। জোড়া-প্রশ্নে একটি মনে পড়লেও অন্যটি ভুলে যাওয়ার প্রবণতা থাকে — দুটি জোড়াই একসঙ্গে মুখস্থ করো।\n\n**ফাঁদ ৪ — ব্যক্তি অদলবদল।** ১১ নভেম্বর আজাদ (শিক্ষা), ১৪ নভেম্বর নেহরু (শিশু), ১৫ নভেম্বর বীরসা মুন্ডা (জনজাতীয় গৌরব), ২৬ নভেম্বর কুরিয়েন (দুগ্ধ) — চারজন ব্যক্তি, চারটি পরপর তারিখ। রাধাকৃষ্ণনের জন্মদিন (৫ সেপ্টেম্বর, শিক্ষক দিবস) এই তালিকায় নেই — সেটি সেপ্টেম্বরের অধ্যায়ের (DAY-09) বিষয়, এখানে বিকল্প হিসেবে এসে বিভ্রান্ত করে।"
+    }
+  ],
+  "sources": [
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s1",
+      "publisher": "GOVT",
+      "title": "Constitution Day — Factsheet | PIB",
+      "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=148584"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s2",
+      "publisher": "GOVT",
+      "title": "Constitution Day / Hamara Samvidhan Hamara Samman — Backgrounder | PIB",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2075924&lang=2&pli=1&reg=3&tf=1&ui=2"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s3",
+      "publisher": "GOVT",
+      "title": "National Education Day 2024 — Explainer | PIB (Ministry of Education)",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153408&ModuleId=3&reg=3&lang=1"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s4",
+      "publisher": "GOVT",
+      "title": "India's Legal Aid and Awareness Initiatives (National Legal Services Day) — Backgrounder | PIB",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2187718&reg=3&lang=2"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s5",
+      "publisher": "GOVT",
+      "title": "National Level Painting Competition on Water Conservation (Bal Diwas reference) | PIB, Ministry of Water Resources",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=69154&reg=48&lang=2"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s6",
+      "publisher": "GOVT",
+      "title": "WCD Ministry to celebrate Child Rights Week — Hausala 2017 | PIB, Ministry of Women and Child Development",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=173412&reg=3&lang=2"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s7",
+      "publisher": "GOVT",
+      "title": "Janjatiya Gaurav Divas — Honouring India's Tribal Freedom Fighters | PIB (Ministry of Tribal Affairs), 14 Nov 2025",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251114692801.pdf"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s8",
+      "publisher": "GOVT",
+      "title": "National Cancer Awareness Day in India — Explainer | PIB (Ministry of Health and Family Welfare)",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153396&ModuleId=3&reg=3&lang=1"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s9",
+      "publisher": "GOVT",
+      "title": "National Milk Day — Celebrating India's White Revolution | PIB (Ministry of Fisheries, Animal Husbandry & Dairying)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2077029&reg=48&lang=2"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s10",
+      "publisher": "GOVT",
+      "title": "World Diabetes Day (November 14) — Explainer | PIB (Ministry of Health and Family Welfare), 14 Nov 2022",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/nov/doc20221114124001.pdf"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s11",
+      "publisher": "GOVT",
+      "title": "'Swachhta Run' Being Organized Across Rural India on World Toilet Day, 19th November 2022 | PIB, Ministry of Jal Shakti",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1877042&reg=3&lang=2"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s12",
+      "publisher": "GOVT",
+      "title": "First World Tsunami Awareness Day to be celebrated at AMCDRR | PIB, Ministry of Home Affairs",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=151595&reg=3&lang=2"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s13",
+      "publisher": "GOVT",
+      "title": "Scientific Social Responsibility to create new interface between science and society: DST Secretary (World Science Day) | PIB, Ministry of Science & Technology",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1672492"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s14",
+      "publisher": "GOVT",
+      "title": "World Television Day 2025 — Connecting 230 million Households Across India | PIB (Ministry of Information and Broadcasting)",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=156135&ModuleId=3&reg=3&lang=1"
+    },
+    {
+      "accessed_at": "2026-11-19",
+      "id": "s15",
+      "publisher": "GOVT",
+      "title": "International Day for the Elimination of Violence against Women (November 25) — Explainer | PIB (Ministry of Women and Child Development), 24 Nov 2022",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/nov/doc20221124135201.pdf"
+    }
+  ],
+  "status": "PUBLISHED",
+  "subtitle": "সুনামি সচেতনতা থেকে সংবিধান দিবস: শিক্ষা, শিশু, স্বাস্থ্য ও অধিকারের মাস",
+  "subtopics": [
+    "november"
+  ],
+  "terms": [
+    {
+      "meaning": "সংবিধান দিবসের অপর নাম; ২৬ নভেম্বর পালিত হয়।",
+      "section": "constitution_day",
+      "term": "সম্বিধান দিবস (Samvidhan Divas)"
+    },
+    {
+      "meaning": "জাপানি ভাষায় 'ধান-আঁটির আগুন' — ১৮৫৪ সালের সুনামি-সতর্কতার ঘটনা, যার স্মরণে ৫ নভেম্বর সুনামি সচেতনতা দিবস।",
+      "section": "first_week",
+      "term": "ইনামুরা নো হি"
+    },
+    {
+      "meaning": "জাতীয় আইনি সেবা কর্তৃপক্ষ — আইনি সেবা কর্তৃপক্ষ আইন, ১৯৮৭-এর অধীনে গঠিত জাতীয় স্তরের সংস্থা; প্রধান ভারতের প্রধান বিচারপতি।",
+      "section": "mid_november",
+      "term": "NALSA"
+    },
+    {
+      "meaning": "আইনি সেবা কর্তৃপক্ষ আইনে প্রতিষ্ঠিত বিকল্প বিবাদ-নিষ্পত্তি মঞ্চ।",
+      "section": "mid_november",
+      "term": "লোক আদালত"
+    },
+    {
+      "meaning": "'মহা আলোড়ন' — বীরসা মুন্ডার নেতৃত্বে ১৮৯৯–১৯০০ সালের আদিবাসী আন্দোলন।",
+      "section": "mid_november",
+      "term": "উলগুলান"
+    },
+    {
+      "meaning": "আদিবাসী সামূহিক ভূমি-অধিকারের ব্যবস্থা, যার পুনরুদ্ধার ছিল উলগুলানের লক্ষ্য।",
+      "section": "mid_november",
+      "term": "খুন্তকাট্টি"
+    },
+    {
+      "meaning": "ভারতে দুগ্ধ উৎপাদনের ব্যাপক বৃদ্ধির আন্দোলন; এর জনক ড. ভার্গিস কুরিয়েন।",
+      "section": "final_week",
+      "term": "শ্বেত বিপ্লব"
+    },
+    {
+      "meaning": "ভারতের শিশু দিবসের অপর নাম; ১৪ নভেম্বর, নেহরুর জন্মদিনে পালিত।",
+      "section": "date_traps",
+      "term": "বাল দিবস"
+    }
+  ],
+  "timeline": [
+    {
+      "claims": [
+        "c36"
+      ],
+      "label": "জাপানে 'ইনামুরা নো হি' — ধান-আঁটিতে আগুন দিয়ে সুনামির সতর্কবার্তা",
+      "sort_year": 1854,
+      "when": "৫ নভেম্বর ১৮৫৪"
+    },
+    {
+      "claims": [
+        "c24"
+      ],
+      "label": "কোঝিকোড়ে ভার্গিস কুরিয়েনের জন্ম",
+      "sort_year": 1921,
+      "when": "২৬ নভেম্বর ১৯২১"
+    },
+    {
+      "claims": [
+        "c29"
+      ],
+      "label": "ব্যান্টিং ও বেস্টের ইনসুলিন সহ-আবিষ্কার",
+      "sort_year": 1922,
+      "when": "১৯২২"
+    },
+    {
+      "claims": [
+        "c01"
+      ],
+      "label": "গণপরিষদ সংবিধান গ্রহণ করে (সংবিধান দিবসের ভিত্তি)",
+      "sort_year": 1949,
+      "when": "২৬ নভেম্বর ১৯৪৯"
+    },
+    {
+      "claims": [
+        "c42"
+      ],
+      "label": "ভারতে পরীক্ষামূলক টেলিভিশন সম্প্রচার শুরু (অল ইন্ডিয়া রেডিও)",
+      "sort_year": 1959,
+      "when": "১৫ সেপ্টেম্বর ১৯৫৯"
+    },
+    {
+      "claims": [
+        "c25"
+      ],
+      "label": "জাতীয় দুগ্ধ উন্নয়ন বোর্ড (NDDB) গঠিত; প্রথম সভাপতি কুরিয়েন",
+      "sort_year": 1965,
+      "when": "১৯৬৫"
+    },
+    {
+      "claims": [
+        "c28"
+      ],
+      "label": "IDF ও WHO বিশ্ব ডায়াবেটিস দিবস সৃষ্টি করে",
+      "sort_year": 1991,
+      "when": "১৯৯১"
+    },
+    {
+      "claims": [
+        "c10"
+      ],
+      "label": "আইনি সেবা কর্তৃপক্ষ আইন কার্যকর (আইনি সেবা দিবসের ভিত্তি)",
+      "sort_year": 1995,
+      "when": "৯ নভেম্বর ১৯৯৫"
+    },
+    {
+      "claims": [
+        "c41"
+      ],
+      "label": "রাষ্ট্রসংঘ সাধারণ পরিষদের প্রস্তাবে বিশ্ব টেলিভিশন দিবস ঘোষিত",
+      "sort_year": 1996,
+      "when": "১৯৯৬"
+    },
+    {
+      "claims": [
+        "c45"
+      ],
+      "label": "২৫ নভেম্বর আনুষ্ঠানিকভাবে নারীর বিরুদ্ধে সহিংসতা দূরীকরণ দিবস হিসেবে নির্ধারিত",
+      "sort_year": 2000,
+      "when": "৭ ফেব্রুয়ারি ২০০০"
+    },
+    {
+      "claims": [
+        "c30"
+      ],
+      "label": "বিশ্ব ডায়াবেটিস দিবস রাষ্ট্রসংঘের আনুষ্ঠানিক দিবস হয়",
+      "sort_year": 2006,
+      "when": "২০০৬"
+    },
+    {
+      "claims": [
+        "c32"
+      ],
+      "label": "বিশ্ব শৌচাগার দিবসের বার্ষিক পালন শুরু",
+      "sort_year": 2013,
+      "when": "২০১৩"
+    },
+    {
+      "claims": [
+        "c05"
+      ],
+      "label": "২৬ নভেম্বরকে সংবিধান দিবস হিসেবে পালনের সরকারি ঘোষণা",
+      "sort_year": 2015,
+      "when": "১৯ নভেম্বর ২০১৫"
+    },
+    {
+      "claims": [
+        "c35"
+      ],
+      "label": "প্রথম বিশ্ব সুনামি সচেতনতা দিবস পালিত",
+      "sort_year": 2016,
+      "when": "৫ নভেম্বর ২০১৬"
+    },
+    {
+      "claims": [
+        "c18"
+      ],
+      "label": "বীরসা মুন্ডার ১৫০তম জন্মবার্ষিকীতে 'জনজাতীয় গৌরব বর্ষ' পালন",
+      "sort_year": 2024,
+      "when": "২০২৪–২৫"
+    }
+  ],
+  "title": "নভেম্বরের দিবস",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 48/48 answers matched the key (46 SURE, 1 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 5 of 6 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_DAY-11.json and drafts/DAY-11_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/DAY-11_REPORT.md.",
+    "checked_claims": 47,
+    "checked_questions": 48,
+    "checked_at": "2026-11-19"
+  }
+}

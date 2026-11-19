@@ -1,0 +1,1869 @@
+{
+  "book": "important_days",
+  "code": "DAY-13",
+  "number": 13,
+  "part": "mixed",
+  "title": "মিশ্র অনুশীলনী: সব মাস একসাথে",
+  "subtitle": "সারা বছরের গুলিয়ে-যাওয়া জোড়, জন্মদিন-ভিত্তিক দিবস আর পরীক্ষার কৌশল — এক অধ্যায়ে চূড়ান্ত পুনরালোচনা",
+  "subtopics": [
+    "mixed"
+  ],
+  "related_facts": [
+    "GK-DAY-013",
+    "GK-DAY-014"
+  ],
+  "prerequisites": [
+    "DAY-01",
+    "DAY-02",
+    "DAY-03",
+    "DAY-04",
+    "DAY-05",
+    "DAY-06",
+    "DAY-07",
+    "DAY-08",
+    "DAY-09",
+    "DAY-10",
+    "DAY-11",
+    "DAY-12"
+  ],
+  "reading_minutes": {
+    "quick": 8,
+    "standard": 30,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 2 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 6 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_DAY-13.json and drafts/DAY-13_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/DAY-13_REPORT.md.",
+    "checked_claims": 31,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "আগের বারোটি অধ্যায়ে তুমি মাস ধরে মাস দিবসগুলি পড়েছ। এই শেষ অধ্যায়ে কোনো নতুন মাস নেই — আছে পরীক্ষায় সবচেয়ে বেশি নম্বর কেড়ে নেওয়া জায়গাগুলি: পাশাপাশি তারিখের জোড় (২৫ বনাম ২৬ জানুয়ারি), একই নামের দুটি দিবস (বিজ্ঞান বনাম ক্রীড়া), জন্মদিন দিয়ে বাঁধা দিবসগুলি, জুন মাসের ভিড়, আর মেলানো–ক্রম–বিবৃতি ধরনের প্রশ্নের কৌশল। প্রতিটি দিবসকে এখানে তারিখ দিয়ে নয়, কারণ দিয়ে বাঁধা হয়েছে — কারণ মনে থাকলে তারিখ নিজে থেকেই ঠিক থাকে।",
+    "you_will_learn": [
+      "২৫ জানুয়ারি (ভোটার দিবস), ২৬ জানুয়ারি (প্রজাতন্ত্র দিবস) ও ২৬ নভেম্বর (সংবিধান দিবস) — তিনটি তারিখের কারণভিত্তিক পার্থক্য",
+      "জন্মদিন-ভিত্তিক দিবসের একটানা তালিকা: বিবেকানন্দ, রাধাকৃষ্ণণ, নেহরু, পটেল, চরণ সিং ও ধ্যানচাঁদ",
+      "জাতীয় বিজ্ঞান দিবস (২৮ ফেব্রুয়ারি) বনাম জাতীয় ক্রীড়া দিবস (২৯ আগস্ট) — সবচেয়ে পুরনো ফাঁদ",
+      "জুনের গুচ্ছ: পরিবেশ দিবস (৫ জুন), শিশুশ্রমবিরোধী দিবস (১২ জুন), রক্তদাতা দিবস (১৪ জুন) ও যোগ দিবস (২১ জুন)",
+      "বিশ্ব মঞ্চের দিবস: স্বাস্থ্য দিবস (৭ এপ্রিল), টেলিযোগাযোগ দিবস (১৭ মে), এইডস দিবস (১ ডিসেম্বর) ও কার্গিল বিজয় দিবস (২৬ জুলাই)",
+      "মেলানো, কালানুক্রম ও বিবৃতি-প্রশ্নে নিশ্চিত জোড় দিয়ে বাদ দেওয়ার কৌশল",
+      "বার্ষিক থিম কেন শুধু বছরসহ মনে রাখতে হয় — ২০২৩, ২০২৫ ও ২০২৬-এর থিমের উদাহরণ"
+    ]
+  },
+  "sections": [
+    {
+      "id": "constitution_cluster",
+      "heading": "সংবিধান-গুচ্ছ: ২৫ জানুয়ারি, ২৬ জানুয়ারি ও ২৬ নভেম্বর",
+      "quick": "তিনটি তারিখ, তিনটি আলাদা কারণ। **২৫ জানুয়ারি** জাতীয় ভোটার দিবস — নির্বাচন কমিশনের প্রতিষ্ঠা দিবস (২৫ জানুয়ারি ১৯৫০)। **২৬ জানুয়ারি** প্রজাতন্ত্র দিবস — সংবিধান কার্যকর হয় এই দিনে (১৯৫০)। **২৬ নভেম্বর** সংবিধান দিবস — সংবিধান গৃহীত হয় এই দিনে (১৯৪৯)। গৃহীত = নভেম্বর, কার্যকর = জানুয়ারি — এই এক লাইনেই গুচ্ছটি পরিষ্কার।",
+      "standard": "পরীক্ষায় সবচেয়ে বেশি ভুল হয় এই তিনটি তারিখে, কারণ তিনটিই সংবিধান ও গণতন্ত্রের সঙ্গে জড়িত। কারণ দিয়ে আলাদা করো।\n\n**ভোটার দিবস (২৫ জানুয়ারি):** নির্বাচন কমিশন গঠিত হয়েছিল ১৯৫০ সালের ২৫ জানুয়ারি — সংবিধান কার্যকর হওয়ার ঠিক একদিন আগে। সেই প্রতিষ্ঠা দিবসকে চিহ্নিত করতেই ২০১১ সাল থেকে প্রতি বছর ২৫ জানুয়ারি জাতীয় ভোটার দিবস পালিত হয়। উদ্দেশ্য ভোটারদের, বিশেষ করে নতুন ভোটারদের, ভোট প্রক্রিয়ায় অংশ নিতে উৎসাহিত করা। ২০২৩-এর থিম ছিল 'Nothing Like Voting, I Vote for Sure' — থিমটি শুধু ওই বছরের জন্যই, স্থায়ী তথ্য নয়।\n\n**প্রজাতন্ত্র দিবস (২৬ জানুয়ারি):** সংবিধান কার্যকর (came into effect) হয় ১৯৫০ সালের ২৬ জানুয়ারি। অর্থাৎ ভারত প্রজাতন্ত্র হয় এই দিনে।\n\n**সংবিধান দিবস (২৬ নভেম্বর):** সংবিধান গৃহীত (adopted) হয় ১৯৪৯ সালের ২৬ নভেম্বর গণপরিষদে। সেই গ্রহণের স্মৃতিতেই ২৬ নভেম্বর 'সম্বিধান দিবস'।\n\nমনে রাখার সূত্র: **আগে গ্রহণ (নভেম্বর ১৯৪৯), তারপর কমিশন (২৫ জানুয়ারি ১৯৫০), তারপর কার্যকর (২৬ জানুয়ারি ১৯৫০)** — কালানুক্রমে সাজালেই তিনটি তারিখ আর বদলায় না।",
+      "deep": "বিবৃতি-ধরনের প্রশ্নে পরীক্ষক প্রায়ই দ্বিতীয় বিবৃতিটি উল্টে দেন: 'প্রজাতন্ত্র দিবস পালিত হয় কারণ ওই দিনে সংবিধান গৃহীত হয়েছিল' — এটি ভুল, কারণ গৃহীত হয়েছিল ২৬ নভেম্বর। আবার 'ভোটার দিবস ২৬ জানুয়ারি' — এটিও ভুল। দুটি বিবৃতির মধ্যে একটি ঠিক একটি ভুল থাকলে উত্তর হয় 'শুধুমাত্র ১' ধরনের — এই অধ্যায়ের অনুশীলনীতে এমন প্রশ্নই রাখা হয়েছে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গৃহীত বনাম কার্যকর",
+          "body": "সংবিধান **গৃহীত** হয় ২৬ নভেম্বর ১৯৪৯ (সংবিধান দিবস), আর **কার্যকর** হয় ২৬ জানুয়ারি ১৯৫০ (প্রজাতন্ত্র দিবস)। ইংরেজি শব্দ দুটি মনে রাখো: adopted → November, came into effect → January।",
+          "claims": [
+            "c07",
+            "c08"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "birthday_anchors",
+      "heading": "জন্মদিন-ভিত্তিক দিবস: ব্যক্তিত্ব দিয়েই তারিখ",
+      "quick": "ভারতের অনেক জাতীয় দিবসই কোনো ব্যক্তিত্বের জন্মদিন: যুব দিবস — বিবেকানন্দ (১২ জানুয়ারি), শিক্ষক দিবস — রাধাকৃষ্ণণ (৫ সেপ্টেম্বর), শিশু দিবস — নেহরু (১৪ নভেম্বর), ঐক্য দিবস — পটেল (৩১ অক্টোবর), কিষান দিবস — চরণ সিং (২৩ ডিসেম্বর), ক্রীড়া দিবস — ধ্যানচাঁদ (২৯ আগস্ট)। ব্যক্তিত্ব মনে থাকলে তারিখ ভুল হয় না।",
+      "standard": "এই গুচ্ছের প্রতিটি দিবসের কারণ একটাই — জন্মবার্ষিকী। একে একে দেখো।\n\n**১২ জানুয়ারি — জাতীয় যুব দিবস:** স্বামী বিবেকানন্দের জন্মবার্ষিকী। **৫ সেপ্টেম্বর — জাতীয় শিক্ষক দিবস:** ড. সর্বপল্লী রাধাকৃষ্ণণের জন্মবার্ষিকী; এই দিনেই জাতীয় শিক্ষক পুরস্কার দেওয়া হয়। **১৪ নভেম্বর — শিশু দিবস:** প্রথম প্রধানমন্ত্রী পণ্ডিত জওহরলাল নেহরুর জন্মদিন; শিশুদের প্রতি তাঁর স্নেহের কথা PIB-র বিজ্ঞপ্তিতেই উল্লেখ আছে। **৩১ অক্টোবর — রাষ্ট্রীয় একতা দিবস (জাতীয় ঐক্য দিবস):** সর্দার বল্লভভাই পটেলের জন্মবার্ষিকী; ২০১৪ সালে প্রথম পালিত হয়। পটেল ছিলেন ভারতের প্রথম উপ-প্রধানমন্ত্রী ও স্বরাষ্ট্রমন্ত্রী, এবং ৫৬০টির বেশি দেশীয় রাজ্যকে ভারতীয় ইউনিয়নে একীভূত করার দায়িত্বে ছিলেন। ২০২৫-এর পালন ছিল তাঁর ১৫০তম জন্মবার্ষিকী। **২৩ ডিসেম্বর — কিষান দিবস (জাতীয় কৃষক দিবস):** পঞ্চম প্রধানমন্ত্রী চৌধুরী চরণ সিংয়ের জন্মদিন; তিনি ছিলেন কৃষক নেতা। **২৯ আগস্ট — জাতীয় ক্রীড়া দিবস:** হকি কিংবদন্তি মেজর ধ্যানচাঁদের জন্মবার্ষিকী (বিস্তারিত পরের বিভাগে)।\n\nকৌশল: পরীক্ষায় 'কার জন্মদিনে কোন দিবস' প্রশ্ন এলে এই ছয়টি জোড়ই প্রায় সব উত্তর ঢেকে দেয়।",
+      "deep": "একই বিভাগে দুটি সংযোজন: (১) একতা দিবসের দিনেই, ৩১ অক্টোবর ২০১৫-তে, প্রধানমন্ত্রী 'এক ভারত শ্রেষ্ঠ ভারত' উদ্যোগের ঘোষণা করেন — তারিখ-ভিত্তিক প্রশ্নে এটি কাজে লাগে। (২) এই অধ্যায়ে বিশ্ব শিক্ষক দিবস ও বিশ্ব শিশু দিবস শেখানো হয়নি — নিচের পরীক্ষা-নোট দেখো।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "যা এই অধ্যায়ে শেখানো হয়নি",
+          "body": "অন্যান্য বইয়ে তুমি পড়বে বিশ্ব শিক্ষক দিবস ও বিশ্ব শিশু দিবসের কথা। এই অধ্যায়ের জন্য ভারত সরকারের (PIB) কোনো যাচাইযোগ্য পৃষ্ঠা থেকে ওই দুটি দিবসের তারিখ ও কারণ উদ্ধৃত করা যায়নি বলে এখানে সেগুলি **শেখানো হয়নি** — অনুমান করে লেখা হয়নি। পরীক্ষার আগে ওই দুটি তারিখ আলাদা করে নির্ভরযোগ্য উৎস থেকে দেখে নেওয়ার পরামর্শ দেওয়া হল।",
+          "claims": [
+            "c09",
+            "c21"
+          ]
+        }
+      ],
+      "claims": [
+        "c06",
+        "c09",
+        "c15",
+        "c18",
+        "c19",
+        "c21",
+        "c22",
+        "c30",
+        "c31"
+      ]
+    },
+    {
+      "id": "science_sports",
+      "heading": "বিজ্ঞান বনাম ক্রীড়া: ২৮ ফেব্রুয়ারি বনাম ২৯ আগস্ট",
+      "quick": "ভারতের সবচেয়ে পুরনো তারিখ-ফাঁদ: **জাতীয় বিজ্ঞান দিবস ২৮ ফেব্রুয়ারি** (রামন প্রভাবের ঘোষণা, ১৯২৮) আর **জাতীয় ক্রীড়া দিবস ২৯ আগস্ট** (ধ্যানচাঁদের জন্মবার্ষিকী)। সংখ্যা দুটি কাছাকাছি (২৮/২৯), মাস দুটি দূরে (ফেব্রুয়ারি/আগস্ট) — মাস দিয়ে আলাদা করো।",
+      "standard": "**বিজ্ঞান দিবস:** সি. ভি. রামন 'রামন প্রভাব' আবিষ্কারের কথা ঘোষণা করেন ২৮ ফেব্রুয়ারি; সেই আবিষ্কারের জন্যই তিনি ১৯৩০ সালে নোবেল পুরস্কার পান। ভারত সরকার ১৯৮৬ সালে ২৮ ফেব্রুয়ারিকে জাতীয় বিজ্ঞান দিবস হিসেবে নির্ধারণ করে। ২০২৫-এর অনুষ্ঠানের থিম ছিল 'Empowering Indian Youth for Global Leadership in Science & Innovation for Viksit Bharat' — আবারও, থিমটি শুধু ২০২৫-এর।\n\n**ক্রীড়া দিবস:** ২৯ আগস্ট হকি কিংবদন্তি মেজর ধ্যানচাঁদের জন্মবার্ষিকী, তাই ওই দিন জাতীয় ক্রীড়া দিবস।\n\nফাঁদটি চেনো: বিকল্পে প্রায়ই থাকে 'বিজ্ঞান দিবস – ২৯ আগস্ট' ও 'ক্রীড়া দিবস – ২৮ ফেব্রুয়ারি' — দুটিই ভুল, কারণ তারিখ দুটি পরস্পর বদলে দেওয়া। সঠিক জোড় মনে রাখার সূত্র: **ফেব্রুয়ারি = পদার্থবিদ্যা (রামন), আগস্ট = হকি (ধ্যানচাঁদ)**।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "এক লাইনের সূত্র",
+          "body": "রামন → ফেব্রুয়ারি ২৮ → বিজ্ঞান। ধ্যানচাঁদ → আগস্ট ২৯ → ক্রীড়া। ব্যক্তিত্বের নাম শুনলেই মাসটি বলে দাও, তারিখ নিজে থেকে আসবে।",
+          "claims": [
+            "c03",
+            "c06"
+          ]
+        }
+      ],
+      "claims": [
+        "c03",
+        "c04",
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "june_cluster",
+      "heading": "জুনের গুচ্ছ: ৫, ১২, ১৪ ও ২১ জুন",
+      "quick": "জুন মাসে চারটি বড় দিবস গায়ে গায়ে: **৫ জুন** বিশ্ব পরিবেশ দিবস, **১২ জুন** বিশ্ব শিশুশ্রমবিরোধী দিবস, **১৪ জুন** বিশ্ব রক্তদাতা দিবস, **২১ জুন** আন্তর্জাতিক যোগ দিবস। ক্রমটি মনে রাখো: পরিবেশ → শিশুশ্রম → রক্ত → যোগ।",
+      "standard": "**৫ জুন — বিশ্ব পরিবেশ দিবস:** প্রতি বছর ৫ জুন পালিত হয়; পরিবেশ মন্ত্রক UNEP-ঘোষিত থিম অনুযায়ী পালন করে। ২০২০-এর থিম ছিল 'Biodiversity' (জীববৈচিত্র্য) এবং ওই বছর মন্ত্রক 'নগর বন' কর্মসূচি ঘোষণা করে।\n\n**১২ জুন — বিশ্ব শিশুশ্রমবিরোধী দিবস:** আন্তর্জাতিক শ্রম সংস্থা (ILO) ২০০২ সালে দিনটি চালু করে। ভারতে শিশুশ্রমের ঘটনা জানানোর মাধ্যম PENCIL পোর্টাল ও চাইল্ডলাইন ১০৯৮ — এই তথ্যটিও PIB-র বিজ্ঞপ্তি থেকেই।\n\n**১৪ জুন — বিশ্ব রক্তদাতা দিবস:** ২০২০ সালে দিনটি পালিত হয় ১৪ জুন; ২০২০-এর থিম ছিল 'Safe Blood Saves Lives'।\n\n**২১ জুন — আন্তর্জাতিক যোগ দিবস:** রাষ্ট্রসংঘ ২০১৪ সালে ২১ জুনকে এই দিবস হিসেবে ঘোষণা করে; প্রস্তাবটি প্রধানমন্ত্রী নরেন্দ্র মোদী রাষ্ট্রসংঘের ৬৯তম অধিবেশনে তোলেন এবং ১৭৫টি সদস্য রাষ্ট্র তা সমর্থন করে। প্রথম পালন হয় ২১ জুন ২০১৫-তে — নয়াদিল্লির রাজপথে মূল অনুষ্ঠানে ৮৪টি দেশের প্রতিনিধিসহ ৩৫,৯৮৫ জন অংশ নেন। ২০২৬-এর থিম ছিল 'Yoga for Healthy Ageing' এবং ওই বছরের মূল জাতীয় অনুষ্ঠান হয় কলকাতায় (বাংলা-সংযোগ অংশ দেখো)।",
+      "deep": "যোগ দিবসের ধারাটি পরীক্ষায় সাল-প্রশ্নে আসে: **ঘোষণা ২০১৪, প্রথম পালন ২০১৫**। 'প্রথম যোগ দিবস কোন সালে পালিত হয়?' — উত্তর ২০১৫, ২০১৪ নয়। একই ভুলের ধরন বিজ্ঞান দিবসেও: নির্ধারণ ১৯৮৬, আবিষ্কার-ঘোষণা তার অনেক আগে। সালের প্রশ্নে সবসময় জিজ্ঞাসা করা হচ্ছে কোন ঘটনাটি — ঘোষণা, নির্ধারণ না প্রথম পালন — তা খেয়াল করো।",
+      "boxes": [
+        {
+          "kind": "did_you_know",
+          "title": "জুনের ক্রম-সূত্র",
+          "body": "৫ (পরিবেশ) → ১২ (শিশুশ্রম) → ১৪ (রক্তদাতা) → ২১ (যোগ)। চারটি তারিখই জোড় বা ৫-এর গুণিতকের কাছাকাছি — ক্রমে সাজানো প্রশ্নে এই ধারাটিই উত্তর।",
+          "claims": [
+            "c13",
+            "c28",
+            "c26",
+            "c10"
+          ]
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c26",
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "world_stage",
+      "heading": "জাতীয় গর্ব ও বিশ্ব মঞ্চ: কার্গিল, স্বাস্থ্য, টেলিকম ও এইডস",
+      "quick": "এই গুচ্ছে চারটি দিবস: **২৬ জুলাই** কার্গিল বিজয় দিবস, **৭ এপ্রিল** বিশ্ব স্বাস্থ্য দিবস, **১৭ মে** বিশ্ব টেলিযোগাযোগ দিবস, **১ ডিসেম্বর** বিশ্ব এইডস দিবস। প্রতিটির কারণ আলাদা — যুদ্ধজয়, স্বাস্থ্য-সচেতনতা, ITU-র প্রতিষ্ঠা, HIV/AIDS সচেতনতা।",
+      "standard": "**২৬ জুলাই — কার্গিল বিজয় দিবস:** লাদাখের কার্গিল-দ্রাস সেক্টরে সংঘটিত যুদ্ধের বীরত্বের স্মৃতিতে প্রতি বছর ২৬ জুলাই পালিত হয়। 'অপারেশন বিজয়' নামে পরিচিত এই যুদ্ধ হয়েছিল প্রায় ১৬,০০০ ফুট উচ্চতায় এবং ৫২৭ জন ভারতীয় সৈন্য শহীদ হন।\n\n**৭ এপ্রিল — বিশ্ব স্বাস্থ্য দিবস:** স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রক এই উপলক্ষে কর্মসূচি নেয়; ২০২৩ সালে মন্ত্রক ৭ এপ্রিল নয়াদিল্লিতে 'Health for All' থিমে হাঁটা-অভিযান (walkathon) আয়োজন করে। (এই অধ্যায়ে দিনটির তারিখটিই যাচাই করা গেছে; WHO-র সংবিধান কার্যকর হওয়ার বিস্তারিত কারণটি উদ্ধৃতিযোগ্য সরকারি পৃষ্ঠা থেকে পাওয়া যায়নি বলে এখানে দাবি করা হয়নি।)\n\n**১৭ মে — বিশ্ব টেলিযোগাযোগ দিবস:** ১৯৬৯ সাল থেকে প্রতি বছর ১৭ মে পালিত হয় — ITU-র প্রতিষ্ঠা এবং ১৮৬৫ সালে প্রথম আন্তর্জাতিক টেলিগ্রাফ কনভেনশন স্বাক্ষরের স্মৃতিতে।\n\n**১ ডিসেম্বর — বিশ্ব এইডস দিবস:** প্রতি বছর ১ ডিসেম্বর পালিত হয়; বিশ্ব স্বাস্থ্য সংস্থা (WHO) ১৯৮৮ সালে প্রথম দিনটি পালন করে। উদ্দেশ্য HIV/AIDS মহামারি সম্পর্কে সচেতনতা, মৃতদের স্মরণ ও আক্রান্তদের প্রতি সমর্থন। ২০২৫-এর থিম ছিল 'Overcoming disruption, transforming the AIDS response'।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "মে মাসের জোড়-প্রশ্ন",
+          "body": "প্রকৃত পরীক্ষায় (WBPSC Miscellaneous 2023) এসেছিল: সঠিক মিল কোনটি — উত্তর ছিল '১৭ মে : বিশ্ব টেলিযোগাযোগ দিবস'। ভুল বিকল্পগুলিতে ছিল '৭ মে : বিশ্ব স্বাস্থ্য দিবস' (আসলে ৭ এপ্রিল), '৫ জুন : বিশ্ব সমুদ্র দিবস' (৫ জুন পরিবেশ দিবস) ও '১১ জুন : শিশুশ্রমবিরোধী দিবস' (আসলে ১২ জুন)। মাস বদলে দেওয়াই এই প্রশ্নের ফাঁদ।",
+          "claims": [
+            "c23",
+            "c27",
+            "c13",
+            "c28"
+          ]
+        }
+      ],
+      "claims": [
+        "c16",
+        "c17",
+        "c23",
+        "c24",
+        "c25",
+        "c27"
+      ]
+    },
+    {
+      "id": "exam_drill",
+      "heading": "পরীক্ষা-কৌশল: মেলানো, ক্রম ও বিবৃতি",
+      "quick": "মিশ্র প্রশ্নে তিনটি কৌশলই যথেষ্ট: (১) মেলানো প্রশ্নে নিশ্চিত জোড়টি আগে ঠিক করো, (২) ক্রমের প্রশ্নে আগে মাস, তারপর তারিখ, (৩) বিবৃতি প্রশ্নে প্রতিটি বিবৃতি আলাদা করে কারণ দিয়ে যাচাই করো। থিম সবসময় বছরসহ — থিম কখনো স্থায়ী তথ্য নয়।",
+      "standard": "**মেলানো (MATCH):** চারটি জোড়ের মধ্যে যেটি নিয়ে তুমি সবচেয়ে নিশ্চিত, সেটি দিয়ে শুরু করো। যেমন বিজ্ঞান দিবস–২৮ ফেব্রুয়ারি ঠিক করলেই সাধারণত দুটি বিকল্প বাদ যায়; তারপর ভোটার দিবস–২৫ জানুয়ারি দিয়ে বাকিটা মিলিয়ে নাও।\n\n**ক্রম (CHRONOLOGY):** বছরের মধ্যে সাজাতে হলে প্রথমে মাস অনুযায়ী সাজাও: জানুয়ারি (যুব ১২, ভোটার ২৫) → ফেব্রুয়ারি (বিজ্ঞান ২৮) → জুন (যোগ ২১) → আগস্ট (ক্রীড়া ২৯)। একই মাসে দুটি থাকলে তবেই তারিখ দেখো।\n\n**বিবৃতি (STATEMENT):** প্রতিটি বিবৃতিকে তার কারণ দিয়ে পরীক্ষা করো। 'প্রজাতন্ত্র দিবস ২৬ জানুয়ারি, কারণ ওই দিন সংবিধান গৃহীত হয়' — তারিখ ঠিক, কারণ ভুল, তাই বিবৃতিটি ভুল।\n\n**থিমের নিয়ম:** থিম প্রতি বছর বদলায়। এই অধ্যায়ে থিম এসেছে শুধু বছরসহ — ভোটার দিবস ২০২৩, বিজ্ঞান দিবস ২০২৫, পরিবেশ দিবস ২০২০, রক্তদাতা দিবস ২০২০, এইডস দিবস ২০২৫, যোগ দিবস ২০২৬। প্রশ্নে থিম এলে প্রথমে দেখো কোন বছরের কথা বলা হয়েছে।",
+      "deep": "দাবি-কারণ (ASSERTION_REASON) প্রশ্নে দুটি ধাপ: প্রথমে A ও R আলাদাভাবে সত্য কিনা দেখো, তারপর R দিয়ে A ব্যাখ্যা হয় কিনা। উদাহরণ: A — 'ভোটার দিবস প্রজাতন্ত্র দিবসে পালিত হয় না'; R — 'ভোটার দিবস নির্বাচন কমিশনের প্রতিষ্ঠা দিবস ২৫ জানুয়ারি ১৯৫০-কে চিহ্নিত করে'। দুটিই সত্য এবং R-ই A-এর ব্যাখ্যা।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "তিন ধাপের চেকলিস্ট",
+          "body": "১) তারিখ ঠিক আছে তো? ২) কারণ ঠিক আছে তো? ৩) থিম হলে বছর মিলছে তো? — এই তিনটি প্রশ্ন প্রতিটি মিশ্র প্রশ্নে করো।",
+          "claims": [
+            "c01",
+            "c08"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c03",
+        "c06",
+        "c08",
+        "c10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "13th National Voters' Day — Theme 'Nothing Like Voting, I Vote for Sure' (PIB, Election Commission, 2023)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1893268&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "National Science Day 2025 celebrations (PIB, Ministry of Science & Technology)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2106748",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Fit India Mission to lead National Sports Day 2025 movement (PIB, Ministry of Youth Affairs & Sports)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2159494",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Constitution Day — Factsheet (PIB, Factsheet ID 148584)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=148584",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "National Teachers' Award 2024 conferred on Teachers' Day (PIB, Ministry of Education)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2052338",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "International Day of Yoga 2026 backgrounder (PIB, Ministry of Ayush)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2275594&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "World Environment Day 2020: Nagar Van scheme announcement (PIB, MoEFCC)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1629563&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "PM to interact with young leaders — Viksit Bharat Young Leaders Dialogue 2026, National Youth Day (PIB)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213133&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "Kargil Vijay Diwas commemorated at Pune (PIB, Ministry of Defence, 26 July 2020)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1641342&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "Rashtriya Ekta Diwas backgrounder 2025 (PIB)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184055&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "National awards given away on Children's Day (PIB, Ministry of Women and Child Development)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=77153&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s12",
+      "title": "ICAR-KVK North Goa celebrated Kisan Diwas (PIB, 23 December 2020)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1683169&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s13",
+      "title": "India has emerged as Global Telecom Power — World Telecommunication Day conference (PIB, Ministry of Communications, 17 May 2023)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1924962&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s14",
+      "title": "World AIDS Day: Building on India's global AIDS control success (PIB backgrounder PDF, 30 November 2025)",
+      "publisher": "GOVT",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251130711801.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s15",
+      "title": "World Blood Donor Day observed on 14th June 2020 (PIB, Ministry of Health & Family Welfare, Lok Sabha reply)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1658263&ui=2&tf=1&pli=1&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s16",
+      "title": "World Health Day walkathon led by Union Health Minister (PIB, MoHFW, 7 April 2023)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1914511&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s17",
+      "title": "World Day Against Child Labour: appeal to report on PENCIL Portal (PIB, Ministry of Women and Child Development)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1726502&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "National Voters' Day has been celebrated on January 25 every year since 2011, to mark the foundation day of the Election Commission of India, i.e. 25th January 1950.",
+      "source": "s1",
+      "page": "release text",
+      "quote": "Since 2011, National Voters’ Day has been celebrated on January 25 every year, all across the country to mark the foundation day of the Election Commission of India, i.e. 25th January 1950."
+    },
+    {
+      "id": "c02",
+      "claim": "The theme of the 13th National Voters' Day (2023) was 'Nothing Like Voting, I Vote for Sure'.",
+      "source": "s1",
+      "page": "release text",
+      "quote": "The theme for this year’s NVD, ‘Nothing Like Voting, I Vote for Sure’ is dedicated to voters which conveys individual’s feeling and aspiration towards participation in the electoral process through power of their vote."
+    },
+    {
+      "id": "c03",
+      "claim": "National Science Day is celebrated every year on February 28 to commemorate the discovery of the 'Raman Effect'; the Government of India designated February 28 as NSD in 1986.",
+      "source": "s2",
+      "page": "release text",
+      "quote": "NSD is celebrated every year on February 28 to commemorate the discovery of the ‘Raman Effect.’ The Government of India designated February 28 as National Science Day (NSD) in 1986."
+    },
+    {
+      "id": "c04",
+      "claim": "Sir C.V. Raman announced the discovery of the 'Raman Effect' on this day and was awarded the Nobel Prize in 1930 for it.",
+      "source": "s2",
+      "page": "release text",
+      "quote": "On this day, Sir C.V. Raman announced the discovery of the 'Raman Effect' for which he was awarded the Nobel Prize in 1930."
+    },
+    {
+      "id": "c05",
+      "claim": "The theme of the National Science Day 2025 programme was 'Empowering Indian Youth for Global Leadership in Science & Innovation for Viksit Bharat'.",
+      "source": "s2",
+      "page": "release text",
+      "quote": "The theme of the programme this year is “Empowering Indian Youth for Global Leadership in Science & Innovation for Viksit Bharat”."
+    },
+    {
+      "id": "c06",
+      "claim": "National Sports Day is observed every year on August 29 to commemorate the birth anniversary of hockey legend Major Dhyan Chand.",
+      "source": "s3",
+      "page": "release text",
+      "quote": "National Sports Day 2025, observed every year on August 29 to commemorate the birth anniversary of hockey legend Major Dhyan Chand."
+    },
+    {
+      "id": "c07",
+      "claim": "Constitution Day, also known as 'Samvidhan Divas', is celebrated on 26th November every year to commemorate the adoption of the Constitution of India.",
+      "source": "s4",
+      "page": "factsheet text",
+      "quote": "Constitution Day also known as ‘Samvidhan Divas’, is celebrated in our country on 26th November every year to commemorate the adoption of the Constitution of India."
+    },
+    {
+      "id": "c08",
+      "claim": "On November 26, 1949, the Constituent Assembly of India adopted the Constitution of India, which came into effect on January 26, 1950.",
+      "source": "s4",
+      "page": "factsheet text",
+      "quote": "On November 26, 1949, the Constituent Assembly of India adopted the Constitution of India, which came into effect on January 26, 1950."
+    },
+    {
+      "id": "c09",
+      "claim": "Every year, India celebrates 5th September, the birth anniversary of Dr. Sarvepalli Radhakrishnan, as National Teachers' Day.",
+      "source": "s5",
+      "page": "release text",
+      "quote": "Every year, India celebrates 5th September, the birth anniversary of Dr. Sarvepalli Radhakrishnan, as National Teachers’ Day."
+    },
+    {
+      "id": "c10",
+      "claim": "The United Nations proclaimed 21 June as the International Day of Yoga in 2014; the proposal was introduced by Prime Minister Narendra Modi at the 69th session of the UN and supported by 175 member states.",
+      "source": "s6",
+      "page": "backgrounder text",
+      "quote": "Recognising its universal appeal and benefits, the United Nations proclaimed 21 June as the International Day of Yoga in 2014. The proposal, introduced by Prime Minister Shri Narendra Modi at the 69th session of the UN, was supported by 175 member states."
+    },
+    {
+      "id": "c11",
+      "claim": "The first observance of the International Day of Yoga was held on 21st June 2015.",
+      "source": "s6",
+      "page": "backgrounder text",
+      "quote": "The first observance was held on 21st June 2015."
+    },
+    {
+      "id": "c12",
+      "claim": "The 12th edition of the International Day of Yoga is being observed on 21st June 2026, with Kolkata hosting the main national celebration; the 2026 theme is 'Yoga for Healthy Ageing'.",
+      "source": "s6",
+      "page": "backgrounder text",
+      "quote": "The 12th edition of the International Day of Yoga is being observed on 21stJune 2026, with Kolkata hosting the main national celebration. This year's theme, 'Yoga for Healthy Ageing'"
+    },
+    {
+      "id": "c13",
+      "claim": "World Environment Day (WED) is celebrated on 5th June every year; the Ministry of Environment, Forest & Climate Change celebrates WED focusing on the theme declared by UNEP.",
+      "source": "s7",
+      "page": "release text",
+      "quote": "World Environment Day (WED) is celebrated on 5th June every year. Ministry of Environment, Forest & Climate Change celebrates WED focusing on the theme declared by United Nation’s Environment Programme (UNEP) and organizes several events."
+    },
+    {
+      "id": "c14",
+      "claim": "For World Environment Day 2020, the year's theme was 'Biodiversity' and the Ministry adopted 'Nagar Van' as the theme of the WED celebrations 2020.",
+      "source": "s7",
+      "page": "release text",
+      "quote": "This year’s theme is ‘Biodiversity’."
+    },
+    {
+      "id": "c15",
+      "claim": "National Youth Day commemorates the birth anniversary of Swami Vivekananda; the Prime Minister's Young Leaders Dialogue concluding session was held on 12th January on this occasion.",
+      "source": "s8",
+      "page": "release text",
+      "quote": "On the occasion of National Youth Day, commemorating the birth anniversary of Swami Vivekananda, Prime Minister Shri Narendra Modi will participate in the concluding session of the Viksit Bharat Young Leaders Dialogue 2026 at around 4:30 PM on 12th January at Bharat Mandapam, New Delhi."
+    },
+    {
+      "id": "c16",
+      "claim": "Kargil Vijay Diwas is commemorated on 26 July every year, recalling the battle fought in the Kargil-Drass sector of Ladakh.",
+      "source": "s9",
+      "page": "release text",
+      "quote": "Kargil Vijay Diwas is commemorated on 26 July every year as a saga of gallantry and valour of a battle fought in the most inhospitable terrain in the World in the area of Kargil-Drass Sector of Ladakh."
+    },
+    {
+      "id": "c17",
+      "claim": "The Kargil War, referred to as Operation Vijay, was fought at an altitude of approximately 16,000 feet, and 527 Indian soldiers were martyred.",
+      "source": "s9",
+      "page": "release text",
+      "quote": "The Kargil War or as referred - Operation Vijay was fought at an altitude of approximately 16,000 feet, wherein 1,042 Pakistani soldiers lost their lives and 527 Indian soldiers were martyred."
+    },
+    {
+      "id": "c18",
+      "claim": "Rashtriya Ekta Diwas, also known as National Unity Day, is observed annually on October 31 to commemorate the birth anniversary of Sardar Vallabhbhai Patel; the day was first celebrated in 2014.",
+      "source": "s10",
+      "page": "backgrounder text",
+      "quote": "Rashtriya Ekta Diwas, also known as National Unity Day, is observed annually on October 31 to commemorate the birth anniversary of Sardar Vallabhbhai Patel"
+    },
+    {
+      "id": "c19",
+      "claim": "Sardar Vallabhbhai Patel was India's first Deputy Prime Minister and Minister of Home Affairs and played a crucial role in unifying over 560 princely states into the Union of India.",
+      "source": "s10",
+      "page": "backgrounder text",
+      "quote": "India's first Deputy Prime Minister and Minister of Home Affairs, Sardar Vallabhbhai Patel played a crucial role in the national integration process following independence in 1947. Hewas tasked with unifying over 560 princely states—covering nearly 40% of India's territory and population—into the Union of India."
+    },
+    {
+      "id": "c20",
+      "claim": "The 'Ek Bharat Shreshtha Bharat' initiative was announced by Prime Minister Narendra Modi on 31 October 2015 during the Rashtriya Ekta Diwas held that day.",
+      "source": "s10",
+      "page": "backgrounder text",
+      "quote": "during the Rashtriya Ekta Divas held on 31st October, 2015 Prime Minister Shri Narendra Modi announced the initiative ‘Ek Bharat Shreshtha Bharat’"
+    },
+    {
+      "id": "c21",
+      "claim": "14th November, the birthday of the first Prime Minister, late Pt. Jawaharlal Nehru, is celebrated as Children's Day every year; Nehru was remembered for his love and affection for children.",
+      "source": "s11",
+      "page": "release text",
+      "quote": "14th November, the birthday of first Prime Minister late Pt. Jawaharlal Nehru is celebrated as Children’s Day every year. Smt. Tirath remembered the love and affection of Pt. Nehru for children."
+    },
+    {
+      "id": "c22",
+      "claim": "The National Farmers Day in India, also known as Kisan Diwas, is celebrated every year on 23 December, on the birthday of the 5th Prime Minister of India, Choudhary Charan Singh, also a farmer's leader.",
+      "source": "s12",
+      "page": "release text",
+      "quote": "The National Farmers Day in India is also known as Kisan Diwas is celebrated every year on 23 December on the birthday of the 5th Prime Minister of India, Choudhary Charan Singh, also a farmer's leader, who introduced many policies to improve the lives of the Indian Farmers."
+    },
+    {
+      "id": "c23",
+      "claim": "World Telecommunication Day has been celebrated annually on 17 May since 1969, marking the founding of ITU and the signing of the first International Telegraph Convention in 1865.",
+      "source": "s13",
+      "page": "release text, Background",
+      "quote": "World Telecommunication Day has been celebrated annually on 17 May since 1969, marking the founding of ITU and the signing of the first International Telegraph Convention in 1865."
+    },
+    {
+      "id": "c24",
+      "claim": "World AIDS Day is observed on December 1 every year; it was first marked in 1988 by the World Health Organization (WHO).",
+      "source": "s14",
+      "page": "backgrounder, Introduction",
+      "quote": "World AIDS Day is a global observance held on December 1 every year to raise awareness about the HIV/AIDS epidemic, remember those who have died from HIV-related illnesses, and support people living with HIV/AIDS. It was first marked in 1988 by the World Health Organization (WHO)"
+    },
+    {
+      "id": "c25",
+      "claim": "The theme of World AIDS Day 2025 was 'Overcoming disruption, transforming the AIDS response'.",
+      "source": "s14",
+      "page": "backgrounder, Key Takeaways",
+      "quote": "The theme for 2025 is ‘Overcoming disruption, transforming the AIDS response’."
+    },
+    {
+      "id": "c26",
+      "claim": "World Blood Donor Day (WBDD) was observed on 14th June 2020, and its 2020 theme was 'Safe Blood Saves Lives'.",
+      "source": "s15",
+      "page": "release text",
+      "quote": "World Blood Donor Day (WBDD) was observed on 14th June 2020. The theme of World Blood Donor Day 2020 was “Safe Blood Saves Lives”."
+    },
+    {
+      "id": "c27",
+      "claim": "On the occasion of World Health Day, the Union Ministry of Health & Family Welfare organised a walkathon in New Delhi; the Ministry's file reference dates the event 7th April 2023 and the event was organised under the theme 'Health for All'.",
+      "source": "s16",
+      "page": "release text",
+      "quote": "On the occasion of World Health Day, the Union Ministry of Health & Family Welfare organised a walkathon event in New Delhi."
+    },
+    {
+      "id": "c28",
+      "claim": "The World Day Against Child Labour is observed on 12th June every year; the International Labour Organization (ILO) launched it in 2002.",
+      "source": "s17",
+      "page": "release text",
+      "quote": "The World Day Against Child Labour is observed on 12thJune every year around the world. The International Labour Organization (ILO) launched the World Day Against Child Labour in 2002 to focus attention on the global extent of child labour and the action and efforts needed to eliminate it."
+    },
+    {
+      "id": "c29",
+      "claim": "The first International Day of Yoga's main event at Rajpath in New Delhi brought together 35,985 participants, including representatives from 84 countries.",
+      "source": "s6",
+      "page": "backgrounder text",
+      "quote": "The first International Day of Yoga was observed on 21st June 2015 and marked the beginning of a new global wellness movement led by India. The main event at Rajpath in New Delhi brought together 35,985 participants, including representatives from 84 countries, for a mass demonstration of the Common Yoga Protocol."
+    },
+    {
+      "id": "c30",
+      "claim": "Rashtriya Ekta Diwas was first celebrated in 2014, following a declaration by the Government of India.",
+      "source": "s10",
+      "page": "backgrounder text",
+      "quote": "The day was first celebrated in 2014, following a declaration by the Government of India to honour and celebrate Sardar Patel’s remarkable contribution to nation-building."
+    },
+    {
+      "id": "c31",
+      "claim": "The 2025 celebration of Rashtriya Ekta Diwas marked the 150th birth anniversary of Sardar Patel.",
+      "source": "s10",
+      "page": "backgrounder text",
+      "quote": "This year’s celebration of the Rashtriya Ekta Diwas is particularly special as it marks the 150th birth anniversary of Sardar Patel."
+    }
+  ],
+  "events": [
+    {
+      "title": "জাতীয় যুব দিবস",
+      "when": "১২ জানুয়ারি",
+      "what": "স্বামী বিবেকানন্দের জন্মবার্ষিকীতে পালিত জাতীয় দিবস।",
+      "why_it_matters": "বছরের প্রথম বড় জন্মদিন-ভিত্তিক দিবস; জানুয়ারির ক্রম-প্রশ্নের শুরু।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "title": "জাতীয় ভোটার দিবস",
+      "when": "২৫ জানুয়ারি",
+      "what": "নির্বাচন কমিশনের প্রতিষ্ঠা দিবস (২৫ জানুয়ারি ১৯৫০) উপলক্ষে ২০১১ সাল থেকে পালিত।",
+      "why_it_matters": "প্রজাতন্ত্র দিবসের ঠিক আগের দিন — পরীক্ষার সবচেয়ে চেনা ফাঁদ।",
+      "section": "constitution_cluster",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "title": "প্রজাতন্ত্র দিবস (সংবিধান কার্যকরের দিন)",
+      "when": "২৬ জানুয়ারি",
+      "what": "১৯৫০ সালের এই দিনে ভারতের সংবিধান কার্যকর হয়।",
+      "why_it_matters": "'গৃহীত' নয়, 'কার্যকর' — এই পার্থক্যটাই বিবৃতি-প্রশ্নের প্রাণ।",
+      "section": "constitution_cluster",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "title": "জাতীয় বিজ্ঞান দিবস",
+      "when": "২৮ ফেব্রুয়ারি",
+      "what": "রামন প্রভাব আবিষ্কারের ঘোষণার স্মৃতিতে পালিত; ১৯৮৬ সালে নির্ধারিত।",
+      "why_it_matters": "ক্রীড়া দিবসের সঙ্গে বদলানো সবচেয়ে পুরনো জোড়-ফাঁদ।",
+      "section": "science_sports",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "title": "বিশ্ব স্বাস্থ্য দিবস",
+      "when": "৭ এপ্রিল",
+      "what": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রকের কর্মসূচিতে পালিত বিশ্ব দিবস; ২০২৩ সালে ৭ এপ্রিল walkathon হয়।",
+      "why_it_matters": "Miscellaneous 2023-র প্রকৃত প্রশ্নে '৭ মে' বলে ভুল বিকল্প দেওয়া হয়েছিল।",
+      "section": "world_stage",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "title": "বিশ্ব টেলিযোগাযোগ দিবস",
+      "when": "১৭ মে",
+      "what": "ITU-র প্রতিষ্ঠা ও ১৮৬৫ সালের প্রথম আন্তর্জাতিক টেলিগ্রাফ কনভেনশনের স্মৃতিতে ১৯৬৯ সাল থেকে পালিত।",
+      "why_it_matters": "প্রকৃত পরীক্ষার সঠিক-মিল প্রশ্নের উত্তর ছিল এই জোড়টিই।",
+      "section": "world_stage",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "title": "বিশ্ব পরিবেশ দিবস",
+      "when": "৫ জুন",
+      "what": "UNEP-ঘোষিত থিমে পরিবেশ মন্ত্রকের পালন।",
+      "why_it_matters": "জুনের গুচ্ছের প্রথম দিবস; যোগ দিবসের সঙ্গে তারিখ বদলানো হয়।",
+      "section": "june_cluster",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "title": "বিশ্ব শিশুশ্রমবিরোধী দিবস",
+      "when": "১২ জুন",
+      "what": "ILO ২০০২ সালে চালু করে।",
+      "why_it_matters": "১১ জুন বলে ভুল বিকল্প প্রকৃত পরীক্ষায় এসেছিল।",
+      "section": "june_cluster",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "title": "বিশ্ব রক্তদাতা দিবস",
+      "when": "১৪ জুন",
+      "what": "স্বেচ্ছা রক্তদান প্রসারের বিশ্ব দিবস; ২০২০ সালে ১৪ জুন পালিত হয়।",
+      "why_it_matters": "Clerkship 2023-র প্রকৃত প্রশ্নের বিষয়।",
+      "section": "june_cluster",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "title": "আন্তর্জাতিক যোগ দিবস",
+      "when": "২১ জুন",
+      "what": "রাষ্ট্রসংঘ ২০১৪ সালে ঘোষণা করে; প্রথম পালন ২০১৫ সালে।",
+      "why_it_matters": "ঘোষণা বনাম প্রথম পালন — সালের প্রশ্নের মডেল।",
+      "section": "june_cluster",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "title": "কার্গিল বিজয় দিবস",
+      "when": "২৬ জুলাই",
+      "what": "কার্গিল-দ্রাস সেক্টরের যুদ্ধজয়ের স্মৃতিতে পালিত; অপারেশন বিজয়ে ৫২৭ জন সৈন্য শহীদ হন।",
+      "why_it_matters": "জুলাইয়ের একমাত্র বড় জাতীয় দিবস এই বইয়ের তালিকায়।",
+      "section": "world_stage",
+      "claims": [
+        "c16",
+        "c17"
+      ]
+    },
+    {
+      "title": "জাতীয় ক্রীড়া দিবস",
+      "when": "২৯ আগস্ট",
+      "what": "মেজর ধ্যানচাঁদের জন্মবার্ষিকীতে পালিত।",
+      "why_it_matters": "Clerkship 2023-র প্রকৃত প্রশ্ন; বিজ্ঞান দিবসের জোড়-ফাঁদ।",
+      "section": "science_sports",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "title": "জাতীয় শিক্ষক দিবস",
+      "when": "৫ সেপ্টেম্বর",
+      "what": "ড. সর্বপল্লী রাধাকৃষ্ণণের জন্মবার্ষিকীতে পালিত; জাতীয় শিক্ষক পুরস্কার এই দিনে দেওয়া হয়।",
+      "why_it_matters": "জন্মদিন-গুচ্ছের মধ্যমণি প্রশ্ন।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "title": "রাষ্ট্রীয় একতা দিবস",
+      "when": "৩১ অক্টোবর",
+      "what": "সর্দার পটেলের জন্মবার্ষিকীতে পালিত; প্রথম পালন ২০১৪ সালে।",
+      "why_it_matters": "একই দিনে 'এক ভারত শ্রেষ্ঠ ভারত' ঘোষণা (২০১৫) — যুগ্ম তথ্য।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c18",
+        "c30"
+      ]
+    },
+    {
+      "title": "শিশু দিবস",
+      "when": "১৪ নভেম্বর",
+      "what": "প্রথম প্রধানমন্ত্রী জওহরলাল নেহরুর জন্মদিনে পালিত।",
+      "why_it_matters": "নভেম্বরের জন্মদিন-প্রশ্নের প্রধান উত্তর।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "title": "সংবিধান দিবস",
+      "when": "২৬ নভেম্বর",
+      "what": "সংবিধান গৃহীত হওয়ার (২৬ নভেম্বর ১৯৪৯) স্মৃতিতে পালিত 'সম্বিধান দিবস'।",
+      "why_it_matters": "প্রজাতন্ত্র দিবসের সঙ্গে কারণ-বদলের ফাঁদ।",
+      "section": "constitution_cluster",
+      "claims": [
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "title": "বিশ্ব এইডস দিবস",
+      "when": "১ ডিসেম্বর",
+      "what": "HIV/AIDS সচেতনতার বিশ্ব দিবস; WHO প্রথম পালন করে ১৯৮৮ সালে।",
+      "why_it_matters": "Clerkship 2023-র প্রকৃত প্রশ্নের বিষয়।",
+      "section": "world_stage",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "title": "কিষান দিবস",
+      "when": "২৩ ডিসেম্বর",
+      "what": "পঞ্চম প্রধানমন্ত্রী চৌধুরী চরণ সিংয়ের জন্মদিনে পালিত জাতীয় কৃষক দিবস।",
+      "why_it_matters": "বছরের শেষ জন্মদিন-ভিত্তিক দিবস; ক্রম-প্রশ্নের শেষ প্রান্ত।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c22"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "স্বামী বিবেকানন্দ",
+      "when": "জন্মবার্ষিকী ১২ জানুয়ারি",
+      "role": "জাতীয় যুব দিবসের কেন্দ্রীয় ব্যক্তিত্ব",
+      "contribution": "তাঁর জন্মবার্ষিকী জাতীয় যুব দিবস হিসেবে পালিত হয়।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "name": "সি. ভি. রামন",
+      "when": "রামন প্রভাবের ঘোষণা ২৮ ফেব্রুয়ারি; নোবেল ১৯৩০",
+      "role": "পদার্থবিজ্ঞানী",
+      "contribution": "'রামন প্রভাব' আবিষ্কারের ঘোষণার দিনটিই জাতীয় বিজ্ঞান দিবস; আবিষ্কারের জন্য ১৯৩০ সালে নোবেল পুরস্কার পান।",
+      "section": "science_sports",
+      "claims": [
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "name": "মেজর ধ্যানচাঁদ",
+      "when": "জন্মবার্ষিকী ২৯ আগস্ট",
+      "role": "হকি কিংবদন্তি",
+      "contribution": "তাঁর জন্মবার্ষিকী জাতীয় ক্রীড়া দিবস হিসেবে পালিত হয়।",
+      "section": "science_sports",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "name": "ড. সর্বপল্লী রাধাকৃষ্ণণ",
+      "when": "জন্মবার্ষিকী ৫ সেপ্টেম্বর",
+      "role": "শিক্ষাবিদ ও রাষ্ট্রপতি",
+      "contribution": "তাঁর জন্মবার্ষিকী জাতীয় শিক্ষক দিবস হিসেবে পালিত হয়।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "name": "জওহরলাল নেহরু",
+      "when": "জন্মদিন ১৪ নভেম্বর",
+      "role": "ভারতের প্রথম প্রধানমন্ত্রী",
+      "contribution": "শিশুদের প্রতি স্নেহের জন্য তাঁর জন্মদিন শিশু দিবস হিসেবে পালিত হয়।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "name": "সর্দার বল্লভভাই পটেল",
+      "when": "জন্মবার্ষিকী ৩১ অক্টোবর; ২০২৫ সালে ১৫০তম",
+      "role": "ভারতের প্রথম উপ-প্রধানমন্ত্রী ও স্বরাষ্ট্রমন্ত্রী",
+      "contribution": "৫৬০টির বেশি দেশীয় রাজ্যকে ভারতীয় ইউনিয়নে একীভূত করেন; তাঁর জন্মবার্ষিকী রাষ্ট্রীয় একতা দিবস।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c18",
+        "c19",
+        "c31"
+      ]
+    },
+    {
+      "name": "চৌধুরী চরণ সিং",
+      "when": "জন্মদিন ২৩ ডিসেম্বর",
+      "role": "ভারতের পঞ্চম প্রধানমন্ত্রী ও কৃষক নেতা",
+      "contribution": "কৃষকদের জীবনমান উন্নয়নে নীতি আনেন; তাঁর জন্মদিন কিষান দিবস।",
+      "section": "birthday_anchors",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "name": "নরেন্দ্র মোদী",
+      "when": "যোগ প্রস্তাব ২০১৪; EBSB ঘোষণা ৩১ অক্টোবর ২০১৫",
+      "role": "প্রধানমন্ত্রী",
+      "contribution": "রাষ্ট্রসংঘের ৬৯তম অধিবেশনে যোগ দিবসের প্রস্তাব তোলেন; একতা দিবস ২০১৫-তে 'এক ভারত শ্রেষ্ঠ ভারত' ঘোষণা করেন।",
+      "section": "june_cluster",
+      "claims": [
+        "c10",
+        "c20"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 12,
+      "when": "১২ জানুয়ারি",
+      "label": "জাতীয় যুব দিবস (বিবেকানন্দের জন্মবার্ষিকী)",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "sort_year": 25,
+      "when": "২৫ জানুয়ারি",
+      "label": "জাতীয় ভোটার দিবস (নির্বাচন কমিশনের প্রতিষ্ঠা দিবস)",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 26,
+      "when": "২৬ জানুয়ারি",
+      "label": "প্রজাতন্ত্র দিবস (সংবিধান কার্যকর, ১৯৫০)",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "sort_year": 59,
+      "when": "২৮ ফেব্রুয়ারি",
+      "label": "জাতীয় বিজ্ঞান দিবস (রামন প্রভাব)",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 97,
+      "when": "৭ এপ্রিল",
+      "label": "বিশ্ব স্বাস্থ্য দিবস",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "sort_year": 137,
+      "when": "১৭ মে",
+      "label": "বিশ্ব টেলিযোগাযোগ দিবস (ITU, ১৮৬৫)",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "sort_year": 156,
+      "when": "৫ জুন",
+      "label": "বিশ্ব পরিবেশ দিবস",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "sort_year": 163,
+      "when": "১২ জুন",
+      "label": "বিশ্ব শিশুশ্রমবিরোধী দিবস (ILO, ২০০২)",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "sort_year": 165,
+      "when": "১৪ জুন",
+      "label": "বিশ্ব রক্তদাতা দিবস",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "sort_year": 172,
+      "when": "২১ জুন",
+      "label": "আন্তর্জাতিক যোগ দিবস (ঘোষণা ২০১৪, প্রথম পালন ২০১৫)",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "sort_year": 207,
+      "when": "২৬ জুলাই",
+      "label": "কার্গিল বিজয় দিবস",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 241,
+      "when": "২৯ আগস্ট",
+      "label": "জাতীয় ক্রীড়া দিবস (ধ্যানচাঁদের জন্মবার্ষিকী)",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 248,
+      "when": "৫ সেপ্টেম্বর",
+      "label": "জাতীয় শিক্ষক দিবস (রাধাকৃষ্ণণের জন্মবার্ষিকী)",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "sort_year": 304,
+      "when": "৩১ অক্টোবর",
+      "label": "রাষ্ট্রীয় একতা দিবস (পটেলের জন্মবার্ষিকী)",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 318,
+      "when": "১৪ নভেম্বর",
+      "label": "শিশু দিবস (নেহরুর জন্মদিন)",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "sort_year": 330,
+      "when": "২৬ নভেম্বর",
+      "label": "সংবিধান দিবস (সংবিধান গৃহীত, ১৯৪৯)",
+      "claims": [
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "sort_year": 335,
+      "when": "১ ডিসেম্বর",
+      "label": "বিশ্ব এইডস দিবস (প্রথম পালন ১৯৮৮)",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "sort_year": 357,
+      "when": "২৩ ডিসেম্বর",
+      "label": "কিষান দিবস (চরণ সিংয়ের জন্মদিন)",
+      "claims": [
+        "c22"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "গৃহীত (Adopted)",
+      "meaning": "গণপরিষদ কর্তৃক সংবিধান চূড়ান্তভাবে গ্রহণ — ২৬ নভেম্বর ১৯৪৯; এই দিনটিই সংবিধান দিবস।",
+      "section": "constitution_cluster"
+    },
+    {
+      "term": "কার্যকর (Came into effect)",
+      "meaning": "সংবিধান বলবৎ হওয়ার দিন — ২৬ জানুয়ারি ১৯৫০; এই দিনটিই প্রজাতন্ত্র দিবস।",
+      "section": "constitution_cluster"
+    },
+    {
+      "term": "রামন প্রভাব (Raman Effect)",
+      "meaning": "সি. ভি. রামনের আবিষ্কার, যার ঘোষণার দিন ২৮ ফেব্রুয়ারি জাতীয় বিজ্ঞান দিবস; আবিষ্কারের জন্য তিনি ১৯৩০ সালে নোবেল পান।",
+      "section": "science_sports"
+    },
+    {
+      "term": "অপারেশন বিজয় (Operation Vijay)",
+      "meaning": "কার্গিল যুদ্ধের সাংকেতিক নাম; প্রায় ১৬,০০০ ফুট উচ্চতায় সংঘটিত এই যুদ্ধে ৫২৭ জন ভারতীয় সৈন্য শহীদ হন।",
+      "section": "world_stage"
+    },
+    {
+      "term": "ITU",
+      "meaning": "আন্তর্জাতিক টেলিযোগাযোগ ইউনিয়ন; এর প্রতিষ্ঠা ও ১৮৬৫ সালের প্রথম টেলিগ্রাফ কনভেনশনের স্মৃতিতে ১৭ মে টেলিযোগাযোগ দিবস।",
+      "section": "world_stage"
+    },
+    {
+      "term": "বার্ষিক থিম (Annual theme)",
+      "meaning": "প্রতি বছর বদলে যাওয়া পালনের বিষয়বস্তু; সবসময় বছরসহ মনে রাখতে হয়, যেমন যোগ দিবসের ২০২৬-এর থিম 'Yoga for Healthy Ageing'।",
+      "section": "exam_drill"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "নির্বাচন কমিশনের প্রতিষ্ঠা → ভোটার দিবস",
+      "causes": [
+        "নির্বাচন কমিশন গঠিত হয় ২৫ জানুয়ারি ১৯৫০"
+      ],
+      "event": "২০১১ সাল থেকে ২৫ জানুয়ারি জাতীয় ভোটার দিবস পালন শুরু",
+      "results": [
+        "ভোটার সচেতনতা ও নতুন ভোটার তালিকাভুক্তির বার্ষিক কর্মসূচি"
+      ],
+      "section": "constitution_cluster",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "title": "ভারতের প্রস্তাব → যোগ দিবস",
+      "causes": [
+        "প্রধানমন্ত্রী রাষ্ট্রসংঘের ৬৯তম অধিবেশনে প্রস্তাব তোলেন",
+        "১৭৫টি সদস্য রাষ্ট্র সমর্থন করে"
+      ],
+      "event": "রাষ্ট্রসংঘ ২০১৪ সালে ২১ জুনকে আন্তর্জাতিক যোগ দিবস ঘোষণা করে",
+      "results": [
+        "প্রথম পালন ২১ জুন ২০১৫, রাজপথে ৩৫,৯৮৫ জন অংশগ্রহণকারী"
+      ],
+      "section": "june_cluster",
+      "claims": [
+        "c10",
+        "c11",
+        "c29"
+      ]
+    },
+    {
+      "title": "দেশীয় রাজ্য একীভূতকরণ → একতা দিবস",
+      "causes": [
+        "পটেল ৫৬০টির বেশি দেশীয় রাজ্যকে ইউনিয়নে একীভূত করেন"
+      ],
+      "event": "সরকার ২০১৪ সালে তাঁর জন্মবার্ষিকী ৩১ অক্টোবরকে রাষ্ট্রীয় একতা দিবস ঘোষণা করে",
+      "results": [
+        "২০১৫ সালে একই দিনে 'এক ভারত শ্রেষ্ঠ ভারত' উদ্যোগের ঘোষণা"
+      ],
+      "section": "birthday_anchors",
+      "claims": [
+        "c19",
+        "c30",
+        "c20"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "২৫ জানুয়ারি (ভোটার) বনাম ২৬ জানুয়ারি (প্রজাতন্ত্র) — কারণসহ মুখস্থ করো",
+      "section": "constitution_cluster"
+    },
+    {
+      "point": "গৃহীত (২৬ নভেম্বর ১৯৪৯) বনাম কার্যকর (২৬ জানুয়ারি ১৯৫০)",
+      "section": "constitution_cluster"
+    },
+    {
+      "point": "ছয়টি জন্মদিন-জোড়: বিবেকানন্দ, রামন-ঘোষণা, ধ্যানচাঁদ, রাধাকৃষ্ণণ, নেহরু, পটেল, চরণ সিং",
+      "section": "birthday_anchors"
+    },
+    {
+      "point": "বিজ্ঞান (২৮ ফেব্রুয়ারি) বনাম ক্রীড়া (২৯ আগস্ট) — মাস দিয়ে আলাদা করো",
+      "section": "science_sports"
+    },
+    {
+      "point": "জুনের ক্রম: ৫ → ১২ → ১৪ → ২১",
+      "section": "june_cluster"
+    },
+    {
+      "point": "যোগ দিবস: ঘোষণা ২০১৪, প্রথম পালন ২০১৫",
+      "section": "june_cluster"
+    },
+    {
+      "point": "টেলিকম ১৭ মে, স্বাস্থ্য ৭ এপ্রিল, এইডস ১ ডিসেম্বর, কার্গিল ২৬ জুলাই",
+      "section": "world_stage"
+    },
+    {
+      "point": "থিম মানেই বছরসহ — স্থায়ী তথ্য হিসেবে কখনো নয়",
+      "section": "exam_drill"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই মিশ্র অধ্যায়ের সবচেয়ে সরাসরি বাংলা-যোগ যোগ দিবসেই: PIB-র পটভূমি-নথি অনুযায়ী **আন্তর্জাতিক যোগ দিবসের ১২তম সংস্করণের (২০২৬) মূল জাতীয় অনুষ্ঠানের আয়োজক শহর ছিল কলকাতা**। অর্থাৎ ২১ জুনের পালনে পশ্চিমবঙ্গ শুধু অংশগ্রহণকারী নয়, কেন্দ্রীয় মঞ্চ। এছাড়া যুব দিবসের ব্যক্তিত্ব স্বামী বিবেকানন্দের জন্ম কলকাতাতেই — তবে এই অধ্যায়ের উৎসে তাঁর জন্মস্থানের উল্লেখ না থাকায় সেটি এখানে দাবি করা হল না; শেখানো হল শুধু যাচাই করা তথ্যটুকুই।",
+    "claims": [
+      "c12"
+    ]
+  },
+  "quick_revision": [
+    "১২ জানুয়ারি — জাতীয় যুব দিবস (স্বামী বিবেকানন্দের জন্মবার্ষিকী)",
+    "২৫ জানুয়ারি — জাতীয় ভোটার দিবস (নির্বাচন কমিশনের প্রতিষ্ঠা দিবস, ২৫ জানুয়ারি ১৯৫০; পালন শুরু ২০১১)",
+    "২৬ জানুয়ারি — প্রজাতন্ত্র দিবস (সংবিধান কার্যকর হয়, ১৯৫০)",
+    "২৮ ফেব্রুয়ারি — জাতীয় বিজ্ঞান দিবস (রামন প্রভাবের ঘোষণা; নির্ধারণ ১৯৮৬; রামনের নোবেল ১৯৩০)",
+    "৭ এপ্রিল — বিশ্ব স্বাস্থ্য দিবস (২০২৩-এ মন্ত্রকের walkathon এই তারিখে)",
+    "১৭ মে — বিশ্ব টেলিযোগাযোগ দিবস (ITU-র প্রতিষ্ঠা ও ১৮৬৫-র টেলিগ্রাফ কনভেনশন; পালন ১৯৬৯ থেকে)",
+    "৫ জুন — বিশ্ব পরিবেশ দিবস (২০২০-এর থিম: জীববৈচিত্র্য)",
+    "১২ জুন — বিশ্ব শিশুশ্রমবিরোধী দিবস (ILO চালু করে ২০০২)",
+    "১৪ জুন — বিশ্ব রক্তদাতা দিবস (২০২০-এর থিম: Safe Blood Saves Lives)",
+    "২১ জুন — আন্তর্জাতিক যোগ দিবস (ঘোষণা ২০১৪; প্রথম পালন ২০১৫; ২০২৬-এর মূল অনুষ্ঠান কলকাতায়)",
+    "২৬ জুলাই — কার্গিল বিজয় দিবস (অপারেশন বিজয়; ৫২৭ জন শহীদ)",
+    "২৯ আগস্ট — জাতীয় ক্রীড়া দিবস (মেজর ধ্যানচাঁদের জন্মবার্ষিকী)",
+    "৫ সেপ্টেম্বর — জাতীয় শিক্ষক দিবস (ড. রাধাকৃষ্ণণের জন্মবার্ষিকী)",
+    "৩১ অক্টোবর — রাষ্ট্রীয় একতা দিবস (সর্দার পটেলের জন্মবার্ষিকী; প্রথম পালন ২০১৪; ২০২৫-এ ১৫০তম)",
+    "১৪ নভেম্বর — শিশু দিবস (জওহরলাল নেহরুর জন্মদিন)",
+    "২৬ নভেম্বর — সংবিধান দিবস (সংবিধান গৃহীত হয়, ২৬ নভেম্বর ১৯৪৯)",
+    "১ ডিসেম্বর — বিশ্ব এইডস দিবস (WHO প্রথম পালন করে ১৯৮৮; ২০২৫-এর থিমসহ)",
+    "২৩ ডিসেম্বর — কিষান দিবস (চৌধুরী চরণ সিংয়ের জন্মদিন)"
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "constitution_cluster",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে জাতীয় ভোটার দিবস পালিত হয় কোন তারিখে?",
+      "a": "২৫ জানুয়ারি",
+      "w": [
+        "২৬ জানুয়ারি",
+        "২৬ নভেম্বর",
+        "১২ জানুয়ারি"
+      ],
+      "e": "জাতীয় ভোটার দিবস ২৫ জানুয়ারি — নির্বাচন কমিশনের প্রতিষ্ঠা দিবস (২৫ জানুয়ারি ১৯৫০)। ২৬ জানুয়ারি প্রজাতন্ত্র দিবস, ২৬ নভেম্বর সংবিধান দিবস।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "constitution_cluster",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সংবিধান দিবস (সম্বিধান দিবস) পালিত হয় কোন তারিখে?",
+      "a": "২৬ নভেম্বর",
+      "w": [
+        "২৬ জানুয়ারি",
+        "২৫ জানুয়ারি",
+        "১৪ নভেম্বর"
+      ],
+      "e": "সংবিধান দিবস ২৬ নভেম্বর — ১৯৪৯ সালের এই দিনে গণপরিষদ সংবিধান গ্রহণ করে।",
+      "claims": [
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "constitution_cluster",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় ভোটার দিবস পালনের কারণ কী?",
+      "a": "নির্বাচন কমিশনের প্রতিষ্ঠা দিবস (২৫ জানুয়ারি ১৯৫০) চিহ্নিত করা",
+      "w": [
+        "সংবিধান কার্যকর হওয়ার দিন চিহ্নিত করা",
+        "সংবিধান গৃহীত হওয়ার দিন চিহ্নিত করা",
+        "প্রথম সাধারণ নির্বাচনের দিন চিহ্নিত করা"
+      ],
+      "e": "ভোটার দিবস নির্বাচন কমিশনের প্রতিষ্ঠা দিবসের স্মৃতিতে পালিত হয়। সংবিধান কার্যকর হয় ২৬ জানুয়ারি ১৯৫০ (প্রজাতন্ত্র দিবস) আর গৃহীত হয় ২৬ নভেম্বর ১৯৪৯ (সংবিধান দিবস)।",
+      "claims": [
+        "c01",
+        "c08"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "constitution_cluster",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের সংবিধান কার্যকর হয় কোন তারিখে?",
+      "a": "২৬ জানুয়ারি ১৯৫০",
+      "w": [
+        "২৬ নভেম্বর ১৯৪৯",
+        "২৫ জানুয়ারি ১৯৫০",
+        "১৫ আগস্ট ১৯৪৭"
+      ],
+      "e": "সংবিধান গৃহীত হয় ২৬ নভেম্বর ১৯৪৯, কিন্তু কার্যকর হয় ২৬ জানুয়ারি ১৯৫০ — সেই দিনটিই প্রজাতন্ত্র দিবস।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "constitution_cluster",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় ভোটার দিবস প্রথম পালিত হয় কোন সাল থেকে?",
+      "a": "২০১১ সাল থেকে",
+      "w": [
+        "১৯৫০ সাল থেকে",
+        "২০১৪ সাল থেকে",
+        "২০১৫ সাল থেকে"
+      ],
+      "e": "PIB অনুযায়ী ২০১১ সাল থেকে প্রতি বছর ২৫ জানুয়ারি জাতীয় ভোটার দিবস পালিত হচ্ছে।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "constitution_cluster",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৩ সালের জাতীয় ভোটার দিবসের থিম কোনটি ছিল?",
+      "a": "Nothing Like Voting, I Vote for Sure",
+      "w": [
+        "Yoga for Healthy Ageing",
+        "Health for All",
+        "Safe Blood Saves Lives"
+      ],
+      "e": "২০২৩-এর (১৩তম) ভোটার দিবসের থিম ছিল 'Nothing Like Voting, I Vote for Sure'। বাকিগুলি যথাক্রমে যোগ দিবস ২০২৬, স্বাস্থ্য দিবস ২০২৩ ও রক্তদাতা দিবস ২০২০-এর থিম — থিম সবসময় বছরসহ মনে রাখতে হয়।",
+      "claims": [
+        "c02",
+        "c12",
+        "c27",
+        "c26"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "constitution_cluster",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সংবিধান গৃহীত হওয়া ও নির্বাচন কমিশন গঠনের মধ্যে কোনটি আগে ঘটে?",
+      "a": "সংবিধান গৃহীত হওয়া (২৬ নভেম্বর ১৯৪৯)",
+      "w": [
+        "নির্বাচন কমিশন গঠন (২৫ জানুয়ারি ১৯৫০)",
+        "দুটি একই দিনে ঘটে",
+        "নির্বাচন কমিশন গঠন ১৯৪৯ সালে ঘটে"
+      ],
+      "e": "কালানুক্রম: সংবিধান গৃহীত ২৬ নভেম্বর ১৯৪৯ → নির্বাচন কমিশন গঠন ২৫ জানুয়ারি ১৯৫০ → সংবিধান কার্যকর ২৬ জানুয়ারি ১৯৫০।",
+      "claims": [
+        "c08",
+        "c01"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "birthday_anchors",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় যুব দিবস (১২ জানুয়ারি) কার জন্মবার্ষিকীতে পালিত হয়?",
+      "a": "স্বামী বিবেকানন্দ",
+      "w": [
+        "জওহরলাল নেহরু",
+        "সর্দার বল্লভভাই পটেল",
+        "ড. সর্বপল্লী রাধাকৃষ্ণণ"
+      ],
+      "e": "জাতীয় যুব দিবস স্বামী বিবেকানন্দের জন্মবার্ষিকীতে পালিত হয়। নেহরুর জন্মদিন ১৪ নভেম্বর (শিশু দিবস), পটেলের ৩১ অক্টোবর (একতা দিবস), রাধাকৃষ্ণণের ৫ সেপ্টেম্বর (শিক্ষক দিবস)।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "birthday_anchors",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে শিক্ষক দিবস পালিত হয় কোন তারিখে?",
+      "a": "৫ সেপ্টেম্বর",
+      "w": [
+        "১৪ নভেম্বর",
+        "৩১ অক্টোবর",
+        "২৩ ডিসেম্বর"
+      ],
+      "e": "শিক্ষক দিবস ৫ সেপ্টেম্বর — ড. সর্বপল্লী রাধাকৃষ্ণণের জন্মবার্ষিকী।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "birthday_anchors",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "শিশু দিবস (১৪ নভেম্বর) কার জন্মদিনে পালিত হয়?",
+      "a": "জওহরলাল নেহরু",
+      "w": [
+        "চৌধুরী চরণ সিং",
+        "মেজর ধ্যানচাঁদ",
+        "স্বামী বিবেকানন্দ"
+      ],
+      "e": "১৪ নভেম্বর ভারতের প্রথম প্রধানমন্ত্রী জওহরলাল নেহরুর জন্মদিন; শিশুদের প্রতি তাঁর স্নেহের স্মৃতিতে এই দিনে শিশু দিবস পালিত হয়।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "birthday_anchors",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রাষ্ট্রীয় একতা দিবস পালিত হয় কোন তারিখে?",
+      "a": "৩১ অক্টোবর",
+      "w": [
+        "৫ সেপ্টেম্বর",
+        "২৬ জুলাই",
+        "১ ডিসেম্বর"
+      ],
+      "e": "রাষ্ট্রীয় একতা দিবস (জাতীয় ঐক্য দিবস) ৩১ অক্টোবর — সর্দার বল্লভভাই পটেলের জন্মবার্ষিকী।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "birthday_anchors",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কিষান দিবস (২৩ ডিসেম্বর) কার জন্মদিনে পালিত হয়?",
+      "a": "চৌধুরী চরণ সিং",
+      "w": [
+        "জওহরলাল নেহরু",
+        "সর্দার বল্লভভাই পটেল",
+        "লাল বাহাদুর শাস্ত্রী"
+      ],
+      "e": "কিষান দিবস পঞ্চম প্রধানমন্ত্রী ও কৃষক নেতা চৌধুরী চরণ সিংয়ের জন্মদিনে পালিত হয়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "birthday_anchors",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রাষ্ট্রীয় একতা দিবস প্রথম পালিত হয় কোন সালে?",
+      "a": "২০১৪ সালে",
+      "w": [
+        "২০১১ সালে",
+        "২০১৫ সালে",
+        "১৯৫০ সালে"
+      ],
+      "e": "ভারত সরকারের ঘোষণার পর একতা দিবস প্রথম পালিত হয় ২০১৪ সালে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "birthday_anchors",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সর্দার পটেল সম্পর্কে কোন তথ্যটি সঠিক?",
+      "a": "তিনি ৫৬০টির বেশি দেশীয় রাজ্যকে ভারতীয় ইউনিয়নে একীভূত করার দায়িত্বে ছিলেন",
+      "w": [
+        "তিনি ভারতের পঞ্চম প্রধানমন্ত্রী ছিলেন",
+        "তিনি নির্বাচন কমিশনের প্রথম প্রধান ছিলেন",
+        "তাঁর জন্মবার্ষিকী ১৪ নভেম্বর পালিত হয়"
+      ],
+      "e": "পটেল ছিলেন ভারতের প্রথম উপ-প্রধানমন্ত্রী ও স্বরাষ্ট্রমন্ত্রী এবং দেশীয় রাজ্য একীভূতকরণের নেতৃত্ব দেন। পঞ্চম প্রধানমন্ত্রী ছিলেন চরণ সিং; পটেলের জন্মবার্ষিকী ৩১ অক্টোবর।",
+      "claims": [
+        "c19",
+        "c22",
+        "c18"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "birthday_anchors",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৫ সালের রাষ্ট্রীয় একতা দিবস বিশেষ ছিল কেন?",
+      "a": "ওই বছর সর্দার পটেলের ১৫০তম জন্মবার্ষিকী পালিত হয়",
+      "w": [
+        "ওই বছর দিবসটি প্রথম পালিত হয়",
+        "ওই বছর 'এক ভারত শ্রেষ্ঠ ভারত' ঘোষিত হয়",
+        "ওই বছর থিম ছিল Yoga for Healthy Ageing"
+      ],
+      "e": "PIB অনুযায়ী ২০২৫-এর পালন ছিল পটেলের ১৫০তম জন্মবার্ষিকী। দিবসটি প্রথম পালিত হয় ২০১৪ সালে, EBSB ঘোষিত হয় ২০১৫ সালে।",
+      "claims": [
+        "c31",
+        "c30",
+        "c20"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "science_sports",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় বিজ্ঞান দিবস পালিত হয় কোন তারিখে?",
+      "a": "২৮ ফেব্রুয়ারি",
+      "w": [
+        "২৯ আগস্ট",
+        "২৮ জানুয়ারি",
+        "৫ জুন"
+      ],
+      "e": "জাতীয় বিজ্ঞান দিবস ২৮ ফেব্রুয়ারি — রামন প্রভাব আবিষ্কারের ঘোষণার স্মৃতিতে। ২৯ আগস্ট জাতীয় ক্রীড়া দিবস।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "science_sports",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় ক্রীড়া দিবস পালিত হয় কোন তারিখে?",
+      "a": "২৯ আগস্ট",
+      "w": [
+        "২৮ ফেব্রুয়ারি",
+        "২৬ জুলাই",
+        "২৯ জানুয়ারি"
+      ],
+      "e": "জাতীয় ক্রীড়া দিবস ২৯ আগস্ট — মেজর ধ্যানচাঁদের জন্মবার্ষিকী।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "science_sports",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় বিজ্ঞান দিবস কোন আবিষ্কারের স্মৃতিতে পালিত হয়?",
+      "a": "রামন প্রভাব",
+      "w": [
+        "বসু-আইনস্টাইন ঘনীভবন",
+        "জগদীশচন্দ্র বসুর ক্রেস্কোগ্রাফ",
+        "হোমি ভাবার পরমাণু কর্মসূচি"
+      ],
+      "e": "সি. ভি. রামন 'রামন প্রভাব' আবিষ্কারের কথা ঘোষণা করেন ২৮ ফেব্রুয়ারি; সেই স্মৃতিতেই বিজ্ঞান দিবস।",
+      "claims": [
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "science_sports",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সি. ভি. রামন নোবেল পুরস্কার পান কোন সালে?",
+      "a": "১৯৩০ সালে",
+      "w": [
+        "১৯২৮ সালে",
+        "১৯৮৬ সালে",
+        "১৯৪৭ সালে"
+      ],
+      "e": "রামন প্রভাবের ঘোষণা ১৯২৮ সালে হলেও নোবেল পুরস্কার আসে ১৯৩০ সালে। ১৯৮৬ সালে সরকার ২৮ ফেব্রুয়ারিকে বিজ্ঞান দিবস নির্ধারণ করে।",
+      "claims": [
+        "c04",
+        "c03"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "science_sports",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারত সরকার কত সালে ২৮ ফেব্রুয়ারিকে জাতীয় বিজ্ঞান দিবস হিসেবে নির্ধারণ করে?",
+      "a": "১৯৮৬ সালে",
+      "w": [
+        "১৯৩০ সালে",
+        "২০১৪ সালে",
+        "২০১১ সালে"
+      ],
+      "e": "PIB অনুযায়ী ভারত সরকার ১৯৮৬ সালে ২৮ ফেব্রুয়ারিকে জাতীয় বিজ্ঞান দিবস (NSD) হিসেবে নির্ধারণ করে।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "science_sports",
+      "level": "difficult",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "a": "জাতীয় ক্রীড়া দিবস – ২৯ আগস্ট",
+      "w": [
+        "জাতীয় বিজ্ঞান দিবস – ২৯ আগস্ট",
+        "জাতীয় ক্রীড়া দিবস – ২৮ ফেব্রুয়ারি",
+        "রামন প্রভাব – মেজর ধ্যানচাঁদ"
+      ],
+      "e": "ক্রীড়া দিবস ২৯ আগস্ট (ধ্যানচাঁদ) ও বিজ্ঞান দিবস ২৮ ফেব্রুয়ারি (রামন) — প্রথম দুটি ভুল বিকল্পে তারিখ দুটি বদলে দেওয়া হয়েছে, আর রামন প্রভাবের সঙ্গে জড়িত সি. ভি. রামন, ধ্যানচাঁদ নন।",
+      "claims": [
+        "c06",
+        "c03"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "june_cluster",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব পরিবেশ দিবস পালিত হয় কোন তারিখে?",
+      "a": "৫ জুন",
+      "w": [
+        "২১ জুন",
+        "২২ এপ্রিল",
+        "১২ জুন"
+      ],
+      "e": "বিশ্ব পরিবেশ দিবস ৫ জুন। ২১ জুন আন্তর্জাতিক যোগ দিবস, ১২ জুন শিশুশ্রমবিরোধী দিবস।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "june_cluster",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক যোগ দিবস পালিত হয় কোন তারিখে?",
+      "a": "২১ জুন",
+      "w": [
+        "৫ জুন",
+        "১৪ জুন",
+        "২১ মার্চ"
+      ],
+      "e": "আন্তর্জাতিক যোগ দিবস ২১ জুন — রাষ্ট্রসংঘ ২০১৪ সালে ঘোষণা করে।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "june_cluster",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব রক্তদাতা দিবস কোন তারিখে পালিত হয়?",
+      "a": "১৪ জুন",
+      "w": [
+        "৫ জুন",
+        "১৪ জুলাই",
+        "১ ডিসেম্বর"
+      ],
+      "e": "বিশ্ব রক্তদাতা দিবস ১৪ জুন পালিত হয় (২০২০ সালের পালনও ছিল ১৪ জুন)।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "june_cluster",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব শিশুশ্রমবিরোধী দিবস (১২ জুন) কোন সংস্থা চালু করে?",
+      "a": "আন্তর্জাতিক শ্রম সংস্থা (ILO)",
+      "w": [
+        "বিশ্ব স্বাস্থ্য সংস্থা (WHO)",
+        "রাষ্ট্রসংঘ পরিবেশ কর্মসূচি (UNEP)",
+        "আন্তর্জাতিক টেলিযোগাযোগ ইউনিয়ন (ITU)"
+      ],
+      "e": "ILO ২০০২ সালে বিশ্ব শিশুশ্রমবিরোধী দিবস চালু করে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "june_cluster",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আন্তর্জাতিক যোগ দিবস প্রথম পালিত হয় কোন সালে?",
+      "a": "২০১৫ সালে",
+      "w": [
+        "২০১৪ সালে",
+        "২০১৬ সালে",
+        "২০২৬ সালে"
+      ],
+      "e": "ঘোষণা ২০১৪ সালে, কিন্তু প্রথম পালন হয় ২১ জুন ২০১৫ সালে।",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "june_cluster",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "যোগ দিবসের প্রস্তাব রাষ্ট্রসংঘে কে তোলেন?",
+      "a": "প্রধানমন্ত্রী নরেন্দ্র মোদী (৬৯তম অধিবেশনে)",
+      "w": [
+        "ভারতের বিদেশমন্ত্রী (৭০তম অধিবেশনে)",
+        "রাষ্ট্রসংঘের মহাসচিব",
+        "বিশ্ব স্বাস্থ্য সংস্থার প্রধান"
+      ],
+      "e": "প্রস্তাবটি প্রধানমন্ত্রী নরেন্দ্র মোদী রাষ্ট্রসংঘের ৬৯তম অধিবেশনে তোলেন এবং ১৭৫টি সদস্য রাষ্ট্র তা সমর্থন করে।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "june_cluster",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্রথম আন্তর্জাতিক যোগ দিবসের মূল অনুষ্ঠান সম্পর্কে কোন তথ্যটি সঠিক?",
+      "a": "রাজপথ, নয়াদিল্লিতে ৮৪টি দেশের প্রতিনিধিসহ ৩৫,৯৮৫ জন অংশ নেন",
+      "w": [
+        "কলকাতায় ৩৫,৯৮৫ জন অংশ নেন",
+        "রাজপথে ১৭৫টি দেশের প্রতিনিধি অংশ নেন",
+        "অনুষ্ঠানটি হয় ২১ জুন ২০১৪ সালে"
+      ],
+      "e": "প্রথম পালন ২১ জুন ২০১৫-তে রাজপথে হয়, অংশগ্রহণকারী ৩৫,৯৮৫ জন, দেশ ৮৪টি। ১৭৫ হল প্রস্তাব সমর্থনকারী সদস্য রাষ্ট্রের সংখ্যা; কলকাতা মূল অনুষ্ঠানের শহর হয় ২০২৬ সালে।",
+      "claims": [
+        "c29",
+        "c10",
+        "c12"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "june_cluster",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২০ সালের বিশ্ব পরিবেশ দিবসের থিম কোনটি ছিল?",
+      "a": "জীববৈচিত্র্য (Biodiversity)",
+      "w": [
+        "Yoga for Healthy Ageing",
+        "Health for All",
+        "Overcoming disruption, transforming the AIDS response"
+      ],
+      "e": "২০২০-এর পরিবেশ দিবসের থিম ছিল 'Biodiversity'। বাকিগুলি যথাক্রমে যোগ দিবস ২০২৬, স্বাস্থ্য দিবস ২০২৩ ও এইডস দিবস ২০২৫-এর থিম।",
+      "claims": [
+        "c14",
+        "c12",
+        "c27",
+        "c25"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "world_stage",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কার্গিল বিজয় দিবস পালিত হয় কোন তারিখে?",
+      "a": "২৬ জুলাই",
+      "w": [
+        "২৬ জানুয়ারি",
+        "২৬ নভেম্বর",
+        "১৬ ডিসেম্বর"
+      ],
+      "e": "কার্গিল বিজয় দিবস ২৬ জুলাই — কার্গিল-দ্রাস সেক্টরের যুদ্ধের স্মৃতিতে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "world_stage",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব এইডস দিবস পালিত হয় কোন তারিখে?",
+      "a": "১ ডিসেম্বর",
+      "w": [
+        "১০ ডিসেম্বর",
+        "২৩ ডিসেম্বর",
+        "১৪ নভেম্বর"
+      ],
+      "e": "বিশ্ব এইডস দিবস ১ ডিসেম্বর; WHO প্রথম পালন করে ১৯৮৮ সালে।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "world_stage",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্ব স্বাস্থ্য দিবস পালিত হয় কোন তারিখে?",
+      "a": "৭ এপ্রিল",
+      "w": [
+        "৭ মে",
+        "১৭ মে",
+        "৫ জুন"
+      ],
+      "e": "বিশ্ব স্বাস্থ্য দিবস ৭ এপ্রিল — ২০২৩ সালে স্বাস্থ্য মন্ত্রকের walkathon-ও হয় ৭ এপ্রিল। ১৭ মে টেলিযোগাযোগ দিবস।",
+      "claims": [
+        "c27",
+        "c23"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "world_stage",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্ব টেলিযোগাযোগ দিবস (১৭ মে) কোন ঘটনার স্মৃতিতে পালিত হয়?",
+      "a": "ITU-র প্রতিষ্ঠা ও ১৮৬৫ সালের প্রথম আন্তর্জাতিক টেলিগ্রাফ কনভেনশন স্বাক্ষর",
+      "w": [
+        "প্রথম টেলিফোন আবিষ্কার",
+        "ভারতে প্রথম মোবাইল কল",
+        "রাষ্ট্রসংঘের প্রতিষ্ঠা"
+      ],
+      "e": "১৭ মে পালিত হয় ১৯৬৯ সাল থেকে — ITU-র প্রতিষ্ঠা এবং ১৮৬৫ সালের প্রথম আন্তর্জাতিক টেলিগ্রাফ কনভেনশনের স্মৃতিতে।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "world_stage",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কার্গিল যুদ্ধের সাংকেতিক নাম কী ছিল?",
+      "a": "অপারেশন বিজয়",
+      "w": [
+        "অপারেশন মেঘদূত",
+        "অপারেশন ব্লু স্টার",
+        "অপারেশন পরাক্রম"
+      ],
+      "e": "কার্গিল যুদ্ধ 'অপারেশন বিজয়' নামে পরিচিত; যুদ্ধ হয় প্রায় ১৬,০০০ ফুট উচ্চতায়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "world_stage",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কার্গিল যুদ্ধে কতজন ভারতীয় সৈন্য শহীদ হন (PIB অনুযায়ী)?",
+      "a": "৫২৭ জন",
+      "w": [
+        "১৯৭ জন",
+        "১,০৪২ জন",
+        "৪৫৩ জন"
+      ],
+      "e": "PIB অনুযায়ী ৫২৭ জন ভারতীয় সৈন্য শহীদ হন; ১,০৪২ সংখ্যাটি পাকিস্তানি সৈন্য মৃত্যুর।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "world_stage",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিশ্ব এইডস দিবস প্রথম পালিত হয় কোন সালে এবং কোন সংস্থা দ্বারা?",
+      "a": "১৯৮৮ সালে, বিশ্ব স্বাস্থ্য সংস্থা (WHO) দ্বারা",
+      "w": [
+        "২০০২ সালে, ILO দ্বারা",
+        "১৯৬৯ সালে, ITU দ্বারা",
+        "২০১৪ সালে, রাষ্ট্রসংঘ দ্বারা"
+      ],
+      "e": "এইডস দিবস প্রথম পালন করে WHO, ১৯৮৮ সালে। ২০০২/ILO হল শিশুশ্রমবিরোধী দিবস, ১৯৬৯/ITU টেলিযোগাযোগ দিবসের সঙ্গে জড়িত।",
+      "claims": [
+        "c24",
+        "c28",
+        "c23"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "exam_drill",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলান:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| ক. জাতীয় ভোটার দিবস | ১. ২৯ আগস্ট |\n| খ. জাতীয় বিজ্ঞান দিবস | ২. ২৫ জানুয়ারি |\n| গ. জাতীয় ক্রীড়া দিবস | ৩. ২৬ নভেম্বর |\n| ঘ. সংবিধান দিবস | ৪. ২৮ ফেব্রুয়ারি |",
+      "a": "ক-২, খ-৪, গ-১, ঘ-৩",
+      "w": [
+        "ক-২, খ-১, গ-৪, ঘ-৩",
+        "ক-১, খ-৪, গ-২, ঘ-৩",
+        "ক-২, খ-৪, গ-৩, ঘ-১"
+      ],
+      "e": "ভোটার দিবস ২৫ জানুয়ারি; বিজ্ঞান দিবস ২৮ ফেব্রুয়ারি; ক্রীড়া দিবস ২৯ আগস্ট; সংবিধান দিবস ২৬ নভেম্বর।",
+      "claims": [
+        "c01",
+        "c03",
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "exam_drill",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "একটি ক্যালেন্ডার বছরে নিচের পালনগুলিকে কালানুক্রমিক ক্রমে সাজান (আগেরটি প্রথমে):\n\n১. জাতীয় যুব দিবস\n২. জাতীয় বিজ্ঞান দিবস\n৩. আন্তর্জাতিক যোগ দিবস\n৪. জাতীয় ক্রীড়া দিবস",
+      "a": "১, ২, ৩, ৪",
+      "w": [
+        "২, ১, ৩, ৪",
+        "১, ৩, ২, ৪",
+        "১, ২, ৪, ৩"
+      ],
+      "e": "১২ জানুয়ারি (যুব) → ২৮ ফেব্রুয়ারি (বিজ্ঞান) → ২১ জুন (যোগ) → ২৯ আগস্ট (ক্রীড়া)।",
+      "claims": [
+        "c15",
+        "c03",
+        "c10",
+        "c06"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "exam_drill",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নিচের বিবৃতিগুলি বিবেচনা করুন:\n\n১. জাতীয় ভোটার দিবস পালিত হয় ২৫ জানুয়ারি।\n২. প্রজাতন্ত্র দিবস ২৬ জানুয়ারি পালিত হয়, কারণ ওই দিনেই ভারতের সংবিধান গৃহীত হয়েছিল।\n\nউপরের বিবৃতিগুলির মধ্যে কোনটি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল: ২৬ জানুয়ারি সংবিধান কার্যকর হয়; গৃহীত হয়েছিল ২৬ নভেম্বর ১৯৪৯।",
+      "claims": [
+        "c01",
+        "c08"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "exam_drill",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**দাবি (A):** জাতীয় ভোটার দিবস প্রজাতন্ত্র দিবসে পালিত হয় না।\n\n**কারণ (R):** জাতীয় ভোটার দিবস ভারতের নির্বাচন কমিশনের প্রতিষ্ঠা দিবস, ২৫ জানুয়ারি ১৯৫০-কে চিহ্নিত করে।",
+      "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সত্য, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য, কিন্তু R মিথ্যা",
+        "A মিথ্যা, কিন্তু R সত্য"
+      ],
+      "e": "দুটিই সত্য: ভোটার দিবস ২৫ জানুয়ারি (কমিশনের প্রতিষ্ঠা দিবস), প্রজাতন্ত্র দিবস ২৬ জানুয়ারি — তাই R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c01",
+        "c08"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "exam_drill",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মেলেনি?",
+      "a": "বিশ্ব স্বাস্থ্য দিবস – ৭ মে",
+      "w": [
+        "বিশ্ব টেলিযোগাযোগ দিবস – ১৭ মে",
+        "বিশ্ব পরিবেশ দিবস – ৫ জুন",
+        "বিশ্ব শিশুশ্রমবিরোধী দিবস – ১২ জুন"
+      ],
+      "e": "বিশ্ব স্বাস্থ্য দিবস ৭ এপ্রিল, ৭ মে নয় — মাস বদলানো এই ফাঁদটি প্রকৃত WBPSC Miscellaneous 2023 প্রশ্নেও ছিল। বাকি তিনটি জোড় সঠিক।",
+      "claims": [
+        "c27",
+        "c23",
+        "c13",
+        "c28"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "exam_drill",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "একটি ক্যালেন্ডার বছরে নিচের পালনগুলিকে কালানুক্রমিক ক্রমে সাজান (আগেরটি প্রথমে):\n\n১. কার্গিল বিজয় দিবস\n২. রাষ্ট্রীয় একতা দিবস\n৩. বিশ্ব এইডস দিবস\n৪. কিষান দিবস",
+      "a": "১, ২, ৩, ৪",
+      "w": [
+        "২, ১, ৩, ৪",
+        "১, ৩, ২, ৪",
+        "১, ২, ৪, ৩"
+      ],
+      "e": "২৬ জুলাই (কার্গিল) → ৩১ অক্টোবর (একতা) → ১ ডিসেম্বর (এইডস) → ২৩ ডিসেম্বর (কিষান)।",
+      "claims": [
+        "c16",
+        "c18",
+        "c24",
+        "c22"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,286 @@
-{}
+{
+  "DAY-01": [
+    {
+      "note": "GK bank fact card for subtopic 'january' (db/gk/important_days.jsonl). All eight dates it lists are taught in this chapter: 9 Jan Pravasi Bharatiya Divas (pravasi_youth), 12 Jan Youth Day (pravasi_youth), 15 Jan Army Day (army_parakram), 23 Jan Parakram Diwas (army_parakram), 24 Jan Girl Child Day (girl_child), 25 Jan Voters' Day + Tourism Day (voters_tourism), 26 Jan Republic Day (republic_day), 30 Jan Martyrs' Day (martyrs_day). Its three bank questions (Voters' Day date, Youth Day person, January pairs) are fully covered. One sub-detail is NOT claim-backed in this draft: the card gives 1948 as the year of Gandhi's assassination; the fetched PIB/PMO pages used here state the date and the death-anniversary reason but do not print the year, so the year is not taught (see the Clerkship 2019 entry below).",
+      "pyq_code": "GK-DAY-001",
+      "section": "voters_tourism",
+      "taught": true
+    },
+    {
+      "note": "'The Constitution of India came into force on' — 26.01.1950. Taught in republic_day with the adoption-vs-enforcement distinction (adopted 26 Nov 1949), claim c23 from the PIB Constitution Day factsheet.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q19",
+      "section": "republic_day",
+      "taught": true
+    },
+    {
+      "note": "Asks the YEAR of Gandhi's assassination on 30 January (answer 1948). This chapter teaches the date, the Punya Tithi / death-anniversary reason, Rajghat homage and the 11 AM two-minute silence from fetched PIB/PMO pages (claims c29, c30), but none of the fetched official pages prints the year 1948, so the year itself is not taught in this draft. Source gap, disclosed in the chapter text and REPORT.md.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q4",
+      "section": "martyrs_day",
+      "taught": false
+    },
+    {
+      "note": "Asks who was chief guest at the Republic Day parade in 2008 (Nicolas Sarkozy). A year-specific chief guest is current-affairs material; this chapter teaches only the permanent date and reason of Republic Day (Constitution in force, 26 Jan 1950). Not taught, by design.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q27",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Asks who was Chief Guest of Republic Day 2021 (answer: none of them — no foreign chief guest that year). Year-specific chief-guest/current-affairs item; the chapter teaches the permanent date and reason only. Not taught, by design.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q101",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "DAY-02": [
+    {
+      "pyq_code": "GK-DAY-002",
+      "section": "last_week",
+      "taught": true,
+      "note": "GK bank item (subtopic february): lists 2 Feb Wetlands, 4 Feb Cancer, 11 Feb Women & Girls in Science, 13 Feb National Women's Day (Sarojini Naidu), 21 Feb Mother Language Day, 28 Feb National Science Day. All six dates taught: wetlands (c04), cancer (c07-c08), women in science (c09-c10), Naidu birth anniversary 13 Feb 1879 (c11-c14; the 'National Women's Day' label is flagged in the section's exam_note as the exam/bank name for the birth-anniversary observance, since the fetched PIB sources confirm the birth anniversary and official tributes on 13 Feb but do not themselves use the label), mother language (c19-c22), science day (c24-c25). Practice q34/q09/q13/q18/q26 mirror the bank item's own questions."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q140",
+      "section": "health_awareness",
+      "taught": true,
+      "note": "Real WBCS (Exe.) Prelims 2015 Q140: 'World cancer Day was observed in 2015 across the world on' — answer 4th February. Taught in health_awareness: AIIA (Ministry of Ayush) observed World Cancer Day 2026 with its main programme on 4 February 2026 (claims c07, c08); practice q09 and q12 (modelled on this very item) test it."
+    },
+    {
+      "pyq_code": "IDO-2019-Q99",
+      "section": "last_week",
+      "taught": true,
+      "note": "Real WBPSC IDO 2019 Q99: ''Raman Effect' was discovered in 1928 by' — answer C. V. Raman. Taught in last_week: Raman discovered the Raman Effect on 28 February 1928 while working at the IACS laboratory, Kolkata (claim c28, PIB backgrounder relid 24596), announced it on this day and received the Nobel Prize in 1930 (claims c24, c25); practice q36/q38 test the same link."
+    }
+  ],
+  "DAY-03": [
+    {
+      "pyq_code": "GK-DAY-003",
+      "section": "date_traps",
+      "taught": true,
+      "note": "GK bank item for subtopic 'march' listing 3 Mar Wildlife, 8 Mar Women's Day, 15 Mar Consumer Rights, 20 Mar Happiness, 21 Mar Forests, 22 Mar Water, 23 Mar Meteorological + Shaheed Diwas, 24 Mar TB. All except 20 March (International Day of Happiness) are taught in this chapter from PIB sources. 20 March is NOT taught: no official GoI/NCERT source was fetched for it in this run — disclosed as a gap."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q183",
+      "section": "week3_consumer_vaccination",
+      "taught": true,
+      "note": "Real WBCS Prelims 2016 question: 'World Consumer Rights day is on' — answer 15 March, taught in week3_consumer_vaccination (claim c12, PIB Department of Consumer Affairs)."
+    }
+  ],
+  "DAY-04": [
+    {
+      "note": "Bank item for subtopic 'april' with 3 embedded questions: (1) World Health Day / WHO constitution 1948 — taught in week1_april (claims c07); (2) National Panchayati Raj Day reason, 73rd Amendment in force 1993 — taught in week4_april (claim c22); (3) April pairs question — its Health Day, Heritage Day and Panchayati Raj pairs are taught here, but its World Book and Copyright Day pair rests on a date (23 April) that this chapter could NOT verify from a fetched Government of India source, so that one pair is not taught; see the gap note in REPORT.md.",
+      "pyq_code": "GK-DAY-004",
+      "section": "week1_april",
+      "taught": true
+    },
+    {
+      "note": "Real exam matching question (WBPSC Miscellaneous Prelims 2023, Q27): the correct pair is 17 May – World Telecommunication Day; one wrong pair is '7 May – World Health Day', which a candidate can only reject by knowing World Health Day is 7 April — taught in week1_april (claim c07). The remaining pairs belong to the May and June chapters (DAY-05, DAY-06).",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q27",
+      "section": "week1_april",
+      "taught": true
+    }
+  ],
+  "DAY-05": [
+    {
+      "note": "GK bank fact card for subtopic 'may' (db/gk/important_days.jsonl). All nine dates it lists are taught in this chapter with date + reason from fetched official (gov.in) sources: 1 May Workers' Day (labour_press), 3 May Press Freedom Day (labour_press), 8 May Red Cross Day / Henry Dunant (redcross_tech), 11 May National Technology Day / Pokhran-II 1998 (redcross_tech), 15 May International Day of Families (families_telecom), 17 May World Telecommunication and Information Society Day (families_telecom), 21 May Anti-Terrorism Day / Rajiv Gandhi 1991 + International Tea Day (tea_antiterror), 22 May Biological Diversity Day (biodiversity), 31 May World No-Tobacco Day (notobacco). Its three bank questions (Technology Day reason, Press Freedom Day date, May pairs) are fully covered.",
+      "pyq_code": "GK-DAY-005",
+      "section": "redcross_tech",
+      "taught": true
+    }
+  ],
+  "DAY-06": [
+    {
+      "pyq_code": "GK-DAY-006",
+      "section": "date_traps",
+      "taught": true,
+      "note": "GK bank item for subtopic 'june' listing 3 Jun Bicycle, 5 Jun Environment, 7 Jun Food Safety, 8 Jun Oceans, 12 Jun Child Labour, 14 Jun Blood Donor, 17 Jun Desertification, 21 Jun Yoga (+ Music Day), 23 Jun UN Public Service Day, 26 Jun Drug Abuse, 29 Jun Statistics. All except two are taught in this chapter from PIB sources. NOT taught: World Music Day (21 June) and UN Public Service Day (23 June) — no official GoI/NCERT source was fetched for them in this run; disclosed as gaps in the chapter (date_traps) and in REPORT.md."
+    },
+    {
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q27",
+      "section": "date_traps",
+      "taught": true,
+      "note": "Real WBPSC Miscellaneous Prelims 2023 question (db/pyq/misc-2023.json, question_no 27): 'Identify the correct match' — correct pair is 17 May World Telecommunication Day; the June distractors (5 June as 'World Ocean Day', 11 June as World Day Against Child Labour) are exactly the traps this chapter teaches against: Environment Day is 5 June (claim c01), Oceans Day is 8 June (c20), Child Labour Day is 12 June (c23)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q45",
+      "section": "week2_child_blood",
+      "taught": true,
+      "note": "Real Clerkship 2023 Session II question (db/pyq/wbpsc-clerkship-2023-session-2.json, question_no 45, topic important_days): 'Which day is celebrated as World Blood Donor Day every year?' — answer 14 June, taught in week2_child_blood (claim c25, PIB MoHFW). The corpus explanation's Karl Landsteiner birth-anniversary reason is NOT taught here: the fetched PIB release does not state it (flagged in the chapter's exam_note)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q92",
+      "section": null,
+      "taught": false,
+      "note": "Real Clerkship 2023 Session I question (db/pyq/wbpsc-clerkship-2023-session-1.json, question_no 92, topic current_affairs): 'Which country hosted the World Environment Day 2024?' (answer: Saudi Arabia). The chapter teaches the permanent fact (World Environment Day, 5 June, claim c01) but NOT the 2024 host country — an annual, year-specific fact outside this chapter's PIB sources and outside the permanent date+reason scope."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q67",
+      "section": null,
+      "taught": false,
+      "note": "Real Clerkship 2023 Session III question (db/pyq/wbpsc-clerkship-2023-session-3.json, question_no 67, topic current_affairs): 'Which state organised the National Yoga Olympiad from 18th to 20th June, 2024?' (answer: Karnataka). The chapter teaches International Day of Yoga itself (21 June; claims c04-c08) but NOT the 2024 National Yoga Olympiad host state — a year-specific current-affairs event, not the day's permanent date or reason."
+    }
+  ],
+  "DAY-07": [
+    {
+      "note": "GK bank topic pack for July days. All three embedded questions are taught: (1) Doctors' Day / Dr Bidhan Chandra Roy as legendary physician and former CM of West Bengal — week1_first (claims c01, c05); (2) Kargil Vijay Diwas 26 July marks the 1999 victory (not 1971) — week4_nation (c25, c30), with the 16 December Vijay Diwas contrast in review_confusions (c26); (3) the MATCH set — Population Day 11 July (week2_population, c13), Mandela Day 18 July (week3_skills_mandela, c20), Tiger Day 29 July and Hepatitis Day 28 July (week4_health_nature, c36, c32) — rehearsed as q41 in review_confusions. One element of the bank item is NOT taught: its statement also lists World Nature Conservation Day on 28 July; no official GoI/NCERT source for that day could be fetched, so the chapter discloses the gap in an exam_note instead of teaching it.",
+      "pyq_code": "GK-DAY-007",
+      "section": "review_confusions",
+      "taught": true
+    },
+    {
+      "note": "Real paper question (WBPSC Clerkship Part-I 2023, Session II, Q64): 'Who is the famous personality known for his role in the anti-apartheid movement in South Africa?' — answer Nelson Mandela. Taught in week3_skills_mandela: PIB (Films Division) calls Mandela 'the icon of the anti-apartheid movement' (claim c22), with his 27 years of incarceration and the 1994 ANC victory in c23; the section deep text names this very PYQ pattern.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q64",
+      "section": "week3_skills_mandela",
+      "taught": true
+    }
+  ],
+  "DAY-08": [
+    {
+      "pyq_code": "GK-DAY-008",
+      "section": "sports_telugu",
+      "taught": true,
+      "note": "GK bank statement item for subtopic 'august'. All three of its embedded questions are taught and claim-backed in this chapter: National Sports Day = 29 August (sports_telugu, claim c30), Dhyan Chand = hockey (sports_telugu, claim c31), and its August date pairs (Handloom Day 7 Aug c07/c08, Quit India/August Kranti 9 Aug c09, Youth Day 12 Aug c17, Independence Day 15 Aug c15, Sadbhavana Diwas 20 Aug c24, Sports Day 29 Aug c30). CAVEAT: three dates inside the item's statement list are NOT taught in this chapter because no source on the book's allowed publishers (gov.in/nic.in/NCERT) fetched covers them — Hiroshima Day (6 Aug), Nagasaki Day (9 Aug) and International Day of the World's Indigenous Peoples (9 Aug); the only GoI-hosted Hiroshima explainer found sits on static.mygov.in, which the source profile does not accept. See REPORT.md gaps."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q71",
+      "section": "sports_telugu",
+      "taught": true,
+      "note": "'When is National Sports Day celebrated in India?' — answer 29 August, taught directly (claim c30, PIB Fit India release PRID=2159494) with Dhyan Chand context (claims c31, c32)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q54",
+      "section": "sports_telugu",
+      "taught": true,
+      "note": "'Who is called the Wizard of Hockey?' — Major Dhyan Chand, taught in the people entry and sports_telugu section (claim c31: three consecutive Olympic golds 1928, 1932, 1936; Khel Ratna renamed after him, claim c32)."
+    }
+  ],
+  "DAY-09": [
+    {
+      "note": "GK bank item (subtopic: september) listing seven September days — all seven are taught in this chapter: Teachers' Day 5 Sep (teachers_literacy), International Literacy Day 8 Sep (teachers_literacy), Hindi Diwas 14 Sep (hindi_engineers_democracy), International Day of Democracy + Engineers' Day 15 Sep (hindi_engineers_democracy), Ozone Day 16 Sep (ozone_patient_safety), International Day of Peace 21 Sep (peace_sign_language), World Tourism Day 27 Sep (last_week). Each date is backed by a PIB/*.gov.in claim quote in the chapter.",
+      "pyq_code": "GK-DAY-009",
+      "section": "teachers_literacy",
+      "taught": true
+    },
+    {
+      "note": "Real WBCS (Exe.) Prelims 2017 Q63: 'The International Day for the Preservation of the Ozone Layer is observed on' — answer 16 September. Taught in ozone_patient_safety with the reason (Montreal Protocol signed 16 Sep 1987), claims c16.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q63",
+      "section": "ozone_patient_safety",
+      "taught": true
+    }
+  ],
+  "DAY-10": [
+    {
+      "pyq_code": "GK-DAY-010",
+      "section": "date_traps",
+      "taught": true,
+      "note": "GK bank item 'October Days: Gandhi Jayanti, UN Day and Unity Day' (subtopic october). Its 12 listed days: 11 are taught in this chapter from PIB sources (1, 2, 8, 9, 10, 11, 15, 16, 21, 24, 31 Oct). The remaining one — World Teachers' Day, 5 October — is NOT taught: no official GoI/NCERT source could be fetched for it in this run; disclosed in the week1 exam_note box and in REPORT.md."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q172",
+      "section": "week1",
+      "taught": true,
+      "note": "WBCS Prelims 2015 Q172: 'The Swachh Bharat Mission was launched by the Prime Minister of India in 2014 on the occasion of the birth anniversary of — M. K. Gandhi.' Taught in week1: Gandhi Jayanti 2 October (c04) and Swachh Bharat Mission launched on Gandhi Jayanti 2014 (c06, PIB backgrounder)."
+    }
+  ],
+  "DAY-11": [
+    {
+      "note": "GK bank fact-pack for subtopic 'november' (db/gk/important_days.jsonl). Every day it lists is taught in this chapter from PIB sources: Tsunami Awareness Day 5 Nov, Cancer Awareness Day 7 Nov, Legal Services Day 9 Nov, World Science Day 10 Nov, National Education Day 11 Nov, Children's Day (India) and World Diabetes Day 14 Nov, World Toilet Day 19 Nov, World Children's/Child Rights Day 20 Nov, World Television Day 21 Nov, International Day for the Elimination of Violence against Women 25 Nov, Constitution Day and National Milk Day 26 Nov. [Central fix at install: section was null; this whole-month fact-pack is consolidated in the date_traps revision section, and each day it lists is taught in its week section above.]",
+      "pyq_code": "GK-DAY-011",
+      "section": "date_traps",
+      "taught": true
+    },
+    {
+      "note": "Question: on which date was the Constitution of India adopted? Answer 26 November 1949 (db/pyq/wbcs-prelims-2018.json, Q79). Taught via PIB Constitution Day factsheet claim c01; the adopted-vs-in-force distinction is drilled in q37/q45.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q79",
+      "section": "constitution_day",
+      "taught": true
+    },
+    {
+      "note": "Constitution adopted by the Constituent Assembly on 26 November 1949, now Constitution Day (db/pyq/wbcs-prelims-2022.json, Q174). Taught via claim c01 and the constitution_day section.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q174",
+      "section": "constitution_day",
+      "taught": true
+    },
+    {
+      "note": "Question: on which date was the Constitution of India adopted? Answer 26 November 1949 (db/pyq/wbp-constable-2021.json, Q54). Taught via claim c01.",
+      "pyq_code": "WBP-CONSTABLE-2021-Q54",
+      "section": "constitution_day",
+      "taught": true
+    },
+    {
+      "note": "Question: the Constitution of India came into force on — 26 January 1950 (db/pyq/wbpsc-clerkship-2006.json, Q19). The chapter teaches the full trap: adopted 26 November 1949 vs in force 26 January 1950 (claim c01, date_traps section, q45).",
+      "pyq_code": "WBPSC-CLERKSHIP-2006-Q19",
+      "section": "date_traps",
+      "taught": true
+    },
+    {
+      "note": "Question concerns the National Bal Swachhta Mission, launched on 14 November 2014, Children's Day (db/pyq/wbcs-prelims-2015.json, Q160). The chapter teaches Children's Day (14 November, Nehru's birthday, claim c13) but does NOT teach the Bal Swachhta Mission or its 2014 launch — no fetched PIB source used for this chapter covers that mission, so the item is recorded untaught rather than filled from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q160",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "DAY-12": [
+    {
+      "pyq_code": "GK-DAY-012",
+      "section": "s1",
+      "taught": true,
+      "note": "Bank statement item \"December Days: Navy Day, Human Rights Day and Kisan Diwas\" listing 18 December days. This chapter teaches 17 of the 18 listed days from official GoI sources across sections s1–s6 (its three embedded questions — Human Rights Day/UDHR, Navy Day/Operation Trident, December-chain matching — are all covered: q08/q11, q15/q18, q28/q35/q42). NOT taught from this list: 9 Dec International Anti-Corruption Day and 18 Dec International Migrants Day — no allowed-publisher (gov.in/nic.in/NCERT) source stating them could be fetched; disclosed as gaps in REPORT.md."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q52",
+      "section": "s1",
+      "taught": true,
+      "note": "Real PYQ (WBPSC Clerkship Part-I 2023, Session II, Q52): \"Which day is observed as World AIDS Day?\" — answer 1 December. Taught in s1 (claim c01) and practised in q01/q07/q42."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q191",
+      "section": "s4",
+      "taught": true,
+      "note": "Real PYQ (WBCS Prelims 2018, Q191): FAO observes 5 December as World Soil Day. Taught in s4 (claim c09) and practised in q22/q26/q28."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q54",
+      "section": "s3",
+      "taught": false,
+      "note": "Real PYQ (WBCS Prelims 2016, Q54) asking the theme of Human Rights Day 2015 (\"Our Rights, Our Freedoms, Always\"). NOT taught as content: an annual theme is year-specific and this chapter deliberately teaches themes only with their year attached (it teaches the 2024 theme, claim c16, and the theme-with-year method in s3/q06/q20). The 2015 theme itself is not asserted anywhere in the chapter; students are warned in exam_focus that theme questions must be matched by year."
+    }
+  ],
+  "DAY-13": [
+    {
+      "note": "GK bank item 'Mixed Practice 1: The Most Confusing Pairs' (subtopic mixed). Four of its six pairs are fully taught from PIB sources in this chapter: Voters' Day 25 Jan vs Republic Day 26 Jan (constitution_cluster, c01/c08), Science Day 28 Feb vs Sports Day 29 Aug (science_sports, c03/c06), Yoga Day 21 Jun vs Environment Day 5 Jun (june_cluster, c10/c13), Constitution Day 26 Nov vs Republic Day 26 Jan (constitution_cluster, c07/c08). PARTIAL: the Indian sides of the remaining two pairs are taught (Teachers' Day India 5 Sep, c09; Children's Day India 14 Nov, c21), but World Teachers' Day (5 October) and World Children's Day (20 November) are NOT taught — no official GoI/NCERT source stating them could be fetched in this run; disclosed in the birthday_anchors exam_note box and in REPORT.md.",
+      "pyq_code": "GK-DAY-013",
+      "section": "constitution_cluster",
+      "taught": true
+    },
+    {
+      "note": "GK bank item 'Mixed Practice 2: Matching, Order and Tricky Statements' (subtopic mixed). Twelve of its thirteen anchor dates are taught in this chapter: Youth Day 12 Jan, Voters' Day 25 Jan, Science Day 28 Feb, Health Day 7 Apr, Environment Day 5 Jun, Yoga Day 21 Jun, Kargil Vijay Diwas 26 Jul, Sports Day 29 Aug, Teachers' Day (India) 5 Sep, Unity Day 31 Oct, Constitution Day 26 Nov, Kisan Diwas 23 Dec; its MATCH, CHRONOLOGY, STATEMENT and ASSERTION_REASON question types are mirrored in the exam_drill section (q37-q42). The one untaught anchor is World Teachers' Day, 5 October — same source gap as GK-DAY-013, disclosed in the chapter and REPORT.md.",
+      "pyq_code": "GK-DAY-014",
+      "section": "exam_drill",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2023 Session II Q45: 'Which day is celebrated as World Blood Donor Day every year?' — answer 14 June. Taught in june_cluster: WBDD observed on 14 June (c26, PIB MoHFW Lok Sabha reply; 2020 theme 'Safe Blood Saves Lives'). The corpus explanation's Karl Landsteiner detail is not in the fetched PIB source and is not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q45",
+      "section": "june_cluster",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2023 Session II Q52: 'Which day is observed as World AIDS Day?' — answer 1 December. Taught in world_stage: World AIDS Day observed on December 1 every year, first marked in 1988 by WHO (c24, PIB backgrounder 2025).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q52",
+      "section": "world_stage",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2023 Session II Q71: 'When is National Sports Day celebrated in India?' — answer 29 August. Taught in science_sports and birthday_anchors: National Sports Day observed every year on August 29, birth anniversary of Major Dhyan Chand (c06, PIB Fit India release).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q71",
+      "section": "science_sports",
+      "taught": true
+    },
+    {
+      "note": "WBPSC Miscellaneous (Prelims) 2023 Q27 (identifier follows the corpus naming convention; the misc-2023.json record carries exam/year/question_no but no pre-assigned code): 'Identify the correct match by month and date' — answer '17 May: World Telecommunication Day'. All four facts in the item are taught: Telecom Day 17 May (c23), Health Day 7 April not 7 May (c27), Environment Day 5 June not Oceans Day (c13), Child Labour Day 12 June not 11 June (c28). The item is discussed explicitly in the world_stage exam_note box and mirrored as practice question q41.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q27",
+      "section": "world_stage",
+      "taught": true
+    }
+  ]
+}
