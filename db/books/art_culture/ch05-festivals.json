@@ -1,0 +1,1500 @@
+{
+  "book": "art_culture",
+  "code": "ART-05",
+  "number": 5,
+  "part": "living",
+  "title": "উৎসব",
+  "subtitle": "কুম্ভ থেকে বাথুকাম্মা: ভারতের উৎসব, মেলা ও ইউনেস্কো-স্বীকৃত জীবন্ত ঐতিহ্য",
+  "subtopics": [
+    "festivals"
+  ],
+  "related_facts": [
+    "GK-ART-010",
+    "GK-ART-011",
+    "GK-ART-117"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (40 SURE, 1 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 7 of 11 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ART-05.json and drafts/ART-05_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ART-05_REPORT.md. Duplicate-stem fix after install: q14 originally shared its generic CHRONOLOGY stem with ART-02 q42; the stem was made topic-specific (festival-related ICH elements) with the same key/options/claims, and a fresh independent blind check of the replaced question matched the key (SURE).",
+    "checked_claims": 39,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "ভারতের ক্যালেন্ডার আসলে উৎসবের ক্যালেন্ডার: ফসল তোলার আনন্দ, নদীতে স্নানের তীর্থ, দেবীর আগমন, নববর্ষের সূচনা — প্রতিটি ঋতুতেই কোনো না কোনো উৎসব বা মেলা। এই অধ্যায়ে আমরা উৎসবকে 'জীবন্ত সংস্কৃতি' হিসেবে পড়ব: প্রথমে জানব অধরা সাংস্কৃতিক ঐতিহ্য (Intangible Cultural Heritage) বলতে কী বোঝায়, তারপর দেখব কুম্ভ মেলা, কলকাতার দুর্গাপূজা ও গরবার ইউনেস্কো-স্বীকৃতি, ফসল-চক্রের সঙ্গে বাঁধা বিহু ও ওনাম, এবং বাথুকাম্মা, হর্নবিল, বালি যাত্রা-বোইতা বন্দনার মতো আঞ্চলিক উৎসব-মেলা। পরীক্ষায় এই অধ্যায় থেকে সবচেয়ে বেশি আসে উৎসব–রাজ্য জোড় আর ইউনেস্কো অন্তর্ভুক্তির সাল — দুটোই এখানে উৎস-যাচাই করে সাজানো হয়েছে।",
+    "you_will_learn": [
+      "অধরা সাংস্কৃতিক ঐতিহ্য (ICH) কী, এর পাঁচটি ক্ষেত্র (domain) এবং উৎসব কোন ক্ষেত্রে পড়ে",
+      "কুম্ভ মেলা: চারটি স্থান, পালাক্রম, গঙ্গাস্নানের বিশ্বাস ও ২০১৭ সালের ইউনেস্কো অন্তর্ভুক্তি",
+      "কলকাতার দুর্গাপূজা (২০২১) ও গুজরাটের গরবা (২০২৩): অন্তর্ভুক্তির অধিবেশন, স্থান ও ক্রম",
+      "বিহুর তিন রূপ — বহাগ, কাতি, মাঘ — কৃষিচক্রের কোন পর্যায়ের সঙ্গে কোনটি যুক্ত",
+      "ওনাম: মহাবলীর কিংবদন্তি, ফসল-উৎসবের চরিত্র ও নৌকা-দৌড়",
+      "বাথুকাম্মা (তেলঙ্গানা), হর্নবিল (নাগাল্যান্ড), বোইতা বন্দনা–বালি যাত্রা (ওড়িশা) ও অম্বুবাচী মেলা (অসম)",
+      "ইউনেস্কো তালিকার কালানুক্রম: ২০০৮-এর প্রথম তিনটি থেকে ২০২৩-এর গরবা পর্যন্ত ১৫টি উপাদান"
+    ]
+  },
+  "sections": [
+    {
+      "id": "utsab_ki",
+      "heading": "উৎসব ও অধরা ঐতিহ্য: ধারণা",
+      "quick": "ঐতিহ্য মানে শুধু মন্দির-দুর্গ-মূর্তি নয়। গান, আচার, উৎসবের মতো জীবন্ত চর্চাও ঐতিহ্য — একে বলে অধরা সাংস্কৃতিক ঐতিহ্য (Intangible Cultural Heritage)। এর আসল মূল্য উদযাপনের জৌলুসে নয়, এক প্রজন্ম থেকে পরের প্রজন্মে জ্ঞান ও দক্ষতা পৌঁছে দেওয়ায়।",
+      "standard": "আমরা সাধারণত 'ঐতিহ্য' বলতে চোখে দেখা যায় এমন জিনিস বুঝি — মন্দির, দুর্গ, পাণ্ডুলিপি, মুদ্রা। কিন্তু ইউনেস্কোর বর্ণনায় সাংস্কৃতিক ঐতিহ্য স্মৃতিস্তম্ভ আর সংগ্রহেই শেষ নয়। পূর্বপুরুষদের কাছ থেকে পাওয়া এবং উত্তরসূরিদের হাতে তুলে দেওয়া জীবন্ত ঐতিহ্যও এর অংশ: মৌখিক ঐতিহ্য, পরিবেশন শিল্প, সামাজিক রীতি, আচার, উৎসব-অনুষ্ঠান, প্রকৃতি ও বিশ্বব্রহ্মাণ্ড-বিষয়ক জ্ঞান এবং ঐতিহ্যবাহী কারুশিল্পের দক্ষতা। এই জীবন্ত অংশটিকেই বলা হয় অধরা সাংস্কৃতিক ঐতিহ্য (Intangible Cultural Heritage, সংক্ষেপে ICH)।\n\n'অধরা' মানে যা ছোঁয়া যায় না — কিন্তু তার মানে এই নয় যে এর মূল্য কম। উৎসের ভাষায়, এর গুরুত্ব উদযাপনটির নিজের মধ্যে নয়; গুরুত্ব হল সেই জ্ঞান, কারিগরি ও দক্ষতার মধ্যে, যা এর মধ্য দিয়ে এক প্রজন্ম থেকে পরের প্রজন্মে সঞ্চারিত হয়। কুম্ভের স্নান-বিধি, দুর্গামূর্তি গড়ার কৌশল, বিহুর গান-নাচ — প্রতিটির ভেতরেই প্রজন্ম ধরে জমা জ্ঞান বেঁচে থাকে।\n\nভারতের জাতীয় অধরা ঐতিহ্য তালিকায় এই ঐতিহ্যকে পাঁচটি বিস্তৃত ক্ষেত্রে (domain) ভাগ করা হয়েছে: (১) মৌখিক ঐতিহ্য ও অভিব্যক্তি, (২) পরিবেশন শিল্প, (৩) সামাজিক রীতি, আচার ও উৎসব-অনুষ্ঠান, (৪) প্রকৃতি ও বিশ্বব্রহ্মাণ্ড-বিষয়ক জ্ঞান ও চর্চা, (৫) ঐতিহ্যবাহী কারুশিল্প। এই অধ্যায়ের বিষয় — উৎসব ও মেলা — সরাসরি তৃতীয় ক্ষেত্রে পড়ে। জাতীয় তালিকাটির উদ্দেশ্য হল ভারতের অধরা ঐতিহ্যে নিহিত সাংস্কৃতিক বৈচিত্র্যকে জাতীয় ও আন্তর্জাতিক স্তরে স্বীকৃতি দেওয়া এবং তার সুরক্ষা নিশ্চিত করা।\n\nপ্রশাসনিক দিক থেকে মনে রাখার মতো তথ্য: সংস্কৃতি মন্ত্রক সংগীত নাটক অকাদেমিকে অধরা ঐতিহ্য-বিষয়ের নোডাল দপ্তর নিযুক্ত করেছে। ইউনেস্কোর প্রতিনিধিত্বমূলক তালিকার জন্য মনোনয়ন-নথি (nomination dossier) তৈরির কাজও এই দপ্তরের। অর্থাৎ কোনো উৎসব ইউনেস্কো তালিকায় ওঠার পথটি যায় সংগীত নাটক অকাদেমির তৈরি নথির মধ্য দিয়ে।",
+      "deep": "পরীক্ষার জন্য দুটি পার্থক্য পরিষ্কার রাখো। এক, বস্তুগত (tangible) ঐতিহ্য — যেমন বিশ্ব ঐতিহ্য স্থান (World Heritage Site) — আর অধরা (intangible) ঐতিহ্য এক নয়: প্রথমটি জায়গা বা ভবন, দ্বিতীয়টি চর্চা। দুর্গাপূজা তালিকায় উঠেছে 'কলকাতার দুর্গাপূজা' নামে একটি চর্চা হিসেবে, কোনো মণ্ডপ বা স্থান হিসেবে নয়। দুই, ইউনেস্কোর প্রতিনিধিত্বমূলক তালিকা (Representative List) হল সেই তালিকা, যেখানে ভারতের উপাদানগুলি রয়েছে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "উৎসব = তৃতীয় ক্ষেত্র (সামাজিক রীতি, আচার ও উৎসব-অনুষ্ঠান)। নোডাল দপ্তর = সংগীত নাটক অকাদেমি। এই দুটি তথ্য বিবৃতি-ভিত্তিক প্রশ্নে বারবার কাজে লাগে।",
+          "claims": [
+            "c03",
+            "c05"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "id": "kumbh",
+      "heading": "কুম্ভ মেলা: পৃথিবীর বৃহত্তম তীর্থসমাবেশ",
+      "quick": "কুম্ভ মেলা হল পবিত্র কলসের উৎসব — পৃথিবীর বৃহত্তম শান্তিপূর্ণ তীর্থযাত্রী সমাবেশ, যেখানে অংশগ্রহণকারীরা পবিত্র নদীতে স্নান করেন। এটি পালাক্রমে এলাহাবাদ (প্রয়াগরাজ), হরিদ্বার, উজ্জয়িনী ও নাশিকে হয় এবং ২০১৭ সালে ইউনেস্কো তালিকায় ওঠে।",
+      "standard": "কুম্ভ মেলার নামের মধ্যেই এর পরিচয়: 'কুম্ভ' মানে কলস, তাই ইউনেস্কো-বর্ণনায় এটি 'পবিত্র কলসের উৎসব' (the festival of the sacred Pitcher)। একে বলা হয় পৃথিবীর বৃহত্তম শান্তিপূর্ণ তীর্থযাত্রী সমাবেশ — এই বিশাল সমাবেশের কেন্দ্রে রয়েছে পবিত্র নদীতে স্নান বা ডুব দেওয়ার আচার।\n\nভক্তদের বিশ্বাস, গঙ্গায় স্নান করলে মানুষ পাপ থেকে মুক্ত হয় এবং জন্ম-মৃত্যুর চক্র থেকে মুক্তি লাভ করে। এই বিশ্বাসই লক্ষ লক্ষ মানুষকে নদীতীরে টেনে আনে। সমাবেশে শুধু সাধারণ তীর্থযাত্রী নন — তপস্বী, সন্ত, সাধু, কল্পবাসী (কল্পকাল ধরে তীরে বসবাসকারী সাধক) এবং সাধারণ দর্শনার্থীরাও থাকেন।\n\nস্থানের দিক থেকে কুম্ভ একটি ঘূর্ণায়মান উৎসব: এলাহাবাদ (বর্তমান প্রয়াগরাজ), হরিদ্বার, উজ্জয়িনী ও নাশিক — এই চারটি স্থানে পালাক্রমে প্রতি চার বছরে একটি করে শহরে কুম্ভ অনুষ্ঠিত হয়। জাতি, ধর্ম বা লিঙ্গের বাছবিচার ছাড়াই লক্ষ লক্ষ মানুষ এতে অংশ নেন — এই সর্বজনীনতাই কুম্ভের একটি বড় বৈশিষ্ট্য।\n\n২০১৭ সালে কুম্ভ মেলা ইউনেস্কোর অধরা সাংস্কৃতিক ঐতিহ্যের প্রতিনিধিত্বমূলক তালিকায় অন্তর্ভুক্ত হয়। সালটি মনে রাখার সহজ উপায়: তার ঠিক আগের বছর, ২০১৬ সালে, অন্তর্ভুক্ত হয়েছিল যোগ — পরীক্ষায় এই দুটি সাল গুলিয়ে ফেলাই সবচেয়ে সাধারণ ভুল।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ো না",
+          "body": "যোগ — ২০১৬, কুম্ভ মেলা — ২০১৭। দুটোই ধারাবাহিক বছরে অন্তর্ভুক্ত, তাই প্রশ্নকর্তা এই জোড়টাই সবচেয়ে বেশি যাচাই করেন।",
+          "claims": [
+            "c18",
+            "c09"
+          ]
+        }
+      ],
+      "claims": [
+        "c06",
+        "c07",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "durga_garba",
+      "heading": "দুর্গাপূজা ও গরবা: সাম্প্রতিক দুই ইউনেস্কো-স্বীকৃতি",
+      "quick": "কলকাতার দুর্গাপূজা ২০২১ সালে প্যারিসে অনুষ্ঠিত ১৬তম অধিবেশনে এবং গুজরাটের গরবা ২০২৩ সালে বতসোয়ানার কাসানেতে অনুষ্ঠিত ১৮তম বৈঠকে ইউনেস্কো তালিকায় ওঠে। গরবা ভারতের ১৫তম উপাদান।",
+      "standard": "দুর্গাপূজা বাঙালির সবচেয়ে বড় উৎসব, আর তার কলকাতা-রূপটিই পেয়েছে বিশ্বস্বীকৃতি। ইউনেস্কোর ২০০৩ কনভেনশনের আন্তঃসরকারি কমিটি ২০২১ সালের ১৩–১৮ ডিসেম্বর ফ্রান্সের প্যারিসে অনুষ্ঠিত ১৬তম অধিবেশনে 'কলকাতার দুর্গাপূজা' (Durga Puja in Kolkata) প্রতিনিধিত্বমূলক তালিকায় অন্তর্ভুক্ত করে। নামটি লক্ষ্য করো: তালিকায় উঠেছে 'কলকাতার' দুর্গাপূজা — শহরটির নামসহ।\n\nউৎসের বর্ণনায় দুর্গাপূজা একটি বার্ষিক উৎসব, যা সেপ্টেম্বর বা অক্টোবরে পালিত হয় — সবচেয়ে উল্লেখযোগ্যভাবে পশ্চিমবঙ্গের কলকাতায়, তবে ভারতের অন্যান্য অংশে ও বাঙালি প্রবাসীদের মধ্যেও। এটি দেবী দুর্গার দশ দিনের উপাসনা। উৎসবের কারিগরি দিকটিও উৎসে স্পষ্ট: উৎসবের আগের মাসগুলিতে ছোট ছোট কারিগরি কর্মশালায় গঙ্গা নদী থেকে তোলা অপোড়া মাটি দিয়ে দুর্গা ও তাঁর পরিবারের মূর্তি গড়া হয়। উপাসনা শুরু হয় মহালয়ার উদ্বোধনী দিনে, যখন মাটির মূর্তিতে চোখ এঁকে দেবীকে 'প্রাণ' দেওয়া হয়; শেষ হয় দশম দিনে, যখন মূর্তিগুলি বিসর্জিত হয় সেই নদীতেই, যেখান থেকে মাটি এসেছিল। কমিটি বিশেষভাবে প্রশংসা করেছে দুর্গাপূজার সেই উদ্যোগের, যাতে প্রান্তিক গোষ্ঠী, ব্যক্তি ও নারীরা এই ঐতিহ্যের সুরক্ষায় অংশ নেন।\n\nদ্বিতীয় স্বীকৃতিটি নবরাত্রির নৃত্য-উৎসবের: গুজরাটের গরবা। ২০২৩ সালের ৫–৯ ডিসেম্বর বতসোয়ানার কাসানেতে অনুষ্ঠিত কমিটির ১৮তম বৈঠকে 'গুজরাটের গরবা' তালিকায় অন্তর্ভুক্ত হয়। গরবা ভারতের ১৫তম অধরা ঐতিহ্য উপাদান। PIB-র ভাষায় গরবা এমন এক নৃত্যরূপ, যার শিকড় আচার ও ভক্তিতে গভীরভাবে প্রোথিত এবং যা সব শ্রেণির মানুষকে একত্র করে জীবন্ত ঐতিহ্য হিসেবে বিকশিত হচ্ছে।",
+      "deep": "ক্রম-সংখ্যা মনে রাখার শৃঙ্খল: কুম্ভ মেলা ১৩তম (২০১৭) → কলকাতার দুর্গাপূজা ১৪তম (২০২১) → গুজরাটের গরবা ১৫তম (২০২৩)। অধিবেশনের স্থানও জোড়া বেঁধে মনে রাখো: দুর্গাপূজা — প্যারিস, গরবা — কাসানে (বতসোয়ানা)।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "প্রশ্নে প্রায়ই শুধু 'দুর্গাপূজা' লেখা থাকে, কিন্তু ইউনেস্কো তালিকার আনুষ্ঠানিক নাম 'Durga Puja in Kolkata'। বিকল্পে 'কলকাতা' উল্লেখ থাকলে সেটাই নির্ভুল উত্তর।",
+          "claims": [
+            "c10"
+          ]
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c22"
+      ]
+    },
+    {
+      "id": "fosol",
+      "heading": "ফসল-উৎসব: বিহু ও ওনাম",
+      "quick": "অনেক ভারতীয় উৎসবের ঘড়ি কৃষিচক্র। অসমের বিহু বছরে তিনবার আসে — বপন, শস্য-বাঁধা ও ফসল তোলার পর্যায়ে; কেরলের ওনাম ফসল-উৎসব, যার কেন্দ্রে মহাবলীর বার্ষিক আগমনের কিংবদন্তি আর নৌকা-দৌড়।",
+      "standard": "ভারত কৃষিপ্রধান দেশ, তাই তার উৎসবের বড় অংশ বাঁধা ফসলের ছন্দে। অসমকে বলা হয় মেলা ও উৎসবের দেশ, আর সেখানকার সবচেয়ে গুরুত্বপূর্ণ উৎসব বিহু — যা সব অসমীয়া মানুষ জাতি, ধর্ম, বিশ্বাস নির্বিশেষে আনন্দের সঙ্গে পালন করেন।\n\nবিহুর সবচেয়ে পরীক্ষণীয় বৈশিষ্ট্য হল এর ত্রিরূপ। বছরে তিনটি বিহু হয়, এবং প্রতিটি কৃষিচক্রের আলাদা পর্যায়ের সঙ্গে যুক্ত: বহাগ বিহু আসে বপনের সময়ে — কৃষকেরা যখন বীজ বুনতে শুরু করেন, তখন ভালো ফসলের কামনাই এর প্রাণ; কাতি বিহু পালিত হয় শস্য কাটা ও বাঁধার পর্যায় চিহ্নিত করে; আর মাঘ বিহু চিহ্নিত করে ফসল তোলার মরসুম। অর্থাৎ একটি মাত্র উৎসব-নামে গোটা ধান-বছরটাই ধরা পড়ে — বুনন থেকে গোলায় তোলা পর্যন্ত।\n\nদক্ষিণে কেরলের প্রধান উৎসব ওনাম। কেরলের সরকারি পাঠ্যবই ওনামকে রাজ্যের 'জাতীয় উৎসব' বলে অভিহিত করেছে, যা বিশ্বজুড়ে মালয়ালিরা পালন করেন। এর কেন্দ্রে রয়েছে মহাবলীর কিংবদন্তি: বিশ্বাস করা হয়, কেরল শাসন করা ন্যায়পরায়ণ রাজা মহাবলী প্রতি বছর একবার তাঁর প্রজাদের দেখতে কেরলে ফিরে আসেন। ওনাম একই সঙ্গে একটি ফসল-উৎসবও। উৎসবের আনন্দের অংশ হল ওনসদ্য (বিশেষ ভোজ) ও নানা খেলা (ওনাক্কালিকাল), আর ওনামের সময়কাল মানেই নৌকা-দৌড়ের মরসুম — বাঁশিপাট্টু (নৌকার গান) গাইতে গাইতে দল বেঁধে নৌকা বাওয়ার সেই চিত্র কেরলের পরিচয়।\n\nদুটি উৎসবের মিল লক্ষ্য করো: দুটোই ফসল-কেন্দ্রিক, দুটোই সমগ্র সম্প্রদায়ের — কোনো এক ধর্ম বা জাতির মধ্যে সীমাবদ্ধ নয়। পাঠ্যবইয়ের ভাষায়, উৎসব-উদযাপন জায়গাভেদে আলাদা হলেও সেগুলি একত্রিত হওয়ার (togetherness) উপলক্ষ।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "তুলনা করে মনে রাখো",
+          "body": "বিহু ও ওনাম দুটোই ফসল-উৎসব, কিন্তু বিহু তিন পর্বে সারা বছর জুড়ে কৃষিচক্রকে অনুসরণ করে, আর ওনাম একবারের উৎসব — মহাবলীর আগমনকেন্দ্রিক। প্রশ্নে 'কোনটি বছরে তিনবার হয়' এলে উত্তর বিহু।",
+          "claims": [
+            "c30",
+            "c37"
+          ]
+        }
+      ],
+      "claims": [
+        "c29",
+        "c30",
+        "c31",
+        "c37",
+        "c38",
+        "c39"
+      ]
+    },
+    {
+      "id": "ancholik",
+      "heading": "আঞ্চলিক উৎসব ও মেলা: বাথুকাম্মা, হর্নবিল, বোইতা বন্দনা",
+      "quick": "প্রতিটি অঞ্চলের উৎসব তার ভূগোলের ছাপ বহন করে: তেলঙ্গানার ফুলের উৎসব বাথুকাম্মা (নয় দিন), নাগাল্যান্ডের সব উপজাতির মিলনমেলা হর্নবিল (ডিসেম্বর, কিসামা), আর ওড়িশার সমুদ্রযাত্রার স্মৃতি বহন করা বালি যাত্রা ও বোইতা বন্দনা।",
+      "standard": "বাথুকাম্মা তেলঙ্গানার ফুলের উৎসব। জেলা প্রশাসনের বর্ণনায় এটি পৃথিবী, জল ও মানুষের পারস্পরিক সম্পর্কের উদযাপন। শাতবাহন পঞ্জিকা অনুযায়ী উৎসবটি নয় দিন ধরে চলে — মহালয়া অমাবস্যা (পিতৃ অমাবস্যা) থেকে দুর্গাষ্টমী পর্যন্ত, সাধারণত সেপ্টেম্বর–অক্টোবরে। প্রতিটি দিনের আলাদা নাম আছে; নবম ও শেষ দিনটি সদ্দুলা বাথুকাম্মা। এর পরেই আসে সাত দিনের বোদ্দেম্মা উৎসব। বর্ষার শেষার্ধে, শীতের আগে এই উৎসব হয় — তখন তেলঙ্গানার পুকুরে জল ভরে ওঠে আর অনাবাদি জমিতে বুনো ফুল ফোটে; গুনুকা পুলু ও তাঙ্গেদু পুলু ফুলই সবচেয়ে বেশি পাওয়া যায়। অঞ্চলভেদে পাওয়া ফুল দিয়ে নারীরা এই উৎসব পালন করেন, আর বাথুকাম্মাকে বলা হয় তেলঙ্গানার সাংস্কৃতিক পরিচয়ের প্রতীক।\n\nহর্নবিল উৎসব নাগাল্যান্ডের। নাগাল্যান্ড পর্যটন বিভাগের বর্ণনায় এটি সব নাগা উপজাতির আধুনিক সাংস্কৃতিক মহোৎসব, যা প্রতি বছর ডিসেম্বরের প্রথম সপ্তাহে অনুষ্ঠিত হয়। 'বৈচিত্র্যের মধ্যে ঐক্য' — এই ভাবনায় নাগা সংস্কৃতির ঐতিহ্যবাহী ও সমকালীন রূপ তুলে ধরতেই উৎসবটির পরিকল্পনা। স্থান: কোহিমা থেকে প্রায় ১২ কিলোমিটার দূরে কিসামা ঐতিহ্য গ্রাম (Heritage Village)। ২০০০ সালে শুরু হওয়া এই উৎসবের ঐতিহ্য-চত্বরে সতেরোটি মোরুং (যুব-ছাউনি আকৃতির ঘর) আছে — প্রতিটি আলাদা উপজাতির প্রতিনিধিত্ব করে, ফলে এক জায়গায় দাঁড়িয়েই সব নাগা উপজাতির সংস্কৃতি দেখা যায়।\n\nওড়িশার বোইতা বন্দনা ও বালি যাত্রা সমুদ্রের স্মৃতি বহন করে। কটক পৌরসভার বর্ণনায়, ঐতিহাসিক বালি যাত্রা মেলা অনুষ্ঠিত হয় কার্তিক পূর্ণিমায় — প্রাচীন কলিঙ্গের সাধবদের (নাবিক-বণিক) বালি, জাভা, সুমাত্রা ও বোর্নিওর সঙ্গে সামুদ্রিক বাণিজ্য-সম্পর্কের স্মরণে। যাত্রার উদ্বোধনী দিনে ওড়িয়া নারীরা অতীতকে স্মরণ করে খেলনা নৌকা জলে ভাসান — এই রীতিরই নাম বোইতা বন্দনা (Boita Bandana)।\n\nএকই ধারায় অসমের অম্বুবাচী মেলার কথা বলা যায়: এটি গুয়াহাটির কামাখ্যা মন্দিরের সবচেয়ে গুরুত্বপূর্ণ উৎসব, প্রতি বছর বর্ষাকালে (মধ্য-জুন) অনুষ্ঠিত হয়। এই সময় মন্দিরের দরজা তিন দিন বন্ধ থাকে; চতুর্থ দিনে ভক্তরা পূজার জন্য প্রবেশ করতে পারেন এবং হাজার হাজার ভক্ত এই মেলায় সমবেত হন।",
+      "deep": "রাজ্য-জোড় মুখস্থের তালিকা: বাথুকাম্মা–তেলঙ্গানা, হর্নবিল–নাগাল্যান্ড, বোইতা বন্দনা–ওড়িশা, অম্বুবাচী–অসম (কামাখ্যা)। এছাড়া অসমের আরও দুটি নাম জেনে রাখো: বৈশাগু — বোড়ো কাছারিদের সবচেয়ে প্রিয় উৎসব, মধ্য-এপ্রিলে নববর্ষ ও বসন্তের উৎসব হিসেবে পালিত; মে-দাম-মে-ফি — অহোম সম্প্রদায়ের পূর্বপুরুষ-পূজার উৎসব, প্রতি বছর ৩১ জানুয়ারি পালিত হয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "ক্লার্কশিপ ২০২৩-এ বাথুকাম্মা, বোইতা বন্দনা ও হর্নবিল — তিনটিই এসেছিল। এই তিনটির রাজ্য-জোড় এই অধ্যায়ের সবচেয়ে বেশি নম্বরের অংশ।",
+          "claims": [
+            "c25",
+            "c23",
+            "c36"
+          ]
+        }
+      ],
+      "claims": [
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c23",
+        "c24",
+        "c35",
+        "c36",
+        "c32",
+        "c33",
+        "c34"
+      ]
+    },
+    {
+      "id": "unesco_talika",
+      "heading": "ইউনেস্কো তালিকা: কালানুক্রম ও উৎসব-উপাদান",
+      "quick": "ভারতের ১৫টি অধরা ঐতিহ্য উপাদানের মধ্যে উৎসব-ঘনিষ্ঠগুলি হল রামলীলা (২০০৮), রম্মন (২০০৯), যোগ (২০১৬), কুম্ভ মেলা (২০১৭), কলকাতার দুর্গাপূজা (২০২১) ও গরবা (২০২৩)। সালের ক্রমটাই এই অংশের প্রাণ।",
+      "standard": "ইউনেস্কোর প্রতিনিধিত্বমূলক তালিকায় ভারতের যাত্রা শুরু ২০০৮ সালে, একসঙ্গে তিনটি উপাদান দিয়ে: কুটিয়াট্টম (সংস্কৃত নাট্য), বৈদিক মন্ত্রোচ্চারণের ঐতিহ্য এবং রামলীলা (রামায়ণের ঐতিহ্যবাহী অভিনয়)। রামলীলা উৎসব-জগতের সঙ্গে সরাসরি যুক্ত — এটি উত্তর ভারত জুড়ে শরৎকালের দশেরা উৎসবের সময় মঞ্চস্থ হয়।\n\n২০০৯ সালে আসে রম্মন — গাড়োয়াল হিমালয়ের ধর্মীয় উৎসব ও আচারনাট্য। উত্তরাখণ্ডের সালুর-দুংরা যুগ্ম গ্রামে প্রতি বছর এপ্রিলের শেষদিকে গ্রামের রক্ষক দেবতা ভূমিয়াল দেবতার সম্মানে এই উৎসব হয়; এতে রামকথা ও স্থানীয় কিংবদন্তির পাঠ, গান ও মুখোশ-নৃত্য থাকে এবং প্রতিটি জাতি ও পেশাগোষ্ঠীর আলাদা ভূমিকা থাকে। ২০১০ সালে একসঙ্গে তিনটি: ছৌ নৃত্য, রাজস্থানের কালবেলিয়া লোকগান ও নৃত্য, এবং কেরলের মুদিয়েট্টু আচারনাট্য। ছৌ পূর্ব ভারতের ঐতিহ্য — মহাভারত-রামায়ণের কাহিনি, লোককথা ও বিমূর্ত বিষয়ের অভিনয়; এটি আঞ্চলিক উৎসব, বিশেষ করে বসন্তের চৈত্র পর্বের সঙ্গে ঘনিষ্ঠভাবে যুক্ত।\n\nএর পরের ধাপগুলি: নওরোজ ও যোগ — দুটোই ২০১৬; কুম্ভ মেলা — ২০১৭; কলকাতার দুর্গাপূজা — ২০২১; গুজরাটের গরবা — ২০২৩। নওরোজ মানে 'নতুন দিন': ২১ মার্চ ভারত, ইরান, আফগানিস্তানসহ বহু দেশে বছরের শুরু হিসেবে পালিত হয় এবং প্রায় দুই সপ্তাহ ধরে নানা আচার-অনুষ্ঠান চলে। সাম্প্রতিক PIB তথ্য অনুযায়ী ভারতের মোট উপাদান এখন ১৫টি — অর্থাৎ তালিকাটি গরবাতেই এসে থেমেছে।\n\nএই কালানুক্রম মনে রাখার কৌশল: প্রথম তিন (২০০৮) → রম্মন (২০০৯) → পরের তিন (২০১০) → যোগ (২০১৬) → কুম্ভ (২০১৭) → দুর্গাপূজা (২০২১) → গরবা (২০২৩)। ফাঁকের বছরগুলি (২০১২ লাদাখের বৌদ্ধ মন্ত্রোচ্চারণ, ২০১৩ মণিপুরের সংকীর্তন, ২০১৪ পাঞ্জাবের ঠাঠেরা কারুশিল্প) উৎসব-অধ্যায়ের বাইরে হলেও তালিকার পূর্ণতা বুঝতে সাহায্য করে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সালের শৃঙ্খল",
+          "body": "২০০৮ × ৩ (কুটিয়াট্টম, বৈদিক মন্ত্র, রামলীলা) → ২০০৯ রম্মন → ২০১০ × ৩ (ছৌ, কালবেলিয়া, মুদিয়েট্টু) → ২০১৬ যোগ ও নওরোজ → ২০১৭ কুম্ভ → ২০২১ দুর্গাপূজা → ২০২৩ গরবা। মোট ১৫টি।",
+          "claims": [
+            "c16",
+            "c17",
+            "c21"
+          ]
+        }
+      ],
+      "claims": [
+        "c16",
+        "c14",
+        "c17",
+        "c20",
+        "c15",
+        "c19",
+        "c18",
+        "c21"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "কুম্ভ মেলার ইউনেস্কো অন্তর্ভুক্তি",
+      "when": "২০১৭",
+      "what": "কুম্ভ মেলা অধরা সাংস্কৃতিক ঐতিহ্যের প্রতিনিধিত্বমূলক তালিকায় অন্তর্ভুক্ত হয়",
+      "why_it_matters": "ভারতের বৃহত্তম তীর্থ-উৎসব আন্তর্জাতিক স্বীকৃতি পায়; সালটি যোগের (২০১৬) সঙ্গে গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল",
+      "section": "kumbh",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "title": "কলকাতার দুর্গাপূজার ইউনেস্কো অন্তর্ভুক্তি",
+      "when": "২০২১",
+      "what": "প্যারিসে অনুষ্ঠিত ১৬তম অধিবেশনে (১৩–১৮ ডিসেম্বর ২০২১) 'কলকাতার দুর্গাপূজা' তালিকায় ওঠে",
+      "why_it_matters": "বাংলার প্রধান উৎসবের বিশ্বস্বীকৃতি; তালিকার আনুষ্ঠানিক নামে 'কলকাতা' শব্দটি থাকা পরীক্ষায় গুরুত্বপূর্ণ",
+      "section": "durga_garba",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "title": "গুজরাটের গরবার ইউনেস্কো অন্তর্ভুক্তি",
+      "when": "২০২৩",
+      "what": "বতসোয়ানার কাসানেতে অনুষ্ঠিত ১৮তম বৈঠকে (৫–৯ ডিসেম্বর ২০২৩) গরবা অন্তর্ভুক্ত হয়",
+      "why_it_matters": "গরবা ভারতের ১৫তম উপাদান — বর্তমান মোট সংখ্যার হিসাব এই সালেই সম্পূর্ণ হয়",
+      "section": "durga_garba",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "title": "হর্নবিল উৎসবের সূচনা",
+      "when": "২০০০",
+      "what": "নাগাল্যান্ডে সব নাগা উপজাতির সম্মিলিত সাংস্কৃতিক উৎসব হিসেবে হর্নবিল শুরু হয়",
+      "why_it_matters": "একটি আধুনিক, পরিকল্পিত উৎসব কীভাবে রাজ্যের সাংস্কৃতিক পরিচয় ও পর্যটন বদলে দিতে পারে তার উদাহরণ",
+      "section": "ancholik",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 2000,
+      "when": "২০০০",
+      "label": "নাগাল্যান্ডে হর্নবিল উৎসবের সূচনা (কিসামা)",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "sort_year": 2008,
+      "when": "২০০৮",
+      "label": "প্রথম তিনটি উপাদান তালিকাভুক্ত: কুটিয়াট্টম, বৈদিক মন্ত্রোচ্চারণ, রামলীলা",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 2009,
+      "when": "২০০৯",
+      "label": "রম্মন (গাড়োয়াল হিমালয়) তালিকাভুক্ত",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "sort_year": 2010,
+      "when": "২০১০",
+      "label": "ছৌ, কালবেলিয়া ও মুদিয়েট্টু তালিকাভুক্ত",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "sort_year": 2016,
+      "when": "২০১৬",
+      "label": "যোগ ও নওরোজ তালিকাভুক্ত",
+      "claims": [
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "sort_year": 2017,
+      "when": "২০১৭",
+      "label": "কুম্ভ মেলা তালিকাভুক্ত",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "sort_year": 2021,
+      "when": "২০২১",
+      "label": "কলকাতার দুর্গাপূজা তালিকাভুক্ত",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "sort_year": 2023,
+      "when": "২০২৩",
+      "label": "গুজরাটের গরবা তালিকাভুক্ত — ভারতের ১৫তম উপাদান",
+      "claims": [
+        "c22"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "অধরা সাংস্কৃতিক ঐতিহ্য (Intangible Cultural Heritage)",
+      "meaning": "পূর্বপুরুষদের কাছ থেকে পাওয়া জীবন্ত ঐতিহ্য — আচার, উৎসব, মৌখিক ঐতিহ্য, পরিবেশন শিল্প ও কারুদক্ষতা, যা প্রজন্মান্তরে সঞ্চারিত হয়",
+      "section": "utsab_ki"
+    },
+    {
+      "term": "প্রতিনিধিত্বমূলক তালিকা (Representative List)",
+      "meaning": "ইউনেস্কোর ২০০৩ কনভেনশনের অধীনে অধরা ঐতিহ্যের প্রধান তালিকা; ভারতের ১৫টি উপাদান এই তালিকাতেই আছে",
+      "section": "utsab_ki"
+    },
+    {
+      "term": "কল্পবাসী",
+      "meaning": "কুম্ভের সময় নদীতীরে দীর্ঘকাল বসবাস করে সাধনা করা তীর্থযাত্রী-সাধক",
+      "section": "kumbh"
+    },
+    {
+      "term": "চক্ষুদান",
+      "meaning": "মহালয়ায় মাটির দুর্গামূর্তিতে চোখ এঁকে দেবীকে প্রাণ দেওয়ার রীতি; দুর্গাপূজার উপাসনার সূচনা",
+      "section": "durga_garba"
+    },
+    {
+      "term": "ওনসদ্য",
+      "meaning": "ওনামের বিশেষ ভোজ",
+      "section": "fosol"
+    },
+    {
+      "term": "মোরুং (Morung)",
+      "meaning": "নাগা ঐতিহ্যে যুব-ছাউনি; কিসামার ঐতিহ্য গ্রামে ১৭টি মোরুং-আকৃতির ঘর প্রতিটি উপজাতির প্রতিনিধিত্ব করে",
+      "section": "ancholik"
+    },
+    {
+      "term": "সাধব",
+      "meaning": "প্রাচীন কলিঙ্গের নাবিক-বণিক, যাঁদের সমুদ্রযাত্রার স্মৃতিতে বালি যাত্রা ও বোইতা বন্দনা পালিত হয়",
+      "section": "ancholik"
+    },
+    {
+      "term": "সদ্দুলা বাথুকাম্মা",
+      "meaning": "বাথুকাম্মা উৎসবের নবম ও শেষ দিন",
+      "section": "ancholik"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "কৃষিচক্র থেকে ফসল-উৎসব",
+      "causes": [
+        "কৃষকজীবন বপন, বৃদ্ধি ও ফসল তোলার ঋতুচক্রে বাঁধা",
+        "ভালো ফসলের কামনা ও কৃতজ্ঞতা প্রকাশের সামাজিক প্রয়োজন"
+      ],
+      "event": "বিহুর মতো উৎসব কৃষিচক্রের প্রতিটি পর্যায়ে পালিত হতে থাকে",
+      "results": [
+        "বহাগ বিহু বপনের সময়ে ভালো ফসলের কামনা জানায়",
+        "মাঘ বিহু ফসল তোলার মরসুমের উদযাপনে পরিণত হয়"
+      ],
+      "section": "fosol",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "title": "সমুদ্রযাত্রার স্মৃতি থেকে বোইতা বন্দনা",
+      "causes": [
+        "প্রাচীন কলিঙ্গের সাধবদের বালি, জাভা, সুমাত্রা ও বোর্নিওর সঙ্গে সামুদ্রিক বাণিজ্য",
+        "কার্তিক পূর্ণিমা ছিল সেই যাত্রা-স্মৃতির কেন্দ্রীয় তিথি"
+      ],
+      "event": "কটকে কার্তিক পূর্ণিমায় বালি যাত্রা মেলা ও বোইতা বন্দনা রীতি চালু থাকে",
+      "results": [
+        "ওড়িয়া নারীরা যাত্রার উদ্বোধনী দিনে খেলনা নৌকা ভাসিয়ে অতীতকে স্মরণ করেন",
+        "মেলাটি ওড়িশার সামুদ্রিক ঐতিহ্যের জীবন্ত স্মারক হয়ে ওঠে"
+      ],
+      "section": "ancholik",
+      "claims": [
+        "c35",
+        "c36"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "ইউনেস্কো অন্তর্ভুক্তির সাল: যোগ ২০১৬, কুম্ভ ২০১৭, দুর্গাপূজা ২০২১, গরবা ২০২৩ — ক্রমসহ",
+      "section": "unesco_talika"
+    },
+    {
+      "point": "উৎসব–রাজ্য জোড়: বাথুকাম্মা–তেলঙ্গানা, হর্নবিল–নাগাল্যান্ড, বোইতা বন্দনা–ওড়িশা, ওনাম–কেরল, বিহু–অসম",
+      "section": "ancholik"
+    },
+    {
+      "point": "কুম্ভ মেলার চারটি স্থান: এলাহাবাদ (প্রয়াগরাজ), হরিদ্বার, উজ্জয়িনী, নাশিক",
+      "section": "kumbh"
+    },
+    {
+      "point": "তিন বিহুর কৃষি-তাৎপর্য: বহাগ–বপন, কাতি–শস্য কাটা-বাঁধা, মাঘ–ফসল তোলা",
+      "section": "fosol"
+    },
+    {
+      "point": "ICH-র পাঁচটি ক্ষেত্র ও নোডাল দপ্তর (সংগীত নাটক অকাদেমি)",
+      "section": "utsab_ki"
+    },
+    {
+      "point": "ভারতের মোট উপাদান ১৫টি; গরবা ১৫তম, দুর্গাপূজা ১৪তম",
+      "section": "durga_garba"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের বাংলা-যোগ সরাসরি: ইউনেস্কো তালিকায় ওঠা উপাদানটির নামই 'কলকাতার দুর্গাপূজা'। দুর্গাপূজা সেপ্টেম্বর–অক্টোবরে পালিত হয় সবচেয়ে উল্লেখযোগ্যভাবে পশ্চিমবঙ্গের কলকাতায়; মূর্তির মাটি আসে গঙ্গা থেকে, মহালয়ায় চক্ষুদানের মধ্য দিয়ে উপাসনা শুরু হয় এবং দশম দিনে বিসর্জনও হয় সেই নদীতেই। এছাড়া ছৌ নৃত্য — যা পুরুলিয়াসহ পূর্ব ভারতের ঐতিহ্য — বসন্তের চৈত্র পর্ব উৎসবের সঙ্গে ঘনিষ্ঠভাবে যুক্ত; ছৌ ২০১০ সালে তালিকাভুক্ত হয়।",
+    "claims": [
+      "c11",
+      "c12",
+      "c20"
+    ]
+  },
+  "quick_revision": [
+    "অধরা ঐতিহ্য = জীবন্ত চর্চা; উৎসব পড়ে তৃতীয় ক্ষেত্রে (সামাজিক রীতি, আচার ও উৎসব-অনুষ্ঠান)।",
+    "ICH-র নোডাল দপ্তর: সংগীত নাটক অকাদেমি।",
+    "কুম্ভ মেলা = পবিত্র কলসের উৎসব; পৃথিবীর বৃহত্তম শান্তিপূর্ণ তীর্থসমাবেশ; ইউনেস্কো ২০১৭।",
+    "কুম্ভের চার স্থান: এলাহাবাদ (প্রয়াগরাজ), হরিদ্বার, উজ্জয়িনী, নাশিক — পালাক্রমে প্রতি চার বছরে।",
+    "যোগ ২০১৬, কুম্ভ ২০১৭ — সাল দুটি গুলিয়ো না।",
+    "কলকাতার দুর্গাপূজা: ইউনেস্কো ২০২১, প্যারিস অধিবেশন; দশ দিনের উপাসনা, মহালয়ায় চক্ষুদান, দশমীতে বিসর্জন।",
+    "গুজরাটের গরবা: ইউনেস্কো ২০২৩, কাসানে (বতসোয়ানা); ভারতের ১৫তম উপাদান; মোট উপাদান ১৫টি।",
+    "তিন বিহু: বহাগ (বপন), কাতি (শস্য কাটা-বাঁধা), মাঘ (ফসল তোলা) — অসম।",
+    "ওনাম: কেরলের ফসল-উৎসব; মহাবলীর বার্ষিক আগমন; নৌকা-দৌড় ও ওনসদ্য।",
+    "বাথুকাম্মা: তেলঙ্গানার ফুলের উৎসব; নয় দিন, মহালয়া অমাবস্যা থেকে দুর্গাষ্টমী; শেষ দিন সদ্দুলা বাথুকাম্মা।",
+    "হর্নবিল: নাগাল্যান্ড; ডিসেম্বরের প্রথম সপ্তাহ; কিসামা (কোহিমা থেকে ~১২ কিমি); শুরু ২০০০; ১৭টি মোরুং।",
+    "বোইতা বন্দনা: ওড়িশা; কার্তিক পূর্ণিমায় বালি যাত্রায় খেলনা নৌকা ভাসানো; সাধবদের সমুদ্রবাণিজ্যের স্মৃতি।",
+    "রম্মন: গাড়োয়াল হিমালয় (উত্তরাখণ্ড), ইউনেস্কো ২০০৯; রামলীলা দশেরায় অভিনীত, ইউনেস্কো ২০০৮।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Intangible Cultural Heritage of India — PIB Backgrounder (Ministry of Culture)",
+      "class": "-",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jan/doc20221206901.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "India hosts the 20th session of the ICH Intergovernmental Committee — PIB Press Release (Rajya Sabha reply)",
+      "class": "-",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2198744&reg=3&lang=1",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "'Garba of Gujarat' inscribed on UNESCO Representative List — PIB Press Release, Ministry of Culture, 6 Dec 2023",
+      "class": "-",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1983133&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "The Hornbill Festival — Nagaland Tourism (Government of Nagaland)",
+      "class": "-",
+      "url": "https://tourism.nagaland.gov.in/hornbill2022/about.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Bathukamma — District Kamareddy, Government of Telangana",
+      "class": "-",
+      "url": "https://kamareddy.telangana.gov.in/festival/bathukamma/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Festivals of Assam — Department of Cultural Affairs, Government of Assam",
+      "class": "-",
+      "url": "https://culturalaffairs.assam.gov.in/frontimpotentdata/festivals-of-assam",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "Overview on Cuttack — Cuttack Municipal Corporation, Government of Odisha",
+      "class": "-",
+      "url": "https://cmccuttack.odisha.gov.in/index.php/overview-on-cuttack/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "Environmental Science, Standard IV, Part 1 (Land of Arts) — SCERT, Government of Kerala",
+      "class": "IV",
+      "url": "https://samagra.kite.kerala.gov.in/files/samagra-resource/uploads/tbookscmq/VOL1/STD4/ParisarapadanamEnglish/ParisarapadanamEnglish.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Intangible cultural heritage includes festive events among living traditions inherited from ancestors",
+      "source": "s1",
+      "page": "pp. 1-2",
+      "quote": "Cultural heritage does not end at monuments and collections of objects. It also includes traditions or living expressions inherited from our ancestors and passed on to our descendants, such as oral traditions, performing arts, social practices, rituals, festive events, knowledge and practices concerning nature and the universe or the knowledge and skills to produce traditional crafts."
+    },
+    {
+      "id": "c02",
+      "claim": "The importance of ICH lies in knowledge and skills transmitted from one generation to the next",
+      "source": "s1",
+      "page": "p. 1",
+      "quote": "Its importance is not in the cultural manifestation itself, but in the wealth of knowledge, know-how and skills that are transmitted from one generation to the next."
+    },
+    {
+      "id": "c03",
+      "claim": "The National List of ICH of India classifies ICH into five broad domains, the third being social practices, rituals and festive events",
+      "source": "s1",
+      "page": "National List section",
+      "quote": "1. Oral traditions and expressions, including language as a vehicle of the intangible cultural heritage 2. Performing arts 3. Social practices, rituals and festive events 4. Knowledge and practices concerning nature and the universe 5. Traditional craftsmanship"
+    },
+    {
+      "id": "c04",
+      "claim": "The National List of ICH of India attempts to recognize the diversity of Indian culture embedded in its intangible heritage",
+      "source": "s1",
+      "page": "National List section",
+      "quote": "The National List of Intangible Cultural Heritage (ICH) of India is an attempt to recognize the diversity of Indian culture embedded in its intangible heritage."
+    },
+    {
+      "id": "c05",
+      "claim": "The Ministry of Culture appointed the Sangeet Natak Akademi as nodal office for ICH, including preparing nomination dossiers for UNESCO's Representative List",
+      "source": "s1",
+      "page": "Efforts of Ministry of Culture section",
+      "quote": "The Ministry of Culture has appointed the Sangeet Natak Akademi, an autonomous organisation under the Ministry of Culture, as nodal office for matters relating to the intangible cultural heritage including for preparation of the nomination dossiers for the Representative List of UNESCO."
+    },
+    {
+      "id": "c06",
+      "claim": "Kumbh Mela, the festival of the sacred Pitcher, is the largest peaceful congregation of pilgrims on earth, during which participants bathe in a sacred river",
+      "source": "s1",
+      "page": "Section 13. Kumbh Mela",
+      "quote": "Kumbh Mela (the festival of the sacred Pitcher) is the largest peaceful congregation of pilgrims on earth, during which participants bathe or take a dip in a sacred river."
+    },
+    {
+      "id": "c07",
+      "claim": "Kumbh Mela is held at Allahabad, Haridwar, Ujjain and Nasik every four years by rotation, attended by millions irrespective of caste, creed or gender",
+      "source": "s1",
+      "page": "Section 13. Kumbh Mela",
+      "quote": "The festival is held at Allahabad, Haridwar, Ujjain and Nasik every four years by rotation and is attended by millions of people irrespective of caste, creed or gender."
+    },
+    {
+      "id": "c08",
+      "claim": "Devotees believe bathing in the Ganges frees one from sins and from the cycle of birth and death",
+      "source": "s1",
+      "page": "Section 13. Kumbh Mela",
+      "quote": "Devotees believe that by bathing in the Ganges one is freed from sins liberating her/him from the cycle of birth and death."
+    },
+    {
+      "id": "c09",
+      "claim": "Kumbh Mela was inscribed in 2017 on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity",
+      "source": "s1",
+      "page": "Section 13. Kumbh Mela",
+      "quote": "Kumbh Mela was inscribed in 2017 on the Representative List of the Intangible Cultural Heritage of Humanity."
+    },
+    {
+      "id": "c10",
+      "claim": "Durga Puja in Kolkata was inscribed during the 16th session of the Intergovernmental Committee held at Paris from 13 to 18 December 2021",
+      "source": "s1",
+      "page": "Section 14. Durga Puja in Kolkata",
+      "quote": "The Intergovernmental Committee of UNESCO's 2003 Convention on Safeguarding of the Intangible Cultural Heritage has inscribed 'Durga Puja in Kolkata' on the Representative List of Intangible Cultural Heritage of Humanity during its 16th session being held at Paris, France from 13th to 18th December 2021."
+    },
+    {
+      "id": "c11",
+      "claim": "Durga Puja is an annual festival celebrated in September or October, most notably in Kolkata, West Bengal, marking the ten-day worship of the goddess Durga",
+      "source": "s1",
+      "page": "Section 14. Durga Puja in Kolkata",
+      "quote": "Durga Puja is an annual festival celebrated in September or October, most notably in Kolkata, in West Bengal of India, but also in other parts of India and amongst the Bengali diaspora. It marks the ten-day worship of the Hindu mothergoddess Durga."
+    },
+    {
+      "id": "c12",
+      "claim": "Durga images are sculpted from unfired clay pulled from the Ganga; worship begins on Mahalaya when eyes are painted on the images and ends on the tenth day with immersion in the river",
+      "source": "s1",
+      "page": "Section 14. Durga Puja in Kolkata",
+      "quote": "In the months preceding the festival, small artisanal workshops sculpt images of Durga and her family using unfired clay pulled from the Ganga River. The worship of the goddess then begins on the inaugural day of Mahalaya, when eyes are painted onto the clay images to bring the goddess to life. It ends on the tenth day, when the images are immersed in the river from where the clay came."
+    },
+    {
+      "id": "c13",
+      "claim": "The UNESCO Committee commended Durga Puja for involving marginalized groups, individuals and women in safeguarding the element",
+      "source": "s1",
+      "page": "Section 14. Durga Puja in Kolkata",
+      "quote": "The Committee commended Durga Puja for its initiatives to involve marginalized groups, and individuals as well as women in their participation in safeguarding the element."
+    },
+    {
+      "id": "c14",
+      "claim": "Ramman, the religious festival and ritual theatre of the Garhwal Himalayas, was inscribed in 2009; it is held every year in late April at Saloor-Dungra, Uttarakhand, in honour of Bhumiyal Devta",
+      "source": "s1",
+      "page": "Section 4. Ramman",
+      "quote": "Ramman was inscribed in 2009 on the Representative List of the Intangible Cultural Heritage of Humanity. Every year in late April, the twin villages of Saloor-Dungra in the state of Uttarakhand (northern India) are marked by Ramman, a religious festival in honour of the tutelary god, Bhumiyal Devta, a local divinity whose temple houses most of the festivities."
+    },
+    {
+      "id": "c15",
+      "claim": "Ramlila is performed across northern India during the festival of Dussehra, held in autumn",
+      "source": "s1",
+      "page": "Section 3. Ramlila",
+      "quote": "It is performed across northern India during the festival of Dussehra, held each year according to the ritual calendar in autumn."
+    },
+    {
+      "id": "c16",
+      "claim": "Kutiyattam, the tradition of Vedic chanting and Ramlila were all inscribed in 2008",
+      "source": "s1",
+      "page": "List of ICH of India (table)",
+      "quote": "1. Kutiyattam, Sanskrit theatre 2008 2. Tradition of Vedic chanting 2008 3. Ramlila, the traditional performance of the Ramayana 2008"
+    },
+    {
+      "id": "c17",
+      "claim": "Chhau dance, Kalbelia folk songs and dances of Rajasthan and Mudiyettu of Kerala were inscribed in 2010",
+      "source": "s1",
+      "page": "List of ICH of India (table)",
+      "quote": "5. Chhau dance 2010 6. Kalbelia folk songs and dances of Rajasthan 2010 7. Mudiyettu, ritual theatre and dance drama of Kerala 2010"
+    },
+    {
+      "id": "c18",
+      "claim": "Yoga was inscribed in 2016 on the Representative List",
+      "source": "s1",
+      "page": "Section 12. Yoga",
+      "quote": "Yoga was inscribed in 2016 on the Representative List of the Intangible Cultural Heritage of Humanity."
+    },
+    {
+      "id": "c19",
+      "claim": "Nawrouz (new day) marks the start of the year on March 21 in India and other countries, with rituals and cultural events for about two weeks",
+      "source": "s1",
+      "page": "Section 11. Nawrouz",
+      "quote": "March 21 marks the start of the year in Afghanistan, Azerbaijan, India, Iran, Iraq, Kazakhstan, Kyrgyzstan, Pakistan, Tajikistan, Turkey, Turkmenistan and Uzbekistan. It is referred to as Nauryz, Navruz, Nawrouz, Nevruz, Nooruz, Novruz, Nowrouz or Nowruz meaning 'new day' when a variety of rituals, ceremonies and other cultural events take place for a period of about two weeks."
+    },
+    {
+      "id": "c20",
+      "claim": "Chhau dance is a tradition from eastern India, intimately connected to regional festivals, notably the spring festival Chaitra Parva",
+      "source": "s1",
+      "page": "Section 5. Chhau Dance",
+      "quote": "Chhau dance is a tradition from eastern India that enacts episodes from epics including the Mahabharata and Ramayana, local folklore and abstract themes. Chhau dance is intimately connected to regional festivals, notably the spring festival Chaitra Parva."
+    },
+    {
+      "id": "c21",
+      "claim": "India currently has 15 elements inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity",
+      "source": "s2",
+      "page": "Press release text",
+      "quote": "India currently has 15 elements inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity."
+    },
+    {
+      "id": "c22",
+      "claim": "Garba of Gujarat was inscribed during the 18th meeting of the Intergovernmental Committee, 5-9 December 2023, Kasane, Botswana, and is India's 15th ICH element",
+      "source": "s3",
+      "page": "Press release text",
+      "quote": "'Garba of Gujarat' has been inscribed in the Representative List of Intangible Cultural Heritage (ICH) of Humanity by UNESCO, under the provisions of the 2003 Convention for the Safeguarding of Intangible Cultural Heritage during the 18th meeting of the Intergovernmental Committee for the Safeguarding of the Intangible Cultural Heritage from 5th -9th December, 2023 in Kasane, Botswana. Garba of Gujarat is the 15th ICH element from India to join this list."
+    },
+    {
+      "id": "c23",
+      "claim": "The Hornbill Festival takes place in the first week of December, is a cultural extravaganza of all Naga tribes, conceptualized to showcase Naga culture in the spirit of unity in diversity",
+      "source": "s4",
+      "page": "The Hornbill Festival",
+      "quote": "The Hornbill Festival, a yearly feature taking place on the first week of December is a modern-day cultural extravaganza of all Naga tribes. The Festival was conceptualized to showcase Naga culture, traditional and contemporary, in the spirit of unity in diversity."
+    },
+    {
+      "id": "c24",
+      "claim": "The Hornbill Festival is held at the heritage village of Kisama, about 12 km from Kohima; it began in 2000 and its heritage complex has seventeen Morung houses, each representing a different tribe",
+      "source": "s4",
+      "page": "The Hornbill Festival",
+      "quote": "This Festival is held at the heritage village of Kisama, about 12 km from Kohima. since its inception in the year 2000, it has brought about radical changes in the tourism scenario of the state. The Heritage complex consists of a cluster of seventeen indigenously designed houses (also called Morung meaning Youth Dormitory), each representative of a different tribe"
+    },
+    {
+      "id": "c25",
+      "claim": "Bathukamma is celebrated for nine days from Mahalaya Amavasya till Durgashtami, usually in September-October; it is a colourful festival of Telangana celebrated by women with regional flowers and is a symbol of Telangana's cultural identity",
+      "source": "s5",
+      "page": "Significance",
+      "quote": "Every year this festival is celebrated as per Satavahana calendar for nine days starting Bhadrapada Purnima (also known as Mahalaya Amavasya or Pitru Amavasya) till Durgashtami, usually in September-October of Gregorian calendar. Bathukamma is a colourful and vibrant festival of Telangana and celebrated by women, with flowers that grow exclusively in each region. This festival is a symbol of Telangana's cultural identity."
+    },
+    {
+      "id": "c26",
+      "claim": "Bathukamma celebrates the inherent relationship between earth, water and human beings",
+      "source": "s5",
+      "page": "Significance",
+      "quote": "Bathukamma celebrates the inherent relationship between earth, water and the human beings."
+    },
+    {
+      "id": "c27",
+      "claim": "The ninth day of Bathukamma is Saddula Bathukamma, and Bathukamma is followed by Boddemma, a 7-day festival",
+      "source": "s5",
+      "page": "Significance / day list",
+      "quote": "Day 9: Saddula Bathukamma. Bathukamma is followed by Boddemma, which is a 7-day festival."
+    },
+    {
+      "id": "c28",
+      "claim": "Bathukamma comes in the latter half of the monsoon, when wildflowers such as gunuka poolu and tangedu poolu bloom abundantly",
+      "source": "s5",
+      "page": "Significance",
+      "quote": "Bathukamma comes during the latter half of monsoon, before the onset of winter. The monsoon rains usually brings plenty of water into the freshwater ponds of Telangana and it is also the time when wildflowers bloom in various vibrant colors all across the uncultivated and barren plains of the region. The most abundant of these are the 'gunuka poolu' and 'tangedu poolu'."
+    },
+    {
+      "id": "c29",
+      "claim": "Assam is described as a land of fairs and festivals",
+      "source": "s6",
+      "page": "Introduction",
+      "quote": "Assam is a land of fairs and festivals."
+    },
+    {
+      "id": "c30",
+      "claim": "Three Bihus are celebrated in a year: Bohag Bihu at sowing time wishing a good harvest, Kaati Bihu marking the cutting and binding of grains, and Magh Bihu marking the harvesting season",
+      "source": "s6",
+      "page": "Bihu",
+      "quote": "Three Bihus are celebrated in a year: Bohag Bihu which augurs the wish for a good harvest because this is the time when farmers start sowing, Kaati Bihu which is observed to mark the cutting and binding of grains and Magh Bihu which marks the season of harvesting of grains."
+    },
+    {
+      "id": "c31",
+      "claim": "Bihu is the most important festival of Assam, celebrated by all Assamese people irrespective of caste, creed, religion, faith and belief",
+      "source": "s6",
+      "page": "Bihu",
+      "quote": "Bihu is the most important festival of Assam. It is celebrated with joy and abundance by all Assamese people irrespective of caste, creed, religion, faith and belief."
+    },
+    {
+      "id": "c32",
+      "claim": "Ambubachi Mela is the most important festival of the Kamakhya temple, Guwahati, held every year during the monsoon (mid-June); the temple doors remain closed for three days",
+      "source": "s6",
+      "page": "Ambubachi Mela",
+      "quote": "Is the most important festival of Kamakhya temple of Guwahati and is held every year during monsoon (mid-June). During Ambubashi the doors of the temple remain closed for three days."
+    },
+    {
+      "id": "c33",
+      "claim": "Baishagu is the famous festival of the Bodo Kacharis, generally celebrated in mid April, also as a springtime festival at the advent of the new year",
+      "source": "s6",
+      "page": "Baishagu",
+      "quote": "'Baishagu' is generally celebrated by the Bodo Kacharis during mid April. It is the most cherished festival of the Bodo tribe. The Bodos also celebrate it as a springtime festival at the advent of the new year."
+    },
+    {
+      "id": "c34",
+      "claim": "Me-Dam-Me-Phi is the ancestor worship festival of the Ahom community, performed annually on the 31st of January",
+      "source": "s6",
+      "page": "Me-Dum-Me-Phi",
+      "quote": "The most important Ahom festival which deserves mention is the Me-Dum-Me-Phi, i.e., the ancestor worship festival which is observed by the whole Ahom community. This is performed annually on the 31st of January"
+    },
+    {
+      "id": "c35",
+      "claim": "The historic Bali Yatra fair at Cuttack commemorates the maritime trade relations of the Sadhavas of ancient Kalinga with Bali, Java, Sumatra and Borneo during Kartika Purnima",
+      "source": "s7",
+      "page": "Overview text",
+      "quote": "The historic Bali-Yatra fair held to commemorate the maritime trade relations of the Sadhavas of ancient Kalinga with Bali, Java, Sumatra and Borneo during Kartika Purnima is a festival unique to Cuttack."
+    },
+    {
+      "id": "c36",
+      "claim": "In Boita Bandana, Oriya women float toy boats on the opening day of Bali Yatra to recall the past",
+      "source": "s7",
+      "page": "Overview text",
+      "quote": "Oriya women peform the ritual of floating toy boats (Boita Bandaana) on the opening day of the yatra to recall the past."
+    },
+    {
+      "id": "c37",
+      "claim": "Onam is Kerala's national festival; Mahabali, the just king who ruled Kerala, is believed to visit Kerala once every year to see his subjects; Onam is also a harvest festival",
+      "source": "s8",
+      "page": "p. 48 (Land of Arts)",
+      "quote": "Onam is our national festival. Malayalees all over the world celebrate Onam. It is believed that Mahabali, the just king who ruled Kerala, visits Kerala once in every year to see his subjects. Onam is also a harvest festival."
+    },
+    {
+      "id": "c38",
+      "claim": "Onam is a period of boat races, and the Onasadya feast is part of the celebration",
+      "source": "s8",
+      "page": "pp. 48-50 (Land of Arts)",
+      "quote": "Onam is a period of boat races. After the 'Onasadya,' Nileena and her friends engaged in various 'Onakkalikal'."
+    },
+    {
+      "id": "c39",
+      "claim": "Festivals and celebrations differ from place to place and are occasions of togetherness",
+      "source": "s8",
+      "page": "p. 50 (Land of Arts)",
+      "quote": "The festivals and celebrations are different from place to place. They are also occasions of togetherness."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "utsab_ki",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ইউনেস্কোর সংজ্ঞায় অধরা সাংস্কৃতিক ঐতিহ্যের (Intangible Cultural Heritage) মধ্যে নিচের কোনটি পড়ে?",
+      "a": "উৎসব-অনুষ্ঠান (festive events)",
+      "w": [
+        "শুধু স্মৃতিস্তম্ভ ও ভবন",
+        "শুধু জাদুঘরের সংগ্রহ",
+        "শুধু প্রাচীন মুদ্রা"
+      ],
+      "e": "অধরা ঐতিহ্য মানে পূর্বপুরুষদের কাছ থেকে পাওয়া জীবন্ত ঐতিহ্য — মৌখিক ঐতিহ্য, পরিবেশন শিল্প, সামাজিক রীতি, আচার ও উৎসব-অনুষ্ঠান এর মধ্যে পড়ে; স্মৃতিস্তম্ভ বা সংগ্রহ বস্তুগত (tangible) ঐতিহ্য।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "utsab_ki",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অধরা সাংস্কৃতিক ঐতিহ্যের আসল গুরুত্ব কোনটিতে?",
+      "a": "এক প্রজন্ম থেকে পরের প্রজন্মে জ্ঞান ও দক্ষতার সঞ্চারণে",
+      "w": [
+        "উৎসবের আকার বড় হওয়ায়",
+        "বিদেশি পর্যটক বেশি আসায়",
+        "সরকারি ছুটি বেশি পাওয়ায়"
+      ],
+      "e": "উৎসের ভাষায়, গুরুত্ব উদযাপনটির নিজের মধ্যে নয় — এর মধ্য দিয়ে এক প্রজন্ম থেকে পরের প্রজন্মে যে জ্ঞান, কারিগরি ও দক্ষতা সঞ্চারিত হয়, সেখানেই।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "utsab_ki",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের জাতীয় অধরা ঐতিহ্য তালিকায় ঐতিহ্যকে কয়টি বিস্তৃত ক্ষেত্রে (domain) ভাগ করা হয়েছে?",
+      "a": "৫টি",
+      "w": [
+        "৩টি",
+        "৭টি",
+        "১০টি"
+      ],
+      "e": "পাঁচটি ক্ষেত্র: মৌখিক ঐতিহ্য ও অভিব্যক্তি, পরিবেশন শিল্প, সামাজিক রীতি-আচার-উৎসব, প্রকৃতি ও বিশ্বব্রহ্মাণ্ড-বিষয়ক জ্ঞান, এবং ঐতিহ্যবাহী কারুশিল্প।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "utsab_ki",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "উৎসব কোন ক্ষেত্রের (domain) অন্তর্ভুক্ত?",
+      "a": "সামাজিক রীতি, আচার ও উৎসব-অনুষ্ঠান",
+      "w": [
+        "ঐতিহ্যবাহী কারুশিল্প",
+        "পরিবেশন শিল্প",
+        "প্রকৃতি ও বিশ্বব্রহ্মাণ্ড-বিষয়ক জ্ঞান"
+      ],
+      "e": "তৃতীয় ক্ষেত্রটি হল 'সামাজিক রীতি, আচার ও উৎসব-অনুষ্ঠান' (Social practices, rituals and festive events) — উৎসব সরাসরি এই ক্ষেত্রেই পড়ে।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "utsab_ki",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ইউনেস্কোর প্রতিনিধিত্বমূলক তালিকার জন্য মনোনয়ন-নথি (nomination dossier) তৈরিসহ অধরা ঐতিহ্য-বিষয়ে নোডাল দপ্তর কোনটি?",
+      "a": "সংগীত নাটক অকাদেমি",
+      "w": [
+        "সাহিত্য অকাদেমি",
+        "ললিত কলা অকাদেমি",
+        "জাতীয় নাট্য বিদ্যালয়"
+      ],
+      "e": "সংস্কৃতি মন্ত্রক সংগীত নাটক অকাদেমিকে অধরা ঐতিহ্য-বিষয়ের নোডাল দপ্তর নিযুক্ত করেছে; মনোনয়ন-নথি তৈরিও এর কাজ।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "utsab_ki",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারতের জাতীয় অধরা ঐতিহ্য তালিকার উদ্দেশ্য সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "ভারতের অধরা ঐতিহ্যে নিহিত সাংস্কৃতিক বৈচিত্র্যকে স্বীকৃতি দেওয়া",
+      "w": [
+        "শুধু পর্যটন বাড়ানো",
+        "প্রতিটি উৎসবে সরকারি ছুটি ঘোষণা করা",
+        "সব উৎসব একই তারিখে পালন করা"
+      ],
+      "e": "তালিকাটি ভারতীয় সংস্কৃতির বৈচিত্র্যকে জাতীয় ও আন্তর্জাতিক স্তরে স্বীকৃতি দেওয়া এবং সুরক্ষা নিশ্চিত করার প্রয়াস।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "utsab_ki",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. অধরা ঐতিহ্যের মধ্যে উৎসব-অনুষ্ঠান অন্তর্ভুক্ত।\n২. অধরা ঐতিহ্যের গুরুত্ব শুধু উদযাপনের আকারের মধ্যে নিহিত।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধু ১",
+      "w": [
+        "শুধু ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — উৎসব-অনুষ্ঠান অধরা ঐতিহ্যের অংশ। বিবৃতি ২ ভুল — গুরুত্ব উদযাপনে নয়, প্রজন্মান্তরে জ্ঞান-দক্ষতার সঞ্চারণে।",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "kumbh",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কুম্ভ মেলাকে কীসের উৎসব বলা হয়?",
+      "a": "পবিত্র কলসের উৎসব (festival of the sacred Pitcher)",
+      "w": [
+        "আলোর উৎসব",
+        "ফুলের উৎসব",
+        "নৌকার উৎসব"
+      ],
+      "e": "কুম্ভ মানে পবিত্র কলস; ইউনেস্কো-বর্ণনায় কুম্ভ মেলা হল 'the festival of the sacred Pitcher'।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "kumbh",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কুম্ভ মেলা কবে ইউনেস্কোর প্রতিনিধিত্বমূলক তালিকায় অন্তর্ভুক্ত হয়?",
+      "a": "২০১৭ সালে",
+      "w": [
+        "২০০৮ সালে",
+        "২০১৬ সালে",
+        "২০২১ সালে"
+      ],
+      "e": "কুম্ভ মেলা ২০১৭ সালে অন্তর্ভুক্ত হয়; ২০১৬ সালে হয়েছিল যোগ, ২০২১ সালে কলকাতার দুর্গাপূজা।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "kumbh",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কুম্ভ মেলা পালাক্রমে (rotation) কোন চারটি স্থানে অনুষ্ঠিত হয়?",
+      "a": "এলাহাবাদ (প্রয়াগরাজ), হরিদ্বার, উজ্জয়িনী ও নাশিক",
+      "w": [
+        "হরিদ্বার, বারাণসী, মথুরা ও অযোধ্যা",
+        "উজ্জয়িনী, নাশিক, পুরী ও দ্বারকা",
+        "এলাহাবাদ, হরিদ্বার, কুরুক্ষেত্র ও পুষ্কর"
+      ],
+      "e": "উৎস অনুযায়ী কুম্ভ হয় এলাহাবাদ, হরিদ্বার, উজ্জয়িনী ও নাশিকে — পালাক্রমে প্রতি চার বছরে একটি করে স্থানে।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "kumbh",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কুম্ভ মেলা সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "এটি পৃথিবীর বৃহত্তম শান্তিপূর্ণ তীর্থযাত্রী সমাবেশ",
+      "w": [
+        "এটি শুধু একটি রাজ্যের মানুষের উৎসব",
+        "এটি প্রতি বছর একই শহরে হয়",
+        "এতে শুধু সাধু-সন্তরাই অংশ নেন"
+      ],
+      "e": "উৎস কুম্ভকে 'largest peaceful congregation of pilgrims on earth' বলেছে; জাতি, ধর্ম, লিঙ্গ নির্বিশেষে লক্ষ লক্ষ মানুষ এতে যোগ দেন।",
+      "claims": [
+        "c06",
+        "c07"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "kumbh",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কুম্ভে গঙ্গাস্নান সম্পর্কে ভক্তদের বিশ্বাস কী?",
+      "a": "গঙ্গায় স্নান করলে পাপ থেকে মুক্তি মেলে এবং জন্ম-মৃত্যুর চক্র থেকে মুক্তি হয়",
+      "w": [
+        "স্নান করলে ধনসম্পদ দ্বিগুণ হয়",
+        "স্নান করলে সব রোগ সেরে যায়",
+        "স্নান শুধু শরীর পরিষ্কারের জন্য"
+      ],
+      "e": "উৎসের বর্ণনা: ভক্তরা বিশ্বাস করেন গঙ্গাস্নানে পাপমুক্তি ঘটে এবং জন্ম-মৃত্যুর চক্র থেকে মুক্তি মেলে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "kumbh",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কুম্ভ মেলার সমাবেশে কারা থাকেন বলে উৎসে বলা হয়েছে?",
+      "a": "তপস্বী, সন্ত, সাধু, কল্পবাসী ও সাধারণ দর্শনার্থী",
+      "w": [
+        "শুধু পুরোহিত",
+        "শুধু বিদেশি পর্যটক",
+        "শুধু স্থানীয় ব্যবসায়ী"
+      ],
+      "e": "উৎসের তালিকা: ascetics, saints, sadhus, aspirants-kalpavasis and visitors — অর্থাৎ সাধু-সন্ত থেকে সাধারণ মানুষ পর্যন্ত সবাই।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "kumbh",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "উৎসব-সংশ্লিষ্ট অমূর্ত সাংস্কৃতিক ঐতিহ্যের ইউনেস্কো তালিকায় অন্তর্ভুক্তির সঠিক কালানুক্রম কোনটি?",
+      "a": "যোগ (২০১৬) → কুম্ভ মেলা (২০১৭) → কলকাতার দুর্গাপূজা (২০২১) → গুজরাটের গরবা (২০২৩)",
+      "w": [
+        "কুম্ভ মেলা (২০১৭) → যোগ (২০১৬) → গরবা (২০২৩) → দুর্গাপূজা (২০২১)",
+        "দুর্গাপূজা (২০২১) → কুম্ভ মেলা (২০১৭) → যোগ (২০১৬) → গরবা (২০২৩)",
+        "গরবা (২০২৩) → দুর্গাপূজা (২০২১) → যোগ (২০১৬) → কুম্ভ মেলা (২০১৭)"
+      ],
+      "e": "সালগুলি: যোগ ২০১৬, কুম্ভ মেলা ২০১৭, দুর্গাপূজা ২০২১, গরবা ২০২৩ — এই ক্রমটাই সঠিক।",
+      "claims": [
+        "c18",
+        "c09",
+        "c10",
+        "c22"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "durga_garba",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'কলকাতার দুর্গাপূজা' ইউনেস্কোর প্রতিনিধিত্বমূলক তালিকায় অন্তর্ভুক্ত হয় কোন সালে?",
+      "a": "২০২১ সালে",
+      "w": [
+        "২০১৭ সালে",
+        "২০১৯ সালে",
+        "২০২৩ সালে"
+      ],
+      "e": "২০২১ সালের ডিসেম্বরে প্যারিসে অনুষ্ঠিত আন্তঃসরকারি কমিটির ১৬তম অধিবেশনে দুর্গাপূজা অন্তর্ভুক্ত হয়।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "durga_garba",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দুর্গাপূজা কোন মাসে পালিত হয় ও কত দিনের উপাসনা?",
+      "a": "সেপ্টেম্বর বা অক্টোবরে; দশ দিনের দুর্গা-উপাসনা",
+      "w": [
+        "জানুয়ারিতে; চার দিনের",
+        "এপ্রিলে; নয় দিনের",
+        "ডিসেম্বরে; সাত দিনের"
+      ],
+      "e": "উৎস: দুর্গাপূজা বার্ষিক উৎসব, সেপ্টেম্বর বা অক্টোবরে হয় এবং এটি দেবী দুর্গার দশ দিনের উপাসনা।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "durga_garba",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দুর্গামূর্তি তৈরিতে কোন মাটি ব্যবহার করা হয় বলে উৎসে বলা হয়েছে?",
+      "a": "গঙ্গা নদী থেকে তোলা অপোড়া মাটি",
+      "w": [
+        "সমুদ্রতীরের বালি",
+        "পাহাড়ি লাল মাটি",
+        "কারখানায় তৈরি সিমেন্ট"
+      ],
+      "e": "উৎসবের আগের মাসগুলিতে ছোট কারিগরি কর্মশালায় গঙ্গা থেকে তোলা অপোড়া মাটি দিয়ে দুর্গা ও তাঁর পরিবারের মূর্তি গড়া হয়।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "durga_garba",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দুর্গাপূজার উপাসনা শুরু ও শেষ হয় কীভাবে?",
+      "a": "মহালয়ার দিনে মূর্তির চোখ আঁকা (চক্ষুদান) দিয়ে শুরু; দশম দিনে নদীতে বিসর্জন দিয়ে শেষ",
+      "w": [
+        "ষষ্ঠীর দিনে বোধন দিয়ে শুরু; একাদশীতে শেষ",
+        "প্রতিপদে ঘট স্থাপন দিয়ে শুরু; পূর্ণিমায় শেষ",
+        "মহালয়ায় বিসর্জন দিয়ে শুরু; দশমীতে চক্ষুদান দিয়ে শেষ"
+      ],
+      "e": "উৎস অনুযায়ী মহালয়ায় মাটির মূর্তিতে চোখ এঁকে দেবীকে প্রাণ দেওয়া হয়, আর দশম দিনে মূর্তি সেই নদীতেই বিসর্জিত হয় যেখান থেকে মাটি এসেছিল।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "durga_garba",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "গুজরাটের গরবা ইউনেস্কো তালিকায় অন্তর্ভুক্ত হয় কোথায় অনুষ্ঠিত অধিবেশনে?",
+      "a": "কাসানে, বতসোয়ানা (২০২৩)",
+      "w": [
+        "প্যারিস, ফ্রান্স (২০২১)",
+        "জেজু, দক্ষিণ কোরিয়া (২০১৭)",
+        "নয়াদিল্লি, ভারত (২০২৫)"
+      ],
+      "e": "গরবা অন্তর্ভুক্ত হয় ২০২৩ সালের ৫–৯ ডিসেম্বর বতসোয়ানার কাসানেতে অনুষ্ঠিত কমিটির ১৮তম বৈঠকে; প্যারিস ২০২১ ছিল দুর্গাপূজার অধিবেশন।",
+      "claims": [
+        "c22",
+        "c10"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "durga_garba",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ইউনেস্কো কমিটি দুর্গাপূজার কোন দিকটির প্রশংসা করেছিল?",
+      "a": "প্রান্তিক গোষ্ঠী, ব্যক্তি ও নারীদের সুরক্ষা-কাজে অংশগ্রহণ করানো",
+      "w": [
+        "মণ্ডপের আকার সবচেয়ে বড় হওয়া",
+        "সবচেয়ে দামি মূর্তি তৈরি",
+        "পর্যটকের সংখ্যা রেকর্ড হওয়া"
+      ],
+      "e": "কমিটি প্রশংসা করেছে দুর্গাপূজার সেই উদ্যোগের, যাতে প্রান্তিক গোষ্ঠী ও নারীরা উপাদানটির সুরক্ষায় অংশ নেন।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "durga_garba",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "সঠিক জোড় কোনটি?",
+      "a": "গরবা — ভারতের ১৫তম অধরা ঐতিহ্য উপাদান",
+      "w": [
+        "গরবা — ভারতের ১৪তম উপাদান",
+        "কুম্ভ মেলা — ভারতের ১৫তম উপাদান",
+        "দুর্গাপূজা — ভারতের ১৩তম উপাদান"
+      ],
+      "e": "গরবা (২০২৩) ভারতের ১৫তম উপাদান; তার আগে দুর্গাপূজা (২০২১) ছিল ১৪তম এবং কুম্ভ মেলা (২০১৭) ১৩তম।",
+      "claims": [
+        "c22",
+        "c21"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "fosol",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অসমের সবচেয়ে গুরুত্বপূর্ণ উৎসব কোনটি?",
+      "a": "বিহু",
+      "w": [
+        "বৈশাগু",
+        "অম্বুবাচী মেলা",
+        "মে-দাম-মে-ফি"
+      ],
+      "e": "অসমের সাংস্কৃতিক বিষয়ক বিভাগের মতে বিহু অসমের সবচেয়ে গুরুত্বপূর্ণ উৎসব, যা সব অসমীয়া মানুষ ধর্ম-বর্ণ নির্বিশেষে পালন করেন।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "fosol",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কেরলের ফসল-উৎসব ওনামের সঙ্গে কোন রাজার কিংবদন্তি জড়িত?",
+      "a": "মহাবলী",
+      "w": [
+        "রাবণ",
+        "হিরণ্যকশিপু",
+        "নরকাসুর"
+      ],
+      "e": "বিশ্বাস করা হয়, কেরল শাসন করা ন্যায়পরায়ণ রাজা মহাবলী প্রতি বছর তাঁর প্রজাদের দেখতে কেরলে ফিরে আসেন — ওনাম সেই আগমনের উদযাপন।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "fosol",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বছরে কয়টি বিহু পালিত হয়?",
+      "a": "তিনটি — বহাগ, কাতি ও মাঘ বিহু",
+      "w": [
+        "দুটি — বহাগ ও মাঘ",
+        "চারটি — ঋতু অনুযায়ী",
+        "একটি — শুধু বহাগ বিহু"
+      ],
+      "e": "তিনটি বিহু: বহাগ (বপনের সময়), কাতি (শস্য কাটা-বাঁধা) ও মাঘ (ফসল তোলার মরসুম)।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "fosol",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মাঘ বিহু কোন পর্যায়কে চিহ্নিত করে?",
+      "a": "শস্য তোলার (ফসল কাটার) মরসুম",
+      "w": [
+        "বীজ বপনের শুরু",
+        "শস্য বাঁধার সময়",
+        "বর্ষা শুরুর সময়"
+      ],
+      "e": "মাঘ বিহু ফসল তোলার মরসুমকে চিহ্নিত করে; বহাগ বিহু বপনের সময় ভালো ফসলের কামনা, কাতি বিহু শস্য কাটা-বাঁধার সঙ্গে যুক্ত।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "fosol",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ওনামের সময়কালের বিশেষ আকর্ষণ কোনটি?",
+      "a": "নৌকা-দৌড় (boat race)",
+      "w": [
+        "ঘুড়ি ওড়ানো",
+        "উটের দৌড়",
+        "কুস্তি প্রতিযোগিতা"
+      ],
+      "e": "কেরলের পাঠ্যবই অনুযায়ী ওনাম নৌকা-দৌড়ের সময়; ওনসদ্য (ভোজ) ও ওনাক্কালিকাল (খেলা)-ও উৎসবের অংশ।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "fosol",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বহাগ বিহু কৃষিচক্রের কোন মুহূর্তের সঙ্গে যুক্ত?",
+      "a": "কৃষকেরা বীজ বপন শুরু করার সময়; ভালো ফসলের কামনা",
+      "w": [
+        "ফসল তোলা শেষ হওয়ার পর",
+        "ধান গোলায় তোলার পর",
+        "জমি ফেলে রাখার সময়"
+      ],
+      "e": "উৎস: বহাগ বিহু ভালো ফসলের কামনা জানায়, কারণ এই সময়েই কৃষকেরা বপন শুরু করেন।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "fosol",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I (বিহু) | তালিকা II (তাৎপর্য) |\n|---|---|\n| A. বহাগ বিহু | ১. ফসল তোলার মরসুম |\n| B. কাতি বিহু | ২. বপনের সময়, ভালো ফসলের কামনা |\n| C. মাঘ বিহু | ৩. শস্য কাটা ও বাঁধা |",
+      "a": "A-২, B-৩, C-১",
+      "w": [
+        "A-১, B-২, C-৩",
+        "A-৩, B-১, C-২",
+        "A-২, B-১, C-৩"
+      ],
+      "e": "বহাগ = বপন ও ভালো ফসলের কামনা, কাতি = শস্য কাটা-বাঁধা, মাঘ = ফসল তোলার মরসুম।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "ancholik",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাথুকাম্মা কোন রাজ্যের উৎসব?",
+      "a": "তেলঙ্গানা",
+      "w": [
+        "অন্ধ্রপ্রদেশ",
+        "কর্ণাটক",
+        "তামিলনাড়ু"
+      ],
+      "e": "বাথুকাম্মা তেলঙ্গানার রঙিন ফুলের উৎসব এবং রাজ্যটির সাংস্কৃতিক পরিচয়ের প্রতীক।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "ancholik",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "হর্নবিল উৎসব কোন রাজ্যে অনুষ্ঠিত হয়?",
+      "a": "নাগাল্যান্ড",
+      "w": [
+        "মণিপুর",
+        "মিজোরাম",
+        "অরুণাচল প্রদেশ"
+      ],
+      "e": "হর্নবিল সব নাগা উপজাতির সাংস্কৃতিক উৎসব; এটি নাগাল্যান্ডের কোহিমার কাছে কিসামা গ্রামে হয়।",
+      "claims": [
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "ancholik",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বাথুকাম্মা কত দিন ধরে পালিত হয়?",
+      "a": "নয় দিন — মহালয়া অমাবস্যা থেকে দুর্গাষ্টমী পর্যন্ত",
+      "w": [
+        "সাত দিন",
+        "দশ দিন",
+        "পনেরো দিন"
+      ],
+      "e": "শাতবাহন পঞ্জিকা অনুযায়ী বাথুকাম্মা নয় দিন ধরে চলে, সাধারণত সেপ্টেম্বর–অক্টোবরে; শেষ দিন সদ্দুলা বাথুকাম্মা।",
+      "claims": [
+        "c25",
+        "c27"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "ancholik",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "হর্নবিল উৎসব কখন ও কোথায় হয়?",
+      "a": "ডিসেম্বরের প্রথম সপ্তাহে; কোহিমা থেকে প্রায় ১২ কিমি দূরে কিসামা ঐতিহ্য গ্রামে",
+      "w": [
+        "জানুয়ারিতে; দিমাপুরে",
+        "এপ্রিলে; মোককচুঙে",
+        "জুনে; কোহিমা শহরের ময়দানে"
+      ],
+      "e": "নাগাল্যান্ড পর্যটনের তথ্য: উৎসবটি প্রতি বছর ডিসেম্বরের প্রথম সপ্তাহে কিসামা হেরিটেজ ভিলেজে অনুষ্ঠিত হয়।",
+      "claims": [
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "ancholik",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বোইতা বন্দনা (Boita Bandana) রীতিতে কী করা হয়?",
+      "a": "খেলনা নৌকা জলে ভাসানো হয়",
+      "w": [
+        "ফুলের স্তূপ সাজানো হয়",
+        "মাটির ঘোড়া পূজা করা হয়",
+        "বাঁশের মাচায় প্রদীপ জ্বালানো হয়"
+      ],
+      "e": "কটকের বালি যাত্রার উদ্বোধনী দিনে অতীতকে স্মরণ করে ওড়িয়া নারীরা খেলনা নৌকা ভাসান — এই রীতিই বোইতা বন্দনা।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "ancholik",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বালি যাত্রা মেলা কোন ঐতিহাসিক সম্পর্কের স্মারক?",
+      "a": "প্রাচীন কলিঙ্গের সাধবদের (নাবিক-বণিক) বালি, জাভা, সুমাত্রা ও বোর্নিওর সঙ্গে সামুদ্রিক বাণিজ্য",
+      "w": [
+        "মুঘলদের সঙ্গে পর্তুগিজদের বাণিজ্য",
+        "ব্রিটিশদের সঙ্গে চা-বাণিজ্য",
+        "মৌর্যদের সঙ্গে রোমের বাণিজ্য"
+      ],
+      "e": "কটক পৌরসভার বর্ণনায় বালি যাত্রা কার্তিক পূর্ণিমায় অনুষ্ঠিত হয় প্রাচীন কলিঙ্গের সাধবদের সামুদ্রিক বাণিজ্য-সম্পর্ক স্মরণে।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "ancholik",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. অম্বুবাচী মেলা গুয়াহাটির কামাখ্যা মন্দিরের সবচেয়ে গুরুত্বপূর্ণ উৎসব এবং বর্ষাকালে (মধ্য-জুন) হয়।\n২. অম্বুবাচীর সময় মন্দিরের দরজা তিন দিন খোলা থাকে।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধু ১",
+      "w": [
+        "শুধু ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল — অম্বুবাচীর সময় মন্দিরের দরজা তিন দিন বন্ধ থাকে, চতুর্থ দিনে ভক্তরা প্রবেশ করতে পারেন।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "unesco_talika",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বর্তমানে ভারতের কয়টি উপাদান ইউনেস্কোর প্রতিনিধিত্বমূলক তালিকায় আছে?",
+      "a": "১৫টি",
+      "w": [
+        "১৩টি",
+        "১৪টি",
+        "১৬টি"
+      ],
+      "e": "PIB-র সাম্প্রতিক তথ্য অনুযায়ী ভারতের ১৫টি উপাদান তালিকায় আছে; সর্বশেষটি গুজরাটের গরবা (২০২৩)।",
+      "claims": [
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "unesco_talika",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রম্মন (Ramman) কোন অঞ্চলের ধর্মীয় উৎসব ও আচারনাট্য?",
+      "a": "গাড়োয়াল হিমালয় (উত্তরাখণ্ড)",
+      "w": [
+        "কেরল",
+        "রাজস্থান",
+        "মণিপুর"
+      ],
+      "e": "রম্মন উত্তরাখণ্ডের সালুর-দুংরা গ্রামে ভূমিয়াল দেবতার সম্মানে পালিত গাড়োয়াল হিমালয়ের উৎসব; অন্তর্ভুক্তি ২০০৯ সালে।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "unesco_talika",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২০০৮ সালে প্রথম কোন তিনটি উপাদান তালিকাভুক্ত হয়?",
+      "a": "কুটিয়াট্টম, বৈদিক মন্ত্রোচ্চারণের ঐতিহ্য ও রামলীলা",
+      "w": [
+        "রম্মন, ছৌ ও কালবেলিয়া",
+        "যোগ, নওরোজ ও কুম্ভ মেলা",
+        "সংকীর্তন, মুদিয়েট্টু ও গরবা"
+      ],
+      "e": "তালিকার প্রথম তিনটি উপাদানই ২০০৮ সালের: কুটিয়াট্টম (সংস্কৃত নাট্য), বৈদিক মন্ত্রোচ্চারণ ও রামলীলা।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "unesco_talika",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রামলীলা কোন উৎসবের সময় অভিনীত হয়?",
+      "a": "দশেরা (শরৎকালে)",
+      "w": [
+        "হোলি",
+        "দীপাবলি",
+        "মকর সংক্রান্তি"
+      ],
+      "e": "রামলীলা উত্তর ভারত জুড়ে শরৎকালের দশেরা উৎসবের সময় রামায়ণের অভিনয় হিসেবে মঞ্চস্থ হয়।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "unesco_talika",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ছৌ নৃত্য কোন অঞ্চলের ঐতিহ্য এবং কোন বসন্ত-উৎসবের সঙ্গে ঘনিষ্ঠভাবে যুক্ত?",
+      "a": "পূর্ব ভারত; চৈত্র পর্ব",
+      "w": [
+        "দক্ষিণ ভারত; ওনাম",
+        "পশ্চিম ভারত; উত্তরায়ণ",
+        "উত্তর-পূর্ব ভারত; বিহু"
+      ],
+      "e": "ছৌ পূর্ব ভারতের ঐতিহ্য — মহাভারত-রামায়ণ ও লোককথার অভিনয়; এটি আঞ্চলিক উৎসব, বিশেষ করে বসন্তের চৈত্র পর্বের সঙ্গে ঘনিষ্ঠভাবে যুক্ত।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "unesco_talika",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নওরোজ (Nawrouz) সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "এর অর্থ 'নতুন দিন'; ২১ মার্চ ভারতসহ বহু দেশে বছরের শুরু হিসেবে পালিত হয়",
+      "w": [
+        "এটি শুধু ভারতেই পালিত হয়",
+        "এটি ডিসেম্বরে পালিত ফসল-উৎসব",
+        "এর অর্থ 'আলোর উৎসব'"
+      ],
+      "e": "নওরোজ মানে 'নতুন দিন' — ২১ মার্চ থেকে প্রায় দুই সপ্তাহ ধরে ভারত, ইরান, আফগানিস্তানসহ বহু দেশে নববর্ষের আচার-অনুষ্ঠান চলে; অন্তর্ভুক্তি ২০১৬ সালে।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "unesco_talika",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): কালবেলিয়া ও মুদিয়েট্টু একই সালে (২০১০) ইউনেস্কো তালিকায় অন্তর্ভুক্ত হয়।\nকারণ (R): কালবেলিয়া রাজস্থানের লোকগান ও নৃত্য এবং মুদিয়েট্টু কেরলের আচারনাট্য ও নৃত্যনাট্য।\n\nসঠিক বিকল্প বেছে নাও:",
+      "a": "A ও R দুটোই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+      "w": [
+        "A ও R দুটোই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "দুটো বক্তব্যই সত্য — দুটোই ২০১০ সালে অন্তর্ভুক্ত এবং অঞ্চল-পরিচয়ও ঠিক; কিন্তু অঞ্চল-পরিচয় একই সালে অন্তর্ভুক্তির কারণ নয়, তাই R, A-এর ব্যাখ্যা নয়।",
+      "claims": [
+        "c17"
+      ]
+    }
+  ]
+}

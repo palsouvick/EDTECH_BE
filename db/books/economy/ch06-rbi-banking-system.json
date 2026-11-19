@@ -1,0 +1,1612 @@
+{
+  "book": "economy",
+  "code": "ECO-06",
+  "number": 6,
+  "part": "banking_finance",
+  "title": "রিজার্ভ ব্যাংক ও ব্যাংকিং ব্যবস্থা",
+  "subtitle": "কেন্দ্রীয় ব্যাংকের প্রতিষ্ঠা ও কাজ, মুদ্রানীতি ও MPC, CRR–SLR–রেপো হাতিয়ার এবং জাতীয়করণ থেকে সংস্কার পর্যন্ত ব্যাংকিং কাঠামো",
+  "subtopics": [
+    "rbi_banking"
+  ],
+  "related_facts": [
+    "GK-ECO-002",
+    "GK-ECO-003"
+  ],
+  "prerequisites": [
+    "ECO-01"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 28,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 1 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 9 of 21 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ECO-06.json and drafts/ECO-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ECO-06_REPORT.md.",
+    "checked_claims": 38,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "প্রতিটি আধুনিক অর্থনীতির কেন্দ্রে থাকে একটি কেন্দ্রীয় ব্যাংক — ভারতের ক্ষেত্রে রিজার্ভ ব্যাংক অফ ইন্ডিয়া (RBI)। এই অধ্যায়ে আমরা পড়ব RBI কীভাবে ১৯৩৫ সালে কলকাতায় প্রতিষ্ঠিত হয়ে ১৯৪৯ সালে সরকারি মালিকানায় এল, এর প্রধান কাজগুলি কী — নোট জারি, মুদ্রানীতি, ব্যাংক তত্ত্বাবধান, সরকারের ব্যাংকার — এবং মুদ্রানীতি কমিটি (MPC) রেপো, CRR ও SLR-এর মতো হাতিয়ার দিয়ে কীভাবে মুদ্রাস্ফীতি নিয়ন্ত্রণ করে। পাশাপাশি দেখব ব্যাংকিং ব্যবস্থার বড় মোড়গুলি: ১৯৬৯ ও ১৯৮০ সালের জাতীয়করণ এবং ১৯৯১-পরবর্তী সংস্কার।",
+    "you_will_learn": [
+      "RBI-র প্রতিষ্ঠা (১৯৩৫), কলকাতা থেকে মুম্বই স্থানান্তর (১৯৩৭) ও জাতীয়করণ (১৯৪৯)-এর কালক্রম",
+      "RBI-র ছয়টি প্রধান ভূমিকা — মুদ্রা কর্তৃপক্ষ, নিয়ন্ত্রক, নোট জারিকারী, সরকারের ব্যাংকার, ব্যাংকগুলির ব্যাংকার, বৈদেশিক মুদ্রার ব্যবস্থাপক",
+      "নোট বনাম কয়েন: ২২ ধারা, ১ টাকার নোটের ব্যতিক্রম, কারেন্সি চেস্ট ও বাংলার শালবনি ছাপাখানা-কলকাতা টাঁকশাল",
+      "MPC (ধারা 45ZB), ৪% মুদ্রাস্ফীতি লক্ষ্য এবং অক্টোবর ২০২৬-এর হারগুলি — রেপো ৫.৫০%, SDF ৫.২৫%, MSF/ব্যাংক হার ৫.৭৫%",
+      "CRR (NDTL-এর ৩%) ও SLR (NDTL-এর ১৮%)-এর পার্থক্য এবং রেপো–রিভার্স রেপো–MSF দিয়ে তারল্য নিয়ন্ত্রণ",
+      "ব্যাংক জাতীয়করণ (১৯৬৯: ১৪টি, ১৯৮০: ৬টি), BFS তত্ত্বাবধান ও ১৯৯১-পরবর্তী সংস্কারে বেসরকারি ব্যাংকের আগমন"
+    ]
+  },
+  "sections": [
+    {
+      "id": "establishment",
+      "heading": "প্রতিষ্ঠা ও ইতিহাস: ১৯৩৪-এর আইন থেকে ১৯৪৯-এর জাতীয়করণ",
+      "quick": "RBI প্রতিষ্ঠিত হয় ১ এপ্রিল ১৯৩৫, RBI আইন ১৯৩৪ অনুযায়ী। কেন্দ্রীয় দপ্তর প্রথমে ছিল কলকাতায়, ১৯৩৭ সালে স্থায়ীভাবে মুম্বইয়ে সরে যায়। শুরুতে বেসরকারি মালিকানাধীন এই ব্যাংক ১৯৪৯ সালে জাতীয়করণের পর সম্পূর্ণভাবে ভারত সরকারের মালিকানাধীন হয়।",
+      "standard": "ভারতের কেন্দ্রীয় ব্যাংকের জন্ম একটি আইন দিয়ে: রিজার্ভ ব্যাংক অফ ইন্ডিয়া আইন, ১৯৩৪। সেই আইনের বিধান অনুযায়ী ১ এপ্রিল ১৯৩৫ প্রতিষ্ঠিত হয় রিজার্ভ ব্যাংক অফ ইন্ডিয়া। পরীক্ষায় সবচেয়ে বেশি গুলিয়ে যাওয়া জোড়টি এখানেই — আইন ১৯৩৪ সালের, ব্যাংক ১৯৩৫ সালের।\n\nপ্রতিষ্ঠার সময় কেন্দ্রীয় দপ্তর — যেখানে গভর্নর বসেন এবং নীতি তৈরি হয় — ছিল কলকাতায়। ১৯৩৭ সালে তা স্থায়ীভাবে মুম্বইয়ে স্থানান্তরিত হয়; আজও কেন্দ্রীয় দপ্তর মুম্বইয়েই। বাংলার জন্য এই তথ্যটি বিশেষ: ভারতের কেন্দ্রীয় ব্যাংকের প্রথম ঠিকানা কলকাতা।\n\nমালিকানার দিক থেকে শুরুতে RBI ছিল বেসরকারি মালিকানাধীন — অর্থাৎ এটি সরকারি প্রতিষ্ঠান হিসেবে জন্মায়নি। স্বাধীনতার পর ১৯৪৯ সালে জাতীয়করণের মাধ্যমে এটি সম্পূর্ণভাবে ভারত সরকারের মালিকানাধীন হয়।\n\nRBI-র কাজকর্ম পরিচালনা করে একটি কেন্দ্রীয় পরিচালনা পর্ষদ (Central Board), যা RBI আইন অনুযায়ী ভারত সরকার নিয়োগ করে। পর্ষদে পূর্ণকালীন সরকারি পরিচালক হলেন গভর্নর এবং সর্বোচ্চ চারজন ডেপুটি গভর্নর; এছাড়া আছেন সরকার মনোনীত দশজন পরিচালক, দুজন সরকারি আধিকারিক এবং চারটি স্থানীয় বোর্ড থেকে একজন করে পরিচালক।\n\nRBI-র সংবিধি-ভূমিকায় (Preamble) এর মূল কাজগুলি বলা আছে: ব্যাংক নোট জারি নিয়ন্ত্রণ ও রিজার্ভ রক্ষা করে মুদ্রা স্থিতিশীলতা নিশ্চিত করা, দেশের মুদ্রা ও ঋণ ব্যবস্থা দেশের সুবিধার্থে পরিচালনা করা, এবং প্রবৃদ্ধির লক্ষ্য মনে রেখে মূল্য স্থিতিশীলতা বজায় রাখা। পরের অধ্যায়গুলিতে আমরা এই কাজগুলিই একে একে খুলে দেখব।",
+      "deep": "তিনটি সালের ক্রম মুখস্থ রাখো: ১৯৩৪ (আইন) → ১৯৩৫ (প্রতিষ্ঠা, কলকাতা) → ১৯৩৭ (মুম্বই) → ১৯৪৯ (জাতীয়করণ)। WBCS ২০১৭ ও ২০২২ — দুই বছরেই সরাসরি 'RBI প্রতিষ্ঠার সাল' প্রশ্ন এসেছে; উত্তর ১৯৩৫, আইনের সাল ১৯৩৪ নয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "১৯৩৪ বনাম ১৯৩৫",
+          "body": "আইন = ১৯৩৪, প্রতিষ্ঠা = ১৯৩৫। 'কোন আইনে প্রতিষ্ঠিত?' প্রশ্নে উত্তর RBI আইন, ১৯৩৪; 'কবে প্রতিষ্ঠিত?' প্রশ্নে উত্তর ১ এপ্রিল ১৯৩৫।",
+          "claims": [
+            "c01"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "id": "functions",
+      "heading": "RBI-র প্রধান কাজ: ছয়টি ভূমিকা",
+      "quick": "RBI একই সঙ্গে (১) মুদ্রা কর্তৃপক্ষ, (২) আর্থিক ব্যবস্থার নিয়ন্ত্রক ও তত্ত্বাবধায়ক, (৩) নোট জারিকারী, (৪) বৈদেশিক মুদ্রার ব্যবস্থাপক, (৫) সরকারের ব্যাংকার ও (৬) ব্যাংকগুলির ব্যাংকার। এছাড়া এর উন্নয়নমূলক ভূমিকা ও পেমেন্ট ব্যবস্থার তত্ত্বাবধানও আছে।",
+      "standard": "RBI-র সরকারি ওয়েবসাইট এর প্রধান কাজগুলিকে ভাগ করে তালিকাভুক্ত করেছে। একে একে দেখা যাক।\n\n**মুদ্রা কর্তৃপক্ষ (Monetary Authority):** RBI মুদ্রানীতি প্রণয়ন, বাস্তবায়ন ও পর্যবেক্ষণ করে। উদ্দেশ্য — প্রবৃদ্ধির লক্ষ্য মনে রেখে মূল্য স্থিতিশীলতা বজায় রাখা। মুদ্রানীতি কীভাবে কাজ করে, তা আমরা monetary_policy ও credit_control_tools অধ্যায়াংশে পড়ব।\n\n**নিয়ন্ত্রক ও তত্ত্বাবধায়ক (Regulator and supervisor):** দেশের ব্যাংকিং ও আর্থিক ব্যবস্থা যেসব ব্যাপক মাপকাঠির মধ্যে চলবে, তা RBI নির্ধারণ করে। লক্ষ্য — ব্যবস্থার প্রতি জনগণের আস্থা রক্ষা, আমানতকারীদের স্বার্থ সুরক্ষা এবং সাশ্রয়ী ব্যাংকিং সেবা। NCERT-ও ঠিক এই কথাই বলে: ভারতের আর্থিক ক্ষেত্র RBI দ্বারা নিয়ন্ত্রিত, এবং সব ব্যাংক ও আর্থিক প্রতিষ্ঠান RBI-র বিধি-নিয়মের আওতায় চলে। তত্ত্বাবধানকে আরও তীক্ষ্ণ করতে কেন্দ্রীয় বোর্ডের কমিটি হিসেবে ১৯৯৪ সালের নভেম্বরে গঠিত হয় বোর্ড ফর ফিনান্সিয়াল সুপারভিশন (BFS), যা বাণিজ্যিক ব্যাংক, আর্থিক প্রতিষ্ঠান ও অ-ব্যাংকিং আর্থিক মধ্যস্থতাকারীদের ওপর সমন্বিত তত্ত্বাবধান চালায়।\n\n**নোট জারিকারী (Issuer of currency):** RBI মুদ্রা নোট জারি, বিনিময় ও ধ্বংস করে এবং ভারত সরকারের তৈরি কয়েন প্রচলনে পৌঁছে দেয় — বিস্তারিত পরের অধ্যায়াংশে।\n\n**বৈদেশিক মুদ্রার ব্যবস্থাপক:** RBI বৈদেশিক মুদ্রা ব্যবস্থাপনা আইন, ১৯৯৯ (FEMA) পরিচালনা করে, যাতে বৈদেশিক বাণিজ্য ও লেনদেন সহজ হয়।\n\n**সরকারের ব্যাংকার ও ব্যাংকগুলির ব্যাংকার:** RBI কেন্দ্র ও রাজ্য সরকারের মার্চেন্ট ব্যাংকিংয়ের কাজ করে ও তাদের ব্যাংকার হিসেবে কাজ করে; আবার সব তফসিলি ব্যাংকের ব্যাংকিং অ্যাকাউন্ট RBI-তেই রাখা হয় — তাই RBI 'ব্যাংকগুলির ব্যাংকার'।\n\n**উন্নয়নমূলক ভূমিকা ও পেমেন্ট ব্যবস্থা:** জাতীয় লক্ষ্য পূরণে RBI নানা প্রচারমূলক (promotional) কাজ করে এবং দেশে নিরাপদ ও দক্ষ পেমেন্ট ব্যবস্থা চালু ও উন্নত করে। আমানত বিমার প্রতিষ্ঠান DICGC RBI-রই সম্পূর্ণ মালিকানাধীন সহায়ক সংস্থা।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "কাজের তালিকা মনে রাখার সূত্র",
+          "body": "নোট — নীতি — নিয়ন্ত্রণ — সরকার — ব্যাংক — বিদেশি মুদ্রা: জারি, মুদ্রানীতি, তত্ত্বাবধান, সরকারের ব্যাংকার, ব্যাংকের ব্যাংকার, FEMA। ছয়টি ভূমিকাই RBI-র নিজের 'Main Functions' তালিকা থেকে নেওয়া।",
+          "claims": [
+            "c08",
+            "c09",
+            "c10",
+            "c11",
+            "c12"
+          ]
+        }
+      ],
+      "claims": [
+        "c08",
+        "c09",
+        "c34",
+        "c06",
+        "c07",
+        "c10",
+        "c12",
+        "c11",
+        "c13",
+        "c14",
+        "c37"
+      ]
+    },
+    {
+      "id": "currency_issue",
+      "heading": "মুদ্রা জারি: নোট RBI-র, কয়েন সরকারের",
+      "quick": "RBI আইনের ২২ ধারা অনুযায়ী ব্যাংক নোট জারির একমাত্র অধিকার RBI-র। কিন্তু কয়েনের নকশা ও মুদ্রণ করে ভারত সরকার (কয়েনেজ আইন, ২০১১); RBI কেবল কয়েন বিতরণ করে। ১ টাকার নোটও জারি করে ভারত সরকার — এটাই বড় ব্যতিক্রম।",
+      "standard": "মুদ্রা জারির ক্ষমতা দুই ভাগে ভাগ করা — এই বিভাজনটাই পরীক্ষার প্রিয় বিষয়।\n\n**ব্যাংক নোট:** RBI আইনের ২২ ধারা অনুযায়ী ভারতে ব্যাংক নোট জারি করার একমাত্র অধিকার RBI-র। তাই WBCS ২০২১-এর প্রশ্ন — 'টাকার নোট ছাপানোর দায়িত্ব কার?' — এর উত্তর অর্থ মন্ত্রক বা প্রধানমন্ত্রীর দপ্তর নয়, রিজার্ভ ব্যাংক। নোটের নকশা, আকার ও উপাদান অবশ্য RBI একা ঠিক করে না: ২৫ ধারা অনুযায়ী কেন্দ্রীয় বোর্ডের সুপারিশ বিবেচনা করে কেন্দ্রীয় সরকার তা অনুমোদন করে। ২৬ ধারা অনুযায়ী প্রতিটি ব্যাংক নোট ভারতের যেকোনো জায়গায় আইনগত দরপত্র (legal tender) এবং কেন্দ্রীয় সরকার তার মূল্যের গ্যারান্টি দেয়। নোটের ওপর গভর্নরের স্বাক্ষরসহ 'I promise to pay the bearer' লেখা থাকে — এই প্রতিশ্রুতি জারিকারী হিসেবে RBI-র দায়।\n\n**কয়েন:** কয়েনের ক্ষেত্রে ছবিটা উল্টো। কয়েনেজ আইন, ২০১১ অনুযায়ী কয়েনের নকশা তৈরি ও টাঁকশালে মুদ্রণ করে ভারত সরকার; RBI-র ভূমিকা শুধু সরকারের সরবরাহ করা কয়েন বিতরণে সীমিত। আরেকটি ব্যতিক্রম: ১ টাকার নোট জারি করে ভারত সরকার, RBI নয়।\n\n**ছাপা ও বিতরণের জাল:** নোট ছাপা হয় চারটি ছাপাখানায় — দুটি সরকারি (SPMCIL: নাশিক ও দেওয়াস), দুটি RBI-র সহায়ক সংস্থা BRBNMPL-এর (মহীশূর ও শালবনি)। কয়েন তৈরি হয় SPMCIL-এর চারটি টাঁকশালে — মুম্বই, হায়দরাবাদ, কলকাতা ও নয়ডা। বিতরণের জন্য RBI নির্বাচিত তফসিলি ব্যাংকগুলিকে 'কারেন্সি চেস্ট' রাখার অনুমতি দিয়েছে — এগুলি হল মজুতঘর, যেখানে RBI-র পক্ষে নোট ও কয়েন রেখে এলাকার ব্যাংক শাখাগুলিতে পাঠানো হয়।",
+      "deep": "দুটি ধারা জোড়া মনে রাখো: ২২ = নোট জারির একমাত্র অধিকার, ২৬ = আইনগত দরপত্র ও সরকারি গ্যারান্টি। আর ব্যতিক্রম দুটি: কয়েন (সরকার) ও ১ টাকার নোট (সরকার)।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "নোট বনাম কয়েন",
+          "body": "পরীক্ষায় প্রায়ই দুটি মিশিয়ে দেওয়া হয়। নিয়ম: **নোট → RBI** (২, ৫, ১০... টাকার ব্যাংক নোট), **কয়েন → ভারত সরকার**, **১ টাকার নোট → ভারত সরকার**।",
+          "claims": [
+            "c15",
+            "c16",
+            "c17"
+          ]
+        }
+      ],
+      "claims": [
+        "c15",
+        "c16",
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21"
+      ]
+    },
+    {
+      "id": "monetary_policy",
+      "heading": "মুদ্রানীতি ও মুদ্রানীতি কমিটি (MPC)",
+      "quick": "মুদ্রানীতি ঠিক করে ছয় সদস্যের মুদ্রানীতি কমিটি (MPC), যা RBI আইনের 45ZB ধারায় গঠিত এবং যার সভাপতি গভর্নর। লক্ষ্য ৪% CPI মুদ্রাস্ফীতি। অক্টোবর ২০২৬-এর সিদ্ধান্তে (৭ অক্টোবর ২০২৬ পর্যন্ত হালনাগাদ) রেপো হার ৫.৫০%, SDF ৫.২৫%, MSF ও ব্যাংক হার ৫.৭৫%।",
+      "standard": "মুদ্রানীতি মানে কেন্দ্রীয় ব্যাংকের হাতে থাকা হাতিয়ার দিয়ে অর্থের জোগান ও সুদের হার নিয়ন্ত্রণ — যাতে দাম স্থির থাকে, আবার প্রবৃদ্ধিও থেমে না যায়। RBI-র নিজের ভাষায় মুদ্রানীতির উদ্দেশ্য: প্রবৃদ্ধির লক্ষ্য মনে রেখে মূল্য স্থিতিশীলতা।\n\n**কে ঠিক করে?** মুদ্রানীতি কমিটি (Monetary Policy Committee, MPC) — RBI আইন, ১৯৩৪-এর 45ZB ধারায় গঠিত। বৈঠকে সভাপতিত্ব করেন RBI গভর্নর। অক্টোবর ২০২৬-এর ৬৩তম বৈঠকের (৫–৭ অক্টোবর) কার্যবিবরণীতে গভর্নরসহ মোট ছয়জন সদস্যের নাম আছে — তিনজন বহিরাগত সদস্য, মুদ্রানীতির দায়িত্বপ্রাপ্ত ডেপুটি গভর্নর এবং কেন্দ্রীয় বোর্ড মনোনীত একজন RBI আধিকারিক। স্বচ্ছতার জন্য প্রতিটি বৈঠকের কার্যবিবরণী 45ZL ধারা অনুযায়ী বৈঠকের চতুর্দশ দিনে প্রকাশ করতে হয়, যেখানে প্রতিটি সদস্যের ভোটও ছাপা হয়।\n\n**লক্ষ্য কী?** শিরোনাম মুদ্রাস্ফীতির (headline CPI inflation) লক্ষ্য ৪ শতাংশ — RBI-র জুন ২০২৫-এর বিবৃতিতেও এই ৪% লক্ষ্যের সঙ্গে মুদ্রাস্ফীতির টেকসই মিল (durable alignment) অর্জনের কথা বলা হয়েছে।\n\n**সাম্প্রতিক সিদ্ধান্ত (৭ অক্টোবর ২০২৬ পর্যন্ত):** মুদ্রাস্ফীতি বাড়ার আশঙ্কায় MPC সর্বসম্মতিতে নীতি রেপো হার ২৫ বেসিস পয়েন্ট বাড়িয়ে ৫.৫০% করে এবং নীতির ভঙ্গি (stance) 'calibrated tightening' করা হয়। এর ফলে SDF হার দাঁড়ায় ৫.২৫% এবং MSF হার ও ব্যাংক হার ৫.৭৫%। এই হারগুলি প্রতিটি বৈঠকে বদলাতে পারে — পরীক্ষার আগে RBI-র ওয়েবসাইটে সর্বশেষ হার দেখে নেওয়া উচিত।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "45ZB বনাম 45ZL",
+          "body": "45ZB = MPC **গঠন**। 45ZL = কার্যবিবরণী **প্রকাশ**। WBCS-ধাঁচের প্রশ্নে এই দুটি ধারা পরস্পরের বিকল্প হিসেবে দেওয়া হয়।",
+          "claims": [
+            "c22",
+            "c23"
+          ]
+        }
+      ],
+      "claims": [
+        "c08",
+        "c22",
+        "c23",
+        "c25",
+        "c24"
+      ]
+    },
+    {
+      "id": "credit_control_tools",
+      "heading": "ঋণ নিয়ন্ত্রণের হাতিয়ার: রেপো, CRR, SLR",
+      "quick": "তিনটি প্রধান হাতিয়ার: (১) রেপো হার — যে হারে RBI ব্যাংকগুলিকে তারল্য জোগায়; (২) CRR — NDTL-এর ৩% নগদ RBI-র কাছে জমা (সুদ মেলে না); (৩) SLR — NDTL-এর ১৮% তরল সম্পদ ব্যাংকের নিজের কাছে। হারগুলি অক্টোবর ২০২৬ পর্যন্ত হালনাগাদ তথ্য অনুযায়ী।",
+      "standard": "MPC হার ঠিক করে, কিন্তু সেই সিদ্ধান্ত ব্যাংকিং ব্যবস্থায় পৌঁছায় কয়েকটি হাতিয়ার দিয়ে। LAF (Liquidity Adjustment Facility) হল সেই কাঠামো, যার মধ্যে রেপো অপারেশন দিয়ে তারল্য ঢোকানো (injection) এবং রিভার্স রেপো অপারেশন দিয়ে তারল্য শোষণ (absorption) করা হয়।\n\n**রেপো ও রিভার্স রেপো:** রেপো হারে ব্যাংকগুলি RBI-র কাছ থেকে স্বল্পমেয়াদে অর্থ নেয় — তাই রেপো বাড়লে ব্যাংকের ধারের খরচ বাড়ে, ঋণ মহার্ঘ হয়, মুদ্রাস্ফীতি চাপে পড়ে। উল্টো দিকে, রিভার্স রেপোতে RBI ব্যাংকগুলির অতিরিক্ত অর্থ শোষণ করে; স্থির হারের রিভার্স রেপো হার LAF করিডোরের মেঝে (floor) তৈরি করে। জরুরি প্রয়োজনে ব্যাংক অতিরিক্ত SLR সম্পদের বিনিময়ে MSF (Marginal Standing Facility) জানালা দিয়ে রাতারাতি ধার নিতে পারে — MSF হার থাকে রেপো হারের উপরে (অক্টোবর ২০২৬-এ ৫.৭৫%)।\n\n**CRR (Cash Reserve Ratio):** প্রতিটি ব্যাংককে তার মোট চাহিদা ও মেয়াদি দায়ের (NDTL) নির্দিষ্ট শতাংশ নগদে RBI-র কাছে রাখতে হয়। জুন ২০২৫-এর সিদ্ধান্তে CRR ১০০ বেসিস পয়েন্ট কমিয়ে NDTL-এর ৩.০% করা হয় (চার কিস্তিতে, সেপ্টেম্বর–নভেম্বর ২০২৫) — এতে প্রায় ২.৫ লক্ষ কোটি টাকা প্রাথমিক তারল্য ব্যবস্থায় মুক্ত হয়। মনে রাখো: CRR জমার ওপর RBI কোনো সুদ দেয় না। CRR বাড়ালে ব্যাংকের ঋণযোগ্য অর্থ কমে, কমালে বাড়ে।\n\n**SLR (Statutory Liquidity Ratio):** CRR-এর পাশাপাশি প্রতিটি ব্যাংককে ভারতে তরল সম্পদ ধরে রাখতে হয় — বর্তমানে (RBI-র নির্দেশিকা, ৯ অক্টোবর ২০২৬ হালনাগাদ) NDTL-এর কমপক্ষে ১৮%। SLR সম্পদ রাখা যায় নগদে, সোনায়, অথবা অনাবদ্ধ অনুমোদিত সিকিউরিটিতে (সরকারি ডেটেড সিকিউরিটি, ট্রেজারি বিল, রাজ্য সরকারের সিকিউরিটি)। CRR-এর সঙ্গে মূল পার্থক্য: CRR জমা থাকে RBI-র কাছে, SLR সম্পদ থাকে ব্যাংকের নিজের কাছে।\n\nWBCS ২০২৩-এর প্রশ্নটি এই অধ্যায়াংশ দিয়েই মেলানো যায়: SLR কমালে ব্যাংকের ঋণযোগ্য অর্থ বাড়ে — অর্থাৎ অর্থের জোগান বেড়ে মুদ্রাস্ফীতির চাপ তৈরি হয়।",
+      "deep": "সংখ্যার সারি (অক্টোবর ২০২৬ পর্যন্ত): রেপো ৫.৫০ — SDF ৫.২৫ — MSF/ব্যাংক হার ৫.৭৫ — CRR ৩.০ — SLR ১৮। হার বদলায় প্রতি MPC বৈঠকে; সংখ্যা নয়, প্রতিটি হাতিয়ারের **দিক** (বাড়ালে কী হয়, কমালে কী হয়) মনে রাখলেই বেশিরভাগ প্রশ্ন মিলবে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "CRR বনাম SLR",
+          "body": "**CRR:** নগদ, RBI-র কাছে, সুদ নেই, বর্তমানে NDTL-এর ৩%। **SLR:** নগদ/সোনা/অনুমোদিত সিকিউরিটি, ব্যাংকের নিজের কাছে, বর্তমানে NDTL-এর ১৮%।",
+          "claims": [
+            "c26",
+            "c27",
+            "c28",
+            "c29"
+          ]
+        }
+      ],
+      "claims": [
+        "c30",
+        "c32",
+        "c31",
+        "c24",
+        "c26",
+        "c27",
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "banking_structure",
+      "heading": "ব্যাংকিং ব্যবস্থার কাঠামো: জাতীয়করণ থেকে সংস্কার",
+      "quick": "ভারতের ব্যাংকিং ব্যবস্থা RBI-র নিয়ন্ত্রণে চলে। বড় মোড় তিনটি: ১৯৬৯ সালে ১৪টি ও ১৯৮০ সালে ৬টি ব্যাংকের জাতীয়করণ, এবং ১৯৯১-পরবর্তী সংস্কারে বেসরকারি ব্যাংকের আগমন ও ব্যাংকে বিদেশি বিনিয়োগের সীমা প্রায় ৭৪%।",
+      "standard": "ভারতের সব ব্যাংক ও আর্থিক প্রতিষ্ঠান RBI-র বিধি-নিয়মের আওতায় চলে — NCERT একাদশ শ্রেণির ভাষায়, RBI ঠিক করে ব্যাংকগুলি নিজেদের কাছে কত অর্থ রাখতে পারবে, সুদের হার কী হবে, কোন খাতে কেমন ঋণ যাবে। RBI আইনের দ্বিতীয় তফসিলে অন্তর্ভুক্ত ব্যাংকগুলিকে বলা হয় তফসিলি ব্যাংক (Scheduled Bank); সব তফসিলি ব্যাংকের অ্যাকাউন্ট RBI-তে থাকে।\n\n**জাতীয়করণের যুগ:** স্বাধীনতার পর ব্যাংকিংকে সামাজিক লক্ষ্যের সঙ্গে যুক্ত করতে সরকার বড় বেসরকারি ব্যাংকগুলি জাতীয়করণ করে। অর্থনৈতিক সমীক্ষা ২০২১-২২ অনুযায়ী, ১৯৬৯ সালে ব্যাংকিং কোম্পানিজ (অ্যাকুইজিশন অ্যান্ড ট্রান্সফার অফ আন্ডারটেকিংস) আইন, ১৯৭০-এর মাধ্যমে ১৪টি ব্যাংক জাতীয়করণ হয়; ১৯৮০ সালে দ্বিতীয় দফায় আরও ৬টি ব্যাংক জাতীয়করণ হয়। IDO ২০১৯ ও WBCS ২০১৫ — দুই পরীক্ষাতেই এই ১৪ সংখ্যাটি সরাসরি জিজ্ঞাসা করা হয়েছে।\n\n**সংস্কারের যুগ:** ১৯৯১-পরবর্তী আর্থিক ক্ষেত্র সংস্কারে ছবি বদলায়। NCERT অনুযায়ী, সংস্কার নীতির ফলে ভারতীয় ও বিদেশি — দুই ধরনের বেসরকারি ব্যাংকই প্রতিষ্ঠিত হয় এবং ব্যাংকগুলিতে বিদেশি বিনিয়োগের সীমা বাড়িয়ে প্রায় ৭৪% করা হয়। তবে সব ম্যানেজারিয়াল দিক RBI-র হাতে রাখা হয়, যাতে অ্যাকাউন্টধারী ও দেশের স্বার্থ সুরক্ষিত থাকে।\n\n**তত্ত্বাবধানের কাঠামো:** নিয়ন্ত্রণের কেন্দ্রে RBI নিজে; তার কেন্দ্রীয় বোর্ডের কমিটি BFS (১৯৯৪) ব্যাংক ও আর্থিক প্রতিষ্ঠানগুলির সমন্বিত তত্ত্বাবধান করে, আর আমানতকারীদের সুরক্ষায় কাজ করে RBI-র সহায়ক সংস্থা DICGC।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "১৯৬৯-এর ঘটনা, ১৯৭০-এর আইন",
+          "body": "'কোন আইনে ১৯৬৯-এর জাতীয়করণ হয়?' — উত্তর: Banking Companies (Acquisition and Transfer of Undertakings) Act, **1970**। ঘটনার সাল আর আইনের সাল আলাদা — এই ফাঁদে পড়ো না।",
+          "claims": [
+            "c33"
+          ]
+        }
+      ],
+      "claims": [
+        "c34",
+        "c35",
+        "c38",
+        "c33",
+        "c36",
+        "c06",
+        "c07",
+        "c37"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "RBI আইন প্রণয়ন",
+      "when": "১৯৩৪",
+      "what": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া আইন, ১৯৩৪ পাস হয়।",
+      "why_it_matters": "এই আইনই RBI প্রতিষ্ঠার আইনি ভিত্তি এবং আজও এর অধীনেই MPC (45ZB ধারা) ও নোট জারি (২২ ধারা) চলে।",
+      "section": "establishment",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "title": "RBI প্রতিষ্ঠা",
+      "when": "১ এপ্রিল ১৯৩৫",
+      "what": "কলকাতায় কেন্দ্রীয় দপ্তর নিয়ে RBI কাজ শুরু করে।",
+      "why_it_matters": "ভারতের কেন্দ্রীয় ব্যাংকিংয়ের সূচনা; WBCS-এ বারবার জিজ্ঞাসিত সাল।",
+      "section": "establishment",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "title": "কেন্দ্রীয় দপ্তর মুম্বইয়ে স্থানান্তর",
+      "when": "১৯৩৭",
+      "what": "কেন্দ্রীয় দপ্তর কলকাতা থেকে স্থায়ীভাবে মুম্বইয়ে সরে যায়।",
+      "why_it_matters": "'প্রথম কেন্দ্রীয় দপ্তর কোথায় ছিল?' — উত্তর কলকাতা; বর্তমান দপ্তর মুম্বই।",
+      "section": "establishment",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "title": "RBI জাতীয়করণ",
+      "when": "১৯৪৯",
+      "what": "বেসরকারি মালিকানাধীন RBI সম্পূর্ণভাবে ভারত সরকারের মালিকানাধীন হয়।",
+      "why_it_matters": "এর পর থেকে কেন্দ্রীয় ব্যাংক পুরোপুরি সরকারি প্রতিষ্ঠান।",
+      "section": "establishment",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "title": "ব্যাংক জাতীয়করণ — প্রথম দফা",
+      "when": "১৯৬৯",
+      "what": "১৪টি বড় বেসরকারি ব্যাংক জাতীয়করণ হয় (আইন: ১৯৭০)।",
+      "why_it_matters": "সরকারি ব্যাংকিং যুগের সূচনা; IDO ২০১৯ ও WBCS ২০১৫-তে সরাসরি প্রশ্ন এসেছে।",
+      "section": "banking_structure",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "title": "ব্যাংক জাতীয়করণ — দ্বিতীয় দফা",
+      "when": "১৯৮০",
+      "what": "আরও ৬টি ব্যাংক জাতীয়করণ হয়।",
+      "why_it_matters": "দুই দফা মিলিয়ে মোট ২০টি ব্যাংক সরকারি খাতে আসে।",
+      "section": "banking_structure",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "title": "BFS গঠন",
+      "when": "নভেম্বর ১৯৯৪",
+      "what": "কেন্দ্রীয় বোর্ডের কমিটি হিসেবে বোর্ড ফর ফিনান্সিয়াল সুপারভিশন গঠিত হয়।",
+      "why_it_matters": "ব্যাংক তত্ত্বাবধানকে আলাদা ও তীক্ষ্ণ করার প্রাতিষ্ঠানিক পদক্ষেপ।",
+      "section": "functions",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "title": "CRR হ্রাস",
+      "when": "২০২৫",
+      "what": "CRR ১০০ bps কমিয়ে NDTL-এর ৩.০% করা হয় (সেপ্টেম্বর–নভেম্বর ২০২৫)।",
+      "why_it_matters": "প্রায় ২.৫ লক্ষ কোটি টাকা তারল্য মুক্ত হয় — CRR হাতিয়ারের বাস্তব উদাহরণ।",
+      "section": "credit_control_tools",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "title": "MPC রেপো হার বৃদ্ধি",
+      "when": "অক্টোবর ২০২৬",
+      "what": "৬৩তম MPC বৈঠকে রেপো হার ২৫ bps বেড়ে ৫.৫০% হয়।",
+      "why_it_matters": "মুদ্রাস্ফীতি চাপে পড়লে MPC কীভাবে হার বাড়ায়, তার সাম্প্রতিক উদাহরণ (হার: ৭ অক্টোবর ২০২৬ পর্যন্ত)।",
+      "section": "monetary_policy",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "সঞ্জয় মলহোত্রা",
+      "when": "২০২৬",
+      "role": "RBI গভর্নর",
+      "contribution": "RBI গভর্নর হিসেবে তিনি MPC-র ৬৩তম বৈঠকে (৫–৭ অক্টোবর ২০২৬) সভাপতিত্ব করেন, যেখানে রেপো হার বেড়ে ৫.৫০% হয়। (গভর্নরের নাম সময়ের সঙ্গে বদলায় — পরীক্ষার আগে যাচাই করে নাও।)",
+      "section": "monetary_policy",
+      "claims": [
+        "c22",
+        "c24"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1934,
+      "when": "১৯৩৪",
+      "label": "RBI আইন প্রণয়ন",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1935,
+      "when": "১৯৩৫",
+      "label": "RBI প্রতিষ্ঠা; কেন্দ্রীয় দপ্তর কলকাতায়",
+      "claims": [
+        "c01",
+        "c02"
+      ]
+    },
+    {
+      "sort_year": 1937,
+      "when": "১৯৩৭",
+      "label": "কেন্দ্রীয় দপ্তর স্থায়ীভাবে মুম্বইয়ে স্থানান্তর",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "sort_year": 1949,
+      "when": "১৯৪৯",
+      "label": "RBI জাতীয়করণ; সম্পূর্ণ সরকারি মালিকানা",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 1969,
+      "when": "১৯৬৯",
+      "label": "১৪টি ব্যাংক জাতীয়করণ (আইন ১৯৭০)",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "sort_year": 1980,
+      "when": "১৯৮০",
+      "label": "আরও ৬টি ব্যাংক জাতীয়করণ",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "sort_year": 1994,
+      "when": "১৯৯৪",
+      "label": "বোর্ড ফর ফিনান্সিয়াল সুপারভিশন (BFS) গঠন",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 2025,
+      "when": "২০২৫",
+      "label": "CRR কমে NDTL-এর ৩.০%",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "sort_year": 2026,
+      "when": "২০২৬",
+      "label": "অক্টোবর: রেপো হার ৫.৫০% (৭ অক্টোবর ২০২৬ পর্যন্ত)",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "কেন্দ্রীয় ব্যাংক (Central Bank)",
+      "meaning": "দেশের মুদ্রা ও ব্যাংকিং ব্যবস্থার শীর্ষ প্রতিষ্ঠান; ভারতে RBI — নোট জারি, মুদ্রানীতি ও ব্যাংক নিয়ন্ত্রণ এর হাতে।",
+      "section": "establishment"
+    },
+    {
+      "term": "তফসিলি ব্যাংক (Scheduled Bank)",
+      "meaning": "RBI আইন, ১৯৩৪-এর দ্বিতীয় তফসিলে অন্তর্ভুক্ত ব্যাংক।",
+      "section": "banking_structure"
+    },
+    {
+      "term": "আইনগত দরপত্র (Legal Tender)",
+      "meaning": "যে নোট/কয়েন আইনত ঋণ পরিশোধে গ্রহণযোগ্য; RBI-র ব্যাংক নোট ২৬ ধারায় legal tender এবং কেন্দ্রীয় সরকারের গ্যারান্টিযুক্ত।",
+      "section": "currency_issue"
+    },
+    {
+      "term": "কারেন্সি চেস্ট (Currency Chest)",
+      "meaning": "নির্বাচিত তফসিলি ব্যাংকের মজুতঘর, যেখানে RBI-র পক্ষে নোট ও কয়েন রেখে শাখাগুলিতে বিতরণ করা হয়।",
+      "section": "currency_issue"
+    },
+    {
+      "term": "মুদ্রানীতি কমিটি (MPC)",
+      "meaning": "45ZB ধারায় গঠিত কমিটি, যা নীতি রেপো হার নির্ধারণ করে; সভাপতি গভর্নর।",
+      "section": "monetary_policy"
+    },
+    {
+      "term": "রেপো হার (Repo Rate)",
+      "meaning": "LAF-এর অধীনে যে হারে RBI ব্যাংকগুলিকে স্বল্পমেয়াদি তারল্য জোগায়; অক্টোবর ২০২৬-এ ৫.৫০%।",
+      "section": "credit_control_tools"
+    },
+    {
+      "term": "রিভার্স রেপো (Reverse Repo)",
+      "meaning": "যে অপারেশনে RBI ব্যাংকগুলির কাছ থেকে তারল্য শোষণ করে; এর স্থির হার LAF করিডোরের মেঝে।",
+      "section": "credit_control_tools"
+    },
+    {
+      "term": "CRR (Cash Reserve Ratio)",
+      "meaning": "NDTL-এর যে শতাংশ নগদে RBI-র কাছে রাখতে হয়; বর্তমানে ৩.০%, সুদ মেলে না।",
+      "section": "credit_control_tools"
+    },
+    {
+      "term": "SLR (Statutory Liquidity Ratio)",
+      "meaning": "NDTL-এর যে শতাংশ তরল সম্পদ (নগদ/সোনা/অনুমোদিত সিকিউরিটি) ব্যাংক নিজে ধরে রাখে; বর্তমানে ১৮%।",
+      "section": "credit_control_tools"
+    },
+    {
+      "term": "NDTL",
+      "meaning": "Net Demand and Time Liabilities — ব্যাংকের মোট চাহিদা ও মেয়াদি দায়; CRR ও SLR হিসাবের ভিত্তি।",
+      "section": "credit_control_tools"
+    },
+    {
+      "term": "MSF (Marginal Standing Facility)",
+      "meaning": "অতিরিক্ত SLR সম্পদের বিনিময়ে RBI থেকে রাতারাতি জরুরি ধারের জানালা; হার রেপো হারের উপরে।",
+      "section": "credit_control_tools"
+    },
+    {
+      "term": "LAF (Liquidity Adjustment Facility)",
+      "meaning": "RBI-র তারল্য ব্যবস্থাপনার কাঠামো — রেপো দিয়ে তারল্য ঢোকানো, রিভার্স রেপো দিয়ে শোষণ।",
+      "section": "credit_control_tools"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "ব্যাংক জাতীয়করণ",
+      "causes": [
+        "ব্যাংকিং সেবা সমাজের বৃহত্তর অংশে পৌঁছে দেওয়ার সরকারি নীতি"
+      ],
+      "event": "১৯৬৯ সালে ১৪টি ও ১৯৮০ সালে ৬টি ব্যাংক জাতীয়করণ",
+      "results": [
+        "ব্যাংকিং ব্যবস্থার বড় অংশ সরকারি মালিকানায় আসে",
+        "জাতীয়কৃত ব্যাংকগুলির ওপর RBI-র নিয়ন্ত্রণ আরও সরাসরি হয়"
+      ],
+      "section": "banking_structure",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "title": "CRR কমানো (২০২৫)",
+      "causes": [
+        "ব্যাংকিং ব্যবস্থায় টেকসই তারল্য বাড়ানোর সিদ্ধান্ত (জুন ২০২৫)"
+      ],
+      "event": "CRR ১০০ bps কমে NDTL-এর ৩.০%",
+      "results": [
+        "প্রায় ২.৫ লক্ষ কোটি টাকা প্রাথমিক তারল্য মুক্ত হয়",
+        "ব্যাংকগুলির ঋণ দেওয়ার ক্ষমতা বাড়ে"
+      ],
+      "section": "credit_control_tools",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "title": "রেপো হার বাড়ানো (অক্টোবর ২০২৬)",
+      "causes": [
+        "মুদ্রাস্ফীতির চাপ ও দাম বাড়ার প্রত্যাশা বৃদ্ধি"
+      ],
+      "event": "MPC রেপো হার ২৫ bps বাড়িয়ে ৫.৫০% করে",
+      "results": [
+        "ব্যাংকগুলির ধারের খরচ বাড়ে",
+        "ঋণ মহার্ঘ হয়ে মুদ্রাস্ফীতির চাপ কমানোর চেষ্টা হয়"
+      ],
+      "section": "monetary_policy",
+      "claims": [
+        "c24"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "প্রতিষ্ঠার কালক্রম: আইন ১৯৩৪ → প্রতিষ্ঠা ১৯৩৫ → মুম্বই ১৯৩৭ → জাতীয়করণ ১৯৪৯",
+      "section": "establishment"
+    },
+    {
+      "point": "নোট RBI-র (২২ ধারা), কয়েন ও ১ টাকার নোট সরকারের — এই বিভাজন",
+      "section": "currency_issue"
+    },
+    {
+      "point": "MPC ধারা 45ZB, কার্যবিবরণী 45ZL, মুদ্রাস্ফীতি লক্ষ্য ৪%",
+      "section": "monetary_policy"
+    },
+    {
+      "point": "CRR (৩%, RBI-র কাছে, সুদ নেই) বনাম SLR (১৮%, নিজের কাছে) পার্থক্য",
+      "section": "credit_control_tools"
+    },
+    {
+      "point": "জাতীয়করণ: ১৯৬৯ = ১৪টি, ১৯৮০ = ৬টি; আইনটি ১৯৭০-এর",
+      "section": "banking_structure"
+    },
+    {
+      "point": "রেপো বাড়া/কমার দিক: বাড়লে ঋণ মহার্ঘ ও মুদ্রাস্ফীতি-নিয়ন্ত্রণ, কমলে ঋণ সস্তা",
+      "section": "credit_control_tools"
+    }
+  ],
+  "bengal_connection": {
+    "body": "বাংলার সঙ্গে RBI-র যোগ সরাসরি ও ঐতিহাসিক। প্রথমত, RBI-র কেন্দ্রীয় দপ্তর প্রতিষ্ঠার সময় (১৯৩৫) ছিল **কলকাতায়** — ১৯৩৭ সালে তা মুম্বইয়ে সরে যায়। দ্বিতীয়ত, কয়েন তৈরি হয় SPMCIL-এর যে চারটি টাঁকশালে, তার একটি **কলকাতায়**। তৃতীয়ত, RBI-র সহায়ক সংস্থা BRBNMPL-এর দুটি নোট-ছাপাখানার একটি পশ্চিমবঙ্গের **শালবনিতে** (অন্যটি মহীশূরে) — অর্থাৎ তোমার হাতের নোটের একাংশ ছাপা হয় এই রাজ্যেই। এছাড়া RBI-র ১৯টি ইস্যু অফিসের একটিও কলকাতায়, যেখান থেকে পূর্ব ভারতে নোট বিতরণ হয়।",
+    "claims": [
+      "c02",
+      "c21",
+      "c20"
+    ]
+  },
+  "quick_revision": [
+    "RBI আইন ১৯৩৪; প্রতিষ্ঠা ১ এপ্রিল ১৯৩৫; প্রথম কেন্দ্রীয় দপ্তর কলকাতা।",
+    "১৯৩৭: কেন্দ্রীয় দপ্তর স্থায়ীভাবে মুম্বইয়ে; ১৯৪৯: জাতীয়করণ — সম্পূর্ণ সরকারি মালিকানা।",
+    "কেন্দ্রীয় বোর্ডে পূর্ণকালীন: গভর্নর + সর্বোচ্চ ৪ জন ডেপুটি গভর্নর।",
+    "মুদ্রানীতির উদ্দেশ্য: প্রবৃদ্ধি মনে রেখে মূল্য স্থিতিশীলতা।",
+    "নোট জারির একমাত্র অধিকার RBI-র — RBI আইনের ২২ ধারা; নোট legal tender ও সরকারি গ্যারান্টিযুক্ত — ২৬ ধারা।",
+    "কয়েন ও ১ টাকার নোট: ভারত সরকার জারি করে; RBI কয়েন শুধু বিতরণ করে।",
+    "MPC: 45ZB ধারায় গঠিত, সভাপতি গভর্নর; কার্যবিবরণী প্রকাশ 45ZL ধারায়।",
+    "মুদ্রাস্ফীতির লক্ষ্য ৪%; অক্টোবর ২০২৬-এ রেপো ৫.৫০%, SDF ৫.২৫%, MSF/ব্যাংক হার ৫.৭৫%।",
+    "CRR: NDTL-এর ৩.০%, RBI-র কাছে নগদ, সুদ নেই। SLR: NDTL-এর ১৮%, নিজের কাছে তরল সম্পদ।",
+    "জাতীয়করণ: ১৯৬৯ = ১৪টি ব্যাংক (আইন ১৯৭০), ১৯৮০ = আরও ৬টি।",
+    "BFS গঠন নভেম্বর ১৯৯৪; DICGC RBI-র সম্পূর্ণ মালিকানাধীন সহায়ক সংস্থা।",
+    "১৯৯১-পরবর্তী সংস্কার: বেসরকারি ব্যাংকের আগমন, ব্যাংকে বিদেশি বিনিয়োগের সীমা প্রায় ৭৪%।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "About Us — Reserve Bank of India",
+      "class": "RBI (official website)",
+      "url": "https://www.rbi.org.in/Scripts/AboutusDisplay.aspx",
+      "accessed_at": "2026-11-19",
+      "publisher": "RBI"
+    },
+    {
+      "id": "s2",
+      "title": "NCERT Class XI Indian Economic Development, Ch. 3: Liberalisation, Privatisation and Globalisation — An Appraisal",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+      "accessed_at": "2026-11-19",
+      "publisher": "NCERT"
+    },
+    {
+      "id": "s3",
+      "title": "Currency FAQs — Reserve Bank of India (updated April 15, 2025)",
+      "class": "RBI (official website)",
+      "url": "https://www.rbi.org.in/Scripts/BS_CurrencyFAQView.aspx?Id=136",
+      "accessed_at": "2026-11-19",
+      "publisher": "RBI"
+    },
+    {
+      "id": "s4",
+      "title": "Minutes of the Monetary Policy Committee Meeting, October 5 to 7, 2026 — Reserve Bank of India",
+      "class": "RBI (official website)",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63839",
+      "accessed_at": "2026-11-19",
+      "publisher": "RBI"
+    },
+    {
+      "id": "s5",
+      "title": "Governor's Statement, June 6, 2025 (55th MPC meeting) — Reserve Bank of India, Press Release 2025-2026/490",
+      "class": "RBI (official website)",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60605",
+      "accessed_at": "2026-11-19",
+      "publisher": "RBI"
+    },
+    {
+      "id": "s6",
+      "title": "Economic Survey 2021-22, Chapter on Fiscal Developments (Box 2: Evolution of the Disinvestment Policy)",
+      "class": "Government of India (Economic Survey)",
+      "url": "https://www.indiabudget.gov.in/budget2022-23/economicsurvey/ebook_es2022/files/basic-html/page85.html",
+      "accessed_at": "2026-11-19",
+      "publisher": "GOVT"
+    },
+    {
+      "id": "s7",
+      "title": "Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Directions, 2025 (updated October 9, 2026)",
+      "class": "RBI (official website)",
+      "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13160",
+      "accessed_at": "2026-11-19",
+      "publisher": "RBI"
+    },
+    {
+      "id": "s8",
+      "title": "Governor's Statement, March 27, 2020 — Reserve Bank of India",
+      "class": "RBI (official website)",
+      "url": "https://www.rbi.org.in/scripts/Bs_viewcontent.aspx?Id=3847",
+      "accessed_at": "2026-11-19",
+      "publisher": "RBI"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "RBI was established on April 1, 1935 in accordance with the Reserve Bank of India Act, 1934",
+      "source": "s1",
+      "page": "Establishment section",
+      "quote": "The Reserve Bank of India was established on April 1, 1935 in accordance with the provisions of the Reserve Bank of India Act, 1934."
+    },
+    {
+      "id": "c02",
+      "claim": "The RBI Central Office was initially established in Kolkata and permanently moved to Mumbai in 1937",
+      "source": "s1",
+      "page": "Establishment section",
+      "quote": "The Central Office of the Reserve Bank was initially established in Kolkata but was permanently moved to Mumbai in 1937."
+    },
+    {
+      "id": "c03",
+      "claim": "The RBI was originally privately owned; since nationalisation in 1949 it is fully owned by the Government of India",
+      "source": "s1",
+      "page": "Establishment section",
+      "quote": "Though originally privately owned, since nationalisation in 1949, the Reserve Bank is fully owned by the Government of India."
+    },
+    {
+      "id": "c04",
+      "claim": "The RBI Preamble states its basic functions: regulate the issue of bank notes and keeping of reserves to secure monetary stability, operate the currency and credit system, and maintain price stability while keeping in mind the objective of growth",
+      "source": "s1",
+      "page": "Preamble section",
+      "quote": "to regulate the issue of Bank notes and keeping of reserves with a view to securing monetary stability in India and generally to operate the currency and credit system of the country to its advantage; to have a modern monetary policy framework to meet the challenge of an increasingly complex economy, to maintain price stability while keeping in mind the objective of growth."
+    },
+    {
+      "id": "c05",
+      "claim": "The RBI Central Board's full-time official directors are the Governor and not more than four Deputy Governors",
+      "source": "s1",
+      "page": "Central Board section",
+      "quote": "Full-time : Governor and not more than four Deputy Governors"
+    },
+    {
+      "id": "c06",
+      "claim": "The Board for Financial Supervision (BFS) was constituted in November 1994 as a committee of the RBI Central Board",
+      "source": "s1",
+      "page": "Board for Financial Supervision section",
+      "quote": "The Board for Financial Supervision (BFS) was constituted in November 1994 as a committee of the Central Board of Directors of the Reserve Bank of India under the Reserve Bank of India (Board for Financial Supervision) Regulations, 1994."
+    },
+    {
+      "id": "c07",
+      "claim": "The BFS exercises integrated supervision over commercial banks, financial institutions and non-banking financial intermediaries",
+      "source": "s1",
+      "page": "Board for Financial Supervision section",
+      "quote": "The BFS exercises integrated supervision over commercial banks, financial institutions and non-banking financial intermediaries."
+    },
+    {
+      "id": "c08",
+      "claim": "As monetary authority, the RBI formulates, implements and monitors monetary policy; its objective is maintaining price stability while keeping in mind the objective of growth",
+      "source": "s1",
+      "page": "Main Functions section",
+      "quote": "Monetary Authority: Formulates, implements and monitors the monetary policy. Objective: maintaining price stability while keeping in mind the objective of growth."
+    },
+    {
+      "id": "c09",
+      "claim": "As regulator and supervisor of the financial system, the RBI prescribes broad parameters of banking operations within which the country's banking and financial system functions",
+      "source": "s1",
+      "page": "Main Functions section",
+      "quote": "Regulator and supervisor of the financial system: Prescribes broad parameters of banking operations within which the country's banking and financial system functions."
+    },
+    {
+      "id": "c10",
+      "claim": "As issuer of currency, the RBI issues, exchanges and destroys currency notes and puts into circulation coins minted by the Government of India",
+      "source": "s1",
+      "page": "Main Functions section",
+      "quote": "Issuer of currency: Issues, exchanges and destroys currency notes as well as puts into circulation coins minted by Government of India."
+    },
+    {
+      "id": "c11",
+      "claim": "The RBI performs merchant banking for the central and state governments and acts as their banker; as banker to banks it maintains banking accounts of all scheduled banks",
+      "source": "s1",
+      "page": "Related Functions section",
+      "quote": "Banker to the Government: performs merchant banking function for the central and the state governments; also acts as their banker. Banker to banks: maintains banking accounts of all scheduled banks."
+    },
+    {
+      "id": "c12",
+      "claim": "The RBI manages the Foreign Exchange Management Act, 1999 (FEMA)",
+      "source": "s1",
+      "page": "Main Functions section",
+      "quote": "Manager of Foreign Exchange Manages the Foreign Exchange Management Act, 1999."
+    },
+    {
+      "id": "c13",
+      "claim": "The RBI performs a wide range of promotional (developmental) functions to support national objectives",
+      "source": "s1",
+      "page": "Main Functions section",
+      "quote": "Developmental role Performs a wide range of promotional functions to support national objectives."
+    },
+    {
+      "id": "c14",
+      "claim": "The RBI introduces and upgrades safe and efficient payment systems in the country as regulator and supervisor of payment and settlement systems",
+      "source": "s1",
+      "page": "Main Functions section",
+      "quote": "Regulator and Supervisor of Payment and Settlement Systems: Introduces and upgrades safe and efficient modes of payment systems in the country to meet the requirements of the public at large."
+    },
+    {
+      "id": "c15",
+      "claim": "Under Section 22 of the RBI Act, the Reserve Bank has the sole right to issue banknotes in India; under Section 25 the design, form and material of bank notes are approved by the Central Government after considering the Central Board's recommendations",
+      "source": "s3",
+      "page": "FAQ A.6",
+      "quote": "In terms of Section 22 of the Act, Reserve Bank has the sole right to issue banknotes in India. Section 25 states that the design, form and material of bank notes shall be such as may be approved by the Central Government after consideration of the recommendations made by the Central Board of RBI."
+    },
+    {
+      "id": "c16",
+      "claim": "For coins, the RBI's role is limited to distribution of coins supplied by the Government of India; the GoI is responsible for designing and minting coins under the Coinage Act, 2011",
+      "source": "s3",
+      "page": "FAQ A.6",
+      "quote": "In respect of coins, the role of RBI is limited to distribution of coins that are supplied by Government of India (GoI). The GoI is responsible for designing and minting of coins in various denominations as per the Coinage Act, 2011."
+    },
+    {
+      "id": "c17",
+      "claim": "One-rupee notes are issued by the Government of India",
+      "source": "s3",
+      "page": "FAQ B.3",
+      "quote": "₹1 notes are issued by the Government of India from time to time and such notes including those issued in the past also continue to be legal tender for transactions."
+    },
+    {
+      "id": "c18",
+      "claim": "Every RBI banknote is legal tender in India and is guaranteed by the Central Government under Section 26 of the RBI Act, 1934",
+      "source": "s3",
+      "page": "FAQ B.2",
+      "quote": "in terms of section 26 of the Reserve Bank of India Act, 1934, every bank note shall be legal tender at any place in India in payment or on account for the amount expressed therein and shall be guaranteed by the Central Government."
+    },
+    {
+      "id": "c19",
+      "claim": "The RBI has authorised select scheduled banks to establish currency chests — storehouses where banknotes and rupee coins are stocked on behalf of the Reserve Bank for distribution to bank branches",
+      "source": "s3",
+      "page": "FAQ A.4",
+      "quote": "To facilitate the distribution of banknotes and rupee coins, the Reserve Bank has authorised select scheduled banks to establish currency chests. These are storehouses where banknotes and rupee coins are stocked on behalf of the Reserve Bank for distribution to bank branches in their area of operation."
+    },
+    {
+      "id": "c20",
+      "claim": "Two of the four currency presses are owned by the RBI through its wholly owned subsidiary BRBNMPL and are located at Mysuru and Salboni",
+      "source": "s3",
+      "page": "FAQ A.3",
+      "quote": "Bank notes are printed at four currency presses, two of which are owned by the Government of India through its Corporation, Security Printing and Minting Corporation of India Ltd. (SPMCIL) and two are owned by the Reserve Bank, through its wholly owned subsidiary, Bharatiya Reserve Bank Note Mudran Private Ltd. (BRBNMPL). The currency presses of SPMCIL are at Nasik (Western India) and Dewas (Central India). The two presses of BRBNMPL are at Mysuru (Southern India) and Salboni (Eastern India)."
+    },
+    {
+      "id": "c21",
+      "claim": "Coins are minted in four SPMCIL mints located at Mumbai, Hyderabad, Kolkata and NOIDA",
+      "source": "s3",
+      "page": "FAQ A.3",
+      "quote": "Coins are minted in four mints owned by SPMCIL. The mints are located at Mumbai, Hyderabad, Kolkata and NOIDA."
+    },
+    {
+      "id": "c22",
+      "claim": "The Monetary Policy Committee (MPC) is constituted under Section 45ZB of the RBI Act, 1934, and its meetings are chaired by the RBI Governor (the 63rd meeting, October 5-7, 2026, was chaired by Governor Sanjay Malhotra)",
+      "source": "s4",
+      "page": "paras 1-2",
+      "quote": "The sixty third meeting of the Monetary Policy Committee (MPC), constituted under Section 45ZB of the Reserve Bank of India Act, 1934, was held during October 5 to 7, 2026. 2. The meeting was chaired by Shri Sanjay Malhotra, Governor"
+    },
+    {
+      "id": "c23",
+      "claim": "Under Section 45ZL of the RBI Act, the RBI publishes the minutes of every MPC meeting on the fourteenth day after the meeting",
+      "source": "s4",
+      "page": "para 3",
+      "quote": "According to Section 45ZL of the Reserve Bank of India Act, 1934, the Reserve Bank shall publish, on the fourteenth day after every meeting of the Monetary Policy Committee, the minutes of the proceedings of the meeting"
+    },
+    {
+      "id": "c24",
+      "claim": "As of the MPC resolution of October 7, 2026: the policy repo rate was increased by 25 bps to 5.50 per cent; the SDF rate stands at 5.25 per cent and the MSF rate and Bank Rate at 5.75 per cent",
+      "source": "s4",
+      "page": "Resolution, para 6",
+      "quote": "the MPC voted unanimously to increase the policy repo rate under the liquidity adjustment facility (LAF) by 25 bps to 5.50 per cent. Consequently, the standing deposit facility (SDF) rate stands adjusted at 5.25 per cent and the marginal standing facility (MSF) rate and the Bank Rate at 5.75 per cent."
+    },
+    {
+      "id": "c25",
+      "claim": "India's headline inflation target is 4 per cent (RBI Governor's statement, June 2025)",
+      "source": "s5",
+      "page": "para 5",
+      "quote": "durable alignment of headline inflation with the target of 4 per cent"
+    },
+    {
+      "id": "c26",
+      "claim": "In June 2025 the RBI decided to reduce the CRR by 100 bps to 3.0 per cent of NDTL, in four tranches during September-November 2025, releasing primary liquidity of about Rs 2.5 lakh crore into the banking system",
+      "source": "s5",
+      "page": "para 17",
+      "quote": "it has been decided to reduce the cash reserve ratio (CRR) by 100 basis points (bps) to 3.0 per cent of net demand and time liabilities (NDTL) in a staggered manner during the course of the year. This reduction will be carried out in four equal tranches of 25 bps each with effect from the fortnights beginning September 6, October 4, November 1 and November 29, 2025. The cut in CRR would release primary liquidity of about ₹2.5 lakh crore to the banking system by December 2025."
+    },
+    {
+      "id": "c27",
+      "claim": "The RBI does not pay any interest on the CRR balances maintained by scheduled commercial banks",
+      "source": "s7",
+      "page": "Chapter II, para 22",
+      "quote": "Reserve Bank of India does not pay any interest on the CRR balances maintained by SCBs."
+    },
+    {
+      "id": "c28",
+      "claim": "Every bank must maintain SLR assets of not less than 18 per cent of its total net demand and time liabilities in India (Directions updated October 9, 2026)",
+      "source": "s7",
+      "page": "Chapter III, para 25",
+      "quote": "Every bank shall maintain in India assets (hereinafter referred to as 'SLR assets') the value of which shall not, at the close of business on any day, be less than 18 per cent of its total net demand and time liabilities in India"
+    },
+    {
+      "id": "c29",
+      "claim": "SLR assets are maintained as cash, gold, or unencumbered investment in approved securities such as Government of India dated securities, Treasury Bills and State Government securities",
+      "source": "s7",
+      "page": "Chapter III, para 28",
+      "quote": "SLR assets shall be maintained by banks as under: (1) Cash, or; (2) Gold, as defined in Section 5(g) of the Banking Regulation Act, 1949 (10 of 1949), valued at a price not exceeding the current market price, or; (3) Unencumbered investment in any of the following instruments [hereinafter referred to as Statutory Liquidity Ratio securities (\"SLR securities\")]"
+    },
+    {
+      "id": "c30",
+      "claim": "The Liquidity Adjustment Facility (LAF) means repo operations (for injection of liquidity) and reverse repo operations (for absorption of liquidity) conducted by the RBI",
+      "source": "s7",
+      "page": "Chapter I, definition (17)",
+      "quote": "'Liquidity Adjustment Facility (LAF)' shall mean fixed and variable rate Repo operations (for injection of liquidity) and reverse repo operations (for absorption of liquidity) conducted by the Reserve Bank of India from time to time."
+    },
+    {
+      "id": "c31",
+      "claim": "Under the MSF, eligible banks can borrow overnight against excess SLR holdings, and the MSF interest rate is above the LAF repo rate",
+      "source": "s7",
+      "page": "Chapter I, definition (18)",
+      "quote": "'Marginal standing facility' shall mean the facility under which the eligible banks can avail liquidity support from the Reserve Bank against excess SLR holdings. Additionally, they can also avail overnight liquidity by dipping into their stipulated SLR, up to a certain percent of their respective NDTL outstanding at the last day of the second preceding fortnight. The rate of interest under MSF will be above the LAF repo rate, as decided by the RBI from time to time."
+    },
+    {
+      "id": "c32",
+      "claim": "The fixed rate reverse repo rate sets the floor of the LAF corridor (RBI Governor's statement, March 2020)",
+      "source": "s8",
+      "page": "para 3",
+      "quote": "the fixed rate reverse repo rate, which sets the floor of the liquidity adjustment facility (LAF) corridor"
+    },
+    {
+      "id": "c33",
+      "claim": "The government nationalised 14 banks in 1969 through the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970, followed by a second round in 1980 through which another six banks were nationalised",
+      "source": "s6",
+      "page": "p. 85, Box 2",
+      "quote": "the government nationalised 14 banks in 1969 through the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970, followed up by a second round of bank nationalisation in 1980, through which another six banks were nationalised."
+    },
+    {
+      "id": "c34",
+      "claim": "The financial sector in India is regulated by the Reserve Bank of India; all banks and other financial institutions in India are regulated through various norms and regulations of the RBI (NCERT Class XI)",
+      "source": "s2",
+      "page": "Ch. 3, Financial Sector Reforms",
+      "quote": "The financial sector in India is regulated by the Reserve Bank of India (RBI). You may be aware that all banks and other financial institutions in India are regulated through various norms and regulations of the RBI."
+    },
+    {
+      "id": "c35",
+      "claim": "The RBI decides the amount of money that banks can keep with themselves, fixes interest rates and the nature of lending to various sectors (NCERT Class XI)",
+      "source": "s2",
+      "page": "Ch. 3, Financial Sector Reforms",
+      "quote": "The RBI decides the amount of money that the banks can keep with themselves, fixes interest rates, nature of lending to various sectors, etc."
+    },
+    {
+      "id": "c36",
+      "claim": "The 1991 reform policies led to the establishment of private sector banks, Indian as well as foreign, and the foreign investment limit in banks was raised to around 74 per cent (NCERT Class XI)",
+      "source": "s2",
+      "page": "Ch. 3, Financial Sector Reforms",
+      "quote": "The reform policies led to the establishment of private sector banks, Indian as well as foreign. Foreign investment limit in banks was raised to around 74 per cent."
+    },
+    {
+      "id": "c37",
+      "claim": "The Deposit Insurance and Credit Guarantee Corporation of India (DICGC) is a fully owned subsidiary of the RBI",
+      "source": "s1",
+      "page": "Subsidiaries section",
+      "quote": "Fully owned: Deposit Insurance and Credit Guarantee Corporation of India (DICGC)"
+    },
+    {
+      "id": "c38",
+      "claim": "A 'Scheduled Bank' means a bank included in the Second Schedule to the Reserve Bank of India Act, 1934",
+      "source": "s7",
+      "page": "Chapter I, definition (23)",
+      "quote": "'Scheduled Bank' means a bank included in the Second Schedule to the Reserve Bank of India Act, 1934."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "establishment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া (RBI) কবে প্রতিষ্ঠিত হয়?",
+      "a": "১ এপ্রিল ১৯৩৫",
+      "w": [
+        "১ এপ্রিল ১৯৩৪",
+        "১ জানুয়ারি ১৯৪৯",
+        "১৫ আগস্ট ১৯৪৭"
+      ],
+      "e": "RBI প্রতিষ্ঠিত হয় ১ এপ্রিল ১৯৩৫ — আইনটি ১৯৩৪ সালের হলেও ব্যাংকের প্রতিষ্ঠা ১৯৩৫ সালে। এই দুটি সাল গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "establishment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন আইনের বিধান অনুযায়ী RBI প্রতিষ্ঠিত হয়?",
+      "a": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া আইন, ১৯৩৪",
+      "w": [
+        "ব্যাংকিং রেগুলেশন আইন, ১৯৪৯",
+        "কয়েনেজ আইন, ২০১১",
+        "কোম্পানি আইন, ২০১৩"
+      ],
+      "e": "প্রতিষ্ঠার আইনি ভিত্তি হল RBI আইন, ১৯৩৪। ব্যাংকিং রেগুলেশন আইন, ১৯৪৯ ব্যাংকগুলির নিয়ন্ত্রণের আইন, প্রতিষ্ঠার নয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "establishment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "RBI-র কেন্দ্রীয় দপ্তর প্রথমে কোথায় ছিল?",
+      "a": "কলকাতা",
+      "w": [
+        "মুম্বই",
+        "দিল্লি",
+        "চেন্নাই"
+      ],
+      "e": "কেন্দ্রীয় দপ্তর প্রথমে কলকাতায় ছিল; ১৯৩৭ সালে তা স্থায়ীভাবে মুম্বইয়ে সরে যায়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "establishment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোন সালে জাতীয়করণের পর RBI সম্পূর্ণভাবে ভারত সরকারের মালিকানাধীন হয়?",
+      "a": "১৯৪৯",
+      "w": [
+        "১৯৩৫",
+        "১৯৬৯",
+        "১৯৮০"
+      ],
+      "e": "শুরুতে RBI ছিল বেসরকারি মালিকানাধীন; ১৯৪৯ সালে জাতীয়করণের পর থেকে এটি সম্পূর্ণ সরকারি মালিকানাধীন। ১৯৬৯ ও ১৯৮০ হল বাণিজ্যিক ব্যাংক জাতীয়করণের সাল।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "functions",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে ব্যাংক নোট জারি করার একমাত্র অধিকার কার?",
+      "a": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া",
+      "w": [
+        "ভারত সরকার",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "অর্থ মন্ত্রক"
+      ],
+      "e": "RBI আইনের ২২ ধারা অনুযায়ী নোট জারির একমাত্র অধিকার RBI-র। সরকার কয়েন ও ১ টাকার নোট জারি করে, ব্যাংক নোট নয়।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "functions",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কেন্দ্র ও রাজ্য সরকারের ব্যাংকার হিসেবে কাজ করে কে?",
+      "a": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া",
+      "w": [
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "নাবার্ড",
+        "অর্থ কমিশন"
+      ],
+      "e": "RBI কেন্দ্র ও রাজ্য সরকারের জন্য মার্চেন্ট ব্যাংকিংয়ের কাজ করে এবং তাদের ব্যাংকার হিসেবে কাজ করে।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "currency_issue",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে কয়েনের নকশা তৈরি ও টাঁকশালে মুদ্রণ (minting) করে কে?",
+      "a": "ভারত সরকার",
+      "w": [
+        "রিজার্ভ ব্যাংক অফ ইন্ডিয়া",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "SPMCIL-এর বেসরকারি ঠিকাদার"
+      ],
+      "e": "কয়েনেজ আইন, ২০১১ অনুযায়ী কয়েনের নকশা ও মুদ্রণের দায়িত্ব ভারত সরকারের; RBI শুধু সরকারের সরবরাহ করা কয়েন বিতরণ করে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "currency_issue",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "১ টাকার নোট কে জারি করে?",
+      "a": "ভারত সরকার",
+      "w": [
+        "রিজার্ভ ব্যাংক অফ ইন্ডিয়া",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "কারেন্সি চেস্ট"
+      ],
+      "e": "ব্যতিক্রমটি মনে রাখো: ১ টাকার নোট জারি করে ভারত সরকার; বাকি ব্যাংক নোট জারি করে RBI।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "monetary_policy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মুদ্রানীতি কমিটি (MPC) RBI আইনের কোন ধারায় গঠিত?",
+      "a": "ধারা 45ZB",
+      "w": [
+        "ধারা 45ZL",
+        "ধারা ২২",
+        "ধারা ২৬"
+      ],
+      "e": "MPC গঠিত হয় 45ZB ধারায়; 45ZL ধারা হল বৈঠকের কার্যবিবরণী প্রকাশ সংক্রান্ত।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "credit_control_tools",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "CRR-এর পূর্ণরূপ কী?",
+      "a": "ক্যাশ রিজার্ভ রেশিও (Cash Reserve Ratio)",
+      "w": [
+        "ক্রেডিট রিজার্ভ রেশিও",
+        "ক্যাপিটাল রিজার্ভ রেশিও",
+        "কারেন্সি রিজার্ভ রেশিও"
+      ],
+      "e": "CRR = Cash Reserve Ratio — ব্যাংকগুলিকে তাদের NDTL-এর নির্দিষ্ট শতাংশ নগদে RBI-র কাছে রাখতে হয়।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "banking_structure",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "১৯৬৯ সালে ভারতে কতগুলি ব্যাংক জাতীয়করণ করা হয়েছিল?",
+      "a": "১৪টি",
+      "w": [
+        "৬টি",
+        "২০টি",
+        "১২টি"
+      ],
+      "e": "১৯৬৯ সালে ১৪টি ব্যাংক জাতীয়করণ হয়; ১৯৮০ সালে দ্বিতীয় দফায় আরও ৬টি।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "banking_structure",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "'তফসিলি ব্যাংক' (Scheduled Bank) বলতে কী বোঝায়?",
+      "a": "RBI আইন, ১৯৩৪-এর দ্বিতীয় তফসিলে অন্তর্ভুক্ত ব্যাংক",
+      "w": [
+        "সরকারি মালিকানাধীন ব্যাংক",
+        "গ্রামীণ এলাকায় কাজ করা ব্যাংক",
+        "বিদেশি মালিকানাধীন ব্যাংক"
+      ],
+      "e": "তফসিলি ব্যাংকের সংজ্ঞা মালিকানা দিয়ে নয় — RBI আইনের দ্বিতীয় তফসিলে নাম থাকলেই ব্যাংকটি তফসিলি।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "establishment",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "RBI-র কেন্দ্রীয় দপ্তর স্থায়ীভাবে মুম্বইয়ে স্থানান্তরিত হয় কোন সালে?",
+      "a": "১৯৩৭",
+      "w": [
+        "১৯৩৫",
+        "১৯৪৯",
+        "১৯৫০"
+      ],
+      "e": "প্রতিষ্ঠা ১৯৩৫ (কলকাতা) → মুম্বইয়ে স্থানান্তর ১৯৩৭ → জাতীয়করণ ১৯৪৯ — এই ক্রমটি মনে রাখো।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "establishment",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "RBI-র কেন্দ্রীয় বোর্ডে পূর্ণকালীন সরকারি পরিচালক কারা?",
+      "a": "গভর্নর এবং সর্বোচ্চ চারজন ডেপুটি গভর্নর",
+      "w": [
+        "গভর্নর এবং দশজন ডেপুটি গভর্নর",
+        "শুধুমাত্র গভর্নর",
+        "গভর্নর এবং অর্থমন্ত্রী"
+      ],
+      "e": "কেন্দ্রীয় বোর্ডে পূর্ণকালীন অংশ: গভর্নর + অনধিক চারজন ডেপুটি গভর্নর। দশজন মনোনীত পরিচালক হলেন অপূর্ণকালীন (non-official)।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "functions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মুদ্রা কর্তৃপক্ষ (Monetary Authority) হিসেবে RBI-র মুদ্রানীতির উদ্দেশ্য কী?",
+      "a": "প্রবৃদ্ধির লক্ষ্য মনে রেখে মূল্য স্থিতিশীলতা বজায় রাখা",
+      "w": [
+        "শুধুমাত্র রপ্তানি বাড়ানো",
+        "সরকারের ঋণের সুদ কমানো",
+        "শেয়ার বাজারের মূল্য স্থির রাখা"
+      ],
+      "e": "RBI মুদ্রানীতি প্রণয়ন, বাস্তবায়ন ও পর্যবেক্ষণ করে; উদ্দেশ্য — প্রবৃদ্ধি মনে রেখে মূল্য স্থিতিশীলতা।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "functions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বোর্ড ফর ফিনান্সিয়াল সুপারভিশন (BFS) কবে গঠিত হয়?",
+      "a": "নভেম্বর ১৯৯৪",
+      "w": [
+        "জানুয়ারি ১৯৪৯",
+        "এপ্রিল ১৯৩৫",
+        "মার্চ ২০১৬"
+      ],
+      "e": "BFS গঠিত হয় নভেম্বর ১৯৯৪-এ, RBI কেন্দ্রীয় বোর্ডের একটি কমিটি হিসেবে।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "functions",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বৈদেশিক মুদ্রা ব্যবস্থাপনা আইন, ১৯৯৯ (FEMA) পরিচালনা করে কে?",
+      "a": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া",
+      "w": [
+        "বাণিজ্য মন্ত্রক",
+        "সেবি (SEBI)",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া"
+      ],
+      "e": "বৈদেশিক মুদ্রার ব্যবস্থাপক হিসেবে RBI FEMA, ১৯৯৯ পরিচালনা করে — উদ্দেশ্য বৈদেশিক বাণিজ্য ও লেনদেন সহজ করা।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "currency_issue",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ব্যাংক নোটের নকশা, আকার ও উপাদান চূড়ান্তভাবে অনুমোদন করে কে?",
+      "a": "কেন্দ্রীয় সরকার",
+      "w": [
+        "RBI গভর্নর এককভাবে",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "সংসদের অর্থ কমিটি"
+      ],
+      "e": "২৫ ধারা অনুযায়ী নোটের নকশা কেন্দ্রীয় বোর্ডের সুপারিশ বিবেচনা করে কেন্দ্রীয় সরকার অনুমোদন করে।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "currency_issue",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'কারেন্সি চেস্ট' (Currency Chest) কী?",
+      "a": "নির্বাচিত তফসিলি ব্যাংকের গুদামঘর, যেখানে RBI-র পক্ষে নোট ও কয়েন মজুত রেখে শাখাগুলিতে বিতরণ করা হয়",
+      "w": [
+        "RBI গভর্নরের ব্যক্তিগত সিন্দুক",
+        "সোনা মজুত রাখার কেন্দ্রীয় ভাণ্ডার",
+        "বিদেশি মুদ্রা রাখার বিশেষ অ্যাকাউন্ট"
+      ],
+      "e": "কারেন্সি চেস্ট হল RBI-র অনুমোদিত তফসিলি ব্যাংকগুলির মজুতঘর — সেখান থেকে এলাকার ব্যাংক শাখাগুলিতে নোট-কয়েন পৌঁছায়।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "monetary_policy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতের মুদ্রাস্ফীতির লক্ষ্যমাত্রা (headline inflation target) কত?",
+      "a": "৪ শতাংশ",
+      "w": [
+        "২ শতাংশ",
+        "৬ শতাংশ",
+        "৫ শতাংশ"
+      ],
+      "e": "লক্ষ্য ৪% CPI মুদ্রাস্ফীতি — RBI-র জুন ২০২৫-এর বিবৃতিতেও লক্ষ্যের সঙ্গে মুদ্রাস্ফীতির 'durable alignment'-এর কথা ৪ শতাংশ ধরে বলা হয়েছে।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "monetary_policy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২০২৬ সালের অক্টোবরের MPC সিদ্ধান্তের পর নীতি রেপো হার কত দাঁড়ায়?",
+      "a": "৫.৫০ শতাংশ",
+      "w": [
+        "৫.২৫ শতাংশ",
+        "৫.৭৫ শতাংশ",
+        "৬.০০ শতাংশ"
+      ],
+      "e": "৫–৭ অক্টোবর ২০২৬-এর বৈঠকে MPC সর্বসম্মতিতে রেপো হার ২৫ bps বাড়িয়ে ৫.৫০% করে। ৫.২৫% হল SDF হার, ৫.৭৫% হল MSF/ব্যাংক হার — গুলিয়ো না।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "monetary_policy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MPC বৈঠকের কার্যবিবরণী প্রকাশের বিধান কোন ধারায়?",
+      "a": "ধারা 45ZL",
+      "w": [
+        "ধারা 45ZB",
+        "ধারা ৪২",
+        "ধারা ২৪"
+      ],
+      "e": "45ZB = কমিটি গঠন; 45ZL = বৈঠকের চতুর্দশ দিনে কার্যবিবরণী প্রকাশ।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "credit_control_tools",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২০২৫ সালের সিদ্ধান্ত অনুযায়ী CRR কত করা হয়?",
+      "a": "NDTL-এর ৩.০ শতাংশ",
+      "w": [
+        "NDTL-এর ৪.০ শতাংশ",
+        "NDTL-এর ৪.৫ শতাংশ",
+        "NDTL-এর ১৮ শতাংশ"
+      ],
+      "e": "জুন ২০২৫-এ RBI CRR ১০০ bps কমিয়ে NDTL-এর ৩.০% করে, চার কিস্তিতে (সেপ্টেম্বর–নভেম্বর ২০২৫)। ১৮% হল SLR।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "credit_control_tools",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ব্যাংকগুলির RBI-তে রাখা CRR জমার ওপর RBI কী করে?",
+      "a": "কোনো সুদ দেয় না",
+      "w": [
+        "বাজার হারে সুদ দেয়",
+        "রেপো হারে সুদ দেয়",
+        "শুধু সরকারি ব্যাংককে সুদ দেয়"
+      ],
+      "e": "RBI-র নির্দেশিকা স্পষ্ট: SCB-দের CRR জমার ওপর RBI কোনো সুদ দেয় না। এটাই CRR-কে SLR থেকে আলাদা করে — SLR সম্পদে ব্যাংক আয় করতে পারে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "credit_control_tools",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বর্তমানে (২০২৬) প্রতিটি ব্যাংককে SLR হিসেবে কমপক্ষে কত শতাংশ সম্পদ রাখতে হয়?",
+      "a": "NDTL-এর ১৮ শতাংশ",
+      "w": [
+        "NDTL-এর ৩ শতাংশ",
+        "NDTL-এর ২৫ শতাংশ",
+        "NDTL-এর ৪০ শতাংশ"
+      ],
+      "e": "RBI-র ২০২৫-এর নির্দেশিকা (৯ অক্টোবর ২০২৬ হালনাগাদ) অনুযায়ী SLR ন্যূনতম ১৮% NDTL। ৪০% হল আইনি সর্বোচ্চ সীমা, বর্তমান হার নয়।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "credit_control_tools",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MSF (Marginal Standing Facility) হার রেপো হারের তুলনায় কেমন হয়?",
+      "a": "রেপো হারের উপরে থাকে",
+      "w": [
+        "রেপো হারের নিচে থাকে",
+        "রেপো হারের সমান থাকে",
+        "CRR-এর সমান থাকে"
+      ],
+      "e": "MSF হল জরুরি রাতারাতি ধারের জানালা — তাই এর হার LAF রেপো হারের উপরে থাকে; অক্টোবর ২০২৬-এ MSF ৫.৭৫%, রেপো ৫.৫০%।",
+      "claims": [
+        "c31",
+        "c24"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "banking_structure",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১৯৮০ সালের দ্বিতীয় দফা জাতীয়করণে কতগুলি ব্যাংক জাতীয়করণ হয়?",
+      "a": "৬টি",
+      "w": [
+        "১৪টি",
+        "৮টি",
+        "১০টি"
+      ],
+      "e": "প্রথম দফা ১৯৬৯ = ১৪টি; দ্বিতীয় দফা ১৯৮০ = আরও ৬টি।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "establishment",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. প্রতিষ্ঠার সময় RBI বেসরকারি মালিকানাধীন ছিল।\n২. প্রতিষ্ঠার সময় থেকেই RBI-র কেন্দ্রীয় দপ্তর মুম্বইয়ে ছিল।\n\nউপরের কোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — জাতীয়করণ (১৯৪৯) পর্যন্ত RBI বেসরকারি মালিকানাধীন ছিল। বিবৃতি ২ ভুল — কেন্দ্রীয় দপ্তর প্রথমে কলকাতায় ছিল, ১৯৩৭ সালে মুম্বইয়ে যায়।",
+      "claims": [
+        "c03",
+        "c02"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "functions",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "DICGC (আমানত বিমা ও ঋণ গ্যারান্টি নিগম) কার সম্পূর্ণ মালিকানাধীন সহায়ক সংস্থা?",
+      "a": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া",
+      "w": [
+        "ভারত সরকারের অর্থ মন্ত্রক",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "LIC"
+      ],
+      "e": "DICGC RBI-র সম্পূর্ণ মালিকানাধীন (fully owned) সহায়ক সংস্থাগুলির একটি — BRBNMPL, ReBIT, IFTAS ও RBIH-এর সঙ্গে।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "currency_issue",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "RBI-র জারি করা প্রতিটি ব্যাংক নোটের মূল্যের গ্যারান্টি দেয় কে?",
+      "a": "কেন্দ্রীয় সরকার",
+      "w": [
+        "RBI গভর্নর",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "অর্থ কমিশন"
+      ],
+      "e": "২৬ ধারা অনুযায়ী প্রতিটি ব্যাংক নোট আইনগত দরপত্র (legal tender) এবং কেন্দ্রীয় সরকার তার গ্যারান্টি দেয়। নোটের ওপরের 'I promise to pay' প্রতিশ্রুতিটি RBI-র, কিন্তু গ্যারান্টি কেন্দ্রীয় সরকারের।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "monetary_policy",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. MPC বৈঠকে সভাপতিত্ব করেন RBI গভর্নর।\n২. অক্টোবর ২০২৬-এর বৈঠকে MPC রেপো হার কমিয়েছিল।\n\nউপরের কোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — ৬৩তম বৈঠকে (৫–৭ অক্টোবর ২০২৬) সভাপতিত্ব করেন গভর্নর সঞ্জয় মলহোত্রা। বিবৃতি ২ ভুল — রেপো হার কমানো নয়, ২৫ bps বাড়িয়ে ৫.৫০% করা হয়েছিল।",
+      "claims": [
+        "c22",
+        "c24"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "credit_control_tools",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২৫ সালে CRR ১০০ bps কমানোর ফলে ব্যাংকিং ব্যবস্থায় আনুমানিক কত প্রাথমিক তারল্য মুক্ত হওয়ার কথা ছিল?",
+      "a": "প্রায় ২.৫ লক্ষ কোটি টাকা",
+      "w": [
+        "প্রায় ২৫ হাজার কোটি টাকা",
+        "প্রায় ২৫ লক্ষ কোটি টাকা",
+        "প্রায় ১ লক্ষ কোটি টাকা"
+      ],
+      "e": "RBI-র জুন ২০২৫ বিবৃতি অনুযায়ী CRR কাট ডিসেম্বর ২০২৫-এর মধ্যে প্রায় ২.৫ লক্ষ কোটি টাকা প্রাথমিক তারল্য মুক্ত করে। CRR কমালে ব্যাংকের ঋণযোগ্য অর্থ বাড়ে — এটাই যুক্তি।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "credit_control_tools",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি SLR সম্পদ হিসেবে গণ্য হয় না?",
+      "a": "বেসরকারি কোম্পানির সাধারণ শেয়ার",
+      "w": [
+        "নগদ অর্থ",
+        "সোনা",
+        "ভারত সরকারের ট্রেজারি বিল"
+      ],
+      "e": "SLR সম্পদ = নগদ, সোনা, অথবা অনাবদ্ধ (unencumbered) অনুমোদিত সিকিউরিটি — সরকারি ডেটেড সিকিউরিটি, ট্রেজারি বিল, রাজ্য সরকারের সিকিউরিটি। বেসরকারি শেয়ার এর মধ্যে পড়ে না।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "credit_control_tools",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "LAF (Liquidity Adjustment Facility)-এ রিভার্স রেপো অপারেশনের কাজ কী?",
+      "a": "ব্যবস্থা থেকে তারল্য শোষণ করা",
+      "w": [
+        "ব্যবস্থায় তারল্য ঢোকানো",
+        "সরকারি ঋণ বিক্রি করা",
+        "ব্যাংকগুলিকে দীর্ঘমেয়াদি ঋণ দেওয়া"
+      ],
+      "e": "LAF-এর সংজ্ঞাতেই আছে: রেপো অপারেশন = তারল্য ঢোকানো (injection), রিভার্স রেপো = তারল্য শোষণ (absorption)।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "banking_structure",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "১৯৯১-পরবর্তী সংস্কারে ব্যাংকগুলিতে বিদেশি বিনিয়োগের সীমা প্রায় কত করা হয়?",
+      "a": "প্রায় ৭৪ শতাংশ",
+      "w": [
+        "প্রায় ২৬ শতাংশ",
+        "প্রায় ৪৯ শতাংশ",
+        "প্রায় ১০০ শতাংশ"
+      ],
+      "e": "NCERT একাদশ শ্রেণি অনুযায়ী সংস্কারের পর ব্যাংকে বিদেশি বিনিয়োগের সীমা বাড়িয়ে প্রায় ৭৪% করা হয় এবং বেসরকারি ব্যাংক (ভারতীয় ও বিদেশি) প্রতিষ্ঠার পথ খোলে।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "banking_structure",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "BFS (বোর্ড ফর ফিনান্সিয়াল সুপারভিশন) সমন্বিত তত্ত্বাবধান চালায় কাদের ওপর?",
+      "a": "বাণিজ্যিক ব্যাংক, আর্থিক প্রতিষ্ঠান ও অ-ব্যাংকিং আর্থিক মধ্যস্থতাকারীদের ওপর",
+      "w": [
+        "শুধুমাত্র সমবায় ব্যাংকগুলির ওপর",
+        "শুধুমাত্র স্টক এক্সচেঞ্জগুলির ওপর",
+        "শুধুমাত্র বিমা কোম্পানিগুলির ওপর"
+      ],
+      "e": "BFS-এর তত্ত্বাবধানের আওতা: বাণিজ্যিক ব্যাংক + আর্থিক প্রতিষ্ঠান + NBFC-জাতীয় মধ্যস্থতাকারী।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "establishment",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "নিম্নলিখিত ঘটনাগুলিকে কালানুক্রমে সাজান (সবচেয়ে আগেরটি প্রথমে):\n\n১. RBI-র জাতীয়করণ\n২. RBI-র প্রতিষ্ঠা\n৩. কেন্দ্রীয় দপ্তরের মুম্বইয়ে স্থানান্তর\n৪. RBI আইন প্রণয়ন",
+      "a": "৪, ২, ৩, ১",
+      "w": [
+        "২, ৪, ৩, ১",
+        "৪, ৩, ২, ১",
+        "২, ৩, ১, ৪"
+      ],
+      "e": "ক্রম: RBI আইন ১৯৩৪ → প্রতিষ্ঠা ১৯৩৫ → মুম্বই স্থানান্তর ১৯৩৭ → জাতীয়করণ ১৯৪৯।",
+      "claims": [
+        "c01",
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "credit_control_tools",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I-এর সঙ্গে তালিকা II মেলান:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| A. CRR | ১. NDTL-এর ১৮% তরল সম্পদ নিজের কাছে |\n| B. SLR | ২. NDTL-এর ৩% নগদ RBI-র কাছে |\n| C. রেপো | ৩. RBI ব্যাংকগুলিকে তারল্য জোগায় |\n| D. রিভার্স রেপো | ৪. RBI ব্যাংকগুলি থেকে তারল্য শোষণ করে |",
+      "a": "A-2, B-1, C-3, D-4",
+      "w": [
+        "A-1, B-2, C-3, D-4",
+        "A-2, B-1, C-4, D-3",
+        "A-3, B-4, C-1, D-2"
+      ],
+      "e": "CRR (৩%, RBI-র কাছে নগদ) বনাম SLR (১৮%, ব্যাংকের নিজের কাছে তরল সম্পদ) — এই পার্থক্যটাই পরীক্ষার প্রিয় প্রশ্ন। রেপো = ঢোকানো, রিভার্স রেপো = শোষণ।",
+      "claims": [
+        "c26",
+        "c28",
+        "c30"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "currency_issue",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**বিবৃতি (A):** কয়েনের নকশা ও মুদ্রণের দায়িত্ব ভারত সরকারের; RBI শুধু কয়েন বিতরণ করে।\n\n**কারণ (R):** RBI আইনের ২২ ধারায় RBI-র ব্যাংক নোট জারির একমাত্র অধিকার রয়েছে।",
+      "a": "A ও R উভয়ই সত্য, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+      "w": [
+        "A ও R উভয়ই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+        "A সত্য, কিন্তু R মিথ্যা",
+        "A মিথ্যা, কিন্তু R সত্য"
+      ],
+      "e": "দুটোই আলাদাভাবে সত্য: কয়েন সরকারের (কয়েনেজ আইন, ২০১১), নোট RBI-র (২২ ধারা)। কিন্তু নোট-সংক্রান্ত ২২ ধারা কয়েনের দায়িত্ব সরকারের কেন, তা ব্যাখ্যা করে না — তাই R, A-এর ব্যাখ্যা নয়।",
+      "claims": [
+        "c16",
+        "c15"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "monetary_policy",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি সঠিকভাবে মিলেছে?",
+      "a": "মুদ্রানীতি কমিটি গঠন — ধারা 45ZB",
+      "w": [
+        "MPC কার্যবিবরণী প্রকাশ — ধারা 45ZB",
+        "রেপো হার (অক্টোবর ২০২৬) — ৫.২৫ শতাংশ",
+        "SDF হার (অক্টোবর ২০২৬) — ৫.৭৫ শতাংশ"
+      ],
+      "e": "সঠিক জোড়: MPC গঠন = 45ZB। কার্যবিবরণী প্রকাশ = 45ZL; রেপো = ৫.৫০%; SDF = ৫.২৫% (৫.৭৫% হল MSF/ব্যাংক হার)।",
+      "claims": [
+        "c22",
+        "c23",
+        "c24"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "credit_control_tools",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. CRR কমালে ব্যাংকগুলির কাছে ঋণ দেওয়ার মতো অর্থ বাড়ে।\n২. SLR সম্পদ ব্যাংকগুলিকে RBI-র কাছে নগদে জমা রাখতে হয়।\n\nউপরের কোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — ২০২৫-এর CRR কাটেই প্রায় ২.৫ লক্ষ কোটি টাকা ব্যবস্থায় মুক্ত হয়েছিল। বিবৃতি ২ ভুল — RBI-র কাছে নগদ জমা হল CRR; SLR সম্পদ (নগদ/সোনা/অনুমোদিত সিকিউরিটি) ব্যাংক নিজে ভারতে ধরে রাখে।",
+      "claims": [
+        "c26",
+        "c29",
+        "c28"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "banking_structure",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "১৯৬৯ সালের ব্যাংক জাতীয়করণ কোন আইনের মাধ্যমে কার্যকর হয়?",
+      "a": "ব্যাংকিং কোম্পানিজ (অ্যাকুইজিশন অ্যান্ড ট্রান্সফার অফ আন্ডারটেকিংস) আইন, ১৯৭০",
+      "w": [
+        "ব্যাংকিং রেগুলেশন আইন, ১৯৪৯",
+        "RBI আইন, ১৯৩৪",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া আইন, ১৯৫৫"
+      ],
+      "e": "ঘটনা ১৯৬৯-এর, কিন্তু আইনটি ১৯৭০-এর — অর্থনৈতিক সমীক্ষা ২০২১-২২ ঠিক এই ভাষাতেই লিখেছে। সালের এই ফাঁদটি পরীক্ষায় প্রায়ই থাকে।",
+      "claims": [
+        "c33"
+      ]
+    }
+  ]
+}

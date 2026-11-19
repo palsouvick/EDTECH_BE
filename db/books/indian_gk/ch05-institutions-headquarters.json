@@ -1,0 +1,2061 @@
+{
+  "book": "indian_gk",
+  "code": "IGK-05",
+  "number": 5,
+  "part": "institutions",
+  "title": "প্রতিষ্ঠান ও সদর দপ্তর (সারাংশ)",
+  "subtitle": "RBI, SEBI, SIDBI, Exim, ISRO, BARC, ICAR, ICMR, IMD, BSI, ZSI, Survey of India, এশিয়াটিক সোসাইটি, ECI, CAG ও NHRC — সবচেয়ে বেশি জিজ্ঞাসিত প্রতিষ্ঠানগুলি",
+  "subtopics": [
+    "institutions_hq"
+  ],
+  "related_facts": [
+    "GK-IGK-017",
+    "GK-IGK-018",
+    "GK-IGK-201",
+    "GK-IGK-202",
+    "GK-IGK-203",
+    "GK-IGK-204",
+    "GK-IGK-205",
+    "GK-IGK-206",
+    "GK-IGK-207",
+    "GK-IGK-208",
+    "GK-IGK-209",
+    "GK-IGK-210",
+    "GK-IGK-211",
+    "GK-IGK-212",
+    "GK-IGK-213",
+    "GK-IGK-214",
+    "GK-IGK-215",
+    "GK-IGK-216"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 24,
+    "deep": 38
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 45/45 answers matched the key (44 SURE, 1 LIKELY, 0 GUESS); 1 item(s) had a second option the checker found also defensible from the claims.  One blind mismatch (q16, ASSERTION_REASON) adjudicated AGAINST the original key, on the same standard as ECO-01 q23: R (Bhabha founded TIFR in 1945) is true but does not explain A (his appointment as first AEC Chairman in 1948) — no causal link is stated in the source — so the key was CORRECTED to \"both correct but R is not the correct explanation of A\" and the explanation rewritten, before publication. Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 26 of 45 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_IGK-05.json and drafts/IGK-05_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/IGK-05_REPORT.md.",
+    "checked_claims": 48,
+    "checked_questions": 45,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "‘কোন প্রতিষ্ঠানের সদর দপ্তর কোথায়, প্রতিষ্ঠা কবে?’ — সরকারি চাকরির পরীক্ষায় এই ধাঁচের প্রশ্ন প্রায় প্রতিবারই থাকে। এই অধ্যায়টি একটি সারাংশ: সবচেয়ে বেশি জিজ্ঞাসিত প্রতিষ্ঠানগুলিকে ছয়টি দলে ভাগ করে শুধু পরীক্ষায় লাগা তথ্যগুলি — প্রতিষ্ঠার সাল, সদর দপ্তরের শহর, আর গঠনের আইন — শেখানো হয়েছে। আর্থিক প্রতিষ্ঠান (RBI, SEBI, SIDBI, Exim), মহাকাশ ও পরমাণু (ISRO, BARC), গবেষণা পরিষদ (ICAR, ICMR), জরিপ ও বিজ্ঞান সংস্থা (IMD, BSI, ZSI, Survey of India), ঐতিহ্য (এশিয়াটিক সোসাইটি, ASI) এবং সাংবিধানিক সংস্থা (ECI, CAG, NHRC)। পূর্ণ তালিকা ও গভীর আলোচনার জন্য Organisations বই ও Geography বইয়ের দিকে নির্দেশ দেওয়া হয়েছে — এই সারাংশে তার পুনরাবৃত্তি করা হয়নি।",
+    "you_will_learn": [
+      "RBI-র কার্যক্রম শুরুর সাল (১৯৩৫) ও SEBI-র সদর দপ্তর (মুম্বই, BKC)",
+      "SIDBI (লখনউ) ও Exim Bank (বম্বে/মুম্বই)-এর প্রধান দপ্তর এবং তাদের গঠন-আইনের সাল",
+      "ISRO-র সদর দপ্তর অন্তরীক্ষ ভবন, বেঙ্গালুরু; INCOSPAR ১৯৬২ → ISRO ১৯৬৯ → DOS ১৯৭২ ক্রম",
+      "ভাভা-শৃঙ্খল: TIFR ১৯৪৫ → AEC ১৯৪৮ → DAE ১৯৫৪ → BARC ১৯৬৭ (ট্রম্বে)",
+      "ICAR (কৃষি) বনাম ICMR (চিকিৎসা) পার্থক্য; IRFA ১৯১১ → ICMR ১৯৪৯; সদর দপ্তর আনসারি নগর",
+      "IMD ১৮৭৫ ও মৌসম ভবন; BSI ১৮৯০; ZSI ১৯১৬ ও সদর দপ্তর কলকাতা; Survey of India ১৭৬৭ ও দেরাদুন",
+      "এশিয়াটিক সোসাইটি (কলকাতা, ১৭৮৪, উইলিয়াম জোন্স) ও কানিংহাম — প্রথম Surveyor (১৮৬১) ও প্রথম DG (১৮৭১)",
+      "ECI প্রতিষ্ঠা ১৯৫০ ও বহু-সদস্য ১৯৯৩; CAG-র নিয়োগ ও প্রতিবেদনের দিক; NHRC ১৯৯৩ ও মানব অধিকার ভবন"
+    ]
+  },
+  "sections": [
+    {
+      "id": "finance_bodies",
+      "heading": "আর্থিক প্রতিষ্ঠান: RBI, SEBI, SIDBI ও Exim Bank",
+      "quick": "RBI-র কার্যক্রম শুরু ১৯৩৫ সালের ১ এপ্রিল। SEBI-র প্রধান দপ্তর মুম্বইয়ের বান্দ্রা-কুর্লা কমপ্লেক্সে (SEBI ভবন)। SIDBI আইন, ১৯৮৯ অনুযায়ী SIDBI-র প্রধান কার্যালয় লখনউতে; Exim Bank আইন, ১৯৮১ অনুযায়ী Exim Bank-এর প্রধান দপ্তর বম্বেতে (বর্তমান মুম্বই)।",
+      "standard": "এই অংশে চারটি আর্থিক প্রতিষ্ঠানের সবচেয়ে বেশি জিজ্ঞাসিত তথ্য একসঙ্গে রাখা হল। ভারতের কেন্দ্রীয় ব্যাংক RBI-র কার্যক্রম শুরু হয়েছিল ১৯৩৫ সালের ১ এপ্রিল — ২০২৪ সালে প্রতিষ্ঠানটি ৯০ বছর পূর্ণ করে। শেয়ারবাজারের নিয়ন্ত্রক SEBI-র পুরো নাম Securities and Exchange Board of India; এর প্রধান দপ্তর মুম্বইয়ের বান্দ্রা-কুর্লা কমপ্লেক্সের SEBI ভবনে। ক্ষুদ্র শিল্পের অর্থায়নে প্রধান প্রতিষ্ঠান SIDBI (Small Industries Development Bank of India) গঠিত হয় SIDBI আইন, ১৯৮৯ (আইন নং ৩৯) অনুযায়ী; আইনের ৩(৩) ধারায় প্রধান কার্যালয় লখনউতে রাখা হয়েছে, আর আইনটি কার্যকর হয় ১৯৯০ সালের ৭ মার্চ। রপ্তানি-আমদানি অর্থায়নের প্রধান প্রতিষ্ঠান Exim Bank (Export-Import Bank of India) গঠিত হয় ১৯৮১ সালের আইনে (কার্যকর ১৯৮২ সালের ১ জানুয়ারি); আইনের ৩(৩) ধারায় এর প্রধান দপ্তর বম্বেতে — অর্থাৎ আজকের মুম্বইয়ে।",
+      "deep": "ফাঁদ তিনটি: (ক) SIDBI-র আইন ১৯৮৯ সালের হলেও কার্যকর ১৯৯০ সালে — দুটি সালই প্রশ্নে আসে, কোনটি চাওয়া হচ্ছে খেয়াল করো। (খ) Exim Bank-এর আইনে শহরের নাম ‘বম্বে’ লেখা আছে; বর্তমান নাম মুম্বই — দুটোই একই শহর। (গ) SEBI-র প্রশ্নে প্রায়ই শুধু শহর (মুম্বই) নয়, এলাকাও (BKC) জানতে চাওয়া হয়। এই অধ্যায়টি সারাংশ — RBI ও SEBI-র পূর্ণ ইতিহাস এবং বাকি আর্থিক প্রতিষ্ঠানের পূর্ণ তালিকার জন্য Organisations বইটি দেখো।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "আইন বনাম কার্যকর সাল",
+          "body": "SIDBI: আইন ১৯৮৯, কার্যকর ৭ মার্চ ১৯৯০। Exim: আইন ১৯৮১, কার্যকর ১ জানুয়ারি ১৯৮২। ‘কোন আইনে গঠিত?’ আর ‘কবে থেকে কার্যকর?’ — দুটি আলাদা প্রশ্ন।",
+          "claims": [
+            "c05",
+            "c06",
+            "c09"
+          ]
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "বম্বে = মুম্বই",
+          "body": "Exim Bank আইন, ১৯৮১-তে প্রধান দপ্তরের শহর ‘Bombay’ লেখা; শহরটির বর্তমান নাম মুম্বই। পরীক্ষায় দুটির যেকোনোটি বিকল্পে থাকতে পারে — দুটোই একই উত্তর নির্দেশ করে।",
+          "claims": [
+            "c08"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c07",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "space_atomic",
+      "heading": "মহাকাশ ও পরমাণু: ISRO ও BARC",
+      "quick": "ISRO ও মহাকাশ বিভাগের সদর দপ্তর বেঙ্গালুরুর অন্তরীক্ষ ভবনে। যাত্রা: INCOSPAR ১৯৬২ → ISRO প্রতিষ্ঠা আগস্ট ১৯৬৯ → মহাকাশ বিভাগ জুন ১৯৭২। পরমাণু ধারায়: হোমি ভাভা ১৯৪৫ সালে মুম্বইয়ে TIFR গড়েন; ট্রম্বের AEET ১৯৬৭ সালের ১২ জানুয়ারি BARC নাম পায়।",
+      "standard": "ভারতের মহাকাশ কর্মসূচির শুরু ১৯৬২ সালে INCOSPAR গঠনের মাধ্যমে। ১৯৬৯ সালের আগস্টে প্রতিষ্ঠিত হয় ISRO (Indian Space Research Organisation); ১৯৭২ সালের জুনে মহাকাশ বিভাগ (Department of Space) গঠিত হয় এবং সেপ্টেম্বরে ISRO তার অধীনে আসে। দুটিরই সদর দপ্তর বেঙ্গালুরুর অন্তরীক্ষ ভবনে। পরমাণু গবেষণার ধারাটি হোমি জাহাঙ্গীর ভাভার (১৯০৯–১৯৬৬) হাত ধরে: ১৯৪৫ সালে তিনি মুম্বইয়ে Tata Institute of Fundamental Research (TIFR) প্রতিষ্ঠা করেন; ১৯৪৮ সালের ১০ আগস্ট তাঁর সভাপতিত্বে গঠিত হয় পরমাণু শক্তি কমিশন; ১৯৫৪ সালে তৈরি হয় পরমাণু শক্তি বিভাগ (DAE)। ট্রম্বেতে গড়ে ওঠা Atomic Energy Establishment, Trombay (AEET)-ই ভাভার মৃত্যুর পর ১৯৬৭ সালের ১২ জানুয়ারি Bhabha Atomic Research Centre (BARC) নাম পায়।",
+      "deep": "ক্রমটি মনে রাখো: TIFR (১৯৪৫) → পরমাণু শক্তি কমিশন (১৯৪৮) → DAE (১৯৫৪) → AEET-র নাম বদলে BARC (১৯৬৭)। আরেকটি ফাঁদ: ISRO প্রতিষ্ঠা ১৯৬৯, কিন্তু মহাকাশ বিভাগ ১৯৭২ — প্রশ্নে কোনটি চাওয়া হচ্ছে দেখে উত্তর দাও। BARC-র অবস্থান জিজ্ঞাসা করলে উত্তর ট্রম্বে (মুম্বই)।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "ভাভা-শৃঙ্খল",
+          "body": "১৯৪৫ TIFR → ১৯৪৮ পরমাণু শক্তি কমিশন → ১৯৫৪ DAE → ১৯৬৭ BARC (AEET-র নতুন নাম)। চারটি সাল এক লাইনে মুখস্থ করলেই এই অংশের বেশিরভাগ প্রশ্ন কভার হয়ে যায়।",
+          "claims": [
+            "c13",
+            "c14",
+            "c15",
+            "c17"
+          ]
+        },
+        {
+          "kind": "exam_note",
+          "title": "ISRO বনাম DOS",
+          "body": "ISRO প্রতিষ্ঠিত আগস্ট ১৯৬৯; মহাকাশ বিভাগ (DOS) জুন ১৯৭২। সদর দপ্তর দুটিরই অন্তরীক্ষ ভবন, বেঙ্গালুরু।",
+          "claims": [
+            "c10",
+            "c12"
+          ]
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18"
+      ]
+    },
+    {
+      "id": "research_councils",
+      "heading": "গবেষণা পরিষদ: ICAR ও ICMR",
+      "quick": "ICAR হল কৃষি গবেষণা ও শিক্ষায় ভারতের প্রধান প্রতিষ্ঠান। ICMR-র যাত্রা IRFA (১৯১১) থেকে: ১৯৪৯ সালে IRFA-র নাম বদলে হয় ICMR; এর সদর দপ্তর নয়াদিল্লির আনসারি নগরে।",
+      "standard": "কৃষি ক্ষেত্রে দেশের প্রধান গবেষণা-প্রতিষ্ঠান ICAR (Indian Council of Agricultural Research) — এর প্রতিষ্ঠা দিবসের অনুষ্ঠান হয় নয়াদিল্লির NASC কমপ্লেক্সে (২০২৫ সালের জুলাইয়ে সেখানে ৯৭তম প্রতিষ্ঠা দিবস পালিত হয়)। চিকিৎসা গবেষণার পরিষদ ICMR (Indian Council of Medical Research)-এর পূর্বসূরি Indian Research Fund Association (IRFA) প্রতিষ্ঠা করেন স্যার হারকোর্ট বাটলার, ১৯১১ সালের ১৫ নভেম্বর। ১৯৪৯ সালে IRFA-র নাম বদলে ICMR হয়, আর ১৯৬০ সালে এর সদর দপ্তর নয়াদিল্লির আনসারি নগরে নিজস্ব নতুন ভবনে সরে আসে।",
+      "deep": "দুটি পরিষদ গুলিয়ে ফেলাই সবচেয়ে বড় ভুল: ICAR = কৃষি (Agricultural), ICMR = চিকিৎসা (Medical)। ICMR-র ধারায় তিনটি সাল মনে রাখো — ১৯১১ (IRFA), ১৯৪৯ (নাম বদলে ICMR), ১৯৬০ (আনসারি নগরের ভবন)। এই সারাংশে ICAR-র প্রতিষ্ঠার নির্দিষ্ট তারিখটি শেখানো হয়নি — সেটি Organisations বইয়ের পূর্ণাঙ্গ অধ্যায়ের বিষয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "ICAR বনাম ICMR",
+          "body": "ICAR — Agricultural (কৃষি); ICMR — Medical (চিকিৎসা)। মাঝের অক্ষরটাই পার্থক্য: A = Agriculture, M = Medical।",
+          "claims": [
+            "c19",
+            "c22"
+          ]
+        }
+      ],
+      "claims": [
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23"
+      ]
+    },
+    {
+      "id": "surveys_science",
+      "heading": "জরিপ ও বিজ্ঞান সংস্থা: IMD, BSI, ZSI ও Survey of India",
+      "quick": "IMD প্রতিষ্ঠা ১৮৭৫, দপ্তর নয়াদিল্লির মৌসম ভবনে। BSI প্রতিষ্ঠা ১৮৯০ (১৩ ফেব্রুয়ারি)। ZSI প্রতিষ্ঠা ১ জুলাই ১৯১৬, সদর দপ্তর কলকাতা। Survey of India গঠিত ১৭৬৭ সালে — সরকারের প্রাচীনতম বিজ্ঞান বিভাগ; Surveyor General-এর দপ্তর দেরাদুনের হাতিবাড়কালা এস্টেটে।",
+      "standard": "আবহাওয়ার জাতীয় সংস্থা IMD (India Meteorological Department) প্রতিষ্ঠিত হয় ১৮৭৫ সালে; এটি দেশের জাতীয় আবহাওয়া পরিষেবা, আর এর মহাপরিচালকের দপ্তর নয়াদিল্লির লোদি রোডের মৌসম ভবনে। উদ্ভিদ-জরিপের সংস্থা BSI (Botanical Survey of India) আনুষ্ঠানিকভাবে গঠিত হয় ১৮৯০ সালের ১৩ ফেব্রুয়ারি — উদ্দেশ্য ছিল দেশের উদ্ভিদসম্পদ অনুসন্ধান ও অর্থনৈতিক গুরুত্বের প্রজাতি চিহ্নিত করা। প্রাণী-জরিপের সংস্থা ZSI (Zoological Survey of India) প্রতিষ্ঠিত হয় ১৯১৬ সালের ১ জুলাই; এর শিকড় ১৮৭৫ সালে কলকাতার ভারতীয় জাদুঘরের প্রাণী বিভাগে, আর এর সদর দপ্তর কলকাতায় (১৬টি আঞ্চলিক কেন্দ্র রয়েছে)। মানচিত্র-সংস্থা Survey of India গঠিত হয় ১৭৬৭ সালে; এটি দেশের প্রধান মানচিত্র সংস্থা এবং ভারত সরকারের প্রাচীনতম বিজ্ঞান বিভাগ। Surveyor General of India-র দপ্তর দেরাদুনের হাতিবাড়কালা এস্টেটে।",
+      "deep": "জোড়া মনে রাখো: BSI = উদ্ভিদ (Botanical), ZSI = প্রাণী (Zoological)। সালের ফাঁদ: IMD ও ZSI-র শিকড় — দুটোই ১৮৭৫; কিন্তু ZSI নিজে প্রতিষ্ঠিত ১৯১৬ সালে। Survey of India-র সাল ১৭৬৭ — এই অধ্যায়ের সবচেয়ে পুরনো তারিখ। টপোগ্রাফিক্যাল মানচিত্র কে প্রকাশ করে — এই বারবার আসা প্রশ্নের উত্তর Survey of India। দ্রষ্টব্য: এই সারাংশে BSI-র সদর দপ্তরের শহরটি রাখা হয়নি; পূর্ণ তালিকার জন্য Geography বইটি দেখো।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "১৮৭৫-এর দুই যোগ",
+          "body": "১৮৭৫ সালে IMD প্রতিষ্ঠিত হয়, আর একই সালে কলকাতার ভারতীয় জাদুঘরে প্রাণী বিভাগ খোলে — যা থেকে পরে ZSI (১৯১৬) জন্ম নেয়।",
+          "claims": [
+            "c24",
+            "c29",
+            "c28"
+          ]
+        },
+        {
+          "kind": "exam_note",
+          "title": "মানচিত্র = Survey of India",
+          "body": "‘ভারতের টপোগ্রাফিক্যাল মানচিত্র কে প্রকাশ করে?’ — WBCS-এ বারবার এসেছে; উত্তর Survey of India, দেশের প্রধান মানচিত্র সংস্থা।",
+          "claims": [
+            "c31"
+          ]
+        }
+      ],
+      "claims": [
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33"
+      ]
+    },
+    {
+      "id": "heritage_knowledge",
+      "heading": "ঐতিহ্য ও জ্ঞানচর্চা: এশিয়াটিক সোসাইটি ও ASI",
+      "quick": "স্যার উইলিয়াম জোন্স ১৭৮৪ সালের ১৫ জানুয়ারি কলকাতায় এশিয়াটিক সোসাইটি গড়েন; এর পত্রিকা Asiatick Researches শুরু ১৭৮৮ সালে। আলেকজান্ডার কানিংহাম ১৮৬১ সালের ডিসেম্বরে প্রথম Archaeological Surveyor নিযুক্ত হন; ১৮৭১ সালে পুনরুজ্জীবিত Archaeological Survey-র প্রথম Director General হন তিনিই।",
+      "standard": "ভারতে প্রত্নতত্ত্ব ও ইতিহাসচর্চার সূত্রপাত এশিয়াটিক সোসাইটি দিয়ে: ১৭৮৪ সালের ১৫ জানুয়ারি কলকাতায় স্যার উইলিয়াম জোন্স একদল প্রাচ্যবিদকে নিয়ে সোসাইটিটি গড়েন। এর গবেষণা-পত্রিকা Asiatick Researches প্রকাশ শুরু হয় ১৭৮৮ সালে; পরে একই ধাঁচের সোসাইটি গড়ে ওঠে বম্বেতে (১৮০৪) ও মাদ্রাজে (১৮১৮)। প্রত্নতাত্ত্বিক জরিপের আনুষ্ঠানিক ধারায় আলেকজান্ডার কানিংহাম ১৮৬১ সালের ডিসেম্বর থেকে প্রথম Archaeological Surveyor। লর্ড লরেন্স ১৮৬৬ সালে জরিপটি বিলুপ্ত করেন; ১৮৭১ সালে তা সরকারের পৃথক বিভাগ হিসেবে পুনরুজ্জীবিত হয় এবং কানিংহাম Director General হিসেবে ফেব্রুয়ারিতে দায়িত্ব নেন — এই বিভাগই আজকের Archaeological Survey of India (ASI)-র ভিত্তি।",
+      "deep": "‘ভারতীয় প্রত্নতত্ত্বের জনক’ বলতে পরীক্ষায় কানিংহামকেই বোঝায় — প্রথম Surveyor (১৮৬১) ও প্রথম Director General (১৮৭১) দুটোই তিনি। ফাঁদ: সোসাইটি প্রতিষ্ঠা ১৭৮৪, পত্রিকা ১৭৮৮ — চার বছরের ব্যবধান। আরেকটি ফাঁদ: জরিপ বিলুপ্তি ১৮৬৬ (লর্ড লরেন্স), পুনরুজ্জীবন ১৮৭১।",
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "কলকাতা থেকেই শুরু",
+          "body": "এশিয়াটিক সোসাইটির জন্ম কলকাতায় (১৭৮৪) — এশিয়ার প্রাচীনতম শিক্ষা-গবেষণা প্রতিষ্ঠানগুলির একটির সূচনা এই শহরেই।",
+          "claims": [
+            "c34"
+          ]
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "Surveyor বনাম Director General",
+          "body": "কানিংহাম ১৮৬১ সালে Archaeological Surveyor; ১৮৭১ সালে পুনরুজ্জীবিত বিভাগের Director General। পদ দুটি আলাদা দশকের।",
+          "claims": [
+            "c37",
+            "c39"
+          ]
+        }
+      ],
+      "claims": [
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39"
+      ]
+    },
+    {
+      "id": "constitutional_bodies",
+      "heading": "সাংবিধানিক ও বিধিবদ্ধ সংস্থা: ECI, CAG ও NHRC",
+      "quick": "নির্বাচন কমিশন (ECI) স্থায়ী সাংবিধানিক সংস্থা, প্রতিষ্ঠা ২৫ জানুয়ারি ১৯৫০, সদর দপ্তর নয়াদিল্লি; ১৯৯৩ সালের ১ অক্টোবর থেকে বহু-সদস্য। CAG (অনুচ্ছেদ ১৪৮) রাষ্ট্রপতি কর্তৃক নিযুক্ত হন। NHRC প্রতিষ্ঠা ১২ অক্টোবর ১৯৯৩, দপ্তর নয়াদিল্লির মানব অধিকার ভবনে।",
+      "standard": "নির্বাচন কমিশন সংবিধান অনুযায়ী গঠিত স্থায়ী সাংবিধানিক সংস্থা (প্রতিষ্ঠা ২৫ জানুয়ারি ১৯৫০); সংসদ, রাজ্য বিধানসভা এবং রাষ্ট্রপতি ও উপরাষ্ট্রপতি নির্বাচনের তত্ত্বাবধান, নির্দেশনা ও নিয়ন্ত্রণ এর হাতে। প্রথমে একক-সদস্য থাকলেও ১৯৯৩ সালের ১ অক্টোবর আরও দুজন নির্বাচন কমিশনার নিযুক্ত হওয়ার পর থেকে এটি বহু-সদস্য কমিশন; সদর দপ্তর নয়াদিল্লিতে। মহাহিসাব নিয়ন্ত্রক ও নিরীক্ষক (CAG)-র পদটি অনুচ্ছেদ ১৪৮-এ: রাষ্ট্রপতি তাঁর স্বাক্ষর ও সিলমোহরযুক্ত পরোয়ানায় CAG-কে নিয়োগ করেন, এবং তাঁকে অপসারণ করা যায় কেবল সুপ্রিম কোর্টের বিচারপতির মতো একই পদ্ধতি ও একই কারণে। CAG-র কেন্দ্র-সংক্রান্ত প্রতিবেদন যায় রাষ্ট্রপতির কাছে (সংসদে পেশ হয়), রাজ্য-সংক্রান্ত প্রতিবেদন যায় রাজ্যপালের কাছে (বিধানসভায় পেশ হয়)। জাতীয় মানবাধিকার কমিশন (NHRC) বিধিবদ্ধ সংস্থা — মানবাধিকার সুরক্ষা আইন, ১৯৯৩ অনুযায়ী প্রতিষ্ঠা ১৯৯৩ সালের ১২ অক্টোবর; এর দপ্তর নয়াদিল্লির INA-র মানব অধিকার ভবনে।",
+      "deep": "পার্থক্যটা পরীক্ষার প্রিয়: ECI ও CAG সাংবিধানিক, NHRC বিধিবদ্ধ (আইন-সৃষ্ট)। CAG-র প্রতিবেদনের দিক ভুল করো না — কেন্দ্র → রাষ্ট্রপতি → সংসদ; রাজ্য → রাজ্যপাল → বিধানসভা। ECI-র দুটি সাল: প্রতিষ্ঠা ১৯৫০, বহু-সদস্য ১৯৯৩।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সাংবিধানিক বনাম বিধিবদ্ধ",
+          "body": "ECI ও CAG সরাসরি সংবিধানে সৃষ্ট পদ/সংস্থা (CAG — অনুচ্ছেদ ১৪৮); NHRC তৈরি সংসদের আইনে (PHRA, ১৯৯৩)।",
+          "claims": [
+            "c40",
+            "c44",
+            "c47"
+          ]
+        },
+        {
+          "kind": "remember",
+          "title": "CAG প্রতিবেদনের দিক",
+          "body": "কেন্দ্রের হিসাব → রাষ্ট্রপতি → সংসদ। রাজ্যের হিসাব → রাজ্যপাল → বিধানসভা। ‘কে কার কাছে জমা দেন’ — এটাই প্রশ্ন।",
+          "claims": [
+            "c45",
+            "c46"
+          ]
+        }
+      ],
+      "claims": [
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "এশিয়াটিক সোসাইটি প্রতিষ্ঠা",
+      "when": "১৫ জানুয়ারি ১৭৮৪",
+      "what": "স্যার উইলিয়াম জোন্স কলকাতায় এশিয়াটিক সোসাইটি গড়েন।",
+      "why_it_matters": "ভারতে প্রাচ্যবিদ্যা ও প্রত্নতত্ত্বচর্চার আনুষ্ঠানিক সূচনা; ASI-র ইতিহাস এখান থেকেই শুরু।",
+      "section": "heritage_knowledge",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "title": "Survey of India গঠন",
+      "when": "১৭৬৭",
+      "what": "দেশের প্রধান মানচিত্র সংস্থা Survey of India স্থাপিত হয়।",
+      "why_it_matters": "ভারত সরকারের প্রাচীনতম বিজ্ঞান বিভাগ; টপোগ্রাফিক্যাল মানচিত্র প্রকাশের দায়িত্ব এরই।",
+      "section": "surveys_science",
+      "claims": [
+        "c31",
+        "c32"
+      ]
+    },
+    {
+      "title": "Archaeological Survey পুনরুজ্জীবন",
+      "when": "ফেব্রুয়ারি ১৮৭১",
+      "what": "বিলুপ্ত (১৮৬৬) জরিপটি পৃথক সরকারি বিভাগ হিসেবে ফেরে; কানিংহাম Director General হন।",
+      "why_it_matters": "আজকের ASI-র প্রাতিষ্ঠানিক ভিত্তি তৈরি হয়।",
+      "section": "heritage_knowledge",
+      "claims": [
+        "c38",
+        "c39"
+      ]
+    },
+    {
+      "title": "IMD প্রতিষ্ঠা",
+      "when": "১৮৭৫",
+      "what": "India Meteorological Department প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "দেশের জাতীয় আবহাওয়া পরিষেবার যাত্রা শুরু।",
+      "section": "surveys_science",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "title": "ZSI প্রতিষ্ঠা",
+      "when": "১ জুলাই ১৯১৬",
+      "what": "Zoological Survey of India প্রতিষ্ঠিত হয়; সদর দপ্তর কলকাতায়।",
+      "why_it_matters": "১৮৭৫ সালের জাদুঘর-প্রাণী বিভাগের ধারাবাহিকতায় প্রাণী-জরিপের পৃথক সংস্থা।",
+      "section": "surveys_science",
+      "claims": [
+        "c28",
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "title": "RBI-র কার্যক্রম শুরু",
+      "when": "১ এপ্রিল ১৯৩৫",
+      "what": "Reserve Bank of India কার্যক্রম শুরু করে।",
+      "why_it_matters": "ভারতের কেন্দ্রীয় ব্যাংকের জন্ম; ২০২৪ সালে ৯০ বছর পূর্ণ হয়।",
+      "section": "finance_bodies",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "title": "AEET-র নাম বদলে BARC",
+      "when": "১২ জানুয়ারি ১৯৬৭",
+      "what": "ট্রম্বের Atomic Energy Establishment-এর নাম হয় Bhabha Atomic Research Centre।",
+      "why_it_matters": "ভাভার স্মৃতিতে নামকরণ; ভারতের প্রধান পরমাণু গবেষণা কেন্দ্রের বর্তমান পরিচয়।",
+      "section": "space_atomic",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "title": "ISRO প্রতিষ্ঠা",
+      "when": "আগস্ট ১৯৬৯",
+      "what": "Indian Space Research Organisation প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "INCOSPAR (১৯৬২)-এর পর মহাকাশ গবেষণার পৃথক সংস্থা; ১৯৭২ সালে মহাকাশ বিভাগের অধীনে আসে।",
+      "section": "space_atomic",
+      "claims": [
+        "c11",
+        "c12"
+      ]
+    },
+    {
+      "title": "নির্বাচন কমিশন প্রতিষ্ঠা",
+      "when": "২৫ জানুয়ারি ১৯৫০",
+      "what": "সংবিধান অনুযায়ী স্থায়ী সাংবিধানিক সংস্থা হিসেবে নির্বাচন কমিশন গঠিত হয়।",
+      "why_it_matters": "প্রজাতন্ত্রের আগের দিন গঠিত এই সংস্থাই সব নির্বাচন পরিচালনা করে।",
+      "section": "constitutional_bodies",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "title": "NHRC প্রতিষ্ঠা",
+      "when": "১২ অক্টোবর ১৯৯৩",
+      "what": "মানবাধিকার সুরক্ষা আইন, ১৯৯৩ অনুযায়ী জাতীয় মানবাধিকার কমিশন গঠিত হয়।",
+      "why_it_matters": "একই বছরে (১৯৯৩) ECI-ও বহু-সদস্য হয় — দুটি ঘটনা একসঙ্গে মনে রাখা যায়।",
+      "section": "constitutional_bodies",
+      "claims": [
+        "c47",
+        "c42"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "স্যার উইলিয়াম জোন্স",
+      "when": "১৭৮৪",
+      "role": "এশিয়াটিক সোসাইটির প্রতিষ্ঠাতা",
+      "contribution": "১৭৮৪ সালের ১৫ জানুয়ারি কলকাতায় একদল প্রাচ্যবিদকে নিয়ে এশিয়াটিক সোসাইটি গড়েন; এর পত্রিকা Asiatick Researches ১৭৮৮ সালে শুরু হয়।",
+      "section": "heritage_knowledge",
+      "claims": [
+        "c34",
+        "c35"
+      ]
+    },
+    {
+      "name": "আলেকজান্ডার কানিংহাম",
+      "when": "১৮৬১–১৮৭১",
+      "role": "প্রথম Archaeological Surveyor ও প্রথম Director General",
+      "contribution": "১৮৬১ সালের ডিসেম্বরে প্রথম Archaeological Surveyor নিযুক্ত হন; ১৮৭১ সালে পুনরুজ্জীবিত Archaeological Survey-র Director General হিসেবে দায়িত্ব নেন। পরীক্ষায় ‘ভারতীয় প্রত্নতত্ত্বের জনক’ বলতে তাঁকেই বোঝায়।",
+      "section": "heritage_knowledge",
+      "claims": [
+        "c37",
+        "c39"
+      ]
+    },
+    {
+      "name": "হোমি জাহাঙ্গীর ভাভা",
+      "when": "১৯০৯–১৯৬৬",
+      "role": "ভারতের পরমাণু কর্মসূচির স্থপতি",
+      "contribution": "১৯৪৫ সালে TIFR প্রতিষ্ঠা করেন; ১৯৪৮ সালে পরমাণু শক্তি কমিশনের প্রথম সভাপতি; ট্রম্বের AEET তাঁর মৃত্যুর পর BARC নাম পায় (১৯৬৭)।",
+      "section": "space_atomic",
+      "claims": [
+        "c13",
+        "c14",
+        "c17",
+        "c18"
+      ]
+    },
+    {
+      "name": "স্যার হারকোর্ট বাটলার",
+      "when": "—",
+      "role": "IRFA-র প্রতিষ্ঠাতা",
+      "contribution": "১৯১১ সালের ১৫ নভেম্বর Indian Research Fund Association (IRFA) প্রতিষ্ঠা করেন — যা ১৯৪৯ সালে ICMR নাম পায়।",
+      "section": "research_councils",
+      "claims": [
+        "c21",
+        "c22"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1767,
+      "when": "১৭৬৭",
+      "label": "Survey of India গঠিত — দেশের প্রধান মানচিত্র সংস্থা",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "sort_year": 1784,
+      "when": "১৫ জানুয়ারি ১৭৮৪",
+      "label": "কলকাতায় এশিয়াটিক সোসাইটি প্রতিষ্ঠা (উইলিয়াম জোন্স)",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "sort_year": 1788,
+      "when": "১৭৮৮",
+      "label": "Asiatick Researches পত্রিকার প্রকাশ শুরু",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "sort_year": 1804,
+      "when": "১৮০৪",
+      "label": "বম্বেতে অনুরূপ সোসাইটি গঠিত",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "sort_year": 1818,
+      "when": "১৮১৮",
+      "label": "মাদ্রাজে অনুরূপ সোসাইটি গঠিত",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "sort_year": 1861,
+      "when": "ডিসেম্বর ১৮৬১",
+      "label": "কানিংহাম প্রথম Archaeological Surveyor নিযুক্ত",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "sort_year": 1866,
+      "when": "১৮৬৬",
+      "label": "লর্ড লরেন্স Archaeological Survey বিলুপ্ত করেন",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "sort_year": 1871,
+      "when": "ফেব্রুয়ারি ১৮৭১",
+      "label": "Archaeological Survey পুনরুজ্জীবিত; কানিংহাম Director General",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "sort_year": 1875,
+      "when": "১৮৭৫",
+      "label": "IMD প্রতিষ্ঠা; কলকাতার ভারতীয় জাদুঘরে প্রাণী বিভাগ (ZSI-র শিকড়)",
+      "claims": [
+        "c24",
+        "c29"
+      ]
+    },
+    {
+      "sort_year": 1890,
+      "when": "১৩ ফেব্রুয়ারি ১৮৯০",
+      "label": "Botanical Survey of India আনুষ্ঠানিকভাবে গঠিত",
+      "claims": [
+        "c26",
+        "c27"
+      ]
+    },
+    {
+      "sort_year": 1911,
+      "when": "১৫ নভেম্বর ১৯১১",
+      "label": "স্যার হারকোর্ট বাটলার IRFA প্রতিষ্ঠা করেন",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "sort_year": 1916,
+      "when": "১ জুলাই ১৯১৬",
+      "label": "Zoological Survey of India প্রতিষ্ঠা (সদর দপ্তর কলকাতা)",
+      "claims": [
+        "c28",
+        "c30"
+      ]
+    },
+    {
+      "sort_year": 1935,
+      "when": "১ এপ্রিল ১৯৩৫",
+      "label": "RBI-র কার্যক্রম শুরু",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1945,
+      "when": "১৯৪৫",
+      "label": "ভাভা মুম্বইয়ে TIFR প্রতিষ্ঠা করেন",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "sort_year": 1948,
+      "when": "১০ আগস্ট ১৯৪৮",
+      "label": "পরমাণু শক্তি কমিশন গঠিত; সভাপতি হোমি ভাভা",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "sort_year": 1949,
+      "when": "১৯৪৯",
+      "label": "IRFA-র নাম বদলে ICMR",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "sort_year": 1950,
+      "when": "২৫ জানুয়ারি ১৯৫০",
+      "label": "নির্বাচন কমিশন প্রতিষ্ঠা",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "sort_year": 1954,
+      "when": "১৯৫৪",
+      "label": "পরমাণু শক্তি বিভাগ (DAE) গঠিত",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "sort_year": 1962,
+      "when": "১৯৬২",
+      "label": "INCOSPAR গঠনের মাধ্যমে মহাকাশ কর্মসূচির শুরু",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "sort_year": 1967,
+      "when": "১২ জানুয়ারি ১৯৬৭",
+      "label": "AEET-র নাম বদলে BARC (ট্রম্বে)",
+      "claims": [
+        "c16",
+        "c17"
+      ]
+    },
+    {
+      "sort_year": 1969,
+      "when": "আগস্ট ১৯৬৯",
+      "label": "ISRO প্রতিষ্ঠিত",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "sort_year": 1972,
+      "when": "জুন ১৯৭২",
+      "label": "মহাকাশ বিভাগ (DOS) গঠিত; ISRO তার অধীনে (সেপ্টেম্বর ১৯৭২)",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "sort_year": 1982,
+      "when": "১ জানুয়ারি ১৯৮২",
+      "label": "Exim Bank আইন, ১৯৮১ কার্যকর হয়",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "sort_year": 1989,
+      "when": "২৫ অক্টোবর ১৯৮৯",
+      "label": "SIDBI আইন, ১৯৮৯ (আইন নং ৩৯) প্রণীত",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "sort_year": 1990,
+      "when": "৭ মার্চ ১৯৯০",
+      "label": "SIDBI আইন কার্যকর হয়",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 1993,
+      "when": "১৯৯৩",
+      "label": "ECI বহু-সদস্য হয় (১ অক্টোবর); NHRC প্রতিষ্ঠা (১২ অক্টোবর)",
+      "claims": [
+        "c42",
+        "c47"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "RBI",
+      "meaning": "Reserve Bank of India — ভারতের কেন্দ্রীয় ব্যাংক; কার্যক্রম শুরু ১ এপ্রিল ১৯৩৫।",
+      "section": "finance_bodies"
+    },
+    {
+      "term": "SEBI",
+      "meaning": "Securities and Exchange Board of India — শেয়ারবাজার নিয়ন্ত্রক; প্রধান দপ্তর SEBI ভবন, BKC, মুম্বই।",
+      "section": "finance_bodies"
+    },
+    {
+      "term": "SIDBI",
+      "meaning": "Small Industries Development Bank of India — ক্ষুদ্র শিল্পের প্রধান অর্থায়ন প্রতিষ্ঠান; প্রধান কার্যালয় লখনউ।",
+      "section": "finance_bodies"
+    },
+    {
+      "term": "Exim Bank",
+      "meaning": "Export-Import Bank of India — রপ্তানি-আমদানি অর্থায়নের প্রধান প্রতিষ্ঠান; প্রধান দপ্তর বম্বে (মুম্বই)।",
+      "section": "finance_bodies"
+    },
+    {
+      "term": "ISRO",
+      "meaning": "Indian Space Research Organisation — প্রতিষ্ঠা আগস্ট ১৯৬৯; সদর দপ্তর অন্তরীক্ষ ভবন, বেঙ্গালুরু।",
+      "section": "space_atomic"
+    },
+    {
+      "term": "BARC",
+      "meaning": "Bhabha Atomic Research Centre — ট্রম্বের AEET-র নতুন নাম (১২ জানুয়ারি ১৯৬৭)।",
+      "section": "space_atomic"
+    },
+    {
+      "term": "ICAR",
+      "meaning": "Indian Council of Agricultural Research — কৃষি গবেষণা ও শিক্ষায় দেশের প্রধান প্রতিষ্ঠান।",
+      "section": "research_councils"
+    },
+    {
+      "term": "ICMR",
+      "meaning": "Indian Council of Medical Research — IRFA (১৯১১)-র নতুন নাম (১৯৪৯); সদর দপ্তর আনসারি নগর, নয়াদিল্লি।",
+      "section": "research_councils"
+    },
+    {
+      "term": "IMD",
+      "meaning": "India Meteorological Department — জাতীয় আবহাওয়া পরিষেবা; প্রতিষ্ঠা ১৮৭৫; দপ্তর মৌসম ভবন, নয়াদিল্লি।",
+      "section": "surveys_science"
+    },
+    {
+      "term": "BSI / ZSI",
+      "meaning": "Botanical Survey of India (উদ্ভিদ জরিপ, ১৮৯০) / Zoological Survey of India (প্রাণী জরিপ, ১৯১৬; সদর দপ্তর কলকাতা)।",
+      "section": "surveys_science"
+    },
+    {
+      "term": "ASI",
+      "meaning": "Archaeological Survey of India — ১৮৭১ সালে পুনরুজ্জীবিত Archaeological Survey-র উত্তরসূরি বিভাগ।",
+      "section": "heritage_knowledge"
+    },
+    {
+      "term": "CAG",
+      "meaning": "Comptroller and Auditor-General of India — অনুচ্ছেদ ১৪৮-এর সাংবিধানিক পদ; রাষ্ট্রপতি কর্তৃক নিযুক্ত।",
+      "section": "constitutional_bodies"
+    },
+    {
+      "term": "NHRC",
+      "meaning": "National Human Rights Commission — PHRA, ১৯৯৩ অনুযায়ী গঠিত বিধিবদ্ধ সংস্থা (১২ অক্টোবর ১৯৯৩)।",
+      "section": "constitutional_bodies"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "মহাকাশ গবেষণার প্রাতিষ্ঠানিক রূপ",
+      "causes": [
+        "১৯৬২ সালে INCOSPAR গঠনের মাধ্যমে মহাকাশ কার্যক্রমের শুরু"
+      ],
+      "event": "পৃথক মহাকাশ সংস্থা ও বিভাগ গঠন",
+      "results": [
+        "আগস্ট ১৯৬৯-এ ISRO প্রতিষ্ঠিত হয়",
+        "জুন ১৯৭২-এ মহাকাশ বিভাগ (DOS) গঠিত হয় এবং ISRO তার অধীনে আসে",
+        "দুটিরই সদর দপ্তর বেঙ্গালুরুর অন্তরীক্ষ ভবনে"
+      ],
+      "section": "space_atomic",
+      "claims": [
+        "c11",
+        "c12",
+        "c10"
+      ]
+    },
+    {
+      "title": "IRFA থেকে ICMR",
+      "causes": [
+        "১৯১১ সালে স্যার হারকোর্ট বাটলারের প্রতিষ্ঠিত IRFA-র মাধ্যমে চিকিৎসা গবেষণার তহবিল-ভিত্তিক শুরু"
+      ],
+      "event": "স্বাধীনতার পর গবেষণা-কাঠামোর পুনর্গঠন",
+      "results": [
+        "১৯৪৯ সালে IRFA-র নাম বদলে ICMR হয়",
+        "১৯৬০ সালে সদর দপ্তর নয়াদিল্লির আনসারি নগরের নতুন ভবনে সরে আসে"
+      ],
+      "section": "research_councils",
+      "claims": [
+        "c21",
+        "c22",
+        "c23"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "RBI-র কার্যক্রম শুরুর সাল ১৯৩৫ (১ এপ্রিল) — WBCS-এ দুবার এসেছে",
+      "section": "finance_bodies"
+    },
+    {
+      "point": "SEBI-র পুরো নাম ও সদর দপ্তর: SEBI ভবন, BKC, মুম্বই",
+      "section": "finance_bodies"
+    },
+    {
+      "point": "SIDBI = লখনউ, Exim = বম্বে/মুম্বই; আইনের সাল বনাম কার্যকর সালের পার্থক্য",
+      "section": "finance_bodies"
+    },
+    {
+      "point": "ISRO সদর দপ্তর (অন্তরীক্ষ ভবন, বেঙ্গালুরু) — Clerkship-এ এসেছে",
+      "section": "space_atomic"
+    },
+    {
+      "point": "ভাভা-শৃঙ্খল: ১৯৪৫ TIFR, ১৯৪৮ AEC, ১৯৫৪ DAE, ১৯৬৭ BARC",
+      "section": "space_atomic"
+    },
+    {
+      "point": "ICAR (কৃষি) বনাম ICMR (চিকিৎসা); IRFA ১৯১১ → ICMR ১৯৪৯",
+      "section": "research_councils"
+    },
+    {
+      "point": "টপোগ্রাফিক্যাল মানচিত্র = Survey of India (১৭৬৭) — WBCS-এ বারবার",
+      "section": "surveys_science"
+    },
+    {
+      "point": "ZSI সদর দপ্তর কলকাতা (১৯১৬); BSI প্রতিষ্ঠা ১৮৯০; IMD ১৮৭৫",
+      "section": "surveys_science"
+    },
+    {
+      "point": "এশিয়াটিক সোসাইটির প্রতিষ্ঠাতা উইলিয়াম জোন্স (১৭৮৪, কলকাতা) — প্রায় প্রতি পরীক্ষায়",
+      "section": "heritage_knowledge"
+    },
+    {
+      "point": "‘ভারতীয় প্রত্নতত্ত্বের জনক’ কানিংহাম; ECI ১৯৫০/১৯৯৩; CAG প্রতিবেদনের দিক; NHRC ১৯৯৩",
+      "section": "constitutional_bodies"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের সঙ্গে বাংলার যোগ সবচেয়ে গভীর ঐতিহ্য ও জরিপ অংশে। এশিয়াটিক সোসাইটির জন্ম কলকাতাতেই — ১৭৮৪ সালের ১৫ জানুয়ারি উইলিয়াম জোন্স এখানেই সোসাইটিটি গড়েন, আর তার পত্রিকা Asiatick Researches-ও (১৭৮৮) এই ধারারই ফল। Zoological Survey of India-র শিকড় ১৮৭৫ সালে কলকাতার ভারতীয় জাদুঘরের প্রাণী বিভাগে, আর ১৯১৬ সালে প্রতিষ্ঠিত ZSI-র সদর দপ্তরও কলকাতায় — ১৬টি আঞ্চলিক কেন্দ্রের প্রধান কার্যালয় এই শহরেই। অর্থাৎ ভারতের জ্ঞানচর্চা ও বিজ্ঞান-জরিপের প্রাতিষ্ঠানিক ইতিহাসের একটা বড় অংশ শুরু হয়েছিল কলকাতা থেকে — বাংলার ছাত্রের কাছে এই অধ্যায় তাই অনেকটাই নিজের শহরের ইতিহাস।",
+    "claims": [
+      "c34",
+      "c35",
+      "c29",
+      "c28",
+      "c30"
+    ]
+  },
+  "quick_revision": [
+    "RBI: কার্যক্রম শুরু ১ এপ্রিল ১৯৩৫।",
+    "SEBI: প্রধান দপ্তর SEBI ভবন, বান্দ্রা-কুর্লা কমপ্লেক্স, মুম্বই।",
+    "SIDBI: আইন ১৯৮৯ (নং ৩৯), কার্যকর ৭ মার্চ ১৯৯০; প্রধান কার্যালয় লখনউ।",
+    "Exim Bank: আইন ১৯৮১, কার্যকর ১ জানুয়ারি ১৯৮২; প্রধান দপ্তর বম্বে (মুম্বই)।",
+    "ISRO: INCOSPAR ১৯৬২ → ISRO আগস্ট ১৯৬৯ → DOS জুন ১৯৭২; সদর দপ্তর অন্তরীক্ষ ভবন, বেঙ্গালুরু।",
+    "ভাভা-শৃঙ্খল: TIFR ১৯৪৫ → AEC ১৯৪৮ → DAE ১৯৫৪ → BARC ১২ জানুয়ারি ১৯৬৭ (ট্রম্বে)।",
+    "ICAR: কৃষি গবেষণায় দেশের প্রধান প্রতিষ্ঠান; প্রতিষ্ঠা দিবস NASC কমপ্লেক্স, নয়াদিল্লিতে।",
+    "ICMR: IRFA ১৯১১ (হারকোর্ট বাটলার) → নাম বদলে ICMR ১৯৪৯; সদর দপ্তর আনসারি নগর, নয়াদিল্লি।",
+    "IMD: প্রতিষ্ঠা ১৮৭৫; মহাপরিচালকের দপ্তর মৌসম ভবন, লোদি রোড, নয়াদিল্লি।",
+    "BSI: আনুষ্ঠানিক গঠন ১৩ ফেব্রুয়ারি ১৮৯০ — উদ্ভিদসম্পদ জরিপ।",
+    "ZSI: প্রতিষ্ঠা ১ জুলাই ১৯১৬; শিকড় ১৮৭৫ (ভারতীয় জাদুঘর, কলকাতা); সদর দপ্তর কলকাতা।",
+    "Survey of India: গঠন ১৭৬৭; প্রাচীনতম বিজ্ঞান বিভাগ; Surveyor General-এর দপ্তর হাতিবাড়কালা এস্টেট, দেরাদুন।",
+    "এশিয়াটিক সোসাইটি: ১৫ জানুয়ারি ১৭৮৪, কলকাতা, উইলিয়াম জোন্স; পত্রিকা Asiatick Researches ১৭৮৮।",
+    "কানিংহাম: প্রথম Archaeological Surveyor ১৮৬১; পুনরুজ্জীবিত বিভাগের প্রথম DG ১৮৭১।",
+    "ECI: প্রতিষ্ঠা ২৫ জানুয়ারি ১৯৫০; বহু-সদস্য ১ অক্টোবর ১৯৯৩; সদর দপ্তর নয়াদিল্লি।",
+    "CAG: অনুচ্ছেদ ১৪৮; রাষ্ট্রপতি নিয়োগ করেন; কেন্দ্রের প্রতিবেদন রাষ্ট্রপতিকে, রাজ্যের প্রতিবেদন রাজ্যপালকে।",
+    "NHRC: প্রতিষ্ঠা ১২ অক্টোবর ১৯৯৩ (PHRA, ১৯৯৩); দপ্তর মানব অধিকার ভবন, INA, নয়াদিল্লি।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Department of Space and ISRO HQ — Indian Space Research Organisation (ISRO)",
+      "url": "https://new1.isro.gov.in/ISRO_EN/DOS&ISROHQ.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "The Setup — Election Commission of India (old.eci.gov.in)",
+      "url": "https://old.eci.gov.in/about/about-eci/the-setup-r1/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "About ECI — Election Commission of India (old.eci.gov.in)",
+      "url": "https://old.eci.gov.in/about/about-eci/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "History — Indian Council of Medical Research (ICMR)",
+      "url": "https://www.icmr.gov.in/history",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "History — Archaeological Survey of India (asi.nic.in)",
+      "url": "https://asi.nic.in/HQ/history-view",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "About the Organisation — National Human Rights Commission (nhrc.nic.in)",
+      "url": "https://nhrc.nic.in/about-the-organisation",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "Invitation for Expression of Interest for Research Projects — NHRC letterhead document (nhrc.nic.in)",
+      "url": "https://nhrc.nic.in/assets/uploads/tender/Invitation_for_Expression_of_Interest_for_Research_Projects_12_06_2023.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "Mandate and contact — India Meteorological Department (mausam.imd.gov.in)",
+      "url": "https://mausam.imd.gov.in/responsive/mandate.php",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "Brief History — Botanical Survey of India (bsi.gov.in)",
+      "url": "https://bsi.gov.in/page/en/brief-history",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "Constitutional Provisions (Article 148-151) — Comptroller and Auditor General of India (cag.gov.in)",
+      "url": "https://cag.gov.in/en/page-constitutional-provisions",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "Contact Us — Securities and Exchange Board of India (sebi.gov.in)",
+      "url": "https://www.sebi.gov.in/contact-us.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s12",
+      "title": "Survey of India — home page (surveyofindia.gov.in)",
+      "url": "https://surveyofindia.gov.in/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s13",
+      "title": "Residential Estates and Community Halls — Survey of India (surveyofindia.gov.in)",
+      "url": "https://surveyofindia.gov.in/pages/residential-estates-community-halls",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s14",
+      "title": "The Small Industries Development Bank of India Act, 1989 (Act 39 of 1989) — thc.nic.in",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Small%20Industries%20Development%20Bank%20of%20India%20Act,%201989.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s15",
+      "title": "The Export-Import Bank of India Act, 1981 (Act 28 of 1981) — Bombay High Court legislation library (bombayhighcourt.gov.in)",
+      "url": "https://bombayhighcourt.gov.in/bhc/libweb/legislation/actc/1981.28.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s16",
+      "title": "BARC Newsletter, Founder's Day Special Issue, October 2000 — Bhabha Atomic Research Centre (barc.gov.in)",
+      "url": "https://www.barc.gov.in/barc_nl/2000/200010.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s17",
+      "title": "PM addresses RBI@90 opening ceremony — Press Information Bureau (PRID 2016770)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2016770&lang=2&pli=1&reg=3&tf=1&ui=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s18",
+      "title": "ICAR to organise 97th Foundation Day and Award Ceremony — Press Information Bureau (PRID 2144934)",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2144934&lang=2&reg=3",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s19",
+      "title": "Zoological Survey of India — home page, Hindi (zsi.gov.in)",
+      "url": "https://zsi.gov.in/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s20",
+      "title": "India Code: Export-Import Bank of India Act, 1981 — record (indiacode.nic.in)",
+      "url": "https://www.indiacode.nic.in/handle/123456789/1782?locale=hi",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "The Reserve Bank of India (RBI) commenced its operations on 1 April 1935.",
+      "source": "s17",
+      "page": "Lead paragraph",
+      "quote": "The Reserve Bank of India (RBI) commenced its operations on the 1st of April in 1935 and enters its 90th year today."
+    },
+    {
+      "id": "c02",
+      "claim": "The Head Office of the Securities and Exchange Board of India (SEBI) is SEBI Bhavan at Bandra-Kurla Complex (BKC), Bandra (East), Mumbai.",
+      "source": "s11",
+      "page": "Head Office address block",
+      "quote": "SEBI Bhavan BKC, Plot No.C4-A, 'G' Block, Bandra-Kurla Complex, Bandra (East), Mumbai - 400051, Maharashtra"
+    },
+    {
+      "id": "c03",
+      "claim": "The SIDBI Act establishes the Small Industries Development Bank of India as the principal financial institution for the promotion, financing and development of industry in the small-scale sector.",
+      "source": "s14",
+      "page": "Long title of the Act",
+      "quote": "An Act to establish the Small Industries Development Bank of India as the principal financial institution for the promotion, financing and development of industry in the small-scale sector"
+    },
+    {
+      "id": "c04",
+      "claim": "Under section 3(3) of the SIDBI Act, 1989, the head office of the Small Industries Bank (SIDBI) is at Lucknow.",
+      "source": "s14",
+      "page": "Section 3(3)",
+      "quote": "The head office of the Small Industries Bank shall be at Lucknow or at such other place as the Central Government may, by notification, specify."
+    },
+    {
+      "id": "c05",
+      "claim": "The SIDBI Act is Act No. 39 of 1989, dated 25 October 1989.",
+      "source": "s14",
+      "page": "Act heading",
+      "quote": "ACT NO. 39 OF 1989 [25th October, 1989.]"
+    },
+    {
+      "id": "c06",
+      "claim": "The SIDBI Act, 1989 came into force on 7 March 1990.",
+      "source": "s14",
+      "page": "Commencement footnote to section 1",
+      "quote": "7th March, 1990, vide notification No. S.O. 197(E), dated 7th March, 1990"
+    },
+    {
+      "id": "c07",
+      "claim": "The Export-Import Bank of India (Exim Bank) was established to provide financial assistance to exporters and importers and to function as the principal financial institution for co-ordinating institutions engaged in financing export and import of goods and services, so as to promote India's international trade.",
+      "source": "s15",
+      "page": "Long title of the Act",
+      "quote": "An Act to establish a corporation to be known as the Export-Import Bank of India for providing financial assistance to exporters and importers, and for functioning as the principal financial institution for co-ordinating the working of institutions engaged in financing export and import of goods and services with a view to promoting the country's international trade"
+    },
+    {
+      "id": "c08",
+      "claim": "Under section 3(3) of the Exim Bank Act, 1981, the head office of the Exim Bank is at Bombay (now Mumbai).",
+      "source": "s15",
+      "page": "Section 3(3)",
+      "quote": "The head office of the Exim Bank shall be at Bombay or at such other place as the Central Government may, by notification, specify."
+    },
+    {
+      "id": "c09",
+      "claim": "The Export-Import Bank of India Act, 1981 (Act 28 of 1981) was enforced from 1 January 1982.",
+      "source": "s20",
+      "page": "Act record: Enforcement Date and notification",
+      "quote": "Enforcement Date: 01-01-1982"
+    },
+    {
+      "id": "c10",
+      "claim": "The headquarters of the Department of Space and ISRO are located at Antariksh Bhavan in Bangalore (Bengaluru).",
+      "source": "s1",
+      "page": "DOS and ISRO HQ section",
+      "quote": "The Secretariat of DOS and ISRO Headquarters are located at Antariksh Bhavan in Bangalore."
+    },
+    {
+      "id": "c11",
+      "claim": "Space activities in India began with the setting up of the Indian National Committee for Space Research (INCOSPAR) in 1962.",
+      "source": "s1",
+      "page": "History section",
+      "quote": "With the setting up of Indian National Committee for Space Research (INCOSPAR) in 1962, the space activities in the country were initiated."
+    },
+    {
+      "id": "c12",
+      "claim": "The Indian Space Research Organisation (ISRO) was established in August 1969; the Department of Space (DOS) was established in June 1972 and ISRO was brought under DOS in September 1972.",
+      "source": "s1",
+      "page": "History section",
+      "quote": "Indian Space Research Organisation (ISRO) was established in August 1969. The Government of India constituted the Space Commission and established the Department of Space (DOS) in June 1972 and brought ISRO under DOS in September 1972."
+    },
+    {
+      "id": "c13",
+      "claim": "Homi Bhabha founded the Tata Institute of Fundamental Research (TIFR) in Mumbai in 1945.",
+      "source": "s16",
+      "page": "Bhabha biography section",
+      "quote": "In 1945, Bhabha founded the Tata Institute of Fundamental Research (TIFR) in Mumbai with a grant from Sir Dorab Tata Trust."
+    },
+    {
+      "id": "c14",
+      "claim": "The Atomic Energy Commission was set up on 10 August 1948 with Homi Bhabha as its Chairman.",
+      "source": "s16",
+      "page": "Bhabha biography section",
+      "quote": "Later on August 10, 1948, the Atomic Energy Commission was set up by the Government of India with Bhabha as its Chairman."
+    },
+    {
+      "id": "c15",
+      "claim": "The Department of Atomic Energy (DAE) was created in 1954.",
+      "source": "s16",
+      "page": "Bhabha biography section",
+      "quote": "In 1954, the Department of Atomic Energy (DAE) was created"
+    },
+    {
+      "id": "c16",
+      "claim": "The Atomic Energy Establishment, Trombay (AEET) — the establishment that later became BARC — was built up at Trombay.",
+      "source": "s16",
+      "page": "Bhabha biography section",
+      "quote": "buildings and facilities started coming up at Atomic Energy Establishment, Trombay (AEET)"
+    },
+    {
+      "id": "c17",
+      "claim": "On 12 January 1967 the Atomic Energy Establishment, Trombay (AEET) was renamed the Bhabha Atomic Research Centre (BARC) in memory of Homi Bhabha.",
+      "source": "s16",
+      "page": "Bhabha biography section",
+      "quote": "On January 12, 1967, AEET was re-named as Bhabha Atomic Research Centre in memory of Homi Bhabha."
+    },
+    {
+      "id": "c18",
+      "claim": "Homi Jehangir Bhabha lived from 1909 to 1966.",
+      "source": "s16",
+      "page": "Issue header / biography heading",
+      "quote": "Homi Jehangir Bhabha (1909-1966)"
+    },
+    {
+      "id": "c19",
+      "claim": "The Indian Council of Agricultural Research (ICAR) is India's premier institution for agricultural research and education.",
+      "source": "s18",
+      "page": "Background paragraph",
+      "quote": "The ICAR Foundation Day marks the establishment of India's premier institution for agricultural research and education"
+    },
+    {
+      "id": "c20",
+      "claim": "ICAR's Foundation Day celebrations are held at the NASC Complex in New Delhi (the 97th Foundation Day was organised there in July 2025).",
+      "source": "s18",
+      "page": "Lead paragraph",
+      "quote": "The Indian Council of Agricultural Research will organise 97th Foundation Day at the C. Subramaniam Hall, NASC Complex, New Delhi."
+    },
+    {
+      "id": "c21",
+      "claim": "The Indian Research Fund Association (IRFA) was established by Sir Harcourt Butler on 15 November 1911.",
+      "source": "s4",
+      "page": "History timeline, year 1911",
+      "quote": "Indian Research Fund Association (IRFA) is established by Sir Harcourt Butler on November 15."
+    },
+    {
+      "id": "c22",
+      "claim": "The Indian Research Fund Association (IRFA) was renamed the Indian Council of Medical Research (ICMR) in 1949.",
+      "source": "s4",
+      "page": "History timeline, year 1949",
+      "quote": "IRFA is renamed to the Indian Council of Medical Research."
+    },
+    {
+      "id": "c23",
+      "claim": "The ICMR headquarters office is at Ansari Nagar, New Delhi (it moved into its newly constructed building there in 1960).",
+      "source": "s4",
+      "page": "History timeline, year 1960",
+      "quote": "The ICMR Headquarters office moves in its newly constructed building in Ansari Nagar, New Delhi."
+    },
+    {
+      "id": "c24",
+      "claim": "The India Meteorological Department (IMD) was established in 1875; it is the National Meteorological Service of the country and the principal government agency for meteorology and allied subjects.",
+      "source": "s8",
+      "page": "Mandate section",
+      "quote": "India Meteorological Department was established in 1875. It is the National Meteorological Service of the country and the principal government agency in all matters relating to meteorology and allied subjects."
+    },
+    {
+      "id": "c25",
+      "claim": "The office of the Director General of Meteorology, IMD, is at Mausam Bhawan, Lodhi Road, New Delhi.",
+      "source": "s8",
+      "page": "Contact block",
+      "quote": "Office of Director General of Meteorology, India Meteorological Department (IMD), Mausam Bhawan, Lodhi Road, New Delhi - 110003"
+    },
+    {
+      "id": "c26",
+      "claim": "The Botanical Survey of India (BSI) was established in 1890 to explore the plant resources of the country and identify plant species of economic value.",
+      "source": "s9",
+      "page": "Brief history, opening paragraph",
+      "quote": "The Botanical Survey of India (BSI) was established in 1890 with the objectives of exploring the plant resources of the country and identifying plant species with economic virtue."
+    },
+    {
+      "id": "c27",
+      "claim": "A survey was formally constituted and designated as the Botanical Survey of India on 13 February 1890.",
+      "source": "s9",
+      "page": "Brief history",
+      "quote": "On 13 February 1890, a survey was formally constituted and designated as the Botanical Survey of India."
+    },
+    {
+      "id": "c28",
+      "claim": "The Zoological Survey of India (ZSI) was established on 1 July 1916.",
+      "source": "s19",
+      "page": "Home page, about text (Hindi)",
+      "quote": "जूलॉजिकल सर्वे ऑफ इंडिया (जेडएसआई) की स्थापना 1 जुलाई, 1916 को"
+    },
+    {
+      "id": "c29",
+      "claim": "The origin of the Zoological Survey of India goes back to the Zoological Section of the Indian Museum at Calcutta, set up in 1875.",
+      "source": "s19",
+      "page": "Home page, about text (Hindi)",
+      "quote": "सर्वेक्षण की उत्पत्ति 1875 में कलकत्ता में भारतीय संग्रहालय के प्राणी विभाग की स्थापना में हुई थी।"
+    },
+    {
+      "id": "c30",
+      "claim": "The headquarters of the Zoological Survey of India is at Kolkata, and it has 16 regional centres.",
+      "source": "s19",
+      "page": "Home page, about text (Hindi)",
+      "quote": "कोलकाता में मुख्यालय वाले ZSI के 16 क्षेत्रीय केंद्र हैं"
+    },
+    {
+      "id": "c31",
+      "claim": "The Survey of India was set up in 1767 and is the nation's Principal Mapping Agency.",
+      "source": "s12",
+      "page": "Home page, about text",
+      "quote": "It was set up in 1767 and has evolved rich traditions over the years. In its assigned role as the nation's Principal Mapping Agency"
+    },
+    {
+      "id": "c32",
+      "claim": "The Survey of India, under the Department of Science & Technology, is the oldest scientific department of the Government of India.",
+      "source": "s12",
+      "page": "Home page, banner text",
+      "quote": "Survey of India, The National Mapping Agency of the country under the Department of Science & Technology, is the OLDEST SCIENTIFIC DEPARTMENT OF THE GOVT. OF INDIA."
+    },
+    {
+      "id": "c33",
+      "claim": "The office of the Surveyor General of India is at Hathibarkala Estate, Dehradun.",
+      "source": "s13",
+      "page": "Estates table, Dehradun row",
+      "quote": "Dehradun, Hathibarkala Estate | O/o The Surveyor General of India"
+    },
+    {
+      "id": "c34",
+      "claim": "Sir William Jones formed the Asiatic Society on 15 January 1784 in Calcutta.",
+      "source": "s5",
+      "page": "History page, opening section",
+      "quote": "Archaeological and historical pursuits in India started with the efforts of Sir William Jones, who put together a group of antiquarians to form the Asiatic Society on 15th January 1784 in Calcuta."
+    },
+    {
+      "id": "c35",
+      "claim": "The Asiatic Society's journal Asiatick Researches began publication in 1788.",
+      "source": "s5",
+      "page": "History page, opening section",
+      "quote": "This endeavour put forward by Jones culminated in the publication of a periodical journal named, Asiatick Researches started in 1788."
+    },
+    {
+      "id": "c36",
+      "claim": "Similar societies to the Asiatic Society were later started at Bombay in 1804 and at Madras in 1818.",
+      "source": "s5",
+      "page": "History page, opening section",
+      "quote": "Later, similar societies were started at Bombay (Mumbai) in 1804 and at Madras (Chennai) in 1818."
+    },
+    {
+      "id": "c37",
+      "claim": "Alexander Cunningham was appointed the first Archaeological Surveyor from December 1861.",
+      "source": "s5",
+      "page": "History page, Cunningham section",
+      "quote": "Cunningham was appointed as the first Archaeological Surveyor from December 1861."
+    },
+    {
+      "id": "c38",
+      "claim": "The Archaeological Survey was abolished in 1866 by Lord Lawrence.",
+      "source": "s5",
+      "page": "History page, Cunningham section",
+      "quote": "the abolition of the Archaeological Survey in 1866 by Lord Lawrence"
+    },
+    {
+      "id": "c39",
+      "claim": "The Archaeological Survey was revived as a distinct department of the government and Cunningham was appointed Director General, assuming charge in February 1871.",
+      "source": "s5",
+      "page": "History page, Cunningham section",
+      "quote": "The Archaeological Survey was revived as a distinct department of the government and Cunningham was appointed as Director General who assumed his charge in February 1871."
+    },
+    {
+      "id": "c40",
+      "claim": "The Election Commission of India is a permanent Constitutional Body, established in accordance with the Constitution on 25 January 1950.",
+      "source": "s2",
+      "page": "The Setup, opening paragraphs",
+      "quote": "Election Commission of India is a permanent Constitutional Body. The Election Commission was established in accordance with the Constitution on 25th January 1950."
+    },
+    {
+      "id": "c41",
+      "claim": "The Constitution vests in the Election Commission of India the superintendence, direction and control of elections to Parliament, State Legislatures and the offices of President and Vice-President of India.",
+      "source": "s2",
+      "page": "The Setup, opening paragraph",
+      "quote": "The Constitution of India has vested in the Election Commission of India the superintendence, direction and control of the entire process for conduct of elections to Parliament and Legislature of every State and to the offices of President and Vice-President of India."
+    },
+    {
+      "id": "c42",
+      "claim": "The Election Commission became a multi-member body on 1 October 1993, when two additional Election Commissioners were appointed, and has functioned as a multi-member Commission since then.",
+      "source": "s2",
+      "page": "The Setup, composition paragraphs",
+      "quote": "Later, on 1st October 1993 two additional Election Commissioners were appointed. The concept of multi-member Commission has been in operation since then"
+    },
+    {
+      "id": "c43",
+      "claim": "The Election Commission of India has its headquarters in New Delhi.",
+      "source": "s3",
+      "page": "About ECI, secretariat paragraph",
+      "quote": "The Commission has its headquarters in New Delhi, with a Secretariat of some 350 staff members."
+    },
+    {
+      "id": "c44",
+      "claim": "Under Article 148, the Comptroller and Auditor-General of India is appointed by the President by warrant under his hand and seal, and can be removed only in like manner and on like grounds as a Judge of the Supreme Court.",
+      "source": "s10",
+      "page": "Article 148 text",
+      "quote": "There shall be a Comptroller and Auditor-General of India who shall be appointed by the President by warrant under his hand and seal and shall only be removed from office in like manner and on like grounds as a Judge of the Supreme Court."
+    },
+    {
+      "id": "c45",
+      "claim": "The CAG's reports relating to the accounts of a State are submitted to the Governor of the State, who causes them to be laid before the State Legislature.",
+      "source": "s10",
+      "page": "Article 151 text",
+      "quote": "The reports of the Comptroller and Auditor-General of India relating to the accounts of a State shall be submitted to the Governor of the State, who shall cause them to be laid before the Legislature of the State."
+    },
+    {
+      "id": "c46",
+      "claim": "The CAG's reports relating to the accounts of the Union are submitted to the President, who causes them to be laid before each House of Parliament.",
+      "source": "s10",
+      "page": "Article 151 text",
+      "quote": "shall be submitted to the president, who shall cause them to be laid before each House of Parliament."
+    },
+    {
+      "id": "c47",
+      "claim": "The National Human Rights Commission (NHRC) of India was established on 12 October 1993 under the Protection of Human Rights Act (PHRA), 1993.",
+      "source": "s6",
+      "page": "About the Organisation, opening paragraph",
+      "quote": "The National Human Rights Commission (NHRC) of India was established on 12 October, 1993. The statute under which it is established is the Protection of Human Rights Act (PHRA), 1993 as amended by the Protection of Human Rights (Amendment) Act, 2019."
+    },
+    {
+      "id": "c48",
+      "claim": "The NHRC's office is at Manav Adhikar Bhawan, C-Block, GPO Complex, INA, New Delhi.",
+      "source": "s7",
+      "page": "Document letterhead",
+      "quote": "NATIONAL HUMAN RIGHTS COMMISSION, MANAV ADHIKAR BHAWAN, C-BLOCK, GPO COMPLEX, INA, NEW DELHI – 110023"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের কেন্দ্রীয় ব্যাংক RBI-র কার্যক্রম শুরু হয় কবে?",
+      "a": "১ এপ্রিল ১৯৩৫",
+      "w": [
+        "১ এপ্রিল ১৯৩৪",
+        "১ জানুয়ারি ১৯৪৯",
+        "১৫ আগস্ট ১৯৪৭"
+      ],
+      "e": "PIB-র RBI@90 বিজ্ঞপ্তি অনুযায়ী RBI-র কার্যক্রম শুরু হয় ১৯৩৫ সালের ১ এপ্রিল; ২০২৪ সালে প্রতিষ্ঠানটি ৯০ বছর পূর্ণ করে।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SEBI-র প্রধান দপ্তর কোথায় অবস্থিত?",
+      "a": "SEBI ভবন, বান্দ্রা-কুর্লা কমপ্লেক্স, মুম্বই",
+      "w": [
+        "দালাল স্ট্রিট, মুম্বই",
+        "সংসদ মার্গ, নয়াদিল্লি",
+        "ক্যামাক স্ট্রিট, কলকাতা"
+      ],
+      "e": "SEBI-র নিজস্ব যোগাযোগ পৃষ্ঠা অনুযায়ী প্রধান দপ্তর (Head Office) মুম্বইয়ের বান্দ্রা (পূর্ব)-এর BKC-তে SEBI ভবনে। শুধু ‘মুম্বই’ নয়, BKC-ও মনে রাখো।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SIDBI আইন, ১৯৮৯ অনুযায়ী SIDBI-র প্রধান কার্যালয় কোন শহরে?",
+      "a": "লখনউ",
+      "w": [
+        "মুম্বই",
+        "নয়াদিল্লি",
+        "কানপুর"
+      ],
+      "e": "আইনের ৩(৩) ধারা বলছে, Small Industries Bank-এর প্রধান কার্যালয় লখনউতে থাকবে (কেন্দ্রীয় সরকার বিজ্ঞপ্তি দিয়ে বদলাতে পারে)।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Exim Bank আইন, ১৯৮১ অনুযায়ী Exim Bank-এর প্রধান দপ্তর কোন শহরে রাখা হয়েছে?",
+      "a": "বম্বে (বর্তমান মুম্বই)",
+      "w": [
+        "নয়াদিল্লি",
+        "চেন্নাই",
+        "কলকাতা"
+      ],
+      "e": "আইনের ৩(৩) ধারায় শহরের নাম ‘Bombay’ লেখা আছে — সেটিই আজকের মুম্বই।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "finance_bodies",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SIDBI কোন খাতের উন্নয়নে প্রধান আর্থিক প্রতিষ্ঠান হিসেবে গঠিত হয়?",
+      "a": "ক্ষুদ্র শিল্প (small-scale) খাত",
+      "w": [
+        "বৃহৎ ভারী শিল্প খাত",
+        "কৃষি খাত",
+        "তথ্যপ্রযুক্তি খাত"
+      ],
+      "e": "SIDBI আইনের দীর্ঘ শিরোনাম অনুযায়ী SIDBI হল ক্ষুদ্র শিল্প খাতের প্রচার, অর্থায়ন ও উন্নয়নের প্রধান আর্থিক প্রতিষ্ঠান।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "finance_bodies",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "Exim Bank সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. এটি রপ্তানিকারক ও আমদানিকারকদের আর্থিক সহায়তা দেয়।\n২. এটি রপ্তানি-আমদানি অর্থায়নে যুক্ত প্রতিষ্ঠানগুলির কাজের সমন্বয়কারী প্রধান প্রতিষ্ঠান।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "Exim Bank আইন, ১৯৮১-র দীর্ঘ শিরোনামেই দুটি ভূমিকা বলা আছে — রপ্তানি-আমদানিতে আর্থিক সহায়তা এবং সংশ্লিষ্ট প্রতিষ্ঠানগুলির সমন্বয়, যাতে দেশের আন্তর্জাতিক বাণিজ্য বাড়ে।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "finance_bodies",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "SIDBI আইন কোন সালের এবং এর নম্বর কত?",
+      "a": "১৯৮৯ সালের ৩৯ নম্বর আইন",
+      "w": [
+        "১৯৯০ সালের ৩৯ নম্বর আইন",
+        "১৯৮৯ সালের ২৮ নম্বর আইন",
+        "১৯৮২ সালের ৩৯ নম্বর আইন"
+      ],
+      "e": "আইনের শিরোনামে লেখা ‘ACT NO. 39 OF 1989’ (২৫ অক্টোবর ১৯৮৯)। ২৮ নম্বরটি Exim Bank আইনের — গুলিয়ে ফেলো না।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "finance_bodies",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলি কালানুক্রমে সাজাও (আগেরটি আগে):\n১. RBI-র কার্যক্রম শুরু\n২. Exim Bank আইন কার্যকর\n৩. SIDBI আইন প্রণয়ন\n৪. SIDBI আইন কার্যকর",
+      "a": "১, ২, ৩, ৪",
+      "w": [
+        "১, ৩, ২, ৪",
+        "২, ১, ৩, ৪",
+        "১, ২, ৪, ৩"
+      ],
+      "e": "ক্রম: RBI ১৯৩৫ → Exim আইন কার্যকর ১ জানুয়ারি ১৯৮২ → SIDBI আইন ১৯৮৯ → SIDBI আইন কার্যকর ৭ মার্চ ১৯৯০।",
+      "claims": [
+        "c01",
+        "c09",
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "space_atomic",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ISRO ও মহাকাশ বিভাগের সদর দপ্তর কোথায়?",
+      "a": "অন্তরীক্ষ ভবন, বেঙ্গালুরু",
+      "w": [
+        "শ্রীহরিকোটা, অন্ধ্রপ্রদেশ",
+        "তিরুবনন্তপুরম, কেরল",
+        "আহমেদাবাদ, গুজরাট"
+      ],
+      "e": "ISRO-র সরকারি পৃষ্ঠা অনুযায়ী DOS-এর সচিবালয় ও ISRO সদর দপ্তর বেঙ্গালুরুর অন্তরীক্ষ ভবনে। উৎক্ষেপণ কেন্দ্র শ্রীহরিকোটা — সদর দপ্তর নয়।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "space_atomic",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের মহাকাশ কার্যক্রমের সূচনা হয় কোন সংস্থা গঠনের মাধ্যমে, কবে?",
+      "a": "INCOSPAR, ১৯৬২",
+      "w": [
+        "ISRO, ১৯৬৯",
+        "মহাকাশ বিভাগ, ১৯৭২",
+        "INCOSPAR, ১৯৫৮"
+      ],
+      "e": "Indian National Committee for Space Research (INCOSPAR) গঠিত হয় ১৯৬২ সালে — এখান থেকেই মহাকাশ কার্যক্রমের শুরু; ISRO আসে পরে, ১৯৬৯-এ।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "space_atomic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ISRO প্রতিষ্ঠিত হয় কবে?",
+      "a": "আগস্ট ১৯৬৯",
+      "w": [
+        "আগস্ট ১৯৬২",
+        "জুন ১৯৭২",
+        "জানুয়ারি ১৯৬৭"
+      ],
+      "e": "ISRO প্রতিষ্ঠা আগস্ট ১৯৬৯; মহাকাশ বিভাগ গঠিত হয় পরে — জুন ১৯৭২, আর সেপ্টেম্বর ১৯৭২-এ ISRO তার অধীনে আসে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "space_atomic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Tata Institute of Fundamental Research (TIFR) কে, কবে প্রতিষ্ঠা করেন?",
+      "a": "হোমি ভাভা, ১৯৪৫",
+      "w": [
+        "বিক্রম সারাভাই, ১৯৪৭",
+        "হোমি ভাভা, ১৯৪৮",
+        "সি. ভি. রামন, ১৯৩৩"
+      ],
+      "e": "BARC-র সরকারি নিউজলেটার অনুযায়ী ১৯৪৫ সালে হোমি ভাভা মুম্বইয়ে TIFR প্রতিষ্ঠা করেন।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "space_atomic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতে পরমাণু শক্তি বিভাগ (DAE) গঠিত হয় কোন সালে?",
+      "a": "১৯৫৪",
+      "w": [
+        "১৯৪৫",
+        "১৯৪৮",
+        "১৯৬৭"
+      ],
+      "e": "ধারাটি হল: TIFR ১৯৪৫ → পরমাণু শক্তি কমিশন ১৯৪৮ → DAE ১৯৫৪।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "space_atomic",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "BARC সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. BARC-র পূর্বসূরি প্রতিষ্ঠান AEET ছিল ট্রম্বেতে।\n২. AEET-র নাম বদলে BARC হয় হোমি ভাভার স্মৃতিতে।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "ট্রম্বেতে গড়ে ওঠা Atomic Energy Establishment, Trombay (AEET)-ই ১৯৬৭ সালের ১২ জানুয়ারি ভাভার স্মৃতিতে Bhabha Atomic Research Centre নাম পায়।",
+      "claims": [
+        "c16",
+        "c17"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "space_atomic",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "AEET-র নাম বদলে Bhabha Atomic Research Centre (BARC) হয় কবে?",
+      "a": "১২ জানুয়ারি ১৯৬৭",
+      "w": [
+        "১০ আগস্ট ১৯৪৮",
+        "১ জানুয়ারি ১৯৫৪",
+        "২৬ জানুয়ারি ১৯৬৬"
+      ],
+      "e": "ভাভার মৃত্যুর (১৯৬৬) পরের বছর, ১৯৬৭ সালের ১২ জানুয়ারি AEET-র নতুন নাম হয় BARC। ভাভার জীবনকাল ১৯০৯–১৯৬৬।",
+      "claims": [
+        "c17",
+        "c18"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "space_atomic",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): ১৯৪৮ সালে গঠিত পরমাণু শক্তি কমিশনের প্রথম সভাপতি হন হোমি ভাভা।\nকারণ (R): ভাভা ১৯৪৫ সালে মুম্বইয়ে TIFR প্রতিষ্ঠা করে ভারতের মৌলিক গবেষণার ভিত গড়েছিলেন।",
+      "a": "A ও R উভয়ই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+      "w": [
+        "A ও R উভয়ই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "BARC-র তথ্য অনুযায়ী দুটি কথাই সঠিক: ১৯৪৮ সালের ১০ আগস্ট পরমাণু শক্তি কমিশন গঠিত হয় হোমি ভাভাকে সভাপতি করে, আর ভাভা ১৯৪৫ সালে মুম্বইয়ে TIFR প্রতিষ্ঠা করেছিলেন। কিন্তু TIFR প্রতিষ্ঠাই তাঁর কমিশনের সভাপতি হওয়ার কারণ — এমন কোনো কার্যকারণ সম্পর্ক উৎসে বলা হয়নি; R শুধু তাঁর গবেষণা-নেতৃত্বের পটভূমি দেখায়। তাই R, A-এর সঠিক ব্যাখ্যা নয়। (Blind key-check 2026-11-19-এ এই সংশোধন গৃহীত হয়।)",
+      "claims": [
+        "c14",
+        "c13"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "research_councils",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কৃষি গবেষণা ও শিক্ষায় ভারতের প্রধান প্রতিষ্ঠান কোনটি?",
+      "a": "ICAR (Indian Council of Agricultural Research)",
+      "w": [
+        "ICMR (Indian Council of Medical Research)",
+        "CSIR",
+        "ICSSR"
+      ],
+      "e": "PIB অনুযায়ী ICAR হল কৃষি গবেষণা ও শিক্ষায় ভারতের প্রধান (premier) প্রতিষ্ঠান। মাঝের অক্ষর মনে রাখো: A = Agriculture।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "research_councils",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ICMR-র সদর দপ্তর কোথায়?",
+      "a": "আনসারি নগর, নয়াদিল্লি",
+      "w": [
+        "লোদি রোড, নয়াদিল্লি",
+        "পুসা, নয়াদিল্লি",
+        "নিউ আলিপুর, কলকাতা"
+      ],
+      "e": "ICMR-র ইতিহাস পৃষ্ঠা অনুযায়ী ১৯৬০ সালে এর সদর দপ্তর নয়াদিল্লির আনসারি নগরে নিজস্ব নতুন ভবনে সরে আসে। লোদি রোড হল IMD-র মৌসম ভবনের ঠিকানা।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "research_councils",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Indian Research Fund Association (IRFA) কে, কবে প্রতিষ্ঠা করেন?",
+      "a": "স্যার হারকোর্ট বাটলার, ১৫ নভেম্বর ১৯১১",
+      "w": [
+        "স্যার হারকোর্ট বাটলার, ১৯৪৯",
+        "লর্ড কার্জন, ১৯১১",
+        "ড. বি. সি. রায়, ১৫ নভেম্বর ১৯৪৯"
+      ],
+      "e": "ICMR-র ইতিহাস অনুযায়ী IRFA প্রতিষ্ঠা করেন স্যার হারকোর্ট বাটলার, ১৯১১ সালের ১৫ নভেম্বর।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "research_councils",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IRFA-র নাম বদলে Indian Council of Medical Research (ICMR) হয় কোন সালে?",
+      "a": "১৯৪৯",
+      "w": [
+        "১৯১১",
+        "১৯৬০",
+        "১৯৫০"
+      ],
+      "e": "১৯৪৯ সালে IRFA-র নাম বদলে ICMR হয়; ১৯৬০ সালটি হল আনসারি নগরের ভবনে সরে আসার বছর।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "research_councils",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ICAR-র প্রতিষ্ঠা দিবসের কেন্দ্রীয় অনুষ্ঠান (যেমন ৯৭তম প্রতিষ্ঠা দিবস, ২০২৫) কোথায় হয়?",
+      "a": "NASC কমপ্লেক্স, নয়াদিল্লি",
+      "w": [
+        "আনসারি নগর, নয়াদিল্লি",
+        "অন্তরীক্ষ ভবন, বেঙ্গালুরু",
+        "মৌসম ভবন, নয়াদিল্লি"
+      ],
+      "e": "PIB বিজ্ঞপ্তি অনুযায়ী ICAR-র ৯৭তম প্রতিষ্ঠা দিবসের অনুষ্ঠান হয় নয়াদিল্লির NASC কমপ্লেক্সের সি. সুব্রহ্মণ্যম হলে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "research_councils",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক মিল কোনটি?\nক. IRFA প্রতিষ্ঠা — ১৯১১\nখ. ICMR নামকরণ — ১৯৪৯\nগ. ICMR সদর দপ্তর — আনসারি নগর\nঘ. ICAR — কৃষি গবেষণা",
+      "a": "ক, খ, গ ও ঘ — সবকটিই সঠিক",
+      "w": [
+        "শুধু ক ও খ সঠিক",
+        "শুধু খ ও গ সঠিক",
+        "শুধু ক, গ ও ঘ সঠিক"
+      ],
+      "e": "চারটি মিলই সঠিক: IRFA ১৯১১ (বাটলার), নাম বদলে ICMR ১৯৪৯, সদর দপ্তর আনসারি নগর (নয়াদিল্লি), আর ICAR কৃষি গবেষণার প্রধান প্রতিষ্ঠান।",
+      "claims": [
+        "c21",
+        "c22",
+        "c23",
+        "c19"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "surveys_science",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "India Meteorological Department (IMD) প্রতিষ্ঠিত হয় কোন সালে?",
+      "a": "১৮৭৫",
+      "w": [
+        "১৭৬৭",
+        "১৮৯০",
+        "১৯১৬"
+      ],
+      "e": "IMD-র ম্যান্ডেট পৃষ্ঠা অনুযায়ী প্রতিষ্ঠা ১৮৭৫; এটিই দেশের জাতীয় আবহাওয়া পরিষেবা।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "surveys_science",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Zoological Survey of India (ZSI)-র সদর দপ্তর কোন শহরে?",
+      "a": "কলকাতা",
+      "w": [
+        "দেরাদুন",
+        "নয়াদিল্লি",
+        "চেন্নাই"
+      ],
+      "e": "ZSI-র সরকারি পৃষ্ঠা অনুযায়ী কলকাতায় সদর দপ্তরসহ এর ১৬টি আঞ্চলিক কেন্দ্র রয়েছে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "surveys_science",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Survey of India গঠিত হয় কোন সালে?",
+      "a": "১৭৬৭",
+      "w": [
+        "১৮৭৫",
+        "১৭৮৪",
+        "১৯৪৭"
+      ],
+      "e": "Survey of India-র পৃষ্ঠা অনুযায়ী এটি স্থাপিত হয় ১৭৬৭ সালে — এই অধ্যায়ের প্রাচীনতম তারিখ।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "surveys_science",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IMD-র মহাপরিচালকের (Director General of Meteorology) দপ্তর কোথায়?",
+      "a": "মৌসম ভবন, লোদি রোড, নয়াদিল্লি",
+      "w": [
+        "আনসারি নগর, নয়াদিল্লি",
+        "হাতিবাড়কালা এস্টেট, দেরাদুন",
+        "অন্তরীক্ষ ভবন, বেঙ্গালুরু"
+      ],
+      "e": "IMD-র যোগাযোগ তথ্য অনুযায়ী মহাপরিচালকের দপ্তর নয়াদিল্লির লোদি রোডের মৌসম ভবনে।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "surveys_science",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Botanical Survey of India (BSI) আনুষ্ঠানিকভাবে গঠিত হয় কবে এবং কেন?",
+      "a": "১৩ ফেব্রুয়ারি ১৮৯০ — দেশের উদ্ভিদসম্পদ অনুসন্ধানের জন্য",
+      "w": [
+        "১ জুলাই ১৯১৬ — প্রাণীসম্পদ অনুসন্ধানের জন্য",
+        "১৮৭৫ — আবহাওয়া পর্যবেক্ষণের জন্য",
+        "১৭৬৭ — মানচিত্র তৈরির জন্য"
+      ],
+      "e": "BSI-র ইতিহাস অনুযায়ী ১৮৯০ সালের ১৩ ফেব্রুয়ারি জরিপটি আনুষ্ঠানিকভাবে গঠিত ও ‘Botanical Survey of India’ নামে চিহ্নিত হয়; উদ্দেশ্য ছিল উদ্ভিদসম্পদ অনুসন্ধান ও অর্থনৈতিক গুরুত্বের প্রজাতি চিহ্নিত করা।",
+      "claims": [
+        "c27",
+        "c26"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "surveys_science",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Zoological Survey of India (ZSI) প্রতিষ্ঠিত হয় কবে?",
+      "a": "১ জুলাই ১৯১৬",
+      "w": [
+        "১ জুলাই ১৮৭৫",
+        "১৩ ফেব্রুয়ারি ১৮৯০",
+        "১৫ জানুয়ারি ১৭৮৪"
+      ],
+      "e": "ZSI প্রতিষ্ঠা ১৯১৬ সালের ১ জুলাই; ১৮৭৫ হল এর শিকড়ের বছর (জাদুঘরের প্রাণী বিভাগ)।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "surveys_science",
+      "level": "difficult",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিকভাবে মিলিত?\nক. ZSI-র শিকড় — ১৮৭৫, ভারতীয় জাদুঘরের প্রাণী বিভাগ, কলকাতা\nখ. ZSI-র শিকড় — ১৮৯০, উদ্ভিদ উদ্যান, হাওড়া",
+      "a": "শুধু ক",
+      "w": [
+        "শুধু খ",
+        "ক ও খ উভয়ই",
+        "ক বা খ কোনোটিই নয়"
+      ],
+      "e": "ZSI-র উৎপত্তি ১৮৭৫ সালে কলকাতার ভারতীয় জাদুঘরের প্রাণী বিভাগে — খ জোড়াটি BSI-র সালের সঙ্গে গুলিয়ে তৈরি ভুল জোড়া।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "surveys_science",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "ভারতের টপোগ্রাফিক্যাল মানচিত্র প্রকাশকারী সংস্থা Survey of India-র Surveyor General-এর দপ্তর কোথায়?",
+      "a": "হাতিবাড়কালা এস্টেট, দেরাদুন",
+      "w": [
+        "মৌসম ভবন, নয়াদিল্লি",
+        "নিউ আলিপুর, কলকাতা",
+        "সল্ট লেক, কলকাতা"
+      ],
+      "e": "Survey of India-র পৃষ্ঠা অনুযায়ী Surveyor General of India-র দপ্তর দেরাদুনের হাতিবাড়কালা এস্টেটে; সংস্থাটিই দেশের প্রধান মানচিত্র সংস্থা।",
+      "claims": [
+        "c33",
+        "c31"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "surveys_science",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারত সরকারের প্রাচীনতম বিজ্ঞান বিভাগ (oldest scientific department) কোনটি?",
+      "a": "Survey of India",
+      "w": [
+        "India Meteorological Department",
+        "Botanical Survey of India",
+        "Zoological Survey of India"
+      ],
+      "e": "Survey of India নিজেকে বিজ্ঞান ও প্রযুক্তি বিভাগের অধীনে ‘ভারত সরকারের প্রাচীনতম বিজ্ঞান বিভাগ’ বলে চিহ্নিত করে; গঠন ১৭৬৭।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "heritage_knowledge",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটির প্রতিষ্ঠাতা কে?",
+      "a": "স্যার উইলিয়াম জোন্স",
+      "w": [
+        "আলেকজান্ডার কানিংহাম",
+        "জেমস প্রিন্সেপ",
+        "উইলিয়াম কেরি"
+      ],
+      "e": "ASI-র সরকারি ইতিহাস অনুযায়ী স্যার উইলিয়াম জোন্স একদল প্রাচ্যবিদকে নিয়ে সোসাইটিটি গড়েন।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "heritage_knowledge",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটি প্রতিষ্ঠিত হয় কবে ও কোথায়?",
+      "a": "১৫ জানুয়ারি ১৭৮৪, কলকাতা",
+      "w": [
+        "১৫ জানুয়ারি ১৭৮৮, কলকাতা",
+        "১৮০৪, বম্বে",
+        "১৮১৮, মাদ্রাজ"
+      ],
+      "e": "প্রতিষ্ঠা ১৭৮৪ সালের ১৫ জানুয়ারি, কলকাতায়। ১৭৮৮ হল পত্রিকা Asiatick Researches শুরুর বছর; ১৮০৪ ও ১৮১৮ বম্বে ও মাদ্রাজের অনুরূপ সোসাইটির।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "heritage_knowledge",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটির গবেষণা-পত্রিকা Asiatick Researches-এর প্রকাশ শুরু হয় কোন সালে?",
+      "a": "১৭৮৮",
+      "w": [
+        "১৭৮৪",
+        "১৮০৪",
+        "১৮৬১"
+      ],
+      "e": "জোন্সের উদ্যোগের ফল হিসেবে Asiatick Researches পত্রিকা শুরু হয় ১৭৮৮ সালে — প্রতিষ্ঠার চার বছর পর।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "heritage_knowledge",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রথম Archaeological Surveyor হিসেবে আলেকজান্ডার কানিংহাম নিযুক্ত হন কবে থেকে?",
+      "a": "ডিসেম্বর ১৮৬১",
+      "w": [
+        "ফেব্রুয়ারি ১৮৭১",
+        "১৮৬৬",
+        "জানুয়ারি ১৭৮৪"
+      ],
+      "e": "কানিংহাম প্রথম Archaeological Surveyor হন ১৮৬১ সালের ডিসেম্বর থেকে; Director General হন পরে, ১৮৭১-এ।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "heritage_knowledge",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "Archaeological Survey সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. লর্ড লরেন্স ১৮৬৬ সালে জরিপটি বিলুপ্ত করেন।\n২. ১৮৭১ সালে জরিপটি পৃথক সরকারি বিভাগ হিসেবে পুনরুজ্জীবিত হয় এবং কানিংহাম Director General হন।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "ASI-র ইতিহাস অনুযায়ী বিলুপ্তি ১৮৬৬ (লর্ড লরেন্স) এবং পুনরুজ্জীবন ১৮৭১ — কানিংহাম ফেব্রুয়ারিতে Director General হিসেবে দায়িত্ব নেন।",
+      "claims": [
+        "c38",
+        "c39"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "heritage_knowledge",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটির ধাঁচে পরে বম্বে ও মাদ্রাজে সোসাইটি গড়ে ওঠে যথাক্রমে কোন কোন সালে?",
+      "a": "বম্বে ১৮০৪, মাদ্রাজ ১৮১৮",
+      "w": [
+        "বম্বে ১৮১৮, মাদ্রাজ ১৮০৪",
+        "বম্বে ১৭৮৮, মাদ্রাজ ১৮০৪",
+        "বম্বে ১৮০৪, মাদ্রাজ ১৮৩৩"
+      ],
+      "e": "ASI-র ইতিহাস অনুযায়ী কলকাতার (১৭৮৪) পরে বম্বেতে ১৮০৪ ও মাদ্রাজে ১৮১৮ সালে অনুরূপ সোসাইটি গড়ে ওঠে।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "constitutional_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের নির্বাচন কমিশন প্রতিষ্ঠিত হয় কবে?",
+      "a": "২৫ জানুয়ারি ১৯৫০",
+      "w": [
+        "২৬ জানুয়ারি ১৯৫০",
+        "১৫ আগস্ট ১৯৪৭",
+        "১ অক্টোবর ১৯৯৩"
+      ],
+      "e": "ECI একটি স্থায়ী সাংবিধানিক সংস্থা, সংবিধান অনুযায়ী প্রতিষ্ঠা ১৯৫০ সালের ২৫ জানুয়ারি — প্রজাতন্ত্র দিবসের আগের দিন।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "constitutional_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় মানবাধিকার কমিশন (NHRC) প্রতিষ্ঠিত হয় কবে?",
+      "a": "১২ অক্টোবর ১৯৯৩",
+      "w": [
+        "২৫ জানুয়ারি ১৯৫০",
+        "১ অক্টোবর ১৯৯৩",
+        "১০ ডিসেম্বর ১৯৯৩"
+      ],
+      "e": "NHRC-র সরকারি পৃষ্ঠা অনুযায়ী প্রতিষ্ঠা ১৯৯৩ সালের ১২ অক্টোবর, মানবাধিকার সুরক্ষা আইন (PHRA), ১৯৯৩ অনুযায়ী। ১ অক্টোবর ১৯৯৩ হল ECI-র বহু-সদস্য হওয়ার তারিখ।",
+      "claims": [
+        "c47"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "constitutional_bodies",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অনুচ্ছেদ ১৪৮ অনুযায়ী মহাহিসাব নিয়ন্ত্রক ও নিরীক্ষক (CAG)-কে নিয়োগ করেন কে?",
+      "a": "রাষ্ট্রপতি (স্বাক্ষর ও সিলমোহরযুক্ত পরোয়ানায়)",
+      "w": [
+        "প্রধানমন্ত্রী",
+        "সুপ্রিম কোর্টের প্রধান বিচারপতি",
+        "সংসদ"
+      ],
+      "e": "সংবিধানের বিধান অনুযায়ী CAG রাষ্ট্রপতি কর্তৃক পরোয়ানায় নিযুক্ত হন এবং সুপ্রিম কোর্টের বিচারপতির মতো একই পদ্ধতিতে ছাড়া তাঁকে অপসারণ করা যায় না।",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "constitutional_bodies",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনো রাজ্যের হিসাব সংক্রান্ত CAG-র প্রতিবেদন জমা দেওয়া হয় কার কাছে?",
+      "a": "ওই রাজ্যের রাজ্যপালের কাছে",
+      "w": [
+        "রাষ্ট্রপতির কাছে",
+        "মুখ্যমন্ত্রীর কাছে",
+        "রাজ্য বিধানসভার অধ্যক্ষের কাছে"
+      ],
+      "e": "বিধান অনুযায়ী রাজ্যের হিসাবের প্রতিবেদন রাজ্যপালকে দেওয়া হয়; তিনি তা বিধানসভায় পেশ করান।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "constitutional_bodies",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নির্বাচন কমিশন বহু-সদস্য (multi-member) সংস্থায় পরিণত হয় কবে?",
+      "a": "১ অক্টোবর ১৯৯৩",
+      "w": [
+        "২৫ জানুয়ারি ১৯৫০",
+        "১২ অক্টোবর ১৯৯৩",
+        "১ জানুয়ারি ১৯৯০"
+      ],
+      "e": "১৯৯৩ সালের ১ অক্টোবর আরও দুজন নির্বাচন কমিশনার নিযুক্ত হন; তখন থেকেই বহু-সদস্য কমিশন চালু।",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "constitutional_bodies",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "নির্বাচন কমিশন সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. সংসদ, রাজ্য বিধানসভা এবং রাষ্ট্রপতি ও উপরাষ্ট্রপতি নির্বাচনের তত্ত্বাবধান, নির্দেশনা ও নিয়ন্ত্রণ সংবিধান কমিশনের হাতে দিয়েছে।\n২. কমিশনের সদর দপ্তর নয়াদিল্লিতে।",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "ECI-র সরকারি পৃষ্ঠা দুটোই বলছে — নির্বাচন পরিচালনার সম্পূর্ণ প্রক্রিয়ার তত্ত্বাবধান-নিয়ন্ত্রণ কমিশনের হাতে, আর সদর দপ্তর নয়াদিল্লিতে।",
+      "claims": [
+        "c41",
+        "c43"
+      ]
+    },
+    {
+      "id": "q44",
+      "section": "constitutional_bodies",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "NHRC-র দপ্তর কোথায় অবস্থিত?",
+      "a": "মানব অধিকার ভবন, INA, নয়াদিল্লি",
+      "w": [
+        "মৌসম ভবন, নয়াদিল্লি",
+        "নির্বাচন সদন, নয়াদিল্লি",
+        "আনসারি নগর, নয়াদিল্লি"
+      ],
+      "e": "NHRC-র সরকারি নথির শিরোনাম অনুযায়ী ঠিকানা: মানব অধিকার ভবন, সি-ব্লক, GPO কমপ্লেক্স, INA, নয়াদিল্লি।",
+      "claims": [
+        "c48"
+      ]
+    },
+    {
+      "id": "q45",
+      "section": "constitutional_bodies",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "কেন্দ্র সরকারের হিসাব সংক্রান্ত CAG-র প্রতিবেদন জমা দেওয়া হয় কার কাছে, যিনি তা সংসদে পেশ করান?",
+      "a": "রাষ্ট্রপতির কাছে",
+      "w": [
+        "রাজ্যপালের কাছে",
+        "লোকসভার অধ্যক্ষের কাছে",
+        "অর্থমন্ত্রীর কাছে"
+      ],
+      "e": "বিধান অনুযায়ী কেন্দ্রের হিসাবের প্রতিবেদন রাষ্ট্রপতিকে দেওয়া হয় এবং তিনি তা সংসদের উভয় সভায় পেশ করান; রাজ্যের ক্ষেত্রে দায়িত্ব রাজ্যপালের।",
+      "claims": [
+        "c46"
+      ]
+    }
+  ]
+}

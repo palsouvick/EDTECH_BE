@@ -1,0 +1,1501 @@
+{
+  "book": "indian_gk",
+  "code": "IGK-02",
+  "number": 2,
+  "part": "symbols_firsts",
+  "title": "ভারতের প্রথমগুলি",
+  "subtitle": "প্রথম রাষ্ট্রপতি-প্রধানমন্ত্রী থেকে প্রথম উপগ্রহ ও প্রথম মেট্রো: যাচাই করা সরকারি তালিকা ধরে ভারতের 'প্রথম'গুলির গল্প",
+  "subtopics": [
+    "important_firsts"
+  ],
+  "related_facts": [
+    "GK-IGK-009",
+    "GK-IGK-010",
+    "GK-IGK-011",
+    "GK-IGK-012",
+    "GK-IGK-013",
+    "GK-IGK-014",
+    "GK-IGK-015",
+    "GK-IGK-016"
+  ],
+  "prerequisites": [
+    "IGK-01"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 25,
+    "deep": 35
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 41/42 answers matched the key (39 SURE, 1 LIKELY, 2 GUESS); no second option defensible on any item.  One blind mismatch (q42, GUESS) adjudicated as a claims-coverage gap: statement 2 (Apsara-U first criticality 10 September 2018, the upgraded version of Apsara) is stated in the chapter explanation from the same fetched BARC page as claim c16 but was not extracted as its own claim; both statements are correct on that source, so the key was retained. Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 7 of 16 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_IGK-02.json and drafts/IGK-02_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/IGK-02_REPORT.md.",
+    "checked_claims": 23,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "প্রতিটি প্রতিযোগিতামূলক পরীক্ষায় 'ভারতের প্রথম...' দিয়ে অন্তত কয়েকটি প্রশ্ন আসে — প্রথম রাষ্ট্রপতি, প্রথম প্রধানমন্ত্রী, প্রথম মহিলা প্রধানমন্ত্রী, মহাকাশে প্রথম ভারতীয়, প্রথম মেট্রো। এই অধ্যায়ে সেই প্রথমগুলিকেই সাজানো হয়েছে সরকারি তালিকা ধরে: প্রধানমন্ত্রীর দপ্তর, রাষ্ট্রপতি ভবন, উপরাষ্ট্রপতির সচিবালয়, PIB, ISRO, মেট্রো রেলওয়ে কলকাতা ও BARC-র নিজস্ব পৃষ্ঠা থেকে। প্রতিটি তথ্যের পাশে তারিখসহ কার্যকাল দেওয়া আছে, যাতে শুধু নাম নয় — ক্রমটাও মনে থাকে।",
+    "you_will_learn": [
+      "প্রথম রাষ্ট্রপতি (রাজেন্দ্র প্রসাদ), প্রথম প্রধানমন্ত্রী (নেহরু) ও প্রথম উপরাষ্ট্রপতি (রাধাকৃষ্ণন) — তিনটি পদের প্রথম ধারক ও তাঁদের কার্যকাল",
+      "নেহরুর পরের উত্তরাধিকার-ক্রম: নন্দের স্বল্পকালীন দায়িত্ব ও শাস্ত্রীর কার্যকাল",
+      "প্রথম লোকসভা (১৯৫২) ও তার প্রথম অধ্যক্ষ মাভলঙ্কর",
+      "মহিলাদের প্রথম: ইন্দিরা গান্ধী (প্রধানমন্ত্রী) ও প্রতিভা পাটিল (রাষ্ট্রপতি) — কোনটি কার, তা গুলিয়ে ফেলার ফাঁদ",
+      "উপরাষ্ট্রপতি থেকে রাষ্ট্রপতি হওয়ার ধারা: রাধাকৃষ্ণন ও জাকির হুসেন",
+      "মহাকাশে প্রথম পদক্ষেপ: আর্যভট্ট উপগ্রহ (১৯৭৫) ও রাকেশ শর্মা (১৯৮৪)",
+      "ভারতের প্রথম মেট্রো কলকাতায়: অনুমোদন (১৯৭২) থেকে চালু (১৯৮৪) — ধাপে ধাপে তারিখ",
+      "পরমাণু গবেষণার প্রথম ধাপ: BARC-র অপ্সরা চুল্লি (১৯৫৬) ও অপ্সরা-ইউ-এর সঙ্গে তার পার্থক্য"
+    ]
+  },
+  "sections": [
+    {
+      "id": "first_president_pm",
+      "heading": "প্রথম রাষ্ট্রপতি ও প্রথম প্রধানমন্ত্রী",
+      "quick": "স্বাধীন ভারতের প্রথম প্রধানমন্ত্রী জওহরলাল নেহরু (কার্যকাল ১৫ আগস্ট ১৯৪৭ – ২৭ মে ১৯৬৪) এবং প্রথম রাষ্ট্রপতি ড. রাজেন্দ্র প্রসাদ। নেহরুর মৃত্যুর পর গুলজারিলাল নন্দ স্বল্পকাল (২৭ মে – ৯ জুন ১৯৬৪) দায়িত্ব পালন করে লাল বাহাদুর শাস্ত্রীর হাতে দায়িত্ব যান।",
+      "standard": "ভারতের রাষ্ট্রপ্রধান ও সরকারপ্রধানের প্রথম ধারক দুজনকে চেনার সবচেয়ে নির্ভরযোগ্য উপায় হল সরকারি তালিকা দুটি মুখস্থ করা। প্রধানমন্ত্রীর দপ্তরের (PMO) প্রাক্তন প্রধানমন্ত্রীদের তালিকায় সবচেয়ে প্রাচীন কার্যকালটি জওহরলাল নেহরুর — ১৫ আগস্ট ১৯৪৭ থেকে ২৭ মে ১৯৬৪। অর্থাৎ স্বাধীনতার দিন থেকেই তিনি প্রধানমন্ত্রী, এবং তিনিই প্রথম।\n\nরাষ্ট্রপতি ভবনের প্রাক্তন রাষ্ট্রপতিদের তালিকায় ড. রাজেন্দ্র প্রসাদকে স্পষ্টভাবে '১ম রাষ্ট্রপতি' বলা হয়েছে। পরীক্ষায় এই দুটি নাম প্রায়ই একসঙ্গে জিজ্ঞাসা করা হয়, আবার অদলবদল করেও দেওয়া হয় — তাই জোড়টি একসঙ্গে মনে রাখো: রাষ্ট্রপতি রাজেন্দ্র প্রসাদ, প্রধানমন্ত্রী নেহরু।\n\nনেহরুর কার্যকাল শেষ হওয়ার পরের ক্রমটিও পরীক্ষায় আসে। PMO-র তালিকা অনুযায়ী ২৭ মে ১৯৬৪ থেকে ৯ জুন ১৯৬৪ পর্যন্ত গুলজারিলাল নন্দ স্বল্পকালের জন্য দায়িত্বে ছিলেন; তারপর ৯ জুন ১৯৬৪ থেকে লাল বাহাদুর শাস্ত্রী (কার্যকাল ১১ জানুয়ারি ১৯৬৬ পর্যন্ত)। 'নেহরুর পরের প্রধানমন্ত্রী কে?' প্রশ্নে স্থায়ী উত্তর শাস্ত্রী, কিন্তু মাঝের নন্দ-পর্বটি জানা থাকলে কালানুক্রম প্রশ্নে ভুল হবে না।",
+      "deep": "কার্যকালের দৈর্ঘ্যের দিক থেকে নেহরুর ১৯৪৭–১৯৬৪ পর্বটি PMO-র তালিকার প্রাচীনতম ও দীর্ঘতম শুরুর পর্ব। তালিকাটি পড়ার অভ্যাস করো উল্টো দিক থেকে: শেষ থেকে শুরুতে এলে দেখবে প্রতিটি নামের পাশে সুনির্দিষ্ট তারিখ আছে — পরীক্ষার কালানুক্রম (CHRONOLOGY) প্রশ্ন ঠিক এই তারিখগুলি দিয়েই তৈরি হয়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "রাষ্ট্রপতি বনাম প্রধানমন্ত্রী",
+          "body": "প্রথম রাষ্ট্রপতি = রাজেন্দ্র প্রসাদ; প্রথম প্রধানমন্ত্রী = জওহরলাল নেহরু। বিকল্পে দুজনের নাম অদলবদল করে দেওয়া সবচেয়ে পুরনো ফাঁদ।",
+          "claims": [
+            "c03",
+            "c01"
+          ]
+        }
+      ],
+      "claims": [
+        "c01",
+        "c03",
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "id": "first_vp_speaker",
+      "heading": "প্রথম উপরাষ্ট্রপতি ও লোকসভার প্রথম অধ্যক্ষ",
+      "quick": "প্রথম উপরাষ্ট্রপতি ড. সর্বপল্লী রাধাকৃষ্ণন (১৩ মে ১৯৫২ – ১২ মে ১৯৬২)। প্রথম লোকসভা গঠিত হয় ১৯৫২ সালে; তার প্রথম অধ্যক্ষ গণেশ বাসুদেব মাভলঙ্কর, সর্বসম্মতিক্রমে নির্বাচিত ১৫ মে ১৯৫২।",
+      "standard": "উপরাষ্ট্রপতির সচিবালয়ের সরকারি তালিকার প্রথম নামটি ড. সর্বপল্লী রাধাকৃষ্ণনের — কার্যকাল ১৩ মে ১৯৫২ থেকে ১২ মে ১৯৬২। তাঁর পরের ক্রমটিও তালিকাতেই আছে: ড. জাকির হুসেন (১৯৬২–৬৭), ভি. ভি. গিরি (১৯৬৭–৬৯) ও গোপাল স্বরূপ পাঠক (১৯৬৯–৭৪)। এই চারজনের ক্রম কালানুক্রম প্রশ্নের জন্য সরাসরি কাজে লাগে।\n\nসংসদের অন্য প্রান্তে, PIB-র প্রকাশনা অনুযায়ী গণেশ বাসুদেব মাভলঙ্কর ছিলেন লোকসভার প্রথম অধ্যক্ষ (Speaker)। প্রথম লোকসভা গঠিত হয় ১৯৫২ সালে এবং ১৫ মে ১৯৫২ তারিখে তিনি সর্বসম্মতিক্রমে অধ্যক্ষ নির্বাচিত হন; ২৭ ফেব্রুয়ারি ১৯৫৬ সালে মৃত্যুর আগ পর্যন্ত তিনি এই দায়িত্বে ছিলেন।\n\nদুটি তারিখ পাশাপাশি রাখো: উপরাষ্ট্রপতিত্ব শুরু ১৩ মে ১৯৫২ (রাধাকৃষ্ণন), অধ্যক্ষ নির্বাচন ১৫ মে ১৯৫২ (মাভলঙ্কর) — মাত্র দুই দিনের ব্যবধান, পরীক্ষায় এই দুটিই অদলবদল করে দেওয়া হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "১৯৫২-র তিনটি 'প্রথম'",
+          "body": "১৯৫২ সালেই গঠিত হয় প্রথম লোকসভা, দায়িত্ব নেন প্রথম উপরাষ্ট্রপতি রাধাকৃষ্ণন (১৩ মে) এবং নির্বাচিত হন প্রথম অধ্যক্ষ মাভলঙ্কর (১৫ মে)। একটি সাল, তিনটি প্রথম — একসঙ্গে মনে রাখো।",
+          "claims": [
+            "c06",
+            "c09"
+          ]
+        }
+      ],
+      "claims": [
+        "c06",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "women_firsts",
+      "heading": "মহিলাদের প্রথম: প্রধানমন্ত্রী ও রাষ্ট্রপতি",
+      "quick": "প্রথম মহিলা প্রধানমন্ত্রী ইন্দিরা গান্ধী (প্রথম কার্যকাল ২৪ জানুয়ারি ১৯৬৬ – ২৪ মার্চ ১৯৭৭); প্রথম মহিলা রাষ্ট্রপতি প্রতিভা দেবীসিং পাটিল (তালিকায় ১২তম রাষ্ট্রপতি, আগের এগারোজনই পুরুষ)।",
+      "standard": "এই অধ্যায়ের সবচেয়ে বেশি ভুল হওয়া জোড়টি এখানে। ইন্দিরা গান্ধী ছিলেন প্রথম মহিলা প্রধানমন্ত্রী: PMO-র প্রাক্তন প্রধানমন্ত্রীদের পুরো তালিকায় তিনিই একমাত্র মহিলা, এবং তাঁর প্রথম কার্যকাল শুরু হয় ২৪ জানুয়ারি ১৯৬৬ (শেষ ২৪ মার্চ ১৯৭৭)।\n\nঅন্যদিকে প্রতিভা দেবীসিং পাটিল ছিলেন প্রথম মহিলা রাষ্ট্রপতি: রাষ্ট্রপতি ভবনের তালিকায় তিনি ১২তম রাষ্ট্রপতি, এবং তাঁর আগের এগারোজন — রাজেন্দ্র প্রসাদ থেকে ড. এ. পি. জে. আবদুল কালাম (১১তম) — সবাই পুরুষ। কালামই ছিলেন তাঁর ঠিক আগের রাষ্ট্রপতি।\n\nমনে রাখার সূত্র: 'গান্ধী = সরকারপ্রধান (প্রধানমন্ত্রী), পাটিল = রাষ্ট্রপ্রধান (রাষ্ট্রপতি)'। বিকল্পে পদ দুটি অদলবদল করলেই ভুল উত্তর তৈরি হয় — PAIRS-জাতীয় প্রশ্নে ঠিক এটাই করা হয়।",
+      "deep": "লক্ষ্য করো, দুটি 'প্রথম'-এর প্রমাণ দুটি আলাদা সরকারি তালিকায়: প্রধানমন্ত্রীর ক্ষেত্রে PMO-র তালিকা (একমাত্র মহিলা + প্রাচীনতম মহিলা-কার্যকাল ১৯৬৬), রাষ্ট্রপতির ক্ষেত্রে রাষ্ট্রপতি ভবনের ক্রমিক তালিকা (১২তম স্থানে প্রথম মহিলা)। পরীক্ষার উত্তর যাচাইয়ের এই পদ্ধতিটা — 'তালিকায় ক্রম দেখো' — অন্য সব 'প্রথম' প্রশ্নেও খাটে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "উৎসের সীমা",
+          "body": "এই অধ্যায়ে 'প্রথম মহিলা প্রধানমন্ত্রী' ও 'প্রথম মহিলা রাষ্ট্রপতি' দাবি দুটি PMO ও রাষ্ট্রপতি ভবনের সরকারি তালিকার ক্রম থেকে প্রতিষ্ঠিত। রাজ্যসভার 'Sixty Years of Rajya Sabha' প্রকাশনায় দুটি দাবিরই সরাসরি বাক্য আছে, কিন্তু এই মেশিন থেকে সেই PDF-টি আনা যায়নি বলে এখানে তা উদ্ধৃত করা হয়নি।",
+          "claims": [
+            "c02",
+            "c05"
+          ]
+        }
+      ],
+      "claims": [
+        "c02",
+        "c05",
+        "c20"
+      ]
+    },
+    {
+      "id": "vp_to_president",
+      "heading": "উপরাষ্ট্রপতি থেকে রাষ্ট্রপতি: রাধাকৃষ্ণন ও জাকির হুসেন",
+      "quick": "প্রথম উপরাষ্ট্রপতি রাধাকৃষ্ণন পরে হন ২য় রাষ্ট্রপতি; দ্বিতীয় উপরাষ্ট্রপতি জাকির হুসেন (১৯৬২–৬৭) পরে হন ৩য় রাষ্ট্রপতি। প্রথম তিন রাষ্ট্রপতির ক্রম: রাজেন্দ্র প্রসাদ → রাধাকৃষ্ণন → জাকির হুসেন।",
+      "standard": "রাষ্ট্রপতি ভবনের তালিকা ও উপরাষ্ট্রপতির সচিবালয়ের তালিকা পাশাপাশি রাখলে একটি সুন্দর ধারা দেখা যায়। প্রথম উপরাষ্ট্রপতি ড. সর্বপল্লী রাধাকৃষ্ণন (১৯৫২–৬২) পরে হন ভারতের ২য় রাষ্ট্রপতি — অর্থাৎ প্রথম রাষ্ট্রপতি রাজেন্দ্র প্রসাদের উত্তরসূরি।\n\nএকই ধারায় দ্বিতীয় উপরাষ্ট্রপতি ড. জাকির হুসেন (১৩ মে ১৯৬২ – ১২ মে ১৯৬৭) পরে হন ৩য় রাষ্ট্রপতি। অর্থাৎ প্রথম তিন রাষ্ট্রপতির মধ্যে দুজনই এসেছেন উপরাষ্ট্রপতির পদ থেকে, এবং উপরাষ্ট্রপতিদের ক্রম আর রাষ্ট্রপতিদের ক্রম এখানে হুবহু মিলে যায়: রাধাকৃষ্ণন (উপরাষ্ট্রপতি ১ → রাষ্ট্রপতি ২), জাকির হুসেন (উপরাষ্ট্রপতি ২ → রাষ্ট্রপতি ৩)।\n\nএর পরের উপরাষ্ট্রপতিরা হলেন ভি. ভি. গিরি (১৯৬৭–৬৯) ও গোপাল স্বরূপ পাঠক (১৯৬৯–৭৪) — এই চারজনের তালিকাটি একবারে মুখস্থ করলে উপরাষ্ট্রপতি-বিষয়ক প্রায় সব প্রশ্নই ঢাকা পড়ে।",
+      "deep": null,
+      "boxes": [],
+      "claims": [
+        "c04",
+        "c07",
+        "c06",
+        "c03"
+      ]
+    },
+    {
+      "id": "space_firsts",
+      "heading": "মহাকাশে ভারতের প্রথম পদক্ষেপ: আর্যভট্ট ও রাকেশ শর্মা",
+      "quick": "ভারতের প্রথম উপগ্রহ আর্যভট্ট (সম্পূর্ণ ভারতে তৈরি, উৎক্ষেপণ ১৯ এপ্রিল ১৯৭৫, সোভিয়েত কসমস-৩এম রকেটে)। মহাকাশে যাওয়া প্রথম ভারতীয় রাকেশ শর্মা (১৯৮৪, সোভিয়েত সয়ুজ)।",
+      "standard": "ISRO-র নিজস্ব পৃষ্ঠা অনুযায়ী আর্যভট্ট ছিল ভারতের প্রথম উপগ্রহ। বিখ্যাত জ্যোতির্বিদ আর্যভট্টের নামে নামকরণ করা এই উপগ্রহটি সম্পূর্ণভাবে ভারতে নকশা ও তৈরি হয়েছিল, এবং ১৯৭৫ সালের ১৯ এপ্রিল সোভিয়েত কসমস-৩এম রকেটে করে কাপুস্তিন ইয়ার থেকে উৎক্ষেপিত হয়। এর উৎক্ষেপণ-ভর ছিল ৩৬০ কেজি।\n\nমানুষের ক্ষেত্রে প্রথম ধাপটি আসে প্রায় এক দশক পরে। ISRO-র বর্ণনায়, আন্তর্জাতিক সহযোগিতার মাধ্যমে রাকেশ শর্মাকে ১৯৮৪ সালে সোভিয়েত সয়ুজ মহাকাশযানে করে মহাকাশে পাঠানো হয়। তার চার দশক পরে আরেক ভারতীয় — শুভাংশু শুক্লা — মহাকাশে যান; অর্থাৎ শর্মাই ছিলেন প্রথম ভারতীয় মহাকাশচারী।\n\nদুটি ঘটনা আলাদা রাখো: ১৯৭৫ = প্রথম উপগ্রহ (যন্ত্র), ১৯৮৪ = প্রথম মানুষ। দুটিতেই সোভিয়েত সহযোগিতা ছিল — এই মিলটাই পরীক্ষার STATEMENT প্রশ্নে ব্যবহৃত হয়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "আর্যভট্ট বনাম সয়ুজ",
+          "body": "আর্যভট্ট একটি উপগ্রহ — তাতে কোনো মানুষ ছিল না। মানুষ নিয়ে যাওয়া যানটি ছিল সোভিয়েত সয়ুজ (১৯৮৪)। 'আর্যভট্টে চড়ে রাকেশ শর্মা যান' জাতীয় বিকল্প সবসময় ভুল।",
+          "claims": [
+            "c11",
+            "c10"
+          ]
+        }
+      ],
+      "claims": [
+        "c11",
+        "c12",
+        "c10"
+      ]
+    },
+    {
+      "id": "metro_first",
+      "heading": "ভারতের প্রথম মেট্রো: কলকাতা",
+      "quick": "কলকাতা মেট্রো ভারতের প্রথম ও এশিয়ার পঞ্চম মেট্রো। প্রকল্প অনুমোদন ১ জুন ১৯৭২, ভিত্তিপ্রস্তর ২৯ ডিসেম্বর ১৯৭২ (ইন্দিরা গান্ধী), প্রথম বাণিজ্যিক পরিষেবা ২৪ অক্টোবর ১৯৮৪ (এসপ্ল্যানেড–নেতাজি ভবন)।",
+      "standard": "কলকাতার যানজটের বিকল্প খুঁজতে ১৯৬৯ সালে গঠিত হয় Metropolitan Transport Project (Railways); তাদের সিদ্ধান্ত ছিল — Mass Rapid Transit System ছাড়া অন্য কোনো বিকল্প নেই। এই সুপারিশ থেকেই আসে দমদম–টালিগঞ্জ (১৬.৪৫ কিমি) প্রকল্প, যার কাজ অনুমোদিত হয় ১ জুন ১৯৭২। একই বছরের ২৯ ডিসেম্বর তৎকালীন প্রধানমন্ত্রী ইন্দিরা গান্ধী প্রকল্পের ভিত্তিপ্রস্তর স্থাপন করেন।\n\nনির্মাণের নানা বাধা পেরিয়ে কলকাতা মেট্রো — মেট্রো রেলওয়ের নিজের ভাষায় 'ভারতের প্রথম এবং এশিয়ার পঞ্চম' — বাস্তব হয় ২৪ অক্টোবর ১৯৮৪: এসপ্ল্যানেড থেকে নেতাজি ভবন পর্যন্ত ৩.৪০ কিমি অংশে পাঁচটি স্টেশনসহ আংশিক বাণিজ্যিক পরিষেবা চালু হয়। এর পরপরই ১২ নভেম্বর ১৯৮৪ তারিখে উত্তরের দমদম–বেলগাছিয়া (২.১৫ কিমি) অংশেও যাত্রী পরিষেবা শুরু হয়।\n\nপরীক্ষার জন্য তিনটি তারিখের শৃঙ্খল মনে রাখো: অনুমোদন (১৯৭২) → ভিত্তিপ্রস্তর (১৯৭২) → চালু (১৯৮৪)। ভিত্তিপ্রস্তরের সাল দিয়ে 'মেট্রো কবে চালু হয়' প্রশ্নের উত্তর দেওয়া সবচেয়ে সাধারণ ভুল।",
+      "deep": "ধারণাটির জন্ম আরও আগে: পশ্চিমবঙ্গের তৎকালীন মুখ্যমন্ত্রী ড. বিধানচন্দ্র রায় ১৯৪৯ সালেই কলকাতার জন্য ভূগর্ভস্থ রেলের কথা প্রথম ভাবেন। অর্থাৎ ধারণা (১৯৪৯) থেকে চালু (১৯৮৪) — পঁয়ত্রিশ বছরের পথ। এই দীর্ঘ ব্যবধানটাই বোঝায়, কেন 'প্রথম' তালিকায় কলকাতা মেট্রোর জায়গা এত গুরুত্বপূর্ণ।",
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "বাংলার গর্ব",
+          "body": "ভারতের প্রথম মেট্রো কলকাতার — এবং এর ধারণাও বাংলার: ১৯৪৯ সালে মুখ্যমন্ত্রী ড. বি. সি. রায় প্রথম ভূগর্ভস্থ রেলের কথা ভাবেন। বিস্তারিত 'বাংলা সংযোগ' অংশে।",
+          "claims": [
+            "c23",
+            "c14"
+          ]
+        }
+      ],
+      "claims": [
+        "c21",
+        "c22",
+        "c13",
+        "c14",
+        "c15",
+        "c23"
+      ]
+    },
+    {
+      "id": "atomic_first",
+      "heading": "পরমাণু গবেষণার প্রথম ধাপ: অপ্সরা চুল্লি",
+      "quick": "BARC-র অপ্সরা একটি সুইমিং পুল ধরনের গবেষণা চুল্লি; ক্রিটিক্যালিটি ৪ আগস্ট ১৯৫৬ — BARC-র গবেষণা চুল্লির তালিকায় প্রাচীনতম। স্থায়ীভাবে বন্ধ ২০১০ সালে; উন্নীত সংস্করণ অপ্সরা-ইউ চালু ২০১৮ সালে।",
+      "standard": "পরমাণু শক্তির ক্ষেত্রে 'প্রথম' বলতে পরীক্ষায় সাধারণত গবেষণা চুল্লির কথাই আসে। Bhabha Atomic Research Centre (BARC)-র সরকারি তালিকায় অপ্সরা (Apsara) একটি সুইমিং পুল ধরনের তাপীয় গবেষণা চুল্লি, যার সর্বোচ্চ ক্ষমতা ১ মেগাওয়াট। এর ক্রিটিক্যালিটির (criticality — চুল্লিতে স্বয়ংসম্পূর্ণ শৃঙ্খল বিক্রিয়া শুরু হওয়ার মুহূর্ত) তারিখ ৪ আগস্ট ১৯৫৬ — BARC-র তালিকাভুক্ত গবেষণা চুল্লিগুলির মধ্যে এটিই প্রাচীনতম তারিখ।\n\nঅপ্সরা স্থায়ীভাবে বন্ধ হয় ২০১০ সালে। পরে এর উন্নীত সংস্করণ অপ্সরা-ইউ (Apsara-U) ১০ সেপ্টেম্বর ২০১৮ তারিখে প্রথম ক্রিটিক্যালিটি অর্জন করে; এর ক্ষমতা ২ মেগাওয়াট। পরীক্ষায় ১৯৫৬ ও ২০১৮ — এই দুটি সাল অদলবদল করে দেওয়া হয়; মনে রাখো: পুরনো অপ্সরা = ১৯৫৬, নতুন অপ্সরা-ইউ = ২০১৮।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "তারাপুর এই অধ্যায়ে নেই — কেন",
+          "body": "ভারতের প্রাচীনতম পরমাণু বিদ্যুৎ কেন্দ্র তারাপুর (NPCIL) নিয়ে প্রশ্ন প্রায়ই আসে, কিন্তু এই অধ্যায় তৈরির সময় NPCIL-র পৃষ্ঠাটি এই মেশিন থেকে আনা যায়নি। যাচাই করা উদ্ধৃতি ছাড়া তথ্য শেখানো হয় না বলে তারাপুর এখানে রাখা হয়নি; এটি একটি স্বীকৃত ঘাটতি (REPORT.md দেখো)। অপ্সরা বিদ্যুৎকেন্দ্র নয় — এটি গবেষণা চুল্লি; দুটিকে মেশাবে না।",
+          "claims": [
+            "c16"
+          ]
+        }
+      ],
+      "claims": [
+        "c16",
+        "c17"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "নেহরুর প্রধানমন্ত্রিত্বের সূচনা",
+      "when": "১৫ আগস্ট ১৯৪৭",
+      "what": "জওহরলাল নেহরু স্বাধীন ভারতের প্রথম প্রধানমন্ত্রী হিসেবে দায়িত্ব নেন; তাঁর কার্যকাল চলে ২৭ মে ১৯৬৪ পর্যন্ত।",
+      "why_it_matters": "PMO-র তালিকার প্রাচীনতম কার্যকাল — সব 'প্রথম প্রধানমন্ত্রী' প্রশ্নের ভিত্তি।",
+      "section": "first_president_pm",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "title": "প্রথম লোকসভা ও প্রথম অধ্যক্ষ",
+      "when": "১৯৫২",
+      "what": "প্রথম লোকসভা গঠিত হয়; ১৫ মে ১৯৫২ গণেশ বাসুদেব মাভলঙ্কর সর্বসম্মতিক্রমে এর প্রথম অধ্যক্ষ নির্বাচিত হন। একই সপ্তাহে ১৩ মে রাধাকৃষ্ণন প্রথম উপরাষ্ট্রপতির দায়িত্ব নেন।",
+      "why_it_matters": "একই বছরে সংসদীয় ব্যবস্থার তিনটি 'প্রথম' প্রতিষ্ঠিত হয় — কালানুক্রম প্রশ্নের প্রিয় বিষয়।",
+      "section": "first_vp_speaker",
+      "claims": [
+        "c09",
+        "c06"
+      ]
+    },
+    {
+      "title": "অপ্সরার ক্রিটিক্যালিটি",
+      "when": "৪ আগস্ট ১৯৫৬",
+      "what": "BARC-র সুইমিং পুল ধরনের গবেষণা চুল্লি অপ্সরা ক্রিটিক্যালিটি অর্জন করে — BARC-র তালিকায় প্রাচীনতম গবেষণা চুল্লি।",
+      "why_it_matters": "ভারতের পরমাণু গবেষণা কর্মসূচির প্রথম বড় মাইলফলক।",
+      "section": "atomic_first",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "title": "আর্যভট্টের উৎক্ষেপণ",
+      "when": "১৯ এপ্রিল ১৯৭৫",
+      "what": "সম্পূর্ণ ভারতে তৈরি প্রথম উপগ্রহ আর্যভট্ট সোভিয়েত কসমস-৩এম রকেটে কাপুস্তিন ইয়ার থেকে উৎক্ষেপিত হয়।",
+      "why_it_matters": "ভারতের মহাকাশ যুগের সূচনা — 'প্রথম উপগ্রহ' প্রশ্নের উত্তর।",
+      "section": "space_firsts",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "title": "রাকেশ শর্মার মহাকাশ যাত্রা",
+      "when": "১৯৮৪",
+      "what": "আন্তর্জাতিক সহযোগিতায় রাকেশ শর্মা সোভিয়েত সয়ুজে চড়ে মহাকাশে যান — প্রথম ভারতীয় হিসেবে।",
+      "why_it_matters": "মানব মহাকাশ যাত্রায় ভারতের প্রথম পদক্ষেপ; চার দশক পরে শুভাংশু শুক্লা দ্বিতীয়।",
+      "section": "space_firsts",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "title": "কলকাতা মেট্রোর প্রথম বাণিজ্যিক পরিষেবা",
+      "when": "২৪ অক্টোবর ১৯৮৪",
+      "what": "এসপ্ল্যানেড–নেতাজি ভবন অংশে (৩.৪০ কিমি, পাঁচটি স্টেশন) ভারতের প্রথম মেট্রোর আংশিক বাণিজ্যিক পরিষেবা চালু হয়।",
+      "why_it_matters": "ভারতের নগর পরিবহণে নতুন যুগের সূচনা; এশিয়ার পঞ্চম মেট্রো।",
+      "section": "metro_first",
+      "claims": [
+        "c14"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "জওহরলাল নেহরু",
+      "when": "১৯৪৭–১৯৬৪",
+      "role": "প্রথম প্রধানমন্ত্রী",
+      "contribution": "স্বাধীন ভারতের প্রথম প্রধানমন্ত্রী; PMO-র তালিকায় প্রাচীনতম কার্যকাল (১৫ আগস্ট ১৯৪৭ – ২৭ মে ১৯৬৪)।",
+      "section": "first_president_pm",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "name": "ড. রাজেন্দ্র প্রসাদ",
+      "when": "রাষ্ট্রপতি তালিকায় ১ম",
+      "role": "প্রথম রাষ্ট্রপতি",
+      "contribution": "রাষ্ট্রপতি ভবনের সরকারি তালিকায় '১ম রাষ্ট্রপতি' হিসেবে চিহ্নিত।",
+      "section": "first_president_pm",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "name": "ড. সর্বপল্লী রাধাকৃষ্ণন",
+      "when": "১৯৫২–১৯৬২ (উপরাষ্ট্রপতি)",
+      "role": "প্রথম উপরাষ্ট্রপতি; পরে ২য় রাষ্ট্রপতি",
+      "contribution": "প্রথম উপরাষ্ট্রপতি (১৩ মে ১৯৫২ – ১২ মে ১৯৬২); পরে ভারতের ২য় রাষ্ট্রপতি হন।",
+      "section": "vp_to_president",
+      "claims": [
+        "c06",
+        "c04"
+      ]
+    },
+    {
+      "name": "গণেশ বাসুদেব মাভলঙ্কর",
+      "when": "১৯৫২–১৯৫৬",
+      "role": "লোকসভার প্রথম অধ্যক্ষ",
+      "contribution": "প্রথম লোকসভার প্রথম অধ্যক্ষ; ১৫ মে ১৯৫২ সর্বসম্মতিক্রমে নির্বাচিত, মৃত্যু (২৭ ফেব্রুয়ারি ১৯৫৬) পর্যন্ত দায়িত্বে।",
+      "section": "first_vp_speaker",
+      "claims": [
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "name": "ইন্দিরা গান্ধী",
+      "when": "১৯৬৬–১৯৭৭ (প্রথম কার্যকাল)",
+      "role": "প্রথম মহিলা প্রধানমন্ত্রী",
+      "contribution": "PMO-র তালিকার একমাত্র মহিলা প্রধানমন্ত্রী; প্রথম কার্যকাল ২৪ জানুয়ারি ১৯৬৬ – ২৪ মার্চ ১৯৭৭। কলকাতা মেট্রোর ভিত্তিপ্রস্তরও তিনি স্থাপন করেন (১৯৭২)।",
+      "section": "women_firsts",
+      "claims": [
+        "c02",
+        "c13"
+      ]
+    },
+    {
+      "name": "প্রতিভা দেবীসিং পাটিল",
+      "when": "রাষ্ট্রপতি তালিকায় ১২তম",
+      "role": "প্রথম মহিলা রাষ্ট্রপতি",
+      "contribution": "রাষ্ট্রপতিদের সরকারি তালিকায় প্রথম মহিলা (১২তম); তাঁর ঠিক আগের রাষ্ট্রপতি ছিলেন ড. কালাম (১১তম)।",
+      "section": "women_firsts",
+      "claims": [
+        "c05",
+        "c20"
+      ]
+    },
+    {
+      "name": "রাকেশ শর্মা",
+      "when": "১৯৮৪",
+      "role": "মহাকাশে যাওয়া প্রথম ভারতীয়",
+      "contribution": "১৯৮৪ সালে সোভিয়েত সয়ুজে চড়ে মহাকাশে যান; চার দশক পরে দ্বিতীয় ভারতীয় হিসেবে যান শুভাংশু শুক্লা।",
+      "section": "space_firsts",
+      "claims": [
+        "c10"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1947,
+      "when": "১৯৪৭",
+      "label": "জওহরলাল নেহরু প্রথম প্রধানমন্ত্রী হিসেবে দায়িত্ব নেন (১৫ আগস্ট)",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1952,
+      "when": "১৯৫২",
+      "label": "প্রথম লোকসভা গঠন; রাধাকৃষ্ণন প্রথম উপরাষ্ট্রপতি (১৩ মে) ও মাভলঙ্কর প্রথম অধ্যক্ষ (১৫ মে)",
+      "claims": [
+        "c09",
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 1956,
+      "when": "১৯৫৬",
+      "label": "BARC-র অপ্সরা গবেষণা চুল্লির ক্রিটিক্যালিটি (৪ আগস্ট)",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 1964,
+      "when": "১৯৬৪",
+      "label": "নেহরুর কার্যকাল শেষ; নন্দের স্বল্পকালীন দায়িত্বের পর শাস্ত্রী প্রধানমন্ত্রী (৯ জুন)",
+      "claims": [
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "sort_year": 1966,
+      "when": "১৯৬৬",
+      "label": "ইন্দিরা গান্ধীর প্রথম কার্যকাল শুরু (২৪ জানুয়ারি) — প্রথম মহিলা প্রধানমন্ত্রী",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "sort_year": 1972,
+      "when": "১৯৭২",
+      "label": "কলকাতা মেট্রো প্রকল্প অনুমোদন (১ জুন) ও ভিত্তিপ্রস্তর (২৯ ডিসেম্বর)",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "sort_year": 1975,
+      "when": "১৯৭৫",
+      "label": "ভারতের প্রথম উপগ্রহ আর্যভট্টের উৎক্ষেপণ (১৯ এপ্রিল)",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "sort_year": 1984,
+      "when": "১৯৮৪",
+      "label": "রাকেশ শর্মা প্রথম ভারতীয় হিসেবে মহাকাশে; কলকাতা মেট্রোর প্রথম বাণিজ্যিক পরিষেবা (২৪ অক্টোবর)",
+      "claims": [
+        "c10",
+        "c14"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "কার্যকাল (Tenure)",
+      "meaning": "কোনো পদে থাকার নির্দিষ্ট সময়সীমা; সরকারি তালিকায় প্রতিটি 'প্রথম'-এর পাশে কার্যকালের তারিখই ক্রম নির্ধারণ করে।",
+      "section": "first_president_pm"
+    },
+    {
+      "term": "ক্রিটিক্যালিটি (Criticality)",
+      "meaning": "পরমাণু চুল্লিতে স্বয়ংসম্পূর্ণ শৃঙ্খল বিক্রিয়া শুরু হওয়ার মুহূর্ত; অপ্সরার ক্ষেত্রে ৪ আগস্ট ১৯৫৬।",
+      "section": "atomic_first"
+    },
+    {
+      "term": "বাণিজ্যিক পরিষেবা (Commercial service)",
+      "meaning": "যাত্রীদের জন্য নিয়মিত চলাচল শুরু হওয়া; ভিত্তিপ্রস্তর বা নির্মাণ শুরুর থেকে আলাদা — কলকাতা মেট্রোর ক্ষেত্রে ২৪ অক্টোবর ১৯৮৪।",
+      "section": "metro_first"
+    },
+    {
+      "term": "Mass Rapid Transit System",
+      "meaning": "দ্রুতগামী নগর গণপরিবহণ ব্যবস্থা; MTP (Railways) ১৯৬৯-এর পর কলকাতার জন্য এটিকেই একমাত্র বিকল্প বলে সিদ্ধান্ত নেয়।",
+      "section": "metro_first"
+    },
+    {
+      "term": "অধ্যক্ষ (Speaker)",
+      "meaning": "লোকসভার সভাপতিত্বকারী পদ; প্রথম অধ্যক্ষ মাভলঙ্কর (১৯৫২)।",
+      "section": "first_vp_speaker"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "কলকাতার যানজট থেকে প্রথম মেট্রো",
+      "causes": [
+        "কলকাতার তীব্র পরিবহণ সমস্যার বিকল্প খুঁজতে ১৯৬৯ সালে Metropolitan Transport Project (Railways) গঠিত হয়",
+        "MTP-র সিদ্ধান্ত: Mass Rapid Transit System ছাড়া কোনো বিকল্প নেই"
+      ],
+      "event": "দমদম–টালিগঞ্জ প্রকল্প অনুমোদন (১ জুন ১৯৭২) ও ভিত্তিপ্রস্তর (২৯ ডিসেম্বর ১৯৭২)",
+      "results": [
+        "২৪ অক্টোবর ১৯৮৪ এসপ্ল্যানেড–নেতাজি ভবন অংশে ভারতের প্রথম মেট্রোর বাণিজ্যিক পরিষেবা চালু",
+        "কলকাতা মেট্রো হয় 'ভারতের প্রথম ও এশিয়ার পঞ্চম' মেট্রো"
+      ],
+      "section": "metro_first",
+      "claims": [
+        "c21",
+        "c22",
+        "c13",
+        "c14"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "তিনটি পদের প্রথম ধারক একসঙ্গে: রাষ্ট্রপতি রাজেন্দ্র প্রসাদ, প্রধানমন্ত্রী নেহরু, উপরাষ্ট্রপতি রাধাকৃষ্ণন — পদ অদলবদলই প্রধান ফাঁদ",
+      "section": "first_president_pm"
+    },
+    {
+      "point": "মহিলা প্রথমের জোড়: ইন্দিরা গান্ধী (প্রধানমন্ত্রী) বনাম প্রতিভা পাটিল (রাষ্ট্রপতি)",
+      "section": "women_firsts"
+    },
+    {
+      "point": "১৯৫২-র তারিখ দুটি: উপরাষ্ট্রপতি ১৩ মে, অধ্যক্ষ নির্বাচন ১৫ মে",
+      "section": "first_vp_speaker"
+    },
+    {
+      "point": "উপরাষ্ট্রপতিদের প্রথম চারের ক্রম ও রাষ্ট্রপতিদের প্রথম তিনের ক্রম",
+      "section": "vp_to_president"
+    },
+    {
+      "point": "১৯৭৫ উপগ্রহ বনাম ১৯৮৪ মানুষ — আর্যভট্ট ও রাকেশ শর্মা আলাদা রাখা",
+      "section": "space_firsts"
+    },
+    {
+      "point": "মেট্রোর তিন ধাপের তারিখ: অনুমোদন ও ভিত্তিপ্রস্তর ১৯৭২, চালু ১৯৮৪",
+      "section": "metro_first"
+    },
+    {
+      "point": "অপ্সরা (১৯৫৬) বনাম অপ্সরা-ইউ (২০১৮) — সাল অদলবদলের ফাঁদ",
+      "section": "atomic_first"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের সবচেয়ে বড় 'প্রথম'-টি খোদ বাংলার: ভারতের প্রথম মেট্রো কলকাতার। আরও গর্বের বিষয়, ধারণাটিও বাংলার — ১৯৪৯ সালে পশ্চিমবঙ্গের তৎকালীন মুখ্যমন্ত্রী ড. বিধানচন্দ্র রায় প্রথম কলকাতার জন্য ভূগর্ভস্থ রেলের কথা ভাবেন। তার পঁয়ত্রিশ বছর পর, ১৯৮৪ সালের ২৪ অক্টোবর, এসপ্ল্যানেড–নেতাজি ভবন অংশে সেই স্বপ্নের প্রথম বাণিজ্যিক পরিষেবা চালু হয় এবং কলকাতা মেট্রো হয় ভারতের প্রথম ও এশিয়ার পঞ্চম মেট্রো। পরীক্ষায় 'ভারতের প্রথম মেট্রো কোন শহরে?' প্রশ্নটি WBPSC-র কাছে প্রায় নিয়মিত — উত্তর সবসময় কলকাতা।",
+    "claims": [
+      "c23",
+      "c14"
+    ]
+  },
+  "quick_revision": [
+    "প্রথম প্রধানমন্ত্রী: জওহরলাল নেহরু (১৫ আগস্ট ১৯৪৭ – ২৭ মে ১৯৬৪)",
+    "প্রথম রাষ্ট্রপতি: ড. রাজেন্দ্র প্রসাদ (তালিকায় ১ম)",
+    "প্রথম উপরাষ্ট্রপতি: ড. সর্বপল্লী রাধাকৃষ্ণন (১৩ মে ১৯৫২ – ১২ মে ১৯৬২)",
+    "প্রথম লোকসভা: ১৯৫২; প্রথম অধ্যক্ষ গণেশ বাসুদেব মাভলঙ্কর (নির্বাচিত ১৫ মে ১৯৫২)",
+    "নেহরুর পর: নন্দ (২৭ মে – ৯ জুন ১৯৬৪), তারপর শাস্ত্রী (৯ জুন ১৯৬৪ থেকে)",
+    "প্রথম মহিলা প্রধানমন্ত্রী: ইন্দিরা গান্ধী (প্রথম কার্যকাল ২৪ জানুয়ারি ১৯৬৬ – ২৪ মার্চ ১৯৭৭)",
+    "প্রথম মহিলা রাষ্ট্রপতি: প্রতিভা দেবীসিং পাটিল (১২তম রাষ্ট্রপতি; আগে কালাম ১১তম)",
+    "রাষ্ট্রপতিদের প্রথম তিন: রাজেন্দ্র প্রসাদ → রাধাকৃষ্ণন → জাকির হুসেন",
+    "প্রথম উপগ্রহ: আর্যভট্ট (১৯ এপ্রিল ১৯৭৫, কসমস-৩এম, ভর ৩৬০ কেজি)",
+    "মহাকাশে প্রথম ভারতীয়: রাকেশ শর্মা (১৯৮৪, সোভিয়েত সয়ুজ)",
+    "প্রথম মেট্রো: কলকাতা (চালু ২৪ অক্টোবর ১৯৮৪, এসপ্ল্যানেড–নেতাজি ভবন; এশিয়ায় পঞ্চম)",
+    "মেট্রো প্রকল্প: অনুমোদন ১ জুন ১৯৭২, ভিত্তিপ্রস্তর ২৯ ডিসেম্বর ১৯৭২ (ইন্দিরা গান্ধী)",
+    "প্রথম গবেষণা চুল্লি (BARC তালিকায় প্রাচীনতম): অপ্সরা, ক্রিটিক্যালিটি ৪ আগস্ট ১৯৫৬; বন্ধ ২০১০"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Former Prime Ministers | Prime Minister of India (PMO)",
+      "publisher": "GOVT",
+      "url": "https://www.pmindia.gov.in/en/former-prime-ministers/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Former Presidents of India | President of India (Rashtrapati Bhavan)",
+      "publisher": "GOVT",
+      "url": "https://www.presidentofindia.gov.in/former-presidents",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Former Vice Presidents | Vice President of India (Vice-President's Secretariat)",
+      "publisher": "GOVT",
+      "url": "https://vicepresidentofindia.nic.in/former-vice-presidents/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB Press Release: Lok Sabha Speaker pays tributes to Shri G. V. Mavalankar, the first Speaker of Lok Sabha",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2195542&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Successful Launch of Axiom Mission 4 | ISRO",
+      "publisher": "GOVT",
+      "url": "https://www.isro.gov.in/Successful_Launch_of_Axiom_Mission.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Aryabhata | ISRO",
+      "publisher": "GOVT",
+      "url": "https://www.isro.gov.in/ISRO_EN/aryabhata_1.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "About Us | Metro Railway Kolkata (Indian Railways)",
+      "publisher": "GOVT",
+      "url": "https://mtp.indianrailways.gov.in/ministry/about-us",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "Research Reactors in BARC | Bhabha Atomic Research Centre",
+      "publisher": "GOVT",
+      "url": "https://www.barc.gov.in/reactor/index.html",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Jawaharlal Nehru heads the PMO list of former Prime Ministers with the earliest tenure: 15 August 1947 to 27 May 1964 — he was the first Prime Minister of India.",
+      "source": "s1",
+      "page": "web page",
+      "quote": "Jawaharlal Nehru August 15, 1947 to May 27, 1964"
+    },
+    {
+      "id": "c02",
+      "claim": "Indira Gandhi's first term as Prime Minister ran from 24 January 1966 to 24 March 1977; she is the only woman in the PMO list of former Prime Ministers, i.e. India's first woman Prime Minister.",
+      "source": "s1",
+      "page": "web page",
+      "quote": "Smt. Indira Gandhi January 24, 1966 - March 24, 1977"
+    },
+    {
+      "id": "c03",
+      "claim": "Dr Rajendra Prasad was the 1st President of India.",
+      "source": "s2",
+      "page": "web page",
+      "quote": "Rajendra Prasad 1st President of India"
+    },
+    {
+      "id": "c04",
+      "claim": "Dr Sarvepalli Radhakrishnan was the 2nd President of India.",
+      "source": "s2",
+      "page": "web page",
+      "quote": "Dr. Sarvepalli Radhakrishnan 2nd President of India"
+    },
+    {
+      "id": "c05",
+      "claim": "Pratibha Devisingh Patil is listed as the 12th President of India; all eleven predecessors on the official list are men, making her the first woman President.",
+      "source": "s2",
+      "page": "web page",
+      "quote": "Smt Pratibha Devisingh Patil 12th President of India"
+    },
+    {
+      "id": "c06",
+      "claim": "The first four Vice-Presidents of India in order: Sarvepalli Radhakrishnan (13 May 1952–12 May 1962), Zakir Hussain (1962–67), V. V. Giri (1967–69) and Gopal Swarup Pathak (1969–74); Radhakrishnan was the first Vice-President.",
+      "source": "s3",
+      "page": "web page",
+      "quote": "Former Vice Presidents 13 May 1952 to 12 May 1962 Dr. Sarvepalli Radhakrishnan 13 May 1962 to 12 May 1967 Dr.Zakir Hussain 13 May 1967 to 03 May 1969 Sh. V.V. Giri 31 Aug 1969 to 30 Aug 1974 Sh. Gopal Swarup Pathak"
+    },
+    {
+      "id": "c07",
+      "claim": "Dr Zakir Husain was the 3rd President of India.",
+      "source": "s2",
+      "page": "web page",
+      "quote": "Dr. Zakir Husain 3rd President of India"
+    },
+    {
+      "id": "c08",
+      "claim": "Ganesh Vasudev Mavalankar was the first Speaker of the Lok Sabha.",
+      "source": "s4",
+      "page": "web page",
+      "quote": "Lok Sabha Speaker Shri Om Birla paid floral tributes to Shri Ganesh Vasudev Mavalankar, the first Speaker of Lok Sabha"
+    },
+    {
+      "id": "c09",
+      "claim": "The First Lok Sabha was formed in 1952; Mavalankar was unanimously elected its Speaker on 15 May 1952 and served until his demise on 27 February 1956.",
+      "source": "s4",
+      "page": "web page",
+      "quote": "With the formation of the First Lok Sabha in 1952, he was unanimously elected as its Speaker on 15 May 1952, a responsibility he fulfilled with distinction until his demise on 27 February 1956."
+    },
+    {
+      "id": "c10",
+      "claim": "Rakesh Sharma was sent to space in 1984 aboard the Soviet Soyuz through international cooperation; four decades later another Indian (Shubhanshu Shukla, Axiom-4) journeyed to space — Sharma was the first Indian in space.",
+      "source": "s5",
+      "page": "web page",
+      "quote": "It follows in the legacy of international cooperation that sent Rakesh Sharma to space in 1984 aboard the Soviet Soyuz. Today, four decades later, another Indian journeys to space"
+    },
+    {
+      "id": "c11",
+      "claim": "Aryabhata was India's first satellite, completely designed and fabricated in India, launched by a Soviet Kosmos-3M rocket from Kapustin Yar on 19 April 1975.",
+      "source": "s6",
+      "page": "web page",
+      "quote": "The Aryabhata spacecraft, named after the famous Indian astronomer, was India's first satellite; it was completely designed and fabricated in India and launched by a Soviet Kosmos-3M rocket from Kapustin Yar on April 19, 1975."
+    },
+    {
+      "id": "c12",
+      "claim": "Aryabhata's launch mass was 360 kg.",
+      "source": "s6",
+      "page": "web page",
+      "quote": "Launch Mass: 360 kg"
+    },
+    {
+      "id": "c13",
+      "claim": "The Kolkata Metro Dum Dum–Tollygunge project work was sanctioned on 1 June 1972 and its foundation stone was laid by Prime Minister Indira Gandhi on 29 December 1972.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "the work on this project was sanctioned on 1.6.72. The foundation stone of the project was laid by Smt. Indira Gandhi, the then Prime Minister of India, on December 29, 1972"
+    },
+    {
+      "id": "c14",
+      "claim": "Calcutta Metro, India's first and Asia's fifth metro, became a reality on 24 October 1984 with partial commercial service over 3.40 km with five stations between Esplanade and Netaji Bhavan.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "Calcutta Metro, India's first and Asia's fifth, became a reality on OCTOBER 24, 1984 with the commissioning of partial commercial service covering a distance of 3.40 km with five stations between Esplanade and Netaji Bhavan."
+    },
+    {
+      "id": "c15",
+      "claim": "Commuter services on the 2.15 km Dum Dum–Belgachia stretch of Kolkata Metro followed on 12 November 1984.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "This was quickly followed by commuter services on another 2.15 km stretch in the north between Dum Dum and Belgachia on NOVERMBER 12, 1984."
+    },
+    {
+      "id": "c16",
+      "claim": "Apsara, BARC's swimming-pool type thermal research reactor, achieved criticality on 4 August 1956 — the earliest criticality date among the research reactors on BARC's list.",
+      "source": "s8",
+      "page": "web page",
+      "quote": "Reactor Type Swimming pool type/ Thermal Reactor 2 Date of Criticality August 4,1956"
+    },
+    {
+      "id": "c17",
+      "claim": "The Apsara reactor was permanently shut down in 2010.",
+      "source": "s8",
+      "page": "web page",
+      "quote": "The Apsara Reactor was permanently shutdown in 2010."
+    },
+    {
+      "id": "c18",
+      "claim": "After Nehru, Gulzarilal Nanda held the Prime Minister's office for the short period 27 May 1964 to 9 June 1964 (PMO list).",
+      "source": "s1",
+      "page": "web page",
+      "quote": "Shri Gulzari Lal Nanda May 27, 1964 - June 9, 1964"
+    },
+    {
+      "id": "c19",
+      "claim": "Lal Bahadur Shastri's tenure as Prime Minister ran from 9 June 1964 to 11 January 1966 (PMO list).",
+      "source": "s1",
+      "page": "web page",
+      "quote": "Shri Lal Bahadur Shastri June 9, 1964 - January 11, 1966"
+    },
+    {
+      "id": "c20",
+      "claim": "Dr A. P. J. Abdul Kalam was the 11th President of India, the immediate predecessor of Pratibha Patil (12th) in the official list order.",
+      "source": "s2",
+      "page": "web page",
+      "quote": "DR. A.P.J. Abdul Kalam 11th President of India"
+    },
+    {
+      "id": "c21",
+      "claim": "The Metropolitan Transport Project (Railways) was set up in 1969 to find an alternative solution to Kolkata's transport problem.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "With a view to finding out an alternative solution to alleviate the suffering of the Kolkatans, the Metropolitan Transport Project (Rlys) was set up in 1969."
+    },
+    {
+      "id": "c22",
+      "claim": "The MTP (Rlys) concluded there was no alternative but to construct a Mass Rapid Transit System for Kolkata.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "the MTP (Rlys) came to the conclusion that there was no other alternative but to construct a Mass Rapid Transit System"
+    },
+    {
+      "id": "c23",
+      "claim": "Dr B. C. Roy, then Chief Minister of West Bengal, first conceived the idea in 1949 of building an underground railway for Kolkata.",
+      "source": "s7",
+      "page": "web page",
+      "quote": "It was Dr. B.C. Roy, the then Chief Minister of West Bengal, who for the first time conceived the idea in 1949 of building an Underground Railway for Kolkata to solve the problems to some extent."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "first_president_pm",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "স্বাধীন ভারতের প্রথম প্রধানমন্ত্রী কে ছিলেন?",
+      "a": "জওহরলাল নেহরু",
+      "w": [
+        "লাল বাহাদুর শাস্ত্রী",
+        "গুলজারিলাল নন্দ",
+        "মোরারজি দেসাই"
+      ],
+      "e": "প্রধানমন্ত্রীর দপ্তরের (PMO) প্রাক্তন প্রধানমন্ত্রীদের তালিকায় সবচেয়ে প্রাচীন কার্যকাল জওহরলাল নেহরুর — ১৫ আগস্ট ১৯৪৭ থেকে ২৭ মে ১৯৬৪। শাস্ত্রী (১৯৬৪) ও নন্দ (১৯৬৪) তাঁর পরে এসেছেন।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "first_president_pm",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম রাষ্ট্রপতি কে ছিলেন?",
+      "a": "ড. রাজেন্দ্র প্রসাদ",
+      "w": [
+        "ড. সর্বপল্লী রাধাকৃষ্ণন",
+        "ড. জাকির হুসেন",
+        "ড. এ. পি. জে. আবদুল কালাম"
+      ],
+      "e": "রাষ্ট্রপতি ভবনের সরকারি তালিকায় ড. রাজেন্দ্র প্রসাদ '১ম রাষ্ট্রপতি'। রাধাকৃষ্ণন ২য়, জাকির হুসেন ৩য় এবং কালাম ১১তম রাষ্ট্রপতি।",
+      "claims": [
+        "c03",
+        "c04",
+        "c07",
+        "c20"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "first_president_pm",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জওহরলাল নেহরুর প্রধানমন্ত্রিত্বের কার্যকাল কোনটি?",
+      "a": "১৫ আগস্ট ১৯৪৭ – ২৭ মে ১৯৬৪",
+      "w": [
+        "২৪ জানুয়ারি ১৯৬৬ – ২৪ মার্চ ১৯৭৭",
+        "৯ জুন ১৯৬৪ – ১১ জানুয়ারি ১৯৬৬",
+        "২৭ মে ১৯৬৪ – ৯ জুন ১৯৬৪"
+      ],
+      "e": "PMO-র তালিকা অনুযায়ী নেহরুর কার্যকাল ১৫ আগস্ট ১৯৪৭ থেকে ২৭ মে ১৯৬৪। দ্বিতীয় বিকল্পটি ইন্দিরা গান্ধীর, তৃতীয়টি শাস্ত্রীর এবং চতুর্থটি নন্দের কার্যকাল।",
+      "claims": [
+        "c01",
+        "c02",
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "first_president_pm",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নেহরুর মৃত্যুর পর ২৭ মে ১৯৬৪ থেকে ৯ জুন ১৯৬৪ পর্যন্ত স্বল্পকালের জন্য প্রধানমন্ত্রীর দায়িত্বে কে ছিলেন?",
+      "a": "গুলজারিলাল নন্দ",
+      "w": [
+        "লাল বাহাদুর শাস্ত্রী",
+        "মোরারজি দেসাই",
+        "চরণ সিং"
+      ],
+      "e": "PMO-র তালিকায় গুলজারিলাল নন্দের কার্যকাল ২৭ মে ১৯৬৪ – ৯ জুন ১৯৬৪; এরপর ৯ জুন ১৯৬৪ থেকে দায়িত্ব নেন লাল বাহাদুর শাস্ত্রী।",
+      "claims": [
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "first_president_pm",
+      "level": "difficult",
+      "format": "CHRONOLOGY",
+      "q": "প্রধানমন্ত্রীদের কার্যকাল শুরুর ক্রমানুসারে সাজাও (আগেরটি আগে):\n১. লাল বাহাদুর শাস্ত্রী\n২. জওহরলাল নেহরু\n৩. গুলজারিলাল নন্দ (প্রথম স্বল্পকালীন দায়িত্ব)\n৪. ইন্দিরা গান্ধী",
+      "a": "২, ৩, ১, ৪",
+      "w": [
+        "২, ১, ৩, ৪",
+        "৩, ২, ১, ৪",
+        "২, ৩, ৪, ১"
+      ],
+      "e": "ক্রম: নেহরু (১৯৪৭) → নন্দ (২৭ মে ১৯৬৪) → শাস্ত্রী (৯ জুন ১৯৬৪) → ইন্দিরা গান্ধী (২৪ জানুয়ারি ১৯৬৬)। নন্দ শাস্ত্রীর আগে দায়িত্ব নিয়েছিলেন — এটাই এই প্রশ্নের ফাঁদ।",
+      "claims": [
+        "c01",
+        "c18",
+        "c19",
+        "c02"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "first_president_pm",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. জওহরলাল নেহরুর কার্যকাল শেষ হয় ২৭ মে ১৯৬৪ সালে।\n২. লাল বাহাদুর শাস্ত্রী নেহরুর ঠিক পরের স্থায়ী প্রধানমন্ত্রী হলেও, মাঝে গুলজারিলাল নন্দ স্বল্পকাল দায়িত্ব পালন করেন।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "PMO-র তালিকা: নেহরু ১৫ আগস্ট ১৯৪৭ – ২৭ মে ১৯৬৪; নন্দ ২৭ মে – ৯ জুন ১৯৬৪; শাস্ত্রী ৯ জুন ১৯৬৪ থেকে। তাই দুটি বিবৃতিই সঠিক।",
+      "claims": [
+        "c01",
+        "c18",
+        "c19"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "first_vp_speaker",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম উপরাষ্ট্রপতি কে ছিলেন?",
+      "a": "ড. সর্বপল্লী রাধাকৃষ্ণন",
+      "w": [
+        "ড. জাকির হুসেন",
+        "ভি. ভি. গিরি",
+        "গোপাল স্বরূপ পাঠক"
+      ],
+      "e": "উপরাষ্ট্রপতির সচিবালয়ের তালিকায় প্রথম নাম ড. সর্বপল্লী রাধাকৃষ্ণন (১৩ মে ১৯৫২ – ১২ মে ১৯৬২); তারপর জাকির হুসেন, ভি. ভি. গিরি ও গোপাল স্বরূপ পাঠক।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "first_vp_speaker",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "লোকসভার প্রথম অধ্যক্ষ (Speaker) কে ছিলেন?",
+      "a": "গণেশ বাসুদেব মাভলঙ্কর",
+      "w": [
+        "সর্বপল্লী রাধাকৃষ্ণন",
+        "রাজেন্দ্র প্রসাদ",
+        "গুলজারিলাল নন্দ"
+      ],
+      "e": "PIB-র প্রকাশনা অনুযায়ী গণেশ বাসুদেব মাভলঙ্কর ছিলেন লোকসভার প্রথম অধ্যক্ষ। রাধাকৃষ্ণন ছিলেন প্রথম উপরাষ্ট্রপতি, রাজেন্দ্র প্রসাদ প্রথম রাষ্ট্রপতি — এই তিনটি 'প্রথম' গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল।",
+      "claims": [
+        "c08",
+        "c06",
+        "c03"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "first_vp_speaker",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রথম লোকসভা কোন সালে গঠিত হয় এবং মাভলঙ্কর কবে তার অধ্যক্ষ নির্বাচিত হন?",
+      "a": "১৯৫২ সালে গঠিত; ১৫ মে ১৯৫২ অধ্যক্ষ নির্বাচিত",
+      "w": [
+        "১৯৪৭ সালে গঠিত; ১৫ আগস্ট ১৯৪৭ অধ্যক্ষ নির্বাচিত",
+        "১৯৫০ সালে গঠিত; ২৬ জানুয়ারি ১৯৫০ অধ্যক্ষ নির্বাচিত",
+        "১৯৫২ সালে গঠিত; ১৩ মে ১৯৫২ অধ্যক্ষ নির্বাচিত"
+      ],
+      "e": "PIB অনুযায়ী প্রথম লোকসভা গঠিত হয় ১৯৫২ সালে এবং মাভলঙ্কর সর্বসম্মতিক্রমে ১৫ মে ১৯৫২ তারিখে অধ্যক্ষ নির্বাচিত হন। ১৩ মে ১৯৫২ হল রাধাকৃষ্ণনের উপরাষ্ট্রপতিত্ব শুরুর তারিখ — দুটি তারিখ আলাদা রাখো।",
+      "claims": [
+        "c09",
+        "c06"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "first_vp_speaker",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মাভলঙ্কর কতদিন লোকসভার অধ্যক্ষের দায়িত্ব পালন করেন?",
+      "a": "২৭ ফেব্রুয়ারি ১৯৫৬ পর্যন্ত (তাঁর মৃত্যু পর্যন্ত)",
+      "w": [
+        "১৯৫৭ সালের দ্বিতীয় লোকসভা পর্যন্ত",
+        "১২ মে ১৯৬২ পর্যন্ত",
+        "১৯৫২ সালের শেষ পর্যন্ত"
+      ],
+      "e": "PIB জানায়, মাভলঙ্কর ১৫ মে ১৯৫২ থেকে ২৭ ফেব্রুয়ারি ১৯৫৬ সালে তাঁর মৃত্যু পর্যন্ত অধ্যক্ষের দায়িত্ব পালন করেন।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "first_vp_speaker",
+      "level": "difficult",
+      "format": "CHRONOLOGY",
+      "q": "উপরাষ্ট্রপতিদের কার্যকাল শুরুর ক্রমানুসারে সাজাও (আগেরটি আগে):\n১. গোপাল স্বরূপ পাঠক\n২. ড. সর্বপল্লী রাধাকৃষ্ণন\n৩. ভি. ভি. গিরি\n৪. ড. জাকির হুসেন",
+      "a": "২, ৪, ৩, ১",
+      "w": [
+        "২, ৩, ৪, ১",
+        "৪, ২, ৩, ১",
+        "২, ৪, ১, ৩"
+      ],
+      "e": "উপরাষ্ট্রপতির সচিবালয়ের তালিকা: রাধাকৃষ্ণন (১৯৫২), জাকির হুসেন (১৯৬২), ভি. ভি. গিরি (১৯৬৭), গোপাল স্বরূপ পাঠক (১৯৬৯)।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "first_vp_speaker",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "ব্যক্তি ও 'প্রথম পদ'-এর সঠিক মিল বাছাই করো:\nA. রাজেন্দ্র প্রসাদ\nB. জওহরলাল নেহরু\nC. সর্বপল্লী রাধাকৃষ্ণন\nD. গণেশ বাসুদেব মাভলঙ্কর\n১. প্রথম উপরাষ্ট্রপতি\n২. প্রথম লোকসভা অধ্যক্ষ\n৩. প্রথম রাষ্ট্রপতি\n৪. প্রথম প্রধানমন্ত্রী",
+      "a": "A-৩, B-৪, C-১, D-২",
+      "w": [
+        "A-৩, B-৪, C-২, D-১",
+        "A-৪, B-৩, C-১, D-২",
+        "A-৩, B-১, C-৪, D-২"
+      ],
+      "e": "রাজেন্দ্র প্রসাদ — প্রথম রাষ্ট্রপতি; নেহরু — প্রথম প্রধানমন্ত্রী; রাধাকৃষ্ণন — প্রথম উপরাষ্ট্রপতি; মাভলঙ্কর — প্রথম লোকসভা অধ্যক্ষ।",
+      "claims": [
+        "c03",
+        "c01",
+        "c06",
+        "c08"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "women_firsts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম মহিলা প্রধানমন্ত্রী কে ছিলেন?",
+      "a": "ইন্দিরা গান্ধী",
+      "w": [
+        "প্রতিভা দেবীসিং পাটিল",
+        "সরোজিনী নাইডু",
+        "সুচেতা কৃপালানি"
+      ],
+      "e": "PMO-র প্রাক্তন প্রধানমন্ত্রীদের তালিকায় একমাত্র মহিলা ইন্দিরা গান্ধী; তাঁর প্রথম কার্যকাল শুরু হয় ২৪ জানুয়ারি ১৯৬৬। প্রতিভা পাটিল ছিলেন রাষ্ট্রপতি, প্রধানমন্ত্রী নন।",
+      "claims": [
+        "c02",
+        "c05"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "women_firsts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম মহিলা রাষ্ট্রপতি কে ছিলেন?",
+      "a": "প্রতিভা দেবীসিং পাটিল",
+      "w": [
+        "ইন্দিরা গান্ধী",
+        "সরোজিনী নাইডু",
+        "দ্রৌপদী মুর্মু"
+      ],
+      "e": "রাষ্ট্রপতি ভবনের তালিকায় প্রতিভা দেবীসিং পাটিল ১২তম রাষ্ট্রপতি; তাঁর আগের এগারোজনই পুরুষ, তাই তিনিই প্রথম মহিলা রাষ্ট্রপতি। ইন্দিরা গান্ধী ছিলেন প্রধানমন্ত্রী।",
+      "claims": [
+        "c05",
+        "c02"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "women_firsts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ইন্দিরা গান্ধীর প্রথম প্রধানমন্ত্রিত্বের কার্যকাল কোনটি?",
+      "a": "২৪ জানুয়ারি ১৯৬৬ – ২৪ মার্চ ১৯৭৭",
+      "w": [
+        "১৫ আগস্ট ১৯৪৭ – ২৭ মে ১৯৬৪",
+        "৯ জুন ১৯৬৪ – ১১ জানুয়ারি ১৯৬৬",
+        "২৭ মে ১৯৬৪ – ৯ জুন ১৯৬৪"
+      ],
+      "e": "PMO-র তালিকা অনুযায়ী ইন্দিরা গান্ধীর প্রথম কার্যকাল ২৪ জানুয়ারি ১৯৬৬ থেকে ২৪ মার্চ ১৯৭৭। বাকিগুলি যথাক্রমে নেহরু, শাস্ত্রী ও নন্দের কার্যকাল।",
+      "claims": [
+        "c02",
+        "c01",
+        "c19",
+        "c18"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "women_firsts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রতিভা দেবীসিং পাটিল কততম রাষ্ট্রপতি ছিলেন এবং তাঁর ঠিক আগের রাষ্ট্রপতি কে?",
+      "a": "১২তম; আগের রাষ্ট্রপতি ড. এ. পি. জে. আবদুল কালাম (১১তম)",
+      "w": [
+        "১১তম; আগের রাষ্ট্রপতি ড. এ. পি. জে. আবদুল কালাম",
+        "১২তম; আগের রাষ্ট্রপতি জ্ঞানি জৈল সিং",
+        "১৩তম; আগের রাষ্ট্রপতি প্রণব মুখোপাধ্যায়"
+      ],
+      "e": "রাষ্ট্রপতি ভবনের তালিকায় কালাম ১১তম এবং পাটিল ১২তম রাষ্ট্রপতি — অর্থাৎ পাটিল কালামের ঠিক পরেই আসেন।",
+      "claims": [
+        "c05",
+        "c20"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "women_firsts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নিচের কোন জোড়টি সঠিক?",
+      "a": "ইন্দিরা গান্ধী — প্রথম মহিলা প্রধানমন্ত্রী; প্রতিভা পাটিল — প্রথম মহিলা রাষ্ট্রপতি",
+      "w": [
+        "ইন্দিরা গান্ধী — প্রথম মহিলা রাষ্ট্রপতি; প্রতিভা পাটিল — প্রথম মহিলা প্রধানমন্ত্রী",
+        "ইন্দিরা গান্ধী — প্রথম মহিলা উপরাষ্ট্রপতি; প্রতিভা পাটিল — প্রথম মহিলা রাষ্ট্রপতি",
+        "ইন্দিরা গান্ধী — প্রথম মহিলা প্রধানমন্ত্রী; প্রতিভা পাটিল — প্রথম মহিলা উপরাষ্ট্রপতি"
+      ],
+      "e": "ইন্দিরা গান্ধী PMO-র তালিকার একমাত্র মহিলা প্রধানমন্ত্রী (প্রথম কার্যকাল ১৯৬৬–৭৭); প্রতিভা পাটিল রাষ্ট্রপতিদের তালিকায় প্রথম মহিলা (১২তম)। প্রথম উপরাষ্ট্রপতি ছিলেন রাধাকৃষ্ণন।",
+      "claims": [
+        "c02",
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "women_firsts",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন জোড়টি (ব্যক্তি – যে পদে তিনি প্রথম) সঠিকভাবে মেলানো নয়?",
+      "a": "সর্বপল্লী রাধাকৃষ্ণন: প্রথম প্রধানমন্ত্রী",
+      "w": [
+        "রাজেন্দ্র প্রসাদ: প্রথম রাষ্ট্রপতি",
+        "ইন্দিরা গান্ধী: প্রথম মহিলা প্রধানমন্ত্রী",
+        "প্রতিভা পাটিল: প্রথম মহিলা রাষ্ট্রপতি"
+      ],
+      "e": "রাধাকৃষ্ণন ছিলেন প্রথম উপরাষ্ট্রপতি (১৯৫২–৬২), প্রথম প্রধানমন্ত্রী নন — প্রথম প্রধানমন্ত্রী জওহরলাল নেহরু। বাকি তিনটি জোড়ই সঠিক।",
+      "claims": [
+        "c06",
+        "c01",
+        "c03",
+        "c02",
+        "c05"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "vp_to_president",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের দ্বিতীয় রাষ্ট্রপতি কে ছিলেন?",
+      "a": "ড. সর্বপল্লী রাধাকৃষ্ণন",
+      "w": [
+        "ড. রাজেন্দ্র প্রসাদ",
+        "ড. জাকির হুসেন",
+        "ভি. ভি. গিরি"
+      ],
+      "e": "রাষ্ট্রপতি ভবনের তালিকা: রাজেন্দ্র প্রসাদ ১ম, রাধাকৃষ্ণন ২য়, জাকির হুসেন ৩য় রাষ্ট্রপতি।",
+      "claims": [
+        "c04",
+        "c03",
+        "c07"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "vp_to_president",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের তৃতীয় রাষ্ট্রপতি কে ছিলেন?",
+      "a": "ড. জাকির হুসেন",
+      "w": [
+        "ড. সর্বপল্লী রাধাকৃষ্ণন",
+        "ড. রাজেন্দ্র প্রসাদ",
+        "ড. এ. পি. জে. আবদুল কালাম"
+      ],
+      "e": "রাষ্ট্রপতি ভবনের তালিকায় ড. জাকির হুসেন '৩য় রাষ্ট্রপতি'। লক্ষণীয়: তিনি ছিলেন দ্বিতীয় উপরাষ্ট্রপতি (১৯৬২–৬৭) — উপরাষ্ট্রপতি থেকে রাষ্ট্রপতি হওয়ার ধারার দ্বিতীয় উদাহরণ।",
+      "claims": [
+        "c07",
+        "c06"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "vp_to_president",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রাধাকৃষ্ণনের উপরাষ্ট্রপতিত্বের কার্যকাল কোনটি?",
+      "a": "১৩ মে ১৯৫২ – ১২ মে ১৯৬২",
+      "w": [
+        "১৩ মে ১৯৬২ – ১২ মে ১৯৬৭",
+        "১৩ মে ১৯৬৭ – ৩ মে ১৯৬৯",
+        "৩১ আগস্ট ১৯৬৯ – ৩০ আগস্ট ১৯৭৪"
+      ],
+      "e": "উপরাষ্ট্রপতির সচিবালয়ের তালিকা: রাধাকৃষ্ণন ১৩ মে ১৯৫২ – ১২ মে ১৯৬২। বাকিগুলি যথাক্রমে জাকির হুসেন, ভি. ভি. গিরি ও গোপাল স্বরূপ পাঠকের কার্যকাল।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "vp_to_president",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন উপরাষ্ট্রপতির কার্যকাল ছিল ১৩ মে ১৯৬৭ থেকে ৩ মে ১৯৬৯?",
+      "a": "ভি. ভি. গিরি",
+      "w": [
+        "গোপাল স্বরূপ পাঠক",
+        "ড. জাকির হুসেন",
+        "বি. ডি. জাট্টি"
+      ],
+      "e": "সচিবালয়ের তালিকা অনুযায়ী ভি. ভি. গিরির কার্যকাল ১৩ মে ১৯৬৭ – ৩ মে ১৯৬৯; তাঁর আগে জাকির হুসেন (১৯৬২–৬৭) ও পরে গোপাল স্বরূপ পাঠক (১৯৬৯–৭৪)।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "vp_to_president",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "প্রথম দুই রাষ্ট্রপতির মধ্যে মিল কোনটি?",
+      "a": "দুজনেই রাষ্ট্রপতি হওয়ার আগে উপরাষ্ট্রপতির তালিকার শুরুর দিকে ছিলেন — রাধাকৃষ্ণন ছিলেন প্রথম উপরাষ্ট্রপতি",
+      "w": [
+        "দুজনেই প্রথম লোকসভার অধ্যক্ষ ছিলেন",
+        "দুজনেই প্রধানমন্ত্রী ছিলেন",
+        "দুজনেই একই সালে উপরাষ্ট্রপতি হন"
+      ],
+      "e": "রাজেন্দ্র প্রসাদ ১ম রাষ্ট্রপতি; তাঁর উত্তরসূরি রাধাকৃষ্ণন ছিলেন প্রথম উপরাষ্ট্রপতি (১৯৫২–৬২) ও পরে ২য় রাষ্ট্রপতি। প্রথম লোকসভা অধ্যক্ষ ছিলেন মাভলঙ্কর, প্রধানমন্ত্রী ছিলেন নেহরু।",
+      "claims": [
+        "c03",
+        "c04",
+        "c06",
+        "c08",
+        "c01"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "vp_to_president",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. ড. জাকির হুসেন প্রথমে উপরাষ্ট্রপতি (১৯৬২–৬৭) এবং পরে ৩য় রাষ্ট্রপতি হন।\n২. ড. রাজেন্দ্র প্রসাদ ২য় রাষ্ট্রপতি ছিলেন।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক: সচিবালয়ের তালিকায় জাকির হুসেন দ্বিতীয় উপরাষ্ট্রপতি (১৯৬২–৬৭) এবং রাষ্ট্রপতি ভবনের তালিকায় ৩য় রাষ্ট্রপতি। বিবৃতি ২ ভুল: রাজেন্দ্র প্রসাদ ১ম রাষ্ট্রপতি; ২য় ছিলেন রাধাকৃষ্ণন।",
+      "claims": [
+        "c06",
+        "c07",
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "space_firsts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম কৃত্রিম উপগ্রহ কোনটি?",
+      "a": "আর্যভট্ট",
+      "w": [
+        "ভাস্কর",
+        "রোহিণী",
+        "ইনস্যাট"
+      ],
+      "e": "ISRO অনুযায়ী আর্যভট্ট ছিল ভারতের প্রথম উপগ্রহ — সম্পূর্ণভাবে ভারতে নকশা ও তৈরি, উৎক্ষেপণ ১৯ এপ্রিল ১৯৭৫।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "space_firsts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মহাকাশে যাওয়া প্রথম ভারতীয় কে?",
+      "a": "রাকেশ শর্মা",
+      "w": [
+        "শুভাংশু শুক্লা",
+        "কল্পনা চাওলা",
+        "সুনীতা উইলিয়ামস"
+      ],
+      "e": "ISRO-র বর্ণনায় ১৯৮৪ সালে সোভিয়েত সয়ুজে চড়ে রাকেশ শর্মা মহাকাশে যান; তার চার দশক পরে আরেক ভারতীয় শুভাংশু শুক্লা মহাকাশে যান — অর্থাৎ শর্মাই প্রথম।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "space_firsts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আর্যভট্ট কবে ও কোন রকেটে উৎক্ষেপিত হয়?",
+      "a": "১৯ এপ্রিল ১৯৭৫; সোভিয়েত কসমস-৩এম রকেটে",
+      "w": [
+        "১৯ এপ্রিল ১৯৭৫; ভারতীয় PSLV রকেটে",
+        "১৫ আগস্ট ১৯৬৯; সোভিয়েত কসমস-৩এম রকেটে",
+        "৩ এপ্রিল ১৯৮৪; সোভিয়েত সয়ুজে"
+      ],
+      "e": "ISRO: আর্যভট্ট ১৯৭৫ সালের ১৯ এপ্রিল কাপুস্তিন ইয়ার থেকে সোভিয়েত কসমস-৩এম রকেটে উৎক্ষেপিত হয়। ১৯৮৪ ও সয়ুজ রাকেশ শর্মার ক্ষেত্রে প্রযোজ্য।",
+      "claims": [
+        "c11",
+        "c10"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "space_firsts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রাকেশ শর্মা কোন সালে ও কোন মহাকাশযানে মহাকাশে যান?",
+      "a": "১৯৮৪ সালে; সোভিয়েত সয়ুজ",
+      "w": [
+        "১৯৭৫ সালে; কসমস-৩এম",
+        "২০২৫ সালে; ড্রাগন",
+        "১৯৮৪ সালে; আর্যভট্ট"
+      ],
+      "e": "ISRO জানায়, আন্তর্জাতিক সহযোগিতায় রাকেশ শর্মাকে ১৯৮৪ সালে সোভিয়েত সয়ুজে করে মহাকাশে পাঠানো হয়। আর্যভট্ট একটি উপগ্রহ (১৯৭৫), মহাকাশযান নয়।",
+      "claims": [
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "space_firsts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আর্যভট্ট উপগ্রহের উৎক্ষেপণ-ভর (launch mass) কত ছিল?",
+      "a": "৩৬০ কেজি",
+      "w": [
+        "৪৬ কেজি",
+        "১৯৭৫ কেজি",
+        "৫৬৩ কেজি"
+      ],
+      "e": "ISRO-র আর্যভট্ট পৃষ্ঠায় উৎক্ষেপণ-ভর ৩৬০ কেজি। (৪৬ হল এর ওয়াটে বিদ্যুৎ-ক্ষমতার সংখ্যা — দুটি সংখ্যা গুলিয়ো না।)",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "space_firsts",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): আর্যভট্টকে ভারতের প্রথম উপগ্রহ বলা হয়।\nকারণ (R): এটি সম্পূর্ণভাবে ভারতে নকশা ও তৈরি হয়ে ১৯৭৫ সালে উৎক্ষেপিত হয়।\nসঠিক বিকল্প বাছাই করো:",
+      "a": "A ও R দুটোই সত্য এবং R, A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R দুটোই সত্য, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য, R মিথ্যা",
+        "A মিথ্যা, R সত্য"
+      ],
+      "e": "ISRO স্পষ্ট বলেছে আর্যভট্ট 'ভারতের প্রথম উপগ্রহ' এবং এটি সম্পূর্ণ ভারতে নকশা-তৈরি — তাই R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "metro_first",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম মেট্রো রেল কোন শহরে চালু হয়?",
+      "a": "কলকাতা",
+      "w": [
+        "দিল্লি",
+        "মুম্বাই",
+        "চেন্নাই"
+      ],
+      "e": "মেট্রো রেলওয়ে কলকাতার ইতিহাস অনুযায়ী কলকাতা মেট্রো 'ভারতের প্রথম এবং এশিয়ার পঞ্চম' মেট্রো।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "metro_first",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কলকাতা মেট্রোর প্রথম বাণিজ্যিক পরিষেবা কবে চালু হয়?",
+      "a": "২৪ অক্টোবর ১৯৮৪",
+      "w": [
+        "২৯ ডিসেম্বর ১৯৭২",
+        "১ জুন ১৯৭২",
+        "১২ নভেম্বর ১৯৮৪"
+      ],
+      "e": "১৯৮৪ সালের ২৪ অক্টোবর এসপ্ল্যানেড–নেতাজি ভবন অংশে আংশিক বাণিজ্যিক পরিষেবা চালু হয়। ১৯৭২-র তারিখ দুটি প্রকল্প অনুমোদন ও ভিত্তিপ্রস্তরের; ১২ নভেম্বর ১৯৮৪ দমদম–বেলগাছিয়া অংশের।",
+      "claims": [
+        "c14",
+        "c13",
+        "c15"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "metro_first",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কলকাতা মেট্রো প্রকল্পের ভিত্তিপ্রস্তর কে স্থাপন করেন?",
+      "a": "প্রধানমন্ত্রী ইন্দিরা গান্ধী",
+      "w": [
+        "মুখ্যমন্ত্রী ড. বিধানচন্দ্র রায়",
+        "প্রধানমন্ত্রী জওহরলাল নেহরু",
+        "রাষ্ট্রপতি রাজেন্দ্র প্রসাদ"
+      ],
+      "e": "মেট্রো রেলওয়ের ইতিহাস: ১৯৭২ সালের ২৯ ডিসেম্বর তৎকালীন প্রধানমন্ত্রী ইন্দিরা গান্ধী ভিত্তিপ্রস্তর স্থাপন করেন। ড. বি. সি. রায়ের ভূমিকা ছিল আরও আগের — ১৯৪৯ সালে ভূগর্ভস্থ রেলের ধারণাটি তিনিই প্রথম দেন।",
+      "claims": [
+        "c13",
+        "c23"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "metro_first",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রথম বাণিজ্যিক পরিষেবায় কলকাতা মেট্রোর অংশটি কোনটি ছিল?",
+      "a": "এসপ্ল্যানেড থেকে নেতাজি ভবন (৩.৪০ কিমি, পাঁচটি স্টেশন)",
+      "w": [
+        "দমদম থেকে বেলগাছিয়া (২.১৫ কিমি)",
+        "দমদম থেকে টালিগঞ্জ (১৬.৪৫ কিমি)",
+        "এসপ্ল্যানেড থেকে চাঁদনি চক"
+      ],
+      "e": "২৪ অক্টোবর ১৯৮৪-তে চালু হয় এসপ্ল্যানেড–নেতাজি ভবন অংশ: ৩.৪০ কিমি, পাঁচটি স্টেশন। দমদম–বেলগাছিয়া (২.১৫ কিমি) চালু হয় পরে, ১২ নভেম্বর ১৯৮৪।",
+      "claims": [
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "metro_first",
+      "level": "difficult",
+      "format": "CHRONOLOGY",
+      "q": "কলকাতা মেট্রোর ঘটনাগুলি কালানুক্রমে সাজাও (আগেরটি আগে):\n১. ইন্দিরা গান্ধীর ভিত্তিপ্রস্তর স্থাপন\n২. এসপ্ল্যানেড–নেতাজি ভবন আংশিক বাণিজ্যিক পরিষেবা\n৩. দমদম–টালিগঞ্জ প্রকল্পের কাজ অনুমোদন\n৪. দমদম–বেলগাছিয়া যাত্রী পরিষেবা",
+      "a": "৩, ১, ২, ৪",
+      "w": [
+        "১, ৩, ২, ৪",
+        "৩, ১, ৪, ২",
+        "৩, ২, ১, ৪"
+      ],
+      "e": "অনুমোদন ১ জুন ১৯৭২ → ভিত্তিপ্রস্তর ২৯ ডিসেম্বর ১৯৭২ → বাণিজ্যিক পরিষেবা ২৪ অক্টোবর ১৯৮৪ → দমদম–বেলগাছিয়া ১২ নভেম্বর ১৯৮৪।",
+      "claims": [
+        "c13",
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "metro_first",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. কলকাতা মেট্রো এশিয়ার পঞ্চম মেট্রো।\n২. দমদম–বেলগাছিয়া অংশের পরিষেবা এসপ্ল্যানেড–নেতাজি ভবন অংশের আগেই চালু হয়েছিল।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক: মেট্রো রেলওয়ে কলকাতা মেট্রোকে 'ভারতের প্রথম ও এশিয়ার পঞ্চম' বলেছে। বিবৃতি ২ ভুল: এসপ্ল্যানেড–নেতাজি ভবন ২৪ অক্টোবর ১৯৮৪, দমদম–বেলগাছিয়া তার পরে ১২ নভেম্বর ১৯৮৪।",
+      "claims": [
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "atomic_first",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "BARC-র অপ্সরা (Apsara) কী ধরনের চুল্লি?",
+      "a": "সুইমিং পুল ধরনের গবেষণা চুল্লি",
+      "w": [
+        "বিদ্যুৎ উৎপাদনকারী চাপযুক্ত ভারী জল চুল্লি",
+        "দ্রুত প্রজনক (fast breeder) চুল্লি",
+        "পারমাণবিক সাবমেরিনের চুল্লি"
+      ],
+      "e": "BARC-র তালিকায় অপ্সরার ধরন 'সুইমিং পুল ধরনের / তাপীয় চুল্লি' এবং এটি গবেষণা চুল্লির তালিকায় আছে — বিদ্যুৎকেন্দ্র নয়।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "atomic_first",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "অপ্সরা চুল্লি কবে ক্রিটিক্যালিটি (criticality) অর্জন করে?",
+      "a": "৪ আগস্ট ১৯৫৬",
+      "w": [
+        "১০ সেপ্টেম্বর ২০১৮",
+        "১৪ জানুয়ারি ১৯৬১",
+        "১০ জুলাই ১৯৬০"
+      ],
+      "e": "BARC অনুযায়ী অপ্সরার ক্রিটিক্যালিটির তারিখ ৪ আগস্ট ১৯৫৬ — তাদের গবেষণা চুল্লির তালিকায় এটিই প্রাচীনতম তারিখ। ২০১৮-র তারিখটি অপ্সরা-ইউ (উন্নীত সংস্করণ)-এর।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "atomic_first",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অপ্সরা চুল্লি স্থায়ীভাবে কবে বন্ধ হয়?",
+      "a": "২০১০ সালে",
+      "w": [
+        "১৯৮৩ সালে",
+        "২০১৮ সালে",
+        "১৯৭৩ সালে"
+      ],
+      "e": "BARC জানায়, অপ্সরা চুল্লি ২০১০ সালে স্থায়ীভাবে বন্ধ হয়। ২০১৮ সালে চালু হয় এর উন্নীত সংস্করণ অপ্সরা-ইউ — দুটিকে গুলিয়ো না।",
+      "claims": [
+        "c17",
+        "c16"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "atomic_first",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অপ্সরার সর্বোচ্চ ক্ষমতা (thermal power) কত ছিল?",
+      "a": "১ মেগাওয়াট",
+      "w": [
+        "২ মেগাওয়াট",
+        "৪০ মেগাওয়াট",
+        "১০০ মেগাওয়াট"
+      ],
+      "e": "BARC-র অপ্সরা-ছকে চুল্লির ক্ষমতা ১ মেগাওয়াট (সর্বোচ্চ)। ২ মেগাওয়াট হল অপ্সরা-ইউ-এর ক্ষমতা।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "atomic_first",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অপ্সরা সম্পর্কে কোন বিবৃতিটি সঠিক?",
+      "a": "এটি BARC-র গবেষণা চুল্লি; এর ক্রিটিক্যালিটি (১৯৫৬) BARC-র তালিকার প্রাচীনতম",
+      "w": [
+        "এটি NPCIL-এর প্রথম বিদ্যুৎ উৎপাদন কেন্দ্র",
+        "এটি ২০১৮ সালে প্রথম ক্রিটিক্যালিটি পায়",
+        "এটি একটি দ্রুত (fast) চুল্লি"
+      ],
+      "e": "অপ্সরা BARC-র গবেষণা চুল্লির তালিকায় আছে, ধরন সুইমিং পুল/তাপীয়, ক্রিটিক্যালিটি ৪ আগস্ট ১৯৫৬। ২০১৮-র ক্রিটিক্যালিটি অপ্সরা-ইউ-এর।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "atomic_first",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিচার করো:\n১. অপ্সরা একটি সুইমিং পুল ধরনের তাপীয় গবেষণা চুল্লি।\n২. অপ্সরা-ইউ (Apsara-U) ২০১৮ সালে প্রথম ক্রিটিক্যালিটি অর্জন করে এবং অপ্সরার উন্নীত সংস্করণ।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "BARC-র একই পৃষ্ঠায়: অপ্সরা — সুইমিং পুল ধরনের, ক্রিটিক্যালিটি ৪ আগস্ট ১৯৫৬; অপ্সরা-ইউ — 'Apsara-Upgraded', প্রথম ক্রিটিক্যালিটি ১০ সেপ্টেম্বর ২০১৮। দুটি বিবৃতিই সঠিক।",
+      "claims": [
+        "c16"
+      ]
+    }
+  ]
+}

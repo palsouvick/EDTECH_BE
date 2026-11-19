@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "যে আমানত হিসাবধারী চাইলেই ব্যাংককে ফেরত দিতে হয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Such deposits are called demand deposits as they are payable by the bank on demand from the accountholder.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Covered by claim c26: Demand deposits are deposits payable by the bank on demand from the accountholder (balances in savings or current accounts)."
+    },
+    {
+      "id": "q02",
+      "answer": "মেয়াদি আমানত (Time Deposit)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Other deposits, e.g. fixed deposits, have a fixed period to maturity and are referred to as time deposits.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Covered by claim c27: Fixed deposits have a fixed period to maturity and are called time deposits."
+    },
+    {
+      "id": "q03",
+      "answer": "ঋণগ্রহীতার কাছ থেকে নেওয়া সুদ ও আমানতকারীকে দেওয়া সুদের পার্থক্য",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The interest rate paid by the banks to depositors is lower than the rate charged from the borrowers. This difference between these two types of interest rates, called the ‘spread’ is the profit appropriated by the bank.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 37 (approx.)",
+      "notes": "Covered by claim c05: The difference between the interest rate charged from borrowers and the rate paid to depositors is called the spread, the bank's profit."
+    },
+    {
+      "id": "q04",
+      "answer": "সেভিংস হিসাবের ওপর লেখা চেক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "They are also called legal tenders as they cannot be refused by any citizen of the country for settlement of any kind of transaction. Cheques drawn on savings or current accounts, however, can be refused by anyone as a mode of payment. Hence, demand deposits are not legal tenders.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Covered by claim c29: Currency notes and coins are legal tender as they cannot be refused by any citizen for settlement of any transaction; cheques drawn on savings or current accounts can be refused, so demand deposits are not legal tender."
+    },
+    {
+      "id": "q05",
+      "answer": "ব্যাংক আমানতের ওপর সুদ দেয় এবং টাকা রাখা নিরাপদ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "People prefer to keep money in banks because banks offer to pay some interest on any deposits made. Also, it may be safer to keep excess funds in a bank, rather than at home",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 38 (approx.)",
+      "notes": "Covered by claim c06: People keep money in banks because banks pay interest on deposits and it is safer than keeping funds at home; cheques and debit cards make demand deposits convenient."
+    },
+    {
+      "id": "q06",
+      "answer": "RBI ও ভারত সরকার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In India currency notes are issued by the Reserve Bank of India (RBI), which is the monetary authority in India. However, coins are issued by the Government of India.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Covered by claim c35: In India currency notes are issued by the RBI, the monetary authority, while coins are issued by the Government of India."
+    },
+    {
+      "id": "q07",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Such deposits are called demand deposits as they are payable by the bank on demand from the accountholder.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Statement 2 false per c27: fixed deposits are time deposits, not demand deposits."
+    },
+    {
+      "id": "q08",
+      "answer": "জনগণের রাখা আমানত",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Liabilities for any firm are its debts or what it owes to others. For a bank, the main liability is the deposits which people keep with it.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 39 (approx.)",
+      "notes": "Covered by claim c10: A balance sheet records assets and liabilities; for a bank, loans given to the public are assets and deposits are the main liability."
+    },
+    {
+      "id": "q09",
+      "answer": "সব আমানতকারী একসঙ্গে টাকা তুলতে আসবেন না বলে ধরে নেওয়া হয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Banks can lend simply because they do not expect all the depositors to withdraw what they have deposited at the same time.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 39 (approx.)",
+      "notes": "Covered by claim c08: Banks can lend because they do not expect all depositors to withdraw their deposits at the same time."
+    },
+    {
+      "id": "q10",
+      "answer": "বাড়ে, কারণ ঋণগ্রহীতার নামে নতুন আমানত খুলে যায়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "When the banks lend to any person, a new deposit is opened in that person’s name. Thus money supply increases",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 39 (approx.)",
+      "notes": "Covered by claim c09: When a bank lends to a person, a new deposit is opened in that person's name, so money supply increases."
+    },
+    {
+      "id": "q11",
+      "answer": "RBI-র কাছে বাণিজ্যিক ব্যাংকের রাখা আমানত ও তার নগদ",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Reserves are deposits which commercial banks keep with the Central bank, Reserve Bank of India (RBI) and its cash. These reserves are kept partly as cash and partly in the form of financial instruments (bonds and treasury bills) issued by the RBI.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 39 (approx.)",
+      "notes": "Covered by claim c11: Reserves are deposits which commercial banks keep with the RBI and their cash; reserves are kept partly as cash and partly in financial instruments (bonds and treasury bills) issued by the RBI."
+    },
+    {
+      "id": "q12",
+      "answer": "যেকোনো আমানতকারী চাইলে ফেরত দেওয়ার মতো অর্থ হাতে রাখা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "So the bank will typically retain a portion of the funds to repay depositors whenever they demand their funds back, and loan the rest.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 38 (approx.)",
+      "notes": "Covered by claim c07: A bank retains a portion of deposits to repay depositors on demand and loans the rest; it must balance lending so that sufficient funds are available to repay any depositor on demand."
+    },
+    {
+      "id": "q13",
+      "answer": "৫",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Thus, reserves of Rs 100 create deposits of Rs (5 X 100)=Rs 500.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 41 (approx.)",
+      "notes": "Covered by claim c16: In the NCERT example with 20 per cent reserve ratio, reserves of Rs 100 support deposits of Rs 500, so the money multiplier is 5."
+    },
+    {
+      "id": "q14",
+      "answer": "A ও R উভয়ই সত্য এবং R, A-র সঠিক ব্যাখ্যা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "When the banks lend to any person, a new deposit is opened in that person’s name. Thus money supply increases",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 39 (approx.)",
+      "notes": "Covered by claim c09: When a bank lends to a person, a new deposit is opened in that person's name, so money supply increases."
+    },
+    {
+      "id": "q15",
+      "answer": "Cash Reserve Ratio (নগদ সংরক্ষণ অনুপাত)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The RBI decides a certain percentage of deposits which every bank must keep as reserves. This is done to ensure that no bank is ‘over lending’. This is a legal requirement and is binding on the banks. This is called the ‘Required Reserve Ratio’ or the ‘Reserve Ratio’ or ‘Cash Reserve Ratio’ (CRR).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 40 (approx.)",
+      "notes": "Covered by claim c12: The RBI decides a certain percentage of deposits which every bank must keep as reserves, a legal requirement binding on banks, called the Required Reserve Ratio / Reserve Ratio / Cash Reserve Ratio (CRR)."
+    },
+    {
+      "id": "q16",
+      "answer": "Statutory Liquidity Ratio (বিধিবদ্ধ তরলতা অনুপাত)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Apart from the CRR, banks are also required to keep some reserves in liquid form in the short term. This ratio is called Statutory Liquidity Ratio or SLR.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 40 (approx.)",
+      "notes": "Covered by claim c14: Apart from the CRR, banks are required to keep some reserves in liquid form in the short term; this ratio is called the Statutory Liquidity Ratio (SLR)."
+    },
+    {
+      "id": "q17",
+      "answer": "RBI নির্ধারণ করে; এটি আইনি বাধ্যবাধকতা ও সব ব্যাংকের জন্য বাধ্যতামূলক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The RBI decides a certain percentage of deposits which every bank must keep as reserves. This is done to ensure that no bank is ‘over lending’. This is a legal requirement and is binding on the banks. This is called the ‘Required Reserve Ratio’ or the ‘Reserve Ratio’ or ‘Cash Reserve Ratio’ (CRR).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 40 (approx.)",
+      "notes": "Covered by claim c12: The RBI decides a certain percentage of deposits which every bank must keep as reserves, a legal requirement binding on banks, called the Required Reserve Ratio / Reserve Ratio / Cash Reserve Ratio (CRR)."
+    },
+    {
+      "id": "q18",
+      "answer": "৮০ টাকা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "In our fictional example, suppose CRR = 20 per cent, then with deposits of Rs 100, our bank will need to keep Rs 20 (20 per cent of 100) as cash reserves. Only the remaining amount of deposits, i.e., Rs 80 (100 – 20 = 80) can be used to give loans. The statutory requirement of the reserve ratio acts as a limit to the amount of credit that banks can create.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 40 (approx.)",
+      "notes": "Covered by claim c15: With CRR of 20 per cent and deposits of Rs 100, the bank keeps Rs 20 as reserves and can lend Rs 80; the reserve requirement acts as a limit to the credit banks can create."
+    },
+    {
+      "id": "q19",
+      "answer": "অর্থ সরবরাহ কমে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "It should be evident by now that if the Central bank changes the reserve ratio, this would lead to changes in lending by the banks which, in turn, would impact the deposits and hence, the money supply.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Covered by claim c18: If the central bank changes the reserve ratio, lending by banks changes, which impacts deposits and hence the money supply; raising the ratio to 25 per cent in the example reduces lending and money supply falls."
+    },
+    {
+      "id": "q20",
+      "answer": "৫০০ টাকা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Thus, reserves of Rs 100 create deposits of Rs (5 X 100)=Rs 500.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 41 (approx.)",
+      "notes": "Covered by claim c16: In the NCERT example with 20 per cent reserve ratio, reserves of Rs 100 support deposits of Rs 500, so the money multiplier is 5."
+    },
+    {
+      "id": "q21",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Cash Reserve Ratio (CRR) = Percentage of deposits which a bank must keep as cash reserves with the bank.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 40 (approx.)",
+      "notes": "Statement 2 per c14: SLR requires reserves in liquid form apart from CRR."
+    },
+    {
+      "id": "q22",
+      "answer": "RBI-কে, কারণ সে সবসময় ব্যাংকগুলিকে ঋণ দিতে প্রস্তুত",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This role of RBI, that of being ready to lend to banks at all times is another important function of the central bank, and due to this central bank is said to be the lender of last resort.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Covered by claim c19: The RBI's role of being ready to lend to banks at all times is why the central bank is called the lender of last resort."
+    },
+    {
+      "id": "q23",
+      "answer": "যে হারে RBI বাণিজ্যিক ব্যাংকগুলিকে ঋণ দেয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The RBI can influence money supply by changing the rate at which it gives loans to the commercial banks. This rate is called the Bank Rate in India. By increasing the bank rate, loans taken by commercial banks become more expensive; this reduces the reserves held by the commercial bank and hence decreases money supply.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Covered by claim c25: The rate at which RBI gives loans to commercial banks is called the Bank Rate in India; increasing it makes bank loans more expensive and decreases money supply."
+    },
+    {
+      "id": "q24",
+      "answer": "পুনঃক্রয় চুক্তির মাধ্যমে অর্থ ধার দেওয়ার সুদের হার",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This type of agreement is called a repurchase agreement or repo. The interest rate at which the money is lent in this way is called the repo rate.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Covered by claim c22: A repurchase agreement (repo) is a purchase of a security with a specification of the date and price of its resale; the interest rate at which money is lent this way is the repo rate."
+    },
+    {
+      "id": "q25",
+      "answer": "বাড়ে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Open Market Operations refers to buying and selling of bonds issued by the Government in the open market. When RBI buys a Government bond in the open market, it pays for it by giving a cheque. This cheque increases the total amount of reserves in the economy and thus increases the money supply.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Covered by claim c21: Open Market Operations means buying and selling of government bonds in the open market; when RBI buys a government bond it pays by cheque, increasing reserves and money supply."
+    },
+    {
+      "id": "q26",
+      "answer": "নৈতিক অনুরোধ (Moral Suasion)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Quantitative tools, control the extent of money supply by changing the CRR, or bank rate or open market operations. Qualitative tools include persuasion by the Central bank in order to make commercial banks discourage or encourage lending which is done through moral suasion, margin requirement, etc.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Covered by claim c20: Quantitative tools control money supply by changing CRR, bank rate or open market operations; qualitative tools include moral suasion and margin requirement."
+    },
+    {
+      "id": "q27",
+      "answer": "তুলে নেওয়া হয়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "This type of agreement is called a reverse repurchase agreement or reverse repo. The rate at which the money is withdrawn in this manner is called the reverse repo rate.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Covered by claim c23: A reverse repurchase agreement is called reverse repo; the rate at which money is withdrawn in this manner is the reverse repo rate."
+    },
+    {
+      "id": "q28",
+      "answer": "ক-২, খ-১, গ-৩",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The RBI can influence money supply by changing the rate at which it gives loans to the commercial banks. This rate is called the Bank Rate in India. By increasing the bank rate, loans taken by commercial banks become more expensive; this reduces the reserves held by the commercial bank and hence decreases money supply.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 42 (approx.)",
+      "notes": "Bank Rate per c25, Repo per c22, OMO per c21."
+    },
+    {
+      "id": "q29",
+      "answer": "National Electronic Funds Transfer",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "National Electronic Funds Transfer (NEFT) is a nation-wide centralised payment system owned and operated by the Reserve Bank of India (RBI).",
+      "source_url": "https://www.rbi.org.in/commonman/english/scripts/FAQs.aspx?Id=274",
+      "page": "FAQ Q1",
+      "notes": "Covered by claim c36: NEFT is a nation-wide centralised payment system owned and operated by the Reserve Bank of India (RBI). (FAQ updated 02 Sep 2024.)"
+    },
+    {
+      "id": "q30",
+      "answer": "প্রতিটি লেনদেন আলাদাভাবে, প্রকৃত সময়ে (real time)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The acronym 'RTGS' stands for Real Time Gross Settlement, which can be explained as a system where there is continuous and real-time settlement of fund-transfers, individually on a transaction-by-transaction basis (without netting).",
+      "source_url": "https://www.rbi.org.in/commonman/english/scripts/FAQs.aspx?Id=275",
+      "page": "FAQ Q1",
+      "notes": "Covered by claim c44: RTGS means a system of continuous and real-time settlement of fund transfers, individually on a transaction-by-transaction basis (without netting). (FAQ updated 14 Oct 2026.)"
+    },
+    {
+      "id": "q31",
+      "answer": "১১ সংখ্যার; পঞ্চম অক্ষর ০ (শূন্য)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Indian Financial System Code (IFSC) is an alpha-numeric code that uniquely identifies a bank-branch participating in the NEFT system. It is a 11-digit code with the first 4 alpha characters representing the bank, and the last 6 characters representing the branch. The 5th character is 0 (zero).",
+      "source_url": "https://www.rbi.org.in/commonman/english/scripts/FAQs.aspx?Id=274",
+      "page": "FAQ Q4",
+      "notes": "Covered by claim c38: IFSC is an alpha-numeric code that uniquely identifies a bank branch participating in NEFT; it is an 11-digit code, the first 4 alpha characters represent the bank and the last 6 the branch, the 5th character is 0."
+    },
+    {
+      "id": "q32",
+      "answer": "২,০০,০০০ টাকা",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The RTGS system is primarily meant for large value transactions. The minimum amount to be remitted through RTGS is ₹ 2,00,000/- with no upper or maximum ceiling.",
+      "source_url": "https://www.rbi.org.in/commonman/english/scripts/FAQs.aspx?Id=275",
+      "page": "FAQ Q6",
+      "notes": "Covered by claim c47: The minimum amount to be remitted through RTGS is Rs 2,00,000 with no upper or maximum ceiling, as of the FAQ updated 14 Oct 2026."
+    },
+    {
+      "id": "q33",
+      "answer": "RBI NEFT-তে কোনো অঙ্কের সীমা বেঁধে দেয়নি, তবে ব্যাংক নিজে সীমা বসাতে পারে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "No, there is no limit imposed by the RBI for funds transfer through NEFT system. However, a member bank may place amount limits based on its own risk perception with the approval of its Board.",
+      "source_url": "https://www.rbi.org.in/commonman/english/scripts/FAQs.aspx?Id=274",
+      "page": "FAQ Q7",
+      "notes": "Covered by claim c39: There is no limit imposed by the RBI on funds transfer through NEFT, though a member bank may place its own amount limits. (FAQ updated 02 Sep 2024.)"
+    },
+    {
+      "id": "q34",
+      "answer": "নিষ্পত্তি হয় RBI-র খাতায়",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Considering that the funds settlement takes place in the books of the Reserve Bank of India (RBI), the payments are final and irrevocable.",
+      "source_url": "https://www.rbi.org.in/commonman/english/scripts/FAQs.aspx?Id=275",
+      "page": "FAQ Q2",
+      "notes": "Covered by claim c49: RTGS payments are final and irrevocable because funds settlement takes place in the books of the RBI. (FAQ updated 14 Oct 2026.)"
+    },
+    {
+      "id": "q35",
+      "answer": "১ ও ২ উভয়ই",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "The NEFT system is available round the clock throughout the year on all days, i.e., on 24x7x365 basis. NEFT presently operates in batches on half-hourly intervals throughout the day.",
+      "source_url": "https://www.rbi.org.in/commonman/english/scripts/FAQs.aspx?Id=274",
+      "page": "FAQ Q10",
+      "notes": "NEFT batch/2h per c37/c40; RTGS 30-min credit per c48."
+    },
+    {
+      "id": "q36",
+      "answer": "যে নোট-মুদ্রার নিজস্ব মূল্য নেই, মূল্য আসে জারিকারীর গ্যারান্টি থেকে",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Currency notes and coins are therefore called fiat money. They do not have intrinsic value like a gold or silver coin.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Covered by claim c28: Currency notes and coins are fiat money: they have no intrinsic value like a gold or silver coin."
+    },
+    {
+      "id": "q37",
+      "answer": "M1 = CU + DD",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "RBI publishes figures for four alternative measures of money supply, viz. M1, M2, M3 and M4. M1 = CU + DD. M2 = M1 + Savings deposits with Post Office savings banks. M3 = M1 + Net time deposits of commercial banks. M4 = M3 + Total deposits with Post Office savings organisations (excluding National Savings Certificates).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Covered by claim c30: RBI publishes four measures of money supply: M1 = CU + DD; M2 = M1 + savings deposits with Post Office savings banks; M3 = M1 + net time deposits of commercial banks; M4 = M3 + total deposits with Post Office savings organisations (excluding NSC)."
+    },
+    {
+      "id": "q38",
+      "answer": "M1 ও M2",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "M1 and M2 are known as narrow money. M3 and M4 are known as broad money. These measures are in decreasing order of liquidity. M1 is most liquid and easiest for transactions whereas M4 is least liquid of all.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 48 (approx.)",
+      "notes": "Covered by claim c31: M1 and M2 are narrow money; M3 and M4 are broad money; the measures are in decreasing order of liquidity, M1 most liquid and M4 least."
+    },
+    {
+      "id": "q39",
+      "answer": "M3; সামগ্রিক মুদ্রা সম্পদ (Aggregate Monetary Resources)",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "M3 is the most commonly used measure of money supply. It is also known as aggregate monetary resources.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 48 (approx.)",
+      "notes": "Covered by claim c32: M3 is the most commonly used measure of money supply and is also known as aggregate monetary resources."
+    },
+    {
+      "id": "q40",
+      "answer": "পুরনো ৫০০ ও ১০০০ টাকার নোট",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "Demonetisation was a new initiative taken by the Government of India in November 2016 to tackle the problem of corruption, black money, terrorism and circulation of fake currency in the economy. Old currency notes of Rs 500, and Rs 1000 were no longer legal tender.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 48 (approx.)",
+      "notes": "Covered by claim c33: In November 2016 the Government of India demonetised old Rs 500 and Rs 1000 notes, which were no longer legal tender, to tackle corruption, black money, terrorism and fake currency."
+    },
+    {
+      "id": "q41",
+      "answer": "বাণিজ্যিক ব্যাংকের নিট মেয়াদি আমানত",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "RBI publishes figures for four alternative measures of money supply, viz. M1, M2, M3 and M4. M1 = CU + DD. M2 = M1 + Savings deposits with Post Office savings banks. M3 = M1 + Net time deposits of commercial banks. M4 = M3 + Total deposits with Post Office savings organisations (excluding National Savings Certificates).",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 47 (approx.)",
+      "notes": "Covered by claim c30: RBI publishes four measures of money supply: M1 = CU + DD; M2 = M1 + savings deposits with Post Office savings banks; M3 = M1 + net time deposits of commercial banks; M4 = M3 + total deposits with Post Office savings organisations (excluding NSC)."
+    },
+    {
+      "id": "q42",
+      "answer": "শুধুমাত্র ক",
+      "confidence": "SURE",
+      "also_defensible": [],
+      "quote": "M1 and M2 are known as narrow money. M3 and M4 are known as broad money. These measures are in decreasing order of liquidity. M1 is most liquid and easiest for transactions whereas M4 is least liquid of all.",
+      "source_url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "page": "p. 48 (approx.)",
+      "notes": "Pair kha false per c28: fiat money has no intrinsic value, unlike gold/silver coin."
+    }
+  ]
+}

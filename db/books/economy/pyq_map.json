@@ -1,1 +1,840 @@
-{}
+{
+  "ECO-01": [
+    {
+      "note": "GK bank item (subtopic basics): primary/secondary/tertiary definitions, secondary = industrial sector, tertiary = service sector, tertiary contributes most to GDP while employment remains in primary sector. All taught verbatim from NCERT Class X jess202 (claims c02, c05, c07, c13).",
+      "pyq_code": "GK-ECO-001",
+      "section": "three_sectors",
+      "taught": true
+    },
+    {
+      "note": "Public/private sector classification is on the basis of ownership of enterprises. Taught in ownership_systems (claim c20); the same question appears in NCERT jess202's own exercises. Practice q38 mirrors it.",
+      "pyq_code": "IDO-2019-Q97",
+      "section": "ownership_systems",
+      "taught": true
+    },
+    {
+      "note": "Service sector generates more than half of India's GDP. The concept — tertiary sector contributes the most to GDP — is taught in sector_change (claims c12, c13); the exact percentage option in the paper is the exam's own figure and is not quoted in the NCERT pages used.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q177",
+      "section": "sector_change",
+      "taught": true
+    },
+    {
+      "note": "The unorganised sector is characterised by small and scattered units outside government control, low and irregular wages, insecure employment. Taught in organised_unorganised (claims c18, c19).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q183",
+      "section": "organised_unorganised",
+      "taught": true
+    },
+    {
+      "note": "Sector contributing most to real Gross Value Added over the last decade = services/tertiary. The sector ranking is taught in sector_change (claims c12, c13); the GVA measure itself is treated in detail in ECO-02 (national income), not in this chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q178",
+      "section": "sector_change",
+      "taught": true
+    },
+    {
+      "note": "Difference between GDP and NDP is depreciation (consumption of fixed capital). National-income accounting aggregates (NDP, depreciation) belong to ECO-02 (মুদ্রাস্ফীতি ও জাতীয় আয়); neither fetched source for ECO-01 states the depreciation definition, so it is not asserted here. Signposted in the gdp_basics deep text.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q45",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Which is NOT a problem of the unorganized sector. The sector's problems — low/irregular pay, no overtime or paid leave, insecure employment — are taught in organised_unorganised (claims c18, c19); practice q36 is the same item type.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q62",
+      "section": "organised_unorganised",
+      "taught": true
+    },
+    {
+      "note": "Which activity is included in the secondary sector from the standpoint of sources of national income (manufacturing-type activity). Taught in three_sectors (claims c04, c05).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q114",
+      "section": "three_sectors",
+      "taught": true
+    },
+    {
+      "note": "Mixed economy = an economy where the government and the market together answer what/how/distribution questions, with public and private sectors coexisting. Taught in ownership_systems (claims c29, c30); practice q41 mirrors it.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q169",
+      "section": "ownership_systems",
+      "taught": true
+    }
+  ],
+  "ECO-02": [
+    {
+      "pyq_code": "GK-ECO-004",
+      "section": "aggregates_ladder",
+      "taught": true,
+      "note": "GK bank item (subtopic inflation_income): NNP at factor cost = National Income and GDP deflator = nominal/real — both taught verbatim from NCERT leec102 (claims c08, c09, c14); deflator section nominal_real_deflator."
+    },
+    {
+      "pyq_code": "GK-ECO-005",
+      "section": "measuring_controlling_inflation",
+      "taught": true,
+      "note": "GK bank item (subtopic inflation_income): WPI released by Office of the Economic Adviser, DPIIT, base 2022-23 (PIB, claim c32) and CPI released by MoSPI/NSO, base 2024 (PIB, claims c29, c31) — both taught with the current series; older bases (WPI 2011-12, CPI 2012) flagged in the chapter as superseded."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q108",
+      "section": null,
+      "taught": false,
+      "note": "Asks which item is NOT considered in computing GNP (per capita income). GNP = GDP + NFIA is taught (c06, c35), but per-capita income is not covered in the fetched NCERT/RBI sources used for this chapter, so the item's deciding point is untaught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q120",
+      "section": "inflation_meaning_causes",
+      "taught": true,
+      "note": "Inflation = continuous rise in the general price level (not a one-time rise); taught in inflation_meaning_causes and mirrored as practice q29."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q170",
+      "section": null,
+      "taught": false,
+      "note": "Turns on SLR reduction and CRR abolition being inflationary. CRR/SLR mechanics belong to ECO-06 (RBI and banking system); this chapter teaches only the repo-rate/FIT channel, so the item is not taught here."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q55",
+      "section": "aggregates_ladder",
+      "taught": true,
+      "note": "Difference between GDP and NDP = depreciation; taught (c04, c07) and mirrored as practice q08."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q79",
+      "section": null,
+      "taught": false,
+      "note": "Asks the name for a persistent fall in the general price level (deflation vs disinflation). Deflation/disinflation terminology is not defined in the fetched NCERT leec102 or RBI sources used, so it is not taught in this chapter (disclosed gap)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q114",
+      "section": null,
+      "taught": false,
+      "note": "Sector classification of national-income sources (construction = secondary sector). Sector composition belongs to ECO-09 (agriculture and industry); not covered by this chapter's fetched sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q129",
+      "section": "inflation_meaning_causes",
+      "taught": true,
+      "note": "Which is NOT an anti-inflationary measure (increasing money supply). Taught via demand-pull containment: monetary policy restrains demand, so expanding money supply fuels rather than checks inflation (c27)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q187",
+      "section": "measuring_controlling_inflation",
+      "taught": true,
+      "note": "Repo rate is announced by the RBI. Taught: repo is the policy rate determined by the RBI's MPC (c25). Primary chapter ECO-06, but answerable from this chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q145",
+      "section": null,
+      "taught": false,
+      "note": "Gross fiscal deficit as per cent of GDP (2014-15): budget/deficit topic, belongs to ECO-03 (budget and taxation); only the GDP denominator is in this chapter's scope."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q169",
+      "section": null,
+      "taught": false,
+      "note": "National income growth during the First Five Year Plan: belongs to ECO-04 (planning and economic reforms)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q177",
+      "section": null,
+      "taught": false,
+      "note": "Service sector share of GDP: sector composition, belongs to ECO-09; the dated share figure is not in this chapter's fetched sources."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q191",
+      "section": null,
+      "taught": false,
+      "note": "FRBM Act objectives: fiscal legislation, belongs to ECO-03 (budget and taxation)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q198",
+      "section": null,
+      "taught": false,
+      "note": "Dependency ratio definition: population/development topic, belongs to ECO-05 (poverty and development)."
+    }
+  ],
+  "ECO-03": [
+    {
+      "note": "GK bank item (economy.jsonl, subtopic budget_tax): Article 112 Annual Financial Statement and financial year 1 April-31 March taught in budget_meaning (claim c01); fiscal deficit formula and 'revenue deficit is a part of fiscal deficit' taught in deficits_debt (claims c19, c21); the card's assertion-reason item is mirrored as practice q21.",
+      "pyq_code": "GK-ECO-006",
+      "section": "deficits_debt",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (economy.jsonl, subtopic budget_tax): GST launched 1 July 2017 (c34), 101st Amendment 2016 (c38, c40), GST Council under Article 279A chaired by the Union Finance Minister (c41), IGST on inter-State supplies under Article 269A (c40), Centre's vote weight 1/3 (c41) and five-year compensation to States (c42) are all taught in gst_system; the card's wrong-pair item is mirrored as practice q36.",
+      "pyq_code": "GK-ECO-007",
+      "section": "gst_system",
+      "taught": true
+    },
+    {
+      "note": "Railway Budget (keyed: separate from the Union Budget, the pre-2017 position). The Railway Budget's separate presentation and its later merger into the Union Budget are not covered by any source fetched for this chapter. Source gap, disclosed.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q112",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "How many Finance Commissions had submitted reports so far (as of 2016). The chapter teaches the Finance Commission's constitution and five-year cycle (Article 280, claim c49) but not a dated count of commissions; the count is time-specific and has since changed. Not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q28",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Gross fiscal deficit in 2014-15 as a percentage of GDP: a year-specific figure. The chapter teaches the fiscal deficit definition and, with its as-of date, the 2022-23 (BE) figure of 6.4% of GDP from NCERT Table 5.1 (claim c24), but not the 2014-15 figure. Not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q145",
+      "section": "deficits_debt",
+      "taught": false
+    },
+    {
+      "note": "Objective of the FRBM Act (keyed 'All of the above'). The chapter teaches the FRBM mandate to reduce the fiscal deficit and eliminate the revenue deficit (claims c31, c32), but the keyed answer also rests on a public-debt ceiling of 50% of GDP, which appears in none of the chapter's sources, so the key cannot be derived from the chapter alone. Not counted as taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q191",
+      "section": "deficits_debt",
+      "taught": false
+    },
+    {
+      "note": "Finance Commission consists of a Chairman and four other members (Article 280; claim c49), taught in fiscal_federalism and practice q40.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q91",
+      "section": "fiscal_federalism",
+      "taught": true
+    },
+    {
+      "note": "Fiscal deficit identities: the chapter teaches the defining formula (total expenditure minus revenue receipts and non-debt creating capital receipts, claim c19) and fiscal deficit = primary deficit + interest payments (claim c22). Caveat: one keyed limb uses the old 'budget deficit + market borrowings' formulation; NCERT notes the budget-deficit presentation was discontinued from 1997-98, and the chapter does not teach that identity separately.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q153",
+      "section": "deficits_debt",
+      "taught": true
+    },
+    {
+      "note": "Partly taught: the Finance Commission limb — the President causes the Commission's recommendations to be laid before Parliament (Article 281, claim c51) — is taught in fiscal_federalism. The CAG-report and National Commission for Scheduled Castes limbs belong to the Polity book, not this chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q112",
+      "section": "fiscal_federalism",
+      "taught": true
+    },
+    {
+      "note": "Direct tax in India (keyed: wealth tax). The chapter teaches wealth tax as a direct tax and one of the 'paper taxes' (claims c07, c09), against VAT, GST and customs duty as indirect taxes.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q44",
+      "section": "taxes_kinds",
+      "taught": true
+    },
+    {
+      "note": "Largest share of Central Government subsidy in 2023-24 (keyed: food). A year-specific budget share; the chapter teaches subsidies as a main item of revenue expenditure (claim c15) but no 2023-24 subsidy break-up appears in its sources. Not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q73",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "All Union revenues, borrowings and loan-repayment receipts flow into the Consolidated Fund of India (Article 266(1); claim c45), taught in fiscal_federalism and practice q37.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q93",
+      "section": "fiscal_federalism",
+      "taught": true
+    },
+    {
+      "note": "Which is NOT a capital receipt (keyed: Grants). The chapter teaches loan recoveries and PSU disinvestment as capital receipts (claims c12, c13, c20) and grants-in-aid within non-tax revenue receipts, so the keyed answer is derivable. Caveat: provident fund deposits are not separately discussed in the chapter's sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q115",
+      "section": "receipts_expenditure",
+      "taught": true
+    },
+    {
+      "note": "Major source of revenue in 2022-23 (keyed: GST). A year-specific revenue ranking; NCERT Table 5.1 as used in the chapter gives only aggregate tax revenue (net of States' share) for 2022-23, not a tax-by-tax ranking. Not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q168",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Major share of expenditure in the Union Budget 2023-24 (keyed: interest payments). The chapter teaches that interest payments are the single largest component of non-plan revenue expenditure in general (claim c15) and gives the 2022-23 interest share in Table 5.1, but the specific 2023-24 Union Budget share asked here is a year-specific figure not covered by the chapter's sources. Not counted as taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q183",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Tax on import and export of commodities = customs duty, taught verbatim from NCERT (claim c07) in taxes_kinds and practice q25.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q99",
+      "section": "taxes_kinds",
+      "taught": true
+    },
+    {
+      "note": "Finance Commission is a constitutional body (Article 280; claim c49) — taught in fiscal_federalism, including the deep note contrasting it with executive-created bodies. The National Commission for Women limb belongs to the Polity book.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q166",
+      "section": "fiscal_federalism",
+      "taught": true
+    },
+    {
+      "note": "Which is NOT a direct tax (keyed: GST). Taught: GST is an indirect tax (claim c34) while corporation tax, income tax and property/wealth tax are direct (claims c07, c09); flagged in exam_focus.",
+      "pyq_code": "KOLKATA-POLICE-CONSTABLE-PRELIMS-2023-Q82",
+      "section": "taxes_kinds",
+      "taught": true
+    },
+    {
+      "note": "GST Council is headed by the Union Finance Minister (Article 279A; claim c41), taught in gst_system and practice q34.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q75",
+      "section": "gst_system",
+      "taught": true
+    }
+  ],
+  "ECO-04": [
+    {
+      "note": "GK bank item (subtopic plans_reforms): Planning Commission set up 15 March 1950 by Government of India resolution, PM as Chairperson; replaced by NITI Aayog by resolution dated 1 January 2015. Chapter teaches both dates and the resolution route (claims c04, c53); the exact day '15 March' for the Planning Commission is in the GK item's own sources but not in this chapter's NCERT/NITI quotes, so the chapter states only the year 1950.",
+      "pyq_code": "GK-ECO-008",
+      "section": "niti_aayog",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic plans_reforms): Second Five Year Plan based on Mahalanobis's ideas; architect of Indian planning; founded ISI in Calcutta and started Sankhya. All taught (claims c10, c11, c12).",
+      "pyq_code": "GK-ECO-009",
+      "section": "mahalanobis_second_plan",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic plans_reforms): 1991 balance of payments crisis, World Bank/IMF conditionalities, New Economic Policy (LPG), rupee devalued as an immediate measure. All taught (claims c32, c33, c35, c40).",
+      "pyq_code": "GK-ECO-010",
+      "section": "reforms_1991",
+      "taught": true
+    },
+    {
+      "note": "First Five Year Plan introduced in 1951 (answer key: 1951). NOT taught: the NCERT chapters fetched for this chapter (keec102/keec103) state the Planning Commission's setting up in 1950 and the beginning of the plan era, but never give the First Plan's start year; not asserted from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q174",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Decentralised planning first introduced during the Seventh Five Year Plan (answer key: Seventh). NOT taught: decentralised planning is not discussed in the NCERT chapters used.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q157",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "National income increase during the First Five Year Plan (answer key: 18%). NOT taught: no plan-wise national income growth figure appears in the sources fetched.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q169",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NITI Aayog is set up by a resolution by the Union Cabinet (answer key). Taught via the official NITI Aayog homepage quote (claim c53).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q176",
+      "section": "niti_aayog",
+      "taught": true
+    },
+    {
+      "note": "Second Five Year Plan was based on the Mahalanobis Model (answer key). Taught (claim c10).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q180",
+      "section": "mahalanobis_second_plan",
+      "taught": true
+    },
+    {
+      "note": "NITI Aayog is set up by a resolution by Union Cabinet (answer key) — same item family as WBCS 2016 Q176. Taught (claim c53).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q113",
+      "section": "niti_aayog",
+      "taught": true
+    },
+    {
+      "note": "Second meeting of the Governing Council of NITI Aayog emphasised poverty eradication and states as the focus of development efforts (answer key: Both A and B). NOT taught: a specific Governing Council meeting's agenda is not covered by the NITI Aayog homepage or NCERT chapters fetched.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q129",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Prasanta Chandra Mahalanobis is associated with the Second Five-Year Plan (answer key). Taught (claim c10).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q134",
+      "section": "mahalanobis_second_plan",
+      "taught": true
+    },
+    {
+      "note": "National Planning Committee (1938) founded at the initiative of Subhas Chandra Bose (answer key). NOT taught: pre-independence planning history (NPC 1938) is not in the NCERT chapters used for this chapter; left for the history book's scope rather than asserted without a fetched quote.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q46",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NITI Aayog's North-East Region District SDG Index released with support from UNDP (answer key). NOT taught: this specific index/partnership is not stated on the NITI Aayog homepage fetched or in the NCERT chapters.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q86",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Concept of five year plans borrowed from Russia (answer key). Taught: NCERT Box 2.2 says the idea was borrowed from the former Soviet Union, the pioneer in national planning (claim c02); the chapter's practice question q04 carries an exam note linking 'Soviet Union' to the key's 'Russia'.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q186",
+      "section": "planning_choice",
+      "taught": true
+    },
+    {
+      "note": "Planning Commission of India established in 1950 (answer key). Taught (claim c04). Code constructed in the corpus convention (exam-year-Qno) from db/pyq/wbp-constable-2021.json, question_no 45.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q45",
+      "section": "planning_choice",
+      "taught": true
+    }
+  ],
+  "ECO-05": [
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q131",
+      "section": "human_development",
+      "taught": false,
+      "note": "Highest-HDI district of West Bengal (answer: Kolkata, per West Bengal Human Development Report). The district-level WB HDR ranking is not in this chapter's fetched NCERT/NITI sources, so the specific fact is not taught here; only the human-development concept is. Gap disclosed in REPORT.md."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q179",
+      "section": "human_development",
+      "taught": false,
+      "note": "Year HDI was first introduced (1990, UNDP). UNDP is not an allowed publisher for this book and no fetched NCERT/NITI page states the year, so it is not taught from a verified quote. Gap disclosed in REPORT.md."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q177",
+      "section": "human_development",
+      "taught": true,
+      "note": "Which index is NOT used in HDI construction (answer: Price Index). Taught in substance: the chapter's human-development section builds development measurement on health (life expectancy), education (literacy) and income (real per capita income) indicators per NCERT Table 4.1 (keec104), so the three genuine components — and why a price index is not one of them — are covered."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q154",
+      "section": null,
+      "taught": false,
+      "note": "Author of 'Poverty and Unbritish Rule in India' (Dadabhai Naoroji). Belongs primarily to ECO-04 (plans/reforms) and the history book's economic-nationalism chapter; no fetched source for this chapter states it, so not taught here."
+    }
+  ],
+  "ECO-06": [
+    {
+      "note": "GK bank item (subtopic rbi_banking): RBI established 1 April 1935 under the RBI Act 1934; Central Office first in Kolkata, moved to Mumbai 1937; nationalised 1949. All taught in section 'establishment' (claims c01-c03, RBI About Us page).",
+      "pyq_code": "GK-ECO-002",
+      "section": "establishment",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic rbi_banking): MPC constituted under Section 45ZB of the RBI Act 1934, chaired by the Governor; minutes published under Section 45ZL. Taught in section 'monetary_policy' (claims c22, c23, RBI MPC minutes, October 2026).",
+      "pyq_code": "GK-ECO-003",
+      "section": "monetary_policy",
+      "taught": true
+    },
+    {
+      "note": "1969: 14 banks nationalised (Economic Survey 2021-22, p. 85). Taught in section 'banking_structure' (claim c33).",
+      "pyq_code": "WBPSC-IDO-2019-Q12",
+      "section": "banking_structure",
+      "taught": true
+    },
+    {
+      "note": "1969: 14 private commercial banks nationalised. Taught in section 'banking_structure' (claim c33).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q162",
+      "section": "banking_structure",
+      "taught": true
+    },
+    {
+      "note": "NABARD and its functions belong to ECO-08 (financial institutions), not this chapter; no fetched source used here covers NABARD.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q60",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "EXIM Bank's functions belong to ECO-08 (financial institutions); not covered by this chapter's fetched sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q187",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Repo rate is announced/decided through the RBI's monetary policy (MPC under the LAF). Taught in sections 'monetary_policy' and 'credit_control_tools' (claims c24, c30).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q187",
+      "section": "credit_control_tools",
+      "taught": true
+    },
+    {
+      "note": "SEBI receiving statutory status in 1992 belongs to ECO-08 (financial institutions / market regulators); not in this chapter's fetched sources.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q196",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "RBI established in 1935. Taught in section 'establishment' (claim c01).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q197",
+      "section": "establishment",
+      "taught": true
+    },
+    {
+      "note": "Asks the meaning of financial inclusion as per RBI directions. The fetched RBI About page states only a general developmental/promotional role; RBI's financial-inclusion definition was not in any fetched page, so the specific answer is not taught rather than guessed.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q125",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "'I do what I do' authorship (Raghuram Rajan) is biographical trivia; no fetched source names the book or its author.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q158",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "PCA = Prompt Corrective Action framework. The framework is not described in any fetched source for this chapter; it belongs with supervision detail in ECO-07 (banking operations).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q109",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "ECF = Economic Capital Framework of the RBI. Not covered by any fetched source used here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q116",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Sole right to print/issue currency notes in India rests with the RBI (Section 22). Taught in section 'currency_issue' (claim c15).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q113",
+      "section": "currency_issue",
+      "taught": true
+    },
+    {
+      "note": "RBI established in 1935. Taught in section 'establishment' (claim c01).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q45",
+      "section": "establishment",
+      "taught": true
+    },
+    {
+      "note": "Asks which new department the RBI created in 2022 — dated current-affairs trivia, not in any fetched source and not a stable textbook fact.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q124",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Inflationary effects of RBI actions: reducing SLR expands banks' lendable funds and money supply. Taught in section 'credit_control_tools' (claims c28, c26), including the SLR-reduction reasoning worked in the section text.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q170",
+      "section": "credit_control_tools",
+      "taught": true
+    },
+    {
+      "note": "NABARD features/functions belong to ECO-08 (financial institutions); not covered here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q158",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Imperial Bank of India renamed as State Bank of India. The fetched RBI About page lists only the 'State Bank of India Act, 1955' in its legal framework; the Imperial Bank origin/renaming is not stated in any fetched allowed source, so it is not taught rather than asserted from memory.",
+      "pyq_code": "KP-CONSTABLE-2023-Q60",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "First Indian bank listed on the New York Stock Exchange — one-off trivia, not in any fetched source.",
+      "pyq_code": "WBPSC-MISC-2023-Q16",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "First bank to launch a talking ATM in India — one-off trivia, not in any fetched source.",
+      "pyq_code": "WBPSC-MISC-2023-Q22",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ECO-07": [
+    {
+      "note": "In India the Repo rate is announced by (RBI). Chapter teaches repo/reverse repo as RBI's instruments and states repo operations are now the main tool of RBI's monetary policy (leec103, claims c22, c24); deep text of policy_rates names this exact PYQ.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q187",
+      "section": "policy_rates",
+      "taught": true
+    },
+    {
+      "note": "Inflationary-effect statements item: RBI decreasing the SLR / abolishing CRR raises banks' lendable resources and money supply, while increasing the Bank Rate and RBI selling bonds in the open market are contractionary. All four mechanisms are taught (claims c14, c18, c21, c25); exam_note in reserve_ratios works this exact question type.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q170",
+      "section": "reserve_ratios",
+      "taught": true
+    }
+  ],
+  "ECO-08": [
+    {
+      "pyq_code": "GK-ECO-012",
+      "section": "development_banks",
+      "taught": true,
+      "note": "NABARD origin: Act of 1981, established 1982, CRAFICARD. Chapter teaches establishment 12 July 1982 by Act of Parliament and refinance role (PIB quote). CRAFICARD/B. Sivaraman name is NOT in the allowed-publisher pages fetched for this chapter, so that specific detail is not taught — see REPORT gaps."
+    },
+    {
+      "pyq_code": "GK-ECO-013",
+      "section": "regulators",
+      "taught": true,
+      "note": "SEBI non-statutory 12 April 1988, statutory 1992, Act in force 30 January 1992 — taught verbatim from SEBI's own About page."
+    },
+    {
+      "pyq_code": "GK-ECO-014",
+      "section": "regulators",
+      "taught": true,
+      "note": "IRDAI: IRDA Act 1999 powers and Hyderabad head office taught from irdai.gov.in. The full statutory-purpose sentence is paraphrased in teaching, not quoted."
+    },
+    {
+      "pyq_code": "GK-ECO-104",
+      "section": null,
+      "taught": false,
+      "note": "MUDRA is a refinancing institution that does not lend directly. Not taught: MUDRA's own site (mudra.org.in) is not an allowed publisher for the economy book (NCERT/GOVT/RBI only), and no fetched PIB/RBI page states this; left untaught rather than sourced from memory."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q60",
+      "section": "development_banks",
+      "taught": true,
+      "note": "'NABARD is associated with' — agriculture and rural development; taught (PIB: credit for agriculture, small scale, cottage and village industries)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q69",
+      "section": "development_banks",
+      "taught": true,
+      "note": "'Industrial credit is available from' — industrial/MSME finance institutions (SIDBI as principal FI for MSME) taught in development_banks."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q187",
+      "section": "development_banks",
+      "taught": true,
+      "note": "'The EXIM Bank of India deals with' — financing export and import of goods and services; taught verbatim from PIB."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q196",
+      "section": null,
+      "taught": false,
+      "note": "Asks on whose recommendation SEBI got statutory recognition in 1992. The committee/recommendation behind SEBI's statutory status is not stated on the fetched SEBI About page; not taught in this chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q100",
+      "section": "regulators",
+      "taught": true,
+      "note": "'SEBI stands for the…' — Securities and Exchange Board of India; the full name is used throughout the regulators section (SEBI's own page title/preamble)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q158",
+      "section": "development_banks",
+      "taught": true,
+      "note": "'Which is not a function of NABARD?' — NABARD's taught functions (credit regulation for agriculture/rural development, refinance to cooperatives/RRBs) delimit what is/isn't its function."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION3-Q90",
+      "section": null,
+      "taught": false,
+      "note": "'Which institution developed the UDGAM portal?' — UDGAM is an RBI portal, but no fetched RBI page in this chapter's source set mentions UDGAM; not taught."
+    }
+  ],
+  "ECO-09": [
+    {
+      "pyq_code": "GK-ECO-011",
+      "section": "green_revolution",
+      "taught": true,
+      "note": "GK bank item (subtopic agri_industry): Green Revolution = HYV seeds, especially wheat and rice (keec102 p. 24; claims c14-c15). Taught in full."
+    },
+    {
+      "pyq_code": "GK-ECO-101",
+      "section": "support_risk",
+      "taught": true,
+      "note": "GK bank item: PM-KISAN — Central Sector, 100% GoI funding, operational 1.12.2018, Rs 6,000/year in three instalments (pmkisan.gov.in, fetched 2026-11-19; claim c45). Amount carries as-of date."
+    },
+    {
+      "pyq_code": "GK-ECO-107",
+      "section": "industry_policy",
+      "taught": true,
+      "note": "GK bank item: Make in India launched 25 September 2014, Vigyan Bhawan; Invest India first reference point (PIB relid=109953; claims c46-c47). Taught."
+    },
+    {
+      "pyq_code": "GK-ECO-118",
+      "section": "small_scale",
+      "taught": true,
+      "note": "GK bank item: PM Vishwakarma launched 17 September 2023 on Vishwakarma Jayanti (PIB PRID 1958244; claim c48). Taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q36",
+      "section": "green_revolution",
+      "taught": true,
+      "note": "New agricultural strategy began in the 1960s: chapter teaches phase 1 as approximately mid-1960s to mid-1970s (keec102 p. 24; claim c16)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q198",
+      "section": "green_revolution",
+      "taught": true,
+      "note": "Green Revolution was limited: phase 1 restricted to affluent states (Punjab, Andhra Pradesh, Tamil Nadu) and primarily wheat-growing regions (claim c16). The paper's Punjab-Haryana framing is covered by the same taught fact."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q147",
+      "section": "green_revolution",
+      "taught": true,
+      "note": "Crop with maximum production-rate increase (official key: wheat). NCERT says HYV benefited 'especially wheat and rice' and 'primarily benefited the wheat-growing regions only' (claims c14, c16) — enough to choose wheat; the superlative itself is not in NCERT, noted in the section deep text."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q120",
+      "section": null,
+      "taught": false,
+      "note": "Green Revolution implemented district-wise through IADP/IAAP: neither programme is named in NCERT keec102/keec103. Source gap; flagged in an exam_note box, not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q28",
+      "section": null,
+      "taught": false,
+      "note": "West Bengal Land Reforms Act year (1955): the state Act is not in the NCERT sources used; chapter teaches only that WB land reforms succeeded (claim c13). Source gap, disclosed in bengal_connection."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q134",
+      "section": "industry_policy",
+      "taught": true,
+      "note": "First Industrial Policy Resolution adopted in 1948: keec102 names the IPR of 1948 (claim c28); exam_note box separates 1948 from IPR 1956."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q87",
+      "section": null,
+      "taught": false,
+      "note": "Operation Flood = White Revolution: dairy/Operation Flood is not covered in NCERT keec102/keec103 or the PIB pages fetched. Source gap; not taught."
+    }
+  ],
+  "ECO-10": [
+    {
+      "note": "EXIM Bank deals with India's exports and imports: PIB (s5) calls it the apex financial institution for financing, facilitating and promoting India's international trade and the principal export credit agency (claim c46).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q187",
+      "section": "investment_wto_sez",
+      "taught": true
+    },
+    {
+      "note": "Highest FDI-receiving sector in 2014-15 is a time-specific official statistic (composite 'services sector' in DPIIT data). No fetched NCERT/PIB source carries year-wise FDI sector rankings; the chapter teaches the FDI concept (c12, c39) but not this dated figure. Source gap, disclosed.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q137",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "SEZ Act 2005 came into force in 2006: PIB (s4) states the SEZ Rules, 2006 came into effect on 10th February, 2006 (claim c44); also in the exam_note box of the section and q39.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q188",
+      "section": "investment_wto_sez",
+      "taught": true
+    },
+    {
+      "note": "West Bengal's Export Processing Zone functions at Falta: PIB Kolkata release (s6) states the Falta SEZ was established in 1984 as an export processing zone and later categorised as an SEZ (claim c47); also the chapter's bengal_connection.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q112",
+      "section": "investment_wto_sez",
+      "taught": true
+    },
+    {
+      "note": "Earlier name of WTO was GATT: NCERT IED (s3) states the WTO was founded in 1995 as the successor organisation to the GATT, established in 1948 with 23 countries (claim c33); q38 tests it.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q94",
+      "section": "investment_wto_sez",
+      "taught": true
+    },
+    {
+      "note": "Location of the WTO Appellate Body (Geneva) is not stated in any fetched source: the NCERT chapters and PIB releases used cover the WTO's aim, rules and GATT succession, not its headquarters or Appellate Body seat. Source gap, disclosed; not asserted in the chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q142",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Capital account constituents: foreign loans, FDI and portfolio investment are capital account (claim c12, NCERT leec106); remittances from abroad are current-account transfers (claim c06). Taught in the section text, its remember box, and exam-level q21 in the same format.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q146",
+      "section": "capital_reserves",
+      "taught": true
+    },
+    {
+      "note": "SEZ stands for Special Economic Zone: taught via the SEZ features and Act claims (c43, c44) and tested directly in q37.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q24",
+      "section": "investment_wto_sez",
+      "taught": true
+    }
+  ],
+  "ECO-11": [
+    {
+      "note": "PMJDY: National Mission on Financial Inclusion, launched 28 Aug 2014, overdraft up to Rs. 10,000, RuPay accident cover (claims c01-c07; PIB backgrounder Aug 2025 + pmjdy.gov.in).",
+      "pyq_code": "GK-ECO-015",
+      "section": "s2",
+      "taught": true
+    },
+    {
+      "note": "MGNREGA 100-day guarantee (c25) and its replacement by the VB-G RAM G Act, 2025 - 125 days, MGNREGA repealed from 01/07/2026 (c29, c30; PIB Rural Development).",
+      "pyq_code": "GK-ECO-016",
+      "section": "s4",
+      "taught": true
+    },
+    {
+      "note": "PM-JAY launched 23 Sep 2018 (c32); the PIB backgrounder's references name the launch address at Ranchi, Jharkhand (c35). Chapter teaches date, Rs. 5 lakh cover and Ranchi launch reference.",
+      "pyq_code": "GK-ECO-102",
+      "section": "s5",
+      "taught": true
+    },
+    {
+      "note": "PMMY launched 08.04.2015; Shishu/Kishore/Tarun/Tarun Plus categories and collateral-free credit (c18-c21; DFS page).",
+      "pyq_code": "GK-ECO-103",
+      "section": "s3",
+      "taught": true
+    },
+    {
+      "note": "PMUY launched 1 May 2016 at Ballia, UP; first-year connections to BPL families per SECC 2011 (c36, c37; PIB).",
+      "pyq_code": "GK-ECO-105",
+      "section": "s5",
+      "taught": true
+    },
+    {
+      "note": "Digital India launched 1 July 2015 by the PM (c52; PIB MeitY).",
+      "pyq_code": "GK-ECO-106",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "Skill India Campaign and PMKVY rolled out 15 July 2015, first World Youth Skills Day (c46-c48; PIB MSDE).",
+      "pyq_code": "GK-ECO-108",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "Stand-Up India launched 5 April 2016 at Noida, UP (c23; PIB Finance FAQ).",
+      "pyq_code": "GK-ECO-109",
+      "section": "s3",
+      "taught": true
+    },
+    {
+      "note": "Swachh Bharat Mission announced 2 October 2014, Gramin + Urban components, ODF in Oct 2019 (c38, c39; PIB).",
+      "pyq_code": "GK-ECO-110",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "The bank item turns on the DAY announcement date (September 2014). The PIB DAY-NRLM backgrounder fetched for this chapter states the 2010 NRLM launch and the 2016 renaming to DAY-NRLM (taught in s4), but does not state a September 2014 DAY announcement date, so the specific fact this item tests is not taught.",
+      "pyq_code": "GK-ECO-111",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "PMAY-U 'Housing for All' Mission implemented by MoHUA since 25.06.2015, four verticals, BLC assistance Rs. 1.5 lakh (c42-c45; pmay-urban.gov.in).",
+      "pyq_code": "GK-ECO-112",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "Jal Jeevan Mission launched 2019, goal of functional household tap connection to every rural household by 2024 (c41; PIB).",
+      "pyq_code": "GK-ECO-113",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "APY: ages 18-40, guaranteed monthly pension Rs. 1000-5000 at age 60, administered by PFRDA (c15-c17; PIB Jan Suraksha release).",
+      "pyq_code": "GK-ECO-114",
+      "section": "s2",
+      "taught": true
+    },
+    {
+      "note": "PMJJBY: one-year renewable life insurance, ages 18-50, Rs. 2 lakh for death due to any reason (c09-c11; PIB).",
+      "pyq_code": "GK-ECO-115",
+      "section": "s2",
+      "taught": true
+    },
+    {
+      "note": "PMSBY: one-year accidental insurance, ages 18-70, Rs. 2 lakh / Rs. 1 lakh partial disability (c12-c14; PIB).",
+      "pyq_code": "GK-ECO-116",
+      "section": "s2",
+      "taught": true
+    },
+    {
+      "note": "PMJJBY, PMSBY and APY launched 9 May 2015 from Kolkata, West Bengal (c08; PIB) - also the chapter's Bengal connection.",
+      "pyq_code": "GK-ECO-117",
+      "section": "s2",
+      "taught": true
+    },
+    {
+      "note": "Combined launch place/date item: chapter teaches SBM 2 Oct 2014 (c38), Skill India 15 July 2015 (c46), Stand-Up India 5 Apr 2016 Noida (c23), PM-JAY Ranchi 2018 (c32, c35); drilled in exam-level MATCH question q35.",
+      "pyq_code": "GK-ECO-119",
+      "section": "s5",
+      "taught": true
+    },
+    {
+      "note": "National Bal Swachhta Mission launch date (answer in corpus: 14 November 2014). Not taught: the only sources found were a Delhi Government circular served over plain http (fails the economy profile's https GOVT publisher rule) and a sansad.in PDF (domain outside the allowed publisher patterns). No PIB page stating the launch date was fetched, so the date is not asserted anywhere in the chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q160",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Kanyashree family income-ceiling exceptions (physically challenged / JJ Home inmate / lost both parents). Not taught: the fetched Kanyashree official portal homepage states the CCT design (K1/K2, Class VIII+, delay marriage to 18) but does not state the income ceiling or its exceptions.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q61",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Year Kanyashree was launched in West Bengal (answer in corpus: 2013). Not taught: the launch year does not appear in the fetched text of the Kanyashree official portal homepage, and no other allowed-publisher page stating it was fetched for this chapter.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q42",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Asks which State introduced the 'Yogyasree' social welfare scheme. Not taught: Yogyasree is outside this chapter's sourced scope (central flagship schemes plus Kanyashree); no allowed-publisher source for it was fetched.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-Q58",
+      "section": null,
+      "taught": false
+    }
+  ]
+}

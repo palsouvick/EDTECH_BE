@@ -1,0 +1,1698 @@
+{
+  "book": "indian_gk",
+  "code": "IGK-06",
+  "number": 6,
+  "part": "institutions",
+  "title": "জাতীয় উদ্যান, বাঁধ ও প্রকল্প (সারসংক্ষেপ)",
+  "subtitle": "সবচেয়ে বেশি জিজ্ঞাসিত জাতীয় উদ্যান, টাইগার রিজার্ভ, বাঁধ ও বহুমুখী নদী-প্রকল্প — এক নজরে",
+  "subtopics": [
+    "national_parks_dams"
+  ],
+  "related_facts": [
+    "GK-IGK-001"
+  ],
+  "prerequisites": [
+    "IGK-05"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 25,
+    "deep": 35
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 43/43 answers matched the key (43 SURE, 0 LIKELY, 0 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 18 of 24 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_IGK-06.json and drafts/IGK-06_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/IGK-06_REPORT.md.",
+    "checked_claims": 54,
+    "checked_questions": 43,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "জাতীয় উদ্যান আর বাঁধ — এই দুই তালিকা থেকে প্রায় প্রতি পরীক্ষাতেই প্রশ্ন আসে: প্রথম জাতীয় উদ্যান কোনটি, কাজিরাঙা কিসের জন্য বিখ্যাত, ভাকরা বাঁধ কোন নদীতে, ভারতের সর্বোচ্চ বাঁধ কোনটি। এই অধ্যায়টি একটি **সারসংক্ষেপ** — সবচেয়ে বেশি জিজ্ঞাসিত উদ্যান, টাইগার রিজার্ভ, বাঁধ ও বহুমুখী প্রকল্পগুলি এখানে জোড়া মিলিয়ে (উদ্যান–রাজ্য, বাঁধ–নদী) সাজানো হয়েছে। পূর্ণ তালিকা ও গভীর আলোচনার জন্য ভূগোল বই ও পরিবেশ বই দেখো; এখানে শুধু পরীক্ষায় লাগে এমন অংশটুকুই রাখা হল।",
+    "you_will_learn": [
+      "জাতীয় উদ্যান, অভয়ারণ্য ও টাইগার রিজার্ভের আইনি কাঠামো — বন্যপ্রাণী (সুরক্ষা) আইন, ১৯৭২",
+      "ভারতের প্রথম জাতীয় উদ্যান করবেট (১৯৩৬) ও প্রজেক্ট টাইগারের শুরু (১৯৭৩)",
+      "তারকা-প্রাণী অনুযায়ী বিখ্যাত উদ্যান: কাজিরাঙা–গণ্ডার, গির–সিংহ, কুনো–চিতা, কেওলাদেও–পরিযায়ী পাখি",
+      "পশ্চিমবঙ্গের ছয়টি জাতীয় উদ্যান ও তাদের জেলা",
+      "বাঁধ ও বহুমুখী প্রকল্পের ধারণা, নেহরুর 'আধুনিক ভারতের মন্দির' উক্তি ও বিতর্কের দিকগুলি",
+      "বিখ্যাত বাঁধ–নদী জোড়া: ভাকরা–শতদ্রু, হীরাকুদ–মহানদী, তেহরি–ভাগীরথী, সরদার সরোবর–নর্মদা, নাগার্জুন সাগর–কৃষ্ণা, মেত্তুর ও কৃষ্ণরাজ সাগর–কাবেরী",
+      "ফরাক্কা ব্যারেজ (১৯৭৫) ও দামোদর উপত্যকা কর্পোরেশন (DVC)-এর ভূমিকা"
+    ]
+  },
+  "sections": [
+    {
+      "id": "park_framework",
+      "heading": "সংরক্ষিত এলাকার কাঠামো: আইন, প্রকার ও সংখ্যা",
+      "quick": "ভারতের জাতীয় উদ্যান ও অভয়ারণ্য তৈরি হয় **বন্যপ্রাণী (সুরক্ষা) আইন, ১৯৭২**-এর অধীনে। NCERT-র হিসাব অনুযায়ী দেশে ১০৩টি জাতীয় উদ্যান ও ৫৬৩টি বন্যপ্রাণী অভয়ারণ্য আছে; পরিবেশ মন্ত্রকের ২০২৩ সালের নভেম্বরের হিসাব অনুযায়ী সংরক্ষিত এলাকার জালে ১০৬টি জাতীয় উদ্যান ও ৫৭৩টি অভয়ারণ্য রয়েছে। প্রজেক্ট টাইগার শুরু ১৯৭৩ সালে, প্রজেক্ট এলিফ্যান্ট ১৯৯২ সালে।",
+      "standard": "বন্যপ্রাণী সংরক্ষণের আইনি ভিত্তি হল ১৯৭২ সালের বন্যপ্রাণী আইন। NCERT লিখছে, এই আইন বন্যপ্রাণী সংরক্ষণ ও সুরক্ষার প্রধান আইনি কাঠামো দেয় — এর দুটি উদ্দেশ্য: তফসিলভুক্ত বিপন্ন প্রজাতিকে সুরক্ষা দেওয়া, এবং জাতীয় উদ্যান, অভয়ারণ্য ও বন্ধ এলাকা (closed areas) হিসেবে শ্রেণিবদ্ধ সংরক্ষণ এলাকাগুলিকে আইনি সমর্থন দেওয়া।\n\n**সংখ্যা নিয়ে সাবধান:** পাঠ্যবই ও সরকারি হিসাবের বছর অনুযায়ী সংখ্যা বদলায়। NCERT Class XI-র বইতে আছে ১০৩টি জাতীয় উদ্যান ও ৫৬৩টি অভয়ারণ্য। পরিবেশ, বন ও জলবায়ু মন্ত্রকের ২০২৫ সালের পটভূমি-নথি অনুযায়ী, ২০২৩ সালের ২৭ নভেম্বর পর্যন্ত ভারতে মোট ১০১৪টি সংরক্ষিত এলাকা ছিল — তার মধ্যে ১০৬টি জাতীয় উদ্যান, ৫৭৩টি বন্যপ্রাণী অভয়ারণ্য, ১১৫টি সংরক্ষণ সংরক্ষিত এলাকা (Conservation Reserve) ও ২২০টি সম্প্রদায়গত সংরক্ষিত এলাকা (Community Reserve)। পরীক্ষায় সংখ্যা এলে প্রশ্নের সাল ও উৎসের সাল মিলিয়ে উত্তর দিতে হয়।\n\nপ্রজাতি-ভিত্তিক বড় প্রকল্প দুটি মনে রাখো: **প্রজেক্ট টাইগার (১৯৭৩)** ও **প্রজেক্ট এলিফ্যান্ট (১৯৯২)** — দুটোই NCERT-তে একসঙ্গে উল্লেখ আছে। প্রজেক্ট টাইগার প্রথমে শুরু হয়েছিল মাত্র **নয়টি** টাইগার রিজার্ভ নিয়ে, যার মোট আয়তন ছিল ১৬,৩৩৯ বর্গ কিমি।",
+      "deep": "জাতীয় উদ্যান ও অভয়ারণ্যের মধ্যে মূল পার্থক্য কঠোরতার মাত্রায়: জাতীয় উদ্যানে মানুষের কার্যকলাপ সবচেয়ে বেশি নিয়ন্ত্রিত। WBCS ২০২৩-এর একটি প্রশ্নে 'যে বনে মানুষের অবাধ প্রবেশ নেই' — এই ধারণাটি এসেছিল; পাঠ্যবইয়ের কাঠামো থেকে জাতীয় উদ্যানই সবচেয়ে কঠোর শ্রেণি, যদিও ওই প্রশ্নের সরকারি উত্তর-চাবি নিয়ে পৃথক বিতর্ক আছে (PYQ মানচিত্রে বিস্তারিত)। জলাভূমি সংরক্ষণে আলাদা করে মনে রাখো রামসার কনভেনশন: NCERT অনুযায়ী ওড়িশার চিলিকা হ্রদ ও ভরতপুরের কেওলাদেও জাতীয় উদ্যান জলপাখির আবাস হিসেবে রামসার কনভেনশনের অধীনে সুরক্ষিত।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "সংখ্যা বদলায় — সাল দেখে উত্তর দাও",
+          "body": "জাতীয় উদ্যানের সংখ্যা প্রতি বছর বাড়ে। NCERT বইয়ে ১০৩, মন্ত্রকের ২০২৩-এর হিসাবে ১০৬। প্রশ্নে সাল বা উৎস দেওয়া থাকলে সেই অনুযায়ী উত্তর দাও; না থাকলে সাধারণত সর্বশেষ সরকারি হিসাব (১০৬) ধরা হয়।"
+        },
+        {
+          "kind": "remember",
+          "title": "তিনটি সাল",
+          "body": "১৯৭২ — বন্যপ্রাণী (সুরক্ষা) আইন; ১৯৭৩ — প্রজেক্ট টাইগার; ১৯৯২ — প্রজেক্ট এলিফ্যান্ট। এই তিনটি সাল জোড়া হিসেবে মুখস্থ রাখো।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c06",
+        "c07",
+        "c23"
+      ]
+    },
+    {
+      "id": "first_parks_tiger",
+      "heading": "প্রথম জাতীয় উদ্যান ও প্রজেক্ট টাইগার",
+      "quick": "ভারতের প্রথম জাতীয় উদ্যান **করবেট জাতীয় উদ্যান** (উত্তরাখণ্ড), প্রতিষ্ঠিত **১৯৩৬** সালে। **প্রজেক্ট টাইগার** চালু হয় এই করবেটেই, **১৯৭৩ সালের ১ এপ্রিল**। প্রজেক্ট টাইগার ২০২৩ সালে ৫০ বছর পূর্ণ করে।",
+      "standard": "PIB-র উত্তরাখণ্ড-দিবস পটভূমি-নথিতে স্পষ্ট লেখা আছে: 'করবেট জাতীয় উদ্যান, ১৯৩৬ সালে প্রতিষ্ঠিত, এশীয় মহাদেশের প্রথম জাতীয় উদ্যান।' একই নথি জানায়, প্রজেক্ট টাইগার চালু হয়েছিল করবেট জাতীয় উদ্যানে, ১৯৭৩ সালের ১ এপ্রিল। অর্থাৎ 'প্রথম জাতীয় উদ্যান' আর 'প্রজেক্ট টাইগারের জন্মস্থান' — দুটি প্রশ্নের উত্তরই করবেট।\n\nজাতীয় বাঘ সংরক্ষণ কর্তৃপক্ষের (NTCA) তালিকায় করবেটের অবস্থান উত্তরাখণ্ড রাজ্যে; ১৯৭৩-৭৪ সালে বিজ্ঞপ্তিপ্রাপ্ত প্রথম সারির টাইগার রিজার্ভগুলির মধ্যে করবেট ছাড়াও ছিল বন্দিপুর (কর্ণাটক), কানহা (মধ্যপ্রদেশ), মানস (অসম), রণথম্ভোর (রাজস্থান), সিমলিপাল (ওড়িশা), সুন্দরবন (পশ্চিমবঙ্গ) ও পরে পেরিয়ার (কেরল, ১৯৭৮-৭৯) ও বক্সা (পশ্চিমবঙ্গ, ১৯৮২-৮৩)। পরিবেশ মন্ত্রকের নথি অনুযায়ী প্রজেক্ট টাইগার ২০২৩ সালে ৫০ বছর পূর্ণ করে; ওই নথির হিসাবে ভারতে টাইগার রিজার্ভ ছিল ৫৪টি, মোট আয়তন ৭৮,০০০ বর্গ কিমির বেশি (NTCA-র চলতি তালিকায় পরবর্তীতে আরও রিজার্ভ যুক্ত হয়েছে)।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "করবেট বনাম কাজিরাঙা",
+          "body": "'প্রথম জাতীয় উদ্যান' = করবেট (১৯৩৬)। কাজিরাঙা জাতীয় উদ্যান হিসেবে বিজ্ঞপ্তি পায় অনেক পরে (NTCA তালিকায় সংরক্ষিত এলাকা বিজ্ঞপ্তির সাল ১৯৭৪) — কাজিরাঙার খ্যাতি গণ্ডারের জন্য, 'প্রথম' হওয়ার জন্য নয়।"
+        }
+      ],
+      "claims": [
+        "c04",
+        "c05",
+        "c09",
+        "c54",
+        "c55"
+      ]
+    },
+    {
+      "id": "famous_parks",
+      "heading": "বিখ্যাত উদ্যান: তারকা প্রাণী ও রাজ্য",
+      "quick": "**কাজিরাঙা** (অসম) — একশৃঙ্গ গণ্ডার; **গির** (গুজরাত) — এশীয় সিংহ; **কুনো** (মধ্যপ্রদেশ) — চিতা পুনঃপ্রবর্তন; **ভান্সদা** (গুজরাত) — ১৯৭৯ সালে ঘোষিত ছোট উদ্যান; **ভিতরকণিকা** (ওড়িশা) — ম্যানগ্রোভ উদ্যান। টাইগার রিজার্ভের মধ্যে আয়তনে সবচেয়ে বড় **নাগার্জুনসাগর-শ্রীশৈলম** (অন্ধ্রপ্রদেশ)।",
+      "standard": "**কাজিরাঙা জাতীয় উদ্যান (অসম):** পরিবেশ মন্ত্রকের হিসাব অনুযায়ী ২০২২ সালে কাজিরাঙায় ছিল ২,৬১৩টি বড় একশৃঙ্গ গণ্ডার, আর অসমের গণ্ডার-সংখ্যা গোটা বিশ্বের একশৃঙ্গ গণ্ডারের প্রায় ৬৮ শতাংশ। উদ্যানটি UNESCO বিশ্ব ঐতিহ্য স্থানও বটে।\n\n**গির জাতীয় উদ্যান (গুজরাত):** এশীয় সিংহের (Panthera leo persica) পুনরুজ্জীবন ঘটেছে মূলত গির জাতীয় উদ্যান ও তার আশপাশের গুজরাতি ভূদৃশ্যে — তাই 'সিংহ মানেই গির' এই জোড়াটি পরীক্ষায় বারবার আসে। অন্য কোনো উদ্যানের সঙ্গে সিংহ জুড়লে সেটি ভুল জোড়া (যেমন WBCS ২০১৯-এর 'দাচিগাম—এশীয় সিংহ' জোড়াটি ভুল ছিল)।\n\n**কুনো জাতীয় উদ্যান (মধ্যপ্রদেশ):** চিতা পুনঃপ্রবর্তনের কেন্দ্র — ২০২২ সালের সেপ্টেম্বরে নামিবিয়া থেকে আটটি ও ২০২৩ সালের ফেব্রুয়ারিতে দক্ষিণ আফ্রিকা থেকে বারোটি চিতা আনা হয়।\n\n**ভান্সদা জাতীয় উদ্যান (গুজরাত):** ভারতের জনগণনা দপ্তরের নভসারি জেলা হ্যান্ডবুক অনুযায়ী, নভসারি থেকে ৭৫ কিমি দূরের এই উদ্যান ১৯৭৯ সালে জাতীয় উদ্যান ঘোষিত হয়; আয়তন মাত্র ২৩.৯৯ বর্গ কিমি, পশ্চিমঘাট (সহ্যাদ্রি) পর্বতে অবস্থিত।\n\n**ভিতরকণিকা জাতীয় উদ্যান (ওড়িশা):** ওড়িশার রাজনগরের ম্যানগ্রোভ বন বিভাগের এলাকায় অবস্থিত এই উদ্যান রামসার অগ্রাধিকার স্থানগুলির অন্যতম; PIB-র প্রকাশনা অনুযায়ী ওড়িশা রাজ্য জলাভূমি কর্তৃপক্ষের সঙ্গে যৌথ কর্মসূচিতে এর নাম এসেছে।\n\n**টাইগার রিজার্ভের আয়তন:** NTCA-র তালিকায় নাগার্জুনসাগর-শ্রীশৈলমের মোট আয়তন ৩,২৯৬.৩১ বর্গ কিমি — তালিকার সব রিজার্ভের মধ্যে সবচেয়ে বড়; তাই 'বৃহত্তম টাইগার রিজার্ভ' প্রশ্নের উত্তর এটিই।",
+      "deep": "NTCA তালিকা থেকে আরও কয়েকটি নির্ভরযোগ্য জোড়া: বন্দিপুর—কর্ণাটক, কানহা—মধ্যপ্রদেশ, মানস—অসম, রণথম্ভোর—রাজস্থান, পেরিয়ার—কেরল, সিমলিপাল—ওড়িশা, দুধওয়া—উত্তরপ্রদেশ। NCERT-র জীববৈচিত্র্য সংরক্ষিত এলাকার (Biosphere Reserve) তালিকায় মানস (অসম, ১৯৮৯), সুন্দরবন (পশ্চিমবঙ্গ, ১৯৮৯) ও সিমলিপাল (ওড়িশা, ১৯৯৪) আছে — একই নাম জাতীয় উদ্যান, টাইগার রিজার্ভ ও বায়োস্ফিয়ার রিজার্ভ তিন ভূমিকাতেই আসতে পারে, প্রশ্নে কোন শ্রেণি চাওয়া হয়েছে খেয়াল রাখো।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "জোড়া-মেলানো প্রশ্নের কৌশল",
+          "body": "উদ্যান–প্রাণী জোড়ায় একটি মাত্র ভুল জোড়া থাকে। নিশ্চিত জোড়াগুলি আগে মেলাও: কাজিরাঙা–গণ্ডার, গির–সিংহ, সুন্দরবন–রয়্যাল বেঙ্গল টাইগার। বাকিটাই সাধারণত ভুল জোড়া।"
+        }
+      ],
+      "claims": [
+        "c08",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c25",
+        "c31",
+        "c32"
+      ]
+    },
+    {
+      "id": "bengal_parks",
+      "heading": "পশ্চিমবঙ্গের জাতীয় উদ্যান",
+      "quick": "পশ্চিমবঙ্গের জাতীয় উদ্যান: **সুন্দরবন** (বিশ্বের বৃহত্তম ম্যানগ্রোভ), **জলদাপাড়া** (আলিপুরদুয়ার; রাজ্যের সবচেয়ে বেশি গণ্ডার), **গোরুমারা** (ডুয়ার্স), **সিঙ্গলিলা** (দার্জিলিং), **নেওড়া ভ্যালি** (কালিম্পং; লাল পান্ডা), **বক্সা** (ভুটান সীমান্তের টাইগার রিজার্ভ)।",
+      "standard": "রাজ্য সরকারের পর্যটন পোর্টাল অনুযায়ী: **জলদাপাড়া** জাতীয় উদ্যান পূর্ব হিমালয়ের পাদদেশে, উত্তরবঙ্গে অবস্থিত; রাজ্যে একশৃঙ্গ গণ্ডারের সবচেয়ে বড় জনসংখ্যা এখানেই। **গোরুমারা** রাজ্যের সবচেয়ে বেশি দেখা জাতীয় উদ্যান, হিমালয়ের পাদদেশের ডুয়ার্স অঞ্চলে অবস্থিত। **নেওড়া ভ্যালি** জাতীয় উদ্যান কালিম্পংয়ে; এখানে চিতাবাঘ, লাল পান্ডা ও কস্তুরী হরিণের মতো বিপন্ন প্রাণী পাওয়া যায়।\n\n**জেলা-ভিত্তিক জোড়া** (পরিবেশ-মূল্যায়ন নথি অনুযায়ী): জলদাপাড়া—আলিপুরদুয়ার জেলা; সিঙ্গলিলা—দার্জিলিং জেলা; চাপরামারি অভয়ারণ্য—জলপাইগুড়ি। WBCS-তে সিঙ্গলিলা (২০১৬) ও জলদাপাড়া (২০২৪) দুটি প্রশ্নই জেলা নিয়ে এসেছিল।\n\n**সুন্দরবন:** রাজ্য পোর্টালের ভাষায়, UNESCO বিশ্ব ঐতিহ্য স্থান সুন্দরবন বিশ্বের সবচেয়ে বড় ম্যানগ্রোভ অভয়ারণ্য এবং রয়্যাল বেঙ্গল টাইগারের অন্যতম বৃহত্তম ঘনত্বের আবাস। NCERT অনুযায়ী ম্যানগ্রোভ বন সবচেয়ে বেশি বিকশিত পশ্চিমবঙ্গের সুন্দরবন ও আন্দামান-নিকোবরে। NTCA তালিকায় সুন্দরবন টাইগার রিজার্ভ পশ্চিমবঙ্গের, বিজ্ঞপ্তি ১৯৭৩-৭৪। **বক্সা** টাইগার রিজার্ভ ভুটানের আন্তর্জাতিক সীমান্তের কাছে, বিজ্ঞপ্তি ১৯৮২-৮৩।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "বাংলার পরীক্ষায় বাংলার উদ্যান",
+          "body": "WBCS ও Clerkship-এ পশ্চিমবঙ্গের উদ্যান থেকে জেলা-ভিত্তিক প্রশ্ন আসে: সিঙ্গলিলা—দার্জিলিং, জলদাপাড়া—আলিপুরদুয়ার। আর 'কোনটি পশ্চিমবঙ্গে নয়' ধরনের প্রশ্নে মানস (অসম) প্রায়ই ভুল-উত্তর হিসেবে থাকে — মানস টাইগার রিজার্ভ ও বায়োস্ফিয়ার রিজার্ভ দুইই অসমের।"
+        }
+      ],
+      "claims": [
+        "c10",
+        "c17",
+        "c24",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30"
+      ]
+    },
+    {
+      "id": "dams_concept",
+      "heading": "বাঁধ ও বহুমুখী প্রকল্প: ধারণা ও বিতর্ক",
+      "quick": "বাঁধ হল প্রবহমান জলের উপর বাধা, যা জল আটকে জলাধার তৈরি করে। আজকের বাঁধ শুধু সেচের জন্য নয় — বিদ্যুৎ, পানীয় জল, বন্যা নিয়ন্ত্রণ, নৌচলাচল, মাছ চাষসহ নানা কাজে লাগে, তাই এদের বলে **বহুমুখী প্রকল্প**। জওহরলাল নেহরু বাঁধগুলিকে বলেছিলেন **'আধুনিক ভারতের মন্দির'**।",
+      "standard": "NCERT-র সংজ্ঞা: 'বাঁধ হল প্রবহমান জলের উপর একটি বাধা যা জলের প্রবাহকে বাধা দেয়, দিক বদলায় বা ধীর করে, প্রায়শই একটি জলাধার, হ্রদ বা আবদ্ধ জলাশয় তৈরি করে।' স্বাধীনতার পরের ভারতে বাঁধ মানেই ছিল উন্নয়নের প্রতীক — নেহরু গর্বের সঙ্গে বাঁধগুলিকে 'আধুনিক ভারতের মন্দির' বলে ঘোষণা করেছিলেন।\n\nকিন্তু বাঁধের কাজ একটিমাত্র নয়। NCERT লিখছে, আজ বাঁধ তৈরি হয় সেচ ছাড়াও বিদ্যুৎ উৎপাদন, গার্হস্থ্য ও শিল্পে জল সরবরাহ, বন্যা নিয়ন্ত্রণ, বিনোদন, অভ্যন্তরীণ নৌচলাচল ও মাছ চাষের জন্য — তাই বাঁধগুলিকে এখন বহুমুখী প্রকল্প বলা হয়, যেখানে আটকে রাখা জলের নানা ব্যবহার পরস্পর জড়িত। উদাহরণ: শতদ্রু-ব্যাস অববাহিকার ভাকরা-নাঙ্গাল প্রকল্পের জল জলবিদ্যুৎ ও সেচ দুইইতে ব্যবহৃত হয়; মহানদী অববাহিকার হীরাকুদ প্রকল্প জলসংরক্ষণকে বন্যা নিয়ন্ত্রণের সঙ্গে যুক্ত করে।\n\n**অন্য দিকটাও পরীক্ষায় আসে:** নদীতে বাঁধ দিলে প্রাকৃতিক প্রবাহ বাধাগ্রস্ত হয় — পলি প্রবাহ কমে, জলাধারের তলদেশে অতিরিক্ত পলি জমে; বাঁধ নদীকে খণ্ডিত করে, ফলে জলজ প্রাণীদের, বিশেষ করে ডিম পাড়ার মরসুমে, চলাচল কঠিন হয়ে পড়ে। রাজ্যগুলির মধ্যে জলবণ্টন নিয়েও বিতর্ক হয় — যেমন কৃষ্ণা-গোদাবরী বিতর্কের একটি কারণ ছিল মহারাষ্ট্র সরকারের কয়না থেকে বেশি জল সরানো নিয়ে কর্ণাটক ও অন্ধ্রপ্রদেশের আপত্তি।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "এক লাইনে বহুমুখী প্রকল্প",
+          "body": "সেচ + বিদ্যুৎ + পানীয় জল + বন্যা নিয়ন্ত্রণ + নৌচলাচল + মাছ চাষ = বহুমুখী প্রকল্প। যেকোনো একটি কাজ বাদ পড়লেই বোঝো, বিকল্পটি ভুল।"
+        },
+        {
+          "kind": "dont_confuse",
+          "title": "বাঁধ বনাম ব্যারেজ",
+          "body": "বাঁধ জল সঞ্চয় করে জলাধার বানায়; ব্যারেজ মূলত জলের প্রবাহ ঘুরিয়ে দেওয়ার জন্য — যেমন ফরাক্কা ব্যারেজের কাজ ছিল ভাগীরথী-হুগলিতে জল বাড়িয়ে কলকাতা বন্দর বাঁচানো, বিদ্যুৎ তৈরি নয়।"
+        }
+      ],
+      "claims": [
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c52",
+        "c53"
+      ]
+    },
+    {
+      "id": "famous_dams",
+      "heading": "বিখ্যাত বাঁধ, ব্যারেজ ও প্রকল্প: নদী-জোড়া",
+      "quick": "**ভাকরা**—শতদ্রু (জলাধার গোবিন্দ সাগর); **হীরাকুদ**—মহানদী (বিশ্বের দীর্ঘতম মাটির বাঁধ); **তেহরি**—ভাগীরথী (ভারতের সর্বোচ্চ বাঁধ); **সরদার সরোবর**—নর্মদা; **নাগার্জুন সাগর**—কৃষ্ণা; **ফরাক্কা ব্যারেজ**—১৯৭৫, কলকাতা বন্দরের জন্য; **মেত্তুর ও কৃষ্ণরাজ সাগর**—কাবেরী।",
+      "standard": "**ভাকরা বাঁধ (হিমাচল প্রদেশ):** বিলাসপুর জেলার সরকারি পোর্টাল অনুযায়ী, শতদ্রু নদীর উপর ভাকরা বাঁধ তৈরি করেছে গোবিন্দ সাগর জলাধার; বাঁধটির উচ্চতা ২২৬ মিটার, কাজ শুরু ১৯৫৫ সালে, সম্পূর্ণ হয় ১৯৬২ সালে। ভাকরা-নাঙ্গাল প্রকল্প জলবিদ্যুৎ ও সেচ দুইইতে ব্যবহৃত হয়।\n\n**হীরাকুদ বাঁধ (ওড়িশা):** জলশক্তি মন্ত্রকের বার্ষিক পর্যালোচনা অনুযায়ী, ওড়িশার সম্বলপুর থেকে প্রায় ১৫ কিমি দূরে মহানদী নদীর উপর হীরাকুদ বাঁধ বিশ্বের দীর্ঘতম মাটির বাঁধ এবং স্বাধীনতার পর শুরু হওয়া প্রথম বড় বহুমুখী নদী-উপত্যকা প্রকল্পগুলির একটি।\n\n**তেহরি বাঁধ (উত্তরাখণ্ড):** ভারতীয় আবহাওয়া দপ্তরের জার্নাল Mausam অনুযায়ী, উত্তরাখণ্ডের তেহরির কাছে ভাগীরথী নদীর উপর তেহরি বাঁধ ভারতের সর্বোচ্চ বাঁধ। PIB জানায়, তেহরি প্রকল্প গঙ্গার উপনদী ভাগীরথীর উপর একটি বহুমুখী প্রকল্প।\n\n**সরদার সরোবর (গুজরাত):** NCERT অনুযায়ী, গুজরাতে নর্মদা নদীর উপর নির্মিত সরদার সরোবর ভারতের বৃহত্তম জলসম্পদ প্রকল্পগুলির একটি, যা চারটি রাজ্য — মহারাষ্ট্র, মধ্যপ্রদেশ, গুজরাত ও রাজস্থান — জুড়ে বিস্তৃত।\n\n**নাগার্জুন সাগর:** কৃষ্ণা নদীর উপর এই বাঁধে জল ছাড়ার কথা PIB-র প্রকাশনায় আছে — 'নাগার্জুন সাগর—কৃষ্ণা' জোড়াটি Clerkship ২০০৯-এ এসেছিল।\n\n**ফরাক্কা ব্যারেজ ও DVC (বাংলা-কেন্দ্রিক):** জলসম্পদ মন্ত্রকের পর্যালোচনা অনুযায়ী, ফরাক্কা ব্যারেজ প্রকল্প ১৯৭৫ সালে চালু হয় কলকাতা বন্দরের সংরক্ষণ ও রক্ষণাবেক্ষণ এবং ভাগীরথী-হুগলি জলপথের নৌচলাচলের গভীরতা বাড়ানোর জন্য। দামোদর ভ্যালি কর্পোরেশন (DVC) একটি সরকারি সংস্থা, যা পশ্চিমবঙ্গ ও ঝাড়খণ্ড রাজ্যে কাজ করে — দামোদর উপত্যকার বাঁধ-ব্যবস্থা এই সংস্থাই চালায়।\n\n**আরও জোড়া (Mausam জার্নাল অনুযায়ী):** তামিলনাড়ুর মেত্তুর বাঁধ কাবেরী নদীর উপর, কর্ণাটকের কৃষ্ণরাজ সাগরও কাবেরী অববাহিকায়; তুঙ্গভদ্রা বাঁধ কর্ণাটকে তুঙ্গভদ্রা নদীতে (কৃষ্ণার উপনদী); ইন্দিরা সাগর নর্মদায়; গান্ধী সাগর চম্বলে; পোং বাঁধ হিমাচল প্রদেশে বিয়াস নদীতে; জয়কওয়াড়ি মহারাষ্ট্রে গোদাবরীতে; বানসাগর মধ্যপ্রদেশে সোন নদীর বহুমুখী প্রকল্প; রঞ্জিত সাগর (থিন) বাঁধ রবি নদীতে; রিহান্দ বাঁধ রিহান্দ নদীতে।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "ভাকরা বাঁধের অবস্থান নিয়ে সতর্কতা",
+          "body": "বাঁধটি দাঁড়িয়ে আছে হিমাচল প্রদেশের বিলাসপুর জেলায় (জেলা NIC পোর্টাল অনুযায়ী, নৈনা দেবী মহকুমায়, নাঙ্গাল শহর থেকে প্রায় ১৪ কিমি)। কিন্তু Clerkship ২০০৯-এর সরকারি উত্তর-চাবিতে 'ভাকরা-নাঙ্গালের অবস্থান' হিসেবে পাঞ্জাব ধরা হয়েছিল — নাঙ্গাল প্রান্ত পাঞ্জাবের দিকে বলেই সম্ভবত। ভূগোলের প্রশ্নে হিমাচল প্রদেশ, পুরনো প্রশ্নপত্রের ধাঁচে পাঞ্জাব — প্রসঙ্গ বুঝে উত্তর দাও।"
+        },
+        {
+          "kind": "remember",
+          "title": "তিনটি 'সবচেয়ে'",
+          "body": "সর্বোচ্চ বাঁধ — তেহরি (ভাগীরথী); দীর্ঘতম মাটির বাঁধ — হীরাকুদ (মহানদী); বৃহত্তম টাইগার রিজার্ভ — নাগার্জুনসাগর-শ্রীশৈলম।"
+        }
+      ],
+      "claims": [
+        "c38",
+        "c39",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48",
+        "c49",
+        "c50",
+        "c51"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "প্রজেক্ট টাইগার চালু",
+      "when": "১৯৭৩",
+      "what": "করবেট জাতীয় উদ্যানে ১৯৭৩ সালের ১ এপ্রিল প্রজেক্ট টাইগার চালু হয়; প্রথমে নয়টি টাইগার রিজার্ভ নিয়ে শুরু হয়েছিল এই প্রকল্প।",
+      "why_it_matters": "ভারতের বাঘ সংরক্ষণের ভিত্তি-ঘটনা; 'প্রথম জাতীয় উদ্যান' ও 'প্রজেক্ট টাইগারের জন্মস্থান' — দুটি প্রশ্নের উত্তরই করবেট।",
+      "section": "first_parks_tiger",
+      "claims": [
+        "c05",
+        "c07"
+      ]
+    },
+    {
+      "title": "ফরাক্কা ব্যারেজ প্রকল্প চালু",
+      "when": "১৯৭৫",
+      "what": "কলকাতা বন্দরের সংরক্ষণ ও ভাগীরথী-হুগলি জলপথের নৌচলাচলের গভীরতা বাড়ানোর উদ্দেশ্যে ফরাক্কা ব্যারেজ প্রকল্প ১৯৭৫ সালে চালু হয়।",
+      "why_it_matters": "WBCS ২০১৫ ও ২০১৭ — দুবারই এই ব্যারেজের উদ্দেশ্য নিয়ে প্রশ্ন এসেছে; বাংলার সবচেয়ে পরীক্ষামুখী বাঁধ-প্রকল্প।",
+      "section": "famous_dams",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "title": "কুনোতে চিতা পুনঃপ্রবর্তন",
+      "when": "২০২২",
+      "what": "২০২২ সালের সেপ্টেম্বরে নামিবিয়া থেকে আটটি চিতা কুনো জাতীয় উদ্যানে আনা হয়; ২০২৩ সালের ফেব্রুয়ারিতে দক্ষিণ আফ্রিকা থেকে আসে আরও বারোটি।",
+      "why_it_matters": "ভারত থেকে বিলুপ্ত চিতার প্রত্যাবর্তন — সাম্প্রতিক ঘটনাভিত্তিক GK প্রশ্নের প্রধান উৎস।",
+      "section": "famous_parks",
+      "claims": [
+        "c22"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "জওহরলাল নেহরু",
+      "when": "প্রধানমন্ত্রী ১৯৪৭–১৯৬৪",
+      "role": "স্বাধীন ভারতের প্রথম প্রধানমন্ত্রী",
+      "contribution": "বাঁধগুলিকে তিনি গর্বের সঙ্গে 'আধুনিক ভারতের মন্দির' বলে ঘোষণা করেছিলেন — বহুমুখী নদী-প্রকল্প যুগের সবচেয়ে বিখ্যাত উক্তি।",
+      "section": "dams_concept",
+      "claims": [
+        "c35"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1936,
+      "when": "১৯৩৬",
+      "label": "করবেট জাতীয় উদ্যান প্রতিষ্ঠিত — এশীয় মহাদেশের প্রথম জাতীয় উদ্যান",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "sort_year": 1962,
+      "when": "১৯৬২",
+      "label": "ভাকরা বাঁধের নির্মাণ সম্পূর্ণ হয় (কাজ শুরু ১৯৫৫ সালে)",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "sort_year": 1972,
+      "when": "১৯৭২",
+      "label": "বন্যপ্রাণী (সুরক্ষা) আইন প্রণীত — জাতীয় উদ্যান ও অভয়ারণ্যের আইনি কাঠামো তৈরি",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "sort_year": 1973,
+      "when": "১৯৭৩",
+      "label": "করবেটে প্রজেক্ট টাইগার চালু (১ এপ্রিল)",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "sort_year": 1975,
+      "when": "১৯৭৫",
+      "label": "ফরাক্কা ব্যারেজ প্রকল্প চালু",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "sort_year": 1979,
+      "when": "১৯৭৯",
+      "label": "গুজরাতের ভান্সদা জাতীয় উদ্যান ঘোষিত",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "sort_year": 1992,
+      "when": "১৯৯২",
+      "label": "প্রজেক্ট এলিফ্যান্ট চালু",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 2022,
+      "when": "২০২২",
+      "label": "কুনো জাতীয় উদ্যানে নামিবিয়া থেকে চিতা পুনঃপ্রবর্তন শুরু",
+      "claims": [
+        "c22"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "জাতীয় উদ্যান",
+      "meaning": "বন্যপ্রাণী আইন, ১৯৭২-এর অধীনে ঘোষিত সবচেয়ে কঠোরভাবে সুরক্ষিত সংরক্ষণ এলাকা, যেখানে বন্যপ্রাণী ও তাদের আবাস সম্পূর্ণ সুরক্ষিত।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "term": "টাইগার রিজার্ভ",
+      "meaning": "প্রজেক্ট টাইগারের অধীনে বাঘ সংরক্ষণের জন্য নির্দিষ্ট এলাকা; NTCA এদের তালিকা রক্ষণাবেক্ষণ করে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "term": "বহুমুখী প্রকল্প",
+      "meaning": "যে নদী-প্রকল্পে আটকে রাখা জল সেচ, বিদ্যুৎ, পানীয় জল, বন্যা নিয়ন্ত্রণ, নৌচলাচল ও মাছ চাষের মতো একাধিক কাজে একসঙ্গে ব্যবহৃত হয়।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "term": "বায়োস্ফিয়ার রিজার্ভ",
+      "meaning": "সমগ্র বাস্তুতন্ত্র সংরক্ষণের বড় এলাকা; যেমন মানস (অসম), সুন্দরবন (পশ্চিমবঙ্গ), সিমলিপাল (ওড়িশা)।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "term": "রামসার স্থান",
+      "meaning": "জলাভূমি সংরক্ষণের আন্তর্জাতিক রামসার কনভেনশনের অধীনে সুরক্ষিত জলাভূমি; যেমন চিলিকা হ্রদ ও কেওলাদেও জাতীয় উদ্যান।",
+      "claims": [
+        "c23"
+      ]
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "বাঁধ ও নদীর প্রাকৃতিক প্রবাহ",
+      "causes": [
+        "নদীতে বাঁধ দিয়ে প্রবাহ আটকে বা নিয়ন্ত্রণ করা"
+      ],
+      "event": "পলি প্রবাহ কমে যাওয়া ও নদী খণ্ডিত হওয়া",
+      "results": [
+        "জলাধারের তলদেশে অতিরিক্ত পলি জমে",
+        "জলজ প্রাণীদের, বিশেষ করে ডিম পাড়ার মরসুমে, চলাচল কঠিন হয়ে পড়ে"
+      ],
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "title": "কয়না জলসরানো ও আন্তঃরাজ্য বিতর্ক",
+      "causes": [
+        "মহারাষ্ট্র সরকারের কয়না থেকে বহুমুখী প্রকল্পের জন্য বেশি জল সরানো",
+        "কর্ণাটক ও অন্ধ্রপ্রদেশ সরকারের আপত্তি"
+      ],
+      "event": "কৃষ্ণা-গোদাবরী আন্তঃরাজ্য জলবিতর্ক",
+      "results": [
+        "নদীর জলবণ্টন নিয়ে রাজ্যগুলির মধ্যে দীর্ঘ বিতর্কের নজির তৈরি হয়"
+      ],
+      "claims": [
+        "c52"
+      ]
+    },
+    {
+      "title": "ফরাক্কা ব্যারেজ ও কলকাতা বন্দর",
+      "causes": [
+        "কলকাতা বন্দরের সংরক্ষণ ও ভাগীরথী-হুগলি জলপথের নৌগভীরতা বাড়ানোর প্রয়োজন"
+      ],
+      "event": "১৯৭৫ সালে ফরাক্কা ব্যারেজ প্রকল্প চালু",
+      "results": [
+        "ব্যারেজ থেকে ভাগীরথী-হুগলিতে জল বাড়িয়ে বন্দর ও নৌপথ রক্ষার ব্যবস্থা হয়"
+      ],
+      "claims": [
+        "c45"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "প্রথম জাতীয় উদ্যান: করবেট (১৯৩৬, উত্তরাখণ্ড) — Misc ২০২৩-এ এসেছে",
+      "section": "first_parks_tiger"
+    },
+    {
+      "point": "প্রজেক্ট টাইগার: ১৯৭৩, করবেট থেকে শুরু; বৃহত্তম টাইগার রিজার্ভ নাগার্জুনসাগর-শ্রীশৈলম — Misc ২০২৩",
+      "section": "first_parks_tiger"
+    },
+    {
+      "point": "উদ্যান–প্রাণী জোড়া: কাজিরাঙা–গণ্ডার, গির–সিংহ — WBCS ২০১৯-এর ভুল-জোড়া প্রশ্ন",
+      "section": "famous_parks"
+    },
+    {
+      "point": "পশ্চিমবঙ্গের উদ্যানের জেলা: সিঙ্গলিলা–দার্জিলিং (WBCS ২০১৬), জলদাপাড়া–আলিপুরদুয়ার (WBCS ২০২৪)",
+      "section": "bengal_parks"
+    },
+    {
+      "point": "বাঁধ–নদী জোড়া: সরদার সরোবর–নর্মদা (Misc ২০২৩), নাগার্জুন সাগর–কৃষ্ণা (Clerkship ২০০৯), মেত্তুর–কাবেরী (WBCS ২০২২, ২০২৪)",
+      "section": "famous_dams"
+    },
+    {
+      "point": "ভারতের সর্বোচ্চ বাঁধ: তেহরি — Misc ২০২৩",
+      "section": "famous_dams"
+    },
+    {
+      "point": "ফরাক্কা ব্যারেজের উদ্দেশ্য: কলকাতা বন্দর ও হুগলির নৌগভীরতা — WBCS ২০১৫ ও ২০১৭",
+      "section": "famous_dams"
+    },
+    {
+      "point": "ভান্সদা (গুজরাত) ও ভিতরকণিকা (ওড়িশা)-এর অবস্থান — WBCS ২০১৯, Clerkship ২০২৩",
+      "section": "famous_parks"
+    }
+  ],
+  "bengal_connection": {
+    "title": "বাংলার উদ্যান ও বাংলার বাঁধ-প্রকল্প",
+    "body": "পশ্চিমবঙ্গের ছয়টি জাতীয় উদ্যান — সুন্দরবন, জলদাপাড়া, গোরুমারা, নেওড়া ভ্যালি, সিঙ্গলিলা ও বক্সা — থেকে জেলা ও প্রাণীভিত্তিক প্রশ্ন WBCS ও Clerkship-এ নিয়মিত আসে। সুন্দরবন একই সঙ্গে জাতীয় উদ্যান, টাইগার রিজার্ভ (১৯৭৩-৭৪) ও বায়োস্ফিয়ার রিজার্ভ (১৯৮৯)। বাঁধের দিক থেকে বাংলার সবচেয়ে গুরুত্বপূর্ণ নাম ফরাক্কা ব্যারেজ (১৯৭৫) — কলকাতা বন্দর বাঁচাতে তৈরি; আর দামোদর উপত্যকার বাঁধ-ব্যবস্থা চালায় DVC, যা পশ্চিমবঙ্গ ও ঝাড়খণ্ড দুই রাজ্যেই কাজ করে।",
+    "claims": [
+      "c10",
+      "c17",
+      "c25",
+      "c29",
+      "c30",
+      "c45",
+      "c46"
+    ]
+  },
+  "quick_revision": [
+    "প্রথম জাতীয় উদ্যান — করবেট (১৯৩৬, উত্তরাখণ্ড); প্রজেক্ট টাইগারও শুরু এখানেই (১ এপ্রিল ১৯৭৩)।",
+    "বন্যপ্রাণী আইন ১৯৭২; জাতীয় উদ্যান ১০৬টি ও অভয়ারণ্য ৫৭৩টি (মন্ত্রকের ২০২৩-এর হিসাব); NCERT বইয়ে ১০৩ ও ৫৬৩।",
+    "প্রজেক্ট টাইগার প্রথমে ৯টি রিজার্ভে; প্রজেক্ট এলিফ্যান্ট ১৯৯২ সালে।",
+    "কাজিরাঙা—গণ্ডার (২০২২ সালে ২,৬১৩টি), গির—এশীয় সিংহ, কুনো—চিতা (নামিবিয়া ২০২২, দক্ষিণ আফ্রিকা ২০২৩)।",
+    "বৃহত্তম টাইগার রিজার্ভ — নাগার্জুনসাগর-শ্রীশৈলম (অন্ধ্রপ্রদেশ, ৩,২৯৬.৩১ বর্গ কিমি)।",
+    "পশ্চিমবঙ্গ: সিঙ্গলিলা—দার্জিলিং, জলদাপাড়া—আলিপুরদুয়ার, নেওড়া ভ্যালি—কালিম্পং, সুন্দরবন—বৃহত্তম ম্যানগ্রোভ।",
+    "নেহরু বাঁধগুলিকে বলেছিলেন 'আধুনিক ভারতের মন্দির'; বাঁধের নানা ব্যবহার মিলেই বহুমুখী প্রকল্প।",
+    "সর্বোচ্চ বাঁধ তেহরি—ভাগীরথী; দীর্ঘতম মাটির বাঁধ হীরাকুদ—মহানদী; ভাকরা—শতদ্রু, জলাধার গোবিন্দ সাগর।",
+    "সরদার সরোবর—নর্মদা (৪ রাজ্য); নাগার্জুন সাগর—কৃষ্ণা; মেত্তুর ও কৃষ্ণরাজ সাগর—কাবেরী।",
+    "ফরাক্কা ব্যারেজ ১৯৭৫ — কলকাতা বন্দর ও ভাগীরথী-হুগলির নৌগভীরতার জন্য; DVC কাজ করে পশ্চিমবঙ্গ ও ঝাড়খণ্ডে।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "NCERT Class X Contemporary India II, Chapter 3: Water Resources",
+      "class": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/jess103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "NCERT Class XI India Physical Environment, Chapter 5: Natural Vegetation",
+      "class": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/kegy105.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "National Tiger Conservation Authority — Tiger Reserves list",
+      "class": "GOVT",
+      "url": "https://ntca.gov.in/tiger-reserves/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB — Year End Review 2022: Ministry of Jal Shakti (PRID 1888318)",
+      "class": "GOVT",
+      "url": "https://pib.gov.in/Pressreleaseshare.aspx?PRID=1888318",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB — Year End Review 2018: Ministry of Water Resources, RD & GR (PRID 1556633)",
+      "class": "GOVT",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1556633&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "PIB — Tehri Hydro Power Plant release (PRID 2033254)",
+      "class": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2033254",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "PIB Backgrounder — Uttarakhand Divas (9 November 2021)",
+      "class": "GOVT",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc202111911.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "PIB/MoEFCC Backgrounder — India's Wildlife Conservation Milestones (3 March 2025)",
+      "class": "GOVT",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/mar/doc202533511501.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "MAUSAM (India Meteorological Department journal) 70(2), 2019 — Kar, rainfall and streamflow over major river basins",
+      "class": "GOVT",
+      "url": "https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/download/165/118/495",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "District Bilaspur, Himachal Pradesh (NIC) — Places of Tourist Interest: Bhakra Dam",
+      "class": "GOVT",
+      "url": "https://hpbilaspur.nic.in/places-of-tourist-interest/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "PIB — Shri Gadkari release on Tamil Nadu water (PRID 1510681)",
+      "class": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1510681&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s12",
+      "title": "Damodar Valley Corporation — official website",
+      "class": "GOVT",
+      "url": "https://www.dvc.gov.in/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s13",
+      "title": "Census of India 2011 — District Census Handbook, Navsari (Gujarat), Part B",
+      "class": "GOVT",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/417/download/1316/DH_2011_2423_PART_B_DCHB_NAVSARI.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s14",
+      "title": "Government of West Bengal portal — Forests (places to visit)",
+      "class": "GOVT",
+      "url": "https://wb.gov.in/visitors-areas-to-visit-Forests.aspx",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s15",
+      "title": "West Bengal Accelerated Development of Minor Irrigation Project — ESMF Volume II (wb.gov.in)",
+      "class": "GOVT",
+      "url": "https://wbadmip.wb.gov.in/documents/phaseII/ESMF_Vol-II.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s16",
+      "title": "PIB — Amrit Dharohar: Bhitarkanika National Park training programme (PRID 1993555)",
+      "class": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1993555&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "The Wildlife (Protection) Act was enacted in 1972 and provides the main legal framework for conservation and protection of wildlife in India, giving legal support to areas classified as National parks, sanctuaries and closed areas.",
+      "source": "s2",
+      "page": "Natural Vegetation, Wildlife conservation",
+      "quote": "In 1972, a comprehensive Wildlife Act was enacted, which provides the main legal framework for conservation and protection of wildlife in India."
+    },
+    {
+      "id": "c02",
+      "claim": "The NCERT textbook records 103 National Parks and 563 wildlife sanctuaries in India.",
+      "source": "s2",
+      "page": "Natural Vegetation, Wildlife conservation",
+      "quote": "There are 103 National parks and 563 wildlife sanctuaries in the country."
+    },
+    {
+      "id": "c03",
+      "claim": "As of 27 November 2023, India had 1014 Protected Areas including 106 National Parks, 573 Wildlife Sanctuaries, 115 Conservation Reserves and 220 Community Reserves (MoEFCC backgrounder).",
+      "source": "s8",
+      "page": "Protected Area Network of India",
+      "quote": "As of 27th November, 2023 India has a network of 1014 Protected Areas including 106 National Parks, 573 Wildlife Sanctuaries, 115 Conservation Reserves and 220 Community Reserves"
+    },
+    {
+      "id": "c04",
+      "claim": "Corbett National Park, established in 1936, is the first National Park of the Asian mainland.",
+      "source": "s7",
+      "page": "Wildlife Sanctuaries of Uttarakhand",
+      "quote": "Corbett National Park, established in 1936 is the first National Park of the Asian Mainland."
+    },
+    {
+      "id": "c05",
+      "claim": "Project Tiger was launched in Corbett National Park on 1 April 1973.",
+      "source": "s7",
+      "page": "Wildlife Sanctuaries of Uttarakhand",
+      "quote": "Project Tiger was launched in Corbett National Park on 1 April 1973."
+    },
+    {
+      "id": "c06",
+      "claim": "Project Tiger was launched in 1973 and Project Elephant in 1992 to conserve these species and their habitat.",
+      "source": "s2",
+      "page": "Natural Vegetation, Wildlife conservation",
+      "quote": "Special schemes like Project Tiger (1973) and Project Elephant (1992) have been launched to conserve these species and their habitat in a sustainable manner."
+    },
+    {
+      "id": "c07",
+      "claim": "Project Tiger was initially launched in nine tiger reserves covering 16,339 sq km.",
+      "source": "s2",
+      "page": "Natural Vegetation, Project Tiger",
+      "quote": "Initially, the Project Tiger was launched in nine tiger reserves, covering an area of 16,339 sq. km"
+    },
+    {
+      "id": "c08",
+      "claim": "In the NTCA tiger reserve list, Nagarjunsagar Srisailam (Andhra Pradesh, notified 1982-83) has a total area of 3,296.31 sq km, the largest total area in the list.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 15",
+      "quote": "Nagarjunsagar Sagar | 1982-83 | Andhra Pradesh | 2007 | 2,595.72 | 700.59 | 3,296.31"
+    },
+    {
+      "id": "c09",
+      "claim": "In the NTCA list, Corbett Tiger Reserve is in Uttarakhand, notified 1973-74.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 2",
+      "quote": "Corbett | 1973-74 | Uttarakhand | 2010 | 821.99 | 466.32 | 1288.31"
+    },
+    {
+      "id": "c10",
+      "claim": "In the NTCA list, Sunderban Tiger Reserve is in West Bengal, notified 1973-74.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 8",
+      "quote": "Sunderban | 1973-74 | West Bengal | 2007 | 1,699.62 | 885.27 | 2,584.89"
+    },
+    {
+      "id": "c11",
+      "claim": "In the NTCA list, Kaziranga (Assam) has protected-area notification year 1974.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 33",
+      "quote": "Kaziranga | 1974 | Assam | 2007 | 625.58 | 548.00 | 1,173.58"
+    },
+    {
+      "id": "c12",
+      "claim": "In the NTCA list, Bandipur Tiger Reserve is in Karnataka, notified 1973-74.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 1",
+      "quote": "Bandipur | 1973-74 | Karnataka | 2007 | 872.24 | 584.06 | 1456.3"
+    },
+    {
+      "id": "c13",
+      "claim": "In the NTCA list, Kanha Tiger Reserve is in Madhya Pradesh, notified 1973-74.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 3",
+      "quote": "Kanha | 1973-74 | Madhya Pradesh | 2007 | 917.43 | 1,134.36 | 2051.79"
+    },
+    {
+      "id": "c14",
+      "claim": "In the NTCA list, Manas Tiger Reserve is in Assam, notified 1973-74.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 4",
+      "quote": "Manas | 1973-74 | Assam | 2008 | 526.22 | 2,310.88 | 2837.10"
+    },
+    {
+      "id": "c15",
+      "claim": "In the NTCA list, Ranthambore Tiger Reserve is in Rajasthan, notified 1973-74.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 6",
+      "quote": "Ranthambore | 1973-74 | Rajasthan | 2007 | 1,113.36 | 297.92 | 1411.29"
+    },
+    {
+      "id": "c16",
+      "claim": "In the NTCA list, Periyar Tiger Reserve is in Kerala, notified 1978-79.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 10",
+      "quote": "Periyar | 1978-79 | Kerala | 2007 | 881.00 | 44.00 | 925.00"
+    },
+    {
+      "id": "c17",
+      "claim": "In the NTCA list, Buxa Tiger Reserve is in West Bengal, notified 1982-83.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 24",
+      "quote": "Buxa | 1982-83 | West Bengal | 2009 | 390.58 | 367.32 | 757.90"
+    },
+    {
+      "id": "c18",
+      "claim": "In the NTCA list, Simlipal Tiger Reserve is in Orissa (Odisha), notified 1973-74.",
+      "source": "s3",
+      "page": "Tiger Reserves table, row 7",
+      "quote": "Simlipal | 1973-74 | Orissa | 2007 | 1,194.75 | 1,555.25 | 2,750.00"
+    },
+    {
+      "id": "c19",
+      "claim": "The Asiatic lion's resurgence in India has happened primarily within Gir National Park and its surrounding landscapes in Gujarat.",
+      "source": "s8",
+      "page": "Species-Specific Conservation Successes",
+      "quote": "The Asiatic lion (Panthera leo persica), once teetering on the brink of extinction, has witnessed a remarkable resurgence in India, primarily within Gir National Park and its surrounding landscapes in Gujarat."
+    },
+    {
+      "id": "c20",
+      "claim": "Kaziranga National Park, a UNESCO World Heritage Site, was home to 2,613 greater one-horned rhinoceroses as of 2022.",
+      "source": "s8",
+      "page": "Species-Specific Conservation Successes",
+      "quote": "As of 2022, Kaziranga National Park, a UNESCO World Heritage Site, is home to 2,613 greater one-horned rhinoceroses"
+    },
+    {
+      "id": "c21",
+      "claim": "Assam's rhino population accounts for approximately 68% of the world's greater one-horned rhinoceroses.",
+      "source": "s8",
+      "page": "Species-Specific Conservation Successes",
+      "quote": "Assam's rhino population accounts for approximately 68% of the world's greater one-horned rhinoceroses"
+    },
+    {
+      "id": "c22",
+      "claim": "Eight cheetahs from Namibia were translocated to Kuno National Park in September 2022, followed by twelve cheetahs from South Africa in February 2023.",
+      "source": "s8",
+      "page": "Species-Specific Conservation Successes",
+      "quote": "In September 2022, eight cheetahs from Namibia were translocated to Kuno National Park, followed by twelve cheetahs from South Africa in February 2023."
+    },
+    {
+      "id": "c23",
+      "claim": "Chilika Lake (Odisha) and Keoladeo National Park (Bharatpur) are protected as waterfowl habitats under the Ramsar Convention.",
+      "source": "s2",
+      "page": "Natural Vegetation, Wildlife conservation",
+      "quote": "Two sites — Chilika Lake (Odisha) and Keoladeo National Park (Bharatpur) are protected as waterfowl habitats under the Convention of Wetlands of International Importance (Ramsar Convention)."
+    },
+    {
+      "id": "c24",
+      "claim": "Mangrove forests are highly developed in the Andaman and Nicobar Islands and the Sunderbans of West Bengal.",
+      "source": "s2",
+      "page": "Natural Vegetation, Mangrove Forests",
+      "quote": "They are highly developed in the Andaman and Nicobar Islands and the Sunderbans of West Bengal."
+    },
+    {
+      "id": "c25",
+      "claim": "NCERT's biosphere reserve table lists Manas in Assam (1989), Sunderban in West Bengal (1989) and Similipal in Odisha (1994).",
+      "source": "s2",
+      "page": "Table 5.1, Biosphere Reserves of India",
+      "quote": "5. Sunderban (9630) 29.03.1989 Part of delta of Ganges and Brahamaputra river system in West Bengal."
+    },
+    {
+      "id": "c26",
+      "claim": "Jaldapara National Park is at the foothills of the eastern Himalayas in North Bengal and holds the largest population of the Indian one-horned rhinoceros in West Bengal.",
+      "source": "s14",
+      "page": "Forests — places to visit",
+      "quote": "Jaldapara national park is a National Park situated at the foothills of the eastern Himalayas of North Bengal."
+    },
+    {
+      "id": "c27",
+      "claim": "Gorumara is the most visited National Park of West Bengal and is located in the Dooars region of the Himalayan foothills.",
+      "source": "s14",
+      "page": "Forests — places to visit",
+      "quote": "Gorumara is the most visited National park in the state. Located in the Dooars region"
+    },
+    {
+      "id": "c28",
+      "claim": "Neora Valley National Park is in Kalimpong, and endangered species such as the Leopard, Red Panda and Musk Deer are found there.",
+      "source": "s14",
+      "page": "Forests — places to visit",
+      "quote": "Neora valley National Park in Kalimpong comprises of an ecosystem rich in abundance of flora and fauna"
+    },
+    {
+      "id": "c29",
+      "claim": "The Sunderbans, a UNESCO World Heritage site, is the world's biggest mangrove sanctuary and home to one of the largest concentrations of Royal Bengal tigers.",
+      "source": "s14",
+      "page": "Forests — places to visit",
+      "quote": "Declared by the UNESCO as a world heritage site, the Sunderbans remain the world's biggest mangrove sanctuary."
+    },
+    {
+      "id": "c30",
+      "claim": "Jaldapara National Park is in Alipurduar District and Singalila National Park is in Darjeeling District (West Bengal ESMF document).",
+      "source": "s15",
+      "page": "Eco-Sensitive Zones list, West Bengal",
+      "quote": "Jaldapara National Park Alipurduar District"
+    },
+    {
+      "id": "c31",
+      "claim": "Vansda National Park of Gujarat was declared a National Park in 1979; it covers 23.99 sq km in the Western Ghats (Sahyadris), 75 km from Navsari.",
+      "source": "s13",
+      "page": "District Census Handbook Navsari, village directory amenities",
+      "quote": "In 1979 it was declared as the National park. The Vansda National Park of Gujarat is extremely dense"
+    },
+    {
+      "id": "c32",
+      "claim": "Bhitarkanika National Park lies in the Mangrove Forest Division, Rajnagar area of Odisha, associated with the Odisha State Wetlands Authority.",
+      "source": "s16",
+      "page": "Amrit Dharohar release",
+      "quote": "Odisha State Wetlands Authority (OSWA) and Mangrove Forest Division, Rajnagar"
+    },
+    {
+      "id": "c33",
+      "claim": "A dam is a barrier across flowing water that obstructs, directs or retards the flow, often creating a reservoir, lake or impoundment.",
+      "source": "s1",
+      "page": "Water Resources, Dams and Multipurpose Projects",
+      "quote": "A dam is a barrier across flowing water that obstructs, directs or retards the flow, often creating a reservoir, lake or impoundment."
+    },
+    {
+      "id": "c34",
+      "claim": "Dams are now referred to as multipurpose projects because they are built not just for irrigation but also for electricity generation, domestic and industrial water supply, flood control, recreation, inland navigation and fish breeding.",
+      "source": "s1",
+      "page": "Water Resources, Dams and Multipurpose Projects",
+      "quote": "Today, dams are built not just for irrigation but for electricity generation, water supply for domestic and industrial uses, flood control, recreation, inland navigation and fish breeding. Hence, dams are now referred to as multipurpose projects"
+    },
+    {
+      "id": "c35",
+      "claim": "Jawaharlal Nehru proudly proclaimed the dams as the 'temples of modern India'.",
+      "source": "s1",
+      "page": "Water Resources, Dams and Multipurpose Projects",
+      "quote": "Jawaharlal Nehru proudly proclaimed the dams as the 'temples of modern India'"
+    },
+    {
+      "id": "c36",
+      "claim": "In the Sutlej-Beas river basin, the Bhakra-Nangal project water is used both for hydel power production and irrigation.",
+      "source": "s1",
+      "page": "Water Resources, Dams and Multipurpose Projects",
+      "quote": "in the Sutluj-Beas river basin, the Bhakra – Nangal project water is being used both for hydel power production and irrigation"
+    },
+    {
+      "id": "c37",
+      "claim": "The Hirakud project in the Mahanadi basin integrates conservation of water with flood control.",
+      "source": "s1",
+      "page": "Water Resources, Dams and Multipurpose Projects",
+      "quote": "Similarly, the Hirakud project in the Mahanadi basin integrates conservation of water with flood control."
+    },
+    {
+      "id": "c38",
+      "claim": "Hirakud Dam is built across the Mahanadi River, about 15 km from Sambalpur in Odisha; it is the longest earthen dam in the world and one of the first major multipurpose river valley projects started after India's independence.",
+      "source": "s4",
+      "page": "Year End Review 2022, Jal Shakti — Hirakud Dam",
+      "quote": "Hirakud Dam is built across the Mahanadi River, about 15 km from Sambalpur in the state of Odisha. It is the longest earthen dam in the world. It is one of the first major multipurpose river valley projects started after India's independence."
+    },
+    {
+      "id": "c39",
+      "claim": "Sardar Sarovar Dam has been built over the Narmada River in Gujarat and is one of the largest water resource projects of India, covering Maharashtra, Madhya Pradesh, Gujarat and Rajasthan.",
+      "source": "s1",
+      "page": "Water Resources, Sardar Sarovar",
+      "quote": "Sardar Sarovar Dam has been built over the Narmada River in Gujarat. This is one of the largest water resource projects of India covering four states—Maharashtra, Madhya Pradesh, Gujarat and Rajasthan."
+    },
+    {
+      "id": "c41",
+      "claim": "The Tehri hydro project is a multipurpose scheme on river Bhagirathi, a tributary of river Ganges.",
+      "source": "s6",
+      "page": "Tehri Hydro Power Plant release",
+      "quote": "THPC is a multipurpose scheme on river Bhagirathi, a tributary of river Ganges."
+    },
+    {
+      "id": "c42",
+      "claim": "The Tehri Dam on the Bhagirathi River near Tehri in Uttarakhand is the highest dam in India.",
+      "source": "s9",
+      "page": "MAUSAM 70(2), 2019, p. 352",
+      "quote": "The Tehri Dam on the Bhagirathi River near Tehri in Uttarakhand is the highest dam in India."
+    },
+    {
+      "id": "c43",
+      "claim": "Bhakra Dam on the Sutlej in Bilaspur district, Himachal Pradesh, created the Gobind Sagar reservoir; the dam is 226 metres high, work began in 1955 and was completed in 1962.",
+      "source": "s10",
+      "page": "Places of Tourist Interest — Bhakra Dam",
+      "quote": "The Gobind Sagar on river Sutlej, has been created by the huge hydel dam at Bhakra"
+    },
+    {
+      "id": "c44",
+      "claim": "Nagarjuna Sagar Dam is on River Krishna.",
+      "source": "s11",
+      "page": "Gadkari Tamil Nadu water release",
+      "quote": "released into the Nagarjuna Sagar Dam on River Krishna"
+    },
+    {
+      "id": "c45",
+      "claim": "The Farakka Barrage Project was commissioned in 1975 for preservation and maintenance of the Kolkata Port and for increasing the navigational depth of the Bhagirathi-Hooghly waterway.",
+      "source": "s5",
+      "page": "Year End Review 2018 — Farakka Barrage Project",
+      "quote": "The Farakka Barrage Project (FBP) was commissioned in 1975 for preservation & maintenance of the Kolkata Port and for increasing the navigational depth of the Bhagirathi – Hooghly waterway."
+    },
+    {
+      "id": "c46",
+      "claim": "Damodar Valley Corporation (DVC) is an Indian governmental organization which operates in the West Bengal and Jharkhand states of India.",
+      "source": "s12",
+      "page": "DVC homepage",
+      "quote": "Damodar Valley Corporation (DVC) is an Indian governmental organization which operates in the West Bengal and Jharkhand states of India."
+    },
+    {
+      "id": "c47",
+      "claim": "The Mettur dam in Tamil Nadu is located across the river Cauvery, and Krishna Raja Sagara in Karnataka is in the Cauvery basin.",
+      "source": "s9",
+      "page": "MAUSAM 70(2), 2019, Cauvery basin",
+      "quote": "The Mettur dam in Tamil Nadu located across the river Cauvery receives inflows from its own catchment area, Kabini and Krishna Raja Sagara dams in Karnataka."
+    },
+    {
+      "id": "c48",
+      "claim": "The Tungabhadra dam is in Karnataka on the Tungabhadra River, a tributary of the Krishna River.",
+      "source": "s9",
+      "page": "MAUSAM 70(2), 2019, Krishna basin",
+      "quote": "The Tungabhadra dam is in Karnataka on the Tungabhadra River, a tributary of the Krishna River."
+    },
+    {
+      "id": "c49",
+      "claim": "Indira Sagar dam is on the Narmada River; Gandhi Sagar dam is on the Chambal River; the Pong dam is on the Beas River in Himachal Pradesh; Jayakwadi is on the Godavari River in Maharashtra; Ranjit Sagar (Thein) dam is on the Ravi River.",
+      "source": "s9",
+      "page": "MAUSAM 70(2), 2019, basin sections",
+      "quote": "The Pong dam is on the Beas River in Himachal Pradesh."
+    },
+    {
+      "id": "c50",
+      "claim": "Rihand dam is on the Rihand River; its catchment extends over Uttar Pradesh, Madhya Pradesh and Chhattisgarh.",
+      "source": "s9",
+      "page": "MAUSAM 70(2), 2019, Ganga basin",
+      "quote": "The catchment area of Rihand dam on the Rihand River extends over Uttar Pradesh, Madhya Pradesh & Chhattisgarh"
+    },
+    {
+      "id": "c51",
+      "claim": "Bansagar dam is a multipurpose river valley project on the Sone River in Madhya Pradesh.",
+      "source": "s9",
+      "page": "MAUSAM 70(2), 2019, Ganga basin",
+      "quote": "Bansagar dam is a multipurpose river Valley Project on Sone River"
+    },
+    {
+      "id": "c52",
+      "claim": "The Krishna-Godavari dispute arose from objections by Karnataka and Andhra Pradesh to Maharashtra diverting more water at Koyna for a multipurpose project.",
+      "source": "s1",
+      "page": "Water Resources, inter-state water disputes",
+      "quote": "the Krishna-Godavari dispute is due to the objections raised by Karnataka and Andhra Pradesh governments"
+    },
+    {
+      "id": "c53",
+      "claim": "Regulating and damming of rivers affects their natural flow, causing poor sediment flow and excessive sedimentation at the bottom of the reservoir; dams also fragment rivers, making migration difficult for aquatic fauna, especially for spawning.",
+      "source": "s1",
+      "page": "Water Resources, adverse effects of dams",
+      "quote": "Regulating and damming of rivers affect their natural flow causing poor sediment flow and excessive sedimentation at the bottom of the reservoir"
+    },
+    {
+      "id": "c54",
+      "claim": "Project Tiger, initiated in 1973, successfully completed 50 years in 2023.",
+      "source": "s8",
+      "page": "Project Tiger: 50 Years of Conservation",
+      "quote": "Project Tiger, initiated in 1973, has been India's flagship conservation initiative, successfully completing 50 years in 2023."
+    },
+    {
+      "id": "c55",
+      "claim": "India has 54 tiger reserves covering over 78,000 sq km, according to the MoEFCC backgrounder of March 2025.",
+      "source": "s8",
+      "page": "Project Tiger: 50 Years of Conservation",
+      "quote": "India now has 54 tiger reserves, covering over 78,000 sq. km"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "park_framework",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতে বন্যপ্রাণী (সুরক্ষা) আইন কোন সালে প্রণীত হয়?",
+      "a": "১৯৭২ সালে",
+      "w": [
+        "১৯৭৩ সালে",
+        "১৯৮০ সালে",
+        "১৯৫২ সালে"
+      ],
+      "e": "NCERT অনুযায়ী, ১৯৭২ সালে একটি ব্যাপক বন্যপ্রাণী আইন প্রণীত হয়, যা ভারতে বন্যপ্রাণী সংরক্ষণ ও সুরক্ষার প্রধান আইনি কাঠামো দেয়। ১৯৭৩ সাল প্রজেক্ট টাইগারের সাল — আইনের সালের সঙ্গে গুলিয়ে ফেলো না।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "park_framework",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NCERT পাঠ্যবই (Class XI, India Physical Environment) অনুযায়ী ভারতে জাতীয় উদ্যানের সংখ্যা কত?",
+      "a": "১০৩টি",
+      "w": [
+        "৯২টি",
+        "৮৭টি",
+        "১২০টি"
+      ],
+      "e": "NCERT বইয়ে লেখা আছে দেশে ১০৩টি জাতীয় উদ্যান ও ৫৬৩টি বন্যপ্রাণী অভয়ারণ্য রয়েছে। মনে রাখো, পরিবেশ মন্ত্রকের ২০২৩ সালের হিসাবে সংখ্যাটি ১০৬ — প্রশ্নে কোন উৎস চাওয়া হয়েছে, সেটাই ঠিক করে দেবে উত্তর।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "park_framework",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পরিবেশ মন্ত্রকের হিসাব অনুযায়ী, ২০২৩ সালের ২৭ নভেম্বর পর্যন্ত ভারতে মোট সংরক্ষিত এলাকার সংখ্যা কত ছিল?",
+      "a": "১০১৪টি",
+      "w": [
+        "৯৮৭টি",
+        "১১০৫টি",
+        "৮৯০টি"
+      ],
+      "e": "মন্ত্রকের পটভূমি-নথি অনুযায়ী মোট ১০১৪টি সংরক্ষিত এলাকার মধ্যে ছিল ১০৬টি জাতীয় উদ্যান, ৫৭৩টি বন্যপ্রাণী অভয়ারণ্য, ১১৫টি সংরক্ষণ সংরক্ষিত এলাকা ও ২২০টি সম্প্রদায়গত সংরক্ষিত এলাকা।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "park_framework",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "প্রজেক্ট এলিফ্যান্ট কোন সালে চালু হয়?",
+      "a": "১৯৯২ সালে",
+      "w": [
+        "১৯৭২ সালে",
+        "১৯৭৩ সালে",
+        "১৯৮২ সালে"
+      ],
+      "e": "NCERT অনুযায়ী প্রজেক্ট টাইগার শুরু ১৯৭৩ সালে, আর প্রজেক্ট এলিফ্যান্ট ১৯৯২ সালে — দুটি প্রকল্পই প্রজাতি ও তাদের আবাস সংরক্ষণের জন্য চালু হয়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "park_framework",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রজেক্ট টাইগার প্রথমে কয়টি টাইগার রিজার্ভ নিয়ে শুরু হয়েছিল?",
+      "a": "নয়টি",
+      "w": [
+        "পাঁচটি",
+        "বারোটি",
+        "আঠারোটি"
+      ],
+      "e": "NCERT জানায়, প্রজেক্ট টাইগার প্রথমে নয়টি টাইগার রিজার্ভ নিয়ে শুরু হয়, যার মোট আয়তন ছিল ১৬,৩৩৯ বর্গ কিমি। আজ রিজার্ভের সংখ্যা অনেক বেশি, কিন্তু শুরুর সংখ্যাটাই পরীক্ষায় আসে।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "park_framework",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. বন্যপ্রাণী আইন, ১৯৭২ জাতীয় উদ্যান, অভয়ারণ্য ও বন্ধ এলাকা হিসেবে শ্রেণিবদ্ধ সংরক্ষণ এলাকাগুলিকে আইনি সমর্থন দেয়।\n২. প্রজেক্ট এলিফ্যান্ট ১৯৭৩ সালে চালু হয়েছিল।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ দুটোই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — আইনটি সংরক্ষণ এলাকাগুলিকে আইনি সমর্থন দেয়। বিবৃতি ২ ভুল — প্রজেক্ট এলিফ্যান্ট চালু হয় ১৯৯২ সালে; ১৯৭৩ হল প্রজেক্ট টাইগারের সাল।",
+      "claims": [
+        "c01",
+        "c06"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "park_framework",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "জোড়াগুলি বিবেচনা করো:\n১. কেওলাদেও জাতীয় উদ্যান — রামসার কনভেনশনের অধীনে জলপাখির আবাস\n২. চিলিকা হ্রদ — ওড়িশা\n৩. প্রজেক্ট টাইগার — ১৯৭৩\nকোন জোড়াগুলি সঠিকভাবে মিলেছে?",
+      "a": "১, ২ ও ৩ — সবকটিই",
+      "w": [
+        "শুধুমাত্র ১ ও ২",
+        "শুধুমাত্র ২ ও ৩",
+        "শুধুমাত্র ১ ও ৩"
+      ],
+      "e": "তিনটি জোড়াই সঠিক। NCERT অনুযায়ী চিলিকা হ্রদ (ওড়িশা) ও ভরতপুরের কেওলাদেও জাতীয় উদ্যান রামসার কনভেনশনের অধীনে জলপাখির আবাস হিসেবে সুরক্ষিত, আর প্রজেক্ট টাইগার চালু হয় ১৯৭৩ সালে।",
+      "claims": [
+        "c23",
+        "c06"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "first_parks_tiger",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের প্রথম জাতীয় উদ্যান কোনটি?",
+      "a": "করবেট জাতীয় উদ্যান",
+      "w": [
+        "কানহা জাতীয় উদ্যান",
+        "কাজিরাঙা জাতীয় উদ্যান",
+        "বন্দিপুর জাতীয় উদ্যান"
+      ],
+      "e": "PIB-র পটভূমি-নথি অনুযায়ী, ১৯৩৬ সালে প্রতিষ্ঠিত করবেট জাতীয় উদ্যান শুধু ভারতের নয়, এশীয় মহাদেশেরই প্রথম জাতীয় উদ্যান। এই প্রশ্নটি Misc ২০২৩-এ সরাসরি এসেছিল।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "first_parks_tiger",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "করবেট টাইগার রিজার্ভ কোন রাজ্যে অবস্থিত?",
+      "a": "উত্তরাখণ্ড",
+      "w": [
+        "মধ্যপ্রদেশ",
+        "অসম",
+        "রাজস্থান"
+      ],
+      "e": "NTCA-র টাইগার রিজার্ভ তালিকায় করবেটের রাজ্য উত্তরাখণ্ড, বিজ্ঞপ্তির সাল ১৯৭৩-৭৪। কানহা মধ্যপ্রদেশে, মানস অসমে, রণথম্ভোর রাজস্থানে — এই জোড়াগুলি মিলিয়ে নাও।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "first_parks_tiger",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রজেক্ট টাইগার কোথায় এবং কবে চালু হয়?",
+      "a": "করবেট জাতীয় উদ্যানে, ১৯৭৩ সালের ১ এপ্রিল",
+      "w": [
+        "কানহা জাতীয় উদ্যানে, ১৯৭২ সালের ১ এপ্রিল",
+        "বন্দিপুর জাতীয় উদ্যানে, ১৯৭৪ সালের ১ এপ্রিল",
+        "কাজিরাঙা জাতীয় উদ্যানে, ১৯৭৩ সালের ১৫ আগস্ট"
+      ],
+      "e": "PIB-র নথি অনুযায়ী প্রজেক্ট টাইগার চালু হয়েছিল করবেট জাতীয় উদ্যানে, ১৯৭৩ সালের ১ এপ্রিল। অর্থাৎ প্রথম জাতীয় উদ্যান আর প্রজেক্ট টাইগারের জন্মস্থান একই জায়গা।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "first_parks_tiger",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পরিবেশ মন্ত্রকের ২০২৫ সালের পটভূমি-নথি অনুযায়ী ভারতে টাইগার রিজার্ভের সংখ্যা কত ছিল?",
+      "a": "৫৪টি",
+      "w": [
+        "৪২টি",
+        "৬১টি",
+        "৪৯টি"
+      ],
+      "e": "মন্ত্রকের নথি অনুযায়ী ভারতে ৫৪টি টাইগার রিজার্ভ ছিল, যার মোট আয়তন ৭৮,০০০ বর্গ কিমির বেশি। NTCA-র চলতি তালিকায় পরবর্তীতে আরও রিজার্ভ যুক্ত হয়েছে — সাল দেখে উত্তর দাও।",
+      "claims": [
+        "c55"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "first_parks_tiger",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "নিচের ঘটনাগুলির সঠিক কালানুক্রম কোনটি?\n(i) প্রজেক্ট এলিফ্যান্ট চালু\n(ii) করবেট জাতীয় উদ্যান প্রতিষ্ঠা\n(iii) বন্যপ্রাণী (সুরক্ষা) আইন\n(iv) প্রজেক্ট টাইগার চালু",
+      "a": "(ii) → (iii) → (iv) → (i)",
+      "w": [
+        "(iii) → (ii) → (iv) → (i)",
+        "(ii) → (iv) → (iii) → (i)",
+        "(iv) → (ii) → (iii) → (i)"
+      ],
+      "e": "সালগুলি সাজালেই উত্তর মেলে: করবেট প্রতিষ্ঠা ১৯৩৬, বন্যপ্রাণী আইন ১৯৭২, প্রজেক্ট টাইগার ১৯৭৩, প্রজেক্ট এলিফ্যান্ট ১৯৯২।",
+      "claims": [
+        "c04",
+        "c01",
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "first_parks_tiger",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. করবেট জাতীয় উদ্যান এশীয় মহাদেশের প্রথম জাতীয় উদ্যান।\n২. প্রজেক্ট টাইগার কাজিরাঙা জাতীয় উদ্যান থেকে শুরু হয়েছিল।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ দুটোই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক (PIB)। বিবৃতি ২ ভুল — প্রজেক্ট টাইগার শুরু হয়েছিল করবেটে, কাজিরাঙায় নয়; কাজিরাঙার খ্যাতি গণ্ডারের জন্য।",
+      "claims": [
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "first_parks_tiger",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "করবেট জাতীয় উদ্যান প্রতিষ্ঠিত হয় কোন সালে?",
+      "a": "১৯৩৬ সালে",
+      "w": [
+        "১৯৪৭ সালে",
+        "১৯৫২ সালে",
+        "১৯৭২ সালে"
+      ],
+      "e": "PIB অনুযায়ী করবেট প্রতিষ্ঠিত হয় ১৯৩৬ সালে — স্বাধীনতারও আগে। ১৯৭২ হল বন্যপ্রাণী আইনের সাল, উদ্যানটির প্রতিষ্ঠার সাল নয়।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "famous_parks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কাজিরাঙা জাতীয় উদ্যান কোন প্রাণীর জন্য সবচেয়ে বিখ্যাত?",
+      "a": "একশৃঙ্গ গণ্ডার",
+      "w": [
+        "এশীয় সিংহ",
+        "চিতা",
+        "লাল পান্ডা"
+      ],
+      "e": "পরিবেশ মন্ত্রকের হিসাবে ২০২২ সালে কাজিরাঙায় ছিল ২,৬১৩টি বড় একশৃঙ্গ গণ্ডার। সিংহ গিরের, চিতা কুনোর, লাল পান্ডা নেওড়া ভ্যালির সঙ্গে জোড়া বাঁধে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "famous_parks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "এশীয় সিংহের প্রধান আবাস কোন জাতীয় উদ্যান?",
+      "a": "গির জাতীয় উদ্যান",
+      "w": [
+        "কাজিরাঙা জাতীয় উদ্যান",
+        "কুনো জাতীয় উদ্যান",
+        "ভিতরকণিকা জাতীয় উদ্যান"
+      ],
+      "e": "পরিবেশ মন্ত্রকের নথি অনুযায়ী এশীয় সিংহের পুনরুজ্জীবন ঘটেছে মূলত গুজরাতের গির জাতীয় উদ্যান ও তার আশপাশের এলাকায়। তাই অন্য উদ্যানের সঙ্গে সিংহ জুড়লেই সেটি ভুল জোড়া।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "famous_parks",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০২২ সালের হিসাবে কাজিরাঙা জাতীয় উদ্যানে বড় একশৃঙ্গ গণ্ডারের সংখ্যা কত ছিল?",
+      "a": "২,৬১৩টি",
+      "w": [
+        "১,৯৪০টি",
+        "৩,০২০টি",
+        "২,২০৫টি"
+      ],
+      "e": "পরিবেশ মন্ত্রকের পটভূমি-নথি অনুযায়ী, ২০২২ সালে UNESCO বিশ্ব ঐতিহ্য স্থান কাজিরাঙায় গণ্ডারের সংখ্যা ছিল ২,৬১৩টি।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "famous_parks",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "গোটা বিশ্বের বড় একশৃঙ্গ গণ্ডারের প্রায় কত শতাংশ অসমে পাওয়া যায়?",
+      "a": "প্রায় ৬৮ শতাংশ",
+      "w": [
+        "প্রায় ৪২ শতাংশ",
+        "প্রায় ৫৫ শতাংশ",
+        "প্রায় ৮১ শতাংশ"
+      ],
+      "e": "পরিবেশ মন্ত্রকের নথি অনুযায়ী অসমের গণ্ডার-সংখ্যা বিশ্বের বড় একশৃঙ্গ গণ্ডারের প্রায় ৬৮ শতাংশ — এই কারণেই কাজিরাঙাকে গণ্ডার সংরক্ষণের বিশ্বকেন্দ্র বলা হয়।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "famous_parks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কুনো জাতীয় উদ্যানে ২০২২ সালের সেপ্টেম্বরে কোন দেশ থেকে চিতা আনা হয়েছিল?",
+      "a": "নামিবিয়া",
+      "w": [
+        "কেনিয়া",
+        "তানজানিয়া",
+        "বতসোয়ানা"
+      ],
+      "e": "২০২২ সালের সেপ্টেম্বরে নামিবিয়া থেকে আটটি চিতা কুনোতে আনা হয়; পরে ২০২৩ সালের ফেব্রুয়ারিতে দক্ষিণ আফ্রিকা থেকে আসে আরও বারোটি। দক্ষিণ আফ্রিকা দ্বিতীয় ধাপের উত্তর, প্রথম ধাপের নয়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "famous_parks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বন্দিপুর টাইগার রিজার্ভ কোন রাজ্যে অবস্থিত?",
+      "a": "কর্ণাটক",
+      "w": [
+        "কেরল",
+        "তামিলনাড়ু",
+        "অন্ধ্রপ্রদেশ"
+      ],
+      "e": "NTCA তালিকা অনুযায়ী বন্দিপুর কর্ণাটকের টাইগার রিজার্ভ, বিজ্ঞপ্তি ১৯৭৩-৭৪ — প্রজেক্ট টাইগারের প্রথম ব্যাচের একটি। পেরিয়ার কেরলের, নাগার্জুনসাগর-শ্রীশৈলম অন্ধ্রপ্রদেশের।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "famous_parks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রণথম্ভোর টাইগার রিজার্ভ কোন রাজ্যে অবস্থিত?",
+      "a": "রাজস্থান",
+      "w": [
+        "গুজরাত",
+        "মধ্যপ্রদেশ",
+        "হরিয়ানা"
+      ],
+      "e": "NTCA তালিকায় রণথম্ভোরের রাজ্য রাজস্থান (বিজ্ঞপ্তি ১৯৭৩-৭৪)। কানহা মধ্যপ্রদেশে, গির গুজরাতে — দক্ষিণ-পশ্চিমের এই তিনটি রাজ্যের জোড়া আলাদা করে মনে রাখো।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "famous_parks",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন উদ্যান–প্রাণী জোড়াটি ভুলভাবে মেলানো হয়েছে?",
+      "a": "দাচিগাম — এশীয় সিংহ",
+      "w": [
+        "কাজিরাঙা — একশৃঙ্গ গণ্ডার",
+        "গির — এশীয় সিংহ",
+        "কুনো — চিতা"
+      ],
+      "e": "এশীয় সিংহের আবাস গির (গুজরাত) — তাই 'দাচিগাম—এশীয় সিংহ' জোড়াটি ভুল। এই ঠিক একই ধাঁচের প্রশ্ন WBCS ২০১৯-এ এসেছিল। কাজিরাঙা–গণ্ডার ও কুনো–চিতা জোড়া দুটিই সঠিক।",
+      "claims": [
+        "c19",
+        "c20",
+        "c22"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "famous_parks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিচের কোন জাতীয় উদ্যানটি রামসার কনভেনশনের অধীনে জলপাখির আবাস হিসেবে সুরক্ষিত?",
+      "a": "কেওলাদেও জাতীয় উদ্যান (ভরতপুর)",
+      "w": [
+        "বন্দিপুর জাতীয় উদ্যান",
+        "পেরিয়ার জাতীয় উদ্যান",
+        "ভান্সদা জাতীয় উদ্যান"
+      ],
+      "e": "NCERT অনুযায়ী ওড়িশার চিলিকা হ্রদ ও ভরতপুরের কেওলাদেও জাতীয় উদ্যান রামসার কনভেনশনের (জলাভূমি সংরক্ষণের আন্তর্জাতিক চুক্তি) অধীনে জলপাখির আবাস হিসেবে সুরক্ষিত।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "bengal_parks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিশ্বের সবচেয়ে বড় ম্যানগ্রোভ অভয়ারণ্য কোনটি?",
+      "a": "সুন্দরবন",
+      "w": [
+        "ভিতরকণিকা",
+        "পিচাভরম",
+        "কোরিঙ্গা"
+      ],
+      "e": "পশ্চিমবঙ্গ সরকারের পোর্টাল অনুযায়ী, UNESCO বিশ্ব ঐতিহ্য স্থান সুন্দরবন বিশ্বের সবচেয়ে বড় ম্যানগ্রোভ অভয়ারণ্য এবং রয়্যাল বেঙ্গল টাইগারের অন্যতম বৃহত্তম ঘনত্বের আবাস।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "bengal_parks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জলদাপাড়া জাতীয় উদ্যান পশ্চিমবঙ্গের কোন জেলায় অবস্থিত?",
+      "a": "আলিপুরদুয়ার",
+      "w": [
+        "জলপাইগুড়ি",
+        "দার্জিলিং",
+        "কোচবিহার"
+      ],
+      "e": "রাজ্যের পরিবেশ-মূল্যায়ন নথি অনুযায়ী জলদাপাড়া জাতীয় উদ্যান আলিপুরদুয়ার জেলায়। WBCS ২০২৪-এ ঠিক এই প্রশ্নটিই এসেছিল — পুরনো ধারণায় জলপাইগুড়ি উত্তর দিলে ভুল হবে, কারণ আলিপুরদুয়ার এখন পৃথক জেলা।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "bengal_parks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সিঙ্গলিলা জাতীয় উদ্যান কোন জেলায় অবস্থিত?",
+      "a": "দার্জিলিং",
+      "w": [
+        "কালিম্পং",
+        "আলিপুরদুয়ার",
+        "জলপাইগুড়ি"
+      ],
+      "e": "রাজ্যের নথি অনুযায়ী সিঙ্গলিলা জাতীয় উদ্যান দার্জিলিং জেলায়। WBCS ২০১৬-এ এই প্রশ্ন এসেছিল। নেওড়া ভ্যালি কালিম্পংয়ে — দুটি পাহাড়ি উদ্যানের জেলা অদলবদল করো না।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "bengal_parks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পশ্চিমবঙ্গে একশৃঙ্গ গণ্ডারের সবচেয়ে বড় জনসংখ্যা কোন জাতীয় উদ্যানে আছে?",
+      "a": "জলদাপাড়া",
+      "w": [
+        "গোরুমারা",
+        "বক্সা",
+        "নেওড়া ভ্যালি"
+      ],
+      "e": "রাজ্য সরকারের পোর্টাল অনুযায়ী, পূর্ব হিমালয়ের পাদদেশে অবস্থিত জলদাপাড়াতেই রাজ্যের সবচেয়ে বেশি একশৃঙ্গ গণ্ডার আছে। গোরুমারাতেও গণ্ডার আছে, কিন্তু সংখ্যায় জলদাপাড়াই এগিয়ে।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "bengal_parks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নেওড়া ভ্যালি জাতীয় উদ্যান কোন জেলায় অবস্থিত?",
+      "a": "কালিম্পং",
+      "w": [
+        "দার্জিলিং",
+        "আলিপুরদুয়ার",
+        "জলপাইগুড়ি"
+      ],
+      "e": "রাজ্য সরকারের পোর্টাল অনুযায়ী নেওড়া ভ্যালি জাতীয় উদ্যান কালিম্পংয়ে অবস্থিত। কালিম্পং পৃথক জেলা হওয়ার পর থেকে এই উদ্যানটির জেলা কালিম্পংই ধরা হয়।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "bengal_parks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লাল পান্ডা পশ্চিমবঙ্গের কোন জাতীয় উদ্যানে পাওয়া যায়?",
+      "a": "নেওড়া ভ্যালি",
+      "w": [
+        "জলদাপাড়া",
+        "গোরুমারা",
+        "সুন্দরবন"
+      ],
+      "e": "রাজ্য পোর্টাল অনুযায়ী নেওড়া ভ্যালিতে চিতাবাঘ, লাল পান্ডা ও কস্তুরী হরিণের মতো বিপন্ন প্রাণী পাওয়া যায়। জলদাপাড়া গণ্ডারের, সুন্দরবন বাঘের জন্য বিখ্যাত।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "bengal_parks",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. সুন্দরবন টাইগার রিজার্ভের বিজ্ঞপ্তি হয় ১৯৭৩-৭৪ সালে।\n২. মানস টাইগার রিজার্ভ পশ্চিমবঙ্গে অবস্থিত।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "শুধুমাত্র ১",
+      "w": [
+        "শুধুমাত্র ২",
+        "১ ও ২ দুটোই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক — NTCA তালিকায় সুন্দরবন পশ্চিমবঙ্গের রিজার্ভ, বিজ্ঞপ্তি ১৯৭৩-৭৪। বিবৃতি ২ ভুল — মানস অসমের টাইগার রিজার্ভ। WBCS ২০২৪-এ 'কোনটি পশ্চিমবঙ্গে নয়' প্রশ্নে মানসই ছিল সঠিক উত্তর।",
+      "claims": [
+        "c10",
+        "c14"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "dams_concept",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাঁধ বলতে কী বোঝায়?",
+      "a": "প্রবহমান জলের উপর বাধা, যা প্রবাহ আটকে বা ঘুরিয়ে জলাধার তৈরি করে",
+      "w": [
+        "নদীর উপর যানবাহন চলাচলের সেতু",
+        "ভূগর্ভস্থ জল তোলার গভীর কূপ",
+        "সমুদ্রের ঢেউ আটকানোর উপকূলীয় প্রাচীর"
+      ],
+      "e": "NCERT-র সংজ্ঞা: বাঁধ হল প্রবহমান জলের উপর একটি বাধা যা জলের প্রবাহকে বাধা দেয়, দিক বদলায় বা ধীর করে, প্রায়শই একটি জলাধার, হ্রদ বা আবদ্ধ জলাশয় তৈরি করে।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "dams_concept",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাঁধগুলিকে 'আধুনিক ভারতের মন্দির' বলে ঘোষণা করেছিলেন কে?",
+      "a": "জওহরলাল নেহরু",
+      "w": [
+        "মহাত্মা গান্ধী",
+        "সর্দার বল্লভভাই প্যাটেল",
+        "বি. আর. আম্বেদকর"
+      ],
+      "e": "NCERT অনুযায়ী জওহরলাল নেহরু গর্বের সঙ্গে বাঁধগুলিকে 'আধুনিক ভারতের মন্দির' বলে ঘোষণা করেছিলেন — স্বাধীনতা-পরবর্তী উন্নয়ন-ভাবনার প্রতীক এই উক্তি।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "dams_concept",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বাঁধগুলিকে 'বহুমুখী প্রকল্প' বলা হয় কেন?",
+      "a": "সেচ ছাড়াও বিদ্যুৎ, পানীয় জল, বন্যা নিয়ন্ত্রণ, নৌচলাচল ও মাছ চাষে জল ব্যবহৃত হয় বলে",
+      "w": [
+        "একই বাঁধ একাধিক রাজ্যে অবস্থিত বলে",
+        "বাঁধগুলি একাধিক নদীর উপর তৈরি হয় বলে",
+        "বাঁধ নির্মাণে একাধিক দেশ অর্থ দেয় বলে"
+      ],
+      "e": "NCERT লিখছে, আজ বাঁধ তৈরি হয় শুধু সেচের জন্য নয় — বিদ্যুৎ উৎপাদন, গার্হস্থ্য ও শিল্পে জল সরবরাহ, বন্যা নিয়ন্ত্রণ, বিনোদন, অভ্যন্তরীণ নৌচলাচল ও মাছ চাষের জন্যও; তাই এদের বহুমুখী প্রকল্প বলা হয়।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "dams_concept",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নদীতে বাঁধ দেওয়ার একটি পরিবেশগত অসুবিধা কোনটি?",
+      "a": "জলাধারের তলদেশে অতিরিক্ত পলি জমা ও জলজ প্রাণীদের চলাচলে বাধা",
+      "w": [
+        "নদীর জলের লবণাক্ততা বেড়ে যাওয়া",
+        "জলাধারে মাছের সংখ্যা অস্বাভাবিক বেড়ে যাওয়া",
+        "বাঁধের কারণে বৃষ্টিপাত সম্পূর্ণ বন্ধ হয়ে যাওয়া"
+      ],
+      "e": "NCERT অনুযায়ী নদী নিয়ন্ত্রণ ও বাঁধের ফলে প্রাকৃতিক প্রবাহ বাধাগ্রস্ত হয় — পলি প্রবাহ কমে, জলাধারের তলদেশে অতিরিক্ত পলি জমে; বাঁধ নদীকে খণ্ডিত করায় জলজ প্রাণীদের, বিশেষ করে ডিম পাড়ার সময়, চলাচল কঠিন হয়।",
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "dams_concept",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. ভাকরা-নাঙ্গাল প্রকল্পের জল জলবিদ্যুৎ উৎপাদন ও সেচ — দুই কাজেই ব্যবহৃত হয়।\n২. হীরাকুদ প্রকল্প জলসংরক্ষণকে বন্যা নিয়ন্ত্রণের সঙ্গে যুক্ত করে।\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ২ দুটোই",
+      "w": [
+        "শুধুমাত্র ১",
+        "শুধুমাত্র ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটো বিবৃতিই NCERT থেকে নেওয়া। শতদ্রু-ব্যাস অববাহিকার ভাকরা-নাঙ্গাল প্রকল্পের জল জলবিদ্যুৎ ও সেচে ব্যবহৃত হয়, আর মহানদী অববাহিকার হীরাকুদ প্রকল্প জলসংরক্ষণের সঙ্গে বন্যা নিয়ন্ত্রণকে একীভূত করে — দুটোই বহুমুখী প্রকল্পের উদাহরণ।",
+      "claims": [
+        "c36",
+        "c37"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "famous_dams",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভাকরা বাঁধ কোন নদীর উপর নির্মিত?",
+      "a": "শতদ্রু",
+      "w": [
+        "বিয়াস",
+        "রবি",
+        "চেনাব"
+      ],
+      "e": "বিলাসপুর জেলার সরকারি পোর্টাল অনুযায়ী, শতদ্রু নদীর উপর ভাকরা বাঁধ তৈরি করেছে গোবিন্দ সাগর জলাধার। পোং বাঁধ বিয়াসে, রঞ্জিত সাগর রবিতে — পাঞ্জাবের নদীগুলির জোড়া আলাদা রাখো।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "famous_dams",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের সর্বোচ্চ বাঁধ কোনটি?",
+      "a": "তেহরি বাঁধ",
+      "w": [
+        "ভাকরা বাঁধ",
+        "হীরাকুদ বাঁধ",
+        "সরদার সরোবর বাঁধ"
+      ],
+      "e": "আবহাওয়া দপ্তরের জার্নাল Mausam অনুযায়ী উত্তরাখণ্ডে ভাগীরথী নদীর উপর তেহরি বাঁধ ভারতের সর্বোচ্চ বাঁধ। Misc ২০২৩-এ এই প্রশ্নে ভাকরা ছিল ফাঁদ-বিকল্প।",
+      "claims": [
+        "c42"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "famous_dams",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বিশ্বের দীর্ঘতম মাটির বাঁধ কোনটি?",
+      "a": "হীরাকুদ বাঁধ",
+      "w": [
+        "তেহরি বাঁধ",
+        "ভাকরা বাঁধ",
+        "নাগার্জুন সাগর বাঁধ"
+      ],
+      "e": "জলশক্তি মন্ত্রকের পর্যালোচনা অনুযায়ী, ওড়িশার সম্বলপুরের কাছে মহানদী নদীর উপর হীরাকুদ বাঁধ বিশ্বের দীর্ঘতম মাটির বাঁধ। 'সর্বোচ্চ' (তেহরি) আর 'দীর্ঘতম মাটির' (হীরাকুদ) — দুটি খেতাব আলাদা।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "famous_dams",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "সরদার সরোবর বাঁধ কোন নদীর উপর এবং প্রকল্পটি কয়টি রাজ্য জুড়ে বিস্তৃত?",
+      "a": "নর্মদা নদী; চারটি রাজ্য",
+      "w": [
+        "কৃষ্ণা নদী; দুটি রাজ্য",
+        "তাপ্তী নদী; তিনটি রাজ্য",
+        "মহানদী নদী; চারটি রাজ্য"
+      ],
+      "e": "NCERT অনুযায়ী গুজরাতে নর্মদা নদীর উপর সরদার সরোবর ভারতের বৃহত্তম জলসম্পদ প্রকল্পগুলির একটি, যা মহারাষ্ট্র, মধ্যপ্রদেশ, গুজরাত ও রাজস্থান — চারটি রাজ্য জুড়ে বিস্তৃত। Misc ২০২৩-এ নদীর নামটিই জিজ্ঞাসা করা হয়েছিল।",
+      "claims": [
+        "c39"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "famous_dams",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নাগার্জুন সাগর বাঁধ কোন নদীর উপর অবস্থিত?",
+      "a": "কৃষ্ণা",
+      "w": [
+        "গোদাবরী",
+        "কাবেরী",
+        "তুঙ্গভদ্রা"
+      ],
+      "e": "PIB-র প্রকাশনায় 'কৃষ্ণা নদীর উপর নাগার্জুন সাগর বাঁধে জল ছাড়া'র উল্লেখ আছে। Clerkship ২০০৯-এ এই জোড়াটি এসেছিল। তুঙ্গভদ্রা কৃষ্ণার উপনদী — মূল নদীর নামের সঙ্গে গুলিয়ো না।",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "famous_dams",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ফরাক্কা ব্যারেজ প্রকল্প কোন সালে চালু হয় এবং এর মূল উদ্দেশ্য কী ছিল?",
+      "a": "১৯৭৫ সালে; কলকাতা বন্দরের সংরক্ষণ ও ভাগীরথী-হুগলির নৌগভীরতা বাড়ানো",
+      "w": [
+        "১৯৭২ সালে; জলবিদ্যুৎ উৎপাদন",
+        "১৯৮০ সালে; উত্তরবঙ্গে সেচ সম্প্রসারণ",
+        "১৯৬৫ সালে; গঙ্গার বন্যা সম্পূর্ণ নিয়ন্ত্রণ"
+      ],
+      "e": "জলসম্পদ মন্ত্রকের পর্যালোচনা অনুযায়ী ফরাক্কা ব্যারেজ প্রকল্প ১৯৭৫ সালে চালু হয় কলকাতা বন্দরের সংরক্ষণ-রক্ষণাবেক্ষণ ও ভাগীরথী-হুগলি জলপথের নৌচলাচলের গভীরতা বাড়ানোর জন্য। WBCS ২০১৫ ও ২০১৭ — দুবারই উদ্দেশ্যটাই জিজ্ঞাসা করা হয়েছে।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "famous_dams",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "নিচের কোন বাঁধ–নদী জোড়াটি ভুলভাবে মেলানো হয়েছে?",
+      "a": "গান্ধী সাগর — নর্মদা",
+      "w": [
+        "মেত্তুর — কাবেরী",
+        "তুঙ্গভদ্রা বাঁধ — তুঙ্গভদ্রা নদী",
+        "পোং বাঁধ — বিয়াস"
+      ],
+      "e": "গান্ধী সাগর বাঁধ চম্বল নদীর উপর — নর্মদার উপর ইন্দিরা সাগর ও সরদার সরোবর। Mausam জার্নাল অনুযায়ী মেত্তুর কাবেরীতে, তুঙ্গভদ্রা বাঁধ তুঙ্গভদ্রা নদীতে (কর্ণাটক) এবং পোং বাঁধ হিমাচল প্রদেশে বিয়াস নদীতে অবস্থিত।",
+      "claims": [
+        "c49",
+        "c47",
+        "c48"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "famous_dams",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দামোদর ভ্যালি কর্পোরেশন (DVC) কোন দুই রাজ্যে কাজ করে?",
+      "a": "পশ্চিমবঙ্গ ও ঝাড়খণ্ড",
+      "w": [
+        "পশ্চিমবঙ্গ ও ওড়িশা",
+        "বিহার ও ঝাড়খণ্ড",
+        "পশ্চিমবঙ্গ ও অসম"
+      ],
+      "e": "DVC-র নিজস্ব ওয়েবসাইট অনুযায়ী, দামোদর ভ্যালি কর্পোরেশন একটি ভারতীয় সরকারি সংস্থা যা পশ্চিমবঙ্গ ও ঝাড়খণ্ড রাজ্যে কাজ করে। WBCS ২০১৭-এ DVC নিয়ে প্রশ্ন এসেছিল।",
+      "claims": [
+        "c46"
+      ]
+    }
+  ]
+}

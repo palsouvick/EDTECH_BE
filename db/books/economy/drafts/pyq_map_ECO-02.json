@@ -1,0 +1,92 @@
+[
+ {
+  "pyq_code": "GK-ECO-004",
+  "section": "aggregates_ladder",
+  "taught": true,
+  "note": "GK bank item (subtopic inflation_income): NNP at factor cost = National Income and GDP deflator = nominal/real — both taught verbatim from NCERT leec102 (claims c08, c09, c14); deflator section nominal_real_deflator."
+ },
+ {
+  "pyq_code": "GK-ECO-005",
+  "section": "measuring_controlling_inflation",
+  "taught": true,
+  "note": "GK bank item (subtopic inflation_income): WPI released by Office of the Economic Adviser, DPIIT, base 2022-23 (PIB, claim c32) and CPI released by MoSPI/NSO, base 2024 (PIB, claims c29, c31) — both taught with the current series; older bases (WPI 2011-12, CPI 2012) flagged in the chapter as superseded."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q108",
+  "section": null,
+  "taught": false,
+  "note": "Asks which item is NOT considered in computing GNP (per capita income). GNP = GDP + NFIA is taught (c06, c35), but per-capita income is not covered in the fetched NCERT/RBI sources used for this chapter, so the item's deciding point is untaught."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q120",
+  "section": "inflation_meaning_causes",
+  "taught": true,
+  "note": "Inflation = continuous rise in the general price level (not a one-time rise); taught in inflation_meaning_causes and mirrored as practice q29."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q170",
+  "section": null,
+  "taught": false,
+  "note": "Turns on SLR reduction and CRR abolition being inflationary. CRR/SLR mechanics belong to ECO-06 (RBI and banking system); this chapter teaches only the repo-rate/FIT channel, so the item is not taught here."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q55",
+  "section": "aggregates_ladder",
+  "taught": true,
+  "note": "Difference between GDP and NDP = depreciation; taught (c04, c07) and mirrored as practice q08."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q79",
+  "section": null,
+  "taught": false,
+  "note": "Asks the name for a persistent fall in the general price level (deflation vs disinflation). Deflation/disinflation terminology is not defined in the fetched NCERT leec102 or RBI sources used, so it is not taught in this chapter (disclosed gap)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q114",
+  "section": null,
+  "taught": false,
+  "note": "Sector classification of national-income sources (construction = secondary sector). Sector composition belongs to ECO-09 (agriculture and industry); not covered by this chapter's fetched sources."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q129",
+  "section": "inflation_meaning_causes",
+  "taught": true,
+  "note": "Which is NOT an anti-inflationary measure (increasing money supply). Taught via demand-pull containment: monetary policy restrains demand, so expanding money supply fuels rather than checks inflation (c27)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q187",
+  "section": "measuring_controlling_inflation",
+  "taught": true,
+  "note": "Repo rate is announced by the RBI. Taught: repo is the policy rate determined by the RBI's MPC (c25). Primary chapter ECO-06, but answerable from this chapter."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q145",
+  "section": null,
+  "taught": false,
+  "note": "Gross fiscal deficit as per cent of GDP (2014-15): budget/deficit topic, belongs to ECO-03 (budget and taxation); only the GDP denominator is in this chapter's scope."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q169",
+  "section": null,
+  "taught": false,
+  "note": "National income growth during the First Five Year Plan: belongs to ECO-04 (planning and economic reforms)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q177",
+  "section": null,
+  "taught": false,
+  "note": "Service sector share of GDP: sector composition, belongs to ECO-09; the dated share figure is not in this chapter's fetched sources."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q191",
+  "section": null,
+  "taught": false,
+  "note": "FRBM Act objectives: fiscal legislation, belongs to ECO-03 (budget and taxation)."
+ },
+ {
+  "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q198",
+  "section": null,
+  "taught": false,
+  "note": "Dependency ratio definition: population/development topic, belongs to ECO-05 (poverty and development)."
+ }
+]

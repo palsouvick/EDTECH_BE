@@ -1,0 +1,424 @@
+{
+ "answers": [
+  {
+   "id": "q01",
+   "answer": "এক বছরে দেশের ভূখণ্ডে উৎপাদিত চূড়ান্ত পণ্য ও সেবার বাজারমূল্য",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "GDP is the market value of all final goods and services produced within a domestic territory of a country measured in a year.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Table 2.4",
+   "notes": ""
+  },
+  {
+   "id": "q02",
+   "answer": "দ্বৈত গণনা (Double counting)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Counting them separately will lead to the error of double counting. Whereas considering intermediate goods may give a fuller description of total economic activity, counting them will highly exaggerate the final value of our economic activity.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.1",
+   "notes": ""
+  },
+  {
+   "id": "q03",
+   "answer": "জনগণনা পদ্ধতি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "we can calculate the aggregate value of goods and services produced in the economy by any of the three methods (a) measuring the aggregate value of factor payments (income method) (b) measuring the aggregate value of goods and services produced by the firms (product method) (c) measuring the aggregate value of spending received by the firms (expenditure method)",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Summary",
+   "notes": ""
+  },
+  {
+   "id": "q04",
+   "answer": "বার্ষিক আয়",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Flows are defined over a period of time. Stocks are defined at a particular point of time.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.1",
+   "notes": "Annual income is defined over a period of time, matching the flow definition in c21."
+  },
+  {
+   "id": "q05",
+   "answer": "১ এবং ২ উভয়ই",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Counting them separately will lead to the error of double counting. Whereas considering intermediate goods may give a fuller description of total economic activity, counting them will highly exaggerate the final value of our economic activity.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.1",
+   "notes": "Statement 2 verbatim in c02; statement 1 follows from c01 (production within domestic territory)."
+  },
+  {
+   "id": "q06",
+   "answer": "৪০০ টাকা",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Counting them separately will lead to the error of double counting. Whereas considering intermediate goods may give a fuller description of total economic activity, counting them will highly exaggerate the final value of our economic activity.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.1",
+   "notes": "Value added = 900 - 500 = 400; c02 establishes intermediate value is already included in final value."
+  },
+  {
+   "id": "q07",
+   "answer": "বিদেশ থেকে নিট উপাদান আয় (NFIA)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Hence, GNP ≡ GDP + Net factor income from abroad",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": ""
+  },
+  {
+   "id": "q08",
+   "answer": "অবচয় (Depreciation)",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "If we deduct depreciation from GNP the measure of aggregate income that we obtain is called Net National Product (NNP). Thus NNP ≡ GNP – Depreciation",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": "c07 states the gross-to-net step is deducting depreciation (shown for GNP->NNP); same step applies GDP->NDP."
+  },
+  {
+   "id": "q09",
+   "answer": "উপাদান ব্যয়ে NNP",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The measure that we obtain by doing so is called Net National Product at factor cost or National Income.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": ""
+  },
+  {
+   "id": "q10",
+   "answer": "পরোক্ষ কর − ভর্তুকি",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "NNP at factor cost ≡ National Income (NI ) ≡ NNP at market prices – (Indirect taxes – Subsidies) ≡ NNP at market prices – Net indirect taxes (Net indirect taxes ≡ Indirect taxes – Subsidies)",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": ""
+  },
+  {
+   "id": "q11",
+   "answer": "মূলধনের নিয়মিত ক্ষয়ক্ষতির জন্য করা বাদ/বরাদ্দ",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "This deletion, which is made from the value of gross investment in order to accommodate regular wear and tear of capital, is called depreciation.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.1",
+   "notes": ""
+  },
+  {
+   "id": "q12",
+   "answer": "নিট বিনিয়োগ = মোট বিনিয়োগ − অবচয়",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Net Investment = Gross investment – Depreciation",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.1",
+   "notes": ""
+  },
+  {
+   "id": "q13",
+   "answer": "দেশের স্বাভাবিক বাসিন্দাদের সব উৎপাদন, দেশে হোক বা বিদেশে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "GNP refers to all the economic output produced by a nation’s normal residents, whether they are located within the national boundary or abroad.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Table 2.4",
+   "notes": ""
+  },
+  {
+   "id": "q14",
+   "answer": "কেবল ১",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "But market price includes indirect taxes. When indirect taxes are imposed on goods and services, their prices go up. Indirect taxes accrue to the government.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": "Statement 1 verbatim in c10; statement 2 not supported - c09/c10 imply subsidies offset taxes rather than raise prices."
+  },
+  {
+   "id": "q15",
+   "answer": "৯,০০০ কোটি টাকা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "NNP at factor cost ≡ National Income (NI ) ≡ NNP at market prices – (Indirect taxes – Subsidies) ≡ NNP at market prices – Net indirect taxes (Net indirect taxes ≡ Indirect taxes – Subsidies)",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": "NI = 10000 - (1200 - 200) = 9000."
+  },
+  {
+   "id": "q16",
+   "answer": "৪৫,৫০০ কোটি টাকা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Hence, GNP ≡ GDP + Net factor income from abroad",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": "NNP = 50000 + (-500) - 4000 = 45500, using c06 and c07."
+  },
+  {
+   "id": "q17",
+   "answer": "ব্যক্তিগত কর ও কর-বহির্ভূত প্রদান",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Personal Disposable Income (PDI ) ≡ PI – Personal tax payments – Nontax payments.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": ""
+  },
+  {
+   "id": "q18",
+   "answer": "১ এবং ২ উভয়ই",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Personal Income (PI) ≡ NI – Undistributed profits – Net interest payments made by households – Corporate tax + Transfer payments to the households from the government and firms.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.3",
+   "notes": ""
+  },
+  {
+   "id": "q19",
+   "answer": "নামিক GDP (Nominal GDP)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Real GDP is calculated in a way such that the goods and services are evaluated at some constant set of prices (or constant prices). Since these prices remain fixed, if the Real GDP changes we can be sure that it is the volume of production which is undergoing changes. Nominal GDP, on the other hand, is simply the value of GDP at the current prevailing prices.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.4",
+   "notes": ""
+  },
+  {
+   "id": "q20",
+   "answer": "নামিক GDP ÷ প্রকৃত GDP",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The ratio of nominal to real GDP is a well known index of prices. This is called GDP Deflator.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.4",
+   "notes": ""
+  },
+  {
+   "id": "q21",
+   "answer": "ভিত্তিবর্ষের স্থির দামে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Real GDP is calculated in a way such that the goods and services are evaluated at some constant set of prices (or constant prices). Since these prices remain fixed, if the Real GDP changes we can be sure that it is the volume of production which is undergoing changes. Nominal GDP, on the other hand, is simply the value of GDP at the current prevailing prices.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.4",
+   "notes": ""
+  },
+  {
+   "id": "q22",
+   "answer": "১.৫০ (১৫০%)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The ratio of nominal to real GDP is a well known index of prices. This is called GDP Deflator.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.4",
+   "notes": "Deflator = 1650/1100 = 1.50."
+  },
+  {
+   "id": "q23",
+   "answer": "উৎপাদনের পরিমাণ দ্বিগুণ হয়েছে",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Real GDP is calculated in a way such that the goods and services are evaluated at some constant set of prices (or constant prices). Since these prices remain fixed, if the Real GDP changes we can be sure that it is the volume of production which is undergoing changes. Nominal GDP, on the other hand, is simply the value of GDP at the current prevailing prices.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.4",
+   "notes": "c13: only real GDP changes certainly reflect volume changes; nominal is at current prices."
+  },
+  {
+   "id": "q24",
+   "answer": "A ও R দুটোই সঠিক এবং R হল A-র সঠিক ব্যাখ্যা",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "Real GDP is calculated in a way such that the goods and services are evaluated at some constant set of prices (or constant prices). Since these prices remain fixed, if the Real GDP changes we can be sure that it is the volume of production which is undergoing changes. Nominal GDP, on the other hand, is simply the value of GDP at the current prevailing prices.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.4",
+   "notes": "Both statements follow from c13; the reason explains the assertion."
+  },
+  {
+   "id": "q25",
+   "answer": "GDP-র বৃদ্ধি মুষ্টিমেয় মানুষের হাতে কেন্দ্রীভূত হতে পারে",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "If the GDP of the country is rising, the welfare may not rise as a consequence. This is because the rise in GDP may be concentrated in the hands of very few individuals or firms.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.5",
+   "notes": ""
+  },
+  {
+   "id": "q26",
+   "answer": "অন্যের ওপর সৃষ্ট সুবিধা বা ক্ষতি, যার জন্য মূল্য পাওয়া বা জরিমানা দেওয়া হয় না",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Externalities refer to the benefits (or harms) a firm or an individual causes to another for which they are not paid (or penalised).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.5",
+   "notes": ""
+  },
+  {
+   "id": "q27",
+   "answer": "বাড়িতে গৃহিণীদের গৃহস্থালি সেবা",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Many activities in an economy are not evaluated in monetary terms. For example, the domestic services women perform at home are not paid for.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.5",
+   "notes": ""
+  },
+  {
+   "id": "q28",
+   "answer": "কেবল ১",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "Externalities refer to the benefits (or harms) a firm or an individual causes to another for which they are not paid (or penalised).",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.5",
+   "notes": "not covered by claims - statement 2 (barter exchange) is not addressed by any claim; statement 1 is an inference from c20/c18."
+  },
+  {
+   "id": "q29",
+   "answer": "সাধারণ মূল্যস্তরের ক্রমাগত ও টানা বৃদ্ধি",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "They aim to achieve price stability (low and stable inflation) over a period of time while minimising fluctuations in output and employment.",
+   "source_url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=20869",
+   "page": "Introduction",
+   "notes": "not covered by claims - no claim defines inflation as a sustained rise in the general price level; c34 only states the price-stability aim."
+  },
+  {
+   "id": "q30",
+   "answer": "ব্যয়-চাপ (Cost-push) মুদ্রাস্ফীতি",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "While monetary policy worked on anchoring inflation expectations and containing demand-pull pressures, effective supply management by the government alleviated supply chain pressures and moderated cost-push inflation.",
+   "source_url": "https://www.rbi.org.in/SCRIPTs/BS_SpeechesView.aspx?Id=1482",
+   "page": "Para 7",
+   "notes": "c27 names cost-push inflation; the cost-rise scenario matches that term."
+  },
+  {
+   "id": "q31",
+   "answer": "সুদের হার ও ঋণ নিয়ন্ত্রণ করে মোট চাহিদা কমিয়ে",
+   "confidence": "GUESS",
+   "also_defensible": [],
+   "quote": "While monetary policy worked on anchoring inflation expectations and containing demand-pull pressures, effective supply management by the government alleviated supply chain pressures and moderated cost-push inflation.",
+   "source_url": "https://www.rbi.org.in/SCRIPTs/BS_SpeechesView.aspx?Id=1482",
+   "page": "Para 7",
+   "notes": "not covered by claims - c27 says monetary policy contains demand-pull pressures but does not state the interest-rate/credit mechanism."
+  },
+  {
+   "id": "q32",
+   "answer": "গরিব মানুষের ওপর",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Price stability is also important because high inflation is disproportionately burdensome on the poor.",
+   "source_url": "https://www.rbi.org.in/SCRIPTs/BS_SpeechesView.aspx?Id=1482",
+   "page": "Para 10",
+   "notes": ""
+  },
+  {
+   "id": "q33",
+   "answer": "২.৭৫% (সাময়িক)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Year-on-year inflation rate based on All India Consumer Price Index (CPI) with base year 2024 for the month of January, 2026 over January, 2025 is 2.75%(Provisional).",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227012&reg=3&lang=1",
+   "page": "Key Statistics",
+   "notes": ""
+  },
+  {
+   "id": "q34",
+   "answer": "কেবল ১",
+   "confidence": "LIKELY",
+   "also_defensible": [],
+   "quote": "They aim to achieve price stability (low and stable inflation) over a period of time while minimising fluctuations in output and employment.",
+   "source_url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=20869",
+   "page": "Introduction",
+   "notes": "Statement 1 verbatim in c34; statement 2 contradicts the sustained/stable-inflation framing."
+  },
+  {
+   "id": "q35",
+   "answer": "পরিসংখ্যান ও কর্মসূচি রূপায়ণ মন্ত্রক (MoSPI/NSO)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Ministry of Statistics & Programme Implementation is releasing the Consumer Price Index (CPI) with Base 2024=100. The item basket and the corresponding weights are based on Household Consumption Expenditure Survey 2023-24.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227012&reg=3&lang=1",
+   "page": "Release note",
+   "notes": ""
+  },
+  {
+   "id": "q36",
+   "answer": "২০২৪ = ১০০",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Ministry of Statistics & Programme Implementation is releasing the Consumer Price Index (CPI) with Base 2024=100. The item basket and the corresponding weights are based on Household Consumption Expenditure Survey 2023-24.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227012&reg=3&lang=1",
+   "page": "Release note",
+   "notes": ""
+  },
+  {
+   "id": "q37",
+   "answer": "অর্থনৈতিক উপদেষ্টার দপ্তর, DPIIT",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Office of Economic Adviser, DPIIT will accordingly release the revised series of WPI with base year 2022-23 on 15.06.2026 at 12:00 noon, which would replace the existing series of WPI with base year 2011-12.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267963&reg=48&lang=2",
+   "page": "Release note",
+   "notes": ""
+  },
+  {
+   "id": "q38",
+   "answer": "CPI মুদ্রাস্ফীতি ৪%, সহনশীলতা ± ২%",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "Price stability under the statute has been defined numerically by a target of 4 per cent for headline CPI with a tolerance band of +/- 2 per cent around it.",
+   "source_url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=20869",
+   "page": "Flexible Inflation Targeting",
+   "notes": ""
+  },
+  {
+   "id": "q39",
+   "answer": "২০২২–২৩",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The Office of Economic Adviser, DPIIT will accordingly release the revised series of WPI with base year 2022-23 on 15.06.2026 at 12:00 noon, which would replace the existing series of WPI with base year 2011-12.",
+   "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267963&reg=48&lang=2",
+   "page": "Release note",
+   "notes": ""
+  },
+  {
+   "id": "q40",
+   "answer": "CPI-তে আমদানি পণ্যের দাম ঢোকে, ডিফ্লেটরে ঢোকে না",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "CPI includes prices of goods consumed by the representative consumer, hence it includes prices of imported goods. GDP deflator does not include prices of imported goods.",
+   "source_url": "https://ncert.nic.in/textbook/pdf/leec102.pdf",
+   "page": "Sec 2.4",
+   "notes": ""
+  },
+  {
+   "id": "q41",
+   "answer": "রেপো হার; মুদ্রানীতি কমিটি (MPC)",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "The repo rate was defined as the policy rate and a monetary policy committee (MPC) was set up in the RBI – with both internal and external members – to determine the repo rate with the objective of achieving the mandated inflation target.",
+   "source_url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=20869",
+   "page": "Flexible Inflation Targeting",
+   "notes": ""
+  },
+  {
+   "id": "q42",
+   "answer": "১ এবং ২",
+   "confidence": "SURE",
+   "also_defensible": [],
+   "quote": "India formally adopted flexible inflation targeting (FIT) with the amendment of the RBI Act in June 2016. The amended Act states the role of the RBI in monetary policy as follows: “the primary objective of monetary policy is to maintain price stability while keeping in mind the objective of growth”.",
+   "source_url": "https://rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=20869",
+   "page": "Flexible Inflation Targeting",
+   "notes": "Statements 1-2 from c22/c24; statement 3 false - c26 names headline CPI, not WPI, as the nominal anchor."
+  }
+ ]
+}

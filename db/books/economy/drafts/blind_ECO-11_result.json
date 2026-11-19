@@ -1,0 +1,424 @@
+{
+  "answers": [
+    {
+      "id": "q01",
+      "answer": "সব পরিবারকে ব্যাংক অ্যাকাউন্ট, ঋণ, বিমা ও পেনশনের মতো আনুষ্ঠানিক আর্থিক পরিষেবার আওতায় আনা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The plan envisages universal access to banking facilities with at least one basic banking account for every household, financial literacy, access to credit, insurance and pension facility.",
+      "source_url": "https://pmjdy.gov.in/about",
+      "page": "About page",
+      "notes": ""
+    },
+    {
+      "id": "q02",
+      "answer": "আর্থিক অন্তর্ভুক্তি",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "PMJDY is a National Mission on Financial Inclusion encompassing an integrated approach to bring about comprehensive financial inclusion of all the households in the country.",
+      "source_url": "https://pmjdy.gov.in/about",
+      "page": "About page",
+      "notes": ""
+    },
+    {
+      "id": "q03",
+      "answer": "প্রত্যক্ষ সুবিধা স্থানান্তর (DBT)",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "Eligibility for Additional Government Schemes- PMJDY accounts are eligible for Direct Benefit Transfer (DBT), Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY), Pradhan Mantri Suraksha Bima Yojana (PMSBY), Atal Pension Yojana (APY), and Micro Units Development & Refinance Agency Bank (MUDRA) scheme.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025827621301.pdf",
+      "page": "Benefits Under PMJDY",
+      "notes": "not covered by claims"
+    },
+    {
+      "id": "q04",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The plan envisages universal access to banking facilities with at least one basic banking account for every household, financial literacy, access to credit, insurance and pension facility.",
+      "source_url": "https://pmjdy.gov.in/about",
+      "page": "About page",
+      "notes": "Statement 2 false: mission covers all households (c01)."
+    },
+    {
+      "id": "q05",
+      "answer": "মিশন-মোড প্রকল্পে নির্দিষ্ট লক্ষ্য, সময়সীমা ও জাতীয় মিশনের কাঠামোতে দ্রুত বাস্তবায়ন হয়",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "National Rural Livelihood Mission (NRLM) was launched in 2010 as a mission-mode scheme by restructuring the erstwhile Swarnajayanti Grameen Swarojgar Yojana (SGSY). In 2016, the program was renamed Deendayal Antyodaya Yojana – National Rural Livelihood Mission (DAYNRLM).",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2181702&reg=48&lang=2",
+      "page": "Introduction",
+      "notes": "not covered by claims"
+    },
+    {
+      "id": "q06",
+      "answer": "২৮ আগস্ট ২০১৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Launched on August 28, 2014, PMJDY is one of the world's largest financial inclusion initiatives.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025827621301.pdf",
+      "page": "Key Takeaways",
+      "notes": ""
+    },
+    {
+      "id": "q07",
+      "answer": "১০,০০০ টাকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Overdraft Facility- Beneficiaries can avail overdraft facilities of up to ₹10,000.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025827621301.pdf",
+      "page": "Benefits Under PMJDY",
+      "notes": ""
+    },
+    {
+      "id": "q08",
+      "answer": "কলকাতা, পশ্চিমবঙ্গ",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "PMJJBY, PMSBY and APY were launched by Prime Minister Shri Narendra Modi on 9th May, 2015 from Kolkata, West Bengal.",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1823754&reg=48&lang=2",
+      "page": "Introduction",
+      "notes": ""
+    },
+    {
+      "id": "q09",
+      "answer": "যেকোনো কারণে মৃত্যু হলে ২ লক্ষ টাকা জীবন বিমা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Benefits: Life cover of Rs. 2 Lakh in case of death due to any reason against a premium of Rs. 330/- per annum.",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1823754&reg=48&lang=2",
+      "page": "Section 1: PMJJBY",
+      "notes": ""
+    },
+    {
+      "id": "q10",
+      "answer": "১ লক্ষ টাকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Benefits: Accidental death cum disability cover of Rs.2 lakh (Rs.1 lakh in case of partial disability) for death or disability due to an accident.",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1823754&reg=48&lang=2",
+      "page": "Section 2: PMSBY",
+      "notes": ""
+    },
+    {
+      "id": "q11",
+      "answer": "১৮–৪০ বছর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Eligibility: APY is open to all bank account holders in the age group of 18 to 40 years and the contributions differ, based on pension amount chosen.",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1823754&reg=48&lang=2",
+      "page": "Section 3: APY",
+      "notes": ""
+    },
+    {
+      "id": "q12",
+      "answer": "পেনশন তহবিল নিয়ন্ত্রক ও উন্নয়ন কর্তৃপক্ষ (PFRDA)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "APY is administered by Pension Fund Regulatory and Development Authority (PFRDA) under the overall administrative and institutional architecture of the National Pension System (NPS).",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1823754&reg=48&lang=2",
+      "page": "Section 3: APY",
+      "notes": ""
+    },
+    {
+      "id": "q13",
+      "answer": "১ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Eligibility: Individuals in the age group of 18-70 years having a savings bank or a post office account are entitled to enroll under the scheme.",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1823754&reg=48&lang=2",
+      "page": "Section 2: PMSBY",
+      "notes": "Statement 2 false: PMSBY age is 18-70, not 18-40."
+    },
+    {
+      "id": "q14",
+      "answer": "৮ এপ্রিল ২০১৫",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Pradhan Mantri MUDRA Yojana (PMMY) was launched on 08.04.2015 with the objective of providing access to institutional collateral free credit to micro enterprises.",
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "page": "PMMY page",
+      "notes": ""
+    },
+    {
+      "id": "q15",
+      "answer": "৫০,০০০ টাকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Shishu – upto Rs.50,000; Kishore– Above Rs.50,000 and upto Rs.5 lakh; Tarun- Above Rs.5 lakh and upto Rs.10 lakh",
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "page": "PMMY page, Categories",
+      "notes": ""
+    },
+    {
+      "id": "q16",
+      "answer": "৫০,০০০ টাকার বেশি থেকে ৫ লক্ষ টাকা পর্যন্ত",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Shishu – upto Rs.50,000; Kishore– Above Rs.50,000 and upto Rs.5 lakh; Tarun- Above Rs.5 lakh and upto Rs.10 lakh",
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "page": "PMMY page, Categories",
+      "notes": ""
+    },
+    {
+      "id": "q17",
+      "answer": "না, মুদ্রা ঋণ জামানতমুক্ত",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Collateral not required.",
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "page": "PMMY page, Features",
+      "notes": ""
+    },
+    {
+      "id": "q18",
+      "answer": "অন্তত একজন তফসিলি জাতি/জনজাতি ঋণগ্রহীতা ও অন্তত একজন মহিলা ঋণগ্রহীতা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Stand Up India Scheme facilitates bank loans between 10 lakh and 1 Crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) borrower and at least one woman borrower per bank branch for setting up a greenfield enterprise.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/apr/doc20224535701.pdf?v=1",
+      "page": "FAQ Q1",
+      "notes": ""
+    },
+    {
+      "id": "q19",
+      "answer": "যাঁরা আগে 'তরুণ' শ্রেণির ঋণ নিয়ে সফলভাবে শোধ করেছেন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Tarun Plus- Above Rs.10 lakh and upto Rs.20 lakh (for those entrepreneurs who have availed and successfully repaid previous loans under the 'Tarun' Category w.e.f 24.10.2024).",
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "page": "PMMY page, Categories",
+      "notes": ""
+    },
+    {
+      "id": "q20",
+      "answer": "সুবিধাভোগীর প্রথম উদ্যোগ — নতুন করে গড়া ব্যবসা",
+      "confidence": "GUESS",
+      "also_defensible": null,
+      "quote": "SC/ST and/or women entrepreneurs, above 18 years of age. Loans under the scheme are available for only green field projects.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/apr/doc20224535701.pdf?v=1",
+      "page": "FAQ Q5",
+      "notes": "not covered by claims"
+    },
+    {
+      "id": "q21",
+      "answer": "১০০ দিন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The mandate of the MGNREGA is to provide at least 100 days of guaranteed wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc2021112931.pdf",
+      "page": "FAQ Q1",
+      "notes": ""
+    },
+    {
+      "id": "q22",
+      "answer": "১৫ দিন",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "If an applicant is not provided employment within fifteen days of receipt of his/her application seeking employment, in all cases of advance application, employment should be provided from the date that employment has been sought, or within 15 days of the date of application, whichever is later. Else, unemployment allowance becomes due.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc2021112931.pdf",
+      "page": "FAQ Q16",
+      "notes": ""
+    },
+    {
+      "id": "q23",
+      "answer": "২০০টি জেলায়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "MGNREGA was implemented in 200 districts in the first phase with effect from February 2006 and extended subsequently to additional 113 and 17 districts with effect from April 1st 2007 and May 15th 2007 respectively.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc2021112931.pdf",
+      "page": "FAQ Q4",
+      "notes": ""
+    },
+    {
+      "id": "q24",
+      "answer": "শ্রমিকের অধিকার লিপিবদ্ধ করা মূল নথি, যা নিবন্ধিত পরিবারকে আইনত কাজ চাওয়ার ক্ষমতা দেয়",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Job Card is a key document that records workers‟ entitlements under MGNREGA. It legally empowers the registered households to apply for work, ensures transparency and protects workers against fraud.",
+      "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc2021112931.pdf",
+      "page": "FAQ Q11",
+      "notes": ""
+    },
+    {
+      "id": "q25",
+      "answer": "স্বনির্ভর গোষ্ঠী (SHG)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Deendayal Antyodaya Yojana - National Rural Livelihood Mission (DAY-NRLM) is a flagship poverty alleviation program being implemented by the Ministry of Rural Development, Government of India to reduce poverty by enabling poor households to access gainful self-employment and skilled wage employment opportunities resulting in sustainable and diversified livelihood options for the poor. DAY-NRLM aims at mobilizing rural poor households into Self Help Groups (SHGs)",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2181702&reg=48&lang=2",
+      "page": "Introduction",
+      "notes": ""
+    },
+    {
+      "id": "q26",
+      "answer": "১ জুলাই ২০২৬ থেকে মনরেগা আইন বাতিল (repealed) হয়েছে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Government of India has notified the commencement of the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin): VB–G RAM G Act, 2025 across all rural areas of the country with effect from 01/07/2026. With the coming into force of the VB – G RAM G Act, the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005, stands repealed from the same date.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259691&reg=3&lang=2",
+      "page": "Operationalisation section",
+      "notes": ""
+    },
+    {
+      "id": "q27",
+      "answer": "১৫–৩৫ বছর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY): Provides placement-linked skill training for rural youth aged 15–35 years.",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2181702&reg=48&lang=2",
+      "page": "Skill Development section",
+      "notes": ""
+    },
+    {
+      "id": "q28",
+      "answer": "১ → ২ → ৩ → ৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "National Rural Livelihood Mission (NRLM) was launched in 2010 as a mission-mode scheme by restructuring the erstwhile Swarnajayanti Grameen Swarojgar Yojana (SGSY). In 2016, the program was renamed Deendayal Antyodaya Yojana – National Rural Livelihood Mission (DAYNRLM).",
+      "source_url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2181702&reg=48&lang=2",
+      "page": "Introduction",
+      "notes": "2006 (c26), 2010 launch, 2016 rename, 2026 repeal (c30)."
+    },
+    {
+      "id": "q29",
+      "answer": "৫ লক্ষ টাকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana is the world's largest public healthcare scheme that aims at providing health insurance of up to Rs. 5 lakhs to each eligible household annually.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2185049&reg=3&lang=2",
+      "page": "Key Takeaways",
+      "notes": ""
+    },
+    {
+      "id": "q30",
+      "answer": "১ মে ২০১৬, বালিয়া (উত্তরপ্রদেশ)",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "PMUY was launched on 1st May, 2016 at Ballia, Uttar Pradesh by Hon'ble Prime Minister, Shri Narendra Modi.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1491180&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "page": "Press release body",
+      "notes": ""
+    },
+    {
+      "id": "q31",
+      "answer": "তালিকাভুক্ত সরকারি ও বেসরকারি — দুই ধরনের হাসপাতালেই",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "AB-PMJAY provides healthcare coverage up to Rs. 5 lakhs per year for secondary and tertiary care services and hospitalization to enrolled socio-economically deprived families, saving them from catastrophic medical bills. The scheme provides cashless treatment across empanelled government-funded and private hospitals.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2185049&reg=3&lang=2",
+      "page": "AB-PMJAY section",
+      "notes": ""
+    },
+    {
+      "id": "q32",
+      "answer": "K1 বার্ষিক বৃত্তি ও K2 এককালীন অনুদান",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "The Kanyashree Prakalpa design is a successful Conditional Cash Transfer (CCT) scheme by the West Bengal government, using two main financial incentives (K1 Annual Scholarship & K2 One-Time Grant) to keep teenage girls in school (Class VIII+) and delay marriage until at least 18",
+      "source_url": "https://kanyashree.wb.gov.in/",
+      "page": "Scheme Design",
+      "notes": ""
+    },
+    {
+      "id": "q33",
+      "answer": "শুধুমাত্র ১",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "AB-PMJAY provides healthcare coverage up to Rs. 5 lakhs per year for secondary and tertiary care services and hospitalization to enrolled socio-economically deprived families, saving them from catastrophic medical bills. The scheme provides cashless treatment across empanelled government-funded and private hospitals.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2185049&reg=3&lang=2",
+      "page": "AB-PMJAY section",
+      "notes": "Statement 2 false: cover is for secondary and tertiary care."
+    },
+    {
+      "id": "q34",
+      "answer": "১৮ বছর",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Under the Prohibition of Child Marriage Act, 2006 (PCMA), 18 is the legal age of marriage for girls, and 21 for boys in India.",
+      "source_url": "https://kanyashree.wb.gov.in/",
+      "page": "Scheme Rationale",
+      "notes": ""
+    },
+    {
+      "id": "q35",
+      "answer": "A-৩, B-৪, C-২, D-১",
+      "confidence": "LIKELY",
+      "also_defensible": null,
+      "quote": "English rendering of PM's address at the launch of Ayushman Bharat – PMJAY at Ranchi, Jharkhand",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2185049&reg=3&lang=2",
+      "page": "References",
+      "notes": "A Kolkata c08, B Ballia c36, D Noida c23; C Ranchi supported only via launch-address reference in c35."
+    },
+    {
+      "id": "q36",
+      "answer": "২ অক্টোবর ২০১৪",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Launch of Swachh Bharat Mission (2014): Announced on 2nd October 2014, the mission aimed to eliminate open defecation and improve solid and liquid waste management. It has two components: SBM - Gramin (rural) and SBM - Urban (cities and towns). Under this initiative in October 2019, all villages, districts, and states were declared Open Defecation Free (ODF).",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2191618&reg=3&lang=2",
+      "page": "SBM section",
+      "notes": ""
+    },
+    {
+      "id": "q37",
+      "answer": "প্রতিটি গ্রামীণ পরিবারকে কার্যকর গৃহস্থালি কলের সংযোগ (FHTC) দেওয়া",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Further, Government has launched Jal Jeevan Mission in 2019 with the goal to provide functional household tap connection to every rural household by 2024.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1797158&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "page": "Press release body",
+      "notes": ""
+    },
+    {
+      "id": "q38",
+      "answer": "আবাসন ও নগর বিষয়ক মন্ত্রক (MoHUA), ২৫ জুন ২০১৫ থেকে",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "In pursuance of Government's vision of facilitating Housing for All, Ministry of Housing and Urban Affairs (MoHUA), Government of India is implementing Pradhan Mantri Awas Yojana- Urban (PMAY-U) – 'Housing for All' Mission since 25.06.2015.",
+      "source_url": "https://pmay-urban.gov.in/about",
+      "page": "Background",
+      "notes": ""
+    },
+    {
+      "id": "q39",
+      "answer": "১.৫ লক্ষ টাকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Beneficiary-led Individual House Construction or Enhancement (BLC): Under this vertical, Central Assistance of ₹1.5 lakh is provided to individual eligible families belonging to EWS categories.",
+      "source_url": "https://pmay-urban.gov.in/about",
+      "page": "Vertical 1: BLC",
+      "notes": ""
+    },
+    {
+      "id": "q40",
+      "answer": "১ জুলাই ২০১৫",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "A flagship initiative that was launched with a vision to transform India into a digitally empowered society and knowledge economy, Digital India will complete its 6 years of journey on July 1, 2021. The ambitious programme was launched on July 1, 2015, by Prime Minister Shri Narendra Modi",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1731392&reg=3&lang=2",
+      "page": "Press release body",
+      "notes": ""
+    },
+    {
+      "id": "q41",
+      "answer": "১২,০০০ টাকা",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Under SBM (G), the incentive for construction of IHHL was enhanced from Rs.10,000 to Rs.12,000 to provide for water storage facility for hand-washing and cleaning of the toilet.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1797158&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "page": "Press release body",
+      "notes": ""
+    },
+    {
+      "id": "q42",
+      "answer": "১, ২ ও ৩",
+      "confidence": "SURE",
+      "also_defensible": null,
+      "quote": "Launch of Swachh Bharat Mission (2014): Announced on 2nd October 2014, the mission aimed to eliminate open defecation and improve solid and liquid waste management. It has two components: SBM - Gramin (rural) and SBM - Urban (cities and towns). Under this initiative in October 2019, all villages, districts, and states were declared Open Defecation Free (ODF).",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2191618&reg=3&lang=2",
+      "page": "SBM section",
+      "notes": "Pair 2 via c45, pair 3 via c46."
+    }
+  ]
+}

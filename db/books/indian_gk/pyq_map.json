@@ -1,1 +1,796 @@
-{}
+{
+  "IGK-01": [
+    {
+      "note": "National animal: tiger (Panthera tigris), Indian race = Royal Bengal Tiger; Project Tiger launched April 1973 (MEA/india.gov.in text, claim c23/c24). The bank item's '27 tiger reserves' figure is out of date in the source and is deliberately NOT taught (disclosed in the section deep text).",
+      "pyq_code": "GK-IGK-001",
+      "section": "nature_symbols",
+      "taught": true
+    },
+    {
+      "note": "National bird: Indian peacock, Pavo cristatus (claim c25); protection under the Wildlife (Protection) Act, 1972 also taught (c26).",
+      "pyq_code": "GK-IGK-002",
+      "section": "nature_symbols",
+      "taught": true
+    },
+    {
+      "note": "Jana-gana-mana: composed originally in Bengali by Rabindranath Tagore, adopted in its Hindi version by the Constituent Assembly on 24 January 1950 (claim c13).",
+      "pyq_code": "GK-IGK-003",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "Vande Mataram: composed in Sanskrit by Bankimchandra Chatterji, inspiration in the freedom struggle, equal status with Jana-gana-mana (claims c16, c20).",
+      "pyq_code": "GK-IGK-004",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "State Emblem: adaptation of the Sarnath Lion Capital; motto Satyameva Jayate in Devanagari; adopted 26 January 1950 (claims c06, c08, c10).",
+      "pyq_code": "GK-IGK-005",
+      "section": "emblem",
+      "taught": true
+    },
+    {
+      "note": "National calendar: Saka Era based, Chaitra first month, normal year 365 days, adopted from 22 March 1957; 1 Chaitra = 22 March normally, 21 March in a leap year (claims c21, c22).",
+      "pyq_code": "GK-IGK-006",
+      "section": "calendar",
+      "taught": true
+    },
+    {
+      "note": "National aquatic animal: Gangetic river dolphin; NGRBA first meeting 5 October 2009 decision (PIB relid 55824, claim c29) and designation confirmed by PIB PRID 1946399 (claim c28).",
+      "pyq_code": "GK-IGK-007",
+      "section": "nature_symbols",
+      "taught": true
+    },
+    {
+      "note": "National River: Ganga — taught from the National Mission for Clean Ganga's own page title/heading 'Ganga-A National River' (claim c30). Sourcing is thinner than for the other symbols (no narrative paragraph on the fetched page), disclosed in REPORT.md.",
+      "pyq_code": "GK-IGK-008",
+      "section": "nature_symbols",
+      "taught": true
+    },
+    {
+      "note": "Flag panels (saffron top, green bottom, white middle) and Ashoka Chakra in navy blue with 24 equally spaced spokes (claims c01, c03, c05).",
+      "pyq_code": "GK-IGK-101",
+      "section": "flag",
+      "taught": true
+    },
+    {
+      "note": "Ratio 3:2 (length:height) taught from both the MEA text and the Flag Code FAQ (claims c02, c32). Partial: the bank item's standard-size table (450x300 mm aircraft, 225x150 mm motor-car, 150x100 mm table flags) is NOT taught — the fetched Flag Code FAQ does not list sizes; only the BIS nine-sizes fact (IS 1-1968) is taught (c37).",
+      "pyq_code": "GK-IGK-102",
+      "section": "flag",
+      "taught": true
+    },
+    {
+      "note": "Design of the National Flag adopted by the Constituent Assembly on 22 July 1947 (claims c04, c05); the item's secondary PIB quotes about the Constitution/anthem are covered under c38/c13.",
+      "pyq_code": "GK-IGK-103",
+      "section": "flag",
+      "taught": true
+    },
+    {
+      "note": "Meaning of the flag's colours and wheel in Dr. Radhakrishnan's interpretation (saffron = renunciation, white = path of truth, green = relation to soil, wheel = law of dharma): NOT taught. The interpretation text exists only in the MHA Flag Code PDF, which could not be fetched from this machine (both known MHA URLs returned 404); no other fetched official page carries it. Left untaught rather than written from memory; flagged in the flag section's deep text.",
+      "pyq_code": "GK-IGK-104",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Flag Code of India, 2002: took effect 26 January 2002 and governs display together with the Emblems and Names Act, 1950 framework and the Prevention of Insults Act, 1971 (claim c31, PIB FAQ PRID 1845264). Partial: the Code's three-part division is not stated in the fetched FAQ text and is not asserted in the chapter.",
+      "pyq_code": "GK-IGK-105",
+      "section": "laws_protection",
+      "taught": true
+    },
+    {
+      "note": "Prevention of Insults to National Honour Act, 1971, section 2: insult to the National Flag punishable with imprisonment up to three years, or fine, or both (claim c35, MHA Act PDF fetched in full).",
+      "pyq_code": "GK-IGK-106",
+      "section": "laws_protection",
+      "taught": true
+    },
+    {
+      "note": "Emblem profile: three lions, Dharma Chakra in the centre, bull on the right, galloping horse on the left, bell-shaped lotus omitted (claims c08, c09 — MEA text and the Schedule to the 2005 Act).",
+      "pyq_code": "GK-IGK-107",
+      "section": "emblem",
+      "taught": true
+    },
+    {
+      "note": "State Emblem of India (Prohibition of Improper Use) Act, 2005 (No. 50 of 2005, 20 December 2005); section 3 contravention punishable up to two years' imprisonment or fine up to five thousand rupees or both (claims c11, c12 — Gazette copy of the Act fetched via Karnataka DPAL).",
+      "pyq_code": "GK-IGK-108",
+      "section": "emblem",
+      "taught": true
+    },
+    {
+      "note": "National Anthem: first stanza of Tagore's song is the Anthem; full version playing time approximately 52 seconds; short version (first and last lines) about 20 seconds (claims c14, c15).",
+      "pyq_code": "GK-IGK-109",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "Vande Mataram first sung at the 1896 session of the Indian National Congress — by Rabindranath Tagore (claims c16, c18).",
+      "pyq_code": "GK-IGK-110",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "Vande Mataram first published in Bangadarshan on 7 November 1875; incorporated in Anandamath (1882); first used as a political slogan on 7 August 1905 (claims c17, c19 — PIB 150-years backgrounder, fetched in full).",
+      "pyq_code": "GK-IGK-111",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "Equal status: Dr. Rajendra Prasad's Constituent Assembly statement of 24 January 1950 that Vande Mataram shall be honoured equally with Jana Gana Mana (claim c20, PIB backgrounder quoting the statement verbatim).",
+      "pyq_code": "GK-IGK-112",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (WBCS Prelims 2019, Q182): at which Congress session was Vande Mataram sung for the first time — 1896 session (claims c16, c18).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q182",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (WBPSC Clerkship 2006, Q33): who composed Vande Mataram — Bankim Chandra Chattopadhyay (claims c16, c17).",
+      "pyq_code": "WBPSC-CLERKSHIP-2006-Q33",
+      "section": "anthem_song",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (WBCS Prelims 2017, Q60): which authority ordered playing of the National Anthem in all cinema halls (Supreme Court order of 30 November 2016). NOT taught: no fetched official source in this chapter covers the court order; the chapter teaches the Anthem itself and the 1971 Act only.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q60",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (WBCS Prelims 2021, Q160): who designed the first Indian national flag (key: Sister Nivedita, c. 1906). NOT taught: the chapter teaches only the adopted 1947 design from official sources; the pre-1947 flag-design history is not in any fetched source.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q160",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (WBPSC Miscellaneous Prelims 2023, Q37): who wrote the national anthems of two countries (Rabindranath Tagore — India and Bangladesh). NOT taught as asked: the chapter teaches Tagore as author of India's Anthem (c13), but the Bangladesh anthem ('Amar Sonar Bangla') fact is not in any fetched source, so the two-countries claim is not asserted.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q37",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (WBPSC Clerkship 2006, Q30): from which year did the counting of the Saka Era start (key: 78 AD). NOT taught: the fetched official calendar text gives the adoption date (22 March 1957), first month and leap-year rule, but never states the era's epoch year; not filled from memory. Disclosed in the calendar section's deep text.",
+      "pyq_code": "WBPSC-CLERKSHIP-2006-Q30",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "IGK-02": [
+    {
+      "note": "Bank item (indian_gk / important_firsts): first Prime Minister — Nehru, tenure 15 Aug 1947–27 May 1964 from the PMO list (claim c01).",
+      "pyq_code": "GK-IGK-009",
+      "section": "first_president_pm",
+      "taught": true
+    },
+    {
+      "note": "Bank item: first President — Dr Rajendra Prasad, '1st President of India' on the Rashtrapati Bhavan list (claim c03).",
+      "pyq_code": "GK-IGK-010",
+      "section": "first_president_pm",
+      "taught": true
+    },
+    {
+      "note": "Bank item: first Vice-President and the chronology of the first four VPs — Radhakrishnan, Zakir Hussain, V. V. Giri, Gopal Swarup Pathak (claim c06); also drilled in vp_to_president.",
+      "pyq_code": "GK-IGK-011",
+      "section": "first_vp_speaker",
+      "taught": true
+    },
+    {
+      "note": "Bank item: first woman Prime Minister — Indira Gandhi, first term from 24 Jan 1966 (claim c02, PMO list). The Rajya Sabha 'Sixty Years' wording could not be re-fetched this run; the chapter's claim rests on the PMO list and says so in an exam_note.",
+      "pyq_code": "GK-IGK-012",
+      "section": "women_firsts",
+      "taught": true
+    },
+    {
+      "note": "Bank item: first woman President — Pratibha Devisingh Patil, 12th President, first woman in the official list (claim c05); the PAIRS variant is mirrored by practice q18.",
+      "pyq_code": "GK-IGK-013",
+      "section": "women_firsts",
+      "taught": true
+    },
+    {
+      "note": "Bank item: first Indian in space — Rakesh Sharma, 1984, Soviet Soyuz (claim c10, ISRO Axiom-4 page; the ISRO microgravity page itself could not be fetched this run).",
+      "pyq_code": "GK-IGK-014",
+      "section": "space_firsts",
+      "taught": true
+    },
+    {
+      "note": "Bank item: Kolkata Metro, India's first metro — sanction 1 Jun 1972, foundation stone 29 Dec 1972, partial commercial service Esplanade–Netaji Bhavan 24 Oct 1984, Dum Dum–Belgachia 12 Nov 1984 (claims c13–c15, Metro Railway Kolkata).",
+      "pyq_code": "GK-IGK-015",
+      "section": "metro_first",
+      "taught": true
+    },
+    {
+      "note": "Bank item: Tarapur (TAPS) earliest NPCIL station, commercial operation 28 Oct 1969. NOT taught: the NPCIL page could not be fetched on this machine this run, so no verbatim quote could be recorded; the gap is disclosed in the atomic_first exam_note. Apsara (BARC research reactor) is taught instead, without conflating the two.",
+      "pyq_code": "GK-IGK-016",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBCS Prelims 2017): first Governor General of independent India (Mountbatten). NOT taught: no official Governor-General source was fetched this run; the chapter covers the Republic's first office-holders only.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q119",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBCS Prelims 2022): first Indian Governor General of free India (C. Rajagopalachari). NOT taught: same reason as Q119 above — no fetched official quote; not filled from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q79",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBPSC Miscellaneous Prelims 2023): first woman Chief Minister of India (Sucheta Kripalani). NOT taught: searches surfaced only non-official sources; no fetched *.gov.in/*.nic.in quote was obtained this run.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q62",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBPSC Miscellaneous Prelims 2023): first President of India who died while in office (Zakir Husain). NOT taught as asked: the chapter teaches Zakir Husain as 3rd President and 2nd Vice-President (claims c06, c07) but the died-in-office fact has no fetched quote.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q70",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBPSC Clerkship Part-I 2004): first Indian woman to conquer Mount Everest (Bachendri Pal). NOT taught: no official (PIB/GoI) page with a verbatim quote was fetched this run.",
+      "pyq_code": "CLERKSHIP-PART-I-2004-Q54",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBPSC Clerkship Part-I 2005): first woman Air Marshal of the Indian Air Force (Padma Bandopadhyay). NOT taught: no fetched official quote this run.",
+      "pyq_code": "CLERKSHIP-PART-I-2005-Q55",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBPSC Clerkship Part-I 2023, Session III): first Indian woman to swim across the English Channel (Arati Saha). NOT taught: no fetched official quote this run; a natural Bengal-connection candidate for a later verified addition.",
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-III-Q82",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real PYQ (WBPSC Clerkship Part-I 2023, Session IV): first Indian woman gymnast to qualify for the Olympics (Dipa Karmakar). NOT taught: no fetched official quote this run.",
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-IV-Q72",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "IGK-03": [
+    {
+      "note": "GK bank item (subtopic states_capitals): capital of West Bengal is Kolkata; Kolkata was once the capital of British India. Both taught in east_central and bengal_connection (claims c29, c32, c33; NCERT Appendix I and the Government of West Bengal portal).",
+      "pyq_code": "GK-IGK-020",
+      "section": "east_central",
+      "taught": true
+    },
+    {
+      "note": "Kolkata Police Constable (Prelims) 2023 Q27: capital of Chhattisgarh is Raipur (options included Bhopal and Bilaspur). Taught in east_central with the Raipur/Bhopal confusion flagged in an exam_note (claim c07; practice q15).",
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q27",
+      "section": "east_central",
+      "taught": true
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2017 Q127: capital of the newly formed state of Andhra Pradesh is Amaravati. Taught in special_cases (and flagged in south): NCERT Appendix I still prints Hyderabad, but the Gazette-published Andhra Pradesh Reorganisation (Amendment) Act, 2026 names Amaravati as the new capital, effective 2 June 2024 (claims c35, c36, c38; practice q25, q40).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q127",
+      "section": "special_cases",
+      "taught": true
+    },
+    {
+      "note": "WBCS (Exe.) Prelims 2024 Q135: the stem states Dehradun is the capital of Uttarakhand (that pair IS taught in north_west, claim c26, practice q09), but the question actually asks what 'dun' signifies — a valley between the Lesser Himalaya and the Shivalik. That landform meaning belongs to the Geography book and is not covered by any source fetched for this chapter, so the item as asked is not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q135",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "IGK-04": [
+    {
+      "note": "GK bank item (subtopic union_territories): '28 states and 8 Union territories' and 'administered by the President through an Administrator'. Both facts taught in ut_basics (claims c01, c02) and practised in q01/q02.",
+      "pyq_code": "GK-IGK-019",
+      "section": "ut_basics",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2019 (Part-I, Forenoon) Q37: 'Which one of the following is not a Union Territory?' (Chandigarh / Andaman and Nicobar Islands / Puducherry / Tripura; key: Tripura). The full UT list is taught in ut_basics (c01) and the identical pattern is practised as q07.",
+      "pyq_code": "WBPSC-CLERKSHIP-2019-FORENOON-Q37",
+      "section": "ut_basics",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2019 (Part-I, Forenoon) Q3: state that lost special status due to abrogation of Article 370 (key: Jammu and Kashmir). Taught in newest_uts: Article 370 effectively dismantled and the state reorganised into two UTs on 31 Oct 2019 (c10, PIB PRID 1590112).",
+      "pyq_code": "WBPSC-CLERKSHIP-2019-FORENOON-Q3",
+      "section": "newest_uts",
+      "taught": true
+    },
+    {
+      "note": "WBCS Prelims 2021 Q131: highest sex ratio among UTs per Census 2011 (key: Puducherry, 1037). NOT taught: this chapter covers the UT list, capitals and administration only; no Census 2011 UT-wise sex-ratio table was fetched from censusindia.gov.in, so the figure is not asserted. Belongs to a Census/demography treatment, not IGK-04.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q131",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "IGK-05": [
+    {
+      "pyq_code": "GK-IGK-017",
+      "section": null,
+      "taught": false,
+      "note": "GK bank item (subtopic institutions_hq): RBI established 1 April 1935, Central Office first at Kolkata, moved to Mumbai 1937. The 1935 commencement IS taught (claim c01, q01) from PIB, but the item's distinguishing HQ content — the Kolkata origin and 1937 move — is sourced only from rbi.org.in, which is outside this book's GOVT/NCERT publisher profile, so it is not taught in this chapter."
+    },
+    {
+      "pyq_code": "GK-IGK-018",
+      "section": "space_atomic",
+      "taught": true,
+      "note": "ISRO HQ at Antariksh Bhavan, Bengaluru; INCOSPAR 1962; ISRO established August 1969; DOS June 1972 (claims c10-c12; q09-q11)."
+    },
+    {
+      "pyq_code": "GK-IGK-201",
+      "section": null,
+      "taught": false,
+      "note": "GK bank item: ICAR established 16 July 1929, HQ New Delhi. The 1929 date and the HQ statement appear only on icar.org.in, outside this book's GOVT/NCERT publisher profile; the fetched PIB release supports only ICAR's status as India's premier agricultural research institution and its New Delhi foundation-day venue (claims c19-c20). Date/HQ not taught."
+    },
+    {
+      "pyq_code": "GK-IGK-202",
+      "section": "research_councils",
+      "taught": true,
+      "note": "IRFA established 15 November 1911 by Sir Harcourt Butler; renamed ICMR in 1949; HQ at Ansari Nagar, New Delhi (claims c21-c23; q18-q20, q22)."
+    },
+    {
+      "pyq_code": "GK-IGK-203",
+      "section": null,
+      "taught": false,
+      "note": "GK bank item: AEET established January 1954 at Trombay; renamed BARC after Bhabha's death. The chapter teaches TIFR 1945, AEC 1948, DAE 1954, AEET at Trombay and the renaming on 12 January 1967 (claims c13-c17), but the specific 'AEET established January 1954' date does not appear in the fetched BARC newsletter (barc.gov.in) or any other fetched GOVT/NCERT source, so the item is not counted as taught."
+    },
+    {
+      "pyq_code": "GK-IGK-204",
+      "section": "surveys_science",
+      "taught": true,
+      "note": "IMD established 1875, National Meteorological Service; DG's office at Mausam Bhawan, Lodhi Road, New Delhi (claims c24-c25; q23, q26)."
+    },
+    {
+      "pyq_code": "GK-IGK-205",
+      "section": null,
+      "taught": false,
+      "note": "GK bank item: BSI established 1890, headquarters Kolkata. The establishment (1890, formally 13 February 1890) IS taught (claims c26-c27; q27), but the headquarters city appears only in BSI address blocks/newsletter mastheads that could not be fetched as page text from an allowed source in this run, so the HQ half of the item is not taught."
+    },
+    {
+      "pyq_code": "GK-IGK-206",
+      "section": "surveys_science",
+      "taught": true,
+      "note": "ZSI established 1 July 1916; origin in the 1875 Zoological Section of the Indian Museum, Calcutta; HQ Kolkata (claims c28-c30; q24, q28-q29)."
+    },
+    {
+      "pyq_code": "GK-IGK-207",
+      "section": "heritage_knowledge",
+      "taught": true,
+      "note": "Asiatic Society formed by William Jones on 15 January 1784 at Calcutta; Asiatick Researches from 1788; Bombay 1804 and Madras 1818 societies (claims c34-c36; q32-q34, q37)."
+    },
+    {
+      "pyq_code": "GK-IGK-208",
+      "section": "heritage_knowledge",
+      "taught": true,
+      "note": "Cunningham first Archaeological Surveyor from December 1861; Survey abolished 1866 by Lord Lawrence; revived 1871 with Cunningham as Director General (claims c37-c39; q35-q36)."
+    },
+    {
+      "pyq_code": "GK-IGK-209",
+      "section": "constitutional_bodies",
+      "taught": true,
+      "note": "Partial: ECI established 25 January 1950 is taught (claim c40; q38). The item's National Voters' Day observance (25 January, since 2011) is not covered by the fetched ECI pages and is not taught."
+    },
+    {
+      "pyq_code": "GK-IGK-210",
+      "section": "constitutional_bodies",
+      "taught": true,
+      "note": "Article 148: CAG appointed by the President by warrant, removable only like a Supreme Court judge; State reports to the Governor for laying before the State Legislature; Union reports to the President (claims c44-c46; q40-q41, q45)."
+    },
+    {
+      "pyq_code": "GK-IGK-211",
+      "section": "finance_bodies",
+      "taught": true,
+      "note": "SEBI Head Office: SEBI Bhavan, Bandra-Kurla Complex, Bandra (East), Mumbai (claim c02; q02)."
+    },
+    {
+      "pyq_code": "GK-IGK-212",
+      "section": "finance_bodies",
+      "taught": true,
+      "note": "SIDBI under the SIDBI Act, 1989 — principal financial institution for the small-scale sector, head office at Lucknow; the Act came into force on 7 March 1990, matching the item's 'established under an Act in 1990' (claims c03-c06; q03, q05, q07-q08). The item's street address (SIDBI Tower, Ashok Marg) is not taught."
+    },
+    {
+      "pyq_code": "GK-IGK-213",
+      "section": "finance_bodies",
+      "taught": true,
+      "note": "Partial: Exim Bank Act, 1981 and head office at Bombay/Mumbai are taught (claims c07-c09; q04, q06, q08). The item's 'commenced operations in March 1982' is not taught — the fetched India Code record gives enforcement from 1 January 1982 (section 26 from 1 March 1982), and the 1980 budget announcement is not covered."
+    },
+    {
+      "pyq_code": "GK-IGK-214",
+      "section": "constitutional_bodies",
+      "taught": true,
+      "note": "NHRC established 12 October 1993 under PHRA, 1993; office at Manav Adhikar Bhawan, GPO Complex, INA, New Delhi (claims c47-c48; q39, q44)."
+    },
+    {
+      "pyq_code": "GK-IGK-215",
+      "section": "surveys_science",
+      "taught": true,
+      "note": "Office of the Surveyor General of India at Hathibarkala Estate, Dehradun (claim c33; q30)."
+    },
+    {
+      "pyq_code": "GK-IGK-216",
+      "section": null,
+      "taught": false,
+      "note": "GK bank hub item: BSI (1890) and ZSI (1916) both based in Kolkata. The ZSI half is fully taught (claims c28-c30), and BSI's 1890 establishment is taught (c26-c27), but BSI's Kolkata headquarters could not be sourced from a fetched GOVT/NCERT page in this run (see GK-IGK-205), so the pair as stated is not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q197",
+      "section": "finance_bodies",
+      "taught": true,
+      "note": "RBI established year — taught via PIB: operations commenced 1 April 1935 (claim c01; q01)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q45",
+      "section": "finance_bodies",
+      "taught": true,
+      "note": "RBI established year — same teaching as the 2017 item (claim c01; q01)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q61",
+      "section": "heritage_knowledge",
+      "taught": true,
+      "note": "Asiatic Society founded by William Jones (claim c34; q32)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q55",
+      "section": "heritage_knowledge",
+      "taught": true,
+      "note": "Asiatic Society founder — William Jones, Calcutta (claim c34; q32-q33)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q5",
+      "section": "heritage_knowledge",
+      "taught": true,
+      "note": "Asiatic Society establisher — William Jones (claim c34; q32)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q93",
+      "section": "heritage_knowledge",
+      "taught": true,
+      "note": "Asiatic Society of Bengal founder — William Jones (claim c34; q32)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q110",
+      "section": "heritage_knowledge",
+      "taught": true,
+      "note": "Father of Indian Archaeology — Alexander Cunningham, taught as first Archaeological Surveyor (1861) and first Director General (1871) (claims c37, c39; q35-q36)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q119",
+      "section": "surveys_science",
+      "taught": true,
+      "note": "Topographical maps published by the Survey of India, the nation's Principal Mapping Agency (claim c31; q30)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q173",
+      "section": "surveys_science",
+      "taught": true,
+      "note": "Indian Topographical Map published by the Survey of India (claim c31; q30)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q28",
+      "section": "space_atomic",
+      "taught": true,
+      "note": "ISRO headquarters — Antariksh Bhavan, Bengaluru (claim c10; q09)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q100",
+      "section": "finance_bodies",
+      "taught": true,
+      "note": "SEBI stands for Securities and Exchange Board of India — the full name is used with the head-office teaching (claim c02; q02)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q187",
+      "section": "finance_bodies",
+      "taught": true,
+      "note": "EXIM Bank deals with financing export and import — taught from the Act's long title and purpose (claim c07; q06)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q99",
+      "section": "constitutional_bodies",
+      "taught": true,
+      "note": "Partial: the CAG's constitutional position (appointment, removal, reports) is taught (claims c44-c46; q40-q41, q45), which identifies the CAG as the answer; the exact epithet 'Guardian of the Public Purse' does not appear in the fetched official sources."
+    },
+    {
+      "pyq_code": "WBPSC-IDO-2019-Q61",
+      "section": null,
+      "taught": false,
+      "note": "Tea Board headquarters (Kolkata) — the Tea Board is not among the most-asked institutions selected for this summary chapter; not covered."
+    },
+    {
+      "pyq_code": "KP-CONSTABLE-PRELIMS-2023-Q57",
+      "section": null,
+      "taught": false,
+      "note": "National Stock Exchange location (Mumbai) — NSE is not covered in this summary chapter (SEBI, the regulator, is)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q136",
+      "section": null,
+      "taught": false,
+      "note": "Governor-General of Bengal when the Asiatic Society was founded — the fetched ASI history page names Jones and the 1784 founding but not the Governor-General; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2018-PRELIMS-Q33",
+      "section": null,
+      "taught": false,
+      "note": "Eastern Railway headquarters — railway zones are outside this chapter's summary scope; not covered."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q29",
+      "section": null,
+      "taught": false,
+      "note": "Central Inland Water Transport Corporation headquarters — not among the institutions selected for this summary; not covered."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q196",
+      "section": null,
+      "taught": false,
+      "note": "SEBI's statutory recognition year (1992) — only SEBI's full name and head office were sourced from an allowed publisher in this run; the statutory-status year is not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q140",
+      "section": null,
+      "taught": false,
+      "note": "Central Rice Research Institute location — CRRI is not covered; the chapter's ICAR teaching is limited to its premier-institution status (PIB)."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q90",
+      "section": null,
+      "taught": false,
+      "note": "UDGAM portal developed by RBI — a current-affairs portal fact not present in the fetched PIB RBI@90 release or any other fetched source; not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q75",
+      "section": null,
+      "taught": false,
+      "note": "World Bank headquarters — an international organisation; belongs to the Organisations (ORG) book, not this Indian-institutions summary."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q48",
+      "section": null,
+      "taught": false,
+      "note": "BIMSTEC headquarters city — international organisation; Organisations book scope, not this chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q129",
+      "section": null,
+      "taught": false,
+      "note": "Asian Pacific Postal Union headquarters — international organisation; Organisations book scope, not this chapter."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q142",
+      "section": null,
+      "taught": false,
+      "note": "WTO Appellate Body location — international organisation; Organisations book scope, not this chapter."
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-FORENOON-Q25",
+      "section": null,
+      "taught": false,
+      "note": "UN Human Rights Council headquarters — international body; Organisations book scope. (India's NHRC is taught in constitutional_bodies.)"
+    },
+    {
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q47",
+      "section": null,
+      "taught": false,
+      "note": "IUCN headquarters — international organisation; Organisations book scope, not this chapter."
+    }
+  ],
+  "IGK-06": [
+    {
+      "note": "First National Park of India = Corbett. Taught in section first_parks_tiger from PIB backgrounder (established 1936, first NP of the Asian mainland); practice q08/q14.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q50",
+      "section": "first_parks_tiger",
+      "taught": true
+    },
+    {
+      "note": "Nagarjuna Sagar–Srisailam is the biggest Tiger Reserve in India. Taught from the NTCA tiger-reserve table: total area 3,296.31 sq km, the largest in the official list.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q14",
+      "section": "famous_parks",
+      "taught": true
+    },
+    {
+      "note": "Sardar Sarovar Dam built over the Narmada. Taught from NCERT Water Resources (claim c39); practice q39.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q36",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Highest dam in India = Tehri. Taught from IMD Mausam journal (Tehri on Bhagirathi is the highest dam in India); practice q37.",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q47",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Most important reason for Farakka Barrage = raising/augmenting flow in the lower Ganges–Hooghly for Kolkata Port. Taught from PIB Year End Review 2018 (commissioned 1975 for preservation of Kolkata Port and navigational depth of Bhagirathi–Hooghly); practice q41.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q117",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Singalila National Park is in Darjeeling district. Taught from the West Bengal ESMF eco-sensitive-zone list; practice q26.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q41",
+      "section": "bengal_parks",
+      "taught": true
+    },
+    {
+      "note": "Primary objective of Farakka Barrage = augmentation of water supply in the Hugli river. Same PIB source as the 2015 question; practice q41.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q132",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "DVC = organisation represented by the Central Government and the governments of West Bengal and Jharkhand. Chapter teaches from DVC's official site that DVC is an Indian governmental organization operating in West Bengal and Jharkhand, which identifies the correct option; the fetched source does not spell out the three-government composition in so many words — disclosed here honestly.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q142",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Incorrectly matched pair = Dachigam: Asiatic lions. Taught by elimination: the chapter establishes Gir = Asiatic lion (MoEFCC backgrounder) and Kaziranga = one-horned rhino from fetched official sources, so the Dachigam–lion pair is identifiable as the wrong one; practice q22 mirrors this exact question pattern.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q38",
+      "section": "famous_parks",
+      "taught": true
+    },
+    {
+      "note": "Vansda National Park is in Gujarat. Taught from Census of India District Census Handbook, Navsari (declared a National Park in 1979; 23.99 sq km, Western Ghats).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q168",
+      "section": "famous_parks",
+      "taught": true
+    },
+    {
+      "note": "Mettur dam is built on the Cauvery. Taught from IMD Mausam journal (Mettur dam in Tamil Nadu across the river Cauvery).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q152",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Krishna Raja Sagar dam and Mettur dam are built across the Cauvery (Kaveri). Taught from IMD Mausam journal: Mettur across the Cauvery; Krishna Raja Sagara in Karnataka is in the Cauvery basin; practice q42.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q117",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Jaldapara National Park is located in Alipurduar district. Taught from the West Bengal ESMF list ('Jaldapara National Park Alipurduar District'); practice q25.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q155",
+      "section": "bengal_parks",
+      "taught": true
+    },
+    {
+      "note": "Which is NOT in West Bengal = Manas Biosphere Reserve. Taught: Manas is in Assam in both the NTCA tiger-reserve list and NCERT's biosphere-reserve table, while Singalila NP and Chapramari WLS are West Bengal areas in the state sources; practice q30 covers the Manas point.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q188",
+      "section": "bengal_parks",
+      "taught": true
+    },
+    {
+      "note": "Nagarjuna Sagar Project is on the Krishna. Taught from a PIB release ('Nagarjuna Sagar Dam on River Krishna'); practice q40.",
+      "pyq_code": "WBPSC-CLERKSHIP-2009-SESSION-1-Q41",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Bhakra Nangal location — official answer key credits Punjab. The chapter teaches the verified geography (the dam stands in Bilaspur district, Himachal Pradesh, per the district NIC portal, about 14 km from Nangal) AND carries an exam_note box disclosing that the 2009 Clerkship key took Punjab (the Nangal side), so the student is prepared for both the fact and the key.",
+      "pyq_code": "WBPSC-CLERKSHIP-2009-SESSION-1-Q53",
+      "section": "famous_dams",
+      "taught": true
+    },
+    {
+      "note": "Bhitarkanika National Park is in Odisha. Taught from the PIB Amrit Dharohar release (Bhitarkanika NP with the Odisha State Wetlands Authority and Mangrove Forest Division, Rajnagar).",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION-1-Q80",
+      "section": "famous_parks",
+      "taught": true
+    },
+    {
+      "note": "Vansda National Park is in Gujarat. Same Census of India DCHB Navsari source as the WBCS 2019 question.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION-4-Q61",
+      "section": "famous_parks",
+      "taught": true
+    },
+    {
+      "note": "NOT TAUGHT — Mullaperiyar Dam dispute (Tamil Nadu–Kerala). No fetched official source (NCERT/PIB/NIC) named this dispute; the only NCERT dispute fetched was Krishna-Godavari/Koyna. Not filled from memory, per pipeline rules.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q70",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NOT TAUGHT — Mukutmanipur Dam is across the Kangsabati. No fetched official source covers Mukutmanipur; left as a disclosed gap rather than taught from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q161",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NOT TAUGHT — the dam not meant for irrigation among Bhavani Sagar / Sivasamudram / KRS / Bhakra Nangal (key: Sivasamudram, hydroelectric). No fetched official source states Sivasamudram's purpose, so the elimination cannot be grounded in this chapter's claims.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q184",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NOT TAUGHT — 'Forests having no free entry by people in India' (corpus key: Reserved Forest). The chapter teaches only the NCERT framework in which the National Park is the strictest protection category; the corpus key points to Reserved Forest, which the fetched NCERT chapter does not establish. Flagged as a key-vs-textbook conflict instead of teaching either side as settled.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q156",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NOT TAUGHT — Dam–State pairs (Rihand–UP, Massanjore–WB, Rana Pratap Sagar–Rajasthan, Hirakud–Chhattisgarh; key: I and III only). Of the four pairs, only Hirakud–Odisha (which makes pair IV wrong) is verifiable from fetched sources; the Mausam paper places the Rihand dam's catchment across UP/MP/Chhattisgarh without fixing the dam's state, and Massanjore and Rana Pratap Sagar appear in no fetched source.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q91",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "NOT TAUGHT — Ukai dam is across the Tapi (Tapti). No fetched official source covers the Ukai dam; disclosed as a gap rather than taught from memory.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION-2-Q46",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "IGK-07": [
+    {
+      "note": "GK bank item (subtopic misc): National Science Day 28 February, Raman Effect, designated 1986, Nobel 1930 — all taught from the PIB Science Day release (claims c24, c25) and drilled in q24, q26, q28, q30.",
+      "pyq_code": "GK-IGK-113",
+      "section": "dibos_bigyan_khela",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic misc): National Sports Day 29 August honouring Major Dhyan Chand — taught from the PIB release (claim c27) and drilled in q25, q27, q30. The PIB release does not itself state that 29 August is Dhyan Chand's birth date, so the chapter teaches only the honouring, matching the bank item's own caution.",
+      "pyq_code": "GK-IGK-114",
+      "section": "dibos_bigyan_khela",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic misc): National Youth Day 12 January, birth anniversary of Swami Vivekananda — taught from PIB (claim c28), drilled in q31, q33, q37. The item's PAIRS distractors are also covered: Voters' Day 25 January (c32), Science Day 28 February (c24), Sports Day 29 August (c27). The bank explanation's 'born in Calcutta in 1863' detail is not in the fetched PIB release and is not asserted in the chapter.",
+      "pyq_code": "GK-IGK-115",
+      "section": "dibos_jubo_shikkhok",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic misc): Teachers' Day 5 September, birth anniversary of Dr S. Radhakrishnan — taught from PIB (claim c29), drilled in q32, q34, q37.",
+      "pyq_code": "GK-IGK-116",
+      "section": "dibos_jubo_shikkhok",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic misc): National Voters' Day 25 January, celebrated since 2011, marking the Election Commission's foundation day (25 January 1950) — taught from PIB (claim c32), drilled in q38, q42.",
+      "pyq_code": "GK-IGK-117",
+      "section": "dibos_gonotontro",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic misc): Constitution Day 26 November — Constitution adopted 1949, in force 26 January 1950 — taught from PIB (claim c34), drilled in q39 and the STATEMENT question q44, which mirrors the bank item's own statement question.",
+      "pyq_code": "GK-IGK-118",
+      "section": "dibos_gonotontro",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic misc): Rashtriya Ekta Diwas 31 October, birth anniversary of Sardar Vallabhbhai Patel — taught from PIB (claim c37), drilled in q40.",
+      "pyq_code": "GK-IGK-119",
+      "section": "dibos_gonotontro",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic misc): Armed Forces Flag Day 7 December since 1949, and the AFFDF for ex-servicemen's welfare and rehabilitation — taught from PIB (claims c39, c40), drilled in q41, q43.",
+      "pyq_code": "GK-IGK-120",
+      "section": "dibos_gonotontro",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (db/pyq/wbcs-prelims-2022.json, Q174): on which date the Constitution was adopted by the Constituent Assembly — 26 November 1949. Taught via the Constitution Day material (claim c34) and drilled in q39, q44.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q174",
+      "section": "dibos_gonotontro",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (db/pyq/wbpsc-clerkship-2006.json, Q19): the Constitution of India came into force on 26.01.1950. Taught from the India Profile (claim c17) and drilled in q17; the adopted-vs-in-force trap is also boxed in dibos_gonotontro.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q19",
+      "section": "rashtra_kathamo",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (db/pyq/wbpsc-clerkship-2005.json, Q54): who is called the 'Wizard of Hockey' (Dhyan Chand). NOT taught: the chapter teaches that National Sports Day honours Major Dhyan Chand (claim c27), but the epithet 'Wizard of Hockey' appears in none of the fetched allowed-publisher pages (PIB / India Profile), and the item turns on the epithet itself, so it is not asserted here.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q54",
+      "section": null,
+      "taught": false
+    }
+  ]
+}

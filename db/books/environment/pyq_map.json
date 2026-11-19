@@ -1,1 +1,430 @@
-{}
+{
+  "ENV-01": [
+    {
+      "note": "GK bank item (subtopic ecosystems): the 10 per cent law. Taught in s5 with claim c33 (NCERT lebo112 §12.4) and practised in q-exam focus; chapter question set covers the same law.",
+      "pyq_code": "GK-ENV-001",
+      "section": "s5",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic ecosystems): pyramid of energy is always upright; pyramid of biomass in the sea generally inverted. Taught in s6 with claims c36, c37 (NCERT lebo112 §12.5), exam_note box and questions q24, q39, q40.",
+      "pyq_code": "GK-ENV-002",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "Competitive exclusion principle — two species cannot continue to occupy the same niche (official answer: Niche). The concept belongs to NCERT Biology XII Ch. 11 'Organisms and Populations', which could not be fetched from an allowed publisher in this run (lebo111.pdf fetch failed), and Ch. 12 'Ecosystem' does not cover niche/competitive exclusion. Source gap — not taught, never asserted from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q156",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "East Kolkata Wetlands declared a Ramsar site. This chapter teaches only that a wetland is a type of aquatic ecosystem (s1, claim c02); Ramsar designation is protected-areas content belonging to ENV-06, and no fetched source in this run supports the Ramsar fact. Not taught here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q26",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "East Kolkata Wetland declared a Ramsar site — same item family as WBCS 2019 Q26. Protected-areas content (ENV-06); not taught in this ecosystems chapter beyond 'wetland' as an aquatic ecosystem type.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q81",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ENV-02": [
+    {
+      "note": "GK bank item (subtopic biodiversity): NCERT names three hotspots covering India — Western Ghats and Sri Lanka, Indo-Burma and Himalaya; world total 34 per this edition. Taught verbatim in the conservation section (claims c43, c44); the chapter's deep text discloses that later official lists differ.",
+      "pyq_code": "GK-ENV-003",
+      "section": "conservation",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic biodiversity): sacred groves in Khasi and Jaintia Hills (Meghalaya), Aravalli Hills (Rajasthan), Western Ghats of Karnataka and Maharashtra, and Sarguja, Chanda and Bastar (Madhya Pradesh); in Meghalaya they are the last refuges of many rare and threatened plants. Taught in the conservation section (claims c47, c48).",
+      "pyq_code": "GK-ENV-004",
+      "section": "conservation",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic biodiversity): in situ conservation protects endangered species in their natural habitat; ex situ includes zoological parks and botanical gardens. Taught in the conservation section (claims c40, c41, c49), including NCERT's edition counts of biosphere reserves, national parks and sanctuaries.",
+      "pyq_code": "GK-ENV-005",
+      "section": "conservation",
+      "taught": true
+    },
+    {
+      "note": "Real exam item: 'The word Biodiversity was coined by' — official answer W. G. Rosen (1985). The fetched NCERT text says only that Edward Wilson POPULARISED the term; the coinage fact is not in the source, so it is not taught as a claim. The section's exam_note discloses the distinction openly so the student can still choose Rosen when the question says 'coined' and Wilson when it says 'popularised'.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q77",
+      "section": "what_is_biodiversity",
+      "taught": false
+    },
+    {
+      "note": "Real exam item: Rajaji (Raghati) Biosphere Reserve is in Uttarakhand. Specific reserve-by-reserve locations are not in NCERT Biology XII Ch. 13 and belong to ENV-06 (protected areas); not taught here. Source gap for this chapter.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q33",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item: IUCN headquarters at Gland, Switzerland. This chapter teaches IUCN's role (2004 species counts, Red List) from NCERT, but the headquarters location is not in the fetched source; it belongs to the Organisations book. Not taught here.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q47",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ENV-03": [
+    {
+      "note": "GK bank item (subtopic pollution): Stockholm Convention on POPs — adopted 2001, in force 17 May 2004, eliminate/reduce POPs release. Taught in s6 from the Government of India page (Dept. of Chemicals and Petrochemicals): in force 2004 (c53), India ratified 13.01.2006 (c54), POPs definition (c52). The adoption date 22 May 2001 itself is not in the fetched gov page and is not asserted in the chapter.",
+      "pyq_code": "GK-ENV-006",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "Acid rain is due to increased atmospheric concentration of SO2 and NO2 (official answer D). Taught in s3 with the full chain SO2/NO2 -> sulphuric/nitric acid -> acid rain -> marble cancer (hesc118, c09); also practice q12.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-3-Q96",
+      "section": "s3",
+      "taught": true
+    },
+    {
+      "note": "Layer that prevents UV rays from reaching the earth: Stratosphere (official answer A). Taught in s4: stratosphere contains the ozone layer which absorbs UV radiation (kegy207, c45); also practice q24.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-2-Q53",
+      "section": "s4",
+      "taught": true
+    },
+    {
+      "note": "Present in a refrigerator: Chlorofluorocarbon (official answer D). Taught in s4/s2: CFCs are used in refrigerators, air conditioners and aerosol sprays and damage the ozone layer (hesc118, c07); also practice q22.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q142",
+      "section": "s4",
+      "taught": true
+    },
+    {
+      "note": "Noise pollution threshold: official answer 80-99 dB. The chapter teaches the Noise Rules 2000 provisions that the fetched CPCB text carries (silence zone 100 m, night loudspeaker ban, complaint at +10 dB(A)), but no fetched source states the 80 dB threshold, and the CPCB page's Schedule with zone-wise dB limits was not in the fetched text. Source gap, disclosed in the s6 exam_note box; the number is not asserted.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q148",
+      "section": "s6",
+      "taught": false
+    },
+    {
+      "note": "International Day for the Preservation of the Ozone Layer: 16 September (official answer C). The chapter teaches the 1987 UNEP CFC-freeze agreement (jesc115, c31) but neither NCERT source gives the 16 September observance date. Source gap, disclosed in the s4 exam_note box; students are advised to memorise the date separately.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q63",
+      "section": "s4",
+      "taught": false
+    },
+    {
+      "note": "Delhi's '15-point Winter Action Plan' for air pollution: a current-affairs item tied to a specific year's government programme. Not in any textbook/government source used for this chapter and out of the chapter's textbook scope; not taught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q163",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ENV-04": [
+    {
+      "note": "GK bank item (subtopic climate_change): Paris Agreement reached at COP21 on 12 December 2015; goals well below 2°C and pursuing 1.5°C. Taught in global_response from PIB sources (c24, c28): COP21 Paris 2015, 195 countries, temperature goals verbatim.",
+      "pyq_code": "GK-ENV-007",
+      "section": "global_response",
+      "taught": true
+    },
+    {
+      "note": "WBCS Prelims 2016 Q62: 'Which is not a fact of Paris Agreement' — correct answer is the '200 countries' statement (195 countries adopted it, c28). Paris strands fully taught (COP21, below-2°C goal, c24/c28). Caveat: the option naming the '1997 Kyoto Protocol' is not separately taught — no fetched allowed-publisher quote for Kyoto was obtained (see REPORT.md gaps); the question is still answerable from the taught Paris facts.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q62",
+      "section": "global_response",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2019 (Afternoon) Q31: 'Which does NOT cause global warming?' — answer: solar energy. Core contrast taught: burning of fossil fuels releases CO2 in large quantities (c05) and human activities drive warming (c04). Caveat: the deforestation option is not covered by this chapter's fetched sources.",
+      "pyq_code": "CLERKSHIP-PART-I-2019-AFTERNOON-Q31",
+      "section": "causes",
+      "taught": true
+    },
+    {
+      "note": "WBP Constable 2021 Q64: with no atmosphere the Earth would be extremely cold. Concept taught: greenhouse gases absorb long-wave radiation and enhance the greenhouse effect (c07); the section deep text makes the 'necessary at natural levels' point explicitly. The exact -18°C figure sometimes quoted for this item is not in this chapter's sources and is not taught.",
+      "pyq_code": "WBP-CONSTABLE-2021-Q64",
+      "section": "greenhouse_effect",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2019 (Forenoon) Q40: 'Greta Thunberg is an environmental activist' — a current-affairs/person item. Not taught: no fetched allowed-publisher source covers her, and a person-profile fact does not belong to this chapter's sourced scope.",
+      "pyq_code": "CLERKSHIP-PART-I-2019-FORENOON-Q40",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Clerkship 2007 Q28: Rajendra Pachauri headed the international panel on climate change (IPCC). Not taught: no fetched NCERT/GOVT/IGNOU/NIOS/EPG quote covering the IPCC's role or Pachauri's chairmanship was obtained in this run, so the chapter does not assert it (see REPORT.md gaps). The chapter teaches the UNFCCC/Paris framework instead.",
+      "pyq_code": "CLERKSHIP-PART-I-2007-Q28",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ENV-05": [
+    {
+      "note": "Montreal Protocol signed 1987, Vienna Convention 1985 framework: taught from IGNOU Unit 1 (Vienna agreed 1985, in force 1988; Montreal agreed 16 September 1987, in force 1 January 1989) and PIB Kigali release (India a Party from 19 June 1992). GK bank item, subtopic conventions.",
+      "pyq_code": "GK-ENV-008",
+      "section": "ozone",
+      "taught": true
+    },
+    {
+      "note": "Basel Convention adopted 22 March 1989, in force 1992 (chapter gives 5 May 1992), hazardous wastes: taught from IGNOU Unit 1. GK bank item, subtopic conventions.",
+      "pyq_code": "GK-ENV-009",
+      "section": "chemicals_waste",
+      "taught": true
+    },
+    {
+      "note": "Convention on Biological Diversity at the 1992 Rio Earth Summit: taught from NCERT Biology XII Ch.13 and IGNOU Unit 1. The bank item's '150 government leaders signed' detail is not in the chapter's sources and is not asserted. GK bank item, subtopic conventions.",
+      "pyq_code": "GK-ENV-010",
+      "section": "biodiversity",
+      "taught": true
+    },
+    {
+      "note": "Convention on Migratory Species 'done at Bonn on 23 June 1979': the chapter teaches CMS (only global treaty for migratory species; COP13 Gandhinagar 2020, India presidency) from PIB, but no fetched allowed source (NCERT/IGNOU/PIB) states the Bonn 1979 signing, so that specific fact is not taught. Source gap.",
+      "pyq_code": "GK-ENV-011",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Order Vienna (1985) -> Montreal (1987) -> Basel (1989) -> CBD (1992), with Stockholm Convention on POPs in 2001: all five dates taught in the chapter (ozone, chemicals_waste and biodiversity sections; chronology question q38). GK bank item, subtopic conventions.",
+      "pyq_code": "GK-ENV-012",
+      "section": "ozone",
+      "taught": true
+    },
+    {
+      "note": "Paris Agreement item (which statement is NOT a fact: 196 parties, COP21, below-2C goal, Kyoto parties' meeting): the chapter teaches only India's ratification date (2 October 2016, NCERT Contemporary World Politics XII Ch.6). The Paris temperature target, the 196-party figure and the COP21 adoption detail are not in any fetched allowed source, so the item's discriminating facts are not taught. Source gap.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q62",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "International Day for the Preservation of the Ozone Layer (16 September): the chapter teaches that the Montreal Protocol was agreed on 16 September 1987 (IGNOU Unit 1) with an exam_note box linking that date to the ozone-day question. The observance's formal name itself is not in the sources; the answer date is fully supported.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q63",
+      "section": "ozone",
+      "taught": true
+    },
+    {
+      "note": "East Kolkata Wetlands declared a Ramsar site: taught — PIB backgrounder's state-wise Ramsar list names East Kolkata Wetlands under West Bengal, and the chapter's Bengal connection covers it. The designation year (2002) is not in the fetched sources and is not asserted.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q26",
+      "section": "wetlands_species",
+      "taught": true
+    },
+    {
+      "note": "Year the Sundarban was declared a Ramsar site (2019): the chapter teaches from PIB that the Sundarbans is India's largest Ramsar site (0.42 million ha), but no fetched allowed source gives its 2019 designation year, so the year asked for is not taught. Source gap.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q68",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "East Kolkata Wetland declared as a Ramsar site: same coverage as WBCS 2019 Q26 — taught via the PIB state-wise Ramsar list and the Bengal connection.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q81",
+      "section": "wetlands_species",
+      "taught": true
+    },
+    {
+      "note": "Substance present in a refrigerator (CFC): taught — IGNOU Unit 1 states CFCs are the main chemical agents responsible for ozone depletion, and the ozone section teaches CFCs as the Montreal Protocol's target substances.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q142",
+      "section": "ozone",
+      "taught": true
+    },
+    {
+      "note": "Layer of the atmosphere that prevents ultraviolet rays reaching the Earth's surface (ozone layer/stratosphere): taught — PIB Kigali release states the stratospheric ozone layer protects humans and the environment from harmful levels of ultraviolet radiation; NCERT describes the stratospheric ozone decline.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q53",
+      "section": "ozone",
+      "taught": true
+    }
+  ],
+  "ENV-06": [
+    {
+      "pyq_code": "GK-ENV-013",
+      "section": "tiger_projects",
+      "taught": true,
+      "note": "GK bank item (subtopic protected_areas): Project Tiger launched in 1973. Taught verbatim from NCERT jess102 (c08) and reinforced in the tiger_projects section, timeline and quick revision."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q41",
+      "section": null,
+      "taught": false,
+      "note": "Singalila National Park's district (Darjeeling): district-level location of Singalila is not in any source fetched for this chapter (NCERT names Sunderbans NP for West Bengal, not Singalila). Not taught; no fetched allowed-publisher quote supports it."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q26",
+      "section": "biosphere_ramsar",
+      "taught": true,
+      "note": "East Kolkata Wetlands declared a Ramsar site. Taught: the chapter lists both West Bengal Ramsar sites from the PIB Ramsar backgrounder (s6), including East Kolkata Wetlands and its wastewater-fed fisheries (c52). The 2002 designation year itself is not in the fetched PIB text and is not asserted."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q35",
+      "section": null,
+      "taught": false,
+      "note": "Sundarban inscribed as a World Heritage Site for its mangrove forests. The chapter teaches Sundarban's mangroves and their protective role (c54) but no fetched allowed-publisher source states the UNESCO World Heritage inscription or its reason, so the WHS strand is not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q168",
+      "section": null,
+      "taught": false,
+      "note": "Location of Vansda National Park (Gujarat): not mentioned in any source fetched for this chapter. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q68",
+      "section": "biosphere_ramsar",
+      "taught": true,
+      "note": "Sundarban declared a Ramsar site in 2019. Taught verbatim from PIB (c51): Sundarban Wetland designated 30 January 2019, India's largest Ramsar site."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q129",
+      "section": "tiger_projects",
+      "taught": true,
+      "note": "Sariska Tiger Sanctuary located in Rajasthan. Taught from NCERT jess102 (c10): Sariska Wildlife Sanctuary in Rajasthan is listed among India's tiger reserves; the Sariska community-conservation example (c17) reinforces the location."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q156",
+      "section": "pa_network",
+      "taught": true,
+      "note": "Forests with no free entry by people — Reserved Forests. Taught from NCERT jess102 (c13): reserved forests are more than half of forest land and the most valuable for conservation. Caveat: the chapter teaches the reserved/protected/unclassed classification; the exact 'no free entry' phrasing of the official key is a textbook-classification inference."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q81",
+      "section": "biosphere_ramsar",
+      "taught": true,
+      "note": "East Kolkata Wetland declared as a Ramsar site. Taught as for WBCS-2019-Q26: PIB Ramsar backgrounder lists East Kolkata Wetlands among West Bengal's Ramsar sites (c52)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q155",
+      "section": null,
+      "taught": false,
+      "note": "Jaldapara National Park location (Alipurduar, West Bengal): not in any source fetched for this chapter. Not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q188",
+      "section": null,
+      "taught": false,
+      "note": "Which of the following is not located in West Bengal (answer: Manas). Only the Manas strand is taught (Manas Tiger Reserve in Assam, c10; Manas Biosphere Reserve in Assam in the MoEFCC table, s5). Singalila, Chapramari and Namthing Pokhari are not covered by fetched sources, so the item as a whole is not taught."
+    },
+    {
+      "pyq_code": "WBP-CONSTABLE-2021-Q21",
+      "section": null,
+      "taught": false,
+      "note": "Buxa Tiger Reserve's district (Alipurduar): Buxa is not mentioned in any source fetched for this chapter. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-I-Q33",
+      "section": null,
+      "taught": false,
+      "note": "Rajaji Raghati Biosphere Reserve's state: this reserve is not in the MoEFCC 18-Biosphere-Reserve list fetched for this chapter (s5) and is not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-I-Q80",
+      "section": null,
+      "taught": false,
+      "note": "Bhitarkanika National Park's state (Odisha): Bhitarkanika is not mentioned in any source fetched for this chapter. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-IV-Q51",
+      "section": null,
+      "taught": false,
+      "note": "Gandhi Sagar Wildlife Sanctuary's fame: not mentioned in any source fetched for this chapter. Not taught."
+    },
+    {
+      "pyq_code": "CLERKSHIP-PART-I-2023-SESSION-IV-Q61",
+      "section": null,
+      "taught": false,
+      "note": "Vansda National Park location: same gap as WBCS-2019-Q168; not in fetched sources. Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-2023-PRELIMS-Q14",
+      "section": null,
+      "taught": false,
+      "note": "Nagarjunasagar-Srisailam is India's largest tiger reserve: superlative reserve-size facts are not in any source fetched for this chapter (changing/area-based facts deliberately not asserted). Not taught."
+    },
+    {
+      "pyq_code": "WBPSC-MISCELLANEOUS-2023-PRELIMS-Q50",
+      "section": null,
+      "taught": false,
+      "note": "First National Park of India (Jim Corbett). NCERT lists Corbett National Park in Uttarakhand among tiger reserves (c10) but no fetched source states it was India's first national park (1936). The 'first' fact is not taught."
+    }
+  ],
+  "ENV-07": [
+    {
+      "pyq_code": "GK-ENV-014",
+      "section": "conservation_policy",
+      "taught": true,
+      "note": "Energy Conservation Act 2001, BEE set up 1 March 2002, PAT scheme and ECBC all taught from BEE FAQ (claims c35, c37, c38)."
+    },
+    {
+      "pyq_code": "GK-ENV-015",
+      "section": "conservation_policy",
+      "taught": true,
+      "note": "National Solar Mission launched 11 January 2010 taught from MNRE Solar Overview (claim c33)."
+    },
+    {
+      "pyq_code": "GK-ENV-016",
+      "section": null,
+      "taught": false,
+      "note": "Chapter teaches only that India initiated the International Solar Alliance (PIB COP26 statement, claim c46). ISA launch year (2015), India-France joint launch and Gurugram headquarters were not in any fetched allowed-publisher source (isa.int is outside the environment profile's publisher list), so the item's core facts are not taught."
+    },
+    {
+      "pyq_code": "GK-ENV-017",
+      "section": "conservation_policy",
+      "taught": true,
+      "note": "All five Panchamrit commitments taught verbatim from the PIB COP26 national statement (claims c41-c45)."
+    },
+    {
+      "pyq_code": "GK-ENV-018",
+      "section": "conservation_policy",
+      "taught": true,
+      "note": "UJALA launched 5 January 2015 and LED efficiency facts taught from PIB UJALA explainer (claims c48, c49, c50)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-PRELIMS-Q85",
+      "section": "wind_solar",
+      "taught": true,
+      "note": "Solar cooker works on the greenhouse effect; taught via NCERT glass-plate/greenhouse text (claims c54, c18)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q150",
+      "section": "wind_solar",
+      "taught": true,
+      "note": "Largest wind power installation in Tamil Nadu; NCERT places India's largest wind energy farm near Kanyakumari in Tamil Nadu (claim c14)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q37",
+      "section": null,
+      "taught": false,
+      "note": "Rammam hydroelectric project's district (Darjeeling) is a project-specific location fact not present in any fetched source; the chapter teaches hydro power generally, not individual project locations."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q147",
+      "section": "hydro_biomass",
+      "taught": true,
+      "note": "Biogas consists mainly of methane (up to 75%) with carbon dioxide; taught from NCERT (claim c10)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q110",
+      "section": "wind_solar",
+      "taught": true,
+      "note": "Largest wind farm of India is in Tamil Nadu (Muppandal, near Kanyakumari); NCERT teaches the largest wind energy farm near Kanyakumari in Tamil Nadu, 380 MW (claim c14)."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q126",
+      "section": null,
+      "taught": false,
+      "note": "Sharavati Hydroelectric Project's state (Karnataka) is a project-specific location fact not present in any fetched source."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q135",
+      "section": "wind_solar",
+      "taught": true,
+      "note": "Solar cooker works on the greenhouse principle; taught from NCERT (claims c54, c18). Repeat of the 2015 question."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q43",
+      "section": null,
+      "taught": false,
+      "note": "Dulhasti Hydroelectric Project's location is a project-specific fact not present in any fetched source."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q45",
+      "section": null,
+      "taught": false,
+      "note": "Commercial solar cell efficiency percentage is not stated in the fetched NCERT chapter (which gives only 0.5-1 V and about 0.7 W per cell, claim c19); the efficiency figure was not sourced, so it is not taught."
+    },
+    {
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q116",
+      "section": null,
+      "taught": false,
+      "note": "West Bengal's wind energy project location (Fraserganj) is not present in any fetched allowed-publisher source; not taught rather than asserted from memory."
+    }
+  ]
+}

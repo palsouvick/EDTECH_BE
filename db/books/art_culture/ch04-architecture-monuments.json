@@ -1,0 +1,1733 @@
+{
+  "book": "art_culture",
+  "code": "ART-04",
+  "number": 4,
+  "part": "visual_heritage",
+  "title": "স্থাপত্য ও স্মৃতিস্তম্ভ",
+  "subtitle": "মন্দির-রীতি, স্তূপ-স্তম্ভ ও মুঘল সৌধ",
+  "subtopics": [
+    "architecture"
+  ],
+  "related_facts": [
+    "GK-ART-006",
+    "GK-ART-007",
+    "GK-ART-008",
+    "GK-ART-009",
+    "GK-ART-112",
+    "GK-ART-113",
+    "GK-ART-114",
+    "GK-ART-115",
+    "GK-ART-116"
+  ],
+  "prerequisites": [],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 2 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 9 of 12 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ART-04.json and drafts/ART-04_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ART-04_REPORT.md.",
+    "checked_claims": 56,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "ভারতের স্থাপত্য মানে শুধু পুরনো ভবন নয় — পাথরে লেখা হাজার বছরের ইতিহাস। এই অধ্যায়ে আমরা পড়ব মন্দিরের মূল কাঠামো, উত্তরের নাগর ও দক্ষিণের দ্রাবিড় রীতি, ওড়িশা ও বাংলার নিজস্ব ধারা, মৌর্যযুগের স্তূপ-স্তম্ভ-গুহা, আর সুলতানি-মুঘল যুগের কুতুব মিনার থেকে তাজমহল। প্রতিটি বিখ্যাত সৌধের সঙ্গে মনে রাখতে হবে তার রীতি, নির্মাতা আর একটি করে চেনার চিহ্ন — পরীক্ষার প্রশ্ন ঠিক এখান থেকেই আসে।",
+    "you_will_learn": [
+      "মন্দিরের অংশগুলো চেনা: গর্ভগৃহ, মণ্ডপ, শিখর, বিমান, গোপুরম",
+      "নাগর রীতির তিন উপভাগ: লতিনা, ফামসানা, বলভী",
+      "খাজুরাহো, মোঢেরা ও দেওগড়ের নির্মাতা ও সময়",
+      "ওড়িশার দেউল-জগমোহন ও কোনারকের সূর্যরথ-পরিকল্পনা",
+      "বাংলার পোড়ামাটির মন্দির ও 'বাংলা ছাদ'",
+      "দ্রাবিড় রীতি, শ্রীরঙ্গমের প্রাচীর ও বৃহদীশ্বর মন্দির",
+      "বেসর শৈলী, হয়সালদের স্টেলেট পরিকল্পনা ও ইলোরার কৈলাসনাথ",
+      "মৌর্য স্তূপ-স্তম্ভ: সাঁচি, সারনাথ, লোমশ ঋষি গুহা",
+      "কুতুব চত্বর ও তাজমহলের চারবাগ ও ইনলে কাজ"
+    ]
+  },
+  "sections": [
+    {
+      "id": "basic_form",
+      "heading": "মন্দিরের মূল কাঠামো: গর্ভগৃহ থেকে শিখর",
+      "quick": "প্রতিটি হিন্দু মন্দিরের কেন্দ্রে থাকে গর্ভগৃহ (Garbhagriha) — মূল দেবমূর্তির ছোট্ট কক্ষ। তার সামনে ভক্তদের জমায়েতের জায়গা মণ্ডপ (Mandapa), আর উপরে ওঠে পর্বতাকৃতির চূড়া — উত্তরে বক্র শিখর, দক্ষিণে পিরামিডাকৃতি বিমান।",
+      "standard": "মন্দির চেনার সবচেয়ে সহজ উপায় হল তার অংশগুলো আলাদা করে দেখা। মন্দিরের প্রাণকেন্দ্র হল **গর্ভগৃহ** — শব্দটির আক্ষরিক অর্থ 'গর্ভকক্ষ' (womb house)। শুরুতে এটি ছিল একটিমাত্র প্রবেশপথযুক্ত ছোট্ট কুঠুরি, কালক্রমে তা বড় কক্ষে পরিণত হয়; এখানেই থাকে প্রধান দেবমূর্তি, যাকে ঘিরেই সমস্ত আচার-অনুষ্ঠান।\n\nগর্ভগৃহের সামনে থাকে প্রবেশপথ বা স্তম্ভযুক্ত হলঘর — **মণ্ডপ** — যেখানে বহু পূজারী একসঙ্গে জমায়েত হতে পারে। গর্ভগৃহের সামনে অক্ষ বরাবর রাখা হয় দেবতার বাহন ও ধ্বজস্তম্ভ। স্বতন্ত্রভাবে দাঁড়িয়ে থাকা মন্দিরের উপরে ওঠে পর্বতের মতো চূড়া: উত্তর ভারতে তা বক্ররেখায় ওঠা **শিখর**, আর দক্ষিণ ভারতে ধাপে ধাপে ওঠা পিরামিডাকৃতি **বিমান** (Vimana)।\n\nএই মৌলিক কাঠামোর উপর দাঁড়িয়েই ভারতে দুটি বড় রীতি গড়ে ওঠে — উত্তরের **নাগর** (Nagara) আর দক্ষিণের **দ্রাবিড়** (Dravida)। পরীক্ষায় প্রায়ই জিজ্ঞাসা করা হয় কোন চূড়া কোন অঞ্চলের — শিখর দেখলে উত্তর, বিমান দেখলে দক্ষিণ, এই জোড়াটি মনে রাখলেই অর্ধেক প্রশ্নের উত্তর হয়ে যায়।\n\nপ্রাচীন মন্দিরগুলো ছিল সরল: বারান্দা, একটি হলঘর আর পেছনে গর্ভগৃহ। উত্তরপ্রদেশের দেওগড়, মধ্যপ্রদেশের এরণ, নাচনা-কুঠারা ও উদয়গিরি এই পর্বের গুরুত্বপূর্ণ কেন্দ্র। দেওগড়ের মন্দির (ষষ্ঠ শতকের গোড়ার দিক) **পঞ্চায়তন** (Panchayatana) রীতির উদাহরণ — আয়তাকার বেদীর উপর মূল মন্দির, আর চার কোণে চারটি ছোট মন্দির, মোট পাঁচটি।",
+      "deep": "মন্দিরের গর্ভগৃহ তিন ধরনের হত: (১) **সন্ধার** — প্রদক্ষিণপথসহ, (২) **নিরন্ধার** — প্রদক্ষিণপথ ছাড়া, আর (৩) **সর্বতোভদ্র** — সব দিক থেকে প্রবেশ করা যায়। পরীক্ষায় এই তিনটি নাম একসঙ্গে জিজ্ঞাসা করা হতে পারে। আরও একটি ব্যতিক্রমী উদাহরণ হল বোধগয়ার মহাবোধি মন্দির — NCERT স্পষ্ট বলেছে, এটি কঠোরভাবে বললে নাগরও নয়, দ্রাবিড়ও নয়: নাগরের মতো সরু, কিন্তু দ্রাবিড়ের মতো বক্রতা ছাড়াই সোজা উঠে গেছে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "গর্ভগৃহ = দেবমূর্তির কক্ষ; মণ্ডপ = ভক্তদের হলঘর; শিখর = উত্তরের বক্র চূড়া; বিমান = দক্ষিণের পিরামিডাকৃতি চূড়া।"
+        }
+      ],
+      "claims": [
+        "c09",
+        "c10",
+        "c11",
+        "c15",
+        "c35"
+      ]
+    },
+    {
+      "id": "nagara_style",
+      "heading": "নাগর রীতি: উত্তর ভারতের মন্দির",
+      "quick": "নাগর মন্দির পাথরের উঁচু বেদীর উপর দাঁড়ায়, চারদিকে সাধারণত বিশাল প্রাচীর বা তোরণ থাকে না। গর্ভগৃহ থাকে সবচেয়ে উঁচু শিখরের ঠিক নীচে। শিখরের আকৃতি অনুযায়ী প্রধান ভাগ: লতিনা (রেখাপ্রসাদ), ফামসানা ও বলভী।",
+      "standard": "উত্তর ভারতে জনপ্রিয় মন্দির-রীতির নাম **নাগর**। এর প্রথম চেনার চিহ্ন: পুরো মন্দিরটি তৈরি হয় পাথরের **বেদীর** উপর, সিঁড়ি বেয়ে উঠতে হয়; দক্ষিণের মতো বিস্তৃত প্রাচীর বা বিশাল প্রবেশতোরণ সাধারণত থাকে না। প্রথমদিকের মন্দিরে শিখর ছিল একটি, পরে একাধিক শিখর একসঙ্গে উঠতে থাকে — তবে **গর্ভগৃহ সবসময় সবচেয়ে উঁচু শিখরটির ঠিক নীচে** থাকে।\n\nশিখরের আকৃতি অনুযায়ী নাগরের তিনটি প্রধান উপভাগ:\n\n- **লতিনা / রেখাপ্রসাদ** — গোড়ায় বর্গাকার, দেয়াল উপরের দিকে বেঁকে ভেতরে ঢুকে একটি বিন্দুতে মেশে; সবচেয়ে প্রচলিত রূপ।\n- **ফামসানা** — লতিনার চেয়ে চওড়া ও খাটো; ছাদ একাধিক পাথরের পাটাতনে ধাপে ধাপে সোজা ঢালে ওঠে, বাঁকে না। অনেক মন্দিরে মণ্ডপের উপর ফামসানা আর গর্ভগৃহের উপর লতিনা শিখর দেখা যায়।\n- **বলভী** — আয়তাকার ভবন, উপরে খিলানাকার ছাদ — দেখতে প্রাচীন গোরুর গাড়ির মতো, তাই 'ওয়াগন-ভল্টেড' বলা হয়।\n\n**খাজুরাহো** নাগর রীতির পরিণত রূপের শ্রেষ্ঠ উদাহরণ। স্থানীয় ঐতিহ্য অনুযায়ী এখানে ছিল পঁয়াশিটি মন্দির, আজ দাঁড়িয়ে আছে মাত্র পঁচিশটি। বিষ্ণুকে উৎসর্গীকৃত **লক্ষ্মণ মন্দির** ৯৫৪ সালে গড়েন চান্দেলা রাজা ধঙ্গ। সবচেয়ে বড় ও মহিমান্বিত **কাণ্ডারীয় মহাদেব** মন্দির রাজা গণ্ডের (১০১৭–২৯) বলে মনে করা হয়। খাজুরাহোর শিখরগুলো বক্র পিরামিডের মতো উঁচুতে ওঠে, শেষ হয় **অমলক** নামের খাঁজকাটা চাকতিতে, তার উপর **কলস**। মন্দিরগুলোর পরিকল্পনায় থাকে উঁচু বেদী (জগতী), অর্ধমণ্ডপ, মণ্ডপ, অন্তরাল আর গর্ভগৃহ; বড় মন্দিরগুলো চার কোণে ছোট মন্দিরসহ পঞ্চায়তন।\n\nপশ্চিম ভারতের উদাহরণ **মোঢেরার সূর্য মন্দির** (১০২৬) — সোলাঙ্কি রাজা প্রথম ভীমদেবের তৈরি; সামনে বিশাল আয়তাকার ধাপকাটা জলাশয়, **সূর্যকুণ্ড**।",
+      "deep": "কেন্দ্রীয় ভারতের মন্দিরগুলো বেলেপাথরে তৈরি। গুপ্তযুগের সবচেয়ে পুরনো টিকে থাকা কাঠামোগত মন্দিরগুলোর একটি সাঁচিতে, স্তূপের পাশে — এটি ছাদ-সমতল প্রথম মন্দির। খাজুরাহোর ভাস্কর্য অত্যন্ত শৈলীবদ্ধ: প্রায় পূর্ণ উত্থিত খোদাই, তীক্ষ্ণ নাক, লম্বা চোখ-ভুরু এর চেনার চিহ্ন।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ো না",
+          "body": "লতিনা = গর্ভগৃহের বক্র শিখর; ফামসানা = মণ্ডপের ধাপছাদ। দুটো একই মন্দিরে একসঙ্গে থাকতে পারে।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "খাজুরাহো: চান্দেলা বংশ, লক্ষ্মণ মন্দির ৯৫৪ (ধঙ্গ), কাণ্ডারীয় মহাদেব সবচেয়ে বড় (গণ্ড, ১০১৭–২৯) — এই তিনটি তথ্য বারবার আসে।"
+        }
+      ],
+      "claims": [
+        "c12",
+        "c13",
+        "c14",
+        "c16",
+        "c17",
+        "c18",
+        "c45",
+        "c46",
+        "c47"
+      ]
+    },
+    {
+      "id": "odisha_bengal",
+      "heading": "ওড়িশা ও বাংলার মন্দির: দেউল, কোনারক ও পোড়ামাটি",
+      "quick": "ওড়িশার মন্দির নাগরেরই একটি স্বতন্ত্র উপশৈলী: শিখরকে বলে দেউল, সামনের মণ্ডপকে জগমোহন। বাইরে সমৃদ্ধ খোদাই, ভিতরে প্রায় সাদামাটা, আর চারদিকে প্রাচীর থাকে। কোনারকের সূর্য মন্দির বারো জোড়া চাকাওয়ালা বিশাল সূর্যরথের আদলে গড়া। বাংলার নিজস্ব ধারা পোড়ামাটির মন্দির আর বাঁশের কুঁড়েঘরের বাঁকানো ছাদ — 'বাংলা ছাদ'।",
+      "standard": "ওড়িশার মন্দিরগুলো নাগর রীতির মধ্যেই একটি **স্বতন্ত্র উপশৈলী**। এখানে শিখরের নাম **দেউল** (Deul) — প্রায় শীর্ষ পর্যন্ত খাড়া উঠে হঠাৎ তীক্ষ্ণভাবে ভেতরের দিকে বাঁক নেয়। দেউলের সামনে থাকে মণ্ডপ, যার ওড়িশি নাম **জগমোহন** (Jagamohana)। মূল মন্দিরের ভূমি-পরিকল্পনা প্রায় সবসময় বর্গাকার। ওড়িশা মন্দিরের আরও দুটি চিহ্ন: বাইরের দেয়াল সমৃদ্ধ খোদাইয়ে ভরা, কিন্তু **ভিতরটা সাধারণত প্রায় সাদামাটা**; আর উত্তর ভারতের সাধারণ নিয়মের বিপরীতে এখানে **প্রাচীর থাকে**।\n\nএই শৈলীর চরম উদাহরণ বঙ্গোপসাগরের তীরে **কোনারকের সূর্য মন্দির** (আনুমানিক ১২৪০)। ASI-এর বর্ণনায় এটি পরিকল্পিত হয়েছিল একটি বিশাল **সূর্যরথ** হিসেবে — বারো জোড়া অলংকৃত চাকা, টানছে সাতটি লাফিয়ে ওঠা ঘোড়া। মন্দিরে ছিল ৬৮ মিটারের বেশি উঁচু শিখরসহ গর্ভগৃহ, ৩০ মিটার বর্গাকার ও ৩০ মিটার উঁচু জগমোহন, আর একই অক্ষে আলাদা **নাটমন্দির** (নৃত্যশালা)। NCERT জানায়, প্রায় ৭০ মিটার উঁচু সেই শিখর জায়গাটির পক্ষে অত্যধিক ভারী প্রমাণিত হয়ে ঊনবিংশ শতকে ভেঙে পড়ে।\n\n**বাংলার** প্রাচীন স্থাপত্যের ইতিহাস জানা কঠিন, কারণ বহু প্রাচীন ভবন সংস্কার হয়ে গেছে। সপ্তম শতক পর্যন্ত বাংলায় নির্মাণের প্রধান উপকরণ ছিল **পোড়ামাটি** (টেরাকোটা) — বৌদ্ধ ও হিন্দু দেবদেবীর ফলকও তৈরি হত তাতেই। নবম–একাদশ শতকের বাংলার ভাস্কর্য-শৈলী **পাল শৈলী** নামে পরিচিত। বর্ধমান জেলার বারাকারের নবম শতকের **সিদ্ধেশ্বর মহাদেব** মন্দির — উঁচু বক্র শিখর আর বড় অমলকসহ — প্রারম্ভিক পাল শৈলীর উদাহরণ।\n\nমুঘল যুগে ও তার পরে বাংলাজুড়ে গড়ে ওঠে অনন্য **পোড়ামাটির ইটের মন্দির** — বাঁশের কুঁড়েঘরের স্থানীয় কৌশল, পালযুগের পুরনো রূপ আর ইসলামি স্থাপত্যের খিলান-গম্বুজের মিশেলে। বিষ্ণুপুর, বাঁকুড়া, বর্ধমান ও বীরভূমে ছড়িয়ে থাকা এই মন্দিরগুলোর বেশিরভাগই **সপ্তদশ শতকের**।",
+      "deep": "বাংলার কুঁড়েঘরের বাঁশের ছাদের বাঁকানো বা ঢালু পাশের আকৃতি এতটাই প্রভাবশালী ছিল যে তা **মুঘল ভবনেও গৃহীত হয়** — উত্তর ভারতজুড়ে তা 'বাংলা ছাদ' (Bangla roof) নামে পরিচিত। অর্থাৎ বাংলার লোকজ কাঠামো সাম্রাজ্যিক স্থাপত্যে জায়গা করে নিয়েছিল — পরীক্ষায় এটি প্রিয় প্রশ্ন। পুরুলিয়ার তেলকুপির নবম–দ্বাদশ শতকের মন্দিরগুলো বাঁধ নির্মাণের সময় ডুবে যায়; সেগুলোতে উত্তর ভারতের সব পরিচিত নাগর উপভাগের পরিচয় মিলত।",
+      "boxes": [
+        {
+          "kind": "bengal",
+          "title": "বাংলা সংযোগ",
+          "body": "বিষ্ণুপুরের পোড়ামাটির মন্দির আর 'বাংলা ছাদ' — এই অধ্যায়ের সবচেয়ে সরাসরি বাংলা-প্রশ্ন এখান থেকেই আসে।"
+        }
+      ],
+      "claims": [
+        "c19",
+        "c20",
+        "c21",
+        "c37",
+        "c38",
+        "c22",
+        "c25",
+        "c24",
+        "c23"
+      ]
+    },
+    {
+      "id": "dravida_vesara",
+      "heading": "দ্রাবিড় ও বেসর: গোপুরম, বিমান আর মিশ্র শৈলী",
+      "quick": "দ্রাবিড় মন্দির প্রাচীরে ঘেরা; প্রবেশপথে বিশাল তোরণ গোপুরম, মূল চূড়া ধাপ-পিরামিড বিমান। শ্রীরঙ্গমে এমন সাতটি সমকেন্দ্রিক প্রাচীর আছে। দাক্ষিণাত্যে নাগর-দ্রাবিড়ের মিশ্রণে গড়ে ওঠে বেসর শৈলী — হয়সাল মন্দিরের তারা-আকৃতির (স্টেলেট) ভূমি-পরিকল্পনা এর বিখ্যাত রূপ।",
+      "standard": "দ্রাবিড় মন্দির চেনা যায় তার **প্রাচীর** দেখে: নাগরের বিপরীতে দ্রাবিড় মন্দির চত্বরের প্রাচীরে ঘেরা, আর সামনের দেয়ালের মাঝখানে থাকে প্রবেশতোরণ — **গোপুরম** (Gopuram)। মূল মন্দিরের চূড়া **বিমান** — উত্তরের বক্র শিখরের বদলে তা ধাপে ধাপে জ্যামিতিকভাবে ওঠা **ধাপ-পিরামিড**। দক্ষিণে 'শিখর' শব্দটি শুধু শীর্ষের ছোট স্তূপিকা বা অষ্টভুজ গম্বুজাকৃতি অংশের জন্য ব্যবহৃত হয় — যা উত্তরের অমলক-কলসের সমতুল্য। চত্বরের ভিতরে সাধারণত বড় জলাশয় বা মন্দির-পুকুরও থাকে।\n\nকালক্রমে মন্দিরনগরী বড় হলে নতুন প্রাচীর পুরনোটার বাইরে গড়া হত, আরও উঁচু গোপুরমসহ। তিরুচিরাপল্লীর **শ্রীরঙ্গম** মন্দিরে এমন **সাতটি সমকেন্দ্রিক** আয়তাকার প্রাচীর আছে — সবচেয়ে বাইরেরটি সবচেয়ে নতুন, কেন্দ্রের গর্ভগৃহের চূড়াটি সবচেয়ে পুরনো। কাঞ্চীপুরম, তাঞ্জাভুর, মাদুরাই ও কুম্ভকোণম তামিলনাড়ুর বিখ্যাত মন্দিরনগরী; অষ্টম–দ্বাদশ শতকে মন্দির শুধু ধর্মীয় কেন্দ্র ছিল না, বিশাল ভূসম্পত্তি নিয়ন্ত্রণকারী প্রশাসনিক কেন্দ্রও ছিল।\n\nচোল স্থাপত্যের শিখর তাঞ্জাভুরের **বৃহদীশ্বর (রাজরাজেশ্বর)** মন্দির — আনুমানিক ১০০৯ সালে রাজরাজ চোলের সম্পন্ন করা, সমকালীন ভারতের সবচেয়ে বড় ও উঁচু মন্দির। পল্লবদের শোর টেম্পল (মহাবলীপুরম) আগের পর্বের উদাহরণ।\n\n**দাক্ষিণাত্য ও বেসর:** কর্ণাটকে উত্তর ও দক্ষিণ — দুই রীতির প্রভাব মিশেছে। সপ্তম শতকের মাঝামাঝির পর জনপ্রিয় হওয়া এই মিশ্র শৈলী কিছু প্রাচীন গ্রন্থে **বেসর** (Vesara) নামে পরিচিত। রাষ্ট্রকূটদের কীর্তি ইলোরার **কৈলাসনাথ মন্দির** — সম্পূর্ণ দ্রাবিড় ভবন, বিমান প্রায় ত্রিশ মিটার উঁচু, আর অবিশ্বাস্যভাবে পুরোটাই **জীবন্ত পাথর খুঁড়ে** তৈরি। **হয়সাল** মন্দির (বেলুর, হালেবিড়ু, সোমনাথপুরম) বেসর বা মিশ্র শৈলীরই রূপ: বর্গাকার পরিকল্পনা থেকে এত কোণ বেরিয়ে আসে যে ভূমি-চিত্র **তারার মতো** দেখায় (স্টেলেট পরিকল্পনা); নরম **সোপস্টোনে** তৈরি বলে খোদাই অত্যন্ত সূক্ষ্ম। হালেবিড়ুর হয়সালেশ্বর মন্দির ১১৫০ সালে গাঢ় শিস্ট পাথরে তৈরি।\n\n**বিজয়নগর** (হাম্পি) শতাব্দীপ্রাচীন দ্রাবিড় মন্দির-স্থাপত্যের সঙ্গে প্রতিবেশী সুলতানদের ইসলামি শৈলীর সংশ্লেষ ঘটায়।",
+      "deep": "ইলোরায় বৌদ্ধ, হিন্দু ও জৈন — তিন ধর্মের স্মৃতিস্তম্ভ পাশাপাশি আছে; বাদামি, খাজুরাহো ও কনৌজে যেকোনো দুটি ধর্মের নিদর্শন মেলে। পঞ্চম শতকে কুমারগুপ্ত প্রথমের প্রতিষ্ঠা করা নালন্দা মহাবিহারও এই পর্বের স্থাপত্য-ঐতিহ্যের অংশ — শুয়ান জাংয়ের (Xuan Zang) বিবরণই এর প্রধান তথ্যসূত্র।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ো না",
+          "body": "গোপুরম = প্রবেশতোরণ (দ্রাবিড়); বিমান = গর্ভগৃহের উপর মূল চূড়া (দ্রাবিড়)। দক্ষিণে সবচেয়ে উঁচু অংশ প্রায়ই গোপুরম, বিমান নয়।"
+        }
+      ],
+      "claims": [
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c33",
+        "c31",
+        "c32",
+        "c34",
+        "c36"
+      ]
+    },
+    {
+      "id": "early_monuments",
+      "heading": "প্রাচীন স্মৃতিস্তম্ভ: স্তূপ, স্তম্ভ ও শিলাখোদাই গুহা",
+      "quick": "মন্দিরের আগের যুগের স্মৃতিস্তম্ভ বলতে স্তূপ, অশোকস্তম্ভ আর শিলাখোদাই গুহা। সাঁচির মহাস্তূপ অশোকের সময় ইটে তৈরি, পরে পাথরে ঢাকা হয়। সারনাথের সিংহশীর্ষ মৌর্য ভাস্কর্যের শ্রেষ্ঠ নিদর্শন ও ভারতের জাতীয় প্রতীক।",
+      "standard": "খ্রিস্টপূর্ব তৃতীয় শতকে মৌর্য সম্রাট **অশোক** বৌদ্ধ শ্রমণ ঐতিহ্যের পৃষ্ঠপোষক হন — তাঁর যুগেই ভারতের প্রথম বড় পাথুরে স্মৃতিস্তম্ভগুলো গড়ে ওঠে। এই পর্বের তিনটি প্রধান ধারা: **স্তূপ, স্তম্ভ ও শিলাখোদাই গুহা**।\n\n**স্তূপ** তৈরি হত বুদ্ধের দেহাবশেষের উপর — বিহারের রাজগৃহ, বৈশালী, বেথাদীপ ও পাভা, নেপালের কপিলাবস্তু প্রভৃতি স্থানে এমন স্তূপের কথা জানা যায়। **সাঁচির মহাস্তূপ** অশোকের সময় **ইটে** তৈরি হয়েছিল; পরে তা পাথরে ঢেকে দেওয়া হয় ও অনেক সংযোজন ঘটে। স্তূপের কাঠামোয় থাকে বেলনাকার ভিত্তি, গোলার্ধাকার অণ্ড, উপরে হার্মিকা ও ছত্র।\n\n**স্তম্ভ:** মৌর্য স্তম্ভ আখেমেনীয় (পারসিক) স্তম্ভের থেকে আলাদা — সেগুলো জোড়া দিয়ে তৈরি, মৌর্য স্তম্ভ **একখণ্ড পাথর খুঁড়ে** তৈরি। স্তম্ভশীর্ষে থাকত ষাঁড়, সিংহ, হাতির মতো প্রাণীর মূর্তি। বারাণসীর কাছে **সারনাথের সিংহশীর্ষ** মৌর্য ভাস্কর্যের শ্রেষ্ঠ নিদর্শন — চারটি সিংহ পিঠাপিঠি বসে, নীচের বৃত্তাকার অ্যাবাকাসে ঘোড়া, ষাঁড়, সিংহ ও হাতি খোদাই করা; এটি ধর্মচক্রপ্রবর্তনের প্রতীক এবং **ভারতের জাতীয় প্রতীক**। মৌর্য শিল্পের মসৃণ পালিশ আরেকটি চেনার চিহ্ন — পাটনার **দিদারগঞ্জ যক্ষী** মূর্তিতেও সেই চকচকে পালিশ করা পৃষ্ঠ দেখা যায়।\n\n**গুহা:** গয়ার কাছে বরাবর পাহাড়ের **লোমশ ঋষি গুহা** অশোক আজীবিক সম্প্রদায়কে দান করেছিলেন; এর প্রবেশপথে অর্ধবৃত্তাকার চৈত্য-খিলান। ওড়িশার **ধৌলির** বিশাল শিলাখোদাই হাতির গায়েই আছে অশোকের শিলালিপি।",
+      "deep": "পৃষ্ঠপোষকতা এই যুগে মূলত সমষ্টিগত ছিল — সাধারণ ভক্ত, গহপতি (ধনী গৃহস্থ), রাজা এমনকি শ্রমিকসংঘও (guild) দান করত; রাজকীয় পৃষ্ঠপোষকতার উদাহরণ তুলনায় কম। দ্বিতীয় শতক খ্রিস্টপূর্ব থেকে দাতাদের নাম ও পেশা লেখা শিলালিপি প্রচুর পাওয়া যায়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "সারনাথ সিংহশীর্ষ = জাতীয় প্রতীক; লোমশ ঋষি গুহা = আজীবিকদের দান; ধৌলি হাতি = ওড়িশা + অশোকের শিলালিপি — তিনটিই প্রিয় প্রশ্ন।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c08",
+        "c07",
+        "c02",
+        "c03",
+        "c04",
+        "c05",
+        "c06"
+      ]
+    },
+    {
+      "id": "sultanate_mughal",
+      "heading": "সুলতানি ও মুঘল স্থাপত্য: কুতুব থেকে তাজমহল",
+      "quick": "দিল্লিতে সুলতানি স্থাপত্যের শুরু কুতুবউদ্দিন আইবকের হাতে — কুওয়াত-উল-ইসলাম মসজিদ (১১৯৮) ও কুতুব মিনারের ভিত্তি (১১৯৯)। মুঘল স্থাপত্যের চরম শিখর আগ্রার তাজমহল — শাহজাহানের তৈরি, চারবাগ বাগান আর বহুবর্ণ পাথর-খচিত (ইনলে) কাজের জন্য বিখ্যাত।",
+      "standard": "**দিল্লি সুলতানি:** কুতুব চত্বরে দাঁড়ালে একসঙ্গে অনেক যুগের স্থাপত্য দেখা যায়। **কুওয়াত-উল-ইসলাম মসজিদ** (১১৯৮) দিল্লির সুলতানদের তৈরি সবচেয়ে পুরনো টিকে থাকা মসজিদ। তার পাশেই **কুতুব মিনার** — লাল ও হালকা বেলেপাথরে তৈরি, ভারতের **সর্বোচ্চ মিনার**: উচ্চতা ৭২.৫ মিটার, গোড়ায় ব্যাস ১৪.৩২ মিটার, শীর্ষে প্রায় ২.৭৫ মিটার। ১১৯৯ সালে কুতুবউদ্দিন আইবক এর ভিত্তি স্থাপন করে প্রথম তলা তোলেন; তাঁর উত্তরসূরি ও জামাতা **ইলতুৎমিশ** (১২১১–৩৬) আরও তিনটি তলা যোগ করেন। পরে ফিরোজ শাহ তুঘলক ও সিকন্দর লোদি এর মেরামত করেন।\n\nচত্বরের **লৌহস্তম্ভ** আরও পুরনো — গায়ে খ্রিস্টপূর্ব চতুর্থ শতকের (খ্রিস্টীয় চতুর্থ শতক) ব্রাহ্মী লিপিতে সংস্কৃত শিলালিপি: রাজা চন্দ্রের স্মরণে বিষ্ণুধ্বজ হিসেবে এটি স্থাপিত হয়েছিল। আলাউদ্দিন খলজির **আলাই দরওয়াজা** (১৩১১) ইসলামি নির্মাণ ও অলংকরণ নীতির প্রথম প্রয়োগ ঘটানো ভবন। তাঁর **আলাই মিনার** কুতুব মিনারের দ্বিগুণ আকারের পরিকল্পনা ছিল, কিন্তু প্রথম তলা (২৫ মিটার) পর্যন্তই থেমে যায়।\n\n**মুঘল শিখর — তাজমহল:** ASI তাজমহলকে বলেছে মুঘল স্থাপত্যের সর্বোচ্চ শিখর। সম্রাট **শাহজাহান** (১৬২৮–৫৮) তাঁর রানি অর্জুমন্দ বানো বেগম — **মুমতাজ মহল** — এর স্মরণে এটি গড়েন; এটি দুজনেরই সমাধিসৌধ। যমুনার **ডান তীরে** অবস্থিত এই সৌধগুচ্ছ সম্পন্ন হতে সময় লাগে **১৭ বছর**, শেষ হয় ১৬৪৮ সালে। সাদা মার্বেল আসে রাজস্থানের **মাকরানা** থেকে; পাথর-খচিত (ইনলে) কাজের আধমূল্যবান পাথর আসে ভারতের দূরবর্তী অঞ্চল, সিলন (শ্রীলঙ্কা) ও আফগানিস্তান থেকে।\n\nবাগানটি প্রশস্ত খাল দিয়ে **চার ভাগে** বিভক্ত — নিখুঁত **চারবাগ** (Charbagh) পরিকল্পনা। ভিতরে ও বাইরে দাদো, স্মৃতিফলক (সেনোটাফ) ও মার্বেলের জালি-পর্দায় দেখা যায় চমৎকার **বহুবর্ণ ইনলে** কাজ। মূল সমাধিটি বর্গাকার, কোণগুলো ছাঁটা (chamfered); পশ্চিমে লাল বেলেপাথরের মসজিদ ও পূর্বে মেহমানখানা রঙের বৈপরীত্য তৈরি করে।",
+      "deep": "হাম্পির বিজয়নগর স্থাপত্যের সঙ্গে তুলনা করলে দেখা যায়, একই শতকগুলোতে দক্ষিণে হিন্দু-ইসলামি সংশ্লেষ ঘটছিল অন্যভাবে: বিজয়নগর দ্রাবিড় ঐতিহ্যের সঙ্গে প্রতিবেশী সুলতানদের ইসলামি শৈলী মেশায়, আর মুঘল দরবারে পারসিক-মধ্য এশীয় কারিগরদের হাতে গড়ে ওঠে নিজস্ব সাম্রাজ্যিক শৈলী — তাজের জন্য সমগ্র সাম্রাজ্য, মধ্য এশিয়া ও ইরান থেকে রাজমিস্ত্রি, পাথরকাটা, ইনলে-শিল্পী ও গম্বুজ-নির্মাতা আনা হয়েছিল (ASI)।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ো না",
+          "body": "কুতুব মিনার শুরু করেন আইবক, শেষ করেননি — তিন তলা যোগ করেন ইলতুৎমিশ। 'কে সম্পূর্ণ করেন' প্রশ্নে উত্তর ইলতুৎমিশ।"
+        }
+      ],
+      "claims": [
+        "c41",
+        "c39",
+        "c40",
+        "c42",
+        "c43",
+        "c44",
+        "c51",
+        "c55",
+        "c52",
+        "c54",
+        "c53",
+        "c56"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "সাঁচিতে ইটের স্তূপ নির্মাণ",
+      "when": "খ্রিস্টপূর্ব তৃতীয় শতক",
+      "what": "অশোকের সময় সাঁচির মহাস্তূপ ইটে তৈরি হয়; পরে পাথরে ঢাকা হয়।",
+      "why_it_matters": "ভারতের প্রাচীনতম বড় স্মৃতিস্তম্ভ-ঐতিহ্যের সূচনা বোঝায়।",
+      "section": "early_monuments",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "title": "লক্ষ্মণ মন্দির নির্মাণ, খাজুরাহো",
+      "when": "৯৫৪ খ্রিস্টাব্দ",
+      "what": "চান্দেলা রাজা ধঙ্গ বিষ্ণুকে উৎসর্গ করে লক্ষ্মণ মন্দির গড়েন।",
+      "why_it_matters": "নাগর রীতির পরিণত পর্বের সূচনা-নিদর্শন।",
+      "section": "nagara_style",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "title": "বৃহদীশ্বর মন্দির সম্পন্ন, তাঞ্জাভুর",
+      "when": "আনুমানিক ১০০৯ খ্রিস্টাব্দ",
+      "what": "রাজরাজ চোল তাঞ্জাভুরের বিশাল শিব মন্দির সম্পন্ন করেন।",
+      "why_it_matters": "দ্রাবিড় স্থাপত্যের মাপ ও উচ্চতার চরম নিদর্শন।",
+      "section": "dravida_vesara",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "title": "কুতুব মিনারের ভিত্তি স্থাপন",
+      "when": "১১৯৯ খ্রিস্টাব্দ",
+      "what": "কুতুবউদ্দিন আইবক মিনারের ভিত্তি স্থাপন করে প্রথম তলা তোলেন।",
+      "why_it_matters": "দিল্লিতে সুলতানি স্থাপত্যের প্রতীকী সূচনা।",
+      "section": "sultanate_mughal",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "title": "কোনারক সূর্য মন্দির নির্মাণ",
+      "when": "আনুমানিক ১২৪০ খ্রিস্টাব্দ",
+      "what": "বঙ্গোপসাগরের তীরে পাথরে সূর্য মন্দির তৈরি হয় সূর্যরথের আদলে।",
+      "why_it_matters": "ওড়িশা (কলিঙ্গ) শৈলীর সর্বোচ্চ কীর্তি।",
+      "section": "odisha_bengal",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "title": "তাজমহল সম্পন্ন",
+      "when": "১৬৪৮ খ্রিস্টাব্দ",
+      "what": "১৭ বছর ধরে নির্মাণের পর আগ্রার তাজমহলগুচ্ছ সম্পন্ন হয়।",
+      "why_it_matters": "মুঘল স্থাপত্যের সর্বোচ্চ শিখর হিসেবে ASI-এর স্বীকৃতি।",
+      "section": "sultanate_mughal",
+      "claims": [
+        "c52"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "অশোক",
+      "when": "খ্রিস্টপূর্ব তৃতীয় শতক",
+      "role": "মৌর্য সম্রাট",
+      "contribution": "বৌদ্ধ ঐতিহ্যের পৃষ্ঠপোষক; সাঁচির ইটের স্তূপ, স্তম্ভ ও লোমশ ঋষি গুহার দাতা।",
+      "section": "early_monuments",
+      "claims": [
+        "c01",
+        "c05",
+        "c07"
+      ]
+    },
+    {
+      "name": "ধঙ্গ",
+      "when": "দশম শতক",
+      "role": "চান্দেলা রাজা",
+      "contribution": "৯৫৪ সালে খাজুরাহোর লক্ষ্মণ মন্দির (বিষ্ণু) নির্মাণ করেন।",
+      "section": "nagara_style",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "name": "রাজরাজ চোল",
+      "when": "একাদশ শতক",
+      "role": "চোল সম্রাট",
+      "contribution": "আনুমানিক ১০০৯ সালে তাঞ্জাভুরের বৃহদীশ্বর মন্দির সম্পন্ন করেন।",
+      "section": "dravida_vesara",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "name": "কুতুবউদ্দিন আইবক",
+      "when": "১১৯৮–১১৯৯ খ্রিস্টাব্দ",
+      "role": "দিল্লির প্রথম সুলতান",
+      "contribution": "কুওয়াত-উল-ইসলাম মসজিদ নির্মাণ ও কুতুব মিনারের ভিত্তি ও প্রথম তলা।",
+      "section": "sultanate_mughal",
+      "claims": [
+        "c41",
+        "c40"
+      ]
+    },
+    {
+      "name": "ইলতুৎমিশ",
+      "when": "১২১১–৩৬ খ্রিস্টাব্দ",
+      "role": "দিল্লির সুলতান",
+      "contribution": "কুতুব মিনারে আরও তিনটি তলা যোগ করেন।",
+      "section": "sultanate_mughal",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "name": "শাহজাহান",
+      "when": "১৬২৮–৫৮ খ্রিস্টাব্দ",
+      "role": "মুঘল সম্রাট",
+      "contribution": "মুমতাজ মহলের স্মরণে তাজমহল নির্মাণ; ১৬৪৮ সালে সম্পন্ন।",
+      "section": "sultanate_mughal",
+      "claims": [
+        "c51",
+        "c52"
+      ]
+    },
+    {
+      "name": "কৃষ্ণদেব রায়",
+      "when": "১৫০৯–৩০ খ্রিস্টাব্দ",
+      "role": "বিজয়নগর সম্রাট",
+      "contribution": "হাম্পিতে বহু রাজকীয় ভবন নির্মাণ; বিট্ঠল মন্দির বিজয়নগর শৈলীর উৎকৃষ্ট উদাহরণ।",
+      "section": "dravida_vesara",
+      "claims": [
+        "c49",
+        "c50"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": -250,
+      "when": "খ্রিস্টপূর্ব তৃতীয় শতক",
+      "label": "অশোকের সময় সাঁচিতে ইটের স্তূপ; সারনাথ স্তম্ভশীর্ষ",
+      "claims": [
+        "c07",
+        "c03"
+      ]
+    },
+    {
+      "sort_year": 954,
+      "when": "৯৫৪ খ্রিস্টাব্দ",
+      "label": "খাজুরাহোর লক্ষ্মণ মন্দির (ধঙ্গ)",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "sort_year": 1009,
+      "when": "আনুমানিক ১০০৯ খ্রিস্টাব্দ",
+      "label": "তাঞ্জাভুরের বৃহদীশ্বর মন্দির সম্পন্ন (রাজরাজ চোল)",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "sort_year": 1026,
+      "when": "১০২৬ খ্রিস্টাব্দ",
+      "label": "মোঢেরার সূর্য মন্দির (প্রথম ভীমদেব)",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 1150,
+      "when": "১১৫০ খ্রিস্টাব্দ",
+      "label": "হালেবিড়ুর হয়সালেশ্বর মন্দির",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "sort_year": 1199,
+      "when": "১১৯৯ খ্রিস্টাব্দ",
+      "label": "কুতুব মিনারের ভিত্তি স্থাপন (আইবক)",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "sort_year": 1240,
+      "when": "আনুমানিক ১২৪০ খ্রিস্টাব্দ",
+      "label": "কোনারক সূর্য মন্দির নির্মাণ",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "sort_year": 1311,
+      "when": "১৩১১ খ্রিস্টাব্দ",
+      "label": "আলাই দরওয়াজা নির্মাণ (আলাউদ্দিন খলজি)",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "sort_year": 1648,
+      "when": "১৬৪৮ খ্রিস্টাব্দ",
+      "label": "তাজমহল সম্পন্ন (শাহজাহান)",
+      "claims": [
+        "c52"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "গর্ভগৃহ (Garbhagriha)",
+      "meaning": "মূল দেবমূর্তির কক্ষ, মন্দিরের প্রাণকেন্দ্র",
+      "section": "basic_form"
+    },
+    {
+      "term": "মণ্ডপ (Mandapa)",
+      "meaning": "ভক্তদের জমায়েতের স্তম্ভযুক্ত হলঘর",
+      "section": "basic_form"
+    },
+    {
+      "term": "শিখর (Shikhara)",
+      "meaning": "উত্তর ভারতীয় মন্দিরের বক্র চূড়া",
+      "section": "nagara_style"
+    },
+    {
+      "term": "বিমান (Vimana)",
+      "meaning": "দক্ষিণ ভারতীয় মন্দিরের ধাপ-পিরামিড চূড়া",
+      "section": "dravida_vesara"
+    },
+    {
+      "term": "গোপুরম (Gopuram)",
+      "meaning": "দ্রাবিড় মন্দিরের প্রাচীরের প্রবেশতোরণ",
+      "section": "dravida_vesara"
+    },
+    {
+      "term": "দেউল (Deul)",
+      "meaning": "ওড়িশায় শিখরের নাম",
+      "section": "odisha_bengal"
+    },
+    {
+      "term": "জগমোহন (Jagamohana)",
+      "meaning": "ওড়িশায় দেউলের সামনের মণ্ডপ",
+      "section": "odisha_bengal"
+    },
+    {
+      "term": "অমলক (Amalaka)",
+      "meaning": "নাগর শিখরের শীর্ষের খাঁজকাটা চাকতি",
+      "section": "nagara_style"
+    },
+    {
+      "term": "চারবাগ (Charbagh)",
+      "meaning": "খাল দিয়ে চার ভাগে বিভক্ত বাগান-পরিকল্পনা",
+      "section": "sultanate_mughal"
+    },
+    {
+      "term": "স্টেলেট পরিকল্পনা (Stellate plan)",
+      "meaning": "তারা-আকৃতির ভূমি-পরিকল্পনা, হয়সাল মন্দিরের বৈশিষ্ট্য",
+      "section": "dravida_vesara"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "সোপস্টোনের নরমতা ও হয়সাল খোদাই",
+      "causes": [
+        "হয়সাল মন্দির তৈরি হত তুলনামূলক নরম সোপস্টোনে"
+      ],
+      "event": "শিল্পীরা দেয়ালে অত্যন্ত সূক্ষ্ম খোদাই করতে সক্ষম হন",
+      "results": [
+        "দেবমূর্তির গয়না পর্যন্ত সূক্ষ্মভাবে খোদাই করা হয়",
+        "স্টেলেট পরিকল্পনার জটিল কোণগুলো পাথরে রূপ পায়"
+      ],
+      "section": "dravida_vesara",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "title": "কোনারকের শিখরের পতন",
+      "causes": [
+        "প্রায় ৭০ মিটার উঁচু শিখর জায়গাটির ধারণক্ষমতার পক্ষে অত্যধিক ভারী ছিল"
+      ],
+      "event": "ঊনবিংশ শতকে কোনারকের মূল শিখর ভেঙে পড়ে",
+      "results": [
+        "আজ গর্ভগৃহের শিখর নেই, জগমোহনই প্রধান টিকে থাকা কাঠামো",
+        "মন্দিরটি 'ধ্বংসাবশেষ' হিসেবেই বিশ্বখ্যাত"
+      ],
+      "section": "odisha_bengal",
+      "claims": [
+        "c21"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "নাগর বনাম দ্রাবিড়: শিখর-বিমান, প্রাচীর-গোপুরমের পার্থক্য",
+      "section": "basic_form"
+    },
+    {
+      "point": "খাজুরাহো: ধঙ্গ (৯৫৪, লক্ষ্মণ) ও গণ্ড (কাণ্ডারীয় মহাদেব)",
+      "section": "nagara_style"
+    },
+    {
+      "point": "কোনারক: বারো জোড়া চাকা, সাত ঘোড়া, দেউল-জগমোহন-নাটমন্দির",
+      "section": "odisha_bengal"
+    },
+    {
+      "point": "বাংলা: পোড়ামাটির মন্দির (বিষ্ণুপুর) ও বাংলা ছাদ",
+      "section": "odisha_bengal"
+    },
+    {
+      "point": "বৃহদীশ্বর: রাজরাজ চোল, আনুমানিক ১০০৯",
+      "section": "dravida_vesara"
+    },
+    {
+      "point": "সারনাথ সিংহশীর্ষ = জাতীয় প্রতীক; লোমশ ঋষি = আজীবিক",
+      "section": "early_monuments"
+    },
+    {
+      "point": "কুতুব মিনার: আইবক শুরু, ইলতুৎমিশ তিন তলা, উচ্চতা ৭২.৫ মিটার",
+      "section": "sultanate_mughal"
+    },
+    {
+      "point": "তাজমহল: চারবাগ, মাকরানা মার্বেল, ১৭ বছর, ১৬৪৮",
+      "section": "sultanate_mughal"
+    }
+  ],
+  "bengal_connection": {
+    "body": "বাংলার স্থাপত্য-ঐতিহ্য এই অধ্যায়ে দুইভাবে এসেছে। প্রথমত, প্রাচীন বাংলা: সপ্তম শতক পর্যন্ত পোড়ামাটিই ছিল প্রধান নির্মাণ-উপকরণ, পাল যুগে গড়ে ওঠে নিজস্ব শৈলী — বর্ধমানের বারাকারের সিদ্ধেশ্বর মহাদেব মন্দির তার নিদর্শন। দ্বিতীয়ত, সপ্তদশ শতকের বিষ্ণুপুর-বাঁকুড়া-বর্ধমান-বীরভূমের পোড়ামাটির মন্দির আর বাংলার কুঁড়েঘরের বাঁকানো ছাদ, যা মুঘল ভবনে গৃহীত হয়ে 'বাংলা ছাদ' নামে উত্তর ভারতজুড়ে ছড়িয়ে পড়ে।",
+    "claims": [
+      "c22",
+      "c25",
+      "c24",
+      "c23"
+    ]
+  },
+  "quick_revision": [
+    "নাগর = উত্তর (শিখর), দ্রাবিড় = দক্ষিণ (বিমান, গোপুরম)।",
+    "গর্ভগৃহের উপরই সবচেয়ে উঁচু শিখর থাকে।",
+    "লতিনা = বক্র শিখর; ফামসানা = মণ্ডপের ধাপছাদ; বলভী = ওয়াগন-ভল্ট ছাদ।",
+    "খাজুরাহো: লক্ষ্মণ মন্দির ৯৫৪ (ধঙ্গ); কাণ্ডারীয় মহাদেব সবচেয়ে বড় (গণ্ড)।",
+    "মোঢেরা সূর্য মন্দির ১০২৬ (প্রথম ভীমদেব); সামনে সূর্যকুণ্ড।",
+    "ওড়িশা: শিখর = দেউল, মণ্ডপ = জগমোহন; বাইরে খোদাই, ভিতরে সাদামাটা।",
+    "কোনারক: বারো জোড়া চাকা, সাত ঘোড়া; শিখর (~৭০ মি) ঊনবিংশ শতকে ভেঙে পড়ে।",
+    "শ্রীরঙ্গম: সাতটি সমকেন্দ্রিক প্রাচীর; বৃহদীশ্বর ১০০৯ (রাজরাজ চোল)।",
+    "বেসর = নাগর+দ্রাবিড় মিশ্রণ; হয়সাল = স্টেলেট পরিকল্পনা + সোপস্টোন।",
+    "ইলোরা কৈলাসনাথ: পুরোটা জীবন্ত পাথর খুঁড়ে তৈরি।",
+    "সাঁচি স্তূপ প্রথমে ইটে (অশোক); সারনাথ সিংহশীর্ষ = জাতীয় প্রতীক।",
+    "কুতুব মিনার: আইবক ভিত্তি (১১৯৯), ইলতুৎমিশ +৩ তলা; উচ্চতা ৭২.৫ মি।",
+    "তাজমহল: শাহজাহান, চারবাগ বাগান, মাকরানা মার্বেল, সম্পন্ন ১৬৪৮।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "An Introduction to Indian Art, Class XI, Chapter 6: Temple Architecture and Sculpture",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/kefa106.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "An Introduction to Indian Art, Class XI, Chapter 3: Arts of the Mauryan Period",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/kefa103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Sun Temple, Konarak (1984), Odisha — Archaeological Survey of India",
+      "publisher": "GOVT",
+      "url": "https://asi.nic.in/pages/WorldHeritageKonarak",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Qutb Minar and its Monuments (1993), Delhi — Archaeological Survey of India",
+      "publisher": "GOVT",
+      "url": "https://asi.nic.in/pages/WorldHeritageQutbMinar",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "Group of Temples, Khajuraho (1986), Madhya Pradesh — Archaeological Survey of India",
+      "publisher": "GOVT",
+      "url": "https://asi.nic.in/pages/WorldHeritageKhajuraho",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "Hampi (1986), Karnataka — Archaeological Survey of India",
+      "publisher": "GOVT",
+      "url": "https://asi.nic.in/pages/WorldHeritageHampi",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "World Heritage Sites – Agra – Taj Mahal — Archaeological Survey of India",
+      "publisher": "GOVT",
+      "url": "https://asi.nic.in/pages/WorldHeritageAgra",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Ashoka, the most powerful Mauryan king, patronised the Buddhist shraman tradition in the third century BCE.",
+      "source": "s2",
+      "page": "p. 19",
+      "quote": "Ashoka emerged as the most powerful king of the Mauryan dynasty who patronised the Buddhist shraman tradition in the third century BCE."
+    },
+    {
+      "id": "c02",
+      "claim": "Mauryan pillars are rock-cut (single-piece) pillars, unlike Achaemenian pillars built in pieces by a mason.",
+      "source": "s2",
+      "page": "p. 20",
+      "quote": "The Mauryan pillars are rockcut pillars thus displaying the carver's skills, whereas the Achamenian pillars are constructed in pieces by a mason."
+    },
+    {
+      "id": "c03",
+      "claim": "The Sarnath Lion Capital is the finest example of Mauryan sculpture and is India's national emblem.",
+      "source": "s2",
+      "page": "p. 20",
+      "quote": "The Mauryan pillar capital found at Sarnath popularly known as the Lion Capital is the finest example of Mauryan sculptural tradition. It is also our national emblem."
+    },
+    {
+      "id": "c04",
+      "claim": "The Didarganj (Patna) Yakshi is a tall, well-built figure with a polished surface.",
+      "source": "s2",
+      "page": "p. 21",
+      "quote": "One of the finest examples is a Yakshi figure from Didarganj, Patna, which is tall and wellbuilt. It shows sensitivity towards depicting the human physique. The image has a polished surface."
+    },
+    {
+      "id": "c05",
+      "claim": "The Lomus Rishi cave at Barabar (near Gaya, Bihar) was donated by Ashoka for the Ajivika sect; its facade has a semicircular chaitya arch.",
+      "source": "s2",
+      "page": "p. 21",
+      "quote": "The cave was donated by Ashoka for the Ajivika sect."
+    },
+    {
+      "id": "c06",
+      "claim": "The monumental rock-cut elephant at Dhauli, Odisha also carries an Ashokan rock edict.",
+      "source": "s2",
+      "page": "p. 21",
+      "quote": "Depiction of a monumental rockcut elephant at Dhauli in Odisha shows modelling in round with linear rhythm. It also has Ashokan rockedict."
+    },
+    {
+      "id": "c07",
+      "claim": "The great stupa at Sanchi was built with bricks in Ashoka's time and later covered with stone with many additions.",
+      "source": "s2",
+      "page": "p. 21",
+      "quote": "The great stupa at Sanchi (which will be discussed later) was built with bricks during the time of Ashoka and later it was covered with stone and many new additions were made."
+    },
+    {
+      "id": "c08",
+      "claim": "Stupas were constructed over the relics of the Buddha at places including Rajagraha, Vaishali, Vethadipa and Pava in Bihar.",
+      "source": "s2",
+      "page": "p. 21",
+      "quote": "the stupas were constructed over the relics of the Buddha at Rajagraha, Vaishali, Vethadipa and Pava in Bihar,"
+    },
+    {
+      "id": "c09",
+      "claim": "The sanctum (garbhagriha, literally 'womb house') was a small cubicle with a single entrance that grew into a larger chamber in time.",
+      "source": "s1",
+      "page": "p. 70",
+      "quote": "sanctum (garbhagriha literally ‘wombhouse’), which was a small cubicle with a single entrance and grew into a larger chamber in time."
+    },
+    {
+      "id": "c10",
+      "claim": "Two broad orders of temples are known: Nagara in the north and Dravida in the south.",
+      "source": "s1",
+      "page": "p. 70",
+      "quote": "Two broad orders of temples in the country are known— Nagara in the north and Dravida in the south."
+    },
+    {
+      "id": "c11",
+      "claim": "A freestanding temple's spire is a curving shikhara in North India and a pyramidal tower called vimana in South India.",
+      "source": "s1",
+      "page": "p. 70",
+      "quote": "freestanding temples tend to have a mountainlike spire, which can take the shape of a curving shikhar in North India and a pyramidal tower, called a vimana, in South India"
+    },
+    {
+      "id": "c12",
+      "claim": "In North India the whole temple is usually built on a stone platform with steps, and usually has no elaborate boundary walls or gateways.",
+      "source": "s1",
+      "page": "p. 71",
+      "quote": "In North India it is common for an entire temple to be built on a stone platform with steps leading up to it. Further, unlike in South India it does not usually have elaborate boundary walls or gateways."
+    },
+    {
+      "id": "c13",
+      "claim": "The simple shikhara square at the base whose walls curve inward to a point on top is called latina or rekhaprasada.",
+      "source": "s1",
+      "page": "pp. 71-72",
+      "quote": "the most common name for the simple shikhara which is square at the base and whose walls curve or slope inward to a point on top is called the 'latina' or the rekhaprasada type of shikara."
+    },
+    {
+      "id": "c14",
+      "claim": "In many North Indian temples the phamsana design is used for the mandapas while the garbhagriha is housed in a latina building.",
+      "source": "s1",
+      "page": "p. 72",
+      "quote": "In many North Indian temples you will notice that the phamsana design is used for the mandapas while the main garbhagriha is housed in a latina building."
+    },
+    {
+      "id": "c15",
+      "claim": "Deogarh (Lalitpur district, UP) was built in the early sixth century CE in the panchayatana style: main shrine on a rectangular plinth with four smaller shrines at the corners.",
+      "source": "s1",
+      "page": "p. 73",
+      "quote": "Deogarh (in Lalitpur District, Uttar Pradesh) was built in the early sixth century CE."
+    },
+    {
+      "id": "c16",
+      "claim": "The Lakshmana temple of Khajuraho, dedicated to Vishnu, was built in 954 by the Chandela king Dhanga.",
+      "source": "s1",
+      "page": "p. 74",
+      "quote": "The Lakshmana temple of Khajuraho, dedicated to Vishnu, was built in 954 by the Chandela king, Dhanga."
+    },
+    {
+      "id": "c17",
+      "claim": "At Khajuraho the shikharas rise in a curved pyramidal fashion ending in a fluted disc called amalaka topped with a kalasha.",
+      "source": "s1",
+      "page": "p. 74",
+      "quote": "all the towers or shikharas rise high, upward in a curved pyramidal fashion, emphasising the temple's vertical thrust ending in a horizontal fluted disc called an amalak topped with a kalash or vase."
+    },
+    {
+      "id": "c18",
+      "claim": "The Sun temple at Modhera was built in 1026 by Raja Bhimdev I of the Solanki dynasty, with a massive rectangular stepped tank (surya kund) in front.",
+      "source": "s1",
+      "page": "p. 76",
+      "quote": "The Sun temple at Modhera dates back to early eleventh century and was built by Raja Bhimdev I of the Solanki Dynasty in 1026. There is a massive rectangular stepped tank called the surya kund in front of it."
+    },
+    {
+      "id": "c19",
+      "claim": "In Odisha the shikhara is called deul and the mandapa before it is called jagamohana.",
+      "source": "s1",
+      "page": "p. 79",
+      "quote": "In general, here the shikhara, called deul in Odisha, is vertical almost until the top when it suddenly curves sharply inwards. Deuls are preceded, as usual, by mandapas called jagamohana in Odisha."
+    },
+    {
+      "id": "c20",
+      "claim": "Odisha temples are lavishly carved outside, generally bare inside, and usually have boundary walls.",
+      "source": "s1",
+      "page": "p. 79",
+      "quote": "the exterior of the temples are lavishly carved, their interiors generally quite bare. Odisha temples usually have boundary walls."
+    },
+    {
+      "id": "c21",
+      "claim": "The Konark Sun temple was built in stone around 1240; its shikhara, said to have reached 70 m, fell in the nineteenth century.",
+      "source": "s1",
+      "page": "p. 79",
+      "quote": "At Konark, on the shores of the Bay of Bengal, lie the majestic ruins of the Surya or Sun temple built in stone around 1240. Its shikhara was a colossal creation said to have reached 70m, which, proving too heavy for its site, fell in the nineteenth century."
+    },
+    {
+      "id": "c22",
+      "claim": "Terracotta was the main medium of construction in Bengal until the seventh century, also used for plaques depicting Buddhist and Hindu deities.",
+      "source": "s1",
+      "page": "p. 77",
+      "quote": "It appears that terracotta was the main medium of construction, and also for moulding plaques which depicted Buddhist and Hindu deities in Bengal until the seventh century."
+    },
+    {
+      "id": "c23",
+      "claim": "The curving/sloping side of a Bengali bamboo hut's roof was adopted even in Mughal buildings and is known across North India as the Bangla roof.",
+      "source": "s1",
+      "page": "p. 78",
+      "quote": "Most prominent of these was the shape of the curving or sloping side of the bamboo roof of a Bengali hut. This feature was eventually even adopted in Mughal buildings, and is known across North India as the Bangla roof."
+    },
+    {
+      "id": "c24",
+      "claim": "Terracotta brick temples around Vishnupur, Bankura, Burdwan and Birbhum are dated mostly to the seventeenth century.",
+      "source": "s1",
+      "page": "p. 78",
+      "quote": "These can be widely found in and around Vishnupur, Bankura, Burdwan and Birbhum and are dated mostly to the seventeenth century."
+    },
+    {
+      "id": "c25",
+      "claim": "The ninth-century Siddheshvara Mahadeva temple at Barakar (Burdwan district) with a tall curving shikhara and large amalaka is an example of the early Pala style.",
+      "source": "s1",
+      "page": "pp. 77-78",
+      "quote": "The ninth century Siddheshvara Mahadeva temple in Barakar in Burdwan District, for example, shows a tall curving shikhara crowned by a large amalaka and is an example of the early Pala style."
+    },
+    {
+      "id": "c26",
+      "claim": "Unlike the nagara temple, the dravida temple is enclosed within a compound wall whose front wall has a central entrance gateway called a gopuram.",
+      "source": "s1",
+      "page": "p. 82",
+      "quote": "Unlike the nagara temple, the dravida temple is enclosed within a compound wall. The front wall has an entrance gateway in its centre, which is known as a gopuram."
+    },
+    {
+      "id": "c27",
+      "claim": "The vimana of Tamil Nadu is like a stepped pyramid rising geometrically, unlike the curving shikhara of North India.",
+      "source": "s1",
+      "page": "p. 82",
+      "quote": "The shape of the main temple tower known as vimana in Tamil Nadu is like a stepped pyramid that rises up geometrically rather than the curving shikhara of North India."
+    },
+    {
+      "id": "c28",
+      "claim": "The Srirangam temple at Tiruchirapally has seven concentric rectangular enclosure walls, each with gopurams; the outermost is newest and the central tower the oldest.",
+      "source": "s1",
+      "page": "p. 83",
+      "quote": "the Srirangam temple in Tiruchirapally has as many as seven ‘concentric’ rectangular enclosure walls, each with gopurams."
+    },
+    {
+      "id": "c29",
+      "claim": "The Rajarajeswara (Brahadeeshwarar) Shiva temple at Thanjavur was completed around 1009 by Rajaraja Chola and is the largest and tallest of all Indian temples of its time.",
+      "source": "s1",
+      "page": "p. 85",
+      "quote": "The magnificent Shiva temple of Thanjavur, called the Rajarajeswara or Brahadeeshwarar temple, was completed around 1009 by Rajaraja Chola, and is the largest and tallest of all Indian temples."
+    },
+    {
+      "id": "c30",
+      "claim": "Vesara is a hybridised style that became popular after the mid-seventh century, known in some ancient texts as vesara.",
+      "source": "s1",
+      "page": "p. 86",
+      "quote": "a hybridised style that seems to have become popular after the midseventh century, is known in some ancient texts as vesara."
+    },
+    {
+      "id": "c31",
+      "claim": "Hoysala temples have a stellate (star-like) plan and are made of soapstone, a relatively soft stone that allowed intricate carving.",
+      "source": "s1",
+      "page": "p. 89",
+      "quote": "Perhaps the most characteristic feature of these temples is that they grow extremely complex with so many projecting angles emerging from the previously straightforward square temple, that the plan of these temples starts looking like a star, and is thus known as a stellateplan. Since they are made out of soapstone which is a relatively soft stone, the artists were able to carve their sculptures intricately."
+    },
+    {
+      "id": "c32",
+      "claim": "The Hoysaleshvara temple at Halebid was built in dark schist stone by the Hoysala king in 1150.",
+      "source": "s1",
+      "page": "p. 89",
+      "quote": "The Hoysaleshvara temple (Lord of the Hoysalas) at Halebid in Karnataka was built in dark schist stone by the Hoysala king in 1150."
+    },
+    {
+      "id": "c33",
+      "claim": "The Kailashnath temple at Ellora is a complete dravida building whose vimana rises to thirty metres, all carved out of living rock.",
+      "source": "s1",
+      "page": "p. 86",
+      "quote": "It is a complete dravida building with a Nandi shrine—since the temple is dedicated to Shiva—a gopuramlike gateway, surrounding cloisters, subsidiary shrines, staircases and an imposing tower or vimana rising to thirty metres. Importantly, all of this is carved out of living rock."
+    },
+    {
+      "id": "c34",
+      "claim": "Vijayanagara architecture synthesises the centuries-old dravida temple architecture with Islamic styles of the neighbouring sultanates.",
+      "source": "s1",
+      "page": "p. 90",
+      "quote": "Architecturally, Vijayanagara synthesises the centuriesold dravida temple architecture with Islamic styles demonstrated by the neighbouring sultanates."
+    },
+    {
+      "id": "c35",
+      "claim": "The Mahabodhi temple at Bodhgaya is strictly neither dravida nor nagara: narrow like a nagara temple but rising without curving like a dravida one.",
+      "source": "s1",
+      "page": "p. 91",
+      "quote": "It is, strictly speaking, neither dravida or nagara. It is narrow like a nagara temple, but it rises without curving, like a dravida one."
+    },
+    {
+      "id": "c36",
+      "claim": "At Nalanda, the foundation of a monastery was laid by Kumargupta I in the fifth century CE, per Xuan Zang's records.",
+      "source": "s1",
+      "page": "p. 92",
+      "quote": "which states that the foundation of a monastery was laid by Kumargupta I in the fifth century CE; and this was carried forward by the later monarchs who built up a fantastic university here."
+    },
+    {
+      "id": "c37",
+      "claim": "The Konarak Sun Temple, built in the thirteenth century, was conceived as a gigantic solar chariot with twelve pairs of ornamented wheels dragged by seven rearing horses.",
+      "source": "s3",
+      "page": "ASI page",
+      "quote": "Built in the thirteenth century, it was conceived as a gigantic solar chariot with twelve pairs of exquisitely-ornamented wheels dragged by seven rearing horses."
+    },
+    {
+      "id": "c38",
+      "claim": "Konarak comprised a sanctum with a sikhara over 68 m high, a jagamohana 30 m square and 30 m high, and a detached nata-mandira (hall of dance) on the same axis.",
+      "source": "s3",
+      "page": "ASI page",
+      "quote": "The temple comprised a sanctum with a lofty (presumably over 68 m. high) sikhara, a jagamohana (30. m. square and 30. m. high) and a detached nata-mandira (hall of dance) in the same axis, besides numerous subsidiary shrines."
+    },
+    {
+      "id": "c39",
+      "claim": "Qutb Minar, in red and buff sandstone, is the highest tower in India: 72.5 m high, 14.32 m diameter at the base and about 2.75 m at the top.",
+      "source": "s4",
+      "page": "ASI page",
+      "quote": "Qutb-Minar in red and buff standstone is the highest tower in India. It has a diameter of 14.32 m at the base and about 2.75 m on the top with a height of 72.5 m."
+    },
+    {
+      "id": "c40",
+      "claim": "Qutbu'd-Din Aibak laid the foundation of Qutb Minar in AD 1199 and raised the first storey; Iltutmish (AD 1211-36) added three more storeys.",
+      "source": "s4",
+      "page": "ASI page",
+      "quote": "Qutbu’d-Din Aibak laid the foundation of Minar in AD 1199 for the use of the mu’azzin (crier) to give calls for prayer and raised the first storey, to which were added three more storeys by his successor and son-in-law, Shamsu’d-Din Iltutmish (AD 1211-36)."
+    },
+    {
+      "id": "c41",
+      "claim": "The Quwwat-ul-Islam Mosque was built by Qutbu'd-Din Aibak in AD 1198 and is the earliest extant mosque built by the Delhi Sultans.",
+      "source": "s4",
+      "page": "ASI page",
+      "quote": "Quwwat-ul-Islam Mosque, to the north-east of minar was built by Qutbu’d-Din Aibak in AD 1198. It is the earliest extant mosque built by the Delhi Sultans."
+    },
+    {
+      "id": "c42",
+      "claim": "The Iron Pillar bears a fourth-century AD Sanskrit inscription in Brahmi script recording it was set up as a Vishnudhvaja in memory of a king named Chandra.",
+      "source": "s4",
+      "page": "ASI page",
+      "quote": "The Iron Pillar in the courtyard bears an inscription in Sanskrit in Brahmi script of fourth century AD, according to which the pillar was set up as a Vishnudhvaja (standard of god Vishnu) on the hill known as Vishnupada in memory of a mighty king named Chandra."
+    },
+    {
+      "id": "c43",
+      "claim": "The Ala'i-Darwaza (AD 1311) built by Alau'd-Din Khalji is the first building employing Islamic principles of construction and ornamentation.",
+      "source": "s4",
+      "page": "ASI page",
+      "quote": "Ala’i-Darwaza, the southern gateway of the Quwwat-ul-Islam mosque was constructed by Alau’d-Din Khalji in AH 710 (AD 1311) as recorded in the inscriptions engraved on it. This is the first building employing Islamic principles of construction and ornamentation."
+    },
+    {
+      "id": "c44",
+      "claim": "Alauddin Khalji's Ala'i Minar was intended to be twice the size of Qutb Minar but only the first storey (25 m) was completed.",
+      "source": "s4",
+      "page": "ASI page",
+      "quote": "Ala’i Minar which stands to the north of Qutb-Minar, was commenced by Alau’d-Din Khalji, with the intention of making it twice the size of earlier Minar. He could complete only the first storey which now has an extant height of 25 m."
+    },
+    {
+      "id": "c45",
+      "claim": "Local tradition at Khajuraho lists eighty-five temples, of which only twenty-five now stand in various stages of preservation.",
+      "source": "s5",
+      "page": "ASI page",
+      "quote": "The local tradition lists eighty-five temples but now only twenty-five are standing examples in various stages of preservation."
+    },
+    {
+      "id": "c46",
+      "claim": "The largest and grandest temple of Khajuraho, the Kandariya Mahadeva, is attributed to king Ganda (AD 1017-29).",
+      "source": "s5",
+      "page": "ASI page",
+      "quote": "The largest and grandest temple of Khajuraho is the immortal Kandariya Mahadeva which is attributed to king Ganda (AD 1017-29)."
+    },
+    {
+      "id": "c47",
+      "claim": "Khajuraho temples have lofty terraces (jagati) and plans with ardhamandapa, mandapa and antarala leading to the garbha griha; larger temples are panchayatana with minor shrines at four corners.",
+      "source": "s5",
+      "page": "ASI page",
+      "quote": "The Khajuraho groups of temples are noted for lofty terraces (jagati) and functionally effective plans comprising of an ardhamandapa, acting as entrance generally adorned with makara torana and kakshasana, the mandapa, as the hall with antarala leading to garbha griha or sanctum."
+    },
+    {
+      "id": "c48",
+      "claim": "Hampi, traditionally Pampakshetra of Kishkindha, is on the southern bank of the Tungabhadra and was the seat of the Vijayanagara empire.",
+      "source": "s6",
+      "page": "ASI page",
+      "quote": "Traditionally known as Pampakshetra of Kishkindha, Hampi is situated on the southern bank of the river Tungabhadra. Once it was the seat of the mighty Vijayanagara empire."
+    },
+    {
+      "id": "c49",
+      "claim": "Vijayanagara's monuments were built between AD 1336-1570; a large number of royal buildings were raised by Krishnadeva Raya (AD 1509-30).",
+      "source": "s6",
+      "page": "ASI page",
+      "quote": "The monuments of Vijayanagara city, also known as Vidyanagara in honour of the sage Vidyaranya were built between AD 1336-1570, from the times of Harihara-I to Sadasiva Raya. A large number of royal buildings were raised by Krishnadeva Raya (AD 1509-30), the greatest ruler of the dynasty."
+    },
+    {
+      "id": "c50",
+      "claim": "The Vitthala temple at Hampi is an excellent example of the Vijayanagara style; the largest extant temple is that of Pampapati.",
+      "source": "s6",
+      "page": "ASI page",
+      "quote": "The Vitthala temple is an excellent example of Vijayanagara style. The monolithic statues of Lakshmi, Narasimha and Ganesa are noted for their massiveness and grace."
+    },
+    {
+      "id": "c51",
+      "claim": "The Taj Mahal was built by Mughal emperor Shah Jahan (1628-1658) in memory of his queen Arjumand Bano Begum, entitled Mumtaz Mahal.",
+      "source": "s7",
+      "page": "ASI page",
+      "quote": "Taj Mahal, the pinnacle of Mughal architecture, was built by the Mughal emperor Shah Jahan (1628-1658), grandson of Akbar the great, in the memory of his queen Arjumand Bano Begum, entitled ‘Mumtaz Mahal’."
+    },
+    {
+      "id": "c52",
+      "claim": "The Taj Mahal complex took 17 years and was completed in 1648.",
+      "source": "s7",
+      "page": "ASI page",
+      "quote": "It took 17 years for the monument complex to be completed in 1648."
+    },
+    {
+      "id": "c53",
+      "claim": "The Taj garden is divided into four quarters by broad shallow canals, further divided by causeways, making a perfect char-bagh.",
+      "source": "s7",
+      "page": "ASI page",
+      "quote": "These four quarters are further divided into the smaller quarters by broad causeways, so that the whole scheme is in a perfect char-bagh."
+    },
+    {
+      "id": "c54",
+      "claim": "White marble for the Taj was obtained from Makrana in Rajasthan; semi-precious stones for inlay came from distant regions of India, Ceylon and Afghanistan.",
+      "source": "s7",
+      "page": "ASI page",
+      "quote": "white marble for external use in veneering work was obtained from Makrana in Rajasthan. Semi-precious stones for inlay ornamentation were brought from distant regions of India, Ceylon and Afghanistan."
+    },
+    {
+      "id": "c55",
+      "claim": "The Taj Mahal is the mausoleum of both Mumtaz Mahal and Shah Jahan, located on the right bank of the Yamuna.",
+      "source": "s7",
+      "page": "ASI page",
+      "quote": "The Taj Mahal is the mausoleum of both Mumtaz Mahal and Shah Jahan."
+    },
+    {
+      "id": "c56",
+      "claim": "The Taj has wonderful specimens of polychrome inlay art in the interior and exterior, on dados, cenotaphs and the marble jhajjhari (jali-screen).",
+      "source": "s7",
+      "page": "ASI page",
+      "quote": "The Taj has some wonderful specimens of polychrome inlay art both in the interior and exterior on the dados, on cenotaphs and on the marble jhajjhari (jali-screen) around them."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "basic_form",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মন্দিরের যে ছোট্ট কক্ষে প্রধান দেবমূর্তি থাকে, তাকে কী বলে?",
+      "a": "গর্ভগৃহ",
+      "w": [
+        "মণ্ডপ",
+        "গোপুরম",
+        "জগমোহন"
+      ],
+      "e": "গর্ভগৃহের আক্ষরিক অর্থ 'গর্ভকক্ষ'; এখানেই মূল দেবমূর্তি থাকে। মণ্ডপ হল ভক্তদের হলঘর, গোপুরম দ্রাবিড় মন্দিরের প্রবেশতোরণ, জগমোহন ওড়িশার মণ্ডপ।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "basic_form",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "উত্তর ভারতের মন্দিরের বক্র চূড়াকে কী বলা হয়?",
+      "a": "শিখর",
+      "w": [
+        "বিমান",
+        "গোপুরম",
+        "দেউল"
+      ],
+      "e": "উত্তরে বক্র শিখর, দক্ষিণে পিরামিডাকৃতি বিমান। দেউল হল শিখরের ওড়িশি নাম, গোপুরম প্রবেশতোরণ।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "basic_form",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের দুটি প্রধান মন্দির-রীতি কোন দুটি?",
+      "a": "নাগর ও দ্রাবিড়",
+      "w": [
+        "নাগর ও বেসর",
+        "দ্রাবিড় ও বেসর",
+        "লতিনা ও ফামসানা"
+      ],
+      "e": "NCERT অনুযায়ী দুটি বড় রীতি — উত্তরে নাগর, দক্ষিণে দ্রাবিড়। বেসর হল মিশ্র শৈলী; লতিনা-ফামসানা নাগরের উপভাগ।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "basic_form",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "পঞ্চায়তন রীতির মন্দিরে মোট কয়টি মন্দির থাকে?",
+      "a": "পাঁচটি — মূল মন্দির ও চার কোণে চারটি ছোট মন্দির",
+      "w": [
+        "চারটি — মূল মন্দির ও তিনটি ছোট মন্দির",
+        "তিনটি — মূল মন্দির ও দুটি ছোট মন্দির",
+        "সাতটি — মূল মন্দির ও ছয়টি ছোট মন্দির"
+      ],
+      "e": "দেওগড়ের পঞ্চায়তন মন্দিরে আয়তাকার বেদীর উপর মূল মন্দির আর চার কোণে চারটি ছোট মন্দির — মোট পাঁচটি, তাই নাম 'পঞ্চ'।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "basic_form",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "দেওগড়ের মন্দির কোন সময়ের?",
+      "a": "ষষ্ঠ শতকের গোড়ার দিক (খ্রিস্টীয়)",
+      "w": [
+        "দশম শতক (খ্রিস্টীয়)",
+        "দ্বাদশ শতক (খ্রিস্টীয়)",
+        "খ্রিস্টপূর্ব তৃতীয় শতক"
+      ],
+      "e": "NCERT অনুযায়ী উত্তরপ্রদেশের ললিতপুর জেলার দেওগড় মন্দির তৈরি হয় ষষ্ঠ শতকের গোড়ার দিকে — এটি পরবর্তী গুপ্ত যুগের ধ্রুপদি উদাহরণ।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "basic_form",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বোধগয়ার মহাবোধি মন্দির সম্পর্কে NCERT-এর বর্ণনা কোনটি?",
+      "a": "এটি কঠোরভাবে নাগরও নয়, দ্রাবিড়ও নয় — নাগরের মতো সরু, কিন্তু দ্রাবিড়ের মতো বক্রতা ছাড়া ওঠে",
+      "w": [
+        "এটি খাঁটি নাগর শৈলীর মন্দির",
+        "এটি খাঁটি দ্রাবিড় শৈলীর মন্দির",
+        "এটি বেসর শৈলীর প্রাচীনতম উদাহরণ"
+      ],
+      "e": "NCERT স্পষ্ট বলেছে মহাবোধি মন্দিরের নকশা অস্বাভাবিক: সরু আকৃতিতে নাগরের মতো, কিন্তু বাঁক ছাড়া ওঠায় দ্রাবিড়ের মতো — তাই কোনোটিতেই ফেলা যায় না।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "nagara_style",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নাগর মন্দির সাধারণত কীসের উপর তৈরি হয়?",
+      "a": "পাথরের বেদীর উপর, সিঁড়ি বেয়ে উঠতে হয়",
+      "w": [
+        "প্রাচীরঘেরা বিশাল চত্বরের মাঝে",
+        "পাহাড় খুঁড়ে গুহার ভিতরে",
+        "নদীর জলের উপর ভাসমান ভিত্তিতে"
+      ],
+      "e": "উত্তর ভারতে পুরো মন্দির পাথরের বেদীর উপর তৈরি হয়; প্রাচীর ও বিশাল তোরণ সাধারণত থাকে না — সেটি দ্রাবিড়ের বৈশিষ্ট্য।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "nagara_style",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "খাজুরাহোর লক্ষ্মণ মন্দির কোন রাজা গড়েন?",
+      "a": "চান্দেলা রাজা ধঙ্গ",
+      "w": [
+        "রাজরাজ চোল",
+        "হয়সাল রাজা",
+        "রাজা গণ্ড"
+      ],
+      "e": "বিষ্ণুকে উৎসর্গীকৃত লক্ষ্মণ মন্দির ৯৫৪ সালে গড়েন চান্দেলা রাজা ধঙ্গ। গণ্ডের নাম জড়িত কাণ্ডারীয় মহাদেবের সঙ্গে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "nagara_style",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "খাজুরাহোর সবচেয়ে বড় মন্দির কোনটি?",
+      "a": "কাণ্ডারীয় মহাদেব",
+      "w": [
+        "লক্ষ্মণ মন্দির",
+        "বিশ্বনাথ মন্দির",
+        "চৌষট্টি যোগিনী মন্দির"
+      ],
+      "e": "ASI অনুযায়ী খাজুরাহোর সবচেয়ে বড় ও মহিমান্বিত মন্দির কাণ্ডারীয় মহাদেব, যা রাজা গণ্ডের (১০১৭–২৯) বলে মনে করা হয়।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "nagara_style",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নাগর শিখরের কোন উপভাগের ছাদ ধাপে ধাপে সোজা ঢালে ওঠে এবং সাধারণত মণ্ডপের উপর ব্যবহৃত হয়?",
+      "a": "ফামসানা",
+      "w": [
+        "লতিনা",
+        "বলভী",
+        "বিমান"
+      ],
+      "e": "ফামসানা চওড়া ও খাটো, ছাদ পাটাতনে ধাপে ধাপে সোজা ওঠে; অনেক মন্দিরে মণ্ডপে ফামসানা আর গর্ভগৃহে লতিনা থাকে। বিমান দ্রাবিড় চূড়া।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "nagara_style",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'ওয়াগন-ভল্টেড' (গোরুর গাড়ির মতো খিলানছাদ) নামে পরিচিত নাগর উপভাগ কোনটি?",
+      "a": "বলভী",
+      "w": [
+        "লতিনা",
+        "ফামসানা",
+        "রেখাপ্রসাদ"
+      ],
+      "e": "বলভী আয়তাকার ভবন, উপরে খিলানাকার ছাদ — প্রাচীন গোরুর টানা গাড়ির মতো দেখতে বলে 'ওয়াগন-ভল্টেড' বলা হয়। লতিনা আর রেখাপ্রসাদ একই উপভাগের দুই নাম।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "nagara_style",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মোঢেরার সূর্য মন্দিরের সামনে থাকা বিশাল ধাপকাটা জলাশয়ের নাম কী?",
+      "a": "সূর্যকুণ্ড",
+      "w": [
+        "চারবাগ",
+        "জগতী",
+        "অন্তরাল"
+      ],
+      "e": "১০২৬ সালে সোলাঙ্কি রাজা প্রথম ভীমদেবের তৈরি মোঢেরা সূর্য মন্দিরের সামনে আছে আয়তাকার ধাপকাটা সূর্যকুণ্ড।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "nagara_style",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "খাজুরাহো সম্পর্কে স্থানীয় ঐতিহ্য ও বর্তমান অবস্থা কোনটি?",
+      "a": "ঐতিহ্য অনুযায়ী ৮৫টি মন্দির ছিল, আজ ২৫টি দাঁড়িয়ে আছে",
+      "w": [
+        "ঐতিহ্য অনুযায়ী ১০৮টি মন্দির ছিল, আজ ৮৫টি দাঁড়িয়ে আছে",
+        "ঐতিহ্য অনুযায়ী ২৫টি মন্দির ছিল, আজ সবকটিই ধ্বংস",
+        "ঐতিহ্য অনুযায়ী ৬৪টি মন্দির ছিল, আজ ৪০টি দাঁড়িয়ে আছে"
+      ],
+      "e": "ASI জানায়, স্থানীয় ঐতিহ্যে খাজুরাহোয় ছিল ৮৫টি মন্দির; এখন ২৫টি বিভিন্ন অবস্থায় টিকে আছে।",
+      "claims": [
+        "c45"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "nagara_style",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "খাজুরাহো মন্দিরের শিখরের শীর্ষে থাকা খাঁজকাটা চাকতি ও তার উপরের অংশের নাম যথাক্রমে —",
+      "a": "অমলক ও কলস",
+      "w": [
+        "কলস ও অমলক",
+        "স্তূপিকা ও কলস",
+        "হার্মিকা ও ছত্র"
+      ],
+      "e": "শিখর শেষ হয় অনুভূমিক খাঁজকাটা চাকতি অমলকে, তার উপর কলস। স্তূপিকা দক্ষিণের পরিভাষা; হার্মিকা-ছত্র স্তূপের অংশ।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "odisha_bengal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ওড়িশায় মন্দিরের শিখরকে কী বলা হয়?",
+      "a": "দেউল",
+      "w": [
+        "জগমোহন",
+        "বিমান",
+        "গোপুরম"
+      ],
+      "e": "ওড়িশায় শিখর = দেউল; তার সামনের মণ্ডপ = জগমোহন।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "odisha_bengal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোনারকের সূর্য মন্দির কত জোড়া চাকাওয়ালা রথের আদলে পরিকল্পিত?",
+      "a": "বারো জোড়া",
+      "w": [
+        "সাত জোড়া",
+        "চব্বিশ জোড়া",
+        "দশ জোড়া"
+      ],
+      "e": "ASI অনুযায়ী কোনারক সাতটি লাফানো ঘোড়া টানা, বারো জোড়া অলংকৃত চাকাওয়ালা বিশাল সূর্যরথ। সাত হল ঘোড়ার সংখ্যা, চাকার জোড়া নয় — এই ফাঁদে পড়ো না।",
+      "claims": [
+        "c37"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "odisha_bengal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিষ্ণুপুরের বিখ্যাত মন্দিরগুলো কোন উপকরণে তৈরি?",
+      "a": "পোড়ামাটির ইটে",
+      "w": [
+        "সাদা মার্বেলে",
+        "কৃষ্ণ শিস্ট পাথরে",
+        "সোপস্টোনে"
+      ],
+      "e": "বিষ্ণুপুর, বাঁকুড়া, বর্ধমান ও বীরভূমের পোড়ামাটির ইটের মন্দিরগুলোর বেশিরভাগ সপ্তদশ শতকের। সোপস্টোন হয়সালদের, শিস্ট হালেবিড়ুর উপকরণ।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "odisha_bengal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনারক মন্দিরগুচ্ছের নাটমন্দির কী?",
+      "a": "আলাদা করে তৈরি নৃত্যশালা, গর্ভগৃহ ও জগমোহনের সঙ্গে একই অক্ষে",
+      "w": [
+        "জগমোহনের ভিতরের ছোট কক্ষ",
+        "শিখরের শীর্ষের চূড়া",
+        "মন্দিরের প্রবেশতোরণ"
+      ],
+      "e": "ASI অনুযায়ী কোনারকে ছিল গর্ভগৃহ, জগমোহন আর একই অক্ষে আলাদা নাটমন্দির (নৃত্যশালা)।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "odisha_bengal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ওড়িশা মন্দিরের অভ্যন্তর সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "বাইরে সমৃদ্ধ খোদাই, ভিতরে সাধারণত প্রায় সাদামাটা",
+      "w": [
+        "বাইরে সাদামাটা, ভিতরে সমৃদ্ধ খোদাই",
+        "বাইরে-ভিতরে দুই জায়গাতেই সমান খোদাই",
+        "ভিতরে শুধু চিত্রকলা, খোদাই নেই"
+      ],
+      "e": "NCERT: ওড়িশা মন্দিরের বাইরের অংশ সমৃদ্ধভাবে খোদাই করা, অভ্যন্তর সাধারণত প্রায় অনলংকৃত; এদের প্রাচীরও থাকে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "odisha_bengal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নবম শতকের সিদ্ধেশ্বর মহাদেব মন্দির (বারাকার, বর্ধমান) কোন শৈলীর উদাহরণ?",
+      "a": "প্রারম্ভিক পাল শৈলী",
+      "w": [
+        "বেসর শৈলী",
+        "দ্রাবিড় শৈলী",
+        "হয়সাল শৈলী"
+      ],
+      "e": "উঁচু বক্র শিখর ও বড় অমলকসহ বারাকারের সিদ্ধেশ্বর মহাদেব মন্দির প্রারম্ভিক পাল শৈলীর উদাহরণ — বাংলার নিজস্ব নাগর-ধারা।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "odisha_bengal",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "কোনারকের মূল শিখর সম্পর্কে NCERT কী বলে?",
+      "a": "প্রায় ৭০ মিটার উঁচু শিখরটি অত্যধিক ভারী হয়ে ঊনবিংশ শতকে ভেঙে পড়ে",
+      "w": [
+        "শিখরটি ভূমিকম্পে প্রথম শতকেই ধ্বংস হয়",
+        "শিখরটি কখনোই নির্মিত হয়নি",
+        "শিখরটি আজও সম্পূর্ণ অক্ষত আছে"
+      ],
+      "e": "NCERT অনুযায়ী আনুমানিক ১২৪০ সালে তৈরি কোনারকের শিখর প্রায় ৭০ মিটার পর্যন্ত উঠেছিল; জায়গাটির পক্ষে অত্যধিক ভারী হওয়ায় ঊনবিংশ শতকে তা ভেঙে পড়ে। ASI গর্ভগৃহের শিখরের উচ্চতা ৬৮ মিটারের বেশি বলে উল্লেখ করেছে।",
+      "claims": [
+        "c21",
+        "c38"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "odisha_bengal",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. সপ্তম শতক পর্যন্ত বাংলায় নির্মাণের প্রধান উপকরণ ছিল পোড়ামাটি।\n২. বাংলার কুঁড়েঘরের বাঁশের ছাদের বাঁকানো আকৃতি মুঘল ভবনেও গৃহীত হয় এবং 'বাংলা ছাদ' নামে পরিচিত হয়।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "১ ও ২ উভয়ই",
+      "w": [
+        "শুধু ১",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "দুটোই সঠিক: পোড়ামাটিই ছিল বাংলার প্রাচীন প্রধান নির্মাণ-উপকরণ, আর কুঁড়েঘরের ছাদের বাঁক মুঘল স্থাপত্যে 'বাংলা ছাদ' নামে গৃহীত হয়।",
+      "claims": [
+        "c22",
+        "c23"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "dravida_vesara",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "দ্রাবিড় মন্দিরের প্রবেশতোরণকে কী বলা হয়?",
+      "a": "গোপুরম",
+      "w": [
+        "শিখর",
+        "দেউল",
+        "অমলক"
+      ],
+      "e": "দ্রাবিড় মন্দির প্রাচীরে ঘেরা; সামনের দেয়ালের মাঝের প্রবেশতোরণই গোপুরম।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "dravida_vesara",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তাঞ্জাভুরের বৃহদীশ্বর মন্দির কোন রাজা সম্পন্ন করেন?",
+      "a": "রাজরাজ চোল",
+      "w": [
+        "ধঙ্গ",
+        "কৃষ্ণদেব রায়",
+        "প্রথম নরসিংহবর্মণ"
+      ],
+      "e": "রাজরাজেশ্বর বা বৃহদীশ্বর শিব মন্দির আনুমানিক ১০০৯ সালে সম্পন্ন করেন রাজরাজ চোল।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "dravida_vesara",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ইলোরার কৈলাসনাথ মন্দিরের বিশেষত্ব কী?",
+      "a": "পুরো মন্দিরটি জীবন্ত পাথর খুঁড়ে তৈরি",
+      "w": [
+        "এটি সম্পূর্ণ কাঠে তৈরি",
+        "এটি ভারতের উচ্চতম মিনার",
+        "এটি পোড়ামাটির ইটে তৈরি"
+      ],
+      "e": "কৈলাসনাথ একটি সম্পূর্ণ দ্রাবিড় ভবন — নন্দী মন্দির, তোরণ, বিমানসহ সবই একখণ্ড জীবন্ত পাথর খুঁড়ে তৈরি।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "dravida_vesara",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "শ্রীরঙ্গম মন্দিরে কয়টি সমকেন্দ্রিক প্রাচীর আছে?",
+      "a": "সাতটি",
+      "w": [
+        "তিনটি",
+        "পাঁচটি",
+        "নয়টি"
+      ],
+      "e": "তিরুচিরাপল্লীর শ্রীরঙ্গমে সাতটি সমকেন্দ্রিক আয়তাকার প্রাচীর, প্রতিটিতে গোপুরম; সবচেয়ে বাইরেরটি সবচেয়ে নতুন।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "dravida_vesara",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বেসর শৈলী বলতে কী বোঝায়?",
+      "a": "নাগর ও দ্রাবিড় রীতির মিশ্রণে গড়া সংকর শৈলী",
+      "w": [
+        "খাঁটি উত্তর ভারতীয় শৈলী",
+        "খাঁটি দক্ষিণ ভারতীয় শৈলী",
+        "শুধু গুহা-স্থাপত্যের শৈলী"
+      ],
+      "e": "সপ্তম শতকের মাঝামাঝির পর জনপ্রিয় হওয়া এই সংকর শৈলী কিছু প্রাচীন গ্রন্থে 'বেসর' নামে পরিচিত — নাগর ও দ্রাবিড়ের নির্বাচিত মিশ্রণ।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "dravida_vesara",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "হয়সাল মন্দিরের ভূমি-পরিকল্পনা তারা-আকৃতির হওয়ায় তাকে কী বলা হয়?",
+      "a": "স্টেলেট পরিকল্পনা",
+      "w": [
+        "পঞ্চায়তন পরিকল্পনা",
+        "চারবাগ পরিকল্পনা",
+        "সর্বতোভদ্র পরিকল্পনা"
+      ],
+      "e": "বর্গাকার পরিকল্পনা থেকে অসংখ্য কোণ বেরিয়ে এসে হয়সাল মন্দিরের ভূমি-চিত্র তারার মতো হয় — স্টেলেট পরিকল্পনা। নরম সোপস্টোনে সূক্ষ্ম খোদাই সম্ভব হয়েছিল।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "dravida_vesara",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "হালেবিড়ুর হয়সালেশ্বর মন্দির সম্পর্কে সঠিক তথ্য কোনটি?",
+      "a": "১১৫০ সালে গাঢ় শিস্ট পাথরে হয়সাল রাজার তৈরি",
+      "w": [
+        "১০০৯ সালে মার্বেলে চোল রাজার তৈরি",
+        "৯৫৪ সালে বেলেপাথরে চান্দেলা রাজার তৈরি",
+        "১২৪০ সালে গ্রানাইটে গঙ্গ রাজার তৈরি"
+      ],
+      "e": "হালেবিড়ুর হয়সালেশ্বর মন্দির ১১৫০ সালে হয়সাল রাজা গাঢ় শিস্ট পাথরে গড়েন। ১০০৯ = বৃহদীশ্বর (চোল), ৯৫৪ = লক্ষ্মণ মন্দির (চান্দেলা)।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "dravida_vesara",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "বিজয়নগর স্থাপত্যের চরিত্র কোনটি?",
+      "a": "প্রাচীন দ্রাবিড় মন্দির-স্থাপত্যের সঙ্গে প্রতিবেশী সুলতানদের ইসলামি শৈলীর সংশ্লেষ",
+      "w": [
+        "খাঁটি নাগর শৈলীর পুনরুজ্জীবন",
+        "শুধু কাঠের স্থাপত্যের অনুকরণ",
+        "পারসিক শৈলীর হুবহু অনুলিপি"
+      ],
+      "e": "NCERT: বিজয়নগর শতাব্দীপ্রাচীন দ্রাবিড় ঐতিহ্যের সঙ্গে ইসলামি শৈলীর সংশ্লেষ ঘটায় — হাম্পির বিট্ঠল মন্দির এর উৎকৃষ্ট উদাহরণ।",
+      "claims": [
+        "c34",
+        "c50",
+        "c48"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "early_monuments",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সারনাথের সিংহশীর্ষ ভারতের কোন মর্যাদা পেয়েছে?",
+      "a": "এটি ভারতের জাতীয় প্রতীক",
+      "w": [
+        "এটি জাতীয় সংগীতের উৎস",
+        "এটি প্রথম জাতীয় পতাকার নকশা",
+        "এটি জাতীয় ক্যালেন্ডারের প্রতীক"
+      ],
+      "e": "সারনাথের সিংহশীর্ষ মৌর্য ভাস্কর্যের শ্রেষ্ঠ নিদর্শন এবং ভারতের জাতীয় প্রতীক।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "early_monuments",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সাঁচির মহাস্তূপ প্রথমে কোন উপকরণে তৈরি হয়েছিল?",
+      "a": "ইটে",
+      "w": [
+        "পাথরে",
+        "মার্বেলে",
+        "পোড়ামাটির ফলকে"
+      ],
+      "e": "অশোকের সময় সাঁচির মহাস্তূপ ইটে তৈরি হয়; পরে তা পাথরে ঢাকা হয় ও সংযোজন ঘটে।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "early_monuments",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "লোমশ ঋষি গুহা অশোক কোন সম্প্রদায়কে দান করেছিলেন?",
+      "a": "আজীবিক সম্প্রদায়কে",
+      "w": [
+        "জৈন সম্প্রদায়কে",
+        "ব্রাহ্মণ পুরোহিতদের",
+        "শৈব সন্ন্যাসীদের"
+      ],
+      "e": "বরাবর পাহাড়ের লোমশ ঋষি গুহা অশোক আজীবিক সম্প্রদায়কে দান করেন; প্রবেশপথে অর্ধবৃত্তাকার চৈত্য-খিলান আছে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "early_monuments",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মৌর্য স্তম্ভ আখেমেনীয় স্তম্ভের থেকে কীভাবে আলাদা?",
+      "a": "মৌর্য স্তম্ভ একখণ্ড পাথর খুঁড়ে তৈরি, আখেমেনীয় স্তম্ভ খণ্ড জোড়া দিয়ে তৈরি",
+      "w": [
+        "মৌর্য স্তম্ভ কাঠে তৈরি, আখেমেনীয় পাথরে",
+        "মৌর্য স্তম্ভে কোনো শীর্ষমূর্তি থাকে না",
+        "মৌর্য স্তম্ভ সবসময় মাটির নীচে থাকত"
+      ],
+      "e": "NCERT: মৌর্য স্তম্ভ শিলাখোদাই (একখণ্ড) — কারিগরের দক্ষতার প্রমাণ; আখেমেনীয় স্তম্ভ রাজমিস্ত্রি খণ্ডে খণ্ডে জোড়া দিত।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "early_monuments",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "ধৌলির শিলাখোদাই হাতি কোন রাজ্যে এবং তার সঙ্গে কী আছে?",
+      "a": "ওড়িশায়; সঙ্গে অশোকের শিলালিপি",
+      "w": [
+        "বিহারে; সঙ্গে বুদ্ধের দেহাবশেষ",
+        "মধ্যপ্রদেশে; সঙ্গে জৈন তীর্থংকরের মূর্তি",
+        "উত্তরপ্রদেশে; সঙ্গে গুপ্ত লিপি"
+      ],
+      "e": "ওড়িশার ধৌলিতে বিশাল শিলাখোদাই হাতির পাশাপাশি অশোকের শিলালিপিও (rock-edict) আছে।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "early_monuments",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দিদারগঞ্জ যক্ষী মূর্তির (পাটনা) সবচেয়ে লক্ষণীয় বৈশিষ্ট্য কোনটি?",
+      "a": "পালিশ করা চকচকে পৃষ্ঠ ও সুগঠিত মানবদেহের সংবেদনশীল চিত্রণ",
+      "w": [
+        "রঙিন চিত্রে আঁকা পৃষ্ঠ",
+        "লোহার তৈরি কাঠামো",
+        "মাত্র দুই ইঞ্চি উচ্চতা"
+      ],
+      "e": "দিদারগঞ্জ যক্ষী লম্বা, সুগঠিত মূর্তি; এর পালিশ করা পৃষ্ঠ মৌর্য শিল্পের স্বাক্ষর।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "sultanate_mughal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কুতুব মিনারের ভিত্তি কে স্থাপন করেন?",
+      "a": "কুতুবউদ্দিন আইবক",
+      "w": [
+        "ইলতুৎমিশ",
+        "আলাউদ্দিন খলজি",
+        "ফিরোজ শাহ তুঘলক"
+      ],
+      "e": "১১৯৯ সালে আইবক ভিত্তি স্থাপন করে প্রথম তলা তোলেন; ইলতুৎমিশ পরে তিন তলা যোগ করেন, ফিরোজ শাহ মেরামত করেন।",
+      "claims": [
+        "c40"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "sultanate_mughal",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "তাজমহল কে, কার স্মরণে গড়েন?",
+      "a": "শাহজাহান, তাঁর রানি মুমতাজ মহলের স্মরণে",
+      "w": [
+        "আকবর, তাঁর মা হামিদা বানুর স্মরণে",
+        "শাহজাহান, তাঁর পিতা জাহাঙ্গীরের স্মরণে",
+        "ঔরঙ্গজেব, তাঁর স্ত্রী দিলরাস বানুর স্মরণে"
+      ],
+      "e": "ASI: মুঘল সম্রাট শাহজাহান (১৬২৮–৫৮) রানি অর্জুমন্দ বানো বেগম ওরফে মুমতাজ মহলের স্মরণে তাজমহল গড়েন; এটি দুজনেরই সমাধিসৌধ।",
+      "claims": [
+        "c51",
+        "c55"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "sultanate_mughal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কুতুব মিনারের উচ্চতা কত?",
+      "a": "৭২.৫ মিটার",
+      "w": [
+        "২৫ মিটার",
+        "৩০ মিটার",
+        "৬৮ মিটার"
+      ],
+      "e": "লাল ও হালকা বেলেপাথরের কুতুব মিনার ভারতের সর্বোচ্চ মিনার — ৭২.৫ মিটার। ২৫ মিটার হল অসম্পূর্ণ আলাই মিনারের উচ্চতা।",
+      "claims": [
+        "c39",
+        "c44"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "sultanate_mughal",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "তাজমহলের বাগান কোন পরিকল্পনায় সাজানো?",
+      "a": "চারবাগ — খাল দিয়ে চার ভাগে বিভক্ত বাগান",
+      "w": [
+        "স্টেলেট পরিকল্পনায়",
+        "পঞ্চায়তন পরিকল্পনায়",
+        "গোপুরম পরিকল্পনায়"
+      ],
+      "e": "তাজের বাগান প্রশস্ত অগভীর খাল দিয়ে চার ভাগে, আবার ছোট ভাগে বিভক্ত — নিখুঁত চারবাগ পরিকল্পনা।",
+      "claims": [
+        "c53"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "sultanate_mughal",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "তাজমহলের সাদা মার্বেল কোথা থেকে আনা হয়?",
+      "a": "রাজস্থানের মাকরানা থেকে",
+      "w": [
+        "ওড়িশার ধৌলি থেকে",
+        "কর্ণাটকের হালেবিড়ু থেকে",
+        "মধ্যপ্রদেশের খাজুরাহো থেকে"
+      ],
+      "e": "ASI: বাইরের আস্তরণের সাদা মার্বেল আসে মাকরানা (রাজস্থান) থেকে; ইনলের আধমূল্যবান পাথর আসে দূরবর্তী ভারত, সিলন ও আফগানিস্তান থেকে।",
+      "claims": [
+        "c54"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "sultanate_mughal",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n\n১. কুওয়াত-উল-ইসলাম মসজিদ (১১৯৮) দিল্লির সুলতানদের তৈরি সবচেয়ে পুরনো টিকে থাকা মসজিদ।\n২. আলাই দরওয়াজা (১৩১১) ইসলামি নির্মাণ ও অলংকরণ নীতির প্রথম প্রয়োগ ঘটানো ভবন।\n৩. তাজমহল সম্পন্ন হতে সময় লাগে ১৭ বছর এবং তা শেষ হয় ১৬৪৮ সালে।\n\nকোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+      "a": "১, ২ ও ৩ — সবকটিই",
+      "w": [
+        "শুধু ১ ও ২",
+        "শুধু ২ ও ৩",
+        "শুধু ১"
+      ],
+      "e": "তিনটিই ASI-সমর্থিত: কুওয়াত-উল-ইসলাম প্রাচীনতম টিকে থাকা সুলতানি মসজিদ; আলাই দরওয়াজা ইসলামি নির্মাণনীতির প্রথম প্রয়োগ; তাজ ১৭ বছরে ১৬৪৮ সালে সম্পন্ন।",
+      "claims": [
+        "c41",
+        "c43",
+        "c52"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1644 @@
+{
+  "book": "economy",
+  "code": "ECO-10",
+  "number": 10,
+  "part": "sectors",
+  "title": "বৈদেশিক ক্ষেত্র ও বাণিজ্য",
+  "subtitle": "লেনদেনের ভারসাম্য, বিনিময় হার, ১৯৯১-এর সংস্কার, WTO ও SEZ",
+  "subtopics": [
+    "external_sector"
+  ],
+  "related_facts": [],
+  "prerequisites": [
+    "ECO-04",
+    "ECO-06"
+  ],
+  "reading_minutes": {
+    "quick": 7,
+    "standard": 30,
+    "deep": 42
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 1 LIKELY, 2 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 6 of 8 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ECO-10.json and drafts/ECO-10_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ECO-10_REPORT.md.",
+    "checked_claims": 50,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "ভারত শুধু নিজের ভিতরেই কেনাবেচা করে না — পণ্য, সেবা, অর্থ ও বিনিয়োগ প্রতিদিন সীমান্ত পেরোয়। এই অধ্যায়ে আমরা পড়ব সেই বৈদেশিক ক্ষেত্রের পুরো হিসাব-কাঠামো: লেনদেনের ভারসাম্য (BoP) ও তার চলতি-মূলধন হিসাব, বাণিজ্য ঘাটতি কীভাবে অর্থায়ন হয়, বিনিময় হার কে ঠিক করে এবং অবচয় ও অবমূল্যায়নের পার্থক্য। তারপর আসবে ১৯৯১-এর ঐতিহাসিক সংকট ও বাণিজ্য-সংস্কার, আর শেষে WTO, SEZ, EXIM ব্যাংক ও বাংলার ফলতা অঞ্চলের গল্প — যেখান থেকে WBCS ও ক্লার্কশিপে বারবার প্রশ্ন আসে।",
+    "you_will_learn": [
+      "মুক্ত অর্থনীতি কাকে বলে; রপ্তানি কেন injection আর আমদানি কেন leakage",
+      "লেনদেনের ভারসাম্য (BoP): চলতি হিসাব, বাণিজ্য ভারসাম্য (BoT) ও অদৃশ্যের গঠন",
+      "মূলধন হিসাবের উপাদান (ঋণ, FDI, পোর্টফোলিও) এবং রেমিট্যান্স কেন চলতি হিসাবে যায়",
+      "চলতি হিসাবের ঘাটতি কীভাবে মূলধন উদ্বৃত্ত ও রিজার্ভ দিয়ে অর্থায়ন হয়",
+      "বিনিময় হার: ভাসমান, স্থির ও ব্যবস্থিত ভাসমান; অবচয় বনাম অবমূল্যায়ন",
+      "১৯৯১-এর BoP সংকট: রিজার্ভ-সংকট, ৭ বিলিয়ন ডলার ঋণ, রুপির অবমূল্যায়ন ও QR অপসারণ",
+      "MNC ও বিদেশি বিনিয়োগ; WTO (১৯৯৫, GATT ১৯৪৮) ও তার নিয়মভিত্তিক বাণিজ্য",
+      "SEZ আইন ২০০৫ ও কার্যকর ২০০৬; EXIM ব্যাংক ১৯৮২; ফলতা EPZ/SEZ (১৯৮৪)"
+    ]
+  },
+  "sections": [
+    {
+      "id": "open_economy",
+      "heading": "মুক্ত অর্থনীতি ও বৈদেশিক বাণিজ্য: রপ্তানি–আমদানির হিসাব",
+      "quick": "যে অর্থনীতি অন্য দেশের সঙ্গে পণ্য, সেবা ও আর্থিক সম্পদে লেনদেন করে তাকে মুক্ত অর্থনীতি বলে। রপ্তানি দেশের আয়ের বৃত্তে অর্থ ঢোকায় (injection), আর আমদানি অর্থ বাইরে বের করে দেয় (leakage)। রপ্তানি ও পণ্য-আমদানির মূল্যের পার্থক্যই বাণিজ্য ভারসাম্য (Balance of Trade)।",
+      "standard": "এতদিন আমরা অর্থনীতিকে বদ্ধ (closed) ধরে পড়েছি — যেন বাইরের জগতের সঙ্গে কোনো যোগ নেই। বাস্তবে প্রায় সব আধুনিক অর্থনীতিই মুক্ত: **মুক্ত অর্থনীতি (open economy) অন্য দেশগুলির সঙ্গে পণ্য ও সেবায় বাণিজ্য করে এবং বেশিরভাগ ক্ষেত্রে আর্থিক সম্পদেও লেনদেন করে**। এই যোগাযোগ তিনটি বাজারে ঘটে — পণ্যের বাজার (দেশি না বিদেশি পণ্য কিনব), আর্থিক বাজার (দেশি না বিদেশি সম্পদে বিনিয়োগ) এবং শ্রম বাজার (কোথায় উৎপাদন, কোথায় কাজ) — তবে NCERT এই অধ্যায়ে প্রথম দুটির ওপরেই জোর দিয়েছে।\n\nবৈদেশিক বাণিজ্য দেশের মোট চাহিদাকে দুইভাবে বদলায়। এক, ভারতীয়রা বিদেশি পণ্য কিনলে সেই খরচ আয়ের বৃত্ত থেকে **বেরিয়ে যায় (leakage)** — দেশি পণ্যের চাহিদা কমে। দুই, **আমাদের রপ্তানি বিদেশিদের কাছ থেকে অর্থ এনে বৃত্তে ঢোকায় (injection)** — দেশে উৎপাদিত পণ্যের মোট চাহিদা বাড়ে। এই কারণেই জাতীয় আয়ের হিসাবে **নিট রপ্তানি (Net Exports, NX) = রপ্তানি (X) − আমদানি (M)** আলাদা করে যোগ হয়।\n\nপণ্যের হিসাবটুকুই **বাণিজ্য ভারসাম্য (Balance of Trade, BoT)**: নির্দিষ্ট সময়ে পণ্য-রপ্তানির মূল্য ও পণ্য-আমদানির মূল্যের পার্থক্য। রপ্তানি বেশি হলে বাণিজ্য উদ্বৃত্ত (trade surplus), আমদানি বেশি হলে **বাণিজ্য ঘাটতি (trade deficit)**। মনে রাখো — BoT-তে শুধু **পণ্য (goods)** আসে, সেবা আসে না; সেবাসহ পুরো হিসাব পরের অংশে (চলতি হিসাব) আসবে। পরীক্ষায় BoT আর চলতি হিসাব গুলিয়ে ফেলা সবচেয়ে সাধারণ ভুল।",
+      "deep": "মুক্ত অর্থনীতিতে গুণক (multiplier) বদ্ধ অর্থনীতির চেয়ে ছোট হয়, কারণ আয় বাড়লে তার একাংশ আমদানিতে চলে যায় — প্রতিটি ধাপে leakage ঘটে। NCERT-র উদাহরণে প্রান্তিক ভোগপ্রবণতা ০.৮ ও প্রান্তিক আমদানি-প্রবণতা ০.৩ হলে বদ্ধ গুণক ৫, কিন্তু মুক্ত গুণক মাত্র ২। তাই রপ্তানি বাড়া সরকারি খরচ বাড়ার মতোই আয় বাড়ায়, আর আমদানি বাড়া আয় কমায় — এই যুক্তিটাই পরে BoP ঘাটতির আলোচনায় কাজে লাগবে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "BoT বনাম চলতি হিসাব",
+          "body": "বাণিজ্য ভারসাম্য (BoT) = শুধু **পণ্যের** রপ্তানি − আমদানি। চলতি হিসাব (Current Account) = BoT + অদৃশ্য (সেবা, আয়, হস্তান্তর)। প্রশ্নে 'goods' শব্দটি থাকলেই BoT; সেবা বা রেমিট্যান্স এলেই চলতি হিসাব।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c07",
+        "c08",
+        "c24"
+      ]
+    },
+    {
+      "id": "bop_current",
+      "heading": "লেনদেনের ভারসাম্য (BoP) ও চলতি হিসাব",
+      "quick": "লেনদেনের ভারসাম্য (Balance of Payments) হল একটি নির্দিষ্ট সময়ে, সাধারণত এক বছরে, দেশের অধিবাসীদের সঙ্গে বাকি বিশ্বের পণ্য, সেবা ও সম্পদের সব লেনদেনের হিসাব। এর দুটি প্রধান হিসাব — চলতি হিসাব ও মূলধন হিসাব। চলতি হিসাবে থাকে পণ্য-বাণিজ্য, সেবা-বাণিজ্য ও হস্তান্তর প্রদান (রেমিট্যান্স, উপহার, অনুদান)।",
+      "standard": "একজন মানুষের আয়-ব্যয়ের খাতার মতো দেশেরও বাইরের জগতের সঙ্গে সব লেনদেনের একটি খাতা থাকে — সেটাই **লেনদেনের ভারসাম্য (Balance of Payments, BoP)**: একটি নির্দিষ্ট সময়কালে, সাধারণত এক বছরে, দেশের অধিবাসীদের সঙ্গে বাকি বিশ্বের **পণ্য, সেবা ও সম্পদের** লেনদেনের হিসাব। BoP-র দুটি প্রধান হিসাব — **চলতি হিসাব (Current Account)** ও **মূলধন হিসাব (Capital Account)**।\n\n**চলতি হিসাব** হল পণ্য ও সেবার বাণিজ্য এবং হস্তান্তর প্রদানের (transfer payments) হিসাব। এর তিনটি অংশ: (১) **পণ্য-বাণিজ্য** — রপ্তানি ও আমদানি; এর ভারসাম্যই BoT। (২) **অদৃশ্য (Invisibles)** — সেবা (জাহাজ-পরিবহণ, ব্যাংকিং, পর্যটন, সফটওয়্যার), উপাদান-আয় (শ্রম, জমি, মূলধনের আন্তর্জাতিক আয়) ও হস্তান্তর। (৩) **হস্তান্তর প্রদান** — যেসব প্রাপ্তির বদলে কোনো পণ্য বা সেবা দিতে হয় না: উপহার, **রেমিট্যান্স** (বিদেশে থাকা নাগরিকদের পাঠানো অর্থ) ও অনুদান।\n\nচলতি হিসাবের ভারসাম্যের অর্থ গভীর: প্রাপ্তি = প্রদান হলে ভারসাম্য; **চলতি হিসাবে উদ্বৃত্ত মানে দেশটি অন্য দেশগুলিকে ঋণ দিচ্ছে, আর ঘাটতি মানে দেশটি অন্য দেশ থেকে ঋণ নিচ্ছে**। ভারতের ক্ষেত্রে পণ্যে ঘাটতি থাকলেও সফটওয়্যার-সেবা ও রেমিট্যান্সের অদৃশ্য প্রাপ্তি সেই ঘাটতির বড় অংশ মেটায় — এই কাঠামোটা পরীক্ষায় বারবার আসে।",
+      "deep": "IMF-র নতুন মান (BPM6) অনুযায়ী BoP এখন তিন ভাগে ভাগ হয় — চলতি হিসাব, আর্থিক হিসাব (financial account) ও মূলধন হিসাব; আর্থিক সম্পদের (বন্ড, শেয়ার) প্রায় সব লেনদেন আর্থিক হিসাবে চলে গেছে। ভারত এই বদল মেনে নিলেও **RBI পুরনো শ্রেণিবিন্যাস অনুযায়ীও তথ্য প্রকাশ করে** — তাই পাঠ্যবইয়ের দুই-হিসাবের কাঠামোই পরীক্ষার ভিত্তি।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "রেমিট্যান্স কোন হিসাবে?",
+          "body": "রেমিট্যান্স, উপহার ও অনুদান — এগুলি **চলতি হিসাবের** হস্তান্তর। বিদেশি ঋণ, FDI বা পোর্টফোলিও বিনিয়োগ মূলধন হিসাবের। WBCS ২০২৩-এর প্রশ্নে ঠিক এই পার্থক্যটাই যাচাই করা হয়েছিল।"
+        }
+      ],
+      "claims": [
+        "c03",
+        "c04",
+        "c05",
+        "c06",
+        "c09",
+        "c10",
+        "c25"
+      ]
+    },
+    {
+      "id": "capital_reserves",
+      "heading": "মূলধন হিসাব, রিজার্ভ ও BoP-র সামগ্রিক ভারসাম্য",
+      "quick": "মূলধন হিসাব সম্পদের আন্তর্জাতিক লেনদেনের হিসাব — FDI, FII/পোর্টফোলিও বিনিয়োগ, বিদেশি ঋণ ও সাহায্য এর উপাদান। চলতি হিসাবের ঘাটতি মূলধন হিসাবের উদ্বৃত্ত (নিট মূলধন প্রবাহ) দিয়ে মেটাতে হয়; শেষ ভরসা কেন্দ্রীয় ব্যাংকের রিজার্ভ বিক্রি (official reserve sale)।",
+      "standard": "**মূলধন হিসাব (Capital Account)** সম্পদের সব আন্তর্জাতিক লেনদেনের হিসাব। সম্পদ মানে সম্পদ ধরে রাখার যেকোনো রূপ — অর্থ, শেয়ার, বন্ড, সরকারি ঋণপত্র ইত্যাদি। বিদেশি সম্পদ কেনা মূলধন হিসাবের **ডেবিট** (বৈদেশিক মুদ্রা বেরিয়ে যাচ্ছে), আর দেশি সম্পদ বিদেশির কাছে বিক্রি **ক্রেডিট** (মুদ্রা ঢুকছে)। এর প্রধান উপাদান: **প্রত্যক্ষ বিদেশি বিনিয়োগ (FDI)**, **প্রাতিষ্ঠানিক বিদেশি বিনিয়োগ (FII)**, বিদেশি ঋণ ও বিদেশি সাহায্য।\n\nদুটি হিসাব একে অপরের পরিপূরক: যে দেশ চলতি হিসাবে ঘাটতিতে আছে — অর্থাৎ বিক্রির চেয়ে বেশি কিনছে — তাকে সেই ঘাটতি **সম্পদ বিক্রি করে বা বিদেশ থেকে ঋণ নিয়ে** মেটাতে হয়। অর্থাৎ **চলতি হিসাবের ঘাটতি মূলধন হিসাবের উদ্বৃত্ত দিয়েই অর্থায়ন করতে হয়**।\n\nঘাটতি মেটানোর শেষ উপায় রিজার্ভ: ঘাটতি হলে **রিজার্ভ ব্যাংক বৈদেশিক মুদ্রা বিক্রি করে — একে বলে সরকারি রিজার্ভ বিক্রি (official reserve sale)**। রিজার্ভের এই হ্রাস-বৃদ্ধিই সামগ্রিক BoP ঘাটতি/উদ্বৃত্তের মাপ। এছাড়া BoP-তে তৃতীয় একটি উপাদান থাকে — **ভুল ও বাদ (Errors and Omissions)**, কারণ সব আন্তর্জাতিক লেনদেন নিখুঁতভাবে নথিভুক্ত করা কঠিন।\n\nলেনদেন দুই প্রকার: **স্বয়ংক্রিয় (autonomous)** — লাভের মতো নিজস্ব কারণে করা, BoP-র অবস্থা থেকে স্বাধীন ('above the line'); আর **সমন্বয়কারী (accommodating)** — BoP-র ফাঁক মেটাতেই করা হয়, যেমন রিজার্ভ লেনদেন ('below the line')। স্বয়ংক্রিয় প্রাপ্তি প্রদানের বেশি হলেই BoP উদ্বৃত্ত।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "WBCS ২০২৩: মূলধন হিসাবের উপাদান",
+          "body": "প্রশ্ন ছিল: বিদেশি ঋণ, FDI ও পোর্টফোলিও বিনিয়োগ — তিনটিই মূলধন হিসাবের; কিন্তু বিদেশ থেকে রেমিট্যান্স চলতি হিসাবের। এই অধ্যায়ের c06 ও c12 দাবি দুটিই এই প্রশ্নের উত্তরের ভিত্তি।"
+        }
+      ],
+      "claims": [
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16"
+      ]
+    },
+    {
+      "id": "exchange_rate",
+      "heading": "বিনিময় হার: ভাসমান, স্থির ও ব্যবস্থিত ভাসমান",
+      "quick": "এক মুদ্রার দাম অন্য মুদ্রায় প্রকাশ করলেই বিনিময় হার। ভাসমান (flexible) ব্যবস্থায় হার ঠিক হয় চাহিদা-জোগানে; স্থির (fixed) ব্যবস্থায় সরকার হার বেঁধে দেয় — সরকারি সিদ্ধান্তে হার বাড়ানো অবমূল্যায়ন (devaluation), বাজারের চাপে মুদ্রার দাম পড়া অবচয় (depreciation)। ভারতের বর্তমান ব্যবস্থা ব্যবস্থিত ভাসমান (managed floating)।",
+      "standard": "বিদেশি পণ্য কিনতে বিদেশি মুদ্রা লাগে — ডলারের পণ্য কিনতে ডলার চাই। **একটি মুদ্রার দাম অন্য মুদ্রায় প্রকাশ করলেই তা বিনিময় হার (exchange rate)**; যেমন ১ ডলার = ৫০ টাকা হলে হার টাকা ৫০/ডলার। যেখানে জাতীয় মুদ্রাগুলি কেনাবেচা হয় তা **বৈদেশিক মুদ্রা বাজার (foreign exchange market)** — অংশগ্রহণকারী বাণিজ্যিক ব্যাংক, বৈদেশিক মুদ্রার দালাল, অনুমোদিত ডিলার ও মুদ্রা কর্তৃপক্ষ। মানুষ বৈদেশিক মুদ্রা চায় তিন কারণে: বিদেশি পণ্য-সেবা কিনতে, বিদেশে উপহার পাঠাতে, আর বিদেশি আর্থিক সম্পদ কিনতে।\n\nহার নির্ধারণের তিনটি ব্যবস্থা: (১) **ভাসমান/নমনীয় (flexible/floating)** — হার ঠিক হয় বাজারের চাহিদা ও জোগানে; কেন্দ্রীয় ব্যাংক হস্তক্ষেপ করে না। এর সুবিধা: সরকারকে বড় রিজার্ভ রাখতে হয় না, আর BoP-র উদ্বৃত্ত-ঘাটতি হারের ওঠানামায় নিজে থেকেই সামলায়। (২) **স্থির (fixed)** — **সরকার একটি নির্দিষ্ট স্তরে হার বেঁধে দেয়**; হার ধরে রাখতে সরকারকে রিজার্ভ থেকে মুদ্রা কেনাবেচা করতে হয়। (৩) **ব্যবস্থিত ভাসমান (managed floating)** — ভাসমান ও স্থিরের মিশ্রণ; 'dirty floating' নামেও পরিচিত — কেন্দ্রীয় ব্যাংক হারের ওঠানামা কমাতে উপযুক্ত মনে হলেই মুদ্রা কেনাবেচা করে।\n\nপরীক্ষার সবচেয়ে প্রিয় পার্থক্য: ভাসমান ব্যবস্থায় বিনিময় হার **বাড়লে** (ডলার টাকায় দামি হলে) তা দেশি মুদ্রার **অবচয় (depreciation)**; বিপরীতে হার কমলে **মূল্যবৃদ্ধি (appreciation)**। আর স্থির ব্যবস্থায় **সরকারি সিদ্ধান্তে** হার বাড়িয়ে দেশি মুদ্রা সস্তা করা হলে তা **অবমূল্যায়ন (devaluation)**, সরকারি সিদ্ধান্তে হার কমালে পুনর্মূল্যায়ন (revaluation)। একই ঘটনা — নাম বদলায় শুধু ব্যবস্থা ও সিদ্ধান্তকারীর ভিত্তিতে।",
+      "deep": "দীর্ঘমেয়াদে হার কোথায় যাবে তা বোঝায় ক্রয়ক্ষমতা সমতা (Purchasing Power Parity, PPP) তত্ত্ব: বাণিজ্যে বাধা (শুল্ক, কোটা) না থাকলে একই পণ্যের দাম সব মুদ্রায় মাপলে সমান হওয়ার দিকে হার সরে। স্বল্পমেয়াদে বড় ভূমিকা সুদের হারের পার্থক্যের: যে দেশে সুদ বেশি, সেখানে বিদেশি অর্থ ঢুকে সেই মুদ্রার দাম বাড়ে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "অবচয় বনাম অবমূল্যায়ন",
+          "body": "অবচয় (depreciation) = **ভাসমান** ব্যবস্থায় বাজারের চাপে মুদ্রার দাম পড়া। অবমূল্যায়ন (devaluation) = **স্থির** ব্যবস্থায় **সরকারের সিদ্ধান্তে** মুদ্রা সস্তা করা। ১৯৯১ সালে রুপির ক্ষেত্রে ঘটেছিল অবমূল্যায়ন (তখন হার সরকার-নিয়ন্ত্রিত ছিল)।"
+        }
+      ],
+      "claims": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c49",
+        "c50",
+        "c30"
+      ]
+    },
+    {
+      "id": "reforms_1991",
+      "heading": "১৯৯১-এর BoP সংকট ও বাণিজ্য-নীতি সংস্কার",
+      "quick": "১৯৯১ সালে ভারতের বৈদেশিক ঋণ-সংকট চরমে ওঠে: রিজার্ভ নেমে আসে পনেরো দিনের আমদানিরও কমে। বিশ্ব ব্যাংক ও IMF-র ঋণের শর্তে আসে নতুন অর্থনৈতিক নীতি — রুপির অবমূল্যায়ন, পরিমাণগত বিধিনিষেধ (QR) তুলে দেওয়া, শুল্ক কমানো ও আমদানি লাইসেন্স বাতিল।",
+      "standard": "বৈদেশিক ক্ষেত্রের সবচেয়ে বড় মোড় ১৯৯১। আশির দশকে সরকারের খরচ আয়ের চেয়ে অনেক বেড়ে যায়; আমদানি বাড়ে কিন্তু সেই অনুপাতে রপ্তানি বাড়ে না। ফলে **১৯৯১ সালে ভারত বৈদেশিক ঋণ-সংক্রান্ত অর্থনৈতিক সংকটে পড়ে — সরকার বিদেশি ঋণের কিস্তি শোধ করতে পারছিল না**, আর **বৈদেশিক মুদ্রার রিজার্ভ নেমে আসে এমন স্তরে যা পনেরো দিনের (a fortnight) আমদানির জন্যও যথেষ্ট ছিল না**। কোনো দেশ বা সংস্থা তখন ভারতকে ঋণ দিতে রাজি ছিল না।\n\nভারত তখন বিশ্ব ব্যাংক (IBRD) ও আন্তর্জাতিক মুদ্রা তহবিলের (IMF) কাছে যায় এবং NCERT অনুযায়ী **সংকট মোকাবিলায় ৭ বিলিয়ন ডলার ঋণ পায়**। ঋণের শর্ত ছিল অর্থনীতি খুলে দেওয়া — সেই পথেই ঘোষিত হয় **নতুন অর্থনৈতিক নীতি (New Economic Policy)**: উদারীকরণ, বেসরকারিকরণ ও বিশ্বায়ন (LPG)।\n\nবৈদেশিক ক্ষেত্রে প্রথম পদক্ষেপ ছিল মুদ্রায়: **১৯৯১ সালে BoP সংকট মেটাতে রুপির অবমূল্যায়ন করা হয়** — এতে বৈদেশিক মুদ্রার প্রবাহ বাড়ে, এবং ধীরে ধীরে রুপির মূল্য বাজারের চাহিদা-জোগানে নির্ধারিত হতে থাকে। বাণিজ্য-নীতিতে সংস্কারের লক্ষ্য ছিল তিনটি: **আমদানি-রপ্তানির পরিমাণগত বিধিনিষেধ (quantitative restrictions) ভেঙে ফেলা, শুল্কের হার কমানো এবং আমদানির লাইসেন্স-পদ্ধতি তুলে দেওয়া**। বিপজ্জনক ও পরিবেশ-সংবেদনশীল শিল্প ছাড়া আমদানি লাইসেন্স বাতিল হয়, আর **২০০১ সালের এপ্রিল থেকে তৈরি ভোগ্যপণ্য ও কৃষিপণ্যের আমদানিতে পরিমাণগত বিধিনিষেধ পুরোপুরি উঠে যায়** — WTO-তে দেওয়া ভারতের প্রতিশ্রুতির সঙ্গে এই পদক্ষেপ সরাসরি যুক্ত।",
+      "deep": "সংস্কার দুই ভাগে ভাগ করা যায়: স্থিতিশীলকরণ (stabilisation) — স্বল্পমেয়াদে BoP-র দুর্বলতা কাটানো ও মূল্যস্ফীতি নিয়ন্ত্রণ, অর্থাৎ পর্যাপ্ত রিজার্ভ রাখা; এবং কাঠামোগত সংস্কার (structural reforms) — দীর্ঘমেয়াদে অর্থনীতির দক্ষতা ও আন্তর্জাতিক প্রতিযোগিতা-ক্ষমতা বাড়ানো। পরীক্ষায় 'কোনটি স্থিতিশীলকরণ ব্যবস্থা' জাতীয় প্রশ্নে এই পার্থক্য কাজে লাগে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "১৯৯১: সংখ্যায় মনে রাখো",
+          "body": "রিজার্ভ: পনেরো দিনের আমদানিরও কম। ঋণ: বিশ্ব ব্যাংক + IMF থেকে ৭ বিলিয়ন ডলার (NCERT IED অনুযায়ী)। প্রথম পদক্ষেপ: রুপির অবমূল্যায়ন। QR সম্পূর্ণ অপসারণ: এপ্রিল ২০০১।"
+        }
+      ],
+      "claims": [
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c31",
+        "c32",
+        "c35"
+      ]
+    },
+    {
+      "id": "investment_wto_sez",
+      "heading": "বিদেশি বিনিয়োগ, MNC, WTO, SEZ ও EXIM ব্যাংক",
+      "quick": "বহুজাতিক সংস্থা (MNC) একাধিক দেশে উৎপাদন নিয়ন্ত্রণ করে; জমি-কারখানা-যন্ত্রপাতির মতো সম্পদ কেনায় তাদের খরচই বিদেশি বিনিয়োগ। WTO (১৯৯৫, GATT-র উত্তরসূরি) আন্তর্জাতিক বাণিজ্যের নিয়ম বানায়; SEZ হল রপ্তানি বাড়াতে গড়া শুল্কমুক্ত বিশেষ অঞ্চল; EXIM ব্যাংক (১৯৮২) বৈদেশিক বাণিজ্যের অর্থায়নের শীর্ষ প্রতিষ্ঠান।",
+      "standard": "বিশ্বায়ন মানে দেশের অর্থনীতির সঙ্গে বিশ্ব অর্থনীতির সংহতি — এর প্রধান বাহক **বহুজাতিক সংস্থা (MNC): যেসব কোম্পানি একাধিক দেশে উৎপাদনের মালিক বা নিয়ন্ত্রক**। MNC যেখানে সস্তা শ্রম ও সম্পদ, বাজারের কাছাকাছি অবস্থান ও অনুকূল সরকারি নীতি পায়, সেখানেই কারখানা বসায়। **জমি, বাড়ি, যন্ত্রপাতির মতো সম্পদ কেনায় ব্যয়িত অর্থই বিনিয়োগ; MNC-দের করা বিনিয়োগই বিদেশি বিনিয়োগ (foreign investment)**। উৎপাদন-সম্পদে সরাসরি এই বিনিয়োগ FDI-র ভিত্তি, আর শেয়ার-বন্ডে প্রাতিষ্ঠানিক বিনিয়োগ (FII — যেমন মার্চেন্ট ব্যাংকার, মিউচুয়াল ফান্ড, পেনশন ফান্ড) পোর্টফোলিও ধরনের — দুটোই মূলধন হিসাবে আসে। সংস্কারের যুগে পরিষেবার **আউটসোর্সিং**ও ভারতের বৈদেশিক আয়ের বড় উৎস হয়: বিদেশি কোম্পানি যেসব সেবা আগে নিজের দেশে করত, তা এখন বাইরের দেশ (প্রায়শই ভারত) থেকে কেনে।\n\nবাণিজ্যের নিয়মকারক সংস্থা **বিশ্ব বাণিজ্য সংস্থা (WTO)**: এর লক্ষ্য আন্তর্জাতিক বাণিজ্যের উদারীকরণ — WTO বাণিজ্যের নিয়ম তৈরি করে ও সেগুলি মানা হচ্ছে কিনা দেখে। ইতিহাসের দিক থেকে **WTO প্রতিষ্ঠিত হয় ১৯৯৫ সালে, GATT-র উত্তরসূরি হিসেবে; GATT প্রতিষ্ঠিত হয়েছিল ১৯৪৮ সালে ২৩টি দেশ নিয়ে**। WTO-র প্রত্যাশা নিয়মভিত্তিক বাণিজ্য-ব্যবস্থা, যেখানে কোনো দেশ ইচ্ছেমতো বাণিজ্যে বিধিনিষেধ বসাতে পারবে না।\n\nরপ্তানি বাড়াতে সরকারের বিশেষ হাতিয়ার **বিশেষ অর্থনৈতিক অঞ্চল (Special Economic Zone, SEZ)**: বিশ্বমানের সুবিধা (বিদ্যুৎ, জল, রাস্তা, পরিবহণ, গুদাম, বিনোদন ও শিক্ষা) সম্পন্ন অঞ্চল, যেখানে উৎপাদন-ইউনিট বসালে **প্রথম পাঁচ বছর কর দিতে হয় না**। আইনি কাঠামো: **SEZ নীতি আসে এপ্রিল ২০০০-তে; SEZ আইন ২০০৫ সংসদে পাস হয় মে ২০০৫-এ, রাষ্ট্রপতির সম্মতি ২৩ জুন ২০০৫-এ, আর SEZ বিধি কার্যকর হয় ১০ ফেব্রুয়ারি ২০০৬ থেকে**। SEZ হল শুল্কমুক্ত ছিটমহল — অনুমোদিত কাজের জন্য ভারতের শুল্ক-এলাকার বাইরে বলে গণ্য হয়। বাণিজ্যের অর্থায়নে শীর্ষে **EXIM ব্যাংক: ১৯৮২ সালে সংসদের আইনে প্রতিষ্ঠিত**, ভারতের আন্তর্জাতিক বাণিজ্যের অর্থায়ন, সুবিধা ও প্রসারের শীর্ষ আর্থিক প্রতিষ্ঠান এবং প্রধান রপ্তানি-ঋণ সংস্থা।",
+      "deep": "WTO নিয়ে NCERT-র সমালোচনামূলক পর্যবেক্ষণও পরীক্ষায় আসে: WTO সবার জন্য মুক্ত বাণিজ্যের কথা বললেও বাস্তবে উন্নত দেশগুলি অন্যায্যভাবে বাণিজ্য-বাধা ধরে রেখেছে, অথচ WTO-র নিয়ম উন্নয়নশীল দেশগুলিকে বাধা তুলতে বাধ্য করেছে — কৃষিপণ্যের বাণিজ্য বিতর্ক এর বড় উদাহরণ। তাই 'WTO = সবার জন্য সমান মুক্ত বাণিজ্য' বক্তব্যটি NCERT অনুযায়ী বাস্তবে পুরোপুরি সত্য নয়।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "SEZ: আইন ২০০৫, কার্যকর ২০০৬",
+          "body": "WBCS ২০১৭-র প্রশ্ন ছিল: SEZ আইন পাস ২০০৫, কার্যকর কবে? উত্তর: **২০০৬** (বিধিসহ ১০ ফেব্রুয়ারি ২০০৬)। 'SEZ-র পূর্ণরূপ' ক্লার্কশিপ ২০০৬-এও এসেছিল — Special Economic Zone।"
+        }
+      ],
+      "claims": [
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c33",
+        "c34",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c48"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "GATT প্রতিষ্ঠা",
+      "when": "১৯৪৮",
+      "what": "২৩টি দেশ নিয়ে General Agreement on Tariffs and Trade (GATT) প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "এটাই পরবর্তীকালে WTO-র ভিত্তি; বাণিজ্য-নিয়মের যুগের সূচনা।",
+      "section": "investment_wto_sez",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "title": "EXIM ব্যাংক প্রতিষ্ঠা",
+      "when": "১৯৮২",
+      "what": "সংসদের আইনে Export-Import Bank of India প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "ভারতের বৈদেশিক বাণিজ্যের অর্থায়নের শীর্ষ প্রতিষ্ঠান ও প্রধান রপ্তানি-ঋণ সংস্থা তৈরি হল।",
+      "section": "investment_wto_sez",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "title": "ফলতায় রপ্তানি প্রক্রিয়াকরণ অঞ্চল (EPZ)",
+      "when": "১৯৮৪",
+      "what": "পশ্চিমবঙ্গের ফলতায় Export Processing Zone প্রতিষ্ঠিত হয়, যা পরে SEZ হিসেবে শ্রেণিবদ্ধ হয়।",
+      "why_it_matters": "পশ্চিমবঙ্গের রপ্তানি-কাঠামোর কেন্দ্র; WBCS ২০২১-এ এই EPZ নিয়েই প্রশ্ন এসেছিল।",
+      "section": "investment_wto_sez",
+      "claims": [
+        "c47"
+      ]
+    },
+    {
+      "title": "১৯৯১-এর BoP সংকট ও নতুন অর্থনৈতিক নীতি",
+      "when": "১৯৯১",
+      "what": "রিজার্ভ পনেরো দিনের আমদানির নিচে নেমে যাওয়ায় ভারত বিশ্ব ব্যাংক ও IMF-র শর্তে উদারীকরণের পথে যায়; রুপির অবমূল্যায়ন হয়।",
+      "why_it_matters": "ভারতের বৈদেশিক ক্ষেত্রের সবচেয়ে বড় নীতি-মোড়; বাণিজ্য ও বিনিময়-হার ব্যবস্থা বদলে যায়।",
+      "section": "reforms_1991",
+      "claims": [
+        "c26",
+        "c27",
+        "c29"
+      ]
+    },
+    {
+      "title": "WTO প্রতিষ্ঠা",
+      "when": "১৯৯৫",
+      "what": "GATT-র উত্তরসূরি হিসেবে বিশ্ব বাণিজ্য সংস্থা (WTO) প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "নিয়মভিত্তিক বিশ্ব বাণিজ্য-ব্যবস্থার প্রাতিষ্ঠানিক রূপ; ভারতের QR অপসারণের প্রতিশ্রুতির ভিত্তি।",
+      "section": "investment_wto_sez",
+      "claims": [
+        "c33",
+        "c34"
+      ]
+    },
+    {
+      "title": "SEZ আইন কার্যকর",
+      "when": "২০০৬",
+      "what": "SEZ আইন ২০০৫-এর বিধি ১০ ফেব্রুয়ারি ২০০৬ থেকে কার্যকর হয়।",
+      "why_it_matters": "রপ্তানি-অঞ্চলের জন্য স্থায়ী আইনি কাঠামো তৈরি হল; WBCS ২০১৭-র প্রশ্নের উত্তর এই সালটিই।",
+      "section": "investment_wto_sez",
+      "claims": [
+        "c44"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1948,
+      "when": "১৯৪৮",
+      "label": "২৩টি দেশ নিয়ে GATT প্রতিষ্ঠা",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "sort_year": 1982,
+      "when": "১৯৮২",
+      "label": "EXIM ব্যাংক প্রতিষ্ঠা — বৈদেশিক বাণিজ্যের অর্থায়নের শীর্ষ প্রতিষ্ঠান",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "sort_year": 1984,
+      "when": "১৯৮৪",
+      "label": "ফলতায় (পশ্চিমবঙ্গ) রপ্তানি প্রক্রিয়াকরণ অঞ্চল (EPZ) প্রতিষ্ঠা",
+      "claims": [
+        "c47"
+      ]
+    },
+    {
+      "sort_year": 1991,
+      "when": "১৯৯১",
+      "label": "BoP সংকট: রিজার্ভ পনেরো দিনের নিচে; রুপির অবমূল্যায়ন ও নতুন অর্থনৈতিক নীতি",
+      "claims": [
+        "c27",
+        "c29"
+      ]
+    },
+    {
+      "sort_year": 1995,
+      "when": "১৯৯৫",
+      "label": "GATT-র উত্তরসূরি হিসেবে WTO প্রতিষ্ঠা",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "sort_year": 2000,
+      "when": "এপ্রিল ২০০০",
+      "label": "SEZ নীতি চালু",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "sort_year": 2001,
+      "when": "এপ্রিল ২০০১",
+      "label": "তৈরি ভোগ্যপণ্য ও কৃষিপণ্যের আমদানিতে পরিমাণগত বিধিনিষেধ (QR) সম্পূর্ণ অপসারণ",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "sort_year": 2005,
+      "when": "২০০৫",
+      "label": "SEZ আইন সংসদে পাস (মে) ও রাষ্ট্রপতির সম্মতি (২৩ জুন)",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "sort_year": 2006,
+      "when": "১০ ফেব্রুয়ারি ২০০৬",
+      "label": "SEZ বিধি কার্যকর — SEZ আইন বলবৎ",
+      "claims": [
+        "c44"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "লেনদেনের ভারসাম্য (Balance of Payments, BoP)",
+      "meaning": "নির্দিষ্ট সময়ে (সাধারণত এক বছরে) দেশের অধিবাসীদের সঙ্গে বাকি বিশ্বের পণ্য, সেবা ও সম্পদের সব লেনদেনের হিসাব।",
+      "section": "bop_current"
+    },
+    {
+      "term": "বাণিজ্য ভারসাম্য (Balance of Trade, BoT)",
+      "meaning": "পণ্য-রপ্তানির মূল্য ও পণ্য-আমদানির মূল্যের পার্থক্য; সেবা এর মধ্যে পড়ে না।",
+      "section": "open_economy"
+    },
+    {
+      "term": "নিট রপ্তানি (Net Exports, NX)",
+      "meaning": "রপ্তানি − আমদানি; ধনাত্মক হলে বাণিজ্য উদ্বৃত্ত, ঋণাত্মক হলে বাণিজ্য ঘাটতি।",
+      "section": "open_economy"
+    },
+    {
+      "term": "অদৃশ্য (Invisibles)",
+      "meaning": "চলতি হিসাবের পণ্য-বহির্ভূত অংশ: সেবা, আয়-প্রবাহ ও হস্তান্তর (রেমিট্যান্স, উপহার, অনুদান)।",
+      "section": "bop_current"
+    },
+    {
+      "term": "হস্তান্তর প্রদান (Transfer Payments)",
+      "meaning": "বদলে পণ্য বা সেবা না দিয়ে পাওয়া প্রাপ্তি — উপহার, রেমিট্যান্স ও অনুদান; চলতি হিসাবের অংশ।",
+      "section": "bop_current"
+    },
+    {
+      "term": "সরকারি রিজার্ভ বিক্রি (Official Reserve Sale)",
+      "meaning": "BoP ঘাটতির সময় কেন্দ্রীয় ব্যাংকের বৈদেশিক মুদ্রা বিক্রি; রিজার্ভের হ্রাস-বৃদ্ধিই সামগ্রিক BoP ঘাটতি/উদ্বৃত্ত।",
+      "section": "capital_reserves"
+    },
+    {
+      "term": "স্বয়ংক্রিয় লেনদেন (Autonomous Transactions)",
+      "meaning": "BoP-র ফাঁক মেটানো ছাড়া অন্য কারণে (যেমন লাভ) করা লেনদেন; 'above the line' আইটেম।",
+      "section": "capital_reserves"
+    },
+    {
+      "term": "বিনিময় হার (Exchange Rate)",
+      "meaning": "একটি মুদ্রার দাম অন্য মুদ্রায় প্রকাশ — যেমন টাকা ৫০ = ১ ডলার।",
+      "section": "exchange_rate"
+    },
+    {
+      "term": "অবচয় (Depreciation)",
+      "meaning": "ভাসমান ব্যবস্থায় বাজারের চাপে দেশি মুদ্রার দাম পড়া (বিনিময় হার বাড়া)।",
+      "section": "exchange_rate"
+    },
+    {
+      "term": "অবমূল্যায়ন (Devaluation)",
+      "meaning": "স্থির ব্যবস্থায় সরকারি সিদ্ধান্তে দেশি মুদ্রা সস্তা করা (বিনিময় হার বাড়ানো)।",
+      "section": "exchange_rate"
+    },
+    {
+      "term": "ব্যবস্থিত ভাসমান (Managed Floating)",
+      "meaning": "ভাসমান ও স্থিরের মিশ্র ব্যবস্থা; কেন্দ্রীয় ব্যাংক হারের ওঠানামা কমাতে মুদ্রা কেনাবেচা করে; 'dirty floating' নামেও পরিচিত।",
+      "section": "exchange_rate"
+    },
+    {
+      "term": "বাণিজ্য বাধা (Trade Barrier)",
+      "meaning": "বৈদেশিক বাণিজ্য নিয়ন্ত্রণে সরকারের বসানো বিধিনিষেধ; আমদানির ওপর কর এর উদাহরণ।",
+      "section": "investment_wto_sez"
+    },
+    {
+      "term": "উদারীকরণ (Liberalisation)",
+      "meaning": "সরকারের বসানো বাধা বা বিধিনিষেধ তুলে নেওয়া।",
+      "section": "investment_wto_sez"
+    },
+    {
+      "term": "পরিমাণগত বিধিনিষেধ (Quantitative Restrictions, QR)",
+      "meaning": "কতটা পণ্য আমদানি হবে তার ওপর সংখ্যাগত সীমা; ১৯৯১-পরবর্তী সংস্কারে ধাপে ধাপে তুলে দেওয়া হয়।",
+      "section": "reforms_1991"
+    },
+    {
+      "term": "আউটসোর্সিং (Outsourcing)",
+      "meaning": "কোম্পানির নিয়মিত সেবা বাইরের উৎস থেকে, প্রায়শই অন্য দেশ থেকে, কেনা।",
+      "section": "investment_wto_sez"
+    },
+    {
+      "term": "বিশেষ অর্থনৈতিক অঞ্চল (Special Economic Zone, SEZ)",
+      "meaning": "বিশ্বমানের সুবিধা ও কর-ছাড়সহ রপ্তানি-কেন্দ্রিক শিল্পাঞ্চল; অনুমোদিত কাজের জন্য শুল্ক-এলাকার বাইরে গণ্য শুল্কমুক্ত ছিটমহল।",
+      "section": "investment_wto_sez"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "আমদানি বাড়া কিন্তু রপ্তানি না বাড়া → ১৯৯১-এর সংকট",
+      "causes": [
+        "সরকারের খরচ আয়ের চেয়ে অনেক বেড়ে যাওয়া",
+        "রপ্তানির মিল ছাড়াই আমদানি দ্রুত বাড়া",
+        "বৈদেশিক ঋণের কিস্তি শোধে অক্ষমতা"
+      ],
+      "event": "বৈদেশিক মুদ্রার রিজার্ভ পনেরো দিনের আমদানির নিচে নেমে যায়; ভারত বিশ্ব ব্যাংক ও IMF-র দ্বারস্থ হয়।",
+      "results": [
+        "নতুন অর্থনৈতিক নীতি (LPG) ঘোষণা",
+        "রুপির অবমূল্যায়ন",
+        "বাণিজ্য ও বিনিয়োগ নীতির সংস্কার শুরু"
+      ],
+      "section": "reforms_1991",
+      "claims": [
+        "c26",
+        "c27",
+        "c28"
+      ]
+    },
+    {
+      "title": "চলতি হিসাবের ঘাটতি → মূলধন প্রবাহ বা রিজার্ভের ওপর চাপ",
+      "causes": [
+        "পণ্য-বাণিজ্যে ঘাটতি অদৃশ্য প্রাপ্তি দিয়ে পুরো না মেটা"
+      ],
+      "event": "দেশকে সম্পদ বিক্রি বা বিদেশি ঋণ/বিনিয়োগ দিয়ে ঘাটতি অর্থায়ন করতে হয়।",
+      "results": [
+        "মূলধন হিসাবের উদ্বৃত্ত দিয়ে ঘাটতি অর্থায়ন",
+        "না হলে রিজার্ভ ব্যাংকের সরকারি রিজার্ভ বিক্রি (official reserve sale)"
+      ],
+      "section": "capital_reserves",
+      "claims": [
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "title": "বাণিজ্য-বাধা তোলা → প্রতিযোগিতা ও পছন্দ বাড়া",
+      "causes": [
+        "QR অপসারণ ও শুল্ক হ্রাস",
+        "WTO-র নিয়মভিত্তিক বাণিজ্য-কাঠামো"
+      ],
+      "event": "পণ্য সহজে আমদানি-রপ্তানি হতে থাকে; বিদেশি কোম্পানি কারখানা বসাতে পারে।",
+      "results": [
+        "ভোক্তার পছন্দ ও মান বাড়া, দামে প্রতিযোগিতা",
+        "ক্ষুদ্র উৎপাদকদের ওপর প্রতিযোগিতার চাপ"
+      ],
+      "section": "investment_wto_sez",
+      "claims": [
+        "c31",
+        "c35",
+        "c41"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "BoT বনাম চলতি হিসাব: BoT শুধু পণ্য; চলতি হিসাবে সেবা ও হস্তান্তরও থাকে",
+      "section": "bop_current"
+    },
+    {
+      "point": "মূলধন হিসাবের উপাদান — ঋণ, FDI, পোর্টফোলিও (WBCS ২০২৩); রেমিট্যান্স চলতি হিসাবে",
+      "section": "capital_reserves"
+    },
+    {
+      "point": "অবচয় বনাম অবমূল্যায়ন: বাজার বনাম সরকারি সিদ্ধান্ত — সবচেয়ে প্রিয় পার্থক্য-প্রশ্ন",
+      "section": "exchange_rate"
+    },
+    {
+      "point": "১৯৯১: রিজার্ভ পনেরো দিনের নিচে, ৭ বিলিয়ন ডলার ঋণ, রুপির অবমূল্যায়ন",
+      "section": "reforms_1991"
+    },
+    {
+      "point": "WTO ১৯৯৫, পূর্বসূরি GATT ১৯৪৮ (২৩ দেশ) — WBCS ২০২২",
+      "section": "investment_wto_sez"
+    },
+    {
+      "point": "SEZ আইন ২০০৫, কার্যকর ২০০৬ (WBCS ২০১৭); পূর্ণরূপ (ক্লার্কশিপ ২০০৬)",
+      "section": "investment_wto_sez"
+    },
+    {
+      "point": "EXIM ব্যাংক ১৯৮২ — বৈদেশিক বাণিজ্যের অর্থায়ন (WBCS ২০১৫)",
+      "section": "investment_wto_sez"
+    },
+    {
+      "point": "ফলতা EPZ/SEZ, পশ্চিমবঙ্গ (WBCS ২০২১) — বাংলার নিজের প্রশ্ন",
+      "section": "investment_wto_sez"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের বৈদেশিক বাণিজ্যের প্রাণকেন্দ্র **ফলতা বিশেষ অর্থনৈতিক অঞ্চল (Falta SEZ)** — দক্ষিণ ২৪ পরগনার ফলতায় অবস্থিত এই অঞ্চল **১৯৮৪ সালে রপ্তানি প্রক্রিয়াকরণ অঞ্চল (Export Processing Zone) হিসেবে প্রতিষ্ঠিত হয় এবং পরে SEZ হিসেবে শ্রেণিবদ্ধ হয়**। ফলতা SEZ-র উন্নয়ন কমিশনারের অধিক্ষেত্র শুধু পশ্চিমবঙ্গ নয় — ওড়িশা, ঝাড়খণ্ড, বিহার, সিকিম ও উত্তর-পূর্বের রাজ্যগুলিও এর আওতায়; প্রধান কার্যকলাপ পশ্চিমবঙ্গ, ওড়িশা ও ঝাড়খণ্ডে কেন্দ্রীভূত। অর্থাৎ পূর্ব ভারতের রপ্তানি-প্রশাসনের সদর এই বাংলাতেই। WBCS ২০২১-এ সরাসরি প্রশ্ন এসেছিল — পশ্চিমবঙ্গে EPZ কোথায় কার্যকর হয়েছে: উত্তর ফলতা। এই অধ্যায়ের SEZ-আলোচনা তাই বাংলার পরীক্ষার্থীর জন্য শুধু তত্ত্ব নয়, নিজের রাজ্যেরই গল্প।",
+    "claims": [
+      "c47"
+    ]
+  },
+  "quick_revision": [
+    "BoP = এক বছরে অধিবাসীদের সঙ্গে বাকি বিশ্বের পণ্য, সেবা ও সম্পদের লেনদেনের হিসাব।",
+    "BoT = পণ্য-রপ্তানি − পণ্য-আমদানি (শুধু পণ্য); চলতি হিসাব = BoT + অদৃশ্য।",
+    "রেমিট্যান্স, উপহার, অনুদান = চলতি হিসাবের হস্তান্তর; ঋণ, FDI, পোর্টফোলিও = মূলধন হিসাব।",
+    "চলতি হিসাবের ঘাটতি মেটে মূলধন হিসাবের উদ্বৃত্তে; শেষ উপায় রিজার্ভ বিক্রি (official reserve sale)।",
+    "বিনিময় হার = এক মুদ্রার দাম অন্য মুদ্রায়; ভাসমানে চাহিদা-জোগান, স্থিরে সরকার।",
+    "হার বাড়া ভাসমানে = অবচয় (depreciation); স্থিরে সরকারি সিদ্ধান্তে = অবমূল্যায়ন (devaluation)।",
+    "ব্যবস্থিত ভাসমান (managed/dirty floating) = কেন্দ্রীয় ব্যাংকের মাঝে মাঝে হস্তক্ষেপসহ ভাসমান হার।",
+    "১৯৯১: রিজার্ভ পনেরো দিনের নিচে; বিশ্ব ব্যাংক-IMF ঋণ ৭ বিলিয়ন ডলার; রুপির অবমূল্যায়ন।",
+    "বাণিজ্য সংস্কার: QR ভাঙন, শুল্ক হ্রাস, আমদানি লাইসেন্স বাতিল; QR সম্পূর্ণ অপসারণ এপ্রিল ২০০১।",
+    "WTO: প্রতিষ্ঠা ১৯৯৫, পূর্বসূরি GATT (১৯৪৮, ২৩ দেশ); কাজ — বাণিজ্যের নিয়ম ও উদারীকরণ।",
+    "SEZ: নীতি এপ্রিল ২০০০; আইন ২০০৫; কার্যকর ১০ ফেব্রুয়ারি ২০০৬; প্রথম পাঁচ বছর করমুক্তি।",
+    "EXIM ব্যাংক: ১৯৮২, বৈদেশিক বাণিজ্যের অর্থায়নের শীর্ষ প্রতিষ্ঠান, RBI-নিয়ন্ত্রিত।",
+    "ফলতা (পশ্চিমবঙ্গ): ১৯৮৪ সালে EPZ, পরে SEZ — পূর্ব ভারতের রপ্তানি-প্রশাসনের কেন্দ্র।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Introductory Macroeconomics, Class XII, Chapter 6: Open Economy Macroeconomics",
+      "class": "XII",
+      "url": "https://ncert.nic.in/textbook/pdf/leec106.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Understanding Economic Development, Class X, Chapter 4: Globalisation and the Indian Economy",
+      "class": "X",
+      "url": "https://ncert.nic.in/textbook/pdf/jess204.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Indian Economic Development, Class XI, Chapter 3: Liberalisation, Privatisation and Globalisation — An Appraisal",
+      "class": "XI",
+      "url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "PIB release: Special Economic Zones — policy, SEZ Act 2005 and SEZ Rules 2006 (Ministry of Commerce and Industry)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1703791&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB release: Cabinet approves recapitalisation of Export-Import Bank of India (Ministry of Finance)",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=187523&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "PIB release (Kolkata, 10 June 2026): Falta SEZ — exports, employment and investment growth, FY 2014-15 to FY 2025-26",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2271151&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "An open economy trades with other nations in goods and services and, most often, also in financial assets.",
+      "source": "s1",
+      "page": "Ch. 6, p. 85",
+      "quote": "an open economy is said to be one that trades with other nations in goods and services and most often, also in financial assets."
+    },
+    {
+      "id": "c02",
+      "claim": "Exports enter the circular flow of income as an injection and increase aggregate demand for domestically produced goods; imports are a leakage.",
+      "source": "s1",
+      "page": "Ch. 6, p. 85",
+      "quote": "our exports to foreigners enter as an injection into the circular flow, increasing aggregate demand for goods produced within the domestic economy."
+    },
+    {
+      "id": "c03",
+      "claim": "The balance of payments records transactions in goods, services and assets between residents of a country and the rest of the world for a specified period, typically a year.",
+      "source": "s1",
+      "page": "Ch. 6, p. 86",
+      "quote": "The balance of payments (BoP) record the transactions in goods, services and assets between residents of a country with the rest of the world for a specified time period typically a year."
+    },
+    {
+      "id": "c04",
+      "claim": "The BoP has two main accounts: the current account and the capital account.",
+      "source": "s1",
+      "page": "Ch. 6, p. 86",
+      "quote": "There are two main accounts in the BoP — the current account and the capital account"
+    },
+    {
+      "id": "c05",
+      "claim": "The current account records trade in goods and services and transfer payments.",
+      "source": "s1",
+      "page": "Ch. 6, p. 86",
+      "quote": "Current Account is the record of trade in goods and services and transfer payments."
+    },
+    {
+      "id": "c06",
+      "claim": "Transfer payments are receipts residents get for free, without providing goods or services in return; they consist of gifts, remittances and grants.",
+      "source": "s1",
+      "page": "Ch. 6, p. 86",
+      "quote": "Transfer payments are the receipts which the residents of a country get for ‘free’, without having to provide any goods or services in return. They consist of gifts, remittances and grants."
+    },
+    {
+      "id": "c07",
+      "claim": "Balance of Trade is the difference between the value of exports and the value of imports of goods in a given period.",
+      "source": "s1",
+      "page": "Ch. 6, p. 87",
+      "quote": "Balance of Trade (BOT) is the difference between the value of exports and value of imports of goods of a country in a given period of time."
+    },
+    {
+      "id": "c08",
+      "claim": "A trade deficit arises if a country imports more goods than it exports.",
+      "source": "s1",
+      "page": "Ch. 6, p. 87",
+      "quote": "Deficit BOT or Trade deficit will arise if a country imports more goods than what it exports."
+    },
+    {
+      "id": "c09",
+      "claim": "Invisibles include services, transfers and flows of income between countries.",
+      "source": "s1",
+      "page": "Ch. 6, p. 87",
+      "quote": "Invisibles include services, transfers and flows of income that take place between different countries."
+    },
+    {
+      "id": "c10",
+      "claim": "A current account surplus means the nation is a lender to other countries; a current account deficit means it is a borrower.",
+      "source": "s1",
+      "page": "Ch. 6, p. 86",
+      "quote": "A surplus current account means that the nation is a lender to other countries and a deficit current account means that the nation is a borrower from other countries."
+    },
+    {
+      "id": "c11",
+      "claim": "The capital account records all international transactions of assets.",
+      "source": "s1",
+      "page": "Ch. 6, p. 88",
+      "quote": "Capital Account records all international transactions of assets."
+    },
+    {
+      "id": "c12",
+      "claim": "Capital account items include Foreign Direct Investments (FDIs), Foreign Institutional Investments (FIIs), external borrowings and assistance.",
+      "source": "s1",
+      "page": "Ch. 6, p. 88",
+      "quote": "These items are Foreign Direct Investments (FDIs), Foreign Institutional Investments (FIIs), external borrowings and assistance."
+    },
+    {
+      "id": "c13",
+      "claim": "A current account deficit must be financed by a capital account surplus, i.e. a net capital inflow.",
+      "source": "s1",
+      "page": "Ch. 6, p. 88",
+      "quote": "any current account deficit must be financed by a capital account surplus, that is, a net capital inflow."
+    },
+    {
+      "id": "c14",
+      "claim": "When there is a BoP deficit the reserve bank sells foreign exchange; this is called official reserve sale.",
+      "source": "s1",
+      "page": "Ch. 6, p. 89",
+      "quote": "The reserve bank sells foreign exchange when there is a deficit. This is called official reserve sale."
+    },
+    {
+      "id": "c15",
+      "claim": "Autonomous transactions are made for reasons other than bridging the BoP gap, e.g. to earn profit; they are 'above the line' items.",
+      "source": "s1",
+      "page": "Ch. 6, p. 89",
+      "quote": "International economic transactions are called autonomous when transactions are made due to some reason other than to bridge the gap in the balance of payments"
+    },
+    {
+      "id": "c16",
+      "claim": "Errors and omissions is a third element of the BoP, apart from the current and capital accounts, reflecting recording inaccuracies.",
+      "source": "s1",
+      "page": "Ch. 6, p. 89",
+      "quote": "we have a third element of BoP (apart from the current and capital accounts) called errors and omissions which reflects this."
+    },
+    {
+      "id": "c17",
+      "claim": "The price of one currency in terms of another is the foreign exchange rate (exchange rate).",
+      "source": "s1",
+      "page": "Ch. 6, p. 85",
+      "quote": "The price of one currency in terms of another currency is known as the foreign exchange rate or simply the exchange rate."
+    },
+    {
+      "id": "c18",
+      "claim": "The market where national currencies are traded for one another is the foreign exchange market; its participants include commercial banks, forex brokers, authorised dealers and monetary authorities.",
+      "source": "s1",
+      "page": "Ch. 6, p. 91",
+      "quote": "The market in which national currencies are traded for one another is known as the foreign exchange market."
+    },
+    {
+      "id": "c19",
+      "claim": "People demand foreign exchange to purchase goods and services from other countries, to send gifts abroad, and to purchase financial assets of a country.",
+      "source": "s1",
+      "page": "Ch. 6, p. 91",
+      "quote": "People demand foreign exchange because: they want to purchase goods and services from other countries; they want to send gifts abroad; and, they want to purchase financial assets of a certain country."
+    },
+    {
+      "id": "c20",
+      "claim": "A flexible (floating) exchange rate is determined by the market forces of demand and supply.",
+      "source": "s1",
+      "page": "Ch. 6, p. 92",
+      "quote": "This exchange rate is determined by the market forces of demand and supply. It is also known as Floating Exchange Rate."
+    },
+    {
+      "id": "c21",
+      "claim": "Depreciation: in a flexible system, a rise in the exchange rate (foreign currency costlier in rupees) is depreciation of the domestic currency.",
+      "source": "s1",
+      "page": "Ch. 6, p. 92",
+      "quote": "Increase in exchange rate implies that the price of foreign currency (dollar) in terms of domestic currency (rupees) has increased. This is called Depreciation of domestic currency (rupees) in terms of foreign currency (dollars)."
+    },
+    {
+      "id": "c22",
+      "claim": "Devaluation: in a fixed exchange rate system, a government action that increases the exchange rate (making the domestic currency cheaper) is devaluation.",
+      "source": "s1",
+      "page": "Ch. 6, p. 94",
+      "quote": "In a fixed exchange rate system, when some government action increases the exchange rate (thereby, making domestic currency cheaper) is called Devaluation."
+    },
+    {
+      "id": "c23",
+      "claim": "Managed floating (dirty floating) mixes flexible and fixed systems: central banks intervene to buy and sell foreign currencies to moderate exchange-rate movements.",
+      "source": "s1",
+      "page": "Ch. 6, p. 95",
+      "quote": "Under this system, also called dirty floating, central banks intervene to buy and sell foreign currencies in an attempt to moderate exchange rate movements whenever they feel that such actions are appropriate."
+    },
+    {
+      "id": "c24",
+      "claim": "Net exports NX = exports minus imports; positive NX is a trade surplus, negative NX a trade deficit.",
+      "source": "s1",
+      "page": "Appendix 6.1, p. 97",
+      "quote": "where, NX is net exports (exports – imports). A positive NX (with exports greater than imports) implies a trade surplus and a negative NX (with imports exceeding exports) implies a trade deficit."
+    },
+    {
+      "id": "c25",
+      "claim": "Under the IMF BPM6 classification transactions are divided into current, financial and capital accounts, but the RBI continues to publish BoP data also as per the old classification.",
+      "source": "s1",
+      "page": "Ch. 6, p. 86 (footnote) and Box 6.1, p. 90",
+      "quote": "India has also made the change but the Reserve Bank of India continues to publish data accounting to the old classification."
+    },
+    {
+      "id": "c26",
+      "claim": "In 1991 India faced an economic crisis relating to its external debt; the government could not repay its borrowings from abroad.",
+      "source": "s3",
+      "page": "Ch. 3, p. 39",
+      "quote": "In 1991, India met with an economic crisis relating to its external debt — the government was not able to make repayments on its borrowings from abroad"
+    },
+    {
+      "id": "c27",
+      "claim": "In 1991 foreign exchange reserves dropped to levels not sufficient for even a fortnight (of imports).",
+      "source": "s3",
+      "page": "Ch. 3, p. 39",
+      "quote": "foreign exchange reserves , which we generally maintain to import petroleum and other important items, dropped to levels that were not sufficient for even a fortnight."
+    },
+    {
+      "id": "c28",
+      "claim": "India approached the World Bank (IBRD) and the IMF and received $7 billion as a loan to manage the 1991 crisis (as stated in NCERT IED).",
+      "source": "s3",
+      "page": "Ch. 3, pp. 39-40",
+      "quote": "and received $7 billion as loan to manage the crisis."
+    },
+    {
+      "id": "c29",
+      "claim": "In 1991, as an immediate measure to resolve the BoP crisis, the rupee was devalued against foreign currencies, increasing the inflow of foreign exchange.",
+      "source": "s3",
+      "page": "Ch. 3, p. 42",
+      "quote": "In 1991, as an immediate measure to resolve the balance of payments crisis, the rupee was devalued against foreign currencies. This led to an increase in the inflow of foreign exchange."
+    },
+    {
+      "id": "c30",
+      "claim": "After the reforms, exchange rates are more often determined by markets, based on demand and supply of foreign exchange.",
+      "source": "s3",
+      "page": "Ch. 3, p. 42",
+      "quote": "Now, more often than not, markets determine exchange rates based on the demand and supply of foreign exchange."
+    },
+    {
+      "id": "c31",
+      "claim": "Trade policy reforms aimed at dismantling quantitative restrictions on imports and exports, reducing tariff rates, and removing licensing procedures for imports.",
+      "source": "s3",
+      "page": "Ch. 3, p. 42",
+      "quote": "The trade policy reforms aimed at (i) dismantling of quantitative restrictions on imports and exports (ii) reduction of tariff rates and (iii) removal of licensing procedures for imports."
+    },
+    {
+      "id": "c32",
+      "claim": "Quantitative restrictions on imports of manufactured consumer goods and agricultural products were fully removed from April 2001.",
+      "source": "s3",
+      "page": "Ch. 3, p. 42",
+      "quote": "Quantitative restrictions on imports of manufactured consumer goods and agricultural products were also fully removed from April 2001."
+    },
+    {
+      "id": "c33",
+      "claim": "The WTO was founded in 1995 as the successor organisation to the GATT; GATT was established in 1948 with 23 countries.",
+      "source": "s3",
+      "page": "Ch. 3, p. 46",
+      "quote": "The WTO was founded in 1995 as the successor organisation to the General Agreement on Trade and Tariff (GATT). GATT was established in 1948 with 23 countries"
+    },
+    {
+      "id": "c34",
+      "claim": "The WTO is expected to establish a rule-based trading regime in which nations cannot place arbitrary restrictions on trade.",
+      "source": "s3",
+      "page": "Ch. 3, p. 46",
+      "quote": "WTO is expected to establish a rulebased trading regime in which nations cannot place arbitrary restrictions on trade."
+    },
+    {
+      "id": "c35",
+      "claim": "India kept its WTO liberalisation commitments by removing quantitative restrictions on imports and reducing tariff rates.",
+      "source": "s3",
+      "page": "Ch. 3, p. 47",
+      "quote": "India has kept its commitments towards liberalisation of trade, made in the WTO, by removing quantitative restrictions on imports and reducing tariff rates."
+    },
+    {
+      "id": "c36",
+      "claim": "Globalisation is generally understood to mean integration of the economy of the country with the world economy.",
+      "source": "s3",
+      "page": "Ch. 3, p. 45",
+      "quote": "globalisation is generally understood to mean integration of the economy of the country with the world economy"
+    },
+    {
+      "id": "c37",
+      "claim": "In outsourcing, a company hires regular services from external sources, mostly from other countries, which were previously provided internally.",
+      "source": "s3",
+      "page": "Ch. 3, p. 45",
+      "quote": "In outsourcing, a company hires regular service from external sources, mostly from other countries, which was previously provided internally or from within the country"
+    },
+    {
+      "id": "c38",
+      "claim": "An MNC is a company that owns or controls production in more than one nation.",
+      "source": "s2",
+      "page": "Ch. 4, p. 56",
+      "quote": "A MNC is a company that owns or controls production in more than one nation."
+    },
+    {
+      "id": "c39",
+      "claim": "Money spent to buy assets such as land, buildings, machines and other equipment is investment; investment made by MNCs is called foreign investment.",
+      "source": "s2",
+      "page": "Ch. 4, p. 57",
+      "quote": "The money that is spent to buy assets such as land, building, machines and other equipment is called investment. Investment made by MNCs is called foreign investment."
+    },
+    {
+      "id": "c40",
+      "claim": "A tax on imports is an example of a trade barrier.",
+      "source": "s2",
+      "page": "Ch. 4, p. 64",
+      "quote": "Tax on imports is an example of trade barrier."
+    },
+    {
+      "id": "c41",
+      "claim": "Removing barriers or restrictions set by the government is known as liberalisation.",
+      "source": "s2",
+      "page": "Ch. 4, p. 64",
+      "quote": "Removing barriers or restrictions set by the government is what is known as liberalisation."
+    },
+    {
+      "id": "c42",
+      "claim": "The WTO's aim is to liberalise international trade; it establishes rules regarding international trade and sees that these rules are obeyed.",
+      "source": "s2",
+      "page": "Ch. 4, p. 65",
+      "quote": "World Trade Organisation (WTO) is one such organisation whose aim is to liberalise international trade."
+    },
+    {
+      "id": "c43",
+      "claim": "SEZs are to have world-class facilities (electricity, water, roads, transport, storage, recreational and educational facilities); units setting up production in SEZs do not pay taxes for an initial period of five years.",
+      "source": "s2",
+      "page": "Ch. 4, p. 66",
+      "quote": "SEZs are to have world class facilities: electricity, water, roads, transport, storage, recreational and educational facilities. Companies who set up production units in the SEZs do not have to pay taxes for an initial period of five years."
+    },
+    {
+      "id": "c44",
+      "claim": "The SEZ policy was launched in April 2000; the SEZ Act 2005 was passed by Parliament in May 2005, received Presidential assent on 23 June 2005, and the SEZ Rules 2006 came into effect on 10 February 2006.",
+      "source": "s4",
+      "page": "PIB release, opening paragraph",
+      "quote": "The Special Economic Zones (SEZs) policy was launched in April, 2000. The Special Economic Zones Act, 2005, was passed by Parliament in May, 2005 which received Presidential assent on the 23rd of June, 2005. The SEZ Rules, 2006 came into effect on 10th February, 2006."
+    },
+    {
+      "id": "c45",
+      "claim": "An SEZ is a designated duty-free enclave treated as territory outside the customs territory of India for authorised operations.",
+      "source": "s4",
+      "page": "PIB release, salient features, point 1",
+      "quote": "A designated duty free enclave to be treated as a territory outside the customs territory of India for the purpose of authorised operations in the SEZ"
+    },
+    {
+      "id": "c46",
+      "claim": "Exim Bank of India was established in 1982 under an Act of Parliament as the apex financial institution for financing, facilitating and promoting India's international trade; it is the principal export credit agency for India and is regulated by the RBI.",
+      "source": "s5",
+      "page": "PIB release, Background",
+      "quote": "Exim Bank of India (Exim Bank) was established in 1982 under an Act of Parliament as the apex financial institution for financing, facilitating and promoting India's international trade."
+    },
+    {
+      "id": "c47",
+      "claim": "The Falta SEZ (West Bengal) was established in 1984 as an export processing zone and was later categorised as an SEZ; its development commissioner's jurisdiction covers West Bengal, Odisha, Jharkhand, Bihar, Sikkim and the North-Eastern States.",
+      "source": "s6",
+      "page": "PIB release (Kolkata, 10 June 2026), closing paragraphs",
+      "quote": "The Falta SEZ’s jurisdiction covers West Bengal, Odisha, Jharkhand, Bihar, Sikkim and the North-Eastern States, with major activities concentrated in West Bengal, Odisha and Jharkhand. It was established in 1984 as an export processing zone and was later categorised as an SEZ."
+    },
+    {
+      "id": "c48",
+      "claim": "Foreign Institutional Investors (FIIs) such as merchant bankers, mutual funds and pension funds are allowed to invest in Indian financial markets (post-1991 reforms).",
+      "source": "s3",
+      "page": "Ch. 3, p. 41",
+      "quote": "Foreign Institutional Investors (FII), such as merchant bankers, mutual funds and pension funds, are now allowed to invest in Indian financial markets."
+    },
+    {
+      "id": "c49",
+      "claim": "In a fixed exchange rate system the government fixes the exchange rate at a particular level.",
+      "source": "s1",
+      "page": "Ch. 6, p. 94",
+      "quote": "In this exchange rate system, the Government fixes the exchange rate at a particular level."
+    },
+    {
+      "id": "c50",
+      "claim": "The flexible exchange rate system gives the government more flexibility and it does not need to maintain large stocks of foreign exchange reserves.",
+      "source": "s1",
+      "page": "Ch. 6, p. 95",
+      "quote": "The flexible exchange rate system gives the government more flexibility and they do not need to maintain large stocks of foreign exchange reserves."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "open_economy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মুক্ত অর্থনীতি (open economy) বলতে কী বোঝায়?",
+      "a": "যে অর্থনীতি অন্য দেশের সঙ্গে পণ্য ও সেবায় বাণিজ্য করে এবং বেশিরভাগ ক্ষেত্রে আর্থিক সম্পদেও লেনদেন করে",
+      "w": [
+        "যে অর্থনীতিতে সরকার সব দাম নির্ধারণ করে",
+        "যে অর্থনীতি শুধু কৃষির ওপর নির্ভরশীল",
+        "যে অর্থনীতিতে বেসরকারি ক্ষেত্র নেই"
+      ],
+      "e": "NCERT অনুযায়ী মুক্ত অর্থনীতি অন্য দেশগুলির সঙ্গে পণ্য-সেবায় বাণিজ্য করে এবং প্রায়শই আর্থিক সম্পদেও লেনদেন করে। দাম-নিয়ন্ত্রণ বা ক্ষেত্রের গঠন এর সংজ্ঞা নয়।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "open_economy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাণিজ্য ভারসাম্য (Balance of Trade) কীসের পার্থক্য?",
+      "a": "পণ্য-রপ্তানির মূল্য ও পণ্য-আমদানির মূল্যের পার্থক্য",
+      "w": [
+        "সেবা-রপ্তানি ও সেবা-আমদানির পার্থক্য",
+        "মোট রপ্তানি ও মোট আমদানির (পণ্য ও সেবা মিলিয়ে) পার্থক্য",
+        "বিদেশি বিনিয়োগ ও বিদেশি ঋণের পার্থক্য"
+      ],
+      "e": "BoT শুধু পণ্যের হিসাব: পণ্য-রপ্তানি − পণ্য-আমদানি। সেবা যোগ হলে তা চলতি হিসাবের অংশ হয়, BoT নয়।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "open_economy",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কোনো দেশ পণ্য আমদানি রপ্তানির চেয়ে বেশি করলে তাকে কী বলে?",
+      "a": "বাণিজ্য ঘাটতি (trade deficit)",
+      "w": [
+        "বাণিজ্য উদ্বৃত্ত (trade surplus)",
+        "বাণিজ্য ভারসাম্য",
+        "মূলধন উদ্বৃত্ত"
+      ],
+      "e": "আমদানি বেশি হলে BoT ঋণাত্মক — এটাই বাণিজ্য ঘাটতি। উদ্বৃত্ত হয় রপ্তানি বেশি হলে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "open_economy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "রপ্তানি জাতীয় আয়ের বৃত্তে কী হিসেবে কাজ করে?",
+      "a": "ইনজেকশন (injection) — বৃত্তে অর্থ ঢোকায় ও মোট চাহিদা বাড়ায়",
+      "w": [
+        "লিকেজ (leakage) — বৃত্ত থেকে অর্থ বের করে দেয়",
+        "কর — সরকারের আয় বাড়ায়",
+        "ভর্তুকি — সরকারের খরচ বাড়ায়"
+      ],
+      "e": "বিদেশিরা দেশি পণ্য কিনলে অর্থ দেশে ঢোকে — রপ্তানি injection। আমদানি হল leakage, কারণ সেই খরচ বিদেশে চলে যায়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "open_economy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নিট রপ্তানি (NX) ঋণাত্মক হলে তার অর্থ কী?",
+      "a": "আমদানি রপ্তানির চেয়ে বেশি — বাণিজ্য ঘাটতি",
+      "w": [
+        "রপ্তানি আমদানির চেয়ে বেশি — বাণিজ্য উদ্বৃত্ত",
+        "রপ্তানি ও আমদানি সমান — বাণিজ্য ভারসাম্য",
+        "দেশের রিজার্ভ শূন্য"
+      ],
+      "e": "NX = X − M। NX ঋণাত্মক মানে M > X, অর্থাৎ বাণিজ্য ঘাটতি; NX ধনাত্মক হলে উদ্বৃত্ত।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "open_economy",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মুক্ত অর্থনীতিতে স্বয়ংক্রিয় ব্যয়ের গুণক বদ্ধ অর্থনীতির চেয়ে ছোট হয় কেন?",
+      "a": "আয় বাড়লে তার একাংশ আমদানিতে চলে যায় — প্রতিটি ধাপে অতিরিক্ত leakage ঘটে",
+      "w": [
+        "মুক্ত অর্থনীতিতে করের হার সবসময় বেশি থাকে",
+        "মুক্ত অর্থনীতিতে সঞ্চয় করা নিষিদ্ধ",
+        "রপ্তানি সবসময় আমদানির সমান থাকে"
+      ],
+      "e": "প্রান্তিক আমদানি-প্রবণতা (m) ধনাত্মক হলে গুণক হয় 1/(1−c+m), যা বদ্ধ অর্থনীতির 1/(1−c)-র চেয়ে ছোট — NCERT-র উদাহরণে ৫ বনাম ২।",
+      "claims": [
+        "c02",
+        "c24"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "open_economy",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী মুক্ত অর্থনীতির যোগাযোগের ক্ষেত্রগুলির মধ্যে এই অধ্যায়ে কোন দুটির ওপর জোর দেওয়া হয়েছে?",
+      "a": "পণ্যের বাজার ও আর্থিক বাজার",
+      "w": [
+        "শ্রম বাজার ও ভূমি বাজার",
+        "শুধু শ্রম বাজার",
+        "শেয়ার বাজার ও বন্ড বাজার"
+      ],
+      "e": "যোগাযোগ তিন বাজারে ঘটলেও (পণ্য, আর্থিক, শ্রম) NCERT এই অধ্যায়ে পণ্য ও আর্থিক বাজারের যোগাযোগেই মনোনিবেশ করেছে; শ্রমের চলাচল অভিবাসন আইনে সীমিত।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "bop_current",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "লেনদেনের ভারসাম্য (BoP) কোন সময়কালের হিসাব?",
+      "a": "একটি নির্দিষ্ট সময়কাল, সাধারণত এক বছর",
+      "w": [
+        "একটি নির্দিষ্ট দিন",
+        "দশ বছরের গড়",
+        "শুধু একটি ত্রৈমাসিক"
+      ],
+      "e": "BoP একটি নির্দিষ্ট সময়কালের — সাধারণত এক বছরের — লেনদেনের হিসাব।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "bop_current",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "BoP-র দুটি প্রধান হিসাব কোনগুলি?",
+      "a": "চলতি হিসাব ও মূলধন হিসাব",
+      "w": [
+        "রাজস্ব হিসাব ও মূলধন বাজেট",
+        "বাণিজ্য হিসাব ও আয় হিসাব",
+        "সরকারি হিসাব ও বেসরকারি হিসাব"
+      ],
+      "e": "NCERT অনুযায়ী BoP-র দুটি প্রধান হিসাব চলতি হিসাব ও মূলধন হিসাব।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "bop_current",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি চলতি হিসাবের হস্তান্তর প্রদানের (transfer payments) উদাহরণ?",
+      "a": "বিদেশে থাকা নাগরিকদের পাঠানো রেমিট্যান্স",
+      "w": [
+        "বিদেশি কোম্পানির শেয়ার কেনা",
+        "বিদেশ থেকে নেওয়া ঋণ",
+        "বিদেশি কোম্পানির কারখানা স্থাপন"
+      ],
+      "e": "উপহার, রেমিট্যান্স ও অনুদান — বদলে পণ্য-সেবা দিতে হয় না বলে এগুলি হস্তান্তর, চলতি হিসাবের অংশ। শেয়ার কেনা, ঋণ ও কারখানা মূলধন হিসাবের।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "bop_current",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "‘অদৃশ্য’ (Invisibles) বলতে চলতি হিসাবে কী বোঝায়?",
+      "a": "সেবা, হস্তান্তর ও দেশগুলির মধ্যে আয়ের প্রবাহ",
+      "w": [
+        "অবৈধ পথে পাঠানো অর্থ",
+        "যেসব পণ্য শুল্কে ধরা পড়ে না",
+        "কেন্দ্রীয় ব্যাংকের গোপন রিজার্ভ"
+      ],
+      "e": "Net invisibles হল অদৃশ্যের রপ্তানি-আমদানির পার্থক্য; অদৃশ্যের মধ্যে সেবা (পরিবহণ, ব্যাংকিং, পর্যটন, সফটওয়্যার), হস্তান্তর ও আয়-প্রবাহ পড়ে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "bop_current",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চলতি হিসাবে উদ্বৃত্ত থাকা মানে দেশটি—",
+      "a": "অন্য দেশগুলিকে ঋণ দিচ্ছে (lender)",
+      "w": [
+        "অন্য দেশ থেকে ঋণ নিচ্ছে (borrower)",
+        "দেউলিয়া হয়ে গেছে",
+        "তার রিজার্ভ শেষ হয়ে গেছে"
+      ],
+      "e": "NCERT: চলতি হিসাবে উদ্বৃত্ত মানে দেশ অন্য দেশের ঋণদাতা; ঘাটতি মানে দেশ ঋণগ্রহীতা।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "bop_current",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "IMF-র BPM6 মান অনুযায়ী BoP-র নতুন শ্রেণিবিন্যাস সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "লেনদেন ভাগ হয় চলতি, আর্থিক ও মূলধন হিসাবে; RBI পুরনো শ্রেণিবিন্যাস অনুযায়ীও তথ্য প্রকাশ করে",
+      "w": [
+        "RBI নতুন শ্রেণিবিন্যাস পুরোপুরি প্রত্যাখ্যান করেছে",
+        "নতুন মানে চলতি হিসাব বাতিল করা হয়েছে",
+        "নতুন মানে BoP শুধু একটি হিসাবে প্রকাশিত হয়"
+      ],
+      "e": "BPM6-এ আর্থিক সম্পদের লেনদেন আর্থিক হিসাবে যায়; ভারত বদল মেনে নিলেও RBI পুরনো পদ্ধতিতেও হিসাব প্রকাশ করে, তাই দুই-হিসাবের কাঠামোই পরীক্ষার ভিত্তি।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "bop_current",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "নিম্নলিখিত বিবৃতিগুলি বিবেচনা করুন:\n\n১. চলতি হিসাব পণ্য ও সেবার বাণিজ্য এবং হস্তান্তর প্রদানের হিসাব।\n২. বাণিজ্য ভারসাম্যে (BoT) সেবার রপ্তানি-আমদানিও অন্তর্ভুক্ত থাকে।\n\nকোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল: BoT শুধু পণ্যের হিসাব; সেবা অদৃশ্য হিসেবে চলতি হিসাবে আসে, BoT-তে নয়।",
+      "claims": [
+        "c05",
+        "c07"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "capital_reserves",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মূলধন হিসাব (Capital Account) কীসের হিসাব রাখে?",
+      "a": "সম্পদের সব আন্তর্জাতিক লেনদেনের",
+      "w": [
+        "শুধু পণ্যের রপ্তানি-আমদানির",
+        "শুধু সেবার বাণিজ্যের",
+        "সরকারের কর-আয়ের"
+      ],
+      "e": "মূলধন হিসাব সম্পদ (অর্থ, শেয়ার, বন্ড, ঋণপত্র) কেনাবেচার আন্তর্জাতিক লেনদেন লেখে। পণ্য-সেবা চলতি হিসাবের।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "capital_reserves",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি মূলধন হিসাবের উপাদান নয়?",
+      "a": "বিদেশ থেকে পাওয়া রেমিট্যান্স",
+      "w": [
+        "প্রত্যক্ষ বিদেশি বিনিয়োগ (FDI)",
+        "বিদেশি ঋণ",
+        "পোর্টফোলিও বিনিয়োগ (FII)"
+      ],
+      "e": "রেমিট্যান্স হস্তান্তর — চলতি হিসাবের। FDI, FII, বিদেশি ঋণ ও সাহায্য মূলধন হিসাবের উপাদান।",
+      "claims": [
+        "c12",
+        "c06"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "capital_reserves",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "চলতি হিসাবের ঘাটতি কীভাবে অর্থায়ন করতে হয়?",
+      "a": "মূলধন হিসাবের উদ্বৃত্ত, অর্থাৎ নিট মূলধন প্রবাহ দিয়ে",
+      "w": [
+        "আরও বেশি পণ্য আমদানি করে",
+        "কর বাড়িয়ে",
+        "নোট ছাপিয়ে সরাসরি"
+      ],
+      "e": "ঘাটতি মানে দেশ বিক্রির চেয়ে বেশি কিনছে; ফাঁক মেটে সম্পদ বিক্রি বা বিদেশি ঋণ/বিনিয়োগে — অর্থাৎ মূলধন হিসাবের উদ্বৃত্তে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "capital_reserves",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "‘Official reserve sale’ বলতে কী বোঝায়?",
+      "a": "BoP ঘাটতির সময় রিজার্ভ ব্যাংকের বৈদেশিক মুদ্রা বিক্রি",
+      "w": [
+        "সরকারের সোনা বিক্রি",
+        "রিজার্ভ ব্যাংকের নোট ছাপানো",
+        "বাণিজ্যিক ব্যাংকগুলির ঋণ বিক্রি"
+      ],
+      "e": "ঘাটতি হলে কেন্দ্রীয় ব্যাংক রিজার্ভ থেকে বৈদেশিক মুদ্রা বিক্রি করে — এটাই official reserve sale; রিজার্ভের হ্রাসই সামগ্রিক BoP ঘাটতি।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "capital_reserves",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "স্বয়ংক্রিয় (autonomous) লেনদেনের বৈশিষ্ট্য কোনটি?",
+      "a": "এগুলি BoP-র ফাঁক মেটানো ছাড়া অন্য কারণে, যেমন লাভের জন্য, করা হয়",
+      "w": [
+        "এগুলি শুধু কেন্দ্রীয় ব্যাংক করে",
+        "এগুলি সবসময় রিজার্ভ লেনদেন",
+        "এগুলি শুধু ঘাটতির সময় ঘটে"
+      ],
+      "e": "Autonomous লেনদেন BoP-র অবস্থা থেকে স্বাধীন ('above the line'); রিজার্ভ লেনদেনের মতো ফাঁক-মেটানো লেনদেন accommodating।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "capital_reserves",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "BoP-তে ‘Errors and Omissions’ রাখা হয় কেন?",
+      "a": "সব আন্তর্জাতিক লেনদেন নিখুঁতভাবে নথিভুক্ত করা কঠিন বলে",
+      "w": [
+        "বিদেশি সাহায্য লুকানোর জন্য",
+        "শুধু কর ফাঁকির হিসাব রাখতে",
+        "রিজার্ভের বিকল্প হিসেবে"
+      ],
+      "e": "নথিভুক্তির অনিবার্য ত্রুটি মেলাতেই চলতি ও মূলধন হিসাবের বাইরে এই তৃতীয় উপাদানটি রাখা হয়।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "capital_reserves",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "ভারতের লেনদেনের ভারসাম্য (BoP) সম্পর্কে বিবেচনা করুন:\n\n১. বিদেশি ঋণ মূলধন হিসাবের লেনদেন।\n২. প্রত্যক্ষ বিদেশি বিনিয়োগ (FDI) মূলধন হিসাবের লেনদেন।\n৩. বিদেশ থেকে রেমিট্যান্স মূলধন হিসাবের লেনদেন।\n৪. পোর্টফোলিও বিনিয়োগ মূলধন হিসাবের লেনদেন।\n\nকোনগুলি মূলধন হিসাবের?",
+      "a": "১, ২ এবং ৪",
+      "w": [
+        "কেবল ১ এবং ২",
+        "১, ২, ৩ এবং ৪",
+        "কেবল ৩ এবং ৪"
+      ],
+      "e": "WBCS ২০২৩-এর এই প্রশ্নের ধরন: ঋণ, FDI ও পোর্টফোলিও বিনিয়োগ মূলধন হিসাবের; রেমিট্যান্স হস্তান্তর হিসেবে চলতি হিসাবের। তাই ৩ বাদ।",
+      "claims": [
+        "c12",
+        "c06"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "exchange_rate",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বিনিময় হার (exchange rate) বলতে কী বোঝায়?",
+      "a": "একটি মুদ্রার দাম অন্য মুদ্রায় প্রকাশ",
+      "w": [
+        "একটি দেশের মোট রপ্তানির মূল্য",
+        "ব্যাংকের সুদের হার",
+        "সোনার আন্তর্জাতিক দাম"
+      ],
+      "e": "বিনিময় হার হল এক মুদ্রার মূল্য অন্য মুদ্রার হিসাবে — যেমন ১ ডলার = ৫০ টাকা।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "exchange_rate",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভাসমান (flexible/floating) বিনিময় হার কীভাবে নির্ধারিত হয়?",
+      "a": "বাজারের চাহিদা ও জোগানের শক্তিতে",
+      "w": [
+        "সরকারের ঘোষণায়",
+        "IMF-র সিদ্ধান্তে",
+        "সোনার দামের সঙ্গে বেঁধে"
+      ],
+      "e": "Flexible ব্যবস্থায় হার বাজারের চাহিদা-জোগানে ঠিক হয়; কেন্দ্রীয় ব্যাংক হস্তক্ষেপ করে না।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "exchange_rate",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভাসমান ব্যবস্থায় ডলারের দাম টাকায় বাড়লে (যেমন ৫০ থেকে ৭০) তাকে কী বলে?",
+      "a": "রুপির অবচয় (depreciation)",
+      "w": [
+        "রুপির অবমূল্যায়ন (devaluation)",
+        "রুপির মূল্যবৃদ্ধি (appreciation)",
+        "রুপির পুনর্মূল্যায়ন (revaluation)"
+      ],
+      "e": "বাজারের চাপে হার বাড়া = দেশি মুদ্রার depreciation। Devaluation হয় শুধু স্থির ব্যবস্থায় সরকারি সিদ্ধান্তে।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "exchange_rate",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অবমূল্যায়ন (devaluation) কোন ব্যবস্থার ধারণা?",
+      "a": "স্থির বিনিময় হার ব্যবস্থার — সরকারি সিদ্ধান্তে হার বাড়িয়ে মুদ্রা সস্তা করা",
+      "w": [
+        "ভাসমান ব্যবস্থার — বাজারের চাপে মুদ্রার দাম পড়া",
+        "বার্টার ব্যবস্থার",
+        "সোনার মান (gold standard) ব্যবস্থার একমাত্র বৈশিষ্ট্য"
+      ],
+      "e": "Devaluation: স্থির ব্যবস্থায় সরকার হার বাড়িয়ে দেশি মুদ্রা সস্তা করে। ভাসমান ব্যবস্থায় একই ঘটনার নাম depreciation।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "exchange_rate",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "‘Managed floating’ বা ‘dirty floating’ ব্যবস্থায় কেন্দ্রীয় ব্যাংক কী করে?",
+      "a": "হারের ওঠানামা কমাতে উপযুক্ত মনে হলে বৈদেশিক মুদ্রা কেনাবেচা করে",
+      "w": [
+        "হার সম্পূর্ণ সরকার নির্ধারণ করে",
+        "কখনোই বাজারে ঢোকে না",
+        "শুধু সোনা কেনাবেচা করে"
+      ],
+      "e": "Managed floating ভাসমান ও স্থিরের মিশ্রণ: হার মূলত বাজারে ঠিক হয়, কিন্তু কেন্দ্রীয় ব্যাংক মাঝে মাঝে হস্তক্ষেপ করে।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "exchange_rate",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "মানুষ বৈদেশিক মুদ্রার চাহিদা করে কোন কারণে?",
+      "a": "বিদেশি পণ্য-সেবা কেনা, বিদেশে উপহার পাঠানো এবং বিদেশি আর্থিক সম্পদ কেনা",
+      "w": [
+        "শুধু বিদেশ ভ্রমণের জন্য",
+        "শুধু সোনা আমদানির জন্য",
+        "কেবল সরকারি ঋণ শোধের জন্য"
+      ],
+      "e": "NCERT তিনটি কারণই দেয়: পণ্য-সেবা কেনা, উপহার পাঠানো, আর্থিক সম্পদ কেনা। ভ্রমণ এর একটি অংশ মাত্র (সেবা আমদানি)।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "exchange_rate",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**বক্তব্য (A):** ১৯৯১ সালে রুপির ক্ষেত্রে যা ঘটেছিল তাকে ‘অবমূল্যায়ন’ (devaluation) বলা হয়, ‘অবচয়’ (depreciation) নয়।\n\n**কারণ (R):** তখন বিনিময় হার সরকার-নিয়ন্ত্রিত ছিল এবং সরকারি সিদ্ধান্তেই রুপি সস্তা করা হয়েছিল।",
+      "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সত্য, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য, কিন্তু R মিথ্যা",
+        "A মিথ্যা, কিন্তু R সত্য"
+      ],
+      "e": "Devaluation-এর শর্তই হল স্থির/নিয়ন্ত্রিত ব্যবস্থায় সরকারি সিদ্ধান্ত। ১৯৯১-এ BoP সংকট মেটাতে সরকারই রুপি অবমূল্যায়ন করে — তাই R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c22",
+        "c29"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "reforms_1991",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "১৯৯১ সালের সংকটে ভারতের বৈদেশিক মুদ্রার রিজার্ভ কোন স্তরে নেমে এসেছিল?",
+      "a": "পনেরো দিনের (a fortnight) আমদানির জন্যও যথেষ্ট ছিল না",
+      "w": [
+        "ছয় মাসের আমদানির সমান ছিল",
+        "এক বছরের আমদানির সমান ছিল",
+        "রিজার্ভ আগের চেয়ে বেড়ে গিয়েছিল"
+      ],
+      "e": "NCERT: রিজার্ভ নেমে আসে এমন স্তরে যা পেট্রোলিয়ামসহ জরুরি আমদানির পনেরো দিনের জন্যও যথেষ্ট নয়।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "reforms_1991",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "১৯৯১-এর সংকটে ভারত কোন দুটি আন্তর্জাতিক সংস্থার কাছে ঋণের জন্য যায়?",
+      "a": "বিশ্ব ব্যাংক (IBRD) ও আন্তর্জাতিক মুদ্রা তহবিল (IMF)",
+      "w": [
+        "WTO ও UNCTAD",
+        "এশীয় উন্নয়ন ব্যাংক ও BRICS ব্যাংক",
+        "SAARC ও ASEAN"
+      ],
+      "e": "ভারত IBRD (বিশ্ব ব্যাংক) ও IMF-র দ্বারস্থ হয়; NCERT অনুযায়ী সংকট মোকাবিলায় ৭ বিলিয়ন ডলার ঋণ মেলে।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "reforms_1991",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১৯৯১ সালে BoP সংকট মেটাতে বৈদেশিক মুদ্রা ক্ষেত্রে প্রথম তাৎক্ষণিক পদক্ষেপ কোনটি ছিল?",
+      "a": "রুপির অবমূল্যায়ন (devaluation)",
+      "w": [
+        "রুপির মূল্যবৃদ্ধি (appreciation)",
+        "সব আমদানি নিষিদ্ধ করা",
+        "সোনা রপ্তানি বন্ধ করা"
+      ],
+      "e": "তাৎক্ষণিক পদক্ষেপে রুপি অবমূল্যায়ন করা হয় — এতে বৈদেশিক মুদ্রার প্রবাহ বাড়ে এবং বাজারভিত্তিক হার নির্ধারণের পথ খোলে।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "reforms_1991",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "১৯৯১-পরবর্তী বাণিজ্য-নীতি সংস্কারের লক্ষ্য ছিল না কোনটি?",
+      "a": "আমদানির ওপর পরিমাণগত বিধিনিষেধ (QR) আরও বাড়ানো",
+      "w": [
+        "আমদানি-রপ্তানিতে QR ভেঙে ফেলা",
+        "শুল্কের হার কমানো",
+        "আমদানির লাইসেন্স-পদ্ধতি তুলে দেওয়া"
+      ],
+      "e": "সংস্কারের তিন লক্ষ্যই ছিল বিধিনিষেধ কমানো: QR ভাঙন, শুল্ক হ্রাস, লাইসেন্স অপসারণ। QR বাড়ানো তার বিপরীত।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "reforms_1991",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "তৈরি ভোগ্যপণ্য ও কৃষিপণ্যের আমদানিতে পরিমাণগত বিধিনিষেধ (QR) সম্পূর্ণ উঠে যায় কবে?",
+      "a": "এপ্রিল ২০০১ থেকে",
+      "w": [
+        "জানুয়ারি ১৯৯৫ থেকে",
+        "এপ্রিল ১৯৯১ থেকে",
+        "ফেব্রুয়ারি ২০০৬ থেকে"
+      ],
+      "e": "NCERT: QR সম্পূর্ণ অপসারণ এপ্রিল ২০০১ — WTO-তে ভারতের উদারীকরণ প্রতিশ্রুতির অংশ। ১৯৯৫ WTO-র প্রতিষ্ঠা, ২০০৬ SEZ বিধির সাল।",
+      "claims": [
+        "c32",
+        "c35"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "reforms_1991",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "সংস্কারের পর ভারতে বিনিময় হার সাধারণত কীভাবে নির্ধারিত হয়?",
+      "a": "বাজারে বৈদেশিক মুদ্রার চাহিদা ও জোগানের ভিত্তিতে",
+      "w": [
+        "প্রতিদিন সরকারের ঘোষণায়",
+        "IMF-র নির্ধারিত হারে",
+        "সোনার দামের সঙ্গে নির্দিষ্ট অনুপাতে"
+      ],
+      "e": "NCERT: এখন বেশিরভাগ সময় বাজারই চাহিদা-জোগানে হার ঠিক করে — সরকারি নিয়ন্ত্রণ থেকে হার মুক্ত হয়েছে।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "reforms_1991",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "১৯৯১-এর সংকট সম্পর্কে বিবেচনা করুন:\n\n১. সংকটটি ছিল বৈদেশিক ঋণ-সংক্রান্ত — সরকার বিদেশি ঋণ শোধ করতে পারছিল না।\n২. সংকটের সময় রিজার্ভ এক বছরের আমদানির জন্য যথেষ্ট ছিল।\n\nকোন বিবৃতিটি/গুলি সঠিক?",
+      "a": "কেবল ১",
+      "w": [
+        "কেবল ২",
+        "১ এবং ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়"
+      ],
+      "e": "বিবৃতি ১ সঠিক। বিবৃতি ২ ভুল: রিজার্ভ পনেরো দিনের আমদানির জন্যও যথেষ্ট ছিল না — এই চরম ঘাটতিই সংকটের প্রমাণ।",
+      "claims": [
+        "c26",
+        "c27"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "investment_wto_sez",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "MNC (বহুজাতিক সংস্থা) কাকে বলে?",
+      "a": "যে কোম্পানি একাধিক দেশে উৎপাদনের মালিক বা নিয়ন্ত্রক",
+      "w": [
+        "যে কোম্পানি শুধু আমদানি করে",
+        "যে কোম্পানির শেয়ার অনেক দেশে বিক্রি হয়",
+        "সরকারি মালিকানাধীন রপ্তানি সংস্থা"
+      ],
+      "e": "MNC-র সংজ্ঞাই হল একাধিক দেশে উৎপাদন নিয়ন্ত্রণ। শুধু বাণিজ্য বা শেয়ার-বিক্রি যথেষ্ট নয়।",
+      "claims": [
+        "c38"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "investment_wto_sez",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SEZ-র পূর্ণরূপ কী?",
+      "a": "Special Economic Zone (বিশেষ অর্থনৈতিক অঞ্চল)",
+      "w": [
+        "Special Export Zone",
+        "State Economic Zone",
+        "Special Employment Zone"
+      ],
+      "e": "ক্লার্কশিপ ২০০৬-এর প্রশ্ন: SEZ = Special Economic Zone। Export/State/Employment — তিনটিই ভুল বিস্তার।",
+      "claims": [
+        "c43"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "investment_wto_sez",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "WTO কোন সালে প্রতিষ্ঠিত হয় এবং কার উত্তরসূরি হিসেবে?",
+      "a": "১৯৯৫ সালে, GATT-র উত্তরসূরি হিসেবে",
+      "w": [
+        "১৯৪৮ সালে, IMF-র উত্তরসূরি হিসেবে",
+        "১৯৯১ সালে, বিশ্ব ব্যাংকের উত্তরসূরি হিসেবে",
+        "২০০০ সালে, UNCTAD-র উত্তরসূরি হিসেবে"
+      ],
+      "e": "WTO প্রতিষ্ঠা ১৯৯৫; পূর্বসূরি GATT প্রতিষ্ঠিত হয় ১৯৪৮ সালে ২৩টি দেশ নিয়ে।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "investment_wto_sez",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SEZ আইন ২০০৫ কবে থেকে কার্যকর (বিধিসহ) হয়?",
+      "a": "১০ ফেব্রুয়ারি ২০০৬",
+      "w": [
+        "২৩ জুন ২০০৫",
+        "১ এপ্রিল ২০০০",
+        "১ জানুয়ারি ১৯৯৫"
+      ],
+      "e": "আইন পাস মে ২০০৫, রাষ্ট্রপতির সম্মতি ২৩ জুন ২০০৫ — কিন্তু SEZ বিধি কার্যকর ১০ ফেব্রুয়ারি ২০০৬। WBCS ২০১৭-র উত্তর এই ২০০৬-ই।",
+      "claims": [
+        "c44"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "investment_wto_sez",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "EXIM ব্যাংক সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "১৯৮২ সালে প্রতিষ্ঠিত; ভারতের আন্তর্জাতিক বাণিজ্যের অর্থায়নের শীর্ষ প্রতিষ্ঠান ও প্রধান রপ্তানি-ঋণ সংস্থা",
+      "w": [
+        "১৯৩৫ সালে প্রতিষ্ঠিত; মুদ্রানীতি নির্ধারণ করে",
+        "১৯৬৯ সালে প্রতিষ্ঠিত; কৃষি-ঋণের শীর্ষ প্রতিষ্ঠান",
+        "১৯৯২ সালে প্রতিষ্ঠিত; শেয়ার বাজারের নিয়ন্ত্রক"
+      ],
+      "e": "EXIM ব্যাংক ১৯৮২, সংসদের আইনে, RBI-নিয়ন্ত্রিত। ১৯৩৫ RBI-র, কৃষি-ঋণ NABARD-এর, শেয়ার-বাজার SEBI-র ক্ষেত্র।",
+      "claims": [
+        "c46"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "investment_wto_sez",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "নিম্নলিখিত ঘটনাগুলিকে কালানুক্রমে সাজান (আগেরটি প্রথমে):\n\n১. WTO প্রতিষ্ঠা\n২. GATT প্রতিষ্ঠা\n৩. SEZ বিধি কার্যকর\n৪. EXIM ব্যাংক প্রতিষ্ঠা",
+      "a": "২, ৪, ১, ৩",
+      "w": [
+        "২, ১, ৪, ৩",
+        "৪, ২, ১, ৩",
+        "২, ৪, ৩, ১"
+      ],
+      "e": "GATT ১৯৪৮ → EXIM ব্যাংক ১৯৮২ → WTO ১৯৯৫ → SEZ বিধি কার্যকর ২০০৬।",
+      "claims": [
+        "c33",
+        "c44",
+        "c46"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "investment_wto_sez",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা মেলান:\n\nA. আমদানির ওপর কর\nB. সরকারি বাধা তুলে নেওয়া\nC. বিদেশি কোম্পানির জমি-যন্ত্রপাতি কেনায় খরচ\nD. একাধিক দেশে উৎপাদন নিয়ন্ত্রণকারী কোম্পানি\n\n১. উদারীকরণ ২. বাণিজ্য বাধা ৩. MNC ৪. বিদেশি বিনিয়োগ\n\nসঠিক মিল কোনটি?",
+      "a": "A-২, B-১, C-৪, D-৩",
+      "w": [
+        "A-১, B-২, C-৩, D-৪",
+        "A-২, B-১, C-৩, D-৪",
+        "A-৪, B-৩, C-২, D-১"
+      ],
+      "e": "আমদানি-কর = বাণিজ্য বাধার উদাহরণ; বাধা তোলা = উদারীকরণ; সম্পদ কেনায় MNC-র খরচ = বিদেশি বিনিয়োগ; বহুদেশে উৎপাদন নিয়ন্ত্রক = MNC।",
+      "claims": [
+        "c40",
+        "c41",
+        "c39",
+        "c38"
+      ]
+    }
+  ]
+}

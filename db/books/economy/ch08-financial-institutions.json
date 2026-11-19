@@ -1,0 +1,1493 @@
+{
+  "book": "economy",
+  "code": "ECO-08",
+  "number": 8,
+  "part": "banking_finance",
+  "title": "আর্থিক প্রতিষ্ঠান",
+  "subtitle": "নিয়ন্ত্রক, উন্নয়ন ব্যাংক, NBFC ও আমানত বিমা: কে কোন খাতে, কোন আইনে, কোন বছরে",
+  "subtopics": [
+    "financial_institutions"
+  ],
+  "related_facts": [
+    "GK-ECO-012",
+    "GK-ECO-013",
+    "GK-ECO-014",
+    "GK-ECO-104"
+  ],
+  "prerequisites": [
+    "ECO-06",
+    "ECO-07"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 28,
+    "deep": 40
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (41 SURE, 0 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 8 of 11 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ECO-08.json and drafts/ECO-08_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ECO-08_REPORT.md.",
+    "checked_claims": 36,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এই অধ্যায়ে ভারতের আর্থিক প্রতিষ্ঠানগুলির পূর্ণ মানচিত্রটি গড়া হয়েছে: অর্থ তৈরি করে কে (কেন্দ্রীয় ব্যাংক ও বাণিজ্যিক ব্যাংক), নিয়ন্ত্রণ করে কে (RBI, SEBI, IRDAI, PFRDA), খাতভিত্তিক উন্নয়ন অর্থায়ন দেয় কে (NABARD, SIDBI, NHB, EXIM Bank), ব্যাংক ছাড়া ঋণ দেয় কারা (NBFC) এবং আমানতকারীর সুরক্ষা দেয় কে (DICGC)। প্রতিটি প্রতিষ্ঠানের ক্ষেত্রে তিনটি জিনিস মনে রাখতে হবে — খাত, প্রতিষ্ঠা-আইন ও বছর।",
+    "you_will_learn": [
+      "অর্থ-সৃষ্টিকারী ব্যবস্থার দুই স্তম্ভ: কেন্দ্রীয় ব্যাংক ও বাণিজ্যিক ব্যাংক",
+      "চার নিয়ন্ত্রক — RBI, SEBI, IRDAI, PFRDA — কার কোন বাজার",
+      "চার উন্নয়ন প্রতিষ্ঠান — NABARD, SIDBI, NHB, EXIM — খাত, আইন ও বছর",
+      "NBFC-র সংজ্ঞা, ৫০-৫০ পরীক্ষা ও ব্যাংকের সঙ্গে তিন পার্থক্য",
+      "DICGC আমানত বিমা: ৫ লক্ষ টাকার সীমা, শাখা বনাম ব্যাংকের নিয়ম",
+      "প্রতিষ্ঠা-আইনের বছরের পূর্ণ কালানুক্রম (১৯৩৪–১৯৯৯)"
+    ]
+  },
+  "sections": [
+    {
+      "id": "system_map",
+      "heading": "আর্থিক ব্যবস্থার মানচিত্র: কে টাকা তৈরি করে, কে ধার দেয়",
+      "quick": "আধুনিক অর্থনীতিতে অর্থ তৈরি করে দুই ধরনের প্রতিষ্ঠান — কেন্দ্রীয় ব্যাংক ও বাণিজ্যিক ব্যাংক ব্যবস্থা। কেন্দ্রীয় ব্যাংক মুদ্রা ছাপায় ও অর্থ সরবরাহ নিয়ন্ত্রণ করে; বাণিজ্যিক ব্যাংক জনগণের আমানত নিয়ে তার একাংশ ঋণ দেয়।",
+      "standard": "কোনো অর্থনীতির **আর্থিক প্রতিষ্ঠান** বলতে বোঝায় সেই সব সংস্থা যারা সঞ্চয়কারীর কাছ থেকে অর্থ সংগ্রহ করে ঋণগ্রহীতা ও বিনিয়োগকারীর কাছে পৌঁছে দেয়। NCERT (দ্বাদশ শ্রেণি, Money and Banking) অনুযায়ী, আধুনিক অর্থনীতিতে অর্থের মধ্যে পড়ে নগদ ও ব্যাংক আমানত, আর এই অর্থ তৈরি করে দুই ধরনের প্রতিষ্ঠান মিলে — **কেন্দ্রীয় ব্যাংক** ও **বাণিজ্যিক ব্যাংক ব্যবস্থা**।\n\nভারতের কেন্দ্রীয় ব্যাংক হল **রিজার্ভ ব্যাংক অফ ইন্ডিয়া (RBI)** — দেশ এটি পায় ১৯৩৫ সালে। কেন্দ্রীয় ব্যাংক দেশের মুদ্রা জারি করে, ব্যাংক রেট, খোলা বাজারে ক্রয়-বিক্রয় (open market operations) ও রিজার্ভ অনুপাত বদলে অর্থ সরবরাহ নিয়ন্ত্রণ করে, সরকারের ব্যাংকার হিসেবে কাজ করে এবং বৈদেশিক মুদ্রার রিজার্ভের রক্ষক।\n\nঅন্যদিকে **বাণিজ্যিক ব্যাংক** জনগণের কাছ থেকে আমানত নেয় এবং সেই অর্থের একাংশ ধার দেয় যারা ঋণ চায়। আমানতকারীদের দেওয়া সুদের হার ঋণগ্রহীতাদের কাছ থেকে নেওয়া হারের চেয়ে কম হয়; এই দুই হারের পার্থক্যকে বলে **স্প্রেড (spread)** — এটাই ব্যাংকের মুনাফা। বাণিজ্যিক ব্যাংকগুলি RBI-র কাছে যে আমানত রাখে ও নিজেদের হাতে যে নগদ রাখে, তাকে বলে **রিজার্ভ (reserves)**।\n\nএই দুই স্তরের বাইরে আছে নিয়ন্ত্রক সংস্থা, উন্নয়ন ব্যাংক, NBFC ও আমানত বিমা সংস্থা — পরের অংশগুলিতে সেগুলিই এই অধ্যায়ের মূল বিষয়।",
+      "deep": "অর্থ তৈরির প্রক্রিয়ায় কেন্দ্রীয় ব্যাংকের ছাপানো মুদ্রাকে বলা হয় **উচ্চ-ক্ষমতাসম্পন্ন অর্থ (high-powered money)** বা রিজার্ভ মানি, কারণ তা ঋণ-সৃষ্টির ভিত্তি হিসেবে কাজ করে। বাণিজ্যিক ব্যাংক ঋণ দিলে ঋণগ্রহীতার নামে নতুন আমানত খোলে — ফলে মোট অর্থ সরবরাহ বাড়ে। অর্থাৎ আর্থিক প্রতিষ্ঠানগুলি শুধু অর্থ 'জমিয়ে' রাখে না, তারা অর্থ সরবরাহের সক্রিয় স্রষ্টা।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "অর্থ-সৃষ্টিকারী ব্যবস্থা = কেন্দ্রীয় ব্যাংক + বাণিজ্যিক ব্যাংক। এই জুটি থেকেই পরীক্ষায় বারবার প্রশ্ন আসে।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04"
+      ]
+    },
+    {
+      "id": "regulators",
+      "heading": "নিয়ন্ত্রক সংস্থা: RBI, SEBI, IRDAI ও PFRDA",
+      "quick": "প্রতিটি আর্থিক বাজারের একজন করে নিয়ন্ত্রক আছে: ব্যাংক ও আর্থিক ব্যবস্থা — RBI; সিকিউরিটিজ বাজার — SEBI (বিধিবদ্ধ ১৯৯২); বিমা — IRDAI (আইন ১৯৯৯); পেনশন/NPS — PFRDA।",
+      "standard": "**রিজার্ভ ব্যাংক অফ ইন্ডিয়া (RBI)** প্রতিষ্ঠিত হয় **১ এপ্রিল ১৯৩৫**, RBI আইন, ১৯৩৪ অনুযায়ী। এর প্রস্তাবনায় মূল কাজ বলা হয়েছে — ব্যাংক নোট জারি নিয়ন্ত্রণ ও রিজার্ভ রক্ষা করে মুদ্রাগত স্থিতি নিশ্চিত করা এবং দেশের মুদ্রা ও ঋণ ব্যবস্থা পরিচালনা করা। আর্থিক ব্যবস্থার নিয়ন্ত্রক ও তত্ত্বাবধায়ক হিসেবে RBI ব্যাংকিং কার্যক্রমের বিস্তৃত মানদণ্ড ঠিক করে দেয়; উদ্দেশ্য — ব্যবস্থায় জনগণের আস্থা বজায় রাখা, আমানতকারীদের স্বার্থরক্ষা ও সাশ্রয়ী ব্যাংকিং সেবা। ১৯৯৪ সালের নভেম্বরে গঠিত **আর্থিক তত্ত্বাবধান বোর্ড (BFS)** বাণিজ্যিক ব্যাংক, আর্থিক প্রতিষ্ঠান ও অ-ব্যাংক আর্থিক মধ্যস্থতাকারীদের উপর সমন্বিত তত্ত্বাবধান চালায়।\n\n**SEBI (সেবি)** সিকিউরিটিজ বাজারের নিয়ন্ত্রক। এটি প্রথমে **১২ এপ্রিল ১৯৮৮** সরকারি প্রস্তাবের মাধ্যমে **অ-বিধিবদ্ধ** সংস্থা হিসেবে গঠিত হয়; **১৯৯২ সালে বিধিবদ্ধ** হয় এবং SEBI আইন, ১৯৯২ কার্যকর হয় **৩০ জানুয়ারি ১৯৯২**। সেবির প্রস্তাবনায় কাজ: সিকিউরিটিজে বিনিয়োগকারীদের স্বার্থরক্ষা এবং সিকিউরিটিজ বাজারের উন্নয়ন ও নিয়ন্ত্রণ।\n\n**IRDAI** বিমা খাতের নিয়ন্ত্রক; IRDAI আইন, **১৯৯৯**-এর ধারা ১৪(২)(h) থেকে এটি তথ্য তলব, পরিদর্শন এবং বিমাকারী ও মধ্যস্থতাকারীদের নিরীক্ষাসহ তদন্তের ক্ষমতা পায়। এর প্রধান দপ্তর **হায়দরাবাদে**।\n\n**PFRDA** পেনশন খাতের বিধিবদ্ধ কর্তৃপক্ষ — সংসদের আইনে প্রতিষ্ঠিত; কাজ হল জাতীয় পেনশন ব্যবস্থা (NPS) ও সংশ্লিষ্ট পেনশন প্রকল্পগুলির নিয়ন্ত্রণ, প্রসার ও সুশৃঙ্খল বৃদ্ধি নিশ্চিত করা।",
+      "deep": "নিয়ন্ত্রকদের আইনি ভিত্তি এক লাইনে: RBI — ১৯৩৪ সালের আইন; SEBI — ১৯৯২ সালের আইন; IRDAI — ১৯৯৯ সালের আইন; PFRDA — সংসদের আইনে প্রতিষ্ঠিত বিধিবদ্ধ কর্তৃপক্ষ। পরীক্ষায় সবচেয়ে বেশি গুলিয়ে ফেলা হয় SEBI-র দুটি বছর: **গঠন ১৯৮৮ (অ-বিধিবদ্ধ), বিধিবদ্ধ মর্যাদা ১৯৯২**।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ো না",
+          "body": "SEBI গঠিত ১৯৮৮ সালে, কিন্তু বিধিবদ্ধ ক্ষমতা পায় ১৯৯২ সালে। 'SEBI কবে প্রতিষ্ঠিত?' প্রশ্নে প্রসঙ্গ দেখে উত্তর দাও।"
+        },
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "IRDAI-র প্রধান দপ্তর হায়দরাবাদে, RBI-র কেন্দ্রীয় দপ্তর মুম্বইয়ে — এই জোড়াটি প্রায়ই একসঙ্গে জিজ্ঞাসা করা হয়।"
+        }
+      ],
+      "claims": [
+        "c05",
+        "c07",
+        "c36",
+        "c08",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c22"
+      ]
+    },
+    {
+      "id": "development_banks",
+      "heading": "উন্নয়ন ব্যাংক: NABARD, SIDBI, NHB ও EXIM Bank",
+      "quick": "নির্দিষ্ট খাতের জন্য গড়া শীর্ষ উন্নয়ন প্রতিষ্ঠান: কৃষি ও গ্রামোন্নয়ন — NABARD (১৯৮২); MSME — SIDBI (১৯৯০); আবাসন অর্থায়ন — NHB (১৯৮৮); রপ্তানি-আমদানি — EXIM Bank (১৯৮২)।",
+      "standard": "সাধারণ বাণিজ্যিক ব্যাংক সব খাতে ঋণ দিলেও কিছু খাতের দীর্ঘমেয়াদি ও বিশেষায়িত অর্থায়নের জন্য সংসদের আইনে আলাদা **উন্নয়ন ব্যাংক / শীর্ষ আর্থিক প্রতিষ্ঠান** গড়া হয়েছে।\n\n**NABARD** (ন্যাশনাল ব্যাংক ফর এগ্রিকালচার অ্যান্ড রুরাল ডেভেলপমেন্ট) প্রতিষ্ঠিত হয় **১২ জুলাই ১৯৮২**, সংসদের আইনে। উদ্দেশ্য — কৃষি, ক্ষুদ্র শিল্প, কুটির ও গ্রাম শিল্প, হস্তশিল্প ও অন্যান্য গ্রামীণ কার্যকলাপের প্রসার ও উন্নয়নের জন্য ঋণ ও অন্যান্য সুবিধা দেওয়া ও নিয়ন্ত্রণ করা। NABARD আইন, ১৯৮১-এর ধারা ২১(i) অনুযায়ী NABARD সমবায় ব্যাংক, আঞ্চলিক গ্রামীণ ব্যাংক (RRB) ও RBI-অনুমোদিত অন্যান্য আর্থিক প্রতিষ্ঠানকে স্বল্পমেয়াদি মৌসুমি কৃষি কার্যক্রমের জন্য **পুনঃঅর্থায়ন (refinance)** দেয়।\n\n**SIDBI** (স্মল ইন্ডাস্ট্রিজ ডেভেলপমেন্ট ব্যাংক অফ ইন্ডিয়া) গড়া হয় **২ এপ্রিল ১৯৯০**, সংসদের আইনে। এটি ক্ষুদ্র, ছোট ও মাঝারি উদ্যোগ (MSME) খাতের প্রসার, অর্থায়ন ও উন্নয়নের **প্রধান আর্থিক প্রতিষ্ঠান** এবং অনুরূপ কাজে যুক্ত প্রতিষ্ঠানগুলির সমন্বয়কারী।\n\n**NHB** (ন্যাশনাল হাউজিং ব্যাংক) একটি সর্বভারতীয় আর্থিক প্রতিষ্ঠান (AIFI); প্রতিষ্ঠা **১৯৮৮** সালে, NHB আইন, ১৯৮৭ (কেন্দ্রীয় আইন ৫৩)-এর অধীনে। এটি আবাসন অর্থায়ন প্রতিষ্ঠানগুলির প্রসারের শীর্ষ সংস্থা — স্থানীয় ও আঞ্চলিক স্তরে সেগুলিকে আর্থিক ও অন্যান্য সহায়তা দেয়। ২০১৮ সালের সংশোধনীর পর NHB-র মালিকানা RBI থেকে ভারত সরকারের কাছে হস্তান্তরিত হয়, যাতে নিয়ন্ত্রক ও মালিক — RBI-র এই দুই ভূমিকা আলাদা থাকে।\n\n**EXIM Bank** (এক্সপোর্ট-ইমপোর্ট ব্যাংক অফ ইন্ডিয়া) একটি বিধিবদ্ধ কর্পোরেশন; প্রতিষ্ঠা **১৯৮২** সালে, EXIM Bank আইন, ১৯৮১-এর অধীনে। কাজ — রপ্তানিকারক ও আমদানিকারকদের আর্থিক সহায়তা দেওয়া এবং পণ্য ও সেবার রপ্তানি-আমদানি অর্থায়নে যুক্ত প্রতিষ্ঠানগুলির কাজের সমন্বয়ের প্রধান প্রতিষ্ঠান হিসেবে কাজ করা।",
+      "deep": "চারটি প্রতিষ্ঠানের মিল: প্রতিটিই আইনে গড়া, প্রতিটিই একটি নির্দিষ্ট খাতের 'শীর্ষ' সংস্থা, এবং প্রতিটিই মূলত অন্য ঋণদাতাদের পুনঃঅর্থায়ন ও সমন্বয়ের কাজ করে — সরাসরি খুচরো ঋণ দেওয়া এদের প্রধান কাজ নয়। বছরগুলি মনে রাখার ক্রম: ১৯৮২ (NABARD ও EXIM) → ১৯৮৮ (NHB) → ১৯৯০ (SIDBI)।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "WBCS ২০১৫-তে এসেছিল: 'NABARD is associated with…' এবং 'The EXIM Bank of India deals with…' — খাত-মিল (sector matching) এই অধ্যায়ের সবচেয়ে পরীক্ষিত ধরন।"
+        }
+      ],
+      "claims": [
+        "c16",
+        "c17",
+        "c19",
+        "c20",
+        "c21",
+        "c18"
+      ]
+    },
+    {
+      "id": "nbfc",
+      "heading": "অ-ব্যাংক আর্থিক কোম্পানি (NBFC) ও ক্ষুদ্রঋণ",
+      "quick": "NBFC হল Companies Act-এ নিবন্ধিত কোম্পানি যার প্রধান ব্যবসা ঋণ, শেয়ার-বন্ড কেনা, লিজিং, হায়ার-পারচেজ ইত্যাদি। এরা চাহিদা আমানত (demand deposit) নিতে পারে না, নিজের নামে চেক কাটতে পারে না এবং এদের আমানতে DICGC বিমা মেলে না।",
+      "standard": "**NBFC**-র সংজ্ঞা (RBI FAQ, হালনাগাদ ১১ নভেম্বর ২০২৬): Companies Act, ১৯৫৬ বা ২০১৩-এর অধীনে নিবন্ধিত কোম্পানি, যার প্রধান ব্যবসা ঋণ ও অগ্রিম, সরকার বা স্থানীয় কর্তৃপক্ষের জারি করা শেয়ার/স্টক/বন্ড/ডিবেঞ্চার/সিকিউরিটিজ অর্জন, লিজিং, হায়ার-পারচেজ ইত্যাদি। কিন্তু যার প্রধান ব্যবসা কৃষি, শিল্প কার্যকলাপ, পণ্য ক্রয়-বিক্রয়, সেবা দেওয়া বা স্থাবর সম্পত্তি ক্রয়-বিক্রয়-নির্মাণ — সে NBFC নয়।\n\nকোনো কোম্পানির আর্থিক কার্যকলাপ 'প্রধান ব্যবসা' কিনা তা মাপা হয় **৫০-৫০ পরীক্ষায়**: মোট সম্পদের ৫০ শতাংশের বেশি আর্থিক সম্পদ এবং মোট আয়ের ৫০ শতাংশের বেশি আর্থিক সম্পদ থেকে আয় — দুটোই হলে তাকে RBI-র কাছে NBFC হিসেবে নিবন্ধন নিতে হয়। RBI আইন, ১৯৩৪-এর **ধারা ৪৫-IA** অনুযায়ী নিবন্ধন ছাড়া কেউ অ-ব্যাংক আর্থিক প্রতিষ্ঠানের ব্যবসা চালাতে পারে না; ১ অক্টোবর ২০২২ থেকে ন্যূনতম নেট ওনড ফান্ড (NOF) **১০ কোটি টাকা** (RBI FAQ অনুযায়ী, ২০২৬-১১-১৯ তারিখে পঠিত)।\n\n**ব্যাংকের সঙ্গে পার্থক্য** তিনটি: (১) NBFC চাহিদা আমানত নিতে পারে না; (২) NBFC পেমেন্ট ও সেটেলমেন্ট ব্যবস্থার অংশ নয়, নিজের উপর টানা চেক জারি করতে পারে না; (৩) আমানত-গ্রহণকারী NBFC-র আমানতকারীরা **DICGC বিমা পান না**। RBI আইন অনুযায়ী RBI এই NBFC-গুলির নিবন্ধন, নির্দেশ, পরিদর্শন, নিয়ন্ত্রণ ও তত্ত্বাবধান করে এবং নিয়ম ভাঙলে নিবন্ধন বাতিলসহ শাস্তি দিতে পারে।\n\nপ্রকারভেদের মধ্যে পরীক্ষার জন্য গুরুত্বপূর্ণ: **NBFC-MFI** — আমানত-গ্রহণ করে না এমন NBFC, যার মোট সম্পদের অন্তত ৬০% ক্ষুদ্রঋণে নিয়োজিত; ক্ষুদ্রঋণ হল বার্ষিক আয় সর্বোচ্চ ৩,০০,০০০ টাকা (RBI FAQ অনুযায়ী) পর্যন্ত পরিবারকে দেওয়া জামানত-মুক্ত ঋণ। **HFC** (আবাসন অর্থায়ন কোম্পানি) — এমন NBFC যার মোট সম্পদের অন্তত ৬০% আবাসন অর্থায়নের আর্থিক সম্পদ।",
+      "deep": "NBFC নিয়ে ভুল ধারণা: 'NBFC মানেই অনিয়ন্ত্রিত' — ভুল। প্রধান-ব্যবসা মানদণ্ড পূরণকারী NBFC RBI-র নিবন্ধন ও তত্ত্বাবধানের আওতায় থাকে; তবে SEBI/IRDAI-র মতো অন্য নিয়ন্ত্রকের আওতাধীন কিছু শ্রেণি (যেমন SEBI-নিবন্ধিত স্টক-ব্রোকিং কোম্পানি, IRDA-র বৈধ নিবন্ধনধারী বিমা কোম্পানি) দ্বৈত নিয়ন্ত্রণ এড়াতে RBI নিবন্ধন থেকে ছাড় পায়।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "গুলিয়ো না",
+          "body": "ব্যাংক চাহিদা আমানত নেয় ও চেক চলে; NBFC চাহিদা আমানত নিতে পারে না ও নিজের চেক কাটতে পারে না। এই দুটি পার্থক্যই সবচেয়ে বেশি জিজ্ঞাসিত।"
+        }
+      ],
+      "claims": [
+        "c29",
+        "c32",
+        "c31",
+        "c30",
+        "c35",
+        "c33",
+        "c34"
+      ]
+    },
+    {
+      "id": "deposit_insurance",
+      "heading": "আমানত বিমা: DICGC",
+      "quick": "DICGC হল RBI-র সম্পূর্ণ মালিকানাধীন সহায়ক সংস্থা। সব বাণিজ্যিক ও সমবায় ব্যাংকের আমানত বিমাকৃত; প্রতি আমানতকারীর বিমা সীমা — একই অধিকার ও ক্ষমতায় মূলধন ও সুদ মিলিয়ে সর্বোচ্চ ৫,০০,০০০ টাকা। বিমার প্রিমিয়াম পুরোপুরি ব্যাংকই দেয়।",
+      "standard": "ব্যাংক ব্যর্থ হলে ছোট আমানতকারীর সুরক্ষার জন্য আছে **DICGC** (ডিপোজিট ইন্স্যুরেন্স অ্যান্ড ক্রেডিট গ্যারান্টি কর্পোরেশন)। RBI-র 'About Us' পাতায় DICGC-কে RBI-র **সম্পূর্ণ মালিকানাধীন সহায়ক সংস্থা** হিসেবে তালিকাভুক্ত করা হয়েছে, এবং RBI-র আইনি কাঠামোর তালিকায় আছে **DICGC আইন, ১৯৬১**।\n\n**কোন ব্যাংক বিমাকৃত?** সব বাণিজ্যিক ব্যাংক — ভারতে কর্মরত বিদেশি ব্যাংকের শাখা, স্থানীয় এলাকা ব্যাংক (LAB) ও আঞ্চলিক গ্রামীণ ব্যাংক (RRB) সহ — এবং সব সমবায় ব্যাংক (রাজ্য, কেন্দ্রীয় ও প্রাথমিক/নগর সমবায় ব্যাংক)। কিন্তু **প্রাথমিক সমবায় সমিতি (primary cooperative societies) বিমাকৃত নয়**।\n\n**কত টাকা পর্যন্ত?** প্রতি আমানতকারী, **একই অধিকার ও একই ক্ষমতায়** রাখা আমানতের জন্য মূলধন ও সুদ মিলিয়ে সর্বোচ্চ **৫,০০,০০০ টাকা** (সীমাটি RBI-র DICGC FAQ অনুযায়ী, ২০২৬-১১-১৯ তারিখে পঠিত)। একই ব্যাংকের **বিভিন্ন শাখায়** রাখা আমানত একসঙ্গে যোগ হয় — শাখা বদলালে সীমা বাড়ে না। কিন্তু **আলাদা আলাদা ব্যাংকে** রাখা আমানত আলাদাভাবে বিমাকৃত — প্রতি ব্যাংকে আলাদা সীমা প্রযোজ্য। বিমার **প্রিমিয়াম পুরোপুরি বিমাকৃত ব্যাংকই বহন করে**, আমানতকারীকে কিছু দিতে হয় না।\n\nমনে রাখো: NBFC-র আমানতে এই বিমা মেলে না (আগের অংশ দ্রষ্টব্য) — এটাই ব্যাংক ও NBFC-র মধ্যে আমানত-সুরক্ষার মূল পার্থক্য।",
+      "deep": "উদাহরণ দিয়ে বোঝো: একই ব্যাংকের দুটি শাখায় ৩ লক্ষ + ৩ লক্ষ = ৬ লক্ষ টাকা থাকলে বিমা মিলবে সর্বোচ্চ ৫ লক্ষ পর্যন্ত; কিন্তু দুটি আলাদা ব্যাংকে ৫ লক্ষ করে থাকলে প্রতিটিতেই আলাদা করে ৫ লক্ষ পর্যন্ত বিমা প্রযোজ্য। 'একই অধিকার ও ক্ষমতা' বদলালে (যেমন যৌথ অ্যাকাউন্ট বা অভিভাবক হিসেবে) আলাদা সীমা পাওয়া যায় — FAQ-তে এর বিস্তারিত উদাহরণ আছে।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "মনে রাখো",
+          "body": "৫ লক্ষ টাকার সীমা = প্রতি আমানতকারী, প্রতি ব্যাংক, একই অধিকার-ক্ষমতায়, মূলধন+সুদ মিলিয়ে। শাখা বাড়ালে বাড়ে না, ব্যাংক বাড়ালে আলাদা সীমা।"
+        }
+      ],
+      "claims": [
+        "c09",
+        "c10",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28"
+      ]
+    },
+    {
+      "id": "bank_types_acts",
+      "heading": "ব্যাংকের প্রকারভেদ ও প্রতিষ্ঠা-আইনের মানচিত্র",
+      "quick": "আর্থিক প্রতিষ্ঠানগুলির প্রতিষ্ঠা-আইনের বছরগুলি একসঙ্গে মনে রাখো: SBI আইন ১৯৫৫, DICGC আইন ১৯৬১, RRB আইন ১৯৭৬, NABARD আইন ১৯৮১, NHB আইন ১৯৮৭। RBI-র কেন্দ্রীয় দপ্তর শুরুতে কলকাতায় ছিল, ১৯৩৭ সালে মুম্বইয়ে সরে যায়; ১৯৪৯ সালে জাতীয়করণের পর RBI সম্পূর্ণ সরকারি মালিকানাধীন।",
+      "standard": "এই অধ্যায়ের প্রতিষ্ঠানগুলিকে আইন ও বছর দিয়ে চেনাই পরীক্ষার সবচেয়ে নির্ভরযোগ্য কৌশল। RBI তার আইনি কাঠামোর পাতায় আর্থিক প্রতিষ্ঠান-সংক্রান্ত আইনগুলির তালিকা দিয়েছে: **স্টেট ব্যাংক অফ ইন্ডিয়া আইন, ১৯৫৫**; **DICGC আইন, ১৯৬১**; **আঞ্চলিক গ্রামীণ ব্যাংক (RRB) আইন, ১৯৭৬**; **NABARD আইন, ১৯৮১**; **ন্যাশনাল হাউজিং ব্যাংক আইন, ১৯৮৭**। এর সঙ্গে আগের অংশগুলি থেকে যোগ করো: RBI আইন ১৯৩৪, EXIM Bank আইন ১৯৮১, SEBI আইন ১৯৯২, IRDAI আইন ১৯৯৯।\n\n**RBI নিজের ইতিহাসের দুটি তথ্য** প্রায়ই আসে: কেন্দ্রীয় দপ্তর প্রথমে **কলকাতায়** স্থাপিত হয়েছিল, কিন্তু **১৯৩৭** সালে স্থায়ীভাবে **মুম্বইয়ে** স্থানান্তরিত হয়; আর মূলত বেসরকারি মালিকানাধীন RBI **১৯৪৯ সালে জাতীয়করণের** পর থেকে সম্পূর্ণ ভারত সরকারের মালিকানাধীন।\n\nবাণিজ্যিক ব্যাংকের কাজের ভিত্তি আগের অংশে দেখেছ: আমানত গ্রহণ, ঋণ দেওয়া, স্প্রেড থেকে মুনাফা, আর RBI-র কাছে রিজার্ভ রাখা। উন্নয়ন ব্যাংক, NBFC, নিয়ন্ত্রক ও বিমা সংস্থা মিলিয়েই পুরো প্রাতিষ্ঠানিক মানচিত্রটি সম্পূর্ণ হয় — কোন প্রতিষ্ঠান কোন খাতে, কোন আইনে, কোন বছরে: এই তিনটি প্রশ্নের উত্তর জানলেই এই অধ্যায়ের প্রায় সব প্রশ্নের উত্তর দেওয়া যায়।",
+      "deep": null,
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "পরীক্ষার নোট",
+          "body": "আইন-বছর মিল (MATCH) প্রশ্নে এই ক্রমটি কাজে লাগাও: ১৯৩৪ RBI → ১৯৫৫ SBI → ১৯৬১ DICGC → ১৯৭৬ RRB → ১৯৮১ NABARD/EXIM → ১৯৮৭ NHB → ১৯৯২ SEBI → ১৯৯৯ IRDAI।"
+        }
+      ],
+      "claims": [
+        "c10",
+        "c06",
+        "c03",
+        "c04"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "RBI প্রতিষ্ঠা",
+      "when": "১৯৩৫",
+      "what": "RBI আইন, ১৯৩৪ অনুযায়ী ১ এপ্রিল ১৯৩৫ রিজার্ভ ব্যাংক প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "ভারতের কেন্দ্রীয় ব্যাংক ও পুরো আর্থিক ব্যবস্থার শীর্ষ নিয়ন্ত্রকের জন্ম।",
+      "section": "regulators",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "title": "SEBI বিধিবদ্ধ হয়",
+      "when": "১৯৯২",
+      "what": "SEBI আইন, ১৯৯২ কার্যকর হয় ৩০ জানুয়ারি ১৯৯২; ১৯৮৮-র অ-বিধিবদ্ধ সংস্থা বিধিবদ্ধ রূপ পায়।",
+      "why_it_matters": "সিকিউরিটিজ বাজারের নিয়ন্ত্রক আইনি ক্ষমতা পায় — পরীক্ষায় সবচেয়ে বেশি জিজ্ঞাসিত বছর-জোড়া।",
+      "section": "regulators",
+      "claims": [
+        "c11",
+        "c12"
+      ]
+    },
+    {
+      "title": "NABARD ও EXIM Bank প্রতিষ্ঠা",
+      "when": "১৯৮২",
+      "what": "একই বছরে কৃষি-গ্রাম খাতে NABARD (১২ জুলাই) ও বৈদেশিক বাণিজ্য খাতে EXIM Bank প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "খাতভিত্তিক উন্নয়ন ব্যাংকের যুগের সূচনা; দুটি প্রতিষ্ঠানই নিজ নিজ আইন, ১৯৮১-এর অধীনে গড়া।",
+      "section": "development_banks",
+      "claims": [
+        "c16",
+        "c18"
+      ]
+    },
+    {
+      "title": "NHB ও SIDBI প্রতিষ্ঠা",
+      "when": "১৯৮৮–১৯৯০",
+      "what": "১৯৮৮ সালে NHB (আইন ১৯৮৭) ও ২ এপ্রিল ১৯৯০ সালে SIDBI প্রতিষ্ঠিত হয়।",
+      "why_it_matters": "আবাসন ও MSME খাতের শীর্ষ প্রতিষ্ঠান যুক্ত হয়ে উন্নয়ন-ব্যাংক মানচিত্র সম্পূর্ণ হয়।",
+      "section": "development_banks",
+      "claims": [
+        "c20",
+        "c19"
+      ]
+    }
+  ],
+  "people": [],
+  "timeline": [
+    {
+      "sort_year": 1935,
+      "when": "১৯৩৫",
+      "label": "RBI প্রতিষ্ঠা (আইন ১৯৩৪)",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "sort_year": 1937,
+      "when": "১৯৩৭",
+      "label": "RBI-র কেন্দ্রীয় দপ্তর কলকাতা থেকে মুম্বইয়ে স্থানান্তর",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 1949,
+      "when": "১৯৪৯",
+      "label": "RBI জাতীয়করণ — সম্পূর্ণ সরকারি মালিকানাধীন",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "sort_year": 1961,
+      "when": "১৯৬১",
+      "label": "DICGC আইন",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "sort_year": 1982,
+      "when": "১৯৮২",
+      "label": "NABARD (১২ জুলাই) ও EXIM Bank প্রতিষ্ঠা",
+      "claims": [
+        "c16",
+        "c18"
+      ]
+    },
+    {
+      "sort_year": 1988,
+      "when": "১৯৮৮",
+      "label": "SEBI অ-বিধিবদ্ধভাবে গঠিত (১২ এপ্রিল); NHB প্রতিষ্ঠা",
+      "claims": [
+        "c11",
+        "c20"
+      ]
+    },
+    {
+      "sort_year": 1990,
+      "when": "১৯৯০",
+      "label": "SIDBI প্রতিষ্ঠা (২ এপ্রিল)",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "sort_year": 1992,
+      "when": "১৯৯২",
+      "label": "SEBI বিধিবদ্ধ হয় (আইন কার্যকর ৩০ জানুয়ারি)",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "sort_year": 2004,
+      "when": "২০০৪",
+      "label": "NPS কেন্দ্রীয় সরকারি নতুন নিয়োগের ক্ষেত্রে কার্যকর (১ জানুয়ারি)",
+      "claims": [
+        "c23"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "স্প্রেড (Spread)",
+      "meaning": "আমানতের সুদের হার ও ঋণের সুদের হারের পার্থক্য; বাণিজ্যিক ব্যাংকের মুনাফা।",
+      "section": "system_map"
+    },
+    {
+      "term": "রিজার্ভ (Reserves)",
+      "meaning": "বাণিজ্যিক ব্যাংক RBI-র কাছে যে আমানত রাখে ও নিজের হাতে যে নগদ রাখে।",
+      "section": "system_map"
+    },
+    {
+      "term": "পুনঃঅর্থায়ন (Refinance)",
+      "meaning": "শীর্ষ প্রতিষ্ঠান (যেমন NABARD) অন্য ঋণদাতা ব্যাংকগুলিকে ঋণের বিপরীতে আবার অর্থ জোগান দেওয়া।",
+      "section": "development_banks"
+    },
+    {
+      "term": "সর্বভারতীয় আর্থিক প্রতিষ্ঠান (AIFI)",
+      "meaning": "সংসদের আইনে গড়া জাতীয় স্তরের শীর্ষ আর্থিক প্রতিষ্ঠান; যেমন NHB।",
+      "section": "development_banks"
+    },
+    {
+      "term": "NBFC",
+      "meaning": "Companies Act-এ নিবন্ধিত কোম্পানি যার প্রধান ব্যবসা ঋণ, সিকিউরিটিজ অর্জন, লিজিং, হায়ার-পারচেজ ইত্যাদি আর্থিক কার্যকলাপ।",
+      "section": "nbfc"
+    },
+    {
+      "term": "৫০-৫০ পরীক্ষা (50-50 test)",
+      "meaning": "প্রধান-ব্যবসা মানদণ্ড: আর্থিক সম্পদ মোট সম্পদের ৫০%-এর বেশি এবং আর্থিক আয় মোট আয়ের ৫০%-এর বেশি।",
+      "section": "nbfc"
+    },
+    {
+      "term": "চাহিদা আমানত (Demand deposit)",
+      "meaning": "চাওয়ামাত্র তুলে নেওয়া যায় এমন আমানত (যেমন চলতি/সঞ্চয়ী হিসাব); NBFC তা নিতে পারে না।",
+      "section": "nbfc"
+    },
+    {
+      "term": "আমানত বিমা (Deposit insurance)",
+      "meaning": "DICGC-র মাধ্যমে ব্যাংক আমানতের সুরক্ষা; সীমা প্রতি আমানতকারী প্রতি ব্যাংকে ৫ লক্ষ টাকা (মূলধন+সুদ)।",
+      "section": "deposit_insurance"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "আমানত বিমা ও জনগণের আস্থা",
+      "causes": [
+        "ছোট আমানতকারীরা ব্যাংক ব্যর্থ হলে পুরো সঞ্চয় হারানোর ঝুঁকিতে থাকেন"
+      ],
+      "event": "DICGC আইন, ১৯৬১-এর কাঠামোয় সব বাণিজ্যিক ও সমবায় ব্যাংকের আমানত বিমাকৃত হয়",
+      "results": [
+        "প্রতি আমানতকারী ৫ লক্ষ টাকা পর্যন্ত সুরক্ষা পান",
+        "ব্যাংকিং ব্যবস্থায় জনগণের আস্থা বজায় থাকে"
+      ],
+      "section": "deposit_insurance",
+      "claims": [
+        "c10",
+        "c24",
+        "c25"
+      ]
+    },
+    {
+      "title": "খাতভিত্তিক উন্নয়ন ব্যাংক গঠন",
+      "causes": [
+        "কৃষি, MSME, আবাসন ও বৈদেশিক বাণিজ্যের জন্য বিশেষায়িত দীর্ঘমেয়াদি অর্থায়নের প্রয়োজন"
+      ],
+      "event": "আইনে গড়া হয় NABARD (১৯৮২), EXIM Bank (১৯৮২), NHB (১৯৮৮) ও SIDBI (১৯৯০)",
+      "results": [
+        "প্রতিটি খাত নিজস্ব শীর্ষ পুনঃঅর্থায়ন ও সমন্বয় প্রতিষ্ঠান পায়"
+      ],
+      "section": "development_banks",
+      "claims": [
+        "c16",
+        "c18",
+        "c20",
+        "c19"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "SEBI: গঠন ১৯৮৮ (অ-বিধিবদ্ধ) বনাম বিধিবদ্ধ ১৯৯২ — বছরের পার্থক্য",
+      "section": "regulators"
+    },
+    {
+      "point": "খাত-মিল: NABARD-কৃষি, SIDBI-MSME, NHB-আবাসন, EXIM-বৈদেশিক বাণিজ্য",
+      "section": "development_banks"
+    },
+    {
+      "point": "DICGC সীমা ৫ লক্ষ: শাখায় যোগ হয়, ব্যাংকে আলাদা; প্রিমিয়াম দেয় ব্যাংক",
+      "section": "deposit_insurance"
+    },
+    {
+      "point": "ব্যাংক বনাম NBFC: চাহিদা আমানত, চেক, DICGC বিমা — তিন পার্থক্য",
+      "section": "nbfc"
+    },
+    {
+      "point": "আইন-বছর কালানুক্রম: ১৯৩৪, ১৯৫৫, ১৯৬১, ১৯৭৬, ১৯৮১, ১৯৮৭, ১৯৯২, ১৯৯৯",
+      "section": "bank_types_acts"
+    },
+    {
+      "point": "RBI: প্রতিষ্ঠা ১৯৩৫, কেন্দ্রীয় দপ্তর কলকাতা→মুম্বই ১৯৩৭, জাতীয়করণ ১৯৪৯",
+      "section": "bank_types_acts"
+    }
+  ],
+  "bengal_connection": {
+    "body": "এই অধ্যায়ের সঙ্গে বাংলার সরাসরি যোগ RBI-র জন্মলগ্নে: রিজার্ভ ব্যাংকের **কেন্দ্রীয় দপ্তর প্রথমে কলকাতাতেই** স্থাপিত হয়েছিল এবং **১৯৩৭ সালে** তা স্থায়ীভাবে মুম্বইয়ে স্থানান্তরিত হয়। অর্থাৎ ভারতের কেন্দ্রীয় ব্যাংকের প্রথম ঠিকানা ছিল কলকাতা — আজও RBI-র একটি আঞ্চলিক দপ্তর কলকাতায় আছে, যদিও এই অধ্যায়ের উৎসগুলিতে সেই বিবরণ নেই বলে তা এখানে দাবি করা হল না।",
+    "claims": [
+      "c06"
+    ]
+  },
+  "quick_revision": [
+    "অর্থ তৈরি করে: কেন্দ্রীয় ব্যাংক + বাণিজ্যিক ব্যাংক ব্যবস্থা।",
+    "RBI: প্রতিষ্ঠা ১ এপ্রিল ১৯৩৫, আইন ১৯৩৪; জাতীয়করণ ১৯৪৯।",
+    "SEBI: গঠন ১২ এপ্রিল ১৯৮৮ (অ-বিধিবদ্ধ); বিধিবদ্ধ ১৯৯২ (আইন কার্যকর ৩০ জানুয়ারি)।",
+    "IRDAI: আইন ১৯৯৯; প্রধান দপ্তর হায়দরাবাদ।",
+    "PFRDA: NPS-এর বিধিবদ্ধ নিয়ন্ত্রক; NPS কার্যকর ১ জানুয়ারি ২০০৪ থেকে (কেন্দ্রীয় নতুন নিয়োগ)।",
+    "NABARD: ১২ জুলাই ১৯৮২; কৃষি ও গ্রামোন্নয়ন; পুনঃঅর্থায়ন দেয় সমবায় ব্যাংক ও RRB-কে।",
+    "SIDBI: ২ এপ্রিল ১৯৯০; MSME খাতের প্রধান আর্থিক প্রতিষ্ঠান।",
+    "NHB: ১৯৮৮, আইন ১৯৮৭; আবাসনের শীর্ষ সংস্থা (AIFI); মালিকানা RBI থেকে সরকারে (২০১৮ সংশোধনী)।",
+    "EXIM Bank: ১৯৮২, আইন ১৯৮১; রপ্তানি-আমদানি অর্থায়ন।",
+    "NBFC: চাহিদা আমানত নিতে পারে না, নিজের চেক কাটতে পারে না, DICGC বিমা নেই।",
+    "DICGC: RBI-র সম্পূর্ণ মালিকানাধীন; সীমা ৫ লক্ষ টাকা (মূলধন+সুদ, প্রতি ব্যাংক আলাদা); প্রিমিয়াম দেয় ব্যাংক।",
+    "আইন-ক্রম: SBI ১৯৫৫, DICGC ১৯৬১, RRB ১৯৭৬, NABARD ১৯৮১, NHB ১৯৮৭।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Introductory Macroeconomics, Class XII, Chapter 3: Money and Banking",
+      "class": "XII",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/leec103.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "About Us — Reserve Bank of India",
+      "publisher": "RBI",
+      "url": "https://www.rbi.org.in/Scripts/AboutusDisplay.aspx",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "About SEBI — Securities and Exchange Board of India",
+      "publisher": "GOVT",
+      "url": "https://www.sebi.gov.in/about-sebi.html",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "Insurance Regulatory and Development Authority of India (IRDAI) — official home page",
+      "publisher": "GOVT",
+      "url": "https://irdai.gov.in/",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s5",
+      "title": "PIB release: Agriculture Development Bank (NABARD)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=83666&reg=48&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s6",
+      "title": "PIB release: Ex-post-facto approval to capital infusion made in Export Import Bank of India (EXIM BANK)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=126757&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s7",
+      "title": "PIB release: SIDBI Foundation Day (2 April 2018)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1526527&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s8",
+      "title": "PIB release: Cabinet approves Rs. 1450 crore for the share capital of RBI in National Housing Bank, NHB",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=189067&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s9",
+      "title": "PIB release: PFRDA crosses Rs 5 lakh crore AUM (About PFRDA)",
+      "publisher": "GOVT",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1664991&ui=2&tf=1&pli=1&reg=3&lang=2",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s10",
+      "title": "RBI FAQ: A Guide to the Deposit Insurance and Credit Guarantee Corporation (DICGC)",
+      "publisher": "RBI",
+      "url": "https://www.rbi.org.in/commonperson/english/scripts/FAQs.aspx?Id=272",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s11",
+      "title": "RBI FAQ: Non-Banking Financial Companies (NBFCs), updated as on November 11, 2026",
+      "publisher": "RBI",
+      "url": "https://www.rbi.org.in/Scripts/FAQView.aspx?Id=92",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Money supply is created by a system of two types of institutions: the central bank and the commercial banking system.",
+      "source": "s1",
+      "page": "Ch. 3, Money and Banking",
+      "quote": "In a modern economy, money comprises cash and bank deposits. These are created by a system comprising two types of institutions: central bank of the economy and the commercial banking system."
+    },
+    {
+      "id": "c02",
+      "claim": "India got its central bank in 1935, named the Reserve Bank of India; it issues currency, controls money supply, acts as banker to the government and is custodian of foreign exchange reserves.",
+      "source": "s1",
+      "page": "Ch. 3, Central Bank",
+      "quote": "India got its central bank in 1935. Its name is the 'Reserve Bank of India'. Central bank has several important functions. It issues the currency of the country. It controls money supply of the country through various methods, like bank rate, open market operations and variations in reserve ratios. It acts as a banker to the government. It is the custodian of the foreign exchange reserves of the economy."
+    },
+    {
+      "id": "c03",
+      "claim": "Commercial banks accept deposits from the public and lend out part of these funds; the difference between the deposit rate and the lending rate, called the spread, is the bank's profit.",
+      "source": "s1",
+      "page": "Ch. 3, Commercial Banks",
+      "quote": "Commercial banks are the other type of institutions which are a part of the moneycreating system of the economy. They accept deposits from the public and lend out part of these funds to those who want to borrow. The interest rate paid by the banks to depositors is lower than the rate charged from the borrowers. This difference between these two types of interest rates, called the 'spread' is the profit appropriated by the bank."
+    },
+    {
+      "id": "c04",
+      "claim": "Reserves are deposits which commercial banks keep with the Central Bank (RBI) and its cash.",
+      "source": "s1",
+      "page": "Ch. 3, Balance Sheet of a Fictional Bank",
+      "quote": "Reserves are deposits which commercial banks keep with the Central bank, Reserve Bank of India (RBI) and its cash."
+    },
+    {
+      "id": "c05",
+      "claim": "The Reserve Bank of India was established on April 1, 1935 in accordance with the Reserve Bank of India Act, 1934.",
+      "source": "s2",
+      "page": "Establishment",
+      "quote": "The Reserve Bank of India was established on April 1, 1935 in accordance with the provisions of the Reserve Bank of India Act, 1934."
+    },
+    {
+      "id": "c06",
+      "claim": "The Central Office of the Reserve Bank was initially established in Kolkata but was permanently moved to Mumbai in 1937; since nationalisation in 1949 the Reserve Bank is fully owned by the Government of India.",
+      "source": "s2",
+      "page": "Establishment",
+      "quote": "The Central Office of the Reserve Bank was initially established in Kolkata but was permanently moved to Mumbai in 1937. Though originally privately owned, since nationalisation in 1949, the Reserve Bank is fully owned by the Government of India."
+    },
+    {
+      "id": "c07",
+      "claim": "The RBI's basic functions per its Preamble include regulating the issue of bank notes and keeping reserves to secure monetary stability, and operating the currency and credit system.",
+      "source": "s2",
+      "page": "Preamble",
+      "quote": "to regulate the issue of Bank notes and keeping of reserves with a view to securing monetary stability in India and generally to operate the currency and credit system of the country to its advantage"
+    },
+    {
+      "id": "c08",
+      "claim": "The Board for Financial Supervision (BFS) was constituted in November 1994 and exercises integrated supervision over commercial banks, financial institutions and non-banking financial intermediaries.",
+      "source": "s2",
+      "page": "Board for Financial Supervision",
+      "quote": "The Board for Financial Supervision (BFS) was constituted in November 1994 as a committee of the Central Board of Directors of the Reserve Bank of India. The BFS exercises integrated supervision over commercial banks, financial institutions and non-banking financial intermediaries."
+    },
+    {
+      "id": "c09",
+      "claim": "DICGC is listed among the fully owned subsidiaries of the Reserve Bank of India.",
+      "source": "s2",
+      "page": "Subsidiaries",
+      "quote": "Fully owned: Deposit Insurance and Credit Guarantee Corporation of India (DICGC)"
+    },
+    {
+      "id": "c10",
+      "claim": "Acts relevant to financial institutions listed by RBI include the State Bank of India Act 1955, DICGC Act 1961, Regional Rural Banks Act 1976, NABARD Act 1981 and National Housing Bank Act 1987.",
+      "source": "s2",
+      "page": "Legal Framework",
+      "quote": "State Bank of India Act, 1955 Deposit Insurance and Credit Guarantee Corporation Act, 1961 Regional Rural Banks Act, 1976 National Bank for Agriculture and Rural Development Act, 1981 National Housing Bank Act, 1987"
+    },
+    {
+      "id": "c11",
+      "claim": "SEBI was constituted as a non-statutory body on April 12, 1988 through a resolution of the Government of India.",
+      "source": "s3",
+      "page": "Establishment Of SEBI",
+      "quote": "The Securities and Exchange Board of India was constituted as a non-statutory body on April 12, 1988 through a resolution of the Government of India."
+    },
+    {
+      "id": "c12",
+      "claim": "SEBI was established as a statutory body in 1992 and the provisions of the SEBI Act, 1992 (15 of 1992) came into force on January 30, 1992.",
+      "source": "s3",
+      "page": "Establishment Of SEBI",
+      "quote": "The Securities and Exchange Board of India was established as a statutory body in the year 1992 and the provisions of the Securities and Exchange Board of India Act, 1992 (15 of 1992) came into force on January 30, 1992."
+    },
+    {
+      "id": "c13",
+      "claim": "SEBI's basic functions are to protect the interests of investors in securities and to promote the development of, and to regulate, the securities market.",
+      "source": "s3",
+      "page": "Preamble",
+      "quote": "...to protect the interests of investors in securities and to promote the development of, and to regulate the securities market and for matters connected therewith or incidental thereto"
+    },
+    {
+      "id": "c14",
+      "claim": "IRDAI derives powers from Sec. 14(2)(h) of the IRDAI Act, 1999, including calling for information, undertaking inspection and conducting enquiries and investigations including audit of insurers and intermediaries.",
+      "source": "s4",
+      "page": "Departments (Intermediaries)",
+      "quote": "The Authority derives the following powers from Sec.14(2)(h) of the IRDAI Act, 1999: o Calling for information o Undertaking inspection o Conducting enquiries and investigations including audit of the insurers, intermediaries, insurance intermediaries and other organizations connected with the insurance business."
+    },
+    {
+      "id": "c15",
+      "claim": "IRDAI's head office address is in Hyderabad: Sy No. 115/1, Financial District, Nanakramguda, Gachibowli, Hyderabad – 500032.",
+      "source": "s4",
+      "page": "IRDAI Head Office",
+      "quote": "Sy No. 115/1, Financial District, Nanakramguda, Gachibowli, Hyderabad – 500032"
+    },
+    {
+      "id": "c16",
+      "claim": "NABARD was established on 12 July 1982 by an Act of Parliament to provide and regulate credit for the promotion and development of agriculture, small scale, cottage and village industries, handicrafts and other rural activities.",
+      "source": "s5",
+      "page": "PIB release text",
+      "quote": "National Bank for Agriculture and Rural Development (NABARD) was established on 12 July 1982 by an Act of the Parliament for providing and regulating credit and other facilities for the promotion and development of agriculture, small scale industries, cottage and village industries, handicrafts and other rural crafts and other allied economic activities in rural areas"
+    },
+    {
+      "id": "c17",
+      "claim": "NABARD provides refinance assistance under Sec. 21(i) of the NABARD Act, 1981 for Short Term Seasonal Agricultural Operations to Cooperatives, Regional Rural Banks (RRBs) and other financial institutions approved by RBI.",
+      "source": "s5",
+      "page": "PIB release text",
+      "quote": "NABARD provides refinance assistance under Sec.21 (i) of NABARD Act, 1981 for Short Term Seasonal Agricultural Operations (STSAO) purposes for a period not exceeding 8 months to Cooperatives, Regional Rural Banks (RRBs) and any other financial institutions approved by Reserve Bank of India."
+    },
+    {
+      "id": "c18",
+      "claim": "EXIM Bank was set up as a statutory Corporation in 1982 under the Export Import Bank of India Act, 1981, to provide financial assistance to exporters and importers and to function as the principal financial institution coordinating institutions engaged in financing export and import of goods and services.",
+      "source": "s6",
+      "page": "Background",
+      "quote": "The EXIM Bank was set up as a statutory Corporation in 1982 under the Export Import Bank of India Act, 1981 for providing financial assistance to exporters and importers, and for functioning as principal financial institution for coordinating the working of institutions, engaged in financing export and import of goods and services."
+    },
+    {
+      "id": "c19",
+      "claim": "SIDBI, set up on April 2, 1990 under an Act of Indian Parliament, acts as the Principal Financial Institution for the Promotion, Financing and Development of the MSME sector and for coordination of institutions engaged in similar activities.",
+      "source": "s7",
+      "page": "PIB release text",
+      "quote": "SIDBI, set up on April 2, 1990 under an Act of Indian Parliament, acts as the Principal Financial Institution for the Promotion, Financing and Development of the Micro, Small and Medium Enterprise (MSME) sector and for Co-ordination of the functions of the institutions engaged in similar activities."
+    },
+    {
+      "id": "c20",
+      "claim": "NHB is an All India Financial Institution (AIFI), set up in 1988 under the National Housing Bank Act, 1987 (Central Act No. 53 of 1987), and is an apex agency to promote housing finance institutions and provide financial and other support to them.",
+      "source": "s8",
+      "page": "Background",
+      "quote": "NHB is an All India Financial Institution(AIFl), set up in 1988, under an Act of Parliament, viz. the National Housing Bank Act, 1987 (Central Act No. 53 of 1987). It is an apex agency established to operate as a principal agency to promote housing finance institutions both at local and regional levels and to provide financial and other support incidental to such institutions and for matters connected therewith."
+    },
+    {
+      "id": "c21",
+      "claim": "NHB's ownership was transferred from RBI to the Government of India following amendments to the NHB Act, 1987 in 2018, segregating RBI's role as banking regulator and as owner of NHB.",
+      "source": "s8",
+      "page": "Impact",
+      "quote": "The change in ownership from RBI to Gol will also segregate RBI's role as banking regulator and as owner of NHB."
+    },
+    {
+      "id": "c22",
+      "claim": "PFRDA is the statutory authority established by an enactment of Parliament to regulate, promote and ensure orderly growth of the National Pension System (NPS) and pension schemes to which the Act applies.",
+      "source": "s9",
+      "page": "About PFRDA",
+      "quote": "Pension Fund Regulatory and Development Authority (PFRDA) is the statutory authority established by an enactment of the Parliament, to regulate, promote and ensure orderly growth of the National Pension System (NPS) and pension schemes to which this Act applies."
+    },
+    {
+      "id": "c23",
+      "claim": "NPS was initially notified for central government employee recruits with effect from 1 January 2004 and subsequently adopted by almost all State Governments for their employees.",
+      "source": "s9",
+      "page": "About PFRDA",
+      "quote": "NPS was initially notified for central government employees recruits wef 1st Jan 2004 and subsequently adopted by almost all State Governments for its employees."
+    },
+    {
+      "id": "c24",
+      "claim": "All commercial banks (including foreign bank branches in India, local area banks and RRBs) and all co-operative banks are insured by the DICGC; primary cooperative societies are not insured.",
+      "source": "s10",
+      "page": "Q.1",
+      "quote": "Commercial Banks : All commercial banks including branches of foreign banks functioning in India, local area banks and regional rural banks are insured by the DICGC. Cooperative Banks : All State, Central and Primary cooperative banks, also called urban cooperative banks, are covered under the Deposit Insurance Scheme. At present all co-operative banks are covered by the DICGC. Primary cooperative societies are not insured by the DICGC."
+    },
+    {
+      "id": "c25",
+      "claim": "Each depositor in a bank is insured up to a maximum of Rs 5,00,000 for both principal and interest held in the same right and same capacity (limit as stated in the RBI DICGC FAQ fetched on 2026-11-19).",
+      "source": "s10",
+      "page": "Q.3",
+      "quote": "Each depositor in a bank is insured upto a maximum of ₹ 5,00,000 (Rupees Five Lakhs) for both principal and interest amount held by him in the same right and same capacity"
+    },
+    {
+      "id": "c26",
+      "claim": "Deposits kept in different branches of the same bank are aggregated for insurance cover and a maximum of up to five lakhs is paid.",
+      "source": "s10",
+      "page": "Q.5",
+      "quote": "The deposits kept in different branches of a bank are aggregated for the purpose of insurance cover and a maximum amount of upto Rupees five lakhs is paid."
+    },
+    {
+      "id": "c27",
+      "claim": "Deposit insurance coverage limit is applied separately to deposits in each bank; deposits in different banks are separately insured.",
+      "source": "s10",
+      "page": "Q.8",
+      "quote": "Yes. If you have deposits with more than one bank, deposit insurance coverage limit is applied separately to the deposits in each bank."
+    },
+    {
+      "id": "c28",
+      "claim": "The deposit insurance premium is borne entirely by the insured bank.",
+      "source": "s10",
+      "page": "Q.12",
+      "quote": "Deposit insurance premium is borne entirely by the insured bank."
+    },
+    {
+      "id": "c29",
+      "claim": "An NBFC is a company registered under the Companies Act engaged in loans and advances, acquisition of shares/stocks/bonds/debentures/securities, leasing, hire-purchase etc. as its principal business, excluding institutions whose principal business is agriculture, industrial activity, sale/purchase of goods or services, or immovable property.",
+      "source": "s11",
+      "page": "Q.1 (FAQ updated 2026-11-11)",
+      "quote": "A Non-Banking Financial Company (NBFC) is a company registered under the Companies Act, 1956 or Companies Act, 2013, and engaged in the business of loans and advances, acquisition of shares/ stocks/ bonds/ debentures/ securities issued by Government or local authority or other marketable securities of a like nature, leasing, hire-purchase, etc., as their principal business, but does not include any institution whose principal business is that of agriculture activity, industrial activity, purchase or sale of any goods (other than securities) or providing any services and sale/ purchase/ construction of immovable property."
+    },
+    {
+      "id": "c30",
+      "claim": "Unlike banks, NBFCs cannot accept demand deposits; they do not form part of the payment and settlement system and cannot issue cheques drawn on themselves; and DICGC deposit insurance is not available to depositors of deposit-taking NBFCs.",
+      "source": "s11",
+      "page": "Q.3",
+      "quote": "NBFCs cannot accept demand deposits; NBFCs do not form part of the payment and settlement system and cannot issue cheques drawn on itself; Deposit insurance facility of Deposit Insurance and Credit Guarantee Corporation (DICGC) is not available to depositors of deposit taking NBFCs."
+    },
+    {
+      "id": "c31",
+      "claim": "Under Section 45-IA of the RBI Act, 1934, no company can carry on the business of a non-banking financial institution without a certificate of registration from the Reserve Bank and without Net Owned Funds of Rs 10 crore with effect from October 01, 2022 (as stated in the RBI NBFC FAQ updated 2026-11-11).",
+      "source": "s11",
+      "page": "Q.4",
+      "quote": "In terms of Section 45-IA of the RBI Act, 1934, no company can commence or carry on business of a non-banking financial institution without obtaining a certificate of registration from the Reserve Bank and without having a Net Owned Funds (NOF) of ₹10 crore with effect from October 01, 2022"
+    },
+    {
+      "id": "c32",
+      "claim": "The principal-business (50-50) test: a company's financial assets must constitute more than 50 per cent of total assets and income from financial assets more than 50 per cent of gross income for it to need NBFC registration with the Reserve Bank.",
+      "source": "s11",
+      "page": "Q.2",
+      "quote": "Financial activity as principal business is when a company's financial assets constitute more than 50 per cent of the total assets (netted off by intangible assets) and income from financial assets constitute more than 50 per cent of the gross income. A company which fulfils both these criteria needs to get registered as NBFC with the Reserve Bank."
+    },
+    {
+      "id": "c33",
+      "claim": "An NBFC-MFI is a non-deposit taking NBFC with at least 60 percent of total assets deployed towards microfinance loans; a microfinance loan is a collateral-free loan to a household with annual income up to Rs 3,00,000 (as stated in the RBI NBFC FAQ updated 2026-11-11).",
+      "source": "s11",
+      "page": "Q.6(vi)",
+      "quote": "NBFC-MFI means a non-deposit taking NBFC which has a minimum of 60 percent of the total assets (netted off by intangible assets) deployed towards microfinance loans. A microfinance loan is defined as a collateral-free loan given to a household having annual household income up to ₹3,00,000."
+    },
+    {
+      "id": "c34",
+      "claim": "A Housing Finance Company (HFC) is an NBFC whose financial assets in the business of providing finance for housing constitute at least 60% of its total assets.",
+      "source": "s11",
+      "page": "Q.6(ii)",
+      "quote": "HFC shall mean a company that fulfils the following conditions: It is an NBFC whose financial assets, in the business of providing finance for housing, constitute at least 60% of its total assets (netted off by intangible assets)."
+    },
+    {
+      "id": "c35",
+      "claim": "The RBI has been empowered under the RBI Act 1934 to register, issue directions, inspect, regulate and supervise NBFCs that fulfil the principal business criteria, and can penalise them including by cancelling the Certificate of Registration.",
+      "source": "s11",
+      "page": "Q.7",
+      "quote": "The Reserve Bank has been empowered under the RBI Act 1934 to register, determine policy, issue directions, inspect, regulate, supervise and exercise surveillance over NBFCs that fulfil the principal business criteria or 50-50 criteria of principal business. The Reserve Bank can penalize NBFCs for violating the provisions of the RBI Act or the directions or orders issued by the Reserve Bank under RBI Act. The penal action may also include cancellation of the Certificate of Registration issued to the NBFC."
+    },
+    {
+      "id": "c36",
+      "claim": "RBI's main functions include acting as regulator and supervisor of the financial system, prescribing broad parameters of banking operations, with the objective of maintaining public confidence, protecting depositors' interest and providing cost-effective banking services.",
+      "source": "s2",
+      "page": "Main Functions",
+      "quote": "Regulator and supervisor of the financial system: Prescribes broad parameters of banking operations within which the country's banking and financial system functions. Objective: maintain public confidence in the system, protect depositors' interest and provide cost-effective banking services to the public."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "system_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী আধুনিক অর্থনীতিতে অর্থ (money supply) তৈরি করে কোন দুই ধরনের প্রতিষ্ঠান?",
+      "a": "কেন্দ্রীয় ব্যাংক ও বাণিজ্যিক ব্যাংক ব্যবস্থা",
+      "w": [
+        "কেন্দ্রীয় ব্যাংক ও অর্থ মন্ত্রক",
+        "বাণিজ্যিক ব্যাংক ও সমবায় সমিতি",
+        "SEBI ও বাণিজ্যিক ব্যাংক"
+      ],
+      "e": "অর্থের মধ্যে পড়ে নগদ ও ব্যাংক আমানত; তা তৈরি করে কেন্দ্রীয় ব্যাংক ও বাণিজ্যিক ব্যাংক ব্যবস্থা — এই দুই ধরনের প্রতিষ্ঠান মিলে।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "system_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারত তার কেন্দ্রীয় ব্যাংক পায় কোন সালে?",
+      "a": "১৯৩৫ সালে",
+      "w": [
+        "১৯৩৪ সালে",
+        "১৯৪৯ সালে",
+        "১৯৫১ সালে"
+      ],
+      "e": "NCERT অনুযায়ী ভারত কেন্দ্রীয় ব্যাংক পায় ১৯৩৫ সালে; তার নাম রিজার্ভ ব্যাংক অফ ইন্ডিয়া। ১৯৩৪ হল RBI আইনের বছর, প্রতিষ্ঠার নয়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "system_map",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বাণিজ্যিক ব্যাংকের মুনাফা যাকে 'স্প্রেড (spread)' বলা হয়, তা হল—",
+      "a": "আমানতের সুদের হার ও ঋণের সুদের হারের পার্থক্য",
+      "w": [
+        "ব্যাংকের মোট আমানত ও মোট ঋণের পার্থক্য",
+        "RBI-র কাছে রাখা রিজার্ভের পরিমাণ",
+        "ব্যাংকের মোট সম্পদ ও দায়ের পার্থক্য"
+      ],
+      "e": "ব্যাংক আমানতকারীকে যে হারে সুদ দেয় তা ঋণগ্রহীতার কাছ থেকে নেওয়া হারের চেয়ে কম; এই পার্থক্যই স্প্রেড ও ব্যাংকের মুনাফা।",
+      "claims": [
+        "c03"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "system_map",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "বাণিজ্যিক ব্যাংকগুলির 'রিজার্ভ (reserves)' বলতে বোঝায়—",
+      "a": "RBI-র কাছে রাখা তাদের আমানত ও তাদের হাতে থাকা নগদ",
+      "w": [
+        "তাদের দেওয়া মোট ঋণের পরিমাণ",
+        "তাদের শাখাগুলির মোট আমানত",
+        "সরকারের কাছে রাখা বৈদেশিক মুদ্রা"
+      ],
+      "e": "NCERT অনুযায়ী রিজার্ভ হল বাণিজ্যিক ব্যাংকগুলি কেন্দ্রীয় ব্যাংক RBI-র কাছে যে আমানত রাখে এবং তাদের নিজেদের নগদ।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "system_map",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "নীচের কোনটি কেন্দ্রীয় ব্যাংকের কাজ নয়?",
+      "a": "জনগণের কাছ থেকে সরাসরি আমানত নিয়ে খুচরো ঋণ দেওয়া",
+      "w": [
+        "দেশের মুদ্রা জারি করা",
+        "ব্যাংক রেট ও রিজার্ভ অনুপাত বদলে অর্থ সরবরাহ নিয়ন্ত্রণ করা",
+        "সরকারের ব্যাংকার হিসেবে কাজ করা"
+      ],
+      "e": "মুদ্রা জারি, অর্থ সরবরাহ নিয়ন্ত্রণ ও সরকারের ব্যাংকার হওয়া কেন্দ্রীয় ব্যাংকের কাজ; আমানত নিয়ে ঋণ দেওয়া বাণিজ্যিক ব্যাংকের কাজ।",
+      "claims": [
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "system_map",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কেন্দ্রীয় ব্যাংকের জারি করা মুদ্রাকে 'উচ্চ-ক্ষমতাসম্পন্ন অর্থ (high-powered money)' বলা হয়, কারণ—",
+      "a": "তা ঋণ-সৃষ্টির ভিত্তি হিসেবে কাজ করে",
+      "w": [
+        "তা শুধু সরকারই ব্যবহার করতে পারে",
+        "তার সুদের হার সবচেয়ে বেশি",
+        "তা কেবল বৈদেশিক মুদ্রায় রাখা হয়"
+      ],
+      "e": "NCERT অনুযায়ী কেন্দ্রীয় ব্যাংকের জারি করা মুদ্রা জনগণ বা বাণিজ্যিক ব্যাংকের কাছে থাকে এবং ঋণ-সৃষ্টির ভিত্তি বলে তাকে high-powered money / reserve money বলা হয়।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "system_map",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. বাণিজ্যিক ব্যাংক জনগণের আমানতের পুরোটাই ঋণ দিয়ে দেয়।\n২. বাণিজ্যিক ব্যাংক আমানতের একাংশ ঋণ দেয় এবং একাংশ রিজার্ভ হিসেবে রাখে।\n৩. কেন্দ্রীয় ব্যাংক বৈদেশিক মুদ্রার রিজার্ভের রক্ষক।\nসঠিক বিবৃতি কোনগুলি?",
+      "a": "শুধু ২ ও ৩",
+      "w": [
+        "শুধু ১ ও ৩",
+        "শুধু ১ ও ২",
+        "১, ২ ও ৩"
+      ],
+      "e": "ব্যাংক আমানতের একাংশ ঋণ দেয়, বাকিটা আমানতকারীদের চাহিদা মেটাতে রিজার্ভ রাখে — তাই ১ ভুল, ২ সঠিক। কেন্দ্রীয় ব্যাংক বৈদেশিক মুদ্রার রিজার্ভের রক্ষক — ৩ সঠিক।",
+      "claims": [
+        "c03",
+        "c04",
+        "c02"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "regulators",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "RBI প্রতিষ্ঠিত হয় কবে?",
+      "a": "১ এপ্রিল ১৯৩৫",
+      "w": [
+        "১ এপ্রিল ১৯৩৪",
+        "১ জানুয়ারি ১৯৪৯",
+        "১৫ আগস্ট ১৯৪৭"
+      ],
+      "e": "RBI প্রতিষ্ঠিত হয় ১ এপ্রিল ১৯৩৫, RBI আইন, ১৯৩৪-এর বিধান অনুযায়ী।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "regulators",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সিকিউরিটিজ (শেয়ার) বাজারের নিয়ন্ত্রক সংস্থা কোনটি?",
+      "a": "SEBI",
+      "w": [
+        "RBI",
+        "IRDAI",
+        "PFRDA"
+      ],
+      "e": "SEBI-র প্রস্তাবনায় কাজ হল সিকিউরিটিজ বাজারের নিয়ন্ত্রণ ও বিনিয়োগকারীদের স্বার্থরক্ষা। RBI ব্যাংকিং, IRDAI বিমা, PFRDA পেনশন দেখে।",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "regulators",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SEBI বিধিবদ্ধ (statutory) মর্যাদা পায় কোন সালে?",
+      "a": "১৯৯২ সালে",
+      "w": [
+        "১৯৮৮ সালে",
+        "১৯৯১ সালে",
+        "১৯৯৯ সালে"
+      ],
+      "e": "SEBI গঠিত হয় ১৯৮৮ সালে অ-বিধিবদ্ধ সংস্থা হিসেবে; বিধিবদ্ধ হয় ১৯৯২ সালে এবং SEBI আইন কার্যকর হয় ৩০ জানুয়ারি ১৯৯২।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "regulators",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IRDAI-র প্রধান দপ্তর কোথায়?",
+      "a": "হায়দরাবাদ",
+      "w": [
+        "মুম্বই",
+        "নয়াদিল্লি",
+        "কলকাতা"
+      ],
+      "e": "IRDAI-র নিজস্ব সাইটে প্রধান দপ্তরের ঠিকানা: Financial District, Nanakramguda, Gachibowli, Hyderabad – 500032।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "regulators",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আর্থিক তত্ত্বাবধান বোর্ড (Board for Financial Supervision) গঠিত হয় কবে?",
+      "a": "নভেম্বর ১৯৯৪",
+      "w": [
+        "নভেম্বর ১৯৯২",
+        "জানুয়ারি ২০০০",
+        "এপ্রিল ১৯৩৫"
+      ],
+      "e": "BFS গঠিত হয় নভেম্বর ১৯৯৪ সালে RBI-র কেন্দ্রীয় বোর্ডের কমিটি হিসেবে; এটি ব্যাংক, আর্থিক প্রতিষ্ঠান ও NBFC-মধ্যস্থতাকারীদের সমন্বিত তত্ত্বাবধান করে।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "regulators",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "PFRDA সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "এটি সংসদের আইনে প্রতিষ্ঠিত বিধিবদ্ধ কর্তৃপক্ষ যা NPS-এর নিয়ন্ত্রণ, প্রসার ও সুশৃঙ্খল বৃদ্ধি নিশ্চিত করে",
+      "w": [
+        "এটি RBI-র একটি বিভাগ যা ব্যাংক তত্ত্বাবধান করে",
+        "এটি ১৯৮৮ সালে গঠিত অ-বিধিবদ্ধ সংস্থা",
+        "এটি বিমা কোম্পানিগুলির নিবন্ধন দেয়"
+      ],
+      "e": "PIB অনুযায়ী PFRDA সংসদের আইনে প্রতিষ্ঠিত বিধিবদ্ধ কর্তৃপক্ষ; কাজ NPS ও সংশ্লিষ্ট পেনশন প্রকল্পের নিয়ন্ত্রণ ও প্রসার। ১৯৮৮-র অ-বিধিবদ্ধ গঠন SEBI-র ক্ষেত্রে প্রযোজ্য।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "regulators",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "তালিকা I (নিয়ন্ত্রক)-এর সঙ্গে তালিকা II (আইন) মেলাও:\nA. RBI — 1. আইন, ১৯৯৯\nB. SEBI — 2. আইন, ১৯৩৪\nC. IRDAI — 3. আইন, ১৯৯২\nসঠিক মিল কোনটি?",
+      "a": "A-2, B-3, C-1",
+      "w": [
+        "A-3, B-2, C-1",
+        "A-2, B-1, C-3",
+        "A-1, B-3, C-2"
+      ],
+      "e": "RBI আইন ১৯৩৪; SEBI আইন ১৯৯২; IRDAI আইন ১৯৯৯ — তিনটি আইনের বছরই সংশ্লিষ্ট সংস্থার নিজস্ব/সরকারি পাতায় উল্লিখিত।",
+      "claims": [
+        "c05",
+        "c12",
+        "c14"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "development_banks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NABARD প্রতিষ্ঠিত হয় কবে?",
+      "a": "১২ জুলাই ১৯৮২",
+      "w": [
+        "২ এপ্রিল ১৯৯০",
+        "৯ জুলাই ১৯৮৮",
+        "১ জানুয়ারি ১৯৮২"
+      ],
+      "e": "PIB অনুযায়ী NABARD প্রতিষ্ঠিত হয় ১২ জুলাই ১৯৮২, সংসদের আইনে।",
+      "claims": [
+        "c16"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "development_banks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "MSME খাতের প্রধান আর্থিক প্রতিষ্ঠান কোনটি?",
+      "a": "SIDBI",
+      "w": [
+        "NABARD",
+        "NHB",
+        "EXIM Bank"
+      ],
+      "e": "SIDBI হল MSME খাতের প্রসার, অর্থায়ন ও উন্নয়নের প্রধান আর্থিক প্রতিষ্ঠান। NABARD কৃষি-গ্রাম, NHB আবাসন, EXIM রপ্তানি-আমদানি খাতের।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "development_banks",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "EXIM Bank কোন খাতের অর্থায়নের সঙ্গে যুক্ত?",
+      "a": "রপ্তানি-আমদানি (বৈদেশিক বাণিজ্য)",
+      "w": [
+        "কৃষি ও গ্রামোন্নয়ন",
+        "আবাসন অর্থায়ন",
+        "ক্ষুদ্র ও মাঝারি উদ্যোগ"
+      ],
+      "e": "EXIM Bank রপ্তানিকারক ও আমদানিকারকদের আর্থিক সহায়তা দেয় এবং রপ্তানি-আমদানি অর্থায়নের প্রতিষ্ঠানগুলির সমন্বয়কারী প্রধান প্রতিষ্ঠান।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "development_banks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NHB কোন আইনের অধীনে, কোন সালে প্রতিষ্ঠিত হয়?",
+      "a": "NHB আইন, ১৯৮৭-এর অধীনে, ১৯৮৮ সালে",
+      "w": [
+        "NHB আইন, ১৯৮৮-এর অধীনে, ১৯৮৭ সালে",
+        "RBI আইন, ১৯৩৪-এর অধীনে, ১৯৮২ সালে",
+        "কোম্পানি আইনের অধীনে, ১৯৯০ সালে"
+      ],
+      "e": "PIB অনুযায়ী NHB একটি সর্বভারতীয় আর্থিক প্রতিষ্ঠান, প্রতিষ্ঠা ১৯৮৮ সালে NHB আইন, ১৯৮৭-এর অধীনে।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "development_banks",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NABARD পুনঃঅর্থায়ন (refinance) দেয় কাদের?",
+      "a": "সমবায় ব্যাংক, আঞ্চলিক গ্রামীণ ব্যাংক ও RBI-অনুমোদিত আর্থিক প্রতিষ্ঠানকে",
+      "w": [
+        "শুধু বড় বাণিজ্যিক ব্যাংকগুলিকে",
+        "সরাসরি প্রতিটি কৃষককে শাখা থেকে",
+        "বিদেশি ব্যাংকগুলিকে"
+      ],
+      "e": "NABARD আইন, ১৯৮১-এর ধারা ২১(i) অনুযায়ী NABARD স্বল্পমেয়াদি মৌসুমি কৃষি কার্যক্রমের জন্য সমবায় ব্যাংক, RRB ও RBI-অনুমোদিত প্রতিষ্ঠানকে পুনঃঅর্থায়ন দেয়।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "development_banks",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "NHB-র মালিকানা RBI থেকে ভারত সরকারের কাছে হস্তান্তরের একটি উদ্দেশ্য ছিল—",
+      "a": "RBI-র ব্যাংকিং নিয়ন্ত্রকের ভূমিকা ও NHB-র মালিকের ভূমিকা আলাদা করা",
+      "w": [
+        "NHB-কে বেসরকারি করা",
+        "NHB-র প্রধান দপ্তর বদলানো",
+        "NHB-কে SEBI-র সঙ্গে মিশিয়ে দেওয়া"
+      ],
+      "e": "PIB অনুযায়ী মালিকানা বদলে RBI-র নিয়ন্ত্রক ও মালিক — এই দুই ভূমিকা পৃথক (segregate) হয়।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "development_banks",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "প্রতিষ্ঠার কালানুক্রমে সাজাও: ১. SIDBI ২. NABARD ৩. NHB ৪. EXIM Bank",
+      "a": "২ ও ৪ (১৯৮২) → ৩ (১৯৮৮) → ১ (১৯৯০)",
+      "w": [
+        "৩ (১৯৮৮) → ২ ও ৪ (১৯৮২) → ১ (১৯৯০)",
+        "১ (১৯৯০) → ৩ (১৯৮৮) → ২ ও ৪ (১৯৮২)",
+        "৪ (১৯৮২) → ১ (১৯৯০) → ৩ (১৯৮৮) → ২ (১৯৮২)"
+      ],
+      "e": "NABARD ও EXIM Bank দুটোই ১৯৮২; NHB ১৯৮৮; SIDBI ২ এপ্রিল ১৯৯০।",
+      "claims": [
+        "c16",
+        "c18",
+        "c20",
+        "c19"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "nbfc",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NBFC চাহিদা আমানত (demand deposit) সম্পর্কে সঠিক বক্তব্য কোনটি?",
+      "a": "NBFC চাহিদা আমানত নিতে পারে না",
+      "w": [
+        "NBFC ব্যাংকের মতোই চাহিদা আমানত নিতে পারে",
+        "NBFC শুধু বিদেশিদের চাহিদা আমানত নিতে পারে",
+        "NBFC চাহিদা আমানত নেয় কিন্তু সুদ দেয় না"
+      ],
+      "e": "RBI FAQ অনুযায়ী ব্যাংক ও NBFC-র প্রধান পার্থক্যের একটি: NBFC চাহিদা আমানত গ্রহণ করতে পারে না।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "nbfc",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NBFC-র 'প্রধান ব্যবসা' নির্ধারণের পরীক্ষাটি পরিচিত যে নামে—",
+      "a": "৫০-৫০ পরীক্ষা (50-50 test)",
+      "w": [
+        "স্প্রেড পরীক্ষা",
+        "রিজার্ভ পরীক্ষা",
+        "দ্বৈত মিল পরীক্ষা"
+      ],
+      "e": "আর্থিক সম্পদ মোট সম্পদের ৫০%-এর বেশি এবং আর্থিক আয় মোট আয়ের ৫০%-এর বেশি — এই পরীক্ষাটি 50-50 test নামে পরিচিত।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "nbfc",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "RBI আইন, ১৯৩৪-এর কোন ধারা অনুযায়ী NBFC-কে RBI-র নিবন্ধন নিতে হয়?",
+      "a": "ধারা ৪৫-IA",
+      "w": [
+        "ধারা ২১(i)",
+        "ধারা ১৪(২)(h)",
+        "ধারা ৪২"
+      ],
+      "e": "ধারা ৪৫-IA অনুযায়ী নিবন্ধন ছাড়া অ-ব্যাংক আর্থিক প্রতিষ্ঠানের ব্যবসা চালানো যায় না। ধারা ২১(i) NABARD পুনঃঅর্থায়নের, ১৪(২)(h) IRDAI-র ক্ষমতার।",
+      "claims": [
+        "c31"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "nbfc",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NBFC-MFI হতে হলে মোট সম্পদের অন্তত কত শতাংশ ক্ষুদ্রঋণে নিয়োজিত থাকতে হবে?",
+      "a": "৬০ শতাংশ",
+      "w": [
+        "৫০ শতাংশ",
+        "৭৫ শতাংশ",
+        "৯০ শতাংশ"
+      ],
+      "e": "RBI FAQ অনুযায়ী NBFC-MFI হল আমানত-গ্রহণ করে না এমন NBFC যার মোট সম্পদের ন্যূনতম ৬০% ক্ষুদ্রঋণে নিয়োজিত।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "nbfc",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "RBI FAQ (হালনাগাদ নভেম্বর ২০২৬) অনুযায়ী ক্ষুদ্রঋণ (microfinance loan) বলতে বোঝায়—",
+      "a": "বার্ষিক আয় সর্বোচ্চ ৩,০০,০০০ টাকা পর্যন্ত পরিবারকে দেওয়া জামানত-মুক্ত ঋণ",
+      "w": [
+        "জমি জামানত রেখে দেওয়া কৃষিঋণ",
+        "শুধু স্বনির্ভর গোষ্ঠীকে দেওয়া ঋণ",
+        "৫০ লক্ষ টাকার বেশি শিল্পঋণ"
+      ],
+      "e": "সংজ্ঞা অনুযায়ী ক্ষুদ্রঋণ জামানত-মুক্ত এবং প্রাপক পরিবারের বার্ষিক আয় সর্বোচ্চ ৩,০০,০০০ টাকা।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "nbfc",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "আবাসন অর্থায়ন কোম্পানি (HFC) হিসেবে গণ্য হতে একটি NBFC-র মোট সম্পদের অন্তত কত অংশ আবাসন অর্থায়নের আর্থিক সম্পদ হতে হবে?",
+      "a": "৬০ শতাংশ",
+      "w": [
+        "৫০ শতাংশ",
+        "৪০ শতাংশ",
+        "৭৫ শতাংশ"
+      ],
+      "e": "RBI FAQ অনুযায়ী HFC হল সেই NBFC যার মোট সম্পদের অন্তত ৬০% আবাসন অর্থায়নের ব্যবসার আর্থিক সম্পদ।",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "nbfc",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "**দাবি (A):** আমানত-গ্রহণকারী NBFC-র আমানতকারীরা DICGC বিমা সুবিধা পান না।\n**কারণ (R):** RBI FAQ অনুযায়ী DICGC-র আমানত বিমা সুবিধা আমানত-গ্রহণকারী NBFC-র আমানতকারীদের জন্য উপলব্ধ নয়।",
+      "a": "A ও R উভয়ই সত্য এবং R হল A-এর সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সত্য, কিন্তু R হল A-এর সঠিক ব্যাখ্যা নয়",
+        "A সত্য, কিন্তু R মিথ্যা",
+        "A মিথ্যা, কিন্তু R সত্য"
+      ],
+      "e": "RBI FAQ স্পষ্টভাবে ব্যাংক-NBFC পার্থক্যে বলেছে DICGC বিমা NBFC আমানতকারীদের মেলে না — তাই R-ই A-এর ব্যাখ্যা।",
+      "claims": [
+        "c30"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "deposit_insurance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "DICGC কোন সংস্থার সম্পূর্ণ মালিকানাধীন সহায়ক সংস্থা?",
+      "a": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া (RBI)",
+      "w": [
+        "ভারত সরকারের অর্থ মন্ত্রক",
+        "স্টেট ব্যাংক অফ ইন্ডিয়া",
+        "SEBI"
+      ],
+      "e": "RBI-র About Us পাতায় DICGC-কে RBI-র সম্পূর্ণ মালিকানাধীন (fully owned) সহায়ক সংস্থা হিসেবে তালিকাভুক্ত করা হয়েছে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "deposit_insurance",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "DICGC আমানত বিমার সর্বোচ্চ সীমা (মূলধন+সুদ, একই অধিকার ও ক্ষমতায়) কত?",
+      "a": "৫,০০,০০০ টাকা",
+      "w": [
+        "১,০০,০০০ টাকা",
+        "২,০০,০০০ টাকা",
+        "১০,০০,০০০ টাকা"
+      ],
+      "e": "RBI-র DICGC FAQ অনুযায়ী প্রতি আমানতকারী একই অধিকার ও ক্ষমতায় মূলধন ও সুদ মিলিয়ে সর্বোচ্চ ৫,০০,০০০ টাকা পর্যন্ত বিমাকৃত।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "deposit_insurance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "একই ব্যাংকের দুটি শাখায় একজন আমানতকারীর ৪ লক্ষ ও ৩ লক্ষ টাকা আছে। DICGC বিমা সর্বোচ্চ কত মিলবে?",
+      "a": "৫,০০,০০০ টাকা",
+      "w": [
+        "৭,০০,০০০ টাকা",
+        "১০,০০,০০০ টাকা",
+        "৪,০০,০০০ টাকা"
+      ],
+      "e": "একই ব্যাংকের বিভিন্ন শাখার আমানত একসঙ্গে যোগ হয় এবং সর্বোচ্চ ৫ লক্ষ টাকা পর্যন্ত বিমা মেলে — শাখা আলাদা হলেও সীমা একটাই।",
+      "claims": [
+        "c26",
+        "c25"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "deposit_insurance",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আমানত বিমার প্রিমিয়াম কে বহন করে?",
+      "a": "সম্পূর্ণভাবে বিমাকৃত ব্যাংক",
+      "w": [
+        "আমানতকারী নিজে",
+        "RBI নিজে",
+        "আমানতকারী ও ব্যাংক অর্ধেক করে"
+      ],
+      "e": "RBI FAQ: 'Deposit insurance premium is borne entirely by the insured bank' — আমানতকারীকে কিছু দিতে হয় না।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "deposit_insurance",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নীচের কোনটি DICGC দ্বারা বিমাকৃত নয়?",
+      "a": "প্রাথমিক সমবায় সমিতি (primary cooperative societies)",
+      "w": [
+        "আঞ্চলিক গ্রামীণ ব্যাংক",
+        "ভারতে কর্মরত বিদেশি ব্যাংকের শাখা",
+        "নগর সমবায় ব্যাংক"
+      ],
+      "e": "সব বাণিজ্যিক ও সমবায় ব্যাংক বিমাকৃত হলেও প্রাথমিক সমবায় সমিতি DICGC দ্বারা বিমাকৃত নয়।",
+      "claims": [
+        "c24"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "deposit_insurance",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "দুটি আলাদা ব্যাংকে একজন ব্যক্তির ৫ লক্ষ করে আমানত থাকলে বিমা কীভাবে প্রযোজ্য হবে?",
+      "a": "প্রতি ব্যাংকে আলাদাভাবে ৫ লক্ষ পর্যন্ত সীমা প্রযোজ্য হবে",
+      "w": [
+        "দুটি মিলিয়ে মোট ৫ লক্ষ পর্যন্তই বিমা মিলবে",
+        "শুধু বড় ব্যাংকটির আমানত বিমাকৃত হবে",
+        "দ্বিতীয় ব্যাংকের আমানতে কোনো বিমাই মিলবে না"
+      ],
+      "e": "RBI FAQ অনুযায়ী একাধিক ব্যাংকে আমানত থাকলে বিমা সীমা প্রতি ব্যাংকে আলাদাভাবে প্রযোজ্য হয়।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "deposit_insurance",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতিগুলি বিবেচনা করো:\n১. DICGC সব বাণিজ্যিক ব্যাংক ও সমবায় ব্যাংককে বিমা করে।\n২. প্রাথমিক সমবায় সমিতিও DICGC দ্বারা বিমাকৃত।\n৩. বিমার প্রিমিয়াম আমানতকারীকে দিতে হয়।\nসঠিক বিবৃতি কোনটি?",
+      "a": "শুধু ১",
+      "w": [
+        "শুধু ১ ও ২",
+        "শুধু ২ ও ৩",
+        "১, ২ ও ৩"
+      ],
+      "e": "১ সঠিক। ২ ভুল — প্রাথমিক সমবায় সমিতি বিমাকৃত নয়। ৩ ভুল — প্রিমিয়াম পুরোপুরি ব্যাংক দেয়।",
+      "claims": [
+        "c24",
+        "c28"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "bank_types_acts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "RBI-র কেন্দ্রীয় দপ্তর প্রথমে কোথায় স্থাপিত হয়েছিল?",
+      "a": "কলকাতায়",
+      "w": [
+        "মুম্বইয়ে",
+        "দিল্লিতে",
+        "চেন্নাইয়ে"
+      ],
+      "e": "RBI-র About Us অনুযায়ী কেন্দ্রীয় দপ্তর প্রথমে কলকাতায় ছিল, ১৯৩৭ সালে স্থায়ীভাবে মুম্বইয়ে সরে যায়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "bank_types_acts",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "RBI জাতীয়করণ হয় কোন সালে?",
+      "a": "১৯৪৯ সালে",
+      "w": [
+        "১৯৩৫ সালে",
+        "১৯৬৯ সালে",
+        "১৯৮০ সালে"
+      ],
+      "e": "জাতীয়করণের (১৯৪৯) পর থেকে RBI সম্পূর্ণ ভারত সরকারের মালিকানাধীন।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "bank_types_acts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "আঞ্চলিক গ্রামীণ ব্যাংক (RRB) আইন কোন সালের?",
+      "a": "১৯৭৬ সাল",
+      "w": [
+        "১৯৫৫ সাল",
+        "১৯৬১ সাল",
+        "১৯৮৭ সাল"
+      ],
+      "e": "RBI-র আইনি কাঠামোর তালিকা অনুযায়ী Regional Rural Banks Act, ১৯৭৬।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "bank_types_acts",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "স্টেট ব্যাংক অফ ইন্ডিয়া আইন কোন সালের?",
+      "a": "১৯৫৫ সাল",
+      "w": [
+        "১৯৩৪ সাল",
+        "১৯৬১ সাল",
+        "১৯৭৬ সাল"
+      ],
+      "e": "RBI-র তালিকা অনুযায়ী State Bank of India Act, ১৯৫৫।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "bank_types_acts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "NPS (জাতীয় পেনশন ব্যবস্থা) প্রথমে কেন্দ্রীয় সরকারি কর্মচারীদের নতুন নিয়োগপ্রাপ্তদের জন্য কার্যকর হয় কবে থেকে?",
+      "a": "১ জানুয়ারি ২০০৪",
+      "w": [
+        "১ জানুয়ারি ২০০০",
+        "১ এপ্রিল ২০১০",
+        "১ জানুয়ারি ২০১৪"
+      ],
+      "e": "PIB অনুযায়ী NPS প্রথমে কেন্দ্রীয় সরকারি কর্মচারীদের নিয়োগের ক্ষেত্রে ১ জানুয়ারি ২০০৪ থেকে বিজ্ঞপ্তিত হয়, পরে প্রায় সব রাজ্য সরকার তা গ্রহণ করে।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "bank_types_acts",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "DICGC আইন কোন সালের?",
+      "a": "১৯৬১ সাল",
+      "w": [
+        "১৯৫৫ সাল",
+        "১৯৭৬ সাল",
+        "১৯৮১ সাল"
+      ],
+      "e": "RBI-র আইনি কাঠামোর তালিকায় Deposit Insurance and Credit Guarantee Corporation Act, ১৯৬১।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "bank_types_acts",
+      "level": "exam",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিকভাবে মিলেছে?",
+      "a": "NABARD — NABARD আইন, ১৯৮১",
+      "w": [
+        "NHB — NHB আইন, ১৯৮৮",
+        "DICGC — DICGC আইন, ১৯৭১",
+        "RRB — RRB আইন, ১৯৮৬"
+      ],
+      "e": "NABARD আইন ১৯৮১ (প্রতিষ্ঠা ১৯৮২)। NHB আইন ১৯৮৭ (প্রতিষ্ঠা ১৯৮৮), DICGC আইন ১৯৬১, RRB আইন ১৯৭৬ — বাকি জোড়াগুলির বছর ভুল।",
+      "claims": [
+        "c10",
+        "c20"
+      ]
+    }
+  ]
+}

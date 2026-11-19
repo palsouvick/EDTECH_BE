@@ -1,0 +1,590 @@
+{
+  "code": "IGK-05",
+  "questions": [
+    {
+      "id": "q01",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের কেন্দ্রীয় ব্যাংক RBI-র কার্যক্রম শুরু হয় কবে?",
+      "options": [
+        "১৫ আগস্ট ১৯৪৭",
+        "১ এপ্রিল ১৯৩৫",
+        "১ এপ্রিল ১৯৩৪",
+        "১ জানুয়ারি ১৯৪৯"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SEBI-র প্রধান দপ্তর কোথায় অবস্থিত?",
+      "options": [
+        "দালাল স্ট্রিট, মুম্বই",
+        "SEBI ভবন, বান্দ্রা-কুর্লা কমপ্লেক্স, মুম্বই",
+        "ক্যামাক স্ট্রিট, কলকাতা",
+        "সংসদ মার্গ, নয়াদিল্লি"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "SIDBI আইন, ১৯৮৯ অনুযায়ী SIDBI-র প্রধান কার্যালয় কোন শহরে?",
+      "options": [
+        "নয়াদিল্লি",
+        "লখনউ",
+        "কানপুর",
+        "মুম্বই"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "finance_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Exim Bank আইন, ১৯৮১ অনুযায়ী Exim Bank-এর প্রধান দপ্তর কোন শহরে রাখা হয়েছে?",
+      "options": [
+        "বম্বে (বর্তমান মুম্বই)",
+        "কলকাতা",
+        "চেন্নাই",
+        "নয়াদিল্লি"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "finance_bodies",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "SIDBI কোন খাতের উন্নয়নে প্রধান আর্থিক প্রতিষ্ঠান হিসেবে গঠিত হয়?",
+      "options": [
+        "বৃহৎ ভারী শিল্প খাত",
+        "কৃষি খাত",
+        "তথ্যপ্রযুক্তি খাত",
+        "ক্ষুদ্র শিল্প (small-scale) খাত"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "finance_bodies",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "Exim Bank সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. এটি রপ্তানিকারক ও আমদানিকারকদের আর্থিক সহায়তা দেয়।\n২. এটি রপ্তানি-আমদানি অর্থায়নে যুক্ত প্রতিষ্ঠানগুলির কাজের সমন্বয়কারী প্রধান প্রতিষ্ঠান।",
+      "options": [
+        "১ ও ২ উভয়ই",
+        "১ বা ২ কোনোটিই নয়",
+        "শুধু ২",
+        "শুধু ১"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "finance_bodies",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "SIDBI আইন কোন সালের এবং এর নম্বর কত?",
+      "options": [
+        "১৯৮২ সালের ৩৯ নম্বর আইন",
+        "১৯৯০ সালের ৩৯ নম্বর আইন",
+        "১৯৮৯ সালের ২৮ নম্বর আইন",
+        "১৯৮৯ সালের ৩৯ নম্বর আইন"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "finance_bodies",
+      "level": "exam",
+      "format": "CHRONOLOGY",
+      "q": "ঘটনাগুলি কালানুক্রমে সাজাও (আগেরটি আগে):\n১. RBI-র কার্যক্রম শুরু\n২. Exim Bank আইন কার্যকর\n৩. SIDBI আইন প্রণয়ন\n৪. SIDBI আইন কার্যকর",
+      "options": [
+        "১, ২, ৩, ৪",
+        "১, ৩, ২, ৪",
+        "১, ২, ৪, ৩",
+        "২, ১, ৩, ৪"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "space_atomic",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ISRO ও মহাকাশ বিভাগের সদর দপ্তর কোথায়?",
+      "options": [
+        "আহমেদাবাদ, গুজরাট",
+        "অন্তরীক্ষ ভবন, বেঙ্গালুরু",
+        "শ্রীহরিকোটা, অন্ধ্রপ্রদেশ",
+        "তিরুবনন্তপুরম, কেরল"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "space_atomic",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের মহাকাশ কার্যক্রমের সূচনা হয় কোন সংস্থা গঠনের মাধ্যমে, কবে?",
+      "options": [
+        "INCOSPAR, ১৯৫৮",
+        "INCOSPAR, ১৯৬২",
+        "ISRO, ১৯৬৯",
+        "মহাকাশ বিভাগ, ১৯৭২"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "space_atomic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ISRO প্রতিষ্ঠিত হয় কবে?",
+      "options": [
+        "আগস্ট ১৯৬৯",
+        "আগস্ট ১৯৬২",
+        "জানুয়ারি ১৯৬৭",
+        "জুন ১৯৭২"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "space_atomic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Tata Institute of Fundamental Research (TIFR) কে, কবে প্রতিষ্ঠা করেন?",
+      "options": [
+        "সি. ভি. রামন, ১৯৩৩",
+        "বিক্রম সারাভাই, ১৯৪৭",
+        "হোমি ভাভা, ১৯৪৫",
+        "হোমি ভাভা, ১৯৪৮"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "space_atomic",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "ভারতে পরমাণু শক্তি বিভাগ (DAE) গঠিত হয় কোন সালে?",
+      "options": [
+        "১৯৪৫",
+        "১৯৫৪",
+        "১৯৪৮",
+        "১৯৬৭"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "space_atomic",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "BARC সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. BARC-র পূর্বসূরি প্রতিষ্ঠান AEET ছিল ট্রম্বেতে।\n২. AEET-র নাম বদলে BARC হয় হোমি ভাভার স্মৃতিতে।",
+      "options": [
+        "১ ও ২ উভয়ই",
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়",
+        "শুধু ১"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "space_atomic",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "AEET-র নাম বদলে Bhabha Atomic Research Centre (BARC) হয় কবে?",
+      "options": [
+        "১২ জানুয়ারি ১৯৬৭",
+        "২৬ জানুয়ারি ১৯৬৬",
+        "১ জানুয়ারি ১৯৫৪",
+        "১০ আগস্ট ১৯৪৮"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "space_atomic",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): ১৯৪৮ সালে গঠিত পরমাণু শক্তি কমিশনের প্রথম সভাপতি হন হোমি ভাভা।\nকারণ (R): ভাভা ১৯৪৫ সালে মুম্বইয়ে TIFR প্রতিষ্ঠা করে ভারতের মৌলিক গবেষণার ভিত গড়েছিলেন।",
+      "options": [
+        "A সঠিক, R ভুল",
+        "A ও R উভয়ই সঠিক এবং R, A-এর সঠিক ব্যাখ্যা",
+        "A ও R উভয়ই সঠিক, কিন্তু R, A-এর সঠিক ব্যাখ্যা নয়",
+        "A ভুল, R সঠিক"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "research_councils",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কৃষি গবেষণা ও শিক্ষায় ভারতের প্রধান প্রতিষ্ঠান কোনটি?",
+      "options": [
+        "ICAR (Indian Council of Agricultural Research)",
+        "ICMR (Indian Council of Medical Research)",
+        "ICSSR",
+        "CSIR"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "research_councils",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ICMR-র সদর দপ্তর কোথায়?",
+      "options": [
+        "নিউ আলিপুর, কলকাতা",
+        "পুসা, নয়াদিল্লি",
+        "আনসারি নগর, নয়াদিল্লি",
+        "লোদি রোড, নয়াদিল্লি"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "research_councils",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Indian Research Fund Association (IRFA) কে, কবে প্রতিষ্ঠা করেন?",
+      "options": [
+        "ড. বি. সি. রায়, ১৫ নভেম্বর ১৯৪৯",
+        "স্যার হারকোর্ট বাটলার, ১৫ নভেম্বর ১৯১১",
+        "লর্ড কার্জন, ১৯১১",
+        "স্যার হারকোর্ট বাটলার, ১৯৪৯"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "research_councils",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IRFA-র নাম বদলে Indian Council of Medical Research (ICMR) হয় কোন সালে?",
+      "options": [
+        "১৯১১",
+        "১৯৪৯",
+        "১৯৫০",
+        "১৯৬০"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "research_councils",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ICAR-র প্রতিষ্ঠা দিবসের কেন্দ্রীয় অনুষ্ঠান (যেমন ৯৭তম প্রতিষ্ঠা দিবস, ২০২৫) কোথায় হয়?",
+      "options": [
+        "NASC কমপ্লেক্স, নয়াদিল্লি",
+        "অন্তরীক্ষ ভবন, বেঙ্গালুরু",
+        "আনসারি নগর, নয়াদিল্লি",
+        "মৌসম ভবন, নয়াদিল্লি"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "research_councils",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "সঠিক মিল কোনটি?\nক. IRFA প্রতিষ্ঠা — ১৯১১\nখ. ICMR নামকরণ — ১৯৪৯\nগ. ICMR সদর দপ্তর — আনসারি নগর\nঘ. ICAR — কৃষি গবেষণা",
+      "options": [
+        "শুধু ক, গ ও ঘ সঠিক",
+        "শুধু খ ও গ সঠিক",
+        "শুধু ক ও খ সঠিক",
+        "ক, খ, গ ও ঘ — সবকটিই সঠিক"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "surveys_science",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "India Meteorological Department (IMD) প্রতিষ্ঠিত হয় কোন সালে?",
+      "options": [
+        "১৮৭৫",
+        "১৮৯০",
+        "১৭৬৭",
+        "১৯১৬"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "surveys_science",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Zoological Survey of India (ZSI)-র সদর দপ্তর কোন শহরে?",
+      "options": [
+        "চেন্নাই",
+        "কলকাতা",
+        "নয়াদিল্লি",
+        "দেরাদুন"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "surveys_science",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "Survey of India গঠিত হয় কোন সালে?",
+      "options": [
+        "১৭৮৪",
+        "১৭৬৭",
+        "১৮৭৫",
+        "১৯৪৭"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "surveys_science",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "IMD-র মহাপরিচালকের (Director General of Meteorology) দপ্তর কোথায়?",
+      "options": [
+        "হাতিবাড়কালা এস্টেট, দেরাদুন",
+        "মৌসম ভবন, লোদি রোড, নয়াদিল্লি",
+        "অন্তরীক্ষ ভবন, বেঙ্গালুরু",
+        "আনসারি নগর, নয়াদিল্লি"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "surveys_science",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Botanical Survey of India (BSI) আনুষ্ঠানিকভাবে গঠিত হয় কবে এবং কেন?",
+      "options": [
+        "১৭৬৭ — মানচিত্র তৈরির জন্য",
+        "১৩ ফেব্রুয়ারি ১৮৯০ — দেশের উদ্ভিদসম্পদ অনুসন্ধানের জন্য",
+        "১ জুলাই ১৯১৬ — প্রাণীসম্পদ অনুসন্ধানের জন্য",
+        "১৮৭৫ — আবহাওয়া পর্যবেক্ষণের জন্য"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "surveys_science",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "Zoological Survey of India (ZSI) প্রতিষ্ঠিত হয় কবে?",
+      "options": [
+        "১৩ ফেব্রুয়ারি ১৮৯০",
+        "১ জুলাই ১৯১৬",
+        "১৫ জানুয়ারি ১৭৮৪",
+        "১ জুলাই ১৮৭৫"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "surveys_science",
+      "level": "difficult",
+      "format": "PAIRS",
+      "q": "কোন জোড়াটি সঠিকভাবে মিলিত?\nক. ZSI-র শিকড় — ১৮৭৫, ভারতীয় জাদুঘরের প্রাণী বিভাগ, কলকাতা\nখ. ZSI-র শিকড় — ১৮৯০, উদ্ভিদ উদ্যান, হাওড়া",
+      "options": [
+        "শুধু খ",
+        "ক ও খ উভয়ই",
+        "ক বা খ কোনোটিই নয়",
+        "শুধু ক"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "surveys_science",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "ভারতের টপোগ্রাফিক্যাল মানচিত্র প্রকাশকারী সংস্থা Survey of India-র Surveyor General-এর দপ্তর কোথায়?",
+      "options": [
+        "হাতিবাড়কালা এস্টেট, দেরাদুন",
+        "মৌসম ভবন, নয়াদিল্লি",
+        "সল্ট লেক, কলকাতা",
+        "নিউ আলিপুর, কলকাতা"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "surveys_science",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "ভারত সরকারের প্রাচীনতম বিজ্ঞান বিভাগ (oldest scientific department) কোনটি?",
+      "options": [
+        "Zoological Survey of India",
+        "Botanical Survey of India",
+        "India Meteorological Department",
+        "Survey of India"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "heritage_knowledge",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটির প্রতিষ্ঠাতা কে?",
+      "options": [
+        "উইলিয়াম কেরি",
+        "স্যার উইলিয়াম জোন্স",
+        "জেমস প্রিন্সেপ",
+        "আলেকজান্ডার কানিংহাম"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "heritage_knowledge",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটি প্রতিষ্ঠিত হয় কবে ও কোথায়?",
+      "options": [
+        "১৫ জানুয়ারি ১৭৮৮, কলকাতা",
+        "১৫ জানুয়ারি ১৭৮৪, কলকাতা",
+        "১৮০৪, বম্বে",
+        "১৮১৮, মাদ্রাজ"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "heritage_knowledge",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটির গবেষণা-পত্রিকা Asiatick Researches-এর প্রকাশ শুরু হয় কোন সালে?",
+      "options": [
+        "১৭৮৪",
+        "১৮০৪",
+        "১৮৬১",
+        "১৭৮৮"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "heritage_knowledge",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "প্রথম Archaeological Surveyor হিসেবে আলেকজান্ডার কানিংহাম নিযুক্ত হন কবে থেকে?",
+      "options": [
+        "১৮৬৬",
+        "ডিসেম্বর ১৮৬১",
+        "ফেব্রুয়ারি ১৮৭১",
+        "জানুয়ারি ১৭৮৪"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "heritage_knowledge",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "Archaeological Survey সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. লর্ড লরেন্স ১৮৬৬ সালে জরিপটি বিলুপ্ত করেন।\n২. ১৮৭১ সালে জরিপটি পৃথক সরকারি বিভাগ হিসেবে পুনরুজ্জীবিত হয় এবং কানিংহাম Director General হন।",
+      "options": [
+        "১ বা ২ কোনোটিই নয়",
+        "শুধু ১",
+        "শুধু ২",
+        "১ ও ২ উভয়ই"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "heritage_knowledge",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "এশিয়াটিক সোসাইটির ধাঁচে পরে বম্বে ও মাদ্রাজে সোসাইটি গড়ে ওঠে যথাক্রমে কোন কোন সালে?",
+      "options": [
+        "বম্বে ১৮১৮, মাদ্রাজ ১৮০৪",
+        "বম্বে ১৮০৪, মাদ্রাজ ১৮১৮",
+        "বম্বে ১৭৮৮, মাদ্রাজ ১৮০৪",
+        "বম্বে ১৮০৪, মাদ্রাজ ১৮৩৩"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "constitutional_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের নির্বাচন কমিশন প্রতিষ্ঠিত হয় কবে?",
+      "options": [
+        "১ অক্টোবর ১৯৯৩",
+        "২৫ জানুয়ারি ১৯৫০",
+        "১৫ আগস্ট ১৯৪৭",
+        "২৬ জানুয়ারি ১৯৫০"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "constitutional_bodies",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "জাতীয় মানবাধিকার কমিশন (NHRC) প্রতিষ্ঠিত হয় কবে?",
+      "options": [
+        "১২ অক্টোবর ১৯৯৩",
+        "১০ ডিসেম্বর ১৯৯৩",
+        "১ অক্টোবর ১৯৯৩",
+        "২৫ জানুয়ারি ১৯৫০"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "constitutional_bodies",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অনুচ্ছেদ ১৪৮ অনুযায়ী মহাহিসাব নিয়ন্ত্রক ও নিরীক্ষক (CAG)-কে নিয়োগ করেন কে?",
+      "options": [
+        "রাষ্ট্রপতি (স্বাক্ষর ও সিলমোহরযুক্ত পরোয়ানায়)",
+        "সুপ্রিম কোর্টের প্রধান বিচারপতি",
+        "সংসদ",
+        "প্রধানমন্ত্রী"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "constitutional_bodies",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোনো রাজ্যের হিসাব সংক্রান্ত CAG-র প্রতিবেদন জমা দেওয়া হয় কার কাছে?",
+      "options": [
+        "রাষ্ট্রপতির কাছে",
+        "রাজ্য বিধানসভার অধ্যক্ষের কাছে",
+        "ওই রাজ্যের রাজ্যপালের কাছে",
+        "মুখ্যমন্ত্রীর কাছে"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "constitutional_bodies",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "নির্বাচন কমিশন বহু-সদস্য (multi-member) সংস্থায় পরিণত হয় কবে?",
+      "options": [
+        "১২ অক্টোবর ১৯৯৩",
+        "২৫ জানুয়ারি ১৯৫০",
+        "১ জানুয়ারি ১৯৯০",
+        "১ অক্টোবর ১৯৯৩"
+      ]
+    },
+    {
+      "id": "q43",
+      "section": "constitutional_bodies",
+      "level": "difficult",
+      "format": "STATEMENT",
+      "q": "নির্বাচন কমিশন সম্পর্কে কোন বিবৃতিটি সঠিক?\n১. সংসদ, রাজ্য বিধানসভা এবং রাষ্ট্রপতি ও উপরাষ্ট্রপতি নির্বাচনের তত্ত্বাবধান, নির্দেশনা ও নিয়ন্ত্রণ সংবিধান কমিশনের হাতে দিয়েছে।\n২. কমিশনের সদর দপ্তর নয়াদিল্লিতে।",
+      "options": [
+        "শুধু ২",
+        "১ বা ২ কোনোটিই নয়",
+        "শুধু ১",
+        "১ ও ২ উভয়ই"
+      ]
+    },
+    {
+      "id": "q44",
+      "section": "constitutional_bodies",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "NHRC-র দপ্তর কোথায় অবস্থিত?",
+      "options": [
+        "মৌসম ভবন, নয়াদিল্লি",
+        "নির্বাচন সদন, নয়াদিল্লি",
+        "আনসারি নগর, নয়াদিল্লি",
+        "মানব অধিকার ভবন, INA, নয়াদিল্লি"
+      ]
+    },
+    {
+      "id": "q45",
+      "section": "constitutional_bodies",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "কেন্দ্র সরকারের হিসাব সংক্রান্ত CAG-র প্রতিবেদন জমা দেওয়া হয় কার কাছে, যিনি তা সংসদে পেশ করান?",
+      "options": [
+        "রাজ্যপালের কাছে",
+        "রাষ্ট্রপতির কাছে",
+        "অর্থমন্ত্রীর কাছে",
+        "লোকসভার অধ্যক্ষের কাছে"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1419 @@
+{
+  "book": "economy",
+  "code": "ECO-05",
+  "number": 5,
+  "part": "foundations",
+  "title": "দারিদ্র্য ও উন্নয়ন",
+  "subtitle": "দারিদ্র্যের মাপ, বেকারত্ব, মানব উন্নয়ন ও দারিদ্র্য দূরীকরণ",
+  "subtopics": [
+    "poverty_development"
+  ],
+  "related_facts": [],
+  "prerequisites": [
+    "ECO-04"
+  ],
+  "reading_minutes": {
+    "quick": 6,
+    "standard": 30,
+    "deep": 45
+  },
+  "status": "PUBLISHED",
+  "verification": {
+    "status": "VERIFIED",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (36 SURE, 4 LIKELY, 2 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 1 of 4 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_ECO-05.json and drafts/ECO-05_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/ECO-05_REPORT.md.",
+    "checked_claims": 38,
+    "checked_questions": 42,
+    "checked_at": "2026-11-19"
+  },
+  "overview": {
+    "intro": "এই অধ্যায়ে আমরা ভারতের সবচেয়ে জরুরি অর্থনৈতিক প্রশ্নটি বুঝব — দারিদ্র্য কী, তা কীভাবে মাপা হয়, এবং কীভাবে তা কমানো যায়। আয় দিয়ে মাপার সীমাবদ্ধতা থেকে শুরু করে নীতি আয়োগের বহুমাত্রিক দারিদ্র্য সূচক (MPI), বেকারত্বের ধরন, মানব পুঁজি ও মানব উন্নয়নের পার্থক্য, এবং শেষে MGNREGA, গ্রামোন্নয়ন ও স্বনির্ভর গোষ্ঠীর মতো দারিদ্র্য-দূরীকরণের উপায় — সবকিছুই যাচাইকৃত NCERT ও নীতি আয়োগের তথ্যের ভিত্তিতে সাজানো।",
+    "you_will_learn": [
+      "দারিদ্র্যের আয়-ভিত্তিক মাপের সীমাবদ্ধতা বুঝতে পারবে",
+      "MPI-র তিন মাত্রা, ১২টি সূচক ও MPI = H × A সূত্র প্রয়োগ করতে পারবে",
+      "২০০৫-০৬ থেকে ২০২২-২৩ পর্যন্ত ভারতে বহুমাত্রিক দারিদ্র্যের ধারা সংখ্যাসহ বলতে পারবে",
+      "প্রকাশ্য, ছদ্ম ও মরসুমি বেকারত্বের পার্থক্য করতে পারবে",
+      "মানব পুঁজি ও মানব উন্নয়নের পার্থক্য ব্যাখ্যা করতে পারবে",
+      "MGNREGA, NABARD, SHG ও কুদুম্বশ্রীর ভূমিকা বলতে পারবে"
+    ]
+  },
+  "sections": [
+    {
+      "id": "poverty_concept",
+      "heading": "দারিদ্র্য কী: ধারণা ও ভারতের ছবি",
+      "quick": "দারিদ্র্য মানে শুধু কম আয় নয় — খাদ্য, শিক্ষা, স্বাস্থ্য, পানীয় জল, স্যানিটেশনের মতো মৌলিক প্রয়োজন থেকে বঞ্চনাও দারিদ্র্য। ঐতিহ্যগতভাবে দারিদ্র্য মাপা হত পরিবারের আয় বা ভোগব্যয় দিয়ে, কিন্তু সেই মাপ বহুমুখী বঞ্চনাকে ধরে না। ভারতে দরিদ্রদের বেশিরভাগই গ্রামে থাকেন, যেখানে মৌলিক প্রয়োজনীয় জিনিসের সুযোগই কম।",
+      "standard": "দারিদ্র্য বলতে আমরা সাধারণত বুঝি টাকার অভাব। কিন্তু একজন মানুষের আয় থাকলেও তিনি অসুস্থ হলে চিকিৎসা পেতে নাও পারেন, তাঁর সন্তান স্কুলে যেতে নাও পারে, বাড়িতে নিরাপদ পানীয় জল বা শৌচালয় নাও থাকতে পারে। তাই আধুনিক অর্থনীতিবিদরা বলেন, দারিদ্র্য একটি **বহুমুখী বঞ্চনা**।\n\nঐতিহ্যগতভাবে দারিদ্র্য মাপা হয়েছে পরিবারের **আয় (Income)** অথবা **ভোগব্যয় (Consumption Expenditure)** দিয়ে — কার কাছে কত টাকা আছে, সেটাই ছিল মাপকাঠি। নীতি আয়োগের আলোচনাপত্রে এই পদ্ধতির তিনটি সীমাবদ্ধতা বলা হয়েছে: (১) আয় কল্যাণের জন্য প্রয়োজনীয়, কিন্তু যথেষ্ট শর্ত নয় — আয় থাকলেও তা পরিবারের কল্যাণে খরচ নাও হতে পারে; (২) আয়ের নির্ভরযোগ্য হিসাব না থাকায় ভোগব্যয় ব্যবহার করা হয়, কিন্তু ধার করা টাকায় ভোগ বাড়লে তা আসল আয়কে ঠিকমতো দেখায় না; (৩) সরকারি ভর্তুকিযুক্ত খাদ্য, বিনামূল্যে শিক্ষা-স্বাস্থ্যের মতো রাষ্ট্রীয় সহায়তার প্রভাব এই মাপে ধরা পড়ে না।\n\nভারতের ছবিটা গ্রামকেন্দ্রিক। NCERT বলছে, দরিদ্রদের বেশিরভাগই গ্রামাঞ্চলে থাকেন, যেখানে জীবনের মৌলিক প্রয়োজনীয় জিনিসের সুযোগ তাঁদের কাছে পৌঁছায় না। দেশের দুই-তৃতীয়াংশের বেশি মানুষ কৃষির ওপর নির্ভরশীল, অথচ গ্রামীণ ভারতের এক-চতুর্থাংশ এখনও চরম দারিদ্র্যে বাস করে (NCERT-র ২০২৪-২৫ সংস্করণের হিসাব)। অর্থাৎ দারিদ্র্য দূর করতে হলে গ্রামের দিকেই সবচেয়ে বেশি নজর দিতে হবে — এই যুক্তিই পরের অংশগুলোর ভিত্তি।",
+      "deep": "উন্নয়ন মানে শুধু অর্থনৈতিক অগ্রগতি নয়; নীতি আয়োগের ভাষায়, উন্নয়ন হল মানুষের **সক্ষমতা (Capabilities)** বাড়ানোর প্রক্রিয়া — যাতে মানুষ সম্পদকে মূল্যবান ফলাফলে রূপান্তরিত করতে পারে। এই ধারণা থেকেই বোঝা যায়, কেন শুধু জিডিপি বাড়লেই দারিদ্র্য কমে না: আয় বাড়লেও শিক্ষা, স্বাস্থ্য ও মৌলিক পরিষেবায় বঞ্চনা থেকে যেতে পারে। পরীক্ষায় 'আয় দারিদ্র্যের যথেষ্ট শর্ত নয় কেন' — এই ধরনের ধারণামূলক প্রশ্নের উত্তর এই অংশ থেকেই তৈরি করতে হবে।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "আয় বনাম বঞ্চনা",
+          "body": "আয়-ভিত্তিক দারিদ্র্য = টাকার অভাব। বহুমাত্রিক দারিদ্র্য = স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মানে একসঙ্গে অনেক বঞ্চনা। দুটো এক নয় — পরের অংশে আমরা দ্বিতীয়টির মাপ শিখব।"
+        }
+      ],
+      "claims": [
+        "c01",
+        "c02",
+        "c03",
+        "c04",
+        "c05"
+      ]
+    },
+    {
+      "id": "measuring_poverty",
+      "heading": "দারিদ্র্য মাপা: আয়-রেখা থেকে বহুমাত্রিক সূচক (MPI)",
+      "quick": "বহুমাত্রিক দারিদ্র্য সূচক (Multidimensional Poverty Index, MPI) স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মান — এই তিন মাত্রায় বঞ্চনা মাপে। বৈশ্বিক MPI-তে ১০টি সূচক, ভারতের জাতীয় MPI-তে ১২টি (অতিরিক্ত: মাতৃস্বাস্থ্য ও ব্যাংক অ্যাকাউন্ট)। ওজনযুক্ত সূচকের অন্তত এক-তৃতীয়াংশে বঞ্চিত হলেই একজন বহুমাত্রিকভাবে দরিদ্র। MPI = H × A।",
+      "standard": "আয় দিয়ে মাপার সীমাবদ্ধতা দূর করতে এসেছে **বহুমাত্রিক দারিদ্র্য সূচক (MPI)**। এটি অক্সফোর্ডের অলকির–ফস্টার (Alkire–Foster) পদ্ধতিতে তৈরি, যেখানে দ্বৈত-ছাঁট (dual-cutoff) পদ্ধতিতে কে দরিদ্র তা চিহ্নিত করা হয়।\n\n**তিনটি মাত্রা:** (১) স্বাস্থ্য, (২) শিক্ষা, (৩) জীবনযাত্রার মান। বৈশ্বিক MPI এই তিন মাত্রায় মোট **১০টি সূচক** ব্যবহার করে — স্বাস্থ্যে পুষ্টি ও শিশু-কিশোর মৃত্যু, শিক্ষায় স্কুলে পড়ার বছর ও স্কুলে উপস্থিতি, জীবনযাত্রায় আবাসন, সম্পদ, রান্নার জ্বালানি, স্যানিটেশন, পানীয় জল ও বিদ্যুৎ। ভারতের **জাতীয় MPI-তে সূচক ১২টি** — বৈশ্বিক ১০টির সঙ্গে জাতীয় অগ্রাধিকার অনুযায়ী যোগ হয়েছে **মাতৃস্বাস্থ্য (Maternal Health)** ও **ব্যাংক অ্যাকাউন্ট (Bank Accounts)**।\n\n**কে দরিদ্র?** ওজনযুক্ত সূচকগুলির অন্তত **এক-তৃতীয়াংশে** বঞ্চিত হলে সেই ব্যক্তি বহুমাত্রিকভাবে দরিদ্র বলে চিহ্নিত হন।\n\n**সূত্র:** MPI = H × A, যেখানে H = দরিদ্র মানুষের শতকরা হার (Incidence/Headcount Ratio) এবং A = দারিদ্র্যের তীব্রতা (Intensity) — একজন দরিদ্র মানুষ গড়ে কত অংশ বঞ্চনার শিকার। তাই MPI শুধু কতজন দরিদ্র তাই বলে না, তাঁরা কতটা বঞ্চিত তাও বলে। জাতীয় MPI-র আরেকটি সুবিধা: এটি জেলা স্তর পর্যন্ত বঞ্চনা দেখাতে পারে, ফলে লক্ষ্যভিত্তিক নীতি তৈরি সহজ হয়।",
+      "deep": "মনিটারি (আয়/ব্যয়) মাপ ও MPI পরস্পরের বিকল্প নয়, পরিপূরক। নীতি আয়োগ বলছে, অ-আর্থিক মাপ আর্থিক মাপকে সম্পূর্ণ করে দারিদ্র্যের বৈচিত্র্যময় মাত্রাগুলি ধরে। পরীক্ষায় জোড়া মেলানো (MATCH) প্রশ্নে প্রায়ই আসে: বৈশ্বিক MPI = ১০ সূচক, জাতীয় MPI = ১২ সূচক; অতিরিক্ত দুটি = মাতৃস্বাস্থ্য ও ব্যাংক অ্যাকাউন্ট। আরেকটি ঘোরালো বিষয়: জাতীয় MPI-র তথ্য আসে **জাতীয় পরিবার স্বাস্থ্য সমীক্ষা (NFHS)** থেকে, ভোগ সমীক্ষা থেকে নয়।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "সূত্রটি মনে রাখো",
+          "body": "**MPI = H × A**। H বাড়লে বা A বাড়লে MPI বাড়ে। H = কতজন দরিদ্র (%), A = তাঁরা গড়ে কতটা বঞ্চিত (%)।"
+        }
+      ],
+      "claims": [
+        "c06",
+        "c07",
+        "c08",
+        "c09"
+      ]
+    },
+    {
+      "id": "mpi_trends",
+      "heading": "ভারতে বহুমাত্রিক দারিদ্র্যের ধারা (২০০৫-০৬ থেকে ২০২২-২৩)",
+      "quick": "NFHS তথ্য অনুযায়ী ভারতে বহুমাত্রিক দারিদ্র্য ২০০৫-০৬ সালে ৫৫.৩৪% থেকে কমে ২০১৯-২১ সালে ১৪.৯৬% হয়েছে। নীতি আয়োগের প্রাক্কলনে ২০১৩-১৪ সালের ২৯.১৭% থেকে ২০২২-২৩ সালে তা ১১.২৮% — এই সময়ে প্রায় ২৪.৮২ কোটি মানুষ বহুমাত্রিক দারিদ্র্য থেকে বেরিয়ে এসেছেন।",
+      "standard": "সংখ্যাগুলোকে তিনটি ধাপে সাজালে ধারাটা পরিষ্কার হয়। **প্রথম ধাপ (NFHS-ভিত্তিক প্রকৃত হিসাব):** ২০০৫-০৬ সালে ভারতের অর্ধেকের বেশি মানুষ (৫৫.৩৪%) বহুমাত্রিকভাবে দরিদ্র ছিলেন; ২০১৫-১৬ সালে তা ২৪.৮৫%, ২০১৯-২১ সালে ১৪.৯৬%। শুধু ২০১৫-১৬ থেকে ২০১৯-২১ — এই সাড়ে চার বছরে **১৩.৫ কোটি** মানুষ দারিদ্র্য থেকে বেরিয়ে আসেন।\n\n**দ্বিতীয় ধাপ (প্রাক্কলন):** ২০১৩-১৪ ও ২০২২-২৩ সালের জন্য NFHS তথ্য সরাসরি না থাকায় নীতি আয়োগ পূর্ববর্তী হ্রাসের যৌগিক হার (compound growth rate) ধরে প্রাক্কলন করেছে — ২০১৩-১৪ সালে ২৯.১৭% থেকে ২০২২-২৩ সালে **১১.২৮%**, অর্থাৎ নয় বছরে প্রায় **২৪.৮২ কোটি** মানুষ বহুমাত্রিক দারিদ্র্য থেকে মুক্তি পেয়েছেন। রাজ্যগুলির মধ্যে উত্তরপ্রদেশ শীর্ষে (৫.৯৪ কোটি), তারপর বিহার (৩.৭৭ কোটি) ও মধ্যপ্রদেশ (২.৩০ কোটি)।\n\n**গ্রাম বনাম শহর:** ২০১৫-১৬ থেকে ২০১৯-২১ সময়ে গ্রামে দারিদ্র্য ৩২.৫৯% থেকে ১৯.২৮% এবং শহরে ৮.৬৫% থেকে ৫.২৭% হয়েছে — গ্রামে হ্রাস বেশি, তবে গ্রামের হার এখনও শহরের প্রায় চার গুণ। **কোন সূচকে উন্নতি সবচেয়ে বেশি?** স্যানিটেশনে বঞ্চনা কমেছে ২১.৮ শতাংশ-বিন্দু এবং রান্নার জ্বালানিতে ১৪.৬ শতাংশ-বিন্দু — অর্থাৎ শৌচালয় ও পরিচ্ছন্ন জ্বালানির সরকারি কর্মসূচির ছাপ সংখ্যায় স্পষ্ট।",
+      "deep": "পরীক্ষার জন্য একটি সতর্কতা: ২৯.১৭% ও ১১.২৮% সংখ্যা দুটি **প্রাক্কলিত (estimated/projected)**, সরাসরি সমীক্ষার নয় — নীতি আয়োগ নিজেই বলেছে, তথ্যের অভাবে যৌগিক হ্রাস-হার ধরে এগুলি বার করা হয়েছে। অন্যদিকে ৫৫.৩৪%, ২৪.৮৫% ও ১৪.৯৬% হল NFHS-৩, ৪ ও ৫-এর প্রকৃত হিসাব। বিবৃতি-ভিত্তিক (STATEMENT) প্রশ্নে এই পার্থক্যটাই প্রায়ই ফাঁদ হয়। এছাড়া মনে রাখো: টেকসই উন্নয়ন লক্ষ্য (SDG) ১.২ অনুযায়ী ২০৩০ সালের মধ্যে সব মাত্রায় দারিদ্র্য অন্তত অর্ধেকে নামানোর লক্ষ্য রয়েছে, এবং নীতি আয়োগের মতে ভারত সেই লক্ষ্যের আগেই এগিয়ে আছে।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "প্রাক্কলন বনাম প্রকৃত হিসাব",
+          "body": "৫৫.৩৪% (২০০৫-০৬), ২৪.৮৫% (২০১৫-১৬), ১৪.৯৬% (২০১৯-২১) = NFHS-ভিত্তিক প্রকৃত হিসাব। ২৯.১৭% (২০১৩-১৪) ও ১১.২৮% (২০২২-২৩) = একই হ্রাস-হার ধরে করা প্রাক্কলন। দুটোকে গুলিয়ে ফেলো না।"
+        }
+      ],
+      "claims": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15"
+      ]
+    },
+    {
+      "id": "unemployment",
+      "heading": "বেকারত্ব: ধরন ও অনানুষ্ঠানিক ক্ষেত্র",
+      "quick": "বেকারত্ব মানে কাজ না থাকা সত্ত্বেও কাজ খোঁজা বা কাজের জন্য উপলব্ধ থাকা। ভারতে তিন ধরনের বেকারত্ব গুরুত্বপূর্ণ: প্রকাশ্য (Open), ছদ্ম (Disguised) ও মরসুমি (Seasonal)। অনানুষ্ঠানিক ক্ষেত্রের শ্রমিকদের নিয়মিত আয় ও সরকারি সুরক্ষা থাকে না।",
+      "standard": "**সংজ্ঞা:** জাতীয় পরিসংখ্যান দপ্তর (NSO)-এর সংজ্ঞায়, কাজের অভাবে যাঁরা কাজ করছেন না, অথচ কর্মসংস্থান কেন্দ্র, মধ্যস্থতাকারী, বন্ধু-আত্মীয়ের মাধ্যমে কাজ খুঁজছেন বা কাজের জন্য নিজের ইচ্ছা/উপলব্ধতা জানাচ্ছেন — তাঁরাই বেকার। অর্থনীতিবিদদের কঠোর সংজ্ঞা আরও সরল: যিনি আধা দিনে এক ঘণ্টার কাজও পান না, তিনি বেকার।\n\n**তিন ধরন:** (১) **প্রকাশ্য বেকারত্ব (Open Unemployment)** — কাজই নেই, মানুষ খোলাখুলি কাজ খুঁজছে। (২) **ছদ্ম বেকারত্ব (Disguised Unemployment)** — কৃষিতে সবচেয়ে বেশি দেখা যায়: চার একর জমিতে যেখানে দুজন শ্রমিক ও কৃষক নিজেই যথেষ্ট, সেখানে পাঁচজন শ্রমিক ও পরিবারের সবাই কাজ করছে — অতিরিক্ত শ্রমিক সরিয়ে নিলেও উৎপাদন কমবে না। ১৯৫০-এর দশকের শেষের একটি সমীক্ষায় ভারতের কৃষি-শ্রমিকদের প্রায় এক-তৃতীয়াংশ ছদ্মবেকার ছিলেন বলে দেখা গিয়েছিল। (৩) **মরসুমি বেকারত্ব (Seasonal Unemployment)** — কৃষিকাজ মরসুমি; বছরের সব মাসে গ্রামে কাজ থাকে না, তাই মানুষ কাজের খোঁজে শহরে যায়, বর্ষা এলে ফিরে আসে।\n\n**কর্মশক্তির ছবি:** ২০২২-২৩ সালে ভারতের কর্মশক্তি ছিল প্রায় ৫৪.৫ কোটি; শ্রমিক-জনসংখ্যা অনুপাত (Worker-Population Ratio) ৪১.১ (গ্রামে ৪২.৩, শহরে ৩৭.৭)। **অনানুষ্ঠানিক ক্ষেত্র (Informal Sector)**-এর শ্রমিকদের নিয়মিত আয় নেই, সরকারি সুরক্ষা বা নিয়ন্ত্রণ নেই — কোনো ক্ষতিপূরণ ছাড়াই তাঁদের ছাঁটাই করা যায়। এই অনিশ্চয়তাই বেকারত্বের পাশাপাশি দারিদ্র্যের আরেকটি বড় কারণ।",
+      "deep": "ভারতের বেকারত্বের একটি বিশেষ দিক NCERT উল্লেখ করেছে: এখানে মানুষ বেশিদিন সম্পূর্ণ বেকার থাকতে পারে না, কারণ তাঁদের মরিয়া অর্থনৈতিক অবস্থা তা করতে দেয় না — বরং তাঁরা এমন কাজ নিতে বাধ্য হন যা অন্য কেউ করতে চায় না, এমনকি অস্বাস্থ্যকর পরিবেশের কাজও। তাই ভারতে 'বেকারত্বের হার' কম দেখালেও 'কাজের মান' খারাপ হতে পারে — এই সূক্ষ্ম পার্থক্যটি WBCS-স্তরের প্রশ্নে কাজে লাগে। বেকারত্বের তথ্যের তিনটি উৎসও মনে রাখো: ভারতের জনগণনা, NSO-র প্রতিবেদন এবং পর্যায়ক্রমিক শ্রমশক্তি সমীক্ষা (PLFS)-এর বার্ষিক প্রতিবেদন।",
+      "boxes": [
+        {
+          "kind": "dont_confuse",
+          "title": "ছদ্ম বনাম মরসুমি",
+          "body": "ছদ্ম বেকারত্ব = প্রয়োজনের বেশি লোক একই কাজে (সরালেও উৎপাদন একই)। মরসুমি বেকারত্ব = বছরের নির্দিষ্ট সময়ে কাজই থাকে না। দুটোই কৃষিতে বেশি, কিন্তু কারণ আলাদা।"
+        }
+      ],
+      "claims": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22"
+      ]
+    },
+    {
+      "id": "human_development",
+      "heading": "মানব পুঁজি ও মানব উন্নয়ন",
+      "quick": "মানব পুঁজি (Human Capital) শিক্ষা-স্বাস্থ্যকে শ্রম-উৎপাদনশীলতা বাড়ানোর উপায় হিসেবে দেখে; মানব উন্নয়ন (Human Development) শিক্ষা-স্বাস্থ্যকে মানুষের কল্যাণের অবিচ্ছেদ্য অংশ মনে করে। শিক্ষায় বিনিয়োগ মানব পুঁজির প্রধান উৎস; অন্য উৎস — স্বাস্থ্য, কর্মকালীন প্রশিক্ষণ, অভিবাসন ও তথ্য।",
+      "standard": "একটি দেশ যেমন জমির মতো ভৌত সম্পদকে কারখানার মতো ভৌত পুঁজিতে রূপান্তরিত করে, তেমনি ছাত্র, শিক্ষক, কৃষক, নার্সের মতো মানব সম্পদকে ইঞ্জিনিয়ার ও ডাক্তারের মতো মানব পুঁজিতে রূপান্তরিত করতে পারে। মানব পুঁজি গড়তে হলে মানব পুঁজিতেই বিনিয়োগ করতে হয়।\n\n**উৎসগুলি:** শিক্ষায় বিনিয়োগ মানব পুঁজির অন্যতম প্রধান উৎস। বাকি উৎস — **স্বাস্থ্যে বিনিয়োগ, কর্মকালীন প্রশিক্ষণ (On-the-job Training), অভিবাসন (Migration) ও তথ্য (Information)**। অসুস্থ শ্রমিক চিকিৎসা না পেলে কাজে অনুপস্থিত থাকেন, উৎপাদন কমে — তাই স্বাস্থ্য ব্যয়ও মানব পুঁজি গঠনের উৎস।\n\n**মানব পুঁজি বনাম মানব উন্নয়ন:** মানব পুঁজির দৃষ্টিতে শিক্ষা-স্বাস্থ্য হল উৎপাদন বাড়ানোর **উপায়**, মানুষ হল উপায় মাত্র; বিনিয়োগ উৎপাদন না বাড়ালে তা অনর্থক। মানব উন্নয়নের দৃষ্টিতে শিক্ষা-স্বাস্থ্য মানুষের **কল্যাণেরই অংশ** — মানুষ পড়তে-লিখতে পারলে ও দীর্ঘ সুস্থ জীবন পেলে তবেই সে নিজের পছন্দের অন্য সিদ্ধান্ত নিতে পারে। তাই উৎপাদন বাড়ুক বা না বাড়ুক, প্রত্যেকের মৌলিক শিক্ষা ও স্বাস্থ্যের অধিকার আছে।\n\n**ভারতের অগ্রগতি (NCERT সারণি ৪.১):** সাক্ষরতার হার ১৯৫১ সালের ১৬.৬৭% থেকে বেড়ে ২০১৮-২১ সালে ৭৮%; জন্মকালে আয়ুষ্কাল পুরুষদের ৬৮.৬ ও নারীদের ৭১.৪ বছর। সপ্তম পঞ্চবার্ষিক পরিকল্পনাই বলেছিল, জনবহুল দেশে মানব সম্পদ উন্নয়নকে যেকোনো উন্নয়ন কৌশলে মূল ভূমিকা দিতেই হবে। তবে সতর্কতা: দারিদ্র্যসীমার নিচে থাকা বিশাল অংশের মানুষ মৌলিক শিক্ষা ও স্বাস্থ্যসেবাই কিনতে পারে না — তাই সরকারি হস্তক্ষেপ অপরিহার্য।",
+      "deep": "মানব উন্নয়ন সূচক (HDI) নিয়ে আগের বছরের প্রশ্ন এসেছে (WBCS ২০১৭, ২০২৪)। এই অধ্যায়ের NCERT অংশ থেকে তুমি HDI-র ভিত্তির ধারণাগুলি পাবে — স্বাস্থ্য (আয়ুষ্কাল), শিক্ষা (সাক্ষরতা/স্কুলে পড়া) ও জীবনযাত্রার মান (মাথাপিছু আয়) — NCERT সারণি ৪.১-এ ঠিক এই তিন ধরনের সূচকই (প্রকৃত মাথাপিছু আয়, আয়ুষ্কাল, সাক্ষরতা) দিয়ে উন্নয়ন মাপা হয়েছে। তবে HDI কবে চালু হয় (১৯৯০) বা কোন সংস্থা প্রকাশ করে — এসব তথ্য এই অধ্যায়ের উৎসে নেই; সেগুলি পৃথকভাবে যাচাই করে পড়তে হবে (REPORT-এ ঘাটতি হিসেবে উল্লেখ আছে)।",
+      "boxes": [
+        {
+          "kind": "remember",
+          "title": "দুটি ধারণা, এক লাইনে",
+          "body": "মানব পুঁজি: শিক্ষা-স্বাস্থ্য = উৎপাদন বাড়ানোর উপায়। মানব উন্নয়ন: শিক্ষা-স্বাস্থ্য = কল্যাণ নিজেই, প্রত্যেকের অধিকার।"
+        }
+      ],
+      "claims": [
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29"
+      ]
+    },
+    {
+      "id": "poverty_alleviation",
+      "heading": "দারিদ্র্য দূরীকরণ: কর্মসংস্থান, গ্রামোন্নয়ন ও স্বনির্ভর গোষ্ঠী",
+      "quick": "সরকার দারিদ্র্য কমায় মূলত কর্মসংস্থান তৈরির মাধ্যমে। মহাত্মা গান্ধী জাতীয় গ্রামীণ কর্মসংস্থান নিশ্চয়তা আইন ২০০৫ (MGNREGA) গ্রামীণ পরিবারকে বছরে ১০০ দিনের মজুরি-কর্মসংস্থানের নিশ্চয়তা দেয়। পাশাপাশি গ্রামোন্নয়ন, গ্রামীণ ঋণ (NABARD, SHG) ও মানব সম্পদ উন্নয়ন দারিদ্র্য দূরীকরণের স্তম্ভ।",
+      "standard": "**কর্মসংস্থানের মাধ্যমে দারিদ্র্য দূরীকরণ:** সরকারের অনেক দারিদ্র্য-দূরীকরণ কর্মসূচিই চলে কর্মসংস্থান তৈরির পথে — এগুলিকে বলে **কর্মসংস্থান সৃজন কর্মসূচি (Employment Generation Programmes)**। এগুলি শুধু কাজ দেয় না, প্রাথমিক স্বাস্থ্য, প্রাথমিক শিক্ষা, গ্রামীণ পানীয় জল, পুষ্টি, বাড়ি ও স্যানিটেশনের মতো পরিষেবাও পৌঁছে দেয়। এর সবচেয়ে বড় উদাহরণ **MGNREGA ২০০৫**: অদক্ষ হাতে-কলমে কাজ করতে ইচ্ছুক প্রতিটি গ্রামীণ পরিবারকে বছরে **১০০ দিনের নিশ্চিত মজুরি-কর্মসংস্থান** দেওয়ার প্রতিশ্রুতি এই আইনে আছে।\n\n**সরকার কীভাবে কাজ তৈরি করে?** দুইভাবে — **প্রত্যক্ষভাবে**: সরকার নিজে বিভিন্ন দপ্তরে লোক নিয়োগ করে, শিল্প, হোটেল ও পরিবহণ সংস্থা চালায়। **পরোক্ষভাবে**: সরকারি সংস্থার উৎপাদন বাড়লে তা থেকে কাঁচামাল নেওয়া বেসরকারি সংস্থাগুলিরও উৎপাদন ও কর্মসংস্থান বাড়ে। প্রসঙ্গত, গত কয়েক দশকে জিডিপি দ্রুত বাড়লেও কর্মসংস্থান সেই হারে বাড়েনি — এই 'কাজহীন প্রবৃদ্ধি'র চাপেই সরকারকে বিশেষ করে গ্রামে কর্মসংস্থান তৈরির উদ্যোগ নিতে হয়েছে।\n\n**গ্রামোন্নয়ন ও ঋণ:** গ্রামোন্নয়ন মানে গ্রামের অর্থনীতিতে পিছিয়ে থাকা এলাকাগুলির উন্নয়নের জন্য পদক্ষেপ। অগ্রাধিকারের ক্ষেত্র — মানব সম্পদ উন্নয়ন, ভূমি সংস্কার, পরিকাঠামো উন্নয়ন এবং দারিদ্র্য দূরীকরণের বিশেষ ব্যবস্থা। ঋণের ক্ষেত্রে ১৯৬৯ সালের পর সামাজিক ব্যাংকিং ও বহু-সংস্থা পদ্ধতি আসে; **১৯৮২ সালে NABARD** গঠিত হয় গ্রামীণ অর্থায়নের সব প্রতিষ্ঠানের কাজ সমন্বয় করার শীর্ষ সংস্থা হিসেবে। আর **স্বনির্ভর গোষ্ঠী (SHG)**-র মাধ্যমে ক্ষুদ্রঋণ (Micro-credit): প্রতিটি সদস্যের ছোটো ছোটো সঞ্চয় জমা করে তহবিল তৈরি হয়, সেখান থেকে প্রয়োজনী সদস্যকে যুক্তিসংগত সুদে ছোটো কিস্তিতে ঋণ দেওয়া হয়। কেরলের **কুদুম্বশ্রী** এর বিখ্যাত উদাহরণ — নারীকেন্দ্রিক, সম্প্রদায়ভিত্তিক দারিদ্র্য-হ্রাস কর্মসূচি, যার সঞ্চয় সমিতি ১ কোটি টাকা সঞ্চয় সংগ্রহ করেছিল।",
+      "deep": "গান্ধীজির মতে ভারতের প্রকৃত অগ্রগতি মানে শিল্প-নগরকেন্দ্রের বৃদ্ধি নয়, মূলত গ্রামের উন্নয়ন। এই দার্শনিক ভিত্তির সঙ্গে MGNREGA-র মতো অধিকারভিত্তিক কর্মসূচির যোগ আছে: কাজ এখানে দয়া নয়, আইনি নিশ্চয়তা। পরীক্ষায় প্রায়ই আসে — MGNREGA কোন সালে (২০০৫), কত দিনের নিশ্চয়তা (১০০ দিন), কাদের জন্য (গ্রামীণ পরিবার, অদক্ষ হাতে-কলমে কাজ)। SHG অংশ থেকে আসে ক্ষুদ্রঋণের সংজ্ঞা ও কুদুম্বশ্রীর রাজ্য (কেরল)।",
+      "boxes": [
+        {
+          "kind": "exam_note",
+          "title": "তিনটি সংখ্যা মুখস্থ রাখো",
+          "body": "MGNREGA: আইন ২০০৫, নিশ্চয়তা ১০০ দিন। NABARD: প্রতিষ্ঠা ১৯৮২। সামাজিক ব্যাংকিং পর্বের শুরু: ১৯৬৯-এর পর।"
+        }
+      ],
+      "claims": [
+        "c23",
+        "c24",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "MGNREGA আইন পাস",
+      "when": "২০০৫",
+      "what": "মহাত্মা গান্ধী জাতীয় গ্রামীণ কর্মসংস্থান নিশ্চয়তা আইন পাস হয় — গ্রামীণ পরিবারকে ১০০ দিনের মজুরি-কর্মসংস্থানের আইনি নিশ্চয়তা।",
+      "why_it_matters": "কাজকে দয়ার বদলে অধিকারে পরিণত করা এই আইন দারিদ্র্য-দূরীকরণের সবচেয়ে বড় কর্মসংস্থান-ভিত্তিক হাতিয়ার।",
+      "section": "poverty_alleviation",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "title": "জাতীয় MPI-র অগ্রগতি পর্যালোচনা ২০২৩",
+      "when": "২০২৩",
+      "what": "নীতি আয়োগ 'National Multidimensional Poverty Index: A Progress Review 2023' প্রকাশ করে — NFHS-৪ ও NFHS-৫ ভিত্তিক হিসাব।",
+      "why_it_matters": "এই প্রতিবেদনেই দেখা যায় ২০১৫-১৬ থেকে ২০১৯-২১ সময়ে ১৩.৫ কোটি মানুষ বহুমাত্রিক দারিদ্র্য থেকে বেরিয়ে এসেছেন।",
+      "section": "mpi_trends",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "title": "NABARD প্রতিষ্ঠা",
+      "when": "১৯৮২",
+      "what": "গ্রামীণ অর্থায়নের শীর্ষ সমন্বয়কারী সংস্থা হিসেবে কৃষি ও গ্রামোন্নয়ন জাতীয় ব্যাংক (NABARD) গঠিত হয়।",
+      "why_it_matters": "গ্রামীণ ঋণব্যবস্থার প্রাতিষ্ঠানিক ভিত্তি শক্ত করে দারিদ্র্য দূরীকরণে ঋণের ভূমিকা বাড়ায়।",
+      "section": "poverty_alleviation",
+      "claims": [
+        "c32"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "মহাত্মা গান্ধী",
+      "when": "১৮৬৯–১৯৪৮",
+      "role": "জাতীয় নেতা ও গ্রামোন্নয়নের দার্শনিক ভিত্তির প্রবক্তা",
+      "contribution": "তাঁর মতে ভারতের প্রকৃত অগ্রগতি মানে শিল্প-নগরকেন্দ্রের বৃদ্ধি নয়, মূলত গ্রামের উন্নয়ন — এই ভাবনাই গ্রামকেন্দ্রিক উন্নয়ন-নীতির ভিত্তি।",
+      "section": "poverty_alleviation",
+      "claims": [
+        "c37"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "sort_year": 1969,
+      "when": "১৯৬৯-এর পর",
+      "label": "ভারতে সামাজিক ব্যাংকিং ও বহু-সংস্থা পদ্ধতির মাধ্যমে গ্রামীণ ঋণে বড় পরিবর্তন",
+      "claims": [
+        "c34"
+      ]
+    },
+    {
+      "sort_year": 1982,
+      "when": "১৯৮২",
+      "label": "NABARD প্রতিষ্ঠা — গ্রামীণ অর্থায়নের শীর্ষ সমন্বয়কারী সংস্থা",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "sort_year": 2005,
+      "when": "২০০৫",
+      "label": "MGNREGA আইন — গ্রামীণ পরিবারকে ১০০ দিনের কর্মসংস্থান নিশ্চয়তা",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "sort_year": 2023,
+      "when": "২০২৩",
+      "label": "নীতি আয়োগের জাতীয় MPI অগ্রগতি পর্যালোচনা প্রকাশ (NFHS-৪ ও ৫ ভিত্তিক)",
+      "claims": [
+        "c13"
+      ]
+    },
+    {
+      "sort_year": 2024,
+      "when": "২০২৪",
+      "label": "নীতি আয়োগের আলোচনাপত্র: বহুমাত্রিক দারিদ্র্য ২০১৩-১৪ সালের ২৯.১৭% থেকে ২০২২-২৩ সালে ১১.২৮% (প্রাক্কলন)",
+      "claims": [
+        "c10"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "বহুমাত্রিক দারিদ্র্য (Multidimensional Poverty)",
+      "meaning": "শুধু আয় নয়, স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মানে একসঙ্গে বঞ্চনার ভিত্তিতে মাপা দারিদ্র্য।",
+      "section": "measuring_poverty"
+    },
+    {
+      "term": "দারিদ্র্যের হার H (Headcount Ratio)",
+      "meaning": "মোট জনসংখ্যার কত শতাংশ বহুমাত্রিকভাবে দরিদ্র — MPI-র 'incidence'।",
+      "section": "measuring_poverty"
+    },
+    {
+      "term": "দারিদ্র্যের তীব্রতা A (Intensity)",
+      "meaning": "একজন বহুমাত্রিকভাবে দরিদ্র মানুষ গড়ে ওজনযুক্ত সূচকের কত অংশে বঞ্চিত।",
+      "section": "measuring_poverty"
+    },
+    {
+      "term": "ছদ্ম বেকারত্ব (Disguised Unemployment)",
+      "meaning": "প্রয়োজনের চেয়ে বেশি শ্রমিক একই কাজে নিয়োজিত; অতিরিক্ত শ্রমিক সরালেও উৎপাদন কমে না। কৃষিতে বেশি দেখা যায়।",
+      "section": "unemployment"
+    },
+    {
+      "term": "মরসুমি বেকারত্ব (Seasonal Unemployment)",
+      "meaning": "বছরের নির্দিষ্ট মরসুমে কাজ না থাকায় সৃষ্ট বেকারত্ব; কৃষিতে সাধারণ।",
+      "section": "unemployment"
+    },
+    {
+      "term": "শ্রমিক-জনসংখ্যা অনুপাত (Worker-Population Ratio)",
+      "meaning": "মোট জনসংখ্যার কত শতাংশ মানুষ কর্মরত — কর্মসংস্থানের অবস্থা বোঝার সূচক।",
+      "section": "unemployment"
+    },
+    {
+      "term": "মানব পুঁজি (Human Capital)",
+      "meaning": "শিক্ষা, স্বাস্থ্য, প্রশিক্ষণের মাধ্যমে গড়ে ওঠা মানুষের দক্ষতা ও সক্ষমতা, যা উৎপাদনশীলতা বাড়ায়।",
+      "section": "human_development"
+    },
+    {
+      "term": "মানব উন্নয়ন (Human Development)",
+      "meaning": "শিক্ষা-স্বাস্থ্যকে উৎপাদনের উপায় নয়, মানুষের কল্যাণ ও পছন্দের স্বাধীনতা হিসেবে দেখার ধারণা।",
+      "section": "human_development"
+    },
+    {
+      "term": "ক্ষুদ্রঋণ (Micro-credit)",
+      "meaning": "স্বনির্ভর গোষ্ঠীর যৌথ সঞ্চয় তহবিল থেকে সদস্যদের ছোটো অঙ্কের, ছোটো কিস্তিতে ফেরতযোগ্য ঋণ।",
+      "section": "poverty_alleviation"
+    },
+    {
+      "term": "অনানুষ্ঠানিক ক্ষেত্র (Informal Sector)",
+      "meaning": "যেখানে শ্রমিকদের নিয়মিত আয়, সরকারি সুরক্ষা বা নিয়ন্ত্রণ থাকে না।",
+      "section": "unemployment"
+    }
+  ],
+  "cause_effect": [
+    {
+      "title": "কাজহীন প্রবৃদ্ধি থেকে কর্মসংস্থান-উদ্যোগ",
+      "causes": [
+        "জিডিপি দ্রুত বাড়লেও কর্মসংস্থান সমান হারে বাড়েনি",
+        "গ্রামে মরসুমি ও ছদ্ম বেকারত্ব ব্যাপক"
+      ],
+      "event": "সরকারকে বিশেষ করে গ্রামাঞ্চলে কর্মসংস্থান তৈরির উদ্যোগ নিতে হয়",
+      "results": [
+        "MGNREGA-র মতো কর্মসংস্থান সৃজন কর্মসূচি",
+        "প্রত্যক্ষ ও পরোক্ষ — দুই পথেই সরকারি কর্মসংস্থান সৃজন"
+      ],
+      "section": "poverty_alleviation",
+      "claims": [
+        "c38",
+        "c24"
+      ]
+    },
+    {
+      "title": "আনুষ্ঠানিক ঋণের ফাঁক থেকে স্বনির্ভর গোষ্ঠী",
+      "causes": [
+        "জামানতের অভাবে দরিদ্র গ্রামীণ পরিবার আনুষ্ঠানিক ঋণব্যবস্থার বাইরে থেকে যেত",
+        "মহাজনদের উচ্চ সুদের ঋণফাঁদ"
+      ],
+      "event": "স্বনির্ভর গোষ্ঠী (SHG) ও ক্ষুদ্রঋণ কর্মসূচির প্রসার",
+      "results": [
+        "সদস্যদের সঞ্চয় থেকে যুক্তিসংগত সুদে ঋণ",
+        "নারীদের ক্ষমতায়ন — যেমন কেরলের কুদুম্বশ্রী"
+      ],
+      "section": "poverty_alleviation",
+      "claims": [
+        "c35",
+        "c33"
+      ]
+    }
+  ],
+  "exam_focus": [
+    {
+      "point": "MPI-র তিন মাত্রা, বৈশ্বিক ১০ বনাম জাতীয় ১২ সূচক এবং অতিরিক্ত দুটি সূচক (মাতৃস্বাস্থ্য, ব্যাংক অ্যাকাউন্ট)",
+      "section": "measuring_poverty"
+    },
+    {
+      "point": "MPI = H × A সূত্র এবং এক-তৃতীয়াংশ বঞ্চনার শর্ত",
+      "section": "measuring_poverty"
+    },
+    {
+      "point": "দারিদ্র্যের হার: ৫৫.৩৪% (২০০৫-০৬), ১৪.৯৬% (২০১৯-২১), ১১.২৮% (২০২২-২৩, প্রাক্কলন) ও ২৪.৮২ কোটি মানুষের মুক্তি",
+      "section": "mpi_trends"
+    },
+    {
+      "point": "ছদ্ম বনাম মরসুমি বেকারত্বের পার্থক্য উদাহরণসহ",
+      "section": "unemployment"
+    },
+    {
+      "point": "মানব পুঁজি বনাম মানব উন্নয়নের পার্থক্য",
+      "section": "human_development"
+    },
+    {
+      "point": "MGNREGA (২০০৫, ১০০ দিন), NABARD (১৯৮২), কুদুম্বশ্রী (কেরল)",
+      "section": "poverty_alleviation"
+    }
+  ],
+  "bengal_connection": {
+    "body": "পশ্চিমবঙ্গের ছবিটা জাতীয় ধারারই অংশ। নীতি আয়োগের রাজ্যভিত্তিক সারণি অনুযায়ী পশ্চিমবঙ্গে বহুমাত্রিক দারিদ্র্যের হার ২০১৫-১৬ সালের ২১.২৯% থেকে কমে ২০১৯-২১ সালে ১১.৮৯% হয়েছে — অর্থাৎ রাজ্যে দারিদ্র্য প্রায় অর্ধেকে নেমেছে, যদিও হারটি জাতীয় গড়ের (১৪.৯৬%) চেয়ে কম হলেও গ্রামীণ বঞ্চনা এখনও বড় চ্যালেঞ্জ। আগের বছরের WBCS প্রশ্নে রাজ্যের মানব উন্নয়ন সূচকে শীর্ষ জেলা নিয়েও প্রশ্ন এসেছে (কলকাতা) — তাই রাজ্যের উন্নয়ন-চিত্রটা পরীক্ষার জন্য আলাদা করে মনে রাখা দরকার।",
+    "claims": [
+      "c16"
+    ]
+  },
+  "quick_revision": [
+    "ঐতিহ্যগত দারিদ্র্য-মাপ: পরিবারের আয় বা ভোগব্যয়; সীমাবদ্ধতা — বহুমুখী বঞ্চনা ধরে না।",
+    "MPI-র তিন মাত্রা: স্বাস্থ্য, শিক্ষা, জীবনযাত্রার মান।",
+    "বৈশ্বিক MPI-তে ১০টি সূচক; ভারতের জাতীয় MPI-তে ১২টি — অতিরিক্ত মাতৃস্বাস্থ্য ও ব্যাংক অ্যাকাউন্ট।",
+    "ওজনযুক্ত সূচকের অন্তত এক-তৃতীয়াংশে বঞ্চিত হলেই বহুমাত্রিকভাবে দরিদ্র।",
+    "MPI = H × A (H = দরিদ্রের হার, A = তীব্রতা)।",
+    "বহুমাত্রিক দারিদ্র্য: ৫৫.৩৪% (২০০৫-০৬) → ২৪.৮৫% (২০১৫-১৬) → ১৪.৯৬% (২০১৯-২১)।",
+    "প্রাক্কলন: ২৯.১৭% (২০১৩-১৪) → ১১.২৮% (২০২২-২৩); প্রায় ২৪.৮২ কোটি মানুষ মুক্ত।",
+    "সবচেয়ে বেশি উন্নতি: স্যানিটেশনে বঞ্চনা কমেছে ২১.৮ শতাংশ-বিন্দু (২০১৫-১৬ থেকে ২০১৯-২১)।",
+    "ছদ্ম বেকারত্ব: অতিরিক্ত শ্রমিক সরালেও উৎপাদন একই; মরসুমি বেকারত্ব: মরসুমে কাজ থাকে না।",
+    "মানব পুঁজি = শিক্ষা-স্বাস্থ্য উৎপাদনের উপায়; মানব উন্নয়ন = শিক্ষা-স্বাস্থ্য কল্যাণ নিজেই।",
+    "মানব পুঁজির উৎস: শিক্ষা, স্বাস্থ্য, কর্মকালীন প্রশিক্ষণ, অভিবাসন, তথ্য।",
+    "MGNREGA ২০০৫: গ্রামীণ পরিবারকে ১০০ দিনের নিশ্চিত মজুরি-কর্মসংস্থান।",
+    "NABARD প্রতিষ্ঠা ১৯৮২; কুদুম্বশ্রী — কেরলের নারীকেন্দ্রিক দারিদ্র্য-হ্রাস কর্মসূচি।",
+    "পশ্চিমবঙ্গে বহুমাত্রিক দারিদ্র্য: ২১.২৯% (২০১৫-১৬) → ১১.৮৯% (২০১৯-২১)।"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Indian Economic Development, Class XI, Chapter 5: Rural Development",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s2",
+      "title": "Indian Economic Development, Class XI, Chapter 4: Human Capital Formation in India",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s3",
+      "title": "Indian Economic Development, Class XI, Chapter 6: Employment — Growth, Informalisation and Other Issues",
+      "class": "XI",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+      "accessed_at": "2026-11-19"
+    },
+    {
+      "id": "s4",
+      "title": "NITI Aayog Discussion Paper: Multidimensional Poverty in India since 2005-06 (January 2024)",
+      "publisher": "GOVT",
+      "url": "https://www.niti.gov.in/sites/default/files/2024-01/MPI-22_NITI-Aayog20254.pdf",
+      "accessed_at": "2026-11-19"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c01",
+      "claim": "Traditionally, poverty has been measured by assessing the monetary resources (household income or consumption expenditure) available to an individual or household.",
+      "source": "s4",
+      "page": "p. 1",
+      "quote": "Traditionally, poverty has been measured by assessing monetary resources available for an individual or household . The monetary metric generally used were household income or consumption expenditure ."
+    },
+    {
+      "id": "c02",
+      "claim": "The monetary approach is criticised for not capturing the multiple deprivations people face; development also means expanding people's capabilities.",
+      "source": "s4",
+      "page": "p. 1",
+      "quote": "However, this approach of measuring poverty has been criticized for not capturing the multiple deprivations which may be faced by individuals in their lives . Development not only constitutes economic progress, but also the process of expanding people's capabilities to convert resources into valuable outcomes ."
+    },
+    {
+      "id": "c03",
+      "claim": "Income is necessary but not a sufficient condition to ensure the overall well-being of individuals.",
+      "source": "s4",
+      "page": "p. 1",
+      "quote": "Income, while necessary, is not a sufficient condition to ensure the overall well-being of individuals"
+    },
+    {
+      "id": "c04",
+      "claim": "The majority of the poor in India live in rural areas without access to the basic necessities of life.",
+      "source": "s1",
+      "page": "p. 75",
+      "quote": "We also know that the majority of the poor live in rural areas where they do not have access to the basic necessities of life."
+    },
+    {
+      "id": "c05",
+      "claim": "More than two-thirds of India's population depends on agriculture, and one-fourth of rural India still lives in abject poverty (NCERT, 2024-25 edition).",
+      "source": "s1",
+      "page": "p. 75",
+      "quote": "more than twothird of India's population depends on agriculture that is yet to become productive enough to provide for them; onefourth of rural India still lives in abject poverty."
+    },
+    {
+      "id": "c06",
+      "claim": "The global MPI uses ten indicators across health, education and standard of living; a person deprived in a third or more of the weighted indicators is identified as MPI poor.",
+      "source": "s4",
+      "page": "p. 2",
+      "quote": "Global MPI uses ten indicators covering three areas namely health, education and standard of living ."
+    },
+    {
+      "id": "c07",
+      "claim": "MPI is computed as MPI = H x A, where H is the incidence (percentage multidimensionally poor) and A is the intensity of poverty.",
+      "source": "s4",
+      "page": "p. 2",
+      "quote": "The MPI is computed by multiplying the incidence of multidimensional poverty (H) and the intensity of poverty (A), denoted as MPI = H x A ."
+    },
+    {
+      "id": "c08",
+      "claim": "India's national MPI covers 12 indicators, while the global MPI covers 10 indicators.",
+      "source": "s4",
+      "page": "Abstract, p. 1",
+      "quote": "The National Multidimensional Poverty Index by NITI Aayog uses the internationally acclaimed Alkire Foster methodology with a difference that National MPI covers 12 indicators while global MPI covers 10 indicators."
+    },
+    {
+      "id": "c09",
+      "claim": "The national MPI retains the ten global indicators and adds two more: Maternal Health and Bank Accounts.",
+      "source": "s4",
+      "page": "p. 3",
+      "quote": "The national MPI retains all the ten indicators from the global MPI and incorporates two additional indicators, Maternal Health and Bank Accounts, in line with India's national priorities ."
+    },
+    {
+      "id": "c10",
+      "claim": "Multidimensional poverty in India declined from 29.17% in 2013-14 to 11.28% in 2022-23, with about 24.82 crore people escaping poverty (NITI Aayog estimates, January 2024).",
+      "source": "s4",
+      "page": "Abstract, p. 1",
+      "quote": "Multidimensional poverty in India was found to decline from 29.17% in 2013-14 to 11.28% in 2022-23 with about 24.82 crore people escaping poverty during this period."
+    },
+    {
+      "id": "c11",
+      "claim": "At the state level, Uttar Pradesh topped the list with 5.94 crore people escaping multidimensional poverty, followed by Bihar (3.77 crore) and Madhya Pradesh (2.30 crore), 2013-14 to 2022-23.",
+      "source": "s4",
+      "page": "Abstract, p. 1",
+      "quote": "At the States' level, Uttar Pradesh topped the list with 5.94 crore people escaping poverty followed by Bihar at 3.77 crore and Madhya Pradesh at 2.30 crore."
+    },
+    {
+      "id": "c12",
+      "claim": "The share of multidimensionally poor persons in India fell from 55.34% in 2005-06 to 24.85% in 2015-16 and to 14.96% in 2019-21 (NFHS rounds 3 to 5).",
+      "source": "s4",
+      "page": "p. 4",
+      "quote": "The proportion of multi dimensionally poor persons in total population has fallen from 55 .34% in 2005-06 to 24 .85% in 2015-16 and to 14 .96% in 2019-21 ."
+    },
+    {
+      "id": "c13",
+      "claim": "13.5 crore people escaped multidimensional poverty between 2015-16 and 2019-21 (NITI Aayog Progress Review 2023, NFHS-4 and NFHS-5).",
+      "source": "s4",
+      "page": "p. 5",
+      "quote": "that 13 .5 crore people have escaped poverty between 2015-16 and 2019-21 ."
+    },
+    {
+      "id": "c14",
+      "claim": "Between 2015-16 and 2019-21, rural multidimensional poverty fell from 32.59% to 19.28% and urban from 8.65% to 5.27%; the rural decline was larger.",
+      "source": "s4",
+      "page": "p. 5",
+      "quote": "Poverty in rural India fell from 32 .59% to 19 .28% while in urban areas it declined from 8 .65% to 5 .27% . Thus, rural population witnessed a larger decline in poverty as compared to urban population ."
+    },
+    {
+      "id": "c15",
+      "claim": "Between 2015-16 and 2019-21, deprivations in sanitation decreased by 21.8 percentage points and in cooking fuel by 14.6 percentage points.",
+      "source": "s4",
+      "page": "p. 5",
+      "quote": "deprivations in sanitation decreased by 21 .8 percentage points, and deprivations in cooking fuel decreased by 14 .6 percentage points between 2015-16 and 2019-21 ."
+    },
+    {
+      "id": "c16",
+      "claim": "West Bengal's multidimensional poverty headcount ratio was 21.29% in 2015-16 and 11.89% in 2019-21 (NITI Aayog state table).",
+      "source": "s4",
+      "page": "Annexure table, p. 11",
+      "quote": "28  West Bengal  57.60  21 .29  11 .89  25.98  8.60  172.18"
+    },
+    {
+      "id": "c17",
+      "claim": "The NSO defines unemployment as a situation where people who, owing to lack of work, are not working but seek or express willingness/availability for work.",
+      "source": "s3",
+      "page": "p. 107",
+      "quote": "defines unemployment as a situation in which all those who, owing to lack of work, are not working but either seek work through employment exchanges, intermediaries, friends or relatives or by making applications to prospective employers or express their willingness or availability for work under the prevailing condition of work and remunerations."
+    },
+    {
+      "id": "c18",
+      "claim": "Economists define an unemployed person as one who is not able to get employment of even one hour in half a day.",
+      "source": "s3",
+      "page": "p. 107",
+      "quote": "Economists define unemployed person as one who is not able to get employment of even one hour in half a day."
+    },
+    {
+      "id": "c19",
+      "claim": "Disguised unemployment: a farmer needing only two workers and himself on four acres employs five workers and family members instead; a late-1950s study showed about one-third of India's agriculture workers were disguisedly unemployed.",
+      "source": "s3",
+      "page": "p. 107",
+      "quote": "Suppose a farmer has four acres of land and he actually needs only two workers and himself to carry out various operations on his farm in a year, but if he employs five workers and his family members such as his wife and children, this situation is known as disguised unemployment."
+    },
+    {
+      "id": "c20",
+      "claim": "Seasonal unemployment arises because work in agriculture is seasonal and there are no employment opportunities in the village for all months of the year.",
+      "source": "s3",
+      "page": "pp. 107-108",
+      "quote": "This is because work in agriculture is seasonal; there are no employment opportunities in the village for all months in the year."
+    },
+    {
+      "id": "c21",
+      "claim": "In 2022-23 India had about a 545 million strong workforce, and the worker-population ratio was 41.1 overall (rural 42.3, urban 37.7).",
+      "source": "s3",
+      "page": "pp. 94-95",
+      "quote": "During 2022-23, India had about a 545 million strong workforce."
+    },
+    {
+      "id": "c22",
+      "claim": "Workers in the informal sector do not get regular income and have no protection or regulation from the government; workers are dismissed without any compensation.",
+      "source": "s3",
+      "page": "p. 105",
+      "quote": "Workers and enterprises in the informal sector do not get regular income; they do not have any protection or regulation from the government. Workers are dismissed without any compensation."
+    },
+    {
+      "id": "c23",
+      "claim": "The Mahatma Gandhi National Rural Employment Guarantee Act 2005 promises 100 days of guaranteed wage employment to rural households volunteering for unskilled manual work.",
+      "source": "s3",
+      "page": "p. 108",
+      "quote": "the Mahatma Gandhi National Rural Employment Guarantee Act 2005. It promises 100 days of guaranteed wage employment to all rural households who volunteer to do unskilled manual work."
+    },
+    {
+      "id": "c24",
+      "claim": "Many government programmes aimed at alleviating poverty work through employment generation and are known as employment generation programmes.",
+      "source": "s3",
+      "page": "p. 109",
+      "quote": "Many programmes that the governments implement, aimed at alleviating poverty, are through employment generation. They are also known as employment generation programmes."
+    },
+    {
+      "id": "c25",
+      "claim": "Human capital treats education and health as a means to increase labour productivity, whereas human development is based on the idea that education and health are integral to human well-being.",
+      "source": "s2",
+      "page": "p. 66",
+      "quote": "Human capital considers education and health as a means to increase labour productivity. Human development is based on the idea that education and health are integral to human wellbeing"
+    },
+    {
+      "id": "c26",
+      "claim": "Investment in education is one of the main sources of human capital; investments in health, on-the-job training, migration and information are the other sources.",
+      "source": "s2",
+      "page": "p. 60",
+      "quote": "Investment in education is considered as one of the main sources of human capital. There are several other sources as well. Investments in health, onthejob training, migration and information are the other sources of human capital formation."
+    },
+    {
+      "id": "c27",
+      "claim": "The Seventh Five Year Plan said human resources development has necessarily to be assigned a key role in any development strategy, particularly in a country with a large population.",
+      "source": "s2",
+      "page": "p. 64",
+      "quote": "The Seventh Five Year Plan says, \"Human resources development (read human capital) has necessarily to be assigned a key role in any development strategy, particularly in a country with a large population."
+    },
+    {
+      "id": "c28",
+      "claim": "India's literacy rate rose from 16.67% in 1951 to 78% in 2018-21, and life expectancy at birth reached 68.6 years (male) and 71.4 years (female) in 2018-21 (NCERT Table 4.1).",
+      "source": "s2",
+      "page": "Table 4.1, p. 64",
+      "quote": "Literacy Rate (%) 16.67 43.57 52.21 65.20 78"
+    },
+    {
+      "id": "c29",
+      "claim": "In a developing country like India, with a large section of the population living below the poverty line, many people cannot afford basic education and health care facilities.",
+      "source": "s2",
+      "page": "p. 67",
+      "quote": "In a developing country like India, with a large section of the population living below the poverty line, many people cannot afford to access basic education and health care facilities."
+    },
+    {
+      "id": "c30",
+      "claim": "Rural development essentially focuses on action for the development of areas that are lagging behind in the overall development of the village economy.",
+      "source": "s1",
+      "page": "p. 76",
+      "quote": "Rural development is a comprehensive term. It essentially focuses on action for the development of areas that are lagging behind in the overall development of the village economy."
+    },
+    {
+      "id": "c31",
+      "claim": "Key areas needing fresh initiatives for rural development include development of human resources, land reforms, infrastructure development and special measures for alleviation of poverty.",
+      "source": "s1",
+      "page": "p. 75",
+      "quote": "Some of the areas which are challenging and need fresh initiatives for development in rural India include"
+    },
+    {
+      "id": "c32",
+      "claim": "NABARD was set up in 1982 as an apex body to coordinate the activities of all institutions involved in the rural financing system.",
+      "source": "s1",
+      "page": "p. 78",
+      "quote": "National Bank for Agriculture and Rural Development (NABARD) was set up in 1982 as an apex body to coordinate the activities of all institutions involved in the rural financing system."
+    },
+    {
+      "id": "c33",
+      "claim": "Kudumbashree is a women-oriented community-based poverty reduction programme being implemented in Kerala; its thrift and credit society mobilised Rs 1 crore as thrift savings.",
+      "source": "s1",
+      "page": "Box 5.1, p. 78",
+      "quote": "'Kudumbashree' is a womenoriented communitybased poverty reduction programme being implemented in Kerala. In 1995, a thrift and credit society was started as a small savings bank for poor women with the objective to encourage savings. The thrift and credit society mobilised Rs 1 crore as thrift savings."
+    },
+    {
+      "id": "c34",
+      "claim": "A major change in rural credit occurred after 1969 when India adopted social banking and the multi-agency approach.",
+      "source": "s1",
+      "page": "p. 77",
+      "quote": "A major change occurred after 1969 when India adopted social banking and multiagency approach to adequately meet the needs of rural credit."
+    },
+    {
+      "id": "c35",
+      "claim": "Self-Help Groups promote thrift through small contributions from each member, and credit from the pooled money is given to needy members, repayable in small instalments at reasonable interest rates; such provisions are called micro-credit programmes.",
+      "source": "s1",
+      "page": "p. 78",
+      "quote": "The SHGs promote thrift in small proportions by a minimum contribution from each member. From the pooled money, credit is given to the needy members to be repayable in small instalments at reasonable interest rates."
+    },
+    {
+      "id": "c36",
+      "claim": "Government employment generation is of two kinds: direct (government employs people in departments and runs industries, hotels and transport) and indirect (higher output of government enterprises raises output and employment in private enterprises).",
+      "source": "s3",
+      "page": "p. 108",
+      "quote": "Their efforts can be broadly categorised into two — direct and indirect."
+    },
+    {
+      "id": "c37",
+      "claim": "Mahatma Gandhi said the real progress of India meant mainly the development of the villages, not simply the growth of industrial urban centres.",
+      "source": "s1",
+      "page": "p. 75",
+      "quote": "Mahatma Gandhi once said that the real progress of India did not mean simply the growth and expansion of industrial urban centres but mainly the development of the villages."
+    },
+    {
+      "id": "c38",
+      "claim": "In recent decades GDP has grown rapidly without a simultaneous increase in employment opportunities, forcing the government to take initiatives for employment generation, particularly in rural areas.",
+      "source": "s3",
+      "page": "p. 109",
+      "quote": "In the last few decades, there has been rapid growth in the gross domestic product, but without simultaneous increase in employment opportunities. This has forced the government to take up initiatives in generating employment opportunities particularly in the rural areas."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "section": "poverty_concept",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ঐতিহ্যগতভাবে দারিদ্র্য মাপা হত কোন মাপকাঠি দিয়ে?",
+      "a": "পরিবারের আয় বা ভোগব্যয়",
+      "w": [
+        "শুধু সাক্ষরতার হার",
+        "শুধু আয়ুষ্কাল",
+        "শুধু ব্যাংক অ্যাকাউন্টের সংখ্যা"
+      ],
+      "e": "ঐতিহ্যগত পদ্ধতিতে দারিদ্র্যের মাপ ছিল আর্থিক — পরিবারের আয় অথবা ভোগব্যয়। শিক্ষা বা স্বাস্থ্যের বঞ্চনা এই মাপে ধরা পড়ত না বলেই পরে বহুমাত্রিক মাপ এসেছে।",
+      "claims": [
+        "c01"
+      ]
+    },
+    {
+      "id": "q02",
+      "section": "poverty_concept",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NCERT অনুযায়ী ভারতে দরিদ্রদের বেশিরভাগ কোথায় থাকেন?",
+      "a": "গ্রামাঞ্চলে",
+      "w": [
+        "মহানগরীতে",
+        "শিল্প শহরে",
+        "উপকূলীয় শহরে"
+      ],
+      "e": "NCERT বলছে, দরিদ্রদের বেশিরভাগই গ্রামে থাকেন, যেখানে জীবনের মৌলিক প্রয়োজনীয় জিনিসের সুযোগ কম। তাই দারিদ্র্য-দূরীকরণে গ্রামই প্রধান লক্ষ্য।",
+      "claims": [
+        "c04"
+      ]
+    },
+    {
+      "id": "q03",
+      "section": "poverty_concept",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "'আয় দারিদ্র্য দূর করার যথেষ্ট শর্ত নয়' — এর কারণ কী?",
+      "a": "আয় থাকলেও তা পরিবারের কল্যাণে খরচ নাও হতে পারে এবং মৌলিক পরিষেবায় বঞ্চনা থেকে যেতে পারে",
+      "w": [
+        "আয় বাড়লে দারিদ্র্য সবসময় বেড়ে যায়",
+        "আয়ের কোনো হিসাবই পাওয়া যায় না",
+        "আয় শুধু শহরের মানুষের ক্ষেত্রে প্রযোজ্য"
+      ],
+      "e": "নীতি আয়োগের মতে আয় প্রয়োজনীয়, কিন্তু যথেষ্ট শর্ত নয় — আয় কল্যাণমূলক খাতে খরচ নাও হতে পারে, আবার সরকারি ভর্তুকি ও বিনামূল্যে পরিষেবার প্রভাব আয়-মাপে ধরা পড়ে না।",
+      "claims": [
+        "c03",
+        "c02"
+      ]
+    },
+    {
+      "id": "q04",
+      "section": "poverty_concept",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n(i) ভোগব্যয় দিয়ে দারিদ্র্য মাপলে ধার করা টাকায় করা ভোগ আসল আয়কে ভুলভাবে দেখাতে পারে।\n(ii) সরকারি ভর্তুকিযুক্ত খাদ্য ও বিনামূল্যে শিক্ষা-স্বাস্থ্যের প্রভাব আয়-ভিত্তিক মাপে ধরা পড়ে।\nকোনটি সঠিক?",
+      "a": "শুধু (i) সঠিক",
+      "w": [
+        "শুধু (ii) সঠিক",
+        "(i) ও (ii) উভয়ই সঠিক",
+        "(i) ও (ii) কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি (i) সঠিক — ঋণনির্ভর ভোগ আয়ের প্রকৃত ছবি দেয় না। বিবৃতি (ii) ভুল — নীতি আয়োগ স্পষ্ট বলেছে, রাষ্ট্রীয় হস্তক্ষেপের প্রভাব আর্থিক মাপ উপেক্ষা করে, ধরে না।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q05",
+      "section": "poverty_concept",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "NCERT (২০২৪-২৫) অনুযায়ী গ্রামীণ ভারতের কত অংশ এখনও চরম দারিদ্র্যে বাস করে?",
+      "a": "এক-চতুর্থাংশ",
+      "w": [
+        "অর্ধেক",
+        "এক-তৃতীয়াংশ",
+        "এক-দশমাংশ"
+      ],
+      "e": "NCERT-র হিসাব অনুযায়ী দেশের দুই-তৃতীয়াংশের বেশি মানুষ কৃষিনির্ভর এবং গ্রামীণ ভারতের এক-চতুর্থাংশ এখনও চরম দারিদ্র্যে বাস করে।",
+      "claims": [
+        "c05"
+      ]
+    },
+    {
+      "id": "q06",
+      "section": "poverty_concept",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "উন্নয়নকে 'মানুষের সক্ষমতা বাড়ানোর প্রক্রিয়া' বলতে কী বোঝায়?",
+      "a": "মানুষ যাতে সম্পদকে মূল্যবান ফলাফলে রূপান্তরিত করতে পারে, সেই ক্ষমতা বাড়ানো",
+      "w": [
+        "শুধু রপ্তানি বাড়ানো",
+        "শুধু শিল্প উৎপাদন বাড়ানো",
+        "শুধু সরকারি রাজস্ব বাড়ানো"
+      ],
+      "e": "নীতি আয়োগের ভাষায় উন্নয়ন শুধু অর্থনৈতিক অগ্রগতি নয় — মানুষের সক্ষমতা (capabilities) প্রসারিত করাই উন্নয়ন, যাতে তারা সম্পদকে মূল্যবান ফলে রূপান্তরিত করতে পারে।",
+      "claims": [
+        "c02"
+      ]
+    },
+    {
+      "id": "q07",
+      "section": "poverty_concept",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): আয়-ভিত্তিক দারিদ্র্য-মাপ বহুমুখী বঞ্চনাকে ধরতে ব্যর্থ।\nকারণ (R): একজন মানুষের আয় থাকলেও তিনি শিক্ষা, স্বাস্থ্য ও স্যানিটেশন থেকে বঞ্চিত থাকতে পারেন।\nসঠিক বিকল্প বেছে নাও।",
+      "a": "A ও R উভয়ই সঠিক এবং R হল A-র সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সঠিক, কিন্তু R, A-র সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "আয়-মাপের সমালোচনাই হল এটি বহুমুখী বঞ্চনা ধরে না; R সেই ব্যর্থতার কারণটাই ব্যাখ্যা করে — আয় থাকা সত্ত্বেও শিক্ষা-স্বাস্থ্যে বঞ্চনা থাকতে পারে।",
+      "claims": [
+        "c02",
+        "c03"
+      ]
+    },
+    {
+      "id": "q08",
+      "section": "measuring_poverty",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বহুমাত্রিক দারিদ্র্য সূচক (MPI)-এর তিনটি মাত্রা কোনগুলি?",
+      "a": "স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মান",
+      "w": [
+        "আয়, সঞ্চয় ও বিনিয়োগ",
+        "কৃষি, শিল্প ও পরিষেবা",
+        "রপ্তানি, আমদানি ও রাজস্ব"
+      ],
+      "e": "MPI স্বাস্থ্য, শিক্ষা ও জীবনযাত্রার মান — এই তিন মাত্রায় বঞ্চনা মাপে। আয় এখানে সরাসরি মাপকাঠি নয়।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "measuring_poverty",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "ভারতের জাতীয় MPI-তে মোট কতগুলি সূচক আছে?",
+      "a": "১২টি",
+      "w": [
+        "১০টি",
+        "৮টি",
+        "১৫টি"
+      ],
+      "e": "বৈশ্বিক MPI-তে ১০টি সূচক; ভারতের জাতীয় MPI-তে আরও দুটি যোগ করে মোট ১২টি সূচক ব্যবহার করা হয়।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "measuring_poverty",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "জাতীয় MPI-তে বৈশ্বিক MPI-র তুলনায় অতিরিক্ত দুটি সূচক কোনগুলি?",
+      "a": "মাতৃস্বাস্থ্য ও ব্যাংক অ্যাকাউন্ট",
+      "w": [
+        "মাথাপিছু আয় ও মুদ্রাস্ফীতি",
+        "ভূমি মালিকানা ও যানবাহন",
+        "টেলিভিশন ও মোবাইল ফোন"
+      ],
+      "e": "জাতীয় অগ্রাধিকার অনুযায়ী জাতীয় MPI বৈশ্বিক ১০টি সূচকের সঙ্গে মাতৃস্বাস্থ্য (Maternal Health) ও ব্যাংক অ্যাকাউন্ট (Bank Accounts) যোগ করেছে।",
+      "claims": [
+        "c09"
+      ]
+    },
+    {
+      "id": "q11",
+      "section": "measuring_poverty",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "MPI-র সূত্র কোনটি?",
+      "a": "MPI = H × A",
+      "w": [
+        "MPI = H + A",
+        "MPI = H ÷ A",
+        "MPI = A − H"
+      ],
+      "e": "MPI = H × A, যেখানে H হল বহুমাত্রিকভাবে দরিদ্র মানুষের শতকরা হার (incidence) এবং A হল দারিদ্র্যের তীব্রতা (intensity)।",
+      "claims": [
+        "c07"
+      ]
+    },
+    {
+      "id": "q12",
+      "section": "measuring_poverty",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "কোন শর্ত পূরণ হলে একজন ব্যক্তিকে বহুমাত্রিকভাবে দরিদ্র বলে চিহ্নিত করা হয়?",
+      "a": "ওজনযুক্ত সূচকগুলির অন্তত এক-তৃতীয়াংশে বঞ্চিত হলে",
+      "w": [
+        "যেকোনো একটি সূচকে বঞ্চিত হলেই",
+        "অর্ধেকের বেশি সূচকে বঞ্চিত হলে",
+        "আয় দারিদ্র্যসীমার নিচে থাকলেই"
+      ],
+      "e": "অলকির–ফস্টার পদ্ধতির দ্বৈত-ছাঁট অনুযায়ী, ওজনযুক্ত সূচকের অন্তত এক-তৃতীয়াংশে বঞ্চিত হলেই ব্যক্তি 'MPI poor' বলে চিহ্নিত হন।",
+      "claims": [
+        "c06"
+      ]
+    },
+    {
+      "id": "q13",
+      "section": "measuring_poverty",
+      "level": "exam",
+      "format": "MATCH",
+      "q": "জোড়া মেলাও:\n(i) বৈশ্বিক MPI — (ক) ১২টি সূচক\n(ii) জাতীয় MPI (ভারত) — (খ) ১০টি সূচক\n(iii) MPI-র H — (গ) দারিদ্র্যের তীব্রতা\n(iv) MPI-র A — (ঘ) দরিদ্রের শতকরা হার\nসঠিক জোড়া কোনটি?",
+      "a": "(i)-(খ), (ii)-(ক), (iii)-(ঘ), (iv)-(গ)",
+      "w": [
+        "(i)-(ক), (ii)-(খ), (iii)-(ঘ), (iv)-(গ)",
+        "(i)-(খ), (ii)-(ক), (iii)-(গ), (iv)-(ঘ)",
+        "(i)-(ঘ), (ii)-(গ), (iii)-(ক), (iv)-(খ)"
+      ],
+      "e": "বৈশ্বিক MPI-তে ১০টি, জাতীয় MPI-তে ১২টি সূচক। H = incidence (দরিদ্রের হার), A = intensity (তীব্রতা)। তাই সঠিক জোড়া: (i)-(খ), (ii)-(ক), (iii)-(ঘ), (iv)-(গ)।",
+      "claims": [
+        "c06",
+        "c07",
+        "c08"
+      ]
+    },
+    {
+      "id": "q14",
+      "section": "measuring_poverty",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "MPI কোন পদ্ধতির ভিত্তিতে তৈরি?",
+      "a": "অলকির–ফস্টার (Alkire–Foster) পদ্ধতি",
+      "w": [
+        "লরেঞ্জ বক্ররেখা পদ্ধতি",
+        "গিনি সহগ পদ্ধতি",
+        "ক্যালোরি-গ্রহণ পদ্ধতি"
+      ],
+      "e": "জাতীয় MPI আন্তর্জাতিকভাবে স্বীকৃত অলকির–ফস্টার পদ্ধতি ব্যবহার করে, যেখানে দ্বৈত-ছাঁট গণনা পদ্ধতিতে দরিদ্র চিহ্নিত করা হয়।",
+      "claims": [
+        "c08"
+      ]
+    },
+    {
+      "id": "q15",
+      "section": "mpi_trends",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নীতি আয়োগের প্রাক্কলন অনুযায়ী ২০২২-২৩ সালে ভারতে বহুমাত্রিক দারিদ্র্যের হার কত ছিল?",
+      "a": "১১.২৮%",
+      "w": [
+        "২৯.১৭%",
+        "১৪.৯৬%",
+        "২৪.৮৫%"
+      ],
+      "e": "২০১৩-১৪ সালের ২৯.১৭% থেকে কমে ২০২২-২৩ সালে বহুমাত্রিক দারিদ্র্য দাঁড়ায় ১১.২৮%। ১৪.৯৬% ছিল ২০১৯-২১ সালের NFHS-ভিত্তিক হার।",
+      "claims": [
+        "c10",
+        "c12"
+      ]
+    },
+    {
+      "id": "q16",
+      "section": "mpi_trends",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "২০১৩-১৪ থেকে ২০২২-২৩ সময়ে প্রায় কত মানুষ বহুমাত্রিক দারিদ্র্য থেকে বেরিয়ে এসেছেন?",
+      "a": "প্রায় ২৪.৮২ কোটি",
+      "w": [
+        "প্রায় ১৩.৫ কোটি",
+        "প্রায় ৫.৯৪ কোটি",
+        "প্রায় ৩.৭৭ কোটি"
+      ],
+      "e": "নীতি আয়োগের প্রাক্কলনে এই নয় বছরে প্রায় ২৪.৮২ কোটি মানুষ বহুমাত্রিক দারিদ্র্য থেকে বেরিয়ে এসেছেন। ১৩.৫ কোটি হল ২০১৫-১৬ থেকে ২০১৯-২১ সময়ের হিসাব।",
+      "claims": [
+        "c10",
+        "c13"
+      ]
+    },
+    {
+      "id": "q17",
+      "section": "mpi_trends",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২০১৩-১৪ থেকে ২০২২-২৩ সময়ে সবচেয়ে বেশি মানুষ বহুমাত্রিক দারিদ্র্য থেকে বেরিয়ে এসেছে কোন রাজ্যে?",
+      "a": "উত্তরপ্রদেশ (৫.৯৪ কোটি)",
+      "w": [
+        "বিহার (৩.৭৭ কোটি)",
+        "মধ্যপ্রদেশ (২.৩০ কোটি)",
+        "পশ্চিমবঙ্গ (১.৭২ কোটি)"
+      ],
+      "e": "রাজ্যগুলির মধ্যে উত্তরপ্রদেশ শীর্ষে — ৫.৯৪ কোটি; তারপর বিহার ৩.৭৭ কোটি ও মধ্যপ্রদেশ ২.৩০ কোটি।",
+      "claims": [
+        "c11"
+      ]
+    },
+    {
+      "id": "q18",
+      "section": "mpi_trends",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n(i) ২০০৫-০৬ সালে ভারতে বহুমাত্রিক দারিদ্র্যের হার ছিল ৫৫.৩৪%।\n(ii) ২০১৯-২১ সালে তা কমে ১৪.৯৬% হয়।\n(iii) এই হিসাবগুলি জাতীয় পরিবার স্বাস্থ্য সমীক্ষা (NFHS)-র তথ্যের ভিত্তিতে তৈরি।\nকোনগুলি সঠিক?",
+      "a": "(i), (ii) ও (iii) সবগুলিই সঠিক",
+      "w": [
+        "শুধু (i) ও (ii) সঠিক",
+        "শুধু (ii) ও (iii) সঠিক",
+        "শুধু (i) সঠিক"
+      ],
+      "e": "তিনটি বিবৃতিই সঠিক: NFHS-৩ থেকে NFHS-৫ পর্যন্ত তথ্যে হার ৫৫.৩৪% থেকে ২৪.৮৫% হয়ে ১৪.৯৬%-এ নেমেছে।",
+      "claims": [
+        "c12"
+      ]
+    },
+    {
+      "id": "q19",
+      "section": "mpi_trends",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "২০১৫-১৬ থেকে ২০১৯-২১ সময়ে কোন সূচকে বঞ্চনা সবচেয়ে বেশি কমেছে?",
+      "a": "স্যানিটেশন (২১.৮ শতাংশ-বিন্দু)",
+      "w": [
+        "রান্নার জ্বালানি (১৪.৬ শতাংশ-বিন্দু)",
+        "পানীয় জল",
+        "বিদ্যুৎ"
+      ],
+      "e": "এই সময়ে স্যানিটেশনে বঞ্চনা কমেছে ২১.৮ শতাংশ-বিন্দু — সব সূচকের মধ্যে সর্বাধিক; রান্নার জ্বালানিতে কমেছে ১৪.৬ শতাংশ-বিন্দু।",
+      "claims": [
+        "c15"
+      ]
+    },
+    {
+      "id": "q20",
+      "section": "mpi_trends",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২০১৫-১৬ থেকে ২০১৯-২১ সময়ে গ্রাম ও শহরের বহুমাত্রিক দারিদ্র্যের সঠিক ছবি কোনটি?",
+      "a": "গ্রামে ৩২.৫৯% থেকে ১৯.২৮%, শহরে ৮.৬৫% থেকে ৫.২৭% — গ্রামে হ্রাস বেশি",
+      "w": [
+        "গ্রামে ৮.৬৫% থেকে ৫.২৭%, শহরে ৩২.৫৯% থেকে ১৯.২৮%",
+        "গ্রামে ও শহরে দুটোতেই হার বেড়েছে",
+        "শহরে হ্রাস বেশি, গ্রামে হার একই আছে"
+      ],
+      "e": "গ্রামে দারিদ্র্য ৩২.৫৯% থেকে ১৯.২৮% এবং শহরে ৮.৬৫% থেকে ৫.২৭% হয়েছে; গ্রামীণ জনগোষ্ঠী শহরের তুলনায় বড় হ্রাস দেখেছে।",
+      "claims": [
+        "c14"
+      ]
+    },
+    {
+      "id": "q21",
+      "section": "mpi_trends",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n(i) ২৯.১৭% (২০১৩-১৪) ও ১১.২৮% (২০২২-২৩) হার দুটি সরাসরি NFHS সমীক্ষা থেকে পাওয়া।\n(ii) এই দুটি হার পূর্ববর্তী হ্রাসের যৌগিক হার ধরে প্রাক্কলন করা হয়েছে, কারণ ওই বছরগুলির সরাসরি তথ্য ছিল না।\nকোনটি সঠিক?",
+      "a": "শুধু (ii) সঠিক",
+      "w": [
+        "শুধু (i) সঠিক",
+        "(i) ও (ii) উভয়ই সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "বিবৃতি (ii) সঠিক: নীতি আয়োগ নিজেই জানিয়েছে, ২০১৩-১৪ ও ২০২২-২৩ সালের তথ্য না থাকায় যৌগিক হ্রাস-হার ধরে প্রাক্কলন করা হয়েছে। তাই (i) ভুল।",
+      "claims": [
+        "c10"
+      ]
+    },
+    {
+      "id": "q22",
+      "section": "unemployment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "কৃষিতে প্রয়োজনের চেয়ে বেশি লোক একই কাজে লেগে থাকলে, যেখানে অতিরিক্ত লোক সরিয়ে নিলেও উৎপাদন কমে না — তাকে কী বলে?",
+      "a": "ছদ্ম বেকারত্ব (Disguised Unemployment)",
+      "w": [
+        "মরসুমি বেকারত্ব",
+        "প্রকাশ্য বেকারত্ব",
+        "কাঠামোগত বেকারত্ব"
+      ],
+      "e": "এটি ছদ্ম বেকারত্ব: চার একর জমিতে দুজন শ্রমিকই যথেষ্ট হলেও পাঁচজন ও পরিবারের সবাই কাজ করছে — অতিরিক্ত শ্রম উৎপাদনে কিছু যোগ করে না।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q23",
+      "section": "unemployment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "বছরের নির্দিষ্ট সময়ে কৃষিতে কাজ না থাকায় যে বেকারত্ব দেখা দেয়, তাকে কী বলে?",
+      "a": "মরসুমি বেকারত্ব (Seasonal Unemployment)",
+      "w": [
+        "ছদ্ম বেকারত্ব",
+        "ঘর্ষণজনিত বেকারত্ব",
+        "প্রকাশ্য বেকারত্ব"
+      ],
+      "e": "কৃষিকাজ মরসুমি — বছরের সব মাসে গ্রামে কাজ থাকে না; এই কারণে সৃষ্ট বেকারত্বই মরসুমি বেকারত্ব, যা ভারতে খুবই সাধারণ।",
+      "claims": [
+        "c20"
+      ]
+    },
+    {
+      "id": "q24",
+      "section": "unemployment",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "অর্থনীতিবিদদের সংজ্ঞায় কে বেকার?",
+      "a": "যিনি আধা দিনে এক ঘণ্টার কাজও পান না",
+      "w": [
+        "যিনি সপ্তাহে একদিন ছুটি নেন",
+        "যিনি খণ্ডকালীন কাজ করেন",
+        "যিনি নিজের ব্যবসায় কাজ করেন"
+      ],
+      "e": "অর্থনীতিবিদদের কঠোর সংজ্ঞা: যে ব্যক্তি আধা দিনে এক ঘণ্টার কাজও জোগাড় করতে পারেন না, তিনি বেকার।",
+      "claims": [
+        "c18"
+      ]
+    },
+    {
+      "id": "q25",
+      "section": "unemployment",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "২০২২-২৩ সালে ভারতের শ্রমিক-জনসংখ্যা অনুপাত (Worker-Population Ratio) কত ছিল?",
+      "a": "৪১.১",
+      "w": [
+        "৫৪.৪",
+        "২৭.০",
+        "৩৭.৭"
+      ],
+      "e": "২০২২-২৩ সালে সামগ্রিক WPR ছিল ৪১.১ (গ্রামে ৪২.৩, শহরে ৩৭.৭)। ৩৭.৭ হল শুধু শহরের অনুপাত।",
+      "claims": [
+        "c21"
+      ]
+    },
+    {
+      "id": "q26",
+      "section": "unemployment",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "অনানুষ্ঠানিক ক্ষেত্রের শ্রমিকদের প্রধান সমস্যা কোনটি?",
+      "a": "নিয়মিত আয় নেই এবং সরকারি সুরক্ষা ছাড়াই ক্ষতিপূরণহীন ছাঁটাই হতে পারে",
+      "w": [
+        "মজুরি অত্যধিক বেশি",
+        "কাজের সময় অত্যধিক কম",
+        "সামাজিক সুরক্ষা অত্যধিক বেশি"
+      ],
+      "e": "NCERT বলছে, অনানুষ্ঠানিক ক্ষেত্রের শ্রমিক ও প্রতিষ্ঠান নিয়মিত আয় পায় না, সরকারি সুরক্ষা বা নিয়ন্ত্রণ নেই — শ্রমিকদের কোনো ক্ষতিপূরণ ছাড়াই ছাঁটাই করা যায়।",
+      "claims": [
+        "c22"
+      ]
+    },
+    {
+      "id": "q27",
+      "section": "unemployment",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "NSO-র সংজ্ঞা অনুযায়ী বেকারত্বের শর্ত কোনটি?",
+      "a": "কাজের অভাবে কাজ না করা, কিন্তু কাজ খোঁজা বা কাজের জন্য উপলব্ধ থাকা",
+      "w": [
+        "কাজ থাকা সত্ত্বেও কম মজুরি পাওয়া",
+        "নিজের ইচ্ছায় কাজ ছেড়ে দেওয়া",
+        "অবসর নেওয়া"
+      ],
+      "e": "NSO-র সংজ্ঞায় বেকার তিনি, যিনি কাজের অভাবে কাজ করছেন না অথচ কর্মসংস্থান কেন্দ্র/মধ্যস্থতাকারীর মাধ্যমে কাজ খুঁজছেন বা কাজের জন্য ইচ্ছা ও উপলব্ধতা জানাচ্ছেন।",
+      "claims": [
+        "c17"
+      ]
+    },
+    {
+      "id": "q28",
+      "section": "unemployment",
+      "level": "exam",
+      "format": "ASSERTION_REASON",
+      "q": "বিবৃতি (A): ভারতের কৃষিতে ছদ্ম বেকারত্ব ব্যাপক।\nকারণ (R): অনেক খেতে প্রয়োজনের চেয়ে বেশি পারিবারিক শ্রম নিয়োজিত থাকে, যাদের সরিয়ে নিলেও উৎপাদন কমে না।\nসঠিক বিকল্প বেছে নাও।",
+      "a": "A ও R উভয়ই সঠিক এবং R হল A-র সঠিক ব্যাখ্যা",
+      "w": [
+        "A ও R উভয়ই সঠিক, কিন্তু R, A-র সঠিক ব্যাখ্যা নয়",
+        "A সঠিক, R ভুল",
+        "A ভুল, R সঠিক"
+      ],
+      "e": "NCERT-র উদাহরণ অনুযায়ী চার একর জমিতে দুজনই যথেষ্ট হলেও পাঁচজন ও পরিবারের সদস্যরা কাজ করেন — এই অতিরিক্ত শ্রমই ছদ্ম বেকারত্ব, এবং R সেটাই ব্যাখ্যা করে।",
+      "claims": [
+        "c19"
+      ]
+    },
+    {
+      "id": "q29",
+      "section": "human_development",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "মানব পুঁজি গঠনের প্রধান উৎস কোনটি?",
+      "a": "শিক্ষায় বিনিয়োগ",
+      "w": [
+        "ভূমিতে বিনিয়োগ",
+        "যন্ত্রপাতিতে বিনিয়োগ",
+        "সোনায় বিনিয়োগ"
+      ],
+      "e": "শিক্ষায় বিনিয়োগ মানব পুঁজির অন্যতম প্রধান উৎস; পাশাপাশি স্বাস্থ্য, কর্মকালীন প্রশিক্ষণ, অভিবাসন ও তথ্যও উৎস।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q30",
+      "section": "human_development",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "নিচের কোনটি মানব পুঁজি গঠনের উৎস নয়?",
+      "a": "ভৌত কারখানা নির্মাণ",
+      "w": [
+        "স্বাস্থ্যে বিনিয়োগ",
+        "কর্মকালীন প্রশিক্ষণ",
+        "অভিবাসনে ব্যয়"
+      ],
+      "e": "মানব পুঁজির উৎস হল শিক্ষা, স্বাস্থ্য, কর্মকালীন প্রশিক্ষণ, অভিবাসন ও তথ্য। কারখানা নির্মাণ ভৌত পুঁজি গঠন, মানব পুঁজি নয়।",
+      "claims": [
+        "c26"
+      ]
+    },
+    {
+      "id": "q31",
+      "section": "human_development",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "মানব পুঁজি ও মানব উন্নয়নের মধ্যে মূল পার্থক্য কোনটি?",
+      "a": "মানব পুঁজি শিক্ষা-স্বাস্থ্যকে উৎপাদন বাড়ানোর উপায় মনে করে; মানব উন্নয়ন সেগুলিকে কল্যাণের অবিচ্ছেদ্য অংশ মনে করে",
+      "w": [
+        "দুটো ধারণাই সম্পূর্ণ এক",
+        "মানব উন্নয়ন শুধু শিল্পের ক্ষেত্রে প্রযোজ্য",
+        "মানব পুঁজিতে স্বাস্থ্যের কোনো ভূমিকা নেই"
+      ],
+      "e": "মানব পুঁজির দৃষ্টিতে মানুষ উৎপাদন বাড়ানোর উপায়; মানব উন্নয়নের দৃষ্টিতে শিক্ষা-স্বাস্থ্য মানুষের কল্যাণেরই অংশ — প্রত্যেকের মৌলিক শিক্ষা ও স্বাস্থ্যের অধিকার আছে।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q32",
+      "section": "human_development",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কোন পঞ্চবার্ষিক পরিকল্পনা বলেছিল, মানব সম্পদ উন্নয়নকে যেকোনো উন্নয়ন কৌশলে মূল ভূমিকা দিতে হবে?",
+      "a": "সপ্তম পঞ্চবার্ষিক পরিকল্পনা",
+      "w": [
+        "প্রথম পঞ্চবার্ষিক পরিকল্পনা",
+        "তৃতীয় পঞ্চবার্ষিক পরিকল্পনা",
+        "দ্বাদশ পঞ্চবার্ষিক পরিকল্পনা"
+      ],
+      "e": "সপ্তম পঞ্চবার্ষিক পরিকল্পনা বলেছিল, বিশেষ করে জনবহুল দেশে মানব সম্পদ উন্নয়নকে (মানব পুঁজি) যেকোনো উন্নয়ন কৌশলে মূল ভূমিকা দিতেই হবে।",
+      "claims": [
+        "c27"
+      ]
+    },
+    {
+      "id": "q33",
+      "section": "human_development",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "NCERT সারণি ৪.১ অনুযায়ী ভারতের সাক্ষরতার হার ১৯৫১ সালের ১৬.৬৭% থেকে ২০১৮-২১ সালে কত হয়েছে?",
+      "a": "৭৮%",
+      "w": [
+        "৫২.২১%",
+        "৬৫.২০%",
+        "৪৩.৫৭%"
+      ],
+      "e": "সারণি অনুযায়ী সাক্ষরতার হার: ১৯৫১ সালে ১৬.৬৭%, ১৯৯১ সালে ৫২.২১%, ২০০১ সালে ৬৫.২০% এবং ২০১৮-২১ সালে ৭৮%।",
+      "claims": [
+        "c28"
+      ]
+    },
+    {
+      "id": "q34",
+      "section": "human_development",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "সরকারি হস্তক্ষেপ শিক্ষা-স্বাস্থ্যে কেন জরুরি বলে NCERT মনে করে?",
+      "a": "দারিদ্র্যসীমার নিচে থাকা বিশাল অংশের মানুষ মৌলিক শিক্ষা ও স্বাস্থ্যসেবা কিনতে পারে না",
+      "w": [
+        "শিক্ষা-স্বাস্থ্য শুধু ধনীদের জন্য",
+        "বেসরকারি প্রতিষ্ঠান একেবারেই নেই",
+        "শিক্ষার কোনো সামাজিক সুবিধা নেই"
+      ],
+      "e": "ভারতের মতো উন্নয়নশীল দেশে দারিদ্র্যসীমার নিচে থাকা অনেক মানুষ মৌলিক শিক্ষা ও স্বাস্থ্যসেবা পাওয়ার সামর্থ্য রাখে না — তাই সরকারি হস্তক্ষেপ অপরিহার্য।",
+      "claims": [
+        "c29"
+      ]
+    },
+    {
+      "id": "q35",
+      "section": "human_development",
+      "level": "exam",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n(i) মানব উন্নয়নের দৃষ্টিতে মৌলিক শিক্ষা ও স্বাস্থ্য প্রত্যেক নাগরিকের অধিকার।\n(ii) মানব পুঁজির দৃষ্টিতে শিক্ষায় বিনিয়োগ উৎপাদন না বাড়ালে তা অনর্থক।\nকোনগুলি সঠিক?",
+      "a": "(i) ও (ii) উভয়ই সঠিক",
+      "w": [
+        "শুধু (i) সঠিক",
+        "শুধু (ii) সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "দুটিই সঠিক: মানব উন্নয়ন শিক্ষা-স্বাস্থ্যকে অধিকার মনে করে; মানব পুঁজি সেগুলিকে উৎপাদনশীলতা বাড়ানোর উপায় হিসেবে দেখে, উৎপাদন না বাড়লে বিনিয়োগকে অনর্থক ধরে।",
+      "claims": [
+        "c25"
+      ]
+    },
+    {
+      "id": "q36",
+      "section": "poverty_alleviation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "MGNREGA আইন কোন সালে পাস হয়?",
+      "a": "২০০৫ সালে",
+      "w": [
+        "১৯৮২ সালে",
+        "১৯৬৯ সালে",
+        "২০১৫ সালে"
+      ],
+      "e": "মহাত্মা গান্ধী জাতীয় গ্রামীণ কর্মসংস্থান নিশ্চয়তা আইন (Mahatma Gandhi National Rural Employment Guarantee Act) পাস হয় ২০০৫ সালে।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q37",
+      "section": "poverty_alleviation",
+      "level": "basic",
+      "format": "DIRECT",
+      "q": "MGNREGA অনুযায়ী গ্রামীণ পরিবারকে বছরে কত দিনের মজুরি-কর্মসংস্থানের নিশ্চয়তা দেওয়া হয়?",
+      "a": "১০০ দিন",
+      "w": [
+        "৫০ দিন",
+        "১৫০ দিন",
+        "২০০ দিন"
+      ],
+      "e": "আইনটি অদক্ষ হাতে-কলমে কাজ করতে ইচ্ছুক গ্রামীণ পরিবারগুলিকে বছরে ১০০ দিনের নিশ্চিত মজুরি-কর্মসংস্থানের প্রতিশ্রুতি দেয়।",
+      "claims": [
+        "c23"
+      ]
+    },
+    {
+      "id": "q38",
+      "section": "poverty_alleviation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "NABARD কবে গঠিত হয়?",
+      "a": "১৯৮২ সালে",
+      "w": [
+        "১৯৬৯ সালে",
+        "২০০৫ সালে",
+        "১৯৯৫ সালে"
+      ],
+      "e": "গ্রামীণ অর্থায়নের সব প্রতিষ্ঠানের কাজ সমন্বয় করতে শীর্ষ সংস্থা হিসেবে NABARD গঠিত হয় ১৯৮২ সালে।",
+      "claims": [
+        "c32"
+      ]
+    },
+    {
+      "id": "q39",
+      "section": "poverty_alleviation",
+      "level": "moderate",
+      "format": "DIRECT",
+      "q": "কুদুম্বশ্রী কোন রাজ্যের নারীকেন্দ্রিক দারিদ্র্য-হ্রাস কর্মসূচি?",
+      "a": "কেরল",
+      "w": [
+        "পশ্চিমবঙ্গ",
+        "বিহার",
+        "ওড়িশা"
+      ],
+      "e": "কুদুম্বশ্রী কেরলে বাস্তবায়িত নারীকেন্দ্রিক, সম্প্রদায়ভিত্তিক দারিদ্র্য-হ্রাস কর্মসূচি; এর সঞ্চয় ও ঋণ সমিতি ১ কোটি টাকা সঞ্চয় সংগ্রহ করেছিল।",
+      "claims": [
+        "c33"
+      ]
+    },
+    {
+      "id": "q40",
+      "section": "poverty_alleviation",
+      "level": "difficult",
+      "format": "DIRECT",
+      "q": "স্বনির্ভর গোষ্ঠী (SHG)-ভিত্তিক ঋণব্যবস্থাকে কী বলা হয়?",
+      "a": "ক্ষুদ্রঋণ কর্মসূচি (Micro-credit Programme)",
+      "w": [
+        "সামাজিক ব্যাংকিং",
+        "সবুজ বিপ্লব",
+        "উদারীকরণ"
+      ],
+      "e": "সদস্যদের ছোটো সঞ্চয় জমা করে তহবিল থেকে যুক্তিসংগত সুদে ছোটো কিস্তিতে ঋণ দেওয়ার এই ব্যবস্থাকেই ক্ষুদ্রঋণ কর্মসূচি বলা হয়।",
+      "claims": [
+        "c35"
+      ]
+    },
+    {
+      "id": "q41",
+      "section": "poverty_alleviation",
+      "level": "moderate",
+      "format": "STATEMENT",
+      "q": "বিবৃতি বিবেচনা করো:\n(i) সরকার প্রত্যক্ষভাবে দপ্তরে নিয়োগ ও শিল্প-পরিবহণ সংস্থা চালিয়ে কর্মসংস্থান তৈরি করে।\n(ii) সরকারি সংস্থার উৎপাদন বাড়লে বেসরকারি সংস্থাগুলিতেও কর্মসংস্থান বাড়তে পারে — এটি পরোক্ষ কর্মসংস্থান সৃজন।\nকোনগুলি সঠিক?",
+      "a": "(i) ও (ii) উভয়ই সঠিক",
+      "w": [
+        "শুধু (i) সঠিক",
+        "শুধু (ii) সঠিক",
+        "কোনোটিই সঠিক নয়"
+      ],
+      "e": "সরকারি কর্মসংস্থান সৃজন দুই ভাগে বিভক্ত — প্রত্যক্ষ ও পরোক্ষ; দুটি বিবৃতিই NCERT-র বর্ণনার সঙ্গে মেলে।",
+      "claims": [
+        "c36"
+      ]
+    },
+    {
+      "id": "q42",
+      "section": "poverty_alleviation",
+      "level": "exam",
+      "format": "DIRECT",
+      "q": "গান্ধীজির মতে ভারতের প্রকৃত অগ্রগতি মানে কী?",
+      "a": "মূলত গ্রামগুলির উন্নয়ন",
+      "w": [
+        "শুধু শিল্প-নগরকেন্দ্রের বৃদ্ধি",
+        "শুধু রপ্তানি বৃদ্ধি",
+        "শুধু প্রতিরক্ষা ব্যয় বৃদ্ধি"
+      ],
+      "e": "গান্ধীজি বলেছিলেন, ভারতের প্রকৃত অগ্রগতি মানে শুধু শিল্প-নগরকেন্দ্রের বৃদ্ধি ও প্রসার নয়, মূলত গ্রামের উন্নয়ন।",
+      "claims": [
+        "c37"
+      ]
+    }
+  ]
+}
