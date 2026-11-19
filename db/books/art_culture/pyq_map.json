@@ -1,1 +1,416 @@
-{}
+{
+  "ART-01": [
+    {
+      "note": "GK bank item (subtopic dance): eight classical dances recognised by the Sangeet Natak Akademi with states. The eight-form list with states is taught from IGNOU ODN-001 Unit 1 (claim c01), and the Akademi itself is taught in the akademi section (set up 1953, Ministry of Culture, claims c59-c60). Note: IGNOU spells the Assam form 'Sattiriya' and places Kathak in 'central and western India'; the chapter teaches the list in that sourced form.",
+      "pyq_code": "GK-ART-001",
+      "section": "at_ruup",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic dance): Akademi's dance units and centres — JNMDA Imphal and Kathak Kendra Delhi (claims c63-c65); Kutiyattam Kendra Thiruvananthapuram (c67), Sattriya Kendra Guwahati (c68), North-East Documentation Centre Agartala (c70) and Chhau Kendra Chandankiyari (c69) are all taught from the Akademi's own About Us page.",
+      "pyq_code": "GK-ART-002",
+      "section": "akademi",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic dance): Kutiyattam as UNESCO Masterpiece (2001) and Representative List entry (2008). NOT taught: the chapter teaches Kutiyattam only as Kerala's Sanskrit theatre and the Akademi's Kutiyattam Kendra (claims c27, c67). No fetched page from an allowed publisher (NCERT/GOVT/IGNOU/EPG) states the UNESCO 2001/2008 years, and unesco.org is outside this book's publisher profile, so the years are not asserted.",
+      "pyq_code": "GK-ART-003",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "GK bank item (subtopic dance): classical dances and states as listed by NCERT Class VII — Bharatanatyam (Tamil Nadu), Kathakali (Kerala), Odissi (Odisha), Kuchipudi (Andhra Pradesh), Manipuri (Manipur) and Kathak of north India. All six pairings are taught via the IGNOU eight-form list (claim c01); the chapter itself rests on IGNOU/GOVT sources because the NCERT PDFs could not be fetched on this machine.",
+      "pyq_code": "GK-ART-101",
+      "section": "at_ruup",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic dance): Kathak's Jaipur and Lucknow traditions under Wajid Ali Shah; Kathak Kendra New Delhi established 1964; UP state Kathak Kendra, Lucknow, 1975. PARTLY taught but marked untaught: the Jaipur/Lucknow two-stream structure and Wajid Ali Shah's patronage ARE taught (claim c40), and Kathak Kendra Delhi is taught as a leading Kathak teaching institution (c65) — but neither the 1964 founding year nor the UP state Kendra (1975) appears in any fetched allowed-publisher page, and the item turns on those institutional details.",
+      "pyq_code": "GK-ART-102",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "GK bank item (subtopic dance): Chhau Kendra inaugurated at Chandankiyari, Jharkhand, on 8 October 2018 (with Kutiyattam Kendra 27 May 2007 and Sattriya Kendra July 2008). NOT taught: the chapter teaches that the Chhau Kendra at Chandankiyari promotes the Chhau dances of eastern India (claim c69), but the SNA About Us page fetched gives no inauguration dates for any centre, so the dates this item tests are not asserted.",
+      "pyq_code": "GK-ART-103",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "GK bank item (subtopic dance): folk and ritual forms by state from the SNA national ICH inventory (Lama Dances — Sikkim, Rathwa Ni Gher — Gujarat, Nacha — Chhattisgarh, Dashavatar, etc.). NOT taught: the SNA inventory pages were not fetched for this chapter; the chapter's folk-dance coverage is limited to Bengal's Baul, Jari and Raibense in the Rabindranritya section (claims c95-c96).",
+      "pyq_code": "GK-ART-104",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (db/pyq/wbp-constable-2021.json, Q58): which classical dance form is named after the village where it originated — Kuchipudi. Taught verbatim from IGNOU ODN-001 Unit 8 (claim c50): Kuchipudi originated in a village by the same name in the Krishna district of Andhra Pradesh; drilled in practice question q21.",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q58",
+      "section": "kathakali_kuchipudi",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (db/pyq/wbpsc-clerkship-2006.json, Q18): which akademi is responsible for the development of dance, drama and music in India — Sangeet Natak Akademi. Taught (claims c59-c60) and drilled in practice question q35.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2006-Q18",
+      "section": "akademi",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (db/pyq/wbpsc-clerkship-2023-session-1.json, Q61): Mohiniyattam is associated with Kerala. Taught (claims c01, c20) and drilled in practice question q07.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-I-Q61",
+      "section": "bharat_mohini",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (db/pyq/wbpsc-clerkship-2019-afternoon.json, Q32): identify the wrong statement about Mamallapuram — the wrong statement is that Kathakali developed there. The dance fact the item turns on (Kathakali is Kerala's form, claims c25-c26) is taught; the Mamallapuram/UNESCO parts of the item belong to ART-04 (architecture), not this chapter.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2019-AFTERNOON-Q32",
+      "section": "kathakali_kuchipudi",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (db/pyq/wbcs-prelims-2017.json, Q160, reasoning analogy): 'Manipuri is to Dance as Urdu is to Language'. This is a reasoning item, not a GK item; its dance premise — Manipuri is a classical dance (claims c01, c31) — is taught in this chapter.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2017-PRELIMS-Q160",
+      "section": "at_ruup",
+      "taught": true
+    }
+  ],
+  "ART-02": [
+    {
+      "note": "Bank item (subtopic music): Vedic chanting inscribed 2008 and Sankirtana of Manipur inscribed 2013 — both taught in living_heritage from the PIB backgrounder (claims c48, c50). Its comparison items are also taught: Buddhist chanting of Ladakh 2012 (c53) and Kalbelia 2010 (c54).",
+      "pyq_code": "GK-ART-004",
+      "section": "living_heritage",
+      "taught": true
+    },
+    {
+      "note": "Bank item (subtopic music): Sangeet Natak Akademi set up in 1953, registered as a society on 11 September 1961, autonomous body of the Ministry of Culture, Ustad Bismillah Khan Yuva Puraskar instituted 2006 — all taught in living_heritage from the Akademi's own About Us page (claims c41-c44).",
+      "pyq_code": "GK-ART-105",
+      "section": "living_heritage",
+      "taught": true
+    },
+    {
+      "note": "Bank item (subtopic music): ragas (musical moods) and taals (time cycles) take inspiration from the seasons and times of the day (claim c38, Sangeet Natak Akademi Music page), and the music is passed down orally from guru to student (claim c40) — taught in two_streams; raga/tala definitions are taught in swara_that_raga and laya_tala.",
+      "pyq_code": "GK-ART-106",
+      "section": "two_streams",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (WBCS Prelims 2022): Pandit Shiv Kumar Sharma is associated with the santoor — taught in two_streams from the Sangeet Natak Akademi fellowship document (claims c59, c60).",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q112",
+      "section": "two_streams",
+      "taught": true
+    },
+    {
+      "note": "Real exam item (WBPSC Miscellaneous Prelims 2023): Tansen was a famous musician in Akbar's court. NOT taught: Tansen does not appear in any source fetched for this chapter (IGNOU OMU-001, Sangeet Natak Akademi, PIB); the Mughal-court music detail could not be verified from an allowed publisher in this run, so it was not asserted.",
+      "pyq_code": "WBPSC-MISCELLANEOUS-PRELIMS-2023-Q73",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (WBCS Prelims 2016): Varanasi (City of Music) and Jaipur were the first Indian cities in UNESCO's Creative Cities Network (2015). NOT taught: the UCCN programme is not covered by any source fetched for this chapter (the PIB backgrounder covers only the Intangible Heritage list), so the fact is not asserted here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q39",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (WBPSC Clerkship 2007): the sitar is credited to Amir Khusrau. NOT taught: Amir Khusrau does not appear in any source fetched for this chapter; the attribution could not be verified from an allowed publisher in this run.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q15",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (WBPSC Clerkship 2007): Mallikarjun Mansur (d. 1992) was a vocalist (Jaipur-Atrauli khayal). NOT taught: Mansur and the gharana system do not appear in any source fetched for this chapter; no allowed-publisher source for Hindustani vocalists/gharanas was fetched in this run.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2007-Q24",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Real exam item (WBPSC Clerkship 2005): playback singer Kavita Krishnamurthy's original name (Sarada) / who renamed her. NOT taught: film playback music is outside this chapter's classical-and-heritage scope and no fetched source covers it.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2005-Q52",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ART-03": [
+    {
+      "note": "Madhubani painting: Mithila region of Bihar, bold lines, intricate patterns, natural colours (NCERT lefa108 + PIB e-Auction 2025 release; claims c48, c73).",
+      "pyq_code": "GK-ART-005",
+      "section": "folk_living",
+      "taught": true
+    },
+    {
+      "note": "Bhimbetka rock shelters: Vindhya hills, Madhya Pradesh, about 45 km south of Bhopal, about 800 shelters / 500 painted, discovered 1957-58 by V.S. Wakankar (NCERT kefa101; claims c03, c04).",
+      "pyq_code": "GK-ART-107",
+      "section": "rock_mural",
+      "taught": true
+    },
+    {
+      "note": "Bengal School of Art: began in Calcutta, associated with the Swadeshi movement, spearheaded by Abanindranath Tagore with E.B. Havell's support (NCERT lefa106; claim c62).",
+      "pyq_code": "GK-ART-108",
+      "section": "modern_bengal",
+      "taught": true
+    },
+    {
+      "note": "Kala Bhavana, Shantiniketan: India's first national art school, part of Visva-Bharati; Nandalal Bose invited to head the painting department (NCERT lefa106; claim c64).",
+      "pyq_code": "GK-ART-109",
+      "section": "modern_bengal",
+      "taught": true
+    },
+    {
+      "note": "Basohli (bold style, beetle-wing green) and Kangra (via the Guler / pre-Kangra phase) miniatures (NCERT lefa105; claims c42, c43). The bank item's Nadir Shah 1739 migration framing is not in the fetched NCERT text; the schools, sequence and features are taught.",
+      "pyq_code": "GK-ART-110",
+      "section": "rajasthani_pahari",
+      "taught": true
+    },
+    {
+      "note": "Chola bronzes and the Nataraja icon are sculpture, not painting. This chapter teaches Chola-period painting only (Brihadeswara murals, claim c12); bronze casting is covered only for Dhokra (folk craft). Bronze/Nataraja iconography belongs to a sculpture/architecture chapter (ART-04 scope).",
+      "pyq_code": "GK-ART-111",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "SNA ICH inventory crafts (Patola of Patan, Hingan plaques of Molela, Thatheras of Jandiala Guru, Kolam of Tamil Nadu): none of these four crafts appears in the sources fetched for this chapter (NCERT Living Art Traditions covers Dhokra and terracotta only). Source gap; not taught rather than asserted.",
+      "pyq_code": "GK-ART-118",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Mughal painter not mentioned by Abul Fazl (key: Mansur). The chapter teaches Abu'l Fazl on painting and Humayun's painters Mir Sayyid Ali and Abdus Samad from lehs205, but the Ain-i-Akbari painter list (Miskin, Mukund, Farrukh) and Mansur's Jahangir-era fame are not in any fetched source. NCERT lefa103/lefa104 could not be fetched on this machine. Source gap.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2015-Q26",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Who painted Bharat Mata (key: Abanindranath Tagore). Abanindranath and the Bengal School are taught, but the fetched NCERT lefa106 text does not mention the Bharat Mata painting specifically, so the specific work is not taught/asserted here.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-Q37",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Artist who did NOT belong to the Bengal School (key: Raja Ravi Varma). Taught explicitly: Ravi Varma belonged to the earlier Western academic tradition; Nandalal Bose and Abanindranath were Bengal School (claims c61, c62; exam_note in section).",
+      "pyq_code": "WBPSC-MISC-PRELIMS-2023-Q56",
+      "section": "modern_bengal",
+      "taught": true
+    },
+    {
+      "note": "Kalamkari painting originated in Andhra Pradesh (PIB Project PARI form-state list, claim c77; definition claim c74).",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q22",
+      "section": "folk_living",
+      "taught": true
+    },
+    {
+      "note": "Portrait painting as the most significant contribution of Mughal painting. Taught via Mughal portraiture, including Abu'l Hasan's painting of Jahangir holding Akbar's portrait (claim c33) and the halo/portrait discussion (c31).",
+      "pyq_code": "WBPSC-CLERKSHIP-2006-Q34",
+      "section": "mughal_court",
+      "taught": true
+    },
+    {
+      "note": "Jamini Roy was a famous painter (claims c66, c67: folk-inspired style, Bankura terracotta influence).",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION1-Q53",
+      "section": "modern_bengal",
+      "taught": true
+    },
+    {
+      "note": "Term for an artwork painted directly onto a wall: mural. Taught as the mural (প্রাচীরচিত্র) tradition from Ajanta onwards; the English term 'Mural' is given in the chapter's terms list.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION2-Q39",
+      "section": "rock_mural",
+      "taught": true
+    },
+    {
+      "note": "Mona Lisa's museum (Louvre, Paris): Western art history, outside this chapter's Indian painting scope and outside all allowed sources fetched. Not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION3-Q65",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Who painted 'The Starry Night' (Van Gogh): Western art history, outside this chapter's scope and sources. Not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION3-Q66",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Kalamkari refers to a hand-painted cotton textile tradition of South India (claim c74: hand painting on cotton or silk with a tamarind pen, natural dyes).",
+      "pyq_code": "WBPSC-CLERKSHIP-2023-SESSION4-Q89",
+      "section": "folk_living",
+      "taught": true
+    }
+  ],
+  "ART-04": [
+    {
+      "note": "Konarak Sun Temple as a solar chariot: twelve pairs of wheels, seven horses, jagamohana and nata-mandira taught from ASI + NCERT kefa106 (claims c37, c38, c21).",
+      "pyq_code": "GK-ART-006",
+      "section": "odisha_bengal",
+      "taught": true
+    },
+    {
+      "note": "Qutb Minar: Aibak laid the foundation in AD 1199 and raised the first storey; Iltutmish added three storeys; height 72.5 m (claims c39, c40).",
+      "pyq_code": "GK-ART-007",
+      "section": "sultanate_mughal",
+      "taught": true
+    },
+    {
+      "note": "Khajuraho under the Chandellas: Lakshmana temple 954 (Dhanga), Kandariya Mahadeva largest (Ganda), 85 in tradition / 25 standing (claims c16, c45, c46, c47).",
+      "pyq_code": "GK-ART-008",
+      "section": "nagara_style",
+      "taught": true
+    },
+    {
+      "note": "Hampi/Vijayanagara: southern bank of the Tungabhadra, monuments AD 1336-1570, Krishnadeva Raya, Vitthala temple (claims c48, c49, c50).",
+      "pyq_code": "GK-ART-009",
+      "section": "dravida_vesara",
+      "taught": true
+    },
+    {
+      "note": "Nagara (north, curving shikhara) vs Dravida (south, pyramidal vimana) taught as the chapter's core distinction (claims c10, c11).",
+      "pyq_code": "GK-ART-112",
+      "section": "basic_form",
+      "taught": true
+    },
+    {
+      "note": "Vesara as the hybrid style popular after the mid-seventh century; Hoysala stellate plan and soapstone carving (claims c30, c31, c32).",
+      "pyq_code": "GK-ART-113",
+      "section": "dravida_vesara",
+      "taught": true
+    },
+    {
+      "note": "Odisha temples: shikhara called deul, mandapa called jagamohana; lavish exterior, bare interior, boundary walls (claims c19, c20).",
+      "pyq_code": "GK-ART-114",
+      "section": "odisha_bengal",
+      "taught": true
+    },
+    {
+      "note": "Mauryan art: Lomus Rishi cave donated by Ashoka for the Ajivikas, Dhauli rock-cut elephant with Ashokan edict, polished Didarganj Yakshi (claims c04, c05, c06).",
+      "pyq_code": "GK-ART-115",
+      "section": "early_monuments",
+      "taught": true
+    },
+    {
+      "note": "Taj Mahal: built by Shah Jahan for Mumtaz Mahal, char-bagh garden divided into four quarters, polychrome inlay (pietra dura-type) work taught (claims c51, c53, c56).",
+      "pyq_code": "GK-ART-116",
+      "section": "sultanate_mughal",
+      "taught": true
+    },
+    {
+      "note": "Who built the Ibadatkhana at Fatehpur Sikri (Akbar): Fatehpur Sikri is not taught in this chapter — the NCERT Mughal chapter PDF (kefa108) could not be fetched in this run and no other allowed source fetched covers Fatehpur Sikri, so the fact was left out rather than written from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q69",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Khajuraho's name first referred to in the 11th century CE by Al-Biruni: the chapter teaches Khajuraho's temples and Chandella builders, but the Al-Biruni name reference appears in none of the fetched sources, so this specific point is untaught.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q63",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Fatehpur Sikri was built during whose reign (Akbar): not taught — same Fatehpur Sikri source gap as WBCS 2019 Q69; no fetched allowed source covers Fatehpur Sikri in this run.",
+      "pyq_code": "WBPSC-CLERKSHIP-2007-PART1-Q10",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ART-05": [
+    {
+      "note": "GK bank item (subtopic festivals): Kumbh Mela inscribed 2017; largest peaceful congregation of pilgrims, bathing in a sacred river; Yoga 2016 contrast taught in kumbh and unesco_talika (PIB backgrounder, claims c06/c09/c18).",
+      "pyq_code": "GK-ART-010",
+      "section": "kumbh",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic festivals): Kalbelia–Rajasthan, Mudiyettu–Kerala, Chhau–eastern India, Ramman–Garhwal Himalayas, with inscription years (Ramman 2009; Chhau, Kalbelia, Mudiyettu 2010) all taught in unesco_talika (claims c14/c17/c20).",
+      "pyq_code": "GK-ART-011",
+      "section": "unesco_talika",
+      "taught": true
+    },
+    {
+      "note": "GK bank item (subtopic festivals): Onam as Kerala's festival of Mahabali and a harvest festival, with boat races, taught in fosol (SCERT Kerala EVS IV, claims c37/c38). The bank item's 10-day/Chingam/Atham details and the name Vallam Kali are not in the fetched SCERT text and are not asserted in the chapter.",
+      "pyq_code": "GK-ART-117",
+      "section": "fosol",
+      "taught": true
+    },
+    {
+      "note": "WBP Constable 2021: name of Kerala's harvest festival — Onam, taught in fosol (claim c37: Onam is also a harvest festival).",
+      "pyq_code": "WBP-CONSTABLE-PRELIMS-2021-Q93",
+      "section": "fosol",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2023 Session II: Bathukamma is the State festival of Telangana — taught in ancholik (Telangana district page, claim c25).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-II-Q78",
+      "section": "ancholik",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2023 Session III: Boita Bandana is celebrated in Odisha — taught in ancholik (Cuttack Municipal Corporation page, claims c35/c36).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q69",
+      "section": "ancholik",
+      "taught": true
+    },
+    {
+      "note": "Clerkship 2023 Session IV: Hornbill Festival is celebrated in Nagaland — taught in ancholik (Nagaland Tourism, claims c23/c24: Kisama, about 12 km from Kohima).",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-IV-Q65",
+      "section": "ancholik",
+      "taught": true
+    },
+    {
+      "note": "'Pongal' (paper spells it 'Pongol') is the main festival of Tamil Nadu. Not taught: no allowed-publisher source fetched for this chapter (NCERT/GOVT/IGNOU/EPG) carries a usable Pongal statement; the fact is left as a disclosed source gap rather than written from memory.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q118",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Who pioneered the Rakhi Bandhan festival during the Partition of Bengal — a modern-history topic (primary: History book, Swadeshi/partition chapter), not this living-culture chapter; no source used here covers it.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2022-PRELIMS-Q54",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Tilak's Ganapati festival (1893) and first Shivaji festival year — a modern-history topic; the years are not in any source fetched for this chapter. Source gap, not asserted.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2023-PRELIMS-Q187",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "Which Union Ministry hosts the 'Divya Kala Mela' fair — a current-affairs/ministry fact about a specific fair, not covered by any source fetched for this chapter; not taught.",
+      "pyq_code": "WBPSC-CLERKSHIP-PART-I-2023-SESSION-III-Q80",
+      "section": null,
+      "taught": false
+    }
+  ],
+  "ART-06": [
+    {
+      "note": "GK bank fact (subtopic unesco_sites): inscription years — Agra Fort, Ajanta, Ellora, Taj Mahal 1983; Sun Temple Konarak 1984; Hampi and Khajuraho 1986; Humayun's Tomb and Qutb Minar 1993. All years are taught in section s2 from the PIB Annexure-I list (claims c09, c10, c15, c16, c22, c23) and practised in q08-q13.",
+      "pyq_code": "GK-ART-012",
+      "section": "s2",
+      "taught": true
+    },
+    {
+      "note": "GK bank fact (subtopic unesco_sites): Mountain Railways of India inscribed in stages — Darjeeling (West Bengal) 1999, Nilgiri (Tamil Nadu) 2005, Kalka-Shimla (Himachal Pradesh) 2008. Taught in sections s5 and s6 from the PIB Annexure-I row (claim c35) and practised in q30; the bank's own STATEMENT item (claiming Kalka-Shimla 2005) is a distractor pattern — the chapter teaches the correct pairing.",
+      "pyq_code": "GK-ART-013",
+      "section": "s5",
+      "taught": true
+    },
+    {
+      "note": "WBCS 2019 Q35: Sundarbans inscribed as World Heritage Site for its mangrove forests (correct option C). Taught in s6 from the WII Sundarban page (claims c49, c51: largest delta, 10,200 km2 of mangrove forest; Sundarban National Park core is a UNESCO World Heritage site) plus PIB list row (c48, 1987, Natural); practised in q37.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2019-PRELIMS-Q35",
+      "section": "s6",
+      "taught": true
+    },
+    {
+      "note": "WBCS 2024 Q148: which is NOT a UNESCO World Heritage Site — Gateway of India (correct option D); Ellora Caves, Kaziranga National Park and Churches and Convents of Goa are all inscribed. Taught in s2 (claims c09, c12, c17 for the three real sites; c61 records that the Gateway of India does not appear in the official PIB list of 45) with an exam_note box; practised in q44.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2024-PRELIMS-Q148",
+      "section": "s2",
+      "taught": true
+    },
+    {
+      "note": "WBCS 2016 Q39 asks which two Indian cities were first nominated to UNESCO's Creative Cities Network (UCCN) — Varanasi and Jaipur. UCCN is a different UNESCO programme from the World Heritage List; this chapter covers only the World Heritage List (subtopic unesco_sites), and no fetched source for this chapter covers UCCN membership. Not taught here; flagged so the Creative Cities topic can be covered where it belongs.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2016-PRELIMS-Q39",
+      "section": null,
+      "taught": false
+    },
+    {
+      "note": "WBCS 2021 Q63: Khajuraho, a UNESCO World Heritage Site, was first mentioned in the 11th century by Abu Rihan Al-Biruni. The chapter teaches Khajuraho's inscription (1986, claim c15, practised in q13), but the Al-Biruni mention is a medieval-history fact that appears in none of this chapter's fetched GOVT sources, so the specific answer the PYQ demands is not taught here; it belongs to the history book's coverage of Al-Biruni.",
+      "pyq_code": "WBCS-EXE-PRELIMS-2021-PRELIMS-Q63",
+      "section": null,
+      "taught": false
+    }
+  ]
+}
