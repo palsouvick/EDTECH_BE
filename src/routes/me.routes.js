@@ -66,6 +66,16 @@ router.get('/target-exam/syllabus-map/:examCode', validate({ params: syllabusMap
   res.json({ success: true, data: await getSyllabusMap(req.user.id, req.valid.params.examCode, req.valid.query.language) });
 });
 
+// Today's Study (F3): the ONE server-side "what should I study today?" list —
+// due revision, the current plan day's tasks, weak and unfinished priorities
+// from the F2 map, PYQ and the GK daily set, in a single priority order.
+const { getToday } = require('../services/today.service');
+const todayQuery = z.object({ tz: z.coerce.number().int().min(-720).max(840).default(330) });
+router.get('/today', validate({ query: todayQuery }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await getToday(req.user.id, { tz: req.valid.query.tz }) });
+});
+
 // tz = minutes east of UTC, for "today" and the streak (India: 330).
 const performanceQuery = z.object({ tz: z.coerce.number().int().min(-720).max(840).default(330) });
 
