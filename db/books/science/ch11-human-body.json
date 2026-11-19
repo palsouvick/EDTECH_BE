@@ -23,7 +23,7 @@
   "status": "PUBLISHED",
   "verification": {
     "status": "VERIFIED",
-    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 2 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 14 of 24 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-11.json and drafts/SCI-11_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-11_REPORT.md.",
+    "method": "Blind independent key-check 2026-11-19: 42/42 answers matched the key (39 SURE, 2 LIKELY, 1 GUESS); no second option defensible on any item.  Every factual claim carries a verbatim quote from a fetched official source (see claims[]/sources[]). PYQ coverage: 14 of 24 mapped bank PYQs taught; untaught entries and their reasons are disclosed in drafts/pyq_map_SCI-11.json and drafts/SCI-11_REPORT.md - gaps are disclosed, never padded. Drafting details: drafts/SCI-11_REPORT.md. One question in this chapter was replaced after the book-level duplicate-stem check flagged the same stem in another chapter; the replacement was blind-checked separately on 2026-11-19 (SURE, matched the key; drafts/blind_replacements_result.json).",
     "checked_claims": 64,
     "checked_questions": 42,
     "checked_at": "2026-11-19"
