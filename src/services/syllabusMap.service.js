@@ -45,7 +45,7 @@ const { pyqRefBasis } = require('./questionProvenance');
 const targetExam = require('./targetExam.service');
 const { HARD_BANKS } = require('./hardBanks');
 const { answersOf, buildMastery } = require('./insights.service');
-const { chapterMastery } = require('./mastery.service');
+const { chapterMastery, bankCounts } = require('./mastery.service');
 const { loadLessons } = require('../../db/lessons');
 const clerkshipPlan = require('../../db/plans/clerkship60');
 const idoPlan = require('../../db/plans/ido');
@@ -195,14 +195,56 @@ function subtopicVerdict(subtopic) {
 }
 
 async function getSyllabusMap(userId, examCode, language) {
+  // First and alone: an unknown exam fails here, before any other read starts.
   const { category, exam } = await findExam(examCode);
-  const target = await targetExam.targetExamOf(userId);
-  const base = await targetExam.getSyllabus(userId, examCode, language);
-  const prioritiesRes = await targetExam.getPrioritiesForExam(examCode);
+  const pyqName = targetExam.pyqExamNameForCode(examCode);
+  const uid = String(userId);
+  const answersPromise = answersOf(userId);
+
+  // Independent reads, run together. Only the solved-PYQ lookup waits, for
+  // this exam's PYQ ids (see loadExamPyq).
+  const solvedPromise = (async () => {
+    // This exam's PYQ evidence for every chapter, and which of those PYQs
+    // this student has solved (latest answer correct).
+    const examPyq = pyqName ? await loadExamPyq(pyqName) : null;
+    const solvedByKey = new Map();
+    if (!examPyq) return { examPyq, solvedByKey };
+    const allIds = [...examPyq.idsByKey.values()].flatMap((s) => [...s]);
+    if (!allIds.length) return { examPyq, solvedByKey };
+    const latest = await PracticeAttempt.aggregate([
+      { $match: { user_id: uid, question_id: { $in: allIds.map((id) => new mongoose.Types.ObjectId(id)) } } },
+      { $sort: { created_at: -1 } },
+      { $group: { _id: '$question_id', correct: { $first: '$correct' } } },
+    ]);
+    const keyOf = new Map();
+    for (const [key, set] of examPyq.idsByKey) for (const id of set) keyOf.set(id, key);
+    for (const a of latest) {
+      if (!a.correct) continue;
+      const k = keyOf.get(String(a._id));
+      if (k) solvedByKey.set(k, (solvedByKey.get(k) ?? 0) + 1);
+    }
+    return { examPyq, solvedByKey };
+  })();
+
+  const [target, base, prioritiesRes, { examPyq, solvedByKey }, bank, ansRows, answersAll, unified] = await Promise.all([
+    targetExam.targetExamOf(userId),
+    targetExam.getSyllabus(userId, examCode, language),
+    targetExam.getPrioritiesForExam(examCode),
+    solvedPromise,
+    // Bank size for EVERY chapter (shared, cached catalogue counts), and this
+    // student's distinct answered questions, so chapters outside the base
+    // syllabus scope still carry honest progress.
+    bankCounts(),
+    targetExam.answeredByChapter(userId),
+    // Mastery, exactly as the insights/mastery map computes it.
+    // F9: the unified stage per chapter (mastery.service), plus the insights
+    // row for its recent-answer counts — both from the same answers.
+    answersPromise,
+    answersPromise.then((answers) => chapterMastery(userId, { answers })),
+  ]);
   const priorities = prioritiesRes.priorities ?? { subjects: {}, rule: null, paperCount: 0 };
   const plan = planMembership(examCode);
   const patternSubjects = base.pattern ? new Set(base.pattern.sections.map((s) => s.subject)) : null;
-  const pyqName = targetExam.pyqExamNameForCode(examCode);
 
   // Base chapters (weights, completion, PYQ progress) keyed by subject.topic.
   const baseByKey = new Map();
@@ -214,46 +256,9 @@ async function getSyllabusMap(userId, examCode, language) {
     }
   }
 
-  // This exam's PYQ evidence for every chapter (see loadExamPyq), and which
-  // of those PYQs this student has solved (latest answer correct).
-  const examPyq = pyqName ? await loadExamPyq(pyqName) : null;
-  const solvedByKey = new Map();
-  if (examPyq) {
-    const allIds = [...examPyq.idsByKey.values()].flatMap((s) => [...s]);
-    if (allIds.length) {
-      const latest = await PracticeAttempt.aggregate([
-        { $match: { user_id: String(userId), question_id: { $in: allIds.map((id) => new mongoose.Types.ObjectId(id)) } } },
-        { $sort: { created_at: -1 } },
-        { $group: { _id: '$question_id', correct: { $first: '$correct' } } },
-      ]);
-      const keyOf = new Map();
-      for (const [key, set] of examPyq.idsByKey) for (const id of set) keyOf.set(id, key);
-      for (const a of latest) {
-        if (!a.correct) continue;
-        const k = keyOf.get(String(a._id));
-        if (k) solvedByKey.set(k, (solvedByKey.get(k) ?? 0) + 1);
-      }
-    }
-  }
-
-  // Bank size + this student's distinct answered questions for EVERY chapter,
-  // so chapters outside the base syllabus scope still carry honest progress.
-  const bankRows = await Question.aggregate([
-    { $match: { status: 'PUBLISHED' } },
-    { $group: { _id: { subject: '$subject', topic: '$topic' }, n: { $sum: 1 } } },
-  ]);
-  const bankByKey = new Map(bankRows.map((r) => [`${r._id.subject}.${r._id.topic}`, r.n]));
-  const ansRows = await PracticeAttempt.aggregate([
-    { $match: { user_id: String(userId) } },
-    { $group: { _id: { subject: '$subject', topic: '$topic' }, qids: { $addToSet: '$question_id' } } },
-  ]);
+  const bankByKey = new Map([...bank].map(([key, b]) => [key, b.n]));
   const answeredByKey = new Map(ansRows.map((r) => [`${r._id.subject}.${r._id.topic}`, r.qids.length]));
 
-  // Mastery, exactly as the insights/mastery map computes it.
-  // F9: the unified stage per chapter (mastery.service), plus the insights
-  // row for its recent-answer counts — both from the same answers.
-  const answersAll = await answersOf(userId);
-  const unified = await chapterMastery(userId, { answers: answersAll });
   const masteryByKey = new Map(buildMastery(answersAll, unified).map((m) => [`${m.subject}.${m.topic}`, m]));
 
   const lessons = new Set(loadLessons().map(({ lesson }) => `${lesson.subject}.${lesson.topic}`));

@@ -13,7 +13,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
-const { validateChapter, publisherOf } = require('./books.validate');
+const { validateChapter, validateFigures, publisherOf } = require('./books.validate');
 
 // BOOKS_DIR lets tests point at a fixture folder.
 const ROOT = process.env.BOOKS_DIR || path.join(__dirname, '../../db/books');
@@ -103,7 +103,21 @@ function loadBook(book, { dir = ROOT, fresh = false } = {}) {
   const mapFile = path.join(bookDir, 'pyq_map.json');
   const pyqMap = fs.existsSync(mapFile) ? readJson(mapFile) : {};
   if (fs.existsSync(mapFile)) hash.update(`pyq_map:${crypto.createHash('sha256').update(fs.readFileSync(mapFile)).digest('hex')}`);
-  const loaded = { book, meta, toc, chapters, pyqMap, errors, fingerprint: hash.digest('hex') };
+  // Maps and diagrams (figures.json): presentation only, so they are not part of the fingerprint. A bad file is
+  // reported and left out whole.
+  const figFile = path.join(bookDir, 'figures.json');
+  let figures = {};
+  if (fs.existsSync(figFile)) {
+    try {
+      const raw = readJson(figFile);
+      const figErrors = validateFigures(raw, chapters);
+      if (figErrors.length) errors.push(...figErrors);
+      else figures = raw;
+    } catch (e) {
+      errors.push({ file: 'figures.json', field: '', code: 'INVALID_JSON', message: e.message });
+    }
+  }
+  const loaded = { book, meta, toc, chapters, pyqMap, figures, errors, fingerprint: hash.digest('hex') };
   cache.set(key, loaded);
   return loaded;
 }
@@ -228,6 +242,7 @@ async function getChapter(book, code, { preview = false } = {}) {
       standard: s.standard,
       deep: s.deep || null,
       boxes: s.boxes || [],
+      figures: (loaded.figures[code]?.[s.id] || []).map(({ src, page, alt, caption, credit, license }) => ({ src, page, alt, caption, credit, license })),
       sources: sourcesOf(s.claims),
       pyq: summarise(evidence.bySection[s.id]),
       questionCount: ch.questions.filter((q) => q.section === s.id).length,
@@ -250,8 +265,31 @@ async function getChapter(book, code, { preview = false } = {}) {
   };
 }
 
+const bnDigits = (n) => String(n).replace(/\d/g, (d) => '০১২৩৪৫৬৭৮৯'[d]);
+const BOOK_FOR_TOPIC = Object.freeze(Object.fromEntries(Object.entries(BOOKS).map(([b, m]) => [m.topic, b])));
+
+/**
+ * Study-plan sessions of a GK chapter that has a book: the book's table-of-contents chapters split in order across
+ * the sessions (session n of `of`), labelled exactly as the book's contents page ("অধ্যায় ৩: ভারতের নদনদী ও হ্রদ"),
+ * so the plan and the book never disagree. Uses the table of contents only, so the plan stays the same for every
+ * student whatever is published. Null when the topic has no book.
+ */
+function planChapters(topic, { n, of }) {
+  const book = BOOK_FOR_TOPIC[topic];
+  const all = book ? loadBook(book)?.toc.CHAPTERS : null;
+  if (!all?.length) return null;
+  const start = Math.floor(((n - 1) * all.length) / of);
+  const end = Math.max(start + 1, Math.floor((n * all.length) / of));
+  return all.slice(start, end).map((c) => ({
+    code: c.code,
+    label: { en: `Chapter ${c.number}: ${c.title}`, bn: `অধ্যায় ${bnDigits(c.number)}: ${c.title}` },
+  }));
+}
+
 module.exports = {
   BOOKS,
+  BOOK_FOR_TOPIC,
+  planChapters,
   CHAPTER_CODE,
   ROOT,
   loadBook,

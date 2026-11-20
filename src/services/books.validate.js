@@ -314,4 +314,42 @@ function validateChapter(ch) {
   return errors;
 }
 
-module.exports = { validateChapter, publisherOf, SOURCE_PUBLISHERS, PROFILES, MIN_QUESTIONS, LEVELS };
+/**
+ * Figures (maps and diagrams) for a book: db/books/<book>/figures.json, { "GEO-01": { "<section id>": [figure] } }.
+ * Images are never generated: each one is a freely licensed file on Wikimedia Commons (hot-linked from
+ * upload.wikimedia.org or thumb.wikimedia.org, as Commons allows), shown with its credit and licence. Maps of India must show the
+ * official boundary (owner decision of 2026-11-20), so the Ministry of Home Affairs political map, NCERT maps and
+ * maps checked against them are used.
+ */
+const FIGURE_SRC = /^https:\/\/(upload\.wikimedia\.org\/wikipedia\/commons\/|thumb\.wikimedia\.org\/wikipedia\/commons\/thumb\/)[^?#\s]+$/;
+const FIGURE_PAGE = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:\S+$/;
+const FIGURE_LICENSES = Object.freeze(['GODL-India', 'Public domain', 'CC0', 'CC BY 2.0', 'CC BY 3.0', 'CC BY 4.0', 'CC BY-SA 2.0', 'CC BY-SA 2.5', 'CC BY-SA 3.0', 'CC BY-SA 4.0']);
+const MAX_FIGURES_PER_SECTION = 2;
+
+/** Checks a book's figures map against its loaded chapters (Map code → chapter). Returns { file, field, code, message }[]. */
+function validateFigures(map, chapters) {
+  const errors = [];
+  const err = (field, code, message) => errors.push({ file: 'figures.json', field, code, message });
+  if (!map || typeof map !== 'object' || Array.isArray(map)) return [{ file: 'figures.json', field: '', code: 'BAD_FORMAT', message: 'an object keyed by chapter code' }];
+  for (const [code, bySection] of Object.entries(map)) {
+    if (code.startsWith('_')) continue; // "_note" and similar comments
+    const ch = chapters.get(code);
+    if (!ch) { err(code, 'UNKNOWN_CHAPTER', `${code} is not a loaded chapter`); continue; }
+    for (const [sid, list] of Object.entries(bySection || {})) {
+      const f = `${code}.${sid}`;
+      if (!ch.sections.some((s) => s.id === sid)) err(f, 'UNKNOWN_SECTION', `${code} has no section "${sid}"`);
+      if (!Array.isArray(list) || !list.length || list.length > MAX_FIGURES_PER_SECTION) { err(f, 'COUNT', `1-${MAX_FIGURES_PER_SECTION} figures per section`); continue; }
+      for (const [i, fig] of list.entries()) {
+        const g = `${f}[${i}]`;
+        if (!FIGURE_SRC.test(fig.src || '')) err(`${g}.src`, 'SRC_NOT_ALLOWED', 'src must be a Wikimedia Commons file (upload.wikimedia.org or thumb.wikimedia.org, no query string)');
+        if (!FIGURE_PAGE.test(fig.page || '')) err(`${g}.page`, 'PAGE_REQUIRED', 'page must be the https://commons.wikimedia.org/wiki/File:… page (credit and licence)');
+        if (!FIGURE_LICENSES.includes(fig.license)) err(`${g}.license`, 'LICENSE_NOT_ALLOWED', `license must be one of ${FIGURE_LICENSES.join(', ')}`);
+        if (!str(fig.credit)) err(`${g}.credit`, 'REQUIRED', 'credit (author or publisher) required');
+        for (const k of ['alt', 'caption']) if (!str(fig[k]) || !BENGALI.test(fig[k])) err(`${g}.${k}`, 'NOT_BENGALI', `Bengali ${k} required`);
+      }
+    }
+  }
+  return errors;
+}
+
+module.exports = { validateChapter, validateFigures, FIGURE_LICENSES, publisherOf, SOURCE_PUBLISHERS, PROFILES, MIN_QUESTIONS, LEVELS };

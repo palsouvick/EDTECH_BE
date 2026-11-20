@@ -20,6 +20,16 @@ const { pyqRefBasis } = require('../services/questionProvenance');
 const { subjectName, topicName } = require('../services/catalogNames');
 const { getPriorities } = require('../services/priority.service');
 const { pyqFilterFor } = require('../services/topicPacks.service');
+const { createTtlCache } = require('../utils/ttlCache');
+
+// The bank changes only when an admin publishes questions (which clears these),
+// and the responses already say max-age=60, so the server keeps them as long.
+const filtersCache = createTtlCache(60_000);
+const totalsCache = createTtlCache(60_000, { maxEntries: 2000 });
+const clearPyqCache = () => {
+  filtersCache.clear();
+  totalsCache.clear();
+};
 
 // Real papers only: the importer marks a question from a commission paper OFFICIAL_VERIFIED
 // (official key) or ADAPTED_PYQ (official paper, key unavailable); the presenter then shows
@@ -33,6 +43,11 @@ const base = { status: 'PUBLISHED', provenance: { $in: REAL_PAPER }, 'pyq.refs':
  * and key, plus question counts per subject and topic for topic-wise sets.
  */
 router.get('/filters', async (_req, res) => {
+  res.set('Cache-Control', 'public, max-age=60');
+  res.json({ success: true, data: await filtersCache.get('all', loadFilters) });
+});
+
+async function loadFilters() {
   const rows = await Question.aggregate([
     { $match: base },
     { $unwind: '$pyq.refs' },
@@ -81,9 +96,8 @@ router.get('/filters', async (_req, res) => {
       papers: [...papers.values()].sort((a, b) => b.year - a.year || shiftRank(a.shift) - shiftRank(b.shift)),
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
-  res.set('Cache-Control', 'public, max-age=60');
-  res.json({ success: true, data: { exams: list, topics: [...topics.values()].sort((a, b) => b.count - a.count) } });
-});
+  return { exams: list, topics: [...topics.values()].sort((a, b) => b.count - a.count) };
+}
 
 // Chapter priority (Must know / Important / Additional) from these papers, with the rule.
 // ?exam=<catalogue code> scopes it to one exam's papers; an unknown code is a
@@ -135,7 +149,8 @@ router.get('/', validate({ query: listQuery }), async (req, res) => {
       .skip((page - 1) * limit)
       .limit(limit)
       .lean(),
-    Question.countDocuments(filter),
+    // The total is the expensive part of a page and is the same for every page.
+    totalsCache.get(JSON.stringify([exam, year, shift, subject, topic, pack, lang]), () => Question.countDocuments(filter)),
   ]);
   const questions = rows.map((q) => presentQuestion(q, { subject: q.subject, difficulty: q.difficulty }));
   res.set('Cache-Control', 'private, no-store');
@@ -143,3 +158,4 @@ router.get('/', validate({ query: listQuery }), async (req, res) => {
 });
 
 module.exports = router;
+module.exports.clearPyqCache = clearPyqCache;

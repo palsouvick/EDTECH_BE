@@ -26,7 +26,7 @@ const CHAPTERS = Object.freeze([
   c(3, 'india_map', 'রাজ্য ও রাজধানী', { subtopics: ['states_capitals'] }),
   c(4, 'india_map', 'কেন্দ্রশাসিত অঞ্চল', { subtopics: ['union_territories'] }),
   c(5, 'institutions', 'প্রতিষ্ঠান ও সদর দপ্তর (সারাংশ)', { subtopics: ['institutions_hq'] }),
-  c(6, 'institutions', 'জাতীয় উদ্যান ও বাঁধ (সারাংশ)', { subtopics: ['national_parks_dams'] }),
+  c(6, 'institutions', 'জাতীয় উদ্যান, বাঁধ ও প্রকল্প (সারসংক্ষেপ)', { subtopics: ['national_parks_dams'] }),
   c(7, 'institutions', 'বিবিধ: ভারত এক নজরে', { subtopics: ['misc'] })
 ]);
 

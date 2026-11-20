@@ -18,6 +18,7 @@ const { PracticeAttempt, MockSession, Question, ReviewItem, User, UserBadge, Dai
 const { subjectName, topicName } = require('./catalogNames');
 const { getPerformance } = require('./performance.service');
 const { HARD_BANKS } = require('./hardBanks');
+const { memo } = require('../utils/requestScope');
 const MasteryLogic = require('./mastery.logic');
 
 const REAL_PAPER = ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'];
@@ -68,8 +69,15 @@ function patternName(subject, topic, key) {
   return patternNames.get(`${subject}.${topic}.${key}`) ?? null;
 }
 
-/** Every answer of the student, newest first, with each question's difficulty and pattern. */
-async function answersOf(userId) {
+/**
+ * Every answer of the student, newest first, with each question's difficulty and pattern.
+ * Loaded once per request (several services read it); callers must not modify the result.
+ */
+function answersOf(userId) {
+  return memo(`answersOf:${userId}`, () => loadAnswers(userId));
+}
+
+async function loadAnswers(userId) {
   const [practice, mocks] = await Promise.all([
     PracticeAttempt.find({ user_id: userId }).sort({ created_at: -1 }).limit(5000).select('question_id subject topic correct category created_at source').lean(),
     MockSession.find({ user_id: userId, status: 'SUBMITTED' }).sort({ submitted_at: -1 }).limit(50).select('config.subject config.category submitted_at result.per_question').lean(),

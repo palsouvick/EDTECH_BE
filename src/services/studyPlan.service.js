@@ -14,6 +14,7 @@ const { loadLessons } = require('../../db/lessons');
 const { StudyPlanProgress } = require('../models');
 const { topicName } = require('./catalogNames');
 const { cardOf } = require('./gkTaxonomy');
+const { planChapters } = require('./books');
 const AppError = require('../utils/AppError');
 
 const t = (en, bn) => ({ en, bn });
@@ -52,6 +53,9 @@ const LEVELS_FOR = { 1: [['basic', 'intermediate']], 2: [['basic'], ['intermedia
 /** What to learn in a session: lesson section headings (Math, English) or GK subcategories. */
 function learnList(subject, topic, { n, of }) {
   if (subject === 'gs') {
+    // A chapter with a study book lists the book's own chapters, so the plan matches the book's contents page.
+    const chapters = planChapters(topic, { n, of });
+    if (chapters) return chapters.map((c) => c.label);
     const subs = Object.values(cardOf(topic)?.subtopics || {});
     const per = Math.ceil(subs.length / of);
     return subs.slice((n - 1) * per, n * per);

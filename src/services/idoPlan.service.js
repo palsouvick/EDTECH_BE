@@ -17,6 +17,7 @@ const { loadPatterns } = require('../../db/patterns');
 const { StudyPlanProgress } = require('../models');
 const { topicName } = require('./catalogNames');
 const { cardOf } = require('./gkTaxonomy');
+const { planChapters } = require('./books');
 const AppError = require('../utils/AppError');
 
 const t = (en, bn) => ({ en, bn });
@@ -57,6 +58,9 @@ const patternsFor = (subject, topic) => {
 
 function learnList(subject, topic, { n, of }) {
   if (subject === 'gs') {
+    // A chapter with a study book lists the book's own chapters, so the plan matches the book's contents page.
+    const chapters = planChapters(topic, { n, of });
+    if (chapters) return chapters.map((c) => c.label);
     // Proportional slices of the card's subtopics: every session gets at least
     // one subtopic even when sessions outnumber subtopics.
     const subs = Object.values(cardOf(topic)?.subtopics || {});

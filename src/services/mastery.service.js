@@ -31,6 +31,7 @@ const { loadLessons } = require('../../db/lessons');
 const books = require('./books');
 const { subjectName, topicName } = require('./catalogNames');
 const M = require('./mastery.logic');
+const { memo, inRequestScope } = require('../utils/requestScope');
 
 const REAL_PAPER = ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'];
 const TTL_MS = 5 * 60_000;
@@ -121,7 +122,20 @@ function bookEvidence(book, progress) {
  * Unified mastery for every catalogue chapter (or only `subjects`).
  * @returns {Promise<Map<string, object>>} 'subject.topic' -> { subject, topic, name, stage, score, accuracy, needsWork, status, next, evidence }
  */
-async function chapterMastery(userId, { subjects = null, now = new Date(), answers: given = null } = {}) {
+async function chapterMastery(userId, opts = {}) {
+  const uid = String(userId);
+  if (!inRequestScope() || opts.now !== undefined) return computeChapterMastery(uid, opts);
+  // In a request, several services ask for this (GET /me/today: insights, the
+  // syllabus and the syllabus map). Compute every chapter once from the
+  // student's shared answers and hand each caller its subjects' rows.
+  const { answersOf } = require('./insights.service');
+  if (opts.answers && opts.answers !== (await answersOf(uid))) return computeChapterMastery(uid, opts);
+  const all = await memo(`chapterMastery:${uid}`, () => computeChapterMastery(uid, {}));
+  if (!opts.subjects) return all;
+  return new Map([...all].filter(([, v]) => opts.subjects.includes(v.subject)));
+}
+
+async function computeChapterMastery(userId, { subjects = null, now = new Date(), answers: given = null } = {}) {
   const uid = String(userId);
   // Lazy: insights requires this module too.
   const { answersOf } = require('./insights.service');
@@ -237,4 +251,4 @@ async function masterySummary(userId, { subject = null } = {}) {
   return { stages: M.STAGES, rules: M.RULES, counts, subjects, chapters: rows };
 }
 
-module.exports = { chapterMastery, masterySummary, clearMasteryCache, CHAPTERS };
+module.exports = { chapterMastery, masterySummary, clearMasteryCache, bankCounts, CHAPTERS };

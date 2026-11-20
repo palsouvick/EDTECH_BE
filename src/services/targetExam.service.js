@@ -25,7 +25,8 @@ const AppError = require('../utils/AppError');
 const { compactLocalized } = require('./presenters');
 const { pyqRefBasis } = require('./questionProvenance');
 const { getPriorities, buildPriorities } = require('./priority.service');
-const { chapterMastery } = require('./mastery.service');
+const { chapterMastery, bankCounts } = require('./mastery.service');
+const { memo } = require('../utils/requestScope');
 const { presentUser } = require('./auth.service');
 const { loadLessons } = require('../../db/lessons');
 const { HARD_BANKS } = require('./hardBanks');
@@ -153,6 +154,18 @@ async function loadPyqData() {
 function lessonKeys() {
   if (!lessonsCache) lessonsCache = new Set(loadLessons().map(({ lesson }) => `${lesson.subject}.${lesson.topic}`));
   return lessonsCache;
+}
+
+/**
+ * The student's distinct answered questions per chapter, as aggregation rows
+ * { _id: { subject, topic }, qids }. Read once per request (the syllabus and
+ * the syllabus map both need it).
+ */
+function answeredByChapter(userId) {
+  return memo(`answeredByChapter:${userId}`, () => PracticeAttempt.aggregate([
+    { $match: { user_id: String(userId) } },
+    { $group: { _id: { subject: '$subject', topic: '$topic' }, qids: { $addToSet: '$question_id' } } },
+  ]));
 }
 
 /** The student's target exam as { code, examName } (examName null when the exam has no PYQs), or null. */
@@ -416,11 +429,22 @@ function clerkshipSignal(topic) {
  */
 async function getSyllabus(userId, examCode, language) {
   const { category, exam } = await findExam(examCode);
-  const user = await User.findById(userId).select('target_exam target_exam_date').lean();
+  // Independent reads, started together and awaited where they are used.
+  // (A no-op catch marks each as handled, so an earlier failure never leaves
+  // an unhandled rejection behind; awaiting it still throws.)
+  const started = (p) => {
+    p.catch(() => {});
+    return p;
+  };
+  const bankPromise = started(bankCounts());
+  const answeredPromise = started(answeredByChapter(userId));
+  const [user, pyq] = await Promise.all([
+    User.findById(userId).select('target_exam target_exam_date').lean(),
+    loadPyqData(),
+  ]);
   const pattern = presentPattern(exam);
   const weights = subjectWeights(pattern);
   const pyqName = pyqExamNameForCode(examCode);
-  const pyq = await loadPyqData();
   const plan = PLANS[examCode] ?? null;
 
   // Which subjects, and which chapters in each.
@@ -430,6 +454,7 @@ async function getSyllabus(userId, examCode, language) {
   if (planLists) subjectCodes = Object.keys(planLists);
   else if (pattern) subjectCodes = [...new Set(pattern.sections.map((s) => s.subject))];
   else subjectCodes = category.subjects.map((s) => s.code);
+  const unifiedPromise = started(chapterMastery(userId, { subjects: subjectCodes }));
 
   // Chapter weights: this exam's PYQ shares within each subject, else the
   // plan's session shares (plan exams only), else null — never invented.
@@ -452,20 +477,13 @@ async function getSyllabus(userId, examCode, language) {
   };
 
   // Bank sizes and the student's distinct answered questions, per chapter and per subject.
-  const bankRows = await Question.aggregate([
-    { $match: { status: 'PUBLISHED' } },
-    { $group: { _id: { subject: '$subject', topic: '$topic' }, n: { $sum: 1 } } },
-  ]);
-  const bankByKey = new Map(bankRows.map((r) => [`${r._id.subject}.${r._id.topic}`, r.n]));
+  const bankByKey = new Map([...(await bankPromise)].map(([key, b]) => [key, b.n]));
   const bankBySubject = new Map();
   for (const [key, n] of bankByKey) {
     const subject = key.split('.')[0];
     bankBySubject.set(subject, (bankBySubject.get(subject) ?? 0) + n);
   }
-  const ansRows = await PracticeAttempt.aggregate([
-    { $match: { user_id: String(userId) } },
-    { $group: { _id: { subject: '$subject', topic: '$topic' }, qids: { $addToSet: '$question_id' } } },
-  ]);
+  const ansRows = await answeredPromise;
   const answeredByKey = new Map(ansRows.map((r) => [`${r._id.subject}.${r._id.topic}`, r.qids.length]));
   const answeredBySubject = new Map();
   for (const [key, n] of answeredByKey) {
@@ -619,7 +637,7 @@ async function getSyllabus(userId, examCode, language) {
   // pages and Today's Study show — averaged within each subject (a started
   // chapter without a score yet counts 0), then across subjects by pattern
   // weight. null until at least one chapter has a score.
-  const unified = await chapterMastery(userId, { subjects: subjectCodes });
+  const unified = await unifiedPromise;
   const subjectMastery = [];
   for (const s of subjects) {
     const rows = s.chapters
@@ -686,6 +704,7 @@ module.exports = {
   listTargetExams,
   setTargetExam,
   getSyllabus,
+  answeredByChapter,
   getPrioritiesForExam,
   targetExamOf,
   findExam,

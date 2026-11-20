@@ -160,5 +160,12 @@ The record is the same as History's, with these differences (the validator's `PR
   (`https://…gov.in/…`, `https://…nic.in/…`) for list facts the textbooks do not carry: districts, dams, national
   parks (owner decision of 2026-11-13). Quote the page verbatim like any other source and record the date you read it
   (`accessed_at`). A news site, Wikipedia or a coaching site is never a source.
-- Maps are not drawn yet (owner decision of 2026-11-13): use the `locate` table, and where a figure helps, say which
-  textbook figure to look at (for example "NCERT XI ভারত: প্রাকৃতিক পরিবেশ, চিত্র ৩.১").
+- **Maps and diagrams** (owner request of 2026-11-20) live in `db/books/<book>/figures.json`, not in the chapter file:
+  `{ "GEO-01": { "<section id>": [{ src, page, alt, caption, credit, license }] } }`, at most 2 per section. Images are
+  never generated or drawn by us: each is an existing, freely licensed file on Wikimedia Commons, hot-linked
+  (`src` on upload.wikimedia.org or thumb.wikimedia.org, no query string), with its Commons `page`, `credit` and
+  `license` (GODL-India, public domain, CC0, CC BY or CC BY-SA) shown under the image. `alt` and `caption` are Bengali;
+  the caption says what to look at, in the chapter's own terms, and adds no new facts. **India maps must show the
+  official boundary**: prefer the Ministry of Home Affairs political map (GODL-India) and NCERT maps; view any other
+  map before use and reject maps with "disputed" borders, old state names or out-of-date district counts. The file is
+  checked on load (`validateFigures`); a bad file is reported and shown to no one.

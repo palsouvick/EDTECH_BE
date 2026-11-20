@@ -8,6 +8,7 @@ const config = require('./config');
 const apiRoutes = require('./routes');
 const { notFoundHandler, errorHandler } = require('./middleware/errorHandler');
 const { getQuestionBankMemory } = require('./services/questionBankStatus.service');
+const { requestScope } = require('./utils/requestScope');
 
 const DB_STATES = { 0: 'disconnected', 1: 'connected', 2: 'connecting', 3: 'disconnecting' };
 
@@ -61,7 +62,9 @@ function createApp() {
     });
   });
 
-  app.use('/api/v1', requireDatabase, apiRoutes);
+  // requestScope comes after the body parsers: they finish on stream events,
+  // which would not carry the request's async context into the handlers.
+  app.use('/api/v1', requireDatabase, requestScope, apiRoutes);
 
   app.use(notFoundHandler);
   app.use(errorHandler);

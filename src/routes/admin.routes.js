@@ -9,6 +9,7 @@ const { Question, QuestionReport, User } = require('../models');
 const { QUESTION_STATUS, TIERS } = require('../models/constants');
 const { compactLocalized } = require('../services/presenters');
 const { clearCatalogCache } = require('../services/catalog.service');
+const { clearPyqCache } = require('./pyq.routes');
 const AppError = require('../utils/AppError');
 const multer = require('multer');
 const bulkImport = require('../services/questionBulkImport.service');
@@ -348,7 +349,10 @@ router.post('/import/batches/:batchId/publish', validate({ params: batchParams, 
     userId: req.admin.id,
     reviewedBy: req.admin.email,
   });
-  if (result.publishedCount > 0) clearCatalogCache();
+  if (result.publishedCount > 0) {
+    clearCatalogCache();
+    clearPyqCache();
+  }
   res.json({ success: true, data: result });
 });
 

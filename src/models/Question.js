@@ -263,6 +263,18 @@ QuestionSchema.index(
   { name: 'pyq_exam_year_shift', partialFilterExpression: { 'pyq.is_pyq': true } },
 );
 
+// Real-paper PYQ pages (/pyq, /pyq/filters): partial, so they hold only the
+// ~1 in 8 published questions from real papers, in list order.
+const REAL_PAPER_PUBLISHED = { status: 'PUBLISHED', provenance: { $in: ['OFFICIAL_VERIFIED', 'ADAPTED_PYQ'] } };
+QuestionSchema.index(
+  { subject: 1, latest_pyq_year: -1, _id: 1 },
+  { name: 'pyq_real_subject_year', partialFilterExpression: REAL_PAPER_PUBLISHED },
+);
+QuestionSchema.index(
+  { latest_pyq_year: -1, _id: 1 },
+  { name: 'pyq_real_year', partialFilterExpression: REAL_PAPER_PUBLISHED },
+);
+
 // Editorial CMS: review queues and topic listings regardless of status.
 QuestionSchema.index(
   { status: 1, subject: 1, topic: 1, updated_at: -1 },

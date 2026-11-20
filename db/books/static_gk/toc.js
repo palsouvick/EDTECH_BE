@@ -27,7 +27,7 @@ const CHAPTERS = Object.freeze([
   c(4, 'world_sport', 'খেলাধুলা', { subtopics: ['sports_games'] }),
   c(5, 'world_sport', 'দেশ, রাজধানী ও মুদ্রা', { subtopics: ['countries_capitals'] }),
   c(6, 'links', 'গুরুত্বপূর্ণ দিবস (সারাংশ)', { subtopics: ['important_days'] }),
-  c(7, 'links', 'আন্তর্জাতিক সংস্থা (সারাংশ)', { subtopics: ['international_orgs'] })
+  c(7, 'links', 'আন্তর্জাতিক সংস্থা (সারসংক্ষেপ)', { subtopics: ['international_orgs'] })
 ]);
 
 module.exports = { book: 'static_gk', title: 'স্ট্যাটিক জিকে', PARTS, CHAPTERS };

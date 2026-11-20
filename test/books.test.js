@@ -20,7 +20,7 @@ const config = require('../src/config');
 
 const ADMIN_EMAIL = 'book-editor@example.test';
 if (!config.auth.adminEmails.includes(ADMIN_EMAIL)) config.auth.adminEmails.push(ADMIN_EMAIL);
-const { validateChapter } = require('../src/services/books.validate');
+const { validateChapter, validateFigures } = require('../src/services/books.validate');
 const books = require('../src/services/books');
 const study = require('../src/services/bookStudy.service');
 const { ensureBooks } = require('../scripts/seedBooks');
@@ -170,6 +170,26 @@ test('the real Geography folder: table of contents 1-16 in four parts, every cha
   assert.ok(toc.CHAPTERS.every((c) => toc.PARTS.some((p) => p.code === c.part)));
   const real = books.loadBook('geography', { dir: path.join(__dirname, '../db/books'), fresh: true });
   assert.deepEqual(real.errors, [], 'every chapter file in db/books/geography passes the validator');
+  // Maps and diagrams (figures.json) load with the chapters.
+  assert.ok(real.figures['GEO-01']?.location?.length, 'GEO-01 "location" has its latitude / Tropic of Cancer map');
+});
+
+test('figures: only Commons files with a licence, credit and Bengali caption, on real sections', () => {
+  const chapters = new Map([['GEO-01', { sections: [{ id: 'location' }] }]]);
+  const fig = (o = {}) => ({
+    src: 'https://upload.wikimedia.org/wikipedia/commons/3/33/India_and_its_neighbours.jpg',
+    page: 'https://commons.wikimedia.org/wiki/File:India_and_its_neighbours.jpg',
+    alt: 'ভারতের মানচিত্র', caption: 'কর্কটক্রান্তি রেখা দেখো', credit: 'NCERT', license: 'CC BY-SA 3.0', ...o,
+  });
+  const codes = (map) => validateFigures(map, chapters).map((e) => e.code);
+  assert.deepEqual(validateFigures({ _note: 'x', 'GEO-01': { location: [fig()] } }, chapters), []);
+  assert.deepEqual(codes({ 'GEO-01': { location: [fig({ src: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/A.jpg/960px-A.jpg' })] } }), []);
+  assert.ok(codes({ 'GEO-01': { location: [fig({ src: 'https://example.com/map.png' })] } }).includes('SRC_NOT_ALLOWED'), 'not from any website');
+  assert.ok(codes({ 'GEO-01': { location: [fig({ license: 'All rights reserved' })] } }).includes('LICENSE_NOT_ALLOWED'));
+  assert.ok(codes({ 'GEO-01': { location: [fig({ caption: 'English only' })] } }).includes('NOT_BENGALI'));
+  assert.ok(codes({ 'GEO-01': { nowhere: [fig()] } }).includes('UNKNOWN_SECTION'));
+  assert.ok(codes({ 'GEO-99': { location: [fig()] } }).includes('UNKNOWN_CHAPTER'));
+  assert.ok(codes({ 'GEO-01': { location: [fig(), fig(), fig()] } }).includes('COUNT'));
 });
 
 test('the real Polity folder: table of contents 1-22 in seven parts, all 22 chapters written (PUBLISHED + VERIFIED after the owner publish order of 2026-11-19 and fresh blind checks), PYQ map merged', () => {

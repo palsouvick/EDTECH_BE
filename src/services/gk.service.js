@@ -73,12 +73,16 @@ async function libraryCounts() {
  */
 async function userProgress(userId) {
   if (!userId) return null;
-  const rows = await PracticeAttempt.aggregate([
+  const grouped = await PracticeAttempt.aggregate([
     { $match: { user_id: userId, subject: 'gs', topic: { $in: GK_TOPICS } } },
     { $group: { _id: '$question_id', topic: { $first: '$topic' }, answers: { $sum: 1 }, right: { $sum: { $cond: ['$correct', 1, 0] } } } },
-    { $lookup: { from: 'questions', localField: '_id', foreignField: '_id', as: 'q', pipeline: [{ $project: { subtopic: 1 } }] } },
-    { $project: { topic: 1, answers: 1, right: 1, subtopic: { $first: '$q.subtopic' } } },
   ]);
+  // Each question's subcategory in one batched read (a $lookup runs one query per row).
+  const subs = grouped.length
+    ? await Question.find({ _id: { $in: grouped.map((r) => r._id) } }).select('subtopic').lean()
+    : [];
+  const subtopicOf = new Map(subs.map((q) => [String(q._id), q.subtopic]));
+  const rows = grouped.map((r) => ({ ...r, subtopic: subtopicOf.get(String(r._id)) }));
   const byCard = new Map();
   const bySub = new Map();
   const add = (map, key, r) => {

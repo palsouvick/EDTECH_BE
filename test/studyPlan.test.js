@@ -54,6 +54,13 @@ test('learning days: every syllabus chapter before Phase 3, with what to learn, 
   assert.deepEqual(days[0].tasks.filter((x) => x.kind === 'learn').map((x) => x.topic), ['polity', 'number_system', 'parts_of_speech'], 'Day 1 starts from the basics');
   const firstHistory = required.find((x) => x.topic === 'indian_history');
   assert.deepEqual(firstHistory.packs, ['GK-HIS-104', 'GK-HIS-101', 'GK-HIS-105'], 'connected topic pages with the matching session');
+  // A GK chapter with a study book lists the book's own chapters, numbered as on its contents page, across its sessions.
+  const geo = required.filter((x) => x.topic === 'geography');
+  assert.deepEqual(geo.map((x) => x.learn.length), [4, 4, 4, 4], 'Geography: 16 book chapters over 4 sessions');
+  assert.deepEqual(geo[0].learn[2], { en: 'Chapter 3: ভারতের নদনদী ও হ্রদ', bn: 'অধ্যায় ৩: ভারতের নদনদী ও হ্রদ' });
+  assert.equal(geo.at(-1).learn.at(-1).bn, 'অধ্যায় ১৬: বিশ্ব: মহাদেশ, দেশ, প্রণালী, খাল, হ্রদ ও শৃঙ্গ');
+  const wb = required.find((x) => x.topic === 'west_bengal_gk');
+  assert.ok(wb.learn.length > 0 && !wb.learn[0].bn.startsWith('অধ্যায়'), 'a card without a book keeps its subcategories');
   for (const d of days) {
     const m = d.mission;
     assert.equal(m.minutes, d.minutes);
