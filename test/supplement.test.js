@@ -62,6 +62,32 @@ test('mixture & alligation: every answer re-derived from the question text', () 
   }
 });
 
+test('adding water: equal milk parts show the ratio shortcut in English and Bengali', () => {
+  common.seed(7);
+  const addWater = mixture.topics[0].gens[2];
+  const questions = sample(addWater, 1000);
+  const q = questions.find((item) => item.stem.en === 'A 30-litre mixture contains milk and water in the ratio 3 : 2. How much water must be added to make the ratio 3 : 4?');
+
+  assert.ok(q, 'the deterministic bank sample contains the target question');
+  assert.match(q.solution.shortcut.en, /milk parts are equal/);
+  assert.match(q.solution.shortcut.en, /5.*parts equal.*30.*L/);
+  assert.match(q.solution.shortcut.en, /1 part.*6.*L/);
+  assert.match(q.solution.shortcut.en, /2.*parts/);
+  assert.match(q.solution.shortcut.en, /12.*L/);
+  assert.match(q.solution.shortcut.bn, /দুধের ভাগ সমান/);
+  assert.match(q.solution.shortcut.bn, /5.*ভাগ.*30.*লিটার/);
+  assert.match(q.solution.shortcut.bn, /1 ভাগ.*6.*লিটার/);
+  assert.match(q.solution.shortcut.bn, /2.*ভাগ/);
+  assert.match(q.solution.shortcut.bn, /12.*লিটার/);
+
+  const differentMilkParts = questions.find((item) => {
+    const [, oldMilk, , newMilk] = item.stem.en.match(/ratio (\d+) : (\d+)\. .* ratio (\d+) : (\d+)\?/);
+    return oldMilk !== newMilk;
+  });
+  assert.ok(differentMilkParts);
+  assert.equal(differentMilkParts.solution.shortcut, undefined, 'the equal-parts shortcut is not shown when the milk parts differ');
+});
+
 test('seating arrangement: brute force confirms exactly one line-up fits the clues, and the key matches it', () => {
   common.seed(202);
   const { permutations } = seating._internal;

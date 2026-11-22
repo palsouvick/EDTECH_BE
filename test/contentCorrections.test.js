@@ -13,6 +13,8 @@ const { MongoMemoryServer } = require('mongodb-memory-server');
 const { Question } = require('../src/models');
 const { newOptionId } = require('../src/models/Question');
 const { applyCorrections, loadLog } = require('../scripts/applyContentCorrections');
+const common = require('../scripts/generators/common');
+const mixture = require('../scripts/generators/supplement/quant');
 
 const P = (en, bn) => ({ en, bn });
 let mongod;
@@ -96,20 +98,58 @@ test('a stem fix is found by the old stem and re-keyed to the new one', async ()
   assert.equal((await applyCorrections({ dir, log: () => {} })).unchanged, 1, 'found again by the new stem');
 });
 
+test('a generated-question shortcut fix updates only the explanation and is idempotent', async () => {
+  const options = ['12 litres', '10 litres', '14 litres', '8 litres'].map((t) => ({ oid: newOptionId(), text: P(t, t) }));
+  const stem = 'A 30-litre mixture contains milk and water in the ratio 3 : 2. How much water must be added to make the ratio 3 : 4?';
+  const q = await Question.create({
+    code: 'QA-QNT-999001', exam_targets: [{ category: 'SSC', tier: 'PRELIMS' }], subject: 'quant', topic: 'mixture_alligation', difficulty: 3,
+    stem: P(stem, '৩০ লিটার মিশ্রণে দুধ ও জলের অনুপাত ৩ : ২। অনুপাত ৩ : ৪ করতে কত জল মেশাতে হবে?'),
+    options, correct_option_id: options[0].oid, solution: { steps: [P('Existing steps.', 'আগের ধাপ।')] },
+    status: 'PUBLISHED', authored_by: 'seed_generator',
+  });
+  const [entry] = loadLog().filter((item) => item.target?.kind === 'generated_question' && item.target.stem_en === stem);
+  assert.ok(entry, 'the generated-question correction is in the correction log');
+  const generatedDir = fs.mkdtempSync(path.join(dir, 'generated-'));
+  fs.writeFileSync(path.join(generatedDir, 'generated.json'), JSON.stringify([entry]));
+
+  const applied = await applyCorrections({ dir: generatedDir, log: () => {} });
+  assert.equal(applied.applied, 1);
+  const after = await Question.findById(q._id).select('+correct_option_id +solution').lean();
+  assert.equal(String(after._id), String(q._id));
+  assert.equal(after.correct_option_id, q.correct_option_id);
+  assert.equal(after.solution.steps[0].en, 'Existing steps.');
+  assert.deepEqual(after.solution.shortcut, entry.fix.shortcut);
+  assert.deepEqual(await applyCorrections({ dir: generatedDir, log: () => {} }).then((s) => [s.applied, s.unchanged]), [0, 1]);
+
+  const [addWater] = mixture.topics[0].gens.slice(2, 3);
+  common.seed(7);
+  let generated;
+  for (let i = 0; i < 2000 && !generated; i++) {
+    const candidate = addWater();
+    if (candidate?.stem.en === stem) generated = candidate;
+  }
+  assert.ok(generated);
+  assert.deepEqual(entry.fix.shortcut, generated.solution.shortcut, 'the existing-question correction matches the generator output');
+});
+
 test('the History log: ids unique, every entry has old, new, source and status; factbank fixes are already in the bank files', () => {
   const log = loadLog();
-  assert.ok(log.length >= 70);
+  const history = log.filter((e) => e.target?.kind !== 'generated_question');
+  assert.ok(history.length >= 70);
   assert.equal(new Set(log.map((e) => e.id)).size, log.length);
-  for (const e of log) {
+  for (const e of history) {
     assert.ok(e.target?.kind && e.old && e.new && e.status, e.id);
     assert.match(e.source?.url || '', /^https:\/\/ncert\.nic\.in\/textbook\/pdf\//, `${e.id} cites an NCERT page`);
   }
-  for (const e of log.filter((x) => x.target.kind === 'factbank' && x.fix)) {
+  for (const e of history.filter((x) => x.fix)) {
     const item = require(`../scripts/generators/factbank/${e.target.file}`).items[e.target.index];
     if (e.fix.stem) assert.equal(item.q[0], e.fix.stem.en, e.id);
     if (e.fix.answer) assert.equal(item.a[0], e.fix.answer.en, e.id);
     if (e.fix.explanation) assert.equal(item.e[0], e.fix.explanation.en, e.id);
   }
+  const generated = log.filter((e) => e.target?.kind === 'generated_question');
+  assert.equal(generated.length, 1);
+  assert.ok(generated[0].fix.shortcut.en && generated[0].fix.shortcut.bn);
   const gk = fs.readFileSync(path.join(__dirname, '../db/gk/indian_history.jsonl'), 'utf8');
   assert.equal(gk.includes('Report of Alexander Cunningham on Harappan seal 1875') && /GK-HIS-0(19|2[0-6])[^\n]*Report of Alexander Cunningham on Harappan seal/.test(gk), false, 'no fact 019-026 cites the unrelated Harappan quote');
   assert.equal(/broke Maratha power for a generation/.test(gk), false);

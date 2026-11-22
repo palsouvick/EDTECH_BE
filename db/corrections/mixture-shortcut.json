@@ -1,0 +1,16 @@
+[
+  {
+    "id": "QUANT-MIXTURE-ADD-WATER-30L-SHORTCUT",
+    "target": {
+      "kind": "generated_question",
+      "subject": "quant",
+      "stem_en": "A 30-litre mixture contains milk and water in the ratio 3 : 2. How much water must be added to make the ratio 3 : 4?"
+    },
+    "fix": {
+      "shortcut": {
+        "en": "**Shortcut 1: Ratio method.** Only water is added, so the milk amount stays the same. Old ratio (milk : water) = $3 : 2$; new ratio = $3 : 4$. The milk parts are equal, so no rescaling is needed. The original $3 + 2 = 5$ parts equal $30$ L, so 1 part $= 30/5 = 6$ L. Water increases by $4 - 2 = 2$ parts. Water added $= (4 - 2) \\times 6 = 12$ L.",
+        "bn": "**পদ্ধতি ১: অনুপাত পদ্ধতি।** শুধু জল মেশানো হচ্ছে, তাই দুধের পরিমাণ অপরিবর্তিত থাকবে। আগের অনুপাত (দুধ : জল) $= 3 : 2$; নতুন অনুপাত $= 3 : 4$। দুটি অনুপাতেই দুধের ভাগ সমান, তাই আলাদা করে সমান করতে হবে না। শুরুতে মোট মিশ্রণ $= 3 + 2 = 5$ ভাগ, অর্থাৎ $30$ লিটার। সুতরাং 1 ভাগ $= 30/5 = 6$ লিটার। জল বেড়েছে $2$ থেকে $4$ ভাগ, অর্থাৎ $4 - 2 = 2$ ভাগ। অতএব মেশানো জলের পরিমাণ $= (4 - 2) \\times 6 = 12$ লিটার।"
+      }
+    }
+  }
+]

@@ -116,6 +116,12 @@ function allAddWater() {
   const o = numOptions(add, unit('litres', 'লিটার'), [
     [(total * d) / c - water, 'You applied the new ratio to the whole mixture; the milk quantity is what stays fixed.', 'আপনি নতুন অনুপাত পুরো মিশ্রণে প্রয়োগ করেছেন; দুধের পরিমাণই অপরিবর্তিত থাকে।'],
   ]);
+  const shortcut = a === c
+    ? T(
+      `**Shortcut 1: Ratio method.** Only water is added, so the milk amount stays the same. Old ratio (milk : water) = $${a} : ${b}$; new ratio = $${c} : ${d}$. The milk parts are equal, so no rescaling is needed. The original $${a} + ${b} = ${a + b}$ parts equal $${total}$ L, so 1 part $= ${total}/${a + b} = ${k}$ L. Water increases by $${d} - ${b} = ${d - b}$ parts. Water added $= (${d} - ${b}) \\times ${k} = ${add}$ L.`,
+      `**পদ্ধতি ১: অনুপাত পদ্ধতি।** শুধু জল মেশানো হচ্ছে, তাই দুধের পরিমাণ অপরিবর্তিত থাকবে। আগের অনুপাত (দুধ : জল) $= ${a} : ${b}$; নতুন অনুপাত $= ${c} : ${d}$। দুটি অনুপাতেই দুধের ভাগ সমান, তাই আলাদা করে সমান করতে হবে না। শুরুতে মোট মিশ্রণ $= ${a} + ${b} = ${a + b}$ ভাগ, অর্থাৎ $${total}$ লিটার। সুতরাং 1 ভাগ $= ${total}/${a + b} = ${k}$ লিটার। জল বেড়েছে $${b}$ থেকে $${d}$ ভাগ, অর্থাৎ $${d} - ${b} = ${d - b}$ ভাগ। অতএব মেশানো জলের পরিমাণ $= (${d} - ${b}) \\times ${k} = ${add}$ লিটার।`,
+    )
+    : undefined;
   return build({
     topic: 'mixture_alligation', subtopic: 'add_water', tags: ['ratio_change'], difficulty: 3, time: 60,
     stem: T(
@@ -127,6 +133,7 @@ function allAddWater() {
       T(`Milk = ${total} × ${a}/${a + b} = ${milk} L, water = ${water} L. Adding water does not change the milk.`, `দুধ = ${total} × ${a}/${a + b} = ${milk} লিটার, জল = ${water} লিটার। জল মেশালে দুধের পরিমাণ বদলায় না।`),
       T(`New water = ${milk} × ${d}/${c} = ${(milk * d) / c} L, so add ${(milk * d) / c} − ${water} = ${add} L.`, `নতুন জল = ${milk} × ${d}/${c} = ${(milk * d) / c} লিটার, অতএব মেশাতে হবে ${(milk * d) / c} − ${water} = ${add} লিটার।`),
     ],
+    shortcut,
   });
 }
 

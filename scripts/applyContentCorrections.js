@@ -11,9 +11,9 @@
  *   node --env-file-if-exists=.env scripts/applyContentCorrections.js            # apply
  *   node --env-file-if-exists=.env scripts/applyContentCorrections.js --dry-run  # report only
  *
- * Only entries with `target.kind: "factbank"` and a `fix` are applied here (GK-library facts are corrected in
- * db/gk/*.jsonl and reach the database through the GK seeder, which updates by question code). A question an
- * admin edited (version > 1) is left alone and reported. Running it twice changes nothing.
+ * Factbank fixes and explicit generated-question explanation fixes are applied here (GK-library facts are
+ * corrected in db/gk/*.jsonl and reach the database through the GK seeder, which updates by question code).
+ * A question an admin edited (version > 1) is left alone and reported. Running it twice changes nothing.
  *
  * `fix` fields: stem / answer / explanation as { en, bn }, wrong as [{ en, bn } x3] (same order as the old ones).
  * Entries with `source_verified: true` also get source_check SOURCE_VERIFIED with the NCERT page they cite.
@@ -64,10 +64,11 @@ function remapOptions(doc, entry) {
 async function applyCorrections({ dryRun = false, log = console.log, dir = DIR } = {}) {
   const stats = { entries: 0, applied: 0, unchanged: 0, notFound: [], protected: [] };
   for (const entry of loadLog(dir)) {
-    if (entry.target?.kind !== 'factbank') continue;
+    if (!['factbank', 'generated_question'].includes(entry.target?.kind)) continue;
     stats.entries += 1;
     const keys = [...questionDuplicateKeys({ en: entry.target.stem_en }), ...(entry.fix?.stem ? questionDuplicateKeys(entry.fix.stem) : [])];
-    const doc = await Question.findOne({ authored_by: AUTHOR, subject: 'gs', duplicate_keys: { $in: keys } }).select('+correct_option_id +solution version stem options source_check').lean();
+    const subject = entry.target.kind === 'factbank' ? 'gs' : entry.target.subject;
+    const doc = await Question.findOne({ authored_by: AUTHOR, subject, duplicate_keys: { $in: keys } }).select('+correct_option_id +solution version stem options source_check').lean();
     if (!doc) {
       stats.notFound.push(entry.id);
       continue;
@@ -77,7 +78,7 @@ async function applyCorrections({ dryRun = false, log = console.log, dir = DIR }
       continue;
     }
     const set = {};
-    if (entry.fix) {
+    if (entry.target.kind === 'factbank' && entry.fix) {
       if (entry.fix.stem && (doc.stem.en !== entry.fix.stem.en || doc.stem.bn !== entry.fix.stem.bn)) {
         set.stem = entry.fix.stem;
         set.duplicate_keys = questionDuplicateKeys(entry.fix.stem);
@@ -89,7 +90,12 @@ async function applyCorrections({ dryRun = false, log = console.log, dir = DIR }
         if (texts(steps) !== texts(doc.solution?.steps)) set['solution.steps'] = steps;
       }
     }
-    if (entry.source_verified && entry.source?.url && doc.source_check?.status !== 'SOURCE_VERIFIED') {
+    if (entry.target.kind === 'generated_question' && entry.fix?.shortcut) {
+      if (doc.solution?.shortcut?.en !== entry.fix.shortcut.en || doc.solution?.shortcut?.bn !== entry.fix.shortcut.bn) {
+        set['solution.shortcut'] = entry.fix.shortcut;
+      }
+    }
+    if (entry.target.kind === 'factbank' && entry.source_verified && entry.source?.url && doc.source_check?.status !== 'SOURCE_VERIFIED') {
       set.source_check = { status: 'SOURCE_VERIFIED', source_url: entry.source.url, source_title: entry.source.title || 'NCERT textbook', checked_at: new Date(`${entry.date}T00:00:00Z`), checked_by: 'content_audit', note: `Content-quality log ${entry.id}` };
     }
     if (!Object.keys(set).length) {
