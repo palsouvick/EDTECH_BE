@@ -1,2 +1,7 @@
 node_modules/
 .env
+
+# Uploaded course PDFs (user data, never in git)
+storage/
+# OCR model backups
+*.traineddata.bak
