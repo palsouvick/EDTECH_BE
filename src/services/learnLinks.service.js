@@ -12,7 +12,9 @@
  *                      by hand; entries marked taught:false are never used)
  *   3. GK fact         a fact the question is linked to (Question.fact_ids — the fact's own questions and its
  *                      linked_existing stems, matched by seedGkFacts)
- *   4. book chapter    a GS question whose subtopic is covered by exactly ONE published chapter of the
+ *   3b. family         a generated question family listed in FAMILY_SECTIONS (hand-checked: the section
+ *                      teaches every pair the family generates)
+ *   4. book chapter   a GS question whose subtopic is covered by exactly ONE published chapter of the
  *                      matching book (the chapter's declared `subtopics`); two or more candidates → no link,
  *                      and never for a PYQ that chapter's pyq_map entry marks taught:false
  *   5. lesson          a Math / English question whose chapter has a lesson (db/lessons)
@@ -145,6 +147,27 @@ function fromPyqMap(q, idx) {
   return null;
 }
 
+/**
+ * Generated question families taught by one book section, checked by hand: every pair the family
+ * generates appears in that section (test/learnLinks.test.js checks this against the generator rows).
+ * Matched on topic + all listed concept tags, never on stem keywords.
+ */
+const FAMILY_SECTIONS = [
+  // scripts/generators/supplement/gs.js WB_DISTRICTS: "headquarters of X district" both ways → the 23-district HQ table.
+  { topic: 'west_bengal_gk', tags: ['gs-pairs', 'districts'], book: 'GEO', chapter: 'GEO-11', section: 'districts' },
+];
+
+function fromFamily(q, idx) {
+  const tags = new Set(q.concept_tags || []);
+  for (const f of FAMILY_SECTIONS) {
+    if (q.topic !== f.topic || !f.tags.every((t) => tags.has(t))) continue;
+    const loaded = idx.byPrefix.get(f.book);
+    const t = loaded && bookTarget(loaded, f.chapter, f.section);
+    if (t) return t;
+  }
+  return null;
+}
+
 function fromSubtopicChapter(q, idx) {
   if (q.subject !== 'gs' || !q.subtopic) return null;
   const loaded = idx.byTopic.get(q.topic);
@@ -209,6 +232,7 @@ async function learnLinksFor(questionIds) {
     const target = fromBookTag(q, idx)
       ?? fromPyqMap(q, idx)
       ?? (fact ? factTarget(fact) : null)
+      ?? fromFamily(q, idx)
       ?? fromSubtopicChapter(q, idx)
       ?? fromLesson(q)
       ?? fromSheet(q, sheetMap);

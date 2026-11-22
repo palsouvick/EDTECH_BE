@@ -50,7 +50,7 @@ function family({ topic, subtopic, tags, d = 1, rows, forms }) {
       steps: [form.e(a, b)],
     });
   };
-  return { topic, weight: 1, gens: [gen], capacity: jobs.length };
+  return { topic, weight: 1, gens: [gen], capacity: jobs.length, rows }; // rows: read by test/learnLinks.test.js
 }
 
 // ------------------------------------------------------------------ geography

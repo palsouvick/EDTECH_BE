@@ -41,6 +41,8 @@ const mock = require('./mock.service');
 const config = require('../config');
 const AppError = require('../utils/AppError');
 const L = require('./customTest.logic');
+const AD = require('./adaptive.logic');
+const HQ = require('./hardQuiz.logic');
 const { availability } = require('./bankAvailability');
 const { safeLearnLinkFor } = require('./learnLinks.service');
 
@@ -109,6 +111,7 @@ async function loadSignals(userId, subject) {
     mistakePatterns: new Set(mistakeQs.filter((q) => q.pattern).map((q) => `${q.topic}.${q.pattern}`)),
     mistakeSubtopics: new Set(mistakeQs.filter((q) => q.subtopic).map((q) => `${q.topic}.${q.subtopic}`)),
     weakPatterns,
+    masteredPatterns: HQ.masteredPatterns(answers),
     mastery,
     mistakesByTopic,
     priority: priorities.subjects?.[subject]?.topics ?? {},
@@ -265,6 +268,42 @@ async function resolveRequest(userId, body, signals, allTopics) {
       r.followUp = { sessionId: String(prev._id), accuracy: acc };
       break;
     }
+    case 'adaptive': {
+      // Adaptive practice: every chapter at its OWN level (adaptive.logic), never one difficulty for all.
+      if (!ANALYSIS_SUBJECTS.includes(body.subject)) throw AppError.unprocessable('ADAPTIVE_SUBJECT', 'Adaptive practice is for Mathematics and English');
+      r.questionCount = body.questionCount ?? 10;
+      r.difficulty = 'mixed'; // shown on the session only; each chapter's mix decides
+      r.mode = body.mode ?? 'practice';
+      r.distribution = 'smart';
+      r.adaptivePlan = await analysis.adaptivePlan(userId, body.subject, { language: body.language, count: r.questionCount, topics: chosen });
+      r.topics = [...new Set(r.adaptivePlan.map((p) => p.topic))];
+      if (!r.topics.length) throw AppError.unprocessable('INSUFFICIENT_QUESTIONS', 'No questions are available for adaptive practice yet', { available: 0, requested: r.questionCount });
+      break;
+    }
+    case 'hard': {
+      // Math Hard Quiz: skill slots (reverse, mixed, trap, ...) at each chapter's OWN tier
+      // (hardQuiz.logic). A weak chapter gets foundation questions, never a Hard set.
+      if (body.subject !== 'quant') throw AppError.unprocessable('HARD_QUIZ_SUBJECT', 'The Hard Quiz is for Mathematics');
+      r.topics = chosen.length ? chosen : allTopics;
+      r.questionCount = body.questionCount ?? 10;
+      r.difficulty = 'hard'; // label only; each chapter's tier decides
+      r.mode = body.mode ?? 'practice';
+      r.distribution = 'smart';
+      const a = await analysis.analyseSubject(userId, body.subject, { language: body.language, detail: false });
+      r.hardTiers = new Map(a.chapters.map((c) => [c.topic, HQ.tierOf(c)]));
+      break;
+    }
+    case 'speed': {
+      // Speed Challenge: 5/10/15/20 questions against a time limit the student chooses; exam screen,
+      // practice marking (+1, no negative), difficulty as chosen.
+      if (!HQ.SPEED_COUNTS.includes(body.questionCount)) throw AppError.unprocessable('SPEED_COUNT', `A Speed Challenge has ${HQ.SPEED_COUNTS.join(', ')} questions`);
+      if (typeof body.timeLimitMinutes !== 'number') throw AppError.unprocessable('SPEED_TIME_REQUIRED', 'Choose a time limit for the Speed Challenge');
+      r.topics = chosen;
+      r.difficulty = body.difficulty ?? 'exam';
+      r.mode = 'exam';
+      r.distribution = body.distribution ?? 'smart';
+      break;
+    }
     case 'smart': {
       if (!ANALYSIS_SUBJECTS.includes(body.subject)) throw AppError.unprocessable('SMART_QUIZ_SUBJECT', 'Smart Quiz is for Mathematics and English');
       r.questionCount = body.questionCount ?? 15;
@@ -400,6 +439,12 @@ async function previewPyq(userId, req) {
 }
 
 function planFor(req, avail, signals) {
+  if (req.adaptivePlan) {
+    // Adaptive practice: chapter, role and level per entry (a chapter may appear in two roles).
+    const plan = req.adaptivePlan.map((p) => ({ topic: p.topic, count: p.count, role: p.role, level: p.level, reasons: [`role:${p.role}`, `level:${p.level}`], mix: p.mix, pyqBoost: p.pyqBoost }));
+    const total = plan.reduce((a, p) => a + p.count, 0);
+    return { plan, total, shortBy: Math.max(0, req.questionCount - total) };
+  }
   if (req.smartPlan) {
     // Smart Quiz: the learning analysis already decided the share of every chapter.
     const plan = req.smartPlan.map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons }));
@@ -418,7 +463,24 @@ function planFor(req, avail, signals) {
       focus: req.focus.has(t),
     };
   });
-  return L.planDistribution({ chapters, questionCount: req.questionCount, distribution: req.distribution });
+  const res = L.planDistribution({ chapters, questionCount: req.questionCount, distribution: req.distribution });
+  if (req.hardTiers) {
+    // Hard Quiz: each chapter is picked at its own tier (not assessed yet = developing).
+    for (const p of res.plan) {
+      p.tier = req.hardTiers.get(p.topic) ?? 'developing';
+      p.reasons = [...p.reasons, `tier:${p.tier}`];
+    }
+  }
+  return res;
+}
+
+/** "topic.pattern" of every pattern that real past-paper questions of the subject use (🔵 PYQ-pattern practice). */
+async function pyqPatternsOf(subject) {
+  const rows = await Question.aggregate([
+    { $match: { status: 'PUBLISHED', subject, provenance: { $in: L.REAL_PAPER }, 'pyq.is_pyq': true, pattern: { $type: 'string' } } },
+    { $group: { _id: { topic: '$topic', pattern: '$pattern' } } },
+  ]);
+  return new Set(rows.map((r) => `${r._id.topic}.${r._id.pattern}`));
 }
 
 /** The plan without creating a test: shown on the summary step. */
@@ -437,7 +499,7 @@ async function previewTest(userId, body) {
     difficulty: req.difficulty,
     distribution: req.distribution,
     mode: req.mode,
-    plan,
+    plan: plan.map(({ mix, pyqBoost, ...p }) => p),
     recommendedMinutes: L.smartMinutes(body.subject, req.difficulty, total),
     followUp: req.followUp,
   };
@@ -476,7 +538,7 @@ async function insertSession(userId, { subject, language, ordered, custom, marki
       ...custom,
       recommended_min: recommended,
     },
-    questions: ordered.map((q, i) => ({ qid: q._id, seq: i + 1, topic: q.topic, difficulty: q.difficulty })),
+    questions: ordered.map((q, i) => ({ qid: q._id, seq: i + 1, topic: q.topic, difficulty: q.difficulty, ...(q.practiceType && { practice_type: q.practiceType }), ...(q.hardSlot && { hard_slot: q.hardSlot }) })),
     answer_key: Object.fromEntries(ordered.map((q) => [String(q._id), q.correct_option_id])),
     started_at: now,
     expires_at: expiresAt,
@@ -577,8 +639,10 @@ async function createTest(userId, body) {
     byTopic.get(q.topic).push(q);
   }
 
+  const labelled = req.preset === 'hard' || req.preset === 'speed';
+  const pyqPatterns = labelled ? await pyqPatternsOf(subject) : null;
   const picked = [];
-  const notes = { borrowed: 0, pyq: 0, siblings: 0, originals: 0, skipped: 0, mix: { EASY: 0, MEDIUM: 0, HARD: 0 } };
+  const notes = { borrowed: 0, pyq: 0, siblings: 0, originals: 0, skipped: 0, mix: { EASY: 0, MEDIUM: 0, HARD: 0 }, ...(req.preset === 'hard' && { slots: {}, shortSlots: [] }) };
   const finalPlan = [];
   const dupSeen = new Set();
   for (const p of plan) {
@@ -588,10 +652,20 @@ async function createTest(userId, body) {
     }
     // A question that is a duplicate of one already chosen for another chapter is skipped.
     const pool = (byTopic.get(p.topic) || []).filter((q) => !(q.duplicate_keys || []).some((d) => dupSeen.has(d)));
-    const res = L.pickChapter(pool, p.count, { mix: rule.mix, signals, preset: req.preset, pyqBoost: rule.pyqBoost });
+    let res;
+    if (p.tier) res = HQ.pickHard(pool, p.count, { tier: p.tier, signals });
+    else if (p.mix) res = L.pickChapter(pool, p.count, { mix: p.mix, signals, preset: p.role === 'mistakes' ? 'mistakes' : req.preset, pyqBoost: p.pyqBoost, levels: true });
+    else res = L.pickChapter(pool, p.count, { mix: rule.mix, signals, preset: req.preset, pyqBoost: rule.pyqBoost });
+    if (p.mix) for (const q of res.picked) q.practiceType = p.role === 'challenge' && !q.realPyq ? 'challenge' : AD.practiceTypeOf(q);
+    if (labelled) for (const q of res.picked) q.practiceType = HQ.practiceTypeFor(q, pyqPatterns);
+    if (notes.slots) {
+      for (const [k, v] of Object.entries(res.slots || {})) notes.slots[k] = (notes.slots[k] || 0) + v;
+      for (const s of res.short || []) if (!notes.shortSlots.includes(s)) notes.shortSlots.push(s);
+    }
     for (const q of res.picked) for (const d of q.duplicate_keys || []) dupSeen.add(d);
     picked.push(...res.picked);
-    finalPlan.push({ ...p, count: res.picked.length });
+    const { mix: _mix, pyqBoost: _boost, ...kept } = p; // tier (Hard Quiz) is kept on the stored plan
+    finalPlan.push({ ...kept, count: res.picked.length });
     notes.borrowed += res.borrowed;
     notes.pyq += res.pyq;
     notes.siblings += res.siblings;
@@ -605,7 +679,7 @@ async function createTest(userId, body) {
 
   const docs = await Question.find({ _id: { $in: picked.map((q) => q._id) } }).select(`${PUBLIC_QUESTION_FIELDS} +correct_option_id`).lean();
   const byId = new Map(docs.map((d) => [String(d._id), d]));
-  const ordered = mock.shuffle(picked.map((q) => byId.get(String(q._id))).filter(Boolean));
+  const ordered = mock.shuffle(picked.map((q) => byId.get(String(q._id)) && { ...byId.get(String(q._id)), practiceType: q.practiceType, hardSlot: q.hardSlot }).filter(Boolean));
   if (ordered.length < picked.length) throw new AppError(503, 'GENERATION_RACE', 'Question bank changed during generation, please retry');
 
   const n = ordered.length;
@@ -613,7 +687,7 @@ async function createTest(userId, body) {
   const untimed = req.timeLimitMinutes === null;
   const minutes = untimed ? null : (req.timeLimitMinutes ?? recommended);
   if (!untimed && minutes * 60 < n * 10) throw AppError.unprocessable('TIME_TOO_SHORT', 'The time must allow at least 10 seconds per question');
-  const practice = req.mode === 'practice';
+  const practice = req.mode === 'practice' || req.preset === 'speed'; // a Speed Challenge never takes negative marks
   const marking = practice ? PRACTICE_MARKING : resolveMarking({ category: CATEGORY, subject });
 
   const { session, now, expiresAt } = await insertSession(userId, {
@@ -737,8 +811,9 @@ async function getReport(userId, sessionId) {
     .sort((a, b) => order.indexOf(a.topic) - order.indexOf(b.topic));
 
   // Concepts (question patterns) inside the chapters, e.g. "Successive percentage change".
-  const qs = await Question.find({ _id: { $in: r.per_question.map((p) => p.qid) } }).select('pattern').lean();
+  const qs = await Question.find({ _id: { $in: r.per_question.map((p) => p.qid) } }).select('topic pattern difficulty provenance pyq.is_pyq').lean();
   const patternOf = new Map(qs.map((q) => [String(q._id), q.pattern]));
+  const qMeta = new Map(qs.map((q) => [String(q._id), q]));
   const byPattern = new Map();
   for (const p of r.per_question) {
     const key = patternOf.get(String(p.qid));
@@ -769,6 +844,31 @@ async function getReport(userId, sessionId) {
   }
   const focus = chapterRows.filter((c) => c.accuracy < L.STRONG_FROM);
   const scores = await recentScores(userId, subject);
+
+  // "Why was this hard?" (Math): accuracy per skill, and one next step for the whole result.
+  let skills = null;
+  let next = null;
+  if (subject === 'quant') {
+    const rows = r.per_question.map((p) => {
+      const q = qMeta.get(String(p.qid));
+      const cats = q ? HQ.categoriesOf({ ...q, realPyq: Boolean(q.pyq?.is_pyq && L.REAL_PAPER.includes(q.provenance)) }) : new Set();
+      return { cats, correct: p.outcome === 'CORRECT' };
+    });
+    skills = HQ.skillReport(rows);
+    const wrongBy = new Map();
+    for (const p of r.per_question) {
+      const key = patternOf.get(String(p.qid));
+      if (!key || p.outcome === 'CORRECT') continue;
+      const k = `${p.topic}.${key}`;
+      wrongBy.set(k, { topic: p.topic, pattern: key, n: (wrongBy.get(k)?.n || 0) + 1 });
+    }
+    const repeated = [...wrongBy.values()].filter((v) => v.n >= 2).sort((a, b) => b.n - a.n)[0] ?? null;
+    const foundationTopics = (session.custom.plan || []).filter((p) => p.tier === 'foundation').map((p) => p.topic);
+    next = HQ.nextStep({ accuracy, preset: session.custom.preset, chapters: chapterRows, repeatedPattern: repeated, foundationTopics });
+    if (next.topic) next.name = titles.get(next.topic) ?? topicName(subject, next.topic);
+    if (next.pattern) next.patternName = insights.patternName(subject, next.topic, next.pattern)?.name ?? null;
+  }
+  const speed = session.custom.preset === 'speed' ? HQ.speedReport(r.per_question, session.config.time_limit_min) : null;
   return {
     sessionId: String(session._id),
     subject,
@@ -788,6 +888,9 @@ async function getReport(userId, sessionId) {
     masteryPct: session.custom.preset === 'mastery' ? accuracy : null,
     concepts,
     recommendations,
+    skills,
+    nextStep: next,
+    speed,
     previous,
     nextTest: {
       preset: 'followup',

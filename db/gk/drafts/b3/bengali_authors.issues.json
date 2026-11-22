@@ -1,0 +1,37 @@
+[
+  {
+    "file": "scripts/generators/factbank/west_bengal_gk_2.js",
+    "stem": "Under which pen name did young Rabindranath write \"Bhanusingha Thakurer Padabali\"?",
+    "problem": "Answer (Bhanusingha) is the well-known one but no allowed source fetched states that Bhanusingha is a pen name. Banglapedia (Vaisnava Literature) only says Tagore composed Bhanusingha Thakurer Padavali (1884) in Brajabuli. Not linked, not re-asked. Needs a Visva-Bharati / Rabindra Rachanabali page.",
+    "source_url": "https://en.banglapedia.org/index.php/Vaisnava_Literature",
+    "quote": "rabindranath tagore also composed his Bhanusingha Thakurer Padavali (1884) in this language."
+  },
+  {
+    "file": "scripts/generators/factbank/west_bengal_gk_2.js",
+    "stem": "Tarashankar Bandyopadhyay received the Jnanpith Award (1966) for:",
+    "problem": "Not touched by this batch: jnanpith.net returned HTTP 500 / 404 on every URL tried, so the Jnanpith claim could not be checked here. Banglapedia lists Gana Devata (1943) on the Tarashankar page but Ganadevata (1942) on the Novel page.",
+    "source_url": "https://en.banglapedia.org/index.php/Bandyopadhyay,_Tarashankar",
+    "quote": "Kavi (1944), Gana Devata (1943), Panchagram (1944), Hansuli Banker Upakatha (1947), Arogya Niketan (1953)"
+  },
+  {
+    "file": "db/gk/drafts/b3/bengali_authors.jsonl",
+    "stem": "Source disagreement: Premendra Mitra's Sahitya Akademi year",
+    "problem": "Sahitya Akademi list gives 1957 (Sagar Theke Phera); Banglapedia (Mitra, Premendra) says Akademi prize 1956. The Akademi list is used (GK-WBG-247, GK-WBG-250 only as distractor context). Also Banglapedia dates Alaler Gharer Dulal 1857 (own page) vs 1858 (other pages): no year stated in these facts.",
+    "source_url": "https://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+    "quote": "1957 | Sagar Theke Phera (Poetry) | Premendra Mitra"
+  },
+  {
+    "file": "db/gk/drafts/b3/bengali_authors.jsonl",
+    "stem": "DROPPED candidates (no allowed source quotable)",
+    "problem": "Pen names: Bhanusingha (Tagore), Kamalakanta (Bankim; Banglapedia's only Kamalakanta is a Sakta songwriter, a different person), Jarasandha (Charu Chandra Chakrabarti), Yajabar (Binoy Mukhopadhyay), Abadhut, Nil Lohit as Sunil Gangopadhyay's name (Banglapedia only lists Nila Lohit as Pramatha Chowdhury's story title), Mounomachhi, Bhaskar. Characters: Kiriti Roy, Kakababu, Jayanta-Manik / Bimal-Kumar, Mitin Masi, Debdas as character. Books: Shesher Kabita, Pratham Alo (only a title), Sei Samay Part I. satyajitray.org was not used because it states it is not affiliated with the Ray family or trust (not an institutional source).",
+    "source_url": "https://satyajitray.org/about-us/",
+    "quote": "SatyajitRay.org is not affiliated in any way with any Satyajit Ray Trust or the Ray family."
+  },
+  {
+    "file": "db/gk/drafts/b3/bengali_authors.jsonl",
+    "stem": "Second pass (GK-WBG-260..269): Byomkesh, Kiriti Roy, Kakababu, Bhanusingha, Kamalakanta",
+    "problem": "Byomkesh is now supported (Prasar Bharati episode page, GK-WBG-260). Still no allowed page for Kiriti Roy, Kakababu, Bhanusingha (pen name) or Kamalakanta: Banglapedia has no entries; tagoreweb has the poems only; Indian Culture API returns 403; search engines block scripts (not bypassed). doordarshan.gov.in/ddnational/byomkesh-bakshi-0 could not be fetched (connection failed).",
+    "source_url": "https://www.tagoreweb.in/Verses/bhanusingha-thakurer-padabali-4",
+    "quote": "ভানুসিংহ ঠাকুরের পদাবলী"
+  }
+]

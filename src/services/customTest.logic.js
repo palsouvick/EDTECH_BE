@@ -13,7 +13,8 @@ const { DIFFICULTY_BANDS } = require('../models/constants');
 
 const SUBJECTS = Object.freeze(['quant', 'english', 'gs']);
 const DIFFICULTIES = Object.freeze(['easy', 'moderate', 'hard', 'exam', 'mixed']);
-const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq']);
+// hard = Math Hard Quiz (skill slots + per-chapter tier, hardQuiz.logic); speed = timed Speed Challenge.
+const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq', 'adaptive', 'hard', 'speed']);
 const MIN_QUESTIONS = 5;
 const MAX_QUESTIONS = 100;
 const REAL_PAPER = Object.freeze(['OFFICIAL_VERIFIED', 'ADAPTED_PYQ']);
@@ -184,6 +185,8 @@ function planDistribution({ chapters, questionCount, distribution }) {
  *   the exact question got wrong          only in "Retry my mistakes" (+1), capped at 30% of the chapter
  *   pattern the student is weak at        +1
  *   real previous-year question           +boost x (1..2 by recency)
+ *   pattern already mastered              x0.35  (5+ right on 2+ days, hardQuiz.logic masteredPatterns;
+ *                                                 not in "Retry my mistakes"), so practice rotates patterns
  * Smart Quiz ("smart") also uses:
  *   a question the student skipped        (w + 5) x 4  (still open: nearly always comes back)
  *   same pattern/sub-topic as a mistake   +3 more (same concept, a DIFFERENT question)
@@ -198,13 +201,14 @@ function scoreCandidate(q, s, { preset, pyqBoost, currentYear = new Date().getUT
   const original = s.mistakeQids.has(id);
   const sibling = !original && ((q.pattern && s.mistakePatterns.has(key(q.pattern))) || (q.subtopic && s.mistakeSubtopics.has(key(q.subtopic))));
   if (sibling) w = preset === 'mistakes' ? (w + 4) * 3 : w + 1.5;
-  if (original && (preset === 'mistakes' || preset === 'smart')) w += 1;
+  if (original && (preset === 'mistakes' || preset === 'smart' || preset === 'adaptive')) w += 1;
   const skipped = Boolean(s.skipQids?.has(id));
-  if (preset === 'smart') {
+  if (preset === 'smart' || preset === 'adaptive') {
     if (skipped) w = (w + 5) * 4;
     if (sibling) w += 3;
   }
   if (q.pattern && s.weakPatterns.has(key(q.pattern))) w += 1;
+  if (q.pattern && preset !== 'mistakes' && !sibling && s.masteredPatterns?.has(key(q.pattern))) w *= 0.35;
   if (q.realPyq) {
     const age = q.latest_pyq_year ? Math.max(0, currentYear - q.latest_pyq_year) : 10;
     w += pyqBoost * (1 + Math.max(0, 1 - age / 10));
@@ -214,6 +218,9 @@ function scoreCandidate(q, s, { preset, pyqBoost, currentYear = new Date().getUT
 }
 
 const BACKFILL = { EASY: ['MEDIUM', 'HARD'], MEDIUM: ['HARD', 'EASY'], HARD: ['MEDIUM', 'EASY'] };
+// Adaptive practice fills by exact difficulty (1-5); a short level borrows from the nearest one —
+// downwards first for the easy levels (a weak student), upwards first for the hard ones.
+const LEVEL_BACKFILL = { 1: [2, 3, 4, 5], 2: [1, 3, 4, 5], 3: [2, 4, 1, 5], 4: [5, 3, 2, 1], 5: [4, 3, 2, 1] };
 
 /**
  * Picks `count` questions of one chapter. Ranking is weighted random (Efraimidis–Spirakis:
@@ -224,11 +231,14 @@ const BACKFILL = { EASY: ['MEDIUM', 'HARD'], MEDIUM: ['HARD', 'EASY'], HARD: ['M
  * "Retry my mistakes").
  * @returns {{ picked: object[], mix: {EASY,MEDIUM,HARD}, borrowed: number, pyq: number, siblings: number, originals: number }}
  */
-function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBoost = 1, rng = () => crypto.randomInt(1, 2 ** 31) / 2 ** 31 }) {
+function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBoost = 1, levels = false, rng = () => crypto.randomInt(1, 2 ** 31) / 2 ** 31 }) {
+  // `levels`: `mix` is keyed by stored difficulty (1-5, adaptive practice) instead of EASY/MEDIUM/HARD.
+  const quotaKey = levels ? (d) => String(Math.min(5, Math.max(1, Math.round(d ?? 3)))) : bandOf;
+  const backfill = levels ? Object.fromEntries(Object.entries(LEVEL_BACKFILL).map(([k, v]) => [k, v.map(String)])) : BACKFILL;
   const ranked = candidates
     .map((q) => {
       const sc = scoreCandidate(q, signals, { preset, pyqBoost });
-      return { q, ...sc, band: bandOf(q.difficulty), k: Math.pow(rng(), 1 / Math.max(0.01, sc.w)) };
+      return { q, ...sc, band: quotaKey(q.difficulty), k: Math.pow(rng(), 1 / Math.max(0.01, sc.w)) };
     })
     .sort((a, b) => b.k - a.k);
 
@@ -238,14 +248,15 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
   const dups = new Set();
   const perPattern = new Map();
   const patternCap = Math.max(2, Math.ceil(count / 3));
-  const originalsCap = preset === 'mistakes' ? Math.max(1, Math.floor(count * 0.3)) : preset === 'smart' ? Math.floor(count * 0.15) : 0;
+  const originalsCap = preset === 'mistakes' ? Math.max(1, Math.floor(count * 0.3)) : preset === 'smart' || preset === 'adaptive' ? Math.floor(count * 0.15) : 0;
   let originals = 0;
-  const bandCount = { EASY: 0, MEDIUM: 0, HARD: 0 };
+  const bandCount = { EASY: 0, MEDIUM: 0, HARD: 0 }; // reported mix, always in bands
+  const quotaCount = {}; // filled per quota key (band, or difficulty in `levels` mode)
 
   const ok = (r, { strictPattern, lastResort = false }) => {
     if (ids.has(String(r.q._id))) return false;
     if ((r.q.duplicate_keys || []).some((d) => dups.has(d))) return false;
-    if (r.original && !lastResort && ((preset !== 'mistakes' && preset !== 'smart') || originals >= originalsCap)) return false;
+    if (r.original && !lastResort && ((preset !== 'mistakes' && preset !== 'smart' && preset !== 'adaptive') || originals >= originalsCap)) return false;
     // Retry my mistakes is meant to repeat the mistaken patterns, so they are not capped there.
     const retrying = preset === 'mistakes' && (r.sibling || r.original);
     if (strictPattern && !retrying && r.q.pattern && (perPattern.get(r.q.pattern) || 0) >= patternCap) return false;
@@ -257,7 +268,8 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
     for (const d of r.q.duplicate_keys || []) dups.add(d);
     if (r.q.pattern) perPattern.set(r.q.pattern, (perPattern.get(r.q.pattern) || 0) + 1);
     if (r.original) originals += 1;
-    bandCount[r.band] += 1;
+    bandCount[bandOf(r.q.difficulty)] += 1;
+    quotaCount[r.band] = (quotaCount[r.band] || 0) + 1;
   };
   const fill = (band, need, strictPattern) => {
     for (const r of ranked) {
@@ -272,11 +284,11 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
   let borrowed = 0;
   for (const strictPattern of [true, false]) {
     for (const band of Object.keys(quotas)) {
-      let need = quotas[band] - bandCount[band];
+      let need = quotas[band] - (quotaCount[band] || 0);
       if (need <= 0) continue;
       need = fill(band, need, strictPattern);
       if (!strictPattern) {
-        for (const donor of BACKFILL[band]) {
+        for (const donor of backfill[band] || []) {
           if (need <= 0) break;
           const before = need;
           need = fill(donor, need, false);

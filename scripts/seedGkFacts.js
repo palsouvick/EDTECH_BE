@@ -1,5 +1,7 @@
 'use strict';
 
+const { placeCorrect } = require('../src/utils/optionOrder');
+
 /**
  * Loads the GK fact library (db/gk/*.jsonl) into gk_facts, and each fact's
  * questions into the ordinary question bank (subject gs). Idempotent.
@@ -109,6 +111,19 @@ function sourceCheckFor(fact, by = AUTHOR) {
   return { status: fact.verification.status === 'NEEDS_REVIEW' ? 'NEEDS_REVIEW' : 'SOURCE_PENDING', checked_by: by, note: fact.verification.notes || undefined };
 }
 
+/**
+ * When an edit leaves the options' text unchanged (a new explanation or wrong-option note),
+ * keep their ids: revision items and past answers point at them.
+ */
+function keepOptionIds(body, existing) {
+  const oldByText = new Map((existing.options || []).map((o) => [o.text?.en, o.oid]));
+  if (body.options.length !== oldByText.size || !body.options.every((o) => oldByText.has(o.text.en))) return;
+  const remap = new Map(body.options.map((o) => [o.oid, oldByText.get(o.text.en)]));
+  for (const o of body.options) o.oid = remap.get(o.oid);
+  body.correct_option_id = remap.get(body.correct_option_id);
+  for (const t of body.solution.traps) t.option_id = remap.get(t.option_id);
+}
+
 function questionDoc(fact, q, index, factId, by = AUTHOR) {
   const code = `GKQ-${fact.code.slice(3)}-${index + 1}`;
   const options = [q.a, ...q.w].map((o) => ({ oid: newOptionId(), text: pair(o) }));
@@ -125,9 +140,11 @@ function questionDoc(fact, q, index, factId, by = AUTHOR) {
     difficulty: q.d,
     expected_time_sec: q.format === 'DIRECT' ? 35 : 75,
     stem: pair(q.q),
-    options,
+    // The answer is listed first in the file; its display position comes from the code.
+    options: placeCorrect(options, options[0].oid, code),
     correct_option_id: options[0].oid,
-    solution: { steps, traps: [] },
+    // wn[i] explains why wrong option w[i] (options[i + 1]) is wrong; shown when it is picked.
+    solution: { steps, traps: (q.wn || []).flatMap((n, i) => (n ? [{ option_id: options[i + 1].oid, note: pair(n) }] : [])) },
     status: fact.status,
     provenance: 'ORIGINAL_PRACTICE',
     question_format: q.format,
@@ -189,12 +206,13 @@ async function applyRecords(records, { origin = 'GK_LIBRARY', by = AUTHOR } = {}
     for (const [i, q] of questions.entries()) {
       stats.questions += 1;
       const body = questionDoc(current, q, i, current._id, by);
-      const existing = await Question.findOne({ code: body.code }).select('+import_fingerprint version status').lean();
+      const existing = await Question.findOne({ code: body.code }).select('+import_fingerprint +correct_option_id version status options').lean();
       if (existing) {
         ids.push(existing._id);
         if (existing.version > 1) continue; // edited by an admin: content stays as they left it
         const set = { status: body.status, source_check: body.source_check, exam_targets: body.exam_targets, subtopic: body.subtopic, review_by: body.review_by, fact_ids: [current._id] };
         if (existing.import_fingerprint !== body.import_fingerprint) {
+          keepOptionIds(body, existing);
           Object.assign(set, { stem: body.stem, options: body.options, correct_option_id: body.correct_option_id, solution: body.solution, difficulty: body.difficulty, question_format: body.question_format, expected_time_sec: body.expected_time_sec, import_fingerprint: body.import_fingerprint, duplicate_keys: questionDuplicateKeys(body.stem) });
         }
         await Question.updateOne({ _id: existing._id }, { $set: set }, { runValidators: true });
@@ -240,7 +258,7 @@ function libraryFingerprint(dir = DIR) {
   return hash.digest('hex');
 }
 
-module.exports = { ensureGkLibrary, applyRecords, loadRecords, libraryFingerprint, targetsFor, sourceCheckFor, AUTHOR };
+module.exports = { ensureGkLibrary, applyRecords, loadRecords, libraryFingerprint, targetsFor, sourceCheckFor, questionDoc, AUTHOR };
 
 if (require.main === module) {
   const dryRun = process.argv.includes('--dry-run');

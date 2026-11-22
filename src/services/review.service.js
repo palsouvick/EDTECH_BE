@@ -10,7 +10,7 @@
  * "Due today" is everything due before the end of the student's local day.
  */
 
-const { Question, ReviewItem, PracticeAttempt } = require('../models');
+const { Question, ReviewItem, PracticeAttempt, GkFact, GkFactProgress } = require('../models');
 const { REVIEW_INTERVALS_DAYS, MASTER_AFTER } = require('../models/ReviewItem');
 const AppError = require('../utils/AppError');
 const statsBuffer = require('./questionStats.buffer');
@@ -52,7 +52,59 @@ function recordMistake(userId, { questionId, subject, topic, selectedOptionId, s
       $inc: { wrong_count: 1 },
     },
     { upsert: true },
-  ).catch(logFailure('mistake'));
+  )
+    .then(() => (subject === 'gs' ? requeueFacts(userId, questionId, now) : null))
+    .catch(logFailure('mistake'));
+}
+
+/**
+ * A wrong answer on a GK library question also sends its fact (the card with the statement,
+ * table and "don't confuse" lines) back to GK revision, due tomorrow from the first step.
+ */
+async function requeueFacts(userId, questionId, now) {
+  const q = await Question.findById(questionId).select('fact_ids').lean();
+  const facts = q?.fact_ids || [];
+  if (!facts.length) return;
+  const rows = await GkFact.find({ _id: { $in: facts } }).select('topic').lean();
+  await Promise.all(rows.map((f) => GkFactProgress.updateOne(
+    { user_id: userId, fact_id: f._id },
+    {
+      $set: { status: 'learning', stage: 0, last_result: 'again', due_at: addDays(now, REVIEW_INTERVALS_DAYS[0]) },
+      $setOnInsert: { topic: f.topic, bookmarked: false, seen_at: now },
+    },
+    { upsert: true },
+  )));
+}
+
+/**
+ * GK facts usually have several questions (asked both ways: "Who created Byomkesh?" and
+ * "Sharadindu created which detective?"). Reviewing the very question you got wrong tests
+ * whether you remember the option, so each review asks the fact a different way, in turn.
+ * Returns Map(queued question id -> question id to ask).
+ */
+async function askedInstead(items) {
+  const asked = new Map();
+  const queued = await Question.find({ _id: { $in: items.map((i) => i.question_id) }, fact_ids: { $type: 'objectId' } }).select('fact_ids').lean();
+  if (!queued.length) return asked;
+  const siblings = await Question.find({ fact_ids: { $in: queued.flatMap((q) => q.fact_ids) }, status: 'PUBLISHED' }).select('fact_ids').sort({ code: 1 }).lean();
+  const reviews = new Map(items.map((i) => [String(i.question_id), i.reviews || 0]));
+  for (const q of queued) {
+    const facts = new Set(q.fact_ids.map(String));
+    const others = siblings.filter((s) => String(s._id) !== String(q._id) && s.fact_ids.some((f) => facts.has(String(f))));
+    if (!others.length) continue;
+    const ring = [q._id, ...others.map((s) => s._id)];
+    const pick = ring[(reviews.get(String(q._id)) + 1) % ring.length]; // first review: another question
+    if (String(pick) !== String(q._id)) asked.set(String(q._id), String(pick));
+  }
+  return asked;
+}
+
+/** The asked question may stand in for the queued one only if they test the same GK fact. */
+async function sameFact(queuedId, askedId) {
+  const rows = await Question.find({ _id: { $in: [queuedId, askedId] } }).select('fact_ids').lean();
+  if (rows.length !== 2) return false;
+  const [a, b] = rows.map((r) => (r.fact_ids || []).map(String));
+  return a.some((f) => b.includes(f));
 }
 
 /** A bookmark joins the queue (due tomorrow) unless it is already there. Never throws. */
@@ -109,8 +161,11 @@ async function due(userId, { tz, limit, pyqOnly = false }) {
       .limit(limit)
       .lean();
   }
-  const questions = await Question.find({ _id: { $in: items.map((i) => i.question_id) }, status: 'PUBLISHED' }).select(PUBLIC_QUESTION_FIELDS).lean();
+  const asked = await askedInstead(items);
+  const ids = [...items.map((i) => i.question_id), ...asked.values()];
+  const questions = await Question.find({ _id: { $in: ids }, status: 'PUBLISHED' }).select(PUBLIC_QUESTION_FIELDS).lean();
   const byId = new Map(questions.map((q) => [String(q._id), q]));
+  const shown = (i) => byId.get(asked.get(String(i.question_id))) || byId.get(String(i.question_id));
   return {
     masterAfter: MASTER_AFTER,
     items: items
@@ -120,16 +175,21 @@ async function due(userId, { tz, limit, pyqOnly = false }) {
         streak: i.streak,
         wrongCount: i.wrong_count,
         topicName: topicName(i.subject, i.topic),
-        question: presentQuestion(byId.get(String(i.question_id))),
+        // itemQuestionId: the queued question; question: the one asked today (may be a sibling).
+        itemQuestionId: String(i.question_id),
+        askedAnotherWay: shown(i) !== byId.get(String(i.question_id)),
+        question: presentQuestion(shown(i)),
       })),
   };
 }
 
 /** Answer a queued question: marks it and moves it along the schedule. */
-async function answer(userId, { questionId, selectedOptionId, timeSpentSec }, now = new Date()) {
+async function answer(userId, { questionId, askedQuestionId, selectedOptionId, timeSpentSec }, now = new Date()) {
   const item = await ReviewItem.findOne({ user_id: userId, question_id: questionId, status: 'active' }).lean();
   if (!item) throw AppError.notFound('NOT_IN_QUEUE', 'This question is not in your revision queue');
-  const q = await Question.findOne({ _id: questionId, status: 'PUBLISHED' }).select('+correct_option_id +solution options.oid subject topic').lean();
+  const gradeId = askedQuestionId && askedQuestionId !== questionId ? askedQuestionId : questionId;
+  if (gradeId !== questionId && !(await sameFact(questionId, gradeId))) throw AppError.unprocessable('NOT_SAME_FACT', 'askedQuestionId does not test the same fact');
+  const q = await Question.findOne({ _id: gradeId, status: 'PUBLISHED' }).select('+correct_option_id +solution options.oid subject topic').lean();
   if (!q) throw AppError.notFound('QUESTION_NOT_FOUND', 'Question not found');
   if (!q.options.some((o) => o.oid === selectedOptionId)) throw AppError.unprocessable('UNKNOWN_OPTION', 'selectedOptionId does not belong to this question');
 
@@ -152,7 +212,8 @@ async function answer(userId, { questionId, selectedOptionId, timeSpentSec }, no
       stage: 0,
       due_at: addDays(now, REVIEW_INTERVALS_DAYS[0]),
       from_mistake: true,
-      last_wrong_option_id: selectedOptionId,
+      // A wrong option of the question asked instead belongs to that question, not the queued one.
+      last_wrong_option_id: gradeId === questionId ? selectedOptionId : item.last_wrong_option_id ?? null,
       last_wrong_at: now,
       last_wrong_source: 'review',
     };

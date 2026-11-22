@@ -75,6 +75,12 @@ router.get('/overview', async (_req, res) => {
 });
 
 /** Question Bank Health: full sync state for admins (version, status, totals, last run, live progress). */
+// Math pattern coverage: questions, distinct patterns/shapes and level spread per chapter (read-only).
+router.get('/math-coverage', async (_req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await require('../services/mathCoverage.service').mathCoverage() });
+});
+
 router.get('/question-bank/status', async (_req, res) => {
   const state = await readQuestionBankState();
   let source_current = null;

@@ -80,6 +80,8 @@ test.before(async () => {
     lesson: Q({ subject: 'quant', topic: 'percentage', pattern: 'percent_of_number' }),
     sheet: Q({ subject: 'reasoning', topic: 'analogy', exam_targets: [{ category: 'WBPSC', tier: 'PRELIMS' }] }),
     noSheet: Q({ subject: 'reasoning', topic: 'syllogism' }),
+    wbHq: Q({ topic: 'west_bengal_gk', subtopic: 'districts_admin', concept_tags: ['gs-pairs', 'districts', 'wbpsc_wbcs'] }),
+    wbOtherPair: Q({ topic: 'west_bengal_gk', subtopic: 'districts_admin', concept_tags: ['gs-pairs'] }),
   };
   const inserted = await Question.insertMany(Object.values(docs));
   Object.keys(docs).forEach((k, i) => {
@@ -152,6 +154,26 @@ test('Math links to its lesson (with the pattern as topic); Reasoning to its con
   const sheet = links.get(ids.sheet);
   assert.deepEqual({ kind: sheet.kind, category: sheet.category, topic: sheet.topic }, { kind: 'sheet', category: 'WBPSC', topic: 'analogy' });
   assert.equal(links.get(ids.noSheet), null);
+});
+
+test('generated WB district-HQ questions link to the 23-district HQ table, which teaches every generated pair', async () => {
+  const links = await learnLinksFor([ids.wbHq, ids.wbOtherPair]);
+  const l = links.get(ids.wbHq);
+  assert.equal(l?.kind, 'book');
+  assert.equal(l.chapter, 'GEO-11');
+  assert.equal(l.section, 'districts');
+  assert.equal(l.card, 'geography');
+  assert.equal(links.get(ids.wbOtherPair), null, 'a gs-pairs question without the districts tag is not sent there');
+
+  // The section must name every district and headquarters the generator asks about.
+  const section = books.loadBook('geography').chapters.get('GEO-11').sections.find((s) => s.id === 'districts');
+  const text = [section.quick, section.standard, section.deep].join(' ');
+  const family = require('../scripts/generators/supplement/gs.js').topics.find((f) => f.topic === 'west_bengal_gk'); // the only WB family in gs.js: WB_DISTRICTS
+  assert.ok(family?.rows?.length >= 13, 'generator family found');
+  for (const [district, hq] of family.rows) {
+    assert.ok(text.includes(district.bn), `section names district ${district.bn}`);
+    assert.ok(text.includes(hq.bn), `section names headquarters ${hq.bn}`);
+  }
 });
 
 test('an unpublished chapter is never linked', async () => {

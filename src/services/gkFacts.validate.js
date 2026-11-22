@@ -43,6 +43,17 @@ function validateQuestion(q, at) {
   // Numbers, codes and "1 only"-style answers may be identical in both languages; words may not.
   for (const o of opts) if (!BN.test(o[1]) && /[a-z]{4,}/i.test(o[1]) && !/^[A-Z0-9 ,.()&/-]+$/.test(o[1])) err('w', 'OPTION_NOT_BENGALI', `option "${o[1]}" is not in Bengali`);
   if (/\bPYQ\b|previous[- ]year/i.test(q.q[0])) err('q', 'PYQ_CLAIM', 'GK library questions are original practice; do not label them as previous-year questions');
+  // wn: optional "why this option is wrong" notes, aligned with w; null = no note for that option.
+  if (q.wn !== undefined) {
+    if (!Array.isArray(q.wn) || q.wn.length !== 3) err('wn', 'WRONG_NOTES', 'wn must have 3 entries aligned with w (use null for no note)');
+    else {
+      q.wn.forEach((n, i) => {
+        if (n === null) return;
+        if (!isPair(n, 400)) err(`wn.${i}`, 'WRONG_NOTES', 'each wn entry is [english, bengali] or null');
+        else if (!BN.test(n[1])) err(`wn.${i}`, 'BENGALI_MISSING', 'the Bengali note has no Bengali text');
+      });
+    }
+  }
   return errors;
 }
 

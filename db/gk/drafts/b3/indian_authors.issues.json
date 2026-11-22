@@ -1,0 +1,37 @@
+[
+  {
+    "file": "db/gk/drafts/b3/indian_authors.jsonl",
+    "stem": "DROPPED: pen names Premchand (Dhanpat Rai Srivastava), Nirala (Suryakant Tripathi), Bachchan, Gulzar (Sampooran Singh Kalra), Sahir Ludhianvi, Kusumagraj (V.V. Shirwadkar), Amrita Pritam, Sumitranandan Pant, Muktibodh, Dushyant, Bharatendu",
+    "problem": "No allowed (official/institutional) page that states these real names or pen-name relationships could be fetched. Sahitya Akademi's award list shows 'Gulzar', 'Harivansh Rai Bachchan', 'Muktibodh' (a book title), 'V.V. Shirwadkar' and 'Amrita Pritam' without pen-name/real-name pairs. jnanpith.net returned HTTP 500; NCERT Hindi textbooks that carry author introductions use legacy-font PDFs whose text cannot be extracted reliably.",
+    "source_url": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+    "quote": "Gulzar"
+  },
+  {
+    "file": "db/gk/drafts/b3/indian_authors.jsonl",
+    "stem": "DROPPED: Godan, Gaban, Kamayani, Madhushala, Urvashi, Rashmirathi, Gitanjali (book), Discovery of India, Glimpses of World History, My Experiments with Truth, Wings of Fire, India Wins Freedom, Train to Pakistan, A Suitable Boy, Untouchable, Malgudi Days, Why I Am an Atheist, Gita Rahasya, Annihilation of Caste",
+    "problem": "None of these titles appears (with author) on an allowed page that was fetched. NCERT Political Theory (keps107) quotes Nehru's 'The Discovery of India' but authorship of the book is already covered by an existing static_gk MATCH fact, so it was not repeated. Kalam's presidential page (presidentofindia.nic.in) does not mention Wings of Fire. Booker site gave only the Booker-listed books used in the file.",
+    "source_url": "https://presidentofindia.nic.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+  },
+  {
+    "file": "db/gk/drafts/b3/indian_authors.jsonl",
+    "stem": "DROPPED: Jnanpith milestones (pack 3)",
+    "problem": "The first Jnanpith (1965, G.S. Kurup, Otakkuzhal) is already in db/gk/static_gk.jsonl; jnanpith.net returned HTTP 500 during this session so no further laureate milestones could be quoted.",
+    "source_url": "https://jnanpith.net/",
+    "quote": "(page not available)"
+  },
+  {
+    "file": "db/gk/drafts/b3/indian_authors.jsonl",
+    "stem": "DOUBT: GK-SGK-230 real-name spellings",
+    "problem": "Akademi page prints Dinkar's real name as 'Ramdhari Sinha' (commonly written Ramdhari Singh), Kalki's as 'R. Krishnamurti' (commonly Krishnamurthy) and 'lyengar' for Iyengar. A checker should accept the page's spelling and avoid options differing only in spelling. The Akademi page does not use the words 'pen name'; it prints the name in quotes followed by the real name in brackets, and the pack states it that way. 'Akilon' (P.V. Akilandam) and 'Yatri' (Vaidyanath Mishra) are also on the list but were left out (Akilon spelling; Yatri's language heading unclear).",
+    "source_url": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+    "quote": "1959 Sanskriti Ke Char Adhyaya (A survey of Indian culture) ‘Dinkar’(Ramdhari Sinha)"
+  },
+  {
+    "file": "db/gk/drafts/b3/indian_authors.jsonl",
+    "stem": "DOUBT: reading of the Akademi list layout",
+    "problem": "On the page the order is year, then book, then author (e.g. '1969 Rag Darbari (Novel) Shrilal Shukla'). A checker should confirm this reading against the page, because a reader could pair an author with the year printed after the entry; the file uses year-first.",
+    "source_url": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+    "quote": "1968 Do Chattanen (Poetry) Harivansh Rai Bachchan 1967 Amrit Aur Vish (Novel) Amritlal Nagar"
+  }
+]

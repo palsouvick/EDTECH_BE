@@ -75,6 +75,10 @@ async function main() {
     await bootstrapData().catch((e) => console.error('data bootstrap failed', e));
     await ensureAdmin().catch((e) => console.error('admin bootstrap failed', e.message));
     startQuestionBankSeed();
+    // GK and book questions were stored answer-first; keep their correct options spread over A-D.
+    require('./db/fixOptionOrder').fixOptionOrder().catch((e) => console.error('option order fix failed', e.message));
+    // "My course": PDFs left queued or half-read by a restart carry on.
+    require('./services/course.service').resumeQueue().catch((e) => console.error('course queue resume failed', e.message));
   })();
 }
 

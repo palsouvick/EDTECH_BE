@@ -31,4 +31,8 @@ module.exports = {
   BookProgress: require('./BookProgress'),
   BookChapterState: require('./BookChapterState'),
   DiagnosticResult: require('./DiagnosticResult'),
+  CourseFile: require('./CourseFile'),
+  CoursePage: require('./CoursePage'),
+  CourseSection: require('./CourseSection'),
+  CoursePageMark: require('./CoursePageMark'),
 };

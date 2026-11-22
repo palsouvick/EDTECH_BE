@@ -15,6 +15,10 @@ const SessionQuestionSchema = new Schema(
     seq: { type: Number, required: true },
     topic: { type: String, required: true },
     difficulty: { type: Number, required: true },
+    // Adaptive practice: learning | exam_pattern | pyq | challenge (shown on the question).
+    practice_type: { type: String, enum: ['learning', 'exam_pattern', 'pyq', 'pyq_pattern', 'challenge'] },
+    // Hard Quiz only: the skill slot the question filled (hardQuiz.logic SLOT_ORDER, or level_fill).
+    hard_slot: { type: String, enum: ['standard', 'reverse', 'mixed', 'trap', 'reasoning', 'pyq', 'challenge', 'level_fill'] },
   },
   { _id: false },
 );
@@ -69,7 +73,7 @@ const MockSessionSchema = new Schema(
     custom: {
       type: new Schema(
         {
-          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq'], required: true },
+          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq', 'adaptive', 'hard', 'speed'], required: true },
           mode: { type: String, enum: ['exam', 'practice'], required: true },
           difficulty: { type: String, enum: ['easy', 'moderate', 'hard', 'exam', 'mixed'], required: true },
           distribution: { type: String, enum: ['balanced', 'smart', 'mistakes'], required: true },
@@ -90,7 +94,7 @@ const MockSessionSchema = new Schema(
             ),
             default: undefined,
           },
-          plan: { type: [new Schema({ topic: String, count: Number, reasons: [String] }, { _id: false })], default: [] },
+          plan: { type: [new Schema({ topic: String, count: Number, reasons: [String], role: String, level: String, tier: String }, { _id: false })], default: [] },
           recommended_min: Number,
           follow_up_of: { type: Schema.Types.ObjectId, default: null },
           // Practice mode: the first answer checked for each question (qid hex -> option id).

@@ -1,0 +1,1568 @@
+[
+ {
+  "id": "GK-POL-120#0",
+  "question_en": "Match List I with List II:\n\n| List I | List II |\n|---|---|\n| A. Dr Rajendra Prasad | 1. 7th President |\n| B. Dr Zakir Husain | 2. 1st President |\n| C. Giani Zail Singh | 3. 11th President |\n| D. A. P. J. Abdul Kalam | 4. 3rd President |",
+  "question_bn": "তালিকা I-এর সঙ্গে তালিকা II মেলাও:\n\n| তালিকা I | তালিকা II |\n|---|---|\n| A. ডঃ রাজেন্দ্র প্রসাদ | ১. সপ্তম রাষ্ট্রপতি |\n| B. ডঃ জাকির হুসেন | ২. প্রথম রাষ্ট্রপতি |\n| C. জ্ঞানী জৈল সিং | ৩. একাদশ রাষ্ট্রপতি |\n| D. এ. পি. জে. আবদুল কালাম | ৪. তৃতীয় রাষ্ট্রপতি |",
+  "options": {
+   "A": "A-2, B-4, C-1, D-3",
+   "B": "A-4, B-2, C-1, D-3",
+   "C": "A-1, B-2, C-3, D-4",
+   "D": "A-2, B-1, C-4, D-3"
+  },
+  "options_bn": [
+   "A-2, B-4, C-1, D-3 = A-২, B-৪, C-১, D-৩",
+   "A-1, B-2, C-3, D-4 = A-১, B-২, C-৩, D-৪",
+   "A-2, B-1, C-4, D-3 = A-২, B-১, C-৪, D-৩",
+   "A-4, B-2, C-1, D-3 = A-৪, B-২, C-১, D-৩"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Rajendra Prasad (3 December 1884 – 28 February 1963) was an Indian politician, lawyer, Indian independence activist, journalist & scholar who served as the first President of India from 1950 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Term of Office Thu, 01/26/1950 - 12:00 - Sun, 05/13/1962 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Sarvepalli Radhakrishnan OM (5 September 1888 – 17 April 1975), natively Radhakrishnayya, was an Indian philosopher and statesman. He served as the second president of India from 1962 to 1967. He was also the first vice president of India from 1952 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Term of Office Sun, 05/13/1962 - 12:00 - Sat, 05/13/1967 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Shanker Dayal Sharma (pronunciation 19 August 1918 – 26 December 1999) was an Indian lawyer and politician from the state of Madhya Pradesh who served as the ninth president of India, from 1992 to 1997."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Term of Office Sat, 07/25/1992 - 12:00 - Fri, 07/25/1997 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/president-india-smt-droupadi-murmu",
+    "quote": "The President of India, Smt Droupadi Murmu"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-120#1",
+  "question_en": "Arrange the following Presidents of India by the start of their terms (earliest first):\n\n1. A. P. J. Abdul Kalam\n2. K. R. Narayanan\n3. Pratibha Devisingh Patil\n4. Ram Nath Kovind",
+  "question_bn": "নিচের ভারতের রাষ্ট্রপতিদের কার্যকাল শুরুর ক্রমানুসারে সাজাও (প্রথমে যিনি আগে):\n\n১. এ. পি. জে. আবদুল কালাম\n২. কে. আর. নারায়ণন\n৩. প্রতিভা দেবীসিং পাটিল\n৪. রামনাথ কোবিন্দ",
+  "options": {
+   "A": "2, 1, 3, 4",
+   "B": "1, 2, 4, 3",
+   "C": "1, 2, 3, 4",
+   "D": "2, 1, 4, 3"
+  },
+  "options_bn": [
+   "2, 1, 3, 4 = ২, ১, ৩, ৪",
+   "1, 2, 3, 4 = ১, ২, ৩, ৪",
+   "2, 1, 4, 3 = ২, ১, ৪, ৩",
+   "1, 2, 4, 3 = ১, ২, ৪, ৩"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Rajendra Prasad (3 December 1884 – 28 February 1963) was an Indian politician, lawyer, Indian independence activist, journalist & scholar who served as the first President of India from 1950 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Term of Office Thu, 01/26/1950 - 12:00 - Sun, 05/13/1962 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Sarvepalli Radhakrishnan OM (5 September 1888 – 17 April 1975), natively Radhakrishnayya, was an Indian philosopher and statesman. He served as the second president of India from 1962 to 1967. He was also the first vice president of India from 1952 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Term of Office Sun, 05/13/1962 - 12:00 - Sat, 05/13/1967 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Shanker Dayal Sharma (pronunciation 19 August 1918 – 26 December 1999) was an Indian lawyer and politician from the state of Madhya Pradesh who served as the ninth president of India, from 1992 to 1997."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Term of Office Sat, 07/25/1992 - 12:00 - Fri, 07/25/1997 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/president-india-smt-droupadi-murmu",
+    "quote": "The President of India, Smt Droupadi Murmu"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-121#0",
+  "question_en": "Who was the President of India from 1962 to 1967?",
+  "question_bn": "১৯৬২ থেকে ১৯৬৭ পর্যন্ত ভারতের রাষ্ট্রপতি কে ছিলেন?",
+  "options": {
+   "A": "Dr Sarvepalli Radhakrishnan",
+   "B": "Dr Rajendra Prasad",
+   "C": "V. V. Giri",
+   "D": "Dr Zakir Husain"
+  },
+  "options_bn": [
+   "Dr Sarvepalli Radhakrishnan = ডঃ সর্বপল্লী রাধাকৃষ্ণন",
+   "Dr Rajendra Prasad = ডঃ রাজেন্দ্র প্রসাদ",
+   "Dr Zakir Husain = ডঃ জাকির হুসেন",
+   "V. V. Giri = ভি. ভি. গিরি"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Rajendra Prasad (3 December 1884 – 28 February 1963) was an Indian politician, lawyer, Indian independence activist, journalist & scholar who served as the first President of India from 1950 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Term of Office Thu, 01/26/1950 - 12:00 - Sun, 05/13/1962 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Sarvepalli Radhakrishnan OM (5 September 1888 – 17 April 1975), natively Radhakrishnayya, was an Indian philosopher and statesman. He served as the second president of India from 1962 to 1967. He was also the first vice president of India from 1952 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Term of Office Sun, 05/13/1962 - 12:00 - Sat, 05/13/1967 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-121#1",
+  "question_en": "Dr Sarvepalli Radhakrishnan held which office from 1952 to 1962, before he became President?",
+  "question_bn": "রাষ্ট্রপতি হওয়ার আগে ১৯৫২ থেকে ১৯৬২ পর্যন্ত ডঃ সর্বপল্লী রাধাকৃষ্ণন কোন পদে ছিলেন?",
+  "options": {
+   "A": "Prime Minister of India",
+   "B": "Speaker of the Lok Sabha",
+   "C": "Chief Justice of India",
+   "D": "Vice-President of India"
+  },
+  "options_bn": [
+   "Vice-President of India = ভারতের উপরাষ্ট্রপতি",
+   "Prime Minister of India = ভারতের প্রধানমন্ত্রী",
+   "Speaker of the Lok Sabha = লোকসভার অধ্যক্ষ",
+   "Chief Justice of India = ভারতের প্রধান বিচারপতি"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Rajendra Prasad (3 December 1884 – 28 February 1963) was an Indian politician, lawyer, Indian independence activist, journalist & scholar who served as the first President of India from 1950 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-rajendra-prasad",
+    "quote": "Term of Office Thu, 01/26/1950 - 12:00 - Sun, 05/13/1962 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Sarvepalli Radhakrishnan OM (5 September 1888 – 17 April 1975), natively Radhakrishnayya, was an Indian philosopher and statesman. He served as the second president of India from 1962 to 1967. He was also the first vice president of India from 1952 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Term of Office Sun, 05/13/1962 - 12:00 - Sat, 05/13/1967 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-122#0",
+  "question_en": "Whose term as President of India ended with his death on 3 May 1969?",
+  "question_bn": "৩ মে ১৯৬৯ তারিখে মৃত্যুর ফলে ভারতের কোন রাষ্ট্রপতির কার্যকাল শেষ হয়?",
+  "options": {
+   "A": "Dr Zakir Husain",
+   "B": "Dr Sarvepalli Radhakrishnan",
+   "C": "Neelam Sanjiva Reddy",
+   "D": "V. V. Giri"
+  },
+  "options_bn": [
+   "Dr Zakir Husain = ডঃ জাকির হুসেন",
+   "Dr Sarvepalli Radhakrishnan = ডঃ সর্বপল্লী রাধাকৃষ্ণন",
+   "V. V. Giri = ভি. ভি. গিরি",
+   "Neelam Sanjiva Reddy = নীলম সঞ্জীব রেড্ডি"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Sarvepalli Radhakrishnan OM (5 September 1888 – 17 April 1975), natively Radhakrishnayya, was an Indian philosopher and statesman. He served as the second president of India from 1962 to 1967. He was also the first vice president of India from 1952 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Term of Office Sun, 05/13/1962 - 12:00 - Sat, 05/13/1967 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-122#1",
+  "question_en": "Arrange the following Presidents of India by the start of their terms (earliest first):\n\n1. Dr Zakir Husain\n2. Fakhruddin Ali Ahmed\n3. Dr Sarvepalli Radhakrishnan\n4. V. V. Giri",
+  "question_bn": "নিচের ভারতের রাষ্ট্রপতিদের কার্যকাল শুরুর ক্রমানুসারে সাজাও (প্রথমে যিনি আগে):\n\n১. ডঃ জাকির হুসেন\n২. ফখরুদ্দিন আলি আহমেদ\n৩. ডঃ সর্বপল্লী রাধাকৃষ্ণন\n৪. ভি. ভি. গিরি",
+  "options": {
+   "A": "3, 4, 1, 2",
+   "B": "3, 1, 2, 4",
+   "C": "1, 3, 4, 2",
+   "D": "3, 1, 4, 2"
+  },
+  "options_bn": [
+   "3, 1, 4, 2 = ৩, ১, ৪, ২",
+   "1, 3, 4, 2 = ১, ৩, ৪, ২",
+   "3, 1, 2, 4 = ৩, ১, ২, ৪",
+   "3, 4, 1, 2 = ৩, ৪, ১, ২"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Sarvepalli Radhakrishnan OM (5 September 1888 – 17 April 1975), natively Radhakrishnayya, was an Indian philosopher and statesman. He served as the second president of India from 1962 to 1967. He was also the first vice president of India from 1952 to 1962."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-sarvepalli-radhakrishnan",
+    "quote": "Term of Office Sun, 05/13/1962 - 12:00 - Sat, 05/13/1967 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-123#0",
+  "question_en": "Who was the first President of India to be elected as an independent candidate?",
+  "question_bn": "নির্দল প্রার্থী হিসেবে নির্বাচিত ভারতের প্রথম রাষ্ট্রপতি কে?",
+  "options": {
+   "A": "Dr Zakir Husain",
+   "B": "V. V. Giri",
+   "C": "Neelam Sanjiva Reddy",
+   "D": "Fakhruddin Ali Ahmed"
+  },
+  "options_bn": [
+   "V. V. Giri = ভি. ভি. গিরি",
+   "Dr Zakir Husain = ডঃ জাকির হুসেন",
+   "Fakhruddin Ali Ahmed = ফখরুদ্দিন আলি আহমেদ",
+   "Neelam Sanjiva Reddy = নীলম সঞ্জীব রেড্ডি"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-123#1",
+  "question_en": "Consider the following statements about V. V. Giri:\n\n1. He was the third Vice-President of India.\n2. He was the first President to be elected as an independent candidate.\n\nWhich of the statements given above is/are correct?",
+  "question_bn": "ভি. ভি. গিরি সম্পর্কে নিচের বিবৃতিগুলি বিবেচনা করো:\n\n১. তিনি ভারতের তৃতীয় উপরাষ্ট্রপতি ছিলেন।\n২. তিনি নির্দল প্রার্থী হিসেবে নির্বাচিত প্রথম রাষ্ট্রপতি।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+  "options": {
+   "A": "Both 1 and 2",
+   "B": "1 only",
+   "C": "2 only",
+   "D": "Neither 1 nor 2"
+  },
+  "options_bn": [
+   "Both 1 and 2 = ১ ও ২ উভয়ই",
+   "1 only = শুধু ১",
+   "2 only = শুধু ২",
+   "Neither 1 nor 2 = ১ বা ২ কোনোটিই নয়"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-124#0",
+  "question_en": "Who was the President of India from 24 August 1974 to 11 February 1977?",
+  "question_bn": "২৪ আগস্ট ১৯৭৪ থেকে ১১ ফেব্রুয়ারি ১৯৭৭ পর্যন্ত ভারতের রাষ্ট্রপতি কে ছিলেন?",
+  "options": {
+   "A": "V. V. Giri",
+   "B": "Neelam Sanjiva Reddy",
+   "C": "Fakhruddin Ali Ahmed",
+   "D": "Dr Zakir Husain"
+  },
+  "options_bn": [
+   "Fakhruddin Ali Ahmed = ফখরুদ্দিন আলি আহমেদ",
+   "V. V. Giri = ভি. ভি. গিরি",
+   "Neelam Sanjiva Reddy = নীলম সঞ্জীব রেড্ডি",
+   "Dr Zakir Husain = ডঃ জাকির হুসেন"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as the third president of India from 13 May 1967 until his death on 3 May 1969."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-zakir-husain",
+    "quote": "Term of Office Sat, 05/13/1967 - 12:00 - Sat, 05/03/1969 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-125#0",
+  "question_en": "Which President of India, who had twice been Speaker of the Lok Sabha, served from 1977 to 1982?",
+  "question_bn": "দু'বার লোকসভার অধ্যক্ষ থাকার পর ১৯৭৭ থেকে ১৯৮২ পর্যন্ত ভারতের রাষ্ট্রপতি কে ছিলেন?",
+  "options": {
+   "A": "Fakhruddin Ali Ahmed",
+   "B": "R. Venkataraman",
+   "C": "Giani Zail Singh",
+   "D": "Neelam Sanjiva Reddy"
+  },
+  "options_bn": [
+   "Neelam Sanjiva Reddy = নীলম সঞ্জীব রেড্ডি",
+   "Giani Zail Singh = জ্ঞানী জৈল সিং",
+   "Fakhruddin Ali Ahmed = ফখরুদ্দিন আলি আহমেদ",
+   "R. Venkataraman = আর. বেঙ্কটরামন"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Fakhruddin Ali Ahmed (13 May 1905 – 11 February 1977) was an Indian lawyer and politician who served as the fifth president of India from 1974 to 1977."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-fakhruddin-ali-ahmed",
+    "quote": "Term of Office Sat, 08/24/1974 - 12:00 - Fri, 02/11/1977 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-126#0",
+  "question_en": "Who was the first Sikh to become President of India?",
+  "question_bn": "ভারতের রাষ্ট্রপতি হওয়া প্রথম শিখ কে?",
+  "options": {
+   "A": "V. V. Giri",
+   "B": "Giani Zail Singh",
+   "C": "Neelam Sanjiva Reddy",
+   "D": "R. Venkataraman"
+  },
+  "options_bn": [
+   "Giani Zail Singh = জ্ঞানী জৈল সিং",
+   "Neelam Sanjiva Reddy = নীলম সঞ্জীব রেড্ডি",
+   "R. Venkataraman = আর. বেঙ্কটরামন",
+   "V. V. Giri = ভি. ভি. গিরি"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-126#1",
+  "question_en": "Giani Zail Singh, the 7th President of India, was the first President from which community?",
+  "question_bn": "ভারতের সপ্তম রাষ্ট্রপতি জ্ঞানী জৈল সিং কোন সম্প্রদায়ের প্রথম রাষ্ট্রপতি?",
+  "options": {
+   "A": "Parsi",
+   "B": "Buddhist",
+   "C": "Christian",
+   "D": "Sikh"
+  },
+  "options_bn": [
+   "Sikh = শিখ",
+   "Parsi = পার্সি",
+   "Christian = খ্রিস্টান",
+   "Buddhist = বৌদ্ধ"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Neelam Sanjiva Reddy (19 May 1913 – 1 June 1996) was an Indian politician who served as the sixth president of India, serving from 1977 to 1982. Beginning a long political career with the Indian National Congress Party in the independence movement, he went on to hold several key offices in independent India — as Deputy Chief minister of Andhra state and the first Chief Minister of United Andhra Pradesh, a two-time Speaker of the Lok Sabha and a Union Minister— before becoming the Indian president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-neelam-sanjiva-reddy",
+    "quote": "Term of Office Mon, 07/25/1977 - 12:00 - Sun, 07/25/1982 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-127#0",
+  "question_en": "Which of the following pairs of President and term is correctly matched?",
+  "question_bn": "রাষ্ট্রপতি ও কার্যকালের নিচের কোন জোড়টি সঠিকভাবে মিলানো?",
+  "options": {
+   "A": "Shankar Dayal Sharma: 25 July 1987 to 25 July 1992",
+   "B": "R. Venkataraman: 25 July 1987 to 25 July 1992",
+   "C": "Giani Zail Singh: 25 July 1987 to 25 July 1992",
+   "D": "K. R. Narayanan: 25 July 1987 to 25 July 1992"
+  },
+  "options_bn": [
+   "R. Venkataraman: 25 July 1987 to 25 July 1992 = আর. বেঙ্কটরামন: ২৫ জুলাই ১৯৮৭ থেকে ২৫ জুলাই ১৯৯২",
+   "Shankar Dayal Sharma: 25 July 1987 to 25 July 1992 = শঙ্কর দয়াল শর্মা: ২৫ জুলাই ১৯৮৭ থেকে ২৫ জুলাই ১৯৯২",
+   "Giani Zail Singh: 25 July 1987 to 25 July 1992 = জ্ঞানী জৈল সিং: ২৫ জুলাই ১৯৮৭ থেকে ২৫ জুলাই ১৯৯২",
+   "K. R. Narayanan: 25 July 1987 to 25 July 1992 = কে. আর. নারায়ণন: ২৫ জুলাই ১৯৮৭ থেকে ২৫ জুলাই ১৯৯২"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Shanker Dayal Sharma (pronunciation 19 August 1918 – 26 December 1999) was an Indian lawyer and politician from the state of Madhya Pradesh who served as the ninth president of India, from 1992 to 1997."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Term of Office Sat, 07/25/1992 - 12:00 - Fri, 07/25/1997 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-127#1",
+  "question_en": "Who was the 9th President of India?",
+  "question_bn": "ভারতের নবম রাষ্ট্রপতি কে ছিলেন?",
+  "options": {
+   "A": "R. Venkataraman",
+   "B": "Giani Zail Singh",
+   "C": "K. R. Narayanan",
+   "D": "Shankar Dayal Sharma"
+  },
+  "options_bn": [
+   "Shankar Dayal Sharma = শঙ্কর দয়াল শর্মা",
+   "R. Venkataraman = আর. বেঙ্কটরামন",
+   "K. R. Narayanan = কে. আর. নারায়ণন",
+   "Giani Zail Singh = জ্ঞানী জৈল সিং"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Shanker Dayal Sharma (pronunciation 19 August 1918 – 26 December 1999) was an Indian lawyer and politician from the state of Madhya Pradesh who served as the ninth president of India, from 1992 to 1997."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Term of Office Sat, 07/25/1992 - 12:00 - Fri, 07/25/1997 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-128#0",
+  "question_en": "Who became the 10th President of India in 1997 after serving as the 9th Vice-President?",
+  "question_bn": "নবম উপরাষ্ট্রপতি থাকার পর ১৯৯৭ সালে ভারতের দশম রাষ্ট্রপতি কে হন?",
+  "options": {
+   "A": "R. Venkataraman",
+   "B": "Shankar Dayal Sharma",
+   "C": "K. R. Narayanan",
+   "D": "A. P. J. Abdul Kalam"
+  },
+  "options_bn": [
+   "K. R. Narayanan = কে. আর. নারায়ণন",
+   "Shankar Dayal Sharma = শঙ্কর দয়াল শর্মা",
+   "A. P. J. Abdul Kalam = এ. পি. জে. আবদুল কালাম",
+   "R. Venkataraman = আর. বেঙ্কটরামন"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Shanker Dayal Sharma (pronunciation 19 August 1918 – 26 December 1999) was an Indian lawyer and politician from the state of Madhya Pradesh who served as the ninth president of India, from 1992 to 1997."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Term of Office Sat, 07/25/1992 - 12:00 - Fri, 07/25/1997 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-128#1",
+  "question_en": "Which office did K. R. Narayanan hold from 1992 to 1997, immediately before he became President?",
+  "question_bn": "রাষ্ট্রপতি হওয়ার ঠিক আগে ১৯৯২ থেকে ১৯৯৭ পর্যন্ত কে. আর. নারায়ণন কোন পদে ছিলেন?",
+  "options": {
+   "A": "Speaker of the Lok Sabha",
+   "B": "Prime Minister of India",
+   "C": "Vice-President of India",
+   "D": "Chief Justice of India"
+  },
+  "options_bn": [
+   "Vice-President of India = ভারতের উপরাষ্ট্রপতি",
+   "Prime Minister of India = ভারতের প্রধানমন্ত্রী",
+   "Speaker of the Lok Sabha = লোকসভার অধ্যক্ষ",
+   "Chief Justice of India = ভারতের প্রধান বিচারপতি"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Shanker Dayal Sharma (pronunciation 19 August 1918 – 26 December 1999) was an Indian lawyer and politician from the state of Madhya Pradesh who served as the ninth president of India, from 1992 to 1997."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-shankar-dayal-sharma",
+    "quote": "Term of Office Sat, 07/25/1992 - 12:00 - Fri, 07/25/1997 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Ramaswamy Venkataraman 4 December 1910 – 27 January 2009)was an Indian lawyer, Indian independence activist and politician who served as a Union Minister and as the eighth president of India."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-r-venkataraman",
+    "quote": "Term of Office Sat, 07/25/1987 - 12:00 - Sat, 07/25/1992 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-129#0",
+  "question_en": "Who was the President of India from 2002 to 2007?",
+  "question_bn": "২০০২ থেকে ২০০৭ পর্যন্ত ভারতের রাষ্ট্রপতি কে ছিলেন?",
+  "options": {
+   "A": "Pranab Mukherjee",
+   "B": "K. R. Narayanan",
+   "C": "A. P. J. Abdul Kalam",
+   "D": "Pratibha Devisingh Patil"
+  },
+  "options_bn": [
+   "A. P. J. Abdul Kalam = এ. পি. জে. আবদুল কালাম",
+   "K. R. Narayanan = কে. আর. নারায়ণন",
+   "Pratibha Devisingh Patil = প্রতিভা দেবীসিং পাটিল",
+   "Pranab Mukherjee = প্রণব মুখোপাধ্যায়"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-129#1",
+  "question_en": "A. P. J. Abdul Kalam was the how-manieth President of India?",
+  "question_bn": "এ. পি. জে. আবদুল কালাম ভারতের কত তম রাষ্ট্রপতি ছিলেন?",
+  "options": {
+   "A": "12th",
+   "B": "9th",
+   "C": "10th",
+   "D": "11th"
+  },
+  "options_bn": [
+   "11th = একাদশ",
+   "10th = দশম",
+   "12th = দ্বাদশ",
+   "9th = নবম"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Kocheril Raman Narayanan (27 October 1920 – 9 November 2005) was an Indian statesman, diplomat, academic, and politician who served as the ninth vice president of India from 1992 to 1997 and tenth president of India from 1997 to 2002"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-k-r-narayanan",
+    "quote": "Term of Office Fri, 07/25/1997 - 12:00 - Thu, 07/25/2002 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-130#0",
+  "question_en": "Pratibha Devisingh Patil is known as which \"first\" in the line of Presidents of India?",
+  "question_bn": "ভারতের রাষ্ট্রপতিদের মধ্যে প্রতিভা দেবীসিং পাটিল কোন \"প্রথম\" হিসেবে পরিচিত?",
+  "options": {
+   "A": "First President to have served as Vice-President of India",
+   "B": "First President elected as an independent candidate",
+   "C": "First Sikh President",
+   "D": "First woman President"
+  },
+  "options_bn": [
+   "First woman President = প্রথম মহিলা রাষ্ট্রপতি",
+   "First Sikh President = প্রথম শিখ রাষ্ট্রপতি",
+   "First President elected as an independent candidate = নির্দল প্রার্থী হিসেবে নির্বাচিত প্রথম রাষ্ট্রপতি",
+   "First President to have served as Vice-President of India = উপরাষ্ট্রপতি থেকে রাষ্ট্রপতি হওয়া প্রথম ব্যক্তি"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-130#1",
+  "question_en": "Who was the President of India from 2007 to 2012?",
+  "question_bn": "২০০৭ থেকে ২০১২ পর্যন্ত ভারতের রাষ্ট্রপতি কে ছিলেন?",
+  "options": {
+   "A": "Ram Nath Kovind",
+   "B": "A. P. J. Abdul Kalam",
+   "C": "Pratibha Devisingh Patil",
+   "D": "Pranab Mukherjee"
+  },
+  "options_bn": [
+   "Pratibha Devisingh Patil = প্রতিভা দেবীসিং পাটিল",
+   "A. P. J. Abdul Kalam = এ. পি. জে. আবদুল কালাম",
+   "Pranab Mukherjee = প্রণব মুখোপাধ্যায়",
+   "Ram Nath Kovind = রামনাথ কোবিন্দ"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Avul Pakir Jainulabdeen Abdul Kalam BR 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/dr-apj-abdul-kalam",
+    "quote": "Term of Office Thu, 07/25/2002 - 12:00 - Wed, 07/25/2007 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Giani Zail Singh born Jarnail Singh; (5 May 1916 – 25 December 1994) was an Indian politician from Punjab who served as the seventh president of India from 1982 to 1987. He was the first Sikh and the first person from a backward caste to become president."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/giani-zail-singh",
+    "quote": "Term of Office Sun, 07/25/1982 - 12:00 - Sat, 07/25/1987 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Varahagiri Venkata Giri (10 August 1894 – 24 June 1980) was an Indian politician and activist from Berhampur in Odisha who served as the fourth president of India from 24 August 1969 to 24 August 1974. He also third vice president of India from 13 May 1967 to 3 May 1969. He is the first president to be elected as an independent candidate.He was succeeded by Fakhruddin Ali Ahmed as president in 1974."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-varahagiri-venkata-giri",
+    "quote": "Term of Office Sat, 05/03/1969 - 12:00 - Sat, 08/24/1974 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-131#0",
+  "question_en": "Which of the following pairs of President and years in office is correctly matched?",
+  "question_bn": "রাষ্ট্রপতি ও দায়িত্ব পালনের বছরের নিচের কোন জোড়টি সঠিকভাবে মিলানো?",
+  "options": {
+   "A": "Pratibha Devisingh Patil: 2012 to 2017",
+   "B": "Ram Nath Kovind: 2017 to 2022",
+   "C": "Droupadi Murmu: 2017 to 2022",
+   "D": "Pranab Mukherjee: 2017 to 2022"
+  },
+  "options_bn": [
+   "Ram Nath Kovind: 2017 to 2022 = রামনাথ কোবিন্দ: ২০১৭ থেকে ২০২২",
+   "Pranab Mukherjee: 2017 to 2022 = প্রণব মুখোপাধ্যায়: ২০১৭ থেকে ২০২২",
+   "Pratibha Devisingh Patil: 2012 to 2017 = প্রতিভা দেবীসিং পাটিল: ২০১২ থেকে ২০১৭",
+   "Droupadi Murmu: 2017 to 2022 = দ্রৌপদী মুর্মু: ২০১৭ থেকে ২০২২"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-131#1",
+  "question_en": "Who was the President of India immediately before Droupadi Murmu?",
+  "question_bn": "দ্রৌপদী মুর্মুর ঠিক আগে ভারতের রাষ্ট্রপতি কে ছিলেন?",
+  "options": {
+   "A": "Pranab Mukherjee",
+   "B": "A. P. J. Abdul Kalam",
+   "C": "Pratibha Devisingh Patil",
+   "D": "Ram Nath Kovind"
+  },
+  "options_bn": [
+   "Ram Nath Kovind = রামনাথ কোবিন্দ",
+   "Pranab Mukherjee = প্রণব মুখোপাধ্যায়",
+   "Pratibha Devisingh Patil = প্রতিভা দেবীসিং পাটিল",
+   "A. P. J. Abdul Kalam = এ. পি. জে. আবদুল কালাম"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Term of Office Thu, 07/05/2012 - 12:00 - Tue, 07/25/2017 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Term of Office Wed, 07/25/2007 - 12:00 - Wed, 07/25/2012 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-presidents",
+    "quote": "Shri Ram Nath Kovind 14th President of India Shri Pranab Mukherjee 13th President of India Smt Pratibha Devisingh Patil 12th President of India DR. A.P.J. Abdul Kalam 11th President of India Shri K. R. Narayanan 10th President of India Dr Shanker Dayal Sharma 9th President of India Shri R Venkataraman 8th President of India Giani Zail Singh 7th President of India Shri Neelam Sanjiva Reddy 6th President of India Dr. Fakhruddin Ali Ahmed 5th President of India Shri Varahagiri Venkata Giri 4th President of India Dr. Zakir Husain 3rd President of India Dr. Sarvepalli Radhakrishnan 2nd President of India Dr. Rajendra Prasad 1st President of India"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-132#0",
+  "question_en": "Droupadi Murmu, the 15th President of India, was born into a family of which tribal community?",
+  "question_bn": "ভারতের পঞ্চদশ রাষ্ট্রপতি দ্রৌপদী মুর্মু কোন আদিবাসী সম্প্রদায়ের পরিবারে জন্মগ্রহণ করেন?",
+  "options": {
+   "A": "Gond",
+   "B": "Munda",
+   "C": "Santhal",
+   "D": "Bhil"
+  },
+  "options_bn": [
+   "Santhal = সাঁওতাল",
+   "Gond = গোন্ড",
+   "Bhil = ভিল",
+   "Munda = মুন্ডা"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was born on June 20, 1958, to a Santhal tribal family in Uparbeda in the remote Mayurbhanj district of Odisha."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/president-india-smt-droupadi-murmu",
+    "quote": "The President of India, Smt Droupadi Murmu"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-132#1",
+  "question_en": "Who is the 15th President of India?",
+  "question_bn": "ভারতের পঞ্চদশ রাষ্ট্রপতি কে?",
+  "options": {
+   "A": "Pratibha Devisingh Patil",
+   "B": "Droupadi Murmu",
+   "C": "Ram Nath Kovind",
+   "D": "Pranab Mukherjee"
+  },
+  "options_bn": [
+   "Droupadi Murmu = দ্রৌপদী মুর্মু",
+   "Ram Nath Kovind = রামনাথ কোবিন্দ",
+   "Pranab Mukherjee = প্রণব মুখোপাধ্যায়",
+   "Pratibha Devisingh Patil = প্রতিভা দেবীসিং পাটিল"
+  ],
+  "quotes": [
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was born on June 20, 1958, to a Santhal tribal family in Uparbeda in the remote Mayurbhanj district of Odisha."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/president-india-smt-droupadi-murmu",
+    "quote": "The President of India, Smt Droupadi Murmu"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Ram Nath Kovind is an Indian politician who served as the 14th president of India from 2017 to 2022."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-ram-nath-kovind",
+    "quote": "Term of Office Tue, 07/25/2017 - 12:00 - Mon, 07/25/2022 - 12:00"
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/shri-pranab-mukherjee",
+    "quote": "Pranab Mukherjee BR (11 December 1935 – 31 August 2020) was an Indian politician and statesman who served as the 12th president of India from 2012 until 2017."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/former-president/smt-pratibha-devisingh-patil",
+    "quote": "Prathibha Devisingh Patil (born 19 December 1934) is an Indian politician and lawyer who served as the 12th president of India spanning from 2007 to 2012. She is the first woman to become the president of India. A member of the Indian National Congress, she previously served as the Governor of Rajasthan from 2004 to 2007, and was a member of Lok Sabha from 1991 to 1996."
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-133#0",
+  "question_en": "Arrange the following events of the 2022 Presidential election in chronological order (earliest first):\n\n1. Droupadi Murmu is declared elected after counting\n2. Droupadi Murmu takes the oath of office\n3. The poll is taken at Parliament House and the State capitals\n4. The Election Commission announces the election schedule by press note",
+  "question_bn": "২০২২ সালের রাষ্ট্রপতি নির্বাচনের নিচের ঘটনাগুলি কালানুক্রমে সাজাও (আগে যেটি ঘটেছে সেটি প্রথমে):\n\n১. গণনার পর দ্রৌপদী মুর্মু নির্বাচিত ঘোষিত হন\n২. দ্রৌপদী মুর্মু শপথ নেন\n৩. সংসদ ভবন ও রাজ্যের রাজধানীগুলিতে ভোটগ্রহণ হয়\n৪. নির্বাচন কমিশন প্রেস নোটে নির্বাচনের সূচি ঘোষণা করে",
+  "options": {
+   "A": "3, 4, 1, 2",
+   "B": "4, 1, 3, 2",
+   "C": "4, 3, 1, 2",
+   "D": "4, 3, 2, 1"
+  },
+  "options_bn": [
+   "4, 3, 1, 2 = ৪, ৩, ১, ২",
+   "3, 4, 1, 2 = ৩, ৪, ১, ২",
+   "4, 3, 2, 1 = ৪, ৩, ২, ১",
+   "4, 1, 3, 2 = ৪, ১, ৩, ২"
+  ],
+  "quotes": [
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843925",
+    "quote": "The Commission had announced the schedule for Election to the Office of the fifteenth President of India vide its press note dated 9 th June, 2022, fixing inter-alia 18 th July, 2022 as the date of poll and 21 st July, 2022 as the date of counting."
+   },
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843925",
+    "quote": "The Returning Officer of the said election, the Secretary General of Rajya Sabha, after the counting of votes was over, declared Shrimati Droupadi Murmu elected as the next President of India on 21 st July, 2022."
+   },
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843925",
+    "quote": "The process which was initiated on 15 th June, 2022 with the publication of programme notification in the Gazette has culminated today"
+   },
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1844263",
+    "quote": "The Ceremony of assumption of Office by ShrimatiDroupadiMurmu , the President-elect will be held on Monday, July 25, 2022 at 10:15 AM in the Central Hall of Parliament House, New Delhi."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   }
+  ]
+ },
+ {
+  "id": "GK-POL-133#1",
+  "question_en": "Consider the following statements about the 2022 election of the fifteenth President:\n\n1. The poll was taken on 18 July 2022.\n2. The Returning Officer was the Secretary General of the Lok Sabha.\n\nWhich of the statements given above is/are correct?",
+  "question_bn": "পঞ্চদশ রাষ্ট্রপতির ২০২২ সালের নির্বাচন সম্পর্কে নিচের বিবৃতিগুলি বিবেচনা করো:\n\n১. ২০২২ সালের ১৮ জুলাই ভোটগ্রহণ হয়।\n২. রিটার্নিং অফিসার ছিলেন লোকসভার মহাসচিব।\n\nউপরের কোন বিবৃতি/বিবৃতিগুলি সঠিক?",
+  "options": {
+   "A": "Both 1 and 2",
+   "B": "Neither 1 nor 2",
+   "C": "1 only",
+   "D": "2 only"
+  },
+  "options_bn": [
+   "1 only = শুধু ১",
+   "2 only = শুধু ২",
+   "Both 1 and 2 = ১ ও ২ উভয়ই",
+   "Neither 1 nor 2 = ১ বা ২ কোনোটিই নয়"
+  ],
+  "quotes": [
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843925",
+    "quote": "The Commission had announced the schedule for Election to the Office of the fifteenth President of India vide its press note dated 9 th June, 2022, fixing inter-alia 18 th July, 2022 as the date of poll and 21 st July, 2022 as the date of counting."
+   },
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843925",
+    "quote": "The Returning Officer of the said election, the Secretary General of Rajya Sabha, after the counting of votes was over, declared Shrimati Droupadi Murmu elected as the next President of India on 21 st July, 2022."
+   },
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843925",
+    "quote": "The process which was initiated on 15 th June, 2022 with the publication of programme notification in the Gazette has culminated today"
+   },
+   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1844263",
+    "quote": "The Ceremony of assumption of Office by ShrimatiDroupadiMurmu , the President-elect will be held on Monday, July 25, 2022 at 10:15 AM in the Central Hall of Parliament House, New Delhi."
+   },
+   {
+    "url": "https://presidentofindia.gov.in/Profile",
+    "quote": "Smt. Droupadi Murmu was sworn in as the 15th President of India on July 25, 2022. Prior to this, she served as the 9th Governor of the state of Jharkhand from 2015 to 2021."
+   }
+  ]
+ }
+]

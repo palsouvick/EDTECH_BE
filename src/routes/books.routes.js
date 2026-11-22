@@ -11,6 +11,19 @@ const books = require('../services/books');
 const study = require('../services/bookStudy.service');
 const bookAdmin = require('../services/bookAdmin.service');
 const AppError = require('../utils/AppError');
+const { GkFact } = require('../models');
+const { compactLocalized } = require('../services/presenters');
+
+/**
+ * The chapter's related GK facts as links: only facts students can open (published), with
+ * their titles. Draft facts are left out instead of linking to an empty page.
+ */
+async function relatedFactLinks(codes) {
+  if (!codes?.length) return [];
+  const rows = await GkFact.find({ code: { $in: codes }, status: 'PUBLISHED' }).select('code title').lean();
+  const byCode = new Map(rows.map((f) => [f.code, compactLocalized(f.title)]));
+  return codes.filter((c) => byCode.has(c)).map((code) => ({ code, title: byCode.get(code) }));
+}
 
 // Study books ("Learn like a book"). Reading and practice are open to everyone; progress is kept for
 // signed-in students. `?preview=1` shows DRAFT chapters to admins only (for the owner's review).
@@ -81,7 +94,7 @@ router.get('/:book/chapters/:code', validate({ params: chapterParams, query: pre
   const data = await books.getChapter(req.valid.params.book, req.valid.params.code, { preview });
   if (!data) throw AppError.notFound('CHAPTER_NOT_FOUND', 'Chapter not found');
   noStoreIfPreview(res, preview);
-  res.json({ success: true, data });
+  res.json({ success: true, data: { ...data, relatedFacts: await relatedFactLinks(data.relatedFacts) } });
 });
 
 router.get('/:book/chapters/:code/questions', learnQuizLimiter, validate({

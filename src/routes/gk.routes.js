@@ -8,6 +8,7 @@ const { category } = require('../validators/common');
 const gk = require('../services/gk.service');
 const importantDays = require('../services/importantDays.service');
 const topicPacks = require('../services/topicPacks.service');
+const gkDrills = require('../services/gkDrills.service');
 const { language } = require('../validators/common');
 const { CARDS, SUBTOPICS, EXAM_RELEVANCE, GK_TOPICS } = require('../services/gkTaxonomy');
 
@@ -65,6 +66,15 @@ router.get('/cards/:card/packs', validate({ params: z.object({ card }) }), async
 router.get('/facts/:code/questions', validate({ params: z.object({ code: factCode }), query: z.object({ language: language.default('en') }) }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');
   res.json({ success: true, data: await topicPacks.factQuestions(req.valid.params.code, req.valid.query.language) });
+});
+// Confusion drills: mixed questions from facts students mix up (db/gk/drills.json).
+router.get('/drills', async (_req, res) => {
+  res.set('Cache-Control', 'public, max-age=120');
+  res.json({ success: true, data: await gkDrills.listDrills() });
+});
+router.get('/drills/:id/questions', validate({ params: z.object({ id: z.string().regex(/^[a-z0-9_]{2,60}$/) }), query: z.object({ language: language.default('en') }) }), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await gkDrills.drillQuestions(req.valid.params.id, req.valid.query.language) });
 });
 router.get('/facts/:code/pyqs', validate({ params: z.object({ code: factCode }), query: z.object({ language: language.default('en') }) }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');

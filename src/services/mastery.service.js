@@ -13,7 +13,9 @@
  *   content        Math/English: lesson sections read (ChapterStudy);
  *                  GS: the study book's published sections read
  *                  (BookProgress) or GK fact cards seen (GkFactProgress),
- *                  whichever is further; Reasoning: none exists yet → null
+ *                  whichever is further; Reasoning: none exists yet → null.
+ *                  Any subject: the student's own course PDF pages read in that
+ *                  chapter (CourseSection + CoursePageMark) count too, if further.
  *   PYQ            real-paper questions in the bank and the student's answers to them
  *   mistakes       the student's mistake-notebook items (ReviewItem from_mistake)
  *   revision       answers given while revising (source 'review')
@@ -25,7 +27,29 @@
  * reading heartbeat or book reader recorded as read.
  */
 
-const { Question, ReviewItem, ChapterStudy, BookProgress, GkFact, GkFactProgress, LearnProgress } = require('../models');
+const { Question, ReviewItem, ChapterStudy, BookProgress, GkFact, GkFactProgress, LearnProgress, CourseSection, CoursePageMark } = require('../models');
+
+/** Share of the student's course-PDF pages read per chapter: Map('quant.profit_loss' -> pct). */
+async function courseReading(uid) {
+  const sections = await CourseSection.find({ user_id: uid, topic: { $ne: null } }).select('file_id subject topic from to').lean();
+  if (!sections.length) return new Map();
+  const read = await CoursePageMark.find({ user_id: uid, read: true }).select('file_id page').lean();
+  const byFile = new Map();
+  for (const r of read) {
+    if (!byFile.has(String(r.file_id))) byFile.set(String(r.file_id), new Set());
+    byFile.get(String(r.file_id)).add(r.page);
+  }
+  const sum = new Map();
+  for (const sec of sections) {
+    const k = `${sec.subject}.${sec.topic}`;
+    const pages = byFile.get(String(sec.file_id));
+    let n = 0;
+    if (pages) for (let p = sec.from; p <= sec.to; p += 1) if (pages.has(p)) n += 1;
+    const cur = sum.get(k) ?? { read: 0, total: 0 };
+    sum.set(k, { read: cur.read + n, total: cur.total + (sec.to - sec.from + 1) });
+  }
+  return new Map([...sum].map(([k, v]) => [k, (v.read / v.total) * 100]));
+}
 const catalog = require('../../db/seed/catalog');
 const { loadLessons } = require('../../db/lessons');
 const books = require('./books');
@@ -139,7 +163,7 @@ async function computeChapterMastery(userId, { subjects = null, now = new Date()
   const uid = String(userId);
   // Lazy: insights requires this module too.
   const { answersOf } = require('./insights.service');
-  const [answers, bank, facts, mistakes, studies, bookDocs, factRows, learnRows] = await Promise.all([
+  const [answers, bank, facts, mistakes, studies, bookDocs, factRows, learnRows, course] = await Promise.all([
     given ?? answersOf(uid),
     bankCounts(),
     factCounts(),
@@ -148,6 +172,7 @@ async function computeChapterMastery(userId, { subjects = null, now = new Date()
     BookProgress.find({ user_id: uid }).select('book chapters').lean(),
     GkFactProgress.aggregate([{ $match: { user_id: uid, seen_at: { $ne: null } } }, { $group: { _id: '$topic', n: { $sum: 1 } } }]),
     LearnProgress.find({ user_id: uid, level: 'advanced' }).select('subject topic best updated_at').lean(),
+    courseReading(uid),
   ]);
 
   const group = (list) => {
@@ -193,6 +218,9 @@ async function computeChapterMastery(userId, { subjects = null, now = new Date()
       if (options.length) content = options.sort((a, b) => b.pct - a.pct)[0];
       if (be) test = be.test;
     }
+    // The student's own course PDF counts as reading too, when they have read further in it.
+    const coursePct = course.get(key);
+    if (coursePct != null && (content == null || coursePct > content.pct)) content = { pct: coursePct, source: 'course' };
 
     const b = bank.get(key) ?? { n: 0, pyq: 0 };
     const ev = M.evidenceFrom(answersBy.get(key) ?? [], {

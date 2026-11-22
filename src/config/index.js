@@ -32,6 +32,16 @@ module.exports = Object.freeze({
   // req.ip, and therefore IP rate limiting, sees the real client address.
   trustProxy: int(process.env.TRUST_PROXY_HOPS, 1),
 
+  // "My course": a student's own PDFs, stored privately and organised by chapter.
+  course: {
+    storageDir: process.env.COURSE_STORAGE_DIR || require('node:path').join(__dirname, '../../storage/course'),
+    maxUploadMb: int(process.env.COURSE_MAX_UPLOAD_MB, 400),
+    // OCR for scanned pages (Tesseract CLI + its language data). Missing = scanned pages are not read.
+    tesseractPath: process.env.TESSERACT_PATH || 'C:/Program Files/Tesseract-OCR/tesseract.exe',
+    tessdataDir: process.env.TESSDATA_DIR || require('node:path').join(__dirname, '../../vendor/tessdata'),
+    ocrConcurrency: int(process.env.COURSE_OCR_CONCURRENCY, 3),
+  },
+
   mock: {
     // Grace window for network latency on submit after the deadline.
     submitGraceSec: int(process.env.MOCK_SUBMIT_GRACE_SEC, 60),

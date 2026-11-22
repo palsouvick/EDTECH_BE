@@ -20,9 +20,10 @@ async function availability(subject, language) {
   ]);
   const out = new Map();
   for (const { _id, n } of rows) {
-    const a = out.get(_id.t) || { total: 0, easy: 0, moderate: 0, hard: 0, pyq: 0 };
+    const a = out.get(_id.t) || { total: 0, easy: 0, moderate: 0, hard: 0, pyq: 0, byDifficulty: {} };
     a.total += n;
     a[BANDS[bandOf(_id.d)]] += n;
+    a.byDifficulty[_id.d] = (a.byDifficulty[_id.d] || 0) + n; // adaptive practice: is a level thin?
     if (_id.p) a.pyq += n;
     out.set(_id.t, a);
   }

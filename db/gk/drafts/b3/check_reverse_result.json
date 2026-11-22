@@ -1,0 +1,152 @@
+[
+ {
+  "id": "REV0",
+  "answer": "B",
+  "quote_used": "Byomkesh Bakshi is a fictional detective in Bengali literature created by Sharadindu Bandyopadhyay.",
+  "problem": ""
+ },
+ {
+  "id": "REV1",
+  "answer": "A",
+  "quote_used": "His Ghanada was an incomparable creation in children's literature in Bengali.",
+  "problem": "WEAK: quote says 'His Ghanada' with Premendra Mitra only in a separate table row; other options not excluded by these quotes. Answer follows the question's premise."
+ },
+ {
+  "id": "REV2",
+  "answer": "UNSUPPORTED",
+  "quote_used": "Pataldabgar Tenida",
+  "problem": "Quotes give only the title and that Narayan is Taraknath Gangopadhyay's penname; no quote says Tenida is by him or a children's story."
+ },
+ {
+  "id": "REV3",
+  "answer": "D",
+  "quote_used": "Pather Panchali, Bibhutibhushan’s first novel, is considered to be his masterpiece.",
+  "problem": ""
+ },
+ {
+  "id": "REV4",
+  "answer": "C",
+  "quote_used": "Agni-vina, which included 'Pralayollas', 'Agamani', 'Kheya-parer Tarani', 'Shat-il-Arab', 'Vidrohi' and 'Kamal Pasha'",
+  "problem": "Spelling Vidrohi vs Bidrohi only."
+ },
+ {
+  "id": "REV5",
+  "answer": "D",
+  "quote_used": "The writer's use of the pseudonym 'Hutom' led to the language of the book being known as 'Hutomi Bangla'.",
+  "problem": "Hutom Pyanchar Naksha by Kali Prasanna Singh."
+ },
+ {
+  "id": "REV6",
+  "answer": "A",
+  "quote_used": "Many satirical essays of Pramatha Chowdhury, under the pseudonym ‘Birbal’, were also published in this journal.",
+  "problem": ""
+ },
+ {
+  "id": "REV7",
+  "answer": "C",
+  "quote_used": "While still in school, he started writing poems in the pen name of ‘Bonophool’.",
+  "problem": "WEAK: quote does not name Balai Chand; 'Bonophool' vs 'Banaphul' spelling; distractor quote 'published Banaphul (1880)' is confusing."
+ },
+ {
+  "id": "REV8",
+  "answer": "D",
+  "quote_used": "Rashekhar was famous for his humorous writings. He used the pseudonym ‘Parshuram’, for his writings.",
+  "problem": "'chemist and lexicographer' in the question is only partly supported (dictionary Chalantika quote; no 'chemist')."
+ },
+ {
+  "id": "REV9",
+  "answer": "A",
+  "quote_used": "He is also known by his literary pseudonym, Chitra Gupta",
+  "problem": "Quote does not name Satinath Bhaduri."
+ },
+ {
+  "id": "REV10",
+  "answer": "D",
+  "quote_used": "1964 Aangan Ke Par Dvar (Poetry) ‘Agyeya’ (S.H. Vatsyayan)",
+  "problem": ""
+ },
+ {
+  "id": "REV11",
+  "answer": "D",
+  "quote_used": "1959 Sanskriti Ke Char Adhyaya (A survey of Indian culture) ‘Dinkar’(Ramdhari Sinha)",
+  "problem": ""
+ },
+ {
+  "id": "REV12",
+  "answer": "D",
+  "quote_used": "1956 Alai Osai (Novel) *R. Krishnamurti 'Kalki'",
+  "problem": "'Tamil' not in quote."
+ },
+ {
+  "id": "REV13",
+  "answer": "UNSUPPORTED",
+  "quote_used": "Salman Rushdie has been nominated for the Booker Prize seven times, winning in 1981",
+  "problem": "Quotes never name Midnight's Children (only 'Saleem ... Rushdie's masterpiece'); other options are not excluded by quotes."
+ },
+ {
+  "id": "REV14",
+  "answer": "B",
+  "quote_used": "Arundhati Roy is the author of The God of Small Things, which won the Booker Prize in 1997",
+  "problem": ""
+ },
+ {
+  "id": "REV15",
+  "answer": "C",
+  "quote_used": "Kiran Desai won the Booker Prize in 2006 for this funny and politically acute family saga",
+  "problem": "Quote does not name the title; answer follows the question's premise (winner of 2006)."
+ },
+ {
+  "id": "REV16",
+  "answer": "D",
+  "quote_used": "19 K potassium",
+  "problem": ""
+ },
+ {
+  "id": "REV17",
+  "answer": "A",
+  "quote_used": "15 P phosphorus",
+  "problem": ""
+ },
+ {
+  "id": "REV18",
+  "answer": "B",
+  "quote_used": "For example, the symbol of iron is Fe from its Latin name ferrum",
+  "problem": ""
+ },
+ {
+  "id": "REV19",
+  "answer": "UNSUPPORTED",
+  "quote_used": "The element symbol Pb derives from the name plumbum.",
+  "problem": "Quotes say Pb derives from plumbum but never state that lead is Pb or plumbum; no element name 'lead' in the quotes."
+ },
+ {
+  "id": "REV20",
+  "answer": "C",
+  "quote_used": "80 Hg mercury",
+  "problem": ""
+ },
+ {
+  "id": "REV21",
+  "answer": "A",
+  "quote_used": "79 Au gold",
+  "problem": ""
+ },
+ {
+  "id": "REV22",
+  "answer": "A",
+  "quote_used": "50 Sn tin",
+  "problem": ""
+ },
+ {
+  "id": "REV23",
+  "answer": "B",
+  "quote_used": "74 W tungsten",
+  "problem": ""
+ },
+ {
+  "id": "REV24",
+  "answer": "B",
+  "quote_used": "29 Cu copper",
+  "problem": ""
+ }
+]

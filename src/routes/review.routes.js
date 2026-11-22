@@ -28,7 +28,7 @@ router.get('/due', validate({ query: z.object({ tz, limit: z.coerce.number().int
   res.json({ success: true, data: await review.due(req.user.id, { tz: zone, limit, pyqOnly: pyq === '1' }) });
 });
 
-const answerBody = z.object({ questionId: objectId, selectedOptionId: optionId, timeSpentSec: timeSpent().optional() });
+const answerBody = z.object({ questionId: objectId, askedQuestionId: objectId.optional(), selectedOptionId: optionId, timeSpentSec: timeSpent().optional() });
 router.post('/answer', verifyAnswerLimiter, validate({ body: answerBody }), async (req, res) => {
   noStore(res);
   res.json({ success: true, data: await review.answer(req.user.id, req.valid.body) });

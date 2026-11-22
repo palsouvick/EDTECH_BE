@@ -134,7 +134,9 @@ async function createSession(userId, body) {
  * quiz check before the test is submitted. Real ids appear only in results.
  */
 function presentLiveQuestion(session, q, seq) {
-  const p = presentQuestion(q, { seq });
+  // Adaptive practice labels each question (learning / exam pattern / real PYQ / challenge).
+  const practiceType = q.practiceType ?? session.questions?.find((s) => s.seq === seq)?.practice_type ?? null;
+  const p = { ...presentQuestion(q, { seq }), ...(practiceType && { practiceType }) };
   if (!session.config.question_aliases) return p;
   return { ...p, questionId: mockQuestionAlias(String(session._id), String(q._id)), fingerprint: null };
 }
@@ -172,7 +174,7 @@ function presentCustom(session) {
     difficulty: c.difficulty,
     distribution: c.distribution,
     topics: c.topics || [],
-    plan: (c.plan || []).map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons || [] })),
+    plan: (c.plan || []).map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons || [], ...(p.role && { role: p.role, level: p.level ?? null }), ...(p.tier && { tier: p.tier }) })),
     recommendedMinutes: c.recommended_min ?? null,
     followUpOf: c.follow_up_of ? String(c.follow_up_of) : null,
     // PYQ-only tests: the filters the test was built from (exam, year, repeat mode).

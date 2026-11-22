@@ -378,6 +378,50 @@ test('Smart Quiz: built from the analysis, mostly the weak chapter, skipped ques
   assert.equal((await api('POST', '/custom-tests', { subject: 'gs', preset: 'smart' }, user)).status, 422);
 });
 
+test('adaptive practice: per-chapter level and status, skill map, next actions, and a session at each chapter\'s own level', async () => {
+  const user = 'math_student';
+  const d = (await api('GET', '/me/analysis/quant', null, user)).body.data;
+  const pct = d.chapters.find((c) => c.topic === 'percentage');
+  const avg = d.chapters.find((c) => c.topic === 'average');
+  assert.equal(pct.status, 'weak');
+  assert.ok(['basic', 'easy', 'moderate'].includes(pct.level.next), `weak chapter level ${pct.level.next}`);
+  assert.ok(['developing', 'strong'].includes(avg.status));
+  assert.equal(pct.level.concept === null || typeof pct.level.concept === 'object', true);
+  assert.ok(d.skillMap.counts.weak >= 1 && d.skillMap.groups.weak.some((c) => c.topic === 'percentage'));
+  assert.equal(typeof d.weekChange.answers, 'number');
+
+  const o = (await api('GET', '/me/analysis', null, user)).body.data;
+  assert.equal(o.nextActions[0].topic, 'percentage', 'the weak chapter comes first');
+  assert.ok(o.nextActions.length >= 2 && o.nextActions.every((a) => a.kind && a.level));
+  assert.ok(['learn', 'practice', 'revision'].includes(o.continue.kind));
+  assert.ok(Array.isArray(o.insights));
+  assert.equal(o.subjects.find((s) => s.subject === 'quant').skillMap.counts.weak, d.skillMap.counts.weak);
+
+  // A 10-question adaptive session: mostly the weak chapter, every question labelled, each chapter at its own level.
+  const r = await api('POST', '/custom-tests', { subject: 'quant', preset: 'adaptive' }, user);
+  assert.equal(r.status, 201, JSON.stringify(r.body));
+  assert.equal(r.body.data.custom.preset, 'adaptive');
+  assert.equal(r.body.data.questions.length, 10);
+  assert.ok(r.body.data.questions.every((q) => ['learning', 'exam_pattern', 'pyq', 'challenge'].includes(q.practiceType)));
+  const plan = r.body.data.custom.plan;
+  assert.ok(plan.every((p) => p.role && p.level), JSON.stringify(plan));
+  assert.equal(plan.find((p) => p.topic === 'percentage' && p.role === 'focus').level, pct.level.next);
+  const session = await MockSession.findById(r.body.data.sessionId).lean();
+  assert.ok(session.questions.filter((q) => q.topic === 'percentage').length >= 5, 'the weak chapter gets the focus share');
+  // The weak chapter's questions sit at or near its level, never at Exam Challenge.
+  assert.ok(session.questions.filter((q) => q.topic === 'percentage').every((q) => q.difficulty <= 4));
+
+  // One chosen chapter: the whole session at that chapter's level.
+  const one = await api('POST', '/custom-tests', { subject: 'quant', preset: 'adaptive', topics: ['average'], questionCount: 5 }, user);
+  assert.equal(one.status, 201, JSON.stringify(one.body));
+  assert.deepEqual(one.body.data.custom.plan.map((p) => [p.topic, p.level]), [['average', avg.level.next]]);
+  // Resuming the session keeps the labels.
+  const resumed = await api('GET', `/mock/sessions/${one.body.data.sessionId}`, null, user);
+  if (resumed.status === 200) assert.ok(resumed.body.data.questions.every((q) => q.practiceType));
+  // Not for GK.
+  assert.equal((await api('POST', '/custom-tests', { subject: 'gs', preset: 'adaptive' }, user)).status, 422);
+});
+
 test('test skips count, with "ran out of time" for questions the clock ended', async () => {
   const user = 'test_taker';
   const t = (await api('POST', '/custom-tests', { subject: 'quant', topics: ['time_work'], questionCount: 10, mode: 'exam' }, user)).body.data;

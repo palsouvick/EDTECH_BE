@@ -30,6 +30,7 @@ const { patternName } = require('./insights.service');
 const skips = require('./skips.service');
 const learn = require('./learn.service');
 const A = require('./analysis.logic');
+const AD = require('./adaptive.logic');
 const AppError = require('../utils/AppError');
 
 const ANSWERED = new Set(['CORRECT', 'INCORRECT']);
@@ -183,6 +184,10 @@ async function analyseSubject(userId, subject, { language = 'en', tz = 330, now 
     c.latestWrong = latest.wrong.get(ch.topic) || 0;
     c.latestSkipped = latest.skipped.get(ch.topic) || 0;
     c.emoji = ch.emoji;
+    c.hasLesson = Boolean(ch.hasLesson);
+    // Adaptive practice: Skill Map status (from the one mastery stage) and this chapter's own difficulty level.
+    c.status = AD.statusOf(c.stage, c.answers);
+    c.level = AD.chapterLevel(answers, { stage: c.stage, bank: d.avail.get(ch.topic)?.byDifficulty ?? null, nameOf: prettySlug });
     return c;
   });
 
@@ -199,6 +204,8 @@ async function analyseSubject(userId, subject, { language = 'en', tz = 330, now 
     nextTask: focus[0] ? { topic: focus[0].topic, title: focus[0].title, band: focus[0].focus.band, step: focus[0].plan.steps[0], why: focus[0].why.slice(0, 2) } : null,
     chapters,
     nextSmartQuiz: nextSmartQuiz(chapters, d.latestTest, latest, titleOf),
+    skillMap: skillMapOf(chapters),
+    weekChange: { ...AD.weekChange(d.answers, now), improved: chapters.filter((c) => c.trend.direction === 'up').length, revisionDue: chapters.filter((c) => c.revision.due).length },
   };
   if (!detail) return result;
 
@@ -282,6 +289,20 @@ async function skippedQuestionList(d, titleOf, limit = 30) {
   }));
 }
 
+/** The adaptive level as the page shows it (evidence kept for "why this level"). */
+const levelBrief = (lv) => ({ current: lv.current, next: lv.next, action: lv.action, thin: lv.thin, nearest: lv.nearest, concept: lv.concept, evidence: lv.evidence });
+
+/** Skill Map of one subject: chapters by status, each with its mastery and next practice level. */
+function skillMapOf(chapters) {
+  const groups = { strong: [], developing: [], weak: [], insufficient: [] };
+  for (const c of chapters) {
+    if (c.status === 'insufficient' && !c.started) continue; // never opened: not a skill yet
+    groups[c.status].push({ topic: c.topic, title: c.title, mastery: c.mastery, accuracy: c.recentAccuracy, answers: c.answers, level: levelBrief(c.level) });
+  }
+  for (const k of Object.keys(groups)) groups[k].sort((a, b) => (b.mastery ?? -1) - (a.mastery ?? -1));
+  return { counts: Object.fromEntries(Object.entries(groups).map(([k, v]) => [k, v.length])), notStarted: chapters.filter((c) => c.status === 'insufficient' && !c.started).length, groups };
+}
+
 /** One row of the overview's all-chapters list: enough to rank and show it, nothing more. */
 const chapterBrief = (c) => ({
   topic: c.topic,
@@ -295,6 +316,29 @@ const chapterBrief = (c) => ({
   started: c.started,
   practicePct: c.practicePct,
   weakestSkill: c.weakestSkill ? { name: c.weakestSkill.name, accuracy: c.weakestSkill.accuracyPct } : null,
+  status: c.status,
+  level: levelBrief(c.level),
+});
+
+/** What the "next actions" rule needs from an analysed chapter. */
+const actionInput = (subject, c) => ({
+  subject,
+  topic: c.topic,
+  title: c.title,
+  mastery: c.mastery,
+  accuracy: c.recentAccuracy,
+  status: c.status,
+  level: c.level,
+  focus: { score: c.focus.score, band: c.focus.band },
+  priority: c.priority,
+  revisionDue: c.revision.due,
+  started: c.started,
+  hasLesson: c.hasLesson,
+  readingPct: c.readingPct,
+  daysSinceTouched: c.daysSinceTouched,
+  openMistakes: c.openMistakes,
+  repeatedMistakes: c.repeatedMistakes,
+  trend: c.trend,
 });
 
 /** Both subjects side by side, with the current focus across them (#21 "learning health"). */
@@ -302,10 +346,19 @@ async function overview(userId, { language = 'en', tz = 330, now = new Date() } 
   const subjects = await Promise.all(A.ANALYSIS_SUBJECTS.map((s) => analyseSubject(userId, s, { language, tz, now, detail: false })));
   // The streak is user-level (same days and freeze rules as /me), and the target exam comes from
   // the 60-day plan: the exam is fixed (WBPSC Clerkship), only the date depends on the student.
-  const [streakDays, planDoc] = await Promise.all([
+  const [streakDays, planDoc, revisionDue] = await Promise.all([
     streakDaysFor(userId, tz, now).catch(() => 0),
     StudyPlanProgress.findOne({ user_id: userId, plan: plan.code }).select('exam_date start_date').lean().catch(() => null),
+    ReviewItem.countDocuments({ user_id: userId, status: 'active', due_at: { $lte: now } }).catch(() => 0),
   ]);
+  // Adaptive: one ranked list across both subjects (priority = focus score: weakness + exam importance + recency + mastery).
+  const all = subjects.flatMap((s) => s.chapters.map((c) => actionInput(s.subject, c)));
+  const actions = AD.nextActions(all, 3).map((a) => ({
+    subject: a.subject, topic: a.topic, title: a.title, mastery: a.mastery, accuracy: a.accuracy, status: a.status, priority: a.priority,
+    kind: a.kind, level: levelBrief(a.level), why: (subjects.find((s) => s.subject === a.subject)?.chapters.find((c) => c.topic === a.topic)?.why ?? []).slice(0, 2),
+  }));
+  const weeks = subjects.map((s) => s.weekChange);
+  const sum = (k) => weeks.reduce((x, w) => x + (w[k] ?? 0), 0);
   const focus = subjects
     .flatMap((s) => s.studyNow.filter((c) => c.band === 'high' || c.band === 'medium').slice(0, 3).map((c) => ({ subject: s.subject, ...c })))
     .sort((a, b) => b.score - a.score)
@@ -319,8 +372,23 @@ async function overview(userId, { language = 'en', tz = 330, now = new Date() } 
       nextTask: s.nextTask,
       areas: s.areas,
       chapters: s.chapters.map(chapterBrief),
+      skillMap: s.skillMap,
+      weekChange: s.weekChange,
     })),
     focus,
+    nextActions: actions,
+    continue: AD.continueStep(AD.nextActions(all, 3), { revisionDue }),
+    insights: AD.insights(all),
+    weekChange: {
+      answers: sum('answers'),
+      correct: sum('correct'),
+      accuracyDelta: weeks.some((w) => w.accuracyDelta != null) ? Math.round(weeks.reduce((x, w) => x + (w.accuracyDelta ?? 0) * w.answers, 0) / Math.max(1, weeks.filter((w) => w.accuracyDelta != null).reduce((x, w) => x + w.answers, 0))) : null,
+      wrong: sum('wrong'),
+      wrongDelta: weeks.some((w) => w.wrongDelta != null) ? sum('wrongDelta') : null,
+      improved: sum('improved'),
+      revisionDue,
+      bySubject: Object.fromEntries(subjects.map((s) => [s.subject, s.weekChange])),
+    },
     streakDays,
     plan: { exam: plan.exam, examDate: planDoc?.exam_date ?? null, startDate: planDoc?.start_date ?? null },
   };
@@ -336,6 +404,19 @@ async function smartPlan(userId, subject, { language, count, topics = [] }) {
   // A chosen chapter the student has not started still gets questions.
   const usable = topics.length ? chapters.map((c) => (c.focus.band === 'not_started' ? { ...c, focus: { ...c.focus, band: 'low' } } : c)) : chapters;
   return A.smartQuizPlan(usable, count);
+}
+
+/**
+ * Adaptive practice plan for the custom-test generator (preset "adaptive"): which chapters, how many
+ * questions, in which role, and each chapter's own difficulty mix (adaptive.logic sessionPlan).
+ * One chosen chapter = the whole session at that chapter's level.
+ */
+async function adaptivePlan(userId, subject, { language, count, topics = [] }) {
+  const a = await analyseSubject(userId, subject, { language, detail: false });
+  const chapters = a.chapters.map((c) => ({
+    topic: c.topic, status: c.status, level: c.level, focus: c.focus, available: c.available, openMistakes: c.openMistakes, revisionDue: c.revision.due, daysSinceTouched: c.daysSinceTouched,
+  }));
+  return AD.sessionPlan(chapters, count, { topics }).map((p) => ({ ...p, mix: AD.mixFor(p.level), pyqBoost: AD.pyqBoostFor(p.level) }));
 }
 
 /** Heartbeat from a Learn chapter page: seconds of visible reading and the section being read. */
@@ -362,4 +443,4 @@ async function logStudy(userId, { subject, topic, kind, seconds, section, sectio
   return { subject, topic, sectionsRead: read.size, sectionsTotal: total };
 }
 
-module.exports = { analyseSubject, overview, smartPlan, logStudy, nextSmartQuiz };
+module.exports = { analyseSubject, overview, smartPlan, adaptivePlan, logStudy, nextSmartQuiz };

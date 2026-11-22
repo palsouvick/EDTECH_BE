@@ -25,6 +25,7 @@ router.use('/mock', require('./mock.routes'));
 router.use('/custom-tests', require('./customTest.routes'));
 router.use('/pyq', require('./pyq.routes'));
 router.use('/plan', require('./plan.routes'));
+router.use('/course', require('./course.routes'));
 router.use('/admin/vocabulary', require('./vocabularyAdmin.routes'));
 router.use('/admin', require('./admin.routes'));
 

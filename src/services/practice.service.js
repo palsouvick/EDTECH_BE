@@ -14,6 +14,7 @@ const {
   presentTopicSummaryAllLanguages,
 } = require('./presenters');
 const { encodeCursor, decodeCursor, afterKey } = require('./practiceCursor');
+const mix = require('./practiceMix');
 const { subjectName, topicName } = require('./catalogNames');
 const { storedSubtopics } = require('./gkTaxonomy');
 const { DIFFICULTY_BANDS } = require('./gk.service');
@@ -41,12 +42,14 @@ async function getTopicView({ category, subject, topic, language, page, limit })
     TopicSummary.findOne({ subject, topic, subtopic: null, status: 'PUBLISHED' })
       .select(SUMMARY_FIELDS)
       .lean(),
-    Question.find(filter)
-      .select(PUBLIC_QUESTION_FIELDS)
-      .sort(PRACTICE_SORT)
-      .skip((page - 1) * limit)
-      .limit(limit)
-      .lean(),
+    mix.usesMixedOrder(subject)
+      ? mix.orderedKeys(Question, filter).then((keys) => mix.docsInOrder(Question, keys.slice((page - 1) * limit, page * limit), PUBLIC_QUESTION_FIELDS))
+      : Question.find(filter)
+        .select(PUBLIC_QUESTION_FIELDS)
+        .sort(PRACTICE_SORT)
+        .skip((page - 1) * limit)
+        .limit(limit)
+        .lean(),
     Question.countDocuments(filter),
   ]);
 
@@ -180,20 +183,34 @@ async function getQuestionStream({ category, subject, topic, language, cursor, l
     ...(difficulty && { difficulty: { $in: DIFFICULTY_BANDS[difficulty] } }),
     ...(verifiedOnly && { 'source_check.status': 'SOURCE_VERIFIED' }),
   };
-  if (cursor) {
-    const key = decodeCursor(cursor);
-    if (!key) throw AppError.badRequest('Invalid or expired cursor');
-    Object.assign(filter, afterKey(key));
+  let page;
+  let hasMore;
+  let nextCursor = null;
+  if (mix.usesMixedOrder(subject)) {
+    // General Studies: subtopics spread through each difficulty band (practiceMix.js).
+    const after = cursor ? mix.decodeMixCursor(cursor) : null;
+    if (cursor && !after) throw AppError.badRequest('Invalid or expired cursor');
+    const rest = mix.keysAfter(await mix.orderedKeys(Question, filter), after);
+    const pageKeys = rest.slice(0, limit);
+    hasMore = rest.length > limit;
+    page = await mix.docsInOrder(Question, pageKeys, `${PUBLIC_QUESTION_FIELDS} latest_pyq_year`);
+    if (hasMore) nextCursor = mix.encodeMixCursor(pageKeys[pageKeys.length - 1]);
+  } else {
+    if (cursor) {
+      const key = decodeCursor(cursor);
+      if (!key) throw AppError.badRequest('Invalid or expired cursor');
+      Object.assign(filter, afterKey(key));
+    }
+    // limit + 1 tells us whether another page exists without a count query.
+    const docs = await Question.find(filter)
+      .select(`${PUBLIC_QUESTION_FIELDS} latest_pyq_year`)
+      .sort(PRACTICE_SORT)
+      .limit(limit + 1)
+      .lean();
+    hasMore = docs.length > limit;
+    page = hasMore ? docs.slice(0, limit) : docs;
+    if (hasMore) nextCursor = encodeCursor(page[page.length - 1]);
   }
-
-  // limit + 1 tells us whether another page exists without a count query.
-  const docs = await Question.find(filter)
-    .select(`${PUBLIC_QUESTION_FIELDS} latest_pyq_year`)
-    .sort(PRACTICE_SORT)
-    .limit(limit + 1)
-    .lean();
-  const hasMore = docs.length > limit;
-  const page = hasMore ? docs.slice(0, limit) : docs;
 
   let bookmarked = new Set();
   if (userId && page.length) {
@@ -205,7 +222,7 @@ async function getQuestionStream({ category, subject, topic, language, cursor, l
 
   return {
     questions: page.map((q) => presentQuestion(q, { bookmarked: bookmarked.has(String(q._id)) })),
-    nextCursor: hasMore ? encodeCursor(page[page.length - 1]) : null,
+    nextCursor,
     hasMore,
   };
 }

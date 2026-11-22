@@ -1,0 +1,121 @@
+{
+ "rows": [
+  {
+   "row": 1,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 2,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 3,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 4,
+   "supported": true,
+   "problem": "Supported by bio quote ('fourth president ... from 24 August 1969 to 24 August 1974'), but the same page's 'Term of Office' field starts 05/03/1969 (3 May 1969, when he began acting). Source disagreement within one URL; the table follows the bio quote."
+  },
+  {
+   "row": 5,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 6,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 7,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 8,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 9,
+   "supported": true,
+   "problem": "Source spells 'Shanker Dayal Sharma' (page title/slug 'shankar'); table spelling 'Shankar' is a variant, same person, ordinal 9th supported."
+  },
+  {
+   "row": 10,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 11,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 12,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 13,
+   "supported": true,
+   "problem": "Supported at month level only: Term field reads 07/05/2012 (July 2012), end 07/25/2017. Source disagreement: the former-presidents list says 13th, but his bio quote says '12th president of India'; table's 13 follows the list (and Patil's bio is 12th)."
+  },
+  {
+   "row": 14,
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "row": 15,
+   "supported": true,
+   "problem": "Start 25 July 2022 and 15th supported by 'sworn in as the 15th President of India on July 25, 2022'; 'present' is supported only by the site's current-President page title 'The President of India, Smt Droupadi Murmu' (time-sensitive)."
+  }
+ ],
+ "lines": [
+  {
+   "text": "Dr Rajendra Prasad was the 1st President (26 January 1950 to 13 May 1962); Droupadi Murmu is the 15th, sworn in on 25 July 2022.",
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "text": "Firsts: Giani Zail Singh was the first Sikh President; Pratibha Devisingh Patil the first woman President; V. V. Giri the first President elected as an independent candidate.",
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "text": "Dr Zakir Husain's term (13 May 1967 to 3 May 1969) ended with his death.",
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "text": "Vice-Presidents who became President: Dr Radhakrishnan (1st Vice-President), V. V. Giri (3rd) and K. R. Narayanan (9th).",
+   "supported": true,
+   "problem": "Every name/number is supported, but the heading reads as a complete list and the quotes do not establish that only these three VPs became President (in reality Zakir Husain, R. Venkataraman and S. D. Sharma also did). Suggest 'Three Vice-Presidents who became President include ...' or add the others with sources."
+  },
+  {
+   "text": "Radhakrishnan: 1st Vice-President (1952 to 1962) and then 2nd President (1962 to 1967).",
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "text": "Narayanan (10th, 1997 to 2002) comes before Kalam (11th, 2002 to 2007).",
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "text": "Pratibha Patil (2007 to 2012) is followed by Pranab Mukherjee (2012 to 2017), then Ram Nath Kovind (14th, 2017 to 2022).",
+   "supported": true,
+   "problem": ""
+  },
+  {
+   "text": "Giri's presidency began on 24 August 1969; he had been Vice-President from 13 May 1967 to 3 May 1969.",
+   "supported": true,
+   "problem": "Supported by Giri bio quote; his page's Term of Office field says 3 May 1969 (acting start), so the 24 August 1969 date depends on the bio sentence."
+  }
+ ]
+}

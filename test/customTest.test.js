@@ -423,3 +423,69 @@ test('custom tests are not peers of standard mocks', async () => {
   assert.equal(an.body.data.peers.peers, 0);
   assert.equal(an.body.data.result.custom, null);
 });
+
+/* ------------------------------------------------------------------ Math Hard Quiz + Speed Challenge */
+
+test('Hard Quiz: Math only; skill slots at the chapter tier; labelled; the report explains skills and the next step', async () => {
+  const HQ = require('../src/services/hardQuiz.logic');
+  // 'average' has a Hard matrix: questions on its real pattern ids, levels 1-5.
+  const ids = [...HQ.skillIndex().keys()].filter((k) => k.startsWith('average.')).map((k) => k.split('.')[1]);
+  const docs = [];
+  for (const [i, p] of ids.entries()) for (let d = 1; d <= 5; d++) docs.push(Q('average', d, { pattern: p, code: `HQ-${i}-${d}` }));
+  await Question.insertMany(docs);
+
+  const user = 'hard_quiz';
+  assert.equal((await api('POST', '/custom-tests', { subject: 'english', preset: 'hard', topics: [] }, user)).body.error.code, 'HARD_QUIZ_SUBJECT');
+
+  const created = await api('POST', '/custom-tests', { subject: 'quant', preset: 'hard', topics: ['average'] }, user);
+  assert.equal(created.status, 201, JSON.stringify(created.body));
+  const s = created.body.data;
+  assert.equal(s.questions.length, 10, 'default 10 questions');
+  assert.equal(s.custom.preset, 'hard');
+  assert.equal(s.custom.mode, 'practice');
+  assert.equal(s.custom.plan[0].tier, 'developing', 'a student with no answers is not assessed yet');
+  assert.ok(s.custom.plan[0].reasons.includes('tier:developing'));
+  assert.ok(s.notes.slots.reverse >= 1 && s.notes.slots.mixed >= 1, JSON.stringify(s.notes.slots));
+  assert.ok(s.questions.every((q) => ['pyq', 'pyq_pattern', 'challenge', 'exam_pattern', 'learning'].includes(q.practiceType)));
+  const stored = await MockSession.findById(s.sessionId).lean();
+  assert.ok(stored.questions.every((q) => q.difficulty >= 2 && q.difficulty <= 4), stored.questions.map((q) => q.difficulty).join());
+  assert.ok(stored.questions.every((q) => q.hard_slot), 'every question records its slot');
+
+  const key = await keyOf(s.sessionId);
+  const responses = s.questions.map((q) => ({ questionId: q.questionId, selectedOptionId: key[q.questionId].right, timeSpentSec: 50 }));
+  assert.equal((await api('POST', '/mock/submit-session', { sessionId: s.sessionId, responses }, user)).status, 200);
+  const rep = (await api('GET', `/custom-tests/${s.sessionId}/report`, null, user)).body.data;
+  assert.ok(rep.skills.length >= 2, JSON.stringify(rep.skills));
+  assert.ok(rep.skills.every((k) => k.status === 'strong'));
+  assert.equal(rep.nextStep.action, 'harder_mix');
+  assert.equal(rep.speed, null);
+});
+
+test('Speed Challenge: 5/10/15/20 questions, a chosen time, exam screen without negative marks; speed report', async () => {
+  const user = 'speedy';
+  assert.equal((await api('POST', '/custom-tests', { subject: 'quant', preset: 'speed', topics: ['percentage'], questionCount: 7, timeLimitMinutes: 5 }, user)).body.error.code, 'SPEED_COUNT');
+  assert.equal((await api('POST', '/custom-tests', { subject: 'quant', preset: 'speed', topics: ['percentage'], questionCount: 5 }, user)).body.error.code, 'SPEED_TIME_REQUIRED');
+
+  const created = await api('POST', '/custom-tests', { subject: 'quant', preset: 'speed', topics: ['percentage'], questionCount: 5, timeLimitMinutes: 5, mode: 'practice' }, user);
+  assert.equal(created.status, 201, JSON.stringify(created.body));
+  const s = created.body.data;
+  assert.equal(s.custom.mode, 'exam', 'always the timed exam screen');
+  assert.equal(s.config.timeLimitMinutes, 5);
+  assert.equal(s.config.markingScheme.negative, 0);
+  const key = await keyOf(s.sessionId);
+  // 3 right (40 s), 1 wrong in 10 s (rushed: planned 60 s), 1 skipped.
+  const responses = s.questions.map((q, i) => ({
+    questionId: q.questionId,
+    selectedOptionId: i < 3 ? key[q.questionId].right : i === 3 ? q.options.find((o) => o.optionId !== key[q.questionId].right).optionId : null,
+    timeSpentSec: i < 3 ? 40 : 10,
+  }));
+  const sub = await api('POST', '/mock/submit-session', { sessionId: s.sessionId, responses }, user);
+  assert.equal(sub.status, 200, JSON.stringify(sub.body));
+  assert.equal(sub.body.data.score, 3);
+  const rep = (await api('GET', `/custom-tests/${s.sessionId}/report`, null, user)).body.data;
+  assert.equal(rep.speed.completed, 4);
+  assert.equal(rep.speed.skipped, 1);
+  assert.equal(rep.speed.plannedSecPerQuestion, 60);
+  assert.equal(rep.speed.rushedMistakes, 1);
+  assert.equal(rep.speed.accuracy, 75);
+});

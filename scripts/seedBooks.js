@@ -1,5 +1,7 @@
 'use strict';
 
+const { placeCorrect } = require('../src/utils/optionOrder');
+
 /**
  * Loads the practice questions of the study-book chapters (db/books/<book>/*.json) into the ordinary
  * question bank (subject gs), so practice, the mistake book and revision work with them. Idempotent.
@@ -44,7 +46,8 @@ function questionDoc(book, ch, q) {
     difficulty: DIFFICULTY[q.level],
     expected_time_sec: q.format === 'DIRECT' ? 40 : 80,
     stem: { bn: q.q },
-    options,
+    // The answer is listed first in the file; its display position comes from the code.
+    options: placeCorrect(options, options[0].oid, code),
     correct_option_id: options[0].oid,
     solution: { steps: [{ bn: q.e }, { bn: `সূত্র: [${src.title}](${src.url})` }], traps: [] },
     status: published ? 'PUBLISHED' : 'DRAFT',
