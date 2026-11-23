@@ -98,6 +98,18 @@ function presentSection(s, read = null) {
   };
 }
 
+/**
+ * Why a file failed, as a code the page can explain in the student's language. The raw message
+ * (which can name server paths and packages) stays in the database and the server log only.
+ */
+function failReason(f) {
+  if (f.status !== 'failed') return null;
+  const msg = f.error || '';
+  if (/password/i.test(msg)) return 'password';
+  if (/invalid pdf|corrupt|xref|formaterror|unexpected end/i.test(msg)) return 'damaged';
+  return 'server';
+}
+
 function presentFile(f, sections = null, read = null) {
   return {
     readPages: read?.size ?? 0,
@@ -112,7 +124,7 @@ function presentFile(f, sections = null, read = null) {
     status: f.status,
     progress: f.progress,
     ocrAvailable: f.ocr_available,
-    error: f.error,
+    failReason: failReason(f),
     lastPage: f.last_page,
     createdAt: f.created_at,
     ...(sections && { sections: sections.map((x) => presentSection(x, read)) }),
@@ -407,5 +419,5 @@ async function sectionsForTopic(userId, subject, topic) {
 
 module.exports = {
   markPage, markRange, bookmarks, moveFile, addFile, listFiles, getFile, pdfPath, setLastPage, renameFile, reprocess, deleteFile,
-  addSection, updateSection, deleteSection, search, sectionsForTopic, chapterChoices, resumeQueue, setWorkerEnabled, pump,
+  addSection, updateSection, deleteSection, search, sectionsForTopic, chapterChoices, resumeQueue, setWorkerEnabled, pump, failReason,
 };

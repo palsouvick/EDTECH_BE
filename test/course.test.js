@@ -299,3 +299,13 @@ test('chapters list for the fix picker covers Math, English, GK', async () => {
   assert.ok(s.quant.topics.some((t) => t.topic === 'pipes_cistern'));
   assert.ok(s.english.topics.length > 5 && s.gs.topics.length > 5);
 });
+
+test('a failed file shows a reason code, never the raw error (it can name server paths)', () => {
+  const f = (error, status = 'failed') => course.failReason({ status, error });
+  assert.equal(f("Cannot find package 'pdfjs-dist' imported from F:/x/courseWorker.js"), 'server');
+  assert.equal(f('worker exited with code 1'), 'server');
+  assert.equal(f(null), 'server');
+  assert.equal(f('No password given'), 'password');
+  assert.equal(f('Invalid PDF structure.'), 'damaged');
+  assert.equal(f('anything', 'ready'), null);
+});
