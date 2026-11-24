@@ -543,8 +543,8 @@ module.exports = {
       shortcut: t('Add the two group totals and subtract the grand total — whatever is left was counted twice, and that is exactly the overlapping day.', 'দুটি দলের মোট যোগ করে সর্বমোট বিয়োগ করো — যা বাকি থাকে তা দুবার গোনা হয়েছে, আর সেটাই ওভারল্যাপ করা দিন।'),
       trap: t('Treating the period as m + n days: the two groups share exactly one day, so the whole period has m + n − 1 days.', 'সময়টিকে m + n দিন ধরা: দুটি দল ঠিক একটি দিন ভাগ করে, তাই পুরো সময় হয় m + n − 1 দিন।'),
       spot: t(
-        'Averages are given for the **first** part and the **last** part of one period, the two parts **share one day**, and the grand total for the whole period is also given.',
-        'একটি সময়ের **প্রথম** অংশ ও **শেষ** অংশের গড় দেওয়া থাকে, দুটি অংশ **একটি দিন ভাগ করে**, আর পুরো সময়ের সর্বমোটও দেওয়া থাকে।',
+        'Averages are given for the **first** part and the **last** part of one list or period, the two parts **share one day** (or leave out exactly **one middle value**), and the overall average or total is also given.',
+        'একটি তালিকা বা সময়ের **প্রথম** অংশ ও **শেষ** অংশের গড় দেওয়া থাকে, দুটি অংশ **একটি দিন ভাগ করে** (অথবা ঠিক **একটি মাঝের মান** বাদ রাখে), আর পুরো তালিকার গড় বা সর্বমোটও দেওয়া থাকে।',
       ),
       method: [
         t('First part total = m × its average; last part total = n × its average.', 'প্রথম অংশের মোট = m × তার গড়; শেষ অংশের মোট = n × তার গড়।'),
@@ -569,6 +569,85 @@ module.exports = {
           t('First 8 days total = 8 × 50 = ₹400; last 8 days total = 8 × 60 = ₹480.', 'প্রথম 8 দিনের মোট = 8 × 50 = ₹400; শেষ 8 দিনের মোট = 8 × 60 = ₹480।'),
           t('The two groups cover 8 + 8 − 1 = 15 days, with the 8th day counted twice.', 'দুটি দল মিলে 8 + 8 − 1 = 15 দিন, যেখানে 8ম দিনটি দুবার গোনা হয়েছে।'),
           t('8th day = 400 + 480 − 800 = ₹80.', '8ম দিন = 400 + 480 − 800 = ₹80।'),
+        ],
+      },
+    },
+
+    // 15 ─────────────────────────────────────────────
+    {
+      key: 'uniform_change_average',
+      emoji: '🔁',
+      name: t('Every number changed the same way', 'প্রতিটি সংখ্যা একইভাবে বদলালে গড়'),
+      difficulty: 'beginner',
+      practiceLevels: ['beginner', 'intermediate'],
+      typicalWording: t('“The average of 10 numbers is 20. If each number is increased by 5 (or multiplied by 12), what is the new average?”', '“10টি সংখ্যার গড় 20। প্রতিটি সংখ্যা 5 বাড়ালে (বা 12 দিয়ে গুণ করলে) নতুন গড় কত?”'),
+      formula: t(r`Each $+k$: new average $= A + k$. Each $\times m$: new average $= mA$. Each $\times m$ then $+k$: new average $= mA + k$.`, r`প্রতিটিতে $+k$: নতুন গড় $= A + k$। প্রতিটি $\times m$: নতুন গড় $= mA$। প্রতিটি $\times m$ তারপর $+k$: নতুন গড় $= mA + k$।`),
+      shortcut: t('Do to the average exactly what was done to each number — the count never matters.', 'প্রতিটি সংখ্যার সঙ্গে যা করা হয়েছে, গড়ের সঙ্গেও ঠিক তাই করো — সংখ্যা কতগুলি তাতে কিছু যায় আসে না।'),
+      trap: t('Adding the whole increase of the total (count × k) to the average, or adding k to the average when the numbers were MULTIPLIED.', 'মোটের পুরো বৃদ্ধি (সংখ্যা × k) গড়ে যোগ করা, অথবা সংখ্যাগুলি গুণ করা হলেও গড়ে k যোগ করা।'),
+      spot: t(
+        'The average of a group is given and then **each** number is increased, decreased, multiplied or divided by the **same** amount; the new average (or the old one) is asked.',
+        'একটি দলের গড় দেওয়া থাকে, তারপর **প্রতিটি** সংখ্যা **একই** পরিমাণে বাড়ানো, কমানো, গুণ বা ভাগ করা হয়; নতুন (বা পুরোনো) গড় জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Note the old average $A$ and what is done to every number.', 'পুরোনো গড় $A$ এবং প্রতিটি সংখ্যার সঙ্গে কী করা হয়েছে লক্ষ করো।'),
+        t('Apply the same operations, in the same order, to $A$.', 'একই ক্রিয়াগুলি একই ক্রমে $A$-এর ওপর করো।'),
+        t('For the reverse question, undo the operations in reverse order.', 'উল্টো প্রশ্নে ক্রিয়াগুলি উল্টো ক্রমে বাতিল করো।'),
+      ],
+      example: {
+        question: t('The average of $10$ numbers is $20$. Each number is first multiplied by $3$ and then increased by $4$. What is the new average?', '$10$টি সংখ্যার গড় $20$। প্রতিটি সংখ্যাকে প্রথমে $3$ দিয়ে গুণ করে তারপর $4$ যোগ করা হল। নতুন গড় কত?'),
+        steps: [
+          t(r`Multiplying every number by $3$ multiplies the average: $20 \times 3 = 60$.`, r`প্রতিটি সংখ্যা $3$ দিয়ে গুণ করলে গড়ও গুণ হয়: $20 \times 3 = 60$।`),
+          t(r`Adding $4$ to every number adds $4$ to the average: $60 + 4 = 64$.`, r`প্রতিটিতে $4$ যোগ করলে গড়ে $4$ যোগ হয়: $60 + 4 = 64$।`),
+        ],
+        answer: t('$64$', 'নতুন গড় $64$'),
+      },
+      tryIt: {
+        question: t('The average of $8$ numbers is $15$. If each number is increased by $6$, what is the new average?', '$8$টি সংখ্যার গড় $15$। প্রতিটি সংখ্যা $6$ করে বাড়ালে নতুন গড় কত?'),
+        options: [t('63', '63'), t('21', '21'), t('15', '15'), t('90', '90')],
+        correct: 1,
+        explanation: [
+          t(r`Each number rises by $6$, so the total rises by $8 \times 6 = 48$ and the average by $48 \div 8 = 6$.`, r`প্রতিটি সংখ্যা $6$ বাড়ে, তাই মোট বাড়ে $8 \times 6 = 48$ এবং গড় বাড়ে $48 \div 8 = 6$।`),
+          t(r`New average $= 15 + 6 = 21$. ($63$ adds the whole $48$ to the average.)`, r`নতুন গড় $= 15 + 6 = 21$। ($63$ আসে পুরো $48$ গড়ে যোগ করলে।)`),
+        ],
+      },
+    },
+
+    // 16 ─────────────────────────────────────────────
+    {
+      key: 'mess_expenditure_change',
+      emoji: '🍛',
+      name: t('Hostel mess: more members, total up, average down', 'হোস্টেলের মেস: সদস্য বাড়ে, মোট খরচ বাড়ে, মাথাপিছু গড় কমে'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“There were 35 students in a hostel. When 7 more join, the daily mess expenditure rises by ₹42 but the average per head falls by ₹1. Find the original daily expenditure.”', '“একটি হোস্টেলে 35 জন ছাত্র ছিল। আরও 7 জন এলে মেসের দৈনিক খরচ ₹42 বাড়ে, কিন্তু মাথাপিছু গড় খরচ ₹1 কমে। মেসের আগের দৈনিক খরচ কত ছিল?”'),
+      formula: t(r`With old count $n$, new count $N$, rise in total $R$ and fall in average $d$: $N(x - d) = nx + R$, so $x = \dfrac{Nd + R}{N - n}$.`, r`আগের সংখ্যা $n$, নতুন সংখ্যা $N$, মোটের বৃদ্ধি $R$ এবং গড়ের হ্রাস $d$ হলে: $N(x - d) = nx + R$, তাই $x = \dfrac{Nd + R}{N - n}$।`),
+      shortcut: t('Old average = (new count × fall in average + rise in total) ÷ (number who joined). Then old total = old count × old average.', 'আগের গড় = (নতুন সংখ্যা × গড়ের হ্রাস + মোটের বৃদ্ধি) ÷ (যতজন যোগ দিল)। তারপর আগের মোট = আগের সংখ্যা × আগের গড়।'),
+      trap: t('Stopping at the per-head average when the question asks for the total expenditure (or the other way round), and using the old count with the new average.', 'প্রশ্নে মোট খরচ চাইলেও মাথাপিছু গড়ে থেমে যাওয়া (বা উল্টোটা), এবং নতুন গড়ের সঙ্গে আগের সংখ্যা ব্যবহার করা।'),
+      spot: t(
+        'A hostel or mess gets **more members**; the **total** expense goes **up** by a stated amount while the **average per head** goes **down**. The original average or total is asked.',
+        'হোস্টেল বা মেসে **সদস্য বাড়ে**; **মোট** খরচ নির্দিষ্ট পরিমাণে **বাড়ে**, কিন্তু **মাথাপিছু গড়** **কমে**। আগের গড় বা মোট খরচ জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t(r`Let the old average per head be $₹x$; old total $= nx$.`, r`আগের মাথাপিছু গড় $₹x$ ধরো; আগের মোট $= nx$।`),
+        t(r`New total $= N(x - d)$, and it also equals $nx + R$.`, r`নতুন মোট $= N(x - d)$, আবার এটি $nx + R$-এর সমান।`),
+        t(r`Solve for $x$, then give the average or the total as asked.`, r`$x$ বের করো, তারপর প্রশ্নমতো গড় বা মোট লেখো।`),
+      ],
+      example: {
+        question: t('A mess had $40$ members. When $8$ new members joined, the daily expenditure of the mess increased by ₹$48$, while the average expenditure per head fell by ₹$2$. What was the original daily expenditure of the mess?', 'একটি মেসে $40$ জন সদস্য ছিল। $8$ জন নতুন সদস্য যোগ দেওয়ায় মেসের দৈনিক খরচ ₹$48$ বাড়ল, কিন্তু মাথাপিছু গড় খরচ ₹$2$ কমল। মেসের আগের দৈনিক খরচ কত ছিল?'),
+        steps: [
+          t(r`Let the old average be $x$. Then $48(x - 2) = 40x + 48$.`, r`আগের গড় $x$ ধরো। তাহলে $48(x - 2) = 40x + 48$।`),
+          t(r`$48x - 96 = 40x + 48$, so $8x = 144$ and $x = 18$.`, r`$48x - 96 = 40x + 48$, তাই $8x = 144$ এবং $x = 18$।`),
+          t(r`Original daily expenditure $= 40 \times 18 = ₹720$.`, r`আগের দৈনিক খরচ $= 40 \times 18 = ₹720$।`),
+        ],
+        answer: t('₹$720$', 'আগের দৈনিক খরচ ₹$720$'),
+      },
+      tryIt: {
+        question: t('There were $30$ students in a hostel. When $10$ more were admitted, the daily mess expenditure rose by ₹$40$, but the average expenditure per head fell by ₹$1$. What was the original daily expenditure?', 'একটি হোস্টেলে $30$ জন ছাত্র ছিল। আরও $10$ জন ভর্তি হলে মেসের দৈনিক খরচ ₹$40$ বাড়ল, কিন্তু মাথাপিছু গড় খরচ ₹$1$ কমল। মেসের আগের দৈনিক খরচ কত ছিল?'),
+        options: [t('₹8', '₹8'), t('₹320', '₹320'), t('₹240', '₹240'), t('₹280', '₹280')],
+        correct: 2,
+        explanation: [
+          t(r`$40(x - 1) = 30x + 40$, so $10x = 80$ and $x = 8$ per head.`, r`$40(x - 1) = 30x + 40$, তাই $10x = 80$ এবং মাথাপিছু $x = 8$।`),
+          t(r`Original total $= 30 \times 8 = ₹240$. ($₹8$ is only the average; $₹280$ is the new total.)`, r`আগের মোট $= 30 \times 8 = ₹240$। ($₹8$ শুধু গড়; $₹280$ হল নতুন মোট।)`),
         ],
       },
     },

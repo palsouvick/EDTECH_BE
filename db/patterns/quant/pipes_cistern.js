@@ -548,8 +548,8 @@ module.exports = {
       shortcut: t('Convert the given fraction straight into units (fraction × capacity) and work only on what is left to fill — the filled part never enters the rate arithmetic.', 'দেওয়া ভগ্নাংশকে সরাসরি এককে বদলে নাও (ভগ্নাংশ × ধারণক্ষমতা) আর শুধু ভরতে বাকি অংশ নিয়েই হিসাব করো — ভরা অংশ হার-এর হিসাবে আসে না।'),
       trap: t('Dividing the full capacity by the net rate ignores the head start and overstates the time.', 'পুরো ধারণক্ষমতাকে নিট হার দিয়ে ভাগ করলে আগের ভরা অংশটা বাদ পড়ে আর সময় বেশি আসে।'),
       spot: t(
-        'The tank does **not start empty**: it is already filled to a stated **fraction**, and then an inlet and an outlet are opened **together** to finish the job.',
-        'চৌবাচ্চা **খালি থেকে শুরু হয় না**: আগেই একটি নির্দিষ্ট **ভগ্নাংশ** ভরা আছে, তারপর একটি ভরার নল ও একটি নির্গম নল **একসঙ্গে** খুলে কাজ শেষ করা হয়।',
+        'The tank does **not start empty**: it is already filled to a stated **fraction** (often half full), and then an inlet and an outlet are opened **together** — to fill it completely, or, when the outlet is stronger, until it is **empty**.',
+        'চৌবাচ্চা **খালি থেকে শুরু হয় না**: আগেই একটি নির্দিষ্ট **ভগ্নাংশ** (প্রায়ই অর্ধেক) ভরা আছে, তারপর একটি ভরার নল ও একটি নির্গম নল **একসঙ্গে** খোলা হয় — পুরো ভরতে, অথবা নির্গম নল বেশি জোরালো হলে চৌবাচ্চা **খালি** হতে।',
       ),
       method: [
         t('Capacity = LCM of the inlet and outlet times; find the signed units per hour.', 'ধারণক্ষমতা = ভরার ও নির্গম নলের সময়ের ল.সা.গু.; চিহ্নসহ প্রতি ঘণ্টার একক বের করো।'),

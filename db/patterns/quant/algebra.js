@@ -547,5 +547,119 @@ module.exports = {
         ],
       },
     },
+    // 15 ─────────────────────────────────────────────
+    {
+      key: 'two_kinds_total',
+      emoji: '🐄',
+      name: t('Two kinds, one total: heads and legs, coins, negative marking', 'দুই ধরনের জিনিস, একটি মোট: মাথা ও পা, মুদ্রা, ঋণাত্মক নম্বর'),
+      difficulty: 'intermediate',
+      typicalWording: t('“In an enclosure there are crows and cows. If there are 30 heads and 100 legs, how many cows are there?”', '“একটি খোঁয়াড়ে কাক ও গরু আছে। মোট মাথা 30টি ও পা 100টি হলে গরু কয়টি?”'),
+      formula: t(r`Pretend all $N$ items are of the smaller kind: total $= N \times s$. Number of the larger kind $= \dfrac{\text{actual total} - N \times s}{\ell - s}$.`, r`ধরো সব $N$টি জিনিসই ছোট ধরনের: মোট $= N \times s$। বড় ধরনের সংখ্যা $= \dfrac{\text{আসল মোট} - N \times s}{\ell - s}$।`),
+      shortcut: t('“Assume all are hens”: 30 heads → 60 legs. The extra 40 legs come from cows, 2 extra legs each → 20 cows. For negative marking, “assume all correct” and divide the shortfall by (marks for right + penalty).', '“ধরো সবাই মুরগি”: 30টি মাথা → 60টি পা। বাড়তি 40টি পা আসে গরু থেকে, প্রতিটি গরুর 2টি করে বেশি পা → 20টি গরু। ঋণাত্মক নম্বরে “ধরো সব ঠিক” করে ঘাটতিকে (ঠিকের নম্বর + কাটা নম্বর) দিয়ে ভাগ করো।'),
+      trap: t('With negative marking a wrong answer costs the 2 marks you did not get PLUS the 1 mark deducted — divide the shortfall by 3, not by 1.', 'ঋণাত্মক নম্বরে একটি ভুল উত্তরে না পাওয়া 2 নম্বর আর কাটা যাওয়া 1 নম্বর — দুটোই যায়; তাই ঘাটতিকে 3 দিয়ে ভাগ করো, 1 দিয়ে নয়।'),
+      spot: t(
+        'Two kinds of items with a known total COUNT (heads, coins, questions, children) and a known total VALUE (legs, rupees, marks, sweets); the number of one kind is asked.',
+        'দুই ধরনের জিনিস, যাদের মোট সংখ্যা (মাথা, মুদ্রা, প্রশ্ন, ছেলেমেয়ে) আর মোট মান (পা, টাকা, নম্বর, মিষ্টি) জানা; একটি ধরনের সংখ্যা জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Write the count total and the value of one item of each kind.', 'মোট সংখ্যা আর প্রতিটি ধরনের একটির মান লেখো।'),
+        t('Assume every item is of one kind and find the value that would give.', 'ধরো সবগুলোই এক ধরনের — তাহলে মোট মান কত হত বের করো।'),
+        t('Divide the difference from the real total by the difference per item — that is the count of the other kind.', 'আসল মোটের সঙ্গে পার্থক্যকে প্রতি জিনিসের পার্থক্য দিয়ে ভাগ করো — সেটাই অন্য ধরনের সংখ্যা।'),
+      ],
+      example: {
+        question: t('In an enclosure there are crows and cows. There are 30 heads and 100 legs. How many cows are there?', 'একটি খোঁয়াড়ে কাক ও গরু আছে। মোট মাথা 30টি ও পা 100টি। গরু কয়টি?'),
+        steps: [
+          t(r`If all 30 were crows: $30 \times 2 = 60$ legs.`, r`সব 30টি কাক হলে: $30 \times 2 = 60$টি পা।`),
+          t(r`Extra legs $= 100 - 60 = 40$; each cow has $4 - 2 = 2$ extra legs.`, r`বাড়তি পা $= 100 - 60 = 40$; প্রতিটি গরুর $4 - 2 = 2$টি বেশি পা।`),
+          t(r`Cows $= 40 \div 2 = 20$, crows $= 10$.`, r`গরু $= 40 \div 2 = 20$, কাক $= 10$।`),
+        ],
+        answer: t('20 cows', '20টি গরু'),
+      },
+      tryIt: {
+        question: t('A test has 50 questions. Each correct answer gets 3 marks and 1 mark is deducted for each wrong answer. A student answers all the questions and scores 110. How many did she answer correctly?', 'একটি পরীক্ষায় 50টি প্রশ্ন। প্রতিটি ঠিক উত্তরে 3 নম্বর, প্রতিটি ভুল উত্তরে 1 নম্বর কাটা যায়। একজন ছাত্রী সব প্রশ্নের উত্তর দিয়ে 110 পেয়েছে। সে কয়টি প্রশ্নের ঠিক উত্তর দিয়েছে?'),
+        options: [t('37', '37'), t('40', '40'), t('45', '45'), t('10', '10')],
+        correct: 1,
+        explanation: [
+          t(r`All correct would give $50 \times 3 = 150$; she is short by $150 - 110 = 40$.`, r`সব ঠিক হলে $50 \times 3 = 150$; ঘাটতি $150 - 110 = 40$।`),
+          t(r`Each wrong answer costs $3 + 1 = 4$, so wrong $= 40 \div 4 = 10$ and correct $= 40$. (10 is the number of wrong answers.)`, r`প্রতিটি ভুলে যায় $3 + 1 = 4$, তাই ভুল $= 40 \div 4 = 10$, ঠিক $= 40$। (10 হল ভুল উত্তরের সংখ্যা।)`),
+        ],
+      },
+    },
+
+    // 16 ─────────────────────────────────────────────
+    {
+      key: 'two_numbers_sum_diff_product',
+      emoji: '✖️',
+      name: t('Two numbers from their sum, difference, product or quotient', 'যোগফল, অন্তর, গুণফল বা ভাগফল থেকে দুটি সংখ্যা'),
+      difficulty: 'intermediate',
+      typicalWording: t('“The sum and difference of two numbers are 7.75 and 2.25 respectively. Their product is” / “The product of two numbers is 4332 and their quotient is 3/4. Their sum is”', '“দুটি সংখ্যার যোগফল ও অন্তর যথাক্রমে 7.75 ও 2.25। তাদের গুণফল কত?” / “দুটি সংখ্যার গুণফল 4332 ও ভাগফল 3/4। তাদের যোগফল কত?”'),
+      formula: t(r`Larger $= \frac{S + D}{2}$, smaller $= \frac{S - D}{2}$, product $= \frac{S^2 - D^2}{4}$. If $xy = P$ and $\frac{x}{y} = \frac{a}{b}$: $x = ak$, $y = bk$, $k^2 = \frac{P}{ab}$.`, r`বড়টি $= \frac{S + D}{2}$, ছোটটি $= \frac{S - D}{2}$, গুণফল $= \frac{S^2 - D^2}{4}$। $xy = P$ ও $\frac{x}{y} = \frac{a}{b}$ হলে: $x = ak$, $y = bk$, $k^2 = \frac{P}{ab}$।`),
+      shortcut: t('Find the two numbers first — (sum ± difference) ÷ 2 — then multiply; with a ratio, divide the product by a × b and take the square root to get k.', 'আগে সংখ্যা দুটো বের করো — (যোগফল ± অন্তর) ÷ 2 — তারপর গুণ করো; অনুপাত দেওয়া থাকলে গুণফলকে a × b দিয়ে ভাগ করে বর্গমূল নিলেই k।'),
+      trap: t(r`Forgetting the $\div 2$ (or the $\div 4$ in $\frac{S^2 - D^2}{4}$) makes the answer 4 times too big; and $k^2 = \frac{P}{ab}$ still needs a square root.`, r`$\div 2$ (বা $\frac{S^2 - D^2}{4}$-এ $\div 4$) ভুলে গেলে উত্তর 4 গুণ বড় হয়; আর $k^2 = \frac{P}{ab}$ থেকে এখনও বর্গমূল নিতে হবে।`),
+      spot: t(
+        'Two unnamed numbers are described by any two of: their sum, their difference, their product, their quotient (ratio) — and a third quantity is asked.',
+        'দুটি অজানা সংখ্যার যোগফল, অন্তর, গুণফল, ভাগফল (অনুপাত) — এর যেকোনো দুটি দেওয়া থাকে, আর তৃতীয় একটি জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('From sum and difference: add and halve for the larger, subtract and halve for the smaller.', 'যোগফল ও অন্তর থেকে: যোগ করে অর্ধেক = বড়টি, বিয়োগ করে অর্ধেক = ছোটটি।'),
+        t(r`From product and ratio $a : b$: write the numbers as $ak$ and $bk$, so $ab\,k^2 = P$.`, r`গুণফল ও অনুপাত $a : b$ থেকে: সংখ্যা দুটি $ak$ ও $bk$ লেখো, তাহলে $ab\,k^2 = P$।`),
+        t('Once both numbers are known, compute what is asked (product, sum or difference).', 'দুটো সংখ্যা জানা হয়ে গেলে যা চাওয়া হয়েছে (গুণফল, যোগফল বা অন্তর) বের করো।'),
+      ],
+      example: {
+        question: t('The sum and difference of two numbers are 9.5 and 3.5. Find their product.', 'দুটি সংখ্যার যোগফল 9.5 ও অন্তর 3.5। তাদের গুণফল কত?'),
+        steps: [
+          t(r`Larger $= \frac{9.5 + 3.5}{2} = 6.5$; smaller $= \frac{9.5 - 3.5}{2} = 3$.`, r`বড়টি $= \frac{9.5 + 3.5}{2} = 6.5$; ছোটটি $= \frac{9.5 - 3.5}{2} = 3$।`),
+          t(r`Product $= 6.5 \times 3 = 19.5$.`, r`গুণফল $= 6.5 \times 3 = 19.5$।`),
+        ],
+        answer: t('19.5', 'গুণফল 19.5'),
+      },
+      tryIt: {
+        question: t(r`The product of two numbers is 300 and their quotient is $\frac{3}{4}$. Find their sum.`, r`দুটি সংখ্যার গুণফল 300 ও ভাগফল $\frac{3}{4}$। তাদের যোগফল কত?`),
+        options: [t('25', '25'), t('35', '35'), t('40', '40'), t('5', '5')],
+        correct: 1,
+        explanation: [
+          t(r`Numbers $3k$ and $4k$: $12k^2 = 300$, so $k^2 = 25$ and $k = 5$.`, r`সংখ্যা দুটি $3k$ ও $4k$: $12k^2 = 300$, তাই $k^2 = 25$, $k = 5$।`),
+          t(r`Numbers are 15 and 20; sum $= 35$. (5 is only $k$.)`, r`সংখ্যা দুটি 15 ও 20; যোগফল $= 35$। (5 শুধু $k$-এর মান।)`),
+        ],
+      },
+    },
+
+    // 17 ─────────────────────────────────────────────
+    {
+      key: 'pairwise_totals',
+      emoji: '👥',
+      name: t('Totals of pairs: A + B, B + C, C + A', 'জোড়ায় জোড়ায় মোট: A + B, B + C, C + A'),
+      difficulty: 'intermediate',
+      typicalWording: t('“A, B and C together earn ₹300 a day. A and C together earn ₹188 and B and C together earn ₹152. What is C\'s daily earning?”', '“A, B ও C একসঙ্গে দিনে ₹300 আয় করে। A ও C একসঙ্গে ₹188 এবং B ও C একসঙ্গে ₹152 আয় করে। C-এর দৈনিক আয় কত?”'),
+      formula: t(r`With the grand total $T$: $C = (A + C) + (B + C) - T$. With three pair totals only: $A + B + C = \frac{p + q + r}{2}$, and each person $=$ half-sum $-$ the pair without him.`, r`সবার মোট $T$ জানা থাকলে: $C = (A + C) + (B + C) - T$। শুধু তিনটি জোড়ার মোট দেওয়া থাকলে: $A + B + C = \frac{p + q + r}{2}$, আর প্রত্যেকের মান $=$ অর্ধ-যোগফল $-$ তাকে বাদ দেওয়া জোড়ার মোট।`),
+      shortcut: t('Add all the pair totals: everyone is counted twice, so halve to get the grand total; then subtract the pair that leaves out the person you want.', 'সব জোড়ার মোট যোগ করো: প্রত্যেকে দুবার গোনা হয়েছে, তাই অর্ধেক করলে সবার মোট; তারপর যাকে চাই তাকে বাদ দেওয়া জোড়ার মোট বিয়োগ করো।'),
+      trap: t('With pairs only, $p + q + r$ counts everyone twice — forgetting to halve makes every answer wrong. With the grand total given, C is counted twice in $(A + C) + (B + C)$, which is exactly why subtracting $T$ leaves C.', 'শুধু জোড়া দেওয়া থাকলে $p + q + r$-এ প্রত্যেকে দুবার — অর্ধেক না করলে সব উত্তর ভুল। সবার মোট দেওয়া থাকলে $(A + C) + (B + C)$-এ C দুবার আছে, তাই $T$ বিয়োগ করলে C পড়ে থাকে।'),
+      spot: t(
+        'Totals for two people at a time (A and B, B and C, …), sometimes with the total of all three, are given — and one person\'s share, score or weight is asked.',
+        'একসঙ্গে দুজনের মোট (A ও B, B ও C, …), কখনো তিনজনের মোটসহ, দেওয়া থাকে — আর একজনের ভাগ, রান বা ওজন জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('List what is given: the pair totals and, if given, the total of all three.', 'যা দেওয়া আছে লেখো: জোড়ার মোটগুলো, আর থাকলে তিনজনের মোট।'),
+        t('If all three are not given together, add the pair totals and halve.', 'তিনজনের মোট না থাকলে জোড়ার মোটগুলো যোগ করে অর্ধেক করো।'),
+        t('Subtract the pair that does not contain the person asked about.', 'যাকে চাওয়া হয়েছে তাকে বাদ দেওয়া জোড়ার মোট বিয়োগ করো।'),
+      ],
+      example: {
+        question: t('A and B together score 150 runs, B and C together 130 runs, and A and C together 120 runs. How many runs does C score?', 'A ও B একসঙ্গে 150 রান, B ও C একসঙ্গে 130 রান এবং A ও C একসঙ্গে 120 রান করে। C কত রান করে?'),
+        steps: [
+          t(r`$2(A + B + C) = 150 + 130 + 120 = 400$, so $A + B + C = 200$.`, r`$2(A + B + C) = 150 + 130 + 120 = 400$, তাই $A + B + C = 200$।`),
+          t(r`$C = 200 - (A + B) = 200 - 150 = 50$.`, r`তাই $C = 200 - (A + B) = 200 - 150 = 50$।`),
+        ],
+        answer: t('50 runs', '50 রান'),
+      },
+      tryIt: {
+        question: t('The total weight of A, B and C is 180 kg. A and B together weigh 110 kg, and B and C together weigh 120 kg. What is the weight of B?', 'A, B ও C-এর মোট ওজন 180 কেজি। A ও B-এর মিলিত ওজন 110 কেজি, B ও C-এর মিলিত ওজন 120 কেজি। B-এর ওজন কত?'),
+        options: [t('40 kg', '40 কেজি'), t('50 kg', '50 কেজি'), t('60 kg', '60 কেজি'), t('70 kg', '70 কেজি')],
+        correct: 1,
+        explanation: [
+          t(r`$(A + B) + (B + C) = 230$ counts B twice.`, r`$(A + B) + (B + C) = 230$-এ B দুবার গোনা হয়েছে।`),
+          t(r`$B = 230 - 180 = 50$ kg. (Then $A = 60$, $C = 70$.)`, r`$B = 230 - 180 = 50$ কেজি। (তাহলে $A = 60$, $C = 70$।)`),
+        ],
+      },
+    },
   ],
 };

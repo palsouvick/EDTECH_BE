@@ -613,5 +613,133 @@ module.exports = {
         ],
       },
     },
+    {
+      key: 'speed_ratio_time',
+      emoji: '⚖️',
+      name: t('Speed ratio, time ratio and "x% faster"', 'গতির অনুপাত, সময়ের অনুপাত ও "x% বেশি দ্রুত"'),
+      difficulty: 'intermediate',
+      typicalWording: t('“The speeds of two trains are in the ratio 7 : 8. If the second runs 400 km in 4 hours, find the speed of the first.” or “Speeds are 2 : 3 : 4; find the ratio of the times for the same distance.”', '“দুটি ট্রেনের গতির অনুপাত 7 : 8। দ্বিতীয়টি 4 ঘণ্টায় 400 km গেলে প্রথমটির গতি কত?” বা “গতির অনুপাত 2 : 3 : 4; একই দূরত্ব যেতে সময়ের অনুপাত কত?”'),
+      formula: t(r`Same distance: $t_1 : t_2 = \frac{1}{v_1} : \frac{1}{v_2} = v_2 : v_1$. Same time: $d_1 : d_2 = v_1 : v_2$. If $v_1$ is $p\%$ more than $v_2$, then $t_1 = t_2 \times \frac{100}{100 + p}$.`, r`একই দূরত্বে: $t_1 : t_2 = \frac{1}{v_1} : \frac{1}{v_2} = v_2 : v_1$। একই সময়ে: $d_1 : d_2 = v_1 : v_2$। $v_1$ যদি $v_2$-এর থেকে $p\%$ বেশি হয়, তবে $t_1 = t_2 \times \frac{100}{100 + p}$।`),
+      shortcut: t(r`Find the one speed you can (distance ÷ time), then scale it by the ratio. For a three-term time ratio, take reciprocals and multiply by the LCM: $2:3:4 \to \frac{1}{2}:\frac{1}{3}:\frac{1}{4} = 6:4:3$.`, r`যে গতিটি পাওয়া যায় (দূরত্ব ÷ সময়) সেটি আগে বের করো, তারপর অনুপাত দিয়ে গুণ করো। তিন পদের সময়ের অনুপাতে উল্টো ভগ্নাংশ নিয়ে ল.সা.গু. দিয়ে গুণ করো: $2:3:4 \to \frac{1}{2}:\frac{1}{3}:\frac{1}{4} = 6:4:3$।`),
+      trap: t('Two traps: writing the time ratio in the same order as the speed ratio (time is INVERSE to speed), and for "25% faster" cutting the time by 25% instead of dividing it by 1.25.', 'দুটি ফাঁদ: সময়ের অনুপাতকে গতির অনুপাতের মতো একই ক্রমে লেখা (সময় গতির ব্যস্তানুপাতিক), আর "25% বেশি দ্রুত" হলে সময়কে 1.25 দিয়ে ভাগ না করে 25% কমিয়ে দেওয়া।'),
+      spot: t(
+        'The question gives a **ratio of speeds** (or says one vehicle is **x% faster**) and asks for a speed, a distance, a time, or the **ratio of times** — no meeting or overtaking is involved.',
+        'প্রশ্নে **গতির অনুপাত** দেওয়া থাকে (বা বলা থাকে একটি যান **x% বেশি দ্রুত**), আর একটি গতি, দূরত্ব, সময় বা **সময়ের অনুপাত** জানতে চাওয়া হয় — দেখা হওয়া বা ধরে ফেলার ব্যাপার নেই।',
+      ),
+      method: [
+        t('Work out the one speed the data gives directly: speed = distance ÷ time.', 'যে গতিটি তথ্য থেকে সরাসরি পাওয়া যায় তা বের করো: গতি = দূরত্ব ÷ সময়।'),
+        t('Scale it by the ratio: first speed = second speed × (first term ÷ second term).', 'অনুপাত দিয়ে গুণ করো: প্রথম গতি = দ্বিতীয় গতি × (প্রথম পদ ÷ দ্বিতীয় পদ)।'),
+        t('For the same distance, times are in the inverse ratio of the speeds; for the same time, distances are in the ratio of the speeds.', 'একই দূরত্বে সময় গতির ব্যস্ত অনুপাতে থাকে; একই সময়ে দূরত্ব গতির অনুপাতে থাকে।'),
+      ],
+      example: {
+        question: t(
+          'The speeds of two trains are in the ratio 3 : 4. If the second train covers 360 km in 4 hours, what is the speed of the first train?',
+          'দুটি ট্রেনের গতির অনুপাত 3 : 4। দ্বিতীয় ট্রেনটি 4 ঘণ্টায় 360 km গেলে প্রথম ট্রেনের গতি কত?',
+        ),
+        steps: [
+          t(r`Second train's speed $= 360 \div 4 = 90$ km/h.`, r`দ্বিতীয় ট্রেনের গতি $= 360 \div 4 = 90$ km/h।`),
+          t(r`First train's speed $= 90 \times \frac{3}{4} = 67.5$ km/h.`, r`প্রথম ট্রেনের গতি $= 90 \times \frac{3}{4} = 67.5$ km/h।`),
+        ],
+        answer: t('67.5 km/h', 'ঘণ্টায় 67.5 km'),
+      },
+      tryIt: {
+        question: t(
+          'A car is 25% faster than a bus. The bus takes 5 hours to cover a certain distance. How long will the car take to cover the same distance?',
+          'একটি গাড়ি একটি বাসের থেকে 25% বেশি দ্রুত চলে। বাসটি একটি নির্দিষ্ট দূরত্ব যেতে 5 ঘণ্টা নেয়। গাড়িটি একই দূরত্ব যেতে কত সময় নেবে?',
+        ),
+        options: [t('3¾ hours', '3¾ ঘণ্টা'), t('4 hours', '4 ঘণ্টা'), t('4½ hours', '4½ ঘণ্টা'), t('6¼ hours', '6¼ ঘণ্টা')],
+        correct: 1,
+        explanation: [
+          t(r`Speeds are in the ratio $125 : 100 = 5 : 4$, so for the same distance the times are $4 : 5$.`, r`গতির অনুপাত $125 : 100 = 5 : 4$, তাই একই দূরত্বে সময়ের অনুপাত $4 : 5$।`),
+          t(r`Car's time $= 5 \times \frac{4}{5} = 4$ hours. (3¾ cuts the time by 25%, which is wrong.)`, r`গাড়ির সময় $= 5 \times \frac{4}{5} = 4$ ঘণ্টা। (3¾ মানে সময় 25% কমানো, যা ভুল।)`),
+        ],
+      },
+    },
+    {
+      key: 'speed_for_remaining_part',
+      emoji: '⏱️',
+      name: t('Speed needed for the rest of the journey', 'বাকি পথের জন্য প্রয়োজনীয় গতি'),
+      difficulty: 'intermediate',
+      typicalWording: t('“He has to cover 6 km in 45 minutes. He covers half the distance in two-thirds of the time. What must his speed be for the rest?”', '“তাকে 45 মিনিটে 6 km যেতে হবে। সে অর্ধেক পথ মোট সময়ের দুই-তৃতীয়াংশে যায়। বাকি পথে তার গতি কত হতে হবে?”'),
+      formula: t(r`Required speed $=\frac{\text{distance left}}{\text{time left}}$, where time left $=$ total time $-$ time already used.`, r`প্রয়োজনীয় গতি $=\frac{\text{বাকি দূরত্ব}}{\text{বাকি সময়}}$, যেখানে বাকি সময় $=$ মোট সময় $-$ ইতিমধ্যে খরচ হওয়া সময়।`),
+      shortcut: t('Work with what is LEFT only: left distance ÷ left time. Turn the left time into hours (minutes ÷ 60) before dividing.', 'শুধু যা বাকি আছে তা নিয়েই কাজ করো: বাকি দূরত্ব ÷ বাকি সময়। ভাগ করার আগে বাকি সময়কে ঘণ্টায় বদলাও (মিনিট ÷ 60)।'),
+      trap: t('Dividing the TOTAL distance by the total time gives the planned average speed, not the speed needed for the remaining part.', 'মোট দূরত্বকে মোট সময় দিয়ে ভাগ করলে পরিকল্পিত গড় গতি আসে, বাকি অংশের জন্য প্রয়োজনীয় গতি নয়।'),
+      spot: t(
+        'A **target** is set (cover D km in T minutes); part of the distance is already done (at a given speed or in a given part of the time), and the **speed for the remaining distance** is asked.',
+        'একটি **লক্ষ্য** দেওয়া থাকে (T মিনিটে D km যেতে হবে); পথের কিছুটা আগেই হয়ে গেছে (নির্দিষ্ট গতিতে বা সময়ের নির্দিষ্ট অংশে), আর **বাকি দূরত্বের জন্য গতি** জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Distance left = total distance − distance already covered.', 'বাকি দূরত্ব = মোট দূরত্ব − ইতিমধ্যে অতিক্রান্ত দূরত্ব।'),
+        t('Time used = given fraction of the total time, or covered distance ÷ its speed; time left = total − used.', 'খরচ হওয়া সময় = মোট সময়ের দেওয়া ভগ্নাংশ, অথবা অতিক্রান্ত দূরত্ব ÷ তার গতি; বাকি সময় = মোট − খরচ।'),
+        t('Required speed = distance left ÷ time left (in hours for km/h).', 'প্রয়োজনীয় গতি = বাকি দূরত্ব ÷ বাকি সময় (km/h-এর জন্য ঘণ্টায়)।'),
+      ],
+      example: {
+        question: t(
+          'A man has to cover 12 km in 1 hour 30 minutes. He covers half the distance in two-thirds of the total time. What must his speed be for the remaining distance?',
+          'একজন লোককে 1 ঘণ্টা 30 মিনিটে 12 km যেতে হবে। সে অর্ধেক পথ মোট সময়ের দুই-তৃতীয়াংশে যায়। বাকি পথে তার গতি কত হতে হবে?',
+        ),
+        steps: [
+          t(r`Distance left $= 12 - 6 = 6$ km. Time used $= \frac{2}{3} \times 90 = 60$ min, so time left $= 30$ min $= \frac{1}{2}$ hour.`, r`বাকি দূরত্ব $= 12 - 6 = 6$ km। খরচ হওয়া সময় $= \frac{2}{3} \times 90 = 60$ মিনিট, তাই বাকি সময় $= 30$ মিনিট $= \frac{1}{2}$ ঘণ্টা।`),
+          t(r`Required speed $= 6 \div \frac{1}{2} = 12$ km/h.`, r`প্রয়োজনীয় গতি $= 6 \div \frac{1}{2} = 12$ km/h।`),
+        ],
+        answer: t('12 km/h', 'ঘণ্টায় 12 km'),
+      },
+      tryIt: {
+        question: t(
+          'A girl has to walk 10 km in 2 hours. She walks the first 6 km at 4 km/h. At what speed must she walk the rest to arrive on time?',
+          'একটি মেয়েকে 2 ঘণ্টায় 10 km হাঁটতে হবে। সে প্রথম 6 km, 4 km/h বেগে হাঁটে। সময়মতো পৌঁছতে বাকি পথ তাকে কত বেগে হাঁটতে হবে?',
+        ),
+        options: [t('5 km/h', '5 km/h'), t('6 km/h', '6 km/h'), t('8 km/h', '8 km/h'), t('10 km/h', '10 km/h')],
+        correct: 2,
+        explanation: [
+          t(r`Time used $= 6 \div 4 = 1\frac{1}{2}$ hours, so time left $= \frac{1}{2}$ hour; distance left $= 4$ km.`, r`খরচ হওয়া সময় $= 6 \div 4 = 1\frac{1}{2}$ ঘণ্টা, তাই বাকি সময় $= \frac{1}{2}$ ঘণ্টা; বাকি দূরত্ব $= 4$ km।`),
+          t(r`Speed $= 4 \div \frac{1}{2} = 8$ km/h. (5 km/h is just the planned average, $10 \div 2$.)`, r`গতি $= 4 \div \frac{1}{2} = 8$ km/h। (5 km/h হল কেবল পরিকল্পিত গড়, $10 \div 2$।)`),
+        ],
+      },
+    },
+    {
+      key: 'meeting_staggered_start',
+      emoji: '🕰️',
+      name: t('Meeting when they do not start together', 'একসঙ্গে রওনা না দিলে কখন দেখা হবে'),
+      difficulty: 'intermediate',
+      typicalWording: t('“A train leaves X for Y at 10 a.m. at 65 km/h; another leaves Y for X at 11 a.m. at 35 km/h. When do they meet?” or “One train leaves at 8 a.m. and arrives at 12 noon; the other leaves at 9 a.m. and arrives at 12 noon.”', '“একটি ট্রেন সকাল 10টায় X থেকে Y-এর দিকে 65 km/h বেগে ছাড়ে; আরেকটি সকাল 11টায় Y থেকে X-এর দিকে 35 km/h বেগে ছাড়ে। কখন দেখা হবে?” বা “একটি ট্রেন সকাল 8টায় ছেড়ে দুপুর 12টায় পৌঁছায়; অন্যটি সকাল 9টায় ছেড়ে দুপুর 12টায় পৌঁছায়।”'),
+      formula: t(r`Gap when both are moving $=$ total distance $-$ (early starter's speed $\times$ head-start time); meeting time after the second start $=\frac{\text{gap}}{v_1 + v_2}$.`, r`দুজনেই চলতে শুরু করলে ব্যবধান $=$ মোট দূরত্ব $-$ (আগে রওনা দেওয়ার গতি $\times$ আগাম সময়); দ্বিতীয় জনের রওনার পর দেখা হওয়ার সময় $=\frac{\text{ব্যবধান}}{v_1 + v_2}$।`),
+      shortcut: t('Run the clock in two phases: first only one moves (subtract what it covers), then both close the gap at the SUM of the speeds. With only timetables given, take the route as 1 and each train\'s speed as 1 ÷ its journey time.', 'ঘড়িকে দুই ধাপে চালাও: প্রথমে শুধু একজন চলে (সে যতটা যায় বাদ দাও), তারপর দুজনে গতির যোগফলে ব্যবধান কমায়। শুধু সময়সূচি দেওয়া থাকলে পুরো পথকে 1 ধরো, আর প্রতিটি ট্রেনের গতি = 1 ÷ তার যাত্রার সময়।'),
+      trap: t('Dividing the whole distance by the sum of the speeds as if both had started together, or adding the meeting time to the FIRST start instead of the second.', 'দুজনে একসঙ্গে রওনা দিয়েছে ভেবে পুরো দূরত্বকে গতির যোগফল দিয়ে ভাগ করা, অথবা দেখা হওয়ার সময়কে দ্বিতীয়ের বদলে প্রথম রওনার সময়ের সঙ্গে যোগ করা।'),
+      spot: t(
+        'Two vehicles move **towards each other**, but they **start at different times** (or one **stops** on the way); the meeting time or clock time is asked.',
+        'দুটি যান **পরস্পরের দিকে** চলে, কিন্তু তারা **ভিন্ন সময়ে রওনা দেয়** (বা একটি পথে **থেমে যায়**); দেখা হওয়ার সময় বা ঘড়ির সময় জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Phase 1: only one is moving. Distance it covers = its speed × the time before the other starts (or before it stops).', 'ধাপ 1: শুধু একজন চলছে। সে যতটা যায় = তার গতি × অন্যজন রওনা দেওয়ার (বা সে থামার) আগের সময়।'),
+        t('Gap left = total distance − phase-1 distance.', 'বাকি ব্যবধান = মোট দূরত্ব − ধাপ 1-এর দূরত্ব।'),
+        t('Phase 2: both moving towards each other close the gap at the sum of the speeds (only the mover\'s speed if one has stopped).', 'ধাপ 2: দুজনেই পরস্পরের দিকে চললে ব্যবধান গতির যোগফলে কমে (একজন থেমে থাকলে শুধু চলন্ত জনের গতিতে)।'),
+        t('Add the phase-2 time to the clock time at which phase 2 began.', 'ধাপ 2-এর সময়কে ধাপ 2 শুরুর ঘড়ির সময়ের সঙ্গে যোগ করো।'),
+      ],
+      example: {
+        question: t(
+          'Two stations X and Y are 290 km apart. A train leaves X for Y at 8 a.m. at 50 km/h. Another train leaves Y for X at 9 a.m. at 70 km/h. At what time will they meet?',
+          'X ও Y দুটি স্টেশনের মধ্যে দূরত্ব 290 km। একটি ট্রেন সকাল 8টায় X থেকে Y-এর দিকে 50 km/h বেগে ছাড়ে। আরেকটি ট্রেন সকাল 9টায় Y থেকে X-এর দিকে 70 km/h বেগে ছাড়ে। কখন তাদের দেখা হবে?',
+        ),
+        steps: [
+          t(r`From 8 to 9 a.m. only the first train runs: $50 \times 1 = 50$ km. Gap at 9 a.m. $= 290 - 50 = 240$ km.`, r`সকাল 8টা থেকে 9টা পর্যন্ত শুধু প্রথম ট্রেন চলে: $50 \times 1 = 50$ km। সকাল 9টায় ব্যবধান $= 290 - 50 = 240$ km।`),
+          t(r`Closing speed $= 50 + 70 = 120$ km/h, so time $= 240 \div 120 = 2$ hours after 9 a.m.`, r`ব্যবধান কমার গতি $= 50 + 70 = 120$ km/h, তাই সময় $= 240 \div 120 = 2$ ঘণ্টা, সকাল 9টার পর থেকে।`),
+          t('They meet at 11 a.m.', 'তাদের দেখা হবে সকাল 11টায়।'),
+        ],
+        answer: t('11 a.m.', 'সকাল 11টা'),
+      },
+      tryIt: {
+        question: t(
+          'Towns P and Q are 220 km apart. A bus leaves P for Q at 7 a.m. at 40 km/h. A car leaves Q for P at 8 a.m. at 50 km/h. At what time will they meet?',
+          'P ও Q দুটি শহরের মধ্যে দূরত্ব 220 km। একটি বাস সকাল 7টায় P থেকে Q-এর দিকে 40 km/h বেগে ছাড়ে। একটি গাড়ি সকাল 8টায় Q থেকে P-এর দিকে 50 km/h বেগে ছাড়ে। কখন তাদের দেখা হবে?',
+        ),
+        options: [t('9 a.m.', 'সকাল 9টা'), t('10 a.m.', 'সকাল 10টা'), t('11 a.m.', 'সকাল 11টা'), t('12 noon', 'দুপুর 12টা')],
+        correct: 1,
+        explanation: [
+          t(r`By 8 a.m. the bus has covered $40$ km, so the gap is $220 - 40 = 180$ km.`, r`সকাল 8টার মধ্যে বাস $40$ km গেছে, তাই ব্যবধান $220 - 40 = 180$ km।`),
+          t(r`Time $= 180 \div (40 + 50) = 2$ hours after 8 a.m., i.e. 10 a.m. (9 a.m. wrongly counts the 2 hours from 7 a.m.)`, r`সময় $= 180 \div (40 + 50) = 2$ ঘণ্টা, সকাল 8টার পর থেকে, অর্থাৎ সকাল 10টা। (সকাল 9টা ভুলভাবে 2 ঘণ্টা সকাল 7টা থেকে গোনে।)`),
+        ],
+      },
+    },
   ],
 };

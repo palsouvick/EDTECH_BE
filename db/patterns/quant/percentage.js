@@ -332,8 +332,8 @@ module.exports = {
       shortcut: t('For 2 years, the net growth is 2r plus r squared over 100 percent; apply that single rate to P when the numbers are small.', '2 বছরের জন্য মোট বৃদ্ধি হল 2r যোগ r-এর বর্গ ভাগ 100 শতাংশ; সংখ্যা ছোট হলে ওই এক হার P-তে প্রয়োগ করো।'),
       trap: t('Growth compounds: each year the rate acts on the grown population, not on the original P every time.', 'বৃদ্ধি চক্রবৃদ্ধি হয়: প্রতি বছর হার বেড়ে যাওয়া জনসংখ্যার উপর কাজ করে, প্রতিবার আসল P-এর উপর নয়।'),
       spot: t(
-        'A population grows by the same percentage each year and its value after several years is requested.',
-        'জনসংখ্যা প্রতি বছর একই শতকরা হারে বাড়ে এবং কয়েক বছর পরের জনসংখ্যা জানতে চায়।',
+        'A population grows (or falls) by a stated percentage each year — the same rate or a different one each year — and its value after those years, or before them, is requested.',
+        'জনসংখ্যা প্রতি বছর নির্দিষ্ট শতকরা হারে বাড়ে (বা কমে) — একই হারে বা প্রতি বছর আলাদা হারে — এবং ওই কয়েক বছর পরের, বা আগের, জনসংখ্যা জানতে চায়।',
       ),
       method: [
         t('Convert the annual increase r% to a multiplier: (100 + r)/100.', 'বার্ষিক r% বৃদ্ধিকে গুণকে বদলাও: (100 + r)/100।'),
@@ -477,8 +477,8 @@ module.exports = {
       shortcut: t('Chain the two multipliers in one line: total times (100 minus x) over 100 times y over 100, cancelling before multiplying.', 'দুটি গুণক এক লাইনে শৃঙ্খল করো: মোট গুণ (100 বিয়োগ x) ভাগ 100 গুণ y ভাগ 100, গুণের আগে কাটাকাটি করো।'),
       trap: t('The winner percentage applies only to valid votes, never to all ballots cast.', 'বিজয়ীর শতকরা শুধু বৈধ ভোটের উপর, সব দেওয়া ভোটের উপর কখনও নয়।'),
       spot: t(
-        'The percentage of invalid votes and a winner’s percentage among valid votes are given; determine a candidate’s votes or the valid-vote total.',
-        'অবৈধ ভোটের শতকরা হার এবং বৈধ ভোটের মধ্যে বিজয়ীর শতকরা হার দেওয়া থাকে; প্রার্থীর ভোট বা বৈধ ভোটের সংখ্যা নির্ণয় করতে হয়।',
+        'A first percentage cuts the electorate down (votes not cast, or invalid votes) and the winner’s percentage is of what is left; determine a candidate’s votes, the valid-vote total, or the winner’s share of all voters.',
+        'প্রথম শতাংশটি ভোটারের সংখ্যা কমিয়ে দেয় (যাঁরা ভোট দেননি, বা অবৈধ ভোট) আর বিজয়ীর শতাংশ বাকি ভোটের উপর; প্রার্থীর ভোট, বৈধ ভোটের সংখ্যা বা মোট ভোটারের মধ্যে বিজয়ীর অংশ নির্ণয় করতে হয়।',
       ),
       method: [
         t('Subtract the invalid-vote percentage from 100% to find the valid-vote percentage.', 'বৈধ ভোটের শতকরা পেতে 100% থেকে অবৈধ ভোটের হার বিয়োগ করো।'),
@@ -679,6 +679,80 @@ module.exports = {
         explanation: [
           t('Compensating multiplier = 1 ÷ 1.2 = 5/6 ≈ 0.8333.', 'পূরণকারী গুণক = 1 ÷ 1.2 = 5/6 ≈ 0.8333।'),
           t('Decrease = (1 − 5/6) × 100 = 16⅔%. (20% wrongly assumes the same percentage reverses it.)', 'হ্রাস = (1 − 5/6) × 100 = 16⅔%। (20% ভুল করে ধরে একই শতাংশই উল্টে দেয়।)'),
+        ],
+      },
+    },
+    {
+      key: 'area_volume_percent_change',
+      emoji: '📐',
+      name: t('Sides change by a percentage: effect on area or volume', 'বাহু শতকরা হারে বদলালে ক্ষেত্রফল বা আয়তনের পরিবর্তন'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“Each side of a square is increased by 10%. By what percent does its area increase?” / “The length is increased by 20% and the breadth decreased by 20%; the effect on the area is …”', '“একটি বর্গক্ষেত্রের প্রতিটি বাহু 10% বাড়ানো হল। ক্ষেত্রফল শতকরা কত বাড়বে?” / “দৈর্ঘ্য 20% বাড়ানো ও প্রস্থ 20% কমানো হল; ক্ষেত্রফলের উপর প্রভাব …”'),
+      formula: t(r`Two lengths change by $a\%$ and $b\%$: area changes by $a + b + \frac{ab}{100}\%$. Every length multiplied by $k$: area $\times k^{2}$, volume $\times k^{3}$.`, r`দুটি দৈর্ঘ্য $a\%$ ও $b\%$ বদলালে: ক্ষেত্রফলের পরিবর্তন $a + b + \frac{ab}{100}\%$। প্রতিটি দৈর্ঘ্য $k$ গুণ হলে: ক্ষেত্রফল $\times k^{2}$, আয়তন $\times k^{3}$।`),
+      shortcut: t(r`Take every length as 100 and multiply the new lengths: $110 \times 110 = 12100$ against $10000$ means a $21\%$ rise in area.`, r`প্রতিটি দৈর্ঘ্য 100 ধরে নতুন দৈর্ঘ্যগুলি গুণ করো: $110 \times 110 = 12100$, আগে ছিল $10000$, অর্থাৎ ক্ষেত্রফল $21\%$ বাড়ল।`),
+      trap: t(r`Do not add the percentages: $+20\%$ and $-20\%$ is not "no change" but a $4\%$ decrease, and doubling the side makes the area 4 times — an increase of $300\%$, not $100\%$ or $400\%$.`, r`শতাংশগুলি যোগ কোরো না: $+20\%$ ও $-20\%$ মানে "কোনো পরিবর্তন নেই" নয়, $4\%$ হ্রাস; আর বাহু দ্বিগুণ হলে ক্ষেত্রফল 4 গুণ হয় — বৃদ্ধি $300\%$, $100\%$ বা $400\%$ নয়।`),
+      spot: t(
+        'The sides (length, breadth, radius or edge) of a figure change by given percentages or multiples, and the question asks how much the area, surface area or volume changes.',
+        'কোনো চিত্রের বাহু (দৈর্ঘ্য, প্রস্থ, ব্যাসার্ধ বা ধার) নির্দিষ্ট শতাংশ বা গুণে বদলায়, আর প্রশ্নে ক্ষেত্রফল, সমগ্রতলের ক্ষেত্রফল বা আয়তন কত বদলায় তা জানতে চায়।',
+      ),
+      method: [
+        t('Write each change as a factor: +20% → 1.2, −20% → 0.8, doubled → 2.', 'প্রতিটি পরিবর্তনকে গুণক হিসাবে লেখো: +20% → 1.2, −20% → 0.8, দ্বিগুণ → 2।'),
+        t('Area uses two lengths and volume three (a cylinder with fixed height uses r twice): multiply one factor for each length.', 'ক্ষেত্রফলে দুটি দৈর্ঘ্য, আয়তনে তিনটি (উচ্চতা স্থির থাকলে বেলনে r দুবার): প্রতিটি দৈর্ঘ্যের জন্য একটি করে গুণক গুণ করো।'),
+        t('Product − 1, times 100, is the percentage change; a minus sign means a decrease.', 'গুণফল − 1, তারপর × 100 করলে শতকরা পরিবর্তন; ঋণাত্মক হলে হ্রাস।'),
+      ],
+      example: {
+        question: t('The length of a rectangle is increased by 20% and its breadth is decreased by 20%. What is the effect on its area?', 'একটি আয়তক্ষেত্রের দৈর্ঘ্য 20% বাড়ানো ও প্রস্থ 20% কমানো হল। ক্ষেত্রফলের উপর কী প্রভাব পড়বে?'),
+        steps: [
+          t(r`Factors: $1.2$ and $0.8$, so the area is multiplied by $1.2 \times 0.8 = 0.96$.`, r`গুণক: $1.2$ ও $0.8$, তাই ক্ষেত্রফল $1.2 \times 0.8 = 0.96$ গুণ হয়।`),
+          t(r`$0.96 - 1 = -0.04$, i.e. a $4\%$ decrease. By the formula: $20 - 20 + \frac{20 \times (-20)}{100} = -4\%$.`, r`$0.96 - 1 = -0.04$, অর্থাৎ $4\%$ হ্রাস। সূত্রে: $20 - 20 + \frac{20 \times (-20)}{100} = -4\%$।`),
+        ],
+        answer: t('The area decreases by 4%.', 'ক্ষেত্রফল 4% কমে।'),
+      },
+      tryIt: {
+        question: t('If each edge of a cube is decreased by 10%, by what percent does its surface area decrease?', 'একটি ঘনকের প্রতিটি ধার 10% কমানো হলে এর সমগ্রতলের ক্ষেত্রফল শতকরা কত কমবে?'),
+        options: [t('10%', '10%'), t('20%', '20%'), t('19%', '19%'), t('27.1%', '27.1%')],
+        correct: 2,
+        explanation: [
+          t(r`Surface area $= 6a^{2}$ uses two edges: factor $0.9 \times 0.9 = 0.81$.`, r`সমগ্রতলের ক্ষেত্রফল $= 6a^{2}$, তাতে দুটি ধার: গুণক $0.9 \times 0.9 = 0.81$।`),
+          t(r`$1 - 0.81 = 0.19$, so a $19\%$ decrease. $27.1\%$ is the fall in volume ($0.9^{3} = 0.729$), and $20\%$ forgets the $\frac{ab}{100}$ term.`, r`$1 - 0.81 = 0.19$, তাই $19\%$ হ্রাস। $27.1\%$ হল আয়তনের হ্রাস ($0.9^{3} = 0.729$), আর $20\%$-এ $\frac{ab}{100}$ পদটি বাদ পড়েছে।`),
+        ],
+      },
+    },
+    {
+      key: 'percent_equation',
+      emoji: '🟰',
+      name: t('Percentages of two quantities set equal', 'দুটি রাশির শতাংশ সমান ধরে সমাধান'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“If 20% of A = 50% of B, what percentage of A is B?” / “60% of how many rupees equals 83⅓% of ₹90?” / “If the first is increased by 20% and the second decreased by 20%, they become equal; find their ratio.”', '“A-এর 20% = B-এর 50% হলে B, A-এর কত শতাংশ?” / “কত টাকার 60% = ₹90-এর 83⅓%?” / “প্রথমটি 20% বাড়ালে ও দ্বিতীয়টি 20% কমালে সমান হয়; অনুপাত কত?”'),
+      formula: t(r`$\frac{x}{100}A = \frac{y}{100}B \Rightarrow \frac{A}{B} = \frac{y}{x}$, so $A = \frac{y}{x} \times 100\%$ of $B$.`, r`$\frac{x}{100}A = \frac{y}{100}B \Rightarrow \frac{A}{B} = \frac{y}{x}$, তাই $A = B$-এর $\frac{y}{x} \times 100\%$।`),
+      shortcut: t('Cross the percentages over: x% of A = y% of B gives A : B = y : x. "Increased by a% equals decreased by b%" gives (100 + a)% of the first = (100 − b)% of the second.', 'শতাংশগুলি আড়াআড়ি নাও: A-এর x% = B-এর y% হলে A : B = y : x। "a% বাড়ালে = b% কমালে" মানে প্রথমটির (100 + a)% = দ্বিতীয়টির (100 − b)%।'),
+      trap: t('The smaller percentage belongs to the larger quantity; writing A : B = x : y turns the answer upside down.', 'ছোট শতাংশ বড় রাশির সঙ্গে যায়; A : B = x : y লিখলে উত্তর উল্টে যায়।'),
+      spot: t(
+        'Two different quantities are linked by an equation of percentages — "x% of A = y% of B", "a% of how much equals b% of N", or two people whose spending (or changed values) are equal — and a ratio, a percentage or the unknown quantity is asked.',
+        'দুটি আলাদা রাশি শতাংশের একটি সমীকরণে যুক্ত — "A-এর x% = B-এর y%", "কত টাকার a% = N-এর b%", বা দুজনের খরচ (বা বদলানো মান) সমান — আর অনুপাত, শতাংশ বা অজানা রাশি জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Write the condition as an equation: x/100 × A = y/100 × B (savings 25% means spending 75%).', 'শর্তটিকে সমীকরণে লেখো: x/100 × A = y/100 × B (25% সঞ্চয় মানে 75% খরচ)।'),
+        t('Cross-multiply to get the ratio A : B = y : x, and simplify.', 'আড়াআড়ি গুণ করে অনুপাত A : B = y : x পাও, তারপর সরল করো।'),
+        t('If a percentage is asked, multiply the ratio by 100; if one value is known, scale it.', 'শতাংশ চাইলে অনুপাতকে 100 দিয়ে গুণ করো; একটি মান জানা থাকলে সেই অনুপাতে বাড়াও।'),
+      ],
+      example: {
+        question: t('If 90% of A = 30% of B and B = x% of A, find x.', 'যদি A-এর 90% = B-এর 30% হয় এবং B = A-এর x% হয়, তবে x কত?'),
+        steps: [
+          t(r`$\frac{90}{100}A = \frac{30}{100}B \Rightarrow \frac{B}{A} = \frac{90}{30} = 3$.`, r`সমীকরণ: $\frac{90}{100}A = \frac{30}{100}B \Rightarrow \frac{B}{A} = \frac{90}{30} = 3$।`),
+          t(r`$B = 3A = 300\%$ of $A$.`, r`$B = 3A = A$-এর $300\%$।`),
+        ],
+        answer: t('x = 300', 'x-এর মান 300'),
+      },
+      tryIt: {
+        question: t('Simon saves 25% and Anik saves 40% of their incomes. If their expenditures are equal, what is the ratio of their incomes (Simon : Anik)?', 'সাইমন আয়ের 25% এবং অনীক আয়ের 40% সঞ্চয় করে। তাদের খরচ সমান হলে আয়ের অনুপাত (সাইমন : অনীক) কত?'),
+        options: [t('5 : 8', '5 : 8'), t('5 : 4', '5 : 4'), t('4 : 5', '4 : 5'), t('3 : 4', '3 : 4')],
+        correct: 2,
+        explanation: [
+          t(r`Spending: $75\%$ of Simon's income $= 60\%$ of Anik's income.`, r`খরচ: সাইমনের আয়ের $75\%$ $=$ অনীকের আয়ের $60\%$।`),
+          t(r`Simon : Anik $= 60 : 75 = 4 : 5$. ($5 : 8$ compares the savings rates, and $5 : 4$ is upside down.)`, r`সাইমন : অনীক $= 60 : 75 = 4 : 5$। ($5 : 8$ সঞ্চয়ের হারের তুলনা, আর $5 : 4$ উল্টো।)`),
         ],
       },
     },

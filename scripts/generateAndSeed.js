@@ -19,6 +19,9 @@
  *   --append           add --count NEW questions even if generated ones already exist
  *                      (default: top up so each subject holds --count generated questions)
  *   --dry-run          generate + validate only; no database connection
+ *   --modules <list>   only these generator modules (suffix match, e.g. quant_chase), to
+ *                      seed one new question type without touching the other chapters
+ *   --patterns <list>  only questions whose pattern is in the list (tops up one type)
  *
  * Schema mapping (the Question model differs from the brief's field names):
  *   category                -> exam_targets[{category, tier}]
@@ -42,19 +45,26 @@ const { TOPIC_ALIASES, inCatalog, normalizeTopic } = require('../src/services/ta
 const { factbankSpec } = require('./generators/supplement/factbanks');
 const catalog = require('../db/seed/catalog');
 
+// One generator per chapter for the question types seen in WBPSC-family Math PYQs
+// (scripts/generators/supplement/pyq_<chapter>.js); a chapter without one is skipped.
+const PYQ_QUANT_MODS = ['ages', 'algebra', 'average', 'interest', 'mixture_alligation', 'number_system', 'partnership', 'percentage', 'pipes_cistern', 'profit_loss', 'ratio_proportion', 'simplification', 'time_speed_distance', 'time_work']
+  .map((c) => `./generators/supplement/pyq_${c}`)
+  .filter((m) => require('fs').existsSync(require('path').join(__dirname, `${m}.js`)));
+
 // Each subject merges Copilot's generators with supplements (chapters they don't
 // cover yet) and hand-authored fact banks. Topics with the same code are merged.
 const SUBJECTS = {
-  quant: { label: 'Math', prefix: 'QNT', mods: ['./generators/quant', './generators/supplement/quant', './generators/supplement/quant2', './generators/supplement/quant_more'] },
+  quant: { label: 'Math', prefix: 'QNT', mods: ['./generators/quant', './generators/supplement/quant', './generators/supplement/quant2', './generators/supplement/quant_more', './generators/supplement/quant_chase', ...PYQ_QUANT_MODS] },
   english: { label: 'English', prefix: 'ENG', mods: ['./generators/english'], factbanks: true },
   reasoning: { label: 'Reasoning', prefix: 'RSN', mods: ['./generators/reasoning', './generators/supplement/reasoning'] },
   gs: { label: 'General Studies', prefix: 'GS', mods: ['./generators/supplement/gs'], factbanks: true },
 };
 
-function loadSpec(subject) {
+function loadSpec(subject, modules = null) {
   const meta = SUBJECTS[subject];
-  const parts = meta.mods.map((m) => require(m));
-  if (meta.factbanks) parts.push(factbankSpec(subject));
+  const mods = modules ? meta.mods.filter((m) => modules.some((x) => m.endsWith(x))) : meta.mods;
+  const parts = mods.map((m) => require(m));
+  if (meta.factbanks && !modules) parts.push(factbankSpec(subject));
   return { subject, topics: parts.flatMap((p) => p.topics) };
 }
 
@@ -94,6 +104,8 @@ function parseArgs(argv) {
     append: false,
     dryRun: false,
     perTopic: null,
+    modules: null,
+    patterns: null,
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -113,6 +125,8 @@ function parseArgs(argv) {
       case '--reset': opts.reset = true; break;
       case '--append': opts.append = true; break;
       case '--dry-run': opts.dryRun = true; break;
+      case '--modules': opts.modules = val().split(',').map((s) => s.trim()).filter(Boolean); break;
+      case '--patterns': opts.patterns = val().split(',').map((s) => s.trim()).filter(Boolean); break;
       case '--help': case '-h':
         console.log(require('fs').readFileSync(__filename, 'utf8').split('*/')[0]);
         process.exit(0);
@@ -382,7 +396,22 @@ async function main(opts = parseArgs(process.argv.slice(2)), { embedded = false,
   for (const [si, subject] of opts.subjects.entries()) {
     const meta = SUBJECTS[subject];
     seed(opts.seed + si * 7919);
-    const spec = loadSpec(subject);
+    const spec = loadSpec(subject, opts.modules);
+    if (opts.patterns) {
+      // Keep only generators that can produce the wanted patterns; each draw retries until it does.
+      const want = new Set(opts.patterns);
+      const only = (gen) => () => {
+        for (let k = 0; k < 60; k++) {
+          let b = null;
+          try { b = gen(); } catch { b = null; }
+          if (b && want.has(b.pattern)) return b;
+        }
+        return null;
+      };
+      spec.topics = spec.topics
+        .map((t) => ({ ...t, gens: t.gens.filter((g) => { for (let k = 0; k < 200; k++) { const b = (() => { try { return g(); } catch { return null; } })(); if (b && want.has(b.pattern)) return true; } return false; }).map(only) }))
+        .filter((t) => t.gens.length);
+    }
 
     // Stems of earlier generated docs keep re-runs from producing duplicate content.
     const known = new Set();
@@ -405,7 +434,7 @@ async function main(opts = parseArgs(process.argv.slice(2)), { embedded = false,
     const covered = new Set(spec.topics.map((t) => normalizeTopic(subject, t.topic).topic));
     const syllabusTopics = [...new Set(catalog.flatMap((c) => c.subjects.filter((x) => x.code === subject).flatMap((x) => x.topics.map((t) => t.code))))];
     const uncovered = syllabusTopics.filter((t) => !covered.has(t));
-    if (uncovered.length) console.warn(`  ! ${meta.label}: no generator or fact bank yet for: ${uncovered.join(', ')}`);
+    if (uncovered.length && !opts.modules) console.warn(`  ! ${meta.label}: no generator or fact bank yet for: ${uncovered.join(', ')}`);
     if (!spec.topics.length) continue;
 
     // --per-topic N: top every chapter up to N generated questions (or add N each with --append).

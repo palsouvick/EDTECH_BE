@@ -98,17 +98,23 @@ test('percentage taxonomy subtopics map to existing question patterns', () => {
 
 test('Profit & Loss taxonomy subtopics map to existing question patterns', () => {
   const rules = loadRules().quant.profit_loss;
+  // profit_percent / loss_percent stems are all "bought for X, sold at y% -> find SP" (find_cp_or_sp);
+  // "CP of x = SP of y" is articles_ratio; two articles at one SP is same_sp_rates.
   const expected = {
-    profit_percent: 'profit_loss_percent',
-    loss_percent: 'profit_loss_percent',
+    profit_percent: 'find_cp_or_sp',
+    loss_percent: 'find_cp_or_sp',
     find_cost_price: 'find_cp_or_sp',
-    marked_price_discount: 'discount_on_marked_price',
-    two_articles_same_price: 'profit_loss_percent',
-    cp_sp_articles: 'profit_loss_percent',
+    two_articles_same_price: 'same_sp_rates',
+    cp_sp_articles: 'articles_ratio',
   };
   for (const [subtopic, pattern] of Object.entries(expected)) {
     assert.equal(classify(rules, { subtopic, stem: { en: '' } }), pattern, subtopic);
   }
+  // marked_price_discount mixes two types; the stem decides.
+  const mpd = (en) => classify(rules, { subtopic: 'marked_price_discount', stem: { en } });
+  assert.equal(mpd('A shopkeeper marks his goods 40% above the cost price and allows a discount of 20%. What is his profit or loss percentage?'), 'markup_then_discount');
+  assert.equal(mpd('At what price should it be marked so that after a 10% discount he still gains 20%?'), 'target_price');
+  assert.equal(mpd('An article marked at ₹500 is sold at a discount of 12%. Find the selling price.'), 'discount_on_marked_price');
 });
 
 test('insights: weak pattern inside a good chapter, mastery tile, badges', async () => {

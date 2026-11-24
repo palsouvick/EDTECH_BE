@@ -567,5 +567,159 @@ module.exports = {
         ],
       },
     },
+    // 15 ─────────────────────────────────────────────
+    {
+      key: 'fraction_word_problem',
+      emoji: '🍰',
+      name: t('Fractions of a whole — word problems', 'পূর্ণের ভগ্নাংশ — শব্দের প্রশ্ন'),
+      difficulty: 'intermediate',
+      typicalWording: t('“In a class $\\frac{3}{5}$ of the students are girls. If $\\frac{2}{9}$ of the girls and $\\frac{1}{4}$ of the boys are absent, what part of the class is present?”', '“একটি ক্লাসের $\\frac{3}{5}$ অংশ ছাত্রী। ছাত্রীদের $\\frac{2}{9}$ অংশ ও ছাত্রদের $\\frac{1}{4}$ অংশ অনুপস্থিত হলে ক্লাসের কত অংশ উপস্থিত?”'),
+      formula: t(r`Part $=$ fraction $\times$ whole, so whole $=$ part $\div$ fraction. A fraction of a group: $\frac{a}{b}$ of $\frac{p}{q}$ of the total $= \frac{ap}{bq}$ of the total.`, r`অংশ $=$ ভগ্নাংশ $\times$ পূর্ণ, তাই পূর্ণ $=$ অংশ $\div$ ভগ্নাংশ। একটি দলের ভগ্নাংশ: মোটের $\frac{p}{q}$-এর $\frac{a}{b}$ $=$ মোটের $\frac{ap}{bq}$।`),
+      shortcut: t('Take the whole as the LCM of all the denominators (e.g. 180 students) — every part becomes a whole number and the answer is a simple ratio.', 'পূর্ণকে সব হরের ল.সা.গু. ধরো (যেমন 180 জন ছাত্রছাত্রী) — প্রতিটা অংশ পূর্ণসংখ্যা হয়ে যায়, উত্তর একটা সহজ অনুপাত।'),
+      trap: t('“$\\frac{2}{9}$ of the girls” is a fraction of the girls, not of the whole class — multiply by the girls\' share first. And if “present” is asked, subtract the absent part from 1.', '“ছাত্রীদের $\\frac{2}{9}$” মানে ছাত্রীদের ভগ্নাংশ, পুরো ক্লাসের নয় — আগে ছাত্রীদের অংশ দিয়ে গুণ করো। আর “উপস্থিত” চাইলে অনুপস্থিত অংশ 1 থেকে বিয়োগ করো।'),
+      spot: t(
+        'Parts of a whole are described by fractions (“3/5 are girls”, “1/4 of a tank holds 135 litres”, “5/12 of a sum equals …”) and another part, or the whole, is asked.',
+        'পূর্ণের বিভিন্ন অংশ ভগ্নাংশে বলা থাকে (“3/5 অংশ ছাত্রী”, “ট্যাঙ্কের 1/4 অংশে 135 লিটার ধরে”, “একটি টাকার 5/12 অংশ …-এর সমান”) আর অন্য একটি অংশ বা পূর্ণটি জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Name the whole (class, tank, income, sum) and write each given part as a fraction of it.', 'পূর্ণটি কী (ক্লাস, ট্যাঙ্ক, আয়, টাকা) ঠিক করো, আর প্রতিটা দেওয়া অংশকে তার ভগ্নাংশ হিসেবে লেখো।'),
+        t('A fraction of a sub-group: multiply the two fractions to get it as a part of the whole.', 'উপ-দলের ভগ্নাংশ হলে দুটো ভগ্নাংশ গুণ করে পূর্ণের অংশ হিসেবে লেখো।'),
+        t('If a part is known in units (litres, ₹), whole = units ÷ fraction; then answer what is asked.', 'কোনো অংশের পরিমাণ (লিটার, ₹) জানা থাকলে পূর্ণ = পরিমাণ ÷ ভগ্নাংশ; তারপর যা চাওয়া হয়েছে তা বের করো।'),
+      ],
+      example: {
+        question: t(r`In a class $\frac{3}{5}$ of the students are girls and the rest are boys. $\frac{2}{9}$ of the girls and $\frac{1}{4}$ of the boys are absent. What part of the class is present?`, r`একটি ক্লাসের $\frac{3}{5}$ অংশ ছাত্রী, বাকিরা ছাত্র। ছাত্রীদের $\frac{2}{9}$ অংশ ও ছাত্রদের $\frac{1}{4}$ অংশ অনুপস্থিত। ক্লাসের কত অংশ উপস্থিত?`),
+        steps: [
+          t(r`Boys $= 1 - \frac{3}{5} = \frac{2}{5}$ of the class.`, r`ছাত্র $= 1 - \frac{3}{5} = \frac{2}{5}$ অংশ।`),
+          t(r`Absent $= \frac{3}{5} \times \frac{2}{9} + \frac{2}{5} \times \frac{1}{4} = \frac{2}{15} + \frac{1}{10} = \frac{7}{30}$.`, r`অনুপস্থিত $= \frac{3}{5} \times \frac{2}{9} + \frac{2}{5} \times \frac{1}{4} = \frac{2}{15} + \frac{1}{10} = \frac{7}{30}$।`),
+          t(r`Present $= 1 - \frac{7}{30} = \frac{23}{30}$.`, r`উপস্থিত $= 1 - \frac{7}{30} = \frac{23}{30}$।`),
+        ],
+        answer: t(r`$\frac{23}{30}$ of the class`, r`ক্লাসের $\frac{23}{30}$ অংশ`),
+      },
+      tryIt: {
+        question: t(r`$\frac{1}{4}$ of a tank holds 135 litres of water. What part of the tank is full when it contains 180 litres?`, r`একটি ট্যাঙ্কের $\frac{1}{4}$ অংশে 135 লিটার জল ধরে। ট্যাঙ্কে 180 লিটার জল থাকলে তার কত অংশ ভর্তি?`),
+        options: [t(r`$\frac{1}{3}$`, r`$\frac{1}{3}$`), t(r`$\frac{2}{3}$`, r`$\frac{2}{3}$`), t(r`$\frac{3}{4}$`, r`$\frac{3}{4}$`), t(r`$\frac{1}{6}$`, r`$\frac{1}{6}$`)],
+        correct: 0,
+        explanation: [
+          t(r`Full tank $= 135 \div \frac{1}{4} = 540$ litres.`, r`পুরো ট্যাঙ্ক $= 135 \div \frac{1}{4} = 540$ লিটার।`),
+          t(r`Part full $= \frac{180}{540} = \frac{1}{3}$. ($\frac{3}{4}$ comes from $\frac{135}{180}$ — the ratio turned upside down.)`, r`ভর্তি অংশ $= \frac{180}{540} = \frac{1}{3}$। ($\frac{135}{180}$ উল্টো অনুপাত নিলে $\frac{3}{4}$ আসে — ভুল।)`),
+        ],
+      },
+    },
+
+    // 16 ─────────────────────────────────────────────
+    {
+      key: 'near_whole_mixed_multiply',
+      emoji: '🔢',
+      name: t('Big mixed number × its denominator', 'বড় মিশ্র ভগ্নাংশ × তার হর'),
+      difficulty: 'intermediate',
+      typicalWording: t(r`“The value of $999\frac{995}{999} \times 999$ is”`, r`“$999\frac{995}{999} \times 999$-এর মান”`),
+      formula: t(r`$\left(A + \frac{r}{d}\right) \times d = A \times d + r$, and $A \times 999 = A \times 1000 - A$.`, r`$\left(A + \frac{r}{d}\right) \times d = A \times d + r$, আর $A \times 999 = A \times 1000 - A$।`),
+      shortcut: t('Split the mixed number: whole part × multiplier, plus the fraction × multiplier (which cancels to a small number). Never convert to an improper fraction.', 'মিশ্র ভগ্নাংশটা ভেঙে নাও: পূর্ণ অংশ × গুণক, তার সঙ্গে ভগ্নাংশ × গুণক (যা কেটে ছোট সংখ্যা হয়)। কখনো অপ্রকৃত ভগ্নাংশে বদলাবে না।'),
+      trap: t(r`$999 \times 999 = 998001$ is only the whole part — the fraction part still adds $995$. Forgetting it is the most common wrong option.`, r`$999 \times 999 = 998001$ শুধু পূর্ণ অংশের গুণফল — ভগ্নাংশ অংশ থেকে আরও $995$ যোগ হবে। এটা ভুলে যাওয়াই সবচেয়ে সাধারণ ভুল বিকল্প।`),
+      spot: t(
+        r`A mixed number with a large whole part, like $999\frac{995}{999}$, is multiplied by its own denominator or by a factor of it.`,
+        r`বড় পূর্ণ অংশওয়ালা একটি মিশ্র ভগ্নাংশ, যেমন $999\frac{995}{999}$, তার নিজের হর বা হরের কোনো উৎপাদক দিয়ে গুণ করা থাকে।`,
+      ),
+      method: [
+        t(r`Write the mixed number as $A + \frac{r}{d}$.`, r`মিশ্র ভগ্নাংশটিকে $A + \frac{r}{d}$ হিসেবে লেখো।`),
+        t(r`Multiply each part separately: $A \times m$ and $\frac{r}{d} \times m$ (this cancels).`, r`প্রতিটা অংশ আলাদা গুণ করো: $A \times m$ আর $\frac{r}{d} \times m$ (এটা কেটে যায়)।`),
+        t(r`Use $A \times 999 = A \times 1000 - A$ (or $\times 99$, $\times 9999$) for the big product, then add.`, r`বড় গুণফলের জন্য $A \times 999 = A \times 1000 - A$ (বা $\times 99$, $\times 9999$) ব্যবহার করো, তারপর যোগ করো।`),
+      ],
+      example: {
+        question: t(r`Find the value of $999\frac{995}{999} \times 999$.`, r`$999\frac{995}{999} \times 999$-এর মান নির্ণয় করো।`),
+        steps: [
+          t(r`$= 999 \times 999 + \frac{995}{999} \times 999 = 999 \times 999 + 995$.`, r`ভেঙে গুণ করো: $= 999 \times 999 + \frac{995}{999} \times 999 = 999 \times 999 + 995$।`),
+          t(r`$999 \times 999 = 999000 - 999 = 998001$.`, r`বড় গুণফল: $999 \times 999 = 999000 - 999 = 998001$।`),
+          t(r`$998001 + 995 = 998996$.`, r`যোগ করে পাই $998001 + 995 = 998996$।`),
+        ],
+        answer: t('998996', 'মান 998996'),
+      },
+      tryIt: {
+        question: t(r`Find the value of $99\frac{97}{99} \times 99$.`, r`$99\frac{97}{99} \times 99$-এর মান নির্ণয় করো।`),
+        options: [t('9801', '9801'), t('9898', '9898'), t('9900', '9900'), t('9897', '9897')],
+        correct: 1,
+        explanation: [
+          t(r`$99 \times 99 + 97 = 9801 + 97$.`, r`ভেঙে গুণ করো: $99 \times 99 + 97 = 9801 + 97$।`),
+          t(r`$= 9898$. (9801 forgets the $+97$ from the fraction part.)`, r`$= 9898$। (9801 হলে ভগ্নাংশ অংশের $+97$ বাদ পড়েছে।)`),
+        ],
+      },
+    },
+
+    // 17 ─────────────────────────────────────────────
+    {
+      key: 'symbol_operations',
+      emoji: '🔣',
+      name: t('Changed signs and newly defined operations', 'চিহ্ন বদল ও নতুন সংজ্ঞায়িত প্রক্রিয়া'),
+      difficulty: 'intermediate',
+      typicalWording: t('“If ‘<’ means ‘minus’, ‘>’ means ‘plus’, ‘=’ means ‘multiplied by’ and ‘@’ means ‘divided by’, find the value of 27 > 81 @ 9 < 6.”', '“যদি ‘<’ মানে ‘বিয়োগ’, ‘>’ মানে ‘যোগ’, ‘=’ মানে ‘গুণ’ এবং ‘@’ মানে ‘ভাগ’ হয়, তবে 27 > 81 @ 9 < 6-এর মান কত?”'),
+      formula: t(r`Decode first, then BODMAS: $\div$ and $\times$ left to right, then $+$ and $-$. For a defined operation like $a * b = ab + b - a$, work the innermost bracket first.`, r`আগে চিহ্ন বদলাও, তারপর BODMAS: $\div$ ও $\times$ বাঁ দিক থেকে, তারপর $+$ ও $-$। $a * b = ab + b - a$-এর মতো নতুন প্রক্রিয়ায় আগে ভিতরের বন্ধনী।`),
+      shortcut: t('Write the decoded line under the given one before doing any arithmetic — most mistakes come from decoding in your head.', 'কোনো হিসাব করার আগে বদলানো লাইনটা প্রশ্নের নিচে লিখে ফেলো — বেশিরভাগ ভুল হয় মনে মনে চিহ্ন বদলাতে গিয়ে।'),
+      trap: t('After decoding, the real signs still follow BODMAS — working strictly left to right gives a wrong option. And $(a * b) * c$ is usually not $a * (b * c)$.', 'চিহ্ন বদলানোর পরেও আসল চিহ্নগুলো BODMAS মেনে চলে — শুধু বাঁ দিক থেকে ডান দিকে করলে ভুল বিকল্প আসে। আর $(a * b) * c$ সাধারণত $a * (b * c)$ নয়।'),
+      spot: t(
+        'The question redefines the signs (“÷ means +”), defines a new operation like $a * b = ab + b - a$, or asks which two numbers or signs to interchange to make an equation true.',
+        'প্রশ্নে চিহ্নের মানে বদলে দেওয়া থাকে (“÷ মানে +”), $a * b = ab + b - a$-এর মতো নতুন প্রক্রিয়া সংজ্ঞায়িত থাকে, বা কোন দুটি সংখ্যা/চিহ্ন অদলবদল করলে সমীকরণ ঠিক হবে তা জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Rewrite the expression with the real meaning of each symbol (or with the two items interchanged).', 'প্রতিটা চিহ্নের আসল মানে বসিয়ে (বা দুটি জিনিস অদলবদল করে) রাশিটা আবার লেখো।'),
+        t('Apply BODMAS to the rewritten line; for a defined operation, evaluate the bracket first using the rule.', 'নতুন লাইনে BODMAS প্রয়োগ করো; সংজ্ঞায়িত প্রক্রিয়ায় নিয়ম মেনে আগে বন্ধনীর মান বের করো।'),
+        t('For “which interchange”, test each option until both sides are equal.', '“কোন অদলবদল” প্রশ্নে প্রতিটা বিকল্প বসিয়ে দেখো কোনটায় দুই দিক সমান হয়।'),
+      ],
+      example: {
+        question: t('If ‘<’ means ‘minus’, ‘>’ means ‘plus’, ‘=’ means ‘multiplied by’ and ‘@’ means ‘divided by’, find the value of 27 > 81 @ 9 < 6.', 'যদি ‘<’ মানে ‘বিয়োগ’, ‘>’ মানে ‘যোগ’, ‘=’ মানে ‘গুণ’ এবং ‘@’ মানে ‘ভাগ’ হয়, তবে 27 > 81 @ 9 < 6-এর মান কত?'),
+        steps: [
+          t(r`Decoded: $27 + 81 \div 9 - 6$.`, r`চিহ্ন বদলে: $27 + 81 \div 9 - 6$।`),
+          t(r`Division first: $81 \div 9 = 9$.`, r`আগে ভাগ: $81 \div 9 = 9$।`),
+          t(r`$27 + 9 - 6 = 30$.`, r`তারপর যোগ-বিয়োগ: $27 + 9 - 6 = 30$।`),
+        ],
+        answer: t('30', 'মান 30'),
+      },
+      tryIt: {
+        question: t(r`If $a * b = ab + a - b$, find the value of $(3 * 2) * 4$.`, r`$a * b = ab + a - b$ হলে $(3 * 2) * 4$-এর মান কত?`),
+        options: [t('15', '15'), t('27', '27'), t('31', '31'), t('35', '35')],
+        correct: 2,
+        explanation: [
+          t(r`Bracket first: $3 * 2 = 6 + 3 - 2 = 7$.`, r`আগে বন্ধনী: $3 * 2 = 6 + 3 - 2 = 7$।`),
+          t(r`$7 * 4 = 28 + 7 - 4 = 31$. (15 comes from working $3 * (2 * 4)$ instead.)`, r`$7 * 4 = 28 + 7 - 4 = 31$। ($3 * (2 * 4)$ করলে 15 আসে — ভুল।)`),
+        ],
+      },
+    },
+
+    // 18 ─────────────────────────────────────────────
+    {
+      key: 'perfect_square_adjust',
+      emoji: '🟩',
+      name: t('Make a number a perfect square', 'সংখ্যাকে পূর্ণবর্গ করা'),
+      difficulty: 'intermediate',
+      typicalWording: t('“The least number to be subtracted from 11100 to make it a perfect square is” / “By what number should 1083 be multiplied to make it a perfect square?”', '“11100 থেকে ন্যূনতম কোন সংখ্যা বিয়োগ করলে পূর্ণবর্গ হবে?” / “1083-কে ন্যূনতম কোন সংখ্যা দিয়ে গুণ করলে পূর্ণবর্গ হবে?”'),
+      formula: t(r`Subtract $N - k^2$ where $k^2$ is the square just below $N$; add $(k + 1)^2 - N$. Multiply (or divide) by the product of the primes that occur an odd number of times in $N$.`, r`বিয়োগ: $N - k^2$, যেখানে $k^2$ হল $N$-এর ঠিক নিচের বর্গ; যোগ: $(k + 1)^2 - N$। গুণ (বা ভাগ): $N$-এ যে মৌলিক উৎপাদকগুলো বিজোড় বার আছে তাদের গুণফল।`),
+      shortcut: t(r`Bracket $N$ between squares of round numbers: $105^2 = 11025 < 11100 < 106^2 = 11236$. For decimals, use squares like $2.2^2 = 4.84$.`, r`$N$-কে গোল সংখ্যার বর্গের মাঝে ফেলো: $105^2 = 11025 < 11100 < 106^2 = 11236$। দশমিকে $2.2^2 = 4.84$-এর মতো বর্গ নাও।`),
+      trap: t('Subtracting goes DOWN to the square below; adding goes UP to the square above. Mixing them up gives the other distance (136 instead of 75 for 11100).', 'বিয়োগ করলে নিচের বর্গে নামতে হয়; যোগ করলে উপরের বর্গে উঠতে হয়। গুলিয়ে ফেললে অন্য দূরত্বটা আসে (11100-এর ক্ষেত্রে 75-এর বদলে 136)।'),
+      spot: t(
+        'The question asks for the least number to be added, subtracted, multiplied or divided so that the result is a perfect square.',
+        'প্রশ্নে জানতে চাওয়া হয় ন্যূনতম কোন সংখ্যা যোগ, বিয়োগ, গুণ বা ভাগ করলে ফল পূর্ণবর্গ হবে।',
+      ),
+      method: [
+        t(r`Add/subtract: find the whole number $k$ with $k^2 \le N < (k + 1)^2$ (division method or nearby round squares).`, r`যোগ/বিয়োগ: এমন পূর্ণসংখ্যা $k$ বের করো যাতে $k^2 \le N < (k + 1)^2$ (ভাগ পদ্ধতি বা কাছের গোল বর্গ দিয়ে)।`),
+        t(r`Subtract: answer $N - k^2$. Add: answer $(k + 1)^2 - N$.`, r`বিয়োগ: উত্তর $N - k^2$। যোগ: উত্তর $(k + 1)^2 - N$।`),
+        t('Multiply/divide: split N into primes; the primes with an odd power, multiplied together, give the answer.', 'গুণ/ভাগ: N-কে মৌলিক উৎপাদকে ভাঙো; যেগুলোর ঘাত বিজোড়, তাদের গুণফলই উত্তর।'),
+      ],
+      example: {
+        question: t('Find the least number which must be subtracted from 11100 to make it a perfect square.', '11100 থেকে ন্যূনতম কোন সংখ্যা বিয়োগ করলে সেটি পূর্ণবর্গ হবে?'),
+        steps: [
+          t(r`$105^2 = 11025$ and $106^2 = 11236$, so $11025 < 11100 < 11236$.`, r`$105^2 = 11025$ আর $106^2 = 11236$, তাই $11025 < 11100 < 11236$।`),
+          t(r`Go down to $11025$: $11100 - 11025 = 75$.`, r`নিচের বর্গ $11025$-এ নামো: $11100 - 11025 = 75$।`),
+        ],
+        answer: t('75', 'উত্তর 75'),
+      },
+      tryIt: {
+        question: t('Find the smallest number by which 5808 should be multiplied so that the product is a perfect square.', '5808-কে ন্যূনতম কোন সংখ্যা দিয়ে গুণ করলে গুণফল পূর্ণবর্গ হবে?'),
+        options: [t('2', '2'), t('3', '3'), t('6', '6'), t('11', '11')],
+        correct: 1,
+        explanation: [
+          t(r`$5808 = 2^4 \times 3 \times 11^2$.`, r`মৌলিক উৎপাদকে ভাঙলে $5808 = 2^4 \times 3 \times 11^2$।`),
+          t(r`Only $3$ has an odd power, so multiply by $3$: $5808 \times 3 = 17424 = 132^2$.`, r`শুধু $3$-এর ঘাত বিজোড়, তাই $3$ দিয়ে গুণ করো: $5808 \times 3 = 17424 = 132^2$।`),
+        ],
+      },
+    },
   ],
 };

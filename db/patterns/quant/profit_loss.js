@@ -224,8 +224,8 @@ module.exports = {
       shortcut: t('Work on the CP = 100 scale throughout: MP, the price after the first discount and the target SP all become small numbers, and the further discount is just the final drop divided by the reduced price.', 'পুরো হিসাব CP = 100 স্কেলে করো: MP, প্রথম ছাড়ের পরের দাম ও লক্ষ্য SP সব ছোট সংখ্যা হয়, আর আরও ছাড় হল শেষ পতনকে কমে যাওয়া দাম দিয়ে ভাগ।'),
       trap: t('The further discount is on the already reduced price, not on the original MP. Successive discounts never simply add up.', 'আরও ছাড়টি আগেই কমে যাওয়া দামের উপর, মূল MP-এর উপর নয়। পরপর ছাড় কখনো সরাসরি যোগ হয় না।'),
       spot: t(
-        'The price is marked above CP, one discount is already given, and the question asks what **further** discount will leave an exact stated profit.',
-        'দাম CP-এর বেশি লেখা থাকে, একটি ছাড় আগেই দেওয়া থাকে, আর প্রশ্নে জানতে চাওয়া হয় ঠিক নির্দিষ্ট লাভ রাখতে **আরও** কত ছাড় দিতে হবে।',
+        'One discount is already given and the question asks what **further** discount will leave an exact stated profit (price marked above CP) or bring the list price down to a stated **net price**.',
+        'একটি ছাড় আগেই দেওয়া থাকে, আর প্রশ্নে জানতে চাওয়া হয় ঠিক নির্দিষ্ট লাভ রাখতে (দাম CP-এর বেশি লেখা থাকলে) বা তালিকা-মূল্যকে নির্দিষ্ট **নিট দামে** নামাতে **আরও** কত ছাড় দিতে হবে।',
       ),
       method: [
         t('Take CP = 100 and find MP from the markup.', 'CP = 100 ধরে মার্কআপ থেকে MP বের করো।'),
@@ -720,6 +720,118 @@ module.exports = {
         explanation: [
           t('Total cost = 800 + 10% of 800 = ₹880. Target SP = 880 × 125/100 = ₹1100.', 'মোট খরচ = 800 + 800-এর 10% = ₹880। লক্ষ্য SP = 880 × 125/100 = ₹1100।'),
           t('Marked price = 1100 × 140/100 = ₹1540; actual SP = 1540 × 75/100 = ₹1155, so result = (1155 − 880) / 880 × 100 = 31.25% profit.', 'ধার্যমূল্য = 1100 × 140/100 = ₹1540; প্রকৃত SP = 1540 × 75/100 = ₹1155, তাই ফল = (1155 − 880) / 880 × 100 = 31.25% লাভ।'),
+        ],
+      },
+    },
+
+    // 18 ─────────────────────────────────────────────
+    {
+      key: 'two_selling_prices',
+      emoji: '🔁',
+      name: t('One article, two selling prices', 'একই জিনিস, দুটি বিক্রয়মূল্য'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“By selling it for ₹450 he loses 25%. At what price should he sell it to gain 25%?” or “The profit at ₹1864 equals the loss at ₹1490. Find the cost price.”', '“₹450-এ বিক্রি করলে 25% ক্ষতি হয়। 25% লাভ করতে কত দামে বিক্রি করতে হবে?” অথবা “₹1864-এ বিক্রি করলে যত লাভ, ₹1490-এ বিক্রি করলে তত ক্ষতি। ক্রয়মূল্য কত?”'),
+      formula: t(r`Each selling price is a percentage of the same CP: $SP_1 = CP \times \frac{100 \pm r_1}{100}$, $SP_2 = CP \times \frac{100 \pm r_2}{100}$. Equal profit and loss: $CP = \frac{SP_1 + SP_2}{2}$. A price gap $D$: $CP = \frac{D \times 100}{\text{gap in rates}}$.`, r`প্রতিটি বিক্রয়মূল্য একই CP-এর শতাংশ: $SP_1 = CP \times \frac{100 \pm r_1}{100}$, $SP_2 = CP \times \frac{100 \pm r_2}{100}$। লাভ ও ক্ষতি সমান হলে: $CP = \frac{SP_1 + SP_2}{2}$। দামের ফারাক $D$ হলে: $CP = \frac{D \times 100}{\text{হারের ফারাক}}$।`),
+      shortcut: t(r`Skip the CP when only the new price is asked: new SP $= SP_1 \times \frac{100 \pm r_2}{100 \pm r_1}$ (for ₹450 at 25% loss → 25% gain: $450 \times \frac{125}{75} = 750$).`, r`শুধু নতুন দাম চাইলে CP বের না করেও হয়: নতুন SP $= SP_1 \times \frac{100 \pm r_2}{100 \pm r_1}$ (₹450-এ 25% ক্ষতি → 25% লাভ: $450 \times \frac{125}{75} = 750$)।`),
+      trap: t('Both percentages are on the cost price, never on the first selling price: adding 50% to ₹450 (= ₹675) is wrong. And stopping at the CP answers a different question.', 'দুটি শতাংশই ক্রয়মূল্যের উপর, প্রথম বিক্রয়মূল্যের উপর কখনো নয়: ₹450-এর সঙ্গে 50% যোগ (= ₹675) ভুল। আর CP-তে থেমে গেলে অন্য প্রশ্নের উত্তর হয়।'),
+      spot: t(
+        'The **same article** is described at **two different selling prices** (actual and hypothetical, or "equal profit and loss"), each with its own gain or loss, and the CP or the other price is asked.',
+        '**একই জিনিস** **দুটি আলাদা বিক্রয়মূল্যে** বিক্রির কথা থাকে (আসল ও কাল্পনিক, বা "লাভ ও ক্ষতি সমান"), প্রতিটির নিজের লাভ বা ক্ষতি সহ, আর CP বা অন্য দামটি জানতে চায়।',
+      ),
+      method: [
+        t('Take CP = 100: each selling price becomes 100 ± its own rate.', 'CP = 100 ধরো: প্রতিটি বিক্রয়মূল্য হয় 100 ± তার নিজের হার।'),
+        t('Use the given rupee figure to find CP (from one price, from the sum of the two prices, or from their gap).', 'দেওয়া টাকার অঙ্ক থেকে CP বের করো (একটি দাম থেকে, দুটি দামের যোগফল থেকে, বা তাদের ফারাক থেকে)।'),
+        t('Apply the other rate to CP if the other price is asked.', 'অন্য দামটি চাইলে CP-তে অন্য হারটি প্রয়োগ করো।'),
+      ],
+      example: {
+        question: t('By selling a table for ₹450, a man loses 25%. At what price should he sell it to gain 25%?', 'একজন লোক ₹450-এ একটি টেবিল বিক্রি করে 25% ক্ষতি করেন। 25% লাভ করতে তাঁকে কত দামে বিক্রি করতে হবে?'),
+        steps: [
+          t('A 25% loss means ₹450 is 75% of CP, so CP = 450 × 100/75 = ₹600.', '25% ক্ষতি মানে ₹450 হল CP-এর 75%, তাই CP = 450 × 100/75 = ₹600।'),
+          t('For a 25% gain, SP = 600 × 125/100 = ₹750.', '25% লাভের জন্য SP = 600 × 125/100 = ₹750।'),
+        ],
+        answer: t('₹750', 'বিক্রয়মূল্য ₹750'),
+      },
+      tryIt: {
+        question: t('The profit earned by selling an article for ₹1754 is equal to the loss incurred when it is sold for ₹1492. What is the cost price?', 'একটি জিনিস ₹1754-এ বিক্রি করলে যত লাভ হয়, ₹1492-এ বিক্রি করলে তত ক্ষতি হয়। জিনিসটির ক্রয়মূল্য কত?'),
+        options: [t('₹1623', '₹1623'), t('₹131', '₹131'), t('₹1589', '₹1589'), t('₹262', '₹262')],
+        correct: 0,
+        explanation: [
+          t('Profit = 1754 − CP and loss = CP − 1492. Setting them equal: 2 × CP = 1754 + 1492 = 3246.', 'লাভ = 1754 − CP এবং ক্ষতি = CP − 1492। দুটি সমান ধরলে: 2 × CP = 1754 + 1492 = 3246।'),
+          t('CP = 3246 ÷ 2 = ₹1623 — the average of the two prices. ₹131 is only half their gap (the profit itself).', 'CP = 3246 ÷ 2 = ₹1623 — দুটি দামের গড়। ₹131 শুধু ফারাকের অর্ধেক (লাভের পরিমাণ)।'),
+        ],
+      },
+    },
+
+    // 19 ─────────────────────────────────────────────
+    {
+      key: 'buy_sell_count_rates',
+      emoji: '🍎',
+      name: t('Bought n for ₹a, sold m for ₹b', 'nটি ₹a-এ কেনা, mটি ₹b-এ বেচা'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“A fruit seller bought 15 apples for ₹12 and sold 12 apples for ₹15. Find his profit or loss per cent.”', '“একজন ফল বিক্রেতা ₹12-এ 15টি আপেল কিনে ₹15-এ 12টি করে বিক্রি করলেন। শতকরা লাভ বা ক্ষতি কত?”'),
+      formula: t(r`Bought $n$ for ₹$a$, sold $m$ for ₹$b$: gain % $= \frac{n \times b - m \times a}{m \times a} \times 100$.`, r`₹$a$-এ $n$টি কেনা, ₹$b$-এ $m$টি বেচা: লাভ % $= \frac{n \times b - m \times a}{m \times a} \times 100$।`),
+      shortcut: t('Cross-multiply the two deals onto the same number of articles (LCM of n and m, or simply n × m articles): compare the cost and the takings of that many and read the percentage on the cost.', 'দুটি লেনদেনকে একই সংখ্যক জিনিসে আনো (n ও m-এর ল.সা.গু., বা সরাসরি n × mটি): ততগুলির খরচ ও বিক্রির টাকা তুলনা করে খরচের উপর শতাংশ নাও।'),
+      trap: t('Comparing ₹12 with ₹15 directly ignores that the two prices are for different numbers of articles; and the percentage must be taken on the cost, not the takings.', '₹12 আর ₹15 সরাসরি তুলনা করলে ভুল, কারণ দুটি দাম আলাদা সংখ্যক জিনিসের; আর শতাংশ নিতে হয় খরচের উপর, বিক্রির টাকার উপর নয়।'),
+      spot: t('Articles are **bought at one "n for ₹a" rate** and **sold at a different "m for ₹b" rate**, and the profit or loss % is asked.', 'জিনিস **"₹a-এ nটি" হারে কেনা** আর **আলাদা "₹b-এ mটি" হারে বেচা** হয়, আর শতকরা লাভ বা ক্ষতি জানতে চায়।'),
+      method: [
+        t('Choose a common number of articles: the LCM of n and m (or n × m).', 'একটি সাধারণ সংখ্যা নাও: n ও m-এর ল.সা.গু. (বা n × m)।'),
+        t('Find the cost and the selling price of that many articles.', 'ততগুলি জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্য বের করো।'),
+        t('Profit or loss % = difference ÷ cost × 100.', 'লাভ বা ক্ষতি % = পার্থক্য ÷ ক্রয়মূল্য × 100।'),
+      ],
+      example: {
+        question: t('A fruit seller bought 11 apples for ₹10 and sold 10 apples for ₹11. Find his profit or loss per cent.', 'একজন ফল বিক্রেতা ₹10-এ 11টি আপেল কিনে ₹11-এ 10টি করে বিক্রি করলেন। শতকরা লাভ বা ক্ষতি কত?'),
+        steps: [
+          t('Take 110 apples (11 × 10). Cost = 10 × 10 = ₹100; selling price = 11 × 11 = ₹121.', '110টি আপেল ধরো (11 × 10)। ক্রয়মূল্য = 10 × 10 = ₹100; বিক্রয়মূল্য = 11 × 11 = ₹121।'),
+          t('Profit = ₹21 on a cost of ₹100, so 21% profit.', '₹100 খরচে লাভ ₹21, তাই 21% লাভ।'),
+        ],
+        answer: t('21% profit', '21% লাভ'),
+      },
+      tryIt: {
+        question: t('A vendor buys 6 lemons for ₹5 and sells 5 lemons for ₹6. What is his gain per cent?', 'একজন বিক্রেতা ₹5-এ 6টি লেবু কিনে ₹6-এ 5টি করে বেচেন। তাঁর শতকরা লাভ কত?'),
+        options: [t('20%', '20%'), t('44%', '44%'), t('30 5/9%', '30 5/9%'), t('22%', '22%')],
+        correct: 1,
+        explanation: [
+          t('Take 30 lemons: cost = 5 × 5 = ₹25, selling price = 6 × 6 = ₹36.', '30টি লেবু ধরো: ক্রয়মূল্য = 5 × 5 = ₹25, বিক্রয়মূল্য = 6 × 6 = ₹36।'),
+          t('Gain = ₹11 on ₹25 = 44%. (20% compares ₹5 with ₹6 and ignores the different counts.)', 'লাভ = ₹25-এ ₹11 = 44%। (20% আসে ₹5 ও ₹6 সরাসরি তুলনা করে সংখ্যার ফারাক উপেক্ষা করলে।)'),
+        ],
+      },
+    },
+
+    // 20 ─────────────────────────────────────────────
+    {
+      key: 'two_articles_find_cp',
+      emoji: '⌚',
+      name: t('Two articles, one total cost: find each cost price', 'দুটি জিনিস, একটি মোট খরচ: প্রত্যেকটির ক্রয়মূল্য'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“Bought two watches for ₹560. One sold at 15% profit, the other at 10% loss, and he neither gains nor loses. Find the cost prices.”', '“দুটি ঘড়ি ₹560-এ কেনা। একটি 15% লাভে, অন্যটি 10% ক্ষতিতে বিক্রি করে লাভ-ক্ষতি কিছুই হল না। ক্রয়মূল্য দুটি কত?”'),
+      formula: t(r`No gain, no loss: $CP_1 \times p = CP_2 \times l$, so $CP_1 : CP_2 = l : p$. Swapping the rates changes the takings by $\frac{(r_2 - r_1)(CP_1 - CP_2)}{100}$.`, r`লাভ-ক্ষতি শূন্য: $CP_1 \times p = CP_2 \times l$, তাই $CP_1 : CP_2 = l : p$। হার অদলবদল করলে বিক্রির টাকা বদলায় $\frac{(r_2 - r_1)(CP_1 - CP_2)}{100}$।`),
+      shortcut: t('For "neither gain nor loss", the cost prices are in the INVERSE ratio of the rates: 15% profit and 10% loss give 10 : 15 = 2 : 3, then divide the total.', '"লাভ-ক্ষতি কিছুই নয়" হলে ক্রয়মূল্যগুলি হারের বিপরীত অনুপাতে: 15% লাভ ও 10% ক্ষতি দেয় 10 : 15 = 2 : 3, তারপর মোটকে ভাগ করো।'),
+      trap: t('Dividing the total in the ratio of the rates themselves (15 : 10) gives the two prices the wrong way round: the article sold at the larger rate must be the cheaper one.', 'মোটকে হারগুলির অনুপাতেই (15 : 10) ভাগ করলে দাম দুটি উল্টে যায়: বেশি হারে বিক্রি হওয়া জিনিসটির দামই কম হতে হবে।'),
+      spot: t('Two articles have a **combined cost price**, each is sold at its own rate, and an **overall condition** (no gain no loss, an overall %, or "₹D more if the rates were swapped") is given; a single CP is asked.', 'দুটি জিনিসের **মোট ক্রয়মূল্য** দেওয়া, প্রত্যেকটি নিজের হারে বিক্রি হয়, আর একটি **সামগ্রিক শর্ত** (লাভ-ক্ষতি শূন্য, মোট %, বা "হার অদলবদল করলে ₹D বেশি") দেওয়া থাকে; একটি CP জানতে চায়।'),
+      method: [
+        t('Write the two cost prices as x and (total − x), or as ratio parts.', 'দুটি ক্রয়মূল্যকে x ও (মোট − x), বা অনুপাতের অংশ হিসেবে লেখো।'),
+        t('Turn the overall condition into one equation: profit on one = loss on the other, or the change from swapping the rates = ₹D.', 'সামগ্রিক শর্তটিকে একটি সমীকরণে বদলাও: একটির লাভ = অন্যটির ক্ষতি, বা হার অদলবদলের পরিবর্তন = ₹D।'),
+        t('Solve for the cost prices and check with the total.', 'ক্রয়মূল্যগুলি বের করে মোটের সঙ্গে মিলিয়ে দেখো।'),
+      ],
+      example: {
+        question: t('A man buys two watches for ₹560 in all. He sells one at 15% profit and the other at 10% loss and neither gains nor loses. Find the cost price of each watch.', 'একজন লোক মোট ₹560-এ দুটি ঘড়ি কেনেন। একটি 15% লাভে ও অন্যটি 10% ক্ষতিতে বিক্রি করে তাঁর লাভ-ক্ষতি কিছুই হয় না। প্রতিটি ঘড়ির ক্রয়মূল্য কত?'),
+        steps: [
+          t('Profit on the first = loss on the second: 15% of CP₁ = 10% of CP₂, so CP₁ : CP₂ = 10 : 15 = 2 : 3.', 'প্রথমটির লাভ = দ্বিতীয়টির ক্ষতি: CP₁-এর 15% = CP₂-এর 10%, তাই CP₁ : CP₂ = 10 : 15 = 2 : 3।'),
+          t('1 part = 560 ÷ 5 = ₹112, so CP₁ = ₹224 and CP₂ = ₹336.', '1 ভাগ = 560 ÷ 5 = ₹112, তাই CP₁ = ₹224 এবং CP₂ = ₹336।'),
+          t('Check: 15% of 224 = 33.6 and 10% of 336 = 33.6.', 'মিলিয়ে দেখো: 224-এর 15% = 33.6 এবং 336-এর 10% = 33.6।'),
+        ],
+        answer: t('₹224 (sold at profit) and ₹336 (sold at loss)', '₹224 (লাভে বিক্রি) ও ₹336 (ক্ষতিতে বিক্রি)'),
+      },
+      tryIt: {
+        question: t('A shopkeeper bought two cycles for ₹1600 in total. He sold the first at 10% profit and the second at 20% profit. Had he sold the first at 20% and the second at 10%, he would have got ₹5 more. What was the cost price of the first cycle?', 'একজন দোকানদার মোট ₹1600-এ দুটি সাইকেল কিনলেন। প্রথমটি 10% লাভে ও দ্বিতীয়টি 20% লাভে বিক্রি করলেন। প্রথমটি 20% ও দ্বিতীয়টি 10% লাভে বিক্রি করলে তিনি ₹5 বেশি পেতেন। প্রথম সাইকেলটির ক্রয়মূল্য কত?'),
+        options: [t('₹775', '₹775'), t('₹825', '₹825'), t('₹800', '₹800'), t('₹850', '₹850')],
+        correct: 1,
+        explanation: [
+          t('Swapping adds 10% of CP₁ and removes 10% of CP₂, so 10% of (CP₁ − CP₂) = ₹5 and CP₁ − CP₂ = ₹50.', 'অদলবদলে CP₁-এর 10% যোগ ও CP₂-এর 10% বাদ হয়, তাই (CP₁ − CP₂)-এর 10% = ₹5 এবং CP₁ − CP₂ = ₹50।'),
+          t('CP₁ + CP₂ = 1600, so CP₁ = (1600 + 50) ÷ 2 = ₹825 (and CP₂ = ₹775, the other cycle).', 'CP₁ + CP₂ = 1600, তাই CP₁ = (1600 + 50) ÷ 2 = ₹825 (আর CP₂ = ₹775, অন্য সাইকেলটি)।'),
         ],
       },
     },

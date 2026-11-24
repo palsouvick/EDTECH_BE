@@ -573,6 +573,112 @@ module.exports = {
         ],
       },
     },
+
+    // 15 ─────────────────────────────────────────────
+    {
+      key: 'equal_parts_ratio',
+      emoji: '🟰',
+      name: t('Equal parts of different quantities give their ratio', 'আলাদা রাশির সমান অংশ থেকে অনুপাত'),
+      difficulty: 'intermediate',
+      typicalWording: t('“40% of A is equal to 60% of B. Find A : B”, or “₹1,65,000 is shared so that 1/2 of the daughter\'s share, 1/4 of the wife\'s and 1/5 of the son\'s are equal.”', '“A-এর 40% = B-এর 60%। A : B কত?”, অথবা “₹1,65,000 এমনভাবে ভাগ করা হল যে মেয়ের ভাগের 1/2, স্ত্রীর ভাগের 1/4 ও ছেলের ভাগের 1/5 সমান।”'),
+      formula: t(r`If $x$ of $A$ $=$ $y$ of $B$, then $\frac{A}{B} = \frac{y}{x}$. If $\frac{A}{a} = \frac{B}{b} = \frac{C}{c}$ (equal to $k$), then $A : B : C = a : b : c$.`, r`$A$-এর $x$ অংশ $=$ $B$-এর $y$ অংশ হলে $\frac{A}{B} = \frac{y}{x}$। $\frac{A}{a} = \frac{B}{b} = \frac{C}{c}$ ($= k$) হলে $A : B : C = a : b : c$।`),
+      shortcut: t('Set the common value = k (or a convenient number like 120) and write every quantity as k ÷ its fraction; then clear the fractions with one LCM.', 'সাধারণ মানটি = k (বা 120-এর মতো সুবিধাজনক সংখ্যা) ধরো এবং প্রতিটি রাশিকে k ÷ তার ভগ্নাংশ লেখো; তারপর একটি ল.সা.গু. দিয়ে ভগ্নাংশ সরাও।'),
+      trap: t('The ratio comes out INVERTED: 40% of A = 60% of B makes A the larger one, so A : B = 60 : 40 = 3 : 2, not 2 : 3.', 'অনুপাতটি উল্টে আসে: A-এর 40% = B-এর 60% মানে A বড়, তাই A : B = 60 : 40 = 3 : 2, 2 : 3 নয়।'),
+      spot: t('Different fractions or percentages of two or three quantities are said to be **equal to one another** ("x% of A = y% of B", "half of A equals 5/6 of B", "P is 60% more than Q and 30% more than R"), and their ratio or one share is asked.', 'দুটি বা তিনটি রাশির আলাদা ভগ্নাংশ বা শতাংশকে **পরস্পরের সমান** বলা হয় ("A-এর x% = B-এর y%", "A-এর অর্ধেক = B-এর 5/6", "P, Q-এর চেয়ে 60% ও R-এর চেয়ে 30% বেশি"), আর তাদের অনুপাত বা একটি ভাগ জানতে চায়।'),
+      method: [
+        t('Call the common value k.', 'সাধারণ মানটিকে k ধরো।'),
+        t('Write each quantity as k divided by its fraction (A = k ÷ 40%, B = k ÷ 60%, …).', 'প্রতিটি রাশিকে k ÷ তার ভগ্নাংশ লেখো (A = k ÷ 40%, B = k ÷ 60%, …)।'),
+        t('Clear the fractions with the LCM to get the ratio; if a total is given, divide it in that ratio.', 'ল.সা.গু. দিয়ে ভগ্নাংশ সরিয়ে অনুপাত পাও; মোট দেওয়া থাকলে সেই অনুপাতে ভাগ করো।'),
+      ],
+      example: {
+        question: t('If 40% of P = 0.75 of Q = 1/4 of R, find P : Q : R.', 'P-এর 40% = Q-এর 0.75 = R-এর 1/4 হলে P : Q : R নির্ণয় করো।'),
+        steps: [
+          t('Let each be k: P = k ÷ 2/5 = 5k/2, Q = k ÷ 3/4 = 4k/3, R = k ÷ 1/4 = 4k.', 'প্রত্যেকটি k ধরো: P = k ÷ 2/5 = 5k/2, Q = k ÷ 3/4 = 4k/3, R = k ÷ 1/4 = 4k।'),
+          t('Multiply by 6 to clear fractions: P : Q : R = 15 : 8 : 24.', 'ভগ্নাংশ সরাতে 6 দিয়ে গুণ করো: P : Q : R = 15 : 8 : 24।'),
+        ],
+        answer: t('15 : 8 : 24', 'P : Q : R = 15 : 8 : 24 (অনুপাত)'),
+      },
+      tryIt: {
+        question: t('If 2/3 of A = 75% of B, then A : B is', 'A-এর 2/3 = B-এর 75% হলে A : B কত?'),
+        options: [t('8 : 9', '8 : 9'), t('9 : 8', '9 : 8'), t('1 : 1', '1 : 1'), t('3 : 4', '3 : 4')],
+        correct: 1,
+        explanation: [
+          t('2/3 × A = 3/4 × B, so A/B = (3/4) ÷ (2/3) = 9/8.', '2/3 × A = 3/4 × B, তাই A/B = (3/4) ÷ (2/3) = 9/8।'),
+          t('A : B = 9 : 8. (8 : 9 is the inverted ratio — the classic slip.)', 'A : B = 9 : 8। (8 : 9 হল উল্টানো অনুপাত — চিরাচরিত ভুল।)'),
+        ],
+      },
+    },
+
+    // 16 ─────────────────────────────────────────────
+    {
+      key: 'fraction_ratio',
+      emoji: '➗',
+      name: t('Ratio given as fractions (1/a : 1/b : 1/c)', 'ভগ্নাংশে দেওয়া অনুপাত (1/a : 1/b : 1/c)'),
+      difficulty: 'intermediate',
+      typicalWording: t('“The sides of a triangle are in the ratio 1/20 : 1/15 : 1/12 and the perimeter is 30 cm. Find the longest side”, or “pens are shared in the ratio 1/3 : 1/4 : 1/5 : 1/6 — least number of pens?”', '“একটি ত্রিভুজের বাহুগুলি 1/20 : 1/15 : 1/12 অনুপাতে এবং পরিসীমা 30 সেমি। বৃহত্তম বাহু কত?”, অথবা “কলমগুলি 1/3 : 1/4 : 1/5 : 1/6 অনুপাতে ভাগ — অন্তত কতগুলি কলম?”'),
+      formula: t(r`$\frac{1}{a} : \frac{1}{b} : \frac{1}{c} = \frac{L}{a} : \frac{L}{b} : \frac{L}{c}$ where $L = \text{LCM}(a, b, c)$; then reduce by any common factor.`, r`$\frac{1}{a} : \frac{1}{b} : \frac{1}{c} = \frac{L}{a} : \frac{L}{b} : \frac{L}{c}$, যেখানে $L = \text{ল.সা.গু.}(a, b, c)$; তারপর সাধারণ উৎপাদক থাকলে কাটো।`),
+      shortcut: t('Multiply every term by the LCM of the denominators in one go; the smallest whole-number total is the sum of these terms after cancelling any common factor.', 'হরগুলির ল.সা.গু. দিয়ে সব পদকে একবারে গুণ করো; সাধারণ উৎপাদক কেটে দেওয়ার পর পদগুলির যোগফলই ক্ষুদ্রতম পূর্ণসংখ্যার মোট।'),
+      trap: t('The largest denominator is the SMALLEST share (1/20 < 1/12). Using a : b : c directly reverses the order of the shares.', 'সবচেয়ে বড় হর মানে সবচেয়ে ছোট ভাগ (1/20 < 1/12)। a : b : c সরাসরি নিলে ভাগগুলির ক্রম উল্টে যায়।'),
+      spot: t('The ratio itself is written with **fractions** (usually unit fractions such as 1/3 : 1/4 : 1/5), and a share, a side, or the least possible total is asked.', 'অনুপাতটিই **ভগ্নাংশে** লেখা (সাধারণত 1/3 : 1/4 : 1/5-এর মতো একক ভগ্নাংশ), আর একটি ভাগ, একটি বাহু বা ন্যূনতম মোট জানতে চায়।'),
+      method: [
+        t('Find the LCM of the denominators.', 'হরগুলির ল.সা.গু. বের করো।'),
+        t('Multiply each fraction by the LCM to get whole numbers; cancel any common factor.', 'প্রতিটি ভগ্নাংশকে ল.সা.গু. দিয়ে গুণ করে পূর্ণসংখ্যা পাও; সাধারণ উৎপাদক থাকলে কাটো।'),
+        t('Divide the given total in this whole-number ratio (or add the terms for the least total).', 'দেওয়া মোটকে এই পূর্ণসংখ্যার অনুপাতে ভাগ করো (বা ন্যূনতম মোটের জন্য পদগুলি যোগ করো)।'),
+      ],
+      example: {
+        question: t('The sides of a triangle are in the ratio 1/20 : 1/15 : 1/12 and its perimeter is 30 cm. Find the longest side.', 'একটি ত্রিভুজের বাহুগুলি 1/20 : 1/15 : 1/12 অনুপাতে এবং পরিসীমা 30 সেমি। বৃহত্তম বাহুটি নির্ণয় করো।'),
+        steps: [
+          t('LCM of 20, 15, 12 = 60, so the ratio is 3 : 4 : 5 (sum 12).', '20, 15, 12-এর ল.সা.গু. = 60, তাই অনুপাত 3 : 4 : 5 (যোগফল 12)।'),
+          t('1 part = 30 ÷ 12 = 5/2 cm; longest side = 5 × 5/2 = 12 1/2 cm.', '1 ভাগ = 30 ÷ 12 = 5/2 সেমি; বৃহত্তম বাহু = 5 × 5/2 = 12 1/2 সেমি।'),
+        ],
+        answer: t('12 1/2 cm', '12 1/2 সেমি'),
+      },
+      tryIt: {
+        question: t('A person distributes pens among four friends in the ratio 1/3 : 1/4 : 1/5 : 1/6. What is the least number of pens he should have?', 'একজন চার বন্ধুর মধ্যে কলম 1/3 : 1/4 : 1/5 : 1/6 অনুপাতে ভাগ করে দেন। তাঁর কাছে অন্তত কতগুলি কলম থাকা দরকার?'),
+        options: [t('18', '18'), t('60', '60'), t('57', '57'), t('19', '19')],
+        correct: 2,
+        explanation: [
+          t('LCM of 3, 4, 5, 6 = 60, so the ratio is 20 : 15 : 12 : 10 with no common factor.', '3, 4, 5, 6-এর ল.সা.গু. = 60, তাই অনুপাত 20 : 15 : 12 : 10, কোনো সাধারণ উৎপাদক নেই।'),
+          t('Least number = 20 + 15 + 12 + 10 = 57. (18 just adds the denominators.)', 'ন্যূনতম সংখ্যা = 20 + 15 + 12 + 10 = 57। (18 আসে শুধু হরগুলি যোগ করলে।)'),
+        ],
+      },
+    },
+
+    // 17 ─────────────────────────────────────────────
+    {
+      key: 'add_component_new_ratio',
+      emoji: '🧪',
+      name: t('Add one component to reach a new ratio', 'একটি উপাদান যোগ করে নতুন অনুপাত'),
+      difficulty: 'intermediate',
+      typicalWording: t('“Lead and tin are in the ratio 4 : 7 in 24.2 kg of solder. How much lead must be added to make the ratio 1 : 1?”', '“24.2 কেজি ঝালাইয়ের মশলায় সীসা ও টিন 4 : 7 অনুপাতে আছে। অনুপাত 1 : 1 করতে কত সীসা মেশাতে হবে?”'),
+      formula: t(r`The component NOT added stays fixed: if $B$ is fixed and the target is $p : q$, the new $A = B \times \frac{p}{q}$ and the amount to add $= B \times \frac{p}{q} - A$.`, r`যে উপাদান যোগ হয় না সেটি স্থির থাকে: $B$ স্থির ও লক্ষ্য $p : q$ হলে নতুন $A = B \times \frac{p}{q}$ এবং যোগ করতে হবে $= B \times \frac{p}{q} - A$।`),
+      shortcut: t('Scale the target ratio so the unchanged component has the same number of parts as before; the increase in parts of the added component is the answer in parts.', 'লক্ষ্য অনুপাতকে এমনভাবে বাড়াও যাতে অপরিবর্তিত উপাদানের ভাগ আগের সমান হয়; যোগ করা উপাদানের ভাগ যতটা বাড়ে, সেটিই উত্তর (ভাগে)।'),
+      trap: t('Re-splitting the OLD total in the new ratio is wrong — the total grows when something is added. Anchor on the component that does not change.', 'পুরোনো মোটকে নতুন অনুপাতে আবার ভাগ করা ভুল — কিছু যোগ করলে মোট বেড়ে যায়। যে উপাদান বদলায় না তাকে ধরে হিসাব করো।'),
+      spot: t('A mixture, alloy or group has its parts in a ratio and a known total; **only one** part is increased and the amount needed to reach a stated new ratio is asked.', 'একটি মিশ্রণ, সংকর ধাতু বা দলের অংশগুলি একটি অনুপাতে ও মোট জানা; **শুধু একটি** অংশ বাড়ানো হয়, আর নির্দিষ্ট নতুন অনুপাতে পৌঁছাতে কতটা লাগবে জানতে চায়।'),
+      method: [
+        t('Split the given total in the old ratio to get each component.', 'দেওয়া মোটকে পুরোনো অনুপাতে ভাগ করে প্রতিটি উপাদান বের করো।'),
+        t('Keep the unchanged component(s) fixed and use the new ratio to find the new amount of the added component.', 'অপরিবর্তিত উপাদানকে স্থির রেখে নতুন অনুপাত থেকে যোগ করা উপাদানের নতুন পরিমাণ বের করো।'),
+        t('Amount to add = new amount − old amount.', 'যোগ করতে হবে = নতুন পরিমাণ − পুরোনো পরিমাণ।'),
+      ],
+      example: {
+        question: t('German silver contains copper, zinc and nickel in the ratio 4 : 3 : 2. How much zinc must be added to 54 kg of it to make the ratio 6 : 5 : 3?', 'জার্মান সিলভারে তামা, দস্তা ও নিকেল 4 : 3 : 2 অনুপাতে আছে। এর 54 কেজিতে কত দস্তা মেশালে অনুপাত 6 : 5 : 3 হবে?'),
+        steps: [
+          t('Copper = 24 kg, zinc = 18 kg, nickel = 12 kg.', 'তামা = 24 কেজি, দস্তা = 18 কেজি, নিকেল = 12 কেজি।'),
+          t('Copper stays 24 kg = 6 parts, so 1 part = 4 kg and the zinc must become 5 × 4 = 20 kg.', 'তামা 24 কেজিই থাকে = 6 ভাগ, তাই 1 ভাগ = 4 কেজি এবং দস্তা হতে হবে 5 × 4 = 20 কেজি।'),
+          t('Zinc to add = 20 − 18 = 2 kg.', 'মেশাতে হবে = 20 − 18 = 2 কেজি দস্তা।'),
+        ],
+        answer: t('2 kg', '2 কেজি'),
+      },
+      tryIt: {
+        question: t('In 33 kg of solder, lead and tin are in the ratio 4 : 7. How much lead must be added to make the ratio 1 : 1?', '33 কেজি ঝালাইয়ের মশলায় সীসা ও টিন 4 : 7 অনুপাতে আছে। অনুপাত 1 : 1 করতে কত সীসা মেশাতে হবে?'),
+        options: [t('9 kg', '9 কেজি'), t('3.5 kg', '3.5 কেজি'), t('4.5 kg', '4.5 কেজি'), t('3 kg', '3 কেজি')],
+        correct: 0,
+        explanation: [
+          t('Lead = 12 kg and tin = 21 kg. Tin does not change.', 'সীসা = 12 কেজি, টিন = 21 কেজি। টিন বদলায় না।'),
+          t('For 1 : 1, lead must become 21 kg, so add 21 − 12 = 9 kg. (4.5 kg re-splits the old 33 kg equally.)', '1 : 1-এর জন্য সীসা হতে হবে 21 কেজি, তাই মেশাতে হবে 21 − 12 = 9 কেজি। (4.5 কেজি আসে পুরোনো 33 কেজিকে সমান ভাগ করলে।)'),
+        ],
+      },
+    },
   ],
   // Hard-bank pattern matrix (Advanced quizzes): see ./hard/ratio_proportion.js.
   registry: require('./hard/ratio_proportion'),

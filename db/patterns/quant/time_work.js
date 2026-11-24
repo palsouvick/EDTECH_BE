@@ -239,6 +239,49 @@ module.exports = {
         ],
       },
     },
+    {
+      key: 'part_work_given',
+      emoji: '🧮',
+      name: t('Part of the work in some days → full time', 'কাজের অংশ কিছু দিনে → পুরো কাজের সময়'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“A can do 1/2 of a work in 5 days and B can do 2/5 of it in 6 days. In how many days will they finish it together?”', '“A একটি কাজের 1/2 অংশ 5 দিনে এবং B 2/5 অংশ 6 দিনে করতে পারে। একসঙ্গে কাজটি কত দিনে শেষ হবে?”'),
+      formula: t(r`If $\frac{p}{q}$ of the work takes $d$ days, the whole work takes $d \times \frac{q}{p}$ days; together $=\frac{1}{\frac{1}{T_A} + \frac{1}{T_B}}$.`, r`কাজের $\frac{p}{q}$ অংশে $d$ দিন লাগলে পুরো কাজে লাগে $d \times \frac{q}{p}$ দিন; একসঙ্গে $=\frac{1}{\frac{1}{T_A} + \frac{1}{T_B}}$।`),
+      shortcut: t('First turn every "part in days" into a full-job time (days ÷ fraction), then it is the ordinary two-together sum.', 'প্রথমে প্রতিটি "অংশ কত দিনে"-কে পুরো কাজের সময়ে বদলাও (দিন ÷ ভগ্নাংশ), তারপর এটি সাধারণ দুজনে-একসঙ্গের অঙ্ক।'),
+      trap: t('Multiplying the days by the fraction (5 × 1/2) instead of dividing by it, or adding the given days directly.', 'দিনকে ভগ্নাংশ দিয়ে ভাগ না করে গুণ করা (5 × 1/2), অথবা দেওয়া দিনগুলো সরাসরি যোগ করা।'),
+      spot: t(
+        'Each worker\'s data is a **fraction of the work done in some days** (“1/3 of the work in 5 days”), not the time for the whole job; their combined time is asked.',
+        'প্রত্যেকের তথ্য হল **কিছু দিনে কাজের একটি ভগ্নাংশ** (“5 দিনে কাজের 1/3 অংশ”), পুরো কাজের সময় নয়; একসঙ্গে কত সময় লাগবে তা জানতে চাওয়া হয়।',
+      ),
+      method: [
+        t('Whole-job time = days ÷ fraction done (e.g. 1/2 in 5 days → 10 days).', 'পুরো কাজের সময় = দিন ÷ করা ভগ্নাংশ (যেমন 5 দিনে 1/2 → 10 দিন)।'),
+        t('Add the one-day works: 1/T_A + 1/T_B.', 'এক দিনের কাজ যোগ করো: 1/T_A + 1/T_B।'),
+        t('Together time = 1 ÷ (that sum); write it as a mixed number if needed.', 'একসঙ্গে সময় = 1 ÷ (ওই যোগফল); দরকারে মিশ্র সংখ্যায় লেখো।'),
+      ],
+      example: {
+        question: t(
+          'A can do 2/3 of a work in 8 days and B can do 1/4 of the same work in 3 days. In how many days can they finish the work together?',
+          'A একটি কাজের 2/3 অংশ 8 দিনে এবং B একই কাজের 1/4 অংশ 3 দিনে করতে পারে। একসঙ্গে কাজটি কত দিনে শেষ করবে?',
+        ),
+        steps: [
+          t(r`A alone: $8 \div \frac{2}{3} = 12$ days. B alone: $3 \div \frac{1}{4} = 12$ days.`, r`A একা: $8 \div \frac{2}{3} = 12$ দিন। B একা: $3 \div \frac{1}{4} = 12$ দিন।`),
+          t(r`Together: $\frac{1}{12} + \frac{1}{12} = \frac{1}{6}$ of the work a day, so $6$ days.`, r`একসঙ্গে: রোজ $\frac{1}{12} + \frac{1}{12} = \frac{1}{6}$ অংশ, তাই $6$ দিন।`),
+        ],
+        answer: t('6 days', '6 দিন'),
+      },
+      tryIt: {
+        question: t(
+          'A can do 1/2 of a job in 6 days and B can do 1/3 of it in 8 days. Working together, in how many days will they finish the job?',
+          'A একটি কাজের 1/2 অংশ 6 দিনে এবং B 1/3 অংশ 8 দিনে করতে পারে। একসঙ্গে কাজ করলে কত দিনে কাজটি শেষ হবে?',
+        ),
+        options: [t('7', '7'), t('8', '8'), t('9', '9'), t('14', '14')],
+        correct: 1,
+        explanation: [
+          t(r`A alone $= 6 \div \frac{1}{2} = 12$ days; B alone $= 8 \div \frac{1}{3} = 24$ days.`, r`A একা $= 6 \div \frac{1}{2} = 12$ দিন; B একা $= 8 \div \frac{1}{3} = 24$ দিন।`),
+          t(r`Together $= \frac{1}{12} + \frac{1}{24} = \frac{3}{24} = \frac{1}{8}$ a day, so $8$ days. (14 just adds the given days.)`, r`একসঙ্গে রোজ $= \frac{1}{12} + \frac{1}{24} = \frac{3}{24} = \frac{1}{8}$ অংশ, তাই $8$ দিন। (14 হল দেওয়া দিনগুলোর যোগফল মাত্র।)`),
+        ],
+      },
+    },
     ...require('./time_work/advanced'),
   ],
   // Hard-bank pattern matrix (Advanced quizzes): see ./hard/time_work.js.

@@ -553,5 +553,47 @@ module.exports = {
         ],
       },
     },
+    {
+      key: 'capital_relation_share',
+      emoji: '🔗',
+      name: t('Capitals given as relations ("3 times", "2X = 3Y")', 'সম্পর্ক দিয়ে দেওয়া মূলধন ("3 গুণ", "2X = 3Y")'),
+      difficulty: 'intermediate',
+      typicalWording: t('“P invests 3 times as much as Q, and Q invests 2/3 of what R invests. Out of a profit of ₹1320, find P\'s share.” or “Twice X\'s capital equals thrice Y\'s.”', '“P, Q-এর 3 গুণ বিনিয়োগ করে, আর Q করে R-এর 2/3 অংশ। ₹1320 লাভে P-এর ভাগ কত?” বা “X-এর মূলধনের দ্বিগুণ Y-এর মূলধনের তিনগুণের সমান।”'),
+      formula: t(r`$2X = 3Y \Rightarrow X : Y = 3 : 2$; chain two ratios by making the common partner's term equal: $X:Y = 3:2$ and $Y:Z = 4:1$ give $X:Y:Z = 6:4:1$.`, r`$2X = 3Y \Rightarrow X : Y = 3 : 2$; দুটি অনুপাত জুড়তে সাধারণ অংশীদারের পদ সমান করো: $X:Y = 3:2$ ও $Y:Z = 4:1$ থেকে $X:Y:Z = 6:4:1$।`),
+      shortcut: t('Give the partner who appears in both relations a convenient number of units (the LCM of his terms), then read off the others.', 'যে অংশীদার দুটি সম্পর্কেই আছে তাকে সুবিধাজনক একক (তার পদগুলোর ল.সা.গু.) দাও, তারপর বাকিদের মান পড়ে নাও।'),
+      trap: t(r`"$2X = 3Y$" means $X : Y = 3 : 2$, not $2 : 3$ — the larger multiplier goes with the SMALLER capital.`, r`"$2X = 3Y$" মানে $X : Y = 3 : 2$, $2 : 3$ নয় — বড় গুণক থাকে ছোট মূলধনের সঙ্গে।`),
+      spot: t(
+        'No amounts are given; the capitals are described by **relations** — "A paid 1½ times as much as B", "P invests 3 times Q", "twice X\'s capital equals thrice Y\'s" — for the same period.',
+        'কোনো টাকার অঙ্ক দেওয়া থাকে না; মূলধনগুলো **সম্পর্ক** দিয়ে বলা থাকে — "A, B-এর 1½ গুণ দিয়েছে", "P, Q-এর 3 গুণ বিনিয়োগ করে", "X-এর মূলধনের দ্বিগুণ Y-এর তিনগুণের সমান" — একই সময়ের জন্য।',
+      ),
+      method: [
+        t('Turn each relation into a two-term ratio (aX = bY gives X : Y = b : a; "k times" gives k : 1).', 'প্রতিটি সম্পর্ককে দুই পদের অনুপাতে বদলাও (aX = bY হলে X : Y = b : a; "k গুণ" হলে k : 1)।'),
+        t('Join the ratios by making the common partner\'s term equal.', 'সাধারণ অংশীদারের পদ সমান করে অনুপাতগুলো জোড়ো।'),
+        t('Share = own parts ÷ total parts × profit (or loss).', 'ভাগ = নিজের অংশ ÷ মোট অংশ × লাভ (বা ক্ষতি)।'),
+      ],
+      example: {
+        question: t(
+          'P invests 3 times as much as Q, and Q invests 2/3 of what R invests. If the total profit is ₹1320, what is P\'s share?',
+          'P, Q-এর 3 গুণ বিনিয়োগ করে এবং Q, R-এর বিনিয়োগের 2/3 অংশ বিনিয়োগ করে। মোট লাভ ₹1320 হলে P-এর ভাগ কত?',
+        ),
+        steps: [
+          t(r`Let R $= 3$ units; then Q $= 2$ and P $= 3 \times 2 = 6$. P : Q : R $= 6 : 2 : 3$, total $11$.`, r`ধরো R $= 3$ একক; তাহলে Q $= 2$ এবং P $= 3 \times 2 = 6$। P : Q : R $= 6 : 2 : 3$, মোট $11$।`),
+          t(r`P's share $= \frac{6}{11} \times 1320 = ₹720$.`, r`P-এর ভাগ $= \frac{6}{11} \times 1320 = ₹720$।`),
+        ],
+        answer: t('₹720', 'P-এর ভাগ ₹720'),
+      },
+      tryIt: {
+        question: t(
+          'Twice the capital of X equals thrice the capital of Y, and Y\'s capital is 4 times Z\'s. Out of a profit of ₹2,97,000, what is Y\'s share?',
+          'X-এর মূলধনের দ্বিগুণ Y-এর মূলধনের তিনগুণের সমান, এবং Y-এর মূলধন Z-এর 4 গুণ। ₹2,97,000 লাভ থেকে Y-এর ভাগ কত?',
+        ),
+        options: [t('₹1,08,000', '₹1,08,000'), t('₹1,62,000', '₹1,62,000'), t('₹1,18,000', '₹1,18,000'), t('₹27,000', '₹27,000')],
+        correct: 0,
+        explanation: [
+          t(r`$2X = 3Y$ gives X : Y $= 3 : 2 = 6 : 4$; Y : Z $= 4 : 1$. So X : Y : Z $= 6 : 4 : 1$, total $11$.`, r`$2X = 3Y$ থেকে X : Y $= 3 : 2 = 6 : 4$; Y : Z $= 4 : 1$। তাই X : Y : Z $= 6 : 4 : 1$, মোট $11$।`),
+          t(r`Y's share $= \frac{4}{11} \times 297000 = ₹1,08,000$. (₹1,62,000 is X's share and ₹27,000 is Z's.)`, r`Y-এর ভাগ $= \frac{4}{11} \times 297000 = ₹1,08,000$। (₹1,62,000 হল X-এর ভাগ, ₹27,000 হল Z-এর।)`),
+        ],
+      },
+    },
   ],
 };

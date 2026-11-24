@@ -405,8 +405,8 @@ module.exports = {
       shortcut: t('List factor pairs of the product and pick the pair whose sum matches — faster than the quadratic formula for exam-sized numbers.', 'গুণফলের গুণনীয়ক জোড়াগুলো লেখো এবং যেটির যোগফল মিলে যায় সেটি নাও — পরীক্ষার আকারের সংখ্যায় দ্বিঘাত সূত্রের থেকে দ্রুত।'),
       trap: t('A sum of squares clue is not the sum: use $a^2 + b^2 = S^2 - 2P$ to recover the product before splitting the ages.', 'বর্গের যোগফলের তথ্য যোগফল নয়: বয়স ভাগ করার আগে $a^2 + b^2 = S^2 - 2P$ দিয়ে গুণফল বের করো।'),
       spot: t(
-        'Instead of a ratio, the question gives the **sum and the product** (or the sum of squares) of two ages.',
-        'অনুপাতের বদলে প্রশ্নে দুজনের বয়সের **যোগফল ও গুণফল** (বা বর্গের যোগফল) দেওয়া থাকে।',
+        'Instead of a ratio and a sum, the question gives the **sum and the product** (or the sum of squares) of two ages — or a ratio together with the **product** of the ages.',
+        'অনুপাত ও যোগফলের বদলে প্রশ্নে দুজনের বয়সের **যোগফল ও গুণফল** (বা বর্গের যোগফল) দেওয়া থাকে — অথবা অনুপাতের সঙ্গে বয়সের **গুণফল** দেওয়া থাকে।',
       ),
       method: [
         t('Write the two ages as the pair with the given sum S and product P.', 'দুটি বয়সকে সেই জোড়া হিসেবে লেখো যার যোগফল S ও গুণফল P।'),
@@ -552,6 +552,84 @@ module.exports = {
           t(r`Future: $F + 5 = \dfrac{5}{2}(S + 5)$. Past: $F - 5 = 4(S - 5)$, so $F = 4S - 15$.`, r`ভবিষ্যৎ: $F + 5 = \dfrac{5}{2}(S + 5)$। অতীত: $F - 5 = 4(S - 5)$, তাই $F = 4S - 15$।`),
           t(r`Substituting gives $4S - 15 + 5 = \dfrac{5}{2}(S + 5)$, so $S = 15$ and $F = 45$ years.`, r`বসিয়ে পাই $4S - 15 + 5 = \dfrac{5}{2}(S + 5)$, তাই $S = 15$ এবং $F = 45$ বছর।`),
           t(r`Check: $50 : 20 = 5 : 2$ ahead, and $40 = 4 \times 10$ back then. ($50$ is his age $5$ years hence.)`, r`যাচাই: সামনে $50 : 20 = 5 : 2$, তখন $40 = 4 \times 10$। ($50$ হল $5$ বছর পরের বয়স।)`),
+        ],
+      },
+    },
+    // 15 ─────────────────────────────────────────────
+    {
+      key: 'age_gaps_and_total',
+      emoji: '🪜',
+      name: t('Age gaps and the total', 'বয়সের ব্যবধান ও মোট বয়স'),
+      difficulty: 'beginner',
+      practiceLevels: ['beginner', 'intermediate'],
+      typicalWording: t('“A is older than B by 6 years and the sum of their ages is 54. Find B’s age.” / “A father is 30 years older than his first son, who is 10 years older than the second; the sum of their ages is 95.”', '“A, B-এর চেয়ে 6 বছরের বড়ো এবং তাদের বয়সের যোগফল 54। B-এর বয়স কত?” / “বাবা বড়ো ছেলের চেয়ে 30 বছরের বড়ো, বড়ো ছেলে ছোটো ছেলের চেয়ে 10 বছরের বড়ো; তিনজনের বয়সের যোগফল 95।”'),
+      formula: t(r`Youngest $= \dfrac{\text{total} - (\text{sum of everyone's lead over the youngest})}{\text{number of people}}$.`, r`সবচেয়ে ছোটো $= \dfrac{\text{মোট} - (\text{সবচেয়ে ছোটোর থেকে প্রত্যেকের বেশি বয়সের যোগফল})}{\text{মানুষের সংখ্যা}}$।`),
+      shortcut: t('Take the youngest as x. Strip every “extra” years off the total, share what is left equally, then add the extras back.', 'সবচেয়ে ছোটোকে x ধরো। মোট থেকে সবার “বাড়তি” বছর বাদ দাও, বাকিটা সমান ভাগ করো, তারপর বাড়তি বছর আবার যোগ করো।'),
+      trap: t('In a chain (father → first son → second son) the father’s lead over the second son is the SUM of the two gaps, not just the first gap.', 'শৃঙ্খলে (বাবা → বড়ো ছেলে → ছোটো ছেলে) ছোটো ছেলের থেকে বাবার ব্যবধান দুটি ব্যবধানের যোগফল, শুধু প্রথমটি নয়।'),
+      spot: t(
+        'People are linked only by **“older / younger by so many years”** (no ratio, no “times”), and the **sum of their present ages** is given.',
+        'মানুষদের মধ্যে সম্পর্ক শুধু **“এত বছরের বড়ো / ছোটো”** দিয়ে দেওয়া (কোনো অনুপাত বা “গুণ” নেই), আর তাদের **বর্তমান বয়সের যোগফল** দেওয়া থাকে।',
+      ),
+      method: [
+        t('Let the youngest person be $x$ years.', 'সবচেয়ে ছোটো জনের বয়স $x$ বছর ধরো।'),
+        t('Write everyone else as $x$ plus their total lead over the youngest (add the gaps along a chain).', 'বাকিদের বয়স লেখো $x$ যোগ সবচেয়ে ছোটোর থেকে তাদের মোট ব্যবধান (শৃঙ্খলে ব্যবধানগুলো যোগ করো)।'),
+        t(r`Add all the ages, set equal to the total and solve for $x$; then find the age asked.`, r`সবার বয়স যোগ করে মোটের সমান বসাও, $x$ বের করো; তারপর যার বয়স চাওয়া হয়েছে সেটি বের করো।`),
+      ],
+      example: {
+        question: t('A father is $30$ years older than his elder son, and the elder son is $6$ years older than the younger son. The sum of their ages is $84$ years. Find the father\'s age.', 'বাবা বড়ো ছেলের চেয়ে $30$ বছরের বড়ো, আর বড়ো ছেলে ছোটো ছেলের চেয়ে $6$ বছরের বড়ো। তিনজনের বয়সের যোগফল $84$ বছর। বাবার বয়স কত?'),
+        steps: [
+          t(r`Younger son $= x$, elder son $= x + 6$, father $= x + 6 + 30 = x + 36$.`, r`ছোটো ছেলে $= x$, বড়ো ছেলে $= x + 6$, বাবা $= x + 6 + 30 = x + 36$।`),
+          t(r`$x + (x + 6) + (x + 36) = 84$, so $3x + 42 = 84$ and $x = 14$.`, r`$x + (x + 6) + (x + 36) = 84$, তাই $3x + 42 = 84$ এবং $x = 14$।`),
+          t(r`Father $= 14 + 36 = 50$.`, r`বাবা $= 14 + 36 = 50$।`),
+        ],
+        answer: t('The father is $50$ years old.', 'বাবার বয়স $50$ বছর।'),
+      },
+      tryIt: {
+        question: t('A is $5$ years older than B, and B is $3$ years older than C. The sum of the ages of A, B and C is $59$ years. How old is A?', 'A, B-এর চেয়ে $5$ বছরের বড়ো এবং B, C-এর চেয়ে $3$ বছরের বড়ো। A, B ও C-এর বয়সের যোগফল $59$ বছর। A-এর বয়স কত?'),
+        options: [t('19 years', '19 বছর'), t('24 years', '24 বছর'), t('16 years', '16 বছর'), t('27 years', '27 বছর')],
+        correct: 1,
+        explanation: [
+          t(r`C $= x$, B $= x + 3$, A $= x + 8$; total $3x + 11 = 59$, so $x = 16$.`, r`C $= x$, B $= x + 3$, A $= x + 8$; মোট $3x + 11 = 59$, তাই $x = 16$।`),
+          t(r`A $= 16 + 8 = 24$ years. ($16$ is C and $19$ is B.)`, r`A $= 16 + 8 = 24$ বছর। ($16$ হল C, $19$ হল B।)`),
+        ],
+      },
+    },
+    // 16 ─────────────────────────────────────────────
+    {
+      key: 'three_person_ratio',
+      emoji: '🧮',
+      name: t('Three ages in a ratio with one extra condition', 'তিনজনের বয়সের অনুপাত ও একটি শর্ত'),
+      difficulty: 'intermediate',
+      practiceLevels: ['intermediate'],
+      typicalWording: t('“The ages of A, B and C are in the ratio 5 : 8 : 9 and A + C = 56. Find B.” / “The present ages of father, mother and son are 6 : 5 : 1; when the son reaches his father’s present age, the sum of their ages will be 135.”', '“A, B ও C-এর বয়সের অনুপাত 5 : 8 : 9 এবং A + C = 56। B-এর বয়স কত?” / “বাবা, মা ও ছেলের বর্তমান বয়সের অনুপাত 6 : 5 : 1; ছেলে যখন বাবার এখনকার বয়সে পৌঁছবে, তখন তিনজনের বয়সের যোগফল হবে 135।”'),
+      formula: t(r`Ages $= ak, bk, ck$; turn the condition into an equation in $k$ (e.g. $(a + c)k = $ given sum).`, r`বয়স $= ak, bk, ck$; শর্তটিকে $k$-এর সমীকরণে বদলাও (যেমন $(a + c)k = $ প্রদত্ত যোগফল)।`),
+      shortcut: t('Count only the ratio parts the condition talks about: “A + C = 56” is 5 + 9 = 14 parts, so one part is 4.', 'শর্তে যে অংশগুলোর কথা আছে শুধু সেগুলো গোনো: “A + C = 56” মানে 5 + 9 = 14 অংশ, তাই এক অংশ 4।'),
+      trap: t('Dividing by all the parts (5 + 8 + 9) when the condition is about only some of the people; and, for a time shift, forgetting that EVERY person gets the same extra years.', 'শর্তটি কয়েকজনকে নিয়ে হলেও সব অংশ (5 + 8 + 9) দিয়ে ভাগ করা; আর সময় বদলালে ভুলে যাওয়া যে প্রত্যেকের বয়সেই একই বছর যোগ হয়।'),
+      spot: t(
+        'The ages of **three** people are given as a **ratio a : b : c**, plus one more fact — the sum of two of them, how much one combination exceeds another, or a sum at another time.',
+        '**তিনজনের** বয়স **অনুপাত a : b : c** হিসেবে দেওয়া, সঙ্গে আরও একটি তথ্য — দুজনের বয়সের যোগফল, একটি যোগফল অন্যটির চেয়ে কত বেশি, বা অন্য কোনো সময়ের যোগফল।',
+      ),
+      method: [
+        t(r`Write the ages as $ak$, $bk$ and $ck$.`, r`বয়সগুলি $ak$, $bk$ ও $ck$ লেখো।`),
+        t(r`Translate the extra fact into parts of $k$ (add the same number of years to every person for a time shift).`, r`বাড়তি তথ্যটিকে $k$-এর অংশে লেখো (সময় বদলালে প্রত্যেকের বয়সে একই বছর যোগ করো)।`),
+        t(r`Solve for $k$ and multiply by the ratio term of the person asked.`, r`$k$ বের করে যার বয়স চাওয়া হয়েছে তার অনুপাতের পদ দিয়ে গুণ করো।`),
+      ],
+      example: {
+        question: t('The ages of three persons are in the ratio $7 : 5 : 4$. The sum of the ages of the first and third exceeds twice the age of the second by $5$ years. Find the age of the second person.', 'তিনজনের বয়সের অনুপাত $7 : 5 : 4$। প্রথম ও তৃতীয় জনের বয়সের যোগফল দ্বিতীয় জনের বয়সের দ্বিগুণের চেয়ে $5$ বছর বেশি। দ্বিতীয় জনের বয়স কত?'),
+        steps: [
+          t(r`Ages $= 7k, 5k, 4k$. First $+$ third $= 11k$; twice the second $= 10k$.`, r`বয়স $= 7k, 5k, 4k$। প্রথম $+$ তৃতীয় $= 11k$; দ্বিতীয়ের দ্বিগুণ $= 10k$।`),
+          t(r`$11k - 10k = 5$, so $k = 5$.`, r`$11k - 10k = 5$, তাই $k = 5$।`),
+          t(r`Second person $= 5 \times 5 = 25$.`, r`দ্বিতীয় জন $= 5 \times 5 = 25$।`),
+        ],
+        answer: t('$25$ years', '$25$ বছর'),
+      },
+      tryIt: {
+        question: t('The present ages of P, Q and R are in the ratio $3 : 4 : 5$. Six years ago the sum of their ages was $54$ years. What is Q\'s present age?', 'P, Q ও R-এর বর্তমান বয়সের অনুপাত $3 : 4 : 5$। ছয় বছর আগে তাদের বয়সের যোগফল ছিল $54$ বছর। Q-এর বর্তমান বয়স কত?'),
+        options: [t('18 years', '18 বছর'), t('24 years', '24 বছর'), t('20 years', '20 বছর'), t('30 years', '30 বছর')],
+        correct: 1,
+        explanation: [
+          t(r`Present sum $= 54 + 3 \times 6 = 72$ (each of the three gains $6$ years).`, r`বর্তমান যোগফল $= 54 + 3 \times 6 = 72$ (তিনজনেরই $6$ বছর বেড়েছে)।`),
+          t(r`$12k = 72$, so $k = 6$ and Q $= 4 \times 6 = 24$ years. ($18$ comes from forgetting the $18$ extra years.)`, r`$12k = 72$, তাই $k = 6$ এবং Q $= 4 \times 6 = 24$ বছর। ($18$ আসে বাড়তি $18$ বছর ভুলে গেলে।)`),
         ],
       },
     },

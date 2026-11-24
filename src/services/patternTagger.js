@@ -36,6 +36,17 @@ function loadRules() {
   return rules;
 }
 
+/**
+ * Hand-checked PYQ -> pattern maps: db/patterns/pyq_map/<subject>/<topic>.json, each
+ * { "<question code>": "<pattern key>" }. PYQs carry no generator subtopic and their
+ * wording varies too much for stem rules, so each one is classified by a person once.
+ */
+const PYQ_MAP_DIR = path.join(__dirname, '../../db/patterns/pyq_map');
+function loadPyqMap(subject, topic) {
+  const file = path.join(PYQ_MAP_DIR, subject, `${topic}.json`);
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
+}
+
 /** Pure: the pattern key for one question, or null. */
 function classify(chapterRules, q) {
   if (!chapterRules) return null;
@@ -60,6 +71,19 @@ function checkRules(rules = loadRules()) {
       else for (const k of Object.keys(byKey)) if (!keys.has(k)) problems.push(`${subject}.${topic}: unknown pattern "${k}"`);
     }
   }
+  // PYQ maps must point at real patterns of their chapter too.
+  if (fs.existsSync(PYQ_MAP_DIR)) {
+    for (const subject of fs.readdirSync(PYQ_MAP_DIR)) {
+      const dir = path.join(PYQ_MAP_DIR, subject);
+      if (!fs.statSync(dir).isDirectory()) continue;
+      for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
+        const topic = path.basename(f, '.json');
+        const keys = known.get(`${subject}.${topic}`);
+        if (!keys) { problems.push(`pyq_map ${subject}.${topic}: no pattern file`); continue; }
+        for (const [code, k] of Object.entries(loadPyqMap(subject, topic))) if (!keys.has(k)) problems.push(`pyq_map ${subject}.${topic}: ${code} -> unknown pattern "${k}"`);
+      }
+    }
+  }
   return problems;
 }
 
@@ -67,6 +91,13 @@ function checkRules(rules = loadRules()) {
 function rulesFingerprint() {
   const hash = crypto.createHash('sha1');
   if (fs.existsSync(MATCH_DIR)) for (const f of fs.readdirSync(MATCH_DIR).sort()) hash.update(f + fs.readFileSync(path.join(MATCH_DIR, f), 'utf8'));
+  if (fs.existsSync(PYQ_MAP_DIR)) {
+    for (const subject of fs.readdirSync(PYQ_MAP_DIR).sort()) {
+      const dir = path.join(PYQ_MAP_DIR, subject);
+      if (!fs.statSync(dir).isDirectory()) continue;
+      for (const f of fs.readdirSync(dir).sort()) hash.update(`${subject}/${f}` + fs.readFileSync(path.join(dir, f), 'utf8'));
+    }
+  }
   return hash.digest('hex');
 }
 
@@ -75,7 +106,8 @@ async function tagAll({ rules = loadRules(), write = true } = {}) {
   const coverage = [];
   for (const [subject, chapters] of Object.entries(rules)) {
     for (const [topic, chapterRules] of Object.entries(chapters)) {
-      const qs = await Question.find({ subject, topic }).select('_id subtopic stem.en pattern').lean();
+      const qs = await Question.find({ subject, topic }).select('_id code subtopic stem.en pattern').lean();
+      const pyqMap = loadPyqMap(subject, topic);
       const ops = [];
       const counts = {};
       const untagged = [];
@@ -86,7 +118,7 @@ async function tagAll({ rules = loadRules(), write = true } = {}) {
           counts[q.pattern] = (counts[q.pattern] || 0) + 1;
           continue;
         }
-        const key = classify(chapterRules, q);
+        const key = pyqMap[q.code] ?? classify(chapterRules, q);
         counts[key ?? '(none)'] = (counts[key ?? '(none)'] || 0) + 1;
         if (!key && untagged.length < 5) untagged.push(q.stem?.en?.slice(0, 120));
         if ((q.pattern ?? null) !== key) ops.push({ updateOne: { filter: { _id: q._id }, update: key ? { $set: { pattern: key } } : { $unset: { pattern: '' } } } });
@@ -98,4 +130,4 @@ async function tagAll({ rules = loadRules(), write = true } = {}) {
   return coverage;
 }
 
-module.exports = { classify, checkRules, loadRules, rulesFingerprint, tagAll };
+module.exports = { classify, checkRules, loadRules, loadPyqMap, rulesFingerprint, tagAll };
