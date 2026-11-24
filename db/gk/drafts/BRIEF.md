@@ -81,3 +81,13 @@ disagreements, and the existing-question issues you found.
 - Copy `linked_existing` stems programmatically from the factbank files, so they match verbatim.
 - Run the repo validator on your file before you finish:
   `cd E:\EDTECH\backend && node -e "const {validateLibrary}=require('./src/services/gkFacts.validate');const r=require('fs').readFileSync(process.argv[1],'utf8').trim().split('\n').map(l=>JSON.parse(l));console.log(validateLibrary(r).errors)" db/gk/drafts/<topic>.jsonl`
+
+## Owner rule 2026-11-24: reference sources when no official page exists
+If no OFFICIAL/INSTITUTIONAL page states a widely asked fact, you may back it with **two REFERENCE sources on different
+sites that both state it verbatim** (publisher_type "REFERENCE", quote + accessed_at each). Allowed REFERENCE publishers:
+Britannica (incl. kids.britannica), EBSCO Research Starters, reputable national newspapers/magazines (ThePrint, Deccan Herald,
+Millennium Post, Asian Age, Tribune, The Daily Star / Financial Express (Bangladesh), Frontline, India Today, NDTV, News on AIR),
+university or museum pages, published books. NEVER: Wikipedia or its mirrors (wikiwand, kiwix ...), wikiquote, coaching/GK/quiz
+sites (gktoday, vedantu, drishti, nextias, quizzclub, slideshare, mapsofindia ...), blogs, steemit, goodreads, poemhunter.
+The validator accepts VERIFIED with either one official/institutional quote or two reference quotes from different sites.
+Still mark everything UNVERIFIED; the blind checker decides.

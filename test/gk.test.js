@@ -79,6 +79,9 @@ test('validator: rejects claims the library may not make', () => {
   const codes = (f) => validateFact(f).map((e) => e.code);
   assert.ok(codes(fact({ sources: [{ ...SRC, quote: undefined }] })).includes('VERIFIED_NEEDS_SOURCE'), 'verified needs a quote');
   assert.ok(codes(fact({ sources: [{ ...SRC, publisher_type: 'REFERENCE' }] })).includes('VERIFIED_NEEDS_SOURCE'), 'verified needs an official/institutional source');
+  const ref = (url) => ({ ...SRC, publisher_type: 'REFERENCE', url });
+  assert.ok(codes(fact({ sources: [ref('https://www.britannica.com/a'), ref('https://britannica.com/b')] })).includes('VERIFIED_NEEDS_SOURCE'), 'two reference quotes from the same site are not enough');
+  assert.ok(!codes(fact({ sources: [ref('https://www.britannica.com/a'), ref('https://www.thehindu.com/b')] })).includes('VERIFIED_NEEDS_SOURCE'), 'two reference sites that agree may back a fact');
   assert.ok(codes(fact({ fact_kind: 'CHANGING' })).includes('CHANGING_NEEDS_DATES'));
   assert.ok(codes(fact({ bengali_review: 'REVIEWED' })).includes('BENGALI_REVIEW_IN_FILE'), 'files cannot claim a human Bengali review');
   assert.ok(codes(fact({ subtopic: 'rivers' })).includes('UNKNOWN_SUBTOPIC'));

@@ -1604,19 +1604,19 @@
         "options": [
           {
             "id": "A",
-            "text": "The two brothers, they like each other."
-          },
-          {
-            "id": "B",
             "text": "The two brothers like each other."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "The two brothers are like each other."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "No two brothers like each other."
+          },
+          {
+            "id": "D",
+            "text": "The two brothers, they like each other."
           }
         ],
         "explanation": "Rule: A double negative 'not unlike' equals the plain affirmative 'like'. Why 'The two brothers are like each other.' is right: 'Not unlike each other' means they are similar; removing both negatives gives 'are like each other' without changing the meaning. Why the others fail: 'The two brothers like each other' changes 'like' into a verb meaning 'have affection for', and the remaining options add a wrong 'no' or a broken repetition."
@@ -1626,19 +1626,19 @@
         "options": [
           {
             "id": "A",
-            "text": "The two brothers, they like each other."
-          },
-          {
-            "id": "B",
             "text": "The two brothers like each other."
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "The two brothers are like each other."
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "No two brothers like each other."
+          },
+          {
+            "id": "D",
+            "text": "The two brothers, they like each other."
           }
         ],
         "explanation": "Rule: A double negative 'not unlike' equals the plain affirmative 'like'. Why 'The two brothers are like each other.' is right: 'Not unlike each other' means they are similar; removing both negatives gives 'are like each other' without changing the meaning. Why the others fail: 'The two brothers like each other' changes 'like' into a verb meaning 'have affection for', and the remaining options add a wrong 'no' or a broken repetition."
@@ -3129,15 +3129,15 @@
         "options": [
           {
             "id": "A",
-            "text": "Vitamin C"
-          },
-          {
-            "id": "B",
             "text": "Vitamin A"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "Vitamin B"
+          },
+          {
+            "id": "C",
+            "text": "Vitamin C"
           },
           {
             "id": "D",
@@ -3151,15 +3151,15 @@
         "options": [
           {
             "id": "A",
-            "text": "Vitamin C"
-          },
-          {
-            "id": "B",
             "text": "Vitamin A"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "Vitamin B"
+          },
+          {
+            "id": "C",
+            "text": "Vitamin C"
           },
           {
             "id": "D",

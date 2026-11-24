@@ -1,0 +1,20 @@
+{
+  "existing_question_issues": [],
+  "dropped_no_allowed_quote": [
+    { "title": "Tree woman (Thimmakka), Seed Mother (Rahibai Popere), Nightingale of India (Lata Mangeshkar)", "person": "various", "tried": "official URLs from reference lists were dead or did not use the title; PIB search not reachable", "result": "dropped, no allowed quote" },
+    { "title": "Flying Sikh", "person": "Milkha Singh", "tried": "olympics.com URL; curl --max-time 60 gave no response", "result": "dropped, unreachable" },
+    { "title": "SIWI Stockholm Water Prize 2015 (for Rajendra Singh)", "person": "Rajendra Singh", "tried": "siwi.org laureate URLs 404", "result": "fact kept on PIB release alone; no prize claim" },
+    { "title": "Milkman of India", "person": "Verghese Kurien", "tried": "amul.com, nddb.coop", "result": "phrase absent; only 'Father of White Revolution' kept" },
+    { "title": "Hockey Magician / National Sports Day", "person": "Dhyan Chand", "tried": "PIB feature", "result": "kept as Hockey Wizard only" },
+    { "title": "Father of Indian Statistics (PIB PRID=1637512)", "person": "P. C. Mahalanobis", "tried": "page fetched; award release, no 'father of' wording", "result": "PRID=2140799 used instead" }
+  ],
+  "source_notes": [
+    "Amul page says 'Dr. Kurien' without the first name Verghese. Checker should confirm the first name from another official page before VERIFIED.",
+    "PIB Dhyan Chand page is a 2009 PIB Features article (relid=55452).",
+    "Swaminathan: 'Father of the Green Revolution' is also used for Norman Borlaug worldwide; the fact and its question say 'in India'.",
+    "Gavaskar: ICC page uses 'the Little Master' in the paragraph about Gavaskar (pairing by context, no defining sentence). Title also used for Hanif Mohammad and Sachin Tendulkar per coordinator; they are not used as options.",
+    "P. C. Ray: title comes from an INSA biographical memoir (pupils and admirers 'look upon him as'), a popular not formal title. Existing factbank mentions it only inside explanations (west_bengal_gk.js, west_bengal_gk_2.js, no stem asks it).",
+    "Padman: PIB spells the name 'Muruganandam'.",
+    "Combined validator run: 270-286 excluded from the library side; the pack's generic PAIRS stem duplicated GK-ECO-117, so the stem was made title-specific."
+  ]
+}

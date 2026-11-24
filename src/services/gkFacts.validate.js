@@ -24,6 +24,7 @@ const isStr = (v, max = 4000) => typeof v === 'string' && v.trim().length > 0 &&
 const isLoc = (v, max) => v && typeof v === 'object' && isStr(v.en, max) && isStr(v.bn, max);
 const isPair = (v, max) => Array.isArray(v) && v.length === 2 && isStr(v[0], max) && isStr(v[1], max);
 const validDate = (s) => typeof s === 'string' && DATE_RE.test(s) && !Number.isNaN(Date.parse(s));
+const hostOf = (url) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return null; } };
 
 function validateQuestion(q, at) {
   const errors = [];
@@ -147,8 +148,12 @@ function validateFact(f) {
   const v = f.verification || {};
   if (!VERIFICATION_STATUS.includes(v.status)) err('verification.status', 'INVALID_STATUS', `verification.status must be one of ${VERIFICATION_STATUS.join(', ')}`);
   if (v.status === 'VERIFIED') {
-    const backed = sources.filter((s) => isStr(s?.quote, 2000) && s.accessed_at && ['OFFICIAL', 'INSTITUTIONAL'].includes(s.publisher_type));
-    if (!backed.length) err('sources', 'VERIFIED_NEEDS_SOURCE', 'a VERIFIED fact needs an OFFICIAL or INSTITUTIONAL source with a quote and an access date');
+    const quoted = sources.filter((s) => isStr(s?.quote, 2000) && s.accessed_at);
+    const backed = quoted.filter((s) => ['OFFICIAL', 'INSTITUTIONAL'].includes(s.publisher_type));
+    // Owner decision 2026-11-24: when no official page states a widely asked fact, two agreeing
+    // REFERENCE sources (reputable publishers) on different sites may back it instead.
+    const refSites = new Set(quoted.filter((s) => s.publisher_type === 'REFERENCE').map((s) => hostOf(s.url)).filter(Boolean));
+    if (!backed.length && refSites.size < 2) err('sources', 'VERIFIED_NEEDS_SOURCE', 'a VERIFIED fact needs an OFFICIAL or INSTITUTIONAL source with a quote and an access date, or quoted REFERENCE sources from two different sites');
     if (!validDate(v.verified_at)) err('verification.verified_at', 'INVALID_DATE', 'a VERIFIED fact needs verified_at (YYYY-MM-DD)');
   }
   if (f.bengali_review != null && f.bengali_review !== 'PENDING') {

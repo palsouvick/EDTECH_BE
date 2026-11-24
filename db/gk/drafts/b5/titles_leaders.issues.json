@@ -1,0 +1,74 @@
+{
+  "existing_question_issues": [],
+  "existing_questions_not_linked": [
+    {
+      "file": "scripts/generators/factbank/west_bengal_gk.js",
+      "stem": "Matangini Hazra, known as \"Gandhi Buri\", was killed during the Quit India Movement at which place?",
+      "note": "Banglapedia confirms the title and that she was shot leading a procession in Midnapore, but does not name the exact place of death; not linked. Same for the indian_history.js variant ending 'at:'."
+    },
+    {
+      "file": "scripts/generators/factbank/west_bengal_gk_2.js",
+      "stem": "Who gave Gandhi the title \"Mahatma\" and was himself called \"Gurudev\" by Gandhi?",
+      "note": "Fetched sources use 'Gurudev' for Tagore but say nothing about the Mahatma title or who gave it; not linked, answer neither confirmed nor contradicted."
+    }
+  ],
+  "dropped_no_allowed_quote": [
+    {
+      "title": "Deshbandhu Gupta / Raja Ram Mohan Roy 'Father of Indian Renaissance' / Bankim 'Sahitya Samrat' / Bharat Kokila",
+      "person": "various",
+      "tried": "Banglapedia articles for Roy, Bankim, Tagore, Vivekananda, Ramakrishna, B. C. Roy, P. C. Ray: no such wording",
+      "result": "dropped"
+    },
+    {
+      "title": "Shaheed-e-Azam",
+      "person": "Bhagat Singh",
+      "tried": "PIB Swadesh Darshan PDF names only a Punjab heritage street as a tribute to Shaheed-e-Azam with no tie to the name; Britannica page lists Shaheed-e-Azam as an alternative name (one REFERENCE source only); no second reference page fetched",
+      "result": "dropped (needs two reference sites)"
+    },
+    {
+      "title": "Father of the Nation / Bapu",
+      "person": "Mahatma Gandhi",
+      "tried": "Britannica says he came to be considered the father of the nation (one reference); EBSCO and kids.britannica did not state it",
+      "result": "dropped (one reference only)"
+    },
+    {
+      "title": "Chacha Nehru",
+      "person": "Jawaharlal Nehru",
+      "tried": "Britannica: children endearingly called him Chacha (Uncle) Nehru (one reference); EBSCO page does not say it",
+      "result": "dropped (one reference only)"
+    },
+    {
+      "title": "Rajaji",
+      "person": "C. Rajagopalachari",
+      "tried": "Britannica gives Rajaji as an alternative name (one reference); no second page",
+      "result": "dropped"
+    },
+    {
+      "title": "Deenabandhu",
+      "person": "C. F. Andrews",
+      "tried": "Britannica Andrews article and Visva-Bharati page do not use the title",
+      "result": "dropped"
+    },
+    {
+      "title": "Sahitya Samrat",
+      "person": "Bankim Chandra Chattopadhyay",
+      "tried": "Britannica and Banglapedia pages do not use the title",
+      "result": "dropped"
+    }
+  ],
+  "source_notes": [
+    "Tool limits: no web search worked (Bing/DDG blocked), PIB search not reachable; sources were found by guessing official URLs and by following government links found in Wikipedia reference lists (Wikipedia itself is not cited).",
+    "Banglapedia is hosted by the Asiatic Society of Bangladesh. It spells Deshabandhu, Mastarda, Mukherji; it calls Nazrul 'national poet of Bangladesh'.",
+    "NCERT Class XII lehs303.pdf prints a garbled dash between 'leaders' and 'among them'; the quote uses a plain hyphen."
+  ],
+  "recovered_2026_11_24": [
+    "GK-IGK-245 Iron Man (PIB x2)",
+    "GK-IGK-246 Frontier Gandhi (PIB)",
+    "GK-IGK-247 Nightingale (PIB, President of India)",
+    "GK-IGK-248 Punjab Kesari (PIB x2)",
+    "GK-IGK-249 Lokmanya (PIB archive)",
+    "GK-IGK-250 Mahamana (PIB New India Samachar, AIR News)",
+    "GK-IGK-251 Loknayak (PMO, AIR News)",
+    "GK-IGK-252 Grand Old Man (REFERENCE: ThePrint, Asian Age, EBSCO)"
+  ]
+}
