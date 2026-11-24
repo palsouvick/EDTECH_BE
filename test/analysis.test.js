@@ -179,6 +179,25 @@ test('skip patterns: "you skipped N <chapter> questions in the last 3 tests" lea
   assert.deepEqual(p.action, { revise: true, practice: 10 });
 });
 
+test('Smart Quiz over ticked chapters covers EVERY chosen chapter; weak ones still get the most', () => {
+  const ch = (topic, score, band, extra = {}) => ({ topic, focus: { score, band }, available: 50, ...extra });
+  const chosen = [
+    ch('percentage', 80, 'high'), ch('time_work', 60, 'medium'), ch('ratio_proportion', 35, 'low'),
+    ch('average', 15, 'strong'), ch('ages', 20, 'strong'), ch('mensuration', 0, 'not_started'), ch('algebra', 0, 'not_started'),
+  ];
+  const plan = A.coveragePlan(chosen, 20);
+  const n = Object.fromEntries(plan.map((p) => [p.topic, p.count]));
+  assert.equal(plan.reduce((a, p) => a + p.count, 0), 20);
+  assert.deepEqual(Object.keys(n).sort(), chosen.map((c) => c.topic).sort()); // none left out
+  assert.ok(n.percentage > n.average && n.percentage > n.mensuration, JSON.stringify(n));
+  assert.equal(plan.find((p) => p.topic === 'average').role, 'retention');
+  // More chapters than questions: the weakest get one each.
+  const short = A.coveragePlan(chosen, 3);
+  assert.deepEqual(short.map((p) => p.topic).sort(), ['percentage', 'ratio_proportion', 'time_work']);
+  // A chapter without questions in the bank is skipped, not counted.
+  assert.deepEqual(A.coveragePlan([ch('a', 50, 'high', { available: 0 }), ch('b', 50, 'high')], 5), [{ topic: 'b', count: 5, role: 'focus', reasons: ['focus:50'] }]);
+});
+
 test('Smart Quiz shares are not equal: weak chapters get most, strong ones keep a retention share', () => {
   const ch = (topic, score, band, extra = {}) => ({ topic, focus: { score, band }, available: 50, ...extra });
   const plan = A.smartQuizPlan([ch('percentage', 80, 'high'), ch('time_work', 60, 'medium'), ch('ratio_proportion', 35, 'low'), ch('average', 15, 'strong', { daysSinceTouched: 20 })], 20);

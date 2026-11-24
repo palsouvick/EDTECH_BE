@@ -237,3 +237,75 @@ test('JSONL import validation rejects duplicate synonyms, conflicts, and unsuppo
   assert.deepEqual(jsonl.entryRows, [1, 3]);
   assert.equal(jsonl.errors[0].row, 2);
 });
+
+test('review quiz: due words become Bengali-meaning / synonym / antonym MCQs; right extends the interval, wrong sends it back tomorrow', async () => {
+  const user = 'student-review-quiz';
+  const unauthorized = await api('POST', '/vocabulary/progress/review/quiz', { type: 'due' });
+  assert.equal(unauthorized.status, 401);
+  const empty = await api('POST', '/vocabulary/progress/review/quiz', { type: 'due' }, user);
+  assert.equal(empty.status, 201);
+  assert.deepEqual([empty.body.data.sessionToken, empty.body.data.questions], [null, []]);
+
+  for (const w of words.slice(0, 3)) await api('PATCH', `/vocabulary/progress/words/${w._id}`, { state: 'learned', value: true }, user);
+  await VocabularyProgress.updateMany({ user_id: user }, { $set: { next_review_at: new Date(Date.now() - 1000) } });
+
+  const quiz = await api('POST', '/vocabulary/progress/review/quiz', { type: 'due', count: 10 }, user);
+  assert.equal(quiz.status, 201, JSON.stringify(quiz.body));
+  const { sessionToken, questions } = quiz.body.data;
+  assert.equal(questions.length, 3);
+  assert.deepEqual(questions.map((q) => q.mode).sort(), ['antonym', 'meaning', 'synonym']);
+  assert.ok(questions.every((q) => q.options.length === 4 && !Object.hasOwn(q, 'correctOptionId')));
+  const meaning = questions.find((q) => q.mode === 'meaning');
+  assert.match(meaning.prompt, /Bengali meaning/);
+  assert.ok(meaning.options.every((o) => /অর্থ/.test(o.text)));
+
+  const session = await VocabularyPracticeSession.findOne({ token_hash: crypto.createHash('sha256').update(sessionToken).digest('hex') }).lean();
+  assert.equal(session.kind, 'review');
+  const key = new Map(session.items.map((i) => [i.question_id, i]));
+  const answer = (q, right) => api('POST', `/vocabulary/practice/sessions/${sessionToken}/answers`, {
+    questionId: q.questionId,
+    selectedOptionId: right ? key.get(q.questionId).correct_option_id : q.options.find((o) => o.optionId !== key.get(q.questionId).correct_option_id).optionId,
+  }, user);
+
+  const wrong = await answer(questions[0], false);
+  assert.equal(wrong.body.data.isCorrect, false);
+  assert.deepEqual([wrong.body.data.review.known, wrong.body.data.review.intervalDays], [false, 1]);
+  assert.ok(wrong.body.data.explanation.meaningBn); // the description is shown for a wrong answer too
+  const missedRow = await VocabularyProgress.findOne({ user_id: user, word_id: key.get(questions[0].questionId).word_id }).lean();
+  assert.deepEqual([missedRow.miss_count, missedRow.difficult, missedRow.review_streak], [1, true, 0]);
+
+  const right = await answer(questions[1], true);
+  assert.equal(right.body.data.isCorrect, true);
+  assert.equal(right.body.data.review.known, true);
+  assert.ok(right.body.data.review.intervalDays >= 1);
+  assert.ok(right.body.data.explanation.definitionEn);
+
+  // Only the first answer counts: answering again cannot undo a miss.
+  const again = await answer(questions[0], true);
+  assert.equal(again.body.data.isCorrect, false);
+  assert.equal(again.body.data.review, null);
+  const after = await VocabularyProgress.findOne({ user_id: user, word_id: key.get(questions[0].questionId).word_id }).lean();
+  assert.equal(after.miss_count, 1);
+});
+
+test('every answer teaches the neighbours: Bengali meanings of the options, synonyms and antonyms (library words only)', async () => {
+  // Make one synonym a library word, so its meaning can be looked up; the others are not in the library.
+  await VocabularyWord.updateOne({ _id: words[0]._id }, { $set: { synonyms: ['Candid', 'synonym-0-b', 'synonym-0-c'] } });
+  const created = await api('POST', '/vocabulary/practice/sessions', { mode: 'meaning', count: 6 }, 'student-related');
+  const tokenHash = crypto.createHash('sha256').update(created.body.data.sessionToken).digest('hex');
+  const session = await VocabularyPracticeSession.findOne({ token_hash: tokenHash }).lean();
+  const item = session.items.find((i) => String(i.word_id) === String(words[0]._id));
+  const res = await api('POST', `/vocabulary/practice/sessions/${created.body.data.sessionToken}/answers`, { questionId: item.question_id, selectedOptionId: item.correct_option_id }, 'student-related');
+  const related = res.body.data.explanation.related;
+  // Bengali options: each maps back to the English word it means.
+  assert.equal(related.options.length, 4);
+  for (const o of related.options) {
+    const w = words.find((x) => x.meaning_bn === o.text);
+    assert.equal(o.word, w.word);
+    assert.equal(o.definitionEn, w.definition_en);
+  }
+  assert.deepEqual(related.synonyms[0], { word: 'Candid', meaningBn: 'অর্থ 2', definitionEn: 'A distinct meaning for candid.' });
+  assert.deepEqual(related.synonyms[1], { word: 'synonym-0-b', meaningBn: null, definitionEn: null }); // never guessed
+  assert.equal(related.antonyms.length, 3);
+  await VocabularyWord.updateOne({ _id: words[0]._id }, { $set: { synonyms: words[0].synonyms } });
+});

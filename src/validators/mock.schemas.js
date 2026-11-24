@@ -2,7 +2,7 @@
 
 const { z } = require('zod');
 const { language, category, slug, objectId, optionId, timeSpent } = require('./common');
-const { LOSS_REASONS } = require('../models/constants');
+const { LOSS_REASONS, STUCK_REASONS } = require('../models/constants');
 
 // 20 is kept for existing clients; the CBT setup offers 10 / 25 / 50 / 100.
 const QUESTION_COUNTS = [10, 20, 25, 50, 100];
@@ -55,6 +55,17 @@ const submitSessionBody = z.object({
         timeSpentSec: timeSpent(3 * 3600).default(0),
         // CBT "Marked for Review" flag, kept for the review matrix filter. Does not affect scoring.
         markedForReview: z.boolean().default(false),
+        // Math mocks: the student pressed "I'm Stuck" on this question. A learning signal kept
+        // next to the answer; it never affects scoring. Ignored for other subjects.
+        stuck: z
+          .object({
+            reason: z.enum(STUCK_REASONS).nullable().default(null),
+            // Time on the question before pressing it.
+            timeBeforeSec: timeSpent(3 * 3600).default(0),
+            markedAt: z.iso.datetime({ offset: true }).nullable().default(null),
+          })
+          .nullable()
+          .default(null),
       }),
     )
     .max(Math.max(...QUESTION_COUNTS))

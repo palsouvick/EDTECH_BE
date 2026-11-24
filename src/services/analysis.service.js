@@ -243,6 +243,8 @@ function nextSmartQuiz(chapters, latestTest, latest, titleOf, count = 15) {
     weakestSkill: weakest ? { name: weakest.name, topic: weakest.topic, accuracy: weakest.accuracyPct } : null,
     count: plan.reduce((a, p) => a + p.count, 0),
     plan,
+    // Every chapter with questions, in Learn order, for the "choose chapters" checkboxes.
+    chapters: chapters.filter((c) => c.available > 0).map((c) => ({ topic: c.topic, title: titleOf(c.topic), available: c.available, band: c.focus.band })),
   };
 }
 
@@ -400,10 +402,9 @@ async function overview(userId, { language = 'en', tz = 330, now = new Date() } 
  */
 async function smartPlan(userId, subject, { language, count, topics = [] }) {
   const a = await analyseSubject(userId, subject, { language, detail: false });
-  const chapters = topics.length ? a.chapters.filter((c) => topics.includes(c.topic)) : a.chapters;
-  // A chosen chapter the student has not started still gets questions.
-  const usable = topics.length ? chapters.map((c) => (c.focus.band === 'not_started' ? { ...c, focus: { ...c.focus, band: 'low' } } : c)) : chapters;
-  return A.smartQuizPlan(usable, count);
+  // Chapters the student ticked: every one of them gets questions (weakest get more).
+  if (topics.length) return A.coveragePlan(a.chapters.filter((c) => topics.includes(c.topic)), count);
+  return A.smartQuizPlan(a.chapters, count);
 }
 
 /**

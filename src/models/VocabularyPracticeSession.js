@@ -29,6 +29,9 @@ const VocabularyPracticeSessionSchema = new Schema(
     token_hash: { type: String, required: true },
     user_id: { type: String, default: null },
     items: { type: [ItemSchema], required: true },
+    // practice: a free practice set. review: the spaced-revision quiz (due / missed words); each
+    // first answer moves the word's revision schedule (right = remembered, wrong = missed).
+    kind: { type: String, enum: ['practice', 'review'], default: 'practice' },
     expires_at: { type: Date, required: true },
   },
   { collection: 'vocabulary_practice_sessions', timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } },

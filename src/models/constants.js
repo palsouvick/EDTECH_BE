@@ -26,8 +26,18 @@ const SLUG_RE = /^[a-z0-9]+(?:_[a-z0-9]+)*$/;
 // Why a student lost the marks on a mock question, as the student tags it on the result page.
 const LOSS_REASONS = Object.freeze(['concept', 'calculation', 'guess', 'misread', 'time']);
 
+// Why a student pressed "I'm Stuck" in a Math mock (optional). A learning signal, never a mark.
+// concept: doesn't understand the concept, method: doesn't know which formula/method,
+// calculation, start: doesn't know how to start, forgot_rule, too_slow: understands it but it
+// takes too long, question_unclear: doesn't understand the question, other.
+const STUCK_REASONS = Object.freeze(['concept', 'method', 'calculation', 'start', 'forgot_rule', 'too_slow', 'question_unclear', 'other']);
+// Subjects whose mocks offer "I'm Stuck".
+const STUCK_SUBJECTS = Object.freeze(['quant']);
+
 module.exports = {
   LOSS_REASONS,
+  STUCK_REASONS,
+  STUCK_SUBJECTS,
   EXAM_CATEGORIES,
   TIERS,
   LANGUAGES,

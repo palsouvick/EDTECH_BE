@@ -18,6 +18,19 @@ const { language, slug, objectId } = require('../validators/common');
 const router = Router();
 router.use(requireAuth);
 
+// Math "I'm Stuck" learning loop (services/stuck.service.js): My Stuck Problems (stuck questions with
+// solutions and learning content, chapter table, probable skill gaps with evidence, improvement,
+// next practice) and the light dashboard card. Never changes any mock score.
+const stuck = require('../services/stuck.service');
+router.get('/stuck', async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await stuck.overview(req.user.id) });
+});
+router.get('/stuck/summary', async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.json({ success: true, data: await stuck.summary(req.user.id) });
+});
+
 // The signed-in student's own profile, including their target exam.
 router.get('/', async (req, res) => {
   res.set('Cache-Control', 'private, no-store');

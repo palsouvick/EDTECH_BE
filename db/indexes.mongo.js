@@ -120,6 +120,7 @@ db.bookmarks.createIndex({ user_id: 1, subject: 1, topic: 1, created_at: -1 }, {
 db.review_items.createIndex({ user_id: 1, question_id: 1 }, { name: "uniq_user_question", unique: true });
 db.review_items.createIndex({ user_id: 1, status: 1, due_at: 1 }, { name: "user_status_due" });
 db.review_items.createIndex({ user_id: 1, from_mistake: 1, subject: 1, topic: 1, last_wrong_at: -1 }, { name: "user_mistakes_topic" });
+db.review_items.createIndex({ user_id: 1, subject: 1, last_stuck_at: -1 }, { name: "user_stuck_recent", partialFilterExpression: { from_stuck: true } });
 
 // ---------------------------------------------------------------- motivation
 // Badges (src/models/UserBadge.js), daily challenge results (src/models/DailyChallenge.js),

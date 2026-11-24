@@ -1,7 +1,7 @@
 'use strict';
 
 const { Schema, model } = require('mongoose');
-const { EXAM_CATEGORIES, LANGUAGES, LOSS_REASONS, SLUG_RE } = require('./constants');
+const { EXAM_CATEGORIES, LANGUAGES, LOSS_REASONS, STUCK_REASONS, SLUG_RE } = require('./constants');
 
 /**
  * One generated mock attempt. The question list and its answer key are frozen
@@ -35,6 +35,20 @@ const PerQuestionResultSchema = new Schema(
     marks: Number,
     time_spent_sec: Number,
     marked_for_review: { type: Boolean, default: false },
+    // Math only: the student pressed "I'm Stuck" (services/stuck.service.js). Stored next to the
+    // outcome, never instead of it: a stuck question that was later answered keeps its CORRECT /
+    // INCORRECT outcome and marks. Unset when the student was not stuck.
+    stuck: {
+      type: new Schema(
+        {
+          reason: { type: String, enum: [...STUCK_REASONS, null], default: null },
+          time_before_sec: { type: Number, min: 0, default: 0 },
+          marked_at: { type: Date, default: null },
+        },
+        { _id: false },
+      ),
+      default: undefined,
+    },
   },
   { _id: false },
 );
@@ -73,7 +87,7 @@ const MockSessionSchema = new Schema(
     custom: {
       type: new Schema(
         {
-          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq', 'adaptive', 'hard', 'speed'], required: true },
+          preset: { type: String, enum: ['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq', 'adaptive', 'hard', 'speed', 'stuck'], required: true },
           mode: { type: String, enum: ['exam', 'practice'], required: true },
           difficulty: { type: String, enum: ['easy', 'moderate', 'hard', 'exam', 'mixed'], required: true },
           distribution: { type: String, enum: ['balanced', 'smart', 'mistakes'], required: true },
@@ -95,6 +109,17 @@ const MockSessionSchema = new Schema(
             default: undefined,
           },
           plan: { type: [new Schema({ topic: String, count: Number, reasons: [String], role: String, level: String, tier: String }, { _id: false })], default: [] },
+          // Practice My Weakness (preset 'stuck'): the kind of practice and the level it was built at.
+          stuck: {
+            type: new Schema(
+              {
+                mode: { type: String, enum: ['concept', 'formula', 'calculation', 'method', 'pattern', 'exam', 'mixed'] },
+                level: { type: String, enum: ['basic', 'moderate', 'exam'] },
+              },
+              { _id: false },
+            ),
+            default: undefined,
+          },
           recommended_min: Number,
           follow_up_of: { type: Schema.Types.ObjectId, default: null },
           // Practice mode: the first answer checked for each question (qid hex -> option id).

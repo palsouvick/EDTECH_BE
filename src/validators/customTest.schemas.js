@@ -3,6 +3,7 @@
 const { z } = require('zod');
 const { language, slug, objectId, optionId } = require('./common');
 const L = require('../services/customTest.logic');
+const S = require('../services/stuck.logic');
 
 const subject = z.enum(L.SUBJECTS);
 
@@ -34,6 +35,10 @@ const testBody = z
     pyqYearFrom: pyqYearBound,
     pyqYearTo: pyqYearBound,
     repeatMode: z.enum(L.PYQ_REPEAT_MODES).optional(),
+    // Practice My Weakness (preset 'stuck', Math): the kind of practice and its level. Level
+    // omitted = the adaptive level (stuck.logic nextLevel / startLevel). Ignored by other presets.
+    stuckMode: z.enum(S.MODES).optional(),
+    stuckLevel: z.enum(S.LEVELS).optional(),
   })
   .transform((b) => ({ ...b, topics: [...new Set(b.topics)] }));
 

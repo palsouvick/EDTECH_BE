@@ -58,6 +58,33 @@ function recordMistake(userId, { questionId, subject, topic, selectedOptionId, s
 }
 
 /**
+ * Math "I'm Stuck": the question joins the revision queue (due tomorrow when new) and is flagged
+ * from_stuck. An item already in the queue keeps its place; a mastered one comes back from the
+ * start, as for a new mistake. Never touches wrong_count: being stuck is not a wrong answer.
+ * Never throws.
+ */
+function recordStuck(userId, { questionId, subject, topic, reason }, now = new Date()) {
+  if (!userId) return Promise.resolve();
+  const due = addDays(now, REVIEW_INTERVALS_DAYS[0]);
+  return ReviewItem.updateOne(
+    { user_id: userId, question_id: questionId, status: 'mastered' },
+    { $set: { status: 'active', stage: 0, streak: 0, due_at: due, mastered_at: null } },
+  )
+    .then(() =>
+      ReviewItem.updateOne(
+        { user_id: userId, question_id: questionId },
+        {
+          $set: { subject, topic, from_stuck: true, last_stuck_at: now, last_stuck_reason: reason ?? null },
+          $inc: { stuck_count: 1 },
+          $setOnInsert: { due_at: due, status: 'active', stage: 0, streak: 0 },
+        },
+        { upsert: true },
+      ),
+    )
+    .catch(logFailure('stuck'));
+}
+
+/**
  * A wrong answer on a GK library question also sends its fact (the card with the statement,
  * table and "don't confuse" lines) back to GK revision, due tomorrow from the first step.
  */
@@ -293,4 +320,4 @@ async function mistakes(userId, { status, subject, topic, offset, limit }) {
   };
 }
 
-module.exports = { recordMistake, recordBookmark, removeBookmark, summary, due, answer, mistakes, endOfLocalDay, realPyqIds };
+module.exports = { recordMistake, recordStuck, recordBookmark, removeBookmark, summary, due, answer, mistakes, endOfLocalDay, realPyqIds };

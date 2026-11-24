@@ -560,6 +560,64 @@ function smartQuizPlan(chapters, count) {
   return [...out.values()].filter((p) => p.count > 0).sort((a, b) => (a.role === b.role ? b.count - a.count : a.role === 'focus' ? -1 : 1));
 }
 
+/**
+ * Smart Quiz over chapters the student TICKED: every chosen chapter gets at least one question
+ * (none is silently left out, strong or not started), and the rest still goes to the weakest
+ * ones by the same weight as smartQuizPlan. When there are more chapters than questions, the
+ * weakest chapters get one each. Strong chapters are labelled 'retention' (keep them fresh).
+ */
+function coveragePlan(chapters, count) {
+  const usable = chapters.filter((c) => c.available > 0);
+  const weight = (c) => {
+    if (c.focus.band === 'strong') return 0.25;
+    if (c.focus.band === 'not_started') return 0.5;
+    return Math.max(1, c.focus.score) / 100 + 0.5 + Math.min(0.5, 0.1 * ((c.latestWrong || 0) + (c.latestSkipped || 0)));
+  };
+  const ranked = [...usable].sort((a, b) => weight(b) - weight(a));
+  const roleOf = (c) => (c.focus.band === 'strong' ? 'retention' : 'focus');
+  const reasonsOf = (c) => {
+    const r = [c.focus.band === 'strong' ? 'retention' : `focus:${c.focus.score}`];
+    if (c.latestWrong) r.push(`latest_wrong:${c.latestWrong}`);
+    if (c.latestSkipped) r.push(`latest_skipped:${c.latestSkipped}`);
+    if (c.openMistakes) r.push(`mistakes:${c.openMistakes}`);
+    if (c.focus.band === 'not_started') r.push('new');
+    return r;
+  };
+  const out = new Map();
+  const give = (c, n) => {
+    const cur = out.get(c.topic) || { topic: c.topic, count: 0, role: roleOf(c), reasons: reasonsOf(c) };
+    const add = Math.max(0, Math.min(n, c.available - cur.count));
+    cur.count += add;
+    out.set(c.topic, cur);
+    return add;
+  };
+  // One each first (weakest first when there are more chapters than questions).
+  let rest = count;
+  for (const c of ranked) {
+    if (rest <= 0) break;
+    rest -= give(c, 1);
+  }
+  // The rest by weight, repeated while capped chapters free up room.
+  for (let guard = 0; rest > 0 && guard < 10; guard += 1) {
+    const open = ranked.filter((c) => (out.get(c.topic)?.count ?? 0) < c.available);
+    if (!open.length) break;
+    const total = open.reduce((a, c) => a + weight(c), 0);
+    const parts = open.map((c) => ({ c, x: (rest * weight(c)) / total }));
+    for (const p of parts) p.n = Math.floor(p.x);
+    let spare = rest - parts.reduce((a, p) => a + p.n, 0);
+    for (const p of [...parts].sort((a, b) => (b.x - b.n) - (a.x - a.n))) {
+      if (spare <= 0) break;
+      p.n += 1;
+      spare -= 1;
+    }
+    let given = 0;
+    for (const p of parts) if (p.n) given += give(p.c, p.n);
+    rest -= given;
+    if (!given) break;
+  }
+  return [...out.values()].filter((p) => p.count > 0).sort((a, b) => (a.role === b.role ? b.count - a.count : a.role === 'focus' ? -1 : 1));
+}
+
 /* ----------------------------------------------------------------- subject */
 
 /**
@@ -661,6 +719,7 @@ module.exports = {
   skipAnalysis,
   analyseChapter,
   smartQuizPlan,
+  coveragePlan,
   subjectSummary,
   areaSummary,
   focusList,

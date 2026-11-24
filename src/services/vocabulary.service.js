@@ -347,6 +347,60 @@ function presentQuestion(item, index) {
   };
 }
 
+/** Distractor words for one word: same level and part of speech when possible, so options look alike. */
+function distractorPool(word, candidates) {
+  const rest = candidates.filter((entry) => String(entry._id) !== String(word._id));
+  const sameLevelAndPart = rest.filter((entry) => entry.part_of_speech === word.part_of_speech && entry.difficulty === word.difficulty);
+  const samePart = rest.filter((entry) => entry.part_of_speech === word.part_of_speech);
+  return sameLevelAndPart.length >= 3 ? sameLevelAndPart : samePart.length >= 3 ? samePart : rest;
+}
+
+// Review quiz: each word gets one question, rotating Bengali meaning / synonym / antonym so a set
+// mixes all three; a word without synonyms or antonyms falls back to the next kind.
+const REVIEW_MODE_ORDER = [['meaning', 'synonym', 'antonym'], ['synonym', 'antonym', 'meaning'], ['antonym', 'meaning', 'synonym']];
+
+/**
+ * Spaced revision as a real check instead of "I remembered / I missed it": an MCQ per due (or
+ * missed) word. The answer is checked by the server (answerPractice), and the first answer moves
+ * the word's schedule exactly like answerReview: right = remembered (longer interval), wrong =
+ * missed (back tomorrow, marked difficult).
+ */
+async function createReviewQuiz(userId, { type = 'due', count = 10 } = {}) {
+  const filter = type === 'due'
+    ? { user_id: userId, learned: true, next_review_at: { $lte: new Date() } }
+    : { user_id: userId, miss_count: { $gt: 0 } };
+  const progress = await VocabularyProgress.find(filter).sort({ next_review_at: 1, updated_at: -1 }).limit(count).lean();
+  if (!progress.length) return { sessionToken: null, type, questions: [] };
+  const [words, candidates] = await Promise.all([
+    VocabularyWord.find({ _id: { $in: progress.map((p) => p.word_id) }, status: 'PUBLISHED' }).lean(),
+    VocabularyWord.find({ status: 'PUBLISHED' }).sort({ normalized_word: 1 }).limit(2000).lean(),
+  ]);
+  const byId = new Map(words.map((word) => [String(word._id), word]));
+  const items = [];
+  progress.forEach((p) => {
+    const word = byId.get(String(p.word_id));
+    if (!word) return;
+    const pool = distractorPool(word, candidates);
+    for (const mode of REVIEW_MODE_ORDER[items.length % REVIEW_MODE_ORDER.length]) {
+      const item = questionFor(word, pool, mode);
+      if (!item) continue;
+      if (mode === 'meaning') item.prompt = `Choose the correct Bengali meaning of “${word.word}”.`;
+      items.push(item);
+      break;
+    }
+  });
+  if (!items.length) return { sessionToken: null, type, questions: [] };
+  const token = crypto.randomBytes(32).toString('base64url');
+  await VocabularyPracticeSession.create({
+    token_hash: hashToken(token),
+    user_id: userId,
+    kind: 'review',
+    items,
+    expires_at: new Date(Date.now() + SESSION_TTL_MS),
+  });
+  return { sessionToken: token, type, questions: items.map(presentQuestion) };
+}
+
 async function createPracticeSession({ mode, category, difficulty, count, userId }) {
   if (!ANSWER_MODES.has(mode)) throw AppError.badRequest('INVALID_PRACTICE_MODE', 'Unsupported vocabulary practice mode');
   const filter = { status: 'PUBLISHED', ...(category && { categories: category }), ...(difficulty && { difficulty }) };
@@ -359,11 +413,7 @@ async function createPracticeSession({ mode, category, difficulty, count, userId
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
   for (const word of shuffled) {
-    const rest = shuffled.filter((entry) => String(entry._id) !== String(word._id));
-    const sameLevelAndPart = rest.filter((entry) => entry.part_of_speech === word.part_of_speech && entry.difficulty === word.difficulty);
-    const samePart = rest.filter((entry) => entry.part_of_speech === word.part_of_speech);
-    const pool = sameLevelAndPart.length >= 3 ? sameLevelAndPart : samePart.length >= 3 ? samePart : rest;
-    const item = questionFor(word, pool, mode);
+    const item = questionFor(word, distractorPool(word, shuffled), mode);
     if (item) items.push(item);
     if (items.length >= count) break;
   }
@@ -388,7 +438,9 @@ async function answerPractice({ token, questionId, selectedOptionId, userId }) {
   if (!item.options.some((entry) => entry.id === selectedOptionId)) throw AppError.badRequest('INVALID_OPTION', 'Select one of the displayed options');
   const isCorrect = selectedOptionId === item.correct_option_id;
   const updated = await VocabularyPracticeSession.findOneAndUpdate(
-    { token_hash: tokenHash, 'items.question_id': questionId, 'items.selected_option_id': null },
+    // $elemMatch: both conditions on the SAME item, so a question answered once stays answered
+    // even while other questions in the session are still open.
+    { token_hash: tokenHash, items: { $elemMatch: { question_id: questionId, selected_option_id: null } } },
     { $set: { 'items.$.selected_option_id': selectedOptionId, 'items.$.is_correct': isCorrect } },
     { returnDocument: 'after' },
   );
@@ -397,6 +449,12 @@ async function answerPractice({ token, questionId, selectedOptionId, userId }) {
   if (!savedItem) throw AppError.notFound('PRACTICE_SESSION_NOT_FOUND', 'Practice session expired or not found');
   const word = await VocabularyWord.findById(savedItem.word_id).lean();
   if (!word) throw AppError.notFound('VOCABULARY_WORD_NOT_FOUND', 'Vocabulary word not found');
+  // Review quiz: the first answer moves the spaced-revision schedule (right = remembered, wrong = missed).
+  let review = null;
+  if (session.kind === 'review' && session.user_id && updated) {
+    const r = await answerReview(session.user_id, { wordId: word._id, known: isCorrect });
+    review = { known: r.known, intervalDays: r.intervalDays, nextReviewAt: r.nextReviewAt };
+  }
   if (session.user_id && updated) {
     const settings = await VocabularySettings.findOne({ user_id: session.user_id }).select('timezone_offset_min').lean();
     const day = dayKey(settings?.timezone_offset_min ?? 330);
@@ -405,7 +463,7 @@ async function answerPractice({ token, questionId, selectedOptionId, userId }) {
       { $setOnInsert: { user_id: session.user_id, day }, $inc: { questions_answered: 1, ...(isCorrect ? { questions_correct: 1 } : {}) } },
       { upsert: true },
     );
-    if (!isCorrect) {
+    if (!isCorrect && session.kind !== 'review') {
       await VocabularyProgress.findOneAndUpdate(
         { user_id: session.user_id, word_id: word._id },
         {
@@ -422,6 +480,7 @@ async function answerPractice({ token, questionId, selectedOptionId, userId }) {
     selectedOptionId: savedItem.selected_option_id,
     isCorrect: savedItem.is_correct,
     correctOptionId: savedItem.correct_option_id,
+    review,
     explanation: {
       definitionEn: word.definition_en,
       meaningBn: word.meaning_bn,
@@ -431,8 +490,46 @@ async function answerPractice({ token, questionId, selectedOptionId, userId }) {
       synonyms: word.synonyms,
       antonyms: word.antonyms,
       bengaliReview: { status: word.bengali_review?.status || 'PENDING' },
+      related: await relatedMeanings(word, savedItem),
     },
   };
+}
+
+const ENGLISH_OPTION_MODES = new Set(['synonym', 'antonym', 'fill_blank', 'identify']);
+const BENGALI_OPTION_MODES = new Set(['meaning', 'match']);
+
+/**
+ * "Learn the neighbours too": the Bengali meaning (and English definition) of every synonym,
+ * antonym and answer option, taken only from published words in the library. A word that is not
+ * in the library is listed without a meaning — nothing is guessed or machine-translated.
+ */
+async function relatedMeanings(word, item) {
+  const english = [...(word.synonyms || []), ...(word.antonyms || [])];
+  if (ENGLISH_OPTION_MODES.has(item.mode)) english.push(...item.options.map((o) => o.text));
+  const bengali = BENGALI_OPTION_MODES.has(item.mode) ? item.options.map((o) => o.text) : [];
+  const keys = [...new Set(english.map(normalize))];
+  const found = await VocabularyWord.find({
+    status: 'PUBLISHED',
+    $or: [{ normalized_word: { $in: keys } }, ...(bengali.length ? [{ meaning_bn: { $in: bengali } }] : [])],
+  })
+    .select('word normalized_word meaning_bn definition_en')
+    .lean();
+  const byWord = new Map(found.map((w) => [w.normalized_word, w]));
+  const byMeaning = new Map(found.map((w) => [w.meaning_bn, w]));
+  const entry = (term) => {
+    const w = byWord.get(normalize(term));
+    return { word: term, meaningBn: w?.meaning_bn ?? null, definitionEn: w?.definition_en ?? null };
+  };
+  const options = item.mode === 'context'
+    ? []
+    : item.options.map((o) => {
+      if (BENGALI_OPTION_MODES.has(item.mode)) {
+        const w = byMeaning.get(o.text);
+        return { optionId: o.id, text: o.text, word: w?.word ?? null, meaningBn: o.text, definitionEn: w?.definition_en ?? null };
+      }
+      return { optionId: o.id, text: o.text, ...entry(o.text) };
+    });
+  return { synonyms: (word.synonyms || []).map(entry), antonyms: (word.antonyms || []).map(entry), options };
 }
 
 async function previewImport(entries, rowNumbers = []) {
@@ -645,6 +742,7 @@ async function setBengaliReview(wordId, status, adminEmail) {
 }
 
 module.exports = {
+  createReviewQuiz,
   bengaliReviewQueue,
   editWordContent,
   setBengaliReview,

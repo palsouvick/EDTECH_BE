@@ -45,6 +45,7 @@ const AD = require('./adaptive.logic');
 const HQ = require('./hardQuiz.logic');
 const { availability } = require('./bankAvailability');
 const { safeLearnLinkFor } = require('./learnLinks.service');
+const stuckService = require('./stuck.service');
 
 const CATEGORY = 'WBPSC';
 const PRACTICE_MARKING = Object.freeze({ positive: 1, negative: 0, basis: 'PRACTICE', examCode: null, sourceUrl: null });
@@ -304,6 +305,26 @@ async function resolveRequest(userId, body, signals, allTopics) {
       r.distribution = body.distribution ?? 'smart';
       break;
     }
+    case 'stuck': {
+      // Practice My Weakness (Math): new questions on the same patterns as the student's stuck
+      // (and wrong / skipped) questions, at the adaptive level. Never the stuck questions themselves.
+      if (body.subject !== 'quant') throw AppError.unprocessable('STUCK_SUBJECT', 'Practice My Weakness is for Mathematics');
+      r.questionCount = body.questionCount ?? 10;
+      r.mode = body.mode ?? 'practice';
+      r.distribution = 'smart';
+      const t = await stuckService.practicePlan(userId, { mode: body.stuckMode ?? 'pattern', level: body.stuckLevel ?? null, count: r.questionCount, topics: chosen });
+      if (!t || !t.plan.length) throw AppError.unprocessable('NO_STUCK_PROBLEMS', "Mark questions with \"I'm Stuck\" in a Math mock first");
+      r.stuckPlan = t.plan;
+      r.stuck = { mode: t.mode, level: t.level };
+      r.difficulty = { basic: 'easy', moderate: 'moderate', exam: 'exam' }[t.level];
+      r.topics = t.plan.map((p) => p.topic);
+      for (const id of t.qids) r.exclude.add(id);
+      // Ranking treats the stuck patterns like the mistaken ones in "Retry my mistakes".
+      signals.mistakeQids = new Set(t.qids);
+      signals.mistakePatterns = new Set(t.patterns);
+      signals.mistakeSubtopics = new Set(t.subtopics);
+      break;
+    }
     case 'smart': {
       if (!ANALYSIS_SUBJECTS.includes(body.subject)) throw AppError.unprocessable('SMART_QUIZ_SUBJECT', 'Smart Quiz is for Mathematics and English');
       r.questionCount = body.questionCount ?? 15;
@@ -445,6 +466,12 @@ function planFor(req, avail, signals) {
     const total = plan.reduce((a, p) => a + p.count, 0);
     return { plan, total, shortBy: Math.max(0, req.questionCount - total) };
   }
+  if (req.stuckPlan) {
+    // Practice My Weakness: chapters and the level's difficulty mix come from the stuck plan.
+    const plan = req.stuckPlan.map((p) => ({ topic: p.topic, count: p.count, reasons: [`mode:${req.stuck.mode}`, `level:${req.stuck.level}`], mix: p.mix, pyqBoost: req.stuck.level === 'exam' ? 1.5 : 0 }));
+    const total = plan.reduce((a, p) => a + p.count, 0);
+    return { plan, total, shortBy: Math.max(0, req.questionCount - total) };
+  }
   if (req.smartPlan) {
     // Smart Quiz: the learning analysis already decided the share of every chapter.
     const plan = req.smartPlan.map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons }));
@@ -502,6 +529,7 @@ async function previewTest(userId, body) {
     plan: plan.map(({ mix, pyqBoost, ...p }) => p),
     recommendedMinutes: L.smartMinutes(body.subject, req.difficulty, total),
     followUp: req.followUp,
+    stuck: req.stuck ?? null,
   };
 }
 
@@ -705,6 +733,7 @@ async function createTest(userId, body) {
       topics: req.topics,
       plan: finalPlan,
       follow_up_of: req.followUp?.sessionId ?? null,
+      ...(req.stuck && { stuck: req.stuck }),
     },
   });
   const lean = session.toObject();
@@ -869,6 +898,8 @@ async function getReport(userId, sessionId) {
     if (next.pattern) next.patternName = insights.patternName(subject, next.topic, next.pattern)?.name ?? null;
   }
   const speed = session.custom.preset === 'speed' ? HQ.speedReport(r.per_question, session.config.time_limit_min) : null;
+  // Practice My Weakness: improvement against the previous practice, weakest / strongest pattern, adaptive next level.
+  const stuckPractice = session.custom.preset === 'stuck' ? await stuckService.quizReport(userId, session, concepts) : null;
   return {
     sessionId: String(session._id),
     subject,
@@ -891,6 +922,7 @@ async function getReport(userId, sessionId) {
     skills,
     nextStep: next,
     speed,
+    stuckPractice,
     previous,
     nextTest: {
       preset: 'followup',

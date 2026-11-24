@@ -10,6 +10,7 @@ const { scoreSession } = require('./scoring');
 const { PUBLIC_QUESTION_FIELDS, presentQuestion } = require('./presenters');
 const { resolveMarking } = require('./markingScheme');
 const { mockQuestionAlias } = require('./signedToken');
+const { STUCK_SUBJECTS } = require('../models/constants');
 const {
   buildMockGenerationPipeline,
   allocateQuotas,
@@ -176,6 +177,8 @@ function presentCustom(session) {
     topics: c.topics || [],
     plan: (c.plan || []).map((p) => ({ topic: p.topic, count: p.count, reasons: p.reasons || [], ...(p.role && { role: p.role, level: p.level ?? null }), ...(p.tier && { tier: p.tier }) })),
     recommendedMinutes: c.recommended_min ?? null,
+    // Practice My Weakness: the practice kind and level (null for every other preset).
+    stuck: c.stuck?.mode ? { mode: c.stuck.mode, level: c.stuck.level ?? null } : null,
     followUpOf: c.follow_up_of ? String(c.follow_up_of) : null,
     // PYQ-only tests: the filters the test was built from (exam, year, repeat mode).
     pyq: c.pyq ? {
@@ -219,12 +222,32 @@ function presentResult(session, { alreadySubmitted = false } = {}) {
       marks: p.marks,
       timeSpentSec: p.time_spent_sec,
       markedForReview: Boolean(p.marked_for_review),
+      stuck: p.stuck ? { reason: p.stuck.reason ?? null, timeBeforeSec: p.stuck.time_before_sec ?? 0, markedAt: p.stuck.marked_at ?? null } : null,
     })),
     topicBreakdown: r.topic_breakdown.map(camelBucket),
     difficultyBreakdown: r.difficulty_breakdown.map(camelBucket),
     strengths: r.strengths.map(camelBucket),
     weaknesses: r.weaknesses.map(camelBucket),
   };
+}
+
+/**
+ * Copies each response's "I'm Stuck" signal onto its scored per-question row (mutates the rows).
+ * Rows of questions the student was not stuck on are left without the field.
+ */
+function attachStuck(perQuestion, responses) {
+  const byQid = new Map(responses.filter((r) => r.stuck).map((r) => [String(r.questionId), r.stuck]));
+  for (const p of perQuestion) {
+    const s = byQid.get(String(p.qid));
+    if (!s) continue;
+    const at = s.markedAt ? new Date(s.markedAt) : null;
+    p.stuck = {
+      reason: s.reason ?? null,
+      time_before_sec: Math.round(Math.max(0, s.timeBeforeSec ?? 0) * 10) / 10,
+      marked_at: at && !Number.isNaN(at.getTime()) ? at : null,
+    };
+  }
+  return perQuestion;
 }
 
 const camelBucket = (b) =>
@@ -292,6 +315,9 @@ async function submitSession(userId, { sessionId, responses: submitted }) {
         : Math.min(elapsedSec, session.config.time_limit_min * 60) + config.mock.submitGraceSec,
   });
 
+  // Math "I'm Stuck": attached AFTER scoring, so it can never change the score or an outcome.
+  if (STUCK_SUBJECTS.includes(session.config.subject)) attachStuck(result.per_question, responses);
+
   // Conditional transition: of two concurrent submits, exactly one wins.
   const { modifiedCount } = await MockSession.updateOne(
     { _id: session._id, status: 'ACTIVE' },
@@ -311,6 +337,8 @@ async function submitSession(userId, { sessionId, responses: submitted }) {
     if (p.outcome === 'INCORRECT') {
       review.recordMistake(userId, { questionId: p.qid, subject: session.config.subject, topic: p.topic, selectedOptionId: p.selected_option_id, source: 'mock' });
     }
+    // Stuck questions join revision too, whatever the final answer was.
+    if (p.stuck) review.recordStuck(userId, { questionId: p.qid, subject: session.config.subject, topic: p.topic, reason: p.stuck.reason }, now);
   }
 
   return presentResult({ ...session, status: 'SUBMITTED', submitted_at: now, result });
@@ -368,6 +396,7 @@ module.exports = {
   submitSession,
   getSession,
   presentResult,
+  attachStuck,
   // Shared with the custom chapter test (services/customTest.service.js).
   presentLiveQuestion,
   presentConfig,

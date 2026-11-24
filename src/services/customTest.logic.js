@@ -14,7 +14,7 @@ const { DIFFICULTY_BANDS } = require('../models/constants');
 const SUBJECTS = Object.freeze(['quant', 'english', 'gs']);
 const DIFFICULTIES = Object.freeze(['easy', 'moderate', 'hard', 'exam', 'mixed']);
 // hard = Math Hard Quiz (skill slots + per-chapter tier, hardQuiz.logic); speed = timed Speed Challenge.
-const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq', 'adaptive', 'hard', 'speed']);
+const PRESETS = Object.freeze(['custom', 'weak', 'mistakes', 'quick10', 'mastery', 'challenge', 'followup', 'smart', 'pyq', 'adaptive', 'hard', 'speed', 'stuck']);
 const MIN_QUESTIONS = 5;
 const MAX_QUESTIONS = 100;
 const REAL_PAPER = Object.freeze(['OFFICIAL_VERIFIED', 'ADAPTED_PYQ']);
@@ -200,7 +200,8 @@ function scoreCandidate(q, s, { preset, pyqBoost, currentYear = new Date().getUT
   if (!s.seen.has(id)) w += 2;
   const original = s.mistakeQids.has(id);
   const sibling = !original && ((q.pattern && s.mistakePatterns.has(key(q.pattern))) || (q.subtopic && s.mistakeSubtopics.has(key(q.subtopic))));
-  if (sibling) w = preset === 'mistakes' ? (w + 4) * 3 : w + 1.5;
+  // Retry my mistakes and Practice My Weakness (stuck) stay on the mistaken / stuck patterns.
+  if (sibling) w = preset === 'mistakes' || preset === 'stuck' ? (w + 4) * 3 : w + 1.5;
   if (original && (preset === 'mistakes' || preset === 'smart' || preset === 'adaptive')) w += 1;
   const skipped = Boolean(s.skipQids?.has(id));
   if (preset === 'smart' || preset === 'adaptive') {
@@ -258,7 +259,7 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
     if ((r.q.duplicate_keys || []).some((d) => dups.has(d))) return false;
     if (r.original && !lastResort && ((preset !== 'mistakes' && preset !== 'smart' && preset !== 'adaptive') || originals >= originalsCap)) return false;
     // Retry my mistakes is meant to repeat the mistaken patterns, so they are not capped there.
-    const retrying = preset === 'mistakes' && (r.sibling || r.original);
+    const retrying = (preset === 'mistakes' || preset === 'stuck') && (r.sibling || r.original);
     if (strictPattern && !retrying && r.q.pattern && (perPattern.get(r.q.pattern) || 0) >= patternCap) return false;
     return true;
   };

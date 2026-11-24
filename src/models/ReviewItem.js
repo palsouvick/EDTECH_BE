@@ -28,6 +28,12 @@ const ReviewItemSchema = new Schema(
     last_wrong_at: { type: Date, default: null },
     last_wrong_source: { type: String, enum: ['practice', 'learn', 'mock', 'review', null], default: null },
     wrong_count: { type: Number, default: 0 },
+    // Math "I'm Stuck": the student said they could not solve it. A learning signal, separate from
+    // a wrong answer: a stuck question answered right is still here, and no mistake is implied.
+    from_stuck: { type: Boolean, default: false },
+    stuck_count: { type: Number, default: 0 },
+    last_stuck_at: { type: Date, default: null },
+    last_stuck_reason: { type: String, default: null },
     // Spaced repetition state.
     stage: { type: Number, default: 0 }, // index into REVIEW_INTERVALS_DAYS for the next correct answer
     streak: { type: Number, default: 0 }, // correct reviews in a row
@@ -47,6 +53,12 @@ ReviewItemSchema.index({ user_id: 1, question_id: 1 }, { name: 'uniq_user_questi
 ReviewItemSchema.index({ user_id: 1, status: 1, due_at: 1 }, { name: 'user_status_due' });
 // Mistake notebook: by chapter, newest mistake first.
 ReviewItemSchema.index({ user_id: 1, from_mistake: 1, subject: 1, topic: 1, last_wrong_at: -1 }, { name: 'user_mistakes_topic' });
+
+// My Stuck Problems: one student's stuck questions in a subject, newest first.
+ReviewItemSchema.index(
+  { user_id: 1, subject: 1, last_stuck_at: -1 },
+  { name: 'user_stuck_recent', partialFilterExpression: { from_stuck: true } },
+);
 
 module.exports = model('ReviewItem', ReviewItemSchema);
 module.exports.REVIEW_INTERVALS_DAYS = REVIEW_INTERVALS_DAYS;

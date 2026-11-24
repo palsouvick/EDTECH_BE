@@ -110,6 +110,18 @@ router.get('/progress/review', validate({
   });
 });
 
+// Spaced revision as an MCQ (Bengali meaning / synonym / antonym) instead of self-rating.
+// Answer with POST /practice/sessions/:token/answers; the first answer updates the schedule.
+router.post('/progress/review/quiz', learnQuizLimiter, validate({
+  body: z.object({
+    type: z.enum(['due', 'missed']).default('due'),
+    count: z.number().int().min(1).max(30).default(10),
+  }).strict(),
+}), async (req, res) => {
+  res.set('Cache-Control', 'private, no-store');
+  res.status(201).json({ success: true, data: await vocabulary.createReviewQuiz(req.user.id, req.valid.body) });
+});
+
 router.post('/progress/review', validate({
   body: z.object({ wordId: objectId, known: z.boolean() }).strict(),
 }), async (req, res) => {
