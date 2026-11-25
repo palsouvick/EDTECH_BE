@@ -586,5 +586,17 @@ Error spotting-এর কৌশল: **be-শব্দ** খোঁজো, তা�
       en: 'Exam clue words: yesterday, ago, last year -> past form. "Hardly ... when" -> had + been. "High time" -> were.',
       bn: 'পরীক্ষার সূত্র-শব্দ: yesterday, ago, last year -> past রূপ। "Hardly ... when" -> had + been। "High time" -> were।',
     },
+    {
+      en: 'Exam clue: modal + be + V3. "This work must done" is wrong; say "This work must be done".',
+      bn: 'পরীক্ষার সূত্র: modal + be + V3। "This work must done" ভুল; বলো "This work must be done"।',
+    },
+    {
+      en: 'Exam clue: in the passive, "made" and "seen" take "to" back: "The employees were made to work." "He was seen to enter."',
+      bn: 'পরীক্ষার সূত্র: passive-এ "made" ও "seen"-এর সঙ্গে "to" ফিরে আসে: "The employees were made to work." "He was seen to enter."।',
+    },
+    {
+      en: 'Exam clue: "by" + the doer (a person); "with" + the tool: "The snake was killed by the hunter" but "killed with a stick".',
+      bn: 'পরীক্ষার সূত্র: "by" + কর্তা (ব্যক্তি); "with" + হাতিয়ার: "The snake was killed by the hunter" কিন্তু "killed with a stick"।',
+    },
   ],
 };

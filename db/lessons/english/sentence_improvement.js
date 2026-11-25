@@ -122,6 +122,90 @@ After **did, does, do** (and after *can, will, should, must*), always use the **
   ✗ *more cleverer* ✓ *cleverer*`,
           },
         },
+        {
+          heading: { en: 'Three degrees: positive, comparative, superlative', bn: 'তিনটি degree: positive, comparative, superlative' },
+          body: {
+            en: `**Positive** says a quality with no comparison: *Rina is tall.*
+**Comparative** compares **two**: *Rina is taller than Mina.*
+**Superlative** picks one out of a **group**: *Rina is the tallest girl in the class.*
+
+How to form them:
+
+| Type | Positive | Comparative | Superlative |
+|---|---|---|---|
+| Short word (1 syllable) | tall | tall**er** | the tall**est** |
+| Ends in -e | large | larg**er** | the larg**est** |
+| Ends in consonant + y | happy | happ**ier** | the happ**iest** |
+| Short vowel + one consonant | big | big**ger** | the big**gest** |
+| Long word (2+ syllables) | beautiful | **more** beautiful | the **most** beautiful |
+
+Irregular forms must be learnt by heart:
+
+| Positive | Comparative | Superlative |
+|---|---|---|
+| good / well | better | best |
+| bad / ill | worse | worst |
+| little | less | least |
+| much / many | more | most |
+| far | farther / further | farthest / furthest |`,
+            bn: `**Positive**-এ কোনো তুলনা নেই: *Rina is tall.*
+**Comparative**-এ **দুজনের** তুলনা: *Rina is taller than Mina.*
+**Superlative**-এ **দলের মধ্যে** একজনকে বেছে নেওয়া: *Rina is the tallest girl in the class.*
+
+গঠন:
+
+| ধরন | Positive | Comparative | Superlative |
+|---|---|---|---|
+| ছোট শব্দ (১ syllable) | tall | tall**er** | the tall**est** |
+| -e দিয়ে শেষ | large | larg**er** | the larg**est** |
+| ব্যঞ্জন + y দিয়ে শেষ | happy | happ**ier** | the happ**iest** |
+| ছোট স্বরধ্বনি + একটি ব্যঞ্জন | big | big**ger** | the big**gest** |
+| লম্বা শব্দ (২+ syllable) | beautiful | **more** beautiful | the **most** beautiful |
+
+অনিয়মিত রূপ মুখস্থ করতে হবে:
+
+| Positive | Comparative | Superlative |
+|---|---|---|
+| good / well | better | best |
+| bad / ill | worse | worst |
+| little | less | least |
+| much / many | more | most |
+| far | farther / further | farthest / furthest |`,
+          },
+        },
+        {
+          heading: { en: 'Comparison errors examiners love', bn: 'তুলনার যে ভুলগুলো পরীক্ষকরা ভালোবাসেন' },
+          body: {
+            en: `- **Double comparatives and double superlatives**: never use *more/most* together with *-er/-est*.
+  ✗ *She is more better than Mina.* ✓ *She is better than Mina.*
+  ✗ *He is the most tallest boy.* ✓ *He is the tallest boy.*
+- **"Than" or "to"?** Adjectives ending in **-or** take **to**, never *than*: *superior, inferior, junior, senior, prior*.
+  ✗ *He is senior than me.* ✓ *He is senior to me.*
+  ✗ *This is inferior than that.* ✓ *This is inferior to that.*
+  **Prefer** also takes **to**: ✓ *I prefer tea **to** coffee.* ✗ *I prefer tea than coffee.*
+- **as ... as / so ... as**: use the **positive** degree between them.
+  ✓ *She is **as tall as** Rina.* ✓ *She is **not so tall as** Rina.* (negative sentences often use *so*)
+  ✗ *She is as taller as Rina.*
+- **Comparing one with the rest of the group**: use **any other** with a comparative, and no *other* with a superlative.
+  ✗ *Rina is taller than any girl in the class.* ✓ *Rina is taller than **any other** girl in the class.*
+  ✓ *Rina is **the tallest** girl in the class.* (no *other* here)
+- **Long adjectives** take *more/most*, not *-er/-est*: ✗ *beautifuller* ✓ *more beautiful*.`,
+            bn: `- **দ্বিগুণ comparative ও superlative**: *more/most*-এর সঙ্গে *-er/-est* একসঙ্গে বসে না।
+  ✗ *She is more better than Mina.* ✓ *She is better than Mina.*
+  ✗ *He is the most tallest boy.* ✓ *He is the tallest boy.*
+- **"Than" না "to"?** **-or** দিয়ে শেষ হওয়া adjective-এর পরে **to** বসে, *than* নয়: *superior, inferior, junior, senior, prior*।
+  ✗ *He is senior than me.* ✓ *He is senior to me.*
+  ✗ *This is inferior than that.* ✓ *This is inferior to that.*
+  **Prefer**-এর পরেও **to** বসে: ✓ *I prefer tea **to** coffee.* ✗ *I prefer tea than coffee.*
+- **as ... as / so ... as**: মাঝে **positive** degree বসে।
+  ✓ *She is **as tall as** Rina.* ✓ *She is **not so tall as** Rina.* (না-বাচক বাক্যে অনেক সময় *so* বসে)
+  ✗ *She is as taller as Rina.*
+- **দলের বাকিদের সঙ্গে একজনের তুলনা**: comparative-এর সঙ্গে **any other** বসে, superlative-এ *other* বসে না।
+  ✗ *Rina is taller than any girl in the class.* ✓ *Rina is taller than **any other** girl in the class.*
+  ✓ *Rina is **the tallest** girl in the class.* (এখানে *other* নেই)
+- **লম্বা adjective**-এর সঙ্গে *more/most* বসে, *-er/-est* নয়: ✗ *beautifuller* ✓ *more beautiful*।`,
+          },
+        },
       ],
       examples: [
         {
@@ -259,5 +343,7 @@ After **did, does, do** (and after *can, will, should, must*), always use the **
     { en: 'Common mistake: "cousin brother" or "return back". Say *cousin* and *return*.', bn: 'সাধারণ ভুল: "cousin brother" বা "return back"। বলো *cousin* আর *return*।' },
     { en: 'When two options are both grammatical, choose the shorter one that keeps the meaning.', bn: 'দুটি option-ই ব্যাকরণগতভাবে ঠিক হলে, অর্থ বজায় রেখে যেটি ছোট সেটি বাছো।' },
     { en: 'Time words are your best clue to the tense: *ago*, *since*, *by the time*, *already*.', bn: 'Tense বোঝার সেরা সূত্র হল সময়ের শব্দ: *ago*, *since*, *by the time*, *already*।' },
+    { en: 'Exam clue: *superior, inferior, junior, senior* take *to*, never *than*: "senior than me" is wrong; say *senior to me*.', bn: 'পরীক্ষার সূত্র: *superior, inferior, junior, senior*-এর পরে *to* বসে, *than* নয়: "senior than me" ভুল; বলো *senior to me*।' },
+    { en: 'Exam clue: *prefer* takes *to*: "I prefer tea to coffee." Never "prefer than". And *as ... as* takes the positive degree: "as tall as Rina".', bn: 'পরীক্ষার সূত্র: *prefer*-এর পরে *to* বসে: "I prefer tea to coffee." "Prefer than" কখনও নয়। আর *as ... as*-এর মাঝে positive degree: "as tall as Rina"।' },
   ],
 };

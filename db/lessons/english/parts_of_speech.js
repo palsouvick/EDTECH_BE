@@ -94,6 +94,78 @@ A **pronoun** saves us from repeating the noun: *"Riya is late. **She** missed t
           },
         },
         {
+          heading: { en: 'Countable and uncountable nouns', bn: 'Countable ও uncountable noun' },
+          body: {
+            en: `**Countable nouns** can be counted: *one book, two books; a chair, three chairs*. They take **a/an** and have a **plural** form.
+
+**Uncountable nouns** cannot be counted one by one: *water, rice, milk, sugar, money, information, advice, furniture, luggage, news, homework, work*. They take **no a/an**, have **no plural**, and take a **singular verb**.
+
+✓ *The news **is** good.* ✗ *The news are good.*
+✓ *All the furniture **is** new.* ✗ *All the furnitures are new.*
+✓ *She gave me some good **advice**.* ✗ *She gave me some good advices.*
+
+Some nouns are both, with different meanings:
+- *paper*: a paper = a newspaper; paper = the material. *I bought a paper. I need some paper.*
+- *hair*: a hair = one strand; hair = all of it. *There is a hair in my soup. She has long hair.*
+- *glass*: a glass = a tumbler; glass = the material. *Give me a glass of water. The window is made of glass.*
+
+To count an uncountable noun, use a measuring word: *a **piece of** advice, a **piece of** information, a **bottle of** water, a **loaf of** bread, a **grain of** rice*.`,
+            bn: `**Countable noun** গোনা যায়: *one book, two books; a chair, three chairs*। এদের আগে **a/an** বসে আর **plural** রূপ হয়।
+
+**Uncountable noun** একটা একটা করে গোনা যায় না: *water, rice, milk, sugar, money, information, advice, furniture, luggage, news, homework, work*। এদের আগে **a/an বসে না**, **plural হয় না**, আর **singular verb** বসে।
+
+✓ *The news **is** good.* ✗ *The news are good.*
+✓ *All the furniture **is** new.* ✗ *All the furnitures are new.*
+✓ *She gave me some good **advice**.* ✗ *She gave me some good advices.*
+
+কিছু noun দুভাবেই বসে, অর্থ আলাদা:
+- *paper*: a paper = সংবাদপত্র; paper = কাগজ (উপাদান)। *I bought a paper. I need some paper.*
+- *hair*: a hair = একটি চুল; hair = সব চুল। *There is a hair in my soup. She has long hair.*
+- *glass*: a glass = গ্লাস (পাত্র); glass = কাচ (উপাদান)। *Give me a glass of water. The window is made of glass.*
+
+অগণনীয় noun গুনতে হলে পরিমাপের শব্দ বসাও: *a **piece of** advice, a **piece of** information, a **bottle of** water, a **loaf of** bread, a **grain of** rice*।`,
+          },
+        },
+        {
+          heading: { en: 'Much, many, few, little, some, any', bn: 'Much, many, few, little, some, any-এর ব্যবহার' },
+          body: {
+            en: `| Word | Used with | Meaning |
+|---|---|---|
+| much | uncountable | a large amount: *much water, much money* |
+| many | countable plural | a large number: *many books, many friends* |
+| few | countable plural | almost none: *few friends* |
+| a few | countable plural | some: *a few friends* |
+| little | uncountable | almost none: *little time* |
+| a little | uncountable | some: *a little milk* |
+
+- **some** is used in positive sentences: *I have some money. She bought some pens.*
+- **any** is used in negative sentences and questions: *I do not have any money. Do you have any pen?*
+
+Common errors:
+✗ *much books* ✓ *many books* — *much* never goes with a countable plural.
+✗ *many water* ✓ *much water* — *many* never goes with an uncountable noun.
+✗ *a little friends* ✓ *a few friends* — *little* is only for uncountable nouns.
+✗ *informations, furnitures, advices* ✓ *information, furniture, advice* — no plural form.`,
+            bn: `| শব্দ | কিসের সঙ্গে | অর্থ |
+|---|---|---|
+| much | অগণনীয় noun | অনেক পরিমাণ: *much water, much money* |
+| many | গণনীয় noun (বহুবচন) | অনেক সংখ্যা: *many books, many friends* |
+| few | গণনীয় noun (বহুবচন) | প্রায় নেই: *few friends* |
+| a few | গণনীয় noun (বহুবচন) | কিছু: *a few friends* |
+| little | অগণনীয় noun | প্রায় নেই: *little time* |
+| a little | অগণনীয় noun | কিছু: *a little milk* |
+
+- **some** বসে হ্যাঁ-বাচক বাক্যে: *I have some money. She bought some pens.*
+- **any** বসে না-বাচক বাক্যে ও প্রশ্নে: *I do not have any money. Do you have any pen?*
+
+সাধারণ ভুল:
+✗ *much books* ✓ *many books* — *much* গণনীয় বহুবচনের সঙ্গে বসে না।
+✗ *many water* ✓ *much water* — *many* অগণনীয় noun-এর সঙ্গে বসে না।
+✗ *a little friends* ✓ *a few friends* — *little* শুধু অগণনীয় noun-এর জন্য।
+✗ *informations, furnitures, advices* ✓ *information, furniture, advice* — এদের plural হয় না।`,
+          },
+        },
+        {
           heading: { en: 'Verb, adjective and adverb', bn: 'Verb, adjective ও adverb' },
           body: {
             en: `*"The old man walks slowly."*
@@ -454,5 +526,7 @@ Easy trap words: **hard / hardly** (*He worked **hard**.* ≠ *He **hardly** wor
     { en: 'Learn the plural of irregular nouns: child - children, woman - women, man - men.', bn: 'অনিয়মিত noun-এর plural শেখো: child - children, woman - women, man - men।' },
     { en: 'An "-ly" ending does not always mean an adverb: friendly and lovely are adjectives, and hard / fast / late are adverbs without -ly.', bn: '"-ly" থাকলেই adverb নয়: friendly ও lovely adjective, আর hard / fast / late -ly ছাড়াই adverb।' },
     { en: 'In error spotting, check pronoun case, preposition pairs (senior to, prefer to, married to) and uncountable nouns first; they are the favourite traps.', bn: 'Error spotting-এ আগে pronoun-এর case, preposition-এর জোড় (senior to, prefer to, married to) ও অগণনীয় noun দেখো; এগুলিই প্রিয় ফাঁদ।' },
+    { en: 'Exam clue: *information, advice, furniture, luggage* and *news* never take -s and never take *a/an*. Say *a piece of information*, not "an information".', bn: 'পরীক্ষার সূত্র: *information, advice, furniture, luggage* আর *news*-এ কখনও -s হয় না, *a/an*-ও বসে না। বলো *a piece of information*, "an information" নয়।' },
+    { en: 'Exam clue: *much* + uncountable, *many* + countable: "much books" and "many water" are both wrong.', bn: 'পরীক্ষার সূত্র: *much* + অগণনীয় noun, *many* + গণনীয় noun: "much books" আর "many water" দুটোই ভুল।' },
   ],
 };

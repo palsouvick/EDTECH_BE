@@ -134,6 +134,42 @@ Method: put each option in place of the word. The one that keeps the sentence's 
 পদ্ধতি: শব্দটার জায়গায় প্রতিটা option বসাও। যেটা বসালে বাক্যের মানে ঠিক থাকে, সেটাই উত্তর।`,
           },
         },
+        {
+          heading: { en: 'What is a cloze passage?', bn: 'Cloze passage কী?' },
+          body: {
+            en: `A **cloze passage** is a short passage with **blanks inside it** — usually 5 to 10 numbered gaps, each with four options. There are no separate questions: **the blanks are the questions**.
+
+How it differs from a normal passage:
+- In a normal passage you read first and answer questions afterwards.
+- In a cloze passage you must fill each blank **while** reading, using the sentences around it.
+- It tests **grammar and meaning together**: tense, article, preposition, conjunction, subject-verb agreement, vocabulary and the flow of ideas.
+
+Cloze tests appear regularly in WBPSC Clerkship, Miscellaneous and SSC exams. One passage can carry 5 to 10 marks, so it is worth learning properly.`,
+            bn: `**Cloze passage** হল ফাঁকাওয়ালা ছোট অনুচ্ছেদ — সাধারণত ৫ থেকে ১০টি নম্বর দেওয়া শূন্যস্থান, প্রতিটির চারটি option। আলাদা প্রশ্ন থাকে না: **শূন্যস্থানগুলোই প্রশ্ন**।
+
+সাধারণ passage-এর সঙ্গে তফাত:
+- সাধারণ passage-এ আগে পড়ো, তারপর প্রশ্নের উত্তর দাও।
+- Cloze passage-এ পড়তে পড়তেই প্রতিটি ফাঁকা পূরণ করতে হয়, আশেপাশের বাক্য দেখে।
+- এতে **ব্যাকরণ ও অর্থ একসঙ্গে** পরীক্ষা হয়: tense, article, preposition, conjunction, subject-verb agreement, vocabulary আর ভাবের ধারাবাহিকতা।
+
+WBPSC Clerkship, Miscellaneous ও SSC পরীক্ষায় cloze test নিয়মিত আসে। একটা passage থেকে ৫ থেকে ১০ নম্বর আসতে পারে, তাই ভালো করে শেখা দরকার।`,
+          },
+        },
+        {
+          heading: { en: 'How to solve a cloze passage, step by step', bn: 'Cloze passage সমাধানের ধাপে ধাপে কৌশল' },
+          body: {
+            en: `1. **Read the whole passage first** without filling any blank. Understand the story or idea. The first blank often becomes clear only from a later sentence.
+2. **Check grammar first.** Look at the words just before and after the blank: the tense (*has* or *had*?), the article (*a*, *an* or *the*?), the preposition (*in*, *on*, *at*?), the subject-verb agreement. Grammar often leaves only one option that fits.
+3. **Check the meaning.** Look for **signal words**: *but, however, yet, although* mean a change of direction; *and, moreover, also, besides* continue the same idea; *because, so, therefore* show a cause and its result. The blank must match the direction of the sentence.
+4. **Eliminate options.** Cross out every option that breaks the grammar or the meaning. Choose from what is left. If two options are left, pick the one that fits the tone and the sentence around it.
+5. **Read the passage again** with your answers in place. It must read smoothly from start to finish. If a sentence sounds odd, change that blank.`,
+            bn: `১. **আগে পুরো passage পড়ো**, কোনো ফাঁকা না পূরণ করে। গল্প বা ভাবনাটা বুঝে নাও। প্রথম ফাঁকাটা অনেক সময় পরের বাক্য থেকেই পরিষ্কার হয়।
+২. **আগে ব্যাকরণ দেখো।** ফাঁকার ঠিক আগে-পরের শব্দ দেখো: tense (*has* না *had*?), article (*a*, *an* না *the*?), preposition (*in*, *on*, *at*?), subject-verb agreement। ব্যাকরণ মেলালেই অনেক সময় একটাই option বেঁচে থাকে।
+৩. **অর্থ দেখো।** **Signal word** লক্ষ করো: *but, however, yet, although* মানে দিক বদল; *and, moreover, also, besides* মানে একই ভাব চলছে; *because, so, therefore* মানে কারণ ও তার ফল। ফাঁকাটিকে বাক্যের দিকের সঙ্গে মিলতে হবে।
+৪. **Option বাদ দাও।** ব্যাকরণ বা অর্থ ভাঙে এমন option কেটে দাও। যা বেঁচে থাকে তার থেকে বাছো। দুটি option বেঁচে থাকলে যেটি বাক্যের সুর ও আশেপাশের বাক্যের সঙ্গে মেলে সেটি নাও।
+৫. **উত্তর বসিয়ে passage আবার পড়ো।** শুরু থেকে শেষ পর্যন্ত মসৃণভাবে পড়া গেলে ঠিক আছে। কোনো বাক্য বেখাপ্পা লাগলে সেই ফাঁকাটি বদলাও।`,
+          },
+        },
       ],
       examples: [
         {
@@ -334,5 +370,7 @@ Rules:
     { en: 'Do not panic at a hard word. Read the sentence around it; the context usually explains it.', bn: 'কঠিন শব্দ দেখে ঘাবড়ে যেয়ো না। আশেপাশের বাক্য পড়ো; প্রসঙ্গই সাধারণত মানে বুঝিয়ে দেয়।' },
     { en: 'Practise daily: read one short English news article and say its main idea in one sentence.', bn: 'রোজ অভ্যাস করো: একটা ছোট English খবর পড়ে তার মূল ভাব এক বাক্যে বলো।' },
     { en: '"According to the passage" = the answer is written there. "Suggests / inferred" = think one step beyond the words, but stay inside the passage.', bn: '"According to the passage" = উত্তর লেখাই আছে। "Suggests / inferred" = লেখার এক ধাপ এগিয়ে ভাবো, কিন্তু passage-এর বাইরে যেয়ো না।' },
+    { en: 'Exam clue: in a cloze passage, read the whole passage before filling the first blank — a later sentence often gives the answer.', bn: 'পরীক্ষার সূত্র: cloze passage-এ প্রথম ফাঁকা পূরণের আগে পুরো passage পড়ো — পরের বাক্যেই উত্তর লুকিয়ে থাকে অনেক সময়।' },
+    { en: 'Exam clue: check grammar before meaning in a cloze blank — tense, article and preposition often leave only one option that fits.', bn: 'পরীক্ষার সূত্র: cloze-এর ফাঁকায় আগে ব্যাকরণ দেখো — tense, article আর preposition মেলালে অনেক সময় একটাই option বেঁচে থাকে।' },
   ],
 };

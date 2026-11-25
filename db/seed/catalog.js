@@ -58,6 +58,11 @@ const T = {
   synonyms_antonyms: L('Synonyms & Antonyms', 'সমার্থক ও বিপরীত শব্দ', 'पर्यायवाची और विलोम'),
   idioms_phrases: L('Idioms & Phrases', 'বাগধারা ও শব্দগুচ্ছ', 'मुहावरे और वाक्यांश'),
   one_word_substitution: L('One-Word Substitution', 'এক কথায় প্রকাশ', 'एक शब्द प्रतिस्थापन'),
+  // Foundations for a beginner (added 2026-11-25), first in the Learn order.
+  sentence_basics: L('Sentence Basics', 'বাক্যের গঠন (Sentence Basics)', 'वाक्य की बनावट (Sentence Basics)'),
+  prepositions: L('Prepositions', 'প্রিপোজিশন (Prepositions)', 'पूर्वसर्ग (Prepositions)'),
+  question_tags: L('Question Tags', 'কোয়েশ্চেন ট্যাগ (Question Tags)', 'क्वेश्चन टैग (Question Tags)'),
+  spelling: L('Spelling', 'বানান (Spelling)', 'वर्तनी (Spelling)'),
   // General Studies
   indian_history: L('Indian History', 'ভারতের ইতিহাস', 'भारतीय इतिहास'),
   geography: L('Geography', 'ভূগোল', 'भूगोल'),
@@ -166,9 +171,10 @@ const REASONING = topics(
   'analogy', 'coding_decoding', 'series', 'blood_relations', 'direction_sense', 'syllogism', 'seating_arrangement',
 );
 const ENGLISH = topics(
-  'parts_of_speech', 'articles', 'tenses', 'voice', 'narration', 'modals_conditionals',
-  'reading_comprehension', 'error_spotting', 'sentence_improvement', 'grammar',
-  'fill_blanks', 'synonyms_antonyms', 'idioms_phrases', 'one_word_substitution',
+  'sentence_basics', 'parts_of_speech', 'articles', 'tenses', 'grammar', 'prepositions',
+  'voice', 'narration', 'modals_conditionals', 'question_tags', 'reading_comprehension',
+  'error_spotting', 'sentence_improvement', 'fill_blanks', 'spelling',
+  'synonyms_antonyms', 'idioms_phrases', 'one_word_substitution',
 );
 const GS_CORE = ['indian_history', 'geography', 'polity', 'economy', 'general_science', 'current_affairs'];
 

@@ -337,5 +337,8 @@ Use only **one** joining word for one link. In Bengali we often say "though ... 
     { en: 'Bengali speakers often write "Though ... but". In English use only one: *Though it rained, we played.*', bn: 'বাংলার "যদিও ... তবুও" থেকে অনেকে "Though ... but" লেখে। ইংরেজিতে একটিই বসবে: *Though it rained, we played.*' },
     { en: '*Police* is always plural (*the police are*); *news* and *mathematics* are always singular (*the news is*).', bn: '*Police* সবসময় plural (*the police are*); *news* আর *mathematics* সবসময় singular (*the news is*)।' },
     { en: '*Hardly* goes with *when*; only *no sooner* goes with *than*.', bn: '*Hardly*-র সঙ্গে *when*; শুধু *no sooner*-এর সঙ্গে *than*।' },
+    { en: 'Exam clue: *each, every, either, neither* take a singular verb even when *of* + a plural noun follows: "Each of the students is present", not "are present".', bn: 'পরীক্ষার সূত্র: *each, every, either, neither*-এর পরে *of* + বহুবচন noun থাকলেও verb একবচন: "Each of the students is present", "are present" নয়।' },
+    { en: 'Exam clue: *one of the* + plural noun + singular verb: "One of my friends lives in Delhi", not "live".', bn: 'পরীক্ষার সূত্র: *one of the* + বহুবচন noun + একবচন verb: "One of my friends lives in Delhi", "live" নয়।' },
+    { en: 'Exam clue: *the number of* takes *is* (one number); *a number of* takes *are* (many): "The number of applicants is large. A number of students are absent."', bn: 'পরীক্ষার সূত্র: *the number of*-এর সঙ্গে *is* (একটি সংখ্যা); *a number of*-এর সঙ্গে *are* (অনেক): "The number of applicants is large. A number of students are absent."।' },
   ],
 };

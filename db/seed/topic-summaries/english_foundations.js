@@ -2,7 +2,8 @@
 
 /**
  * English Language concept sheets for the foundation grammar chapters:
- * Parts of Speech, Articles, Tenses, Voice, Narration, Modals & Conditionals.
+ * Sentence Basics, Parts of Speech, Articles, Tenses, Prepositions, Voice,
+ * Narration, Modals & Conditionals, Question Tags.
  * Explanations are bilingual; the English words and sentences being discussed stay in English.
  *
  *   node db/seed/topic-summaries/validate.js db/seed/topic-summaries/english_foundations.js
@@ -10,6 +11,92 @@
 
 module.exports = [
   // ─────────────────────────────────────────────────────────────── Parts of Speech
+  // ─────────────────────────────────────────────────────────────── Sentence Basics
+  {
+    subject: 'english',
+    topic: 'sentence_basics',
+    title: { en: 'Sentence Basics', bn: 'বাক্যের গঠন (Sentence Basics)', hi: 'वाक्य की बनावट (Sentence Basics)' },
+    overview: {
+      en: 'A sentence is a group of words that makes **complete sense**. Every sentence has two halves: the **subject** (who or what the sentence is about) and the **predicate** (what is said about the subject, always containing the verb). Most sentences follow **Subject + Verb + Object**, and English word order is fixed — changing it changes the meaning. There are five kinds: affirmative, negative, interrogative, imperative and exclamatory. Learn to divide a sentence into its halves first; then negatives, questions and sentence changes become easy, and error spotting and sentence improvement questions stop looking strange.',
+      bn: 'বাক্য হল শব্দের এমন একটি দল, যার **সম্পূর্ণ অর্থ** আছে। প্রতিটি বাক্যের দুটি অংশ থাকে: **subject** (বাক্যটি কার বা কী সম্পর্কে) ও **predicate** (subject সম্পর্কে যা বলা হয়েছে, যার মধ্যে সবসময় verb থাকে)। বেশিরভাগ বাক্য **Subject + Verb + Object** গঠন মেনে চলে, আর ইংরেজিতে শব্দের ক্রম নির্দিষ্ট — ক্রম বদলালে অর্থ বদলে যায়। বাক্য পাঁচ ধরনের হয়: affirmative, negative, interrogative, imperative ও exclamatory। আগে বাক্যকে দুটি অংশে ভাগ করতে শেখো; তারপর negative, প্রশ্ন ও বাক্য পরিবর্তন সহজ হয়ে যাবে, আর error spotting ও sentence improvement-এর প্রশ্ন আর অচেনা লাগবে না।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'Find the verb first, then the subject', bn: 'আগে verb খোঁজো, তারপর subject' },
+        body: {
+          en: 'Find the **verb** first. Then ask **who or what + verb?** The answer is the subject; everything else is the predicate. *The little boy in the red shirt kicked the ball* → verb *kicked*; who kicked? *The little boy in the red shirt* (the whole group, not only *boy*); predicate *kicked the ball*.',
+          bn: 'আগে **verb** খোঁজো। তারপর প্রশ্ন করো **কে বা কী + verb?** উত্তরটাই subject; বাকি সব predicate। *The little boy in the red shirt kicked the ball* → verb *kicked*; কে kicked? *The little boy in the red shirt* (পুরো দলটি, শুধু *boy* নয়); predicate *kicked the ball*।',
+        },
+      },
+      {
+        title: { en: 'Subject + Verb + Object, in that order', bn: 'Subject + Verb + Object, এই ক্রমেই' },
+        body: {
+          en: 'The **object** receives the action: ask **verb + what / whom?** *Mina bought a new pen* → bought what? *a new pen*. Some sentences have **two objects** (*Rahul gave me a pen*) and some have **no object** (*Birds fly. She sleeps.*). Never change the order: *The cat chased the dog* and *The dog chased the cat* mean different things.',
+          bn: '**Object** কাজটি গ্রহণ করে: প্রশ্ন করো **verb + কী / কাকে?** *Mina bought a new pen* → কী কিনল? *a new pen*। কিছু বাক্যে **দুটি object** থাকে (*Rahul gave me a pen*), কিছু বাক্যে **কোনো object থাকে না** (*Birds fly. She sleeps.*)। ক্রম কখনও বদলে ফেলো না: *The cat chased the dog* আর *The dog chased the cat* আলাদা অর্থ দেয়।',
+        },
+      },
+      {
+        title: { en: 'Negative: not after the helper, or do / does / did', bn: 'Negative: helper-এর পরে not, না হলে do / does / did' },
+        body: {
+          en: 'With a helping verb, put *not* just after it: *She **is not** happy. He **cannot** swim.* With no helping verb, bring in **do / does / did + not** and use the plain verb (V1): *He plays cricket* → *He **does not play** cricket*; *She went home* → *She **did not go** home*. The helping verb already carries the tense, so the main verb goes back to its plain form — never *does not plays* or *did not went*.',
+          bn: 'Helping verb থাকলে তার ঠিক পরে *not* বসাও: *She **is not** happy. He **cannot** swim.* Helping verb না থাকলে **do / does / did + not** আনো, আর verb-এর আসল রূপ (V1) ব্যবহার করো: *He plays cricket* → *He **does not play** cricket*; *She went home* → *She **did not go** home*। Helping verb নিজেই কাল বহন করে, তাই main verb আসল রূপে ফিরে যায় — কখনও *does not plays* বা *did not went* নয়।',
+        },
+      },
+      {
+        title: { en: 'Questions: turn the sentence round', bn: 'প্রশ্ন: বাক্যটিকে উল্টে দাও' },
+        body: {
+          en: 'For a **yes/no question**, move the helping verb before the subject: *She is happy* → ***Is** she happy?* With no helping verb, use **Do / Does / Did + subject + plain verb**: *He plays cricket* → ***Does** he **play** cricket?* A **wh-question** puts the wh-word first: ***Where** did she meet her friend?* But when **who** is the subject itself, there is no inversion and no do: *Who **wrote** this letter?*',
+          bn: '**Yes/no প্রশ্নের** জন্য helping verb-কে subject-এর আগে আনো: *She is happy* → ***Is** she happy?* Helping verb না থাকলে **Do / Does / Did + subject + verb-এর আসল রূপ** ব্যবহার করো: *He plays cricket* → ***Does** he **play** cricket?* **Wh-প্রশ্নে** wh-শব্দ আগে বসে: ***Where** did she meet her friend?* কিন্তু **who** নিজেই subject হলে inversion হয় না, do-ও বসে না: *Who **wrote** this letter?*',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'Find the verb first', bn: 'আগে verb খোঁজো' },
+        body: {
+          en: 'In a long sentence, find the verb first and ask "who or what + verb?" The answer is the whole subject, however long it is.',
+          bn: 'লম্বা বাক্যে আগে verb খোঁজো, তারপর প্রশ্ন করো "কে বা কী + verb?" উত্তরটাই পুরো subject, যত লম্বাই হোক।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'Does / did carries the tense', bn: 'Does / did কাল বহন করে' },
+        body: {
+          en: 'After *does* or *did*, the main verb is always plain: *does not play*, *did not go*. If you see *plays* or *went* after them, the option is wrong.',
+          bn: '*Does* বা *did*-এর পরে main verb সবসময় আসল রূপে থাকে: *does not play*, *did not go*। এদের পরে *plays* বা *went* দেখলে option ভুল।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'Who as subject needs no do', bn: 'Subject হিসেবে who-র do লাগে না' },
+        body: {
+          en: 'If the question word *who* is doing the action, write the sentence straight: *Who wrote this letter?* Never *Who did write this letter?*',
+          bn: 'প্রশ্নের শব্দ *who* নিজেই কাজটি করলে বাক্য সোজা লেখো: *Who wrote this letter?* কখনও *Who did write this letter?* নয়।',
+        },
+        approx_time_saved_sec: 10,
+      },
+    ],
+    common_traps: [
+      {
+        en: '**Taking only one word as the subject.** In *The little boy in the red shirt kicked the ball*, the whole group is the subject, not only *boy*.',
+        bn: '**শুধু একটি শব্দকে subject ধরা।** *The little boy in the red shirt kicked the ball*-এ পুরো দলটি subject, শুধু *boy* নয়।',
+      },
+      {
+        en: '**does not plays / did not went.** After *does* or *did* the verb is plain: *does not play*, *did not go*.',
+        bn: '**does not plays / did not went।** *Does* বা *did*-এর পরে verb আসল রূপে থাকে: *does not play*, *did not go*।',
+      },
+      {
+        en: '**A fragment looks like a sentence.** *Because he was ill.* cannot stand alone; it needs its main part: *Because he was ill, he stayed at home.*',
+        bn: '**Fragment বাক্যের মতো দেখায়।** *Because he was ill.* একা দাঁড়াতে পারে না; মূল অংশ লাগে: *Because he was ill, he stayed at home.*',
+      },
+      {
+        en: '**Mixing up the end marks.** A question always ends with **?** and a strong feeling with **!**: *What a beautiful garden!* is exclamatory, not a question.',
+        bn: '**শেষ চিহ্ন গুলিয়ে ফেলা।** প্রশ্ন সবসময় **?** দিয়ে শেষ হয়, জোরালো অনুভূতি **!** দিয়ে: *What a beautiful garden!* বিস্ময়বাচক, প্রশ্ন নয়।',
+      },
+    ],
+  },
+
   {
     subject: 'english',
     topic: 'parts_of_speech',
@@ -268,6 +355,99 @@ module.exports = [
   },
 
   // ─────────────────────────────────────────────────────────────── Voice
+  // ─────────────────────────────────────────────────────────────── Prepositions
+  {
+    subject: 'english',
+    topic: 'prepositions',
+    title: { en: 'Prepositions', bn: 'প্রিপোজিশন (Prepositions)', hi: 'पूर्वसर्ग (Prepositions)' },
+    overview: {
+      en: 'A preposition is a small word (*in, on, at, to, for, with*) placed before a noun or pronoun to show **place, time, direction, cause or manner**. They look tiny, but examiners test them in fill in the blanks, error spotting and sentence improvement in almost every paper. Two skills decide most questions: **at / on / in** by size (point, day, period; point, surface, inside), and **fixed pairs** — adjectives, verbs and nouns that each choose one preposition (*good at, depend on, reason for*), which must be learned whole because no logic guesses them. After a preposition, a pronoun takes the object form: *between you and **me***.',
+      bn: 'Preposition হল noun বা pronoun-এর আগে বসা ছোট শব্দ (*in, on, at, to, for, with*), যা **স্থান, সময়, দিক, কারণ বা ধরন** দেখায়। দেখতে ছোট, কিন্তু প্রায় প্রতিটি পরীক্ষায় fill in the blanks, error spotting ও sentence improvement-এ এদের নিয়ে প্রশ্ন আসে। দুটি দক্ষতাই বেশিরভাগ প্রশ্নের উত্তর ঠিক করে: মাপ অনুযায়ী **at / on / in** (মুহূর্ত, দিন, সময়কাল; বিন্দু, তল, ভেতর), আর **নির্দিষ্ট জোড়া** — adjective, verb ও noun, যারা প্রত্যেকে একটি preposition বেছে নেয় (*good at, depend on, reason for*), যেগুলো পুরো মুখস্থ করতে হয়, কারণ যুক্তি দিয়ে আন্দাজ করা যায় না। Preposition-এর পরে pronoun object রূপে বসে: *between you and **me***।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'Time: at a point, on a day, in a period', bn: 'সময়: at মুহূর্তে, on দিনে, in সময়কালে' },
+        body: {
+          en: 'Clock time and points take **at**: *at 5 o\'clock, at noon, at midnight, at dawn, at night*. A day or date takes **on**: *on Monday, on 15 August, on New Year\'s Day*. A month, season, year or part of a day takes **in**: *in June, in 2024, in summer, in the morning*. Remember **on time** (exactly at the fixed time) and **in time** (early enough, before it is too late).',
+          bn: 'ঘড়ির সময় ও মুহূর্তের আগে **at**: *at 5 o\'clock, at noon, at midnight, at dawn, at night*। দিন বা তারিখের আগে **on**: *on Monday, on 15 August, on New Year\'s Day*। মাস, ঋতু, বছর বা দিনের অংশের আগে **in**: *in June, in 2024, in summer, in the morning*। মনে রেখো **on time** (ঠিক নির্দিষ্ট সময়ে) আর **in time** (দেরি হওয়ার আগেই, যথেষ্ট আগে)।',
+        },
+      },
+      {
+        title: { en: 'Place: at a point, on a surface, in a closed space', bn: 'স্থান: at বিন্দুতে, on তলে, in বন্ধ জায়গায়' },
+        body: {
+          en: 'A point or address takes **at**: *at the gate, at home, at 12 Park Street*. A surface takes **on**: *on the table, on the wall, on the road*. Inside a closed space, town or country takes **in**: *in the room, in Kolkata, in India*. Transport trap: **on** the bus, train, plane and ship, but **in** the car, taxi and auto — a bus is big enough to walk in, a car is small and closed.',
+          bn: 'বিন্দু বা ঠিকানার আগে **at**: *at the gate, at home, at 12 Park Street*। তলের উপরে **on**: *on the table, on the wall, on the road*। বন্ধ জায়গা, শহর বা দেশের ভেতরে **in**: *in the room, in Kolkata, in India*। যানবাহনের ফাঁদ: বাস, ট্রেন, প্লেন ও জাহাজে **on**, কিন্তু গাড়ি, ট্যাক্সি ও অটোতে **in** — বাসে দাঁড়িয়ে হাঁটা যায়, গাড়ি ছোট ও বন্ধ।',
+        },
+      },
+      {
+        title: { en: 'Movement: into and onto; position: in and on', bn: 'চলন: into ও onto; অবস্থান: in ও on' },
+        body: {
+          en: '**Into** is movement to the inside (*The frog jumped **into** the pond*); **in** is already inside (*The fish swims **in** the pond*). **Onto** is movement to the top of a surface (*The cat jumped **onto** the roof*); **on** is resting on it (*The book is **on** the table*). Also: **to** for direction (*go to school*), **towards** for the direction without arrival, **across** from one side to the other, **through** from one end to the other inside, **along** beside a line.',
+          bn: '**Into** হল ভেতরের দিকে চলন (*The frog jumped **into** the pond*); **in** হল ইতিমধ্যে ভেতরে (*The fish swims **in** the pond*)। **Onto** হল তলের উপরে ওঠা (*The cat jumped **onto** the roof*); **on** হল তলের উপর থাকা (*The book is **on** the table*)। আরও: দিক বোঝাতে **to** (*go to school*), না পৌঁছে দিকে চলতে **towards**, এক পাশ থেকে অন্য পাশে **across**, ভেতর দিয়ে এক প্রান্ত থেকে অন্য প্রান্তে **through**, রেখা ধরে পাশ দিয়ে **along**।',
+        },
+      },
+      {
+        title: { en: 'Fixed pairs are learned whole', bn: 'নির্দিষ্ট জোড়া পুরো শেখো' },
+        body: {
+          en: 'Adjectives: *good **at**, interested **in**, afraid **of**, fond **of**, famous **for**, surprised **at**, worried **about**, married **to**, senior **to**, different **from***. Verbs: *depend **on**, believe **in**, listen **to**, wait **for**, look **after** (care for) / look **for** (search), suffer **from**, deal **with**, consist **of**, rely **on**, belong **to***. Nouns: *reason **for**, cause **of**, answer **to**, key **to**, invitation **to**, fear **of**, access **to**, attention **to**, increase **in**, difference **between***. In the exam, read the word before the blank first — if it is one of these, the pair gives the answer at once.',
+          bn: 'Adjective: *good **at**, interested **in**, afraid **of**, fond **of**, famous **for**, surprised **at**, worried **about**, married **to**, senior **to**, different **from***। Verb: *depend **on**, believe **in**, listen **to**, wait **for**, look **after** (দেখাশোনা করা) / look **for** (খোঁজা), suffer **from**, deal **with**, consist **of**, rely **on**, belong **to***। Noun: *reason **for**, cause **of**, answer **to**, key **to**, invitation **to**, fear **of**, access **to**, attention **to**, increase **in**, difference **between***। পরীক্ষায় আগে ফাঁকার আগের শব্দটি পড়ো — সেটি এই তালিকার একটি হলে জোড়াটিই সঙ্গে সঙ্গে উত্তর দিয়ে দেবে।',
+        },
+      },
+      {
+        title: { en: 'Look-alikes, and verbs that take no preposition', bn: 'দেখতে একরকম জোড়া, আর যেসব verb-এর preposition লাগে না' },
+        body: {
+          en: '**Between** is for two, **among** for more than two. **Beside** means next to; **besides** means in addition to. **Since** + a point in time with the perfect tense (*since 2019*); **for** + a period (*for five years*). **By** is the doer or a deadline; **with** is the tool. And some verbs take **no** preposition at all: *discuss, enter* (a place), *return, comprise, describe, emphasise, reach, resemble, await* — *discuss **about*** and *comprise **of*** are errors. Note: *enter **into** an agreement* is correct, because *enter into* is the fixed phrase for a contract.',
+          bn: '**Between** দুইয়ের জন্য, **among** দুইয়ের বেশির জন্য। **Beside** মানে পাশে; **besides** মানে এছাড়াও। **Since** + সময়ের বিন্দু, perfect tense-এর সঙ্গে (*since 2019*); **for** + সময়কাল (*for five years*)। **By** হল যে করেছে বা শেষ সময়সীমা; **with** হল যন্ত্র। আর কিছু verb-এর **কোনো** preposition লাগে না: *discuss, enter* (জায়গা), *return, comprise, describe, emphasise, reach, resemble, await* — *discuss **about*** আর *comprise **of*** ভুল। মনে রেখো: *enter **into** an agreement* ঠিক, কারণ চুক্তির ক্ষেত্রে *enter into* নির্দিষ্ট বাক্যাংশ।',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'Point, day, period', bn: 'মুহূর্ত, দিন, সময়কাল' },
+        body: {
+          en: 'Ask: is it a point, a day or a period? Point → **at**, day → **on**, period → **in**. *at 9 am, on Monday, in June* — decide in two seconds.',
+          bn: 'প্রশ্ন করো: মুহূর্ত, দিন, না সময়কাল? মুহূর্ত → **at**, দিন → **on**, সময়কাল → **in**। *at 9 am, on Monday, in June* — দুই সেকেন্ডে ঠিক করো।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'Read the word before the blank', bn: 'ফাঁকার আগের শব্দটি পড়ো' },
+        body: {
+          en: 'If the blank follows *good, interested, depend, reason, key* or another table word, the fixed pair answers at once — do not translate from Bengali.',
+          bn: 'ফাঁকার আগে *good, interested, depend, reason, key* বা তালিকার অন্য শব্দ থাকলে নির্দিষ্ট জোড়াই সঙ্গে সঙ্গে উত্তর দেবে — বাংলা থেকে অনুবাদ করো না।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'Since a point, for a period', bn: 'Since বিন্দু, for সময়কাল' },
+        body: {
+          en: 'See a year or a day name after the blank → **since**. See *five years* or *two hours* → **for**. *since 2019, for five years*.',
+          bn: 'ফাঁকার পরে বছর বা দিনের নাম দেখলে → **since**। *five years* বা *two hours* দেখলে → **for**। *since 2019, for five years*।',
+        },
+        approx_time_saved_sec: 10,
+      },
+    ],
+    common_traps: [
+      {
+        en: '**in Monday / at June / in 9 am.** Days take *on*, months take *in*, clock time takes *at*: *on Monday, in June, at 9 am*.',
+        bn: '**in Monday / at June / in 9 am।** দিনের আগে *on*, মাসের আগে *in*, ঘড়ির সময়ের আগে *at*: *on Monday, in June, at 9 am*।',
+      },
+      {
+        en: '**in the bus / good in maths / married with.** Public transport takes *on*; skill takes *good at*; marriage takes *married to*.',
+        bn: '**in the bus / good in maths / married with।** গণপরিবহনে *on*; দক্ষতায় *good at*; বিয়েতে *married to*।',
+      },
+      {
+        en: '**discuss about / comprise of / enter into the room.** These verbs take no preposition; the extra word is the error.',
+        bn: '**discuss about / comprise of / enter into the room।** এই verb-গুলোর preposition লাগে না; বাড়তি শব্দটাই ভুল।',
+      },
+      {
+        en: '**for 2019 / since five years.** *Since* goes with a point (*since 2019*); *for* goes with a period (*for five years*) — never the other way round.',
+        bn: '**for 2019 / since five years।** *Since* বিন্দুর সঙ্গে (*since 2019*); *for* সময়কালের সঙ্গে (*for five years*) — কখনও উল্টো নয়।',
+      },
+    ],
+  },
+
   {
     subject: 'english',
     topic: 'voice',
@@ -521,6 +701,92 @@ module.exports = [
       {
         en: '**must have went.** After *must have*, *should have* and *could have* the verb is V3: *must have gone*.',
         bn: '**must have went।** *must have*, *should have*, *could have*-এর পরে V3: *must have gone*।',
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────── Question Tags
+  {
+    subject: 'english',
+    topic: 'question_tags',
+    title: { en: 'Question Tags', bn: 'কোয়েশ্চেন ট্যাগ (Question Tags)', hi: 'क्वेश्चन टैग (Question Tags)' },
+    overview: {
+      en: 'A question tag is a tiny question added to the end of a statement: *You are coming, **aren\'t you?*** We use tags to confirm something or ask for agreement, and exams test them in error spotting, fill in the blanks and sentence improvement. One small rule decides almost every answer: the tag is always the **opposite** of the statement — positive statement, negative tag; negative statement, positive tag. The tag copies the **helping verb** of the statement (or *do / does / did* when there is none) and always ends with a **pronoun**, never a name.',
+      bn: 'Question tag হল বিবৃতির শেষে যোগ করা একটি ছোট্ট প্রশ্ন: *You are coming, **aren\'t you?*** কিছু নিশ্চিত করতে বা সম্মতি জানতে আমরা tag ব্যবহার করি, আর পরীক্ষায় error spotting, fill in the blanks ও sentence improvement-এ এদের নিয়ে প্রশ্ন আসে। একটি ছোট্ট নিয়মই প্রায় প্রতিটি উত্তরের চাবিকাঠি: tag সবসময় বিবৃতির **উল্টো** হয় — হ্যাঁ-বাচক বিবৃতি হলে না-বাচক tag; না-বাচক বিবৃতি হলে হ্যাঁ-বাচক tag। Tag বিবৃতির **helping verb** নকল করে (না থাকলে *do / does / did*), আর সবসময় **pronoun** দিয়ে শেষ হয়, নাম দিয়ে নয়।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'Opposite polarity: the see-saw rule', bn: 'উল্টো উত্তর: দোলনার নিয়ম' },
+        body: {
+          en: 'Positive statement → **negative** tag with *n\'t*: *She is happy, **isn\'t** she? He can swim, **can\'t** he?* Negative statement → **positive** tag with no *n\'t*: *She is not happy, **is** she? He cannot swim, **can** he?* Both parts are never positive together and never negative together. *Cannot* counts as negative.',
+          bn: 'হ্যাঁ-বাচক বিবৃতি → *n\'t* দিয়ে **না-বাচক** tag: *She is happy, **isn\'t** she? He can swim, **can\'t** he?* না-বাচক বিবৃতি → *n\'t* ছাড়া **হ্যাঁ-বাচক** tag: *She is not happy, **is** she? He cannot swim, **can** he?* দুটি অংশ একসঙ্গে হ্যাঁ-বাচকও হয় না, না-বাচকও হয় না। *Cannot* না-বাচক হিসেবে ধরা হয়।',
+        },
+      },
+      {
+        title: { en: 'Copy the auxiliary; no auxiliary, borrow do', bn: 'Auxiliary নকল করো; না থাকলে do ধার নাও' },
+        body: {
+          en: 'The tag uses the **same auxiliary** as the statement: *be* (*isn\'t she?*), *have* as a helper (*hasn\'t he?*), a modal (*can\'t she? won\'t they?* — *will* becomes ***won\'t***). With no auxiliary, use **do / does / did** matching the tense: simple present with he/she/it → *does* (*He plays football, **doesn\'t** he?*); other persons → *do*; simple past → *did* (*The boys went home, **didn\'t** they?*).',
+          bn: 'Tag-এ বিবৃতির **একই auxiliary** বসে: *be* (*isn\'t she?*), helper হিসেবে *have* (*hasn\'t he?*), modal (*can\'t she? won\'t they?* — *will* হয় ***won\'t***)। Auxiliary না থাকলে কাল মিলিয়ে **do / does / did** ব্যবহার করো: he/she/it-এর সঙ্গে simple present → *does* (*He plays football, **doesn\'t** he?*); বাকিদের সঙ্গে → *do*; simple past → *did* (*The boys went home, **didn\'t** they?*)।',
+        },
+      },
+      {
+        title: { en: 'Always a pronoun; special subjects and negative words', bn: 'সবসময় pronoun; বিশেষ subject ও না-বাচক শব্দ' },
+        body: {
+          en: 'The tag subject is **always a pronoun**: *Rahul is late, isn\'t **he**?* — never *isn\'t Rahul*. **Nobody, everybody, somebody, anyone** take **they**; **nothing, everything, something** take **it**. And *nobody* and *nothing* **mean** negative, so their tags are **positive**: *Nobody called, **did** they? Nothing happened, **did** it?* The same holds for **never, hardly, scarcely, seldom, rarely, few, little**: *He never comes late, **does** he? Few students passed, **did** they?* But *a few* (some) is positive: *A few students passed, **didn\'t** they?*',
+          bn: 'Tag-এর subject **সবসময় pronoun**: *Rahul is late, isn\'t **he**?* — *isn\'t Rahul* কখনও নয়। **Nobody, everybody, somebody, anyone**-এর pronoun **they**; **nothing, everything, something**-এর pronoun **it**। আর *nobody* ও *nothing* **অর্থে** না-বাচক, তাই এদের tag **হ্যাঁ-বাচক**: *Nobody called, **did** they? Nothing happened, **did** it?* একই নিয়ম **never, hardly, scarcely, seldom, rarely, few, little**-এর ক্ষেত্রেও: *He never comes late, **does** he? Few students passed, **did** they?* কিন্তু *a few* (কিছু) হ্যাঁ-বাচক: *A few students passed, **didn\'t** they?*',
+        },
+      },
+      {
+        title: { en: 'The fixed exceptions', bn: 'নির্দিষ্ট ব্যতিক্রমগুলি' },
+        body: {
+          en: '***I am** → **aren\'t I?*** (there is no *amn\'t*); *I am not → am I?* ***Let\'s** → **shall we?*** (a suggestion). **Imperatives** (orders and requests) take ***will you?***: *Open the door, **will you?*** **Used to** → *did*: *He used to play, **didn\'t** he?* **Have got** → *have*: *She has got a car, **hasn\'t** she?* **There** stays *there*: *There is little hope, **is there?*** And when *have* means **owning**, it is a main verb, so use *do*: *She has a car, **doesn\'t** she?* (but *She has finished, **hasn\'t** she?*).',
+          bn: '***I am** → **aren\'t I?*** (*amn\'t* বলে কিছু নেই); *I am not → am I?* ***Let\'s** → **shall we?*** (প্রস্তাব)। **Imperative** (আদেশ ও অনুরোধ) নেয় ***will you?***: *Open the door, **will you?*** **Used to** → *did*: *He used to play, **didn\'t** he?* **Have got** → *have*: *She has got a car, **hasn\'t** she?* **There** একই থাকে: *There is little hope, **is there?*** আর *have* যখন **মালিকানা** বোঝায়, তখন সেটি main verb, তাই *do* বসে: *She has a car, **doesn\'t** she?* (কিন্তু *She has finished, **hasn\'t** she?*)।',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'See-saw first', bn: 'আগে দোলনা দেখো' },
+        body: {
+          en: 'Decide the polarity first: positive statement → tag with *n\'t*; negative statement → tag without it. Half the options die at this step.',
+          bn: 'আগে উত্তর ঠিক করো: হ্যাঁ-বাচক বিবৃতি → *n\'t* সহ tag; না-বাচক বিবৃতি → *n\'t* ছাড়া tag। অর্ধেক option এই ধাপেই কাটা যায়।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'No helper? Borrow do', bn: 'Helper নেই? Do ধার নাও' },
+        body: {
+          en: 'No helping verb in the statement? Borrow *do*: present + he/she/it → *does*; other persons → *do*; past → *did*. Then add *n\'t* if the statement is positive.',
+          bn: 'বিবৃতিতে helping verb নেই? *Do* ধার নাও: বর্তমান কাল + he/she/it → *does*; বাকি সব → *do*; অতীত কাল → *did*। তারপর বিবৃতি হ্যাঁ-বাচক হলে *n\'t* যোগ করো।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'Nobody and nothing mean negative', bn: 'Nobody ও nothing অর্থে না-বাচক' },
+        body: {
+          en: 'See *nobody, nothing, never, hardly, few* and keep the tag positive at once: *Nobody called, did they? She hardly speaks, does she?*',
+          bn: '*Nobody, nothing, never, hardly, few* দেখলেই tag হ্যাঁ-বাচক রাখো: *Nobody called, did they? She hardly speaks, does she?*',
+        },
+        approx_time_saved_sec: 10,
+      },
+    ],
+    common_traps: [
+      {
+        en: '**Repeating the name in the tag.** *Rahul is late, isn\'t Rahul?* is wrong; use the pronoun: *isn\'t **he**?*',
+        bn: '**Tag-এ নামের পুনরাবৃত্তি।** *Rahul is late, isn\'t Rahul?* ভুল; pronoun ব্যবহার করো: *isn\'t **he**?*',
+      },
+      {
+        en: '**Wrong tense in the tag.** *He played, doesn\'t he?* is wrong; the past needs *did*: *He played, **didn\'t** he?*',
+        bn: '**Tag-এ ভুল কাল।** *He played, doesn\'t he?* ভুল; অতীতের জন্য *did* লাগে: *He played, **didn\'t** he?*',
+      },
+      {
+        en: '**Nobody called, didn\'t they?** *Nobody* means negative, so the tag is positive: *Nobody called, **did** they?*',
+        bn: '**Nobody called, didn\'t they?** *Nobody* অর্থে না-বাচক, তাই tag হ্যাঁ-বাচক: *Nobody called, **did** they?*',
+      },
+      {
+        en: '**I am your friend, amn\'t I?** There is no *amn\'t* in English; the fixed tag is ***aren\'t I?***',
+        bn: '**I am your friend, amn\'t I?** ইংরেজিতে *amn\'t* বলে কিছু নেই; নির্দিষ্ট tag হল ***aren\'t I?***',
       },
     ],
   },

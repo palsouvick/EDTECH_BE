@@ -510,5 +510,17 @@ Other patterns to remember:
       en: 'After did, does, do and will, the main verb is in its base form: did not go, does not know, will go.',
       bn: 'did, does, do ও will-এর পরে main verb মূল রূপে: did not go, does not know, will go।',
     },
+    {
+      en: 'Exam clue: He / She / It + V1 + s/es in the simple present. "He go to school" is wrong; say "He goes to school".',
+      bn: 'পরীক্ষার সূত্র: He / She / It + V1 + s/es (simple present)। "He go to school" ভুল; বলো "He goes to school"।',
+    },
+    {
+      en: 'Exam clue: "has gone" means still away; "has been" means went and came back. "She has been to Puri, so she is not at home" is wrong.',
+      bn: 'পরীক্ষার সূত্র: "has gone" মানে এখনও সেখানে; "has been" মানে গিয়ে ফিরে এসেছে। "She has been to Puri, so she is not at home" ভুল।',
+    },
+    {
+      en: 'Exam clue: "since" + a point in time (Monday, 2015); "for" + a length of time (ten years). "Since ten years" is wrong.',
+      bn: 'পরীক্ষার সূত্র: "since" + সময়ের একটি বিন্দু (Monday, 2015); "for" + সময়ের দৈর্ঘ্য (ten years)। "Since ten years" ভুল।',
+    },
   ],
 };

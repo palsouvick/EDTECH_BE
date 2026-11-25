@@ -535,5 +535,17 @@ Remember: **but for** / **if it had not been for** = "if it had not happened": *
       en: 'In a formal email use "Could you please ..." for requests and "Should you need ..." for offers of help.',
       bn: 'আনুষ্ঠানিক ইমেলে অনুরোধে "Could you please ..." আর সাহায্যের প্রস্তাবে "Should you need ..." ব্যবহার করো।',
     },
+    {
+      en: 'Exam clue: "must" has no past form. For the past use "had to": "He had to work late yesterday", not "He must go yesterday".',
+      bn: 'পরীক্ষার সূত্র: "must"-এর past রূপ নেই। অতীতে "had to": "He had to work late yesterday", "He must go yesterday" নয়।',
+    },
+    {
+      en: 'Exam clue: "should have" = regret (advice not followed); "needn\'t have" = done but not necessary: "You should have told me." "You needn\'t have hurried."',
+      bn: 'পরীক্ষার সূত্র: "should have" = আফসোস (উপদেশ মানা হয়নি); "needn\'t have" = করা হয়েছে, কিন্তু দরকার ছিল না: "You should have told me." "You needn\'t have hurried."।',
+    },
+    {
+      en: 'Exam clue: "used to" + base verb = past habit; "be used to" + -ing = accustomed: "I am used to getting up early", not "used to get up early".',
+      bn: 'পরীক্ষার সূত্র: "used to" + মূল রূপ = অতীতের অভ্যাস; "be used to" + -ing = অভ্যস্ত: "I am used to getting up early", "used to get up early" নয়।',
+    },
   ],
 };

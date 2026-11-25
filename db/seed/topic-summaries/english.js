@@ -519,6 +519,99 @@ module.exports = [
   },
 
   // ─────────────────────────────────────────────────────────────── Synonyms & Antonyms
+  // ─────────────────────────────────────────────────────────────── Spelling
+  {
+    subject: 'english',
+    topic: 'spelling',
+    title: { en: 'Spelling', bn: 'বানান (Spelling)', hi: 'वर्तनी (Spelling)' },
+    overview: {
+      en: 'Spelling questions ask you to pick the **correctly spelt word** from four look-alike options: *accommodation* or *accomodation*, *separate* or *seperate*, *receive* or *recieve*. The ear cannot be trusted — saying a word fast hides double letters and silent letters. Five rules decide most questions: **ie / ei**, **doubling** the last consonant, **dropping the e**, **y becoming i**, and **-able / -ible**. Learn the rules, then learn the short list of exam words that break them or repeat every year. In the exam, cover the options, spell the word yourself first, and only then match — never pick the option that merely "looks right".',
+      bn: 'বানানের প্রশ্নে চারটি দেখতে একরকম option থেকে **সঠিক বানানের** শব্দটি বেছে নিতে হয়: *accommodation* না *accomodation*, *separate* না *seperate*, *receive* না *recieve*। কানে শুনে ভরসা করা যায় না — জোরে বললে দ্বিত্ব অক্ষর আর নীরব অক্ষর ঢাকা পড়ে। পাঁচটি নিয়মই বেশিরভাগ প্রশ্নের উত্তর ঠিক করে: **ie / ei**, শেষ ব্যঞ্জনবর্ণের **দ্বিত্ব**, **e বাদ দেওয়া**, **y-এর i হওয়া**, আর **-able / -ible**। নিয়মগুলো শেখো, তারপর পরীক্ষায় বারবার আসা শব্দের ছোট তালিকাটি মুখস্থ করো। পরীক্ষায় option ঢেকে দাও, আগে নিজে বানান করো, তারপর মেলাও — "দেখতে ঠিক লাগছে" বলে কখনও বেছো না।',
+    },
+    formulas: [],
+    derivation_rules: [
+      {
+        title: { en: 'i before e, except after c', bn: 'i before e, শুধু c-এর পরে ব্যতিক্রম' },
+        body: {
+          en: 'When the sound is *ee*, write **ie** — *believe, field, piece, chief, friend* — **except after c**, where it is **ei**: *receive, deceive, ceiling, conceive*. Learn the exceptions by heart: *weird, seize, protein, height, foreign, neither, leisure* break the rule. In the exam, first check whether a **c** stands before the *ie / ei* pair.',
+          bn: 'উচ্চারণ *ee* হলে **ie** লেখো — *believe, field, piece, chief, friend* — **শুধু c-এর পরে ব্যতিক্রম**, সেখানে **ei**: *receive, deceive, ceiling, conceive*। ব্যতিক্রমগুলো মুখস্থ করো: *weird, seize, protein, height, foreign, neither, leisure* নিয়ম ভাঙে। পরীক্ষায় আগে দেখো *ie / ei* জোড়ার আগে **c** আছে কি না।',
+        },
+      },
+      {
+        title: { en: 'Doubling the last consonant', bn: 'শেষ ব্যঞ্জনবর্ণের দ্বিত্ব' },
+        body: {
+          en: 'One vowel + one consonant at the end of a short word → **double the consonant** before *-ed, -ing* or *-er*: *big → bigger, run → running, stop → stopped, occur → occurred, begin → beginning*. **No doubling** after two vowels (*read → reading*), after two consonants (*help → helped*), or after *x, w, y* (*fix → fixed, play → played*). Most doubling questions fail on *beginning* (double n) and *occurrence* (double c, double r).',
+          bn: 'ছোট শব্দের শেষে একটি স্বরবর্ণ + একটি ব্যঞ্জনবর্ণ → *-ed, -ing* বা *-er*-এর আগে **ব্যঞ্জনবর্ণ দ্বিত্ব** হয়: *big → bigger, run → running, stop → stopped, occur → occurred, begin → beginning*। **দ্বিত্ব হয় না** দুটি স্বরবর্ণের পরে (*read → reading*), দুটি ব্যঞ্জনবর্ণের পরে (*help → helped*), বা *x, w, y*-এর পরে (*fix → fixed, play → played*)। দ্বিত্বের প্রশ্ন বেশিরভাগ আটকায় *beginning* (দুটি n) আর *occurrence* (দুটি c, দুটি r)-এ।',
+        },
+      },
+      {
+        title: { en: 'Drop the e before a vowel suffix', bn: 'স্বরবর্ণের প্রত্যয়ের আগে e বাদ' },
+        body: {
+          en: 'A silent **e** at the end drops before a suffix that starts with a vowel: *make → making, hope → hoping, write → writing, smile → smiling*. Before a consonant suffix it stays: *hope → hopeful, care → careful*. **Keep the e** after *ce / ge* before *a* or *o*, so the soft sound survives: *noticeable, courageous, changeable*. And keep it in *dyeing* and *singeing*, or the meaning changes (*dying, singing*).',
+          bn: 'শেষের নীরব **e** স্বরবর্ণ দিয়ে শুরু প্রত্যয়ের আগে বাদ যায়: *make → making, hope → hoping, write → writing, smile → smiling*। ব্যঞ্জনবর্ণের প্রত্যয়ের আগে e থাকে: *hope → hopeful, care → careful*। *ce / ge*-এর পরে *a* বা *o* এলে **e থাকে**, যাতে নরম উচ্চারণ বাঁচে: *noticeable, courageous, changeable*। আর *dyeing* ও *singeing*-এ e থাকে, না হলে অর্থ বদলে যায় (*dying, singing*)।',
+        },
+      },
+      {
+        title: { en: 'Consonant + y becomes i', bn: 'ব্যঞ্জনবর্ণ + y হয়ে যায় i' },
+        body: {
+          en: '**Consonant + y → i** before most endings: *happy → happiness, carry → carried, baby → babies, easy → easily*. **Vowel + y stays**: *play → played, enjoy → enjoyed, key → keys*. And before **-ing**, *y* **always stays**: *study → studying, carry → carrying, try → trying*. Exam trap: *studied* (i) but *studying* (y) — the same word changes by the suffix.',
+          bn: '**ব্যঞ্জনবর্ণ + y → i** হয় বেশিরভাগ প্রত্যয়ের আগে: *happy → happiness, carry → carried, baby → babies, easy → easily*। **স্বরবর্ণ + y থাকলে y থাকে**: *play → played, enjoy → enjoyed, key → keys*। আর **-ing**-এর আগে *y* **সবসময় থাকে**: *study → studying, carry → carrying, try → trying*। পরীক্ষার ফাঁদ: *studied* (i) কিন্তু *studying* (y) — একই শব্দ প্রত্যয় অনুযায়ী বদলায়।',
+        },
+      },
+      {
+        title: { en: '-able or -ible? A whole word takes -able', bn: '-able না -ible? পুরো শব্দ হলে -able' },
+        body: {
+          en: 'If the part before the ending is a **whole word**, use **-able**: *enjoy → enjoyable, comfort → comfortable, break → breakable, depend → dependable*. If the root **cannot stand alone** as a word, use **-ible**: *vis-ible, respons-ible, poss-ible, terr-ible, aud-ible*. Two more endings: **-ful** has one *l* (*beautiful, careful*) but **-fully** has two (*carefully, beautifully*); *-ic* adjectives take **-ically** (*basically, logically*), except *publicly*.',
+          bn: 'শেষাংশের আগের অংশ **পুরো শব্দ** হলে **-able** বসে: *enjoy → enjoyable, comfort → comfortable, break → breakable, depend → dependable*। মূল অংশ **একা শব্দ নয়** হলে **-ible** বসে: *vis-ible, respons-ible, poss-ible, terr-ible, aud-ible*। আরও দুটি শেষাংশ: **-ful**-এ একটি *l* (*beautiful, careful*), কিন্তু **-fully**-তে দুটি (*carefully, beautifully*); *-ic* adjective **-ically** নেয় (*basically, logically*), ব্যতিক্রম *publicly*।',
+        },
+      },
+    ],
+    speed_tricks: [
+      {
+        title: { en: 'Cover, spell, match', bn: 'ঢেকে দাও, বানান করো, মেলাও' },
+        body: {
+          en: 'Cover the options, spell the word yourself, then uncover and match. The wrong options are built to look right at a glance.',
+          bn: 'Option ঢেকে দাও, নিজে বানান করো, তারপর ঢাকা সরিয়ে মেলাও। ভুল option-গুলো এক নজরে ঠিক দেখানোর জন্যই বানানো।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'Say it in parts', bn: 'অংশে ভাগ করে বলো' },
+        body: {
+          en: 'Say the word slowly in parts: *ac-com-mo-da-tion, def-i-nite-ly, ne-ce-ssa-ry*. The tricky part is usually a double letter that fast speech hides.',
+          bn: 'শব্দটি ধীরে ধীরে অংশে ভাগ করে বলো: *ac-com-mo-da-tion, def-i-nite-ly, ne-ce-ssa-ry*। কঠিন জায়গাটি সাধারণত দ্বিত্ব অক্ষর, যা জোরে বললে ঢাকা পড়ে।',
+        },
+        approx_time_saved_sec: 10,
+      },
+      {
+        title: { en: 'Three checks in order', bn: 'পরপর তিনটি পরীক্ষা' },
+        body: {
+          en: 'Check in this order: (1) *ie / ei* — is there a *c* before it? (2) double letters — *cc, mm, ss, rr, tt*? (3) silent letters — *k, h, w, b*? Most spelling questions fail on one of these three.',
+          bn: 'এই ক্রমে পরীক্ষা করো: (1) *ie / ei* — তার আগে *c* আছে কি? (2) দ্বিত্ব অক্ষর — *cc, mm, ss, rr, tt*? (3) নীরব অক্ষর — *k, h, w, b*? বেশিরভাগ বানানের প্রশ্ন এই তিনটির একটিতে আটকায়।',
+        },
+        approx_time_saved_sec: 15,
+      },
+    ],
+    common_traps: [
+      {
+        en: '**recieve / beleive / seperate / definately.** Correct: *receive* (ei after c), *believe* (ie), *separate* (sep-a-**rat**-e), *definitely* (de-**finite**-ly).',
+        bn: '**recieve / beleive / seperate / definately।** সঠিক: *receive* (c-এর পরে ei), *believe* (ie), *separate* (sep-a-**rat**-e), *definitely* (de-**finite**-ly)।',
+      },
+      {
+        en: '**begining / writting.** *Begin* doubles its *n* (*beginning*); *write* drops its *e* and keeps one *t* (*writing*).',
+        bn: '**begining / writting।** *Begin*-এর *n* দ্বিত্ব হয় (*beginning*); *write*-এর *e* বাদ যায়, *t* একটি থাকে (*writing*)।',
+      },
+      {
+        en: '**fourty / grammer / calender / tommorrow.** Correct: *forty* (no *u*), *grammar* and *calendar* (end in *-ar*), *tomorrow* (one *m*, double *r*).',
+        bn: '**fourty / grammer / calender / tommorrow।** সঠিক: *forty* (*u* নেই), *grammar* ও *calendar* (শেষে *-ar*), *tomorrow* (একটি *m*, দুটি *r*)।',
+      },
+      {
+        en: '**principal / principle.** One letter changes the meaning: the *pal* at the end of *principal* is the head of the school, your *pal*; *principle* is a rule.',
+        bn: '**principal / principle।** একটি অক্ষরে অর্থ বদলে যায়: *principal*-এর শেষে *pal* আছে — স্কুলের প্রধান, তোমার বন্ধু (*pal*); *principle* হল নীতি।',
+      },
+    ],
+  },
+
   {
     subject: 'english',
     topic: 'synonyms_antonyms',

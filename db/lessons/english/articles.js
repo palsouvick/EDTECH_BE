@@ -418,5 +418,8 @@ Also remember: **a black and a white cat** = two cats; **a black and white cat**
     { en: 'Games, languages, meals, cities and persons: no article. Rivers, seas, ranges and newspapers: *the*.', bn: 'খেলা, ভাষা, খাবার, শহর ও ব্যক্তি: article নেই। নদী, সাগর, পর্বতমালা ও সংবাদপত্র: *the*।' },
     { en: 'In error spotting, check every noun for a missing or extra article, especially after *play*, *by*, *go to* and with superlatives.', bn: 'Error spotting-এ প্রতিটি noun দেখো article বাদ গেছে বা বাড়তি আছে কি না, বিশেষ করে *play*, *by*, *go to*-এর পরে আর superlative-এ।' },
     { en: 'Do not choose "the" just because the sentence "feels" definite. Look for a clue: already mentioned, only one, superlative, ordinal.', bn: 'বাক্যটি নির্দিষ্ট "মনে হয়" বলেই "the" বেছো না। সূত্র খোঁজো: আগে উল্লেখ, একমাত্র জিনিস, superlative, ordinal।' },
+    { en: 'Exam clue: general ideas take no article — "Honesty is the best policy", not "The honesty is the best policy". Use *the* only when it is one particular thing: "The honesty of this boy surprised me."', bn: 'পরীক্ষার সূত্র: সাধারণ ভাবের আগে article বসে না — "Honesty is the best policy", "The honesty is the best policy" নয়। নির্দিষ্ট একটি জিনিস হলে *the*: "The honesty of this boy surprised me."।' },
+    { en: 'Exam clue: *the only, the same* and *the very* always take *the*: the only student, the same college, the very first day.', bn: 'পরীক্ষার সূত্র: *the only, the same* আর *the very*-এর আগে সবসময় *the*: the only student, the same college, the very first day।' },
+    { en: 'Exam clue: in "The more you practise, the better you speak", both parts take *the*. Do not drop either one.', bn: 'পরীক্ষার সূত্র: "The more you practise, the better you speak"-এ দুটি অংশেই *the* বসে। একটাও বাদ দিও না।' },
   ],
 };

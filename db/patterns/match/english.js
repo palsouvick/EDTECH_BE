@@ -252,4 +252,39 @@ module.exports = {
       ],
     },
   },
+
+  sentence_basics: {
+    sentence_kinds: {
+      stem: [
+        /\bkind of sentence\b/i,
+        /\b(?:interrogative|imperative|exclamatory) sentence\b/i,
+      ],
+    },
+    fragments: {
+      stem: [/\bfragment\b/i],
+    },
+  },
+
+  prepositions: {
+    // The generator's fixed-preposition questions carry this subtopic; the
+    // stem alone cannot tell an adjective pair from a verb pair, so no stem rule.
+    fixed_pairs: { subtopics: ['fixed_prepositions'] },
+  },
+
+  question_tags: {
+    // Same proven stem rules as the grammar chapter's question_tags rule, scoped
+    // to this chapter's own questions; the key here is tag_basics, not a copy.
+    tag_basics: { stem: [/\bquestion tag\b/i, /,\s*_{2,}\s*\?/] },
+  },
+
+  spelling: {
+    choose_correct_spelling: {
+      stem: [
+        /\bcorrectly spelt\b/i,
+        /\bcorrect spelling\b/i,
+        /\bmisspelt\b/i,
+        /\bspelt correctly\b/i,
+      ],
+    },
+  },
 };

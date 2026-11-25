@@ -560,5 +560,17 @@ Exam tip: first find the **reporting verb** (past or present?), then the **type*
       en: 'In pronoun questions ask two things: who is speaking, and who is listening? Then change I, you, my, your to match.',
       bn: 'Pronoun-এর প্রশ্নে দুটি জিনিস ভাবো: কে বলছে, আর কে শুনছে? তারপর I, you, my, your মিলিয়ে বদলাও।',
     },
+    {
+      en: 'Exam clue: "must" usually becomes "had to" in indirect speech. He said, "I must go." -> He said that he had to go.',
+      bn: 'পরীক্ষার সূত্র: indirect speech-এ "must" সাধারণত "had to" হয়। He said, "I must go." -> He said that he had to go।',
+    },
+    {
+      en: 'Exam clue: a yes/no question takes "if" or "whether", never "that". "He asked me that I was ready" is wrong.',
+      bn: 'পরীক্ষার সূত্র: হ্যাঁ/না প্রশ্নে "if" বা "whether" বসে, "that" নয়। "He asked me that I was ready" ভুল।',
+    },
+    {
+      en: 'Exam clue: never write "that what" in an exclamation. "She exclaimed that what a beautiful sight it was" is wrong; say "She exclaimed that it was a very beautiful sight".',
+      bn: 'পরীক্ষার সূত্র: বিস্ময়ে কখনও "that what" লিখো না। "She exclaimed that what a beautiful sight it was" ভুল; বলো "She exclaimed that it was a very beautiful sight"।',
+    },
   ],
 };
