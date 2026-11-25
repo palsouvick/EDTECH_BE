@@ -5,6 +5,8 @@ module.exports = {
   TopicSummary: require('./TopicSummary'),
   ExamCategory: require('./ExamCategory'),
   MockSession: require('./MockSession'),
+  MockPaper: require('./MockPaper'),
+  MockPaperAttempt: require('./MockPaperAttempt'),
   Bookmark: require('./Bookmark'),
   QuestionReport: require('./QuestionReport'),
   QuestionImportBatch: require('./QuestionImportBatch'),

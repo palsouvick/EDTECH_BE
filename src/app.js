@@ -38,6 +38,9 @@ function createApp() {
   app.use(compression({ threshold: 1024 }));
   // GK bulk import (admin only, checked by requireAdmin before use) carries up to 500 facts.
   app.use('/api/v1/admin/gk/import', express.json({ limit: '2mb' }));
+  // Pasted mock papers (admin only) can exceed the default limit: a long paper
+  // is well over 100kb of JSON. The Zod schema caps the pasted text itself.
+  app.use('/api/v1/admin/mock-papers', express.json({ limit: '2mb' }));
   app.use(express.json({ limit: '100kb' }));
 
   // Liveness, not readiness: HTTP 200 whenever this process can answer at all.
