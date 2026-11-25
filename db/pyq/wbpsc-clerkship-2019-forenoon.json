@@ -1356,7 +1356,7 @@
     },
     "content": {
       "en": {
-        "question_text": "How many elected seats are there in the Lok Sabha?",
+        "question_text": "How many seats are there in Lok Sabha?",
         "options": [
           {
             "id": "A",
@@ -1375,10 +1375,10 @@
             "text": "550"
           }
         ],
-        "explanation": "Fact: The Lok Sabha has 543 elected seats. Context: These 543 members are directly elected from territorial constituencies across states and union territories; the figure is standard for the present Lok Sabha. Why not 545: 545 was the earlier total strength including two formerly nominated Anglo-Indian members; elected seats are 543."
+        "explanation": "Fact: The official answer key (exam of 25 January 2020) gives 545: 543 members elected from constituencies plus 2 members of the Anglo-Indian community nominated by the President. Context: The 104th Constitutional Amendment ended the nomination of Anglo-Indian members, so the Lok Sabha now has 543 seats, all elected. Why not 543 here: 543 is only the elected seats; this paper asked for the total, which was 545 at the time."
       },
       "bn": {
-        "question_text": "Lok Sabha-তে নির্বাচিত আসন কতগুলি আছে?",
+        "question_text": "লোকসভায় আসন সংখ্যা কত?",
         "options": [
           {
             "id": "A",
@@ -1397,7 +1397,7 @@
             "text": "550"
           }
         ],
-        "explanation": "তথ্য: Lok Sabha-তে 543টি নির্বাচিত আসন আছে। প্রেক্ষাপট: এই 543 জন সদস্য রাজ্য ও কেন্দ্রশাসিত অঞ্চলের আঞ্চলিক কেন্দ্রগুলি থেকে সরাসরি নির্বাচিত হন; বর্তমান Lok Sabha-র জন্য এই সংখ্যাই প্রামাণ্য। কেন 545 নয়: 545 ছিল আগের মোট সংখ্যা, যার মধ্যে দুজন প্রাক্তন মনোনীত Anglo-Indian সদস্য ছিলেন; নির্বাচিত আসন 543।"
+        "explanation": "তথ্য: সরকারি উত্তরমালা (২৫ জানুয়ারি ২০২০-এর পরীক্ষা) অনুযায়ী উত্তর 545: কেন্দ্রগুলি থেকে নির্বাচিত 543 জন এবং রাষ্ট্রপতি মনোনীত 2 জন অ্যাংলো-ইন্ডিয়ান সদস্য। প্রেক্ষাপট: ১০৪তম সংবিধান সংশোধনে অ্যাংলো-ইন্ডিয়ান সদস্য মনোনয়ন বন্ধ হয়েছে, তাই এখন লোকসভায় আসন 543টি, সবই নির্বাচিত। কেন 543 নয়: 543 শুধু নির্বাচিত আসন; এই প্রশ্নপত্রে মোট আসন জানতে চাওয়া হয়েছিল, যা তখন ছিল 545।"
       }
     },
     "correct_option_id": "C"

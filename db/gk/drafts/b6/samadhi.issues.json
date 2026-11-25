@@ -1,0 +1,57 @@
+[
+ {
+  "item": "Chaudhary Charan Singh - Kisan Ghat",
+  "reason": "GK-IGK-310 from PIB photo archive caption (OFFICIAL) plus News on AIR and The Tribune.",
+  "status": "RECOVERED"
+ },
+ {
+  "item": "Giani Zail Singh - Ekta Sthal",
+  "reason": "No fetched page names Ekta Sthal for Zail Singh. Tribune (Tarlochan) only says Sikh religion does not allow samadhis; archaeology.delhi.gov.in/7845 is about the Bawana Zail monument; Asian Age mentions Ekta Sthal only for a proposed Narasimha Rao memorial.",
+  "status": "DROPPED"
+ },
+ {
+  "item": "Morarji Desai - Abhay Ghat",
+  "reason": "Only The Tribune (all-but-1-ex-pms-have-samadhis) says Abhay Ghat, Sabarmati bank, Ahmedabad. Lok Sabha PDFs on eparlib.nic.in could not be fetched (host does not resolve). One reference source is not enough.",
+  "status": "DROPPED"
+ },
+ {
+  "item": "Gulzarilal Nanda - Narayan Ghat",
+  "reason": "Tribune says only that Nanda memorial is in various parts of the country; no source fetched names Narayan Ghat or Sadachar Sthal.",
+  "status": "DROPPED"
+ },
+ {
+  "item": "Dr Rajendra Prasad - Mahaprayan Ghat, Patna",
+  "reason": "GK-IGK-311 uses Rajendra Ghat, Patna (Bihar Governor page, OFFICIAL). Other reports say Bans Ghat (Business Standard/PTI, IANS) and one IANS caption says Mahaprayan Ghat; only city and Rajendra Ghat asked.",
+  "status": "RECOVERED (name conflict)"
+ },
+ {
+  "item": "Smriti Sthal / Rashtriya Smriti Sthal as a separate row",
+  "reason": "GK-IGK-312 covers Rashtriya Smriti via Business Standard (PTI) and Asian Age (Narasimha Rao memorial ghat). Pranab Mukherjee memorial there: only Scroll found, one source, not used. Gyan Bhumi (Hyderabad, Tribune) conflicts with the Delhi report and has one source, not used.",
+  "status": "PARTLY RECOVERED"
+ },
+ {
+  "item": "Gyan Bhoomi / Kranti Bhumi / Uday Bhoomi",
+  "reason": "No allowed official page found whose text names both the person and this place. Searched pmindia.gov.in (site search), presidentofindia.gov.in (site search), vicepresidentofindia.nic.in (site search); fetched matching PM pages and checked their text. No page names both the person and the place.",
+  "status": "DROPPED"
+ },
+ {
+  "item": "Manmohan Singh and Pranab Mukherjee memorials",
+  "reason": "No allowed official page found whose text names both the person and this place. Searched pmindia.gov.in (site search), presidentofindia.gov.in (site search), vicepresidentofindia.nic.in (site search); fetched matching PM pages and checked their text. No page names both the person and the place. Only a media-coverage reprint (land earmarked for Pranab Mukherjee memorial) was found; not an official page and no place name; not used.",
+  "status": "DROPPED"
+ },
+ {
+  "item": "Chaitya Bhoomi described as Ambedkar's samadhi",
+  "reason": "Kept as 'memorial dedicated to Ambedkar' because the PM page says only that; no fetched official page calls it a samadhi.",
+  "status": "REWORDED"
+ },
+ {
+  "item": "Search engines (Bing, Brave, DuckDuckGo, Mojeek)",
+  "reason": "Not usable for finding PIB URLs (blocked or irrelevant). PIB pages were therefore not used; sources are PM, President and Vice President site pages.",
+  "status": "NOTE"
+ },
+ {
+  "item": "Chandra Shekhar - Jannayak Sthal",
+  "reason": "Only Business Standard/PTI (22 Apr 2015) says the samadhi will be called Jannayak Sthal; Tribune article does not mention it. One reference source only.",
+  "status": "DROPPED"
+ }
+]

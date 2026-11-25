@@ -1,0 +1,44 @@
+[
+  {
+    "file": "db/gk/drafts/b6/pen_names.jsonl",
+    "stem": "DROPPED (found, but judged not exam-useful or not a pen name): Mohitlal Majumdar (Krittivas Ojha, Sabyasachi, Sri Satyasundar Das), Satyendranath Dutta (Nabakumar, Kaviratna, ...), Manik Bandyopadhyay (given name Prabodh Kumar; Manik a nickname), Achintya Kumar Sengupta (Niharika Devi), Dwijendranath Tagore, Pramathanath Bishi (Pranabi, Haturi ...), Matiur Rahman Khan, Nirmal Sen (Aniket), Bidhayak Bhattacharya, many Bangladesh journalists and Urdu or Persian takhallus entries",
+    "problem": "The table is capped at 20 rows per pack and these are rarely asked. Manik Bandyopadhyay's page calls Manik a nickname, not a pen name. Mohitlal's pseudonym 'Krittivas Ojha' collides with the Ramayana poet. They can be added in a later batch if wanted.",
+    "source_url": "https://en.banglapedia.org/index.php/Bandyopadhyay,_Manik",
+    "quote": "His given name was Prabodh Kumar; Manik was his nickname."
+  },
+  {
+    "file": "db/pyq/wbpsc-clerkship-2007.json",
+    "stem": "Pushpa Kamal Dahal is better known as",
+    "problem": "NOT linked. 'Prachanda' is a nom de guerre of a Nepali politician, not a literary pen name, and no allowed source was fetched for it. Listed only because the pen-name grep matched its explanation.",
+    "source_url": "https://en.banglapedia.org/index.php/Banglapedia:About",
+    "quote": "(none)"
+  },
+  {
+    "file": "db/gk/drafts/b6/pen_names.jsonl",
+    "stem": "DOUBT: spellings and readings",
+    "problem": "(1) Banglapedia spells Syed Mujtaba Ali as 'Muztaba'; common spelling used. (2) Banglapedia's 'Uchchhrbkhal' is written Uchchhrinkhal. (3) 'Kalpencha' is rendered কালপেঁচা in Bengali (common form); Banglapedia lists 'Kalpenchar Naksa' among his works but does not say that book was published under the pseudonym. (4) Orwell Foundation page says 'Motihari, Bengal' (Motihari is in present-day Bihar); no question asks the place. (5) 'Anthony Firingee' page uses the word pseudonym and gives Hensman Anthony as original name. (6) Nobel pages show a drop-cap space ('P ablo Neruda'); quotes were checked with whitespace ignored. (7) Banglapedia says Kaikobad's Mahashmashan is based on the Third Panipat War, matching existing History facts. (8) Bengali transliterations of foreign names (ক্লেমেন্স, তিবো, গোদয় আলকায়াগা, রেইয়েস বাসোয়ালতো) need the Bengali reviewer.",
+    "source_url": "https://en.banglapedia.org/index.php/Ali,_Syed_Muztaba",
+    "quote": "under different pseudonyms such as 'Satyapir', 'Rai Pithora', 'Omar Khaiyam', 'Tekchand', 'Priyadarshi'."
+  },
+  {
+    "file": "db/gk/drafts/b6/pen_names.jsonl",
+    "stem": "STILL DROPPED: Kamalakanta (Bankim Chandra Chattopadhyay)",
+    "problem": "Only one allowed reference found: EBSCO Research Starters lists Kamalakanter daptar among Chatterji's humorous sketches but does not say Kamalakanta is a pen name. kids.britannica.com, britannica.com and core.ac.uk returned HTTP 403 (no workaround attempted). Banglapedia has no Kamalakanter Daptar page and lists Kamalakanta among the pseudonyms of Pramathanath Bishi. A question \"Kamalakanter Daptar was written by\" would also need a second reference, so it was not written.",
+    "source_url": "https://www.ebsco.com/research-starters/history/bankim-chandra-chatterji",
+    "quote": "humorous sketches (such as Kamalakanter daptar )"
+  },
+  {
+    "file": "db/gk/drafts/b6/pen_names.jsonl",
+    "stem": "STILL DROPPED: Nirala (Suryakant Tripathi), Jarasandha, Jajabar, Rupadarshi, Abadhut, Mouchhi, Gulzar, Boz (Dickens), Voltaire, Saki, O. Henry, Lewis Carroll, George Eliot, Mo Yan, Bachchan, Amrita Pritam",
+    "problem": "indianculture.gov.in/node/2832041 renders only \"You need to enable JavaScript\". Britannica pages (britannica.com and kids.britannica.com, direct and via WebFetch) all returned HTTP 403, so no second reference could be fetched. No candidate URLs were supplied for the Bengali ones, and no search tool was available. A request through the Wayback Machine to get around the 403s was blocked by the permission system and not retried.",
+    "source_url": "https://indianculture.gov.in/node/2832041",
+    "quote": "(page needs JavaScript; no text)"
+  },
+  {
+    "file": "db/gk/drafts/b6/pen_names.jsonl",
+    "stem": "DOUBT: recovered facts GK-WBG-270, GK-WBG-271, GK-SGK-254",
+    "problem": "(1) Sunil Gangopadhyay: Financial Express (BD), The Daily Star (BD) and Deccan Herald agree (the Millennium Post obituary has the same text as Deccan Herald). The Daily Star quote starts mid-list (\"he was the creator of ... Kakababu Among his pen-names are ...\") because bullets were stripped. (2) Bhanusingha: Banglapedia states the Padavali and year; The Scottish Centre of Tagore Studies says Bhanusingha is Tagore's imagined persona (\"heteronyms\"). Neither uses the words \"pen name\". ThePrint (403 to curl; through WebFetch only a paraphrase \"under the pen name, Bhanusingha\" came back, which cannot be quoted verbatim) and pressreader (403/empty) could not be quoted. The fact therefore asks \"assumed name\". The existing stem with \"pen name\" is linked in GK-WBG-261 on the strength of the answer only; a checker may wish to confirm ThePrint's wording in a browser. (3) Premchand: PIB New India Samachar page 8 calls Dhanpat Rai his \"childhood name\"; the page is laid out in interleaved columns, so quotes are short contiguous fragments (\"name was Dhanpat Rai.\"). \"Nawab Rai\" is not on the page and is not claimed. The fact asks \"childhood name\", not \"pen name\".",
+    "source_url": "https://newindiasamachar.pib.gov.in/WriteReadData/flipbook/2024/Jul/2nd/English/files/basic-html/page8.html",
+    "quote": "name was Dhanpat Rai."
+  }
+]
