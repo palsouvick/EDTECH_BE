@@ -5,9 +5,10 @@
  * questions, the difficulty, the time and the mode, and gets a test built ONLY from those
  * chapters.
  *
- *   exam mode      the CBT exam screen (/mock/:id): countdown, palette, mark for review,
- *                  answers and explanations only after submitting; official WBPSC Clerkship
- *                  marking for the subject (services/markingScheme.js)
+ *   exam mode      the CBT exam screen (/mock/:id): countdown, palette, mark for review;
+ *                  "Check answer" shows one question's answer and explanation during the test
+ *                  and locks that answer; official WBPSC Clerkship marking for the subject
+ *                  (services/markingScheme.js)
  *   practice mode  one question at a time; each answer is checked straight away (and locked)
  *                  with its explanation, shortcut and related concept; +1, no negative marks
  *
@@ -768,7 +769,8 @@ function explanationOf(q) {
  */
 async function checkAnswer(userId, sessionId, { questionId, selectedOptionId }) {
   const session = await customSessionOr404(userId, sessionId, '+answer_key');
-  if (session.custom.mode !== 'practice') throw AppError.conflict('NOT_PRACTICE_MODE', 'Answers are shown after an exam-mode test is submitted');
+  // Exam mode too (owner 2026-11-26: a "Check answer" button on the exam screen); either way
+  // the first checked answer is final, so seeing the key can never raise the score.
   if (session.status !== 'ACTIVE' || mock.deadlinePassed(session, new Date())) throw AppError.conflict('SESSION_NOT_ACTIVE', 'This test is no longer active');
 
   const sid = String(session._id);

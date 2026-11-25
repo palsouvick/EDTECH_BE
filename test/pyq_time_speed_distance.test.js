@@ -39,6 +39,11 @@ const hourLabel = (h) => (h === 12 ? '12 noon' : `${h % 12 || 12} ${h < 12 ? 'a.
 const SOLVERS = {
   average_speed(s, fw) {
     let x; let y;
+    if (fw === 'three_equal') {
+      // total distance 3 units: time = 1/x + 1/y + 1/z
+      const [a, b, c] = [...s.matchAll(/(\d+) km\/h/g)].map((m) => Number(m[1]));
+      return `${show(F(3 * a * b * c, b * c + a * c + a * b))} km/h`;
+    }
     if (fw === 'percent') {
       [x] = nums(/at a speed of (\d+) km\/h/, s);
       const [p] = nums(/the speed by (\d+)%/, s);
@@ -93,6 +98,17 @@ const SOLVERS = {
       let left = D; let v = v0; let mins = 0;
       while (left > v * k) { left -= v * k; mins += 60 * k; v += inc; }
       return duration(mins + (left * 60) / v).en;
+    }
+    if (fw === 'fraction_total_time') {
+      const [, fw0] = /covers ([a-z-]+) of a/.exec(s); const [p, q] = WORDFRAC[fw0];
+      const [D, v1, v2] = nums(/of a (\d+) km distance at (\d+) km\/h and the rest at (\d+) km\/h/, s);
+      return duration((D * p * 60) / (q * v1) + (D * (q - p) * 60) / (q * v2)).en;
+    }
+    if (fw === 'fraction_average') {
+      const [, fw0] = /covers ([a-z-]+) of a journey/.exec(s); const [p, q] = WORDFRAC[fw0];
+      const [v1, v2] = nums(/journey at (\d+) km\/h and the remaining distance at (\d+) km\/h/, s);
+      // distance q·v1·v2: time = p·v2 + (q − p)·v1
+      return `${show(F(q * v1 * v2, p * v2 + (q - p) * v1))} km/h`;
     }
     if (fw === 'unequal_parts') {
       const [d1, v1] = nums(/first (\d+) km of a journey at (\d+) km\/h/, s); const [d2, v2] = nums(/next (\d+) km at (\d+) km\/h/, s);
@@ -180,6 +196,10 @@ test('the solvers reproduce the PYQ answers', () => {
   assert.equal(SOLVERS.speed_ratio_time('The speed of an electric train is 25% more than that of a steam-engine train. The steam-engine train takes 4 hours 25 minutes to cover a certain distance. How long will the electric train take to cover the same distance?', 'percent_faster'), '3 hours 32 minutes');
   assert.equal(SOLVERS.speed_for_remaining_part('Ravi has to cover a distance of 6 km in 45 minutes. If one-half of the distance is covered in two-thirds of the total time, what must the speed be to cover the remaining distance in the remaining time?', 'fraction_time'), '12 km/h');
   assert.equal(SOLVERS.speed_for_remaining_part('Ravi decided to cover a distance of 6 km in 84 minutes. Ravi covers two-thirds of the distance at 4 km/h and the rest at a different speed. What is the speed for the remaining distance?', 'fraction_speed'), '5 km/h');
+  // Owner-supplied questions (2026-11-25): Q1 is the fraction_speed key above.
+  assert.equal(SOLVERS.part_journey_speeds('A person covers three-fifths of a 120 km distance at 36 km/h and the rest at 24 km/h. How much time is taken for the whole journey?', 'fraction_total_time'), '4 hours');
+  assert.equal(SOLVERS.average_speed('A driver drives from town A to town B at 40 km/h and comes back over the same road at 60 km/h. Find the average speed for the round trip.', 'round_trip'), '48 km/h');
+  assert.equal(SOLVERS.average_speed('A car covers the first one-third of a distance at 20 km/h, the next one-third at 30 km/h and the last one-third at 60 km/h. What is the average speed for the whole journey?', 'three_equal'), '30 km/h');
   assert.equal(SOLVERS.meeting_staggered_start('X and Y are 465 km apart. A train starts from X towards Y at 10:00 a.m. at 65 km/h. Another train leaves Y towards X at 11:00 a.m. at 35 km/h. At what time do the trains meet?', 'late_start'), '3:00 p.m.');
   assert.equal(SOLVERS.meeting_staggered_start('A train starts from Howrah at 8 a.m. and reaches Bardhaman at 12 noon. Another train leaves Bardhaman at 9 a.m. and reaches Howrah at 12 noon. When do the two trains meet?', 'timetable'), '17 1/7 min past 10 a.m.');
   assert.equal(SOLVERS.meeting_staggered_start('Two trains start at the same time, at 60 km/h and 30 km/h, towards each other from two stations 120 km apart. The faster train stops 40 minutes after its departure. After how many minutes from the start will the other train meet it?', 'stops'), '160 minutes');

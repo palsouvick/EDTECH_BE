@@ -4,11 +4,13 @@
  * Time, Speed & Distance: standard-level practice for the PYQ types that had too few
  * questions of the same kind (see db/patterns/pyq_map/quant/time_speed_distance.json).
  * One generator per pattern, each with several exam framings:
- *   average_speed            go at x, return at y / return y% slower / half the distance at each speed
+ *   average_speed            go at x, return at y / return y% slower / half the distance at each speed /
+ *                            thirds of the distance at x, y, z
  *   boats_streams            equal times down & up, down/up speeds, "1 km in 6 minutes"
  *   basic_units              counting telephone posts, laps of a field, m/s <-> km/h with fractions
  *   meeting_point            where (how far from A) two people walking towards each other meet
- *   part_journey_speeds      speed rising every 2 hours, unequal parts, hours at each speed
+ *   part_journey_speeds      speed rising every 2 hours, unequal parts, hours at each speed,
+ *                            "3/5 of 120 km at 36, rest at 24" -> total time / average speed
  *   speed_ratio_time         speed ratio -> speed / distance, three-car time ratio, "25% faster"
  *   speed_for_remaining_part cover D km in T min after part is done
  *   meeting_staggered_start  towards each other with a later start, timetable trains, one train stops
@@ -85,9 +87,41 @@ const twoPlaces = () => shuffle(PLACES).slice(0, 2);
 // =====================================================================
 // average_speed
 // =====================================================================
-const AVG_FRAMINGS = ['round_trip', 'school', 'train', 'percent', 'half_distance'];
+const AVG_FRAMINGS = ['round_trip', 'school', 'train', 'percent', 'half_distance', 'three_equal'];
+
+/** One-third of the distance at each of three speeds: average = 3xyz / (xy + yz + zx). */
+function averageSpeedThirds() {
+  const [x, y, z] = shuffle([10, 12, 15, 20, 24, 30, 36, 40, 45, 48, 60, 72, 80, 90, 120]).slice(0, 3);
+  const den = x * y + y * z + z * x;
+  const ans = fr(3 * x * y * z, den);
+  if (ans[1] > 5) return null;
+  const veh = pick([['A car', 'একটি গাড়ি'], ['A bus', 'একটি বাস'], ['A train', 'একটি ট্রেন'], ['A man', 'একজন লোক']]);
+  const stem = T(
+    `${veh[0]} covers the first one-third of a distance at ${x} km/h, the next one-third at ${y} km/h and the last one-third at ${z} km/h. What is the average speed for the whole journey?`,
+    `${veh[1]} মোট দূরত্বের প্রথম 1/3 অংশ ঘণ্টায় ${x} কিমি বেগে, পরবর্তী 1/3 অংশ ঘণ্টায় ${y} কিমি বেগে এবং শেষ 1/3 অংশ ঘণ্টায় ${z} কিমি বেগে অতিক্রম করে। সমগ্র যাত্রাপথে গড় গতিবেগ কত?`,
+  );
+  const opts = fracOptions(ans, KMH, [
+    [fr(x + y + z, 3), 'The simple mean of the speeds ignores that more time is spent at the slower speeds.', 'গতিগুলির সাধারণ গড়ে ধরা হয় না যে ধীর গতিতে বেশি সময় কাটে।'],
+    [fr(x * y * z, den), 'The factor 3 is missing: the total distance is 3d, not d.', '3 গুণকটি বাদ পড়েছে: মোট দূরত্ব 3d, d নয়।'],
+  ]);
+  if (!opts) return null;
+  const L = [x, y, z].reduce((a, b) => (a * b) / gcd(a, b));
+  const tSum = L / x + L / y + L / z;
+  return build({
+    topic: TOPIC, subtopic: 'average_speed', pattern: 'average_speed',
+    tags: ['speed_distance', 'average_speed', 'three_equal'],
+    difficulty: 3, time: 60,
+    stem, ...opts,
+    steps: [
+      T(`Take each third as ${L} km (LCM of ${x}, ${y}, ${z}). Times: ${L / x} h + ${L / y} h + ${L / z} h = ${tSum} h.`, `প্রতিটি 1/3 অংশ ${L} কিমি ধরো (${x}, ${y}, ${z}-এর লসাগু)। সময়: ${L / x} + ${L / y} + ${L / z} = ${tSum} ঘণ্টা।`),
+      T(`Average speed = total distance ÷ total time = ${3 * L} ÷ ${tSum} = ${fstr(ans, true)} km/h.`, `গড় গতি = মোট দূরত্ব ÷ মোট সময় = ${3 * L} ÷ ${tSum} = ${fstr(ans, true)} কিমি/ঘণ্টা।`),
+    ],
+    shortcut: T('Three equal distances: average speed = 3xyz / (xy + yz + zx).', 'তিনটি সমান দূরত্ব: গড় গতি = 3xyz / (xy + yz + zx)।'),
+  });
+}
 
 function averageSpeed(framing = pick(AVG_FRAMINGS)) {
+  if (framing === 'three_equal') return averageSpeedThirds();
   let x;
   let y;
   let stem;
@@ -418,7 +452,7 @@ function meetingPoint(framing = pick(MEET_FRAMINGS), ask = pick(MEET_ASKS)) {
 // =====================================================================
 // part_journey_speeds
 // =====================================================================
-const PART_FRAMINGS = ['increasing', 'unequal_parts', 'time_parts'];
+const PART_FRAMINGS = ['increasing', 'unequal_parts', 'time_parts', 'fraction_total_time', 'fraction_average'];
 
 function partJourney(framing = pick(PART_FRAMINGS)) {
   let stem;
@@ -479,6 +513,54 @@ function partJourney(framing = pick(PART_FRAMINGS)) {
       T(`Times: ${d1} ÷ ${v1} = ${t1} h and ${d2} ÷ ${v2} = ${t2} h; total ${t1 + t2} h.`, `সময়: ${d1} ÷ ${v1} = ${t1} ঘণ্টা এবং ${d2} ÷ ${v2} = ${t2} ঘণ্টা; মোট ${t1 + t2} ঘণ্টা।`),
       T(`Average = (${d1} + ${d2}) ÷ ${t1 + t2} = ${fstr(ans, true)} km/h.`, `গড় = (${d1} + ${d2}) ÷ ${t1 + t2} = ${fstr(ans, true)} কিমি/ঘণ্টা।`),
     ];
+  } else if (framing === 'fraction_total_time' || framing === 'fraction_average') {
+    const [a, b, fEn] = pick(FRACS);
+    const pool = [10, 12, 15, 18, 20, 24, 25, 30, 36, 40, 45, 48, 50, 60, 72, 75, 80, 90];
+    const [v1, v2] = shuffle(pool).slice(0, 2);
+    const who = pick([['A person', 'একজন ব্যক্তি'], ['A car', 'একটি গাড়ি'], ['A bus', 'একটি বাস'], ['A cyclist', 'একজন সাইকেল আরোহী']]);
+    if (framing === 'fraction_total_time') {
+      const D = ri(1, 30) * b * 5;
+      const d1 = (D * a) / b;
+      const d2 = D - d1;
+      const m1 = fr(d1 * 60, v1);
+      const m2 = fr(d2 * 60, v2);
+      if (!isInt(m1) || !isInt(m2) || m1[0] % 5 || m2[0] % 5) return null;
+      const total = m1[0] + m2[0];
+      if (total < 30 || total > 900) return null;
+      stem = T(
+        `${who[0]} covers ${fEn} of a ${D} km distance at ${v1} km/h and the rest at ${v2} km/h. How much time is taken for the whole journey?`,
+        `${who[1]} ${D} কিমি দূরত্বের ${a}/${b} অংশ ঘণ্টায় ${v1} কিমি বেগে এবং বাকি পথ ঘণ্টায় ${v2} কিমি বেগে অতিক্রম করে। মোট কত সময় লাগবে?`,
+      );
+      const mean = fr(D * 120, v1 + v2);
+      opts = durationOptions(total, [
+        ...(isInt(mean) && mean[0] !== total ? [[mean[0], 'The whole distance cannot be run at the plain mean of the two speeds; time each part separately.', 'পুরো পথ দুই গতির সাধারণ গড়ে চলে না; প্রতিটি অংশের সময় আলাদা বের করো।']] : []),
+        ...(isInt(fr(D * 60, v1)) ? [[D * 60 / v1, `That runs the whole ${D} km at ${v1} km/h.`, `এখানে পুরো ${D} কিমি ঘণ্টায় ${v1} কিমি বেগে ধরা হয়েছে।`]] : []),
+        [m1[0], 'That is the time for the first part only.', 'এটি কেবল প্রথম অংশের সময়।'],
+      ], 15);
+      steps = [
+        T(`First part = ${a}/${b} × ${D} = ${d1} km; rest = ${D} − ${d1} = ${d2} km.`, `প্রথম অংশ = ${a}/${b} × ${D} = ${d1} কিমি; বাকি = ${D} − ${d1} = ${d2} কিমি।`),
+        T(`Times: ${d1} ÷ ${v1} = ${duration(m1[0]).en} and ${d2} ÷ ${v2} = ${duration(m2[0]).en}.`, `সময়: ${d1} ÷ ${v1} = ${duration(m1[0]).bn} এবং ${d2} ÷ ${v2} = ${duration(m2[0]).bn}।`),
+        T(`Total = ${duration(total).en}.`, `মোট = ${duration(total).bn}।`),
+      ];
+    } else {
+      // fraction a/b at v1, rest at v2: average = b·v1·v2 / (a·v2 + (b − a)·v1)
+      const ans = fr(b * v1 * v2, a * v2 + (b - a) * v1);
+      if (ans[1] > 5) return null;
+      stem = T(
+        `${who[0]} covers ${fEn} of a journey at ${v1} km/h and the remaining distance at ${v2} km/h. What is the average speed for the whole journey?`,
+        `${who[1]} একটি যাত্রাপথের ${a}/${b} অংশ ঘণ্টায় ${v1} কিমি বেগে এবং বাকি পথ ঘণ্টায় ${v2} কিমি বেগে অতিক্রম করে। সমগ্র যাত্রাপথে গড় গতিবেগ কত?`,
+      );
+      opts = fracOptions(ans, KMH, [
+        [fr(v1 + v2, 2), 'The plain mean of the speeds ignores how long each part took.', 'গতির সাধারণ গড়ে প্রতিটি অংশে কত সময় লেগেছে তা ধরা হয় না।'],
+        [fr(a * v1 + (b - a) * v2, b), 'Weighting the speeds by DISTANCE is wrong; average speed = total distance ÷ total time.', 'দূরত্ব অনুযায়ী গতির ভারযুক্ত গড় ভুল; গড় গতি = মোট দূরত্ব ÷ মোট সময়।'],
+        [fr(2 * v1 * v2, v1 + v2), '2xy/(x + y) works only when the two parts are equal.', '2xy/(x + y) কেবল দুটি অংশ সমান হলে খাটে।'],
+      ]);
+      const D = b * v1 * v2 / gcd(v1, v2); // a convenient total distance
+      steps = [
+        T(`Take the whole distance as ${D} km: ${a}/${b} of it = ${(D * a) / b} km at ${v1} km/h takes ${fstr(fr(D * a, b * v1))} h; the rest ${(D * (b - a)) / b} km at ${v2} km/h takes ${fstr(fr(D * (b - a), b * v2))} h.`, `মোট দূরত্ব ${D} কিমি ধরো: তার ${a}/${b} = ${(D * a) / b} কিমি ঘণ্টায় ${v1} কিমি বেগে ${fstr(fr(D * a, b * v1))} ঘণ্টা; বাকি ${(D * (b - a)) / b} কিমি ঘণ্টায় ${v2} কিমি বেগে ${fstr(fr(D * (b - a), b * v2))} ঘণ্টা।`),
+        T(`Average = ${D} ÷ ${fstr(fr(D * (a * v2 + (b - a) * v1), b * v1 * v2))} = ${fstr(ans, true)} km/h.`, `গড় = ${D} ÷ ${fstr(fr(D * (a * v2 + (b - a) * v1), b * v1 * v2))} = ${fstr(ans, true)} কিমি/ঘণ্টা।`),
+      ];
+    }
   } else {
     difficulty = 2;
     const v1 = pick([30, 35, 40, 45, 50, 60]);

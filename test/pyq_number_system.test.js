@@ -97,6 +97,57 @@ function solveLcmExact(stem) {
   for (let x = 1; ; x++) if (all(x)) return String(x);
 }
 
+/** Brute force: every pair (x ≤ y) is searched directly; no HCF × LCM formula is used. */
+function solveProduct(stem) {
+  const n = nums(stem);
+  // every factor pair (x ≤ y) of P that satisfies pred
+  const pairsWith = (pred, P) => { const out = []; for (let x = 1; x * x <= P; x++) if (P % x === 0 && pred(x, P / x)) out.push([x, P / x]); return out; };
+  const only = (ps) => { assert.equal(ps.length, 1, `exactly one pair must fit: ${stem}`); return ps; };
+  if (/How many such pairs/.test(stem)) {
+    const [v, h] = n;
+    const bySum = /sum of two numbers/.test(stem);
+    let c = 0;
+    for (let x = 1; bySum ? x < v - x : x * x < v; x++) {
+      const y = bySum ? v - x : v / x;
+      if (Number.isInteger(y) && g(x, y) === h) c++;
+    }
+    return String(c);
+  }
+  if (/sum of the reciprocals/.test(stem)) {
+    const [S, P] = n;
+    only(pairsWith((x, y) => x + y === S, P));
+    return reduce(S, P);
+  }
+  if (/times their HCF/.test(stem)) {
+    const [k, S, x] = n;
+    for (let y = 1; y <= S; y++) {
+      const h = g(x, y);
+      if (l(x, y) === k * h && h + l(x, y) === S) return String(y);
+    }
+  }
+  if (/(difference|sum) of the (two )?numbers/.test(stem)) {
+    const [P, k] = n;
+    const diff = /difference/.test(stem);
+    const [[x, y]] = only(pairsWith((p, q) => (diff ? q - p === k : p + q === k), P));
+    return String(/larger/.test(stem) ? y : x);
+  }
+  if (/product of two numbers is \d+ and their HCF/.test(stem) && /LCM/.test(stem)) {
+    const [P, h] = n;
+    for (let x = 1; x * x <= P; x++) if (P % x === 0 && g(x, P / x) === h) return String(l(x, P / x));
+  }
+  if (/product of two numbers is \d+ and their LCM/.test(stem)) {
+    const [P, L] = n;
+    for (let x = 1; x * x <= P; x++) if (P % x === 0 && l(x, P / x) === L) return String(g(x, P / x));
+  }
+  if (/What is the product of the two numbers\?/.test(stem)) {
+    const [h, L] = n;
+    for (let x = h; x <= L; x += h) for (let y = x; y <= L; y += h) if (g(x, y) === h && l(x, y) === L) return String(x * y);
+  }
+  const [h, L, x] = n;
+  for (let y = h; y <= L; y += h) if (g(x, y) === h && l(x, y) === L) return String(y);
+  throw new Error(`unparsed: ${stem}`);
+}
+
 function solveRemFactor(stem) {
   const [D, R, d] = nums(stem);
   const someNumber = D * 37 + R;
@@ -162,6 +213,11 @@ test('PYQ numbers re-solve to the official keys', () => {
   assert.equal(solveFrac('Find the LCM of 4/3, 8/9 and 3/5.'), '24');
   assert.equal(solveRatioHcf('The ratio of two numbers is 5 : 13 and their gcd is 11. What are the numbers?'), '55, 143');
   assert.equal(solveLcmExact('The least perfect square number divisible by 3, 4, 5, 6 and 8 is'), '3600');
+  // Owner-supplied HCF × LCM questions (2026-11-25).
+  assert.equal(solveProduct('The product of two numbers is 2160 and their HCF is 12. Their LCM is'), '180');
+  assert.equal(solveProduct('The product of the LCM and HCF of two numbers is 24. If the difference of the two numbers is 2, the larger number is'), '6');
+  assert.equal(solveRatioHcf('The ratio of two numbers is 3 : 4 and their HCF is 4. What is their LCM?'), '48');
+  assert.equal(solveProduct('The HCF and LCM of two numbers are 16 and 240 respectively. If one of the numbers is 48, the other number is'), '80');
   assert.equal(solveRemFactor('When a number is divided by 65 it leaves a remainder 48. When it is divided by 13, the remainder will be'), '9');
   assert.equal(solveRemFactor('A certain number when divided by 175 leaves remainder 132. When the same number is divided by 25, the remainder is'), '7');
   assert.equal(solveCompare('Which of the following is the correct ascending order of 2.2, 2.02, 2.002 and 2.222?'), '2.002 < 2.02 < 2.2 < 2.222');
@@ -175,6 +231,7 @@ const CASES = [
   ['hcf_lcm_of_fractions', gen.hcfLcmOfFractions, gen.FRAC_KINDS, solveFrac],
   ['ratio_hcf_find_numbers', gen.ratioHcfFindNumbers, ['numbers', 'lcm', 'sum'], solveRatioHcf],
   ['lcm_exactly_divisible', gen.lcmExactlyDivisible, gen.LCM_EXACT_KINDS, solveLcmExact],
+  ['hcf_lcm_product', gen.hcfLcmProduct, gen.PRODUCT_KINDS, solveProduct],
   ['remainder_by_factor', gen.remainderByFactor, [undefined], solveRemFactor],
   ['fraction_decimal_compare', gen.fractionDecimalCompare, gen.CMP_KINDS, solveCompare],
   ['digit_reverse_sum_diff', gen.digitReverseSumDiff, gen.DIGIT_KINDS, solveDigits],

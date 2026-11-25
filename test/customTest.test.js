@@ -292,9 +292,23 @@ test('a test from two chapters has questions from those chapters only, without a
   assert.ok(!raw.includes('correct_option_id') && !raw.includes('correctOptionId'));
   const doc = await MockSession.findById(d.sessionId).lean();
   assert.ok(doc.questions.every((q) => ['percentage', 'profit_loss'].includes(q.topic)));
-  // Exam mode never reveals an answer before submitting.
-  const check = await api('POST', `/custom-tests/${d.sessionId}/check`, { questionId: d.questions[0].questionId, selectedOptionId: d.questions[0].options[0].optionId }, 'only_two');
-  assert.equal(check.status, 409);
+  // Exam mode: "Check answer" reveals one question and locks the answer that was checked.
+  const key = await keyOf(d.sessionId);
+  const q0 = d.questions[0];
+  const wrong = q0.options.find((o) => o.optionId !== key[q0.questionId].right).optionId;
+  const check = await api('POST', `/custom-tests/${d.sessionId}/check`, { questionId: q0.questionId, selectedOptionId: wrong }, 'only_two');
+  assert.equal(check.status, 200, JSON.stringify(check.body));
+  assert.equal(check.body.data.isCorrect, false);
+  assert.equal(check.body.data.correctOptionId, key[q0.questionId].right);
+  const again = await api('POST', `/custom-tests/${d.sessionId}/check`, { questionId: q0.questionId, selectedOptionId: key[q0.questionId].right }, 'only_two');
+  assert.equal(again.body.data.locked, true);
+  assert.equal(again.body.data.isCorrect, false, 'changing the answer after seeing it does not count');
+  // Submitting the right option for the checked question still scores the checked (wrong) one.
+  const responses = d.questions.map((x) => ({ questionId: x.questionId, selectedOptionId: key[x.questionId].right }));
+  const sub = await api('POST', '/mock/submit-session', { sessionId: d.sessionId, responses }, 'only_two');
+  assert.equal(sub.status, 200, JSON.stringify(sub.body));
+  assert.equal(sub.body.data.counts.incorrect, 1);
+  assert.equal(sub.body.data.counts.correct, d.questions.length - 1);
 });
 
 test('chosen time, preview and validation', async () => {

@@ -12,6 +12,8 @@
  *  - hcf_lcm_of_fractions      "LCM of 4/3, 8/9 and 3/5" (WBCS 2019).
  *  - ratio_hcf_find_numbers    "ratio 5 : 13 and gcd 11 — the numbers?" (Misc 2023).
  *  - lcm_exactly_divisible     "least perfect square divisible by 3, 4, 5, 6 and 8" (Clerkship 2023).
+ *  - hcf_lcm_product           "HCF 16, LCM 240, one number 48 — the other?", "product 2160, HCF 12 —
+ *                              LCM?", "HCF × LCM = 24, difference 2 — larger number?", pair counts.
  *  - remainder_by_factor       "divided by 65 leaves 48; divided by 13?" (Clerkship 2005, 2019 ×2).
  *  - fraction_decimal_compare  "2.002 < 2.02 < 2.2 < 2.222" (WBCS 2018), "greatest of 0.55, (0.5)²,
  *                              0.46, √0.4" (Clerkship 2005), "5/9, √(25/49), (0.8)²" (KP 2023).
@@ -331,6 +333,218 @@ function ratioHcfFindNumbers(kind = pick(RATIO_HCF_KINDS)) {
   });
 }
 
+// ---------------------------------------------------------------- hcf_lcm_product
+
+/**
+ * HCF × LCM = product of the two numbers, in every framing seen in papers:
+ * other number from HCF/LCM; LCM from product + HCF; HCF from product + LCM; the product;
+ * product + difference / sum → a number; "LCM is k times HCF, HCF + LCM = S"; number of
+ * pairs with a given sum or product and HCF; sum of reciprocals.
+ */
+const PRODUCT_KINDS = ['other_number', 'lcm_from_product', 'hcf_from_product', 'product', 'diff_number', 'sum_number', 'lcm_multiple_hcf', 'pairs_sum', 'pairs_product', 'reciprocal_sum'];
+
+const distinctPrimes = (n) => { let c = 0; for (let p = 2; p * p <= n; p++) if (n % p === 0) { c++; while (n % p === 0) n /= p; } return c + (n > 1 ? 1 : 0); };
+const PAIR_M = [6, 10, 12, 14, 15, 18, 20, 21, 22, 24, 28, 30, 36, 40, 42, 60, 72, 84, 90, 120, 210];
+
+function hcfLcmProduct(kind = pick(PRODUCT_KINDS)) {
+  const B = (tags, d, t) => base('hcf_lcm_product', ['hcf', 'lcm', 'product', ...tags], d, t);
+  const ruleStep = T('For two numbers, HCF × LCM = product of the numbers.', 'দুটি সংখ্যার ক্ষেত্রে গসাগু × লসাগু = সংখ্যা দুটির গুণফল।');
+
+  if (kind === 'other_number' || kind === 'lcm_from_product' || kind === 'hcf_from_product' || kind === 'product') {
+    const a = ri(kind === 'other_number' ? 2 : 1, 11);
+    const b = ri(a + 1, 17);
+    if (gcd(a, b) !== 1) return null;
+    const h = ri(2, 30);
+    const L = h * a * b;
+    const P = h * L;
+    if (L > 3000) return null;
+    if (kind === 'other_number') {
+      const giveFirst = ri(0, 1) === 1;
+      const x = giveFirst ? h * a : h * b;
+      const ans = giveFirst ? h * b : h * a;
+      const o = opts(ans, [
+        [L % x === 0 ? L / x : null, `That is LCM ÷ given number; multiply by the HCF ${h} first.`, `এটি লসাগু ÷ দেওয়া সংখ্যা; আগে গসাগু ${h} দিয়ে গুণ করো।`],
+        [L - x, 'HCF × LCM = product of the numbers; subtracting gives nothing.', 'গসাগু × লসাগু = সংখ্যা দুটির গুণফল; বিয়োগ করে কিছু পাওয়া যায় না।'],
+      ]);
+      const stem = ri(0, 1)
+        ? T(`The HCF and LCM of two numbers are ${h} and ${L} respectively. If one of the numbers is ${x}, the other number is`, `দুটি সংখ্যার গসাগু ও লসাগু যথাক্রমে ${h} ও ${L}। যদি একটি সংখ্যা ${x} হয়, তবে অপর সংখ্যাটি হল`)
+        : T(`Two numbers have HCF ${h} and LCM ${L}. One of them is ${x}. What is the other number?`, `দুটি সংখ্যার গসাগু ${h} এবং লসাগু ${L}। একটি সংখ্যা ${x} হলে অপর সংখ্যাটি কত?`);
+      return build({
+        ...B(['other_number'], 2, 45), stem, ...o,
+        steps: [ruleStep, T(`Other number = ${h} × ${L} ÷ ${x} = ${P} ÷ ${x} = ${ans}.`, `অপর সংখ্যা = ${h} × ${L} ÷ ${x} = ${P} ÷ ${x} = ${ans}।`), T(`Check: HCF(${x}, ${ans}) = ${h}, LCM = ${L}.`, `যাচাই: গসাগু(${x}, ${ans}) = ${h}, লসাগু = ${L}।`)],
+        shortcut: T('Other number = HCF × LCM ÷ given number.', 'অপর সংখ্যা = গসাগু × লসাগু ÷ দেওয়া সংখ্যা।'),
+      });
+    }
+    if (kind === 'lcm_from_product') {
+      const o = opts(L, [
+        [a * b, `That divides by the HCF twice; divide the product by the HCF only once.`, `এখানে গসাগু দিয়ে দুবার ভাগ করা হয়েছে; গুণফলকে গসাগু দিয়ে একবারই ভাগ করো।`],
+        [P - h, 'HCF × LCM = product; divide, do not subtract.', 'গসাগু × লসাগু = গুণফল; ভাগ করো, বিয়োগ নয়।'],
+      ]);
+      const stem = ri(0, 1)
+        ? T(`The product of two numbers is ${P} and their HCF is ${h}. Their LCM is`, `দুটি সংখ্যার গুণফল ${P} এবং তাদের গসাগু ${h} হলে, সংখ্যা দুটির লসাগু কত?`)
+        : T(`If the product of two numbers is ${P} and their HCF is ${h}, what is their LCM?`, `দুটি সংখ্যার গুণফল ${P} ও গসাগু ${h}। তাদের লসাগু নির্ণয় করো।`);
+      return build({
+        ...B(['find_lcm'], 2, 40), stem, ...o,
+        steps: [ruleStep, T(`LCM = ${P} ÷ ${h} = ${L}.`, `লসাগু = ${P} ÷ ${h} = ${L}।`), T(`Check: the numbers can be ${h * a} and ${h * b} (HCF ${h}, LCM ${L}).`, `যাচাই: সংখ্যা দুটি ${h * a} ও ${h * b} হতে পারে (গসাগু ${h}, লসাগু ${L})।`)],
+        shortcut: T('LCM = product ÷ HCF.', 'লসাগু = গুণফল ÷ গসাগু।'),
+      });
+    }
+    if (kind === 'hcf_from_product') {
+      const o = opts(h, [
+        [a * b === h ? null : a * b, `That is LCM ÷ HCF; the HCF is product ÷ LCM.`, `এটি লসাগু ÷ গসাগু; গসাগু = গুণফল ÷ লসাগু।`],
+      ]);
+      return build({
+        ...B(['find_hcf'], 2, 40),
+        stem: T(`The product of two numbers is ${P} and their LCM is ${L}. Their HCF is`, `দুটি সংখ্যার গুণফল ${P} এবং তাদের লসাগু ${L} হলে, সংখ্যা দুটির গসাগু কত?`),
+        ...o,
+        steps: [ruleStep, T(`HCF = ${P} ÷ ${L} = ${h}.`, `গসাগু = ${P} ÷ ${L} = ${h}।`), T(`Check: the numbers can be ${h * a} and ${h * b}.`, `যাচাই: সংখ্যা দুটি ${h * a} ও ${h * b} হতে পারে।`)],
+        shortcut: T('HCF = product ÷ LCM.', 'গসাগু = গুণফল ÷ লসাগু।'),
+      });
+    }
+    const o = opts(P, [
+      [L / h, 'That is LCM ÷ HCF; the product of the numbers is HCF × LCM.', 'এটি লসাগু ÷ গসাগু; সংখ্যা দুটির গুণফল = গসাগু × লসাগু।'],
+      [L + h, 'Multiply the HCF and LCM; do not add them.', 'গসাগু ও লসাগু গুণ করো; যোগ নয়।'],
+    ]);
+    return build({
+      ...B(['find_product'], 2, 40),
+      stem: T(`The HCF and LCM of two numbers are ${h} and ${L}. What is the product of the two numbers?`, `দুটি সংখ্যার গসাগু ${h} ও লসাগু ${L}। সংখ্যা দুটির গুণফল কত?`),
+      ...o,
+      steps: [ruleStep, T(`Product = ${h} × ${L} = ${P}.`, `গুণফল = ${h} × ${L} = ${P}।`)],
+      shortcut: T('Product of the two numbers = HCF × LCM.', 'সংখ্যা দুটির গুণফল = গসাগু × লসাগু।'),
+    });
+  }
+
+  if (kind === 'diff_number' || kind === 'sum_number') {
+    const y = ri(2, 45);
+    const x = y + ri(1, 15);
+    const P = x * y;
+    if (P > 2500) return null;
+    const diff = kind === 'diff_number';
+    const k = diff ? x - y : x + y;
+    const larger = ri(0, 1) === 1;
+    const ans = larger ? x : y;
+    const other = larger ? y : x;
+    const root = Math.round(Math.sqrt(P));
+    const rel0 = diff ? 'অন্তর' : 'যোগফল';
+    const o = opts(ans, [
+      [other, `That is the ${larger ? 'smaller' : 'larger'} number; the question asks for the ${larger ? 'larger' : 'smaller'} one.`, `এটি ${larger ? 'ছোটো' : 'বড়ো'} সংখ্যাটি; প্রশ্নে ${larger ? 'বড়ো' : 'ছোটো'} সংখ্যাটি চাওয়া হয়েছে।`],
+      [root, `${root} is about √${P} — only the place to start the search; the two numbers must ${diff ? 'differ by' : 'add up to'} ${k}.`, `${root} হল √${P}-এর কাছাকাছি — খোঁজা শুরুর জায়গা মাত্র; সংখ্যা দুটির ${rel0} ${k} হতে হবে।`],
+    ]);
+    const ask = larger ? T('the larger number', 'বড়ো সংখ্যাটি') : T('the smaller number', 'ছোটো সংখ্যাটি');
+    const rel = diff ? T('difference', 'বিয়োগফল') : T('sum', 'যোগফল');
+    const stem = ri(0, 1)
+      ? T(`The product of the LCM and HCF of two numbers is ${P}. If the ${rel.en} of the two numbers is ${k}, ${ask.en} is`, `দুটি সংখ্যার লসাগু ও গসাগু-এর গুণফল ${P}। সংখ্যা দুটির ${rel.bn} ${k} হলে, ${ask.bn} কত?`)
+      : T(`The HCF and LCM of two numbers multiply to give ${P}, and the ${rel.en} of the numbers is ${k}. Find ${ask.en}.`, `দুটি সংখ্যার গসাগু ও লসাগু-এর গুণফল ${P} এবং সংখ্যা দুটির ${rel.bn} ${k}। ${ask.bn} নির্ণয় করো।`);
+    return build({
+      ...B([diff ? 'difference' : 'sum'], 3, 60), stem, ...o,
+      steps: [
+        T(`HCF × LCM = product of the numbers, so the two numbers multiply to ${P}.`, `গসাগু × লসাগু = সংখ্যা দুটির গুণফল, তাই সংখ্যা দুটির গুণফল ${P}।`),
+        T(`Find the factor pair of ${P} whose ${rel.en} is ${k}: ${y} × ${x} = ${P} and ${diff ? `${x} − ${y}` : `${y} + ${x}`} = ${k}.`, `${P}-এর সেই উৎপাদক-জোড়া খোঁজো যাদের ${rel.bn} ${k}: ${y} × ${x} = ${P} এবং ${diff ? `${x} − ${y}` : `${y} + ${x}`} = ${k}।`),
+        T(`So ${ask.en} is ${ans}.`, `তাই ${ask.bn} ${ans}।`),
+      ],
+      shortcut: diff
+        ? T('Numbers multiply to HCF × LCM; with difference d, try x(x − d) = product, starting near √product.', 'সংখ্যা দুটির গুণফল = গসাগু × লসাগু; অন্তর d হলে √গুণফলের কাছ থেকে x(x − d) = গুণফল পরীক্ষা করো।')
+        : T('Numbers multiply to HCF × LCM; with sum s, they are the roots of t² − st + product = 0.', 'সংখ্যা দুটির গুণফল = গসাগু × লসাগু; যোগফল s হলে তারা t² − st + গুণফল = 0-এর বীজ।'),
+    });
+  }
+
+  if (kind === 'lcm_multiple_hcf') {
+    const a = ri(2, 7);
+    const b = ri(a + 1, 11);
+    if (gcd(a, b) !== 1) return null;
+    const k = a * b;
+    const h = ri(3, 40);
+    const L = k * h;
+    const S = h + L;
+    const giveFirst = ri(0, 1) === 1;
+    const x = giveFirst ? h * a : h * b;
+    const ans = giveFirst ? h * b : h * a;
+    const o = opts(ans, [
+      [S - x, `${S} is HCF + LCM, not the sum of the two numbers.`, `${S} হল গসাগু + লসাগু, সংখ্যা দুটির যোগফল নয়।`],
+      [L, `${L} is the LCM, not the other number.`, `${L} হল লসাগু, অপর সংখ্যা নয়।`],
+    ]);
+    return build({
+      ...B(['lcm_multiple_hcf'], 3, 75),
+      stem: T(`The LCM of two numbers is ${k} times their HCF. The sum of the HCF and the LCM is ${S}. If one of the numbers is ${x}, the other number is`, `দুটি সংখ্যার লসাগু তাদের গসাগু-এর ${k} গুণ। গসাগু ও লসাগু-এর যোগফল ${S}। একটি সংখ্যা ${x} হলে অপর সংখ্যাটি কত?`),
+      ...o,
+      steps: [
+        T(`Let HCF = h; then LCM = ${k}h and h + ${k}h = ${S}, so h = ${S} ÷ ${k + 1} = ${h} and LCM = ${L}.`, `ধরো গসাগু = h; তাহলে লসাগু = ${k}h এবং h + ${k}h = ${S}, তাই h = ${S} ÷ ${k + 1} = ${h} এবং লসাগু = ${L}।`),
+        T(`Other number = HCF × LCM ÷ ${x} = ${h} × ${L} ÷ ${x} = ${ans}.`, `অপর সংখ্যা = গসাগু × লসাগু ÷ ${x} = ${h} × ${L} ÷ ${x} = ${ans}।`),
+      ],
+      shortcut: T('HCF = (HCF + LCM) ÷ (k + 1); then other = HCF × LCM ÷ given number.', 'গসাগু = (গসাগু + লসাগু) ÷ (k + 1); তারপর অপর সংখ্যা = গসাগু × লসাগু ÷ দেওয়া সংখ্যা।'),
+    });
+  }
+
+  if (kind === 'pairs_sum') {
+    const m = ri(5, 30);
+    const h = ri(2, 25);
+    const S = m * h;
+    let ans = 0;
+    for (let p = 1; 2 * p < m; p++) if (gcd(p, m - p) === 1) ans++;
+    const all = Math.floor((m - 1) / 2);
+    const o = opts(ans, [
+      [all, `${all} counts every split of ${m} into two parts, including parts that share a factor (their HCF would be larger than ${h}).`, `${all}-তে ${m}-এর সব ভাগ ধরা হয়েছে, যেসব অংশের সাধারণ উৎপাদক আছে সেগুলিও (তাদের গসাগু ${h}-এর চেয়ে বড়ো হবে)।`],
+      [2 * ans, 'Each pair has been counted twice (a, b) and (b, a).', 'প্রতিটি জোড়া দুবার গোনা হয়েছে: (a, b) ও (b, a)।'],
+    ]);
+    return build({
+      ...B(['count_pairs', 'sum'], 3, 75),
+      stem: T(`The sum of two numbers is ${S} and their HCF is ${h}. How many such pairs of numbers are possible?`, `দুটি সংখ্যার যোগফল ${S} এবং তাদের গসাগু ${h}। এমন কতগুলি সংখ্যা-জোড়া সম্ভব?`),
+      ...o,
+      steps: [
+        T(`Write the numbers as ${h}a and ${h}b with a, b co-prime: ${h}(a + b) = ${S}, so a + b = ${m}.`, `সংখ্যা দুটি ${h}a ও ${h}b লেখো, যেখানে a, b পরস্পর মৌলিক: ${h}(a + b) = ${S}, তাই a + b = ${m}।`),
+        T(`Co-prime pairs with a < b and a + b = ${m}: ${ans}.`, `a < b এবং a + b = ${m} এমন পরস্পর মৌলিক জোড়া: ${ans}টি।`),
+      ],
+      shortcut: T('Divide the sum by the HCF, then count co-prime splits of that number.', 'যোগফলকে গসাগু দিয়ে ভাগ করো, তারপর সেই সংখ্যার পরস্পর মৌলিক ভাগগুলি গোনো।'),
+    });
+  }
+
+  if (kind === 'pairs_product') {
+    const m = pick(PAIR_M);
+    const h = ri(2, 15);
+    const P = h * h * m;
+    const ans = 2 ** (distinctPrimes(m) - 1);
+    let all = 0;
+    for (let p = 1; p * p < m; p++) if (m % p === 0) all++;
+    const o = opts(ans, [
+      [all, `${all} counts every factor pair of ${m}, but a pair sharing a factor would make the HCF larger than ${h}.`, `${all}-তে ${m}-এর সব উৎপাদক-জোড়া ধরা হয়েছে, কিন্তু সাধারণ উৎপাদক থাকলে গসাগু ${h}-এর চেয়ে বড়ো হয়ে যায়।`],
+      [2 * ans, 'Each pair has been counted twice (a, b) and (b, a).', 'প্রতিটি জোড়া দুবার গোনা হয়েছে: (a, b) ও (b, a)।'],
+    ]);
+    return build({
+      ...B(['count_pairs'], 3, 75),
+      stem: T(`The product of two numbers is ${P} and their HCF is ${h}. How many such pairs of numbers are possible?`, `দুটি সংখ্যার গুণফল ${P} এবং তাদের গসাগু ${h}। এমন কতগুলি সংখ্যা-জোড়া সম্ভব?`),
+      ...o,
+      steps: [
+        T(`Write the numbers as ${h}a and ${h}b with a, b co-prime: ${h * h}ab = ${P}, so ab = ${m}.`, `সংখ্যা দুটি ${h}a ও ${h}b লেখো, যেখানে a, b পরস্পর মৌলিক: ${h * h}ab = ${P}, তাই ab = ${m}।`),
+        T(`${m} has ${distinctPrimes(m)} distinct prime factor(s); each prime power goes wholly to a or to b, giving ${ans} co-prime pair(s) with a < b.`, `${m}-এর ${distinctPrimes(m)}টি ভিন্ন মৌলিক উৎপাদক; প্রতিটি মৌলিক ঘাত পুরোটা a-তে বা b-তে যায়, তাই a < b এমন পরস্পর মৌলিক জোড়া ${ans}টি।`),
+      ],
+      shortcut: T('ab = product ÷ HCF²; number of co-prime pairs = 2^(distinct primes − 1).', 'ab = গুণফল ÷ গসাগু²; পরস্পর মৌলিক জোড়ার সংখ্যা = 2^(ভিন্ন মৌলিকের সংখ্যা − 1)।'),
+    });
+  }
+
+  // reciprocal_sum
+  const x = ri(3, 40);
+  const y = ri(x + 1, 60);
+  const S = x + y;
+  const P = x * y;
+  const fr = (p, q) => { const d = gcd(p, q); return q / d === 1 ? plain(p / d) : plain(`${p / d}/${q / d}`); };
+  const o = textOpts(fr(S, P), [
+    { ...fr(P, S), trap: T('Upside down: 1/a + 1/b = (a + b)/(ab), so the sum goes on top.', 'উল্টে গেছে: 1/a + 1/b = (a + b)/(ab), তাই যোগফল উপরে বসে।') },
+    { ...fr(1, S), trap: T('1/(a + b) is not 1/a + 1/b.', '1/(a + b) আর 1/a + 1/b এক নয়।') },
+    fr(S + 1, P), fr(S - 1, P), fr(S, P + 1),
+  ]);
+  if (!o) return null;
+  return build({
+    ...B(['reciprocal'], 3, 60),
+    stem: T(`The sum of two numbers is ${S} and the product of their HCF and LCM is ${P}. What is the sum of the reciprocals of the two numbers?`, `দুটি সংখ্যার যোগফল ${S} এবং তাদের গসাগু ও লসাগু-এর গুণফল ${P}। সংখ্যা দুটির অন্যোন্যকের (উল্টো রাশির) যোগফল কত?`),
+    ...o,
+    steps: [
+      T(`HCF × LCM = product of the numbers, so ab = ${P}.`, `গসাগু × লসাগু = সংখ্যা দুটির গুণফল, তাই ab = ${P}।`),
+      T(`1/a + 1/b = (a + b)/(ab) = ${S}/${P} = ${fr(S, P).en}.`, `1/a + 1/b = (a + b)/(ab) = ${S}/${P} = ${fr(S, P).bn}।`),
+    ],
+    shortcut: T('Sum of reciprocals = sum ÷ (HCF × LCM).', 'অন্যোন্যকের যোগফল = যোগফল ÷ (গসাগু × লসাগু)।'),
+  });
+}
+
 // ---------------------------------------------------------------- lcm_exactly_divisible
 
 const LCM_EXACT_KINDS = ['plain', 'perfect_square', 'greatest_4digit', 'least_4digit'];
@@ -620,6 +834,7 @@ module.exports = {
       ...FRAC_KINDS.map((k) => () => hcfLcmOfFractions(k)),
       ...['numbers', 'lcm', 'sum'].map((k) => () => ratioHcfFindNumbers(k)),
       ...LCM_EXACT_KINDS.map((k) => () => lcmExactlyDivisible(k)),
+      ...PRODUCT_KINDS.map((k) => () => hcfLcmProduct(k)),
       () => remainderByFactor(),
       ...CMP_KINDS.map((k) => () => fractionDecimalCompare(k)),
       ...DIGIT_KINDS.map((k) => () => digitReverseSumDiff(k)),
@@ -630,6 +845,7 @@ module.exports = {
   hcfLcmOfFractions,
   ratioHcfFindNumbers,
   lcmExactlyDivisible,
+  hcfLcmProduct,
   remainderByFactor,
   fractionDecimalCompare,
   digitReverseSumDiff,
@@ -637,6 +853,7 @@ module.exports = {
   LCM_REM_KINDS,
   FRAC_KINDS,
   LCM_EXACT_KINDS,
+  PRODUCT_KINDS,
   CMP_KINDS,
   DIGIT_KINDS,
   itemValue,

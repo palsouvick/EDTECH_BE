@@ -61,6 +61,41 @@ They are always linked: $17 = 5 \times 3 + 2$. In words: **Dividend = Divisor ×
           ),
         },
         {
+          heading: t('Is it divisible? Quick checks for 1 to 11', 'ভাগ যাবে কি না? 1 থেকে 11 পর্যন্ত সহজ নিয়ম'),
+          body: t(
+            r`A number is **divisible** by another when the division leaves remainder $0$. For a big number you do not need to divide; just look at its digits:
+
+- **1**: every number is divisible by $1$.
+- **2**: the last digit is even ($0, 2, 4, 6, 8$). $3578$ ends in $8$, so yes.
+- **3**: the sum of the digits is divisible by $3$. $4152$: $4 + 1 + 5 + 2 = 12$, so yes. $4153$: sum $13$, so no.
+- **4**: the number made by the last two digits is divisible by $4$. $7316$: $16 \div 4 = 4$, so yes.
+- **5**: the last digit is $0$ or $5$. $2345$ ends in $5$, so yes.
+- **6**: it passes **both** the test for $2$ and the test for $3$. $5214$ is even and $5 + 2 + 1 + 4 = 12$, so yes.
+- **7**: double the last digit and subtract it from the rest of the number; repeat until the number is small. $2401$: $240 - 2 = 238$, then $23 - 16 = 7$, so yes.
+- **8**: the number made by the last three digits is divisible by $8$. $15624$: $624 \div 8 = 78$, so yes.
+- **9**: the sum of the digits is divisible by $9$. $8307$: $8 + 3 + 0 + 7 = 18$, so yes.
+- **10**: the last digit is $0$. $4560$ ends in $0$, so yes.
+- **11**: starting from the right, add the digits in the 1st, 3rd, 5th… places and, separately, the digits in the 2nd, 4th… places. If the difference of the two sums is $0$ or divisible by $11$, the number is divisible by $11$. $2728$: $(8 + 7) - (2 + 2) = 11$, so yes. $1331$: $(1 + 3) - (3 + 1) = 0$, so yes.
+
+Remember: $6$ needs **both** $2$ and $3$; passing only one of them is not enough.`,
+            r`কোনো সংখ্যাকে আরেকটি সংখ্যা দিয়ে ভাগ করলে ভাগশেষ $0$ হলে বলি সংখ্যাটি **বিভাজ্য** (ভাগ যায়)। বড় সংখ্যা হলে পুরো ভাগ করার দরকার নেই; শুধু অঙ্কগুলো দেখো:
+
+- **1**: যেকোনো সংখ্যা $1$ দিয়ে বিভাজ্য।
+- **2**: শেষ অঙ্ক যুগ্ম ($0, 2, 4, 6, 8$)। $3578$-এর শেষ অঙ্ক $8$, তাই ভাগ যাবে।
+- **3**: অঙ্কগুলির যোগফল $3$ দিয়ে বিভাজ্য। $4152$: $4 + 1 + 5 + 2 = 12$, তাই ভাগ যাবে। $4153$: যোগফল $13$, তাই যাবে না।
+- **4**: শেষ দুটি অঙ্কে তৈরি সংখ্যা $4$ দিয়ে বিভাজ্য। $7316$: $16 \div 4 = 4$, তাই ভাগ যাবে।
+- **5**: শেষ অঙ্ক $0$ বা $5$। $2345$-এর শেষ অঙ্ক $5$, তাই ভাগ যাবে।
+- **6**: $2$-এর নিয়ম আর $3$-এর নিয়ম **দুটোই** মানতে হবে। $5214$ যুগ্ম এবং $5 + 2 + 1 + 4 = 12$, তাই ভাগ যাবে।
+- **7**: শেষ অঙ্কের দ্বিগুণ বাকি সংখ্যা থেকে বিয়োগ করো; সংখ্যা ছোটো না হওয়া পর্যন্ত বারবার করো। $2401$: $240 - 2 = 238$, তারপর $23 - 16 = 7$, তাই ভাগ যাবে।
+- **8**: শেষ তিনটি অঙ্কে তৈরি সংখ্যা $8$ দিয়ে বিভাজ্য। $15624$: $624 \div 8 = 78$, তাই ভাগ যাবে।
+- **9**: অঙ্কগুলির যোগফল $9$ দিয়ে বিভাজ্য। $8307$: $8 + 3 + 0 + 7 = 18$, তাই ভাগ যাবে।
+- **10**: শেষ অঙ্ক $0$। $4560$-এর শেষ অঙ্ক $0$, তাই ভাগ যাবে।
+- **11**: ডান দিক থেকে 1ম, 3য়, 5ম… স্থানের অঙ্কগুলি যোগ করো, আর আলাদা করে 2য়, 4র্থ… স্থানের অঙ্কগুলি যোগ করো। দুই যোগফলের অন্তর $0$ বা $11$ দিয়ে বিভাজ্য হলে সংখ্যাটি $11$ দিয়ে বিভাজ্য। $2728$: $(8 + 7) - (2 + 2) = 11$, তাই ভাগ যাবে। $1331$: $(1 + 3) - (3 + 1) = 0$, তাই ভাগ যাবে।
+
+মনে রেখো: $6$-এর জন্য $2$ আর $3$ **দুটোই** লাগবে; একটা মানলেই হবে না।`,
+          ),
+        },
+        {
           heading: t('Adding 1 + 2 + 3 + … quickly', '1 + 2 + 3 + … তাড়াতাড়ি যোগ করা'),
           body: t(
             r`To add $1 + 2 + \dots + 10$, pair the first and last numbers: $1 + 10 = 11$, $2 + 9 = 11$, and so on. There are $5$ such pairs, so the sum is $5 \times 11 = 55$.
@@ -121,6 +156,8 @@ Another neat fact: adding odd numbers from $1$ gives perfect squares. $1 + 3 = 4
 - By **3**: the sum of the digits is divisible by $3$.
 - By **4**: the number formed by the last two digits is divisible by $4$.
 - By **5**: last digit is $0$ or $5$.
+- By **6**: divisible by both $2$ and $3$.
+- By **7**: double the last digit and subtract it from the rest; repeat until the result is small enough to check.
 - By **8**: the number formed by the last three digits is divisible by $8$.
 - By **9**: the sum of the digits is divisible by $9$.
 - By **10**: last digit is $0$.
@@ -131,6 +168,8 @@ Another neat fact: adding odd numbers from $1$ gives perfect squares. $1 + 3 = 4
 - **3** দিয়ে: অঙ্কগুলির যোগফল $3$ দিয়ে বিভাজ্য।
 - **4** দিয়ে: শেষ দুটি অঙ্কে তৈরি সংখ্যা $4$ দিয়ে বিভাজ্য।
 - **5** দিয়ে: শেষ অঙ্ক $0$ বা $5$।
+- **6** দিয়ে: $2$ ও $3$ দুটো দিয়েই বিভাজ্য।
+- **7** দিয়ে: শেষ অঙ্কের দ্বিগুণ বাকি সংখ্যা থেকে বিয়োগ করো; ফল ছোটো না হওয়া পর্যন্ত বারবার করো।
 - **8** দিয়ে: শেষ তিনটি অঙ্কে তৈরি সংখ্যা $8$ দিয়ে বিভাজ্য।
 - **9** দিয়ে: অঙ্কগুলির যোগফল $9$ দিয়ে বিভাজ্য।
 - **10** দিয়ে: শেষ অঙ্ক $0$।
