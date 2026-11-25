@@ -133,6 +133,49 @@ test('picking prefers unseen questions and siblings of mistakes; exact mistakes 
   assert.equal(L.pickChapter(small, 8, { mix: { MEDIUM: 1 }, signals: smallSig, rng: seeded(9) }).picked.length, 8);
 });
 
+test('picking with requirePatterns: the required pattern fills the set when its pool suffices, cap lifted', () => {
+  const pool = [
+    ...Array.from({ length: 12 }, (_, i) => cand(i, { difficulty: 3, pattern: 'req' })),
+    ...Array.from({ length: 12 }, (_, i) => cand(100 + i, { difficulty: 3, pattern: 'other' })),
+  ];
+  for (let s = 1; s <= 10; s++) {
+    const res = L.pickChapter(pool, 10, { mix: { MEDIUM: 1 }, signals: signals(), requirePatterns: new Set(['t.req']), rng: seeded(s) });
+    assert.equal(res.picked.length, 10, `seed ${s}`);
+    assert.ok(res.picked.every((q) => q.pattern === 'req'), `seed ${s}: only the required pattern`);
+  }
+  // The user's case: 5 same-type questions, more than the one-pattern cap of 2 (ceil(5/3)).
+  const five = L.pickChapter(pool, 5, { mix: { MEDIUM: 1 }, signals: signals(), requirePatterns: new Set(['t.req']), rng: seeded(2) });
+  assert.equal(five.picked.length, 5);
+  assert.ok(five.picked.every((q) => q.pattern === 'req'));
+});
+
+test('picking with requirePatterns honours the level mix in levels mode', () => {
+  const pool = [
+    ...Array.from({ length: 10 }, (_, i) => cand(i, { difficulty: (i % 2) + 1, pattern: 'req' })),
+    ...Array.from({ length: 10 }, (_, i) => cand(100 + i, { difficulty: (i % 2) + 1, pattern: 'other' })),
+  ];
+  const res = L.pickChapter(pool, 5, { mix: { 1: 0.5, 2: 0.5 }, signals: signals(), requirePatterns: new Set(['t.req']), levels: true, rng: seeded(2) });
+  assert.equal(res.picked.length, 5);
+  assert.ok(res.picked.every((q) => q.pattern === 'req'));
+  assert.ok(res.picked.every((q) => q.difficulty <= 2), 'basic level mix: difficulties 1-2');
+});
+
+test('picking with requirePatterns: a short required pool still fills the set with other questions', () => {
+  const pool = [
+    ...Array.from({ length: 3 }, (_, i) => cand(i, { difficulty: 3, pattern: 'req' })),
+    ...Array.from({ length: 12 }, (_, i) => cand(100 + i, { difficulty: 3, pattern: 'other' })),
+  ];
+  const res = L.pickChapter(pool, 10, { mix: { MEDIUM: 1 }, signals: signals(), requirePatterns: new Set(['t.req']), rng: seeded(4) });
+  assert.equal(res.picked.length, 10);
+  assert.equal(res.picked.filter((q) => q.pattern === 'req').length, 3);
+  // An empty required set is exactly the same as no option at all.
+  const pool2 = Array.from({ length: 40 }, (_, i) => cand(i, { difficulty: 3 }));
+  const sig = signals();
+  const plain = L.pickChapter(pool2, 10, { mix: { MEDIUM: 1 }, signals: sig, rng: seeded(5) });
+  const empty = L.pickChapter(pool2, 10, { mix: { MEDIUM: 1 }, signals: sig, requirePatterns: new Set(), rng: seeded(5) });
+  assert.deepEqual(empty.picked.map((q) => q._id), plain.picked.map((q) => q._id));
+});
+
 test('history: improvement, best, challenge unlock after three tests >= 85%', () => {
   const t = (scorePct, topic = 'a') => ({ scorePct, accuracy: scorePct, timeSec: 600, perQuestion: [{ topic, correct: scorePct > 50 }] });
   const h = L.historySummary([t(90), t(88), t(86), t(60), t(50), t(40)]); // newest first

@@ -39,6 +39,10 @@ const testBody = z
     // omitted = the adaptive level (stuck.logic nextLevel / startLevel). Ignored by other presets.
     stuckMode: z.enum(S.MODES).optional(),
     stuckLevel: z.enum(S.LEVELS).optional(),
+    // One stuck question's "Practise similar questions" button: practise that question's
+    // pattern only. Ignored by other presets; a missing or pattern-less question falls back
+    // silently to the usual chapter behaviour.
+    focusQuestionId: objectId.optional(),
   })
   .transform((b) => ({ ...b, topics: [...new Set(b.topics)] }));
 

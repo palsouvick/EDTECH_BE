@@ -290,8 +290,11 @@ async function summary(userId) {
  * The question targets of a "Practice My Weakness" quiz (customTest preset 'stuck'): chapters,
  * per-chapter difficulty mix, the patterns and sub-topics to stay on, and the stuck questions
  * themselves (left out of the quiz). The level is the adaptive level when not chosen.
+ * With focusQuestionId (one stuck question's "Practise similar questions" button) the quiz is
+ * that question's pattern only. A missing, unpublished or pattern-less focus question falls
+ * back silently to the usual chapter behaviour: the quiz must never fail on it.
  */
-async function practicePlan(userId, { mode = 'pattern', level = null, count = 10, topics = [] } = {}) {
+async function practicePlan(userId, { mode = 'pattern', level = null, count = 10, topics = [], focusQuestionId = null } = {}) {
   const d = await loadEvidence(userId);
   const { gaps, levelFor } = diagnosisOf(d);
   const targets = [];
@@ -307,7 +310,14 @@ async function practicePlan(userId, { mode = 'pattern', level = null, count = 10
   const firstTopic = topics[0] ?? gaps[0]?.practice.topic ?? targets.find((t) => t.kind === 'stuck')?.topic;
   const lv = level ?? levelFor(firstTopic, gaps[0]?.gap ?? null);
   const gapTopics = [...new Set(gaps.slice(0, 3).flatMap((g) => g.topics.map((t) => t.topic)))];
-  return S.practiceTargets(targets, { mode, level: lv, count, topics, gapTopics });
+  let focus = null;
+  if (focusQuestionId) {
+    const q = await Question.findById(focusQuestionId).select('subject topic subtopic pattern status').lean().catch(() => null);
+    if (q?.status === 'PUBLISHED' && q.subject === SUBJECT && q.pattern) {
+      focus = { topic: q.topic, pattern: q.pattern, subtopic: q.subtopic ?? null };
+    }
+  }
+  return S.practiceTargets(targets, { mode, level: lv, count, topics, gapTopics, focus });
 }
 
 /**

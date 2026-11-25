@@ -230,9 +230,14 @@ const LEVEL_BACKFILL = { 1: [2, 3, 4, 5], 2: [1, 3, 4, 5], 3: [2, 4, 1, 5], 4: [
  * the nearest band. No two questions share an id or duplicate key; at most a third of the
  * chapter comes from one pattern while others are available (except the mistaken patterns in
  * "Retry my mistakes").
+ * With requirePatterns (a Set of 'topic.pattern' keys: one stuck question's "Practise similar
+ * questions"), a pre-pass fills the band quotas from those patterns only, in the same ranked
+ * order, borrowing inside the required set first and with the per-pattern cap lifted; the
+ * passes below then fill any remainder, so a short required pool still reaches `count`.
+ * Without requirePatterns the behaviour is exactly as before.
  * @returns {{ picked: object[], mix: {EASY,MEDIUM,HARD}, borrowed: number, pyq: number, siblings: number, originals: number }}
  */
-function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBoost = 1, levels = false, rng = () => crypto.randomInt(1, 2 ** 31) / 2 ** 31 }) {
+function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBoost = 1, levels = false, requirePatterns = null, rng = () => crypto.randomInt(1, 2 ** 31) / 2 ** 31 }) {
   // `levels`: `mix` is keyed by stored difficulty (1-5, adaptive practice) instead of EASY/MEDIUM/HARD.
   const quotaKey = levels ? (d) => String(Math.min(5, Math.max(1, Math.round(d ?? 3)))) : bandOf;
   const backfill = levels ? Object.fromEntries(Object.entries(LEVEL_BACKFILL).map(([k, v]) => [k, v.map(String)])) : BACKFILL;
@@ -254,13 +259,16 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
   const bandCount = { EASY: 0, MEDIUM: 0, HARD: 0 }; // reported mix, always in bands
   const quotaCount = {}; // filled per quota key (band, or difficulty in `levels` mode)
 
-  const ok = (r, { strictPattern, lastResort = false }) => {
+  const required = requirePatterns?.size ? new Set(requirePatterns) : null;
+  const isRequired = (r) => Boolean(required && r.q.pattern && required.has(`${r.q.topic}.${r.q.pattern}`));
+
+  const ok = (r, { strictPattern, lastResort = false, liftCap = false }) => {
     if (ids.has(String(r.q._id))) return false;
     if ((r.q.duplicate_keys || []).some((d) => dups.has(d))) return false;
     if (r.original && !lastResort && ((preset !== 'mistakes' && preset !== 'smart' && preset !== 'adaptive') || originals >= originalsCap)) return false;
     // Retry my mistakes is meant to repeat the mistaken patterns, so they are not capped there.
     const retrying = (preset === 'mistakes' || preset === 'stuck') && (r.sibling || r.original);
-    if (strictPattern && !retrying && r.q.pattern && (perPattern.get(r.q.pattern) || 0) >= patternCap) return false;
+    if (strictPattern && !liftCap && !retrying && r.q.pattern && (perPattern.get(r.q.pattern) || 0) >= patternCap) return false;
     return true;
   };
   const take = (r) => {
@@ -283,6 +291,39 @@ function pickChapter(candidates, count, { mix, signals, preset = 'custom', pyqBo
   };
 
   let borrowed = 0;
+  // Required patterns first: fill the band quotas from those patterns only, borrowing
+  // inside the required set before the passes below see any other question.
+  if (required) {
+    const fillRequired = (band, need) => {
+      for (const r of ranked) {
+        if (need <= 0) break;
+        if (r.band !== band || !isRequired(r) || !ok(r, { strictPattern: false, liftCap: true })) continue;
+        take(r);
+        need -= 1;
+      }
+      return need;
+    };
+    for (const band of Object.keys(quotas)) {
+      let need = quotas[band] - (quotaCount[band] || 0);
+      if (need <= 0) continue;
+      need = fillRequired(band, need);
+      for (const donor of backfill[band] || []) {
+        if (need <= 0) break;
+        const before = need;
+        need = fillRequired(donor, need);
+        borrowed += before - need;
+      }
+    }
+    // Borrowing can strand a required question: a donor band's quota looks filled
+    // (its questions were borrowed) while its own turn already passed. Take what is
+    // left of the required set, in ranked order, before any other pattern is seen.
+    for (const r of ranked) {
+      if (picked.length >= count) break;
+      if (!isRequired(r) || !ok(r, { strictPattern: false, liftCap: true })) continue;
+      take(r);
+      borrowed += 1;
+    }
+  }
   for (const strictPattern of [true, false]) {
     for (const band of Object.keys(quotas)) {
       let need = quotas[band] - (quotaCount[band] || 0);

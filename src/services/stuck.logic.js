@@ -241,10 +241,26 @@ function chapterTable(stuckRows, answers) {
  * sub-topic) in the same chapter, at the chosen level.
  *
  * @param {object[]} targets  { qid, topic, pattern, subtopic, kind: 'stuck'|'wrong'|'skipped', reason }
- * @param {object} opts       { mode, level, count, topics?: string[], gapTopics?: string[] }
- * @returns {{ plan: {topic, count, mix}[], patterns: string[], subtopics: string[], qids: string[], mode, level }}
+ * @param {object} opts       { mode, level, count, topics?: string[], gapTopics?: string[],
+ *                              focus?: { topic, pattern, subtopic } }
+ *   With a focus (one stuck question's "Practise similar questions" button) the reason pool
+ *   filtering is skipped: the plan is that question's pattern only, in its chapter.
+ * @returns {{ plan: {topic, count, mix, requirePatterns?}[], patterns: string[], subtopics: string[], qids: string[], mode, level }}
+ *   A focused plan item carries requirePatterns: ['topic.pattern'], so the draw must fill
+ *   from that pattern first. qids is always every target question: never served, focused or not.
  */
-function practiceTargets(targets, { mode = 'pattern', level = 'basic', count = 10, topics = [], gapTopics = [] } = {}) {
+function practiceTargets(targets, { mode = 'pattern', level = 'basic', count = 10, topics = [], gapTopics = [], focus = null } = {}) {
+  if (focus?.topic && focus?.pattern) {
+    const key = `${focus.topic}.${focus.pattern}`;
+    return {
+      plan: [{ topic: focus.topic, count, mix: LEVEL_MIX[level], requirePatterns: [key] }],
+      patterns: [key],
+      subtopics: focus.subtopic ? [`${focus.topic}.${focus.subtopic}`] : [],
+      qids: [...new Set(targets.map((t) => String(t.qid)))],
+      mode,
+      level,
+    };
+  }
   const weightOf = { stuck: 3, wrong: 2, skipped: 1 };
   let pool = topics.length ? targets.filter((t) => topics.includes(t.topic)) : targets;
   const reasons = MODE_REASONS[mode] || [];

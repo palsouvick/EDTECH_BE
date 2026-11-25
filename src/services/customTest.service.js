@@ -312,7 +312,7 @@ async function resolveRequest(userId, body, signals, allTopics) {
       r.questionCount = body.questionCount ?? 10;
       r.mode = body.mode ?? 'practice';
       r.distribution = 'smart';
-      const t = await stuckService.practicePlan(userId, { mode: body.stuckMode ?? 'pattern', level: body.stuckLevel ?? null, count: r.questionCount, topics: chosen });
+      const t = await stuckService.practicePlan(userId, { mode: body.stuckMode ?? 'pattern', level: body.stuckLevel ?? null, count: r.questionCount, topics: chosen, focusQuestionId: body.focusQuestionId ?? null });
       if (!t || !t.plan.length) throw AppError.unprocessable('NO_STUCK_PROBLEMS', "Mark questions with \"I'm Stuck\" in a Math mock first");
       r.stuckPlan = t.plan;
       r.stuck = { mode: t.mode, level: t.level };
@@ -468,7 +468,9 @@ function planFor(req, avail, signals) {
   }
   if (req.stuckPlan) {
     // Practice My Weakness: chapters and the level's difficulty mix come from the stuck plan.
-    const plan = req.stuckPlan.map((p) => ({ topic: p.topic, count: p.count, reasons: [`mode:${req.stuck.mode}`, `level:${req.stuck.level}`], mix: p.mix, pyqBoost: req.stuck.level === 'exam' ? 1.5 : 0 }));
+    // A focused plan (one question's "Practise similar questions") carries requirePatterns:
+    // the draw must fill from that pattern first.
+    const plan = req.stuckPlan.map((p) => ({ topic: p.topic, count: p.count, reasons: [`mode:${req.stuck.mode}`, `level:${req.stuck.level}`], mix: p.mix, pyqBoost: req.stuck.level === 'exam' ? 1.5 : 0, ...(p.requirePatterns?.length ? { requirePatterns: p.requirePatterns } : {}) }));
     const total = plan.reduce((a, p) => a + p.count, 0);
     return { plan, total, shortBy: Math.max(0, req.questionCount - total) };
   }
@@ -526,7 +528,7 @@ async function previewTest(userId, body) {
     difficulty: req.difficulty,
     distribution: req.distribution,
     mode: req.mode,
-    plan: plan.map(({ mix, pyqBoost, ...p }) => p),
+    plan: plan.map(({ mix, pyqBoost, requirePatterns, ...p }) => p),
     recommendedMinutes: L.smartMinutes(body.subject, req.difficulty, total),
     followUp: req.followUp,
     stuck: req.stuck ?? null,
@@ -682,7 +684,7 @@ async function createTest(userId, body) {
     const pool = (byTopic.get(p.topic) || []).filter((q) => !(q.duplicate_keys || []).some((d) => dupSeen.has(d)));
     let res;
     if (p.tier) res = HQ.pickHard(pool, p.count, { tier: p.tier, signals });
-    else if (p.mix) res = L.pickChapter(pool, p.count, { mix: p.mix, signals, preset: p.role === 'mistakes' ? 'mistakes' : req.preset, pyqBoost: p.pyqBoost, levels: true });
+    else if (p.mix) res = L.pickChapter(pool, p.count, { mix: p.mix, signals, preset: p.role === 'mistakes' ? 'mistakes' : req.preset, pyqBoost: p.pyqBoost, levels: true, requirePatterns: p.requirePatterns ? new Set(p.requirePatterns) : null });
     else res = L.pickChapter(pool, p.count, { mix: rule.mix, signals, preset: req.preset, pyqBoost: rule.pyqBoost });
     if (p.mix) for (const q of res.picked) q.practiceType = p.role === 'challenge' && !q.realPyq ? 'challenge' : AD.practiceTypeOf(q);
     if (labelled) for (const q of res.picked) q.practiceType = HQ.practiceTypeFor(q, pyqPatterns);
@@ -692,7 +694,7 @@ async function createTest(userId, body) {
     }
     for (const q of res.picked) for (const d of q.duplicate_keys || []) dupSeen.add(d);
     picked.push(...res.picked);
-    const { mix: _mix, pyqBoost: _boost, ...kept } = p; // tier (Hard Quiz) is kept on the stored plan
+    const { mix: _mix, pyqBoost: _boost, requirePatterns: _required, ...kept } = p; // tier (Hard Quiz) is kept on the stored plan
     finalPlan.push({ ...kept, count: res.picked.length });
     notes.borrowed += res.borrowed;
     notes.pyq += res.pyq;

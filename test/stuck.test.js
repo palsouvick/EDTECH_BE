@@ -110,6 +110,29 @@ test('practice targets: stuck chapters first, counts add up, the level mix is us
   assert.deepEqual(concept.patterns, ['time_work.eff']);
 });
 
+test('practice targets with a focus: one chapter, exactly the clicked pattern, exclusions kept', () => {
+  const targets = [
+    { qid: 'a', topic: 'ratio_proportion', pattern: 'ratio_change', kind: 'stuck', reason: 'method' },
+    { qid: 'b', topic: 'ratio_proportion', pattern: 'variation_direct_inverse', kind: 'stuck', reason: 'concept' },
+    { qid: 'c', topic: 'percentage', pattern: 'succ', kind: 'wrong' },
+  ];
+  const focused = S.practiceTargets(targets, { mode: 'pattern', level: 'basic', count: 5, focus: { topic: 'ratio_proportion', pattern: 'ratio_change', subtopic: 'ratio_basics' } });
+  assert.deepEqual(focused.plan, [{ topic: 'ratio_proportion', count: 5, mix: S.LEVEL_MIX.basic, requirePatterns: ['ratio_proportion.ratio_change'] }]);
+  assert.deepEqual(focused.patterns, ['ratio_proportion.ratio_change']);
+  assert.deepEqual(focused.subtopics, ['ratio_proportion.ratio_basics']);
+  assert.deepEqual(focused.qids.sort(), ['a', 'b', 'c']);
+  const noSubtopic = S.practiceTargets(targets, { mode: 'pattern', level: 'basic', count: 5, focus: { topic: 'ratio_proportion', pattern: 'ratio_change', subtopic: null } });
+  assert.deepEqual(noSubtopic.subtopics, []);
+  // The focus wins over the mode's reason filter: 'concept' mode would normally keep only
+  // the 'concept'-reason stuck question, but the clicked pattern is the target regardless.
+  const conceptMode = S.practiceTargets(targets, { mode: 'concept', level: 'basic', count: 5, focus: { topic: 'ratio_proportion', pattern: 'ratio_change', subtopic: null } });
+  assert.deepEqual(conceptMode.plan.map((p) => p.topic), ['ratio_proportion']);
+  // Without a focus the old chapter-mix behaviour is unchanged, with no required pattern.
+  const plain = S.practiceTargets(targets, { mode: 'pattern', level: 'basic', count: 5 });
+  assert.ok(plain.plan.length >= 1);
+  assert.ok(plain.plan.every((p) => !('requirePatterns' in p)));
+});
+
 test('chapter table and improvement', () => {
   const rows = S.chapterTable(
     [{ topic: 'percentage' }, { topic: 'percentage' }, { topic: 'time_work' }],
@@ -309,4 +332,49 @@ test('API: Practice My Weakness builds new same-pattern questions (never the stu
   assert.equal(overview.body.data.quizzes.length, 1);
   assert.equal(overview.body.data.improvement[0].topic, 'percentage');
   assert.equal(overview.body.data.improvement[0].now, 100);
+});
+
+test('API: "Practise similar questions" serves the clicked question\'s pattern only', async () => {
+  const user = 'stuck_scoring';
+  const stuckItems = await ReviewItem.find({ user_id: user, from_stuck: true }).lean();
+  assert.ok(stuckItems.length > 0);
+  const focusId = String(stuckItems[0].question_id);
+  const focusQ = await Question.findById(focusId).select('topic pattern difficulty').lean();
+  assert.equal(focusQ.topic, 'percentage');
+  assert.ok(focusQ.pattern);
+
+  // Exam level: the pattern pool has 6 questions at difficulties 3-5, so all 5 served
+  // questions can come from the focus pattern (the stuck question itself is excluded).
+  const res = await api('POST', '/custom-tests', { subject: 'quant', preset: 'stuck', stuckMode: 'pattern', stuckLevel: 'exam', questionCount: 5, topics: ['percentage'], focusQuestionId: focusId, language: 'en' }, user);
+  assert.equal(res.status, 201, JSON.stringify(res.body));
+  const doc = await MockSession.findById(res.body.data.sessionId).lean();
+  assert.equal(doc.questions.length, 5);
+  assert.ok(doc.questions.every((q) => q.topic === 'percentage'));
+  assert.ok(doc.questions.every((q) => String(q.qid) !== focusId), 'the clicked question itself is not served');
+  const served = await Question.find({ _id: { $in: doc.questions.map((q) => q.qid) } }).select('pattern').lean();
+  assert.equal(served.length, 5);
+  assert.ok(served.every((q) => q.pattern === focusQ.pattern), `every served question carries the focus pattern ${focusQ.pattern}`);
+});
+
+test('API: an unknown or pattern-less focus question falls back to the usual chapter quiz', async () => {
+  const user = 'stuck_scoring';
+  const unknown = await api('POST', '/custom-tests', { subject: 'quant', preset: 'stuck', stuckMode: 'pattern', questionCount: 5, topics: ['percentage'], focusQuestionId: 'b'.repeat(24), language: 'en' }, user);
+  assert.equal(unknown.status, 201, JSON.stringify(unknown.body));
+  assert.equal((await MockSession.findById(unknown.body.data.sessionId).lean()).questions.length, 5);
+
+  const bare = await Question.create({
+    code: 'ST-FOCUSLESS',
+    exam_targets: [{ category: 'WBPSC', tier: 'PRELIMS' }],
+    subject: 'quant',
+    topic: 'percentage',
+    difficulty: 3,
+    stem: { en: 'A question with no pattern', bn: 'প্রশ্ন' },
+    options: ['opt_focuslessa', 'opt_focuslessb', 'opt_focuslessc'].map((oid, k) => ({ oid, text: { en: String(k + 1), bn: String(k + 1) } })),
+    correct_option_id: 'opt_focuslessa',
+    solution: { steps: [{ en: 'Step', bn: 'ধাপ' }] },
+    status: 'PUBLISHED',
+  });
+  const noPattern = await api('POST', '/custom-tests', { subject: 'quant', preset: 'stuck', stuckMode: 'pattern', questionCount: 5, topics: ['percentage'], focusQuestionId: String(bare._id), language: 'en' }, user);
+  assert.equal(noPattern.status, 201, JSON.stringify(noPattern.body));
+  assert.equal((await MockSession.findById(noPattern.body.data.sessionId).lean()).questions.length, 5);
 });
