@@ -1,6 +1,7 @@
 [
   {
     "id": "symbols_lookalike",
+    "group": "science",
     "order": 10,
     "title": {
       "en": "Look-alike element symbols",
@@ -20,6 +21,7 @@
   },
   {
     "id": "symbols_latin",
+    "group": "science",
     "order": 20,
     "title": {
       "en": "Symbols from Latin names",
@@ -37,6 +39,7 @@
   },
   {
     "id": "atomic_numbers",
+    "group": "science",
     "order": 30,
     "title": {
       "en": "Atomic numbers",
@@ -54,6 +57,7 @@
   },
   {
     "id": "compound_formulas",
+    "group": "science",
     "order": 40,
     "title": {
       "en": "Common names and formulas",
@@ -71,6 +75,7 @@
   },
   {
     "id": "bengali_characters",
+    "group": "west_bengal",
     "order": 50,
     "title": {
       "en": "Bengali detectives and characters",
@@ -91,6 +96,7 @@
   },
   {
     "id": "bengali_pen_names",
+    "group": "west_bengal",
     "order": 60,
     "title": {
       "en": "Bengali pen names",
@@ -113,6 +119,7 @@
   },
   {
     "id": "bengali_books",
+    "group": "west_bengal",
     "order": 70,
     "title": {
       "en": "Bengali books and their authors",
@@ -134,6 +141,7 @@
   },
   {
     "id": "indian_pen_names",
+    "group": "culture",
     "order": 80,
     "title": {
       "en": "Pen names of Indian writers",
@@ -153,6 +161,7 @@
   },
   {
     "id": "indian_books_awards",
+    "group": "culture",
     "order": 90,
     "title": {
       "en": "Award-winning Indian books",
@@ -173,6 +182,7 @@
   },
   {
     "id": "booker_books",
+    "group": "culture",
     "order": 100,
     "title": {
       "en": "Booker Prize books",
@@ -193,6 +203,7 @@
   },
   {
     "id": "presidents",
+    "group": "polity",
     "order": 110,
     "title": {
       "en": "Presidents of India",
@@ -217,6 +228,826 @@
       "GK-POL-131",
       "GK-POL-132",
       "GK-POL-133"
+    ]
+  },
+  {
+    "id": "world_org_hq",
+    "group": "static",
+    "order": 120,
+    "title": {
+      "en": "World organisations and their headquarters",
+      "bn": "আন্তর্জাতিক সংস্থা ও তাদের সদর দপ্তর"
+    },
+    "intro": {
+      "en": "Geneva, Paris, Rome, Vienna or Washington? UN agencies, banks and groups: headquarters and founding years, mixed together.",
+      "bn": "জেনেভা, প্যারিস, রোম, ভিয়েনা না ওয়াশিংটন? রাষ্ট্রসংঘের সংস্থা, ব্যাংক ও গোষ্ঠী: সদর দপ্তর ও প্রতিষ্ঠার বছর, মিশিয়ে।"
+    },
+    "facts": [
+      "GK-ORG-001",
+      "GK-ORG-002",
+      "GK-ORG-003",
+      "GK-ORG-004",
+      "GK-ORG-005",
+      "GK-ORG-006",
+      "GK-ORG-007",
+      "GK-ORG-008",
+      "GK-ORG-009",
+      "GK-ORG-010"
+    ]
+  },
+  {
+    "id": "indian_institutions_hq",
+    "group": "static",
+    "order": 130,
+    "title": {
+      "en": "Indian institutions: headquarters and founding",
+      "bn": "ভারতীয় প্রতিষ্ঠান: সদর দপ্তর ও প্রতিষ্ঠা"
+    },
+    "intro": {
+      "en": "RBI, SEBI, NABARD, SIDBI, ISRO, BARC, ICAR, ICMR, BSI, ZSI: which city, which year? Asked both ways.",
+      "bn": "RBI, SEBI, NABARD, SIDBI, ISRO, BARC, ICAR, ICMR, BSI, ZSI: কোন শহরে, কোন বছরে? দুই দিক থেকে প্রশ্ন।"
+    },
+    "facts": [
+      "GK-IGK-017",
+      "GK-IGK-018",
+      "GK-IGK-201",
+      "GK-IGK-202",
+      "GK-IGK-203",
+      "GK-IGK-204",
+      "GK-IGK-205",
+      "GK-IGK-206",
+      "GK-IGK-207",
+      "GK-IGK-208",
+      "GK-IGK-211",
+      "GK-IGK-212",
+      "GK-IGK-213",
+      "GK-IGK-215",
+      "GK-ORG-011",
+      "GK-ORG-012",
+      "GK-ORG-013"
+    ]
+  },
+  {
+    "id": "days_by_month",
+    "group": "static",
+    "order": 140,
+    "title": {
+      "en": "Important days: which date?",
+      "bn": "গুরুত্বপূর্ণ দিবস: কোন তারিখে?"
+    },
+    "intro": {
+      "en": "Youth Day to Kisan Diwas, month by month, plus the pairs everyone mixes up. Questions from every month, mixed.",
+      "bn": "যুব দিবস থেকে কিষাণ দিবস, মাস ধরে, আর যে জোড়াগুলো সবাই গুলিয়ে ফেলে। প্রতিটি মাস থেকে প্রশ্ন, মিশিয়ে।"
+    },
+    "facts": [
+      "GK-DAY-001",
+      "GK-DAY-002",
+      "GK-DAY-003",
+      "GK-DAY-004",
+      "GK-DAY-005",
+      "GK-DAY-006",
+      "GK-DAY-007",
+      "GK-DAY-008",
+      "GK-DAY-009",
+      "GK-DAY-010",
+      "GK-DAY-011",
+      "GK-DAY-012",
+      "GK-DAY-013",
+      "GK-DAY-014"
+    ]
+  },
+  {
+    "id": "indian_nobel",
+    "group": "culture",
+    "order": 150,
+    "title": {
+      "en": "Indian-link Nobel laureates",
+      "bn": "ভারতের সঙ্গে যুক্ত নোবেলজয়ী"
+    },
+    "intro": {
+      "en": "Tagore, Raman, Khorana, Chandrasekhar, Mother Teresa, Sen, Ramakrishnan, Satyarthi, Banerjee: which year, which field?",
+      "bn": "রবীন্দ্রনাথ, রমন, খোরানা, চন্দ্রশেখর, মাদার টেরেসা, অমর্ত্য সেন, রামকৃষ্ণন, সত্যার্থী, অভিজিৎ: কোন বছর, কোন বিষয়?"
+    },
+    "facts": [
+      "GK-SGK-003",
+      "GK-SGK-004",
+      "GK-SGK-005",
+      "GK-SGK-006",
+      "GK-SGK-113",
+      "GK-SGK-114",
+      "GK-SGK-115",
+      "GK-SGK-116",
+      "GK-SGK-117",
+      "GK-SGK-118"
+    ]
+  },
+  {
+    "id": "india_firsts",
+    "group": "static",
+    "order": 160,
+    "title": {
+      "en": "India's firsts",
+      "bn": "ভারতের প্রথম"
+    },
+    "intro": {
+      "en": "First President, Vice-President, Prime Minister, woman PM and President, first in space, first metro: mixed together.",
+      "bn": "প্রথম রাষ্ট্রপতি, উপরাষ্ট্রপতি, প্রধানমন্ত্রী, প্রথম মহিলা প্রধানমন্ত্রী ও রাষ্ট্রপতি, মহাকাশে প্রথম, প্রথম মেট্রো: মিশিয়ে।"
+    },
+    "facts": [
+      "GK-IGK-009",
+      "GK-IGK-010",
+      "GK-IGK-011",
+      "GK-IGK-012",
+      "GK-IGK-013",
+      "GK-IGK-014",
+      "GK-IGK-015",
+      "GK-IGK-016"
+    ]
+  },
+  {
+    "id": "national_symbols",
+    "group": "static",
+    "order": 170,
+    "title": {
+      "en": "National symbols: flag, emblem, anthem, song",
+      "bn": "জাতীয় প্রতীক: পতাকা, রাষ্ট্রীয় প্রতীক, জাতীয় সংগীত, জাতীয় গান"
+    },
+    "intro": {
+      "en": "Flag ratio and adoption date, the Lion Capital, anthem length, Vande Mataram, national river and aquatic animal.",
+      "bn": "পতাকার অনুপাত ও গ্রহণের তারিখ, সিংহস্তম্ভ, জাতীয় সংগীতের দৈর্ঘ্য, বন্দে মাতরম, জাতীয় নদী ও জলজ প্রাণী।"
+    },
+    "facts": [
+      "GK-IGK-007",
+      "GK-IGK-008",
+      "GK-IGK-101",
+      "GK-IGK-102",
+      "GK-IGK-103",
+      "GK-IGK-104",
+      "GK-IGK-107",
+      "GK-IGK-109",
+      "GK-IGK-110"
+    ]
+  },
+  {
+    "id": "dances_states",
+    "group": "culture",
+    "order": 180,
+    "title": {
+      "en": "Dances and their states",
+      "bn": "নৃত্য ও তার রাজ্য"
+    },
+    "intro": {
+      "en": "Which classical or folk dance belongs to which state, and the Sangeet Natak Akademi centres behind them.",
+      "bn": "কোন শাস্ত্রীয় বা লোকনৃত্য কোন রাজ্যের, আর সংগীত নাটক আকাদেমির কেন্দ্রগুলো।"
+    },
+    "facts": [
+      "GK-ART-101",
+      "GK-ART-102",
+      "GK-ART-103",
+      "GK-ART-104",
+      "GK-ART-002",
+      "GK-ART-003",
+      "GK-ART-119"
+    ]
+  },
+  {
+    "id": "constitution_amendments",
+    "group": "polity",
+    "order": 190,
+    "title": {
+      "en": "Constitutional amendments",
+      "bn": "সংবিধান সংশোধনী"
+    },
+    "intro": {
+      "en": "44th, 61st, 101st, 103rd, 106th: which amendment did what? Numbers and changes, asked both ways.",
+      "bn": "৪৪তম, ৬১তম, ১০১তম, ১০৩তম, ১০৬তম: কোন সংশোধনী কী বদলেছে? সংখ্যা ও পরিবর্তন, দুই দিক থেকে প্রশ্ন।"
+    },
+    "facts": [
+      "GK-POL-011",
+      "GK-POL-012",
+      "GK-POL-015",
+      "GK-POL-016",
+      "GK-POL-017"
+    ]
+  },
+  {
+    "id": "national_awards",
+    "group": "culture",
+    "order": 200,
+    "title": {
+      "en": "National awards: Padma, Bharat Ratna, Phalke, gallantry",
+      "bn": "জাতীয় পুরস্কার: পদ্ম, ভারতরত্ন, ফালকে, বীরত্ব"
+    },
+    "intro": {
+      "en": "When each award began, its first recipients and categories: the details exams like to swap.",
+      "bn": "কোন পুরস্কার কবে শুরু, প্রথম প্রাপক ও বিভাগ: পরীক্ষায় যে তথ্যগুলো অদলবদল করে প্রশ্ন আসে।"
+    },
+    "facts": [
+      "GK-SGK-101",
+      "GK-SGK-102",
+      "GK-SGK-104",
+      "GK-SGK-105",
+      "GK-SGK-107",
+      "GK-SGK-110",
+      "GK-SGK-111",
+      "GK-SGK-112",
+      "GK-SGK-119",
+      "GK-SGK-120",
+      "GK-SGK-121"
+    ]
+  },
+  {
+    "id": "cell_organelles",
+    "group": "science",
+    "order": 112,
+    "title": {
+      "en": "Cell organelles and their nicknames",
+      "bn": "কোশীয় অঙ্গাণু ও তাদের ডাকনাম"
+    },
+    "intro": {
+      "en": "Powerhouse, protein factory, suicide bags, post office: which organelle is which, plus cell walls, own-DNA organelles and 70S/80S ribosomes.",
+      "bn": "শক্তিঘর, প্রোটিন কারখানা, আত্মঘাতী থলি, পোস্ট অফিস: কোনটা কোন অঙ্গাণু, সঙ্গে কোশপ্রাচীর, নিজস্ব DNA-যুক্ত অঙ্গাণু ও 70S/80S রাইবোজোম।"
+    },
+    "facts": [
+      "GK-SCI-140",
+      "GK-SCI-015",
+      "GK-SCI-141",
+      "GK-SCI-142",
+      "GK-SCI-143",
+      "GK-SCI-144",
+      "GK-SCI-145",
+      "GK-SCI-146",
+      "GK-SCI-147",
+      "GK-SCI-148",
+      "GK-SCI-149"
+    ]
+  },
+  {
+    "id": "union_ministers",
+    "group": "current",
+    "order": 114,
+    "title": {
+      "en": "Union ministers: who holds which ministry",
+      "bn": "কেন্দ্রীয় মন্ত্রী: কে কোন মন্ত্রক"
+    },
+    "intro": {
+      "en": "Modi 3.0 portfolios as on 25 July 2026, the Education change (Pradhan to Joshi), and the earlier holders exams swap in.",
+      "bn": "২৫ জুলাই ২০২৬ অনুযায়ী মোদী ৩.০-র দপ্তর, শিক্ষা মন্ত্রকের বদল (প্রধান থেকে জোশী), আর আগের মন্ত্রীরা যাঁদের নাম ভুল বিকল্পে আসে।"
+    },
+    "facts": [
+      "GK-CA-120",
+      "GK-CA-121",
+      "GK-CA-122",
+      "GK-CA-123",
+      "GK-CA-124",
+      "GK-CA-125",
+      "GK-CA-126",
+      "GK-CA-127",
+      "GK-CA-128",
+      "GK-CA-129",
+      "GK-CA-130",
+      "GK-CA-131",
+      "GK-CA-132",
+      "GK-CA-133",
+      "GK-CA-134",
+      "GK-CA-135"
+    ]
+  },
+  {
+    "id": "wb_ministers",
+    "group": "current",
+    "order": 116,
+    "title": {
+      "en": "West Bengal ministers 2026: then and now",
+      "bn": "পশ্চিমবঙ্গের মন্ত্রী ২০২৬: আগে ও এখন"
+    },
+    "intro": {
+      "en": "Suvendu Adhikari ministry departments, Speaker and Governor, against the holders before May 2026: the answer depends on the date.",
+      "bn": "শুভেন্দু অধিকারী মন্ত্রিসভার দপ্তর, স্পিকার ও রাজ্যপাল, আর মে ২০২৬-এর আগের মন্ত্রীরা: উত্তর নির্ভর করে তারিখের ওপর।"
+    },
+    "facts": [
+      "GK-CA-106",
+      "GK-CA-107",
+      "GK-CA-136",
+      "GK-CA-137",
+      "GK-CA-138",
+      "GK-CA-139",
+      "GK-CA-140",
+      "GK-CA-141",
+      "GK-CA-142",
+      "GK-CA-143",
+      "GK-CA-144",
+      "GK-CA-145",
+      "GK-CA-146",
+      "GK-CA-147",
+      "GK-CA-148",
+      "GK-CA-149"
+    ]
+  },
+  {
+    "id": "day_themes",
+    "group": "current",
+    "order": 118,
+    "title": {
+      "en": "Important days: themes of 2025 and 2026",
+      "bn": "গুরুত্বপূর্ণ দিবস: ২০২৫ ও ২০২৬-এর থিম"
+    },
+    "intro": {
+      "en": "Glaciers or gender? Korea or Azerbaijan? This year’s and last year’s official themes, asked side by side.",
+      "bn": "হিমবাহ না লিঙ্গসমতা? কোরিয়া না আজারবাইজান? এ বছর ও গত বছরের সরকারি থিম, পাশাপাশি প্রশ্ন।"
+    },
+    "facts": [
+      "GK-CA-150",
+      "GK-CA-151",
+      "GK-CA-152",
+      "GK-CA-153",
+      "GK-CA-154",
+      "GK-CA-155",
+      "GK-CA-156",
+      "GK-CA-157",
+      "GK-CA-158",
+      "GK-CA-159",
+      "GK-CA-160",
+      "GK-CA-161",
+      "GK-CA-162",
+      "GK-CA-163",
+      "GK-CA-164",
+      "GK-CA-165",
+      "GK-CA-166",
+      "GK-CA-167",
+      "GK-CA-168",
+      "GK-CA-169"
+    ]
+  },
+  {
+    "id": "polity_articles",
+    "group": "polity",
+    "order": 300,
+    "title": {
+      "en": "Key Articles: rights, duties, citizenship, offices",
+      "bn": "গুরুত্বপূর্ণ ধারা: অধিকার, কর্তব্য, নাগরিকত্ব, পদ"
+    },
+    "intro": {
+      "en": "Article 21A or 32? 51A or 44? 63 or 324? The Article numbers exams swap, with the President and Vice-President rules.",
+      "bn": "ধারা ২১ক না ৩২? ৫১ক না ৪৪? ৬৩ না ৩২৪? পরীক্ষায় যে ধারা-সংখ্যা অদলবদল হয়, সঙ্গে রাষ্ট্রপতি ও উপরাষ্ট্রপতির নিয়ম।"
+    },
+    "facts": [
+      "GK-POL-001",
+      "GK-POL-002",
+      "GK-POL-003",
+      "GK-POL-004",
+      "GK-POL-005",
+      "GK-POL-006",
+      "GK-POL-007",
+      "GK-POL-008",
+      "GK-POL-009",
+      "GK-POL-019",
+      "GK-POL-020",
+      "GK-POL-021",
+      "GK-POL-022",
+      "GK-POL-023",
+      "GK-POL-024",
+      "GK-POL-101"
+    ]
+  },
+  {
+    "id": "local_government",
+    "group": "polity",
+    "order": 310,
+    "title": {
+      "en": "Panchayats and municipalities",
+      "bn": "পঞ্চায়েত ও পৌরসভা"
+    },
+    "intro": {
+      "en": "73rd vs 74th Amendment, Part IX vs IXA, and the amendments around them.",
+      "bn": "৭৩তম বনাম ৭৪তম সংশোধনী, নবম বনাম নবম-ক অংশ, আর তার আশপাশের সংশোধনী।"
+    },
+    "facts": [
+      "GK-POL-013",
+      "GK-POL-014",
+      "GK-POL-011",
+      "GK-POL-012",
+      "GK-POL-023"
+    ]
+  },
+  {
+    "id": "ancient_india",
+    "group": "history",
+    "order": 400,
+    "title": {
+      "en": "Ancient India: Harappa to the Guptas",
+      "bn": "প্রাচীন ভারত: হরপ্পা থেকে গুপ্ত"
+    },
+    "intro": {
+      "en": "Harappan sites, the Vedas, Buddha and Mahavira, Magadha, Ashoka and the Guptas: names, places and order.",
+      "bn": "হরপ্পার স্থান, বেদ, বুদ্ধ ও মহাবীর, মগধ, অশোক ও গুপ্ত: নাম, স্থান ও ক্রম।"
+    },
+    "facts": [
+      "GK-HIS-104",
+      "GK-HIS-001",
+      "GK-HIS-101",
+      "GK-HIS-002",
+      "GK-HIS-105",
+      "GK-HIS-003",
+      "GK-HIS-022",
+      "GK-HIS-106",
+      "GK-HIS-004",
+      "GK-HIS-103",
+      "GK-HIS-020",
+      "GK-HIS-005",
+      "GK-HIS-107",
+      "GK-HIS-006"
+    ]
+  },
+  {
+    "id": "medieval_india",
+    "group": "history",
+    "order": 410,
+    "title": {
+      "en": "Medieval India: Sultanate, Vijayanagara, Mughals, Marathas",
+      "bn": "মধ্যযুগের ভারত: সুলতানি, বিজয়নগর, মুঘল, মারাঠা"
+    },
+    "intro": {
+      "en": "Three battles of Panipat, Talikota, Akbar, Shivaji, the Bhakti and Sufi saints: years and rulers, mixed.",
+      "bn": "পানিপথের তিন যুদ্ধ, তালিকোটা, আকবর, শিবাজি, ভক্তি ও সুফি সাধক: বছর ও শাসক, মিশিয়ে।"
+    },
+    "facts": [
+      "GK-HIS-007",
+      "GK-HIS-009",
+      "GK-HIS-102",
+      "GK-HIS-008",
+      "GK-HIS-021",
+      "GK-HIS-019",
+      "GK-HIS-010"
+    ]
+  },
+  {
+    "id": "modern_india",
+    "group": "history",
+    "order": 420,
+    "title": {
+      "en": "Modern India and the freedom struggle",
+      "bn": "আধুনিক ভারত ও স্বাধীনতা সংগ্রাম"
+    },
+    "intro": {
+      "en": "Plassey to Independence: Acts, reformers, 1857, Congress sessions, Gandhian movements, Bengal partition and the INA.",
+      "bn": "পলাশি থেকে স্বাধীনতা: আইন, সংস্কারক, ১৮৫৭, কংগ্রেস অধিবেশন, গান্ধীজির আন্দোলন, বঙ্গভঙ্গ ও আজাদ হিন্দ ফৌজ।"
+    },
+    "facts": [
+      "GK-HIS-011",
+      "GK-HIS-023",
+      "GK-HIS-026",
+      "GK-HIS-012",
+      "GK-HIS-013",
+      "GK-HIS-014",
+      "GK-HIS-025",
+      "GK-HIS-017",
+      "GK-HIS-018",
+      "GK-HIS-016",
+      "GK-HIS-015",
+      "GK-HIS-024",
+      "GK-WBG-222",
+      "GK-WBG-223"
+    ]
+  },
+  {
+    "id": "india_geography",
+    "group": "geography",
+    "order": 500,
+    "title": {
+      "en": "India: rivers, dams, passes, parks",
+      "bn": "ভারত: নদী, বাঁধ, গিরিপথ, জাতীয় উদ্যান"
+    },
+    "intro": {
+      "en": "Ganga and Brahmaputra, west-flowing rivers, record dams, Himalayan passes, national parks, soils and monsoon.",
+      "bn": "গঙ্গা ও ব্রহ্মপুত্র, পশ্চিমবাহিনী নদী, রেকর্ড-গড়া বাঁধ, হিমালয়ের গিরিপথ, জাতীয় উদ্যান, মাটি ও মৌসুমি বায়ু।"
+    },
+    "facts": [
+      "GK-GEO-101",
+      "GK-GEO-017",
+      "GK-GEO-004",
+      "GK-GEO-005",
+      "GK-GEO-006",
+      "GK-GEO-014",
+      "GK-GEO-018",
+      "GK-GEO-021",
+      "GK-GEO-007",
+      "GK-GEO-019",
+      "GK-GEO-013",
+      "GK-GEO-009",
+      "GK-GEO-008",
+      "GK-GEO-020",
+      "GK-GEO-001",
+      "GK-GEO-002",
+      "GK-GEO-024",
+      "GK-GEO-022",
+      "GK-GEO-011"
+    ]
+  },
+  {
+    "id": "world_geography",
+    "group": "geography",
+    "order": 510,
+    "title": {
+      "en": "World geography",
+      "bn": "বিশ্বের ভূগোল"
+    },
+    "intro": {
+      "en": "Straits, deserts, the Rim of Fire and the Suez Canal.",
+      "bn": "প্রণালী, মরুভূমি, আগ্নেয় বলয় ও সুয়েজ খাল।"
+    },
+    "facts": [
+      "GK-GEO-023",
+      "GK-GEO-015",
+      "GK-GEO-016",
+      "GK-GEO-002"
+    ]
+  },
+  {
+    "id": "environment_treaties",
+    "group": "geography",
+    "order": 520,
+    "title": {
+      "en": "Environment: treaties, ecology, energy",
+      "bn": "পরিবেশ: চুক্তি, বাস্তুতন্ত্র, শক্তি"
+    },
+    "intro": {
+      "en": "Montreal, Basel, Stockholm, Bonn, CBD, Paris: which treaty is about what, plus ecology basics and India’s energy missions.",
+      "bn": "মন্ট্রিল, বাসেল, স্টকহলম, বন, CBD, প্যারিস: কোন চুক্তি কী নিয়ে, সঙ্গে বাস্তুতন্ত্রের মূল কথা ও ভারতের শক্তি মিশন।"
+    },
+    "facts": [
+      "GK-ENV-001",
+      "GK-ENV-002",
+      "GK-ENV-003",
+      "GK-ENV-004",
+      "GK-ENV-005",
+      "GK-ENV-006",
+      "GK-ENV-007",
+      "GK-ENV-008",
+      "GK-ENV-009",
+      "GK-ENV-010",
+      "GK-ENV-011",
+      "GK-ENV-012",
+      "GK-ENV-013",
+      "GK-ENV-014",
+      "GK-ENV-015",
+      "GK-ENV-016",
+      "GK-ENV-017",
+      "GK-ENV-018"
+    ]
+  },
+  {
+    "id": "central_schemes",
+    "group": "economy",
+    "order": 600,
+    "title": {
+      "en": "Central schemes: launch year and purpose",
+      "bn": "কেন্দ্রীয় প্রকল্প: চালুর বছর ও উদ্দেশ্য"
+    },
+    "intro": {
+      "en": "Jan-Dhan, MUDRA, Ujjwala, Swachh Bharat, Digital India, PM-JAY, Jal Jeevan: when, where and for whom.",
+      "bn": "জনধন, মুদ্রা, উজ্জ্বলা, স্বচ্ছ ভারত, ডিজিটাল ইন্ডিয়া, PM-JAY, জল জীবন: কবে, কোথায়, কার জন্য।"
+    },
+    "facts": [
+      "GK-ECO-015",
+      "GK-ECO-016",
+      "GK-ECO-102",
+      "GK-ECO-103",
+      "GK-ECO-105",
+      "GK-ECO-106",
+      "GK-ECO-108",
+      "GK-ECO-110",
+      "GK-ECO-111",
+      "GK-ECO-112",
+      "GK-ECO-113",
+      "GK-ECO-115",
+      "GK-ECO-116",
+      "GK-ECO-117",
+      "GK-ECO-119"
+    ]
+  },
+  {
+    "id": "economy_institutions",
+    "group": "economy",
+    "order": 610,
+    "title": {
+      "en": "Banking, regulators and planning",
+      "bn": "ব্যাংকিং, নিয়ন্ত্রক ও পরিকল্পনা"
+    },
+    "intro": {
+      "en": "RBI, MPC, SEBI, NABARD, IRDAI, MUDRA, GST, Planning Commission to NITI Aayog, 1991 reforms.",
+      "bn": "RBI, MPC, SEBI, NABARD, IRDAI, মুদ্রা, GST, যোজনা কমিশন থেকে নীতি আয়োগ, ১৯৯১-এর সংস্কার।"
+    },
+    "facts": [
+      "GK-ECO-002",
+      "GK-ECO-003",
+      "GK-ECO-007",
+      "GK-ECO-008",
+      "GK-ECO-009",
+      "GK-ECO-010",
+      "GK-ECO-012",
+      "GK-ECO-013",
+      "GK-ECO-014",
+      "GK-ECO-104"
+    ]
+  },
+  {
+    "id": "human_body",
+    "group": "science",
+    "order": 700,
+    "title": {
+      "en": "Human body, vitamins and diseases",
+      "bn": "মানবদেহ, ভিটামিন ও রোগ"
+    },
+    "intro": {
+      "en": "Vitamin names and deficiency diseases, pathogens, blood and bones, plants and photosynthesis.",
+      "bn": "ভিটামিনের নাম ও অভাবজনিত রোগ, রোগজীবাণু, রক্ত ও হাড়, উদ্ভিদ ও সালোকসংশ্লেষ।"
+    },
+    "facts": [
+      "GK-SCI-101",
+      "GK-SCI-022",
+      "GK-SCI-011",
+      "GK-SCI-012",
+      "GK-SCI-013",
+      "GK-SCI-014",
+      "GK-SCI-021",
+      "GK-SCI-016",
+      "GK-SCI-023"
+    ]
+  },
+  {
+    "id": "physics_everyday",
+    "group": "science",
+    "order": 710,
+    "title": {
+      "en": "Physics, units and inventions",
+      "bn": "পদার্থবিদ্যা, একক ও আবিষ্কার"
+    },
+    "intro": {
+      "en": "SI units, laws of motion, light and sound in daily life, electricity, and who invented what.",
+      "bn": "SI একক, গতির সূত্র, দৈনন্দিন আলো ও শব্দ, বিদ্যুৎ, আর কে কী আবিষ্কার করেছেন।"
+    },
+    "facts": [
+      "GK-SCI-001",
+      "GK-SCI-002",
+      "GK-SCI-003",
+      "GK-SCI-004",
+      "GK-SCI-005",
+      "GK-SCI-017",
+      "GK-SCI-018",
+      "GK-SCI-019",
+      "GK-SCI-024"
+    ]
+  },
+  {
+    "id": "computers",
+    "group": "science",
+    "order": 720,
+    "title": {
+      "en": "Computer awareness",
+      "bn": "কম্পিউটার সচেতনতা"
+    },
+    "intro": {
+      "en": "CPU, memory units, networks, full forms, Office shortcuts, malware and the IT Act.",
+      "bn": "CPU, মেমরির একক, নেটওয়ার্ক, পূর্ণরূপ, অফিসের শর্টকাট, ম্যালওয়্যার ও আইটি আইন।"
+    },
+    "facts": [
+      "GK-CMP-001",
+      "GK-CMP-002",
+      "GK-CMP-003",
+      "GK-CMP-004",
+      "GK-CMP-005",
+      "GK-CMP-006",
+      "GK-CMP-007",
+      "GK-CMP-008",
+      "GK-CMP-009",
+      "GK-CMP-010",
+      "GK-CMP-011",
+      "GK-CMP-012",
+      "GK-CMP-013",
+      "GK-CMP-014",
+      "GK-CMP-015",
+      "GK-CMP-016"
+    ]
+  },
+  {
+    "id": "wb_districts",
+    "group": "west_bengal",
+    "order": 900,
+    "title": {
+      "en": "West Bengal districts",
+      "bn": "পশ্চিমবঙ্গের জেলা"
+    },
+    "intro": {
+      "en": "New districts and their years, largest and most populous districts, headquarters and divisions.",
+      "bn": "নতুন জেলা ও তাদের বছর, আয়তনে বৃহত্তম ও জনবহুলতম জেলা, সদর দপ্তর ও বিভাগ।"
+    },
+    "facts": [
+      "GK-WBG-003",
+      "GK-WBG-018",
+      "GK-WBG-161",
+      "GK-WBG-162",
+      "GK-WBG-163",
+      "GK-WBG-164",
+      "GK-WBG-165",
+      "GK-WBG-166",
+      "GK-WBG-167",
+      "GK-WBG-168",
+      "GK-WBG-169",
+      "GK-WBG-170",
+      "GK-WBG-173",
+      "GK-WBG-175"
+    ]
+  },
+  {
+    "id": "wb_rivers_parks",
+    "group": "west_bengal",
+    "order": 910,
+    "title": {
+      "en": "West Bengal rivers, dams and forests",
+      "bn": "পশ্চিমবঙ্গের নদী, বাঁধ ও অরণ্য"
+    },
+    "intro": {
+      "en": "Damodar and DVC dams, Farakka, Teesta, Sundarbans, Jaldapara, Gorumara, Singalila, Buxa.",
+      "bn": "দামোদর ও DVC-র বাঁধ, ফরাক্কা, তিস্তা, সুন্দরবন, জলদাপাড়া, গোরুমারা, সিঙ্গালিলা, বক্সা।"
+    },
+    "facts": [
+      "GK-WBG-017",
+      "GK-WBG-205",
+      "GK-WBG-199",
+      "GK-WBG-200",
+      "GK-WBG-201",
+      "GK-WBG-202",
+      "GK-WBG-203",
+      "GK-WBG-204",
+      "GK-WBG-206",
+      "GK-WBG-191",
+      "GK-WBG-193",
+      "GK-WBG-194",
+      "GK-WBG-195",
+      "GK-WBG-196",
+      "GK-WBG-197",
+      "GK-WBG-004",
+      "GK-WBG-198"
+    ]
+  },
+  {
+    "id": "wb_schemes",
+    "group": "west_bengal",
+    "order": 920,
+    "title": {
+      "en": "West Bengal government schemes",
+      "bn": "পশ্চিমবঙ্গ সরকারের প্রকল্প"
+    },
+    "intro": {
+      "en": "Kanyashree, Aikyashree, Swasthya Sathi, Jai Johar, Taposili Bandhu, Student Credit Card, Utkarsh Bangla: who benefits.",
+      "bn": "কন্যাশ্রী, ঐক্যশ্রী, স্বাস্থ্যসাথী, জয় জোহার, তপশিলি বন্ধু, স্টুডেন্ট ক্রেডিট কার্ড, উৎকর্ষ বাংলা: কে উপকৃত হয়।"
+    },
+    "facts": [
+      "GK-WBG-103",
+      "GK-WBG-104",
+      "GK-WBG-105",
+      "GK-WBG-107",
+      "GK-WBG-108",
+      "GK-WBG-109",
+      "GK-WBG-110",
+      "GK-WBG-111",
+      "GK-WBG-131",
+      "GK-WBG-132",
+      "GK-WBG-133",
+      "GK-WBG-134",
+      "GK-WBG-135",
+      "GK-WBG-137",
+      "GK-WBG-138"
+    ]
+  },
+  {
+    "id": "wb_personalities",
+    "group": "west_bengal",
+    "order": 930,
+    "title": {
+      "en": "Bengal renaissance and great Bengalis",
+      "bn": "বাংলার নবজাগরণ ও বিশিষ্ট বাঙালি"
+    },
+    "intro": {
+      "en": "Rammohun, Vidyasagar, Ramakrishna Mission, Nivedita, Tagore, J. C. Bose, Saha, S. N. Bose, Mahalanobis, Mother Teresa.",
+      "bn": "রামমোহন, বিদ্যাসাগর, রামকৃষ্ণ মিশন, নিবেদিতা, রবীন্দ্রনাথ, জগদীশচন্দ্র, মেঘনাদ সাহা, সত্যেন্দ্রনাথ বসু, মহলানবিশ, মাদার টেরেসা।"
+    },
+    "facts": [
+      "GK-WBG-007",
+      "GK-WBG-008",
+      "GK-WBG-224",
+      "GK-WBG-225",
+      "GK-WBG-006",
+      "GK-WBG-020",
+      "GK-WBG-226",
+      "GK-WBG-227",
+      "GK-WBG-228",
+      "GK-WBG-229",
+      "GK-WBG-231",
+      "GK-WBG-232",
+      "GK-WBG-233",
+      "GK-WBG-009"
     ]
   }
 ]

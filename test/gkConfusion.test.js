@@ -187,6 +187,21 @@ test('API: drills list only those with enough published questions; questions car
   assert.equal((await api('GET', '/gk/drills/nope/questions', null, null)).status, 404);
 });
 
+test('API: drills come in sections; a section mixed test draws on every drill of the section', async () => {
+  drills.useDrills([
+    { id: 'byomkesh', group: 'west_bengal', order: 1, title: { en: 'Byomkesh', bn: 'ব্যোমকেশ' }, intro: { en: 'One.', bn: 'এক।' }, facts: ['GK-WBG-900', 'GK-WBG-901', 'GK-WBG-902'] },
+    { id: 'ghanada', group: 'west_bengal', order: 2, title: { en: 'Ghanada', bn: 'ঘনাদা' }, intro: { en: 'Two.', bn: 'দুই।' }, facts: ['GK-WBG-902', 'GK-WBG-900', 'GK-WBG-901'] },
+  ]);
+  const data = (await api('GET', '/gk/drills', null, null)).body.data;
+  assert.deepEqual(data.drills.map((d) => d.group), ['west_bengal', 'west_bengal']);
+  assert.deepEqual(data.groups.map((g) => [g.id, g.mixId, g.drillCount]), [['west_bengal', 'mix_west_bengal', 2]]);
+  const mix = (await api('GET', '/gk/drills/mix_west_bengal/questions?language=en', null, null)).body.data;
+  assert.equal(mix.questions.length, 4, 'all questions of the three facts, each fact once');
+  assert.equal((await api('GET', '/gk/drills/mix_polity/questions', null, null)).status, 404, 'a section with no drills');
+  assert.deepEqual(drills.validateDrills([{ id: 'mix_x', group: 'nope', order: 1, title: { en: 'x', bn: 'ক' }, intro: { en: 'y', bn: 'খ' }, facts: ['GK-WBG-900', 'GK-WBG-901'] }]).map((e) => e.message), ['ids starting with mix_ are reserved for section tests', 'unknown group nope']);
+  drills.useDrills(null);
+});
+
 // ------------------------------------------------------------------ 3. revision asks the fact another way
 
 test('a GK mistake re-queues the question and sends its fact back to GK revision', async () => {

@@ -28,6 +28,7 @@ const path = require('node:path');
 const mongoose = require('mongoose');
 const { GkFact, Question } = require('../src/models');
 const { validateLibrary } = require('../src/services/gkFacts.validate');
+const { tableQuestions } = require('../src/services/gkTableQuestions');
 const { questionDuplicateKeys } = require('../src/utils/questionDuplicateKeys');
 const { newOptionId } = require('../src/models/Question');
 const catalog = require('../db/seed/catalog');
@@ -125,7 +126,7 @@ function keepOptionIds(body, existing) {
 }
 
 function questionDoc(fact, q, index, factId, by = AUTHOR) {
-  const code = `GKQ-${fact.code.slice(3)}-${index + 1}`;
+  const code = `GKQ-${fact.code.slice(3)}-${q.code_suffix ?? index + 1}`;
   const options = [q.a, ...q.w].map((o) => ({ oid: newOptionId(), text: pair(o) }));
   const src = fact.sources.find((s) => s.quote) || fact.sources[0];
   const steps = [pair(q.e)];
@@ -170,6 +171,7 @@ async function ensureGkLibrary({ dryRun = false, log = console.log, dir = DIR } 
     stats.published = records.filter((r) => r.verification.status === 'VERIFIED').length;
     stats.draft = records.length - stats.published;
     stats.questions = records.reduce((a, r) => a + (r.questions || []).length, 0);
+    stats.tableQuestions = records.reduce((a, r) => a + tableQuestions(r).length, 0);
     return stats;
   }
   return applyRecords(records);
@@ -201,9 +203,9 @@ async function applyRecords(records, { origin = 'GK_LIBRARY', by = AUTHOR } = {}
     if (current.status === 'PUBLISHED') stats.published += 1;
     else stats.draft += 1;
 
-    // The fact's own questions.
+    // The fact's own questions, then the questions made from its pack table (codes …-T1, -T2).
     const ids = [];
-    for (const [i, q] of questions.entries()) {
+    for (const [i, q] of [...questions, ...tableQuestions(rec)].entries()) {
       stats.questions += 1;
       const body = questionDoc(current, q, i, current._id, by);
       const existing = await Question.findOne({ code: body.code }).select('+import_fingerprint +correct_option_id version status options').lean();
@@ -255,6 +257,8 @@ function libraryFingerprint(dir = DIR) {
   const hash = crypto.createHash('sha1');
   if (!fs.existsSync(dir)) return hash.digest('hex');
   for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.jsonl')).sort()) hash.update(`${f}:${sha(fs.readFileSync(path.join(dir, f)))};`);
+  // The table-question generator shapes questions too: a change to it must re-seed.
+  hash.update(`table:${sha(fs.readFileSync(require.resolve('../src/services/gkTableQuestions')))};`);
   return hash.digest('hex');
 }
 

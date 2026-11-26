@@ -4,7 +4,7 @@ const { Router } = require('express');
 const validate = require('../middleware/validate');
 const { requireAuth } = require('../middleware/auth');
 const { createSessionLimiter, verifyAnswerLimiter } = require('../middleware/rateLimiters');
-const { testBody, optionsQuery, historyQuery, sessionParams, checkBody } = require('../validators/customTest.schemas');
+const { testBody, optionsQuery, historyQuery, sessionParams, checkBody, retakeBody } = require('../validators/customTest.schemas');
 const service = require('../services/customTest.service');
 
 // Custom chapter tests are built from the student's own progress and mistakes, and stored
@@ -30,6 +30,11 @@ router.post('/', createSessionLimiter, validate({ body: testBody }), async (req,
 
 router.get('/history', validate({ query: historyQuery }), async (req, res) => {
   res.json({ success: true, data: await service.getHistory(req.user.id, req.valid.query) });
+});
+
+// "Same questions again": a new attempt at the student's own submitted test.
+router.post('/:sessionId/retake', createSessionLimiter, validate({ params: sessionParams, body: retakeBody }), async (req, res) => {
+  res.status(201).json({ success: true, data: await service.retakeTest(req.user.id, req.valid.params.sessionId, req.valid.body) });
 });
 
 // One answer per question, only for the student's own practice test; same ceiling as verify-answer.

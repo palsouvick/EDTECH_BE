@@ -52,4 +52,7 @@ const sessionParams = z.object({ sessionId: objectId });
 // questionId is the alias the live screen shows (or a real id): any 24-hex string.
 const checkBody = z.object({ questionId: objectId, selectedOptionId: optionId });
 
-module.exports = { testBody, optionsQuery, historyQuery, sessionParams, checkBody };
+// Retake: same questions; only the display language may differ from the original test.
+const retakeBody = z.object({ language: language.optional() }).default({});
+
+module.exports = { testBody, optionsQuery, historyQuery, sessionParams, checkBody, retakeBody };

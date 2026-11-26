@@ -446,6 +446,31 @@ test('practice mode: instant check with explanation; the first answer is final',
   assert.equal((await api('POST', `/custom-tests/${s.sessionId}/check`, { questionId: q.questionId, selectedOptionId: wrong }, user)).status, 409);
 });
 
+test('retake: same questions, same settings, only after submitting; linked as a follow-up', async () => {
+  const user = 'retaker';
+  const created = await api('POST', '/custom-tests', { subject: 'quant', topics: ['percentage'], questionCount: 5, mode: 'exam', timeLimitMinutes: 7 }, user);
+  assert.equal(created.status, 201, JSON.stringify(created.body));
+  const s = created.body.data;
+  assert.equal((await api('POST', `/custom-tests/${s.sessionId}/retake`, {}, user)).status, 409, 'not before submitting');
+
+  const key = await keyOf(s.sessionId);
+  const responses = s.questions.map((q) => ({ questionId: q.questionId, selectedOptionId: key[q.questionId].right }));
+  assert.equal((await api('POST', '/mock/submit-session', { sessionId: s.sessionId, responses }, user)).status, 200);
+
+  const again = await api('POST', `/custom-tests/${s.sessionId}/retake`, {}, user);
+  assert.equal(again.status, 201, JSON.stringify(again.body));
+  const r = again.body.data;
+  assert.notEqual(r.sessionId, s.sessionId);
+  assert.equal(r.retakeOf, s.sessionId);
+  assert.equal(r.config.timeLimitMinutes, 7);
+  assert.equal(r.custom.mode, 'exam');
+  assert.equal(r.custom.followUpOf, s.sessionId);
+  // Aliases are per session, so compare the real question ids behind them.
+  const idsOf = async (sid) => (await MockSession.findById(sid).lean()).questions.map((q) => String(q.qid)).sort();
+  assert.deepEqual(await idsOf(r.sessionId), await idsOf(s.sessionId), 'exactly the same questions');
+  assert.equal((await api('POST', `/custom-tests/${s.sessionId}/retake`, {}, 'someone_else')).status, 404, 'only the owner');
+});
+
 test('weak-topic preset needs answers first, then picks the weak chapters', async () => {
   const user = 'weakling';
   const none = await api('POST', '/custom-tests', { subject: 'quant', preset: 'weak' }, user);

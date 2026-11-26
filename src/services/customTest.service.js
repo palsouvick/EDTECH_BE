@@ -752,6 +752,59 @@ async function createTest(userId, body) {
   };
 }
 
+/**
+ * "Same questions again": a new attempt at a submitted test with exactly its questions (in a
+ * new order), its time limit, marking and mode. Linked as a follow-up, so the report shows the
+ * previous score. Questions removed from the bank since are left out.
+ */
+async function retakeTest(userId, sessionId, { language } = {}) {
+  const prev = await customSessionOr404(userId, sessionId, 'status config custom questions');
+  if (prev.status !== 'SUBMITTED') throw AppError.conflict('SESSION_NOT_SUBMITTED', 'Finish this test before taking it again');
+  const ids = prev.questions.map((q) => q.qid);
+  const docs = await Question.find({ _id: { $in: ids }, status: 'PUBLISHED' }).select(`${PUBLIC_QUESTION_FIELDS} +correct_option_id`).lean();
+  const byId = new Map(docs.map((d) => [String(d._id), d]));
+  const ordered = mock.shuffle(
+    prev.questions
+      .map((sq) => byId.get(String(sq.qid)) && { ...byId.get(String(sq.qid)), practiceType: sq.practice_type, hardSlot: sq.hard_slot })
+      .filter(Boolean),
+  );
+  if (!ordered.length) throw AppError.unprocessable('INSUFFICIENT_QUESTIONS', 'The questions of this test are no longer available', { available: 0, requested: ids.length });
+
+  const c = prev.config;
+  const pc = prev.custom;
+  const { session, now, expiresAt } = await insertSession(userId, {
+    subject: c.subject,
+    language: language ?? c.language,
+    ordered,
+    marking: { positive: c.marking.positive, negative: c.marking.negative, basis: c.marking.basis, examCode: c.marking.exam_code, sourceUrl: c.marking.source_url },
+    minutes: c.time_limit_min,
+    recommended: pc.recommended_min ?? null,
+    custom: {
+      preset: pc.preset,
+      mode: pc.mode,
+      difficulty: pc.difficulty,
+      distribution: pc.distribution,
+      topics: pc.topics || [],
+      plan: pc.plan || [],
+      follow_up_of: prev._id,
+      ...(pc.pyq && { pyq: pc.pyq }),
+      ...(pc.stuck?.mode && { stuck: pc.stuck }),
+    },
+  });
+  const lean = session.toObject();
+  return {
+    sessionId: String(session._id),
+    status: session.status,
+    config: mock.presentConfig(lean.config),
+    custom: mock.presentCustom(lean),
+    startedAt: now,
+    expiresAt,
+    retakeOf: String(prev._id),
+    notes: { requested: ids.length, shortBy: ids.length - ordered.length },
+    questions: ordered.map((q, i) => mock.presentLiveQuestion(lean, q, i + 1)),
+  };
+}
+
 /* ------------------------------------------------------------------ practice: check one answer */
 
 function explanationOf(q) {
@@ -970,4 +1023,4 @@ async function getHistory(userId, { subject }) {
   };
 }
 
-module.exports = { getOptions, previewTest, createTest, checkAnswer, getReport, getHistory, weakChapters };
+module.exports = { getOptions, previewTest, createTest, retakeTest, checkAnswer, getReport, getHistory, weakChapters };
