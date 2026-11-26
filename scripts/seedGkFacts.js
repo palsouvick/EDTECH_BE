@@ -125,7 +125,21 @@ function keepOptionIds(body, existing) {
   for (const t of body.solution.traps) t.option_id = remap.get(t.option_id);
 }
 
-function questionDoc(fact, q, index, factId, by = AUTHOR) {
+/**
+ * Line breaks the author meant: "A. Malacca\nB. Gibraltar" would render as one run-on line in
+ * Markdown, so single breaks become hard breaks. Blank lines and table rows are left alone.
+ */
+function hardBreaks(text) {
+  const lines = String(text).split('\n');
+  return lines.map((l, i) => {
+    const next = lines[i + 1];
+    const keep = next === undefined || !l.trim() || !next.trim() || l.trim().startsWith('|') || next.trim().startsWith('|');
+    return keep ? l : `${l.replace(/\s+$/, '')}  `;
+  }).join('\n');
+}
+
+function questionDoc(fact, rawQ, index, factId, by = AUTHOR) {
+  const q = { ...rawQ, q: rawQ.q.map(hardBreaks) };
   const code = `GKQ-${fact.code.slice(3)}-${q.code_suffix ?? index + 1}`;
   const options = [q.a, ...q.w].map((o) => ({ oid: newOptionId(), text: pair(o) }));
   const src = fact.sources.find((s) => s.quote) || fact.sources[0];

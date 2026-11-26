@@ -42,6 +42,25 @@ test('serial-number first column: the next column is the key; small or odd table
   assert.ok(!tableQuestions(withNone).some((q) => q.a[0] === 'None recorded' || q.w.some((w) => w[0] === 'None recorded')));
 });
 
+test('rows written in the statement are asked too: long descriptions become the clue, names the options', () => {
+  const straits = {
+    code: 'GK-GEO-999', difficulty: 2, title: L('World straits', 'বিশ্বের প্রণালী'),
+    statement: L(
+      'Strait of Malacca — between the Malay Peninsula and Sumatra, linking the Indian and Pacific Oceans.\nStrait of Hormuz — between Iran and Oman.\nStrait of Gibraltar — between Spain and Morocco.\nBering Strait — between Russia and Alaska.\nBab-el-Mandeb — between Yemen and Djibouti.\nDeserts: the Sahara is the largest hot desert.',
+      'মালাক্কা প্রণালী — মালয় উপদ্বীপ ও সুমাত্রার মাঝে, ভারত ও প্রশান্ত মহাসাগরকে যুক্ত করে।\nহরমুজ প্রণালী — ইরান ও ওমানের মাঝে।\nজিব্রাল্টার প্রণালী — স্পেন ও মরক্কোর মাঝে।\nবেরিং প্রণালী — রাশিয়া ও আলাস্কার মাঝে।\nবাব-এল-মান্দেব — ইয়েমেন ও জিবুতির মাঝে।\nমরুভূমি: সাহারা বৃহত্তম উষ্ণ মরুভূমি।',
+    ),
+  };
+  const qs = tableQuestions(straits);
+  assert.ok(qs.every((q) => q.code_suffix.startsWith('S')));
+  const reverse = qs.filter((q) => q.q[0].includes('which one is this'));
+  assert.equal(reverse.length, 5, 'every strait is asked');
+  const hormuz = reverse.find((q) => q.q[0].includes('between Iran and Oman'));
+  assert.deepEqual(hormuz.a, ['Strait of Hormuz', 'হরমুজ প্রণালী']);
+  assert.match(hormuz.q[1], /ইরান ও ওমানের মাঝে/);
+  // Languages that do not line up give nothing rather than mismatched pairs.
+  assert.deepEqual(tableQuestions({ ...straits, statement: L(straits.statement.en, straits.statement.bn.split('\n').slice(1).join('\n')) }), []);
+});
+
 test('library tables: every generated question has 4 distinct options in both languages', () => {
   let n = 0;
   for (const r of loadRecords().records) {
@@ -53,4 +72,25 @@ test('library tables: every generated question has 4 distinct options in both la
     }
   }
   assert.ok(n > 100);
+});
+
+test('question stems keep their line breaks (lists in MATCH questions are not run together)', () => {
+  const { questionDoc } = require('../scripts/seedGkFacts');
+  const fact = { code: 'GK-GEO-999', topic: 'geography', subtopic: 'world_geography', tags: [], status: 'PUBLISHED', dates: {}, verification: { status: 'VERIFIED', verified_at: null, notes: '' }, sources: [{ title: 'NCERT', url: 'https://ncert.nic.in/x.pdf', quote: 'q', publisher_type: 'INSTITUTIONAL' }] };
+  const q = { format: 'MATCH', d: 2, q: ['Match:\nA. Malacca\nB. Bering\n\n| x | y |\n|---|---|\n| 1 | 2 |', 'মেলাও:\nA. মালাক্কা\nB. বেরিং'], a: ['A-1', 'A-১'], w: [['A-2', 'A-২'], ['A-3', 'A-৩'], ['A-4', 'A-৪']], e: ['e', 'ব্যাখ্যা'] };
+  const doc = questionDoc(fact, q, 0, null);
+  assert.equal(doc.stem.en, 'Match:  \nA. Malacca  \nB. Bering\n\n| x | y |\n|---|---|\n| 1 | 2 |', 'hard breaks, table rows untouched');
+  assert.equal(doc.stem.bn, 'মেলাও:  \nA. মালাক্কা  \nB. বেরিং');
+});
+
+test('awkward tables are normalised: side-by-side repeats stacked, repeated keys joined, duplicate rows dropped', () => {
+  const { normalizeTable } = require('../src/services/gkTableQuestions');
+  const side = normalizeTable({ caption: L('c', 'গ'), columns: [L('Element', 'মৌল'), L('Symbol', 'সংকেত'), L('Element', 'মৌল'), L('Symbol', 'সংকেত')], rows: [[L('Iron', 'লোহা'), L('Fe', 'Fe'), L('Gold', 'সোনা'), L('Au', 'Au')]] });
+  assert.deepEqual(side.rows.map((r) => r[0].en), ['Iron', 'Gold']);
+  assert.equal(side.columns.length, 2);
+  const summits = normalizeTable({ caption: L('c', 'গ'), columns: [L('Summit', 'সম্মেলন'), L('Year', 'বছর'), L('Host', 'আয়োজক')], rows: [
+    [L('G7', 'G7'), L('2025', '২০২৫'), L('Canada', 'কানাডা')], [L('G7', 'G7'), L('2026', '২০২৬'), L('France', 'ফ্রান্স')], [L('G7', 'G7'), L('2026', '২০২৬'), L('France', 'ফ্রান্স')],
+  ] });
+  assert.deepEqual(summits.rows.map((r) => r[0].en), ['G7 · 2025', 'G7 · 2026'], 'joined key; the duplicate row is gone');
+  assert.equal(summits.columns[0].en, 'Summit · Year');
 });

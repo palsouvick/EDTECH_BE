@@ -270,11 +270,36 @@ async function listFacts({ card, subtopic, q, difficulty, exam, year, month, min
   };
 }
 
+const MAX_HIGHLIGHTS = 12;
+
+/**
+ * The key points to highlight in a fact's text: the answers of its own questions (what the exam
+ * asks) that already appear word for word in the statement. Nothing outside the visible text is
+ * revealed. Longest first, so "24 October 1984" wins over "1984".
+ */
+async function highlightsFor(f) {
+  const ids = f.question_ids || [];
+  if (!ids.length) return { en: [], bn: [] };
+  const qs = await Question.find({ _id: { $in: ids }, status: 'PUBLISHED' }).select('options correct_option_id').lean();
+  const out = {};
+  for (const lang of ['en', 'bn']) {
+    const text = String(f.statement?.[lang] ?? '');
+    const lower = text.toLowerCase();
+    const terms = new Set();
+    for (const q of qs) {
+      const t = q.options.find((o) => o.oid === q.correct_option_id)?.text?.[lang]?.trim();
+      if (t && t.length >= 3 && t.length <= 60 && lower.includes(t.toLowerCase())) terms.add(t);
+    }
+    out[lang] = [...terms].sort((a, b) => b.length - a.length).slice(0, MAX_HIGHLIGHTS);
+  }
+  return out;
+}
+
 async function getFact(code, userId) {
   const f = await GkFact.findOne({ code: code.toUpperCase(), status: 'PUBLISHED' }).lean();
   if (!f) throw AppError.notFound('GK_FACT_NOT_FOUND', 'Fact not found');
-  const [states, related] = await Promise.all([statesFor(userId, [f._id]), relatedPacksFor([f])]);
-  return presentFact(f, states ? states.get(String(f._id)) ?? null : undefined, related.get(String(f._id)));
+  const [states, related, highlights] = await Promise.all([statesFor(userId, [f._id]), relatedPacksFor([f]), highlightsFor(f)]);
+  return { ...presentFact(f, states ? states.get(String(f._id)) ?? null : undefined, related.get(String(f._id))), highlights };
 }
 
 /** Months that have current-affairs facts, for the month/year filter. */

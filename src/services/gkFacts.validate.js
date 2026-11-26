@@ -143,6 +143,8 @@ function validateFact(f) {
     if (!/^https:\/\/[^\s/]+\.[^\s]+$/.test(s?.url || '')) err(`sources[${i}].url`, 'SOURCE_URL', 'source url must be an https link');
     if (!['OFFICIAL', 'INSTITUTIONAL', 'REFERENCE'].includes(s?.publisher_type)) err(`sources[${i}].publisher_type`, 'SOURCE_TYPE', 'publisher_type must be OFFICIAL, INSTITUTIONAL or REFERENCE');
     if (s?.accessed_at != null && !validDate(s.accessed_at)) err(`sources[${i}].accessed_at`, 'INVALID_DATE', 'accessed_at must be YYYY-MM-DD');
+    // The database caps a quote at 2000 characters; a longer one would fail the whole import.
+    if (typeof s?.quote === 'string' && s.quote.length > 2000) err(`sources[${i}].quote`, 'QUOTE_TOO_LONG', 'a quote may be at most 2000 characters; split it into several source entries');
   });
 
   const v = f.verification || {};
