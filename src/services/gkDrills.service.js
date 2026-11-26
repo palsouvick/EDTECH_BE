@@ -9,7 +9,7 @@
  */
 
 const path = require('node:path');
-const { GkFact, Question } = require('../models');
+const { GkFact, PracticeAttempt, Question } = require('../models');
 const { langSetsContaining } = require('../models/schemas/localized');
 const { PUBLIC_QUESTION_FIELDS, presentQuestion, compactLocalized } = require('./presenters');
 const AppError = require('../utils/AppError');
@@ -84,14 +84,29 @@ async function publishedQuestionIds(codes) {
   return perFact;
 }
 
-/** The drills that have enough published questions, in order, with their question counts. */
-async function listDrills() {
+/**
+ * The drills that have enough published questions, in order, with their question counts.
+ * Each drill also has poolSize (all its published questions); with a userId, `attempted` is
+ * how many of those the student has answered at least once.
+ */
+async function listDrills(userId = null) {
   const out = [];
+  const pools = [];
   for (const d of [...loadDrills()].sort((a, b) => a.order - b.order)) {
     const perFact = await publishedQuestionIds(d.facts);
-    const ids = perFact.flat();
-    const count = ids.length ? await Question.countDocuments({ _id: { $in: ids }, status: 'PUBLISHED' }) : 0;
-    if (count >= MIN_QUESTIONS) out.push({ id: d.id, group: d.group ?? null, title: compactLocalized(d.title), intro: compactLocalized(d.intro), questionCount: Math.min(count, MAX_QUESTIONS), facts: perFact.facts });
+    const ids = [...new Set(perFact.flat())];
+    const live = ids.length ? (await Question.distinct('_id', { _id: { $in: ids }, status: 'PUBLISHED' })).map(String) : [];
+    if (live.length >= MIN_QUESTIONS) {
+      out.push({ id: d.id, group: d.group ?? null, title: compactLocalized(d.title), intro: compactLocalized(d.intro), questionCount: Math.min(live.length, MAX_QUESTIONS), poolSize: live.length, facts: perFact.facts });
+      pools.push(live);
+    }
+  }
+  if (userId && out.length) {
+    const all = [...new Set(pools.flat())];
+    const done = new Set((await PracticeAttempt.distinct('question_id', { user_id: userId, question_id: { $in: all } })).map(String));
+    out.forEach((d, i) => {
+      d.attempted = pools[i].filter((x) => done.has(x)).length;
+    });
   }
   // Sections that have at least one visible drill, each with its mixed test.
   const groups = GROUPS.filter((g) => out.some((d) => d.group === g.id)).map((g) => {

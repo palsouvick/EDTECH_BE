@@ -180,7 +180,12 @@ test('API: drills list only those with enough published questions; questions car
     { id: 'unseeded', order: 2, title: { en: 'Not yet', bn: 'এখনও নয়' }, intro: { en: 'None.', bn: 'নেই।' }, facts: ['GK-SCI-124', 'GK-SCI-125'] },
   ]);
   const list = (await api('GET', '/gk/drills', null, null)).body.data.drills;
-  assert.deepEqual(list.map((d) => [d.id, d.questionCount]), [['detectives', 4]]);
+  assert.deepEqual(list.map((d) => [d.id, d.questionCount, d.poolSize]), [['detectives', 4, 4]]);
+  assert.equal(list[0].attempted, undefined, 'signed out: no progress');
+  // note_reader answered one drill question (twice) in the tests above: 1 attempted, 3 left.
+  const mine = (await api('GET', '/gk/drills', null, 'note_reader')).body.data.drills;
+  assert.equal(mine[0].attempted, 1);
+  assert.equal((await api('GET', '/gk/drills', null, 'nobody_yet')).body.data.drills[0].attempted, 0);
   const run = (await api('GET', '/gk/drills/detectives/questions?language=en', null, null)).body.data;
   assert.equal(run.questions.length, 4);
   assert.ok(run.questions.every((q) => !('correctOptionId' in q) && !('correct_option_id' in q)));

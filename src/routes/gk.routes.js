@@ -68,9 +68,9 @@ router.get('/facts/:code/questions', validate({ params: z.object({ code: factCod
   res.json({ success: true, data: await topicPacks.factQuestions(req.valid.params.code, req.valid.query.language) });
 });
 // Confusion drills: mixed questions from facts students mix up (db/gk/drills.json).
-router.get('/drills', async (_req, res) => {
-  res.set('Cache-Control', 'public, max-age=120');
-  res.json({ success: true, data: await gkDrills.listDrills() });
+router.get('/drills', async (req, res) => {
+  personal(req, res);
+  res.json({ success: true, data: await gkDrills.listDrills(req.user?.id) });
 });
 router.get('/drills/:id/questions', validate({ params: z.object({ id: z.string().regex(/^[a-z0-9_]{2,60}$/) }), query: z.object({ language: language.default('en') }) }), async (req, res) => {
   res.set('Cache-Control', 'private, no-store');
